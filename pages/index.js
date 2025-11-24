@@ -1,3 +1,9 @@
+import React from 'react';
+
 export default function HomePage() {
-  return <h1>Hola, mundo! Español App</h1>
+  return (
+    <div>
+      <h1>Hola, mundo! Español App</h1>
+    </div>
+  );
 }
