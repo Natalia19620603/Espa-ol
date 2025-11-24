@@ -1,13 +1,7 @@
-{
-  "name": "espa-ol-app",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "13.5.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+export default function HomePage() {
+    return (
+        <div>
+        <h1>Hola, mundo! Español App</h1>
+        </div>
+    );
 }
