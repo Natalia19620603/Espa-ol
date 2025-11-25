@@ -20,6 +20,8 @@ function ProfilePage() {
   const handleLogout = () => {
     // Удаляем данные пользователя
     localStorage.removeItem('user')
+    // Сначала обновляем состояние, чтобы избежать ошибок рендеринга
+    setUser(null)
     // Редирект на главную
     navigate('/')
   }
@@ -37,17 +39,17 @@ function ProfilePage() {
 
         <div className={styles.content}>
           <div className={styles.avatar}>
-            {user.name.charAt(0).toUpperCase()}
+            {user.name ? user.name.charAt(0).toUpperCase() : 'U'}
           </div>
 
           <div className={styles.infoGroup}>
             <label className={styles.label}>Имя</label>
-            <div className={styles.value}>{user.name}</div>
+            <div className={styles.value}>{user.name || 'Не указано'}</div>
           </div>
 
           <div className={styles.infoGroup}>
             <label className={styles.label}>Email</label>
-            <div className={styles.value}>{user.email}</div>
+            <div className={styles.value}>{user.email || 'Не указано'}</div>
           </div>
 
           <button onClick={handleLogout} className={styles.button}>
