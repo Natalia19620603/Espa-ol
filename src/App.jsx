@@ -6,6 +6,7 @@ import ProfilePage from './pages/ProfilePage'
 import CoursesPage from './pages/CoursesPage'
 import ModulePage from './pages/ModulePage'
 import LessonPage from './pages/LessonPage'
+import DebugPage from './pages/DebugPage'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/courses" element={<CoursesPage />} />
         <Route path="/module/:moduleId" element={<ModulePage />} />
         <Route path="/lesson/:lessonId" element={<LessonPage />} />
+        <Route path="/debug" element={<DebugPage />} />
       </Routes>
     </Router>
   )
