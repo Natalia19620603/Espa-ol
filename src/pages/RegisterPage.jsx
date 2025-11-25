@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import styles from './RegisterPage.module.css'
 
@@ -7,6 +7,14 @@ function RegisterPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const navigate = useNavigate()
+
+  // Проверка: если пользователь уже авторизован, перенаправляем на курсы
+  useEffect(() => {
+    const userData = localStorage.getItem('user')
+    if (userData) {
+      navigate('/courses')
+    }
+  }, [navigate])
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -36,7 +44,7 @@ function RegisterPage() {
               onChange={(e) => setName(e.target.value)}
               className={styles.input}
               placeholder="Введите ваше имя"
-              required
+              autoComplete="name"
             />
           </div>
 
@@ -49,7 +57,7 @@ function RegisterPage() {
               onChange={(e) => setEmail(e.target.value)}
               className={styles.input}
               placeholder="Введите ваш email"
-              required
+              autoComplete="email"
             />
           </div>
 
@@ -62,7 +70,7 @@ function RegisterPage() {
               onChange={(e) => setPassword(e.target.value)}
               className={styles.input}
               placeholder="Придумайте пароль"
-              required
+              autoComplete="new-password"
             />
           </div>
 
