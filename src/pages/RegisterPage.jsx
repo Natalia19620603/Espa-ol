@@ -15,8 +15,8 @@ function RegisterPage() {
     if (name && email && password) {
       // Сохраняем данные пользователя в localStorage
       localStorage.setItem('user', JSON.stringify({ name, email }))
-      // Редирект на профиль
-      navigate('/profile')
+      // Редирект на курсы
+      navigate('/courses')
     } else {
       alert('Пожалуйста, заполните все поля')
     }

@@ -52,6 +52,10 @@ function ProfilePage() {
             <div className={styles.value}>{user.email || 'Не указано'}</div>
           </div>
 
+          <button onClick={() => navigate('/courses')} className={styles.coursesButton}>
+            📚 Перейти к курсам
+          </button>
+
           <button onClick={handleLogout} className={styles.button}>
             Выйти
           </button>
