@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import styles from './LoginPage.module.css'
 
@@ -7,6 +7,14 @@ function LoginPage() {
   const [password, setPassword] = useState('')
   const navigate = useNavigate()
 
+  // Проверка: если пользователь уже авторизован, перенаправляем на курсы
+  useEffect(() => {
+    const userData = localStorage.getItem('user')
+    if (userData) {
+      navigate('/courses')
+    }
+  }, [navigate])
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -14,11 +22,20 @@ function LoginPage() {
     if (email && password) {
       // Сохраняем данные пользователя в localStorage
       localStorage.setItem('user', JSON.stringify({ email, name: 'Пользователь' }))
-      // Редирект на профиль
-      navigate('/profile')
+      // Редирект на курсы
+      navigate('/courses')
     } else {
       alert('Пожалуйста, заполните все поля')
     }
+  }
+
+  // Демо-вход для тестирования
+  const handleDemoLogin = () => {
+    localStorage.setItem('user', JSON.stringify({
+      email: 'demo@example.com',
+      name: 'Демо пользователь'
+    }))
+    navigate('/courses')
   }
 
   return (
@@ -35,7 +52,7 @@ function LoginPage() {
               onChange={(e) => setEmail(e.target.value)}
               className={styles.input}
               placeholder="Введите ваш email"
-              required
+              autoComplete="email"
             />
           </div>
 
@@ -48,12 +65,20 @@ function LoginPage() {
               onChange={(e) => setPassword(e.target.value)}
               className={styles.input}
               placeholder="Введите пароль"
-              required
+              autoComplete="current-password"
             />
           </div>
 
           <button type="submit" className={styles.button}>
             Войти
+          </button>
+
+          <button
+            type="button"
+            onClick={handleDemoLogin}
+            className={styles.demoButton}
+          >
+            🚀 Быстрый вход (демо)
           </button>
         </form>
 
