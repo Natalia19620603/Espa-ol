@@ -82,6 +82,14 @@
   margin-bottom: 2rem;
 }
 
+.hint {
+  color: #888;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
 .options {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

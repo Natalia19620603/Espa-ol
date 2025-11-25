@@ -26,7 +26,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     let correct = 0
     exercise.questions.forEach((question, index) => {
       const userAnswer = finalAnswers[index]
-      if (exercise.type === 'writing') {
+      if (exercise.type === 'writing' || exercise.type === 'fillblank') {
         if (userAnswer?.toLowerCase().trim() === question.correct?.toLowerCase().trim()) {
           correct++
         }
@@ -138,6 +138,24 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           )}
           {exercise.type === 'writing' && (
             <WritingQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'fillblank' && (
+            <FillBlankQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'ser-estar' && (
+            <SerEstarQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'articles' && (
+            <ArticlesQuestion
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
             />
@@ -260,6 +278,73 @@ function WritingQuestion({ question, onAnswer }) {
           Ответить
         </button>
       </form>
+    </div>
+  )
+}
+
+function FillBlankQuestion({ question, onAnswer }) {
+  const [input, setInput] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    onAnswer(input)
+  }
+
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>{question.sentence}</h3>
+      <p className={styles.hint}>Глагол: {question.verb}</p>
+      <form onSubmit={handleSubmit} className={styles.writingForm}>
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className={styles.writingInput}
+          placeholder="Введите правильную форму глагола"
+          autoFocus
+        />
+        <button type="submit" className={styles.submitBtn}>
+          Ответить
+        </button>
+      </form>
+    </div>
+  )
+}
+
+function SerEstarQuestion({ question, onAnswer }) {
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>{question.sentence}</h3>
+      <div className={styles.options}>
+        {question.options.map((option, index) => (
+          <button
+            key={index}
+            onClick={() => onAnswer(index)}
+            className={styles.optionBtn}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function ArticlesQuestion({ question, onAnswer }) {
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>Выберите правильный артикль для: <strong>{question.word}</strong></h3>
+      <div className={styles.options}>
+        {question.options.map((option, index) => (
+          <button
+            key={index}
+            onClick={() => onAnswer(index)}
+            className={styles.optionBtn}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
     </div>
   )
 }
