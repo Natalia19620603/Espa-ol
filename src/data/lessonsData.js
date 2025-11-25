@@ -42,6 +42,48 @@ export const modules = {
     level: 'beginner',
     lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3'],
     description: 'Лексика о семье, работе, хобби'
+  },
+  'module-4': {
+    id: 'module-4',
+    title: 'Модуль 4: Прошедшее время',
+    level: 'elementary',
+    lessons: ['lesson-4-1', 'lesson-4-2', 'lesson-4-3'],
+    description: 'Pretérito perfecto и прошедшие события'
+  },
+  'module-5': {
+    id: 'module-5',
+    title: 'Модуль 5: Путешествия и места',
+    level: 'elementary',
+    lessons: ['lesson-5-1', 'lesson-5-2', 'lesson-5-3'],
+    description: 'Лексика путешествий, направления, транспорт'
+  },
+  'module-6': {
+    id: 'module-6',
+    title: 'Модуль 6: Будущее время',
+    level: 'elementary',
+    lessons: ['lesson-6-1', 'lesson-6-2', 'lesson-6-3'],
+    description: 'Планы, намерения, предсказания'
+  },
+  'module-7': {
+    id: 'module-7',
+    title: 'Модуль 7: Сослагательное наклонение',
+    level: 'intermediate',
+    lessons: ['lesson-7-1', 'lesson-7-2', 'lesson-7-3'],
+    description: 'Subjuntivo presente: желания, сомнения, эмоции'
+  },
+  'module-8': {
+    id: 'module-8',
+    title: 'Модуль 8: Условные предложения',
+    level: 'intermediate',
+    lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3'],
+    description: 'Условное наклонение, гипотетические ситуации'
+  },
+  'module-9': {
+    id: 'module-9',
+    title: 'Модуль 9: Литература и культура',
+    level: 'intermediate',
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
+    description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
 
@@ -183,6 +225,342 @@ export const lessons = {
       { word: 'edad', translation: 'возраст', audioUrl: null }
     ],
     exercises: ['ex-1-3-1', 'ex-1-3-2']
+  },
+
+  // МОДУЛЬ 2: Настоящее время
+  'lesson-2-1': {
+    id: 'lesson-2-1',
+    title: 'Урок 1: Правильные глаголы на -AR',
+    moduleId: 'module-2',
+    grammar: {
+      title: 'Спряжение глаголов на -AR',
+      content: `
+# Правильные глаголы на -AR (Verbos regulares -AR)
+
+Большинство глаголов в испанском оканчиваются на -AR, -ER, -IR.
+
+## Спряжение глаголов на -AR в настоящем времени:
+
+**HABLAR (говорить)**
+
+| Местоимение | Форма | Перевод |
+|-------------|-------|---------|
+| yo | hablo | я говорю |
+| tú | hablas | ты говоришь |
+| él/ella/usted | habla | он/она говорит |
+| nosotros/as | hablamos | мы говорим |
+| vosotros/as | habláis | вы говорите |
+| ellos/ellas/ustedes | hablan | они говорят |
+
+## Другие частые глаголы на -AR:
+- **estudiar** - учиться, изучать
+- **trabajar** - работать
+- **caminar** - ходить, гулять
+- **bailar** - танцевать
+- **cantar** - петь
+- **comprar** - покупать
+- **cocinar** - готовить
+      `,
+      examples: [
+        { spanish: 'Yo estudio español', translation: 'Я изучаю испанский' },
+        { spanish: 'Ella trabaja en Madrid', translation: 'Она работает в Мадриде' },
+        { spanish: 'Nosotros caminamos en el parque', translation: 'Мы гуляем в парке' }
+      ]
+    },
+    vocabulary: [
+      { word: 'hablar', translation: 'говорить', audioUrl: null },
+      { word: 'estudiar', translation: 'учиться, изучать', audioUrl: null },
+      { word: 'trabajar', translation: 'работать', audioUrl: null },
+      { word: 'caminar', translation: 'ходить, гулять', audioUrl: null },
+      { word: 'bailar', translation: 'танцевать', audioUrl: null },
+      { word: 'cantar', translation: 'петь', audioUrl: null },
+      { word: 'comprar', translation: 'покупать', audioUrl: null },
+      { word: 'cocinar', translation: 'готовить', audioUrl: null },
+      { word: 'escuchar', translation: 'слушать', audioUrl: null },
+      { word: 'mirar', translation: 'смотреть', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mi rutina diaria',
+      content: `Me llamo Ana y soy estudiante. Todos los días me levanto a las siete de la mañana. Desayuno café con tostadas y después camino hasta la universidad. Estudio literatura española y me gusta mucho.
+
+Por las tardes, trabajo en una cafetería. Hablo con los clientes y preparo bebidas. Mi mejor amiga María trabaja conmigo. Ella canta muy bien y a veces toca la guitarra en la cafetería.
+
+Por las noches, regreso a casa y cocino la cena. Después, estudio un poco más o miro una película. Los fines de semana, bailamos salsa con amigos. Me encanta bailar y escuchar música latina.
+
+La vida de estudiante es ocupada pero muy interesante. Aprendo algo nuevo cada día y conozco personas de diferentes países. En la universidad hablamos español, inglés y a veces francés.`,
+      translation: 'Меня зовут Ана и я студентка. Каждый день я встаю в семь утра. Завтракаю кофе с тостами и потом иду пешком до университета. Я изучаю испанскую литературу и мне это очень нравится...'
+    },
+    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5']
+  },
+  'lesson-2-2': {
+    id: 'lesson-2-2',
+    title: 'Урок 2: Правильные глаголы на -ER и -IR',
+    moduleId: 'module-2',
+    grammar: {
+      title: 'Спряжение глаголов на -ER и -IR',
+      content: `
+# Глаголы на -ER и -IR
+
+## COMER (есть, кушать) - глагол на -ER
+
+| Местоимение | Forma |
+|-------------|-------|
+| yo | como |
+| tú | comes |
+| él/ella/usted | come |
+| nosotros/as | comemos |
+| vosotros/as | coméis |
+| ellos/ellas/ustedes | comen |
+
+## VIVIR (жить) - глагол на -IR
+
+| Местоимение | Forma |
+|-------------|-------|
+| yo | vivo |
+| tú | vives |
+| él/ella/usted | vive |
+| nosotros/as | vivimos |
+| vosotros/as | vivís |
+| ellos/ellas/ustedes | viven |
+
+## Другие частые глаголы:
+**-ER:** beber (пить), leer (читать), aprender (учиться), vender (продавать)
+**-IR:** escribir (писать), abrir (открывать), recibir (получать)
+      `,
+      examples: [
+        { spanish: 'Como pizza los viernes', translation: 'Я ем пиццу по пятницам' },
+        { spanish: 'Ellos viven en Barcelona', translation: 'Они живут в Барселоне' },
+        { spanish: 'Leemos libros interesantes', translation: 'Мы читаем интересные книги' }
+      ]
+    },
+    vocabulary: [
+      { word: 'comer', translation: 'есть, кушать', audioUrl: null },
+      { word: 'beber', translation: 'пить', audioUrl: null },
+      { word: 'leer', translation: 'читать', audioUrl: null },
+      { word: 'aprender', translation: 'учиться, изучать', audioUrl: null },
+      { word: 'vivir', translation: 'жить', audioUrl: null },
+      { word: 'escribir', translation: 'писать', audioUrl: null },
+      { word: 'abrir', translation: 'открывать', audioUrl: null },
+      { word: 'recibir', translation: 'получать', audioUrl: null }
+    ],
+    readingText: {
+      title: 'La familia García',
+      content: `La familia García vive en un apartamento en el centro de Madrid. Son cuatro personas: el padre Antonio, la madre Carmen, y sus dos hijos, Pablo y Lucía.
+
+Antonio trabaja como profesor en una escuela. Enseña matemáticas y le gusta mucho su trabajo. Por las mañanas, lee el periódico mientras bebe café. Carmen es médica y trabaja en un hospital. Ella ayuda a muchas personas cada día.
+
+Pablo tiene 15 años y estudia en el instituto. Le encanta leer libros de aventuras y escribir cuentos. Su hermana Lucía tiene 12 años. Ella aprende a tocar el piano y practica todos los días. También le gusta pintar y tiene muchos cuadros en su habitación.
+
+Los fines de semana, la familia come junta en casa. Preparan platos tradicionales españoles como paella o tortilla. Por las tardes, caminan por el Parque del Retiro. Es su lugar favorito en Madrid. A veces visitan museos o van al cine.
+
+Los García son una familia muy unida. Comparten sus experiencias, aprenden unos de otros y disfrutan del tiempo juntos.`,
+      translation: 'Семья Гарсия живет в квартире в центре Мадрида. Их четыре человека: отец Антонио, мать Кармен, и их двое детей, Пабло и Люсия...'
+    },
+    exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
+  },
+  'lesson-2-3': {
+    id: 'lesson-2-3',
+    title: 'Урок 3: Неправильные глаголы',
+    moduleId: 'module-2',
+    grammar: {
+      title: 'Основные неправильные глаголы',
+      content: `
+# Неправильные глаголы (Verbos irregulares)
+
+## IR (идти, ехать)
+yo voy, tú vas, él/ella va, nosotros vamos, vosotros vais, ellos van
+
+## HACER (делать)
+yo hago, tú haces, él/ella hace, nosotros hacemos, vosotros hacéis, ellos hacen
+
+## ESTAR (быть, находиться)
+yo estoy, tú estás, él/ella está, nosotros estamos, vosotros estáis, ellos están
+
+## VENIR (приходить)
+yo vengo, tú vienes, él/ella viene, nosotros venimos, vosotros venís, ellos vienen
+
+## Разница SER и ESTAR:
+- **SER** - постоянные качества: Soy alto (Я высокий)
+- **ESTAR** - временные состояния: Estoy cansado (Я уставший)
+      `,
+      examples: [
+        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
+        { spanish: 'Hago mi tarea', translation: 'Я делаю свое домашнее задание' },
+        { spanish: 'Estoy en casa', translation: 'Я нахожусь дома' }
+      ]
+    },
+    vocabulary: [
+      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
+      { word: 'hacer', translation: 'делать', audioUrl: null },
+      { word: 'estar', translation: 'быть, находиться', audioUrl: null },
+      { word: 'venir', translation: 'приходить', audioUrl: null },
+      { word: 'tener', translation: 'иметь', audioUrl: null },
+      { word: 'poder', translation: 'мочь', audioUrl: null },
+      { word: 'querer', translation: 'хотеть', audioUrl: null },
+      { word: 'saber', translation: 'знать', audioUrl: null }
+    ],
+    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
+  },
+
+  // МОДУЛЬ 3: Повседневная жизнь
+  'lesson-3-1': {
+    id: 'lesson-3-1',
+    title: 'Урок 1: Семья и родственники',
+    moduleId: 'module-3',
+    grammar: {
+      title: 'Притяжательные местоимения',
+      content: `
+# Притяжательные местоимения (Posesivos)
+
+## Краткая форма (перед существительным):
+
+| Русский | Español (ед.ч) | Español (мн.ч) |
+|---------|----------------|----------------|
+| мой/моя | mi | mis |
+| твой/твоя | tu | tus |
+| его/ее/Ваш | su | sus |
+| наш/наша | nuestro/nuestra | nuestros/nuestras |
+| ваш/ваша | vuestro/vuestra | vuestros/vuestras |
+| их/Ваш | su | sus |
+
+## Примеры:
+- **Mi padre** - мой отец
+- **Mis hermanos** - мои братья
+- **Nuestra casa** - наш дом
+- **Sus hijos** - его/ее/их дети
+      `,
+      examples: [
+        { spanish: 'Mi familia es grande', translation: 'Моя семья большая' },
+        { spanish: 'Tu hermana es simpática', translation: 'Твоя сестра симпатичная' },
+        { spanish: 'Nuestros padres viven aquí', translation: 'Наши родители живут здесь' }
+      ]
+    },
+    vocabulary: [
+      { word: 'familia', translation: 'семья', audioUrl: null },
+      { word: 'padre', translation: 'отец', audioUrl: null },
+      { word: 'madre', translation: 'мать', audioUrl: null },
+      { word: 'hermano', translation: 'брат', audioUrl: null },
+      { word: 'hermana', translation: 'сестра', audioUrl: null },
+      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
+      { word: 'abuela', translation: 'бабушка', audioUrl: null },
+      { word: 'hijo', translation: 'сын', audioUrl: null },
+      { word: 'hija', translation: 'дочь', audioUrl: null },
+      { word: 'tío', translation: 'дядя', audioUrl: null },
+      { word: 'tía', translation: 'тетя', audioUrl: null },
+      { word: 'primo/prima', translation: 'двоюродный брат/сестра', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mi familia',
+      content: `Me llamo Carlos y voy a hablar sobre mi familia. Somos seis personas en total. Vivimos en una casa grande en las afueras de Valencia.
+
+Mis padres se llaman José y María. Mi padre es ingeniero y trabaja en una empresa de construcción. Le gusta mucho su trabajo porque construye edificios importantes. Mi madre es profesora de inglés en una escuela primaria. Ella ama enseñar a los niños y siempre llega a casa con historias interesantes.
+
+Tengo dos hermanos: mi hermano mayor Pedro tiene 20 años y estudia medicina en la universidad. Quiere ser médico como nuestro abuelo. Mi hermana pequeña Laura tiene solo 8 años. Es muy traviesa pero adorable. Le encanta dibujar y jugar con nuestro perro Max.
+
+También vivo con mi abuela paterna, la madre de mi padre. Ella tiene 75 años pero es muy activa. Cocina delicioso y nos cuenta historias de cuando era joven. Todos los domingos, toda la familia come junta. Mi abuela prepara su famosa paella valenciana.
+
+Tengo muchos tíos, tías y primos, pero no viven con nosotros. Los vemos en las fiestas y vacaciones. Mi tío Alberto vive en Barcelona y trabaja como músico. Cuando nos visita, toca la guitarra y cantamos juntos.
+
+Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos mucho tiempo juntos y nos apoyamos en todo momento.`,
+      translation: 'Меня зовут Карлос и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии...'
+    },
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4']
+  },
+  'lesson-3-2': {
+    id: 'lesson-3-2',
+    title: 'Урок 2: Работа и профессии',
+    moduleId: 'module-3',
+    grammar: {
+      title: 'Артикли и род существительных',
+      content: `
+# Артикли (Artículos)
+
+## Определенные артикли (el, la, los, las):
+
+| Род | Единственное | Множественное |
+|-----|--------------|---------------|
+| Мужской | el (el libro) | los (los libros) |
+| Женский | la (la casa) | las (las casas) |
+
+## Неопределенные артикли (un, una, unos, unas):
+
+| Род | Единственное | Множественное |
+|-----|--------------|---------------|
+| Мужской | un (un perro) | unos (unos perros) |
+| Женский | una (una gata) | unas (unas gatas) |
+
+## Род профессий:
+- Мужской: **el médico**, **el profesor**, **el ingeniero**
+- Женский: **la médica**, **la profesora**, **la ingeniera**
+      `,
+      examples: [
+        { spanish: 'Soy un estudiante', translation: 'Я студент' },
+        { spanish: 'Ella es la profesora', translation: 'Она учительница' },
+        { spanish: 'Ellos son médicos', translation: 'Они врачи' }
+      ]
+    },
+    vocabulary: [
+      { word: 'médico/a', translation: 'врач', audioUrl: null },
+      { word: 'profesor/a', translation: 'учитель', audioUrl: null },
+      { word: 'ingeniero/a', translation: 'инженер', audioUrl: null },
+      { word: 'abogado/a', translation: 'адвокат', audioUrl: null },
+      { word: 'enfermero/a', translation: 'медсестра', audioUrl: null },
+      { word: 'cocinero/a', translation: 'повар', audioUrl: null },
+      { word: 'policía', translation: 'полицейский', audioUrl: null },
+      { word: 'bombero/a', translation: 'пожарный', audioUrl: null },
+      { word: 'cantante', translation: 'певец/певица', audioUrl: null },
+      { word: 'escritor/a', translation: 'писатель', audioUrl: null }
+    ],
+    exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3']
+  },
+  'lesson-3-3': {
+    id: 'lesson-3-3',
+    title: 'Урок 3: Хобби и свободное время',
+    moduleId: 'module-3',
+    grammar: {
+      title: 'Глаголы GUSTAR, ENCANTAR',
+      content: `
+# Глаголы GUSTAR (нравиться) и ENCANTAR (обожать)
+
+Эти глаголы имеют особую конструкцию:
+
+## Схема: Местоимение + GUSTA/GUSTAN + существительное
+
+**С единственным числом (gusta):**
+- Me **gusta** el café - Мне нравится кофе
+- Te **gusta** la música - Тебе нравится музыка
+- Le **gusta** bailar - Ему/ей нравится танцевать
+
+**С множественным числом (gustan):**
+- Me **gustan** los libros - Мне нравятся книги
+- Te **gustan** las películas - Тебе нравятся фильмы
+- Nos **gustan** los deportes - Нам нравятся виды спорта
+
+## Косвенные местоимения:
+me (мне), te (тебе), le (ему/ей/Вам), nos (нам), os (вам), les (им/Вам)
+
+## ENCANTAR используется так же:
+Me **encanta** la playa - Я обожаю пляж
+      `,
+      examples: [
+        { spanish: 'Me gusta leer', translation: 'Мне нравится читать' },
+        { spanish: 'Nos encanta viajar', translation: 'Мы обожаем путешествовать' },
+        { spanish: 'Les gustan los deportes', translation: 'Им нравятся виды спорта' }
+      ]
+    },
+    vocabulary: [
+      { word: 'deporte', translation: 'спорт', audioUrl: null },
+      { word: 'música', translation: 'музыка', audioUrl: null },
+      { word: 'cine', translation: 'кино', audioUrl: null },
+      { word: 'libro', translation: 'книга', audioUrl: null },
+      { word: 'película', translation: 'фильм', audioUrl: null },
+      { word: 'fútbol', translation: 'футбол', audioUrl: null },
+      { word: 'natación', translation: 'плавание', audioUrl: null },
+      { word: 'pintura', translation: 'живопись', audioUrl: null },
+      { word: 'fotografía', translation: 'фотография', audioUrl: null },
+      { word: 'viaje', translation: 'путешествие', audioUrl: null }
+    ],
+    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3']
   }
 }
 
@@ -309,6 +687,269 @@ María: Muy bien, gracias.
       { sentence: 'Yo ___ 25 años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
       { sentence: 'Tú ___ un libro', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
       { sentence: 'Ella ___ dos hermanos', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 }
+    ]
+  },
+
+  // Упражнения модуля 2
+  'ex-2-1-1': {
+    id: 'ex-2-1-1',
+    type: 'grammar',
+    title: 'Спряжение -AR глаголов',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'Yo ___ (hablar) español', options: ['hablo', 'hablas', 'habla', 'hablan'], correct: 0 },
+      { sentence: 'Tú ___ (estudiar) mucho', options: ['estudio', 'estudias', 'estudia', 'estudian'], correct: 1 },
+      { sentence: 'Ella ___ (trabajar) aquí', options: ['trabajo', 'trabajas', 'trabaja', 'trabajamos'], correct: 2 },
+      { sentence: 'Nosotros ___ (caminar) en el parque', options: ['camino', 'caminas', 'camina', 'caminamos'], correct: 3 },
+      { sentence: 'Ellos ___ (bailar) salsa', options: ['bailo', 'bailas', 'baila', 'bailan'], correct: 3 }
+    ]
+  },
+  'ex-2-1-2': {
+    id: 'ex-2-1-2',
+    type: 'vocabulary',
+    title: 'Глаголы действия',
+    description: 'Сопоставьте глагол с переводом',
+    questions: [
+      { spanish: 'hablar', options: ['работать', 'говорить', 'учиться', 'готовить'], correct: 1 },
+      { spanish: 'cocinar', options: ['танцевать', 'петь', 'готовить', 'покупать'], correct: 2 },
+      { spanish: 'bailar', options: ['танцевать', 'гулять', 'работать', 'слушать'], correct: 0 },
+      { spanish: 'comprar', options: ['готовить', 'покупать', 'продавать', 'учиться'], correct: 1 }
+    ]
+  },
+  'ex-2-1-3': {
+    id: 'ex-2-1-3',
+    type: 'reading',
+    title: 'Чтение: Rutina diaria',
+    description: 'Прочитайте текст и ответьте',
+    text: 'Ana se levanta a las siete. Desayuna café y camina a la universidad. Estudia literatura. Por las tardes trabaja en una cafetería.',
+    questions: [
+      { question: 'Во сколько встает Ана?', options: ['В 6:00', 'В 7:00', 'В 8:00', 'В 9:00'], correct: 1 },
+      { question: 'Что изучает Ана?', options: ['Математику', 'Литературу', 'Медицину', 'Историю'], correct: 1 },
+      { question: 'Где работает Ана?', options: ['В школе', 'В больнице', 'В кафетерии', 'В музее'], correct: 2 }
+    ]
+  },
+  'ex-2-1-4': {
+    id: 'ex-2-1-4',
+    type: 'writing',
+    title: 'Переведите предложения',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Я говорю', correct: 'hablo' },
+      { russian: 'Ты работаешь', correct: 'trabajas' },
+      { russian: 'Она учится', correct: 'estudia' },
+      { russian: 'Мы гуляем', correct: 'caminamos' }
+    ]
+  },
+  'ex-2-1-5': {
+    id: 'ex-2-1-5',
+    type: 'fillblank',
+    title: 'Заполните пропуски',
+    description: 'Вставьте правильную форму глагола',
+    questions: [
+      { sentence: 'Yo _____ (estudiar) español todos los días', verb: 'estudiar', correct: 'estudio' },
+      { sentence: 'María _____ (cocinar) muy bien', verb: 'cocinar', correct: 'cocina' },
+      { sentence: 'Nosotros _____ (hablar) tres idiomas', verb: 'hablar', correct: 'hablamos' }
+    ]
+  },
+  'ex-2-2-1': {
+    id: 'ex-2-2-1',
+    type: 'grammar',
+    title: 'Глаголы -ER и -IR',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Yo ___ (comer) pasta', options: ['como', 'comes', 'come', 'comen'], correct: 0 },
+      { sentence: 'Ellos ___ (vivir) en España', options: ['vivo', 'vives', 'vive', 'viven'], correct: 3 },
+      { sentence: 'Tú ___ (beber) agua', options: ['bebo', 'bebes', 'bebe', 'bebemos'], correct: 1 },
+      { sentence: 'Nosotros ___ (escribir) emails', options: ['escribo', 'escribes', 'escribe', 'escribimos'], correct: 3 }
+    ]
+  },
+  'ex-2-2-2': {
+    id: 'ex-2-2-2',
+    type: 'vocabulary',
+    title: 'Словарный запас -ER/-IR',
+    description: 'Выберите перевод',
+    questions: [
+      { spanish: 'leer', options: ['писать', 'читать', 'жить', 'пить'], correct: 1 },
+      { spanish: 'vivir', options: ['есть', 'пить', 'жить', 'открывать'], correct: 2 },
+      { spanish: 'escribir', options: ['писать', 'читать', 'получать', 'продавать'], correct: 0 }
+    ]
+  },
+  'ex-2-2-3': {
+    id: 'ex-2-2-3',
+    type: 'reading',
+    title: 'Чтение: Familia García',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'La familia García vive en Madrid. Antonio es profesor y Carmen es médica. Pablo lee libros y Lucía aprende piano.',
+    questions: [
+      { question: 'Где живет семья?', options: ['В Барселоне', 'В Мадриде', 'В Валенсии', 'В Севилье'], correct: 1 },
+      { question: 'Кто такая Кармен?', options: ['Учительница', 'Врач', 'Медсестра', 'Инженер'], correct: 1 },
+      { question: 'Что делает Люсия?', options: ['Читает книги', 'Учит пиано', 'Рисует', 'Играет в футбол'], correct: 1 }
+    ]
+  },
+  'ex-2-2-4': {
+    id: 'ex-2-2-4',
+    type: 'writing',
+    title: 'Составьте предложения',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Я ем', correct: 'como' },
+      { russian: 'Они живут', correct: 'viven' },
+      { russian: 'Мы читаем', correct: 'leemos' },
+      { russian: 'Ты пишешь', correct: 'escribes' }
+    ]
+  },
+  'ex-2-3-1': {
+    id: 'ex-2-3-1',
+    type: 'grammar',
+    title: 'Неправильные глаголы',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Yo ___ (ir) al cine', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
+      { sentence: 'Tú ___ (hacer) ejercicio', options: ['hago', 'haces', 'hace', 'hacen'], correct: 1 },
+      { sentence: 'Ella ___ (estar) en casa', options: ['estoy', 'estás', 'está', 'están'], correct: 2 },
+      { sentence: 'Nosotros ___ (venir) mañana', options: ['vengo', 'vienes', 'viene', 'venimos'], correct: 3 }
+    ]
+  },
+  'ex-2-3-2': {
+    id: 'ex-2-3-2',
+    type: 'ser-estar',
+    title: 'SER vs ESTAR',
+    description: 'Выберите правильный глагол',
+    questions: [
+      { sentence: '___ alto (я высокий - постоянное)', options: ['Soy', 'Estoy'], correct: 0 },
+      { sentence: '___ cansado (я уставший - временное)', options: ['Soy', 'Estoy'], correct: 1 },
+      { sentence: 'María ___ médica (профессия)', options: ['es', 'está'], correct: 0 },
+      { sentence: 'El libro ___ en la mesa (местонахождение)', options: ['es', 'está'], correct: 1 }
+    ]
+  },
+  'ex-2-3-3': {
+    id: 'ex-2-3-3',
+    type: 'writing',
+    title: 'Неправильные глаголы',
+    description: 'Напишите форму глагола',
+    questions: [
+      { russian: 'Я иду (ir)', correct: 'voy' },
+      { russian: 'Ты делаешь (hacer)', correct: 'haces' },
+      { russian: 'Мы находимся (estar)', correct: 'estamos' }
+    ]
+  },
+
+  // Упражнения модуля 3
+  'ex-3-1-1': {
+    id: 'ex-3-1-1',
+    type: 'vocabulary',
+    title: 'Семья',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'padre', options: ['мать', 'отец', 'брат', 'дедушка'], correct: 1 },
+      { spanish: 'hermana', options: ['сестра', 'брат', 'мать', 'тетя'], correct: 0 },
+      { spanish: 'abuelo', options: ['отец', 'дядя', 'дедушка', 'брат'], correct: 2 },
+      { spanish: 'tío', options: ['брат', 'дядя', 'отец', 'дедушка'], correct: 1 }
+    ]
+  },
+  'ex-3-1-2': {
+    id: 'ex-3-1-2',
+    type: 'grammar',
+    title: 'Притяжательные местоимения',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: '___ padre (мой отец)', options: ['Mi', 'Tu', 'Su', 'Nuestro'], correct: 0 },
+      { sentence: '___ hermanos (твои братья)', options: ['Mis', 'Tus', 'Sus', 'Nuestros'], correct: 1 },
+      { sentence: '___ casa (наш дом)', options: ['Mi', 'Tu', 'Su', 'Nuestra'], correct: 3 },
+      { sentence: '___ hijos (их дети)', options: ['Mis', 'Tus', 'Sus', 'Nuestros'], correct: 2 }
+    ]
+  },
+  'ex-3-1-3': {
+    id: 'ex-3-1-3',
+    type: 'reading',
+    title: 'Чтение: Mi familia',
+    description: 'Ответьте на вопросы о семье Карлоса',
+    text: 'Carlos vive con sus padres, dos hermanos y su abuela. Su padre es ingeniero y su madre es profesora. Pedro estudia medicina y Laura dibuja.',
+    questions: [
+      { question: 'Сколько человек в семье Карлоса?', options: ['4', '5', '6', '7'], correct: 2 },
+      { question: 'Кто такой Педро?', options: ['Отец', 'Дядя', 'Брат', 'Дедушка'], correct: 2 },
+      { question: 'Что изучает Педро?', options: ['Литературу', 'Медицину', 'Инженерию', 'Музыку'], correct: 1 }
+    ]
+  },
+  'ex-3-1-4': {
+    id: 'ex-3-1-4',
+    type: 'writing',
+    title: 'О семье',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'моя семья', correct: 'mi familia' },
+      { russian: 'твоя мать', correct: 'tu madre' },
+      { russian: 'наш отец', correct: 'nuestro padre' },
+      { russian: 'их бабушка', correct: 'su abuela' }
+    ]
+  },
+  'ex-3-2-1': {
+    id: 'ex-3-2-1',
+    type: 'vocabulary',
+    title: 'Профессии',
+    description: 'Выберите перевод профессии',
+    questions: [
+      { spanish: 'médico', options: ['учитель', 'врач', 'инженер', 'повар'], correct: 1 },
+      { spanish: 'profesor', options: ['учитель', 'студент', 'врач', 'писатель'], correct: 0 },
+      { spanish: 'cocinero', options: ['врач', 'учитель', 'повар', 'певец'], correct: 2 },
+      { spanish: 'escritor', options: ['певец', 'писатель', 'учитель', 'врач'], correct: 1 }
+    ]
+  },
+  'ex-3-2-2': {
+    id: 'ex-3-2-2',
+    type: 'articles',
+    title: 'Артикли',
+    description: 'Выберите правильный артикль',
+    questions: [
+      { word: 'libro (книга)', options: ['el', 'la', 'los', 'las'], correct: 0 },
+      { word: 'casa (дом)', options: ['el', 'la', 'los', 'las'], correct: 1 },
+      { word: 'libros (книги)', options: ['el', 'la', 'los', 'las'], correct: 2 },
+      { word: 'casas (дома)', options: ['el', 'la', 'los', 'las'], correct: 3 }
+    ]
+  },
+  'ex-3-2-3': {
+    id: 'ex-3-2-3',
+    type: 'writing',
+    title: 'Профессии с артиклями',
+    description: 'Напишите с правильным артиклем',
+    questions: [
+      { russian: 'врач (муж.)', correct: 'el médico' },
+      { russian: 'учительница', correct: 'la profesora' },
+      { russian: 'инженеры (мн.ч.)', correct: 'los ingenieros' }
+    ]
+  },
+  'ex-3-3-1': {
+    id: 'ex-3-3-1',
+    type: 'grammar',
+    title: 'Глагол GUSTAR',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Me ___ el café (ед.ч.)', options: ['gusta', 'gustan', 'gustas', 'gusto'], correct: 0 },
+      { sentence: 'Te ___ los deportes (мн.ч.)', options: ['gusta', 'gustan', 'gustas', 'gusto'], correct: 1 },
+      { sentence: 'Nos ___ bailar', options: ['gusta', 'gustan', 'gustamos', 'gusto'], correct: 0 },
+      { sentence: 'Les ___ las películas', options: ['gusta', 'gustan', 'gustas', 'gusto'], correct: 1 }
+    ]
+  },
+  'ex-3-3-2': {
+    id: 'ex-3-3-2',
+    type: 'vocabulary',
+    title: 'Хобби и интересы',
+    description: 'Сопоставьте слова',
+    questions: [
+      { spanish: 'deporte', options: ['музыка', 'спорт', 'кино', 'книга'], correct: 1 },
+      { spanish: 'película', options: ['фильм', 'книга', 'музыка', 'спорт'], correct: 0 },
+      { spanish: 'natación', options: ['футбол', 'плавание', 'живопись', 'фотография'], correct: 1 }
+    ]
+  },
+  'ex-3-3-3': {
+    id: 'ex-3-3-3',
+    type: 'writing',
+    title: 'Что вам нравится?',
+    description: 'Напишите по-испански',
+    questions: [
+      { russian: 'Мне нравится музыка', correct: 'me gusta la música' },
+      { russian: 'Тебе нравятся книги', correct: 'te gustan los libros' },
+      { russian: 'Нам нравится путешествовать', correct: 'nos gusta viajar' }
     ]
   }
 }

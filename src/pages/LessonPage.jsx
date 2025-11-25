@@ -142,6 +142,14 @@ function LessonPage() {
         >
           📝 Словарь
         </button>
+        {lesson.readingText && (
+          <button
+            className={`${styles.tab} ${activeTab === 'reading' ? styles.activeTab : ''}`}
+            onClick={() => setActiveTab('reading')}
+          >
+            📖 Чтение
+          </button>
+        )}
         <button
           className={`${styles.tab} ${activeTab === 'exercises' ? styles.activeTab : ''}`}
           onClick={() => setActiveTab('exercises')}
@@ -185,6 +193,27 @@ function LessonPage() {
                   <div className={styles.vocabularyTranslation}>{item.translation}</div>
                 </div>
               ))}
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'reading' && lesson.readingText && (
+          <div className={styles.readingSection}>
+            <h2 className={styles.sectionTitle}>{lesson.readingText.title}</h2>
+            <div className={styles.readingContent}>
+              <div className={styles.spanishText}>
+                {lesson.readingText.content.split('\n').map((paragraph, index) => (
+                  paragraph.trim() && <p key={index}>{paragraph}</p>
+                ))}
+              </div>
+              {lesson.readingText.translation && (
+                <div className={styles.translationHint}>
+                  <details>
+                    <summary>Показать перевод</summary>
+                    <p>{lesson.readingText.translation}</p>
+                  </details>
+                </div>
+              )}
             </div>
           </div>
         )}
@@ -235,7 +264,10 @@ function getExerciseTypeName(type) {
     grammar: 'Грамматика',
     reading: 'Чтение',
     writing: 'Письмо',
-    pronunciation: 'Произношение'
+    pronunciation: 'Произношение',
+    fillblank: 'Заполнение пропусков',
+    'ser-estar': 'SER vs ESTAR',
+    articles: 'Артикли'
   }
   return types[type] || type
 }

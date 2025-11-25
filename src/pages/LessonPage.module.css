@@ -196,6 +196,62 @@
   font-size: 1.05rem;
 }
 
+/* Чтение */
+.readingSection {
+  padding: 2rem 0;
+}
+
+.readingContent {
+  background: white;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.spanishText {
+  line-height: 1.8;
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.spanishText p {
+  margin-bottom: 1rem;
+}
+
+.translationHint {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.translationHint details {
+  cursor: pointer;
+}
+
+.translationHint summary {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.translationHint summary:hover {
+  background: #f0f0f0;
+}
+
+.translationHint p {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
 /* Упражнения */
 .exercisesSection {
   padding: 2rem 0;
