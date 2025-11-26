@@ -2046,6 +2046,484 @@ Como dicen en español: "Ultreia!" (¡Adelante!) - el saludo tradicional entre p
       translation: 'Путь Святого Иакова - один из самых знаменитых паломнических маршрутов в мире...'
     },
     exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3', 'ex-7-3-4', 'ex-7-3-5']
+  },
+
+  // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
+
+  'lesson-8-1': {
+    id: 'lesson-8-1',
+    title: 'Урок 1: Реальные условия (Tipo 1)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Условные предложения первого типа (Condicionales reales)',
+      content: `
+# Условные предложения Tipo 1 (Реальные условия)
+
+Используются для описания **реальных**, **возможных** ситуаций в настоящем или будущем.
+
+## Структура:
+
+**Si + PRESENTE, FUTURO / IMPERATIVO / PRESENTE**
+
+### Формула 1: Si + presente, futuro
+
+| Условие (si + presente) | Результат (futuro) |
+|-------------------------|---------------------|
+| Si **llueve** | **llevaré** paraguas |
+| Si **estudias** | **aprobarás** el examen |
+| Si **tengo** tiempo | te **llamaré** |
+
+**Примеры:**
+- Si **hace** buen tiempo, **iremos** a la playa (Если будет хорошая погода, пойдем на пляж)
+- Si **llegas** tarde, te **esperaré** (Если опоздаешь, я подожду)
+- Si **necesitas** ayuda, me **dirás** (Если нужна помощь, скажешь мне)
+
+### Формула 2: Si + presente, imperativo
+
+| Условие | Команда |
+|---------|---------|
+| Si **tienes** frío | **cierra** la ventana |
+| Si **estás** cansado | **descansa** |
+
+**Примеры:**
+- Si **ves** a María, **dile** que la llamo (Если увидишь Марию, скажи ей, что позвоню)
+- Si **quieres** café, **prepáralo** (Если хочешь кофе, приготовь)
+
+### Формула 3: Si + presente, presente
+
+Для **универсальных истин**, **привычек**, **общих правил**:
+
+**Примеры:**
+- Si **calientas** el agua a 100°, **hierve** (Если нагреваешь воду до 100°, она кипит)
+- Si **como** mucho, **engordo** (Если ем много, толстею)
+- Si no **duermo** bien, **estoy** cansado (Если плохо сплю, я устаю)
+
+## ¡IMPORTANTE!
+
+⚠️ **НИКОГДА не используйте futuro после SI:**
+- ❌ Si **llegaré** tarde... (НЕПРАВИЛЬНО)
+- ✓ Si **llego** tarde... (ПРАВИЛЬНО)
+
+⚠️ **Порядок можно менять:**
+- Si llueve, me quedo en casa = Me quedo en casa si llueve
+- Si estudias, aprobarás = Aprobarás si estudias
+
+## Другие союзы (не только SI):
+
+Эти же правила работают с другими условными союзами:
+
+| Союз | Значение | Пример |
+|------|----------|--------|
+| **cuando** | когда | Cuando **termine**, te llamo |
+| **en cuanto** | как только | En cuanto **llegues**, empezamos |
+| **mientras** | пока | Mientras **esté** aquí, ayudo |
+| **hasta que** | пока не | Hasta que **vuelvas**, espero |`,
+      examples: [
+        { spanish: 'Si estudias mucho, aprobarás el examen', russian: 'Если будешь много учиться, сдашь экзамен' },
+        { spanish: 'Si hace sol mañana, iremos a la playa', russian: 'Если завтра будет солнечно, пойдем на пляж' },
+        { spanish: 'Llámame si necesitas ayuda', russian: 'Позвони мне, если нужна помощь' },
+        { spanish: 'Si ves a Juan, dile que lo busco', russian: 'Если увидишь Хуана, скажи, что ищу его' },
+        { spanish: 'Si el agua hierve, apaga el fuego', russian: 'Если вода закипит, выключи огонь' }
+      ]
+    },
+    vocabulary: [
+      { word: 'la condición', translation: 'условие', audioUrl: null },
+      { word: 'si', translation: 'если', audioUrl: null },
+      { word: 'en caso de que', translation: 'в случае если', audioUrl: null },
+      { word: 'a menos que', translation: 'если только не', audioUrl: null },
+      { word: 'mientras', translation: 'пока', audioUrl: null },
+      { word: 'cuando', translation: 'когда', audioUrl: null },
+      { word: 'en cuanto', translation: 'как только', audioUrl: null },
+      { word: 'hasta que', translation: 'пока не', audioUrl: null },
+      { word: 'siempre que', translation: 'при условии что', audioUrl: null },
+      { word: 'a no ser que', translation: 'разве что', audioUrl: null },
+      { word: 'aprobar', translation: 'сдать (экзамен)', audioUrl: null },
+      { word: 'suspender', translation: 'провалить (экзамен)', audioUrl: null },
+      { word: 'conseguir', translation: 'достичь, получить', audioUrl: null },
+      { word: 'lograr', translation: 'добиться', audioUrl: null },
+      { word: 'realizar', translation: 'осуществить', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Planes para el futuro',
+      content: `María está en su último año de universidad y piensa mucho en su futuro. Tiene muchos planes, pero también muchas dudas. "Si **consigo** el trabajo en Barcelona, **me mudaré** allí inmediatamente", piensa. "Pero si no me **aceptan**, **buscaré** otras opciones en Madrid o Valencia".
+
+Su mejor amiga Laura le da consejos: "Si **quieres** ese trabajo, **prepara** bien la entrevista. Si **estudias** sobre la empresa, **causarás** buena impresión. Y si no **funciona**, no **te preocupes**: siempre hay otras oportunidades".
+
+María sabe que tiene razón. "Si **trabajo** duro, **tendré** éxito", se repite a sí misma. "Y si las cosas no **salen** como planeo, **aprenderé** de la experiencia".
+
+Mientras tanto, María también piensa en su vida personal. "Si **me mudo** a Barcelona, **estaré** lejos de mi familia", reflexiona. "Pero si **me quedo** aquí, quizás **pierda** esta gran oportunidad profesional".
+
+Su madre le dice: "Hija, si **tomas** esta decisión, te **apoyaremos** completamente. Si **necesitas** volver a casa, siempre **tendrás** un lugar aquí. Y si **decides** quedarte en Barcelona, **iremos** a visitarte seguido".
+
+El día de la entrevista llega. María está nerviosa. "Si **respondo** bien las preguntas, **tengo** posibilidades", piensa. "Si me **olvido** de algo, **será** terrible". Pero cuando entra en la oficina, se siente más tranquila.
+
+El entrevistador es amable. "Si **tiene** alguna pregunta, **hágala** sin problema", le dice. María pregunta sobre el puesto, las responsabilidades, las oportunidades de crecimiento. La entrevista va muy bien.
+
+Después de la entrevista, María llama a Laura: "¡Creo que fue bien! Si me **llaman** la próxima semana, **significa** que estoy en la segunda fase. Si no me **contactan**, **sabré** que no me eligieron".
+
+Pasan tres días. María revisa su correo constantemente. "Si **llega** un email hoy, **lo abriré** inmediatamente", piensa. "Si no **recibo** noticias esta semana, **llamaré** para preguntar".
+
+El viernes por la tarde, su teléfono suena. Es un número de Barcelona. "Hola María, si **todavía está** interesada en el puesto, **nos gustaría** invitarla a una segunda entrevista".
+
+¡Sí! María está emocionada. "Si **voy** a la segunda entrevista, **daré** lo mejor de mí", decide. "Y si **me ofrecen** el trabajo, **lo aceptaré** sin dudarlo".
+
+Laura la felicita: "¡Sabía que lo **conseguirías**! Si **sigues** así, **llegarás** muy lejos. Y cuando **empieces** el trabajo, **celebraremos** juntas".
+
+Ahora María tiene que prepararse para la segunda entrevista. "Si **estudio** más sobre la empresa, **estaré** mejor preparada", piensa. "Si **practico** mis respuestas, **me sentiré** más segura. Y si **soy** yo misma, **será** suficiente".
+
+Su padre también le da un consejo: "Hija, si **crees** en ti misma, los demás también **creerán** en ti. Si **vas** con confianza, **transmitirás** profesionalismo. Y recuerda: si esta oportunidad no **funciona**, **habrá** otras".
+
+La noche antes de la segunda entrevista, María reflexiona: "Si **duermo** bien esta noche, **estaré** descansada mañana. Si **me levanto** temprano, **tendré** tiempo para prepararme bien. Y si **todo sale** bien, mañana a esta hora quizás **tendré** un nuevo trabajo".
+
+Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabajando duro y **cree** en sí misma, **tendrá** éxito en cualquier camino que elija.`,
+      translation: 'Планы на будущее. Мария на последнем курсе университета и много думает о будущем...'
+    },
+    exercises: ['ex-8-1-1', 'ex-8-1-2', 'ex-8-1-3', 'ex-8-1-4', 'ex-8-1-5']
+  },
+
+  'lesson-8-2': {
+    id: 'lesson-8-2',
+    title: 'Урок 2: Нереальные условия (Tipo 2)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Условные предложения второго типа (Condicionales irreales)',
+      content: `
+# Условные предложения Tipo 2 (Нереальные/маловероятные условия)
+
+Используются для описания **гипотетических**, **нереальных** или **маловероятных** ситуаций в **настоящем** или **будущем**.
+
+## Структура:
+
+**Si + IMPERFECTO DE SUBJUNTIVO, CONDICIONAL SIMPLE**
+
+## Imperfecto de subjuntivo - образование:
+
+**Основа: 3 лицо множественного числа Pretérito indefinido**
+
+**Ellos hablar-ON → habla- + окончания**
+**Ellos comier-ON → comie- + окончания**
+
+| Лицо | Окончания | Hablar | Comer | Vivir |
+|------|-----------|--------|-------|-------|
+| yo | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
+| tú | -ras / -ses | hablaras / hablases | comieras / comieses | vivieras / vivieses |
+| él/ella | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
+| nosotros | -ramos / -semos | habláramos / hablásemos | comiéramos / comiésemos | viviéramos / viviésemos |
+| vosotros | -rais / -seis | hablarais / hablaseis | comierais | comieseis | vivierais / vivieseis |
+| ellos | -ran / -sen | hablaran / hablasen | comieran / comiesen | vivieran / viviesen |
+
+**В современном испанском обе формы (-ra и -se) равнозначны, но форма на -RA более распространена.**
+
+### Неправильные глаголы:
+
+Основа берется от **pretérito indefinido (ellos)**:
+
+| Infinitivo | Ellos (indefinido) | Imperfecto subjuntivo |
+|------------|--------------------|-----------------------|
+| ser / ir | fueron | fuera, fueras, fuera... |
+| tener | tuvieron | tuviera, tuvieras... |
+| poder | pudieron | pudiera, pudieras... |
+| hacer | hicieron | hiciera, hicieras... |
+| decir | dijeron | dijera, dijeras... |
+| estar | estuvieron | estuviera, estuvieras... |
+| saber | supieron | supiera, supieras... |
+| querer | quisieron | quisiera, quisieras... |
+| venir | vinieron | viniera, vinieras... |
+| poner | pusieron | pusiera, pusieras... |
+
+## Condicional simple - повторение:
+
+**Infinitivo + окончания: -ía, -ías, -ía, -íamos, -íais, -ían**
+
+## Uso:
+
+### 1. Ситуации противоречащие реальности СЕЙЧАС:
+
+- **Si tuviera dinero, viajaría por el mundo** (Если бы у меня были деньги, я бы путешествовал - но их нет)
+- **Si fuera rica, no trabajaría** (Если бы я была богатой, не работала бы - но я не богата)
+- **Si viviera en España, hablaría español mejor** (Если бы я жил в Испании, говорил бы лучше по-испански - но я не живу)
+
+### 2. Маловероятные ситуации в будущем:
+
+- **Si me tocara la lotería, compraría una casa** (Если бы я выиграл в лотерею, купил бы дом - маловероятно)
+- **Si encontrara un tesoro, sería millonario** (Если бы нашел сокровище, был бы миллионером)
+
+### 3. Вежливые просьбы и советы:
+
+- **Si pudieras ayudarme, te lo agradecería** (Если бы ты мог помочь, был бы благодарен - вежливая просьба)
+- **¿Qué harías tú en mi lugar?** (Что бы ты сделал на моем месте?)
+
+## ¡CUIDADO!
+
+❌ **Si tendría dinero, viajaría** (НЕПРАВИЛЬНО - condicional после si)
+✓ **Si tuviera dinero, viajaría** (ПРАВИЛЬНО - imperfecto subjuntivo после si)
+
+## Разница Type 1 vs Type 2:
+
+| Type 1 (реальное) | Type 2 (нереальное) |
+|-------------------|---------------------|
+| Si **tengo** dinero, **compraré** un coche | Si **tuviera** dinero, **compraría** un coche |
+| (Если будут деньги - возможно) | (Если бы были - но их нет) |
+| Si **hace** sol, **iremos** | Si **hiciera** sol, **iríamos** |
+| (Если будет солнечно - возможно) | (Если бы было - но нет) |
+
+## Примеры в контексте:
+
+**¿Qué harías si...?** (Что бы ты сделал, если бы...?)
+
+- Si **tuviera** un millón de euros, **viajaría** por todo el mundo
+- Si **pudiera** hablar con cualquier persona, **elegiría** a mi abuelo
+- Si **fuera** presidente, **cambiaría** muchas leyes
+- Si **supiera** tocar la guitarra, **formaría** una banda
+- Si **viviera** 200 años, **aprendería** todos los idiomas del mundo`,
+      examples: [
+        { spanish: 'Si tuviera más tiempo, aprendería a tocar piano', russian: 'Если бы у меня было больше времени, я бы научился играть на пианино' },
+        { spanish: 'Si fuera rico, viajaría por todo el mundo', russian: 'Если бы я был богатым, путешествовал бы по всему миру' },
+        { spanish: '¿Qué harías si ganaras la lotería?', russian: 'Что бы ты сделал, если бы выиграл в лотерею?' },
+        { spanish: 'Si pudiera volar, iría a visitarte cada día', russian: 'Если бы я мог летать, навещал бы тебя каждый день' },
+        { spanish: 'Si viviera en España, hablaría español perfectamente', russian: 'Если бы я жил в Испании, говорил бы по-испански идеально' }
+      ]
+    },
+    vocabulary: [
+      { word: 'soñar', translation: 'мечтать', audioUrl: null },
+      { word: 'desear', translation: 'желать', audioUrl: null },
+      { word: 'imaginar', translation: 'воображать', audioUrl: null },
+      { word: 'suponer', translation: 'предполагать', audioUrl: null },
+      { word: 'la hipótesis', translation: 'гипотеза', audioUrl: null },
+      { word: 'irreal', translation: 'нереальный', audioUrl: null },
+      { word: 'imposible', translation: 'невозможный', audioUrl: null },
+      { word: 'improbable', translation: 'маловероятный', audioUrl: null },
+      { word: 'el sueño', translation: 'мечта', audioUrl: null },
+      { word: 'la fantasía', translation: 'фантазия', audioUrl: null },
+      { word: 'ideal', translation: 'идеальный', audioUrl: null },
+      { word: 'perfecto', translation: 'совершенный', audioUrl: null },
+      { word: 'ganar la lotería', translation: 'выиграть в лотерею', audioUrl: null },
+      { word: 'cambiar el mundo', translation: 'изменить мир', audioUrl: null },
+      { word: 'en mi lugar', translation: 'на моем месте', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Si yo fuera...',
+      content: `Un grupo de amigos está sentado en una cafetería hablando sobre sus sueños y fantasías. La pregunta del día es: "Si pudieras ser otra persona por un día, ¿quién serías?"
+
+Ana empieza: "Si **pudiera** ser alguien por un día, **sería** una astronauta. Si **fuera** astronauta, **viajaría** al espacio y **vería** la Tierra desde arriba. Si **estuviera** en el espacio, **flotaría** en gravedad cero. ¡**Sería** increíble! Si **tuviera** esa oportunidad, **tomaría** mil fotos para mostrarles a todos".
+
+Carlos responde: "Eso está bien, pero si yo **pudiera** elegir, **sería** un músico famoso. Si **fuera** músico, **tocaría** en estadios llenos de gente. Si **tuviera** ese talento, **compondría** canciones que llegaran al corazón de millones de personas. Y si **ganara** mucho dinero con la música, **ayudaría** a jóvenes artistas a empezar sus carreras".
+
+Laura tiene otra idea: "Si yo **pudiera** ser alguien, **elegiría** ser una científica que descubre la cura para enfermedades graves. Si **encontrara** esa cura, **salvaría** millones de vidas. Si **tuviera** ese poder, **dedicaría** toda mi vida a la investigación. Nada me **haría** más feliz que ayudar a la humanidad de esa manera".
+
+Miguel es más práctico: "Mis sueños son más simples. Si **tuviera** mucho dinero, no **trabajaría** tanto. Si no **necesitara** trabajar, **pasaría** más tiempo con mi familia. Si **pudiera**, **viajaría** con ellos por el mundo. Si **viviera** sin preocupaciones económicas, **sería** mucho más feliz".
+
+Sofía dice: "Yo tengo una pregunta diferente: ¿Qué **harían** si pudieran volver al pasado? Si yo **pudiera** viajar en el tiempo, **volvería** a mi infancia. Si **fuera** niña otra vez, **jugaría** más y me **preocuparía** menos. Si **supiera** entonces lo que sé ahora, **disfrutaría** más de cada momento".
+
+David añade: "Si yo **pudiera** cambiar algo del pasado, **estudiaría** más en la universidad. Si **hubiera** estudiado más, ahora **tendría** un mejor trabajo. Pero bueno, si **me arrepintiera** de todo, no **viviría** el presente. Si **pasara** todo el tiempo pensando en el pasado, **perdería** el hoy".
+
+Ana pregunta: "¿Y qué **harían** si tuvieran un superpoder? Si yo **tuviera** un superpoder, **elegiría** poder volar. Si **pudiera** volar, **iría** a visitar a todos mis amigos cuando quisiera. Si **volara**, nunca más **estaría** atrapada en el tráfico".
+
+Carlos ríe: "Si yo **tuviera** un superpoder, **sería** la invisibilidad. Si **fuera** invisible, **podría** entrar gratis a todos los conciertos. Aunque si lo **pensara** bien, eso no sería muy ético. Si **hiciera** eso, básicamente **estaría** robando".
+
+Laura dice: "Mi superpoder sería leer mentes. Si **pudiera** leer mentes, **sabría** lo que realmente piensan las personas. Aunque si **tuviera** ese poder, quizás **descubriría** cosas que preferiría no saber. Si **supiera** todos los secretos de la gente, probablemente **sería** muy incómodo".
+
+Miguel propone otra pregunta: "Si **pudieran** vivir en cualquier época histórica, ¿cuál **elegirían**? Si yo **pudiera**, **viviría** en el Renacimiento. Si **estuviera** en esa época, **conocería** a Leonardo da Vinci y Miguel Ángel. Si **viviera** entonces, **vería** cómo se creaban esas obras maestras".
+
+Sofía responde: "Yo prefiero el futuro. Si **pudiera** ver el futuro, **viajaría** 100 años adelante. Si **estuviera** en 2125, **vería** qué tecnología existe. Si el mundo **fuera** mejor entonces, **sería** muy esperanzador. Pero si **fuera** peor, preferiría no saberlo".
+
+David reflexiona: "¿Saben qué? Si yo **pudiera** cambiar algo, **cambiaría** el sistema educativo. Si la educación **fuera** diferente, los niños **aprenderían** más felices. Si las escuelas **enseñaran** habilidades prácticas, los jóvenes **estarían** mejor preparados para la vida. Si los maestros **ganaran** más dinero, **tendríamos** mejores profesionales educando a nuestros hijos".
+
+Ana concluye: "Todas estas son fantasías bonitas. Pero si **pensara** en lo que realmente importa, **diría** que si **tuviera** salud, **tendría** todo. Si mi familia **estuviera** bien, yo **estaría** feliz. Si **pudiera** elegir entre riqueza y salud, **elegiría** salud sin dudar. Porque si **estás** sano, **puedes** conseguir todo lo demás. Pero si **pierdes** la salud, todo lo demás **pierde** sentido".
+
+Todos asienten. Al final, si **pudieran** tener cualquier cosa, **elegirían** las mismas cosas simples: salud, amor, tiempo con seres queridos y paz. Las grandes fantasías son divertidas para imaginar, pero la verdadera felicidad está en las cosas simples que ya tienen.`,
+      translation: 'Если бы я был... Группа друзей сидит в кафе и говорит о мечтах и фантазиях...'
+    },
+    exercises: ['ex-8-2-1', 'ex-8-2-2', 'ex-8-2-3', 'ex-8-2-4', 'ex-8-2-5']
+  },
+
+  'lesson-8-3': {
+    id: 'lesson-8-3',
+    title: 'Урок 3: Условия в прошлом (Tipo 3)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Условные предложения третьего типа (Condicionales pasados)',
+      content: `
+# Условные предложения Tipo 3 (Нереальные условия в прошлом)
+
+Используются для описания **нереальных ситуаций в прошлом** - того, что **НЕ произошло**, но **могло бы** произойти при других обстоятельствах.
+
+## Структура:
+
+**Si + PLUSCUAMPERFECTO DE SUBJUNTIVO, CONDICIONAL COMPUESTO**
+
+## Pluscuamperfecto de subjuntivo - образование:
+
+**Imperfecto de subjuntivo глагола HABER + participio pasado**
+
+| Лицо | Haber (imp. subj.) | + participio | Пример |
+|------|-------------------|--------------|---------|
+| yo | hubiera / hubiese | hablado/comido/vivido | hubiera hablado |
+| tú | hubieras / hubieses | hablado/comido/vivido | hubieras comido |
+| él/ella | hubiera / hubiese | hablado/comido/vivido | hubiera vivido |
+| nosotros | hubiéramos / hubiésemos | hablado/comido/vivido | hubiéramos estado |
+| vosotros | hubierais / hubieseis | hablado/comido/vivido | hubierais ido |
+| ellos | hubieran / hubiesen | hablado/comido/vivido | hubieran sido |
+
+## Condicional compuesto (perfecto) - образование:
+
+**Condicional simple глагола HABER + participio pasado**
+
+| Лицо | Haber (condicional) | + participio |
+|------|---------------------|--------------|
+| yo | habría | hablado/comido/vivido |
+| tú | habrías | hablado/comido/vivido |
+| él/ella | habría | hablado/comido/vivido |
+| nosotros | habríamos | hablado/comido/vivido |
+| vosotros | habríais | hablado/comido/vivido |
+| ellos | habrían | hablado/comido/vivido |
+
+## Uso - Сожаления и упущенные возможности:
+
+### Формула:
+**Si + hubiera/hubiese + participio, habría + participio**
+
+**Примеры:**
+
+- **Si hubiera estudiado, habría aprobado**
+  (Если бы я учился, я бы сдал - но не учился и не сдал)
+
+- **Si hubieras venido, te habrías divertido**
+  (Если бы ты пришел, повеселился бы - но не пришел)
+
+- **Si hubiera sabido, habría ido**
+  (Если бы знал, пошел бы - но не знал и не пошел)
+
+- **Si hubiéramos salido antes, habríamos llegado a tiempo**
+  (Если бы вышли раньше, прибыли бы вовремя - но опоздали)
+
+## Сравнение всех трех типов:
+
+| Тип | Формула | Значение | Пример |
+|-----|---------|----------|--------|
+| **Tipo 1** | Si + presente, futuro | Реально, возможно | Si **estudias**, **aprobarás** |
+| **Tipo 2** | Si + imp. subj., condicional | Нереально сейчас | Si **estudiaras**, **aprobarías** |
+| **Tipo 3** | Si + plucp. subj., cond. compuesto | Нереально в прошлом | Si **hubieras estudiado**, **habrías aprobado** |
+
+## Mismo ejemplo en los tres tipos:
+
+**Тема: экзамен**
+
+1. **Si estudias, aprobarás** - Если будешь учиться, сдашь (возможно, экзамен еще не был)
+2. **Si estudiaras, aprobarías** - Если бы ты учился, сдал бы (но ты не учишься)
+3. **Si hubieras estudiado, habrías aprobado** - Если бы ты учился, сдал бы (но не учился и провалил)
+
+## Вариации Tipo 3:
+
+### 1. Смешанные условия (Mixed conditionals):
+
+**Прошлое условие → Настоящий результат:**
+
+- **Si hubiera estudiado medicina, ahora sería doctor**
+  (Если бы я изучал медицину, сейчас был бы врачом)
+
+- **Si no hubiera fumado tanto, ahora estaría más sano**
+  (Если бы не курил так много, сейчас был бы здоровее)
+
+### 2. Выражение упрека (reproches):
+
+- **Si me hubieras escuchado, no estarías en problemas**
+  (Если бы ты меня послушал, не был бы в беде)
+
+- **Si hubieras llegado a tiempo, habrías visto el comienzo**
+  (Если бы пришел вовремя, увидел бы начало)
+
+### 3. Con "de + infinitivo" (неформальная замена):
+
+В разговорном испанском вместо pluscuamperfecto de subjuntivo часто используют **de + haber + participio**:
+
+- **De haberlo sabido, habría venido** = Si lo hubiera sabido, habría venido
+- **De tener dinero, lo habría comprado** = Si hubiera tenido dinero, lo habría comprado
+
+## Otros marcadores condicionales:
+
+| Выражение | Значение | Пример |
+|-----------|----------|--------|
+| **Como si** | как будто | Habla como si **supiera** todo |
+| **Aunque** | хотя | Aunque **lloviera**, iría |
+| **En caso de que** | в случае если | En caso de que **venga**, avísame |
+| **A no ser que** | если только не | No iré a no ser que **vengas** |
+
+## ¡ERRORES COMUNES!
+
+❌ Si **hubiera tenido**, **tendría** dinero (смешивание времен неправильно)
+✓ Si **hubiera tenido** dinero, lo **habría comprado** (оба в прошлом)
+✓ Si **hubiera estudiado** medicina, **sería** doctor (прошлое→настоящее, OK)
+
+❌ Si **habría sabido**, habría venido (condicional после si)
+✓ Si **hubiera sabido**, habría venido (pluscuamperfecto subjuntivo после si)`,
+      examples: [
+        { spanish: 'Si hubiera estudiado más, habría aprobado el examen', russian: 'Если бы я больше учился, сдал бы экзамен' },
+        { spanish: 'Si hubieras venido, te habrías divertido mucho', russian: 'Если бы ты пришел, очень повеселился бы' },
+        { spanish: 'Si hubiera sabido, no habría dicho nada', russian: 'Если бы знал, ничего бы не сказал' },
+        { spanish: 'Si hubiéramos salido antes, habríamos llegado a tiempo', russian: 'Если бы вышли раньше, прибыли бы вовремя' },
+        { spanish: 'De haberlo sabido, habría actuado diferente', russian: 'Знай я это, поступил бы иначе' }
+      ]
+    },
+    vocabulary: [
+      { word: 'arrepentirse', translation: 'сожалеть, раскаиваться', audioUrl: null },
+      { word: 'lamentar', translation: 'сожалеть', audioUrl: null },
+      { word: 'el arrepentimiento', translation: 'сожаление, раскаяние', audioUrl: null },
+      { word: 'la oportunidad perdida', translation: 'упущенная возможность', audioUrl: null },
+      { word: 'el error', translation: 'ошибка', audioUrl: null },
+      { word: 'la equivocación', translation: 'заблуждение, ошибка', audioUrl: null },
+      { word: 'darse cuenta', translation: 'осознать, понять', audioUrl: null },
+      { word: 'culpar', translation: 'винить', audioUrl: null },
+      { word: 'la culpa', translation: 'вина', audioUrl: null },
+      { word: 'perdonar', translation: 'прощать', audioUrl: null },
+      { word: 'el perdón', translation: 'прощение', audioUrl: null },
+      { word: 'la lección', translation: 'урок (в переносном смысле)', audioUrl: null },
+      { word: 'aprender de los errores', translation: 'учиться на ошибках', audioUrl: null },
+      { word: 'si hubiera sabido', translation: 'если бы я знал', audioUrl: null },
+      { word: 'debería haber', translation: 'должен был бы', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Arrepentimientos y lecciones',
+      content: `Roberto tiene 65 años y está sentado en el parque, reflexionando sobre su vida. Como todos, tiene algunos arrepentimientos sobre decisiones que tomó - o que no tomó - en el pasado.
+
+"Si **hubiera estudiado** ingeniería como quería mi padre, **habría tenido** una carrera más estable", piensa. "Pero si **hubiera hecho** eso, nunca **habría descubierto** mi pasión por el arte. Si no **hubiera ido** a esa escuela de arte, no **habría conocido** a mi esposa Elena. Y si no la **hubiera conocido**, no **habría tenido** a mis tres hijos maravillosos. Así que, pensándolo bien, ¿fue realmente un error?"
+
+Roberto recuerda cuando tenía 25 años. "Si **hubiera aceptado** ese trabajo en Nueva York, **habría ganado** mucho dinero. Si **hubiera vivido** allí, **habría tenido** una vida completamente diferente. Pero si me **hubiera mudado**, **habría estado** lejos de mi familia. Si **hubiera elegido** el dinero sobre la familia, ¿**habría sido** más feliz? Lo dudo".
+
+Piensa en su hija mayor, Carmen. "Si le **hubiera dedicado** más tiempo cuando era niña, nuestra relación **sería** mejor ahora. Si no **hubiera trabajado** tanto, **habría visto** más de su infancia. Si **hubiera estado** presente en esos momentos importantes, quizás ahora **hablaríamos** más. Ese es un arrepentimiento que llevo conmigo".
+
+Su hijo Pablo tuvo problemas en la adolescencia. "Si **hubiera sido** más estricto con él, quizás no **habría tenido** esos problemas con las drogas. Pero si **hubiera sido** demasiado estricto, tal vez **habría sido** peor. Si **hubiera sabido** qué hacer, lo **habría hecho**. Pero nadie te enseña a ser padre perfecto. Si alguien me **hubiera dado** un manual, **habría sido** útil", piensa con ironía.
+
+Roberto recuerda una oportunidad de negocio. "Un amigo me propuso invertir en una empresa que ahora vale millones. Si **hubiera invertido** ese dinero, **sería** millonario. Si **hubiera tenido** el valor de arriesgar, mi vida **sería** muy diferente. Pero si **hubiera perdido** ese dinero, mi familia **habría sufrido**. Tomé la decisión segura. Si pudiera volver atrás, ¿**cambiaría** esa decisión? Probablemente no".
+
+Piensa en su salud. "Si **hubiera dejado** de fumar antes, **estaría** más sano ahora. Si **hubiera hecho** más ejercicio, no **tendría** estos problemas de corazón. Si **hubiera cuidado** mejor mi salud, **habría tenido** más energía para jugar con mis nietos. Ese es otro arrepentimiento real".
+
+Pero Roberto también piensa en las buenas decisiones. "Si no **hubiera arriesgado** todo para abrir mi propia galería de arte, **habría trabajado** para otros toda mi vida. Si no **hubiera seguido** mi pasión, **habría sido** infeliz. Si **hubiera escuchado** a la gente que decía que el arte no da dinero, nunca **habría tenido** la satisfación de vivir de lo que amo".
+
+Recuerda un momento crucial. "Si no **hubiera perdonado** a Elena cuando tuvimos esa gran pelea hace 30 años, **habríamos divorciado**. Si **hubiera dejado** que el orgullo ganara, **habría perdido** al amor de mi vida. Si no **hubiera aprendido** que el perdón es más importante que tener razón, **estaría** solo ahora".
+
+Su nieta Lucía se le acerca. Tiene 18 años y está llena de dudas sobre su futuro. "Abuelo, tengo miedo de tomar las decisiones equivocadas. ¿Y si elijo mal? ¿Y si **pierdo** oportunidades? ¿Y si me **arrepiento** después?"
+
+Roberto sonríe. "Lucía, si **hubiera sabido** todo cuando era joven, quizás **habría evitado** algunos errores. Pero si no **hubiera cometido** esos errores, no **habría aprendido** las lecciones más importantes de mi vida. Si **hubiera tenido** miedo de equivocarme, nunca **habría hecho** nada".
+
+"Si **hubiera esperado** a estar completamente seguro de cada decisión, **habría perdido** todas las oportunidades. Si no **hubiera arriesgado**, nunca **habría ganado**. Si **hubiera vivido** mi vida tratando de evitar errores, **habría evitado** también los mejores momentos".
+
+"Algunos arrepentimientos son inevitables. Si **hubiera podido** ver el futuro, **habría hecho** algunas cosas diferentes. Pero la vida no funciona así. Si todos **pudiéramos** ver el futuro, no **tendríamos** que tomar decisiones, y las decisiones son lo que nos hace humanos".
+
+Lucía escucha atentamente. Roberto continúa: "Si me **preguntaras** cuál es la lección más importante, te **diría** esto: Si **hubieras vivido** sin arriesgar nada, **habrías vivido**, pero no realmente. Si **tuvieras** la oportunidad de elegir entre una vida segura pero aburrida y una vida con riesgos pero llena de experiencias, ¿qué **elegirías**?"
+
+"Los grandes arrepentimientos de la vida no son por las cosas que hiciste mal, sino por las cosas que nunca intentaste. Si **hubiera sido** más valiente, **habría intentado** más cosas. Si no **hubiera tenido** miedo, **habría viajado** más, **habría conocido** más gente, **habría probado** más experiencias".
+
+"Pero también hay que ser sabio. Si **hubiera sido** completamente temerario, **habría arruinado** mi vida. El truco es encontrar el equilibrio. Si **hubiera sabido** eso a los 18, me **habría ahorrado** algunas preocupaciones".
+
+Lucía abraza a su abuelo. "Gracias, abuelo. Si no **hubiera hablado** contigo hoy, **habría seguido** con miedo. Ahora entiendo que los errores son parte de aprender".
+
+Roberto sonríe. Si alguien le **hubiera dicho** hace 40 años que sus arrepentimientos se **convertirían** en sabiduría, no lo **habría creído**. Pero así funciona la vida. Los errores del pasado son las lecciones del presente.
+
+Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo de equivocarte. Ten miedo de no intentar".`,
+      translation: 'Сожаления и уроки. Роберто 65 лет, и он сидит в парке, размышляя о своей жизни...'
+    },
+    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
   }
 }
 
@@ -3200,6 +3678,206 @@ María: Muy bien, gracias.
       { russian: 'Хоть бы ты мог прийти', correct: 'ojalá puedas venir' },
       { russian: 'Ищу книгу, которая объясняет это', correct: 'busco un libro que explique esto' },
       { russian: 'Даже если будет дождь, пойдем', correct: 'aunque llueva iremos' }
+    ]
+  },
+
+  // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
+
+  // Урок 8.1 - Реальные условия
+  'ex-8-1-1': {
+    id: 'ex-8-1-1',
+    type: 'grammar',
+    title: 'Si + presente, futuro',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'Si mañana ___ (llover), me quedaré en casa', options: ['lloverá', 'llueve', 'lloviera', 'llueva'], correct: 1 },
+      { sentence: 'Si tú ___ (estudiar), aprobarás', options: ['estudias', 'estudiarás', 'estudies', 'estudiaras'], correct: 0 },
+      { sentence: 'Si ellos ___ (venir), les hablaré', options: ['vendrán', 'vienen', 'vengan', 'vinieran'], correct: 1 },
+      { sentence: 'Si yo ___ (tener) tiempo, te llamaré', options: ['tendré', 'tengo', 'tenga', 'tuviera'], correct: 1 },
+      { sentence: 'Si nosotros ___ (salir) ahora, llegaremos a tiempo', options: ['saldremos', 'salimos', 'salgamos', 'saliéramos'], correct: 1 }
+    ]
+  },
+  'ex-8-1-2': {
+    id: 'ex-8-1-2',
+    type: 'grammar',
+    title: 'Si + presente, imperativo',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Si ___ (ver-tú) a Juan, dile que lo busco', options: ['verás', 'ves', 'veas', 'vieras'], correct: 1 },
+      { sentence: 'Si ___ (estar-tú) cansado, descansa', options: ['estarás', 'estás', 'estés', 'estuvieras'], correct: 1 },
+      { sentence: 'Si ___ (querer-tú) café, prepáralo', options: ['querrás', 'quieres', 'quieras', 'quisieras'], correct: 1 },
+      { sentence: 'Si ___ (tener-tú) frío, cierra la ventana', options: ['tendrás', 'tienes', 'tengas', 'tuvieras'], correct: 1 },
+      { sentence: 'Si no ___ (entender-tú), pregúntame', options: ['entenderás', 'entiendes', 'entiendas', 'entendieras'], correct: 1 }
+    ]
+  },
+  'ex-8-1-3': {
+    id: 'ex-8-1-3',
+    type: 'fillblank',
+    title: 'Completar condicionales',
+    description: 'Complete con la forma correcta del verbo',
+    questions: [
+      { sentence: 'Si hace buen tiempo mañana, (nosotros-ir) ___ a la playa', correct: 'iremos' },
+      { sentence: 'Si estudias duro, (tú-aprobar) ___ el examen', correct: 'aprobarás' },
+      { sentence: 'Si me necesitas, (yo-estar) ___ aquí', correct: 'estaré' },
+      { sentence: 'Si ellos llegan tarde, (nosotros-esperar) ___ ', correct: 'esperaremos' },
+      { sentence: 'Si tienes hambre, (tú-comer) ___ algo', correct: 'come' }
+    ]
+  },
+  'ex-8-1-4': {
+    id: 'ex-8-1-4',
+    type: 'reading',
+    title: 'Чтение: Planes de María',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'María busca trabajo en Barcelona. Si consigue el trabajo, se mudará allí. Si no la aceptan, buscará en Madrid. Su madre dice: si necesitas volver, siempre tendrás un lugar aquí. María piensa: si trabajo duro, tendré éxito.',
+    questions: [
+      { question: 'Куда переедет Мария, если получит работу?', options: ['В Мадрид', 'В Барселону', 'В Валенсию', 'В Севилью'], correct: 1 },
+      { question: 'Что сделает Мария, если ее не примут?', options: ['Вернется домой', 'Будет искать в Мадриде', 'Уедет за границу', 'Остановится'], correct: 1 },
+      { question: 'Что говорит мать?', options: ['Не уезжай', 'Всегда можешь вернуться', 'Это опасно', 'Подумай еще'], correct: 1 },
+      { question: 'Что думает Мария?', options: ['Что все легко', 'Что будет трудно', 'Что работа даст успех', 'Что не хочет ехать'], correct: 2 }
+    ]
+  },
+  'ex-8-1-5': {
+    id: 'ex-8-1-5',
+    type: 'writing',
+    title: 'Условия первого типа',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Если будет дождь, останусь дома', correct: 'si llueve me quedaré en casa' },
+      { russian: 'Если ты придешь, поговорим', correct: 'si vienes hablaremos' },
+      { russian: 'Если увидишь Анну, передай привет', correct: 'si ves a ana dale recuerdos' },
+      { russian: 'Если буду свободен, позвоню', correct: 'si estoy libre llamaré' }
+    ]
+  },
+
+  // Урок 8.2 - Нереальные условия
+  'ex-8-2-1': {
+    id: 'ex-8-2-1',
+    type: 'grammar',
+    title: 'Imperfecto de subjuntivo',
+    description: 'Выберите правильную форму imperfecto subjuntivo',
+    questions: [
+      { sentence: 'Si yo ___ (tener) dinero, viajaría', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 2 },
+      { sentence: 'Si tú ___ (ser) rico, ¿qué harías?', options: ['eres', 'seas', 'fueras', 'serías'], correct: 2 },
+      { sentence: 'Si nosotros ___ (poder) volar, iríamos al espacio', options: ['podemos', 'podamos', 'pudiéramos', 'podríamos'], correct: 2 },
+      { sentence: 'Si ellos ___ (vivir) aquí, nos veríamos más', options: ['viven', 'vivan', 'vivieran', 'vivirían'], correct: 2 },
+      { sentence: 'Si ella ___ (estudiar) más, aprobaría', options: ['estudia', 'estudie', 'estudiara', 'estudiaría'], correct: 2 }
+    ]
+  },
+  'ex-8-2-2': {
+    id: 'ex-8-2-2',
+    type: 'grammar',
+    title: 'Tipo 1 vs Tipo 2',
+    description: 'Elija el tipo correcto según el contexto',
+    questions: [
+      { sentence: 'Si ___ (tener-yo) tiempo mañana, te llamo (REAL)', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 0 },
+      { sentence: 'Si ___ (tener-yo) un millón, viajaría (IRREAL)', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 2 },
+      { sentence: 'Si ___ (estudiar-tú), aprobarás (REAL)', options: ['estudias', 'estudies', 'estudiaras', 'estudiarías'], correct: 0 },
+      { sentence: 'Si ___ (estudiar-tú) medicina, serías doctor (IRREAL)', options: ['estudias', 'estudies', 'estudiaras', 'estudiarías'], correct: 2 },
+      { sentence: 'Si ___ (llover) mañana, no iré (REAL)', options: ['llueve', 'llueva', 'lloviera', 'llovería'], correct: 0 }
+    ]
+  },
+  'ex-8-2-3': {
+    id: 'ex-8-2-3',
+    type: 'fillblank',
+    title: 'Completar con condicional',
+    description: 'Complete con la forma correcta',
+    questions: [
+      { sentence: 'Si tuviera dinero, (yo-comprar) ___ una casa', correct: 'compraría' },
+      { sentence: 'Si fuera rica, no (yo-trabajar) ___ ', correct: 'trabajaría' },
+      { sentence: 'Si pudiéramos volar, (nosotros-ir) ___ al espacio', correct: 'iríamos' },
+      { sentence: '¿Qué (tú-hacer) ___ si ganaras la lotería?', correct: 'harías' },
+      { sentence: 'Si viviera en España, (yo-hablar) ___ mejor español', correct: 'hablaría' }
+    ]
+  },
+  'ex-8-2-4': {
+    id: 'ex-8-2-4',
+    type: 'reading',
+    title: 'Чтение: ¿Qué harías?',
+    description: 'Ответьте на вопросы',
+    text: 'Ana dice: "Si pudiera ser alguien, sería astronauta. Si fuera astronauta, viajaría al espacio". Carlos responde: "Si yo fuera músico, tocaría en estadios. Si ganara dinero, ayudaría a jóvenes artistas". Laura dice: "Si encontrara la cura para enfermedades, salvaría millones de vidas".',
+    questions: [
+      { question: 'Кем бы хотела стать Ана?', options: ['Музыкантом', 'Астронавтом', 'Врачом', 'Ученым'], correct: 1 },
+      { question: 'Что бы сделал Карлос с деньгами?', options: ['Купил дом', 'Путешествовал', 'Помог молодым артистам', 'Открыл бизнес'], correct: 2 },
+      { question: 'Что бы сделала Лаура?', options: ['Нашла лекарство', 'Полетела в космос', 'Играла музыку', 'Путешествовала'], correct: 0 },
+      { question: 'Все мечты...', options: ['Реальные', 'Нереальные/гипотетические', 'Прошлые', 'Будущие точные'], correct: 1 }
+    ]
+  },
+  'ex-8-2-5': {
+    id: 'ex-8-2-5',
+    type: 'writing',
+    title: 'Условия второго типа',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Если бы у меня были деньги, купил бы машину', correct: 'si tuviera dinero compraría un coche' },
+      { russian: 'Если бы я был богатым, путешествовал бы', correct: 'si fuera rico viajaría' },
+      { russian: 'Что бы ты сделал на моем месте?', correct: 'qué harías en mi lugar' },
+      { russian: 'Если бы я мог летать, был бы счастлив', correct: 'si pudiera volar sería feliz' }
+    ]
+  },
+
+  // Урок 8.3 - Условия в прошлом
+  'ex-8-3-1': {
+    id: 'ex-8-3-1',
+    type: 'grammar',
+    title: 'Pluscuamperfecto de subjuntivo',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Si ___ (estudiar-yo), habría aprobado', options: ['estudié', 'estudie', 'hubiera estudiado', 'habría estudiado'], correct: 2 },
+      { sentence: 'Si ___ (venir-tú), te habrías divertido', options: ['viniste', 'vengas', 'hubieras venido', 'habrías venido'], correct: 2 },
+      { sentence: 'Si ___ (saber-yo), habría ido', options: ['supe', 'sepa', 'hubiera sabido', 'habría sabido'], correct: 2 },
+      { sentence: 'Si ___ (salir-nosotros) antes, habríamos llegado', options: ['salimos', 'salgamos', 'hubiéramos salido', 'habríamos salido'], correct: 2 },
+      { sentence: 'Si ellos ___ (llamar), habría contestado', options: ['llamaron', 'llamen', 'hubieran llamado', 'habrían llamado'], correct: 2 }
+    ]
+  },
+  'ex-8-3-2': {
+    id: 'ex-8-3-2',
+    type: 'grammar',
+    title: 'Tres tipos de condicionales',
+    description: 'Identifique el tipo correcto',
+    questions: [
+      { sentence: 'Si estudias, aprobarás', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 0 },
+      { sentence: 'Si estudiaras, aprobarías', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 1 },
+      { sentence: 'Si hubieras estudiado, habrías aprobado', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 2 },
+      { sentence: 'Si tengo tiempo, te llamo', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 0 },
+      { sentence: 'Si hubiera sabido, habría venido', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 2 }
+    ]
+  },
+  'ex-8-3-3': {
+    id: 'ex-8-3-3',
+    type: 'fillblank',
+    title: 'Completar condicionales pasados',
+    description: 'Complete con la forma correcta',
+    questions: [
+      { sentence: 'Si hubiera estudiado más, (yo-aprobar) ___ ', correct: 'habría aprobado' },
+      { sentence: 'Si hubieras venido, (tú-divertirse) ___ ', correct: 'te habrías divertido' },
+      { sentence: 'Si hubiera sabido, no (yo-decir) ___ nada', correct: 'habría dicho' },
+      { sentence: 'Si hubiéramos salido antes, (nosotros-llegar) ___ a tiempo', correct: 'habríamos llegado' },
+      { sentence: 'Si me hubieran invitado, (yo-ir) ___ ', correct: 'habría ido' }
+    ]
+  },
+  'ex-8-3-4': {
+    id: 'ex-8-3-4',
+    type: 'reading',
+    title: 'Чтение: Arrepentimientos',
+    description: 'Ответьте на вопросы',
+    text: 'Roberto reflexiona: "Si hubiera estudiado ingeniería, habría tenido una carrera estable. Pero si hubiera hecho eso, nunca habría conocido a Elena. Si le hubiera dedicado más tiempo a mi hija, nuestra relación sería mejor ahora. Si hubiera dejado de fumar antes, estaría más sano".',
+    questions: [
+      { question: 'Что было бы, если бы Роберто учился на инженера?', options: ['Был бы богат', 'Имел бы стабильную карьеру', 'Жил бы в Нью-Йорке', 'Был бы несчастлив'], correct: 1 },
+      { question: 'Что было бы, если бы выбрал инженерию?', options: ['Не встретил бы Елену', 'Был бы богаче', 'Жил бы лучше', 'Работал бы меньше'], correct: 0 },
+      { question: 'О чем сожалеет с дочерью?', options: ['Не дал денег', 'Не дал времени', 'Был строгим', 'Уехал'], correct: 1 },
+      { question: 'Какое сожаление о здоровье?', options: ['Мало спал', 'Плохо ел', 'Не бросил курить раньше', 'Не занимался спортом'], correct: 2 }
+    ]
+  },
+  'ex-8-3-5': {
+    id: 'ex-8-3-5',
+    type: 'writing',
+    title: 'Условия третьего типа',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Если бы я учился, сдал бы экзамен', correct: 'si hubiera estudiado habría aprobado' },
+      { russian: 'Если бы ты пришел, повеселился бы', correct: 'si hubieras venido te habrías divertido' },
+      { russian: 'Если бы я знал, не сказал бы ничего', correct: 'si hubiera sabido no habría dicho nada' },
+      { russian: 'Если бы мы вышли раньше, успели бы', correct: 'si hubiéramos salido antes habríamos llegado a tiempo' }
     ]
   }
 }
