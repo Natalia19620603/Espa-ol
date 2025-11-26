@@ -876,6 +876,1654 @@ Ahora vivo en Madrid. Trabajo en una oficina y mi vida es muy diferente. Pero cu
       translation: 'Когда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена...'
     },
     exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5']
+  },
+
+  // МОДУЛЬ 5: Путешествия и места (A2)
+  'lesson-5-1': {
+    id: 'lesson-5-1',
+    title: 'Урок 1: Транспорт и направления',
+    moduleId: 'module-5',
+    grammar: {
+      title: 'Предлоги места и направления',
+      content: `
+# Предлоги места и направления
+
+## Предлоги места (dónde):
+
+| Испанский | Русский | Пример |
+|-----------|---------|--------|
+| **en** | в, на | Estoy **en** casa |
+| **a** | в, на (направление) | Voy **a** Madrid |
+| **de** | из | Vengo **de** Barcelona |
+| **cerca de** | рядом с | Vivo **cerca de** la estación |
+| **lejos de** | далеко от | Está **lejos del** centro |
+| **delante de** | перед | **Delante del** hotel |
+| **detrás de** | за, позади | **Detrás de** la iglesia |
+| **al lado de** | рядом с | **Al lado del** museo |
+| **enfrente de** | напротив | **Enfrente de** la plaza |
+| **entre** | между | **Entre** el banco y la farmacia |
+
+## IR + A (направление):
+- Voy **a** la playa (Я иду на пляж)
+- Vas **al** aeropuerto (Ты едешь в аэропорт)
+- Van **a** España (Они едут в Испанию)
+
+## Транспорт:
+
+**EN + транспорт (внутри):**
+- **en coche** (на машине)
+- **en tren** (на поезде)
+- **en avión** (на самолёте)
+- **en autobús** (на автобусе)
+- **en metro** (на метро)
+- **en barco** (на корабле)
+
+**A + без транспорта:**
+- **a pie** (пешком)
+- **a caballo** (на лошади)
+
+## Глаголы движения:
+
+- **ir** (идти, ехать)
+- **venir** (приходить, приезжать)
+- **llegar** (прибывать)
+- **salir** (уходить, выезжать)
+- **viajar** (путешествовать)
+- **caminar** (идти пешком)
+
+## Давать указания:
+
+- **Sigue recto** - Иди прямо
+- **Gira a la derecha** - Поверни направо
+- **Gira a la izquierda** - Поверни налево
+- **Cruza la calle** - Перейди улицу
+- **Está a dos calles** - Через две улицы
+      `,
+      examples: [
+        { spanish: 'Voy a la estación en metro', translation: 'Я еду на станцию на метро' },
+        { spanish: 'El hotel está cerca del aeropuerto', translation: 'Отель находится рядом с аэропортом' },
+        { spanish: 'Viajamos a Italia en avión', translation: 'Мы летим в Италию на самолёте' },
+        { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
+      ]
+    },
+    vocabulary: [
+      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
+      { word: 'estación', translation: 'станция, вокзал', audioUrl: null },
+      { word: 'tren', translation: 'поезд', audioUrl: null },
+      { word: 'avión', translation: 'самолёт', audioUrl: null },
+      { word: 'autobús', translation: 'автобус', audioUrl: null },
+      { word: 'metro', translation: 'метро', audioUrl: null },
+      { word: 'taxi', translation: 'такси', audioUrl: null },
+      { word: 'billete', translation: 'билет', audioUrl: null },
+      { word: 'maleta', translation: 'чемодан', audioUrl: null },
+      { word: 'mochila', translation: 'рюкзак', audioUrl: null },
+      { word: 'mapa', translation: 'карта', audioUrl: null },
+      { word: 'derecha', translation: 'право', audioUrl: null },
+      { word: 'izquierda', translation: 'лево', audioUrl: null },
+      { word: 'recto', translation: 'прямо', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Un día en Barcelona',
+      content: `Hoy es mi primer día en Barcelona y estoy muy emocionado. He llegado al aeropuerto de El Prat esta mañana a las 10. Desde el aeropuerto he tomado el tren hasta la estación de Sants. El viaje ha durado unos 25 minutos y ha costado 4 euros. Es muy conveniente.
+
+Mi hotel está en el centro, cerca de la Plaza de Catalunya. Desde Sants he tomado el metro - la línea verde hasta Passeig de Gràcia. Mi hotel está a solo dos calles de allí, entre una librería antigua y una cafetería con terraza. Es un hotel pequeño pero acogedor.
+
+Después de dejar mi maleta en la habitación, he decidido explorar la ciudad a pie. Barcelona es perfecta para caminar. He empezado por Las Ramblas, la calle más famosa de la ciudad. Está llena de turistas, artistas callejeros y vendedores de flores. El ambiente es increíble.
+
+He caminado hasta el Barrio Gótico. Las calles son estrechas y medievales. Me he perdido varias veces, pero cada esquina tiene algo interesante. He encontrado la Catedral de Barcelona - es impresionante. Está en una plaza grande rodeada de edificios históricos.
+
+Para el almuerzo he ido a un restaurante tradicional al lado del mercado de La Boquería. He comido paella de mariscos y he bebido sangría. Delicioso. El mercado está enfrente del restaurante y he entrado a ver. Hay frutas exóticas, jamones ibéricos, quesos artesanales... es un paraíso gastronómico.
+
+Por la tarde he tomado el autobús turístico para ver la Sagrada Familia. Está un poco lejos del centro, pero el autobús para justo delante. La basílica de Gaudí es espectacular. He sacado muchas fotos.
+
+Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la playa de la Barceloneta. He comprado un billete de metro para tres días. Barcelona me encanta. Es una ciudad perfecta para viajar.`,
+      translation: 'Сегодня мой первый день в Барселоне и я очень взволнован. Я прилетел в аэропорт Эль-Прат сегодня утром в 10...'
+    },
+    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5']
+  },
+
+  'lesson-5-2': {
+    id: 'lesson-5-2',
+    title: 'Урок 2: В отеле и ресторане',
+    moduleId: 'module-5',
+    grammar: {
+      title: 'Условное наклонение (Condicional simple)',
+      content: `
+# Condicional simple (Условное наклонение)
+
+## Образование:
+**Инфинитив + окончания**
+
+| Лицо | Окончание | Hablar | Comer | Vivir |
+|------|-----------|--------|-------|-------|
+| yo | -ía | hablaría | comería | viviría |
+| tú | -ías | hablarías | comerías | vivirías |
+| él/ella/usted | -ía | hablaría | comería | viviría |
+| nosotros/as | -íamos | hablaríamos | comeríamos | viviríamos |
+| vosotros/as | -íais | hablaríais | comeríais | viviríais |
+| ellos/ellas/ustedes | -ían | hablarían | comerían | vivirían |
+
+## Неправильные основы:
+
+| Инфинитив | Основа | Пример |
+|-----------|--------|--------|
+| hacer | har- | haría |
+| decir | dir- | diría |
+| poder | podr- | podría |
+| poner | pondr- | pondría |
+| salir | saldr- | saldría |
+| tener | tendr- | tendría |
+| venir | vendr- | vendría |
+| saber | sabr- | sabría |
+| querer | querr- | querría |
+| haber | habr- | habría |
+
+## Употребление:
+
+1. **Вежливые просьбы:**
+   - ¿**Podría** ayudarme? (Могли бы вы мне помочь?)
+   - **Me gustaría** una habitación (Я хотел бы номер)
+   - ¿**Tendría** una mesa libre? (У вас есть свободный столик?)
+
+2. **Советы:**
+   - **Deberías** visitar el museo (Тебе следует посетить музей)
+   - Yo **comería** la paella (Я бы съел паэлью)
+
+3. **Условия (с SI):**
+   - Si tuviera dinero, **viajaría** por el mundo
+   - Si pudiera, **me quedaría** más tiempo
+
+## Полезные фразы для отеля:
+
+- **¿Tiene habitaciones libres?** - У вас есть свободные номера?
+- **Quisiera reservar una habitación** - Я хотел бы забронировать номер
+- **¿Cuánto cuesta por noche?** - Сколько стоит за ночь?
+- **¿Está incluido el desayuno?** - Завтрак включён?
+- **¿A qué hora es el check-out?** - Во сколько выселение?
+
+## Полезные фразы для ресторана:
+
+- **¿Me podría traer el menú?** - Не могли бы вы принести меню?
+- **Quisiera pedir...** - Я хотел бы заказать...
+- **¿Qué me recomendaría?** - Что вы бы мне порекомендовали?
+- **La cuenta, por favor** - Счёт, пожалуйста
+      `,
+      examples: [
+        { spanish: '¿Podría darme una habitación con vistas al mar?', translation: 'Могли бы вы дать мне номер с видом на море?' },
+        { spanish: 'Me gustaría reservar para dos personas', translation: 'Я хотел бы забронировать на двоих' },
+        { spanish: '¿Qué me recomendaría del menú?', translation: 'Что бы вы порекомендовали из меню?' },
+        { spanish: 'Querríamos una mesa para cuatro', translation: 'Мы хотели бы столик на четверых' }
+      ]
+    },
+    vocabulary: [
+      { word: 'hotel', translation: 'отель', audioUrl: null },
+      { word: 'habitación', translation: 'номер (в отеле)', audioUrl: null },
+      { word: 'reserva', translation: 'бронь', audioUrl: null },
+      { word: 'recepción', translation: 'рецепция', audioUrl: null },
+      { word: 'llave', translation: 'ключ', audioUrl: null },
+      { word: 'restaurante', translation: 'ресторан', audioUrl: null },
+      { word: 'menú', translation: 'меню', audioUrl: null },
+      { word: 'camarero/a', translation: 'официант/ка', audioUrl: null },
+      { word: 'cuenta', translation: 'счёт', audioUrl: null },
+      { word: 'propina', translation: 'чаевые', audioUrl: null },
+      { word: 'plato', translation: 'блюдо', audioUrl: null },
+      { word: 'postre', translation: 'десерт', audioUrl: null },
+      { word: 'vino', translation: 'вино', audioUrl: null },
+      { word: 'agua', translation: 'вода', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Experiencia en un hotel español',
+      content: `Cuando llegué al Hotel Mediterráneo en Valencia, estaba un poco nerviosa. Era mi primera vez viajando sola por España. Pero desde el primer momento todo fue perfecto.
+
+En la recepción me atendió una señora muy amable. Le dije: "Buenas tardes, tengo una reserva a nombre de Elena Petrov." Ella sonrió y me respondió: "Bienvenida, señorita Petrov. ¿Me podría mostrar su pasaporte, por favor?"
+
+Mientras ella preparaba mi habitación, me preguntó: "¿Le gustaría una habitación con vistas al mar o al jardín?" Le respondí que preferiría vistas al mar. "Excelente elección", dijo ella. "Le daría la habitación 305. Tiene un balcón precioso."
+
+Me explicó que el desayuno estaba incluido y se servía de 7 a 11 de la mañana en el restaurante del tercer piso. También me informó que el hotel tenía piscina, gimnasio y spa. Me dio la llave y un empleado llevó mi maleta a la habitación.
+
+La habitación era hermosa. Tenía una cama grande, un escritorio, un sofá y un baño moderno. Desde el balcón se veía el mar Mediterráneo. Era espectacular.
+
+Esa noche decidí cenar en el restaurante del hotel. El camarero fue muy atento. Me preguntó: "¿Qué le gustaría beber?" Pedí una copa de vino blanco. Luego me dijo: "De primer plato le recomendaría la ensalada valenciana o el gazpacho. De segundo, nuestra especialidad es la paella de mariscos."
+
+Seguí su consejo y pedí el gazpacho y la paella. Estaba delicioso. De postre probé la crema catalana - un postre típico de la región. Todo fue perfecto.
+
+Al día siguiente, en el desayuno, había una gran variedad: frutas frescas, yogures, panes, jamón ibérico, quesos, zumos naturales... Comí en la terraza disfrutando de las vistas.
+
+Antes de salir a explorar la ciudad, pregunté en recepción: "¿Me podría recomendar lugares para visitar?" La recepcionista me dio un mapa y marcó los lugares imprescindibles: la Ciudad de las Artes y las Ciencias, la Catedral, el Mercado Central y la playa de la Malvarrosa.
+
+Después de tres días maravillosos, llegó el momento de hacer el check-out. Le dije a la recepcionista: "Ha sido una estancia perfecta. Muchas gracias por todo." Ella me respondió: "El placer fue nuestro. Esperamos verla pronto de nuevo."
+
+Sin duda volvería a ese hotel. El servicio fue excelente y todo el personal muy profesional y amable.`,
+      translation: 'Когда я приехала в отель Mediterráneo в Валенсии, я была немного нервной. Это был мой первый раз путешествия по Испании в одиночку...'
+    },
+    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5']
+  },
+
+  'lesson-5-3': {
+    id: 'lesson-5-3',
+    title: 'Урок 3: Достопримечательности',
+    moduleId: 'module-5',
+    grammar: {
+      title: 'Сравнительная и превосходная степень',
+      content: `
+# Сравнительная и превосходная степень
+
+## Сравнительная степень:
+
+**MÁS + прилагательное + QUE** (более... чем):
+- Madrid es **más grande que** Valencia
+- Este museo es **más interesante que** aquel
+
+**MENOS + прилагательное + QUE** (менее... чем):
+- Este hotel es **menos caro que** el otro
+- Barcelona es **menos calurosa que** Sevilla
+
+**TAN + прилагательное + COMO** (такой же... как):
+- Esta iglesia es **tan antigua como** la catedral
+- El parque es **tan bonito como** el jardín
+
+## Неправильные формы:
+
+| Прилагательное | Сравнительная | Перевод |
+|----------------|---------------|---------|
+| bueno | mejor | лучше |
+| malo | peor | хуже |
+| grande | mayor | больше |
+| pequeño | menor | меньше |
+
+**Примеры:**
+- Este restaurante es **mejor que** ese
+- Esta habitación es **peor que** la otra
+
+## Превосходная степень:
+
+**EL/LA/LOS/LAS + MÁS/MENOS + прилагательное (+ DE)**:
+- **La más** bonita ciudad **de** España
+- **El más** famoso museo **del** mundo
+- **Los más** importantes monumentos
+
+**Con неправильными формами:**
+- **El mejor** hotel de la ciudad
+- **La peor** experiencia de mi vida
+- **El mayor** parque de Barcelona
+
+## TANTO/TAN (столько):
+
+**TAN + прилагательное:**
+- Es **tan** hermoso
+
+**TANTO/A/OS/AS + существительное:**
+- Hay **tantos** turistas
+- Tiene **tanta** historia
+
+## Полезная лексика для описания мест:
+
+**Положительные:**
+- impresionante (впечатляющий)
+- hermoso/a (прекрасный)
+- espectacular (потрясающий)
+- histórico/a (исторический)
+- pintoresco/a (живописный)
+
+**Размеры:**
+- enorme (огромный)
+- grande (большой)
+- pequeño/a (маленький)
+- espacioso/a (просторный)
+
+**Характеристики:**
+- antiguo/a (старинный)
+- moderno/a (современный)
+- famoso/a (знаменитый)
+- popular (популярный)
+      `,
+      examples: [
+        { spanish: 'La Sagrada Familia es el monumento más famoso de Barcelona', translation: 'Саграда Фамилия - самый знаменитый памятник Барселоны' },
+        { spanish: 'Este museo es tan interesante como aquel', translation: 'Этот музей такой же интересный, как и тот' },
+        { spanish: 'Madrid tiene más museos que Valencia', translation: 'В Мадриде больше музеев, чем в Валенсии' },
+        { spanish: 'Es la mejor paella que he comido', translation: 'Это лучшая паэлья, которую я ел' }
+      ]
+    },
+    vocabulary: [
+      { word: 'monumento', translation: 'памятник', audioUrl: null },
+      { word: 'museo', translation: 'музей', audioUrl: null },
+      { word: 'catedral', translation: 'собор', audioUrl: null },
+      { word: 'iglesia', translation: 'церковь', audioUrl: null },
+      { word: 'castillo', translation: 'замок', audioUrl: null },
+      { word: 'palacio', translation: 'дворец', audioUrl: null },
+      { word: 'plaza', translation: 'площадь', audioUrl: null },
+      { word: 'parque', translation: 'парк', audioUrl: null },
+      { word: 'playa', translation: 'пляж', audioUrl: null },
+      { word: 'centro histórico', translation: 'исторический центр', audioUrl: null },
+      { word: 'turista', translation: 'турист', audioUrl: null },
+      { word: 'guía', translation: 'гид', audioUrl: null },
+      { word: 'entrada', translation: 'вход, билет', audioUrl: null },
+      { word: 'recorrido', translation: 'маршрут, экскурсия', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Las maravillas de España',
+      content: `España es uno de los países más visitados del mundo, y no es difícil entender por qué. Tiene una increíble combinación de historia, cultura, gastronomía y belleza natural.
+
+Para mí, la ciudad más impresionante de España es Granada. La Alhambra es el monumento más espectacular que he visto en mi vida. Es un palacio y fortaleza árabe construido en el siglo XIII. Los jardines del Generalife son tan hermosos como el palacio mismo. Desde allí se ve toda la ciudad y las montañas de Sierra Nevada. Es mejor visitarla en primavera cuando hace buen tiempo pero no hay tantos turistas como en verano.
+
+Barcelona es probablemente la ciudad más famosa de España. La arquitectura de Gaudí es única en el mundo. La Sagrada Familia es más grande de lo que imaginaba - lleva más de 140 años en construcción y todavía no está terminada. El Parque Güell es menos conocido pero igualmente fascinante. Las vistas desde allí son espectaculares.
+
+Madrid, la capital, tiene los mejores museos de España. El Museo del Prado es tan importante como el Louvre de París. Tiene obras maestras de Velázquez, Goya y El Greco. El Museo Reina Sofía es más moderno y alberga el famoso "Guernica" de Picasso. La ciudad es más grande que Barcelona pero menos turística.
+
+Sevilla es la ciudad más calurosa de España, especialmente en verano. La Catedral de Sevilla es la más grande de estilo gótico en el mundo. La Giralda, su campanario, era originalmente un minarete árabe. El barrio de Santa Cruz es el más pintoresco de la ciudad, con sus calles estrechas y patios llenos de flores.
+
+Valencia es menos conocida que Barcelona o Madrid, pero no menos interesante. La Ciudad de las Artes y las Ciencias es el complejo arquitectónico más moderno de España. Fue diseñado por Santiago Calatrava y es tan impresionante de día como de noche. Valencia también es famosa por su playa urbana - la Malvarrosa es una de las mejores playas urbanas de Europa.
+
+No puedo olvidar Toledo, la ciudad medieval mejor conservada de España. Sus calles son tan estrechas que apenas pasa un coche. La catedral es una de las más ricas de España en arte. Desde el Mirador del Valle se tiene la vista más completa de la ciudad.
+
+Santiago de Compostela, en Galicia, es el destino más importante de peregrinación cristiana después de Roma y Jerusalén. La catedral es impresionante y la plaza del Obradoiro es una de las más bonitas de Europa.
+
+Cada región de España es diferente. El norte es más verde y lluvioso, el sur más caluroso y seco. La comida del norte es tan buena como la del sur, pero completamente diferente. En el norte se come más pescado y marisco, en el sur más jamón y aceite de oliva.
+
+Para mí, España es el país más diverso de Europa. Tiene playas mejores que Italia, montañas tan altas como en Suiza, y una cultura tan rica como Francia. No es sorprendente que sea uno de los destinos turísticos más populares del mundo.`,
+      translation: 'Испания - одна из самых посещаемых стран в мире, и нетрудно понять почему...'
+    },
+    exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-3', 'ex-5-3-4', 'ex-5-3-5']
+  },
+
+  // МОДУЛЬ 6: Будущее время (A2)
+  'lesson-6-1': {
+    id: 'lesson-6-1',
+    title: 'Урок 1: Futuro simple',
+    moduleId: 'module-6',
+    grammar: {
+      title: 'Futuro simple (Простое будущее время)',
+      content: `
+# Futuro simple
+
+## Образование:
+**Инфинитив + окончания**
+
+| Лицо | Окончание | Hablar | Comer | Vivir |
+|------|-----------|--------|-------|-------|
+| yo | -é | hablaré | comeré | viviré |
+| tú | -ás | hablarás | comerás | vivirás |
+| él/ella/usted | -á | hablará | comerá | vivirá |
+| nosotros/as | -emos | hablaremos | comeremos | viviremos |
+| vosotros/as | -éis | hablaréis | comeréis | viviréis |
+| ellos/ellas/ustedes | -án | hablarán | comerán | vivirán |
+
+## Неправильные основы (те же, что в condicional):
+
+| Инфинитив | Основа | Пример |
+|-----------|--------|--------|
+| hacer | har- | haré, harás, hará... |
+| decir | dir- | diré, dirás, dirá... |
+| poder | podr- | podré, podrás, podrá... |
+| poner | pondr- | pondré, pondrás, pondrá... |
+| salir | saldr- | saldré, saldrás, saldrá... |
+| tener | tendr- | tendré, tendrás, tendrá... |
+| venir | vendr- | vendré, vendrás, vendrá... |
+| saber | sabr- | sabré, sabrás, sabrá... |
+| querer | querr- | querré, querrás, querrá... |
+| haber | habr- | habré, habrás, habrá... |
+
+## Употребление:
+
+1. **Предсказания о будущем:**
+   - Mañana **lloverá** (Завтра будет дождь)
+   - El año que viene **viajaré** a España (В следующем году я поеду в Испанию)
+
+2. **Планы и намерения:**
+   - **Estudiaré** medicina (Я буду изучать медицину)
+   - **Nos mudaremos** a Barcelona (Мы переедем в Барселону)
+
+3. **Предположения о настоящем:**
+   - **Serán** las tres (Наверное, три часа)
+   - **Estará** en casa (Он, должно быть, дома)
+
+## Слова-маркеры:
+
+- **mañana** (завтра)
+- **pasado mañana** (послезавтра)
+- **la semana que viene / próxima** (на следующей неделе)
+- **el mes que viene / próximo** (в следующем месяце)
+- **el año que viene / próximo** (в следующем году)
+- **en el futuro** (в будущем)
+- **dentro de...** (через...) - dentro de dos días (через два дня)
+- **pronto** (скоро)
+
+## IR + A + инфинитив (альтернатива):
+
+Для ближайшего будущего часто используется конструкция IR + A + инфинитив:
+- **Voy a estudiar** (Я буду учиться)
+- **Vas a viajar** (Ты поедешь)
+- **Van a comer** (Они будут есть)
+
+Futuro simple более формально и используется для более отдаленного будущего.
+      `,
+      examples: [
+        { spanish: 'Mañana iré al médico', translation: 'Завтра я пойду к врачу' },
+        { spanish: 'El próximo año estudiaré en España', translation: 'В следующем году я буду учиться в Испании' },
+        { spanish: 'Haremos un viaje a Italia', translation: 'Мы совершим поездку в Италию' },
+        { spanish: '¿Qué harás este fin de semana?', translation: 'Что ты будешь делать в эти выходные?' }
+      ]
+    },
+    vocabulary: [
+      { word: 'mañana', translation: 'завтра', audioUrl: null },
+      { word: 'pasado mañana', translation: 'послезавтра', audioUrl: null },
+      { word: 'próximo/a', translation: 'следующий/ая', audioUrl: null },
+      { word: 'futuro', translation: 'будущее', audioUrl: null },
+      { word: 'plan', translation: 'план', audioUrl: null },
+      { word: 'sueño', translation: 'мечта', audioUrl: null },
+      { word: 'meta', translation: 'цель', audioUrl: null },
+      { word: 'esperar', translation: 'ждать, надеяться', audioUrl: null },
+      { word: 'lograr', translation: 'достигать', audioUrl: null },
+      { word: 'conseguir', translation: 'получать, добиваться', audioUrl: null },
+      { word: 'cambiar', translation: 'менять', audioUrl: null },
+      { word: 'mejorar', translation: 'улучшать', audioUrl: null },
+      { word: 'realizar', translation: 'осуществлять', audioUrl: null },
+      { word: 'cumplir', translation: 'выполнять, исполняться', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mis planes para el futuro',
+      content: `Me llamo Andrea y tengo 22 años. Acabo de terminar la universidad y ahora estoy pensando en mis planes para el futuro. Tengo muchos sueños y metas que quiero cumplir.
+
+El mes que viene empezaré a trabajar en una empresa de marketing digital en Madrid. Será mi primer trabajo profesional y estoy muy emocionada, aunque también un poco nerviosa. Trabajaré como asistente de marketing, pero espero que con el tiempo podré ascender a puestos más altos. Aprenderé mucho sobre redes sociales, publicidad digital y estrategias de contenido.
+
+Este trabajo me permitirá independizarme económicamente. Dentro de tres meses me mudaré a mi propio apartamento. Ahora vivo con mis padres, pero llegó el momento de tener mi propio espacio. Será un apartamento pequeño en el barrio de Malasaña, cerca de mi oficina. No tendré que tomar el metro - podré ir andando en quince minutos.
+
+En cuanto al dinero, ahorraré una parte de mi salario cada mes. Tengo un plan: dentro de dos años tendré suficiente dinero para viajar por Sudamérica durante tres meses. Siempre he soñado con conocer Argentina, Chile, Perú y Colombia. Visitaré Machu Picchu, bailaré tango en Buenos Aires, exploraré la Patagonia y haré senderismo en los Andes. Será el viaje de mi vida.
+
+Después de ese viaje, volveré a España y buscaré nuevas oportunidades profesionales. Tal vez haré un máster en marketing internacional, o quizás me mudaré a Barcelona para trabajar allí. También pienso aprender portugués - será muy útil si quiero trabajar con clientes latinoamericanos.
+
+En cinco años me veo como gerente de marketing en una empresa importante. Hablaré inglés, español y portugués con fluidez. Habré viajado por muchos países y tendré experiencia internacional. Quizás incluso viviré en otro país - me encantaría trabajar unos años en Londres o Berlín.
+
+En el plano personal, no tengo prisa por casarme o tener hijos. Primero quiero enfocarme en mi carrera y en realizarme profesionalmente. Pero quien sabe - tal vez en diez años estaré casada y tendré una familia. Lo que sí sé es que no dejaré de viajar y aprender cosas nuevas.
+
+También tengo planes más pequeños pero importantes. Haré ejercicio regularmente - iré al gimnasio tres veces por semana. Leeré al menos un libro al mes. Mantendré el contacto con mis amigos de la universidad aunque todos estaremos ocupados con nuestros trabajos. Visitaré a mis padres los domingos y seguiré siendo una buena hija.
+
+El futuro me da un poco de miedo, pero sobre todo me emociona. Sé que habrá desafíos y momentos difíciles, pero confío en que podré superarlos. Trabajaré duro, aprenderé de mis errores y nunca dejaré de perseguir mis sueños. El futuro está lleno de posibilidades y estoy lista para aprovech arlas.`,
+      translation: 'Меня зовут Андреа и мне 22 года. Я только что закончила университет и сейчас думаю о своих планах на будущее...'
+    },
+    exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
+  },
+
+  'lesson-6-2': {
+    id: 'lesson-6-2',
+    title: 'Урок 2: Планы и намерения',
+    moduleId: 'module-6',
+    grammar: {
+      title: 'IR + A + инфинитив vs Futuro simple',
+      content: `
+# IR + A + infinitivo (Ближайшее будущее)
+
+## Образование:
+**IR (настоящее время) + A + инфинитив**
+
+| Лицо | IR | Пример |
+|------|----|--------|
+| yo | voy | voy a estudiar |
+| tú | vas | vas a comer |
+| él/ella/usted | va | va a viajar |
+| nosotros/as | vamos | vamos a salir |
+| vosotros/as | vais | vais a trabajar |
+| ellos/ellas/ustedes | van | van a vivir |
+
+## Употребление IR + A + инфинитив:
+
+1. **Ближайшие планы:**
+   - **Voy a comer** ahora (Я сейчас буду есть)
+   - Esta tarde **vamos a ver** una película (Сегодня вечером мы посмотрим фильм)
+
+2. **Намерения:**
+   - **Voy a estudiar** medicina (Я буду изучать медицину)
+   - **Van a casarse** el año que viene (Они поженятся в следующем году)
+
+3. **Очевидное будущее:**
+   - ¡Cuidado! **Vas a caer** (Осторожно! Ты упадешь)
+   - Mira esas nubes - **va a llover** (Посмотри на эти тучи - будет дождь)
+
+## Разница: IR + A vs Futuro simple
+
+**IR + A + infinitivo:**
+- Более разговорное
+- Ближайшее будущее
+- Четкие планы и намерения
+- **Voy a comprar** un coche (Я собираюсь купить машину)
+
+**Futuro simple:**
+- Более формальное
+- Отдаленное будущее
+- Предсказания
+- **Compraré** un coche algún día (Я куплю машину когда-нибудь)
+
+## Выражение намерений и желаний:
+
+**PENSAR + инфинитив** (думать, планировать):
+- **Pienso** viajar a Italia (Я планирую поехать в Италию)
+
+**QUERER + инфинитив** (хотеть):
+- **Quiero** aprender español (Я хочу выучить испанский)
+
+**ESPERAR + инфинитив** (надеяться):
+- **Espero** conseguir un buen trabajo (Я надеюсь получить хорошую работу)
+
+**TENER LA INTENCIÓN DE + инфинитив** (иметь намерение):
+- **Tengo la intención de** mudarme (Я намереваюсь переехать)
+
+**DESEAR + инфинитив** (желать):
+- **Deseo** mejorar mi vida (Я желаю улучшить свою жизнь)
+
+## Вопросы о планах:
+
+- **¿Qué vas a hacer...?** - Что ты собираешься делать...?
+- **¿Qué harás...?** - Что ты будешь делать...?
+- **¿Tienes planes para...?** - У тебя есть планы на...?
+- **¿Qué piensas hacer...?** - Что ты думаешь делать...?
+      `,
+      examples: [
+        { spanish: 'Voy a estudiar esta noche', translation: 'Я буду учиться сегодня вечером' },
+        { spanish: '¿Qué vas a hacer mañana?', translation: 'Что ты будешь делать завтра?' },
+        { spanish: 'Pienso mudarme a Barcelona', translation: 'Я планирую переехать в Барселону' },
+        { spanish: 'Espero conseguir un buen trabajo', translation: 'Я надеюсь получить хорошую работу' }
+      ]
+    },
+    vocabulary: [
+      { word: 'proyecto', translation: 'проект', audioUrl: null },
+      { word: 'objetivo', translation: 'цель, задача', audioUrl: null },
+      { word: 'intención', translation: 'намерение', audioUrl: null },
+      { word: 'propósito', translation: 'цель, намерение', audioUrl: null },
+      { word: 'decisión', translation: 'решение', audioUrl: null },
+      { word: 'carrera', translation: 'карьера', audioUrl: null },
+      { word: 'éxito', translation: 'успех', audioUrl: null },
+      { word: 'fracaso', translation: 'неудача', audioUrl: null },
+      { word: 'oportunidad', translation: 'возможность', audioUrl: null },
+      { word: 'desafío', translation: 'вызов, проблема', audioUrl: null },
+      { word: 'mudanza', translation: 'переезд', audioUrl: null },
+      { word: 'cambio', translation: 'изменение', audioUrl: null },
+      { word: 'empezar', translation: 'начинать', audioUrl: null },
+      { word: 'terminar', translation: 'заканчивать', audioUrl: null }
+    },
+    readingText: {
+      title: '¿Qué vamos a hacer este fin de semana?',
+      content: `Es jueves por la noche y mis amigos y yo estamos planeando el fin de semana. Todos tenemos ideas diferentes sobre qué vamos a hacer.
+
+María dice: "Yo voy a quedarme en casa el sábado por la mañana. Tengo que limpiar mi apartamento porque está muy desordenado. Después, por la tarde, voy a ir de compras. Necesito ropa nueva para mi entrevista de trabajo del lunes. Espero encontrar algo bonito y profesional en las rebajas."
+
+Carlos tiene otros planes: "Yo pienso ir a la playa el sábado si hace buen tiempo. El pronóstico dice que va a hacer sol y 28 grados. Voy a salir temprano, sobre las ocho de la mañana, para evitar el tráfico. ¿Alguien quiere venir conmigo? Va a ser un día perfecto para nadar y tomar el sol."
+
+"Yo no puedo", dice Laura. "El sábado voy a ayudar a mi hermano con su mudanza. Se va a mudar a un apartamento nuevo y necesita ayuda con los muebles. Vamos a empezar a las nueve y probablemente terminaremos por la tarde. Va a ser un día agotador, pero mi hermano me va a invitar a cenar después como agradecimiento."
+
+Miguel interrumpe: "¿Y qué vamos a hacer el sábado por la noche? Pienso organizar una cena en mi casa. Voy a cocinar mi especialidad - paella valenciana. ¿Os apetece venir? Vamos a ser unos ocho personas. Va a ser muy divertido."
+
+"¡Me encantaría!" responde María. "Pero primero tengo que terminar mis compras. ¿A qué hora va a ser la cena?"
+
+"Vamos a empezar sobre las nueve", dice Miguel. "Así todos tendrán tiempo de hacer sus cosas durante el día. Voy a comprar los ingredientes el sábado por la mañana en el mercado. Necesito arroz, mariscos, pollo, verduras... Va a ser una paella auténtica."
+
+Laura pregunta: "¿Necesitas ayuda para cocinar? Puedo llegar temprano si quieres. Voy a terminar con la mudanza sobre las seis."
+
+"Sería genial", dice Miguel. "Vamos a preparar todo juntos. También voy a hacer una sangría. Va a ser una cena memorable."
+
+Carlos añade: "Yo voy a traer el postre. Pasaré por la mejor pastelería de la ciudad. Voy a comprar una tarta de chocolate. ¿Os parece bien?"
+
+"Perfecto", dice Miguel. "¿Y el domingo? ¿Qué vamos a hacer?"
+
+"El domingo por la mañana voy a dormir hasta tarde", dice Laura riendo. "Después de la mudanza del sábado voy a estar agotada. No pienso levantarme antes de las once."
+
+María sugiere: "¿Qué tal si vamos a almorzar juntos el domingo? Conozco un restaurante nuevo que quiero probar. Dicen que van a abrir un buffet los domingos. Vamos a poder comer todo lo que queramos por un precio fijo."
+
+"Buena idea", dice Carlos. "Después del almuerzo podríamos ir al cine. Van a estrenar una película nueva que quiero ver. Tengo la intención de ver todas las películas nominadas a los Oscar este año."
+
+Miguel concluye: "Entonces está decidido. El sábado cada uno va a hacer sus cosas durante el día, por la noche vamos a cenar en mi casa, y el domingo vamos a almorzar juntos y luego iremos al cine. Va a ser un fin de semana fantástico."
+
+Todos estamos de acuerdo. Ya tenemos planes para el fin de semana. Ahora solo queda esperar a que llegue el sábado. Va a ser genial pasar tiempo juntos.`,
+      translation: 'Сейчас вечер четверга, и мы с друзьями планируем выходные. У всех разные идеи о том, что мы будем делать...'
+    },
+    exercises: ['ex-6-2-1', 'ex-6-2-2', 'ex-6-2-3', 'ex-6-2-4', 'ex-6-2-5']
+  },
+
+  'lesson-6-3': {
+    id: 'lesson-6-3',
+    title: 'Урок 3: Предсказания и прогнозы',
+    moduleId: 'module-6',
+    grammar: {
+      title: 'Futuro для предположений',
+      content: `
+# Futuro для предположений о настоящем и будущем
+
+## Предположения о настоящем:
+
+Futuro simple часто используется для предположений о том, что происходит СЕЙЧАС:
+
+**¿Qué hora es?** - Который час?
+- **Serán** las tres (Наверное, три часа)
+
+**¿Dónde está Juan?** - Где Хуан?
+- **Estará** en casa (Он, должно быть, дома)
+
+**¿Quién llamó?** - Кто звонил?
+- **Será** mi madre (Это, наверное, моя мама)
+
+**¿Cuántos años tiene?** - Сколько ему лет?
+- **Tendrá** unos 30 años (Ему, должно быть, около 30)
+
+## Структура:
+
+**Futuro simple = "наверное", "должно быть", "вероятно"**
+
+- **Habrá** mucha gente (Наверное, много людей)
+- **Costará** caro (Это, должно быть, дорого стоит)
+- **Sabrá** la respuesta (Он, должно быть, знает ответ)
+
+## Предсказания о будущем:
+
+**Основанные на фактах:**
+- Según el pronóstico, mañana **lloverá** (По прогнозу, завтра будет дождь)
+- Con esta política económica, la inflación **aumentará** (С этой экономической политикой инфляция вырастет)
+
+**Предсказания-мнения:**
+- En 20 años **habrá** coches voladores (Через 20 лет будут летающие машины)
+- La tecnología **cambiará** nuestras vidas (Технология изменит наши жизни)
+- **Viviremos** más tiempo gracias a la medicina (Мы будем жить дольше благодаря медицине)
+
+## Вероятность (PROBABLEMENTE, SEGURAMENTE, POSIBLEMENTE):
+
+**PROBABLEMENTE + futuro** (вероятно):
+- **Probablemente** lloverá mañana
+- **Probablemente** no vendrá
+
+**SEGURAMENTE + futuro** (наверняка):
+- **Seguramente** aprobará el examen
+- **Seguramente** llegará tarde
+
+**POSIBLEMENTE + subjuntivo** (возможно):
+- **Posiblemente** venga (Возможно, он придет)
+
+**QUIZÁ(S) / TAL VEZ + futuro/subjuntivo** (может быть):
+- **Quizás** viajaré a España
+- **Tal vez** llueva
+
+## Условные предложения (SI + presente, futuro):
+
+- **Si** tengo tiempo, **iré** al cine (Если у меня будет время, я пойду в кино)
+- **Si** estudias, **aprobarás** (Если ты будешь учиться, ты сдашь)
+- **Si** hace buen tiempo, **iremos** a la playa (Если будет хорошая погода, мы пойдем на пляж)
+
+## Выражения будущего:
+
+- **En el futuro** (в будущем)
+- **Dentro de X años** (через X лет)
+- **En X años** (через X лет)
+- **Para el año 2050** (к 2050 году)
+- **Tarde o temprano** (рано или поздно)
+- **Con el tiempo** (со временем)
+- **A largo plazo** (в долгосрочной перспективе)
+      `,
+      examples: [
+        { spanish: '¿Dónde está María? - Estará en casa', translation: 'Где Мария? - Она, должно быть, дома' },
+        { spanish: 'Según el pronóstico, mañana lloverá', translation: 'По прогнозу, завтра будет дождь' },
+        { spanish: 'Si estudias, aprobarás el examen', translation: 'Если ты будешь учиться, ты сдашь экзамен' },
+        { spanish: 'En el futuro viviremos más años', translation: 'В будущем мы будем жить дольше' }
+      ]
+    },
+    vocabulary: [
+      { word: 'predicción', translation: 'предсказание', audioUrl: null },
+      { word: 'pronóstico', translation: 'прогноз', audioUrl: null },
+      { word: 'probable', translation: 'вероятный', audioUrl: null },
+      { word: 'posible', translation: 'возможный', audioUrl: null },
+      { word: 'seguro', translation: 'уверенный, точный', audioUrl: null },
+      { word: 'tecnología', translation: 'технология', audioUrl: null },
+      { word: 'ciencia', translation: 'наука', audioUrl: null },
+      { word: 'avance', translation: 'прогресс, достижение', audioUrl: null },
+      { word: 'desarrollo', translation: 'развитие', audioUrl: null },
+      { word: 'innovación', translation: 'инновация', audioUrl: null },
+      { word: 'clima', translation: 'климат', audioUrl: null },
+      { word: 'medio ambiente', translation: 'окружающая среда', audioUrl: null },
+      { word: 'cambio climático', translation: 'изменение климата', audioUrl: null },
+      { word: 'sociedad', translation: 'общество', audioUrl: null }
+    },
+    readingText: {
+      title: 'El mundo en 2050',
+      content: `¿Cómo será el mundo en 2050? Los expertos hacen muchas predicciones sobre cómo viviremos dentro de 25 años. Algunas son optimistas, otras preocupantes. Veamos qué cambios probablemente veremos.
+
+**Tecnología y vida diaria**
+
+La tecnología cambiará radicalmente nuestra vida cotidiana. Según los expertos, la inteligencia artificial estará presente en todos los aspectos de nuestra vida. Tendremos asistentes virtuales mucho más avanzados que los actuales. Estos asistentes sabrán nuestras preferencias, anticiparán nuestras necesidades y nos ayudarán a tomar decisiones.
+
+Los coches autónomos serán la norma. No necesitaremos conducir - el coche nos llevará a donde queramos mientras nosotros trabajamos, leemos o descansamos. Probablemente tampoco tendremos que comprar coches. Simplemente llamaremos a un vehículo cuando lo necesitemos.
+
+En nuestras casas, todo estará conectado a internet. La nevera sabrá qué alimentos faltan y los pedirá automáticamente. Las luces, la calefacción y los electrodomésticos se ajustarán solos según nuestras rutinas. Viviremos en casas inteligentes que casi pensarán por sí mismas.
+
+**Trabajo y educación**
+
+La forma en que trabajamos cambiará completamente. Muchas profesiones que existen hoy desaparecerán, reemplazadas por robots e inteligencia artificial. Pero también surgirán nuevos trabajos que ahora ni siquiera podemos imaginar.
+
+El trabajo remoto será completamente normal. Muchas personas no tendrán una oficina fija - trabajarán desde casa, desde cafeterías o mientras viajan. Las reuniones se harán en realidad virtual, donde parecerá que todos están en la misma sala aunque estén en países diferentes.
+
+La educación también será muy diferente. Probablemente las universidades tradicionales perderán importancia. Estudiaremos online, a nuestro propio ritmo, con programas personalizados según nuestros intereses y habilidades. La realidad virtual nos permitirá hacer prácticas en entornos simulados antes de trabajar en situaciones reales.
+
+**Salud y medicina**
+
+La medicina tendrá avances increíbles. Según los científicos, viviremos más años - la esperanza de vida llegará a los 90 o 100 años en muchos países. Algunas enfermedades que hoy son mortales se curarán fácilmente.
+
+Tendremos medicina personalizada. Los doctores analizarán nuestro ADN y sabrán exactamente qué tratamientos funcionarán mejor para cada persona. Los sensores que llevaremos en el cuerpo monitorearán constantemente nuestra salud y detectarán problemas antes de que aparezcan síntomas.
+
+Posiblemente habrá órganos artificiales para reemplazar los que fallen. Quizás incluso podremos imprimir órganos en 3D usando nuestras propias células. Esto resolverá el problema de la falta de donantes.
+
+**Medio ambiente y energía**
+
+Esta es el área más preocupante. Si no hacemos cambios ahora, el cambio climático empeorará. Las temperaturas subirán, habrá más sequías e inundaciones, y muchas especies se extinguirán.
+
+Pero también hay esperanza. Probablemente usaremos energías renovables de forma masiva. Los paneles solares serán mucho más eficientes y baratos. Tal vez tengamos fusión nuclear, una fuente de energía limpia y prácticamente ilimitada.
+
+Los coches eléctricos reemplazarán completamente a los de gasolina. Las ciudades tendrán menos contaminación y el aire será más limpio. Posiblemente cultivaremos comida en edificios verticales dentro de las ciudades, usando menos agua y tierra.
+
+**Población y sociedad**
+
+La población mundial llegará a unos 9.000 millones de personas. La mayoría vivirá en ciudades - habrá megaciudades de 30 o 40 millones de habitantes. Estas ciudades tendrán que ser muy eficientes en el uso de recursos.
+
+La sociedad será más diversa y conectada globalmente. Viajar será más fácil y barato. Quizás tengamos vuelos supersónicos que crucen el Atlántico en dos horas. Algunos predicen que habrá colonias en Marte, aunque probablemente serán muy pequeñas.
+
+¿Se cumplirán estas predicciones? Nadie lo sabe con certeza. El futuro dependerá de las decisiones que tomemos hoy. Pero una cosa es segura: el mundo de 2050 será muy diferente al de hoy.`,
+      translation: 'Каким будет мир в 2050 году? Эксперты делают много предсказаний о том, как мы будем жить через 25 лет...'
+    },
+    exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
+  },
+
+  // МОДУЛЬ 7: Сослагательное наклонение (B1)
+  'lesson-7-1': {
+    id: 'lesson-7-1',
+    title: 'Урок 1: Presente de subjuntivo - образование',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Presente de subjuntivo (Настоящее время сослагательного наклонения)',
+      content: `
+# Presente de subjuntivo - Образование
+
+Subjuntivo (сослагательное наклонение) выражает субъективность: желания, сомнения, эмоции, неуверенность.
+
+## Образование:
+
+**1. Берем форму YO настоящего времени (indicativo)**
+**2. Убираем -O**
+**3. Добавляем "противоположные" окончания:**
+
+### Глаголы на -AR → окончания -ER/-IR:
+
+| Лицо | HABLAR | Окончание |
+|------|--------|-----------|
+| yo | hable | -e |
+| tú | hables | -es |
+| él/ella/usted | hable | -e |
+| nosotros/as | hablemos | -emos |
+| vosotros/as | habléis | -éis |
+| ellos/ellas/ustedes | hablen | -en |
+
+### Глаголы на -ER/-IR → окончания -AR:
+
+| Лицо | COMER | VIVIR | Окончание |
+|------|-------|-------|-----------|
+| yo | coma | viva | -a |
+| tú | comas | vivas | -as |
+| él/ella/usted | coma | viva | -a |
+| nosotros/as | comamos | vivamos | -amos |
+| vosotros/as | comáis | viváis | -áis |
+| ellos/ellas/ustedes | coman | vivan | -an |
+
+## Неправильные глаголы (от формы YO):
+
+**Изменения в корне сохраняются:**
+
+| Infinitivo | YO (indicativo) | Subjuntivo |
+|------------|-----------------|------------|
+| tener | tengo | tenga, tengas, tenga... |
+| venir | vengo | venga, vengas, venga... |
+| hacer | hago | haga, hagas, haga... |
+| decir | digo | diga, digas, diga... |
+| conocer | conozco | conozca, conozcas, conozca... |
+| poner | pongo | ponga, pongas, ponga... |
+| salir | salgo | salga, salgas, salga... |
+| traer | traigo | traiga, traigas, traiga... |
+
+**Полностью неправильные:**
+
+| Infinitivo | Subjuntivo |
+|------------|------------|
+| ser | sea, seas, sea, seamos, seáis, sean |
+| estar | esté, estés, esté, estemos, estéis, estén |
+| ir | vaya, vayas, vaya, vayamos, vayáis, vayan |
+| haber | haya, hayas, haya, hayamos, hayáis, hayan |
+| saber | sepa, sepas, sepa, sepamos, sepáis, sepan |
+| dar | dé, des, dé, demos, deis, den |
+
+**Глаголы с изменением гласной (e→ie, o→ue):**
+
+| Infinitivo | Subjuntivo |
+|------------|------------|
+| querer | quiera, quieras, quiera, queramos, queráis, quieran |
+| pensar | piense, pienses, piense, pensemos, penséis, piensen |
+| poder | pueda, puedas, pueda, podamos, podáis, puedan |
+| dormir | duerma, duermas, duerma, durmamos, durmáis, duerman |
+
+## Правило памяти:
+
+**AR ↔ ER/IR меняются местами!**
+- hablar (AR) → habl**e** (как ER)
+- comer (ER) → com**a** (как AR)
+- vivir (IR) → viv**a** (как AR)
+      `,
+      examples: [
+        { spanish: 'Yo hablo (indicativo) → que yo hable (subjuntivo)', translation: 'Я говорю → чтобы я говорил' },
+        { spanish: 'Tú comes → que tú comas', translation: 'Ты ешь → чтобы ты ел' },
+        { spanish: 'Él tiene → que él tenga', translation: 'У него есть → чтобы у него было' },
+        { spanish: 'Nosotros somos → que seamos', translation: 'Мы есть → чтобы мы были' }
+      ]
+    },
+    vocabulary: [
+      { word: 'deseo', translation: 'желание', audioUrl: null },
+      { word: 'duda', translation: 'сомнение', audioUrl: null },
+      { word: 'emoción', translation: 'эмоция', audioUrl: null },
+      { word: 'ojalá', translation: 'хоть бы, если бы', audioUrl: null },
+      { word: 'tal vez', translation: 'может быть', audioUrl: null },
+      { word: 'quizás', translation: 'возможно', audioUrl: null },
+      { word: 'esperar', translation: 'надеяться', audioUrl: null },
+      { word: 'querer', translation: 'хотеть', audioUrl: null },
+      { word: 'necesitar', translation: 'нуждаться', audioUrl: null },
+      { word: 'preferir', translation: 'предпочитать', audioUrl: null },
+      { word: 'sugerir', translation: 'предлагать', audioUrl: null },
+      { word: 'recomendar', translation: 'рекомендовать', audioUrl: null },
+      { word: 'aconsejar', translation: 'советовать', audioUrl: null },
+      { word: 'pedir', translation: 'просить', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Aprendiendo el subjuntivo',
+      content: `El subjuntivo es uno de los aspectos más difíciles del español para los estudiantes extranjeros. Muchos dicen: "Espero que no sea tan complicado" - ¡y ya están usando el subjuntivo sin darse cuenta!
+
+El subjuntivo no es un tiempo verbal, sino un modo. Mientras que el indicativo expresa hechos y certezas, el subjuntivo expresa la subjetividad: deseos, dudas, emociones, posibilidades. Es la diferencia entre el mundo real y el mundo de nuestros pensamientos y sentimientos.
+
+Veamos algunos ejemplos básicos. Cuando dices "Quiero que vengas a mi fiesta", estás usando el subjuntivo ("vengas") porque expresas un deseo. No es un hecho - la persona todavía no ha venido. Compara con "Sé que vienes a mi fiesta" (indicativo) - aquí es un hecho, una certeza.
+
+Otro ejemplo: "Espero que haga buen tiempo mañana". Aquí usamos "haga" (subjuntivo de hacer) porque es una esperanza, no una certeza. El tiempo no está en nuestro control. Si dijéramos "Sé que hará buen tiempo" (futuro indicativo), estaríamos muy seguros.
+
+Las expresiones con "ojalá" siempre llevan subjuntivo. "Ojalá" viene del árabe "law sha Allah" (si Dios quiere). Por ejemplo: "Ojalá apruebe el examen", "Ojalá llueva pronto", "Ojalá tengas un buen día". Son todos deseos.
+
+Cuando expresamos dudas, también usamos subjuntivo: "Dudo que él sepa la respuesta", "No creo que ella venga", "Es posible que llueva". La duda y la incertidumbre son el territorio del subjuntivo.
+
+Las emociones también requieren subjuntivo: "Me alegro de que estés aquí", "Siento que te sientas mal", "Me sorprende que no sepas esto". Nuestras emociones sobre algo son subjetivas, no hechos objetivos.
+
+Para formar el subjuntivo presente, recuerda esta regla sencilla: los verbos -AR toman las terminaciones de -ER/-IR, y viceversa. Es como si los verbos "intercambiaran ropa". HABLAR (AR) se viste como los verbos ER: hable, hables, hable. COMER (ER) se viste como los verbos AR: coma, comas, coma.
+
+Los irregulares siguen el patrón de la primera persona del presente indicativo. Si dices "Yo tengo", el subjuntivo será "que yo tenga". Si dices "Yo hago", será "que yo haga". Hay algunas excepciones totalmente irregulares como SER (sea), ESTAR (esté), IR (vaya), SABER (sepa), pero son pocas.
+
+¿Es difícil? Sí. ¿Es imposible? No. Con práctica y exposición constante, el subjuntivo se vuelve natural. Los hispanohablantes lo usan automáticamente desde niños. Tú también puedes. Solo necesitas que practiques mucho, que leas ejemplos, que escuches español auténtico y que no tengas miedo de cometer errores.
+
+Espero que este texto te ayude a entender mejor el subjuntivo. Ojalá sigas estudiando con entusiasmo. Es importante que no te desanimes. Dudo que sea fácil, pero estoy seguro de que puedes aprenderlo. ¡Que tengas éxito en tu aprendizaje!`,
+      translation: 'Subjuntivo - один из самых сложных аспектов испанского для иностранных студентов...'
+    },
+    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5']
+  },
+
+  'lesson-7-2': {
+    id: 'lesson-7-2',
+    title: 'Урок 2: Употребление subjuntivo - желания и эмоции',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Когда использовать Subjuntivo',
+      content: `
+# Употребление Subjuntivo
+
+## 1. ЖЕЛАНИЯ и ПРОСЬБЫ (QUE + subjuntivo):
+
+**Querer que** (хотеть, чтобы):
+- **Quiero que** vengas - Я хочу, чтобы ты пришел
+- **Queremos que** estudies - Мы хотим, чтобы ты учился
+
+**Esperar que** (надеяться, что):
+- **Espero que** te guste - Надеюсь, тебе понравится
+- **Esperamos que** haga buen tiempo - Надеемся, будет хорошая погода
+
+**Necesitar que** (нуждаться, чтобы):
+- **Necesito que** me ayudes - Мне нужно, чтобы ты мне помог
+
+**Preferir que** (предпочитать, чтобы):
+- **Prefiero que** vengas temprano - Я предпочитаю, чтобы ты пришел рано
+
+## 2. ЭМОЦИИ и ЧУВСТВА:
+
+**Me alegro de que** (я рад, что):
+- **Me alegro de que** estés aquí - Я рад, что ты здесь
+
+**Siento que** (сожалею, что):
+- **Siento que** no puedas venir - Сожалею, что ты не можешь прийти
+
+**Me sorprende que** (меня удивляет, что):
+- **Me sorprende que** no lo sepas - Меня удивляет, что ты это не знаешь
+
+**Tengo miedo de que** (боюсь, что):
+- **Tengo miedo de que** llueva - Боюсь, что пойдет дождь
+
+**Me molesta que** (меня раздражает, что):
+- **Me molesta que** llegues tarde - Меня раздражает, что ты опаздываешь
+
+## 3. СОМНЕНИЯ и ОТРИЦАНИЕ:
+
+**Dudar que** (сомневаться, что):
+- **Dudo que** venga - Сомневаюсь, что он придет
+
+**No creer que** (не верить, что):
+- **No creo que** sea verdad - Не верю, что это правда
+
+**No estar seguro de que** (не быть уверенным, что):
+- **No estoy seguro de que** funcione - Не уверен, что это сработает
+
+**No pensar que** (не думать, что):
+- **No pienso que** tengas razón - Не думаю, что ты прав
+
+⚠️ НО: "Creo que" (indicativo), "Pienso que" (indicativo) - уверенность
+
+## 4. OJALÁ (если бы, хоть бы):
+
+**Ojalá** всегда требует subjuntivo:
+- **Ojalá** llueva - Хоть бы пошел дождь
+- **Ojalá** tengas suerte - Хоть бы тебе повезло
+- **Ojalá** sea verdad - Если бы это было правдой
+
+## 5. БЕЗЛИЧНЫЕ ВЫРАЖЕНИЯ:
+
+**Es importante que** (важно, чтобы):
+- **Es importante que** estudies - Важно, чтобы ты учился
+
+**Es necesario que** (необходимо, чтобы):
+- **Es necesario que** vengas - Необходимо, чтобы ты пришел
+
+**Es posible que** (возможно, что):
+- **Es posible que** llueva - Возможно, пойдет дождь
+
+**Es probable que** (вероятно, что):
+- **Es probable que** llegue tarde - Вероятно, он опоздает
+
+**Es bueno/malo que** (хорошо/плохо, что):
+- **Es bueno que** practiques - Хорошо, что ты практикуешь
+
+**Es una pena que** (жаль, что):
+- **Es una pena que** no puedas venir - Жаль, что ты не можешь прийти
+
+## Структура предложения:
+
+**[Главное предложение] + QUE + [subjuntivo]**
+
+- Quiero + que + tú vengas
+- Espero + que + llueva
+- Me alegro de + que + estés aquí
+
+⚠️ **ВАЖНО:** Если подлежащее одно, используем инфинитив:
+- **Quiero venir** (я хочу прийти - один субъект)
+- **Quiero que vengas** (я хочу, чтобы ТЫ пришел - два субъекта)
+      `,
+      examples: [
+        { spanish: 'Quiero que estudies más', translation: 'Я хочу, чтобы ты учился больше' },
+        { spanish: 'Me alegro de que estés bien', translation: 'Я рад, что ты в порядке' },
+        { spanish: 'Dudo que venga mañana', translation: 'Сомневаюсь, что он придет завтра' },
+        { spanish: 'Ojalá haga buen tiempo', translation: 'Хоть бы была хорошая погода' }
+      ]
+    },
+    vocabulary: [
+      { word: 'alegrarse', translation: 'радоваться', audioUrl: null },
+      { word: 'sentir', translation: 'сожалеть, чувствовать', audioUrl: null },
+      { word: 'sorprender', translation: 'удивлять', audioUrl: null },
+      { word: 'molestar', translation: 'раздражать', audioUrl: null },
+      { word: 'temer', translation: 'бояться', audioUrl: null },
+      { word: 'dudar', translation: 'сомневаться', audioUrl: null },
+      { word: 'creer', translation: 'верить', audioUrl: null },
+      { word: 'importante', translation: 'важный', audioUrl: null },
+      { word: 'necesario', translation: 'необходимый', audioUrl: null },
+      { word: 'posible', translation: 'возможный', audioUrl: null },
+      { word: 'probable', translation: 'вероятный', audioUrl: null },
+      { word: 'pena', translation: 'жалость', audioUrl: null },
+      { word: 'verdad', translation: 'правда', audioUrl: null },
+      { word: 'razón', translation: 'причина, правота', audioUrl: null }
+    },
+    readingText: {
+      title: 'Carta a un amigo',
+      content: `Querido Miguel:
+
+¿Cómo estás? Espero que estés bien y que tu familia también esté bien. Hace mucho tiempo que no nos vemos y te echo de menos.
+
+Te escribo porque quiero que sepas que voy a viajar a Madrid el mes que viene. ¡Tengo tantas ganas de verte! Espero que tengas tiempo libre para que podamos encontrarnos. Sería genial que pudiéramos pasar un fin de semana juntos como en los viejos tiempos.
+
+Me alegro mucho de que hayas conseguido ese nuevo trabajo del que me hablaste. Es importante que estés contento con lo que haces. Espero que tus compañeros sean agradables y que el jefe te trate bien. Ojalá tengas mucho éxito en tu nueva posición.
+
+Sobre mi vida, bueno, hay cambios. Es posible que me mude a otra ciudad pronto. Mi empresa quiere que trabaje en la oficina de Barcelona. No estoy seguro de que sea una buena idea dejar Madrid, pero es una gran oportunidad profesional. Temo que sea difícil adaptarme a una nueva ciudad, pero espero que todo salga bien.
+
+También tengo noticias sobre Laura. ¿Te acuerdas de ella? Pues resulta que está comprometida. Me sorprende que se case tan joven - solo tiene 25 años. Pero me alegro de que haya encontrado a alguien que la haga feliz. Espero que me inviten a la boda. Sería una pena que no pudiéramos estar allí para celebrarlo con ella.
+
+Sobre mis estudios de español, sigo practicando. Mi profesor quiere que lea más en español y que escriba composiciones cada semana. Es necesario que practique la gramática, especialmente el subjuntivo. ¡Es tan difícil! Dudo que algún día lo domine completamente, pero es importante que siga intentándolo.
+
+¿Y tú? ¿Qué tal tu curso de inglés? Espero que hayas progresado mucho. Es fundamental que practiques hablando, no solo estudiando gramática. Te recomiendo que veas series en inglés con subtítulos. Es una forma excelente de aprender.
+
+Bueno, Miguel, espero que esta carta te encuentre bien. Es posible que vaya a Madrid entre el 15 y el 20 de marzo. Ojalá podamos vernos entonces. Por favor, escríbeme pronto. Necesito que me confirmes si estarás libre esas fechas.
+
+Te mando un abrazo fuerte. Espero que tengamos noticias pronto y que nos veamos dentro de poco.
+
+Tu amigo,
+Carlos
+
+P.D.: Es probable que lleve a mi novia Ana. Espero que no te importe que ella venga también. Estoy seguro de que te caerá muy bien.`,
+      translation: 'Дорогой Мигель! Как дела? Надеюсь, у тебя все хорошо и твоя семья тоже в порядке...'
+    },
+    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
+  },
+
+  'lesson-7-3': {
+    id: 'lesson-7-3',
+    title: 'Урок 3: Subjuntivo в придаточных предложениях',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Subjuntivo в разных типах придаточных предложений',
+      content: `
+# Subjuntivo в придаточных предложениях
+
+## 1. ВРЕМЕННЫЕ КОНСТРУКЦИИ (cuando, hasta que, antes de que):
+
+### CUANDO:
+- **Futuro**: Cuando **vengas**, hablaremos (Когда ты придешь, мы поговорим) - **subjuntivo**
+- **Presente/pasado**: Cuando **vienes**, hablamos (Когда ты приходишь, мы говорим) - indicativo
+- **Pasado**: Cuando **viniste**, hablamos (Когда ты пришел, мы поговорили) - indicativo
+
+### HASTA QUE (пока не):
+- Esperaré **hasta que llegues** - Подожду, пока ты не придешь
+
+### ANTES DE QUE (перед тем как):
+- Llámame **antes de que salgas** - Позвони мне перед тем как выйдешь
+- ⚠️ Всегда subjuntivo!
+
+### EN CUANTO / TAN PRONTO COMO (как только):
+- **En cuanto termine**, te llamo - Как только закончу, позвоню
+
+## 2. ЦЕЛЬ (para que, a fin de que):
+
+**PARA QUE** (чтобы, для того чтобы):
+- Te lo explico **para que entiendas** - Объясняю тебе, чтобы ты понял
+- Hablo despacio **para que me comprendas** - Говорю медленно, чтобы ты меня понял
+
+⚠️ **Один субъект** = PARA + infinitivo:
+- Estudio **para aprender** (я учусь, чтобы выучить)
+- Trabajo **para ganar dinero** (я работаю, чтобы заработать)
+
+## 3. УСЛОВИЕ (con tal de que, siempre que, a menos que):
+
+**CON TAL DE QUE** (при условии что):
+- Iré **con tal de que vengas** tú también - Пойду при условии, что ты тоже придешь
+
+**SIEMPRE QUE** (при условии что):
+- Te ayudo **siempre que me lo pidas** - Помогу тебе, если ты попросишь
+
+**A MENOS QUE** (если только не):
+- Iremos **a menos que llueva** - Пойдем, если только не будет дождя
+
+**SIN QUE** (без того чтобы):
+- Salió **sin que nadie lo viera** - Вышел, чтобы никто не видел
+
+## 4. УСТУПКА (aunque):
+
+**AUNQUE** + subjuntivo (даже если - неизвестно):
+- **Aunque llueva**, iré - Даже если будет дождь, пойду (не знаем, будет ли)
+
+**AUNQUE** + indicativo (хотя - факт):
+- **Aunque llueve**, iré - Хотя идет дождь, пойду (идет сейчас)
+
+## 5. НЕОПРЕДЕЛЕННОЕ / НЕСУЩЕСТВУЮЩЕЕ:
+
+### Busco... / Necesito... (ищу/нужен):
+- **Busco una casa que tenga jardín** - Ищу дом, у которого есть сад (не знаю, существует ли)
+- Tengo una casa que **tiene** jardín - У меня есть дом с садом (indicativo - конкретный)
+
+### No hay nadie que... (нет никого, кто):
+- **No hay nadie que sepa** la respuesta - Нет никого, кто знает ответ
+
+### ¿Hay alguien que...? (есть кто-то, кто?):
+- **¿Hay alguien que hable** ruso? - Есть кто-то, кто говорит по-русски?
+
+## 6. БЕЗЛИЧНЫЕ КОНСТРУКЦИИ:
+
+**Sea como sea** - Как бы то ни было
+**Pase lo que pase** - Что бы ни случилось
+**Diga lo que diga** - Что бы он ни говорил
+**Cueste lo que cueste** - Чего бы это ни стоило
+
+## Схема выбора:
+
+**¿Факт или субъективность?**
+- Факт, уверенность, привычка → **INDICATIVO**
+- Желание, сомнение, эмоция, будущее → **SUBJUNTIVO**
+
+**¿Определенное или неопределенное?**
+- Конкретное, существующее → **INDICATIVO**
+- Неопределенное, несуществующее → **SUBJUNTIVO**
+      `,
+      examples: [
+        { spanish: 'Cuando vengas, hablaremos', translation: 'Когда ты придешь, мы поговорим' },
+        { spanish: 'Te llamo para que sepas la verdad', translation: 'Звоню тебе, чтобы ты знал правду' },
+        { spanish: 'Busco un libro que explique el subjuntivo', translation: 'Ищу книгу, которая объясняет subjuntivo' },
+        { spanish: 'Aunque llueva, iremos al parque', translation: 'Даже если будет дождь, пойдем в парк' }
+      ]
+    },
+    vocabulary: [
+      { word: 'cuando', translation: 'когда', audioUrl: null },
+      { word: 'hasta que', translation: 'пока не', audioUrl: null },
+      { word: 'antes de que', translation: 'перед тем как', audioUrl: null },
+      { word: 'para que', translation: 'чтобы', audioUrl: null },
+      { word: 'aunque', translation: 'хотя, даже если', audioUrl: null },
+      { word: 'con tal de que', translation: 'при условии что', audioUrl: null },
+      { word: 'a menos que', translation: 'если только не', audioUrl: null },
+      { word: 'sin que', translation: 'без того чтобы', audioUrl: null },
+      { word: 'en cuanto', translation: 'как только', audioUrl: null },
+      { word: 'tan pronto como', translation: 'как только', audioUrl: null },
+      { word: 'buscar', translation: 'искать', audioUrl: null },
+      { word: 'encontrar', translation: 'находить', audioUrl: null },
+      { word: 'existir', translation: 'существовать', audioUrl: null },
+      { word: 'haber', translation: 'иметься', audioUrl: null }
+    },
+    readingText: {
+      title: 'El Camino de Santiago',
+      content: `El Camino de Santiago es una de las rutas de peregrinación más famosas del mundo. Miles de personas lo recorren cada año, ya sea por motivos religiosos, espirituales o simplemente por la aventura. Aunque cada peregrino tiene sus propias razones, todos comparten una experiencia única.
+
+Muchos peregrinos buscan una experiencia que les cambie la vida. Buscan algo que no pueden encontrar en su rutina diaria. Algunos buscan respuestas a preguntas importantes: "¿Qué quiero hacer con mi vida?", "¿Soy feliz?", "¿Qué es realmente importante para mí?" El Camino ofrece tiempo y espacio para reflexionar sobre estas cuestiones.
+
+Antes de que empieces el Camino, es importante que prepares bien. Necesitas entrenar físicamente para que tu cuerpo aguante las largas caminatas. También es necesario que lleves solo lo esencial en tu mochila. Un consejo: pase lo que pase, no lleves más de 10 kilos. Muchos principiantes cometen el error de llevar demasiadas cosas, y luego tienen que enviarlas a casa porque no pueden cargar tanto peso.
+
+El Camino tiene varias rutas. La más popular es el Camino Francés, que empieza en los Pirineos y termina en Santiago de Compostela. Dura aproximadamente 30-35 días. Aunque hay otras rutas más cortas, muchos peregrinos prefieren hacer el Camino completo para que la experiencia sea más profunda.
+
+En el Camino conocerás personas de todo el mundo. No hay nadie que no tenga una historia interesante que contar. Conocerás a gente que camina para superar una pérdida, otros que buscan dirección en su vida, algunos que quieren probar sus límites físicos, y muchos que simplemente quieren desconectar del estrés moderno.
+
+Los albergues para peregrinos (llamados "albergues") son lugares especiales donde puedes descansar. Son económicos, simples, pero llenos de camaradería. Aunque no son lujosos, ofrecen todo lo que necesitas: una cama, una ducha y, lo más importante, compañía de otros peregrinos. Por la noche, todos comparten historias del día. Es común que hagas amigos que duren toda la vida.
+
+En cuanto llegues a Santiago, sentirás una mezcla de emociones. Alegría por haberlo logrado, tristeza porque la aventura termina, gratitud por la experiencia. La tradición dice que cuando llegues a la catedral, debes abrazar la estatua del apóstol Santiago. Muchos peregrinos lloran en este momento - es el final de un viaje que los ha transformado.
+
+Pero el verdadero Camino no termina en Santiago. Como dicen los peregrinos experimentados: "El Camino no acaba cuando llegas a Santiago, sino cuando Santiago llega a ti". Los cambios que experimentes en el Camino te acompañarán para siempre.
+
+Si estás pensando en hacer el Camino, mi consejo es: hazlo. No importa que no estés en perfecta forma física. No importa que no sepas exactamente por qué quieres ir. No importa que tengas dudas. Muchos peregrinos empiezan el Camino con dudas y preguntas, y lo terminan con paz y claridad.
+
+Ojalá algún día puedas experimentar el Camino de Santiago. Es posible que sea la experiencia más transformadora de tu vida. Y cuando vuelvas, espero que compartas tu historia con otros, para que más personas se animen a hacer este viaje increíble.
+
+Como dicen en español: "Ultreia!" (¡Adelante!) - el saludo tradicional entre peregrinos del Camino de Santiago.`,
+      translation: 'Путь Святого Иакова - один из самых знаменитых паломнических маршрутов в мире...'
+    },
+    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3', 'ex-7-3-4', 'ex-7-3-5']
+  },
+
+  // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
+
+  'lesson-8-1': {
+    id: 'lesson-8-1',
+    title: 'Урок 1: Реальные условия (Tipo 1)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Условные предложения первого типа (Condicionales reales)',
+      content: `
+# Условные предложения Tipo 1 (Реальные условия)
+
+Используются для описания **реальных**, **возможных** ситуаций в настоящем или будущем.
+
+## Структура:
+
+**Si + PRESENTE, FUTURO / IMPERATIVO / PRESENTE**
+
+### Формула 1: Si + presente, futuro
+
+| Условие (si + presente) | Результат (futuro) |
+|-------------------------|---------------------|
+| Si **llueve** | **llevaré** paraguas |
+| Si **estudias** | **aprobarás** el examen |
+| Si **tengo** tiempo | te **llamaré** |
+
+**Примеры:**
+- Si **hace** buen tiempo, **iremos** a la playa (Если будет хорошая погода, пойдем на пляж)
+- Si **llegas** tarde, te **esperaré** (Если опоздаешь, я подожду)
+- Si **necesitas** ayuda, me **dirás** (Если нужна помощь, скажешь мне)
+
+### Формула 2: Si + presente, imperativo
+
+| Условие | Команда |
+|---------|---------|
+| Si **tienes** frío | **cierra** la ventana |
+| Si **estás** cansado | **descansa** |
+
+**Примеры:**
+- Si **ves** a María, **dile** que la llamo (Если увидишь Марию, скажи ей, что позвоню)
+- Si **quieres** café, **prepáralo** (Если хочешь кофе, приготовь)
+
+### Формула 3: Si + presente, presente
+
+Для **универсальных истин**, **привычек**, **общих правил**:
+
+**Примеры:**
+- Si **calientas** el agua a 100°, **hierve** (Если нагреваешь воду до 100°, она кипит)
+- Si **como** mucho, **engordo** (Если ем много, толстею)
+- Si no **duermo** bien, **estoy** cansado (Если плохо сплю, я устаю)
+
+## ¡IMPORTANTE!
+
+⚠️ **НИКОГДА не используйте futuro после SI:**
+- ❌ Si **llegaré** tarde... (НЕПРАВИЛЬНО)
+- ✓ Si **llego** tarde... (ПРАВИЛЬНО)
+
+⚠️ **Порядок можно менять:**
+- Si llueve, me quedo en casa = Me quedo en casa si llueve
+- Si estudias, aprobarás = Aprobarás si estudias
+
+## Другие союзы (не только SI):
+
+Эти же правила работают с другими условными союзами:
+
+| Союз | Значение | Пример |
+|------|----------|--------|
+| **cuando** | когда | Cuando **termine**, te llamo |
+| **en cuanto** | как только | En cuanto **llegues**, empezamos |
+| **mientras** | пока | Mientras **esté** aquí, ayudo |
+| **hasta que** | пока не | Hasta que **vuelvas**, espero |`,
+      examples: [
+        { spanish: 'Si estudias mucho, aprobarás el examen', russian: 'Если будешь много учиться, сдашь экзамен' },
+        { spanish: 'Si hace sol mañana, iremos a la playa', russian: 'Если завтра будет солнечно, пойдем на пляж' },
+        { spanish: 'Llámame si necesitas ayuda', russian: 'Позвони мне, если нужна помощь' },
+        { spanish: 'Si ves a Juan, dile que lo busco', russian: 'Если увидишь Хуана, скажи, что ищу его' },
+        { spanish: 'Si el agua hierve, apaga el fuego', russian: 'Если вода закипит, выключи огонь' }
+      ]
+    },
+    vocabulary: [
+      { word: 'la condición', translation: 'условие', audioUrl: null },
+      { word: 'si', translation: 'если', audioUrl: null },
+      { word: 'en caso de que', translation: 'в случае если', audioUrl: null },
+      { word: 'a menos que', translation: 'если только не', audioUrl: null },
+      { word: 'mientras', translation: 'пока', audioUrl: null },
+      { word: 'cuando', translation: 'когда', audioUrl: null },
+      { word: 'en cuanto', translation: 'как только', audioUrl: null },
+      { word: 'hasta que', translation: 'пока не', audioUrl: null },
+      { word: 'siempre que', translation: 'при условии что', audioUrl: null },
+      { word: 'a no ser que', translation: 'разве что', audioUrl: null },
+      { word: 'aprobar', translation: 'сдать (экзамен)', audioUrl: null },
+      { word: 'suspender', translation: 'провалить (экзамен)', audioUrl: null },
+      { word: 'conseguir', translation: 'достичь, получить', audioUrl: null },
+      { word: 'lograr', translation: 'добиться', audioUrl: null },
+      { word: 'realizar', translation: 'осуществить', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Planes para el futuro',
+      content: `María está en su último año de universidad y piensa mucho en su futuro. Tiene muchos planes, pero también muchas dudas. "Si **consigo** el trabajo en Barcelona, **me mudaré** allí inmediatamente", piensa. "Pero si no me **aceptan**, **buscaré** otras opciones en Madrid o Valencia".
+
+Su mejor amiga Laura le da consejos: "Si **quieres** ese trabajo, **prepara** bien la entrevista. Si **estudias** sobre la empresa, **causarás** buena impresión. Y si no **funciona**, no **te preocupes**: siempre hay otras oportunidades".
+
+María sabe que tiene razón. "Si **trabajo** duro, **tendré** éxito", se repite a sí misma. "Y si las cosas no **salen** como planeo, **aprenderé** de la experiencia".
+
+Mientras tanto, María también piensa en su vida personal. "Si **me mudo** a Barcelona, **estaré** lejos de mi familia", reflexiona. "Pero si **me quedo** aquí, quizás **pierda** esta gran oportunidad profesional".
+
+Su madre le dice: "Hija, si **tomas** esta decisión, te **apoyaremos** completamente. Si **necesitas** volver a casa, siempre **tendrás** un lugar aquí. Y si **decides** quedarte en Barcelona, **iremos** a visitarte seguido".
+
+El día de la entrevista llega. María está nerviosa. "Si **respondo** bien las preguntas, **tengo** posibilidades", piensa. "Si me **olvido** de algo, **será** terrible". Pero cuando entra en la oficina, se siente más tranquila.
+
+El entrevistador es amable. "Si **tiene** alguna pregunta, **hágala** sin problema", le dice. María pregunta sobre el puesto, las responsabilidades, las oportunidades de crecimiento. La entrevista va muy bien.
+
+Después de la entrevista, María llama a Laura: "¡Creo que fue bien! Si me **llaman** la próxima semana, **significa** que estoy en la segunda fase. Si no me **contactan**, **sabré** que no me eligieron".
+
+Pasan tres días. María revisa su correo constantemente. "Si **llega** un email hoy, **lo abriré** inmediatamente", piensa. "Si no **recibo** noticias esta semana, **llamaré** para preguntar".
+
+El viernes por la tarde, su teléfono suena. Es un número de Barcelona. "Hola María, si **todavía está** interesada en el puesto, **nos gustaría** invitarla a una segunda entrevista".
+
+¡Sí! María está emocionada. "Si **voy** a la segunda entrevista, **daré** lo mejor de mí", decide. "Y si **me ofrecen** el trabajo, **lo aceptaré** sin dudarlo".
+
+Laura la felicita: "¡Sabía que lo **conseguirías**! Si **sigues** así, **llegarás** muy lejos. Y cuando **empieces** el trabajo, **celebraremos** juntas".
+
+Ahora María tiene que prepararse para la segunda entrevista. "Si **estudio** más sobre la empresa, **estaré** mejor preparada", piensa. "Si **practico** mis respuestas, **me sentiré** más segura. Y si **soy** yo misma, **será** suficiente".
+
+Su padre también le da un consejo: "Hija, si **crees** en ti misma, los demás también **creerán** en ti. Si **vas** con confianza, **transmitirás** profesionalismo. Y recuerda: si esta oportunidad no **funciona**, **habrá** otras".
+
+La noche antes de la segunda entrevista, María reflexiona: "Si **duermo** bien esta noche, **estaré** descansada mañana. Si **me levanto** temprano, **tendré** tiempo para prepararme bien. Y si **todo sale** bien, mañana a esta hora quizás **tendré** un nuevo trabajo".
+
+Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabajando duro y **cree** en sí misma, **tendrá** éxito en cualquier camino que elija.`,
+      translation: 'Планы на будущее. Мария на последнем курсе университета и много думает о будущем...'
+    },
+    exercises: ['ex-8-1-1', 'ex-8-1-2', 'ex-8-1-3', 'ex-8-1-4', 'ex-8-1-5']
+  },
+
+  'lesson-8-2': {
+    id: 'lesson-8-2',
+    title: 'Урок 2: Нереальные условия (Tipo 2)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Условные предложения второго типа (Condicionales irreales)',
+      content: `
+# Условные предложения Tipo 2 (Нереальные/маловероятные условия)
+
+Используются для описания **гипотетических**, **нереальных** или **маловероятных** ситуаций в **настоящем** или **будущем**.
+
+## Структура:
+
+**Si + IMPERFECTO DE SUBJUNTIVO, CONDICIONAL SIMPLE**
+
+## Imperfecto de subjuntivo - образование:
+
+**Основа: 3 лицо множественного числа Pretérito indefinido**
+
+**Ellos hablar-ON → habla- + окончания**
+**Ellos comier-ON → comie- + окончания**
+
+| Лицо | Окончания | Hablar | Comer | Vivir |
+|------|-----------|--------|-------|-------|
+| yo | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
+| tú | -ras / -ses | hablaras / hablases | comieras / comieses | vivieras / vivieses |
+| él/ella | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
+| nosotros | -ramos / -semos | habláramos / hablásemos | comiéramos / comiésemos | viviéramos / viviésemos |
+| vosotros | -rais / -seis | hablarais / hablaseis | comierais | comieseis | vivierais / vivieseis |
+| ellos | -ran / -sen | hablaran / hablasen | comieran / comiesen | vivieran / viviesen |
+
+**В современном испанском обе формы (-ra и -se) равнозначны, но форма на -RA более распространена.**
+
+### Неправильные глаголы:
+
+Основа берется от **pretérito indefinido (ellos)**:
+
+| Infinitivo | Ellos (indefinido) | Imperfecto subjuntivo |
+|------------|--------------------|-----------------------|
+| ser / ir | fueron | fuera, fueras, fuera... |
+| tener | tuvieron | tuviera, tuvieras... |
+| poder | pudieron | pudiera, pudieras... |
+| hacer | hicieron | hiciera, hicieras... |
+| decir | dijeron | dijera, dijeras... |
+| estar | estuvieron | estuviera, estuvieras... |
+| saber | supieron | supiera, supieras... |
+| querer | quisieron | quisiera, quisieras... |
+| venir | vinieron | viniera, vinieras... |
+| poner | pusieron | pusiera, pusieras... |
+
+## Condicional simple - повторение:
+
+**Infinitivo + окончания: -ía, -ías, -ía, -íamos, -íais, -ían**
+
+## Uso:
+
+### 1. Ситуации противоречащие реальности СЕЙЧАС:
+
+- **Si tuviera dinero, viajaría por el mundo** (Если бы у меня были деньги, я бы путешествовал - но их нет)
+- **Si fuera rica, no trabajaría** (Если бы я была богатой, не работала бы - но я не богата)
+- **Si viviera en España, hablaría español mejor** (Если бы я жил в Испании, говорил бы лучше по-испански - но я не живу)
+
+### 2. Маловероятные ситуации в будущем:
+
+- **Si me tocara la lotería, compraría una casa** (Если бы я выиграл в лотерею, купил бы дом - маловероятно)
+- **Si encontrara un tesoro, sería millonario** (Если бы нашел сокровище, был бы миллионером)
+
+### 3. Вежливые просьбы и советы:
+
+- **Si pudieras ayudarme, te lo agradecería** (Если бы ты мог помочь, был бы благодарен - вежливая просьба)
+- **¿Qué harías tú en mi lugar?** (Что бы ты сделал на моем месте?)
+
+## ¡CUIDADO!
+
+❌ **Si tendría dinero, viajaría** (НЕПРАВИЛЬНО - condicional после si)
+✓ **Si tuviera dinero, viajaría** (ПРАВИЛЬНО - imperfecto subjuntivo после si)
+
+## Разница Type 1 vs Type 2:
+
+| Type 1 (реальное) | Type 2 (нереальное) |
+|-------------------|---------------------|
+| Si **tengo** dinero, **compraré** un coche | Si **tuviera** dinero, **compraría** un coche |
+| (Если будут деньги - возможно) | (Если бы были - но их нет) |
+| Si **hace** sol, **iremos** | Si **hiciera** sol, **iríamos** |
+| (Если будет солнечно - возможно) | (Если бы было - но нет) |
+
+## Примеры в контексте:
+
+**¿Qué harías si...?** (Что бы ты сделал, если бы...?)
+
+- Si **tuviera** un millón de euros, **viajaría** por todo el mundo
+- Si **pudiera** hablar con cualquier persona, **elegiría** a mi abuelo
+- Si **fuera** presidente, **cambiaría** muchas leyes
+- Si **supiera** tocar la guitarra, **formaría** una banda
+- Si **viviera** 200 años, **aprendería** todos los idiomas del mundo`,
+      examples: [
+        { spanish: 'Si tuviera más tiempo, aprendería a tocar piano', russian: 'Если бы у меня было больше времени, я бы научился играть на пианино' },
+        { spanish: 'Si fuera rico, viajaría por todo el mundo', russian: 'Если бы я был богатым, путешествовал бы по всему миру' },
+        { spanish: '¿Qué harías si ganaras la lotería?', russian: 'Что бы ты сделал, если бы выиграл в лотерею?' },
+        { spanish: 'Si pudiera volar, iría a visitarte cada día', russian: 'Если бы я мог летать, навещал бы тебя каждый день' },
+        { spanish: 'Si viviera en España, hablaría español perfectamente', russian: 'Если бы я жил в Испании, говорил бы по-испански идеально' }
+      ]
+    },
+    vocabulary: [
+      { word: 'soñar', translation: 'мечтать', audioUrl: null },
+      { word: 'desear', translation: 'желать', audioUrl: null },
+      { word: 'imaginar', translation: 'воображать', audioUrl: null },
+      { word: 'suponer', translation: 'предполагать', audioUrl: null },
+      { word: 'la hipótesis', translation: 'гипотеза', audioUrl: null },
+      { word: 'irreal', translation: 'нереальный', audioUrl: null },
+      { word: 'imposible', translation: 'невозможный', audioUrl: null },
+      { word: 'improbable', translation: 'маловероятный', audioUrl: null },
+      { word: 'el sueño', translation: 'мечта', audioUrl: null },
+      { word: 'la fantasía', translation: 'фантазия', audioUrl: null },
+      { word: 'ideal', translation: 'идеальный', audioUrl: null },
+      { word: 'perfecto', translation: 'совершенный', audioUrl: null },
+      { word: 'ganar la lotería', translation: 'выиграть в лотерею', audioUrl: null },
+      { word: 'cambiar el mundo', translation: 'изменить мир', audioUrl: null },
+      { word: 'en mi lugar', translation: 'на моем месте', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Si yo fuera...',
+      content: `Un grupo de amigos está sentado en una cafetería hablando sobre sus sueños y fantasías. La pregunta del día es: "Si pudieras ser otra persona por un día, ¿quién serías?"
+
+Ana empieza: "Si **pudiera** ser alguien por un día, **sería** una astronauta. Si **fuera** astronauta, **viajaría** al espacio y **vería** la Tierra desde arriba. Si **estuviera** en el espacio, **flotaría** en gravedad cero. ¡**Sería** increíble! Si **tuviera** esa oportunidad, **tomaría** mil fotos para mostrarles a todos".
+
+Carlos responde: "Eso está bien, pero si yo **pudiera** elegir, **sería** un músico famoso. Si **fuera** músico, **tocaría** en estadios llenos de gente. Si **tuviera** ese talento, **compondría** canciones que llegaran al corazón de millones de personas. Y si **ganara** mucho dinero con la música, **ayudaría** a jóvenes artistas a empezar sus carreras".
+
+Laura tiene otra idea: "Si yo **pudiera** ser alguien, **elegiría** ser una científica que descubre la cura para enfermedades graves. Si **encontrara** esa cura, **salvaría** millones de vidas. Si **tuviera** ese poder, **dedicaría** toda mi vida a la investigación. Nada me **haría** más feliz que ayudar a la humanidad de esa manera".
+
+Miguel es más práctico: "Mis sueños son más simples. Si **tuviera** mucho dinero, no **trabajaría** tanto. Si no **necesitara** trabajar, **pasaría** más tiempo con mi familia. Si **pudiera**, **viajaría** con ellos por el mundo. Si **viviera** sin preocupaciones económicas, **sería** mucho más feliz".
+
+Sofía dice: "Yo tengo una pregunta diferente: ¿Qué **harían** si pudieran volver al pasado? Si yo **pudiera** viajar en el tiempo, **volvería** a mi infancia. Si **fuera** niña otra vez, **jugaría** más y me **preocuparía** menos. Si **supiera** entonces lo que sé ahora, **disfrutaría** más de cada momento".
+
+David añade: "Si yo **pudiera** cambiar algo del pasado, **estudiaría** más en la universidad. Si **hubiera** estudiado más, ahora **tendría** un mejor trabajo. Pero bueno, si **me arrepintiera** de todo, no **viviría** el presente. Si **pasara** todo el tiempo pensando en el pasado, **perdería** el hoy".
+
+Ana pregunta: "¿Y qué **harían** si tuvieran un superpoder? Si yo **tuviera** un superpoder, **elegiría** poder volar. Si **pudiera** volar, **iría** a visitar a todos mis amigos cuando quisiera. Si **volara**, nunca más **estaría** atrapada en el tráfico".
+
+Carlos ríe: "Si yo **tuviera** un superpoder, **sería** la invisibilidad. Si **fuera** invisible, **podría** entrar gratis a todos los conciertos. Aunque si lo **pensara** bien, eso no sería muy ético. Si **hiciera** eso, básicamente **estaría** robando".
+
+Laura dice: "Mi superpoder sería leer mentes. Si **pudiera** leer mentes, **sabría** lo que realmente piensan las personas. Aunque si **tuviera** ese poder, quizás **descubriría** cosas que preferiría no saber. Si **supiera** todos los secretos de la gente, probablemente **sería** muy incómodo".
+
+Miguel propone otra pregunta: "Si **pudieran** vivir en cualquier época histórica, ¿cuál **elegirían**? Si yo **pudiera**, **viviría** en el Renacimiento. Si **estuviera** en esa época, **conocería** a Leonardo da Vinci y Miguel Ángel. Si **viviera** entonces, **vería** cómo se creaban esas obras maestras".
+
+Sofía responde: "Yo prefiero el futuro. Si **pudiera** ver el futuro, **viajaría** 100 años adelante. Si **estuviera** en 2125, **vería** qué tecnología existe. Si el mundo **fuera** mejor entonces, **sería** muy esperanzador. Pero si **fuera** peor, preferiría no saberlo".
+
+David reflexiona: "¿Saben qué? Si yo **pudiera** cambiar algo, **cambiaría** el sistema educativo. Si la educación **fuera** diferente, los niños **aprenderían** más felices. Si las escuelas **enseñaran** habilidades prácticas, los jóvenes **estarían** mejor preparados para la vida. Si los maestros **ganaran** más dinero, **tendríamos** mejores profesionales educando a nuestros hijos".
+
+Ana concluye: "Todas estas son fantasías bonitas. Pero si **pensara** en lo que realmente importa, **diría** que si **tuviera** salud, **tendría** todo. Si mi familia **estuviera** bien, yo **estaría** feliz. Si **pudiera** elegir entre riqueza y salud, **elegiría** salud sin dudar. Porque si **estás** sano, **puedes** conseguir todo lo demás. Pero si **pierdes** la salud, todo lo demás **pierde** sentido".
+
+Todos asienten. Al final, si **pudieran** tener cualquier cosa, **elegirían** las mismas cosas simples: salud, amor, tiempo con seres queridos y paz. Las grandes fantasías son divertidas para imaginar, pero la verdadera felicidad está en las cosas simples que ya tienen.`,
+      translation: 'Если бы я был... Группа друзей сидит в кафе и говорит о мечтах и фантазиях...'
+    },
+    exercises: ['ex-8-2-1', 'ex-8-2-2', 'ex-8-2-3', 'ex-8-2-4', 'ex-8-2-5']
+  },
+
+  'lesson-8-3': {
+    id: 'lesson-8-3',
+    title: 'Урок 3: Условия в прошлом (Tipo 3)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Условные предложения третьего типа (Condicionales pasados)',
+      content: `
+# Условные предложения Tipo 3 (Нереальные условия в прошлом)
+
+Используются для описания **нереальных ситуаций в прошлом** - того, что **НЕ произошло**, но **могло бы** произойти при других обстоятельствах.
+
+## Структура:
+
+**Si + PLUSCUAMPERFECTO DE SUBJUNTIVO, CONDICIONAL COMPUESTO**
+
+## Pluscuamperfecto de subjuntivo - образование:
+
+**Imperfecto de subjuntivo глагола HABER + participio pasado**
+
+| Лицо | Haber (imp. subj.) | + participio | Пример |
+|------|-------------------|--------------|---------|
+| yo | hubiera / hubiese | hablado/comido/vivido | hubiera hablado |
+| tú | hubieras / hubieses | hablado/comido/vivido | hubieras comido |
+| él/ella | hubiera / hubiese | hablado/comido/vivido | hubiera vivido |
+| nosotros | hubiéramos / hubiésemos | hablado/comido/vivido | hubiéramos estado |
+| vosotros | hubierais / hubieseis | hablado/comido/vivido | hubierais ido |
+| ellos | hubieran / hubiesen | hablado/comido/vivido | hubieran sido |
+
+## Condicional compuesto (perfecto) - образование:
+
+**Condicional simple глагола HABER + participio pasado**
+
+| Лицо | Haber (condicional) | + participio |
+|------|---------------------|--------------|
+| yo | habría | hablado/comido/vivido |
+| tú | habrías | hablado/comido/vivido |
+| él/ella | habría | hablado/comido/vivido |
+| nosotros | habríamos | hablado/comido/vivido |
+| vosotros | habríais | hablado/comido/vivido |
+| ellos | habrían | hablado/comido/vivido |
+
+## Uso - Сожаления и упущенные возможности:
+
+### Формула:
+**Si + hubiera/hubiese + participio, habría + participio**
+
+**Примеры:**
+
+- **Si hubiera estudiado, habría aprobado**
+  (Если бы я учился, я бы сдал - но не учился и не сдал)
+
+- **Si hubieras venido, te habrías divertido**
+  (Если бы ты пришел, повеселился бы - но не пришел)
+
+- **Si hubiera sabido, habría ido**
+  (Если бы знал, пошел бы - но не знал и не пошел)
+
+- **Si hubiéramos salido antes, habríamos llegado a tiempo**
+  (Если бы вышли раньше, прибыли бы вовремя - но опоздали)
+
+## Сравнение всех трех типов:
+
+| Тип | Формула | Значение | Пример |
+|-----|---------|----------|--------|
+| **Tipo 1** | Si + presente, futuro | Реально, возможно | Si **estudias**, **aprobarás** |
+| **Tipo 2** | Si + imp. subj., condicional | Нереально сейчас | Si **estudiaras**, **aprobarías** |
+| **Tipo 3** | Si + plucp. subj., cond. compuesto | Нереально в прошлом | Si **hubieras estudiado**, **habrías aprobado** |
+
+## Mismo ejemplo en los tres tipos:
+
+**Тема: экзамен**
+
+1. **Si estudias, aprobarás** - Если будешь учиться, сдашь (возможно, экзамен еще не был)
+2. **Si estudiaras, aprobarías** - Если бы ты учился, сдал бы (но ты не учишься)
+3. **Si hubieras estudiado, habrías aprobado** - Если бы ты учился, сдал бы (но не учился и провалил)
+
+## Вариации Tipo 3:
+
+### 1. Смешанные условия (Mixed conditionals):
+
+**Прошлое условие → Настоящий результат:**
+
+- **Si hubiera estudiado medicina, ahora sería doctor**
+  (Если бы я изучал медицину, сейчас был бы врачом)
+
+- **Si no hubiera fumado tanto, ahora estaría más sano**
+  (Если бы не курил так много, сейчас был бы здоровее)
+
+### 2. Выражение упрека (reproches):
+
+- **Si me hubieras escuchado, no estarías en problemas**
+  (Если бы ты меня послушал, не был бы в беде)
+
+- **Si hubieras llegado a tiempo, habrías visto el comienzo**
+  (Если бы пришел вовремя, увидел бы начало)
+
+### 3. Con "de + infinitivo" (неформальная замена):
+
+В разговорном испанском вместо pluscuamperfecto de subjuntivo часто используют **de + haber + participio**:
+
+- **De haberlo sabido, habría venido** = Si lo hubiera sabido, habría venido
+- **De tener dinero, lo habría comprado** = Si hubiera tenido dinero, lo habría comprado
+
+## Otros marcadores condicionales:
+
+| Выражение | Значение | Пример |
+|-----------|----------|--------|
+| **Como si** | как будто | Habla como si **supiera** todo |
+| **Aunque** | хотя | Aunque **lloviera**, iría |
+| **En caso de que** | в случае если | En caso de que **venga**, avísame |
+| **A no ser que** | если только не | No iré a no ser que **vengas** |
+
+## ¡ERRORES COMUNES!
+
+❌ Si **hubiera tenido**, **tendría** dinero (смешивание времен неправильно)
+✓ Si **hubiera tenido** dinero, lo **habría comprado** (оба в прошлом)
+✓ Si **hubiera estudiado** medicina, **sería** doctor (прошлое→настоящее, OK)
+
+❌ Si **habría sabido**, habría venido (condicional после si)
+✓ Si **hubiera sabido**, habría venido (pluscuamperfecto subjuntivo после si)`,
+      examples: [
+        { spanish: 'Si hubiera estudiado más, habría aprobado el examen', russian: 'Если бы я больше учился, сдал бы экзамен' },
+        { spanish: 'Si hubieras venido, te habrías divertido mucho', russian: 'Если бы ты пришел, очень повеселился бы' },
+        { spanish: 'Si hubiera sabido, no habría dicho nada', russian: 'Если бы знал, ничего бы не сказал' },
+        { spanish: 'Si hubiéramos salido antes, habríamos llegado a tiempo', russian: 'Если бы вышли раньше, прибыли бы вовремя' },
+        { spanish: 'De haberlo sabido, habría actuado diferente', russian: 'Знай я это, поступил бы иначе' }
+      ]
+    },
+    vocabulary: [
+      { word: 'arrepentirse', translation: 'сожалеть, раскаиваться', audioUrl: null },
+      { word: 'lamentar', translation: 'сожалеть', audioUrl: null },
+      { word: 'el arrepentimiento', translation: 'сожаление, раскаяние', audioUrl: null },
+      { word: 'la oportunidad perdida', translation: 'упущенная возможность', audioUrl: null },
+      { word: 'el error', translation: 'ошибка', audioUrl: null },
+      { word: 'la equivocación', translation: 'заблуждение, ошибка', audioUrl: null },
+      { word: 'darse cuenta', translation: 'осознать, понять', audioUrl: null },
+      { word: 'culpar', translation: 'винить', audioUrl: null },
+      { word: 'la culpa', translation: 'вина', audioUrl: null },
+      { word: 'perdonar', translation: 'прощать', audioUrl: null },
+      { word: 'el perdón', translation: 'прощение', audioUrl: null },
+      { word: 'la lección', translation: 'урок (в переносном смысле)', audioUrl: null },
+      { word: 'aprender de los errores', translation: 'учиться на ошибках', audioUrl: null },
+      { word: 'si hubiera sabido', translation: 'если бы я знал', audioUrl: null },
+      { word: 'debería haber', translation: 'должен был бы', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Arrepentimientos y lecciones',
+      content: `Roberto tiene 65 años y está sentado en el parque, reflexionando sobre su vida. Como todos, tiene algunos arrepentimientos sobre decisiones que tomó - o que no tomó - en el pasado.
+
+"Si **hubiera estudiado** ingeniería como quería mi padre, **habría tenido** una carrera más estable", piensa. "Pero si **hubiera hecho** eso, nunca **habría descubierto** mi pasión por el arte. Si no **hubiera ido** a esa escuela de arte, no **habría conocido** a mi esposa Elena. Y si no la **hubiera conocido**, no **habría tenido** a mis tres hijos maravillosos. Así que, pensándolo bien, ¿fue realmente un error?"
+
+Roberto recuerda cuando tenía 25 años. "Si **hubiera aceptado** ese trabajo en Nueva York, **habría ganado** mucho dinero. Si **hubiera vivido** allí, **habría tenido** una vida completamente diferente. Pero si me **hubiera mudado**, **habría estado** lejos de mi familia. Si **hubiera elegido** el dinero sobre la familia, ¿**habría sido** más feliz? Lo dudo".
+
+Piensa en su hija mayor, Carmen. "Si le **hubiera dedicado** más tiempo cuando era niña, nuestra relación **sería** mejor ahora. Si no **hubiera trabajado** tanto, **habría visto** más de su infancia. Si **hubiera estado** presente en esos momentos importantes, quizás ahora **hablaríamos** más. Ese es un arrepentimiento que llevo conmigo".
+
+Su hijo Pablo tuvo problemas en la adolescencia. "Si **hubiera sido** más estricto con él, quizás no **habría tenido** esos problemas con las drogas. Pero si **hubiera sido** demasiado estricto, tal vez **habría sido** peor. Si **hubiera sabido** qué hacer, lo **habría hecho**. Pero nadie te enseña a ser padre perfecto. Si alguien me **hubiera dado** un manual, **habría sido** útil", piensa con ironía.
+
+Roberto recuerda una oportunidad de negocio. "Un amigo me propuso invertir en una empresa que ahora vale millones. Si **hubiera invertido** ese dinero, **sería** millonario. Si **hubiera tenido** el valor de arriesgar, mi vida **sería** muy diferente. Pero si **hubiera perdido** ese dinero, mi familia **habría sufrido**. Tomé la decisión segura. Si pudiera volver atrás, ¿**cambiaría** esa decisión? Probablemente no".
+
+Piensa en su salud. "Si **hubiera dejado** de fumar antes, **estaría** más sano ahora. Si **hubiera hecho** más ejercicio, no **tendría** estos problemas de corazón. Si **hubiera cuidado** mejor mi salud, **habría tenido** más energía para jugar con mis nietos. Ese es otro arrepentimiento real".
+
+Pero Roberto también piensa en las buenas decisiones. "Si no **hubiera arriesgado** todo para abrir mi propia galería de arte, **habría trabajado** para otros toda mi vida. Si no **hubiera seguido** mi pasión, **habría sido** infeliz. Si **hubiera escuchado** a la gente que decía que el arte no da dinero, nunca **habría tenido** la satisfación de vivir de lo que amo".
+
+Recuerda un momento crucial. "Si no **hubiera perdonado** a Elena cuando tuvimos esa gran pelea hace 30 años, **habríamos divorciado**. Si **hubiera dejado** que el orgullo ganara, **habría perdido** al amor de mi vida. Si no **hubiera aprendido** que el perdón es más importante que tener razón, **estaría** solo ahora".
+
+Su nieta Lucía se le acerca. Tiene 18 años y está llena de dudas sobre su futuro. "Abuelo, tengo miedo de tomar las decisiones equivocadas. ¿Y si elijo mal? ¿Y si **pierdo** oportunidades? ¿Y si me **arrepiento** después?"
+
+Roberto sonríe. "Lucía, si **hubiera sabido** todo cuando era joven, quizás **habría evitado** algunos errores. Pero si no **hubiera cometido** esos errores, no **habría aprendido** las lecciones más importantes de mi vida. Si **hubiera tenido** miedo de equivocarme, nunca **habría hecho** nada".
+
+"Si **hubiera esperado** a estar completamente seguro de cada decisión, **habría perdido** todas las oportunidades. Si no **hubiera arriesgado**, nunca **habría ganado**. Si **hubiera vivido** mi vida tratando de evitar errores, **habría evitado** también los mejores momentos".
+
+"Algunos arrepentimientos son inevitables. Si **hubiera podido** ver el futuro, **habría hecho** algunas cosas diferentes. Pero la vida no funciona así. Si todos **pudiéramos** ver el futuro, no **tendríamos** que tomar decisiones, y las decisiones son lo que nos hace humanos".
+
+Lucía escucha atentamente. Roberto continúa: "Si me **preguntaras** cuál es la lección más importante, te **diría** esto: Si **hubieras vivido** sin arriesgar nada, **habrías vivido**, pero no realmente. Si **tuvieras** la oportunidad de elegir entre una vida segura pero aburrida y una vida con riesgos pero llena de experiencias, ¿qué **elegirías**?"
+
+"Los grandes arrepentimientos de la vida no son por las cosas que hiciste mal, sino por las cosas que nunca intentaste. Si **hubiera sido** más valiente, **habría intentado** más cosas. Si no **hubiera tenido** miedo, **habría viajado** más, **habría conocido** más gente, **habría probado** más experiencias".
+
+"Pero también hay que ser sabio. Si **hubiera sido** completamente temerario, **habría arruinado** mi vida. El truco es encontrar el equilibrio. Si **hubiera sabido** eso a los 18, me **habría ahorrado** algunas preocupaciones".
+
+Lucía abraza a su abuelo. "Gracias, abuelo. Si no **hubiera hablado** contigo hoy, **habría seguido** con miedo. Ahora entiendo que los errores son parte de aprender".
+
+Roberto sonríe. Si alguien le **hubiera dicho** hace 40 años que sus arrepentimientos se **convertirían** en sabiduría, no lo **habría creído**. Pero así funciona la vida. Los errores del pasado son las lecciones del presente.
+
+Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo de equivocarte. Ten miedo de no intentar".`,
+      translation: 'Сожаления и уроки. Роберто 65 лет, и он сидит в парке, размышляя о своей жизни...'
+    },
+    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
   }
 }
 
@@ -1458,6 +3106,778 @@ María: Muy bien, gracias.
       { russian: 'Вчера я купил машину', correct: 'ayer compré un coche' },
       { russian: 'Каждый день я читал газету', correct: 'cada día leía el periódico' },
       { russian: 'Они приехали в 5 часов', correct: 'llegaron a las cinco' }
+    ]
+  },
+
+  // МОДУЛЬ 5: Путешествия и места
+  'ex-5-1-1': {
+    id: 'ex-5-1-1',
+    type: 'vocabulary',
+    title: 'Транспорт',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'avión', options: ['автобус', 'самолёт', 'поезд', 'такси'], correct: 1 },
+      { spanish: 'tren', options: ['метро', 'автобус', 'поезд', 'машина'], correct: 2 },
+      { spanish: 'aeropuerto', options: ['вокзал', 'аэропорт', 'гостиница', 'музей'], correct: 1 },
+      { spanish: 'billete', options: ['чемодан', 'карта', 'билет', 'ключ'], correct: 2 },
+      { spanish: 'maleta', options: ['рюкзак', 'сумка', 'чемодан', 'карта'], correct: 2 }
+    ]
+  },
+  'ex-5-1-2': {
+    id: 'ex-5-1-2',
+    type: 'grammar',
+    title: 'Предлоги места',
+    description: 'Выберите правильный предлог',
+    questions: [
+      { sentence: 'El hotel está ___ la estación', options: ['cerca de', 'lejos', 'entre', 'desde'], correct: 0 },
+      { sentence: 'Voy ___ Madrid', options: ['en', 'a', 'de', 'por'], correct: 1 },
+      { sentence: 'La farmacia está ___ del banco', options: ['lejos', 'cerca', 'enfrente', 'entre'], correct: 2 },
+      { sentence: 'Viajo ___ avión', options: ['a', 'de', 'en', 'por'], correct: 2 },
+      { sentence: 'El museo está ___ la iglesia y el hotel', options: ['cerca', 'entre', 'enfrente', 'delante'], correct: 1 }
+    ]
+  },
+  'ex-5-1-3': {
+    id: 'ex-5-1-3',
+    type: 'reading',
+    title: 'Чтение: Un día en Barcelona',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'He llegado al aeropuerto de El Prat. He tomado el tren hasta Sants y después el metro hasta Passeig de Gràcia. Mi hotel está cerca de la Plaza de Catalunya. He visitado Las Ramblas y el Barrio Gótico. La Sagrada Familia está lejos del centro.',
+    questions: [
+      { question: 'Как автор добрался из аэропорта?', options: ['На такси', 'На поезде', 'На автобусе', 'Пешком'], correct: 1 },
+      { question: 'Где находится отель?', options: ['У вокзала', 'У аэропорта', 'У Plaza de Catalunya', 'У пляжа'], correct: 2 },
+      { question: 'Какие места посетил автор?', options: ['Музеи', 'Las Ramblas и Barrio Gótico', 'Пляжи', 'Парки'], correct: 1 },
+      { question: 'Где находится Sagrada Familia?', options: ['В центре', 'Далеко от центра', 'Рядом с отелем', 'У вокзала'], correct: 1 }
+    ]
+  },
+  'ex-5-1-4': {
+    id: 'ex-5-1-4',
+    type: 'fillblank',
+    title: 'Направления',
+    description: 'Заполните пропуски предлогами',
+    questions: [
+      { sentence: 'Voy _____ la playa en autobús', verb: 'a/en', correct: 'a' },
+      { sentence: 'El hotel está _____ del aeropuerto', verb: 'cerca/lejos', correct: 'cerca' },
+      { sentence: 'Viajamos _____ tren', verb: 'en/a', correct: 'en' },
+      { sentence: 'La estación está _____ de la plaza', verb: 'enfrente', correct: 'enfrente' }
+    ]
+  },
+  'ex-5-1-5': {
+    id: 'ex-5-1-5',
+    type: 'writing',
+    title: 'Как добраться',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Я еду в аэропорт на метро', correct: 'voy al aeropuerto en metro' },
+      { russian: 'Отель рядом со станцией', correct: 'el hotel está cerca de la estación' },
+      { russian: 'Мы путешествуем на поезде', correct: 'viajamos en tren' },
+      { russian: 'Поверни направо', correct: 'gira a la derecha' }
+    ]
+  },
+
+  'ex-5-2-1': {
+    id: 'ex-5-2-1',
+    type: 'grammar',
+    title: 'Condicional simple - формы',
+    description: 'Выберите правильную форму условного наклонения',
+    questions: [
+      { sentence: 'Yo ___ (viajar) más si tuviera tiempo', options: ['viajaría', 'viajarías', 'viajaríamos', 'viajarían'], correct: 0 },
+      { sentence: '¿___ (poder-tú) ayudarme?', options: ['podría', 'podrías', 'podríamos', 'podrían'], correct: 1 },
+      { sentence: 'Nosotros ___ (comer) paella', options: ['comería', 'comerías', 'comeríamos', 'comerían'], correct: 2 },
+      { sentence: 'Me ___ (gustar) una habitación con vistas', options: ['gustaría', 'gustarías', 'gustaríamos', 'gustarían'], correct: 0 },
+      { sentence: 'Ellos ___ (querer) reservar una mesa', options: ['querría', 'querrías', 'querríamos', 'querrían'], correct: 3 }
+    ]
+  },
+  'ex-5-2-2': {
+    id: 'ex-5-2-2',
+    type: 'vocabulary',
+    title: 'Отель и ресторан',
+    description: 'Сопоставьте слова с переводом',
+    questions: [
+      { spanish: 'habitación', options: ['ключ', 'номер', 'рецепция', 'завтрак'], correct: 1 },
+      { spanish: 'camarero', options: ['повар', 'официант', 'гид', 'турист'], correct: 1 },
+      { spanish: 'cuenta', options: ['меню', 'счёт', 'чаевые', 'блюдо'], correct: 1 },
+      { spanish: 'llave', options: ['номер', 'бронь', 'ключ', 'чемодан'], correct: 2 },
+      { spanish: 'menú', options: ['счёт', 'блюдо', 'меню', 'десерт'], correct: 2 }
+    ]
+  },
+  'ex-5-2-3': {
+    id: 'ex-5-2-3',
+    type: 'fillblank',
+    title: 'Вежливые просьбы',
+    description: 'Вставьте condicional для вежливой просьбы',
+    questions: [
+      { sentence: '¿_____ (poder) darme una habitación?', verb: 'poder', correct: 'podría' },
+      { sentence: 'Me _____ (gustar) reservar una mesa', verb: 'gustar', correct: 'gustaría' },
+      { sentence: '¿Qué me _____ (recomendar)?', verb: 'recomendar', correct: 'recomendaría' },
+      { sentence: '_____ (querer) una habitación doble', verb: 'querer', correct: 'querría' }
+    ]
+  },
+  'ex-5-2-4': {
+    id: 'ex-5-2-4',
+    type: 'reading',
+    title: 'Чтение: En el hotel',
+    description: 'Ответьте на вопросы',
+    text: 'Llegué al Hotel Mediterráneo. En recepción me preguntaron si prefería vistas al mar o al jardín. Elegí vistas al mar. La habitación tenía un balcón precioso. El desayuno estaba incluido. En el restaurante, el camarero me recomendó la paella de mariscos.',
+    questions: [
+      { question: 'Что спросили в рецепции?', options: ['Имя', 'Паспорт', 'Вид из окна', 'Время приезда'], correct: 2 },
+      { question: 'Что выбрал автор?', options: ['Вид на сад', 'Вид на море', 'Вид на горы', 'Вид на город'], correct: 1 },
+      { question: 'Что было включено?', options: ['Завтрак', 'Обед', 'Ужин', 'Бассейн'], correct: 0 },
+      { question: 'Что порекомендовал официант?', options: ['Газпачо', 'Паэлья с морепродуктами', 'Пицца', 'Салат'], correct: 1 }
+    ]
+  },
+  'ex-5-2-5': {
+    id: 'ex-5-2-5',
+    type: 'writing',
+    title: 'В ресторане',
+    description: 'Переведите вежливые просьбы',
+    questions: [
+      { russian: 'Могли бы вы принести меню?', correct: 'podría traer el menú' },
+      { russian: 'Я хотел бы забронировать столик', correct: 'me gustaría reservar una mesa' },
+      { russian: 'Что вы порекомендуете?', correct: 'qué me recomendaría' },
+      { russian: 'Счёт, пожалуйста', correct: 'la cuenta por favor' }
+    ]
+  },
+
+  'ex-5-3-1': {
+    id: 'ex-5-3-1',
+    type: 'grammar',
+    title: 'Сравнительная степень',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Madrid es ___ grande ___ Valencia', options: ['más...que', 'menos...que', 'tan...como', 'muy...de'], correct: 0 },
+      { sentence: 'Este museo es ___ interesante ___ aquel', options: ['más...de', 'menos...que', 'tan...como', 'muy...que'], correct: 2 },
+      { sentence: 'La Sagrada Familia es el monumento ___ famoso', options: ['más', 'menos', 'tan', 'muy'], correct: 0 },
+      { sentence: 'Este hotel es ___ que ese (лучше)', options: ['más bueno', 'mejor', 'bueno', 'muy bueno'], correct: 1 },
+      { sentence: 'Hay ___ turistas en verano', options: ['tan', 'tanto', 'tantos', 'tanta'], correct: 2 }
+    ]
+  },
+  'ex-5-3-2': {
+    id: 'ex-5-3-2',
+    type: 'vocabulary',
+    title: 'Достопримечательности',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'catedral', options: ['церковь', 'собор', 'музей', 'замок'], correct: 1 },
+      { spanish: 'castillo', options: ['дворец', 'замок', 'музей', 'парк'], correct: 1 },
+      { spanish: 'plaza', options: ['пляж', 'парк', 'площадь', 'улица'], correct: 2 },
+      { spanish: 'entrada', options: ['выход', 'вход', 'площадь', 'гид'], correct: 1 },
+      { spanish: 'guía', options: ['турист', 'билет', 'карта', 'гид'], correct: 3 }
+    ]
+  },
+  'ex-5-3-3': {
+    id: 'ex-5-3-3',
+    type: 'grammar',
+    title: 'Превосходная степень',
+    description: 'Составьте превосходную степень',
+    questions: [
+      { sentence: '___ ciudad más bonita de España', options: ['La', 'El', 'Los', 'Las'], correct: 0 },
+      { sentence: 'El ___ museo del mundo', options: ['más famoso', 'famoso más', 'muy famoso', 'tan famoso'], correct: 0 },
+      { sentence: 'La ___ experiencia (mejor)', options: ['más buena', 'buena más', 'mejor', 'muy buena'], correct: 2 },
+      { sentence: 'Los monumentos ___ importantes', options: ['muy', 'más', 'tan', 'tanto'], correct: 1 }
+    ]
+  },
+  'ex-5-3-4': {
+    id: 'ex-5-3-4',
+    type: 'reading',
+    title: 'Чтение: Ciudades españolas',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'Granada es la ciudad más impresionante de España. La Alhambra es el monumento más espectacular. Barcelona es más famosa que Valencia. Madrid tiene los mejores museos. Sevilla es más calurosa que Barcelona. El Museo del Prado es tan importante como el Louvre.',
+    questions: [
+      { question: 'Какой город самый впечатляющий?', options: ['Барселона', 'Мадрид', 'Гранада', 'Севилья'], correct: 2 },
+      { question: 'Какой музей сравнивают с Лувром?', options: ['Reina Sofía', 'Prado', 'Guggenheim', 'Picasso'], correct: 1 },
+      { question: 'Где лучшие музеи?', options: ['В Барселоне', 'В Мадриде', 'В Севилье', 'В Валенсии'], correct: 1 },
+      { question: 'Какой город более жаркий?', options: ['Барселона', 'Севилья', 'Мадрид', 'Валенсия'], correct: 1 }
+    ]
+  },
+  'ex-5-3-5': {
+    id: 'ex-5-3-5',
+    type: 'writing',
+    title: 'Сравнения',
+    description: 'Переведите сравнения на испанский',
+    questions: [
+      { russian: 'Мадрид больше чем Валенсия', correct: 'Madrid es más grande que Valencia' },
+      { russian: 'Самый знаменитый памятник', correct: 'el monumento más famoso' },
+      { russian: 'Такой же интересный как', correct: 'tan interesante como' },
+      { russian: 'Лучший отель города', correct: 'el mejor hotel de la ciudad' }
+    ]
+  },
+
+  // МОДУЛЬ 6: Будущее время
+  'ex-6-1-1': {
+    id: 'ex-6-1-1',
+    type: 'grammar',
+    title: 'Futuro simple - правильные глаголы',
+    description: 'Выберите правильную форму будущего времени',
+    questions: [
+      { sentence: 'Mañana yo ___ (estudiar) para el examen', options: ['estudiaré', 'estudiarás', 'estudiará', 'estudiarán'], correct: 0 },
+      { sentence: 'Tú ___ (comer) paella en España', options: ['comeré', 'comerás', 'comerá', 'comeremos'], correct: 1 },
+      { sentence: 'Nosotros ___ (vivir) en Barcelona', options: ['viviré', 'vivirás', 'vivirá', 'viviremos'], correct: 3 },
+      { sentence: 'Ellos ___ (viajar) a Italia', options: ['viajaré', 'viajarás', 'viajará', 'viajarán'], correct: 3 },
+      { sentence: 'Ella ___ (hablar) español perfectamente', options: ['hablaré', 'hablarás', 'hablará', 'hablarán'], correct: 2 }
+    ]
+  },
+  'ex-6-1-2': {
+    id: 'ex-6-1-2',
+    type: 'grammar',
+    title: 'Futuro simple - неправильные глаголы',
+    description: 'Выберите правильную неправильную форму',
+    questions: [
+      { sentence: 'Yo ___ (hacer) la tarea mañana', options: ['haceré', 'haré', 'hacré', 'haciré'], correct: 1 },
+      { sentence: 'Tú ___ (tener) que estudiar', options: ['tendrás', 'tenerás', 'tenirás', 'tenarás'], correct: 0 },
+      { sentence: 'Nosotros ___ (poder) ir al cine', options: ['poderemos', 'podremos', 'poderamos', 'podiremos'], correct: 1 },
+      { sentence: 'Ellos ___ (venir) a la fiesta', options: ['venirán', 'venerán', 'vendrán', 'venarán'], correct: 2 },
+      { sentence: '¿___ (saber-tú) la respuesta?', options: ['saberás', 'sabrás', 'sabirás', 'sabarás'], correct: 1 }
+    ]
+  },
+  'ex-6-1-3': {
+    id: 'ex-6-1-3',
+    type: 'vocabulary',
+    title: 'Expresiones de futuro',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'mañana', options: ['вчера', 'завтра', 'сегодня', 'сейчас'], correct: 1 },
+      { spanish: 'pasado mañana', options: ['позавчера', 'послезавтра', 'вчера', 'завтра'], correct: 1 },
+      { spanish: 'la semana que viene', options: ['на прошлой неделе', 'на следующей неделе', 'на этой неделе', 'каждую неделю'], correct: 1 },
+      { spanish: 'dentro de dos días', options: ['два дня назад', 'через два дня', 'два дня', 'в течение двух дней'], correct: 1 },
+      { spanish: 'pronto', options: ['поздно', 'рано', 'скоро', 'медленно'], correct: 2 }
+    ]
+  },
+  'ex-6-1-4': {
+    id: 'ex-6-1-4',
+    type: 'fillblank',
+    title: 'Планы на будущее',
+    description: 'Вставьте правильную форму futuro',
+    questions: [
+      { sentence: 'El año que viene _____ (viajar) a España', verb: 'viajar', correct: 'viajaré' },
+      { sentence: 'Nosotros _____ (estudiar) medicina', verb: 'estudiar', correct: 'estudiaremos' },
+      { sentence: 'Ellos _____ (hacer) un proyecto', verb: 'hacer', correct: 'harán' },
+      { sentence: '¿Qué _____ (hacer-tú) mañana?', verb: 'hacer', correct: 'harás' }
+    ]
+  },
+  'ex-6-1-5': {
+    id: 'ex-6-1-5',
+    type: 'writing',
+    title: 'Futuro simple',
+    description: 'Переведите на испанский (futuro simple)',
+    questions: [
+      { russian: 'Завтра я буду учиться', correct: 'mañana estudiaré' },
+      { russian: 'Мы поедем в Испанию', correct: 'iremos a España' },
+      { russian: 'Она будет жить в Мадриде', correct: 'vivirá en Madrid' },
+      { russian: 'Они сделают работу', correct: 'harán el trabajo' }
+    ]
+  },
+
+  'ex-6-2-1': {
+    id: 'ex-6-2-1',
+    type: 'grammar',
+    title: 'IR + A + инфинитив',
+    description: 'Выберите правильную форму IR',
+    questions: [
+      { sentence: 'Yo ___ a estudiar esta noche', options: ['voy', 'vas', 'va', 'vamos'], correct: 0 },
+      { sentence: 'Tú ___ a comer paella', options: ['voy', 'vas', 'va', 'van'], correct: 1 },
+      { sentence: 'Nosotros ___ a viajar mañana', options: ['voy', 'vas', 'va', 'vamos'], correct: 3 },
+      { sentence: 'Ellos ___ a trabajar aquí', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
+      { sentence: '¿Qué ___ a hacer tú?', options: ['voy', 'vas', 'va', 'van'], correct: 1 }
+    ]
+  },
+  'ex-6-2-2': {
+    id: 'ex-6-2-2',
+    type: 'vocabulary',
+    title: 'Планы и намерения',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'proyecto', options: ['проблема', 'проект', 'процесс', 'продукт'], correct: 1 },
+      { spanish: 'objetivo', options: ['объект', 'цель', 'причина', 'результат'], correct: 1 },
+      { spanish: 'intención', options: ['внимание', 'намерение', 'интерес', 'инвенция'], correct: 1 },
+      { spanish: 'éxito', options: ['выход', 'успех', 'вход', 'экзамен'], correct: 1 },
+      { spanish: 'carrera', options: ['карета', 'карьера', 'каре', 'корзина'], correct: 1 }
+    ]
+  },
+  'ex-6-2-3': {
+    id: 'ex-6-2-3',
+    type: 'grammar',
+    title: 'Выражение намерений',
+    description: 'Выберите правильный глагол намерения',
+    questions: [
+      { sentence: '___ mudarme a Barcelona (планирую)', options: ['Pienso', 'Quiero', 'Espero', 'Deseo'], correct: 0 },
+      { sentence: '___ aprender español (хочу)', options: ['Pienso', 'Quiero', 'Espero', 'Tengo'], correct: 1 },
+      { sentence: '___ conseguir un buen trabajo (надеюсь)', options: ['Pienso', 'Quiero', 'Espero', 'Deseo'], correct: 2 },
+      { sentence: '___ la intención de viajar (имею намерение)', options: ['Pienso', 'Quiero', 'Espero', 'Tengo'], correct: 3 }
+    ]
+  },
+  'ex-6-2-4': {
+    id: 'ex-6-2-4',
+    type: 'reading',
+    title: 'Чтение: Планы на выходные',
+    description: 'Ответьте на вопросы',
+    text: 'Es jueves y estamos planeando el fin de semana. María va a quedarse en casa el sábado. Carlos piensa ir a la playa. Laura va a ayudar con una mudanza. Miguel va a organizar una cena. Vamos a comer paella.',
+    questions: [
+      { question: 'Что будет делать Мария в субботу?', options: ['Поедет на пляж', 'Останется дома', 'Поможет с переездом', 'Организует ужин'], correct: 1 },
+      { question: 'Куда планирует пойти Карлос?', options: ['В кино', 'На пляж', 'В ресторан', 'Домой'], correct: 1 },
+      { question: 'Чем займется Лаура?', options: ['Шопингом', 'Готовкой', 'Переездом', 'Уборкой'], correct: 2 },
+      { question: 'Что приготовит Мигель?', options: ['Пиццу', 'Пасту', 'Паэлью', 'Салат'], correct: 2 }
+    ]
+  },
+  'ex-6-2-5': {
+    id: 'ex-6-2-5',
+    type: 'writing',
+    title: 'IR + A',
+    description: 'Переведите используя IR + A',
+    questions: [
+      { russian: 'Я собираюсь учиться', correct: 'voy a estudiar' },
+      { russian: 'Мы собираемся поехать на пляж', correct: 'vamos a ir a la playa' },
+      { russian: 'Она собирается готовить', correct: 'va a cocinar' },
+      { russian: 'Что ты собираешься делать?', correct: 'qué vas a hacer' }
+    ]
+  },
+
+  'ex-6-3-1': {
+    id: 'ex-6-3-1',
+    type: 'grammar',
+    title: 'Futuro для предположений',
+    description: 'Используйте futuro для предположения о настоящем',
+    questions: [
+      { sentence: '¿Qué hora es? - ___ las tres (наверное)', options: ['Son', 'Eran', 'Serán', 'Fueron'], correct: 2 },
+      { sentence: '¿Dónde está Juan? - ___ en casa (должно быть)', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
+      { sentence: '¿Cuántos años tiene? - ___ 30 años (около)', options: ['Tiene', 'Tenía', 'Tendrá', 'Tuvo'], correct: 2 },
+      { sentence: '¿Quién es? - ___ mi madre (наверное)', options: ['Es', 'Era', 'Será', 'Fue'], correct: 2 }
+    ]
+  },
+  'ex-6-3-2': {
+    id: 'ex-6-3-2',
+    type: 'vocabulary',
+    title: 'Будущее и технологии',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'predicción', options: ['предложение', 'предсказание', 'предположение', 'предпочтение'], correct: 1 },
+      { spanish: 'tecnología', options: ['техника', 'технология', 'текстиль', 'тема'], correct: 1 },
+      { spanish: 'desarrollo', options: 'развитие', 'развлечение', 'раздел', 'разделение'], correct: 0 },
+      { spanish: 'clima', options: ['климат', 'клиент', 'клинка', 'клиника'], correct: 0 },
+      { spanish: 'medio ambiente', options: ['средний возраст', 'окружающая среда', 'полдень', 'середина'], correct: 1 }
+    ]
+  },
+  'ex-6-3-3': {
+    id: 'ex-6-3-3',
+    type: 'grammar',
+    title: 'SI + presente, futuro',
+    description: 'Выберите правильную форму в условном предложении',
+    questions: [
+      { sentence: 'Si tengo tiempo, ___ al cine', options: ['voy', 'fui', 'iré', 'iría'], correct: 2 },
+      { sentence: 'Si estudias, ___ el examen', options: ['apruebas', 'aprobaste', 'aprobarás', 'aprobarías'], correct: 2 },
+      { sentence: 'Si hace buen tiempo, ___ a la playa', options: ['vamos', 'fuimos', 'iremos', 'iríamos'], correct: 2 },
+      { sentence: 'Si ella viene, ___ muy contentos', options: ['estamos', 'estuvimos', 'estaremos', 'estaríamos'], correct: 2 }
+    ]
+  },
+  'ex-6-3-4': {
+    id: 'ex-6-3-4',
+    type: 'reading',
+    title: 'Чтение: El mundo en 2050',
+    description: 'Ответьте на вопросы о предсказаниях',
+    text: 'En 2050 la tecnología cambiará nuestra vida. Tendremos coches autónomos. Viviremos más años gracias a la medicina. Los coches eléctricos reemplazarán a los de gasolina. La población llegará a 9.000 millones.',
+    questions: [
+      { question: 'Что изменит нашу жизнь?', options: ['Погода', 'Технология', 'Политика', 'Экономика'], correct: 1 },
+      { question: 'Какие машины будут?', options: ['Автономные', 'Быстрые', 'Большие', 'Маленькие'], correct: 0 },
+      { question: 'Какие машины заменят бензиновые?', options: ['Гибридные', 'Электрические', 'Дизельные', 'Водородные'], correct: 1 },
+      { question: 'Сколько будет население?', options: ['8 млрд', '9 млрд', '10 млрд', '11 млрд'], correct: 1 }
+    ]
+  },
+  'ex-6-3-5': {
+    id: 'ex-6-3-5',
+    type: 'writing',
+    title: 'Предсказания',
+    description: 'Переведите предсказания на испанский',
+    questions: [
+      { russian: 'Завтра будет дождь', correct: 'mañana lloverá' },
+      { russian: 'Мы будем жить дольше', correct: 'viviremos más tiempo' },
+      { russian: 'Технология изменит мир', correct: 'la tecnología cambiará el mundo' },
+      { russian: 'Если ты учишься, ты сдашь экзамен', correct: 'si estudias aprobarás el examen' }
+    ]
+  },
+
+  // МОДУЛЬ 7: Subjuntivo
+  'ex-7-1-1': {
+    id: 'ex-7-1-1',
+    type: 'grammar',
+    title: 'Образование subjuntivo - AR глаголы',
+    description: 'Выберите правильную форму subjuntivo',
+    questions: [
+      { sentence: 'Quiero que tú ___ (hablar) español', options: ['hablas', 'hables', 'hable', 'hablen'], correct: 1 },
+      { sentence: 'Es importante que nosotros ___ (estudiar)', options: ['estudiamos', 'estudien', 'estudiemos', 'estudie'], correct: 2 },
+      { sentence: 'Espero que ella ___ (trabajar) aquí', options: ['trabaja', 'trabaje', 'trabajas', 'trabajen'], correct: 1 },
+      { sentence: 'Necesito que ellos ___ (ayudar)', options: ['ayudan', 'ayude', 'ayudes', 'ayuden'], correct: 3 }
+    ]
+  },
+  'ex-7-1-2': {
+    id: 'ex-7-1-2',
+    type: 'grammar',
+    title: 'Образование subjuntivo - ER/IR глаголы',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Quiero que tú ___ (comer) verduras', options: ['comes', 'comas', 'coma', 'coman'], correct: 1 },
+      { sentence: 'Espero que él ___ (vivir) feliz', options: ['vive', 'viva', 'vivas', 'vivan'], correct: 1 },
+      { sentence: 'Es necesario que nosotros ___ (escribir)', options: ['escribimos', 'escriban', 'escribamos', 'escriba'], correct: 2 },
+      { sentence: 'Dudo que ellos ___ (aprender) rápido', options: ['aprenden', 'aprenda', 'aprendan', 'aprendas'], correct: 2 }
+    ]
+  },
+  'ex-7-1-3': {
+    id: 'ex-7-1-3',
+    type: 'grammar',
+    title: 'Неправильные формы subjuntivo',
+    description: 'Выберите правильную неправильную форму',
+    questions: [
+      { sentence: 'Quiero que tú ___ (ser) feliz', options: ['eres', 'seas', 'sea', 'sean'], correct: 1 },
+      { sentence: 'Espero que él ___ (estar) bien', options: ['está', 'esté', 'estés', 'estén'], correct: 1 },
+      { sentence: 'Dudo que ellos ___ (ir) mañana', options: ['van', 'vaya', 'vayas', 'vayan'], correct: 3 },
+      { sentence: 'Es importante que tú ___ (saber) esto', options: ['sabes', 'sepas', 'sepa', 'sepan'], correct: 1 },
+      { sentence: 'Necesito que ella ___ (hacer) la tarea', options: ['hace', 'haga', 'hagas', 'hagan'], correct: 1 }
+    ]
+  },
+  'ex-7-1-4': {
+    id: 'ex-7-1-4',
+    type: 'fillblank',
+    title: 'Completar con subjuntivo',
+    description: 'Вставьте правильную форму subjuntivo',
+    questions: [
+      { sentence: 'Quiero que tú _____ (venir) a mi fiesta', verb: 'venir', correct: 'vengas' },
+      { sentence: 'Espero que _____ (haber) comida', verb: 'haber', correct: 'haya' },
+      { sentence: 'Es necesario que nosotros _____ (tener) paciencia', verb: 'tener', correct: 'tengamos' },
+      { sentence: 'Dudo que él _____ (poder) hacerlo', verb: 'poder', correct: 'pueda' }
+    ]
+  },
+  'ex-7-1-5': {
+    id: 'ex-7-1-5',
+    type: 'writing',
+    title: 'Traducción subjuntivo',
+    description: 'Переведите используя subjuntivo',
+    questions: [
+      { russian: 'Я хочу, чтобы ты пришел', correct: 'quiero que vengas' },
+      { russian: 'Надеюсь, что он знает', correct: 'espero que sepa' },
+      { russian: 'Важно, чтобы мы учились', correct: 'es importante que estudiemos' },
+      { russian: 'Сомневаюсь, что они придут', correct: 'dudo que vengan' }
+    ]
+  },
+
+  'ex-7-2-1': {
+    id: 'ex-7-2-1',
+    type: 'grammar',
+    title: 'Желания с subjuntivo',
+    description: 'Выберите правильную форму после querer/esperar',
+    questions: [
+      { sentence: 'Quiero que tú ___ (estudiar) más', options: ['estudias', 'estudies', 'estudie', 'estudien'], correct: 1 },
+      { sentence: 'Espero que ___ (llover) mañana', options: ['llueve', 'llueva', 'lluevas', 'lluevan'], correct: 1 },
+      { sentence: 'Necesitamos que ellos nos ___ (ayudar)', options: ['ayudan', 'ayude', 'ayudes', 'ayuden'], correct: 3 },
+      { sentence: 'Prefiero que tú ___ (venir) temprano', options: ['vienes', 'vengas', 'venga', 'vengan'], correct: 1 }
+    ]
+  },
+  'ex-7-2-2': {
+    id: 'ex-7-2-2',
+    type: 'grammar',
+    title: 'Эмоции с subjuntivo',
+    description: 'Выберите subjuntivo после выражений эмоций',
+    questions: [
+      { sentence: 'Me alegro de que tú ___ (estar) aquí', options: ['estás', 'estés', 'esté', 'estén'], correct: 1 },
+      { sentence: 'Siento que ella no ___ (poder) venir', options: ['puede', 'pueda', 'puedas', 'puedan'], correct: 1 },
+      { sentence: 'Me sorprende que ellos no lo ___ (saber)', options: ['saben', 'sepa', 'sepas', 'sepan'], correct: 3 },
+      { sentence: 'Tengo miedo de que ___ (llover)', options: ['llueve', 'llueva', 'lluevas', 'lluevan'], correct: 1 }
+    ]
+  },
+  'ex-7-2-3': {
+    id: 'ex-7-2-3',
+    type: 'grammar',
+    title: 'Ojalá с subjuntivo',
+    description: 'Выберите форму после ojalá',
+    questions: [
+      { sentence: 'Ojalá ___ (hacer) buen tiempo', options: ['hace', 'haga', 'hagas', 'hagan'], correct: 1 },
+      { sentence: 'Ojalá tú ___ (tener) suerte', options: ['tienes', 'tengas', 'tenga', 'tengan'], correct: 1 },
+      { sentence: 'Ojalá ellos ___ (venir) a la fiesta', options: ['vienen', 'venga', 'vengas', 'vengan'], correct: 3 },
+      { sentence: 'Ojalá ___ (ser) verdad', options: ['es', 'sea', 'seas', 'sean'], correct: 1 }
+    ]
+  },
+  'ex-7-2-4': {
+    id: 'ex-7-2-4',
+    type: 'reading',
+    title: 'Чтение: Carta a un amigo',
+    description: 'Ответьте на вопросы о письме',
+    text: 'Espero que estés bien. Quiero que sepas que voy a Madrid. Me alegro de que hayas conseguido trabajo. Es posible que me mude a Barcelona. Dudo que sea fácil. Espero que me inviten a la boda de Laura.',
+    questions: [
+      { question: 'Куда поедет автор?', options: ['В Барселону', 'В Мадрид', 'В Валенсию', 'В Севилью'], correct: 1 },
+      { question: 'Что автор думает о переезде?', options: ['Уверен', 'Сомневается', 'Не хочет', 'Рад'], correct: 1 },
+      { question: 'О чьей свадьбе говорится?', options: ['Мигеля', 'Карлоса', 'Лауры', 'Аны'], correct: 2 },
+      { question: 'Что получил Мигель?', options: ['Письмо', 'Работу', 'Машину', 'Квартиру'], correct: 1 }
+    ]
+  },
+  'ex-7-2-5': {
+    id: 'ex-7-2-5',
+    type: 'writing',
+    title: 'Желания и эмоции',
+    description: 'Переведите используя subjuntivo',
+    questions: [
+      { russian: 'Я рад, что ты здесь', correct: 'me alegro de que estés aquí' },
+      { russian: 'Хоть бы шел дождь', correct: 'ojalá llueva' },
+      { russian: 'Сожалею, что ты не можешь прийти', correct: 'siento que no puedas venir' },
+      { russian: 'Важно, чтобы ты знал', correct: 'es importante que sepas' }
+    ]
+  },
+
+  'ex-7-3-1': {
+    id: 'ex-7-3-1',
+    type: 'grammar',
+    title: 'CUANDO с subjuntivo',
+    description: 'Выберите правильную форму после cuando',
+    questions: [
+      { sentence: 'Cuando ___ (llegar-futuro), hablaremos', options: ['llegas', 'llegues', 'llegue', 'lleguen'], correct: 1 },
+      { sentence: 'Cuando ___ (venir-presente habitual), comemos', options: ['vienes', 'vengas', 'venga', 'vengan'], correct: 0 },
+      { sentence: 'Cuando ___ (tener-futuro) tiempo, te llamo', options: ['tienes', 'tengas', 'tenga', 'tengan'], correct: 2 },
+      { sentence: 'Cuando ___ (ser-pasado) niño, jugaba', options: ['fue', 'era', 'sea', 'fuera'], correct: 1 }
+    ]
+  },
+  'ex-7-3-2': {
+    id: 'ex-7-3-2',
+    type: 'grammar',
+    title: 'PARA QUE с subjuntivo',
+    description: 'Выберите форму после para que',
+    questions: [
+      { sentence: 'Te lo explico para que ___ (entender)', options: ['entiendes', 'entiendas', 'entienda', 'entiendan'], correct: 1 },
+      { sentence: 'Hablo despacio para que me ___ (comprender)', options: ['comprendes', 'comprendas', 'comprenda', 'comprendan'], correct: 1 },
+      { sentence: 'Trabajo para que mi familia ___ (vivir) bien', options: ['vive', 'viva', 'vivas', 'vivan'], correct: 3 },
+      { sentence: 'Te llamo para que ___ (saber) la verdad', options: ['sabes', 'sepas', 'sepa', 'sepan'], correct: 1 }
+    ]
+  },
+  'ex-7-3-3': {
+    id: 'ex-7-3-3',
+    type: 'grammar',
+    title: 'Busco... с subjuntivo',
+    description: 'Неопределенное vs определенное',
+    questions: [
+      { sentence: 'Busco una casa que ___ jardín (неопределенное)', options: ['tiene', 'tenga', 'tengas', 'tengan'], correct: 1 },
+      { sentence: 'Tengo una casa que ___ jardín (определенное)', options: ['tiene', 'tenga', 'tengas', 'tengan'], correct: 0 },
+      { sentence: 'No hay nadie que ___ la respuesta', options: ['sabe', 'sepa', 'sepas', 'sepan'], correct: 1 },
+      { sentence: '¿Hay alguien que ___ ruso?', options: ['habla', 'hable', 'hablas', 'hablen'], correct: 1 }
+    ]
+  },
+  'ex-7-3-4': {
+    id: 'ex-7-3-4',
+    type: 'reading',
+    title: 'Чтение: El Camino de Santiago',
+    description: 'Ответьте на вопросы о Пути',
+    text: 'El Camino de Santiago es famoso. Antes de que empieces, prepara bien. Aunque hay rutas cortas, muchos prefieren el Camino completo. No hay nadie que no tenga historia. En cuanto llegues a Santiago, sentirás emociones. Ojalá algún día puedas hacerlo.',
+    questions: [
+      { question: 'Что нужно сделать перед началом?', options: ['Купить билет', 'Подготовиться', 'Позвонить', 'Написать'], correct: 1 },
+      { question: 'Какой путь предпочитают многие?', options: ['Короткий', 'Средний', 'Полный', 'Быстрый'], correct: 2 },
+      { question: 'Что почувствуешь в Сантьяго?', options: ['Усталость', 'Эмоции', 'Голод', 'Холод'], correct: 1 },
+      { question: 'Что говорится о паломниках?', options: ['Все молодые', 'Все старые', 'У всех есть история', 'Все испанцы'], correct: 2 }
+    ]
+  },
+  'ex-7-3-5': {
+    id: 'ex-7-3-5',
+    type: 'writing',
+    title: 'Придаточные предложения',
+    description: 'Переведите используя subjuntivo',
+    questions: [
+      { russian: 'Когда ты придешь, поговорим', correct: 'cuando vengas hablaremos' },
+      { russian: 'Хоть бы ты мог прийти', correct: 'ojalá puedas venir' },
+      { russian: 'Ищу книгу, которая объясняет это', correct: 'busco un libro que explique esto' },
+      { russian: 'Даже если будет дождь, пойдем', correct: 'aunque llueva iremos' }
+    ]
+  },
+
+  // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
+
+  // Урок 8.1 - Реальные условия
+  'ex-8-1-1': {
+    id: 'ex-8-1-1',
+    type: 'grammar',
+    title: 'Si + presente, futuro',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'Si mañana ___ (llover), me quedaré en casa', options: ['lloverá', 'llueve', 'lloviera', 'llueva'], correct: 1 },
+      { sentence: 'Si tú ___ (estudiar), aprobarás', options: ['estudias', 'estudiarás', 'estudies', 'estudiaras'], correct: 0 },
+      { sentence: 'Si ellos ___ (venir), les hablaré', options: ['vendrán', 'vienen', 'vengan', 'vinieran'], correct: 1 },
+      { sentence: 'Si yo ___ (tener) tiempo, te llamaré', options: ['tendré', 'tengo', 'tenga', 'tuviera'], correct: 1 },
+      { sentence: 'Si nosotros ___ (salir) ahora, llegaremos a tiempo', options: ['saldremos', 'salimos', 'salgamos', 'saliéramos'], correct: 1 }
+    ]
+  },
+  'ex-8-1-2': {
+    id: 'ex-8-1-2',
+    type: 'grammar',
+    title: 'Si + presente, imperativo',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Si ___ (ver-tú) a Juan, dile que lo busco', options: ['verás', 'ves', 'veas', 'vieras'], correct: 1 },
+      { sentence: 'Si ___ (estar-tú) cansado, descansa', options: ['estarás', 'estás', 'estés', 'estuvieras'], correct: 1 },
+      { sentence: 'Si ___ (querer-tú) café, prepáralo', options: ['querrás', 'quieres', 'quieras', 'quisieras'], correct: 1 },
+      { sentence: 'Si ___ (tener-tú) frío, cierra la ventana', options: ['tendrás', 'tienes', 'tengas', 'tuvieras'], correct: 1 },
+      { sentence: 'Si no ___ (entender-tú), pregúntame', options: ['entenderás', 'entiendes', 'entiendas', 'entendieras'], correct: 1 }
+    ]
+  },
+  'ex-8-1-3': {
+    id: 'ex-8-1-3',
+    type: 'fillblank',
+    title: 'Completar condicionales',
+    description: 'Complete con la forma correcta del verbo',
+    questions: [
+      { sentence: 'Si hace buen tiempo mañana, (nosotros-ir) ___ a la playa', correct: 'iremos' },
+      { sentence: 'Si estudias duro, (tú-aprobar) ___ el examen', correct: 'aprobarás' },
+      { sentence: 'Si me necesitas, (yo-estar) ___ aquí', correct: 'estaré' },
+      { sentence: 'Si ellos llegan tarde, (nosotros-esperar) ___ ', correct: 'esperaremos' },
+      { sentence: 'Si tienes hambre, (tú-comer) ___ algo', correct: 'come' }
+    ]
+  },
+  'ex-8-1-4': {
+    id: 'ex-8-1-4',
+    type: 'reading',
+    title: 'Чтение: Planes de María',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'María busca trabajo en Barcelona. Si consigue el trabajo, se mudará allí. Si no la aceptan, buscará en Madrid. Su madre dice: si necesitas volver, siempre tendrás un lugar aquí. María piensa: si trabajo duro, tendré éxito.',
+    questions: [
+      { question: 'Куда переедет Мария, если получит работу?', options: ['В Мадрид', 'В Барселону', 'В Валенсию', 'В Севилью'], correct: 1 },
+      { question: 'Что сделает Мария, если ее не примут?', options: ['Вернется домой', 'Будет искать в Мадриде', 'Уедет за границу', 'Остановится'], correct: 1 },
+      { question: 'Что говорит мать?', options: ['Не уезжай', 'Всегда можешь вернуться', 'Это опасно', 'Подумай еще'], correct: 1 },
+      { question: 'Что думает Мария?', options: ['Что все легко', 'Что будет трудно', 'Что работа даст успех', 'Что не хочет ехать'], correct: 2 }
+    ]
+  },
+  'ex-8-1-5': {
+    id: 'ex-8-1-5',
+    type: 'writing',
+    title: 'Условия первого типа',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Если будет дождь, останусь дома', correct: 'si llueve me quedaré en casa' },
+      { russian: 'Если ты придешь, поговорим', correct: 'si vienes hablaremos' },
+      { russian: 'Если увидишь Анну, передай привет', correct: 'si ves a ana dale recuerdos' },
+      { russian: 'Если буду свободен, позвоню', correct: 'si estoy libre llamaré' }
+    ]
+  },
+
+  // Урок 8.2 - Нереальные условия
+  'ex-8-2-1': {
+    id: 'ex-8-2-1',
+    type: 'grammar',
+    title: 'Imperfecto de subjuntivo',
+    description: 'Выберите правильную форму imperfecto subjuntivo',
+    questions: [
+      { sentence: 'Si yo ___ (tener) dinero, viajaría', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 2 },
+      { sentence: 'Si tú ___ (ser) rico, ¿qué harías?', options: ['eres', 'seas', 'fueras', 'serías'], correct: 2 },
+      { sentence: 'Si nosotros ___ (poder) volar, iríamos al espacio', options: ['podemos', 'podamos', 'pudiéramos', 'podríamos'], correct: 2 },
+      { sentence: 'Si ellos ___ (vivir) aquí, nos veríamos más', options: ['viven', 'vivan', 'vivieran', 'vivirían'], correct: 2 },
+      { sentence: 'Si ella ___ (estudiar) más, aprobaría', options: ['estudia', 'estudie', 'estudiara', 'estudiaría'], correct: 2 }
+    ]
+  },
+  'ex-8-2-2': {
+    id: 'ex-8-2-2',
+    type: 'grammar',
+    title: 'Tipo 1 vs Tipo 2',
+    description: 'Elija el tipo correcto según el contexto',
+    questions: [
+      { sentence: 'Si ___ (tener-yo) tiempo mañana, te llamo (REAL)', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 0 },
+      { sentence: 'Si ___ (tener-yo) un millón, viajaría (IRREAL)', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 2 },
+      { sentence: 'Si ___ (estudiar-tú), aprobarás (REAL)', options: ['estudias', 'estudies', 'estudiaras', 'estudiarías'], correct: 0 },
+      { sentence: 'Si ___ (estudiar-tú) medicina, serías doctor (IRREAL)', options: ['estudias', 'estudies', 'estudiaras', 'estudiarías'], correct: 2 },
+      { sentence: 'Si ___ (llover) mañana, no iré (REAL)', options: ['llueve', 'llueva', 'lloviera', 'llovería'], correct: 0 }
+    ]
+  },
+  'ex-8-2-3': {
+    id: 'ex-8-2-3',
+    type: 'fillblank',
+    title: 'Completar con condicional',
+    description: 'Complete con la forma correcta',
+    questions: [
+      { sentence: 'Si tuviera dinero, (yo-comprar) ___ una casa', correct: 'compraría' },
+      { sentence: 'Si fuera rica, no (yo-trabajar) ___ ', correct: 'trabajaría' },
+      { sentence: 'Si pudiéramos volar, (nosotros-ir) ___ al espacio', correct: 'iríamos' },
+      { sentence: '¿Qué (tú-hacer) ___ si ganaras la lotería?', correct: 'harías' },
+      { sentence: 'Si viviera en España, (yo-hablar) ___ mejor español', correct: 'hablaría' }
+    ]
+  },
+  'ex-8-2-4': {
+    id: 'ex-8-2-4',
+    type: 'reading',
+    title: 'Чтение: ¿Qué harías?',
+    description: 'Ответьте на вопросы',
+    text: 'Ana dice: "Si pudiera ser alguien, sería astronauta. Si fuera astronauta, viajaría al espacio". Carlos responde: "Si yo fuera músico, tocaría en estadios. Si ganara dinero, ayudaría a jóvenes artistas". Laura dice: "Si encontrara la cura para enfermedades, salvaría millones de vidas".',
+    questions: [
+      { question: 'Кем бы хотела стать Ана?', options: ['Музыкантом', 'Астронавтом', 'Врачом', 'Ученым'], correct: 1 },
+      { question: 'Что бы сделал Карлос с деньгами?', options: ['Купил дом', 'Путешествовал', 'Помог молодым артистам', 'Открыл бизнес'], correct: 2 },
+      { question: 'Что бы сделала Лаура?', options: ['Нашла лекарство', 'Полетела в космос', 'Играла музыку', 'Путешествовала'], correct: 0 },
+      { question: 'Все мечты...', options: ['Реальные', 'Нереальные/гипотетические', 'Прошлые', 'Будущие точные'], correct: 1 }
+    ]
+  },
+  'ex-8-2-5': {
+    id: 'ex-8-2-5',
+    type: 'writing',
+    title: 'Условия второго типа',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Если бы у меня были деньги, купил бы машину', correct: 'si tuviera dinero compraría un coche' },
+      { russian: 'Если бы я был богатым, путешествовал бы', correct: 'si fuera rico viajaría' },
+      { russian: 'Что бы ты сделал на моем месте?', correct: 'qué harías en mi lugar' },
+      { russian: 'Если бы я мог летать, был бы счастлив', correct: 'si pudiera volar sería feliz' }
+    ]
+  },
+
+  // Урок 8.3 - Условия в прошлом
+  'ex-8-3-1': {
+    id: 'ex-8-3-1',
+    type: 'grammar',
+    title: 'Pluscuamperfecto de subjuntivo',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Si ___ (estudiar-yo), habría aprobado', options: ['estudié', 'estudie', 'hubiera estudiado', 'habría estudiado'], correct: 2 },
+      { sentence: 'Si ___ (venir-tú), te habrías divertido', options: ['viniste', 'vengas', 'hubieras venido', 'habrías venido'], correct: 2 },
+      { sentence: 'Si ___ (saber-yo), habría ido', options: ['supe', 'sepa', 'hubiera sabido', 'habría sabido'], correct: 2 },
+      { sentence: 'Si ___ (salir-nosotros) antes, habríamos llegado', options: ['salimos', 'salgamos', 'hubiéramos salido', 'habríamos salido'], correct: 2 },
+      { sentence: 'Si ellos ___ (llamar), habría contestado', options: ['llamaron', 'llamen', 'hubieran llamado', 'habrían llamado'], correct: 2 }
+    ]
+  },
+  'ex-8-3-2': {
+    id: 'ex-8-3-2',
+    type: 'grammar',
+    title: 'Tres tipos de condicionales',
+    description: 'Identifique el tipo correcto',
+    questions: [
+      { sentence: 'Si estudias, aprobarás', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 0 },
+      { sentence: 'Si estudiaras, aprobarías', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 1 },
+      { sentence: 'Si hubieras estudiado, habrías aprobado', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 2 },
+      { sentence: 'Si tengo tiempo, te llamo', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 0 },
+      { sentence: 'Si hubiera sabido, habría venido', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 2 }
+    ]
+  },
+  'ex-8-3-3': {
+    id: 'ex-8-3-3',
+    type: 'fillblank',
+    title: 'Completar condicionales pasados',
+    description: 'Complete con la forma correcta',
+    questions: [
+      { sentence: 'Si hubiera estudiado más, (yo-aprobar) ___ ', correct: 'habría aprobado' },
+      { sentence: 'Si hubieras venido, (tú-divertirse) ___ ', correct: 'te habrías divertido' },
+      { sentence: 'Si hubiera sabido, no (yo-decir) ___ nada', correct: 'habría dicho' },
+      { sentence: 'Si hubiéramos salido antes, (nosotros-llegar) ___ a tiempo', correct: 'habríamos llegado' },
+      { sentence: 'Si me hubieran invitado, (yo-ir) ___ ', correct: 'habría ido' }
+    ]
+  },
+  'ex-8-3-4': {
+    id: 'ex-8-3-4',
+    type: 'reading',
+    title: 'Чтение: Arrepentimientos',
+    description: 'Ответьте на вопросы',
+    text: 'Roberto reflexiona: "Si hubiera estudiado ingeniería, habría tenido una carrera estable. Pero si hubiera hecho eso, nunca habría conocido a Elena. Si le hubiera dedicado más tiempo a mi hija, nuestra relación sería mejor ahora. Si hubiera dejado de fumar antes, estaría más sano".',
+    questions: [
+      { question: 'Что было бы, если бы Роберто учился на инженера?', options: ['Был бы богат', 'Имел бы стабильную карьеру', 'Жил бы в Нью-Йорке', 'Был бы несчастлив'], correct: 1 },
+      { question: 'Что было бы, если бы выбрал инженерию?', options: ['Не встретил бы Елену', 'Был бы богаче', 'Жил бы лучше', 'Работал бы меньше'], correct: 0 },
+      { question: 'О чем сожалеет с дочерью?', options: ['Не дал денег', 'Не дал времени', 'Был строгим', 'Уехал'], correct: 1 },
+      { question: 'Какое сожаление о здоровье?', options: ['Мало спал', 'Плохо ел', 'Не бросил курить раньше', 'Не занимался спортом'], correct: 2 }
+    ]
+  },
+  'ex-8-3-5': {
+    id: 'ex-8-3-5',
+    type: 'writing',
+    title: 'Условия третьего типа',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Если бы я учился, сдал бы экзамен', correct: 'si hubiera estudiado habría aprobado' },
+      { russian: 'Если бы ты пришел, повеселился бы', correct: 'si hubieras venido te habrías divertido' },
+      { russian: 'Если бы я знал, не сказал бы ничего', correct: 'si hubiera sabido no habría dicho nada' },
+      { russian: 'Если бы мы вышли раньше, успели бы', correct: 'si hubiéramos salido antes habríamos llegado a tiempo' }
     ]
   }
 }
