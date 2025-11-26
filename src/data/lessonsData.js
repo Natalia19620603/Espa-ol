@@ -1439,7 +1439,7 @@ El futuro me da un poco de miedo, pero sobre todo me emociona. Sé que habrá de
       { word: 'cambio', translation: 'изменение', audioUrl: null },
       { word: 'empezar', translation: 'начинать', audioUrl: null },
       { word: 'terminar', translation: 'заканчивать', audioUrl: null }
-    },
+    ],
     readingText: {
       title: '¿Qué vamos a hacer este fin de semana?',
       content: `Es jueves por la noche y mis amigos y yo estamos planeando el fin de semana. Todos tenemos ideas diferentes sobre qué vamos a hacer.
@@ -1577,7 +1577,7 @@ Futuro simple часто используется для предположен�
       { word: 'medio ambiente', translation: 'окружающая среда', audioUrl: null },
       { word: 'cambio climático', translation: 'изменение климата', audioUrl: null },
       { word: 'sociedad', translation: 'общество', audioUrl: null }
-    },
+    ],
     readingText: {
       title: 'El mundo en 2050',
       content: `¿Cómo será el mundo en 2050? Los expertos hacen muchas predicciones sobre cómo viviremos dentro de 25 años. Algunas son optimistas, otras preocupantes. Veamos qué cambios probablemente veremos.
@@ -1878,7 +1878,7 @@ Espero que este texto te ayude a entender mejor el subjuntivo. Ojalá sigas estu
       { word: 'pena', translation: 'жалость', audioUrl: null },
       { word: 'verdad', translation: 'правда', audioUrl: null },
       { word: 'razón', translation: 'причина, правота', audioUrl: null }
-    },
+    ],
     readingText: {
       title: 'Carta a un amigo',
       content: `Querido Miguel:
@@ -2019,7 +2019,7 @@ P.D.: Es probable que lleve a mi novia Ana. Espero que no te importe que ella ve
       { word: 'encontrar', translation: 'находить', audioUrl: null },
       { word: 'existir', translation: 'существовать', audioUrl: null },
       { word: 'haber', translation: 'иметься', audioUrl: null }
-    },
+    ],
     readingText: {
       title: 'El Camino de Santiago',
       content: `El Camino de Santiago es una de las rutas de peregrinación más famosas del mundo. Miles de personas lo recorren cada año, ya sea por motivos religiosos, espirituales o simplemente por la aventura. Aunque cada peregrino tiene sus propias razones, todos comparten una experiencia única.
@@ -3779,7 +3779,7 @@ María: Muy bien, gracias.
     questions: [
       { spanish: 'predicción', options: ['предложение', 'предсказание', 'предположение', 'предпочтение'], correct: 1 },
       { spanish: 'tecnología', options: ['техника', 'технология', 'текстиль', 'тема'], correct: 1 },
-      { spanish: 'desarrollo', options: 'развитие', 'развлечение', 'раздел', 'разделение'], correct: 0 },
+      { spanish: 'desarrollo', options: ['развитие', 'развлечение', 'раздел', 'разделение'], correct: 0 },
       { spanish: 'clima', options: ['климат', 'клиент', 'клинка', 'клиника'], correct: 0 },
       { spanish: 'medio ambiente', options: ['средний возраст', 'окружающая среда', 'полдень', 'середина'], correct: 1 }
     ]
