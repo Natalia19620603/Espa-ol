@@ -4398,5 +4398,242 @@ María: Muy bien, gracias.
       { russian: 'Саграда Фамилия очень впечатляет', correct: 'la sagrada familia es muy impresionante' },
       { russian: 'Испанское искусство известно во всем мире', correct: 'el arte español es conocido en todo el mundo' }
     ]
+  },
+
+  // ===== ДЕМОНСТРАЦИОННЫЕ УПРАЖНЕНИЯ ДЛЯ НОВЫХ ТИПОВ =====
+
+  'ex-demo-conjugation': {
+    id: 'ex-demo-conjugation',
+    type: 'conjugation',
+    title: 'Спряжение глаголов',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { verb: 'hablar', tense: 'Presente', pronoun: 'yo', options: ['hablo', 'hablas', 'habla', 'hablamos'], correct: 0 },
+      { verb: 'comer', tense: 'Pretérito', pronoun: 'tú', options: ['comes', 'comiste', 'comías', 'comerás'], correct: 1 },
+      { verb: 'vivir', tense: 'Futuro', pronoun: 'ella', options: ['vive', 'vivía', 'vivirá', 'viviera'], correct: 2 }
+    ]
+  },
+
+  'ex-demo-word-order': {
+    id: 'ex-demo-word-order',
+    type: 'word-order',
+    title: 'Порядок слов',
+    description: 'Составьте правильное предложение',
+    questions: [
+      { words: ['es', 'Madrid', 'capital', 'la', 'de', 'España'], correct: 'madrid es la capital de españa' },
+      { words: ['me', 'gusta', 'mucho', 'español', 'el'], correct: 'me gusta mucho el español' }
+    ]
+  },
+
+  'ex-demo-transformation': {
+    id: 'ex-demo-transformation',
+    type: 'transformation',
+    title: 'Трансформация предложений',
+    description: 'Преобразуйте предложение',
+    questions: [
+      { instruction: 'Преобразуйте в вопрос:', sentence: 'María habla español', correct: '¿habla maría español?' },
+      { instruction: 'Преобразуйте в отрицание:', sentence: 'Tengo tiempo', correct: 'no tengo tiempo' }
+    ]
+  },
+
+  'ex-demo-error-correction': {
+    id: 'ex-demo-error-correction',
+    type: 'error-correction',
+    title: 'Исправление ошибок',
+    description: 'Найдите и исправьте ошибку',
+    questions: [
+      { sentence: 'Yo es estudiante', correct: 'yo soy estudiante' },
+      { sentence: 'Me gusta los libros', correct: 'me gustan los libros' },
+      { sentence: 'Ella va a el cine', correct: 'ella va al cine' }
+    ]
+  },
+
+  'ex-demo-tense-choice': {
+    id: 'ex-demo-tense-choice',
+    type: 'tense-choice',
+    title: 'Выбор времени',
+    description: 'Какое время использовать?',
+    questions: [
+      { context: 'Ayer ___ al supermercado', options: ['voy', 'fui', 'iré', 'iba'], correct: 1 },
+      { context: 'Mañana ___ a mi abuela', options: ['visito', 'visité', 'visitaré', 'visitaba'], correct: 2 }
+    ]
+  },
+
+  'ex-demo-prepositions': {
+    id: 'ex-demo-prepositions',
+    type: 'prepositions',
+    title: 'Предлоги',
+    description: 'Выберите правильный предлог',
+    questions: [
+      { sentence: 'Voy ___ Madrid', options: ['a', 'en', 'de', 'por'], correct: 0 },
+      { sentence: 'Estudio ___ la tarde', options: ['a', 'en', 'de', 'por'], correct: 3 },
+      { sentence: 'Vengo ___ España', options: ['a', 'en', 'de', 'por'], correct: 2 }
+    ]
+  },
+
+  'ex-demo-pronouns': {
+    id: 'ex-demo-pronouns',
+    type: 'pronouns',
+    title: 'Местоимения',
+    description: 'Выберите правильное местоимение',
+    questions: [
+      { sentence: '___ gusta el español', options: ['yo', 'me', 'mi', 'mí'], correct: 1 },
+      { sentence: '___ llamo Ana', options: ['yo', 'me', 'mi', 'mí'], correct: 1 }
+    ]
+  },
+
+  'ex-demo-agreement': {
+    id: 'ex-demo-agreement',
+    type: 'agreement',
+    title: 'Согласование',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Las casas son ___', options: ['blanco', 'blanca', 'blancos', 'blancas'], correct: 3 },
+      { sentence: 'El libro está ___', options: ['abierto', 'abierta', 'abiertos', 'abiertas'], correct: 0 }
+    ]
+  },
+
+  'ex-demo-subjunctive': {
+    id: 'ex-demo-subjunctive',
+    type: 'subjunctive',
+    title: 'Сослагательное наклонение',
+    description: 'Используйте Subjuntivo',
+    questions: [
+      { sentence: 'Espero que ___ bien', hint: 'После espero que - subjuntivo', options: ['estás', 'estés', 'estarás', 'estabas'], correct: 1 },
+      { sentence: 'Quiero que tú ___', hint: 'Желание требует subjuntivo', options: ['vienes', 'vengas', 'vendrás', 'venías'], correct: 1 }
+    ]
+  },
+
+  'ex-demo-conditional': {
+    id: 'ex-demo-conditional',
+    type: 'conditional',
+    title: 'Условные предложения',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Si tengo tiempo, ___ al cine', options: ['voy', 'iré', 'iría', 'fuera'], correct: 1 },
+      { sentence: 'Si tuviera dinero, ___ un coche', options: ['compro', 'compraré', 'compraría', 'comprara'], correct: 2 }
+    ]
+  },
+
+  'ex-demo-synonyms': {
+    id: 'ex-demo-synonyms',
+    type: 'synonyms',
+    title: 'Синонимы',
+    description: 'Найдите синоним',
+    questions: [
+      { word: 'bonito', options: ['feo', 'hermoso', 'malo', 'triste'], correct: 1 },
+      { word: 'grande', options: ['pequeño', 'enorme', 'corto', 'fino'], correct: 1 },
+      { word: 'rápido', options: ['lento', 'veloz', 'pesado', 'débil'], correct: 1 }
+    ]
+  },
+
+  'ex-demo-antonyms': {
+    id: 'ex-demo-antonyms',
+    type: 'antonyms',
+    title: 'Антонимы',
+    description: 'Найдите антоним',
+    questions: [
+      { word: 'caliente', options: ['tibio', 'fresco', 'frío', 'templado'], correct: 2 },
+      { word: 'alto', options: ['grande', 'largo', 'bajo', 'ancho'], correct: 2 },
+      { word: 'nuevo', options: ['moderno', 'reciente', 'viejo', 'actual'], correct: 2 }
+    ]
+  },
+
+  'ex-demo-collocations': {
+    id: 'ex-demo-collocations',
+    type: 'collocations',
+    title: 'Словосочетания',
+    description: 'Выберите правильное сочетание',
+    questions: [
+      { word: 'tomar', options: ['una decisión', 'una casa', 'un árbol', 'una montaña'], correct: 0 },
+      { word: 'hacer', options: ['una puerta', 'una pregunta', 'un río', 'un pájaro'], correct: 1 },
+      { word: 'dar', options: ['una mesa', 'las gracias', 'un libro', 'una ciudad'], correct: 1 }
+    ]
+  },
+
+  'ex-demo-definitions': {
+    id: 'ex-demo-definitions',
+    type: 'definitions',
+    title: 'Определения',
+    description: 'Найдите слово по определению',
+    questions: [
+      { definition: 'Lugar donde vives', options: ['calle', 'casa', 'tienda', 'parque'], correct: 1 },
+      { definition: 'Comida que se toma por la mañana', options: ['cena', 'comida', 'desayuno', 'merienda'], correct: 2 },
+      { definition: 'Persona que enseña en la escuela', options: ['estudiante', 'médico', 'profesor', 'cocinero'], correct: 2 }
+    ]
+  },
+
+  'ex-demo-context': {
+    id: 'ex-demo-context',
+    type: 'context',
+    title: 'Слова в контексте',
+    description: 'Выберите подходящее слово',
+    questions: [
+      { sentence: 'Tengo mucha sed, necesito ___', options: ['comer', 'beber', 'dormir', 'correr'], correct: 1 },
+      { sentence: 'Hace frío, voy a ponerme un ___', options: ['bañador', 'abrigo', 'paraguas', 'sombrero'], correct: 1 }
+    ]
+  },
+
+  'ex-demo-word-formation': {
+    id: 'ex-demo-word-formation',
+    type: 'word-formation',
+    title: 'Словообразование',
+    description: 'Образуйте новое слово',
+    questions: [
+      { instruction: 'Образуйте прилагательное', baseWord: 'belleza', correct: 'bello' },
+      { instruction: 'Образуйте наречие', baseWord: 'rápido', correct: 'rápidamente' }
+    ]
+  },
+
+  'ex-demo-categorization': {
+    id: 'ex-demo-categorization',
+    type: 'categorization',
+    title: 'Категоризация',
+    description: 'Распределите слова',
+    questions: [
+      {
+        categories: ['Фрукты', 'Овощи'],
+        words: ['manzana', 'zanahoria', 'plátano', 'tomate'],
+        correct: {
+          'manzana': 'Фрукты',
+          'zanahoria': 'Овощи',
+          'plátano': 'Фрукты',
+          'tomate': 'Овощи'
+        }
+      }
+    ]
+  },
+
+  'ex-demo-false-friends': {
+    id: 'ex-demo-false-friends',
+    type: 'false-friends',
+    title: 'Ложные друзья',
+    description: 'Осторожно с переводом!',
+    questions: [
+      { spanishWord: 'embarazada', options: ['смущенная', 'беременная', 'расстроенная', 'удивленная'], correct: 1 },
+      { spanishWord: 'constipado', options: ['запор', 'простуда', 'усталость', 'голод'], correct: 1 }
+    ]
+  },
+
+  'ex-demo-idioms': {
+    id: 'ex-demo-idioms',
+    type: 'idioms',
+    title: 'Идиомы',
+    description: 'Что означает выражение?',
+    questions: [
+      { idiom: 'Estar en las nubes', options: ['витать в облаках', 'летать на самолете', 'смотреть на небо', 'быть высоко'], correct: 0 },
+      { idiom: 'Costar un ojo de la cara', options: ['стоить очень дорого', 'быть красивым', 'быть опасным', 'быть далеко'], correct: 0 }
+    ]
+  },
+
+  'ex-demo-word-family': {
+    id: 'ex-demo-word-family',
+    type: 'word-family',
+    title: 'Семьи слов',
+    description: 'Найдите однокоренное слово',
+    questions: [
+      { word: 'libro', options: ['librería', 'libertad', 'limpio', 'libro'], correct: 0 },
+      { word: 'trabajo', options: ['traje', 'trabajador', 'trampa', 'tren'], correct: 1 }
+    ]
   }
 }
