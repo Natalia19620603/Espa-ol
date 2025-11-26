@@ -134,6 +134,24 @@ export const lessons = {
       { word: 'sí', translation: 'да', audioUrl: null },
       { word: 'no', translation: 'нет', audioUrl: null }
     ],
+    readingText: {
+      title: 'Primeras palabras',
+      content: `Hola. Buenos días. ¿Cómo estás? Bien, gracias. ¿Y tú?
+
+Adiós. Hasta luego. Buenas tardes. Buenas noches.
+
+Gracias. De nada. Por favor. Perdón.
+
+Sí. No. Mucho gusto. Encantado.`,
+      translation: 'Привет. Доброе утро. Как дела? Хорошо, спасибо. А ты?\n\nПока. До скорого. Добрый день. Добрый вечер/Спокойной ночи.\n\nСпасибо. Не за что. Пожалуйста. Прости.\n\nДа. Нет. Очень приятно. Рад познакомиться.',
+      audioUrl: '/audio/lesson-1-1-reading.mp3',
+      subtitles: [
+        { start: 0, end: 3, text: 'Hola. Buenos días.' },
+        { start: 3, end: 6, text: '¿Cómo estás? Bien, gracias.' },
+        { start: 6, end: 9, text: 'Adiós. Hasta luego.' },
+        { start: 9, end: 12, text: 'Gracias. De nada. Por favor.' }
+      ]
+    },
     exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
   },
   'lesson-1-2': {
@@ -186,6 +204,27 @@ export const lessons = {
       { word: '¿Cómo estás?', translation: 'как дела?', audioUrl: null },
       { word: 'Bien, gracias', translation: 'хорошо, спасибо', audioUrl: null }
     ],
+    readingText: {
+      title: 'Diálogo de presentación',
+      content: `- Hola, buenos días. ¿Cómo te llamas?
+- Me llamo Carlos. ¿Y tú?
+- Yo soy Ana. Mucho gusto.
+- Encantado, Ana. ¿De dónde eres?
+- Soy de Madrid. ¿Y tú?
+- Yo soy de Barcelona. ¿Cómo estás?
+- Bien, gracias. ¿Y tú?
+- Muy bien, gracias.`,
+      translation: 'Диалог знакомства\n- Привет, доброе утро. Как тебя зовут?\n- Меня зовут Карлос. А тебя?\n- Я Ана. Очень приятно.\n- Рад познакомиться, Ана. Откуда ты?\n- Я из Мадрида. А ты?\n- Я из Барселоны. Как дела?\n- Хорошо, спасибо. А у тебя?\n- Очень хорошо, спасибо.',
+      audioUrl: '/audio/lesson-1-2-reading.mp3',
+      subtitles: [
+        { start: 0, end: 4, text: '- Hola, buenos días. ¿Cómo te llamas?' },
+        { start: 4, end: 7, text: '- Me llamo Carlos. ¿Y tú?' },
+        { start: 7, end: 10, text: '- Yo soy Ana. Mucho gusto.' },
+        { start: 10, end: 14, text: '- Encantado, Ana. ¿De dónde eres?' },
+        { start: 14, end: 17, text: '- Soy de Madrid. ¿Y tú?' },
+        { start: 17, end: 20, text: '- Yo soy de Barcelona.' }
+      ]
+    },
     exercises: ['ex-1-2-1', 'ex-1-2-2', 'ex-1-2-3']
   },
   'lesson-1-3': {
@@ -224,6 +263,22 @@ export const lessons = {
       { word: 'número', translation: 'число', audioUrl: null },
       { word: 'edad', translation: 'возраст', audioUrl: null }
     ],
+    readingText: {
+      title: 'Mi edad y números',
+      content: `Hola, me llamo Pedro. Tengo veinticinco años. Mi hermana tiene veinte años. Mi padre tiene cincuenta años y mi madre tiene cuarenta y ocho años.
+
+Vivo en la calle número quince. Mi teléfono es tres-cuatro-cinco-seis-siete-ocho-nueve.
+
+En mi clase hay dieciocho estudiantes. Tengo cinco libros de español y diez cuadernos.`,
+      translation: 'Мой возраст и числа\nПривет, меня зовут Педро. Мне 25 лет. Моей сестре 20 лет. Моему отцу 50 лет, а моей матери 48 лет.\n\nЯ живу на улице номер 15. Мой телефон 3-4-5-6-7-8-9.\n\nВ моем классе 18 студентов. У меня 5 учебников испанского и 10 тетрадей.',
+      audioUrl: '/audio/lesson-1-3-reading.mp3',
+      subtitles: [
+        { start: 0, end: 4, text: 'Hola, me llamo Pedro. Tengo veinticinco años.' },
+        { start: 4, end: 8, text: 'Mi hermana tiene veinte años.' },
+        { start: 8, end: 13, text: 'Mi padre tiene cincuenta años y mi madre tiene cuarenta y ocho años.' },
+        { start: 13, end: 16, text: 'Vivo en la calle número quince.' }
+      ]
+    },
     exercises: ['ex-1-3-1', 'ex-1-3-2']
   },
 
