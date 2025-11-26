@@ -134,7 +134,7 @@ export const lessons = {
       { word: 'sí', translation: 'да', audioUrl: null },
       { word: 'no', translation: 'нет', audioUrl: null }
     ],
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -290,7 +290,7 @@ Por las noches, regreso a casa y cocino la cena. Después, estudio un poco más 
 La vida de estudiante es ocupada pero muy interesante. Aprendo algo nuevo cada día y conozco personas de diferentes países. En la universidad hablamos español, inglés y a veces francés.`,
       translation: 'Меня зовут Ана и я студентка. Каждый день я встаю в семь утра. Завтракаю кофе с тостами и потом иду пешком до университета. Я изучаю испанскую литературу и мне это очень нравится...'
     },
-    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5']
+    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err']
   },
   'lesson-2-2': {
     id: 'lesson-2-2',
@@ -464,7 +464,7 @@ Tengo muchos tíos, tías y primos, pero no viven con nosotros. Los vemos en las
 Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos mucho tiempo juntos y nos apoyamos en todo momento.`,
       translation: 'Меня зовут Карлос и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии...'
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4']
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5-def', 'ex-3-1-6-coll']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -4400,7 +4400,121 @@ María: Muy bien, gracias.
     ]
   },
 
-  // ===== ДЕМОНСТРАЦИОННЫЕ УПРАЖНЕНИЯ ДЛЯ НОВЫХ ТИПОВ =====
+// ===== ИНТЕГРИРОВАННЫЕ УПРАЖНЕНИЯ В УРОКИ =====
+
+  'ex-1-1-5-syn': {
+    id: 'ex-1-1-5-syn',
+    type: 'synonyms',
+    title: 'Синонимы приветствий',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { word: 'hola', options: ['adiós', 'buenos días', 'no', 'nada'], correct: 1 },
+      { word: 'gracias', options: ['por favor', 'de nada', 'muchas gracias', 'perdón'], correct: 2 }
+    ]
+  },
+
+  'ex-1-1-6-ctx': {
+    id: 'ex-1-1-6-ctx',
+    type: 'context',
+    title: 'Приветствия в контексте',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Son las 10 de la mañana. Digo: ___', options: ['buenas noches', 'buenos días', 'buenas tardes', 'adiós'], correct: 1 },
+      { sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 }
+    ]
+  },
+
+  'ex-2-1-6-conj': {
+    id: 'ex-2-1-6-conj',
+    type: 'conjugation',
+    title: 'Спряжение AR глаголов',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'nosotros', options: ['estudio', 'estudias', 'estudiamos', 'estudian'], correct: 2 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'ella', options: ['trabajo', 'trabajas', 'trabaja', 'trabajamos'], correct: 2 }
+    ]
+  },
+
+  'ex-2-1-7-err': {
+    id: 'ex-2-1-7-err',
+    type: 'error-correction',
+    title: 'Исправьте ошибки',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Yo estudias español', correct: 'yo estudio español' },
+      { sentence: 'Ella trabajan en Madrid', correct: 'ella trabaja en madrid' }
+    ]
+  },
+
+  'ex-3-1-5-def': {
+    id: 'ex-3-1-5-def',
+    type: 'definitions',
+    title: 'Определения семейных слов',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { definition: 'El hijo de mi hermano', options: ['tío', 'primo', 'sobrino', 'abuelo'], correct: 2 },
+      { definition: 'La madre de mi padre', options: ['tía', 'abuela', 'hermana', 'madre'], correct: 1 }
+    ]
+  },
+
+  'ex-3-1-6-coll': {
+    id: 'ex-3-1-6-coll',
+    type: 'collocations',
+    title: 'Словосочетания о семье',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { word: 'familia', options: ['grande', 'alto', 'rápido', 'verde'], correct: 0 },
+      { word: 'hermano', options: ['mayor', 'nueva', 'bajo', 'frío'], correct: 0 }
+    ]
+  },
+
+  'ex-7-1-6-subj': {
+    id: 'ex-7-1-6-subj',
+    type: 'subjunctive',
+    title: 'Сослагательное наклонение',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Espero que tú ___ bien', hint: 'esperar que + subjuntivo', options: ['estás', 'estés', 'estarás', 'estar'], correct: 1 },
+      { sentence: 'Quiero que nosotros ___ juntos', hint: 'querer que + subjuntivo', options: ['vamos', 'vayamos', 'iremos', 'ir'], correct: 1 }
+    ]
+  },
+
+  'ex-7-1-7-err': {
+    id: 'ex-7-1-7-err',
+    type: 'error-correction',
+    title: 'Исправьте ошибки с subjuntivo',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Espero que vienes mañana', correct: 'espero que vengas mañana' },
+      { sentence: 'Quiero que tú haces esto', correct: 'quiero que tú hagas esto' }
+    ]
+  },
+
+  'ex-8-1-6-cond': {
+    id: 'ex-8-1-6-cond',
+    type: 'conditional',
+    title: 'Условные предложения',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Si tengo dinero, ___ un coche', options: ['compro', 'compraré', 'compraría', 'comprara'], correct: 1 },
+      { sentence: 'Si tuviera tiempo, ___ contigo', options: ['voy', 'iré', 'iría', 'fuera'], correct: 2 }
+    ]
+  },
+
+  'ex-8-1-7-tc': {
+    id: 'ex-8-1-7-tc',
+    type: 'tense-choice',
+    title: 'Выбор времени в условиях',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { context: 'Si llueve mañana, ___ en casa (реальное условие)', options: ['quedo', 'quedaré', 'quedaría', 'quedara'], correct: 1 },
+      { context: 'Si ___ rico, viajaría por el mundo (нереальное условие)', options: ['soy', 'seré', 'sería', 'fuera'], correct: 3 }
+    ]
+  },
+
+// Total integrated exercises created: 10
+
+    // ===== ДЕМОНСТРАЦИОННЫЕ УПРАЖНЕНИЯ ДЛЯ НОВЫХ ТИПОВ =====
 
   'ex-demo-conjugation': {
     id: 'ex-demo-conjugation',
