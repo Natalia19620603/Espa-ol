@@ -561,6 +561,321 @@ Me **encanta** la playa - Я обожаю пляж
       { word: 'viaje', translation: 'путешествие', audioUrl: null }
     ],
     exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3']
+  },
+
+  // МОДУЛЬ 4: Прошедшее время (A2)
+  'lesson-4-1': {
+    id: 'lesson-4-1',
+    title: 'Урок 1: Pretérito perfecto',
+    moduleId: 'module-4',
+    grammar: {
+      title: 'Pretérito perfecto (Настоящее совершенное время)',
+      content: `
+# Pretérito perfecto
+
+## Образование:
+**Haber (настоящее время) + participio pasado**
+
+## Спряжение HABER:
+| Лицо | Форма |
+|------|-------|
+| yo | he |
+| tú | has |
+| él/ella/usted | ha |
+| nosotros/as | hemos |
+| vosotros/as | habéis |
+| ellos/ellas/ustedes | han |
+
+## Причастие прошедшего времени:
+
+**Правильные формы:**
+- Глаголы на -AR: **-ado** (hablar → hablado)
+- Глаголы на -ER/-IR: **-ido** (comer → comido, vivir → vivido)
+
+**Неправильные причастия:**
+| Глагол | Причастие |
+|--------|-----------|
+| hacer | hecho |
+| ver | visto |
+| decir | dicho |
+| escribir | escrito |
+| poner | puesto |
+| volver | vuelto |
+| abrir | abierto |
+| romper | roto |
+| morir | muerto |
+
+## Употребление:
+Используется для действий в прошлом, которые:
+1. Произошли недавно: **Esta semana he visitado el museo**
+2. Имеют связь с настоящим: **Nunca he estado en España**
+3. Результат виден сейчас: **He perdido las llaves** (и до сих пор не нашел)
+
+## Слова-маркеры:
+- **hoy** (сегодня)
+- **esta semana** (на этой неделе)
+- **este mes/año** (в этом месяце/году)
+- **ya** (уже)
+- **todavía no** (еще нет)
+- **nunca** (никогда)
+- **alguna vez** (когда-нибудь)
+      `,
+      examples: [
+        { spanish: 'He comido paella hoy', translation: 'Я ел паэлью сегодня' },
+        { spanish: '¿Has visto esta película?', translation: 'Ты видел этот фильм?' },
+        { spanish: 'Nunca hemos estado en México', translation: 'Мы никогда не были в Мексике' },
+        { spanish: 'Ella ha escrito un libro', translation: 'Она написала книгу' }
+      ]
+    },
+    vocabulary: [
+      { word: 'ya', translation: 'уже', audioUrl: null },
+      { word: 'todavía', translation: 'еще, все еще', audioUrl: null },
+      { word: 'nunca', translation: 'никогда', audioUrl: null },
+      { word: 'alguna vez', translation: 'когда-нибудь', audioUrl: null },
+      { word: 'esta semana', translation: 'на этой неделе', audioUrl: null },
+      { word: 'este mes', translation: 'в этом месяце', audioUrl: null },
+      { word: 'hoy', translation: 'сегодня', audioUrl: null },
+      { word: 'reciente', translation: 'недавний', audioUrl: null },
+      { word: 'visitar', translation: 'посещать', audioUrl: null },
+      { word: 'terminar', translation: 'заканчивать', audioUrl: null },
+      { word: 'perder', translation: 'терять', audioUrl: null },
+      { word: 'ganar', translation: 'выигрывать, зарабатывать', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Una semana ocupada',
+      content: `Esta semana ha sido muy productiva para mí. El lunes he empezado un nuevo proyecto en el trabajo. Es un desafío interesante y estoy muy motivado.
+
+El martes he ido al gimnasio por primera vez en meses. Me ha costado mucho porque estaba muy fuera de forma, pero me he sentido muy bien después. He decidido ir tres veces por semana a partir de ahora.
+
+El miércoles mi hermana ha llegado de Barcelona. Hacía mucho tiempo que no la veía. Hemos cenado juntas en mi restaurante favorito y hemos hablado durante horas. Me ha contado sobre su nuevo trabajo y sus planes para el futuro.
+
+El jueves he terminado un informe importante que llevaba semanas preparando. Mi jefe lo ha leído y ha dicho que está muy bien hecho. Me ha felicitado delante de todo el equipo. Me he sentido muy orgullosa.
+
+Hoy es viernes y he recibido mi salario. También he comprado los billetes para mis vacaciones en Italia el mes que viene. Nunca he estado allí y estoy muy emocionada. He reservado un hotel en Roma y he hecho una lista de todos los lugares que quiero visitar.
+
+¿Y tú? ¿Qué has hecho esta semana? ¿Has tenido alguna experiencia interesante?`,
+      translation: 'На этой неделе я была очень продуктивна. В понедельник я начала новый проект на работе...'
+    },
+    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5']
+  },
+
+  'lesson-4-2': {
+    id: 'lesson-4-2',
+    title: 'Урок 2: Pretérito indefinido',
+    moduleId: 'module-4',
+    grammar: {
+      title: 'Pretérito indefinido (Простое прошедшее время)',
+      content: `
+# Pretérito indefinido (Pretérito perfecto simple)
+
+## Правильные глаголы:
+
+**Глаголы на -AR (hablar):**
+| Лицо | Окончание | Пример |
+|------|-----------|--------|
+| yo | -é | hablé |
+| tú | -aste | hablaste |
+| él/ella/usted | -ó | habló |
+| nosotros/as | -amos | hablamos |
+| vosotros/as | -asteis | hablasteis |
+| ellos/ellas/ustedes | -aron | hablaron |
+
+**Глаголы на -ER/-IR (comer/vivir):**
+| Лицо | Окончание | Пример |
+|------|-----------|--------|
+| yo | -í | comí, viví |
+| tú | -iste | comiste, viviste |
+| él/ella/usted | -ió | comió, vivió |
+| nosotros/as | -imos | comimos, vivimos |
+| vosotros/as | -isteis | comisteis, vivisteis |
+| ellos/ellas/ustedes | -ieron | comieron, vivieron |
+
+## Важные неправильные глаголы:
+
+**SER/IR (одинаковые формы!):**
+fui, fuiste, fue, fuimos, fuisteis, fueron
+
+**ESTAR:**
+estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron
+
+**TENER:**
+tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron
+
+**HACER:**
+hice, hiciste, hizo, hicimos, hicisteis, hicieron
+
+**VENIR:**
+vine, viniste, vino, vinimos, vinisteis, vinieron
+
+**DECIR:**
+dije, dijiste, dijo, dijimos, dijisteis, dijeron
+
+**DAR:**
+di, diste, dio, dimos, disteis, dieron
+
+## Употребление:
+Используется для законченных действий в прошлом:
+1. Конкретное время: **Ayer fui al cine**
+2. Определенный период: **Viví en Madrid dos años**
+3. Последовательность событий: **Me levanté, desayuné y salí**
+
+## Слова-маркеры:
+- **ayer** (вчера)
+- **anteayer** (позавчера)
+- **el año pasado** (в прошлом году)
+- **la semana pasada** (на прошлой неделе)
+- **el otro día** (на днях)
+- **hace dos días/semanas/meses** (два дня/недели/месяца назад)
+      `,
+      examples: [
+        { spanish: 'Ayer comí en un restaurante italiano', translation: 'Вчера я ел в итальянском ресторане' },
+        { spanish: 'El año pasado fui a España', translation: 'В прошлом году я ездил в Испанию' },
+        { spanish: 'Hice la tarea anoche', translation: 'Я сделал домашку вчера вечером' },
+        { spanish: 'Vinieron a visitarme la semana pasada', translation: 'Они приехали навестить меня на прошлой неделе' }
+      ]
+    },
+    vocabulary: [
+      { word: 'ayer', translation: 'вчера', audioUrl: null },
+      { word: 'anteayer', translation: 'позавчера', audioUrl: null },
+      { word: 'el año pasado', translation: 'в прошлом году', audioUrl: null },
+      { word: 'la semana pasada', translation: 'на прошлой неделе', audioUrl: null },
+      { word: 'el mes pasado', translation: 'в прошлом месяце', audioUrl: null },
+      { word: 'hace', translation: 'назад (hace dos días)', audioUrl: null },
+      { word: 'anoche', translation: 'вчера вечером', audioUrl: null },
+      { word: 'visitar', translation: 'посещать', audioUrl: null },
+      { word: 'comprar', translation: 'покупать', audioUrl: null },
+      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
+      { word: 'recuerdo', translation: 'сувенир, воспоминание', audioUrl: null },
+      { word: 'inolvidable', translation: 'незабываемый', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mis vacaciones en Italia',
+      content: `El verano pasado realicé el viaje de mis sueños: fui a Italia con mi mejor amiga Laura. Fue una experiencia absolutamente inolvidable.
+
+Salimos de Madrid el 15 de julio. Nuestro primer destino fue Roma. Llegamos por la tarde y fuimos directamente al hotel. Era un pequeño hotel cerca del Vaticano, muy acogedor. Esa noche caminamos por el barrio y cenamos en una trattoria tradicional. Comimos pizza y pasta deliciosas.
+
+Al día siguiente visitamos el Coliseo. ¡Fue impresionante! También vimos el Foro Romano y la Fontana di Trevi. Echamos monedas en la fuente e hicimos un deseo. Laura pidió encontrar el amor, y yo pedí volver a Italia algún día.
+
+Después de tres días en Roma, tomamos el tren a Florencia. La ciudad nos enamoró completamente. Visitamos la Galería Uffizi y vimos obras maestras de Botticelli y Leonardo da Vinci. Laura compró muchos recuerdos: bolsos de cuero, joyas y chocolates.
+
+Nuestro último destino fue Venecia. Llegamos en vaporetto desde el aeropuerto. La ciudad flotante nos dejó sin palabras. Paseamos en góndola por los canales, visitamos la Basílica de San Marcos y nos perdimos por las callejuelas encantadoras.
+
+El viaje duró diez días. Cuando volvimos a España, estábamos cansadas pero felices. Todavía hablamos de ese viaje y miramos las fotos con nostalgia. Definitivamente quiero volver.`,
+      translation: 'Прошлым летом я совершила путешествие своей мечты: поехала в Италию с моей лучшей подругой Лаурой...'
+    },
+    exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5']
+  },
+
+  'lesson-4-3': {
+    id: 'lesson-4-3',
+    title: 'Урок 3: Pretérito imperfecto',
+    moduleId: 'module-4',
+    grammar: {
+      title: 'Pretérito imperfecto vs Indefinido',
+      content: `
+# Pretérito imperfecto (Незавершенное прошедшее время)
+
+## Образование:
+
+**Глаголы на -AR (hablar):**
+| Лицо | Окончание | Пример |
+|------|-----------|--------|
+| yo | -aba | hablaba |
+| tú | -abas | hablabas |
+| él/ella/usted | -aba | hablaba |
+| nosotros/as | -ábamos | hablábamos |
+| vosotros/as | -abais | hablabais |
+| ellos/ellas/ustedes | -aban | hablaban |
+
+**Глаголы на -ER/-IR (comer/vivir):**
+| Лицо | Окончание | Пример |
+|------|-----------|--------|
+| yo | -ía | comía, vivía |
+| tú | -ías | comías, vivías |
+| él/ella/usted | -ía | comía, vivía |
+| nosotros/as | -íamos | comíamos, vivíamos |
+| vosotros/as | -íais | comíais, vivíais |
+| ellos/ellas/ustedes | -ían | comían, vivían |
+
+## Неправильные глаголы (только 3!):
+
+**SER:** era, eras, era, éramos, erais, eran
+**IR:** iba, ibas, iba, íbamos, ibais, iban
+**VER:** veía, veías, veía, veíamos, veíais, veían
+
+## Употребление Imperfecto:
+
+1. **Описание в прошлом:**
+   - Era una casa grande (Это был большой дом)
+   - Hacía frío (Было холодно)
+
+2. **Привычные действия:**
+   - Todos los días iba al parque (Каждый день я ходил в парк)
+   - Siempre comíamos juntos (Мы всегда ели вместе)
+
+3. **Фоновое действие:**
+   - Mientras leía, sonó el teléfono (Пока я читал, зазвонил телефон)
+
+4. **Время, возраст в прошлом:**
+   - Eran las tres (Было три часа)
+   - Tenía 10 años (Мне было 10 лет)
+
+## Imperfecto vs Indefinido:
+
+**Indefinido** (законченное действие):
+- Ayer fui al cine (Вчера я ходил в кино - и вернулся)
+- Viví en Madrid dos años (Я жил в Мадриде 2 года - но больше не живу)
+
+**Imperfecto** (незаконченное, фон, привычка):
+- De niño iba al cine cada sábado (Ребенком я ходил в кино каждую субботу)
+- Vivía en Madrid cuando te conocí (Я жил в Мадриде, когда познакомился с тобой)
+
+## Комбинация:
+**Imperfecto (фон) + Indefinido (действие):**
+- Mientras **dormía** (imperfecto), **sonó** (indefinido) el teléfono
+- **Llovía** (imperfecto) cuando **salí** (indefinido) de casa
+      `,
+      examples: [
+        { spanish: 'Cuando era niño, jugaba fútbol', translation: 'Когда я был ребенком, я играл в футбол' },
+        { spanish: 'Vivíamos en una casa grande', translation: 'Мы жили в большом доме' },
+        { spanish: 'Mientras cocinaba, llegaron mis amigos', translation: 'Пока я готовил, пришли мои друзья' },
+        { spanish: 'Hacía sol cuando salimos', translation: 'Было солнечно, когда мы вышли' }
+      ]
+    },
+    vocabulary: [
+      { word: 'niño/a', translation: 'ребенок', audioUrl: null },
+      { word: 'infancia', translation: 'детство', audioUrl: null },
+      { word: 'cuando', translation: 'когда', audioUrl: null },
+      { word: 'mientras', translation: 'пока, в то время как', audioUrl: null },
+      { word: 'siempre', translation: 'всегда', audioUrl: null },
+      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+      { word: 'normalmente', translation: 'обычно', audioUrl: null },
+      { word: 'jugar', translation: 'играть', audioUrl: null },
+      { word: 'contar', translation: 'рассказывать', audioUrl: null },
+      { word: 'historia', translation: 'история, рассказ', audioUrl: null },
+      { word: 'juventud', translation: 'молодость', audioUrl: null },
+      { word: 'feliz', translation: 'счастливый', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Recuerdos de mi infancia',
+      content: `Cuando pienso en mi infancia, siempre sonrío. Eran tiempos muy felices y sencillos.
+
+Vivía en un pueblo pequeño cerca de Granada. Nuestra casa era antigua pero acogedora. Tenía un jardín enorme donde mi hermano y yo jugábamos durante horas. Había un árbol grande - un olivo centenario - donde construimos una casa en el árbol. Era nuestro lugar secreto.
+
+Todos los días me levantaba temprano. Mi madre preparaba el desayuno mientras yo me vestía. Normalmente tomábamos chocolate caliente con churros. Después iba a la escuela a pie. El camino duraba unos veinte minutos, pero me gustaba porque pasaba por el parque y veía a los pájaros.
+
+En la escuela tenía muchos amigos. Mi mejor amigo se llamaba Carlos. Éramos inseparables. Siempre nos sentábamos juntos y compartíamos nuestras meriendas. Después de las clases jugábamos al fútbol en el patio. Yo era portero y Carlos era delantero. Formábamos un gran equipo.
+
+Los fines de semana eran especiales. Los sábados por la mañana iba al mercado con mi abuela. Ella compraba verduras frescas y hablaba con todos los vendedores. Conocía a todo el mundo. A mí me compraba dulces - siempre los mismos: caramelos de menta.
+
+Los domingos comíamos en casa de mis abuelos. Mi abuela cocinaba platos deliciosos: paella, cocido, gazpacho en verano. Toda la familia se reunía: tíos, tías, primos. Después de comer, mi abuelo nos contaba historias de cuando era joven. Nosotros escuchábamos fascinados.
+
+En verano íbamos a la playa. Pasábamos todo el mes de agosto en un apartamento pequeño en Málaga. Mis padres alquilaban el mismo apartamento cada año. Estaba a cinco minutos de la playa. Todos los días nadábamos, construíamos castillos de arena y jugábamos al voleibol. Por las noches paseábamos por el paseo marítimo y comíamos helado.
+
+Ahora vivo en Madrid. Trabajo en una oficina y mi vida es muy diferente. Pero cuando vuelvo al pueblo y veo el olivo de mi infancia, todos esos recuerdos vuelven. Me siento otra vez ese niño feliz que jugaba sin preocupaciones.`,
+      translation: 'Когда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена...'
+    },
+    exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5']
   }
 }
 
@@ -950,6 +1265,199 @@ María: Muy bien, gracias.
       { russian: 'Мне нравится музыка', correct: 'me gusta la música' },
       { russian: 'Тебе нравятся книги', correct: 'te gustan los libros' },
       { russian: 'Нам нравится путешествовать', correct: 'nos gusta viajar' }
+    ]
+  },
+
+  // МОДУЛЬ 4: Прошедшее время (A2)
+  'ex-4-1-1': {
+    id: 'ex-4-1-1',
+    type: 'grammar',
+    title: 'Pretérito perfecto - формы',
+    description: 'Выберите правильную форму причастия',
+    questions: [
+      { sentence: 'He ___ (hablar) con María', options: ['hablado', 'hablido', 'hablando', 'hablar'], correct: 0 },
+      { sentence: 'Has ___ (comer) paella?', options: ['comado', 'comido', 'comiendo', 'comer'], correct: 1 },
+      { sentence: 'Hemos ___ (vivir) aquí 5 años', options: ['vivado', 'viviendo', 'vivido', 'vivir'], correct: 2 },
+      { sentence: 'Han ___ (estudiar) mucho', options: ['estudiado', 'estudido', 'estudiando', 'estudiar'], correct: 0 },
+      { sentence: 'Ha ___ (escribir) un libro', options: ['escribado', 'escribido', 'escribiendo', 'escribir'], correct: 1 }
+    ]
+  },
+  'ex-4-1-2': {
+    id: 'ex-4-1-2',
+    type: 'grammar',
+    title: 'Неправильные причастия',
+    description: 'Выберите правильную форму неправильного причастия',
+    questions: [
+      { sentence: 'He ___ (hacer) la tarea', options: ['hacido', 'hecho', 'haciendo', 'hacer'], correct: 1 },
+      { sentence: 'Has ___ (ver) la película?', options: ['veído', 'vido', 'visto', 'ver'], correct: 2 },
+      { sentence: 'Hemos ___ (decir) la verdad', options: ['decido', 'dicho', 'diciendo', 'decir'], correct: 1 },
+      { sentence: 'Han ___ (poner) la mesa', options: ['ponido', 'puesto', 'poniendo', 'poner'], correct: 1 },
+      { sentence: '¿Has ___ (volver) a casa?', options: ['volvido', 'volvido', 'vuelto', 'volver'], correct: 2 }
+    ]
+  },
+  'ex-4-1-3': {
+    id: 'ex-4-1-3',
+    type: 'reading',
+    title: 'Чтение: Experiencias recientes',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    text: 'Esta semana ha sido muy interesante. El lunes he visitado a mis abuelos. El martes mi hermana ha llegado de Barcelona. Hemos comido juntas en un restaurante italiano. También he terminado un proyecto importante del trabajo. ¿Y tú? ¿Qué has hecho esta semana?',
+    questions: [
+      { question: 'Когда автор посетил бабушку и дедушку?', options: ['В понедельник', 'Во вторник', 'В среду', 'В четверг'], correct: 0 },
+      { question: 'Откуда приехала сестра?', options: ['Из Мадрида', 'Из Барселоны', 'Из Валенсии', 'Из Севильи'], correct: 1 },
+      { question: 'Где они поели?', options: ['В испанском ресторане', 'В китайском ресторане', 'В итальянском ресторане', 'Дома'], correct: 2 },
+      { question: 'Что закончил автор?', options: ['Книгу', 'Проект', 'Урок', 'Фильм'], correct: 1 }
+    ]
+  },
+  'ex-4-1-4': {
+    id: 'ex-4-1-4',
+    type: 'fillblank',
+    title: 'Заполните пропуски',
+    description: 'Вставьте правильную форму pretérito perfecto',
+    questions: [
+      { sentence: 'Yo _____ (terminar) el trabajo', verb: 'terminar', correct: 'he terminado' },
+      { sentence: 'Nosotros _____ (viajar) a Italia', verb: 'viajar', correct: 'hemos viajado' },
+      { sentence: 'Ellos _____ (abrir) la tienda', verb: 'abrir', correct: 'han abierto' },
+      { sentence: '¿Tú _____ (hacer) la cena?', verb: 'hacer', correct: 'has hecho' }
+    ]
+  },
+  'ex-4-1-5': {
+    id: 'ex-4-1-5',
+    type: 'writing',
+    title: 'Недавние действия',
+    description: 'Переведите на испанский (pretérito perfecto)',
+    questions: [
+      { russian: 'Я посетил музей', correct: 'he visitado el museo' },
+      { russian: 'Мы съели пиццу', correct: 'hemos comido pizza' },
+      { russian: 'Она написала письмо', correct: 'ha escrito una carta' },
+      { russian: 'Они увидели фильм', correct: 'han visto la película' }
+    ]
+  },
+
+  'ex-4-2-1': {
+    id: 'ex-4-2-1',
+    type: 'grammar',
+    title: 'Pretérito indefinido - правильные глаголы',
+    description: 'Выберите правильную форму прошедшего времени',
+    questions: [
+      { sentence: 'Ayer yo ___ (hablar) con Pedro', options: ['hablé', 'hablaste', 'habló', 'hablaron'], correct: 0 },
+      { sentence: 'El año pasado ___ (vivir) en Madrid', options: ['viví', 'viviste', 'vivió', 'vivimos'], correct: 0 },
+      { sentence: 'Tú ___ (comer) demasiado', options: ['comí', 'comiste', 'comió', 'comieron'], correct: 1 },
+      { sentence: 'Nosotros ___ (bailar) toda la noche', options: ['bailé', 'bailaste', 'bailó', 'bailamos'], correct: 3 },
+      { sentence: 'Ellos ___ (estudiar) medicina', options: ['estudié', 'estudiaste', 'estudió', 'estudiaron'], correct: 3 }
+    ]
+  },
+  'ex-4-2-2': {
+    id: 'ex-4-2-2',
+    type: 'grammar',
+    title: 'Неправильные формы indefinido',
+    description: 'Выберите правильную неправильную форму',
+    questions: [
+      { sentence: 'Yo ___ (ir) a Barcelona', options: ['fuí', 'fui', 'fue', 'fueron'], correct: 1 },
+      { sentence: 'Ella ___ (estar) enferma', options: ['estuví', 'estuviste', 'estuvo', 'estuvieron'], correct: 2 },
+      { sentence: 'Nosotros ___ (tener) suerte', options: ['tuve', 'tuviste', 'tuvo', 'tuvimos'], correct: 3 },
+      { sentence: 'Ellos ___ (hacer) el proyecto', options: ['hice', 'hiciste', 'hizo', 'hicieron'], correct: 3 },
+      { sentence: '¿Tú ___ (venir) a la fiesta?', options: ['vení', 'viniste', 'vino', 'vinieron'], correct: 1 }
+    ]
+  },
+  'ex-4-2-3': {
+    id: 'ex-4-2-3',
+    type: 'vocabulary',
+    title: 'Выражения времени',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'ayer', options: ['вчера', 'сегодня', 'завтра', 'сейчас'], correct: 0 },
+      { spanish: 'el año pasado', options: ['в этом году', 'в прошлом году', 'в следующем году', 'каждый год'], correct: 1 },
+      { spanish: 'anteayer', options: ['вчера', 'позавчера', 'завтра', 'послезавтра'], correct: 1 },
+      { spanish: 'la semana pasada', options: ['на этой неделе', 'на следующей неделе', 'на прошлой неделе', 'каждую неделю'], correct: 2 }
+    ]
+  },
+  'ex-4-2-4': {
+    id: 'ex-4-2-4',
+    type: 'reading',
+    title: 'Чтение: Mis últimas vacaciones',
+    description: 'Прочитайте о прошлых каникулах',
+    text: 'El verano pasado fui a Italia con mi familia. Visitamos Roma, Florencia y Venecia. En Roma vimos el Coliseo y comimos pizza deliciosa. Mi hermana compró muchos recuerdos. En Florencia mi padre visitó varios museos. Yo preferí caminar por las calles antiguas. Después fuimos a Venecia y paseamos en góndola. Fue un viaje inolvidable.',
+    questions: [
+      { question: 'Куда поехала семья?', options: ['В Испанию', 'В Италию', 'Во Францию', 'В Грецию'], correct: 1 },
+      { question: 'Что они видели в Риме?', options: ['Тауэр', 'Эйфелеву башню', 'Колизей', 'Акрополь'], correct: 2 },
+      { question: 'Кто купил много сувениров?', options: ['Отец', 'Мать', 'Сестра', 'Автор'], correct: 2 },
+      { question: 'Что они делали в Венеции?', options: ['Катались на гондоле', 'Посещали музеи', 'Покупали сувениры', 'Ели пиццу'], correct: 0 }
+    ]
+  },
+  'ex-4-2-5': {
+    id: 'ex-4-2-5',
+    type: 'writing',
+    title: 'Прошедшие события',
+    description: 'Переведите на испанский (pretérito indefinido)',
+    questions: [
+      { russian: 'Я поехал в Мадрид', correct: 'fui a Madrid' },
+      { russian: 'Она купила книгу', correct: 'compró un libro' },
+      { russian: 'Мы посетили музей', correct: 'visitamos el museo' },
+      { russian: 'Они говорили по-испански', correct: 'hablaron español' }
+    ]
+  },
+
+  'ex-4-3-1': {
+    id: 'ex-4-3-1',
+    type: 'grammar',
+    title: 'Pretérito imperfecto - формы',
+    description: 'Выберите правильную форму imperfecto',
+    questions: [
+      { sentence: 'Cuando era niño, yo ___ (jugar) fútbol', options: ['jugaba', 'jugabas', 'jugábamos', 'jugaban'], correct: 0 },
+      { sentence: 'Tú ___ (vivir) en una casa grande', options: ['vivía', 'vivías', 'vivíamos', 'vivían'], correct: 1 },
+      { sentence: 'Nosotros ___ (comer) juntos todos los días', options: ['comía', 'comías', 'comíamos', 'comían'], correct: 2 },
+      { sentence: 'Ellos ___ (estudiar) por las tardes', options: ['estudiaba', 'estudiabas', 'estudiábamos', 'estudiaban'], correct: 3 },
+      { sentence: 'Mi abuela ___ (cocinar) muy bien', options: ['cocinaba', 'cocinabas', 'cocinábamos', 'cocinaban'], correct: 0 }
+    ]
+  },
+  'ex-4-3-2': {
+    id: 'ex-4-3-2',
+    type: 'grammar',
+    title: 'Imperfecto vs Indefinido',
+    description: 'Выберите правильное время',
+    questions: [
+      { sentence: 'Ayer ___ (ir) al cine (законченное действие)', options: ['iba', 'fui', 'he ido', 'voy'], correct: 1 },
+      { sentence: 'De niño ___ (ser) muy tímido (описание)', options: ['fue', 'era', 'es', 'ha sido'], correct: 1 },
+      { sentence: 'Mientras yo ___ (leer), sonó el teléfono (фон)', options: ['leí', 'leía', 'he leído', 'leo'], correct: 1 },
+      { sentence: 'Ella ___ (llegar) a las 8 (конкретное время)', options: ['llegaba', 'llegó', 'ha llegado', 'llega'], correct: 1 },
+      { sentence: 'Todos los días ___ (caminar) al trabajo (привычка)', options: ['caminé', 'caminaba', 'he caminado', 'camino'], correct: 1 }
+    ]
+  },
+  'ex-4-3-3': {
+    id: 'ex-4-3-3',
+    type: 'reading',
+    title: 'Чтение: Mi infancia',
+    description: 'Прочитайте воспоминания о детстве',
+    text: 'Cuando era niño, vivía en un pueblo pequeño cerca de Granada. Teníamos una casa con un jardín grande donde jugaba con mis hermanos. Todos los días iba a la escuela a pie. Me gustaba mucho estudiar, especialmente matemáticas y literatura. Los fines de semana visitábamos a mis abuelos. Mi abuela siempre preparaba comida deliciosa y mi abuelo nos contaba historias fascinantes de su juventud. En verano íbamos a la playa y pasábamos semanas enteras nadando y jugando en la arena. Eran tiempos muy felices.',
+    questions: [
+      { question: 'Где жил автор?', options: ['В большом городе', 'В маленьком городе', 'В столице', 'За границей'], correct: 1 },
+      { question: 'Как он добирался до школы?', options: ['На автобусе', 'На машине', 'Пешком', 'На велосипеде'], correct: 2 },
+      { question: 'Что готовила бабушка?', options: ['Сладости', 'Вкусную еду', 'Только десерты', 'Ничего'], correct: 1 },
+      { question: 'Что делали летом?', options: ['Оставались дома', 'Ходили в горы', 'Ездили на пляж', 'Работали'], correct: 2 }
+    ]
+  },
+  'ex-4-3-4': {
+    id: 'ex-4-3-4',
+    type: 'fillblank',
+    title: 'Заполните правильным временем',
+    description: 'Выберите между imperfecto и indefinido',
+    questions: [
+      { sentence: 'Cuando _____ (ser) joven, viajaba mucho', verb: 'ser (описание)', correct: 'era' },
+      { sentence: 'Ayer _____ (comprar) un libro nuevo', verb: 'comprar (законченное)', correct: 'compré' },
+      { sentence: 'Mientras yo _____ (cocinar), llegó mi madre', verb: 'cocinar (фон)', correct: 'cocinaba' },
+      { sentence: 'El verano pasado _____ (ir) a México', verb: 'ir (конкретное)', correct: 'fui' }
+    ]
+  },
+  'ex-4-3-5': {
+    id: 'ex-4-3-5',
+    type: 'writing',
+    title: 'Описание прошлого',
+    description: 'Переведите используя правильное время',
+    questions: [
+      { russian: 'Я был студентом (описание)', correct: 'era estudiante' },
+      { russian: 'Вчера я купил машину', correct: 'ayer compré un coche' },
+      { russian: 'Каждый день я читал газету', correct: 'cada día leía el periódico' },
+      { russian: 'Они приехали в 5 часов', correct: 'llegaron a las cinco' }
     ]
   }
 }
