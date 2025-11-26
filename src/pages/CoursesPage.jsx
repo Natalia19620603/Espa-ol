@@ -48,6 +48,9 @@ function CoursesPage() {
           <h1 className={styles.title}>Синтетическая школа испанского</h1>
           <div className={styles.userInfo}>
             <span className={styles.userName}>{user.name || user.email}</span>
+            <button onClick={() => navigate('/listening')} className={styles.listeningBtn}>
+              🎧 Аудирование
+            </button>
             <button onClick={() => navigate('/profile')} className={styles.profileBtn}>
               Профиль
             </button>
