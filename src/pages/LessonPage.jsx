@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { lessons, exercises as exercisesData } from '../data/lessonsData'
 import ExerciseComponent from '../components/ExerciseComponent'
+import AudioPlayer from '../components/AudioPlayer'
+import PronunciationRecorder from '../components/PronunciationRecorder'
 import styles from './LessonPage.module.css'
 
 function LessonPage() {
@@ -156,6 +158,12 @@ function LessonPage() {
         >
           ✏️ Упражнения
         </button>
+        <button
+          className={`${styles.tab} ${activeTab === 'pronunciation' ? styles.activeTab : ''}`}
+          onClick={() => setActiveTab('pronunciation')}
+        >
+          🎙️ Произношение
+        </button>
       </div>
 
       <main className={styles.main}>
@@ -200,6 +208,16 @@ function LessonPage() {
         {activeTab === 'reading' && lesson.readingText && (
           <div className={styles.readingSection}>
             <h2 className={styles.sectionTitle}>{lesson.readingText.title}</h2>
+
+            {/* Аудио для текста */}
+            {lesson.readingText.audioUrl && (
+              <AudioPlayer
+                audioUrl={lesson.readingText.audioUrl}
+                text={lesson.readingText.content}
+                subtitles={lesson.readingText.subtitles || []}
+              />
+            )}
+
             <div className={styles.readingContent}>
               <div className={styles.spanishText}>
                 {lesson.readingText.content.split('\n').map((paragraph, index) => (
@@ -215,6 +233,30 @@ function LessonPage() {
                 </div>
               )}
             </div>
+          </div>
+        )}
+
+        {activeTab === 'pronunciation' && (
+          <div className={styles.pronunciationSection}>
+            <h2 className={styles.sectionTitle}>Практика произношения</h2>
+            <p className={styles.pronunciationDescription}>
+              Прочитайте текст вслух и запишите свое произношение. Сравните с оригиналом.
+            </p>
+
+            {lesson.readingText && (
+              <PronunciationRecorder text={lesson.readingText.content} />
+            )}
+
+            {lesson.grammar?.examples && lesson.grammar.examples.length > 0 && (
+              <div className={styles.examplesPronunciation}>
+                <h3 className={styles.subsectionTitle}>Примеры для практики:</h3>
+                {lesson.grammar.examples.map((example, index) => (
+                  <div key={index} className={styles.pronunciationExample}>
+                    <PronunciationRecorder text={example.spanish} />
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 

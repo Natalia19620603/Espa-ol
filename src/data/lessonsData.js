@@ -288,7 +288,14 @@ Por las tardes, trabajo en una cafetería. Hablo con los clientes y preparo bebi
 Por las noches, regreso a casa y cocino la cena. Después, estudio un poco más o miro una película. Los fines de semana, bailamos salsa con amigos. Me encanta bailar y escuchar música latina.
 
 La vida de estudiante es ocupada pero muy interesante. Aprendo algo nuevo cada día y conozco personas de diferentes países. En la universidad hablamos español, inglés y a veces francés.`,
-      translation: 'Меня зовут Ана и я студентка. Каждый день я встаю в семь утра. Завтракаю кофе с тостами и потом иду пешком до университета. Я изучаю испанскую литературу и мне это очень нравится...'
+      translation: 'Меня зовут Ана и я студентка. Каждый день я встаю в семь утра. Завтракаю кофе с тостами и потом иду пешком до университета. Я изучаю испанскую литературу и мне это очень нравится...',
+      audioUrl: '/audio/lesson-2-1-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Me llamo Ana y soy estudiante.' },
+        { start: 5, end: 10, text: 'Todos los días me levanto a las siete de la mañana.' },
+        { start: 10, end: 15, text: 'Desayuno café con tostadas y después camino hasta la universidad.' },
+        { start: 15, end: 20, text: 'Estudio literatura española y me gusta mucho.' }
+      ]
     },
     exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err']
   },
