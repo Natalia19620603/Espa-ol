@@ -1224,6 +1224,406 @@ Para mí, España es el país más diverso de Europa. Tiene playas mejores que I
       translation: 'Испания - одна из самых посещаемых стран в мире, и нетрудно понять почему...'
     },
     exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-3', 'ex-5-3-4', 'ex-5-3-5']
+  },
+
+  // МОДУЛЬ 6: Будущее время (A2)
+  'lesson-6-1': {
+    id: 'lesson-6-1',
+    title: 'Урок 1: Futuro simple',
+    moduleId: 'module-6',
+    grammar: {
+      title: 'Futuro simple (Простое будущее время)',
+      content: `
+# Futuro simple
+
+## Образование:
+**Инфинитив + окончания**
+
+| Лицо | Окончание | Hablar | Comer | Vivir |
+|------|-----------|--------|-------|-------|
+| yo | -é | hablaré | comeré | viviré |
+| tú | -ás | hablarás | comerás | vivirás |
+| él/ella/usted | -á | hablará | comerá | vivirá |
+| nosotros/as | -emos | hablaremos | comeremos | viviremos |
+| vosotros/as | -éis | hablaréis | comeréis | viviréis |
+| ellos/ellas/ustedes | -án | hablarán | comerán | vivirán |
+
+## Неправильные основы (те же, что в condicional):
+
+| Инфинитив | Основа | Пример |
+|-----------|--------|--------|
+| hacer | har- | haré, harás, hará... |
+| decir | dir- | diré, dirás, dirá... |
+| poder | podr- | podré, podrás, podrá... |
+| poner | pondr- | pondré, pondrás, pondrá... |
+| salir | saldr- | saldré, saldrás, saldrá... |
+| tener | tendr- | tendré, tendrás, tendrá... |
+| venir | vendr- | vendré, vendrás, vendrá... |
+| saber | sabr- | sabré, sabrás, sabrá... |
+| querer | querr- | querré, querrás, querrá... |
+| haber | habr- | habré, habrás, habrá... |
+
+## Употребление:
+
+1. **Предсказания о будущем:**
+   - Mañana **lloverá** (Завтра будет дождь)
+   - El año que viene **viajaré** a España (В следующем году я поеду в Испанию)
+
+2. **Планы и намерения:**
+   - **Estudiaré** medicina (Я буду изучать медицину)
+   - **Nos mudaremos** a Barcelona (Мы переедем в Барселону)
+
+3. **Предположения о настоящем:**
+   - **Serán** las tres (Наверное, три часа)
+   - **Estará** en casa (Он, должно быть, дома)
+
+## Слова-маркеры:
+
+- **mañana** (завтра)
+- **pasado mañana** (послезавтра)
+- **la semana que viene / próxima** (на следующей неделе)
+- **el mes que viene / próximo** (в следующем месяце)
+- **el año que viene / próximo** (в следующем году)
+- **en el futuro** (в будущем)
+- **dentro de...** (через...) - dentro de dos días (через два дня)
+- **pronto** (скоро)
+
+## IR + A + инфинитив (альтернатива):
+
+Для ближайшего будущего часто используется конструкция IR + A + инфинитив:
+- **Voy a estudiar** (Я буду учиться)
+- **Vas a viajar** (Ты поедешь)
+- **Van a comer** (Они будут есть)
+
+Futuro simple более формально и используется для более отдаленного будущего.
+      `,
+      examples: [
+        { spanish: 'Mañana iré al médico', translation: 'Завтра я пойду к врачу' },
+        { spanish: 'El próximo año estudiaré en España', translation: 'В следующем году я буду учиться в Испании' },
+        { spanish: 'Haremos un viaje a Italia', translation: 'Мы совершим поездку в Италию' },
+        { spanish: '¿Qué harás este fin de semana?', translation: 'Что ты будешь делать в эти выходные?' }
+      ]
+    },
+    vocabulary: [
+      { word: 'mañana', translation: 'завтра', audioUrl: null },
+      { word: 'pasado mañana', translation: 'послезавтра', audioUrl: null },
+      { word: 'próximo/a', translation: 'следующий/ая', audioUrl: null },
+      { word: 'futuro', translation: 'будущее', audioUrl: null },
+      { word: 'plan', translation: 'план', audioUrl: null },
+      { word: 'sueño', translation: 'мечта', audioUrl: null },
+      { word: 'meta', translation: 'цель', audioUrl: null },
+      { word: 'esperar', translation: 'ждать, надеяться', audioUrl: null },
+      { word: 'lograr', translation: 'достигать', audioUrl: null },
+      { word: 'conseguir', translation: 'получать, добиваться', audioUrl: null },
+      { word: 'cambiar', translation: 'менять', audioUrl: null },
+      { word: 'mejorar', translation: 'улучшать', audioUrl: null },
+      { word: 'realizar', translation: 'осуществлять', audioUrl: null },
+      { word: 'cumplir', translation: 'выполнять, исполняться', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mis planes para el futuro',
+      content: `Me llamo Andrea y tengo 22 años. Acabo de terminar la universidad y ahora estoy pensando en mis planes para el futuro. Tengo muchos sueños y metas que quiero cumplir.
+
+El mes que viene empezaré a trabajar en una empresa de marketing digital en Madrid. Será mi primer trabajo profesional y estoy muy emocionada, aunque también un poco nerviosa. Trabajaré como asistente de marketing, pero espero que con el tiempo podré ascender a puestos más altos. Aprenderé mucho sobre redes sociales, publicidad digital y estrategias de contenido.
+
+Este trabajo me permitirá independizarme económicamente. Dentro de tres meses me mudaré a mi propio apartamento. Ahora vivo con mis padres, pero llegó el momento de tener mi propio espacio. Será un apartamento pequeño en el barrio de Malasaña, cerca de mi oficina. No tendré que tomar el metro - podré ir andando en quince minutos.
+
+En cuanto al dinero, ahorraré una parte de mi salario cada mes. Tengo un plan: dentro de dos años tendré suficiente dinero para viajar por Sudamérica durante tres meses. Siempre he soñado con conocer Argentina, Chile, Perú y Colombia. Visitaré Machu Picchu, bailaré tango en Buenos Aires, exploraré la Patagonia y haré senderismo en los Andes. Será el viaje de mi vida.
+
+Después de ese viaje, volveré a España y buscaré nuevas oportunidades profesionales. Tal vez haré un máster en marketing internacional, o quizás me mudaré a Barcelona para trabajar allí. También pienso aprender portugués - será muy útil si quiero trabajar con clientes latinoamericanos.
+
+En cinco años me veo como gerente de marketing en una empresa importante. Hablaré inglés, español y portugués con fluidez. Habré viajado por muchos países y tendré experiencia internacional. Quizás incluso viviré en otro país - me encantaría trabajar unos años en Londres o Berlín.
+
+En el plano personal, no tengo prisa por casarme o tener hijos. Primero quiero enfocarme en mi carrera y en realizarme profesionalmente. Pero quien sabe - tal vez en diez años estaré casada y tendré una familia. Lo que sí sé es que no dejaré de viajar y aprender cosas nuevas.
+
+También tengo planes más pequeños pero importantes. Haré ejercicio regularmente - iré al gimnasio tres veces por semana. Leeré al menos un libro al mes. Mantendré el contacto con mis amigos de la universidad aunque todos estaremos ocupados con nuestros trabajos. Visitaré a mis padres los domingos y seguiré siendo una buena hija.
+
+El futuro me da un poco de miedo, pero sobre todo me emociona. Sé que habrá desafíos y momentos difíciles, pero confío en que podré superarlos. Trabajaré duro, aprenderé de mis errores y nunca dejaré de perseguir mis sueños. El futuro está lleno de posibilidades y estoy lista para aprovech arlas.`,
+      translation: 'Меня зовут Андреа и мне 22 года. Я только что закончила университет и сейчас думаю о своих планах на будущее...'
+    },
+    exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
+  },
+
+  'lesson-6-2': {
+    id: 'lesson-6-2',
+    title: 'Урок 2: Планы и намерения',
+    moduleId: 'module-6',
+    grammar: {
+      title: 'IR + A + инфинитив vs Futuro simple',
+      content: `
+# IR + A + infinitivo (Ближайшее будущее)
+
+## Образование:
+**IR (настоящее время) + A + инфинитив**
+
+| Лицо | IR | Пример |
+|------|----|--------|
+| yo | voy | voy a estudiar |
+| tú | vas | vas a comer |
+| él/ella/usted | va | va a viajar |
+| nosotros/as | vamos | vamos a salir |
+| vosotros/as | vais | vais a trabajar |
+| ellos/ellas/ustedes | van | van a vivir |
+
+## Употребление IR + A + инфинитив:
+
+1. **Ближайшие планы:**
+   - **Voy a comer** ahora (Я сейчас буду есть)
+   - Esta tarde **vamos a ver** una película (Сегодня вечером мы посмотрим фильм)
+
+2. **Намерения:**
+   - **Voy a estudiar** medicina (Я буду изучать медицину)
+   - **Van a casarse** el año que viene (Они поженятся в следующем году)
+
+3. **Очевидное будущее:**
+   - ¡Cuidado! **Vas a caer** (Осторожно! Ты упадешь)
+   - Mira esas nubes - **va a llover** (Посмотри на эти тучи - будет дождь)
+
+## Разница: IR + A vs Futuro simple
+
+**IR + A + infinitivo:**
+- Более разговорное
+- Ближайшее будущее
+- Четкие планы и намерения
+- **Voy a comprar** un coche (Я собираюсь купить машину)
+
+**Futuro simple:**
+- Более формальное
+- Отдаленное будущее
+- Предсказания
+- **Compraré** un coche algún día (Я куплю машину когда-нибудь)
+
+## Выражение намерений и желаний:
+
+**PENSAR + инфинитив** (думать, планировать):
+- **Pienso** viajar a Italia (Я планирую поехать в Италию)
+
+**QUERER + инфинитив** (хотеть):
+- **Quiero** aprender español (Я хочу выучить испанский)
+
+**ESPERAR + инфинитив** (надеяться):
+- **Espero** conseguir un buen trabajo (Я надеюсь получить хорошую работу)
+
+**TENER LA INTENCIÓN DE + инфинитив** (иметь намерение):
+- **Tengo la intención de** mudarme (Я намереваюсь переехать)
+
+**DESEAR + инфинитив** (желать):
+- **Deseo** mejorar mi vida (Я желаю улучшить свою жизнь)
+
+## Вопросы о планах:
+
+- **¿Qué vas a hacer...?** - Что ты собираешься делать...?
+- **¿Qué harás...?** - Что ты будешь делать...?
+- **¿Tienes planes para...?** - У тебя есть планы на...?
+- **¿Qué piensas hacer...?** - Что ты думаешь делать...?
+      `,
+      examples: [
+        { spanish: 'Voy a estudiar esta noche', translation: 'Я буду учиться сегодня вечером' },
+        { spanish: '¿Qué vas a hacer mañana?', translation: 'Что ты будешь делать завтра?' },
+        { spanish: 'Pienso mudarme a Barcelona', translation: 'Я планирую переехать в Барселону' },
+        { spanish: 'Espero conseguir un buen trabajo', translation: 'Я надеюсь получить хорошую работу' }
+      ]
+    },
+    vocabulary: [
+      { word: 'proyecto', translation: 'проект', audioUrl: null },
+      { word: 'objetivo', translation: 'цель, задача', audioUrl: null },
+      { word: 'intención', translation: 'намерение', audioUrl: null },
+      { word: 'propósito', translation: 'цель, намерение', audioUrl: null },
+      { word: 'decisión', translation: 'решение', audioUrl: null },
+      { word: 'carrera', translation: 'карьера', audioUrl: null },
+      { word: 'éxito', translation: 'успех', audioUrl: null },
+      { word: 'fracaso', translation: 'неудача', audioUrl: null },
+      { word: 'oportunidad', translation: 'возможность', audioUrl: null },
+      { word: 'desafío', translation: 'вызов, проблема', audioUrl: null },
+      { word: 'mudanza', translation: 'переезд', audioUrl: null },
+      { word: 'cambio', translation: 'изменение', audioUrl: null },
+      { word: 'empezar', translation: 'начинать', audioUrl: null },
+      { word: 'terminar', translation: 'заканчивать', audioUrl: null }
+    },
+    readingText: {
+      title: '¿Qué vamos a hacer este fin de semana?',
+      content: `Es jueves por la noche y mis amigos y yo estamos planeando el fin de semana. Todos tenemos ideas diferentes sobre qué vamos a hacer.
+
+María dice: "Yo voy a quedarme en casa el sábado por la mañana. Tengo que limpiar mi apartamento porque está muy desordenado. Después, por la tarde, voy a ir de compras. Necesito ropa nueva para mi entrevista de trabajo del lunes. Espero encontrar algo bonito y profesional en las rebajas."
+
+Carlos tiene otros planes: "Yo pienso ir a la playa el sábado si hace buen tiempo. El pronóstico dice que va a hacer sol y 28 grados. Voy a salir temprano, sobre las ocho de la mañana, para evitar el tráfico. ¿Alguien quiere venir conmigo? Va a ser un día perfecto para nadar y tomar el sol."
+
+"Yo no puedo", dice Laura. "El sábado voy a ayudar a mi hermano con su mudanza. Se va a mudar a un apartamento nuevo y necesita ayuda con los muebles. Vamos a empezar a las nueve y probablemente terminaremos por la tarde. Va a ser un día agotador, pero mi hermano me va a invitar a cenar después como agradecimiento."
+
+Miguel interrumpe: "¿Y qué vamos a hacer el sábado por la noche? Pienso organizar una cena en mi casa. Voy a cocinar mi especialidad - paella valenciana. ¿Os apetece venir? Vamos a ser unos ocho personas. Va a ser muy divertido."
+
+"¡Me encantaría!" responde María. "Pero primero tengo que terminar mis compras. ¿A qué hora va a ser la cena?"
+
+"Vamos a empezar sobre las nueve", dice Miguel. "Así todos tendrán tiempo de hacer sus cosas durante el día. Voy a comprar los ingredientes el sábado por la mañana en el mercado. Necesito arroz, mariscos, pollo, verduras... Va a ser una paella auténtica."
+
+Laura pregunta: "¿Necesitas ayuda para cocinar? Puedo llegar temprano si quieres. Voy a terminar con la mudanza sobre las seis."
+
+"Sería genial", dice Miguel. "Vamos a preparar todo juntos. También voy a hacer una sangría. Va a ser una cena memorable."
+
+Carlos añade: "Yo voy a traer el postre. Pasaré por la mejor pastelería de la ciudad. Voy a comprar una tarta de chocolate. ¿Os parece bien?"
+
+"Perfecto", dice Miguel. "¿Y el domingo? ¿Qué vamos a hacer?"
+
+"El domingo por la mañana voy a dormir hasta tarde", dice Laura riendo. "Después de la mudanza del sábado voy a estar agotada. No pienso levantarme antes de las once."
+
+María sugiere: "¿Qué tal si vamos a almorzar juntos el domingo? Conozco un restaurante nuevo que quiero probar. Dicen que van a abrir un buffet los domingos. Vamos a poder comer todo lo que queramos por un precio fijo."
+
+"Buena idea", dice Carlos. "Después del almuerzo podríamos ir al cine. Van a estrenar una película nueva que quiero ver. Tengo la intención de ver todas las películas nominadas a los Oscar este año."
+
+Miguel concluye: "Entonces está decidido. El sábado cada uno va a hacer sus cosas durante el día, por la noche vamos a cenar en mi casa, y el domingo vamos a almorzar juntos y luego iremos al cine. Va a ser un fin de semana fantástico."
+
+Todos estamos de acuerdo. Ya tenemos planes para el fin de semana. Ahora solo queda esperar a que llegue el sábado. Va a ser genial pasar tiempo juntos.`,
+      translation: 'Сейчас вечер четверга, и мы с друзьями планируем выходные. У всех разные идеи о том, что мы будем делать...'
+    },
+    exercises: ['ex-6-2-1', 'ex-6-2-2', 'ex-6-2-3', 'ex-6-2-4', 'ex-6-2-5']
+  },
+
+  'lesson-6-3': {
+    id: 'lesson-6-3',
+    title: 'Урок 3: Предсказания и прогнозы',
+    moduleId: 'module-6',
+    grammar: {
+      title: 'Futuro для предположений',
+      content: `
+# Futuro для предположений о настоящем и будущем
+
+## Предположения о настоящем:
+
+Futuro simple часто используется для предположений о том, что происходит СЕЙЧАС:
+
+**¿Qué hora es?** - Который час?
+- **Serán** las tres (Наверное, три часа)
+
+**¿Dónde está Juan?** - Где Хуан?
+- **Estará** en casa (Он, должно быть, дома)
+
+**¿Quién llamó?** - Кто звонил?
+- **Será** mi madre (Это, наверное, моя мама)
+
+**¿Cuántos años tiene?** - Сколько ему лет?
+- **Tendrá** unos 30 años (Ему, должно быть, около 30)
+
+## Структура:
+
+**Futuro simple = "наверное", "должно быть", "вероятно"**
+
+- **Habrá** mucha gente (Наверное, много людей)
+- **Costará** caro (Это, должно быть, дорого стоит)
+- **Sabrá** la respuesta (Он, должно быть, знает ответ)
+
+## Предсказания о будущем:
+
+**Основанные на фактах:**
+- Según el pronóstico, mañana **lloverá** (По прогнозу, завтра будет дождь)
+- Con esta política económica, la inflación **aumentará** (С этой экономической политикой инфляция вырастет)
+
+**Предсказания-мнения:**
+- En 20 años **habrá** coches voladores (Через 20 лет будут летающие машины)
+- La tecnología **cambiará** nuestras vidas (Технология изменит наши жизни)
+- **Viviremos** más tiempo gracias a la medicina (Мы будем жить дольше благодаря медицине)
+
+## Вероятность (PROBABLEMENTE, SEGURAMENTE, POSIBLEMENTE):
+
+**PROBABLEMENTE + futuro** (вероятно):
+- **Probablemente** lloverá mañana
+- **Probablemente** no vendrá
+
+**SEGURAMENTE + futuro** (наверняка):
+- **Seguramente** aprobará el examen
+- **Seguramente** llegará tarde
+
+**POSIBLEMENTE + subjuntivo** (возможно):
+- **Posiblemente** venga (Возможно, он придет)
+
+**QUIZÁ(S) / TAL VEZ + futuro/subjuntivo** (может быть):
+- **Quizás** viajaré a España
+- **Tal vez** llueva
+
+## Условные предложения (SI + presente, futuro):
+
+- **Si** tengo tiempo, **iré** al cine (Если у меня будет время, я пойду в кино)
+- **Si** estudias, **aprobarás** (Если ты будешь учиться, ты сдашь)
+- **Si** hace buen tiempo, **iremos** a la playa (Если будет хорошая погода, мы пойдем на пляж)
+
+## Выражения будущего:
+
+- **En el futuro** (в будущем)
+- **Dentro de X años** (через X лет)
+- **En X años** (через X лет)
+- **Para el año 2050** (к 2050 году)
+- **Tarde o temprano** (рано или поздно)
+- **Con el tiempo** (со временем)
+- **A largo plazo** (в долгосрочной перспективе)
+      `,
+      examples: [
+        { spanish: '¿Dónde está María? - Estará en casa', translation: 'Где Мария? - Она, должно быть, дома' },
+        { spanish: 'Según el pronóstico, mañana lloverá', translation: 'По прогнозу, завтра будет дождь' },
+        { spanish: 'Si estudias, aprobarás el examen', translation: 'Если ты будешь учиться, ты сдашь экзамен' },
+        { spanish: 'En el futuro viviremos más años', translation: 'В будущем мы будем жить дольше' }
+      ]
+    },
+    vocabulary: [
+      { word: 'predicción', translation: 'предсказание', audioUrl: null },
+      { word: 'pronóstico', translation: 'прогноз', audioUrl: null },
+      { word: 'probable', translation: 'вероятный', audioUrl: null },
+      { word: 'posible', translation: 'возможный', audioUrl: null },
+      { word: 'seguro', translation: 'уверенный, точный', audioUrl: null },
+      { word: 'tecnología', translation: 'технология', audioUrl: null },
+      { word: 'ciencia', translation: 'наука', audioUrl: null },
+      { word: 'avance', translation: 'прогресс, достижение', audioUrl: null },
+      { word: 'desarrollo', translation: 'развитие', audioUrl: null },
+      { word: 'innovación', translation: 'инновация', audioUrl: null },
+      { word: 'clima', translation: 'климат', audioUrl: null },
+      { word: 'medio ambiente', translation: 'окружающая среда', audioUrl: null },
+      { word: 'cambio climático', translation: 'изменение климата', audioUrl: null },
+      { word: 'sociedad', translation: 'общество', audioUrl: null }
+    },
+    readingText: {
+      title: 'El mundo en 2050',
+      content: `¿Cómo será el mundo en 2050? Los expertos hacen muchas predicciones sobre cómo viviremos dentro de 25 años. Algunas son optimistas, otras preocupantes. Veamos qué cambios probablemente veremos.
+
+**Tecnología y vida diaria**
+
+La tecnología cambiará radicalmente nuestra vida cotidiana. Según los expertos, la inteligencia artificial estará presente en todos los aspectos de nuestra vida. Tendremos asistentes virtuales mucho más avanzados que los actuales. Estos asistentes sabrán nuestras preferencias, anticiparán nuestras necesidades y nos ayudarán a tomar decisiones.
+
+Los coches autónomos serán la norma. No necesitaremos conducir - el coche nos llevará a donde queramos mientras nosotros trabajamos, leemos o descansamos. Probablemente tampoco tendremos que comprar coches. Simplemente llamaremos a un vehículo cuando lo necesitemos.
+
+En nuestras casas, todo estará conectado a internet. La nevera sabrá qué alimentos faltan y los pedirá automáticamente. Las luces, la calefacción y los electrodomésticos se ajustarán solos según nuestras rutinas. Viviremos en casas inteligentes que casi pensarán por sí mismas.
+
+**Trabajo y educación**
+
+La forma en que trabajamos cambiará completamente. Muchas profesiones que existen hoy desaparecerán, reemplazadas por robots e inteligencia artificial. Pero también surgirán nuevos trabajos que ahora ni siquiera podemos imaginar.
+
+El trabajo remoto será completamente normal. Muchas personas no tendrán una oficina fija - trabajarán desde casa, desde cafeterías o mientras viajan. Las reuniones se harán en realidad virtual, donde parecerá que todos están en la misma sala aunque estén en países diferentes.
+
+La educación también será muy diferente. Probablemente las universidades tradicionales perderán importancia. Estudiaremos online, a nuestro propio ritmo, con programas personalizados según nuestros intereses y habilidades. La realidad virtual nos permitirá hacer prácticas en entornos simulados antes de trabajar en situaciones reales.
+
+**Salud y medicina**
+
+La medicina tendrá avances increíbles. Según los científicos, viviremos más años - la esperanza de vida llegará a los 90 o 100 años en muchos países. Algunas enfermedades que hoy son mortales se curarán fácilmente.
+
+Tendremos medicina personalizada. Los doctores analizarán nuestro ADN y sabrán exactamente qué tratamientos funcionarán mejor para cada persona. Los sensores que llevaremos en el cuerpo monitorearán constantemente nuestra salud y detectarán problemas antes de que aparezcan síntomas.
+
+Posiblemente habrá órganos artificiales para reemplazar los que fallen. Quizás incluso podremos imprimir órganos en 3D usando nuestras propias células. Esto resolverá el problema de la falta de donantes.
+
+**Medio ambiente y energía**
+
+Esta es el área más preocupante. Si no hacemos cambios ahora, el cambio climático empeorará. Las temperaturas subirán, habrá más sequías e inundaciones, y muchas especies se extinguirán.
+
+Pero también hay esperanza. Probablemente usaremos energías renovables de forma masiva. Los paneles solares serán mucho más eficientes y baratos. Tal vez tengamos fusión nuclear, una fuente de energía limpia y prácticamente ilimitada.
+
+Los coches eléctricos reemplazarán completamente a los de gasolina. Las ciudades tendrán menos contaminación y el aire será más limpio. Posiblemente cultivaremos comida en edificios verticales dentro de las ciudades, usando menos agua y tierra.
+
+**Población y sociedad**
+
+La población mundial llegará a unos 9.000 millones de personas. La mayoría vivirá en ciudades - habrá megaciudades de 30 o 40 millones de habitantes. Estas ciudades tendrán que ser muy eficientes en el uso de recursos.
+
+La sociedad será más diversa y conectada globalmente. Viajar será más fácil y barato. Quizás tengamos vuelos supersónicos que crucen el Atlántico en dos horas. Algunos predicen que habrá colonias en Marte, aunque probablemente serán muy pequeñas.
+
+¿Se cumplirán estas predicciones? Nadie lo sabe con certeza. El futuro dependerá de las decisiones que tomemos hoy. Pero una cosa es segura: el mundo de 2050 será muy diferente al de hoy.`,
+      translation: 'Каким будет мир в 2050 году? Эксперты делают много предсказаний о том, как мы будем жить через 25 лет...'
+    },
+    exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
   }
 }
 
@@ -1999,6 +2399,198 @@ María: Muy bien, gracias.
       { russian: 'Самый знаменитый памятник', correct: 'el monumento más famoso' },
       { russian: 'Такой же интересный как', correct: 'tan interesante como' },
       { russian: 'Лучший отель города', correct: 'el mejor hotel de la ciudad' }
+    ]
+  },
+
+  // МОДУЛЬ 6: Будущее время
+  'ex-6-1-1': {
+    id: 'ex-6-1-1',
+    type: 'grammar',
+    title: 'Futuro simple - правильные глаголы',
+    description: 'Выберите правильную форму будущего времени',
+    questions: [
+      { sentence: 'Mañana yo ___ (estudiar) para el examen', options: ['estudiaré', 'estudiarás', 'estudiará', 'estudiarán'], correct: 0 },
+      { sentence: 'Tú ___ (comer) paella en España', options: ['comeré', 'comerás', 'comerá', 'comeremos'], correct: 1 },
+      { sentence: 'Nosotros ___ (vivir) en Barcelona', options: ['viviré', 'vivirás', 'vivirá', 'viviremos'], correct: 3 },
+      { sentence: 'Ellos ___ (viajar) a Italia', options: ['viajaré', 'viajarás', 'viajará', 'viajarán'], correct: 3 },
+      { sentence: 'Ella ___ (hablar) español perfectamente', options: ['hablaré', 'hablarás', 'hablará', 'hablarán'], correct: 2 }
+    ]
+  },
+  'ex-6-1-2': {
+    id: 'ex-6-1-2',
+    type: 'grammar',
+    title: 'Futuro simple - неправильные глаголы',
+    description: 'Выберите правильную неправильную форму',
+    questions: [
+      { sentence: 'Yo ___ (hacer) la tarea mañana', options: ['haceré', 'haré', 'hacré', 'haciré'], correct: 1 },
+      { sentence: 'Tú ___ (tener) que estudiar', options: ['tendrás', 'tenerás', 'tenirás', 'tenarás'], correct: 0 },
+      { sentence: 'Nosotros ___ (poder) ir al cine', options: ['poderemos', 'podremos', 'poderamos', 'podiremos'], correct: 1 },
+      { sentence: 'Ellos ___ (venir) a la fiesta', options: ['venirán', 'venerán', 'vendrán', 'venarán'], correct: 2 },
+      { sentence: '¿___ (saber-tú) la respuesta?', options: ['saberás', 'sabrás', 'sabirás', 'sabarás'], correct: 1 }
+    ]
+  },
+  'ex-6-1-3': {
+    id: 'ex-6-1-3',
+    type: 'vocabulary',
+    title: 'Expresiones de futuro',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'mañana', options: ['вчера', 'завтра', 'сегодня', 'сейчас'], correct: 1 },
+      { spanish: 'pasado mañana', options: ['позавчера', 'послезавтра', 'вчера', 'завтра'], correct: 1 },
+      { spanish: 'la semana que viene', options: ['на прошлой неделе', 'на следующей неделе', 'на этой неделе', 'каждую неделю'], correct: 1 },
+      { spanish: 'dentro de dos días', options: ['два дня назад', 'через два дня', 'два дня', 'в течение двух дней'], correct: 1 },
+      { spanish: 'pronto', options: ['поздно', 'рано', 'скоро', 'медленно'], correct: 2 }
+    ]
+  },
+  'ex-6-1-4': {
+    id: 'ex-6-1-4',
+    type: 'fillblank',
+    title: 'Планы на будущее',
+    description: 'Вставьте правильную форму futuro',
+    questions: [
+      { sentence: 'El año que viene _____ (viajar) a España', verb: 'viajar', correct: 'viajaré' },
+      { sentence: 'Nosotros _____ (estudiar) medicina', verb: 'estudiar', correct: 'estudiaremos' },
+      { sentence: 'Ellos _____ (hacer) un proyecto', verb: 'hacer', correct: 'harán' },
+      { sentence: '¿Qué _____ (hacer-tú) mañana?', verb: 'hacer', correct: 'harás' }
+    ]
+  },
+  'ex-6-1-5': {
+    id: 'ex-6-1-5',
+    type: 'writing',
+    title: 'Futuro simple',
+    description: 'Переведите на испанский (futuro simple)',
+    questions: [
+      { russian: 'Завтра я буду учиться', correct: 'mañana estudiaré' },
+      { russian: 'Мы поедем в Испанию', correct: 'iremos a España' },
+      { russian: 'Она будет жить в Мадриде', correct: 'vivirá en Madrid' },
+      { russian: 'Они сделают работу', correct: 'harán el trabajo' }
+    ]
+  },
+
+  'ex-6-2-1': {
+    id: 'ex-6-2-1',
+    type: 'grammar',
+    title: 'IR + A + инфинитив',
+    description: 'Выберите правильную форму IR',
+    questions: [
+      { sentence: 'Yo ___ a estudiar esta noche', options: ['voy', 'vas', 'va', 'vamos'], correct: 0 },
+      { sentence: 'Tú ___ a comer paella', options: ['voy', 'vas', 'va', 'van'], correct: 1 },
+      { sentence: 'Nosotros ___ a viajar mañana', options: ['voy', 'vas', 'va', 'vamos'], correct: 3 },
+      { sentence: 'Ellos ___ a trabajar aquí', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
+      { sentence: '¿Qué ___ a hacer tú?', options: ['voy', 'vas', 'va', 'van'], correct: 1 }
+    ]
+  },
+  'ex-6-2-2': {
+    id: 'ex-6-2-2',
+    type: 'vocabulary',
+    title: 'Планы и намерения',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'proyecto', options: ['проблема', 'проект', 'процесс', 'продукт'], correct: 1 },
+      { spanish: 'objetivo', options: ['объект', 'цель', 'причина', 'результат'], correct: 1 },
+      { spanish: 'intención', options: ['внимание', 'намерение', 'интерес', 'инвенция'], correct: 1 },
+      { spanish: 'éxito', options: ['выход', 'успех', 'вход', 'экзамен'], correct: 1 },
+      { spanish: 'carrera', options: ['карета', 'карьера', 'каре', 'корзина'], correct: 1 }
+    ]
+  },
+  'ex-6-2-3': {
+    id: 'ex-6-2-3',
+    type: 'grammar',
+    title: 'Выражение намерений',
+    description: 'Выберите правильный глагол намерения',
+    questions: [
+      { sentence: '___ mudarme a Barcelona (планирую)', options: ['Pienso', 'Quiero', 'Espero', 'Deseo'], correct: 0 },
+      { sentence: '___ aprender español (хочу)', options: ['Pienso', 'Quiero', 'Espero', 'Tengo'], correct: 1 },
+      { sentence: '___ conseguir un buen trabajo (надеюсь)', options: ['Pienso', 'Quiero', 'Espero', 'Deseo'], correct: 2 },
+      { sentence: '___ la intención de viajar (имею намерение)', options: ['Pienso', 'Quiero', 'Espero', 'Tengo'], correct: 3 }
+    ]
+  },
+  'ex-6-2-4': {
+    id: 'ex-6-2-4',
+    type: 'reading',
+    title: 'Чтение: Планы на выходные',
+    description: 'Ответьте на вопросы',
+    text: 'Es jueves y estamos planeando el fin de semana. María va a quedarse en casa el sábado. Carlos piensa ir a la playa. Laura va a ayudar con una mudanza. Miguel va a organizar una cena. Vamos a comer paella.',
+    questions: [
+      { question: 'Что будет делать Мария в субботу?', options: ['Поедет на пляж', 'Останется дома', 'Поможет с переездом', 'Организует ужин'], correct: 1 },
+      { question: 'Куда планирует пойти Карлос?', options: ['В кино', 'На пляж', 'В ресторан', 'Домой'], correct: 1 },
+      { question: 'Чем займется Лаура?', options: ['Шопингом', 'Готовкой', 'Переездом', 'Уборкой'], correct: 2 },
+      { question: 'Что приготовит Мигель?', options: ['Пиццу', 'Пасту', 'Паэлью', 'Салат'], correct: 2 }
+    ]
+  },
+  'ex-6-2-5': {
+    id: 'ex-6-2-5',
+    type: 'writing',
+    title: 'IR + A',
+    description: 'Переведите используя IR + A',
+    questions: [
+      { russian: 'Я собираюсь учиться', correct: 'voy a estudiar' },
+      { russian: 'Мы собираемся поехать на пляж', correct: 'vamos a ir a la playa' },
+      { russian: 'Она собирается готовить', correct: 'va a cocinar' },
+      { russian: 'Что ты собираешься делать?', correct: 'qué vas a hacer' }
+    ]
+  },
+
+  'ex-6-3-1': {
+    id: 'ex-6-3-1',
+    type: 'grammar',
+    title: 'Futuro для предположений',
+    description: 'Используйте futuro для предположения о настоящем',
+    questions: [
+      { sentence: '¿Qué hora es? - ___ las tres (наверное)', options: ['Son', 'Eran', 'Serán', 'Fueron'], correct: 2 },
+      { sentence: '¿Dónde está Juan? - ___ en casa (должно быть)', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
+      { sentence: '¿Cuántos años tiene? - ___ 30 años (около)', options: ['Tiene', 'Tenía', 'Tendrá', 'Tuvo'], correct: 2 },
+      { sentence: '¿Quién es? - ___ mi madre (наверное)', options: ['Es', 'Era', 'Será', 'Fue'], correct: 2 }
+    ]
+  },
+  'ex-6-3-2': {
+    id: 'ex-6-3-2',
+    type: 'vocabulary',
+    title: 'Будущее и технологии',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'predicción', options: ['предложение', 'предсказание', 'предположение', 'предпочтение'], correct: 1 },
+      { spanish: 'tecnología', options: ['техника', 'технология', 'текстиль', 'тема'], correct: 1 },
+      { spanish: 'desarrollo', options: 'развитие', 'развлечение', 'раздел', 'разделение'], correct: 0 },
+      { spanish: 'clima', options: ['климат', 'клиент', 'клинка', 'клиника'], correct: 0 },
+      { spanish: 'medio ambiente', options: ['средний возраст', 'окружающая среда', 'полдень', 'середина'], correct: 1 }
+    ]
+  },
+  'ex-6-3-3': {
+    id: 'ex-6-3-3',
+    type: 'grammar',
+    title: 'SI + presente, futuro',
+    description: 'Выберите правильную форму в условном предложении',
+    questions: [
+      { sentence: 'Si tengo tiempo, ___ al cine', options: ['voy', 'fui', 'iré', 'iría'], correct: 2 },
+      { sentence: 'Si estudias, ___ el examen', options: ['apruebas', 'aprobaste', 'aprobarás', 'aprobarías'], correct: 2 },
+      { sentence: 'Si hace buen tiempo, ___ a la playa', options: ['vamos', 'fuimos', 'iremos', 'iríamos'], correct: 2 },
+      { sentence: 'Si ella viene, ___ muy contentos', options: ['estamos', 'estuvimos', 'estaremos', 'estaríamos'], correct: 2 }
+    ]
+  },
+  'ex-6-3-4': {
+    id: 'ex-6-3-4',
+    type: 'reading',
+    title: 'Чтение: El mundo en 2050',
+    description: 'Ответьте на вопросы о предсказаниях',
+    text: 'En 2050 la tecnología cambiará nuestra vida. Tendremos coches autónomos. Viviremos más años gracias a la medicina. Los coches eléctricos reemplazarán a los de gasolina. La población llegará a 9.000 millones.',
+    questions: [
+      { question: 'Что изменит нашу жизнь?', options: ['Погода', 'Технология', 'Политика', 'Экономика'], correct: 1 },
+      { question: 'Какие машины будут?', options: ['Автономные', 'Быстрые', 'Большие', 'Маленькие'], correct: 0 },
+      { question: 'Какие машины заменят бензиновые?', options: ['Гибридные', 'Электрические', 'Дизельные', 'Водородные'], correct: 1 },
+      { question: 'Сколько будет население?', options: ['8 млрд', '9 млрд', '10 млрд', '11 млрд'], correct: 1 }
+    ]
+  },
+  'ex-6-3-5': {
+    id: 'ex-6-3-5',
+    type: 'writing',
+    title: 'Предсказания',
+    description: 'Переведите предсказания на испанский',
+    questions: [
+      { russian: 'Завтра будет дождь', correct: 'mañana lloverá' },
+      { russian: 'Мы будем жить дольше', correct: 'viviremos más tiempo' },
+      { russian: 'Технология изменит мир', correct: 'la tecnología cambiará el mundo' },
+      { russian: 'Если ты учишься, ты сдашь экзамен', correct: 'si estudias aprobarás el examen' }
     ]
   }
 }
