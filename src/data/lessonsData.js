@@ -2524,6 +2524,334 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
       translation: 'Сожаления и уроки. Роберто 65 лет, и он сидит в парке, размышляя о своей жизни...'
     },
     exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
+  },
+
+  // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
+
+  'lesson-9-1': {
+    id: 'lesson-9-1',
+    title: 'Урок 1: Испанская литература',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Обзор испанской литературы',
+      content: `
+# Historia de la literatura española
+
+Испанская литература - одна из богатейших литературных традиций мира.
+
+## 1. EDAD MEDIA - до XV века
+
+### Cantar de Mio Cid (XII век)
+Эпическая поэма о Сиде, национальном герое Испании.
+
+## 2. SIGLO DE ORO - XVI-XVII века
+
+### Miguel de Cervantes (1547-1616)
+**"Don Quijote de la Mancha"** - величайший роман всех времен.
+
+**Темы:** реальность vs воображение, идеализм, благородство.
+
+**Знаменитая цитата:**
+> "En un lugar de la Mancha, de cuyo nombre no quiero acordarme..."
+
+### Lope de Vega (1562-1635)
+Написал около 1500 пьес! **"Fuenteovejuna"** - драма о восстании.
+
+### Calderón de la Barca (1600-1681)
+**"La vida es sueño"** - философская драма.
+
+## 3. SIGLO XIX - Романтизм
+
+### Gustavo Adolfo Bécquer (1836-1870)
+**"Rimas y Leyendas"** - романтические стихи.
+
+## 4. GENERACIÓN DEL 27
+
+### Federico García Lorca (1898-1936)
+Величайший поэт XX века.
+
+**Произведения:**
+- **"Romancero gitano"**
+- **"Bodas de sangre"**
+- **"La casa de Bernarda Alba"**
+
+**Темы:** любовь, смерть, судьба, Андалусия.
+
+## 5. LITERATURA CONTEMPORÁNEA
+
+- Carlos Ruiz Zafón - **"La sombra del viento"**
+- Javier Marías - философская проза
+- Mario Vargas Llosa - Нобелевская премия 2010`,
+      examples: [
+        { spanish: 'Don Quijote es la obra más famosa de Cervantes', russian: 'Дон Кихот - самое знаменитое произведение Сервантеса' },
+        { spanish: 'Lorca fue uno de los mejores poetas del siglo XX', russian: 'Лорка был одним из лучших поэтов XX века' },
+        { spanish: 'Me encanta leer poesía en español', russian: 'Мне очень нравится читать поэзию на испанском' }
+      ]
+    },
+    vocabulary: [
+      { word: 'la literatura', translation: 'литература', audioUrl: null },
+      { word: 'el escritor', translation: 'писатель', audioUrl: null },
+      { word: 'el poeta', translation: 'поэт', audioUrl: null },
+      { word: 'la novela', translation: 'роман', audioUrl: null },
+      { word: 'el cuento', translation: 'рассказ', audioUrl: null },
+      { word: 'el poema', translation: 'стихотворение', audioUrl: null },
+      { word: 'la obra de teatro', translation: 'пьеса', audioUrl: null },
+      { word: 'el personaje', translation: 'персонаж', audioUrl: null },
+      { word: 'la trama', translation: 'сюжет', audioUrl: null },
+      { word: 'el tema', translation: 'тема', audioUrl: null },
+      { word: 'el símbolo', translation: 'символ', audioUrl: null },
+      { word: 'la metáfora', translation: 'метафора', audioUrl: null },
+      { word: 'el siglo', translation: 'век', audioUrl: null },
+      { word: 'la época', translation: 'эпоха', audioUrl: null },
+      { word: 'el Premio Nobel', translation: 'Нобелевская премия', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Don Quijote: El ingenioso hidalgo',
+      content: `Don Quijote de la Mancha es la obra más importante de la literatura española. Escrita por Miguel de Cervantes en dos partes (1605 y 1615), esta novela ha sido traducida a más idiomas que cualquier otro libro excepto la Biblia.
+
+La historia comienza con Alonso Quijano, un hidalgo que lee tantas novelas de caballerías que pierde la razón. Decide convertirse en caballero andante con el nombre de Don Quijote de la Mancha. Encuentra una vieja armadura, toma un caballo flaco llamado Rocinante, y escoge a Dulcinea del Toboso como su dama.
+
+Para su segunda salida, convence a Sancho Panza de ser su escudero. Sancho es todo lo contrario: bajo, gordo y práctico, mientras Don Quijote es alto, flaco e idealista. Juntos forman una de las parejas más famosas de la literatura.
+
+El episodio más famoso es la aventura de los molinos de viento. Don Quijote ve molinos y cree que son gigantes. Sancho intenta explicarle que son molinos, pero Don Quijote no escucha. Ataca con su lanza, el viento mueve las aspas y lo arroja al suelo. Don Quijote insiste en que un mago convirtió a los gigantes en molinos.
+
+Esta escena es perfecta para entender el mensaje. Don Quijote vive en fantasía: las ventas son castillos, las prostitutas son damas, los molinos son gigantes. Sancho representa la realidad, pero gradualmente también empieza a creer en las fantasías.
+
+En la segunda parte, Don Quijote y Sancho se vuelven famosos. Sancho finalmente gobierna una ínsula con sorprendente sabiduría. Pero el final es melancólico. Don Quijote regresa a casa derrotado. En su lecho de muerte, recupera la cordura y muere cuerdo. Todos lloran porque prefieren al loco idealista que al sensato Alonso Quijano.
+
+¿Cuál es el mensaje? Cervantes muestra el conflicto entre idealismo y realismo. Don Quijote es ridículo pero noble, valiente y generoso. Quiere hacer el bien y luchar contra la injusticia. ¿Es mejor vivir con nobles ideales aunque seamos llamados locos, o con los pies en la tierra sin grandes sueños?
+
+Hoy, "luchar contra molinos de viento" significa luchar contra enemigos imaginarios. Pero el libro nos enseña que vale la pena soñar y luchar por un mundo mejor. Como dijo Don Quijote: "Yo sé quién soy". La locura de soñar es, a veces, la única cordura verdadera.`,
+      translation: 'Дон Кихот: Хитроумный идальго. Дон Кихот - самое важное произведение испанской литературы...'
+    },
+    exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5']
+  },
+
+  'lesson-9-2': {
+    id: 'lesson-9-2',
+    title: 'Урок 2: Испанские традиции',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Культура и традиции Испании',
+      content: `
+# Tradiciones españolas
+
+## 1. FIESTAS PRINCIPALES
+
+### Las Fallas (Валенсия, март)
+Огромные скульптуры сжигаются в последнюю ночь.
+
+### Semana Santa (Страстная неделя)
+Религиозные процессии с платформами, особенно в Севилье.
+
+### San Fermín (Памплона, июль)
+Знаменитый **encierro** - бег быков по улицам.
+
+### La Tomatina (Буньол, август)
+Битва помидорами - 20,000 человек, 150 тонн помидоров!
+
+### Nochevieja (31 декабря)
+Традиция есть 12 виноградин под 12 ударов часов.
+
+### Reyes Magos (6 января)
+Три короля приносят подарки детям.
+
+## 2. FLAMENCO
+
+Андалузское искусство:
+- **Cante** (пение)
+- **Baile** (танец)
+- **Toque** (гитара)
+- **Duende** - магия исполнения
+
+## 3. GASTRONOMÍA
+
+### Las tapas
+Маленькие закуски в барах.
+
+**Популярные:**
+- Jamón ibérico
+- Tortilla española
+- Patatas bravas
+- Pulpo a la gallega
+
+### Horario de comidas:
+- Desayuno: 7-9
+- Almuerzo: 14-15:30 (главный прием)
+- Cena: 21-22:30 (поздний)
+
+## 4. EXPRESIONES
+
+- ¡Olé! - Браво!
+- ¡Vale! - ОК!
+- ¡Qué guay! - Как круто!`,
+      examples: [
+        { spanish: 'Me encanta ir de tapas', russian: 'Мне нравится ходить на тапас' },
+        { spanish: 'La Semana Santa es impresionante', russian: 'Страстная неделя впечатляет' },
+        { spanish: 'En España se cena muy tarde', russian: 'В Испании ужинают поздно' }
+      ]
+    },
+    vocabulary: [
+      { word: 'la fiesta', translation: 'праздник', audioUrl: null },
+      { word: 'la tradición', translation: 'традиция', audioUrl: null },
+      { word: 'la costumbre', translation: 'обычай', audioUrl: null },
+      { word: 'el desfile', translation: 'парад', audioUrl: null },
+      { word: 'bailar', translation: 'танцевать', audioUrl: null },
+      { word: 'cantar', translation: 'петь', audioUrl: null },
+      { word: 'la gastronomía', translation: 'гастрономия', audioUrl: null },
+      { word: 'la tapa', translation: 'тапа', audioUrl: null },
+      { word: 'el jamón', translation: 'хамон', audioUrl: null },
+      { word: 'celebrar', translation: 'праздновать', audioUrl: null },
+      { word: 'los fuegos artificiales', translation: 'фейерверки', audioUrl: null },
+      { word: 'el traje típico', translation: 'традиционный костюм', audioUrl: null },
+      { word: 'la procesión', translation: 'процессия', audioUrl: null },
+      { word: 'el plato típico', translation: 'традиционное блюдо', audioUrl: null },
+      { word: 'la celebración', translation: 'празднование', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Un año de fiestas españolas',
+      content: `Si hay algo que caracteriza a España, son sus fiestas. Cada mes tiene celebraciones únicas.
+
+Enero empieza con Reyes Magos el 6 de enero. La noche anterior, Melchor, Gaspar y Baltasar llegan en cabalgata. Los niños dejan zapatos en la puerta con agua para los camellos. Por la mañana, encuentran regalos si han sido buenos, o carbón dulce si no. Las familias comen Roscón de Reyes con una figura escondida dentro.
+
+Marzo en Valencia significa Las Fallas. Durante todo el año, los valencianos construyen enormes esculturas de cartón llamadas "fallas". Durante cinco días, la ciudad se llena de música y pólvora. La mascletà al mediodía hace temblar toda la ciudad. La noche del 19, la Cremà, todas las fallas se queman. Es mágico y melancólico: meses de trabajo en cenizas.
+
+Abril trae Semana Santa, especialmente impresionante en Sevilla. Los costaleros cargan pasos de toneladas al ritmo de tambores. Los nazarenos con capirotes caminan descalzos. Cuando pasa una Virgen bella, la gente grita "¡Guapa!" Una saeta surge de un balcón y todo se detiene.
+
+Después de Semana Santa, Sevilla celebra la Feria de Abril. Miles de casetas con baile de sevillanas, rebujito y jamón. Las mujeres lucen trajes de flamenca, los caballos andaluces pasean. La feria dura una semana.
+
+Julio trae San Fermines en Pamplona. El 6 de julio lanzan el chupinazo y gritan "¡Viva San Fermín!" Durante nueve días, cada mañana seis toros corren 850 metros en tres minutos. Miles de personas corren delante. Es aterrador y emocionante.
+
+Agosto trae La Tomatina en Buñol. 20,000 personas se lanzan 150 toneladas de tomates durante una hora. Las calles se vuelven ríos rojos. Es absurdo y divertido.
+
+Diciembre termina con Nochevieja. En toda España, la gente come doce uvas en doce segundos al ritmo de las campanadas - doce deseos para doce meses. Después, ¡fiesta hasta el amanecer!
+
+Lo especial de las fiestas españolas es que no son espectáculos turísticos. Son tradiciones vivas que las comunidades practican apasionadamente. Muestran el carácter español: pasional, comunitario, festivo. Son la celebración de la vida misma.
+
+Y cuando un extranjero pregunta cuál es la mejor fiesta, cualquier español responde: "¡La de mi pueblo, claro!"`,
+      translation: 'Год испанских праздников. Если что-то характеризует Испанию - это праздники...'
+    },
+    exercises: ['ex-9-2-1', 'ex-9-2-2', 'ex-9-2-3', 'ex-9-2-4', 'ex-9-2-5']
+  },
+
+  'lesson-9-3': {
+    id: 'lesson-9-3',
+    title: 'Урок 3: Современная культура',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Cultura española contemporánea',
+      content: `
+# Cultura moderna
+
+## 1. CINE
+
+### Pedro Almodóvar (род. 1949)
+Самый знаменитый режиссер. 2 Оскара.
+
+**Фильмы:**
+- "Todo sobre mi madre" (1999)
+- "Hable con ella" (2002)
+- "Volver" (2006)
+
+## 2. MÚSICA
+
+### Flamenco moderno:
+- **Rosalía** - современное фламенко + урбан
+
+### Pop:
+- Alejandro Sanz
+- Shakira
+
+## 3. ARQUITECTURA
+
+### Antoni Gaudí (1852-1926)
+- **La Sagrada Familia** - строится с 1882
+- **Park Güell**
+- **Casa Batlló**
+
+## 4. ARTE
+
+### Pablo Picasso (1881-1973)
+Основатель кубизма. **"Guernica"** (1937).
+
+### Salvador Dalí (1904-1989)
+Сюрреалист. Тающие часы.
+
+## 5. DEPORTES
+
+### Fútbol
+Национальная страсть.
+- Real Madrid vs FC Barcelona ("El Clásico")
+- Чемпионы мира 2010
+
+### Tenis
+- Rafael Nadal
+- Carlos Alcaraz
+
+## 6. GASTRONOMÍA
+
+### Ferran Adrià
+Революционизировал кухню молекулярной гастрономией.
+
+## 7. LITERATURA
+
+- Carlos Ruiz Zafón - "La sombra del viento"
+- Javier Marías - философская проза`,
+      examples: [
+        { spanish: 'Almodóvar es mi director favorito', russian: 'Альмодовар - мой любимый режиссер' },
+        { spanish: 'La Sagrada Familia es impresionante', russian: 'Саграда Фамилия впечатляет' },
+        { spanish: 'El fútbol es una pasión nacional', russian: 'Футбол - национальная страсть' }
+      ]
+    },
+    vocabulary: [
+      { word: 'el cine', translation: 'кино', audioUrl: null },
+      { word: 'la película', translation: 'фильм', audioUrl: null },
+      { word: 'el director', translation: 'режиссер', audioUrl: null },
+      { word: 'la música', translation: 'музыка', audioUrl: null },
+      { word: 'el cantante', translation: 'певец', audioUrl: null },
+      { word: 'el arte', translation: 'искусство', audioUrl: null },
+      { word: 'el pintor', translation: 'художник', audioUrl: null },
+      { word: 'la arquitectura', translation: 'архитектура', audioUrl: null },
+      { word: 'el edificio', translation: 'здание', audioUrl: null },
+      { word: 'el deporte', translation: 'спорт', audioUrl: null },
+      { word: 'el equipo', translation: 'команда', audioUrl: null },
+      { word: 'el partido', translation: 'матч', audioUrl: null },
+      { word: 'contemporáneo', translation: 'современный', audioUrl: null },
+      { word: 'mundial', translation: 'мировой', audioUrl: null },
+      { word: 'el actor', translation: 'актер', audioUrl: null }
+    ],
+    readingText: {
+      title: 'España moderna: tradición y futuro',
+      content: `Camino por Madrid en 2025 y veo un país que mezcla tradición y modernidad. Esta mañana pasé por la Puerta del Sol con su oso y madroño medieval, pero alrededor la gente llevaba smartphones y en pantallas se anunciaba el último filme español nominado al Oscar.
+
+En una cafetería, sonaba Rosalía - la cantante que revolucionó el flamenco fusionándolo con reggaeton. Hace treinta años esto habría sido impensable. El flamenco era sagrado. Pero Rosalía demostró que puedes honrar la tradición transformándola. Sus videos tienen millones de visitas. Ha colaborado con Billie Eilish. El flamenco gitano-andaluz ahora suena en Tokio y Nueva York.
+
+Fui al Museo Reina Sofía a ver el "Guernica" de Picasso. Este cuadro de 1937 sobre el bombardeo durante la Guerra Civil sigue siendo relevante. Picasso cambió el arte mundial. El cubismo que inventó todavía influye hoy.
+
+Por la tarde, vi una película de Almodóvar. Sus películas son inconfundiblemente españolas - melodramáticas, coloridas, emotivas - pero hablan de temas universales. Ha ganado dos Oscars. Penélope Cruz y Antonio Banderas son estrellas de Hollywood pero siempre vuelven a España.
+
+Pasé por el Bernabéu, casa del Real Madrid. El fútbol es una religión. "El Clásico" con Barcelona paraliza el país - 400 millones lo ven mundialmente. España ganó la Copa del Mundo en 2010. Toda España salió a celebrar. Todas las divisiones desaparecieron.
+
+Cené en un restaurante de tapas modernizado - deconstrucciones, espumas. La influencia de Ferran Adrià está en todas partes. España tiene más restaurantes Michelin que nunca.
+
+Caminé por Malasaña, el distrito hipster. Bares llenos, arte urbano, tiendas vintage. En una librería hojeé a Ruiz Zafón y Javier Marías - autores españoles traducidos a docenas de idiomas.
+
+En el metro escuché español, inglés, árabe, chino. Madrid se ha vuelto internacional. España ha pasado de país de emigración a inmigración.
+
+Esto trae desafíos. Cataluña quiere independencia. El País Vasco tiene su cultura. ¿Qué significa ser español con tantas identidades regionales? Esta tensión entre lo local y nacional define la España moderna.
+
+Pero algo nunca cambia: la importancia de la familia, la pasión por la vida, la sobremesa, las plazas llenas de gente, las fiestas de pueblo.
+
+España ha producido grandes artistas: Velázquez, Goya, Picasso, Dalí, Miró. Escritores como Cervantes, Lorca. Arquitectos como Gaudí y Calatrava. Cineastas como Buñuel y Almodóvar. Para un país pequeño, el impacto cultural ha sido inmenso.
+
+El español es hablado por 600 millones mundialmente - el segundo idioma del mundo. España sigue siendo el corazón histórico del idioma.
+
+Mañana iré a Barcelona a ver la Sagrada Familia de Gaudí, construyéndose durante 140 años. Es el símbolo perfecto: un proyecto ambicioso, único, que mezcla tradición e innovación, que ha tomado generaciones pero nunca perdió su visión.
+
+España mira al futuro mientras honra el pasado. En esa tensión creativa está su genio.`,
+      translation: 'Современная Испания: традиция и будущее. Иду по Мадриду и вижу страну, смешивающую традицию и современность...'
+    },
+    exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5']
   }
 }
 
@@ -3878,6 +4206,197 @@ María: Muy bien, gracias.
       { russian: 'Если бы ты пришел, повеселился бы', correct: 'si hubieras venido te habrías divertido' },
       { russian: 'Если бы я знал, не сказал бы ничего', correct: 'si hubiera sabido no habría dicho nada' },
       { russian: 'Если бы мы вышли раньше, успели бы', correct: 'si hubiéramos salido antes habríamos llegado a tiempo' }
+    ]
+  },
+
+  // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
+
+  // Урок 9.1 - Испанская литература
+  'ex-9-1-1': {
+    id: 'ex-9-1-1',
+    type: 'reading',
+    title: 'Чтение: Don Quijote',
+    description: 'Ответьте на вопросы о Дон Кихоте',
+    text: 'Don Quijote es la obra más importante de Cervantes. Alonso Quijano lee muchas novelas de caballerías y se vuelve loco. Se convierte en Don Quijote con Sancho Panza como escudero. En el episodio famoso, ataca molinos de viento creyendo que son gigantes. Sancho es práctico, Don Quijote es idealista.',
+    questions: [
+      { question: 'Кто написал Дон Кихота?', options: ['Lorca', 'Cervantes', 'Lope de Vega', 'Calderón'], correct: 1 },
+      { question: 'Почему Алонсо сходит с ума?', options: ['От болезни', 'От любви', 'От чтения рыцарских романов', 'От бедности'], correct: 2 },
+      { question: 'Кто такой Санчо Панса?', options: ['Конь', 'Оруженосец', 'Враг', 'Брат'], correct: 1 },
+      { question: 'За кого принимает мельницы?', options: ['За замки', 'За великанов', 'За драконов', 'За армии'], correct: 1 }
+    ]
+  },
+  'ex-9-1-2': {
+    id: 'ex-9-1-2',
+    type: 'vocabulary',
+    title: 'Литературная лексика',
+    description: 'Сопоставьте слова',
+    questions: [
+      { spanish: 'la novela', options: ['стихотворение', 'роман', 'пьеса', 'рассказ'], correct: 1 },
+      { spanish: 'el poeta', options: ['поэт', 'писатель', 'актер', 'художник'], correct: 0 },
+      { spanish: 'el personaje', options: ['персонаж', 'автор', 'читатель', 'критик'], correct: 0 },
+      { spanish: 'la obra de teatro', options: ['роман', 'стих', 'пьеса', 'эссе'], correct: 2 }
+    ]
+  },
+  'ex-9-1-3': {
+    id: 'ex-9-1-3',
+    type: 'grammar',
+    title: 'Литературные периоды',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Cervantes escribió Don Quijote en el ___', options: ['Edad Media', 'Siglo de Oro', 'Siglo XIX', 'Siglo XX'], correct: 1 },
+      { sentence: 'Lorca fue parte de la ___', options: ['Generación del 98', 'Generación del 27', 'Generación del 50', 'Generación Beat'], correct: 1 },
+      { sentence: '"La vida es sueño" es una obra de ___', options: ['Cervantes', 'Lorca', 'Calderón', 'Bécquer'], correct: 2 },
+      { sentence: 'El "Romancero gitano" es de ___', options: ['Cervantes', 'Lorca', 'Lope de Vega', 'Machado'], correct: 1 }
+    ]
+  },
+  'ex-9-1-4': {
+    id: 'ex-9-1-4',
+    type: 'fillblank',
+    title: 'Completar sobre literatura',
+    description: 'Complete las frases',
+    questions: [
+      { sentence: 'Don Quijote fue escrito por Miguel de ___ ', correct: 'Cervantes' },
+      { sentence: 'Lorca escribió "Bodas de ___ "', correct: 'sangre' },
+      { sentence: 'El Siglo de ___ fue el período más brillante', correct: 'Oro' },
+      { sentence: 'Sancho Panza es el ___ de Don Quijote', correct: 'escudero' }
+    ]
+  },
+  'ex-9-1-5': {
+    id: 'ex-9-1-5',
+    type: 'writing',
+    title: 'Опишите произведение',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Дон Кихот - самая знаменитая книга Сервантеса', correct: 'don quijote es el libro más famoso de cervantes' },
+      { russian: 'Лорка был великим поэтом', correct: 'lorca fue un gran poeta' },
+      { russian: 'Мне нравится читать испанскую литературу', correct: 'me gusta leer literatura española' },
+      { russian: 'Эта пьеса очень интересная', correct: 'esta obra de teatro es muy interesante' }
+    ]
+  },
+
+  // Урок 9.2 - Испанские традиции
+  'ex-9-2-1': {
+    id: 'ex-9-2-1',
+    type: 'reading',
+    title: 'Чтение: Праздники Испании',
+    description: 'Ответьте на вопросы',
+    text: 'España tiene muchas fiestas. En enero están los Reyes Magos con regalos para niños. En marzo, Valencia celebra Las Fallas quemando enormes esculturas. En julio, Pamplona tiene San Fermín con el encierro de toros. En agosto, Buñol celebra La Tomatina lanzando tomates. En diciembre, la gente come 12 uvas en Nochevieja.',
+    questions: [
+      { question: 'Cuándo es el Día de Reyes?', options: ['En marzo', 'En enero', 'En julio', 'En diciembre'], correct: 1 },
+      { question: '¿Qué se quema en Las Fallas?', options: ['Libros', 'Ropa', 'Esculturas', 'Árboles'], correct: 2 },
+      { question: '¿Dónde es el encierro de toros?', options: ['Valencia', 'Sevilla', 'Pamplona', 'Buñol'], correct: 2 },
+      { question: '¿Cuántas uvas se comen en Nochevieja?', options: ['6', '10', '12', '24'], correct: 2 }
+    ]
+  },
+  'ex-9-2-2': {
+    id: 'ex-9-2-2',
+    type: 'vocabulary',
+    title: 'Лексика праздников',
+    description: 'Сопоставьте слова',
+    questions: [
+      { spanish: 'la fiesta', options: ['праздник', 'работа', 'школа', 'больница'], correct: 0 },
+      { spanish: 'celebrar', options: ['работать', 'праздновать', 'учиться', 'спать'], correct: 1 },
+      { spanish: 'bailar', options: ['петь', 'танцевать', 'бегать', 'плавать'], correct: 1 },
+      { spanish: 'la tapa', options: ['стол', 'стул', 'закуска', 'тарелка'], correct: 2 }
+    ]
+  },
+  'ex-9-2-3': {
+    id: 'ex-9-2-3',
+    type: 'grammar',
+    title: 'Традиции и культура',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'El flamenco es un arte de ___', options: ['Cataluña', 'Galicia', 'Andalucía', 'País Vasco'], correct: 2 },
+      { sentence: 'La paella es típica de ___', options: ['Madrid', 'Valencia', 'Sevilla', 'Barcelona'], correct: 1 },
+      { sentence: 'En España se cena a las ___', options: ['18:00', '19:00', '20:00', '21:00 o más tarde'], correct: 3 },
+      { sentence: 'Las tapas son ___', options: ['postres', 'bebidas', 'pequeñas porciones de comida', 'platos principales'], correct: 2 }
+    ]
+  },
+  'ex-9-2-4': {
+    id: 'ex-9-2-4',
+    type: 'fillblank',
+    title: 'Completar sobre tradiciones',
+    description: 'Complete las frases',
+    questions: [
+      { sentence: 'En Nochevieja se comen doce ___ ', correct: 'uvas' },
+      { sentence: 'Los Reyes Magos traen ___ a los niños', correct: 'regalos' },
+      { sentence: 'El ___ es una danza tradicional andaluza', correct: 'flamenco' },
+      { sentence: 'Las ___ son pequeñas porciones de comida', correct: 'tapas' }
+    ]
+  },
+  'ex-9-2-5': {
+    id: 'ex-9-2-5',
+    type: 'writing',
+    title: 'Описание традиций',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Мне нравится ходить на тапас', correct: 'me gusta ir de tapas' },
+      { russian: 'Испанские праздники очень интересные', correct: 'las fiestas españolas son muy interesantes' },
+      { russian: 'В Испании ужинают поздно', correct: 'en españa se cena tarde' },
+      { russian: 'Фламенко - традиционный танец', correct: 'el flamenco es un baile tradicional' }
+    ]
+  },
+
+  // Урок 9.3 - Современная культура
+  'ex-9-3-1': {
+    id: 'ex-9-3-1',
+    type: 'reading',
+    title: 'Чтение: Культура Испании',
+    description: 'Ответьте на вопросы',
+    text: 'La cultura española moderna es rica y diversa. Almodóvar es un director famoso con dos Oscars. La Sagrada Familia de Gaudí se construye desde 1882. Picasso pintó el "Guernica" en 1937. El fútbol es una pasión nacional - Real Madrid y Barcelona juegan "El Clásico". España ganó la Copa del Mundo en 2010.',
+    questions: [
+      { question: 'Cuántos Oscars ganó Almodóvar?', options: ['Uno', 'Dos', 'Tres', 'Ninguno'], correct: 1 },
+      { question: '¿Desde cuándo se construye la Sagrada Familia?', options: ['1882', '1900', '1950', '2000'], correct: 0 },
+      { question: '¿Quién pintó el Guernica?', options: ['Dalí', 'Picasso', 'Miró', 'Goya'], correct: 1 },
+      { question: '¿Cuándo ganó España el Mundial?', options: ['2006', '2008', '2010', '2014'], correct: 2 }
+    ]
+  },
+  'ex-9-3-2': {
+    id: 'ex-9-3-2',
+    type: 'vocabulary',
+    title: 'Лексика культуры',
+    description: 'Сопоставьте слова',
+    questions: [
+      { spanish: 'el cine', options: ['кино', 'театр', 'музей', 'парк'], correct: 0 },
+      { spanish: 'el director', options: ['актер', 'режиссер', 'писатель', 'певец'], correct: 1 },
+      { spanish: 'el deporte', options: ['искусство', 'спорт', 'музыка', 'танец'], correct: 1 },
+      { spanish: 'el edificio', options: ['здание', 'улица', 'город', 'страна'], correct: 0 }
+    ]
+  },
+  'ex-9-3-3': {
+    id: 'ex-9-3-3',
+    type: 'grammar',
+    title: 'Культура и искусство',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'Gaudí fue un ___ catalán', options: ['pintor', 'escritor', 'arquitecto', 'músico'], correct: 2 },
+      { sentence: 'Picasso fue el creador del ___', options: ['surrealismo', 'cubismo', 'impresionismo', 'realismo'], correct: 1 },
+      { sentence: 'Real Madrid y Barcelona juegan ___', options: ['El Derbi', 'El Clásico', 'La Final', 'El Torneo'], correct: 1 },
+      { sentence: 'Rosalía mezcla flamenco con ___', options: ['rock', 'jazz', 'reggaeton', 'salsa'], correct: 2 }
+    ]
+  },
+  'ex-9-3-4': {
+    id: 'ex-9-3-4',
+    type: 'fillblank',
+    title: 'Completar sobre cultura',
+    description: 'Complete las frases',
+    questions: [
+      { sentence: 'Pedro ___ es un famoso director español', correct: 'Almodóvar' },
+      { sentence: 'La Sagrada ___ es una basílica en Barcelona', correct: 'Familia' },
+      { sentence: 'Pablo ___ pintó el Guernica', correct: 'Picasso' },
+      { sentence: 'Rafael ___ es un tenista español famoso', correct: 'Nadal' }
+    ]
+  },
+  'ex-9-3-5': {
+    id: 'ex-9-3-5',
+    type: 'writing',
+    title: 'Современная культура',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Альмодовар - мой любимый режиссер', correct: 'almodóvar es mi director favorito' },
+      { russian: 'Футбол - национальная страсть', correct: 'el fútbol es una pasión nacional' },
+      { russian: 'Саграда Фамилия очень впечатляет', correct: 'la sagrada familia es muy impresionante' },
+      { russian: 'Испанское искусство известно во всем мире', correct: 'el arte español es conocido en todo el mundo' }
     ]
   }
 }
