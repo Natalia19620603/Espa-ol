@@ -416,7 +416,15 @@ Pablo tiene 15 años y estudia en el instituto. Le encanta leer libros de aventu
 Los fines de semana, la familia come junta en casa. Preparan platos tradicionales españoles como paella o tortilla. Por las tardes, caminan por el Parque del Retiro. Es su lugar favorito en Madrid. A veces visitan museos o van al cine.
 
 Los García son una familia muy unida. Comparten sus experiencias, aprenden unos de otros y disfrutan del tiempo juntos.`,
-      translation: 'Семья Гарсия живет в квартире в центре Мадрида. Их четыре человека: отец Антонио, мать Кармен, и их двое детей, Пабло и Люсия...'
+      translation: 'Семья Гарсия живет в квартире в центре Мадрида. Их четыре человека: отец Антонио, мать Кармен, и их двое детей, Пабло и Люсия.\n\nАнтонио работает учителем в школе. Он преподает математику и ему очень нравится его работа. По утрам он читает газету, попивая кофе. Кармен - врач и работает в больнице. Она помогает многим людям каждый день.\n\nПабло 15 лет и учится в институте. Он обожает читать приключенческие книги и писать рассказы. Его сестре Люсии 12 лет. Она учится играть на пианино и практикуется каждый день. Ей также нравится рисовать, и в ее комнате много картин.\n\nПо выходным семья ест вместе дома. Они готовят традиционные испанские блюда, такие как паэлья или тортилья. Днем они гуляют по парку Ретиро. Это их любимое место в Мадриде. Иногда они посещают музеи или ходят в кино.\n\nГарсия - очень сплоченная семья. Они делятся своим опытом, учатся друг у друга и наслаждаются временем вместе.',
+      audioUrl: '/audio/lesson-2-2-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'La familia García vive en un apartamento en el centro de Madrid.' },
+        { start: 5, end: 10, text: 'Antonio trabaja como profesor en una escuela.' },
+        { start: 10, end: 15, text: 'Carmen es médica y trabaja en un hospital.' },
+        { start: 15, end: 20, text: 'Pablo tiene 15 años y estudia en el instituto.' },
+        { start: 20, end: 25, text: 'Los fines de semana, la familia come junta en casa.' }
+      ]
     },
     exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
   },
@@ -461,6 +469,30 @@ yo vengo, tú vienes, él/ella viene, nosotros venimos, vosotros venís, ellos v
       { word: 'querer', translation: 'хотеть', audioUrl: null },
       { word: 'saber', translation: 'знать', audioUrl: null }
     ],
+    readingText: {
+      title: 'Un día típico',
+      content: `Hoy es lunes y tengo un día muy ocupado. Me levanto a las siete de la mañana. Estoy cansado porque ayer me acosté tarde, pero tengo que ir a trabajar.
+
+Primero voy al baño y me ducho. Después bajo a la cocina y hago el desayuno. Normalmente bebo café y como tostadas con mermelada. Mientras desayuno, leo las noticias en mi teléfono.
+
+A las ocho salgo de casa. Voy al trabajo en metro porque está lejos y el tráfico es horrible. El viaje dura media hora. En el metro leo un libro o escucho música. Hoy hago las dos cosas.
+
+Llego a la oficina a las nueve menos cuarto. Mi trabajo es interesante pero a veces es difícil. Soy diseñador gráfico y hoy tengo que hacer un proyecto importante. Quiero terminarlo antes del viernes pero no sé si puedo.
+
+A las dos tengo una hora para comer. Voy a un restaurante cerca de la oficina con mis compañeros. Comemos el menú del día: hoy hay sopa de verduras y pollo con patatas. Está muy rico.
+
+Por la tarde tengo una reunión importante. Viene el director de la empresa para ver nuestros proyectos. Estoy un poco nervioso pero creo que todo va a salir bien.
+
+Salgo del trabajo a las seis de la tarde. Estoy muy cansado. Quiero ir al gimnasio pero decido ir directamente a casa. Hago la cena - una ensalada simple - y veo una película. A las once me voy a dormir. Mañana tengo que levantarme temprano otra vez.`,
+      translation: 'Типичный день\n\nСегодня понедельник, и у меня очень занятой день. Я встаю в семь утра. Я устал, потому что вчера лег спать поздно, но мне нужно идти на работу.\n\nСначала я иду в ванную и принимаю душ. Потом спускаюсь на кухню и готовлю завтрак. Обычно я пью кофе и ем тосты с джемом. Во время завтрака читаю новости в телефоне.\n\nВ восемь я выхожу из дома. Я еду на работу на метро, потому что это далеко, а пробки ужасные. Дорога занимает полчаса. В метро я читаю книгу или слушаю музыку. Сегодня делаю и то, и другое.\n\nЯ прихожу в офис без четверти девять. Моя работа интересная, но иногда сложная. Я графический дизайнер, и сегодня мне нужно сделать важный проект. Хочу закончить его до пятницы, но не знаю, смогу ли.\n\nВ два у меня час на обед. Я иду в ресторан недалеко от офиса с коллегами. Едим дневное меню: сегодня есть овощной суп и курица с картошкой. Очень вкусно.\n\nДнем у меня важная встреча. Приходит директор компании, чтобы посмотреть наши проекты. Я немного нервничаю, но думаю, что все пройдет хорошо.\n\nЯ выхожу с работы в шесть вечера. Я очень устал. Хочу пойти в спортзал, но решаю идти прямо домой. Готовлю ужин - простой салат - и смотрю фильм. В одиннадцать ложусь спать. Завтра мне снова нужно рано вставать.',
+      audioUrl: '/audio/lesson-2-3-reading.mp3',
+      subtitles: [
+        { start: 0, end: 4, text: 'Hoy es lunes y tengo un día muy ocupado.' },
+        { start: 4, end: 8, text: 'Me levanto a las siete de la mañana.' },
+        { start: 8, end: 12, text: 'Voy al trabajo en metro porque está lejos.' },
+        { start: 12, end: 16, text: 'Soy diseñador gráfico y hoy tengo que hacer un proyecto importante.' }
+      ]
+    },
     exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
   },
 
@@ -524,7 +556,15 @@ También vivo con mi abuela paterna, la madre de mi padre. Ella tiene 75 años p
 Tengo muchos tíos, tías y primos, pero no viven con nosotros. Los vemos en las fiestas y vacaciones. Mi tío Alberto vive en Barcelona y trabaja como músico. Cuando nos visita, toca la guitarra y cantamos juntos.
 
 Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos mucho tiempo juntos y nos apoyamos en todo momento.`,
-      translation: 'Меня зовут Карлос и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии...'
+      translation: 'Моя семья\n\nМеня зовут Карлос, и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии.\n\nМоих родителей зовут Хосе и Мария. Мой отец - инженер и работает в строительной компании. Ему очень нравится его работа, потому что он строит важные здания. Моя мать - учительница английского в начальной школе. Она любит учить детей и всегда приходит домой с интересными историями.\n\nУ меня два брата и сестры: мой старший брат Педро, ему 20 лет, и он изучает медицину в университете. Он хочет стать врачом, как наш дедушка. Моей младшей сестре Лауре всего 8 лет. Она очень шаловливая, но очаровательная. Она любит рисовать и играть с нашей собакой Максом.\n\nТакже со мной живет моя бабушка по отцовской линии, мать моего отца. Ей 75 лет, но она очень активна. Она готовит восхитительно и рассказывает нам истории о том, когда была молодой. Каждое воскресенье вся семья ест вместе. Моя бабушка готовит свою знаменитую валенсийскую паэлью.\n\nУ меня много дядей, тетей и двоюродных братьев, но они не живут с нами. Мы видимся на праздниках и каникулах. Мой дядя Альберто живет в Барселоне и работает музыкантом. Когда он приезжает к нам, он играет на гитаре, и мы поем вместе.\n\nЯ чувствую себя очень счастливым иметь такую сплоченную и любящую семью. Мы проводим много времени вместе и поддерживаем друг друга во всем.',
+      audioUrl: '/audio/lesson-3-1-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Me llamo Carlos y voy a hablar sobre mi familia.' },
+        { start: 5, end: 10, text: 'Somos seis personas en total.' },
+        { start: 10, end: 15, text: 'Mis padres se llaman José y María.' },
+        { start: 15, end: 20, text: 'Tengo dos hermanos: Pedro y Laura.' },
+        { start: 20, end: 25, text: 'También vivo con mi abuela paterna.' }
+      ]
     },
     exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5-def', 'ex-3-1-6-coll']
   },
@@ -573,6 +613,30 @@ Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos muc
       { word: 'cantante', translation: 'певец/певица', audioUrl: null },
       { word: 'escritor/a', translation: 'писатель', audioUrl: null }
     ],
+    readingText: {
+      title: 'El trabajo de mis padres',
+      content: `Mis padres tienen trabajos muy interesantes y diferentes. Mi madre es médica y mi padre es profesor. Los dos aman lo que hacen.
+
+Mi madre trabaja en el Hospital General de Madrid. Es cirujana y opera a pacientes todos los días. Su trabajo es muy difícil y requiere mucha concentración. Se levanta muy temprano, a las seis de la mañana, porque sus operaciones empiezan a las ocho. A veces trabaja hasta tarde por la noche si hay emergencias.
+
+Ella dice que lo mejor de su trabajo es ayudar a las personas. Cuando un paciente se recupera y puede volver a casa con su familia, ella se siente muy feliz. Lo más difícil es trabajar tantas horas y tener poco tiempo libre. Pero está muy orgullosa de su profesión.
+
+Mi padre es profesor de historia en un instituto. Enseña a estudiantes de 15 a 18 años. Le encanta su trabajo porque le gusta compartir su conocimiento con los jóvenes. Prepara sus clases con mucho cuidado para que sean interesantes y divertidas.
+
+Él comienza a trabajar a las ocho y media de la mañana y termina a las tres de la tarde. Después de las clases, a veces ayuda a los estudiantes con sus tareas o prepara exámenes. Los veranos son especiales para él porque tiene dos meses de vacaciones y puede leer y viajar.
+
+Mi padre dice que lo mejor de ser profesor es ver cómo sus estudiantes aprenden y crecen. Muchos de sus antiguos alumnos todavía lo visitan y le cuentan sobre sus vidas. Eso lo hace muy feliz.
+
+Aunque tienen profesiones muy diferentes, mis padres tienen algo en común: los dos trabajan con personas y los dos quieren hacer del mundo un lugar mejor. Estoy muy orgulloso de ellos.`,
+      translation: 'Работа моих родителей\n\nУ моих родителей очень интересные и разные работы. Моя мать - врач, а отец - учитель. Оба любят то, что делают.\n\nМоя мать работает в Главной больнице Мадрида. Она хирург и оперирует пациентов каждый день. Ее работа очень сложная и требует большой концентрации. Она встает очень рано, в шесть утра, потому что ее операции начинаются в восемь. Иногда она работает допоздна, если есть чрезвычайные ситуации.\n\nОна говорит, что лучшее в ее работе - помогать людям. Когда пациент выздоравливает и может вернуться домой к семье, она чувствует себя очень счастливой. Самое трудное - работать столько часов и иметь мало свободного времени. Но она очень гордится своей профессией.\n\nМой отец - учитель истории в институте. Он преподает студентам от 15 до 18 лет. Ему нравится его работа, потому что он любит делиться своими знаниями с молодежью. Он тщательно готовит свои уроки, чтобы они были интересными и веселыми.\n\nОн начинает работать в половине девятого утра и заканчивает в три дня. После занятий он иногда помогает студентам с их домашними заданиями или готовит экзамены. Лето для него особенное, потому что у него два месяца отпуска, и он может читать и путешествовать.\n\nМой отец говорит, что лучшее в том, чтобы быть учителем - видеть, как его ученики учатся и растут. Многие его бывшие ученики до сих пор навещают его и рассказывают о своей жизни. Это делает его очень счастливым.\n\nХотя у них очень разные профессии, у моих родителей есть кое-что общее: они оба работают с людьми и оба хотят сделать мир лучше. Я очень горжусь ими.',
+      audioUrl: '/audio/lesson-3-2-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Mis padres tienen trabajos muy interesantes y diferentes.' },
+        { start: 5, end: 10, text: 'Mi madre es médica y mi padre es profesor.' },
+        { start: 10, end: 15, text: 'Mi madre trabaja en el Hospital General de Madrid.' },
+        { start: 15, end: 20, text: 'Mi padre es profesor de historia en un instituto.' }
+      ]
+    },
     exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3']
   },
   'lesson-3-3': {
@@ -622,6 +686,32 @@ Me **encanta** la playa - Я обожаю пляж
       { word: 'fotografía', translation: 'фотография', audioUrl: null },
       { word: 'viaje', translation: 'путешествие', audioUrl: null }
     ],
+    readingText: {
+      title: 'Mis pasatiempos favoritos',
+      content: `Me llamo Elena y tengo muchos pasatiempos interesantes. En mi tiempo libre me gusta hacer diferentes actividades porque creo que es importante tener un equilibrio en la vida.
+
+Mi pasatiempo favorito es la lectura. Me encantan los libros, especialmente las novelas de misterio y fantasía. Leo casi todos los días antes de dormir. Tengo una biblioteca grande en mi casa con más de doscientos libros. Mi escritor favorito es Gabriel García Márquez. Sus historias son mágicas y fascinantes.
+
+También me gusta mucho el deporte. Practico natación tres veces por semana en la piscina municipal. La natación me relaja y me ayuda a mantenerme en forma. Los fines de semana juego al tenis con mi hermano. Él es mejor que yo, pero me divierto mucho intentando ganarle.
+
+A mi novio le encanta la música y gracias a él yo también he desarrollado este interés. Vamos juntos a conciertos de música clásica y rock. Él toca la guitarra y a veces me enseña algunas canciones. Me gustaría aprender a tocar el piano algún día.
+
+Otro de mis pasatiempos es la fotografía. Me gusta capturar momentos especiales con mi cámara. Especialmente disfruto fotografiar paisajes naturales y arquitectura antigua. He hecho algunos cursos de fotografía y mis fotos han mejorado mucho. Me gustaría organizar una exposición de mis mejores trabajos.
+
+Los viernes por la noche me encanta ir al cine con mis amigos. Vemos todo tipo de películas: comedias, dramas, películas de acción. Después de la película siempre vamos a tomar algo y comentamos lo que hemos visto.
+
+En verano me apasiona viajar. He visitado muchos países de Europa: Francia, Italia, Portugal, Alemania. Cada lugar tiene su encanto especial. Me gusta conocer nuevas culturas, probar comidas diferentes y practicar idiomas. Mi próximo destino es Grecia. Las islas griegas me parecen increíbles.
+
+Todos estos pasatiempos me hacen feliz y me ayudan a desconectar del estrés diario. Creo que es fundamental dedicar tiempo a las cosas que nos gustan.`,
+      translation: 'Мои любимые хобби\n\nМеня зовут Елена, и у меня много интересных хобби. В свободное время мне нравится заниматься разными делами, потому что я считаю, что важно иметь баланс в жизни.\n\nМое любимое хобби - чтение. Я обожаю книги, особенно детективы и фэнтези. Я читаю почти каждый день перед сном. У меня большая библиотека дома с более чем двумястами книг. Мой любимый писатель - Габриэль Гарсия Маркес. Его истории волшебные и захватывающие.\n\nМне также очень нравится спорт. Я занимаюсь плаванием три раза в неделю в муниципальном бассейне. Плавание расслабляет меня и помогает оставаться в форме. По выходным я играю в теннис с моим братом. Он играет лучше меня, но мне очень весело пытаться его победить.\n\nМой парень обожает музыку, и благодаря ему я тоже развила этот интерес. Мы вместе ходим на концерты классической музыки и рока. Он играет на гитаре и иногда учит меня некоторым песням. Я бы хотела научиться играть на пианино когда-нибудь.\n\nЕще одно мое хобби - фотография. Мне нравится запечатлевать особенные моменты с моей камерой. Особенно мне нравится фотографировать природные пейзажи и старинную архитектуру. Я прошла несколько курсов фотографии, и мои фотографии сильно улучшились. Я хотела бы организовать выставку моих лучших работ.\n\nПо пятницам вечером я обожаю ходить в кино с друзьями. Мы смотрим все виды фильмов: комедии, драмы, боевики. После фильма мы всегда идем выпить и обсуждаем то, что посмотрели.\n\nЛетом я увлекаюсь путешествиями. Я посетила много стран Европы: Францию, Италию, Португалию, Германию. Каждое место имеет свое особое очарование. Мне нравится знакомиться с новыми культурами, пробовать разную еду и практиковать языки. Мой следующий пункт назначения - Греция. Греческие острова кажутся мне невероятными.\n\nВсе эти хобби делают меня счастливой и помогают мне отвлечься от повседневного стресса. Я считаю, что очень важно уделять время тому, что нам нравится.',
+      audioUrl: '/audio/lesson-3-3-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Me llamo Elena y tengo muchos pasatiempos interesantes.' },
+        { start: 5, end: 10, text: 'Mi pasatiempo favorito es la lectura.' },
+        { start: 10, end: 15, text: 'También me gusta mucho el deporte.' },
+        { start: 15, end: 20, text: 'Otro de mis pasatiempos es la fotografía.' }
+      ]
+    },
     exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3']
   },
 
@@ -716,7 +806,14 @@ El jueves he terminado un informe importante que llevaba semanas preparando. Mi 
 Hoy es viernes y he recibido mi salario. También he comprado los billetes para mis vacaciones en Italia el mes que viene. Nunca he estado allí y estoy muy emocionada. He reservado un hotel en Roma y he hecho una lista de todos los lugares que quiero visitar.
 
 ¿Y tú? ¿Qué has hecho esta semana? ¿Has tenido alguna experiencia interesante?`,
-      translation: 'На этой неделе я была очень продуктивна. В понедельник я начала новый проект на работе...'
+      translation: 'Напряженная неделя\n\nЭта неделя была очень продуктивной для меня. В понедельник я начала новый проект на работе. Это интересный вызов, и я очень мотивирована.\n\nВо вторник я пошла в спортзал впервые за несколько месяцев. Мне было очень тяжело, потому что я была не в форме, но я чувствовала себя очень хорошо после. Я решила ходить три раза в неделю с этого момента.\n\nВ среду моя сестра приехала из Барселоны. Прошло много времени с тех пор, как я ее видела. Мы поужинали вместе в моем любимом ресторане и проговорили часами. Она рассказала мне о своей новой работе и планах на будущее.\n\nВ четверг я закончила важный отчет, который готовила неделями. Мой начальник прочитал его и сказал, что он очень хорошо сделан. Он похвалил меня перед всей командой. Я почувствовала себя очень гордой.\n\nСегодня пятница, и я получила зарплату. Я также купила билеты на отпуск в Италии в следующем месяце. Я никогда там не была и очень взволнована. Я забронировала отель в Риме и составила список всех мест, которые хочу посетить.\n\nА ты? Что ты делал на этой неделе? У тебя был какой-нибудь интересный опыт?',
+      audioUrl: '/audio/lesson-4-1-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Esta semana ha sido muy productiva para mí.' },
+        { start: 5, end: 10, text: 'El lunes he empezado un nuevo proyecto en el trabajo.' },
+        { start: 10, end: 15, text: 'El martes he ido al gimnasio por primera vez en meses.' },
+        { start: 15, end: 20, text: 'El miércoles mi hermana ha llegado de Barcelona.' }
+      ]
     },
     exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5']
   },
@@ -823,7 +920,14 @@ Después de tres días en Roma, tomamos el tren a Florencia. La ciudad nos enamo
 Nuestro último destino fue Venecia. Llegamos en vaporetto desde el aeropuerto. La ciudad flotante nos dejó sin palabras. Paseamos en góndola por los canales, visitamos la Basílica de San Marcos y nos perdimos por las callejuelas encantadoras.
 
 El viaje duró diez días. Cuando volvimos a España, estábamos cansadas pero felices. Todavía hablamos de ese viaje y miramos las fotos con nostalgia. Definitivamente quiero volver.`,
-      translation: 'Прошлым летом я совершила путешествие своей мечты: поехала в Италию с моей лучшей подругой Лаурой...'
+      translation: 'Мой отпуск в Италии\n\nПрошлым летом я совершила путешествие своей мечты: поехала в Италию с моей лучшей подругой Лаурой. Это был абсолютно незабываемый опыт.\n\nМы уехали из Мадрида 15 июля. Нашим первым пунктом назначения был Рим. Мы прибыли днем и пошли прямо в отель. Это был маленький отель рядом с Ватиканом, очень уютный. В тот вечер мы гуляли по району и ужинали в традиционной траттории. Мы ели вкусную пиццу и пасту.\n\nНа следующий день мы посетили Колизей. Это было впечатляюще! Мы также увидели Римский Форум и фонтан Треви. Мы бросили монеты в фонтан и загадали желания. Лаура попросила найти любовь, а я попросила вернуться в Италию когда-нибудь.\n\nПосле трех дней в Риме мы сели на поезд во Флоренцию. Город нас полностью очаровал. Мы посетили галерею Уффици и увидели шедевры Боттичелли и Леонардо да Винчи. Лаура купила много сувениров: кожаные сумки, украшения и шоколад.\n\nНашим последним пунктом назначения была Венеция. Мы прибыли на вапоретто из аэропорта. Плавучий город оставил нас без слов. Мы катались на гондоле по каналам, посетили базилику Сан-Марко и терялись по очаровательным улочкам.\n\nПутешествие длилось десять дней. Когда мы вернулись в Испанию, мы были уставшими, но счастливыми. Мы до сих пор говорим о том путешествии и смотрим фотографии с ностальгией. Я определенно хочу вернуться.',
+      audioUrl: '/audio/lesson-4-2-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'El verano pasado realicé el viaje de mis sueños.' },
+        { start: 5, end: 10, text: 'Fui a Italia con mi mejor amiga Laura.' },
+        { start: 10, end: 15, text: 'Nuestro primer destino fue Roma.' },
+        { start: 15, end: 20, text: 'Visitamos el Coliseo. ¡Fue impresionante!' }
+      ]
     },
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5']
   },
@@ -935,7 +1039,14 @@ Los domingos comíamos en casa de mis abuelos. Mi abuela cocinaba platos delicio
 En verano íbamos a la playa. Pasábamos todo el mes de agosto en un apartamento pequeño en Málaga. Mis padres alquilaban el mismo apartamento cada año. Estaba a cinco minutos de la playa. Todos los días nadábamos, construíamos castillos de arena y jugábamos al voleibol. Por las noches paseábamos por el paseo marítimo y comíamos helado.
 
 Ahora vivo en Madrid. Trabajo en una oficina y mi vida es muy diferente. Pero cuando vuelvo al pueblo y veo el olivo de mi infancia, todos esos recuerdos vuelven. Me siento otra vez ese niño feliz que jugaba sin preocupaciones.`,
-      translation: 'Когда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена...'
+      translation: 'Воспоминания о моем детстве\n\nКогда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена.\n\nЯ жил в маленькой деревне недалеко от Гранады. Наш дом был старинным, но уютным. У него был огромный сад, где мы с братом играли часами. Там было большое дерево - вековая олива - где мы построили дом на дереве. Это было наше секретное место.\n\nКаждый день я вставал рано. Моя мать готовила завтрак, пока я одевался. Обычно мы пили горячий шоколад с чуррос. Потом я шел в школу пешком. Дорога занимала около двадцати минут, но мне нравилось, потому что я проходил через парк и видел птиц.\n\nВ школе у меня было много друзей. Моего лучшего друга звали Карлос. Мы были неразлучны. Мы всегда сидели вместе и делились нашими полдниками. После занятий мы играли в футбол во дворе. Я был вратарем, а Карлос нападающим. Мы составляли отличную команду.\n\nВыходные были особенными. По субботам утром я ходил на рынок с бабушкой. Она покупала свежие овощи и разговаривала со всеми продавцами. Она знала всех. Она покупала мне сладости - всегда одни и те же: мятные леденцы.\n\nПо воскресеньям мы ели в доме моих бабушки и дедушки. Моя бабушка готовила вкусные блюда: паэлью, кocido, гаспачо летом. Вся семья собиралась: дяди, тети, двоюродные братья. После еды мой дедушка рассказывал нам истории о том, когда он был молодым. Мы слушали, зачарованные.\n\nЛетом мы ездили на пляж. Мы проводили весь август в маленькой квартире в Малаге. Мои родители арендовали ту же квартиру каждый год. Она была в пяти минутах от пляжа. Каждый день мы плавали, строили замки из песка и играли в волейбол. По вечерам мы гуляли по набережной и ели мороженое.\n\nТеперь я живу в Мадриде. Я работаю в офисе, и моя жизнь очень отличается. Но когда я возвращаюсь в деревню и вижу оливу моего детства, все эти воспоминания возвращаются. Я снова чувствую себя тем счастливым ребенком, который играл беззаботно.',
+      audioUrl: '/audio/lesson-4-3-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Cuando pienso en mi infancia, siempre sonrío.' },
+        { start: 5, end: 10, text: 'Vivía en un pueblo pequeño cerca de Granada.' },
+        { start: 10, end: 15, text: 'Todos los días me levantaba temprano.' },
+        { start: 15, end: 20, text: 'En la escuela tenía muchos amigos.' }
+      ]
     },
     exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5']
   },
