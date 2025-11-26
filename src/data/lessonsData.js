@@ -876,6 +876,354 @@ Ahora vivo en Madrid. Trabajo en una oficina y mi vida es muy diferente. Pero cu
       translation: 'Когда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена...'
     },
     exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5']
+  },
+
+  // МОДУЛЬ 5: Путешествия и места (A2)
+  'lesson-5-1': {
+    id: 'lesson-5-1',
+    title: 'Урок 1: Транспорт и направления',
+    moduleId: 'module-5',
+    grammar: {
+      title: 'Предлоги места и направления',
+      content: `
+# Предлоги места и направления
+
+## Предлоги места (dónde):
+
+| Испанский | Русский | Пример |
+|-----------|---------|--------|
+| **en** | в, на | Estoy **en** casa |
+| **a** | в, на (направление) | Voy **a** Madrid |
+| **de** | из | Vengo **de** Barcelona |
+| **cerca de** | рядом с | Vivo **cerca de** la estación |
+| **lejos de** | далеко от | Está **lejos del** centro |
+| **delante de** | перед | **Delante del** hotel |
+| **detrás de** | за, позади | **Detrás de** la iglesia |
+| **al lado de** | рядом с | **Al lado del** museo |
+| **enfrente de** | напротив | **Enfrente de** la plaza |
+| **entre** | между | **Entre** el banco y la farmacia |
+
+## IR + A (направление):
+- Voy **a** la playa (Я иду на пляж)
+- Vas **al** aeropuerto (Ты едешь в аэропорт)
+- Van **a** España (Они едут в Испанию)
+
+## Транспорт:
+
+**EN + транспорт (внутри):**
+- **en coche** (на машине)
+- **en tren** (на поезде)
+- **en avión** (на самолёте)
+- **en autobús** (на автобусе)
+- **en metro** (на метро)
+- **en barco** (на корабле)
+
+**A + без транспорта:**
+- **a pie** (пешком)
+- **a caballo** (на лошади)
+
+## Глаголы движения:
+
+- **ir** (идти, ехать)
+- **venir** (приходить, приезжать)
+- **llegar** (прибывать)
+- **salir** (уходить, выезжать)
+- **viajar** (путешествовать)
+- **caminar** (идти пешком)
+
+## Давать указания:
+
+- **Sigue recto** - Иди прямо
+- **Gira a la derecha** - Поверни направо
+- **Gira a la izquierda** - Поверни налево
+- **Cruza la calle** - Перейди улицу
+- **Está a dos calles** - Через две улицы
+      `,
+      examples: [
+        { spanish: 'Voy a la estación en metro', translation: 'Я еду на станцию на метро' },
+        { spanish: 'El hotel está cerca del aeropuerto', translation: 'Отель находится рядом с аэропортом' },
+        { spanish: 'Viajamos a Italia en avión', translation: 'Мы летим в Италию на самолёте' },
+        { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
+      ]
+    },
+    vocabulary: [
+      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
+      { word: 'estación', translation: 'станция, вокзал', audioUrl: null },
+      { word: 'tren', translation: 'поезд', audioUrl: null },
+      { word: 'avión', translation: 'самолёт', audioUrl: null },
+      { word: 'autobús', translation: 'автобус', audioUrl: null },
+      { word: 'metro', translation: 'метро', audioUrl: null },
+      { word: 'taxi', translation: 'такси', audioUrl: null },
+      { word: 'billete', translation: 'билет', audioUrl: null },
+      { word: 'maleta', translation: 'чемодан', audioUrl: null },
+      { word: 'mochila', translation: 'рюкзак', audioUrl: null },
+      { word: 'mapa', translation: 'карта', audioUrl: null },
+      { word: 'derecha', translation: 'право', audioUrl: null },
+      { word: 'izquierda', translation: 'лево', audioUrl: null },
+      { word: 'recto', translation: 'прямо', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Un día en Barcelona',
+      content: `Hoy es mi primer día en Barcelona y estoy muy emocionado. He llegado al aeropuerto de El Prat esta mañana a las 10. Desde el aeropuerto he tomado el tren hasta la estación de Sants. El viaje ha durado unos 25 minutos y ha costado 4 euros. Es muy conveniente.
+
+Mi hotel está en el centro, cerca de la Plaza de Catalunya. Desde Sants he tomado el metro - la línea verde hasta Passeig de Gràcia. Mi hotel está a solo dos calles de allí, entre una librería antigua y una cafetería con terraza. Es un hotel pequeño pero acogedor.
+
+Después de dejar mi maleta en la habitación, he decidido explorar la ciudad a pie. Barcelona es perfecta para caminar. He empezado por Las Ramblas, la calle más famosa de la ciudad. Está llena de turistas, artistas callejeros y vendedores de flores. El ambiente es increíble.
+
+He caminado hasta el Barrio Gótico. Las calles son estrechas y medievales. Me he perdido varias veces, pero cada esquina tiene algo interesante. He encontrado la Catedral de Barcelona - es impresionante. Está en una plaza grande rodeada de edificios históricos.
+
+Para el almuerzo he ido a un restaurante tradicional al lado del mercado de La Boquería. He comido paella de mariscos y he bebido sangría. Delicioso. El mercado está enfrente del restaurante y he entrado a ver. Hay frutas exóticas, jamones ibéricos, quesos artesanales... es un paraíso gastronómico.
+
+Por la tarde he tomado el autobús turístico para ver la Sagrada Familia. Está un poco lejos del centro, pero el autobús para justo delante. La basílica de Gaudí es espectacular. He sacado muchas fotos.
+
+Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la playa de la Barceloneta. He comprado un billete de metro para tres días. Barcelona me encanta. Es una ciudad perfecta para viajar.`,
+      translation: 'Сегодня мой первый день в Барселоне и я очень взволнован. Я прилетел в аэропорт Эль-Прат сегодня утром в 10...'
+    },
+    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5']
+  },
+
+  'lesson-5-2': {
+    id: 'lesson-5-2',
+    title: 'Урок 2: В отеле и ресторане',
+    moduleId: 'module-5',
+    grammar: {
+      title: 'Условное наклонение (Condicional simple)',
+      content: `
+# Condicional simple (Условное наклонение)
+
+## Образование:
+**Инфинитив + окончания**
+
+| Лицо | Окончание | Hablar | Comer | Vivir |
+|------|-----------|--------|-------|-------|
+| yo | -ía | hablaría | comería | viviría |
+| tú | -ías | hablarías | comerías | vivirías |
+| él/ella/usted | -ía | hablaría | comería | viviría |
+| nosotros/as | -íamos | hablaríamos | comeríamos | viviríamos |
+| vosotros/as | -íais | hablaríais | comeríais | viviríais |
+| ellos/ellas/ustedes | -ían | hablarían | comerían | vivirían |
+
+## Неправильные основы:
+
+| Инфинитив | Основа | Пример |
+|-----------|--------|--------|
+| hacer | har- | haría |
+| decir | dir- | diría |
+| poder | podr- | podría |
+| poner | pondr- | pondría |
+| salir | saldr- | saldría |
+| tener | tendr- | tendría |
+| venir | vendr- | vendría |
+| saber | sabr- | sabría |
+| querer | querr- | querría |
+| haber | habr- | habría |
+
+## Употребление:
+
+1. **Вежливые просьбы:**
+   - ¿**Podría** ayudarme? (Могли бы вы мне помочь?)
+   - **Me gustaría** una habitación (Я хотел бы номер)
+   - ¿**Tendría** una mesa libre? (У вас есть свободный столик?)
+
+2. **Советы:**
+   - **Deberías** visitar el museo (Тебе следует посетить музей)
+   - Yo **comería** la paella (Я бы съел паэлью)
+
+3. **Условия (с SI):**
+   - Si tuviera dinero, **viajaría** por el mundo
+   - Si pudiera, **me quedaría** más tiempo
+
+## Полезные фразы для отеля:
+
+- **¿Tiene habitaciones libres?** - У вас есть свободные номера?
+- **Quisiera reservar una habitación** - Я хотел бы забронировать номер
+- **¿Cuánto cuesta por noche?** - Сколько стоит за ночь?
+- **¿Está incluido el desayuno?** - Завтрак включён?
+- **¿A qué hora es el check-out?** - Во сколько выселение?
+
+## Полезные фразы для ресторана:
+
+- **¿Me podría traer el menú?** - Не могли бы вы принести меню?
+- **Quisiera pedir...** - Я хотел бы заказать...
+- **¿Qué me recomendaría?** - Что вы бы мне порекомендовали?
+- **La cuenta, por favor** - Счёт, пожалуйста
+      `,
+      examples: [
+        { spanish: '¿Podría darme una habitación con vistas al mar?', translation: 'Могли бы вы дать мне номер с видом на море?' },
+        { spanish: 'Me gustaría reservar para dos personas', translation: 'Я хотел бы забронировать на двоих' },
+        { spanish: '¿Qué me recomendaría del menú?', translation: 'Что бы вы порекомендовали из меню?' },
+        { spanish: 'Querríamos una mesa para cuatro', translation: 'Мы хотели бы столик на четверых' }
+      ]
+    },
+    vocabulary: [
+      { word: 'hotel', translation: 'отель', audioUrl: null },
+      { word: 'habitación', translation: 'номер (в отеле)', audioUrl: null },
+      { word: 'reserva', translation: 'бронь', audioUrl: null },
+      { word: 'recepción', translation: 'рецепция', audioUrl: null },
+      { word: 'llave', translation: 'ключ', audioUrl: null },
+      { word: 'restaurante', translation: 'ресторан', audioUrl: null },
+      { word: 'menú', translation: 'меню', audioUrl: null },
+      { word: 'camarero/a', translation: 'официант/ка', audioUrl: null },
+      { word: 'cuenta', translation: 'счёт', audioUrl: null },
+      { word: 'propina', translation: 'чаевые', audioUrl: null },
+      { word: 'plato', translation: 'блюдо', audioUrl: null },
+      { word: 'postre', translation: 'десерт', audioUrl: null },
+      { word: 'vino', translation: 'вино', audioUrl: null },
+      { word: 'agua', translation: 'вода', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Experiencia en un hotel español',
+      content: `Cuando llegué al Hotel Mediterráneo en Valencia, estaba un poco nerviosa. Era mi primera vez viajando sola por España. Pero desde el primer momento todo fue perfecto.
+
+En la recepción me atendió una señora muy amable. Le dije: "Buenas tardes, tengo una reserva a nombre de Elena Petrov." Ella sonrió y me respondió: "Bienvenida, señorita Petrov. ¿Me podría mostrar su pasaporte, por favor?"
+
+Mientras ella preparaba mi habitación, me preguntó: "¿Le gustaría una habitación con vistas al mar o al jardín?" Le respondí que preferiría vistas al mar. "Excelente elección", dijo ella. "Le daría la habitación 305. Tiene un balcón precioso."
+
+Me explicó que el desayuno estaba incluido y se servía de 7 a 11 de la mañana en el restaurante del tercer piso. También me informó que el hotel tenía piscina, gimnasio y spa. Me dio la llave y un empleado llevó mi maleta a la habitación.
+
+La habitación era hermosa. Tenía una cama grande, un escritorio, un sofá y un baño moderno. Desde el balcón se veía el mar Mediterráneo. Era espectacular.
+
+Esa noche decidí cenar en el restaurante del hotel. El camarero fue muy atento. Me preguntó: "¿Qué le gustaría beber?" Pedí una copa de vino blanco. Luego me dijo: "De primer plato le recomendaría la ensalada valenciana o el gazpacho. De segundo, nuestra especialidad es la paella de mariscos."
+
+Seguí su consejo y pedí el gazpacho y la paella. Estaba delicioso. De postre probé la crema catalana - un postre típico de la región. Todo fue perfecto.
+
+Al día siguiente, en el desayuno, había una gran variedad: frutas frescas, yogures, panes, jamón ibérico, quesos, zumos naturales... Comí en la terraza disfrutando de las vistas.
+
+Antes de salir a explorar la ciudad, pregunté en recepción: "¿Me podría recomendar lugares para visitar?" La recepcionista me dio un mapa y marcó los lugares imprescindibles: la Ciudad de las Artes y las Ciencias, la Catedral, el Mercado Central y la playa de la Malvarrosa.
+
+Después de tres días maravillosos, llegó el momento de hacer el check-out. Le dije a la recepcionista: "Ha sido una estancia perfecta. Muchas gracias por todo." Ella me respondió: "El placer fue nuestro. Esperamos verla pronto de nuevo."
+
+Sin duda volvería a ese hotel. El servicio fue excelente y todo el personal muy profesional y amable.`,
+      translation: 'Когда я приехала в отель Mediterráneo в Валенсии, я была немного нервной. Это был мой первый раз путешествия по Испании в одиночку...'
+    },
+    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5']
+  },
+
+  'lesson-5-3': {
+    id: 'lesson-5-3',
+    title: 'Урок 3: Достопримечательности',
+    moduleId: 'module-5',
+    grammar: {
+      title: 'Сравнительная и превосходная степень',
+      content: `
+# Сравнительная и превосходная степень
+
+## Сравнительная степень:
+
+**MÁS + прилагательное + QUE** (более... чем):
+- Madrid es **más grande que** Valencia
+- Este museo es **más interesante que** aquel
+
+**MENOS + прилагательное + QUE** (менее... чем):
+- Este hotel es **menos caro que** el otro
+- Barcelona es **menos calurosa que** Sevilla
+
+**TAN + прилагательное + COMO** (такой же... как):
+- Esta iglesia es **tan antigua como** la catedral
+- El parque es **tan bonito como** el jardín
+
+## Неправильные формы:
+
+| Прилагательное | Сравнительная | Перевод |
+|----------------|---------------|---------|
+| bueno | mejor | лучше |
+| malo | peor | хуже |
+| grande | mayor | больше |
+| pequeño | menor | меньше |
+
+**Примеры:**
+- Este restaurante es **mejor que** ese
+- Esta habitación es **peor que** la otra
+
+## Превосходная степень:
+
+**EL/LA/LOS/LAS + MÁS/MENOS + прилагательное (+ DE)**:
+- **La más** bonita ciudad **de** España
+- **El más** famoso museo **del** mundo
+- **Los más** importantes monumentos
+
+**Con неправильными формами:**
+- **El mejor** hotel de la ciudad
+- **La peor** experiencia de mi vida
+- **El mayor** parque de Barcelona
+
+## TANTO/TAN (столько):
+
+**TAN + прилагательное:**
+- Es **tan** hermoso
+
+**TANTO/A/OS/AS + существительное:**
+- Hay **tantos** turistas
+- Tiene **tanta** historia
+
+## Полезная лексика для описания мест:
+
+**Положительные:**
+- impresionante (впечатляющий)
+- hermoso/a (прекрасный)
+- espectacular (потрясающий)
+- histórico/a (исторический)
+- pintoresco/a (живописный)
+
+**Размеры:**
+- enorme (огромный)
+- grande (большой)
+- pequeño/a (маленький)
+- espacioso/a (просторный)
+
+**Характеристики:**
+- antiguo/a (старинный)
+- moderno/a (современный)
+- famoso/a (знаменитый)
+- popular (популярный)
+      `,
+      examples: [
+        { spanish: 'La Sagrada Familia es el monumento más famoso de Barcelona', translation: 'Саграда Фамилия - самый знаменитый памятник Барселоны' },
+        { spanish: 'Este museo es tan interesante como aquel', translation: 'Этот музей такой же интересный, как и тот' },
+        { spanish: 'Madrid tiene más museos que Valencia', translation: 'В Мадриде больше музеев, чем в Валенсии' },
+        { spanish: 'Es la mejor paella que he comido', translation: 'Это лучшая паэлья, которую я ел' }
+      ]
+    },
+    vocabulary: [
+      { word: 'monumento', translation: 'памятник', audioUrl: null },
+      { word: 'museo', translation: 'музей', audioUrl: null },
+      { word: 'catedral', translation: 'собор', audioUrl: null },
+      { word: 'iglesia', translation: 'церковь', audioUrl: null },
+      { word: 'castillo', translation: 'замок', audioUrl: null },
+      { word: 'palacio', translation: 'дворец', audioUrl: null },
+      { word: 'plaza', translation: 'площадь', audioUrl: null },
+      { word: 'parque', translation: 'парк', audioUrl: null },
+      { word: 'playa', translation: 'пляж', audioUrl: null },
+      { word: 'centro histórico', translation: 'исторический центр', audioUrl: null },
+      { word: 'turista', translation: 'турист', audioUrl: null },
+      { word: 'guía', translation: 'гид', audioUrl: null },
+      { word: 'entrada', translation: 'вход, билет', audioUrl: null },
+      { word: 'recorrido', translation: 'маршрут, экскурсия', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Las maravillas de España',
+      content: `España es uno de los países más visitados del mundo, y no es difícil entender por qué. Tiene una increíble combinación de historia, cultura, gastronomía y belleza natural.
+
+Para mí, la ciudad más impresionante de España es Granada. La Alhambra es el monumento más espectacular que he visto en mi vida. Es un palacio y fortaleza árabe construido en el siglo XIII. Los jardines del Generalife son tan hermosos como el palacio mismo. Desde allí se ve toda la ciudad y las montañas de Sierra Nevada. Es mejor visitarla en primavera cuando hace buen tiempo pero no hay tantos turistas como en verano.
+
+Barcelona es probablemente la ciudad más famosa de España. La arquitectura de Gaudí es única en el mundo. La Sagrada Familia es más grande de lo que imaginaba - lleva más de 140 años en construcción y todavía no está terminada. El Parque Güell es menos conocido pero igualmente fascinante. Las vistas desde allí son espectaculares.
+
+Madrid, la capital, tiene los mejores museos de España. El Museo del Prado es tan importante como el Louvre de París. Tiene obras maestras de Velázquez, Goya y El Greco. El Museo Reina Sofía es más moderno y alberga el famoso "Guernica" de Picasso. La ciudad es más grande que Barcelona pero menos turística.
+
+Sevilla es la ciudad más calurosa de España, especialmente en verano. La Catedral de Sevilla es la más grande de estilo gótico en el mundo. La Giralda, su campanario, era originalmente un minarete árabe. El barrio de Santa Cruz es el más pintoresco de la ciudad, con sus calles estrechas y patios llenos de flores.
+
+Valencia es menos conocida que Barcelona o Madrid, pero no menos interesante. La Ciudad de las Artes y las Ciencias es el complejo arquitectónico más moderno de España. Fue diseñado por Santiago Calatrava y es tan impresionante de día como de noche. Valencia también es famosa por su playa urbana - la Malvarrosa es una de las mejores playas urbanas de Europa.
+
+No puedo olvidar Toledo, la ciudad medieval mejor conservada de España. Sus calles son tan estrechas que apenas pasa un coche. La catedral es una de las más ricas de España en arte. Desde el Mirador del Valle se tiene la vista más completa de la ciudad.
+
+Santiago de Compostela, en Galicia, es el destino más importante de peregrinación cristiana después de Roma y Jerusalén. La catedral es impresionante y la plaza del Obradoiro es una de las más bonitas de Europa.
+
+Cada región de España es diferente. El norte es más verde y lluvioso, el sur más caluroso y seco. La comida del norte es tan buena como la del sur, pero completamente diferente. En el norte se come más pescado y marisco, en el sur más jamón y aceite de oliva.
+
+Para mí, España es el país más diverso de Europa. Tiene playas mejores que Italia, montañas tan altas como en Suiza, y una cultura tan rica como Francia. No es sorprendente que sea uno de los destinos turísticos más populares del mundo.`,
+      translation: 'Испания - одна из самых посещаемых стран в мире, и нетрудно понять почему...'
+    },
+    exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-3', 'ex-5-3-4', 'ex-5-3-5']
   }
 }
 
@@ -1458,6 +1806,199 @@ María: Muy bien, gracias.
       { russian: 'Вчера я купил машину', correct: 'ayer compré un coche' },
       { russian: 'Каждый день я читал газету', correct: 'cada día leía el periódico' },
       { russian: 'Они приехали в 5 часов', correct: 'llegaron a las cinco' }
+    ]
+  },
+
+  // МОДУЛЬ 5: Путешествия и места
+  'ex-5-1-1': {
+    id: 'ex-5-1-1',
+    type: 'vocabulary',
+    title: 'Транспорт',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'avión', options: ['автобус', 'самолёт', 'поезд', 'такси'], correct: 1 },
+      { spanish: 'tren', options: ['метро', 'автобус', 'поезд', 'машина'], correct: 2 },
+      { spanish: 'aeropuerto', options: ['вокзал', 'аэропорт', 'гостиница', 'музей'], correct: 1 },
+      { spanish: 'billete', options: ['чемодан', 'карта', 'билет', 'ключ'], correct: 2 },
+      { spanish: 'maleta', options: ['рюкзак', 'сумка', 'чемодан', 'карта'], correct: 2 }
+    ]
+  },
+  'ex-5-1-2': {
+    id: 'ex-5-1-2',
+    type: 'grammar',
+    title: 'Предлоги места',
+    description: 'Выберите правильный предлог',
+    questions: [
+      { sentence: 'El hotel está ___ la estación', options: ['cerca de', 'lejos', 'entre', 'desde'], correct: 0 },
+      { sentence: 'Voy ___ Madrid', options: ['en', 'a', 'de', 'por'], correct: 1 },
+      { sentence: 'La farmacia está ___ del banco', options: ['lejos', 'cerca', 'enfrente', 'entre'], correct: 2 },
+      { sentence: 'Viajo ___ avión', options: ['a', 'de', 'en', 'por'], correct: 2 },
+      { sentence: 'El museo está ___ la iglesia y el hotel', options: ['cerca', 'entre', 'enfrente', 'delante'], correct: 1 }
+    ]
+  },
+  'ex-5-1-3': {
+    id: 'ex-5-1-3',
+    type: 'reading',
+    title: 'Чтение: Un día en Barcelona',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'He llegado al aeropuerto de El Prat. He tomado el tren hasta Sants y después el metro hasta Passeig de Gràcia. Mi hotel está cerca de la Plaza de Catalunya. He visitado Las Ramblas y el Barrio Gótico. La Sagrada Familia está lejos del centro.',
+    questions: [
+      { question: 'Как автор добрался из аэропорта?', options: ['На такси', 'На поезде', 'На автобусе', 'Пешком'], correct: 1 },
+      { question: 'Где находится отель?', options: ['У вокзала', 'У аэропорта', 'У Plaza de Catalunya', 'У пляжа'], correct: 2 },
+      { question: 'Какие места посетил автор?', options: ['Музеи', 'Las Ramblas и Barrio Gótico', 'Пляжи', 'Парки'], correct: 1 },
+      { question: 'Где находится Sagrada Familia?', options: ['В центре', 'Далеко от центра', 'Рядом с отелем', 'У вокзала'], correct: 1 }
+    ]
+  },
+  'ex-5-1-4': {
+    id: 'ex-5-1-4',
+    type: 'fillblank',
+    title: 'Направления',
+    description: 'Заполните пропуски предлогами',
+    questions: [
+      { sentence: 'Voy _____ la playa en autobús', verb: 'a/en', correct: 'a' },
+      { sentence: 'El hotel está _____ del aeropuerto', verb: 'cerca/lejos', correct: 'cerca' },
+      { sentence: 'Viajamos _____ tren', verb: 'en/a', correct: 'en' },
+      { sentence: 'La estación está _____ de la plaza', verb: 'enfrente', correct: 'enfrente' }
+    ]
+  },
+  'ex-5-1-5': {
+    id: 'ex-5-1-5',
+    type: 'writing',
+    title: 'Как добраться',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Я еду в аэропорт на метро', correct: 'voy al aeropuerto en metro' },
+      { russian: 'Отель рядом со станцией', correct: 'el hotel está cerca de la estación' },
+      { russian: 'Мы путешествуем на поезде', correct: 'viajamos en tren' },
+      { russian: 'Поверни направо', correct: 'gira a la derecha' }
+    ]
+  },
+
+  'ex-5-2-1': {
+    id: 'ex-5-2-1',
+    type: 'grammar',
+    title: 'Condicional simple - формы',
+    description: 'Выберите правильную форму условного наклонения',
+    questions: [
+      { sentence: 'Yo ___ (viajar) más si tuviera tiempo', options: ['viajaría', 'viajarías', 'viajaríamos', 'viajarían'], correct: 0 },
+      { sentence: '¿___ (poder-tú) ayudarme?', options: ['podría', 'podrías', 'podríamos', 'podrían'], correct: 1 },
+      { sentence: 'Nosotros ___ (comer) paella', options: ['comería', 'comerías', 'comeríamos', 'comerían'], correct: 2 },
+      { sentence: 'Me ___ (gustar) una habitación con vistas', options: ['gustaría', 'gustarías', 'gustaríamos', 'gustarían'], correct: 0 },
+      { sentence: 'Ellos ___ (querer) reservar una mesa', options: ['querría', 'querrías', 'querríamos', 'querrían'], correct: 3 }
+    ]
+  },
+  'ex-5-2-2': {
+    id: 'ex-5-2-2',
+    type: 'vocabulary',
+    title: 'Отель и ресторан',
+    description: 'Сопоставьте слова с переводом',
+    questions: [
+      { spanish: 'habitación', options: ['ключ', 'номер', 'рецепция', 'завтрак'], correct: 1 },
+      { spanish: 'camarero', options: ['повар', 'официант', 'гид', 'турист'], correct: 1 },
+      { spanish: 'cuenta', options: ['меню', 'счёт', 'чаевые', 'блюдо'], correct: 1 },
+      { spanish: 'llave', options: ['номер', 'бронь', 'ключ', 'чемодан'], correct: 2 },
+      { spanish: 'menú', options: ['счёт', 'блюдо', 'меню', 'десерт'], correct: 2 }
+    ]
+  },
+  'ex-5-2-3': {
+    id: 'ex-5-2-3',
+    type: 'fillblank',
+    title: 'Вежливые просьбы',
+    description: 'Вставьте condicional для вежливой просьбы',
+    questions: [
+      { sentence: '¿_____ (poder) darme una habitación?', verb: 'poder', correct: 'podría' },
+      { sentence: 'Me _____ (gustar) reservar una mesa', verb: 'gustar', correct: 'gustaría' },
+      { sentence: '¿Qué me _____ (recomendar)?', verb: 'recomendar', correct: 'recomendaría' },
+      { sentence: '_____ (querer) una habitación doble', verb: 'querer', correct: 'querría' }
+    ]
+  },
+  'ex-5-2-4': {
+    id: 'ex-5-2-4',
+    type: 'reading',
+    title: 'Чтение: En el hotel',
+    description: 'Ответьте на вопросы',
+    text: 'Llegué al Hotel Mediterráneo. En recepción me preguntaron si prefería vistas al mar o al jardín. Elegí vistas al mar. La habitación tenía un balcón precioso. El desayuno estaba incluido. En el restaurante, el camarero me recomendó la paella de mariscos.',
+    questions: [
+      { question: 'Что спросили в рецепции?', options: ['Имя', 'Паспорт', 'Вид из окна', 'Время приезда'], correct: 2 },
+      { question: 'Что выбрал автор?', options: ['Вид на сад', 'Вид на море', 'Вид на горы', 'Вид на город'], correct: 1 },
+      { question: 'Что было включено?', options: ['Завтрак', 'Обед', 'Ужин', 'Бассейн'], correct: 0 },
+      { question: 'Что порекомендовал официант?', options: ['Газпачо', 'Паэлья с морепродуктами', 'Пицца', 'Салат'], correct: 1 }
+    ]
+  },
+  'ex-5-2-5': {
+    id: 'ex-5-2-5',
+    type: 'writing',
+    title: 'В ресторане',
+    description: 'Переведите вежливые просьбы',
+    questions: [
+      { russian: 'Могли бы вы принести меню?', correct: 'podría traer el menú' },
+      { russian: 'Я хотел бы забронировать столик', correct: 'me gustaría reservar una mesa' },
+      { russian: 'Что вы порекомендуете?', correct: 'qué me recomendaría' },
+      { russian: 'Счёт, пожалуйста', correct: 'la cuenta por favor' }
+    ]
+  },
+
+  'ex-5-3-1': {
+    id: 'ex-5-3-1',
+    type: 'grammar',
+    title: 'Сравнительная степень',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Madrid es ___ grande ___ Valencia', options: ['más...que', 'menos...que', 'tan...como', 'muy...de'], correct: 0 },
+      { sentence: 'Este museo es ___ interesante ___ aquel', options: ['más...de', 'menos...que', 'tan...como', 'muy...que'], correct: 2 },
+      { sentence: 'La Sagrada Familia es el monumento ___ famoso', options: ['más', 'menos', 'tan', 'muy'], correct: 0 },
+      { sentence: 'Este hotel es ___ que ese (лучше)', options: ['más bueno', 'mejor', 'bueno', 'muy bueno'], correct: 1 },
+      { sentence: 'Hay ___ turistas en verano', options: ['tan', 'tanto', 'tantos', 'tanta'], correct: 2 }
+    ]
+  },
+  'ex-5-3-2': {
+    id: 'ex-5-3-2',
+    type: 'vocabulary',
+    title: 'Достопримечательности',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'catedral', options: ['церковь', 'собор', 'музей', 'замок'], correct: 1 },
+      { spanish: 'castillo', options: ['дворец', 'замок', 'музей', 'парк'], correct: 1 },
+      { spanish: 'plaza', options: ['пляж', 'парк', 'площадь', 'улица'], correct: 2 },
+      { spanish: 'entrada', options: ['выход', 'вход', 'площадь', 'гид'], correct: 1 },
+      { spanish: 'guía', options: ['турист', 'билет', 'карта', 'гид'], correct: 3 }
+    ]
+  },
+  'ex-5-3-3': {
+    id: 'ex-5-3-3',
+    type: 'grammar',
+    title: 'Превосходная степень',
+    description: 'Составьте превосходную степень',
+    questions: [
+      { sentence: '___ ciudad más bonita de España', options: ['La', 'El', 'Los', 'Las'], correct: 0 },
+      { sentence: 'El ___ museo del mundo', options: ['más famoso', 'famoso más', 'muy famoso', 'tan famoso'], correct: 0 },
+      { sentence: 'La ___ experiencia (mejor)', options: ['más buena', 'buena más', 'mejor', 'muy buena'], correct: 2 },
+      { sentence: 'Los monumentos ___ importantes', options: ['muy', 'más', 'tan', 'tanto'], correct: 1 }
+    ]
+  },
+  'ex-5-3-4': {
+    id: 'ex-5-3-4',
+    type: 'reading',
+    title: 'Чтение: Ciudades españolas',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'Granada es la ciudad más impresionante de España. La Alhambra es el monumento más espectacular. Barcelona es más famosa que Valencia. Madrid tiene los mejores museos. Sevilla es más calurosa que Barcelona. El Museo del Prado es tan importante como el Louvre.',
+    questions: [
+      { question: 'Какой город самый впечатляющий?', options: ['Барселона', 'Мадрид', 'Гранада', 'Севилья'], correct: 2 },
+      { question: 'Какой музей сравнивают с Лувром?', options: ['Reina Sofía', 'Prado', 'Guggenheim', 'Picasso'], correct: 1 },
+      { question: 'Где лучшие музеи?', options: ['В Барселоне', 'В Мадриде', 'В Севилье', 'В Валенсии'], correct: 1 },
+      { question: 'Какой город более жаркий?', options: ['Барселона', 'Севилья', 'Мадрид', 'Валенсия'], correct: 1 }
+    ]
+  },
+  'ex-5-3-5': {
+    id: 'ex-5-3-5',
+    type: 'writing',
+    title: 'Сравнения',
+    description: 'Переведите сравнения на испанский',
+    questions: [
+      { russian: 'Мадрид больше чем Валенсия', correct: 'Madrid es más grande que Valencia' },
+      { russian: 'Самый знаменитый памятник', correct: 'el monumento más famoso' },
+      { russian: 'Такой же интересный как', correct: 'tan interesante como' },
+      { russian: 'Лучший отель города', correct: 'el mejor hotel de la ciudad' }
     ]
   }
 }
