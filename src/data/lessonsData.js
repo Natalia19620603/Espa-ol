@@ -1624,6 +1624,428 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
       translation: 'Каким будет мир в 2050 году? Эксперты делают много предсказаний о том, как мы будем жить через 25 лет...'
     },
     exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
+  },
+
+  // МОДУЛЬ 7: Сослагательное наклонение (B1)
+  'lesson-7-1': {
+    id: 'lesson-7-1',
+    title: 'Урок 1: Presente de subjuntivo - образование',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Presente de subjuntivo (Настоящее время сослагательного наклонения)',
+      content: `
+# Presente de subjuntivo - Образование
+
+Subjuntivo (сослагательное наклонение) выражает субъективность: желания, сомнения, эмоции, неуверенность.
+
+## Образование:
+
+**1. Берем форму YO настоящего времени (indicativo)**
+**2. Убираем -O**
+**3. Добавляем "противоположные" окончания:**
+
+### Глаголы на -AR → окончания -ER/-IR:
+
+| Лицо | HABLAR | Окончание |
+|------|--------|-----------|
+| yo | hable | -e |
+| tú | hables | -es |
+| él/ella/usted | hable | -e |
+| nosotros/as | hablemos | -emos |
+| vosotros/as | habléis | -éis |
+| ellos/ellas/ustedes | hablen | -en |
+
+### Глаголы на -ER/-IR → окончания -AR:
+
+| Лицо | COMER | VIVIR | Окончание |
+|------|-------|-------|-----------|
+| yo | coma | viva | -a |
+| tú | comas | vivas | -as |
+| él/ella/usted | coma | viva | -a |
+| nosotros/as | comamos | vivamos | -amos |
+| vosotros/as | comáis | viváis | -áis |
+| ellos/ellas/ustedes | coman | vivan | -an |
+
+## Неправильные глаголы (от формы YO):
+
+**Изменения в корне сохраняются:**
+
+| Infinitivo | YO (indicativo) | Subjuntivo |
+|------------|-----------------|------------|
+| tener | tengo | tenga, tengas, tenga... |
+| venir | vengo | venga, vengas, venga... |
+| hacer | hago | haga, hagas, haga... |
+| decir | digo | diga, digas, diga... |
+| conocer | conozco | conozca, conozcas, conozca... |
+| poner | pongo | ponga, pongas, ponga... |
+| salir | salgo | salga, salgas, salga... |
+| traer | traigo | traiga, traigas, traiga... |
+
+**Полностью неправильные:**
+
+| Infinitivo | Subjuntivo |
+|------------|------------|
+| ser | sea, seas, sea, seamos, seáis, sean |
+| estar | esté, estés, esté, estemos, estéis, estén |
+| ir | vaya, vayas, vaya, vayamos, vayáis, vayan |
+| haber | haya, hayas, haya, hayamos, hayáis, hayan |
+| saber | sepa, sepas, sepa, sepamos, sepáis, sepan |
+| dar | dé, des, dé, demos, deis, den |
+
+**Глаголы с изменением гласной (e→ie, o→ue):**
+
+| Infinitivo | Subjuntivo |
+|------------|------------|
+| querer | quiera, quieras, quiera, queramos, queráis, quieran |
+| pensar | piense, pienses, piense, pensemos, penséis, piensen |
+| poder | pueda, puedas, pueda, podamos, podáis, puedan |
+| dormir | duerma, duermas, duerma, durmamos, durmáis, duerman |
+
+## Правило памяти:
+
+**AR ↔ ER/IR меняются местами!**
+- hablar (AR) → habl**e** (как ER)
+- comer (ER) → com**a** (как AR)
+- vivir (IR) → viv**a** (как AR)
+      `,
+      examples: [
+        { spanish: 'Yo hablo (indicativo) → que yo hable (subjuntivo)', translation: 'Я говорю → чтобы я говорил' },
+        { spanish: 'Tú comes → que tú comas', translation: 'Ты ешь → чтобы ты ел' },
+        { spanish: 'Él tiene → que él tenga', translation: 'У него есть → чтобы у него было' },
+        { spanish: 'Nosotros somos → que seamos', translation: 'Мы есть → чтобы мы были' }
+      ]
+    },
+    vocabulary: [
+      { word: 'deseo', translation: 'желание', audioUrl: null },
+      { word: 'duda', translation: 'сомнение', audioUrl: null },
+      { word: 'emoción', translation: 'эмоция', audioUrl: null },
+      { word: 'ojalá', translation: 'хоть бы, если бы', audioUrl: null },
+      { word: 'tal vez', translation: 'может быть', audioUrl: null },
+      { word: 'quizás', translation: 'возможно', audioUrl: null },
+      { word: 'esperar', translation: 'надеяться', audioUrl: null },
+      { word: 'querer', translation: 'хотеть', audioUrl: null },
+      { word: 'necesitar', translation: 'нуждаться', audioUrl: null },
+      { word: 'preferir', translation: 'предпочитать', audioUrl: null },
+      { word: 'sugerir', translation: 'предлагать', audioUrl: null },
+      { word: 'recomendar', translation: 'рекомендовать', audioUrl: null },
+      { word: 'aconsejar', translation: 'советовать', audioUrl: null },
+      { word: 'pedir', translation: 'просить', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Aprendiendo el subjuntivo',
+      content: `El subjuntivo es uno de los aspectos más difíciles del español para los estudiantes extranjeros. Muchos dicen: "Espero que no sea tan complicado" - ¡y ya están usando el subjuntivo sin darse cuenta!
+
+El subjuntivo no es un tiempo verbal, sino un modo. Mientras que el indicativo expresa hechos y certezas, el subjuntivo expresa la subjetividad: deseos, dudas, emociones, posibilidades. Es la diferencia entre el mundo real y el mundo de nuestros pensamientos y sentimientos.
+
+Veamos algunos ejemplos básicos. Cuando dices "Quiero que vengas a mi fiesta", estás usando el subjuntivo ("vengas") porque expresas un deseo. No es un hecho - la persona todavía no ha venido. Compara con "Sé que vienes a mi fiesta" (indicativo) - aquí es un hecho, una certeza.
+
+Otro ejemplo: "Espero que haga buen tiempo mañana". Aquí usamos "haga" (subjuntivo de hacer) porque es una esperanza, no una certeza. El tiempo no está en nuestro control. Si dijéramos "Sé que hará buen tiempo" (futuro indicativo), estaríamos muy seguros.
+
+Las expresiones con "ojalá" siempre llevan subjuntivo. "Ojalá" viene del árabe "law sha Allah" (si Dios quiere). Por ejemplo: "Ojalá apruebe el examen", "Ojalá llueva pronto", "Ojalá tengas un buen día". Son todos deseos.
+
+Cuando expresamos dudas, también usamos subjuntivo: "Dudo que él sepa la respuesta", "No creo que ella venga", "Es posible que llueva". La duda y la incertidumbre son el territorio del subjuntivo.
+
+Las emociones también requieren subjuntivo: "Me alegro de que estés aquí", "Siento que te sientas mal", "Me sorprende que no sepas esto". Nuestras emociones sobre algo son subjetivas, no hechos objetivos.
+
+Para formar el subjuntivo presente, recuerda esta regla sencilla: los verbos -AR toman las terminaciones de -ER/-IR, y viceversa. Es como si los verbos "intercambiaran ropa". HABLAR (AR) se viste como los verbos ER: hable, hables, hable. COMER (ER) se viste como los verbos AR: coma, comas, coma.
+
+Los irregulares siguen el patrón de la primera persona del presente indicativo. Si dices "Yo tengo", el subjuntivo será "que yo tenga". Si dices "Yo hago", será "que yo haga". Hay algunas excepciones totalmente irregulares como SER (sea), ESTAR (esté), IR (vaya), SABER (sepa), pero son pocas.
+
+¿Es difícil? Sí. ¿Es imposible? No. Con práctica y exposición constante, el subjuntivo se vuelve natural. Los hispanohablantes lo usan automáticamente desde niños. Tú también puedes. Solo necesitas que practiques mucho, que leas ejemplos, que escuches español auténtico y que no tengas miedo de cometer errores.
+
+Espero que este texto te ayude a entender mejor el subjuntivo. Ojalá sigas estudiando con entusiasmo. Es importante que no te desanimes. Dudo que sea fácil, pero estoy seguro de que puedes aprenderlo. ¡Que tengas éxito en tu aprendizaje!`,
+      translation: 'Subjuntivo - один из самых сложных аспектов испанского для иностранных студентов...'
+    },
+    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5']
+  },
+
+  'lesson-7-2': {
+    id: 'lesson-7-2',
+    title: 'Урок 2: Употребление subjuntivo - желания и эмоции',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Когда использовать Subjuntivo',
+      content: `
+# Употребление Subjuntivo
+
+## 1. ЖЕЛАНИЯ и ПРОСЬБЫ (QUE + subjuntivo):
+
+**Querer que** (хотеть, чтобы):
+- **Quiero que** vengas - Я хочу, чтобы ты пришел
+- **Queremos que** estudies - Мы хотим, чтобы ты учился
+
+**Esperar que** (надеяться, что):
+- **Espero que** te guste - Надеюсь, тебе понравится
+- **Esperamos que** haga buen tiempo - Надеемся, будет хорошая погода
+
+**Necesitar que** (нуждаться, чтобы):
+- **Necesito que** me ayudes - Мне нужно, чтобы ты мне помог
+
+**Preferir que** (предпочитать, чтобы):
+- **Prefiero que** vengas temprano - Я предпочитаю, чтобы ты пришел рано
+
+## 2. ЭМОЦИИ и ЧУВСТВА:
+
+**Me alegro de que** (я рад, что):
+- **Me alegro de que** estés aquí - Я рад, что ты здесь
+
+**Siento que** (сожалею, что):
+- **Siento que** no puedas venir - Сожалею, что ты не можешь прийти
+
+**Me sorprende que** (меня удивляет, что):
+- **Me sorprende que** no lo sepas - Меня удивляет, что ты это не знаешь
+
+**Tengo miedo de que** (боюсь, что):
+- **Tengo miedo de que** llueva - Боюсь, что пойдет дождь
+
+**Me molesta que** (меня раздражает, что):
+- **Me molesta que** llegues tarde - Меня раздражает, что ты опаздываешь
+
+## 3. СОМНЕНИЯ и ОТРИЦАНИЕ:
+
+**Dudar que** (сомневаться, что):
+- **Dudo que** venga - Сомневаюсь, что он придет
+
+**No creer que** (не верить, что):
+- **No creo que** sea verdad - Не верю, что это правда
+
+**No estar seguro de que** (не быть уверенным, что):
+- **No estoy seguro de que** funcione - Не уверен, что это сработает
+
+**No pensar que** (не думать, что):
+- **No pienso que** tengas razón - Не думаю, что ты прав
+
+⚠️ НО: "Creo que" (indicativo), "Pienso que" (indicativo) - уверенность
+
+## 4. OJALÁ (если бы, хоть бы):
+
+**Ojalá** всегда требует subjuntivo:
+- **Ojalá** llueva - Хоть бы пошел дождь
+- **Ojalá** tengas suerte - Хоть бы тебе повезло
+- **Ojalá** sea verdad - Если бы это было правдой
+
+## 5. БЕЗЛИЧНЫЕ ВЫРАЖЕНИЯ:
+
+**Es importante que** (важно, чтобы):
+- **Es importante que** estudies - Важно, чтобы ты учился
+
+**Es necesario que** (необходимо, чтобы):
+- **Es necesario que** vengas - Необходимо, чтобы ты пришел
+
+**Es posible que** (возможно, что):
+- **Es posible que** llueva - Возможно, пойдет дождь
+
+**Es probable que** (вероятно, что):
+- **Es probable que** llegue tarde - Вероятно, он опоздает
+
+**Es bueno/malo que** (хорошо/плохо, что):
+- **Es bueno que** practiques - Хорошо, что ты практикуешь
+
+**Es una pena que** (жаль, что):
+- **Es una pena que** no puedas venir - Жаль, что ты не можешь прийти
+
+## Структура предложения:
+
+**[Главное предложение] + QUE + [subjuntivo]**
+
+- Quiero + que + tú vengas
+- Espero + que + llueva
+- Me alegro de + que + estés aquí
+
+⚠️ **ВАЖНО:** Если подлежащее одно, используем инфинитив:
+- **Quiero venir** (я хочу прийти - один субъект)
+- **Quiero que vengas** (я хочу, чтобы ТЫ пришел - два субъекта)
+      `,
+      examples: [
+        { spanish: 'Quiero que estudies más', translation: 'Я хочу, чтобы ты учился больше' },
+        { spanish: 'Me alegro de que estés bien', translation: 'Я рад, что ты в порядке' },
+        { spanish: 'Dudo que venga mañana', translation: 'Сомневаюсь, что он придет завтра' },
+        { spanish: 'Ojalá haga buen tiempo', translation: 'Хоть бы была хорошая погода' }
+      ]
+    },
+    vocabulary: [
+      { word: 'alegrarse', translation: 'радоваться', audioUrl: null },
+      { word: 'sentir', translation: 'сожалеть, чувствовать', audioUrl: null },
+      { word: 'sorprender', translation: 'удивлять', audioUrl: null },
+      { word: 'molestar', translation: 'раздражать', audioUrl: null },
+      { word: 'temer', translation: 'бояться', audioUrl: null },
+      { word: 'dudar', translation: 'сомневаться', audioUrl: null },
+      { word: 'creer', translation: 'верить', audioUrl: null },
+      { word: 'importante', translation: 'важный', audioUrl: null },
+      { word: 'necesario', translation: 'необходимый', audioUrl: null },
+      { word: 'posible', translation: 'возможный', audioUrl: null },
+      { word: 'probable', translation: 'вероятный', audioUrl: null },
+      { word: 'pena', translation: 'жалость', audioUrl: null },
+      { word: 'verdad', translation: 'правда', audioUrl: null },
+      { word: 'razón', translation: 'причина, правота', audioUrl: null }
+    },
+    readingText: {
+      title: 'Carta a un amigo',
+      content: `Querido Miguel:
+
+¿Cómo estás? Espero que estés bien y que tu familia también esté bien. Hace mucho tiempo que no nos vemos y te echo de menos.
+
+Te escribo porque quiero que sepas que voy a viajar a Madrid el mes que viene. ¡Tengo tantas ganas de verte! Espero que tengas tiempo libre para que podamos encontrarnos. Sería genial que pudiéramos pasar un fin de semana juntos como en los viejos tiempos.
+
+Me alegro mucho de que hayas conseguido ese nuevo trabajo del que me hablaste. Es importante que estés contento con lo que haces. Espero que tus compañeros sean agradables y que el jefe te trate bien. Ojalá tengas mucho éxito en tu nueva posición.
+
+Sobre mi vida, bueno, hay cambios. Es posible que me mude a otra ciudad pronto. Mi empresa quiere que trabaje en la oficina de Barcelona. No estoy seguro de que sea una buena idea dejar Madrid, pero es una gran oportunidad profesional. Temo que sea difícil adaptarme a una nueva ciudad, pero espero que todo salga bien.
+
+También tengo noticias sobre Laura. ¿Te acuerdas de ella? Pues resulta que está comprometida. Me sorprende que se case tan joven - solo tiene 25 años. Pero me alegro de que haya encontrado a alguien que la haga feliz. Espero que me inviten a la boda. Sería una pena que no pudiéramos estar allí para celebrarlo con ella.
+
+Sobre mis estudios de español, sigo practicando. Mi profesor quiere que lea más en español y que escriba composiciones cada semana. Es necesario que practique la gramática, especialmente el subjuntivo. ¡Es tan difícil! Dudo que algún día lo domine completamente, pero es importante que siga intentándolo.
+
+¿Y tú? ¿Qué tal tu curso de inglés? Espero que hayas progresado mucho. Es fundamental que practiques hablando, no solo estudiando gramática. Te recomiendo que veas series en inglés con subtítulos. Es una forma excelente de aprender.
+
+Bueno, Miguel, espero que esta carta te encuentre bien. Es posible que vaya a Madrid entre el 15 y el 20 de marzo. Ojalá podamos vernos entonces. Por favor, escríbeme pronto. Necesito que me confirmes si estarás libre esas fechas.
+
+Te mando un abrazo fuerte. Espero que tengamos noticias pronto y que nos veamos dentro de poco.
+
+Tu amigo,
+Carlos
+
+P.D.: Es probable que lleve a mi novia Ana. Espero que no te importe que ella venga también. Estoy seguro de que te caerá muy bien.`,
+      translation: 'Дорогой Мигель! Как дела? Надеюсь, у тебя все хорошо и твоя семья тоже в порядке...'
+    },
+    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
+  },
+
+  'lesson-7-3': {
+    id: 'lesson-7-3',
+    title: 'Урок 3: Subjuntivo в придаточных предложениях',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Subjuntivo в разных типах придаточных предложений',
+      content: `
+# Subjuntivo в придаточных предложениях
+
+## 1. ВРЕМЕННЫЕ КОНСТРУКЦИИ (cuando, hasta que, antes de que):
+
+### CUANDO:
+- **Futuro**: Cuando **vengas**, hablaremos (Когда ты придешь, мы поговорим) - **subjuntivo**
+- **Presente/pasado**: Cuando **vienes**, hablamos (Когда ты приходишь, мы говорим) - indicativo
+- **Pasado**: Cuando **viniste**, hablamos (Когда ты пришел, мы поговорили) - indicativo
+
+### HASTA QUE (пока не):
+- Esperaré **hasta que llegues** - Подожду, пока ты не придешь
+
+### ANTES DE QUE (перед тем как):
+- Llámame **antes de que salgas** - Позвони мне перед тем как выйдешь
+- ⚠️ Всегда subjuntivo!
+
+### EN CUANTO / TAN PRONTO COMO (как только):
+- **En cuanto termine**, te llamo - Как только закончу, позвоню
+
+## 2. ЦЕЛЬ (para que, a fin de que):
+
+**PARA QUE** (чтобы, для того чтобы):
+- Te lo explico **para que entiendas** - Объясняю тебе, чтобы ты понял
+- Hablo despacio **para que me comprendas** - Говорю медленно, чтобы ты меня понял
+
+⚠️ **Один субъект** = PARA + infinitivo:
+- Estudio **para aprender** (я учусь, чтобы выучить)
+- Trabajo **para ganar dinero** (я работаю, чтобы заработать)
+
+## 3. УСЛОВИЕ (con tal de que, siempre que, a menos que):
+
+**CON TAL DE QUE** (при условии что):
+- Iré **con tal de que vengas** tú también - Пойду при условии, что ты тоже придешь
+
+**SIEMPRE QUE** (при условии что):
+- Te ayudo **siempre que me lo pidas** - Помогу тебе, если ты попросишь
+
+**A MENOS QUE** (если только не):
+- Iremos **a menos que llueva** - Пойдем, если только не будет дождя
+
+**SIN QUE** (без того чтобы):
+- Salió **sin que nadie lo viera** - Вышел, чтобы никто не видел
+
+## 4. УСТУПКА (aunque):
+
+**AUNQUE** + subjuntivo (даже если - неизвестно):
+- **Aunque llueva**, iré - Даже если будет дождь, пойду (не знаем, будет ли)
+
+**AUNQUE** + indicativo (хотя - факт):
+- **Aunque llueve**, iré - Хотя идет дождь, пойду (идет сейчас)
+
+## 5. НЕОПРЕДЕЛЕННОЕ / НЕСУЩЕСТВУЮЩЕЕ:
+
+### Busco... / Necesito... (ищу/нужен):
+- **Busco una casa que tenga jardín** - Ищу дом, у которого есть сад (не знаю, существует ли)
+- Tengo una casa que **tiene** jardín - У меня есть дом с садом (indicativo - конкретный)
+
+### No hay nadie que... (нет никого, кто):
+- **No hay nadie que sepa** la respuesta - Нет никого, кто знает ответ
+
+### ¿Hay alguien que...? (есть кто-то, кто?):
+- **¿Hay alguien que hable** ruso? - Есть кто-то, кто говорит по-русски?
+
+## 6. БЕЗЛИЧНЫЕ КОНСТРУКЦИИ:
+
+**Sea como sea** - Как бы то ни было
+**Pase lo que pase** - Что бы ни случилось
+**Diga lo que diga** - Что бы он ни говорил
+**Cueste lo que cueste** - Чего бы это ни стоило
+
+## Схема выбора:
+
+**¿Факт или субъективность?**
+- Факт, уверенность, привычка → **INDICATIVO**
+- Желание, сомнение, эмоция, будущее → **SUBJUNTIVO**
+
+**¿Определенное или неопределенное?**
+- Конкретное, существующее → **INDICATIVO**
+- Неопределенное, несуществующее → **SUBJUNTIVO**
+      `,
+      examples: [
+        { spanish: 'Cuando vengas, hablaremos', translation: 'Когда ты придешь, мы поговорим' },
+        { spanish: 'Te llamo para que sepas la verdad', translation: 'Звоню тебе, чтобы ты знал правду' },
+        { spanish: 'Busco un libro que explique el subjuntivo', translation: 'Ищу книгу, которая объясняет subjuntivo' },
+        { spanish: 'Aunque llueva, iremos al parque', translation: 'Даже если будет дождь, пойдем в парк' }
+      ]
+    },
+    vocabulary: [
+      { word: 'cuando', translation: 'когда', audioUrl: null },
+      { word: 'hasta que', translation: 'пока не', audioUrl: null },
+      { word: 'antes de que', translation: 'перед тем как', audioUrl: null },
+      { word: 'para que', translation: 'чтобы', audioUrl: null },
+      { word: 'aunque', translation: 'хотя, даже если', audioUrl: null },
+      { word: 'con tal de que', translation: 'при условии что', audioUrl: null },
+      { word: 'a menos que', translation: 'если только не', audioUrl: null },
+      { word: 'sin que', translation: 'без того чтобы', audioUrl: null },
+      { word: 'en cuanto', translation: 'как только', audioUrl: null },
+      { word: 'tan pronto como', translation: 'как только', audioUrl: null },
+      { word: 'buscar', translation: 'искать', audioUrl: null },
+      { word: 'encontrar', translation: 'находить', audioUrl: null },
+      { word: 'existir', translation: 'существовать', audioUrl: null },
+      { word: 'haber', translation: 'иметься', audioUrl: null }
+    },
+    readingText: {
+      title: 'El Camino de Santiago',
+      content: `El Camino de Santiago es una de las rutas de peregrinación más famosas del mundo. Miles de personas lo recorren cada año, ya sea por motivos religiosos, espirituales o simplemente por la aventura. Aunque cada peregrino tiene sus propias razones, todos comparten una experiencia única.
+
+Muchos peregrinos buscan una experiencia que les cambie la vida. Buscan algo que no pueden encontrar en su rutina diaria. Algunos buscan respuestas a preguntas importantes: "¿Qué quiero hacer con mi vida?", "¿Soy feliz?", "¿Qué es realmente importante para mí?" El Camino ofrece tiempo y espacio para reflexionar sobre estas cuestiones.
+
+Antes de que empieces el Camino, es importante que prepares bien. Necesitas entrenar físicamente para que tu cuerpo aguante las largas caminatas. También es necesario que lleves solo lo esencial en tu mochila. Un consejo: pase lo que pase, no lleves más de 10 kilos. Muchos principiantes cometen el error de llevar demasiadas cosas, y luego tienen que enviarlas a casa porque no pueden cargar tanto peso.
+
+El Camino tiene varias rutas. La más popular es el Camino Francés, que empieza en los Pirineos y termina en Santiago de Compostela. Dura aproximadamente 30-35 días. Aunque hay otras rutas más cortas, muchos peregrinos prefieren hacer el Camino completo para que la experiencia sea más profunda.
+
+En el Camino conocerás personas de todo el mundo. No hay nadie que no tenga una historia interesante que contar. Conocerás a gente que camina para superar una pérdida, otros que buscan dirección en su vida, algunos que quieren probar sus límites físicos, y muchos que simplemente quieren desconectar del estrés moderno.
+
+Los albergues para peregrinos (llamados "albergues") son lugares especiales donde puedes descansar. Son económicos, simples, pero llenos de camaradería. Aunque no son lujosos, ofrecen todo lo que necesitas: una cama, una ducha y, lo más importante, compañía de otros peregrinos. Por la noche, todos comparten historias del día. Es común que hagas amigos que duren toda la vida.
+
+En cuanto llegues a Santiago, sentirás una mezcla de emociones. Alegría por haberlo logrado, tristeza porque la aventura termina, gratitud por la experiencia. La tradición dice que cuando llegues a la catedral, debes abrazar la estatua del apóstol Santiago. Muchos peregrinos lloran en este momento - es el final de un viaje que los ha transformado.
+
+Pero el verdadero Camino no termina en Santiago. Como dicen los peregrinos experimentados: "El Camino no acaba cuando llegas a Santiago, sino cuando Santiago llega a ti". Los cambios que experimentes en el Camino te acompañarán para siempre.
+
+Si estás pensando en hacer el Camino, mi consejo es: hazlo. No importa que no estés en perfecta forma física. No importa que no sepas exactamente por qué quieres ir. No importa que tengas dudas. Muchos peregrinos empiezan el Camino con dudas y preguntas, y lo terminan con paz y claridad.
+
+Ojalá algún día puedas experimentar el Camino de Santiago. Es posible que sea la experiencia más transformadora de tu vida. Y cuando vuelvas, espero que compartas tu historia con otros, para que más personas se animen a hacer este viaje increíble.
+
+Como dicen en español: "Ultreia!" (¡Adelante!) - el saludo tradicional entre peregrinos del Camino de Santiago.`,
+      translation: 'Путь Святого Иакова - один из самых знаменитых паломнических маршрутов в мире...'
+    },
+    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3', 'ex-7-3-4', 'ex-7-3-5']
   }
 }
 
@@ -2591,6 +3013,193 @@ María: Muy bien, gracias.
       { russian: 'Мы будем жить дольше', correct: 'viviremos más tiempo' },
       { russian: 'Технология изменит мир', correct: 'la tecnología cambiará el mundo' },
       { russian: 'Если ты учишься, ты сдашь экзамен', correct: 'si estudias aprobarás el examen' }
+    ]
+  },
+
+  // МОДУЛЬ 7: Subjuntivo
+  'ex-7-1-1': {
+    id: 'ex-7-1-1',
+    type: 'grammar',
+    title: 'Образование subjuntivo - AR глаголы',
+    description: 'Выберите правильную форму subjuntivo',
+    questions: [
+      { sentence: 'Quiero que tú ___ (hablar) español', options: ['hablas', 'hables', 'hable', 'hablen'], correct: 1 },
+      { sentence: 'Es importante que nosotros ___ (estudiar)', options: ['estudiamos', 'estudien', 'estudiemos', 'estudie'], correct: 2 },
+      { sentence: 'Espero que ella ___ (trabajar) aquí', options: ['trabaja', 'trabaje', 'trabajas', 'trabajen'], correct: 1 },
+      { sentence: 'Necesito que ellos ___ (ayudar)', options: ['ayudan', 'ayude', 'ayudes', 'ayuden'], correct: 3 }
+    ]
+  },
+  'ex-7-1-2': {
+    id: 'ex-7-1-2',
+    type: 'grammar',
+    title: 'Образование subjuntivo - ER/IR глаголы',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Quiero que tú ___ (comer) verduras', options: ['comes', 'comas', 'coma', 'coman'], correct: 1 },
+      { sentence: 'Espero que él ___ (vivir) feliz', options: ['vive', 'viva', 'vivas', 'vivan'], correct: 1 },
+      { sentence: 'Es necesario que nosotros ___ (escribir)', options: ['escribimos', 'escriban', 'escribamos', 'escriba'], correct: 2 },
+      { sentence: 'Dudo que ellos ___ (aprender) rápido', options: ['aprenden', 'aprenda', 'aprendan', 'aprendas'], correct: 2 }
+    ]
+  },
+  'ex-7-1-3': {
+    id: 'ex-7-1-3',
+    type: 'grammar',
+    title: 'Неправильные формы subjuntivo',
+    description: 'Выберите правильную неправильную форму',
+    questions: [
+      { sentence: 'Quiero que tú ___ (ser) feliz', options: ['eres', 'seas', 'sea', 'sean'], correct: 1 },
+      { sentence: 'Espero que él ___ (estar) bien', options: ['está', 'esté', 'estés', 'estén'], correct: 1 },
+      { sentence: 'Dudo que ellos ___ (ir) mañana', options: ['van', 'vaya', 'vayas', 'vayan'], correct: 3 },
+      { sentence: 'Es importante que tú ___ (saber) esto', options: ['sabes', 'sepas', 'sepa', 'sepan'], correct: 1 },
+      { sentence: 'Necesito que ella ___ (hacer) la tarea', options: ['hace', 'haga', 'hagas', 'hagan'], correct: 1 }
+    ]
+  },
+  'ex-7-1-4': {
+    id: 'ex-7-1-4',
+    type: 'fillblank',
+    title: 'Completar con subjuntivo',
+    description: 'Вставьте правильную форму subjuntivo',
+    questions: [
+      { sentence: 'Quiero que tú _____ (venir) a mi fiesta', verb: 'venir', correct: 'vengas' },
+      { sentence: 'Espero que _____ (haber) comida', verb: 'haber', correct: 'haya' },
+      { sentence: 'Es necesario que nosotros _____ (tener) paciencia', verb: 'tener', correct: 'tengamos' },
+      { sentence: 'Dudo que él _____ (poder) hacerlo', verb: 'poder', correct: 'pueda' }
+    ]
+  },
+  'ex-7-1-5': {
+    id: 'ex-7-1-5',
+    type: 'writing',
+    title: 'Traducción subjuntivo',
+    description: 'Переведите используя subjuntivo',
+    questions: [
+      { russian: 'Я хочу, чтобы ты пришел', correct: 'quiero que vengas' },
+      { russian: 'Надеюсь, что он знает', correct: 'espero que sepa' },
+      { russian: 'Важно, чтобы мы учились', correct: 'es importante que estudiemos' },
+      { russian: 'Сомневаюсь, что они придут', correct: 'dudo que vengan' }
+    ]
+  },
+
+  'ex-7-2-1': {
+    id: 'ex-7-2-1',
+    type: 'grammar',
+    title: 'Желания с subjuntivo',
+    description: 'Выберите правильную форму после querer/esperar',
+    questions: [
+      { sentence: 'Quiero que tú ___ (estudiar) más', options: ['estudias', 'estudies', 'estudie', 'estudien'], correct: 1 },
+      { sentence: 'Espero que ___ (llover) mañana', options: ['llueve', 'llueva', 'lluevas', 'lluevan'], correct: 1 },
+      { sentence: 'Necesitamos que ellos nos ___ (ayudar)', options: ['ayudan', 'ayude', 'ayudes', 'ayuden'], correct: 3 },
+      { sentence: 'Prefiero que tú ___ (venir) temprano', options: ['vienes', 'vengas', 'venga', 'vengan'], correct: 1 }
+    ]
+  },
+  'ex-7-2-2': {
+    id: 'ex-7-2-2',
+    type: 'grammar',
+    title: 'Эмоции с subjuntivo',
+    description: 'Выберите subjuntivo после выражений эмоций',
+    questions: [
+      { sentence: 'Me alegro de que tú ___ (estar) aquí', options: ['estás', 'estés', 'esté', 'estén'], correct: 1 },
+      { sentence: 'Siento que ella no ___ (poder) venir', options: ['puede', 'pueda', 'puedas', 'puedan'], correct: 1 },
+      { sentence: 'Me sorprende que ellos no lo ___ (saber)', options: ['saben', 'sepa', 'sepas', 'sepan'], correct: 3 },
+      { sentence: 'Tengo miedo de que ___ (llover)', options: ['llueve', 'llueva', 'lluevas', 'lluevan'], correct: 1 }
+    ]
+  },
+  'ex-7-2-3': {
+    id: 'ex-7-2-3',
+    type: 'grammar',
+    title: 'Ojalá с subjuntivo',
+    description: 'Выберите форму после ojalá',
+    questions: [
+      { sentence: 'Ojalá ___ (hacer) buen tiempo', options: ['hace', 'haga', 'hagas', 'hagan'], correct: 1 },
+      { sentence: 'Ojalá tú ___ (tener) suerte', options: ['tienes', 'tengas', 'tenga', 'tengan'], correct: 1 },
+      { sentence: 'Ojalá ellos ___ (venir) a la fiesta', options: ['vienen', 'venga', 'vengas', 'vengan'], correct: 3 },
+      { sentence: 'Ojalá ___ (ser) verdad', options: ['es', 'sea', 'seas', 'sean'], correct: 1 }
+    ]
+  },
+  'ex-7-2-4': {
+    id: 'ex-7-2-4',
+    type: 'reading',
+    title: 'Чтение: Carta a un amigo',
+    description: 'Ответьте на вопросы о письме',
+    text: 'Espero que estés bien. Quiero que sepas que voy a Madrid. Me alegro de que hayas conseguido trabajo. Es posible que me mude a Barcelona. Dudo que sea fácil. Espero que me inviten a la boda de Laura.',
+    questions: [
+      { question: 'Куда поедет автор?', options: ['В Барселону', 'В Мадрид', 'В Валенсию', 'В Севилью'], correct: 1 },
+      { question: 'Что автор думает о переезде?', options: ['Уверен', 'Сомневается', 'Не хочет', 'Рад'], correct: 1 },
+      { question: 'О чьей свадьбе говорится?', options: ['Мигеля', 'Карлоса', 'Лауры', 'Аны'], correct: 2 },
+      { question: 'Что получил Мигель?', options: ['Письмо', 'Работу', 'Машину', 'Квартиру'], correct: 1 }
+    ]
+  },
+  'ex-7-2-5': {
+    id: 'ex-7-2-5',
+    type: 'writing',
+    title: 'Желания и эмоции',
+    description: 'Переведите используя subjuntivo',
+    questions: [
+      { russian: 'Я рад, что ты здесь', correct: 'me alegro de que estés aquí' },
+      { russian: 'Хоть бы шел дождь', correct: 'ojalá llueva' },
+      { russian: 'Сожалею, что ты не можешь прийти', correct: 'siento que no puedas venir' },
+      { russian: 'Важно, чтобы ты знал', correct: 'es importante que sepas' }
+    ]
+  },
+
+  'ex-7-3-1': {
+    id: 'ex-7-3-1',
+    type: 'grammar',
+    title: 'CUANDO с subjuntivo',
+    description: 'Выберите правильную форму после cuando',
+    questions: [
+      { sentence: 'Cuando ___ (llegar-futuro), hablaremos', options: ['llegas', 'llegues', 'llegue', 'lleguen'], correct: 1 },
+      { sentence: 'Cuando ___ (venir-presente habitual), comemos', options: ['vienes', 'vengas', 'venga', 'vengan'], correct: 0 },
+      { sentence: 'Cuando ___ (tener-futuro) tiempo, te llamo', options: ['tienes', 'tengas', 'tenga', 'tengan'], correct: 2 },
+      { sentence: 'Cuando ___ (ser-pasado) niño, jugaba', options: ['fue', 'era', 'sea', 'fuera'], correct: 1 }
+    ]
+  },
+  'ex-7-3-2': {
+    id: 'ex-7-3-2',
+    type: 'grammar',
+    title: 'PARA QUE с subjuntivo',
+    description: 'Выберите форму после para que',
+    questions: [
+      { sentence: 'Te lo explico para que ___ (entender)', options: ['entiendes', 'entiendas', 'entienda', 'entiendan'], correct: 1 },
+      { sentence: 'Hablo despacio para que me ___ (comprender)', options: ['comprendes', 'comprendas', 'comprenda', 'comprendan'], correct: 1 },
+      { sentence: 'Trabajo para que mi familia ___ (vivir) bien', options: ['vive', 'viva', 'vivas', 'vivan'], correct: 3 },
+      { sentence: 'Te llamo para que ___ (saber) la verdad', options: ['sabes', 'sepas', 'sepa', 'sepan'], correct: 1 }
+    ]
+  },
+  'ex-7-3-3': {
+    id: 'ex-7-3-3',
+    type: 'grammar',
+    title: 'Busco... с subjuntivo',
+    description: 'Неопределенное vs определенное',
+    questions: [
+      { sentence: 'Busco una casa que ___ jardín (неопределенное)', options: ['tiene', 'tenga', 'tengas', 'tengan'], correct: 1 },
+      { sentence: 'Tengo una casa que ___ jardín (определенное)', options: ['tiene', 'tenga', 'tengas', 'tengan'], correct: 0 },
+      { sentence: 'No hay nadie que ___ la respuesta', options: ['sabe', 'sepa', 'sepas', 'sepan'], correct: 1 },
+      { sentence: '¿Hay alguien que ___ ruso?', options: ['habla', 'hable', 'hablas', 'hablen'], correct: 1 }
+    ]
+  },
+  'ex-7-3-4': {
+    id: 'ex-7-3-4',
+    type: 'reading',
+    title: 'Чтение: El Camino de Santiago',
+    description: 'Ответьте на вопросы о Пути',
+    text: 'El Camino de Santiago es famoso. Antes de que empieces, prepara bien. Aunque hay rutas cortas, muchos prefieren el Camino completo. No hay nadie que no tenga historia. En cuanto llegues a Santiago, sentirás emociones. Ojalá algún día puedas hacerlo.',
+    questions: [
+      { question: 'Что нужно сделать перед началом?', options: ['Купить билет', 'Подготовиться', 'Позвонить', 'Написать'], correct: 1 },
+      { question: 'Какой путь предпочитают многие?', options: ['Короткий', 'Средний', 'Полный', 'Быстрый'], correct: 2 },
+      { question: 'Что почувствуешь в Сантьяго?', options: ['Усталость', 'Эмоции', 'Голод', 'Холод'], correct: 1 },
+      { question: 'Что говорится о паломниках?', options: ['Все молодые', 'Все старые', 'У всех есть история', 'Все испанцы'], correct: 2 }
+    ]
+  },
+  'ex-7-3-5': {
+    id: 'ex-7-3-5',
+    type: 'writing',
+    title: 'Придаточные предложения',
+    description: 'Переведите используя subjuntivo',
+    questions: [
+      { russian: 'Когда ты придешь, поговорим', correct: 'cuando vengas hablaremos' },
+      { russian: 'Хоть бы ты мог прийти', correct: 'ojalá puedas venir' },
+      { russian: 'Ищу книгу, которая объясняет это', correct: 'busco un libro que explique esto' },
+      { russian: 'Даже если будет дождь, пойдем', correct: 'aunque llueva iremos' }
     ]
   }
 }
