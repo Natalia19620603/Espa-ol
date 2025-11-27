@@ -666,27 +666,41 @@ Ser выполняет роль глагола-связки и употребл�
       { word: 'contento/a', translation: 'довольный', audioUrl: null }
     ],
     readingText: {
-      title: 'Diálogo de presentación',
-      content: `- Hola, buenos días. ¿Cómo te llamas?
-- Me llamo Carlos. ¿Y tú?
-- Yo soy Ana. Mucho gusto.
-- Encantado, Ana. ¿De dónde eres?
-- Soy de Madrid. ¿Y tú?
-- Yo soy de Barcelona. ¿Cómo estás?
-- Bien, gracias. ¿Y tú?
-- Muy bien, gracias.`,
-      translation: 'Диалог знакомства\n- Привет, доброе утро. Как тебя зовут?\n- Меня зовут Карлос. А тебя?\n- Я Ана. Очень приятно.\n- Рад познакомиться, Ана. Откуда ты?\n- Я из Мадрида. А ты?\n- Я из Барселоны. Как дела?\n- Хорошо, спасибо. А у тебя?\n- Очень хорошо, спасибо.',
+      title: 'Словосочетания для знакомства',
+      content: `Buenos días — Доброе утро
+Buenas tardes — Добрый день
+Buenas noches — Добрый вечер / Спокойной ночи
+Mucho gusto — Очень приятно
+Encantado/a — Рад/рада познакомиться
+Bien, gracias — Хорошо, спасибо
+Muy bien — Очень хорошо
+Regular — Так себе
+Mal — Плохо
+De Madrid — Из Мадрида
+De Barcelona — Из Барселоны
+De Rusia — Из России
+De España — Из Испании
+En casa — Дома
+En la oficina — В офисе
+Contento/a — Довольный/довольная
+Triste — Грустный/грустная
+Enfermo/a — Больной/больная
+Feliz — Счастливый/счастливая
+Joven — Молодой/молодая
+Viejo/a — Старый/старая
+Casado/a — Женатый/замужняя`,
+      translation: 'Словосочетания для знакомства',
       audioUrl: '/audio/lesson-1-2-reading.mp3',
       subtitles: [
-        { start: 0, end: 4, text: '- Hola, buenos días. ¿Cómo te llamas?' },
-        { start: 4, end: 7, text: '- Me llamo Carlos. ¿Y tú?' },
-        { start: 7, end: 10, text: '- Yo soy Ana. Mucho gusto.' },
-        { start: 10, end: 14, text: '- Encantado, Ana. ¿De dónde eres?' },
-        { start: 14, end: 17, text: '- Soy de Madrid. ¿Y tú?' },
-        { start: 17, end: 20, text: '- Yo soy de Barcelona.' }
+        { start: 0, end: 3, text: 'Buenos días — Доброе утро' },
+        { start: 3, end: 6, text: 'Mucho gusto — Очень приятно' },
+        { start: 6, end: 9, text: 'De Madrid — Из Мадрида' },
+        { start: 9, end: 12, text: 'En casa — Дома' },
+        { start: 12, end: 15, text: 'Contento/a — Довольный/довольная' },
+        { start: 15, end: 18, text: 'Feliz — Счастливый/счастливая' }
       ]
     },
-    exercises: ['ex-1-2-1', 'ex-1-2-2', 'ex-1-2-3', 'ex-1-4-4', 'ex-1-2-4']
+    exercises: ['ex-1-2-1', 'ex-1-2-2', 'ex-1-2-3', 'ex-1-2-5', 'ex-1-2-6', 'ex-1-2-4']
   },
   'lesson-1-3': {
     id: 'lesson-1-3',
@@ -725,237 +739,287 @@ Ser выполняет роль глагола-связки и употребл�
       { word: 'edad', translation: 'возраст', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi edad y números',
-      content: `Hola, me llamo Pedro. Tengo veinticinco años. Mi hermana tiene veinte años. Mi padre tiene cincuenta años y mi madre tiene cuarenta y ocho años.
+      title: 'Diálogos de conocimiento',
+      content: `**Diálogo 1: Conocimiento Informal**
+— ¡Hola! ¿Cómo te llamas?
+— Me llamo Ana. ¿Y tú?
+— Yo soy Carlos. Mucho gusto.
+— Encantada. ¿De dónde eres?
+— Soy de Barcelona. ¿Y tú?
+— Yo soy de Madrid.
 
-Vivo en la calle número quince. Mi teléfono es tres-cuatro-cinco-seis-siete-ocho-nueve.
+**Diálogo 2: Conocimiento Formal**
+— Buenos días. ¿Cómo se llama usted?
+— Me llamo señor Rodríguez. ¿Y usted?
+— Yo soy señora García. Mucho gusto.
+— Encantado. ¿De dónde es usted?
+— Soy de España, de Valencia.
+— ¡Qué bien! Yo soy de Sevilla.
 
-En mi clase hay dieciocho estudiantes. Tengo cinco libros de español y diez cuadernos.`,
-      translation: 'Мой возраст и числа\nПривет, меня зовут Педро. Мне 25 лет. Моей сестре 20 лет. Моему отцу 50 лет, а моей матери 48 лет.\n\nЯ живу на улице номер 15. Мой телефон 3-4-5-6-7-8-9.\n\nВ моем классе 18 студентов. У меня 5 учебников испанского и 10 тетрадей.',
+**Diálogo 3: Estados de Ánimo**
+— ¡Hola Pedro! ¿Cómo estás?
+— Bien, gracias. ¿Y tú, María?
+— Estoy muy contenta hoy.
+— ¿Dónde estás ahora?
+— Estoy en casa. ¿Y tú?
+— Yo estoy en la oficina.
+
+**Diálogo 4: Características Personales**
+— ¿Cómo es tu amigo?
+— Mi amigo es alto y joven. Es de Rusia.
+— ¿Está en España ahora?
+— Sí, está en Madrid. Está muy feliz.
+— ¿Y tú? ¿Cómo eres?
+— Yo soy bajo y viejo. Soy español.`,
+      translation: `**Диалог 1: Неформальное знакомство**
+— Привет! Как тебя зовут?
+— Меня зовут Ана. А тебя?
+— Я Карлос. Очень приятно.
+— Рада познакомиться. Откуда ты?
+— Я из Барселоны. А ты?
+— Я из Мадрида.
+
+**Диалог 2: Формальное знакомство**
+— Доброе утро. Как вас зовут?
+— Меня зовут сеньор Родригес. А вас?
+— Я сеньора Гарсия. Очень приятно.
+— Рад познакомиться. Откуда вы?
+— Я из Испании, из Валенсии.
+— Как хорошо! Я из Севильи.
+
+**Диалог 3: Настроение**
+— Привет, Педро! Как дела?
+— Хорошо, спасибо. А у тебя, Мария?
+— Я сегодня очень довольна.
+— Где ты сейчас?
+— Я дома. А ты?
+— Я в офисе.
+
+**Диалог 4: Личные характеристики**
+— Какой твой друг?
+— Мой друг высокий и молодой. Он из России.
+— Он сейчас в Испании?
+— Да, он в Мадриде. Он очень счастлив.
+— А ты? Какой ты?
+— Я низкий и старый. Я испанец.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
-        { start: 0, end: 4, text: 'Hola, me llamo Pedro. Tengo veinticinco años.' },
-        { start: 4, end: 8, text: 'Mi hermana tiene veinte años.' },
-        { start: 8, end: 13, text: 'Mi padre tiene cincuenta años y mi madre tiene cuarenta y ocho años.' },
-        { start: 13, end: 16, text: 'Vivo en la calle número quince.' }
+        { start: 0, end: 4, text: '¡Hola! ¿Cómo te llamas?' },
+        { start: 4, end: 8, text: 'Me llamo Ana. ¿Y tú?' },
+        { start: 8, end: 12, text: 'Buenos días. ¿Cómo se llama usted?' },
+        { start: 12, end: 16, text: '¿Cómo estás?' },
+        { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2']
+    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3', 'ex-1-3-4', 'ex-1-3-5']
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
-    title: 'Урок 2: Существительные, артикли и прилагательные',
+    title: 'Урок 2: Профессии и национальности',
     moduleId: 'module-1',
     grammar: {
-      title: 'Основы грамматики: род, число, артикли',
+      title: 'Профессии, страны и национальности',
       content: `
-# Имя существительное
+# Профессии, Страны и Национальности
 
-В испанском языке существительные имеют категорию рода. Все существительные делятся на мужской род (masculino) и женский род (femenino).
+Прочитайте и запомните слова, обозначающие:
 
-Большинство существительных, оканчивающихся на гласную -o, относятся к мужскому роду, в то время как большинство существительных, оканчивающихся на гласную -a, к женскому роду:
+## a) Профессии
 
-**Masculino (m) → Femenino (f)**
+| Español | Русский |
+|---------|---------|
+| abogado, -a | адвокат |
+| actor | актер |
+| actriz | актриса |
+| banquero | банкир |
+| médico, -a | врач |
+| guía | гид |
+| periodista | журналист |
+| ingeniero, -a | инженер |
+| enfermera | медсестра |
+| músico | музыкант |
+| camarero, -a | официант |
+| escritor, -a | писатель |
+| cocinero, -a | повар |
+| poeta | поэт |
+| profesor, -a | преподаватель |
+| dependiente, -a | продавец |
+| constructor | строитель |
+| pintor, -a | художник |
+| economista | экономист |
+| jurista | юрист |
 
-- chico (мальчик) → chica (девочка)
-- amigo (друг) → amiga (подруга)
-- hermano (брат) → hermana (сестра)
-- libro (книга) → casa (дом)
-- alumno (ученик) → alumna (ученица)
-- museo (музей) → playa (пляж)
+## б) Страны, Столицы и Национальности
 
-## Исключения
+| Страна (País) | Столица (Capital) | Национальность (Nacionalidad) | Русский |
+|---------------|-------------------|--------------------------------|---------|
+| España | Madrid | español / española | испанец / испанка |
+| Rusia | Moscú | ruso / rusa | русский / русская |
+| Francia | París | francés / francesa | француз / француженка |
+| Bélgica | Bruselas | belga / belga | бельгиец / бельгийка |
+| Holanda | Ámsterdam | holandés / holandesa | голландец / голландка |
+| Italia | Roma | italiano / italiana | итальянец / итальянка |
+| Grecia | Atenas | griego / griega | грек / гречанка |
+| Portugal | Lisboa | portugués / portuguesa | португалец / португалка |
+| Alemania | Berlín | alemán / alemana | немец / немка |
+| Dinamarca | Copenhague | danés / danesa | датчанин / датчанка |
+| China | Pekín | chino / china | китаец / китаянка |
+| Japón | Tokio | japonés / japonesa | японец / японка |
+| Turquía | Estambul | turco / turca | турок / турчанка |
+| Inglaterra / Gran Bretaña | Londres | inglés / inglesa | англичанин / англичанка |
+| Estados Unidos / Norteamérica | Washington | norteamericano / norteamericana | американец / американка |
+| Marruecos | Rabat | marroquí / marroquí | марокканец / марокканка |
 
-**Masculino (m):**
-- papá (папа)
-- día (день)
-- policía (полицейский)
+## Использование с глаголами SER и ESTAR
 
-**Femenino (f):**
-- mano (рука)
-- radio (радио)
+**Глагол SER используется для:**
+- Профессий: Yo soy médico. (Я врач.)
+- Национальностей: Ella es española. (Она испанка.)
+- Происхождения: Somos de Rusia. (Мы из России.)
 
-К мужскому роду относятся существительные греческого происхождения, оканчивающиеся на -ma и -ta:
-- el problema (проблема)
-- el programa (программа)
-- el tema (тема)
-- el planeta (планета)
-
-Существительные, оканчивающиеся на гласную -e, могут быть как мужского, так и женского рода:
-
-**Masculino (m):**
-- padre (отец)
-- café (кофе)
-- coche (автомобиль)
-- hombre (человек/мужчина)
-
-**Femenino (f):**
-- madre (мать)
-- calle (улица)
-- noche (ночь)
-- tarde (вечер/день)
-
-## Категория числа (Множественное число)
-
-В испанском языке существительные имеют категорию числа.
-
-Множественное число образуется путем прибавления окончания **-s** к существительным, оканчивающимся на гласную:
-- libro → libros
-- casa → casas
-- coche → coches
-
-Множественное число существительных, оканчивающихся на согласную, образуется с помощью окончания **-es**:
-- ciudad → ciudades
-- flor → flores
-- avión → aviones
-
-Если существительное оканчивается на **-z**, во множественном числе буква z заменяется на c и добавляется окончание **-es**:
-- lápiz → lápices
-- luz → luces
-
-# Артикль
-
-Артикль — маленькое служебное слово. Оно играет роль определения существительного, к которому оно относится, указывая его род и число.
-
-## Определенный артикль
-
-**Единственное число (singular):**
-- el (мужской род)
-- la (женский род)
-
-**Множественное число (plural):**
-- los (мужской род)
-- las (женский род)
-
-Примеры:
-- el libro — los libros (книга — книги)
-- la casa — las casas (дом — дома)
-
-## Неопределенный артикль
-
-**Единственное число (singular):**
-- un (мужской род)
-- una (женский род)
-
-**Множественное число (plural):**
-- unos (мужской род)
-- unas (женский род)
-
-Примеры:
-- un libro — unos libros
-- una casa — unas casas
-- una flor bonita (красивый цветок)
-- un día difícil (трудный день)
-
-# Имя прилагательное
-
-Прилагательные согласуются в роде и числе с существительными, которые они определяют.
-
-## Прилагательные двух окончаний
-
-Прилагательные двух окончаний имеют окончание **-o** в форме мужского рода единственного числа и окончание **-a** в форме женского рода единственного числа:
-- blanco (белый) — blanca (белая)
-- negro (черный) — negra (черная)
-- bonito (красивый) — bonita (красивая)
-
-## Прилагательные одного окончания
-
-Прилагательные, оканчивающиеся в единственном числе на другую гласную или на согласную, относятся к прилагательным одного окончания:
-- un lápiz azul (синий карандаш)
-- una flor azul (синий цветок)
-- un coche verde (зеленый автомобиль)
-- una casa verde (зеленый дом)
-
-## Порядок слов
-
-В отличие от русского языка, испанские прилагательные ставятся **после** определяемого существительного:
-- un libro interesante (интересная книга)
-- una casa blanca (белый дом)
-- una flor bonita (красивый цветок)
-
-## Множественное число прилагательных
-
-Множественное число прилагательных, оканчивающихся на гласную, образуется с помощью окончания **-s**:
-- blanco → blancos
-- española → españolas
-- verde → verdes
-
-Множественное число прилагательных, оканчивающихся на согласную, образуется с помощью окончания **-es**:
-- azul → azules
-- español → españoles
+**Глагол ESTAR используется для:**
+- Местонахождения: Estoy en Madrid. (Я в Мадриде.)
+- Временного состояния: El médico está ocupado. (Врач занят.)
       `,
       examples: [
-        { spanish: 'el libro blanco', translation: 'белая книга', pronunciation: '[эль либро бланко]' },
-        { spanish: 'la casa bonita', translation: 'красивый дом', pronunciation: '[ла каса бонита]' },
-        { spanish: 'los coches verdes', translation: 'зеленые автомобили', pronunciation: '[лос кочес бэрдэс]' },
-        { spanish: 'las flores azules', translation: 'синие цветы', pronunciation: '[лас флорес аθулес]' }
+        { spanish: 'Yo soy médico', translation: 'Я врач', pronunciation: '[йо сой мэдико]' },
+        { spanish: 'Ella es española', translation: 'Она испанка', pronunciation: '[элья эс эспаньола]' },
+        { spanish: 'Somos de Rusia', translation: 'Мы из России', pronunciation: '[сомос дэ русиа]' },
+        { spanish: 'Estoy en Madrid', translation: 'Я в Мадриде', pronunciation: '[эстой эн мадрид]' }
       ]
     },
     vocabulary: [
-      { word: 'libro', translation: 'книга', audioUrl: null },
-      { word: 'casa', translation: 'дом', audioUrl: null },
-      { word: 'chico', translation: 'мальчик', audioUrl: null },
-      { word: 'chica', translation: 'девочка', audioUrl: null },
-      { word: 'amigo', translation: 'друг', audioUrl: null },
-      { word: 'amiga', translation: 'подруга', audioUrl: null },
-      { word: 'hermano', translation: 'брат', audioUrl: null },
-      { word: 'hermana', translation: 'сестра', audioUrl: null },
-      { word: 'alumno', translation: 'ученик', audioUrl: null },
-      { word: 'alumna', translation: 'ученица', audioUrl: null },
-      { word: 'museo', translation: 'музей', audioUrl: null },
-      { word: 'playa', translation: 'пляж', audioUrl: null },
-      { word: 'padre', translation: 'отец', audioUrl: null },
-      { word: 'madre', translation: 'мать', audioUrl: null },
-      { word: 'papá', translation: 'папа', audioUrl: null },
-      { word: 'día', translation: 'день', audioUrl: null },
-      { word: 'mano', translation: 'рука', audioUrl: null },
-      { word: 'radio', translation: 'радио', audioUrl: null },
-      { word: 'café', translation: 'кофе', audioUrl: null },
-      { word: 'calle', translation: 'улица', audioUrl: null },
-      { word: 'coche', translation: 'автомобиль', audioUrl: null },
-      { word: 'noche', translation: 'ночь', audioUrl: null },
-      { word: 'hombre', translation: 'человек, мужчина', audioUrl: null },
-      { word: 'tarde', translation: 'вечер, день', audioUrl: null },
-      { word: 'ciudad', translation: 'город', audioUrl: null },
-      { word: 'flor', translation: 'цветок', audioUrl: null },
-      { word: 'avión', translation: 'самолет', audioUrl: null },
-      { word: 'lápiz', translation: 'карандаш', audioUrl: null },
-      { word: 'luz', translation: 'свет', audioUrl: null },
-      { word: 'problema', translation: 'проблема', audioUrl: null },
-      { word: 'programa', translation: 'программа', audioUrl: null },
-      { word: 'tema', translation: 'тема', audioUrl: null },
-      { word: 'planeta', translation: 'планета', audioUrl: null },
-      { word: 'blanco/a', translation: 'белый/белая', audioUrl: null },
-      { word: 'negro/a', translation: 'черный/черная', audioUrl: null },
-      { word: 'verde', translation: 'зеленый', audioUrl: null },
-      { word: 'azul', translation: 'синий', audioUrl: null },
-      { word: 'rojo/a', translation: 'красный/красная', audioUrl: null },
-      { word: 'bonito/a', translation: 'красивый/красивая', audioUrl: null },
-      { word: 'grande', translation: 'большой', audioUrl: null },
-      { word: 'pequeño/a', translation: 'маленький/маленькая', audioUrl: null },
-      { word: 'nuevo/a', translation: 'новый/новая', audioUrl: null },
-      { word: 'bueno/a', translation: 'хороший/хорошая', audioUrl: null },
-      { word: 'interesante', translation: 'интересный', audioUrl: null },
-      { word: 'difícil', translation: 'трудный', audioUrl: null },
-      { word: 'español/a', translation: 'испанский/испанская', audioUrl: null }
+      { word: 'abogado, -a', translation: 'адвокат', audioUrl: null },
+      { word: 'actor', translation: 'актер', audioUrl: null },
+      { word: 'actriz', translation: 'актриса', audioUrl: null },
+      { word: 'banquero', translation: 'банкир', audioUrl: null },
+      { word: 'médico, -a', translation: 'врач', audioUrl: null },
+      { word: 'guía', translation: 'гид', audioUrl: null },
+      { word: 'periodista', translation: 'журналист', audioUrl: null },
+      { word: 'ingeniero, -a', translation: 'инженер', audioUrl: null },
+      { word: 'enfermera', translation: 'медсестра', audioUrl: null },
+      { word: 'músico', translation: 'музыкант', audioUrl: null },
+      { word: 'camarero, -a', translation: 'официант', audioUrl: null },
+      { word: 'escritor, -a', translation: 'писатель', audioUrl: null },
+      { word: 'cocinero, -a', translation: 'повар', audioUrl: null },
+      { word: 'poeta', translation: 'поэт', audioUrl: null },
+      { word: 'profesor, -a', translation: 'преподаватель', audioUrl: null },
+      { word: 'dependiente, -a', translation: 'продавец', audioUrl: null },
+      { word: 'constructor', translation: 'строитель', audioUrl: null },
+      { word: 'pintor, -a', translation: 'художник', audioUrl: null },
+      { word: 'economista', translation: 'экономист', audioUrl: null },
+      { word: 'jurista', translation: 'юрист', audioUrl: null },
+      { word: 'España', translation: 'Испания', audioUrl: null },
+      { word: 'Rusia', translation: 'Россия', audioUrl: null },
+      { word: 'Francia', translation: 'Франция', audioUrl: null },
+      { word: 'Bélgica', translation: 'Бельгия', audioUrl: null },
+      { word: 'Holanda', translation: 'Голландия', audioUrl: null },
+      { word: 'Italia', translation: 'Италия', audioUrl: null },
+      { word: 'Grecia', translation: 'Греция', audioUrl: null },
+      { word: 'Portugal', translation: 'Португалия', audioUrl: null },
+      { word: 'Alemania', translation: 'Германия', audioUrl: null },
+      { word: 'Dinamarca', translation: 'Дания', audioUrl: null },
+      { word: 'China', translation: 'Китай', audioUrl: null },
+      { word: 'Japón', translation: 'Япония', audioUrl: null },
+      { word: 'Turquía', translation: 'Турция', audioUrl: null },
+      { word: 'Inglaterra', translation: 'Англия', audioUrl: null },
+      { word: 'Estados Unidos', translation: 'США', audioUrl: null },
+      { word: 'Marruecos', translation: 'Марокко', audioUrl: null },
+      { word: 'Madrid', translation: 'Мадрид', audioUrl: null },
+      { word: 'Moscú', translation: 'Москва', audioUrl: null },
+      { word: 'París', translation: 'Париж', audioUrl: null },
+      { word: 'Berlín', translation: 'Берлин', audioUrl: null },
+      { word: 'Roma', translation: 'Рим', audioUrl: null },
+      { word: 'Londres', translation: 'Лондон', audioUrl: null },
+      { word: 'español, -a', translation: 'испанец, испанка', audioUrl: null },
+      { word: 'ruso, -a', translation: 'русский, русская', audioUrl: null },
+      { word: 'francés, -esa', translation: 'француз, француженка', audioUrl: null },
+      { word: 'alemán, -ana', translation: 'немец, немка', audioUrl: null },
+      { word: 'italiano, -a', translation: 'итальянец, итальянка', audioUrl: null },
+      { word: 'inglés, -esa', translation: 'англичанин, англичанка', audioUrl: null },
+      { word: 'alto, -a', translation: 'высокий, высокая', audioUrl: null },
+      { word: 'bajo, -a', translation: 'низкий, низкая', audioUrl: null },
+      { word: 'guapo, -a', translation: 'красивый, красивая', audioUrl: null },
+      { word: 'soltera, -o', translation: 'холостой, незамужняя', audioUrl: null },
+      { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi familia y mi ciudad',
-      content: `Hola, soy Ana. Vivo en una casa grande y blanca. Mi hermano pequeño vive conmigo. Mi padre trabaja en un museo nuevo y mi madre es alumna de un programa difícil.
+      title: 'Diálogos: SER, ESTAR, Profesiones',
+      content: `**Diálogo 1. Приветствие и знакомство (Официальный)**
 
-Por la mañana, mi hermano y yo caminamos por la calle bonita. Vemos flores rojas y azules. Un hombre viejo tiene un café pequeño en la playa. Por la tarde, mi amiga Rosa y yo estudiamos el tema interesante de español.
+— Soy Elena Petrova, de Rusia. ¿Y usted?
+— Soy Miguel Romero. Soy abogado. Mucho gusto.
+— Igualmente. ¿Es usted de Madrid?
+— No, soy español, de Sevilla. Soy constructor.
+— ¡Qué interesante! Yo soy profesora. Mi marido es músico.
+— Es una profesión interesante. ¿Está usted contenta?
+— Sí, estoy muy contenta.
 
-Mi amigo Pablo es un chico bueno. Él tiene un coche verde y un libro nuevo. La hermana de Pablo es una alumna española. Ella vive en una ciudad grande con muchos museos y calles bonitas.
+**Diálogo 2. Местоположение и состояние (Неофициальный)**
 
-Por la noche, la luz de la luna es blanca y la noche es bonita. Los problemas del día son difíciles, pero los temas son interesantes.`,
-      translation: 'Моя семья и мой город\n\nПривет, я Ана. Я живу в большом белом доме. Мой младший брат живет со мной. Мой отец работает в новом музее, а моя мать - ученица трудной программы.\n\nУтром мой брат и я гуляем по красивой улице. Мы видим красные и синие цветы. Старик держит маленькое кафе на пляже. Днем моя подруга Роса и я изучаем интересную тему испанского.\n\nМой друг Пабло - хороший парень. У него зеленый автомобиль и новая книга. Сестра Пабло - испанская студентка. Она живет в большом городе со многими музеями и красивыми улицами.\n\nВечером лунный свет белый, и ночь красивая. Проблемы дня трудные, но темы интересные.',
+— ¡Hola! ¿Eres tú Andrés, el hermano de Lola?
+— ¡Hola! Sí, soy yo. ¿Y tú?
+— Soy Carlos, un amigo de Lola. Soy periodista. ¿Qué tal la vida, Andrés?
+— Regular, gracias. ¿Estás enfermo?
+— No, estoy en casa, no estoy enfermo, pero estoy un poco triste hoy.
+— ¡Qué lástima! ¿Dónde está Lola?
+— Está en Barcelona. Ella es camarera allí.
+— ¡Ah! ¿Y está feliz?
+— Sí, está muy feliz. ¡Hasta luego!
+
+**Diálogo 3. Описание и национальность**
+
+— Buenos días. Soy David Schmidt.
+— Mucho gusto. Soy Carmen Flores.
+— Encantado. ¿Es usted de Alemania?
+— Sí, soy alemana, de Berlín. ¿Y usted?
+— Yo soy portugués, de Lisboa. Soy ingeniero, ¿y usted es arquitecta?
+— No, soy dependienta.
+— Usted es muy guapa y alta. ¿Está usted casada?
+— No, soy soltera. Usted también es guapo.
+— Gracias. Estoy contento de conocerla.
+— Igualmente.`,
+      translation: `**Диалог 1. Приветствие и знакомство (Официальный)**
+
+— Я Елена Петрова, из России. А вы?
+— Я Мигель Ромеро. Я адвокат. Очень приятно.
+— Взаимно. Вы из Мадрида?
+— Нет, я испанец, из Севильи. Я строитель.
+— Как интересно! Я преподаватель. Мой муж - музыкант.
+— Это интересная профессия. Вы довольны?
+— Да, я очень довольна.
+
+**Диалог 2. Местоположение и состояние (Неофициальный)**
+
+— Привет! Ты Андрес, брат Лолы?
+— Привет! Да, это я. А ты?
+— Я Карлос, друг Лолы. Я журналист. Как жизнь, Андрес?
+— Так себе, спасибо. Ты болен?
+— Нет, я дома, я не болен, но сегодня немного грустный.
+— Как жаль! Где Лола?
+— Она в Барселоне. Она там официантка.
+— Ах! И она счастлива?
+— Да, она очень счастлива. До встречи!
+
+**Диалог 3. Описание и национальность**
+
+— Доброе утро. Я Дэвид Шмидт.
+— Очень приятно. Я Кармен Флорес.
+— Рад познакомиться. Вы из Германии?
+— Да, я немка, из Берлина. А вы?
+— Я португалец, из Лиссабона. Я инженер, а вы архитектор?
+— Нет, я продавец.
+— Вы очень красивая и высокая. Вы замужем?
+— Нет, я не замужем. Вы тоже красивый.
+— Спасибо. Я рад познакомиться с вами.
+— Взаимно.`,
       audioUrl: '/audio/lesson-1-4-reading.mp3',
       subtitles: [
-        { start: 0, end: 5, text: 'Hola, soy Ana. Vivo en una casa grande y blanca.' },
-        { start: 5, end: 10, text: 'Mi hermano pequeño vive conmigo.' },
-        { start: 10, end: 15, text: 'Por la mañana, mi hermano y yo caminamos por la calle bonita.' },
-        { start: 15, end: 20, text: 'Mi amigo Pablo es un chico bueno.' },
-        { start: 20, end: 25, text: 'Por la noche, la luz de la luna es blanca.' }
+        { start: 0, end: 5, text: 'Soy Elena Petrova, de Rusia. ¿Y usted?' },
+        { start: 5, end: 10, text: 'Soy Miguel Romero. Soy abogado.' },
+        { start: 10, end: 15, text: '¿Eres tú Andrés, el hermano de Lola?' },
+        { start: 15, end: 20, text: 'Soy Carlos, un amigo de Lola. Soy periodista.' },
+        { start: 20, end: 25, text: 'Soy David Schmidt. Soy ingeniero.' }
       ]
     },
     exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6']
@@ -964,114 +1028,206 @@ Por la noche, la luz de la luna es blanca y la noche es bonita. Los problemas de
   // МОДУЛЬ 2: Настоящее время
   'lesson-2-1': {
     id: 'lesson-2-1',
-    title: 'Урок 1: Правильные глаголы на -AR',
+    title: 'Урок 1: Предлоги и числительные',
     moduleId: 'module-2',
     grammar: {
-      title: 'Спряжение глаголов на -AR',
+      title: 'Простые предлоги и количественные числительные 0-100',
       content: `
-# Правильные глаголы на -AR (Verbos regulares -AR)
+# 1. Простые предлоги
 
-Большинство глаголов в испанском оканчиваются на -AR, -ER, -IR.
+## Предлог "a"
 
-## Спряжение глаголов на -AR в настоящем времени:
+Указывает направление движения куда-либо, то есть используется, чтобы ответить на вопрос куда?
 
-**HABLAR (говорить)**
+**Слияние:** Предлог a сливается с определенным артиклем мужского рода единственного числа el, образуя форму al:
+a + el → al
 
-| Местоимение | Форма | Перевод |
-|-------------|-------|---------|
-| yo | hablo | я говорю |
-| tú | hablas | ты говоришь |
-| él/ella/usted | habla | он/она говорит |
-| nosotros/as | hablamos | мы говорим |
-| vosotros/as | habláis | вы говорите |
-| ellos/ellas/ustedes | hablan | они говорят |
+**Примеры:**
+- ir a la escuela — идти в школу
+- ir al restaurante — идти в ресторан
+- ir a la fiesta — ехать / идти на вечеринку
 
-## Другие частые глаголы на -AR:
-- **estudiar** - учиться, изучать
-- **trabajar** - работать
-- **caminar** - ходить, гулять
-- **bailar** - танцевать
-- **cantar** - петь
-- **comprar** - покупать
-- **cocinar** - готовить
+Употребляется перед одушевленными существительными в винительном и дательном падежах. Используется, чтобы ответить на вопрос кого? или кому?
+
+**Примеры:**
+- ver a mi amigo — видеть (кого?) моего друга
+- dar un regalo a la profesora — дать (кому?) учительнице подарок
+
+## Предлог "de"
+
+Указывает точку, из которой начато движение, то есть используется, чтобы ответить на вопрос откуда?
+
+**Слияние:** Предлог de сливается с определенным артиклем мужского рода единственного числа el, образуя форму del:
+de + el → del
+
+**Примеры:**
+- venir de la playa — приходить с пляжа
+- salir del museo — выходить из музея
+
+Передает значение русского родительного падежа (кого? чего?), указывает на принадлежность:
+- Es la hermana del pintor. — Это сестра художника.
+- Los libros de la estudiante son caros. — Книги студентки дорогие.
+
+## Предлог "en"
+
+Соответствует русским предлогам в, на. Указывает на местонахождение. Используется, чтобы ответить на вопрос где?
+
+**Примеры:**
+- Estamos en el hotel. — Мы в отеле.
+- El lápiz está en la mesa. — Карандаш на столе.
+
+С глаголом ir указывает на способ передвижения:
+- viajar en tren — путешествовать на поезде
+- ir en coche — ехать на машине
+
+## Предлоги "con", "por", "para", "sin"
+
+- **con** — с, вместе с: ir al cine con amigos
+- **por** — по, про: hablar por teléfono
+- **para** — для: Este regalo es para ti.
+- **sin** — без: vivir sin problemas
+
+# 2. Количественные числительные 0–100
+
+| Número | Español | Número | Español |
+|--------|---------|--------|---------|
+| 0 | cero | 21 | veintiuno |
+| 1 | uno | 30 | treinta |
+| 2 | dos | 40 | cuarenta |
+| 3 | tres | 50 | cincuenta |
+| 4 | cuatro | 60 | sesenta |
+| 5 | cinco | 70 | setenta |
+| 6 | seis | 80 | ochenta |
+| 7 | siete | 90 | noventa |
+| 8 | ocho | 100 | cien, ciento |
+| 9 | nueve | | |
+| 10 | diez | | |
+| 11 | once | | |
+| 12 | doce | | |
+| 13 | trece | | |
+| 14 | catorce | | |
+| 15 | quince | | |
+| 16 | dieciséis | | |
+| 17 | diecisiete | | |
+| 18 | dieciocho | | |
+| 19 | diecinueve | | |
+| 20 | veinte | | |
+
+**Примечания:**
+- Числа 11—15 имеют особую форму
+- С 30 до 99 пишутся раздельно с союзом y: treinta y uno
+- Усеченная форма un употребляется перед существительными мужского рода
+- Форма женского рода: una
       `,
       examples: [
-        { spanish: 'Yo estudio español', translation: 'Я изучаю испанский' },
-        { spanish: 'Ella trabaja en Madrid', translation: 'Она работает в Мадриде' },
-        { spanish: 'Nosotros caminamos en el parque', translation: 'Мы гуляем в парке' }
+        { spanish: 'Voy a la escuela', translation: 'Я иду в школу' },
+        { spanish: 'Vengo del museo', translation: 'Я прихожу из музея' },
+        { spanish: 'Estoy en casa', translation: 'Я дома' },
+        { spanish: 'Tengo veinticinco años', translation: 'Мне 25 лет' }
       ]
     },
     vocabulary: [
-      { word: 'hablar', translation: 'говорить', audioUrl: null },
-      { word: 'estudiar', translation: 'учиться, изучать', audioUrl: null },
-      { word: 'trabajar', translation: 'работать', audioUrl: null },
-      { word: 'caminar', translation: 'ходить, гулять', audioUrl: null },
-      { word: 'bailar', translation: 'танцевать', audioUrl: null },
-      { word: 'cantar', translation: 'петь', audioUrl: null },
-      { word: 'comprar', translation: 'покупать', audioUrl: null },
-      { word: 'cocinar', translation: 'готовить', audioUrl: null },
-      { word: 'escuchar', translation: 'слушать', audioUrl: null },
-      { word: 'mirar', translation: 'смотреть', audioUrl: null }
+      { word: 'a', translation: 'в, на (направление)', audioUrl: null },
+      { word: 'de', translation: 'из, от, о', audioUrl: null },
+      { word: 'en', translation: 'в, на (местонахождение)', audioUrl: null },
+      { word: 'con', translation: 'с, вместе с', audioUrl: null },
+      { word: 'por', translation: 'по, через', audioUrl: null },
+      { word: 'para', translation: 'для', audioUrl: null },
+      { word: 'sin', translation: 'без', audioUrl: null },
+      { word: 'al', translation: 'в (a + el)', audioUrl: null },
+      { word: 'del', translation: 'из (de + el)', audioUrl: null },
+      { word: 'cero', translation: 'ноль', audioUrl: null },
+      { word: 'uno', translation: 'один', audioUrl: null },
+      { word: 'diez', translation: 'десять', audioUrl: null },
+      { word: 'veinte', translation: 'двадцать', audioUrl: null },
+      { word: 'treinta', translation: 'тридцать', audioUrl: null },
+      { word: 'cincuenta', translation: 'пятьдесят', audioUrl: null },
+      { word: 'cien', translation: 'сто', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi rutina diaria',
-      content: `Me llamo Ana y soy estudiante. Todos los días me levanto a las siete de la mañana. Desayuno café con tostadas y después camino hasta la universidad. Estudio literatura española y me gusta mucho.
+      title: 'Números y lugares',
+      content: `Hola, vivo en Madrid. Voy a la universidad en metro. La universidad está en el centro. Voy al museo con mis amigos. El museo está en la calle Principal, número cincuenta.
 
-Por las tardes, trabajo en una cafetería. Hablo con los clientes y preparo bebidas. Mi mejor amiga María trabaja conmigo. Ella canta muy bien y a veces toca la guitarra en la cafetería.
+Mi amigo Pedro viene de Barcelona. Él vive en la calle Mayor, número veinticinco. Vamos al cine por las tardes. El cine está cerca del parque.
 
-Por las noches, regreso a casa y cocino la cena. Después, estudio un poco más o miro una película. Los fines de semana, bailamos salsa con amigos. Me encanta bailar y escuchar música latina.
+Tengo veinte años. Mi hermana tiene treinta años. Mi padre tiene cincuenta y cinco años. Vivimos en un apartamento en el número ciento uno.
 
-La vida de estudiante es ocupada pero muy interesante. Aprendo algo nuevo cada día y conozco personas de diferentes países. En la universidad hablamos español, inglés y a veces francés.`,
-      translation: 'Меня зовут Ана и я студентка. Каждый день я встаю в семь утра. Завтракаю кофе с тостами и потом иду пешком до университета. Я изучаю испанскую литературу и мне это очень нравится...',
+Voy a clase en autobús. Vengo de casa a las ocho. Estoy en la universidad hasta las seis. Después voy al café con amigos.`,
+      translation: 'Привет, я живу в Мадриде. Я езжу в университет на метро. Университет находится в центре. Я хожу в музей с друзьями. Музей находится на улице Принсипаль, номер 50.\n\nМой друг Педро из Барселоны. Он живет на улице Майор, номер 25. Мы ходим в кино по вечерам. Кино находится рядом с парком.\n\nМне 20 лет. Моей сестре 30 лет. Моему отцу 55 лет. Мы живем в квартире номер 101.\n\nЯ езжу на занятия на автобусе. Я выхожу из дома в 8. Я в университете до шести. Потом иду в кафе с друзьями.',
       audioUrl: '/audio/lesson-2-1-reading.mp3',
       subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Ana y soy estudiante.' },
-        { start: 5, end: 10, text: 'Todos los días me levanto a las siete de la mañana.' },
-        { start: 10, end: 15, text: 'Desayuno café con tostadas y después camino hasta la universidad.' },
-        { start: 15, end: 20, text: 'Estudio literatura española y me gusta mucho.' }
+        { start: 0, end: 5, text: 'Hola, vivo en Madrid.' },
+        { start: 5, end: 10, text: 'Voy a la universidad en metro.' },
+        { start: 10, end: 15, text: 'Mi amigo Pedro viene de Barcelona.' },
+        { start: 15, end: 20, text: 'Tengo veinte años.' }
       ]
     },
     exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err']
   },
   'lesson-2-2': {
     id: 'lesson-2-2',
-    title: 'Урок 2: Правильные глаголы на -ER и -IR',
+    title: 'Урок 2: Правильные глаголы в настоящем времени',
     moduleId: 'module-2',
     grammar: {
-      title: 'Спряжение глаголов на -ER и -IR',
+      title: 'Спряжение правильных глаголов в Presente de Indicativo',
       content: `
-# Глаголы на -ER и -IR
+# Спряжение правильных глаголов в настоящем времени
 
-## COMER (есть, кушать) - глагол на -ER
+Испанские глаголы делятся на три спряжения:
+- I спряжение: глаголы на **-ar**
+- II спряжение: глаголы на **-er**
+- III спряжение: глаголы на **-ir**
 
-| Местоимение | Forma |
-|-------------|-------|
-| yo | como |
-| tú | comes |
-| él/ella/usted | come |
-| nosotros/as | comemos |
-| vosotros/as | coméis |
-| ellos/ellas/ustedes | comen |
+## I спряжение (-ar): HABLAR (говорить)
 
-## VIVIR (жить) - глагол на -IR
+| Лицо | Forma | Русский |
+|------|-------|---------|
+| yo | hablo | я говорю |
+| tú | hablas | ты говоришь |
+| él/ella/usted | habla | он/она говорит |
+| nosotros(-as) | hablamos | мы говорим |
+| vosotros(-as) | habláis | вы говорите |
+| ellos/ellas/ustedes | hablan | они говорят |
 
-| Местоимение | Forma |
-|-------------|-------|
-| yo | vivo |
-| tú | vives |
-| él/ella/usted | vive |
-| nosotros/as | vivimos |
-| vosotros/as | vivís |
-| ellos/ellas/ustedes | viven |
+**Другие глаголы:** llamar, preguntar, escuchar, tomar
 
-## Другие частые глаголы:
-**-ER:** beber (пить), leer (читать), aprender (учиться), vender (продавать)
-**-IR:** escribir (писать), abrir (открывать), recibir (получать)
+## II спряжение (-er): COMER (есть)
+
+| Лицо | Forma | Русский |
+|------|-------|---------|
+| yo | como | я ем |
+| tú | comes | ты ешь |
+| él/ella/usted | come | он/она ест |
+| nosotros(-as) | comemos | мы едим |
+| vosotros(-as) | coméis | вы едите |
+| ellos/ellas/ustedes | comen | они едят |
+
+**Другие глаголы:** leer, aprender, comprender
+
+## III спряжение (-ir): VIVIR (жить)
+
+| Лицо | Forma | Русский |
+|------|-------|---------|
+| yo | vivo | я живу |
+| tú | vives | ты живешь |
+| él/ella/usted | vive | он/она живет |
+| nosotros(-as) | vivimos | мы живем |
+| vosotros(-as) | vivís | вы живете |
+| ellos/ellas/ustedes | viven | они живут |
+
+**Другие глаголы:** abrir, escribir
+
+## Выражения с глаголом TOMAR
+
+- tomar café — пить кофе
+- tomar el bus — сесть на автобус
+- tomar una decisión — принять решение
+- tomar el sol — загорать
       `,
       examples: [
-        { spanish: 'Como pizza los viernes', translation: 'Я ем пиццу по пятницам' },
-        { spanish: 'Ellos viven en Barcelona', translation: 'Они живут в Барселоне' },
-        { spanish: 'Leemos libros interesantes', translation: 'Мы читаем интересные книги' }
+        { spanish: 'Yo hablo español', translation: 'Я говорю по-испански' },
+        { spanish: 'Ellos comen frutas', translation: 'Они едят фрукты' },
+        { spanish: 'Nosotros vivimos en Madrid', translation: 'Мы живем в Мадриде' }
       ]
     },
     vocabulary: [
@@ -1109,33 +1265,54 @@ Los García son una familia muy unida. Comparten sus experiencias, aprenden unos
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
-    title: 'Урок 3: Неправильные глаголы',
+    title: 'Урок 3: Глаголы IR, TENER, OÍR',
     moduleId: 'module-2',
     grammar: {
-      title: 'Основные неправильные глаголы',
+      title: 'Неправильные глаголы IR, TENER, OÍR',
       content: `
-# Неправильные глаголы (Verbos irregulares)
+# Глаголы IR, TENER, OÍR
 
-## IR (идти, ехать)
-yo voy, tú vas, él/ella va, nosotros vamos, vosotros vais, ellos van
+## Глагол IR (идти, ехать)
 
-## HACER (делать)
-yo hago, tú haces, él/ella hace, nosotros hacemos, vosotros hacéis, ellos hacen
+| Лицо | Форма | Русский |
+|------|-------|---------|
+| yo | voy | Я иду |
+| tú | vas | Ты идешь |
+| él/ella/usted | va | Он/она идет |
+| nosotros(-as) | vamos | Мы идем |
+| vosotros(-as) | vais | Вы идете |
+| ellos/ellas/ustedes | van | Они идут |
 
-## ESTAR (быть, находиться)
-yo estoy, tú estás, él/ella está, nosotros estamos, vosotros estáis, ellos están
+**Использование:** ir a + lugar (место), ir en + transporte, ir + a + infinitivo
 
-## VENIR (приходить)
-yo vengo, tú vienes, él/ella viene, nosotros venimos, vosotros venís, ellos vienen
+## Глагол TENER (иметь)
 
-## Разница SER и ESTAR:
-- **SER** - постоянные качества: Soy alto (Я высокий)
-- **ESTAR** - временные состояния: Estoy cansado (Я уставший)
+| Лицо | Форма | Русский |
+|------|-------|---------|
+| yo | tengo | Я имею |
+| tú | tienes | Ты имеешь |
+| él/ella/usted | tiene | Он/она имеет |
+| nosotros(-as) | tenemos | Мы имеем |
+| vosotros(-as) | tenéis | Вы имеете |
+| ellos/ellas/ustedes | tienen | Они имеют |
+
+**Выражения:** tener hambre, tener sed, tener años, tener razón
+
+## Глагол OÍR (слышать)
+
+| Лицо | Форма | Русский |
+|------|-------|---------|
+| yo | oigo | Я слышу |
+| tú | oyes | Ты слышишь |
+| él/ella/usted | oye | Он/она слышит |
+| nosotros(-as) | oímos | Мы слышим |
+| vosotros(-as) | oís | Вы слышите |
+| ellos/ellas/ustedes | oyen | Они слышат |
       `,
       examples: [
         { spanish: 'Voy al cine', translation: 'Я иду в кино' },
-        { spanish: 'Hago mi tarea', translation: 'Я делаю свое домашнее задание' },
-        { spanish: 'Estoy en casa', translation: 'Я нахожусь дома' }
+        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
+        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
       ]
     },
     vocabulary: [
@@ -4179,14 +4356,18 @@ Ana: De nada.
   },
   'ex-1-2-3': {
     id: 'ex-1-2-3',
-    type: 'writing',
-    title: 'Диалог знакомства',
-    description: 'Заполните пропуски в диалоге',
-    dialogue: [
-      { speaker: 'A', text: '¡Hola! ¿Cómo ___ llamas?', blank: 'te' },
-      { speaker: 'B', text: '___ llamo Pedro. ¿Y tú?', blank: 'Me' },
-      { speaker: 'A', text: 'Yo soy Ana. Mucho ___', blank: 'gusto' },
-      { speaker: 'B', text: 'Encantado. ¿De dónde ___?', blank: 'eres' }
+    type: 'matching',
+    title: 'Словосочетания',
+    description: 'Соедините словосочетания с переводом',
+    questions: [
+      { spanish: 'Buenos días', options: ['Спокойной ночи', 'Доброе утро', 'Добрый день', 'До свидания'], correct: 1 },
+      { spanish: 'Mucho gusto', options: ['Спасибо', 'Очень приятно', 'Пожалуйста', 'Как дела'], correct: 1 },
+      { spanish: 'De Madrid', options: ['В Мадриде', 'К Мадриду', 'Из Мадрида', 'О Мадриде'], correct: 2 },
+      { spanish: 'En casa', options: ['Дома', 'Домой', 'Из дома', 'О доме'], correct: 0 },
+      { spanish: 'Bien, gracias', options: ['Хорошо', 'Хорошо, спасибо', 'Очень хорошо', 'Спасибо'], correct: 1 },
+      { spanish: 'Buenas noches', options: ['Добрый день', 'Доброе утро', 'Спокойной ночи', 'Привет'], correct: 2 },
+      { spanish: 'Contento/a', options: ['Грустный', 'Довольный', 'Больной', 'Счастливый'], correct: 1 },
+      { spanish: 'En la oficina', options: ['В офис', 'В офисе', 'Из офиса', 'Офис'], correct: 1 }
     ]
   },
   'ex-1-2-4': {
@@ -4207,29 +4388,144 @@ Ana: De nada.
       { russian: 'Ты болен, друг.', correct: 'Tú estás enfermo, amigo.' }
     ]
   },
+  'ex-1-2-5': {
+    id: 'ex-1-2-5',
+    type: 'grammar',
+    title: 'Артикли',
+    description: 'Выберите правильный артикль (определенный el/la или неопределенный un/una)',
+    questions: [
+      { sentence: '___ casa es grande. (Определенный артикль: конкретный дом)', options: ['el', 'la', 'un', 'una'], correct: 1 },
+      { sentence: 'Yo tengo ___ libro. (Неопределенный артикль: какая-то книга)', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: '___ amigo es español. (Определенный артикль: конкретный друг)', options: ['el', 'la', 'un', 'una'], correct: 0 },
+      { sentence: 'Ella es ___ economista. (Неопределенный артикль: профессия)', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ oficina está en Madrid. (Определенный артикль: тот самый офис)', options: ['el', 'la', 'un', 'una'], correct: 1 },
+      { sentence: 'Necesito ___ coche. (Неопределенный артикль: какую-то машину)', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: '___ flor es bonita. (Определенный артикль: этот цветок)', options: ['el', 'la', 'un', 'una'], correct: 1 },
+      { sentence: 'Veo ___ chica. (Неопределенный артикль: какую-то девочку)', options: ['el', 'la', 'un', 'una'], correct: 3 }
+    ]
+  },
+  'ex-1-2-6': {
+    id: 'ex-1-2-6',
+    type: 'grammar',
+    title: 'Множественное число',
+    description: 'Образуйте множественное число существительных',
+    questions: [
+      { spanish: 'el libro', options: ['los libro', 'los libros', 'las libros', 'el libros'], correct: 1 },
+      { spanish: 'la casa', options: ['los casas', 'la casas', 'las casa', 'las casas'], correct: 3 },
+      { spanish: 'un amigo', options: ['unos amigo', 'unos amigos', 'unas amigos', 'un amigos'], correct: 1 },
+      { spanish: 'una flor', options: ['una flores', 'unas flor', 'unas flores', 'unos flores'], correct: 2 },
+      { spanish: 'el chico', options: ['los chicos', 'el chicos', 'las chicos', 'los chico'], correct: 0 },
+      { spanish: 'la madre', options: ['la madres', 'los madres', 'las madre', 'las madres'], correct: 3 },
+      { spanish: 'un hermano', options: ['unos hermanos', 'un hermanos', 'unas hermanos', 'unos hermano'], correct: 0 },
+      { spanish: 'una ciudad', options: ['una ciudades', 'unas ciudad', 'unos ciudades', 'unas ciudades'], correct: 3 },
+      { spanish: 'el coche', options: ['los coches', 'el coches', 'las coches', 'los coche'], correct: 0 },
+      { spanish: 'la noche', options: ['las noche', 'los noches', 'la noches', 'las noches'], correct: 3 }
+    ]
+  },
 
   // Урок 1.3
   'ex-1-3-1': {
     id: 'ex-1-3-1',
-    type: 'vocabulary',
-    title: 'Числа',
-    description: 'Напишите числа словами',
+    type: 'grammar',
+    title: 'Глагол SER',
+    description: 'Выберите правильную форму глагола SER',
     questions: [
-      { number: '5', correct: 'cinco' },
-      { number: '10', correct: 'diez' },
-      { number: '15', correct: 'quince' },
-      { number: '20', correct: 'veinte' }
+      { sentence: 'Yo ___ de Madrid', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
+      { sentence: 'Tú ___ alto y joven', options: ['soy', 'eres', 'es', 'somos'], correct: 1 },
+      { sentence: 'Él ___ de Barcelona', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Ella ___ española', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Nosotros ___ amigos', options: ['soy', 'eres', 'somos', 'son'], correct: 2 },
+      { sentence: 'Vosotros ___ de Rusia', options: ['soy', 'sois', 'es', 'son'], correct: 1 },
+      { sentence: 'Ellos ___ estudiantes', options: ['soy', 'eres', 'es', 'son'], correct: 3 },
+      { sentence: 'Usted ___ muy amable', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Yo ___ bajo y viejo', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
+      { sentence: 'Tú y yo ___ felices', options: ['soy', 'eres', 'somos', 'son'], correct: 2 }
     ]
   },
   'ex-1-3-2': {
     id: 'ex-1-3-2',
-    type: 'grammar',
-    title: 'Глагол TENER',
-    description: 'Выберите правильную форму',
+    type: 'vocabulary',
+    title: 'Знакомство - Диалоги',
+    description: 'Выберите правильный ответ из диалогов',
     questions: [
-      { sentence: 'Yo ___ 25 años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
-      { sentence: 'Tú ___ un libro', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Ella ___ dos hermanos', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 }
+      { spanish: '¿Cómo te llamas?', options: ['Me llamo Ana', 'Soy de Madrid', 'Estoy bien', 'Mucho gusto'], correct: 0 },
+      { spanish: '¿De dónde eres?', options: ['Me llamo Carlos', 'Soy de Barcelona', 'Estoy en casa', 'Encantado'], correct: 1 },
+      { spanish: '¿Cómo estás?', options: ['Soy feliz', 'Estoy bien, gracias', 'Soy de España', 'Me llamo Pedro'], correct: 1 },
+      { spanish: '¿Dónde estás ahora?', options: ['Soy alto', 'Estoy en la oficina', 'Soy de Rusia', 'Me llamo María'], correct: 1 },
+      { spanish: '¿Cómo es tu amigo?', options: ['Está feliz', 'Es alto y joven', 'Estoy bien', 'Soy español'], correct: 1 },
+      { spanish: 'Mucho gusto', options: ['Encantado/a', 'De nada', 'Adiós', 'Hola'], correct: 0 }
+    ]
+  },
+  'ex-1-3-3': {
+    id: 'ex-1-3-3',
+    type: 'dialogue-practice',
+    title: 'Диалоги знакомства',
+    description: 'Заполните пропуски в диалогах',
+    questions: [
+      { question: '¿Cómo ___ llamas?', options: ['te', 'se', 'me', 'le'], correct: 0 },
+      { question: '___ llamo Ana', options: ['Te', 'Se', 'Me', 'Le'], correct: 2 },
+      { question: '¿De dónde ___?', options: ['estás', 'eres', 'está', 'es'], correct: 1 },
+      { question: '___ de Madrid', options: ['Estoy', 'Soy', 'Está', 'Es'], correct: 1 },
+      { question: '¿Cómo ___?', options: ['estás', 'eres', 'te llamas', 'es'], correct: 0 },
+      { question: '¿Dónde ___ ahora?', options: ['eres', 'estás', 'soy', 'es'], correct: 1 },
+      { question: '___ en casa', options: ['Soy', 'Estoy', 'Es', 'Está'], correct: 1 },
+      { question: '¿Cómo ___ tu amigo?', options: ['está', 'es', 'estás', 'eres'], correct: 1 }
+    ]
+  },
+  'ex-1-3-4': {
+    id: 'ex-1-3-4',
+    type: 'reading-comprehension',
+    title: 'Чтение - Понимание текстов',
+    description: 'Прочитайте тексты и ответьте на вопросы',
+    texts: [
+      {
+        text: 'Hola, me llamo Carlos. Soy de Barcelona. Soy alto y joven. Estoy en Madrid ahora. Estoy muy feliz.',
+        question: '¿De dónde es Carlos?',
+        options: ['De Madrid', 'De Barcelona', 'De España', 'De Rusia'],
+        correct: 1
+      },
+      {
+        text: 'Mi amiga Ana es de Madrid. Es baja y bonita. Está en la oficina. Está muy contenta.',
+        question: '¿Cómo es Ana?',
+        options: ['Alta y bonita', 'Baja y bonita', 'Alta y fea', 'Baja y fea'],
+        correct: 1
+      },
+      {
+        text: 'Yo soy Pedro. Soy español. Soy de Valencia. Estoy en casa con mi familia. Somos muy felices.',
+        question: '¿Dónde está Pedro?',
+        options: ['En la oficina', 'En Madrid', 'En casa', 'En Valencia'],
+        correct: 2
+      },
+      {
+        text: 'María y Juan son amigos. María es alta y Juan es bajo. Ellos están en la universidad. Están muy ocupados.',
+        question: '¿Cómo es Juan?',
+        options: ['Alto', 'Bajo', 'Gordo', 'Delgado'],
+        correct: 1
+      },
+      {
+        text: 'El señor Rodríguez es de Sevilla. Es viejo y amable. Está en el hospital. Está enfermo.',
+        question: '¿Dónde está el señor Rodríguez?',
+        options: ['En casa', 'En la oficina', 'En el hospital', 'En Sevilla'],
+        correct: 2
+      }
+    ]
+  },
+  'ex-1-3-5': {
+    id: 'ex-1-3-5',
+    type: 'translation',
+    title: 'Перевод с русского - ESTAR',
+    description: 'Переведите предложения с глаголом ESTAR на испанский',
+    questions: [
+      { russian: 'Я дома.', correct: 'Yo estoy en casa.' },
+      { russian: 'Ты в офисе.', correct: 'Tú estás en la oficina.' },
+      { russian: 'Она довольна.', correct: 'Ella está contenta.' },
+      { russian: 'Мы счастливы (сегодня).', correct: 'Nosotros estamos felices.' },
+      { russian: 'Вы (друзья) в Мадриде.', correct: 'Vosotros estáis en Madrid.' },
+      { russian: 'Они больны.', correct: 'Ellos están enfermos.' },
+      { russian: 'Вы (уваж.) в Испании.', correct: 'Usted está en España.' },
+      { russian: 'Я грустный сегодня.', correct: 'Yo estoy triste hoy.' },
+      { russian: 'Он очень занят (сейчас).', correct: 'Él está muy ocupado.' },
+      { russian: 'Мы в университете.', correct: 'Nosotros estamos en la universidad.' }
     ]
   },
 
@@ -4237,61 +4533,51 @@ Ana: De nada.
   'ex-1-4-1': {
     id: 'ex-1-4-1',
     type: 'vocabulary',
-    title: 'Род существительных',
-    description: 'Определите род существительного',
+    title: 'Профессии',
+    description: 'Выберите правильный перевод профессии',
     questions: [
-      { spanish: 'libro', options: ['мужской', 'женский'], correct: 0 },
-      { spanish: 'casa', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'chico', options: ['мужской', 'женский'], correct: 0 },
-      { spanish: 'amiga', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'flor', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'coche', options: ['мужской', 'женский'], correct: 0 },
-      { spanish: 'hermano', options: ['мужской', 'женский'], correct: 0 },
-      { spanish: 'madre', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'día', options: ['мужской', 'женский'], correct: 0 },
-      { spanish: 'mano', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'ciudad', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'problema', options: ['мужской', 'женский'], correct: 0 },
-      { spanish: 'noche', options: ['мужской', 'женский'], correct: 1 },
-      { spanish: 'café', options: ['мужской', 'женский'], correct: 0 }
+      { spanish: 'médico', options: ['учитель', 'врач', 'художник', 'юрист'], correct: 1 },
+      { spanish: 'profesor', options: ['преподаватель', 'писатель', 'музыкант', 'повар'], correct: 0 },
+      { spanish: 'abogado', options: ['актер', 'адвокат', 'банкир', 'гид'], correct: 1 },
+      { spanish: 'camarero', options: ['строитель', 'продавец', 'официант', 'инженер'], correct: 2 },
+      { spanish: 'ingeniero', options: ['инженер', 'поэт', 'журналист', 'медсестра'], correct: 0 },
+      { spanish: 'periodista', options: ['повар', 'журналист', 'художник', 'актер'], correct: 1 },
+      { spanish: 'músico', options: ['музыкант', 'писатель', 'экономист', 'поэт'], correct: 0 },
+      { spanish: 'constructor', options: ['продавец', 'врач', 'строитель', 'юрист'], correct: 2 },
+      { spanish: 'escritor', options: ['писатель', 'художник', 'актер', 'гид'], correct: 0 },
+      { spanish: 'pintor', options: ['поэт', 'музыкант', 'художник', 'банкир'], correct: 2 }
     ]
   },
   'ex-1-4-2': {
     id: 'ex-1-4-2',
-    type: 'grammar',
-    title: 'Артикли',
-    description: 'Выберите правильный артикль',
+    type: 'vocabulary',
+    title: 'Страны и столицы',
+    description: 'Выберите правильную столицу страны',
     questions: [
-      { sentence: '___ libro', options: ['el', 'la', 'los', 'las'], correct: 0 },
-      { sentence: '___ casa', options: ['el', 'la', 'los', 'las'], correct: 1 },
-      { sentence: '___ libros', options: ['el', 'la', 'los', 'las'], correct: 2 },
-      { sentence: '___ flores', options: ['el', 'la', 'los', 'las'], correct: 3 },
-      { sentence: '___ coche', options: ['un', 'una', 'unos', 'unas'], correct: 0 },
-      { sentence: '___ amiga', options: ['un', 'una', 'unos', 'unas'], correct: 1 },
-      { sentence: '___ ciudad', options: ['el', 'la', 'los', 'las'], correct: 1 },
-      { sentence: '___ hermanos', options: ['el', 'la', 'los', 'las'], correct: 2 },
-      { sentence: '___ noche', options: ['el', 'la', 'los', 'las'], correct: 1 },
-      { sentence: '___ problema', options: ['el', 'la', 'los', 'las'], correct: 0 },
-      { sentence: '___ museo', options: ['un', 'una', 'unos', 'unas'], correct: 0 },
-      { sentence: '___ mano', options: ['un', 'una', 'unos', 'unas'], correct: 1 }
+      { spanish: 'España', options: ['Barcelona', 'Madrid', 'Valencia', 'Sevilla'], correct: 1 },
+      { spanish: 'Rusia', options: ['San Petersburgo', 'Kiev', 'Moscú', 'Minsk'], correct: 2 },
+      { spanish: 'Francia', options: ['Lyon', 'París', 'Marsella', 'Niza'], correct: 1 },
+      { spanish: 'Alemania', options: ['Múnich', 'Hamburgo', 'Frankfurt', 'Berlín'], correct: 3 },
+      { spanish: 'Italia', options: ['Milán', 'Venecia', 'Roma', 'Florencia'], correct: 2 },
+      { spanish: 'Inglaterra', options: ['Manchester', 'Liverpool', 'Birmingham', 'Londres'], correct: 3 },
+      { spanish: 'Portugal', options: ['Oporto', 'Coimbra', 'Lisboa', 'Faro'], correct: 2 },
+      { spanish: 'Grecia', options: ['Salónica', 'Atenas', 'Creta', 'Rodas'], correct: 1 }
     ]
   },
   'ex-1-4-3': {
     id: 'ex-1-4-3',
-    type: 'grammar',
-    title: 'Прилагательные',
-    description: 'Выберите правильную форму прилагательного',
+    type: 'vocabulary',
+    title: 'Национальности',
+    description: 'Выберите правильную национальность',
     questions: [
-      { sentence: 'El libro es ___ (blanco)', options: ['blanco', 'blanca', 'blancos', 'blancas'], correct: 0 },
-      { sentence: 'La casa es ___ (bonito)', options: ['bonito', 'bonita', 'bonitos', 'bonitas'], correct: 1 },
-      { sentence: 'Los coches son ___ (verde)', options: ['verde', 'verdes', 'verdas', 'verdos'], correct: 1 },
-      { sentence: 'Las flores son ___ (azul)', options: ['azul', 'azules', 'azula', 'azulas'], correct: 1 },
-      { sentence: 'El hermano es ___ (pequeño)', options: ['pequeño', 'pequeña', 'pequeños', 'pequeñas'], correct: 0 },
-      { sentence: 'La ciudad es ___ (grande)', options: ['grande', 'grandes', 'granda', 'grandos'], correct: 0 },
-      { sentence: 'Los museos son ___ (nuevo)', options: ['nuevo', 'nueva', 'nuevos', 'nuevas'], correct: 2 },
-      { sentence: 'Las noches son ___ (bonito)', options: ['bonito', 'bonita', 'bonitos', 'bonitas'], correct: 3 },
-      { sentence: 'El tema es ___ (interesante)', options: ['interesante', 'interesantes', 'interesanta', 'interesantos'], correct: 0 },
-      { sentence: 'El problema es ___ (difícil)', options: ['difícil', 'difíciles', 'difícila', 'difícilos'], correct: 0 }
+      { spanish: 'De España → ', options: ['español', 'españo', 'españés', 'españí'], correct: 0 },
+      { spanish: 'De Rusia → ', options: ['rusiano', 'rusío', 'ruso', 'rusés'], correct: 2 },
+      { spanish: 'De Francia → ', options: ['francés', 'franceño', 'franzo', 'franciano'], correct: 0 },
+      { spanish: 'De Alemania → ', options: ['alemanés', 'alemano', 'alemán', 'alemanio'], correct: 2 },
+      { spanish: 'De Italia → ', options: ['italieno', 'italiano', 'italianés', 'italio'], correct: 1 },
+      { spanish: 'De Inglaterra → ', options: ['ingleso', 'ingliano', 'inglés', 'ingléño'], correct: 2 },
+      { spanish: 'De Portugal → ', options: ['portugano', 'portugués', 'portugano', 'portugalés'], correct: 1 },
+      { spanish: 'De China → ', options: ['chinanés', 'chinío', 'chino', 'chinano'], correct: 2 }
     ]
   },
   'ex-1-4-4': {
@@ -4324,44 +4610,38 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
   'ex-1-4-5': {
     id: 'ex-1-4-5',
-    type: 'writing',
-    title: 'Множественное число',
-    description: 'Напишите во множественном числе',
+    type: 'grammar',
+    title: 'SER с профессиями и национальностями',
+    description: 'Выберите правильную форму глагола SER',
     questions: [
-      { spanish: 'el libro', correct: 'los libros' },
-      { spanish: 'la casa', correct: 'las casas' },
-      { spanish: 'un coche', correct: 'unos coches' },
-      { spanish: 'una flor', correct: 'unas flores' },
-      { spanish: 'el lápiz', correct: 'los lápices' },
-      { spanish: 'la ciudad', correct: 'las ciudades' },
-      { spanish: 'el hermano', correct: 'los hermanos' },
-      { spanish: 'la madre', correct: 'las madres' },
-      { spanish: 'un museo', correct: 'unos museos' },
-      { spanish: 'la noche', correct: 'las noches' },
-      { spanish: 'el avión', correct: 'los aviones' },
-      { spanish: 'la luz', correct: 'las luces' },
-      { spanish: 'el problema', correct: 'los problemas' },
-      { spanish: 'la calle', correct: 'las calles' }
+      { sentence: 'Yo ___ médico', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
+      { sentence: 'Ella ___ española', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Nosotros ___ profesores', options: ['soy', 'somos', 'es', 'son'], correct: 1 },
+      { sentence: 'Tú ___ ingeniero', options: ['soy', 'eres', 'es', 'son'], correct: 1 },
+      { sentence: 'Ellos ___ de Rusia', options: ['soy', 'eres', 'es', 'son'], correct: 3 },
+      { sentence: 'Usted ___ periodista', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Mi amiga ___ alemana', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Vosotros ___ músicos', options: ['soy', 'sois', 'es', 'son'], correct: 1 },
+      { sentence: 'El constructor ___ de Italia', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Yo ___ ruso', options: ['soy', 'eres', 'es', 'son'], correct: 0 }
     ]
   },
   'ex-1-4-6': {
     id: 'ex-1-4-6',
-    type: 'writing',
-    title: 'Перевод с прилагательными',
-    description: 'Переведите на испанский',
+    type: 'translation',
+    title: 'Перевод с профессиями',
+    description: 'Переведите предложения на испанский',
     questions: [
-      { russian: 'белый дом', correct: 'la casa blanca' },
-      { russian: 'красивая книга', correct: 'el libro bonito' },
-      { russian: 'зеленые автомобили', correct: 'los coches verdes' },
-      { russian: 'синие цветы', correct: 'las flores azules' },
-      { russian: 'большой друг', correct: 'el amigo grande' },
-      { russian: 'маленький мальчик', correct: 'el chico pequeño' },
-      { russian: 'новый музей', correct: 'el museo nuevo' },
-      { russian: 'красивая улица', correct: 'la calle bonita' },
-      { russian: 'трудная проблема', correct: 'el problema difícil' },
-      { russian: 'интересная тема', correct: 'el tema interesante' },
-      { russian: 'красные цветы', correct: 'las flores rojas' },
-      { russian: 'белая ночь', correct: 'la noche blanca' }
+      { russian: 'Я врач.', correct: 'Yo soy médico.' },
+      { russian: 'Она учитель.', correct: 'Ella es profesora.' },
+      { russian: 'Мы из Испании.', correct: 'Nosotros somos de España.' },
+      { russian: 'Он испанец.', correct: 'Él es español.' },
+      { russian: 'Ты адвокат.', correct: 'Tú eres abogado.' },
+      { russian: 'Они журналисты.', correct: 'Ellos son periodistas.' },
+      { russian: 'Я в Мадриде (сейчас).', correct: 'Yo estoy en Madrid.' },
+      { russian: 'Она довольна.', correct: 'Ella está contenta.' },
+      { russian: 'Вы (уваж.) из России.', correct: 'Usted es de Rusia.' },
+      { russian: 'Мой друг - инженер.', correct: 'Mi amigo es ingeniero.' }
     ]
   },
 
