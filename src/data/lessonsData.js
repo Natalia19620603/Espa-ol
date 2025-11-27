@@ -624,11 +624,7 @@ Ser выполняет роль глагола-связки и употребл�
 - El libro es aburrido. (Книга скучная - она неинтересная по содержанию.)
 - El niño está aburrido. (Ребенок скучает - ему скучно в данный момент.)
       `,
-      examples: [
-        { spanish: '¿Cómo te llamas?', translation: 'Как тебя зовут?', pronunciation: '[комо те льямас]' },
-        { spanish: 'Me llamo María', translation: 'Меня зовут Мария', pronunciation: '[ме льямо мариа]' },
-        { spanish: 'Mucho gusto', translation: 'Очень приятно', pronunciation: '[мучо густо]' }
-      ]
+      examples: []
     },
     vocabulary: [
       { word: '¿Cómo te llamas?', translation: 'как тебя зовут?', audioUrl: null },
@@ -822,53 +818,7 @@ Casado/a — Женатый/замужняя`,
       content: `
 # Профессии, Страны и Национальности
 
-Прочитайте и запомните слова, обозначающие:
-
-## a) Профессии
-
-| Español | Русский |
-|---------|---------|
-| abogado, -a | адвокат |
-| actor | актер |
-| actriz | актриса |
-| banquero | банкир |
-| médico, -a | врач |
-| guía | гид |
-| periodista | журналист |
-| ingeniero, -a | инженер |
-| enfermera | медсестра |
-| músico | музыкант |
-| camarero, -a | официант |
-| escritor, -a | писатель |
-| cocinero, -a | повар |
-| poeta | поэт |
-| profesor, -a | преподаватель |
-| dependiente, -a | продавец |
-| constructor | строитель |
-| pintor, -a | художник |
-| economista | экономист |
-| jurista | юрист |
-
-## б) Страны, Столицы и Национальности
-
-| Страна (País) | Столица (Capital) | Национальность (Nacionalidad) | Русский |
-|---------------|-------------------|--------------------------------|---------|
-| España | Madrid | español / española | испанец / испанка |
-| Rusia | Moscú | ruso / rusa | русский / русская |
-| Francia | París | francés / francesa | француз / француженка |
-| Bélgica | Bruselas | belga / belga | бельгиец / бельгийка |
-| Holanda | Ámsterdam | holandés / holandesa | голландец / голландка |
-| Italia | Roma | italiano / italiana | итальянец / итальянка |
-| Grecia | Atenas | griego / griega | грек / гречанка |
-| Portugal | Lisboa | portugués / portuguesa | португалец / португалка |
-| Alemania | Berlín | alemán / alemana | немец / немка |
-| Dinamarca | Copenhague | danés / danesa | датчанин / датчанка |
-| China | Pekín | chino / china | китаец / китаянка |
-| Japón | Tokio | japonés / japonesa | японец / японка |
-| Turquía | Estambul | turco / turca | турок / турчанка |
-| Inglaterra / Gran Bretaña | Londres | inglés / inglesa | англичанин / англичанка |
-| Estados Unidos / Norteamérica | Washington | norteamericano / norteamericana | американец / американка |
-| Marruecos | Rabat | marroquí / marroquí | марокканец / марокканка |
+В этом уроке мы изучаем, как говорить о профессиях, странах и национальностях на испанском языке. Все новые слова вы найдете в разделе "Словарь".
 
 ## Использование с глаголами SER и ESTAR
 
@@ -880,12 +830,31 @@ Casado/a — Женатый/замужняя`,
 **Глагол ESTAR используется для:**
 - Местонахождения: Estoy en Madrid. (Я в Мадриде.)
 - Временного состояния: El médico está ocupado. (Врач занят.)
+
+## Примеры использования
+
+1. **Mi hermano es ingeniero.** — Мой брат инженер.
+2. **Ellas son periodistas.** — Они (ж.р.) журналистки.
+3. **¿Eres tú profesor?** — Ты преподаватель?
+4. **Mi madre es médica y mi padre es abogado.** — Моя мама врач, а мой папа адвокат.
+5. **Nosotros somos de España, somos españoles.** — Мы из Испании, мы испанцы.
+6. **Él es francés, de París.** — Он француз, из Парижа.
+7. **¿De dónde eres? Soy ruso, de Moscú.** — Откуда ты? Я русский, из Москвы.
+8. **María es italiana, pero vive en Alemania.** — Мария итальянка, но живет в Германии.
+9. **Los camareros están ocupados hoy.** — Официанты сегодня заняты.
+10. **Mi amiga es pintora, está en Roma ahora.** — Моя подруга художница, она сейчас в Риме.
       `,
       examples: [
         { spanish: 'Yo soy médico', translation: 'Я врач', pronunciation: '[йо сой мэдико]' },
         { spanish: 'Ella es española', translation: 'Она испанка', pronunciation: '[элья эс эспаньола]' },
         { spanish: 'Somos de Rusia', translation: 'Мы из России', pronunciation: '[сомос дэ русиа]' },
-        { spanish: 'Estoy en Madrid', translation: 'Я в Мадриде', pronunciation: '[эстой эн мадрид]' }
+        { spanish: 'Estoy en Madrid', translation: 'Я в Мадриде', pronunciation: '[эстой эн мадрид]' },
+        { spanish: 'Mi hermano es ingeniero', translation: 'Мой брат инженер', pronunciation: '[ми эрмано эс инхэньеро]' },
+        { spanish: 'Ellas son periodistas', translation: 'Они журналистки', pronunciation: '[эльяс сон пэрьодистас]' },
+        { spanish: '¿Eres tú profesor?', translation: 'Ты преподаватель?', pronunciation: '[эрэс ту профэсор]' },
+        { spanish: 'Él es francés, de París', translation: 'Он француз, из Парижа', pronunciation: '[эль эс франсэс, дэ парис]' },
+        { spanish: '¿De dónde eres?', translation: 'Откуда ты?', pronunciation: '[дэ дондэ эрэс]' },
+        { spanish: 'Mi amiga es pintora', translation: 'Моя подруга художница', pronunciation: '[ми амига эс пинтора]' }
       ]
     },
     vocabulary: [
@@ -931,12 +900,32 @@ Casado/a — Женатый/замужняя`,
       { word: 'Berlín', translation: 'Берлин', audioUrl: null },
       { word: 'Roma', translation: 'Рим', audioUrl: null },
       { word: 'Londres', translation: 'Лондон', audioUrl: null },
+      { word: 'Bruselas', translation: 'Брюссель', audioUrl: null },
+      { word: 'Ámsterdam', translation: 'Амстердам', audioUrl: null },
+      { word: 'Atenas', translation: 'Афины', audioUrl: null },
+      { word: 'Lisboa', translation: 'Лиссабон', audioUrl: null },
+      { word: 'Copenhague', translation: 'Копенгаген', audioUrl: null },
+      { word: 'Pekín', translation: 'Пекин', audioUrl: null },
+      { word: 'Tokio', translation: 'Токио', audioUrl: null },
+      { word: 'Estambul', translation: 'Стамбул', audioUrl: null },
+      { word: 'Washington', translation: 'Вашингтон', audioUrl: null },
+      { word: 'Rabat', translation: 'Рабат', audioUrl: null },
       { word: 'español, -a', translation: 'испанец, испанка', audioUrl: null },
       { word: 'ruso, -a', translation: 'русский, русская', audioUrl: null },
       { word: 'francés, -esa', translation: 'француз, француженка', audioUrl: null },
       { word: 'alemán, -ana', translation: 'немец, немка', audioUrl: null },
       { word: 'italiano, -a', translation: 'итальянец, итальянка', audioUrl: null },
       { word: 'inglés, -esa', translation: 'англичанин, англичанка', audioUrl: null },
+      { word: 'belga', translation: 'бельгиец, бельгийка', audioUrl: null },
+      { word: 'holandés, -esa', translation: 'голландец, голландка', audioUrl: null },
+      { word: 'griego, -a', translation: 'грек, гречанка', audioUrl: null },
+      { word: 'portugués, -esa', translation: 'португалец, португалка', audioUrl: null },
+      { word: 'danés, -esa', translation: 'датчанин, датчанка', audioUrl: null },
+      { word: 'chino, -a', translation: 'китаец, китаянка', audioUrl: null },
+      { word: 'japonés, -esa', translation: 'японец, японка', audioUrl: null },
+      { word: 'turco, -a', translation: 'турок, турчанка', audioUrl: null },
+      { word: 'norteamericano, -a', translation: 'американец, американка', audioUrl: null },
+      { word: 'marroquí', translation: 'марокканец, марокканка', audioUrl: null },
       { word: 'alto, -a', translation: 'высокий, высокая', audioUrl: null },
       { word: 'bajo, -a', translation: 'низкий, низкая', audioUrl: null },
       { word: 'guapo, -a', translation: 'красивый, красивая', audioUrl: null },
@@ -1238,27 +1227,42 @@ Voy a clase en autobús. Vengo de casa a las ocho. Estoy en la universidad hasta
       { word: 'vivir', translation: 'жить', audioUrl: null },
       { word: 'escribir', translation: 'писать', audioUrl: null },
       { word: 'abrir', translation: 'открывать', audioUrl: null },
-      { word: 'recibir', translation: 'получать', audioUrl: null }
+      { word: 'recibir', translation: 'получать', audioUrl: null },
+      { word: 'tomar', translation: 'брать, взять, пить (напитки), принимать', audioUrl: null },
+      { word: 'Yo tomo café con leche cada mañana', translation: 'Я пью кофе с молоком каждое утро', audioUrl: null },
+      { word: 'Mi hermana toma el autobús a la escuela', translation: 'Моя сестра едет на автобусе в школу', audioUrl: null },
+      { word: 'Nosotros tomamos el sol en la playa', translation: 'Мы загораем на пляже', audioUrl: null },
+      { word: '¿Tú tomas un bocadillo para el almuerzo?', translation: 'Ты берешь бутерброд на обед?', audioUrl: null },
+      { word: 'Los niños toman sus mochilas para salir al recreo', translation: 'Дети берут свои рюкзаки чтобы выйти на перемену', audioUrl: null },
+      { word: 'La abuela toma una medicina cada noche', translation: 'Бабушка принимает лекарство каждый вечер', audioUrl: null },
+      { word: 'Yo tomo un zumo de naranja en el desayuno', translation: 'Я пью апельсиновый сок на завтрак', audioUrl: null },
+      { word: 'Mi padre no toma el tren, él va en coche', translation: 'Мой отец не едет на поезде, он едет на машине', audioUrl: null },
+      { word: '¿Ustedes toman agua después de correr?', translation: 'Вы пьете воду после бега?', audioUrl: null },
+      { word: 'El profesor toma mi libro para revisarlo', translation: 'Преподаватель берет мою книгу чтобы проверить ее', audioUrl: null }
     ],
     readingText: {
-      title: 'La familia García',
-      content: `La familia García vive en un apartamento en el centro de Madrid. Son cuatro personas: el padre Antonio, la madre Carmen, y sus dos hijos, Pablo y Lucía.
+      title: 'Mi día en Madrid',
+      content: `Hola, me llamo Pedro. Soy estudiante. Soy de Rusia pero vivo en Madrid. Tengo veinte años.
 
-Antonio trabaja como profesor en una escuela. Enseña matemáticas y le gusta mucho su trabajo. Por las mañanas, lee el periódico mientras bebe café. Carmen es médica y trabaja en un hospital. Ella ayuda a muchas personas cada día.
+Cada mañana yo tomo café con leche en casa. Después tomo el autobús a la universidad. La universidad está en el centro de Madrid. Voy de casa a la universidad en treinta minutos.
 
-Pablo tiene 15 años y estudia en el instituto. Le encanta leer libros de aventuras y escribir cuentos. Su hermana Lucía tiene 12 años. Ella aprende a tocar el piano y practica todos los días. También le gusta pintar y tiene muchos cuadros en su habitación.
+En la universidad estudio español. Hablo con mis amigos. Ellos son de Italia, Francia y Alemania. Nosotros hablamos español en clase. También leemos libros en español y escribimos textos.
 
-Los fines de semana, la familia come junta en casa. Preparan platos tradicionales españoles como paella o tortilla. Por las tardes, caminan por el Parque del Retiro. Es su lugar favorito en Madrid. A veces visitan museos o van al cine.
+A las dos tomo el almuerzo en el café de la universidad. Como bocadillos y tomo un zumo de naranja. Mi amigo italiano toma agua con la comida.
 
-Los García son una familia muy unida. Comparten sus experiencias, aprenden unos de otros y disfrutan del tiempo juntos.`,
-      translation: 'Семья Гарсия живет в квартире в центре Мадрида. Их четыре человека: отец Антонио, мать Кармен, и их двое детей, Пабло и Люсия.\n\nАнтонио работает учителем в школе. Он преподает математику и ему очень нравится его работа. По утрам он читает газету, попивая кофе. Кармен - врач и работает в больнице. Она помогает многим людям каждый день.\n\nПабло 15 лет и учится в институте. Он обожает читать приключенческие книги и писать рассказы. Его сестре Люсии 12 лет. Она учится играть на пианино и практикуется каждый день. Ей также нравится рисовать, и в ее комнате много картин.\n\nПо выходным семья ест вместе дома. Они готовят традиционные испанские блюда, такие как паэлья или тортилья. Днем они гуляют по парку Ретиро. Это их любимое место в Мадриде. Иногда они посещают музеи или ходят в кино.\n\nГарсия - очень сплоченная семья. Они делятся своим опытом, учатся друг у друга и наслаждаются временем вместе.',
+Por la tarde voy a casa. Leo libros en español y aprendo palabras nuevas. A veces escribo mensajes a mi familia en Rusia.
+
+Mi amiga Ana es española, de Barcelona. Ella es profesora. Ana toma el tren de Barcelona a Madrid cada semana. Ella vive con su hermana en un apartamento pequeño.
+
+Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`,
+      translation: 'Привет, меня зовут Педро. Я студент. Я из России, но живу в Мадриде. Мне двадцать лет.\n\nКаждое утро я пью кофе с молоком дома. Потом я сажусь на автобус до университета. Университет находится в центре Мадрида. Я еду из дома в университет за тридцать минут.\n\nВ университете я изучаю испанский. Я разговариваю с моими друзьями. Они из Италии, Франции и Германии. Мы говорим по-испански на занятиях. Также мы читаем книги на испанском и пишем тексты.\n\nВ два часа я обедаю в университетском кафе. Я ем бутерброды и пью апельсиновый сок. Мой итальянский друг пьет воду с едой.\n\nВо второй половине дня я иду домой. Я читаю книги на испанском и учу новые слова. Иногда я пишу сообщения моей семье в России.\n\nМоя подруга Ана испанка, из Барселоны. Она преподаватель. Ана едет на поезде из Барселоны в Мадрид каждую неделю. Она живет со своей сестрой в маленькой квартире.\n\nПо выходным мы загораем в парке. Очень приятно быть в Мадриде.',
       audioUrl: '/audio/lesson-2-2-reading.mp3',
       subtitles: [
-        { start: 0, end: 5, text: 'La familia García vive en un apartamento en el centro de Madrid.' },
-        { start: 5, end: 10, text: 'Antonio trabaja como profesor en una escuela.' },
-        { start: 10, end: 15, text: 'Carmen es médica y trabaja en un hospital.' },
-        { start: 15, end: 20, text: 'Pablo tiene 15 años y estudia en el instituto.' },
-        { start: 20, end: 25, text: 'Los fines de semana, la familia come junta en casa.' }
+        { start: 0, end: 5, text: 'Hola, me llamo Pedro. Soy estudiante.' },
+        { start: 5, end: 10, text: 'Cada mañana yo tomo café con leche en casa.' },
+        { start: 10, end: 15, text: 'Después tomo el autobús a la universidad.' },
+        { start: 15, end: 20, text: 'En la universidad hablo con mis amigos.' },
+        { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
       ]
     },
     exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
@@ -1283,7 +1287,47 @@ Los García son una familia muy unida. Comparten sus experiencias, aprenden unos
 | vosotros(-as) | vais | Вы идете |
 | ellos/ellas/ustedes | van | Они идут |
 
-**Использование:** ir a + lugar (место), ir en + transporte, ir + a + infinitivo
+### Глагол IR с предлогами
+
+**Глагол ir с предлогом а обозначает направление движения вперед от говорящего.**
+
+Определенный артикль мужского рода единственного числа el сливается с предлогом а, образуя форму al:
+
+- ir a la oficina — идти в офис, на работу
+- ir al bar — идти в бар
+- ir al teatro — идти в театр
+- ir al café — идти в кафе
+- ir a casa — идти домой
+- ir a Rusia — ехать в Россию
+
+**Глагол ir с предлогом en указывает на способ передвижения:**
+
+- ir en coche — ехать на машине
+- ir en taxi — ехать на такси
+- ir en autobús — ехать на автобусе
+- ir en tren — ехать на поезде
+- ir en avión — лететь на самолете
+- ir en barco — плыть на корабле
+- ir a pie / ir andando — идти пешком
+
+**Глагол ir с предлогом de указывает на цель передвижения:**
+
+- ir de compras — идти за покупками
+- ir de vacaciones — ехать в отпуск, на каникулы
+
+**Например:**
+- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
+- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.
+
+### Конструкция ir + a + инфинитив
+
+Используется для:
+- выражения намерения что-то сделать
+- выражения ближайшего будущего времени
+
+**Например:**
+- Voy a descansar un poco. — Я собираюсь немного отдохнуть.
+- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?
 
 ## Глагол TENER (иметь)
 
@@ -1323,30 +1367,47 @@ Los García son una familia muy unida. Comparten sus experiencias, aprenden unos
       { word: 'tener', translation: 'иметь', audioUrl: null },
       { word: 'poder', translation: 'мочь', audioUrl: null },
       { word: 'querer', translation: 'хотеть', audioUrl: null },
-      { word: 'saber', translation: 'знать', audioUrl: null }
+      { word: 'saber', translation: 'знать', audioUrl: null },
+      { word: 'oír', translation: 'слышать', audioUrl: null },
+      { word: 'bar', translation: 'бар', audioUrl: null },
+      { word: 'teatro', translation: 'театр', audioUrl: null },
+      { word: 'café', translation: 'кафе', audioUrl: null },
+      { word: 'casa', translation: 'дом', audioUrl: null },
+      { word: 'coche', translation: 'машина', audioUrl: null },
+      { word: 'taxi', translation: 'такси', audioUrl: null },
+      { word: 'autobús', translation: 'автобус', audioUrl: null },
+      { word: 'tren', translation: 'поезд', audioUrl: null },
+      { word: 'avión', translation: 'самолет', audioUrl: null },
+      { word: 'barco', translation: 'корабль', audioUrl: null },
+      { word: 'a pie', translation: 'пешком', audioUrl: null },
+      { word: 'compras', translation: 'покупки', audioUrl: null },
+      { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
+      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+      { word: 'té', translation: 'чай', audioUrl: null }
     ],
     readingText: {
-      title: 'Un día típico',
-      content: `Hoy es lunes y tengo un día muy ocupado. Me levanto a las siete de la mañana. Estoy cansado porque ayer me acosté tarde, pero tengo que ir a trabajar.
+      title: 'Mis planes',
+      content: `Me llamo Carmen. Soy médica de España, de Valencia. Tengo treinta años. Vivo en Madrid con mi hermana. Ella es profesora de italiano.
 
-Primero voy al baño y me ducho. Después bajo a la cocina y hago el desayuno. Normalmente bebo café y como tostadas con mermelada. Mientras desayuno, leo las noticias en mi teléfono.
+Hoy es viernes y tengo planes para el fin de semana. Voy a ir de compras al centro. Quiero comprar un libro nuevo y tomar café en mi bar favorito. Voy a ir en autobús porque está lejos de casa.
 
-A las ocho salgo de casa. Voy al trabajo en metro porque está lejos y el tráfico es horrible. El viaje dura media hora. En el metro leo un libro o escucho música. Hoy hago las dos cosas.
+Mi hermana va a ir al teatro con sus amigos. Van a ver una obra española. Ella va en coche. Después van a ir a un café cerca del teatro.
 
-Llego a la oficina a las nueve menos cuarto. Mi trabajo es interesante pero a veces es difícil. Soy diseñador gráfico y hoy tengo que hacer un proyecto importante. Quiero terminarlo antes del viernes pero no sé si puedo.
+El sábado voy a tomar el tren a Barcelona. Tengo una amiga allí. Ella es italiana, es periodista. Vamos a ir a la playa y tomar el sol. También vamos a comer en un restaurante bueno. Me gusta mucho Barcelona.
 
-A las dos tengo una hora para comer. Voy a un restaurante cerca de la oficina con mis compañeros. Comemos el menú del día: hoy hay sopa de verduras y pollo con patatas. Está muy rico.
+El domingo voy a volver a Madrid. Voy a estar en casa. Quiero leer un libro y escribir mensajes a mi familia en Valencia. Por la tarde voy a ir al cine con mi hermana.
 
-Por la tarde tengo una reunión importante. Viene el director de la empresa para ver nuestros proyectos. Estoy un poco nervioso pero creo que todo va a salir bien.
+Mi hermana quiere ir de vacaciones a Italia en agosto. Yo quiero ir a Rusia en septiembre. Vamos a ir en avión. Tengo un amigo ruso en Moscú. Él es ingeniero. Él aprende español. Hablamos por teléfono cada semana.
 
-Salgo del trabajo a las seis de la tarde. Estoy muy cansado. Quiero ir al gimnasio pero decido ir directamente a casa. Hago la cena - una ensalada simple - y veo una película. A las once me voy a dormir. Mañana tengo que levantarme temprano otra vez.`,
-      translation: 'Типичный день\n\nСегодня понедельник, и у меня очень занятой день. Я встаю в семь утра. Я устал, потому что вчера лег спать поздно, но мне нужно идти на работу.\n\nСначала я иду в ванную и принимаю душ. Потом спускаюсь на кухню и готовлю завтрак. Обычно я пью кофе и ем тосты с джемом. Во время завтрака читаю новости в телефоне.\n\nВ восемь я выхожу из дома. Я еду на работу на метро, потому что это далеко, а пробки ужасные. Дорога занимает полчаса. В метро я читаю книгу или слушаю музыку. Сегодня делаю и то, и другое.\n\nЯ прихожу в офис без четверти девять. Моя работа интересная, но иногда сложная. Я графический дизайнер, и сегодня мне нужно сделать важный проект. Хочу закончить его до пятницы, но не знаю, смогу ли.\n\nВ два у меня час на обед. Я иду в ресторан недалеко от офиса с коллегами. Едим дневное меню: сегодня есть овощной суп и курица с картошкой. Очень вкусно.\n\nДнем у меня важная встреча. Приходит директор компании, чтобы посмотреть наши проекты. Я немного нервничаю, но думаю, что все пройдет хорошо.\n\nЯ выхожу с работы в шесть вечера. Я очень устал. Хочу пойти в спортзал, но решаю идти прямо домой. Готовлю ужин - простой салат - и смотрю фильм. В одиннадцать ложусь спать. Завтра мне снова нужно рано вставать.',
+Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cosas que me gustan.`,
+      translation: 'Мои планы\n\nМеня зовут Кармен. Я врач из Испании, из Валенсии. Мне тридцать лет. Я живу в Мадриде с моей сестрой. Она преподаватель итальянского.\n\nСегодня пятница, и у меня есть планы на выходные. Я собираюсь пойти за покупками в центр. Хочу купить новую книгу и выпить кофе в моем любимом баре. Я поеду на автобусе, потому что это далеко от дома.\n\nМоя сестра собирается пойти в театр с друзьями. Они собираются посмотреть испанскую пьесу. Она поедет на машине. Потом они пойдут в кафе рядом с театром.\n\nВ субботу я собираюсь сесть на поезд до Барселоны. У меня там есть подруга. Она итальянка, журналистка. Мы пойдем на пляж и будем загорать. Также мы поедим в хорошем ресторане. Мне очень нравится Барселона.\n\nВ воскресенье я вернусь в Мадрид. Я буду дома. Хочу почитать книгу и написать сообщения моей семье в Валенсии. Днем я пойду в кино с сестрой.\n\nМоя сестра хочет поехать в отпуск в Италию в августе. Я хочу поехать в Россию в сентябре. Мы полетим на самолете. У меня есть друг-россиянин в Москве. Он инженер. Он изучает испанский. Мы говорим по телефону каждую неделю.\n\nВыходные хорошие. Я не хожу в офис. Могу отдохнуть и делать вещи, которые мне нравятся.',
       audioUrl: '/audio/lesson-2-3-reading.mp3',
       subtitles: [
-        { start: 0, end: 4, text: 'Hoy es lunes y tengo un día muy ocupado.' },
-        { start: 4, end: 8, text: 'Me levanto a las siete de la mañana.' },
-        { start: 8, end: 12, text: 'Voy al trabajo en metro porque está lejos.' },
-        { start: 12, end: 16, text: 'Soy diseñador gráfico y hoy tengo que hacer un proyecto importante.' }
+        { start: 0, end: 5, text: 'Me llamo Carmen. Soy médica de España.' },
+        { start: 5, end: 10, text: 'Hoy es viernes y tengo planes para el fin de semana.' },
+        { start: 10, end: 15, text: 'Voy a ir de compras al centro.' },
+        { start: 15, end: 20, text: 'El sábado voy a tomar el tren a Barcelona.' },
+        { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
     exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
@@ -4340,7 +4401,15 @@ Ana: De nada.
       { sentence: 'Yo ___ estudiante', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
       { sentence: 'Tú ___ inteligente', options: ['soy', 'eres', 'es', 'somos'], correct: 1 },
       { sentence: 'Él ___ profesor', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
-      { sentence: 'Nosotros ___ amigos', options: ['soy', 'somos', 'es', 'son'], correct: 1 }
+      { sentence: 'Nosotros ___ amigos', options: ['soy', 'somos', 'es', 'son'], correct: 1 },
+      { sentence: 'Vosotros ___ españoles', options: ['soy', 'sois', 'es', 'son'], correct: 1 },
+      { sentence: 'Ellos ___ médicos', options: ['soy', 'eres', 'es', 'son'], correct: 3 },
+      { sentence: 'Usted ___ muy amable', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
+      { sentence: 'Ella ___ de Madrid', options: ['soy', 'eres', 'es', 'somos'], correct: 2 },
+      { sentence: 'Nosotras ___ profesoras', options: ['soy', 'somos', 'es', 'son'], correct: 1 },
+      { sentence: 'Yo ___ de Rusia', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
+      { sentence: 'Tú y yo ___ hermanos', options: ['soy', 'somos', 'es', 'sois'], correct: 1 },
+      { sentence: 'Ustedes ___ muy altos', options: ['soy', 'eres', 'es', 'son'], correct: 3 }
     ]
   },
   'ex-1-2-2': {
@@ -4351,7 +4420,17 @@ Ana: De nada.
     questions: [
       { spanish: '¿Cómo te llamas?', options: ['Как дела?', 'Как тебя зовут?', 'Откуда ты?', 'Сколько тебе лет?'], correct: 1 },
       { spanish: 'Me llamo Juan', options: ['Мне хорошо', 'Меня зовут Хуан', 'Я из Испании', 'Мне 20 лет'], correct: 1 },
-      { spanish: 'Mucho gusto', options: ['Спасибо', 'Пожалуйста', 'Очень приятно', 'До свидания'], correct: 2 }
+      { spanish: 'Mucho gusto', options: ['Спасибо', 'Пожалуйста', 'Очень приятно', 'До свидания'], correct: 2 },
+      { spanish: '¿De dónde eres?', options: ['Как тебя зовут?', 'Откуда ты?', 'Сколько тебе лет?', 'Как дела?'], correct: 1 },
+      { spanish: 'Soy de Moscú', options: ['Я в Москве', 'Я из Москвы', 'Еду в Москву', 'Мне нравится Москва'], correct: 1 },
+      { spanish: 'Encantado', options: ['Спасибо', 'Рад познакомиться', 'До встречи', 'Извините'], correct: 1 },
+      { spanish: '¿Cómo estás?', options: ['Как тебя зовут?', 'Откуда ты?', 'Как дела?', 'Где ты?'], correct: 2 },
+      { spanish: 'Bien, gracias', options: ['Хорошо, спасибо', 'До свидания', 'Очень приятно', 'Пожалуйста'], correct: 0 },
+      { spanish: '¿Cómo se llama usted?', options: ['Как тебя зовут?', 'Как Вас зовут?', 'Как дела?', 'Откуда Вы?'], correct: 1 },
+      { spanish: 'Muy bien', options: ['Хорошо', 'Очень хорошо', 'Плохо', 'Так себе'], correct: 1 },
+      { spanish: 'Regular', options: ['Хорошо', 'Плохо', 'Так себе', 'Отлично'], correct: 2 },
+      { spanish: '¿Dónde estás?', options: ['Откуда ты?', 'Куда ты идешь?', 'Где ты?', 'Кто ты?'], correct: 2 },
+      { spanish: 'Estoy en casa', options: ['Иду домой', 'Я дома', 'Из дома', 'Мой дом'], correct: 1 }
     ]
   },
   'ex-1-2-3': {
@@ -4401,7 +4480,17 @@ Ana: De nada.
       { sentence: '___ oficina está en Madrid. (Определенный артикль: тот самый офис)', options: ['el', 'la', 'un', 'una'], correct: 1 },
       { sentence: 'Necesito ___ coche. (Неопределенный артикль: какую-то машину)', options: ['el', 'la', 'un', 'una'], correct: 2 },
       { sentence: '___ flor es bonita. (Определенный артикль: этот цветок)', options: ['el', 'la', 'un', 'una'], correct: 1 },
-      { sentence: 'Veo ___ chica. (Неопределенный артикль: какую-то девочку)', options: ['el', 'la', 'un', 'una'], correct: 3 }
+      { sentence: 'Veo ___ chica. (Неопределенный артикль: какую-то девочку)', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ profesor está en clase. (Определенный артикль: тот самый преподаватель)', options: ['el', 'la', 'un', 'una'], correct: 0 },
+      { sentence: 'Compro ___ mesa. (Неопределенный артикль: какой-то стол)', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ ciudad es hermosa. (Определенный артикль: этот город)', options: ['el', 'la', 'un', 'una'], correct: 1 },
+      { sentence: 'Busco ___ trabajo. (Неопределенный артикль: какую-то работу)', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: '___ estudiante es inteligente. (Определенный артикль: тот самый студент)', options: ['el', 'la', 'un', 'una'], correct: 0 },
+      { sentence: 'Quiero ___ manzana. (Неопределенный артикль: какое-то яблоко)', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ hospital está cerca. (Определенный артикль: эта больница)', options: ['el', 'la', 'un', 'una'], correct: 0 },
+      { sentence: 'Tengo ___ pregunta. (Неопределенный артикль: какой-то вопрос)', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ niño juega en el parque. (Определенный артикль: тот самый ребенок)', options: ['el', 'la', 'un', 'una'], correct: 0 },
+      { sentence: 'Hay ___ problema. (Неопределенный артикль: какая-то проблема)', options: ['el', 'la', 'un', 'una'], correct: 2 }
     ]
   },
   'ex-1-2-6': {
@@ -4577,7 +4666,15 @@ Ana: De nada.
       { spanish: 'De Italia → ', options: ['italieno', 'italiano', 'italianés', 'italio'], correct: 1 },
       { spanish: 'De Inglaterra → ', options: ['ingleso', 'ingliano', 'inglés', 'ingléño'], correct: 2 },
       { spanish: 'De Portugal → ', options: ['portugano', 'portugués', 'portugano', 'portugalés'], correct: 1 },
-      { spanish: 'De China → ', options: ['chinanés', 'chinío', 'chino', 'chinano'], correct: 2 }
+      { spanish: 'De China → ', options: ['chinanés', 'chinío', 'chino', 'chinano'], correct: 2 },
+      { spanish: 'De Bélgica → ', options: ['belgo', 'belgués', 'belga', 'belgano'], correct: 2 },
+      { spanish: 'De Holanda → ', options: ['holandés', 'holando', 'holandano', 'holandío'], correct: 0 },
+      { spanish: 'De Grecia → ', options: ['greciano', 'griego', 'grecés', 'grecío'], correct: 1 },
+      { spanish: 'De Dinamarca → ', options: ['dinamarqués', 'dinamano', 'dinamarcano', 'danés'], correct: 3 },
+      { spanish: 'De Japón → ', options: ['japano', 'japonés', 'japoniano', 'japonío'], correct: 1 },
+      { spanish: 'De Turquía → ', options: ['turco', 'turqués', 'turquiano', 'turquío'], correct: 0 },
+      { spanish: 'De Estados Unidos → ', options: ['estadosunidense', 'norteamericano', 'americanés', 'estadounidense'], correct: 1 },
+      { spanish: 'De Marruecos → ', options: ['marroqués', 'marroquí', 'marruecano', 'marroquino'], correct: 1 }
     ]
   },
   'ex-1-4-4': {
@@ -4641,7 +4738,17 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Я в Мадриде (сейчас).', correct: 'Yo estoy en Madrid.' },
       { russian: 'Она довольна.', correct: 'Ella está contenta.' },
       { russian: 'Вы (уваж.) из России.', correct: 'Usted es de Rusia.' },
-      { russian: 'Мой друг - инженер.', correct: 'Mi amigo es ingeniero.' }
+      { russian: 'Мой друг - инженер.', correct: 'Mi amigo es ingeniero.' },
+      { russian: 'Моя сестра - художница.', correct: 'Mi hermana es pintora.' },
+      { russian: 'Они повара из Италии.', correct: 'Ellos son cocineros de Italia.' },
+      { russian: 'Ты итальянец?', correct: '¿Eres italiano?' },
+      { russian: 'Мой отец - строитель.', correct: 'Mi padre es constructor.' },
+      { russian: 'Официанты заняты сегодня.', correct: 'Los camareros están ocupados hoy.' },
+      { russian: 'Она актриса из Франции.', correct: 'Ella es actriz de Francia.' },
+      { russian: 'Вы писатель?', correct: '¿Es usted escritor?' },
+      { russian: 'Они немцы из Берлина.', correct: 'Ellos son alemanes de Berlín.' },
+      { russian: 'Мы продавцы, мы заняты.', correct: 'Nosotros somos dependientes, estamos ocupados.' },
+      { russian: 'Моя мама - медсестра в больнице.', correct: 'Mi madre es enfermera en el hospital.' }
     ]
   },
 
@@ -4715,7 +4822,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Yo ___ (comer) pasta', options: ['como', 'comes', 'come', 'comen'], correct: 0 },
       { sentence: 'Ellos ___ (vivir) en España', options: ['vivo', 'vives', 'vive', 'viven'], correct: 3 },
       { sentence: 'Tú ___ (beber) agua', options: ['bebo', 'bebes', 'bebe', 'bebemos'], correct: 1 },
-      { sentence: 'Nosotros ___ (escribir) emails', options: ['escribo', 'escribes', 'escribe', 'escribimos'], correct: 3 }
+      { sentence: 'Nosotros ___ (escribir) emails', options: ['escribo', 'escribes', 'escribe', 'escribimos'], correct: 3 },
+      { sentence: 'Ella ___ (leer) libros', options: ['leo', 'lees', 'lee', 'leen'], correct: 2 },
+      { sentence: 'Vosotros ___ (aprender) español', options: ['aprendo', 'aprendes', 'aprende', 'aprendéis'], correct: 3 },
+      { sentence: 'Yo ___ (abrir) la puerta', options: ['abro', 'abres', 'abre', 'abren'], correct: 0 },
+      { sentence: 'Ellas ___ (comer) frutas', options: ['como', 'comes', 'come', 'comen'], correct: 3 },
+      { sentence: 'Usted ___ (vivir) en Madrid', options: ['vivo', 'vives', 'vive', 'viven'], correct: 2 },
+      { sentence: 'Nosotras ___ (leer) el periódico', options: ['leo', 'lees', 'lee', 'leemos'], correct: 3 },
+      { sentence: 'Tú ___ (escribir) cartas', options: ['escribo', 'escribes', 'escribe', 'escriben'], correct: 1 },
+      { sentence: 'Él ___ (beber) café', options: ['bebo', 'bebes', 'bebe', 'beben'], correct: 2 },
+      { sentence: 'Ustedes ___ (aprender) italiano', options: ['aprendo', 'aprendes', 'aprende', 'aprenden'], correct: 3 },
+      { sentence: 'Yo ___ (recibir) mensajes', options: ['recibo', 'recibes', 'recibe', 'reciben'], correct: 0 },
+      { sentence: 'Nosotros ___ (comer) en casa', options: ['como', 'comes', 'comemos', 'comen'], correct: 2 }
     ]
   },
   'ex-2-2-2': {
@@ -4726,19 +4844,43 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { spanish: 'leer', options: ['писать', 'читать', 'жить', 'пить'], correct: 1 },
       { spanish: 'vivir', options: ['есть', 'пить', 'жить', 'открывать'], correct: 2 },
-      { spanish: 'escribir', options: ['писать', 'читать', 'получать', 'продавать'], correct: 0 }
+      { spanish: 'escribir', options: ['писать', 'читать', 'получать', 'продавать'], correct: 0 },
+      { spanish: 'comer', options: ['пить', 'есть', 'открывать', 'учиться'], correct: 1 },
+      { spanish: 'beber', options: ['есть', 'пить', 'читать', 'жить'], correct: 1 },
+      { spanish: 'aprender', options: ['учиться', 'писать', 'открывать', 'получать'], correct: 0 },
+      { spanish: 'abrir', options: ['писать', 'открывать', 'получать', 'есть'], correct: 1 },
+      { spanish: 'recibir', options: ['писать', 'открывать', 'получать', 'учиться'], correct: 2 },
+      { spanish: 'comprender', options: ['понимать', 'покупать', 'продавать', 'писать'], correct: 0 },
+      { spanish: 'tomar', options: ['есть', 'брать, пить', 'открывать', 'писать'], correct: 1 },
+      { spanish: 'vender', options: ['покупать', 'продавать', 'понимать', 'брать'], correct: 1 },
+      { spanish: 'responder', options: ['спрашивать', 'отвечать', 'говорить', 'слушать'], correct: 1 },
+      { spanish: 'correr', options: ['ходить', 'бегать', 'прыгать', 'летать'], correct: 1 },
+      { spanish: 'subir', options: ['опускаться', 'подниматься', 'входить', 'выходить'], correct: 1 },
+      { spanish: 'partir', options: ['приходить', 'оставаться', 'уезжать', 'входить'], correct: 2 }
     ]
   },
   'ex-2-2-3': {
     id: 'ex-2-2-3',
     type: 'reading',
-    title: 'Чтение: Familia García',
+    title: 'Чтение: Mi día en Madrid',
     description: 'Ответьте на вопросы о тексте',
-    text: 'La familia García vive en Madrid. Antonio es profesor y Carmen es médica. Pablo lee libros y Lucía aprende piano.',
+    text: 'Hola, me llamo Pedro. Soy estudiante de Rusia. Vivo en Madrid. Cada mañana tomo café con leche y tomo el autobús a la universidad. En la universidad hablo con mis amigos de Italia, Francia y Alemania. Hablamos español en clase. También leemos libros y escribimos textos. A las dos tomo el almuerzo. Como bocadillos y tomo zumo de naranja. Por la tarde leo libros en español y aprendo palabras nuevas. Mi amiga Ana es española. Ella es profesora. Ana toma el tren de Barcelona a Madrid. Los fines de semana tomamos el sol en el parque.',
     questions: [
-      { question: 'Где живет семья?', options: ['В Барселоне', 'В Мадриде', 'В Валенсии', 'В Севилье'], correct: 1 },
-      { question: 'Кто такая Кармен?', options: ['Учительница', 'Врач', 'Медсестра', 'Инженер'], correct: 1 },
-      { question: 'Что делает Люсия?', options: ['Читает книги', 'Учит пиано', 'Рисует', 'Играет в футбол'], correct: 1 }
+      { question: '¿Cómo se llama el estudiante?', options: ['Antonio', 'Pedro', 'Pablo', 'Carlos'], correct: 1 },
+      { question: '¿De dónde es Pedro?', options: ['De Italia', 'De Francia', 'De Rusia', 'De España'], correct: 2 },
+      { question: '¿Dónde vive Pedro?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Moscú'], correct: 1 },
+      { question: '¿Qué toma Pedro cada mañana?', options: ['Té', 'Café con leche', 'Zumo', 'Agua'], correct: 1 },
+      { question: '¿Cómo va Pedro a la universidad?', options: ['En tren', 'En coche', 'En autobús', 'A pie'], correct: 2 },
+      { question: '¿De dónde son los amigos de Pedro?', options: ['De España', 'De Rusia', 'De Italia, Francia y Alemania', 'De Inglaterra'], correct: 2 },
+      { question: '¿Qué hacen en clase?', options: ['Juegan', 'Hablan español', 'Duermen', 'Comen'], correct: 1 },
+      { question: '¿Qué más hacen en la universidad?', options: ['Leen y escriben', 'Corren', 'Cantan', 'Bailan'], correct: 0 },
+      { question: '¿A qué hora toma el almuerzo Pedro?', options: ['A la una', 'A las dos', 'A las tres', 'A las cuatro'], correct: 1 },
+      { question: '¿Qué come Pedro?', options: ['Pasta', 'Bocadillos', 'Frutas', 'Pescado'], correct: 1 },
+      { question: '¿Qué bebe Pedro con la comida?', options: ['Agua', 'Café', 'Zumo de naranja', 'Leche'], correct: 2 },
+      { question: '¿Qué hace Pedro por la tarde?', options: ['Duerme', 'Lee libros', 'Va al cine', 'Juega'], correct: 1 },
+      { question: '¿Quién es Ana?', options: ['Hermana de Pedro', 'Profesora española', 'Estudiante italiana', 'Médica francesa'], correct: 1 },
+      { question: '¿Cómo va Ana de Barcelona a Madrid?', options: ['En tren', 'En autobús', 'En coche', 'En avión'], correct: 0 },
+      { question: '¿Qué hacen los fines de semana?', options: ['Van al cine', 'Toman el sol', 'Van de compras', 'Comen en restaurantes'], correct: 1 }
     ]
   },
   'ex-2-2-4': {
@@ -4750,7 +4892,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Я ем', correct: 'como' },
       { russian: 'Они живут', correct: 'viven' },
       { russian: 'Мы читаем', correct: 'leemos' },
-      { russian: 'Ты пишешь', correct: 'escribes' }
+      { russian: 'Ты пишешь', correct: 'escribes' },
+      { russian: 'Она пьет воду', correct: 'ella bebe agua' },
+      { russian: 'Вы (вежл.) учитесь', correct: 'usted aprende' },
+      { russian: 'Я открываю дверь', correct: 'abro la puerta' },
+      { russian: 'Он получает письма', correct: 'recibe cartas' },
+      { russian: 'Мы пьем кофе', correct: 'bebemos café' },
+      { russian: 'Они (ж.р.) едят фрукты', correct: 'ellas comen frutas' },
+      { russian: 'Ты живешь в Мадриде', correct: 'vives en Madrid' },
+      { russian: 'Я читаю книги', correct: 'leo libros' },
+      { russian: 'Вы (друзья) пишете', correct: 'escribís' },
+      { russian: 'Она учится', correct: 'aprende' },
+      { russian: 'Мы берем автобус', correct: 'tomamos el autobús' }
     ]
   },
   'ex-2-3-1': {
@@ -4762,7 +4915,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Yo ___ (ir) al cine', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
       { sentence: 'Tú ___ (hacer) ejercicio', options: ['hago', 'haces', 'hace', 'hacen'], correct: 1 },
       { sentence: 'Ella ___ (estar) en casa', options: ['estoy', 'estás', 'está', 'están'], correct: 2 },
-      { sentence: 'Nosotros ___ (venir) mañana', options: ['vengo', 'vienes', 'viene', 'venimos'], correct: 3 }
+      { sentence: 'Nosotros ___ (venir) mañana', options: ['vengo', 'vienes', 'viene', 'venimos'], correct: 3 },
+      { sentence: 'Yo ___ (tener) veinte años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
+      { sentence: 'Ellos ___ (ir) al teatro', options: ['voy', 'vas', 'va', 'van'], correct: 3 },
+      { sentence: 'Usted ___ (querer) café', options: ['quiero', 'quieres', 'quiere', 'quieren'], correct: 2 },
+      { sentence: 'Nosotras ___ (poder) ayudar', options: ['puedo', 'puedes', 'puede', 'podemos'], correct: 3 },
+      { sentence: 'Tú ___ (saber) español', options: ['sé', 'sabes', 'sabe', 'saben'], correct: 1 },
+      { sentence: 'Yo ___ (oír) música', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 0 },
+      { sentence: 'Vosotros ___ (ir) en tren', options: ['voy', 'vais', 'va', 'van'], correct: 1 },
+      { sentence: 'Ella ___ (tener) un coche', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Ustedes ___ (venir) en autobús', options: ['vengo', 'vienes', 'viene', 'vienen'], correct: 3 },
+      { sentence: 'Nosotros ___ (estar) en Madrid', options: ['estoy', 'estás', 'está', 'estamos'], correct: 3 },
+      { sentence: 'Tú ___ (hacer) la comida', options: ['hago', 'haces', 'hace', 'hacen'], correct: 1 }
     ]
   },
   'ex-2-3-2': {
@@ -4774,7 +4938,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: '___ alto (я высокий - постоянное)', options: ['Soy', 'Estoy'], correct: 0 },
       { sentence: '___ cansado (я уставший - временное)', options: ['Soy', 'Estoy'], correct: 1 },
       { sentence: 'María ___ médica (профессия)', options: ['es', 'está'], correct: 0 },
-      { sentence: 'El libro ___ en la mesa (местонахождение)', options: ['es', 'está'], correct: 1 }
+      { sentence: 'El libro ___ en la mesa (местонахождение)', options: ['es', 'está'], correct: 1 },
+      { sentence: 'Nosotros ___ de Rusia (происхождение)', options: ['somos', 'estamos'], correct: 0 },
+      { sentence: 'Tú ___ en la oficina (местонахождение)', options: ['eres', 'estás'], correct: 1 },
+      { sentence: 'Ellos ___ profesores (профессия)', options: ['son', 'están'], correct: 0 },
+      { sentence: 'La casa ___ grande (постоянное качество)', options: ['es', 'está'], correct: 0 },
+      { sentence: 'Yo ___ feliz hoy (временное состояние)', options: ['soy', 'estoy'], correct: 1 },
+      { sentence: 'Vosotros ___ españoles (национальность)', options: ['sois', 'estáis'], correct: 0 },
+      { sentence: 'El café ___ frío (временное состояние)', options: ['es', 'está'], correct: 1 },
+      { sentence: 'Mi hermana ___ inteligente (постоянная черта)', options: ['es', 'está'], correct: 0 },
+      { sentence: 'Los estudiantes ___ en clase (местонахождение)', options: ['son', 'están'], correct: 1 },
+      { sentence: 'Usted ___ muy amable (постоянная черта)', options: ['es', 'está'], correct: 0 },
+      { sentence: 'Nosotras ___ cansadas después del trabajo (временное)', options: ['somos', 'estamos'], correct: 1 }
     ]
   },
   'ex-2-3-3': {
@@ -4785,7 +4960,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { russian: 'Я иду (ir)', correct: 'voy' },
       { russian: 'Ты делаешь (hacer)', correct: 'haces' },
-      { russian: 'Мы находимся (estar)', correct: 'estamos' }
+      { russian: 'Мы находимся (estar)', correct: 'estamos' },
+      { russian: 'Они приходят (venir)', correct: 'vienen' },
+      { russian: 'Она имеет (tener)', correct: 'tiene' },
+      { russian: 'Я могу (poder)', correct: 'puedo' },
+      { russian: 'Вы хотите (querer, вежл.)', correct: 'quiere' },
+      { russian: 'Ты знаешь (saber)', correct: 'sabes' },
+      { russian: 'Я слышу (oír)', correct: 'oigo' },
+      { russian: 'Мы идем в театр (ir)', correct: 'vamos al teatro' },
+      { russian: 'Она едет на автобусе (ir)', correct: 'va en autobús' },
+      { russian: 'Я собираюсь отдыхать (ir a + descansar)', correct: 'voy a descansar' },
+      { russian: 'Они собираются купить (ir a + comprar)', correct: 'van a comprar' },
+      { russian: 'Мы едем в отпуск (ir de vacaciones)', correct: 'vamos de vacaciones' },
+      { russian: 'Ты идешь за покупками (ir de compras)', correct: 'vas de compras' }
     ]
   },
 
