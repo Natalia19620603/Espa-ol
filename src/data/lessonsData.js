@@ -26,8 +26,8 @@ export const modules = {
     id: 'module-1',
     title: 'Модуль 1: Знакомство с испанским',
     level: 'beginner',
-    lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3'],
-    description: 'Алфавит, приветствия, базовая лексика'
+    lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4'],
+    description: 'Алфавит, приветствия, базовая лексика, грамматические основы'
   },
   'module-2': {
     id: 'module-2',
@@ -461,24 +461,57 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       { word: 'por favor', translation: 'пожалуйста', audioUrl: null },
       { word: 'de nada', translation: 'не за что', audioUrl: null },
       { word: 'sí', translation: 'да', audioUrl: null },
-      { word: 'no', translation: 'нет', audioUrl: null }
+      { word: 'no', translation: 'нет', audioUrl: null },
+      { word: '¿Qué tal?', translation: 'как дела?', audioUrl: null },
+      { word: '¿Qué tal la vida?', translation: 'как жизнь?', audioUrl: null },
+      { word: '¿Qué tal la familia?', translation: 'как семья?', audioUrl: null },
+      { word: 'Bien, gracias.', translation: 'спасибо, хорошо', audioUrl: null },
+      { word: 'Todo va bien.', translation: 'все хорошо (дословно: все идет хорошо)', audioUrl: null },
+      { word: 'Más o menos bien.', translation: 'более или менее хорошо', audioUrl: null },
+      { word: 'Así así.', translation: 'так себе', audioUrl: null },
+      { word: 'Regular.', translation: 'так себе', audioUrl: null },
+      { word: 'Muchas gracias.', translation: 'большое спасибо', audioUrl: null }
     ],
     readingText: {
-      title: 'Primeras palabras',
-      content: `Hola. Buenos días. ¿Cómo estás? Bien, gracias. ¿Y tú?
+      title: 'Primeras palabras y diálogos',
+      content: `**Diálogo 1: En la calle**
 
-Adiós. Hasta luego. Buenas tardes. Buenas noches.
+- Hola. Buenos días. ¿Qué tal?
+- Bien, gracias. ¿Y tú?
+- Todo va bien, gracias.
+- Me alegro. Hasta luego.
+- Adiós.
 
-Gracias. De nada. Por favor. Perdón.
+**Diálogo 2: Encuentro con un amigo**
 
-Sí. No. Mucho gusto. Encantado.`,
-      translation: 'Привет. Доброе утро. Как дела? Хорошо, спасибо. А ты?\n\nПока. До скорого. Добрый день. Добрый вечер/Спокойной ночи.\n\nСпасибо. Не за что. Пожалуйста. Прости.\n\nДа. Нет. Очень приятно. Рад познакомиться.',
+- ¡Hola! ¿Qué tal la vida?
+- Más o menos bien. ¿Y tú?
+- Regular. Muchas gracias por preguntar.
+- De nada. ¿Qué tal la familia?
+- Todo va bien, gracias.
+
+**Diálogo 3: En la mañana**
+
+- Buenos días. ¿Cómo estás?
+- Bien, gracias. ¿Y tú?
+- Así así. Por favor, ¿tienes un momento?
+- Sí, claro.
+- Muchas gracias.
+- De nada.
+
+**Diálogo 4: Despedida**
+
+- Buenas tardes. ¿Qué tal?
+- Bien, gracias.
+- Me alegro. Adiós.
+- Hasta luego. Buenas noches.`,
+      translation: 'Первые слова и диалоги\n\n**Диалог 1: На улице**\n\n- Привет. Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Все хорошо, спасибо.\n- Рад слышать. До скорого.\n- Пока.\n\n**Диалог 2: Встреча с другом**\n\n- Привет! Как жизнь?\n- Более или менее хорошо. А ты?\n- Так себе. Большое спасибо, что спросил.\n- Пожалуйста. Как семья?\n- Все хорошо, спасибо.\n\n**Диалог 3: Утром**\n\n- Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Так себе. Пожалуйста, у тебя есть минутка?\n- Да, конечно.\n- Большое спасибо.\n- Пожалуйста.\n\n**Диалог 4: Прощание**\n\n- Добрый день. Как дела?\n- Спасибо, хорошо.\n- Рад слышать. Пока.\n- До скорого. Добрый вечер.',
       audioUrl: '/audio/lesson-1-1-reading.mp3',
       subtitles: [
-        { start: 0, end: 3, text: 'Hola. Buenos días.' },
-        { start: 3, end: 6, text: '¿Cómo estás? Bien, gracias.' },
-        { start: 6, end: 9, text: 'Adiós. Hasta luego.' },
-        { start: 9, end: 12, text: 'Gracias. De nada. Por favor.' }
+        { start: 0, end: 3, text: 'Hola. Buenos días. ¿Qué tal?' },
+        { start: 3, end: 6, text: 'Bien, gracias. ¿Y tú?' },
+        { start: 6, end: 9, text: 'Todo va bien, gracias.' },
+        { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
     exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
@@ -609,6 +642,178 @@ En mi clase hay dieciocho estudiantes. Tengo cinco libros de español y diez cua
       ]
     },
     exercises: ['ex-1-3-1', 'ex-1-3-2']
+  },
+  'lesson-1-4': {
+    id: 'lesson-1-4',
+    title: 'Урок 4: Существительные, артикли и прилагательные',
+    moduleId: 'module-1',
+    grammar: {
+      title: 'Основы грамматики: род, число, артикли',
+      content: `
+# Имя существительное
+
+В испанском языке существительные имеют категорию рода. Все существительные делятся на мужской род (masculino) и женский род (femenino).
+
+Большинство существительных, оканчивающихся на гласную -o, относятся к мужскому роду, в то время как большинство существительных, оканчивающихся на гласную -a, к женскому роду:
+
+| Masculino (m) | Femenino (f) |
+|---------------|--------------|
+| chico (мальчик) | chica (девочка) |
+| amigo (друг) | amiga (подруга) |
+| hermano (брат) | hermana (сестра) |
+| libro (книга) | casa (дом) |
+| alumno (ученик) | alumna (ученица) |
+| museo (музей) | playa (пляж) |
+
+## Исключения
+
+| Masculino (m) | Femenino (f) |
+|---------------|--------------|
+| papá (папа) | mano (рука) |
+| día (день) | radio (радио) |
+| policía (полицейский) | |
+
+К мужскому роду относятся существительные греческого происхождения, оканчивающиеся на -ma и -ta:
+- el problema (проблема)
+- el programa (программа)
+- el tema (тема)
+- el planeta (планета)
+
+Существительные, оканчивающиеся на гласную -e, могут быть как мужского, так и женского рода:
+
+| Masculino (m) | Femenino (f) |
+|---------------|--------------|
+| padre (отец) | madre (мать) |
+| café (кофе) | calle (улица) |
+| coche (автомобиль) | noche (ночь) |
+| hombre (человек/мужчина) | tarde (вечер/день) |
+
+## Категория числа (Множественное число)
+
+В испанском языке существительные имеют категорию числа.
+
+Множественное число образуется путем прибавления окончания **-s** к существительным, оканчивающимся на гласную:
+- libro → libros
+- casa → casas
+- coche → coches
+
+Множественное число существительных, оканчивающихся на согласную, образуется с помощью окончания **-es**:
+- ciudad → ciudades
+- flor → flores
+- avión → aviones
+
+Если существительное оканчивается на **-z**, во множественном числе буква z заменяется на c и добавляется окончание **-es**:
+- lápiz → lápices
+- luz → luces
+
+# Артикль
+
+Артикль — маленькое служебное слово. Оно играет роль определения существительного, к которому оно относится, указывая его род и число.
+
+## Определенный артикль
+
+| Число | Мужской род (Masculino) | Женский род (Femenino) |
+|-------|------------------------|------------------------|
+| Единственное (singular) | el | la |
+| Множественное (plural) | los | las |
+
+Примеры:
+- el libro — los libros (книга — книги)
+- la casa — las casas (дом — дома)
+
+## Неопределенный артикль
+
+| Число | Мужской род (Masculino) | Женский род (Femenino) |
+|-------|------------------------|------------------------|
+| Единственное (singular) | un | una |
+| Множественное (plural) | unos | unas |
+
+Примеры:
+- un libro — unos libros
+- una casa — unas casas
+- una flor bonita (красивый цветок)
+- un día difícil (трудный день)
+
+# Имя прилагательное
+
+Прилагательные согласуются в роде и числе с существительными, которые они определяют.
+
+## Прилагательные двух окончаний
+
+Прилагательные двух окончаний имеют окончание **-o** в форме мужского рода единственного числа и окончание **-a** в форме женского рода единственного числа:
+- blanco (белый) — blanca (белая)
+- negro (черный) — negra (черная)
+- bonito (красивый) — bonita (красивая)
+
+## Прилагательные одного окончания
+
+Прилагательные, оканчивающиеся в единственном числе на другую гласную или на согласную, относятся к прилагательным одного окончания:
+- un lápiz azul (синий карандаш)
+- una flor azul (синий цветок)
+- un coche verde (зеленый автомобиль)
+- una casa verde (зеленый дом)
+
+## Порядок слов
+
+В отличие от русского языка, испанские прилагательные ставятся **после** определяемого существительного:
+- un libro interesante (интересная книга)
+- una casa blanca (белый дом)
+- una flor bonita (красивый цветок)
+
+## Множественное число прилагательных
+
+Множественное число прилагательных, оканчивающихся на гласную, образуется с помощью окончания **-s**:
+- blanco → blancos
+- española → españolas
+- verde → verdes
+
+Множественное число прилагательных, оканчивающихся на согласную, образуется с помощью окончания **-es**:
+- azul → azules
+- español → españoles
+      `,
+      examples: [
+        { spanish: 'el libro blanco', translation: 'белая книга', pronunciation: '[эль либро бланко]' },
+        { spanish: 'la casa bonita', translation: 'красивый дом', pronunciation: '[ла каса бонита]' },
+        { spanish: 'los coches verdes', translation: 'зеленые автомобили', pronunciation: '[лос кочес бэрдэс]' },
+        { spanish: 'las flores azules', translation: 'синие цветы', pronunciation: '[лас флорес аθулес]' }
+      ]
+    },
+    vocabulary: [
+      { word: 'libro', translation: 'книга', audioUrl: null },
+      { word: 'casa', translation: 'дом', audioUrl: null },
+      { word: 'chico', translation: 'мальчик', audioUrl: null },
+      { word: 'chica', translation: 'девочка', audioUrl: null },
+      { word: 'amigo', translation: 'друг', audioUrl: null },
+      { word: 'amiga', translation: 'подруга', audioUrl: null },
+      { word: 'coche', translation: 'автомобиль', audioUrl: null },
+      { word: 'flor', translation: 'цветок', audioUrl: null },
+      { word: 'blanco/a', translation: 'белый/белая', audioUrl: null },
+      { word: 'negro/a', translation: 'черный/черная', audioUrl: null },
+      { word: 'verde', translation: 'зеленый', audioUrl: null },
+      { word: 'azul', translation: 'синий', audioUrl: null },
+      { word: 'bonito/a', translation: 'красивый/красивая', audioUrl: null },
+      { word: 'grande', translation: 'большой', audioUrl: null },
+      { word: 'pequeño/a', translation: 'маленький/маленькая', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mi ciudad',
+      content: `Hola, me llamo Ana. Vivo en una casa bonita. La casa es blanca y grande.
+
+Tengo un amigo. Mi amigo se llama Pedro. Pedro tiene un coche verde. El coche es pequeño pero bonito.
+
+En mi ciudad hay muchas flores. Las flores son azules, blancas y rojas. La ciudad es muy bonita.
+
+Mi hermana tiene un libro. El libro es grande y nuevo. Los libros son buenos para estudiar.`,
+      translation: 'Мой город\n\nПривет, меня зовут Ана. Я живу в красивом доме. Дом белый и большой.\n\nУ меня есть друг. Моего друга зовут Педро. У Педро зеленый автомобиль. Автомобиль маленький, но красивый.\n\nВ моем городе много цветов. Цветы синие, белые и красные. Город очень красивый.\n\nУ моей сестры есть книга. Книга большая и новая. Книги хороши для учебы.',
+      audioUrl: '/audio/lesson-1-4-reading.mp3',
+      subtitles: [
+        { start: 0, end: 4, text: 'Hola, me llamo Ana. Vivo en una casa bonita.' },
+        { start: 4, end: 8, text: 'La casa es blanca y grande.' },
+        { start: 8, end: 12, text: 'Tengo un amigo. Mi amigo se llama Pedro.' },
+        { start: 12, end: 16, text: 'Pedro tiene un coche verde.' }
+      ]
+    },
+    exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-4', 'ex-1-4-5', 'ex-1-4-6']
   },
 
   // МОДУЛЬ 2: Настоящее время
@@ -3369,7 +3574,11 @@ export const exercises = {
       { spanish: 'hola', options: ['привет', 'пока', 'спасибо', 'да'], correct: 0 },
       { spanish: 'gracias', options: ['нет', 'спасибо', 'пожалуйста', 'привет'], correct: 1 },
       { spanish: 'adiós', options: ['да', 'нет', 'пока', 'привет'], correct: 2 },
-      { spanish: 'por favor', options: ['спасибо', 'пожалуйста', 'привет', 'пока'], correct: 1 }
+      { spanish: 'por favor', options: ['спасибо', 'пожалуйста', 'привет', 'пока'], correct: 1 },
+      { spanish: '¿Qué tal?', options: ['как дела?', 'как семья?', 'большое спасибо', 'так себе'], correct: 0 },
+      { spanish: 'Todo va bien.', options: ['так себе', 'все хорошо', 'как жизнь?', 'пожалуйста'], correct: 1 },
+      { spanish: 'Muchas gracias.', options: ['пожалуйста', 'так себе', 'большое спасибо', 'как дела?'], correct: 2 },
+      { spanish: 'Regular.', options: ['все хорошо', 'спасибо', 'так себе', 'как дела?'], correct: 2 }
     ]
   },
   'ex-1-1-2': {
@@ -3380,7 +3589,9 @@ export const exercises = {
     questions: [
       { word: 'hola', options: ['[хола]', '[ола]', '[гола]', '[кола]'], correct: 1 },
       { word: 'hijo', options: ['[хийо]', '[ихо]', '[гихо]', '[сихо]'], correct: 1 },
-      { word: 'señor', options: ['[сенор]', '[сеньор]', '[синор]', '[шеньор]'], correct: 1 }
+      { word: 'señor', options: ['[сенор]', '[сеньор]', '[синор]', '[шеньор]'], correct: 1 },
+      { word: 'gracias', options: ['[грасиас]', '[грациас]', '[грашиас]', '[граθиас]'], correct: 3 },
+      { word: 'familia', options: ['[фамилия]', '[фамилиа]', '[вамилиа]', '[фамиља]'], correct: 1 }
     ]
   },
   'ex-1-1-3': {
@@ -3389,22 +3600,28 @@ export const exercises = {
     title: 'Чтение',
     description: 'Прочитайте диалог и ответьте на вопросы',
     text: `
-María: ¡Hola! Buenos días.
-Juan: ¡Hola! Buenos días, María.
-María: ¿Cómo estás?
-Juan: Bien, gracias. ¿Y tú?
-María: Muy bien, gracias.
+Pedro: ¡Hola! Buenos días. ¿Qué tal?
+Ana: Bien, gracias. ¿Y tú?
+Pedro: Todo va bien. ¿Qué tal la familia?
+Ana: Más o menos bien, gracias.
+Pedro: Me alegro. Muchas gracias por preguntar.
+Ana: De nada.
     `,
     questions: [
       {
         question: 'Кто приветствует первым?',
-        options: ['Хуан', 'Мария', 'Оба', 'Никто'],
+        options: ['Ана', 'Педро', 'Оба', 'Никто'],
         correct: 1
       },
       {
         question: 'Какое время суток?',
         options: ['Утро', 'День', 'Вечер', 'Ночь'],
         correct: 0
+      },
+      {
+        question: 'Как дела у семьи Аны?',
+        options: ['Очень хорошо', 'Более или менее хорошо', 'Плохо', 'Отлично'],
+        correct: 1
       }
     ]
   },
@@ -3417,7 +3634,11 @@ María: Muy bien, gracias.
       { russian: 'Привет', correct: 'hola' },
       { russian: 'Спасибо', correct: 'gracias' },
       { russian: 'Пожалуйста', correct: 'por favor' },
-      { russian: 'Пока', correct: 'adiós' }
+      { russian: 'Пока', correct: 'adiós' },
+      { russian: 'Как дела?', correct: '¿qué tal?' },
+      { russian: 'Все хорошо', correct: 'todo va bien' },
+      { russian: 'Большое спасибо', correct: 'muchas gracias' },
+      { russian: 'Так себе', correct: 'regular' }
     ]
   },
 
@@ -3480,6 +3701,104 @@ María: Muy bien, gracias.
       { sentence: 'Yo ___ 25 años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
       { sentence: 'Tú ___ un libro', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
       { sentence: 'Ella ___ dos hermanos', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 }
+    ]
+  },
+
+  // Упражнения урока 1.4
+  'ex-1-4-1': {
+    id: 'ex-1-4-1',
+    type: 'vocabulary',
+    title: 'Род существительных',
+    description: 'Определите род существительного',
+    questions: [
+      { spanish: 'libro', options: ['мужской', 'женский'], correct: 0 },
+      { spanish: 'casa', options: ['мужской', 'женский'], correct: 1 },
+      { spanish: 'chico', options: ['мужской', 'женский'], correct: 0 },
+      { spanish: 'amiga', options: ['мужской', 'женский'], correct: 1 },
+      { spanish: 'flor', options: ['мужской', 'женский'], correct: 1 },
+      { spanish: 'coche', options: ['мужской', 'женский'], correct: 0 }
+    ]
+  },
+  'ex-1-4-2': {
+    id: 'ex-1-4-2',
+    type: 'grammar',
+    title: 'Артикли',
+    description: 'Выберите правильный артикль',
+    questions: [
+      { sentence: '___ libro', options: ['el', 'la', 'los', 'las'], correct: 0 },
+      { sentence: '___ casa', options: ['el', 'la', 'los', 'las'], correct: 1 },
+      { sentence: '___ libros', options: ['el', 'la', 'los', 'las'], correct: 2 },
+      { sentence: '___ flores', options: ['el', 'la', 'los', 'las'], correct: 3 },
+      { sentence: '___ coche', options: ['un', 'una', 'unos', 'unas'], correct: 0 },
+      { sentence: '___ amiga', options: ['un', 'una', 'unos', 'unas'], correct: 1 }
+    ]
+  },
+  'ex-1-4-3': {
+    id: 'ex-1-4-3',
+    type: 'grammar',
+    title: 'Прилагательные',
+    description: 'Выберите правильную форму прилагательного',
+    questions: [
+      { sentence: 'El libro es ___ (blanco)', options: ['blanco', 'blanca', 'blancos', 'blancas'], correct: 0 },
+      { sentence: 'La casa es ___ (bonito)', options: ['bonito', 'bonita', 'bonitos', 'bonitas'], correct: 1 },
+      { sentence: 'Los coches son ___ (verde)', options: ['verde', 'verdes', 'verdas', 'verdos'], correct: 1 },
+      { sentence: 'Las flores son ___ (azul)', options: ['azul', 'azules', 'azula', 'azulas'], correct: 1 }
+    ]
+  },
+  'ex-1-4-4': {
+    id: 'ex-1-4-4',
+    type: 'reading',
+    title: 'Чтение',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    text: `
+Tengo un amigo. Mi amigo se llama Carlos. Carlos tiene una casa bonita. La casa es grande y blanca.
+
+Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azul en la casa.
+    `,
+    questions: [
+      {
+        question: 'Как зовут друга?',
+        options: ['Педро', 'Карлос', 'Хуан', 'Ана'],
+        correct: 1
+      },
+      {
+        question: 'Какого цвета дом?',
+        options: ['Зеленый', 'Синий', 'Белый', 'Красный'],
+        correct: 2
+      },
+      {
+        question: 'Какой автомобиль у Карлоса?',
+        options: ['Большой и белый', 'Маленький и зеленый', 'Большой и зеленый', 'Маленький и синий'],
+        correct: 1
+      }
+    ]
+  },
+  'ex-1-4-5': {
+    id: 'ex-1-4-5',
+    type: 'writing',
+    title: 'Множественное число',
+    description: 'Напишите во множественном числе',
+    questions: [
+      { spanish: 'el libro', correct: 'los libros' },
+      { spanish: 'la casa', correct: 'las casas' },
+      { spanish: 'un coche', correct: 'unos coches' },
+      { spanish: 'una flor', correct: 'unas flores' },
+      { spanish: 'el lápiz', correct: 'los lápices' },
+      { spanish: 'la ciudad', correct: 'las ciudades' }
+    ]
+  },
+  'ex-1-4-6': {
+    id: 'ex-1-4-6',
+    type: 'writing',
+    title: 'Перевод с прилагательными',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'белый дом', correct: 'la casa blanca' },
+      { russian: 'красивая книга', correct: 'el libro bonito' },
+      { russian: 'зеленые автомобили', correct: 'los coches verdes' },
+      { russian: 'синие цветы', correct: 'las flores azules' },
+      { russian: 'большой друг', correct: 'el amigo grande' },
+      { russian: 'маленький мальчик', correct: 'el chico pequeño' }
     ]
   },
 
@@ -4911,7 +5230,9 @@ María: Muy bien, gracias.
     description: 'Выберите правильный ответ',
     questions: [
       { word: 'hola', options: ['adiós', 'buenos días', 'no', 'nada'], correct: 1 },
-      { word: 'gracias', options: ['por favor', 'de nada', 'muchas gracias', 'perdón'], correct: 2 }
+      { word: 'gracias', options: ['por favor', 'de nada', 'muchas gracias', 'perdón'], correct: 2 },
+      { word: '¿Cómo estás?', options: ['¿Qué tal?', 'Regular', 'Bien', 'Adiós'], correct: 0 },
+      { word: 'Así así', options: ['Todo va bien', 'Regular', 'Muchas gracias', 'Hola'], correct: 1 }
     ]
   },
 
@@ -4922,7 +5243,10 @@ María: Muy bien, gracias.
     description: 'Выберите правильный ответ',
     questions: [
       { sentence: 'Son las 10 de la mañana. Digo: ___', options: ['buenas noches', 'buenos días', 'buenas tardes', 'adiós'], correct: 1 },
-      { sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 }
+      { sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 },
+      { sentence: 'Mi amigo pregunta "¿Cómo estás?". No estoy muy bien. Digo: ___', options: ['Todo va bien', 'Regular', 'Bien, gracias', 'Buenos días'], correct: 1 },
+      { sentence: 'Pregunto por la familia de mi amigo: ___', options: ['¿Qué tal la familia?', '¿Qué tal?', 'Muchas gracias', 'De nada'], correct: 0 },
+      { sentence: 'Alguien me ayuda mucho. Digo: ___', options: ['Gracias', 'Muchas gracias', 'Por favor', 'Adiós'], correct: 1 }
     ]
   },
 
