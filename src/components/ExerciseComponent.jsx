@@ -13,7 +13,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     const newAnswers = [...answers, answer]
     setAnswers(newAnswers)
 
-    if (currentQuestion + 1 < exercise.questions.length) {
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    if (currentQuestion + 1 < totalQuestions) {
       setCurrentQuestion(currentQuestion + 1)
     } else {
       // Завершение упражнения
@@ -24,11 +25,12 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
   const calculateScore = (finalAnswers) => {
     let correct = 0
-    exercise.questions.forEach((question, index) => {
+    const items = exercise.texts || exercise.questions
+    items.forEach((question, index) => {
       const userAnswer = finalAnswers[index]
 
       // Text input types (need string comparison)
-      if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation'].includes(exercise.type)) {
+      if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation', 'translation'].includes(exercise.type)) {
         if (userAnswer?.toLowerCase().trim() === question.correct?.toLowerCase().trim()) {
           correct++
         }
@@ -74,7 +76,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   }
 
   const handleFinish = () => {
-    if (score >= exercise.questions.length * 0.7) {
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    if (score >= totalQuestions * 0.7) {
       onComplete()
     } else {
       handleReset()
@@ -82,7 +85,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   }
 
   if (showResult) {
-    const percentage = Math.round((score / exercise.questions.length) * 100)
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const percentage = Math.round((score / totalQuestions) * 100)
     const passed = percentage >= 70
 
     return (
@@ -96,7 +100,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               {passed ? 'Отлично!' : 'Нужно повторить'}
             </h2>
             <p className={styles.resultScore}>
-              Ваш результат: {score} из {exercise.questions.length} ({percentage}%)
+              Ваш результат: {score} из {totalQuestions} ({percentage}%)
             </p>
             <p className={styles.resultMessage}>
               {passed
@@ -122,6 +126,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     )
   }
 
+  const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+
   return (
     <div className={styles.container}>
       <div className={styles.exerciseContainer}>
@@ -131,7 +137,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           </button>
           <h2 className={styles.title}>{exercise.title}</h2>
           <div className={styles.progress}>
-            {currentQuestion + 1} / {exercise.questions.length}
+            {currentQuestion + 1} / {totalQuestions}
           </div>
         </div>
 
@@ -309,13 +315,38 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               onAnswer={handleAnswer}
             />
           )}
+          {/* Additional Exercise Types */}
+          {exercise.type === 'matching' && (
+            <MatchingQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'dialogue-practice' && (
+            <DialoguePracticeQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'reading-comprehension' && (
+            <ReadingComprehensionQuestion
+              question={exercise.texts ? exercise.texts[currentQuestion] : exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'translation' && (
+            <TranslationQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
         </div>
 
         <div className={styles.progressBar}>
           <div
             className={styles.progressFill}
             style={{
-              width: `${((currentQuestion + 1) / exercise.questions.length) * 100}%`
+              width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
             }}
           />
         </div>
@@ -1014,6 +1045,98 @@ function WordFamilyQuestion({ question, onAnswer }) {
           </button>
         ))}
       </div>
+    </div>
+  )
+}
+
+// ===== ADDITIONAL EXERCISE TYPES =====
+
+function MatchingQuestion({ question, onAnswer }) {
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>{question.spanish}</h3>
+      <div className={styles.options}>
+        {question.options.map((option, index) => (
+          <button
+            key={index}
+            onClick={() => onAnswer(index)}
+            className={styles.optionBtn}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function DialoguePracticeQuestion({ question, onAnswer }) {
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>{question.question}</h3>
+      <div className={styles.options}>
+        {question.options.map((option, index) => (
+          <button
+            key={index}
+            onClick={() => onAnswer(index)}
+            className={styles.optionBtn}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function ReadingComprehensionQuestion({ question, onAnswer }) {
+  return (
+    <div className={styles.question}>
+      {question.text && (
+        <div className={styles.readingText}>
+          <p>{question.text}</p>
+        </div>
+      )}
+      <h3 className={styles.questionText}>{question.question}</h3>
+      <div className={styles.options}>
+        {question.options.map((option, index) => (
+          <button
+            key={index}
+            onClick={() => onAnswer(index)}
+            className={styles.optionBtn}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function TranslationQuestion({ question, onAnswer }) {
+  const [input, setInput] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    onAnswer(input)
+  }
+
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>Переведите: <strong>{question.russian}</strong></h3>
+      <form onSubmit={handleSubmit} className={styles.writingForm}>
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className={styles.writingInput}
+          placeholder="Введите перевод на испанском"
+          autoFocus
+        />
+        <button type="submit" className={styles.submitBtn}>
+          Ответить
+        </button>
+      </form>
     </div>
   )
 }
