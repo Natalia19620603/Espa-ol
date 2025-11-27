@@ -83,6 +83,9 @@
 .grammarContent {
   line-height: 1.8;
   color: #333;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .mdH2 {
@@ -103,6 +106,9 @@
   color: #666;
   font-size: 1.05rem;
   margin: 0.8rem 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .mdLi {
@@ -213,6 +219,9 @@
   color: #333;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .spanishText p {
