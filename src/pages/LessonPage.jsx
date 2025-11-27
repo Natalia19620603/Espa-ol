@@ -152,6 +152,22 @@ function LessonPage() {
             📖 Чтение
           </button>
         )}
+        {lesson.dialogues && lesson.dialogues.length > 0 && (
+          <button
+            className={`${styles.tab} ${activeTab === 'dialogues' ? styles.activeTab : ''}`}
+            onClick={() => setActiveTab('dialogues')}
+          >
+            💬 Диалоги
+          </button>
+        )}
+        {lesson.culturalNotes && (
+          <button
+            className={`${styles.tab} ${activeTab === 'culture' ? styles.activeTab : ''}`}
+            onClick={() => setActiveTab('culture')}
+          >
+            🌍 Культура
+          </button>
+        )}
         <button
           className={`${styles.tab} ${activeTab === 'exercises' ? styles.activeTab : ''}`}
           onClick={() => setActiveTab('exercises')}
@@ -236,6 +252,74 @@ function LessonPage() {
           </div>
         )}
 
+        {activeTab === 'dialogues' && lesson.dialogues && (
+          <div className={styles.dialoguesSection}>
+            <h2 className={styles.sectionTitle}>Диалоги</h2>
+            {lesson.dialogues.map((dialogue, index) => (
+              <div key={index} className={styles.dialogueCard}>
+                <h3 className={styles.dialogueTitle}>{dialogue.title}</h3>
+                {dialogue.audioUrl && (
+                  <AudioPlayer
+                    audioUrl={dialogue.audioUrl}
+                    text={dialogue.lines?.map(l => l.text).join('\n')}
+                  />
+                )}
+                <div className={styles.dialogueContent}>
+                  {dialogue.lines?.map((line, lineIndex) => (
+                    <div key={lineIndex} className={styles.dialogueLine}>
+                      <span className={styles.speaker}>{line.speaker}:</span>
+                      <span className={styles.dialogueText}>{line.text}</span>
+                      {line.translation && (
+                        <span className={styles.dialogueTranslation}>({line.translation})</span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+                {dialogue.translation && (
+                  <div className={styles.dialogueFullTranslation}>
+                    <details>
+                      <summary>Показать полный перевод</summary>
+                      <p>{dialogue.translation}</p>
+                    </details>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+
+        {activeTab === 'culture' && lesson.culturalNotes && (
+          <div className={styles.cultureSection}>
+            <h2 className={styles.sectionTitle}>Культурные заметки</h2>
+            <div className={styles.cultureContent}>
+              {typeof lesson.culturalNotes === 'string' ? (
+                renderMarkdown(lesson.culturalNotes)
+              ) : (
+                <>
+                  {lesson.culturalNotes.title && (
+                    <h3 className={styles.cultureTitle}>{lesson.culturalNotes.title}</h3>
+                  )}
+                  {lesson.culturalNotes.content && (
+                    <div className={styles.cultureText}>
+                      {renderMarkdown(lesson.culturalNotes.content)}
+                    </div>
+                  )}
+                  {lesson.culturalNotes.facts && lesson.culturalNotes.facts.length > 0 && (
+                    <div className={styles.cultureFacts}>
+                      <h4>Интересные факты:</h4>
+                      <ul>
+                        {lesson.culturalNotes.facts.map((fact, index) => (
+                          <li key={index}>{fact}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
+          </div>
+        )}
+
         {activeTab === 'pronunciation' && (
           <div className={styles.pronunciationSection}>
             <h2 className={styles.sectionTitle}>Практика произношения</h2>
@@ -309,7 +393,34 @@ function getExerciseTypeName(type) {
     pronunciation: 'Произношение',
     fillblank: 'Заполнение пропусков',
     'ser-estar': 'SER vs ESTAR',
-    articles: 'Артикли'
+    articles: 'Артикли',
+    // Grammar types
+    conjugation: 'Спряжение',
+    'word-order': 'Порядок слов',
+    transformation: 'Трансформация',
+    'error-correction': 'Исправление ошибок',
+    'tense-choice': 'Выбор времени',
+    prepositions: 'Предлоги',
+    pronouns: 'Местоимения',
+    agreement: 'Согласование',
+    subjunctive: 'Сослагательное наклонение',
+    conditional: 'Условное наклонение',
+    // Vocabulary types
+    synonyms: 'Синонимы',
+    antonyms: 'Антонимы',
+    collocations: 'Словосочетания',
+    definitions: 'Определения',
+    context: 'Контекст',
+    'word-formation': 'Словообразование',
+    categorization: 'Категоризация',
+    'false-friends': 'Ложные друзья переводчика',
+    idioms: 'Идиомы',
+    'word-family': 'Словарные семьи',
+    // Additional types
+    matching: 'Соответствие',
+    'dialogue-practice': 'Практика диалогов',
+    'reading-comprehension': 'Понимание прочитанного',
+    translation: 'Перевод'
   }
   return types[type] || type
 }
