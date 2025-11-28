@@ -1098,99 +1098,83 @@ Estar используется для обозначения временных 
       { word: 'su', translation: 'его, её, Ваш', audioUrl: null }
     ],
     readingText: {
-      title: 'Conocimientos y estados',
-      content: `**Diálogo 1: Conocimiento informal**
-— ¡Hola! ¿Cómo te llamas?
-— Me llamo Ana. ¿Y tú?
-— Yo soy Pablo. Mucho gusto.
-— Encantada. ¿De dónde eres?
-— Soy de la ciudad. ¿Y tú?
-— Yo soy de la ciudad.
+      title: 'Palabras y frases',
+      content: `**Saludos y expresiones**
+¡Hola! Buenos días. Buenas tardes. Buenas noches.
+Gracias. Muchas gracias. De nada. Por favor.
+Adiós. Mucho gusto. Encantado. Encantada.
 
-**Diálogo 2: Conocimiento formal**
-— Buenos días. ¿Cómo se llama usted?
-— Me llamo señor López. ¿Y usted?
-— Yo soy señora Martínez. Mucho gusto.
-— Encantado. ¿Cómo está usted?
-— Estoy bien, gracias. ¿Y usted?
-— Muy bien, muchas gracias.
+**La familia**
+El padre. La madre. El hermano. La hermana.
+Mi padre. Mi madre. Tu hermano. Tu hermana.
+Un chico joven. Una chica joven.
+El hombre alto. La mujer alta.
+Un amigo bueno. Una amiga buena.
 
-**Diálogo 3: Estados y ubicación**
-— ¡Hola! ¿Cómo estás?
-— Bien, gracias. ¿Y tú?
-— Estoy contenta. ¿Dónde estás ahora?
-— Estoy en casa. Mi hermano está en el museo.
-— ¿Cómo es tu hermano?
-— Mi hermano es joven y alegre. Él es estudiante.
+**Descripciones**
+El libro grande. La casa grande.
+Un día bonito. Una ciudad bonita.
+El museo interesante. La playa bonita.
+Un café caliente. Una noche fría.
+El sol blanco. La luz blanca.
+Un coche caro. Una flor cara.
 
-**Diálogo 4: Características personales**
-— ¿Cómo es tu amiga?
-— Mi amiga es guapa y joven. Ella es estudiante.
-— ¿Dónde está ella ahora?
-— Está en la playa. Está feliz.
-— ¿Y tu hermana?
-— Mi hermana está en casa. Ella está enferma.
+**Lugares**
+La casa. El museo. La playa. La ciudad.
+La calle larga. El día largo.
+En casa. En el museo. En la playa. En la ciudad.
 
-**Diálogo 5: La familia**
-— Buenos días. ¿Qué tal la familia?
-— Bien, gracias. Mi padre y mi madre están en casa.
-— ¿Cómo son ellos?
-— Mi padre es alto. Él es bueno. Mi madre es alegre. Ella es buena.
-— ¿Tienes hermanos?
-— Sí. Yo tengo un hermano y una hermana. Ellos son jóvenes.
+**Cualidades y estados**
+Feliz. Contento. Alegre. Triste.
+Enfermo. Joven. Viejo. Alto. Bajo.
+Guapo. Bonito. Feo. Bueno. Malo.
+Nuevo. Antiguo. Grande. Pequeño.
+Gordo. Delgado. Rico. Pobre.
 
-**Texto: Mi familia y yo**
-¡Hola! Me llamo Carlos. Yo soy joven. Soy estudiante. Estoy en la ciudad.
+**Objetos y cosas**
+El libro nuevo. La casa nueva.
+Un lápiz pequeño. Una mano pequeña.
+El coche verde. La flor azul.
+Un avión grande. Una estación grande.
+El dinero. El amor. La felicidad. La salud.`,
+      translation: `**Приветствия и выражения**
+Привет! Доброе утро. Добрый день. Добрый вечер/Спокойной ночи.
+Спасибо. Большое спасибо. Пожалуйста (ответ). Пожалуйста (просьба).
+Пока. Очень приятно. Рад познакомиться (м.р.). Рада познакомиться (ж.р.).
 
-Mi padre es bueno. Él está en casa. Mi madre es alegre. Ella está en el museo. Mi hermano es alto. Él está en la playa. Mi hermana es guapa. Ella está en casa.
+**Семья**
+Отец. Мать. Брат. Сестра.
+Мой отец. Моя мать. Твой брат. Твоя сестра.
+Молодой мальчик. Молодая девочка.
+Высокий мужчина. Высокая женщина.
+Хороший друг. Хорошая подруга.
 
-Nosotros somos felices. Hoy es lunes. El día es bonito. El sol está en el cielo. Gracias. Adiós.`,
-      translation: `**Диалог 1: Неформальное знакомство**
-— Привет! Как тебя зовут?
-— Меня зовут Ана. А тебя?
-— Я Пабло. Очень приятно.
-— Рада познакомиться. Откуда ты?
-— Я из города. А ты?
-— Я из города.
+**Описания**
+Большая книга. Большой дом.
+Красивый день. Красивый город.
+Интересный музей. Красивый пляж.
+Горячий кофе. Холодная ночь.
+Белое солнце. Белый свет.
+Дорогая машина. Дорогой цветок.
 
-**Диалог 2: Формальное знакомство**
-— Доброе утро. Как вас зовут?
-— Меня зовут сеньор Лопес. А вас?
-— Я сеньора Мартинес. Очень приятно.
-— Рад познакомиться. Как вы себя чувствуете?
-— Я хорошо, спасибо. А вы?
-— Очень хорошо, большое спасибо.
+**Места**
+Дом. Музей. Пляж. Город.
+Длинная улица. Длинный день.
+Дома. В музее. На пляже. В городе.
 
-**Диалог 3: Состояния и местонахождение**
-— Привет! Как дела?
-— Хорошо, спасибо. А у тебя?
-— Я довольна. Где ты сейчас?
-— Я дома. Мой брат в музее.
-— Какой твой брат?
-— Мой брат молодой и весёлый. Он студент.
+**Качества и состояния**
+Счастливый. Довольный. Весёлый. Грустный.
+Больной. Молодой. Старый. Высокий. Низкий.
+Красивый. Симпатичный. Некрасивый. Хороший. Плохой.
+Новый. Старинный. Большой. Маленький.
+Толстый. Стройный. Богатый. Бедный.
 
-**Диалог 4: Личные характеристики**
-— Какая твоя подруга?
-— Моя подруга красивая и молодая. Она студентка.
-— Где она сейчас?
-— Она на пляже. Она счастлива.
-— А твоя сестра?
-— Моя сестра дома. Она больна.
-
-**Диалог 5: Семья**
-— Доброе утро. Как семья?
-— Хорошо, спасибо. Мой отец и моя мать дома.
-— Какие они?
-— Мой отец высокий. Он хороший. Моя мать весёлая. Она хорошая.
-— У тебя есть братья и сёстры?
-— Да. У меня есть брат и сестра. Они молодые.
-
-**Текст: Моя семья и я**
-Привет! Меня зовут Карлос. Я молодой. Я студент. Я в городе.
-
-Мой отец хороший. Он дома. Моя мать весёлая. Она в музее. Мой брат высокий. Он на пляже. Моя сестра красивая. Она дома.
-
-Мы счастливы. Сегодня понедельник. День красивый. Солнце в небе. Спасибо. Пока.`,
+**Предметы и вещи**
+Новая книга. Новый дом.
+Маленький карандаш. Маленькая рука.
+Зелёная машина. Синий цветок.
+Большой самолёт. Большая станция.
+Деньги. Любовь. Счастье. Здоровье.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 4, text: '¡Hola! ¿Cómo te llamas?' },
@@ -1200,7 +1184,7 @@ Nosotros somos felices. Hoy es lunes. El día es bonito. El sol está en el ciel
         { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3']
+    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-6', 'ex-1-3-7']
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
@@ -5191,6 +5175,89 @@ Pedro: Igualmente. Muchas gracias.
       { russian: 'Я хорошо себя чувствую.', correct: 'Yo estoy bien.' },
       { russian: 'Мой брат высокий.', correct: 'Mi hermano es alto.' },
       { russian: 'Моя сестра больна.', correct: 'Mi hermana está enferma.' }
+    ]
+  },
+  'ex-1-3-4': {
+    id: 'ex-1-3-4',
+    type: 'grammar',
+    title: 'Согласование существительных с прилагательными',
+    description: 'A) Согласование по роду (Единственное число). Образец: un señor gordo → una señora gorda',
+    questions: [
+      { pattern: 'un día largo', options: ['una calle larga', 'una calle largo', 'un calle largo', 'un calle larga'], correct: 0 },
+      { pattern: 'un coche caro', options: ['una casa cara', 'una casa caro', 'un casa caro', 'un casa cara'], correct: 0 },
+      { pattern: 'un hombre casado', options: ['una mujer casada', 'una mujer casado', 'un mujer casado', 'un mujer casada'], correct: 0 },
+      { pattern: 'un café caliente', options: ['una mano caliente', 'una mano caliento', 'un mano caliente', 'un mano caliento'], correct: 0 },
+      { pattern: 'un padre feliz', options: ['una madre feliz', 'una madre feliza', 'un madre feliz', 'un madre feliza'], correct: 0 },
+      { pattern: 'un museo grande', options: ['una ciudad grande', 'una ciudad granda', 'un ciudad grande', 'un ciudad granda'], correct: 0 },
+      { pattern: 'un tema raro', options: ['una operación rara', 'una operación raro', 'un operación raro', 'un operación rara'], correct: 0 },
+      { pattern: 'un policía joven', options: ['una señorita joven', 'una señorita jovina', 'un señorita joven', 'un señorita jovina'], correct: 0 }
+    ]
+  },
+  'ex-1-3-5': {
+    id: 'ex-1-3-5',
+    type: 'grammar',
+    title: 'Согласование по числу (Множественное число)',
+    description: 'B) Согласование по числу. Образец: una casa nueva → las casas nuevas',
+    questions: [
+      { pattern: 'un libro interesante', options: ['los libros interesantes', 'los libros interesante', 'las libros interesantes', 'las libros interesante'], correct: 0 },
+      { pattern: 'una flor blanca', options: ['las flores blancas', 'las flores blanca', 'los flores blancas', 'los flores blanca'], correct: 0 },
+      { pattern: 'un amigo enfermo', options: ['los amigos enfermos', 'los amigos enfermo', 'las amigos enfermos', 'las amigos enfermo'], correct: 0 },
+      { pattern: 'una mujer fea', options: ['las mujeres feas', 'las mujeres fea', 'los mujeres feas', 'los mujeres fea'], correct: 0 },
+      { pattern: 'un problema grave', options: ['los problemas graves', 'los problemas grave', 'las problemas graves', 'las problemas grave'], correct: 0 },
+      { pattern: 'una chica alegre', options: ['las chicas alegres', 'las chicas alegre', 'los chicas alegres', 'los chicas alegre'], correct: 0 },
+      { pattern: 'un avión pequeño', options: ['los aviones pequeños', 'los aviones pequeño', 'las aviones pequeños', 'las aviones pequeño'], correct: 0 },
+      { pattern: 'una cuestión regular', options: ['las cuestiones regulares', 'las cuestiones regular', 'los cuestiones regulares', 'los cuestiones regular'], correct: 0 }
+    ]
+  },
+  'ex-1-3-6': {
+    id: 'ex-1-3-6',
+    type: 'vocabulary',
+    title: 'Замените прилагательные на антонимы',
+    description: 'Замените прилагательные в словосочетаниях на их антонимы',
+    questions: [
+      { spanish: 'un libro nuevo', options: ['un libro viejo', 'un libro malo', 'un libro pequeño', 'un libro feo'], correct: 0 },
+      { spanish: 'una casa grande', options: ['una casa pequeña', 'una casa mala', 'una casa fea', 'una casa vieja'], correct: 0 },
+      { spanish: 'un chico alto', options: ['un chico bajo', 'un chico pequeño', 'un chico gordo', 'un chico feo'], correct: 0 },
+      { spanish: 'una chica guapa', options: ['una chica fea', 'una chica mala', 'una chica baja', 'una chica vieja'], correct: 0 },
+      { spanish: 'un día bueno', options: ['un día malo', 'un día pequeño', 'un día corto', 'un día feo'], correct: 0 },
+      { spanish: 'un café caliente', options: ['un café frío', 'un café malo', 'un café barato', 'un café pequeño'], correct: 0 },
+      { spanish: 'un hombre rico', options: ['un hombre pobre', 'un hombre malo', 'un hombre bajo', 'un hombre feo'], correct: 0 },
+      { spanish: 'una calle larga', options: ['una calle corta', 'una calle pequeña', 'una calle mala', 'una calle fea'], correct: 0 },
+      { spanish: 'un coche caro', options: ['un coche barato', 'un coche malo', 'un coche pequeño', 'un coche viejo'], correct: 0 },
+      { spanish: 'un amigo feliz', options: ['un amigo triste', 'un amigo malo', 'un amigo enfermo', 'un amigo bajo'], correct: 0 },
+      { spanish: 'una flor blanca', options: ['una flor negra', 'una flor mala', 'una flor pequeña', 'una flor fea'], correct: 0 },
+      { spanish: 'un hombre joven', options: ['un hombre viejo', 'un hombre malo', 'un hombre bajo', 'un hombre feo'], correct: 0 },
+      { spanish: 'un chico delgado', options: ['un chico gordo', 'un chico malo', 'un chico bajo', 'un chico feo'], correct: 0 },
+      { spanish: 'una casa bonita', options: ['una casa fea', 'una casa mala', 'una casa pequeña', 'una casa vieja'], correct: 0 },
+      { spanish: 'un problema difícil', options: ['un problema fácil', 'un problema malo', 'un problema pequeño', 'un problema viejo'], correct: 0 }
+    ]
+  },
+  'ex-1-3-7': {
+    id: 'ex-1-3-7',
+    type: 'translation',
+    title: 'Переведите на испанский язык словосочетания',
+    description: 'Переведите словосочетания на испанский язык, используя определенные артикли',
+    questions: [
+      { russian: 'большой дом', correct: 'la casa grande' },
+      { russian: 'красивая книга', correct: 'el libro bonito' },
+      { russian: 'молодой студент', correct: 'el estudiante joven' },
+      { russian: 'хорошая мать', correct: 'la madre buena' },
+      { russian: 'высокий отец', correct: 'el padre alto' },
+      { russian: 'маленький брат', correct: 'el hermano pequeño' },
+      { russian: 'красивая сестра', correct: 'la hermana guapa' },
+      { russian: 'интересный музей', correct: 'el museo interesante' },
+      { russian: 'красивый пляж', correct: 'la playa bonita' },
+      { russian: 'большой город', correct: 'la ciudad grande' },
+      { russian: 'длинная улица', correct: 'la calle larga' },
+      { russian: 'горячий кофе', correct: 'el café caliente' },
+      { russian: 'холодная ночь', correct: 'la noche fría' },
+      { russian: 'белое солнце', correct: 'el sol blanco' },
+      { russian: 'дорогая машина', correct: 'el coche caro' },
+      { russian: 'синий цветок', correct: 'la flor azul' },
+      { russian: 'зелёная машина', correct: 'el coche verde' },
+      { russian: 'счастливый друг', correct: 'el amigo feliz' },
+      { russian: 'довольная подруга', correct: 'la amiga contenta' },
+      { russian: 'больная женщина', correct: 'la mujer enferma' }
     ]
   },
 
