@@ -1350,7 +1350,7 @@ function TranslationQuestion({ question, onAnswer, exerciseId }) {
   }
 
   // Определяем текст для заголовка в зависимости от ID упражнения
-  const questionPrefix = exerciseId === 'ex-1-4-test' ? 'Измените' : 'Переведите'
+  const questionPrefix = exerciseId === 'ex-1-4-test' ? 'ЗАМЕНИ' : 'Переведите'
 
   return (
     <div className={styles.question}>
