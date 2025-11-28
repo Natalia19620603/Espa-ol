@@ -1165,7 +1165,7 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
         { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3']
+    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3']
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
@@ -5093,7 +5093,7 @@ Pedro: Igualmente. Muchas gracias.
     id: 'ex-1-3-1',
     type: 'grammar',
     title: 'Упражнение на спряжение и согласование',
-    description: 'Поставьте глагол и прилагательное в нужную форму по образцу',
+    description: 'Выбери фразу с глаголом и прилагательным в правильной форме',
     questions: [
       { pattern: 'Yo soy rusa.', result: 'María y yo somos rusas.', question: 'Преобразуйте предложение с María y yo', options: ['María y yo soy rusa.', 'María y yo somos rusas.', 'María y yo son rusas.', 'María y yo eres rusas.'], correct: 1 },
       { pattern: 'Tú eres economista.', result: 'Carmen y tú sois economistas.', question: 'Преобразуйте предложение с Carmen y tú', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
@@ -5156,6 +5156,42 @@ Pedro: Igualmente. Muchas gracias.
       { russian: 'Я хорошо себя чувствую.', correct: 'Yo estoy bien.' },
       { russian: 'Мой брат высокий.', correct: 'Mi hermano es alto.' },
       { russian: 'Моя сестра больна.', correct: 'Mi hermana está enferma.' }
+    ]
+  },
+  'ex-1-3-4': {
+    id: 'ex-1-3-4',
+    type: 'grammar',
+    title: 'Completa con la forma correcta de SER o ESTAR',
+    description: 'Elige la conjugación correcta (soy, eres, es... o estoy, estás, está...) para cada frase, según el significado (característica o ubicación/estado)',
+    questions: [
+      { sentence: 'La noche ________ fría.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Nosotros ________ clientes ricos.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 0 },
+      { sentence: 'Mi hermano ________ soltero.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'El libro ________ en la mesa.', options: ['está', 'es', 'están', 'son'], correct: 0 },
+      { sentence: 'Tú ________ economista.', options: ['eres', 'estás', 'soy', 'estoy'], correct: 0 },
+      { sentence: 'Los aviones ________ grandes.', options: ['son', 'están', 'es', 'está'], correct: 0 },
+      { sentence: 'La flor ________ verde y bonita.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Nosotros ________ enfermos ahora.', options: ['estamos', 'somos', 'estáis', 'sois'], correct: 0 },
+      { sentence: 'El día ________ largo.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: '¿Dónde ________ los chicos?', options: ['están', 'son', 'está', 'es'], correct: 0 }
+    ]
+  },
+  'ex-1-3-5': {
+    id: 'ex-1-3-5',
+    type: 'grammar',
+    title: 'Completa con SER o ESTAR - Parte 2',
+    description: 'Elige la conjugación correcta para cada frase, según el significado (característica o ubicación/estado)',
+    questions: [
+      { sentence: 'Yo ________ Ana y ________ una chica.', options: ['soy... soy', 'estoy... estoy', 'soy... estoy', 'estoy... soy'], correct: 0 },
+      { sentence: 'El padre ________ un hombre alto y bueno.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Ella ________ mi amiga María.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Tú ________ mi profesor/a.', options: ['eres', 'estás', 'soy', 'estoy'], correct: 0 },
+      { sentence: 'Mi trabajo ________ difícil.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Mi hermana ________ contenta ahora.', options: ['está', 'es', 'están', 'son'], correct: 0 },
+      { sentence: 'Él ________ en casa.', options: ['está', 'es', 'están', 'son'], correct: 0 },
+      { sentence: 'Yo ________ en España.', options: ['estoy', 'soy', 'estás', 'eres'], correct: 0 },
+      { sentence: 'Ustedes ________ casados.', options: ['están', 'son', 'estáis', 'sois'], correct: 0 },
+      { sentence: 'Nosotras ________ en la playa.', options: ['estamos', 'somos', 'estáis', 'sois'], correct: 0 }
     ]
   },
   'ex-1-2-7': {

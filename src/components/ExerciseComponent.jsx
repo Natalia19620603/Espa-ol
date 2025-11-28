@@ -1,15 +1,78 @@
-import { useState } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import styles from './ExerciseComponent.module.css'
+
+// Функция для перемешивания массива
+function shuffleArray(array) {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled
+}
 
 function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState([])
   const [showResult, setShowResult] = useState(false)
   const [score, setScore] = useState(0)
+  const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
+  const [userAnswer, setUserAnswer] = useState(null)
+
+  // Перемешиваем опции для каждого вопроса один раз при загрузке
+  const shuffledQuestions = useMemo(() => {
+    if (!exercise || !exercise.questions) return []
+
+    return exercise.questions.map(question => {
+      if (!question.options) return question
+
+      // Создаем массив с индексами и опциями
+      const indexedOptions = question.options.map((option, index) => ({
+        option,
+        originalIndex: index
+      }))
+
+      // Перемешиваем
+      const shuffled = shuffleArray(indexedOptions)
+
+      // Находим новый индекс правильного ответа
+      const newCorrectIndex = shuffled.findIndex(item => item.originalIndex === question.correct)
+
+      return {
+        ...question,
+        options: shuffled.map(item => item.option),
+        correct: newCorrectIndex
+      }
+    })
+  }, [exercise])
 
   if (!exercise) return null
 
   const handleAnswer = (answer) => {
+    const questions = shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions
+    const currentQ = questions[currentQuestion]
+
+    // Проверяем правильность ответа для multiple choice
+    const isCorrect = (['vocabulary', 'grammar', 'ser-estar', 'articles', 'pronunciation', 'reading', 'conjugation', 'tense-choice', 'prepositions', 'pronouns', 'agreement', 'subjunctive', 'conditional', 'synonyms', 'antonyms', 'collocations', 'definitions', 'context', 'false-friends', 'idioms', 'word-family', 'matching', 'dialogue-practice', 'reading-comprehension'].includes(exercise.type))
+      ? answer === currentQ.correct
+      : true // для text input типов проверим позже
+
+    setUserAnswer(answer)
+
+    if (!isCorrect && ['vocabulary', 'grammar', 'ser-estar', 'articles', 'pronunciation', 'reading', 'conjugation', 'tense-choice', 'prepositions', 'pronouns', 'agreement', 'subjunctive', 'conditional', 'synonyms', 'antonyms', 'collocations', 'definitions', 'context', 'false-friends', 'idioms', 'word-family', 'matching', 'dialogue-practice', 'reading-comprehension'].includes(exercise.type)) {
+      // Показываем правильный ответ
+      setShowCorrectAnswer(true)
+      setTimeout(() => {
+        setShowCorrectAnswer(false)
+        setUserAnswer(null)
+        proceedToNext(answer)
+      }, 2000) // Показываем 2 секунды
+    } else {
+      proceedToNext(answer)
+    }
+  }
+
+  const proceedToNext = (answer) => {
     const newAnswers = [...answers, answer]
     setAnswers(newAnswers)
 
@@ -25,7 +88,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
   const calculateScore = (finalAnswers) => {
     let correct = 0
-    const items = exercise.texts || exercise.questions
+    const items = exercise.texts || (shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions)
     items.forEach((question, index) => {
       const userAnswer = finalAnswers[index]
 
@@ -146,27 +209,35 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         <div className={styles.questionContainer}>
           {exercise.type === 'vocabulary' && (
             <VocabularyQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'grammar' && (
             <GrammarQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'pronunciation' && (
             <PronunciationQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'reading' && (
             <ReadingQuestion
               text={exercise.text}
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'writing' && (
@@ -183,21 +254,27 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           )}
           {exercise.type === 'ser-estar' && (
             <SerEstarQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'articles' && (
             <ArticlesQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {/* Grammar Exercise Types */}
           {exercise.type === 'conjugation' && (
             <ConjugationQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'word-order' && (
@@ -355,40 +432,68 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   )
 }
 
-function VocabularyQuestion({ question, onAnswer }) {
+function VocabularyQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.spanish}</h3>
       <div className={styles.options}>
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
-          >
-            {option}
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
       </div>
+      {showCorrectAnswer && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
+      )}
     </div>
   )
 }
 
-function GrammarQuestion({ question, onAnswer }) {
+function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>{question.sentence}</h3>
+      <h3 className={styles.questionText}>{question.sentence || question.question}</h3>
       <div className={styles.options}>
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
-          >
-            {option}
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
       </div>
+      {showCorrectAnswer && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
+      )}
     </div>
   )
 }
@@ -491,21 +596,35 @@ function FillBlankQuestion({ question, onAnswer }) {
   )
 }
 
-function SerEstarQuestion({ question, onAnswer }) {
+function SerEstarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence}</h3>
       <div className={styles.options}>
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
-          >
-            {option}
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
       </div>
+      {showCorrectAnswer && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
+      )}
     </div>
   )
 }
