@@ -26,7 +26,7 @@ export const modules = {
     id: 'module-1',
     title: 'Модуль 1: Знакомство с испанским',
     level: 'beginner',
-    lessons: ['lesson-1-1', 'lesson-1-4', 'lesson-1-2', 'lesson-1-3'],
+    lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4'],
     description: 'Алфавит, приветствия, базовая лексика, грамматические основы'
   },
   'module-2': {
