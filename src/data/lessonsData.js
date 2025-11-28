@@ -5681,8 +5681,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-1-4-test': {
     id: 'ex-1-4-test',
     type: 'translation',
-    title: 'TEST',
-    description: 'Часть 1: Измените род и/или число. Часть 2: SER или ESTAR. Часть 3: Перевод',
+    title: 'TEST - Обобщение',
+    description: '',
     questions: [
       { russian: 'un amigo enfermo (Мн.ч.)', correct: 'unos amigos enfermos' },
       { russian: 'el libro antiguo (Мн.ч.)', correct: 'los libros antiguos' },
