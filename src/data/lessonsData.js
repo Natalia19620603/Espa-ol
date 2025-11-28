@@ -518,7 +518,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
-    title: 'Урок 2: Имя существительное. Артикль',
+    title: 'Урок 3: Имя существительное. Артикль',
     moduleId: 'module-1',
     grammar: {
       title: 'Имя существительное. Артикль',
