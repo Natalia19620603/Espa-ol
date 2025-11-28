@@ -539,12 +539,25 @@ function ReadingQuestion({ text, question, onAnswer }) {
   )
 }
 
-function WritingQuestion({ question, onAnswer }) {
+function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
   const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onAnswer(input)
+    if (input.trim()) {
+      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      if (!isCorrect) {
+        setShowFeedback(true)
+        setTimeout(() => {
+          setShowFeedback(false)
+          setInput('')
+          onAnswer(input)
+        }, 2000)
+      } else {
+        onAnswer(input)
+      }
+    }
   }
 
   return (
@@ -555,24 +568,43 @@ function WritingQuestion({ question, onAnswer }) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className={styles.writingInput}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите перевод на испанском"
           autoFocus
+          disabled={showFeedback}
         />
-        <button type="submit" className={styles.submitBtn}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
           Ответить
         </button>
       </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }
 
 function FillBlankQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onAnswer(input)
+    if (input.trim()) {
+      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      if (!isCorrect) {
+        setShowFeedback(true)
+        setTimeout(() => {
+          setShowFeedback(false)
+          setInput('')
+          onAnswer(input)
+        }, 2000)
+      } else {
+        onAnswer(input)
+      }
+    }
   }
 
   return (
@@ -584,14 +616,20 @@ function FillBlankQuestion({ question, onAnswer }) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className={styles.writingInput}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите правильную форму глагола"
           autoFocus
+          disabled={showFeedback}
         />
-        <button type="submit" className={styles.submitBtn}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
           Ответить
         </button>
       </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }
@@ -732,10 +770,23 @@ function WordOrderQuestion({ question, onAnswer }) {
 
 function TransformationQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onAnswer(input)
+    if (input.trim()) {
+      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      if (!isCorrect) {
+        setShowFeedback(true)
+        setTimeout(() => {
+          setShowFeedback(false)
+          setInput('')
+          onAnswer(input)
+        }, 2000)
+      } else {
+        onAnswer(input)
+      }
+    }
   }
 
   return (
@@ -747,24 +798,43 @@ function TransformationQuestion({ question, onAnswer }) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className={styles.writingInput}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите трансформированное предложение"
           autoFocus
+          disabled={showFeedback}
         />
-        <button type="submit" className={styles.submitBtn}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
           Ответить
         </button>
       </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }
 
 function ErrorCorrectionQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onAnswer(input)
+    if (input.trim()) {
+      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      if (!isCorrect) {
+        setShowFeedback(true)
+        setTimeout(() => {
+          setShowFeedback(false)
+          setInput('')
+          onAnswer(input)
+        }, 2000)
+      } else {
+        onAnswer(input)
+      }
+    }
   }
 
   return (
@@ -776,14 +846,20 @@ function ErrorCorrectionQuestion({ question, onAnswer }) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className={styles.writingInput}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите исправленное предложение"
           autoFocus
+          disabled={showFeedback}
         />
-        <button type="submit" className={styles.submitBtn}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
           Ответить
         </button>
       </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }
@@ -1013,10 +1089,23 @@ function ContextQuestion({ question, onAnswer }) {
 
 function WordFormationQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onAnswer(input)
+    if (input.trim()) {
+      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      if (!isCorrect) {
+        setShowFeedback(true)
+        setTimeout(() => {
+          setShowFeedback(false)
+          setInput('')
+          onAnswer(input)
+        }, 2000)
+      } else {
+        onAnswer(input)
+      }
+    }
   }
 
   return (
@@ -1030,14 +1119,20 @@ function WordFormationQuestion({ question, onAnswer }) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className={styles.writingInput}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите образованное слово"
           autoFocus
+          disabled={showFeedback}
         />
-        <button type="submit" className={styles.submitBtn}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
           Ответить
         </button>
       </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }
@@ -1234,10 +1329,23 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
 
 function TranslationQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onAnswer(input)
+    if (input.trim()) {
+      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      if (!isCorrect) {
+        setShowFeedback(true)
+        setTimeout(() => {
+          setShowFeedback(false)
+          setInput('')
+          onAnswer(input)
+        }, 2000)
+      } else {
+        onAnswer(input)
+      }
+    }
   }
 
   return (
@@ -1248,14 +1356,20 @@ function TranslationQuestion({ question, onAnswer }) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className={styles.writingInput}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите перевод на испанском"
           autoFocus
+          disabled={showFeedback}
         />
-        <button type="submit" className={styles.submitBtn}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
           Ответить
         </button>
       </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }
