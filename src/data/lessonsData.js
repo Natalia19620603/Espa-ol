@@ -518,7 +518,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
-    title: 'Урок 2: Имя существительное. Артикль',
+    title: 'Урок 3: Имя существительное. Артикль',
     moduleId: 'module-1',
     grammar: {
       title: 'Имя существительное. Артикль',
@@ -683,6 +683,131 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - el agua (вода) — las aguas
 - el águila (орел) — las águilas
 - el aula (аудитория) — las aulas
+
+## Имя прилагательное (El adjetivo)
+
+### Согласование
+
+Испанские прилагательные согласуются в роде и числе с существительными, которые они определяют.
+
+### Группы прилагательных
+
+Испанские прилагательные делятся на две основные группы:
+
+#### 1. Прилагательные двух окончаний
+
+Эти прилагательные имеют окончание **-о** в форме мужского рода единственного числа и окончание **-а** в форме женского рода единственного числа.
+
+| Мужской род | Женский род | Перевод |
+|-------------|-------------|---------|
+| blanco | blanca | белый / белая |
+| negro | negra | черный / черная |
+
+**Исключение:** Прилагательные, обозначающие национальность/происхождение, также имеют две формы, даже если оканчиваются на согласную:
+
+| Мужской род | Женский род | Пример |
+|-------------|-------------|--------|
+| un amigo español | una amiga española | испанский друг / испанская подруга |
+| un estudiante alemán | una estudiante alemana | немецкий студент / немецкая студентка |
+
+**Примеры прилагательных двух окончаний:**
+
+| Испанский | Русский |
+|-----------|---------|
+| bueno | хороший |
+| nuevo | новый |
+| enfermo | больной |
+| largo | длинный |
+| bonito / guapo | красивый |
+| contento | довольный |
+| barato | дешевый |
+| soltero | холостой |
+
+#### 2. Прилагательные одного окончания
+
+Прилагательные, оканчивающиеся в единственном числе на другую гласную (кроме **-о**) или на согласную, имеют одинаковую форму как в женском, так и в мужском роде.
+
+| Прилагательное | Мужской род (Пример) | Женский род (Пример) |
+|----------------|---------------------|---------------------|
+| azul | un lápiz azul (синий карандаш) | una flor azul (синий цветок) |
+| verde | un coche verde (зеленый автомобиль) | una casa verde (зеленый дом) |
+| feliz | un hombre feliz | una mujer feliz |
+
+**Примеры прилагательных одного окончания:**
+
+| Испанский | Русский |
+|-----------|---------|
+| grande | большой |
+| joven | молодой |
+| regular | обычный |
+| caliente | горячий |
+| difícil | трудный |
+| interesante | интересный |
+| feliz | счастливый |
+| alegre | веселый |
+
+### Позиция прилагательного
+
+В отличие от русского языка, испанские прилагательные, как правило, ставятся **после** определяемого существительного:
+
+- un libro interesante (интересная книга)
+- una casa blanca (белый дом)
+
+#### Прилагательные, меняющие позицию
+
+Качественные прилагательные **bueno** (хороший), **malo** (плохой), **grande** (большой, в значении «великий») иногда могут стоять перед определяемым словом.
+
+### Усеченные формы (Apócope)
+
+#### Grande → Gran
+
+Прилагательное **grande** имеет усеченную форму **gran** перед существительными как мужского, так и женского рода:
+
+- una gran idea (великая идея)
+- un gran desafío (великий вызов)
+
+#### Bueno/Malo → Buen/Mal
+
+Прилагательные **bueno** и **malo** имеют усеченные формы **buen** и **mal** только перед существительными мужского рода единственного числа:
+
+| Полная форма (После сущ.) | Усеченная форма (Перед сущ.) | Сравнение значений |
+|---------------------------|-----------------------------|--------------------|
+| un hombre bueno (хороший человек) | un buen hombre (добрый человек) | Часто меняется от физического качества к моральному. |
+| un hombre malo (плохой человек) | un mal hombre (злой человек) | |
+
+### Образование множественного числа
+
+Прилагательные, оканчивающиеся на **гласную**, образуют множественное число с помощью окончания **-s**:
+
+- blanco → blancos
+- española → españolas
+- verde → verdes
+
+Прилагательные, оканчивающиеся на **согласную**, образуют множественное число с помощью окончания **-es**:
+
+- azul → azules
+- español → españoles
+- regular → regulares
+
+### Прилагательные-антонимы
+
+| Антонимы (Испанский) | Антонимы (Русский) |
+|----------------------|--------------------|
+| bueno / malo | хороший / плохой |
+| guapo / feo | красивый / некрасивый |
+| gordo / delgado | толстый / стройный |
+| largo / corto | длинный / короткий |
+| joven / viejo | молодой / старый |
+| regular / raro | обычный / странный |
+| nuevo / viejo / antiguo | новый / старый |
+| grande / pequeño | большой / маленький |
+| caro / barato | дорогой / дешевый |
+| caliente / frío | горячий / холодный |
+| casado / soltero | женатый / холостой |
+| alegre / triste | веселый / грустный |
+| alto / bajo | высокий / невысокий |
+| difícil / fácil | трудный / легкий |
+| rico / pobre | богатый / бедный |
       `,
       examples: []
     },
@@ -878,9 +1003,44 @@ Por la noche, Carlos está en casa. La casa es cómoda. Carlos lee un libro con 
     grammar: {
       title: 'Профессии, страны и национальности',
       content: `
-# Профессии, Страны и Национальности
-
 В этом уроке мы изучаем, как говорить о профессиях, странах и национальностях на испанском языке. Все новые слова вы найдете в разделе "Словарь".
+
+## Род и число профессий
+
+**Профессии мужского рода обычно оканчиваются на -o:**
+- médico (врач-мужчина) → médica (врач-женщина)
+- abogado (адвокат-мужчина) → abogada (адвокат-женщина)
+- ingeniero (инженер-мужчина) → ingeniera (инженер-женщина)
+
+**Профессии на -e или -ista имеют одинаковую форму для обоих родов:**
+- el/la estudiante (студент/студентка)
+- el/la periodista (журналист/журналистка)
+- el/la cantante (певец/певица)
+
+**Некоторые профессии имеют особые формы женского рода:**
+- actor (актер) → actriz (актриса)
+- escritor (писатель) → escritora (писательница)
+- profesor (преподаватель) → profesora (преподавательница)
+
+## Национальности: род и согласование
+
+**Национальности на -o/-a:**
+- ruso (русский) → rusa (русская)
+- italiano (итальянец) → italiana (итальянка)
+
+**Национальности на согласную добавляют -a для женского рода:**
+- español (испанец) → española (испанка)
+- francés (француз) → francesa (француженка)
+- alemán (немец) → alemana (немка)
+
+**Национальности на -e или -í не изменяются:**
+- belga (бельгиец/бельгийка)
+- marroquí (марокканец/марокканка)
+
+**Множественное число:**
+- españoles (испанцы), españolas (испанки)
+- franceses (французы), francesas (француженки)
+- alemanes (немцы), alemanas (немки)
 
 ## Использование с глаголами SER и ESTAR
 
@@ -4389,7 +4549,14 @@ export const exercises = {
       { spanish: '¿Qué tal?', options: ['как дела?', 'как семья?', 'большое спасибо', 'так себе'], correct: 0 },
       { spanish: 'Todo va bien.', options: ['так себе', 'все хорошо', 'как жизнь?', 'пожалуйста'], correct: 1 },
       { spanish: 'Muchas gracias.', options: ['пожалуйста', 'так себе', 'большое спасибо', 'как дела?'], correct: 2 },
-      { spanish: 'Regular.', options: ['все хорошо', 'спасибо', 'так себе', 'как дела?'], correct: 2 }
+      { spanish: 'Regular.', options: ['все хорошо', 'спасибо', 'так себе', 'как дела?'], correct: 2 },
+      { spanish: 'Buenos días', options: ['доброе утро', 'добрый вечер', 'спокойной ночи', 'привет'], correct: 0 },
+      { spanish: 'Buenas tardes', options: ['доброе утро', 'добрый день', 'спокойной ночи', 'пока'], correct: 1 },
+      { spanish: 'Buenas noches', options: ['доброе утро', 'добрый день', 'добрый вечер/спокойной ночи', 'привет'], correct: 2 },
+      { spanish: '¿Cómo estás?', options: ['как дела?', 'что нового?', 'как семья?', 'пока'], correct: 0 },
+      { spanish: 'De nada', options: ['спасибо', 'пожалуйста', 'не за что', 'извините'], correct: 2 },
+      { spanish: 'Perdón', options: ['привет', 'пока', 'извините', 'спасибо'], correct: 2 },
+      { spanish: '¿Qué tal la familia?', options: ['как дела?', 'как семья?', 'что нового?', 'все хорошо'], correct: 1 }
     ]
   },
   'ex-1-1-2': {
@@ -4402,7 +4569,17 @@ export const exercises = {
       { word: 'hijo', options: ['[хийо]', '[ихо]', '[гихо]', '[сихо]'], correct: 1 },
       { word: 'señor', options: ['[сенор]', '[сеньор]', '[синор]', '[шеньор]'], correct: 1 },
       { word: 'gracias', options: ['[грасиас]', '[грациас]', '[грашиас]', '[граθиас]'], correct: 3 },
-      { word: 'familia', options: ['[фамилия]', '[фамилиа]', '[вамилиа]', '[фамиља]'], correct: 1 }
+      { word: 'familia', options: ['[фамилия]', '[фамилиа]', '[вамилиа]', '[фамиља]'], correct: 1 },
+      { word: 'español', options: ['[эспанол]', '[испаньол]', '[эспаньол]', '[испанол]'], correct: 2 },
+      { word: 'buenos días', options: ['[буенос диас]', '[бвенос диас]', '[буэнос диас]', '[бьенос диас]'], correct: 2 },
+      { word: 'llama', options: ['[лама]', '[льяма]', '[јама]', '[ляма]'], correct: 2 },
+      { word: 'mujer', options: ['[мухер]', '[мужер]', '[муер]', '[мучер]'], correct: 0 },
+      { word: 'cerveza', options: ['[сервеса]', '[θервеθа]', '[сервеза]', '[кервеза]'], correct: 1 },
+      { word: 'ciudad', options: ['[сиудад]', '[θиудад]', '[киудад]', '[θьюдад]'], correct: 1 },
+      { word: 'quiero', options: ['[куиеро]', '[квиеро]', '[киеро]', '[кьеро]'], correct: 2 },
+      { word: 'hablar', options: ['[хаблар]', '[аблар]', '[габлар]', '[хабляр]'], correct: 1 },
+      { word: 'rojo', options: ['[рохо]', '[рожо]', '[рохё]', '[рро-хо]'], correct: 0 },
+      { word: 'adiós', options: ['[адиос]', '[адиос]', '[адьос]', '[адьёс]'], correct: 0 }
     ]
   },
   'ex-1-1-3': {
@@ -4414,9 +4591,16 @@ export const exercises = {
 Pedro: ¡Hola! Buenos días. ¿Qué tal?
 Ana: Bien, gracias. ¿Y tú?
 Pedro: Todo va bien. ¿Qué tal la familia?
-Ana: Más o menos bien, gracias.
-Pedro: Me alegro. Muchas gracias por preguntar.
-Ana: De nada.
+Ana: Más o menos bien, gracias. Mi madre está enferma, pero no es grave.
+Pedro: Lo siento mucho. Me alegro de que no sea grave.
+Ana: Gracias por preguntar. ¿Y tu familia?
+Pedro: Todos están bien, gracias. Mi hermano vive en Madrid ahora.
+Ana: ¡Qué bien! ¿Le gusta Madrid?
+Pedro: Sí, le encanta. Trabaja en una empresa española.
+Ana: Perfecto. Bueno, tengo que irme.
+Pedro: Claro. ¡Hasta luego!
+Ana: ¡Adiós! Que tengas un buen día.
+Pedro: Igualmente. Muchas gracias.
     `,
     questions: [
       {
@@ -4432,6 +4616,66 @@ Ana: De nada.
       {
         question: 'Как дела у семьи Аны?',
         options: ['Очень хорошо', 'Более или менее хорошо', 'Плохо', 'Отлично'],
+        correct: 1
+      },
+      {
+        question: 'Кто болен?',
+        options: ['Мать Аны', 'Отец Педро', 'Брат Педро', 'Ана'],
+        correct: 0
+      },
+      {
+        question: 'Насколько серьезна болезнь?',
+        options: ['Очень серьезно', 'Не серьезно', 'Критически', 'Неизвестно'],
+        correct: 1
+      },
+      {
+        question: 'Где сейчас живет брат Педро?',
+        options: ['В Барселоне', 'В Мадриде', 'В Валенсии', 'В Севилье'],
+        correct: 1
+      },
+      {
+        question: 'Как брат Педро относится к Мадриду?',
+        options: ['Не нравится', 'Так себе', 'Нравится', 'Очень нравится'],
+        correct: 3
+      },
+      {
+        question: 'Где работает брат Педро?',
+        options: ['В русской компании', 'В испанской компании', 'В банке', 'В школе'],
+        correct: 1
+      },
+      {
+        question: 'Кто должен уйти?',
+        options: ['Педро', 'Ана', 'Оба', 'Никто'],
+        correct: 1
+      },
+      {
+        question: 'Как Педро прощается?',
+        options: ['Adiós', 'Hasta luego', 'Buenos días', 'Buenas noches'],
+        correct: 1
+      },
+      {
+        question: 'Что Ана желает Педро?',
+        options: ['Спокойной ночи', 'Хорошего дня', 'Удачи', 'Ничего не желает'],
+        correct: 1
+      },
+      {
+        question: 'Что отвечает Педро на пожелание Аны?',
+        options: ['De nada', 'Gracias', 'Igualmente', 'Perdón'],
+        correct: 2
+      },
+      {
+        question: 'Сколько раз упоминается слово "gracias" в диалоге?',
+        options: ['Один раз', 'Два раза', 'Три раза', 'Четыре раза'],
+        correct: 3
+      },
+      {
+        question: 'Кто первым спрашивает о семье?',
+        options: ['Ана', 'Педро', 'Никто', 'Оба одновременно'],
+        correct: 1
+      },
+      {
+        question: 'Какое общее настроение диалога?',
+        options: ['Грустное', 'Дружелюбное', 'Формальное', 'Напряженное'],
         correct: 1
       }
     ]
@@ -4449,7 +4693,14 @@ Ana: De nada.
       { russian: 'Как дела?', correct: '¿qué tal?' },
       { russian: 'Все хорошо', correct: 'todo va bien' },
       { russian: 'Большое спасибо', correct: 'muchas gracias' },
-      { russian: 'Так себе', correct: 'regular' }
+      { russian: 'Так себе', correct: 'regular' },
+      { russian: 'Доброе утро', correct: 'buenos días' },
+      { russian: 'Добрый день', correct: 'buenas tardes' },
+      { russian: 'Добрый вечер', correct: 'buenas noches' },
+      { russian: 'Как семья?', correct: '¿qué tal la familia?' },
+      { russian: 'Не за что', correct: 'de nada' },
+      { russian: 'Извините', correct: 'perdón' },
+      { russian: 'До скорого', correct: 'hasta luego' }
     ]
   },
 
@@ -6343,7 +6594,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { word: 'hola', options: ['adiós', 'buenos días', 'no', 'nada'], correct: 1 },
       { word: 'gracias', options: ['por favor', 'de nada', 'muchas gracias', 'perdón'], correct: 2 },
       { word: '¿Cómo estás?', options: ['¿Qué tal?', 'Regular', 'Bien', 'Adiós'], correct: 0 },
-      { word: 'Así así', options: ['Todo va bien', 'Regular', 'Muchas gracias', 'Hola'], correct: 1 }
+      { word: 'Así así', options: ['Todo va bien', 'Regular', 'Muchas gracias', 'Hola'], correct: 1 },
+      { word: 'De nada', options: ['No hay de qué', 'Por favor', 'Hola', 'Adiós'], correct: 0 },
+      { word: 'Buenos días', options: ['Buenas tardes', 'Hola', 'Adiós', 'Gracias'], correct: 1 },
+      { word: 'Adiós', options: ['Hola', 'Hasta luego', 'Buenos días', 'Gracias'], correct: 1 },
+      { word: '¿Qué tal?', options: ['¿Cómo estás?', 'Bien', 'Gracias', 'Adiós'], correct: 0 },
+      { word: 'Todo va bien', options: ['Regular', 'Bien', 'Mal', 'Hola'], correct: 1 },
+      { word: 'Por favor', options: ['Gracias', 'De nada', 'Por favor de verdad', 'Hola'], correct: 2 },
+      { word: 'Hasta luego', options: ['Hola', 'Hasta pronto', 'Buenos días', 'Gracias'], correct: 1 },
+      { word: 'Buenas noches', options: ['Buenos días', 'Buenas tardes', 'Hola de noche', 'Por favor'], correct: 2 },
+      { word: 'Perdón', options: ['Gracias', 'Disculpa', 'Hola', 'Adiós'], correct: 1 },
+      { word: 'Muchas gracias', options: ['Por favor', 'Muchísimas gracias', 'Hola', 'Adiós'], correct: 1 },
+      { word: 'Bien', options: ['Mal', 'Regular', 'Todo va bien', 'Adiós'], correct: 2 }
     ]
   },
 
@@ -6357,7 +6619,17 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 },
       { sentence: 'Mi amigo pregunta "¿Cómo estás?". No estoy muy bien. Digo: ___', options: ['Todo va bien', 'Regular', 'Bien, gracias', 'Buenos días'], correct: 1 },
       { sentence: 'Pregunto por la familia de mi amigo: ___', options: ['¿Qué tal la familia?', '¿Qué tal?', 'Muchas gracias', 'De nada'], correct: 0 },
-      { sentence: 'Alguien me ayuda mucho. Digo: ___', options: ['Gracias', 'Muchas gracias', 'Por favor', 'Adiós'], correct: 1 }
+      { sentence: 'Alguien me ayuda mucho. Digo: ___', options: ['Gracias', 'Muchas gracias', 'Por favor', 'Adiós'], correct: 1 },
+      { sentence: 'Son las 3 de la tarde. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hasta luego'], correct: 1 },
+      { sentence: 'Son las 10 de la noche. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hola'], correct: 2 },
+      { sentence: 'Veo a mi amigo en la calle. Digo: ___', options: ['adiós', 'hola', 'gracias', 'perdón'], correct: 1 },
+      { sentence: 'Me voy de la oficina. Digo a mis compañeros: ___', options: ['hola', 'buenos días', 'hasta luego', 'por favor'], correct: 2 },
+      { sentence: 'Alguien me dice "Gracias". Yo respondo: ___', options: ['gracias', 'de nada', 'hola', 'adiós'], correct: 1 },
+      { sentence: 'Necesito ayuda. Digo: ___', options: ['gracias', 'adiós', 'por favor', 'buenos días'], correct: 2 },
+      { sentence: 'Piso el pie de alguien sin querer. Digo: ___', options: ['hola', 'perdón', 'gracias', 'adiós'], correct: 1 },
+      { sentence: 'Mi amigo pregunta "¿Qué tal?". Estoy muy bien. Digo: ___', options: ['regular', 'mal', 'todo va bien', 'adiós'], correct: 2 },
+      { sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hasta mañana', 'buenos días', 'hola'], correct: 1 },
+      { sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'así así', 'mal', 'adiós'], correct: 1 }
     ]
   },
 
