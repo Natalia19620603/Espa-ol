@@ -1109,44 +1109,15 @@ Estar используется для обозначения временных 
     ],
     readingText: {
       title: 'Palabras y frases',
-      content: `**Saludos y expresiones**
-¡Hola! Buenos días. Buenas tardes. Buenas noches.
-Gracias. Muchas gracias. De nada. Por favor.
-Adiós. Mucho gusto. Encantado. Encantada.
+      content: `Hola. Yo soy Ana y soy chica. Ella es mi amiga María. María es joven y guapa. El libro es grande y azul. La casa es blanca. El padre es alto y bueno.
 
-**La familia**
-El padre. La madre. El hermano. La hermana.
-Mi padre. Mi madre. Tu hermano. Tu hermana.
-Un chico joven. Una chica joven.
-El hombre alto. La mujer alta.
-Un amigo bueno. Una amiga buena.
 
-**Descripciones**
-El libro grande. La casa grande.
-Un día bonito. Una ciudad bonita.
-El museo interesante. La playa bonita.
-Un café caliente. Una noche fría.
-El sol blanco. La luz blanca.
-Un coche caro. Una flor cara.
 
-**Lugares**
-La casa. El museo. La playa. La ciudad.
-La calle larga. El día largo.
-En casa. En el museo. En la playa. En la ciudad.
+Buenos días, ¿Cómo estás? Yo estoy bien, gracias. Ahora estoy en la playa. El sol es caliente. Un chico está en el coche. Su coche es nuevo y barato. Mi hermana es alumna. Ella está contenta. La ciudad es grande, pero mi casa es pequeña.
 
-**Cualidades y estados**
-Feliz. Contento. Alegre. Triste.
-Enfermo. Joven. Viejo. Alto. Bajo.
-Guapo. Bonito. Feo. Bueno. Malo.
-Nuevo. Antiguo. Grande. Pequeño.
-Gordo. Delgado. Rico. Pobre.
 
-**Objetos y cosas**
-El libro nuevo. La casa nueva.
-Un lápiz pequeño. Una mano pequeña.
-El coche verde. La flor azul.
-Un avión grande. Una estación grande.
-El dinero. El amor. La felicidad. La salud.`,
+
+El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él está en casa. Un libro interesante está en la mesa. Nosotros somos clientes ricos, pero estamos enfermos. La flor es bonita y verde. ¿Dónde están los aviones? Los aviones son grandes. Tú eres economista. Tu trabajo es difícil, pero es interesante.`,
       translation: `**Приветствия и выражения**
 Привет! Доброе утро. Добрый день. Добрый вечер/Спокойной ночи.
 Спасибо. Большое спасибо. Пожалуйста (ответ). Пожалуйста (просьба).
