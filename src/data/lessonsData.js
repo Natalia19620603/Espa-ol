@@ -1388,7 +1388,7 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
     title: 'Урок 1: Предлоги и числительные',
     moduleId: 'module-2',
     grammar: {
-      title: 'Простые предлоги. Количественные числительные. Спряжение правильных глаголов в настоящем времени изъявительного наклонения',
+      title: 'Простые предлоги.Числительные. Правильные глаголы',
       content: `
 # 1. Простые предлоги
 
@@ -1658,7 +1658,30 @@ tomar el sol — загорать
       { word: 'país', translation: 'страна (m)', audioUrl: null },
       { word: 'pan', translation: 'хлеб (m)', audioUrl: null },
       { word: 'casa', translation: 'дом (f)', audioUrl: null },
-      { word: 'noche', translation: 'ночь (f)', audioUrl: null }
+      { word: 'noche', translation: 'ночь (f)', audioUrl: null },
+      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
+      { word: 'venir', translation: 'приходить', audioUrl: null },
+      { word: 'salir', translation: 'выходить', audioUrl: null },
+      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
+      { word: 'dar', translation: 'давать', audioUrl: null },
+      { word: 'ver', translation: 'видеть', audioUrl: null },
+      { word: 'estar', translation: 'находиться, быть (временное состояние)', audioUrl: null },
+      { word: 'problema', translation: 'проблема (m)', audioUrl: null },
+      { word: 'teléfono', translation: 'телефон (m)', audioUrl: null },
+      { word: 'tiempo', translation: 'время (m), погода', audioUrl: null },
+      { word: 'palabra', translation: 'слово (f)', audioUrl: null },
+      { word: 'mensaje', translation: 'сообщение (m)', audioUrl: null },
+      { word: 'carta', translation: 'письмо (f)', audioUrl: null },
+      { word: 'periódico', translation: 'газета (m)', audioUrl: null },
+      { word: 'zumo', translation: 'сок (m)', audioUrl: null },
+      { word: 'naranja', translation: 'апельсин (f)', audioUrl: null },
+      { word: 'fruta', translation: 'фрукт (f)', audioUrl: null },
+      { word: 'café', translation: 'кофе (m)', audioUrl: null },
+      { word: 'vender', translation: 'продавать', audioUrl: null },
+      { word: 'responder', translation: 'отвечать', audioUrl: null },
+      { word: 'correr', translation: 'бегать', audioUrl: null },
+      { word: 'subir', translation: 'подниматься', audioUrl: null },
+      { word: 'partir', translation: 'уезжать', audioUrl: null }
     ],
     readingText: {
       title: 'Diálogos en la ciudad',
