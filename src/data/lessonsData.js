@@ -518,7 +518,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
-    title: 'Урок 3: Имя существительное. Артикль',
+    title: 'Урок 2: Имя существительное. Артикль. Прилагательное',
     moduleId: 'module-1',
     grammar: {
       title: 'Имя существительное. Артикль',
@@ -1188,7 +1188,7 @@ El dinero. El amor. La felicidad. La salud.`,
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
-    title: 'Урок 2: Профессии и национальности',
+    title: 'Урок 4: Профессии и национальности',
     moduleId: 'module-1',
     grammar: {
       title: 'Профессии, страны и национальности',
