@@ -1728,180 +1728,124 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
   },
   'lesson-2-2': {
     id: 'lesson-2-2',
-    title: 'Урок 2: Глаголы IR, TENER, OÍR',
+    title: 'Урок 2: Правильные глаголы в настоящем времени',
     moduleId: 'module-2',
     grammar: {
-      title: 'Неправильные глаголы: IR, TENER, OÍR (Presente de Indicativo)',
+      title: 'Правильные глаголы -ER и -IR в настоящем времени',
       content: `
-# Неправильные глаголы: IR, TENER, OÍR (Presente de Indicativo)
+# Правильные глаголы -ER и -IR в настоящем времени
 
-Глаголы IR (идти, ехать), TENER (иметь) и OÍR (слышать) являются неправильными. Необходимо запомнить их формы спряжения в настоящем времени изъявительного наклонения (Presente de Indicativo).
+В испанском языке глаголы делятся на три группы в зависимости от окончания инфинитива: -AR, -ER, -IR. В этом уроке изучаем спряжение правильных глаголов на -ER и -IR.
 
-## 1. Глагол IR (идти, ехать)
+## 1. Глаголы на -ER (например: COMER - есть)
 
-| Местоимение | Форма | Перевод |
-|-------------|-------|---------|
-| yo | voy | Я иду / еду |
-| tú | vas | Ты идешь / едешь |
-| él, ella, usted | va | Он / она идет / едет, Вы идете / едете |
-| nosotros (-as) | vamos | Мы идем / едем |
-| vosotros (-as) | vais | Вы (мн.ч.) идете / едете |
-| ellos, ellas, ustedes | van | Они идут / едут, Вы (вежл.) идете / едете |
+Чтобы проспрягать правильный глагол на -ER, нужно убрать окончание -ER и добавить соответствующее личное окончание:
 
-### Употребление и примеры:
+| Местоимение | Окончание | COMER | Перевод |
+|-------------|-----------|-------|---------|
+| yo | -o | como | я ем |
+| tú | -es | comes | ты ешь |
+| él, ella, usted | -e | come | он/она ест, Вы едите |
+| nosotros (-as) | -emos | comemos | мы едим |
+| vosotros (-as) | -éis | coméis | вы едите |
+| ellos, ellas, ustedes | -en | comen | они едят, Вы (вежл.) едите |
 
-**1. Направление (ir a + место):**
+### Примеры глаголов на -ER:
 
-- Voy a la calle larga. (Я иду на длинную улицу.)
-- Mi hermana va al museo a pie. (Моя сестра идет в музей пешком.)
+- **BEBER** (пить): bebo, bebes, bebe, bebemos, bebéis, beben
+- **LEER** (читать): leo, lees, lee, leemos, leéis, leen
+- **APRENDER** (учить, изучать): aprendo, aprendes, aprende, aprendemos, aprendéis, aprenden
+- **VENDER** (продавать): vendo, vendes, vende, vendemos, vendéis, venden
+- **RESPONDER** (отвечать): respondo, respondes, responde, respondemos, respondéis, responden
+- **CORRER** (бежать): corro, corres, corre, corremos, corréis, corren
 
-*Внимание: a + el = al*
+### Примеры предложений с глаголами на -ER:
 
-**2. Способ передвижения (ir en + транспорт / ir a pie):**
+- Yo **como** pasta todos los días. (Я ем пасту каждый день.)
+- Tú **bebes** agua. (Ты пьешь воду.)
+- Ella **lee** libros en español. (Она читает книги на испанском.)
+- Nosotros **aprendemos** español. (Мы учим испанский.)
+- Vosotros **vendéis** frutas. (Вы продаете фрукты.)
+- Ellos **corren** en el parque. (Они бегают в парке.)
 
-- Nosotros vamos en tren a la ciudad. (Мы едем на поезде в город.)
-- ¿Vosotros vais en avión? (Вы летите на самолете?)
-- Ellos van a pie a casa. (Они идут домой пешком.)
+## 2. Глаголы на -IR (например: VIVIR - жить)
 
-**3. Цель передвижения (ir de + цель):**
+Чтобы проспрягать правильный глагол на -IR, нужно убрать окончание -IR и добавить соответствующее личное окончание:
 
-- Los amigos van de vacaciones a la playa. (Друзья едут в отпуск на пляж.)
-- Yo voy de compras en coche. (Я еду за покупками на машине.)
+| Местоимение | Окончание | VIVIR | Перевод |
+|-------------|-----------|-------|---------|
+| yo | -o | vivo | я живу |
+| tú | -es | vives | ты живешь |
+| él, ella, usted | -e | vive | он/она живет, Вы живете |
+| nosotros (-as) | -imos | vivimos | мы живем |
+| vosotros (-as) | -ís | vivís | вы живете |
+| ellos, ellas, ustedes | -en | viven | они живут, Вы (вежл.) живете |
 
-**4. Ближайшее будущее / Намерение (ir a + инфинитив):**
+### Примеры глаголов на -IR:
 
-- ¿Qué vas a comer? (Что ты собираешься есть?)
-- Ellas van a escribir un libro interesante. (Они собираются написать интересную книгу.)
+- **ESCRIBIR** (писать): escribo, escribes, escribe, escribimos, escribís, escriben
+- **ABRIR** (открывать): abro, abres, abre, abrimos, abrís, abren
+- **RECIBIR** (получать): recibo, recibes, recibe, recibimos, recibís, reciben
+- **SUBIR** (подниматься): subo, subes, sube, subimos, subís, suben
+- **PARTIR** (уходить, отправляться): parto, partes, parte, partimos, partís, parten
 
-## 2. Глагол TENER (иметь)
+### Примеры предложений с глаголами на -IR:
 
-| Местоимение | Форма | Перевод |
-|-------------|-------|---------|
-| yo | tengo | Я имею |
-| tú | tienes | Ты имеешь |
-| él, ella, usted | tiene | Он / она имеет, Вы имеете |
-| nosotros (-as) | tenemos | Мы имеем |
-| vosotros (-as) | tenéis | Вы (мн.ч.) имеете |
-| ellos, ellas, ustedes | tienen | Они имеют, Вы (вежл.) имеете |
+- Yo **vivo** en Madrid. (Я живу в Мадриде.)
+- Tú **escribes** cartas. (Ты пишешь письма.)
+- Él **abre** la puerta. (Он открывает дверь.)
+- Nosotros **recibimos** mensajes. (Мы получаем сообщения.)
+- Vosotros **subís** las escaleras. (Вы поднимаетесь по лестнице.)
+- Ellas **viven** en España. (Они живут в Испании.)
 
-### Употребление и примеры:
+## Сходства и различия глаголов -ER и -IR
 
-Глагол TENER используется для обозначения обладания и возраста, а также для выражения физических состояний (tener hambre, tener frío, etc.).
+**Сходства:**
+- Окончания для yo, tú, él/ella/usted, ellos/ellas/ustedes **одинаковые**: -o, -es, -e, -en
 
-- Yo tengo una casa grande. (У меня большой дом.)
-- Mi hermano tiene treinta años. (Моему брату тридцать лет.)
-- Nosotros tenemos frío en la noche. (Нам холодно ночью.)
-- ¿Usted tiene el libro azul? (У Вас есть синяя книга?)
-
-### Правила употребления артикля с TENER (Possesión)
-
-В предложениях с глаголом tener и исчисляемыми существительными применяются особые правила употребления артикля:
-
-- **Единственное число (утверждение):** Используется неопределенный артикль un/una.
-- **Множественное число (утверждение):** Артикль не употребляется (нулевой артикль: Ø).
-- **Отрицание (ед. и мн. число):** Артикль не употребляется (нулевой артикль: Ø).
-
-| Контекст | Пример (исп.) | Перевод (рус.) |
-|----------|---------------|----------------|
-| Утверждение (ед.ч.) | Tengo un coche nuevo. | У меня есть новая машина. |
-| Утверждение (мн.ч.) | Tenemos Ø libros interesantes. | У нас есть интересные книги. |
-| Отрицание (ед.ч.) | No tienes Ø hermana. | У тебя нет сестры. |
-| Отрицание (мн.ч.) | No tienen Ø sillas en casa. | У них нет стульев дома. |
-
-### Устойчивые выражения с глаголом TENER
-
-| Выражение | Значение | Пример | Перевод |
-|-----------|----------|--------|---------|
-| tener... años | иметь... лет | Mis padres tienen cincuenta años. | Моим родителям пятьдесят лет. |
-| tener familia / dinero | иметь семью / деньги | La secretaria tiene mucho dinero. | У секретарши много денег. |
-| tener calor / frío | страдать от жары / мерзнуть | ¡Tengo mucho frío ahora! | Мне сейчас очень холодно! |
-| tener hambre / sed | быть голодным / испытывать жажду | ¿Tenéis hambre después de leer? | Вы голодны после чтения? |
-| tener sueño | хотеть спать | Los niños tienen sueño en la noche. | Дети хотят спать ночью. |
-| tener miedo | бояться (испытывать страх) | Tenemos miedo al perro grande. | Мы боимся большой собаки. |
-| tener razón | быть правым | Yo siempre tengo razón. | Я всегда прав. |
-| tener suerte | быть удачливым | ¡Usted tiene mucha suerte! | Вам очень везет! |
-| tener prisa / tiempo | торопиться / иметь время | Ella tiene prisa y no tiene tiempo. | Она торопится, и у нее нет времени. |
-
-### Конструкция ближайшего будущего / Долженствования:
-
-Конструкция **Tener que + инфинитив** имеет значение *быть должным сделать что-либо*, или необходимость.
-
-- Tú tienes que tomar la medicina ahora. (Ты должен принять лекарство сейчас.)
-- Tenemos que ir al museo en taxi. (Мы должны поехать в музей на такси.)
-- Los estudiantes tienen que aprender muchas palabras. (Студенты должны выучить много слов.)
-
-## 3. Глагол OÍR (слышать)
-
-| Местоимение | Форма | Перевод |
-|-------------|-------|---------|
-| yo | oigo | Я слышу |
-| tú | oyes | Ты слышишь |
-| él, ella, usted | oye | Он / она слышит, Вы слышите |
-| nosotros (-as) | oímos | Мы слышим |
-| vosotros (-as) | oís | Вы (мн.ч.) слышите |
-| ellos, ellas, ustedes | oyen | Они слышат, Вы (вежл.) слышите |
-
-### Употребление и примеры:
-
-- Yo no oigo la radio porque hablo contigo. (Я не слышу радио, потому что говорю с тобой.)
-- El policía oye un problema en la calle. (Полицейский слышит проблему на улице.)
-- ¿Vosotros oís a la señora feliz? (Вы слышите счастливую сеньору?)
-- Ellos oyen muchas noticias. (Они слышат много новостей.)
+**Различия:**
+- Окончания для nosotros и vosotros **разные**:
+  - -ER: -emos, -éis
+  - -IR: -imos, -ís
       `,
       examples: [
-        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
-        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
-        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
+        { spanish: 'Yo como pasta', translation: 'Я ем пасту' },
+        { spanish: 'Tú bebes agua', translation: 'Ты пьешь воду' },
+        { spanish: 'Ella lee libros', translation: 'Она читает книги' },
+        { spanish: 'Nosotros vivimos en Madrid', translation: 'Мы живем в Мадриде' },
+        { spanish: 'Ellos escriben cartas', translation: 'Они пишут письма' }
       ]
     },
     vocabulary: [
-      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
-      { word: 'tener', translation: 'иметь', audioUrl: null },
-      { word: 'oír', translation: 'слышать', audioUrl: null },
-      { word: 'voy', translation: 'я иду/еду', audioUrl: null },
-      { word: 'vas', translation: 'ты идешь/едешь', audioUrl: null },
-      { word: 'va', translation: 'он/она идет/едет', audioUrl: null },
-      { word: 'vamos', translation: 'мы идем/едем', audioUrl: null },
-      { word: 'vais', translation: 'вы идете/едете', audioUrl: null },
-      { word: 'van', translation: 'они идут/едут', audioUrl: null },
-      { word: 'tengo', translation: 'я имею', audioUrl: null },
-      { word: 'tienes', translation: 'ты имеешь', audioUrl: null },
-      { word: 'tiene', translation: 'он/она имеет', audioUrl: null },
-      { word: 'tenemos', translation: 'мы имеем', audioUrl: null },
-      { word: 'tenéis', translation: 'вы имеете', audioUrl: null },
-      { word: 'tienen', translation: 'они имеют', audioUrl: null },
-      { word: 'oigo', translation: 'я слышу', audioUrl: null },
-      { word: 'oyes', translation: 'ты слышишь', audioUrl: null },
-      { word: 'oye', translation: 'он/она слышит', audioUrl: null },
-      { word: 'oímos', translation: 'мы слышим', audioUrl: null },
-      { word: 'oís', translation: 'вы слышите', audioUrl: null },
-      { word: 'oyen', translation: 'они слышат', audioUrl: null },
-      { word: 'calle', translation: 'улица (f)', audioUrl: null },
-      { word: 'a pie', translation: 'пешком', audioUrl: null },
-      { word: 'ciudad', translation: 'город (f)', audioUrl: null },
-      { word: 'avión', translation: 'самолет (m)', audioUrl: null },
-      { word: 'vacaciones', translation: 'каникулы, отпуск (f pl)', audioUrl: null },
-      { word: 'compras', translation: 'покупки (f pl)', audioUrl: null },
-      { word: 'ir a', translation: 'идти в/на', audioUrl: null },
-      { word: 'ir en', translation: 'ехать на (транспорт)', audioUrl: null },
-      { word: 'ir de', translation: 'ехать с целью (де компрас, де вакасьонес)', audioUrl: null },
-      { word: 'ir a + infinitivo', translation: 'собираться что-то сделать', audioUrl: null },
-      { word: 'años', translation: 'лет, годы (m pl)', audioUrl: null },
-      { word: 'tener hambre', translation: 'быть голодным', audioUrl: null },
-      { word: 'tener sed', translation: 'испытывать жажду', audioUrl: null },
-      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
-      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
-      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
-      { word: 'tener miedo', translation: 'бояться', audioUrl: null },
-      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
-      { word: 'tener suerte', translation: 'везти, быть удачливым', audioUrl: null },
-      { word: 'tener prisa', translation: 'торопиться', audioUrl: null },
-      { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
-      { word: 'tener que + infinitivo', translation: 'быть должным что-то сделать', audioUrl: null },
-      { word: 'dinero', translation: 'деньги (m)', audioUrl: null },
-      { word: 'familia', translation: 'семья (f)', audioUrl: null },
-      { word: 'problema', translation: 'проблема (m)', audioUrl: null },
-      { word: 'noticias', translation: 'новости (f pl)', audioUrl: null }
+      { word: 'comer', translation: 'есть', audioUrl: null },
+      { word: 'beber', translation: 'пить', audioUrl: null },
+      { word: 'leer', translation: 'читать', audioUrl: null },
+      { word: 'aprender', translation: 'учить, изучать', audioUrl: null },
+      { word: 'vender', translation: 'продавать', audioUrl: null },
+      { word: 'responder', translation: 'отвечать', audioUrl: null },
+      { word: 'correr', translation: 'бежать, бегать', audioUrl: null },
+      { word: 'comprender', translation: 'понимать', audioUrl: null },
+      { word: 'vivir', translation: 'жить', audioUrl: null },
+      { word: 'escribir', translation: 'писать', audioUrl: null },
+      { word: 'abrir', translation: 'открывать', audioUrl: null },
+      { word: 'recibir', translation: 'получать', audioUrl: null },
+      { word: 'subir', translation: 'подниматься', audioUrl: null },
+      { word: 'partir', translation: 'уходить, отправляться', audioUrl: null },
+      { word: 'decidir', translation: 'решать', audioUrl: null },
+      { word: 'dividir', translation: 'делить', audioUrl: null },
+      { word: 'pasta', translation: 'паста, макароны (f)', audioUrl: null },
+      { word: 'agua', translation: 'вода (f)', audioUrl: null },
+      { word: 'libro', translation: 'книга (m)', audioUrl: null },
+      { word: 'carta', translation: 'письмо (f)', audioUrl: null },
+      { word: 'mensaje', translation: 'сообщение (m)', audioUrl: null },
+      { word: 'puerta', translation: 'дверь (f)', audioUrl: null },
+      { word: 'frutas', translation: 'фрукты (f pl)', audioUrl: null },
+      { word: 'escaleras', translation: 'лестница (f pl)', audioUrl: null },
+      { word: 'periódico', translation: 'газета (m)', audioUrl: null },
+      { word: 'email', translation: 'электронная почта (m)', audioUrl: null },
+      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+      { word: 'en español', translation: 'на испанском', audioUrl: null },
+      { word: 'en el parque', translation: 'в парке', audioUrl: null }
     ],
     readingText: {
       title: 'Mi día en Madrid',
@@ -1928,7 +1872,7 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
         { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
       ]
     },
-    exercises: ['ex-2-2-ir-1', 'ex-2-2-ir-2', 'ex-2-2-ir-3', 'ex-2-2-tener-1', 'ex-2-2-tener-2', 'ex-2-2-tener-3', 'ex-2-2-oir-1', 'ex-2-2-oir-2', 'ex-2-2-oir-3']
+    exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
