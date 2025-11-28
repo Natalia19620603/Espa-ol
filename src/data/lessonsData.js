@@ -5704,8 +5704,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-1-4-test': {
     id: 'ex-1-4-test',
     type: 'translation',
-    title: 'TEST - Обобщение',
-    description: '',
+    title: 'TEST',
+    description: 'ЗАМЕНИ',
     questions: [
       { russian: 'un amigo enfermo (Мн.ч.)', correct: 'unos amigos enfermos' },
       { russian: 'el libro antiguo (Мн.ч.)', correct: 'los libros antiguos' },
