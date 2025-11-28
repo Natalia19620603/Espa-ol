@@ -1575,11 +1575,35 @@ tomar el sol — загорать
       { word: 'del', translation: 'из (de + el)', audioUrl: null },
       { word: 'cero', translation: 'ноль', audioUrl: null },
       { word: 'uno', translation: 'один', audioUrl: null },
+      { word: 'dos', translation: 'два', audioUrl: null },
+      { word: 'tres', translation: 'три', audioUrl: null },
+      { word: 'cuatro', translation: 'четыре', audioUrl: null },
+      { word: 'cinco', translation: 'пять', audioUrl: null },
+      { word: 'seis', translation: 'шесть', audioUrl: null },
+      { word: 'siete', translation: 'семь', audioUrl: null },
+      { word: 'ocho', translation: 'восемь', audioUrl: null },
+      { word: 'nueve', translation: 'девять', audioUrl: null },
       { word: 'diez', translation: 'десять', audioUrl: null },
+      { word: 'once', translation: 'одиннадцать', audioUrl: null },
+      { word: 'doce', translation: 'двенадцать', audioUrl: null },
+      { word: 'trece', translation: 'тринадцать', audioUrl: null },
+      { word: 'catorce', translation: 'четырнадцать', audioUrl: null },
+      { word: 'quince', translation: 'пятнадцать', audioUrl: null },
+      { word: 'dieciséis', translation: 'шестнадцать', audioUrl: null },
+      { word: 'diecisiete', translation: 'семнадцать', audioUrl: null },
+      { word: 'dieciocho', translation: 'восемнадцать', audioUrl: null },
+      { word: 'diecinueve', translation: 'девятнадцать', audioUrl: null },
       { word: 'veinte', translation: 'двадцать', audioUrl: null },
+      { word: 'veintiuno', translation: 'двадцать один', audioUrl: null },
       { word: 'treinta', translation: 'тридцать', audioUrl: null },
+      { word: 'cuarenta', translation: 'сорок', audioUrl: null },
       { word: 'cincuenta', translation: 'пятьдесят', audioUrl: null },
+      { word: 'sesenta', translation: 'шестьдесят', audioUrl: null },
+      { word: 'setenta', translation: 'семьдесят', audioUrl: null },
+      { word: 'ochenta', translation: 'восемьдесят', audioUrl: null },
+      { word: 'noventa', translation: 'девяносто', audioUrl: null },
       { word: 'cien', translation: 'сто', audioUrl: null },
+      { word: 'ciento', translation: 'сто (перед другими числами)', audioUrl: null },
       { word: 'hablar', translation: 'говорить, разговаривать', audioUrl: null },
       { word: 'llamar', translation: 'звать, звонить', audioUrl: null },
       { word: 'preguntar', translation: 'спрашивать', audioUrl: null },
@@ -1589,9 +1613,11 @@ tomar el sol — загорать
       { word: 'aprender', translation: 'учить', audioUrl: null },
       { word: 'comprender', translation: 'понимать', audioUrl: null },
       { word: 'comer', translation: 'есть, кушать', audioUrl: null },
+      { word: 'beber', translation: 'пить', audioUrl: null },
       { word: 'abrir', translation: 'открывать', audioUrl: null },
       { word: 'escribir', translation: 'писать', audioUrl: null },
       { word: 'vivir', translation: 'жить', audioUrl: null },
+      { word: 'recibir', translation: 'получать', audioUrl: null },
       { word: 'agua', translation: 'вода (f)', audioUrl: null },
       { word: 'bocadillo', translation: 'бутерброд (m)', audioUrl: null },
       { word: 'metro', translation: 'метро (m)', audioUrl: null },
@@ -1600,7 +1626,39 @@ tomar el sol — загорать
       { word: 'taxi', translation: 'такси (m)', audioUrl: null },
       { word: 'medicinas', translation: 'лекарства (f pl)', audioUrl: null },
       { word: 'sol', translation: 'солнце (m)', audioUrl: null },
-      { word: 'libro', translation: 'книга (m)', audioUrl: null }
+      { word: 'libro', translation: 'книга (m)', audioUrl: null },
+      { word: 'escuela', translation: 'школа (f)', audioUrl: null },
+      { word: 'restaurante', translation: 'ресторан (m)', audioUrl: null },
+      { word: 'fiesta', translation: 'вечеринка (f)', audioUrl: null },
+      { word: 'amigo', translation: 'друг (m)', audioUrl: null },
+      { word: 'amiga', translation: 'подруга (f)', audioUrl: null },
+      { word: 'regalo', translation: 'подарок (m)', audioUrl: null },
+      { word: 'profesor', translation: 'учитель, преподаватель (m)', audioUrl: null },
+      { word: 'profesora', translation: 'учительница, преподавательница (f)', audioUrl: null },
+      { word: 'playa', translation: 'пляж (m)', audioUrl: null },
+      { word: 'museo', translation: 'музей (m)', audioUrl: null },
+      { word: 'hermano', translation: 'брат (m)', audioUrl: null },
+      { word: 'hermana', translation: 'сестра (f)', audioUrl: null },
+      { word: 'pintor', translation: 'художник (m)', audioUrl: null },
+      { word: 'estudiante', translation: 'студент, студентка (m/f)', audioUrl: null },
+      { word: 'hotel', translation: 'отель (m)', audioUrl: null },
+      { word: 'lápiz', translation: 'карандаш (m)', audioUrl: null },
+      { word: 'mesa', translation: 'стол (f)', audioUrl: null },
+      { word: 'coche', translation: 'машина (m)', audioUrl: null },
+      { word: 'cine', translation: 'кино (m)', audioUrl: null },
+      { word: 'voz baja', translation: 'тихо, шепотом', audioUrl: null },
+      { word: 'precio', translation: 'цена (m)', audioUrl: null },
+      { word: 'radio', translation: 'радио (f)', audioUrl: null },
+      { word: 'señora', translation: 'сеньора, госпожа (f)', audioUrl: null },
+      { word: 'señor', translation: 'сеньор, господин (m)', audioUrl: null },
+      { word: 'en serio', translation: 'всерьез', audioUrl: null },
+      { word: 'puerta', translation: 'дверь (f)', audioUrl: null },
+      { word: 'cliente', translation: 'клиент (m/f)', audioUrl: null },
+      { word: 'artículo', translation: 'статья (m)', audioUrl: null },
+      { word: 'país', translation: 'страна (m)', audioUrl: null },
+      { word: 'pan', translation: 'хлеб (m)', audioUrl: null },
+      { word: 'casa', translation: 'дом (f)', audioUrl: null },
+      { word: 'noche', translation: 'ночь (f)', audioUrl: null }
     ],
     readingText: {
       title: 'Diálogos en la ciudad',
@@ -1643,94 +1701,184 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
         { start: 15, end: 20, text: '¡Hola! ¿Cómo estás?' }
       ]
     },
-    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err']
+    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
   },
   'lesson-2-2': {
     id: 'lesson-2-2',
-    title: 'Урок 2: Правильные глаголы в настоящем времени',
+    title: 'Урок 2: Глаголы IR, TENER, OÍR',
     moduleId: 'module-2',
     grammar: {
-      title: 'Спряжение правильных глаголов в Presente de Indicativo',
+      title: 'Неправильные глаголы: IR, TENER, OÍR (Presente de Indicativo)',
       content: `
-# Спряжение правильных глаголов в настоящем времени
+# Неправильные глаголы: IR, TENER, OÍR (Presente de Indicativo)
 
-Испанские глаголы делятся на три спряжения:
-- I спряжение: глаголы на **-ar**
-- II спряжение: глаголы на **-er**
-- III спряжение: глаголы на **-ir**
+Глаголы IR (идти, ехать), TENER (иметь) и OÍR (слышать) являются неправильными. Необходимо запомнить их формы спряжения в настоящем времени изъявительного наклонения (Presente de Indicativo).
 
-## I спряжение (-ar): HABLAR (говорить)
+## 1. Глагол IR (идти, ехать)
 
-| Лицо | Forma | Русский |
-|------|-------|---------|
-| yo | hablo | я говорю |
-| tú | hablas | ты говоришь |
-| él/ella/usted | habla | он/она говорит |
-| nosotros(-as) | hablamos | мы говорим |
-| vosotros(-as) | habláis | вы говорите |
-| ellos/ellas/ustedes | hablan | они говорят |
+| Местоимение | Форма | Перевод |
+|-------------|-------|---------|
+| yo | voy | Я иду / еду |
+| tú | vas | Ты идешь / едешь |
+| él, ella, usted | va | Он / она идет / едет, Вы идете / едете |
+| nosotros (-as) | vamos | Мы идем / едем |
+| vosotros (-as) | vais | Вы (мн.ч.) идете / едете |
+| ellos, ellas, ustedes | van | Они идут / едут, Вы (вежл.) идете / едете |
 
-**Другие глаголы:** llamar, preguntar, escuchar, tomar
+### Употребление и примеры:
 
-## II спряжение (-er): COMER (есть)
+**1. Направление (ir a + место):**
 
-| Лицо | Forma | Русский |
-|------|-------|---------|
-| yo | como | я ем |
-| tú | comes | ты ешь |
-| él/ella/usted | come | он/она ест |
-| nosotros(-as) | comemos | мы едим |
-| vosotros(-as) | coméis | вы едите |
-| ellos/ellas/ustedes | comen | они едят |
+- Voy a la calle larga. (Я иду на длинную улицу.)
+- Mi hermana va al museo a pie. (Моя сестра идет в музей пешком.)
 
-**Другие глаголы:** leer, aprender, comprender
+*Внимание: a + el = al*
 
-## III спряжение (-ir): VIVIR (жить)
+**2. Способ передвижения (ir en + транспорт / ir a pie):**
 
-| Лицо | Forma | Русский |
-|------|-------|---------|
-| yo | vivo | я живу |
-| tú | vives | ты живешь |
-| él/ella/usted | vive | он/она живет |
-| nosotros(-as) | vivimos | мы живем |
-| vosotros(-as) | vivís | вы живете |
-| ellos/ellas/ustedes | viven | они живут |
+- Nosotros vamos en tren a la ciudad. (Мы едем на поезде в город.)
+- ¿Vosotros vais en avión? (Вы летите на самолете?)
+- Ellos van a pie a casa. (Они идут домой пешком.)
 
-**Другие глаголы:** abrir, escribir
+**3. Цель передвижения (ir de + цель):**
 
-## Выражения с глаголом TOMAR
+- Los amigos van de vacaciones a la playa. (Друзья едут в отпуск на пляж.)
+- Yo voy de compras en coche. (Я еду за покупками на машине.)
 
-- tomar café — пить кофе
-- tomar el bus — сесть на автобус
-- tomar una decisión — принять решение
-- tomar el sol — загорать
+**4. Ближайшее будущее / Намерение (ir a + инфинитив):**
+
+- ¿Qué vas a comer? (Что ты собираешься есть?)
+- Ellas van a escribir un libro interesante. (Они собираются написать интересную книгу.)
+
+## 2. Глагол TENER (иметь)
+
+| Местоимение | Форма | Перевод |
+|-------------|-------|---------|
+| yo | tengo | Я имею |
+| tú | tienes | Ты имеешь |
+| él, ella, usted | tiene | Он / она имеет, Вы имеете |
+| nosotros (-as) | tenemos | Мы имеем |
+| vosotros (-as) | tenéis | Вы (мн.ч.) имеете |
+| ellos, ellas, ustedes | tienen | Они имеют, Вы (вежл.) имеете |
+
+### Употребление и примеры:
+
+Глагол TENER используется для обозначения обладания и возраста, а также для выражения физических состояний (tener hambre, tener frío, etc.).
+
+- Yo tengo una casa grande. (У меня большой дом.)
+- Mi hermano tiene treinta años. (Моему брату тридцать лет.)
+- Nosotros tenemos frío en la noche. (Нам холодно ночью.)
+- ¿Usted tiene el libro azul? (У Вас есть синяя книга?)
+
+### Правила употребления артикля с TENER (Possesión)
+
+В предложениях с глаголом tener и исчисляемыми существительными применяются особые правила употребления артикля:
+
+- **Единственное число (утверждение):** Используется неопределенный артикль un/una.
+- **Множественное число (утверждение):** Артикль не употребляется (нулевой артикль: Ø).
+- **Отрицание (ед. и мн. число):** Артикль не употребляется (нулевой артикль: Ø).
+
+| Контекст | Пример (исп.) | Перевод (рус.) |
+|----------|---------------|----------------|
+| Утверждение (ед.ч.) | Tengo un coche nuevo. | У меня есть новая машина. |
+| Утверждение (мн.ч.) | Tenemos Ø libros interesantes. | У нас есть интересные книги. |
+| Отрицание (ед.ч.) | No tienes Ø hermana. | У тебя нет сестры. |
+| Отрицание (мн.ч.) | No tienen Ø sillas en casa. | У них нет стульев дома. |
+
+### Устойчивые выражения с глаголом TENER
+
+| Выражение | Значение | Пример | Перевод |
+|-----------|----------|--------|---------|
+| tener... años | иметь... лет | Mis padres tienen cincuenta años. | Моим родителям пятьдесят лет. |
+| tener familia / dinero | иметь семью / деньги | La secretaria tiene mucho dinero. | У секретарши много денег. |
+| tener calor / frío | страдать от жары / мерзнуть | ¡Tengo mucho frío ahora! | Мне сейчас очень холодно! |
+| tener hambre / sed | быть голодным / испытывать жажду | ¿Tenéis hambre después de leer? | Вы голодны после чтения? |
+| tener sueño | хотеть спать | Los niños tienen sueño en la noche. | Дети хотят спать ночью. |
+| tener miedo | бояться (испытывать страх) | Tenemos miedo al perro grande. | Мы боимся большой собаки. |
+| tener razón | быть правым | Yo siempre tengo razón. | Я всегда прав. |
+| tener suerte | быть удачливым | ¡Usted tiene mucha suerte! | Вам очень везет! |
+| tener prisa / tiempo | торопиться / иметь время | Ella tiene prisa y no tiene tiempo. | Она торопится, и у нее нет времени. |
+
+### Конструкция ближайшего будущего / Долженствования:
+
+Конструкция **Tener que + инфинитив** имеет значение *быть должным сделать что-либо*, или необходимость.
+
+- Tú tienes que tomar la medicina ahora. (Ты должен принять лекарство сейчас.)
+- Tenemos que ir al museo en taxi. (Мы должны поехать в музей на такси.)
+- Los estudiantes tienen que aprender muchas palabras. (Студенты должны выучить много слов.)
+
+## 3. Глагол OÍR (слышать)
+
+| Местоимение | Форма | Перевод |
+|-------------|-------|---------|
+| yo | oigo | Я слышу |
+| tú | oyes | Ты слышишь |
+| él, ella, usted | oye | Он / она слышит, Вы слышите |
+| nosotros (-as) | oímos | Мы слышим |
+| vosotros (-as) | oís | Вы (мн.ч.) слышите |
+| ellos, ellas, ustedes | oyen | Они слышат, Вы (вежл.) слышите |
+
+### Употребление и примеры:
+
+- Yo no oigo la radio porque hablo contigo. (Я не слышу радио, потому что говорю с тобой.)
+- El policía oye un problema en la calle. (Полицейский слышит проблему на улице.)
+- ¿Vosotros oís a la señora feliz? (Вы слышите счастливую сеньору?)
+- Ellos oyen muchas noticias. (Они слышат много новостей.)
       `,
       examples: [
-        { spanish: 'Yo hablo español', translation: 'Я говорю по-испански' },
-        { spanish: 'Ellos comen frutas', translation: 'Они едят фрукты' },
-        { spanish: 'Nosotros vivimos en Madrid', translation: 'Мы живем в Мадриде' }
+        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
+        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
+        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
       ]
     },
     vocabulary: [
-      { word: 'comer', translation: 'есть, кушать', audioUrl: null },
-      { word: 'beber', translation: 'пить', audioUrl: null },
-      { word: 'leer', translation: 'читать', audioUrl: null },
-      { word: 'aprender', translation: 'учиться, изучать', audioUrl: null },
-      { word: 'vivir', translation: 'жить', audioUrl: null },
-      { word: 'escribir', translation: 'писать', audioUrl: null },
-      { word: 'abrir', translation: 'открывать', audioUrl: null },
-      { word: 'recibir', translation: 'получать', audioUrl: null },
-      { word: 'tomar', translation: 'брать, взять, пить (напитки), принимать', audioUrl: null },
-      { word: 'Yo tomo café con leche cada mañana', translation: 'Я пью кофе с молоком каждое утро', audioUrl: null },
-      { word: 'Mi hermana toma el autobús a la escuela', translation: 'Моя сестра едет на автобусе в школу', audioUrl: null },
-      { word: 'Nosotros tomamos el sol en la playa', translation: 'Мы загораем на пляже', audioUrl: null },
-      { word: '¿Tú tomas un bocadillo para el almuerzo?', translation: 'Ты берешь бутерброд на обед?', audioUrl: null },
-      { word: 'Los niños toman sus mochilas para salir al recreo', translation: 'Дети берут свои рюкзаки чтобы выйти на перемену', audioUrl: null },
-      { word: 'La abuela toma una medicina cada noche', translation: 'Бабушка принимает лекарство каждый вечер', audioUrl: null },
-      { word: 'Yo tomo un zumo de naranja en el desayuno', translation: 'Я пью апельсиновый сок на завтрак', audioUrl: null },
-      { word: 'Mi padre no toma el tren, él va en coche', translation: 'Мой отец не едет на поезде, он едет на машине', audioUrl: null },
-      { word: '¿Ustedes toman agua después de correr?', translation: 'Вы пьете воду после бега?', audioUrl: null },
-      { word: 'El profesor toma mi libro para revisarlo', translation: 'Преподаватель берет мою книгу чтобы проверить ее', audioUrl: null }
+      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
+      { word: 'tener', translation: 'иметь', audioUrl: null },
+      { word: 'oír', translation: 'слышать', audioUrl: null },
+      { word: 'voy', translation: 'я иду/еду', audioUrl: null },
+      { word: 'vas', translation: 'ты идешь/едешь', audioUrl: null },
+      { word: 'va', translation: 'он/она идет/едет', audioUrl: null },
+      { word: 'vamos', translation: 'мы идем/едем', audioUrl: null },
+      { word: 'vais', translation: 'вы идете/едете', audioUrl: null },
+      { word: 'van', translation: 'они идут/едут', audioUrl: null },
+      { word: 'tengo', translation: 'я имею', audioUrl: null },
+      { word: 'tienes', translation: 'ты имеешь', audioUrl: null },
+      { word: 'tiene', translation: 'он/она имеет', audioUrl: null },
+      { word: 'tenemos', translation: 'мы имеем', audioUrl: null },
+      { word: 'tenéis', translation: 'вы имеете', audioUrl: null },
+      { word: 'tienen', translation: 'они имеют', audioUrl: null },
+      { word: 'oigo', translation: 'я слышу', audioUrl: null },
+      { word: 'oyes', translation: 'ты слышишь', audioUrl: null },
+      { word: 'oye', translation: 'он/она слышит', audioUrl: null },
+      { word: 'oímos', translation: 'мы слышим', audioUrl: null },
+      { word: 'oís', translation: 'вы слышите', audioUrl: null },
+      { word: 'oyen', translation: 'они слышат', audioUrl: null },
+      { word: 'calle', translation: 'улица (f)', audioUrl: null },
+      { word: 'a pie', translation: 'пешком', audioUrl: null },
+      { word: 'ciudad', translation: 'город (f)', audioUrl: null },
+      { word: 'avión', translation: 'самолет (m)', audioUrl: null },
+      { word: 'vacaciones', translation: 'каникулы, отпуск (f pl)', audioUrl: null },
+      { word: 'compras', translation: 'покупки (f pl)', audioUrl: null },
+      { word: 'ir a', translation: 'идти в/на', audioUrl: null },
+      { word: 'ir en', translation: 'ехать на (транспорт)', audioUrl: null },
+      { word: 'ir de', translation: 'ехать с целью (де компрас, де вакасьонес)', audioUrl: null },
+      { word: 'ir a + infinitivo', translation: 'собираться что-то сделать', audioUrl: null },
+      { word: 'años', translation: 'лет, годы (m pl)', audioUrl: null },
+      { word: 'tener hambre', translation: 'быть голодным', audioUrl: null },
+      { word: 'tener sed', translation: 'испытывать жажду', audioUrl: null },
+      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
+      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
+      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
+      { word: 'tener miedo', translation: 'бояться', audioUrl: null },
+      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
+      { word: 'tener suerte', translation: 'везти, быть удачливым', audioUrl: null },
+      { word: 'tener prisa', translation: 'торопиться', audioUrl: null },
+      { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
+      { word: 'tener que + infinitivo', translation: 'быть должным что-то сделать', audioUrl: null },
+      { word: 'dinero', translation: 'деньги (m)', audioUrl: null },
+      { word: 'familia', translation: 'семья (f)', audioUrl: null },
+      { word: 'problema', translation: 'проблема (m)', audioUrl: null },
+      { word: 'noticias', translation: 'новости (f pl)', audioUrl: null }
     ],
     readingText: {
       title: 'Mi día en Madrid',
@@ -1757,7 +1905,7 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
         { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
+    exercises: ['ex-2-2-ir-1', 'ex-2-2-ir-2', 'ex-2-2-ir-3', 'ex-2-2-tener-1', 'ex-2-2-tener-2', 'ex-2-2-tener-3', 'ex-2-2-oir-1', 'ex-2-2-oir-2', 'ex-2-2-oir-3']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -5613,13 +5761,27 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-2-1-3': {
     id: 'ex-2-1-3',
     type: 'reading',
-    title: 'Чтение: Rutina diaria',
-    description: 'Прочитайте текст и ответьте',
-    text: 'Ana se levanta a las siete. Desayuna café y camina a la universidad. Estudia literatura. Por las tardes trabaja en una cafetería.',
+    title: 'Чтение: Диалоги в городе',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    text: 'Диалог en la ciudad: Juan: ¡Hola! Yo soy Juan. ¿Y tú? Ana: Me llamo Ana. Soy joven y alegre. Juan: ¡Mucho gusto! La ciudad es grande. Ana: Sí, es grande y bonita. Ahora estoy en la calle. Juan: Yo estoy en casa. || Diálogo sobre ubicación: Felipe: Buenos días, señora. ¿Cómo se llama usted? Doña Clara: Me llamo Doña Clara. Soy rica. Felipe: Encantado. Yo soy Felipe, soy estudiante. Soy de Rusia. Doña Clara: Qué interesante... ¿De dónde es su hermano? Felipe: Mi hermano es de China. Él es ingeniero y está casado. || Diálogo sobre estados: Pedro: ¡Hola! ¿Cómo estás? Marta: Estoy regular. Mi mano está fría y tengo veinticinco años. Pedro: ¡Qué lástima! ¿Estás enferma? Marta: No, no estoy enferma, estoy triste. Soy soltera. ¿Y tú? Pedro: Yo soy policía. Soy alto y delgado. Ahora voy a la escuela con mi amigo Carlos. Marta: ¿Es fácil la escuela? Pedro: Es difícil, pero es interesante. Estamos contentos. Marta: Mi hermano está en la playa. El sol es caliente.',
     questions: [
-      { question: 'Во сколько встает Ана?', options: ['В 6:00', 'В 7:00', 'В 8:00', 'В 9:00'], correct: 1 },
-      { question: 'Что изучает Ана?', options: ['Математику', 'Литературу', 'Медицину', 'Историю'], correct: 1 },
-      { question: 'Где работает Ана?', options: ['В школе', 'В больнице', 'В кафетерии', 'В музее'], correct: 2 }
+      { question: '¿Cómo se llama el chico en el primer diálogo?', options: ['Pedro', 'Felipe', 'Juan', 'Carlos'], correct: 2 },
+      { question: '¿Cómo es Ana?', options: ['Triste y vieja', 'Joven y alegre', 'Rica y alta', 'Enferma y regular'], correct: 1 },
+      { question: '¿Cómo es la ciudad según Juan?', options: ['Pequeña', 'Antigua', 'Grande', 'Fría'], correct: 2 },
+      { question: '¿Dónde está Ana ahora?', options: ['En casa', 'En el museo', 'En la calle', 'En la playa'], correct: 2 },
+      { question: '¿Dónde está Juan?', options: ['En la calle', 'En casa', 'En la escuela', 'En el museo'], correct: 1 },
+      { question: '¿Cómo se llama la señora rica?', options: ['Ana', 'Marta', 'Doña Clara', 'No dice'], correct: 2 },
+      { question: '¿De dónde es Felipe?', options: ['De China', 'De Rusia', 'De España', 'De Perú'], correct: 1 },
+      { question: '¿Qué es Felipe?', options: ['Ingeniero', 'Estudiante', 'Policía', 'Profesor'], correct: 1 },
+      { question: '¿De dónde es el hermano de Felipe?', options: ['De Rusia', 'De España', 'De China', 'De Italia'], correct: 2 },
+      { question: '¿Qué es el hermano de Felipe?', options: ['Estudiante', 'Policía', 'Ingeniero', 'Profesor'], correct: 2 },
+      { question: '¿Cuántos años tiene Marta?', options: ['Veinte años', 'Veinticinco años', 'Treinta años', 'Dieciocho años'], correct: 1 },
+      { question: '¿Qué es Pedro?', options: ['Estudiante', 'Ingeniero', 'Policía', 'Médico'], correct: 2 },
+      { question: '¿Cómo es Pedro?', options: ['Bajo y gordo', 'Alto y delgado', 'Joven y alegre', 'Viejo y triste'], correct: 1 },
+      { question: '¿Adónde va Pedro?', options: ['Al museo', 'A la playa', 'A la escuela', 'A casa'], correct: 2 },
+      { question: '¿Cómo es la escuela según Pedro?', options: ['Fácil pero aburrida', 'Difícil pero interesante', 'Grande y bonita', 'Pequeña y antigua'], correct: 1 },
+      { question: '¿Dónde está el hermano de Marta?', options: ['En casa', 'En la escuela', 'En el museo', 'En la playa'], correct: 3 },
+      { question: '¿Cómo es el sol según Marta?', options: ['Frío', 'Caliente', 'Grande', 'Pequeño'], correct: 1 }
     ]
   },
   'ex-2-1-4': {
@@ -5628,10 +5790,26 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Переведите предложения',
     description: 'Переведите на испанский',
     questions: [
-      { russian: 'Я говорю', correct: 'hablo' },
-      { russian: 'Ты работаешь', correct: 'trabajas' },
-      { russian: 'Она учится', correct: 'estudia' },
-      { russian: 'Мы гуляем', correct: 'caminamos' }
+      { russian: 'Я говорю по-испански, а мой друг слушает новости.', correct: 'yo hablo español y mi amigo escucha las noticias' },
+      { russian: 'Ты звонишь твоей маме по телефону?', correct: '¿tú llamas a tu madre por teléfono?' },
+      { russian: 'Он спрашивает о цене такси, потому что оно дорогое (ser).', correct: 'él pregunta por el precio del taxi porque es caro' },
+      { russian: 'Мы слушаем радио, потому что сейчас дома (estar).', correct: 'nosotros escuchamos la radio porque estamos en casa ahora' },
+      { russian: 'Вы (vosotros) пьете сок в доме, потому что вы больны (estar)?', correct: '¿vosotros bebéis zumo en casa porque estáis enfermos?' },
+      { russian: 'Они (ellas) едят бутерброды в кафе, и они веселые (estar).', correct: 'ellas comen bocadillos en el café y están alegres' },
+      { russian: 'Вы (usted) принимаете эту проблему всерьез?', correct: '¿usted toma este problema en serio?' },
+      { russian: 'Она загорает на пляже, и она счастлива (ser).', correct: 'ella toma el sol en la playa y es feliz' },
+      { russian: 'Я сажусь на поезд, потому что он новый (ser).', correct: 'yo tomo el tren porque es nuevo' },
+      { russian: 'Моя мама принимает лекарства, и она старая (ser).', correct: 'mi madre toma medicinas y es vieja' },
+      { russian: 'Мы читаем интересную книгу, и она большая (ser).', correct: 'nosotros leemos un libro interesante y es grande' },
+      { russian: 'Ты учишь новые слова? Это легко (ser)?', correct: '¿tú aprendes palabras nuevas? ¿es fácil?' },
+      { russian: 'Они (ellos) понимают проблему, и она серьезная (ser).', correct: 'ellos comprenden el problema y es serio' },
+      { russian: 'Ребенок ест дома с аппетитом, потому что он голоден (estar).', correct: 'el niño come en casa con apetito porque está hambriento' },
+      { russian: 'Я не понимаю гида, потому что он немец (ser).', correct: 'yo no comprendo al guía porque es alemán' },
+      { russian: 'Вы (ustedes) открываете окно, потому что в комнате горячо (estar).', correct: 'ustedes abren la ventana porque está caliente en la habitación' },
+      { russian: 'Я пишу письмо моей сестре, она экономист (ser).', correct: 'yo escribo una carta a mi hermana, ella es economista' },
+      { russian: 'Мы живем в большом городе, и он красивый (ser).', correct: 'nosotros vivimos en una ciudad grande y es bonita' },
+      { russian: 'Вы (vosotros) пишете о жизни в Испании?', correct: '¿vosotros escribís sobre la vida en España?' },
+      { russian: 'Мой отец живет в старом доме, и сейчас он одинок (estar).', correct: 'mi padre vive en una casa vieja y ahora está solo' }
     ]
   },
   'ex-2-1-5': {
@@ -5640,9 +5818,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Заполните пропуски',
     description: 'Вставьте правильную форму глагола',
     questions: [
-      { sentence: 'Yo _____ (estudiar) español todos los días', verb: 'estudiar', correct: 'estudio' },
-      { sentence: 'María _____ (cocinar) muy bien', verb: 'cocinar', correct: 'cocina' },
-      { sentence: 'Nosotros _____ (hablar) tres idiomas', verb: 'hablar', correct: 'hablamos' }
+      { sentence: 'Yo _____ (hablar) español con mis amigos', verb: 'hablar', correct: 'hablo' },
+      { sentence: 'Ana _____ (ser) joven y alegre', verb: 'ser', correct: 'es' },
+      { sentence: 'La ciudad _____ (ser) grande y bonita', verb: 'ser', correct: 'es' },
+      { sentence: 'Ana _____ (estar) en la calle ahora', verb: 'estar', correct: 'está' },
+      { sentence: 'Juan _____ (estar) en casa', verb: 'estar', correct: 'está' },
+      { sentence: 'Felipe _____ (ser) estudiante', verb: 'ser', correct: 'es' },
+      { sentence: 'El hermano de Felipe _____ (ser) ingeniero', verb: 'ser', correct: 'es' },
+      { sentence: 'Marta _____ (tener) veinticinco años', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Pedro _____ (ser) policía', verb: 'ser', correct: 'es' },
+      { sentence: 'Pedro _____ (ir) a la escuela con Carlos', verb: 'ir', correct: 'va' },
+      { sentence: 'La escuela _____ (ser) difícil pero interesante', verb: 'ser', correct: 'es' },
+      { sentence: 'Nosotros _____ (estar) contentos', verb: 'estar', correct: 'estamos' },
+      { sentence: 'El hermano de Marta _____ (estar) en la playa', verb: 'estar', correct: 'está' },
+      { sentence: 'Yo _____ (escuchar) la radio en casa', verb: 'escuchar', correct: 'escucho' },
+      { sentence: 'Ellos _____ (vivir) en una ciudad grande', verb: 'vivir', correct: 'viven' }
     ]
   },
   'ex-2-2-1': {
@@ -5738,6 +5928,239 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мы берем автобус', correct: 'tomamos el autobús' }
     ]
   },
+
+  'ex-2-2-ir-1': {
+    id: 'ex-2-2-ir-1',
+    type: 'fillblank',
+    title: 'Глагол IR: Заполните пропуски',
+    description: 'Поставьте глагол ir в соответствующую форму',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Mi padre y yo _____ (ir) a la playa en barco', verb: 'ir', correct: 'vamos' },
+      { sentence: '¿Tú _____ (ir) a escribir el libro?', verb: 'ir', correct: 'vas' },
+      { sentence: 'Los alumnos _____ (ir) a aprender un tema nuevo', verb: 'ir', correct: 'van' },
+      { sentence: 'Ustedes _____ (ir) a casa en taxi', verb: 'ir', correct: 'van' },
+      { sentence: 'Yo _____ (ir) de compras a la ciudad', verb: 'ir', correct: 'voy' },
+      { sentence: 'Yo _____ (ir) a comer una paella famosa', verb: 'ir', correct: 'voy' },
+      { sentence: 'Mi hermana _____ (ir) a tomar un zumo de naranja', verb: 'ir', correct: 'va' },
+      { sentence: '¿Vosotras _____ (ir) de vacaciones en tren?', verb: 'ir', correct: 'vais' },
+      { sentence: 'Ustedes no _____ (ir) al centro comercial hoy', verb: 'ir', correct: 'van' },
+      { sentence: 'Nosotros _____ (ir) a beber agua fría', verb: 'ir', correct: 'vamos' },
+      { sentence: 'El periodista _____ (ir) a escribir un artículo largo', verb: 'ir', correct: 'va' },
+      { sentence: 'Tú _____ (ir) en autobús a la oficina', verb: 'ir', correct: 'vas' },
+      { sentence: 'Yo _____ (ir) a dormir muy tarde', verb: 'ir', correct: 'voy' },
+      { sentence: 'Ellos _____ (ir) a tomar el sol a la playa', verb: 'ir', correct: 'van' },
+      { sentence: 'Yo no _____ (ir) de compras este sábado', verb: 'ir', correct: 'voy' }
+    ]
+  },
+
+  'ex-2-2-ir-2': {
+    id: 'ex-2-2-ir-2',
+    type: 'writing',
+    title: 'Глагол IR: Переведите на испанский',
+    description: 'Переведите предложения на испанский',
+    questions: [
+      { russian: 'Я собираюсь поговорить с моим другом', correct: 'voy a hablar con mi amigo' },
+      { russian: 'Мы едем в Италию на поезде', correct: 'vamos a italia en tren' },
+      { russian: 'Вы (vosotros) идете пешком в teatro?', correct: '¿vais a pie al teatro?' },
+      { russian: 'Они (ellas) едут в отпуск на самолете', correct: 'ellas van de vacaciones en avión' },
+      { russian: 'Она едет на работу на трамвае', correct: 'ella va al trabajo en tranvía' },
+      { russian: 'Ты собираешься взять книги для чтения?', correct: '¿vas a tomar libros para leer?' },
+      { russian: 'Мы не едем в Египет, мы едем в Испанию', correct: 'no vamos a egipto, vamos a españa' },
+      { russian: 'Я иду в банк пешком', correct: 'voy al banco a pie' },
+      { russian: 'Вы (usted) собираетесь позвонить секретарю?', correct: '¿usted va a llamar al secretario?' },
+      { russian: 'Они (ellos) идут в кафе есть бутерброды', correct: 'ellos van al café a comer bocadillos' },
+      { russian: 'Мой отец собирается загорать', correct: 'mi padre va a tomar el sol' },
+      { russian: 'Вы (ustedes) едете на поезде в Мадрид?', correct: '¿ustedes van en tren a madrid?' },
+      { russian: 'Он собирается принимать лекарства', correct: 'él va a tomar medicinas' },
+      { russian: 'Мои друзья едут на машине в горы', correct: 'mis amigos van en coche a las montañas' },
+      { russian: 'Я не собираюсь смотреть этот фильм', correct: 'no voy a ver esta película' }
+    ]
+  },
+
+  'ex-2-2-ir-3': {
+    id: 'ex-2-2-ir-3',
+    type: 'fillblank',
+    title: 'Глагол IR: Ponga el verbo',
+    description: 'Ponga el verbo IR en la forma correcta',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ (ir) a la playa en barco', verb: 'ir', correct: 'voy' },
+      { sentence: 'Tú _____ (ir) a escribir una carta', verb: 'ir', correct: 'vas' },
+      { sentence: 'El cliente _____ (ir) a la oficina en taxi', verb: 'ir', correct: 'va' },
+      { sentence: 'Mi hermana y yo _____ (ir) de compras a la ciudad', verb: 'ir', correct: 'vamos' },
+      { sentence: 'Vosotros _____ (ir) a aprender un tema nuevo', verb: 'ir', correct: 'vais' },
+      { sentence: 'Ellos _____ (ir) al teatro en metro', verb: 'ir', correct: 'van' },
+      { sentence: 'Usted _____ (ir) a tomar un café', verb: 'ir', correct: 'va' },
+      { sentence: 'Nosotros _____ (ir) a vivir en España', verb: 'ir', correct: 'vamos' },
+      { sentence: 'Mi padre _____ (ir) al bar a leer', verb: 'ir', correct: 'va' },
+      { sentence: 'Yo _____ (ir) a tomar el sol ahora', verb: 'ir', correct: 'voy' },
+      { sentence: '¿Tú _____ (ir) a pie a casa?', verb: 'ir', correct: 'vas' },
+      { sentence: 'El abogado _____ (ir) de vacaciones en avión', verb: 'ir', correct: 'va' },
+      { sentence: 'Ustedes _____ (ir) a llamar al policía', verb: 'ir', correct: 'van' },
+      { sentence: 'Vosotros _____ (ir) en autobús a la universidad', verb: 'ir', correct: 'vais' },
+      { sentence: 'Ella _____ (ir) a comprender el problema', verb: 'ir', correct: 'va' }
+    ]
+  },
+
+  'ex-2-2-tener-1': {
+    id: 'ex-2-2-tener-1',
+    type: 'fillblank',
+    title: 'Глагол TENER: Заполните пропуски',
+    description: 'Поставьте глагол tener в соответствующую форму',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ mucha suerte con el trabajo', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Mi amigo y él no _____ miedo al perro', verb: 'tener', correct: 'tienen' },
+      { sentence: '¿Vosotros _____ tiempo para leer el libro?', verb: 'tener', correct: 'tenéis' },
+      { sentence: 'Ustedes _____ que llamar al médico', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Tú _____ que abrir la ventana, hace calor', verb: 'tener', correct: 'tienes' },
+      { sentence: 'Nosotros somos jóvenes y no _____ problemas', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'La secretaria no _____ tiempo libre hoy', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Yo no _____ miedo a las alturas', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Vosotras _____ que aprender un idioma nuevo', verb: 'tener', correct: 'tenéis' },
+      { sentence: 'Mi primo _____ veintidós años', verb: 'tener', correct: 'tiene' },
+      { sentence: 'El periodista y ella _____ que tomar un taxi', verb: 'tener', correct: 'tienen' },
+      { sentence: '¿Ustedes _____ mucho dinero en el banco?', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Tú y yo _____ una casa en la playa', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Nosotras _____ frío en la nieve', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Ellos _____ que volver a casa temprano', verb: 'tener', correct: 'tienen' }
+    ]
+  },
+
+  'ex-2-2-tener-2': {
+    id: 'ex-2-2-tener-2',
+    type: 'fillblank',
+    title: 'Глагол TENER: Ponga el verbo',
+    description: 'Ponga el verbo TENER en la forma correcta',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ (tener) mucha prisa por la mañana', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Mi madre _____ (tener) que tomar medicinas cada día', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Nosotros _____ (tener) mucho frío en la casa', verb: 'tener', correct: 'tenemos' },
+      { sentence: '¿Tú _____ (tener) razón en el problema difícil?', verb: 'tener', correct: 'tienes' },
+      { sentence: 'El guía _____ (tener) un coche nuevo', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Vosotros _____ (tener) hambre y sed ahora', verb: 'tener', correct: 'tenéis' },
+      { sentence: 'Ellos _____ (tener) quince años', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Usted _____ (tener) que escribir la carta al abogado', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Mi hermano y yo _____ (tener) suerte con el dinero', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Las chicas _____ (tener) miedo al ruido', verb: 'tener', correct: 'tienen' },
+      { sentence: '¿Yo _____ (tener) tiempo para escuchar la radio?', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Ustedes _____ (tener) que abrir la cuenta en el banco', verb: 'tener', correct: 'tienen' },
+      { sentence: 'El economista no _____ (tener) familia', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Tú y él _____ (tener) sueño en la noche', verb: 'tener', correct: 'tenéis' },
+      { sentence: 'Vosotros _____ (tener) que aprender las noticias', verb: 'tener', correct: 'tenéis' }
+    ]
+  },
+
+  'ex-2-2-tener-3': {
+    id: 'ex-2-2-tener-3',
+    type: 'grammar',
+    title: 'Глагол TENER: Выберите правильную форму',
+    description: 'Выберите правильную форму глагола TENER',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ mucha prisa', options: ['tienes', 'tiene', 'tengo', 'tienen'], correct: 2 },
+      { sentence: 'Tú _____ razón', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
+      { sentence: 'Él _____ veinte años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Nosotros _____ hambre', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 2 },
+      { sentence: 'Vosotros _____ sed', options: ['tenéis', 'tienen', 'tenemos', 'tiene'], correct: 0 },
+      { sentence: 'Ellos _____ frío', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 3 },
+      { sentence: 'Usted _____ que estudiar', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Yo _____ sueño', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 0 },
+      { sentence: 'Tú _____ miedo', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
+      { sentence: 'Ella _____ suerte', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Nosotras _____ tiempo', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 2 },
+      { sentence: 'Ustedes _____ dinero', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 3 },
+      { sentence: 'Vosotros _____ familia', options: ['tenéis', 'tienen', 'tenemos', 'tiene'], correct: 0 },
+      { sentence: 'Yo _____ calor', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 0 },
+      { sentence: 'Ellas _____ prisa', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 3 }
+    ]
+  },
+
+  'ex-2-2-oir-1': {
+    id: 'ex-2-2-oir-1',
+    type: 'fillblank',
+    title: 'Глагол OÍR: Заполните пропуски',
+    description: 'Поставьте глагол oír в соответствующую форму',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'El señor no abre la puerta porque no _____ el teléfono', verb: 'oír', correct: 'oye' },
+      { sentence: 'Yo no _____ las palabras de la señora, ella habla muy bajo', verb: 'oír', correct: 'oigo' },
+      { sentence: '¿Qué _____ ustedes? — Nosotros _____ un problema en la calle', verb: 'oír', correct: 'oyen, oímos' },
+      { sentence: 'Tú no _____ bien a tu amigo', verb: 'oír', correct: 'oyes' },
+      { sentence: 'Vosotros _____ las noticias por la radio', verb: 'oír', correct: 'oís' },
+      { sentence: 'Nosotros _____ la voz de nuestro amigo', verb: 'oír', correct: 'oímos' },
+      { sentence: 'Ellos _____ las noticias del mundo', verb: 'oír', correct: 'oyen' },
+      { sentence: 'Yo no _____ bien la radio', verb: 'oír', correct: 'oigo' },
+      { sentence: 'Tú _____ al guía hablar de la historia', verb: 'oír', correct: 'oyes' },
+      { sentence: 'Ustedes _____ el ruido del metro', verb: 'oír', correct: 'oyen' },
+      { sentence: 'Mi madre _____ al vecino cantar', verb: 'oír', correct: 'oye' },
+      { sentence: 'Vosotras _____ el concierto en la plaza', verb: 'oír', correct: 'oís' },
+      { sentence: 'El perro no _____ las palabras del niño', verb: 'oír', correct: 'oye' },
+      { sentence: 'Yo _____ el sonido del piano', verb: 'oír', correct: 'oigo' },
+      { sentence: '¿Él _____ el teléfono en el otro cuarto?', verb: 'oír', correct: 'oye' }
+    ]
+  },
+
+  'ex-2-2-oir-2': {
+    id: 'ex-2-2-oir-2',
+    type: 'fillblank',
+    title: 'Глагол OÍR: Ponga el verbo',
+    description: 'Ponga el verbo OÍR en la forma correcta',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ (oír) el teléfono en la oficina', verb: 'oír', correct: 'oigo' },
+      { sentence: 'Tú _____ (oír) al guía hablar en voz baja', verb: 'oír', correct: 'oyes' },
+      { sentence: 'El abogado no _____ (oír) al juez', verb: 'oír', correct: 'oye' },
+      { sentence: 'Nosotros _____ (oír) la radio todas las mañanas', verb: 'oír', correct: 'oímos' },
+      { sentence: 'Vosotros _____ (oír) las noticias del país', verb: 'oír', correct: 'oís' },
+      { sentence: 'Ellas _____ (oír) la música en el café', verb: 'oír', correct: 'oyen' },
+      { sentence: 'Usted _____ (oír) a su hijo llamar a la puerta', verb: 'oír', correct: 'oye' },
+      { sentence: 'Mi padre y yo _____ (oír) el tren en la noche', verb: 'oír', correct: 'oímos' },
+      { sentence: 'Los clientes no _____ (oír) el problema bien', verb: 'oír', correct: 'oyen' },
+      { sentence: '¿Tú _____ (oír) un ruido extraño en casa?', verb: 'oír', correct: 'oyes' },
+      { sentence: 'El niño _____ (oír) a su madre cantar', verb: 'oír', correct: 'oye' },
+      { sentence: 'Yo _____ (oír) las palabras del policía', verb: 'oír', correct: 'oigo' },
+      { sentence: 'Ustedes _____ (oír) las noticias de la ciudad', verb: 'oír', correct: 'oyen' },
+      { sentence: 'Mi hermana _____ (oír) mucha gente en la calle', verb: 'oír', correct: 'oye' },
+      { sentence: 'Vosotros _____ (oír) bien al profesor?', verb: 'oír', correct: 'oís' }
+    ]
+  },
+
+  'ex-2-2-oir-3': {
+    id: 'ex-2-2-oir-3',
+    type: 'grammar',
+    title: 'Глагол OÍR: Выберите правильную форму',
+    description: 'Выберите правильную форму глагола OÍR',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ la radio', options: ['oyes', 'oye', 'oigo', 'oyen'], correct: 2 },
+      { sentence: 'Tú _____ música', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 1 },
+      { sentence: 'Él _____ las noticias', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Nosotros _____ el problema', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 2 },
+      { sentence: 'Vosotros _____ la música', options: ['oís', 'oyen', 'oímos', 'oye'], correct: 0 },
+      { sentence: 'Ellos _____ ruido', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 },
+      { sentence: 'Usted _____ bien', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Yo no _____ nada', options: 'oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
+      { sentence: 'Tú _____ al profesor', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
+      { sentence: 'Ella _____ el teléfono', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Nosotras _____ la voz', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 2 },
+      { sentence: 'Ustedes _____ el concierto', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 },
+      { sentence: 'Vosotros _____ el piano', options: ['oís', 'oyen', 'oímos', 'oye'], correct: 0 },
+      { sentence: 'Yo _____ al vecino', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
+      { sentence: 'Ellas _____ al guía', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 }
+    ]
+  },
+
   'ex-2-3-1': {
     id: 'ex-2-3-1',
     type: 'grammar',
@@ -7137,10 +7560,28 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-2-1-6-conj',
     type: 'conjugation',
     title: 'Спряжение AR глаголов',
-    description: 'Выберите правильный ответ',
+    description: 'Выберите правильную форму глагола',
+    showCorrectAnswer: true,
+    highlightErrors: true,
     questions: [
-      { verb: 'estudiar', tense: 'Presente', pronoun: 'nosotros', options: ['estudio', 'estudias', 'estudiamos', 'estudian'], correct: 2 },
-      { verb: 'trabajar', tense: 'Presente', pronoun: 'ella', options: ['trabajo', 'trabajas', 'trabaja', 'trabajamos'], correct: 2 }
+      { verb: 'hablar', tense: 'Presente', pronoun: 'yo', options: ['hablas', 'hablo', 'habla', 'hablamos'], correct: 1 },
+      { verb: 'hablar', tense: 'Presente', pronoun: 'tú', options: ['hablo', 'habla', 'hablas', 'hablan'], correct: 2 },
+      { verb: 'hablar', tense: 'Presente', pronoun: 'él', options: ['habla', 'hablo', 'hablan', 'habláis'], correct: 0 },
+      { verb: 'hablar', tense: 'Presente', pronoun: 'nosotros', options: ['hablan', 'habláis', 'hablamos', 'habla'], correct: 2 },
+      { verb: 'hablar', tense: 'Presente', pronoun: 'ellos', options: ['hablan', 'habla', 'hablamos', 'habláis'], correct: 0 },
+      { verb: 'llamar', tense: 'Presente', pronoun: 'yo', options: ['llama', 'llamo', 'llamas', 'llamamos'], correct: 1 },
+      { verb: 'llamar', tense: 'Presente', pronoun: 'ella', options: ['llaman', 'llamo', 'llama', 'llamas'], correct: 2 },
+      { verb: 'llamar', tense: 'Presente', pronoun: 'vosotros', options: ['llamáis', 'llaman', 'llamamos', 'llama'], correct: 0 },
+      { verb: 'preguntar', tense: 'Presente', pronoun: 'tú', options: ['pregunto', 'pregunta', 'preguntas', 'preguntan'], correct: 2 },
+      { verb: 'preguntar', tense: 'Presente', pronoun: 'nosotros', options: ['preguntamos', 'preguntan', 'pregunta', 'preguntáis'], correct: 0 },
+      { verb: 'preguntar', tense: 'Presente', pronoun: 'ellas', options: ['pregunta', 'preguntamos', 'preguntan', 'pregunto'], correct: 2 },
+      { verb: 'escuchar', tense: 'Presente', pronoun: 'yo', options: ['escuchas', 'escucha', 'escucho', 'escuchan'], correct: 2 },
+      { verb: 'escuchar', tense: 'Presente', pronoun: 'usted', options: ['escucha', 'escucho', 'escuchas', 'escuchan'], correct: 0 },
+      { verb: 'escuchar', tense: 'Presente', pronoun: 'nosotras', options: ['escuchamos', 'escuchan', 'escucha', 'escucho'], correct: 0 },
+      { verb: 'tomar', tense: 'Presente', pronoun: 'yo', options: ['tomas', 'toma', 'tomo', 'toman'], correct: 2 },
+      { verb: 'tomar', tense: 'Presente', pronoun: 'tú', options: ['tomo', 'tomas', 'toma', 'tomamos'], correct: 1 },
+      { verb: 'tomar', tense: 'Presente', pronoun: 'él', options: ['tomo', 'tomas', 'toma', 'tomamos'], correct: 2 },
+      { verb: 'tomar', tense: 'Presente', pronoun: 'ellos', options: ['toman', 'toma', 'tomamos', 'tomo'], correct: 0 }
     ]
   },
 
@@ -7148,10 +7589,68 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-2-1-7-err',
     type: 'error-correction',
     title: 'Исправьте ошибки',
-    description: 'Выберите правильный ответ',
+    description: 'Найдите и исправьте ошибку в предложении',
+    showCorrectAnswer: true,
+    highlightErrors: true,
     questions: [
-      { sentence: 'Yo estudias español', correct: 'yo estudio español' },
-      { sentence: 'Ella trabajan en Madrid', correct: 'ella trabaja en madrid' }
+      { sentence: 'Yo hablas español en casa', correct: 'yo hablo español en casa', error: 'hablas' },
+      { sentence: 'Tú llaman a tu madre por teléfono', correct: 'tú llamas a tu madre por teléfono', error: 'llaman' },
+      { sentence: 'Ella preguntar por el precio del taxi', correct: 'ella pregunta por el precio del taxi', error: 'preguntar' },
+      { sentence: 'Nosotros escucha la radio en casa', correct: 'nosotros escuchamos la radio en casa', error: 'escucha' },
+      { sentence: 'Vosotros toma agua en el restaurante', correct: 'vosotros tomáis agua en el restaurante', error: 'toma' },
+      { sentence: 'Ellos comen bocadillo en el café', correct: 'ellos comen bocadillos en el café', error: 'bocadillo' },
+      { sentence: 'Yo leo un libros grande', correct: 'yo leo un libro grande', error: 'libros' },
+      { sentence: 'Tú aprendes palabra nuevas', correct: 'tú aprendes palabras nuevas', error: 'palabra' },
+      { sentence: 'Él comprende el problemas serio', correct: 'él comprende el problema serio', error: 'problemas' },
+      { sentence: 'Nosotros vivimos en una ciudad grandes', correct: 'nosotros vivimos en una ciudad grande', error: 'grandes' },
+      { sentence: 'Ella escribe una cartas a su hermana', correct: 'ella escribe una carta a su hermana', error: 'cartas' },
+      { sentence: 'Yo abro las puerta del coche', correct: 'yo abro la puerta del coche', error: 'las' },
+      { sentence: 'Ustedes bebe zumo de naranja', correct: 'ustedes beben zumo de naranja', error: 'bebe' },
+      { sentence: 'Mi padre vive en un casa vieja', correct: 'mi padre vive en una casa vieja', error: 'un' },
+      { sentence: 'Nosotras recibir mensajes importantes', correct: 'nosotras recibimos mensajes importantes', error: 'recibir' }
+    ]
+  },
+
+  'ex-2-1-8-transform': {
+    id: 'ex-2-1-8-transform',
+    type: 'writing',
+    title: 'Transformación de Sujetos y Conjugación',
+    description: 'Cambie el sujeto de la frase por el que se indica entre paréntesis y conjugue el verbo correctamente',
+    questions: [
+      { russian: 'Yo vivo en Barcelona. → (Ellos)', correct: 'ellos viven en barcelona' },
+      { russian: 'Tú lees el periódico. → (Usted)', correct: 'usted lee el periódico' },
+      { russian: 'Nosotros comprendemos la lección. → (Yo)', correct: 'yo comprendo la lección' },
+      { russian: 'La chica toma el sol. → (Las chicas y tú)', correct: 'las chicas y tú tomáis el sol' },
+      { russian: 'Ustedes hablan ruso. → (Mi hermana y yo)', correct: 'mi hermana y yo hablamos ruso' },
+      { russian: 'Vosotros coméis un bocadillo. → (Ella)', correct: 'ella come un bocadillo' },
+      { russian: 'Ellos preguntan por la dirección. → (El señor y la señora)', correct: 'el señor y la señora preguntan por la dirección' },
+      { russian: 'Tú estás triste ahora. → (Nosotros)', correct: 'nosotros estamos tristes ahora' },
+      { russian: 'Yo soy estudiante. → (Pablo y él)', correct: 'pablo y él son estudiantes' },
+      { russian: 'Vosotros abrís la ventana. → (Yo)', correct: 'yo abro la ventana' }
+    ]
+  },
+
+  'ex-2-1-9-verbforms': {
+    id: 'ex-2-1-9-verbforms',
+    type: 'fillblank',
+    title: 'Ponga los verbos en la forma verbal correcta',
+    description: 'Ponga el verbo en infinitivo (entre paréntesis) en la forma de Presente de Indicativo que le corresponda',
+    questions: [
+      { sentence: 'Mi padre _____ (escribir) una carta a mi hermano', verb: 'escribir', correct: 'escribe' },
+      { sentence: 'Nosotras _____ (vivir) en una ciudad grande', verb: 'vivir', correct: 'vivimos' },
+      { sentence: 'Yo _____ (aprender) las palabras nuevas', verb: 'aprender', correct: 'aprendo' },
+      { sentence: 'Ellos _____ (comer) fruta en el día', verb: 'comer', correct: 'comen' },
+      { sentence: 'Usted _____ (escuchar) la radio en casa', verb: 'escuchar', correct: 'escucha' },
+      { sentence: 'El policía _____ (tomar) el metro para ir al museo', verb: 'tomar', correct: 'toma' },
+      { sentence: 'Tú _____ (ser) alto y guapo', verb: 'ser', correct: 'eres' },
+      { sentence: 'Vosotros _____ (estar) enfermos y _____ (tomar) medicinas', verb: 'estar, tomar', correct: 'estáis, tomáis' },
+      { sentence: 'Los clientes no _____ (comprender) el problema difícil', verb: 'comprender', correct: 'comprenden' },
+      { sentence: 'La chica _____ (abrir) la puerta del coche', verb: 'abrir', correct: 'abre' },
+      { sentence: 'Mi madre _____ (ser) abogada y _____ (estar) en París ahora', verb: 'ser, estar', correct: 'es, está' },
+      { sentence: 'La calle _____ (ser) larga y _____ (estar) fría', verb: 'ser, estar', correct: 'es, está' },
+      { sentence: 'Yo _____ (llamar) al economista porque tengo una pregunta', verb: 'llamar', correct: 'llamo' },
+      { sentence: '¿Ustedes _____ (leer) sobre el tema interesante?', verb: 'leer', correct: 'leen' },
+      { sentence: 'Nosotros no _____ (hablar) inglés', verb: 'hablar', correct: 'hablamos' }
     ]
   },
 
