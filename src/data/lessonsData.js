@@ -937,104 +937,260 @@ Por la noche, Carlos está en casa. La casa es cómoda. Carlos lee un libro con 
   },
   'lesson-1-3': {
     id: 'lesson-1-3',
-    title: 'Урок 4: Числа и возраст',
+    title: 'Урок 3: Личные местоимения. Глаголы SER и ESTAR',
     moduleId: 'module-1',
     grammar: {
-      title: 'Числительные и глагол TENER',
+      title: 'Личные местоимения (Pronombres personales). Глаголы SER и ESTAR',
       content: `
-# Числительные 0-20
+# Личные местоимения (Pronombres personales)
 
-0 - cero, 1 - uno, 2 - dos, 3 - tres, 4 - cuatro, 5 - cinco
-6 - seis, 7 - siete, 8 - ocho, 9 - nueve, 10 - diez
-11 - once, 12 - doce, 13 - trece, 14 - catorce, 15 - quince
-16 - dieciséis, 17 - diecisiete, 18 - dieciocho, 19 - diecinueve, 20 - veinte
+## Формы в именительном падеже
 
-# Глагол TENER (иметь) - Presente
+Испанские личные местоимения в именительном падеже (субъектные местоимения) имеют следующие формы:
 
-| Местоимение | Форма |
-|-------------|-------|
-| yo | tengo |
-| tú | tienes |
-| él/ella/usted | tiene |
-| nosotros/as | tenemos |
-| vosotros/as | tenéis |
-| ellos/ellas/ustedes | tienen |
+| Лицо | Единственное число | Множественное число |
+|------|-------------------|---------------------|
+| 1-е лицо | yo (я) | nosotros (мы, м.р./смеш. группа) |
+| | | nosotras (мы, ж.р.) |
+| 2-е лицо | tú (ты) | vosotros (вы, м.р./смеш. группа) |
+| | | vosotras (вы, ж.р.) |
+| 3-е лицо | él (он) | ellos (они, м.р./смеш. группа) |
+| | ella (она) | ellas (они, ж.р.) |
+| Вежливая форма | usted (Вы, ед.ч.) | ustedes (Вы, мн.ч.) |
 
-## Выражение возраста:
-- **Tengo 25 años** - Мне 25 лет
-- **¿Cuántos años tienes?** - Сколько тебе лет?
+## Родовое различие во множественном числе
+
+В отличие от русского языка, личные местоимения во множественном числе различаются по родам:
+
+- **nosotros, vosotros, ellos** используются для группы, состоящей из лиц мужского пола или смешанной группы (мужчины + женщины).
+- **nosotras, vosotras, ellas** используются только для группы, состоящей исключительно из лиц женского пола.
+
+## Вежливые формы
+
+Местоимение **usted** (ед.ч., Вы) и **ustedes** (мн.ч., Вы) – это сокращения от архаичной формы Vuestra Merced (Ваша милость).
+
+Поэтому они всегда употребляются с глаголами в форме третьего лица (например: Usted comprende — Вы понимаете, буквально: Ваша милость понимает).
+
+При письме вежливые формы часто сокращаются:
+- Единственное число: **Ud.** или **Vd.**
+- Множественное число: **Uds.** или **Vds.**
+
+## Употребление местоимений
+
+Личные местоимения (кроме вежливых форм) в устной и письменной речи, как правило, опускаются, так как лицо глагола ясно по его спряжению.
+
+Они используются только в случаях, когда:
+- Есть противопоставление (например: **Yo leo, pero tú escribes** — Я читаю, а ты пишешь).
+- Местоимение является логическим или грамматическим центром фразы (для акцента или ясности).
+
+# § 5. Глаголы SER и ESTAR
+
+Глаголы **ser** и **estar** оба переводятся как «быть», «являться», «находиться», но используются в разных контекстах. Оба глагола выполняют роль глагола-связки, которая обязательна в испанском предложении (в отличие от русского).
+
+## Глагол SER (быть, являться)
+
+### Спряжение в настоящем времени (Presente de Indicativo)
+
+| Местоимение | Форма SER |
+|-------------|-----------|
+| yo | soy |
+| tú | eres |
+| él, ella, usted | es |
+| nosotros, nosotras | somos |
+| vosotros, vosotras | sois |
+| ellos, ellas, ustedes | son |
+
+### Употребление Ser
+
+Ser используется для обозначения постоянных, неотъемлемых характеристик, то есть того, что определяет подлежащее:
+
+| Контекст | Пример | Перевод |
+|----------|--------|---------|
+| Имя или фамилия | Soy Pablo. | Меня зовут Павел. |
+| Родственные связи | Don Juan es el padre de José. | Дон Хуан — отец Хосе. |
+| Происхождение/Национальность | Yo soy ruso. Soy de Moscú. | Я — русский. Я из Москвы. |
+| Род занятий/Профессия | Ana es economista. | Анна — экономист. |
+| Качество (характер, свойство) | Somos jóvenes. José es alegre. | Мы — молоды. Хосе веселый (по характеру). |
+
+## Глагол ESTAR (быть, находиться)
+
+### Спряжение в настоящем времени (Presente de Indicativo)
+
+| Местоимение | Форма ESTAR |
+|-------------|-------------|
+| yo | estoy |
+| tú | estás |
+| él, ella, usted | está |
+| nosotros, nosotras | estamos |
+| vosotros, vosotras | estáis |
+| ellos, ellas, ustedes | están |
+
+### Употребление Estar
+
+Estar используется для обозначения временных состояний, положений или местонахождения:
+
+| Контекст | Пример | Перевод |
+|----------|--------|---------|
+| Местонахождение | Los amigos están en la playa. | Друзья (находятся) на пляже. |
+| | Nosotros estamos en casa. | Мы (находимся) дома. |
+| Временный признак/состояние | Lola está enferma. | Лола больна (сейчас). |
+| Самочувствие | Estoy bien. | Я хорошо себя чувствую. |
+| Временная эмоция | Usted está contento. José está alegre. | Вы довольны (в данный момент). Хосе весел (в данный момент). |
+
+## Сравнение Ser и Estar
+
+Некоторые прилагательные могут сочетаться с обоими глаголами, но при этом меняется смысл высказывания, так как Ser говорит о постоянном качестве, а Estar — о временном состоянии:
+
+| SER (Постоянное качество) | ESTAR (Временное состояние) |
+|---------------------------|----------------------------|
+| José es alegre. (Хосе веселый по характеру.) | José está alegre. (Хосе весел в данный момент.) |
+| Pilar es guapa. (Пилар красивая в целом.) | Pilar está guapa. (Пилар нарядная/хорошо выглядит сейчас.) |
+| Es una cuestión regular. (Обычный вопрос.) | Estoy regular. (Я неважно себя чувствую.) |
       `
     },
     vocabulary: [
-      { word: '¿Cuántos años tienes?', translation: 'сколько тебе лет?', audioUrl: null },
-      { word: 'Tengo ... años', translation: 'мне ... лет', audioUrl: null },
-      { word: 'número', translation: 'число', audioUrl: null },
-      { word: 'edad', translation: 'возраст', audioUrl: null }
+      { word: 'yo', translation: 'я', audioUrl: null },
+      { word: 'tú', translation: 'ты', audioUrl: null },
+      { word: 'él', translation: 'он', audioUrl: null },
+      { word: 'ella', translation: 'она', audioUrl: null },
+      { word: 'nosotros', translation: 'мы (м.р.)', audioUrl: null },
+      { word: 'nosotras', translation: 'мы (ж.р.)', audioUrl: null },
+      { word: 'vosotros', translation: 'вы (м.р.)', audioUrl: null },
+      { word: 'vosotras', translation: 'вы (ж.р.)', audioUrl: null },
+      { word: 'ellos', translation: 'они (м.р.)', audioUrl: null },
+      { word: 'ellas', translation: 'они (ж.р.)', audioUrl: null },
+      { word: 'usted', translation: 'Вы (вежл., ед.ч.)', audioUrl: null },
+      { word: 'ustedes', translation: 'Вы (вежл., мн.ч.)', audioUrl: null },
+      { word: 'ser', translation: 'быть, являться', audioUrl: null },
+      { word: 'estar', translation: 'быть, находиться', audioUrl: null },
+      { word: 'soy', translation: '(я) есть/являюсь', audioUrl: null },
+      { word: 'eres', translation: '(ты) есть/являешься', audioUrl: null },
+      { word: 'es', translation: '(он/она/Вы) есть/является', audioUrl: null },
+      { word: 'somos', translation: '(мы) есть/являемся', audioUrl: null },
+      { word: 'sois', translation: '(вы) есть/являетесь', audioUrl: null },
+      { word: 'son', translation: '(они/Вы) есть/являются', audioUrl: null },
+      { word: 'estoy', translation: '(я) нахожусь', audioUrl: null },
+      { word: 'estás', translation: '(ты) находишься', audioUrl: null },
+      { word: 'está', translation: '(он/она/Вы) находится', audioUrl: null },
+      { word: 'estamos', translation: '(мы) находимся', audioUrl: null },
+      { word: 'estáis', translation: '(вы) находитесь', audioUrl: null },
+      { word: 'están', translation: '(они/Вы) находятся', audioUrl: null },
+      { word: 'en', translation: 'в', audioUrl: null },
+      { word: 'de', translation: 'из, от', audioUrl: null },
+      { word: 'bien', translation: 'хорошо', audioUrl: null },
+      { word: '¿Cómo te llamas?', translation: 'как тебя зовут?', audioUrl: null },
+      { word: 'Me llamo', translation: 'меня зовут', audioUrl: null },
+      { word: '¿De dónde eres?', translation: 'откуда ты?', audioUrl: null },
+      { word: '¿Cómo estás?', translation: 'как (ты) себя чувствуешь?', audioUrl: null },
+      { word: '¿Cómo es?', translation: 'какой он/она?', audioUrl: null },
+      { word: 'Mucho gusto', translation: 'очень приятно', audioUrl: null },
+      { word: 'Encantado, -a', translation: 'рад(а) познакомиться', audioUrl: null },
+      { word: '¿Dónde?', translation: 'где?', audioUrl: null },
+      { word: 'ahora', translation: 'сейчас', audioUrl: null },
+      { word: '¿Cómo se llama usted?', translation: 'как Вас зовут?', audioUrl: null },
+      { word: 'señor', translation: 'господин', audioUrl: null },
+      { word: 'señora', translation: 'госпожа', audioUrl: null },
+      { word: 'señorita', translation: 'сеньорита', audioUrl: null },
+      { word: 'don', translation: 'дон (почтительное обращение)', audioUrl: null },
+      { word: 'doña', translation: 'донья (почтительное обращение)', audioUrl: null },
+      { word: 'mi', translation: 'мой, моя, моё', audioUrl: null },
+      { word: 'tu', translation: 'твой, твоя, твоё', audioUrl: null },
+      { word: 'su', translation: 'его, её, Ваш', audioUrl: null }
     ],
     readingText: {
-      title: 'Diálogos de conocimiento',
-      content: `**Diálogo 1: Conocimiento Informal**
+      title: 'Conocimientos y estados',
+      content: `**Diálogo 1: Conocimiento informal**
 — ¡Hola! ¿Cómo te llamas?
 — Me llamo Ana. ¿Y tú?
-— Yo soy Carlos. Mucho gusto.
+— Yo soy Pablo. Mucho gusto.
 — Encantada. ¿De dónde eres?
-— Soy de Barcelona. ¿Y tú?
-— Yo soy de Madrid.
+— Soy de la ciudad. ¿Y tú?
+— Yo soy de la ciudad.
 
-**Diálogo 2: Conocimiento Formal**
+**Diálogo 2: Conocimiento formal**
 — Buenos días. ¿Cómo se llama usted?
-— Me llamo señor Rodríguez. ¿Y usted?
-— Yo soy señora García. Mucho gusto.
-— Encantado. ¿De dónde es usted?
-— Soy de España, de Valencia.
-— ¡Qué bien! Yo soy de Sevilla.
+— Me llamo señor López. ¿Y usted?
+— Yo soy señora Martínez. Mucho gusto.
+— Encantado. ¿Cómo está usted?
+— Estoy bien, gracias. ¿Y usted?
+— Muy bien, muchas gracias.
 
-**Diálogo 3: Estados de Ánimo**
-— ¡Hola Pedro! ¿Cómo estás?
-— Bien, gracias. ¿Y tú, María?
-— Estoy muy contenta hoy.
-— ¿Dónde estás ahora?
-— Estoy en casa. ¿Y tú?
-— Yo estoy en la oficina.
+**Diálogo 3: Estados y ubicación**
+— ¡Hola! ¿Cómo estás?
+— Bien, gracias. ¿Y tú?
+— Estoy contenta. ¿Dónde estás ahora?
+— Estoy en casa. Mi hermano está en el museo.
+— ¿Cómo es tu hermano?
+— Mi hermano es joven y alegre. Él es estudiante.
 
-**Diálogo 4: Características Personales**
-— ¿Cómo es tu amigo?
-— Mi amigo es alto y joven. Es de Rusia.
-— ¿Está en España ahora?
-— Sí, está en Madrid. Está muy feliz.
-— ¿Y tú? ¿Cómo eres?
-— Yo soy bajo y viejo. Soy español.`,
+**Diálogo 4: Características personales**
+— ¿Cómo es tu amiga?
+— Mi amiga es guapa y joven. Ella es estudiante.
+— ¿Dónde está ella ahora?
+— Está en la playa. Está feliz.
+— ¿Y tu hermana?
+— Mi hermana está en casa. Ella está enferma.
+
+**Diálogo 5: La familia**
+— Buenos días. ¿Qué tal la familia?
+— Bien, gracias. Mi padre y mi madre están en casa.
+— ¿Cómo son ellos?
+— Mi padre es alto. Él es bueno. Mi madre es alegre. Ella es buena.
+— ¿Tienes hermanos?
+— Sí. Yo tengo un hermano y una hermana. Ellos son jóvenes.
+
+**Texto: Mi familia y yo**
+¡Hola! Me llamo Carlos. Yo soy joven. Soy estudiante. Estoy en la ciudad.
+
+Mi padre es bueno. Él está en casa. Mi madre es alegre. Ella está en el museo. Mi hermano es alto. Él está en la playa. Mi hermana es guapa. Ella está en casa.
+
+Nosotros somos felices. Hoy es lunes. El día es bonito. El sol está en el cielo. Gracias. Adiós.`,
       translation: `**Диалог 1: Неформальное знакомство**
 — Привет! Как тебя зовут?
 — Меня зовут Ана. А тебя?
-— Я Карлос. Очень приятно.
+— Я Пабло. Очень приятно.
 — Рада познакомиться. Откуда ты?
-— Я из Барселоны. А ты?
-— Я из Мадрида.
+— Я из города. А ты?
+— Я из города.
 
 **Диалог 2: Формальное знакомство**
 — Доброе утро. Как вас зовут?
-— Меня зовут сеньор Родригес. А вас?
-— Я сеньора Гарсия. Очень приятно.
-— Рад познакомиться. Откуда вы?
-— Я из Испании, из Валенсии.
-— Как хорошо! Я из Севильи.
+— Меня зовут сеньор Лопес. А вас?
+— Я сеньора Мартинес. Очень приятно.
+— Рад познакомиться. Как вы себя чувствуете?
+— Я хорошо, спасибо. А вы?
+— Очень хорошо, большое спасибо.
 
-**Диалог 3: Настроение**
-— Привет, Педро! Как дела?
-— Хорошо, спасибо. А у тебя, Мария?
-— Я сегодня очень довольна.
-— Где ты сейчас?
-— Я дома. А ты?
-— Я в офисе.
+**Диалог 3: Состояния и местонахождение**
+— Привет! Как дела?
+— Хорошо, спасибо. А у тебя?
+— Я довольна. Где ты сейчас?
+— Я дома. Мой брат в музее.
+— Какой твой брат?
+— Мой брат молодой и весёлый. Он студент.
 
 **Диалог 4: Личные характеристики**
-— Какой твой друг?
-— Мой друг высокий и молодой. Он из России.
-— Он сейчас в Испании?
-— Да, он в Мадриде. Он очень счастлив.
-— А ты? Какой ты?
-— Я низкий и старый. Я испанец.`,
+— Какая твоя подруга?
+— Моя подруга красивая и молодая. Она студентка.
+— Где она сейчас?
+— Она на пляже. Она счастлива.
+— А твоя сестра?
+— Моя сестра дома. Она больна.
+
+**Диалог 5: Семья**
+— Доброе утро. Как семья?
+— Хорошо, спасибо. Мой отец и моя мать дома.
+— Какие они?
+— Мой отец высокий. Он хороший. Моя мать весёлая. Она хорошая.
+— У тебя есть братья и сёстры?
+— Да. У меня есть брат и сестра. Они молодые.
+
+**Текст: Моя семья и я**
+Привет! Меня зовут Карлос. Я молодой. Я студент. Я в городе.
+
+Мой отец хороший. Он дома. Моя мать весёлая. Она в музее. Мой брат высокий. Он на пляже. Моя сестра красивая. Она дома.
+
+Мы счастливы. Сегодня понедельник. День красивый. Солнце в небе. Спасибо. Пока.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 4, text: '¡Hola! ¿Cómo te llamas?' },
@@ -1044,7 +1200,7 @@ Por la noche, Carlos está en casa. La casa es cómoda. Carlos lee un libro con 
         { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3', 'ex-1-3-4', 'ex-1-3-5']
+    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3']
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
@@ -4971,105 +5127,70 @@ Pedro: Igualmente. Muchas gracias.
   'ex-1-3-1': {
     id: 'ex-1-3-1',
     type: 'grammar',
-    title: 'Глагол SER',
-    description: 'Выберите правильную форму глагола SER',
+    title: 'Упражнение на спряжение и согласование',
+    description: 'Поставьте глагол и прилагательное в нужную форму по образцу',
     questions: [
-      { sentence: 'Yo ___ de Madrid', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
-      { sentence: 'Tú ___ alto y joven', options: ['soy', 'eres', 'es', 'somos'], correct: 1 },
-      { sentence: 'Él ___ de Barcelona', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
-      { sentence: 'Ella ___ española', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
-      { sentence: 'Nosotros ___ amigos', options: ['soy', 'eres', 'somos', 'son'], correct: 2 },
-      { sentence: 'Vosotros ___ de Rusia', options: ['soy', 'sois', 'es', 'son'], correct: 1 },
-      { sentence: 'Ellos ___ estudiantes', options: ['soy', 'eres', 'es', 'son'], correct: 3 },
-      { sentence: 'Usted ___ muy amable', options: ['soy', 'eres', 'es', 'son'], correct: 2 },
-      { sentence: 'Yo ___ bajo y viejo', options: ['soy', 'eres', 'es', 'son'], correct: 0 },
-      { sentence: 'Tú y yo ___ felices', options: ['soy', 'eres', 'somos', 'son'], correct: 2 }
+      { pattern: 'Yo soy rusa.', result: 'María y yo somos rusas.', question: 'Преобразуйте предложение с María y yo', options: ['María y yo soy rusa.', 'María y yo somos rusas.', 'María y yo son rusas.', 'María y yo eres rusas.'], correct: 1 },
+      { pattern: 'Tú eres economista.', result: 'Carmen y tú sois economistas.', question: 'Преобразуйте предложение с Carmen y tú', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
+      { pattern: 'Luis es joven.', result: 'Luis y Andrés son jóvenes.', question: 'Преобразуйте предложение с Luis y Andrés', options: ['Luis y Andrés es joven.', 'Luis y Andrés son jóvenes.', 'Luis y Andrés sois jóvenes.', 'Luis y Andrés somos jóvenes.'], correct: 1 },
+      { pattern: 'Tú estás casado.', result: 'Nosotros estamos casados.', question: 'Преобразуйте предложение с Nosotros', options: ['Nosotros estás casado.', 'Nosotros estamos casados.', 'Nosotros están casados.', 'Nosotros estoy casado.'], correct: 1 },
+      { pattern: 'María y yo somos españolas.', result: 'César y Susana son españoles.', question: 'Преобразуйте предложение с César y Susana', options: ['César y Susana somos españolas.', 'César y Susana son españoles.', 'César y Susana sois españoles.', 'César y Susana es español.'], correct: 1 },
+      { pattern: 'Ellas son de Madrid.', result: 'Vosotros sois de Madrid.', question: 'Преобразуйте предложение с Vosotros', options: ['Vosotros son de Madrid.', 'Vosotros sois de Madrid.', 'Vosotros somos de Madrid.', 'Vosotros es de Madrid.'], correct: 1 },
+      { pattern: 'Los amigos están en la playa.', result: 'Enrique está en la playa.', question: 'Преобразуйте предложение с Enrique', options: ['Enrique están en la playa.', 'Enrique está en la playa.', 'Enrique estamos en la playa.', 'Enrique estoy en la playa.'], correct: 1 },
+      { pattern: 'Luisa y tú estáis enfermos.', result: 'Luisa está enferma.', question: 'Преобразуйте предложение с Luisa', options: ['Luisa estáis enfermos.', 'Luisa está enferma.', 'Luisa estamos enfermas.', 'Luisa están enferma.'], correct: 1 },
+      { pattern: 'Clara y yo somos felices.', result: 'Ustedes son felices.', question: 'Преобразуйте предложение с Ustedes', options: ['Ustedes somos felices.', 'Ustedes son felices.', 'Ustedes sois felices.', 'Ustedes es feliz.'], correct: 1 },
+      { pattern: 'Vosotros estáis guapos.', result: 'Nosotras estamos guapas.', question: 'Преобразуйте предложение с Nosotras', options: ['Nosotras estáis guapos.', 'Nosotras estamos guapas.', 'Nosotras están guapas.', 'Nosotras estoy guapa.'], correct: 1 }
     ]
   },
   'ex-1-3-2': {
     id: 'ex-1-3-2',
-    type: 'vocabulary',
-    title: 'Знакомство - Диалоги',
-    description: 'Выберите правильный ответ из диалогов',
+    type: 'grammar',
+    title: 'Выбор глагола SER или ESTAR',
+    description: 'Выберите по смыслу глагол ser или estar и поставьте его в соответствующую форму',
     questions: [
-      { spanish: '¿Cómo te llamas?', options: ['Me llamo Ana', 'Soy de Madrid', 'Estoy bien', 'Mucho gusto'], correct: 0 },
-      { spanish: '¿De dónde eres?', options: ['Me llamo Carlos', 'Soy de Barcelona', 'Estoy en casa', 'Encantado'], correct: 1 },
-      { spanish: '¿Cómo estás?', options: ['Soy feliz', 'Estoy bien, gracias', 'Soy de España', 'Me llamo Pedro'], correct: 1 },
-      { spanish: '¿Dónde estás ahora?', options: ['Soy alto', 'Estoy en la oficina', 'Soy de Rusia', 'Me llamo María'], correct: 1 },
-      { spanish: '¿Cómo es tu amigo?', options: ['Está feliz', 'Es alto y joven', 'Estoy bien', 'Soy español'], correct: 1 },
-      { spanish: 'Mucho gusto', options: ['Encantado/a', 'De nada', 'Adiós', 'Hola'], correct: 0 }
+      { sentence: 'Yo ___ estudiante.', options: ['soy', 'estoy', 'eres', 'estás'], correct: 0 },
+      { sentence: 'Tú ___ en casa.', options: ['eres', 'soy', 'estás', 'estoy'], correct: 2 },
+      { sentence: 'Ella ___ joven y guapa.', options: ['está', 'es', 'están', 'son'], correct: 1 },
+      { sentence: 'Nosotros ___ en el museo.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 1 },
+      { sentence: 'Vosotros ___ felices (по характеру).', options: ['estáis', 'sois', 'están', 'son'], correct: 1 },
+      { sentence: 'Ellos ___ enfermos (сейчас).', options: ['son', 'están', 'sois', 'estáis'], correct: 1 },
+      { sentence: 'Usted ___ de la ciudad.', options: ['está', 'es', 'están', 'son'], correct: 1 },
+      { sentence: 'Mi hermano ___ alto.', options: ['está', 'es', 'están', 'son'], correct: 1 },
+      { sentence: 'Mi hermana ___ en la playa.', options: ['es', 'está', 'son', 'están'], correct: 1 },
+      { sentence: 'Los amigos ___ alegres (по характеру).', options: ['están', 'son', 'estáis', 'sois'], correct: 1 },
+      { sentence: 'El libro ___ malo.', options: ['está', 'es', 'están', 'son'], correct: 1 },
+      { sentence: 'Las niñas ___ en casa.', options: ['son', 'están', 'sois', 'estáis'], correct: 1 },
+      { sentence: 'Yo ___ contento (сейчас).', options: ['soy', 'estoy', 'eres', 'estás'], correct: 1 },
+      { sentence: 'María ___ buena (по характеру).', options: ['está', 'es', 'están', 'son'], correct: 1 },
+      { sentence: 'Mi padre y mi madre ___ buenos.', options: ['están', 'son', 'estáis', 'sois'], correct: 1 }
     ]
   },
   'ex-1-3-3': {
     id: 'ex-1-3-3',
-    type: 'dialogue-practice',
-    title: 'Диалоги знакомства',
-    description: 'Заполните пропуски в диалогах',
-    questions: [
-      { question: '¿Cómo ___ llamas?', options: ['te', 'se', 'me', 'le'], correct: 0 },
-      { question: '___ llamo Ana', options: ['Te', 'Se', 'Me', 'Le'], correct: 2 },
-      { question: '¿De dónde ___?', options: ['estás', 'eres', 'está', 'es'], correct: 1 },
-      { question: '___ de Madrid', options: ['Estoy', 'Soy', 'Está', 'Es'], correct: 1 },
-      { question: '¿Cómo ___?', options: ['estás', 'eres', 'te llamas', 'es'], correct: 0 },
-      { question: '¿Dónde ___ ahora?', options: ['eres', 'estás', 'soy', 'es'], correct: 1 },
-      { question: '___ en casa', options: ['Soy', 'Estoy', 'Es', 'Está'], correct: 1 },
-      { question: '¿Cómo ___ tu amigo?', options: ['está', 'es', 'estás', 'eres'], correct: 1 }
-    ]
-  },
-  'ex-1-3-4': {
-    id: 'ex-1-3-4',
-    type: 'reading-comprehension',
-    title: 'Чтение - Понимание текстов',
-    description: 'Прочитайте тексты и ответьте на вопросы',
-    texts: [
-      {
-        text: 'Hola, me llamo Carlos. Soy de Barcelona. Soy alto y joven. Estoy en Madrid ahora. Estoy muy feliz.',
-        question: '¿De dónde es Carlos?',
-        options: ['De Madrid', 'De Barcelona', 'De España', 'De Rusia'],
-        correct: 1
-      },
-      {
-        text: 'Mi amiga Ana es de Madrid. Es baja y bonita. Está en la oficina. Está muy contenta.',
-        question: '¿Cómo es Ana?',
-        options: ['Alta y bonita', 'Baja y bonita', 'Alta y fea', 'Baja y fea'],
-        correct: 1
-      },
-      {
-        text: 'Yo soy Pedro. Soy español. Soy de Valencia. Estoy en casa con mi familia. Somos muy felices.',
-        question: '¿Dónde está Pedro?',
-        options: ['En la oficina', 'En Madrid', 'En casa', 'En Valencia'],
-        correct: 2
-      },
-      {
-        text: 'María y Juan son amigos. María es alta y Juan es bajo. Ellos están en la universidad. Están muy ocupados.',
-        question: '¿Cómo es Juan?',
-        options: ['Alto', 'Bajo', 'Gordo', 'Delgado'],
-        correct: 1
-      },
-      {
-        text: 'El señor Rodríguez es de Sevilla. Es viejo y amable. Está en el hospital. Está enfermo.',
-        question: '¿Dónde está el señor Rodríguez?',
-        options: ['En casa', 'En la oficina', 'En el hospital', 'En Sevilla'],
-        correct: 2
-      }
-    ]
-  },
-  'ex-1-3-5': {
-    id: 'ex-1-3-5',
     type: 'translation',
-    title: 'Перевод с русского - ESTAR',
-    description: 'Переведите предложения с глаголом ESTAR на испанский',
+    title: 'Перевод предложений на испанский язык',
+    description: 'Переведите предложения на испанский, используя глаголы SER или ESTAR',
     questions: [
-      { russian: 'Я дома.', correct: 'Yo estoy en casa.' },
-      { russian: 'Ты в офисе.', correct: 'Tú estás en la oficina.' },
-      { russian: 'Она довольна.', correct: 'Ella está contenta.' },
-      { russian: 'Мы счастливы (сегодня).', correct: 'Nosotros estamos felices.' },
-      { russian: 'Вы (друзья) в Мадриде.', correct: 'Vosotros estáis en Madrid.' },
-      { russian: 'Они больны.', correct: 'Ellos están enfermos.' },
-      { russian: 'Вы (уваж.) в Испании.', correct: 'Usted está en España.' },
-      { russian: 'Я грустный сегодня.', correct: 'Yo estoy triste hoy.' },
-      { russian: 'Он очень занят (сейчас).', correct: 'Él está muy ocupado.' },
-      { russian: 'Мы в университете.', correct: 'Nosotros estamos en la universidad.' }
+      { russian: 'Ты стройная, красивая и молодая.', correct: 'Tú eres delgada, guapa y joven.' },
+      { russian: 'Мы — русские, из Москвы.', correct: 'Nosotros somos rusos, de Moscú.' },
+      { russian: 'Они женаты и счастливы.', correct: 'Ellos están casados y son felices.' },
+      { russian: 'Анна и Рауль на пляже.', correct: 'Ana y Raúl están en la playa.' },
+      { russian: 'Книга плохая и дорогая.', correct: 'El libro es malo y caro.' },
+      { russian: 'Девочки дома.', correct: 'Las niñas están en casa.' },
+      { russian: 'Я в Испании. Я счастлив.', correct: 'Yo estoy en España. Yo soy feliz.' },
+      { russian: 'Мария и Елена — студентки. Они из Испании.', correct: 'María y Elena son estudiantes. Ellas son de España.' },
+      { russian: 'Филипп — брат Мерседес.', correct: 'Felipe es el hermano de Mercedes.' },
+      { russian: 'Сеньора, Вы веселая и добрая.', correct: 'Señora, Usted es alegre y buena.' },
+      { russian: 'Я студент.', correct: 'Yo soy estudiante.' },
+      { russian: 'Ты дома.', correct: 'Tú estás en casa.' },
+      { russian: 'Он молодой.', correct: 'Él es joven.' },
+      { russian: 'Она в музее.', correct: 'Ella está en el museo.' },
+      { russian: 'Мы счастливы.', correct: 'Nosotros somos felices.' },
+      { russian: 'Вы на пляже.', correct: 'Vosotros estáis en la playa.' },
+      { russian: 'Они студенты.', correct: 'Ellos son estudiantes.' },
+      { russian: 'Я хорошо себя чувствую.', correct: 'Yo estoy bien.' },
+      { russian: 'Мой брат высокий.', correct: 'Mi hermano es alto.' },
+      { russian: 'Моя сестра больна.', correct: 'Mi hermana está enferma.' }
     ]
   },
 
