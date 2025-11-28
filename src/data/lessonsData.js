@@ -915,25 +915,35 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       { word: 'pobre', translation: 'бедный', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi día en la ciudad',
-      content: `Hola. Buenos días. Me llamo Carlos. Soy un chico. Soy un estudiante.
+      title: 'La familia y la ciudad',
+      content: `Hola. Buenos días. Un día bonito. El sol. La ciudad. La ciudad grande.
 
-El lunes es un día bonito. El sol brilla en la ciudad. La ciudad es grande.
+Un chico. Una chica. Un hermano. Una hermana. El padre. La madre. El papá. La familia. ¿Qué tal la familia? Todo va bien. Gracias.
 
-Por la mañana, el padre y la madre toman un café en la casa. El hermano lee un libro. La chica estudia en el aula con una alumna.
+Un amigo bueno. Una amiga buena. El hombre alto. La mujer alta. El estudiante joven. El economista. Un cliente.
 
-El amigo de Carlos vive en la calle. La calle es larga. En la calle hay un museo, una estación y una playa. El museo es interesante. La playa es bonita.
+La casa. La casa grande. La casa bonita. La casa nueva. Un museo. El museo interesante. El museo antiguo. Una playa. La playa bonita. Una calle. La calle larga. Una estación.
 
-Por la tarde, Carlos va al museo en un coche. El coche es rápido. En el museo hay una flor bonita. La luz del sol ilumina la flor.
+El lunes. El día largo. El día bueno. La tarde. La noche. La noche fría. Buenas tardes. Buenas noches.
 
-El economista trabaja en la oficina. El cliente espera. El hombre y la mujer hablan. Gracias, adiós.
+Un libro. El libro nuevo. El libro interesante. Un lápiz. Una alumna. Un aula.
 
-Por la noche, Carlos está en casa. La casa es cómoda. Carlos lee un libro con un lápiz en la mano. ¿Qué tal? Todo va bien.`,
-      translation: 'Мой день в городе\n\nПривет. Доброе утро. Меня зовут Карлос. Я мальчик. Я студент.\n\nПонедельник — прекрасный день. Солнце светит в городе. Город большой.\n\nУтром отец и мать пьют кофе дома. Брат читает книгу. Девочка учится в аудитории с ученицей.\n\nДруг Карлоса живет на улице. Улица длинная. На улице есть музей, станция и пляж. Музей интересный. Пляж красивый.\n\nВечером Карлос едет в музей на машине. Машина быстрая. В музее есть красивый цветок. Свет солнца освещает цветок.\n\nЭкономист работает в офисе. Клиент ждет. Мужчина и женщина разговаривают. Спасибо, до свидания.\n\nВечером Карлос дома. Дом уютный. Карлос читает книгу с карандашом в руке. Как дела? Все хорошо.',
+Un coche. El coche caro. Un avión. El avión grande.
+
+Un café. El café caliente. El agua. El agua fría.
+
+Una flor. La flor bonita. La flor blanca. El sol. La luz.
+
+El país. La ciudad. El amor. La felicidad. La salud. El dinero. Las vacaciones. El cumpleaños. Más o menos bien. Regular.
+
+Un hombre rico. Una mujer pobre. Un chico alegre. Una chica triste. Un padre feliz. Una madre contenta.
+
+Adiós. Gracias. Muchas gracias. De nada. Por favor. ¿Qué tal? Bien.`,
+      translation: 'Семья и город\n\nПривет. Доброе утро. Хороший день. Солнце. Город. Большой город.\n\nМальчик. Девочка. Брат. Сестра. Отец. Мать. Папа. Семья. Как семья? Все хорошо. Спасибо.\n\nХороший друг. Хорошая подруга. Высокий мужчина. Высокая женщина. Молодой студент. Экономист. Клиент.\n\nДом. Большой дом. Красивый дом. Новый дом. Музей. Интересный музей. Старинный музей. Пляж. Красивый пляж. Улица. Длинная улица. Станция.\n\nПонедельник. Длинный день. Хороший день. Вечер. Ночь. Холодная ночь. Добрый день. Добрый вечер.\n\nКнига. Новая книга. Интересная книга. Карандаш. Ученица. Аудитория.\n\nМашина. Дорогая машина. Самолет. Большой самолет.\n\nКофе. Горячий кофе. Вода. Холодная вода.\n\nЦветок. Красивый цветок. Белый цветок. Солнце. Свет.\n\nСтрана. Город. Любовь. Счастье. Здоровье. Деньги. Каникулы. День рождения. Более или менее хорошо. Так себе.\n\nБогатый мужчина. Бедная женщина. Веселый мальчик. Грустная девочка. Счастливый отец. Довольная мать.\n\nПока. Спасибо. Большое спасибо. Пожалуйста. Пожалуйста. Как дела? Хорошо.',
       audioUrl: '/audio/lesson-1-2-reading.mp3',
       subtitles: []
     },
-    exercises: ['ex-1-2-1', 'ex-1-2-2', 'ex-1-2-3', 'ex-1-2-5', 'ex-1-2-6', 'ex-1-2-4']
+    exercises: ['ex-1-2-1', 'ex-1-2-2', 'ex-1-2-3', 'ex-1-2-4', 'ex-1-2-5', 'ex-1-2-6', 'ex-1-2-7', 'ex-1-2-8', 'ex-1-2-9', 'ex-1-2-10']
   },
   'lesson-1-3': {
     id: 'lesson-1-3',
@@ -1184,7 +1194,7 @@ El dinero. El amor. La felicidad. La salud.`,
         { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-6', 'ex-1-3-7']
+    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-3']
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
@@ -4964,8 +4974,8 @@ Pedro: Igualmente. Muchas gracias.
       { sentence: '___ día', options: ['el', 'la', 'los', 'las'], correct: 0 }
     ]
   },
-  'ex-1-2-4': {
-    id: 'ex-1-2-4',
+  'ex-1-2-6': {
+    id: 'ex-1-2-6',
     type: 'grammar',
     title: 'Неопределенный артикль',
     description: 'Выберите правильный неопределенный артикль (un, una, unos, unas)',
@@ -4987,8 +4997,8 @@ Pedro: Igualmente. Muchas gracias.
       { sentence: '___ flor bonita', options: ['un', 'una', 'unos', 'unas'], correct: 1 }
     ]
   },
-  'ex-1-2-5': {
-    id: 'ex-1-2-5',
+  'ex-1-2-4': {
+    id: 'ex-1-2-4',
     type: 'reading-comprehension',
     title: 'Понимание прочитанного',
     description: 'Прочитайте текст "Mi día en la ciudad" и ответьте на вопросы',
@@ -5021,8 +5031,8 @@ Pedro: Igualmente. Muchas gracias.
       { text: '¿Qué tal? Todo va bien.', question: '¿Cómo está todo?', options: ['mal', 'regular', 'bien', 'muy mal'], correct: 2 }
     ]
   },
-  'ex-1-2-6': {
-    id: 'ex-1-2-6',
+  'ex-1-2-5': {
+    id: 'ex-1-2-5',
     type: 'vocabulary',
     title: 'Словарь',
     description: 'Выберите правильный перевод слова',
@@ -5177,8 +5187,8 @@ Pedro: Igualmente. Muchas gracias.
       { russian: 'Моя сестра больна.', correct: 'Mi hermana está enferma.' }
     ]
   },
-  'ex-1-3-4': {
-    id: 'ex-1-3-4',
+  'ex-1-2-7': {
+    id: 'ex-1-2-7',
     type: 'grammar',
     title: 'Согласование существительных с прилагательными',
     description: 'A) Согласование по роду (Единственное число). Образец: un señor gordo → una señora gorda',
@@ -5193,8 +5203,8 @@ Pedro: Igualmente. Muchas gracias.
       { pattern: 'un policía joven', options: ['una señorita joven', 'una señorita jovina', 'un señorita joven', 'un señorita jovina'], correct: 0 }
     ]
   },
-  'ex-1-3-5': {
-    id: 'ex-1-3-5',
+  'ex-1-2-8': {
+    id: 'ex-1-2-8',
     type: 'grammar',
     title: 'Согласование по числу (Множественное число)',
     description: 'B) Согласование по числу. Образец: una casa nueva → las casas nuevas',
@@ -5209,8 +5219,8 @@ Pedro: Igualmente. Muchas gracias.
       { pattern: 'una cuestión regular', options: ['las cuestiones regulares', 'las cuestiones regular', 'los cuestiones regulares', 'los cuestiones regular'], correct: 0 }
     ]
   },
-  'ex-1-3-6': {
-    id: 'ex-1-3-6',
+  'ex-1-2-9': {
+    id: 'ex-1-2-9',
     type: 'vocabulary',
     title: 'Замените прилагательные на антонимы',
     description: 'Замените прилагательные в словосочетаниях на их антонимы',
@@ -5232,8 +5242,8 @@ Pedro: Igualmente. Muchas gracias.
       { spanish: 'un problema difícil', options: ['un problema fácil', 'un problema malo', 'un problema pequeño', 'un problema viejo'], correct: 0 }
     ]
   },
-  'ex-1-3-7': {
-    id: 'ex-1-3-7',
+  'ex-1-2-10': {
+    id: 'ex-1-2-10',
     type: 'translation',
     title: 'Переведите на испанский язык словосочетания',
     description: 'Переведите словосочетания на испанский язык, используя определенные артикли',
