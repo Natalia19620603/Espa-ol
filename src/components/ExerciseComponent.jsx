@@ -415,6 +415,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
             <TranslationQuestion
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              exerciseId={exercise.id}
             />
           )}
         </div>
@@ -1327,7 +1328,7 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
   )
 }
 
-function TranslationQuestion({ question, onAnswer }) {
+function TranslationQuestion({ question, onAnswer, exerciseId }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
 
@@ -1339,8 +1340,8 @@ function TranslationQuestion({ question, onAnswer }) {
         setShowFeedback(true)
         setTimeout(() => {
           setShowFeedback(false)
-          setInput('')
           onAnswer(input)
+          setInput('')
         }, 2000)
       } else {
         onAnswer(input)
@@ -1348,9 +1349,12 @@ function TranslationQuestion({ question, onAnswer }) {
     }
   }
 
+  // Определяем текст для заголовка в зависимости от ID упражнения
+  const questionPrefix = exerciseId === 'ex-1-4-test' ? 'Измените' : 'Переведите'
+
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>Переведите: <strong>{question.russian}</strong></h3>
+      <h3 className={styles.questionText}>{questionPrefix}: <strong>{question.russian}</strong></h3>
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
