@@ -38,52 +38,52 @@ export const modules = {
   },
   'module-3': {
     id: 'module-3',
-    title: 'Модуль 3: Повседневная жизнь',
+    title: 'Модуль 3',
     level: 'beginner',
     lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3'],
-    description: 'Лексика о семье, работе, хобби'
+    description: ''
   },
   'module-4': {
     id: 'module-4',
-    title: 'Модуль 4: Прошедшее время',
+    title: 'Модуль 4',
     level: 'elementary',
     lessons: ['lesson-4-1', 'lesson-4-2', 'lesson-4-3'],
-    description: 'Pretérito perfecto и прошедшие события'
+    description: ''
   },
   'module-5': {
     id: 'module-5',
-    title: 'Модуль 5: Путешествия и места',
+    title: 'Модуль 5',
     level: 'elementary',
     lessons: ['lesson-5-1', 'lesson-5-2', 'lesson-5-3'],
-    description: 'Лексика путешествий, направления, транспорт'
+    description: ''
   },
   'module-6': {
     id: 'module-6',
-    title: 'Модуль 6: Будущее время',
+    title: 'Модуль 6',
     level: 'elementary',
     lessons: ['lesson-6-1', 'lesson-6-2', 'lesson-6-3'],
-    description: 'Планы, намерения, предсказания'
+    description: ''
   },
   'module-7': {
     id: 'module-7',
-    title: 'Модуль 7: Сослагательное наклонение',
+    title: 'Модуль 7',
     level: 'intermediate',
     lessons: ['lesson-7-1', 'lesson-7-2', 'lesson-7-3'],
-    description: 'Subjuntivo presente: желания, сомнения, эмоции'
+    description: ''
   },
   'module-8': {
     id: 'module-8',
-    title: 'Модуль 8: Условные предложения',
+    title: 'Модуль 8',
     level: 'intermediate',
     lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3'],
-    description: 'Условное наклонение, гипотетические ситуации'
+    description: ''
   },
   'module-9': {
     id: 'module-9',
-    title: 'Модуль 9: Литература и культура',
+    title: 'Модуль 9',
     level: 'intermediate',
     lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
-    description: 'Чтение аутентичных текстов, испанская культура'
+    description: ''
   }
 }
 
@@ -2023,3070 +2023,428 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
   // МОДУЛЬ 3: Повседневная жизнь
   'lesson-3-1': {
     id: 'lesson-3-1',
-    title: 'Урок 1: Семья и родственники',
+    title: 'Урок 1',
     moduleId: 'module-3',
     grammar: {
-      title: 'Притяжательные местоимения',
-      content: `
-# Притяжательные местоимения (Posesivos)
-
-## Краткая форма (перед существительным):
-
-| Русский | Español (ед.ч) | Español (мн.ч) |
-|---------|----------------|----------------|
-| мой/моя | mi | mis |
-| твой/твоя | tu | tus |
-| его/ее/Ваш | su | sus |
-| наш/наша | nuestro/nuestra | nuestros/nuestras |
-| ваш/ваша | vuestro/vuestra | vuestros/vuestras |
-| их/Ваш | su | sus |
-
-## Примеры:
-- **Mi padre** - мой отец
-- **Mis hermanos** - мои братья
-- **Nuestra casa** - наш дом
-- **Sus hijos** - его/ее/их дети
-      `,
-      examples: [
-        { spanish: 'Mi familia es grande', translation: 'Моя семья большая' },
-        { spanish: 'Tu hermana es simpática', translation: 'Твоя сестра симпатичная' },
-        { spanish: 'Nuestros padres viven aquí', translation: 'Наши родители живут здесь' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'familia', translation: 'семья', audioUrl: null },
-      { word: 'padre', translation: 'отец', audioUrl: null },
-      { word: 'madre', translation: 'мать', audioUrl: null },
-      { word: 'hermano', translation: 'брат', audioUrl: null },
-      { word: 'hermana', translation: 'сестра', audioUrl: null },
-      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
-      { word: 'abuela', translation: 'бабушка', audioUrl: null },
-      { word: 'hijo', translation: 'сын', audioUrl: null },
-      { word: 'hija', translation: 'дочь', audioUrl: null },
-      { word: 'tío', translation: 'дядя', audioUrl: null },
-      { word: 'tía', translation: 'тетя', audioUrl: null },
-      { word: 'primo/prima', translation: 'двоюродный брат/сестра', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Mi familia',
-      content: `Me llamo Carlos y voy a hablar sobre mi familia. Somos seis personas en total. Vivimos en una casa grande en las afueras de Valencia.
-
-Mis padres se llaman José y María. Mi padre es ingeniero y trabaja en una empresa de construcción. Le gusta mucho su trabajo porque construye edificios importantes. Mi madre es profesora de inglés en una escuela primaria. Ella ama enseñar a los niños y siempre llega a casa con historias interesantes.
-
-Tengo dos hermanos: mi hermano mayor Pedro tiene 20 años y estudia medicina en la universidad. Quiere ser médico como nuestro abuelo. Mi hermana pequeña Laura tiene solo 8 años. Es muy traviesa pero adorable. Le encanta dibujar y jugar con nuestro perro Max.
-
-También vivo con mi abuela paterna, la madre de mi padre. Ella tiene 75 años pero es muy activa. Cocina delicioso y nos cuenta historias de cuando era joven. Todos los domingos, toda la familia come junta. Mi abuela prepara su famosa paella valenciana.
-
-Tengo muchos tíos, tías y primos, pero no viven con nosotros. Los vemos en las fiestas y vacaciones. Mi tío Alberto vive en Barcelona y trabaja como músico. Cuando nos visita, toca la guitarra y cantamos juntos.
-
-Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos mucho tiempo juntos y nos apoyamos en todo momento.`,
-      translation: 'Моя семья\n\nМеня зовут Карлос, и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии.\n\nМоих родителей зовут Хосе и Мария. Мой отец - инженер и работает в строительной компании. Ему очень нравится его работа, потому что он строит важные здания. Моя мать - учительница английского в начальной школе. Она любит учить детей и всегда приходит домой с интересными историями.\n\nУ меня два брата и сестры: мой старший брат Педро, ему 20 лет, и он изучает медицину в университете. Он хочет стать врачом, как наш дедушка. Моей младшей сестре Лауре всего 8 лет. Она очень шаловливая, но очаровательная. Она любит рисовать и играть с нашей собакой Максом.\n\nТакже со мной живет моя бабушка по отцовской линии, мать моего отца. Ей 75 лет, но она очень активна. Она готовит восхитительно и рассказывает нам истории о том, когда была молодой. Каждое воскресенье вся семья ест вместе. Моя бабушка готовит свою знаменитую валенсийскую паэлью.\n\nУ меня много дядей, тетей и двоюродных братьев, но они не живут с нами. Мы видимся на праздниках и каникулах. Мой дядя Альберто живет в Барселоне и работает музыкантом. Когда он приезжает к нам, он играет на гитаре, и мы поем вместе.\n\nЯ чувствую себя очень счастливым иметь такую сплоченную и любящую семью. Мы проводим много времени вместе и поддерживаем друг друга во всем.',
-      audioUrl: '/audio/lesson-3-1-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Carlos y voy a hablar sobre mi familia.' },
-        { start: 5, end: 10, text: 'Somos seis personas en total.' },
-        { start: 10, end: 15, text: 'Mis padres se llaman José y María.' },
-        { start: 15, end: 20, text: 'Tengo dos hermanos: Pedro y Laura.' },
-        { start: 20, end: 25, text: 'También vivo con mi abuela paterna.' }
-      ]
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5-def', 'ex-3-1-6-coll']
+    exercises: []
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
-    title: 'Урок 2: Работа и профессии',
+    title: 'Урок 2',
     moduleId: 'module-3',
     grammar: {
-      title: 'Артикли и род существительных',
-      content: `
-# Артикли (Artículos)
-
-## Определенные артикли (el, la, los, las):
-
-| Род | Единственное | Множественное |
-|-----|--------------|---------------|
-| Мужской | el (el libro) | los (los libros) |
-| Женский | la (la casa) | las (las casas) |
-
-## Неопределенные артикли (un, una, unos, unas):
-
-| Род | Единственное | Множественное |
-|-----|--------------|---------------|
-| Мужской | un (un perro) | unos (unos perros) |
-| Женский | una (una gata) | unas (unas gatas) |
-
-## Род профессий:
-- Мужской: **el médico**, **el profesor**, **el ingeniero**
-- Женский: **la médica**, **la profesora**, **la ingeniera**
-      `,
-      examples: [
-        { spanish: 'Soy un estudiante', translation: 'Я студент' },
-        { spanish: 'Ella es la profesora', translation: 'Она учительница' },
-        { spanish: 'Ellos son médicos', translation: 'Они врачи' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'médico/a', translation: 'врач', audioUrl: null },
-      { word: 'profesor/a', translation: 'учитель', audioUrl: null },
-      { word: 'ingeniero/a', translation: 'инженер', audioUrl: null },
-      { word: 'abogado/a', translation: 'адвокат', audioUrl: null },
-      { word: 'enfermero/a', translation: 'медсестра', audioUrl: null },
-      { word: 'cocinero/a', translation: 'повар', audioUrl: null },
-      { word: 'policía', translation: 'полицейский', audioUrl: null },
-      { word: 'bombero/a', translation: 'пожарный', audioUrl: null },
-      { word: 'cantante', translation: 'певец/певица', audioUrl: null },
-      { word: 'escritor/a', translation: 'писатель', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'El trabajo de mis padres',
-      content: `Mis padres tienen trabajos muy interesantes y diferentes. Mi madre es médica y mi padre es profesor. Los dos aman lo que hacen.
-
-Mi madre trabaja en el Hospital General de Madrid. Es cirujana y opera a pacientes todos los días. Su trabajo es muy difícil y requiere mucha concentración. Se levanta muy temprano, a las seis de la mañana, porque sus operaciones empiezan a las ocho. A veces trabaja hasta tarde por la noche si hay emergencias.
-
-Ella dice que lo mejor de su trabajo es ayudar a las personas. Cuando un paciente se recupera y puede volver a casa con su familia, ella se siente muy feliz. Lo más difícil es trabajar tantas horas y tener poco tiempo libre. Pero está muy orgullosa de su profesión.
-
-Mi padre es profesor de historia en un instituto. Enseña a estudiantes de 15 a 18 años. Le encanta su trabajo porque le gusta compartir su conocimiento con los jóvenes. Prepara sus clases con mucho cuidado para que sean interesantes y divertidas.
-
-Él comienza a trabajar a las ocho y media de la mañana y termina a las tres de la tarde. Después de las clases, a veces ayuda a los estudiantes con sus tareas o prepara exámenes. Los veranos son especiales para él porque tiene dos meses de vacaciones y puede leer y viajar.
-
-Mi padre dice que lo mejor de ser profesor es ver cómo sus estudiantes aprenden y crecen. Muchos de sus antiguos alumnos todavía lo visitan y le cuentan sobre sus vidas. Eso lo hace muy feliz.
-
-Aunque tienen profesiones muy diferentes, mis padres tienen algo en común: los dos trabajan con personas y los dos quieren hacer del mundo un lugar mejor. Estoy muy orgulloso de ellos.`,
-      translation: 'Работа моих родителей\n\nУ моих родителей очень интересные и разные работы. Моя мать - врач, а отец - учитель. Оба любят то, что делают.\n\nМоя мать работает в Главной больнице Мадрида. Она хирург и оперирует пациентов каждый день. Ее работа очень сложная и требует большой концентрации. Она встает очень рано, в шесть утра, потому что ее операции начинаются в восемь. Иногда она работает допоздна, если есть чрезвычайные ситуации.\n\nОна говорит, что лучшее в ее работе - помогать людям. Когда пациент выздоравливает и может вернуться домой к семье, она чувствует себя очень счастливой. Самое трудное - работать столько часов и иметь мало свободного времени. Но она очень гордится своей профессией.\n\nМой отец - учитель истории в институте. Он преподает студентам от 15 до 18 лет. Ему нравится его работа, потому что он любит делиться своими знаниями с молодежью. Он тщательно готовит свои уроки, чтобы они были интересными и веселыми.\n\nОн начинает работать в половине девятого утра и заканчивает в три дня. После занятий он иногда помогает студентам с их домашними заданиями или готовит экзамены. Лето для него особенное, потому что у него два месяца отпуска, и он может читать и путешествовать.\n\nМой отец говорит, что лучшее в том, чтобы быть учителем - видеть, как его ученики учатся и растут. Многие его бывшие ученики до сих пор навещают его и рассказывают о своей жизни. Это делает его очень счастливым.\n\nХотя у них очень разные профессии, у моих родителей есть кое-что общее: они оба работают с людьми и оба хотят сделать мир лучше. Я очень горжусь ими.',
-      audioUrl: '/audio/lesson-3-2-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Mis padres tienen trabajos muy interesantes y diferentes.' },
-        { start: 5, end: 10, text: 'Mi madre es médica y mi padre es profesor.' },
-        { start: 10, end: 15, text: 'Mi madre trabaja en el Hospital General de Madrid.' },
-        { start: 15, end: 20, text: 'Mi padre es profesor de historia en un instituto.' }
-      ]
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3']
+    exercises: []
   },
   'lesson-3-3': {
     id: 'lesson-3-3',
-    title: 'Урок 3: Хобби и свободное время',
+    title: 'Урок 3',
     moduleId: 'module-3',
     grammar: {
-      title: 'Глаголы GUSTAR, ENCANTAR',
-      content: `
-# Глаголы GUSTAR (нравиться) и ENCANTAR (обожать)
-
-Эти глаголы имеют особую конструкцию:
-
-## Схема: Местоимение + GUSTA/GUSTAN + существительное
-
-**С единственным числом (gusta):**
-- Me **gusta** el café - Мне нравится кофе
-- Te **gusta** la música - Тебе нравится музыка
-- Le **gusta** bailar - Ему/ей нравится танцевать
-
-**С множественным числом (gustan):**
-- Me **gustan** los libros - Мне нравятся книги
-- Te **gustan** las películas - Тебе нравятся фильмы
-- Nos **gustan** los deportes - Нам нравятся виды спорта
-
-## Косвенные местоимения:
-me (мне), te (тебе), le (ему/ей/Вам), nos (нам), os (вам), les (им/Вам)
-
-## ENCANTAR используется так же:
-Me **encanta** la playa - Я обожаю пляж
-      `,
-      examples: [
-        { spanish: 'Me gusta leer', translation: 'Мне нравится читать' },
-        { spanish: 'Nos encanta viajar', translation: 'Мы обожаем путешествовать' },
-        { spanish: 'Les gustan los deportes', translation: 'Им нравятся виды спорта' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'deporte', translation: 'спорт', audioUrl: null },
-      { word: 'música', translation: 'музыка', audioUrl: null },
-      { word: 'cine', translation: 'кино', audioUrl: null },
-      { word: 'libro', translation: 'книга', audioUrl: null },
-      { word: 'película', translation: 'фильм', audioUrl: null },
-      { word: 'fútbol', translation: 'футбол', audioUrl: null },
-      { word: 'natación', translation: 'плавание', audioUrl: null },
-      { word: 'pintura', translation: 'живопись', audioUrl: null },
-      { word: 'fotografía', translation: 'фотография', audioUrl: null },
-      { word: 'viaje', translation: 'путешествие', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Mis pasatiempos favoritos',
-      content: `Me llamo Elena y tengo muchos pasatiempos interesantes. En mi tiempo libre me gusta hacer diferentes actividades porque creo que es importante tener un equilibrio en la vida.
-
-Mi pasatiempo favorito es la lectura. Me encantan los libros, especialmente las novelas de misterio y fantasía. Leo casi todos los días antes de dormir. Tengo una biblioteca grande en mi casa con más de doscientos libros. Mi escritor favorito es Gabriel García Márquez. Sus historias son mágicas y fascinantes.
-
-También me gusta mucho el deporte. Practico natación tres veces por semana en la piscina municipal. La natación me relaja y me ayuda a mantenerme en forma. Los fines de semana juego al tenis con mi hermano. Él es mejor que yo, pero me divierto mucho intentando ganarle.
-
-A mi novio le encanta la música y gracias a él yo también he desarrollado este interés. Vamos juntos a conciertos de música clásica y rock. Él toca la guitarra y a veces me enseña algunas canciones. Me gustaría aprender a tocar el piano algún día.
-
-Otro de mis pasatiempos es la fotografía. Me gusta capturar momentos especiales con mi cámara. Especialmente disfruto fotografiar paisajes naturales y arquitectura antigua. He hecho algunos cursos de fotografía y mis fotos han mejorado mucho. Me gustaría organizar una exposición de mis mejores trabajos.
-
-Los viernes por la noche me encanta ir al cine con mis amigos. Vemos todo tipo de películas: comedias, dramas, películas de acción. Después de la película siempre vamos a tomar algo y comentamos lo que hemos visto.
-
-En verano me apasiona viajar. He visitado muchos países de Europa: Francia, Italia, Portugal, Alemania. Cada lugar tiene su encanto especial. Me gusta conocer nuevas culturas, probar comidas diferentes y practicar idiomas. Mi próximo destino es Grecia. Las islas griegas me parecen increíbles.
-
-Todos estos pasatiempos me hacen feliz y me ayudan a desconectar del estrés diario. Creo que es fundamental dedicar tiempo a las cosas que nos gustan.`,
-      translation: 'Мои любимые хобби\n\nМеня зовут Елена, и у меня много интересных хобби. В свободное время мне нравится заниматься разными делами, потому что я считаю, что важно иметь баланс в жизни.\n\nМое любимое хобби - чтение. Я обожаю книги, особенно детективы и фэнтези. Я читаю почти каждый день перед сном. У меня большая библиотека дома с более чем двумястами книг. Мой любимый писатель - Габриэль Гарсия Маркес. Его истории волшебные и захватывающие.\n\nМне также очень нравится спорт. Я занимаюсь плаванием три раза в неделю в муниципальном бассейне. Плавание расслабляет меня и помогает оставаться в форме. По выходным я играю в теннис с моим братом. Он играет лучше меня, но мне очень весело пытаться его победить.\n\nМой парень обожает музыку, и благодаря ему я тоже развила этот интерес. Мы вместе ходим на концерты классической музыки и рока. Он играет на гитаре и иногда учит меня некоторым песням. Я бы хотела научиться играть на пианино когда-нибудь.\n\nЕще одно мое хобби - фотография. Мне нравится запечатлевать особенные моменты с моей камерой. Особенно мне нравится фотографировать природные пейзажи и старинную архитектуру. Я прошла несколько курсов фотографии, и мои фотографии сильно улучшились. Я хотела бы организовать выставку моих лучших работ.\n\nПо пятницам вечером я обожаю ходить в кино с друзьями. Мы смотрим все виды фильмов: комедии, драмы, боевики. После фильма мы всегда идем выпить и обсуждаем то, что посмотрели.\n\nЛетом я увлекаюсь путешествиями. Я посетила много стран Европы: Францию, Италию, Португалию, Германию. Каждое место имеет свое особое очарование. Мне нравится знакомиться с новыми культурами, пробовать разную еду и практиковать языки. Мой следующий пункт назначения - Греция. Греческие острова кажутся мне невероятными.\n\nВсе эти хобби делают меня счастливой и помогают мне отвлечься от повседневного стресса. Я считаю, что очень важно уделять время тому, что нам нравится.',
-      audioUrl: '/audio/lesson-3-3-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Elena y tengo muchos pasatiempos interesantes.' },
-        { start: 5, end: 10, text: 'Mi pasatiempo favorito es la lectura.' },
-        { start: 10, end: 15, text: 'También me gusta mucho el deporte.' },
-        { start: 15, end: 20, text: 'Otro de mis pasatiempos es la fotografía.' }
-      ]
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3']
+    exercises: []
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
   'lesson-4-1': {
     id: 'lesson-4-1',
-    title: 'Урок 1: Pretérito perfecto',
+    title: 'Урок 1',
     moduleId: 'module-4',
     grammar: {
-      title: 'Pretérito perfecto (Настоящее совершенное время)',
-      content: `
-# Pretérito perfecto
-
-## Образование:
-**Haber (настоящее время) + participio pasado**
-
-## Спряжение HABER:
-| Лицо | Форма |
-|------|-------|
-| yo | he |
-| tú | has |
-| él/ella/usted | ha |
-| nosotros/as | hemos |
-| vosotros/as | habéis |
-| ellos/ellas/ustedes | han |
-
-## Причастие прошедшего времени:
-
-**Правильные формы:**
-- Глаголы на -AR: **-ado** (hablar → hablado)
-- Глаголы на -ER/-IR: **-ido** (comer → comido, vivir → vivido)
-
-**Неправильные причастия:**
-| Глагол | Причастие |
-|--------|-----------|
-| hacer | hecho |
-| ver | visto |
-| decir | dicho |
-| escribir | escrito |
-| poner | puesto |
-| volver | vuelto |
-| abrir | abierto |
-| romper | roto |
-| morir | muerto |
-
-## Употребление:
-Используется для действий в прошлом, которые:
-1. Произошли недавно: **Esta semana he visitado el museo**
-2. Имеют связь с настоящим: **Nunca he estado en España**
-3. Результат виден сейчас: **He perdido las llaves** (и до сих пор не нашел)
-
-## Слова-маркеры:
-- **hoy** (сегодня)
-- **esta semana** (на этой неделе)
-- **este mes/año** (в этом месяце/году)
-- **ya** (уже)
-- **todavía no** (еще нет)
-- **nunca** (никогда)
-- **alguna vez** (когда-нибудь)
-      `,
-      examples: [
-        { spanish: 'He comido paella hoy', translation: 'Я ел паэлью сегодня' },
-        { spanish: '¿Has visto esta película?', translation: 'Ты видел этот фильм?' },
-        { spanish: 'Nunca hemos estado en México', translation: 'Мы никогда не были в Мексике' },
-        { spanish: 'Ella ha escrito un libro', translation: 'Она написала книгу' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'ya', translation: 'уже', audioUrl: null },
-      { word: 'todavía', translation: 'еще, все еще', audioUrl: null },
-      { word: 'nunca', translation: 'никогда', audioUrl: null },
-      { word: 'alguna vez', translation: 'когда-нибудь', audioUrl: null },
-      { word: 'esta semana', translation: 'на этой неделе', audioUrl: null },
-      { word: 'este mes', translation: 'в этом месяце', audioUrl: null },
-      { word: 'hoy', translation: 'сегодня', audioUrl: null },
-      { word: 'reciente', translation: 'недавний', audioUrl: null },
-      { word: 'visitar', translation: 'посещать', audioUrl: null },
-      { word: 'terminar', translation: 'заканчивать', audioUrl: null },
-      { word: 'perder', translation: 'терять', audioUrl: null },
-      { word: 'ganar', translation: 'выигрывать, зарабатывать', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Una semana ocupada',
-      content: `Esta semana ha sido muy productiva para mí. El lunes he empezado un nuevo proyecto en el trabajo. Es un desafío interesante y estoy muy motivado.
-
-El martes he ido al gimnasio por primera vez en meses. Me ha costado mucho porque estaba muy fuera de forma, pero me he sentido muy bien después. He decidido ir tres veces por semana a partir de ahora.
-
-El miércoles mi hermana ha llegado de Barcelona. Hacía mucho tiempo que no la veía. Hemos cenado juntas en mi restaurante favorito y hemos hablado durante horas. Me ha contado sobre su nuevo trabajo y sus planes para el futuro.
-
-El jueves he terminado un informe importante que llevaba semanas preparando. Mi jefe lo ha leído y ha dicho que está muy bien hecho. Me ha felicitado delante de todo el equipo. Me he sentido muy orgullosa.
-
-Hoy es viernes y he recibido mi salario. También he comprado los billetes para mis vacaciones en Italia el mes que viene. Nunca he estado allí y estoy muy emocionada. He reservado un hotel en Roma y he hecho una lista de todos los lugares que quiero visitar.
-
-¿Y tú? ¿Qué has hecho esta semana? ¿Has tenido alguna experiencia interesante?`,
-      translation: 'Напряженная неделя\n\nЭта неделя была очень продуктивной для меня. В понедельник я начала новый проект на работе. Это интересный вызов, и я очень мотивирована.\n\nВо вторник я пошла в спортзал впервые за несколько месяцев. Мне было очень тяжело, потому что я была не в форме, но я чувствовала себя очень хорошо после. Я решила ходить три раза в неделю с этого момента.\n\nВ среду моя сестра приехала из Барселоны. Прошло много времени с тех пор, как я ее видела. Мы поужинали вместе в моем любимом ресторане и проговорили часами. Она рассказала мне о своей новой работе и планах на будущее.\n\nВ четверг я закончила важный отчет, который готовила неделями. Мой начальник прочитал его и сказал, что он очень хорошо сделан. Он похвалил меня перед всей командой. Я почувствовала себя очень гордой.\n\nСегодня пятница, и я получила зарплату. Я также купила билеты на отпуск в Италии в следующем месяце. Я никогда там не была и очень взволнована. Я забронировала отель в Риме и составила список всех мест, которые хочу посетить.\n\nА ты? Что ты делал на этой неделе? У тебя был какой-нибудь интересный опыт?',
-      audioUrl: '/audio/lesson-4-1-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Esta semana ha sido muy productiva para mí.' },
-        { start: 5, end: 10, text: 'El lunes he empezado un nuevo proyecto en el trabajo.' },
-        { start: 10, end: 15, text: 'El martes he ido al gimnasio por primera vez en meses.' },
-        { start: 15, end: 20, text: 'El miércoles mi hermana ha llegado de Barcelona.' }
-      ]
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5']
+    exercises: []
   },
 
   'lesson-4-2': {
     id: 'lesson-4-2',
-    title: 'Урок 2: Pretérito indefinido',
+    title: 'Урок 2',
     moduleId: 'module-4',
     grammar: {
-      title: 'Pretérito indefinido (Простое прошедшее время)',
-      content: `
-# Pretérito indefinido (Pretérito perfecto simple)
-
-## Правильные глаголы:
-
-**Глаголы на -AR (hablar):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -é | hablé |
-| tú | -aste | hablaste |
-| él/ella/usted | -ó | habló |
-| nosotros/as | -amos | hablamos |
-| vosotros/as | -asteis | hablasteis |
-| ellos/ellas/ustedes | -aron | hablaron |
-
-**Глаголы на -ER/-IR (comer/vivir):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -í | comí, viví |
-| tú | -iste | comiste, viviste |
-| él/ella/usted | -ió | comió, vivió |
-| nosotros/as | -imos | comimos, vivimos |
-| vosotros/as | -isteis | comisteis, vivisteis |
-| ellos/ellas/ustedes | -ieron | comieron, vivieron |
-
-## Важные неправильные глаголы:
-
-**SER/IR (одинаковые формы!):**
-fui, fuiste, fue, fuimos, fuisteis, fueron
-
-**ESTAR:**
-estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron
-
-**TENER:**
-tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron
-
-**HACER:**
-hice, hiciste, hizo, hicimos, hicisteis, hicieron
-
-**VENIR:**
-vine, viniste, vino, vinimos, vinisteis, vinieron
-
-**DECIR:**
-dije, dijiste, dijo, dijimos, dijisteis, dijeron
-
-**DAR:**
-di, diste, dio, dimos, disteis, dieron
-
-## Употребление:
-Используется для законченных действий в прошлом:
-1. Конкретное время: **Ayer fui al cine**
-2. Определенный период: **Viví en Madrid dos años**
-3. Последовательность событий: **Me levanté, desayuné y salí**
-
-## Слова-маркеры:
-- **ayer** (вчера)
-- **anteayer** (позавчера)
-- **el año pasado** (в прошлом году)
-- **la semana pasada** (на прошлой неделе)
-- **el otro día** (на днях)
-- **hace dos días/semanas/meses** (два дня/недели/месяца назад)
-      `,
-      examples: [
-        { spanish: 'Ayer comí en un restaurante italiano', translation: 'Вчера я ел в итальянском ресторане' },
-        { spanish: 'El año pasado fui a España', translation: 'В прошлом году я ездил в Испанию' },
-        { spanish: 'Hice la tarea anoche', translation: 'Я сделал домашку вчера вечером' },
-        { spanish: 'Vinieron a visitarme la semana pasada', translation: 'Они приехали навестить меня на прошлой неделе' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'ayer', translation: 'вчера', audioUrl: null },
-      { word: 'anteayer', translation: 'позавчера', audioUrl: null },
-      { word: 'el año pasado', translation: 'в прошлом году', audioUrl: null },
-      { word: 'la semana pasada', translation: 'на прошлой неделе', audioUrl: null },
-      { word: 'el mes pasado', translation: 'в прошлом месяце', audioUrl: null },
-      { word: 'hace', translation: 'назад (hace dos días)', audioUrl: null },
-      { word: 'anoche', translation: 'вчера вечером', audioUrl: null },
-      { word: 'visitar', translation: 'посещать', audioUrl: null },
-      { word: 'comprar', translation: 'покупать', audioUrl: null },
-      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
-      { word: 'recuerdo', translation: 'сувенир, воспоминание', audioUrl: null },
-      { word: 'inolvidable', translation: 'незабываемый', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Mis vacaciones en Italia',
-      content: `El verano pasado realicé el viaje de mis sueños: fui a Italia con mi mejor amiga Laura. Fue una experiencia absolutamente inolvidable.
-
-Salimos de Madrid el 15 de julio. Nuestro primer destino fue Roma. Llegamos por la tarde y fuimos directamente al hotel. Era un pequeño hotel cerca del Vaticano, muy acogedor. Esa noche caminamos por el barrio y cenamos en una trattoria tradicional. Comimos pizza y pasta deliciosas.
-
-Al día siguiente visitamos el Coliseo. ¡Fue impresionante! También vimos el Foro Romano y la Fontana di Trevi. Echamos monedas en la fuente e hicimos un deseo. Laura pidió encontrar el amor, y yo pedí volver a Italia algún día.
-
-Después de tres días en Roma, tomamos el tren a Florencia. La ciudad nos enamoró completamente. Visitamos la Galería Uffizi y vimos obras maestras de Botticelli y Leonardo da Vinci. Laura compró muchos recuerdos: bolsos de cuero, joyas y chocolates.
-
-Nuestro último destino fue Venecia. Llegamos en vaporetto desde el aeropuerto. La ciudad flotante nos dejó sin palabras. Paseamos en góndola por los canales, visitamos la Basílica de San Marcos y nos perdimos por las callejuelas encantadoras.
-
-El viaje duró diez días. Cuando volvimos a España, estábamos cansadas pero felices. Todavía hablamos de ese viaje y miramos las fotos con nostalgia. Definitivamente quiero volver.`,
-      translation: 'Мой отпуск в Италии\n\nПрошлым летом я совершила путешествие своей мечты: поехала в Италию с моей лучшей подругой Лаурой. Это был абсолютно незабываемый опыт.\n\nМы уехали из Мадрида 15 июля. Нашим первым пунктом назначения был Рим. Мы прибыли днем и пошли прямо в отель. Это был маленький отель рядом с Ватиканом, очень уютный. В тот вечер мы гуляли по району и ужинали в традиционной траттории. Мы ели вкусную пиццу и пасту.\n\nНа следующий день мы посетили Колизей. Это было впечатляюще! Мы также увидели Римский Форум и фонтан Треви. Мы бросили монеты в фонтан и загадали желания. Лаура попросила найти любовь, а я попросила вернуться в Италию когда-нибудь.\n\nПосле трех дней в Риме мы сели на поезд во Флоренцию. Город нас полностью очаровал. Мы посетили галерею Уффици и увидели шедевры Боттичелли и Леонардо да Винчи. Лаура купила много сувениров: кожаные сумки, украшения и шоколад.\n\nНашим последним пунктом назначения была Венеция. Мы прибыли на вапоретто из аэропорта. Плавучий город оставил нас без слов. Мы катались на гондоле по каналам, посетили базилику Сан-Марко и терялись по очаровательным улочкам.\n\nПутешествие длилось десять дней. Когда мы вернулись в Испанию, мы были уставшими, но счастливыми. Мы до сих пор говорим о том путешествии и смотрим фотографии с ностальгией. Я определенно хочу вернуться.',
-      audioUrl: '/audio/lesson-4-2-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'El verano pasado realicé el viaje de mis sueños.' },
-        { start: 5, end: 10, text: 'Fui a Italia con mi mejor amiga Laura.' },
-        { start: 10, end: 15, text: 'Nuestro primer destino fue Roma.' },
-        { start: 15, end: 20, text: 'Visitamos el Coliseo. ¡Fue impresionante!' }
-      ]
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5']
+    exercises: []
   },
 
   'lesson-4-3': {
     id: 'lesson-4-3',
-    title: 'Урок 3: Pretérito imperfecto',
+    title: 'Урок 3',
     moduleId: 'module-4',
     grammar: {
-      title: 'Pretérito imperfecto vs Indefinido',
-      content: `
-# Pretérito imperfecto (Незавершенное прошедшее время)
-
-## Образование:
-
-**Глаголы на -AR (hablar):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -aba | hablaba |
-| tú | -abas | hablabas |
-| él/ella/usted | -aba | hablaba |
-| nosotros/as | -ábamos | hablábamos |
-| vosotros/as | -abais | hablabais |
-| ellos/ellas/ustedes | -aban | hablaban |
-
-**Глаголы на -ER/-IR (comer/vivir):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -ía | comía, vivía |
-| tú | -ías | comías, vivías |
-| él/ella/usted | -ía | comía, vivía |
-| nosotros/as | -íamos | comíamos, vivíamos |
-| vosotros/as | -íais | comíais, vivíais |
-| ellos/ellas/ustedes | -ían | comían, vivían |
-
-## Неправильные глаголы (только 3!):
-
-**SER:** era, eras, era, éramos, erais, eran
-**IR:** iba, ibas, iba, íbamos, ibais, iban
-**VER:** veía, veías, veía, veíamos, veíais, veían
-
-## Употребление Imperfecto:
-
-1. **Описание в прошлом:**
-   - Era una casa grande (Это был большой дом)
-   - Hacía frío (Было холодно)
-
-2. **Привычные действия:**
-   - Todos los días iba al parque (Каждый день я ходил в парк)
-   - Siempre comíamos juntos (Мы всегда ели вместе)
-
-3. **Фоновое действие:**
-   - Mientras leía, sonó el teléfono (Пока я читал, зазвонил телефон)
-
-4. **Время, возраст в прошлом:**
-   - Eran las tres (Было три часа)
-   - Tenía 10 años (Мне было 10 лет)
-
-## Imperfecto vs Indefinido:
-
-**Indefinido** (законченное действие):
-- Ayer fui al cine (Вчера я ходил в кино - и вернулся)
-- Viví en Madrid dos años (Я жил в Мадриде 2 года - но больше не живу)
-
-**Imperfecto** (незаконченное, фон, привычка):
-- De niño iba al cine cada sábado (Ребенком я ходил в кино каждую субботу)
-- Vivía en Madrid cuando te conocí (Я жил в Мадриде, когда познакомился с тобой)
-
-## Комбинация:
-**Imperfecto (фон) + Indefinido (действие):**
-- Mientras **dormía** (imperfecto), **sonó** (indefinido) el teléfono
-- **Llovía** (imperfecto) cuando **salí** (indefinido) de casa
-      `,
-      examples: [
-        { spanish: 'Cuando era niño, jugaba fútbol', translation: 'Когда я был ребенком, я играл в футбол' },
-        { spanish: 'Vivíamos en una casa grande', translation: 'Мы жили в большом доме' },
-        { spanish: 'Mientras cocinaba, llegaron mis amigos', translation: 'Пока я готовил, пришли мои друзья' },
-        { spanish: 'Hacía sol cuando salimos', translation: 'Было солнечно, когда мы вышли' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'niño/a', translation: 'ребенок', audioUrl: null },
-      { word: 'infancia', translation: 'детство', audioUrl: null },
-      { word: 'cuando', translation: 'когда', audioUrl: null },
-      { word: 'mientras', translation: 'пока, в то время как', audioUrl: null },
-      { word: 'siempre', translation: 'всегда', audioUrl: null },
-      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
-      { word: 'normalmente', translation: 'обычно', audioUrl: null },
-      { word: 'jugar', translation: 'играть', audioUrl: null },
-      { word: 'contar', translation: 'рассказывать', audioUrl: null },
-      { word: 'historia', translation: 'история, рассказ', audioUrl: null },
-      { word: 'juventud', translation: 'молодость', audioUrl: null },
-      { word: 'feliz', translation: 'счастливый', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Recuerdos de mi infancia',
-      content: `Cuando pienso en mi infancia, siempre sonrío. Eran tiempos muy felices y sencillos.
-
-Vivía en un pueblo pequeño cerca de Granada. Nuestra casa era antigua pero acogedora. Tenía un jardín enorme donde mi hermano y yo jugábamos durante horas. Había un árbol grande - un olivo centenario - donde construimos una casa en el árbol. Era nuestro lugar secreto.
-
-Todos los días me levantaba temprano. Mi madre preparaba el desayuno mientras yo me vestía. Normalmente tomábamos chocolate caliente con churros. Después iba a la escuela a pie. El camino duraba unos veinte minutos, pero me gustaba porque pasaba por el parque y veía a los pájaros.
-
-En la escuela tenía muchos amigos. Mi mejor amigo se llamaba Carlos. Éramos inseparables. Siempre nos sentábamos juntos y compartíamos nuestras meriendas. Después de las clases jugábamos al fútbol en el patio. Yo era portero y Carlos era delantero. Formábamos un gran equipo.
-
-Los fines de semana eran especiales. Los sábados por la mañana iba al mercado con mi abuela. Ella compraba verduras frescas y hablaba con todos los vendedores. Conocía a todo el mundo. A mí me compraba dulces - siempre los mismos: caramelos de menta.
-
-Los domingos comíamos en casa de mis abuelos. Mi abuela cocinaba platos deliciosos: paella, cocido, gazpacho en verano. Toda la familia se reunía: tíos, tías, primos. Después de comer, mi abuelo nos contaba historias de cuando era joven. Nosotros escuchábamos fascinados.
-
-En verano íbamos a la playa. Pasábamos todo el mes de agosto en un apartamento pequeño en Málaga. Mis padres alquilaban el mismo apartamento cada año. Estaba a cinco minutos de la playa. Todos los días nadábamos, construíamos castillos de arena y jugábamos al voleibol. Por las noches paseábamos por el paseo marítimo y comíamos helado.
-
-Ahora vivo en Madrid. Trabajo en una oficina y mi vida es muy diferente. Pero cuando vuelvo al pueblo y veo el olivo de mi infancia, todos esos recuerdos vuelven. Me siento otra vez ese niño feliz que jugaba sin preocupaciones.`,
-      translation: 'Воспоминания о моем детстве\n\nКогда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена.\n\nЯ жил в маленькой деревне недалеко от Гранады. Наш дом был старинным, но уютным. У него был огромный сад, где мы с братом играли часами. Там было большое дерево - вековая олива - где мы построили дом на дереве. Это было наше секретное место.\n\nКаждый день я вставал рано. Моя мать готовила завтрак, пока я одевался. Обычно мы пили горячий шоколад с чуррос. Потом я шел в школу пешком. Дорога занимала около двадцати минут, но мне нравилось, потому что я проходил через парк и видел птиц.\n\nВ школе у меня было много друзей. Моего лучшего друга звали Карлос. Мы были неразлучны. Мы всегда сидели вместе и делились нашими полдниками. После занятий мы играли в футбол во дворе. Я был вратарем, а Карлос нападающим. Мы составляли отличную команду.\n\nВыходные были особенными. По субботам утром я ходил на рынок с бабушкой. Она покупала свежие овощи и разговаривала со всеми продавцами. Она знала всех. Она покупала мне сладости - всегда одни и те же: мятные леденцы.\n\nПо воскресеньям мы ели в доме моих бабушки и дедушки. Моя бабушка готовила вкусные блюда: паэлью, кocido, гаспачо летом. Вся семья собиралась: дяди, тети, двоюродные братья. После еды мой дедушка рассказывал нам истории о том, когда он был молодым. Мы слушали, зачарованные.\n\nЛетом мы ездили на пляж. Мы проводили весь август в маленькой квартире в Малаге. Мои родители арендовали ту же квартиру каждый год. Она была в пяти минутах от пляжа. Каждый день мы плавали, строили замки из песка и играли в волейбол. По вечерам мы гуляли по набережной и ели мороженое.\n\nТеперь я живу в Мадриде. Я работаю в офисе, и моя жизнь очень отличается. Но когда я возвращаюсь в деревню и вижу оливу моего детства, все эти воспоминания возвращаются. Я снова чувствую себя тем счастливым ребенком, который играл беззаботно.',
-      audioUrl: '/audio/lesson-4-3-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Cuando pienso en mi infancia, siempre sonrío.' },
-        { start: 5, end: 10, text: 'Vivía en un pueblo pequeño cerca de Granada.' },
-        { start: 10, end: 15, text: 'Todos los días me levantaba temprano.' },
-        { start: 15, end: 20, text: 'En la escuela tenía muchos amigos.' }
-      ]
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5']
+    exercises: []
   },
 
   // МОДУЛЬ 5: Путешествия и места (A2)
   'lesson-5-1': {
     id: 'lesson-5-1',
-    title: 'Урок 1: Транспорт и направления',
+    title: 'Урок 1',
     moduleId: 'module-5',
     grammar: {
-      title: 'Предлоги места и направления',
-      content: `
-# Предлоги места и направления
-
-## Предлоги места (dónde):
-
-| Испанский | Русский | Пример |
-|-----------|---------|--------|
-| **en** | в, на | Estoy **en** casa |
-| **a** | в, на (направление) | Voy **a** Madrid |
-| **de** | из | Vengo **de** Barcelona |
-| **cerca de** | рядом с | Vivo **cerca de** la estación |
-| **lejos de** | далеко от | Está **lejos del** centro |
-| **delante de** | перед | **Delante del** hotel |
-| **detrás de** | за, позади | **Detrás de** la iglesia |
-| **al lado de** | рядом с | **Al lado del** museo |
-| **enfrente de** | напротив | **Enfrente de** la plaza |
-| **entre** | между | **Entre** el banco y la farmacia |
-
-## IR + A (направление):
-- Voy **a** la playa (Я иду на пляж)
-- Vas **al** aeropuerto (Ты едешь в аэропорт)
-- Van **a** España (Они едут в Испанию)
-
-## Транспорт:
-
-**EN + транспорт (внутри):**
-- **en coche** (на машине)
-- **en tren** (на поезде)
-- **en avión** (на самолёте)
-- **en autobús** (на автобусе)
-- **en metro** (на метро)
-- **en barco** (на корабле)
-
-**A + без транспорта:**
-- **a pie** (пешком)
-- **a caballo** (на лошади)
-
-## Глаголы движения:
-
-- **ir** (идти, ехать)
-- **venir** (приходить, приезжать)
-- **llegar** (прибывать)
-- **salir** (уходить, выезжать)
-- **viajar** (путешествовать)
-- **caminar** (идти пешком)
-
-## Давать указания:
-
-- **Sigue recto** - Иди прямо
-- **Gira a la derecha** - Поверни направо
-- **Gira a la izquierda** - Поверни налево
-- **Cruza la calle** - Перейди улицу
-- **Está a dos calles** - Через две улицы
-      `,
-      examples: [
-        { spanish: 'Voy a la estación en metro', translation: 'Я еду на станцию на метро' },
-        { spanish: 'El hotel está cerca del aeropuerto', translation: 'Отель находится рядом с аэропортом' },
-        { spanish: 'Viajamos a Italia en avión', translation: 'Мы летим в Италию на самолёте' },
-        { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-      { word: 'estación', translation: 'станция, вокзал', audioUrl: null },
-      { word: 'tren', translation: 'поезд', audioUrl: null },
-      { word: 'avión', translation: 'самолёт', audioUrl: null },
-      { word: 'autobús', translation: 'автобус', audioUrl: null },
-      { word: 'metro', translation: 'метро', audioUrl: null },
-      { word: 'taxi', translation: 'такси', audioUrl: null },
-      { word: 'billete', translation: 'билет', audioUrl: null },
-      { word: 'maleta', translation: 'чемодан', audioUrl: null },
-      { word: 'mochila', translation: 'рюкзак', audioUrl: null },
-      { word: 'mapa', translation: 'карта', audioUrl: null },
-      { word: 'derecha', translation: 'право', audioUrl: null },
-      { word: 'izquierda', translation: 'лево', audioUrl: null },
-      { word: 'recto', translation: 'прямо', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Un día en Barcelona',
-      content: `Hoy es mi primer día en Barcelona y estoy muy emocionado. He llegado al aeropuerto de El Prat esta mañana a las 10. Desde el aeropuerto he tomado el tren hasta la estación de Sants. El viaje ha durado unos 25 minutos y ha costado 4 euros. Es muy conveniente.
-
-Mi hotel está en el centro, cerca de la Plaza de Catalunya. Desde Sants he tomado el metro - la línea verde hasta Passeig de Gràcia. Mi hotel está a solo dos calles de allí, entre una librería antigua y una cafetería con terraza. Es un hotel pequeño pero acogedor.
-
-Después de dejar mi maleta en la habitación, he decidido explorar la ciudad a pie. Barcelona es perfecta para caminar. He empezado por Las Ramblas, la calle más famosa de la ciudad. Está llena de turistas, artistas callejeros y vendedores de flores. El ambiente es increíble.
-
-He caminado hasta el Barrio Gótico. Las calles son estrechas y medievales. Me he perdido varias veces, pero cada esquina tiene algo interesante. He encontrado la Catedral de Barcelona - es impresionante. Está en una plaza grande rodeada de edificios históricos.
-
-Para el almuerzo he ido a un restaurante tradicional al lado del mercado de La Boquería. He comido paella de mariscos y he bebido sangría. Delicioso. El mercado está enfrente del restaurante y he entrado a ver. Hay frutas exóticas, jamones ibéricos, quesos artesanales... es un paraíso gastronómico.
-
-Por la tarde he tomado el autobús turístico para ver la Sagrada Familia. Está un poco lejos del centro, pero el autobús para justo delante. La basílica de Gaudí es espectacular. He sacado muchas fotos.
-
-Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la playa de la Barceloneta. He comprado un billete de metro para tres días. Barcelona me encanta. Es una ciudad perfecta para viajar.`,
-      translation: `Сегодня мой первый день в Барселоне и я очень взволнован. Я прилетел в аэропорт Эль-Прат сегодня утром в 10. Из аэропорта я сел на поезд до станции Сантс. Поездка заняла около 25 минут и стоила 4 евро. Очень удобно.
-
-Мой отель находится в центре, недалеко от площади Каталонии. От Сантс я сел на метро - зелёную линию до Пасео де Грасия. Мой отель всего в двух кварталах оттуда, между старинным книжным магазином и кафе с террасой. Это небольшой, но уютный отель.
-
-После того как оставил чемодан в номере, я решил исследовать город пешком. Барселона идеальна для прогулок. Я начал с Лас-Рамблас, самой известной улицы города. Она полна туристов, уличных артистов и продавцов цветов. Атмосфера невероятная.
-
-Я дошёл до Готического квартала. Улицы узкие и средневековые. Я несколько раз заблудился, но на каждом углу есть что-то интересное. Я нашёл Барселонский собор - он впечатляющий. Он находится на большой площади, окружённой историческими зданиями.
-
-На обед я пошёл в традиционный ресторан рядом с рынком Бокерия. Я съел паэлью с морепродуктами и выпил сангрию. Восхитительно. Рынок находится напротив ресторана, и я зашёл посмотреть. Там экзотические фрукты, иберийский хамон, ремесленные сыры... это гастрономический рай.
-
-Во второй половине дня я сел на туристический автобус, чтобы увидеть Саграда Фамилия. Она находится немного далеко от центра, но автобус останавливается прямо перед ней. Базилика Гауди впечатляет. Я сделал много фотографий.
-
-Сейчас я вернулся в отель. Завтра хочу посетить парк Гуэль и пляж Барселонета. Я купил билет на метро на три дня. Мне очень нравится Барселона. Это идеальный город для путешествий.`,
-      audioUrl: '/audio/lesson-5-1-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5']
+    exercises: []
   },
 
   'lesson-5-2': {
     id: 'lesson-5-2',
-    title: 'Урок 2: В отеле и ресторане',
+    title: 'Урок 2',
     moduleId: 'module-5',
     grammar: {
-      title: 'Условное наклонение (Condicional simple)',
-      content: `
-# Condicional simple (Условное наклонение)
-
-## Образование:
-**Инфинитив + окончания**
-
-| Лицо | Окончание | Hablar | Comer | Vivir |
-|------|-----------|--------|-------|-------|
-| yo | -ía | hablaría | comería | viviría |
-| tú | -ías | hablarías | comerías | vivirías |
-| él/ella/usted | -ía | hablaría | comería | viviría |
-| nosotros/as | -íamos | hablaríamos | comeríamos | viviríamos |
-| vosotros/as | -íais | hablaríais | comeríais | viviríais |
-| ellos/ellas/ustedes | -ían | hablarían | comerían | vivirían |
-
-## Неправильные основы:
-
-| Инфинитив | Основа | Пример |
-|-----------|--------|--------|
-| hacer | har- | haría |
-| decir | dir- | diría |
-| poder | podr- | podría |
-| poner | pondr- | pondría |
-| salir | saldr- | saldría |
-| tener | tendr- | tendría |
-| venir | vendr- | vendría |
-| saber | sabr- | sabría |
-| querer | querr- | querría |
-| haber | habr- | habría |
-
-## Употребление:
-
-1. **Вежливые просьбы:**
-   - ¿**Podría** ayudarme? (Могли бы вы мне помочь?)
-   - **Me gustaría** una habitación (Я хотел бы номер)
-   - ¿**Tendría** una mesa libre? (У вас есть свободный столик?)
-
-2. **Советы:**
-   - **Deberías** visitar el museo (Тебе следует посетить музей)
-   - Yo **comería** la paella (Я бы съел паэлью)
-
-3. **Условия (с SI):**
-   - Si tuviera dinero, **viajaría** por el mundo
-   - Si pudiera, **me quedaría** más tiempo
-
-## Полезные фразы для отеля:
-
-- **¿Tiene habitaciones libres?** - У вас есть свободные номера?
-- **Quisiera reservar una habitación** - Я хотел бы забронировать номер
-- **¿Cuánto cuesta por noche?** - Сколько стоит за ночь?
-- **¿Está incluido el desayuno?** - Завтрак включён?
-- **¿A qué hora es el check-out?** - Во сколько выселение?
-
-## Полезные фразы для ресторана:
-
-- **¿Me podría traer el menú?** - Не могли бы вы принести меню?
-- **Quisiera pedir...** - Я хотел бы заказать...
-- **¿Qué me recomendaría?** - Что вы бы мне порекомендовали?
-- **La cuenta, por favor** - Счёт, пожалуйста
-      `,
-      examples: [
-        { spanish: '¿Podría darme una habitación con vistas al mar?', translation: 'Могли бы вы дать мне номер с видом на море?' },
-        { spanish: 'Me gustaría reservar para dos personas', translation: 'Я хотел бы забронировать на двоих' },
-        { spanish: '¿Qué me recomendaría del menú?', translation: 'Что бы вы порекомендовали из меню?' },
-        { spanish: 'Querríamos una mesa para cuatro', translation: 'Мы хотели бы столик на четверых' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'hotel', translation: 'отель', audioUrl: null },
-      { word: 'habitación', translation: 'номер (в отеле)', audioUrl: null },
-      { word: 'reserva', translation: 'бронь', audioUrl: null },
-      { word: 'recepción', translation: 'рецепция', audioUrl: null },
-      { word: 'llave', translation: 'ключ', audioUrl: null },
-      { word: 'restaurante', translation: 'ресторан', audioUrl: null },
-      { word: 'menú', translation: 'меню', audioUrl: null },
-      { word: 'camarero/a', translation: 'официант/ка', audioUrl: null },
-      { word: 'cuenta', translation: 'счёт', audioUrl: null },
-      { word: 'propina', translation: 'чаевые', audioUrl: null },
-      { word: 'plato', translation: 'блюдо', audioUrl: null },
-      { word: 'postre', translation: 'десерт', audioUrl: null },
-      { word: 'vino', translation: 'вино', audioUrl: null },
-      { word: 'agua', translation: 'вода', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Experiencia en un hotel español',
-      content: `Cuando llegué al Hotel Mediterráneo en Valencia, estaba un poco nerviosa. Era mi primera vez viajando sola por España. Pero desde el primer momento todo fue perfecto.
-
-En la recepción me atendió una señora muy amable. Le dije: "Buenas tardes, tengo una reserva a nombre de Elena Petrov." Ella sonrió y me respondió: "Bienvenida, señorita Petrov. ¿Me podría mostrar su pasaporte, por favor?"
-
-Mientras ella preparaba mi habitación, me preguntó: "¿Le gustaría una habitación con vistas al mar o al jardín?" Le respondí que preferiría vistas al mar. "Excelente elección", dijo ella. "Le daría la habitación 305. Tiene un balcón precioso."
-
-Me explicó que el desayuno estaba incluido y se servía de 7 a 11 de la mañana en el restaurante del tercer piso. También me informó que el hotel tenía piscina, gimnasio y spa. Me dio la llave y un empleado llevó mi maleta a la habitación.
-
-La habitación era hermosa. Tenía una cama grande, un escritorio, un sofá y un baño moderno. Desde el balcón se veía el mar Mediterráneo. Era espectacular.
-
-Esa noche decidí cenar en el restaurante del hotel. El camarero fue muy atento. Me preguntó: "¿Qué le gustaría beber?" Pedí una copa de vino blanco. Luego me dijo: "De primer plato le recomendaría la ensalada valenciana o el gazpacho. De segundo, nuestra especialidad es la paella de mariscos."
-
-Seguí su consejo y pedí el gazpacho y la paella. Estaba delicioso. De postre probé la crema catalana - un postre típico de la región. Todo fue perfecto.
-
-Al día siguiente, en el desayuno, había una gran variedad: frutas frescas, yogures, panes, jamón ibérico, quesos, zumos naturales... Comí en la terraza disfrutando de las vistas.
-
-Antes de salir a explorar la ciudad, pregunté en recepción: "¿Me podría recomendar lugares para visitar?" La recepcionista me dio un mapa y marcó los lugares imprescindibles: la Ciudad de las Artes y las Ciencias, la Catedral, el Mercado Central y la playa de la Malvarrosa.
-
-Después de tres días maravillosos, llegó el momento de hacer el check-out. Le dije a la recepcionista: "Ha sido una estancia perfecta. Muchas gracias por todo." Ella me respondió: "El placer fue nuestro. Esperamos verla pronto de nuevo."
-
-Sin duda volvería a ese hotel. El servicio fue excelente y todo el personal muy profesional y amable.`,
-      translation: `Когда я приехала в отель Mediterráneo в Валенсии, я была немного нервной. Это был мой первый раз путешествия по Испании в одиночку. Но с первого момента всё было идеально.
-
-На рецепции меня встретила очень приветливая женщина. Я сказала ей: "Добрый день, у меня бронь на имя Елена Петрова." Она улыбнулась и ответила: "Добро пожаловать, сеньорита Петрова. Не могли бы вы показать ваш паспорт, пожалуйста?"
-
-Пока она готовила мой номер, она спросила: "Вы хотели бы номер с видом на море или на сад?" Я ответила, что предпочла бы вид на море. "Отличный выбор," сказала она. "Я дам вам номер 305. У него прекрасный балкон."
-
-Она объяснила, что завтрак включён и подаётся с 7 до 11 утра в ресторане на третьем этаже. Также она сообщила мне, что в отеле есть бассейн, тренажёрный зал и спа. Она дала мне ключ, и сотрудник отнёс мой чемодан в номер.
-
-Номер был прекрасным. В нём была большая кровать, письменный стол, диван и современная ванная комната. С балкона было видно Средиземное море. Это было впечатляюще.
-
-В тот вечер я решила поужинать в ресторане отеля. Официант был очень внимателен. Он спросил меня: "Что бы вы хотели выпить?" Я заказала бокал белого вина. Затем он сказал: "На первое я бы рекомендовал валенсийский салат или гаспачо. На второе наша фирменное блюдо - паэлья с морепродуктами."
-
-Я последовала его совету и заказала гаспачо и паэлью. Было восхитительно. На десерт я попробовала каталонский крем - типичный десерт региона. Всё было идеально.
-
-На следующий день на завтраке был большой выбор: свежие фрукты, йогурты, хлеб, иберийский хамон, сыры, натуральные соки... Я ела на террасе, наслаждаясь видами.
-
-Перед тем как отправиться изучать город, я спросила на рецепции: "Не могли бы вы порекомендовать места для посещения?" Администратор дала мне карту и отметила обязательные к посещению места: Город искусств и наук, Собор, Центральный рынок и пляж Мальварроса.
-
-После трёх чудесных дней пришло время выселяться. Я сказала администратору: "Пребывание было идеальным. Большое спасибо за всё." Она ответила мне: "Нам было приятно. Надеемся увидеть вас снова в ближайшее время."
-
-Без сомнения, я вернулась бы в этот отель. Обслуживание было превосходным, а весь персонал очень профессиональным и приветливым.`,
-      audioUrl: '/audio/lesson-5-2-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5']
+    exercises: []
   },
 
   'lesson-5-3': {
     id: 'lesson-5-3',
-    title: 'Урок 3: Достопримечательности',
+    title: 'Урок 3',
     moduleId: 'module-5',
     grammar: {
-      title: 'Сравнительная и превосходная степень',
-      content: `
-# Сравнительная и превосходная степень
-
-## Сравнительная степень:
-
-**MÁS + прилагательное + QUE** (более... чем):
-- Madrid es **más grande que** Valencia
-- Este museo es **más interesante que** aquel
-
-**MENOS + прилагательное + QUE** (менее... чем):
-- Este hotel es **menos caro que** el otro
-- Barcelona es **menos calurosa que** Sevilla
-
-**TAN + прилагательное + COMO** (такой же... как):
-- Esta iglesia es **tan antigua como** la catedral
-- El parque es **tan bonito como** el jardín
-
-## Неправильные формы:
-
-| Прилагательное | Сравнительная | Перевод |
-|----------------|---------------|---------|
-| bueno | mejor | лучше |
-| malo | peor | хуже |
-| grande | mayor | больше |
-| pequeño | menor | меньше |
-
-**Примеры:**
-- Este restaurante es **mejor que** ese
-- Esta habitación es **peor que** la otra
-
-## Превосходная степень:
-
-**EL/LA/LOS/LAS + MÁS/MENOS + прилагательное (+ DE)**:
-- **La más** bonita ciudad **de** España
-- **El más** famoso museo **del** mundo
-- **Los más** importantes monumentos
-
-**Con неправильными формами:**
-- **El mejor** hotel de la ciudad
-- **La peor** experiencia de mi vida
-- **El mayor** parque de Barcelona
-
-## TANTO/TAN (столько):
-
-**TAN + прилагательное:**
-- Es **tan** hermoso
-
-**TANTO/A/OS/AS + существительное:**
-- Hay **tantos** turistas
-- Tiene **tanta** historia
-
-## Полезная лексика для описания мест:
-
-**Положительные:**
-- impresionante (впечатляющий)
-- hermoso/a (прекрасный)
-- espectacular (потрясающий)
-- histórico/a (исторический)
-- pintoresco/a (живописный)
-
-**Размеры:**
-- enorme (огромный)
-- grande (большой)
-- pequeño/a (маленький)
-- espacioso/a (просторный)
-
-**Характеристики:**
-- antiguo/a (старинный)
-- moderno/a (современный)
-- famoso/a (знаменитый)
-- popular (популярный)
-      `,
-      examples: [
-        { spanish: 'La Sagrada Familia es el monumento más famoso de Barcelona', translation: 'Саграда Фамилия - самый знаменитый памятник Барселоны' },
-        { spanish: 'Este museo es tan interesante como aquel', translation: 'Этот музей такой же интересный, как и тот' },
-        { spanish: 'Madrid tiene más museos que Valencia', translation: 'В Мадриде больше музеев, чем в Валенсии' },
-        { spanish: 'Es la mejor paella que he comido', translation: 'Это лучшая паэлья, которую я ел' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'monumento', translation: 'памятник', audioUrl: null },
-      { word: 'museo', translation: 'музей', audioUrl: null },
-      { word: 'catedral', translation: 'собор', audioUrl: null },
-      { word: 'iglesia', translation: 'церковь', audioUrl: null },
-      { word: 'castillo', translation: 'замок', audioUrl: null },
-      { word: 'palacio', translation: 'дворец', audioUrl: null },
-      { word: 'plaza', translation: 'площадь', audioUrl: null },
-      { word: 'parque', translation: 'парк', audioUrl: null },
-      { word: 'playa', translation: 'пляж', audioUrl: null },
-      { word: 'centro histórico', translation: 'исторический центр', audioUrl: null },
-      { word: 'turista', translation: 'турист', audioUrl: null },
-      { word: 'guía', translation: 'гид', audioUrl: null },
-      { word: 'entrada', translation: 'вход, билет', audioUrl: null },
-      { word: 'recorrido', translation: 'маршрут, экскурсия', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Las maravillas de España',
-      content: `España es uno de los países más visitados del mundo, y no es difícil entender por qué. Tiene una increíble combinación de historia, cultura, gastronomía y belleza natural.
-
-Para mí, la ciudad más impresionante de España es Granada. La Alhambra es el monumento más espectacular que he visto en mi vida. Es un palacio y fortaleza árabe construido en el siglo XIII. Los jardines del Generalife son tan hermosos como el palacio mismo. Desde allí se ve toda la ciudad y las montañas de Sierra Nevada. Es mejor visitarla en primavera cuando hace buen tiempo pero no hay tantos turistas como en verano.
-
-Barcelona es probablemente la ciudad más famosa de España. La arquitectura de Gaudí es única en el mundo. La Sagrada Familia es más grande de lo que imaginaba - lleva más de 140 años en construcción y todavía no está terminada. El Parque Güell es menos conocido pero igualmente fascinante. Las vistas desde allí son espectaculares.
-
-Madrid, la capital, tiene los mejores museos de España. El Museo del Prado es tan importante como el Louvre de París. Tiene obras maestras de Velázquez, Goya y El Greco. El Museo Reina Sofía es más moderno y alberga el famoso "Guernica" de Picasso. La ciudad es más grande que Barcelona pero menos turística.
-
-Sevilla es la ciudad más calurosa de España, especialmente en verano. La Catedral de Sevilla es la más grande de estilo gótico en el mundo. La Giralda, su campanario, era originalmente un minarete árabe. El barrio de Santa Cruz es el más pintoresco de la ciudad, con sus calles estrechas y patios llenos de flores.
-
-Valencia es menos conocida que Barcelona o Madrid, pero no menos interesante. La Ciudad de las Artes y las Ciencias es el complejo arquitectónico más moderno de España. Fue diseñado por Santiago Calatrava y es tan impresionante de día como de noche. Valencia también es famosa por su playa urbana - la Malvarrosa es una de las mejores playas urbanas de Europa.
-
-No puedo olvidar Toledo, la ciudad medieval mejor conservada de España. Sus calles son tan estrechas que apenas pasa un coche. La catedral es una de las más ricas de España en arte. Desde el Mirador del Valle se tiene la vista más completa de la ciudad.
-
-Santiago de Compostela, en Galicia, es el destino más importante de peregrinación cristiana después de Roma y Jerusalén. La catedral es impresionante y la plaza del Obradoiro es una de las más bonitas de Europa.
-
-Cada región de España es diferente. El norte es más verde y lluvioso, el sur más caluroso y seco. La comida del norte es tan buena como la del sur, pero completamente diferente. En el norte se come más pescado y marisco, en el sur más jamón y aceite de oliva.
-
-Para mí, España es el país más diverso de Europa. Tiene playas mejores que Italia, montañas tan altas como en Suiza, y una cultura tan rica como Francia. No es sorprendente que sea uno de los destinos turísticos más populares del mundo.`,
-      translation: `Испания - одна из самых посещаемых стран в мире, и нетрудно понять почему. Она имеет невероятное сочетание истории, культуры, гастрономии и природной красоты.
-
-Для меня самый впечатляющий город Испании - это Гранада. Альгамбра - самый зрелищный памятник, который я видел в своей жизни. Это арабский дворец и крепость, построенные в XIII веке. Сады Хенералифе так же прекрасны, как и сам дворец. Оттуда виден весь город и горы Сьерра-Невада. Лучше посещать её весной, когда стоит хорошая погода, но ещё не так много туристов, как летом.
-
-Барселона - вероятно, самый известный город Испании. Архитектура Гауди уникальна в мире. Саграда Фамилия больше, чем я представлял - она строится уже более 140 лет и всё ещё не закончена. Парк Гуэль менее известен, но столь же очарователен. Виды оттуда впечатляющие.
-
-Мадрид, столица, имеет лучшие музеи Испании. Музей Прадо так же важен, как Лувр в Париже. В нём есть шедевры Веласкеса, Гойи и Эль Греко. Музей Рейна София более современный и хранит знаменитую "Гернику" Пикассо. Город больше, чем Барселона, но менее туристический.
-
-Севилья - самый жаркий город Испании, особенно летом. Севильский собор - самый большой готический собор в мире. Хиральда, его колокольня, изначально была арабским минаретом. Район Санта-Крус - самый живописный в городе, с узкими улочками и внутренними двориками, полными цветов.
-
-Валенсия менее известна, чем Барселона или Мадрид, но не менее интересна. Город искусств и наук - самый современный архитектурный комплекс Испании. Он был спроектирован Сантьяго Калатравой и так же впечатляет днём, как и ночью. Валенсия также знаменита своим городским пляжем - Мальварроса считается одним из лучших городских пляжей Европы.
-
-Не могу забыть Толедо, наиболее хорошо сохранившийся средневековый город Испании. Его улицы настолько узкие, что едва проезжает машина. Собор - один из самых богатых в Испании по искусству. Со смотровой площадки Мирадор-дель-Валье открывается самый полный вид на город.
-
-Сантьяго-де-Компостела, в Галисии, - самое важное место христианского паломничества после Рима и Иерусалима. Собор впечатляет, а площадь Обрадоиро - одна из самых красивых в Европе.
-
-Каждый регион Испании разный. Север более зелёный и дождливый, юг более жаркий и сухой. Еда на севере такая же хорошая, как и на юге, но совершенно другая. На севере едят больше рыбы и морепродуктов, на юге больше хамона и оливкового масла.
-
-Для меня Испания - самая разнообразная страна Европы. У неё пляжи лучше, чем в Италии, горы такие же высокие, как в Швейцарии, и культура такая же богатая, как во Франции. Неудивительно, что она является одним из самых популярных туристических направлений в мире.`,
-      audioUrl: '/audio/lesson-5-3-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-3', 'ex-5-3-4', 'ex-5-3-5']
+    exercises: []
   },
 
   // МОДУЛЬ 6: Будущее время (A2)
   'lesson-6-1': {
     id: 'lesson-6-1',
-    title: 'Урок 1: Futuro simple',
+    title: 'Урок 1',
     moduleId: 'module-6',
     grammar: {
-      title: 'Futuro simple (Простое будущее время)',
-      content: `
-# Futuro simple
-
-## Образование:
-**Инфинитив + окончания**
-
-| Лицо | Окончание | Hablar | Comer | Vivir |
-|------|-----------|--------|-------|-------|
-| yo | -é | hablaré | comeré | viviré |
-| tú | -ás | hablarás | comerás | vivirás |
-| él/ella/usted | -á | hablará | comerá | vivirá |
-| nosotros/as | -emos | hablaremos | comeremos | viviremos |
-| vosotros/as | -éis | hablaréis | comeréis | viviréis |
-| ellos/ellas/ustedes | -án | hablarán | comerán | vivirán |
-
-## Неправильные основы (те же, что в condicional):
-
-| Инфинитив | Основа | Пример |
-|-----------|--------|--------|
-| hacer | har- | haré, harás, hará... |
-| decir | dir- | diré, dirás, dirá... |
-| poder | podr- | podré, podrás, podrá... |
-| poner | pondr- | pondré, pondrás, pondrá... |
-| salir | saldr- | saldré, saldrás, saldrá... |
-| tener | tendr- | tendré, tendrás, tendrá... |
-| venir | vendr- | vendré, vendrás, vendrá... |
-| saber | sabr- | sabré, sabrás, sabrá... |
-| querer | querr- | querré, querrás, querrá... |
-| haber | habr- | habré, habrás, habrá... |
-
-## Употребление:
-
-1. **Предсказания о будущем:**
-   - Mañana **lloverá** (Завтра будет дождь)
-   - El año que viene **viajaré** a España (В следующем году я поеду в Испанию)
-
-2. **Планы и намерения:**
-   - **Estudiaré** medicina (Я буду изучать медицину)
-   - **Nos mudaremos** a Barcelona (Мы переедем в Барселону)
-
-3. **Предположения о настоящем:**
-   - **Serán** las tres (Наверное, три часа)
-   - **Estará** en casa (Он, должно быть, дома)
-
-## Слова-маркеры:
-
-- **mañana** (завтра)
-- **pasado mañana** (послезавтра)
-- **la semana que viene / próxima** (на следующей неделе)
-- **el mes que viene / próximo** (в следующем месяце)
-- **el año que viene / próximo** (в следующем году)
-- **en el futuro** (в будущем)
-- **dentro de...** (через...) - dentro de dos días (через два дня)
-- **pronto** (скоро)
-
-## IR + A + инфинитив (альтернатива):
-
-Для ближайшего будущего часто используется конструкция IR + A + инфинитив:
-- **Voy a estudiar** (Я буду учиться)
-- **Vas a viajar** (Ты поедешь)
-- **Van a comer** (Они будут есть)
-
-Futuro simple более формально и используется для более отдаленного будущего.
-      `,
-      examples: [
-        { spanish: 'Mañana iré al médico', translation: 'Завтра я пойду к врачу' },
-        { spanish: 'El próximo año estudiaré en España', translation: 'В следующем году я буду учиться в Испании' },
-        { spanish: 'Haremos un viaje a Italia', translation: 'Мы совершим поездку в Италию' },
-        { spanish: '¿Qué harás este fin de semana?', translation: 'Что ты будешь делать в эти выходные?' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'mañana', translation: 'завтра', audioUrl: null },
-      { word: 'pasado mañana', translation: 'послезавтра', audioUrl: null },
-      { word: 'próximo/a', translation: 'следующий/ая', audioUrl: null },
-      { word: 'futuro', translation: 'будущее', audioUrl: null },
-      { word: 'plan', translation: 'план', audioUrl: null },
-      { word: 'sueño', translation: 'мечта', audioUrl: null },
-      { word: 'meta', translation: 'цель', audioUrl: null },
-      { word: 'esperar', translation: 'ждать, надеяться', audioUrl: null },
-      { word: 'lograr', translation: 'достигать', audioUrl: null },
-      { word: 'conseguir', translation: 'получать, добиваться', audioUrl: null },
-      { word: 'cambiar', translation: 'менять', audioUrl: null },
-      { word: 'mejorar', translation: 'улучшать', audioUrl: null },
-      { word: 'realizar', translation: 'осуществлять', audioUrl: null },
-      { word: 'cumplir', translation: 'выполнять, исполняться', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Mis planes para el futuro',
-      content: `Me llamo Andrea y tengo 22 años. Acabo de terminar la universidad y ahora estoy pensando en mis planes para el futuro. Tengo muchos sueños y metas que quiero cumplir.
-
-El mes que viene empezaré a trabajar en una empresa de marketing digital en Madrid. Será mi primer trabajo profesional y estoy muy emocionada, aunque también un poco nerviosa. Trabajaré como asistente de marketing, pero espero que con el tiempo podré ascender a puestos más altos. Aprenderé mucho sobre redes sociales, publicidad digital y estrategias de contenido.
-
-Este trabajo me permitirá independizarme económicamente. Dentro de tres meses me mudaré a mi propio apartamento. Ahora vivo con mis padres, pero llegó el momento de tener mi propio espacio. Será un apartamento pequeño en el barrio de Malasaña, cerca de mi oficina. No tendré que tomar el metro - podré ir andando en quince minutos.
-
-En cuanto al dinero, ahorraré una parte de mi salario cada mes. Tengo un plan: dentro de dos años tendré suficiente dinero para viajar por Sudamérica durante tres meses. Siempre he soñado con conocer Argentina, Chile, Perú y Colombia. Visitaré Machu Picchu, bailaré tango en Buenos Aires, exploraré la Patagonia y haré senderismo en los Andes. Será el viaje de mi vida.
-
-Después de ese viaje, volveré a España y buscaré nuevas oportunidades profesionales. Tal vez haré un máster en marketing internacional, o quizás me mudaré a Barcelona para trabajar allí. También pienso aprender portugués - será muy útil si quiero trabajar con clientes latinoamericanos.
-
-En cinco años me veo como gerente de marketing en una empresa importante. Hablaré inglés, español y portugués con fluidez. Habré viajado por muchos países y tendré experiencia internacional. Quizás incluso viviré en otro país - me encantaría trabajar unos años en Londres o Berlín.
-
-En el plano personal, no tengo prisa por casarme o tener hijos. Primero quiero enfocarme en mi carrera y en realizarme profesionalmente. Pero quien sabe - tal vez en diez años estaré casada y tendré una familia. Lo que sí sé es que no dejaré de viajar y aprender cosas nuevas.
-
-También tengo planes más pequeños pero importantes. Haré ejercicio regularmente - iré al gimnasio tres veces por semana. Leeré al menos un libro al mes. Mantendré el contacto con mis amigos de la universidad aunque todos estaremos ocupados con nuestros trabajos. Visitaré a mis padres los domingos y seguiré siendo una buena hija.
-
-El futuro me da un poco de miedo, pero sobre todo me emociona. Sé que habrá desafíos y momentos difíciles, pero confío en que podré superarlos. Trabajaré duro, aprenderé de mis errores y nunca dejaré de perseguir mis sueños. El futuro está lleno de posibilidades y estoy lista para aprovech arlas.`,
-      translation: `Меня зовут Андреа и мне 22 года. Я только что закончила университет и сейчас думаю о своих планах на будущее. У меня много мечт и целей, которые я хочу осуществить.
-
-В следующем месяце я начну работать в компании цифрового маркетинга в Мадриде. Это будет моя первая профессиональная работа, и я очень взволнована, хотя также немного нервничаю. Я буду работать ассистентом по маркетингу, но надеюсь, что со временем смогу подняться на более высокие должности. Я многому научусь о социальных сетях, цифровой рекламе и контент-стратегиях.
-
-Эта работа позволит мне стать финансово независимой. Через три месяца я переезжу в свою собственную квартиру. Сейчас я живу с родителями, но пришло время иметь своё собственное пространство. Это будет маленькая квартира в районе Маласанья, рядом с моим офисом. Мне не придётся ездить на метро - я смогу дойти пешком за пятнадцать минут.
-
-Что касается денег, я буду откладывать часть зарплаты каждый месяц. У меня есть план: через два года у меня будет достаточно денег, чтобы путешествовать по Южной Америке три месяца. Я всегда мечтала познакомиться с Аргентиной, Чили, Перу и Колумбией. Я посещу Мачу-Пикчу, станцую танго в Буэнос-Айресе, исследую Патагонию и пойду в поход в Анды. Это будет путешествие моей жизни.
-
-После этого путешествия я вернусь в Испанию и буду искать новые профессиональные возможности. Возможно, я получу степень магистра в международном маркетинге, или, может быть, переезжу в Барселону работать там. Я также думаю выучить португальский - это будет очень полезно, если я захочу работать с латиноамериканскими клиентами.
-
-Через пять лет я вижу себя менеджером по маркетингу в важной компании. Я буду свободно говорить по-английски, по-испански и по-португальски. Я объездю много стран и буду иметь международный опыт. Возможно, я даже буду жить в другой стране - мне бы очень хотелось поработать несколько лет в Лондоне или Берлине.
-
-В личном плане я не спешу выходить замуж или иметь детей. Сначала я хочу сосредоточиться на карьере и профессиональной реализации. Но кто знает - может быть, через десять лет я буду замужем и у меня будет семья. То, что я точно знаю, это то, что я не перестану путешествовать и узнавать что-то новое.
-
-У меня также есть более мелкие, но важные планы. Я буду регулярно заниматься спортом - буду ходить в спортзал три раза в неделю. Я буду читать хотя бы одну книгу в месяц. Я буду поддерживать контакт с друзьями из университета, хотя все мы будем заняты своей работой. Я буду навещать родителей по воскресеньям и продолжу быть хорошей дочерью.
-
-Будущее меня немного пугает, но прежде всего волнует. Я знаю, что будут трудности и сложные моменты, но я уверена, что смогу их преодолеть. Я буду усердно работать, учиться на своих ошибках и никогда не перестану преследовать свои мечты. Будущее полно возможностей, и я готова их использовать.`,
-      audioUrl: '/audio/lesson-6-1-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
+    exercises: []
   },
 
   'lesson-6-2': {
     id: 'lesson-6-2',
-    title: 'Урок 2: Планы и намерения',
+    title: 'Урок 2',
     moduleId: 'module-6',
     grammar: {
-      title: 'IR + A + инфинитив vs Futuro simple',
-      content: `
-# IR + A + infinitivo (Ближайшее будущее)
-
-## Образование:
-**IR (настоящее время) + A + инфинитив**
-
-| Лицо | IR | Пример |
-|------|----|--------|
-| yo | voy | voy a estudiar |
-| tú | vas | vas a comer |
-| él/ella/usted | va | va a viajar |
-| nosotros/as | vamos | vamos a salir |
-| vosotros/as | vais | vais a trabajar |
-| ellos/ellas/ustedes | van | van a vivir |
-
-## Употребление IR + A + инфинитив:
-
-1. **Ближайшие планы:**
-   - **Voy a comer** ahora (Я сейчас буду есть)
-   - Esta tarde **vamos a ver** una película (Сегодня вечером мы посмотрим фильм)
-
-2. **Намерения:**
-   - **Voy a estudiar** medicina (Я буду изучать медицину)
-   - **Van a casarse** el año que viene (Они поженятся в следующем году)
-
-3. **Очевидное будущее:**
-   - ¡Cuidado! **Vas a caer** (Осторожно! Ты упадешь)
-   - Mira esas nubes - **va a llover** (Посмотри на эти тучи - будет дождь)
-
-## Разница: IR + A vs Futuro simple
-
-**IR + A + infinitivo:**
-- Более разговорное
-- Ближайшее будущее
-- Четкие планы и намерения
-- **Voy a comprar** un coche (Я собираюсь купить машину)
-
-**Futuro simple:**
-- Более формальное
-- Отдаленное будущее
-- Предсказания
-- **Compraré** un coche algún día (Я куплю машину когда-нибудь)
-
-## Выражение намерений и желаний:
-
-**PENSAR + инфинитив** (думать, планировать):
-- **Pienso** viajar a Italia (Я планирую поехать в Италию)
-
-**QUERER + инфинитив** (хотеть):
-- **Quiero** aprender español (Я хочу выучить испанский)
-
-**ESPERAR + инфинитив** (надеяться):
-- **Espero** conseguir un buen trabajo (Я надеюсь получить хорошую работу)
-
-**TENER LA INTENCIÓN DE + инфинитив** (иметь намерение):
-- **Tengo la intención de** mudarme (Я намереваюсь переехать)
-
-**DESEAR + инфинитив** (желать):
-- **Deseo** mejorar mi vida (Я желаю улучшить свою жизнь)
-
-## Вопросы о планах:
-
-- **¿Qué vas a hacer...?** - Что ты собираешься делать...?
-- **¿Qué harás...?** - Что ты будешь делать...?
-- **¿Tienes planes para...?** - У тебя есть планы на...?
-- **¿Qué piensas hacer...?** - Что ты думаешь делать...?
-      `,
-      examples: [
-        { spanish: 'Voy a estudiar esta noche', translation: 'Я буду учиться сегодня вечером' },
-        { spanish: '¿Qué vas a hacer mañana?', translation: 'Что ты будешь делать завтра?' },
-        { spanish: 'Pienso mudarme a Barcelona', translation: 'Я планирую переехать в Барселону' },
-        { spanish: 'Espero conseguir un buen trabajo', translation: 'Я надеюсь получить хорошую работу' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'proyecto', translation: 'проект', audioUrl: null },
-      { word: 'objetivo', translation: 'цель, задача', audioUrl: null },
-      { word: 'intención', translation: 'намерение', audioUrl: null },
-      { word: 'propósito', translation: 'цель, намерение', audioUrl: null },
-      { word: 'decisión', translation: 'решение', audioUrl: null },
-      { word: 'carrera', translation: 'карьера', audioUrl: null },
-      { word: 'éxito', translation: 'успех', audioUrl: null },
-      { word: 'fracaso', translation: 'неудача', audioUrl: null },
-      { word: 'oportunidad', translation: 'возможность', audioUrl: null },
-      { word: 'desafío', translation: 'вызов, проблема', audioUrl: null },
-      { word: 'mudanza', translation: 'переезд', audioUrl: null },
-      { word: 'cambio', translation: 'изменение', audioUrl: null },
-      { word: 'empezar', translation: 'начинать', audioUrl: null },
-      { word: 'terminar', translation: 'заканчивать', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: '¿Qué vamos a hacer este fin de semana?',
-      content: `Es jueves por la noche y mis amigos y yo estamos planeando el fin de semana. Todos tenemos ideas diferentes sobre qué vamos a hacer.
-
-María dice: "Yo voy a quedarme en casa el sábado por la mañana. Tengo que limpiar mi apartamento porque está muy desordenado. Después, por la tarde, voy a ir de compras. Necesito ropa nueva para mi entrevista de trabajo del lunes. Espero encontrar algo bonito y profesional en las rebajas."
-
-Carlos tiene otros planes: "Yo pienso ir a la playa el sábado si hace buen tiempo. El pronóstico dice que va a hacer sol y 28 grados. Voy a salir temprano, sobre las ocho de la mañana, para evitar el tráfico. ¿Alguien quiere venir conmigo? Va a ser un día perfecto para nadar y tomar el sol."
-
-"Yo no puedo", dice Laura. "El sábado voy a ayudar a mi hermano con su mudanza. Se va a mudar a un apartamento nuevo y necesita ayuda con los muebles. Vamos a empezar a las nueve y probablemente terminaremos por la tarde. Va a ser un día agotador, pero mi hermano me va a invitar a cenar después como agradecimiento."
-
-Miguel interrumpe: "¿Y qué vamos a hacer el sábado por la noche? Pienso organizar una cena en mi casa. Voy a cocinar mi especialidad - paella valenciana. ¿Os apetece venir? Vamos a ser unos ocho personas. Va a ser muy divertido."
-
-"¡Me encantaría!" responde María. "Pero primero tengo que terminar mis compras. ¿A qué hora va a ser la cena?"
-
-"Vamos a empezar sobre las nueve", dice Miguel. "Así todos tendrán tiempo de hacer sus cosas durante el día. Voy a comprar los ingredientes el sábado por la mañana en el mercado. Necesito arroz, mariscos, pollo, verduras... Va a ser una paella auténtica."
-
-Laura pregunta: "¿Necesitas ayuda para cocinar? Puedo llegar temprano si quieres. Voy a terminar con la mudanza sobre las seis."
-
-"Sería genial", dice Miguel. "Vamos a preparar todo juntos. También voy a hacer una sangría. Va a ser una cena memorable."
-
-Carlos añade: "Yo voy a traer el postre. Pasaré por la mejor pastelería de la ciudad. Voy a comprar una tarta de chocolate. ¿Os parece bien?"
-
-"Perfecto", dice Miguel. "¿Y el domingo? ¿Qué vamos a hacer?"
-
-"El domingo por la mañana voy a dormir hasta tarde", dice Laura riendo. "Después de la mudanza del sábado voy a estar agotada. No pienso levantarme antes de las once."
-
-María sugiere: "¿Qué tal si vamos a almorzar juntos el domingo? Conozco un restaurante nuevo que quiero probar. Dicen que van a abrir un buffet los domingos. Vamos a poder comer todo lo que queramos por un precio fijo."
-
-"Buena idea", dice Carlos. "Después del almuerzo podríamos ir al cine. Van a estrenar una película nueva que quiero ver. Tengo la intención de ver todas las películas nominadas a los Oscar este año."
-
-Miguel concluye: "Entonces está decidido. El sábado cada uno va a hacer sus cosas durante el día, por la noche vamos a cenar en mi casa, y el domingo vamos a almorzar juntos y luego iremos al cine. Va a ser un fin de semana fantástico."
-
-Todos estamos de acuerdo. Ya tenemos planes para el fin de semana. Ahora solo queda esperar a que llegue el sábado. Va a ser genial pasar tiempo juntos.`,
-      translation: `Сейчас вечер четверга, и мы с друзьями планируем выходные. У всех разные идеи о том, что мы будем делать.
-
-Мария говорит: "Я собираюсь остаться дома в субботу утром. Мне нужно убрать квартиру, потому что она очень неопрятная. Потом, во второй половине дня, я пойду за покупками. Мне нужна новая одежда для собеседования в понедельник. Надеюсь найти что-то красивое и профессиональное на распродаже."
-
-У Карлоса другие планы: "Я думаю поехать на пляж в субботу, если будет хорошая погода. Прогноз говорит, что будет солнечно и 28 градусов. Я выеду рано, около восьми утра, чтобы избежать пробок. Кто-нибудь хочет поехать со мной? Это будет идеальный день для плавания и загорания."
-
-"Я не могу", говорит Лаура. "В субботу я буду помогать брату с переездом. Он переезжает в новую квартиру и ему нужна помощь с мебелью. Мы начнём в девять и, вероятно, закончим во второй половине дня. Это будет изнурительный день, но брат пригласит меня на ужин потом в знак благодарности."
-
-Мигель прерывает: "А что мы будем делать в субботу вечером? Я думаю организовать ужин у себя дома. Я приготовлю свою фирменное блюдо - валенсийскую паэлью. Хотите прийти? Нас будет человек восемь. Будет очень весело."
-
-"С удовольствием!" отвечает Мария. "Но сначала мне нужно закончить покупки. Во сколько будет ужин?"
-
-"Начнём около девяти", говорит Мигель. "Так у всех будет время сделать свои дела в течение дня. Я куплю ингредиенты в субботу утром на рынке. Мне нужен рис, морепродукты, курица, овощи... Это будет настоящая паэлья."
-
-Лаура спрашивает: "Тебе нужна помощь с готовкой? Я могу прийти пораньше, если хочешь. Я закончу с переездом около шести."
-
-"Было бы здорово", говорит Мигель. "Мы приготовим всё вместе. Я также сделаю сангрию. Это будет незабываемый ужин."
-
-Карлос добавляет: "Я принесу десерт. Зайду в лучшую кондитерскую города. Я куплю шоколадный торт. Вам подходит?"
-
-"Отлично", говорит Мигель. "А в воскресенье? Что мы будем делать?"
-
-"В воскресенье утром я буду спать допоздна", говорит Лаура, смеясь. "После субботнего переезда я буду измотана. Не собираюсь вставать раньше одиннадцати."
-
-Мария предлагает: "Как насчёт того, чтобы пообедать вместе в воскресенье? Я знаю новый ресторан, который хочу попробовать. Говорят, что они открывают буфет по воскресеньям. Мы сможем есть всё, что захотим, за фиксированную цену."
-
-"Хорошая идея", говорит Карлос. "После обеда мы могли бы пойти в кино. Они показывают новый фильм, который я хочу посмотреть. Я намереваюсь посмотреть все фильмы, номинированные на Оскар в этом году."
-
-Мигель заключает: "Тогда решено. В субботу каждый будет заниматься своими делами в течение дня, вечером мы поужинаем у меня дома, а в воскресенье пообедаем вместе, а затем пойдём в кино. Это будут фантастические выходные."
-
-Мы все согласны. Теперь у нас есть планы на выходные. Осталось только дождаться субботы. Будет здорово провести время вместе.`,
-      audioUrl: '/audio/lesson-6-2-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-6-2-1', 'ex-6-2-2', 'ex-6-2-3', 'ex-6-2-4', 'ex-6-2-5']
+    exercises: []
   },
 
   'lesson-6-3': {
     id: 'lesson-6-3',
-    title: 'Урок 3: Предсказания и прогнозы',
+    title: 'Урок 3',
     moduleId: 'module-6',
     grammar: {
-      title: 'Futuro для предположений',
-      content: `
-# Futuro для предположений о настоящем и будущем
-
-## Предположения о настоящем:
-
-Futuro simple часто используется для предположений о том, что происходит СЕЙЧАС:
-
-**¿Qué hora es?** - Который час?
-- **Serán** las tres (Наверное, три часа)
-
-**¿Dónde está Juan?** - Где Хуан?
-- **Estará** en casa (Он, должно быть, дома)
-
-**¿Quién llamó?** - Кто звонил?
-- **Será** mi madre (Это, наверное, моя мама)
-
-**¿Cuántos años tiene?** - Сколько ему лет?
-- **Tendrá** unos 30 años (Ему, должно быть, около 30)
-
-## Структура:
-
-**Futuro simple = "наверное", "должно быть", "вероятно"**
-
-- **Habrá** mucha gente (Наверное, много людей)
-- **Costará** caro (Это, должно быть, дорого стоит)
-- **Sabrá** la respuesta (Он, должно быть, знает ответ)
-
-## Предсказания о будущем:
-
-**Основанные на фактах:**
-- Según el pronóstico, mañana **lloverá** (По прогнозу, завтра будет дождь)
-- Con esta política económica, la inflación **aumentará** (С этой экономической политикой инфляция вырастет)
-
-**Предсказания-мнения:**
-- En 20 años **habrá** coches voladores (Через 20 лет будут летающие машины)
-- La tecnología **cambiará** nuestras vidas (Технология изменит наши жизни)
-- **Viviremos** más tiempo gracias a la medicina (Мы будем жить дольше благодаря медицине)
-
-## Вероятность (PROBABLEMENTE, SEGURAMENTE, POSIBLEMENTE):
-
-**PROBABLEMENTE + futuro** (вероятно):
-- **Probablemente** lloverá mañana
-- **Probablemente** no vendrá
-
-**SEGURAMENTE + futuro** (наверняка):
-- **Seguramente** aprobará el examen
-- **Seguramente** llegará tarde
-
-**POSIBLEMENTE + subjuntivo** (возможно):
-- **Posiblemente** venga (Возможно, он придет)
-
-**QUIZÁ(S) / TAL VEZ + futuro/subjuntivo** (может быть):
-- **Quizás** viajaré a España
-- **Tal vez** llueva
-
-## Условные предложения (SI + presente, futuro):
-
-- **Si** tengo tiempo, **iré** al cine (Если у меня будет время, я пойду в кино)
-- **Si** estudias, **aprobarás** (Если ты будешь учиться, ты сдашь)
-- **Si** hace buen tiempo, **iremos** a la playa (Если будет хорошая погода, мы пойдем на пляж)
-
-## Выражения будущего:
-
-- **En el futuro** (в будущем)
-- **Dentro de X años** (через X лет)
-- **En X años** (через X лет)
-- **Para el año 2050** (к 2050 году)
-- **Tarde o temprano** (рано или поздно)
-- **Con el tiempo** (со временем)
-- **A largo plazo** (в долгосрочной перспективе)
-      `,
-      examples: [
-        { spanish: '¿Dónde está María? - Estará en casa', translation: 'Где Мария? - Она, должно быть, дома' },
-        { spanish: 'Según el pronóstico, mañana lloverá', translation: 'По прогнозу, завтра будет дождь' },
-        { spanish: 'Si estudias, aprobarás el examen', translation: 'Если ты будешь учиться, ты сдашь экзамен' },
-        { spanish: 'En el futuro viviremos más años', translation: 'В будущем мы будем жить дольше' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'predicción', translation: 'предсказание', audioUrl: null },
-      { word: 'pronóstico', translation: 'прогноз', audioUrl: null },
-      { word: 'probable', translation: 'вероятный', audioUrl: null },
-      { word: 'posible', translation: 'возможный', audioUrl: null },
-      { word: 'seguro', translation: 'уверенный, точный', audioUrl: null },
-      { word: 'tecnología', translation: 'технология', audioUrl: null },
-      { word: 'ciencia', translation: 'наука', audioUrl: null },
-      { word: 'avance', translation: 'прогресс, достижение', audioUrl: null },
-      { word: 'desarrollo', translation: 'развитие', audioUrl: null },
-      { word: 'innovación', translation: 'инновация', audioUrl: null },
-      { word: 'clima', translation: 'климат', audioUrl: null },
-      { word: 'medio ambiente', translation: 'окружающая среда', audioUrl: null },
-      { word: 'cambio climático', translation: 'изменение климата', audioUrl: null },
-      { word: 'sociedad', translation: 'общество', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'El mundo en 2050',
-      content: `¿Cómo será el mundo en 2050? Los expertos hacen muchas predicciones sobre cómo viviremos dentro de 25 años. Algunas son optimistas, otras preocupantes. Veamos qué cambios probablemente veremos.
-
-**Tecnología y vida diaria**
-
-La tecnología cambiará radicalmente nuestra vida cotidiana. Según los expertos, la inteligencia artificial estará presente en todos los aspectos de nuestra vida. Tendremos asistentes virtuales mucho más avanzados que los actuales. Estos asistentes sabrán nuestras preferencias, anticiparán nuestras necesidades y nos ayudarán a tomar decisiones.
-
-Los coches autónomos serán la norma. No necesitaremos conducir - el coche nos llevará a donde queramos mientras nosotros trabajamos, leemos o descansamos. Probablemente tampoco tendremos que comprar coches. Simplemente llamaremos a un vehículo cuando lo necesitemos.
-
-En nuestras casas, todo estará conectado a internet. La nevera sabrá qué alimentos faltan y los pedirá automáticamente. Las luces, la calefacción y los electrodomésticos se ajustarán solos según nuestras rutinas. Viviremos en casas inteligentes que casi pensarán por sí mismas.
-
-**Trabajo y educación**
-
-La forma en que trabajamos cambiará completamente. Muchas profesiones que existen hoy desaparecerán, reemplazadas por robots e inteligencia artificial. Pero también surgirán nuevos trabajos que ahora ni siquiera podemos imaginar.
-
-El trabajo remoto será completamente normal. Muchas personas no tendrán una oficina fija - trabajarán desde casa, desde cafeterías o mientras viajan. Las reuniones se harán en realidad virtual, donde parecerá que todos están en la misma sala aunque estén en países diferentes.
-
-La educación también será muy diferente. Probablemente las universidades tradicionales perderán importancia. Estudiaremos online, a nuestro propio ritmo, con programas personalizados según nuestros intereses y habilidades. La realidad virtual nos permitirá hacer prácticas en entornos simulados antes de trabajar en situaciones reales.
-
-**Salud y medicina**
-
-La medicina tendrá avances increíbles. Según los científicos, viviremos más años - la esperanza de vida llegará a los 90 o 100 años en muchos países. Algunas enfermedades que hoy son mortales se curarán fácilmente.
-
-Tendremos medicina personalizada. Los doctores analizarán nuestro ADN y sabrán exactamente qué tratamientos funcionarán mejor para cada persona. Los sensores que llevaremos en el cuerpo monitorearán constantemente nuestra salud y detectarán problemas antes de que aparezcan síntomas.
-
-Posiblemente habrá órganos artificiales para reemplazar los que fallen. Quizás incluso podremos imprimir órganos en 3D usando nuestras propias células. Esto resolverá el problema de la falta de donantes.
-
-**Medio ambiente y energía**
-
-Esta es el área más preocupante. Si no hacemos cambios ahora, el cambio climático empeorará. Las temperaturas subirán, habrá más sequías e inundaciones, y muchas especies se extinguirán.
-
-Pero también hay esperanza. Probablemente usaremos energías renovables de forma masiva. Los paneles solares serán mucho más eficientes y baratos. Tal vez tengamos fusión nuclear, una fuente de energía limpia y prácticamente ilimitada.
-
-Los coches eléctricos reemplazarán completamente a los de gasolina. Las ciudades tendrán menos contaminación y el aire será más limpio. Posiblemente cultivaremos comida en edificios verticales dentro de las ciudades, usando menos agua y tierra.
-
-**Población y sociedad**
-
-La población mundial llegará a unos 9.000 millones de personas. La mayoría vivirá en ciudades - habrá megaciudades de 30 o 40 millones de habitantes. Estas ciudades tendrán que ser muy eficientes en el uso de recursos.
-
-La sociedad será más diversa y conectada globalmente. Viajar será más fácil y barato. Quizás tengamos vuelos supersónicos que crucen el Atlántico en dos horas. Algunos predicen que habrá colonias en Marte, aunque probablemente serán muy pequeñas.
-
-¿Se cumplirán estas predicciones? Nadie lo sabe con certeza. El futuro dependerá de las decisiones que tomemos hoy. Pero una cosa es segura: el mundo de 2050 será muy diferente al de hoy.`,
-      translation: `Каким будет мир в 2050 году? Эксперты делают много предсказаний о том, как мы будем жить через 25 лет. Некоторые оптимистичны, другие вызывают беспокойство. Давайте посмотрим, какие изменения мы, вероятно, увидим.
-
-**Технологии и повседневная жизнь**
-
-Технологии радикально изменят нашу повседневную жизнь. По мнению экспертов, искусственный интеллект будет присутствовать во всех аспектах нашей жизни. У нас будут виртуальные ассистенты гораздо более продвинутые, чем нынешние. Эти ассистенты будут знать наши предпочтения, предугадывать наши потребности и помогать нам принимать решения.
-
-Беспилотные автомобили станут нормой. Нам не нужно будет водить - машина отвезёт нас куда угодно, пока мы работаем, читаем или отдыхаем. Вероятно, нам также не придётся покупать автомобили. Мы просто вызовем транспортное средство, когда нам нужно.
-
-В наших домах всё будет подключено к интернету. Холодильник будет знать, каких продуктов не хватает, и закажет их автоматически. Свет, отопление и бытовая техника будут настраиваться сами в соответствии с нашим распорядком. Мы будем жить в умных домах, которые почти будут думать сами.
-
-**Работа и образование**
-
-То, как мы работаем, полностью изменится. Многие профессии, которые существуют сегодня, исчезнут, замененные роботами и искусственным интеллектом. Но также появятся новые работы, которые мы сейчас даже не можем представить.
-
-Удалённая работа станет совершенно нормальной. У многих людей не будет фиксированного офиса - они будут работать из дома, из кафе или во время путешествий. Встречи будут проходить в виртуальной реальности, где будет казаться, что все находятся в одной комнате, хотя они находятся в разных странах.
-
-Образование тоже будет очень отличаться. Вероятно, традиционные университеты потеряют значимость. Мы будем учиться онлайн, в своём собственном темпе, с персонализированными программами в соответствии с нашими интересами и способностями. Виртуальная реальность позволит нам практиковаться в смоделированных средах до работы в реальных ситуациях.
-
-**Здоровье и медицина**
-
-В медицине будут невероятные достижения. По мнению учёных, мы будем жить дольше - продолжительность жизни достигнет 90 или 100 лет во многих странах. Некоторые болезни, которые сегодня смертельны, будут легко излечиваться.
-
-У нас будет персонализированная медицина. Врачи будут анализировать нашу ДНК и будут точно знать, какие методы лечения будут работать лучше для каждого человека. Датчики, которые мы будем носить на теле, будут постоянно контролировать наше здоровье и обнаруживать проблемы до появления симптомов.
-
-Возможно, будут искусственные органы для замены тех, которые откажут. Возможно, мы даже сможем печатать органы на 3D-принтере, используя наши собственные клетки. Это решит проблему нехватки доноров.
-
-**Окружающая среда и энергия**
-
-Это самая тревожная область. Если мы не внесём изменения сейчас, изменение климата ухудшится. Температуры поднимутся, будет больше засух и наводнений, и многие виды вымрут.
-
-Но есть и надежда. Вероятно, мы будем массово использовать возобновляемые источники энергии. Солнечные панели будут намного эффективнее и дешевле. Возможно, у нас будет термоядерный синтез, чистый и практически неограниченный источник энергии.
-
-Электромобили полностью заменят бензиновые. В городах будет меньше загрязнения, а воздух станет чище. Возможно, мы будем выращивать еду в вертикальных зданиях внутри городов, используя меньше воды и земли.
-
-**Население и общество**
-
-Мировое население достигнет около 9 миллиардов человек. Большинство будет жить в городах - будут мегаполисы с 30 или 40 миллионами жителей. Эти города должны будут быть очень эффективны в использовании ресурсов.
-
-Общество будет более разнообразным и глобально связанным. Путешествовать будет проще и дешевле. Возможно, у нас будут сверхзвуковые рейсы, которые пересекут Атлантику за два часа. Некоторые предсказывают, что будут колонии на Марсе, хотя, вероятно, они будут очень маленькими.
-
-Сбудутся ли эти предсказания? Никто не знает наверняка. Будущее будет зависеть от решений, которые мы примем сегодня. Но одно точно: мир 2050 года будет очень отличаться от сегодняшнего.`,
-      audioUrl: '/audio/lesson-6-3-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
+    exercises: []
   },
 
   // МОДУЛЬ 7: Сослагательное наклонение (B1)
   'lesson-7-1': {
     id: 'lesson-7-1',
-    title: 'Урок 1: Presente de subjuntivo - образование',
+    title: 'Урок 1',
     moduleId: 'module-7',
     grammar: {
-      title: 'Presente de subjuntivo (Настоящее время сослагательного наклонения)',
-      content: `
-# Presente de subjuntivo - Образование
-
-Subjuntivo (сослагательное наклонение) выражает субъективность: желания, сомнения, эмоции, неуверенность.
-
-## Образование:
-
-**1. Берем форму YO настоящего времени (indicativo)**
-**2. Убираем -O**
-**3. Добавляем "противоположные" окончания:**
-
-### Глаголы на -AR → окончания -ER/-IR:
-
-| Лицо | HABLAR | Окончание |
-|------|--------|-----------|
-| yo | hable | -e |
-| tú | hables | -es |
-| él/ella/usted | hable | -e |
-| nosotros/as | hablemos | -emos |
-| vosotros/as | habléis | -éis |
-| ellos/ellas/ustedes | hablen | -en |
-
-### Глаголы на -ER/-IR → окончания -AR:
-
-| Лицо | COMER | VIVIR | Окончание |
-|------|-------|-------|-----------|
-| yo | coma | viva | -a |
-| tú | comas | vivas | -as |
-| él/ella/usted | coma | viva | -a |
-| nosotros/as | comamos | vivamos | -amos |
-| vosotros/as | comáis | viváis | -áis |
-| ellos/ellas/ustedes | coman | vivan | -an |
-
-## Неправильные глаголы (от формы YO):
-
-**Изменения в корне сохраняются:**
-
-| Infinitivo | YO (indicativo) | Subjuntivo |
-|------------|-----------------|------------|
-| tener | tengo | tenga, tengas, tenga... |
-| venir | vengo | venga, vengas, venga... |
-| hacer | hago | haga, hagas, haga... |
-| decir | digo | diga, digas, diga... |
-| conocer | conozco | conozca, conozcas, conozca... |
-| poner | pongo | ponga, pongas, ponga... |
-| salir | salgo | salga, salgas, salga... |
-| traer | traigo | traiga, traigas, traiga... |
-
-**Полностью неправильные:**
-
-| Infinitivo | Subjuntivo |
-|------------|------------|
-| ser | sea, seas, sea, seamos, seáis, sean |
-| estar | esté, estés, esté, estemos, estéis, estén |
-| ir | vaya, vayas, vaya, vayamos, vayáis, vayan |
-| haber | haya, hayas, haya, hayamos, hayáis, hayan |
-| saber | sepa, sepas, sepa, sepamos, sepáis, sepan |
-| dar | dé, des, dé, demos, deis, den |
-
-**Глаголы с изменением гласной (e→ie, o→ue):**
-
-| Infinitivo | Subjuntivo |
-|------------|------------|
-| querer | quiera, quieras, quiera, queramos, queráis, quieran |
-| pensar | piense, pienses, piense, pensemos, penséis, piensen |
-| poder | pueda, puedas, pueda, podamos, podáis, puedan |
-| dormir | duerma, duermas, duerma, durmamos, durmáis, duerman |
-
-## Правило памяти:
-
-**AR ↔ ER/IR меняются местами!**
-- hablar (AR) → habl**e** (как ER)
-- comer (ER) → com**a** (как AR)
-- vivir (IR) → viv**a** (как AR)
-      `,
-      examples: [
-        { spanish: 'Yo hablo (indicativo) → que yo hable (subjuntivo)', translation: 'Я говорю → чтобы я говорил' },
-        { spanish: 'Tú comes → que tú comas', translation: 'Ты ешь → чтобы ты ел' },
-        { spanish: 'Él tiene → que él tenga', translation: 'У него есть → чтобы у него было' },
-        { spanish: 'Nosotros somos → que seamos', translation: 'Мы есть → чтобы мы были' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'deseo', translation: 'желание', audioUrl: null },
-      { word: 'duda', translation: 'сомнение', audioUrl: null },
-      { word: 'emoción', translation: 'эмоция', audioUrl: null },
-      { word: 'ojalá', translation: 'хоть бы, если бы', audioUrl: null },
-      { word: 'tal vez', translation: 'может быть', audioUrl: null },
-      { word: 'quizás', translation: 'возможно', audioUrl: null },
-      { word: 'esperar', translation: 'надеяться', audioUrl: null },
-      { word: 'querer', translation: 'хотеть', audioUrl: null },
-      { word: 'necesitar', translation: 'нуждаться', audioUrl: null },
-      { word: 'preferir', translation: 'предпочитать', audioUrl: null },
-      { word: 'sugerir', translation: 'предлагать', audioUrl: null },
-      { word: 'recomendar', translation: 'рекомендовать', audioUrl: null },
-      { word: 'aconsejar', translation: 'советовать', audioUrl: null },
-      { word: 'pedir', translation: 'просить', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Aprendiendo el subjuntivo',
-      content: `El subjuntivo es uno de los aspectos más difíciles del español para los estudiantes extranjeros. Muchos dicen: "Espero que no sea tan complicado" - ¡y ya están usando el subjuntivo sin darse cuenta!
-
-El subjuntivo no es un tiempo verbal, sino un modo. Mientras que el indicativo expresa hechos y certezas, el subjuntivo expresa la subjetividad: deseos, dudas, emociones, posibilidades. Es la diferencia entre el mundo real y el mundo de nuestros pensamientos y sentimientos.
-
-Veamos algunos ejemplos básicos. Cuando dices "Quiero que vengas a mi fiesta", estás usando el subjuntivo ("vengas") porque expresas un deseo. No es un hecho - la persona todavía no ha venido. Compara con "Sé que vienes a mi fiesta" (indicativo) - aquí es un hecho, una certeza.
-
-Otro ejemplo: "Espero que haga buen tiempo mañana". Aquí usamos "haga" (subjuntivo de hacer) porque es una esperanza, no una certeza. El tiempo no está en nuestro control. Si dijéramos "Sé que hará buen tiempo" (futuro indicativo), estaríamos muy seguros.
-
-Las expresiones con "ojalá" siempre llevan subjuntivo. "Ojalá" viene del árabe "law sha Allah" (si Dios quiere). Por ejemplo: "Ojalá apruebe el examen", "Ojalá llueva pronto", "Ojalá tengas un buen día". Son todos deseos.
-
-Cuando expresamos dudas, también usamos subjuntivo: "Dudo que él sepa la respuesta", "No creo que ella venga", "Es posible que llueva". La duda y la incertidumbre son el territorio del subjuntivo.
-
-Las emociones también requieren subjuntivo: "Me alegro de que estés aquí", "Siento que te sientas mal", "Me sorprende que no sepas esto". Nuestras emociones sobre algo son subjetivas, no hechos objetivos.
-
-Para formar el subjuntivo presente, recuerda esta regla sencilla: los verbos -AR toman las terminaciones de -ER/-IR, y viceversa. Es como si los verbos "intercambiaran ropa". HABLAR (AR) se viste como los verbos ER: hable, hables, hable. COMER (ER) se viste como los verbos AR: coma, comas, coma.
-
-Los irregulares siguen el patrón de la primera persona del presente indicativo. Si dices "Yo tengo", el subjuntivo será "que yo tenga". Si dices "Yo hago", será "que yo haga". Hay algunas excepciones totalmente irregulares como SER (sea), ESTAR (esté), IR (vaya), SABER (sepa), pero son pocas.
-
-¿Es difícil? Sí. ¿Es imposible? No. Con práctica y exposición constante, el subjuntivo se vuelve natural. Los hispanohablantes lo usan automáticamente desde niños. Tú también puedes. Solo necesitas que practiques mucho, que leas ejemplos, que escuches español auténtico y que no tengas miedo de cometer errores.
-
-Espero que este texto te ayude a entender mejor el subjuntivo. Ojalá sigas estudiando con entusiasmo. Es importante que no te desanimes. Dudo que sea fácil, pero estoy seguro de que puedes aprenderlo. ¡Que tengas éxito en tu aprendizaje!`,
-      translation: `Subjuntivo - один из самых сложных аспектов испанского для иностранных студентов. Многие говорят: "Надеюсь, это не так сложно" - и уже используют subjuntivo, даже не осознавая этого!
-
-Subjuntivo - это не время глагола, а наклонение. В то время как изъявительное наклонение выражает факты и уверенность, subjuntivo выражает субъективность: желания, сомнения, эмоции, возможности. Это разница между реальным миром и миром наших мыслей и чувств.
-
-Давайте рассмотрим несколько базовых примеров. Когда вы говорите "Quiero que vengas a mi fiesta" (Я хочу, чтобы ты пришёл на мою вечеринку), вы используете subjuntivo ("vengas"), потому что выражаете желание. Это не факт - человек ещё не пришёл. Сравните с "Sé que vienes a mi fiesta" (Я знаю, что ты придёшь на мою вечеринку) - здесь это факт, уверенность.
-
-Другой пример: "Espero que haga buen tiempo mañana" (Надеюсь, завтра будет хорошая погода). Здесь мы используем "haga" (subjuntivo от hacer), потому что это надежда, а не уверенность. Погода не в нашем контроле. Если бы мы сказали "Sé que hará buen tiempo" (Я знаю, что будет хорошая погода), мы были бы очень уверены.
-
-Выражения с "ojalá" всегда требуют subjuntivo. "Ojalá" происходит от арабского "law sha Allah" (если Бог захочет). Например: "Ojalá apruebe el examen" (Хоть бы я сдал экзамен), "Ojalá llueva pronto" (Хоть бы скорее пошёл дождь), "Ojalá tengas un buen día" (Желаю тебе хорошего дня). Все это желания.
-
-Когда мы выражаем сомнения, мы также используем subjuntivo: "Dudo que él sepa la respuesta" (Сомневаюсь, что он знает ответ), "No creo que ella venga" (Не думаю, что она придёт), "Es posible que llueva" (Возможно, пойдёт дождь). Сомнение и неуверенность - территория subjuntivo.
-
-Эмоции также требуют subjuntivo: "Me alegro de que estés aquí" (Я рад, что ты здесь), "Siento que te sientas mal" (Сожалею, что ты плохо себя чувствуешь), "Me sorprende que no sepas esto" (Меня удивляет, что ты этого не знаешь). Наши эмоции о чём-то субъективны, а не объективные факты.
-
-Чтобы образовать presente de subjuntivo, запомните это простое правило: глаголы -AR берут окончания -ER/-IR, и наоборот. Как будто глаголы "обмениваются одеждой". HABLAR (AR) одевается как глаголы ER: hable, hables, hable. COMER (ER) одевается как глаголы AR: coma, comas, coma.
-
-Неправильные глаголы следуют образцу первого лица настоящего времени. Если вы говорите "Yo tengo", subjuntivo будет "que yo tenga". Если говорите "Yo hago", будет "que yo haga". Есть несколько полностью неправильных исключений, как SER (sea), ESTAR (esté), IR (vaya), SABER (sepa), но их немного.
-
-Это сложно? Да. Это невозможно? Нет. С практикой и постоянным воздействием subjuntivo становится естественным. Носители испанского языка используют его автоматически с детства. Вы тоже можете. Вам просто нужно много практиковаться, читать примеры, слушать аутентичный испанский и не бояться ошибок.
-
-Надеюсь, этот текст поможет вам лучше понять subjuntivo. Хоть бы вы продолжали учиться с энтузиазмом. Важно, чтобы вы не падали духом. Сомневаюсь, что это легко, но я уверен, что вы можете это выучить. Желаю вам успехов в обучении!`,
-      audioUrl: '/audio/lesson-7-1-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5']
+    exercises: []
   },
 
   'lesson-7-2': {
     id: 'lesson-7-2',
-    title: 'Урок 2: Употребление subjuntivo - желания и эмоции',
+    title: 'Урок 2',
     moduleId: 'module-7',
     grammar: {
-      title: 'Когда использовать Subjuntivo',
-      content: `
-# Употребление Subjuntivo
-
-## 1. ЖЕЛАНИЯ и ПРОСЬБЫ (QUE + subjuntivo):
-
-**Querer que** (хотеть, чтобы):
-- **Quiero que** vengas - Я хочу, чтобы ты пришел
-- **Queremos que** estudies - Мы хотим, чтобы ты учился
-
-**Esperar que** (надеяться, что):
-- **Espero que** te guste - Надеюсь, тебе понравится
-- **Esperamos que** haga buen tiempo - Надеемся, будет хорошая погода
-
-**Necesitar que** (нуждаться, чтобы):
-- **Necesito que** me ayudes - Мне нужно, чтобы ты мне помог
-
-**Preferir que** (предпочитать, чтобы):
-- **Prefiero que** vengas temprano - Я предпочитаю, чтобы ты пришел рано
-
-## 2. ЭМОЦИИ и ЧУВСТВА:
-
-**Me alegro de que** (я рад, что):
-- **Me alegro de que** estés aquí - Я рад, что ты здесь
-
-**Siento que** (сожалею, что):
-- **Siento que** no puedas venir - Сожалею, что ты не можешь прийти
-
-**Me sorprende que** (меня удивляет, что):
-- **Me sorprende que** no lo sepas - Меня удивляет, что ты это не знаешь
-
-**Tengo miedo de que** (боюсь, что):
-- **Tengo miedo de que** llueva - Боюсь, что пойдет дождь
-
-**Me molesta que** (меня раздражает, что):
-- **Me molesta que** llegues tarde - Меня раздражает, что ты опаздываешь
-
-## 3. СОМНЕНИЯ и ОТРИЦАНИЕ:
-
-**Dudar que** (сомневаться, что):
-- **Dudo que** venga - Сомневаюсь, что он придет
-
-**No creer que** (не верить, что):
-- **No creo que** sea verdad - Не верю, что это правда
-
-**No estar seguro de que** (не быть уверенным, что):
-- **No estoy seguro de que** funcione - Не уверен, что это сработает
-
-**No pensar que** (не думать, что):
-- **No pienso que** tengas razón - Не думаю, что ты прав
-
-⚠️ НО: "Creo que" (indicativo), "Pienso que" (indicativo) - уверенность
-
-## 4. OJALÁ (если бы, хоть бы):
-
-**Ojalá** всегда требует subjuntivo:
-- **Ojalá** llueva - Хоть бы пошел дождь
-- **Ojalá** tengas suerte - Хоть бы тебе повезло
-- **Ojalá** sea verdad - Если бы это было правдой
-
-## 5. БЕЗЛИЧНЫЕ ВЫРАЖЕНИЯ:
-
-**Es importante que** (важно, чтобы):
-- **Es importante que** estudies - Важно, чтобы ты учился
-
-**Es necesario que** (необходимо, чтобы):
-- **Es necesario que** vengas - Необходимо, чтобы ты пришел
-
-**Es posible que** (возможно, что):
-- **Es posible que** llueva - Возможно, пойдет дождь
-
-**Es probable que** (вероятно, что):
-- **Es probable que** llegue tarde - Вероятно, он опоздает
-
-**Es bueno/malo que** (хорошо/плохо, что):
-- **Es bueno que** practiques - Хорошо, что ты практикуешь
-
-**Es una pena que** (жаль, что):
-- **Es una pena que** no puedas venir - Жаль, что ты не можешь прийти
-
-## Структура предложения:
-
-**[Главное предложение] + QUE + [subjuntivo]**
-
-- Quiero + que + tú vengas
-- Espero + que + llueva
-- Me alegro de + que + estés aquí
-
-⚠️ **ВАЖНО:** Если подлежащее одно, используем инфинитив:
-- **Quiero venir** (я хочу прийти - один субъект)
-- **Quiero que vengas** (я хочу, чтобы ТЫ пришел - два субъекта)
-      `,
-      examples: [
-        { spanish: 'Quiero que estudies más', translation: 'Я хочу, чтобы ты учился больше' },
-        { spanish: 'Me alegro de que estés bien', translation: 'Я рад, что ты в порядке' },
-        { spanish: 'Dudo que venga mañana', translation: 'Сомневаюсь, что он придет завтра' },
-        { spanish: 'Ojalá haga buen tiempo', translation: 'Хоть бы была хорошая погода' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'alegrarse', translation: 'радоваться', audioUrl: null },
-      { word: 'sentir', translation: 'сожалеть, чувствовать', audioUrl: null },
-      { word: 'sorprender', translation: 'удивлять', audioUrl: null },
-      { word: 'molestar', translation: 'раздражать', audioUrl: null },
-      { word: 'temer', translation: 'бояться', audioUrl: null },
-      { word: 'dudar', translation: 'сомневаться', audioUrl: null },
-      { word: 'creer', translation: 'верить', audioUrl: null },
-      { word: 'importante', translation: 'важный', audioUrl: null },
-      { word: 'necesario', translation: 'необходимый', audioUrl: null },
-      { word: 'posible', translation: 'возможный', audioUrl: null },
-      { word: 'probable', translation: 'вероятный', audioUrl: null },
-      { word: 'pena', translation: 'жалость', audioUrl: null },
-      { word: 'verdad', translation: 'правда', audioUrl: null },
-      { word: 'razón', translation: 'причина, правота', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Carta a un amigo',
-      content: `Querido Miguel:
-
-¿Cómo estás? Espero que estés bien y que tu familia también esté bien. Hace mucho tiempo que no nos vemos y te echo de menos.
-
-Te escribo porque quiero que sepas que voy a viajar a Madrid el mes que viene. ¡Tengo tantas ganas de verte! Espero que tengas tiempo libre para que podamos encontrarnos. Sería genial que pudiéramos pasar un fin de semana juntos como en los viejos tiempos.
-
-Me alegro mucho de que hayas conseguido ese nuevo trabajo del que me hablaste. Es importante que estés contento con lo que haces. Espero que tus compañeros sean agradables y que el jefe te trate bien. Ojalá tengas mucho éxito en tu nueva posición.
-
-Sobre mi vida, bueno, hay cambios. Es posible que me mude a otra ciudad pronto. Mi empresa quiere que trabaje en la oficina de Barcelona. No estoy seguro de que sea una buena idea dejar Madrid, pero es una gran oportunidad profesional. Temo que sea difícil adaptarme a una nueva ciudad, pero espero que todo salga bien.
-
-También tengo noticias sobre Laura. ¿Te acuerdas de ella? Pues resulta que está comprometida. Me sorprende que se case tan joven - solo tiene 25 años. Pero me alegro de que haya encontrado a alguien que la haga feliz. Espero que me inviten a la boda. Sería una pena que no pudiéramos estar allí para celebrarlo con ella.
-
-Sobre mis estudios de español, sigo practicando. Mi profesor quiere que lea más en español y que escriba composiciones cada semana. Es necesario que practique la gramática, especialmente el subjuntivo. ¡Es tan difícil! Dudo que algún día lo domine completamente, pero es importante que siga intentándolo.
-
-¿Y tú? ¿Qué tal tu curso de inglés? Espero que hayas progresado mucho. Es fundamental que practiques hablando, no solo estudiando gramática. Te recomiendo que veas series en inglés con subtítulos. Es una forma excelente de aprender.
-
-Bueno, Miguel, espero que esta carta te encuentre bien. Es posible que vaya a Madrid entre el 15 y el 20 de marzo. Ojalá podamos vernos entonces. Por favor, escríbeme pronto. Necesito que me confirmes si estarás libre esas fechas.
-
-Te mando un abrazo fuerte. Espero que tengamos noticias pronto y que nos veamos dentro de poco.
-
-Tu amigo,
-Carlos
-
-P.D.: Es probable que lleve a mi novia Ana. Espero que no te importe que ella venga también. Estoy seguro de que te caerá muy bien.`,
-      translation: `Дорогой Мигель!
-
-Как дела? Надеюсь, у тебя все хорошо и твоя семья тоже в порядке. Прошло много времени с тех пор, как мы виделись, и я скучаю по тебе.
-
-Пишу тебе, потому что хочу, чтобы ты знал, что собираюсь поехать в Мадрид в следующем месяце. Так хочу тебя увидеть! Надеюсь, у тебя будет свободное время, чтобы мы смогли встретиться. Было бы здорово, если бы мы смогли провести выходные вместе, как в старые времена.
-
-Я очень рад, что ты получил ту новую работу, о которой мне рассказывал. Важно, чтобы ты был доволен тем, что делаешь. Надеюсь, что твои коллеги приятные и что начальник хорошо к тебе относится. Хоть бы у тебя был большой успех на новой должности.
-
-Что касается моей жизни, ну, есть изменения. Возможно, я скоро переезжу в другой город. Моя компания хочет, чтобы я работал в барселонском офисе. Я не уверен, что покидать Мадрид - хорошая идея, но это большая профессиональная возможность. Боюсь, что будет трудно адаптироваться к новому городу, но надеюсь, что все получится хорошо.
-
-У меня также есть новости о Лауре. Помнишь её? Оказывается, она помолвлена. Меня удивляет, что она выходит замуж так молодо - ей всего 25 лет. Но я рад, что она нашла кого-то, кто делает её счастливой. Надеюсь, что меня пригласят на свадьбу. Было бы жаль, если бы мы не смогли быть там, чтобы отпраздновать это с ней.
-
-Что касается моих занятий испанским, я продолжаю практиковаться. Мой учитель хочет, чтобы я больше читал на испанском и писал сочинения каждую неделю. Необходимо, чтобы я практиковал грамматику, особенно subjuntivo. Это так сложно! Сомневаюсь, что когда-нибудь полностью освою его, но важно продолжать пытаться.
-
-А ты? Как твой курс английского? Надеюсь, ты много продвинулся. Очень важно практиковаться в разговоре, а не только изучать грамматику. Рекомендую тебе смотреть сериалы на английском с субтитрами. Это отличный способ учиться.
-
-Ну, Мигель, надеюсь, это письмо застанет тебя в добром здравии. Возможно, я буду в Мадриде между 15 и 20 марта. Хоть бы мы смогли увидеться тогда. Пожалуйста, напиши мне поскорее. Мне нужно, чтобы ты подтвердил, будешь ли ты свободен в эти даты.
-
-Посылаю тебе крепкое объятие. Надеюсь, у нас скоро будут новости и что мы увидимся в ближайшее время.
-
-Твой друг,
-Карлос
-
-P.S.: Вероятно, я возьму с собой мою девушку Ану. Надеюсь, ты не будешь против, что она тоже придёт. Уверен, она тебе очень понравится.`,
-      audioUrl: '/audio/lesson-7-2-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
+    exercises: []
   },
 
   'lesson-7-3': {
     id: 'lesson-7-3',
-    title: 'Урок 3: Subjuntivo в придаточных предложениях',
+    title: 'Урок 3',
     moduleId: 'module-7',
     grammar: {
-      title: 'Subjuntivo в разных типах придаточных предложений',
-      content: `
-# Subjuntivo в придаточных предложениях
-
-## 1. ВРЕМЕННЫЕ КОНСТРУКЦИИ (cuando, hasta que, antes de que):
-
-### CUANDO:
-- **Futuro**: Cuando **vengas**, hablaremos (Когда ты придешь, мы поговорим) - **subjuntivo**
-- **Presente/pasado**: Cuando **vienes**, hablamos (Когда ты приходишь, мы говорим) - indicativo
-- **Pasado**: Cuando **viniste**, hablamos (Когда ты пришел, мы поговорили) - indicativo
-
-### HASTA QUE (пока не):
-- Esperaré **hasta que llegues** - Подожду, пока ты не придешь
-
-### ANTES DE QUE (перед тем как):
-- Llámame **antes de que salgas** - Позвони мне перед тем как выйдешь
-- ⚠️ Всегда subjuntivo!
-
-### EN CUANTO / TAN PRONTO COMO (как только):
-- **En cuanto termine**, te llamo - Как только закончу, позвоню
-
-## 2. ЦЕЛЬ (para que, a fin de que):
-
-**PARA QUE** (чтобы, для того чтобы):
-- Te lo explico **para que entiendas** - Объясняю тебе, чтобы ты понял
-- Hablo despacio **para que me comprendas** - Говорю медленно, чтобы ты меня понял
-
-⚠️ **Один субъект** = PARA + infinitivo:
-- Estudio **para aprender** (я учусь, чтобы выучить)
-- Trabajo **para ganar dinero** (я работаю, чтобы заработать)
-
-## 3. УСЛОВИЕ (con tal de que, siempre que, a menos que):
-
-**CON TAL DE QUE** (при условии что):
-- Iré **con tal de que vengas** tú también - Пойду при условии, что ты тоже придешь
-
-**SIEMPRE QUE** (при условии что):
-- Te ayudo **siempre que me lo pidas** - Помогу тебе, если ты попросишь
-
-**A MENOS QUE** (если только не):
-- Iremos **a menos que llueva** - Пойдем, если только не будет дождя
-
-**SIN QUE** (без того чтобы):
-- Salió **sin que nadie lo viera** - Вышел, чтобы никто не видел
-
-## 4. УСТУПКА (aunque):
-
-**AUNQUE** + subjuntivo (даже если - неизвестно):
-- **Aunque llueva**, iré - Даже если будет дождь, пойду (не знаем, будет ли)
-
-**AUNQUE** + indicativo (хотя - факт):
-- **Aunque llueve**, iré - Хотя идет дождь, пойду (идет сейчас)
-
-## 5. НЕОПРЕДЕЛЕННОЕ / НЕСУЩЕСТВУЮЩЕЕ:
-
-### Busco... / Necesito... (ищу/нужен):
-- **Busco una casa que tenga jardín** - Ищу дом, у которого есть сад (не знаю, существует ли)
-- Tengo una casa que **tiene** jardín - У меня есть дом с садом (indicativo - конкретный)
-
-### No hay nadie que... (нет никого, кто):
-- **No hay nadie que sepa** la respuesta - Нет никого, кто знает ответ
-
-### ¿Hay alguien que...? (есть кто-то, кто?):
-- **¿Hay alguien que hable** ruso? - Есть кто-то, кто говорит по-русски?
-
-## 6. БЕЗЛИЧНЫЕ КОНСТРУКЦИИ:
-
-**Sea como sea** - Как бы то ни было
-**Pase lo que pase** - Что бы ни случилось
-**Diga lo que diga** - Что бы он ни говорил
-**Cueste lo que cueste** - Чего бы это ни стоило
-
-## Схема выбора:
-
-**¿Факт или субъективность?**
-- Факт, уверенность, привычка → **INDICATIVO**
-- Желание, сомнение, эмоция, будущее → **SUBJUNTIVO**
-
-**¿Определенное или неопределенное?**
-- Конкретное, существующее → **INDICATIVO**
-- Неопределенное, несуществующее → **SUBJUNTIVO**
-      `,
-      examples: [
-        { spanish: 'Cuando vengas, hablaremos', translation: 'Когда ты придешь, мы поговорим' },
-        { spanish: 'Te llamo para que sepas la verdad', translation: 'Звоню тебе, чтобы ты знал правду' },
-        { spanish: 'Busco un libro que explique el subjuntivo', translation: 'Ищу книгу, которая объясняет subjuntivo' },
-        { spanish: 'Aunque llueva, iremos al parque', translation: 'Даже если будет дождь, пойдем в парк' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'cuando', translation: 'когда', audioUrl: null },
-      { word: 'hasta que', translation: 'пока не', audioUrl: null },
-      { word: 'antes de que', translation: 'перед тем как', audioUrl: null },
-      { word: 'para que', translation: 'чтобы', audioUrl: null },
-      { word: 'aunque', translation: 'хотя, даже если', audioUrl: null },
-      { word: 'con tal de que', translation: 'при условии что', audioUrl: null },
-      { word: 'a menos que', translation: 'если только не', audioUrl: null },
-      { word: 'sin que', translation: 'без того чтобы', audioUrl: null },
-      { word: 'en cuanto', translation: 'как только', audioUrl: null },
-      { word: 'tan pronto como', translation: 'как только', audioUrl: null },
-      { word: 'buscar', translation: 'искать', audioUrl: null },
-      { word: 'encontrar', translation: 'находить', audioUrl: null },
-      { word: 'existir', translation: 'существовать', audioUrl: null },
-      { word: 'haber', translation: 'иметься', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'El Camino de Santiago',
-      content: `El Camino de Santiago es una de las rutas de peregrinación más famosas del mundo. Miles de personas lo recorren cada año, ya sea por motivos religiosos, espirituales o simplemente por la aventura. Aunque cada peregrino tiene sus propias razones, todos comparten una experiencia única.
-
-Muchos peregrinos buscan una experiencia que les cambie la vida. Buscan algo que no pueden encontrar en su rutina diaria. Algunos buscan respuestas a preguntas importantes: "¿Qué quiero hacer con mi vida?", "¿Soy feliz?", "¿Qué es realmente importante para mí?" El Camino ofrece tiempo y espacio para reflexionar sobre estas cuestiones.
-
-Antes de que empieces el Camino, es importante que prepares bien. Necesitas entrenar físicamente para que tu cuerpo aguante las largas caminatas. También es necesario que lleves solo lo esencial en tu mochila. Un consejo: pase lo que pase, no lleves más de 10 kilos. Muchos principiantes cometen el error de llevar demasiadas cosas, y luego tienen que enviarlas a casa porque no pueden cargar tanto peso.
-
-El Camino tiene varias rutas. La más popular es el Camino Francés, que empieza en los Pirineos y termina en Santiago de Compostela. Dura aproximadamente 30-35 días. Aunque hay otras rutas más cortas, muchos peregrinos prefieren hacer el Camino completo para que la experiencia sea más profunda.
-
-En el Camino conocerás personas de todo el mundo. No hay nadie que no tenga una historia interesante que contar. Conocerás a gente que camina para superar una pérdida, otros que buscan dirección en su vida, algunos que quieren probar sus límites físicos, y muchos que simplemente quieren desconectar del estrés moderno.
-
-Los albergues para peregrinos (llamados "albergues") son lugares especiales donde puedes descansar. Son económicos, simples, pero llenos de camaradería. Aunque no son lujosos, ofrecen todo lo que necesitas: una cama, una ducha y, lo más importante, compañía de otros peregrinos. Por la noche, todos comparten historias del día. Es común que hagas amigos que duren toda la vida.
-
-En cuanto llegues a Santiago, sentirás una mezcla de emociones. Alegría por haberlo logrado, tristeza porque la aventura termina, gratitud por la experiencia. La tradición dice que cuando llegues a la catedral, debes abrazar la estatua del apóstol Santiago. Muchos peregrinos lloran en este momento - es el final de un viaje que los ha transformado.
-
-Pero el verdadero Camino no termina en Santiago. Como dicen los peregrinos experimentados: "El Camino no acaba cuando llegas a Santiago, sino cuando Santiago llega a ti". Los cambios que experimentes en el Camino te acompañarán para siempre.
-
-Si estás pensando en hacer el Camino, mi consejo es: hazlo. No importa que no estés en perfecta forma física. No importa que no sepas exactamente por qué quieres ir. No importa que tengas dudas. Muchos peregrinos empiezan el Camino con dudas y preguntas, y lo terminan con paz y claridad.
-
-Ojalá algún día puedas experimentar el Camino de Santiago. Es posible que sea la experiencia más transformadora de tu vida. Y cuando vuelvas, espero que compartas tu historia con otros, para que más personas se animen a hacer este viaje increíble.
-
-Como dicen en español: "Ultreia!" (¡Adelante!) - el saludo tradicional entre peregrinos del Camino de Santiago.`,
-      translation: `Путь Святого Иакова - один из самых знаменитых паломнических маршрутов в мире. Тысячи людей проходят его каждый год, будь то по религиозным, духовным причинам или просто ради приключения. Хотя у каждого паломника свои причины, все они разделяют уникальный опыт.
-
-Многие паломники ищут опыт, который изменит их жизнь. Они ищут что-то, что не могут найти в своей повседневной рутине. Некоторые ищут ответы на важные вопросы: "Что я хочу делать со своей жизнью?", "Счастлив ли я?", "Что действительно важно для меня?" Путь предлагает время и пространство для размышлений об этих вопросах.
-
-Прежде чем вы начнёте Путь, важно хорошо подготовиться. Вам нужно тренироваться физически, чтобы ваше тело выдержало длинные прогулки. Также необходимо, чтобы вы брали с собой только самое необходимое в рюкзаке. Совет: что бы ни случилось, не берите более 10 килограммов. Многие новички совершают ошибку, беря слишком много вещей, а потом им приходится отправлять их домой, потому что не могут нести такой вес.
-
-Путь имеет несколько маршрутов. Самый популярный - Французский путь, который начинается в Пиренеях и заканчивается в Сантьяго-де-Компостела. Он длится примерно 30-35 дней. Хотя есть и более короткие маршруты, многие паломники предпочитают пройти Путь полностью, чтобы опыт был более глубоким.
-
-На Пути вы познакомитесь с людьми со всего мира. Нет никого, у кого не было бы интересной истории. Вы встретите людей, которые идут, чтобы преодолеть потерю, других, которые ищут направление в жизни, некоторых, кто хочет проверить свои физические пределы, и многих, кто просто хочет отключиться от современного стресса.
-
-Паломнические приюты (называемые "альберге") - особенные места, где можно отдохнуть. Они экономичны, просты, но полны товарищества. Хотя они не роскошны, они предлагают всё, что вам нужно: кровать, душ и, что самое важное, компанию других паломников. Вечером все делятся историями дня. Часто вы заводите друзей на всю жизнь.
-
-Как только вы прибудете в Сантьяго, вы почувствуете смесь эмоций. Радость от того, что добились этого, грусть от того, что приключение заканчивается, благодарность за опыт. Традиция гласит, что когда вы приедете в собор, вы должны обнять статую апостола Святого Иакова. Многие паломники плачут в этот момент - это конец путешествия, которое их преобразило.
-
-Но настоящий Путь не заканчивается в Сантьяго. Как говорят опытные паломники: "Путь не заканчивается, когда вы приезжаете в Сантьяго, а когда Сантьяго приходит к вам". Изменения, которые вы испытаете на Пути, будут сопровождать вас навсегда.
-
-Если вы думаете о том, чтобы пройти Путь, мой совет: сделайте это. Неважно, что вы не в идеальной физической форме. Неважно, что вы точно не знаете, почему хотите идти. Неважно, что у вас есть сомнения. Многие паломники начинают Путь с сомнениями и вопросами, а заканчивают с миром и ясностью.
-
-Хоть бы когда-нибудь вы смогли испытать Путь Святого Иакова. Возможно, это будет самый преобразующий опыт вашей жизни. И когда вернётесь, надеюсь, вы поделитесь своей историей с другими, чтобы больше людей решились на это невероятное путешествие.
-
-Как говорят по-испански: "Ultreia!" (Вперёд!) - традиционное приветствие среди паломников Пути Святого Иакова.`,
-      audioUrl: '/audio/lesson-7-3-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3', 'ex-7-3-4', 'ex-7-3-5']
+    exercises: []
   },
 
   // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
 
   'lesson-8-1': {
     id: 'lesson-8-1',
-    title: 'Урок 1: Реальные условия (Tipo 1)',
+    title: 'Урок 1',
     moduleId: 'module-8',
     grammar: {
-      title: 'Условные предложения первого типа (Condicionales reales)',
-      content: `
-# Условные предложения Tipo 1 (Реальные условия)
-
-Используются для описания **реальных**, **возможных** ситуаций в настоящем или будущем.
-
-## Структура:
-
-**Si + PRESENTE, FUTURO / IMPERATIVO / PRESENTE**
-
-### Формула 1: Si + presente, futuro
-
-| Условие (si + presente) | Результат (futuro) |
-|-------------------------|---------------------|
-| Si **llueve** | **llevaré** paraguas |
-| Si **estudias** | **aprobarás** el examen |
-| Si **tengo** tiempo | te **llamaré** |
-
-**Примеры:**
-- Si **hace** buen tiempo, **iremos** a la playa (Если будет хорошая погода, пойдем на пляж)
-- Si **llegas** tarde, te **esperaré** (Если опоздаешь, я подожду)
-- Si **necesitas** ayuda, me **dirás** (Если нужна помощь, скажешь мне)
-
-### Формула 2: Si + presente, imperativo
-
-| Условие | Команда |
-|---------|---------|
-| Si **tienes** frío | **cierra** la ventana |
-| Si **estás** cansado | **descansa** |
-
-**Примеры:**
-- Si **ves** a María, **dile** que la llamo (Если увидишь Марию, скажи ей, что позвоню)
-- Si **quieres** café, **prepáralo** (Если хочешь кофе, приготовь)
-
-### Формула 3: Si + presente, presente
-
-Для **универсальных истин**, **привычек**, **общих правил**:
-
-**Примеры:**
-- Si **calientas** el agua a 100°, **hierve** (Если нагреваешь воду до 100°, она кипит)
-- Si **como** mucho, **engordo** (Если ем много, толстею)
-- Si no **duermo** bien, **estoy** cansado (Если плохо сплю, я устаю)
-
-## ¡IMPORTANTE!
-
-⚠️ **НИКОГДА не используйте futuro после SI:**
-- ❌ Si **llegaré** tarde... (НЕПРАВИЛЬНО)
-- ✓ Si **llego** tarde... (ПРАВИЛЬНО)
-
-⚠️ **Порядок можно менять:**
-- Si llueve, me quedo en casa = Me quedo en casa si llueve
-- Si estudias, aprobarás = Aprobarás si estudias
-
-## Другие союзы (не только SI):
-
-Эти же правила работают с другими условными союзами:
-
-| Союз | Значение | Пример |
-|------|----------|--------|
-| **cuando** | когда | Cuando **termine**, te llamo |
-| **en cuanto** | как только | En cuanto **llegues**, empezamos |
-| **mientras** | пока | Mientras **esté** aquí, ayudo |
-| **hasta que** | пока не | Hasta que **vuelvas**, espero |`,
-      examples: [
-        { spanish: 'Si estudias mucho, aprobarás el examen', russian: 'Если будешь много учиться, сдашь экзамен' },
-        { spanish: 'Si hace sol mañana, iremos a la playa', russian: 'Если завтра будет солнечно, пойдем на пляж' },
-        { spanish: 'Llámame si necesitas ayuda', russian: 'Позвони мне, если нужна помощь' },
-        { spanish: 'Si ves a Juan, dile que lo busco', russian: 'Если увидишь Хуана, скажи, что ищу его' },
-        { spanish: 'Si el agua hierve, apaga el fuego', russian: 'Если вода закипит, выключи огонь' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'la condición', translation: 'условие', audioUrl: null },
-      { word: 'si', translation: 'если', audioUrl: null },
-      { word: 'en caso de que', translation: 'в случае если', audioUrl: null },
-      { word: 'a menos que', translation: 'если только не', audioUrl: null },
-      { word: 'mientras', translation: 'пока', audioUrl: null },
-      { word: 'cuando', translation: 'когда', audioUrl: null },
-      { word: 'en cuanto', translation: 'как только', audioUrl: null },
-      { word: 'hasta que', translation: 'пока не', audioUrl: null },
-      { word: 'siempre que', translation: 'при условии что', audioUrl: null },
-      { word: 'a no ser que', translation: 'разве что', audioUrl: null },
-      { word: 'aprobar', translation: 'сдать (экзамен)', audioUrl: null },
-      { word: 'suspender', translation: 'провалить (экзамен)', audioUrl: null },
-      { word: 'conseguir', translation: 'достичь, получить', audioUrl: null },
-      { word: 'lograr', translation: 'добиться', audioUrl: null },
-      { word: 'realizar', translation: 'осуществить', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Planes para el futuro',
-      content: `María está en su último año de universidad y piensa mucho en su futuro. Tiene muchos planes, pero también muchas dudas. "Si **consigo** el trabajo en Barcelona, **me mudaré** allí inmediatamente", piensa. "Pero si no me **aceptan**, **buscaré** otras opciones en Madrid o Valencia".
-
-Su mejor amiga Laura le da consejos: "Si **quieres** ese trabajo, **prepara** bien la entrevista. Si **estudias** sobre la empresa, **causarás** buena impresión. Y si no **funciona**, no **te preocupes**: siempre hay otras oportunidades".
-
-María sabe que tiene razón. "Si **trabajo** duro, **tendré** éxito", se repite a sí misma. "Y si las cosas no **salen** como planeo, **aprenderé** de la experiencia".
-
-Mientras tanto, María también piensa en su vida personal. "Si **me mudo** a Barcelona, **estaré** lejos de mi familia", reflexiona. "Pero si **me quedo** aquí, quizás **pierda** esta gran oportunidad profesional".
-
-Su madre le dice: "Hija, si **tomas** esta decisión, te **apoyaremos** completamente. Si **necesitas** volver a casa, siempre **tendrás** un lugar aquí. Y si **decides** quedarte en Barcelona, **iremos** a visitarte seguido".
-
-El día de la entrevista llega. María está nerviosa. "Si **respondo** bien las preguntas, **tengo** posibilidades", piensa. "Si me **olvido** de algo, **será** terrible". Pero cuando entra en la oficina, se siente más tranquila.
-
-El entrevistador es amable. "Si **tiene** alguna pregunta, **hágala** sin problema", le dice. María pregunta sobre el puesto, las responsabilidades, las oportunidades de crecimiento. La entrevista va muy bien.
-
-Después de la entrevista, María llama a Laura: "¡Creo que fue bien! Si me **llaman** la próxima semana, **significa** que estoy en la segunda fase. Si no me **contactan**, **sabré** que no me eligieron".
-
-Pasan tres días. María revisa su correo constantemente. "Si **llega** un email hoy, **lo abriré** inmediatamente", piensa. "Si no **recibo** noticias esta semana, **llamaré** para preguntar".
-
-El viernes por la tarde, su teléfono suena. Es un número de Barcelona. "Hola María, si **todavía está** interesada en el puesto, **nos gustaría** invitarla a una segunda entrevista".
-
-¡Sí! María está emocionada. "Si **voy** a la segunda entrevista, **daré** lo mejor de mí", decide. "Y si **me ofrecen** el trabajo, **lo aceptaré** sin dudarlo".
-
-Laura la felicita: "¡Sabía que lo **conseguirías**! Si **sigues** así, **llegarás** muy lejos. Y cuando **empieces** el trabajo, **celebraremos** juntas".
-
-Ahora María tiene que prepararse para la segunda entrevista. "Si **estudio** más sobre la empresa, **estaré** mejor preparada", piensa. "Si **practico** mis respuestas, **me sentiré** más segura. Y si **soy** yo misma, **será** suficiente".
-
-Su padre también le da un consejo: "Hija, si **crees** en ti misma, los demás también **creerán** en ti. Si **vas** con confianza, **transmitirás** profesionalismo. Y recuerda: si esta oportunidad no **funciona**, **habrá** otras".
-
-La noche antes de la segunda entrevista, María reflexiona: "Si **duermo** bien esta noche, **estaré** descansada mañana. Si **me levanto** temprano, **tendré** tiempo para prepararme bien. Y si **todo sale** bien, mañana a esta hora quizás **tendré** un nuevo trabajo".
-
-Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabajando duro y **cree** en sí misma, **tendrá** éxito en cualquier camino que elija.`,
-      translation: `Мария на последнем курсе университета и много думает о будущем. У неё много планов, но также много сомнений. "Если я получу работу в Барселоне, я переезжу туда немедленно", думает она. "Но если меня не примут, буду искать другие варианты в Мадриде или Валенсии".
-
-Её лучшая подруга Лаура даёт ей советы: "Если ты хочешь эту работу, хорошо подготовься к собеседованию. Если ты изучишь информацию о компании, произведёшь хорошее впечатление. А если не получится, не волнуйся: всегда есть другие возможности".
-
-Мария знает, что она права. "Если я буду усердно работать, у меня будет успех", повторяет она себе. "А если всё пойдёт не по плану, я научусь на этом опыте".
-
-Тем временем Мария также думает о личной жизни. "Если я переезжу в Барселону, буду далеко от семьи", размышляет она. "Но если останусь здесь, возможно упущу эту большую профессиональную возможность".
-
-Её мать говорит ей: "Дочка, если ты примешь это решение, мы полностью тебя поддержим. Если тебе нужно будет вернуться домой, у тебя всегда будет место здесь. А если решишь остаться в Барселоне, мы будем приезжать в гости часто".
-
-Наступает день собеседования. Мария нервничает. "Если я хорошо отвечу на вопросы, у меня есть шансы", думает она. "Если что-то забуду, будет ужасно". Но когда она входит в офис, чувствует себя спокойнее.
-
-Интервьюер приветливый. "Если у вас есть какой-либо вопрос, задавайте без проблем", говорит он ей. Мария спрашивает о должности, обязанностях, возможностях роста. Собеседование проходит очень хорошо.
-
-После собеседования Мария звонит Лауре: "Думаю, всё прошло хорошо! Если мне позвонят на следующей неделе, значит я во второй фазе. Если не свяжутся, буду знать, что меня не выбрали".
-
-Проходит три дня. Мария постоянно проверяет почту. "Если придёт письмо сегодня, открою его немедленно", думает она. "Если не получу новостей на этой неделе, позвоню, чтобы узнать".
-
-В пятницу вечером звонит телефон. Это номер из Барселоны. "Здравствуйте, Мария, если вы всё ещё заинтересованы в должности, мы бы хотели пригласить вас на второе собеседование".
-
-Да! Мария в восторге. "Если пойду на второе собеседование, сделаю всё возможное", решает она. "А если мне предложат работу, приму без колебаний".
-
-Лаура её поздравляет: "Я знала, что ты справишься! Если продолжишь в том же духе, зайдёшь далеко. А когда начнёшь работу, отпразднуем вместе".
-
-Теперь Марии нужно готовиться ко второму собеседованию. "Если изучу больше информации о компании, буду лучше подготовлена", думает она. "Если попрактикуюсь в ответах, буду чувствовать себя увереннее. А если буду сама собой, этого будет достаточно".
-
-Её отец также даёт ей совет: "Дочка, если ты веришь в себя, другие тоже поверят в тебя. Если пойдёшь с уверенностью, будешь излучать профессионализм. И помни: если эта возможность не сработает, будут другие".
-
-Ночью перед вторым собеседованием Мария размышляет: "Если хорошо высплюсь сегодня, завтра буду отдохнувшей. Если встану рано, будет время хорошо подготовиться. А если всё пройдёт хорошо, завтра в это время возможно у меня будет новая работа".
-
-Завтра она узнает результат. Но одно точно: если Мария продолжит усердно работать и верить в себя, она добьётся успеха на любом пути, который выберет.`,
-      audioUrl: '/audio/lesson-8-1-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-8-1-1', 'ex-8-1-2', 'ex-8-1-3', 'ex-8-1-4', 'ex-8-1-5']
+    exercises: []
   },
 
   'lesson-8-2': {
     id: 'lesson-8-2',
-    title: 'Урок 2: Нереальные условия (Tipo 2)',
+    title: 'Урок 2',
     moduleId: 'module-8',
     grammar: {
-      title: 'Условные предложения второго типа (Condicionales irreales)',
-      content: `
-# Условные предложения Tipo 2 (Нереальные/маловероятные условия)
-
-Используются для описания **гипотетических**, **нереальных** или **маловероятных** ситуаций в **настоящем** или **будущем**.
-
-## Структура:
-
-**Si + IMPERFECTO DE SUBJUNTIVO, CONDICIONAL SIMPLE**
-
-## Imperfecto de subjuntivo - образование:
-
-**Основа: 3 лицо множественного числа Pretérito indefinido**
-
-**Ellos hablar-ON → habla- + окончания**
-**Ellos comier-ON → comie- + окончания**
-
-| Лицо | Окончания | Hablar | Comer | Vivir |
-|------|-----------|--------|-------|-------|
-| yo | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
-| tú | -ras / -ses | hablaras / hablases | comieras / comieses | vivieras / vivieses |
-| él/ella | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
-| nosotros | -ramos / -semos | habláramos / hablásemos | comiéramos / comiésemos | viviéramos / viviésemos |
-| vosotros | -rais / -seis | hablarais / hablaseis | comierais | comieseis | vivierais / vivieseis |
-| ellos | -ran / -sen | hablaran / hablasen | comieran / comiesen | vivieran / viviesen |
-
-**В современном испанском обе формы (-ra и -se) равнозначны, но форма на -RA более распространена.**
-
-### Неправильные глаголы:
-
-Основа берется от **pretérito indefinido (ellos)**:
-
-| Infinitivo | Ellos (indefinido) | Imperfecto subjuntivo |
-|------------|--------------------|-----------------------|
-| ser / ir | fueron | fuera, fueras, fuera... |
-| tener | tuvieron | tuviera, tuvieras... |
-| poder | pudieron | pudiera, pudieras... |
-| hacer | hicieron | hiciera, hicieras... |
-| decir | dijeron | dijera, dijeras... |
-| estar | estuvieron | estuviera, estuvieras... |
-| saber | supieron | supiera, supieras... |
-| querer | quisieron | quisiera, quisieras... |
-| venir | vinieron | viniera, vinieras... |
-| poner | pusieron | pusiera, pusieras... |
-
-## Condicional simple - повторение:
-
-**Infinitivo + окончания: -ía, -ías, -ía, -íamos, -íais, -ían**
-
-## Uso:
-
-### 1. Ситуации противоречащие реальности СЕЙЧАС:
-
-- **Si tuviera dinero, viajaría por el mundo** (Если бы у меня были деньги, я бы путешествовал - но их нет)
-- **Si fuera rica, no trabajaría** (Если бы я была богатой, не работала бы - но я не богата)
-- **Si viviera en España, hablaría español mejor** (Если бы я жил в Испании, говорил бы лучше по-испански - но я не живу)
-
-### 2. Маловероятные ситуации в будущем:
-
-- **Si me tocara la lotería, compraría una casa** (Если бы я выиграл в лотерею, купил бы дом - маловероятно)
-- **Si encontrara un tesoro, sería millonario** (Если бы нашел сокровище, был бы миллионером)
-
-### 3. Вежливые просьбы и советы:
-
-- **Si pudieras ayudarme, te lo agradecería** (Если бы ты мог помочь, был бы благодарен - вежливая просьба)
-- **¿Qué harías tú en mi lugar?** (Что бы ты сделал на моем месте?)
-
-## ¡CUIDADO!
-
-❌ **Si tendría dinero, viajaría** (НЕПРАВИЛЬНО - condicional после si)
-✓ **Si tuviera dinero, viajaría** (ПРАВИЛЬНО - imperfecto subjuntivo после si)
-
-## Разница Type 1 vs Type 2:
-
-| Type 1 (реальное) | Type 2 (нереальное) |
-|-------------------|---------------------|
-| Si **tengo** dinero, **compraré** un coche | Si **tuviera** dinero, **compraría** un coche |
-| (Если будут деньги - возможно) | (Если бы были - но их нет) |
-| Si **hace** sol, **iremos** | Si **hiciera** sol, **iríamos** |
-| (Если будет солнечно - возможно) | (Если бы было - но нет) |
-
-## Примеры в контексте:
-
-**¿Qué harías si...?** (Что бы ты сделал, если бы...?)
-
-- Si **tuviera** un millón de euros, **viajaría** por todo el mundo
-- Si **pudiera** hablar con cualquier persona, **elegiría** a mi abuelo
-- Si **fuera** presidente, **cambiaría** muchas leyes
-- Si **supiera** tocar la guitarra, **formaría** una banda
-- Si **viviera** 200 años, **aprendería** todos los idiomas del mundo`,
-      examples: [
-        { spanish: 'Si tuviera más tiempo, aprendería a tocar piano', russian: 'Если бы у меня было больше времени, я бы научился играть на пианино' },
-        { spanish: 'Si fuera rico, viajaría por todo el mundo', russian: 'Если бы я был богатым, путешествовал бы по всему миру' },
-        { spanish: '¿Qué harías si ganaras la lotería?', russian: 'Что бы ты сделал, если бы выиграл в лотерею?' },
-        { spanish: 'Si pudiera volar, iría a visitarte cada día', russian: 'Если бы я мог летать, навещал бы тебя каждый день' },
-        { spanish: 'Si viviera en España, hablaría español perfectamente', russian: 'Если бы я жил в Испании, говорил бы по-испански идеально' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'soñar', translation: 'мечтать', audioUrl: null },
-      { word: 'desear', translation: 'желать', audioUrl: null },
-      { word: 'imaginar', translation: 'воображать', audioUrl: null },
-      { word: 'suponer', translation: 'предполагать', audioUrl: null },
-      { word: 'la hipótesis', translation: 'гипотеза', audioUrl: null },
-      { word: 'irreal', translation: 'нереальный', audioUrl: null },
-      { word: 'imposible', translation: 'невозможный', audioUrl: null },
-      { word: 'improbable', translation: 'маловероятный', audioUrl: null },
-      { word: 'el sueño', translation: 'мечта', audioUrl: null },
-      { word: 'la fantasía', translation: 'фантазия', audioUrl: null },
-      { word: 'ideal', translation: 'идеальный', audioUrl: null },
-      { word: 'perfecto', translation: 'совершенный', audioUrl: null },
-      { word: 'ganar la lotería', translation: 'выиграть в лотерею', audioUrl: null },
-      { word: 'cambiar el mundo', translation: 'изменить мир', audioUrl: null },
-      { word: 'en mi lugar', translation: 'на моем месте', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Si yo fuera...',
-      content: `Un grupo de amigos está sentado en una cafetería hablando sobre sus sueños y fantasías. La pregunta del día es: "Si pudieras ser otra persona por un día, ¿quién serías?"
-
-Ana empieza: "Si **pudiera** ser alguien por un día, **sería** una astronauta. Si **fuera** astronauta, **viajaría** al espacio y **vería** la Tierra desde arriba. Si **estuviera** en el espacio, **flotaría** en gravedad cero. ¡**Sería** increíble! Si **tuviera** esa oportunidad, **tomaría** mil fotos para mostrarles a todos".
-
-Carlos responde: "Eso está bien, pero si yo **pudiera** elegir, **sería** un músico famoso. Si **fuera** músico, **tocaría** en estadios llenos de gente. Si **tuviera** ese talento, **compondría** canciones que llegaran al corazón de millones de personas. Y si **ganara** mucho dinero con la música, **ayudaría** a jóvenes artistas a empezar sus carreras".
-
-Laura tiene otra idea: "Si yo **pudiera** ser alguien, **elegiría** ser una científica que descubre la cura para enfermedades graves. Si **encontrara** esa cura, **salvaría** millones de vidas. Si **tuviera** ese poder, **dedicaría** toda mi vida a la investigación. Nada me **haría** más feliz que ayudar a la humanidad de esa manera".
-
-Miguel es más práctico: "Mis sueños son más simples. Si **tuviera** mucho dinero, no **trabajaría** tanto. Si no **necesitara** trabajar, **pasaría** más tiempo con mi familia. Si **pudiera**, **viajaría** con ellos por el mundo. Si **viviera** sin preocupaciones económicas, **sería** mucho más feliz".
-
-Sofía dice: "Yo tengo una pregunta diferente: ¿Qué **harían** si pudieran volver al pasado? Si yo **pudiera** viajar en el tiempo, **volvería** a mi infancia. Si **fuera** niña otra vez, **jugaría** más y me **preocuparía** menos. Si **supiera** entonces lo que sé ahora, **disfrutaría** más de cada momento".
-
-David añade: "Si yo **pudiera** cambiar algo del pasado, **estudiaría** más en la universidad. Si **hubiera** estudiado más, ahora **tendría** un mejor trabajo. Pero bueno, si **me arrepintiera** de todo, no **viviría** el presente. Si **pasara** todo el tiempo pensando en el pasado, **perdería** el hoy".
-
-Ana pregunta: "¿Y qué **harían** si tuvieran un superpoder? Si yo **tuviera** un superpoder, **elegiría** poder volar. Si **pudiera** volar, **iría** a visitar a todos mis amigos cuando quisiera. Si **volara**, nunca más **estaría** atrapada en el tráfico".
-
-Carlos ríe: "Si yo **tuviera** un superpoder, **sería** la invisibilidad. Si **fuera** invisible, **podría** entrar gratis a todos los conciertos. Aunque si lo **pensara** bien, eso no sería muy ético. Si **hiciera** eso, básicamente **estaría** robando".
-
-Laura dice: "Mi superpoder sería leer mentes. Si **pudiera** leer mentes, **sabría** lo que realmente piensan las personas. Aunque si **tuviera** ese poder, quizás **descubriría** cosas que preferiría no saber. Si **supiera** todos los secretos de la gente, probablemente **sería** muy incómodo".
-
-Miguel propone otra pregunta: "Si **pudieran** vivir en cualquier época histórica, ¿cuál **elegirían**? Si yo **pudiera**, **viviría** en el Renacimiento. Si **estuviera** en esa época, **conocería** a Leonardo da Vinci y Miguel Ángel. Si **viviera** entonces, **vería** cómo se creaban esas obras maestras".
-
-Sofía responde: "Yo prefiero el futuro. Si **pudiera** ver el futuro, **viajaría** 100 años adelante. Si **estuviera** en 2125, **vería** qué tecnología existe. Si el mundo **fuera** mejor entonces, **sería** muy esperanzador. Pero si **fuera** peor, preferiría no saberlo".
-
-David reflexiona: "¿Saben qué? Si yo **pudiera** cambiar algo, **cambiaría** el sistema educativo. Si la educación **fuera** diferente, los niños **aprenderían** más felices. Si las escuelas **enseñaran** habilidades prácticas, los jóvenes **estarían** mejor preparados para la vida. Si los maestros **ganaran** más dinero, **tendríamos** mejores profesionales educando a nuestros hijos".
-
-Ana concluye: "Todas estas son fantasías bonitas. Pero si **pensara** en lo que realmente importa, **diría** que si **tuviera** salud, **tendría** todo. Si mi familia **estuviera** bien, yo **estaría** feliz. Si **pudiera** elegir entre riqueza y salud, **elegiría** salud sin dudar. Porque si **estás** sano, **puedes** conseguir todo lo demás. Pero si **pierdes** la salud, todo lo demás **pierde** sentido".
-
-Todos asienten. Al final, si **pudieran** tener cualquier cosa, **elegirían** las mismas cosas simples: salud, amor, tiempo con seres queridos y paz. Las grandes fantasías son divertidas para imaginar, pero la verdadera felicidad está en las cosas simples que ya tienen.`,
-      translation: `Группа друзей сидит в кафе и говорит о мечтах и фантазиях. Вопрос дня: "Если бы ты мог быть кем-то другим на один день, кем бы ты был?"
-
-Ана начинает: "Если бы я могла быть кем-то на один день, я была бы астронавтом. Если бы я была астронавтом, я бы полетела в космос и увидела Землю сверху. Если бы я была в космосе, я бы плавала в невесомости. Это было бы невероятно! Если бы у меня была такая возможность, я бы сделала тысячу фотографий, чтобы показать всем".
-
-Карлос отвечает: "Это хорошо, но если бы я мог выбирать, я был бы знаменитым музыкантом. Если бы я был музыкантом, я бы играл на стадионах, полных людей. Если бы у меня был такой талант, я бы сочинял песни, которые доходили бы до сердец миллионов людей. А если бы я зарабатывал много денег музыкой, я бы помогал молодым артистам начать свою карьеру".
-
-У Лауры другая идея: "Если бы я могла быть кем-то, я бы выбрала быть учёным, который открывает лекарство от серьёзных болезней. Если бы я нашла это лекарство, я бы спасла миллионы жизней. Если бы у меня была такая сила, я бы посвятила всю свою жизнь исследованиям. Ничто не сделало бы меня счастливее, чем помочь человечеству таким образом".
-
-Мигель более практичен: "Мои мечты проще. Если бы у меня было много денег, я бы не работал так много. Если бы мне не нужно было работать, я бы проводил больше времени с семьёй. Если бы я мог, я бы путешествовал с ними по миру. Если бы я жил без финансовых забот, я был бы гораздо счастливее".
-
-София говорит: "У меня другой вопрос: что бы вы сделали, если бы могли вернуться в прошлое? Если бы я могла путешествовать во времени, я бы вернулась в детство. Если бы я снова была ребёнком, я бы больше играла и меньше волновалась. Если бы я тогда знала то, что знаю сейчас, я бы больше наслаждалась каждым моментом".
-
-Давид добавляет: "Если бы я мог изменить что-то в прошлом, я бы больше учился в университете. Если бы я больше учился, у меня сейчас была бы лучшая работа. Но хорошо, если бы я сожалел обо всём, я бы не жил настоящим. Если бы я всё время думал о прошлом, я бы потерял сегодня".
-
-Ана спрашивает: "А что бы вы сделали, если бы у вас была суперсила? Если бы у меня была суперсила, я бы выбрала способность летать. Если бы я могла летать, я бы навещала всех моих друзей, когда захочу. Если бы я летала, я бы никогда больше не застревала в пробках".
-
-Карлос смеётся: "Если бы у меня была суперсила, это была бы невидимость. Если бы я был невидимым, я мог бы входить бесплатно на все концерты. Хотя если бы я хорошо подумал, это было бы не очень этично. Если бы я делал это, я бы в основном воровал".
-
-Лаура говорит: "Моя суперсила была бы читать мысли. Если бы я могла читать мысли, я бы знала, что на самом деле думают люди. Хотя если бы у меня была такая сила, возможно я бы узнала вещи, которые предпочла бы не знать. Если бы я знала все секреты людей, вероятно было бы очень неловко".
-
-Мигель предлагает другой вопрос: "Если бы вы могли жить в любую историческую эпоху, какую бы выбрали? Если бы я мог, я бы жил в эпоху Возрождения. Если бы я был в ту эпоху, я бы познакомился с Леонардо да Винчи и Микеланджело. Если бы я жил тогда, я бы видел, как создавались эти шедевры".
-
-София отвечает: "Я предпочитаю будущее. Если бы я могла увидеть будущее, я бы путешествовала на 100 лет вперёд. Если бы я была в 2125 году, я бы увидела, какие существуют технологии. Если бы мир был лучше тогда, это было бы очень обнадёживающим. Но если бы он был хуже, я предпочла бы не знать".
-
-Давид размышляет: "Знаете что? Если бы я мог что-то изменить, я бы изменил систему образования. Если бы образование было другим, дети бы учились более счастливо. Если бы школы учили практическим навыкам, молодёжь была бы лучше подготовлена к жизни. Если бы учителя зарабатывали больше денег, у нас были бы лучшие профессионалы, обучающие наших детей".
-
-Ана заключает: "Всё это красивые фантазии. Но если бы я думала о том, что действительно важно, я бы сказала, что если бы у меня было здоровье, у меня было бы всё. Если бы моя семья была в порядке, я была бы счастлива. Если бы я могла выбирать между богатством и здоровьем, я бы выбрала здоровье без сомнений. Потому что если ты здоров, ты можешь получить всё остальное. Но если ты потеряешь здоровье, всё остальное теряет смысл".
-
-Все кивают. В конце концов, если бы они могли иметь что угодно, они бы выбрали те же простые вещи: здоровье, любовь, время с близкими и мир. Большие фантазии интересно представлять, но настоящее счастье в простых вещах, которые у них уже есть.`,
-      audioUrl: '/audio/lesson-8-2-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-8-2-1', 'ex-8-2-2', 'ex-8-2-3', 'ex-8-2-4', 'ex-8-2-5']
+    exercises: []
   },
 
   'lesson-8-3': {
     id: 'lesson-8-3',
-    title: 'Урок 3: Условия в прошлом (Tipo 3)',
+    title: 'Урок 3',
     moduleId: 'module-8',
     grammar: {
-      title: 'Условные предложения третьего типа (Condicionales pasados)',
-      content: `
-# Условные предложения Tipo 3 (Нереальные условия в прошлом)
-
-Используются для описания **нереальных ситуаций в прошлом** - того, что **НЕ произошло**, но **могло бы** произойти при других обстоятельствах.
-
-## Структура:
-
-**Si + PLUSCUAMPERFECTO DE SUBJUNTIVO, CONDICIONAL COMPUESTO**
-
-## Pluscuamperfecto de subjuntivo - образование:
-
-**Imperfecto de subjuntivo глагола HABER + participio pasado**
-
-| Лицо | Haber (imp. subj.) | + participio | Пример |
-|------|-------------------|--------------|---------|
-| yo | hubiera / hubiese | hablado/comido/vivido | hubiera hablado |
-| tú | hubieras / hubieses | hablado/comido/vivido | hubieras comido |
-| él/ella | hubiera / hubiese | hablado/comido/vivido | hubiera vivido |
-| nosotros | hubiéramos / hubiésemos | hablado/comido/vivido | hubiéramos estado |
-| vosotros | hubierais / hubieseis | hablado/comido/vivido | hubierais ido |
-| ellos | hubieran / hubiesen | hablado/comido/vivido | hubieran sido |
-
-## Condicional compuesto (perfecto) - образование:
-
-**Condicional simple глагола HABER + participio pasado**
-
-| Лицо | Haber (condicional) | + participio |
-|------|---------------------|--------------|
-| yo | habría | hablado/comido/vivido |
-| tú | habrías | hablado/comido/vivido |
-| él/ella | habría | hablado/comido/vivido |
-| nosotros | habríamos | hablado/comido/vivido |
-| vosotros | habríais | hablado/comido/vivido |
-| ellos | habrían | hablado/comido/vivido |
-
-## Uso - Сожаления и упущенные возможности:
-
-### Формула:
-**Si + hubiera/hubiese + participio, habría + participio**
-
-**Примеры:**
-
-- **Si hubiera estudiado, habría aprobado**
-  (Если бы я учился, я бы сдал - но не учился и не сдал)
-
-- **Si hubieras venido, te habrías divertido**
-  (Если бы ты пришел, повеселился бы - но не пришел)
-
-- **Si hubiera sabido, habría ido**
-  (Если бы знал, пошел бы - но не знал и не пошел)
-
-- **Si hubiéramos salido antes, habríamos llegado a tiempo**
-  (Если бы вышли раньше, прибыли бы вовремя - но опоздали)
-
-## Сравнение всех трех типов:
-
-| Тип | Формула | Значение | Пример |
-|-----|---------|----------|--------|
-| **Tipo 1** | Si + presente, futuro | Реально, возможно | Si **estudias**, **aprobarás** |
-| **Tipo 2** | Si + imp. subj., condicional | Нереально сейчас | Si **estudiaras**, **aprobarías** |
-| **Tipo 3** | Si + plucp. subj., cond. compuesto | Нереально в прошлом | Si **hubieras estudiado**, **habrías aprobado** |
-
-## Mismo ejemplo en los tres tipos:
-
-**Тема: экзамен**
-
-1. **Si estudias, aprobarás** - Если будешь учиться, сдашь (возможно, экзамен еще не был)
-2. **Si estudiaras, aprobarías** - Если бы ты учился, сдал бы (но ты не учишься)
-3. **Si hubieras estudiado, habrías aprobado** - Если бы ты учился, сдал бы (но не учился и провалил)
-
-## Вариации Tipo 3:
-
-### 1. Смешанные условия (Mixed conditionals):
-
-**Прошлое условие → Настоящий результат:**
-
-- **Si hubiera estudiado medicina, ahora sería doctor**
-  (Если бы я изучал медицину, сейчас был бы врачом)
-
-- **Si no hubiera fumado tanto, ahora estaría más sano**
-  (Если бы не курил так много, сейчас был бы здоровее)
-
-### 2. Выражение упрека (reproches):
-
-- **Si me hubieras escuchado, no estarías en problemas**
-  (Если бы ты меня послушал, не был бы в беде)
-
-- **Si hubieras llegado a tiempo, habrías visto el comienzo**
-  (Если бы пришел вовремя, увидел бы начало)
-
-### 3. Con "de + infinitivo" (неформальная замена):
-
-В разговорном испанском вместо pluscuamperfecto de subjuntivo часто используют **de + haber + participio**:
-
-- **De haberlo sabido, habría venido** = Si lo hubiera sabido, habría venido
-- **De tener dinero, lo habría comprado** = Si hubiera tenido dinero, lo habría comprado
-
-## Otros marcadores condicionales:
-
-| Выражение | Значение | Пример |
-|-----------|----------|--------|
-| **Como si** | как будто | Habla como si **supiera** todo |
-| **Aunque** | хотя | Aunque **lloviera**, iría |
-| **En caso de que** | в случае если | En caso de que **venga**, avísame |
-| **A no ser que** | если только не | No iré a no ser que **vengas** |
-
-## ¡ERRORES COMUNES!
-
-❌ Si **hubiera tenido**, **tendría** dinero (смешивание времен неправильно)
-✓ Si **hubiera tenido** dinero, lo **habría comprado** (оба в прошлом)
-✓ Si **hubiera estudiado** medicina, **sería** doctor (прошлое→настоящее, OK)
-
-❌ Si **habría sabido**, habría venido (condicional после si)
-✓ Si **hubiera sabido**, habría venido (pluscuamperfecto subjuntivo после si)`,
-      examples: [
-        { spanish: 'Si hubiera estudiado más, habría aprobado el examen', russian: 'Если бы я больше учился, сдал бы экзамен' },
-        { spanish: 'Si hubieras venido, te habrías divertido mucho', russian: 'Если бы ты пришел, очень повеселился бы' },
-        { spanish: 'Si hubiera sabido, no habría dicho nada', russian: 'Если бы знал, ничего бы не сказал' },
-        { spanish: 'Si hubiéramos salido antes, habríamos llegado a tiempo', russian: 'Если бы вышли раньше, прибыли бы вовремя' },
-        { spanish: 'De haberlo sabido, habría actuado diferente', russian: 'Знай я это, поступил бы иначе' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'arrepentirse', translation: 'сожалеть, раскаиваться', audioUrl: null },
-      { word: 'lamentar', translation: 'сожалеть', audioUrl: null },
-      { word: 'el arrepentimiento', translation: 'сожаление, раскаяние', audioUrl: null },
-      { word: 'la oportunidad perdida', translation: 'упущенная возможность', audioUrl: null },
-      { word: 'el error', translation: 'ошибка', audioUrl: null },
-      { word: 'la equivocación', translation: 'заблуждение, ошибка', audioUrl: null },
-      { word: 'darse cuenta', translation: 'осознать, понять', audioUrl: null },
-      { word: 'culpar', translation: 'винить', audioUrl: null },
-      { word: 'la culpa', translation: 'вина', audioUrl: null },
-      { word: 'perdonar', translation: 'прощать', audioUrl: null },
-      { word: 'el perdón', translation: 'прощение', audioUrl: null },
-      { word: 'la lección', translation: 'урок (в переносном смысле)', audioUrl: null },
-      { word: 'aprender de los errores', translation: 'учиться на ошибках', audioUrl: null },
-      { word: 'si hubiera sabido', translation: 'если бы я знал', audioUrl: null },
-      { word: 'debería haber', translation: 'должен был бы', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Arrepentimientos y lecciones',
-      content: `Roberto tiene 65 años y está sentado en el parque, reflexionando sobre su vida. Como todos, tiene algunos arrepentimientos sobre decisiones que tomó - o que no tomó - en el pasado.
-
-"Si **hubiera estudiado** ingeniería como quería mi padre, **habría tenido** una carrera más estable", piensa. "Pero si **hubiera hecho** eso, nunca **habría descubierto** mi pasión por el arte. Si no **hubiera ido** a esa escuela de arte, no **habría conocido** a mi esposa Elena. Y si no la **hubiera conocido**, no **habría tenido** a mis tres hijos maravillosos. Así que, pensándolo bien, ¿fue realmente un error?"
-
-Roberto recuerda cuando tenía 25 años. "Si **hubiera aceptado** ese trabajo en Nueva York, **habría ganado** mucho dinero. Si **hubiera vivido** allí, **habría tenido** una vida completamente diferente. Pero si me **hubiera mudado**, **habría estado** lejos de mi familia. Si **hubiera elegido** el dinero sobre la familia, ¿**habría sido** más feliz? Lo dudo".
-
-Piensa en su hija mayor, Carmen. "Si le **hubiera dedicado** más tiempo cuando era niña, nuestra relación **sería** mejor ahora. Si no **hubiera trabajado** tanto, **habría visto** más de su infancia. Si **hubiera estado** presente en esos momentos importantes, quizás ahora **hablaríamos** más. Ese es un arrepentimiento que llevo conmigo".
-
-Su hijo Pablo tuvo problemas en la adolescencia. "Si **hubiera sido** más estricto con él, quizás no **habría tenido** esos problemas con las drogas. Pero si **hubiera sido** demasiado estricto, tal vez **habría sido** peor. Si **hubiera sabido** qué hacer, lo **habría hecho**. Pero nadie te enseña a ser padre perfecto. Si alguien me **hubiera dado** un manual, **habría sido** útil", piensa con ironía.
-
-Roberto recuerda una oportunidad de negocio. "Un amigo me propuso invertir en una empresa que ahora vale millones. Si **hubiera invertido** ese dinero, **sería** millonario. Si **hubiera tenido** el valor de arriesgar, mi vida **sería** muy diferente. Pero si **hubiera perdido** ese dinero, mi familia **habría sufrido**. Tomé la decisión segura. Si pudiera volver atrás, ¿**cambiaría** esa decisión? Probablemente no".
-
-Piensa en su salud. "Si **hubiera dejado** de fumar antes, **estaría** más sano ahora. Si **hubiera hecho** más ejercicio, no **tendría** estos problemas de corazón. Si **hubiera cuidado** mejor mi salud, **habría tenido** más energía para jugar con mis nietos. Ese es otro arrepentimiento real".
-
-Pero Roberto también piensa en las buenas decisiones. "Si no **hubiera arriesgado** todo para abrir mi propia galería de arte, **habría trabajado** para otros toda mi vida. Si no **hubiera seguido** mi pasión, **habría sido** infeliz. Si **hubiera escuchado** a la gente que decía que el arte no da dinero, nunca **habría tenido** la satisfación de vivir de lo que amo".
-
-Recuerda un momento crucial. "Si no **hubiera perdonado** a Elena cuando tuvimos esa gran pelea hace 30 años, **habríamos divorciado**. Si **hubiera dejado** que el orgullo ganara, **habría perdido** al amor de mi vida. Si no **hubiera aprendido** que el perdón es más importante que tener razón, **estaría** solo ahora".
-
-Su nieta Lucía se le acerca. Tiene 18 años y está llena de dudas sobre su futuro. "Abuelo, tengo miedo de tomar las decisiones equivocadas. ¿Y si elijo mal? ¿Y si **pierdo** oportunidades? ¿Y si me **arrepiento** después?"
-
-Roberto sonríe. "Lucía, si **hubiera sabido** todo cuando era joven, quizás **habría evitado** algunos errores. Pero si no **hubiera cometido** esos errores, no **habría aprendido** las lecciones más importantes de mi vida. Si **hubiera tenido** miedo de equivocarme, nunca **habría hecho** nada".
-
-"Si **hubiera esperado** a estar completamente seguro de cada decisión, **habría perdido** todas las oportunidades. Si no **hubiera arriesgado**, nunca **habría ganado**. Si **hubiera vivido** mi vida tratando de evitar errores, **habría evitado** también los mejores momentos".
-
-"Algunos arrepentimientos son inevitables. Si **hubiera podido** ver el futuro, **habría hecho** algunas cosas diferentes. Pero la vida no funciona así. Si todos **pudiéramos** ver el futuro, no **tendríamos** que tomar decisiones, y las decisiones son lo que nos hace humanos".
-
-Lucía escucha atentamente. Roberto continúa: "Si me **preguntaras** cuál es la lección más importante, te **diría** esto: Si **hubieras vivido** sin arriesgar nada, **habrías vivido**, pero no realmente. Si **tuvieras** la oportunidad de elegir entre una vida segura pero aburrida y una vida con riesgos pero llena de experiencias, ¿qué **elegirías**?"
-
-"Los grandes arrepentimientos de la vida no son por las cosas que hiciste mal, sino por las cosas que nunca intentaste. Si **hubiera sido** más valiente, **habría intentado** más cosas. Si no **hubiera tenido** miedo, **habría viajado** más, **habría conocido** más gente, **habría probado** más experiencias".
-
-"Pero también hay que ser sabio. Si **hubiera sido** completamente temerario, **habría arruinado** mi vida. El truco es encontrar el equilibrio. Si **hubiera sabido** eso a los 18, me **habría ahorrado** algunas preocupaciones".
-
-Lucía abraza a su abuelo. "Gracias, abuelo. Si no **hubiera hablado** contigo hoy, **habría seguido** con miedo. Ahora entiendo que los errores son parte de aprender".
-
-Roberto sonríe. Si alguien le **hubiera dicho** hace 40 años que sus arrepentimientos se **convertirían** en sabiduría, no lo **habría creído**. Pero así funciona la vida. Los errores del pasado son las lecciones del presente.
-
-Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo de equivocarte. Ten miedo de no intentar".`,
-      translation: `Роберто 65 лет, и он сидит в парке, размышляя о своей жизни. Как у всех, у него есть некоторые сожаления о решениях, которые он принял - или не принял - в прошлом.
-
-"Если бы я изучал инженерное дело, как хотел мой отец, у меня была бы более стабильная карьера", думает он. "Но если бы я сделал это, я бы никогда не открыл свою страсть к искусству. Если бы я не пошёл в ту художественную школу, я бы не встретил мою жену Елену. А если бы я её не встретил, у меня не было бы трёх замечательных детей. Так что, если подумать, было ли это действительно ошибкой?"
-
-Роберто вспоминает, когда ему было 25 лет. "Если бы я принял ту работу в Нью-Йорке, я бы заработал много денег. Если бы я жил там, у меня была бы совершенно другая жизнь. Но если бы я переехал, я был бы далеко от семьи. Если бы я выбрал деньги вместо семьи, был бы я счастливее? Сомневаюсь".
-
-Он думает о своей старшей дочери Кармен. "Если бы я посвятил ей больше времени, когда она была ребёнком, наши отношения были бы лучше сейчас. Если бы я не работал так много, я бы видел больше её детства. Если бы я присутствовал в те важные моменты, возможно сейчас мы бы больше разговаривали. Это сожаление, которое я ношу с собой".
-
-У его сына Пабло были проблемы в подростковом возрасте. "Если бы я был более строгим с ним, возможно у него не было бы тех проблем с наркотиками. Но если бы я был слишком строгим, может быть было бы хуже. Если бы я знал, что делать, я бы это сделал. Но никто не учит быть идеальным отцом. Если бы кто-то дал мне инструкцию, это было бы полезно", думает он с иронией.
-
-Роберто вспоминает деловую возможность. "Друг предложил мне инвестировать в компанию, которая сейчас стоит миллионы. Если бы я вложил те деньги, я был бы миллионером. Если бы у меня была смелость рискнуть, моя жизнь была бы очень другой. Но если бы я потерял те деньги, моя семья бы пострадала. Я принял безопасное решение. Если бы я мог вернуться назад, изменил бы я то решение? Вероятно, нет".
-
-Он думает о здоровье. "Если бы я бросил курить раньше, я был бы здоровее сейчас. Если бы я больше занимался спортом, у меня не было бы этих проблем с сердцем. Если бы я лучше заботился о здоровье, у меня было бы больше энергии играть с внуками. Это ещё одно реальное сожаление".
-
-Но Роберто также думает о хороших решениях. "Если бы я не рискнул всем, чтобы открыть свою собственную художественную галерею, я бы всю жизнь работал на других. Если бы я не последовал своей страсти, я был бы несчастен. Если бы я слушал людей, которые говорили, что искусство не приносит денег, я бы никогда не имел удовлетворения жить тем, что люблю".
-
-Он вспоминает решающий момент. "Если бы я не простил Елену, когда у нас была та большая ссора 30 лет назад, мы бы развелись. Если бы я позволил гордости победить, я бы потерял любовь всей моей жизни. Если бы я не научился, что прощение важнее, чем быть правым, я был бы один сейчас".
-
-Его внучка Люсия подходит к нему. Ей 18 лет, и она полна сомнений о будущем. "Дедушка, я боюсь принять неправильные решения. Что если я выберу неправильно? Что если я упущу возможности? Что если потом пожалею?"
-
-Роберто улыбается. "Люсия, если бы я знал всё, когда был молодым, возможно я бы избежал некоторых ошибок. Но если бы я не совершил тех ошибок, я бы не выучил самые важные уроки в моей жизни. Если бы я боялся ошибиться, я бы никогда ничего не сделал".
-
-"Если бы я ждал полной уверенности в каждом решении, я бы потерял все возможности. Если бы я не рисковал, я бы никогда не выиграл. Если бы я прожил жизнь, пытаясь избежать ошибок, я бы избежал также и лучших моментов".
-
-"Некоторые сожаления неизбежны. Если бы я мог видеть будущее, я бы сделал некоторые вещи по-другому. Но жизнь так не работает. Если бы все мы могли видеть будущее, нам не нужно было бы принимать решения, а решения - это то, что делает нас людьми".
-
-Люсия внимательно слушает. Роберто продолжает: "Если бы ты спросила меня, какой самый важный урок, я бы сказал вот что: Если бы ты прожила, не рискуя ничем, ты бы прожила, но не по-настоящему. Если бы у тебя был выбор между безопасной, но скучной жизнью и жизнью с рисками, но полной опыта, что бы ты выбрала?"
-
-"Большие сожаления в жизни - это не то, что ты сделал неправильно, а то, что ты никогда не пытался. Если бы я был смелее, я бы попробовал больше вещей. Если бы я не боялся, я бы больше путешествовал, познакомился с большим количеством людей, попробовал больше опыта".
-
-"Но также нужно быть мудрым. Если бы я был совершенно безрассудным, я бы разрушил свою жизнь. Хитрость в том, чтобы найти баланс. Если бы я знал это в 18, я бы избавил себя от некоторых беспокойств".
-
-Люсия обнимает дедушку. "Спасибо, дедушка. Если бы я не поговорила с тобой сегодня, я бы продолжала бояться. Теперь я понимаю, что ошибки - часть обучения".
-
-Роберто улыбается. Если бы кто-то сказал ему 40 лет назад, что его сожаления превратятся в мудрость, он бы не поверил. Но так работает жизнь. Ошибки прошлого - уроки настоящего.
-
-И если бы он мог дать совет своему молодому я, это было бы: "Не бойся ошибиться. Бойся не попробовать".`,
-      audioUrl: '/audio/lesson-8-3-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
+    exercises: []
   },
 
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   'lesson-9-1': {
     id: 'lesson-9-1',
-    title: 'Урок 1: Испанская литература',
+    title: 'Урок 1',
     moduleId: 'module-9',
     grammar: {
-      title: 'Обзор испанской литературы',
-      content: `
-# Historia de la literatura española
-
-Испанская литература - одна из богатейших литературных традиций мира.
-
-## 1. EDAD MEDIA - до XV века
-
-### Cantar de Mio Cid (XII век)
-Эпическая поэма о Сиде, национальном герое Испании.
-
-## 2. SIGLO DE ORO - XVI-XVII века
-
-### Miguel de Cervantes (1547-1616)
-**"Don Quijote de la Mancha"** - величайший роман всех времен.
-
-**Темы:** реальность vs воображение, идеализм, благородство.
-
-**Знаменитая цитата:**
-> "En un lugar de la Mancha, de cuyo nombre no quiero acordarme..."
-
-### Lope de Vega (1562-1635)
-Написал около 1500 пьес! **"Fuenteovejuna"** - драма о восстании.
-
-### Calderón de la Barca (1600-1681)
-**"La vida es sueño"** - философская драма.
-
-## 3. SIGLO XIX - Романтизм
-
-### Gustavo Adolfo Bécquer (1836-1870)
-**"Rimas y Leyendas"** - романтические стихи.
-
-## 4. GENERACIÓN DEL 27
-
-### Federico García Lorca (1898-1936)
-Величайший поэт XX века.
-
-**Произведения:**
-- **"Romancero gitano"**
-- **"Bodas de sangre"**
-- **"La casa de Bernarda Alba"**
-
-**Темы:** любовь, смерть, судьба, Андалусия.
-
-## 5. LITERATURA CONTEMPORÁNEA
-
-- Carlos Ruiz Zafón - **"La sombra del viento"**
-- Javier Marías - философская проза
-- Mario Vargas Llosa - Нобелевская премия 2010`,
-      examples: [
-        { spanish: 'Don Quijote es la obra más famosa de Cervantes', russian: 'Дон Кихот - самое знаменитое произведение Сервантеса' },
-        { spanish: 'Lorca fue uno de los mejores poetas del siglo XX', russian: 'Лорка был одним из лучших поэтов XX века' },
-        { spanish: 'Me encanta leer poesía en español', russian: 'Мне очень нравится читать поэзию на испанском' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'la literatura', translation: 'литература', audioUrl: null },
-      { word: 'el escritor', translation: 'писатель', audioUrl: null },
-      { word: 'el poeta', translation: 'поэт', audioUrl: null },
-      { word: 'la novela', translation: 'роман', audioUrl: null },
-      { word: 'el cuento', translation: 'рассказ', audioUrl: null },
-      { word: 'el poema', translation: 'стихотворение', audioUrl: null },
-      { word: 'la obra de teatro', translation: 'пьеса', audioUrl: null },
-      { word: 'el personaje', translation: 'персонаж', audioUrl: null },
-      { word: 'la trama', translation: 'сюжет', audioUrl: null },
-      { word: 'el tema', translation: 'тема', audioUrl: null },
-      { word: 'el símbolo', translation: 'символ', audioUrl: null },
-      { word: 'la metáfora', translation: 'метафора', audioUrl: null },
-      { word: 'el siglo', translation: 'век', audioUrl: null },
-      { word: 'la época', translation: 'эпоха', audioUrl: null },
-      { word: 'el Premio Nobel', translation: 'Нобелевская премия', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Don Quijote: El ingenioso hidalgo',
-      content: `Don Quijote de la Mancha es la obra más importante de la literatura española. Escrita por Miguel de Cervantes en dos partes (1605 y 1615), esta novela ha sido traducida a más idiomas que cualquier otro libro excepto la Biblia.
-
-La historia comienza con Alonso Quijano, un hidalgo que lee tantas novelas de caballerías que pierde la razón. Decide convertirse en caballero andante con el nombre de Don Quijote de la Mancha. Encuentra una vieja armadura, toma un caballo flaco llamado Rocinante, y escoge a Dulcinea del Toboso como su dama.
-
-Para su segunda salida, convence a Sancho Panza de ser su escudero. Sancho es todo lo contrario: bajo, gordo y práctico, mientras Don Quijote es alto, flaco e idealista. Juntos forman una de las parejas más famosas de la literatura.
-
-El episodio más famoso es la aventura de los molinos de viento. Don Quijote ve molinos y cree que son gigantes. Sancho intenta explicarle que son molinos, pero Don Quijote no escucha. Ataca con su lanza, el viento mueve las aspas y lo arroja al suelo. Don Quijote insiste en que un mago convirtió a los gigantes en molinos.
-
-Esta escena es perfecta para entender el mensaje. Don Quijote vive en fantasía: las ventas son castillos, las prostitutas son damas, los molinos son gigantes. Sancho representa la realidad, pero gradualmente también empieza a creer en las fantasías.
-
-En la segunda parte, Don Quijote y Sancho se vuelven famosos. Sancho finalmente gobierna una ínsula con sorprendente sabiduría. Pero el final es melancólico. Don Quijote regresa a casa derrotado. En su lecho de muerte, recupera la cordura y muere cuerdo. Todos lloran porque prefieren al loco idealista que al sensato Alonso Quijano.
-
-¿Cuál es el mensaje? Cervantes muestra el conflicto entre idealismo y realismo. Don Quijote es ridículo pero noble, valiente y generoso. Quiere hacer el bien y luchar contra la injusticia. ¿Es mejor vivir con nobles ideales aunque seamos llamados locos, o con los pies en la tierra sin grandes sueños?
-
-Hoy, "luchar contra molinos de viento" significa luchar contra enemigos imaginarios. Pero el libro nos enseña que vale la pena soñar y luchar por un mundo mejor. Como dijo Don Quijote: "Yo sé quién soy". La locura de soñar es, a veces, la única cordura verdadera.`,
-      translation: `Дон Кихот Ламанчский - самое важное произведение испанской литературы. Написанный Мигелем де Сервантесом в двух частях (1605 и 1615), этот роман был переведён на больше языков, чем любая другая книга, кроме Библии.
-
-История начинается с Алонсо Кихано, идальго, который читает столько рыцарских романов, что теряет рассудок. Он решает стать странствующим рыцарем с именем Дон Кихот Ламанчский. Он находит старые доспехи, берёт худую лошадь по кличке Росинант и выбирает Дульсинею Тобосскую своей дамой.
-
-Для второго выхода он убеждает Санчо Пансу быть его оруженосцем. Санчо - полная противоположность: низкий, толстый и практичный, в то время как Дон Кихот высокий, худой и идеалист. Вместе они образуют одну из самых знаменитых пар в литературе.
-
-Самый известный эпизод - приключение с ветряными мельницами. Дон Кихот видит мельницы и думает, что это великаны. Санчо пытается объяснить, что это мельницы, но Дон Кихот не слушает. Он атакует с копьём, ветер вращает лопасти и сбрасывает его на землю. Дон Кихот настаивает, что волшебник превратил великанов в мельницы.
-
-Эта сцена идеально демонстрирует послание. Дон Кихот живёт в фантазии: трактиры - это замки, проститутки - дамы, мельницы - великаны. Санчо представляет реальность, но постепенно и он начинает верить в фантазии.
-
-Во второй части Дон Кихот и Санчо становятся знаменитыми. Санчо, наконец, управляет островом с удивительной мудростью. Но конец меланхоличен. Дон Кихот возвращается домой побеждённым. На смертном одре он обретает рассудок и умирает в здравом уме. Все плачут, потому что предпочитают сумасшедшего идеалиста разумному Алонсо Кихано.
-
-Каково послание? Сервантес показывает конфликт между идеализмом и реализмом. Дон Кихот смешон, но благороден, храбр и великодушен. Он хочет творить добро и бороться с несправедливостью. Лучше ли жить с благородными идеалами, даже если нас называют сумасшедшими, или с ногами на земле без великих мечтаний?
-
-Сегодня "бороться с ветряными мельницами" означает бороться с воображаемыми врагами. Но книга учит нас, что стоит мечтать и бороться за лучший мир. Как сказал Дон Кихот: "Я знаю, кто я". Безумие мечтать - иногда единственное настоящее здравомыслие.`,
-      audioUrl: '/audio/lesson-9-1-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5']
+    exercises: []
   },
 
   'lesson-9-2': {
     id: 'lesson-9-2',
-    title: 'Урок 2: Испанские традиции',
+    title: 'Урок 2',
     moduleId: 'module-9',
     grammar: {
-      title: 'Культура и традиции Испании',
-      content: `
-# Tradiciones españolas
-
-## 1. FIESTAS PRINCIPALES
-
-### Las Fallas (Валенсия, март)
-Огромные скульптуры сжигаются в последнюю ночь.
-
-### Semana Santa (Страстная неделя)
-Религиозные процессии с платформами, особенно в Севилье.
-
-### San Fermín (Памплона, июль)
-Знаменитый **encierro** - бег быков по улицам.
-
-### La Tomatina (Буньол, август)
-Битва помидорами - 20,000 человек, 150 тонн помидоров!
-
-### Nochevieja (31 декабря)
-Традиция есть 12 виноградин под 12 ударов часов.
-
-### Reyes Magos (6 января)
-Три короля приносят подарки детям.
-
-## 2. FLAMENCO
-
-Андалузское искусство:
-- **Cante** (пение)
-- **Baile** (танец)
-- **Toque** (гитара)
-- **Duende** - магия исполнения
-
-## 3. GASTRONOMÍA
-
-### Las tapas
-Маленькие закуски в барах.
-
-**Популярные:**
-- Jamón ibérico
-- Tortilla española
-- Patatas bravas
-- Pulpo a la gallega
-
-### Horario de comidas:
-- Desayuno: 7-9
-- Almuerzo: 14-15:30 (главный прием)
-- Cena: 21-22:30 (поздний)
-
-## 4. EXPRESIONES
-
-- ¡Olé! - Браво!
-- ¡Vale! - ОК!
-- ¡Qué guay! - Как круто!`,
-      examples: [
-        { spanish: 'Me encanta ir de tapas', russian: 'Мне нравится ходить на тапас' },
-        { spanish: 'La Semana Santa es impresionante', russian: 'Страстная неделя впечатляет' },
-        { spanish: 'En España se cena muy tarde', russian: 'В Испании ужинают поздно' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'la fiesta', translation: 'праздник', audioUrl: null },
-      { word: 'la tradición', translation: 'традиция', audioUrl: null },
-      { word: 'la costumbre', translation: 'обычай', audioUrl: null },
-      { word: 'el desfile', translation: 'парад', audioUrl: null },
-      { word: 'bailar', translation: 'танцевать', audioUrl: null },
-      { word: 'cantar', translation: 'петь', audioUrl: null },
-      { word: 'la gastronomía', translation: 'гастрономия', audioUrl: null },
-      { word: 'la tapa', translation: 'тапа', audioUrl: null },
-      { word: 'el jamón', translation: 'хамон', audioUrl: null },
-      { word: 'celebrar', translation: 'праздновать', audioUrl: null },
-      { word: 'los fuegos artificiales', translation: 'фейерверки', audioUrl: null },
-      { word: 'el traje típico', translation: 'традиционный костюм', audioUrl: null },
-      { word: 'la procesión', translation: 'процессия', audioUrl: null },
-      { word: 'el plato típico', translation: 'традиционное блюдо', audioUrl: null },
-      { word: 'la celebración', translation: 'празднование', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'Un año de fiestas españolas',
-      content: `Si hay algo que caracteriza a España, son sus fiestas. Cada mes tiene celebraciones únicas.
-
-Enero empieza con Reyes Magos el 6 de enero. La noche anterior, Melchor, Gaspar y Baltasar llegan en cabalgata. Los niños dejan zapatos en la puerta con agua para los camellos. Por la mañana, encuentran regalos si han sido buenos, o carbón dulce si no. Las familias comen Roscón de Reyes con una figura escondida dentro.
-
-Marzo en Valencia significa Las Fallas. Durante todo el año, los valencianos construyen enormes esculturas de cartón llamadas "fallas". Durante cinco días, la ciudad se llena de música y pólvora. La mascletà al mediodía hace temblar toda la ciudad. La noche del 19, la Cremà, todas las fallas se queman. Es mágico y melancólico: meses de trabajo en cenizas.
-
-Abril trae Semana Santa, especialmente impresionante en Sevilla. Los costaleros cargan pasos de toneladas al ritmo de tambores. Los nazarenos con capirotes caminan descalzos. Cuando pasa una Virgen bella, la gente grita "¡Guapa!" Una saeta surge de un balcón y todo se detiene.
-
-Después de Semana Santa, Sevilla celebra la Feria de Abril. Miles de casetas con baile de sevillanas, rebujito y jamón. Las mujeres lucen trajes de flamenca, los caballos andaluces pasean. La feria dura una semana.
-
-Julio trae San Fermines en Pamplona. El 6 de julio lanzan el chupinazo y gritan "¡Viva San Fermín!" Durante nueve días, cada mañana seis toros corren 850 metros en tres minutos. Miles de personas corren delante. Es aterrador y emocionante.
-
-Agosto trae La Tomatina en Buñol. 20,000 personas se lanzan 150 toneladas de tomates durante una hora. Las calles se vuelven ríos rojos. Es absurdo y divertido.
-
-Diciembre termina con Nochevieja. En toda España, la gente come doce uvas en doce segundos al ritmo de las campanadas - doce deseos para doce meses. Después, ¡fiesta hasta el amanecer!
-
-Lo especial de las fiestas españolas es que no son espectáculos turísticos. Son tradiciones vivas que las comunidades practican apasionadamente. Muestran el carácter español: pasional, comunitario, festivo. Son la celebración de la vida misma.
-
-Y cuando un extranjero pregunta cuál es la mejor fiesta, cualquier español responde: "¡La de mi pueblo, claro!"`,
-      translation: `Если что-то характеризует Испанию - это праздники. Каждый месяц имеет уникальные празднования.
-
-Январь начинается с Дня Трёх Королей 6 января. Накануне вечером Мельхиор, Гаспар и Бальтазар прибывают в процессии. Дети оставляют туфли у двери с водой для верблюдов. Утром они находят подарки, если были хорошими, или сладкий уголь, если нет. Семьи едят Королевский пирог со спрятанной внутри фигуркой.
-
-Март в Валенсии означает Лас Фальяс. В течение всего года валенсийцы строят огромные картонные скульптуры, называемые "фальяс". В течение пяти дней город наполняется музыкой и порохом. Полуденная маскалета заставляет дрожать весь город. Ночью 19-го, Кремá, все фальяс сжигаются. Это волшебно и меланхолично: месяцы работы в пепле.
-
-Апрель приносит Страстную неделю, особенно впечатляющую в Севилье. Костальеро несут платформы весом в тонны под ритм барабанов. Назарены в капюшонах идут босиком. Когда проходит красивая статуя Девы Марии, люди кричат "¡Guapa!" Саэта раздаётся с балкона, и всё останавливается.
-
-После Страстной недели Севилья празднует Апрельскую ярмарку. Тысячи палаток с танцами севильяны, ребухито и хамоном. Женщины носят платья фламенко, андалузские лошади гуляют. Ярмарка длится неделю.
-
-Июль приносит Сан-Фермины в Памплоне. 6 июля запускают чупиназо и кричат "¡Viva San Fermín!" В течение девяти дней каждое утро шесть быков пробегают 850 метров за три минуты. Тысячи людей бегут впереди. Это пугающе и захватывающе.
-
-Август приносит Томатину в Буньоле. 20,000 человек бросают 150 тонн помидоров в течение часа. Улицы превращаются в красные реки. Это абсурдно и весело.
-
-Декабрь заканчивается Новым годом. По всей Испании люди едят двенадцать виноградин за двенадцать секунд под ритм ударов колокола - двенадцать желаний на двенадцать месяцев. Потом - вечеринка до рассвета!
-
-Особенность испанских праздников в том, что это не туристические представления. Это живые традиции, которые сообщества практикуют с страстью. Они показывают испанский характер: страстный, общинный, праздничный. Это празднование самой жизни.
-
-И когда иностранец спрашивает, какой праздник лучший, любой испанец отвечает: "Праздник моего города, конечно!"`,
-      audioUrl: '/audio/lesson-9-2-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-9-2-1', 'ex-9-2-2', 'ex-9-2-3', 'ex-9-2-4', 'ex-9-2-5']
+    exercises: []
   },
 
   'lesson-9-3': {
     id: 'lesson-9-3',
-    title: 'Урок 3: Современная культура',
+    title: 'Урок 3',
     moduleId: 'module-9',
     grammar: {
-      title: 'Cultura española contemporánea',
-      content: `
-# Cultura moderna
-
-## 1. CINE
-
-### Pedro Almodóvar (род. 1949)
-Самый знаменитый режиссер. 2 Оскара.
-
-**Фильмы:**
-- "Todo sobre mi madre" (1999)
-- "Hable con ella" (2002)
-- "Volver" (2006)
-
-## 2. MÚSICA
-
-### Flamenco moderno:
-- **Rosalía** - современное фламенко + урбан
-
-### Pop:
-- Alejandro Sanz
-- Shakira
-
-## 3. ARQUITECTURA
-
-### Antoni Gaudí (1852-1926)
-- **La Sagrada Familia** - строится с 1882
-- **Park Güell**
-- **Casa Batlló**
-
-## 4. ARTE
-
-### Pablo Picasso (1881-1973)
-Основатель кубизма. **"Guernica"** (1937).
-
-### Salvador Dalí (1904-1989)
-Сюрреалист. Тающие часы.
-
-## 5. DEPORTES
-
-### Fútbol
-Национальная страсть.
-- Real Madrid vs FC Barcelona ("El Clásico")
-- Чемпионы мира 2010
-
-### Tenis
-- Rafael Nadal
-- Carlos Alcaraz
-
-## 6. GASTRONOMÍA
-
-### Ferran Adrià
-Революционизировал кухню молекулярной гастрономией.
-
-## 7. LITERATURA
-
-- Carlos Ruiz Zafón - "La sombra del viento"
-- Javier Marías - философская проза`,
-      examples: [
-        { spanish: 'Almodóvar es mi director favorito', russian: 'Альмодовар - мой любимый режиссер' },
-        { spanish: 'La Sagrada Familia es impresionante', russian: 'Саграда Фамилия впечатляет' },
-        { spanish: 'El fútbol es una pasión nacional', russian: 'Футбол - национальная страсть' }
-      ]
+      title: '',
+      content: ``,
+      examples: []
     },
-    vocabulary: [
-      { word: 'el cine', translation: 'кино', audioUrl: null },
-      { word: 'la película', translation: 'фильм', audioUrl: null },
-      { word: 'el director', translation: 'режиссер', audioUrl: null },
-      { word: 'la música', translation: 'музыка', audioUrl: null },
-      { word: 'el cantante', translation: 'певец', audioUrl: null },
-      { word: 'el arte', translation: 'искусство', audioUrl: null },
-      { word: 'el pintor', translation: 'художник', audioUrl: null },
-      { word: 'la arquitectura', translation: 'архитектура', audioUrl: null },
-      { word: 'el edificio', translation: 'здание', audioUrl: null },
-      { word: 'el deporte', translation: 'спорт', audioUrl: null },
-      { word: 'el equipo', translation: 'команда', audioUrl: null },
-      { word: 'el partido', translation: 'матч', audioUrl: null },
-      { word: 'contemporáneo', translation: 'современный', audioUrl: null },
-      { word: 'mundial', translation: 'мировой', audioUrl: null },
-      { word: 'el actor', translation: 'актер', audioUrl: null }
-    ],
+    vocabulary: [],
     readingText: {
-      title: 'España moderna: tradición y futuro',
-      content: `Camino por Madrid en 2025 y veo un país que mezcla tradición y modernidad. Esta mañana pasé por la Puerta del Sol con su oso y madroño medieval, pero alrededor la gente llevaba smartphones y en pantallas se anunciaba el último filme español nominado al Oscar.
-
-En una cafetería, sonaba Rosalía - la cantante que revolucionó el flamenco fusionándolo con reggaeton. Hace treinta años esto habría sido impensable. El flamenco era sagrado. Pero Rosalía demostró que puedes honrar la tradición transformándola. Sus videos tienen millones de visitas. Ha colaborado con Billie Eilish. El flamenco gitano-andaluz ahora suena en Tokio y Nueva York.
-
-Fui al Museo Reina Sofía a ver el "Guernica" de Picasso. Este cuadro de 1937 sobre el bombardeo durante la Guerra Civil sigue siendo relevante. Picasso cambió el arte mundial. El cubismo que inventó todavía influye hoy.
-
-Por la tarde, vi una película de Almodóvar. Sus películas son inconfundiblemente españolas - melodramáticas, coloridas, emotivas - pero hablan de temas universales. Ha ganado dos Oscars. Penélope Cruz y Antonio Banderas son estrellas de Hollywood pero siempre vuelven a España.
-
-Pasé por el Bernabéu, casa del Real Madrid. El fútbol es una religión. "El Clásico" con Barcelona paraliza el país - 400 millones lo ven mundialmente. España ganó la Copa del Mundo en 2010. Toda España salió a celebrar. Todas las divisiones desaparecieron.
-
-Cené en un restaurante de tapas modernizado - deconstrucciones, espumas. La influencia de Ferran Adrià está en todas partes. España tiene más restaurantes Michelin que nunca.
-
-Caminé por Malasaña, el distrito hipster. Bares llenos, arte urbano, tiendas vintage. En una librería hojeé a Ruiz Zafón y Javier Marías - autores españoles traducidos a docenas de idiomas.
-
-En el metro escuché español, inglés, árabe, chino. Madrid se ha vuelto internacional. España ha pasado de país de emigración a inmigración.
-
-Esto trae desafíos. Cataluña quiere independencia. El País Vasco tiene su cultura. ¿Qué significa ser español con tantas identidades regionales? Esta tensión entre lo local y nacional define la España moderna.
-
-Pero algo nunca cambia: la importancia de la familia, la pasión por la vida, la sobremesa, las plazas llenas de gente, las fiestas de pueblo.
-
-España ha producido grandes artistas: Velázquez, Goya, Picasso, Dalí, Miró. Escritores como Cervantes, Lorca. Arquitectos como Gaudí y Calatrava. Cineastas como Buñuel y Almodóvar. Para un país pequeño, el impacto cultural ha sido inmenso.
-
-El español es hablado por 600 millones mundialmente - el segundo idioma del mundo. España sigue siendo el corazón histórico del idioma.
-
-Mañana iré a Barcelona a ver la Sagrada Familia de Gaudí, construyéndose durante 140 años. Es el símbolo perfecto: un proyecto ambicioso, único, que mezcla tradición e innovación, que ha tomado generaciones pero nunca perdió su visión.
-
-España mira al futuro mientras honra el pasado. En esa tensión creativa está su genio.`,
-      translation: `Иду по Мадриду в 2025 году и вижу страну, смешивающую традицию и современность. Сегодня утром я прошёл мимо Пуэрта-дель-Соль с её средневековым медведем и земляничным деревом, но вокруг люди носили смартфоны, а на экранах рекламировался последний испанский фильм, номинированный на Оскар.
-
-В кафе играла Росалия - певица, которая революционизировала фламенко, слив его с реггетоном. Тридцать лет назад это было бы немыслимо. Фламенко было священным. Но Росалия показала, что можно чтить традицию, трансформируя её. Её видео имеют миллионы просмотров. Она сотрудничала с Билли Айлиш. Цыганско-андалузское фламенко теперь звучит в Токио и Нью-Йорке.
-
-Я пошёл в музей Рейна София посмотреть "Гернику" Пикассо. Эта картина 1937 года о бомбардировке во время Гражданской войны остаётся актуальной. Пикассо изменил мировое искусство. Кубизм, который он изобрёл, до сих пор влияет на искусство сегодня.
-
-Во второй половине дня я посмотрел фильм Альмодовара. Его фильмы безошибочно испанские - мелодраматические, красочные, эмоциональные - но говорят о универсальных темах. Он выиграл два Оскара. Пенелопа Крус и Антонио Бандерас - звёзды Голливуда, но всегда возвращаются в Испанию.
-
-Я прошёл мимо Бернабеу, дома Реал Мадрида. Футбол - это религия. "Эль Класико" с Барселоной парализует страну - 400 миллионов смотрят по всему миру. Испания выиграла Чемпионат мира в 2010 году. Вся Испания вышла праздновать. Все разделения исчезли.
-
-Я поужинал в модернизированном ресторане тапас - деконструкции, пены. Влияние Феррана Адриа повсюду. В Испании теперь больше ресторанов Мишлен, чем когда-либо.
-
-Я прогулялся по Маласанье, хипстерскому району. Переполненные бары, уличное искусство, винтажные магазины. В книжном магазине я просматривал Руиса Сафона и Хавьера Мариаса - испанских авторов, переведённых на десятки языков.
-
-В метро я слышал испанский, английский, арабский, китайский. Мадрид стал международным. Испания перешла от страны эмиграции к иммиграции.
-
-Это приносит вызовы. Каталония хочет независимости. Страна Басков имеет свою культуру. Что значит быть испанцем с таким количеством региональных идентичностей? Это напряжение между местным и национальным определяет современную Испанию.
-
-Но кое-что никогда не меняется: важность семьи, страсть к жизни, собремеса, площади, полные людей, деревенские праздники.
-
-Испания произвела великих художников: Веласкес, Гойя, Пикассо, Дали, Миро. Писателей, как Сервантес, Лорка. Архитекторов, как Гауди и Калатрава. Кинорежиссёров, как Бунюэль и Альмодовар. Для маленькой страны культурное влияние было огромным.
-
-На испанском говорят 600 миллионов человек по всему миру - второй язык мира. Испания остаётся историческим сердцем языка.
-
-Завтра я поеду в Барселону, чтобы увидеть Саграда Фамилия Гауди, строящуюся уже 140 лет. Это идеальный символ: амбициозный, уникальный проект, который смешивает традицию и инновацию, который занял поколения, но никогда не терял своего видения.
-
-Испания смотрит в будущее, чтя прошлое. В этом творческом напряжении её гений.`,
-      audioUrl: '/audio/lesson-9-3-reading.mp3'
+      title: '',
+      content: ``,
+      translation: '',
+      audioUrl: '',
+      subtitles: []
     },
-    exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5']
-  }
-}
-
-// Упражнения различных типов
-export const exercises = {
-  // Урок 1.1
-  'ex-1-1-1': {
-    id: 'ex-1-1-1',
-    type: 'vocabulary',
-    title: 'Запомните слова',
-    description: 'Сопоставьте испанские слова с переводом',
-    questions: [
-      { spanish: 'hola', options: ['привет', 'пока', 'спасибо', 'да'], correct: 0 },
-      { spanish: 'gracias', options: ['нет', 'спасибо', 'пожалуйста', 'привет'], correct: 1 },
-      { spanish: 'adiós', options: ['да', 'нет', 'пока', 'привет'], correct: 2 },
-      { spanish: 'por favor', options: ['спасибо', 'пожалуйста', 'привет', 'пока'], correct: 1 },
-      { spanish: '¿Qué tal?', options: ['как дела?', 'как семья?', 'большое спасибо', 'так себе'], correct: 0 },
-      { spanish: 'Todo va bien.', options: ['так себе', 'все хорошо', 'как жизнь?', 'пожалуйста'], correct: 1 },
-      { spanish: 'Muchas gracias.', options: ['пожалуйста', 'так себе', 'большое спасибо', 'как дела?'], correct: 2 },
-      { spanish: 'Regular.', options: ['все хорошо', 'спасибо', 'так себе', 'как дела?'], correct: 2 },
-      { spanish: 'Buenos días', options: ['доброе утро', 'добрый вечер', 'спокойной ночи', 'привет'], correct: 0 },
-      { spanish: 'Buenas tardes', options: ['доброе утро', 'добрый день', 'спокойной ночи', 'пока'], correct: 1 },
-      { spanish: 'Buenas noches', options: ['доброе утро', 'добрый день', 'добрый вечер/спокойной ночи', 'привет'], correct: 2 },
-      { spanish: '¿Cómo estás?', options: ['как дела?', 'что нового?', 'как семья?', 'пока'], correct: 0 },
-      { spanish: 'De nada', options: ['спасибо', 'пожалуйста', 'не за что', 'извините'], correct: 2 },
-      { spanish: 'Perdón', options: ['привет', 'пока', 'извините', 'спасибо'], correct: 2 },
-      { spanish: '¿Qué tal la familia?', options: ['как дела?', 'как семья?', 'что нового?', 'все хорошо'], correct: 1 }
-    ]
-  },
-  'ex-1-1-2': {
-    id: 'ex-1-1-2',
-    type: 'pronunciation',
-    title: 'Произношение',
-    description: 'Как произносится слово?',
-    questions: [
-      { word: 'hola', options: ['[хола]', '[ола]', '[гола]', '[кола]'], correct: 1 },
-      { word: 'hijo', options: ['[хийо]', '[ихо]', '[гихо]', '[сихо]'], correct: 1 },
-      { word: 'señor', options: ['[сенор]', '[сеньор]', '[синор]', '[шеньор]'], correct: 1 },
-      { word: 'gracias', options: ['[грасиас]', '[грациас]', '[грашиас]', '[граθиас]'], correct: 3 },
-      { word: 'familia', options: ['[фамилия]', '[фамилиа]', '[вамилиа]', '[фамиља]'], correct: 1 },
-      { word: 'español', options: ['[эспанол]', '[испаньол]', '[эспаньол]', '[испанол]'], correct: 2 },
-      { word: 'buenos días', options: ['[буенос диас]', '[бвенос диас]', '[буэнос диас]', '[бьенос диас]'], correct: 2 },
-      { word: 'llama', options: ['[лама]', '[льяма]', '[јама]', '[ляма]'], correct: 2 },
-      { word: 'mujer', options: ['[мухер]', '[мужер]', '[муер]', '[мучер]'], correct: 0 },
-      { word: 'cerveza', options: ['[сервеса]', '[θервеθа]', '[сервеза]', '[кервеза]'], correct: 1 },
-      { word: 'ciudad', options: ['[сиудад]', '[θиудад]', '[киудад]', '[θьюдад]'], correct: 1 },
-      { word: 'quiero', options: ['[куиеро]', '[квиеро]', '[киеро]', '[кьеро]'], correct: 2 },
-      { word: 'hablar', options: ['[хаблар]', '[аблар]', '[габлар]', '[хабляр]'], correct: 1 },
-      { word: 'rojo', options: ['[рохо]', '[рожо]', '[рохё]', '[рро-хо]'], correct: 0 },
-      { word: 'adiós', options: ['[адиос]', '[адиос]', '[адьос]', '[адьёс]'], correct: 0 }
-    ]
-  },
-  'ex-1-1-3': {
-    id: 'ex-1-1-3',
-    type: 'reading',
-    title: 'Чтение',
-    description: 'Прочитайте диалог и ответьте на вопросы',
-    text: `
-Pedro: ¡Hola! Buenos días. ¿Qué tal?
-Ana: Bien, gracias. ¿Y tú?
-Pedro: Todo va bien. ¿Qué tal la familia?
-Ana: Más o menos bien, gracias. Mi madre está enferma, pero no es grave.
-Pedro: Lo siento mucho. Me alegro de que no sea grave.
-Ana: Gracias por preguntar. ¿Y tu familia?
-Pedro: Todos están bien, gracias. Mi hermano vive en Madrid ahora.
-Ana: ¡Qué bien! ¿Le gusta Madrid?
-Pedro: Sí, le encanta. Trabaja en una empresa española.
-Ana: Perfecto. Bueno, tengo que irme.
-Pedro: Claro. ¡Hasta luego!
-Ana: ¡Adiós! Que tengas un buen día.
-Pedro: Igualmente. Muchas gracias.
-    `,
-    questions: [
-      {
-        question: 'Кто приветствует первым?',
-        options: ['Ана', 'Педро', 'Оба', 'Никто'],
-        correct: 1
-      },
-      {
-        question: 'Какое время суток?',
-        options: ['Утро', 'День', 'Вечер', 'Ночь'],
-        correct: 0
-      },
-      {
-        question: 'Как дела у семьи Аны?',
-        options: ['Очень хорошо', 'Более или менее хорошо', 'Плохо', 'Отлично'],
-        correct: 1
-      },
-      {
-        question: 'Кто болен?',
-        options: ['Мать Аны', 'Отец Педро', 'Брат Педро', 'Ана'],
-        correct: 0
-      },
-      {
-        question: 'Насколько серьезна болезнь?',
-        options: ['Очень серьезно', 'Не серьезно', 'Критически', 'Неизвестно'],
-        correct: 1
-      },
-      {
-        question: 'Где сейчас живет брат Педро?',
-        options: ['В Барселоне', 'В Мадриде', 'В Валенсии', 'В Севилье'],
-        correct: 1
-      },
-      {
-        question: 'Как брат Педро относится к Мадриду?',
-        options: ['Не нравится', 'Так себе', 'Нравится', 'Очень нравится'],
-        correct: 3
-      },
-      {
-        question: 'Где работает брат Педро?',
-        options: ['В русской компании', 'В испанской компании', 'В банке', 'В школе'],
-        correct: 1
-      },
-      {
-        question: 'Кто должен уйти?',
-        options: ['Педро', 'Ана', 'Оба', 'Никто'],
-        correct: 1
-      },
-      {
-        question: 'Как Педро прощается?',
-        options: ['Adiós', 'Hasta luego', 'Buenos días', 'Buenas noches'],
-        correct: 1
-      },
-      {
-        question: 'Что Ана желает Педро?',
-        options: ['Спокойной ночи', 'Хорошего дня', 'Удачи', 'Ничего не желает'],
-        correct: 1
-      },
-      {
-        question: 'Что отвечает Педро на пожелание Аны?',
-        options: ['De nada', 'Gracias', 'Igualmente', 'Perdón'],
-        correct: 2
-      },
-      {
-        question: 'Сколько раз упоминается слово "gracias" в диалоге?',
-        options: ['Один раз', 'Два раза', 'Три раза', 'Четыре раза'],
-        correct: 3
-      },
-      {
-        question: 'Кто первым спрашивает о семье?',
-        options: ['Ана', 'Педро', 'Никто', 'Оба одновременно'],
-        correct: 1
-      },
-      {
-        question: 'Какое общее настроение диалога?',
-        options: ['Грустное', 'Дружелюбное', 'Формальное', 'Напряженное'],
-        correct: 1
-      }
-    ]
-  },
-  'ex-1-1-4': {
-    id: 'ex-1-1-4',
-    type: 'writing',
-    title: 'Письмо',
-    description: 'Переведите на испанский',
-    questions: [
-      { russian: 'Привет', correct: 'hola' },
-      { russian: 'Спасибо', correct: 'gracias' },
-      { russian: 'Пожалуйста', correct: 'por favor' },
-      { russian: 'Пока', correct: 'adiós' },
-      { russian: 'Как дела?', correct: '¿qué tal?' },
-      { russian: 'Все хорошо', correct: 'todo va bien' },
-      { russian: 'Большое спасибо', correct: 'muchas gracias' },
-      { russian: 'Так себе', correct: 'regular' },
-      { russian: 'Доброе утро', correct: 'buenos días' },
-      { russian: 'Добрый день', correct: 'buenas tardes' },
-      { russian: 'Добрый вечер', correct: 'buenas noches' },
-      { russian: 'Как семья?', correct: '¿qué tal la familia?' },
-      { russian: 'Не за что', correct: 'de nada' },
-      { russian: 'Извините', correct: 'perdón' },
-      { russian: 'До скорого', correct: 'hasta luego' }
-    ]
+    exercises: []
   },
 
   // Урок 1.2
@@ -6117,7 +3475,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Vosotros _____ la música', options: ['oís', 'oyen', 'oímos', 'oye'], correct: 0 },
       { sentence: 'Ellos _____ ruido', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 },
       { sentence: 'Usted _____ bien', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
-      { sentence: 'Yo no _____ nada', options: 'oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
+      { sentence: 'Yo no _____ nada', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
       { sentence: 'Tú _____ al profesor', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
       { sentence: 'Ella _____ el teléfono', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
       { sentence: 'Nosotras _____ la voz', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 2 },
