@@ -1101,6 +1101,39 @@ function DefinitionsQuestion({ question, onAnswer }) {
 }
 
 function ContextQuestion({ question, onAnswer }) {
+  const [selectedAnswer, setSelectedAnswer] = useState(null)
+  const [showFeedback, setShowFeedback] = useState(false)
+
+  const handleAnswerClick = (index) => {
+    setSelectedAnswer(index)
+    setShowFeedback(true)
+
+    // Автоматически переходим к следующему вопросу через 1.5 секунды
+    setTimeout(() => {
+      setShowFeedback(false)
+      setSelectedAnswer(null)
+      onAnswer(index)
+    }, 1500)
+  }
+
+  const getButtonClass = (index) => {
+    if (!showFeedback) {
+      return styles.optionBtn
+    }
+
+    // Показываем правильный ответ зеленым
+    if (index === question.correct) {
+      return `${styles.optionBtn} ${styles.correctAnswer}`
+    }
+
+    // Показываем выбранный неправильный ответ красным
+    if (index === selectedAnswer && index !== question.correct) {
+      return `${styles.optionBtn} ${styles.wrongAnswer}`
+    }
+
+    return styles.optionBtn
+  }
+
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Выберите слово, подходящее по контексту:</h3>
@@ -1114,8 +1147,9 @@ function ContextQuestion({ question, onAnswer }) {
         {question.options.map((option, index) => (
           <button
             key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
+            onClick={() => !showFeedback && handleAnswerClick(index)}
+            className={getButtonClass(index)}
+            disabled={showFeedback}
           >
             {option}
           </button>
