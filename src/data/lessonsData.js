@@ -487,7 +487,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq', 'ex-1-1-16-learningapp']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -7943,6 +7943,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { word: 'queso', pronunciation: '[кэ́со]', audioUrl: null },
       { word: 'quien', pronunciation: '[кьэн]', audioUrl: null }
     ]
+  },
+
+  'ex-1-1-16-learningapp': {
+    id: 'ex-1-1-16-learningapp',
+    type: 'external',
+    title: 'Интерактивное упражнение: Произношение',
+    description: 'Попробуйте интерактивное упражнение на платформе LearningApps для отработки произношения испанских звуков',
+    url: 'https://learningapps.org/watch?v=powc9s2n324',
+    embedUrl: 'https://learningapps.org/watch?v=powc9s2n324'
   },
 
   'ex-2-1-6-conj': {

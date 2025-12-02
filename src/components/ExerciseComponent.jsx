@@ -450,16 +450,25 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               exerciseId={exercise.id}
             />
           )}
+          {exercise.type === 'external' && (
+            <ExternalExercise
+              url={exercise.embedUrl || exercise.url}
+              title={exercise.title}
+              onComplete={onComplete}
+            />
+          )}
         </div>
 
-        <div className={styles.progressBar}>
-          <div
-            className={styles.progressFill}
-            style={{
-              width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
-            }}
-          />
-        </div>
+        {exercise.type !== 'external' && (
+          <div className={styles.progressBar}>
+            <div
+              className={styles.progressFill}
+              style={{
+                width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
+              }}
+            />
+          </div>
+        )}
       </div>
     </div>
   )
@@ -1500,6 +1509,29 @@ function AudioPronunciationQuestion({ word, onAnswer }) {
       <div className={styles.nextBtnContainer}>
         <button onClick={() => onAnswer(0)} className={styles.nextBtn}>
           Далее →
+        </button>
+      </div>
+    </div>
+  )
+}
+
+function ExternalExercise({ url, title, onComplete }) {
+  return (
+    <div className={styles.externalExercise}>
+      <div className={styles.externalDescription}>
+        <p>Интерактивное упражнение открывается во внешнем окне. После выполнения нажмите кнопку "Завершить".</p>
+      </div>
+      <div className={styles.iframeContainer}>
+        <iframe
+          src={url}
+          className={styles.externalIframe}
+          title={title}
+          allowFullScreen
+        />
+      </div>
+      <div className={styles.externalActions}>
+        <button onClick={() => onComplete()} className={styles.completeBtn}>
+          Завершить упражнение
         </button>
       </div>
     </div>
