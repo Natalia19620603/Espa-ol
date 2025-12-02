@@ -228,8 +228,49 @@
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
 }
 
-.progressBar {
+/* Question Navigation */
+.questionNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.prevQuestionBtn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prevQuestionBtn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.prevQuestionBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: #ccc;
+}
+
+.questionCounter {
+  color: #666;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.progressBar {
+  margin-top: 1rem;
   background: #f0f0f0;
   height: 8px;
   border-radius: 4px;
