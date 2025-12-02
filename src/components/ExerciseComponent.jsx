@@ -49,6 +49,12 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   if (!exercise) return null
 
   const handleAnswer = (answer) => {
+    // Для аудио упражнений (с exercise.words) просто переходим к следующему
+    if (exercise.words) {
+      proceedToNext(answer)
+      return
+    }
+
     const questions = shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions
     const currentQ = questions[currentQuestion]
 
@@ -211,6 +217,20 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         </div>
 
         <p className={styles.description}>{exercise.description}</p>
+
+        {exercise.introAudio && (
+          <div className={styles.introAudioContainer}>
+            <button
+              onClick={() => {
+                const audio = new Audio(exercise.introAudio)
+                audio.play()
+              }}
+              className={styles.introAudioBtn}
+            >
+              🔊 Прослушать общее произношение согласных
+            </button>
+          </div>
+        )}
 
         <div className={styles.questionContainer}>
           {exercise.type === 'vocabulary' && (

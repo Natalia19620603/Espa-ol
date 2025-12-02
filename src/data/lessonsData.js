@@ -7451,7 +7451,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-1-1-6-ctx',
     type: 'context',
     title: 'Приветствия в контексте',
-    description: 'Выберите правильный ответ',
+    description: 'Выберите подходящее приветствие или фразу для каждой ситуации. Обратите внимание на время суток и контекст общения.',
     questions: [
       { sentence: 'Son las 10 de la mañana. Digo: ___', options: ['buenas noches', 'buenos días', 'buenas tardes', 'adiós'], correct: 1 },
       { sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 },
@@ -7476,6 +7476,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'pronunciation',
     title: 'Произношение a) f, l, m, n, p, t, ll',
     description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных f, l, m, n, p, t, ll',
+    introAudio: '/audio/consonantes.mp3',
     words: [
       { word: 'papá', pronunciation: '[папа́]', audioUrl: null },
       { word: 'mamá', pronunciation: '[мама́]', audioUrl: null },
@@ -7544,6 +7545,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'pronunciation',
     title: 'Произношение b) s, c, z, h, ch',
     description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных s, c, z, h, ch',
+    introAudio: '/audio/consonantes.mp3',
     words: [
       { word: 'asunto', pronunciation: '[асу́нто]', audioUrl: null },
       { word: 'peseta', pronunciation: '[пэсэ́та]', audioUrl: null },
@@ -7602,6 +7604,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'pronunciation',
     title: 'Произношение c) b, v, d',
     description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных b, v, d',
+    introAudio: '/audio/consonantes.mp3',
     words: [
       { word: 'bomba', pronunciation: '[бо́мба]', audioUrl: null },
       { word: 'vela', pronunciation: '[бэ́ла]', audioUrl: null },
@@ -7639,6 +7642,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'pronunciation',
     title: 'Произношение d) ñ, y, r, rr',
     description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных ñ, y, r, rr',
+    introAudio: '/audio/consonantes.mp3',
     words: [
       { word: 'señor', pronunciation: '[сэньо́р]', audioUrl: null },
       { word: 'español', pronunciation: '[эспаньо́ль]', audioUrl: null },
@@ -7676,6 +7680,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'pronunciation',
     title: 'Произношение e) g, j, q, k, x',
     description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных g, j, q, k, x',
+    introAudio: '/audio/consonantes.mp3',
     words: [
       { word: 'goma', pronunciation: '[го́ма]', audioUrl: null },
       { word: 'ganso', pronunciation: '[га́нсо]', audioUrl: null },
@@ -7725,6 +7730,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'pronunciation',
     title: 'Скороговорки',
     description: 'Прослушайте и повторите скороговорки для отработки произношения',
+    introAudio: '/audio/consonantes.mp3',
     words: [
       { word: 'Tú tío Timoteo toma té.', pronunciation: '[ту тио тимотэ́о то́ма тэ]', audioUrl: null },
       { word: 'La sopa sin sal está sosa.', pronunciation: '[ла со́па син саль эста́ со́са]', audioUrl: null },
