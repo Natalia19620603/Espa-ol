@@ -397,12 +397,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 1. Слова на гласную, -n, -s: ударение на предпоследний слог (casa, hablan)
 2. Остальные слова: ударение на последний слог (hablar, ciudad)
 3. Акцент указывает исключения: música, café
-      `,
-      examples: [
-        { spanish: 'Hola', translation: 'Привет', pronunciation: '[ола]' },
-        { spanish: 'Adiós', translation: 'Пока', pronunciation: '[адьёс]' },
-        { spanish: 'Señor', translation: 'Господин', pronunciation: '[сеньор]' }
-      ]
+      `
     },
     vocabulary: [
       { word: 'hola', translation: 'привет', audioUrl: null },
