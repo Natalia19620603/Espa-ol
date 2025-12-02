@@ -76,7 +76,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     const newAnswers = [...answers, answer]
     setAnswers(newAnswers)
 
-    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     if (currentQuestion + 1 < totalQuestions) {
       setCurrentQuestion(currentQuestion + 1)
     } else {
@@ -88,9 +88,15 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
   const calculateScore = (finalAnswers) => {
     let correct = 0
-    const items = exercise.texts || (shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions)
+    const items = exercise.texts || exercise.words || (shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions)
     items.forEach((question, index) => {
       const userAnswer = finalAnswers[index]
+
+      // Audio pronunciation exercises - all answers are correct (just listening)
+      if (exercise.words) {
+        correct++
+        return
+      }
 
       // Text input types (need string comparison)
       if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation', 'translation'].includes(exercise.type)) {
@@ -139,7 +145,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   }
 
   const handleFinish = () => {
-    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     if (score >= totalQuestions * 0.7) {
       onComplete()
     } else {
@@ -148,7 +154,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   }
 
   if (showResult) {
-    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     const percentage = Math.round((score / totalQuestions) * 100)
     const passed = percentage >= 70
 
@@ -189,7 +195,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     )
   }
 
-  const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+  const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
 
   return (
     <div className={styles.container}>
@@ -223,7 +229,13 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               userAnswer={userAnswer}
             />
           )}
-          {exercise.type === 'pronunciation' && (
+          {exercise.type === 'pronunciation' && exercise.words && (
+            <AudioPronunciationQuestion
+              word={exercise.words[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'pronunciation' && exercise.questions && (
             <PronunciationQuestion
               question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
@@ -1374,6 +1386,36 @@ function TranslationQuestion({ question, onAnswer, exerciseId }) {
           Правильный ответ: {question.correct}
         </p>
       )}
+    </div>
+  )
+}
+
+function AudioPronunciationQuestion({ word, onAnswer }) {
+  const playAudio = () => {
+    if (word.audioUrl) {
+      const audio = new Audio(word.audioUrl)
+      audio.play()
+    }
+  }
+
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>
+        <strong>{word.word}</strong>
+      </h3>
+      <p className={styles.pronunciation}>
+        Произношение: {word.pronunciation}
+      </p>
+      {word.audioUrl && (
+        <button onClick={playAudio} className={styles.audioBtn}>
+          🔊 Прослушать
+        </button>
+      )}
+      <div className={styles.nextBtnContainer}>
+        <button onClick={() => onAnswer(0)} className={styles.nextBtn}>
+          Далее →
+        </button>
+      </div>
     </div>
   )
 }
