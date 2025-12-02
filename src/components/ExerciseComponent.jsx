@@ -1428,10 +1428,30 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
 }
 
 function AudioPronunciationQuestion({ word, onAnswer }) {
+  const [audio, setAudio] = useState(null)
+  const [isPlaying, setIsPlaying] = useState(false)
+
   const playAudio = () => {
     if (word.audioUrl) {
-      const audio = new Audio(word.audioUrl)
-      audio.play()
+      // Останавливаем предыдущее аудио если оно играет
+      if (audio) {
+        audio.pause()
+        audio.currentTime = 0
+      }
+
+      const newAudio = new Audio(word.audioUrl)
+      newAudio.onended = () => setIsPlaying(false)
+      newAudio.play()
+      setAudio(newAudio)
+      setIsPlaying(true)
+    }
+  }
+
+  const stopAudio = () => {
+    if (audio) {
+      audio.pause()
+      audio.currentTime = 0
+      setIsPlaying(false)
     }
   }
 
@@ -1444,9 +1464,16 @@ function AudioPronunciationQuestion({ word, onAnswer }) {
         Произношение: {word.pronunciation}
       </p>
       {word.audioUrl && (
-        <button onClick={playAudio} className={styles.audioBtn}>
-          🔊 Прослушать
-        </button>
+        <div className={styles.audioControls}>
+          <button onClick={playAudio} className={styles.audioBtn} disabled={isPlaying}>
+            🔊 Прослушать
+          </button>
+          {isPlaying && (
+            <button onClick={stopAudio} className={styles.stopBtn}>
+              ⏹ Стоп
+            </button>
+          )}
+        </div>
       )}
       <div className={styles.nextBtnContainer}>
         <button onClick={() => onAnswer(0)} className={styles.nextBtn}>
