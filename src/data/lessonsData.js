@@ -487,7 +487,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq', 'ex-1-1-16-learningapp']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq', 'ex-1-1-16-learningapp', 'ex-1-1-17-learningapp-2', 'ex-1-1-18-learningapp-3']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -7952,6 +7952,24 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Попробуйте интерактивное упражнение на платформе LearningApps для отработки произношения испанских звуков',
     url: 'https://learningapps.org/watch?v=powc9s2n324',
     embedUrl: 'https://learningapps.org/watch?v=powc9s2n324'
+  },
+
+  'ex-1-1-17-learningapp-2': {
+    id: 'ex-1-1-17-learningapp-2',
+    type: 'external',
+    title: 'Интерактивное упражнение: Алфавит и звуки',
+    description: 'Практикуйте испанский алфавит и произношение звуков',
+    url: 'https://learningapps.org/display?v=p0qxu5dkk24',
+    embedUrl: 'https://learningapps.org/display?v=p0qxu5dkk24'
+  },
+
+  'ex-1-1-18-learningapp-3': {
+    id: 'ex-1-1-18-learningapp-3',
+    type: 'external',
+    title: 'Интерактивное упражнение: Приветствия',
+    description: 'Отработайте приветствия и базовые фразы в интерактивном формате',
+    url: 'https://learningapps.org/display?v=pjxnqw5nc24',
+    embedUrl: 'https://learningapps.org/display?v=pjxnqw5nc24'
   },
 
   'ex-2-1-6-conj': {
