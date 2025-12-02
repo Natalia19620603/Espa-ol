@@ -334,53 +334,6 @@ export const lessons = {
 - zapato [θапато]
 - lápiz [лапиθ]
 
-## Слова для отработки произношения
-
-### a) f, l, m, n, p, t, ll
-
-papá, mamá, Ana, Anita, Nina, Pepe, Pepita, Timoteo, apetito, patata, tomo, tema, tipo, moto, foto, fama, mono, mano, mina, mapa, malo, puma, ama, pampa, pino, fumo, fino, Felipe, teléfono, Lina, Elena, Lima, Lola, Lolita, luna, alumno, plomo, pluma, pleno, mal, tal, mil, papel, final, alma, pulpo, alto, alpino, alfana
-
-lloro [льoро] / [йоро], gallina [гальина] / [гайина], llanto [льанто] / [йанто], billete [бильетэ] / [бийетэ], detalle [дэталье] / [дэтайе], millón [мильон] / [мийон], batalla [батальа] / [батайа], botella [ботэльа] / [ботейа], paella [паэльа] / [паэйа], tortilla [тортильа] / [тортийа]
-
-### b) s, c, z, h, ch
-
-asunto, peseta, museo, estilo, poesía, Alfonso, Susana, asno, mismo, turismo, cena, cine, zapato, zona, azul, plaza, paz, lápiz, ceniza, Azucena, ascensor, suceso, dieciséis, necesito, francesa, fascismo, escena, cereza, Asunción
-
-hola, ahora, historia, heroísmo, hospital, hablar, himno, humor, prohibir, deshecho
-
-poncho, muchacho, mucho, techo, machete, Chile, lucha, plancha, mochila, chimenea
-
-### c) b, v, d
-
-bomba, vela, hombre, vino, invito, Barcelona, Valencia, nube, sabor, lavar, labor, cava, Cuba, La Habana
-
-dama, documento, defecto, donde, andando, aldea, Aldo, padre, moneda, soldado, facultad, universidad, Madrid, edad
-
-### d) ñ, y, r, rr
-
-señor, español, señorita, doña, niño, madrileño, brasileño
-
-yate, mayo, playa, desayuno, proyecto, leyenda, yodo
-
-teatro, ópera, tractor, árabe, director, torero, actriz, ramo, rosa, zorro, corrida, párrafo, reportero, Rafael
-
-### e) g, j, q, k, x
-
-goma, ganso, gusano, emigrante, hidalgo, Miguel, malagueño, guillotina, pingüino, cigüeña
-
-genial, álgebra, original, jefe, gitano, Jorge, garaje, ingeniero, gigante, reloj
-
-quinto, cuatro, quince, poco, pequeño, ecologista, queso, equipaje, quiero, queja
-
-taxi, examen, texto, extra, experimento, exótico, excelente, éxito, oxígeno, México
-
-## Скороговорки
-
-1. Tú tío Timoteo toma té. [Ту тио тимотэо тома тэ]
-2. La sopa sin sal está sosa. [Ла сопа син саль эста соса]
-3. Los sucesos se suceden sin cesar. [Лос суθэсос сэ суθэдэн син θэсар]
-4. César y Susana necesitan cinco lápices azules. [θэсар и сусана нэθэситан θинко лапиθэс аθулэс]
-
 ## § 3. Дифтонги и трифтонги
 
 Гласные **a, o, e** — сильные, гласные **i, u** — слабые.
@@ -514,7 +467,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -7520,6 +7473,268 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Mi amigo pregunta "¿Qué tal?". Estoy muy bien. Digo: ___', options: ['regular', 'mal', 'todo va bien', 'adiós'], correct: 2 },
       { sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hasta mañana', 'buenos días', 'hola'], correct: 1 },
       { sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'así así', 'mal', 'adiós'], correct: 1 }
+    ]
+  },
+
+  'ex-1-1-7-pron-a': {
+    id: 'ex-1-1-7-pron-a',
+    type: 'pronunciation',
+    title: 'Произношение a) f, l, m, n, p, t, ll',
+    description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных f, l, m, n, p, t, ll',
+    words: [
+      { word: 'papá', pronunciation: '[папа́]', audioUrl: null },
+      { word: 'mamá', pronunciation: '[мама́]', audioUrl: null },
+      { word: 'Ana', pronunciation: '[а́на]', audioUrl: null },
+      { word: 'Anita', pronunciation: '[ани́та]', audioUrl: null },
+      { word: 'Nina', pronunciation: '[ни́на]', audioUrl: null },
+      { word: 'Pepe', pronunciation: '[пэ́пэ]', audioUrl: null },
+      { word: 'Pepita', pronunciation: '[пэпи́та]', audioUrl: null },
+      { word: 'Timoteo', pronunciation: '[тимотэ́о]', audioUrl: null },
+      { word: 'apetito', pronunciation: '[апэти́то]', audioUrl: null },
+      { word: 'patata', pronunciation: '[пата́та]', audioUrl: null },
+      { word: 'tomo', pronunciation: '[то́мо]', audioUrl: null },
+      { word: 'tema', pronunciation: '[тэ́ма]', audioUrl: null },
+      { word: 'tipo', pronunciation: '[ти́по]', audioUrl: null },
+      { word: 'moto', pronunciation: '[мо́то]', audioUrl: null },
+      { word: 'foto', pronunciation: '[фо́то]', audioUrl: null },
+      { word: 'fama', pronunciation: '[фа́ма]', audioUrl: null },
+      { word: 'mono', pronunciation: '[мо́но]', audioUrl: null },
+      { word: 'mano', pronunciation: '[ма́но]', audioUrl: null },
+      { word: 'mina', pronunciation: '[ми́на]', audioUrl: null },
+      { word: 'mapa', pronunciation: '[ма́па]', audioUrl: null },
+      { word: 'malo', pronunciation: '[ма́ло]', audioUrl: null },
+      { word: 'puma', pronunciation: '[пу́ма]', audioUrl: null },
+      { word: 'ama', pronunciation: '[а́ма]', audioUrl: null },
+      { word: 'pampa', pronunciation: '[па́мпа]', audioUrl: null },
+      { word: 'pino', pronunciation: '[пи́но]', audioUrl: null },
+      { word: 'fumo', pronunciation: '[фу́мо]', audioUrl: null },
+      { word: 'fino', pronunciation: '[фи́но]', audioUrl: null },
+      { word: 'Felipe', pronunciation: '[фэли́пэ]', audioUrl: null },
+      { word: 'teléfono', pronunciation: '[тэлэ́фоно]', audioUrl: null },
+      { word: 'Lina', pronunciation: '[ли́на]', audioUrl: null },
+      { word: 'Elena', pronunciation: '[элэ́на]', audioUrl: null },
+      { word: 'Lima', pronunciation: '[ли́ма]', audioUrl: null },
+      { word: 'Lola', pronunciation: '[ло́ла]', audioUrl: null },
+      { word: 'Lolita', pronunciation: '[лоли́та]', audioUrl: null },
+      { word: 'luna', pronunciation: '[лу́на]', audioUrl: null },
+      { word: 'alumno', pronunciation: '[алу́мно]', audioUrl: null },
+      { word: 'plomo', pronunciation: '[пло́мо]', audioUrl: null },
+      { word: 'pluma', pronunciation: '[плу́ма]', audioUrl: null },
+      { word: 'pleno', pronunciation: '[плэ́но]', audioUrl: null },
+      { word: 'mal', pronunciation: '[маль]', audioUrl: null },
+      { word: 'tal', pronunciation: '[таль]', audioUrl: null },
+      { word: 'mil', pronunciation: '[миль]', audioUrl: null },
+      { word: 'papel', pronunciation: '[папэль]', audioUrl: null },
+      { word: 'final', pronunciation: '[финаль]', audioUrl: null },
+      { word: 'alma', pronunciation: '[а́льма]', audioUrl: null },
+      { word: 'pulpo', pronunciation: '[пу́льпо]', audioUrl: null },
+      { word: 'alto', pronunciation: '[а́льто]', audioUrl: null },
+      { word: 'alpino', pronunciation: '[альпи́но]', audioUrl: null },
+      { word: 'alfana', pronunciation: '[альфа́на]', audioUrl: null },
+      { word: 'lloro', pronunciation: '[льо́ро] / [йо́ро]', audioUrl: null },
+      { word: 'gallina', pronunciation: '[гальи́на] / [гайи́на]', audioUrl: null },
+      { word: 'llanto', pronunciation: '[льа́нто] / [йа́нто]', audioUrl: null },
+      { word: 'billete', pronunciation: '[бильэ́тэ] / [бийэ́тэ]', audioUrl: null },
+      { word: 'detalle', pronunciation: '[дэта́лье] / [дэта́йе]', audioUrl: null },
+      { word: 'millón', pronunciation: '[мильо́н] / [мийо́н]', audioUrl: null },
+      { word: 'batalla', pronunciation: '[бата́лья] / [бата́йа]', audioUrl: null },
+      { word: 'botella', pronunciation: '[ботэ́лья] / [ботэ́йа]', audioUrl: null },
+      { word: 'paella', pronunciation: '[паэ́лья] / [паэ́йа]', audioUrl: null },
+      { word: 'tortilla', pronunciation: '[торти́лья] / [торти́йа]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-8-pron-b': {
+    id: 'ex-1-1-8-pron-b',
+    type: 'pronunciation',
+    title: 'Произношение b) s, c, z, h, ch',
+    description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных s, c, z, h, ch',
+    words: [
+      { word: 'asunto', pronunciation: '[асу́нто]', audioUrl: null },
+      { word: 'peseta', pronunciation: '[пэсэ́та]', audioUrl: null },
+      { word: 'museo', pronunciation: '[мусэ́о]', audioUrl: null },
+      { word: 'estilo', pronunciation: '[эсти́ло]', audioUrl: null },
+      { word: 'poesía', pronunciation: '[поэси́а]', audioUrl: null },
+      { word: 'Alfonso', pronunciation: '[альфо́нсо]', audioUrl: null },
+      { word: 'Susana', pronunciation: '[суса́на]', audioUrl: null },
+      { word: 'asno', pronunciation: '[а́сно]', audioUrl: null },
+      { word: 'mismo', pronunciation: '[ми́смо]', audioUrl: null },
+      { word: 'turismo', pronunciation: '[тури́смо]', audioUrl: null },
+      { word: 'cena', pronunciation: '[θэ́на] / [сэ́на]', audioUrl: null },
+      { word: 'cine', pronunciation: '[θи́нэ] / [си́нэ]', audioUrl: null },
+      { word: 'zapato', pronunciation: '[θапа́то] / [сапа́то]', audioUrl: null },
+      { word: 'zona', pronunciation: '[θо́на] / [со́на]', audioUrl: null },
+      { word: 'azul', pronunciation: '[аθу́ль] / [асу́ль]', audioUrl: null },
+      { word: 'plaza', pronunciation: '[пла́θа] / [пла́са]', audioUrl: null },
+      { word: 'paz', pronunciation: '[паθ] / [пас]', audioUrl: null },
+      { word: 'lápiz', pronunciation: '[ла́пиθ] / [ла́пис]', audioUrl: null },
+      { word: 'ceniza', pronunciation: '[θэни́θа] / [сэни́са]', audioUrl: null },
+      { word: 'Azucena', pronunciation: '[аθуθэ́на] / [асусэ́на]', audioUrl: null },
+      { word: 'ascensor', pronunciation: '[асθэнсо́р] / [ассэнсо́р]', audioUrl: null },
+      { word: 'suceso', pronunciation: '[суθэ́со] / [сусэ́со]', audioUrl: null },
+      { word: 'dieciséis', pronunciation: '[дьеθисэ́йс] / [диесисэ́йс]', audioUrl: null },
+      { word: 'necesito', pronunciation: '[нэθэси́то] / [нэсэси́то]', audioUrl: null },
+      { word: 'francesa', pronunciation: '[франθэ́са] / [франсэ́са]', audioUrl: null },
+      { word: 'fascismo', pronunciation: '[фасθи́смо] / [фасси́смо]', audioUrl: null },
+      { word: 'escena', pronunciation: '[эсθэ́на] / [эссэ́на]', audioUrl: null },
+      { word: 'cereza', pronunciation: '[θэрэ́θа] / [сэрэ́са]', audioUrl: null },
+      { word: 'Asunción', pronunciation: '[асунθьо́н] / [асунсьо́н]', audioUrl: null },
+      { word: 'hola', pronunciation: '[о́ла]', audioUrl: null },
+      { word: 'ahora', pronunciation: '[ао́ра]', audioUrl: null },
+      { word: 'historia', pronunciation: '[исто́рья]', audioUrl: null },
+      { word: 'heroísmo', pronunciation: '[эрои́смо]', audioUrl: null },
+      { word: 'hospital', pronunciation: '[оспита́ль]', audioUrl: null },
+      { word: 'hablar', pronunciation: '[абла́р]', audioUrl: null },
+      { word: 'himno', pronunciation: '[и́мно]', audioUrl: null },
+      { word: 'humor', pronunciation: '[умо́р]', audioUrl: null },
+      { word: 'prohibir', pronunciation: '[проиби́р]', audioUrl: null },
+      { word: 'deshecho', pronunciation: '[дэсэ́чо]', audioUrl: null },
+      { word: 'poncho', pronunciation: '[по́нчо]', audioUrl: null },
+      { word: 'muchacho', pronunciation: '[муча́чо]', audioUrl: null },
+      { word: 'mucho', pronunciation: '[му́чо]', audioUrl: null },
+      { word: 'techo', pronunciation: '[тэ́чо]', audioUrl: null },
+      { word: 'machete', pronunciation: '[мачэ́тэ]', audioUrl: null },
+      { word: 'Chile', pronunciation: '[чи́лэ]', audioUrl: null },
+      { word: 'lucha', pronunciation: '[лу́ча]', audioUrl: null },
+      { word: 'plancha', pronunciation: '[пла́нча]', audioUrl: null },
+      { word: 'mochila', pronunciation: '[мочи́ла]', audioUrl: null },
+      { word: 'chimenea', pronunciation: '[чимэнэ́а]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-9-pron-c': {
+    id: 'ex-1-1-9-pron-c',
+    type: 'pronunciation',
+    title: 'Произношение c) b, v, d',
+    description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных b, v, d',
+    words: [
+      { word: 'bomba', pronunciation: '[бо́мба]', audioUrl: null },
+      { word: 'vela', pronunciation: '[бэ́ла]', audioUrl: null },
+      { word: 'hombre', pronunciation: '[о́мбрэ]', audioUrl: null },
+      { word: 'vino', pronunciation: '[би́но]', audioUrl: null },
+      { word: 'invito', pronunciation: '[имби́то]', audioUrl: null },
+      { word: 'Barcelona', pronunciation: '[барθэло́на] / [барсэло́на]', audioUrl: null },
+      { word: 'Valencia', pronunciation: '[балэ́нθья] / [валэ́нсиа]', audioUrl: null },
+      { word: 'nube', pronunciation: '[ну́βэ]', audioUrl: null },
+      { word: 'sabor', pronunciation: '[саβо́р]', audioUrl: null },
+      { word: 'lavar', pronunciation: '[лаβа́р]', audioUrl: null },
+      { word: 'labor', pronunciation: '[лаβо́р]', audioUrl: null },
+      { word: 'cava', pronunciation: '[ка́βа]', audioUrl: null },
+      { word: 'Cuba', pronunciation: '[ку́βа]', audioUrl: null },
+      { word: 'La Habana', pronunciation: '[ла аβа́на]', audioUrl: null },
+      { word: 'dama', pronunciation: '[да́ма]', audioUrl: null },
+      { word: 'documento', pronunciation: '[докумэ́нто]', audioUrl: null },
+      { word: 'defecto', pronunciation: '[дэфэ́кто]', audioUrl: null },
+      { word: 'donde', pronunciation: '[до́ндэ]', audioUrl: null },
+      { word: 'andando', pronunciation: '[анда́ндо]', audioUrl: null },
+      { word: 'aldea', pronunciation: '[альдэ́а]', audioUrl: null },
+      { word: 'Aldo', pronunciation: '[а́льдо]', audioUrl: null },
+      { word: 'padre', pronunciation: '[па́ðрэ]', audioUrl: null },
+      { word: 'moneda', pronunciation: '[монэ́ða]', audioUrl: null },
+      { word: 'soldado', pronunciation: '[сольда́ðо]', audioUrl: null },
+      { word: 'facultad', pronunciation: '[факульта́ð]', audioUrl: null },
+      { word: 'universidad', pronunciation: '[унибэрсида́ð]', audioUrl: null },
+      { word: 'Madrid', pronunciation: '[мадри́ð]', audioUrl: null },
+      { word: 'edad', pronunciation: '[эда́ð]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-10-pron-d': {
+    id: 'ex-1-1-10-pron-d',
+    type: 'pronunciation',
+    title: 'Произношение d) ñ, y, r, rr',
+    description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных ñ, y, r, rr',
+    words: [
+      { word: 'señor', pronunciation: '[сэньо́р]', audioUrl: null },
+      { word: 'español', pronunciation: '[эспаньо́ль]', audioUrl: null },
+      { word: 'señorita', pronunciation: '[сэньори́та]', audioUrl: null },
+      { word: 'doña', pronunciation: '[до́нья]', audioUrl: null },
+      { word: 'niño', pronunciation: '[ни́ньо]', audioUrl: null },
+      { word: 'madrileño', pronunciation: '[мадрилэ́ньо]', audioUrl: null },
+      { word: 'brasileño', pronunciation: '[брасилэ́ньо]', audioUrl: null },
+      { word: 'yate', pronunciation: '[йа́тэ]', audioUrl: null },
+      { word: 'mayo', pronunciation: '[ма́йо]', audioUrl: null },
+      { word: 'playa', pronunciation: '[пла́йа]', audioUrl: null },
+      { word: 'desayuno', pronunciation: '[дэсайу́но]', audioUrl: null },
+      { word: 'proyecto', pronunciation: '[пройэ́кто]', audioUrl: null },
+      { word: 'leyenda', pronunciation: '[лэйэ́нда]', audioUrl: null },
+      { word: 'yodo', pronunciation: '[йо́до]', audioUrl: null },
+      { word: 'teatro', pronunciation: '[тэа́тро]', audioUrl: null },
+      { word: 'ópera', pronunciation: '[о́пэра]', audioUrl: null },
+      { word: 'tractor', pronunciation: '[тракто́р]', audioUrl: null },
+      { word: 'árabe', pronunciation: '[а́рабэ]', audioUrl: null },
+      { word: 'director', pronunciation: '[дирэкто́р]', audioUrl: null },
+      { word: 'torero', pronunciation: '[торэ́ро]', audioUrl: null },
+      { word: 'actriz', pronunciation: '[актри́θ] / [актри́с]', audioUrl: null },
+      { word: 'ramo', pronunciation: '[рра́мо]', audioUrl: null },
+      { word: 'rosa', pronunciation: '[рро́са]', audioUrl: null },
+      { word: 'zorro', pronunciation: '[θо́рро] / [со́рро]', audioUrl: null },
+      { word: 'corrida', pronunciation: '[корри́да]', audioUrl: null },
+      { word: 'párrafo', pronunciation: '[па́ррафо]', audioUrl: null },
+      { word: 'reportero', pronunciation: '[ррэпортэ́ро]', audioUrl: null },
+      { word: 'Rafael', pronunciation: '[ррафаэ́ль]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-11-pron-e': {
+    id: 'ex-1-1-11-pron-e',
+    type: 'pronunciation',
+    title: 'Произношение e) g, j, q, k, x',
+    description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных g, j, q, k, x',
+    words: [
+      { word: 'goma', pronunciation: '[го́ма]', audioUrl: null },
+      { word: 'ganso', pronunciation: '[га́нсо]', audioUrl: null },
+      { word: 'gusano', pronunciation: '[гуса́но]', audioUrl: null },
+      { word: 'emigrante', pronunciation: '[эмигра́нтэ]', audioUrl: null },
+      { word: 'hidalgo', pronunciation: '[ида́льго]', audioUrl: null },
+      { word: 'Miguel', pronunciation: '[мигэ́ль]', audioUrl: null },
+      { word: 'malagueño', pronunciation: '[малагэ́ньо]', audioUrl: null },
+      { word: 'guillotina', pronunciation: '[гильоти́на]', audioUrl: null },
+      { word: 'pingüino', pronunciation: '[пингуи́но]', audioUrl: null },
+      { word: 'cigüeña', pronunciation: '[θигуэ́нья] / [сигуэ́нья]', audioUrl: null },
+      { word: 'genial', pronunciation: '[хэньа́ль]', audioUrl: null },
+      { word: 'álgebra', pronunciation: '[а́льхэбра]', audioUrl: null },
+      { word: 'original', pronunciation: '[орихина́ль]', audioUrl: null },
+      { word: 'jefe', pronunciation: '[хэ́фэ]', audioUrl: null },
+      { word: 'gitano', pronunciation: '[хита́но]', audioUrl: null },
+      { word: 'Jorge', pronunciation: '[хо́рхэ]', audioUrl: null },
+      { word: 'garaje', pronunciation: '[гара́хэ]', audioUrl: null },
+      { word: 'ingeniero', pronunciation: '[инхэньэ́ро]', audioUrl: null },
+      { word: 'gigante', pronunciation: '[хига́нтэ]', audioUrl: null },
+      { word: 'reloj', pronunciation: '[ррэло́х]', audioUrl: null },
+      { word: 'quinto', pronunciation: '[ки́нто]', audioUrl: null },
+      { word: 'cuatro', pronunciation: '[куа́тро]', audioUrl: null },
+      { word: 'quince', pronunciation: '[ки́нθэ] / [ки́нсэ]', audioUrl: null },
+      { word: 'poco', pronunciation: '[по́ко]', audioUrl: null },
+      { word: 'pequeño', pronunciation: '[пэкэ́ньо]', audioUrl: null },
+      { word: 'ecologista', pronunciation: '[эколохи́ста]', audioUrl: null },
+      { word: 'queso', pronunciation: '[кэ́со]', audioUrl: null },
+      { word: 'equipaje', pronunciation: '[экипа́хэ]', audioUrl: null },
+      { word: 'quiero', pronunciation: '[кьэ́ро]', audioUrl: null },
+      { word: 'queja', pronunciation: '[кэ́ха]', audioUrl: null },
+      { word: 'taxi', pronunciation: '[та́кси]', audioUrl: null },
+      { word: 'examen', pronunciation: '[экса́мэн]', audioUrl: null },
+      { word: 'texto', pronunciation: '[тэ́ксто]', audioUrl: null },
+      { word: 'extra', pronunciation: '[э́кстра]', audioUrl: null },
+      { word: 'experimento', pronunciation: '[экспэримэ́нто]', audioUrl: null },
+      { word: 'exótico', pronunciation: '[эксо́тико]', audioUrl: null },
+      { word: 'excelente', pronunciation: '[эксθэлэ́нтэ] / [экссэлэ́нтэ]', audioUrl: null },
+      { word: 'éxito', pronunciation: '[э́ксито]', audioUrl: null },
+      { word: 'oxígeno', pronunciation: '[окси́хэно]', audioUrl: null },
+      { word: 'México', pronunciation: '[мэ́хико]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-12-tongue-twisters': {
+    id: 'ex-1-1-12-tongue-twisters',
+    type: 'pronunciation',
+    title: 'Скороговорки',
+    description: 'Прослушайте и повторите скороговорки для отработки произношения',
+    words: [
+      { word: 'Tú tío Timoteo toma té.', pronunciation: '[ту тио тимотэ́о то́ма тэ]', audioUrl: null },
+      { word: 'La sopa sin sal está sosa.', pronunciation: '[ла со́па син саль эста́ со́са]', audioUrl: null },
+      { word: 'Los sucesos se suceden sin cesar.', pronunciation: '[лос суθэ́сос сэ суθэ́дэн син θэса́р] / [лос сусэ́сос сэ сусэ́дэн син сэса́р]', audioUrl: null },
+      { word: 'César y Susana necesitan cinco lápices azules.', pronunciation: '[θэ́сар и суса́на нэθэси́тан θи́нко ла́пиθэс аθу́лэс] / [сэ́сар и суса́на нэсэси́тан си́нко ла́писэс асу́лэс]', audioUrl: null }
     ]
   },
 
