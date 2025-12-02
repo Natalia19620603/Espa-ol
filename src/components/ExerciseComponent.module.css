@@ -167,6 +167,29 @@
   border-left: 4px solid #4caf50;
 }
 
+.forwardBtn {
+  margin-top: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.forwardBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
 @keyframes correctPulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.05); }

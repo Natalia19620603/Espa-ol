@@ -18,6 +18,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [score, setScore] = useState(0)
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
   const [userAnswer, setUserAnswer] = useState(null)
+  const [feedbackTimeoutId, setFeedbackTimeoutId] = useState(null)
 
   // Перемешиваем опции для каждого вопроса один раз при загрузке
   const shuffledQuestions = useMemo(() => {
@@ -68,14 +69,26 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     if (!isCorrect && ['vocabulary', 'grammar', 'ser-estar', 'articles', 'pronunciation', 'reading', 'conjugation', 'tense-choice', 'prepositions', 'pronouns', 'agreement', 'subjunctive', 'conditional', 'synonyms', 'antonyms', 'collocations', 'definitions', 'context', 'false-friends', 'idioms', 'word-family', 'matching', 'dialogue-practice', 'reading-comprehension'].includes(exercise.type)) {
       // Показываем правильный ответ
       setShowCorrectAnswer(true)
-      setTimeout(() => {
+      const id = setTimeout(() => {
         setShowCorrectAnswer(false)
         setUserAnswer(null)
         proceedToNext(answer)
-      }, 2000) // Показываем 2 секунды
+      }, 4000) // Показываем 4 секунды
+      setFeedbackTimeoutId(id)
     } else {
       proceedToNext(answer)
     }
+  }
+
+  const handleSkipFeedback = () => {
+    if (feedbackTimeoutId) {
+      clearTimeout(feedbackTimeoutId)
+      setFeedbackTimeoutId(null)
+    }
+    setShowCorrectAnswer(false)
+    const currentAnswer = userAnswer
+    setUserAnswer(null)
+    proceedToNext(currentAnswer)
   }
 
   const proceedToNext = (answer) => {
@@ -258,6 +271,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               onAnswer={handleAnswer}
               showCorrectAnswer={showCorrectAnswer}
               userAnswer={userAnswer}
+              onSkipFeedback={handleSkipFeedback}
             />
           )}
           {exercise.type === 'pronunciation' && exercise.words && (
@@ -532,7 +546,7 @@ function VocabularyQuestion({ question, onAnswer, showCorrectAnswer, userAnswer 
   )
 }
 
-function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
+function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence || question.question}</h3>
@@ -557,9 +571,14 @@ function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) 
         })}
       </div>
       {showCorrectAnswer && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.options[question.correct]}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.options[question.correct]}
+          </p>
+          <button onClick={onSkipFeedback} className={styles.forwardBtn}>
+            Вперед →
+          </button>
+        </>
       )}
     </div>
   )
@@ -1470,6 +1489,7 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
 function TranslationQuestion({ question, onAnswer, exerciseId }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -1477,15 +1497,26 @@ function TranslationQuestion({ question, onAnswer, exerciseId }) {
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           onAnswer(input)
           setInput('')
         }, 2000)
+        setTimeoutId(id)
       } else {
         onAnswer(input)
       }
     }
+  }
+
+  const handleSkipFeedback = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+    setShowFeedback(false)
+    onAnswer(input)
+    setInput('')
   }
 
   // Определяем текст для заголовка в зависимости от ID упражнения
@@ -1509,9 +1540,14 @@ function TranslationQuestion({ question, onAnswer, exerciseId }) {
         </button>
       </form>
       {showFeedback && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          <button onClick={handleSkipFeedback} className={styles.forwardBtn}>
+            Вперед →
+          </button>
+        </>
       )}
     </div>
   )
