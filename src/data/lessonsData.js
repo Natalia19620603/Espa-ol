@@ -487,7 +487,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -7761,6 +7761,58 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { word: 'La sopa sin sal está sosa.', pronunciation: '[ла со́па син саль эста́ со́са]', audioUrl: null },
       { word: 'Los sucesos se suceden sin cesar.', pronunciation: '[лос суθэ́сос сэ суθэ́дэн син θэса́р] / [лос сусэ́сос сэ сусэ́дэн син сэса́р]', audioUrl: null },
       { word: 'César y Susana necesitan cinco lápices azules.', pronunciation: '[θэ́сар и суса́на нэθэси́тан θи́нко ла́пиθэс аθу́лэс] / [сэ́сар и суса́на нэсэси́тан си́нко ла́писэс асу́лэс]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-13-consonants': {
+    id: 'ex-1-1-13-consonants',
+    type: 'pronunciation',
+    title: 'Произношение твердых согласных',
+    description: 'Прослушайте и повторите слова. Обратите внимание на произношение согласных P, F, T, N, M, L, S, R, RR',
+    introAudio: '/audio/consonantes (A1U0C11).mp3',
+    words: [
+      { word: 'P, F, T, N, M', pronunciation: 'Произносятся как твердые русские звуки. Никогда не смягчаются.', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'mapa', pronunciation: '[мапа]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'papá', pronunciation: '[папа́]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'fama', pronunciation: '[фама]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'tema', pronunciation: '[тэма]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'patata', pronunciation: '[патата]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'moto', pronunciation: '[мото]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'mamá', pronunciation: '[мама́]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'Ana', pronunciation: '[ана]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'L', pronunciation: '[l] - как русский Л (не очень твердый) в начале слова и между гласными. [l\'] - перед согласными и в конце слова как ЛЬ.', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'limón', pronunciation: '[лимон]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'Lola', pronunciation: '[лола]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'pelo', pronunciation: '[пэло]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'malo', pronunciation: '[мало]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'mal', pronunciation: '[маль]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'pulpo', pronunciation: '[пульпо]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'mil', pronunciation: '[миль]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'tal', pronunciation: '[таль]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'él', pronunciation: '[эль]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'S', pronunciation: '[s] - произносится как приглушенный звук между русскими С и Ш.', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'salsa', pronunciation: '[сальса]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'sopa', pronunciation: '[сопа]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'museo', pronunciation: '[мусэо]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'mes', pronunciation: '[мэс]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'R', pronunciation: '[r] - в середине и конце слова как русский Р. [ř] - раскатистое Р в начале слова и после L, N, S.', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'toro', pronunciation: '[торо]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'primo', pronunciation: '[примо]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'enero', pronunciation: '[энэро]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'fruta', pronunciation: '[фрута]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'mar', pronunciation: '[мар]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'flor', pronunciation: '[флор]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'Roma', pronunciation: '[ррома]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'ruso', pronunciation: '[ррусо]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'Enrique', pronunciation: '[энррикэ]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'el rumbo', pronunciation: '[эль ррумбо]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'las rosas', pronunciation: '[лас ррросас]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'RR', pronunciation: '[ř] - встречается только в середине слова и всегда произносится как раскатистое Р.', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'perro', pronunciation: '[пэрро]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'error', pronunciation: '[эррор]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'torre', pronunciation: '[торрэ]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'carretera', pronunciation: '[каррэтэра]', audioUrl: '/audio/consonantes (A1U0C11).mp3' },
+      { word: 'carroza', pronunciation: '[карроса]', audioUrl: '/audio/consonantes (A1U0C11).mp3' }
     ]
   },
 
