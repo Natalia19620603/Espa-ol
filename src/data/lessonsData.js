@@ -1385,7 +1385,7 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
   // МОДУЛЬ 2: Настоящее время
   'lesson-2-1': {
     id: 'lesson-2-1',
-    title: 'Урок 1: Предлоги и числительные',
+    title: 'Урок 1: Предлоги, числительные, глаголы',
     moduleId: 'module-2',
     grammar: {
       title: 'Простые предлоги.Числительные. Правильные глаголы',
@@ -1728,7 +1728,152 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
   },
   'lesson-2-2': {
     id: 'lesson-2-2',
-    title: 'Урок 2: Правильные глаголы в настоящем времени',
+    title: 'Урок 2: Глаголы IR, TENER, OÍR',
+    moduleId: 'module-2',
+    grammar: {
+      title: 'Неправильные глаголы IR, TENER, OÍR',
+      content: `
+# Глаголы IR, TENER, OÍR
+
+## Глагол IR (идти, ехать)
+
+| Лицо | Форма | Русский |
+|------|-------|---------|
+| yo | voy | Я иду |
+| tú | vas | Ты идешь |
+| él/ella/usted | va | Он/она идет |
+| nosotros(-as) | vamos | Мы идем |
+| vosotros(-as) | vais | Вы идете |
+| ellos/ellas/ustedes | van | Они идут |
+
+### Глагол IR с предлогами
+
+**Глагол ir с предлогом а обозначает направление движения вперед от говорящего.**
+
+Определенный артикль мужского рода единственного числа el сливается с предлогом а, образуя форму al:
+
+- ir a la oficina — идти в офис, на работу
+- ir al bar — идти в бар
+- ir al teatro — идти в театр
+- ir al café — идти в кафе
+- ir a casa — идти домой
+- ir a Rusia — ехать в Россию
+
+**Глагол ir с предлогом en указывает на способ передвижения:**
+
+- ir en coche — ехать на машине
+- ir en taxi — ехать на такси
+- ir en autobús — ехать на автобусе
+- ir en tren — ехать на поезде
+- ir en avión — лететь на самолете
+- ir en barco — плыть на корабле
+- ir a pie / ir andando — идти пешком
+
+**Глагол ir с предлогом de указывает на цель передвижения:**
+
+- ir de compras — идти за покупками
+- ir de vacaciones — ехать в отпуск, на каникулы
+
+**Например:**
+- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
+- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.
+
+### Конструкция ir + a + инфинитив
+
+Используется для:
+- выражения намерения что-то сделать
+- выражения ближайшего будущего времени
+
+**Например:**
+- Voy a descansar un poco. — Я собираюсь немного отдохнуть.
+- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?
+
+## Глагол TENER (иметь)
+
+| Лицо | Форма | Русский |
+|------|-------|---------|
+| yo | tengo | Я имею |
+| tú | tienes | Ты имеешь |
+| él/ella/usted | tiene | Он/она имеет |
+| nosotros(-as) | tenemos | Мы имеем |
+| vosotros(-as) | tenéis | Вы имеете |
+| ellos/ellas/ustedes | tienen | Они имеют |
+
+**Выражения:** tener hambre, tener sed, tener años, tener razón
+
+## Глагол OÍR (слышать)
+
+| Лицо | Форма | Русский |
+|------|-------|---------|
+| yo | oigo | Я слышу |
+| tú | oyes | Ты слышишь |
+| él/ella/usted | oye | Он/она слышит |
+| nosotros(-as) | oímos | Мы слышим |
+| vosotros(-as) | oís | Вы слышите |
+| ellos/ellas/ustedes | oyen | Они слышат |
+      `,
+      examples: [
+        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
+        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
+        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
+      ]
+    },
+    vocabulary: [
+      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
+      { word: 'hacer', translation: 'делать', audioUrl: null },
+      { word: 'estar', translation: 'быть, находиться', audioUrl: null },
+      { word: 'venir', translation: 'приходить', audioUrl: null },
+      { word: 'tener', translation: 'иметь', audioUrl: null },
+      { word: 'poder', translation: 'мочь', audioUrl: null },
+      { word: 'querer', translation: 'хотеть', audioUrl: null },
+      { word: 'saber', translation: 'знать', audioUrl: null },
+      { word: 'oír', translation: 'слышать', audioUrl: null },
+      { word: 'bar', translation: 'бар', audioUrl: null },
+      { word: 'teatro', translation: 'театр', audioUrl: null },
+      { word: 'café', translation: 'кафе', audioUrl: null },
+      { word: 'casa', translation: 'дом', audioUrl: null },
+      { word: 'coche', translation: 'машина', audioUrl: null },
+      { word: 'taxi', translation: 'такси', audioUrl: null },
+      { word: 'autobús', translation: 'автобус', audioUrl: null },
+      { word: 'tren', translation: 'поезд', audioUrl: null },
+      { word: 'avión', translation: 'самолет', audioUrl: null },
+      { word: 'barco', translation: 'корабль', audioUrl: null },
+      { word: 'a pie', translation: 'пешком', audioUrl: null },
+      { word: 'compras', translation: 'покупки', audioUrl: null },
+      { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
+      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+      { word: 'té', translation: 'чай', audioUrl: null }
+    ],
+    readingText: {
+      title: 'Mis planes',
+      content: `Me llamo Carmen. Soy médica de España, de Valencia. Tengo treinta años. Vivo en Madrid con mi hermana. Ella es profesora de italiano.
+
+Hoy es viernes y tengo planes para el fin de semana. Voy a ir de compras al centro. Quiero comprar un libro nuevo y tomar café en mi bar favorito. Voy a ir en autobús porque está lejos de casa.
+
+Mi hermana va a ir al teatro con sus amigos. Van a ver una obra española. Ella va en coche. Después van a ir a un café cerca del teatro.
+
+El sábado voy a tomar el tren a Barcelona. Tengo una amiga allí. Ella es italiana, es periodista. Vamos a ir a la playa y tomar el sol. También vamos a comer en un restaurante bueno. Me gusta mucho Barcelona.
+
+El domingo voy a volver a Madrid. Voy a estar en casa. Quiero leer un libro y escribir mensajes a mi familia en Valencia. Por la tarde voy a ir al cine con mi hermana.
+
+Mi hermana quiere ir de vacaciones a Italia en agosto. Yo quiero ir a Rusia en septiembre. Vamos a ir en avión. Tengo un amigo ruso en Moscú. Él es ingeniero. Él aprende español. Hablamos por teléfono cada semana.
+
+Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cosas que me gustan.`,
+      translation: 'Мои планы\n\nМеня зовут Кармен. Я врач из Испании, из Валенсии. Мне тридцать лет. Я живу в Мадриде с моей сестрой. Она преподаватель итальянского.\n\nСегодня пятница, и у меня есть планы на выходные. Я собираюсь пойти за покупками в центр. Хочу купить новую книгу и выпить кофе в моем любимом баре. Я поеду на автобусе, потому что это далеко от дома.\n\nМоя сестра собирается пойти в театр с друзьями. Они собираются посмотреть испанскую пьесу. Она поедет на машине. Потом они пойдут в кафе рядом с театром.\n\nВ субботу я собираюсь сесть на поезд до Барселоны. У меня там есть подруга. Она итальянка, журналистка. Мы пойдем на пляж и будем загорать. Также мы поедим в хорошем ресторане. Мне очень нравится Барселона.\n\nВ воскресенье я вернусь в Мадрид. Я буду дома. Хочу почитать книгу и написать сообщения моей семье в Валенсии. Днем я пойду в кино с сестрой.\n\nМоя сестра хочет поехать в отпуск в Италию в августе. Я хочу поехать в Россию в сентябре. Мы полетим на самолете. У меня есть друг-россиянин в Москве. Он инженер. Он изучает испанский. Мы говорим по телефону каждую неделю.\n\nВыходные хорошие. Я не хожу в офис. Могу отдохнуть и делать вещи, которые мне нравятся.',
+      audioUrl: '/audio/lesson-2-3-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Me llamo Carmen. Soy médica de España.' },
+        { start: 5, end: 10, text: 'Hoy es viernes y tengo planes para el fin de semana.' },
+        { start: 10, end: 15, text: 'Voy a ir de compras al centro.' },
+        { start: 15, end: 20, text: 'El sábado voy a tomar el tren a Barcelona.' },
+        { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
+      ]
+    },
+    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
+  },
+  'lesson-2-3': {
+    id: 'lesson-2-3',
+    title: 'Урок 3: Правильные глаголы в настоящем времени',
     moduleId: 'module-2',
     grammar: {
       title: 'Правильные глаголы -ER и -IR в настоящем времени',
@@ -1873,151 +2018,6 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
       ]
     },
     exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
-  },
-  'lesson-2-3': {
-    id: 'lesson-2-3',
-    title: 'Урок 3: Глаголы IR, TENER, OÍR',
-    moduleId: 'module-2',
-    grammar: {
-      title: 'Неправильные глаголы IR, TENER, OÍR',
-      content: `
-# Глаголы IR, TENER, OÍR
-
-## Глагол IR (идти, ехать)
-
-| Лицо | Форма | Русский |
-|------|-------|---------|
-| yo | voy | Я иду |
-| tú | vas | Ты идешь |
-| él/ella/usted | va | Он/она идет |
-| nosotros(-as) | vamos | Мы идем |
-| vosotros(-as) | vais | Вы идете |
-| ellos/ellas/ustedes | van | Они идут |
-
-### Глагол IR с предлогами
-
-**Глагол ir с предлогом а обозначает направление движения вперед от говорящего.**
-
-Определенный артикль мужского рода единственного числа el сливается с предлогом а, образуя форму al:
-
-- ir a la oficina — идти в офис, на работу
-- ir al bar — идти в бар
-- ir al teatro — идти в театр
-- ir al café — идти в кафе
-- ir a casa — идти домой
-- ir a Rusia — ехать в Россию
-
-**Глагол ir с предлогом en указывает на способ передвижения:**
-
-- ir en coche — ехать на машине
-- ir en taxi — ехать на такси
-- ir en autobús — ехать на автобусе
-- ir en tren — ехать на поезде
-- ir en avión — лететь на самолете
-- ir en barco — плыть на корабле
-- ir a pie / ir andando — идти пешком
-
-**Глагол ir с предлогом de указывает на цель передвижения:**
-
-- ir de compras — идти за покупками
-- ir de vacaciones — ехать в отпуск, на каникулы
-
-**Например:**
-- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
-- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.
-
-### Конструкция ir + a + инфинитив
-
-Используется для:
-- выражения намерения что-то сделать
-- выражения ближайшего будущего времени
-
-**Например:**
-- Voy a descansar un poco. — Я собираюсь немного отдохнуть.
-- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?
-
-## Глагол TENER (иметь)
-
-| Лицо | Форма | Русский |
-|------|-------|---------|
-| yo | tengo | Я имею |
-| tú | tienes | Ты имеешь |
-| él/ella/usted | tiene | Он/она имеет |
-| nosotros(-as) | tenemos | Мы имеем |
-| vosotros(-as) | tenéis | Вы имеете |
-| ellos/ellas/ustedes | tienen | Они имеют |
-
-**Выражения:** tener hambre, tener sed, tener años, tener razón
-
-## Глагол OÍR (слышать)
-
-| Лицо | Форма | Русский |
-|------|-------|---------|
-| yo | oigo | Я слышу |
-| tú | oyes | Ты слышишь |
-| él/ella/usted | oye | Он/она слышит |
-| nosotros(-as) | oímos | Мы слышим |
-| vosotros(-as) | oís | Вы слышите |
-| ellos/ellas/ustedes | oyen | Они слышат |
-      `,
-      examples: [
-        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
-        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
-        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
-      ]
-    },
-    vocabulary: [
-      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
-      { word: 'hacer', translation: 'делать', audioUrl: null },
-      { word: 'estar', translation: 'быть, находиться', audioUrl: null },
-      { word: 'venir', translation: 'приходить', audioUrl: null },
-      { word: 'tener', translation: 'иметь', audioUrl: null },
-      { word: 'poder', translation: 'мочь', audioUrl: null },
-      { word: 'querer', translation: 'хотеть', audioUrl: null },
-      { word: 'saber', translation: 'знать', audioUrl: null },
-      { word: 'oír', translation: 'слышать', audioUrl: null },
-      { word: 'bar', translation: 'бар', audioUrl: null },
-      { word: 'teatro', translation: 'театр', audioUrl: null },
-      { word: 'café', translation: 'кафе', audioUrl: null },
-      { word: 'casa', translation: 'дом', audioUrl: null },
-      { word: 'coche', translation: 'машина', audioUrl: null },
-      { word: 'taxi', translation: 'такси', audioUrl: null },
-      { word: 'autobús', translation: 'автобус', audioUrl: null },
-      { word: 'tren', translation: 'поезд', audioUrl: null },
-      { word: 'avión', translation: 'самолет', audioUrl: null },
-      { word: 'barco', translation: 'корабль', audioUrl: null },
-      { word: 'a pie', translation: 'пешком', audioUrl: null },
-      { word: 'compras', translation: 'покупки', audioUrl: null },
-      { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
-      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-      { word: 'té', translation: 'чай', audioUrl: null }
-    ],
-    readingText: {
-      title: 'Mis planes',
-      content: `Me llamo Carmen. Soy médica de España, de Valencia. Tengo treinta años. Vivo en Madrid con mi hermana. Ella es profesora de italiano.
-
-Hoy es viernes y tengo planes para el fin de semana. Voy a ir de compras al centro. Quiero comprar un libro nuevo y tomar café en mi bar favorito. Voy a ir en autobús porque está lejos de casa.
-
-Mi hermana va a ir al teatro con sus amigos. Van a ver una obra española. Ella va en coche. Después van a ir a un café cerca del teatro.
-
-El sábado voy a tomar el tren a Barcelona. Tengo una amiga allí. Ella es italiana, es periodista. Vamos a ir a la playa y tomar el sol. También vamos a comer en un restaurante bueno. Me gusta mucho Barcelona.
-
-El domingo voy a volver a Madrid. Voy a estar en casa. Quiero leer un libro y escribir mensajes a mi familia en Valencia. Por la tarde voy a ir al cine con mi hermana.
-
-Mi hermana quiere ir de vacaciones a Italia en agosto. Yo quiero ir a Rusia en septiembre. Vamos a ir en avión. Tengo un amigo ruso en Moscú. Él es ingeniero. Él aprende español. Hablamos por teléfono cada semana.
-
-Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cosas que me gustan.`,
-      translation: 'Мои планы\n\nМеня зовут Кармен. Я врач из Испании, из Валенсии. Мне тридцать лет. Я живу в Мадриде с моей сестрой. Она преподаватель итальянского.\n\nСегодня пятница, и у меня есть планы на выходные. Я собираюсь пойти за покупками в центр. Хочу купить новую книгу и выпить кофе в моем любимом баре. Я поеду на автобусе, потому что это далеко от дома.\n\nМоя сестра собирается пойти в театр с друзьями. Они собираются посмотреть испанскую пьесу. Она поедет на машине. Потом они пойдут в кафе рядом с театром.\n\nВ субботу я собираюсь сесть на поезд до Барселоны. У меня там есть подруга. Она итальянка, журналистка. Мы пойдем на пляж и будем загорать. Также мы поедим в хорошем ресторане. Мне очень нравится Барселона.\n\nВ воскресенье я вернусь в Мадрид. Я буду дома. Хочу почитать книгу и написать сообщения моей семье в Валенсии. Днем я пойду в кино с сестрой.\n\nМоя сестра хочет поехать в отпуск в Италию в августе. Я хочу поехать в Россию в сентябре. Мы полетим на самолете. У меня есть друг-россиянин в Москве. Он инженер. Он изучает испанский. Мы говорим по телефону каждую неделю.\n\nВыходные хорошие. Я не хожу в офис. Могу отдохнуть и делать вещи, которые мне нравятся.',
-      audioUrl: '/audio/lesson-2-3-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Carmen. Soy médica de España.' },
-        { start: 5, end: 10, text: 'Hoy es viernes y tengo planes para el fin de semana.' },
-        { start: 10, end: 15, text: 'Voy a ir de compras al centro.' },
-        { start: 15, end: 20, text: 'El sábado voy a tomar el tren a Barcelona.' },
-        { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
-      ]
-    },
-    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
