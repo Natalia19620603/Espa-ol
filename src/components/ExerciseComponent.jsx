@@ -159,6 +159,17 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     }
   }
 
+  const handlePreviousQuestion = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1)
+      // Remove the last answer from the answers array
+      setAnswers(answers.slice(0, -1))
+      // Reset any feedback states
+      setShowCorrectAnswer(false)
+      setUserAnswer(null)
+    }
+  }
+
   if (showResult) {
     const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     const percentage = Math.round((score / totalQuestions) * 100)
@@ -460,14 +471,28 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         </div>
 
         {exercise.type !== 'external' && (
-          <div className={styles.progressBar}>
-            <div
-              className={styles.progressFill}
-              style={{
-                width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
-              }}
-            />
-          </div>
+          <>
+            <div className={styles.questionNavigation}>
+              <button
+                onClick={handlePreviousQuestion}
+                className={styles.prevQuestionBtn}
+                disabled={currentQuestion === 0}
+              >
+                ← НАЗАД
+              </button>
+              <div className={styles.questionCounter}>
+                Вопрос {currentQuestion + 1} из {totalQuestions}
+              </div>
+            </div>
+            <div className={styles.progressBar}>
+              <div
+                className={styles.progressFill}
+                style={{
+                  width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
+                }}
+              />
+            </div>
+          </>
         )}
       </div>
     </div>
