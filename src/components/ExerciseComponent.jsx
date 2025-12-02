@@ -416,6 +416,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
               exerciseId={exercise.id}
+              currentQuestionIndex={currentQuestion}
             />
           )}
         </div>
@@ -1328,7 +1329,7 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
   )
 }
 
-function TranslationQuestion({ question, onAnswer, exerciseId }) {
+function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIndex = 0 }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
 
@@ -1349,8 +1350,19 @@ function TranslationQuestion({ question, onAnswer, exerciseId }) {
     }
   }
 
-  // Определяем текст для заголовка в зависимости от ID упражнения
-  const questionPrefix = exerciseId === 'ex-1-4-test' ? 'ЗАМЕНИ' : 'Переведите'
+  // Определяем текст для заголовка в зависимости от ID упражнения и номера вопроса
+  let questionPrefix = 'Переведите'
+
+  if (exerciseId === 'ex-1-4-test') {
+    // Упражнение TEST с тремя частями
+    if (currentQuestionIndex < 15) {
+      questionPrefix = 'Часть 1: Измените род и/или число'
+    } else if (currentQuestionIndex < 30) {
+      questionPrefix = 'Часть 2: SER или ESTAR'
+    } else {
+      questionPrefix = 'Часть 3: Перевод'
+    }
+  }
 
   return (
     <div className={styles.question}>
