@@ -1104,6 +1104,11 @@ function ContextQuestion({ question, onAnswer }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Выберите слово, подходящее по контексту:</h3>
+      {question.context && (
+        <div className={styles.contextBadge}>
+          {question.context}
+        </div>
+      )}
       <p className={styles.contextSentence}>{question.sentence}</p>
       <div className={styles.options}>
         {question.options.map((option, index) => (
