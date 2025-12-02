@@ -95,14 +95,17 @@ export const lessons = {
     moduleId: 'module-1',
     grammar: {
       title: 'Алфавит и правила чтения',
-      content: `
-# Испанский алфавит (El alfabeto español)
+      intro: `# Испанский алфавит (El alfabeto español)
 
 Испанский алфавит состоит из 27 букв:
 
-**A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z**
-
-## § 1. Гласные звуки
+**A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z**`,
+      sections: [
+        {
+          id: 'vowels',
+          title: '1. Гласные звуки',
+          content: `
+## 1. Гласные звуки
 
 В испанском языке 5 гласных звуков: **a, e, i, o, u**
 
@@ -130,8 +133,13 @@ export const lessons = {
 - fumo [фумо]
 - luna [луна]
 - puma [пума]
-
-## § 2. Согласные звуки
+`
+        },
+        {
+          id: 'consonants',
+          title: '2. Согласные звуки',
+          content: `
+## 2. Согласные звуки
 
 ### B, b / V, v
 - [б] — произносится как русский звук б в начале слова и после согласных m, n
@@ -333,8 +341,13 @@ export const lessons = {
 Примеры:
 - zapato [θапато]
 - lápiz [лапиθ]
-
-## § 3. Дифтонги и трифтонги
+`
+        },
+        {
+          id: 'diphthongs',
+          title: '3. Дифтонги и трифтонги',
+          content: `
+## 3. Дифтонги и трифтонги
 
 Гласные **a, o, e** — сильные, гласные **i, u** — слабые.
 
@@ -366,8 +379,13 @@ export const lessons = {
 ### Примеры для отработки:
 
 aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado, guapo, edificio, Europa, puente, hierba, llueve, triunfo, trauma, causa, neutral, limpiáis, limpiéis, Uruguay, continuáis, paraguayo, estudiáis, estudiéis
-
-## § 4. Слогоделение
+`
+        },
+        {
+          id: 'syllables',
+          title: '4. Слогоделение',
+          content: `
+## 4. Слогоделение
 
 Правила деления на слоги:
 
@@ -391,13 +409,20 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 7. **Не разделяются:** que, qui, gue, gui, rr, ll, ch, а также дифтонги:
    - perro [пэ-рро], muchacha [му-ча-ча], pequeño [пэ-кэ-ньо], guerra [гэ-рра]
-
-## Правила ударения
+`
+        },
+        {
+          id: 'stress',
+          title: '5. Правила ударения',
+          content: `
+## 5. Правила ударения
 
 1. Слова на гласную, -n, -s: ударение на предпоследний слог (casa, hablan)
 2. Остальные слова: ударение на последний слог (hablar, ciudad)
 3. Акцент указывает исключения: música, café
-      `
+`
+        }
+      ]
     },
     vocabulary: [
       { word: 'hola', translation: 'привет', audioUrl: null },
@@ -7453,21 +7478,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Приветствия в контексте',
     description: 'Выберите подходящее приветствие или фразу для каждой ситуации. Обратите внимание на время суток и контекст общения.',
     questions: [
-      { sentence: 'Son las 10 de la mañana. Digo: ___', options: ['buenas noches', 'buenos días', 'buenas tardes', 'adiós'], correct: 1 },
-      { sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 },
-      { sentence: 'Mi amigo pregunta "¿Cómo estás?". No estoy muy bien. Digo: ___', options: ['Todo va bien', 'Regular', 'Bien, gracias', 'Buenos días'], correct: 1 },
-      { sentence: 'Pregunto por la familia de mi amigo: ___', options: ['¿Qué tal la familia?', '¿Qué tal?', 'Muchas gracias', 'De nada'], correct: 0 },
-      { sentence: 'Alguien me ayuda mucho. Digo: ___', options: ['Gracias', 'Muchas gracias', 'Por favor', 'Adiós'], correct: 1 },
-      { sentence: 'Son las 3 de la tarde. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hasta luego'], correct: 1 },
-      { sentence: 'Son las 10 de la noche. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hola'], correct: 2 },
-      { sentence: 'Veo a mi amigo en la calle. Digo: ___', options: ['adiós', 'hola', 'gracias', 'perdón'], correct: 1 },
-      { sentence: 'Me voy de la oficina. Digo a mis compañeros: ___', options: ['hola', 'buenos días', 'hasta luego', 'por favor'], correct: 2 },
-      { sentence: 'Alguien me dice "Gracias". Yo respondo: ___', options: ['gracias', 'de nada', 'hola', 'adiós'], correct: 1 },
-      { sentence: 'Necesito ayuda. Digo: ___', options: ['gracias', 'adiós', 'por favor', 'buenos días'], correct: 2 },
-      { sentence: 'Piso el pie de alguien sin querer. Digo: ___', options: ['hola', 'perdón', 'gracias', 'adiós'], correct: 1 },
-      { sentence: 'Mi amigo pregunta "¿Qué tal?". Estoy muy bien. Digo: ___', options: ['regular', 'mal', 'todo va bien', 'adiós'], correct: 2 },
-      { sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hasta mañana', 'buenos días', 'hola'], correct: 1 },
-      { sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'así así', 'mal', 'adiós'], correct: 1 }
+      { context: '🌅 Утро', sentence: 'Son las 10 de la mañana. Digo: ___', options: ['buenas noches', 'buenos días', 'buenas tardes', 'adiós'], correct: 1 },
+      { context: '🤝 Помощь', sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 },
+      { context: '😐 Так себе', sentence: 'Mi amigo pregunta "¿Cómo estás?". No estoy muy bien. Digo: ___', options: ['Todo va bien', 'Regular', 'Bien, gracias', 'Buenos días'], correct: 1 },
+      { context: '👨‍👩‍👧‍👦 Семья', sentence: 'Pregunto por la familia de mi amigo: ___', options: ['¿Qué tal la familia?', '¿Qué tal?', 'Muchas gracias', 'De nada'], correct: 0 },
+      { context: '🙏 Большая благодарность', sentence: 'Alguien me ayuda mucho. Digo: ___', options: ['Gracias', 'Muchas gracias', 'Por favor', 'Adiós'], correct: 1 },
+      { context: '🌤️ День', sentence: 'Son las 3 de la tarde. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hasta luego'], correct: 1 },
+      { context: '🌙 Вечер', sentence: 'Son las 10 de la noche. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hola'], correct: 2 },
+      { context: '👋 Встреча на улице', sentence: 'Veo a mi amigo en la calle. Digo: ___', options: ['adiós', 'hola', 'gracias', 'perdón'], correct: 1 },
+      { context: '🏢 Офис - уход', sentence: 'Me voy de la oficina. Digo a mis compañeros: ___', options: ['hola', 'buenos días', 'hasta luego', 'por favor'], correct: 2 },
+      { context: '😊 Ответ на благодарность', sentence: 'Alguien me dice "Gracias". Yo respondo: ___', options: ['gracias', 'de nada', 'hola', 'adiós'], correct: 1 },
+      { context: '🆘 Просьба о помощи', sentence: 'Necesito ayuda. Digo: ___', options: ['gracias', 'adiós', 'por favor', 'buenos días'], correct: 2 },
+      { context: '😬 Извинение', sentence: 'Piso el pie de alguien sin querer. Digo: ___', options: ['hola', 'perdón', 'gracias', 'adiós'], correct: 1 },
+      { context: '😄 Отличное настроение', sentence: 'Mi amigo pregunta "¿Qué tal?". Estoy muy bien. Digo: ___', options: ['regular', 'mal', 'todo va bien', 'adiós'], correct: 2 },
+      { context: '📅 Увидимся завтра', sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hasta mañana', 'buenos días', 'hola'], correct: 1 },
+      { context: '🙂 Нормально', sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'así así', 'mal', 'adiós'], correct: 1 }
     ]
   },
 

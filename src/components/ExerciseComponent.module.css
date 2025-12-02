@@ -82,6 +82,27 @@
   margin-bottom: 2rem;
 }
 
+.contextBadge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 auto 1.5rem;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.contextSentence {
+  color: #555;
+  font-size: 1.15rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
 .hint {
   color: #888;
   font-size: 1rem;
