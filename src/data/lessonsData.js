@@ -487,7 +487,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq', 'ex-1-1-16-learningapp']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -7873,6 +7873,85 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { word: 'carretera', pronunciation: '[каррэтэра]', audioUrl: '/audio/consonantes%20(A1U0Cl1).mp3' },
       { word: 'carroza', pronunciation: '[карроса]', audioUrl: '/audio/consonantes%20(A1U0Cl1).mp3' }
     ]
+  },
+
+  'ex-1-1-14-special-consonants': {
+    id: 'ex-1-1-14-special-consonants',
+    type: 'pronunciation',
+    title: 'Необычные испанские согласные: H, Ñ, LL, CH',
+    description: 'Прослушайте и повторите. Обратите внимание на особенности произношения этих согласных',
+    words: [
+      { word: 'H', pronunciation: 'Буква H в испанском языке НЕ ПРОИЗНОСИТСЯ (немая).', audioUrl: null },
+      { word: 'hola', pronunciation: '[о́ла]', audioUrl: null },
+      { word: 'hora', pronunciation: '[о́ра]', audioUrl: null },
+      { word: 'hotel', pronunciation: '[отэ́ль]', audioUrl: null },
+      { word: 'hombre', pronunciation: '[о́мбрэ]', audioUrl: null },
+      { word: 'hasta', pronunciation: '[а́ста]', audioUrl: null },
+      { word: 'ahora', pronunciation: '[ао́ра]', audioUrl: null },
+      { word: 'Ñ', pronunciation: '[ɲ] - произносится как мягкое НЬ (похоже на русское "нь" в слове "конь").', audioUrl: null },
+      { word: 'niño', pronunciation: '[ни́ньо]', audioUrl: null },
+      { word: 'año', pronunciation: '[а́ньо]', audioUrl: null },
+      { word: 'español', pronunciation: '[эспаньо́ль]', audioUrl: null },
+      { word: 'señor', pronunciation: '[сэньо́р]', audioUrl: null },
+      { word: 'mañana', pronunciation: '[манья́на]', audioUrl: null },
+      { word: 'pequeño', pronunciation: '[пэкэ́ньо]', audioUrl: null },
+      { word: 'LL', pronunciation: '[ʎ] / [j] - произносится как мягкое ЛЬ или Й (в зависимости от региона).', audioUrl: null },
+      { word: 'llamo', pronunciation: '[льа́мо] / [йа́мо]', audioUrl: null },
+      { word: 'calle', pronunciation: '[ка́лье] / [ка́йе]', audioUrl: null },
+      { word: 'llamar', pronunciation: '[льама́р] / [йама́р]', audioUrl: null },
+      { word: 'llorar', pronunciation: '[льора́р] / [йора́р]', audioUrl: null },
+      { word: 'pollo', pronunciation: '[по́льо] / [по́йо]', audioUrl: null },
+      { word: 'amarillo', pronunciation: '[амари́льо] / [амари́йо]', audioUrl: null },
+      { word: 'CH', pronunciation: '[ʧ] - произносится как русское Ч.', audioUrl: null },
+      { word: 'chocolate', pronunciation: '[чоколя́тэ]', audioUrl: null },
+      { word: 'mucho', pronunciation: '[му́чо]', audioUrl: null },
+      { word: 'noche', pronunciation: '[но́че]', audioUrl: null },
+      { word: 'chico', pronunciation: '[чи́ко]', audioUrl: null },
+      { word: 'ocho', pronunciation: '[о́чо]', audioUrl: null },
+      { word: 'leche', pronunciation: '[ле́че]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-15-ckq': {
+    id: 'ex-1-1-15-ckq',
+    type: 'pronunciation',
+    title: 'Согласные C, K, Q',
+    description: 'Прослушайте и повторите. Изучите правила произношения C, K и Q в разных позициях',
+    words: [
+      { word: 'C перед A, O, U', pronunciation: '[k] - произносится как русское К.', audioUrl: null },
+      { word: 'casa', pronunciation: '[ка́са]', audioUrl: null },
+      { word: 'como', pronunciation: '[ко́мо]', audioUrl: null },
+      { word: 'Cuba', pronunciation: '[ку́ба]', audioUrl: null },
+      { word: 'café', pronunciation: '[кафэ́]', audioUrl: null },
+      { word: 'cosa', pronunciation: '[ко́са]', audioUrl: null },
+      { word: 'C перед E, I', pronunciation: '[θ] / [s] - произносится как межзубное С (в Испании) или обычное С (в Латинской Америке).', audioUrl: null },
+      { word: 'centro', pronunciation: '[θэ́нтро] / [сэ́нтро]', audioUrl: null },
+      { word: 'cine', pronunciation: '[θи́нэ] / [си́нэ]', audioUrl: null },
+      { word: 'ciudad', pronunciation: '[θьюда́ð] / [сьюда́ð]', audioUrl: null },
+      { word: 'precio', pronunciation: '[прэ́θьо] / [прэ́сьо]', audioUrl: null },
+      { word: 'gracías', pronunciation: '[гра́θьас] / [гра́сьас]', audioUrl: null },
+      { word: 'K', pronunciation: '[k] - всегда произносится как русское К (встречается редко, в основном в иностранных словах).', audioUrl: null },
+      { word: 'kilo', pronunciation: '[ки́ло]', audioUrl: null },
+      { word: 'kilómetro', pronunciation: '[кило́мэтро]', audioUrl: null },
+      { word: 'karate', pronunciation: '[кара́тэ]', audioUrl: null },
+      { word: 'kiosco', pronunciation: '[кьо́ско]', audioUrl: null },
+      { word: 'Q (+ ue, ui)', pronunciation: '[k] - всегда идет с буквой U (que, qui), буква U не читается, произносится как К.', audioUrl: null },
+      { word: 'que', pronunciation: '[кэ]', audioUrl: null },
+      { word: 'quiero', pronunciation: '[кьэ́ро]', audioUrl: null },
+      { word: 'quince', pronunciation: '[ки́нθэ] / [ки́нсэ]', audioUrl: null },
+      { word: 'pequeño', pronunciation: '[пэкэ́ньо]', audioUrl: null },
+      { word: 'queso', pronunciation: '[кэ́со]', audioUrl: null },
+      { word: 'quien', pronunciation: '[кьэн]', audioUrl: null }
+    ]
+  },
+
+  'ex-1-1-16-learningapp': {
+    id: 'ex-1-1-16-learningapp',
+    type: 'external',
+    title: 'Интерактивное упражнение: Произношение',
+    description: 'Попробуйте интерактивное упражнение на платформе LearningApps для отработки произношения испанских звуков',
+    url: 'https://learningapps.org/watch?v=powc9s2n324',
+    embedUrl: 'https://learningapps.org/watch?v=powc9s2n324'
   },
 
   'ex-2-1-6-conj': {

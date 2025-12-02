@@ -451,16 +451,25 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               currentQuestionIndex={currentQuestion}
             />
           )}
+          {exercise.type === 'external' && (
+            <ExternalExercise
+              url={exercise.embedUrl || exercise.url}
+              title={exercise.title}
+              onComplete={onComplete}
+            />
+          )}
         </div>
 
-        <div className={styles.progressBar}>
-          <div
-            className={styles.progressFill}
-            style={{
-              width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
-            }}
-          />
-        </div>
+        {exercise.type !== 'external' && (
+          <div className={styles.progressBar}>
+            <div
+              className={styles.progressFill}
+              style={{
+                width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
+              }}
+            />
+          </div>
+        )}
       </div>
     </div>
   )
@@ -1102,6 +1111,39 @@ function DefinitionsQuestion({ question, onAnswer }) {
 }
 
 function ContextQuestion({ question, onAnswer }) {
+  const [selectedAnswer, setSelectedAnswer] = useState(null)
+  const [showFeedback, setShowFeedback] = useState(false)
+
+  const handleAnswerClick = (index) => {
+    setSelectedAnswer(index)
+    setShowFeedback(true)
+
+    // Автоматически переходим к следующему вопросу через 1.5 секунды
+    setTimeout(() => {
+      setShowFeedback(false)
+      setSelectedAnswer(null)
+      onAnswer(index)
+    }, 1500)
+  }
+
+  const getButtonClass = (index) => {
+    if (!showFeedback) {
+      return styles.optionBtn
+    }
+
+    // Показываем правильный ответ зеленым
+    if (index === question.correct) {
+      return `${styles.optionBtn} ${styles.correctAnswer}`
+    }
+
+    // Показываем выбранный неправильный ответ красным
+    if (index === selectedAnswer && index !== question.correct) {
+      return `${styles.optionBtn} ${styles.wrongAnswer}`
+    }
+
+    return styles.optionBtn
+  }
+
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Выберите слово, подходящее по контексту:</h3>
@@ -1115,8 +1157,9 @@ function ContextQuestion({ question, onAnswer }) {
         {question.options.map((option, index) => (
           <button
             key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
+            onClick={() => !showFeedback && handleAnswerClick(index)}
+            className={getButtonClass(index)}
+            disabled={showFeedback}
           >
             {option}
           </button>
@@ -1478,6 +1521,29 @@ function AudioPronunciationQuestion({ word, onAnswer }) {
       <div className={styles.nextBtnContainer}>
         <button onClick={() => onAnswer(0)} className={styles.nextBtn}>
           Далее →
+        </button>
+      </div>
+    </div>
+  )
+}
+
+function ExternalExercise({ url, title, onComplete }) {
+  return (
+    <div className={styles.externalExercise}>
+      <div className={styles.externalDescription}>
+        <p>Интерактивное упражнение открывается во внешнем окне. После выполнения нажмите кнопку "Завершить".</p>
+      </div>
+      <div className={styles.iframeContainer}>
+        <iframe
+          src={url}
+          className={styles.externalIframe}
+          title={title}
+          allowFullScreen
+        />
+      </div>
+      <div className={styles.externalActions}>
+        <button onClick={() => onComplete()} className={styles.completeBtn}>
+          Завершить упражнение
         </button>
       </div>
     </div>
