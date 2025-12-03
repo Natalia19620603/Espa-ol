@@ -487,7 +487,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq', 'ex-1-1-16-learningapp', 'ex-1-1-17-learningapp-2', 'ex-1-1-18-learningapp-3', 'ex-1-1-19-learningapp-4']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -1237,11 +1237,12 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
     moduleId: 'module-1',
     grammar: {
       title: 'Профессии, страны и национальности',
-      content: `
-В этом уроке мы изучаем, как говорить о профессиях, странах и национальностях на испанском языке. Все новые слова вы найдете в разделе "Словарь".
-
-## Род и число профессий
-
+      intro: 'В этом уроке мы изучаем, как говорить о профессиях, странах и национальностях на испанском языке. Все новые слова вы найдете в разделе "Словарь".',
+      sections: [
+        {
+          id: 'professions-gender',
+          title: 'Род и число профессий',
+          content: `
 **Профессии мужского рода обычно оканчиваются на -o:**
 - médico (врач-мужчина) → médica (врач-женщина)
 - abogado (адвокат-мужчина) → abogada (адвокат-женщина)
@@ -1256,9 +1257,12 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
 - actor (актер) → actriz (актриса)
 - escritor (писатель) → escritora (писательница)
 - profesor (преподаватель) → profesora (преподавательница)
-
-## Национальности: род и согласование
-
+          `
+        },
+        {
+          id: 'nationalities-gender',
+          title: 'Национальности: род и согласование',
+          content: `
 **Национальности на -o/-a:**
 - ruso (русский) → rusa (русская)
 - italiano (итальянец) → italiana (итальянка)
@@ -1266,7 +1270,7 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
 **Национальности на согласную добавляют -a для женского рода:**
 - español (испанец) → española (испанка)
 - francés (француз) → francesa (француженка)
-- alemán (немец) → alemana (немка)
+- alemán (немец) → alemана (немка)
 
 **Национальности на -e или -í не изменяются:**
 - belga (бельгиец/бельгийка)
@@ -1276,9 +1280,12 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
 - españoles (испанцы), españolas (испанки)
 - franceses (французы), francesas (француженки)
 - alemanes (немцы), alemanas (немки)
-
-## Использование с глаголами SER и ESTAR
-
+          `
+        },
+        {
+          id: 'ser-estar-usage',
+          title: 'Использование с глаголами SER и ESTAR',
+          content: `
 **Глагол SER используется для:**
 - Профессий: Yo soy médico. (Я врач.)
 - Национальностей: Ella es española. (Она испанка.)
@@ -1287,7 +1294,9 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
 **Глагол ESTAR используется для:**
 - Местонахождения: Estoy en Madrid. (Я в Мадриде.)
 - Временного состояния: El médico está ocupado. (Врач занят.)
-      `
+          `
+        }
+      ]
     },
     vocabulary: [
       { word: 'abogado, -a', translation: 'адвокат', audioUrl: null },
@@ -5412,7 +5421,7 @@ Pedro: Igualmente. Muchas gracias.
     id: 'ex-1-3-3',
     type: 'translation',
     title: 'Перевод предложений на испанский язык',
-    description: 'Переведите предложения на испанский, используя глаголы SER или ESTAR',
+    description: 'Переведите предложения на испанский, используя глаголы SER или ESTAR. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
       { russian: 'Ты стройная, красивая и молодая.', correct: 'Tú eres delgada, guapa y joven.' },
       { russian: 'Мы — русские, из Москвы.', correct: 'Nosotros somos rusos, de Moscú.' },
@@ -5531,7 +5540,7 @@ Pedro: Igualmente. Muchas gracias.
     id: 'ex-1-2-10',
     type: 'translation',
     title: 'Переведите на испанский язык словосочетания',
-    description: 'Переведите словосочетания на испанский язык, используя определенные артикли',
+    description: 'Переведите словосочетания на испанский язык, используя определенные артикли. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) считается ошибкой!',
     questions: [
       { russian: 'большой дом', correct: 'la casa grande' },
       { russian: 'красивая книга', correct: 'el libro bonito' },
@@ -5685,7 +5694,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-1-4-6',
     type: 'translation',
     title: 'Перевод с профессиями',
-    description: 'Переведите предложения на испанский',
+    description: 'Переведите предложения на испанский. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
       { russian: 'Я врач.', correct: 'Yo soy médico.' },
       { russian: 'Она учитель.', correct: 'Ella es profesora.' },
@@ -5713,7 +5722,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-1-4-test',
     type: 'translation',
     title: 'TEST - Обобщение',
-    description: 'Часть 1: Измените род и/или число. Часть 2: SER или ESTAR. Часть 3: Перевод',
+    description: 'Часть 1: Измените род и/или число. Часть 2: SER или ESTAR. Часть 3: Перевод. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
       { russian: 'un amigo enfermo (Мн.ч.)', correct: 'unos amigos enfermos' },
       { russian: 'el libro antiguo (Мн.ч.)', correct: 'los libros antiguos' },
@@ -7968,42 +7977,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { word: 'queso', pronunciation: '[кэ́со]', audioUrl: '/audio/c, q, k.mp3' },
       { word: 'quien', pronunciation: '[кьэн]', audioUrl: '/audio/c, q, k.mp3' }
     ]
-  },
-
-  'ex-1-1-16-learningapp': {
-    id: 'ex-1-1-16-learningapp',
-    type: 'external',
-    title: 'Интерактивное упражнение: Произношение',
-    description: 'Попробуйте интерактивное упражнение на платформе LearningApps для отработки произношения испанских звуков',
-    url: 'https://learningapps.org/watch?v=powc9s2n324',
-    embedUrl: 'https://learningapps.org/watch?v=powc9s2n324'
-  },
-
-  'ex-1-1-17-learningapp-2': {
-    id: 'ex-1-1-17-learningapp-2',
-    type: 'external',
-    title: 'Интерактивное упражнение: Алфавит и звуки',
-    description: 'Практикуйте испанский алфавит и произношение звуков',
-    url: 'https://learningapps.org/watch?v=p0qxu5dkk24',
-    embedUrl: 'https://learningapps.org/watch?v=p0qxu5dkk24'
-  },
-
-  'ex-1-1-18-learningapp-3': {
-    id: 'ex-1-1-18-learningapp-3',
-    type: 'external',
-    title: 'Интерактивное упражнение: Приветствия',
-    description: 'Отработайте приветствия и базовые фразы в интерактивном формате',
-    url: 'https://learningapps.org/watch?v=pjxnqw5nc24',
-    embedUrl: 'https://learningapps.org/watch?v=pjxnqw5nc24'
-  },
-
-  'ex-1-1-19-learningapp-4': {
-    id: 'ex-1-1-19-learningapp-4',
-    type: 'external',
-    title: 'Интерактивное упражнение: Произношение гласных',
-    description: 'Практикуйте произношение испанских гласных звуков',
-    url: 'https://learningapps.org/watch?v=pid5cxb0n24',
-    embedUrl: 'https://learningapps.org/watch?v=pid5cxb0n24'
   },
 
   'ex-2-1-6-conj': {
