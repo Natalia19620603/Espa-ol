@@ -514,7 +514,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-aei', 'ex-1-1-8-pron-vowels', 'ex-1-1-9-pron-bvd', 'ex-1-1-10-pron-scr', 'ex-1-1-11-pron-gjk', 'ex-1-1-12-tongue', 'ex-1-1-13-pron-typical', 'ex-1-1-14-pron-yllch', 'ex-1-1-15-pron-ekg', 'ex-1-1-16-intonation']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -7521,6 +7521,229 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hasta mañana', 'buenos días', 'hola'], correct: 1 },
       { sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'así así', 'mal', 'adiós'], correct: 1 }
     ]
+  },
+
+  // Упражнения на произношение для урока 1.1
+
+  'ex-1-1-7-pron-aei': {
+    id: 'ex-1-1-7-pron-aei',
+    type: 'reading',
+    title: 'Произношение § 1.1 п. a, e, i',
+    description: 'Прочитайте слова и обратите внимание на произношение гласных a, e, i',
+    audioUrl: '/audio/lesson-1-1-pron-aei.mp3',
+    text: `
+В начале слова: pa, pe, pi, po, pu, Pepe, Pepa, Paco, popa, pipa, Papa, papá, poma, puma, poema, pena, pino, pano, pune.
+
+В середине слова: Apa, api, capa, copa, cipo, mapa, tapa, sopa, tipo, pipe.
+
+Слова для практики:
+papá, mama, Ana, Anita, Nina, Pepe, Pepita, Timoteo, apetito, patata, tomo, tema, tipo, moto, foto, fama, mono, mano, mina, mapa, malo, puma, ama, pampa, pino, fumo, fino, Felipe, teléfono, Lina, Elena, Lima
+    `,
+    questions: []
+  },
+
+  'ex-1-1-8-pron-vowels': {
+    id: 'ex-1-1-8-pron-vowels',
+    type: 'reading',
+    title: 'Произношение § a, e, i, o, u, ll',
+    description: 'Прочитайте слова. Обратите внимание на произношение гласных и сочетания ll',
+    audioUrl: '/audio/lesson-1-1-pron-vowels.mp3',
+    text: `
+Гласные a, e, i, o, u:
+papa, mapa, malo, puma, cafe, nene, mete, tipo, mina, mil, mono, tomo, foto, fumo, luna
+
+Сочетание ll:
+Lola, Lolita, luna, alumno, plomo, pluma, pleno, mal, tal, mil, papel, final, alma, pulpo, alto, alpino, alfana
+
+Слова со всеми гласными и ll:
+lloro, gallina, llanto, billete, detalle, millón, batalla, botella, paella, tortilla
+    `,
+    questions: []
+  },
+
+  'ex-1-1-9-pron-bvd': {
+    id: 'ex-1-1-9-pron-bvd',
+    type: 'reading',
+    title: 'Произношение § b, v, d',
+    description: 'Прочитайте слова с буквами b, v, d. Обратите внимание: b и v произносятся одинаково!',
+    audioUrl: '/audio/lesson-1-1-pron-bvd.mp3',
+    text: `
+b, v (произносятся одинаково):
+bomba, vela, hombre, vino, invito, Barcelona, Valencia, nube, sabor, lavar, labor, cava, Cuba, La Habana
+
+d (в начале - [д], между гласными - межзубный):
+dama, documento, defecto, donde, andando, aldea, Aldo, padre, moneda, soldado, facultad, universidad, Madrid, edad
+    `,
+    questions: []
+  },
+
+  'ex-1-1-10-pron-scr': {
+    id: 'ex-1-1-10-pron-scr',
+    type: 'reading',
+    title: 'Произношение § s, c, r',
+    description: 'Прочитайте слова. Обратите внимание на произношение s, c (перед e, i), z и раскатистое r',
+    audioUrl: '/audio/lesson-1-1-pron-scr.mp3',
+    text: `
+s, c, z, h, ch:
+asunto, peseta, museo, estilo, poesía, Alfonso, Susana, asno, mismo, turismo, cena, cine, zapato, zona, azul, plaza, paz, lápiz, ceniza, Azucena, ascensor, suceso, dieciséis, necesito, francesa, fascismo, escena, cereza, Asunción
+
+h (не произносится):
+hola, ahora, historia, heroísmo, hospital, hablar, himno, humor, prohibir, deshecho
+
+ch:
+poncho, muchacho, mucho, techo, machete, Chile, lucha, plancha, mochila, chimenea
+
+ñ, y, r, rr:
+señor, español, señorita, doña, niño, madrileño, brasileño
+yate, mayo, playa, desayuno, proyecto, leyenda, yodo
+teatro, ópera, tractor, árabe, director, torero, actriz, ramo, rosa, zorro, corrida, párrafo, reportero, Rafael
+    `,
+    questions: []
+  },
+
+  'ex-1-1-11-pron-gjk': {
+    id: 'ex-1-1-11-pron-gjk',
+    type: 'reading',
+    title: 'Произношение § g, j, k, *',
+    description: 'Прочитайте слова с буквами g, j, q, k, x. Обратите внимание на сочетания gue, gui, güe, güi',
+    audioUrl: '/audio/lesson-1-1-pron-gjk.mp3',
+    text: `
+g, j, q, k, x:
+goma, ganso, gusano, emigrante, hidalgo, Miguel, malagueño, guillotina, pingüino, cigüeña
+
+genial, álgebra, original, jefe, gitano, Jorge, garaje, ingeniero, gigante, reloj
+
+quinto, cuatro, quince, poco, pequeño, ecologista, queso, equipaje, quiero, queja
+
+taxi, examen, texto, extra, experimento, exótico, excelente, éxito, oxígeno, México
+    `,
+    questions: []
+  },
+
+  'ex-1-1-12-tongue': {
+    id: 'ex-1-1-12-tongue',
+    type: 'reading',
+    title: 'Скороговорки',
+    description: 'Прочитайте скороговорки для отработки произношения',
+    audioUrl: '/audio/lesson-1-1-tongue.mp3',
+    text: `
+1. Tú tío Timoteo toma té.
+[Ту тио тимотэо тома тэ]
+
+2. La sopa sin sal está sosa.
+[Ла сопа син саль эста соса]
+
+3. Los sucesos se suceden sin cesar.
+[Лос суθэсос сэ суθэдэн син θэсар]
+
+4. César y Susana necesitan cinco lápices azules.
+[θэсар и сусана нэθэситан θинко лапиθэс аθулэс]
+    `,
+    questions: []
+  },
+
+  'ex-1-1-13-pron-typical': {
+    id: 'ex-1-1-13-pron-typical',
+    type: 'reading',
+    title: 'Произношение типовых сочетаний',
+    description: 'Прочитайте слова. Обратите внимание на дифтонги и типичные сочетания букв',
+    audioUrl: '/audio/lesson-1-1-pron-typical.mp3',
+    text: `
+Дифтонги и типичные сочетания:
+
+ai, oi, ei: aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado, guapo, edificio, Europa, puente, hierba, llueve, triunfo, trauma, causa, neutral
+
+Трифтонги: limpiáis, limpiéis, Uruguay, continuáis, paraguayo, estudiáis, estudiéis
+    `,
+    questions: []
+  },
+
+  'ex-1-1-14-pron-yllch': {
+    id: 'ex-1-1-14-pron-yllch',
+    type: 'reading',
+    title: 'Необычные испанские сочетания /Y, LL, CH',
+    description: 'Прочитайте слова. Обратите внимание на произношение ll [ль]/[й], y [й]/[и], ch [ч]',
+    audioUrl: '/audio/lesson-1-1-pron-yllch.mp3',
+    text: `
+LL - произносится как [ль] или [й]:
+lloro [льоро] / [йоро]
+gallina [гальина] / [гайина]
+llanto [льанто] / [йанто]
+billete [бильетэ] / [бийетэ]
+detalle [дэталье] / [дэтайе]
+millón [мильон] / [мийон]
+batalla [батальа] / [батайа]
+botella [ботэльа] / [ботейа]
+paella [паэльа] / [паэйа]
+tortilla [тортильа] / [тортийа]
+
+Y - произносится как [й] в начале слога, [и] как союз:
+yate, mayo, playa, desayuno, proyecto, leyenda, yodo
+Ana y Lola [ана и лола]
+
+CH - произносится как [ч]:
+poncho, muchacho, mucho, techo, machete, Chile, lucha, plancha, mochila, chimenea
+    `,
+    questions: []
+  },
+
+  'ex-1-1-15-pron-ekg': {
+    id: 'ex-1-1-15-pron-ekg',
+    type: 'reading',
+    title: 'Сочетания с E, K, G',
+    description: 'Прочитайте слова. Обратите внимание на произношение ce, ci, ge, gi, que, qui',
+    audioUrl: '/audio/lesson-1-1-pron-ekg.mp3',
+    text: `
+CE, CI - произносится [θэ], [θи]:
+cena, cine, zapato, zona, azul, plaza, paz, lápiz, ceniza, Azucena, ascensor, suceso, dieciséis, necesito, francesa, fascismo, escena, cereza, Asunción
+
+GE, GI - произносится [хэ], [хи]:
+genial, álgebra, original, jefe, gitano, Jorge, garaje, ingeniero, gigante, reloj
+
+QUE, QUI - буква u не читается, произносится [кэ], [ки]:
+quinto, cuatro, quince, poco, pequeño, ecologista, queso, equipaje, quiero, queja
+
+GUE, GUI - буква u не читается, произносится [гэ], [ги]:
+guerra, guitarra, Miguel
+
+GÜE, GÜI - буква ü читается, произносится [гуэ], [гуи]:
+pingüino, cigüeña, lingüística
+    `,
+    questions: []
+  },
+
+  'ex-1-1-16-intonation': {
+    id: 'ex-1-1-16-intonation',
+    type: 'reading',
+    title: 'Интонационное упражнение. Произношение',
+    description: 'Прочитайте фразы с правильной интонацией',
+    audioUrl: '/audio/lesson-1-1-intonation.mp3',
+    text: `
+Утвердительные предложения (интонация понижается):
+Buenos días. ↘
+Me llamo Pedro. ↘
+Vivo en Madrid. ↘
+Todo va bien. ↘
+
+Вопросительные предложения (интонация повышается):
+¿Qué tal? ↗
+¿Cómo estás? ↗
+¿Qué tal la familia? ↗
+¿De dónde eres? ↗
+
+Вопросы с вопросительными словами (интонация понижается):
+¿Cómo te llamas? ↘
+¿Dónde vives? ↘
+¿Qué haces? ↘
+¿Cuántos años tienes? ↘
+
+Восклицательные предложения:
+¡Hola!
+¡Qué bien!
+¡Muchas gracias!
+¡Hasta luego!
+    `,
+    questions: []
   },
 
   'ex-2-1-6-conj': {
