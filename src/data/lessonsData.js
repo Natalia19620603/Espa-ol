@@ -1462,9 +1462,20 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
     moduleId: 'module-2',
     grammar: {
       title: 'Простые предлоги.Числительные. Правильные глаголы',
-      content: `
-# 1. Простые предлоги
+      intro: `# Грамматика урока
 
+В этом уроке мы изучим:
+- Простые предлоги в испанском языке
+- Количественные числительные от 0 до 100
+- Спряжение правильных глаголов в настоящем времени
+- Выражения с глаголом TOMAR`,
+      sections: [
+        {
+          id: 'preposition-a',
+          title: 'Предлог "a"',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## Предлог "a"
 
 Указывает направление движения куда-либо, то есть используется, чтобы ответить на вопрос куда?
@@ -1482,7 +1493,14 @@ a + el → al
 **Примеры:**
 - ver a mi amigo — видеть (кого?) моего друга
 - dar un regalo a la profesora — дать (кому?) учительнице подарок
-
+`
+        },
+        {
+          id: 'preposition-de',
+          title: 'Предлог "de"',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## Предлог "de"
 
 Указывает точку, из которой начато движение, то есть используется, чтобы ответить на вопрос откуда?
@@ -1497,7 +1515,14 @@ de + el → del
 Передает значение русского родительного падежа (кого? чего?), указывает на принадлежность:
 - Es la hermana del pintor. — Это сестра художника.
 - Los libros de la estudiante son caros. — Книги студентки дорогие.
-
+`
+        },
+        {
+          id: 'preposition-en',
+          title: 'Предлог "en"',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## Предлог "en"
 
 Соответствует русским предлогам в, на. Указывает на местонахождение. Используется, чтобы ответить на вопрос где?
@@ -1509,15 +1534,29 @@ de + el → del
 С глаголом ir указывает на способ передвижения:
 - viajar en tren — путешествовать на поезде
 - ir en coche — ехать на машине
-
+`
+        },
+        {
+          id: 'prepositions-other',
+          title: 'Предлоги "con", "por", "para", "sin"',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## Предлоги "con", "por", "para", "sin"
 
 - **con** — с, вместе с: ir al cine con amigos
 - **por** — по, про: hablar por teléfono
 - **para** — для: Este regalo es para ti.
 - **sin** — без: vivir sin problemas
-
-# 2. Количественные числительные 0–100
+`
+        },
+        {
+          id: 'numbers',
+          title: 'Количественные числительные 0–100',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Количественные числительные 0–100
 
 | Número | Español | Número | Español |
 |--------|---------|--------|---------|
@@ -1548,8 +1587,15 @@ de + el → del
 - С 30 до 99 пишутся раздельно с союзом y: treinta y uno
 - Усеченная форма un употребляется перед существительными мужского рода
 - Форма женского рода: una
-
-# 3. Спряжение правильных глаголов в настоящем времени изъявительного наклонения (Presente de Indicativo)
+`
+        },
+        {
+          id: 'verb-conjugation',
+          title: 'Спряжение правильных глаголов в настоящем времени изъявительного наклонения (Presente de Indicativo)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Спряжение правильных глаголов в настоящем времени изъявительного наклонения (Presente de Indicativo)
 
 Испанские глаголы делятся на три спряжения в зависимости от окончания их инфинитива (неопределенной формы):
 
@@ -1560,7 +1606,14 @@ II спряжение: глаголы на -er (например, comer)
 III спряжение: глаголы на -ir (например, vivir)
 
 Для спряжения правильных глаголов необходимо отбросить окончание инфинитива (-ar, -er, -ir) и добавить соответствующие личные окончания.
-
+`
+        },
+        {
+          id: 'conjugation-table',
+          title: 'Таблица спряжения правильных глаголов',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## Таблица спряжения правильных глаголов
 
 | Местоимение | I спряжение (-AR) | II спряжение (-ER) | III спряжение (-IR) |
@@ -1571,7 +1624,14 @@ III спряжение: глаголы на -ir (например, vivir)
 | nosotros (-as) | -amos (habl-amos) | -emos (com-emos) | -imos (viv-imos) |
 | vosotros (-as) | -áis (habl-áis) | -éis (com-éis) | -ís (viv-ís) |
 | ellos, ellas, ustedes | -an (habl-an) | -en (com-en) | -en (viv-en) |
-
+`
+        },
+        {
+          id: 'verb-examples',
+          title: 'Примеры правильных глаголов и их употребление',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## Примеры правильных глаголов и их употребление
 
 ### I спряжение (-AR)
@@ -1600,41 +1660,72 @@ III спряжение: глаголы на -ir (например, vivir)
 | abrir | открывать | El cliente abre la puerta. | Клиент открывает дверь. |
 | escribir | писать | Ella escribe un artículo difícil. | Она пишет трудную статью. |
 | vivir | жить | Ellos viven en un país rico. | Они живут в богатой стране. |
-
-# 4. Выражения с глаголом TOMAR
+`
+        },
+        {
+          id: 'tomar-take',
+          title: '1. Значение "Брать / Получать"',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## 1. Значение "Брать / Получать"
 
 Глагол tomar — один из наиболее многозначных глаголов в испанском языке. В зависимости от контекста он может переводиться как брать, есть, пить, принимать или садиться на транспорт.
 
-Ниже приведены основные группы словосочетаний с глаголом tomar для запоминания:
-
-## 1. Значение "Брать / Получать"
-
-tomar libros para leer — брать книги, чтобы читать
-
+**Примеры:**
+- tomar libros para leer — брать книги, чтобы читать
+- tomar un coche — брать машину
+- tomar un libro — брать книгу
+`
+        },
+        {
+          id: 'tomar-eat-drink',
+          title: '2. Значение "Есть / Пить" (Прием пищи или напитков)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## 2. Значение "Есть / Пить" (Прием пищи или напитков)
 
-tomar agua (f) — пить воду
-
-tomar un bocadillo (m) — есть бутерброд
-
+**Примеры:**
+- tomar agua (f) — пить воду
+- tomar un bocadillo (m) — есть бутерброд
+- tomar café — пить кофе
+- tomar zumo — пить сок
+`
+        },
+        {
+          id: 'tomar-transport',
+          title: '3. Значение "Садиться на транспорт" (Выбирать маршрут)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## 3. Значение "Садиться на транспорт" (Выбирать маршрут)
 
-tomar el metro — сесть на метро
-
-tomar el tranvía — сесть на трамвай
-
-tomar el tren — сесть на поезд
-
-tomar un taxi — сесть на такси
-
+**Примеры:**
+- tomar el metro — сесть на метро
+- tomar el tranvía — сесть на трамвай
+- tomar el tren — сесть на поезд
+- tomar un taxi — сесть на такси
+- tomar el autobús — сесть на автобус
+`
+        },
+        {
+          id: 'tomar-other',
+          title: '4. Другие устойчивые выражения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
 ## 4. Другие устойчивые выражения
 
-tomar en serio — принимать всерьез
-
-tomar medicinas — принимать лекарства
-
-tomar el sol — загорать
-      `
+**Примеры:**
+- tomar en serio — принимать всерьез
+- tomar medicinas — принимать лекарства
+- tomar el sol — загорать
+- tomar una decisión — принимать решение
+- tomar notas — делать заметки
+`
+        }
+      ]
     },
     vocabulary: [
       { word: 'a', translation: 'в, на (направление)', audioUrl: null },
