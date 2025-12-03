@@ -183,6 +183,18 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     }
   }
 
+  const handleNextQuestion = () => {
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
+    if (currentQuestion + 1 < totalQuestions) {
+      setCurrentQuestion(currentQuestion + 1)
+      // Add null answer for skipped question
+      setAnswers([...answers, null])
+      // Reset any feedback states
+      setShowCorrectAnswer(false)
+      setUserAnswer(null)
+    }
+  }
+
   if (showResult) {
     const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     const percentage = Math.round((score / totalQuestions) * 100)
@@ -498,6 +510,13 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               <div className={styles.questionCounter}>
                 Вопрос {currentQuestion + 1} из {totalQuestions}
               </div>
+              <button
+                onClick={handleNextQuestion}
+                className={styles.nextQuestionBtn}
+                disabled={currentQuestion >= totalQuestions - 1}
+              >
+                ВПЕРЕД →
+              </button>
             </div>
             <div className={styles.progressBar}>
               <div
@@ -576,8 +595,8 @@ function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
           <p className={styles.correctAnswerText}>
             Правильный ответ: {question.options[question.correct]}
           </p>
-          <button onClick={onSkipFeedback} className={styles.forwardBtn}>
-            Вперед →
+          <button onClick={onSkipFeedback} className={styles.stopBtn}>
+            ⏹ СТОП
           </button>
         </>
       )}
@@ -1556,8 +1575,8 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
           <p className={styles.correctAnswerText}>
             Правильный ответ: {question.correct}
           </p>
-          <button onClick={handleSkipFeedback} className={styles.forwardBtn}>
-            Вперед →
+          <button onClick={handleSkipFeedback} className={styles.stopBtn}>
+            ⏹ СТОП
           </button>
         </>
       )}
