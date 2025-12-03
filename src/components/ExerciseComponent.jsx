@@ -18,6 +18,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [score, setScore] = useState(0)
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
   const [userAnswer, setUserAnswer] = useState(null)
+  const [feedbackTimeoutId, setFeedbackTimeoutId] = useState(null)
 
   // Перемешиваем опции для каждого вопроса один раз при загрузке
   const shuffledQuestions = useMemo(() => {
@@ -49,6 +50,12 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   if (!exercise) return null
 
   const handleAnswer = (answer) => {
+    // Для аудио упражнений (с exercise.words) просто переходим к следующему
+    if (exercise.words) {
+      proceedToNext(answer)
+      return
+    }
+
     const questions = shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions
     const currentQ = questions[currentQuestion]
 
@@ -62,21 +69,33 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     if (!isCorrect && ['vocabulary', 'grammar', 'ser-estar', 'articles', 'pronunciation', 'reading', 'conjugation', 'tense-choice', 'prepositions', 'pronouns', 'agreement', 'subjunctive', 'conditional', 'synonyms', 'antonyms', 'collocations', 'definitions', 'context', 'false-friends', 'idioms', 'word-family', 'matching', 'dialogue-practice', 'reading-comprehension'].includes(exercise.type)) {
       // Показываем правильный ответ
       setShowCorrectAnswer(true)
-      setTimeout(() => {
+      const id = setTimeout(() => {
         setShowCorrectAnswer(false)
         setUserAnswer(null)
         proceedToNext(answer)
-      }, 2000) // Показываем 2 секунды
+      }, 4000) // Показываем 4 секунды
+      setFeedbackTimeoutId(id)
     } else {
       proceedToNext(answer)
     }
+  }
+
+  const handleSkipFeedback = () => {
+    if (feedbackTimeoutId) {
+      clearTimeout(feedbackTimeoutId)
+      setFeedbackTimeoutId(null)
+    }
+    setShowCorrectAnswer(false)
+    const currentAnswer = userAnswer
+    setUserAnswer(null)
+    proceedToNext(currentAnswer)
   }
 
   const proceedToNext = (answer) => {
     const newAnswers = [...answers, answer]
     setAnswers(newAnswers)
 
-    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     if (currentQuestion + 1 < totalQuestions) {
       setCurrentQuestion(currentQuestion + 1)
     } else {
@@ -88,9 +107,15 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
   const calculateScore = (finalAnswers) => {
     let correct = 0
-    const items = exercise.texts || (shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions)
+    const items = exercise.texts || exercise.words || (shuffledQuestions.length > 0 ? shuffledQuestions : exercise.questions)
     items.forEach((question, index) => {
       const userAnswer = finalAnswers[index]
+
+      // Audio pronunciation exercises - all answers are correct (just listening)
+      if (exercise.words) {
+        correct++
+        return
+      }
 
       // Text input types (need string comparison)
       if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation', 'translation'].includes(exercise.type)) {
@@ -139,7 +164,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   }
 
   const handleFinish = () => {
-    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     if (score >= totalQuestions * 0.7) {
       onComplete()
     } else {
@@ -147,8 +172,19 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     }
   }
 
+  const handlePreviousQuestion = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1)
+      // Remove the last answer from the answers array
+      setAnswers(answers.slice(0, -1))
+      // Reset any feedback states
+      setShowCorrectAnswer(false)
+      setUserAnswer(null)
+    }
+  }
+
   if (showResult) {
-    const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+    const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     const percentage = Math.round((score / totalQuestions) * 100)
     const passed = percentage >= 70
 
@@ -189,7 +225,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     )
   }
 
-  const totalQuestions = exercise.texts?.length || exercise.questions?.length || 0
+  const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
 
   return (
     <div className={styles.container}>
@@ -206,6 +242,20 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
         <p className={styles.description}>{exercise.description}</p>
 
+        {exercise.introAudio && (
+          <div className={styles.introAudioContainer}>
+            <button
+              onClick={() => {
+                const audio = new Audio(exercise.introAudio)
+                audio.play()
+              }}
+              className={styles.introAudioBtn}
+            >
+              🔊 Прослушать общее произношение согласных
+            </button>
+          </div>
+        )}
+
         <div className={styles.questionContainer}>
           {exercise.type === 'vocabulary' && (
             <VocabularyQuestion
@@ -221,9 +271,16 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               onAnswer={handleAnswer}
               showCorrectAnswer={showCorrectAnswer}
               userAnswer={userAnswer}
+              onSkipFeedback={handleSkipFeedback}
             />
           )}
-          {exercise.type === 'pronunciation' && (
+          {exercise.type === 'pronunciation' && exercise.words && (
+            <AudioPronunciationQuestion
+              word={exercise.words[currentQuestion]}
+              onAnswer={handleAnswer}
+            />
+          )}
+          {exercise.type === 'pronunciation' && exercise.questions && (
             <PronunciationQuestion
               question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
@@ -419,16 +476,39 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               currentQuestionIndex={currentQuestion}
             />
           )}
+          {exercise.type === 'external' && (
+            <ExternalExercise
+              url={exercise.embedUrl || exercise.url}
+              title={exercise.title}
+              onComplete={onComplete}
+            />
+          )}
         </div>
 
-        <div className={styles.progressBar}>
-          <div
-            className={styles.progressFill}
-            style={{
-              width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
-            }}
-          />
-        </div>
+        {exercise.type !== 'external' && (
+          <>
+            <div className={styles.questionNavigation}>
+              <button
+                onClick={handlePreviousQuestion}
+                className={styles.prevQuestionBtn}
+                disabled={currentQuestion === 0}
+              >
+                ← НАЗАД
+              </button>
+              <div className={styles.questionCounter}>
+                Вопрос {currentQuestion + 1} из {totalQuestions}
+              </div>
+            </div>
+            <div className={styles.progressBar}>
+              <div
+                className={styles.progressFill}
+                style={{
+                  width: `${((currentQuestion + 1) / totalQuestions) * 100}%`
+                }}
+              />
+            </div>
+          </>
+        )}
       </div>
     </div>
   )
@@ -467,7 +547,7 @@ function VocabularyQuestion({ question, onAnswer, showCorrectAnswer, userAnswer 
   )
 }
 
-function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
+function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence || question.question}</h3>
@@ -492,9 +572,14 @@ function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) 
         })}
       </div>
       {showCorrectAnswer && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.options[question.correct]}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.options[question.correct]}
+          </p>
+          <button onClick={onSkipFeedback} className={styles.forwardBtn}>
+            Вперед →
+          </button>
+        </>
       )}
     </div>
   )
@@ -1070,16 +1155,55 @@ function DefinitionsQuestion({ question, onAnswer }) {
 }
 
 function ContextQuestion({ question, onAnswer }) {
+  const [selectedAnswer, setSelectedAnswer] = useState(null)
+  const [showFeedback, setShowFeedback] = useState(false)
+
+  const handleAnswerClick = (index) => {
+    setSelectedAnswer(index)
+    setShowFeedback(true)
+
+    // Автоматически переходим к следующему вопросу через 1.5 секунды
+    setTimeout(() => {
+      setShowFeedback(false)
+      setSelectedAnswer(null)
+      onAnswer(index)
+    }, 1500)
+  }
+
+  const getButtonClass = (index) => {
+    if (!showFeedback) {
+      return styles.optionBtn
+    }
+
+    // Показываем правильный ответ зеленым
+    if (index === question.correct) {
+      return `${styles.optionBtn} ${styles.correctAnswer}`
+    }
+
+    // Показываем выбранный неправильный ответ красным
+    if (index === selectedAnswer && index !== question.correct) {
+      return `${styles.optionBtn} ${styles.wrongAnswer}`
+    }
+
+    return styles.optionBtn
+  }
+
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Выберите слово, подходящее по контексту:</h3>
+      {question.context && (
+        <div className={styles.contextBadge}>
+          {question.context}
+        </div>
+      )}
       <p className={styles.contextSentence}>{question.sentence}</p>
       <div className={styles.options}>
         {question.options.map((option, index) => (
           <button
             key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
+            onClick={() => !showFeedback && handleAnswerClick(index)}
+            className={getButtonClass(index)}
+            disabled={showFeedback}
           >
             {option}
           </button>
@@ -1306,6 +1430,39 @@ function DialoguePracticeQuestion({ question, onAnswer }) {
 }
 
 function ReadingComprehensionQuestion({ question, onAnswer }) {
+  const [selectedAnswer, setSelectedAnswer] = useState(null)
+  const [showFeedback, setShowFeedback] = useState(false)
+
+  const handleAnswerClick = (index) => {
+    setSelectedAnswer(index)
+    setShowFeedback(true)
+
+    // Автоматически переходим к следующему вопросу через 1.5 секунды
+    setTimeout(() => {
+      setShowFeedback(false)
+      setSelectedAnswer(null)
+      onAnswer(index)
+    }, 1500)
+  }
+
+  const getButtonClass = (index) => {
+    if (!showFeedback) {
+      return styles.optionBtn
+    }
+
+    // Показываем правильный ответ зеленым
+    if (index === question.correct) {
+      return `${styles.optionBtn} ${styles.correctAnswer}`
+    }
+
+    // Показываем выбранный неправильный ответ красным
+    if (index === selectedAnswer && index !== question.correct) {
+      return `${styles.optionBtn} ${styles.wrongAnswer}`
+    }
+
+    return styles.optionBtn
+  }
+
   return (
     <div className={styles.question}>
       {question.text && (
@@ -1318,8 +1475,9 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
         {question.options.map((option, index) => (
           <button
             key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
+            onClick={() => !showFeedback && handleAnswerClick(index)}
+            className={getButtonClass(index)}
+            disabled={showFeedback}
           >
             {option}
           </button>
@@ -1332,6 +1490,7 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
 function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIndex = 0 }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -1339,15 +1498,26 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           onAnswer(input)
           setInput('')
         }, 2000)
+        setTimeoutId(id)
       } else {
         onAnswer(input)
       }
     }
+  }
+
+  const handleSkipFeedback = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+    setShowFeedback(false)
+    onAnswer(input)
+    setInput('')
   }
 
   // Определяем текст для заголовка в зависимости от ID упражнения и номера вопроса
@@ -1382,10 +1552,95 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
         </button>
       </form>
       {showFeedback && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          <button onClick={handleSkipFeedback} className={styles.forwardBtn}>
+            Вперед →
+          </button>
+        </>
       )}
+    </div>
+  )
+}
+
+function AudioPronunciationQuestion({ word, onAnswer }) {
+  const [audio, setAudio] = useState(null)
+  const [isPlaying, setIsPlaying] = useState(false)
+
+  const playAudio = () => {
+    if (word.audioUrl) {
+      // Останавливаем предыдущее аудио если оно играет
+      if (audio) {
+        audio.pause()
+        audio.currentTime = 0
+      }
+
+      const newAudio = new Audio(word.audioUrl)
+      newAudio.onended = () => setIsPlaying(false)
+      newAudio.play()
+      setAudio(newAudio)
+      setIsPlaying(true)
+    }
+  }
+
+  const stopAudio = () => {
+    if (audio) {
+      audio.pause()
+      audio.currentTime = 0
+      setIsPlaying(false)
+    }
+  }
+
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>
+        <strong>{word.word}</strong>
+      </h3>
+      <p className={styles.pronunciation}>
+        Произношение: {word.pronunciation}
+      </p>
+      {word.audioUrl && (
+        <div className={styles.audioControls}>
+          <button onClick={playAudio} className={styles.audioBtn} disabled={isPlaying}>
+            🔊 Прослушать
+          </button>
+          {isPlaying && (
+            <button onClick={stopAudio} className={styles.stopBtn}>
+              ⏹ Стоп
+            </button>
+          )}
+        </div>
+      )}
+      <div className={styles.nextBtnContainer}>
+        <button onClick={() => onAnswer(0)} className={styles.nextBtn}>
+          Далее →
+        </button>
+      </div>
+    </div>
+  )
+}
+
+function ExternalExercise({ url, title, onComplete }) {
+  return (
+    <div className={styles.externalExercise}>
+      <div className={styles.externalDescription}>
+        <p>Интерактивное упражнение открывается во внешнем окне. После выполнения нажмите кнопку "Завершить".</p>
+      </div>
+      <div className={styles.iframeContainer}>
+        <iframe
+          src={url}
+          className={styles.externalIframe}
+          title={title}
+          allowFullScreen
+        />
+      </div>
+      <div className={styles.externalActions}>
+        <button onClick={() => onComplete()} className={styles.completeBtn}>
+          Завершить упражнение
+        </button>
+      </div>
     </div>
   )
 }

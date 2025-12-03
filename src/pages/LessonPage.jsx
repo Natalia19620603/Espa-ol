@@ -10,6 +10,7 @@ function LessonPage() {
   const [user, setUser] = useState(null)
   const [activeTab, setActiveTab] = useState('grammar')
   const [currentExercise, setCurrentExercise] = useState(null)
+  const [openSections, setOpenSections] = useState({})
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -49,6 +50,13 @@ function LessonPage() {
 
     localStorage.setItem('progress', JSON.stringify(progress))
     setCurrentExercise(null)
+  }
+
+  const toggleSection = (sectionId) => {
+    setOpenSections(prev => ({
+      ...prev,
+      [sectionId]: !prev[sectionId]
+    }))
   }
 
   const renderMarkdown = (text) => {
@@ -186,9 +194,42 @@ function LessonPage() {
         {activeTab === 'grammar' && (
           <div className={styles.grammarSection}>
             <h2 className={styles.sectionTitle}>{lesson.grammar?.title}</h2>
-            <div className={styles.grammarContent}>
-              {renderMarkdown(lesson.grammar?.content)}
-            </div>
+
+            {/* Intro текст если есть */}
+            {lesson.grammar?.intro && (
+              <div className={styles.grammarIntro}>
+                {renderMarkdown(lesson.grammar.intro)}
+              </div>
+            )}
+
+            {/* Секции с аккордеоном если есть */}
+            {lesson.grammar?.sections ? (
+              <div className={styles.grammarSections}>
+                {lesson.grammar.sections.map((section) => (
+                  <div key={section.id} className={styles.grammarSectionItem}>
+                    <button
+                      className={`${styles.sectionButton} ${openSections[section.id] ? styles.sectionButtonOpen : ''}`}
+                      onClick={() => toggleSection(section.id)}
+                    >
+                      <span>{section.title}</span>
+                      <span className={styles.sectionArrow}>
+                        {openSections[section.id] ? '▼' : '▶'}
+                      </span>
+                    </button>
+                    {openSections[section.id] && (
+                      <div className={styles.sectionContent}>
+                        {renderMarkdown(section.content)}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              /* Старый формат с content если sections нет */
+              <div className={styles.grammarContent}>
+                {renderMarkdown(lesson.grammar?.content)}
+              </div>
+            )}
 
             {lesson.grammar?.examples && lesson.grammar.examples.length > 0 && (
               <div className={styles.examplesSection}>
