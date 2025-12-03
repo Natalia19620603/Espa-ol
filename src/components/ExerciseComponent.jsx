@@ -313,12 +313,14 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
             <WritingQuestion
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              onSkipFeedback={handleSkipFeedback}
             />
           )}
           {exercise.type === 'fillblank' && (
             <FillBlankQuestion
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              onSkipFeedback={handleSkipFeedback}
             />
           )}
           {exercise.type === 'ser-estar' && (
@@ -362,6 +364,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
             <ErrorCorrectionQuestion
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              onSkipFeedback={handleSkipFeedback}
             />
           )}
           {exercise.type === 'tense-choice' && (
@@ -645,9 +648,10 @@ function ReadingQuestion({ text, question, onAnswer }) {
   )
 }
 
-function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
+function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -655,15 +659,27 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) 
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 2000)
+        }, 4000)
+        setTimeoutId(id)
       } else {
         onAnswer(input)
       }
     }
+  }
+
+  const handleSkip = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+    setShowFeedback(false)
+    const currentInput = input
+    setInput('')
+    onAnswer(currentInput)
   }
 
   return (
@@ -684,17 +700,23 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) 
         </button>
       </form>
       {showFeedback && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          <button onClick={handleSkip} className={styles.stopBtn}>
+            ⏹ СТОП
+          </button>
+        </>
       )}
     </div>
   )
 }
 
-function FillBlankQuestion({ question, onAnswer }) {
+function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -702,15 +724,27 @@ function FillBlankQuestion({ question, onAnswer }) {
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 2000)
+        }, 4000)
+        setTimeoutId(id)
       } else {
         onAnswer(input)
       }
     }
+  }
+
+  const handleSkip = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+    setShowFeedback(false)
+    const currentInput = input
+    setInput('')
+    onAnswer(currentInput)
   }
 
   return (
@@ -732,9 +766,14 @@ function FillBlankQuestion({ question, onAnswer }) {
         </button>
       </form>
       {showFeedback && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          <button onClick={handleSkip} className={styles.stopBtn}>
+            ⏹ СТОП
+          </button>
+        </>
       )}
     </div>
   )
@@ -922,9 +961,10 @@ function TransformationQuestion({ question, onAnswer }) {
   )
 }
 
-function ErrorCorrectionQuestion({ question, onAnswer }) {
+function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -932,15 +972,27 @@ function ErrorCorrectionQuestion({ question, onAnswer }) {
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 2000)
+        }, 4000)
+        setTimeoutId(id)
       } else {
         onAnswer(input)
       }
     }
+  }
+
+  const handleSkip = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+    setShowFeedback(false)
+    const currentInput = input
+    setInput('')
+    onAnswer(currentInput)
   }
 
   return (
@@ -962,9 +1014,14 @@ function ErrorCorrectionQuestion({ question, onAnswer }) {
         </button>
       </form>
       {showFeedback && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          <button onClick={handleSkip} className={styles.stopBtn}>
+            ⏹ СТОП
+          </button>
+        </>
       )}
     </div>
   )
