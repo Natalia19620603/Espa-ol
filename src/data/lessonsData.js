@@ -7970,6 +7970,214 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
+  'ex-1-1-16-audio-ll-y': {
+    id: 'ex-1-1-16-audio-ll-y',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: LL и Y',
+    description: 'Прослушайте и повторите слова с буквами LL и Y',
+    words: [
+      { word: 'lloro', pronunciation: '[льо́ро] / [йо́ро]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'gallina', pronunciation: '[гальи́на] / [гайи́на]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'llanto', pronunciation: '[льа́нто] / [йа́нто]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'billete', pronunciation: '[бильэ́тэ] / [бийэ́тэ]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'detalle', pronunciation: '[дэта́лье] / [дэта́йе]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'millón', pronunciation: '[мильо́н] / [мийо́н]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'batalla', pronunciation: '[бата́лья] / [бата́йа]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'botella', pronunciation: '[ботэ́лья] / [ботэ́йа]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'paella', pronunciation: '[паэ́лья] / [паэ́йа]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'tortilla', pronunciation: '[торти́лья] / [торти́йа]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'yate', pronunciation: '[йа́тэ]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'mayo', pronunciation: '[ма́йо]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'playa', pronunciation: '[пла́йа]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'desayuno', pronunciation: '[дэсайу́но]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'proyecto', pronunciation: '[пройэ́кто]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'leyenda', pronunciation: '[лэйэ́нда]', audioUrl: '/audio/LL,Y.mp3' },
+      { word: 'yodo', pronunciation: '[йо́до]', audioUrl: '/audio/LL,Y.mp3' }
+    ]
+  },
+
+  'ex-1-1-17-audio-letra-l': {
+    id: 'ex-1-1-17-audio-letra-l',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: буква L',
+    description: 'Прослушайте и повторите слова с буквой L',
+    words: [
+      { word: 'Lina', pronunciation: '[ли́на]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'Elena', pronunciation: '[элэ́на]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'Lima', pronunciation: '[ли́ма]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'Lola', pronunciation: '[ло́ла]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'Lolita', pronunciation: '[лоли́та]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'luna', pronunciation: '[лу́на]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'alumno', pronunciation: '[алу́мно]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'plomo', pronunciation: '[пло́мо]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'pluma', pronunciation: '[плу́ма]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'pleno', pronunciation: '[плэ́но]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'mal', pronunciation: '[маль]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'tal', pronunciation: '[таль]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'mil', pronunciation: '[миль]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'papel', pronunciation: '[папэль]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'final', pronunciation: '[финаль]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'alma', pronunciation: '[а́льма]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'pulpo', pronunciation: '[пу́льпо]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'alto', pronunciation: '[а́льто]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'alpino', pronunciation: '[альпи́но]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'alfana', pronunciation: '[альфа́на]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'limón', pronunciation: '[лимон]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'pelo', pronunciation: '[пэло]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'malo', pronunciation: '[мало]', audioUrl: '/audio/La letra L.mp3' },
+      { word: 'él', pronunciation: '[эль]', audioUrl: '/audio/La letra L.mp3' }
+    ]
+  },
+
+  'ex-1-1-18-audio-letra-s': {
+    id: 'ex-1-1-18-audio-letra-s',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: буква S',
+    description: 'Прослушайте и повторите слова с буквой S',
+    words: [
+      { word: 'asunto', pronunciation: '[асу́нто]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'peseta', pronunciation: '[пэсэ́та]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'museo', pronunciation: '[мусэ́о]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'estilo', pronunciation: '[эсти́ло]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'poesía', pronunciation: '[поэси́а]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'Alfonso', pronunciation: '[альфо́нсо]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'Susana', pronunciation: '[суса́на]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'asno', pronunciation: '[а́сно]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'mismo', pronunciation: '[ми́смо]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'turismo', pronunciation: '[тури́смо]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'salsa', pronunciation: '[сальса]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'sopa', pronunciation: '[сопа]', audioUrl: '/audio/La letra S.mp3' },
+      { word: 'mes', pronunciation: '[мэс]', audioUrl: '/audio/La letra S.mp3' }
+    ]
+  },
+
+  'ex-1-1-19-audio-za-zo-zu-ce-ci': {
+    id: 'ex-1-1-19-audio-za-zo-zu-ce-ci',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: ZA, ZO, ZU, CE, CI',
+    description: 'Прослушайте и повторите слова с буквами Z, CE, CI',
+    words: [
+      { word: 'cena', pronunciation: '[θэ́на] / [сэ́на]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'cine', pronunciation: '[θи́нэ] / [си́нэ]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'zapato', pronunciation: '[θапа́то] / [сапа́то]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'zona', pronunciation: '[θо́на] / [со́на]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'azul', pronunciation: '[аθу́ль] / [асу́ль]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'plaza', pronunciation: '[пла́θа] / [пла́са]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'paz', pronunciation: '[паθ] / [пас]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'lápiz', pronunciation: '[ла́пиθ] / [ла́пис]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'ceniza', pronunciation: '[θэни́θа] / [сэни́са]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'Azucena', pronunciation: '[аθуθэ́на] / [асусэ́на]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'ascensor', pronunciation: '[асθэнсо́р] / [ассэнсо́р]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'suceso', pronunciation: '[суθэ́со] / [сусэ́со]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'dieciséis', pronunciation: '[дьеθисэ́йс] / [диесисэ́йс]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'necesito', pronunciation: '[нэθэси́то] / [нэсэси́то]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'francesa', pronunciation: '[франθэ́са] / [франсэ́са]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'fascismo', pronunciation: '[фасθи́смо] / [фасси́смо]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'escena', pronunciation: '[эсθэ́на] / [эссэ́на]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'cereza', pronunciation: '[θэрэ́θа] / [сэрэ́са]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'Asunción', pronunciation: '[асунθьо́н] / [асунсьо́н]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' },
+      { word: 'música', pronunciation: '[му́сика]', audioUrl: '/audio/ZA, ZO, ZU, CE, CI.mp3' }
+    ]
+  },
+
+  'ex-1-1-20-audio-letra-ch': {
+    id: 'ex-1-1-20-audio-letra-ch',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: буква CH',
+    description: 'Прослушайте и повторите слова с буквами CH',
+    words: [
+      { word: 'poncho', pronunciation: '[по́нчо]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'muchacho', pronunciation: '[муча́чо]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'mucho', pronunciation: '[му́чо]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'techo', pronunciation: '[тэ́чо]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'machete', pronunciation: '[мачэ́тэ]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'Chile', pronunciation: '[чи́лэ]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'lucha', pronunciation: '[лу́ча]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'plancha', pronunciation: '[пла́нча]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'mochila', pronunciation: '[мочи́ла]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'chimenea', pronunciation: '[чимэнэ́а]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'chao', pronunciation: '[ча́о]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'chico', pronunciation: '[чи́ко]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'chocar', pronunciation: '[чока́р]', audioUrl: '/audio/La letra CH.mp3' },
+      { word: 'Chema', pronunciation: '[чэ́ма]', audioUrl: '/audio/La letra CH.mp3' }
+    ]
+  },
+
+  'ex-1-1-21-audio-ga-go-gu': {
+    id: 'ex-1-1-21-audio-ga-go-gu',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: GA, GO, GU',
+    description: 'Прослушайте и повторите слова с буквами GA, GO, GU',
+    words: [
+      { word: 'goma', pronunciation: '[го́ма]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'ganso', pronunciation: '[га́нсо]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'gusano', pronunciation: '[гуса́но]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'emigrante', pronunciation: '[эмигра́нтэ]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'hidalgo', pronunciation: '[ида́льго]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'Miguel', pronunciation: '[мигэ́ль]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'malagueño', pronunciation: '[малагэ́ньо]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'guillotina', pronunciation: '[гильоти́на]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'pingüino', pronunciation: '[пингуи́но]', audioUrl: '/audio/GA, GO, GU.mp3' },
+      { word: 'cigüeña', pronunciation: '[θигуэ́нья] / [сигуэ́нья]', audioUrl: '/audio/GA, GO, GU.mp3' }
+    ]
+  },
+
+  'ex-1-1-22-audio-j-g': {
+    id: 'ex-1-1-22-audio-j-g',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: J и G перед E, I',
+    description: 'Прослушайте и повторите слова с буквами J и G перед E, I',
+    words: [
+      { word: 'genial', pronunciation: '[хэньа́ль]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'álgebra', pronunciation: '[а́льхэбра]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'original', pronunciation: '[орихина́ль]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'jefe', pronunciation: '[хэ́фэ]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'gitano', pronunciation: '[хита́но]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'Jorge', pronunciation: '[хо́рхэ]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'garaje', pronunciation: '[гара́хэ]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'ingeniero', pronunciation: '[инхэньэ́ро]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'gigante', pronunciation: '[хига́нтэ]', audioUrl: '/audio/J, G.mp3' },
+      { word: 'reloj', pronunciation: '[ррэло́х]', audioUrl: '/audio/J, G.mp3' }
+    ]
+  },
+
+  'ex-1-1-23-audio-letra-k': {
+    id: 'ex-1-1-23-audio-letra-k',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: буква K',
+    description: 'Прослушайте и повторите слова с буквой K',
+    words: [
+      { word: 'kefor', pronunciation: '[кэфо́р]', audioUrl: '/audio/La K.mp3' },
+      { word: 'kilo', pronunciation: '[ки́ло]', audioUrl: '/audio/La K.mp3' },
+      { word: 'kilómetro', pronunciation: '[кило́мэтро]', audioUrl: '/audio/La K.mp3' },
+      { word: 'koala', pronunciation: '[коа́ла]', audioUrl: '/audio/La K.mp3' },
+      { word: 'kiwi', pronunciation: '[ки́ви]', audioUrl: '/audio/La K.mp3' }
+    ]
+  },
+
+  'ex-1-1-24-audio-ara-aro': {
+    id: 'ex-1-1-24-audio-ara-aro',
+    type: 'pronunciation',
+    title: 'Аудио упражнение: буква R',
+    description: 'Прослушайте и повторите слова с буквой R',
+    words: [
+      { word: 'teatro', pronunciation: '[тэа́тро]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'ópera', pronunciation: '[о́пэра]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'tractor', pronunciation: '[тракто́р]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'árabe', pronunciation: '[а́рабэ]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'director', pronunciation: '[дирэкто́р]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'torero', pronunciation: '[торэ́ро]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'actriz', pronunciation: '[актри́θ] / [актри́с]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'ramo', pronunciation: '[рра́мо]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'rosa', pronunciation: '[рро́са]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'zorro', pronunciation: '[θо́рро] / [со́рро]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'corrida', pronunciation: '[корри́да]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'párrafo', pronunciation: '[па́ррафо]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'reportero', pronunciation: '[ррэпортэ́ро]', audioUrl: '/audio/ARA, ARO.mp3' },
+      { word: 'Rafael', pronunciation: '[ррафаэ́ль]', audioUrl: '/audio/ARA, ARO.mp3' }
+    ]
+  },
+
   'ex-2-1-6-conj': {
     id: 'ex-2-1-6-conj',
     type: 'conjugation',
