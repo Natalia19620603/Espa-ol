@@ -2317,7 +2317,8 @@ Ana. — ¡Adiós!`,
 Луис. — Ладно, слышу звонок. Мне нужно вернуться. До скорого!
 Ана. — Пока!`,
       audioUrl: null
-    }
+    },
+    exercises: ['ex-2-3-description']
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
@@ -6749,6 +6750,124 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Они собираются купить (ir a + comprar)', correct: 'van a comprar' },
       { russian: 'Мы едем в отпуск (ir de vacaciones)', correct: 'vamos de vacaciones' },
       { russian: 'Ты идешь за покупками (ir de compras)', correct: 'vas de compras' }
+    ]
+  },
+
+  'ex-2-3-description': {
+    id: 'ex-2-3-description',
+    type: 'reading',
+    title: 'Описание внешности и характера',
+    description: 'Прочитайте описания и ответьте на вопросы',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    text: `**El señor Pablo Ruiz** es nuestro profesor de español. Es un hombre viejo. Es un poco gordo, pero muy simpático y alegre. Tiene el pelo corto y canoso. Siempre lleva gafas.
+
+**Su esposa, la señora Clara**, es médica. Es una mujer alta y delgada. Es muy trabajadora y tranquila. Clara tiene el pelo largo y liso, de color castaño. Tiene los ojos grandes y verdes.
+
+**El joven estudiante** se llama Daniel. Es muy joven, solo tiene 19 años. Es atlético, guapo y fuerte. Daniel no tiene barba. Es rubio y tiene el pelo rizado. Daniel es un poco tímido, pero muy inteligente y sincero.
+
+**La chica con el tatuaje** en el brazo es mi amiga, Lucía. Ella es periodista. Es baja y delgada. Tiene el pelo muy corto y negro. Lucía es una persona muy comunicativa y curiosa. No es puntual, pero es muy generosa.`,
+    questions: [
+      {
+        question: '¿Cómo es el señor Pablo Ruiz?',
+        options: [
+          'Es alto y delgado con pelo largo',
+          'Es un poco gordo con pelo corto y canoso',
+          'Es joven y atlético',
+          'Es bajo con pelo negro'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace siempre el señor Pablo?',
+        options: [
+          'Lleva barba',
+          'Lleva tatuajes',
+          'Lleva gafas',
+          'Lleva el pelo largo'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Cómo es la señora Clara?',
+        options: [
+          'Baja y gorda',
+          'Alta y delgada',
+          'Joven y tímida',
+          'Vieja y perezosa'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿De qué color son los ojos de Clara?',
+        options: [
+          'Azules',
+          'Pardos',
+          'Verdes',
+          'Grises'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Cuántos años tiene Daniel?',
+        options: [
+          '19 años',
+          '25 años',
+          '30 años',
+          'Es viejo'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cómo es el pelo de Daniel?',
+        options: [
+          'Corto y negro',
+          'Largo y castaño',
+          'Rubio y rizado',
+          'Canoso y liso'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Qué profesión tiene Lucía?',
+        options: [
+          'Médica',
+          'Profesora',
+          'Periodista',
+          'Estudiante'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Cómo es el carácter de Lucía?',
+        options: [
+          'Tímida y tranquila',
+          'Comunicativa y curiosa',
+          'Seria y trabajadora',
+          'Perezosa y antipática'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿Qué tiene Lucía en el brazo?',
+        options: [
+          'Gafas',
+          'Un lunar',
+          'Una cicatriz',
+          'Un tatuaje'
+        ],
+        correct: 3
+      },
+      {
+        question: '¿Cómo es el carácter del señor Pablo?',
+        options: [
+          'Tímido y serio',
+          'Simpático y alegre',
+          'Antipático y triste',
+          'Perezoso y avaro'
+        ],
+        correct: 1
+      }
     ]
   },
 
