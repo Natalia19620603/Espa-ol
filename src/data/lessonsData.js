@@ -2174,7 +2174,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2']
+    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2', 'ex-2-2-tener-conjugation', 'ex-2-2-tener-rus-esp']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -6611,6 +6611,48 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: 'Tú tienes que estudiar más.', correct: 'Ты должен учиться больше.' },
       { question: 'Mis padres y yo tenemos mucho calor.', correct: 'Моим родителям и мне очень жарко.' },
       { question: 'El coche tiene que pasar la ITV (Inspección Técnica de Vehículo).', correct: 'Машина должна пройти техосмотр.' }
+    ]
+  },
+
+  'ex-2-2-tener-conjugation': {
+    id: 'ex-2-2-tener-conjugation',
+    type: 'fillblank',
+    title: 'Поставьте глагол TENER в соответствующую форму',
+    description: 'Заполните пропуски правильной формой глагола TENER. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ mucha hambre ahora.', correct: 'tengo' },
+      { sentence: 'Tú _____ sueño.', correct: 'tienes' },
+      { sentence: 'Mi hermano _____ nueve años.', correct: 'tiene' },
+      { sentence: 'Nosotros _____ un perro pequeño.', correct: 'tenemos' },
+      { sentence: 'Vosotros _____ que ir al supermercado.', correct: 'tenéis' },
+      { sentence: 'Ellas _____ un coche rojo.', correct: 'tienen' },
+      { sentence: 'Usted _____ sed.', correct: 'tiene' },
+      { sentence: 'Yo _____ un libro interesante.', correct: 'tengo' },
+      { sentence: 'Los chicos _____ calor.', correct: 'tienen' },
+      { sentence: 'Tú _____ que hacer la tarea.', correct: 'tienes' }
+    ]
+  },
+
+  'ex-2-2-tener-rus-esp': {
+    id: 'ex-2-2-tener-rus-esp',
+    type: 'writing',
+    title: 'Перевод с русского на испанский с глаголом TENER',
+    description: 'Переведите предложения с русского на испанский, используя глагол TENER. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'У меня есть собака.', correct: 'Yo tengo un perro.' },
+      { question: 'Тебе пятнадцать лет.', correct: 'Tú tienes quince años.' },
+      { question: 'Нам очень холодно.', correct: 'Nosotros tenemos mucho frío.' },
+      { question: 'У них нет времени.', correct: 'Ellos no tienen tiempo.' },
+      { question: 'Вы (Usted) должны работать.', correct: 'Usted tiene que trabajar.' },
+      { question: 'Ему жарко.', correct: 'Él tiene calor.' },
+      { question: 'У нас есть один друг.', correct: 'Nosotros tenemos un amigo.' },
+      { question: 'Они хотят пить.', correct: 'Ellos tienen sed.' },
+      { question: 'Вы (Vosotros) должны купить хлеб.', correct: 'Vosotros tenéis que comprar pan.' },
+      { question: 'У нее большая семья.', correct: 'Ella tiene una familia grande.' }
     ]
   },
 
