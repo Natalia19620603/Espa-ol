@@ -2122,7 +2122,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-3']
+    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -6457,6 +6457,66 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Vosotros _____ el piano', options: ['oís', 'oyen', 'oímos', 'oye'], correct: 0 },
       { sentence: 'Yo _____ al vecino', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
       { sentence: 'Ellas _____ al guía', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 }
+    ]
+  },
+
+  'ex-2-2-ir-a-lugar': {
+    id: 'ex-2-2-ir-a-lugar',
+    type: 'fillblank',
+    title: 'Ir a + Lugar/Actividad',
+    description: 'Completa las frases usando la forma correcta del verbo IR y la preposición A. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ al gimnasio después del trabajo.', correct: 'voy' },
+      { sentence: 'Mi familia y yo _____ a visitar a mis abuelos.', correct: 'vamos' },
+      { sentence: 'El profesor _____ a dar una clase sobre historia.', correct: 'va' },
+      { sentence: 'Tú _____ a la farmacia por la medicina.', correct: 'vas' },
+      { sentence: 'Ellos _____ a cenar en un restaurante nuevo.', correct: 'van' },
+      { sentence: 'Usted _____ a hablar con el director.', correct: 'va' },
+      { sentence: 'Vosotros _____ a la piscina municipal mañana.', correct: 'vais' },
+      { sentence: 'Mi amigo _____ a buscar trabajo.', correct: 'va' },
+      { sentence: 'Los niños _____ a jugar al fútbol al campo.', correct: 'van' },
+      { sentence: '¿A qué hora _____ ustedes a la reunión?', correct: 'van' }
+    ]
+  },
+
+  'ex-2-2-ir-de-en': {
+    id: 'ex-2-2-ir-de-en',
+    type: 'fillblank',
+    title: 'Ir de + Actividad / Ir en + Medio de transporte',
+    description: 'Completa las frases usando la forma correcta del verbo IR y la preposición necesaria (DE o EN). Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Nosotros _____ en bicicleta por el campo.', correct: 'vamos' },
+      { sentence: 'Mi hermana _____ de viaje a Alemania en verano.', correct: 'va' },
+      { sentence: 'Tú _____ en patinete eléctrico a tu cita.', correct: 'vas' },
+      { sentence: 'Yo _____ de excursión con mis compañeros.', correct: 'voy' },
+      { sentence: 'El mensajero _____ en motocicleta a entregar el paquete.', correct: 'va' },
+      { sentence: 'Ustedes _____ en autobús para ahorrar dinero.', correct: 'van' },
+      { sentence: 'La señora _____ de compras cada fin de semana.', correct: 'va' },
+      { sentence: 'Vosotros _____ en metro a la universidad.', correct: 'vais' },
+      { sentence: 'El capitán _____ en barco a las islas.', correct: 'va' },
+      { sentence: 'Mis tíos _____ en crucero por el Mediterráneo.', correct: 'van' }
+    ]
+  },
+
+  'ex-2-2-ir-translation': {
+    id: 'ex-2-2-ir-translation',
+    type: 'writing',
+    title: 'Перевод на испанский с глаголом IR',
+    description: 'Переведите предложения на испанский. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'Мы едем в театр на метро.', correct: 'Vamos al teatro en metro.' },
+      { question: 'Я еду на работу на машине.', correct: 'Voy al trabajo en coche.' },
+      { question: 'Петр и Мария не идут в кино, они будут писать статью.', correct: 'Pedro y María no van al cine, van a escribir un artículo.' },
+      { question: 'Ты едешь в Валенсию на поезде, а я плыву на корабле.', correct: 'Tú vas a Valencia en tren y yo voy en barco.' },
+      { question: 'Они ходят за покупками пешком.', correct: 'Ellos van de compras a pie.' },
+      { question: 'Вы (vosotros) летите на каникулы в Испанию на самолете.', correct: 'Vosotros vais de vacaciones a España en avión.' },
+      { question: 'Она собирается поговорить с врачом.', correct: 'Ella va a hablar con el médico.' }
     ]
   },
 
