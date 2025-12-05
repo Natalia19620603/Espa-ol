@@ -2054,6 +2054,43 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 **Выражения:** tener hambre, tener sed, tener años, tener razón`
         },
         {
+          id: 'tener-usage',
+          title: 'Особенности использования глагола TENER',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Особенности использования глагола TENER
+
+В испанском языке употребление артиклей с глаголом TENER (Tener un/una, Tener Ø) зависит от того, является ли существительное исчисляемым, стоит ли оно в единственном или множественном числе, а также от того, является ли предложение утвердительным или отрицательным.
+
+### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ В ЕДИНСТВЕННОМ ЧИСЛЕ (Утвердительное предложение):
+→ Употребляется неопределенный артикль UN/UNA.
+
+- Yo tengo un coche. (У меня есть машина)
+- Mi hermana tiene una tarea pendiente. (У моей сестры есть незавершенное задание)
+- Ustedes tienen un diccionario nuevo. (У вас есть новый словарь)
+
+### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ ВО МНОЖЕСТВЕННОМ ЧИСЛЕ (Утвердительное предложение):
+→ Артикль НЕ употребляется (Ø).
+
+- Nosotros tenemos Ø libros en casa. (У нас есть книги дома)
+- Ellos tienen Ø flores en el jardín. (У них есть цветы в саду)
+- Tú tienes Ø amigos muy simpáticos. (У тебя есть очень милые друзья)
+
+### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ В ЕДИНСТВЕННОМ ЧИСЛЕ (Отрицательное предложение):
+→ Артикль НЕ употребляется (Ø).
+
+- No tengo Ø coche. (У меня нет машины)
+- Él no tiene Ø teléfono móvil. (У него нет мобильного телефона)
+- ¿Por qué no tienes Ø mochila? (Почему у тебя нет рюкзака?)
+
+### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ ВО МНОЖЕСТВЕННОМ ЧИСЛЕ (Отрицательное предложение):
+→ Артикль НЕ употребляется (Ø).
+
+- No tenemos Ø libros para estudiar. (У нас нет книг для учебы)
+- Usted no tiene Ø documentos. (У Вас нет документов)
+- Vosotros no tenéis Ø mascotas. (У вас нет домашних животных)`
+        },
+        {
           id: 'verb-oir',
           title: 'Глагол OÍR (слышать)',
           collapsible: true,
@@ -2077,6 +2114,21 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
       { word: 'estar', translation: 'быть, находиться', audioUrl: null },
       { word: 'venir', translation: 'приходить', audioUrl: null },
       { word: 'tener', translation: 'иметь', audioUrl: null },
+      { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
+      { word: 'tener familia', translation: 'иметь семью', audioUrl: null },
+      { word: 'tener padre / madre', translation: 'иметь отца / мать', audioUrl: null },
+      { word: 'tener dinero', translation: 'иметь деньги', audioUrl: null },
+      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
+      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
+      { word: 'tener hambre', translation: 'быть голодным / хотеть есть', audioUrl: null },
+      { word: 'tener sed', translation: 'испытывать жажду / хотеть пить', audioUrl: null },
+      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
+      { word: 'tener miedo', translation: 'бояться (испытывать страх)', audioUrl: null },
+      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
+      { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
+      { word: 'tener prisa', translation: 'торопиться, спешить', audioUrl: null },
+      { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
+      { word: 'tener que + инфинитив', translation: 'быть должным сделать что-либо', audioUrl: null },
       { word: 'poder', translation: 'мочь', audioUrl: null },
       { word: 'querer', translation: 'хотеть', audioUrl: null },
       { word: 'saber', translation: 'знать', audioUrl: null },
@@ -2122,7 +2174,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation']
+    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -6517,6 +6569,27 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: 'Они ходят за покупками пешком.', correct: 'Ellos van de compras a pie.' },
       { question: 'Вы (vosotros) летите на каникулы в Испанию на самолете.', correct: 'Vosotros vais de vacaciones a España en avión.' },
       { question: 'Она собирается поговорить с врачом.', correct: 'Ella va a hablar con el médico.' }
+    ]
+  },
+
+  'ex-2-2-tener-translation': {
+    id: 'ex-2-2-tener-translation',
+    type: 'writing',
+    title: 'Выражения с глаголом TENER',
+    description: 'Переведите предложения с испанского на русский',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'Mi primo tiene dieciocho años.', correct: 'Моему двоюродному брату восемнадцать лет.' },
+      { question: 'Nosotros tenemos una casa muy grande.', correct: 'У нас есть очень большой дом.' },
+      { question: 'Los estudiantes tienen mucha hambre a esta hora.', correct: 'Студенты очень голодны в это время.' },
+      { question: 'Yo tengo la culpa de ese error.', correct: 'Я виноват в этой ошибке.' },
+      { question: '¿Ustedes tienen la información necesaria?', correct: 'У вас есть необходимая информация?' },
+      { question: 'Yo no tengo paciencia con el tráfico.', correct: 'У меня нет терпения к пробкам.' },
+      { question: '¡Hoy tenemos muy buena suerte!', correct: 'Сегодня нам очень повезло!' },
+      { question: '¿Vosotros tenéis frío aquí?', correct: 'Вам здесь холодно?' },
+      { question: 'El gato tiene mucha sed después de correr.', correct: 'Кот очень хочет пить после бега.' },
+      { question: 'Tenemos que comprar un nuevo ordenador.', correct: 'Мы должны купить новый компьютер.' }
     ]
   },
 
