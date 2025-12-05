@@ -684,7 +684,7 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
 
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>Переведите: <strong>{question.russian}</strong></h3>
+      <h3 className={styles.questionText}>Переведите: <strong>{question.question || question.russian}</strong></h3>
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
