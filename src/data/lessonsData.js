@@ -2055,7 +2055,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
+    exercises: ['ex-2-2-1', 'ex-2-2-3']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -2203,7 +2203,7 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
         { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
+    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
