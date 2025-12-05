@@ -1172,54 +1172,121 @@ Estar используется для обозначения временных 
       { word: 'su', translation: 'его, её, Ваш', audioUrl: null }
     ],
     readingText: {
-      title: 'Palabras y frases',
-      content: `Hola. Yo soy Ana y soy chica. Ella es mi amiga María. María es joven y guapa. El libro es grande y azul. La casa es blanca. El padre es alto y bueno.
+      title: 'Diálogos: Formal e Informal',
+      content: `**1. Presentación Formal e Informal**
 
+(En una reunión de trabajo en la ciudad.)
 
+Señorita Ana (Formal): Buenos días, señor.
 
-Buenos días, ¿Cómo estás? Yo estoy bien, gracias. Ahora estoy en la playa. El sol es caliente. Un chico está en el coche. Su coche es nuevo y barato. Mi hermana es alumna. Ella está contenta. La ciudad es grande, pero mi casa es pequeña.
+Señor Carlos (Formal): Buenos días, señorita. Usted es economista, ¿verdad?
 
+Ana: Sí, yo soy Ana. Mucho gusto, señor. ¿Cómo se llama usted?
 
+Carlos: Me llamo Carlos. Encantado. ¿De dónde es?
 
-El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él está en casa. Un libro interesante está en la mesa. Nosotros somos clientes ricos, pero estamos enfermos. La flor es bonita y verde. ¿Dónde están los aviones? Los aviones son grandes. Tú eres economista. Tu trabajo es difícil, pero es interesante.`,
-      translation: `**Приветствия и выражения**
-Привет! Доброе утро. Добрый день. Добрый вечер/Спокойной ночи.
-Спасибо. Большое спасибо. Пожалуйста (ответ). Пожалуйста (просьба).
-Пока. Очень приятно. Рад познакомиться (м.р.). Рада познакомиться (ж.р.).
+Ana: Soy de Argentina, pero ahora estoy en Madrid. ¿Qué tal la familia?
 
-**Семья**
-Отец. Мать. Брат. Сестра.
-Мой отец. Моя мать. Твой брат. Твоя сестра.
-Молодой мальчик. Молодая девочка.
-Высокий мужчина. Высокая женщина.
-Хороший друг. Хорошая подруга.
+Carlos: Todo va bien, gracias. Mi padre es un hombre rico y feliz.
 
-**Описания**
-Большая книга. Большой дом.
-Красивый день. Красивый город.
-Интересный музей. Красивый пляж.
-Горячий кофе. Холодная ночь.
-Белое солнце. Белый свет.
-Дорогая машина. Дорогой цветок.
+Ana: ¡Qué bien! ¡Adiós!
 
-**Места**
-Дом. Музей. Пляж. Город.
-Длинная улица. Длинный день.
-Дома. В музее. На пляже. В городе.
+**2. Descripción y Estado de Ánimo**
 
-**Качества и состояния**
-Счастливый. Довольный. Весёлый. Грустный.
-Больной. Молодой. Старый. Высокий. Низкий.
-Красивый. Симпатичный. Некрасивый. Хороший. Плохой.
-Новый. Старинный. Большой. Маленький.
-Толстый. Стройный. Богатый. Бедный.
+(Dos amigos se encuentran en la calle un lunes.)
 
-**Предметы и вещи**
-Новая книга. Новый дом.
-Маленький карандаш. Маленькая рука.
-Зелёная машина. Синий цветок.
-Большой самолёт. Большая станция.
-Деньги. Любовь. Счастье. Здоровье.`,
+Chico (Informal): ¡Hola, María! ¿Cómo estás?
+
+Chica (Informal): Hola, Pedro. Así así. Es lunes y el día es largo.
+
+Chico: Tienes razón. Tu coche es nuevo y bonito. ¿Es caro?
+
+Chica: No mucho, es barato. Mi coche no es un problema. El problema es que mi hermano está triste.
+
+Chico: ¿Por qué está triste?
+
+Chica: Su amiga está enferma.
+
+Chico: Lo siento. Pero su hermana es muy alegre, ¿no?
+
+Chica: Sí, ella es feliz. Vamos por un café caliente.
+
+Chico: ¡Sí, por favor! Muchas gracias.
+
+**3. Planes y Lugares**
+
+(Dos estudiantes hablan por teléfono.)
+
+Estudiante A (Informal): ¡Buenas tardes! ¿Dónde estás ahora?
+
+Estudiante B (Informal): Estoy en el aula. ¿Tú eres estudiante nuevo?
+
+Estudiante A: Sí, soy yo.
+
+Estudiante B: ¿Vamos a ir a la playa bonita o al museo interesante?
+
+Estudiante A: Al museo. El sol está muy caliente ahora.
+
+Estudiante B: ¡Tienes razón! El día es difícil para la playa.
+
+Estudiante A: Nos vemos. Adiós.`,
+      translation: `**1. Формальное и неформальное представление**
+
+(На деловой встрече в городе.)
+
+Сеньорита Ана (Формально): Доброе утро, сеньор.
+
+Сеньор Карлос (Формально): Доброе утро, сеньорита. Вы экономист, правда?
+
+Ана: Да, я Ана. Очень приятно, сеньор. Как вас зовут?
+
+Карлос: Меня зовут Карлос. Рад познакомиться. Откуда вы?
+
+Ана: Я из Аргентины, но сейчас я в Мадриде. Как семья?
+
+Карлос: Все хорошо, спасибо. Мой отец богатый и счастливый человек.
+
+Ана: Как хорошо! До свидания!
+
+**2. Описание и настроение**
+
+(Два друга встречаются на улице в понедельник.)
+
+Парень (Неформально): Привет, Мария! Как дела?
+
+Девушка (Неформально): Привет, Педро. Так себе. Сегодня понедельник, и день долгий.
+
+Парень: Ты права. Твоя машина новая и красивая. Она дорогая?
+
+Девушка: Не очень, она недорогая. Моя машина не проблема. Проблема в том, что мой брат грустный.
+
+Парень: Почему он грустный?
+
+Девушка: Его подруга больна.
+
+Парень: Мне жаль. Но его сестра очень веселая, правда?
+
+Девушка: Да, она счастливая. Пойдем за горячим кофе.
+
+Парень: Да, пожалуйста! Большое спасибо.
+
+**3. Планы и места**
+
+(Два студента разговаривают по телефону.)
+
+Студент A (Неформально): Добрый день! Где ты сейчас?
+
+Студент B (Неформально): Я в аудитории. Ты новый студент?
+
+Студент A: Да, это я.
+
+Студент B: Пойдем на красивый пляж или в интересный музей?
+
+Студент A: В музей. Солнце сейчас очень жаркое.
+
+Студент B: Ты прав! День трудный для пляжа.
+
+Студент A: Увидимся. Пока.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 4, text: '¡Hola! ¿Cómo te llamas?' },
