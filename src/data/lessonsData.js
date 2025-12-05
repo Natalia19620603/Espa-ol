@@ -2174,7 +2174,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation']
+    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -6590,6 +6590,27 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: '¿Vosotros tenéis frío aquí?', correct: 'Вам здесь холодно?' },
       { question: 'El gato tiene mucha sed después de correr.', correct: 'Кот очень хочет пить после бега.' },
       { question: 'Tenemos que comprar un nuevo ordenador.', correct: 'Мы должны купить новый компьютер.' }
+    ]
+  },
+
+  'ex-2-2-tener-translation-2': {
+    id: 'ex-2-2-tener-translation-2',
+    type: 'writing',
+    title: 'Перевод на русский с глаголом TENER',
+    description: 'Переведите предложения с испанского на русский',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'Yo no tengo tiempo libre.', correct: 'У меня нет свободного времени.' },
+      { question: 'Ella tiene ocho meses.', correct: 'Ей восемь месяцев.' },
+      { question: 'Mi perro tiene mucha sed.', correct: 'Моя собака очень хочет пить.' },
+      { question: 'Nosotros tenemos una reunión.', correct: 'У нас есть встреча.' },
+      { question: 'Mi jefe tiene mucha prisa.', correct: 'Мой начальник очень спешит.' },
+      { question: 'Los vecinos tienen cuarenta y cinco años.', correct: 'Соседям сорок пять лет.' },
+      { question: 'Vosotras tenéis razón.', correct: 'Вы правы.' },
+      { question: 'Tú tienes que estudiar más.', correct: 'Ты должен учиться больше.' },
+      { question: 'Mis padres y yo tenemos mucho calor.', correct: 'Моим родителям и мне очень жарко.' },
+      { question: 'El coche tiene que pasar la ITV (Inspección Técnica de Vehículo).', correct: 'Машина должна пройти техосмотр.' }
     ]
   },
 
