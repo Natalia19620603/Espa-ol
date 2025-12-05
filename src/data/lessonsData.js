@@ -2279,33 +2279,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       { word: 'cariñoso', translation: 'ласковый', audioUrl: null },
       { word: 'inteligente', translation: 'умный', audioUrl: null },
       { word: 'tonto', translation: 'глупый', audioUrl: null }
-    ],
-    readingText: {
-      title: 'Mi día en Madrid',
-      content: `Hola, me llamo Pedro. Soy estudiante. Soy de Rusia pero vivo en Madrid. Tengo veinte años.
-
-Cada mañana yo tomo café con leche en casa. Después tomo el autobús a la universidad. La universidad está en el centro de Madrid. Voy de casa a la universidad en treinta minutos.
-
-En la universidad estudio español. Hablo con mis amigos. Ellos son de Italia, Francia y Alemania. Nosotros hablamos español en clase. También leemos libros en español y escribimos textos.
-
-A las dos tomo el almuerzo en el café de la universidad. Como bocadillos y tomo un zumo de naranja. Mi amigo italiano toma agua con la comida.
-
-Por la tarde voy a casa. Leo libros en español y aprendo palabras nuevas. A veces escribo mensajes a mi familia en Rusia.
-
-Mi amiga Ana es española, de Barcelona. Ella es profesora. Ana toma el tren de Barcelona a Madrid cada semana. Ella vive con su hermana en un apartamento pequeño.
-
-Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`,
-      translation: 'Привет, меня зовут Педро. Я студент. Я из России, но живу в Мадриде. Мне двадцать лет.\n\nКаждое утро я пью кофе с молоком дома. Потом я сажусь на автобус до университета. Университет находится в центре Мадрида. Я еду из дома в университет за тридцать минут.\n\nВ университете я изучаю испанский. Я разговариваю с моими друзьями. Они из Италии, Франции и Германии. Мы говорим по-испански на занятиях. Также мы читаем книги на испанском и пишем тексты.\n\nВ два часа я обедаю в университетском кафе. Я ем бутерброды и пью апельсиновый сок. Мой итальянский друг пьет воду с едой.\n\nВо второй половине дня я иду домой. Я читаю книги на испанском и учу новые слова. Иногда я пишу сообщения моей семье в России.\n\nМоя подруга Ана испанка, из Барселоны. Она преподаватель. Ана едет на поезде из Барселоны в Мадрид каждую неделю. Она живет со своей сестрой в маленькой квартире.\n\nПо выходным мы загораем в парке. Очень приятно быть в Мадриде.',
-      audioUrl: '/audio/lesson-2-2-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Hola, me llamo Pedro. Soy estudiante.' },
-        { start: 5, end: 10, text: 'Cada mañana yo tomo café con leche en casa.' },
-        { start: 10, end: 15, text: 'Después tomo el autobús a la universidad.' },
-        { start: 15, end: 20, text: 'En la universidad hablo con mis amigos.' },
-        { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
-      ]
-    },
-    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
+    ]
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
