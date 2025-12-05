@@ -1848,38 +1848,23 @@ III спряжение: глаголы на -ir (например, vivir)
       { word: 'partir', translation: 'уезжать', audioUrl: null }
     ],
     readingText: {
-      title: 'Diálogos en la ciudad',
-      content: `**Diálogo en la ciudad**
+      title: 'La rutina diaria',
+      content: `La mañana empieza difícil. Juan está mal y toma medicinas. Luego llama al médico.
 
-Juan: ¡Hola! Yo soy Juan. ¿Y tú?
-Ana: Me llamo Ana. Soy joven y alegre.
-Juan: ¡Mucho gusto! La ciudad es grande.
-Ana: Sí, es grande y bonita. Ahora estoy en la calle.
-Juan: Yo estoy en casa.
-Ana: ¡Adiós!
-Juan: ¡Adiós!
+En la ciudad, el agente de policía habla de la vida y yo escucho con atención. Yo tomo té con limón y mi amiga Elena toma café. En la radio se escuchan las noticias.
 
-**Diálogo sobre ubicación y origen**
+El Señor García está en casa. Él escribe una carta para la hija que vive en Italia. Miguel está en la oficina y escribe un artículo para la revista.
 
-Felipe: Buenos días, señora. ¿Cómo se llama usted?
-Doña Clara: Me llamo Doña Clara. Soy rica.
-Felipe: Encantado. Yo soy Felipe, soy estudiante. Soy de Rusia.
-Doña Clara: Qué interesante... ¿De dónde es su hermano?
-Felipe: Mi hermano es de China. Él es ingeniero y está casado.
-Doña Clara: Yo estoy en casa. ¿Dónde está el museo?
-Felipe: Vengo del museo. El museo es antiguo.
+En la universidad, Sara lee la poesía en voz alta. Yo tomo libros para leer y leo el periódico en el metro. Yo tomo el tranvía y Sara toma el tren para ir a clase. Los alumnos leen un libro en español.
 
-**Diálogo sobre estados y rutinas**
+Pedro y yo estamos en casa. Clara y tú vivís en Dinamarca y ustedes viven en Italia. Ellos toman un taxi para el aeropuerto.
 
-Pedro: ¡Hola! ¿Cómo estás?
-Marta: Estoy regular. Mi mano está fría y tengo veinticinco años.
-Pedro: ¡Qué lástima! ¿Estás enferma?
-Marta: No, no estoy enferma, estoy triste. Soy soltera. ¿Y tú?
-Pedro: Yo soy policía. Soy alto y delgado. Ahora voy a la escuela con mi amigo Carlos.
-Marta: ¿Es fácil la escuela?
-Pedro: Es difícil, pero es interesante. Estamos contentos.
-Marta: Mi hermano está en la playa. El sol es caliente.`,
-      translation: 'Диалог в городе\n\nХуан: Привет! Я Хуан. А ты?\nАна: Меня зовут Ана. Я молодая и веселая.\nХуан: Очень приятно! Город большой.\nАна: Да, он большой и красивый. Сейчас я на улице.\nХуан: Я дома.\nАна: Пока!\nХуан: Пока!\n\nДиалог о местонахождении и происхождении\n\nФелипе: Доброе утро, сеньора. Как вас зовут?\nДонья Клара: Меня зовут Донья Клара. Я богата.\nФелипе: Рад познакомиться. Я Фелипе, я студент. Я из России.\nДонья Клара: Как интересно... Откуда ваш брат?\nФелипе: Мой брат из Китая. Он инженер и женат.\nДонья Клара: Я дома. Где находится музей?\nФелипе: Я иду из музея. Музей старинный.\n\nДиалог о состояниях и распорядке\n\nПедро: Привет! Как дела?\nМарта: Так себе. Моя рука холодная, и мне двадцать пять лет.\nПедро: Как жаль! Ты больна?\nМарта: Нет, я не больна, я грустная. Я не замужем. А ты?\nПедро: Я полицейский. Я высокий и стройный. Сейчас я иду в школу с моим другом Карлосом.\nМарта: Легко ли в школе?\nПедро: Сложно, но интересно. Мы довольны.\nМарта: Мой брат на пляже. Солнце горячее.',
+Pedro y yo hablamos de un problema. Nosotros llamamos al médico porque la madre está mal. Ella no toma agua y no toma leche. Yo pregunto a la madre de Luis por la operación.
+
+Al mediodía, yo tomo un bocadillo en la oficina y tomo zumo. Vosotros no coméis. Yo no tomo en serio lo que dice el abogado.
+
+Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa, yo tomo el sol mientras tú lees revistas.`,
+      translation: 'Ежедневная рутина\n\nУтро начинается трудно. Хуан болен и принимает лекарства. Потом он звонит врачу.\n\nВ городе полицейский рассказывает о жизни, и я слушаю внимательно. Я пью чай с лимоном, а моя подруга Елена пьет кофе. По радио слушают новости.\n\nСеньор Гарсия дома. Он пишет письмо дочери, которая живет в Италии. Мигель в офисе и пишет статью для журнала.\n\nВ университете Сара читает поэзию вслух. Я беру книги для чтения и читаю газету в метро. Я еду на трамвае, а Сара едет на поезде на занятия. Студенты читают книгу на испанском.\n\nПедро и я дома. Клара и ты живете в Дании, а вы живете в Италии. Они берут такси в аэропорт.\n\nПедро и я говорим о проблеме. Мы звоним врачу, потому что мать больна. Она не пьет воду и не пьет молоко. Я спрашиваю мать Луиса об операции.\n\nВ полдень я ем бутерброд в офисе и пью сок. Вы не едите. Я не принимаю всерьез то, что говорит адвокат.\n\nВ конце дня мы пьем вино, а вы пьете пиво. На пляже я загораю, пока ты читаешь журналы.',
       audioUrl: '/audio/lesson-2-1-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: '¡Hola! Yo soy Juan. ¿Y tú?' },
@@ -1896,10 +1881,21 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
     moduleId: 'module-2',
     grammar: {
       title: 'Неправильные глаголы IR, TENER, OÍR',
-      content: `
-# Глаголы IR, TENER, OÍR
+      intro: `# Грамматика урока
 
-## Глагол IR (идти, ехать)
+В этом уроке мы изучим:
+- Глагол IR (идти, ехать) и его спряжение
+- Употребление глагола IR с предлогами
+- Конструкцию ir + a + инфинитив для выражения будущего
+- Глагол TENER (иметь) и его спряжение
+- Глагол OÍR (слышать) и его спряжение`,
+      sections: [
+        {
+          id: 'verb-ir',
+          title: 'Глагол IR (идти, ехать)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол IR (идти, ехать)
 
 | Лицо | Форма | Русский |
 |------|-------|---------|
@@ -1908,9 +1904,14 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 | él/ella/usted | va | Он/она идет |
 | nosotros(-as) | vamos | Мы идем |
 | vosotros(-as) | vais | Вы идете |
-| ellos/ellas/ustedes | van | Они идут |
-
-### Глагол IR с предлогами
+| ellos/ellas/ustedes | van | Они идут |`
+        },
+        {
+          id: 'ir-prepositions',
+          title: 'Глагол IR с предлогами',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол IR с предлогами
 
 **Глагол ir с предлогом а обозначает направление движения вперед от говорящего.**
 
@@ -1923,7 +1924,16 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 - ir a casa — идти домой
 - ir a Rusia — ехать в Россию
 
-**Глагол ir с предлогом en указывает на способ передвижения:**
+**Например:**
+- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
+- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.`
+        },
+        {
+          id: 'ir-en',
+          title: 'Глагол ir с предлогом en указывает на способ передвижения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол ir с предлогом en указывает на способ передвижения
 
 - ir en coche — ехать на машине
 - ir en taxi — ехать на такси
@@ -1931,18 +1941,24 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 - ir en tren — ехать на поезде
 - ir en avión — лететь на самолете
 - ir en barco — плыть на корабле
-- ir a pie / ir andando — идти пешком
-
-**Глагол ir с предлогом de указывает на цель передвижения:**
+- ir a pie / ir andando — идти пешком`
+        },
+        {
+          id: 'ir-de',
+          title: 'Глагол ir с предлогом de указывает на цель передвижения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол ir с предлогом de указывает на цель передвижения
 
 - ir de compras — идти за покупками
-- ir de vacaciones — ехать в отпуск, на каникулы
-
-**Например:**
-- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
-- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.
-
-### Конструкция ir + a + инфинитив
+- ir de vacaciones — ехать в отпуск, на каникулы`
+        },
+        {
+          id: 'ir-infinitive',
+          title: 'Конструкция ir + a + инфинитив',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Конструкция ir + a + инфинитив
 
 Используется для:
 - выражения намерения что-то сделать
@@ -1950,9 +1966,14 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 
 **Например:**
 - Voy a descansar un poco. — Я собираюсь немного отдохнуть.
-- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?
-
-## Глагол TENER (иметь)
+- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?`
+        },
+        {
+          id: 'verb-tener',
+          title: 'Глагол TENER (иметь)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол TENER (иметь)
 
 | Лицо | Форма | Русский |
 |------|-------|---------|
@@ -1963,9 +1984,14 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 | vosotros(-as) | tenéis | Вы имеете |
 | ellos/ellas/ustedes | tienen | Они имеют |
 
-**Выражения:** tener hambre, tener sed, tener años, tener razón
-
-## Глагол OÍR (слышать)
+**Выражения:** tener hambre, tener sed, tener años, tener razón`
+        },
+        {
+          id: 'verb-oir',
+          title: 'Глагол OÍR (слышать)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол OÍR (слышать)
 
 | Лицо | Форма | Русский |
 |------|-------|---------|
@@ -1974,12 +2000,8 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 | él/ella/usted | oye | Он/она слышит |
 | nosotros(-as) | oímos | Мы слышим |
 | vosotros(-as) | oís | Вы слышите |
-| ellos/ellas/ustedes | oyen | Они слышат |
-      `,
-      examples: [
-        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
-        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
-        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
+| ellos/ellas/ustedes | oyen | Они слышат |`
+        }
       ]
     },
     vocabulary: [
@@ -5960,6 +5982,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'reading',
     title: 'Чтение: Диалоги в городе',
     description: 'Прочитайте текст и ответьте на вопросы',
+    showCorrectAnswer: true,
+    highlightErrors: true,
     text: 'Ana, Pedro y Pablo se encuentran. Ana: ¡Hola! Buenos días. Pablo: Buenos días, Ana. ¿Qué tal estás? Ana: Bien, gracias. ¿Y tú? Pablo: Todo va bien. ¿De dónde eres tú, Ana? Ana: Yo soy de Rusia. ¿Y tú? Pablo: Yo soy de España. Pedro: Yo soy de Argentina. Pablo: ¡Qué bien! ¿Dónde está tu casa? Pedro: Mi casa está en Buenos Aires. Es una casa grande y bonita. ¿Y tú de dónde eres, Pablo? Pablo: Yo soy de Moscú. ¿Eres estudiante? Pedro: No, soy pintor. Pablo: Mucho gusto. Pedro: Encantado. ¿Y tú, Pablo, eres estudiante? Pablo: Sí, estudio música. ¿Vamos a tomar un café? Ana: No, gracias. Vamos a salir. Yo voy a ver a mi hermana. Pedro: ¿Vais en coche? Ana: Sí, vamos en coche. Voy a dar un libro a mi hermana. Pablo: ¿Tu hermana vive en Madrid? Ana: No, ella vive en Barcelona, pero ahora está en Madrid. Pablo: ¡Adiós! Ana y Pedro: Hasta luego.',
     questions: [
       { question: '¿De dónde es Ana?', options: ['De España', 'De Rusia', 'De Argentina', 'De Francia'], correct: 1 },
