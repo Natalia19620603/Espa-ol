@@ -2278,8 +2278,46 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       { word: 'terco', translation: 'упрямый', audioUrl: null },
       { word: 'cariñoso', translation: 'ласковый', audioUrl: null },
       { word: 'inteligente', translation: 'умный', audioUrl: null },
-      { word: 'tonto', translation: 'глупый', audioUrl: null }
-    ]
+      { word: 'tonto', translation: 'глупый', audioUrl: null },
+      // Дополнительные слова
+      { word: 'compañeros de trabajo', translation: 'коллеги по работе', audioUrl: null },
+      { word: 'director', translation: 'директор', audioUrl: null },
+      { word: 'estatura', translation: 'рост', audioUrl: null },
+      { word: 'secretaria', translation: 'секретарша', audioUrl: null },
+      { word: 'en cambio', translation: 'наоборот', audioUrl: null },
+      { word: 'mejilla', translation: 'щека', audioUrl: null },
+      { word: 'arquitecto', translation: 'архитектор', audioUrl: null }
+    ],
+    readingText: {
+      title: 'En la oficina',
+      content: `Luis. — Ana, ¿qué tal estás? Yo estoy bien.
+Ana. — Muy bien, Luis. Oye, ¿quién es el chico nuevo que está en la oficina?
+Luis. — ¿Te refieres a Pablo? Es el nuevo diseñador.
+Ana. — Sí, Pablo. Tiene el pelo corto y castaño, ¿verdad? ¿Es alto o bajo?
+Luis. — Es bastante alto. Y es muy guapo, ¿no crees?
+Ana. — Sí, es guapo. ¿Y cómo es su carácter? ¿Es tímido?
+Luis. — No, es muy alegre y comunicativo. Siempre habla con todos. Además, tiene los ojos azules.
+Ana. — ¡Ah, qué bien! Yo tengo mucha sed ahora. ¿Tú vas a la cocina?
+Luis. — Sí, yo voy a tomar un vaso de agua. ¿Vas tú?
+Ana. — No, gracias. Tengo mucho trabajo, tengo que terminar hoy.
+Luis. — Vale, oigo la llamada. Tengo que volver. ¡Hasta luego!
+Ana. — ¡Adiós!`,
+      translation: `В офисе
+
+Луис. — Ана, как дела? Я в порядке.
+Ана. — Очень хорошо, Луис. Слушай, кто тот новый парень, который в офисе?
+Луис. — Ты имеешь в виду Пабло? Он новый дизайнер.
+Ана. — Да, Пабло. У него короткие каштановые волосы, правда? Он высокий или низкий?
+Луис. — Он довольно высокий. И очень красивый, не находишь?
+Ана. — Да, он красивый. А какой у него характер? Он застенчивый?
+Луис. — Нет, он очень веселый и коммуникабельный. Всегда со всеми разговаривает. К тому же, у него голубые глаза.
+Ана. — Ах, как хорошо! Я сейчас очень хочу пить. Ты идешь на кухню?
+Луис. — Да, я собираюсь выпить стакан воды. Ты идешь?
+Ана. — Нет, спасибо. У меня много работы, я должна закончить сегодня.
+Луис. — Ладно, слышу звонок. Мне нужно вернуться. До скорого!
+Ана. — Пока!`,
+      audioUrl: null
+    }
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
