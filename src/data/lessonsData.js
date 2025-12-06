@@ -1735,7 +1735,6 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
         }
       ]
     },
-    },
     vocabulary: [
       { word: 'a', translation: 'в, на (направление)', audioUrl: null },
       { word: 'de', translation: 'из, от, о', audioUrl: null },
