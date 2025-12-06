@@ -6,6 +6,27 @@ import AudioPlayer from '../components/AudioPlayer'
 import PronunciationRecorder from '../components/PronunciationRecorder'
 import styles from './LessonPage.module.css'
 
+// Компонент флипкарточки для словаря
+function FlashCard({ word, translation }) {
+  const [isFlipped, setIsFlipped] = useState(false)
+
+  return (
+    <div
+      className={`${styles.flashCard} ${isFlipped ? styles.flipped : ''}`}
+      onClick={() => setIsFlipped(!isFlipped)}
+    >
+      <div className={styles.flashCardInner}>
+        <div className={styles.flashCardFront}>
+          <div className={styles.vocabularyWord}>{word}</div>
+        </div>
+        <div className={styles.flashCardBack}>
+          <div className={styles.vocabularyTranslation}>{translation}</div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function LessonPage() {
   const [user, setUser] = useState(null)
   const [currentExercise, setCurrentExercise] = useState(null)
@@ -263,12 +284,10 @@ function LessonPage() {
         {activeTab === 'vocabulary' && (
           <div className={styles.vocabularySection}>
             <h2 className={styles.sectionTitle}>Новые слова</h2>
+            <p className={styles.flashcardHint}>💡 Нажмите на карточку, чтобы увидеть перевод</p>
             <div className={styles.vocabularyList}>
               {lesson.vocabulary && lesson.vocabulary.map((item, index) => (
-                <div key={index} className={styles.vocabularyCard}>
-                  <div className={styles.vocabularyWord}>{item.word}</div>
-                  <div className={styles.vocabularyTranslation}>{item.translation}</div>
-                </div>
+                <FlashCard key={index} word={item.word} translation={item.translation} />
               ))}
             </div>
           </div>
