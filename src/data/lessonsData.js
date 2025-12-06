@@ -8749,6 +8749,208 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
+  // Упражнения для урока 3.1 - Указательные и притяжательные местоимения
+  'ex-3-1-demonstrativos': {
+    id: 'ex-3-1-demonstrativos',
+    type: 'grammar',
+    title: 'Указательные местоимения este/ese/aquel',
+    description: 'Выберите правильное указательное местоимение',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ libro (aquí) es interesante', options: ['Este', 'Ese', 'Aquel', 'Estos'], correct: 0 },
+      { sentence: '___ casa (ahí) es grande', options: ['Este', 'Ese', 'Aquel', 'Esta'], correct: 1 },
+      { sentence: '___ montañas (allí) son altas', options: ['Estas', 'Esas', 'Aquellas', 'Aquella'], correct: 2 },
+      { sentence: '___ hermanos (aquí) son mis primos', options: ['Este', 'Estos', 'Esos', 'Aquellos'], correct: 1 },
+      { sentence: '___ abuelos (ahí) viven en Madrid', options: ['Este', 'Ese', 'Esos', 'Aquellos'], correct: 2 },
+      { sentence: '___ familia (allí) es muy grande', options: ['Este', 'Esa', 'Aquella', 'Estas'], correct: 2 },
+      { sentence: '___ padres (aquí) trabajan en el hospital', options: ['Este', 'Estos', 'Esos', 'Aquel'], correct: 1 },
+      { sentence: '___ mujer (ahí) es mi tía', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '___ niños (aquí) son mis sobrinos', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 2 },
+      { sentence: '___ hombre (allí) es mi suegro', options: ['Este', 'Ese', 'Aquel', 'Estos'], correct: 2 }
+    ]
+  },
+
+  'ex-3-1-posesivos-mi-tu-su': {
+    id: 'ex-3-1-posesivos-mi-tu-su',
+    type: 'grammar',
+    title: 'Притяжательные местоимения mi/tu/su',
+    description: 'Выберите правильное притяжательное местоимение',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ padre es médico (я)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 0 },
+      { sentence: '___ madre trabaja aquí (ты)', options: ['mi', 'tu', 'su', 'tus'], correct: 1 },
+      { sentence: '___ hermanos estudian español (он)', options: ['mi', 'tu', 'su', 'sus'], correct: 3 },
+      { sentence: '___ familia es grande (я)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 0 },
+      { sentence: '___ abuelos viven en Barcelona (ты)', options: ['mi', 'tu', 'tus', 'su'], correct: 2 },
+      { sentence: '___ esposa se llama Ana (él)', options: ['mi', 'tu', 'su', 'sus'], correct: 2 },
+      { sentence: '___ hijos son pequeños (она)', options: ['mi', 'tu', 'su', 'sus'], correct: 3 },
+      { sentence: '___ tío vive en Valencia (я)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 0 },
+      { sentence: '___ primos vienen mañana (ты)', options: ['mi', 'tu', 'tus', 'su'], correct: 2 },
+      { sentence: '___ marido trabaja en el banco (ella)', options: ['mi', 'tu', 'su', 'sus'], correct: 2 }
+    ]
+  },
+
+  'ex-3-1-posesivos-nuestro': {
+    id: 'ex-3-1-posesivos-nuestro',
+    type: 'grammar',
+    title: 'Притяжательные местоимения nuestro/vuestro',
+    description: 'Выберите правильную форму притяжательного местоимения',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ padre trabaja aquí (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 0 },
+      { sentence: '___ madre cocina bien (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 },
+      { sentence: '___ hermanos estudian (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 2 },
+      { sentence: '___ familia es alegre (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 },
+      { sentence: '___ abuelas viven aquí (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 3 },
+      { sentence: '___ hijos son buenos (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 2 },
+      { sentence: '___ tíos vienen hoy (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 2 },
+      { sentence: '___ casa está en Madrid (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 },
+      { sentence: '___ padres trabajan (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 2 },
+      { sentence: '___ nieta se llama María (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 }
+    ]
+  },
+
+  'ex-3-1-demonstrativos-sust': {
+    id: 'ex-3-1-demonstrativos-sust',
+    type: 'grammar',
+    title: 'Указательные местоимения без существительного',
+    description: 'Выберите правильный ответ',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '¿Qué libro prefieres: ___ o ese?', options: ['este', 'esta', 'estos', 'estas'], correct: 0 },
+      { sentence: '___ es mi hermano', options: ['Este', 'Esta', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: '¿___ son tus padres?', options: ['Este', 'Estos', 'Esos', 'Aquellos'], correct: 1 },
+      { sentence: '___ es mi abuela', options: ['Este', 'Esta', 'Ese', 'Esa'], correct: 1 },
+      { sentence: 'No me gusta este coche, prefiero ___', options: ['este', 'ese', 'aquel', 'estos'], correct: 2 },
+      { sentence: '___ son mis primos', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 2 },
+      { sentence: 'Esa casa es bonita, pero ___ es más grande', options: ['este', 'esta', 'aquella', 'aquel'], correct: 2 },
+      { sentence: '___ es mi familia', options: ['Este', 'Esta', 'Ese', 'Aquel'], correct: 1 },
+      { sentence: '¿___ son tus hermanos?', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '___ son muy amables', options: ['Este', 'Ese', 'Aquel', 'Aquellos'], correct: 3 }
+    ]
+  },
+
+  'ex-3-1-posesivos-pronombres': {
+    id: 'ex-3-1-posesivos-pronombres',
+    type: 'grammar',
+    title: 'Притяжательные местоимения-существительные',
+    description: 'Выберите правильную форму',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: 'Mi familia es grande. ¿Y ___?', options: ['la tuya', 'el tuyo', 'los tuyos', 'las tuyas'], correct: 0 },
+      { sentence: 'Este libro es ___', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
+      { sentence: 'Nuestros hijos son pequeños, pero ___ son mayores', options: ['el suyo', 'la suya', 'los suyos', 'las suyas'], correct: 2 },
+      { sentence: '¿Esta casa es ___?', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 1 },
+      { sentence: 'Mi padre trabaja aquí. ¿Y ___?', options: ['la tuya', 'el tuyo', 'los tuyos', 'las tuyas'], correct: 1 },
+      { sentence: 'Estos niños son ___', options: ['mío', 'mía', 'míos', 'mías'], correct: 2 },
+      { sentence: 'Tu abuela vive en Madrid, pero ___ vive en Barcelona', options: ['el mío', 'la mía', 'los míos', 'las mías'], correct: 1 },
+      { sentence: 'Vuestros padres están aquí, ___ llegan mañana', options: ['el nuestro', 'la nuestra', 'los nuestros', 'las nuestras'], correct: 2 },
+      { sentence: '¿Estos hermanos son ___?', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 2 },
+      { sentence: 'Un primo ___ vive en México', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-neutros': {
+    id: 'ex-3-1-neutros',
+    type: 'grammar',
+    title: 'Нейтральные формы esto/eso/aquello',
+    description: 'Выберите правильную нейтральную форму',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '¿Qué es ___? (что это здесь)', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 },
+      { sentence: '___ es interesante (то там)', options: ['esto', 'eso', 'aquello', 'ese'], correct: 1 },
+      { sentence: 'No entiendo ___ (то вон там)', options: ['esto', 'eso', 'aquello', 'aquel'], correct: 2 },
+      { sentence: '___ es un problema', options: ['Esto', 'Eso', 'Aquello', 'Este'], correct: 0 },
+      { sentence: '___ no me gusta', options: ['Esto', 'Eso', 'Aquello', 'Ese'], correct: 1 },
+      { sentence: '¿Qué es ___ que veo?', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 },
+      { sentence: '¿Para qué sirve ___?', options: ['esto', 'eso', 'aquello', 'ese'], correct: 1 },
+      { sentence: '___ fue terrible', options: ['Esto', 'Eso', 'Aquello', 'Aquel'], correct: 2 },
+      { sentence: '___ es muy bonito', options: ['Esto', 'Eso', 'Aquello', 'Este'], correct: 0 },
+      { sentence: 'No comprendo ___', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-adverbios-lugar': {
+    id: 'ex-3-1-adverbios-lugar',
+    type: 'grammar',
+    title: 'Наречия места aquí/ahí/allí',
+    description: 'Выберите правильное наречие места',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ está mi casa (здесь)', options: ['Aquí', 'Ahí', 'Allí', 'Allá'], correct: 0 },
+      { sentence: 'Ven ___ (сюда)', options: ['aquí', 'acá', 'ahí', 'allí'], correct: 1 },
+      { sentence: '___ vive mi abuela (там далеко)', options: ['Aquí', 'Ahí', 'Allí', 'Acá'], correct: 2 },
+      { sentence: 'Vamos ___ (туда)', options: ['aquí', 'ahí', 'allá', 'acá'], correct: 2 },
+      { sentence: 'Este libro está ___', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 0 },
+      { sentence: 'Ese coche está ___', options: ['aquí', 'ahí', 'allí', 'acá'], correct: 1 },
+      { sentence: 'Aquel edificio está ___', options: ['aquí', 'ahí', 'allí', 'acá'], correct: 2 },
+      { sentence: 'Mi familia vive ___', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 0 },
+      { sentence: '¿Está tu padre ___?', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 1 },
+      { sentence: 'Mis abuelos viven ___', options: ['aquí', 'acá', 'allí', 'ahí'], correct: 2 }
+    ]
+  },
+
+  'ex-3-1-su-aclaracion': {
+    id: 'ex-3-1-su-aclaracion',
+    type: 'grammar',
+    title: 'Уточнение su/sus',
+    description: 'Выберите правильную форму для уточнения',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: 'Es el hijo ___', context: '(его)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 },
+      { sentence: 'Son las hermanas ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Es el padre ___', context: '(Ваш - вежливо)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 2 },
+      { sentence: 'Son los hijos ___', context: '(их)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 3 },
+      { sentence: 'Es la madre ___', context: '(его)', options: ['de él', 'de ella', 'de ustedes', 'de ellas'], correct: 0 },
+      { sentence: 'Es la familia ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Son los padres ___', context: '(Ваши - вежливо, мн.ч.)', options: ['de él', 'de ella', 'de ustedes', 'de ellos'], correct: 2 },
+      { sentence: 'Es el marido ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Son las tías ___', context: '(их - женщины)', options: ['de él', 'de ella', 'de ellas', 'de usted'], correct: 2 },
+      { sentence: 'Es la esposa ___', context: '(его)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-combinado': {
+    id: 'ex-3-1-combinado',
+    type: 'grammar',
+    title: 'Комбинированное упражнение',
+    description: 'Выберите правильный вариант',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ es mi familia y ___ es la tuya', options: ['Esta/esa', 'Este/ese', 'Esto/eso', 'Estos/esos'], correct: 0 },
+      { sentence: '¿___ hermanos son ___?', options: ['Este/tuyo', 'Estos/tuyos', 'Esos/tuyas', 'Estas/tuyas'], correct: 1 },
+      { sentence: '___ padres viven aquí', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
+      { sentence: 'Mi abuelo vive aquí, pero el ___ vive allí', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 0 },
+      { sentence: '¿Qué es ___? - ___ es un libro', options: ['esto/Esto', 'eso/Eso', 'este/Este', 'ese/Ese'], correct: 0 },
+      { sentence: '___ casa (ahí) es de mis tíos', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '¿___ son vuestros primos?', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 3 },
+      { sentence: 'Un hermano ___ trabaja en Barcelona', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
+      { sentence: 'Allí viven ___ abuelos maternos', options: ['mi', 'mis', 'nuestro', 'nuestros'], correct: 1 },
+      { sentence: 'La familia ___ es grande', options: ['mío', 'mía', 'míos', 'mías'], correct: 1 }
+    ]
+  },
+
+  'ex-3-1-lectura': {
+    id: 'ex-3-1-lectura',
+    type: 'reading',
+    title: 'Понимание текста о семье',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    showCorrectAnswer: true,
+    text: 'Esta es mi familia. Estos son mis padres: mi padre Roberto y mi madre Isabel. Ellos trabajan en Madrid. Nuestros abuelos viven con nosotros. Ese hombre es mi abuelo Pablo y esa mujer es mi abuela Carmen. Mi tío Pedro vive allí, en Barcelona. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. La mía es una familia grande y alegre.',
+    questions: [
+      { question: '¿Cómo se llama el padre?', options: ['Pablo', 'Pedro', 'Roberto', 'Jorge'], correct: 2 },
+      { question: '¿Dónde trabajan los padres?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Sevilla'], correct: 1 },
+      { question: '¿Quién vive con la familia?', options: ['Los tíos', 'Los primos', 'Los abuelos', 'El padrino'], correct: 2 },
+      { question: '¿Cómo se llama el abuelo?', options: ['Roberto', 'Pedro', 'Pablo', 'Jorge'], correct: 2 },
+      { question: '¿Dónde vive el tío Pedro?', options: ['En Madrid', 'En Barcelona', 'En Valencia', 'En Sevilla'], correct: 1 },
+      { question: '¿Cómo se llama la esposa del tío Pedro?', options: ['Isabel', 'Carmen', 'Laura', 'Marta'], correct: 2 },
+      { question: '¿Cuántos hijos tienen los tíos?', options: ['Uno', 'Dos', 'Tres', 'Cuatro'], correct: 1 },
+      { question: '¿Cómo se llaman los primos?', options: ['Roberto y Pablo', 'Pedro y Laura', 'Jorge y Marta', 'Pablo y Carmen'], correct: 2 },
+      { question: '¿Quién es Carmen?', options: ['La madre', 'La tía', 'La abuela', 'La prima'], correct: 2 },
+      { question: '¿Cómo es la familia?', options: ['Pequeña', 'Grande y alegre', 'Triste', 'Pequeña y alegre'], correct: 1 }
+    ]
+  },
+
   'ex-7-1-6-subj': {
     id: 'ex-7-1-6-subj',
     type: 'subjunctive',
