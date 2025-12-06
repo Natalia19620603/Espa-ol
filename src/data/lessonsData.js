@@ -487,7 +487,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
         { start: 9, end: 12, text: 'Hasta luego. Adiós.' }
       ]
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq', 'ex-1-1-16-audio-ll-y', 'ex-1-1-17-audio-letra-l', 'ex-1-1-18-audio-letra-s', 'ex-1-1-19-audio-za-zo-zu-ce-ci', 'ex-1-1-20-audio-letra-ch', 'ex-1-1-21-audio-ga-go-gu', 'ex-1-1-22-audio-j-g', 'ex-1-1-23-audio-letra-k', 'ex-1-1-24-audio-ara-aro']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -1172,121 +1172,54 @@ Estar используется для обозначения временных 
       { word: 'su', translation: 'его, её, Ваш', audioUrl: null }
     ],
     readingText: {
-      title: 'Diálogos: Formal e Informal',
-      content: `**1. Presentación Formal e Informal**
+      title: 'Palabras y frases',
+      content: `Hola. Yo soy Ana y soy chica. Ella es mi amiga María. María es joven y guapa. El libro es grande y azul. La casa es blanca. El padre es alto y bueno.
 
-(En una reunión de trabajo en la ciudad.)
 
-Señorita Ana (Formal): Buenos días, señor.
 
-Señor Carlos (Formal): Buenos días, señorita. Usted es economista, ¿verdad?
+Buenos días, ¿Cómo estás? Yo estoy bien, gracias. Ahora estoy en la playa. El sol es caliente. Un chico está en el coche. Su coche es nuevo y barato. Mi hermana es alumna. Ella está contenta. La ciudad es grande, pero mi casa es pequeña.
 
-Ana: Sí, yo soy Ana. Mucho gusto, señor. ¿Cómo se llama usted?
 
-Carlos: Me llamo Carlos. Encantado. ¿De dónde es?
 
-Ana: Soy de Argentina, pero ahora estoy en Madrid. ¿Qué tal la familia?
+El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él está en casa. Un libro interesante está en la mesa. Nosotros somos clientes ricos, pero estamos enfermos. La flor es bonita y verde. ¿Dónde están los aviones? Los aviones son grandes. Tú eres economista. Tu trabajo es difícil, pero es interesante.`,
+      translation: `**Приветствия и выражения**
+Привет! Доброе утро. Добрый день. Добрый вечер/Спокойной ночи.
+Спасибо. Большое спасибо. Пожалуйста (ответ). Пожалуйста (просьба).
+Пока. Очень приятно. Рад познакомиться (м.р.). Рада познакомиться (ж.р.).
 
-Carlos: Todo va bien, gracias. Mi padre es un hombre rico y feliz.
+**Семья**
+Отец. Мать. Брат. Сестра.
+Мой отец. Моя мать. Твой брат. Твоя сестра.
+Молодой мальчик. Молодая девочка.
+Высокий мужчина. Высокая женщина.
+Хороший друг. Хорошая подруга.
 
-Ana: ¡Qué bien! ¡Adiós!
+**Описания**
+Большая книга. Большой дом.
+Красивый день. Красивый город.
+Интересный музей. Красивый пляж.
+Горячий кофе. Холодная ночь.
+Белое солнце. Белый свет.
+Дорогая машина. Дорогой цветок.
 
-**2. Descripción y Estado de Ánimo**
+**Места**
+Дом. Музей. Пляж. Город.
+Длинная улица. Длинный день.
+Дома. В музее. На пляже. В городе.
 
-(Dos amigos se encuentran en la calle un lunes.)
+**Качества и состояния**
+Счастливый. Довольный. Весёлый. Грустный.
+Больной. Молодой. Старый. Высокий. Низкий.
+Красивый. Симпатичный. Некрасивый. Хороший. Плохой.
+Новый. Старинный. Большой. Маленький.
+Толстый. Стройный. Богатый. Бедный.
 
-Chico (Informal): ¡Hola, María! ¿Cómo estás?
-
-Chica (Informal): Hola, Pedro. Así así. Es lunes y el día es largo.
-
-Chico: Tienes razón. Tu coche es nuevo y bonito. ¿Es caro?
-
-Chica: No mucho, es barato. Mi coche no es un problema. El problema es que mi hermano está triste.
-
-Chico: ¿Por qué está triste?
-
-Chica: Su amiga está enferma.
-
-Chico: Lo siento. Pero su hermana es muy alegre, ¿no?
-
-Chica: Sí, ella es feliz. Vamos por un café caliente.
-
-Chico: ¡Sí, por favor! Muchas gracias.
-
-**3. Planes y Lugares**
-
-(Dos estudiantes hablan por teléfono.)
-
-Estudiante A (Informal): ¡Buenas tardes! ¿Dónde estás ahora?
-
-Estudiante B (Informal): Estoy en el aula. ¿Tú eres estudiante nuevo?
-
-Estudiante A: Sí, soy yo.
-
-Estudiante B: ¿Vamos a ir a la playa bonita o al museo interesante?
-
-Estudiante A: Al museo. El sol está muy caliente ahora.
-
-Estudiante B: ¡Tienes razón! El día es difícil para la playa.
-
-Estudiante A: Nos vemos. Adiós.`,
-      translation: `**1. Формальное и неформальное представление**
-
-(На деловой встрече в городе.)
-
-Сеньорита Ана (Формально): Доброе утро, сеньор.
-
-Сеньор Карлос (Формально): Доброе утро, сеньорита. Вы экономист, правда?
-
-Ана: Да, я Ана. Очень приятно, сеньор. Как вас зовут?
-
-Карлос: Меня зовут Карлос. Рад познакомиться. Откуда вы?
-
-Ана: Я из Аргентины, но сейчас я в Мадриде. Как семья?
-
-Карлос: Все хорошо, спасибо. Мой отец богатый и счастливый человек.
-
-Ана: Как хорошо! До свидания!
-
-**2. Описание и настроение**
-
-(Два друга встречаются на улице в понедельник.)
-
-Парень (Неформально): Привет, Мария! Как дела?
-
-Девушка (Неформально): Привет, Педро. Так себе. Сегодня понедельник, и день долгий.
-
-Парень: Ты права. Твоя машина новая и красивая. Она дорогая?
-
-Девушка: Не очень, она недорогая. Моя машина не проблема. Проблема в том, что мой брат грустный.
-
-Парень: Почему он грустный?
-
-Девушка: Его подруга больна.
-
-Парень: Мне жаль. Но его сестра очень веселая, правда?
-
-Девушка: Да, она счастливая. Пойдем за горячим кофе.
-
-Парень: Да, пожалуйста! Большое спасибо.
-
-**3. Планы и места**
-
-(Два студента разговаривают по телефону.)
-
-Студент A (Неформально): Добрый день! Где ты сейчас?
-
-Студент B (Неформально): Я в аудитории. Ты новый студент?
-
-Студент A: Да, это я.
-
-Студент B: Пойдем на красивый пляж или в интересный музей?
-
-Студент A: В музей. Солнце сейчас очень жаркое.
-
-Студент B: Ты прав! День трудный для пляжа.
-
-Студент A: Увидимся. Пока.`,
+**Предметы и вещи**
+Новая книга. Новый дом.
+Маленький карандаш. Маленькая рука.
+Зелёная машина. Синий цветок.
+Большой самолёт. Большая станция.
+Деньги. Любовь. Счастье. Здоровье.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 4, text: '¡Hola! ¿Cómo te llamas?' },
@@ -1296,7 +1229,7 @@ Estudiante A: Nos vemos. Adiós.`,
         { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3', 'ex-2-2-2']
+    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3']
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
@@ -1529,20 +1462,9 @@ Estudiante A: Nos vemos. Adiós.`,
     moduleId: 'module-2',
     grammar: {
       title: 'Простые предлоги.Числительные. Правильные глаголы',
-      intro: `# Грамматика урока
+      content: `
+# 1. Простые предлоги
 
-В этом уроке мы изучим:
-- Простые предлоги в испанском языке
-- Количественные числительные от 0 до 100
-- Спряжение правильных глаголов в настоящем времени
-- Выражения с глаголом TOMAR`,
-      sections: [
-        {
-          id: 'preposition-a',
-          title: 'Предлог "a"',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
 ## Предлог "a"
 
 Указывает направление движения куда-либо, то есть используется, чтобы ответить на вопрос куда?
@@ -1560,14 +1482,7 @@ a + el → al
 **Примеры:**
 - ver a mi amigo — видеть (кого?) моего друга
 - dar un regalo a la profesora — дать (кому?) учительнице подарок
-`
-        },
-        {
-          id: 'preposition-de',
-          title: 'Предлог "de"',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+
 ## Предлог "de"
 
 Указывает точку, из которой начато движение, то есть используется, чтобы ответить на вопрос откуда?
@@ -1582,14 +1497,7 @@ de + el → del
 Передает значение русского родительного падежа (кого? чего?), указывает на принадлежность:
 - Es la hermana del pintor. — Это сестра художника.
 - Los libros de la estudiante son caros. — Книги студентки дорогие.
-`
-        },
-        {
-          id: 'preposition-en',
-          title: 'Предлог "en"',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+
 ## Предлог "en"
 
 Соответствует русским предлогам в, на. Указывает на местонахождение. Используется, чтобы ответить на вопрос где?
@@ -1601,29 +1509,15 @@ de + el → del
 С глаголом ir указывает на способ передвижения:
 - viajar en tren — путешествовать на поезде
 - ir en coche — ехать на машине
-`
-        },
-        {
-          id: 'prepositions-other',
-          title: 'Предлоги "con", "por", "para", "sin"',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+
 ## Предлоги "con", "por", "para", "sin"
 
 - **con** — с, вместе с: ir al cine con amigos
 - **por** — по, про: hablar por teléfono
 - **para** — для: Este regalo es para ti.
 - **sin** — без: vivir sin problemas
-`
-        },
-        {
-          id: 'numbers',
-          title: 'Количественные числительные 0–100',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
-## Количественные числительные 0–100
+
+# 2. Количественные числительные 0–100
 
 | Número | Español | Número | Español |
 |--------|---------|--------|---------|
@@ -1654,15 +1548,8 @@ de + el → del
 - С 30 до 99 пишутся раздельно с союзом y: treinta y uno
 - Усеченная форма un употребляется перед существительными мужского рода
 - Форма женского рода: una
-`
-        },
-        {
-          id: 'verb-conjugation',
-          title: 'Спряжение правильных глаголов в настоящем времени изъявительного наклонения (Presente de Indicativo)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
-## Спряжение правильных глаголов в настоящем времени изъявительного наклонения (Presente de Indicativo)
+
+# 3. Спряжение правильных глаголов в настоящем времени изъявительного наклонения (Presente de Indicativo)
 
 Испанские глаголы делятся на три спряжения в зависимости от окончания их инфинитива (неопределенной формы):
 
@@ -1673,14 +1560,7 @@ II спряжение: глаголы на -er (например, comer)
 III спряжение: глаголы на -ir (например, vivir)
 
 Для спряжения правильных глаголов необходимо отбросить окончание инфинитива (-ar, -er, -ir) и добавить соответствующие личные окончания.
-`
-        },
-        {
-          id: 'conjugation-table',
-          title: 'Таблица спряжения правильных глаголов',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+
 ## Таблица спряжения правильных глаголов
 
 | Местоимение | I спряжение (-AR) | II спряжение (-ER) | III спряжение (-IR) |
@@ -1691,14 +1571,7 @@ III спряжение: глаголы на -ir (например, vivir)
 | nosotros (-as) | -amos (habl-amos) | -emos (com-emos) | -imos (viv-imos) |
 | vosotros (-as) | -áis (habl-áis) | -éis (com-éis) | -ís (viv-ís) |
 | ellos, ellas, ustedes | -an (habl-an) | -en (com-en) | -en (viv-en) |
-`
-        },
-        {
-          id: 'verb-examples',
-          title: 'Примеры правильных глаголов и их употребление',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+
 ## Примеры правильных глаголов и их употребление
 
 ### I спряжение (-AR)
@@ -1727,72 +1600,41 @@ III спряжение: глаголы на -ir (например, vivir)
 | abrir | открывать | El cliente abre la puerta. | Клиент открывает дверь. |
 | escribir | писать | Ella escribe un artículo difícil. | Она пишет трудную статью. |
 | vivir | жить | Ellos viven en un país rico. | Они живут в богатой стране. |
-`
-        },
-        {
-          id: 'tomar-take',
-          title: '1. Значение "Брать / Получать"',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
-## 1. Значение "Брать / Получать"
+
+# 4. Выражения с глаголом TOMAR
 
 Глагол tomar — один из наиболее многозначных глаголов в испанском языке. В зависимости от контекста он может переводиться как брать, есть, пить, принимать или садиться на транспорт.
 
-**Примеры:**
-- tomar libros para leer — брать книги, чтобы читать
-- tomar un coche — брать машину
-- tomar un libro — брать книгу
-`
-        },
-        {
-          id: 'tomar-eat-drink',
-          title: '2. Значение "Есть / Пить" (Прием пищи или напитков)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+Ниже приведены основные группы словосочетаний с глаголом tomar для запоминания:
+
+## 1. Значение "Брать / Получать"
+
+tomar libros para leer — брать книги, чтобы читать
+
 ## 2. Значение "Есть / Пить" (Прием пищи или напитков)
 
-**Примеры:**
-- tomar agua (f) — пить воду
-- tomar un bocadillo (m) — есть бутерброд
-- tomar café — пить кофе
-- tomar zumo — пить сок
-`
-        },
-        {
-          id: 'tomar-transport',
-          title: '3. Значение "Садиться на транспорт" (Выбирать маршрут)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+tomar agua (f) — пить воду
+
+tomar un bocadillo (m) — есть бутерброд
+
 ## 3. Значение "Садиться на транспорт" (Выбирать маршрут)
 
-**Примеры:**
-- tomar el metro — сесть на метро
-- tomar el tranvía — сесть на трамвай
-- tomar el tren — сесть на поезд
-- tomar un taxi — сесть на такси
-- tomar el autobús — сесть на автобус
-`
-        },
-        {
-          id: 'tomar-other',
-          title: '4. Другие устойчивые выражения',
-          collapsible: true,
-          defaultOpen: false,
-          content: `
+tomar el metro — сесть на метро
+
+tomar el tranvía — сесть на трамвай
+
+tomar el tren — сесть на поезд
+
+tomar un taxi — сесть на такси
+
 ## 4. Другие устойчивые выражения
 
-**Примеры:**
-- tomar en serio — принимать всерьез
-- tomar medicinas — принимать лекарства
-- tomar el sol — загорать
-- tomar una decisión — принимать решение
-- tomar notas — делать заметки
-`
-        }
-      ]
+tomar en serio — принимать всерьез
+
+tomar medicinas — принимать лекарства
+
+tomar el sol — загорать
+      `
     },
     vocabulary: [
       { word: 'a', translation: 'в, на (направление)', audioUrl: null },
@@ -1849,13 +1691,6 @@ III спряжение: глаголы на -ir (например, vivir)
       { word: 'escribir', translation: 'писать', audioUrl: null },
       { word: 'vivir', translation: 'жить', audioUrl: null },
       { word: 'recibir', translation: 'получать', audioUrl: null },
-      { word: 'vender', translation: 'продавать', audioUrl: null },
-      { word: 'responder', translation: 'отвечать', audioUrl: null },
-      { word: 'correr', translation: 'бежать, бегать', audioUrl: null },
-      { word: 'subir', translation: 'подниматься', audioUrl: null },
-      { word: 'partir', translation: 'уходить, отправляться', audioUrl: null },
-      { word: 'decidir', translation: 'решать', audioUrl: null },
-      { word: 'dividir', translation: 'делить', audioUrl: null },
       { word: 'agua', translation: 'вода (f)', audioUrl: null },
       { word: 'bocadillo', translation: 'бутерброд (m)', audioUrl: null },
       { word: 'metro', translation: 'метро (m)', audioUrl: null },
@@ -1922,23 +1757,38 @@ III спряжение: глаголы на -ir (например, vivir)
       { word: 'partir', translation: 'уезжать', audioUrl: null }
     ],
     readingText: {
-      title: 'La rutina diaria',
-      content: `La mañana empieza difícil. Juan está mal y toma medicinas. Luego llama al médico.
+      title: 'Diálogos en la ciudad',
+      content: `**Diálogo en la ciudad**
 
-En la ciudad, el agente de policía habla de la vida y yo escucho con atención. Yo tomo té con limón y mi amiga Elena toma café. En la radio se escuchan las noticias.
+Juan: ¡Hola! Yo soy Juan. ¿Y tú?
+Ana: Me llamo Ana. Soy joven y alegre.
+Juan: ¡Mucho gusto! La ciudad es grande.
+Ana: Sí, es grande y bonita. Ahora estoy en la calle.
+Juan: Yo estoy en casa.
+Ana: ¡Adiós!
+Juan: ¡Adiós!
 
-El Señor García está en casa. Él escribe una carta para la hija que vive en Italia. Miguel está en la oficina y escribe un artículo para la revista.
+**Diálogo sobre ubicación y origen**
 
-En la universidad, Sara lee la poesía en voz alta. Yo tomo libros para leer y leo el periódico en el metro. Yo tomo el tranvía y Sara toma el tren para ir a clase. Los alumnos leen un libro en español.
+Felipe: Buenos días, señora. ¿Cómo se llama usted?
+Doña Clara: Me llamo Doña Clara. Soy rica.
+Felipe: Encantado. Yo soy Felipe, soy estudiante. Soy de Rusia.
+Doña Clara: Qué interesante... ¿De dónde es su hermano?
+Felipe: Mi hermano es de China. Él es ingeniero y está casado.
+Doña Clara: Yo estoy en casa. ¿Dónde está el museo?
+Felipe: Vengo del museo. El museo es antiguo.
 
-Pedro y yo estamos en casa. Clara y tú vivís en Dinamarca y ustedes viven en Italia. Ellos toman un taxi para el aeropuerto.
+**Diálogo sobre estados y rutinas**
 
-Pedro y yo hablamos de un problema. Nosotros llamamos al médico porque la madre está mal. Ella no toma agua y no toma leche. Yo pregunto a la madre de Luis por la operación.
-
-Al mediodía, yo tomo un bocadillo en la oficina y tomo zumo. Vosotros no coméis. Yo no tomo en serio lo que dice el abogado.
-
-Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa, yo tomo el sol mientras tú lees revistas.`,
-      translation: 'Ежедневная рутина\n\nУтро начинается трудно. Хуан болен и принимает лекарства. Потом он звонит врачу.\n\nВ городе полицейский рассказывает о жизни, и я слушаю внимательно. Я пью чай с лимоном, а моя подруга Елена пьет кофе. По радио слушают новости.\n\nСеньор Гарсия дома. Он пишет письмо дочери, которая живет в Италии. Мигель в офисе и пишет статью для журнала.\n\nВ университете Сара читает поэзию вслух. Я беру книги для чтения и читаю газету в метро. Я еду на трамвае, а Сара едет на поезде на занятия. Студенты читают книгу на испанском.\n\nПедро и я дома. Клара и ты живете в Дании, а вы живете в Италии. Они берут такси в аэропорт.\n\nПедро и я говорим о проблеме. Мы звоним врачу, потому что мать больна. Она не пьет воду и не пьет молоко. Я спрашиваю мать Луиса об операции.\n\nВ полдень я ем бутерброд в офисе и пью сок. Вы не едите. Я не принимаю всерьез то, что говорит адвокат.\n\nВ конце дня мы пьем вино, а вы пьете пиво. На пляже я загораю, пока ты читаешь журналы.',
+Pedro: ¡Hola! ¿Cómo estás?
+Marta: Estoy regular. Mi mano está fría y tengo veinticinco años.
+Pedro: ¡Qué lástima! ¿Estás enferma?
+Marta: No, no estoy enferma, estoy triste. Soy soltera. ¿Y tú?
+Pedro: Yo soy policía. Soy alto y delgado. Ahora voy a la escuela con mi amigo Carlos.
+Marta: ¿Es fácil la escuela?
+Pedro: Es difícil, pero es interesante. Estamos contentos.
+Marta: Mi hermano está en la playa. El sol es caliente.`,
+      translation: 'Диалог в городе\n\nХуан: Привет! Я Хуан. А ты?\nАна: Меня зовут Ана. Я молодая и веселая.\nХуан: Очень приятно! Город большой.\nАна: Да, он большой и красивый. Сейчас я на улице.\nХуан: Я дома.\nАна: Пока!\nХуан: Пока!\n\nДиалог о местонахождении и происхождении\n\nФелипе: Доброе утро, сеньора. Как вас зовут?\nДонья Клара: Меня зовут Донья Клара. Я богата.\nФелипе: Рад познакомиться. Я Фелипе, я студент. Я из России.\nДонья Клара: Как интересно... Откуда ваш брат?\nФелипе: Мой брат из Китая. Он инженер и женат.\nДонья Клара: Я дома. Где находится музей?\nФелипе: Я иду из музея. Музей старинный.\n\nДиалог о состояниях и распорядке\n\nПедро: Привет! Как дела?\nМарта: Так себе. Моя рука холодная, и мне двадцать пять лет.\nПедро: Как жаль! Ты больна?\nМарта: Нет, я не больна, я грустная. Я не замужем. А ты?\nПедро: Я полицейский. Я высокий и стройный. Сейчас я иду в школу с моим другом Карлосом.\nМарта: Легко ли в школе?\nПедро: Сложно, но интересно. Мы довольны.\nМарта: Мой брат на пляже. Солнце горячее.',
       audioUrl: '/audio/lesson-2-1-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: '¡Hola! Yo soy Juan. ¿Y tú?' },
@@ -1955,21 +1805,10 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
     moduleId: 'module-2',
     grammar: {
       title: 'Неправильные глаголы IR, TENER, OÍR',
-      intro: `# Грамматика урока
+      content: `
+# Глаголы IR, TENER, OÍR
 
-В этом уроке мы изучим:
-- Глагол IR (идти, ехать) и его спряжение
-- Употребление глагола IR с предлогами
-- Конструкцию ir + a + инфинитив для выражения будущего
-- Глагол TENER (иметь) и его спряжение
-- Глагол OÍR (слышать) и его спряжение`,
-      sections: [
-        {
-          id: 'verb-ir',
-          title: 'Глагол IR (идти, ехать)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Глагол IR (идти, ехать)
+## Глагол IR (идти, ехать)
 
 | Лицо | Форма | Русский |
 |------|-------|---------|
@@ -1978,14 +1817,9 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 | él/ella/usted | va | Он/она идет |
 | nosotros(-as) | vamos | Мы идем |
 | vosotros(-as) | vais | Вы идете |
-| ellos/ellas/ustedes | van | Они идут |`
-        },
-        {
-          id: 'ir-prepositions',
-          title: 'Глагол IR с предлогами',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Глагол IR с предлогами
+| ellos/ellas/ustedes | van | Они идут |
+
+### Глагол IR с предлогами
 
 **Глагол ir с предлогом а обозначает направление движения вперед от говорящего.**
 
@@ -1998,16 +1832,7 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 - ir a casa — идти домой
 - ir a Rusia — ехать в Россию
 
-**Например:**
-- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
-- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.`
-        },
-        {
-          id: 'ir-en',
-          title: 'Глагол ir с предлогом en указывает на способ передвижения',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Глагол ir с предлогом en указывает на способ передвижения
+**Глагол ir с предлогом en указывает на способ передвижения:**
 
 - ir en coche — ехать на машине
 - ir en taxi — ехать на такси
@@ -2015,24 +1840,18 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 - ir en tren — ехать на поезде
 - ir en avión — лететь на самолете
 - ir en barco — плыть на корабле
-- ir a pie / ir andando — идти пешком`
-        },
-        {
-          id: 'ir-de',
-          title: 'Глагол ir с предлогом de указывает на цель передвижения',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Глагол ir с предлогом de указывает на цель передвижения
+- ir a pie / ir andando — идти пешком
+
+**Глагол ir с предлогом de указывает на цель передвижения:**
 
 - ir de compras — идти за покупками
-- ir de vacaciones — ехать в отпуск, на каникулы`
-        },
-        {
-          id: 'ir-infinitive',
-          title: 'Конструкция ir + a + инфинитив',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Конструкция ir + a + инфинитив
+- ir de vacaciones — ехать в отпуск, на каникулы
+
+**Например:**
+- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
+- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.
+
+### Конструкция ir + a + инфинитив
 
 Используется для:
 - выражения намерения что-то сделать
@@ -2040,14 +1859,9 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 
 **Например:**
 - Voy a descansar un poco. — Я собираюсь немного отдохнуть.
-- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?`
-        },
-        {
-          id: 'verb-tener',
-          title: 'Глагол TENER (иметь)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Глагол TENER (иметь)
+- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?
+
+## Глагол TENER (иметь)
 
 | Лицо | Форма | Русский |
 |------|-------|---------|
@@ -2058,51 +1872,9 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 | vosotros(-as) | tenéis | Вы имеете |
 | ellos/ellas/ustedes | tienen | Они имеют |
 
-**Выражения:** tener hambre, tener sed, tener años, tener razón`
-        },
-        {
-          id: 'tener-usage',
-          title: 'Особенности использования глагола TENER',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Особенности использования глагола TENER
+**Выражения:** tener hambre, tener sed, tener años, tener razón
 
-В испанском языке употребление артиклей с глаголом TENER (Tener un/una, Tener Ø) зависит от того, является ли существительное исчисляемым, стоит ли оно в единственном или множественном числе, а также от того, является ли предложение утвердительным или отрицательным.
-
-### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ В ЕДИНСТВЕННОМ ЧИСЛЕ (Утвердительное предложение):
-→ Употребляется неопределенный артикль UN/UNA.
-
-- Yo tengo un coche. (У меня есть машина)
-- Mi hermana tiene una tarea pendiente. (У моей сестры есть незавершенное задание)
-- Ustedes tienen un diccionario nuevo. (У вас есть новый словарь)
-
-### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ ВО МНОЖЕСТВЕННОМ ЧИСЛЕ (Утвердительное предложение):
-→ Артикль НЕ употребляется (Ø).
-
-- Nosotros tenemos Ø libros en casa. (У нас есть книги дома)
-- Ellos tienen Ø flores en el jardín. (У них есть цветы в саду)
-- Tú tienes Ø amigos muy simpáticos. (У тебя есть очень милые друзья)
-
-### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ В ЕДИНСТВЕННОМ ЧИСЛЕ (Отрицательное предложение):
-→ Артикль НЕ употребляется (Ø).
-
-- No tengo Ø coche. (У меня нет машины)
-- Él no tiene Ø teléfono móvil. (У него нет мобильного телефона)
-- ¿Por qué no tienes Ø mochila? (Почему у тебя нет рюкзака?)
-
-### ИСЧИСЛЯЕМОЕ СУЩЕСТВИТЕЛЬНОЕ ВО МНОЖЕСТВЕННОМ ЧИСЛЕ (Отрицательное предложение):
-→ Артикль НЕ употребляется (Ø).
-
-- No tenemos Ø libros para estudiar. (У нас нет книг для учебы)
-- Usted no tiene Ø documentos. (У Вас нет документов)
-- Vosotros no tenéis Ø mascotas. (У вас нет домашних животных)`
-        },
-        {
-          id: 'verb-oir',
-          title: 'Глагол OÍR (слышать)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Глагол OÍR (слышать)
+## Глагол OÍR (слышать)
 
 | Лицо | Форма | Русский |
 |------|-------|---------|
@@ -2111,8 +1883,12 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
 | él/ella/usted | oye | Он/она слышит |
 | nosotros(-as) | oímos | Мы слышим |
 | vosotros(-as) | oís | Вы слышите |
-| ellos/ellas/ustedes | oyen | Они слышат |`
-        }
+| ellos/ellas/ustedes | oyen | Они слышат |
+      `,
+      examples: [
+        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
+        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
+        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
       ]
     },
     vocabulary: [
@@ -2121,21 +1897,6 @@ Al final del día, nosotros tomamos vino y vosotros tomáis cerveza. En la playa
       { word: 'estar', translation: 'быть, находиться', audioUrl: null },
       { word: 'venir', translation: 'приходить', audioUrl: null },
       { word: 'tener', translation: 'иметь', audioUrl: null },
-      { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
-      { word: 'tener familia', translation: 'иметь семью', audioUrl: null },
-      { word: 'tener padre / madre', translation: 'иметь отца / мать', audioUrl: null },
-      { word: 'tener dinero', translation: 'иметь деньги', audioUrl: null },
-      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
-      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
-      { word: 'tener hambre', translation: 'быть голодным / хотеть есть', audioUrl: null },
-      { word: 'tener sed', translation: 'испытывать жажду / хотеть пить', audioUrl: null },
-      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
-      { word: 'tener miedo', translation: 'бояться (испытывать страх)', audioUrl: null },
-      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
-      { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
-      { word: 'tener prisa', translation: 'торопиться, спешить', audioUrl: null },
-      { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
-      { word: 'tener que + инфинитив', translation: 'быть должным сделать что-либо', audioUrl: null },
       { word: 'poder', translation: 'мочь', audioUrl: null },
       { word: 'querer', translation: 'хотеть', audioUrl: null },
       { word: 'saber', translation: 'знать', audioUrl: null },
@@ -2181,154 +1942,155 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2', 'ex-2-2-tener-conjugation', 'ex-2-2-tener-rus-esp', 'ex-2-2-oir-conjugation']
+    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3']
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
-    title: 'Урок 3: Черты характера. Описание внешности',
+    title: 'Урок 3: Правильные глаголы в настоящем времени',
     moduleId: 'module-2',
+    grammar: {
+      title: 'Правильные глаголы -ER и -IR в настоящем времени',
+      content: `
+# Правильные глаголы -ER и -IR в настоящем времени
+
+В испанском языке глаголы делятся на три группы в зависимости от окончания инфинитива: -AR, -ER, -IR. В этом уроке изучаем спряжение правильных глаголов на -ER и -IR.
+
+## 1. Глаголы на -ER (например: COMER - есть)
+
+Чтобы проспрягать правильный глагол на -ER, нужно убрать окончание -ER и добавить соответствующее личное окончание:
+
+| Местоимение | Окончание | COMER | Перевод |
+|-------------|-----------|-------|---------|
+| yo | -o | como | я ем |
+| tú | -es | comes | ты ешь |
+| él, ella, usted | -e | come | он/она ест, Вы едите |
+| nosotros (-as) | -emos | comemos | мы едим |
+| vosotros (-as) | -éis | coméis | вы едите |
+| ellos, ellas, ustedes | -en | comen | они едят, Вы (вежл.) едите |
+
+### Примеры глаголов на -ER:
+
+- **BEBER** (пить): bebo, bebes, bebe, bebemos, bebéis, beben
+- **LEER** (читать): leo, lees, lee, leemos, leéis, leen
+- **APRENDER** (учить, изучать): aprendo, aprendes, aprende, aprendemos, aprendéis, aprenden
+- **VENDER** (продавать): vendo, vendes, vende, vendemos, vendéis, venden
+- **RESPONDER** (отвечать): respondo, respondes, responde, respondemos, respondéis, responden
+- **CORRER** (бежать): corro, corres, corre, corremos, corréis, corren
+
+### Примеры предложений с глаголами на -ER:
+
+- Yo **como** pasta todos los días. (Я ем пасту каждый день.)
+- Tú **bebes** agua. (Ты пьешь воду.)
+- Ella **lee** libros en español. (Она читает книги на испанском.)
+- Nosotros **aprendemos** español. (Мы учим испанский.)
+- Vosotros **vendéis** frutas. (Вы продаете фрукты.)
+- Ellos **corren** en el parque. (Они бегают в парке.)
+
+## 2. Глаголы на -IR (например: VIVIR - жить)
+
+Чтобы проспрягать правильный глагол на -IR, нужно убрать окончание -IR и добавить соответствующее личное окончание:
+
+| Местоимение | Окончание | VIVIR | Перевод |
+|-------------|-----------|-------|---------|
+| yo | -o | vivo | я живу |
+| tú | -es | vives | ты живешь |
+| él, ella, usted | -e | vive | он/она живет, Вы живете |
+| nosotros (-as) | -imos | vivimos | мы живем |
+| vosotros (-as) | -ís | vivís | вы живете |
+| ellos, ellas, ustedes | -en | viven | они живут, Вы (вежл.) живете |
+
+### Примеры глаголов на -IR:
+
+- **ESCRIBIR** (писать): escribo, escribes, escribe, escribimos, escribís, escriben
+- **ABRIR** (открывать): abro, abres, abre, abrimos, abrís, abren
+- **RECIBIR** (получать): recibo, recibes, recibe, recibimos, recibís, reciben
+- **SUBIR** (подниматься): subo, subes, sube, subimos, subís, suben
+- **PARTIR** (уходить, отправляться): parto, partes, parte, partimos, partís, parten
+
+### Примеры предложений с глаголами на -IR:
+
+- Yo **vivo** en Madrid. (Я живу в Мадриде.)
+- Tú **escribes** cartas. (Ты пишешь письма.)
+- Él **abre** la puerta. (Он открывает дверь.)
+- Nosotros **recibimos** mensajes. (Мы получаем сообщения.)
+- Vosotros **subís** las escaleras. (Вы поднимаетесь по лестнице.)
+- Ellas **viven** en España. (Они живут в Испании.)
+
+## Сходства и различия глаголов -ER и -IR
+
+**Сходства:**
+- Окончания для yo, tú, él/ella/usted, ellos/ellas/ustedes **одинаковые**: -o, -es, -e, -en
+
+**Различия:**
+- Окончания для nosotros и vosotros **разные**:
+  - -ER: -emos, -éis
+  - -IR: -imos, -ís
+      `,
+      examples: [
+        { spanish: 'Yo como pasta', translation: 'Я ем пасту' },
+        { spanish: 'Tú bebes agua', translation: 'Ты пьешь воду' },
+        { spanish: 'Ella lee libros', translation: 'Она читает книги' },
+        { spanish: 'Nosotros vivimos en Madrid', translation: 'Мы живем в Мадриде' },
+        { spanish: 'Ellos escriben cartas', translation: 'Они пишут письма' }
+      ]
+    },
     vocabulary: [
-      // Общий внешний вид и телосложение
-      { word: 'aspecto físico', translation: 'внешний вид', audioUrl: null },
-      { word: 'simpático', translation: 'симпатичный, приятный', audioUrl: null },
-      { word: 'antipático', translation: 'неприятный, несимпатичный', audioUrl: null },
-      { word: 'feo', translation: 'некрасивый', audioUrl: null },
-      { word: 'guapo', translation: 'красивый (о человеке)', audioUrl: null },
-      { word: 'hermoso', translation: 'красивый (возвышенно или о вещах)', audioUrl: null },
-      { word: 'alto', translation: 'высокий', audioUrl: null },
-      { word: 'bajo', translation: 'низкий', audioUrl: null },
-      { word: 'gordo', translation: 'толстый', audioUrl: null },
-      { word: 'delgado', translation: 'стройный', audioUrl: null },
-      { word: 'flaco', translation: 'худой (негативный оттенок)', audioUrl: null },
-      { word: 'atlético', translation: 'спортивное телосложение, атлетический', audioUrl: null },
-      { word: 'jorobado', translation: 'горбатый', audioUrl: null },
-      { word: 'cojo', translation: 'хромой', audioUrl: null },
-      // Возраст
-      { word: 'edad', translation: 'возраст', audioUrl: null },
-      { word: 'niño', translation: 'ребенок (мальчик)', audioUrl: null },
-      { word: 'niña', translation: 'ребенок (девочка)', audioUrl: null },
-      { word: 'adolescente', translation: 'подросток', audioUrl: null },
-      { word: 'joven', translation: 'молодой', audioUrl: null },
-      { word: 'maduro', translation: 'средних лет, зрелый', audioUrl: null },
-      { word: 'viejo', translation: 'старый', audioUrl: null },
-      // Волосы
-      { word: 'pelo', translation: 'волосы', audioUrl: null },
-      { word: 'liso', translation: 'прямые', audioUrl: null },
-      { word: 'rizado', translation: 'вьющиеся, кудрявые', audioUrl: null },
-      { word: 'corto', translation: 'короткие', audioUrl: null },
-      { word: 'largo', translation: 'длинные', audioUrl: null },
-      { word: 'calvo', translation: 'лысый', audioUrl: null },
-      { word: 'moreno', translation: 'брюнет, темноволосый', audioUrl: null },
-      { word: 'rubio', translation: 'блондин, светлый', audioUrl: null },
-      { word: 'pelirrojo', translation: 'рыжий', audioUrl: null },
-      { word: 'castaño', translation: 'шатен, каштановый', audioUrl: null },
-      { word: 'cano', translation: 'седой', audioUrl: null },
-      // Черты лица
-      { word: 'facciones', translation: 'черты лица', audioUrl: null },
-      // Глаза
-      { word: 'ojos grandes', translation: 'большие глаза', audioUrl: null },
-      { word: 'ojos pequeños', translation: 'маленькие глаза', audioUrl: null },
-      { word: 'ojos azules', translation: 'голубые глаза', audioUrl: null },
-      { word: 'ojos grises', translation: 'серые глаза', audioUrl: null },
-      { word: 'ojos pardos', translation: 'карие глаза (светло-коричневые)', audioUrl: null },
-      { word: 'ojos verdes', translation: 'зеленые глаза', audioUrl: null },
-      // Нос
-      { word: 'nariz recta', translation: 'прямой нос', audioUrl: null },
-      { word: 'nariz ancha', translation: 'широкий нос', audioUrl: null },
-      { word: 'nariz chata', translation: 'курносый нос', audioUrl: null },
-      // Губы
-      { word: 'labios finos', translation: 'тонкие губы', audioUrl: null },
-      { word: 'labios carnosos', translation: 'полные (пухлые) губы', audioUrl: null },
-      // Брови
-      { word: 'cejas pobladas', translation: 'густые брови', audioUrl: null },
-      // Особые приметы и аксессуары
-      { word: 'lleva', translation: 'носит (аксессуары)', audioUrl: null },
-      { word: 'bigotes', translation: 'усы', audioUrl: null },
-      { word: 'barba', translation: 'борода', audioUrl: null },
-      { word: 'gafas', translation: 'очки', audioUrl: null },
-      { word: 'tatuaje', translation: 'татуировка', audioUrl: null },
-      { word: 'lunar', translation: 'родинка', audioUrl: null },
-      { word: 'cicatriz', translation: 'шрам', audioUrl: null },
-      // Характер
-      { word: 'carácter', translation: 'характер', audioUrl: null },
-      { word: 'alegre', translation: 'веселый', audioUrl: null },
-      { word: 'triste', translation: 'грустный', audioUrl: null },
-      { word: 'cortés', translation: 'вежливый', audioUrl: null },
-      { word: 'serio', translation: 'серьезный', audioUrl: null },
-      { word: 'tranquilo', translation: 'спокойный', audioUrl: null },
-      { word: 'trabajador', translation: 'трудолюбивый', audioUrl: null },
-      { word: 'formal', translation: 'ответственный', audioUrl: null },
-      { word: 'puntual', translation: 'пунктуальный', audioUrl: null },
-      { word: 'educado', translation: 'воспитанный', audioUrl: null },
-      { word: 'egoísta', translation: 'эгоистичный', audioUrl: null },
-      { word: 'perezoso', translation: 'ленивый', audioUrl: null },
-      { word: 'generoso', translation: 'щедрый', audioUrl: null },
-      { word: 'avaro', translation: 'жадный', audioUrl: null },
-      { word: 'tímido', translation: 'застенчивый', audioUrl: null },
-      { word: 'curioso', translation: 'любопытный', audioUrl: null },
-      { word: 'astuto', translation: 'хитрый', audioUrl: null },
-      { word: 'presumido', translation: 'хвастливый', audioUrl: null },
-      { word: 'bondadoso', translation: 'добрый', audioUrl: null },
-      { word: 'prudente', translation: 'осторожный, рассудительный', audioUrl: null },
-      { word: 'comunicativo', translation: 'коммуникабельный', audioUrl: null },
-      { word: 'honrado', translation: 'честный', audioUrl: null },
-      { word: 'valiente', translation: 'храбрый', audioUrl: null },
-      { word: 'sincero', translation: 'искренний', audioUrl: null },
-      { word: 'fiel', translation: 'верный', audioUrl: null },
-      { word: 'terco', translation: 'упрямый', audioUrl: null },
-      { word: 'cariñoso', translation: 'ласковый', audioUrl: null },
-      { word: 'inteligente', translation: 'умный', audioUrl: null },
-      { word: 'tonto', translation: 'глупый', audioUrl: null },
-      // Дополнительные слова
-      { word: 'compañeros de trabajo', translation: 'коллеги по работе', audioUrl: null },
-      { word: 'director', translation: 'директор', audioUrl: null },
-      { word: 'estatura', translation: 'рост', audioUrl: null },
-      { word: 'secretaria', translation: 'секретарша', audioUrl: null },
-      { word: 'en cambio', translation: 'наоборот', audioUrl: null },
-      { word: 'mejilla', translation: 'щека', audioUrl: null },
-      { word: 'arquitecto', translation: 'архитектор', audioUrl: null }
+      { word: 'comer', translation: 'есть', audioUrl: null },
+      { word: 'beber', translation: 'пить', audioUrl: null },
+      { word: 'leer', translation: 'читать', audioUrl: null },
+      { word: 'aprender', translation: 'учить, изучать', audioUrl: null },
+      { word: 'vender', translation: 'продавать', audioUrl: null },
+      { word: 'responder', translation: 'отвечать', audioUrl: null },
+      { word: 'correr', translation: 'бежать, бегать', audioUrl: null },
+      { word: 'comprender', translation: 'понимать', audioUrl: null },
+      { word: 'vivir', translation: 'жить', audioUrl: null },
+      { word: 'escribir', translation: 'писать', audioUrl: null },
+      { word: 'abrir', translation: 'открывать', audioUrl: null },
+      { word: 'recibir', translation: 'получать', audioUrl: null },
+      { word: 'subir', translation: 'подниматься', audioUrl: null },
+      { word: 'partir', translation: 'уходить, отправляться', audioUrl: null },
+      { word: 'decidir', translation: 'решать', audioUrl: null },
+      { word: 'dividir', translation: 'делить', audioUrl: null },
+      { word: 'pasta', translation: 'паста, макароны (f)', audioUrl: null },
+      { word: 'agua', translation: 'вода (f)', audioUrl: null },
+      { word: 'libro', translation: 'книга (m)', audioUrl: null },
+      { word: 'carta', translation: 'письмо (f)', audioUrl: null },
+      { word: 'mensaje', translation: 'сообщение (m)', audioUrl: null },
+      { word: 'puerta', translation: 'дверь (f)', audioUrl: null },
+      { word: 'frutas', translation: 'фрукты (f pl)', audioUrl: null },
+      { word: 'escaleras', translation: 'лестница (f pl)', audioUrl: null },
+      { word: 'periódico', translation: 'газета (m)', audioUrl: null },
+      { word: 'email', translation: 'электронная почта (m)', audioUrl: null },
+      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+      { word: 'en español', translation: 'на испанском', audioUrl: null },
+      { word: 'en el parque', translation: 'в парке', audioUrl: null }
     ],
     readingText: {
-      title: 'En la oficina',
-      content: `Luis. — Ana, ¿qué tal estás? Yo estoy bien.
-Ana. — Muy bien, Luis. Oye, ¿quién es el chico nuevo que está en la oficina?
-Luis. — ¿Te refieres a Pablo? Es el nuevo diseñador.
-Ana. — Sí, Pablo. Tiene el pelo corto y castaño, ¿verdad? ¿Es alto o bajo?
-Luis. — Es bastante alto. Y es muy guapo, ¿no crees?
-Ana. — Sí, es guapo. ¿Y cómo es su carácter? ¿Es tímido?
-Luis. — No, es muy alegre y comunicativo. Siempre habla con todos. Además, tiene los ojos azules.
-Ana. — ¡Ah, qué bien! Yo tengo mucha sed ahora. ¿Tú vas a la cocina?
-Luis. — Sí, yo voy a tomar un vaso de agua. ¿Vas tú?
-Ana. — No, gracias. Tengo mucho trabajo, tengo que terminar hoy.
-Luis. — Vale, oigo la llamada. Tengo que volver. ¡Hasta luego!
-Ana. — ¡Adiós!`,
-      translation: `В офисе
+      title: 'Mi día en Madrid',
+      content: `Hola, me llamo Pedro. Soy estudiante. Soy de Rusia pero vivo en Madrid. Tengo veinte años.
 
-Луис. — Ана, как дела? Я в порядке.
-Ана. — Очень хорошо, Луис. Слушай, кто тот новый парень, который в офисе?
-Луис. — Ты имеешь в виду Пабло? Он новый дизайнер.
-Ана. — Да, Пабло. У него короткие каштановые волосы, правда? Он высокий или низкий?
-Луис. — Он довольно высокий. И очень красивый, не находишь?
-Ана. — Да, он красивый. А какой у него характер? Он застенчивый?
-Луис. — Нет, он очень веселый и коммуникабельный. Всегда со всеми разговаривает. К тому же, у него голубые глаза.
-Ана. — Ах, как хорошо! Я сейчас очень хочу пить. Ты идешь на кухню?
-Луис. — Да, я собираюсь выпить стакан воды. Ты идешь?
-Ана. — Нет, спасибо. У меня много работы, я должна закончить сегодня.
-Луис. — Ладно, слышу звонок. Мне нужно вернуться. До скорого!
-Ана. — Пока!`,
-      audioUrl: null
+Cada mañana yo tomo café con leche en casa. Después tomo el autobús a la universidad. La universidad está en el centro de Madrid. Voy de casa a la universidad en treinta minutos.
+
+En la universidad estudio español. Hablo con mis amigos. Ellos son de Italia, Francia y Alemania. Nosotros hablamos español en clase. También leemos libros en español y escribimos textos.
+
+A las dos tomo el almuerzo en el café de la universidad. Como bocadillos y tomo un zumo de naranja. Mi amigo italiano toma agua con la comida.
+
+Por la tarde voy a casa. Leo libros en español y aprendo palabras nuevas. A veces escribo mensajes a mi familia en Rusia.
+
+Mi amiga Ana es española, de Barcelona. Ella es profesora. Ana toma el tren de Barcelona a Madrid cada semana. Ella vive con su hermana en un apartamento pequeño.
+
+Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`,
+      translation: 'Привет, меня зовут Педро. Я студент. Я из России, но живу в Мадриде. Мне двадцать лет.\n\nКаждое утро я пью кофе с молоком дома. Потом я сажусь на автобус до университета. Университет находится в центре Мадрида. Я еду из дома в университет за тридцать минут.\n\nВ университете я изучаю испанский. Я разговариваю с моими друзьями. Они из Италии, Франции и Германии. Мы говорим по-испански на занятиях. Также мы читаем книги на испанском и пишем тексты.\n\nВ два часа я обедаю в университетском кафе. Я ем бутерброды и пью апельсиновый сок. Мой итальянский друг пьет воду с едой.\n\nВо второй половине дня я иду домой. Я читаю книги на испанском и учу новые слова. Иногда я пишу сообщения моей семье в России.\n\nМоя подруга Ана испанка, из Барселоны. Она преподаватель. Ана едет на поезде из Барселоны в Мадрид каждую неделю. Она живет со своей сестрой в маленькой квартире.\n\nПо выходным мы загораем в парке. Очень приятно быть в Мадриде.',
+      audioUrl: '/audio/lesson-2-2-reading.mp3',
+      subtitles: [
+        { start: 0, end: 5, text: 'Hola, me llamo Pedro. Soy estudiante.' },
+        { start: 5, end: 10, text: 'Cada mañana yo tomo café con leche en casa.' },
+        { start: 10, end: 15, text: 'Después tomo el autobús a la universidad.' },
+        { start: 15, end: 20, text: 'En la universidad hablo con mis amigos.' },
+        { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
+      ]
     },
-    exercises: [
-      'ex-2-3-description',
-      'ex-2-3-vocab-appearance',
-      'ex-2-3-vocab-character',
-      'ex-2-3-adjectives-agreement',
-      'ex-2-3-ser-estar-tener',
-      'ex-2-3-descriptions-1',
-      'ex-2-3-descriptions-2',
-      'ex-2-3-opposites',
-      'ex-2-3-complete-sentences'
-    ]
+    exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
@@ -2337,14 +2099,15 @@ Ana. — ¡Adiós!`,
     title: 'Урок 1: Семья и родственники',
     moduleId: 'module-3',
     grammar: {
-      title: 'Указательные местоимения',
+      title: 'Указательные и притяжательные местоимения',
       intro: `# Грамматика урока
 
 В этом уроке мы изучим:
 - Указательные местоимения для обозначения близости и дальности
 - Самостоятельное употребление указательных местоимений
 - Форма среднего рода (нейтральные формы)
-- Указательные наречия места`,
+- Указательные наречия места
+- Притяжательные местоимения-прилагательные и местоимения-существительные`,
       sections: [
         {
           id: 'demonstrativos',
@@ -2529,30 +2292,30 @@ Ejemplos:
 
 | Личное местоимение | Форма (Единственное число) | Форма (Множественное число) | Пример использования | Перевод |
 |-------------------|---------------------------|----------------------------|---------------------|---------|
-| **Yo** (я) | mi | mis | Mi teléfono es nuevo. | Мой телефон новый. |
-| **Tú** (ты) | tu | tus | ¿Dónde están tus llaves? | Где твои ключи? |
-| **Él/Ella/Ud.** (он/она/Вы) | su | sus | Su casa es grande. | Его/Её/Ваш дом большой. |
-| **Nosotros/-as** (мы) | nuestro / nuestra | nuestros / nuestras | Nuestra oficina está aquí. | Наш офис находится здесь. |
-| **Vosotros/-as** (вы) | vuestro / vuestra | vuestros / vuestras | Vuestros amigos están en la sala. | Ваши друзья в гостиной. |
-| **Ellos/Ellas/Uds.** (они/Вы) | su | sus | Sus maletas están listas. | Их/Ваши чемоданы готовы. |
+| **Yo** (я) | mi | mis | Mi familia es grande. | Моя семья большая. |
+| **Tú** (ты) | tu | tus | ¿Dónde están tus hermanos? | Где твои братья? |
+| **Él/Ella/Ud.** (он/она/Вы) | su | sus | Su padre es médico. | Его/Её/Ваш отец врач. |
+| **Nosotros/-as** (мы) | nuestro / nuestra | nuestros / nuestras | Nuestra madre trabaja aquí. | Наша мама работает здесь. |
+| **Vosotros/-as** (вы) | vuestro / vuestra | vuestros / vuestras | Vuestros abuelos son amables. | Ваши дедушка и бабушка добрые. |
+| **Ellos/Ellas/Uds.** (они/Вы) | su | sus | Sus hijos estudian español. | Их/Ваши дети изучают испанский. |
 
 ### Основные правила:
 
 **1. Местоимения mi, tu, su** изменяются только по числам:
-- **mi** libro (моя книга) → **mis** libros (мои книги)
-- **tu** casa (твой дом) → **tus** casas (твои дома)
-- **su** amigo (его друг) → **sus** amigos (его друзья)
+- **mi** hijo (мой сын) → **mis** hijos (мои дети)
+- **tu** hermana (твоя сестра) → **tus** hermanas (твои сестры)
+- **su** primo (его двоюродный брат) → **sus** primos (его двоюродные братья)
 
 **2. Местоимения nuestro, vuestro** изменяются и по родам, и по числам:
-- **nuestro** coche (наша машина - м.р.)
-- **nuestra** casa (наш дом - ж.р.)
-- **nuestros** libros (наши книги - м.р., мн.ч.)
-- **nuestras** mesas (наши столы - ж.р., мн.ч.)
+- **nuestro** padre (наш отец - м.р.)
+- **nuestra** madre (наша мать - ж.р.)
+- **nuestros** padres (наши родители - м.р., мн.ч.)
+- **nuestras** abuelas (наши бабушки - ж.р., мн.ч.)
 
 **3. Притяжательные местоимения-прилагательные всегда стоят ПЕРЕД существительным:**
-- mi padre (мой отец)
-- tu hermana (твоя сестра)
-- nuestra familia (наша семья)
+- mi familia (моя семья)
+- tu esposo (твой супруг)
+- nuestra nieta (наша внучка)
 `
         },
         {
@@ -2568,15 +2331,15 @@ Ejemplos:
 Притяжательные местоимения согласуются с **предметом обладания**, а не с обладателем:
 
 **Примеры:**
-- **Mi** perro (Моя собака - единственное число)
-- **Mis** perros (Мои собаки - множественное число)
-- **Nuestra** ciudad (Наш город - женский род, единственное число)
-- **Nuestros** padres (Наши родители - мужской род, множественное число)
+- **Mi** hermano (Мой брат - единственное число)
+- **Mis** hermanos (Мои братья - множественное число)
+- **Nuestra** familia (Наша семья - женский род, единственное число)
+- **Nuestros** parientes (Наши родственники - мужской род, множественное число)
 
 **Важно:** В испанском языке род притяжательного местоимения определяется родом **существительного** (предмета), а не владельца:
 - Pedro habla de **su** madre. (Педро говорит о своей матери - "madre" женского рода, но "su" не имеет формы рода)
 - María habla de **su** padre. (Мария говорит о своем отце - "padre" мужского рода, но "su" также не изменяется)
-- Pedro habla de **sus** padres. (Педро говорит о своих родителях - множественное число)
+- Pedro habla de **sus** abuelos. (Педро говорит о своих дедушках - множественное число)
 
 ### Б. Уточнение su/sus (Формы 3-го лица):
 
@@ -2594,28 +2357,28 @@ Ejemplos:
 **Примеры уточнения:**
 
 **Двусмысленное:**
-- Es **su** libro. (Это его/ее/Ваша/их книга - неясно, чья именно)
+- Es **su** hijo. (Это его/ее/Ваш/их сын - неясно, чей именно)
 
 **Уточнение:**
-- Es el libro **de ella**. (Это её книга.)
-- Es el libro **de él**. (Это его книга.)
-- Es el libro **de usted**. (Это Ваша книга.)
-- Es el libro **de ellos**. (Это их книга.)
+- Es el hijo **de ella**. (Это её сын.)
+- Es el hijo **de él**. (Это его сын.)
+- Es el hijo **de usted**. (Это Ваш сын.)
+- Es el hijo **de ellos**. (Это их сын.)
 
 **Другие примеры:**
-- Son los coches **de ustedes**. (Это Ваши машины - уважительная форма мн.ч.)
-- Es la casa **de ellas**. (Это их дом - говорим о женщинах.)
-- Son las llaves **de él**. (Это его ключи.)
+- Son los padres **de ustedes**. (Это Ваши родители - уважительная форма мн.ч.)
+- Es la esposa **de él**. (Это его жена.)
+- Son los nietos **de ellas**. (Это их внуки - говорим о женщинах.)
 
 ### В. Отсутствие артикля:
 
 В испанском языке притяжательные местоимения-прилагательные **не употребляются с артиклем**:
 
-✅ **mi** casa (мой дом)
-❌ **la mi** casa
+✅ **mi** familia (моя семья)
+❌ **la mi** familia
 
-✅ **nuestros** amigos (наши друзья)
-❌ **los nuestros** amigos
+✅ **nuestros** hijos (наши дети)
+❌ **los nuestros** hijos
 
 **Исключение:** С частями тела и личными вещами в испанском часто используется определенный артикль вместо притяжательного местоимения:
 
@@ -2647,23 +2410,23 @@ Ejemplos:
 ### Основные формы:
 
 **Единственное число:**
-- **el mío** (мой - мужской род): Este libro es **el mío**. (Эта книга моя.)
-- **la mía** (моя - женский род): Esta casa es **la mía**. (Этот дом мой.)
+- **el mío** (мой - мужской род): Este hijo es **el mío**. (Этот сын мой.)
+- **la mía** (моя - женский род): Esta familia es **la mía**. (Эта семья моя.)
 
 **Множественное число:**
-- **los míos** (мои - мужской род): Estos libros son **los míos**. (Эти книги мои.)
-- **las mías** (мои - женский род): Estas llaves son **las mías**. (Эти ключи мои.)
+- **los míos** (мои - мужской род): Estos hermanos son **los míos**. (Эти братья мои.)
+- **las mías** (мои - женский род): Estas primas son **las mías**. (Эти двоюродные сестры мои.)
 
 ### Отличие от притяжательных местоимений-прилагательных:
 
 | Тип | С артиклем | Позиция | Пример |
 |-----|-----------|---------|---------|
-| **Прилагательное** | ❌ Без артикля | Перед существительным | **Mi** libro es nuevo. |
-| **Существительное** | ✅ С артиклем (обычно) | Вместо существительного | El **mío** es nuevo. |
+| **Прилагательное** | ❌ Без артикля | Перед существительным | **Mi** familia es grande. |
+| **Существительное** | ✅ С артиклем (обычно) | Вместо существительного | **La mía** es grande. |
 
 **Сравнение:**
-- **Mi** coche es rojo. (Моя машина красная - прилагательное)
-- **El mío** es rojo. (Моя (машина) красная - существительное, заменяет "coche")
+- **Mi** familia es unida. (Моя семья дружная - прилагательное)
+- **La mía** es unida. (Моя (семья) дружная - существительное, заменяет "familia")
 `
         },
         {
@@ -2680,30 +2443,30 @@ Ejemplos:
 
 **Примеры:**
 
-**1. Сравнение предметов:**
-- Mi ordenador no funciona. ¿Puedo usar **el tuyo**?
-  - (Мой компьютер не работает. Могу я использовать твой?)
-  - *"el tuyo" заменяет "tu ordenador"*
+**1. Сравнение:**
+- Mi esposo trabaja aquí. ¿Y **el tuyo**?
+  - (Мой муж работает здесь. А твой?)
+  - *"el tuyo" заменяет "tu esposo"*
 
-- Tu bicicleta es roja, pero **la mía** es azul.
-  - (Твой велосипед красный, но мой синий.)
-  - *"la mía" заменяет "mi bicicleta"*
+- Tu abuela vive en Madrid, pero **la mía** vive en Barcelona.
+  - (Твоя бабушка живет в Мадриде, но моя живет в Барселоне.)
+  - *"la mía" заменяет "mi abuela"*
 
 **2. Множественное число:**
-- Nuestras ideas son buenas, pero **las suyas** son mejores.
-  - (Наши идеи хорошие, но их (идеи) лучше.)
-  - *"las suyas" заменяет "sus ideas"*
+- Nuestros hijos son pequeños, pero **los suyos** son mayores.
+  - (Наши дети маленькие, но их (дети) взрослые.)
+  - *"los suyos" заменяет "sus hijos"*
 
-- Vuestros hijos estudian aquí, **los nuestros** estudian allí.
-  - (Ваши дети учатся здесь, наши учатся там.)
-  - *"los nuestros" заменяет "nuestros hijos"*
+- Vuestros padres están aquí, **los nuestros** llegan mañana.
+  - (Ваши родители здесь, наши приезжают завтра.)
+  - *"los nuestros" заменяет "nuestros padres"*
 
 **3. Уточнение принадлежности:**
-- Este bolígrafo es **el de Pedro**, no **el tuyo**.
-  - (Эта ручка Педро, не твоя.)
+- Este nieto es **el de Pedro**, no **el tuyo**.
+  - (Этот внук Педро, не твой.)
 
-- Estos libros son **los de ella**, no **los míos**.
-  - (Эти книги её, не мои.)
+- Estas hermanas son **las de ella**, no **las mías**.
+  - (Эти сестры её, не мои.)
 
 ### Б. После глагола ser (без артикля):
 
@@ -2712,31 +2475,31 @@ Ejemplos:
 **Примеры:**
 
 **1. Указание на владельца:**
-- Este regalo es **mío**.
-  - (Этот подарок мой.)
+- Esta familia es **mía**.
+  - (Эта семья моя.)
 
-- Esta chaqueta es **tuya**.
-  - (Эта куртка твоя.)
+- Este marido es **tuyo**.
+  - (Этот муж твой.)
 
-- Estos zapatos son **suyos**.
-  - (Эти туфли его/её/Ваши/их.)
+- Estos parientes son **suyos**.
+  - (Эти родственники его/её/Ваши/их.)
 
 **2. Вопросы о принадлежности:**
-- ¿Esta bicicleta es **vuestra**?
-  - (Этот велосипед ваш - обращение к нескольким людям?)
+- ¿Estos nietos son **vuestros**?
+  - (Эти внуки ваши - обращение к нескольким людям?)
 
-- ¿Estos cuadernos son **nuestros**?
-  - (Эти тетради наши?)
+- ¿Esta esposa es **nuestra**?
+  - (Эта супруга наша?)
 
-- ¿Este coche es **suyo**, señor?
-  - (Эта машина Ваша, сеньор?)
+- ¿Estos hijos son **suyos**, señora?
+  - (Эти дети Ваши, сеньора?)
 
 **3. Множественное число:**
-- Esas maletas son **nuestras**.
-  - (Те чемоданы наши.)
+- Esas primas son **nuestras**.
+  - (Те двоюродные сестры наши.)
 
-- Aquellas llaves son **vuestras**.
-  - (Вон те ключи ваши.)
+- Aquellos tíos son **vuestros**.
+  - (Вон те дяди ваши.)
 
 ### В. В роли определения (без артикля):
 
@@ -2745,29 +2508,26 @@ Ejemplos:
 **Примеры:**
 
 **1. В разговорной речи (неопределенный артикль + существительное + притяжательное):**
-- Un amigo **mío** me lo explica.
-  - (Один мой друг мне это объясняет.)
+- Un primo **mío** vive en México.
+  - (Один мой двоюродный брат живет в Мексике.)
 
-- Una prima **tuya** vive en Madrid.
-  - (Одна твоя двоюродная сестра живет в Мадриде.)
+- Una tía **tuya** trabaja en el hospital.
+  - (Одна твоя тетя работает в больнице.)
 
-- Unos compañeros **nuestros** trabajan allí.
-  - (Одни наши коллеги работают там.)
+- Unos parientes **nuestros** vienen mañana.
+  - (Одни наши родственники приезжают завтра.)
 
 **2. В обращениях и восклицаниях:**
-- ¡**Dios mío**!
-  - (Боже мой!)
-
-- ¡**Alma mía**!
-  - (Душа моя!)
+- ¡**Hijo mío**!
+  - (Сын мой!)
 
 - **Amor mío**, te quiero.
   - (Любовь моя, я тебя люблю.)
 
-- **Hijo mío**, ven aquí.
-  - (Сын мой, иди сюда.)
+- **Hermana mía**, ayúdame.
+  - (Сестра моя, помоги мне.)
 
-**3. В устойчивых выражениях:**
+**3. В устойчивых выражениях с семьей:**
 - por culpa **mía** (по моей вине)
 - en opinión **nuestra** (по нашему мнению)
 - de parte **suya** (от его/её имени)
@@ -2776,50 +2536,85 @@ Ejemplos:
 
 | С артиклем | Без артикля |
 |-----------|-------------|
-| **El** amigo **mío** = мой друг (конкретный, определенный) | **Un** amigo **mío** = один мой друг (неопределенный) |
-| **La** casa **mía** = мой дом (о котором уже говорили) | Es casa **mía** (после ser - это мой дом) |
+| **El** hermano **mío** = мой брат (конкретный, определенный) | **Un** hermano **mío** = один мой брат (неопределенный) |
+| **La** familia **mía** = моя семья (о которой уже говорили) | Es familia **mía** (после ser - это моя семья) |
 `
         }
       ]
     },
     vocabulary: [
       { word: 'familia', translation: 'семья', audioUrl: null },
+      { word: 'matrimonio', translation: 'супружеская пара / брак', audioUrl: null },
       { word: 'padre', translation: 'отец', audioUrl: null },
       { word: 'madre', translation: 'мать', audioUrl: null },
-      { word: 'hermano', translation: 'брат', audioUrl: null },
-      { word: 'hermana', translation: 'сестра', audioUrl: null },
-      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
-      { word: 'abuela', translation: 'бабушка', audioUrl: null },
+      { word: 'padres', translation: 'родители', audioUrl: null },
+      { word: 'marido', translation: 'муж', audioUrl: null },
+      { word: 'mujer', translation: 'жена', audioUrl: null },
+      { word: 'esposo', translation: 'супруг', audioUrl: null },
+      { word: 'esposa', translation: 'супруга', audioUrl: null },
       { word: 'hijo', translation: 'сын', audioUrl: null },
       { word: 'hija', translation: 'дочь', audioUrl: null },
+      { word: 'hijos', translation: 'дети', audioUrl: null },
+      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
+      { word: 'abuela', translation: 'бабушка', audioUrl: null },
+      { word: 'nieto', translation: 'внук', audioUrl: null },
+      { word: 'nieta', translation: 'внучка', audioUrl: null },
+      { word: 'hermano', translation: 'брат', audioUrl: null },
+      { word: 'hermana', translation: 'сестра', audioUrl: null },
+      { word: 'mellizos', translation: 'близнецы (м.р.)', audioUrl: null },
+      { word: 'mellizas', translation: 'близнецы (ж.р.)', audioUrl: null },
+      { word: 'padrino', translation: 'крестный отец', audioUrl: null },
+      { word: 'madrina', translation: 'крестная мать', audioUrl: null },
       { word: 'tío', translation: 'дядя', audioUrl: null },
       { word: 'tía', translation: 'тетя', audioUrl: null },
-      { word: 'primo/prima', translation: 'двоюродный брат/сестра', audioUrl: null }
+      { word: 'primo', translation: 'двоюродный брат', audioUrl: null },
+      { word: 'prima', translation: 'двоюродная сестра', audioUrl: null },
+      { word: 'sobrino', translation: 'племянник', audioUrl: null },
+      { word: 'sobrina', translation: 'племянница', audioUrl: null },
+      { word: 'suegro', translation: 'свекор / тесть', audioUrl: null },
+      { word: 'suegra', translation: 'свекровь / теща', audioUrl: null },
+      { word: 'yerno', translation: 'зять (муж дочери)', audioUrl: null },
+      { word: 'nuera', translation: 'невестка (жена сына)', audioUrl: null },
+      { word: 'cuñado', translation: 'сват / свояк / деверь / шурин', audioUrl: null },
+      { word: 'cuñada', translation: 'сватья / свояченица / золовка', audioUrl: null },
+      { word: 'padrastro', translation: 'отчим', audioUrl: null },
+      { word: 'madrastra', translation: 'мачеха', audioUrl: null },
+      { word: 'hijastro', translation: 'пасынок', audioUrl: null },
+      { word: 'hijastra', translation: 'падчерица', audioUrl: null },
+      { word: 'pariente', translation: 'родственник / родственница', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi familia',
-      content: `Me llamo Carlos y voy a hablar sobre mi familia. Somos seis personas en total. Vivimos en una casa grande en las afueras de Valencia.
+      title: 'Esta es mi familia',
+      content: `¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida. Ahora voy a hablar sobre mis parientes.
 
-Mis padres se llaman José y María. Mi padre es ingeniero y trabaja en una empresa de construcción. Le gusta mucho su trabajo porque construye edificios importantes. Mi madre es profesora de inglés en una escuela primaria. Ella ama enseñar a los niños y siempre llega a casa con historias interesantes.
+Mi familia está aquí, en esta casa. Estos son mis padres. Mi padre se llama Roberto y es médico. Trabaja en un hospital grande. Mi madre se llama Isabel y es profesora. Ella trabaja en una escuela. Mis padres son muy buenos y trabajadores.
 
-Tengo dos hermanos: mi hermano mayor Pedro tiene 20 años y estudia medicina en la universidad. Quiere ser médico como nuestro abuelo. Mi hermana pequeña Laura tiene solo 8 años. Es muy traviesa pero adorable. Le encanta dibujar y jugar con nuestro perro Max.
+Tengo dos hermanos. Este es mi hermano mayor Carlos. Tiene veinticinco años y es estudiante de medicina. Quiere ser médico como nuestro padre. Esa es mi hermana pequeña Luisa. Tiene diez años y estudia en la escuela primaria. Le gusta leer y dibujar.
 
-También vivo con mi abuela paterna, la madre de mi padre. Ella tiene 75 años pero es muy activa. Cocina delicioso y nos cuenta historias de cuando era joven. Todos los domingos, toda la familia come junta. Mi abuela prepara su famosa paella valenciana.
+Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen. Ellos viven con nosotros. Mi abuelo tiene setenta años y mi abuela tiene sesenta y ocho. Mis abuelos son muy amables. Mi abuela cocina muy bien y mi abuelo trabaja en el jardín.
 
-Tengo muchos tíos, tías y primos, pero no viven con nosotros. Los vemos en las fiestas y vacaciones. Mi tío Alberto vive en Barcelona y trabaja como músico. Cuando nos visita, toca la guitarra y cantamos juntos.
+También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona. Es el hermano de mi padre. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. Jorge tiene quince años y Marta tiene doce.
 
-Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos mucho tiempo juntos y nos apoyamos en todo momento.`,
-      translation: 'Моя семья\n\nМеня зовут Карлос, и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии.\n\nМоих родителей зовут Хосе и Мария. Мой отец - инженер и работает в строительной компании. Ему очень нравится его работа, потому что он строит важные здания. Моя мать - учительница английского в начальной школе. Она любит учить детей и всегда приходит домой с интересными историями.\n\nУ меня два брата и сестры: мой старший брат Педро, ему 20 лет, и он изучает медицину в университете. Он хочет стать врачом, как наш дедушка. Моей младшей сестре Лауре всего 8 лет. Она очень шаловливая, но очаровательная. Она любит рисовать и играть с нашей собакой Максом.\n\nТакже со мной живет моя бабушка по отцовской линии, мать моего отца. Ей 75 лет, но она очень активна. Она готовит восхитительно и рассказывает нам истории о том, когда была молодой. Каждое воскресенье вся семья ест вместе. Моя бабушка готовит свою знаменитую валенсийскую паэлью.\n\nУ меня много дядей, тетей и двоюродных братьев, но они не живут с нами. Мы видимся на праздниках и каникулах. Мой дядя Альберто живет в Барселоне и работает музыкантом. Когда он приезжает к нам, он играет на гитаре, и мы поем вместе.\n\nЯ чувствую себя очень счастливым иметь такую сплоченную и любящую семью. Мы проводим много времени вместе и поддерживаем друг друга во всем.',
+Mi tía Ana es la hermana de mi madre. Ella vive en Valencia con su marido Miguel y sus tres hijos. Estos son mis primos: Felipe, Rosa y Diego. Visitamos a nuestros tíos y primos en las vacaciones.
+
+Mis abuelos maternos, el padre y la madre de mi madre, viven en Sevilla. Vamos allí en verano. Mi abuela materna se llama Teresa y mi abuelo se llama José. Ellos son muy alegres.
+
+Tengo una madrina muy especial. Se llama Sofía y es la mejor amiga de mi madre. Ella viene a nuestra casa a menudo y me trae libros. Mi padrino es el hermano de mi padre. Se llama Antonio y vive en Granada.
+
+Los domingos toda la familia come junta. Vienen mis tíos y mis primos. Es muy bonito estar todos juntos. Hablamos, comemos y pasamos tiempo felices.
+
+Esta es mi familia. La mía es grande y alegre. ¿Y la tuya? ¿Tu familia es grande o pequeña? ¿Vives con tus padres y tus hermanos? ¿Dónde viven tus abuelos?`,
+      translation: 'Это моя семья\n\nПривет! Меня зовут Ана, и я живу в Мадриде со своей семьей. У меня большая и дружная семья. Сейчас я расскажу о моих родственниках.\n\nМоя семья здесь, в этом доме. Это мои родители. Моего отца зовут Роберто, и он врач. Он работает в большой больнице. Мою маму зовут Исабель, и она учительница. Она работает в школе. Мои родители очень хорошие и трудолюбивые.\n\nУ меня двое братьев и сестер. Это мой старший брат Карлос. Ему двадцать пять лет, и он студент медицины. Он хочет быть врачом, как наш отец. Та - моя младшая сестра Луиза. Ей десять лет, и она учится в начальной школе. Она любит читать и рисовать.\n\nЗдесь мои дедушка и бабушка по отцовской линии. Тот - мой дедушка Пабло, а та - моя бабушка Кармен. Они живут с нами. Моему дедушке семьдесят лет, а моей бабушке шестьдесят восемь. Мои бабушка и дедушка очень добрые. Моя бабушка очень хорошо готовит, а мой дедушка работает в саду.\n\nУ меня также много дядей, тетей и двоюродных братьев и сестер. Мой дядя Педро живет там, в Барселоне. Он брат моего отца. Его жена - моя тетя Лаура. У них двое детей: мои двоюродные брат и сестра Хорхе и Марта. Хорхе пятнадцать лет, а Марте двенадцать.\n\nМоя тетя Ана - сестра моей матери. Она живет в Валенсии со своим мужем Мигелем и тремя детьми. Это мои двоюродные братья и сестры: Фелипе, Роса и Диего. Мы навещаем наших дядей, тетей и двоюродных братьев и сестер на каникулах.\n\nМои бабушка и дедушка по материнской линии, отец и мать моей мамы, живут в Севилье. Мы ездим туда летом. Мою бабушку по материнской линии зовут Тереса, а дедушку - Хосе. Они очень веселые.\n\nУ меня есть особенная крестная. Ее зовут София, и она лучшая подруга моей мамы. Она часто приходит к нам домой и приносит мне книги. Мой крестный - брат моего отца. Его зовут Антонио, и он живет в Гранаде.\n\nПо воскресеньям вся семья обедает вместе. Приходят мои дяди, тети и двоюродные братья и сестры. Очень хорошо быть всем вместе. Мы разговариваем, едим и проводим время счастливо.\n\nЭто моя семья. Моя большая и веселая. А твоя? Твоя семья большая или маленькая? Ты живешь с родителями и братьями и сестрами? Где живут твои бабушка и дедушка?',
       audioUrl: '/audio/lesson-3-1-reading.mp3',
       subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Carlos y voy a hablar sobre mi familia.' },
-        { start: 5, end: 10, text: 'Somos seis personas en total.' },
-        { start: 10, end: 15, text: 'Mis padres se llaman José y María.' },
-        { start: 15, end: 20, text: 'Tengo dos hermanos: Pedro y Laura.' },
-        { start: 20, end: 25, text: 'También vivo con mi abuela paterna.' }
+        { start: 0, end: 5, text: '¡Hola! Me llamo Ana y vivo en Madrid con mi familia.' },
+        { start: 5, end: 10, text: 'Tengo una familia grande y unida.' },
+        { start: 10, end: 15, text: 'Estos son mis padres.' },
+        { start: 15, end: 20, text: 'Tengo dos hermanos.' },
+        { start: 20, end: 25, text: 'Aquí están mis abuelos paternos.' }
       ]
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5-def', 'ex-3-1-6-coll']
+    exercises: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-lectura']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -6439,40 +6234,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Tú ___ (estudiar) mucho', options: ['estudio', 'estudias', 'estudia', 'estudian'], correct: 1 },
       { sentence: 'Ella ___ (trabajar) aquí', options: ['trabajo', 'trabajas', 'trabaja', 'trabajamos'], correct: 2 },
       { sentence: 'Nosotros ___ (caminar) en el parque', options: ['camino', 'caminas', 'camina', 'caminamos'], correct: 3 },
-      { sentence: 'Ellos ___ (bailar) salsa', options: ['bailo', 'bailas', 'baila', 'bailan'], correct: 3 },
-      { sentence: 'Yo ___ (escuchar) música', options: ['escucho', 'escuchas', 'escucha', 'escuchan'], correct: 0 },
-      { sentence: 'Tú ___ (llamar) por teléfono', options: ['llamo', 'llamas', 'llama', 'llaman'], correct: 1 },
-      { sentence: 'Él ___ (tomar) café', options: ['tomo', 'tomas', 'toma', 'toman'], correct: 2 },
-      { sentence: 'Nosotros ___ (viajar) a España', options: ['viajo', 'viajas', 'viaja', 'viajamos'], correct: 3 },
-      { sentence: 'Ellas ___ (comprar) ropa', options: ['compro', 'compras', 'compra', 'compran'], correct: 3 },
-      { sentence: 'Yo ___ (preguntar) la hora', options: ['pregunto', 'preguntas', 'pregunta', 'preguntan'], correct: 0 },
-      { sentence: 'Tú ___ (cantar) bien', options: ['canto', 'cantas', 'canta', 'cantan'], correct: 1 },
-      { sentence: 'Ella ___ (descansar) en casa', options: ['descanso', 'descansas', 'descansa', 'descansan'], correct: 2 },
-      { sentence: 'Nosotros ___ (visitar) el museo', options: ['visito', 'visitas', 'visita', 'visitamos'], correct: 3 },
-      { sentence: 'Ellos ___ (terminar) el trabajo', options: ['termino', 'terminas', 'termina', 'terminan'], correct: 3 },
-      { sentence: 'Yo ___ (ganar) dinero', options: ['gano', 'ganas', 'gana', 'ganan'], correct: 0 },
-      { sentence: 'Tú ___ (buscar) las llaves', options: ['busco', 'buscas', 'busca', 'buscan'], correct: 1 },
-      { sentence: 'Él ___ (empezar) la clase', options: ['empiezo', 'empiezas', 'empieza', 'empiezan'], correct: 2 },
-      { sentence: 'Nosotros ___ (celebrar) el cumpleaños', options: ['celebro', 'celebras', 'celebra', 'celebramos'], correct: 3 },
-      { sentence: 'Ellas ___ (jugar) al fútbol', options: ['juego', 'juegas', 'juega', 'juegan'], correct: 3 },
-      { sentence: 'Yo ___ (necesitar) ayuda', options: ['necesito', 'necesitas', 'necesita', 'necesitan'], correct: 0 },
-      { sentence: 'Tú ___ (esperar) el autobús', options: ['espero', 'esperas', 'espera', 'esperan'], correct: 1 },
-      { sentence: 'Ella ___ (cambiar) de opinión', options: ['cambio', 'cambias', 'cambia', 'cambian'], correct: 2 },
-      { sentence: 'Nosotros ___ (mejorar) el proyecto', options: ['mejoro', 'mejoras', 'mejora', 'mejoramos'], correct: 3 },
-      { sentence: 'Ellos ___ (lograr) el éxito', options: ['logro', 'logras', 'logra', 'logran'], correct: 3 },
-      { sentence: 'Yo ___ (realizar) mis sueños', options: ['realizo', 'realizas', 'realiza', 'realizan'], correct: 0 },
-      { sentence: 'Tú ___ (contar) historias', options: ['cuento', 'cuentas', 'cuenta', 'cuentan'], correct: 1 },
-      { sentence: 'Él ___ (encontrar) soluciones', options: ['encuentro', 'encuentras', 'encuentra', 'encuentran'], correct: 2 },
-      { sentence: 'Nosotros ___ (recomendar) el restaurante', options: ['recomiendo', 'recomiendas', 'recomienda', 'recomendamos'], correct: 3 },
-      { sentence: 'Ellas ___ (aconsejar) a sus amigos', options: ['aconsejo', 'aconsejas', 'aconseja', 'aconsejan'], correct: 3 },
-      { sentence: 'Yo ___ (imaginar) el futuro', options: ['imagino', 'imaginas', 'imagina', 'imaginan'], correct: 0 },
-      { sentence: 'Tú ___ (desear) buena suerte', options: ['deseo', 'deseas', 'desea', 'desean'], correct: 1 },
-      { sentence: 'Ella ___ (dudar) de todo', options: ['dudo', 'dudas', 'duda', 'dudan'], correct: 2 },
-      { sentence: 'Vosotros ___ (lamentar) la situación', options: ['lamento', 'lamentas', 'lamenta', 'lamentáis'], correct: 3 },
-      { sentence: 'Ellos ___ (perdonar) los errores', options: ['perdono', 'perdonas', 'perdona', 'perdonan'], correct: 3 },
-      { sentence: 'Yo ___ (culpar) a nadie', options: ['culpo', 'culpas', 'culpa', 'culpan'], correct: 0 },
-      { sentence: 'Tú ___ (molestar) a tu hermano', options: ['molesto', 'molestas', 'molesta', 'molestan'], correct: 1 },
-      { sentence: 'Él ___ (aprobar) el examen', options: ['apruebo', 'apruebas', 'aprueba', 'aprueban'], correct: 2 }
+      { sentence: 'Ellos ___ (bailar) salsa', options: ['bailo', 'bailas', 'baila', 'bailan'], correct: 3 }
     ]
   },
   'ex-2-1-2': {
@@ -6482,42 +6244,9 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Сопоставьте глагол с переводом',
     questions: [
       { spanish: 'hablar', options: ['работать', 'говорить', 'учиться', 'готовить'], correct: 1 },
+      { spanish: 'cocinar', options: ['танцевать', 'петь', 'готовить', 'покупать'], correct: 2 },
       { spanish: 'bailar', options: ['танцевать', 'гулять', 'работать', 'слушать'], correct: 0 },
-      { spanish: 'comprar', options: ['готовить', 'покупать', 'продавать', 'учиться'], correct: 1 },
-      { spanish: 'escuchar', options: ['говорить', 'слушать', 'петь', 'кричать'], correct: 1 },
-      { spanish: 'llamar', options: ['звать, звонить', 'говорить', 'кричать', 'петь'], correct: 0 },
-      { spanish: 'preguntar', options: ['отвечать', 'говорить', 'спрашивать', 'слушать'], correct: 2 },
-      { spanish: 'tomar', options: ['давать', 'брать, есть, пить', 'покупать', 'готовить'], correct: 1 },
-      { spanish: 'viajar', options: ['работать', 'жить', 'путешествовать', 'гулять'], correct: 2 },
-      { spanish: 'dar', options: ['брать', 'давать', 'покупать', 'продавать'], correct: 1 },
-      { spanish: 'estar', options: ['быть, находиться', 'идти', 'приходить', 'уходить'], correct: 0 },
-      { spanish: 'descansar', options: ['работать', 'учиться', 'отдыхать', 'играть'], correct: 2 },
-      { spanish: 'visitar', options: ['жить', 'посещать', 'находиться', 'уходить'], correct: 1 },
-      { spanish: 'terminar', options: ['начинать', 'продолжать', 'заканчивать', 'делать'], correct: 2 },
-      { spanish: 'ganar', options: ['проигрывать', 'играть', 'выигрывать, зарабатывать', 'покупать'], correct: 2 },
-      { spanish: 'cantar', options: ['танцевать', 'петь', 'играть', 'слушать'], correct: 1 },
-      { spanish: 'celebrar', options: ['работать', 'отдыхать', 'гулять', 'праздновать'], correct: 3 },
-      { spanish: 'jugar', options: ['работать', 'учиться', 'играть', 'гулять'], correct: 2 },
-      { spanish: 'contar', options: ['слушать', 'писать', 'рассказывать', 'читать'], correct: 2 },
-      { spanish: 'esperar', options: ['приходить', 'уходить', 'ждать, надеяться', 'находиться'], correct: 2 },
-      { spanish: 'lograr', options: ['терять', 'проигрывать', 'достигать', 'искать'], correct: 2 },
-      { spanish: 'cambiar', options: ['оставлять', 'покупать', 'продавать', 'менять'], correct: 3 },
-      { spanish: 'mejorar', options: ['ухудшать', 'улучшать', 'менять', 'делать'], correct: 1 },
-      { spanish: 'realizar', options: ['думать', 'желать', 'осуществлять', 'мечтать'], correct: 2 },
-      { spanish: 'empezar', options: ['заканчивать', 'продолжать', 'начинать', 'делать'], correct: 2 },
-      { spanish: 'necesitar', options: ['хотеть', 'нуждаться', 'желать', 'мечтать'], correct: 1 },
-      { spanish: 'recomendar', options: ['просить', 'советовать', 'рекомендовать', 'приказывать'], correct: 2 },
-      { spanish: 'aconsejar', options: ['приказывать', 'советовать', 'просить', 'рекомендовать'], correct: 1 },
-      { spanish: 'buscar', options: ['находить', 'терять', 'искать', 'покупать'], correct: 2 },
-      { spanish: 'encontrar', options: ['терять', 'искать', 'покупать', 'находить'], correct: 3 },
-      { spanish: 'aprobar', options: ['проваливать', 'сдать (экзамен)', 'учиться', 'изучать'], correct: 1 },
-      { spanish: 'desear', options: ['думать', 'желать', 'мечтать', 'воображать'], correct: 1 },
-      { spanish: 'imaginar', options: ['думать', 'желать', 'воображать', 'мечтать'], correct: 2 },
-      { spanish: 'lamentar', options: ['радоваться', 'сожалеть', 'грустить', 'плакать'], correct: 1 },
-      { spanish: 'culpar', options: ['хвалить', 'винить', 'прощать', 'любить'], correct: 1 },
-      { spanish: 'perdonar', options: ['винить', 'наказывать', 'прощать', 'любить'], correct: 2 },
-      { spanish: 'dudar', options: ['знать', 'верить', 'думать', 'сомневаться'], correct: 3 },
-      { spanish: 'molestar', options: ['помогать', 'любить', 'раздражать', 'радовать'], correct: 2 }
+      { spanish: 'comprar', options: ['готовить', 'покупать', 'продавать', 'учиться'], correct: 1 }
     ]
   },
   'ex-2-1-3': {
@@ -6525,32 +6254,32 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'reading',
     title: 'Чтение: Диалоги в городе',
     description: 'Прочитайте текст и ответьте на вопросы',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    text: 'Ana, Pedro y Pablo se encuentran. Ana: ¡Hola! Buenos días. Pablo: Buenos días, Ana. ¿Qué tal estás? Ana: Bien, gracias. ¿Y tú? Pablo: Todo va bien. ¿De dónde eres tú, Ana? Ana: Yo soy de Rusia. ¿Y tú? Pablo: Yo soy de España. Pedro: Yo soy de Argentina. Pablo: ¡Qué bien! ¿Dónde está tu casa? Pedro: Mi casa está en Buenos Aires. Es una casa grande y bonita. ¿Y tú de dónde eres, Pablo? Pablo: Yo soy de Moscú. ¿Eres estudiante? Pedro: No, soy pintor. Pablo: Mucho gusto. Pedro: Encantado. ¿Y tú, Pablo, eres estudiante? Pablo: Sí, estudio música. ¿Vamos a tomar un café? Ana: No, gracias. Vamos a salir. Yo voy a ver a mi hermana. Pedro: ¿Vais en coche? Ana: Sí, vamos en coche. Voy a dar un libro a mi hermana. Pablo: ¿Tu hermana vive en Madrid? Ana: No, ella vive en Barcelona, pero ahora está en Madrid. Pablo: ¡Adiós! Ana y Pedro: Hasta luego.',
+    text: 'Диалог en la ciudad: Juan: ¡Hola! Yo soy Juan. ¿Y tú? Ana: Me llamo Ana. Soy joven y alegre. Juan: ¡Mucho gusto! La ciudad es grande. Ana: Sí, es grande y bonita. Ahora estoy en la calle. Juan: Yo estoy en casa. || Diálogo sobre ubicación: Felipe: Buenos días, señora. ¿Cómo se llama usted? Doña Clara: Me llamo Doña Clara. Soy rica. Felipe: Encantado. Yo soy Felipe, soy estudiante. Soy de Rusia. Doña Clara: Qué interesante... ¿De dónde es su hermano? Felipe: Mi hermano es de China. Él es ingeniero y está casado. || Diálogo sobre estados: Pedro: ¡Hola! ¿Cómo estás? Marta: Estoy regular. Mi mano está fría y tengo veinticinco años. Pedro: ¡Qué lástima! ¿Estás enferma? Marta: No, no estoy enferma, estoy triste. Soy soltera. ¿Y tú? Pedro: Yo soy policía. Soy alto y delgado. Ahora voy a la escuela con mi amigo Carlos. Marta: ¿Es fácil la escuela? Pedro: Es difícil, pero es interesante. Estamos contentos. Marta: Mi hermano está en la playa. El sol es caliente.',
     questions: [
-      { question: '¿De dónde es Ana?', options: ['De España', 'De Rusia', 'De Argentina', 'De Francia'], correct: 1 },
-      { question: '¿De dónde es Pablo?', options: ['De España', 'De Argentina', 'De Rusia', 'De Barcelona'], correct: 0 },
-      { question: '¿De dónde es Pedro?', options: ['De España', 'De Rusia', 'De Argentina', 'De Moscú'], correct: 2 },
-      { question: '¿Dónde está la casa de Pedro?', options: ['En Moscú', 'En Madrid', 'En Barcelona', 'En Buenos Aires'], correct: 3 },
-      { question: '¿Cómo es la casa de Pedro?', options: ['Pequeña y vieja', 'Grande y bonita', 'Pequeña y bonita', 'Grande y vieja'], correct: 1 },
-      { question: '¿De qué ciudad es Pablo?', options: ['De Barcelona', 'De Buenos Aires', 'De Moscú', 'De Madrid'], correct: 2 },
-      { question: '¿Es Pedro estudiante?', options: ['Sí, es estudiante', 'No, es pintor', 'No, es profesor', 'Sí, es músico'], correct: 1 },
-      { question: '¿Es Pablo estudiante?', options: ['No, es pintor', 'Sí, estudia música', 'No, es profesor', 'Sí, estudia arte'], correct: 1 },
-      { question: '¿Qué estudia Pablo?', options: ['Arte', 'Pintura', 'Música', 'Literatura'], correct: 2 },
-      { question: '¿A quién va a ver Ana?', options: ['A su madre', 'A su hermana', 'A su amiga', 'A su profesora'], correct: 1 },
-      { question: '¿Cómo van Ana y Pedro?', options: ['A pie', 'En autobús', 'En coche', 'En tren'], correct: 2 },
-      { question: '¿Qué va a dar Ana a su hermana?', options: ['Un mensaje', 'Un café', 'Un libro', 'Una carta'], correct: 2 },
-      { question: '¿Dónde vive la hermana de Ana?', options: ['En Madrid', 'En Barcelona', 'En Moscú', 'En Buenos Aires'], correct: 1 },
-      { question: '¿Dónde está la hermana de Ana ahora?', options: ['En Barcelona', 'En Moscú', 'En Madrid', 'En Buenos Aires'], correct: 2 },
-      { question: '¿Qué dice Pablo al final?', options: ['Hasta luego', 'Adiós', 'Muchas gracias', 'Nos vemos'], correct: 1 }
+      { question: '¿Cómo se llama el chico en el primer diálogo?', options: ['Pedro', 'Felipe', 'Juan', 'Carlos'], correct: 2 },
+      { question: '¿Cómo es Ana?', options: ['Triste y vieja', 'Joven y alegre', 'Rica y alta', 'Enferma y regular'], correct: 1 },
+      { question: '¿Cómo es la ciudad según Juan?', options: ['Pequeña', 'Antigua', 'Grande', 'Fría'], correct: 2 },
+      { question: '¿Dónde está Ana ahora?', options: ['En casa', 'En el museo', 'En la calle', 'En la playa'], correct: 2 },
+      { question: '¿Dónde está Juan?', options: ['En la calle', 'En casa', 'En la escuela', 'En el museo'], correct: 1 },
+      { question: '¿Cómo se llama la señora rica?', options: ['Ana', 'Marta', 'Doña Clara', 'No dice'], correct: 2 },
+      { question: '¿De dónde es Felipe?', options: ['De China', 'De Rusia', 'De España', 'De Perú'], correct: 1 },
+      { question: '¿Qué es Felipe?', options: ['Ingeniero', 'Estudiante', 'Policía', 'Profesor'], correct: 1 },
+      { question: '¿De dónde es el hermano de Felipe?', options: ['De Rusia', 'De España', 'De China', 'De Italia'], correct: 2 },
+      { question: '¿Qué es el hermano de Felipe?', options: ['Estudiante', 'Policía', 'Ingeniero', 'Profesor'], correct: 2 },
+      { question: '¿Cuántos años tiene Marta?', options: ['Veinte años', 'Veinticinco años', 'Treinta años', 'Dieciocho años'], correct: 1 },
+      { question: '¿Qué es Pedro?', options: ['Estudiante', 'Ingeniero', 'Policía', 'Médico'], correct: 2 },
+      { question: '¿Cómo es Pedro?', options: ['Bajo y gordo', 'Alto y delgado', 'Joven y alegre', 'Viejo y triste'], correct: 1 },
+      { question: '¿Adónde va Pedro?', options: ['Al museo', 'A la playa', 'A la escuela', 'A casa'], correct: 2 },
+      { question: '¿Cómo es la escuela según Pedro?', options: ['Fácil pero aburrida', 'Difícil pero interesante', 'Grande y bonita', 'Pequeña y antigua'], correct: 1 },
+      { question: '¿Dónde está el hermano de Marta?', options: ['En casa', 'En la escuela', 'En el museo', 'En la playa'], correct: 3 },
+      { question: '¿Cómo es el sol según Marta?', options: ['Frío', 'Caliente', 'Grande', 'Pequeño'], correct: 1 }
     ]
   },
   'ex-2-1-4': {
     id: 'ex-2-1-4',
     type: 'writing',
     title: 'Переведите предложения',
-    description: 'Переведите на испанский. Внимание: ударения и знаки препинания считаются ошибкой',
+    description: 'Переведите на испанский',
     questions: [
       { russian: 'Я говорю по-испански, а мой друг слушает новости.', correct: 'yo hablo español y mi amigo escucha las noticias' },
       { russian: 'Ты звонишь твоей маме по телефону?', correct: '¿tú llamas a tu madre por teléfono?' },
@@ -6578,7 +6307,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-2-1-5',
     type: 'fillblank',
     title: 'Заполните пропуски',
-    description: 'Вставьте правильную форму глагола. Внимание: ударения и знаки препинания считаются ошибкой',
+    description: 'Вставьте правильную форму глагола',
     questions: [
       { sentence: 'Yo _____ (hablar) español con mis amigos', verb: 'hablar', correct: 'hablo' },
       { sentence: 'Ana _____ (ser) joven y alegre', verb: 'ser', correct: 'es' },
@@ -6600,31 +6329,24 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-2-2-1': {
     id: 'ex-2-2-1',
     type: 'grammar',
-    title: 'Глагол IR (идти, ехать)',
-    description: 'Выберите правильную форму глагола',
-    showCorrectAnswer: true,
-    highlightErrors: true,
+    title: 'Глаголы -ER и -IR',
+    description: 'Выберите правильную форму',
     questions: [
-      { sentence: 'Yo ___ (ir) a casa', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
-      { sentence: 'Tú ___ (ir) al museo', options: ['voy', 'vas', 'va', 'vamos'], correct: 1 },
-      { sentence: 'Él ___ (ir) al bar', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
-      { sentence: 'Nosotros ___ (ir) al teatro', options: ['voy', 'vais', 'va', 'vamos'], correct: 3 },
-      { sentence: 'Ellos ___ (ir) al café', options: ['voy', 'vas', 'va', 'van'], correct: 3 },
-      { sentence: 'Yo ___ (ir) en coche', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
-      { sentence: 'Tú ___ (ir) en taxi', options: ['voy', 'vas', 'va', 'vamos'], correct: 1 },
-      { sentence: 'Ella ___ (ir) en autobús', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
-      { sentence: 'Nosotros ___ (ir) en tren', options: ['voy', 'vais', 'va', 'vamos'], correct: 3 },
-      { sentence: 'Ellas ___ (ir) a pie', options: ['voy', 'vas', 'va', 'van'], correct: 3 },
-      { sentence: 'Yo ___ (ir) a la escuela', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
-      { sentence: 'Tú ___ (ir) a la oficina', options: ['voy', 'vas', 'va', 'vamos'], correct: 1 },
-      { sentence: 'Usted ___ (ir) al hospital', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
-      { sentence: 'Vosotros ___ (ir) a la playa', options: ['voy', 'vais', 'va', 'vamos'], correct: 1 },
-      { sentence: 'Ustedes ___ (ir) al restaurante', options: ['voy', 'vas', 'va', 'van'], correct: 3 },
-      { sentence: 'Yo ___ (ir) de compras', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
-      { sentence: 'Tú ___ (ir) de vacaciones', options: ['voy', 'vas', 'va', 'vamos'], correct: 1 },
-      { sentence: 'Él ___ (ir) a la universidad', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
-      { sentence: 'Nosotras ___ (ir) al cine', options: ['voy', 'vais', 'va', 'vamos'], correct: 3 },
-      { sentence: 'Ellos ___ (ir) en avión', options: ['voy', 'vas', 'va', 'van'], correct: 3 }
+      { sentence: 'Yo ___ (comer) pasta', options: ['como', 'comes', 'come', 'comen'], correct: 0 },
+      { sentence: 'Ellos ___ (vivir) en España', options: ['vivo', 'vives', 'vive', 'viven'], correct: 3 },
+      { sentence: 'Tú ___ (beber) agua', options: ['bebo', 'bebes', 'bebe', 'bebemos'], correct: 1 },
+      { sentence: 'Nosotros ___ (escribir) emails', options: ['escribo', 'escribes', 'escribe', 'escribimos'], correct: 3 },
+      { sentence: 'Ella ___ (leer) libros', options: ['leo', 'lees', 'lee', 'leen'], correct: 2 },
+      { sentence: 'Vosotros ___ (aprender) español', options: ['aprendo', 'aprendes', 'aprende', 'aprendéis'], correct: 3 },
+      { sentence: 'Yo ___ (abrir) la puerta', options: ['abro', 'abres', 'abre', 'abren'], correct: 0 },
+      { sentence: 'Ellas ___ (comer) frutas', options: ['como', 'comes', 'come', 'comen'], correct: 3 },
+      { sentence: 'Usted ___ (vivir) en Madrid', options: ['vivo', 'vives', 'vive', 'viven'], correct: 2 },
+      { sentence: 'Nosotras ___ (leer) el periódico', options: ['leo', 'lees', 'lee', 'leemos'], correct: 3 },
+      { sentence: 'Tú ___ (escribir) cartas', options: ['escribo', 'escribes', 'escribe', 'escriben'], correct: 1 },
+      { sentence: 'Él ___ (beber) café', options: ['bebo', 'bebes', 'bebe', 'beben'], correct: 2 },
+      { sentence: 'Ustedes ___ (aprender) italiano', options: ['aprendo', 'aprendes', 'aprende', 'aprenden'], correct: 3 },
+      { sentence: 'Yo ___ (recibir) mensajes', options: ['recibo', 'recibes', 'recibe', 'reciben'], correct: 0 },
+      { sentence: 'Nosotros ___ (comer) en casa', options: ['como', 'comes', 'comemos', 'comen'], correct: 2 }
     ]
   },
   'ex-2-2-2': {
@@ -6652,32 +6374,26 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
   'ex-2-2-3': {
     id: 'ex-2-2-3',
-    type: 'grammar',
-    title: 'Глаголы TENER и OÍR',
-    description: 'Выберите правильную форму глагола',
-    showCorrectAnswer: true,
-    highlightErrors: true,
+    type: 'reading',
+    title: 'Чтение: Mi día en Madrid',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'Hola, me llamo Pedro. Soy estudiante de Rusia. Vivo en Madrid. Cada mañana tomo café con leche y tomo el autobús a la universidad. En la universidad hablo con mis amigos de Italia, Francia y Alemania. Hablamos español en clase. También leemos libros y escribimos textos. A las dos tomo el almuerzo. Como bocadillos y tomo zumo de naranja. Por la tarde leo libros en español y aprendo palabras nuevas. Mi amiga Ana es española. Ella es profesora. Ana toma el tren de Barcelona a Madrid. Los fines de semana tomamos el sol en el parque.',
     questions: [
-      { sentence: 'Yo ___ (tener) un libro', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
-      { sentence: 'Tú ___ (tener) una casa grande', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Él ___ (tener) un coche nuevo', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Nosotros ___ (tener) dos hermanos', options: ['tengo', 'tenéis', 'tiene', 'tenemos'], correct: 3 },
-      { sentence: 'Ellos ___ (tener) una familia grande', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 3 },
-      { sentence: 'Yo ___ (tener) veinte años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
-      { sentence: 'Tú ___ (tener) hambre', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Ella ___ (tener) sed', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Vosotros ___ (tener) razón', options: ['tengo', 'tenéis', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Ustedes ___ (tener) un amigo español', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 3 },
-      { sentence: 'Yo ___ (oír) música', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 0 },
-      { sentence: 'Tú ___ (oír) las noticias', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
-      { sentence: 'Él ___ (oír) la radio', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
-      { sentence: 'Nosotras ___ (oír) el teléfono', options: ['oigo', 'oís', 'oye', 'oímos'], correct: 3 },
-      { sentence: 'Ellas ___ (oír) la voz del profesor', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 3 },
-      { sentence: 'Yo ___ (tener) un café con leche', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
-      { sentence: 'Tú ___ (oír) a tu madre', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
-      { sentence: 'Usted ___ (tener) una oficina en Madrid', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Vosotras ___ (oír) al médico', options: ['oigo', 'oís', 'oye', 'oímos'], correct: 1 },
-      { sentence: 'Ustedes ___ (tener) tiempo', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 3 }
+      { question: '¿Cómo se llama el estudiante?', options: ['Antonio', 'Pedro', 'Pablo', 'Carlos'], correct: 1 },
+      { question: '¿De dónde es Pedro?', options: ['De Italia', 'De Francia', 'De Rusia', 'De España'], correct: 2 },
+      { question: '¿Dónde vive Pedro?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Moscú'], correct: 1 },
+      { question: '¿Qué toma Pedro cada mañana?', options: ['Té', 'Café con leche', 'Zumo', 'Agua'], correct: 1 },
+      { question: '¿Cómo va Pedro a la universidad?', options: ['En tren', 'En coche', 'En autobús', 'A pie'], correct: 2 },
+      { question: '¿De dónde son los amigos de Pedro?', options: ['De España', 'De Rusia', 'De Italia, Francia y Alemania', 'De Inglaterra'], correct: 2 },
+      { question: '¿Qué hacen en clase?', options: ['Juegan', 'Hablan español', 'Duermen', 'Comen'], correct: 1 },
+      { question: '¿Qué más hacen en la universidad?', options: ['Leen y escriben', 'Corren', 'Cantan', 'Bailan'], correct: 0 },
+      { question: '¿A qué hora toma el almuerzo Pedro?', options: ['A la una', 'A las dos', 'A las tres', 'A las cuatro'], correct: 1 },
+      { question: '¿Qué come Pedro?', options: ['Pasta', 'Bocadillos', 'Frutas', 'Pescado'], correct: 1 },
+      { question: '¿Qué bebe Pedro con la comida?', options: ['Agua', 'Café', 'Zumo de naranja', 'Leche'], correct: 2 },
+      { question: '¿Qué hace Pedro por la tarde?', options: ['Duerme', 'Lee libros', 'Va al cine', 'Juega'], correct: 1 },
+      { question: '¿Quién es Ana?', options: ['Hermana de Pedro', 'Profesora española', 'Estudiante italiana', 'Médica francesa'], correct: 1 },
+      { question: '¿Cómo va Ana de Barcelona a Madrid?', options: ['En tren', 'En autobús', 'En coche', 'En avión'], correct: 0 },
+      { question: '¿Qué hacen los fines de semana?', options: ['Van al cine', 'Toman el sol', 'Van de compras', 'Comen en restaurantes'], correct: 1 }
     ]
   },
   'ex-2-2-4': {
@@ -6936,181 +6652,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-2-2-ir-a-lugar': {
-    id: 'ex-2-2-ir-a-lugar',
-    type: 'fillblank',
-    title: 'Ir a + Lugar/Actividad',
-    description: 'Completa las frases usando la forma correcta del verbo IR y la preposición A. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ al gimnasio después del trabajo.', correct: 'voy' },
-      { sentence: 'Mi familia y yo _____ a visitar a mis abuelos.', correct: 'vamos' },
-      { sentence: 'El profesor _____ a dar una clase sobre historia.', correct: 'va' },
-      { sentence: 'Tú _____ a la farmacia por la medicina.', correct: 'vas' },
-      { sentence: 'Ellos _____ a cenar en un restaurante nuevo.', correct: 'van' },
-      { sentence: 'Usted _____ a hablar con el director.', correct: 'va' },
-      { sentence: 'Vosotros _____ a la piscina municipal mañana.', correct: 'vais' },
-      { sentence: 'Mi amigo _____ a buscar trabajo.', correct: 'va' },
-      { sentence: 'Los niños _____ a jugar al fútbol al campo.', correct: 'van' },
-      { sentence: '¿A qué hora _____ ustedes a la reunión?', correct: 'van' }
-    ]
-  },
-
-  'ex-2-2-ir-de-en': {
-    id: 'ex-2-2-ir-de-en',
-    type: 'fillblank',
-    title: 'Ir de + Actividad / Ir en + Medio de transporte',
-    description: 'Completa las frases usando la forma correcta del verbo IR y la preposición necesaria (DE o EN). Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Nosotros _____ en bicicleta por el campo.', correct: 'vamos' },
-      { sentence: 'Mi hermana _____ de viaje a Alemania en verano.', correct: 'va' },
-      { sentence: 'Tú _____ en patinete eléctrico a tu cita.', correct: 'vas' },
-      { sentence: 'Yo _____ de excursión con mis compañeros.', correct: 'voy' },
-      { sentence: 'El mensajero _____ en motocicleta a entregar el paquete.', correct: 'va' },
-      { sentence: 'Ustedes _____ en autobús para ahorrar dinero.', correct: 'van' },
-      { sentence: 'La señora _____ de compras cada fin de semana.', correct: 'va' },
-      { sentence: 'Vosotros _____ en metro a la universidad.', correct: 'vais' },
-      { sentence: 'El capitán _____ en barco a las islas.', correct: 'va' },
-      { sentence: 'Mis tíos _____ en crucero por el Mediterráneo.', correct: 'van' }
-    ]
-  },
-
-  'ex-2-2-ir-translation': {
-    id: 'ex-2-2-ir-translation',
-    type: 'writing',
-    title: 'Перевод на испанский с глаголом IR',
-    description: 'Переведите предложения на испанский. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { question: 'Мы едем в театр на метро.', correct: 'Vamos al teatro en metro.' },
-      { question: 'Я еду на работу на машине.', correct: 'Voy al trabajo en coche.' },
-      { question: 'Петр и Мария не идут в кино, они будут писать статью.', correct: 'Pedro y María no van al cine, van a escribir un artículo.' },
-      { question: 'Ты едешь в Валенсию на поезде, а я плыву на корабле.', correct: 'Tú vas a Valencia en tren y yo voy en barco.' },
-      { question: 'Они ходят за покупками пешком.', correct: 'Ellos van de compras a pie.' },
-      { question: 'Вы (vosotros) летите на каникулы в Испанию на самолете.', correct: 'Vosotros vais de vacaciones a España en avión.' },
-      { question: 'Она собирается поговорить с врачом.', correct: 'Ella va a hablar con el médico.' }
-    ]
-  },
-
-  'ex-2-2-tener-translation': {
-    id: 'ex-2-2-tener-translation',
-    type: 'writing',
-    title: 'Выражения с глаголом TENER',
-    description: 'Переведите предложения с испанского на русский',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { question: 'Mi primo tiene dieciocho años.', correct: 'Моему двоюродному брату восемнадцать лет.' },
-      { question: 'Nosotros tenemos una casa muy grande.', correct: 'У нас есть очень большой дом.' },
-      { question: 'Los estudiantes tienen mucha hambre a esta hora.', correct: 'Студенты очень голодны в это время.' },
-      { question: 'Yo tengo la culpa de ese error.', correct: 'Я виноват в этой ошибке.' },
-      { question: '¿Ustedes tienen la información necesaria?', correct: 'У вас есть необходимая информация?' },
-      { question: 'Yo no tengo paciencia con el tráfico.', correct: 'У меня нет терпения к пробкам.' },
-      { question: '¡Hoy tenemos muy buena suerte!', correct: 'Сегодня нам очень повезло!' },
-      { question: '¿Vosotros tenéis frío aquí?', correct: 'Вам здесь холодно?' },
-      { question: 'El gato tiene mucha sed después de correr.', correct: 'Кот очень хочет пить после бега.' },
-      { question: 'Tenemos que comprar un nuevo ordenador.', correct: 'Мы должны купить новый компьютер.' }
-    ]
-  },
-
-  'ex-2-2-tener-translation-2': {
-    id: 'ex-2-2-tener-translation-2',
-    type: 'writing',
-    title: 'Перевод на русский с глаголом TENER',
-    description: 'Переведите предложения с испанского на русский',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { question: 'Yo no tengo tiempo libre.', correct: 'У меня нет свободного времени.' },
-      { question: 'Ella tiene ocho meses.', correct: 'Ей восемь месяцев.' },
-      { question: 'Mi perro tiene mucha sed.', correct: 'Моя собака очень хочет пить.' },
-      { question: 'Nosotros tenemos una reunión.', correct: 'У нас есть встреча.' },
-      { question: 'Mi jefe tiene mucha prisa.', correct: 'Мой начальник очень спешит.' },
-      { question: 'Los vecinos tienen cuarenta y cinco años.', correct: 'Соседям сорок пять лет.' },
-      { question: 'Vosotras tenéis razón.', correct: 'Вы правы.' },
-      { question: 'Tú tienes que estudiar más.', correct: 'Ты должен учиться больше.' },
-      { question: 'Mis padres y yo tenemos mucho calor.', correct: 'Моим родителям и мне очень жарко.' },
-      { question: 'El coche tiene que pasar la ITV (Inspección Técnica de Vehículo).', correct: 'Машина должна пройти техосмотр.' }
-    ]
-  },
-
-  'ex-2-2-tener-conjugation': {
-    id: 'ex-2-2-tener-conjugation',
-    type: 'fillblank',
-    title: 'Поставьте глагол TENER в соответствующую форму',
-    description: 'Заполните пропуски правильной формой глагола TENER. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ mucha hambre ahora.', correct: 'tengo' },
-      { sentence: 'Tú _____ sueño.', correct: 'tienes' },
-      { sentence: 'Mi hermano _____ nueve años.', correct: 'tiene' },
-      { sentence: 'Nosotros _____ un perro pequeño.', correct: 'tenemos' },
-      { sentence: 'Vosotros _____ que ir al supermercado.', correct: 'tenéis' },
-      { sentence: 'Ellas _____ un coche rojo.', correct: 'tienen' },
-      { sentence: 'Usted _____ sed.', correct: 'tiene' },
-      { sentence: 'Yo _____ un libro interesante.', correct: 'tengo' },
-      { sentence: 'Los chicos _____ calor.', correct: 'tienen' },
-      { sentence: 'Tú _____ que hacer la tarea.', correct: 'tienes' }
-    ]
-  },
-
-  'ex-2-2-tener-rus-esp': {
-    id: 'ex-2-2-tener-rus-esp',
-    type: 'writing',
-    title: 'Перевод с русского на испанский с глаголом TENER',
-    description: 'Переведите предложения с русского на испанский, используя глагол TENER. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { question: 'У меня есть собака.', correct: 'Yo tengo un perro.' },
-      { question: 'Тебе пятнадцать лет.', correct: 'Tú tienes quince años.' },
-      { question: 'Нам очень холодно.', correct: 'Nosotros tenemos mucho frío.' },
-      { question: 'У них нет времени.', correct: 'Ellos no tienen tiempo.' },
-      { question: 'Вы (Usted) должны работать.', correct: 'Usted tiene que trabajar.' },
-      { question: 'Ему жарко.', correct: 'Él tiene calor.' },
-      { question: 'У нас есть один друг.', correct: 'Nosotros tenemos un amigo.' },
-      { question: 'Они хотят пить.', correct: 'Ellos tienen sed.' },
-      { question: 'Вы (Vosotros) должны купить хлеб.', correct: 'Vosotros tenéis que comprar pan.' },
-      { question: 'У нее большая семья.', correct: 'Ella tiene una familia grande.' }
-    ]
-  },
-
-  'ex-2-2-oir-conjugation': {
-    id: 'ex-2-2-oir-conjugation',
-    type: 'fillblank',
-    title: 'Поставьте глагол OÍR в соответствующую форму',
-    description: 'Заполните пропуски правильной формой глагола OÍR в настоящем времени. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ la radio todas las mañanas.', correct: 'oigo' },
-      { sentence: '¿Tú _____ ese ruido extraño?', correct: 'oyes' },
-      { sentence: 'El bebé no _____ al perro que ladra.', correct: 'oye' },
-      { sentence: 'Nosotros _____ la música alta de los vecinos.', correct: 'oímos' },
-      { sentence: 'Ustedes _____ las noticias en la televisión.', correct: 'oyen' },
-      { sentence: 'Vosotros _____ la voz del profesor muy bien.', correct: 'oís' },
-      { sentence: 'Mi madre _____ mi canción favorita.', correct: 'oye' },
-      { sentence: 'Yo no _____ nada, habla más fuerte.', correct: 'oigo' },
-      { sentence: 'Tú y tu amigo _____ el teléfono sonar.', correct: 'oís' },
-      { sentence: 'Ana y yo _____ el mar desde la ventana.', correct: 'oímos' },
-      { sentence: 'Yo _____ la música, pero no me gusta.', correct: 'oigo' },
-      { sentence: 'El niño _____ a su abuela en el teléfono.', correct: 'oye' },
-      { sentence: 'Nosotros _____ la lluvia caer.', correct: 'oímos' },
-      { sentence: 'Ustedes no _____ la campana de la iglesia.', correct: 'oyen' },
-      { sentence: 'Pablo y yo _____ las campanas muy fuerte.', correct: 'oímos' },
-      { sentence: 'Tú _____ la explicación, pero no la entiendes.', correct: 'oyes' },
-      { sentence: 'La chica no _____ la radio porque _____ mal.', correct: 'oye' },
-      { sentence: 'Ellos no _____ el coche que pasa.', correct: 'oyen' },
-      { sentence: '¿Vosotros _____ el ruido de la calle?', correct: 'oís' },
-      { sentence: 'Yo no _____ nada porque hay mucho ruido aquí.', correct: 'oigo' }
-    ]
-  },
-
   'ex-2-3-1': {
     id: 'ex-2-3-1',
     type: 'grammar',
@@ -7178,453 +6719,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Они собираются купить (ir a + comprar)', correct: 'van a comprar' },
       { russian: 'Мы едем в отпуск (ir de vacaciones)', correct: 'vamos de vacaciones' },
       { russian: 'Ты идешь за покупками (ir de compras)', correct: 'vas de compras' }
-    ]
-  },
-
-  'ex-2-3-description': {
-    id: 'ex-2-3-description',
-    type: 'reading',
-    title: 'Описание внешности и характера',
-    description: 'Прочитайте описания и ответьте на вопросы',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    text: `**El señor Pablo Ruiz** es nuestro profesor de español. Es un hombre viejo. Es un poco gordo, pero muy simpático y alegre. Tiene el pelo corto y canoso. Siempre lleva gafas.
-
-**Su esposa, la señora Clara**, es médica. Es una mujer alta y delgada. Es muy trabajadora y tranquila. Clara tiene el pelo largo y liso, de color castaño. Tiene los ojos grandes y verdes.
-
-**El joven estudiante** se llama Daniel. Es muy joven, solo tiene 19 años. Es atlético, guapo y fuerte. Daniel no tiene barba. Es rubio y tiene el pelo rizado. Daniel es un poco tímido, pero muy inteligente y sincero.
-
-**La chica con el tatuaje** en el brazo es mi amiga, Lucía. Ella es periodista. Es baja y delgada. Tiene el pelo muy corto y negro. Lucía es una persona muy comunicativa y curiosa. No es puntual, pero es muy generosa.`,
-    questions: [
-      {
-        question: '¿Cómo es el señor Pablo Ruiz?',
-        options: [
-          'Es alto y delgado con pelo largo',
-          'Es un poco gordo con pelo corto y canoso',
-          'Es joven y atlético',
-          'Es bajo con pelo negro'
-        ],
-        correct: 1
-      },
-      {
-        question: '¿Qué hace siempre el señor Pablo?',
-        options: [
-          'Lleva barba',
-          'Lleva tatuajes',
-          'Lleva gafas',
-          'Lleva el pelo largo'
-        ],
-        correct: 2
-      },
-      {
-        question: '¿Cómo es la señora Clara?',
-        options: [
-          'Baja y gorda',
-          'Alta y delgada',
-          'Joven y tímida',
-          'Vieja y perezosa'
-        ],
-        correct: 1
-      },
-      {
-        question: '¿De qué color son los ojos de Clara?',
-        options: [
-          'Azules',
-          'Pardos',
-          'Verdes',
-          'Grises'
-        ],
-        correct: 2
-      },
-      {
-        question: '¿Cuántos años tiene Daniel?',
-        options: [
-          '19 años',
-          '25 años',
-          '30 años',
-          'Es viejo'
-        ],
-        correct: 0
-      },
-      {
-        question: '¿Cómo es el pelo de Daniel?',
-        options: [
-          'Corto y negro',
-          'Largo y castaño',
-          'Rubio y rizado',
-          'Canoso y liso'
-        ],
-        correct: 2
-      },
-      {
-        question: '¿Qué profesión tiene Lucía?',
-        options: [
-          'Médica',
-          'Profesora',
-          'Periodista',
-          'Estudiante'
-        ],
-        correct: 2
-      },
-      {
-        question: '¿Cómo es el carácter de Lucía?',
-        options: [
-          'Tímida y tranquila',
-          'Comunicativa y curiosa',
-          'Seria y trabajadora',
-          'Perezosa y antipática'
-        ],
-        correct: 1
-      },
-      {
-        question: '¿Qué tiene Lucía en el brazo?',
-        options: [
-          'Gafas',
-          'Un lunar',
-          'Una cicatriz',
-          'Un tatuaje'
-        ],
-        correct: 3
-      },
-      {
-        question: '¿Cómo es el carácter del señor Pablo?',
-        options: [
-          'Tímido y serio',
-          'Simpático y alegre',
-          'Antipático y triste',
-          'Perezoso y avaro'
-        ],
-        correct: 1
-      }
-    ]
-  },
-
-  // Новые упражнения для Модуля 2 Урока 3
-  'ex-2-3-vocab-appearance': {
-    id: 'ex-2-3-vocab-appearance',
-    type: 'vocabulary',
-    title: 'Словарь: Внешность',
-    description: 'Выберите правильный перевод слов, описывающих внешность',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { spanish: 'alto', options: ['низкий', 'высокий', 'толстый', 'стройный'], correct: 1 },
-      { spanish: 'guapo', options: ['некрасивый', 'красивый', 'молодой', 'старый'], correct: 1 },
-      { spanish: 'delgado', options: ['толстый', 'высокий', 'стройный', 'низкий'], correct: 2 },
-      { spanish: 'pelo rizado', options: ['прямые волосы', 'короткие волосы', 'вьющиеся волосы', 'длинные волосы'], correct: 2 },
-      { spanish: 'rubio', options: ['брюнет', 'блондин', 'рыжий', 'шатен'], correct: 1 },
-      { spanish: 'ojos azules', options: ['карие глаза', 'зеленые глаза', 'голубые глаза', 'серые глаза'], correct: 2 },
-      { spanish: 'barba', options: ['усы', 'борода', 'очки', 'татуировка'], correct: 1 },
-      { spanish: 'calvo', options: ['лысый', 'седой', 'рыжий', 'кудрявый'], correct: 0 },
-      { spanish: 'joven', options: ['старый', 'молодой', 'средних лет', 'ребенок'], correct: 1 },
-      { spanish: 'gafas', options: ['усы', 'борода', 'очки', 'шрам'], correct: 2 },
-      { spanish: 'bajo', options: ['высокий', 'низкий', 'толстый', 'худой'], correct: 1 },
-      { spanish: 'gordo', options: ['стройный', 'высокий', 'толстый', 'низкий'], correct: 2 },
-      { spanish: 'moreno', options: ['блондин', 'брюнет', 'рыжий', 'седой'], correct: 1 },
-      { spanish: 'pelo largo', options: ['короткие волосы', 'длинные волосы', 'вьющиеся волосы', 'прямые волосы'], correct: 1 },
-      { spanish: 'viejo', options: ['молодой', 'ребенок', 'старый', 'подросток'], correct: 2 },
-      { spanish: 'flaco', options: ['толстый', 'высокий', 'худой', 'стройный'], correct: 2 },
-      { spanish: 'atlético', options: ['толстый', 'атлетический', 'худой', 'низкий'], correct: 1 },
-      { spanish: 'pelirrojo', options: ['блондин', 'брюнет', 'рыжий', 'седой'], correct: 2 },
-      { spanish: 'castaño', options: ['блондин', 'шатен', 'рыжий', 'седой'], correct: 1 },
-      { spanish: 'cano', options: ['блондин', 'брюнет', 'седой', 'рыжий'], correct: 2 },
-      { spanish: 'ojos verdes', options: ['голубые глаза', 'зеленые глаза', 'карие глаза', 'серые глаза'], correct: 1 },
-      { spanish: 'ojos pardos', options: ['голубые глаза', 'зеленые глаза', 'карие глаза', 'серые глаза'], correct: 2 },
-      { spanish: 'ojos grises', options: ['голубые глаза', 'зеленые глаза', 'серые глаза', 'карие глаза'], correct: 2 },
-      { spanish: 'bigotes', options: ['борода', 'усы', 'очки', 'татуировка'], correct: 1 },
-      { spanish: 'tatuaje', options: ['родинка', 'шрам', 'татуировка', 'очки'], correct: 2 },
-      { spanish: 'lunar', options: ['родинка', 'шрам', 'татуировка', 'очки'], correct: 0 },
-      { spanish: 'cicatriz', options: ['родинка', 'шрам', 'татуировка', 'борода'], correct: 1 },
-      { spanish: 'hermoso', options: ['некрасивый', 'красивый', 'старый', 'молодой'], correct: 1 },
-      { spanish: 'feo', options: ['красивый', 'некрасивый', 'молодой', 'старый'], correct: 1 },
-      { spanish: 'adolescente', options: ['ребенок', 'подросток', 'взрослый', 'старик'], correct: 1 }
-    ]
-  },
-
-  'ex-2-3-vocab-character': {
-    id: 'ex-2-3-vocab-character',
-    type: 'vocabulary',
-    title: 'Словарь: Характер',
-    description: 'Выберите правильный перевод слов, описывающих характер',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { spanish: 'alegre', options: ['грустный', 'веселый', 'серьезный', 'спокойный'], correct: 1 },
-      { spanish: 'trabajador', options: ['ленивый', 'трудолюбивый', 'хитрый', 'глупый'], correct: 1 },
-      { spanish: 'simpático', options: ['неприятный', 'симпатичный', 'грустный', 'злой'], correct: 1 },
-      { spanish: 'generoso', options: ['жадный', 'эгоистичный', 'щедрый', 'ленивый'], correct: 2 },
-      { spanish: 'tímido', options: ['коммуникабельный', 'застенчивый', 'хвастливый', 'храбрый'], correct: 1 },
-      { spanish: 'inteligente', options: ['глупый', 'ленивый', 'умный', 'хитрый'], correct: 2 },
-      { spanish: 'perezoso', options: ['трудолюбивый', 'активный', 'ленивый', 'быстрый'], correct: 2 },
-      { spanish: 'sincero', options: ['лживый', 'искренний', 'хитрый', 'жадный'], correct: 1 },
-      { spanish: 'valiente', options: ['трусливый', 'застенчивый', 'храбрый', 'глупый'], correct: 2 },
-      { spanish: 'comunicativo', options: ['застенчивый', 'коммуникабельный', 'тихий', 'серьезный'], correct: 1 },
-      { spanish: 'serio', options: ['веселый', 'шутливый', 'серьезный', 'легкомысленный'], correct: 2 },
-      { spanish: 'tranquilo', options: ['нервный', 'активный', 'спокойный', 'шумный'], correct: 2 },
-      { spanish: 'honrado', options: ['лживый', 'хитрый', 'честный', 'жадный'], correct: 2 },
-      { spanish: 'cariñoso', options: ['холодный', 'ласковый', 'злой', 'грубый'], correct: 1 },
-      { spanish: 'curioso', options: ['равнодушный', 'любопытный', 'скучный', 'ленивый'], correct: 1 },
-      { spanish: 'triste', options: ['веселый', 'грустный', 'злой', 'добрый'], correct: 1 },
-      { spanish: 'cortés', options: ['грубый', 'вежливый', 'хитрый', 'глупый'], correct: 1 },
-      { spanish: 'formal', options: ['безответственный', 'ответственный', 'ленивый', 'веселый'], correct: 1 },
-      { spanish: 'puntual', options: ['опаздывающий', 'пунктуальный', 'ленивый', 'быстрый'], correct: 1 },
-      { spanish: 'educado', options: ['грубый', 'воспитанный', 'глупый', 'злой'], correct: 1 },
-      { spanish: 'egoísta', options: ['щедрый', 'эгоистичный', 'добрый', 'веселый'], correct: 1 },
-      { spanish: 'avaro', options: ['щедрый', 'жадный', 'добрый', 'веселый'], correct: 1 },
-      { spanish: 'astuto', options: ['наивный', 'хитрый', 'глупый', 'добрый'], correct: 1 },
-      { spanish: 'presumido', options: ['скромный', 'хвастливый', 'тихий', 'добрый'], correct: 1 },
-      { spanish: 'bondadoso', options: ['злой', 'добрый', 'грустный', 'веселый'], correct: 1 },
-      { spanish: 'prudente', options: ['безрассудный', 'осторожный', 'храбрый', 'веселый'], correct: 1 },
-      { spanish: 'fiel', options: ['предатель', 'верный', 'хитрый', 'глупый'], correct: 1 },
-      { spanish: 'terco', options: ['гибкий', 'упрямый', 'добрый', 'веселый'], correct: 1 },
-      { spanish: 'tonto', options: ['умный', 'глупый', 'добрый', 'злой'], correct: 1 },
-      { spanish: 'antipático', options: ['симпатичный', 'неприятный', 'веселый', 'грустный'], correct: 1 }
-    ]
-  },
-
-  'ex-2-3-adjectives-agreement': {
-    id: 'ex-2-3-adjectives-agreement',
-    type: 'grammar',
-    title: 'Согласование прилагательных',
-    description: 'Выберите правильную форму прилагательного',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'María es muy ___ (красивая)', options: ['guapo', 'guapa', 'guapos', 'guapas'], correct: 1 },
-      { sentence: 'Los chicos son ___ (высокие)', options: ['alto', 'alta', 'altos', 'altas'], correct: 2 },
-      { sentence: 'Mi hermana es ___ (трудолюбивая)', options: ['trabajador', 'trabajadora', 'trabajadores', 'trabajadoras'], correct: 1 },
-      { sentence: 'El profesor es ___ (серьезный)', options: ['serio', 'seria', 'serios', 'serias'], correct: 0 },
-      { sentence: 'Las amigas son ___ (веселые)', options: ['alegre', 'alegres', 'alegro', 'alegra'], correct: 1 },
-      { sentence: 'Pedro y Juan son ___ (умные)', options: ['inteligente', 'inteligentes', 'inteligento', 'inteligenta'], correct: 1 },
-      { sentence: 'La niña tiene el pelo ___ (вьющиеся)', options: ['rizado', 'rizada', 'rizados', 'rizadas'], correct: 0 },
-      { sentence: 'Los estudiantes son ___ (коммуникабельные)', options: ['comunicativo', 'comunicativa', 'comunicativos', 'comunicativas'], correct: 2 },
-      { sentence: 'Mi madre es ___ (щедрая)', options: ['generoso', 'generosa', 'generosos', 'generosas'], correct: 1 },
-      { sentence: 'El señor tiene los ojos ___ (зеленые)', options: ['verde', 'verdes', 'verdo', 'verda'], correct: 1 },
-      { sentence: 'Las mujeres son ___ (стройные)', options: ['delgado', 'delgada', 'delgados', 'delgadas'], correct: 3 },
-      { sentence: 'Mi amigo es ___ (застенчивый)', options: ['tímido', 'tímida', 'tímidos', 'tímidas'], correct: 0 },
-      { sentence: 'Los hermanos son ___ (блондины)', options: ['rubio', 'rubia', 'rubios', 'rubias'], correct: 2 },
-      { sentence: 'La profesora es muy ___ (трудолюбивая)', options: ['trabajador', 'trabajadora', 'trabajadores', 'trabajadoras'], correct: 1 },
-      { sentence: 'El hombre es ___ (низкий)', options: ['bajo', 'baja', 'bajos', 'bajas'], correct: 0 },
-      { sentence: 'Las niñas son ___ (худые)', options: ['flaco', 'flaca', 'flacos', 'flacas'], correct: 3 },
-      { sentence: 'Mi padre es ___ (атлетический)', options: ['atlético', 'atlética', 'atléticos', 'atléticas'], correct: 0 },
-      { sentence: 'Ella es muy ___ (вежливая)', options: ['cortés', 'corteses', 'corteso', 'cortesa'], correct: 0 },
-      { sentence: 'Los chicos son ___ (ответственные)', options: ['formal', 'formales', 'formalo', 'formala'], correct: 1 },
-      { sentence: 'Mi amiga es ___ (пунктуальная)', options: ['puntual', 'puntuales', 'puntualo', 'puntuala'], correct: 0 },
-      { sentence: 'El señor es ___ (воспитанный)', options: ['educado', 'educada', 'educados', 'educadas'], correct: 0 },
-      { sentence: 'Las hermanas son ___ (любопытные)', options: ['curioso', 'curiosa', 'curiosos', 'curiosas'], correct: 3 },
-      { sentence: 'Mi tío es ___ (хитрый)', options: ['astuto', 'astuta', 'astutos', 'astutas'], correct: 0 },
-      { sentence: 'La chica es ___ (хвастливая)', options: ['presumido', 'presumida', 'presumidos', 'presumidas'], correct: 1 },
-      { sentence: 'Los abuelos son ___ (добрые)', options: ['bondadoso', 'bondadosa', 'bondadosos', 'bondadosas'], correct: 2 }
-    ]
-  },
-
-  'ex-2-3-ser-estar-tener': {
-    id: 'ex-2-3-ser-estar-tener',
-    type: 'grammar',
-    title: 'SER, ESTAR, TENER в описаниях',
-    description: 'Выберите правильный глагол для описания',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Pablo ___ alto y guapo.', options: ['es', 'está', 'tiene'], correct: 0 },
-      { sentence: 'María ___ los ojos azules.', options: ['es', 'está', 'tiene'], correct: 2 },
-      { sentence: 'Yo ___ el pelo largo y rizado.', options: ['soy', 'estoy', 'tengo'], correct: 2 },
-      { sentence: 'Mi hermano ___ muy alegre hoy.', options: ['es', 'está', 'tiene'], correct: 1 },
-      { sentence: 'Nosotros ___ de España.', options: ['somos', 'estamos', 'tenemos'], correct: 0 },
-      { sentence: 'Tú ___ una persona simpática.', options: ['eres', 'estás', 'tienes'], correct: 0 },
-      { sentence: 'Ella ___ barba y bigotes.', options: ['es', 'está', 'tiene'], correct: 2 },
-      { sentence: 'Los estudiantes ___ en la clase.', options: ['son', 'están', 'tienen'], correct: 1 },
-      { sentence: 'Mi padre ___ médico.', options: ['es', 'está', 'tiene'], correct: 0 },
-      { sentence: 'Vosotros ___ muy tranquilos.', options: ['sois', 'estáis', 'tenéis'], correct: 0 },
-      { sentence: 'El señor ___ calvo.', options: ['es', 'está', 'tiene'], correct: 0 },
-      { sentence: 'Yo ___ cansado después del trabajo.', options: ['soy', 'estoy', 'tengo'], correct: 1 },
-      { sentence: 'Ellas ___ el pelo corto.', options: ['son', 'están', 'tienen'], correct: 2 },
-      { sentence: 'Tú ___ una persona muy trabajadora.', options: ['eres', 'estás', 'tienes'], correct: 0 },
-      { sentence: 'Nosotras ___ gafas.', options: ['somos', 'estamos', 'tenemos'], correct: 2 },
-      { sentence: 'Mi amiga ___ un tatuaje en el brazo.', options: ['es', 'está', 'tiene'], correct: 2 },
-      { sentence: 'El director ___ muy formal y puntual.', options: ['es', 'está', 'tiene'], correct: 0 },
-      { sentence: 'Tú ___ los ojos verdes muy bonitos.', options: ['eres', 'estás', 'tienes'], correct: 2 },
-      { sentence: 'Mi hermana ___ una cicatriz en la mejilla.', options: ['es', 'está', 'tiene'], correct: 2 },
-      { sentence: 'Los niños ___ muy curiosos.', options: ['son', 'están', 'tienen'], correct: 0 },
-      { sentence: 'Ella ___ la nariz chata.', options: ['es', 'está', 'tiene'], correct: 2 },
-      { sentence: 'Vosotros ___ las cejas pobladas.', options: ['sois', 'estáis', 'tenéis'], correct: 2 },
-      { sentence: 'Mi abuelo ___ viejo pero muy activo.', options: ['es', 'está', 'tiene'], correct: 0 },
-      { sentence: 'La secretaria ___ muy educada y cortés.', options: ['es', 'está', 'tiene'], correct: 0 },
-      { sentence: 'Los compañeros de trabajo ___ un lunar en la cara.', options: ['son', 'están', 'tienen'], correct: 2 }
-    ]
-  },
-
-  'ex-2-3-descriptions-1': {
-    id: 'ex-2-3-descriptions-1',
-    type: 'reading',
-    title: 'Описание людей - Часть 1',
-    description: 'Прочитайте описание и ответьте на вопросы',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    text: `**Mis compañeros de trabajo**
-
-En mi oficina trabajo con personas muy interesantes. Mi jefe se llama Carlos. Es un hombre maduro, alto y delgado, de unos 50 años. Tiene el pelo corto y cano. Siempre lleva gafas y tiene una cicatriz pequeña en la mejilla. Es muy serio y formal, pero también es muy honrado, trabajador y prudente.
-
-Mi compañera Ana es joven y simpática. Tiene 25 años. Es baja y delgada. Tiene el pelo largo, liso y rubio. Ana tiene los ojos azules grandes y labios carnosos. Siempre está alegre. Es muy comunicativa, generosa y cariñosa con todos. También es muy puntual.
-
-Pedro es el diseñador de la oficina. Es un chico moreno con el pelo rizado. Tiene 30 años y es de estatura mediana. Es atlético porque hace deporte. Tiene barba, bigotes y un tatuaje en el brazo. Pedro tiene los ojos pardos y las cejas pobladas. Es muy inteligente, creativo y sincero, pero a veces es un poco tímido y terco.
-
-La secretaria se llama Laura. Es una mujer hermosa de 35 años. Tiene el pelo castaño y los ojos grises. Es muy educada, cortés y bondadosa. Laura tiene un lunar en la mejilla. Es una persona muy fiel y responsable en su trabajo.`,
-    questions: [
-      { question: '¿Cuántos años tiene Carlos aproximadamente?', options: ['25 años', '35 años', '50 años', '60 años'], correct: 2 },
-      { question: '¿Cómo es Carlos físicamente?', options: ['Bajo y gordo', 'Alto y delgado', 'De estatura mediana', 'Bajo y delgado'], correct: 1 },
-      { question: '¿Qué lleva siempre Carlos?', options: ['Barba', 'Bigotes', 'Gafas', 'Tatuajes'], correct: 2 },
-      { question: '¿Qué tiene Carlos en la mejilla?', options: ['Un lunar', 'Una cicatriz', 'Un tatuaje', 'Nada'], correct: 1 },
-      { question: '¿Cómo es el carácter de Carlos?', options: ['Alegre y comunicativo', 'Serio y honrado', 'Tímido y tranquilo', 'Perezoso'], correct: 1 },
-      { question: '¿Cuántos años tiene Ana?', options: ['20 años', '25 años', '30 años', '35 años'], correct: 1 },
-      { question: '¿De qué color es el pelo de Ana?', options: ['Moreno', 'Rubio', 'Castaño', 'Pelirrojo'], correct: 1 },
-      { question: '¿Cómo son los ojos de Ana?', options: ['Pequeños y verdes', 'Grandes y azules', 'Grises y pequeños', 'Pardos y grandes'], correct: 1 },
-      { question: '¿Qué tipo de labios tiene Ana?', options: ['Labios finos', 'Labios carnosos', 'Labios pequeños', 'No se menciona'], correct: 1 },
-      { question: '¿Qué profesión tiene Pedro?', options: ['Médico', 'Profesor', 'Diseñador', 'Ingeniero'], correct: 2 },
-      { question: '¿Cuántos años tiene Pedro?', options: ['25 años', '30 años', '35 años', '50 años'], correct: 1 },
-      { question: '¿Qué tiene Pedro en el brazo?', options: ['Gafas', 'Un tatuaje', 'Una cicatriz', 'Un lunar'], correct: 1 },
-      { question: '¿Qué tiene Pedro en la cara?', options: ['Gafas', 'Un lunar', 'Barba y bigotes', 'Una cicatriz'], correct: 2 },
-      { question: '¿De qué color son los ojos de Pedro?', options: ['Azules', 'Verdes', 'Pardos', 'Grises'], correct: 2 },
-      { question: '¿Cómo son las cejas de Pedro?', options: ['Finas', 'Pobladas', 'Pequeñas', 'No se menciona'], correct: 1 },
-      { question: '¿Cómo es el carácter de Pedro?', options: ['Serio y trabajador', 'Alegre y comunicativo', 'Inteligente pero tímido', 'Perezoso y antipático'], correct: 2 },
-      { question: '¿Quién es la secretaria?', options: ['Ana', 'María', 'Laura', 'Carmen'], correct: 2 },
-      { question: '¿De qué color son los ojos de Laura?', options: ['Azules', 'Verdes', 'Grises', 'Pardos'], correct: 2 },
-      { question: '¿Qué tiene Laura en la mejilla?', options: ['Una cicatriz', 'Un lunar', 'Un tatuaje', 'Nada'], correct: 1 },
-      { question: '¿Cómo es el carácter de Laura?', options: ['Tímida y seria', 'Educada y cortés', 'Perezosa', 'Presumida'], correct: 1 },
-      { question: '¿Quién tiene el pelo cano?', options: ['Ana', 'Pedro', 'Carlos', 'Laura'], correct: 2 },
-      { question: '¿Quién es atlético?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 2 },
-      { question: '¿Quién es puntual?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 1 },
-      { question: '¿Quién es prudente?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 0 },
-      { question: '¿Quién es terco?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 2 }
-    ]
-  },
-
-  'ex-2-3-descriptions-2': {
-    id: 'ex-2-3-descriptions-2',
-    type: 'reading',
-    title: 'Описание людей - Часть 2',
-    description: 'Прочитайте описание семьи и ответьте на вопросы',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    text: `**Mi familia**
-
-Voy a describir a mi familia. Mi padre se llama Jorge. Tiene 55 años, es maduro. Es alto y un poco gordo. Tiene el pelo corto y cano, y la nariz recta. No tiene barba, pero tiene bigotes grandes. Tiene los ojos pequeños y grises. Mi padre es arquitecto. Es muy inteligente, trabajador y valiente, pero también es muy tranquilo, bondadoso y prudente. A veces es un poco terco.
-
-Mi madre María tiene 52 años, también es madura. Es baja y delgada. Tiene el pelo largo, liso y castaño, pero ahora tiene algunas canas. Tiene los ojos verdes muy bonitos y grandes, y labios finos. Tiene la nariz ancha. Mi madre es profesora. Es muy paciente, cariñosa, educada y sincera. Siempre ayuda a todos. Es muy formal en su trabajo y muy puntual.
-
-Tengo un hermano mayor que se llama Luis. Tiene 28 años y es médico. Luis es alto, atlético y guapo. Tiene el pelo corto y moreno, y los ojos pardos. Tiene las cejas pobladas. Es muy serio, honrado y fiel. Es muy responsable en su trabajo. En cambio, no es muy comunicativo y a veces es un poco solitario.
-
-Mi hermana pequeña se llama Carmen. Tiene solo 16 años, es adolescente. Es de estatura mediana y flaca. Tiene el pelo rizado y pelirrojo. Carmen tiene muchas pecas en la cara y un lunar en la mejilla. Es muy alegre, curiosa, astuta y comunicativa. A veces es un poco presumida y egoísta, pero es muy generosa con sus amigos. No es muy puntual pero es muy creativa.
-
-Mi abuelo Tomás es muy viejo, tiene 80 años. Es bajo y delgado, casi calvo. Tiene los labios finos y la nariz chata. A pesar de su edad, es muy alegre y curioso. Es un hombre sabio y cortés.`,
-    questions: [
-      { question: '¿Cuántos años tiene el padre?', options: ['52 años', '55 años', '58 años', '60 años'], correct: 1 },
-      { question: '¿Cómo es el padre físicamente?', options: ['Bajo y delgado', 'Alto y delgado', 'Alto y gordo', 'Bajo y gordo'], correct: 2 },
-      { question: '¿Qué tiene el padre en la cara?', options: ['Barba', 'Bigotes', 'Gafas', 'Nada'], correct: 1 },
-      { question: '¿Qué tipo de nariz tiene el padre?', options: ['Nariz recta', 'Nariz ancha', 'Nariz chata', 'No se menciona'], correct: 0 },
-      { question: '¿Qué profesión tiene el padre?', options: ['Médico', 'Profesor', 'Arquitecto', 'Ingeniero'], correct: 2 },
-      { question: '¿De qué color son los ojos del padre?', options: ['Azules', 'Verdes', 'Grises', 'Pardos'], correct: 2 },
-      { question: '¿Cómo es el carácter del padre?', options: ['Alegre y presumido', 'Inteligente y valiente', 'Tímido y perezoso', 'Antipático'], correct: 1 },
-      { question: '¿Cuántos años tiene la madre?', options: ['50 años', '52 años', '55 años', '58 años'], correct: 1 },
-      { question: '¿De qué color son los ojos de la madre?', options: ['Azules', 'Pardos', 'Verdes', 'Grises'], correct: 2 },
-      { question: '¿Qué tipo de labios tiene la madre?', options: ['Labios finos', 'Labios carnosos', 'Labios grandes', 'No se menciona'], correct: 0 },
-      { question: '¿Qué tipo de nariz tiene la madre?', options: ['Nariz recta', 'Nariz ancha', 'Nariz chata', 'No se menciona'], correct: 1 },
-      { question: '¿Qué profesión tiene la madre?', options: ['Médica', 'Profesora', 'Ingeniera', 'Arquitecta'], correct: 1 },
-      { question: '¿Cuántos años tiene Luis?', options: ['25 años', '26 años', '28 años', '30 años'], correct: 2 },
-      { question: '¿Qué profesión tiene Luis?', options: ['Ingeniero', 'Profesor', 'Médico', 'Arquitecto'], correct: 2 },
-      { question: '¿De qué color son los ojos de Luis?', options: ['Azules', 'Verdes', 'Pardos', 'Grises'], correct: 2 },
-      { question: '¿Cómo son las cejas de Luis?', options: ['Finas', 'Pequeñas', 'Pobladas', 'No se menciona'], correct: 2 },
-      { question: '¿Cómo es el carácter de Luis?', options: ['Alegre y comunicativo', 'Serio y honrado', 'Tímido y tranquilo', 'Presumido y egoísta'], correct: 1 },
-      { question: '¿Cuántos años tiene Carmen?', options: ['14 años', '16 años', '18 años', '20 años'], correct: 1 },
-      { question: '¿De qué color es el pelo de Carmen?', options: ['Rubio', 'Moreno', 'Castaño', 'Pelirrojo'], correct: 3 },
-      { question: '¿Cómo es el pelo de Carmen?', options: ['Liso', 'Rizado', 'Corto', 'Cano'], correct: 1 },
-      { question: '¿Qué tiene Carmen en la cara?', options: ['Pecas y lunar', 'Gafas', 'Cicatriz', 'Solo pecas'], correct: 0 },
-      { question: '¿Carmen es niña, adolescente o adulta?', options: ['Niña', 'Adolescente', 'Adulta', 'Madura'], correct: 1 },
-      { question: '¿Cómo es físicamente Carmen?', options: ['Gorda', 'Delgada', 'Flaca', 'Atlética'], correct: 2 },
-      { question: '¿Cómo es el carácter de Carmen?', options: ['Seria y tranquila', 'Tímida y trabajadora', 'Alegre y astuta', 'Antipática y perezosa'], correct: 2 },
-      { question: '¿Cuántos años tiene el abuelo?', options: ['70 años', '75 años', '80 años', '85 años'], correct: 2 },
-      { question: '¿Cómo es el abuelo físicamente?', options: ['Alto y gordo', 'Bajo y calvo', 'Alto y delgado', 'Bajo y gordo'], correct: 1 },
-      { question: '¿Qué tipo de nariz tiene el abuelo?', options: ['Nariz recta', 'Nariz ancha', 'Nariz chata', 'No se menciona'], correct: 2 },
-      { question: '¿Qué tipo de labios tiene el abuelo?', options: ['Labios finos', 'Labios carnosos', 'Labios grandes', 'No se menciona'], correct: 0 },
-      { question: '¿Cómo es el carácter del abuelo?', options: ['Triste y antipático', 'Alegre y cortés', 'Serio y formal', 'Presumido'], correct: 1 },
-      { question: '¿Quién es prudente?', options: ['La madre', 'El padre', 'Luis', 'Carmen'], correct: 1 }
-    ]
-  },
-
-  'ex-2-3-opposites': {
-    id: 'ex-2-3-opposites',
-    type: 'vocabulary',
-    title: 'Антонимы прилагательных',
-    description: 'Выберите антоним (противоположное значение) для каждого прилагательного',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { spanish: 'alto (высокий)', options: ['gordo', 'bajo', 'delgado', 'guapo'], correct: 1 },
-      { spanish: 'guapo (красивый)', options: ['feo', 'viejo', 'joven', 'alto'], correct: 0 },
-      { spanish: 'gordo (толстый)', options: ['bajo', 'alto', 'delgado', 'joven'], correct: 2 },
-      { spanish: 'alegre (веселый)', options: ['triste', 'serio', 'tranquilo', 'tímido'], correct: 0 },
-      { spanish: 'trabajador (трудолюбивый)', options: ['tímido', 'alegre', 'perezoso', 'serio'], correct: 2 },
-      { spanish: 'generoso (щедрый)', options: ['avaro', 'tímido', 'alegre', 'tranquilo'], correct: 0 },
-      { spanish: 'tímido (застенчивый)', options: ['serio', 'comunicativo', 'tranquilo', 'trabajador'], correct: 1 },
-      { spanish: 'inteligente (умный)', options: ['alegre', 'tonto', 'serio', 'tranquilo'], correct: 1 },
-      { spanish: 'joven (молодой)', options: ['bajo', 'alto', 'viejo', 'guapo'], correct: 2 },
-      { spanish: 'sincero (искренний)', options: ['mentiroso', 'tímido', 'alegre', 'tranquilo'], correct: 0 },
-      { spanish: 'simpático (симпатичный)', options: ['guapo', 'antipático', 'alegre', 'trabajador'], correct: 1 },
-      { spanish: 'largo (длинный)', options: ['corto', 'alto', 'bajo', 'rizado'], correct: 0 },
-      { spanish: 'tranquilo (спокойный)', options: ['alegre', 'nervioso', 'serio', 'tímido'], correct: 1 },
-      { spanish: 'valiente (храбрый)', options: ['tímido', 'cobarde', 'tranquilo', 'serio'], correct: 1 },
-      { spanish: 'honrado (честный)', options: ['deshonesto', 'tímido', 'alegre', 'tranquilo'], correct: 0 },
-      { spanish: 'delgado (стройный)', options: ['alto', 'gordo', 'bajo', 'joven'], correct: 1 },
-      { spanish: 'liso (прямой)', options: ['rizado', 'largo', 'corto', 'cano'], correct: 0 },
-      { spanish: 'rubio (блондин)', options: ['moreno', 'alto', 'bajo', 'guapo'], correct: 0 },
-      { spanish: 'grande (большой)', options: ['pequeño', 'alto', 'gordo', 'delgado'], correct: 0 },
-      { spanish: 'fino (тонкий)', options: ['carnoso', 'largo', 'corto', 'rizado'], correct: 0 },
-      { spanish: 'formal (ответственный)', options: ['informal', 'alegre', 'triste', 'tímido'], correct: 0 },
-      { spanish: 'puntual (пунктуальный)', options: ['impuntual', 'alegre', 'triste', 'tímido'], correct: 0 },
-      { spanish: 'educado (воспитанный)', options: ['maleducado', 'alegre', 'triste', 'tímido'], correct: 0 },
-      { spanish: 'bondadoso (добрый)', options: ['malo', 'alegre', 'triste', 'tímido'], correct: 0 },
-      { spanish: 'fiel (верный)', options: ['infiel', 'alegre', 'triste', 'tímido'], correct: 0 }
-    ]
-  },
-
-  'ex-2-3-complete-sentences': {
-    id: 'ex-2-3-complete-sentences',
-    type: 'grammar',
-    title: 'Дополните предложения',
-    description: 'Выберите правильное слово для завершения предложения',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'María tiene el pelo ___ y rubio.', options: ['liso', 'lisas', 'altos', 'guapo'], correct: 0 },
-      { sentence: 'Mi hermano ___ 25 años.', options: ['es', 'está', 'tiene', 'son'], correct: 2 },
-      { sentence: 'Los niños ___ muy alegres.', options: ['es', 'son', 'está', 'tienen'], correct: 1 },
-      { sentence: 'Ella tiene los ojos ___.', options: ['azul', 'azules', 'azulo', 'azula'], correct: 1 },
-      { sentence: 'Mi padre siempre ___ gafas.', options: ['es', 'lleva', 'tiene', 'está'], correct: 1 },
-      { sentence: 'Pedro ___ alto y atlético.', options: ['es', 'está', 'tiene', 'son'], correct: 0 },
-      { sentence: 'Las chicas ___ el pelo rizado.', options: ['son', 'están', 'tienen', 'es'], correct: 2 },
-      { sentence: 'Mi profesora es muy ___ y trabajadora.', options: ['serio', 'seria', 'serios', 'serias'], correct: 1 },
-      { sentence: 'Los estudiantes ___ en la clase ahora.', options: ['son', 'están', 'tienen', 'es'], correct: 1 },
-      { sentence: 'Tú ___ una persona muy generosa.', options: ['eres', 'estás', 'tienes', 'soy'], correct: 0 },
-      { sentence: 'El señor tiene ___ y bigotes.', options: ['gafas', 'barba', 'pelo', 'ojos'], correct: 1 },
-      { spanish: 'Mi amiga Ana ___ de España.', options: ['es', 'está', 'tiene', 'son'], correct: 0 },
-      { sentence: 'Nosotros ___ muy contentos hoy.', options: ['somos', 'estamos', 'tenemos', 'son'], correct: 1 },
-      { sentence: 'El niño tiene el pelo corto y ___.', options: ['moreno', 'morena', 'morenos', 'morenas'], correct: 0 },
-      { sentence: 'Vosotros ___ muy simpáticos.', options: ['sois', 'estáis', 'tenéis', 'son'], correct: 0 },
-      { sentence: 'Mi abuelo es ___ y sabio.', options: ['viejo', 'vieja', 'viejos', 'joven'], correct: 0 },
-      { sentence: 'Carmen es ___, tiene 16 años.', options: ['niña', 'adolescente', 'madura', 'vieja'], correct: 1 },
-      { sentence: 'El director es muy ___ y siempre llega a tiempo.', options: ['impuntual', 'perezoso', 'puntual', 'antipático'], correct: 2 },
-      { sentence: 'Mi hermana tiene un ___ en la mejilla.', options: ['barba', 'lunar', 'bigotes', 'gafas'], correct: 1 },
-      { sentence: 'El arquitecto tiene una ___ en la frente.', options: ['barba', 'cicatriz', 'bigotes', 'gafas'], correct: 1 },
-      { sentence: 'La niña tiene la nariz ___ y bonita.', options: ['chata', 'recta', 'ancha', 'grande'], correct: 0 },
-      { sentence: 'Mi padre tiene labios ___ y la nariz ___.', options: ['finos, recta', 'carnosos, chata', 'finos, ancha', 'grandes, recta'], correct: 0 },
-      { sentence: 'Pedro tiene las cejas muy ___.', options: ['finas', 'pequeñas', 'pobladas', 'cortas'], correct: 2 },
-      { sentence: 'Los ___ trabajan juntos en la misma oficina.', options: ['compañeros de trabajo', 'hermanos', 'niños', 'abuelos'], correct: 0 },
-      { sentence: 'El chico es muy ___, siempre dice la verdad.', options: ['mentiroso', 'sincero', 'perezoso', 'antipático'], correct: 1 },
-      { sentence: 'Mi madre es muy ___ y siempre es amable con todos.', options: ['antipática', 'cortés', 'perezosa', 'presumida'], correct: 1 },
-      { sentence: 'Mi hermano es muy ___, hace ejercicio todos los días.', options: ['gordo', 'perezoso', 'atlético', 'bajo'], correct: 2 },
-      { sentence: 'La secretaria es muy ___ en su trabajo.', options: ['perezosa', 'formal', 'antipática', 'presumida'], correct: 1 },
-      { sentence: 'El profesor es muy ___ y nunca se enfada.', options: ['nervioso', 'antipático', 'prudente', 'presumido'], correct: 2 },
-      { sentence: 'Mi amigo es muy ___, siempre ayuda a los demás.', options: ['egoísta', 'avaro', 'bondadoso', 'antipático'], correct: 2 }
     ]
   },
 
@@ -9594,7 +8688,7 @@ Mi abuelo Tomás es muy viejo, tiene 80 años. Es bajo y delgado, casi calvo. Ti
     id: 'ex-2-1-8-transform',
     type: 'writing',
     title: 'Transformación de Sujetos y Conjugación',
-    description: 'Cambie el sujeto de la frase por el que se indica entre paréntesis y conjugue el verbo correctamente. Внимание: ударения и знаки препинания считаются ошибкой',
+    description: 'Cambie el sujeto de la frase por el que se indica entre paréntesis y conjugue el verbo correctamente',
     questions: [
       { russian: 'Yo vivo en Barcelona. → (Ellos)', correct: 'ellos viven en barcelona' },
       { russian: 'Tú lees el periódico. → (Usted)', correct: 'usted lee el periódico' },
@@ -9652,6 +8746,208 @@ Mi abuelo Tomás es muy viejo, tiene 80 años. Es bajo y delgado, casi calvo. Ti
     questions: [
       { word: 'familia', options: ['grande', 'alto', 'rápido', 'verde'], correct: 0 },
       { word: 'hermano', options: ['mayor', 'nueva', 'bajo', 'frío'], correct: 0 }
+    ]
+  },
+
+  // Упражнения для урока 3.1 - Указательные и притяжательные местоимения
+  'ex-3-1-demonstrativos': {
+    id: 'ex-3-1-demonstrativos',
+    type: 'grammar',
+    title: 'Указательные местоимения este/ese/aquel',
+    description: 'Выберите правильное указательное местоимение',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ libro (aquí) es interesante', options: ['Este', 'Ese', 'Aquel', 'Estos'], correct: 0 },
+      { sentence: '___ casa (ahí) es grande', options: ['Este', 'Ese', 'Aquel', 'Esta'], correct: 1 },
+      { sentence: '___ montañas (allí) son altas', options: ['Estas', 'Esas', 'Aquellas', 'Aquella'], correct: 2 },
+      { sentence: '___ hermanos (aquí) son mis primos', options: ['Este', 'Estos', 'Esos', 'Aquellos'], correct: 1 },
+      { sentence: '___ abuelos (ahí) viven en Madrid', options: ['Este', 'Ese', 'Esos', 'Aquellos'], correct: 2 },
+      { sentence: '___ familia (allí) es muy grande', options: ['Este', 'Esa', 'Aquella', 'Estas'], correct: 2 },
+      { sentence: '___ padres (aquí) trabajan en el hospital', options: ['Este', 'Estos', 'Esos', 'Aquel'], correct: 1 },
+      { sentence: '___ mujer (ahí) es mi tía', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '___ niños (aquí) son mis sobrinos', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 2 },
+      { sentence: '___ hombre (allí) es mi suegro', options: ['Este', 'Ese', 'Aquel', 'Estos'], correct: 2 }
+    ]
+  },
+
+  'ex-3-1-posesivos-mi-tu-su': {
+    id: 'ex-3-1-posesivos-mi-tu-su',
+    type: 'grammar',
+    title: 'Притяжательные местоимения mi/tu/su',
+    description: 'Выберите правильное притяжательное местоимение',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ padre es médico (я)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 0 },
+      { sentence: '___ madre trabaja aquí (ты)', options: ['mi', 'tu', 'su', 'tus'], correct: 1 },
+      { sentence: '___ hermanos estudian español (он)', options: ['mi', 'tu', 'su', 'sus'], correct: 3 },
+      { sentence: '___ familia es grande (я)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 0 },
+      { sentence: '___ abuelos viven en Barcelona (ты)', options: ['mi', 'tu', 'tus', 'su'], correct: 2 },
+      { sentence: '___ esposa se llama Ana (él)', options: ['mi', 'tu', 'su', 'sus'], correct: 2 },
+      { sentence: '___ hijos son pequeños (она)', options: ['mi', 'tu', 'su', 'sus'], correct: 3 },
+      { sentence: '___ tío vive en Valencia (я)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 0 },
+      { sentence: '___ primos vienen mañana (ты)', options: ['mi', 'tu', 'tus', 'su'], correct: 2 },
+      { sentence: '___ marido trabaja en el banco (ella)', options: ['mi', 'tu', 'su', 'sus'], correct: 2 }
+    ]
+  },
+
+  'ex-3-1-posesivos-nuestro': {
+    id: 'ex-3-1-posesivos-nuestro',
+    type: 'grammar',
+    title: 'Притяжательные местоимения nuestro/vuestro',
+    description: 'Выберите правильную форму притяжательного местоимения',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ padre trabaja aquí (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 0 },
+      { sentence: '___ madre cocina bien (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 },
+      { sentence: '___ hermanos estudian (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 2 },
+      { sentence: '___ familia es alegre (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 },
+      { sentence: '___ abuelas viven aquí (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 3 },
+      { sentence: '___ hijos son buenos (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 2 },
+      { sentence: '___ tíos vienen hoy (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 2 },
+      { sentence: '___ casa está en Madrid (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 },
+      { sentence: '___ padres trabajan (вы)', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 2 },
+      { sentence: '___ nieta se llama María (мы)', options: ['nuestro', 'nuestra', 'nuestros', 'nuestras'], correct: 1 }
+    ]
+  },
+
+  'ex-3-1-demonstrativos-sust': {
+    id: 'ex-3-1-demonstrativos-sust',
+    type: 'grammar',
+    title: 'Указательные местоимения без существительного',
+    description: 'Выберите правильный ответ',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '¿Qué libro prefieres: ___ o ese?', options: ['este', 'esta', 'estos', 'estas'], correct: 0 },
+      { sentence: '___ es mi hermano', options: ['Este', 'Esta', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: '¿___ son tus padres?', options: ['Este', 'Estos', 'Esos', 'Aquellos'], correct: 1 },
+      { sentence: '___ es mi abuela', options: ['Este', 'Esta', 'Ese', 'Esa'], correct: 1 },
+      { sentence: 'No me gusta este coche, prefiero ___', options: ['este', 'ese', 'aquel', 'estos'], correct: 2 },
+      { sentence: '___ son mis primos', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 2 },
+      { sentence: 'Esa casa es bonita, pero ___ es más grande', options: ['este', 'esta', 'aquella', 'aquel'], correct: 2 },
+      { sentence: '___ es mi familia', options: ['Este', 'Esta', 'Ese', 'Aquel'], correct: 1 },
+      { sentence: '¿___ son tus hermanos?', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '___ son muy amables', options: ['Este', 'Ese', 'Aquel', 'Aquellos'], correct: 3 }
+    ]
+  },
+
+  'ex-3-1-posesivos-pronombres': {
+    id: 'ex-3-1-posesivos-pronombres',
+    type: 'grammar',
+    title: 'Притяжательные местоимения-существительные',
+    description: 'Выберите правильную форму',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: 'Mi familia es grande. ¿Y ___?', options: ['la tuya', 'el tuyo', 'los tuyos', 'las tuyas'], correct: 0 },
+      { sentence: 'Este libro es ___', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
+      { sentence: 'Nuestros hijos son pequeños, pero ___ son mayores', options: ['el suyo', 'la suya', 'los suyos', 'las suyas'], correct: 2 },
+      { sentence: '¿Esta casa es ___?', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 1 },
+      { sentence: 'Mi padre trabaja aquí. ¿Y ___?', options: ['la tuya', 'el tuyo', 'los tuyos', 'las tuyas'], correct: 1 },
+      { sentence: 'Estos niños son ___', options: ['mío', 'mía', 'míos', 'mías'], correct: 2 },
+      { sentence: 'Tu abuela vive en Madrid, pero ___ vive en Barcelona', options: ['el mío', 'la mía', 'los míos', 'las mías'], correct: 1 },
+      { sentence: 'Vuestros padres están aquí, ___ llegan mañana', options: ['el nuestro', 'la nuestra', 'los nuestros', 'las nuestras'], correct: 2 },
+      { sentence: '¿Estos hermanos son ___?', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 2 },
+      { sentence: 'Un primo ___ vive en México', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-neutros': {
+    id: 'ex-3-1-neutros',
+    type: 'grammar',
+    title: 'Нейтральные формы esto/eso/aquello',
+    description: 'Выберите правильную нейтральную форму',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '¿Qué es ___? (что это здесь)', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 },
+      { sentence: '___ es interesante (то там)', options: ['esto', 'eso', 'aquello', 'ese'], correct: 1 },
+      { sentence: 'No entiendo ___ (то вон там)', options: ['esto', 'eso', 'aquello', 'aquel'], correct: 2 },
+      { sentence: '___ es un problema', options: ['Esto', 'Eso', 'Aquello', 'Este'], correct: 0 },
+      { sentence: '___ no me gusta', options: ['Esto', 'Eso', 'Aquello', 'Ese'], correct: 1 },
+      { sentence: '¿Qué es ___ que veo?', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 },
+      { sentence: '¿Para qué sirve ___?', options: ['esto', 'eso', 'aquello', 'ese'], correct: 1 },
+      { sentence: '___ fue terrible', options: ['Esto', 'Eso', 'Aquello', 'Aquel'], correct: 2 },
+      { sentence: '___ es muy bonito', options: ['Esto', 'Eso', 'Aquello', 'Este'], correct: 0 },
+      { sentence: 'No comprendo ___', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-adverbios-lugar': {
+    id: 'ex-3-1-adverbios-lugar',
+    type: 'grammar',
+    title: 'Наречия места aquí/ahí/allí',
+    description: 'Выберите правильное наречие места',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ está mi casa (здесь)', options: ['Aquí', 'Ahí', 'Allí', 'Allá'], correct: 0 },
+      { sentence: 'Ven ___ (сюда)', options: ['aquí', 'acá', 'ahí', 'allí'], correct: 1 },
+      { sentence: '___ vive mi abuela (там далеко)', options: ['Aquí', 'Ahí', 'Allí', 'Acá'], correct: 2 },
+      { sentence: 'Vamos ___ (туда)', options: ['aquí', 'ahí', 'allá', 'acá'], correct: 2 },
+      { sentence: 'Este libro está ___', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 0 },
+      { sentence: 'Ese coche está ___', options: ['aquí', 'ahí', 'allí', 'acá'], correct: 1 },
+      { sentence: 'Aquel edificio está ___', options: ['aquí', 'ahí', 'allí', 'acá'], correct: 2 },
+      { sentence: 'Mi familia vive ___', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 0 },
+      { sentence: '¿Está tu padre ___?', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 1 },
+      { sentence: 'Mis abuelos viven ___', options: ['aquí', 'acá', 'allí', 'ahí'], correct: 2 }
+    ]
+  },
+
+  'ex-3-1-su-aclaracion': {
+    id: 'ex-3-1-su-aclaracion',
+    type: 'grammar',
+    title: 'Уточнение su/sus',
+    description: 'Выберите правильную форму для уточнения',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: 'Es el hijo ___', context: '(его)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 },
+      { sentence: 'Son las hermanas ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Es el padre ___', context: '(Ваш - вежливо)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 2 },
+      { sentence: 'Son los hijos ___', context: '(их)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 3 },
+      { sentence: 'Es la madre ___', context: '(его)', options: ['de él', 'de ella', 'de ustedes', 'de ellas'], correct: 0 },
+      { sentence: 'Es la familia ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Son los padres ___', context: '(Ваши - вежливо, мн.ч.)', options: ['de él', 'de ella', 'de ustedes', 'de ellos'], correct: 2 },
+      { sentence: 'Es el marido ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Son las tías ___', context: '(их - женщины)', options: ['de él', 'de ella', 'de ellas', 'de usted'], correct: 2 },
+      { sentence: 'Es la esposa ___', context: '(его)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-combinado': {
+    id: 'ex-3-1-combinado',
+    type: 'grammar',
+    title: 'Комбинированное упражнение',
+    description: 'Выберите правильный вариант',
+    showCorrectAnswer: true,
+    questions: [
+      { sentence: '___ es mi familia y ___ es la tuya', options: ['Esta/esa', 'Este/ese', 'Esto/eso', 'Estos/esos'], correct: 0 },
+      { sentence: '¿___ hermanos son ___?', options: ['Este/tuyo', 'Estos/tuyos', 'Esos/tuyas', 'Estas/tuyas'], correct: 1 },
+      { sentence: '___ padres viven aquí', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
+      { sentence: 'Mi abuelo vive aquí, pero el ___ vive allí', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 0 },
+      { sentence: '¿Qué es ___? - ___ es un libro', options: ['esto/Esto', 'eso/Eso', 'este/Este', 'ese/Ese'], correct: 0 },
+      { sentence: '___ casa (ahí) es de mis tíos', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '¿___ son vuestros primos?', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 3 },
+      { sentence: 'Un hermano ___ trabaja en Barcelona', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
+      { sentence: 'Allí viven ___ abuelos maternos', options: ['mi', 'mis', 'nuestro', 'nuestros'], correct: 1 },
+      { sentence: 'La familia ___ es grande', options: ['mío', 'mía', 'míos', 'mías'], correct: 1 }
+    ]
+  },
+
+  'ex-3-1-lectura': {
+    id: 'ex-3-1-lectura',
+    type: 'reading',
+    title: 'Понимание текста о семье',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    showCorrectAnswer: true,
+    text: 'Esta es mi familia. Estos son mis padres: mi padre Roberto y mi madre Isabel. Ellos trabajan en Madrid. Nuestros abuelos viven con nosotros. Ese hombre es mi abuelo Pablo y esa mujer es mi abuela Carmen. Mi tío Pedro vive allí, en Barcelona. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. La mía es una familia grande y alegre.',
+    questions: [
+      { question: '¿Cómo se llama el padre?', options: ['Pablo', 'Pedro', 'Roberto', 'Jorge'], correct: 2 },
+      { question: '¿Dónde trabajan los padres?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Sevilla'], correct: 1 },
+      { question: '¿Quién vive con la familia?', options: ['Los tíos', 'Los primos', 'Los abuelos', 'El padrino'], correct: 2 },
+      { question: '¿Cómo se llama el abuelo?', options: ['Roberto', 'Pedro', 'Pablo', 'Jorge'], correct: 2 },
+      { question: '¿Dónde vive el tío Pedro?', options: ['En Madrid', 'En Barcelona', 'En Valencia', 'En Sevilla'], correct: 1 },
+      { question: '¿Cómo se llama la esposa del tío Pedro?', options: ['Isabel', 'Carmen', 'Laura', 'Marta'], correct: 2 },
+      { question: '¿Cuántos hijos tienen los tíos?', options: ['Uno', 'Dos', 'Tres', 'Cuatro'], correct: 1 },
+      { question: '¿Cómo se llaman los primos?', options: ['Roberto y Pablo', 'Pedro y Laura', 'Jorge y Marta', 'Pablo y Carmen'], correct: 2 },
+      { question: '¿Quién es Carmen?', options: ['La madre', 'La tía', 'La abuela', 'La prima'], correct: 2 },
+      { question: '¿Cómo es la familia?', options: ['Pequeña', 'Grande y alegre', 'Triste', 'Pequeña y alegre'], correct: 1 }
     ]
   },
 
