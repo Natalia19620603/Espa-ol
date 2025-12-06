@@ -6904,7 +6904,22 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'gordo', options: ['стройный', 'высокий', 'толстый', 'низкий'], correct: 2 },
       { spanish: 'moreno', options: ['блондин', 'брюнет', 'рыжий', 'седой'], correct: 1 },
       { spanish: 'pelo largo', options: ['короткие волосы', 'длинные волосы', 'вьющиеся волосы', 'прямые волосы'], correct: 1 },
-      { spanish: 'viejo', options: ['молодой', 'ребенок', 'старый', 'подросток'], correct: 2 }
+      { spanish: 'viejo', options: ['молодой', 'ребенок', 'старый', 'подросток'], correct: 2 },
+      { spanish: 'flaco', options: ['толстый', 'высокий', 'худой', 'стройный'], correct: 2 },
+      { spanish: 'atlético', options: ['толстый', 'атлетический', 'худой', 'низкий'], correct: 1 },
+      { spanish: 'pelirrojo', options: ['блондин', 'брюнет', 'рыжий', 'седой'], correct: 2 },
+      { spanish: 'castaño', options: ['блондин', 'шатен', 'рыжий', 'седой'], correct: 1 },
+      { spanish: 'cano', options: ['блондин', 'брюнет', 'седой', 'рыжий'], correct: 2 },
+      { spanish: 'ojos verdes', options: ['голубые глаза', 'зеленые глаза', 'карие глаза', 'серые глаза'], correct: 1 },
+      { spanish: 'ojos pardos', options: ['голубые глаза', 'зеленые глаза', 'карие глаза', 'серые глаза'], correct: 2 },
+      { spanish: 'ojos grises', options: ['голубые глаза', 'зеленые глаза', 'серые глаза', 'карие глаза'], correct: 2 },
+      { spanish: 'bigotes', options: ['борода', 'усы', 'очки', 'татуировка'], correct: 1 },
+      { spanish: 'tatuaje', options: ['родинка', 'шрам', 'татуировка', 'очки'], correct: 2 },
+      { spanish: 'lunar', options: ['родинка', 'шрам', 'татуировка', 'очки'], correct: 0 },
+      { spanish: 'cicatriz', options: ['родинка', 'шрам', 'татуировка', 'борода'], correct: 1 },
+      { spanish: 'hermoso', options: ['некрасивый', 'красивый', 'старый', 'молодой'], correct: 1 },
+      { spanish: 'feo', options: ['красивый', 'некрасивый', 'молодой', 'старый'], correct: 1 },
+      { spanish: 'adolescente', options: ['ребенок', 'подросток', 'взрослый', 'старик'], correct: 1 }
     ]
   },
 
@@ -6930,7 +6945,22 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'tranquilo', options: ['нервный', 'активный', 'спокойный', 'шумный'], correct: 2 },
       { spanish: 'honrado', options: ['лживый', 'хитрый', 'честный', 'жадный'], correct: 2 },
       { spanish: 'cariñoso', options: ['холодный', 'ласковый', 'злой', 'грубый'], correct: 1 },
-      { spanish: 'curioso', options: ['равнодушный', 'любопытный', 'скучный', 'ленивый'], correct: 1 }
+      { spanish: 'curioso', options: ['равнодушный', 'любопытный', 'скучный', 'ленивый'], correct: 1 },
+      { spanish: 'triste', options: ['веселый', 'грустный', 'злой', 'добрый'], correct: 1 },
+      { spanish: 'cortés', options: ['грубый', 'вежливый', 'хитрый', 'глупый'], correct: 1 },
+      { spanish: 'formal', options: ['безответственный', 'ответственный', 'ленивый', 'веселый'], correct: 1 },
+      { spanish: 'puntual', options: ['опаздывающий', 'пунктуальный', 'ленивый', 'быстрый'], correct: 1 },
+      { spanish: 'educado', options: ['грубый', 'воспитанный', 'глупый', 'злой'], correct: 1 },
+      { spanish: 'egoísta', options: ['щедрый', 'эгоистичный', 'добрый', 'веселый'], correct: 1 },
+      { spanish: 'avaro', options: ['щедрый', 'жадный', 'добрый', 'веселый'], correct: 1 },
+      { spanish: 'astuto', options: ['наивный', 'хитрый', 'глупый', 'добрый'], correct: 1 },
+      { spanish: 'presumido', options: ['скромный', 'хвастливый', 'тихий', 'добрый'], correct: 1 },
+      { spanish: 'bondadoso', options: ['злой', 'добрый', 'грустный', 'веселый'], correct: 1 },
+      { spanish: 'prudente', options: ['безрассудный', 'осторожный', 'храбрый', 'веселый'], correct: 1 },
+      { spanish: 'fiel', options: ['предатель', 'верный', 'хитрый', 'глупый'], correct: 1 },
+      { spanish: 'terco', options: ['гибкий', 'упрямый', 'добрый', 'веселый'], correct: 1 },
+      { spanish: 'tonto', options: ['умный', 'глупый', 'добрый', 'злой'], correct: 1 },
+      { spanish: 'antipático', options: ['симпатичный', 'неприятный', 'веселый', 'грустный'], correct: 1 }
     ]
   },
 
@@ -6956,7 +6986,17 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Mi amigo es ___ (застенчивый)', options: ['tímido', 'tímida', 'tímidos', 'tímidas'], correct: 0 },
       { sentence: 'Los hermanos son ___ (блондины)', options: ['rubio', 'rubia', 'rubios', 'rubias'], correct: 2 },
       { sentence: 'La profesora es muy ___ (трудолюбивая)', options: ['trabajador', 'trabajadora', 'trabajadores', 'trabajadoras'], correct: 1 },
-      { sentence: 'El hombre es ___ (низкий)', options: ['bajo', 'baja', 'bajos', 'bajas'], correct: 0 }
+      { sentence: 'El hombre es ___ (низкий)', options: ['bajo', 'baja', 'bajos', 'bajas'], correct: 0 },
+      { sentence: 'Las niñas son ___ (худые)', options: ['flaco', 'flaca', 'flacos', 'flacas'], correct: 3 },
+      { sentence: 'Mi padre es ___ (атлетический)', options: ['atlético', 'atlética', 'atléticos', 'atléticas'], correct: 0 },
+      { sentence: 'Ella es muy ___ (вежливая)', options: ['cortés', 'corteses', 'corteso', 'cortesa'], correct: 0 },
+      { sentence: 'Los chicos son ___ (ответственные)', options: ['formal', 'formales', 'formalo', 'formala'], correct: 1 },
+      { sentence: 'Mi amiga es ___ (пунктуальная)', options: ['puntual', 'puntuales', 'puntualo', 'puntuala'], correct: 0 },
+      { sentence: 'El señor es ___ (воспитанный)', options: ['educado', 'educada', 'educados', 'educadas'], correct: 0 },
+      { sentence: 'Las hermanas son ___ (любопытные)', options: ['curioso', 'curiosa', 'curiosos', 'curiosas'], correct: 3 },
+      { sentence: 'Mi tío es ___ (хитрый)', options: ['astuto', 'astuta', 'astutos', 'astutas'], correct: 0 },
+      { sentence: 'La chica es ___ (хвастливая)', options: ['presumido', 'presumida', 'presumidos', 'presumidas'], correct: 1 },
+      { sentence: 'Los abuelos son ___ (добрые)', options: ['bondadoso', 'bondadosa', 'bondadosos', 'bondadosas'], correct: 2 }
     ]
   },
 
@@ -6982,7 +7022,17 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Yo ___ cansado después del trabajo.', options: ['soy', 'estoy', 'tengo'], correct: 1 },
       { sentence: 'Ellas ___ el pelo corto.', options: ['son', 'están', 'tienen'], correct: 2 },
       { sentence: 'Tú ___ una persona muy trabajadora.', options: ['eres', 'estás', 'tienes'], correct: 0 },
-      { sentence: 'Nosotras ___ gafas.', options: ['somos', 'estamos', 'tenemos'], correct: 2 }
+      { sentence: 'Nosotras ___ gafas.', options: ['somos', 'estamos', 'tenemos'], correct: 2 },
+      { sentence: 'Mi amiga ___ un tatuaje en el brazo.', options: ['es', 'está', 'tiene'], correct: 2 },
+      { sentence: 'El director ___ muy formal y puntual.', options: ['es', 'está', 'tiene'], correct: 0 },
+      { sentence: 'Tú ___ los ojos verdes muy bonitos.', options: ['eres', 'estás', 'tienes'], correct: 2 },
+      { sentence: 'Mi hermana ___ una cicatriz en la mejilla.', options: ['es', 'está', 'tiene'], correct: 2 },
+      { sentence: 'Los niños ___ muy curiosos.', options: ['son', 'están', 'tienen'], correct: 0 },
+      { sentence: 'Ella ___ la nariz chata.', options: ['es', 'está', 'tiene'], correct: 2 },
+      { sentence: 'Vosotros ___ las cejas pobladas.', options: ['sois', 'estáis', 'tenéis'], correct: 2 },
+      { sentence: 'Mi abuelo ___ viejo pero muy activo.', options: ['es', 'está', 'tiene'], correct: 0 },
+      { sentence: 'La secretaria ___ muy educada y cortés.', options: ['es', 'está', 'tiene'], correct: 0 },
+      { sentence: 'Los compañeros de trabajo ___ un lunar en la cara.', options: ['son', 'están', 'tienen'], correct: 2 }
     ]
   },
 
@@ -6995,27 +7045,39 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     highlightErrors: true,
     text: `**Mis compañeros de trabajo**
 
-En mi oficina trabajo con personas muy interesantes. Mi jefe se llama Carlos. Es un hombre alto y delgado, de unos 50 años. Tiene el pelo corto y cano. Siempre lleva gafas y es muy serio, pero también es muy justo y trabajador.
+En mi oficina trabajo con personas muy interesantes. Mi jefe se llama Carlos. Es un hombre maduro, alto y delgado, de unos 50 años. Tiene el pelo corto y cano. Siempre lleva gafas y tiene una cicatriz pequeña en la mejilla. Es muy serio y formal, pero también es muy honrado, trabajador y prudente.
 
-Mi compañera Ana es joven y simpática. Tiene 25 años. Es baja y delgada. Tiene el pelo largo, liso y rubio. Ana tiene los ojos azules y siempre está alegre. Es muy comunicativa y generosa con todos.
+Mi compañera Ana es joven y simpática. Tiene 25 años. Es baja y delgada. Tiene el pelo largo, liso y rubio. Ana tiene los ojos azules grandes y labios carnosos. Siempre está alegre. Es muy comunicativa, generosa y cariñosa con todos. También es muy puntual.
 
-Pedro es el diseñador de la oficina. Es un chico moreno con el pelo rizado. Es de estatura mediana y atlético. Tiene barba y bigotes. Pedro es muy inteligente y creativo, pero a veces es un poco tímido.`,
+Pedro es el diseñador de la oficina. Es un chico moreno con el pelo rizado. Tiene 30 años y es de estatura mediana. Es atlético porque hace deporte. Tiene barba, bigotes y un tatuaje en el brazo. Pedro tiene los ojos pardos y las cejas pobladas. Es muy inteligente, creativo y sincero, pero a veces es un poco tímido y terco.
+
+La secretaria se llama Laura. Es una mujer hermosa de 35 años. Tiene el pelo castaño y los ojos grises. Es muy educada, cortés y bondadosa. Laura tiene un lunar en la mejilla. Es una persona muy fiel y responsable en su trabajo.`,
     questions: [
       { question: '¿Cuántos años tiene Carlos aproximadamente?', options: ['25 años', '35 años', '50 años', '60 años'], correct: 2 },
       { question: '¿Cómo es Carlos físicamente?', options: ['Bajo y gordo', 'Alto y delgado', 'De estatura mediana', 'Bajo y delgado'], correct: 1 },
       { question: '¿Qué lleva siempre Carlos?', options: ['Barba', 'Bigotes', 'Gafas', 'Tatuajes'], correct: 2 },
-      { question: '¿Cómo es el carácter de Carlos?', options: ['Alegre y comunicativo', 'Serio pero justo', 'Tímido y tranquilo', 'Perezoso'], correct: 1 },
+      { question: '¿Qué tiene Carlos en la mejilla?', options: ['Un lunar', 'Una cicatriz', 'Un tatuaje', 'Nada'], correct: 1 },
+      { question: '¿Cómo es el carácter de Carlos?', options: ['Alegre y comunicativo', 'Serio y honrado', 'Tímido y tranquilo', 'Perezoso'], correct: 1 },
       { question: '¿Cuántos años tiene Ana?', options: ['20 años', '25 años', '30 años', '35 años'], correct: 1 },
-      { question: '¿Cómo es Ana físicamente?', options: ['Alta y gorda', 'Baja y gorda', 'Alta y delgada', 'Baja y delgada'], correct: 3 },
       { question: '¿De qué color es el pelo de Ana?', options: ['Moreno', 'Rubio', 'Castaño', 'Pelirrojo'], correct: 1 },
-      { question: '¿De qué color son los ojos de Ana?', options: ['Verdes', 'Pardos', 'Azules', 'Grises'], correct: 2 },
+      { question: '¿Cómo son los ojos de Ana?', options: ['Pequeños y verdes', 'Grandes y azules', 'Grises y pequeños', 'Pardos y grandes'], correct: 1 },
+      { question: '¿Qué tipo de labios tiene Ana?', options: ['Labios finos', 'Labios carnosos', 'Labios pequeños', 'No se menciona'], correct: 1 },
       { question: '¿Qué profesión tiene Pedro?', options: ['Médico', 'Profesor', 'Diseñador', 'Ingeniero'], correct: 2 },
-      { question: '¿Cómo es el pelo de Pedro?', options: ['Liso y rubio', 'Rizado y moreno', 'Corto y cano', 'Largo y castaño'], correct: 1 },
-      { question: '¿Qué tiene Pedro en la cara?', options: ['Gafas', 'Un tatuaje', 'Barba y bigotes', 'Una cicatriz'], correct: 2 },
+      { question: '¿Cuántos años tiene Pedro?', options: ['25 años', '30 años', '35 años', '50 años'], correct: 1 },
+      { question: '¿Qué tiene Pedro en el brazo?', options: ['Gafas', 'Un tatuaje', 'Una cicatriz', 'Un lunar'], correct: 1 },
+      { question: '¿Qué tiene Pedro en la cara?', options: ['Gafas', 'Un lunar', 'Barba y bigotes', 'Una cicatriz'], correct: 2 },
+      { question: '¿De qué color son los ojos de Pedro?', options: ['Azules', 'Verdes', 'Pardos', 'Grises'], correct: 2 },
+      { question: '¿Cómo son las cejas de Pedro?', options: ['Finas', 'Pobladas', 'Pequeñas', 'No se menciona'], correct: 1 },
       { question: '¿Cómo es el carácter de Pedro?', options: ['Serio y trabajador', 'Alegre y comunicativo', 'Inteligente pero tímido', 'Perezoso y antipático'], correct: 2 },
-      { question: '¿Cómo es el carácter de Ana?', options: ['Tímida y seria', 'Comunicativa y generosa', 'Perezosa y antipática', 'Tranquila y trabajadora'], correct: 1 },
-      { question: '¿Quién tiene el pelo cano?', options: ['Ana', 'Pedro', 'Carlos', 'Nadie'], correct: 2 },
-      { question: '¿Quién es atlético?', options: ['Carlos', 'Ana', 'Pedro', 'Todos'], correct: 2 }
+      { question: '¿Quién es la secretaria?', options: ['Ana', 'María', 'Laura', 'Carmen'], correct: 2 },
+      { question: '¿De qué color son los ojos de Laura?', options: ['Azules', 'Verdes', 'Grises', 'Pardos'], correct: 2 },
+      { question: '¿Qué tiene Laura en la mejilla?', options: ['Una cicatriz', 'Un lunar', 'Un tatuaje', 'Nada'], correct: 1 },
+      { question: '¿Cómo es el carácter de Laura?', options: ['Tímida y seria', 'Educada y cortés', 'Perezosa', 'Presumida'], correct: 1 },
+      { question: '¿Quién tiene el pelo cano?', options: ['Ana', 'Pedro', 'Carlos', 'Laura'], correct: 2 },
+      { question: '¿Quién es atlético?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 2 },
+      { question: '¿Quién es puntual?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 1 },
+      { question: '¿Quién es prudente?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 0 },
+      { question: '¿Quién es terco?', options: ['Carlos', 'Ana', 'Pedro', 'Laura'], correct: 2 }
     ]
   },
 
@@ -7028,29 +7090,46 @@ Pedro es el diseñador de la oficina. Es un chico moreno con el pelo rizado. Es 
     highlightErrors: true,
     text: `**Mi familia**
 
-Voy a describir a mi familia. Mi padre se llama Jorge. Tiene 55 años. Es alto y un poco gordo. Tiene el pelo corto y cano. No tiene barba, pero tiene bigotes. Mi padre es ingeniero. Es muy inteligente y trabajador, pero también es muy tranquilo y bondadoso.
+Voy a describir a mi familia. Mi padre se llama Jorge. Tiene 55 años, es maduro. Es alto y un poco gordo. Tiene el pelo corto y cano, y la nariz recta. No tiene barba, pero tiene bigotes grandes. Tiene los ojos pequeños y grises. Mi padre es arquitecto. Es muy inteligente, trabajador y valiente, pero también es muy tranquilo, bondadoso y prudente. A veces es un poco terco.
 
-Mi madre María tiene 52 años. Es baja y delgada. Tiene el pelo largo, liso y castaño, pero ahora tiene algunas canas. Tiene los ojos verdes muy bonitos. Mi madre es profesora. Es muy paciente, cariñosa y educada. Siempre ayuda a todos.
+Mi madre María tiene 52 años, también es madura. Es baja y delgada. Tiene el pelo largo, liso y castaño, pero ahora tiene algunas canas. Tiene los ojos verdes muy bonitos y grandes, y labios finos. Tiene la nariz ancha. Mi madre es profesora. Es muy paciente, cariñosa, educada y sincera. Siempre ayuda a todos. Es muy formal en su trabajo y muy puntual.
 
-Tengo un hermano mayor que se llama Luis. Tiene 28 años y es médico. Luis es alto y atlético. Tiene el pelo corto y moreno. Es guapo y muy serio. Es muy honrado y responsable en su trabajo.
+Tengo un hermano mayor que se llama Luis. Tiene 28 años y es médico. Luis es alto, atlético y guapo. Tiene el pelo corto y moreno, y los ojos pardos. Tiene las cejas pobladas. Es muy serio, honrado y fiel. Es muy responsable en su trabajo. En cambio, no es muy comunicativo y a veces es un poco solitario.
 
-Mi hermana pequeña se llama Carmen. Tiene solo 16 años. Es de estatura mediana y delgada. Tiene el pelo rizado y pelirrojo. Carmen tiene muchas pecas en la cara. Es muy alegre, curiosa y comunicativa. A veces es un poco presumida, pero es muy generosa con sus amigos.`,
+Mi hermana pequeña se llama Carmen. Tiene solo 16 años, es adolescente. Es de estatura mediana y flaca. Tiene el pelo rizado y pelirrojo. Carmen tiene muchas pecas en la cara y un lunar en la mejilla. Es muy alegre, curiosa, astuta y comunicativa. A veces es un poco presumida y egoísta, pero es muy generosa con sus amigos. No es muy puntual pero es muy creativa.
+
+Mi abuelo Tomás es muy viejo, tiene 80 años. Es bajo y delgado, casi calvo. Tiene los labios finos y la nariz chata. A pesar de su edad, es muy alegre y curioso. Es un hombre sabio y cortés.`,
     questions: [
       { question: '¿Cuántos años tiene el padre?', options: ['52 años', '55 años', '58 años', '60 años'], correct: 1 },
       { question: '¿Cómo es el padre físicamente?', options: ['Bajo y delgado', 'Alto y delgado', 'Alto y gordo', 'Bajo y gordo'], correct: 2 },
       { question: '¿Qué tiene el padre en la cara?', options: ['Barba', 'Bigotes', 'Gafas', 'Nada'], correct: 1 },
-      { question: '¿Qué profesión tiene el padre?', options: ['Médico', 'Profesor', 'Ingeniero', 'Abogado'], correct: 2 },
+      { question: '¿Qué tipo de nariz tiene el padre?', options: ['Nariz recta', 'Nariz ancha', 'Nariz chata', 'No se menciona'], correct: 0 },
+      { question: '¿Qué profesión tiene el padre?', options: ['Médico', 'Profesor', 'Arquitecto', 'Ingeniero'], correct: 2 },
+      { question: '¿De qué color son los ojos del padre?', options: ['Azules', 'Verdes', 'Grises', 'Pardos'], correct: 2 },
+      { question: '¿Cómo es el carácter del padre?', options: ['Alegre y presumido', 'Inteligente y valiente', 'Tímido y perezoso', 'Antipático'], correct: 1 },
       { question: '¿Cuántos años tiene la madre?', options: ['50 años', '52 años', '55 años', '58 años'], correct: 1 },
       { question: '¿De qué color son los ojos de la madre?', options: ['Azules', 'Pardos', 'Verdes', 'Grises'], correct: 2 },
-      { question: '¿Qué profesión tiene la madre?', options: ['Médica', 'Profesora', 'Ingeniera', 'Enfermera'], correct: 1 },
+      { question: '¿Qué tipo de labios tiene la madre?', options: ['Labios finos', 'Labios carnosos', 'Labios grandes', 'No se menciona'], correct: 0 },
+      { question: '¿Qué tipo de nariz tiene la madre?', options: ['Nariz recta', 'Nariz ancha', 'Nariz chata', 'No se menciona'], correct: 1 },
+      { question: '¿Qué profesión tiene la madre?', options: ['Médica', 'Profesora', 'Ingeniera', 'Arquitecta'], correct: 1 },
       { question: '¿Cuántos años tiene Luis?', options: ['25 años', '26 años', '28 años', '30 años'], correct: 2 },
-      { question: '¿Qué profesión tiene Luis?', options: ['Ingeniero', 'Profesor', 'Médico', 'Abogado'], correct: 2 },
+      { question: '¿Qué profesión tiene Luis?', options: ['Ingeniero', 'Profesor', 'Médico', 'Arquitecto'], correct: 2 },
+      { question: '¿De qué color son los ojos de Luis?', options: ['Azules', 'Verdes', 'Pardos', 'Grises'], correct: 2 },
+      { question: '¿Cómo son las cejas de Luis?', options: ['Finas', 'Pequeñas', 'Pobladas', 'No se menciona'], correct: 2 },
       { question: '¿Cómo es el carácter de Luis?', options: ['Alegre y comunicativo', 'Serio y honrado', 'Tímido y tranquilo', 'Presumido y egoísta'], correct: 1 },
       { question: '¿Cuántos años tiene Carmen?', options: ['14 años', '16 años', '18 años', '20 años'], correct: 1 },
       { question: '¿De qué color es el pelo de Carmen?', options: ['Rubio', 'Moreno', 'Castaño', 'Pelirrojo'], correct: 3 },
       { question: '¿Cómo es el pelo de Carmen?', options: ['Liso', 'Rizado', 'Corto', 'Cano'], correct: 1 },
-      { question: '¿Qué tiene Carmen en la cara?', options: ['Pecas', 'Gafas', 'Barba', 'Cicatrices'], correct: 0 },
-      { question: '¿Cómo es el carácter de Carmen?', options: ['Seria y tranquila', 'Tímida y trabajadora', 'Alegre y curiosa', 'Antipática y perezosa'], correct: 2 }
+      { question: '¿Qué tiene Carmen en la cara?', options: ['Pecas y lunar', 'Gafas', 'Cicatriz', 'Solo pecas'], correct: 0 },
+      { question: '¿Carmen es niña, adolescente o adulta?', options: ['Niña', 'Adolescente', 'Adulta', 'Madura'], correct: 1 },
+      { question: '¿Cómo es físicamente Carmen?', options: ['Gorda', 'Delgada', 'Flaca', 'Atlética'], correct: 2 },
+      { question: '¿Cómo es el carácter de Carmen?', options: ['Seria y tranquila', 'Tímida y trabajadora', 'Alegre y astuta', 'Antipática y perezosa'], correct: 2 },
+      { question: '¿Cuántos años tiene el abuelo?', options: ['70 años', '75 años', '80 años', '85 años'], correct: 2 },
+      { question: '¿Cómo es el abuelo físicamente?', options: ['Alto y gordo', 'Bajo y calvo', 'Alto y delgado', 'Bajo y gordo'], correct: 1 },
+      { question: '¿Qué tipo de nariz tiene el abuelo?', options: ['Nariz recta', 'Nariz ancha', 'Nariz chata', 'No se menciona'], correct: 2 },
+      { question: '¿Qué tipo de labios tiene el abuelo?', options: ['Labios finos', 'Labios carnosos', 'Labios grandes', 'No se menciona'], correct: 0 },
+      { question: '¿Cómo es el carácter del abuelo?', options: ['Triste y antipático', 'Alegre y cortés', 'Serio y formal', 'Presumido'], correct: 1 },
+      { question: '¿Quién es prudente?', options: ['La madre', 'El padre', 'Luis', 'Carmen'], correct: 1 }
     ]
   },
 
@@ -7076,7 +7155,17 @@ Mi hermana pequeña se llama Carmen. Tiene solo 16 años. Es de estatura mediana
       { spanish: 'largo (длинный)', options: ['corto', 'alto', 'bajo', 'rizado'], correct: 0 },
       { spanish: 'tranquilo (спокойный)', options: ['alegre', 'nervioso', 'serio', 'tímido'], correct: 1 },
       { spanish: 'valiente (храбрый)', options: ['tímido', 'cobarde', 'tranquilo', 'serio'], correct: 1 },
-      { spanish: 'honrado (честный)', options: ['deshonesto', 'tímido', 'alegre', 'tranquilo'], correct: 0 }
+      { spanish: 'honrado (честный)', options: ['deshonesto', 'tímido', 'alegre', 'tranquilo'], correct: 0 },
+      { spanish: 'delgado (стройный)', options: ['alto', 'gordo', 'bajo', 'joven'], correct: 1 },
+      { spanish: 'liso (прямой)', options: ['rizado', 'largo', 'corto', 'cano'], correct: 0 },
+      { spanish: 'rubio (блондин)', options: ['moreno', 'alto', 'bajo', 'guapo'], correct: 0 },
+      { spanish: 'grande (большой)', options: ['pequeño', 'alto', 'gordo', 'delgado'], correct: 0 },
+      { spanish: 'fino (тонкий)', options: ['carnoso', 'largo', 'corto', 'rizado'], correct: 0 },
+      { spanish: 'formal (ответственный)', options: ['informal', 'alegre', 'triste', 'tímido'], correct: 0 },
+      { spanish: 'puntual (пунктуальный)', options: ['impuntual', 'alegre', 'triste', 'tímido'], correct: 0 },
+      { spanish: 'educado (воспитанный)', options: ['maleducado', 'alegre', 'triste', 'tímido'], correct: 0 },
+      { spanish: 'bondadoso (добрый)', options: ['malo', 'alegre', 'triste', 'tímido'], correct: 0 },
+      { spanish: 'fiel (верный)', options: ['infiel', 'alegre', 'triste', 'tímido'], correct: 0 }
     ]
   },
 
@@ -7102,7 +7191,22 @@ Mi hermana pequeña se llama Carmen. Tiene solo 16 años. Es de estatura mediana
       { spanish: 'Mi amiga Ana ___ de España.', options: ['es', 'está', 'tiene', 'son'], correct: 0 },
       { sentence: 'Nosotros ___ muy contentos hoy.', options: ['somos', 'estamos', 'tenemos', 'son'], correct: 1 },
       { sentence: 'El niño tiene el pelo corto y ___.', options: ['moreno', 'morena', 'morenos', 'morenas'], correct: 0 },
-      { sentence: 'Vosotros ___ muy simpáticos.', options: ['sois', 'estáis', 'tenéis', 'son'], correct: 0 }
+      { sentence: 'Vosotros ___ muy simpáticos.', options: ['sois', 'estáis', 'tenéis', 'son'], correct: 0 },
+      { sentence: 'Mi abuelo es ___ y sabio.', options: ['viejo', 'vieja', 'viejos', 'joven'], correct: 0 },
+      { sentence: 'Carmen es ___, tiene 16 años.', options: ['niña', 'adolescente', 'madura', 'vieja'], correct: 1 },
+      { sentence: 'El director es muy ___ y siempre llega a tiempo.', options: ['impuntual', 'perezoso', 'puntual', 'antipático'], correct: 2 },
+      { sentence: 'Mi hermana tiene un ___ en la mejilla.', options: ['barba', 'lunar', 'bigotes', 'gafas'], correct: 1 },
+      { sentence: 'El arquitecto tiene una ___ en la frente.', options: ['barba', 'cicatriz', 'bigotes', 'gafas'], correct: 1 },
+      { sentence: 'La niña tiene la nariz ___ y bonita.', options: ['chata', 'recta', 'ancha', 'grande'], correct: 0 },
+      { sentence: 'Mi padre tiene labios ___ y la nariz ___.', options: ['finos, recta', 'carnosos, chata', 'finos, ancha', 'grandes, recta'], correct: 0 },
+      { sentence: 'Pedro tiene las cejas muy ___.', options: ['finas', 'pequeñas', 'pobladas', 'cortas'], correct: 2 },
+      { sentence: 'Los ___ trabajan juntos en la misma oficina.', options: ['compañeros de trabajo', 'hermanos', 'niños', 'abuelos'], correct: 0 },
+      { sentence: 'El chico es muy ___, siempre dice la verdad.', options: ['mentiroso', 'sincero', 'perezoso', 'antipático'], correct: 1 },
+      { sentence: 'Mi madre es muy ___ y siempre es amable con todos.', options: ['antipática', 'cortés', 'perezosa', 'presumida'], correct: 1 },
+      { sentence: 'Mi hermano es muy ___, hace ejercicio todos los días.', options: ['gordo', 'perezoso', 'atlético', 'bajo'], correct: 2 },
+      { sentence: 'La secretaria es muy ___ en su trabajo.', options: ['perezosa', 'formal', 'antipática', 'presumida'], correct: 1 },
+      { sentence: 'El profesor es muy ___ y nunca se enfada.', options: ['nervioso', 'antipático', 'prudente', 'presumido'], correct: 2 },
+      { sentence: 'Mi amigo es muy ___, siempre ayuda a los demás.', options: ['egoísta', 'avaro', 'bondadoso', 'antipático'], correct: 2 }
     ]
   },
 
