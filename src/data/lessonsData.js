@@ -2607,11 +2607,18 @@ Esta es mi familia. La mía es grande y alegre. ¿Y la tuya? ¿Tu familia es gra
       translation: 'Это моя семья\n\nПривет! Меня зовут Ана, и я живу в Мадриде со своей семьей. У меня большая и дружная семья. Сейчас я расскажу о моих родственниках.\n\nМоя семья здесь, в этом доме. Это мои родители. Моего отца зовут Роберто, и он врач. Он работает в большой больнице. Мою маму зовут Исабель, и она учительница. Она работает в школе. Мои родители очень хорошие и трудолюбивые.\n\nУ меня двое братьев и сестер. Это мой старший брат Карлос. Ему двадцать пять лет, и он студент медицины. Он хочет быть врачом, как наш отец. Та - моя младшая сестра Луиза. Ей десять лет, и она учится в начальной школе. Она любит читать и рисовать.\n\nЗдесь мои дедушка и бабушка по отцовской линии. Тот - мой дедушка Пабло, а та - моя бабушка Кармен. Они живут с нами. Моему дедушке семьдесят лет, а моей бабушке шестьдесят восемь. Мои бабушка и дедушка очень добрые. Моя бабушка очень хорошо готовит, а мой дедушка работает в саду.\n\nУ меня также много дядей, тетей и двоюродных братьев и сестер. Мой дядя Педро живет там, в Барселоне. Он брат моего отца. Его жена - моя тетя Лаура. У них двое детей: мои двоюродные брат и сестра Хорхе и Марта. Хорхе пятнадцать лет, а Марте двенадцать.\n\nМоя тетя Ана - сестра моей матери. Она живет в Валенсии со своим мужем Мигелем и тремя детьми. Это мои двоюродные братья и сестры: Фелипе, Роса и Диего. Мы навещаем наших дядей, тетей и двоюродных братьев и сестер на каникулах.\n\nМои бабушка и дедушка по материнской линии, отец и мать моей мамы, живут в Севилье. Мы ездим туда летом. Мою бабушку по материнской линии зовут Тереса, а дедушку - Хосе. Они очень веселые.\n\nУ меня есть особенная крестная. Ее зовут София, и она лучшая подруга моей мамы. Она часто приходит к нам домой и приносит мне книги. Мой крестный - брат моего отца. Его зовут Антонио, и он живет в Гранаде.\n\nПо воскресеньям вся семья обедает вместе. Приходят мои дяди, тети и двоюродные братья и сестры. Очень хорошо быть всем вместе. Мы разговариваем, едим и проводим время счастливо.\n\nЭто моя семья. Моя большая и веселая. А твоя? Твоя семья большая или маленькая? Ты живешь с родителями и братьями и сестрами? Где живут твои бабушка и дедушка?',
       audioUrl: '/audio/lesson-3-1-reading.mp3',
       subtitles: [
-        { start: 0, end: 5, text: '¡Hola! Me llamo Ana y vivo en Madrid con mi familia.' },
-        { start: 5, end: 10, text: 'Tengo una familia grande y unida.' },
-        { start: 10, end: 15, text: 'Estos son mis padres.' },
-        { start: 15, end: 20, text: 'Tengo dos hermanos.' },
-        { start: 20, end: 25, text: 'Aquí están mis abuelos paternos.' }
+        { start: 0, end: 8, text: '¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida.' },
+        { start: 8, end: 15, text: 'Mi familia está aquí, en esta casa. Estos son mis padres.' },
+        { start: 15, end: 23, text: 'Mi padre se llama Roberto y es médico. Mi madre se llama Isabel y es profesora.' },
+        { start: 23, end: 30, text: 'Tengo dos hermanos. Este es mi hermano mayor Carlos.' },
+        { start: 30, end: 38, text: 'Esa es mi hermana pequeña Luisa. Tiene diez años.' },
+        { start: 38, end: 45, text: 'Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen.' },
+        { start: 45, end: 53, text: 'También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona.' },
+        { start: 53, end: 60, text: 'Mi tía Ana vive en Valencia con su marido Miguel y sus tres hijos.' },
+        { start: 60, end: 68, text: 'Mis abuelos maternos viven en Sevilla. Vamos allí en verano.' },
+        { start: 68, end: 75, text: 'Tengo una madrina muy especial. Se llama Sofía.' },
+        { start: 75, end: 82, text: 'Los domingos toda la familia come junta. Es muy bonito estar todos juntos.' },
+        { start: 82, end: 90, text: 'Esta es mi familia. La mía es grande y alegre. ¿Y la tuya?' }
       ]
     },
     exercises: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-lectura']
@@ -8874,19 +8881,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-3-1-adverbios-lugar',
     type: 'grammar',
     title: 'Наречия места aquí/ahí/allí',
-    description: 'Выберите правильное наречие места',
+    description: 'Выберите правильное наречие места (ESTE=aquí, ESE=ahí, AQUEL=allí)',
     showCorrectAnswer: true,
     questions: [
-      { sentence: '___ está mi casa (здесь)', options: ['Aquí', 'Ahí', 'Allí', 'Allá'], correct: 0 },
-      { sentence: 'Ven ___ (сюда)', options: ['aquí', 'acá', 'ahí', 'allí'], correct: 1 },
-      { sentence: '___ vive mi abuela (там далеко)', options: ['Aquí', 'Ahí', 'Allí', 'Acá'], correct: 2 },
-      { sentence: 'Vamos ___ (туда)', options: ['aquí', 'ahí', 'allá', 'acá'], correct: 2 },
-      { sentence: 'Este libro está ___', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 0 },
-      { sentence: 'Ese coche está ___', options: ['aquí', 'ahí', 'allí', 'acá'], correct: 1 },
-      { sentence: 'Aquel edificio está ___', options: ['aquí', 'ahí', 'allí', 'acá'], correct: 2 },
-      { sentence: 'Mi familia vive ___', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 0 },
-      { sentence: '¿Está tu padre ___?', options: ['aquí', 'ahí', 'allí', 'allá'], correct: 1 },
-      { sentence: 'Mis abuelos viven ___', options: ['aquí', 'acá', 'allí', 'ahí'], correct: 2 }
+      { sentence: '___ está mi casa (ESTE - близко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
+      { sentence: 'Mi familia vive ___ (ESTE - близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: '___ vive mi abuela (AQUEL - далеко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 2 },
+      { sentence: 'Mis abuelos viven ___ (AQUEL - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: 'Este libro está ___ (близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: 'Ese coche está ___ (на расстоянии)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: 'Aquel edificio está ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: '¿Está tu padre ___ ? (ESE - там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: 'Esos hermanos viven ___ (на расстоянии)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: 'Aquellos primos están ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 }
     ]
   },
 
@@ -8894,19 +8901,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-3-1-su-aclaracion',
     type: 'grammar',
     title: 'Уточнение su/sus',
-    description: 'Выберите правильную форму для уточнения',
+    description: 'Уточните, чье это (вместо su используйте de él/de ella/de usted/de ellos)',
     showCorrectAnswer: true,
     questions: [
-      { sentence: 'Es el hijo ___', context: '(его)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 },
-      { sentence: 'Son las hermanas ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
-      { sentence: 'Es el padre ___', context: '(Ваш - вежливо)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 2 },
-      { sentence: 'Son los hijos ___', context: '(их)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 3 },
-      { sentence: 'Es la madre ___', context: '(его)', options: ['de él', 'de ella', 'de ustedes', 'de ellas'], correct: 0 },
-      { sentence: 'Es la familia ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
-      { sentence: 'Son los padres ___', context: '(Ваши - вежливо, мн.ч.)', options: ['de él', 'de ella', 'de ustedes', 'de ellos'], correct: 2 },
-      { sentence: 'Es el marido ___', context: '(её)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
-      { sentence: 'Son las tías ___', context: '(их - женщины)', options: ['de él', 'de ella', 'de ellas', 'de usted'], correct: 2 },
-      { sentence: 'Es la esposa ___', context: '(его)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 }
+      { sentence: 'Pedro habla de su hijo. Es el hijo ___ (Педро говорит о своем сыне)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 },
+      { sentence: 'María habla de sus hermanas. Son las hermanas ___ (Мария говорит о своих сестрах)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Señor López, ¿es su padre? Es el padre ___ (Сеньор Лопес, это Ваш отец?)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 2 },
+      { sentence: 'Mis tíos hablan de sus hijos. Son los hijos ___ (Мои дяди говорят о своих детях)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 3 },
+      { sentence: 'Carlos habla de su madre. Es la madre ___ (Карлос говорит о своей матери)', options: ['de él', 'de ella', 'de ustedes', 'de ellas'], correct: 0 },
+      { sentence: 'Ana presenta su familia. Es la familia ___ (Ана представляет свою семью)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Señores, ¿son sus padres? Son los padres ___ (Господа, это Ваши родители?)', options: ['de él', 'de ella', 'de ustedes', 'de ellos'], correct: 2 },
+      { sentence: 'Elena habla de su marido. Es el marido ___ (Елена говорит о своем муже)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 1 },
+      { sentence: 'Las hermanas hablan de sus tías. Son las tías ___ (Сестры говорят о своих тетях)', options: ['de él', 'de ella', 'de ellas', 'de usted'], correct: 2 },
+      { sentence: 'Miguel presenta su esposa. Es la esposa ___ (Мигель представляет свою жену)', options: ['de él', 'de ella', 'de usted', 'de ellos'], correct: 0 }
     ]
   },
 
@@ -8914,19 +8921,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-3-1-combinado',
     type: 'grammar',
     title: 'Комбинированное упражнение',
-    description: 'Выберите правильный вариант',
+    description: 'Выберите правильный вариант (указательные и притяжательные местоимения)',
     showCorrectAnswer: true,
     questions: [
-      { sentence: '___ es mi familia y ___ es la tuya', options: ['Esta/esa', 'Este/ese', 'Esto/eso', 'Estos/esos'], correct: 0 },
-      { sentence: '¿___ hermanos son ___?', options: ['Este/tuyo', 'Estos/tuyos', 'Esos/tuyas', 'Estas/tuyas'], correct: 1 },
-      { sentence: '___ padres viven aquí', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
-      { sentence: 'Mi abuelo vive aquí, pero el ___ vive allí', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 0 },
-      { sentence: '¿Qué es ___? - ___ es un libro', options: ['esto/Esto', 'eso/Eso', 'este/Este', 'ese/Ese'], correct: 0 },
-      { sentence: '___ casa (ahí) es de mis tíos', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
-      { sentence: '¿___ son vuestros primos?', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 3 },
-      { sentence: 'Un hermano ___ trabaja en Barcelona', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
-      { sentence: 'Allí viven ___ abuelos maternos', options: ['mi', 'mis', 'nuestro', 'nuestros'], correct: 1 },
-      { sentence: 'La familia ___ es grande', options: ['mío', 'mía', 'míos', 'mías'], correct: 1 }
+      { sentence: '___ es mi familia y ___ es la tuya (esta/esa)', options: ['Esta/esa', 'Este/ese', 'Esto/eso', 'Estos/esos'], correct: 0 },
+      { sentence: '¿___ hermanos son ___? (estos hermanos - tuyos)', options: ['Este/tuyo', 'Estos/tuyos', 'Esos/tuyas', 'Estas/tuyas'], correct: 1 },
+      { sentence: '___ padres viven aquí (nuestros - мн.ч., м.р.)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
+      { sentence: 'Mi abuelo vive aquí, pero el ___ vive allí (el tuyo - м.р.)', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 0 },
+      { sentence: '¿Qué es ___? - ___ es un libro (нейтральное esto)', options: ['esto/Esto', 'eso/Eso', 'este/Este', 'ese/Ese'], correct: 0 },
+      { sentence: '___ casa (ahí - на расстоянии) es de mis tíos', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '¿___ son vuestros primos? (ahí - esos)', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 3 },
+      { sentence: 'Un hermano ___ trabaja en Barcelona (un hermano mío)', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
+      { sentence: 'Allí viven ___ abuelos maternos (mis - мн.ч.)', options: ['mi', 'mis', 'nuestro', 'nuestros'], correct: 1 },
+      { sentence: 'La familia ___ es grande (la familia mía - ж.р.)', options: ['mío', 'mía', 'míos', 'mías'], correct: 1 }
     ]
   },
 
