@@ -8,13 +8,23 @@ import styles from './LessonPage.module.css'
 
 function LessonPage() {
   const [user, setUser] = useState(null)
-  const [activeTab, setActiveTab] = useState('grammar')
   const [currentExercise, setCurrentExercise] = useState(null)
   const [openSections, setOpenSections] = useState({})
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
   const lesson = lessons[lessonId]
+
+  // Определяем начальную вкладку в зависимости от наличия данных
+  const getInitialTab = () => {
+    if (lesson?.grammar) return 'grammar'
+    if (lesson?.vocabulary) return 'vocabulary'
+    if (lesson?.readingText) return 'reading'
+    if (lesson?.exercises) return 'exercises'
+    return 'vocabulary'
+  }
+
+  const [activeTab, setActiveTab] = useState(getInitialTab())
 
   useEffect(() => {
     const userData = localStorage.getItem('user')
@@ -140,12 +150,14 @@ function LessonPage() {
       </header>
 
       <div className={styles.tabs}>
-        <button
-          className={`${styles.tab} ${activeTab === 'grammar' ? styles.activeTab : ''}`}
-          onClick={() => setActiveTab('grammar')}
-        >
-          📚 Грамматика
-        </button>
+        {lesson.grammar && (
+          <button
+            className={`${styles.tab} ${activeTab === 'grammar' ? styles.activeTab : ''}`}
+            onClick={() => setActiveTab('grammar')}
+          >
+            📚 Грамматика
+          </button>
+        )}
         <button
           className={`${styles.tab} ${activeTab === 'vocabulary' ? styles.activeTab : ''}`}
           onClick={() => setActiveTab('vocabulary')}
