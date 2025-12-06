@@ -2543,6 +2543,7 @@ Ejemplos:
       ]
     },
     vocabulary: [
+      // Семейная лексика
       { word: 'familia', translation: 'семья', audioUrl: null },
       { word: 'matrimonio', translation: 'супружеская пара / брак', audioUrl: null },
       { word: 'padre', translation: 'отец', audioUrl: null },
@@ -2581,7 +2582,61 @@ Ejemplos:
       { word: 'madrastra', translation: 'мачеха', audioUrl: null },
       { word: 'hijastro', translation: 'пасынок', audioUrl: null },
       { word: 'hijastra', translation: 'падчерица', audioUrl: null },
-      { word: 'pariente', translation: 'родственник / родственница', audioUrl: null }
+      { word: 'pariente', translation: 'родственник / родственница', audioUrl: null },
+
+      // Указательные местоимения
+      { word: 'este', translation: 'этот (м.р., ед.ч.)', audioUrl: null },
+      { word: 'esta', translation: 'эта (ж.р., ед.ч.)', audioUrl: null },
+      { word: 'estos', translation: 'эти (м.р., мн.ч.)', audioUrl: null },
+      { word: 'estas', translation: 'эти (ж.р., мн.ч.)', audioUrl: null },
+      { word: 'ese', translation: 'тот (м.р., ед.ч.)', audioUrl: null },
+      { word: 'esa', translation: 'та (ж.р., ед.ч.)', audioUrl: null },
+      { word: 'esos', translation: 'те (м.р., мн.ч.)', audioUrl: null },
+      { word: 'esas', translation: 'те (ж.р., мн.ч.)', audioUrl: null },
+      { word: 'aquel', translation: 'вон тот (м.р., ед.ч.)', audioUrl: null },
+      { word: 'aquella', translation: 'вон та (ж.р., ед.ч.)', audioUrl: null },
+      { word: 'aquellos', translation: 'вон те (м.р., мн.ч.)', audioUrl: null },
+      { word: 'aquellas', translation: 'вон те (ж.р., мн.ч.)', audioUrl: null },
+
+      // Нейтральные формы
+      { word: 'esto', translation: 'это (нейтральное, близко)', audioUrl: null },
+      { word: 'eso', translation: 'то (нейтральное, на расстоянии)', audioUrl: null },
+      { word: 'aquello', translation: 'то (нейтральное, далеко)', audioUrl: null },
+
+      // Наречия места
+      { word: 'aquí', translation: 'здесь, тут', audioUrl: null },
+      { word: 'ahí', translation: 'там (на расстоянии)', audioUrl: null },
+      { word: 'allí', translation: 'там (далеко)', audioUrl: null },
+
+      // Притяжательные местоимения-прилагательные
+      { word: 'mi', translation: 'мой, моя (ед.ч.)', audioUrl: null },
+      { word: 'mis', translation: 'мои (мн.ч.)', audioUrl: null },
+      { word: 'tu', translation: 'твой, твоя (ед.ч.)', audioUrl: null },
+      { word: 'tus', translation: 'твои (мн.ч.)', audioUrl: null },
+      { word: 'su', translation: 'его, её, Ваш (ед.ч.)', audioUrl: null },
+      { word: 'sus', translation: 'его, её, Ваши (мн.ч.)', audioUrl: null },
+      { word: 'nuestro', translation: 'наш (м.р., ед.ч.)', audioUrl: null },
+      { word: 'nuestra', translation: 'наша (ж.р., ед.ч.)', audioUrl: null },
+      { word: 'nuestros', translation: 'наши (м.р., мн.ч.)', audioUrl: null },
+      { word: 'nuestras', translation: 'наши (ж.р., мн.ч.)', audioUrl: null },
+      { word: 'vuestro', translation: 'ваш (м.р., ед.ч.)', audioUrl: null },
+      { word: 'vuestra', translation: 'ваша (ж.р., ед.ч.)', audioUrl: null },
+      { word: 'vuestros', translation: 'ваши (м.р., мн.ч.)', audioUrl: null },
+      { word: 'vuestras', translation: 'ваши (ж.р., мн.ч.)', audioUrl: null },
+
+      // Притяжательные местоимения-существительные
+      { word: 'el mío', translation: 'мой (м.р., с артиклем)', audioUrl: null },
+      { word: 'la mía', translation: 'моя (ж.р., с артиклем)', audioUrl: null },
+      { word: 'los míos', translation: 'мои (м.р., мн.ч., с артиклем)', audioUrl: null },
+      { word: 'las mías', translation: 'мои (ж.р., мн.ч., с артиклем)', audioUrl: null },
+      { word: 'el tuyo', translation: 'твой (м.р., с артиклем)', audioUrl: null },
+      { word: 'la tuya', translation: 'твоя (ж.р., с артиклем)', audioUrl: null },
+      { word: 'los tuyos', translation: 'твои (м.р., мн.ч., с артиклем)', audioUrl: null },
+      { word: 'las tuyas', translation: 'твои (ж.р., мн.ч., с артиклем)', audioUrl: null },
+      { word: 'el suyo', translation: 'его/её/Ваш (м.р., с артиклем)', audioUrl: null },
+      { word: 'la suya', translation: 'его/её/Ваша (ж.р., с артиклем)', audioUrl: null },
+      { word: 'los suyos', translation: 'его/её/Ваши (м.р., мн.ч., с артиклем)', audioUrl: null },
+      { word: 'las suyas', translation: 'его/её/Ваши (ж.р., мн.ч., с артиклем)', audioUrl: null }
     ],
     readingText: {
       title: 'Esta es mi familia',
@@ -8920,20 +8975,20 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-3-1-combinado': {
     id: 'ex-3-1-combinado',
     type: 'grammar',
-    title: 'Комбинированное упражнение',
-    description: 'Выберите правильный вариант (указательные и притяжательные местоимения)',
+    title: 'Перевод с русского на испанский',
+    description: 'Переведите предложения с русского на испанский, используя указательные и притяжательные местоимения',
     showCorrectAnswer: true,
     questions: [
-      { sentence: '___ es mi familia y ___ es la tuya (esta/esa)', options: ['Esta/esa', 'Este/ese', 'Esto/eso', 'Estos/esos'], correct: 0 },
-      { sentence: '¿___ hermanos son ___? (estos hermanos - tuyos)', options: ['Este/tuyo', 'Estos/tuyos', 'Esos/tuyas', 'Estas/tuyas'], correct: 1 },
-      { sentence: '___ padres viven aquí (nuestros - мн.ч., м.р.)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
-      { sentence: 'Mi abuelo vive aquí, pero el ___ vive allí (el tuyo - м.р.)', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 0 },
-      { sentence: '¿Qué es ___? - ___ es un libro (нейтральное esto)', options: ['esto/Esto', 'eso/Eso', 'este/Este', 'ese/Ese'], correct: 0 },
-      { sentence: '___ casa (ahí - на расстоянии) es de mis tíos', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
-      { sentence: '¿___ son vuestros primos? (ahí - esos)', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 3 },
-      { sentence: 'Un hermano ___ trabaja en Barcelona (un hermano mío)', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
-      { sentence: 'Allí viven ___ abuelos maternos (mis - мн.ч.)', options: ['mi', 'mis', 'nuestro', 'nuestros'], correct: 1 },
-      { sentence: 'La familia ___ es grande (la familia mía - ж.р.)', options: ['mío', 'mía', 'míos', 'mías'], correct: 1 }
+      { sentence: 'Это моя мама', options: ['Esta es mi madre', 'Este es mi madre', 'Esa es mi madre', 'Esto es mi madre'], correct: 0 },
+      { sentence: 'Тот дом очень большой', options: ['Este casa es muy grande', 'Esa casa es muy grande', 'Aquella casa es muy grande', 'Ese casa es muy grande'], correct: 1 },
+      { sentence: 'Вон те книги на столе', options: ['Aquellos libros están en la mesa', 'Esos libros están en la mesa', 'Estos libros están en la mesa', 'Aquel libros están en la mesa'], correct: 0 },
+      { sentence: 'Мой брат живет здесь', options: ['Mi hermano vive aquí', 'Mi hermano vive ahí', 'Mi hermano vive allí', 'Mis hermanos vive aquí'], correct: 0 },
+      { sentence: 'Это твоя сестра?', options: ['¿Esta es tu hermana?', '¿Este es tu hermana?', '¿Esa es tu hermana?', '¿Esto es tu hermana?'], correct: 0 },
+      { sentence: 'Наша семья большая', options: ['Nuestro familia es grande', 'Nuestra familia es grande', 'Nuestros familia es grande', 'Nuestras familia es grande'], correct: 1 },
+      { sentence: 'Те люди — мои друзья', options: ['Esos son mis amigos', 'Estos son mis amigos', 'Aquellos son mis amigos', 'Esas son mis amigos'], correct: 0 },
+      { sentence: 'Что это?', options: ['¿Qué es esto?', '¿Qué es eso?', '¿Qué es este?', '¿Qué es ese?'], correct: 0 },
+      { sentence: 'Твой отец работает там?', options: ['¿Tu padre trabaja ahí?', '¿Tu padre trabaja aquí?', '¿Su padre trabaja ahí?', '¿Tus padres trabaja ahí?'], correct: 0 },
+      { sentence: 'Вон та машина красивая', options: ['Aquel coche es bonito', 'Aquella coche es bonito', 'Ese coche es bonito', 'Este coche es bonito'], correct: 0 }
     ]
   },
 
