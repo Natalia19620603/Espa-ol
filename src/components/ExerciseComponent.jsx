@@ -626,7 +626,7 @@ function PronunciationQuestion({ question, onAnswer }) {
   )
 }
 
-function ReadingQuestion({ text, question, onAnswer }) {
+function ReadingQuestion({ text, question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
   return (
     <div className={styles.question}>
       <div className={styles.readingText}>
@@ -634,16 +634,35 @@ function ReadingQuestion({ text, question, onAnswer }) {
       </div>
       <h3 className={styles.questionText}>{question.question}</h3>
       <div className={styles.options}>
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
-          >
-            {option}
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
       </div>
+      {showCorrectAnswer && (
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.options[question.correct]}
+          </p>
+          <button onClick={onSkipFeedback} className={styles.stopBtn}>
+            ⏹ СТОП
+          </button>
+        </>
+      )}
     </div>
   )
 }

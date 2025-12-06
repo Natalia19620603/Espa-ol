@@ -2318,7 +2318,17 @@ Ana. — ¡Adiós!`,
 Ана. — Пока!`,
       audioUrl: null
     },
-    exercises: ['ex-2-3-description']
+    exercises: [
+      'ex-2-3-description',
+      'ex-2-3-vocab-appearance',
+      'ex-2-3-vocab-character',
+      'ex-2-3-adjectives-agreement',
+      'ex-2-3-ser-estar-tener',
+      'ex-2-3-descriptions-1',
+      'ex-2-3-descriptions-2',
+      'ex-2-3-opposites',
+      'ex-2-3-complete-sentences'
+    ]
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
@@ -6868,6 +6878,231 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         ],
         correct: 1
       }
+    ]
+  },
+
+  // Новые упражнения для Модуля 2 Урока 3
+  'ex-2-3-vocab-appearance': {
+    id: 'ex-2-3-vocab-appearance',
+    type: 'vocabulary',
+    title: 'Словарь: Внешность',
+    description: 'Выберите правильный перевод слов, описывающих внешность',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { spanish: 'alto', options: ['низкий', 'высокий', 'толстый', 'стройный'], correct: 1 },
+      { spanish: 'guapo', options: ['некрасивый', 'красивый', 'молодой', 'старый'], correct: 1 },
+      { spanish: 'delgado', options: ['толстый', 'высокий', 'стройный', 'низкий'], correct: 2 },
+      { spanish: 'pelo rizado', options: ['прямые волосы', 'короткие волосы', 'вьющиеся волосы', 'длинные волосы'], correct: 2 },
+      { spanish: 'rubio', options: ['брюнет', 'блондин', 'рыжий', 'шатен'], correct: 1 },
+      { spanish: 'ojos azules', options: ['карие глаза', 'зеленые глаза', 'голубые глаза', 'серые глаза'], correct: 2 },
+      { spanish: 'barba', options: ['усы', 'борода', 'очки', 'татуировка'], correct: 1 },
+      { spanish: 'calvo', options: ['лысый', 'седой', 'рыжий', 'кудрявый'], correct: 0 },
+      { spanish: 'joven', options: ['старый', 'молодой', 'средних лет', 'ребенок'], correct: 1 },
+      { spanish: 'gafas', options: ['усы', 'борода', 'очки', 'шрам'], correct: 2 },
+      { spanish: 'bajo', options: ['высокий', 'низкий', 'толстый', 'худой'], correct: 1 },
+      { spanish: 'gordo', options: ['стройный', 'высокий', 'толстый', 'низкий'], correct: 2 },
+      { spanish: 'moreno', options: ['блондин', 'брюнет', 'рыжий', 'седой'], correct: 1 },
+      { spanish: 'pelo largo', options: ['короткие волосы', 'длинные волосы', 'вьющиеся волосы', 'прямые волосы'], correct: 1 },
+      { spanish: 'viejo', options: ['молодой', 'ребенок', 'старый', 'подросток'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-vocab-character': {
+    id: 'ex-2-3-vocab-character',
+    type: 'vocabulary',
+    title: 'Словарь: Характер',
+    description: 'Выберите правильный перевод слов, описывающих характер',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { spanish: 'alegre', options: ['грустный', 'веселый', 'серьезный', 'спокойный'], correct: 1 },
+      { spanish: 'trabajador', options: ['ленивый', 'трудолюбивый', 'хитрый', 'глупый'], correct: 1 },
+      { spanish: 'simpático', options: ['неприятный', 'симпатичный', 'грустный', 'злой'], correct: 1 },
+      { spanish: 'generoso', options: ['жадный', 'эгоистичный', 'щедрый', 'ленивый'], correct: 2 },
+      { spanish: 'tímido', options: ['коммуникабельный', 'застенчивый', 'хвастливый', 'храбрый'], correct: 1 },
+      { spanish: 'inteligente', options: ['глупый', 'ленивый', 'умный', 'хитрый'], correct: 2 },
+      { spanish: 'perezoso', options: ['трудолюбивый', 'активный', 'ленивый', 'быстрый'], correct: 2 },
+      { spanish: 'sincero', options: ['лживый', 'искренний', 'хитрый', 'жадный'], correct: 1 },
+      { spanish: 'valiente', options: ['трусливый', 'застенчивый', 'храбрый', 'глупый'], correct: 2 },
+      { spanish: 'comunicativo', options: ['застенчивый', 'коммуникабельный', 'тихий', 'серьезный'], correct: 1 },
+      { spanish: 'serio', options: ['веселый', 'шутливый', 'серьезный', 'легкомысленный'], correct: 2 },
+      { spanish: 'tranquilo', options: ['нервный', 'активный', 'спокойный', 'шумный'], correct: 2 },
+      { spanish: 'honrado', options: ['лживый', 'хитрый', 'честный', 'жадный'], correct: 2 },
+      { spanish: 'cariñoso', options: ['холодный', 'ласковый', 'злой', 'грубый'], correct: 1 },
+      { spanish: 'curioso', options: ['равнодушный', 'любопытный', 'скучный', 'ленивый'], correct: 1 }
+    ]
+  },
+
+  'ex-2-3-adjectives-agreement': {
+    id: 'ex-2-3-adjectives-agreement',
+    type: 'grammar',
+    title: 'Согласование прилагательных',
+    description: 'Выберите правильную форму прилагательного',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'María es muy ___ (красивая)', options: ['guapo', 'guapa', 'guapos', 'guapas'], correct: 1 },
+      { sentence: 'Los chicos son ___ (высокие)', options: ['alto', 'alta', 'altos', 'altas'], correct: 2 },
+      { sentence: 'Mi hermana es ___ (трудолюбивая)', options: ['trabajador', 'trabajadora', 'trabajadores', 'trabajadoras'], correct: 1 },
+      { sentence: 'El profesor es ___ (серьезный)', options: ['serio', 'seria', 'serios', 'serias'], correct: 0 },
+      { sentence: 'Las amigas son ___ (веселые)', options: ['alegre', 'alegres', 'alegro', 'alegra'], correct: 1 },
+      { sentence: 'Pedro y Juan son ___ (умные)', options: ['inteligente', 'inteligentes', 'inteligento', 'inteligenta'], correct: 1 },
+      { sentence: 'La niña tiene el pelo ___ (вьющиеся)', options: ['rizado', 'rizada', 'rizados', 'rizadas'], correct: 0 },
+      { sentence: 'Los estudiantes son ___ (коммуникабельные)', options: ['comunicativo', 'comunicativa', 'comunicativos', 'comunicativas'], correct: 2 },
+      { sentence: 'Mi madre es ___ (щедрая)', options: ['generoso', 'generosa', 'generosos', 'generosas'], correct: 1 },
+      { sentence: 'El señor tiene los ojos ___ (зеленые)', options: ['verde', 'verdes', 'verdo', 'verda'], correct: 1 },
+      { sentence: 'Las mujeres son ___ (стройные)', options: ['delgado', 'delgada', 'delgados', 'delgadas'], correct: 3 },
+      { sentence: 'Mi amigo es ___ (застенчивый)', options: ['tímido', 'tímida', 'tímidos', 'tímidas'], correct: 0 },
+      { sentence: 'Los hermanos son ___ (блондины)', options: ['rubio', 'rubia', 'rubios', 'rubias'], correct: 2 },
+      { sentence: 'La profesora es muy ___ (трудолюбивая)', options: ['trabajador', 'trabajadora', 'trabajadores', 'trabajadoras'], correct: 1 },
+      { sentence: 'El hombre es ___ (низкий)', options: ['bajo', 'baja', 'bajos', 'bajas'], correct: 0 }
+    ]
+  },
+
+  'ex-2-3-ser-estar-tener': {
+    id: 'ex-2-3-ser-estar-tener',
+    type: 'grammar',
+    title: 'SER, ESTAR, TENER в описаниях',
+    description: 'Выберите правильный глагол для описания',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Pablo ___ alto y guapo.', options: ['es', 'está', 'tiene'], correct: 0 },
+      { sentence: 'María ___ los ojos azules.', options: ['es', 'está', 'tiene'], correct: 2 },
+      { sentence: 'Yo ___ el pelo largo y rizado.', options: ['soy', 'estoy', 'tengo'], correct: 2 },
+      { sentence: 'Mi hermano ___ muy alegre hoy.', options: ['es', 'está', 'tiene'], correct: 1 },
+      { sentence: 'Nosotros ___ de España.', options: ['somos', 'estamos', 'tenemos'], correct: 0 },
+      { sentence: 'Tú ___ una persona simpática.', options: ['eres', 'estás', 'tienes'], correct: 0 },
+      { sentence: 'Ella ___ barba y bigotes.', options: ['es', 'está', 'tiene'], correct: 2 },
+      { sentence: 'Los estudiantes ___ en la clase.', options: ['son', 'están', 'tienen'], correct: 1 },
+      { sentence: 'Mi padre ___ médico.', options: ['es', 'está', 'tiene'], correct: 0 },
+      { sentence: 'Vosotros ___ muy tranquilos.', options: ['sois', 'estáis', 'tenéis'], correct: 0 },
+      { sentence: 'El señor ___ calvo.', options: ['es', 'está', 'tiene'], correct: 0 },
+      { sentence: 'Yo ___ cansado después del trabajo.', options: ['soy', 'estoy', 'tengo'], correct: 1 },
+      { sentence: 'Ellas ___ el pelo corto.', options: ['son', 'están', 'tienen'], correct: 2 },
+      { sentence: 'Tú ___ una persona muy trabajadora.', options: ['eres', 'estás', 'tienes'], correct: 0 },
+      { sentence: 'Nosotras ___ gafas.', options: ['somos', 'estamos', 'tenemos'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-descriptions-1': {
+    id: 'ex-2-3-descriptions-1',
+    type: 'reading',
+    title: 'Описание людей - Часть 1',
+    description: 'Прочитайте описание и ответьте на вопросы',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    text: `**Mis compañeros de trabajo**
+
+En mi oficina trabajo con personas muy interesantes. Mi jefe se llama Carlos. Es un hombre alto y delgado, de unos 50 años. Tiene el pelo corto y cano. Siempre lleva gafas y es muy serio, pero también es muy justo y trabajador.
+
+Mi compañera Ana es joven y simpática. Tiene 25 años. Es baja y delgada. Tiene el pelo largo, liso y rubio. Ana tiene los ojos azules y siempre está alegre. Es muy comunicativa y generosa con todos.
+
+Pedro es el diseñador de la oficina. Es un chico moreno con el pelo rizado. Es de estatura mediana y atlético. Tiene barba y bigotes. Pedro es muy inteligente y creativo, pero a veces es un poco tímido.`,
+    questions: [
+      { question: '¿Cuántos años tiene Carlos aproximadamente?', options: ['25 años', '35 años', '50 años', '60 años'], correct: 2 },
+      { question: '¿Cómo es Carlos físicamente?', options: ['Bajo y gordo', 'Alto y delgado', 'De estatura mediana', 'Bajo y delgado'], correct: 1 },
+      { question: '¿Qué lleva siempre Carlos?', options: ['Barba', 'Bigotes', 'Gafas', 'Tatuajes'], correct: 2 },
+      { question: '¿Cómo es el carácter de Carlos?', options: ['Alegre y comunicativo', 'Serio pero justo', 'Tímido y tranquilo', 'Perezoso'], correct: 1 },
+      { question: '¿Cuántos años tiene Ana?', options: ['20 años', '25 años', '30 años', '35 años'], correct: 1 },
+      { question: '¿Cómo es Ana físicamente?', options: ['Alta y gorda', 'Baja y gorda', 'Alta y delgada', 'Baja y delgada'], correct: 3 },
+      { question: '¿De qué color es el pelo de Ana?', options: ['Moreno', 'Rubio', 'Castaño', 'Pelirrojo'], correct: 1 },
+      { question: '¿De qué color son los ojos de Ana?', options: ['Verdes', 'Pardos', 'Azules', 'Grises'], correct: 2 },
+      { question: '¿Qué profesión tiene Pedro?', options: ['Médico', 'Profesor', 'Diseñador', 'Ingeniero'], correct: 2 },
+      { question: '¿Cómo es el pelo de Pedro?', options: ['Liso y rubio', 'Rizado y moreno', 'Corto y cano', 'Largo y castaño'], correct: 1 },
+      { question: '¿Qué tiene Pedro en la cara?', options: ['Gafas', 'Un tatuaje', 'Barba y bigotes', 'Una cicatriz'], correct: 2 },
+      { question: '¿Cómo es el carácter de Pedro?', options: ['Serio y trabajador', 'Alegre y comunicativo', 'Inteligente pero tímido', 'Perezoso y antipático'], correct: 2 },
+      { question: '¿Cómo es el carácter de Ana?', options: ['Tímida y seria', 'Comunicativa y generosa', 'Perezosa y antipática', 'Tranquila y trabajadora'], correct: 1 },
+      { question: '¿Quién tiene el pelo cano?', options: ['Ana', 'Pedro', 'Carlos', 'Nadie'], correct: 2 },
+      { question: '¿Quién es atlético?', options: ['Carlos', 'Ana', 'Pedro', 'Todos'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-descriptions-2': {
+    id: 'ex-2-3-descriptions-2',
+    type: 'reading',
+    title: 'Описание людей - Часть 2',
+    description: 'Прочитайте описание семьи и ответьте на вопросы',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    text: `**Mi familia**
+
+Voy a describir a mi familia. Mi padre se llama Jorge. Tiene 55 años. Es alto y un poco gordo. Tiene el pelo corto y cano. No tiene barba, pero tiene bigotes. Mi padre es ingeniero. Es muy inteligente y trabajador, pero también es muy tranquilo y bondadoso.
+
+Mi madre María tiene 52 años. Es baja y delgada. Tiene el pelo largo, liso y castaño, pero ahora tiene algunas canas. Tiene los ojos verdes muy bonitos. Mi madre es profesora. Es muy paciente, cariñosa y educada. Siempre ayuda a todos.
+
+Tengo un hermano mayor que se llama Luis. Tiene 28 años y es médico. Luis es alto y atlético. Tiene el pelo corto y moreno. Es guapo y muy serio. Es muy honrado y responsable en su trabajo.
+
+Mi hermana pequeña se llama Carmen. Tiene solo 16 años. Es de estatura mediana y delgada. Tiene el pelo rizado y pelirrojo. Carmen tiene muchas pecas en la cara. Es muy alegre, curiosa y comunicativa. A veces es un poco presumida, pero es muy generosa con sus amigos.`,
+    questions: [
+      { question: '¿Cuántos años tiene el padre?', options: ['52 años', '55 años', '58 años', '60 años'], correct: 1 },
+      { question: '¿Cómo es el padre físicamente?', options: ['Bajo y delgado', 'Alto y delgado', 'Alto y gordo', 'Bajo y gordo'], correct: 2 },
+      { question: '¿Qué tiene el padre en la cara?', options: ['Barba', 'Bigotes', 'Gafas', 'Nada'], correct: 1 },
+      { question: '¿Qué profesión tiene el padre?', options: ['Médico', 'Profesor', 'Ingeniero', 'Abogado'], correct: 2 },
+      { question: '¿Cuántos años tiene la madre?', options: ['50 años', '52 años', '55 años', '58 años'], correct: 1 },
+      { question: '¿De qué color son los ojos de la madre?', options: ['Azules', 'Pardos', 'Verdes', 'Grises'], correct: 2 },
+      { question: '¿Qué profesión tiene la madre?', options: ['Médica', 'Profesora', 'Ingeniera', 'Enfermera'], correct: 1 },
+      { question: '¿Cuántos años tiene Luis?', options: ['25 años', '26 años', '28 años', '30 años'], correct: 2 },
+      { question: '¿Qué profesión tiene Luis?', options: ['Ingeniero', 'Profesor', 'Médico', 'Abogado'], correct: 2 },
+      { question: '¿Cómo es el carácter de Luis?', options: ['Alegre y comunicativo', 'Serio y honrado', 'Tímido y tranquilo', 'Presumido y egoísta'], correct: 1 },
+      { question: '¿Cuántos años tiene Carmen?', options: ['14 años', '16 años', '18 años', '20 años'], correct: 1 },
+      { question: '¿De qué color es el pelo de Carmen?', options: ['Rubio', 'Moreno', 'Castaño', 'Pelirrojo'], correct: 3 },
+      { question: '¿Cómo es el pelo de Carmen?', options: ['Liso', 'Rizado', 'Corto', 'Cano'], correct: 1 },
+      { question: '¿Qué tiene Carmen en la cara?', options: ['Pecas', 'Gafas', 'Barba', 'Cicatrices'], correct: 0 },
+      { question: '¿Cómo es el carácter de Carmen?', options: ['Seria y tranquila', 'Tímida y trabajadora', 'Alegre y curiosa', 'Antipática y perezosa'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-opposites': {
+    id: 'ex-2-3-opposites',
+    type: 'vocabulary',
+    title: 'Антонимы прилагательных',
+    description: 'Выберите антоним (противоположное значение) для каждого прилагательного',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { spanish: 'alto (высокий)', options: ['gordo', 'bajo', 'delgado', 'guapo'], correct: 1 },
+      { spanish: 'guapo (красивый)', options: ['feo', 'viejo', 'joven', 'alto'], correct: 0 },
+      { spanish: 'gordo (толстый)', options: ['bajo', 'alto', 'delgado', 'joven'], correct: 2 },
+      { spanish: 'alegre (веселый)', options: ['triste', 'serio', 'tranquilo', 'tímido'], correct: 0 },
+      { spanish: 'trabajador (трудолюбивый)', options: ['tímido', 'alegre', 'perezoso', 'serio'], correct: 2 },
+      { spanish: 'generoso (щедрый)', options: ['avaro', 'tímido', 'alegre', 'tranquilo'], correct: 0 },
+      { spanish: 'tímido (застенчивый)', options: ['serio', 'comunicativo', 'tranquilo', 'trabajador'], correct: 1 },
+      { spanish: 'inteligente (умный)', options: ['alegre', 'tonto', 'serio', 'tranquilo'], correct: 1 },
+      { spanish: 'joven (молодой)', options: ['bajo', 'alto', 'viejo', 'guapo'], correct: 2 },
+      { spanish: 'sincero (искренний)', options: ['mentiroso', 'tímido', 'alegre', 'tranquilo'], correct: 0 },
+      { spanish: 'simpático (симпатичный)', options: ['guapo', 'antipático', 'alegre', 'trabajador'], correct: 1 },
+      { spanish: 'largo (длинный)', options: ['corto', 'alto', 'bajo', 'rizado'], correct: 0 },
+      { spanish: 'tranquilo (спокойный)', options: ['alegre', 'nervioso', 'serio', 'tímido'], correct: 1 },
+      { spanish: 'valiente (храбрый)', options: ['tímido', 'cobarde', 'tranquilo', 'serio'], correct: 1 },
+      { spanish: 'honrado (честный)', options: ['deshonesto', 'tímido', 'alegre', 'tranquilo'], correct: 0 }
+    ]
+  },
+
+  'ex-2-3-complete-sentences': {
+    id: 'ex-2-3-complete-sentences',
+    type: 'grammar',
+    title: 'Дополните предложения',
+    description: 'Выберите правильное слово для завершения предложения',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'María tiene el pelo ___ y rubio.', options: ['liso', 'lisas', 'altos', 'guapo'], correct: 0 },
+      { sentence: 'Mi hermano ___ 25 años.', options: ['es', 'está', 'tiene', 'son'], correct: 2 },
+      { sentence: 'Los niños ___ muy alegres.', options: ['es', 'son', 'está', 'tienen'], correct: 1 },
+      { sentence: 'Ella tiene los ojos ___.', options: ['azul', 'azules', 'azulo', 'azula'], correct: 1 },
+      { sentence: 'Mi padre siempre ___ gafas.', options: ['es', 'lleva', 'tiene', 'está'], correct: 1 },
+      { sentence: 'Pedro ___ alto y atlético.', options: ['es', 'está', 'tiene', 'son'], correct: 0 },
+      { sentence: 'Las chicas ___ el pelo rizado.', options: ['son', 'están', 'tienen', 'es'], correct: 2 },
+      { sentence: 'Mi profesora es muy ___ y trabajadora.', options: ['serio', 'seria', 'serios', 'serias'], correct: 1 },
+      { sentence: 'Los estudiantes ___ en la clase ahora.', options: ['son', 'están', 'tienen', 'es'], correct: 1 },
+      { sentence: 'Tú ___ una persona muy generosa.', options: ['eres', 'estás', 'tienes', 'soy'], correct: 0 },
+      { sentence: 'El señor tiene ___ y bigotes.', options: ['gafas', 'barba', 'pelo', 'ojos'], correct: 1 },
+      { spanish: 'Mi amiga Ana ___ de España.', options: ['es', 'está', 'tiene', 'son'], correct: 0 },
+      { sentence: 'Nosotros ___ muy contentos hoy.', options: ['somos', 'estamos', 'tenemos', 'son'], correct: 1 },
+      { sentence: 'El niño tiene el pelo corto y ___.', options: ['moreno', 'morena', 'morenos', 'morenas'], correct: 0 },
+      { sentence: 'Vosotros ___ muy simpáticos.', options: ['sois', 'estáis', 'tenéis', 'son'], correct: 0 }
     ]
   },
 
