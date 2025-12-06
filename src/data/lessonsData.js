@@ -2099,71 +2099,522 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
     title: 'Урок 1: Семья и родственники',
     moduleId: 'module-3',
     grammar: {
-      title: 'Притяжательные местоимения',
-      content: `
-# Притяжательные местоимения (Posesivos)
+      title: 'Указательные и притяжательные местоимения',
+      intro: `# Грамматика урока
 
-## Краткая форма (перед существительным):
+В этом уроке мы изучим:
+- Указательные местоимения для обозначения близости и дальности
+- Самостоятельное употребление указательных местоимений
+- Форма среднего рода (нейтральные формы)
+- Указательные наречия места
+- Притяжательные местоимения-прилагательные и местоимения-существительные`,
+      sections: [
+        {
+          id: 'demonstrativos',
+          title: 'Указательные местоимения (Demonstrativos)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Указательные местоимения (Demonstrativos)
 
-| Русский | Español (ед.ч) | Español (мн.ч) |
-|---------|----------------|----------------|
-| мой/моя | mi | mis |
-| твой/твоя | tu | tus |
-| его/ее/Ваш | su | sus |
-| наш/наша | nuestro/nuestra | nuestros/nuestras |
-| ваш/ваша | vuestro/vuestra | vuestros/vuestras |
-| их/Ваш | su | sus |
+Указательные местоимения в испанском языке используются для обозначения предметов в зависимости от их расстояния от говорящего.
 
-## Примеры:
-- **Mi padre** - мой отец
-- **Mis hermanos** - мои братья
-- **Nuestra casa** - наш дом
-- **Sus hijos** - его/ее/их дети
-      `,
-      examples: [
-        { spanish: 'Mi familia es grande', translation: 'Моя семья большая' },
-        { spanish: 'Tu hermana es simpática', translation: 'Твоя сестра симпатичная' },
-        { spanish: 'Nuestros padres viven aquí', translation: 'Наши родители живут здесь' }
+### Таблица форм по расстоянию:
+
+| Расстояние | Мужской род ед.ч | Женский род ед.ч | Мужской род мн.ч | Женский род мн.ч | Значение |
+|------------|------------------|------------------|------------------|------------------|----------|
+| **Близко** (aquí) | este | esta | estos | estas | этот, эта, эти |
+| **На расстоянии** (ahí) | ese | esa | esos | esas | тот, та, те |
+| **Далеко** (allí) | aquel | aquella | aquellos | aquellas | вон тот, вон та, вон те |
+
+### Употребление перед существительными:
+
+**ESTE (этот) - близко к говорящему:**
+- **este libro** – эта книга (м.р., ед.ч.)
+- **esta mesa** – этот стол (ж.р., ед.ч.)
+- **estos libros** – эти книги (м.р., мн.ч.)
+- **estas mesas** – эти столы (ж.р., мн.ч.)
+
+**ESE (тот) - на некотором расстоянии:**
+- **ese coche** – та машина (м.р., ед.ч.)
+- **esa casa** – тот дом (ж.р., ед.ч.)
+- **esos coches** – те машины (м.р., мн.ч.)
+- **esas casas** – те дома (ж.р., мн.ч.)
+
+**AQUEL (вон тот) - далеко от говорящего:**
+- **aquel edificio** – вон то здание (м.р., ед.ч.)
+- **aquella montaña** – вон та гора (ж.р., ед.ч.)
+- **aquellos edificios** – вон те здания (м.р., мн.ч.)
+- **aquellas montañas** – вон те горы (ж.р., мн.ч.)
+
+### Примеры в предложениях:
+- Esta casa es muy bonita. – Этот дом очень красивый.
+- Ese coche es rápido. – Та машина быстрая.
+- Aquellas montañas son altas. – Вон те горы высокие.
+`
+        },
+        {
+          id: 'demonstrativos-standalone',
+          title: 'Самостоятельное употребление (С ударением)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Самостоятельное употребление (С ударением)
+
+Когда указательные местоимения употребляются **без существительного** (самостоятельно), они могут нести графическое ударение (акцент). В современном испанском акцент не обязателен, но помогает избежать путаницы.
+
+### Формы с ударением:
+
+| Без существительного | Мужской род | Женский род |
+|----------------------|-------------|-------------|
+| **Близко** | éste, éstos | ésta, éstas |
+| **На расстоянии** | ése, ésos | ésa, ésas |
+| **Далеко** | aquél, aquéllos | aquélla, aquéllas |
+
+### Примеры:
+- ¿Qué libro prefieres: **este** o **ese**? – Какую книгу ты предпочитаешь: эту или ту?
+- **Este** es mi hermano. – Это мой брат.
+- **Esa** es mi profesora. – Та (женщина) – моя учительница.
+- No me gusta **este** coche, prefiero **aquel**. – Мне не нравится эта машина, я предпочитаю вон ту.
+- **Estos** son mis amigos. – Эти (люди) – мои друзья.
+- **Aquellas** son muy caras. – Вон те очень дорогие.
+
+**Важно:** В разговорной речи акценты часто опускаются, особенно когда значение понятно из контекста.
+`
+        },
+        {
+          id: 'demonstrativos-neutro',
+          title: 'Форма среднего рода (Нейтральные)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Форма среднего рода (Нейтральные)
+
+Нейтральные формы указательных местоимений используются для обозначения **абстрактных понятий, ситуаций или неопределенных предметов**. Они **никогда не имеют акцента** и **не изменяются по числам**.
+
+### Три нейтральные формы:
+
+| Форма | Расстояние | Значение |
+|-------|------------|----------|
+| **esto** | близко | это (то, что здесь) |
+| **eso** | на расстоянии | то (то, что там) |
+| **aquello** | далеко | то (то, что вон там) |
+
+### Употребление:
+
+**1. Для обозначения неизвестных или абстрактных вещей:**
+- ¿Qué es **esto**? – Что это (такое)?
+- **Eso** es interesante. – Это интересно.
+- No entiendo **aquello**. – Я не понимаю то.
+
+**2. Для обозначения ситуаций или идей:**
+- **Esto** es un problema. – Это проблема.
+- **Eso** no me gusta. – Мне это не нравится.
+- **Aquello** fue terrible. – То было ужасно.
+
+**3. В вопросах о неизвестных предметах:**
+- ¿Qué es **esto** que veo? – Что это я вижу?
+- ¿Para qué sirve **eso**? – Для чего это служит?
+
+**Важно:** Нейтральные формы **никогда не употребляются с существительными**:
+- ❌ esto libro
+- ✅ este libro
+- ✅ esto (само по себе)
+`
+        },
+        {
+          id: 'adverbios-lugar',
+          title: 'Указательные наречия места (Adverbios de lugar)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Указательные наречия места (Adverbios de lugar)
+
+Указательные наречия места показывают, **где** находится предмет или действие. Они часто употребляются вместе с указательными местоимениями.
+
+### Основные наречия:
+
+| Наречие | Расстояние | Значение | Пример |
+|---------|------------|----------|--------|
+| **aquí** | близко к говорящему | здесь, тут | **Aquí** está mi casa. – Здесь мой дом. |
+| **acá** | близко (менее точно) | сюда, здесь | Ven **acá**. – Иди сюда. |
+| **ahí** | на расстоянии | там (рядом с собеседником) | **Ahí** está tu libro. – Там твоя книга. |
+| **allí** | далеко | там | **Allí** vive mi abuela. – Там живет моя бабушка. |
+| **allá** | далеко (менее точно) | туда, там | Vamos **allá**. – Пойдем туда. |
+
+### Соответствие наречий и указательных местоимений:
+
+| Наречие | Указательное местоимение | Пример |
+|---------|-------------------------|--------|
+| aquí, acá | este, esta, estos, estas | **Este** libro está **aquí**. – Эта книга здесь. |
+| ahí | ese, esa, esos, esas | **Ese** coche está **ahí**. – Та машина там. |
+| allí, allá | aquel, aquella, aquellos, aquellas | **Aquel** edificio está **allí**. – Вон то здание там. |
+
+### Примеры в контексте:
+
+**AQUÍ (здесь) + ESTE (этот):**
+- Ven **aquí**, mira **este** cuadro. – Иди сюда, посмотри на эту картину.
+- **Aquí** tenemos **estos** documentos. – Здесь у нас эти документы.
+
+**AHÍ (там) + ESE (тот):**
+- Deja el libro **ahí**, en **esa** mesa. – Оставь книгу там, на том столе.
+- **Ahí** están **esos** estudiantes. – Там те студенты.
+
+**ALLÍ (там, далеко) + AQUEL (вон тот):**
+- **Allí**, en **aquella** montaña, hay nieve. – Там, на вон той горе, снег.
+- Mira **allí**, **aquellos** pájaros. – Посмотри туда, вон те птицы.
+
+### Различие между aquí/acá и allí/allá:
+
+- **aquí / allí** – более точное указание на место
+- **acá / allá** – менее точное, часто с глаголами движения
+
+Ejemplos:
+- Ven **acá**. – Иди сюда.
+- Vamos **allá**. – Пойдем туда.
+- Estoy **aquí**. – Я здесь.
+- Vive **allí**. – Он/она живет там.
+`
+        },
+        {
+          id: 'posesivos-adjetivos',
+          title: 'Притяжательные местоимения-прилагательные (Adjetivos posesivos)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Притяжательные местоимения-прилагательные (Adjetivos posesivos)
+
+В испанском языке притяжательные местоимения делятся на местоимения-прилагательные (которые ставятся перед существительным) и местоимения-существительные (которые заменяют существительное и обычно используются с артиклем).
+
+Эти формы всегда предшествуют существительному и согласуются с ним в числе. Формы **nuestro** и **vuestro** также согласуются в роде.
+
+### Таблица притяжательных местоимений-прилагательных:
+
+| Личное местоимение | Форма (Единственное число) | Форма (Множественное число) | Пример использования | Перевод |
+|-------------------|---------------------------|----------------------------|---------------------|---------|
+| **Yo** (я) | mi | mis | Mi familia es grande. | Моя семья большая. |
+| **Tú** (ты) | tu | tus | ¿Dónde están tus hermanos? | Где твои братья? |
+| **Él/Ella/Ud.** (он/она/Вы) | su | sus | Su padre es médico. | Его/Её/Ваш отец врач. |
+| **Nosotros/-as** (мы) | nuestro / nuestra | nuestros / nuestras | Nuestra madre trabaja aquí. | Наша мама работает здесь. |
+| **Vosotros/-as** (вы) | vuestro / vuestra | vuestros / vuestras | Vuestros abuelos son amables. | Ваши дедушка и бабушка добрые. |
+| **Ellos/Ellas/Uds.** (они/Вы) | su | sus | Sus hijos estudian español. | Их/Ваши дети изучают испанский. |
+
+### Основные правила:
+
+**1. Местоимения mi, tu, su** изменяются только по числам:
+- **mi** hijo (мой сын) → **mis** hijos (мои дети)
+- **tu** hermana (твоя сестра) → **tus** hermanas (твои сестры)
+- **su** primo (его двоюродный брат) → **sus** primos (его двоюродные братья)
+
+**2. Местоимения nuestro, vuestro** изменяются и по родам, и по числам:
+- **nuestro** padre (наш отец - м.р.)
+- **nuestra** madre (наша мать - ж.р.)
+- **nuestros** padres (наши родители - м.р., мн.ч.)
+- **nuestras** abuelas (наши бабушки - ж.р., мн.ч.)
+
+**3. Притяжательные местоимения-прилагательные всегда стоят ПЕРЕД существительным:**
+- mi familia (моя семья)
+- tu esposo (твой супруг)
+- nuestra nieta (наша внучка)
+`
+        },
+        {
+          id: 'posesivos-adjetivos-peculiaridades',
+          title: 'Особенности употребления притяжательных местоимений-прилагательных',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Особенности употребления притяжательных местоимений-прилагательных
+
+### А. Согласование по роду и числу:
+
+Притяжательные местоимения согласуются с **предметом обладания**, а не с обладателем:
+
+**Примеры:**
+- **Mi** hermano (Мой брат - единственное число)
+- **Mis** hermanos (Мои братья - множественное число)
+- **Nuestra** familia (Наша семья - женский род, единственное число)
+- **Nuestros** parientes (Наши родственники - мужской род, множественное число)
+
+**Важно:** В испанском языке род притяжательного местоимения определяется родом **существительного** (предмета), а не владельца:
+- Pedro habla de **su** madre. (Педро говорит о своей матери - "madre" женского рода, но "su" не имеет формы рода)
+- María habla de **su** padre. (Мария говорит о своем отце - "padre" мужского рода, но "su" также не изменяется)
+- Pedro habla de **sus** abuelos. (Педро говорит о своих дедушках - множественное число)
+
+### Б. Уточнение su/sus (Формы 3-го лица):
+
+Формы **su** и **sus** могут означать:
+- его (de él)
+- её (de ella)
+- Ваш/Ваша (de usted)
+- их (de ellos/ellas)
+- Ваши (de ustedes)
+
+Чтобы избежать двусмысленности, вместо **su/sus** часто используют конструкцию:
+
+**el / la / los / las + [существительное] + de + [личное местоимение]**
+
+**Примеры уточнения:**
+
+**Двусмысленное:**
+- Es **su** hijo. (Это его/ее/Ваш/их сын - неясно, чей именно)
+
+**Уточнение:**
+- Es el hijo **de ella**. (Это её сын.)
+- Es el hijo **de él**. (Это его сын.)
+- Es el hijo **de usted**. (Это Ваш сын.)
+- Es el hijo **de ellos**. (Это их сын.)
+
+**Другие примеры:**
+- Son los padres **de ustedes**. (Это Ваши родители - уважительная форма мн.ч.)
+- Es la esposa **de él**. (Это его жена.)
+- Son los nietos **de ellas**. (Это их внуки - говорим о женщинах.)
+
+### В. Отсутствие артикля:
+
+В испанском языке притяжательные местоимения-прилагательные **не употребляются с артиклем**:
+
+✅ **mi** familia (моя семья)
+❌ **la mi** familia
+
+✅ **nuestros** hijos (наши дети)
+❌ **los nuestros** hijos
+
+**Исключение:** С частями тела и личными вещами в испанском часто используется определенный артикль вместо притяжательного местоимения:
+
+- Me duele **la** cabeza. (У меня болит голова - буквально "мне болит *голова*")
+- Me lavo **las** manos. (Я мою руки - буквально "я мою *руки*")
+`
+        },
+        {
+          id: 'posesivos-pronombres',
+          title: 'Притяжательные местоимения-существительные (Pronombres posesivos)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Притяжательные местоимения-существительные (Pronombres posesivos)
+
+Эти формы **заменяют существительное**, согласуются с ним в роде и числе и, как правило, используются с определенным артиклем (**el, la, los, las**).
+
+### Таблица притяжательных местоимений-существительных:
+
+| Личное местоимение | Форма (Единственное число, М.Р./Ж.Р.) | Форма (Множественное число, М.Р./Ж.Р.) | Перевод |
+|-------------------|--------------------------------------|----------------------------------------|---------|
+| **Yo** (я) | el mío / la mía | los míos / las mías | мой, моя / мои |
+| **Tú** (ты) | el tuyo / la tuya | los tuyos / las tuyas | твой, твоя / твои |
+| **Él/Ella/Ud.** | el suyo / la suya | los suyos / las suyas | его/ее/Ваш / его/ее/Ваши |
+| **Nosotros/-as** | el nuestro / la nuestra | los nuestros / las nuestras | наш, наша / наши |
+| **Vosotros/-as** | el vuestro / la vuestra | los vuestros / las vuestras | ваш, ваша / ваши |
+| **Ellos/Ellas/Uds.** | el suyo / la suya | los suyos / las suyas | их/Ваш / их/Ваши |
+
+### Основные формы:
+
+**Единственное число:**
+- **el mío** (мой - мужской род): Este hijo es **el mío**. (Этот сын мой.)
+- **la mía** (моя - женский род): Esta familia es **la mía**. (Эта семья моя.)
+
+**Множественное число:**
+- **los míos** (мои - мужской род): Estos hermanos son **los míos**. (Эти братья мои.)
+- **las mías** (мои - женский род): Estas primas son **las mías**. (Эти двоюродные сестры мои.)
+
+### Отличие от притяжательных местоимений-прилагательных:
+
+| Тип | С артиклем | Позиция | Пример |
+|-----|-----------|---------|---------|
+| **Прилагательное** | ❌ Без артикля | Перед существительным | **Mi** familia es grande. |
+| **Существительное** | ✅ С артиклем (обычно) | Вместо существительного | **La mía** es grande. |
+
+**Сравнение:**
+- **Mi** familia es unida. (Моя семья дружная - прилагательное)
+- **La mía** es unida. (Моя (семья) дружная - существительное, заменяет "familia")
+`
+        },
+        {
+          id: 'posesivos-pronombres-ejemplos',
+          title: 'Примеры использования притяжательных местоимений-существительных',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Примеры использования притяжательных местоимений-существительных
+
+### А. Замена существительного (с артиклем):
+
+Когда мы хотим избежать повторения существительного, мы используем притяжательное местоимение-существительное **с артиклем**.
+
+**Примеры:**
+
+**1. Сравнение:**
+- Mi esposo trabaja aquí. ¿Y **el tuyo**?
+  - (Мой муж работает здесь. А твой?)
+  - *"el tuyo" заменяет "tu esposo"*
+
+- Tu abuela vive en Madrid, pero **la mía** vive en Barcelona.
+  - (Твоя бабушка живет в Мадриде, но моя живет в Барселоне.)
+  - *"la mía" заменяет "mi abuela"*
+
+**2. Множественное число:**
+- Nuestros hijos son pequeños, pero **los suyos** son mayores.
+  - (Наши дети маленькие, но их (дети) взрослые.)
+  - *"los suyos" заменяет "sus hijos"*
+
+- Vuestros padres están aquí, **los nuestros** llegan mañana.
+  - (Ваши родители здесь, наши приезжают завтра.)
+  - *"los nuestros" заменяет "nuestros padres"*
+
+**3. Уточнение принадлежности:**
+- Este nieto es **el de Pedro**, no **el tuyo**.
+  - (Этот внук Педро, не твой.)
+
+- Estas hermanas son **las de ella**, no **las mías**.
+  - (Эти сестры её, не мои.)
+
+### Б. После глагола ser (без артикля):
+
+После глагола **ser** (быть) притяжательные местоимения-существительные обычно употребляются **БЕЗ артикля** и обозначают принадлежность.
+
+**Примеры:**
+
+**1. Указание на владельца:**
+- Esta familia es **mía**.
+  - (Эта семья моя.)
+
+- Este marido es **tuyo**.
+  - (Этот муж твой.)
+
+- Estos parientes son **suyos**.
+  - (Эти родственники его/её/Ваши/их.)
+
+**2. Вопросы о принадлежности:**
+- ¿Estos nietos son **vuestros**?
+  - (Эти внуки ваши - обращение к нескольким людям?)
+
+- ¿Esta esposa es **nuestra**?
+  - (Эта супруга наша?)
+
+- ¿Estos hijos son **suyos**, señora?
+  - (Эти дети Ваши, сеньора?)
+
+**3. Множественное число:**
+- Esas primas son **nuestras**.
+  - (Те двоюродные сестры наши.)
+
+- Aquellos tíos son **vuestros**.
+  - (Вон те дяди ваши.)
+
+### В. В роли определения (без артикля):
+
+В стилистических целях или в обращениях притяжательные местоимения-существительные могут употребляться **после существительного БЕЗ артикля**.
+
+**Примеры:**
+
+**1. В разговорной речи (неопределенный артикль + существительное + притяжательное):**
+- Un primo **mío** vive en México.
+  - (Один мой двоюродный брат живет в Мексике.)
+
+- Una tía **tuya** trabaja en el hospital.
+  - (Одна твоя тетя работает в больнице.)
+
+- Unos parientes **nuestros** vienen mañana.
+  - (Одни наши родственники приезжают завтра.)
+
+**2. В обращениях и восклицаниях:**
+- ¡**Hijo mío**!
+  - (Сын мой!)
+
+- **Amor mío**, te quiero.
+  - (Любовь моя, я тебя люблю.)
+
+- **Hermana mía**, ayúdame.
+  - (Сестра моя, помоги мне.)
+
+**3. В устойчивых выражениях с семьей:**
+- por culpa **mía** (по моей вине)
+- en opinión **nuestra** (по нашему мнению)
+- de parte **suya** (от его/её имени)
+
+**Важное различие:**
+
+| С артиклем | Без артикля |
+|-----------|-------------|
+| **El** hermano **mío** = мой брат (конкретный, определенный) | **Un** hermano **mío** = один мой брат (неопределенный) |
+| **La** familia **mía** = моя семья (о которой уже говорили) | Es familia **mía** (после ser - это моя семья) |
+`
+        }
       ]
     },
     vocabulary: [
       { word: 'familia', translation: 'семья', audioUrl: null },
+      { word: 'matrimonio', translation: 'супружеская пара / брак', audioUrl: null },
       { word: 'padre', translation: 'отец', audioUrl: null },
       { word: 'madre', translation: 'мать', audioUrl: null },
-      { word: 'hermano', translation: 'брат', audioUrl: null },
-      { word: 'hermana', translation: 'сестра', audioUrl: null },
-      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
-      { word: 'abuela', translation: 'бабушка', audioUrl: null },
+      { word: 'padres', translation: 'родители', audioUrl: null },
+      { word: 'marido', translation: 'муж', audioUrl: null },
+      { word: 'mujer', translation: 'жена', audioUrl: null },
+      { word: 'esposo', translation: 'супруг', audioUrl: null },
+      { word: 'esposa', translation: 'супруга', audioUrl: null },
       { word: 'hijo', translation: 'сын', audioUrl: null },
       { word: 'hija', translation: 'дочь', audioUrl: null },
+      { word: 'hijos', translation: 'дети', audioUrl: null },
+      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
+      { word: 'abuela', translation: 'бабушка', audioUrl: null },
+      { word: 'nieto', translation: 'внук', audioUrl: null },
+      { word: 'nieta', translation: 'внучка', audioUrl: null },
+      { word: 'hermano', translation: 'брат', audioUrl: null },
+      { word: 'hermana', translation: 'сестра', audioUrl: null },
+      { word: 'mellizos', translation: 'близнецы (м.р.)', audioUrl: null },
+      { word: 'mellizas', translation: 'близнецы (ж.р.)', audioUrl: null },
+      { word: 'padrino', translation: 'крестный отец', audioUrl: null },
+      { word: 'madrina', translation: 'крестная мать', audioUrl: null },
       { word: 'tío', translation: 'дядя', audioUrl: null },
       { word: 'tía', translation: 'тетя', audioUrl: null },
-      { word: 'primo/prima', translation: 'двоюродный брат/сестра', audioUrl: null }
+      { word: 'primo', translation: 'двоюродный брат', audioUrl: null },
+      { word: 'prima', translation: 'двоюродная сестра', audioUrl: null },
+      { word: 'sobrino', translation: 'племянник', audioUrl: null },
+      { word: 'sobrina', translation: 'племянница', audioUrl: null },
+      { word: 'suegro', translation: 'свекор / тесть', audioUrl: null },
+      { word: 'suegra', translation: 'свекровь / теща', audioUrl: null },
+      { word: 'yerno', translation: 'зять (муж дочери)', audioUrl: null },
+      { word: 'nuera', translation: 'невестка (жена сына)', audioUrl: null },
+      { word: 'cuñado', translation: 'сват / свояк / деверь / шурин', audioUrl: null },
+      { word: 'cuñada', translation: 'сватья / свояченица / золовка', audioUrl: null },
+      { word: 'padrastro', translation: 'отчим', audioUrl: null },
+      { word: 'madrastra', translation: 'мачеха', audioUrl: null },
+      { word: 'hijastro', translation: 'пасынок', audioUrl: null },
+      { word: 'hijastra', translation: 'падчерица', audioUrl: null },
+      { word: 'pariente', translation: 'родственник / родственница', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi familia',
-      content: `Me llamo Carlos y voy a hablar sobre mi familia. Somos seis personas en total. Vivimos en una casa grande en las afueras de Valencia.
+      title: 'Esta es mi familia',
+      content: `¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida. Ahora voy a hablar sobre mis parientes.
 
-Mis padres se llaman José y María. Mi padre es ingeniero y trabaja en una empresa de construcción. Le gusta mucho su trabajo porque construye edificios importantes. Mi madre es profesora de inglés en una escuela primaria. Ella ama enseñar a los niños y siempre llega a casa con historias interesantes.
+Mi familia está aquí, en esta casa. Estos son mis padres. Mi padre se llama Roberto y es médico. Trabaja en un hospital grande. Mi madre se llama Isabel y es profesora. Ella trabaja en una escuela. Mis padres son muy buenos y trabajadores.
 
-Tengo dos hermanos: mi hermano mayor Pedro tiene 20 años y estudia medicina en la universidad. Quiere ser médico como nuestro abuelo. Mi hermana pequeña Laura tiene solo 8 años. Es muy traviesa pero adorable. Le encanta dibujar y jugar con nuestro perro Max.
+Tengo dos hermanos. Este es mi hermano mayor Carlos. Tiene veinticinco años y es estudiante de medicina. Quiere ser médico como nuestro padre. Esa es mi hermana pequeña Luisa. Tiene diez años y estudia en la escuela primaria. Le gusta leer y dibujar.
 
-También vivo con mi abuela paterna, la madre de mi padre. Ella tiene 75 años pero es muy activa. Cocina delicioso y nos cuenta historias de cuando era joven. Todos los domingos, toda la familia come junta. Mi abuela prepara su famosa paella valenciana.
+Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen. Ellos viven con nosotros. Mi abuelo tiene setenta años y mi abuela tiene sesenta y ocho. Mis abuelos son muy amables. Mi abuela cocina muy bien y mi abuelo trabaja en el jardín.
 
-Tengo muchos tíos, tías y primos, pero no viven con nosotros. Los vemos en las fiestas y vacaciones. Mi tío Alberto vive en Barcelona y trabaja como músico. Cuando nos visita, toca la guitarra y cantamos juntos.
+También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona. Es el hermano de mi padre. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. Jorge tiene quince años y Marta tiene doce.
 
-Me siento muy afortunado de tener una familia tan unida y cariñosa. Pasamos mucho tiempo juntos y nos apoyamos en todo momento.`,
-      translation: 'Моя семья\n\nМеня зовут Карлос, и я расскажу о моей семье. Нас всего шесть человек. Мы живем в большом доме на окраине Валенсии.\n\nМоих родителей зовут Хосе и Мария. Мой отец - инженер и работает в строительной компании. Ему очень нравится его работа, потому что он строит важные здания. Моя мать - учительница английского в начальной школе. Она любит учить детей и всегда приходит домой с интересными историями.\n\nУ меня два брата и сестры: мой старший брат Педро, ему 20 лет, и он изучает медицину в университете. Он хочет стать врачом, как наш дедушка. Моей младшей сестре Лауре всего 8 лет. Она очень шаловливая, но очаровательная. Она любит рисовать и играть с нашей собакой Максом.\n\nТакже со мной живет моя бабушка по отцовской линии, мать моего отца. Ей 75 лет, но она очень активна. Она готовит восхитительно и рассказывает нам истории о том, когда была молодой. Каждое воскресенье вся семья ест вместе. Моя бабушка готовит свою знаменитую валенсийскую паэлью.\n\nУ меня много дядей, тетей и двоюродных братьев, но они не живут с нами. Мы видимся на праздниках и каникулах. Мой дядя Альберто живет в Барселоне и работает музыкантом. Когда он приезжает к нам, он играет на гитаре, и мы поем вместе.\n\nЯ чувствую себя очень счастливым иметь такую сплоченную и любящую семью. Мы проводим много времени вместе и поддерживаем друг друга во всем.',
+Mi tía Ana es la hermana de mi madre. Ella vive en Valencia con su marido Miguel y sus tres hijos. Estos son mis primos: Felipe, Rosa y Diego. Visitamos a nuestros tíos y primos en las vacaciones.
+
+Mis abuelos maternos, el padre y la madre de mi madre, viven en Sevilla. Vamos allí en verano. Mi abuela materna se llama Teresa y mi abuelo se llama José. Ellos son muy alegres.
+
+Tengo una madrina muy especial. Se llama Sofía y es la mejor amiga de mi madre. Ella viene a nuestra casa a menudo y me trae libros. Mi padrino es el hermano de mi padre. Se llama Antonio y vive en Granada.
+
+Los domingos toda la familia come junta. Vienen mis tíos y mis primos. Es muy bonito estar todos juntos. Hablamos, comemos y pasamos tiempo felices.
+
+Esta es mi familia. La mía es grande y alegre. ¿Y la tuya? ¿Tu familia es grande o pequeña? ¿Vives con tus padres y tus hermanos? ¿Dónde viven tus abuelos?`,
+      translation: 'Это моя семья\n\nПривет! Меня зовут Ана, и я живу в Мадриде со своей семьей. У меня большая и дружная семья. Сейчас я расскажу о моих родственниках.\n\nМоя семья здесь, в этом доме. Это мои родители. Моего отца зовут Роберто, и он врач. Он работает в большой больнице. Мою маму зовут Исабель, и она учительница. Она работает в школе. Мои родители очень хорошие и трудолюбивые.\n\nУ меня двое братьев и сестер. Это мой старший брат Карлос. Ему двадцать пять лет, и он студент медицины. Он хочет быть врачом, как наш отец. Та - моя младшая сестра Луиза. Ей десять лет, и она учится в начальной школе. Она любит читать и рисовать.\n\nЗдесь мои дедушка и бабушка по отцовской линии. Тот - мой дедушка Пабло, а та - моя бабушка Кармен. Они живут с нами. Моему дедушке семьдесят лет, а моей бабушке шестьдесят восемь. Мои бабушка и дедушка очень добрые. Моя бабушка очень хорошо готовит, а мой дедушка работает в саду.\n\nУ меня также много дядей, тетей и двоюродных братьев и сестер. Мой дядя Педро живет там, в Барселоне. Он брат моего отца. Его жена - моя тетя Лаура. У них двое детей: мои двоюродные брат и сестра Хорхе и Марта. Хорхе пятнадцать лет, а Марте двенадцать.\n\nМоя тетя Ана - сестра моей матери. Она живет в Валенсии со своим мужем Мигелем и тремя детьми. Это мои двоюродные братья и сестры: Фелипе, Роса и Диего. Мы навещаем наших дядей, тетей и двоюродных братьев и сестер на каникулах.\n\nМои бабушка и дедушка по материнской линии, отец и мать моей мамы, живут в Севилье. Мы ездим туда летом. Мою бабушку по материнской линии зовут Тереса, а дедушку - Хосе. Они очень веселые.\n\nУ меня есть особенная крестная. Ее зовут София, и она лучшая подруга моей мамы. Она часто приходит к нам домой и приносит мне книги. Мой крестный - брат моего отца. Его зовут Антонио, и он живет в Гранаде.\n\nПо воскресеньям вся семья обедает вместе. Приходят мои дяди, тети и двоюродные братья и сестры. Очень хорошо быть всем вместе. Мы разговариваем, едим и проводим время счастливо.\n\nЭто моя семья. Моя большая и веселая. А твоя? Твоя семья большая или маленькая? Ты живешь с родителями и братьями и сестрами? Где живут твои бабушка и дедушка?',
       audioUrl: '/audio/lesson-3-1-reading.mp3',
       subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Carlos y voy a hablar sobre mi familia.' },
-        { start: 5, end: 10, text: 'Somos seis personas en total.' },
-        { start: 10, end: 15, text: 'Mis padres se llaman José y María.' },
-        { start: 15, end: 20, text: 'Tengo dos hermanos: Pedro y Laura.' },
-        { start: 20, end: 25, text: 'También vivo con mi abuela paterna.' }
+        { start: 0, end: 5, text: '¡Hola! Me llamo Ana y vivo en Madrid con mi familia.' },
+        { start: 5, end: 10, text: 'Tengo una familia grande y unida.' },
+        { start: 10, end: 15, text: 'Estos son mis padres.' },
+        { start: 15, end: 20, text: 'Tengo dos hermanos.' },
+        { start: 20, end: 25, text: 'Aquí están mis abuelos paternos.' }
       ]
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5-def', 'ex-3-1-6-coll']
+    exercises: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-lectura']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
