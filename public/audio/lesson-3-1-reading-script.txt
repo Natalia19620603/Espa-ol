@@ -1,0 +1,57 @@
+СКРИПТ ДЛЯ ОЗВУЧКИ: Модуль 3, Урок 1 - Esta es mi familia
+
+Инструкции:
+- Используйте женский голос (Ana)
+- Темп: средний, естественный
+- Интонация: дружелюбная, рассказывающая
+- Язык: испанский (ES)
+
+=== ТЕКСТ ДЛЯ ОЗВУЧКИ ===
+
+¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida. Ahora voy a hablar sobre mis parientes.
+
+Mi familia está aquí, en esta casa. Estos son mis padres. Mi padre se llama Roberto y es médico. Trabaja en un hospital grande. Mi madre se llama Isabel y es profesora. Ella trabaja en una escuela. Mis padres son muy buenos y trabajadores.
+
+Tengo dos hermanos. Este es mi hermano mayor Carlos. Tiene veinticinco años y es estudiante de medicina. Quiere ser médico como nuestro padre. Esa es mi hermana pequeña Luisa. Tiene diez años y estudia en la escuela primaria. Le gusta leer y dibujar.
+
+Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen. Ellos viven con nosotros. Mi abuelo tiene setenta años y mi abuela tiene sesenta y ocho. Mis abuelos son muy amables. Mi abuela cocina muy bien y mi abuelo trabaja en el jardín.
+
+También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona. Es el hermano de mi padre. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. Jorge tiene quince años y Marta tiene doce.
+
+Mi tía Ana es la hermana de mi madre. Ella vive en Valencia con su marido Miguel y sus tres hijos. Estos son mis primos: Felipe, Rosa y Diego. Visitamos a nuestros tíos y primos en las vacaciones.
+
+Mis abuelos maternos, el padre y la madre de mi madre, viven en Sevilla. Vamos allí en verano. Mi abuela materna se llama Teresa y mi abuelo se llama José. Ellos son muy alegres.
+
+Tengo una madrina muy especial. Se llama Sofía y es la mejor amiga de mi madre. Ella viene a nuestra casa a menudo y me trae libros. Mi padrino es el hermano de mi padre. Se llama Antonio y vive en Granada.
+
+Los domingos toda la familia come junta. Vienen mis tíos y mis primos. Es muy bonito estar todos juntos. Hablamos, comemos y pasamos tiempo felices.
+
+Esta es mi familia. La mía es grande y alegre. ¿Y la tuya? ¿Tu familia es grande o pequeña? ¿Vives con tus padres y tus hermanos? ¿Dónde viven tus abuelos?
+
+=== ТАЙМКОДЫ (для синхронизации субтитров) ===
+
+0:00-0:08 - ¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida.
+0:08-0:15 - Mi familia está aquí, en esta casa. Estos son mis padres.
+0:15-0:23 - Mi padre se llama Roberto y es médico. Mi madre se llama Isabel y es profesora.
+0:23-0:30 - Tengo dos hermanos. Este es mi hermano mayor Carlos.
+0:30-0:38 - Esa es mi hermana pequeña Luisa. Tiene diez años.
+0:38-0:45 - Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen.
+0:45-0:53 - También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona.
+0:53-1:00 - Mi tía Ana vive en Valencia con su marido Miguel y sus tres hijos.
+1:00-1:08 - Mis abuelos maternos viven en Sevilla. Vamos allí en verano.
+1:08-1:15 - Tengo una madrina muy especial. Se llama Sofía.
+1:15-1:22 - Los domingos toda la familia come junta. Es muy bonito estar todos juntos.
+1:22-1:30 - Esta es mi familia. La mía es grande y alegre. ¿Y la tuya?
+
+=== РЕКОМЕНДАЦИИ ДЛЯ ОЗВУЧКИ ===
+
+Сервисы для создания аудио:
+1. Google Cloud Text-to-Speech (высокое качество, платный)
+2. Amazon Polly (испанский голос Lucia или Conchita)
+3. ElevenLabs (очень натуральные голоса)
+4. Microsoft Azure TTS (голос es-ES-ElviraNeural)
+
+После создания:
+1. Сохранить файл как lesson-3-1-reading.mp3
+2. Заменить пустой файл в public/audio/
+3. Проверить синхронизацию субтитров

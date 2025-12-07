@@ -73,7 +73,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         setShowCorrectAnswer(false)
         setUserAnswer(null)
         proceedToNext(answer)
-      }, 4000) // Показываем 4 секунды
+      }, 10000) // Показываем 10 секунд
       setFeedbackTimeoutId(id)
     } else {
       proceedToNext(answer)
@@ -1647,14 +1647,9 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
         </button>
       </form>
       {showFeedback && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.correct}
-          </p>
-          <button onClick={handleSkipFeedback} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
       )}
     </div>
   )
