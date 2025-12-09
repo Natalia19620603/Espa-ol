@@ -1904,25 +1904,33 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
     moduleId: 'module-2',
     grammar: {
       title: 'Неправильные глаголы IR, TENER, OÍR',
-      content: `
-# Глаголы IR, TENER, OÍR
-
-## Глагол IR (идти, ехать)
-
-| Лицо | Форма | Русский |
+      intro: `В этом уроке мы изучим:
+- Глагол IR (идти, ехать) и его спряжение
+- Употребление глагола IR с предлогами
+- Конструкцию ir + a + инфинитив для выражения будущего
+- Глагол TENER (иметь) и его спряжение
+- Глагол OÍR (слышать) и его спряжение`,
+      sections: [
+        {
+          id: 'verb-ir',
+          title: 'Глагол IR (идти, ехать)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `| Лицо | Форма | Русский |
 |------|-------|---------|
 | yo | voy | Я иду |
 | tú | vas | Ты идешь |
 | él/ella/usted | va | Он/она идет |
 | nosotros(-as) | vamos | Мы идем |
 | vosotros(-as) | vais | Вы идете |
-| ellos/ellas/ustedes | van | Они идут |
-
-### Глагол IR с предлогами
-
-**Глагол ir с предлогом а обозначает направление движения вперед от говорящего.**
-
-Определенный артикль мужского рода единственного числа el сливается с предлогом а, образуя форму al:
+| ellos/ellas/ustedes | van | Они идут |`
+        },
+        {
+          id: 'ir-a',
+          title: 'Глагол ir с предлогом а обозначает направление движения вперед от говорящего',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Определенный артикль мужского рода единственного числа **el** сливается с предлогом **а**, образуя форму **al**:
 
 - ir a la oficina — идти в офис, на работу
 - ir al bar — идти в бар
@@ -1931,38 +1939,50 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 - ir a casa — идти домой
 - ir a Rusia — ехать в Россию
 
-**Глагол ir с предлогом en указывает на способ передвижения:**
-
-- ir en coche — ехать на машине
+**Примеры:**
+- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
+- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.`
+        },
+        {
+          id: 'ir-en',
+          title: 'Глагол ir с предлогом en указывает на способ передвижения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `- ir en coche — ехать на машине
 - ir en taxi — ехать на такси
 - ir en autobús — ехать на автобусе
 - ir en tren — ехать на поезде
 - ir en avión — лететь на самолете
 - ir en barco — плыть на корабле
-- ir a pie / ir andando — идти пешком
-
-**Глагол ir с предлогом de указывает на цель передвижения:**
-
-- ir de compras — идти за покупками
-- ir de vacaciones — ехать в отпуск, на каникулы
-
-**Например:**
-- Vamos de vacaciones a España en avión. — Мы летим в отпуск в Испанию.
-- Yo voy a la oficina a pie y Sergio va en taxi. — Я хожу на работу пешком, а Сергей ездит на такси.
-
-### Конструкция ir + a + инфинитив
-
-Используется для:
+- ir a pie / ir andando — идти пешком`
+        },
+        {
+          id: 'ir-de',
+          title: 'Глагол ir с предлогом de указывает на цель передвижения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `- ir de compras — идти за покупками
+- ir de vacaciones — ехать в отпуск, на каникулы`
+        },
+        {
+          id: 'ir-infinitive',
+          title: 'Конструкция ir + a + инфинитив',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Используется для:
 - выражения намерения что-то сделать
 - выражения ближайшего будущего времени
 
-**Например:**
+**Примеры:**
 - Voy a descansar un poco. — Я собираюсь немного отдохнуть.
-- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?
-
-## Глагол TENER (иметь)
-
-| Лицо | Форма | Русский |
+- ¿Qué vas a tomar, té o café? — Что ты будешь пить, чай или кофе?`
+        },
+        {
+          id: 'verb-tener',
+          title: 'Глагол TENER (иметь)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `| Лицо | Форма | Русский |
 |------|-------|---------|
 | yo | tengo | Я имею |
 | tú | tienes | Ты имеешь |
@@ -1971,23 +1991,22 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 | vosotros(-as) | tenéis | Вы имеете |
 | ellos/ellas/ustedes | tienen | Они имеют |
 
-**Выражения:** tener hambre, tener sed, tener años, tener razón
-
-## Глагол OÍR (слышать)
-
-| Лицо | Форма | Русский |
+**Выражения:** tener hambre, tener sed, tener años, tener razón`
+        },
+        {
+          id: 'verb-oir',
+          title: 'Глагол OÍR (слышать)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `| Лицо | Форма | Русский |
 |------|-------|---------|
 | yo | oigo | Я слышу |
 | tú | oyes | Ты слышишь |
 | él/ella/usted | oye | Он/она слышит |
 | nosotros(-as) | oímos | Мы слышим |
 | vosotros(-as) | oís | Вы слышите |
-| ellos/ellas/ustedes | oyen | Они слышат |
-      `,
-      examples: [
-        { spanish: 'Voy al cine', translation: 'Я иду в кино' },
-        { spanish: 'Tengo veinte años', translation: 'Мне 20 лет' },
-        { spanish: 'Oigo música', translation: 'Я слышу музыку' }
+| ellos/ellas/ustedes | oyen | Они слышат |`
+        }
       ]
     },
     vocabulary: [
