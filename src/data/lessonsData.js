@@ -2208,7 +2208,7 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
         { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2', 'ex-2-2-tener-conjugation', 'ex-2-2-tener-rus-esp', 'ex-2-2-oir-conjugation']
+    exercises: ['ex-2-2-1', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2', 'ex-2-2-tener-conjugation', 'ex-2-2-tener-rus-esp', 'ex-2-2-oir-conjugation', 'ex-2-2-new-1-ir-contexts', 'ex-2-2-new-2-ir-prepositions', 'ex-2-2-new-3-ir-infinitive', 'ex-2-2-new-4-tener-conjugation', 'ex-2-2-new-5-tener-expressions', 'ex-2-2-new-6-oir-contexts', 'ex-2-2-new-7-mixed-verbs', 'ex-2-2-new-8-translation']
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
@@ -6552,30 +6552,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'partir', options: ['приходить', 'оставаться', 'уезжать', 'входить'], correct: 2 }
     ]
   },
-  'ex-2-2-3': {
-    id: 'ex-2-2-3',
-    type: 'reading',
-    title: 'Чтение: Mi día en Madrid',
-    description: 'Ответьте на вопросы о тексте',
-    text: 'Hola, me llamo Pedro. Soy estudiante de Rusia. Vivo en Madrid. Cada mañana tomo café con leche y tomo el autobús a la universidad. En la universidad hablo con mis amigos de Italia, Francia y Alemania. Hablamos español en clase. También leemos libros y escribimos textos. A las dos tomo el almuerzo. Como bocadillos y tomo zumo de naranja. Por la tarde leo libros en español y aprendo palabras nuevas. Mi amiga Ana es española. Ella es profesora. Ana toma el tren de Barcelona a Madrid. Los fines de semana tomamos el sol en el parque.',
-    questions: [
-      { question: '¿Cómo se llama el estudiante?', options: ['Antonio', 'Pedro', 'Pablo', 'Carlos'], correct: 1 },
-      { question: '¿De dónde es Pedro?', options: ['De Italia', 'De Francia', 'De Rusia', 'De España'], correct: 2 },
-      { question: '¿Dónde vive Pedro?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Moscú'], correct: 1 },
-      { question: '¿Qué toma Pedro cada mañana?', options: ['Té', 'Café con leche', 'Zumo', 'Agua'], correct: 1 },
-      { question: '¿Cómo va Pedro a la universidad?', options: ['En tren', 'En coche', 'En autobús', 'A pie'], correct: 2 },
-      { question: '¿De dónde son los amigos de Pedro?', options: ['De España', 'De Rusia', 'De Italia, Francia y Alemania', 'De Inglaterra'], correct: 2 },
-      { question: '¿Qué hacen en clase?', options: ['Juegan', 'Hablan español', 'Duermen', 'Comen'], correct: 1 },
-      { question: '¿Qué más hacen en la universidad?', options: ['Leen y escriben', 'Corren', 'Cantan', 'Bailan'], correct: 0 },
-      { question: '¿A qué hora toma el almuerzo Pedro?', options: ['A la una', 'A las dos', 'A las tres', 'A las cuatro'], correct: 1 },
-      { question: '¿Qué come Pedro?', options: ['Pasta', 'Bocadillos', 'Frutas', 'Pescado'], correct: 1 },
-      { question: '¿Qué bebe Pedro con la comida?', options: ['Agua', 'Café', 'Zumo de naranja', 'Leche'], correct: 2 },
-      { question: '¿Qué hace Pedro por la tarde?', options: ['Duerme', 'Lee libros', 'Va al cine', 'Juega'], correct: 1 },
-      { question: '¿Quién es Ana?', options: ['Hermana de Pedro', 'Profesora española', 'Estudiante italiana', 'Médica francesa'], correct: 1 },
-      { question: '¿Cómo va Ana de Barcelona a Madrid?', options: ['En tren', 'En autobús', 'En coche', 'En avión'], correct: 0 },
-      { question: '¿Qué hacen los fines de semana?', options: ['Van al cine', 'Toman el sol', 'Van de compras', 'Comen en restaurantes'], correct: 1 }
-    ]
-  },
   'ex-2-2-4': {
     id: 'ex-2-2-4',
     type: 'writing',
@@ -6772,6 +6748,214 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Ellos no _____ el coche que pasa.', correct: 'oyen' },
       { sentence: '¿Vosotros _____ el ruido de la calle?', correct: 'oís' },
       { sentence: 'Yo no _____ nada porque hay mucho ruido aquí.', correct: 'oigo' }
+    ]
+  },
+
+  'ex-2-2-new-1-ir-contexts': {
+    id: 'ex-2-2-new-1-ir-contexts',
+    type: 'fillblank',
+    title: 'Глагол IR в различных контекстах',
+    description: 'Заполните пропуски правильной формой глагола IR. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ a la escuela cada día.', correct: 'voy' },
+      { sentence: 'Tú _____ al museo con tu familia.', correct: 'vas' },
+      { sentence: 'Mi hermano _____ a casa en autobús.', correct: 'va' },
+      { sentence: 'Nosotros _____ al cine los viernes.', correct: 'vamos' },
+      { sentence: 'Ellos _____ a la playa en verano.', correct: 'van' },
+      { sentence: 'Usted _____ al restaurante con amigos.', correct: 'va' },
+      { sentence: 'Vosotros _____ a la fiesta mañana.', correct: 'vais' },
+      { sentence: 'María y Ana _____ al café después de clase.', correct: 'van' },
+      { sentence: 'El profesor _____ a la oficina por la tarde.', correct: 'va' },
+      { sentence: 'Yo no _____ al teatro hoy.', correct: 'voy' },
+      { sentence: '¿Tú _____ a la estación en taxi?', correct: 'vas' },
+      { sentence: 'Mi padre _____ al hotel en coche.', correct: 'va' },
+      { sentence: 'Nosotros _____ a la ciudad grande.', correct: 'vamos' },
+      { sentence: 'Las chicas _____ a la calle para hablar.', correct: 'van' },
+      { sentence: 'El estudiante _____ a la clase de español.', correct: 'va' }
+    ]
+  },
+
+  'ex-2-2-new-2-ir-prepositions': {
+    id: 'ex-2-2-new-2-ir-prepositions',
+    type: 'fillblank',
+    title: 'IR с предлогами A, DE, EN',
+    description: 'Заполните пропуски формой IR и нужной конструкцией. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ al bar a tomar café.', correct: 'voy' },
+      { sentence: 'Nosotros _____ en metro a la universidad.', correct: 'vamos' },
+      { sentence: 'Tú _____ de compras al centro.', correct: 'vas' },
+      { sentence: 'Ella _____ en coche al trabajo.', correct: 'va' },
+      { sentence: 'Ellos _____ de vacaciones a España.', correct: 'van' },
+      { sentence: 'Yo _____ en tren a Barcelona.', correct: 'voy' },
+      { sentence: 'Vosotros _____ al teatro en taxi.', correct: 'vais' },
+      { sentence: 'Mi amigo _____ a pie a casa.', correct: 'va' },
+      { sentence: 'Nosotros _____ en avión a Rusia.', correct: 'vamos' },
+      { sentence: 'Las hermanas _____ de compras cada día.', correct: 'van' },
+      { sentence: 'Tú _____ en barco a la isla.', correct: 'vas' },
+      { sentence: 'El señor _____ en autobús a la oficina.', correct: 'va' },
+      { sentence: 'Yo _____ al café con mis amigos.', correct: 'voy' },
+      { sentence: 'Ustedes _____ de vacaciones en agosto.', correct: 'van' },
+      { sentence: 'Mi familia y yo _____ al museo a pie.', correct: 'vamos' }
+    ]
+  },
+
+  'ex-2-2-new-3-ir-infinitive': {
+    id: 'ex-2-2-new-3-ir-infinitive',
+    type: 'fillblank',
+    title: 'Конструкция IR + A + инфинитив',
+    description: 'Заполните пропуски формой IR для выражения будущего намерения. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ a descansar un poco.', correct: 'voy' },
+      { sentence: 'Tú _____ a tomar té o café.', correct: 'vas' },
+      { sentence: 'Ella _____ a leer un libro.', correct: 'va' },
+      { sentence: 'Nosotros _____ a escribir cartas.', correct: 'vamos' },
+      { sentence: 'Ellos _____ a comer en el restaurante.', correct: 'van' },
+      { sentence: 'Yo _____ a beber agua fría.', correct: 'voy' },
+      { sentence: 'Vosotros _____ a vivir en Madrid.', correct: 'vais' },
+      { sentence: 'El estudiante _____ a aprender español.', correct: 'va' },
+      { sentence: 'Nosotros _____ a abrir la puerta.', correct: 'vamos' },
+      { sentence: 'Las chicas _____ a hablar por teléfono.', correct: 'van' },
+      { sentence: 'Tú _____ a comprender el problema.', correct: 'vas' },
+      { sentence: 'Mi hermano _____ a recibir un regalo.', correct: 'va' },
+      { sentence: 'Yo _____ a tomar el sol en la playa.', correct: 'voy' },
+      { sentence: 'Ustedes _____ a escuchar la radio.', correct: 'van' },
+      { sentence: 'Mi madre _____ a preguntar el precio.', correct: 'va' }
+    ]
+  },
+
+  'ex-2-2-new-4-tener-conjugation': {
+    id: 'ex-2-2-new-4-tener-conjugation',
+    type: 'fillblank',
+    title: 'Спряжение глагола TENER',
+    description: 'Заполните пропуски правильной формой глагола TENER. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ un libro nuevo.', correct: 'tengo' },
+      { sentence: 'Tú _____ una casa grande.', correct: 'tienes' },
+      { sentence: 'Ella _____ un hermano y una hermana.', correct: 'tiene' },
+      { sentence: 'Nosotros _____ muchos amigos.', correct: 'tenemos' },
+      { sentence: 'Ellos _____ un coche caro.', correct: 'tienen' },
+      { sentence: 'Usted _____ tiempo para hablar.', correct: 'tiene' },
+      { sentence: 'Vosotros _____ dinero para las vacaciones.', correct: 'tenéis' },
+      { sentence: 'Mi padre _____ un trabajo difícil.', correct: 'tiene' },
+      { sentence: 'Yo no _____ clase hoy.', correct: 'tengo' },
+      { sentence: '¿Tú _____ el lápiz azul?', correct: 'tienes' },
+      { sentence: 'La estudiante _____ muchos libros.', correct: 'tiene' },
+      { sentence: 'Nosotros _____ una mesa grande en casa.', correct: 'tenemos' },
+      { sentence: 'Las chicas _____ agua fría.', correct: 'tienen' },
+      { sentence: 'El señor _____ una familia alegre.', correct: 'tiene' },
+      { sentence: 'Yo _____ un amigo español.', correct: 'tengo' }
+    ]
+  },
+
+  'ex-2-2-new-5-tener-expressions': {
+    id: 'ex-2-2-new-5-tener-expressions',
+    type: 'fillblank',
+    title: 'Выражения с глаголом TENER',
+    description: 'Заполните пропуски формой TENER с выражениями возраста, голода, жажды. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ veinte años.', correct: 'tengo' },
+      { sentence: 'Tú _____ hambre después de clase.', correct: 'tienes' },
+      { sentence: 'Él _____ sed y bebe agua.', correct: 'tiene' },
+      { sentence: 'Nosotros _____ treinta años.', correct: 'tenemos' },
+      { sentence: 'Ellas _____ razón en este problema.', correct: 'tienen' },
+      { sentence: 'Mi hermana _____ veinticinco años.', correct: 'tiene' },
+      { sentence: 'Vosotros _____ hambre y sed.', correct: 'tenéis' },
+      { sentence: 'La señora _____ cincuenta años.', correct: 'tiene' },
+      { sentence: 'Yo _____ sed, quiero tomar café.', correct: 'tengo' },
+      { sentence: '¿Tú _____ hambre? Vamos al restaurante.', correct: 'tienes' },
+      { sentence: 'Mi padre _____ cuarenta años.', correct: 'tiene' },
+      { sentence: 'Nosotros no _____ razón.', correct: 'tenemos' },
+      { sentence: 'Los estudiantes _____ hambre a las dos.', correct: 'tienen' },
+      { sentence: 'Yo _____ dieciocho años.', correct: 'tengo' },
+      { sentence: 'Tú _____ razón, el libro es interesante.', correct: 'tienes' }
+    ]
+  },
+
+  'ex-2-2-new-6-oir-contexts': {
+    id: 'ex-2-2-new-6-oir-contexts',
+    type: 'fillblank',
+    title: 'Глагол OÍR в различных ситуациях',
+    description: 'Заполните пропуски правильной формой глагола OÍR. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ música en casa.', correct: 'oigo' },
+      { sentence: 'Tú _____ la radio cada mañana.', correct: 'oyes' },
+      { sentence: 'Ella _____ el teléfono.', correct: 'oye' },
+      { sentence: 'Nosotros _____ a la profesora.', correct: 'oímos' },
+      { sentence: 'Ellos _____ las noticias.', correct: 'oyen' },
+      { sentence: 'Yo no _____ nada.', correct: 'oigo' },
+      { sentence: 'Vosotros _____ la música alta.', correct: 'oís' },
+      { sentence: 'Mi madre _____ mi voz.', correct: 'oye' },
+      { sentence: 'Nosotros _____ el mar.', correct: 'oímos' },
+      { sentence: '¿Tú _____ el problema?', correct: 'oyes' },
+      { sentence: 'El señor _____ la explicación.', correct: 'oye' },
+      { sentence: 'Yo _____ la noche fría.', correct: 'oigo' },
+      { sentence: 'Las chicas _____ a su amiga.', correct: 'oyen' },
+      { sentence: 'Ustedes no _____ bien.', correct: 'oyen' },
+      { sentence: 'Mi hermano _____ la música en español.', correct: 'oye' }
+    ]
+  },
+
+  'ex-2-2-new-7-mixed-verbs': {
+    id: 'ex-2-2-new-7-mixed-verbs',
+    type: 'fillblank',
+    title: 'Смешанные упражнения IR, TENER, OÍR',
+    description: 'Заполните пропуски правильной формой глагола IR, TENER или OÍR. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Yo _____ a la oficina y _____ música.', correct: 'voy, oigo' },
+      { sentence: 'Tú _____ sed y _____ a tomar agua.', correct: 'tienes, vas' },
+      { sentence: 'Ella _____ un libro y _____ a leer.', correct: 'tiene, va' },
+      { sentence: 'Nosotros _____ la radio y _____ al trabajo.', correct: 'oímos, vamos' },
+      { sentence: 'Ellos _____ hambre y _____ al restaurante.', correct: 'tienen, van' },
+      { sentence: 'Yo _____ veinte años y _____ a la universidad.', correct: 'tengo, voy' },
+      { sentence: 'Vosotros _____ al cine y _____ una película.', correct: 'vais, oís' },
+      { sentence: 'Mi hermana _____ un hermano y _____ a casa.', correct: 'tiene, va' },
+      { sentence: 'Yo _____ el teléfono y _____ a responder.', correct: 'oigo, voy' },
+      { sentence: 'Tú _____ razón, nosotros _____ a la playa.', correct: 'tienes, vamos' },
+      { sentence: 'El profesor _____ a la clase y _____ a los estudiantes.', correct: 'va, oye' },
+      { sentence: 'Nosotros _____ un problema y _____ a hablar.', correct: 'tenemos, vamos' },
+      { sentence: 'Las chicas _____ la música y _____ en metro.', correct: 'oyen, van' },
+      { sentence: 'Yo no _____ nada, _____ a casa.', correct: 'oigo, voy' },
+      { sentence: 'Ustedes _____ tiempo y _____ al museo.', correct: 'tienen, van' }
+    ]
+  },
+
+  'ex-2-2-new-8-translation': {
+    id: 'ex-2-2-new-8-translation',
+    type: 'writing',
+    title: 'Перевод с русского на испанский',
+    description: 'Переведите предложения с глаголами IR, TENER, OÍR на испанский. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'Я иду в школу каждый день.', correct: 'Voy a la escuela cada día.' },
+      { question: 'Ты имеешь большой дом и красивую машину.', correct: 'Tienes una casa grande y un coche bonito.' },
+      { question: 'Она слышит музыку в кафе.', correct: 'Ella oye música en el café.' },
+      { question: 'Мы едем на пляж на автобусе.', correct: 'Vamos a la playa en autobús.' },
+      { question: 'Они имеют много друзей в городе.', correct: 'Tienen muchos amigos en la ciudad.' },
+      { question: 'Я слышу радио утром.', correct: 'Oigo la radio por la mañana.' },
+      { question: 'Вы (vosotros) идете в театр пешком.', correct: 'Vais al teatro a pie.' },
+      { question: 'Мой брат имеет двадцать пять лет.', correct: 'Mi hermano tiene veinticinco años.' },
+      { question: 'Мы слышим море из дома.', correct: 'Oímos el mar desde casa.' },
+      { question: 'Ты собираешься читать книгу.', correct: 'Vas a leer un libro.' },
+      { question: 'Она имеет голод и жажду.', correct: 'Ella tiene hambre y sed.' },
+      { question: 'Они едут в Испанию на отдых.', correct: 'Van de vacaciones a España.' },
+      { question: 'Я слышу телефон и иду отвечать.', correct: 'Oigo el teléfono y voy a responder.' },
+      { question: 'Вы (usted) имеете право, музей интересный.', correct: 'Usted tiene razón, el museo es interesante.' },
+      { question: 'Мы идем в кино на машине.', correct: 'Vamos al cine en coche.' }
     ]
   },
 

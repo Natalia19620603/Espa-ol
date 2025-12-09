@@ -73,7 +73,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         setShowCorrectAnswer(false)
         setUserAnswer(null)
         proceedToNext(answer)
-      }, 4000) // Показываем 4 секунды
+      }, 10000) // Показываем 10 секунд
       setFeedbackTimeoutId(id)
     } else {
       proceedToNext(answer)
@@ -594,14 +594,9 @@ function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
         })}
       </div>
       {showCorrectAnswer && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.options[question.correct]}
-          </p>
-          <button onClick={onSkipFeedback} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
       )}
     </div>
   )
@@ -654,14 +649,9 @@ function ReadingQuestion({ text, question, onAnswer, showCorrectAnswer, userAnsw
         })}
       </div>
       {showCorrectAnswer && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.options[question.correct]}
-          </p>
-          <button onClick={onSkipFeedback} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
       )}
     </div>
   )
@@ -682,7 +672,7 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 4000)
+        }, 10000)
         setTimeoutId(id)
       } else {
         onAnswer(input)
@@ -719,14 +709,9 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
         </button>
       </form>
       {showFeedback && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.correct}
-          </p>
-          <button onClick={handleSkip} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
       )}
     </div>
   )
@@ -747,7 +732,7 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 4000)
+        }, 10000)
         setTimeoutId(id)
       } else {
         onAnswer(input)
@@ -785,14 +770,9 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
         </button>
       </form>
       {showFeedback && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.correct}
-          </p>
-          <button onClick={handleSkip} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
       )}
     </div>
   )
@@ -995,7 +975,7 @@ function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 4000)
+        }, 10000)
         setTimeoutId(id)
       } else {
         onAnswer(input)
@@ -1033,14 +1013,9 @@ function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
         </button>
       </form>
       {showFeedback && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.correct}
-          </p>
-          <button onClick={handleSkip} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
       )}
     </div>
   )
@@ -1647,14 +1622,9 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
         </button>
       </form>
       {showFeedback && (
-        <>
-          <p className={styles.correctAnswerText}>
-            Правильный ответ: {question.correct}
-          </p>
-          <button onClick={handleSkipFeedback} className={styles.stopBtn}>
-            ⏹ СТОП
-          </button>
-        </>
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
       )}
     </div>
   )
