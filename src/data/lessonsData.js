@@ -1994,6 +1994,49 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 **Выражения:** tener hambre, tener sed, tener años, tener razón`
         },
         {
+          id: 'tener-meanings',
+          title: 'РАЗНЫЕ ЗНАЧЕНИЯ ГЛАГОЛА TENER',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## РАЗНЫЕ ЗНАЧЕНИЯ ГЛАГОЛА TENER
+
+### Выражения с глаголом TENER
+
+| Испанский | Русский |
+|-----------|---------|
+| tener ... años | иметь ... лет |
+| tener familia (f) | иметь семью |
+| tener padre / madre | иметь отца / мать |
+| tener dinero (m) | иметь деньги |
+| tener calor (m) | страдать от жары |
+| tener frío (m) | мерзнуть |
+| tener hambre (f) | быть голодным / хотеть есть |
+| tener sed (f) | испытывать жажду / хотеть пить |
+| tener sueño (m) | хотеть спать |
+| tener miedo (m) | бояться (испытывать страх) |
+| tener razón (f) | быть правым |
+| tener suerte (f) | быть удачливым |
+| tener prisa (f) | торопиться, спешить |
+| tener tiempo (m) | иметь время |
+
+### Конструкция tener que + инфинитив
+
+Конструкция **tener que + инфинитив** имеет значение **быть должным сделать что-либо**.
+
+### Примеры:
+
+- Tengo diez años. — Мне десять лет.
+- Él no tiene padres. — У него нет родителей.
+- ¿Tienes sueño? — Ты хочешь спать?
+- Ella tiene razón. — Она права.
+- No tenemos tiempo. — У нас нет времени.
+- Tenéis prisa. — Вы торопитесь.
+- Usted tiene suerte. — Вам повезло.
+- Ellos no tienen miedo. — Они не боятся.
+- Tengo calor. — Мне жарко.
+- Tienes que tomar la medicina. — Ты должен принять лекарство.`
+        },
+        {
           id: 'verb-oir',
           title: 'Глагол OÍR (слышать)',
           collapsible: true,
@@ -2033,7 +2076,33 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
       { word: 'compras', translation: 'покупки', audioUrl: null },
       { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
       { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-      { word: 'té', translation: 'чай', audioUrl: null }
+      { word: 'té', translation: 'чай', audioUrl: null },
+      { word: 'familia', translation: 'семья (f)', audioUrl: null },
+      { word: 'padre', translation: 'отец (m)', audioUrl: null },
+      { word: 'madre', translation: 'мать (f)', audioUrl: null },
+      { word: 'dinero', translation: 'деньги (m)', audioUrl: null },
+      { word: 'calor', translation: 'жара (m)', audioUrl: null },
+      { word: 'frío', translation: 'холод (m)', audioUrl: null },
+      { word: 'hambre', translation: 'голод (f)', audioUrl: null },
+      { word: 'sed', translation: 'жажда (f)', audioUrl: null },
+      { word: 'sueño', translation: 'сон (m)', audioUrl: null },
+      { word: 'miedo', translation: 'страх (m)', audioUrl: null },
+      { word: 'razón', translation: 'правота (f)', audioUrl: null },
+      { word: 'suerte', translation: 'удача (f)', audioUrl: null },
+      { word: 'prisa', translation: 'спешка (f)', audioUrl: null },
+      { word: 'tiempo', translation: 'время (m)', audioUrl: null },
+      { word: 'medicina', translation: 'лекарство (f)', audioUrl: null },
+      { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
+      { word: 'tener hambre', translation: 'быть голодным', audioUrl: null },
+      { word: 'tener sed', translation: 'хотеть пить', audioUrl: null },
+      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
+      { word: 'tener miedo', translation: 'бояться', audioUrl: null },
+      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
+      { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
+      { word: 'tener prisa', translation: 'торопиться', audioUrl: null },
+      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
+      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
+      { word: 'tener que', translation: 'быть должным', audioUrl: null }
     ],
     readingText: {
       title: 'Mis planes',
@@ -2060,7 +2129,19 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
         { start: 20, end: 25, text: 'Los fines de semana puedo descansar.' }
       ]
     },
-    exercises: []
+    exercises: [
+      'ex-2-2-ir-conjugation',
+      'ex-2-2-tener-conjugation-new',
+      'ex-2-2-oir-conjugation-new',
+      'ex-2-2-tener-expressions',
+      'ex-2-2-ir-infinitive-new',
+      'ex-2-2-ir-prepositions-new',
+      'ex-2-2-tener-que',
+      'ex-2-2-mixed-verbs',
+      'ex-2-2-tener-fillblank',
+      'ex-2-2-vocab-expressions',
+      'ex-2-2-translation-rus-esp'
+    ]
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
@@ -9538,6 +9619,271 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { word: 'libro', options: ['librería', 'libertad', 'limpio', 'libro'], correct: 0 },
       { word: 'trabajo', options: ['traje', 'trabajador', 'trampa', 'tren'], correct: 1 }
+    ]
+  },
+
+  // Упражнения для урока 2-2
+  'ex-2-2-ir-conjugation': {
+    id: 'ex-2-2-ir-conjugation',
+    type: 'grammar',
+    title: 'Спряжение глагола IR',
+    description: 'Выберите правильную форму глагола IR',
+    questions: [
+      { sentence: 'Yo ___ al teatro', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
+      { sentence: 'Tú ___ a casa', options: ['voy', 'vas', 'va', 'vamos'], correct: 1 },
+      { sentence: 'Él ___ al café', options: ['voy', 'vas', 'va', 'vais'], correct: 2 },
+      { sentence: 'Ella ___ a la oficina', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
+      { sentence: 'Nosotros ___ al bar', options: ['voy', 'vas', 'vamos', 'vais'], correct: 2 },
+      { sentence: 'Vosotros ___ a Rusia', options: ['vas', 'va', 'vamos', 'vais'], correct: 3 },
+      { sentence: 'Ellos ___ de compras', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
+      { sentence: 'Usted ___ al restaurante', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
+      { sentence: 'Ustedes ___ de vacaciones', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
+      { sentence: 'María ___ a la playa', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
+      { sentence: 'Mis amigos ___ al cine', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
+      { sentence: 'Mi hermana ___ al centro', options: ['voy', 'vas', 'va', 'vamos'], correct: 2 },
+      { sentence: 'Tú y yo ___ al parque', options: ['vas', 'va', 'vamos', 'van'], correct: 2 },
+      { sentence: 'Pedro y Ana ___ al museo', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
+      { sentence: 'Juan ___ a España', options: ['voy', 'vas', 'va', 'van'], correct: 2 }
+    ]
+  },
+
+  'ex-2-2-tener-conjugation-new': {
+    id: 'ex-2-2-tener-conjugation-new',
+    type: 'grammar',
+    title: 'Спряжение глагола TENER',
+    description: 'Выберите правильную форму глагола TENER',
+    questions: [
+      { sentence: 'Yo ___ un libro', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
+      { sentence: 'Tú ___ hambre', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
+      { sentence: 'Él ___ sed', options: ['tengo', 'tienes', 'tiene', 'tenéis'], correct: 2 },
+      { sentence: 'Ella ___ veinte años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Nosotros ___ tiempo', options: ['tengo', 'tienes', 'tenemos', 'tenéis'], correct: 2 },
+      { sentence: 'Vosotros ___ prisa', options: ['tienes', 'tiene', 'tenemos', 'tenéis'], correct: 3 },
+      { sentence: 'Ellos ___ miedo', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
+      { sentence: 'Usted ___ razón', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Ustedes ___ suerte', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
+      { sentence: 'Mi padre ___ dinero', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
+      { sentence: 'Mis hermanos ___ familia', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
+      { sentence: 'María ___ sueño', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 2 },
+      { sentence: 'Tú y yo ___ calor', options: ['tienes', 'tiene', 'tenemos', 'tienen'], correct: 2 },
+      { sentence: 'Ana y Pedro ___ frío', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
+      { sentence: 'Mi madre ___ un coche', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 }
+    ]
+  },
+
+  'ex-2-2-oir-conjugation-new': {
+    id: 'ex-2-2-oir-conjugation-new',
+    type: 'grammar',
+    title: 'Спряжение глагола OÍR',
+    description: 'Выберите правильную форму глагола OÍR',
+    questions: [
+      { sentence: 'Yo ___ música', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 0 },
+      { sentence: 'Tú ___ la radio', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
+      { sentence: 'Él ___ las noticias', options: ['oigo', 'oyes', 'oye', 'oís'], correct: 2 },
+      { sentence: 'Ella ___ bien', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Nosotros ___ el teléfono', options: ['oigo', 'oyes', 'oímos', 'oís'], correct: 2 },
+      { sentence: 'Vosotros ___ música clásica', options: ['oyes', 'oye', 'oímos', 'oís'], correct: 3 },
+      { sentence: 'Ellos ___ voces', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
+      { sentence: 'Usted ___ mal', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Ustedes ___ el ruido', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
+      { sentence: 'Mi hermana ___ la televisión', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Mis amigos ___ canciones', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
+      { sentence: 'Juan ___ un sonido', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 2 },
+      { sentence: 'Tú y yo ___ la música', options: ['oyes', 'oye', 'oímos', 'oyen'], correct: 2 },
+      { sentence: 'Pedro y Ana ___ el concierto', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
+      { sentence: 'Carlos ___ la conversación', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 }
+    ]
+  },
+
+  'ex-2-2-tener-expressions': {
+    id: 'ex-2-2-tener-expressions',
+    type: 'fillblank',
+    title: 'Выражения с TENER',
+    description: 'Заполните пропуски правильным выражением',
+    questions: [
+      { sentence: 'Yo _____ diez años', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Tú _____ hambre', verb: 'tener', correct: 'tienes' },
+      { sentence: 'Él _____ sed', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Ella _____ sueño', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Nosotros _____ calor', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Vosotros _____ frío', verb: 'tener', correct: 'tenéis' },
+      { sentence: 'Ellos _____ miedo', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Usted _____ razón', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Ustedes _____ suerte', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Mi padre _____ prisa', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Mis hermanos _____ tiempo', verb: 'tener', correct: 'tienen' },
+      { sentence: 'María _____ dinero', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Tú y yo _____ familia', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Ana y Pedro _____ un coche', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Juan _____ madre', verb: 'tener', correct: 'tiene' }
+    ]
+  },
+
+  'ex-2-2-ir-infinitive-new': {
+    id: 'ex-2-2-ir-infinitive-new',
+    type: 'grammar',
+    title: 'Конструкция IR + A + инфинитив',
+    description: 'Выберите правильный вариант',
+    questions: [
+      { sentence: 'Yo voy ___ descansar', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Tú vas ___ comer', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Él va ___ beber té', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Nosotros vamos ___ leer', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Vosotros vais ___ escribir', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Ellos van ___ trabajar', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Yo voy a ___ un libro', options: ['leer', 'leo', 'lee', 'leen'], correct: 0 },
+      { sentence: 'Tú vas a ___ al teatro', options: ['ir', 'voy', 'vas', 'van'], correct: 0 },
+      { sentence: 'Ella va a ___ la radio', options: ['escuchar', 'escucho', 'escucha', 'escuchan'], correct: 0 },
+      { sentence: 'Nosotros vamos a ___ español', options: ['hablar', 'hablo', 'hablas', 'hablan'], correct: 0 },
+      { sentence: 'Vosotros vais a ___ en casa', options: ['estar', 'estoy', 'estás', 'están'], correct: 0 },
+      { sentence: 'Ellos van a ___ medicina', options: ['tomar', 'tomo', 'tomas', 'toman'], correct: 0 },
+      { sentence: '¿Vas a ___ café?', options: ['tomar', 'tomo', 'tomas', 'toman'], correct: 0 },
+      { sentence: 'Voy a ___ a mi madre', options: ['llamar', 'llamo', 'llamas', 'llaman'], correct: 0 },
+      { sentence: 'Van a ___ de vacaciones', options: ['ir', 'voy', 'vas', 'van'], correct: 0 }
+    ]
+  },
+
+  'ex-2-2-ir-prepositions-new': {
+    id: 'ex-2-2-ir-prepositions-new',
+    type: 'fillblank',
+    title: 'Глагол IR с предлогами',
+    description: 'Заполните пропуски правильным предлогом',
+    questions: [
+      { sentence: 'Yo voy _____ casa', verb: 'a', correct: 'a' },
+      { sentence: 'Tú vas _____ el teatro', verb: 'a', correct: 'al' },
+      { sentence: 'Él va _____ coche', verb: 'en', correct: 'en' },
+      { sentence: 'Ella va _____ taxi', verb: 'en', correct: 'en' },
+      { sentence: 'Nosotros vamos _____ compras', verb: 'de', correct: 'de' },
+      { sentence: 'Vosotros vais _____ vacaciones', verb: 'de', correct: 'de' },
+      { sentence: 'Ellos van _____ autobús', verb: 'en', correct: 'en' },
+      { sentence: 'Voy _____ tren', verb: 'en', correct: 'en' },
+      { sentence: 'Vas _____ la oficina', verb: 'a', correct: 'a' },
+      { sentence: 'Va _____ avión', verb: 'en', correct: 'en' },
+      { sentence: 'Vamos _____ el café', verb: 'a', correct: 'al' },
+      { sentence: 'Vais _____ pie', verb: 'a', correct: 'a' },
+      { sentence: 'Van _____ el bar', verb: 'a', correct: 'al' },
+      { sentence: 'Voy _____ España', verb: 'a', correct: 'a' },
+      { sentence: 'Vas _____ barco', verb: 'en', correct: 'en' }
+    ]
+  },
+
+  'ex-2-2-tener-que': {
+    id: 'ex-2-2-tener-que',
+    type: 'grammar',
+    title: 'Конструкция TENER QUE + инфинитив',
+    description: 'Выберите правильный вариант',
+    questions: [
+      { sentence: 'Yo tengo ___ estudiar', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Tú tienes ___ trabajar', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Él tiene ___ comer', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Nosotros tenemos ___ ir', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Vosotros tenéis ___ leer', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Ellos tienen ___ escribir', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Tengo que ___ medicina', options: ['tomar', 'tomo', 'tomas', 'toman'], correct: 0 },
+      { sentence: 'Tienes que ___ a casa', options: ['ir', 'voy', 'vas', 'van'], correct: 0 },
+      { sentence: 'Tiene que ___ español', options: ['hablar', 'hablo', 'hablas', 'hablan'], correct: 0 },
+      { sentence: 'Tenemos que ___ el libro', options: ['leer', 'leo', 'lee', 'leen'], correct: 0 },
+      { sentence: 'Tenéis que ___ temprano', options: ['llegar', 'llego', 'llegas', 'llegan'], correct: 0 },
+      { sentence: 'Tienen que ___ la verdad', options: ['decir', 'digo', 'dices', 'dicen'], correct: 0 },
+      { sentence: '¿Tengo que ___ ahora?', options: ['salir', 'salgo', 'sales', 'salen'], correct: 0 },
+      { sentence: 'Tenemos que ___ en casa', options: ['estar', 'estoy', 'estás', 'están'], correct: 0 },
+      { sentence: 'Tienen que ___ la puerta', options: ['abrir', 'abro', 'abres', 'abren'], correct: 0 }
+    ]
+  },
+
+  'ex-2-2-mixed-verbs': {
+    id: 'ex-2-2-mixed-verbs',
+    type: 'grammar',
+    title: 'Смешанное упражнение: IR, TENER, OÍR',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'Yo (ir) ___ al cine', options: ['voy', 'tengo', 'oigo', 'va'], correct: 0 },
+      { sentence: 'Tú (tener) ___ hambre', options: ['vas', 'tienes', 'oyes', 'tiene'], correct: 1 },
+      { sentence: 'Él (oír) ___ música', options: ['va', 'tiene', 'oye', 'van'], correct: 2 },
+      { sentence: 'Nosotros (ir) ___ a España', options: ['vamos', 'tenemos', 'oímos', 'van'], correct: 0 },
+      { sentence: 'Vosotros (tener) ___ tiempo', options: ['vais', 'tenéis', 'oís', 'tienen'], correct: 1 },
+      { sentence: 'Ellos (oír) ___ la radio', options: ['van', 'tienen', 'oyen', 'vas'], correct: 2 },
+      { sentence: 'Yo (tener) ___ veinte años', options: ['voy', 'tengo', 'oigo', 'va'], correct: 1 },
+      { sentence: 'Tú (ir) ___ al bar', options: ['vas', 'tienes', 'oyes', 'tiene'], correct: 0 },
+      { sentence: 'Ella (oír) ___ bien', options: ['va', 'tiene', 'oye', 'van'], correct: 2 },
+      { sentence: 'Nosotros (tener) ___ prisa', options: ['vamos', 'tenemos', 'oímos', 'van'], correct: 1 },
+      { sentence: 'Vosotros (ir) ___ de compras', options: ['vais', 'tenéis', 'oís', 'tienen'], correct: 0 },
+      { sentence: 'Ellos (tener) ___ sed', options: ['van', 'tienen', 'oyen', 'vas'], correct: 1 },
+      { sentence: 'Usted (ir) ___ a casa', options: ['va', 'tiene', 'oye', 'van'], correct: 0 },
+      { sentence: 'Ustedes (oír) ___ las noticias', options: ['van', 'tienen', 'oyen', 'vas'], correct: 2 },
+      { sentence: 'María (tener) ___ frío', options: ['va', 'tiene', 'oye', 'van'], correct: 1 }
+    ]
+  },
+
+  'ex-2-2-tener-fillblank': {
+    id: 'ex-2-2-tener-fillblank',
+    type: 'fillblank',
+    title: 'Заполните пропуски с глаголом TENER',
+    description: 'Вставьте правильную форму глагола TENER',
+    questions: [
+      { sentence: 'Yo _____ que estudiar español', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Tú _____ mucha suerte', verb: 'tener', correct: 'tienes' },
+      { sentence: 'Él _____ que ir al médico', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Ella _____ veinticinco años', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Nosotros _____ hambre', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Vosotros _____ que tomar el autobús', verb: 'tener', correct: 'tenéis' },
+      { sentence: 'Ellos _____ miedo de los perros', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Yo _____ sed y calor', verb: 'tener', correct: 'tengo' },
+      { sentence: 'Tú _____ razón siempre', verb: 'tener', correct: 'tienes' },
+      { sentence: 'Mi madre _____ prisa', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Mis hermanos _____ que trabajar', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Usted _____ mucho dinero', verb: 'tener', correct: 'tiene' },
+      { sentence: 'Ustedes _____ una familia grande', verb: 'tener', correct: 'tienen' },
+      { sentence: 'Pedro y yo _____ que leer el libro', verb: 'tener', correct: 'tenemos' },
+      { sentence: 'Ana _____ sueño', verb: 'tener', correct: 'tiene' }
+    ]
+  },
+
+  'ex-2-2-vocab-expressions': {
+    id: 'ex-2-2-vocab-expressions',
+    type: 'vocabulary',
+    title: 'Выражения с TENER',
+    description: 'Сопоставьте выражение с переводом',
+    questions: [
+      { spanish: 'tener hambre', options: ['быть правым', 'быть голодным', 'иметь время', 'бояться'], correct: 1 },
+      { spanish: 'tener sed', options: ['хотеть спать', 'хотеть пить', 'торопиться', 'мерзнуть'], correct: 1 },
+      { spanish: 'tener sueño', options: ['хотеть спать', 'хотеть есть', 'быть удачливым', 'иметь семью'], correct: 0 },
+      { spanish: 'tener miedo', options: ['иметь деньги', 'бояться', 'быть правым', 'торопиться'], correct: 1 },
+      { spanish: 'tener razón', options: ['быть голодным', 'быть удачливым', 'быть правым', 'иметь время'], correct: 2 },
+      { spanish: 'tener suerte', options: ['быть удачливым', 'бояться', 'торопиться', 'мерзнуть'], correct: 0 },
+      { spanish: 'tener prisa', options: ['иметь время', 'торопиться', 'быть правым', 'хотеть пить'], correct: 1 },
+      { spanish: 'tener calor', options: ['мерзнуть', 'страдать от жары', 'хотеть спать', 'бояться'], correct: 1 },
+      { spanish: 'tener frío', options: ['страдать от жары', 'мерзнуть', 'хотеть есть', 'быть правым'], correct: 1 },
+      { spanish: 'tener tiempo', options: ['торопиться', 'бояться', 'иметь время', 'быть удачливым'], correct: 2 },
+      { spanish: 'tener dinero', options: ['иметь деньги', 'иметь семью', 'быть голодным', 'хотеть пить'], correct: 0 },
+      { spanish: 'tener familia', options: ['иметь время', 'иметь семью', 'иметь деньги', 'быть правым'], correct: 1 },
+      { spanish: 'tener que', options: ['быть должным', 'иметь что-то', 'хотеть что-то', 'идти куда-то'], correct: 0 },
+      { spanish: 'tener ... años', options: ['быть старым', 'иметь ... лет', 'быть молодым', 'иметь время'], correct: 1 },
+      { spanish: 'ir de compras', options: ['идти домой', 'идти в магазин', 'идти за покупками', 'идти на работу'], correct: 2 }
+    ]
+  },
+
+  'ex-2-2-translation-rus-esp': {
+    id: 'ex-2-2-translation-rus-esp',
+    type: 'writing',
+    title: 'Перевод с русского на испанский',
+    description: 'Переведите предложения на испанский',
+    questions: [
+      { russian: 'Я иду в театр на автобусе.', correct: 'yo voy al teatro en autobús' },
+      { russian: 'Ты хочешь есть и пить?', correct: '¿tú tienes hambre y sed?' },
+      { russian: 'Он слышит музыку в кафе.', correct: 'él oye música en el café' },
+      { russian: 'Мы едем в отпуск в Испанию.', correct: 'nosotros vamos de vacaciones a españa' },
+      { russian: 'Вы (vosotros) должны принять лекарство.', correct: 'vosotros tenéis que tomar la medicina' },
+      { russian: 'Они идут за покупками в центр.', correct: 'ellos van de compras al centro' },
+      { russian: 'Мне двадцать лет и я студент.', correct: 'tengo veinte años y soy estudiante' },
+      { russian: 'Она торопится на работу на такси.', correct: 'ella tiene prisa y va a la oficina en taxi' },
+      { russian: 'Мы слышим радио дома.', correct: 'nosotros oímos la radio en casa' },
+      { russian: 'Ты едешь домой на машине?', correct: '¿tú vas a casa en coche?' },
+      { russian: 'Им холодно, и они хотят спать.', correct: 'ellos tienen frío y tienen sueño' },
+      { sentence: 'Я собираюсь отдыхать в воскресенье.', correct: 'yo voy a descansar el domingo' },
+      { russian: 'У моей матери есть семья и деньги.', correct: 'mi madre tiene familia y dinero' },
+      { russian: 'Вы правы, это трудно.', correct: 'usted tiene razón, es difícil' },
+      { russian: 'Мы боимся, но должны идти.', correct: 'nosotros tenemos miedo pero tenemos que ir' }
     ]
   }
 }
