@@ -4386,7 +4386,7 @@ María: Muy bien, gracias.
       { sentence: 'Pablo ___ pintó el Guernica', correct: 'Picasso' },
       { sentence: 'Rafael ___ es un tenista español famoso', correct: 'Nadal' }
     ]
-  },
+  },                                                                                                                                                
   'ex-9-3-5': {
     id: 'ex-9-3-5',
     type: 'writing',
