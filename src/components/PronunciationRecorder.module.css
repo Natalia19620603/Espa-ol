@@ -1,0 +1,242 @@
+.recorderContainer {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.textToRead {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.instruction {
+  font-size: 14px;
+  color: #718096;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.targetText {
+  font-size: 20px;
+  color: #2d3748;
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.recorderControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.recordButton {
+  background: white;
+  color: #f5576c;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recordButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recordButton:active {
+  transform: translateY(0);
+}
+
+.recordIcon {
+  font-size: 24px;
+}
+
+.recordingActive {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 16px 24px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stopButton {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.stopButton:hover {
+  background: #c53030;
+  transform: scale(1.05);
+}
+
+.stopIcon {
+  font-size: 20px;
+}
+
+.recordingIndicator {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.recordingDot {
+  width: 12px;
+  height: 12px;
+  background: #e53e3e;
+  border-radius: 50%;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+.recordingTime {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d3748;
+  font-family: 'Courier New', monospace;
+}
+
+.playbackSection {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.playbackHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #38a169;
+}
+
+.successIcon {
+  font-size: 24px;
+}
+
+.audioPlayback {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.playbackActions {
+  display: flex;
+  justify-content: center;
+}
+
+.retryButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.retryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.permissionRequest,
+.errorMessage {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+.permissionRequest p,
+.errorMessage p {
+  margin: 0 0 16px 0;
+  color: #2d3748;
+  font-size: 16px;
+}
+
+.errorDetail {
+  font-size: 14px !important;
+  color: #718096 !important;
+}
+
+.permissionButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.permissionButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .recorderContainer {
+    padding: 16px;
+  }
+
+  .textToRead {
+    padding: 16px;
+  }
+
+  .targetText {
+    font-size: 18px;
+  }
+
+  .recordButton {
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+
+  .recordingActive {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+}

@@ -83,6 +83,86 @@
 .grammarContent {
   line-height: 1.8;
   color: #333;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.grammarIntro {
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.grammarSections {
+  margin-top: 1.5rem;
+}
+
+.grammarSectionItem {
+  margin-bottom: 1rem;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.grammarSectionItem:hover {
+  border-color: #667eea;
+}
+
+.sectionButton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  background: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #667eea;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.sectionButton:hover {
+  background: #f8f9fa;
+  color: #5568d3;
+}
+
+.sectionButtonOpen {
+  background: #667eea !important;
+  color: white !important;
+}
+
+.sectionArrow {
+  font-size: 0.9rem;
+  transition: transform 0.3s;
+}
+
+.sectionContent {
+  padding: 1.5rem;
+  background: #fafbfc;
+  border-top: 2px solid #f0f0f0;
+  line-height: 1.8;
+  color: #333;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .mdH2 {
@@ -103,6 +183,9 @@
   color: #666;
   font-size: 1.05rem;
   margin: 0.8rem 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .mdLi {
@@ -116,6 +199,37 @@
   padding: 0.5rem 1rem;
   border: 1px solid #ddd;
   font-size: 1rem;
+}
+
+/* Адаптивные таблицы */
+.sectionContent table,
+.grammarContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sectionContent table tr,
+.grammarContent table tr {
+  display: table-row;
+}
+
+@media (max-width: 768px) {
+  .sectionContent table,
+  .grammarContent table {
+    font-size: 0.9rem;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .mdTd {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
 }
 
 .examplesSection {
@@ -196,6 +310,78 @@
   font-size: 1.05rem;
 }
 
+/* Флипкарточки для словаря */
+.flashcardHint {
+  text-align: center;
+  color: #667eea;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.flashCard {
+  perspective: 1000px;
+  cursor: pointer;
+  height: 150px;
+}
+
+.flashCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashCard.flipped .flashCardInner {
+  transform: rotateY(180deg);
+}
+
+.flashCardFront,
+.flashCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: white;
+  transition: all 0.3s;
+}
+
+.flashCard:hover .flashCardFront,
+.flashCard:hover .flashCardBack {
+  border-color: #667eea;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+.flashCardFront {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.flashCardBack {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transform: rotateY(180deg);
+}
+
+.flashCardFront .vocabularyWord {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.flashCardBack .vocabularyTranslation {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
 /* Чтение */
 .readingSection {
   padding: 2rem 0;
@@ -213,6 +399,9 @@
   color: #333;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .spanishText p {
@@ -250,6 +439,156 @@
   padding: 1rem;
   background: #f8f9fa;
   border-radius: 8px;
+}
+
+/* Диалоги */
+.dialoguesSection {
+  padding: 2rem 0;
+}
+
+.dialogueCard {
+  background: white;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dialogueTitle {
+  color: #667eea;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.dialogueContent {
+  margin: 1.5rem 0;
+}
+
+.dialogueLine {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.speaker {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 1.05rem;
+  min-width: 80px;
+}
+
+.dialogueText {
+  color: #333;
+  font-size: 1.05rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.dialogueTranslation {
+  color: #888;
+  font-size: 0.95rem;
+  font-style: italic;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding-left: 80px;
+}
+
+.dialogueFullTranslation {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.dialogueFullTranslation details {
+  cursor: pointer;
+}
+
+.dialogueFullTranslation summary {
+  color: #667eea;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.dialogueFullTranslation summary:hover {
+  background: #f0f0f0;
+}
+
+.dialogueFullTranslation p {
+  margin-top: 1rem;
+  color: #666;
+  line-height: 1.6;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+/* Культура */
+.cultureSection {
+  padding: 2rem 0;
+}
+
+.cultureContent {
+  background: white;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.cultureTitle {
+  color: #667eea;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.75rem;
+}
+
+.cultureText {
+  line-height: 1.8;
+  color: #333;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.cultureFacts {
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.cultureFacts h4 {
+  color: #667eea;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cultureFacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cultureFacts li {
+  color: #666;
+  font-size: 1.05rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.cultureFacts li:before {
+  content: "•";
+  color: #667eea;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
 }
 
 /* Упражнения */
