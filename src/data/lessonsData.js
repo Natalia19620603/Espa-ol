@@ -2145,124 +2145,103 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
-    title: 'Урок 3: Правильные глаголы в настоящем времени',
+    title: 'Урок 3: Черты характера. Описание внешности',
     moduleId: 'module-2',
-    grammar: {
-      title: 'Правильные глаголы -ER и -IR в настоящем времени',
-      content: `
-# Правильные глаголы -ER и -IR в настоящем времени
-
-В испанском языке глаголы делятся на три группы в зависимости от окончания инфинитива: -AR, -ER, -IR. В этом уроке изучаем спряжение правильных глаголов на -ER и -IR.
-
-## 1. Глаголы на -ER (например: COMER - есть)
-
-Чтобы проспрягать правильный глагол на -ER, нужно убрать окончание -ER и добавить соответствующее личное окончание:
-
-| Местоимение | Окончание | COMER | Перевод |
-|-------------|-----------|-------|---------|
-| yo | -o | como | я ем |
-| tú | -es | comes | ты ешь |
-| él, ella, usted | -e | come | он/она ест, Вы едите |
-| nosotros (-as) | -emos | comemos | мы едим |
-| vosotros (-as) | -éis | coméis | вы едите |
-| ellos, ellas, ustedes | -en | comen | они едят, Вы (вежл.) едите |
-
-### Примеры глаголов на -ER:
-
-- **BEBER** (пить): bebo, bebes, bebe, bebemos, bebéis, beben
-- **LEER** (читать): leo, lees, lee, leemos, leéis, leen
-- **APRENDER** (учить, изучать): aprendo, aprendes, aprende, aprendemos, aprendéis, aprenden
-- **VENDER** (продавать): vendo, vendes, vende, vendemos, vendéis, venden
-- **RESPONDER** (отвечать): respondo, respondes, responde, respondemos, respondéis, responden
-- **CORRER** (бежать): corro, corres, corre, corremos, corréis, corren
-
-### Примеры предложений с глаголами на -ER:
-
-- Yo **como** pasta todos los días. (Я ем пасту каждый день.)
-- Tú **bebes** agua. (Ты пьешь воду.)
-- Ella **lee** libros en español. (Она читает книги на испанском.)
-- Nosotros **aprendemos** español. (Мы учим испанский.)
-- Vosotros **vendéis** frutas. (Вы продаете фрукты.)
-- Ellos **corren** en el parque. (Они бегают в парке.)
-
-## 2. Глаголы на -IR (например: VIVIR - жить)
-
-Чтобы проспрягать правильный глагол на -IR, нужно убрать окончание -IR и добавить соответствующее личное окончание:
-
-| Местоимение | Окончание | VIVIR | Перевод |
-|-------------|-----------|-------|---------|
-| yo | -o | vivo | я живу |
-| tú | -es | vives | ты живешь |
-| él, ella, usted | -e | vive | он/она живет, Вы живете |
-| nosotros (-as) | -imos | vivimos | мы живем |
-| vosotros (-as) | -ís | vivís | вы живете |
-| ellos, ellas, ustedes | -en | viven | они живут, Вы (вежл.) живете |
-
-### Примеры глаголов на -IR:
-
-- **ESCRIBIR** (писать): escribo, escribes, escribe, escribimos, escribís, escriben
-- **ABRIR** (открывать): abro, abres, abre, abrimos, abrís, abren
-- **RECIBIR** (получать): recibo, recibes, recibe, recibimos, recibís, reciben
-- **SUBIR** (подниматься): subo, subes, sube, subimos, subís, suben
-- **PARTIR** (уходить, отправляться): parto, partes, parte, partimos, partís, parten
-
-### Примеры предложений с глаголами на -IR:
-
-- Yo **vivo** en Madrid. (Я живу в Мадриде.)
-- Tú **escribes** cartas. (Ты пишешь письма.)
-- Él **abre** la puerta. (Он открывает дверь.)
-- Nosotros **recibimos** mensajes. (Мы получаем сообщения.)
-- Vosotros **subís** las escaleras. (Вы поднимаетесь по лестнице.)
-- Ellas **viven** en España. (Они живут в Испании.)
-
-## Сходства и различия глаголов -ER и -IR
-
-**Сходства:**
-- Окончания для yo, tú, él/ella/usted, ellos/ellas/ustedes **одинаковые**: -o, -es, -e, -en
-
-**Различия:**
-- Окончания для nosotros и vosotros **разные**:
-  - -ER: -emos, -éis
-  - -IR: -imos, -ís
-      `,
-      examples: [
-        { spanish: 'Yo como pasta', translation: 'Я ем пасту' },
-        { spanish: 'Tú bebes agua', translation: 'Ты пьешь воду' },
-        { spanish: 'Ella lee libros', translation: 'Она читает книги' },
-        { spanish: 'Nosotros vivimos en Madrid', translation: 'Мы живем в Мадриде' },
-        { spanish: 'Ellos escriben cartas', translation: 'Они пишут письма' }
-      ]
-    },
     vocabulary: [
-      { word: 'comer', translation: 'есть', audioUrl: null },
-      { word: 'beber', translation: 'пить', audioUrl: null },
-      { word: 'leer', translation: 'читать', audioUrl: null },
-      { word: 'aprender', translation: 'учить, изучать', audioUrl: null },
-      { word: 'vender', translation: 'продавать', audioUrl: null },
-      { word: 'responder', translation: 'отвечать', audioUrl: null },
-      { word: 'correr', translation: 'бежать, бегать', audioUrl: null },
-      { word: 'comprender', translation: 'понимать', audioUrl: null },
-      { word: 'vivir', translation: 'жить', audioUrl: null },
-      { word: 'escribir', translation: 'писать', audioUrl: null },
-      { word: 'abrir', translation: 'открывать', audioUrl: null },
-      { word: 'recibir', translation: 'получать', audioUrl: null },
-      { word: 'subir', translation: 'подниматься', audioUrl: null },
-      { word: 'partir', translation: 'уходить, отправляться', audioUrl: null },
-      { word: 'decidir', translation: 'решать', audioUrl: null },
-      { word: 'dividir', translation: 'делить', audioUrl: null },
-      { word: 'pasta', translation: 'паста, макароны (f)', audioUrl: null },
-      { word: 'agua', translation: 'вода (f)', audioUrl: null },
-      { word: 'libro', translation: 'книга (m)', audioUrl: null },
-      { word: 'carta', translation: 'письмо (f)', audioUrl: null },
-      { word: 'mensaje', translation: 'сообщение (m)', audioUrl: null },
-      { word: 'puerta', translation: 'дверь (f)', audioUrl: null },
-      { word: 'frutas', translation: 'фрукты (f pl)', audioUrl: null },
-      { word: 'escaleras', translation: 'лестница (f pl)', audioUrl: null },
-      { word: 'periódico', translation: 'газета (m)', audioUrl: null },
-      { word: 'email', translation: 'электронная почта (m)', audioUrl: null },
-      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
-      { word: 'en español', translation: 'на испанском', audioUrl: null },
-      { word: 'en el parque', translation: 'в парке', audioUrl: null }
+      // Aspecto físico - Внешний вид
+      { word: 'aspecto físico', translation: 'внешний вид', audioUrl: null },
+      { word: 'simpático', translation: 'симпатичный', audioUrl: null },
+      { word: 'antipático', translation: 'неприятный', audioUrl: null },
+      { word: 'feo', translation: 'некрасивый', audioUrl: null },
+      { word: 'guapo', translation: 'красивый', audioUrl: null },
+      { word: 'hermoso', translation: 'красивый', audioUrl: null },
+      { word: 'alto', translation: 'высокий', audioUrl: null },
+      { word: 'bajo', translation: 'низкий', audioUrl: null },
+      { word: 'gordo', translation: 'толстый', audioUrl: null },
+      { word: 'delgado', translation: 'стройный', audioUrl: null },
+      { word: 'flaco', translation: 'худой', audioUrl: null },
+      { word: 'atlético', translation: 'спортивное телосложение', audioUrl: null },
+      { word: 'jorobado', translation: 'горбатый', audioUrl: null },
+      { word: 'cojo', translation: 'хромой', audioUrl: null },
+
+      // Edad - Возраст
+      { word: 'edad', translation: 'возраст (f)', audioUrl: null },
+      { word: 'niño', translation: 'ребенок', audioUrl: null },
+      { word: 'adolescente', translation: 'подросток (m/f)', audioUrl: null },
+      { word: 'joven', translation: 'молодой', audioUrl: null },
+      { word: 'maduro', translation: 'средних лет', audioUrl: null },
+      { word: 'viejo', translation: 'старый', audioUrl: null },
+
+      // Pelo - Волосы
+      { word: 'pelo', translation: 'волосы (m)', audioUrl: null },
+      { word: 'liso', translation: 'прямые', audioUrl: null },
+      { word: 'rizado', translation: 'вьющиеся', audioUrl: null },
+      { word: 'corto', translation: 'короткие', audioUrl: null },
+      { word: 'largo', translation: 'длинные', audioUrl: null },
+      { word: 'calvo', translation: 'лысый', audioUrl: null },
+      { word: 'moreno', translation: 'брюнет', audioUrl: null },
+      { word: 'rubio', translation: 'блондин', audioUrl: null },
+      { word: 'pelirrojo', translation: 'рыжий', audioUrl: null },
+      { word: 'castaño', translation: 'шатен', audioUrl: null },
+      { word: 'cano', translation: 'седой', audioUrl: null },
+
+      // Facciones - Черты лица
+      { word: 'facciones', translation: 'черты лица (f)', audioUrl: null },
+      { word: 'ojos', translation: 'глаза (m)', audioUrl: null },
+      { word: 'grandes', translation: 'большие', audioUrl: null },
+      { word: 'pequeños', translation: 'маленькие', audioUrl: null },
+      { word: 'azules', translation: 'голубые', audioUrl: null },
+      { word: 'grises', translation: 'серые', audioUrl: null },
+      { word: 'pardos', translation: 'карие', audioUrl: null },
+      { word: 'verdes', translation: 'зеленые', audioUrl: null },
+      { word: 'nariz', translation: 'нос (f)', audioUrl: null },
+      { word: 'recta', translation: 'прямой', audioUrl: null },
+      { word: 'ancha', translation: 'широкий', audioUrl: null },
+      { word: 'chata', translation: 'курносый', audioUrl: null },
+      { word: 'labios', translation: 'губы (m)', audioUrl: null },
+      { word: 'finos', translation: 'тонкие', audioUrl: null },
+      { word: 'carnosos', translation: 'полные', audioUrl: null },
+      { word: 'cejas', translation: 'брови (f)', audioUrl: null },
+      { word: 'pobladas', translation: 'густые', audioUrl: null },
+
+      // Otros detalles (lleva) - Особые приметы
+      { word: 'bigotes', translation: 'усы (m)', audioUrl: null },
+      { word: 'barba', translation: 'борода (f)', audioUrl: null },
+      { word: 'gafas', translation: 'очки (f)', audioUrl: null },
+      { word: 'tatuaje', translation: 'татуировка (m)', audioUrl: null },
+      { word: 'lunar', translation: 'родинка (m)', audioUrl: null },
+      { word: 'cicatriz', translation: 'шрам (f)', audioUrl: null },
+
+      // Carácter - Характер
+      { word: 'carácter', translation: 'характер (m)', audioUrl: null },
+      { word: 'alegre', translation: 'веселый', audioUrl: null },
+      { word: 'triste', translation: 'грустный', audioUrl: null },
+      { word: 'cortés', translation: 'вежливый', audioUrl: null },
+      { word: 'serio', translation: 'серьезный', audioUrl: null },
+      { word: 'tranquilo', translation: 'спокойный', audioUrl: null },
+      { word: 'trabajador', translation: 'трудолюбивый', audioUrl: null },
+      { word: 'formal', translation: 'аккуратный / педантичный', audioUrl: null },
+      { word: 'puntual', translation: 'пунктуальный', audioUrl: null },
+      { word: 'educado', translation: 'воспитанный', audioUrl: null },
+      { word: 'egoísta', translation: 'эгоист (m/f)', audioUrl: null },
+      { word: 'perezoso', translation: 'ленивый', audioUrl: null },
+      { word: 'generoso', translation: 'щедрый', audioUrl: null },
+      { word: 'avaro', translation: 'жадный', audioUrl: null },
+      { word: 'tímido', translation: 'скромный / застенчивый', audioUrl: null },
+      { word: 'curioso', translation: 'любопытный', audioUrl: null },
+      { word: 'astuto', translation: 'хитрый', audioUrl: null },
+      { word: 'presumido', translation: 'тщеславный', audioUrl: null },
+      { word: 'bondadoso', translation: 'добрый', audioUrl: null },
+      { word: 'prudente', translation: 'осторожный / благоразумный', audioUrl: null },
+      { word: 'comunicativo', translation: 'общительный', audioUrl: null },
+      { word: 'honrado', translation: 'честный', audioUrl: null },
+      { word: 'valiente', translation: 'смелый', audioUrl: null },
+      { word: 'sincero', translation: 'искренний', audioUrl: null },
+      { word: 'fiel', translation: 'верный', audioUrl: null },
+      { word: 'terco', translation: 'упрямый', audioUrl: null },
+      { word: 'cariñoso', translation: 'нежный', audioUrl: null },
+      { word: 'inteligente', translation: 'умный', audioUrl: null },
+      { word: 'tonto', translation: 'глупый', audioUrl: null }
     ],
     readingText: {
       title: 'Mi día en Madrid',
@@ -9869,21 +9848,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Перевод с русского на испанский',
     description: 'Переведите предложения на испанский',
     questions: [
-      { russian: 'Я иду в театр на автобусе.', correct: 'Voy al teatro en autobús' },
-      { russian: 'Ты хочешь есть и пить?', correct: '¿Tienes hambre y sed?' },
-      { russian: 'Он слышит музыку в кафе.', correct: 'Oye música en el café' },
-      { russian: 'Мы едем в отпуск в Испанию.', correct: 'Vamos de vacaciones a España' },
-      { russian: 'Вы (vosotros) должны принять лекарство.', correct: 'Tenéis que tomar la medicina' },
-      { russian: 'Они идут за покупками в центр.', correct: 'Van de compras al centro' },
+      { russian: 'Я иду в театр на автобусе.', correct: 'Voy al teatro en autobús', alternatives: ['Yo voy al teatro en autobús'] },
+      { russian: 'Ты хочешь есть и пить?', correct: '¿Tienes hambre y sed?', alternatives: ['¿Tú tienes hambre y sed?'] },
+      { russian: 'Он слышит музыку в кафе.', correct: 'Oye música en el café', alternatives: ['Él oye música en el café'] },
+      { russian: 'Мы едем в отпуск в Испанию.', correct: 'Vamos de vacaciones a España', alternatives: ['Nosotros vamos de vacaciones a España'] },
+      { russian: 'Вы (vosotros) должны принять лекарство.', correct: 'Tenéis que tomar la medicina', alternatives: ['Vosotros tenéis que tomar la medicina'] },
+      { russian: 'Они идут за покупками в центр.', correct: 'Van de compras al centro', alternatives: ['Ellos van de compras al centro', 'Ellas van de compras al centro'] },
       { russian: 'Мне двадцать лет и я студент.', correct: 'Tengo veinte años y soy estudiante' },
-      { russian: 'Она торопится на работу на такси.', correct: 'Tiene prisa y va a la oficina en taxi' },
-      { russian: 'Мы слышим радио дома.', correct: 'Oímos la radio en casa' },
-      { russian: 'Ты едешь домой на машине?', correct: '¿Vas a casa en coche?' },
-      { russian: 'Им холодно, и они хотят спать.', correct: 'Tienen frío y tienen sueño' },
-      { russian: 'Я собираюсь отдыхать в воскресенье.', correct: 'Voy a descansar el domingo' },
+      { russian: 'Она торопится на работу на такси.', correct: 'Tiene prisa y va a la oficina en taxi', alternatives: ['Ella tiene prisa y va a la oficina en taxi'] },
+      { russian: 'Мы слышим радио дома.', correct: 'Oímos la radio en casa', alternatives: ['Nosotros oímos la radio en casa'] },
+      { russian: 'Ты едешь домой на машине?', correct: '¿Vas a casa en coche?', alternatives: ['¿Tú vas a casa en coche?'] },
+      { russian: 'Им холодно, и они хотят спать.', correct: 'Tienen frío y tienen sueño', alternatives: ['Ellos tienen frío y tienen sueño', 'Ellas tienen frío y tienen sueño'] },
+      { russian: 'Я собираюсь отдыхать в воскресенье.', correct: 'Voy a descansar el domingo', alternatives: ['Yo voy a descansar el domingo'] },
       { russian: 'У моей матери есть семья и деньги.', correct: 'Mi madre tiene familia y dinero' },
-      { russian: 'Вы правы, это трудно.', correct: 'Tiene razón, es difícil' },
-      { russian: 'Мы боимся, но должны идти.', correct: 'Tenemos miedo pero tenemos que ir' }
+      { russian: 'Вы правы, это трудно.', correct: 'Tiene razón, es difícil', alternatives: ['Usted tiene razón, es difícil'] },
+      { russian: 'Мы боимся, но должны идти.', correct: 'Tenemos miedo pero tenemos que ir', alternatives: ['Nosotros tenemos miedo pero tenemos que ir'] }
     ]
   }
 }

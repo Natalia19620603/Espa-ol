@@ -119,7 +119,20 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
       // Text input types (need string comparison)
       if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation', 'translation'].includes(exercise.type)) {
-        if (userAnswer?.toLowerCase().trim() === question.correct?.toLowerCase().trim()) {
+        const normalizedAnswer = userAnswer?.toLowerCase().trim()
+        const normalizedCorrect = question.correct?.toLowerCase().trim()
+
+        // Check if answer matches the main correct answer
+        let isCorrect = normalizedAnswer === normalizedCorrect
+
+        // If not, check alternatives if they exist
+        if (!isCorrect && question.alternatives && Array.isArray(question.alternatives)) {
+          isCorrect = question.alternatives.some(alt =>
+            normalizedAnswer === alt?.toLowerCase().trim()
+          )
+        }
+
+        if (isCorrect) {
           correct++
         }
       }
