@@ -2189,7 +2189,7 @@ Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`
         { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
       ]
     },
-    exercises: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4']
+    exercises: ['ex-2-2-1', 'ex-2-2-3', 'ex-2-2-ir-a-lugar', 'ex-2-2-ir-de-en', 'ex-2-2-ir-translation', 'ex-2-2-tener-translation', 'ex-2-2-tener-translation-2', 'ex-2-2-tener-conjugation', 'ex-2-2-tener-rus-esp', 'ex-2-2-oir-conjugation']
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
@@ -6581,235 +6581,178 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-2-2-ir-1': {
-    id: 'ex-2-2-ir-1',
+  'ex-2-2-ir-a-lugar': {
+    id: 'ex-2-2-ir-a-lugar',
     type: 'fillblank',
-    title: 'Глагол IR: Заполните пропуски',
-    description: 'Поставьте глагол ir в соответствующую форму',
+    title: 'Ir a + Lugar/Actividad',
+    description: 'Completa las frases usando la forma correcta del verbo IR y la preposición A. Внимание: ударения и знаки препинания считаются ошибкой',
     showCorrectAnswer: true,
     highlightErrors: true,
     questions: [
-      { sentence: 'Mi padre y yo _____ (ir) a la playa en barco', verb: 'ir', correct: 'vamos' },
-      { sentence: '¿Tú _____ (ir) a escribir el libro?', verb: 'ir', correct: 'vas' },
-      { sentence: 'Los alumnos _____ (ir) a aprender un tema nuevo', verb: 'ir', correct: 'van' },
-      { sentence: 'Ustedes _____ (ir) a casa en taxi', verb: 'ir', correct: 'van' },
-      { sentence: 'Yo _____ (ir) de compras a la ciudad', verb: 'ir', correct: 'voy' },
-      { sentence: 'Yo _____ (ir) a comer una paella famosa', verb: 'ir', correct: 'voy' },
-      { sentence: 'Mi hermana _____ (ir) a tomar un zumo de naranja', verb: 'ir', correct: 'va' },
-      { sentence: '¿Vosotras _____ (ir) de vacaciones en tren?', verb: 'ir', correct: 'vais' },
-      { sentence: 'Ustedes no _____ (ir) al centro comercial hoy', verb: 'ir', correct: 'van' },
-      { sentence: 'Nosotros _____ (ir) a beber agua fría', verb: 'ir', correct: 'vamos' },
-      { sentence: 'El periodista _____ (ir) a escribir un artículo largo', verb: 'ir', correct: 'va' },
-      { sentence: 'Tú _____ (ir) en autobús a la oficina', verb: 'ir', correct: 'vas' },
-      { sentence: 'Yo _____ (ir) a dormir muy tarde', verb: 'ir', correct: 'voy' },
-      { sentence: 'Ellos _____ (ir) a tomar el sol a la playa', verb: 'ir', correct: 'van' },
-      { sentence: 'Yo no _____ (ir) de compras este sábado', verb: 'ir', correct: 'voy' }
+      { sentence: 'Yo _____ al gimnasio después del trabajo.', correct: 'voy' },
+      { sentence: 'Mi familia y yo _____ a visitar a mis abuelos.', correct: 'vamos' },
+      { sentence: 'El profesor _____ a dar una clase sobre historia.', correct: 'va' },
+      { sentence: 'Tú _____ a la farmacia por la medicina.', correct: 'vas' },
+      { sentence: 'Ellos _____ a cenar en un restaurante nuevo.', correct: 'van' },
+      { sentence: 'Usted _____ a hablar con el director.', correct: 'va' },
+      { sentence: 'Vosotros _____ a la piscina municipal mañana.', correct: 'vais' },
+      { sentence: 'Mi amigo _____ a buscar trabajo.', correct: 'va' },
+      { sentence: 'Los niños _____ a jugar al fútbol al campo.', correct: 'van' },
+      { sentence: '¿A qué hora _____ ustedes a la reunión?', correct: 'van' }
     ]
   },
 
-  'ex-2-2-ir-2': {
-    id: 'ex-2-2-ir-2',
+  'ex-2-2-ir-de-en': {
+    id: 'ex-2-2-ir-de-en',
+    type: 'fillblank',
+    title: 'Ir de + Actividad / Ir en + Medio de transporte',
+    description: 'Completa las frases usando la forma correcta del verbo IR y la preposición necesaria (DE o EN). Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { sentence: 'Nosotros _____ en bicicleta por el campo.', correct: 'vamos' },
+      { sentence: 'Mi hermana _____ de viaje a Alemania en verano.', correct: 'va' },
+      { sentence: 'Tú _____ en patinete eléctrico a tu cita.', correct: 'vas' },
+      { sentence: 'Yo _____ de excursión con mis compañeros.', correct: 'voy' },
+      { sentence: 'El mensajero _____ en motocicleta a entregar el paquete.', correct: 'va' },
+      { sentence: 'Ustedes _____ en autobús para ahorrar dinero.', correct: 'van' },
+      { sentence: 'La señora _____ de compras cada fin de semana.', correct: 'va' },
+      { sentence: 'Vosotros _____ en metro a la universidad.', correct: 'vais' },
+      { sentence: 'El capitán _____ en barco a las islas.', correct: 'va' },
+      { sentence: 'Mis tíos _____ en crucero por el Mediterráneo.', correct: 'van' }
+    ]
+  },
+
+  'ex-2-2-ir-translation': {
+    id: 'ex-2-2-ir-translation',
     type: 'writing',
-    title: 'Глагол IR: Переведите на испанский',
-    description: 'Переведите предложения на испанский',
+    title: 'Перевод на испанский с глаголом IR',
+    description: 'Переведите предложения на испанский. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
     questions: [
-      { russian: 'Я собираюсь поговорить с моим другом', correct: 'voy a hablar con mi amigo' },
-      { russian: 'Мы едем в Италию на поезде', correct: 'vamos a italia en tren' },
-      { russian: 'Вы (vosotros) идете пешком в teatro?', correct: '¿vais a pie al teatro?' },
-      { russian: 'Они (ellas) едут в отпуск на самолете', correct: 'ellas van de vacaciones en avión' },
-      { russian: 'Она едет на работу на трамвае', correct: 'ella va al trabajo en tranvía' },
-      { russian: 'Ты собираешься взять книги для чтения?', correct: '¿vas a tomar libros para leer?' },
-      { russian: 'Мы не едем в Египет, мы едем в Испанию', correct: 'no vamos a egipto, vamos a españa' },
-      { russian: 'Я иду в банк пешком', correct: 'voy al banco a pie' },
-      { russian: 'Вы (usted) собираетесь позвонить секретарю?', correct: '¿usted va a llamar al secretario?' },
-      { russian: 'Они (ellos) идут в кафе есть бутерброды', correct: 'ellos van al café a comer bocadillos' },
-      { russian: 'Мой отец собирается загорать', correct: 'mi padre va a tomar el sol' },
-      { russian: 'Вы (ustedes) едете на поезде в Мадрид?', correct: '¿ustedes van en tren a madrid?' },
-      { russian: 'Он собирается принимать лекарства', correct: 'él va a tomar medicinas' },
-      { russian: 'Мои друзья едут на машине в горы', correct: 'mis amigos van en coche a las montañas' },
-      { russian: 'Я не собираюсь смотреть этот фильм', correct: 'no voy a ver esta película' }
+      { question: 'Мы едем в театр на метро.', correct: 'Vamos al teatro en metro.' },
+      { question: 'Я еду на работу на машине.', correct: 'Voy al trabajo en coche.' },
+      { question: 'Петр и Мария не идут в кино, они будут писать статью.', correct: 'Pedro y María no van al cine, van a escribir un artículo.' },
+      { question: 'Ты едешь в Валенсию на поезде, а я плыву на корабле.', correct: 'Tú vas a Valencia en tren y yo voy en barco.' },
+      { question: 'Они ходят за покупками пешком.', correct: 'Ellos van de compras a pie.' },
+      { question: 'Вы (vosotros) летите на каникулы в Испанию на самолете.', correct: 'Vosotros vais de vacaciones a España en avión.' },
+      { question: 'Она собирается поговорить с врачом.', correct: 'Ella va a hablar con el médico.' }
     ]
   },
 
-  'ex-2-2-ir-3': {
-    id: 'ex-2-2-ir-3',
+  'ex-2-2-tener-translation': {
+    id: 'ex-2-2-tener-translation',
+    type: 'writing',
+    title: 'Выражения с глаголом TENER',
+    description: 'Переведите предложения с испанского на русский',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'Mi primo tiene dieciocho años.', correct: 'Моему двоюродному брату восемнадцать лет.' },
+      { question: 'Nosotros tenemos una casa muy grande.', correct: 'У нас есть очень большой дом.' },
+      { question: 'Los estudiantes tienen mucha hambre a esta hora.', correct: 'Студенты очень голодны в это время.' },
+      { question: 'Yo tengo la culpa de ese error.', correct: 'Я виноват в этой ошибке.' },
+      { question: '¿Ustedes tienen la información necesaria?', correct: 'У вас есть необходимая информация?' },
+      { question: 'Yo no tengo paciencia con el tráfico.', correct: 'У меня нет терпения к пробкам.' },
+      { question: '¡Hoy tenemos muy buena suerte!', correct: 'Сегодня нам очень повезло!' },
+      { question: '¿Vosotros tenéis frío aquí?', correct: 'Вам здесь холодно?' },
+      { question: 'El gato tiene mucha sed después de correr.', correct: 'Кот очень хочет пить после бега.' },
+      { question: 'Tenemos que comprar un nuevo ordenador.', correct: 'Мы должны купить новый компьютер.' }
+    ]
+  },
+
+  'ex-2-2-tener-translation-2': {
+    id: 'ex-2-2-tener-translation-2',
+    type: 'writing',
+    title: 'Перевод на русский с глаголом TENER',
+    description: 'Переведите предложения с испанского на русский',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'Yo no tengo tiempo libre.', correct: 'У меня нет свободного времени.' },
+      { question: 'Ella tiene ocho meses.', correct: 'Ей восемь месяцев.' },
+      { question: 'Mi perro tiene mucha sed.', correct: 'Моя собака очень хочет пить.' },
+      { question: 'Nosotros tenemos una reunión.', correct: 'У нас есть встреча.' },
+      { question: 'Mi jefe tiene mucha prisa.', correct: 'Мой начальник очень спешит.' },
+      { question: 'Los vecinos tienen cuarenta y cinco años.', correct: 'Соседям сорок пять лет.' },
+      { question: 'Vosotras tenéis razón.', correct: 'Вы правы.' },
+      { question: 'Tú tienes que estudiar más.', correct: 'Ты должен учиться больше.' },
+      { question: 'Mis padres y yo tenemos mucho calor.', correct: 'Моим родителям и мне очень жарко.' },
+      { question: 'El coche tiene que pasar la ITV (Inspección Técnica de Vehículo).', correct: 'Машина должна пройти техосмотр.' }
+    ]
+  },
+
+  'ex-2-2-tener-conjugation': {
+    id: 'ex-2-2-tener-conjugation',
     type: 'fillblank',
-    title: 'Глагол IR: Ponga el verbo',
-    description: 'Ponga el verbo IR en la forma correcta',
+    title: 'Поставьте глагол TENER в соответствующую форму',
+    description: 'Заполните пропуски правильной формой глагола TENER. Внимание: ударения и знаки препинания считаются ошибкой',
     showCorrectAnswer: true,
     highlightErrors: true,
     questions: [
-      { sentence: 'Yo _____ (ir) a la playa en barco', verb: 'ir', correct: 'voy' },
-      { sentence: 'Tú _____ (ir) a escribir una carta', verb: 'ir', correct: 'vas' },
-      { sentence: 'El cliente _____ (ir) a la oficina en taxi', verb: 'ir', correct: 'va' },
-      { sentence: 'Mi hermana y yo _____ (ir) de compras a la ciudad', verb: 'ir', correct: 'vamos' },
-      { sentence: 'Vosotros _____ (ir) a aprender un tema nuevo', verb: 'ir', correct: 'vais' },
-      { sentence: 'Ellos _____ (ir) al teatro en metro', verb: 'ir', correct: 'van' },
-      { sentence: 'Usted _____ (ir) a tomar un café', verb: 'ir', correct: 'va' },
-      { sentence: 'Nosotros _____ (ir) a vivir en España', verb: 'ir', correct: 'vamos' },
-      { sentence: 'Mi padre _____ (ir) al bar a leer', verb: 'ir', correct: 'va' },
-      { sentence: 'Yo _____ (ir) a tomar el sol ahora', verb: 'ir', correct: 'voy' },
-      { sentence: '¿Tú _____ (ir) a pie a casa?', verb: 'ir', correct: 'vas' },
-      { sentence: 'El abogado _____ (ir) de vacaciones en avión', verb: 'ir', correct: 'va' },
-      { sentence: 'Ustedes _____ (ir) a llamar al policía', verb: 'ir', correct: 'van' },
-      { sentence: 'Vosotros _____ (ir) en autobús a la universidad', verb: 'ir', correct: 'vais' },
-      { sentence: 'Ella _____ (ir) a comprender el problema', verb: 'ir', correct: 'va' }
+      { sentence: 'Yo _____ mucha hambre ahora.', correct: 'tengo' },
+      { sentence: 'Tú _____ sueño.', correct: 'tienes' },
+      { sentence: 'Mi hermano _____ nueve años.', correct: 'tiene' },
+      { sentence: 'Nosotros _____ un perro pequeño.', correct: 'tenemos' },
+      { sentence: 'Vosotros _____ que ir al supermercado.', correct: 'tenéis' },
+      { sentence: 'Ellas _____ un coche rojo.', correct: 'tienen' },
+      { sentence: 'Usted _____ sed.', correct: 'tiene' },
+      { sentence: 'Yo _____ un libro interesante.', correct: 'tengo' },
+      { sentence: 'Los chicos _____ calor.', correct: 'tienen' },
+      { sentence: 'Tú _____ que hacer la tarea.', correct: 'tienes' }
     ]
   },
 
-  'ex-2-2-tener-1': {
-    id: 'ex-2-2-tener-1',
+  'ex-2-2-tener-rus-esp': {
+    id: 'ex-2-2-tener-rus-esp',
+    type: 'writing',
+    title: 'Перевод с русского на испанский с глаголом TENER',
+    description: 'Переведите предложения с русского на испанский, используя глагол TENER. Внимание: ударения и знаки препинания считаются ошибкой',
+    showCorrectAnswer: true,
+    highlightErrors: true,
+    questions: [
+      { question: 'У меня есть собака.', correct: 'Yo tengo un perro.' },
+      { question: 'Тебе пятнадцать лет.', correct: 'Tú tienes quince años.' },
+      { question: 'Нам очень холодно.', correct: 'Nosotros tenemos mucho frío.' },
+      { question: 'У них нет времени.', correct: 'Ellos no tienen tiempo.' },
+      { question: 'Вы (Usted) должны работать.', correct: 'Usted tiene que trabajar.' },
+      { question: 'Ему жарко.', correct: 'Él tiene calor.' },
+      { question: 'У нас есть один друг.', correct: 'Nosotros tenemos un amigo.' },
+      { question: 'Они хотят пить.', correct: 'Ellos tienen sed.' },
+      { question: 'Вы (Vosotros) должны купить хлеб.', correct: 'Vosotros tenéis que comprar pan.' },
+      { question: 'У нее большая семья.', correct: 'Ella tiene una familia grande.' }
+    ]
+  },
+
+  'ex-2-2-oir-conjugation': {
+    id: 'ex-2-2-oir-conjugation',
     type: 'fillblank',
-    title: 'Глагол TENER: Заполните пропуски',
-    description: 'Поставьте глагол tener в соответствующую форму',
+    title: 'Поставьте глагол OÍR в соответствующую форму',
+    description: 'Заполните пропуски правильной формой глагола OÍR в настоящем времени. Внимание: ударения и знаки препинания считаются ошибкой',
     showCorrectAnswer: true,
     highlightErrors: true,
     questions: [
-      { sentence: 'Yo _____ mucha suerte con el trabajo', verb: 'tener', correct: 'tengo' },
-      { sentence: 'Mi amigo y él no _____ miedo al perro', verb: 'tener', correct: 'tienen' },
-      { sentence: '¿Vosotros _____ tiempo para leer el libro?', verb: 'tener', correct: 'tenéis' },
-      { sentence: 'Ustedes _____ que llamar al médico', verb: 'tener', correct: 'tienen' },
-      { sentence: 'Tú _____ que abrir la ventana, hace calor', verb: 'tener', correct: 'tienes' },
-      { sentence: 'Nosotros somos jóvenes y no _____ problemas', verb: 'tener', correct: 'tenemos' },
-      { sentence: 'La secretaria no _____ tiempo libre hoy', verb: 'tener', correct: 'tiene' },
-      { sentence: 'Yo no _____ miedo a las alturas', verb: 'tener', correct: 'tengo' },
-      { sentence: 'Vosotras _____ que aprender un idioma nuevo', verb: 'tener', correct: 'tenéis' },
-      { sentence: 'Mi primo _____ veintidós años', verb: 'tener', correct: 'tiene' },
-      { sentence: 'El periodista y ella _____ que tomar un taxi', verb: 'tener', correct: 'tienen' },
-      { sentence: '¿Ustedes _____ mucho dinero en el banco?', verb: 'tener', correct: 'tienen' },
-      { sentence: 'Tú y yo _____ una casa en la playa', verb: 'tener', correct: 'tenemos' },
-      { sentence: 'Nosotras _____ frío en la nieve', verb: 'tener', correct: 'tenemos' },
-      { sentence: 'Ellos _____ que volver a casa temprano', verb: 'tener', correct: 'tienen' }
-    ]
-  },
-
-  'ex-2-2-tener-2': {
-    id: 'ex-2-2-tener-2',
-    type: 'fillblank',
-    title: 'Глагол TENER: Ponga el verbo',
-    description: 'Ponga el verbo TENER en la forma correcta',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ (tener) mucha prisa por la mañana', verb: 'tener', correct: 'tengo' },
-      { sentence: 'Mi madre _____ (tener) que tomar medicinas cada día', verb: 'tener', correct: 'tiene' },
-      { sentence: 'Nosotros _____ (tener) mucho frío en la casa', verb: 'tener', correct: 'tenemos' },
-      { sentence: '¿Tú _____ (tener) razón en el problema difícil?', verb: 'tener', correct: 'tienes' },
-      { sentence: 'El guía _____ (tener) un coche nuevo', verb: 'tener', correct: 'tiene' },
-      { sentence: 'Vosotros _____ (tener) hambre y sed ahora', verb: 'tener', correct: 'tenéis' },
-      { sentence: 'Ellos _____ (tener) quince años', verb: 'tener', correct: 'tienen' },
-      { sentence: 'Usted _____ (tener) que escribir la carta al abogado', verb: 'tener', correct: 'tiene' },
-      { sentence: 'Mi hermano y yo _____ (tener) suerte con el dinero', verb: 'tener', correct: 'tenemos' },
-      { sentence: 'Las chicas _____ (tener) miedo al ruido', verb: 'tener', correct: 'tienen' },
-      { sentence: '¿Yo _____ (tener) tiempo para escuchar la radio?', verb: 'tener', correct: 'tengo' },
-      { sentence: 'Ustedes _____ (tener) que abrir la cuenta en el banco', verb: 'tener', correct: 'tienen' },
-      { sentence: 'El economista no _____ (tener) familia', verb: 'tener', correct: 'tiene' },
-      { sentence: 'Tú y él _____ (tener) sueño en la noche', verb: 'tener', correct: 'tenéis' },
-      { sentence: 'Vosotros _____ (tener) que aprender las noticias', verb: 'tener', correct: 'tenéis' }
-    ]
-  },
-
-  'ex-2-2-tener-3': {
-    id: 'ex-2-2-tener-3',
-    type: 'grammar',
-    title: 'Глагол TENER: Выберите правильную форму',
-    description: 'Выберите правильную форму глагола TENER',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ mucha prisa', options: ['tienes', 'tiene', 'tengo', 'tienen'], correct: 2 },
-      { sentence: 'Tú _____ razón', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Él _____ veinte años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Nosotros _____ hambre', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 2 },
-      { sentence: 'Vosotros _____ sed', options: ['tenéis', 'tienen', 'tenemos', 'tiene'], correct: 0 },
-      { sentence: 'Ellos _____ frío', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 3 },
-      { sentence: 'Usted _____ que estudiar', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Yo _____ sueño', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 0 },
-      { sentence: 'Tú _____ miedo', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Ella _____ suerte', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Nosotras _____ tiempo', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 2 },
-      { sentence: 'Ustedes _____ dinero', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 3 },
-      { sentence: 'Vosotros _____ familia', options: ['tenéis', 'tienen', 'tenemos', 'tiene'], correct: 0 },
-      { sentence: 'Yo _____ calor', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 0 },
-      { sentence: 'Ellas _____ prisa', options: ['tengo', 'tiene', 'tenemos', 'tienen'], correct: 3 }
-    ]
-  },
-
-  'ex-2-2-oir-1': {
-    id: 'ex-2-2-oir-1',
-    type: 'fillblank',
-    title: 'Глагол OÍR: Заполните пропуски',
-    description: 'Поставьте глагол oír в соответствующую форму',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'El señor no abre la puerta porque no _____ el teléfono', verb: 'oír', correct: 'oye' },
-      { sentence: 'Yo no _____ las palabras de la señora, ella habla muy bajo', verb: 'oír', correct: 'oigo' },
-      { sentence: '¿Qué _____ ustedes? — Nosotros _____ un problema en la calle', verb: 'oír', correct: 'oyen, oímos' },
-      { sentence: 'Tú no _____ bien a tu amigo', verb: 'oír', correct: 'oyes' },
-      { sentence: 'Vosotros _____ las noticias por la radio', verb: 'oír', correct: 'oís' },
-      { sentence: 'Nosotros _____ la voz de nuestro amigo', verb: 'oír', correct: 'oímos' },
-      { sentence: 'Ellos _____ las noticias del mundo', verb: 'oír', correct: 'oyen' },
-      { sentence: 'Yo no _____ bien la radio', verb: 'oír', correct: 'oigo' },
-      { sentence: 'Tú _____ al guía hablar de la historia', verb: 'oír', correct: 'oyes' },
-      { sentence: 'Ustedes _____ el ruido del metro', verb: 'oír', correct: 'oyen' },
-      { sentence: 'Mi madre _____ al vecino cantar', verb: 'oír', correct: 'oye' },
-      { sentence: 'Vosotras _____ el concierto en la plaza', verb: 'oír', correct: 'oís' },
-      { sentence: 'El perro no _____ las palabras del niño', verb: 'oír', correct: 'oye' },
-      { sentence: 'Yo _____ el sonido del piano', verb: 'oír', correct: 'oigo' },
-      { sentence: '¿Él _____ el teléfono en el otro cuarto?', verb: 'oír', correct: 'oye' }
-    ]
-  },
-
-  'ex-2-2-oir-2': {
-    id: 'ex-2-2-oir-2',
-    type: 'fillblank',
-    title: 'Глагол OÍR: Ponga el verbo',
-    description: 'Ponga el verbo OÍR en la forma correcta',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ (oír) el teléfono en la oficina', verb: 'oír', correct: 'oigo' },
-      { sentence: 'Tú _____ (oír) al guía hablar en voz baja', verb: 'oír', correct: 'oyes' },
-      { sentence: 'El abogado no _____ (oír) al juez', verb: 'oír', correct: 'oye' },
-      { sentence: 'Nosotros _____ (oír) la radio todas las mañanas', verb: 'oír', correct: 'oímos' },
-      { sentence: 'Vosotros _____ (oír) las noticias del país', verb: 'oír', correct: 'oís' },
-      { sentence: 'Ellas _____ (oír) la música en el café', verb: 'oír', correct: 'oyen' },
-      { sentence: 'Usted _____ (oír) a su hijo llamar a la puerta', verb: 'oír', correct: 'oye' },
-      { sentence: 'Mi padre y yo _____ (oír) el tren en la noche', verb: 'oír', correct: 'oímos' },
-      { sentence: 'Los clientes no _____ (oír) el problema bien', verb: 'oír', correct: 'oyen' },
-      { sentence: '¿Tú _____ (oír) un ruido extraño en casa?', verb: 'oír', correct: 'oyes' },
-      { sentence: 'El niño _____ (oír) a su madre cantar', verb: 'oír', correct: 'oye' },
-      { sentence: 'Yo _____ (oír) las palabras del policía', verb: 'oír', correct: 'oigo' },
-      { sentence: 'Ustedes _____ (oír) las noticias de la ciudad', verb: 'oír', correct: 'oyen' },
-      { sentence: 'Mi hermana _____ (oír) mucha gente en la calle', verb: 'oír', correct: 'oye' },
-      { sentence: 'Vosotros _____ (oír) bien al profesor?', verb: 'oír', correct: 'oís' }
-    ]
-  },
-
-  'ex-2-2-oir-3': {
-    id: 'ex-2-2-oir-3',
-    type: 'grammar',
-    title: 'Глагол OÍR: Выберите правильную форму',
-    description: 'Выберите правильную форму глагола OÍR',
-    showCorrectAnswer: true,
-    highlightErrors: true,
-    questions: [
-      { sentence: 'Yo _____ la radio', options: ['oyes', 'oye', 'oigo', 'oyen'], correct: 2 },
-      { sentence: 'Tú _____ música', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 1 },
-      { sentence: 'Él _____ las noticias', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
-      { sentence: 'Nosotros _____ el problema', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 2 },
-      { sentence: 'Vosotros _____ la música', options: ['oís', 'oyen', 'oímos', 'oye'], correct: 0 },
-      { sentence: 'Ellos _____ ruido', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 },
-      { sentence: 'Usted _____ bien', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
-      { sentence: 'Yo no _____ nada', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
-      { sentence: 'Tú _____ al profesor', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
-      { sentence: 'Ella _____ el teléfono', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
-      { sentence: 'Nosotras _____ la voz', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 2 },
-      { sentence: 'Ustedes _____ el concierto', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 },
-      { sentence: 'Vosotros _____ el piano', options: ['oís', 'oyen', 'oímos', 'oye'], correct: 0 },
-      { sentence: 'Yo _____ al vecino', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 0 },
-      { sentence: 'Ellas _____ al guía', options: ['oigo', 'oye', 'oímos', 'oyen'], correct: 3 }
+      { sentence: 'Yo _____ la radio todas las mañanas.', correct: 'oigo' },
+      { sentence: '¿Tú _____ ese ruido extraño?', correct: 'oyes' },
+      { sentence: 'El bebé no _____ al perro que ladra.', correct: 'oye' },
+      { sentence: 'Nosotros _____ la música alta de los vecinos.', correct: 'oímos' },
+      { sentence: 'Ustedes _____ las noticias en la televisión.', correct: 'oyen' },
+      { sentence: 'Vosotros _____ la voz del profesor muy bien.', correct: 'oís' },
+      { sentence: 'Mi madre _____ mi canción favorita.', correct: 'oye' },
+      { sentence: 'Yo no _____ nada, habla más fuerte.', correct: 'oigo' },
+      { sentence: 'Tú y tu amigo _____ el teléfono sonar.', correct: 'oís' },
+      { sentence: 'Ana y yo _____ el mar desde la ventana.', correct: 'oímos' },
+      { sentence: 'Yo _____ la música, pero no me gusta.', correct: 'oigo' },
+      { sentence: 'El niño _____ a su abuela en el teléfono.', correct: 'oye' },
+      { sentence: 'Nosotros _____ la lluvia caer.', correct: 'oímos' },
+      { sentence: 'Ustedes no _____ la campana de la iglesia.', correct: 'oyen' },
+      { sentence: 'Pablo y yo _____ las campanas muy fuerte.', correct: 'oímos' },
+      { sentence: 'Tú _____ la explicación, pero no la entiendes.', correct: 'oyes' },
+      { sentence: 'La chica no _____ la radio porque _____ mal.', correct: 'oye' },
+      { sentence: 'Ellos no _____ el coche que pasa.', correct: 'oyen' },
+      { sentence: '¿Vosotros _____ el ruido de la calle?', correct: 'oís' },
+      { sentence: 'Yo no _____ nada porque hay mucho ruido aquí.', correct: 'oigo' }
     ]
   },
 
