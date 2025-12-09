@@ -2049,6 +2049,56 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
 | nosotros(-as) | oímos | Мы слышим |
 | vosotros(-as) | oís | Вы слышите |
 | ellos/ellas/ustedes | oyen | Они слышат |`
+        },
+        {
+          id: 'tener-meanings',
+          title: 'Разные значения глагола TENER',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Разные значения глагола TENER
+
+Глагол TENER используется во многих устойчивых выражениях для обозначения различных состояний:
+
+### Выражения с TENER:
+
+- **tener ... años** — иметь ... лет
+- **tener familia** — иметь семью
+- **tener padre / madre** — иметь отца / мать
+- **tener dinero** — иметь деньги
+- **tener calor** — страдать от жары
+- **tener frío** — мерзнуть
+- **tener hambre** — быть голодным / хотеть есть
+- **tener sed** — испытывать жажду / хотеть пить
+- **tener sueño** — хотеть спать
+- **tener miedo** — бояться (испытывать страх)
+- **tener razón** — быть правым
+- **tener suerte** — быть удачливым
+- **tener prisa** — торопиться, спешить
+- **tener tiempo** — иметь время
+
+### Конструкция tener que + инфинитив
+
+Конструкция **tener que + инфинитив** имеет значение **быть должным сделать что-либо**.
+
+**Примеры:**
+
+| Испанский | Русский |
+|-----------|---------|
+| Tengo veintiún años. | Мне 21 год. |
+| Él no tiene familia. | У него нет семьи. |
+| ¿Tienes sueño? | Хочешь спать? |
+| Ella tiene razón. | Она права. |
+| No tenemos tiempo. | У нас нет времени. |
+| Tenéis prisa. | Вы спешите. |
+| Usted tiene suerte. | Вам везет. |
+| Ellos no tienen miedo. | Они не боятся. |
+| Tengo calor. | Мне жарко. |
+| Tengo que ir al médico. | Я должен пойти к врачу. |
+| Tienes que estudiar más. | Ты должен больше заниматься. |
+| Él tiene que trabajar hoy. | Он должен работать сегодня. |
+| Tenemos que comprar pan. | Мы должны купить хлеб. |
+| Tenéis que escuchar al profesor. | Вы должны слушать преподавателя. |
+| Ellos tienen que venir mañana. | Они должны прийти завтра. |`
         }
       ]
     },
@@ -2058,6 +2108,21 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
       { word: 'estar', translation: 'быть, находиться', audioUrl: null },
       { word: 'venir', translation: 'приходить', audioUrl: null },
       { word: 'tener', translation: 'иметь', audioUrl: null },
+      { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
+      { word: 'tener familia', translation: 'иметь семью', audioUrl: null },
+      { word: 'tener padre / madre', translation: 'иметь отца / мать', audioUrl: null },
+      { word: 'tener dinero', translation: 'иметь деньги', audioUrl: null },
+      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
+      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
+      { word: 'tener hambre', translation: 'быть голодным / хотеть есть', audioUrl: null },
+      { word: 'tener sed', translation: 'испытывать жажду / хотеть пить', audioUrl: null },
+      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
+      { word: 'tener miedo', translation: 'бояться (испытывать страх)', audioUrl: null },
+      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
+      { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
+      { word: 'tener prisa', translation: 'торопиться, спешить', audioUrl: null },
+      { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
+      { word: 'tener que + инфинитив', translation: 'быть должным сделать что-либо', audioUrl: null },
       { word: 'poder', translation: 'мочь', audioUrl: null },
       { word: 'querer', translation: 'хотеть', audioUrl: null },
       { word: 'saber', translation: 'знать', audioUrl: null },
