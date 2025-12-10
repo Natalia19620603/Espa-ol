@@ -1,10 +1,7 @@
 name: Auto Deploy to Vercel
 
-# Запускается при каждом push в main
+# Запускается только при мерже PR в main
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -16,8 +13,8 @@ permissions:
 
 jobs:
   deploy:
-    # Запускаем только если PR смержен или есть прямой push в main
-    if: github.event_name == 'push' || (github.event.pull_request.merged == true)
+    # Запускаем только если PR смержен
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -31,6 +28,7 @@ jobs:
         run: |
           echo "# Deployment trigger" > .vercel-trigger
           echo "# Auto deploy: $(date -u)" >> .vercel-trigger
+          echo "# PR #${{ github.event.pull_request.number }}: ${{ github.event.pull_request.title }}" >> .vercel-trigger
 
       - name: Commit and push if changed
         run: |
@@ -40,6 +38,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🚀 Auto deploy trigger [skip ci]"
+            git commit -m "🚀 Auto deploy trigger"
             git push origin main
           fi
