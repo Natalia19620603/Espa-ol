@@ -2212,6 +2212,347 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
     id: 'lesson-2-3',
     title: 'Урок 3: Черты характера. Описание внешности',
     moduleId: 'module-2',
+    grammar: {
+      title: 'Указательные местоимения и наречия. Притяжательные местоимения',
+      intro: `# Грамматика урока
+
+В этом уроке мы изучим:
+- Указательные местоимения для обозначения близости и дальности
+- Самостоятельное употребление указательных местоимений
+- Форма среднего рода (нейтральные формы)
+- Указательные наречия места
+- Притяжательные местоимения`,
+      sections: [
+        {
+          id: 'demonstrativos',
+          title: 'Указательные местоимения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Указательные местоимения (Demonstrativos)
+
+Указательные местоимения в испанском языке используются для обозначения предметов и людей в зависимости от их расстояния от говорящего.
+
+### Таблица форм по расстоянию:
+
+| Расстояние | Мужской род ед.ч | Женский род ед.ч | Мужской род мн.ч | Женский род мн.ч | Значение |
+|------------|------------------|------------------|------------------|------------------|----------|
+| **Близко** (aquí) | este | esta | estos | estas | этот, эта, эти |
+| **На расстоянии** (ahí) | ese | esa | esos | esas | тот, та, те |
+| **Далеко** (allí) | aquel | aquella | aquellos | aquellas | вон тот, вон та, вон те |
+
+### Употребление перед существительными:
+
+**ESTE (этот) - близко к говорящему:**
+- **Este chico** es alto. – Этот мальчик высокий.
+- **Esta chica** es guapa. – Эта девочка красивая.
+- **Estos ojos** son azules. – Эти глаза голубые.
+- **Estas cejas** son pobladas. – Эти брови густые.
+
+**ESE (тот) - на некотором расстоянии:**
+- **Ese hombre** es bajo. – Тот мужчина низкий.
+- **Esa mujer** es delgada. – Та женщина стройная.
+- **Esos niños** son alegres. – Те дети веселые.
+- **Esas gafas** son nuevas. – Те очки новые.
+
+**AQUEL (вон тот) - далеко от говорящего:**
+- **Aquel señor** es viejo. – Вон тот господин старый.
+- **Aquella señora** tiene pelo cano. – Вон та дама имеет седые волосы.
+- **Aquellos hermanos** son trabajadores. – Вон те братья трудолюбивые.
+- **Aquellas estudiantes** son inteligentes. – Вон те студентки умные.
+
+### Примеры с описанием внешности:
+- **Este pelo** es rizado y negro. – Эти волосы вьющиеся и черные.
+- **Esa nariz** es recta. – Тот нос прямой.
+- **Aquellos labios** son carnosos. – Вон те губы полные.
+- **Esta barba** es larga. – Эта борода длинная.
+`
+        },
+        {
+          id: 'adverbios-lugar',
+          title: 'Наречия обстоятельства места (Adverbios de lugar)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Наречия обстоятельства места (Adverbios de lugar)
+
+Указательные наречия места показывают, **где** находится человек или предмет. Они часто употребляются вместе с указательными местоимениями.
+
+### Основные наречия:
+
+| Наречие | Расстояние | Значение | Пример |
+|---------|------------|----------|--------|
+| **aquí** | близко к говорящему | здесь, тут | **Aquí** está mi amigo. – Здесь мой друг. |
+| **acá** | близко (менее точно) | сюда, здесь | Ven **acá**. – Иди сюда. |
+| **ahí** | на расстоянии | там (рядом с собеседником) | **Ahí** está tu hermana. – Там твоя сестра. |
+| **allí** | далеко | там | **Allí** vive mi profesor. – Там живет мой учитель. |
+| **allá** | далеко (менее точно) | туда, там | Vamos **allá**. – Пойдем туда. |
+
+### Соответствие наречий и указательных местоимений:
+
+| Наречие | Указательное местоимение | Пример |
+|---------|-------------------------|--------|
+| aquí, acá | este, esta, estos, estas | **Este chico** está **aquí**. – Этот мальчик здесь. |
+| ahí | ese, esa, esos, esas | **Esa mujer** está **ahí**. – Та женщина там. |
+| allí, allá | aquel, aquella, aquellos, aquellas | **Aquel hombre** está **allí**. – Вон тот мужчина там. |
+
+### Примеры с описанием людей:
+
+**AQUÍ (здесь) + ESTE (этот):**
+- Ven **aquí**, mira **esta** foto. – Иди сюда, посмотри на эту фотографию.
+- **Aquí** tenemos a **este** niño alegre. – Здесь у нас этот веселый ребенок.
+- **Este** amigo **aquí** es muy inteligente. – Этот друг здесь очень умный.
+
+**AHÍ (там) + ESE (тот):**
+- **Ahí** está **ese** chico guapo. – Там тот красивый мальчик.
+- Mira **ahí**, **esa** chica tiene ojos verdes. – Посмотри там, та девочка имеет зеленые глаза.
+- **Ese** señor **ahí** es mi padre. – Тот господин там - мой отец.
+
+**ALLÍ (там, далеко) + AQUEL (вон тот):**
+- **Allí**, **aquel** hombre tiene barba. – Там, вон тот мужчина с бородой.
+- Mira **allí**, **aquella** mujer es muy alta. – Посмотри туда, вон та женщина очень высокая.
+- **Aquellos** estudiantes **allí** son trabajadores. – Вон те студенты там трудолюбивые.
+
+### Различие между aquí/acá и allí/allá:
+
+- **aquí / allí** – более точное указание на место
+- **acá / allá** – менее точное, часто с глаголами движения
+
+Ejemplos:
+- Mi hermano está **aquí**. – Мой брат здесь.
+- Tu amiga vive **allí**. – Твоя подруга живет там.
+- Ven **acá**, quiero ver tus ojos. – Иди сюда, я хочу увидеть твои глаза.
+- Vamos **allá**, mi familia está **allá**. – Пойдем туда, моя семья там.
+`
+        },
+        {
+          id: 'demonstrativos-standalone',
+          title: 'Указательные местоимения, употребляемые самостоятельно (Pronombres demostrativos)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Указательные местоимения, употребляемые самостоятельно
+
+Когда указательные местоимения употребляются **без существительного** (самостоятельно), они заменяют уже упомянутое слово.
+
+### Формы:
+
+| Без существительного | Мужской род | Женский род |
+|----------------------|-------------|-------------|
+| **Близко** | éste, éstos | ésta, éstas |
+| **На расстоянии** | ése, ésos | ésa, ésas |
+| **Далеко** | aquél, aquéllos | aquélla, aquéllas |
+
+**Важно:** В современном испанском акцент (ударение) не обязателен, но помогает избежать путаницы.
+
+### Примеры с описанием людей:
+
+**1. Сравнение внешности:**
+- ¿Qué chico es más alto: **este** o **ese**? – Какой мальчик выше: этот или тот?
+- **Este** es rubio, pero **ese** es moreno. – Этот блондин, но тот брюнет.
+- Mi hermano es **este**, no **aquel**. – Мой брат - этот, не вон тот.
+
+**2. Описание характера:**
+- **Este** es alegre, **ese** es triste. – Этот веселый, тот грустный.
+- **Esta** es trabajadora, **aquella** es perezosa. – Эта трудолюбивая, вон та ленивая.
+- **Estos** son inteligentes, **esos** son tontos. – Эти умные, те глупые.
+
+**3. Описание внешности:**
+- **Esta** tiene ojos azules, **esa** tiene ojos pardos. – У этой голубые глаза, у той карие глаза.
+- **Este** es alto y delgado, **aquel** es bajo y gordo. – Этот высокий и стройный, вон тот низкий и толстый.
+- **Estos** tienen pelo corto, **aquellos** tienen pelo largo. – У этих короткие волосы, у вон тех длинные волосы.
+
+**4. Указание на людей:**
+- **Este** es mi amigo. – Это мой друг.
+- **Esa** es mi hermana. – Та - моя сестра.
+- **Aquellos** son mis profesores. – Вон те - мои учителя.
+
+**5. Вопросы:**
+- ¿**Este** es tu padre? – Этот твой отец?
+- ¿**Esa** es tu madre? – Та твоя мать?
+- ¿**Aquellos** son tus hermanos? – Вон те твои братья?
+`
+        },
+        {
+          id: 'demonstrativos-neutro',
+          title: 'Местоимения среднего рода (Formas neutras)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Местоимения среднего рода (Formas neutras)
+
+Нейтральные формы указательных местоимений используются для обозначения **абстрактных понятий, ситуаций или неопределенных вещей**. Они **никогда не имеют акцента** и **не изменяются по числам**.
+
+### Три нейтральные формы:
+
+| Форма | Расстояние | Значение |
+|-------|------------|----------|
+| **esto** | близко | это (то, что здесь) |
+| **eso** | на расстоянии | то (то, что там) |
+| **aquello** | далеко | то (то, что вон там) |
+
+### Употребление:
+
+**1. Для обозначения неизвестных вещей:**
+- ¿Qué es **esto**? – Что это (такое)?
+- **Eso** es interesante. – Это интересно.
+- No entiendo **aquello**. – Я не понимаю то.
+
+**2. Для обозначения ситуаций или качеств:**
+- **Esto** es importante para mi familia. – Это важно для моей семьи.
+- **Eso** no me gusta. – Мне это не нравится.
+- **Aquello** fue terrible. – То было ужасно.
+
+**3. Про характер и качества:**
+- **Esto** es bueno – ser alegre. – Это хорошо - быть веселым.
+- **Eso** de ser perezoso es malo. – Это (то, что касается) быть ленивым - плохо.
+- **Aquello** era su problema – era muy tímido. – То была его проблема - он был очень застенчивым.
+
+**4. В вопросах:**
+- ¿Qué es **esto** que veo? – Что это я вижу?
+- ¿Para qué sirve **eso**? – Для чего это служит?
+- ¿Cómo se llama **aquello**? – Как называется то?
+
+**5. Примеры с описанием:**
+- **Esto** es mi pelo. – Это мои волосы.
+- ¿Qué es **eso**? - Son mis gafas. – Что это? - Это мои очки.
+- **Aquello** es una cicatriz. – То - шрам.
+
+**Важно:** Нейтральные формы **никогда не употребляются с существительными**:
+- ❌ esto hombre
+- ✅ este hombre
+- ✅ esto (само по себе)
+`
+        },
+        {
+          id: 'posesivos',
+          title: 'Притяжательные местоимения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Притяжательные местоимения
+
+Притяжательные местоимения показывают принадлежность. В испанском языке они согласуются с **предметом обладания** (а не с владельцем) в роде и числе.
+
+### Таблица притяжательных местоимений-прилагательных:
+
+| Лицо | Единственное число | Множественное число | Пример | Перевод |
+|------|-------------------|---------------------|---------|---------|
+| **yo** | mi | mis | **Mi** hermano es alto. | Мой брат высокий. |
+| **tú** | tu | tus | **Tu** hermana es guapa. | Твоя сестра красивая. |
+| **él/ella/Ud.** | su | sus | **Su** padre es viejo. | Его/Её/Ваш отец старый. |
+| **nosotros/-as** | nuestro/nuestra | nuestros/nuestras | **Nuestro** amigo es alegre. | Наш друг веселый. |
+| **vosotros/-as** | vuestro/vuestra | vuestros/vuestras | **Vuestros** ojos son azules. | Ваши глаза голубые. |
+| **ellos/ellas/Uds.** | su | sus | **Sus** hijos son inteligentes. | Их/Ваши дети умные. |
+
+### Основные правила:
+
+**1. Местоимения mi, tu, su** изменяются только по числам:
+- **mi** amigo (мой друг) → **mis** amigos (мои друзья)
+- **tu** hermana (твоя сестра) → **tus** hermanas (твои сестры)
+- **su** hijo (его сын) → **sus** hijos (его дети)
+
+**2. Местоимения nuestro, vuestro** изменяются и по родам, и по числам:
+- **nuestro** padre (наш отец - м.р.)
+- **nuestra** madre (наша мать - ж.р.)
+- **nuestros** hermanos (наши братья - м.р., мн.ч.)
+- **nuestras** hermanas (наши сестры - ж.р., мн.ч.)
+
+### Примеры с описанием внешности:
+
+**С частями тела:**
+- **Mi** pelo es largo y rubio. – Мои волосы длинные и светлые.
+- **Tus** ojos son verdes. – Твои глаза зеленые.
+- **Su** nariz es chata. – Его/Её нос курносый.
+- **Nuestras** cejas son pobladas. – Наши брови густые.
+- **Vuestros** labios son finos. – Ваши губы тонкие.
+
+**С характеристиками:**
+- **Mi** hermano es trabajador. – Мой брат трудолюбивый.
+- **Tu** amiga es alegre. – Твоя подруга веселая.
+- **Su** padre es serio. – Его/Её отец серьезный.
+- **Nuestra** profesora es inteligente. – Наша учительница умная.
+- **Vuestro** amigo es tímido. – Ваш друг застенчивый.
+
+**С предметами:**
+- **Mis** gafas son nuevas. – Мои очки новые.
+- **Tu** barba es larga. – Твоя борода длинная.
+- **Sus** bigotes son negros. – Его усы черные.
+
+### Уточнение su/sus:
+
+Формы **su** и **sus** могут означать: его, её, Ваш/Ваша, их. Для уточнения используют:
+
+**el / la / los / las + [существительное] + de + [местоимение]**
+
+Примеры:
+- Es **su** hermano. (Это его/её/Ваш/их брат - неясно)
+- Es el hermano **de ella**. (Это её брат.)
+- Es el hermano **de él**. (Это его брат.)
+- Es el hermano **de usted**. (Это Ваш брат.)
+`
+        },
+        {
+          id: 'posesivos-pronombres',
+          title: 'Притяжательные местоимения-существительные',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Притяжательные местоимения-существительные
+
+Эти формы **заменяют существительное** и обычно используются с определенным артиклем (**el, la, los, las**).
+
+### Таблица:
+
+| Лицо | М.р. ед.ч / Ж.р. ед.ч | М.р. мн.ч / Ж.р. мн.ч | Перевод |
+|------|----------------------|----------------------|---------|
+| **yo** | el mío / la mía | los míos / las mías | мой, моя / мои |
+| **tú** | el tuyo / la tuya | los tuyos / las tuyas | твой, твоя / твои |
+| **él/ella/Ud.** | el suyo / la suya | los suyos / las suyas | его/её/Ваш |
+| **nosotros/-as** | el nuestro / la nuestra | los nuestros / las nuestras | наш, наша / наши |
+| **vosotros/-as** | el vuestro / la vuestra | los vuestros / las vuestras | ваш, ваша / ваши |
+| **ellos/ellas/Uds.** | el suyo / la suya | los suyos / las suyas | их/Ваш |
+
+### Отличие от притяжательных местоимений-прилагательных:
+
+| Тип | С артиклем | Позиция | Пример |
+|-----|-----------|---------|---------|
+| **Прилагательное** | ❌ Без артикля | Перед существительным | **Mi** hermano es alto. |
+| **Существительное** | ✅ С артиклем | Вместо существительного | **El mío** es alto. |
+
+### Примеры использования:
+
+**1. Сравнение:**
+- Mi hermano es rubio. ¿Y **el tuyo**?
+  - (Мой брат блондин. А твой?)
+- Tu amiga es alegre, pero **la mía** es triste.
+  - (Твоя подруга веселая, но моя грустная.)
+
+**2. Множественное число:**
+- Mis ojos son azules, pero **los suyos** son pardos.
+  - (Мои глаза голубые, но его/её (глаза) карие.)
+- Nuestros hijos son pequeños, pero **los vuestros** son altos.
+  - (Наши дети маленькие, но ваши (дети) высокие.)
+
+**3. После глагола SER (без артикля):**
+- Esta familia es **mía**. (Эта семья моя.)
+- Este amigo es **tuyo**. (Этот друг твой.)
+- Estos hermanos son **suyos**. (Эти братья его/её/Ваши/их.)
+- ¿Estas gafas son **tuyas**? (Эти очки твои?)
+
+**4. Примеры с описанием:**
+- Mi pelo es largo, **el tuyo** es corto.
+  - (Мои волосы длинные, твои короткие.)
+- Tus ojos son verdes, **los míos** son azules.
+  - (Твои глаза зеленые, мои голубые.)
+- Su nariz es recta, **la nuestra** es chata.
+  - (Его/Её нос прямой, наш курносый.)
+- Nuestro padre es alto, **el vuestro** es bajo.
+  - (Наш отец высокий, ваш низкий.)
+`
+        }
+      ]
+    },
     vocabulary: [
       // Aspecto físico - Внешний вид
       { word: 'aspecto físico', translation: 'внешний вид', audioUrl: null },
@@ -2309,31 +2650,42 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       { word: 'tonto', translation: 'глупый', audioUrl: null }
     ],
     readingText: {
-      title: 'Mi día en Madrid',
-      content: `Hola, me llamo Pedro. Soy estudiante. Soy de Rusia pero vivo en Madrid. Tengo veinte años.
+      title: 'Mis amigos y mi familia',
+      content: `Hola, me llamo Elena. Soy estudiante y tengo veinte años. Vivo en Madrid con mi familia. Quiero hablar de mi familia y mis amigos.
 
-Cada mañana yo tomo café con leche en casa. Después tomo el autobús a la universidad. La universidad está en el centro de Madrid. Voy de casa a la universidad en treinta minutos.
+Este es mi padre. Se llama Carlos y tiene cincuenta años. Es alto y delgado. Tiene pelo cano y corto. Sus ojos son pardos. Lleva gafas. Mi padre es serio y trabajador. Es profesor en una universidad. También es muy inteligente y honrado.
 
-En la universidad estudio español. Hablo con mis amigos. Ellos son de Italia, Francia y Alemania. Nosotros hablamos español en clase. También leemos libros en español y escribimos textos.
+Esta es mi madre. Se llama Ana y tiene cuarenta y ocho años. Ella es guapa y alegre. Tiene pelo largo y rubio. Sus ojos son azules. Mi madre es bondadosa y generosa. Es médica y ayuda a muchas personas.
 
-A las dos tomo el almuerzo en el café de la universidad. Como bocadillos y tomo un zumo de naranja. Mi amigo italiano toma agua con la comida.
+Tengo dos hermanos. Este es Miguel, mi hermano mayor. Tiene veinticinco años. Es alto y atlético. Tiene pelo corto y negro. Es moreno, como mi padre. Miguel es comunicativo y valiente. Es policía.
 
-Por la tarde voy a casa. Leo libros en español y aprendo palabras nuevas. A veces escribo mensajes a mi familia en Rusia.
+Esta es mi hermana pequeña, Sofía. Tiene quince años. Es baja y delgada. Tiene pelo largo y rizado. Es pelirroja con ojos verdes. Sofía es tímida pero muy inteligente. Es estudiante, como yo.
 
-Mi amiga Ana es española, de Barcelona. Ella es profesora. Ana toma el tren de Barcelona a Madrid cada semana. Ella vive con su hermana en un apartamento pequeño.
+Ahora quiero hablar de mis amigos. Ese chico ahí es Pablo, mi mejor amigo. Pablo es bajo y gordo, pero muy alegre y curioso. Tiene pelo corto y castaño. Sus ojos son grises. Lleva bigotes. Pablo es muy sincero y fiel. Siempre está alegre.
 
-Los fines de semana tomamos el sol en el parque. Es muy bonito estar en Madrid.`,
-      translation: 'Привет, меня зовут Педро. Я студент. Я из России, но живу в Мадриде. Мне двадцать лет.\n\nКаждое утро я пью кофе с молоком дома. Потом я сажусь на автобус до университета. Университет находится в центре Мадрида. Я еду из дома в университет за тридцать минут.\n\nВ университете я изучаю испанский. Я разговариваю с моими друзьями. Они из Италии, Франции и Германии. Мы говорим по-испански на занятиях. Также мы читаем книги на испанском и пишем тексты.\n\nВ два часа я обедаю в университетском кафе. Я ем бутерброды и пью апельсиновый сок. Мой итальянский друг пьет воду с едой.\n\nВо второй половине дня я иду домой. Я читаю книги на испанском и учу новые слова. Иногда я пишу сообщения моей семье в России.\n\nМоя подруга Ана испанка, из Барселоны. Она преподаватель. Ана едет на поезде из Барселоны в Мадрид каждую неделю. Она живет со своей сестрой в маленькой квартире.\n\nПо выходным мы загораем в парке. Очень приятно быть в Мадриде.',
-      audioUrl: '/audio/lesson-2-2-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Hola, me llamo Pedro. Soy estudiante.' },
-        { start: 5, end: 10, text: 'Cada mañana yo tomo café con leche en casa.' },
-        { start: 10, end: 15, text: 'Después tomo el autobús a la universidad.' },
-        { start: 15, end: 20, text: 'En la universidad hablo con mis amigos.' },
-        { start: 20, end: 25, text: 'Los fines de semana tomamos el sol en el parque.' }
-      ]
+Aquella chica allí es Carmen. Ella es mi amiga de la universidad. Carmen es muy guapa. Es alta y delgada. Tiene pelo liso y negro. Sus ojos son grandes y pardos. Tiene cejas pobladas y labios carnosos. Carmen es seria y tranquila, pero también es muy cariñosa con sus amigos.
+
+Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferentes: altos y bajos, alegres y serios, rubios y morenos. Pero todos somos buenos amigos y una familia feliz.`,
+      translation: 'Привет, меня зовут Елена. Я студентка, мне двадцать лет. Я живу в Мадриде со своей семьей. Я хочу рассказать о моей семье и моих друзьях.\n\nЭто мой отец. Его зовут Карлос, ему пятьдесят лет. Он высокий и стройный. У него седые короткие волосы. Его глаза карие. Он носит очки. Мой отец серьезный и трудолюбивый. Он преподаватель в университете. Также он очень умный и честный.\n\nЭто моя мама. Её зовут Ана, ей сорок восемь лет. Она красивая и веселая. У неё длинные светлые волосы. Её глаза голубые. Моя мама добрая и щедрая. Она врач и помогает многим людям.\n\nУ меня два брата и сестры. Это Мигель, мой старший брат. Ему двадцать пять лет. Он высокий и спортивного телосложения. У него короткие черные волосы. Он брюнет, как мой отец. Мигель общительный и смелый. Он полицейский.\n\nЭто моя младшая сестра, София. Ей пятнадцать лет. Она низкая и худая. У неё длинные вьющиеся волосы. Она рыжая с зелеными глазами. София застенчивая, но очень умная. Она студентка, как и я.\n\nТеперь я хочу рассказать о моих друзьях. Вон тот парень - Пабло, мой лучший друг. Пабло низкий и толстый, но очень веселый и любопытный. У него короткие каштановые волосы. Его глаза серые. Он носит усы. Пабло очень искренний и верный. Он всегда веселый.\n\nВон та девушка - Кармен. Она моя подруга из университета. Кармен очень красивая. Она высокая и стройная. У неё прямые черные волосы. Её глаза большие и карие. У неё густые брови и полные губы. Кармен серьезная и спокойная, но также очень нежная со своими друзьями.\n\nВсе мои друзья и моя семья очень важны для меня. Мы все разные: высокие и низкие, веселые и серьезные, блондины и брюнеты. Но все мы хорошие друзья и счастливая семья.',
+      audioUrl: '/audio/lesson-2-3-reading.mp3'
     },
-    exercises: []
+    exercises: [
+      'ex-2-3-1',
+      'ex-2-3-2',
+      'ex-2-3-3',
+      'ex-2-3-4',
+      'ex-2-3-5',
+      'ex-2-3-6',
+      'ex-2-3-7',
+      'ex-2-3-8',
+      'ex-2-3-9',
+      'ex-2-3-10',
+      'ex-2-3-11',
+      'ex-2-3-12',
+      'ex-2-3-13',
+      'ex-2-3-14',
+      'ex-2-3-15'
+    ]
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
@@ -9928,6 +10280,367 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'У моей матери есть семья и деньги.', correct: 'Mi madre tiene familia y dinero' },
       { russian: 'Вы правы, это трудно.', correct: 'Tiene razón, es difícil', alternatives: ['Usted tiene razón, es difícil'] },
       { russian: 'Мы боимся, но должны идти.', correct: 'Tenemos miedo pero tenemos que ir', alternatives: ['Nosotros tenemos miedo pero tenemos que ir'] }
+    ]
+  },
+
+  // УПРАЖНЕНИЯ ДЛЯ МОДУЛЯ 2 УРОК 3
+  'ex-2-3-1': {
+    id: 'ex-2-3-1',
+    type: 'grammar',
+    title: 'Указательные местоимения: ESTE, ESTA, ESTOS, ESTAS',
+    description: 'Выберите правильную форму указательного местоимения ESTE (этот/эта/эти - близко)',
+    questions: [
+      { sentence: '... chico es alto y rubio.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 0 },
+      { sentence: '... chica es guapa y alegre.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
+      { sentence: '... ojos son azules.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '... cejas son pobladas.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 3 },
+      { sentence: '... pelo es largo y liso.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 0 },
+      { sentence: '... nariz es recta.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
+      { sentence: '... hombre es viejo.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 0 },
+      { sentence: '... mujer es delgada.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
+      { sentence: '... niños son alegres.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '... gafas son nuevas.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 3 },
+      { sentence: '... barba es larga.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
+      { sentence: '... labios son carnosos.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '... hermano es trabajador.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 0 },
+      { sentence: '... hermana es inteligente.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
+      { sentence: '... amigos son sinceros.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-2': {
+    id: 'ex-2-3-2',
+    type: 'grammar',
+    title: 'Указательные местоимения: ESE, ESA, ESOS, ESAS',
+    description: 'Выберите правильную форму указательного местоимения ESE (тот/та/те - на расстоянии)',
+    questions: [
+      { sentence: '... señor es bajo.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 0 },
+      { sentence: '... señora es alta.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 1 },
+      { sentence: '... estudiantes son trabajadores.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 2 },
+      { sentence: '... profesoras son inteligentes.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 3 },
+      { sentence: '... pelo es corto.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 0 },
+      { sentence: '... nariz es chata.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 1 },
+      { sentence: '... bigotes son negros.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 2 },
+      { sentence: '... facciones son bonitas.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 3 },
+      { sentence: '... niño es perezoso.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 0 },
+      { sentence: '... amiga es generosa.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 1 },
+      { sentence: '... hombres son valientes.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 2 },
+      { sentence: '... mujeres son educadas.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 3 },
+      { sentence: '... libro es interesante.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 0 },
+      { sentence: '... casa es grande.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 1 },
+      { sentence: '... ojos son verdes.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-3': {
+    id: 'ex-2-3-3',
+    type: 'grammar',
+    title: 'Указательные местоимения: AQUEL, AQUELLA, AQUELLOS, AQUELLAS',
+    description: 'Выберите правильную форму указательного местоимения AQUEL (вон тот/та/те - далеко)',
+    questions: [
+      { sentence: '... chico es moreno.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 0 },
+      { sentence: '... chica tiene pelo cano.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 1 },
+      { sentence: '... hermanos son altos.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 2 },
+      { sentence: '... hermanas son guapas.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 3 },
+      { sentence: '... hombre es gordo.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 0 },
+      { sentence: '... mujer es delgada.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 1 },
+      { sentence: '... niños son curiosos.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 2 },
+      { sentence: '... gafas son caras.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 3 },
+      { sentence: '... señor es calvo.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 0 },
+      { sentence: '... señora es vieja.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 1 },
+      { sentence: '... estudiantes son serios.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 2 },
+      { sentence: '... profesoras son cortés.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 3 },
+      { sentence: '... padre es tranquilo.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 0 },
+      { sentence: '... madre es cariñosa.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 1 },
+      { sentence: '... amigos son fieles.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-4': {
+    id: 'ex-2-3-4',
+    type: 'grammar',
+    title: 'Смешанные указательные местоимения',
+    description: 'Выберите правильную форму указательного местоимения (este/ese/aquel)',
+    questions: [
+      { sentence: '... (близко) amigo es alegre.', options: ['Este', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: '... (там) mujer es bonita.', options: ['Esta', 'Esa', 'Aquella'], correct: 1 },
+      { sentence: '... (вон там) señor es viejo.', options: ['Este', 'Ese', 'Aquel'], correct: 2 },
+      { sentence: '... (здесь) ojos son pardos.', options: ['Estos', 'Esos', 'Aquellos'], correct: 0 },
+      { sentence: '... (там) cejas son pobladas.', options: ['Estas', 'Esas', 'Aquellas'], correct: 1 },
+      { sentence: '... (вон там) labios son finos.', options: ['Estos', 'Esos', 'Aquellos'], correct: 2 },
+      { sentence: '... (близко) hermana es inteligente.', options: ['Esta', 'Esa', 'Aquella'], correct: 0 },
+      { sentence: '... (там) hermano es trabajador.', options: ['Este', 'Ese', 'Aquel'], correct: 1 },
+      { sentence: '... (вон там) niños son tímidos.', options: ['Estos', 'Esos', 'Aquellos'], correct: 2 },
+      { sentence: '... (здесь) pelo es rizado.', options: ['Este', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: '... (там) nariz es ancha.', options: ['Esta', 'Esa', 'Aquella'], correct: 1 },
+      { sentence: '... (вон там) barba es larga.', options: ['Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '... (близко) estudiante es puntual.', options: ['Este', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: '... (там) profesor es serio.', options: ['Este', 'Ese', 'Aquel'], correct: 1 },
+      { sentence: '... (вон там) chica es pelirroja.', options: ['Esta', 'Esa', 'Aquella'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-5': {
+    id: 'ex-2-3-5',
+    type: 'grammar',
+    title: 'Указательные местоимения без существительного',
+    description: 'Выберите правильную форму указательного местоимения, которое заменяет существительное',
+    questions: [
+      { sentence: 'Mi hermano es rubio, pero ... es moreno. (тот)', options: ['este', 'ese', 'aquel'], correct: 1 },
+      { sentence: '... es mi amiga. (эта)', options: ['Esta', 'Esa', 'Aquella'], correct: 0 },
+      { sentence: '¿Qué chico es más alto: este o ...? (тот)', options: ['este', 'ese', 'aquel'], correct: 1 },
+      { sentence: '... son mis profesores. (вон те)', options: ['Estos', 'Esos', 'Aquellos'], correct: 2 },
+      { sentence: 'Esta chica es alegre, pero ... es triste. (та)', options: ['esta', 'esa', 'aquella'], correct: 1 },
+      { sentence: '¿... es tu padre? (этот)', options: ['Este', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: 'Estos ojos son azules, ... son verdes. (те)', options: ['estos', 'esos', 'aquellos'], correct: 1 },
+      { sentence: '... tiene pelo largo. (эта)', options: ['Esta', 'Esa', 'Aquella'], correct: 0 },
+      { sentence: 'Este es alto, ... es bajo. (вон тот)', options: ['este', 'ese', 'aquel'], correct: 2 },
+      { sentence: '... es mi hermana. (та)', options: ['Esta', 'Esa', 'Aquella'], correct: 1 },
+      { sentence: 'Estas son mis gafas, ... son tuyas. (те)', options: ['estas', 'esas', 'aquellas'], correct: 1 },
+      { sentence: '... son inteligentes. (эти)', options: ['Estos', 'Esos', 'Aquellos'], correct: 0 },
+      { sentence: 'Mi amigo es trabajador, ... es perezoso. (вон тот)', options: ['este', 'ese', 'aquel'], correct: 2 },
+      { sentence: '... es mi libro. (этот)', options: ['Este', 'Ese', 'Aquel'], correct: 0 },
+      { sentence: 'Esta mujer es joven, ... es vieja. (та)', options: ['esta', 'esa', 'aquella'], correct: 1 }
+    ]
+  },
+
+  'ex-2-3-6': {
+    id: 'ex-2-3-6',
+    type: 'grammar',
+    title: 'Нейтральные формы: ESTO, ESO, AQUELLO',
+    description: 'Выберите правильную нейтральную форму указательного местоимения',
+    questions: [
+      { sentence: '¿Qué es ...? (это - близко)', options: ['esto', 'eso', 'aquello'], correct: 0 },
+      { sentence: '... es interesante. (то)', options: ['Esto', 'Eso', 'Aquello'], correct: 1 },
+      { sentence: 'No entiendo ... . (то - далеко)', options: ['esto', 'eso', 'aquello'], correct: 2 },
+      { sentence: '... es mi pelo. (это - здесь)', options: ['Esto', 'Eso', 'Aquello'], correct: 0 },
+      { sentence: '¿Qué es ...? - Son mis gafas. (то)', options: ['esto', 'eso', 'aquello'], correct: 1 },
+      { sentence: '... es bueno - ser alegre. (это)', options: ['Esto', 'Eso', 'Aquello'], correct: 0 },
+      { sentence: '... de ser perezoso es malo. (то)', options: ['Esto', 'Eso', 'Aquello'], correct: 1 },
+      { sentence: '... no me gusta. (то)', options: ['Esto', 'Eso', 'Aquello'], correct: 1 },
+      { sentence: '¿Para qué sirve ...? (это)', options: ['esto', 'eso', 'aquello'], correct: 0 },
+      { sentence: '... fue terrible. (то - далеко)', options: ['Esto', 'Eso', 'Aquello'], correct: 2 },
+      { sentence: '... es importante para mi familia. (это)', options: ['Esto', 'Eso', 'Aquello'], correct: 0 },
+      { sentence: '... era su problema. (то - далеко)', options: ['Esto', 'Eso', 'Aquello'], correct: 2 },
+      { sentence: '¿Qué es ... que veo? (это)', options: ['esto', 'eso', 'aquello'], correct: 0 },
+      { sentence: '¿Cómo se llama ...? (то - далеко)', options: ['esto', 'eso', 'aquello'], correct: 2 },
+      { sentence: '... es una cicatriz. (то - далеко)', options: ['Esto', 'Eso', 'Aquello'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-7': {
+    id: 'ex-2-3-7',
+    type: 'grammar',
+    title: 'Наречия места с указательными местоимениями',
+    description: 'Выберите правильное наречие места (aquí/ahí/allí)',
+    questions: [
+      { sentence: '... está mi amigo. (здесь)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
+      { sentence: '... está tu hermana. (там)', options: ['Aquí', 'Ahí', 'Allí'], correct: 1 },
+      { sentence: '... vive mi profesor. (там - далеко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 2 },
+      { sentence: 'Este chico está ... . (здесь)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: 'Esa mujer está ... . (там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: 'Aquel hombre está ... . (там - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: 'Ven ... , mira esta foto. (сюда)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: 'Mira ... , ese chico es guapo. (туда)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: 'Vamos ... , mi familia está allá. (туда - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: '... tenemos a este niño alegre. (здесь)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
+      { sentence: '... está ese señor bajo. (там)', options: ['Aquí', 'Ahí', 'Allí'], correct: 1 },
+      { sentence: 'Mira ... , aquella mujer es muy alta. (туда - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: 'Este amigo ... es muy inteligente. (здесь)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: 'Ese señor ... es mi padre. (там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: 'Aquellos estudiantes ... son trabajadores. (там - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-8': {
+    id: 'ex-2-3-8',
+    type: 'grammar',
+    title: 'Притяжательные местоимения: MI, TU, SU',
+    description: 'Выберите правильную форму притяжательного местоимения (mi/mis, tu/tus, su/sus)',
+    questions: [
+      { sentence: '... hermano es alto. (мой)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 0 },
+      { sentence: '... hermanos son altos. (мои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 1 },
+      { sentence: '... amiga es alegre. (твоя)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 2 },
+      { sentence: '... amigas son alegres. (твои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 3 },
+      { sentence: '... pelo es largo. (мои волосы)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 0 },
+      { sentence: '... ojos son azules. (твои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 3 },
+      { sentence: '... padre es viejo. (его)', options: ['Su', 'Sus', 'Mi', 'Mis'], correct: 0 },
+      { sentence: '... hijos son inteligentes. (их)', options: ['Su', 'Sus', 'Tu', 'Tus'], correct: 1 },
+      { sentence: '... nariz es recta. (его)', options: ['Su', 'Sus', 'Mi', 'Mis'], correct: 0 },
+      { sentence: '... gafas son nuevas. (мои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 1 },
+      { sentence: '... barba es larga. (твоя)', options: ['Mi', 'Tu', 'Su', 'Mis'], correct: 1 },
+      { sentence: '... bigotes son negros. (его)', options: ['Su', 'Sus', 'Mi', 'Mis'], correct: 1 },
+      { sentence: '... hermana es guapa. (моя)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 0 },
+      { sentence: '... profesores son serios. (твои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 3 },
+      { sentence: '... madre es cariñosa. (его)', options: ['Su', 'Sus', 'Mi', 'Mis'], correct: 0 }
+    ]
+  },
+
+  'ex-2-3-9': {
+    id: 'ex-2-3-9',
+    type: 'grammar',
+    title: 'Притяжательные местоимения: NUESTRO, VUESTRO',
+    description: 'Выберите правильную форму притяжательного местоимения (nuestro/nuestra/nuestros/nuestras, vuestro/vuestra/vuestros/vuestras)',
+    questions: [
+      { sentence: '... padre es alto. (наш)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 0 },
+      { sentence: '... madre es guapa. (наша)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 1 },
+      { sentence: '... hermanos son alegres. (наши - мн.ч., м.р.)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
+      { sentence: '... hermanas son inteligentes. (наши - мн.ч., ж.р.)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 3 },
+      { sentence: '... amigo es trabajador. (ваш)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 0 },
+      { sentence: '... amiga es generosa. (ваша)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 1 },
+      { sentence: '... ojos son verdes. (ваши)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 2 },
+      { sentence: '... cejas son pobladas. (ваши)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 3 },
+      { sentence: '... profesor es serio. (наш)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 0 },
+      { sentence: '... profesora es inteligente. (наша)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 1 },
+      { sentence: '... labios son carnosos. (наши)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
+      { sentence: '... gafas son nuevas. (ваши)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 3 },
+      { sentence: '... pelo es corto. (наши волосы)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 0 },
+      { sentence: '... familia es grande. (ваша)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 1 },
+      { sentence: '... hijos son pequeños. (наши)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-10': {
+    id: 'ex-2-3-10',
+    type: 'grammar',
+    title: 'Все притяжательные местоимения',
+    description: 'Выберите правильную форму притяжательного местоимения',
+    questions: [
+      { sentence: '... hermano es rubio. (мой)', options: ['Mi', 'Tu', 'Nuestro', 'Vuestro'], correct: 0 },
+      { sentence: '... hermana es morena. (твоя)', options: ['Mi', 'Tu', 'Nuestra', 'Su'], correct: 1 },
+      { sentence: '... padre es viejo. (наш)', options: ['Mi', 'Tu', 'Nuestro', 'Vuestro'], correct: 2 },
+      { sentence: '... madre es joven. (ваша)', options: ['Mi', 'Tu', 'Nuestra', 'Vuestra'], correct: 3 },
+      { sentence: '... ojos son azules. (мои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 1 },
+      { sentence: '... pelo es largo. (твои волосы)', options: ['Mi', 'Tu', 'Nuestro', 'Su'], correct: 1 },
+      { sentence: '... hijos son altos. (его)', options: ['Mi', 'Su', 'Sus', 'Tus'], correct: 2 },
+      { sentence: '... amigos son alegres. (наши)', options: ['Mi', 'Nuestro', 'Nuestros', 'Vuestros'], correct: 2 },
+      { sentence: '... profesora es inteligente. (ваша)', options: ['Mi', 'Tu', 'Nuestra', 'Vuestra'], correct: 3 },
+      { sentence: '... gafas son nuevas. (мои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 1 },
+      { sentence: '... casa es grande. (наша)', options: ['Mi', 'Tu', 'Nuestra', 'Vuestra'], correct: 2 },
+      { sentence: '... barba es larga. (твоя)', options: ['Mi', 'Tu', 'Su', 'Nuestra'], correct: 1 },
+      { sentence: '... nariz es recta. (его)', options: ['Mi', 'Tu', 'Su', 'Nuestro'], correct: 2 },
+      { sentence: '... cejas son pobladas. (наши)', options: ['Mi', 'Nuestro', 'Nuestras', 'Vuestras'], correct: 2 },
+      { sentence: '... amiga es guapa. (ваша)', options: ['Mi', 'Tu', 'Nuestra', 'Vuestra'], correct: 3 }
+    ]
+  },
+
+  'ex-2-3-11': {
+    id: 'ex-2-3-11',
+    type: 'grammar',
+    title: 'Притяжательные местоимения-существительные',
+    description: 'Выберите правильную форму притяжательного местоимения-существительного (el mío, el tuyo, etc.)',
+    questions: [
+      { sentence: 'Mi hermano es rubio. ¿Y ...? (твой)', options: ['el mío', 'el tuyo', 'el suyo', 'el nuestro'], correct: 1 },
+      { sentence: 'Tu amiga es alegre, pero ... es triste. (моя)', options: ['la mía', 'la tuya', 'la suya', 'la nuestra'], correct: 0 },
+      { sentence: 'Mis ojos son azules, pero ... son pardos. (его)', options: ['los míos', 'los tuyos', 'los suyos', 'los nuestros'], correct: 2 },
+      { sentence: 'Nuestros hijos son pequeños, pero ... son altos. (ваши)', options: ['los míos', 'los tuyos', 'los suyos', 'los vuestros'], correct: 3 },
+      { sentence: 'Mi pelo es largo, ... es corto. (твои волосы)', options: ['el mío', 'el tuyo', 'el suyo', 'el nuestro'], correct: 1 },
+      { sentence: 'Tus ojos son verdes, ... son azules. (мои)', options: ['los míos', 'los tuyos', 'los suyos', 'los nuestros'], correct: 0 },
+      { sentence: 'Su nariz es recta, ... es chata. (наша)', options: ['la mía', 'la tuya', 'la suya', 'la nuestra'], correct: 3 },
+      { sentence: 'Nuestro padre es alto, ... es bajo. (ваш)', options: ['el mío', 'el tuyo', 'el suyo', 'el vuestro'], correct: 3 },
+      { sentence: 'Esta familia es ... . (моя)', options: ['mía', 'tuya', 'suya', 'nuestra'], correct: 0 },
+      { sentence: 'Este amigo es ... . (твой)', options: ['mío', 'tuyo', 'suyo', 'nuestro'], correct: 1 },
+      { sentence: '¿Estas gafas son ...? (твои)', options: ['mías', 'tuyas', 'suyas', 'nuestras'], correct: 1 },
+      { sentence: 'Estos hermanos son ... . (его)', options: ['míos', 'tuyos', 'suyos', 'nuestros'], correct: 2 },
+      { sentence: 'Mi hermana es guapa, ... también. (твоя)', options: ['la mía', 'la tuya', 'la suya', 'la nuestra'], correct: 1 },
+      { sentence: 'Tu hermano es trabajador, ... es perezoso. (мой)', options: ['el mío', 'el tuyo', 'el suyo', 'el nuestro'], correct: 0 },
+      { sentence: 'Su casa es pequeña, ... es grande. (наша)', options: ['la mía', 'la tuya', 'la suya', 'la nuestra'], correct: 3 }
+    ]
+  },
+
+  'ex-2-3-12': {
+    id: 'ex-2-3-12',
+    type: 'grammar',
+    title: 'Указательные и притяжательные местоимения',
+    description: 'Выберите правильную форму местоимения (указательное или притяжательное)',
+    questions: [
+      { sentence: '... hermano es alto. (мой)', options: ['Mi', 'Este', 'Tu', 'Ese'], correct: 0 },
+      { sentence: '... chico es rubio. (этот)', options: ['Mi', 'Este', 'Tu', 'Ese'], correct: 1 },
+      { sentence: '... amiga es alegre. (твоя)', options: ['Mi', 'Esta', 'Tu', 'Esa'], correct: 2 },
+      { sentence: '... mujer es guapa. (та)', options: ['Mi', 'Esta', 'Tu', 'Esa'], correct: 3 },
+      { sentence: '... padre es serio. (наш)', options: ['Nuestro', 'Este', 'Vuestro', 'Ese'], correct: 0 },
+      { sentence: '... señor es viejo. (тот)', options: ['Nuestro', 'Este', 'Vuestro', 'Ese'], correct: 3 },
+      { sentence: '... ojos son azules. (мои)', options: ['Mis', 'Estos', 'Tus', 'Esos'], correct: 0 },
+      { sentence: '... labios son carnosos. (эти)', options: ['Mis', 'Estos', 'Tus', 'Esos'], correct: 1 },
+      { sentence: '... pelo es largo. (твои волосы)', options: ['Mi', 'Este', 'Tu', 'Ese'], correct: 2 },
+      { sentence: '... hombre está aquí. (этот)', options: ['Mi', 'Este', 'Tu', 'Ese'], correct: 1 },
+      { sentence: '... familia es grande. (ваша)', options: ['Nuestra', 'Esta', 'Vuestra', 'Esa'], correct: 2 },
+      { sentence: '... chica está allí. (вон та)', options: ['Mi', 'Esta', 'Aquella', 'Esa'], correct: 2 },
+      { sentence: '... hermanos son trabajadores. (наши)', options: ['Mis', 'Estos', 'Nuestros', 'Esos'], correct: 2 },
+      { sentence: '... estudiantes están ahí. (те)', options: ['Mis', 'Estos', 'Nuestros', 'Esos'], correct: 3 },
+      { sentence: '... nariz es chata. (его)', options: ['Mi', 'Esta', 'Su', 'Esa'], correct: 2 }
+    ]
+  },
+
+  'ex-2-3-13': {
+    id: 'ex-2-3-13',
+    type: 'grammar',
+    title: 'Согласование местоимений с существительными',
+    description: 'Выберите правильную форму местоимения, которая согласуется с существительным',
+    questions: [
+      { sentence: '... cejas son pobladas. (эти)', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 3 },
+      { sentence: '... labios son finos. (эти)', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '... gafas son nuevas. (мои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 1 },
+      { sentence: '... pelo es rizado. (мои волосы)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 0 },
+      { sentence: '... nariz es recta. (эта)', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
+      { sentence: '... ojos son verdes. (твои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 3 },
+      { sentence: '... barba es larga. (его)', options: ['Su', 'Sus', 'Mi', 'Mis'], correct: 0 },
+      { sentence: '... bigotes son negros. (esos)', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 2 },
+      { sentence: '... facciones son bonitas. (наши)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 3 },
+      { sentence: '... hermanos son altos. (вон те)', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 2 },
+      { sentence: '... hermanas son guapas. (ваши)', options: ['Vuestro', 'Vuestra', 'Vuestros', 'Vuestras'], correct: 3 },
+      { sentence: '... estudiantes son inteligentes. (эти)', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
+      { sentence: '... profesoras son serias. (те)', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 3 },
+      { sentence: '... amigos son alegres. (наши)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 2 },
+      { sentence: '... amigas son generosas. (твои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 3 }
+    ]
+  },
+
+  'ex-2-3-14': {
+    id: 'ex-2-3-14',
+    type: 'translation',
+    title: 'Перевод: отработка грамматики',
+    description: 'Переведите предложения с русского на испанский, используя указательные и притяжательные местоимения',
+    questions: [
+      { russian: 'Этот мальчик высокий.', correct: 'Este chico es alto.' },
+      { russian: 'Та девочка красивая.', correct: 'Esa chica es guapa.' },
+      { russian: 'Вон тот мужчина старый.', correct: 'Aquel hombre es viejo.' },
+      { russian: 'Мой брат трудолюбивый.', correct: 'Mi hermano es trabajador.' },
+      { russian: 'Твоя сестра умная.', correct: 'Tu hermana es inteligente.' },
+      { russian: 'Его отец серьезный.', correct: 'Su padre es serio.' },
+      { russian: 'Наша мама добрая.', correct: 'Nuestra madre es bondadosa.' },
+      { russian: 'Ваши глаза зеленые.', correct: 'Vuestros ojos son verdes.' },
+      { russian: 'Эти волосы длинные.', correct: 'Este pelo es largo.' },
+      { russian: 'Те очки новые.', correct: 'Esas gafas son nuevas.' },
+      { russian: 'Что это?', correct: '¿Qué es esto?' },
+      { russian: 'Это интересно.', correct: 'Eso es interesante.' },
+      { russian: 'Мой друг здесь.', correct: 'Mi amigo está aquí.' },
+      { russian: 'Твой брат блондин, а мой брюнет.', correct: 'Tu hermano es rubio, pero el mío es moreno.' },
+      { russian: 'Эта семья моя.', correct: 'Esta familia es mía.' }
+    ]
+  },
+
+  'ex-2-3-15': {
+    id: 'ex-2-3-15',
+    type: 'translation',
+    title: 'Перевод: словарь урока (внешность и характер)',
+    description: 'Переведите предложения с русского на испанский, используя словарь урока о внешности и характере',
+    questions: [
+      { russian: 'Мой брат высокий и стройный.', correct: 'Mi hermano es alto y delgado.' },
+      { russian: 'Его сестра красивая, у неё голубые глаза.', correct: 'Su hermana es guapa, tiene ojos azules.' },
+      { russian: 'Этот мужчина низкий и толстый.', correct: 'Este hombre es bajo y gordo.' },
+      { russian: 'Та женщина имеет длинные вьющиеся волосы.', correct: 'Esa mujer tiene pelo largo y rizado.' },
+      { russian: 'Вон тот мальчик блондин с зелеными глазами.', correct: 'Aquel chico es rubio con ojos verdes.' },
+      { russian: 'Моя подруга веселая и общительная.', correct: 'Mi amiga es alegre y comunicativa.' },
+      { russian: 'Твой отец серьезный и трудолюбивый.', correct: 'Tu padre es serio y trabajador.' },
+      { russian: 'Этот студент умный и честный.', correct: 'Este estudiante es inteligente y honrado.' },
+      { russian: 'Та девочка застенчивая, но добрая.', correct: 'Esa chica es tímida, pero bondadosa.' },
+      { russian: 'У него прямой нос и полные губы.', correct: 'Él tiene nariz recta y labios carnosos.' },
+      { russian: 'У неё густые брови и большие глаза.', correct: 'Ella tiene cejas pobladas y ojos grandes.' },
+      { russian: 'Этот господин имеет очки и бороду.', correct: 'Este señor tiene gafas y barba.' },
+      { russian: 'Мой отец старый, у него седые волосы.', correct: 'Mi padre es viejo, tiene pelo cano.' },
+      { russian: 'Вон те дети веселые и любопытные.', correct: 'Aquellos niños son alegres y curiosos.' },
+      { russian: 'Наша учительница молодая, умная и добрая.', correct: 'Nuestra profesora es joven, inteligente y bondadosa.' }
     ]
   }
 }
