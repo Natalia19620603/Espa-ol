@@ -1,0 +1,45 @@
+name: Auto Deploy to Vercel
+
+# Запускается при каждом push в main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types: [closed]
+
+# Даем права на запись в репозиторий
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    # Запускаем только если PR смержен или есть прямой push в main
+    if: github.event_name == 'push' || (github.event.pull_request.merged == true)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update deployment trigger
+        run: |
+          echo "# Deployment trigger" > .vercel-trigger
+          echo "# Auto deploy: $(date -u)" >> .vercel-trigger
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .vercel-trigger
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🚀 Auto deploy trigger [skip ci]"
+            git push origin main
+          fi
