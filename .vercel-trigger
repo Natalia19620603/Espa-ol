@@ -1,8 +1,3 @@
 # Deployment trigger
-# Force deploy: Module 2 Lesson 3 - Full Content
-# Deploy timestamp: Wed Dec 10 15:50:00 UTC 2025
-#
-# Changes included:
-# - Grammar section with 6 collapsible sections
-# - 15 exercises (225 questions total)
-# - New reading text "Mis amigos y mi familia"
+# Auto deploy: Wed Dec 10 15:50:22 UTC 2025
+# PR #110: Force deploy: полный контент Модуля 2 Урока 3
