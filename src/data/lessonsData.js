@@ -2171,7 +2171,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
   },
   'lesson-2-3': {
     id: 'lesson-2-3',
-    title: 'Урок 3: Черты характера. Описание внешности',
+    title: 'Модуль 2 Урок 3 Указательные местоимения и наречия. Притяжательные местоимения . Черты характера. Описание внешности',
     moduleId: 'module-2',
     grammar: {
       title: 'Указательные местоимения и наречия. Притяжательные местоимения',
@@ -10342,6 +10342,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Указательные местоимения: ESTE, ESTA, ESTOS, ESTAS',
     description: 'Выберите правильную форму указательного местоимения ESTE (этот/эта/эти - близко)',
+    reviewTime: 10,
     questions: [
       { sentence: '... chico es alto y rubio.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 0 },
       { sentence: '... chica es guapa y alegre.', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 1 },
@@ -10366,6 +10367,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Указательные местоимения: ESE, ESA, ESOS, ESAS',
     description: 'Выберите правильную форму указательного местоимения ESE (тот/та/те - на расстоянии)',
+    reviewTime: 10,
     questions: [
       { sentence: '... señor es bajo.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 0 },
       { sentence: '... señora es alta.', options: ['Ese', 'Esa', 'Esos', 'Esas'], correct: 1 },
@@ -10390,6 +10392,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Указательные местоимения: AQUEL, AQUELLA, AQUELLOS, AQUELLAS',
     description: 'Выберите правильную форму указательного местоимения AQUEL (вон тот/та/те - далеко)',
+    reviewTime: 10,
     questions: [
       { sentence: '... chico es moreno.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 0 },
       { sentence: '... chica tiene pelo cano.', options: ['Aquel', 'Aquella', 'Aquellos', 'Aquellas'], correct: 1 },
@@ -10414,6 +10417,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Смешанные указательные местоимения',
     description: 'Выберите правильную форму указательного местоимения (este/ese/aquel)',
+    reviewTime: 10,
     questions: [
       { sentence: '... (близко) amigo es alegre.', options: ['Este', 'Ese', 'Aquel'], correct: 0 },
       { sentence: '... (там) mujer es bonita.', options: ['Esta', 'Esa', 'Aquella'], correct: 1 },
@@ -10438,6 +10442,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Указательные местоимения без существительного',
     description: 'Выберите правильную форму указательного местоимения, которое заменяет существительное',
+    reviewTime: 10,
     questions: [
       { sentence: 'Mi hermano es rubio, pero ... es moreno. (тот)', options: ['este', 'ese', 'aquel'], correct: 1 },
       { sentence: '... es mi amiga. (эта)', options: ['Esta', 'Esa', 'Aquella'], correct: 0 },
@@ -10462,6 +10467,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Нейтральные формы: ESTO, ESO, AQUELLO',
     description: 'Выберите правильную нейтральную форму указательного местоимения',
+    reviewTime: 10,
     questions: [
       { sentence: '¿Qué es ...? (это - близко)', options: ['esto', 'eso', 'aquello'], correct: 0 },
       { sentence: '... es interesante. (то)', options: ['Esto', 'Eso', 'Aquello'], correct: 1 },
@@ -10486,6 +10492,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Наречия места с указательными местоимениями',
     description: 'Выберите правильное наречие места (aquí/ahí/allí)',
+    reviewTime: 10,
     questions: [
       { sentence: '... está mi amigo. (здесь)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
       { sentence: '... está tu hermana. (там)', options: ['Aquí', 'Ahí', 'Allí'], correct: 1 },
@@ -10510,6 +10517,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Притяжательные местоимения: MI, TU, SU',
     description: 'Выберите правильную форму притяжательного местоимения (mi/mis, tu/tus, su/sus)',
+    reviewTime: 10,
     questions: [
       { sentence: '... hermano es alto. (мой)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 0 },
       { sentence: '... hermanos son altos. (мои)', options: ['Mi', 'Mis', 'Tu', 'Tus'], correct: 1 },
@@ -10534,6 +10542,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Притяжательные местоимения: NUESTRO, VUESTRO',
     description: 'Выберите правильную форму притяжательного местоимения (nuestro/nuestra/nuestros/nuestras, vuestro/vuestra/vuestros/vuestras)',
+    reviewTime: 10,
     questions: [
       { sentence: '... padre es alto. (наш)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 0 },
       { sentence: '... madre es guapa. (наша)', options: ['Nuestro', 'Nuestra', 'Nuestros', 'Nuestras'], correct: 1 },
@@ -10558,6 +10567,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Все притяжательные местоимения',
     description: 'Выберите правильную форму притяжательного местоимения',
+    reviewTime: 10,
     questions: [
       { sentence: '... hermano es rubio. (мой)', options: ['Mi', 'Tu', 'Nuestro', 'Vuestro'], correct: 0 },
       { sentence: '... hermana es morena. (твоя)', options: ['Mi', 'Tu', 'Nuestra', 'Su'], correct: 1 },
@@ -10582,6 +10592,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Притяжательные местоимения-существительные',
     description: 'Выберите правильную форму притяжательного местоимения-существительного (el mío, el tuyo, etc.)',
+    reviewTime: 10,
     questions: [
       { sentence: 'Mi hermano es rubio. ¿Y ...? (твой)', options: ['el mío', 'el tuyo', 'el suyo', 'el nuestro'], correct: 1 },
       { sentence: 'Tu amiga es alegre, pero ... es triste. (моя)', options: ['la mía', 'la tuya', 'la suya', 'la nuestra'], correct: 0 },
@@ -10606,6 +10617,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Указательные и притяжательные местоимения',
     description: 'Выберите правильную форму местоимения (указательное или притяжательное)',
+    reviewTime: 10,
     questions: [
       { sentence: '... hermano es alto. (мой)', options: ['Mi', 'Este', 'Tu', 'Ese'], correct: 0 },
       { sentence: '... chico es rubio. (этот)', options: ['Mi', 'Este', 'Tu', 'Ese'], correct: 1 },
@@ -10630,6 +10642,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Согласование местоимений с существительными',
     description: 'Выберите правильную форму местоимения, которая согласуется с существительным',
+    reviewTime: 10,
     questions: [
       { sentence: '... cejas son pobladas. (эти)', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 3 },
       { sentence: '... labios son finos. (эти)', options: ['Este', 'Esta', 'Estos', 'Estas'], correct: 2 },
@@ -10654,6 +10667,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'translation',
     title: 'Перевод: отработка грамматики',
     description: 'Переведите предложения с русского на испанский, используя указательные и притяжательные местоимения',
+    reviewTime: 10,
     questions: [
       { russian: 'Этот мальчик высокий.', correct: 'Este chico es alto.' },
       { russian: 'Та девочка красивая.', correct: 'Esa chica es guapa.' },
@@ -10678,6 +10692,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'translation',
     title: 'Перевод: словарь урока (внешность и характер)',
     description: 'Переведите предложения с русского на испанский, используя словарь урока о внешности и характере',
+    reviewTime: 10,
     questions: [
       { russian: 'Мой брат высокий и стройный.', correct: 'Mi hermano es alto y delgado.' },
       { russian: 'Его сестра красивая, у неё голубые глаза.', correct: 'Su hermana es guapa, tiene ojos azules.' },
