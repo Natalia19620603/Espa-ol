@@ -943,6 +943,13 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       { word: 'casado, -a', translation: 'женатый, замужняя', audioUrl: null },
       { word: 'azul', translation: 'синий', audioUrl: null },
       { word: 'verde', translation: 'зелёный', audioUrl: null },
+      { word: 'rojo, -a', translation: 'красный, -ая', audioUrl: null },
+      { word: 'amarillo, -a', translation: 'жёлтый, -ая', audioUrl: null },
+      { word: 'naranja', translation: 'оранжевый', audioUrl: null },
+      { word: 'rosa', translation: 'розовый', audioUrl: null },
+      { word: 'gris', translation: 'серый', audioUrl: null },
+      { word: 'marrón', translation: 'коричневый', audioUrl: null },
+      { word: 'morado, -a', translation: 'фиолетовый, -ая', audioUrl: null },
       { word: 'regular', translation: 'обычный', audioUrl: null },
       { word: 'raro, -a', translation: 'странный, -ая', audioUrl: null },
       { word: 'caliente', translation: 'горячий', audioUrl: null },
@@ -1374,76 +1381,30 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
       { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null }
     ],
     readingText: {
-      title: 'Diálogos: SER, ESTAR, Profesiones',
-      content: `**Diálogo 1. Приветствие и знакомство (Официальный)**
+      title: 'Mi familia',
+      content: `Me llamo Ana. Soy joven y alta. Estoy contenta. Ahora estoy en casa.
 
-— Soy Elena Petrova, de Rusia. ¿Y usted?
-— Soy Miguel Romero. Soy abogado. Mucho gusto.
-— Igualmente. ¿Es usted de Madrid?
-— No, soy español, de Sevilla. Soy constructor.
-— ¡Qué interesante! Yo soy profesora. Mi marido es músico.
-— Es una profesión interesante. ¿Está usted contenta?
-— Sí, estoy muy contenta.
+Mi padre es bueno y alto. Mi madre es guapa y alegre. Ella es joven.
 
-**Diálogo 2. Местоположение и состояние (Неофициальный)**
+Mi hermano es grande y soltero. Él es feliz. Ahora él está en casa. Mi hermana es pequeña y bonita. Ella es alumna. Ahora ella está en la ciudad.
 
-— ¡Hola! ¿Eres tú Andrés, el hermano de Lola?
-— ¡Hola! Sí, soy yo. ¿Y tú?
-— Soy Carlos, un amigo de Lola. Soy periodista. ¿Qué tal la vida, Andrés?
-— Regular, gracias. ¿Estás enfermo?
-— No, estoy en casa, no estoy enfermo, pero estoy un poco triste hoy.
-— ¡Qué lástima! ¿Dónde está Lola?
-— Está en Barcelona. Ella es camarera allí.
-— ¡Ah! ¿Y está feliz?
-— Sí, está muy feliz. ¡Hasta luego!
+Una amiga: ella es joven y guapa. Ella es estudiante. Ahora está en el museo. El museo es antiguo y grande.
 
-**Diálogo 3. Описание и национальность**
+Un amigo: él es alto y delgado. Él es alegre. Ahora está en la playa. La playa es bonita.
 
-— Buenos días. Soy David Schmidt.
-— Mucho gusto. Soy Carmen Flores.
-— Encantado. ¿Es usted de Alemania?
-— Sí, soy alemana, de Berlín. ¿Y usted?
-— Yo soy portugués, de Lisboa. Soy ingeniero, ¿y usted es arquitecta?
-— No, soy dependienta.
-— Usted es muy guapa y alta. ¿Está usted casada?
-— No, soy soltera. Usted también es guapo.
-— Gracias. Estoy contento de conocerla.
-— Igualmente.`,
-      translation: `**Диалог 1. Приветствие и знакомство (Официальный)**
+La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol es caliente. La noche es fría.`,
+      translation: `Меня зовут Ана. Я молодая и высокая. Я довольна. Сейчас я дома.
 
-— Я Елена Петрова, из России. А вы?
-— Я Мигель Ромеро. Я адвокат. Очень приятно.
-— Взаимно. Вы из Мадрида?
-— Нет, я испанец, из Севильи. Я строитель.
-— Как интересно! Я преподаватель. Мой муж - музыкант.
-— Это интересная профессия. Вы довольны?
-— Да, я очень довольна.
+Мой отец хороший и высокий. Моя мать красивая и веселая. Она молодая.
 
-**Диалог 2. Местоположение и состояние (Неофициальный)**
+Мой брат большой и холостой. Он счастливый. Сейчас он дома. Моя сестра маленькая и красивая. Она ученица. Сейчас она в городе.
 
-— Привет! Ты Андрес, брат Лолы?
-— Привет! Да, это я. А ты?
-— Я Карлос, друг Лолы. Я журналист. Как жизнь, Андрес?
-— Так себе, спасибо. Ты болен?
-— Нет, я дома, я не болен, но сегодня немного грустный.
-— Как жаль! Где Лола?
-— Она в Барселоне. Она там официантка.
-— Ах! И она счастлива?
-— Да, она очень счастлива. До встречи!
+Одна подруга: она молодая и красивая. Она студентка. Сейчас она в музее. Музей старинный и большой.
 
-**Диалог 3. Описание и национальность**
+Один друг: он высокий и стройный. Он веселый. Сейчас он на пляже. Пляж красивый.
 
-— Доброе утро. Я Дэвид Шмидт.
-— Очень приятно. Я Кармен Флорес.
-— Рад познакомиться. Вы из Германии?
-— Да, я немка, из Берлина. А вы?
-— Я португалец, из Лиссабона. Я инженер, а вы архитектор?
-— Нет, я продавец.
-— Вы очень красивая и высокая. Вы замужем?
-— Нет, я не замужем. Вы тоже красивый.
-— Спасибо. Я рад познакомиться с вами.
-— Взаимно.`,
-      audioUrl: '/audio/lesson-1-4-reading.mp3',
+Дом большой и белый. Он находится на длинной улице. День красивый. Солнце горячее. Ночь холодная.`,
+      audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: 'Soy Elena Petrova, de Rusia. ¿Y usted?' },
         { start: 5, end: 10, text: 'Soy Miguel Romero. Soy abogado.' },
@@ -1452,7 +1413,7 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
         { start: 20, end: 25, text: 'Soy David Schmidt. Soy ingeniero.' }
       ]
     },
-    exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-test']
+    exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
   },
 
   // МОДУЛЬ 2: Настоящее время
@@ -6804,25 +6765,25 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Перевод с профессиями',
     description: 'Переведите предложения на испанский. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
-      { russian: 'Я врач.', correct: 'Yo soy médico.' },
-      { russian: 'Она учитель.', correct: 'Ella es profesora.' },
-      { russian: 'Мы из Испании.', correct: 'Nosotros somos de España.' },
-      { russian: 'Он испанец.', correct: 'Él es español.' },
-      { russian: 'Ты адвокат.', correct: 'Tú eres abogado.' },
-      { russian: 'Они журналисты.', correct: 'Ellos son periodistas.' },
-      { russian: 'Я в Мадриде (сейчас).', correct: 'Yo estoy en Madrid.' },
-      { russian: 'Она довольна.', correct: 'Ella está contenta.' },
-      { russian: 'Вы (уваж.) из России.', correct: 'Usted es de Rusia.' },
+      { russian: 'Я врач.', correct: 'Soy médico.', alternatives: ['Yo soy médico.'] },
+      { russian: 'Она учитель.', correct: 'Es profesora.', alternatives: ['Ella es profesora.'] },
+      { russian: 'Мы из Испании.', correct: 'Somos de España.', alternatives: ['Nosotros somos de España.', 'Nosotras somos de España.'] },
+      { russian: 'Он испанец.', correct: 'Es español.', alternatives: ['Él es español.'] },
+      { russian: 'Ты адвокат.', correct: 'Eres abogado.', alternatives: ['Tú eres abogado.'] },
+      { russian: 'Они журналисты.', correct: 'Son periodistas.', alternatives: ['Ellos son periodistas.', 'Ellas son periodistas.'] },
+      { russian: 'Я в Мадриде (сейчас).', correct: 'Estoy en Madrid.', alternatives: ['Yo estoy en Madrid.'] },
+      { russian: 'Она довольна.', correct: 'Está contenta.', alternatives: ['Ella está contenta.'] },
+      { russian: 'Вы (уваж.) из России.', correct: 'Es de Rusia.', alternatives: ['Usted es de Rusia.'] },
       { russian: 'Мой друг - инженер.', correct: 'Mi amigo es ingeniero.' },
       { russian: 'Моя сестра - художница.', correct: 'Mi hermana es pintora.' },
-      { russian: 'Они повара из Италии.', correct: 'Ellos son cocineros de Italia.' },
-      { russian: 'Ты итальянец?', correct: '¿Eres italiano?' },
+      { russian: 'Они повара из Италии.', correct: 'Son cocineros de Italia.', alternatives: ['Ellos son cocineros de Italia.', 'Ellas son cocineras de Italia.'] },
+      { russian: 'Ты итальянец?', correct: '¿Eres italiano?', alternatives: ['¿Tú eres italiano?'] },
       { russian: 'Мой отец - строитель.', correct: 'Mi padre es constructor.' },
       { russian: 'Официанты заняты сегодня.', correct: 'Los camareros están ocupados hoy.' },
-      { russian: 'Она актриса из Франции.', correct: 'Ella es actriz de Francia.' },
-      { russian: 'Вы писатель?', correct: '¿Es usted escritor?' },
-      { russian: 'Они немцы из Берлина.', correct: 'Ellos son alemanes de Berlín.' },
-      { russian: 'Мы продавцы, мы заняты.', correct: 'Nosotros somos dependientes, estamos ocupados.' },
+      { russian: 'Она актриса из Франции.', correct: 'Es actriz de Francia.', alternatives: ['Ella es actriz de Francia.'] },
+      { russian: 'Вы писатель?', correct: '¿Es escritor?', alternatives: ['¿Es usted escritor?', '¿Usted es escritor?'] },
+      { russian: 'Они немцы из Берлина.', correct: 'Son alemanes de Berlín.', alternatives: ['Ellos son alemanes de Berlín.', 'Ellas son alemanas de Berlín.'] },
+      { russian: 'Мы продавцы, мы заняты.', correct: 'Somos dependientes, estamos ocupados.', alternatives: ['Nosotros somos dependientes, estamos ocupados.', 'Nosotras somos dependientas, estamos ocupadas.'] },
       { russian: 'Моя мама - медсестра в больнице.', correct: 'Mi madre es enfermera en el hospital.' }
     ]
   },
@@ -6877,6 +6838,98 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Девочки (chicas) некрасивые.', correct: 'Las chicas son feas.' },
       { russian: 'Вы (ustedes) на каникулах?', correct: '¿Ustedes están de vacaciones?' },
       { russian: 'Дон Хуан — высокий и стройный.', correct: 'Don Juan es alto y delgado.' }
+    ]
+  },
+  'ex-1-4-7': {
+    id: 'ex-1-4-7',
+    type: 'grammar',
+    title: 'Артикли: определенные и неопределенные',
+    description: 'Выберите правильный артикль',
+    questions: [
+      { sentence: '___ casa es grande', options: ['El', 'La', 'Un', 'Una'], correct: 1 },
+      { sentence: '___ libro es interesante', options: ['el', 'la', 'un', 'una'], correct: 0 },
+      { sentence: 'Tengo ___ amigo español', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: 'Ella es ___ médica', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ estudiantes están en el aula', options: ['El', 'La', 'Los', 'Las'], correct: 2 },
+      { sentence: 'Necesito ___ lápiz azul', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: '___ flores son bonitas', options: ['El', 'La', 'Los', 'Las'], correct: 3 },
+      { sentence: 'Tenemos ___ coche nuevo', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: '___ mano está fría', options: ['El', 'La', 'Un', 'Una'], correct: 1 },
+      { sentence: 'Veo ___ aviones grandes', options: ['el', 'la', 'los', 'las'], correct: 2 },
+      { sentence: 'Es ___ profesora de español', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ día es largo', options: ['El', 'La', 'Un', 'Una'], correct: 0 },
+      { sentence: 'Tengo ___ hermana pequeña', options: ['el', 'la', 'un', 'una'], correct: 3 },
+      { sentence: '___ ciudades son antiguas', options: ['El', 'La', 'Los', 'Las'], correct: 3 },
+      { sentence: 'Hay ___ problema difícil', options: ['el', 'la', 'un', 'una'], correct: 2 }
+    ]
+  },
+  'ex-1-4-8': {
+    id: 'ex-1-4-8',
+    type: 'grammar',
+    title: 'Согласование прилагательных в роде и числе',
+    description: 'Выберите правильную форму прилагательного',
+    questions: [
+      { sentence: 'La casa es ___', options: ['blanco', 'blanca', 'blancos', 'blancas'], correct: 1 },
+      { sentence: 'El coche es ___', options: ['nuevo', 'nueva', 'nuevos', 'nuevas'], correct: 0 },
+      { sentence: 'Los libros son ___', options: ['interesante', 'interesantes', 'interesanta', 'interesantas'], correct: 1 },
+      { sentence: 'Las flores son ___', options: ['bonito', 'bonita', 'bonitos', 'bonitas'], correct: 3 },
+      { sentence: 'El lápiz es ___', options: ['azul', 'azula', 'azules', 'azulas'], correct: 0 },
+      { sentence: 'La chica es ___', options: ['guapo', 'guapa', 'guapos', 'guapas'], correct: 1 },
+      { sentence: 'Los hermanos son ___', options: ['alto', 'alta', 'altos', 'altas'], correct: 2 },
+      { sentence: 'Las ciudades son ___', options: ['grande', 'grandes', 'granda', 'grandas'], correct: 1 },
+      { sentence: 'El museo es ___', options: ['antiguo', 'antigua', 'antiguos', 'antiguas'], correct: 0 },
+      { sentence: 'Las profesoras son ___', options: ['joven', 'jovena', 'jóvenes', 'jóvenas'], correct: 2 },
+      { sentence: 'El día es ___', options: ['largo', 'larga', 'largos', 'largas'], correct: 0 },
+      { sentence: 'La noche es ___', options: ['frío', 'fría', 'fríos', 'frías'], correct: 1 },
+      { sentence: 'Los hombres son ___', options: ['feliz', 'feliza', 'felices', 'felizas'], correct: 2 },
+      { sentence: 'Las manos están ___', options: ['caliente', 'calientes', 'calienta', 'calientas'], correct: 1 },
+      { sentence: 'El padre es ___', options: ['bueno', 'buena', 'buenos', 'buenas'], correct: 0 }
+    ]
+  },
+  'ex-1-4-9': {
+    id: 'ex-1-4-9',
+    type: 'grammar',
+    title: 'Профессии и национальности: род',
+    description: 'Выберите правильную форму профессии или национальности',
+    questions: [
+      { sentence: 'Ella es ___ (médico)', options: ['médico', 'médica', 'médicos', 'médicas'], correct: 1 },
+      { sentence: 'Él es ___ (español)', options: ['español', 'española', 'españoles', 'españolas'], correct: 0 },
+      { sentence: 'Mi hermana es ___ (profesor)', options: ['profesor', 'profesora', 'profesores', 'profesoras'], correct: 1 },
+      { sentence: 'Carlos es ___ (italiano)', options: ['italiano', 'italiana', 'italianos', 'italianas'], correct: 0 },
+      { sentence: 'María es ___ (periodista)', options: ['periodisto', 'periodista', 'periodistos', 'periodistas'], correct: 1 },
+      { sentence: 'Mi padre es ___ (ingeniero)', options: ['ingeniero', 'ingeniera', 'ingenieros', 'ingenieras'], correct: 0 },
+      { sentence: 'Ana es ___ (francés)', options: ['francés', 'francesa', 'franceses', 'francesas'], correct: 1 },
+      { sentence: 'Juan es ___ (actor)', options: ['actor', 'actora', 'actriz', 'actores'], correct: 0 },
+      { sentence: 'Ella es ___ (actor)', options: ['actor', 'actora', 'actriz', 'actores'], correct: 2 },
+      { sentence: 'Mi amigo es ___ (alemán)', options: ['alemán', 'alemana', 'alemanes', 'alemanas'], correct: 0 },
+      { sentence: 'Elena es ___ (ruso)', options: ['ruso', 'rusa', 'rusos', 'rusas'], correct: 1 },
+      { sentence: 'Mi hermano es ___ (cocinero)', options: ['cocinero', 'cocinera', 'cocineros', 'cocineras'], correct: 0 },
+      { sentence: 'La señora es ___ (portugués)', options: ['portugués', 'portuguesa', 'portugueses', 'portuguesas'], correct: 1 },
+      { sentence: 'Él es ___ (estudiante)', options: ['estudianto', 'estudiante', 'estudiantos', 'estudiantes'], correct: 1 },
+      { sentence: 'Carmen es ___ (pintor)', options: ['pintor', 'pintora', 'pintores', 'pintoras'], correct: 1 }
+    ]
+  },
+  'ex-1-4-10': {
+    id: 'ex-1-4-10',
+    type: 'grammar',
+    title: 'Множественное число существительных',
+    description: 'Выберите правильную форму множественного числа',
+    questions: [
+      { sentence: 'casa → ___', options: ['casas', 'casaes', 'cases', 'casases'], correct: 0 },
+      { sentence: 'libro → ___', options: ['libroes', 'libres', 'libros', 'libroses'], correct: 2 },
+      { sentence: 'ciudad → ___', options: ['ciudads', 'ciudades', 'ciudadses', 'ciudads'], correct: 1 },
+      { sentence: 'lápiz → ___', options: ['lápizs', 'lápizes', 'lápices', 'lápizses'], correct: 2 },
+      { sentence: 'flor → ___', options: ['flors', 'flores', 'florses', 'floraes'], correct: 1 },
+      { sentence: 'avión → ___', options: ['aviónes', 'avions', 'aviones', 'avionses'], correct: 2 },
+      { sentence: 'luz → ___', options: ['luzs', 'luzes', 'luces', 'luzses'], correct: 2 },
+      { sentence: 'profesor → ___', options: ['profesors', 'profesores', 'profesorses', 'profesoraes'], correct: 1 },
+      { sentence: 'mujer → ___', options: ['mujers', 'mujeres', 'mujerses', 'mujeraes'], correct: 1 },
+      { sentence: 'café → ___', options: ['cafés', 'cafees', 'cafeses', 'cafes'], correct: 3 },
+      { sentence: 'coche → ___', options: ['coches', 'cochees', 'cochses', 'cocha'], correct: 0 },
+      { sentence: 'estudiante → ___', options: ['estudiantees', 'estudiantes', 'estudiantos', 'estudiantses'], correct: 1 },
+      { sentence: 'país → ___', options: ['paíss', 'países', 'paiss', 'países'], correct: 3 },
+      { sentence: 'problema → ___', options: ['problemas', 'problemases', 'problemes', 'problemses'], correct: 0 },
+      { sentence: 'el lunes → ___', options: ['los luneses', 'los luns', 'los lunes', 'las lunes'], correct: 2 }
     ]
   },
 
