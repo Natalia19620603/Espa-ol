@@ -870,21 +870,52 @@ function ConjugationQuestion({ question, onAnswer }) {
 function WordOrderQuestion({ question, onAnswer }) {
   const [selectedWords, setSelectedWords] = useState([])
   const [availableWords, setAvailableWords] = useState(question.words || [])
+  const [showFeedback, setShowFeedback] = useState(false)
+  const [isCorrect, setIsCorrect] = useState(false)
+
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setSelectedWords([])
+    setAvailableWords(question.words || [])
+    setShowFeedback(false)
+    setIsCorrect(false)
+  }, [question])
 
   const handleWordClick = (word, index) => {
+    if (showFeedback) return
     setSelectedWords([...selectedWords, word])
     setAvailableWords(availableWords.filter((_, i) => i !== index))
   }
 
   const handleRemoveWord = (index) => {
+    if (showFeedback) return
     const word = selectedWords[index]
     setSelectedWords(selectedWords.filter((_, i) => i !== index))
     setAvailableWords([...availableWords, word])
   }
 
+  // Функция для нормализации ответа (убрать личные местоимения)
+  const normalizeAnswer = (answer) => {
+    const pronouns = ['yo', 'tú', 'él', 'ella', 'usted', 'nosotros', 'nosotras', 'vosotros', 'vosotras', 'ellos', 'ellas', 'ustedes']
+    const words = answer.toLowerCase().trim().split(/\s+/)
+    return words.filter(word => !pronouns.includes(word)).join(' ')
+  }
+
   const handleSubmit = () => {
-    const answer = selectedWords.join(' ')
-    onAnswer(answer)
+    const userAnswer = selectedWords.join(' ')
+    const normalizedUserAnswer = normalizeAnswer(userAnswer)
+    const normalizedCorrectAnswer = normalizeAnswer(question.correct.join ? question.correct.join(' ') : question.correct)
+
+    const correct = normalizedUserAnswer === normalizedCorrectAnswer
+    setIsCorrect(correct)
+    setShowFeedback(true)
+
+    setTimeout(() => {
+      onAnswer(userAnswer)
+      setShowFeedback(false)
+      setSelectedWords([])
+      setAvailableWords(question.words || [])
+    }, correct ? 1500 : 3000)
   }
 
   return (
@@ -896,9 +927,10 @@ function WordOrderQuestion({ question, onAnswer }) {
             <button
               key={index}
               onClick={() => handleRemoveWord(index)}
-              className={styles.selectedWord}
+              className={`${styles.selectedWord} ${showFeedback ? (isCorrect ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showFeedback}
             >
-              {word} ✕
+              {word} {!showFeedback && '✕'}
             </button>
           ))}
         </div>
@@ -908,6 +940,7 @@ function WordOrderQuestion({ question, onAnswer }) {
               key={index}
               onClick={() => handleWordClick(word, index)}
               className={styles.wordBtn}
+              disabled={showFeedback}
             >
               {word}
             </button>
@@ -915,11 +948,21 @@ function WordOrderQuestion({ question, onAnswer }) {
         </div>
         <button
           onClick={handleSubmit}
-          disabled={selectedWords.length === 0}
+          disabled={selectedWords.length === 0 || showFeedback}
           className={styles.submitBtn}
         >
           Проверить
         </button>
+        {showFeedback && !isCorrect && (
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct.join ? question.correct.join(' ') : question.correct}
+          </p>
+        )}
+        {showFeedback && isCorrect && (
+          <p className={styles.correctAnswerText} style={{color: 'green'}}>
+            Правильно! ✓
+          </p>
+        )}
       </div>
     </div>
   )
@@ -1582,20 +1625,59 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
 
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
+  // Функция для нормализации ответа (убрать личные местоимения и лишние пробелы)
+  const normalizeAnswer = (answer) => {
+    const pronouns = ['yo', 'tú', 'él', 'ella', 'usted', 'nosotros', 'nosotras', 'vosotros', 'vosotras', 'ellos', 'ellas', 'ustedes']
+    // Убираем лишние пробелы и приводим к нижнему регистру
+    const normalized = answer.toLowerCase().trim().replace(/\s+/g, ' ')
+    const words = normalized.split(/\s+/)
+    // Удаляем личные местоимения только если они стоят в начале предложения или после вопросительного знака
+    const filtered = words.filter((word, index) => {
+      // Проверяем, является ли слово личным местоимением
+      if (pronouns.includes(word)) {
+        // Оставляем местоимение только если оно не в начале и предыдущее слово не "¿"
+        return index > 0 && words[index - 1] !== '¿'
+      }
+      return true
+    })
+    return filtered.join(' ')
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault()
     if (input.trim()) {
-      const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
+      const normalizedInput = normalizeAnswer(input)
+      const normalizedCorrect = normalizeAnswer(question.correct)
+
+      // Проверяем основной ответ
+      let isCorrect = normalizedInput === normalizedCorrect
+
+      // Если не совпадает, проверяем альтернативы
+      if (!isCorrect && question.alternatives && Array.isArray(question.alternatives)) {
+        isCorrect = question.alternatives.some(alt => normalizeAnswer(alt) === normalizedInput)
+      }
+
       if (!isCorrect) {
         setShowFeedback(true)
         const id = setTimeout(() => {
           setShowFeedback(false)
           onAnswer(input)
           setInput('')
-        }, 2000)
+        }, 3000)
         setTimeoutId(id)
       } else {
         onAnswer(input)
+        setInput('')
       }
     }
   }
