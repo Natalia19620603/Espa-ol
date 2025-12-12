@@ -1856,7 +1856,7 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
         { start: 15, end: 20, text: '¡Hola! ¿Cómo estás?' }
       ]
     },
-    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms', 'ex-1-5-translation']
+    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
   },
 
   // МОДУЛЬ 2: Настоящее время
@@ -3291,7 +3291,7 @@ María: ¡Vamos!`,
         { start: 55, end: 60, text: 'Mi familia quiere conocerte. - ¡Perfecto!' }
       ]
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13', 'ex-3-1-14']
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13', 'ex-3-1-14', 'ex-1-5-translation', 'ex-3-1-summary']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -11072,6 +11072,87 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Я звоню в дверь, но они не открывают. Я не понимаю, почему.', correct: 'Llamo a la puerta, pero no abren. No comprendo por qué.', alternatives: ['Yo llamo a la puerta, pero no abren. No comprendo por qué', 'Llamo a la puerta pero no abren. No entiendo por qué', 'Llamo a la puerta, pero no abren. No entiendo por qué'] },
       { russian: 'Когда ты приходишь домой рано, ты ешь, читаешь газеты, слушаешь радио и разговариваешь со своими друзьями по телефону.', correct: 'Cuando llegas a casa temprano, comes, lees periódicos, escuchas la radio y hablas con tus amigos por teléfono.', alternatives: ['Cuando vienes a casa temprano, comes, lees periódicos, escuchas la radio y hablas con tus amigos por teléfono', 'Cuando tú llegas a casa temprano, comes, lees periódicos, escuchas la radio y hablas con tus amigos por teléfono'] },
       { russian: 'У тебя новая машина? — Нет, она не моя. Это машина моего отца, у меня нет машины.', correct: '¿Tienes un coche nuevo? — No, no es mío. Es el coche de mi padre, no tengo coche.', alternatives: ['¿Tienes coche nuevo? — No, no es mío. Es el coche de mi padre, no tengo coche', '¿Tienes un coche nuevo? No, no es mío. Es el coche de mi padre, no tengo coche'] }
+    ]
+  },
+
+  'ex-3-1-summary': {
+    id: 'ex-3-1-summary',
+    type: 'multi-part',
+    title: 'Упражнения Обобщения',
+    description: 'Комплексное упражнение на повторение пройденного материала',
+    reviewTime: 15,
+    parts: [
+      {
+        id: 'part-1',
+        title: 'Задание 1. Вставка предлогов',
+        type: 'fillblank',
+        description: 'Вставьте необходимые предлоги в пробелы',
+        questions: [
+          { sentence: 'Vamos ___ el gimnasio ___ metro.', correct: 'a, en', blanks: 2 },
+          { sentence: 'Mi hermano está ___ Alemania, él no vuelve ___ casa.', correct: 'en, a', blanks: 2 },
+          { sentence: 'Ella habla ___ teléfono ___ su jefe.', correct: 'por, con', blanks: 2 },
+          { sentence: 'Compramos un regalo ___ nuestro hijo.', correct: 'para', blanks: 1 },
+          { sentence: '¿Vas ___ pie ___ la escuela?', correct: 'a, a', blanks: 2 },
+          { sentence: 'La ensalada es ___ verduras y macarrones.', correct: 'de', blanks: 1 }
+        ]
+      },
+      {
+        id: 'part-2',
+        title: 'Задание 2. Преобразование во множественное / единственное число',
+        type: 'transformation',
+        description: 'Преобразуйте каждое предложение в противоположное число',
+        questions: [
+          { russian: 'Estos libros son aburridos.', correct: 'Este libro es aburrido.', alternatives: ['este libro es aburrido'] },
+          { russian: 'Aquella tía es inteligente.', correct: 'Aquellas tías son inteligentes.', alternatives: ['aquellas tías son inteligentes'] },
+          { russian: 'Esos museos son modernos.', correct: 'Ese museo es moderno.', alternatives: ['ese museo es moderno'] },
+          { russian: 'Este escritor es chileno.', correct: 'Estos escritores son chilenos.', alternatives: ['estos escritores son chilenos'] },
+          { russian: 'Aquellas chicas son argentinas.', correct: 'Aquella chica es argentina.', alternatives: ['aquella chica es argentina'] },
+          { russian: 'Esta camisa está aquí.', correct: 'Estas camisas están aquí.', alternatives: ['estas camisas están aquí'] }
+        ]
+      },
+      {
+        id: 'part-3',
+        title: 'Задание 3. Перевод на испанский язык',
+        type: 'translation',
+        description: 'Переведите следующие фразы с русского на испанский язык',
+        questions: [
+          { russian: 'Мой ноутбук старый, а твой — новый.', correct: 'Mi portátil es viejo, y el tuyo es nuevo.', alternatives: ['Mi portátil es viejo y el tuyo es nuevo', 'Mi ordenador portátil es viejo, y el tuyo es nuevo'] },
+          { russian: 'Их тетя живет в Испании, а наша — в Италии.', correct: 'Su tía vive en España, y la nuestra vive en Italia.', alternatives: ['Su tía vive en España y la nuestra vive en Italia', 'La tía de ellos vive en España, y la nuestra vive en Italia'] },
+          { russian: 'Это их чемодан? — Нет, не их.', correct: '¿Esta es su maleta? — No, no es suya.', alternatives: ['¿Es su maleta? — No, no es suya', '¿Esta maleta es suya? — No, no es suya'] },
+          { russian: 'Моей сестре 30 лет, а его — 25.', correct: 'Mi hermana tiene 30 años, y la suya tiene 25.', alternatives: ['Mi hermana tiene treinta años, y la suya tiene veinticinco', 'Mi hermana tiene 30 años y la suya tiene 25'] },
+          { russian: 'Мы пьем чай с нашим дедушкой.', correct: 'Bebemos té con nuestro abuelo.', alternatives: ['Tomamos té con nuestro abuelo', 'Nosotros bebemos té con nuestro abuelo'] },
+          { russian: 'Его друг живет хорошо. А Ваши (usted)?', correct: 'Su amigo vive bien. ¿Y los suyos?', alternatives: ['El amigo de él vive bien. ¿Y los suyos?', 'Su amigo vive bien. ¿Y sus amigos?'] }
+        ]
+      },
+      {
+        id: 'part-4',
+        title: 'Задание 4. Спряжение глаголов',
+        type: 'fillblank',
+        description: 'Поставьте глаголы в скобках в соответствующую форму Настоящего времени',
+        questions: [
+          { sentence: '(Ser, yo) director de la empresa. (Tener, yo) 45 años.', verb: 'ser, tener', correct: 'Soy, Tengo', blanks: 2 },
+          { sentence: '(Venir, vosotros) del trabajo tarde porque (trabajar) mucho.', verb: 'venir, trabajar', correct: 'Venís, trabajáis', blanks: 2 },
+          { sentence: '(Querer, ellos) comer ahora, pero no (tener) tiempo.', verb: 'querer, tener', correct: 'Quieren, tienen', blanks: 2 },
+          { sentence: '(Leer, tú) este artículo y (dar, tú) tu opinión.', verb: 'leer, dar', correct: 'Lees, das', blanks: 2 },
+          { sentence: 'Usted (escribir) un libro. El libro (ser) muy largo.', verb: 'escribir, ser', correct: 'escribe, es', blanks: 2 },
+          { sentence: 'Yo (oír) música. ¿(Poder, tú) subir el volumen?', verb: 'oír, poder', correct: 'oigo, Puedes', blanks: 2 },
+          { sentence: '(Ir, nosotros) a la playa porque (estar) de vacaciones.', verb: 'ir, estar', correct: 'Vamos, estamos', blanks: 2 }
+        ]
+      },
+      {
+        id: 'part-5',
+        title: 'Задание 5. Вопросы к подчеркнутым словам',
+        type: 'question-formation',
+        description: 'Сформулируйте вопрос, чтобы получить в качестве ответа подчеркнутое слово или фразу',
+        questions: [
+          { russian: 'El niño quiere un helado.', highlight: 'un helado', correct: '¿Qué quiere el niño?', alternatives: ['¿Qué quiere?'] },
+          { russian: 'La enfermera va a la clínica en autobús.', highlight: 'en autobús', correct: '¿Cómo va la enfermera a la clínica?', alternatives: ['¿Cómo va a la clínica?', '¿En qué va la enfermera a la clínica?'] },
+          { russian: 'Tengo veinte euros en mi cartera.', highlight: 'veinte euros', correct: '¿Cuánto dinero tienes en tu cartera?', alternatives: ['¿Cuántos euros tienes en tu cartera?', '¿Qué tienes en tu cartera?'] },
+          { russian: 'Mi prima trabaja en Barcelona.', highlight: 'en Barcelona', correct: '¿Dónde trabaja tu prima?', alternatives: ['¿Dónde trabaja?', '¿En qué ciudad trabaja tu prima?'] },
+          { russian: 'Usted habla con el doctor.', highlight: 'con el doctor', correct: '¿Con quién habla usted?', alternatives: ['¿Con quién habla?'] },
+          { russian: 'Estudiamos español por la noche.', highlight: 'por la noche', correct: '¿Cuándo estudiamos español?', alternatives: ['¿Cuándo estudian español?', '¿A qué hora estudian español?'] }
+        ]
+      }
     ]
   }
 }
