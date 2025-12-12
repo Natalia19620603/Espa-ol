@@ -1010,7 +1010,7 @@ function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Найдите и исправьте ошибку:</h3>
-      <p className={styles.errorSentence}>{question.sentence}</p>
+      <p className={styles.errorSentence}>{question.incorrect || question.sentence}</p>
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
@@ -1026,9 +1026,16 @@ function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
         </button>
       </form>
       {showFeedback && (
-        <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
-        </p>
+        <>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          {question.explanation && (
+            <p className={styles.explanationText}>
+              💡 {question.explanation}
+            </p>
+          )}
+        </>
       )}
     </div>
   )
