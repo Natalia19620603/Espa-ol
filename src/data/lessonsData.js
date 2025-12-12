@@ -26,14 +26,14 @@ export const modules = {
     id: 'module-1',
     title: 'Модуль 1: Знакомство с испанским',
     level: 'beginner',
-    lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4'],
+    lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4', 'lesson-1-5'],
     description: 'Алфавит, приветствия, базовая лексика, грамматические основы'
   },
   'module-2': {
     id: 'module-2',
     title: 'Модуль 2: Настоящее время',
     level: 'beginner',
-    lessons: ['lesson-2-1', 'lesson-2-2', 'lesson-2-3'],
+    lessons: ['lesson-2-2', 'lesson-2-3'],
     description: 'Настоящее время правильных глаголов'
   },
   'module-3': {
@@ -1416,11 +1416,10 @@ La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol 
     exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
   },
 
-  // МОДУЛЬ 2: Настоящее время
-  'lesson-2-1': {
-    id: 'lesson-2-1',
-    title: 'Урок 1: Предлоги, числительные, глаголы',
-    moduleId: 'module-2',
+  'lesson-1-5': {
+    id: 'lesson-1-5',
+    title: 'Урок 5: Предлоги, числительные, глаголы',
+    moduleId: 'module-1',
         grammar: {
       title: 'Простые предлоги. Числительные. Правильные глаголы',
       intro: `# Грамматика урока
@@ -1857,8 +1856,10 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
         { start: 15, end: 20, text: '¡Hola! ¿Cómo estás?' }
       ]
     },
-    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
+    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms', 'ex-1-5-translation']
   },
+
+  // МОДУЛЬ 2: Настоящее время
   'lesson-2-2': {
     id: 'lesson-2-2',
     title: 'Урок 2: Глаголы IR, TENER, OÍR',
@@ -9619,6 +9620,28 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Yo _____ (llamar) al economista porque tengo una pregunta', verb: 'llamar', correct: 'llamo' },
       { sentence: '¿Ustedes _____ (leer) sobre el tema interesante?', verb: 'leer', correct: 'leen' },
       { sentence: 'Nosotros no _____ (hablar) inglés', verb: 'hablar', correct: 'hablamos' }
+    ]
+  },
+
+  'ex-1-5-translation': {
+    id: 'ex-1-5-translation',
+    type: 'translation',
+    title: 'Перевод с русского на испанский',
+    description: 'Переведите предложения с русского на испанский',
+    reviewTime: 10,
+    questions: [
+      { russian: 'Эти подарки для моей сестры, а те подарки для нашего друга.', correct: 'Estos regalos son para mi hermana, y esos regalos son para nuestro amigo.', alternatives: ['Estos regalos son para mi hermana y esos regalos son para nuestro amigo', 'Estos regalos para mi hermana, y esos regalos para nuestro amigo'] },
+      { russian: 'Я не включаю свет, потому что не хочу читать.', correct: 'No enciendo la luz porque no quiero leer.', alternatives: ['Yo no enciendo la luz porque no quiero leer'] },
+      { russian: 'Почему вы (usted) не хотите пойти на этот концерт с вашей дочерью?', correct: '¿Por qué no quiere ir a este concierto con su hija?', alternatives: ['¿Por qué usted no quiere ir a este concierto con su hija?'] },
+      { russian: 'Вы (vosotros) не видите нашу собаку, потому что она спит под столом.', correct: 'No veis a nuestro perro porque duerme debajo de la mesa.', alternatives: ['Vosotros no veis a nuestro perro porque duerme debajo de la mesa', 'No veis nuestro perro porque duerme debajo de la mesa'] },
+      { russian: 'У моего брата есть новая машина. Она не быстрая, но очень удобная и экономичная.', correct: 'Mi hermano tiene un coche nuevo. No es rápido, pero es muy cómodo y económico.', alternatives: ['Mi hermano tiene un coche nuevo. No es rápido pero es muy cómodo y económico'] },
+      { russian: 'Где ты купил эти фрукты? — Я купил их на рынке. Там всегда свежие продукты.', correct: '¿Dónde compraste estas frutas? — Las compré en el mercado. Allí siempre hay productos frescos.', alternatives: ['¿Dónde has comprado estas frutas? — Las he comprado en el mercado. Allí siempre hay productos frescos'] },
+      { russian: 'Как чувствует себя ваш сын? — Он уже здоров, он пошел в школу. А ваша дочь? — Моя еще спит.', correct: '¿Cómo se siente su hijo? — Ya está sano, fue a la escuela. ¿Y su hija? — La mía todavía duerme.', alternatives: ['¿Cómo se siente tu hijo? — Ya está sano, fue a la escuela. ¿Y tu hija? — La mía todavía duerme'] },
+      { russian: 'Она всегда ходит в магазин вечером. Она покупает хлеб и молоко, чтобы приготовить завтрак.', correct: 'Siempre va a la tienda por la tarde. Compra pan y leche para preparar el desayuno.', alternatives: ['Ella siempre va a la tienda por la tarde. Compra pan y leche para preparar el desayuno'] },
+      { russian: 'Нам не везет! Наш новый сосед шумный, невоспитанный и ленивый. Он не работает и много спит.', correct: '¡No tenemos suerte! Nuestro nuevo vecino es ruidoso, maleducado y perezoso. No trabaja y duerme mucho.', alternatives: ['¡No tenemos suerte! Nuestro vecino nuevo es ruidoso, maleducado y perezoso. No trabaja y duerme mucho'] },
+      { russian: 'Ты должен извиниться перед ним. Он хочет, чтобы ты признал свою ошибку.', correct: 'Debes disculparte ante él. Quiere que reconozcas tu error.', alternatives: ['Tú debes disculparte ante él. Él quiere que reconozcas tu error'] },
+      { russian: 'Этот телефон уже очень старый, поэтому, когда ты звонишь, я плохо слышу тебя.', correct: 'Este teléfono ya es muy viejo, por eso cuando llamas, te oigo mal.', alternatives: ['Este teléfono ya es muy viejo por eso cuando llamas te oigo mal', 'Este teléfono ya es muy viejo, por eso cuando tú llamas, yo te oigo mal'] },
+      { russian: 'Я не могу написать это письмо, потому что не знаю немецкого языка. Мне очень жаль.', correct: 'No puedo escribir esta carta porque no sé alemán. Lo siento mucho.', alternatives: ['Yo no puedo escribir esta carta porque no sé alemán. Lo siento mucho'] }
     ]
   },
 
