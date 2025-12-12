@@ -2866,7 +2866,16 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       'ex-2-3-12',
       'ex-2-3-13',
       'ex-2-3-14',
-      'ex-2-3-15'
+      'ex-2-3-15',
+      'ex-3-1-demonstrativos',
+      'ex-3-1-posesivos-mi-tu-su',
+      'ex-3-1-posesivos-nuestro',
+      'ex-3-1-demonstrativos-sust',
+      'ex-3-1-posesivos-pronombres',
+      'ex-3-1-neutros',
+      'ex-3-1-adverbios-lugar',
+      'ex-3-1-su-aclaracion',
+      'ex-3-1-combinado'
     ]
   },
 
@@ -3096,44 +3105,69 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       { word: 'las suyas', translation: 'его/её/Ваши (ж.р., мн.ч., с артиклем)', audioUrl: null }
     ],
     readingText: {
-      title: 'Esta es mi familia',
-      content: `¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida. Ahora voy a hablar sobre mis parientes.
+      title: 'En la universidad',
+      content: `María y Carlos se encuentran en la universidad. Es el primer día del nuevo semestre.
 
-Mi familia está aquí, en esta casa. Estos son mis padres. Mi padre se llama Roberto y es médico. Trabaja en un hospital grande. Mi madre se llama Isabel y es profesora. Ella trabaja en una escuela. Mis padres son muy buenos y trabajadores.
-
-Tengo dos hermanos. Este es mi hermano mayor Carlos. Tiene veinticinco años y es estudiante de medicina. Quiere ser médico como nuestro padre. Esa es mi hermana pequeña Luisa. Tiene diez años y estudia en la escuela primaria. Le gusta leer y dibujar.
-
-Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen. Ellos viven con nosotros. Mi abuelo tiene setenta años y mi abuela tiene sesenta y ocho. Mis abuelos son muy amables. Mi abuela cocina muy bien y mi abuelo trabaja en el jardín.
-
-También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona. Es el hermano de mi padre. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. Jorge tiene quince años y Marta tiene doce.
-
-Mi tía Ana es la hermana de mi madre. Ella vive en Valencia con su marido Miguel y sus tres hijos. Estos son mis primos: Felipe, Rosa y Diego. Visitamos a nuestros tíos y primos en las vacaciones.
-
-Mis abuelos maternos, el padre y la madre de mi madre, viven en Sevilla. Vamos allí en verano. Mi abuela materna se llama Teresa y mi abuelo se llama José. Ellos son muy alegres.
-
-Tengo una madrina muy especial. Se llama Sofía y es la mejor amiga de mi madre. Ella viene a nuestra casa a menudo y me trae libros. Mi padrino es el hermano de mi padre. Se llama Antonio y vive en Granada.
-
-Los domingos toda la familia come junta. Vienen mis tíos y mis primos. Es muy bonito estar todos juntos. Hablamos, comemos y pasamos tiempo felices.
-
-Esta es mi familia. La mía es grande y alegre. ¿Y la tuya? ¿Tu familia es grande o pequeña? ¿Vives con tus padres y tus hermanos? ¿Dónde viven tus abuelos?`,
-      translation: 'Это моя семья\n\nПривет! Меня зовут Ана, и я живу в Мадриде со своей семьей. У меня большая и дружная семья. Сейчас я расскажу о моих родственниках.\n\nМоя семья здесь, в этом доме. Это мои родители. Моего отца зовут Роберто, и он врач. Он работает в большой больнице. Мою маму зовут Исабель, и она учительница. Она работает в школе. Мои родители очень хорошие и трудолюбивые.\n\nУ меня двое братьев и сестер. Это мой старший брат Карлос. Ему двадцать пять лет, и он студент медицины. Он хочет быть врачом, как наш отец. Та - моя младшая сестра Луиза. Ей десять лет, и она учится в начальной школе. Она любит читать и рисовать.\n\nЗдесь мои дедушка и бабушка по отцовской линии. Тот - мой дедушка Пабло, а та - моя бабушка Кармен. Они живут с нами. Моему дедушке семьдесят лет, а моей бабушке шестьдесят восемь. Мои бабушка и дедушка очень добрые. Моя бабушка очень хорошо готовит, а мой дедушка работает в саду.\n\nУ меня также много дядей, тетей и двоюродных братьев и сестер. Мой дядя Педро живет там, в Барселоне. Он брат моего отца. Его жена - моя тетя Лаура. У них двое детей: мои двоюродные брат и сестра Хорхе и Марта. Хорхе пятнадцать лет, а Марте двенадцать.\n\nМоя тетя Ана - сестра моей матери. Она живет в Валенсии со своим мужем Мигелем и тремя детьми. Это мои двоюродные братья и сестры: Фелипе, Роса и Диего. Мы навещаем наших дядей, тетей и двоюродных братьев и сестер на каникулах.\n\nМои бабушка и дедушка по материнской линии, отец и мать моей мамы, живут в Севилье. Мы ездим туда летом. Мою бабушку по материнской линии зовут Тереса, а дедушку - Хосе. Они очень веселые.\n\nУ меня есть особенная крестная. Ее зовут София, и она лучшая подруга моей мамы. Она часто приходит к нам домой и приносит мне книги. Мой крестный - брат моего отца. Его зовут Антонио, и он живет в Гранаде.\n\nПо воскресеньям вся семья обедает вместе. Приходят мои дяди, тети и двоюродные братья и сестры. Очень хорошо быть всем вместе. Мы разговариваем, едим и проводим время счастливо.\n\nЭто моя семья. Моя большая и веселая. А твоя? Твоя семья большая или маленькая? Ты живешь с родителями и братьями и сестрами? Где живут твои бабушка и дедушка?',
+María: ¡Hola! ¿Cómo te llamas?
+Carlos: Me llamo Carlos. ¿Y tú?
+María: Soy María. ¿Eres estudiante aquí?
+Carlos: Sí, estudio medicina. ¿Qué estudias tú?
+María: Estudio literatura española. ¿De dónde eres?
+Carlos: Soy de Valencia. ¿Y tú, de dónde eres?
+María: Soy de Madrid. Vivo con mi familia aquí. ¿Dónde vives tú?
+Carlos: Vivo en una residencia estudiantil cerca de la universidad. ¿Vives lejos de aquí?
+María: No, mi casa está cerca. ¿Cuántos años tienes?
+Carlos: Tengo veinte años. ¿Y tú?
+María: Tengo diecinueve. ¿Tienes hermanos?
+Carlos: Sí, tengo dos hermanos y una hermana. ¿Tienes familia grande?
+María: Sí, tengo tres hermanos. ¿Qué hace tu padre?
+Carlos: Mi padre es médico y mi madre es profesora. ¿Qué hacen tus padres?
+María: Mi padre es ingeniero y mi madre es abogada. ¿Por qué estudias medicina?
+Carlos: Porque quiero ayudar a las personas. Es mi vocación. ¿Por qué estudias literatura?
+María: Porque me gustan los libros y quiero ser escritora. ¿Cuándo empiezan tus clases?
+Carlos: Mis clases empiezan a las nueve de la mañana. ¿Cuándo empiezan las tuyas?
+María: A las diez. ¿Adónde vas ahora?
+Carlos: Voy a la biblioteca. Necesito unos libros. ¿Adónde vas tú?
+María: Voy a la cafetería. ¿Quieres venir conmigo?
+Carlos: ¡Claro! ¿Dónde está la cafetería?
+María: Está en el edificio principal. ¿Conoces el campus?
+Carlos: No muy bien. Es mi primer semestre aquí. ¿Cuánto tiempo llevas en la universidad?
+María: Este es mi segundo año. ¿Cómo es tu residencia?
+Carlos: Es grande y moderna. Tengo un compañero de cuarto. ¿Cómo es tu casa?
+María: Es grande también. Vivimos en un barrio tranquilo. ¿Cómo se llama tu compañero?
+Carlos: Se llama Miguel. Es muy simpático. ¿Tienes amigos aquí?
+María: Sí, tengo muchos amigos. ¿Quieres conocerlos?
+Carlos: ¡Sí, me encantaría! ¿Cuál es tu clase favorita?
+María: Me gusta mucho la literatura moderna. ¿Cuál es la tuya?
+Carlos: Me gusta anatomía. Es muy interesante. ¿Qué haces en tu tiempo libre?
+María: Leo libros y voy al cine. ¿Y tú, qué haces?
+Carlos: Juego al fútbol con mis amigos. ¿Te gusta el deporte?
+María: Sí, me gusta nadar. ¿Dónde juegas al fútbol?
+Carlos: En el campo deportivo de la universidad. ¿Hay piscina aquí?
+María: Sí, hay una piscina muy buena. ¿Quieres ir algún día?
+Carlos: ¡Sí! ¿Cuándo vas normalmente?
+María: Voy los martes y jueves por la tarde. Bueno, ¿vamos a la cafetería?
+Carlos: ¡Vamos!`,
+      translation: 'В университете\n\nМария и Карлос встречаются в университете. Это первый день нового семестра.\n\nМария: Привет! Как тебя зовут?\nКарлос: Меня зовут Карлос. А тебя?\nМария: Я Мария. Ты студент здесь?\nКарлос: Да, я изучаю медицину. Что ты изучаешь?\nМария: Я изучаю испанскую литературу. Откуда ты?\nКарлос: Я из Валенсии. А ты откуда?\nМария: Я из Мадрида. Живу здесь с семьей. Где ты живешь?\nКарлос: Я живу в студенческом общежитии рядом с университетом. Ты живешь далеко отсюда?\nМария: Нет, мой дом близко. Сколько тебе лет?\nКарлос: Мне двадцать лет. А тебе?\nМария: Мне девятнадцать. У тебя есть братья и сестры?\nКарлос: Да, у меня два брата и сестра. У тебя большая семья?\nМария: Да, у меня три брата. Кем работает твой отец?\nКарлос: Мой отец врач, а мать учительница. Кем работают твои родители?\nМария: Мой отец инженер, а мать адвокат. Почему ты изучаешь медицину?\nКарлос: Потому что хочу помогать людям. Это мое призвание. Почему ты изучаешь литературу?\nМария: Потому что мне нравятся книги и я хочу быть писательницей. Когда начинаются твои занятия?\nКарлос: Мои занятия начинаются в девять утра. Когда начинаются твои?\nМария: В десять. Куда ты сейчас идешь?\nКарлос: Я иду в библиотеку. Мне нужны книги. Куда идешь ты?\nМария: Я иду в кафетерий. Хочешь пойти со мной?\nКарлос: Конечно! Где находится кафетерий?\nМария: Он в главном здании. Ты знаешь кампус?\nКарлос: Не очень хорошо. Это мой первый семестр здесь. Сколько времени ты в университете?\nМария: Это мой второй курс. Какое твое общежитие?\nКарлос: Оно большое и современное. У меня есть сосед по комнате. Какой твой дом?\nМария: Он тоже большой. Мы живем в тихом районе. Как зовут твоего соседа?\nКарлос: Его зовут Мигель. Он очень приятный. У тебя есть друзья здесь?\nМария: Да, у меня много друзей. Хочешь познакомиться с ними?\nКарлос: Да, с удовольствием! Какой твой любимый предмет?\nМария: Мне очень нравится современная литература. А твой?\nКарлос: Мне нравится анатомия. Это очень интересно. Что ты делаешь в свободное время?\nМария: Я читаю книги и хожу в кино. А ты что делаешь?\nКарлос: Я играю в футбол с друзьями. Тебе нравится спорт?\nМария: Да, мне нравится плавать. Где ты играешь в футбол?\nКарлос: На спортивном поле университета. Здесь есть бассейн?\nМария: Да, здесь очень хороший бассейн. Хочешь как-нибудь сходить?\nКарлос: Да! Когда ты обычно ходишь?\nМария: Я хожу по вторникам и четвергам после обеда. Ну что, пойдем в кафетерий?\nКарлос: Пойдем!',
       audioUrl: '/audio/lesson-3-1-reading.mp3',
       subtitles: [
-        { start: 0, end: 8, text: '¡Hola! Me llamo Ana y vivo en Madrid con mi familia. Tengo una familia grande y unida.' },
-        { start: 8, end: 15, text: 'Mi familia está aquí, en esta casa. Estos son mis padres.' },
-        { start: 15, end: 23, text: 'Mi padre se llama Roberto y es médico. Mi madre se llama Isabel y es profesora.' },
-        { start: 23, end: 30, text: 'Tengo dos hermanos. Este es mi hermano mayor Carlos.' },
-        { start: 30, end: 38, text: 'Esa es mi hermana pequeña Luisa. Tiene diez años.' },
-        { start: 38, end: 45, text: 'Aquí están mis abuelos paternos. Ese es mi abuelo Pablo y esa es mi abuela Carmen.' },
-        { start: 45, end: 53, text: 'También tengo muchos tíos, tías y primos. Mi tío Pedro vive allí, en Barcelona.' },
-        { start: 53, end: 60, text: 'Mi tía Ana vive en Valencia con su marido Miguel y sus tres hijos.' },
-        { start: 60, end: 68, text: 'Mis abuelos maternos viven en Sevilla. Vamos allí en verano.' },
-        { start: 68, end: 75, text: 'Tengo una madrina muy especial. Se llama Sofía.' },
-        { start: 75, end: 82, text: 'Los domingos toda la familia come junta. Es muy bonito estar todos juntos.' },
-        { start: 82, end: 90, text: 'Esta es mi familia. La mía es grande y alegre. ¿Y la tuya?' }
+        { start: 0, end: 5, text: 'María y Carlos se encuentran en la universidad. Es el primer día del nuevo semestre.' },
+        { start: 5, end: 10, text: '¡Hola! ¿Cómo te llamas? - Me llamo Carlos. ¿Y tú?' },
+        { start: 10, end: 15, text: 'Soy María. ¿Eres estudiante aquí? - Sí, estudio medicina.' },
+        { start: 15, end: 20, text: '¿Qué estudias tú? - Estudio literatura española.' },
+        { start: 20, end: 25, text: '¿De dónde eres? - Soy de Valencia. ¿Y tú?' },
+        { start: 25, end: 30, text: 'Soy de Madrid. Vivo con mi familia aquí.' },
+        { start: 30, end: 35, text: '¿Dónde vives tú? - Vivo en una residencia estudiantil.' },
+        { start: 35, end: 40, text: '¿Cuántos años tienes? - Tengo veinte años. ¿Y tú?' },
+        { start: 40, end: 45, text: 'Tengo diecinueve. ¿Tienes hermanos?' },
+        { start: 45, end: 50, text: 'Sí, tengo dos hermanos y una hermana.' },
+        { start: 50, end: 55, text: '¿Por qué estudias medicina? - Porque quiero ayudar a las personas.' },
+        { start: 55, end: 60, text: '¿Adónde vas ahora? - Voy a la biblioteca.' },
+        { start: 60, end: 65, text: '¿Quieres venir conmigo a la cafetería?' },
+        { start: 65, end: 70, text: '¡Claro! ¿Dónde está la cafetería?' }
       ]
     },
-    exercises: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-lectura']
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -10610,6 +10644,178 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мой отец старый, у него седые волосы.', correct: 'Mi padre es viejo, tiene pelo cano.' },
       { russian: 'Вон те дети веселые и любопытные.', correct: 'Aquellos niños son alegres y curiosos.' },
       { russian: 'Наша учительница молодая, умная и добрая.', correct: 'Nuestra profesora es joven, inteligente y bondadosa.' }
+    ]
+  },
+
+  // Модуль 3 Урок 1 - Упражнения на вопросительные предложения
+  'ex-3-1-1': {
+    id: 'ex-3-1-1',
+    type: 'grammar',
+    title: 'Общие вопросы: порядок слов',
+    description: 'Выберите правильный общий вопрос',
+    questions: [
+      { sentence: 'María es estudiante.', options: ['¿Es María estudiante?', '¿María es estudiante?', '¿Estudiante es María?', '¿Es estudiante María?'], correct: 0 },
+      { sentence: 'Carlos vive en Madrid.', options: ['¿Vive Carlos en Madrid?', '¿Carlos vive en Madrid?', '¿En Madrid vive Carlos?', '¿Vive en Madrid Carlos?'], correct: 0 },
+      { sentence: 'Ellos son amigos.', options: ['¿Son ellos amigos?', '¿Ellos son amigos?', '¿Amigos son ellos?', '¿Son amigos ellos?'], correct: 0 },
+      { sentence: 'Tu hermano trabaja aquí.', options: ['¿Trabaja tu hermano aquí?', '¿Tu hermano trabaja aquí?', '¿Aquí trabaja tu hermano?', '¿Trabaja aquí tu hermano?'], correct: 0 },
+      { sentence: 'La clase es interesante.', options: ['¿Es la clase interesante?', '¿La clase es interesante?', '¿Interesante es la clase?', '¿Es interesante la clase?'], correct: 0 },
+      { sentence: 'Nosotros estudiamos español.', options: ['¿Estudiamos nosotros español?', '¿Nosotros estudiamos español?', '¿Español estudiamos nosotros?', '¿Estudiamos español nosotros?'], correct: 0 },
+      { sentence: 'Tus padres están en casa.', options: ['¿Están tus padres en casa?', '¿Tus padres están en casa?', '¿En casa están tus padres?', '¿Están en casa tus padres?'], correct: 0 },
+      { sentence: 'Ella tiene un perro.', options: ['¿Tiene ella un perro?', '¿Ella tiene un perro?', '¿Un perro tiene ella?', '¿Tiene un perro ella?'], correct: 0 },
+      { sentence: 'Vosotros sois profesores.', options: ['¿Sois vosotros profesores?', '¿Vosotros sois profesores?', '¿Profesores sois vosotros?', '¿Sois profesores vosotros?'], correct: 0 },
+      { sentence: 'Mi familia es grande.', options: ['¿Es mi familia grande?', '¿Mi familia es grande?', '¿Grande es mi familia?', '¿Es grande mi familia?'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-2': {
+    id: 'ex-3-1-2',
+    type: 'grammar',
+    title: 'Вопросительные слова: ¿Quién? / ¿Qué?',
+    description: 'Выберите правильное вопросительное слово',
+    questions: [
+      { sentence: '¿___ es tu nombre?', options: ['Qué', 'Quién', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ es tu padre?', options: ['Quién', 'Qué', 'Cuál', 'Dónde'], correct: 0 },
+      { sentence: '¿___ eres tú? - Soy estudiante.', options: ['Qué', 'Quién', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ llama por teléfono?', options: ['Quién', 'Qué', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ estudias en la universidad?', options: ['Qué', 'Quién', 'Cuál', 'Dónde'], correct: 0 },
+      { sentence: '¿___ es esta mujer?', options: ['Quién', 'Qué', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ es tu profesión?', options: ['Qué', 'Quién', 'Cuándo', 'Cómo'], correct: 0 },
+      { sentence: '¿___ son tus amigos?', options: ['Quiénes', 'Qué', 'Cuáles', 'Cómo'], correct: 0 },
+      { sentence: '¿___ haces en tu tiempo libre?', options: ['Qué', 'Quién', 'Cuándo', 'Dónde'], correct: 0 },
+      { sentence: '¿___ vive en esta casa?', options: ['Quién', 'Qué', 'Cuándo', 'Cómo'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-3': {
+    id: 'ex-3-1-3',
+    type: 'grammar',
+    title: 'Вопросительные слова: ¿Dónde? / ¿Adónde? / ¿De dónde?',
+    description: 'Выберите правильное вопросительное слово для места',
+    questions: [
+      { sentence: '¿___ vives? - Vivo en Madrid.', options: ['Dónde', 'Adónde', 'De dónde', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ vas? - Voy a la universidad.', options: ['Adónde', 'Dónde', 'De dónde', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ eres? - Soy de España.', options: ['De dónde', 'Dónde', 'Adónde', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ está tu hermano? - Está en casa.', options: ['Dónde', 'Adónde', 'De dónde', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ viajan ustedes? - Viajamos a Barcelona.', options: ['Adónde', 'Dónde', 'De dónde', 'Por qué'], correct: 0 },
+      { sentence: '¿___ es tu padre? - Es de Valencia.', options: ['De dónde', 'Dónde', 'Adónde', 'Cómo'], correct: 0 },
+      { sentence: '¿___ trabaja María? - Trabaja en un hospital.', options: ['Dónde', 'Adónde', 'De dónde', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ vais esta tarde? - Vamos al cine.', options: ['Adónde', 'Dónde', 'De dónde', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ son tus abuelos? - Son de Sevilla.', options: ['De dónde', 'Dónde', 'Adónde', 'Quiénes'], correct: 0 },
+      { sentence: '¿___ estudias español? - Estudio en la universidad.', options: ['Dónde', 'Adónde', 'De dónde', 'Cuándo'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-4': {
+    id: 'ex-3-1-4',
+    type: 'grammar',
+    title: 'Вопросительные слова: общие',
+    description: 'Выберите правильное вопросительное слово',
+    questions: [
+      { sentence: '¿___ te llamas? - Me llamo Ana.', options: ['Cómo', 'Qué', 'Quién', 'Cuándo'], correct: 0 },
+      { sentence: '¿___ años tienes? - Tengo veinte años.', options: ['Cuántos', 'Cuánto', 'Qué', 'Cómo'], correct: 0 },
+      { sentence: '¿___ es tu cumpleaños? - Es en mayo.', options: ['Cuándo', 'Dónde', 'Qué', 'Cómo'], correct: 0 },
+      { sentence: '¿___ estudias español? - Porque me gusta.', options: ['Por qué', 'Cuándo', 'Dónde', 'Cómo'], correct: 0 },
+      { sentence: '¿___ hermanos tienes? - Tengo dos hermanos.', options: ['Cuántos', 'Cuánto', 'Qué', 'Quién'], correct: 0 },
+      { sentence: '¿___ está tu madre? - Está bien, gracias.', options: ['Cómo', 'Dónde', 'Quién', 'Qué'], correct: 0 },
+      { sentence: '¿___ cuesta este libro? - Cuesta diez euros.', options: ['Cuánto', 'Cuántos', 'Qué', 'Cómo'], correct: 0 },
+      { sentence: '¿___ empiezan las clases? - Empiezan a las nueve.', options: ['Cuándo', 'Dónde', 'Cómo', 'Qué'], correct: 0 },
+      { sentence: '¿___ es tu color favorito? - Es azul.', options: ['Cuál', 'Qué', 'Cómo', 'Dónde'], correct: 0 },
+      { sentence: '¿___ vas a la universidad? - Voy en autobús.', options: ['Cómo', 'Cuándo', 'Dónde', 'Por qué'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-5': {
+    id: 'ex-3-1-5',
+    type: 'grammar',
+    title: 'Альтернативные вопросы',
+    description: 'Выберите правильный альтернативный вопрос',
+    questions: [
+      { sentence: 'чай или кофе?', options: ['¿Té o café?', '¿Té y café?', '¿Qué té o café?', '¿Es té o café?'], correct: 0 },
+      { sentence: 'Ты студент или преподаватель?', options: ['¿Eres estudiante o profesor?', '¿Eres estudiante y profesor?', '¿Qué eres estudiante o profesor?', '¿Estás estudiante o profesor?'], correct: 0 },
+      { sentence: 'Твоя сестра высокая или низкая?', options: ['¿Tu hermana es alta o baja?', '¿Tu hermana es alta y baja?', '¿Cómo es tu hermana alta o baja?', '¿Está tu hermana alta o baja?'], correct: 0 },
+      { sentence: 'Вы идете в кино или в театр?', options: ['¿Vais al cine o al teatro?', '¿Vais al cine y al teatro?', '¿Adónde vais al cine o al teatro?', '¿Estáis al cine o al teatro?'], correct: 0 },
+      { sentence: 'Это твоя книга или его книга?', options: ['¿Es tu libro o su libro?', '¿Es tu libro y su libro?', '¿Qué es tu libro o su libro?', '¿Está tu libro o su libro?'], correct: 0 },
+      { sentence: 'Они живут в Мадриде или в Барселоне?', options: ['¿Viven en Madrid o en Barcelona?', '¿Viven en Madrid y en Barcelona?', '¿Dónde viven en Madrid o en Barcelona?', '¿Están en Madrid o en Barcelona?'], correct: 0 },
+      { sentence: 'Твой отец врач или учитель?', options: ['¿Tu padre es médico o profesor?', '¿Tu padre es médico y profesor?', '¿Qué es tu padre médico o profesor?', '¿Está tu padre médico o profesor?'], correct: 0 },
+      { sentence: 'Урок утром или вечером?', options: ['¿La clase es por la mañana o por la tarde?', '¿La clase es por la mañana y por la tarde?', '¿Cuándo es la clase por la mañana o por la tarde?', '¿Está la clase por la mañana o por la tarde?'], correct: 0 },
+      { sentence: 'У тебя кот или собака?', options: ['¿Tienes un gato o un perro?', '¿Tienes un gato y un perro?', '¿Qué tienes un gato o un perro?', '¿Estás un gato o un perro?'], correct: 0 },
+      { sentence: 'Это молоко или вода?', options: ['¿Es leche o agua?', '¿Es leche y agua?', '¿Qué es leche o agua?', '¿Está leche o agua?'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-6': {
+    id: 'ex-3-1-6',
+    type: 'grammar',
+    title: 'Образование вопросов',
+    description: 'Выберите правильный вопрос к выделенной части',
+    questions: [
+      { sentence: 'María estudia en la universidad. (María)', options: ['¿Quién estudia en la universidad?', '¿Qué estudia en la universidad?', '¿Dónde estudia María?', '¿Cómo estudia María?'], correct: 0 },
+      { sentence: 'Carlos vive en Madrid. (en Madrid)', options: ['¿Dónde vive Carlos?', '¿Quién vive en Madrid?', '¿Cómo vive Carlos?', '¿Cuándo vive Carlos?'], correct: 0 },
+      { sentence: 'Ella trabaja en un hospital. (en un hospital)', options: ['¿Dónde trabaja ella?', '¿Quién trabaja?', '¿Qué trabaja ella?', '¿Cómo trabaja ella?'], correct: 0 },
+      { sentence: 'Mi padre es médico. (médico)', options: ['¿Qué es tu padre?', '¿Quién es médico?', '¿Dónde es tu padre?', '¿Cómo es tu padre?'], correct: 0 },
+      { sentence: 'Nosotros estudiamos español. (español)', options: ['¿Qué estudiáis?', '¿Quién estudia español?', '¿Dónde estudiáis?', '¿Cuándo estudiáis?'], correct: 0 },
+      { sentence: 'Las clases empiezan a las nueve. (a las nueve)', options: ['¿Cuándo empiezan las clases?', '¿Dónde empiezan las clases?', '¿Qué empiezan las clases?', '¿Cómo empiezan las clases?'], correct: 0 },
+      { sentence: 'Tengo tres hermanos. (tres)', options: ['¿Cuántos hermanos tienes?', '¿Quién tiene hermanos?', '¿Qué tienes?', '¿Dónde tienes hermanos?'], correct: 0 },
+      { sentence: 'Voy al cine. (al cine)', options: ['¿Adónde vas?', '¿Quién va al cine?', '¿Cuándo vas?', '¿Cómo vas?'], correct: 0 },
+      { sentence: 'Ella es de Valencia. (de Valencia)', options: ['¿De dónde es ella?', '¿Quién es de Valencia?', '¿Qué es ella?', '¿Cómo es ella?'], correct: 0 },
+      { sentence: 'Estudio porque me gusta. (porque me gusta)', options: ['¿Por qué estudias?', '¿Quién estudia?', '¿Qué estudias?', '¿Dónde estudias?'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-7': {
+    id: 'ex-3-1-7',
+    type: 'word-order',
+    title: 'Порядок слов в вопросах',
+    description: 'Расставьте слова в правильном порядке',
+    questions: [
+      { words: ['¿', 'Dónde', 'vives', 'tú', '?'], correct: ['¿', 'Dónde', 'vives', 'tú', '?'] },
+      { words: ['¿', 'Cómo', 'te', 'llamas', '?'], correct: ['¿', 'Cómo', 'te', 'llamas', '?'] },
+      { words: ['¿', 'Qué', 'estudias', 'en', 'la', 'universidad', '?'], correct: ['¿', 'Qué', 'estudias', 'en', 'la', 'universidad', '?'] },
+      { words: ['¿', 'Cuántos', 'años', 'tienes', '?'], correct: ['¿', 'Cuántos', 'años', 'tienes', '?'] },
+      { words: ['¿', 'De', 'dónde', 'es', 'tu', 'padre', '?'], correct: ['¿', 'De', 'dónde', 'es', 'tu', 'padre', '?'] },
+      { words: ['¿', 'Adónde', 'vas', 'esta', 'tarde', '?'], correct: ['¿', 'Adónde', 'vas', 'esta', 'tarde', '?'] },
+      { words: ['¿', 'Por', 'qué', 'estudias', 'español', '?'], correct: ['¿', 'Por', 'qué', 'estudias', 'español', '?'] },
+      { words: ['¿', 'Quién', 'es', 'tu', 'profesor', '?'], correct: ['¿', 'Quién', 'es', 'tu', 'profesor', '?'] },
+      { words: ['¿', 'Cuándo', 'empiezan', 'las', 'clases', '?'], correct: ['¿', 'Cuándo', 'empiezan', 'las', 'clases', '?'] },
+      { words: ['¿', 'Cómo', 'está', 'tu', 'familia', '?'], correct: ['¿', 'Cómo', 'está', 'tu', 'familia', '?'] }
+    ]
+  },
+
+  'ex-3-1-8': {
+    id: 'ex-3-1-8',
+    type: 'translation',
+    title: 'Перевод вопросов',
+    description: 'Переведите вопросы с русского на испанский',
+    questions: [
+      { russian: 'Как тебя зовут?', correct: '¿Cómo te llamas?', alternatives: ['¿Cómo se llama usted?'] },
+      { russian: 'Где ты живешь?', correct: '¿Dónde vives?', alternatives: ['¿Dónde vive usted?'] },
+      { russian: 'Сколько тебе лет?', correct: '¿Cuántos años tienes?', alternatives: ['¿Cuántos años tiene usted?'] },
+      { russian: 'Откуда ты?', correct: '¿De dónde eres?', alternatives: ['¿De dónde es usted?'] },
+      { russian: 'Что ты изучаешь?', correct: '¿Qué estudias?', alternatives: ['¿Qué estudia usted?'] },
+      { russian: 'Куда ты идешь?', correct: '¿Adónde vas?', alternatives: ['¿Adónde va usted?'] },
+      { russian: 'Почему ты изучаешь испанский?', correct: '¿Por qué estudias español?', alternatives: ['¿Por qué estudia usted español?'] },
+      { russian: 'Когда начинаются уроки?', correct: '¿Cuándo empiezan las clases?', alternatives: ['¿Cuándo comienzan las clases?'] },
+      { russian: 'Кто твой учитель?', correct: '¿Quién es tu profesor?', alternatives: ['¿Quién es su profesor?'] },
+      { russian: 'Как дела?', correct: '¿Cómo estás?', alternatives: ['¿Cómo está usted?', '¿Qué tal?'] }
+    ]
+  },
+
+  'ex-3-1-9': {
+    id: 'ex-3-1-9',
+    type: 'error-correction',
+    title: 'Исправление ошибок в вопросах',
+    description: 'Найдите и исправьте ошибку в вопросительном предложении',
+    questions: [
+      { incorrect: '¿Que es tu nombre?', correct: '¿Cuál es tu nombre?', explanation: 'Используем ¿Cuál? для выбора из вариантов' },
+      { incorrect: '¿Donde vives tu?', correct: '¿Dónde vives?', explanation: 'Нужен знак ударения: Dónde' },
+      { incorrect: '¿Cuando empieza la clase?', correct: '¿Cuándo empieza la clase?', explanation: 'Нужен знак ударения: Cuándo' },
+      { incorrect: '¿Como te llamas?', correct: '¿Cómo te llamas?', explanation: 'Нужен знак ударения: Cómo' },
+      { incorrect: '¿De donde eres tu?', correct: '¿De dónde eres?', explanation: 'Нужен знак ударения: dónde' },
+      { incorrect: '¿Adonde vas tu?', correct: '¿Adónde vas?', explanation: 'Нужен знак ударения: Adónde' },
+      { incorrect: '¿Por que estudias español?', correct: '¿Por qué estudias español?', explanation: 'Нужен знак ударения и пробел: Por qué' },
+      { incorrect: '¿Quien es tu profesor?', correct: '¿Quién es tu profesor?', explanation: 'Нужен знак ударения: Quién' },
+      { incorrect: '¿Cuanto años tienes?', correct: '¿Cuántos años tienes?', explanation: 'Согласование по числу и знак ударения: Cuántos' },
+      { incorrect: '¿Que haces tu?', correct: '¿Qué haces?', explanation: 'Нужен знак ударения: Qué' }
     ]
   }
 }
