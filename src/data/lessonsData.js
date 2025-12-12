@@ -2882,7 +2882,7 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
   // МОДУЛЬ 3: Повседневная жизнь
   'lesson-3-1': {
     id: 'lesson-3-1',
-    title: 'Урок 1: Семья и родственники. Вопросительные предложения в испанском языке',
+    title: 'Урок 1: Семья и родственники. Вопросительные предложения в испанском языке. Глаголы QUERER, PODER, VENIR, DECIR',
     moduleId: 'module-3',
     grammar: {
       title: 'Вопросительные предложения в испанском языке',
@@ -3005,6 +3005,134 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
 
 **Ответ:** Soy arquitecto. No soy español, soy cubano. (Я архитектор. Я не испанец, я кубинец.)
 `
+        },
+        {
+          id: 'verbo-querer',
+          title: 'Глагол QUERER (хотеть, желать, любить)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Глагол индивидуального спряжения QUERER (хотеть, желать, любить)
+
+Выучите спряжение этого глагола в настоящем времени:
+
+| Лицо | Форма | Перевод |
+|------|-------|---------|
+| yo | quiero | Я хочу. |
+| tú | quieres | Ты хочешь. |
+| él, ella, usted | quiere | Он / она хочет. Вы хотите. |
+| nosotros (-as) | queremos | Мы хотим. |
+| vosotros (-as) | queréis | Вы хотите. (неформ., Испания) |
+| ellos, ellas, ustedes | quieren | Они хотят. Вы хотите. |
+
+### Употребление глагола QUERER
+
+**1. Querer + инфинитив** – выражение желания совершить действие:
+
+- Quiero estudiar español. (Я хочу изучать испанский.)
+- ¿Quieres venir conmigo? (Ты хочешь пойти со мной?)
+- Mi hermano quiere ser médico. (Мой брат хочет быть врачом.)
+
+**2. Querer + существительное** – желание обладать чем-то:
+
+- Queremos una casa grande. (Мы хотим большой дом.)
+- ¿Qué quieres de regalo? (Что ты хочешь в подарок?)
+- Ellos quieren café. (Они хотят кофе.)
+
+**3. Querer (a alguien)** – любить кого-то, относиться с симпатией:
+
+- Quiero mucho a mi familia. (Я очень люблю свою семью.)
+- ¿Quieres a tu hermano? (Ты любишь своего брата?)
+`
+        },
+        {
+          id: 'verbo-poder',
+          title: 'Глагол PODER (мочь)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Глагол индивидуального спряжения PODER (мочь)
+
+Выучите спряжение этого глагола в настоящем времени:
+
+| Лицо | Форма | Перевод |
+|------|-------|---------|
+| yo | puedo | Я могу. |
+| tú | puedes | Ты можешь. |
+| él, ella, usted | puede | Он (она) может. Вы можете. |
+| nosotros (-as) | podemos | Мы можем. |
+| vosotros (-as) | podéis | Вы можете. (неформ., Испания) |
+| ellos, ellas, ustedes | pueden | Они могут. Вы можете. |
+
+### Употребление глагола PODER
+
+Глагол **poder** используется с инфинитивом смыслового глагола для выражения возможности совершить действие:
+
+- Puedo hablar español. (Я могу говорить по-испански.)
+- ¿Puedes venir mañana? (Ты можешь прийти завтра?)
+- Mi padre no puede trabajar hoy. (Мой отец не может работать сегодня.)
+- Podemos estudiar en la biblioteca. (Мы можем учиться в библиотеке.)
+- ¿Podéis ayudarme? (Вы можете мне помочь?)
+- Ellos pueden venir a la fiesta. (Они могут прийти на вечеринку.)
+`
+        },
+        {
+          id: 'verbo-venir',
+          title: 'Глагол VENIR (приходить, приезжать)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Глагол индивидуального спряжения VENIR (приходить, приезжать)
+
+Запомните его спряжение в настоящем времени:
+
+| Лицо | Форма | Перевод |
+|------|-------|---------|
+| yo | vengo | Я прихожу. |
+| tú | vienes | Ты приходишь. |
+| él, ella, usted | viene | Он / она приходит. Вы приходите. |
+| nosotros (-as) | venimos | Мы приходим. |
+| vosotros (-as) | venís | Вы приходите. (неформ., Испания) |
+| ellos, ellas, ustedes | vienen | Они приходят. Вы приходите. |
+
+### Примеры использования
+
+- Vengo a la universidad en autobús. (Я приезжаю в университет на автобусе.)
+- ¿Vienes de Madrid? (Ты приезжаешь из Мадрида?)
+- Mi amigo viene a mi casa esta tarde. (Мой друг приходит ко мне домой сегодня вечером.)
+- Venimos de la biblioteca. (Мы идем из библиотеки.)
+- ¿De dónde venís? (Откуда вы приходите?)
+- Mis padres vienen mañana. (Мои родители приезжают завтра.)
+`
+        },
+        {
+          id: 'verbo-decir',
+          title: 'Глагол DECIR (говорить, сказать)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `
+## Глагол индивидуального спряжения DECIR (говорить, сказать)
+
+Выучите спряжение этого глагола в настоящем времени:
+
+| Лицо | Форма | Перевод |
+|------|-------|---------|
+| yo | digo | Я говорю. |
+| tú | dices | Ты говоришь. |
+| él, ella, usted | dice | Он / она говорит. Вы говорите. |
+| nosotros (-as) | decimos | Мы говорим. |
+| vosotros (-as) | decís | Вы говорите. (неформ., Испания) |
+| ellos, ellas, ustedes | dicen | Они говорят. Вы говорите. |
+
+### Примеры использования
+
+- Siempre digo la verdad. (Я всегда говорю правду.)
+- ¿Qué dices? (Что ты говоришь?)
+- Mi madre dice que tengo que estudiar. (Моя мама говорит, что я должен учиться.)
+- Decimos "buenos días" por la mañana. (Мы говорим "доброе утро" утром.)
+- ¿Qué decís vosotros? (Что вы говорите?)
+- Ellos dicen que vienen mañana. (Они говорят, что приедут завтра.)
+`
         }
       ]
     },
@@ -3102,7 +3230,13 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       { word: 'el suyo', translation: 'его/её/Ваш (м.р., с артиклем)', audioUrl: null },
       { word: 'la suya', translation: 'его/её/Ваша (ж.р., с артиклем)', audioUrl: null },
       { word: 'los suyos', translation: 'его/её/Ваши (м.р., мн.ч., с артиклем)', audioUrl: null },
-      { word: 'las suyas', translation: 'его/её/Ваши (ж.р., мн.ч., с артиклем)', audioUrl: null }
+      { word: 'las suyas', translation: 'его/её/Ваши (ж.р., мн.ч., с артиклем)', audioUrl: null },
+
+      // Глаголы индивидуального спряжения
+      { word: 'querer', translation: 'хотеть, желать, любить', audioUrl: null },
+      { word: 'poder', translation: 'мочь', audioUrl: null },
+      { word: 'venir', translation: 'приходить, приезжать', audioUrl: null },
+      { word: 'decir', translation: 'говорить, сказать', audioUrl: null }
     ],
     readingText: {
       title: 'En la universidad',
@@ -3113,61 +3247,50 @@ Carlos: Me llamo Carlos. ¿Y tú?
 María: Soy María. ¿Eres estudiante aquí?
 Carlos: Sí, estudio medicina. ¿Qué estudias tú?
 María: Estudio literatura española. ¿De dónde eres?
-Carlos: Soy de Valencia. ¿Y tú, de dónde eres?
+Carlos: Soy de Valencia. ¿Y tú?
 María: Soy de Madrid. Vivo con mi familia aquí. ¿Dónde vives tú?
-Carlos: Vivo en una residencia estudiantil cerca de la universidad. ¿Vives lejos de aquí?
-María: No, mi casa está cerca. ¿Cuántos años tienes?
-Carlos: Tengo veinte años. ¿Y tú?
-María: Tengo diecinueve. ¿Tienes hermanos?
-Carlos: Sí, tengo dos hermanos y una hermana. ¿Tienes familia grande?
-María: Sí, tengo tres hermanos. ¿Qué hace tu padre?
-Carlos: Mi padre es médico y mi madre es profesora. ¿Qué hacen tus padres?
-María: Mi padre es ingeniero y mi madre es abogada. ¿Por qué estudias medicina?
-Carlos: Porque quiero ayudar a las personas. Es mi vocación. ¿Por qué estudias literatura?
-María: Porque me gustan los libros y quiero ser escritora. ¿Cuándo empiezan tus clases?
-Carlos: Mis clases empiezan a las nueve de la mañana. ¿Cuándo empiezan las tuyas?
-María: A las diez. ¿Adónde vas ahora?
-Carlos: Voy a la biblioteca. Necesito unos libros. ¿Adónde vas tú?
+Carlos: Vivo en una residencia estudiantil. ¿Cuántos años tienes?
+María: Tengo diecinueve. ¿Y tú?
+Carlos: Tengo veinte años. ¿Tienes hermanos?
+María: Sí, tengo tres hermanos. Mi padre es ingeniero y mi madre es abogada. ¿Qué hacen tus padres?
+Carlos: Mi padre es médico y mi madre es profesora. ¿Por qué estudias literatura?
+María: Porque quiero ser escritora. ¿Por qué estudias medicina?
+Carlos: Porque quiero ayudar a las personas. ¿Cuándo empiezan tus clases?
+María: A las diez. ¿Y las tuyas?
+Carlos: A las nueve. ¿Adónde vas ahora?
 María: Voy a la cafetería. ¿Quieres venir conmigo?
-Carlos: ¡Claro! ¿Dónde está la cafetería?
-María: Está en el edificio principal. ¿Conoces el campus?
-Carlos: No muy bien. Es mi primer semestre aquí. ¿Cuánto tiempo llevas en la universidad?
-María: Este es mi segundo año. ¿Cómo es tu residencia?
-Carlos: Es grande y moderna. Tengo un compañero de cuarto. ¿Cómo es tu casa?
-María: Es grande también. Vivimos en un barrio tranquilo. ¿Cómo se llama tu compañero?
-Carlos: Se llama Miguel. Es muy simpático. ¿Tienes amigos aquí?
-María: Sí, tengo muchos amigos. ¿Quieres conocerlos?
-Carlos: ¡Sí, me encantaría! ¿Cuál es tu clase favorita?
-María: Me gusta mucho la literatura moderna. ¿Cuál es la tuya?
-Carlos: Me gusta anatomía. Es muy interesante. ¿Qué haces en tu tiempo libre?
-María: Leo libros y voy al cine. ¿Y tú, qué haces?
-Carlos: Juego al fútbol con mis amigos. ¿Te gusta el deporte?
-María: Sí, me gusta nadar. ¿Dónde juegas al fútbol?
-Carlos: En el campo deportivo de la universidad. ¿Hay piscina aquí?
-María: Sí, hay una piscina muy buena. ¿Quieres ir algún día?
-Carlos: ¡Sí! ¿Cuándo vas normalmente?
-María: Voy los martes y jueves por la tarde. Bueno, ¿vamos a la cafetería?
-Carlos: ¡Vamos!`,
-      translation: 'В университете\n\nМария и Карлос встречаются в университете. Это первый день нового семестра.\n\nМария: Привет! Как тебя зовут?\nКарлос: Меня зовут Карлос. А тебя?\nМария: Я Мария. Ты студент здесь?\nКарлос: Да, я изучаю медицину. Что ты изучаешь?\nМария: Я изучаю испанскую литературу. Откуда ты?\nКарлос: Я из Валенсии. А ты откуда?\nМария: Я из Мадрида. Живу здесь с семьей. Где ты живешь?\nКарлос: Я живу в студенческом общежитии рядом с университетом. Ты живешь далеко отсюда?\nМария: Нет, мой дом близко. Сколько тебе лет?\nКарлос: Мне двадцать лет. А тебе?\nМария: Мне девятнадцать. У тебя есть братья и сестры?\nКарлос: Да, у меня два брата и сестра. У тебя большая семья?\nМария: Да, у меня три брата. Кем работает твой отец?\nКарлос: Мой отец врач, а мать учительница. Кем работают твои родители?\nМария: Мой отец инженер, а мать адвокат. Почему ты изучаешь медицину?\nКарлос: Потому что хочу помогать людям. Это мое призвание. Почему ты изучаешь литературу?\nМария: Потому что мне нравятся книги и я хочу быть писательницей. Когда начинаются твои занятия?\nКарлос: Мои занятия начинаются в девять утра. Когда начинаются твои?\nМария: В десять. Куда ты сейчас идешь?\nКарлос: Я иду в библиотеку. Мне нужны книги. Куда идешь ты?\nМария: Я иду в кафетерий. Хочешь пойти со мной?\nКарлос: Конечно! Где находится кафетерий?\nМария: Он в главном здании. Ты знаешь кампус?\nКарлос: Не очень хорошо. Это мой первый семестр здесь. Сколько времени ты в университете?\nМария: Это мой второй курс. Какое твое общежитие?\nКарлос: Оно большое и современное. У меня есть сосед по комнате. Какой твой дом?\nМария: Он тоже большой. Мы живем в тихом районе. Как зовут твоего соседа?\nКарлос: Его зовут Мигель. Он очень приятный. У тебя есть друзья здесь?\nМария: Да, у меня много друзей. Хочешь познакомиться с ними?\nКарлос: Да, с удовольствием! Какой твой любимый предмет?\nМария: Мне очень нравится современная литература. А твой?\nКарлос: Мне нравится анатомия. Это очень интересно. Что ты делаешь в свободное время?\nМария: Я читаю книги и хожу в кино. А ты что делаешь?\nКарлос: Я играю в футбол с друзьями. Тебе нравится спорт?\nМария: Да, мне нравится плавать. Где ты играешь в футбол?\nКарлос: На спортивном поле университета. Здесь есть бассейн?\nМария: Да, здесь очень хороший бассейн. Хочешь как-нибудь сходить?\nКарлос: Да! Когда ты обычно ходишь?\nМария: Я хожу по вторникам и четвергам после обеда. Ну что, пойдем в кафетерий?\nКарлос: Пойдем!',
+Carlos: ¡Claro! Pero primero necesito ir a la biblioteca. ¿Puedes esperar?
+María: Sí, puedo esperar. ¿Dónde está la biblioteca?
+Carlos: Está en el edificio principal. Vengo en cinco minutos.
+María: Bien. ¿Qué libro necesitas?
+Carlos: Necesito un libro de anatomía. Mi profesor dice que es muy importante.
+María: ¿Qué dice tu profesor?
+Carlos: Dice que tenemos que leer este libro para el examen. ¿Tú también tienes exámenes esta semana?
+María: Sí, tengo dos exámenes. No puedo estudiar todo. ¿Puedes ayudarme?
+Carlos: Claro, puedo ayudarte. ¿Cuándo quieres estudiar?
+María: ¿Puedes venir a mi casa mañana?
+Carlos: Sí, puedo venir mañana por la tarde. ¿A qué hora?
+María: A las cinco. Mi familia quiere conocerte.
+Carlos: ¡Perfecto! Entonces, ¿vamos ahora a la biblioteca y después a la cafetería?
+María: ¡Vamos!`,
+      translation: 'В университете\n\nМария и Карлос встречаются в университете. Это первый день нового семестра.\n\nМария: Привет! Как тебя зовут?\nКарлос: Меня зовут Карлос. А тебя?\nМария: Я Мария. Ты студент здесь?\nКарлос: Да, я изучаю медицину. Что ты изучаешь?\nМария: Я изучаю испанскую литературу. Откуда ты?\nКарлос: Я из Валенсии. А ты?\nМария: Я из Мадрида. Живу здесь с семьей. Где ты живешь?\nКарлос: Я живу в студенческом общежитии. Сколько тебе лет?\nМария: Мне девятнадцать. А тебе?\nКарлос: Мне двадцать лет. У тебя есть братья и сестры?\nМария: Да, у меня три брата. Мой отец инженер, а мать адвокат. Кем работают твои родители?\nКарлос: Мой отец врач, а мать учительница. Почему ты изучаешь литературу?\nМария: Потому что хочу быть писательницей. Почему ты изучаешь медицину?\nКарлос: Потому что хочу помогать людям. Когда начинаются твои занятия?\nМария: В десять. А твои?\nКарлос: В девять. Куда ты сейчас идешь?\nМария: Я иду в кафетерий. Хочешь пойти со мной?\nКарлос: Конечно! Но сначала мне нужно пойти в библиотеку. Можешь подождать?\nМария: Да, могу подождать. Где находится библиотека?\nКарлос: Она в главном здании. Приду через пять минут.\nМария: Хорошо. Какая книга тебе нужна?\nКарлос: Мне нужна книга по анатомии. Мой преподаватель говорит, что она очень важна.\nМария: Что говорит твой преподаватель?\nКарлос: Он говорит, что мы должны прочитать эту книгу для экзамена. У тебя тоже есть экзамены на этой неделе?\nМария: Да, у меня два экзамена. Я не могу выучить все. Можешь помочь мне?\nКарлос: Конечно, могу помочь. Когда ты хочешь заниматься?\nМария: Можешь прийти ко мне домой завтра?\nКарлос: Да, могу прийти завтра после обеда. Во сколько?\nМария: В пять. Моя семья хочет познакомиться с тобой.\nКарлос: Отлично! Тогда пойдем сейчас в библиотеку, а потом в кафетерий?\nМария: Пойдем!',
       audioUrl: '/audio/lesson-3-1-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: 'María y Carlos se encuentran en la universidad. Es el primer día del nuevo semestre.' },
-        { start: 5, end: 10, text: '¡Hola! ¿Cómo te llamas? - Me llamo Carlos. ¿Y tú?' },
-        { start: 10, end: 15, text: 'Soy María. ¿Eres estudiante aquí? - Sí, estudio medicina.' },
-        { start: 15, end: 20, text: '¿Qué estudias tú? - Estudio literatura española.' },
-        { start: 20, end: 25, text: '¿De dónde eres? - Soy de Valencia. ¿Y tú?' },
-        { start: 25, end: 30, text: 'Soy de Madrid. Vivo con mi familia aquí.' },
-        { start: 30, end: 35, text: '¿Dónde vives tú? - Vivo en una residencia estudiantil.' },
-        { start: 35, end: 40, text: '¿Cuántos años tienes? - Tengo veinte años. ¿Y tú?' },
-        { start: 40, end: 45, text: 'Tengo diecinueve. ¿Tienes hermanos?' },
-        { start: 45, end: 50, text: 'Sí, tengo dos hermanos y una hermana.' },
-        { start: 50, end: 55, text: '¿Por qué estudias medicina? - Porque quiero ayudar a las personas.' },
-        { start: 55, end: 60, text: '¿Adónde vas ahora? - Voy a la biblioteca.' },
-        { start: 60, end: 65, text: '¿Quieres venir conmigo a la cafetería?' },
-        { start: 65, end: 70, text: '¡Claro! ¿Dónde está la cafetería?' }
+        { start: 5, end: 10, text: '¡Hola! ¿Cómo te llamas? - Me llamo Carlos.' },
+        { start: 10, end: 15, text: '¿Eres estudiante aquí? - Sí, estudio medicina.' },
+        { start: 15, end: 20, text: '¿De dónde eres? - Soy de Valencia.' },
+        { start: 20, end: 25, text: '¿Tienes hermanos? - Sí, tengo tres hermanos.' },
+        { start: 25, end: 30, text: '¿Por qué estudias medicina? - Porque quiero ayudar a las personas.' },
+        { start: 30, end: 35, text: '¿Quieres venir conmigo a la cafetería? - ¡Claro!' },
+        { start: 35, end: 40, text: '¿Puedes esperar? - Sí, puedo esperar.' },
+        { start: 40, end: 45, text: 'Mi profesor dice que es muy importante.' },
+        { start: 45, end: 50, text: '¿Puedes ayudarme? - Claro, puedo ayudarte.' },
+        { start: 50, end: 55, text: '¿Puedes venir a mi casa mañana? - Sí, puedo venir.' },
+        { start: 55, end: 60, text: 'Mi familia quiere conocerte. - ¡Perfecto!' }
       ]
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9']
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -10653,6 +10776,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Общие вопросы: порядок слов',
     description: 'Выберите правильный общий вопрос',
+    reviewTime: 10,
     questions: [
       { sentence: 'María es estudiante.', options: ['¿Es María estudiante?', '¿María es estudiante?', '¿Estudiante es María?', '¿Es estudiante María?'], correct: 0 },
       { sentence: 'Carlos vive en Madrid.', options: ['¿Vive Carlos en Madrid?', '¿Carlos vive en Madrid?', '¿En Madrid vive Carlos?', '¿Vive en Madrid Carlos?'], correct: 0 },
@@ -10671,18 +10795,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-3-1-2',
     type: 'grammar',
     title: 'Вопросительные слова: ¿Quién? / ¿Qué?',
-    description: 'Выберите правильное вопросительное слово',
+    description: 'Выберите правильное вопросительное слово. Помните: ¿Quién? - кто это (человек), ¿Qué? - что, какая профессия',
+    reviewTime: 10,
     questions: [
-      { sentence: '¿___ es tu nombre?', options: ['Qué', 'Quién', 'Cuál', 'Cómo'], correct: 0 },
-      { sentence: '¿___ es tu padre?', options: ['Quién', 'Qué', 'Cuál', 'Dónde'], correct: 0 },
-      { sentence: '¿___ eres tú? - Soy estudiante.', options: ['Qué', 'Quién', 'Cuál', 'Cómo'], correct: 0 },
-      { sentence: '¿___ llama por teléfono?', options: ['Quién', 'Qué', 'Cuál', 'Cómo'], correct: 0 },
-      { sentence: '¿___ estudias en la universidad?', options: ['Qué', 'Quién', 'Cuál', 'Dónde'], correct: 0 },
-      { sentence: '¿___ es esta mujer?', options: ['Quién', 'Qué', 'Cuál', 'Cómo'], correct: 0 },
-      { sentence: '¿___ es tu profesión?', options: ['Qué', 'Quién', 'Cuándo', 'Cómo'], correct: 0 },
-      { sentence: '¿___ son tus amigos?', options: ['Quiénes', 'Qué', 'Cuáles', 'Cómo'], correct: 0 },
-      { sentence: '¿___ haces en tu tiempo libre?', options: ['Qué', 'Quién', 'Cuándo', 'Dónde'], correct: 0 },
-      { sentence: '¿___ vive en esta casa?', options: ['Quién', 'Qué', 'Cuándo', 'Cómo'], correct: 0 }
+      { sentence: '¿___ es tu nombre? (что)', options: ['Qué', 'Quién', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ es tu padre? (кто это)', options: ['Quién', 'Qué', 'Cuál', 'Dónde'], correct: 0 },
+      { sentence: '¿___ eres tú? - Soy estudiante. (профессия)', options: ['Qué', 'Quién', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ llama por teléfono? (кто)', options: ['Quién', 'Qué', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ estudias en la universidad? (что)', options: ['Qué', 'Quién', 'Cuál', 'Dónde'], correct: 0 },
+      { sentence: '¿___ es esta mujer? (кто это)', options: ['Quién', 'Qué', 'Cuál', 'Cómo'], correct: 0 },
+      { sentence: '¿___ es tu profesión? (профессия)', options: ['Qué', 'Quién', 'Cuándo', 'Cómo'], correct: 0 },
+      { sentence: '¿___ son tus amigos? (кто это)', options: ['Quiénes', 'Qué', 'Cuáles', 'Cómo'], correct: 0 },
+      { sentence: '¿___ haces en tu tiempo libre? (что)', options: ['Qué', 'Quién', 'Cuándo', 'Dónde'], correct: 0 },
+      { sentence: '¿___ vive en esta casa? (кто)', options: ['Quién', 'Qué', 'Cuándo', 'Cómo'], correct: 0 }
     ]
   },
 
@@ -10691,6 +10816,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Вопросительные слова: ¿Dónde? / ¿Adónde? / ¿De dónde?',
     description: 'Выберите правильное вопросительное слово для места',
+    reviewTime: 10,
     questions: [
       { sentence: '¿___ vives? - Vivo en Madrid.', options: ['Dónde', 'Adónde', 'De dónde', 'Cuándo'], correct: 0 },
       { sentence: '¿___ vas? - Voy a la universidad.', options: ['Adónde', 'Dónde', 'De dónde', 'Cuándo'], correct: 0 },
@@ -10710,6 +10836,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Вопросительные слова: общие',
     description: 'Выберите правильное вопросительное слово',
+    reviewTime: 10,
     questions: [
       { sentence: '¿___ te llamas? - Me llamo Ana.', options: ['Cómo', 'Qué', 'Quién', 'Cuándo'], correct: 0 },
       { sentence: '¿___ años tienes? - Tengo veinte años.', options: ['Cuántos', 'Cuánto', 'Qué', 'Cómo'], correct: 0 },
@@ -10729,17 +10856,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Альтернативные вопросы',
     description: 'Выберите правильный альтернативный вопрос',
+    reviewTime: 10,
     questions: [
       { sentence: 'чай или кофе?', options: ['¿Té o café?', '¿Té y café?', '¿Qué té o café?', '¿Es té o café?'], correct: 0 },
-      { sentence: 'Ты студент или преподаватель?', options: ['¿Eres estudiante o profesor?', '¿Eres estudiante y profesor?', '¿Qué eres estudiante o profesor?', '¿Estás estudiante o profesor?'], correct: 0 },
-      { sentence: 'Твоя сестра высокая или низкая?', options: ['¿Tu hermana es alta o baja?', '¿Tu hermana es alta y baja?', '¿Cómo es tu hermana alta o baja?', '¿Está tu hermana alta o baja?'], correct: 0 },
-      { sentence: 'Вы идете в кино или в театр?', options: ['¿Vais al cine o al teatro?', '¿Vais al cine y al teatro?', '¿Adónde vais al cine o al teatro?', '¿Estáis al cine o al teatro?'], correct: 0 },
+      { sentence: 'Ты студент или преподаватель?', options: ['¿Eres estudiante y profesor?', '¿Eres estudiante o profesor?', '¿Qué eres estudiante o profesor?', '¿Estás estudiante o profesor?'], correct: 1 },
+      { sentence: 'Твоя сестра высокая или низкая?', options: ['¿Tu hermana es alta y baja?', '¿Cómo es tu hermana alta o baja?', '¿Tu hermana es alta o baja?', '¿Está tu hermana alta o baja?'], correct: 2 },
+      { sentence: 'Вы идете в кино или в театр?', options: ['¿Vais al cine y al teatro?', '¿Adónde vais al cine o al teatro?', '¿Estáis al cine o al teatro?', '¿Vais al cine o al teatro?'], correct: 3 },
       { sentence: 'Это твоя книга или его книга?', options: ['¿Es tu libro o su libro?', '¿Es tu libro y su libro?', '¿Qué es tu libro o su libro?', '¿Está tu libro o su libro?'], correct: 0 },
-      { sentence: 'Они живут в Мадриде или в Барселоне?', options: ['¿Viven en Madrid o en Barcelona?', '¿Viven en Madrid y en Barcelona?', '¿Dónde viven en Madrid o en Barcelona?', '¿Están en Madrid o en Barcelona?'], correct: 0 },
-      { sentence: 'Твой отец врач или учитель?', options: ['¿Tu padre es médico o profesor?', '¿Tu padre es médico y profesor?', '¿Qué es tu padre médico o profesor?', '¿Está tu padre médico o profesor?'], correct: 0 },
-      { sentence: 'Урок утром или вечером?', options: ['¿La clase es por la mañana o por la tarde?', '¿La clase es por la mañana y por la tarde?', '¿Cuándo es la clase por la mañana o por la tarde?', '¿Está la clase por la mañana o por la tarde?'], correct: 0 },
+      { sentence: 'Они живут в Мадриде или в Барселоне?', options: ['¿Viven en Madrid y en Barcelona?', '¿Viven en Madrid o en Barcelona?', '¿Dónde viven en Madrid o en Barcelona?', '¿Están en Madrid o en Barcelona?'], correct: 1 },
+      { sentence: 'Твой отец врач или учитель?', options: ['¿Tu padre es médico y profesor?', '¿Qué es tu padre médico o profesor?', '¿Tu padre es médico o profesor?', '¿Está tu padre médico o profesor?'], correct: 2 },
+      { sentence: 'Урок утром или вечером?', options: ['¿La clase es por la mañana y por la tarde?', '¿Cuándo es la clase por la mañana o por la tarde?', '¿Está la clase por la mañana o por la tarde?', '¿La clase es por la mañana o por la tarde?'], correct: 3 },
       { sentence: 'У тебя кот или собака?', options: ['¿Tienes un gato o un perro?', '¿Tienes un gato y un perro?', '¿Qué tienes un gato o un perro?', '¿Estás un gato o un perro?'], correct: 0 },
-      { sentence: 'Это молоко или вода?', options: ['¿Es leche o agua?', '¿Es leche y agua?', '¿Qué es leche o agua?', '¿Está leche o agua?'], correct: 0 }
+      { sentence: 'Это молоко или вода?', options: ['¿Es leche y agua?', '¿Es leche o agua?', '¿Qué es leche o agua?', '¿Está leche o agua?'], correct: 1 }
     ]
   },
 
@@ -10748,6 +10876,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'grammar',
     title: 'Образование вопросов',
     description: 'Выберите правильный вопрос к выделенной части',
+    reviewTime: 10,
     questions: [
       { sentence: 'María estudia en la universidad. (María)', options: ['¿Quién estudia en la universidad?', '¿Qué estudia en la universidad?', '¿Dónde estudia María?', '¿Cómo estudia María?'], correct: 0 },
       { sentence: 'Carlos vive en Madrid. (en Madrid)', options: ['¿Dónde vive Carlos?', '¿Quién vive en Madrid?', '¿Cómo vive Carlos?', '¿Cuándo vive Carlos?'], correct: 0 },
@@ -10767,6 +10896,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'word-order',
     title: 'Порядок слов в вопросах',
     description: 'Расставьте слова в правильном порядке',
+    reviewTime: 10,
     questions: [
       { words: ['¿', 'Dónde', 'vives', 'tú', '?'], correct: ['¿', 'Dónde', 'vives', 'tú', '?'] },
       { words: ['¿', 'Cómo', 'te', 'llamas', '?'], correct: ['¿', 'Cómo', 'te', 'llamas', '?'] },
@@ -10786,6 +10916,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'translation',
     title: 'Перевод вопросов',
     description: 'Переведите вопросы с русского на испанский',
+    reviewTime: 10,
     questions: [
       { russian: 'Как тебя зовут?', correct: '¿Cómo te llamas?', alternatives: ['¿Cómo se llama usted?'] },
       { russian: 'Где ты живешь?', correct: '¿Dónde vives?', alternatives: ['¿Dónde vive usted?'] },
@@ -10805,6 +10936,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'error-correction',
     title: 'Исправление ошибок в вопросах',
     description: 'Найдите и исправьте ошибку в вопросительном предложении',
+    reviewTime: 10,
     questions: [
       { incorrect: '¿Que es tu nombre?', correct: '¿Cuál es tu nombre?', explanation: 'Используем ¿Cuál? для выбора из вариантов' },
       { incorrect: '¿Donde vives tu?', correct: '¿Dónde vives?', explanation: 'Нужен знак ударения: Dónde' },
@@ -10816,6 +10948,87 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { incorrect: '¿Quien es tu profesor?', correct: '¿Quién es tu profesor?', explanation: 'Нужен знак ударения: Quién' },
       { incorrect: '¿Cuanto años tienes?', correct: '¿Cuántos años tienes?', explanation: 'Согласование по числу и знак ударения: Cuántos' },
       { incorrect: '¿Que haces tu?', correct: '¿Qué haces?', explanation: 'Нужен знак ударения: Qué' }
+    ]
+  },
+
+  // Упражнения на глаголы индивидуального спряжения
+  'ex-3-1-10': {
+    id: 'ex-3-1-10',
+    type: 'grammar',
+    title: 'Глагол QUERER: спряжение',
+    description: 'Выберите правильную форму глагола QUERER',
+    reviewTime: 10,
+    questions: [
+      { sentence: 'Yo ___ estudiar español.', options: ['quiero', 'quieres', 'quiere', 'quieren'], correct: 0 },
+      { sentence: '¿Tú ___ venir conmigo?', options: ['quieres', 'quiero', 'quiere', 'queremos'], correct: 0 },
+      { sentence: 'Mi hermano ___ ser médico.', options: ['quiere', 'quiero', 'quieres', 'quieren'], correct: 0 },
+      { sentence: 'Nosotros ___ una casa grande.', options: ['queremos', 'quiero', 'quieres', 'quieren'], correct: 0 },
+      { sentence: '¿Vosotros ___ café o té?', options: ['queréis', 'queremos', 'quieren', 'quiero'], correct: 0 },
+      { sentence: 'Ellos ___ viajar a España.', options: ['quieren', 'queremos', 'quiero', 'quiere'], correct: 0 },
+      { sentence: 'Yo ___ mucho a mi familia.', options: ['quiero', 'quieres', 'quiere', 'queremos'], correct: 0 },
+      { sentence: '¿Qué ___ tú de regalo?', options: ['quieres', 'quiero', 'quiere', 'queremos'], correct: 0 },
+      { sentence: 'Mi madre ___ un coche nuevo.', options: ['quiere', 'quiero', 'quieres', 'quieren'], correct: 0 },
+      { sentence: 'Nosotros ___ ser profesores.', options: ['queremos', 'quiero', 'quieren', 'quiere'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-11': {
+    id: 'ex-3-1-11',
+    type: 'grammar',
+    title: 'Глагол PODER: спряжение',
+    description: 'Выберите правильную форму глагола PODER',
+    reviewTime: 10,
+    questions: [
+      { sentence: 'Yo ___ hablar español.', options: ['puedo', 'puedes', 'puede', 'pueden'], correct: 0 },
+      { sentence: '¿Tú ___ venir mañana?', options: ['puedes', 'puedo', 'puede', 'podemos'], correct: 0 },
+      { sentence: 'Mi padre no ___ trabajar hoy.', options: ['puede', 'puedo', 'puedes', 'pueden'], correct: 0 },
+      { sentence: 'Nosotros ___ estudiar en la biblioteca.', options: ['podemos', 'puedo', 'puedes', 'pueden'], correct: 0 },
+      { sentence: '¿Vosotros ___ ayudarme?', options: ['podéis', 'podemos', 'pueden', 'puedo'], correct: 0 },
+      { sentence: 'Ellos ___ venir a la universidad.', options: ['pueden', 'podemos', 'puedo', 'puede'], correct: 0 },
+      { sentence: 'Yo no ___ ir a la fiesta.', options: ['puedo', 'puedes', 'puede', 'podemos'], correct: 0 },
+      { sentence: '¿Tú ___ leer este libro?', options: ['puedes', 'puedo', 'puede', 'podemos'], correct: 0 },
+      { sentence: 'Ella ___ cocinar muy bien.', options: ['puede', 'puedo', 'puedes', 'pueden'], correct: 0 },
+      { sentence: 'Nosotros ___ hablar tres idiomas.', options: ['podemos', 'puedo', 'pueden', 'puede'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-12': {
+    id: 'ex-3-1-12',
+    type: 'grammar',
+    title: 'Глагол VENIR: спряжение',
+    description: 'Выберите правильную форму глагола VENIR',
+    reviewTime: 10,
+    questions: [
+      { sentence: 'Yo ___ a la universidad en autobús.', options: ['vengo', 'vienes', 'viene', 'vienen'], correct: 0 },
+      { sentence: '¿Tú ___ de Madrid?', options: ['vienes', 'vengo', 'viene', 'venimos'], correct: 0 },
+      { sentence: 'Mi amigo ___ a mi casa esta tarde.', options: ['viene', 'vengo', 'vienes', 'vienen'], correct: 0 },
+      { sentence: 'Nosotros ___ de la biblioteca.', options: ['venimos', 'vengo', 'vienes', 'vienen'], correct: 0 },
+      { sentence: '¿De dónde ___ vosotros?', options: ['venís', 'venimos', 'vienen', 'vengo'], correct: 0 },
+      { sentence: 'Mis padres ___ mañana.', options: ['vienen', 'venimos', 'vengo', 'viene'], correct: 0 },
+      { sentence: 'Yo ___ de España.', options: ['vengo', 'vienes', 'viene', 'venimos'], correct: 0 },
+      { sentence: '¿Tú ___ a la clase hoy?', options: ['vienes', 'vengo', 'viene', 'venimos'], correct: 0 },
+      { sentence: 'Ella ___ de la escuela.', options: ['viene', 'vengo', 'vienes', 'vienen'], correct: 0 },
+      { sentence: 'Nosotros ___ aquí todos los días.', options: ['venimos', 'vengo', 'vienen', 'viene'], correct: 0 }
+    ]
+  },
+
+  'ex-3-1-13': {
+    id: 'ex-3-1-13',
+    type: 'grammar',
+    title: 'Глагол DECIR: спряжение',
+    description: 'Выберите правильную форму глагола DECIR',
+    reviewTime: 10,
+    questions: [
+      { sentence: 'Yo siempre ___ la verdad.', options: ['digo', 'dices', 'dice', 'dicen'], correct: 0 },
+      { sentence: '¿Qué ___ tú?', options: ['dices', 'digo', 'dice', 'decimos'], correct: 0 },
+      { sentence: 'Mi madre ___ que tengo que estudiar.', options: ['dice', 'digo', 'dices', 'dicen'], correct: 0 },
+      { sentence: 'Nosotros ___ "buenos días" por la mañana.', options: ['decimos', 'digo', 'dices', 'dicen'], correct: 0 },
+      { sentence: '¿Qué ___ vosotros?', options: ['decís', 'decimos', 'dicen', 'digo'], correct: 0 },
+      { sentence: 'Ellos ___ que vienen mañana.', options: ['dicen', 'decimos', 'digo', 'dice'], correct: 0 },
+      { sentence: 'Yo no ___ mentiras.', options: ['digo', 'dices', 'dice', 'decimos'], correct: 0 },
+      { sentence: '¿Qué ___ tu padre?', options: ['dice', 'digo', 'dices', 'dicen'], correct: 0 },
+      { sentence: 'Tú ___ que estudias español.', options: ['dices', 'digo', 'dice', 'decimos'], correct: 0 },
+      { sentence: 'Nosotros ___ "adiós" cuando salimos.', options: ['decimos', 'digo', 'dicen', 'dice'], correct: 0 }
     ]
   }
 }
