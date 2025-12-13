@@ -9628,7 +9628,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'translation',
     title: 'Перевод с русского на испанский',
     description: 'Переведите предложения с русского на испанский',
-    reviewTime: 10,
+    reviewTime: 15,
     questions: [
       { russian: 'Эти подарки для моей сестры, а те подарки для нашего друга.', correct: 'Estos regalos son para mi hermana, y esos regalos son para nuestro amigo.', alternatives: ['Estos regalos son para mi hermana y esos regalos son para nuestro amigo', 'Estos regalos para mi hermana, y esos regalos para nuestro amigo'] },
       { russian: 'Я не включаю свет, потому что не хочу читать.', correct: 'No enciendo la luz porque no quiero leer.', alternatives: ['Yo no enciendo la luz porque no quiero leer'] },
@@ -11078,7 +11078,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-3-1-16': {
     id: 'ex-3-1-16',
     type: 'multi-part',
-    title: 'Упражнение 16. Обобщение',
+    title: 'Обобщение',
     description: 'Комплексное упражнение на повторение пройденного материала',
     reviewTime: 15,
     parts: [
