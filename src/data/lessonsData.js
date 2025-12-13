@@ -33,7 +33,7 @@ export const modules = {
     id: 'module-2',
     title: 'Модуль 2: Настоящее время',
     level: 'beginner',
-    lessons: ['lesson-2-2', 'lesson-2-3', 'lesson-2-4'],
+    lessons: ['lesson-2-1', 'lesson-2-3', 'lesson-2-4'],
     description: 'Настоящее время правильных глаголов'
   },
   'module-3': {
@@ -1860,9 +1860,9 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
   },
 
   // МОДУЛЬ 2: Настоящее время
-  'lesson-2-2': {
-    id: 'lesson-2-2',
-    title: 'Урок 2: Глаголы IR, TENER, OÍR',
+  'lesson-2-1': {
+    id: 'lesson-2-1',
+    title: 'Урок 1: Глаголы IR, TENER, OÍR',
     moduleId: 'module-2',
     grammar: {
       title: 'Неправильные глаголы IR, TENER, OÍR',
