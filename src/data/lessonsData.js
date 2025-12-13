@@ -3381,6 +3381,111 @@ María: ¡Vamos!`,
 | SER (Профессия) | Mi hermana es profesora. | Моя сестра — преподаватель. |
 | ESTAR (Местоположение) | ¿Estáis vosotros en casa? | Вы находитесь дома? |
 | HAY (Наличие) | En la clase hay quince estudiantes. | В классе есть пятнадцать студентов. |`
+        },
+        {
+          id: 'adjectives-mucho-poco-tanto',
+          title: 'Прилагательные Mucho, Poco, Tanto',
+          collapsible: true,
+          defaultOpen: false,
+          content: `**Mucho** (много), **poco** (мало), **tanto** (столько) — это прилагательные, которые изменяются по родам и числам и согласуются с существительными.
+
+| Форма | Мужской род ед.ч. | Женский род ед.ч. | Мужской род мн.ч. | Женский род мн.ч. |
+|-------|-------------------|-------------------|-------------------|-------------------|
+| mucho | mucho dinero | mucha agua | muchos libros | muchas personas |
+| poco | poco tiempo | poca comida | pocos estudiantes | pocas opciones |
+| tanto | tanto trabajo | tanta gente | tantos problemas | tantas ideas |
+
+**Примеры:**
+- Hay **mucha** gente en la calle. (На улице много людей.)
+- Tengo **poco** dinero. (У меня мало денег.)
+- ¿Por qué hay **tantos** coches aquí? (Почему здесь столько машин?)
+- En este restaurante hay **muchos** platos vegetarianos. (В этом ресторане много вегетарианских блюд.)`
+        },
+        {
+          id: 'adverbs-mucho-poco-tanto',
+          title: 'Наречия Mucho, Poco, Tanto',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Когда **mucho**, **poco**, **tanto** используются как наречия (с глаголами), они **НЕ изменяются** и всегда имеют форму мужского рода единственного числа.
+
+**Схема:** Глагол + mucho/poco/tanto
+
+**Примеры:**
+- Trabajo **mucho**. (Я много работаю.)
+- Duermo **poco**. (Я мало сплю.)
+- Mi hermano habla **tanto** que me cansa. (Мой брат говорит столько, что меня утомляет.)
+- Me gusta **mucho** esta película. (Мне очень нравится этот фильм.)
+- Como **poco** por la mañana. (Я мало ем по утрам.)
+
+**Важно:** С глаголами всегда используется форма **mucho/poco/tanto** (без изменений)!`
+        },
+        {
+          id: 'adverbs-muy-tan',
+          title: 'Наречия Muy и Tan',
+          collapsible: true,
+          defaultOpen: false,
+          content: `**Muy** (очень) и **tan** (так, такой) — это наречия, которые **НЕ изменяются** и используются перед прилагательными или другими наречиями.
+
+**Схема:** Muy/Tan + прилагательное/наречие
+
+| Наречие | Использование | Примеры |
+|---------|---------------|---------|
+| muy | Очень (перед прилагательными и наречиями) | La casa es **muy** grande. (Дом очень большой.)<br>Hablas **muy** rápido. (Ты говоришь очень быстро.) |
+| tan | Так, такой (перед прилагательными и наречиями, часто в восклицаниях или сравнениях) | ¡La película es **tan** interesante! (Фильм такой интересный!)<br>No corras **tan** rápido. (Не беги так быстро.) |
+
+**Различие muy и mucho:**
+- **Muy** + прилагательное: Estoy **muy** cansado. (Я очень устал.)
+- Глагол + **mucho**: Trabajo **mucho**. (Я много работаю.)
+
+**Ошибка:** ~~Estoy mucho cansado.~~ ❌
+**Правильно:** Estoy **muy** cansado. ✅`
+        },
+        {
+          id: 'adjective-tal',
+          title: 'Прилагательное Tal',
+          collapsible: true,
+          defaultOpen: false,
+          content: `**Tal** (такой) — это прилагательное, которое изменяется только по числам: **tal** (ед.ч.) и **tales** (мн.ч.).
+
+**Особенность:** **Tal/tales** используется **БЕЗ артикля** перед существительным!
+
+| Форма | Пример | Перевод |
+|-------|--------|---------|
+| tal (ед.ч.) | No he visto **tal** cosa. | Я не видел такой вещи. |
+| tal (ед.ч.) | ¿Cómo puedes decir **tal** mentira? | Как ты можешь говорить такую ложь? |
+| tales (мн.ч.) | No me gustan **tales** actitudes. | Мне не нравятся такие отношения. |
+| tales (мн.ч.) | **Tales** personas no merecen respeto. | Такие люди не заслуживают уважения. |
+
+**Устойчивые выражения:**
+- **tal vez** — может быть, возможно
+- **tal como** — так как, таким образом как
+- **un tal / una tal** — некий, некая (с артиклем!): Llamó **un tal** Pedro. (Звонил некий Педро.)`
+        },
+        {
+          id: 'comparison-tanto-tal',
+          title: 'Сравнение Tanto и Tal',
+          collapsible: true,
+          defaultOpen: false,
+          content: `**Tanto/tanta/tantos/tantas** и **tal/tales** часто путают, но они используются в разных контекстах.
+
+| Слово | Тип | Согласование | Использование | Пример |
+|-------|-----|--------------|---------------|--------|
+| **tanto/a/os/as** | Прилагательное | Род + число | Количество (столько) | Hay **tantas** personas. (Столько людей.) |
+| **tanto** | Наречие | Не изменяется | С глаголами (столько) | Hablas **tanto**. (Ты говоришь столько.) |
+| **tal/tales** | Прилагательное | Только число | Качество (такой) | **Tal** comportamiento es inaceptable. (Такое поведение неприемлемо.) |
+| **tan** | Наречие | Не изменяется | Перед прилагательными (так) | Es **tan** bonito. (Это так красиво.) |
+
+**Сравнение в предложениях:**
+- Tengo **tantos** libros que no sé dónde ponerlos. (У меня столько книг, что не знаю, куда их положить.) — количество
+- Nunca he visto **tales** libros. (Я никогда не видел таких книг.) — качество
+
+**Запомните:**
+- **Tanto** = сколько (количество): ¿Cuánto? — **Tanto**.
+- **Tal** = какой (качество): ¿Qué tipo? — **Tal**.
+
+**Примеры контраста:**
+- No necesito **tanta** ayuda. (Мне не нужно столько помощи.) — количество
+- No necesito **tal** ayuda. (Мне не нужна такая помощь.) — качество/тип помощи`
         }
       ]
     },
