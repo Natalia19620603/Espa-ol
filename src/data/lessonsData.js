@@ -3291,7 +3291,7 @@ María: ¡Vamos!`,
         { start: 55, end: 60, text: 'Mi familia quiere conocerte. - ¡Perfecto!' }
       ]
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13', 'ex-3-1-14', 'ex-1-5-translation', 'ex-3-1-summary']
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13', 'ex-1-5-translation', 'ex-3-1-16']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -11075,10 +11075,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-3-1-summary': {
-    id: 'ex-3-1-summary',
+  'ex-3-1-16': {
+    id: 'ex-3-1-16',
     type: 'multi-part',
-    title: 'Упражнения Обобщения',
+    title: 'Упражнение 16. Обобщение',
     description: 'Комплексное упражнение на повторение пройденного материала',
     reviewTime: 15,
     parts: [
@@ -11151,6 +11151,22 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
           { russian: 'Mi prima trabaja en Barcelona.', highlight: 'en Barcelona', correct: '¿Dónde trabaja tu prima?', alternatives: ['¿Dónde trabaja?', '¿En qué ciudad trabaja tu prima?'] },
           { russian: 'Usted habla con el doctor.', highlight: 'con el doctor', correct: '¿Con quién habla usted?', alternatives: ['¿Con quién habla?'] },
           { russian: 'Estudiamos español por la noche.', highlight: 'por la noche', correct: '¿Cuándo estudiamos español?', alternatives: ['¿Cuándo estudian español?', '¿A qué hora estudian español?'] }
+        ]
+      },
+      {
+        id: 'part-6',
+        title: 'Задание 6. Перевод с русского на испанский',
+        type: 'translation',
+        description: 'Переведите предложения с русского на испанский',
+        questions: [
+          { russian: 'Мой сын молод, поэтому не женат, но у него есть невеста.', correct: 'Mi hijo es joven, por eso no está casado, pero tiene novia.', alternatives: ['Mi hijo es joven, por eso no está casado pero tiene novia', 'Mi hijo es joven por eso no está casado, pero tiene novia', 'Mi hijo es joven por eso no está casado pero tiene novia'] },
+          { russian: 'Рикардо, ты где? — Я в баре, хочу пойти домой, но не могу.', correct: 'Ricardo, ¿dónde estás? — Estoy en el bar, quiero ir a casa, pero no puedo.', alternatives: ['Ricardo ¿dónde estás? Estoy en el bar, quiero ir a casa pero no puedo', '¿Ricardo, dónde estás? — Estoy en el bar, quiero ir a casa, pero no puedo'] },
+          { russian: 'Мы идем пешком, потому что не спешим, у нас есть время.', correct: 'Vamos a pie porque no tenemos prisa, tenemos tiempo.', alternatives: ['Vamos a pie porque no tenemos prisa tenemos tiempo', 'Nosotros vamos a pie porque no tenemos prisa, tenemos tiempo', 'Nosotros vamos a pie porque no tenemos prisa tenemos tiempo'] },
+          { russian: 'Отец спрашивает свою дочь, кем она хочет стать. Она говорит, что хочет быть актрисой.', correct: 'El padre pregunta a su hija qué quiere ser. Ella dice que quiere ser actriz.', alternatives: ['El padre pregunta a su hija qué quiere ser y ella dice que quiere ser actriz', 'El padre le pregunta a su hija qué quiere ser. Ella dice que quiere ser actriz'] },
+          { russian: 'Они внимательно слушают преподавателя, потому что им надо написать статью на эту тему.', correct: 'Escuchan atentamente al profesor porque tienen que escribir un artículo sobre este tema.', alternatives: ['Ellos escuchan atentamente al profesor porque tienen que escribir un artículo sobre este tema', 'Escuchan con atención al profesor porque tienen que escribir un artículo sobre este tema'] },
+          { russian: 'Ты собираешься позвонить своему другу, чтобы спросить, как он себя чувствует.', correct: 'Vas a llamar a tu amigo para preguntar cómo se siente.', alternatives: ['Tú vas a llamar a tu amigo para preguntar cómo se siente', 'Vas a llamar a tu amigo para preguntarle cómo se siente'] },
+          { russian: 'Я звоню в дверь, но они не открывают. Я не понимаю, почему.', correct: 'Llamo a la puerta, pero no abren. No comprendo por qué.', alternatives: ['Yo llamo a la puerta, pero no abren. No comprendo por qué', 'Llamo a la puerta pero no abren. No entiendo por qué', 'Llamo a la puerta, pero no abren. No entiendo por qué'] },
+          { russian: 'У тебя новая машина? — Нет, она не моя. Это машина моего отца, у меня нет машины.', correct: '¿Tienes un coche nuevo? — No, no es mío. Es el coche de mi padre, no tengo coche.', alternatives: ['¿Tienes coche nuevo? — No, no es mío. Es el coche de mi padre, no tengo coche', '¿Tienes un coche nuevo? No, no es mío. Es el coche de mi padre, no tengo coche'] }
         ]
       }
     ]
