@@ -33,7 +33,7 @@ export const modules = {
     id: 'module-2',
     title: 'Модуль 2: Настоящее время',
     level: 'beginner',
-    lessons: ['lesson-2-1', 'lesson-2-3', 'lesson-2-4'],
+    lessons: ['lesson-2-1', 'lesson-2-2', 'lesson-2-3'],
     description: 'Настоящее время правильных глаголов'
   },
   'module-3': {
@@ -2170,9 +2170,9 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       'ex-2-2-translation-rus-esp'
     ]
   },
-  'lesson-2-4': {
-    id: 'lesson-2-4',
-    title: 'Модуль 2 Урок 4 Указательные местоимения и наречия. Притяжательные местоимения . Черты характера. Описание внешности',
+  'lesson-2-2': {
+    id: 'lesson-2-2',
+    title: 'Урок 2 Указательные местоимения и наречия. Притяжательные местоимения . Черты характера. Описание внешности',
     moduleId: 'module-2',
     grammar: {
       title: 'Указательные местоимения и наречия. Притяжательные местоимения',
