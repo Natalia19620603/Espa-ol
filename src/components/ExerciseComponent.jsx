@@ -1302,8 +1302,8 @@ function TransformationQuestion({ question, onAnswer }) {
 
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>{question.instruction}</h3>
-      <p className={styles.sentenceToTransform}>{question.sentence}</p>
+      <h3 className={styles.questionText}>Трансформируйте предложение:</h3>
+      <p className={styles.sentenceToTransform}>{question.russian}</p>
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
