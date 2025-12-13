@@ -3489,8 +3489,58 @@ María: ¡Vamos!`,
         }
       ]
     },
-    vocabulary: [],
-    exercises: []
+    vocabulary: [
+      { word: 'hogar', translation: 'дом (домашний очаг)', audioUrl: null },
+      { word: 'piso', translation: 'этаж / квартира', audioUrl: null },
+      { word: 'planta baja', translation: 'цокольный этаж', audioUrl: null },
+      { word: 'apartamento', translation: 'квартира', audioUrl: null },
+      { word: 'entrada', translation: 'вход', audioUrl: null },
+      { word: 'escalera', translation: 'лестница', audioUrl: null },
+      { word: 'pared', translation: 'стена', audioUrl: null },
+      { word: 'techo', translation: 'потолок / крыша', audioUrl: null },
+      { word: 'suelo', translation: 'пол', audioUrl: null },
+      { word: 'habitación', translation: 'комната', audioUrl: null },
+      { word: 'cuarto', translation: 'комната', audioUrl: null },
+      { word: 'cuarto de baño', translation: 'ванная комната / туалет', audioUrl: null },
+      { word: 'aseo', translation: 'туалет', audioUrl: null },
+      { word: 'recibidor', translation: 'прихожая', audioUrl: null },
+      { word: 'pasillo', translation: 'коридор', audioUrl: null },
+      { word: 'dormitorio', translation: 'спальня', audioUrl: null },
+      { word: 'salón', translation: 'гостиная', audioUrl: null },
+      { word: 'comedor', translation: 'столовая', audioUrl: null },
+      { word: 'cocina', translation: 'кухня', audioUrl: null },
+      { word: 'despacho', translation: 'кабинет', audioUrl: null },
+      { word: 'cortinas', translation: 'шторы', audioUrl: null },
+      { word: 'alfombra', translation: 'ковер', audioUrl: null },
+      { word: 'mueble', translation: 'мебель', audioUrl: null },
+      { word: 'mesa', translation: 'стол', audioUrl: null },
+      { word: 'mesita de noche', translation: 'прикроватная тумбочка', audioUrl: null },
+      { word: 'escritorio', translation: 'письменный стол', audioUrl: null },
+      { word: 'silla', translation: 'стул', audioUrl: null },
+      { word: 'sillón', translation: 'кресло', audioUrl: null },
+      { word: 'cama', translation: 'кровать', audioUrl: null },
+      { word: 'sofá', translation: 'софа', audioUrl: null },
+      { word: 'armario', translation: 'шкаф платяной', audioUrl: null },
+      { word: 'armario empotrado', translation: 'встроенный шкаф', audioUrl: null },
+      { word: 'estantería', translation: 'полка / стеллаж', audioUrl: null },
+      { word: 'aparador', translation: 'буфет', audioUrl: null },
+      { word: 'cómoda', translation: 'комод', audioUrl: null },
+      { word: 'tocador', translation: 'туалетный столик', audioUrl: null },
+      { word: 'espejo', translation: 'зеркало', audioUrl: null },
+      { word: 'lámpara', translation: 'лампа', audioUrl: null },
+      { word: 'lámpara de pie', translation: 'торшер', audioUrl: null },
+      { word: 'araña', translation: 'люстра', audioUrl: null },
+      { word: 'televisor', translation: 'телевизор', audioUrl: null },
+      { word: 'ordenador', translation: 'компьютер', audioUrl: null },
+      { word: 'electrodomésticos', translation: 'электробытовые приборы', audioUrl: null },
+      { word: 'frigorífico', translation: 'холодильник', audioUrl: null },
+      { word: 'horno microondas', translation: 'микроволновая печь', audioUrl: null },
+      { word: 'cocina de gas', translation: 'газовая плита', audioUrl: null },
+      { word: 'cocina eléctrica', translation: 'электроплита', audioUrl: null },
+      { word: 'lavadora', translation: 'стиральная машина', audioUrl: null },
+      { word: 'lavavajillas', translation: 'посудомоечная машина', audioUrl: null }
+    ],
+    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
@@ -11297,6 +11347,127 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
           { russian: 'У тебя новая машина? — Нет, она не моя. Это машина моего отца, у меня нет машины.', correct: '¿Tienes un coche nuevo? — No, no es mío. Es el coche de mi padre, no tengo coche.', alternatives: ['¿Tienes coche nuevo? — No, no es mío. Es el coche de mi padre, no tengo coche', '¿Tienes un coche nuevo? No, no es mío. Es el coche de mi padre, no tengo coche'] }
         ]
       }
+    ]
+  },
+
+  // Módulo 3 Lección 1 - Упражнения на HAY и квантификаторы
+  'ex-3-1-1': {
+    id: 'ex-3-1-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Использование HAY',
+    description: 'Вставьте hay или no hay в предложения',
+    questions: [
+      { sentence: 'En el salón ___ un sofá grande.', correct: 'hay', blanks: 1 },
+      { sentence: 'En la cocina ___ un frigorífico.', correct: 'hay', blanks: 1 },
+      { sentence: 'En mi dormitorio ___ una cama y un armario.', correct: 'hay', blanks: 1 },
+      { sentence: 'En el baño ___ un espejo.', correct: 'hay', blanks: 1 },
+      { sentence: 'En este piso ___ ascensor, solo escaleras.', correct: 'no hay', blanks: 1 },
+      { sentence: 'En la mesa ___ libros y cuadernos.', correct: 'hay', blanks: 1 },
+      { sentence: 'En el comedor ___ una mesa grande.', correct: 'hay', blanks: 1 },
+      { sentence: 'En mi habitación ___ televisor.', correct: 'no hay', blanks: 1 },
+      { sentence: 'En la pared ___ cuadros bonitos.', correct: 'hay', blanks: 1 },
+      { sentence: 'En el despacho ___ un escritorio y una silla.', correct: 'hay', blanks: 1 },
+      { sentence: 'En la entrada ___ un espejo grande.', correct: 'hay', blanks: 1 },
+      { sentence: 'En el pasillo ___ ventanas.', correct: 'no hay', blanks: 1 },
+      { sentence: 'En el suelo ___ una alfombra.', correct: 'hay', blanks: 1 },
+      { sentence: 'En la cocina ___ una lavadora y un lavavajillas.', correct: 'hay', blanks: 1 },
+      { sentence: 'En el salón ___ cortinas azules.', correct: 'hay', blanks: 1 }
+    ]
+  },
+
+  'ex-3-1-2': {
+    id: 'ex-3-1-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: MUCHO / POCO (согласование)',
+    description: 'Вставьте правильную форму mucho/mucha/muchos/muchas или poco/poca/pocos/pocas',
+    questions: [
+      { sentence: 'En mi casa hay ___ habitaciones. (mucho)', correct: 'muchas', blanks: 1 },
+      { sentence: 'En la cocina hay ___ espacio. (poco)', correct: 'poco', blanks: 1 },
+      { sentence: 'En el salón hay ___ muebles. (mucho)', correct: 'muchos', blanks: 1 },
+      { sentence: 'En mi dormitorio hay ___ luz. (poco)', correct: 'poca', blanks: 1 },
+      { sentence: 'Hay ___ sillas en el comedor. (mucho)', correct: 'muchas', blanks: 1 },
+      { sentence: 'Tengo ___ tiempo libre. (poco)', correct: 'poco', blanks: 1 },
+      { sentence: 'En la estantería hay ___ libros. (mucho)', correct: 'muchos', blanks: 1 },
+      { sentence: 'En el frigorífico hay ___ comida. (poco)', correct: 'poca', blanks: 1 },
+      { sentence: 'Hay ___ personas en la fiesta. (mucho)', correct: 'muchas', blanks: 1 },
+      { sentence: 'Tenemos ___ dinero este mes. (poco)', correct: 'poco', blanks: 1 },
+      { sentence: 'Hay ___ trabajo hoy. (mucho)', correct: 'mucho', blanks: 1 },
+      { sentence: 'En la clase hay ___ estudiantes. (poco)', correct: 'pocos', blanks: 1 },
+      { sentence: 'Hay ___ agua en el vaso. (poco)', correct: 'poca', blanks: 1 },
+      { sentence: 'Tengo ___ amigos en esta ciudad. (mucho)', correct: 'muchos', blanks: 1 },
+      { sentence: 'Hay ___ leche en el frigorífico. (poco)', correct: 'poca', blanks: 1 }
+    ]
+  },
+
+  'ex-3-1-3': {
+    id: 'ex-3-1-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: MUY / MUCHO',
+    description: 'Вставьте muy или mucho/mucha/muchos/muchas',
+    questions: [
+      { sentence: 'La casa es ___ grande.', correct: 'muy', blanks: 1 },
+      { sentence: 'Trabajo ___ todos los días.', correct: 'mucho', blanks: 1 },
+      { sentence: 'El piso es ___ cómodo.', correct: 'muy', blanks: 1 },
+      { sentence: 'Me gusta ___ esta habitación.', correct: 'mucho', blanks: 1 },
+      { sentence: 'Las cortinas son ___ bonitas.', correct: 'muy', blanks: 1 },
+      { sentence: 'Leo ___ por las noches.', correct: 'mucho', blanks: 1 },
+      { sentence: 'El sofá es ___ cómodo.', correct: 'muy', blanks: 1 },
+      { sentence: 'Estudio español ___ .', correct: 'mucho', blanks: 1 },
+      { sentence: 'La cocina es ___ moderna.', correct: 'muy', blanks: 1 },
+      { sentence: 'Duermo ___ los fines de semana.', correct: 'mucho', blanks: 1 },
+      { sentence: 'El dormitorio es ___ pequeño.', correct: 'muy', blanks: 1 },
+      { sentence: 'Viajo ___ por trabajo.', correct: 'mucho', blanks: 1 },
+      { sentence: 'La lámpara es ___ elegante.', correct: 'muy', blanks: 1 },
+      { sentence: 'Hablo ___ por teléfono.', correct: 'mucho', blanks: 1 },
+      { sentence: 'El cuadro es ___ interesante.', correct: 'muy', blanks: 1 }
+    ]
+  },
+
+  'ex-3-1-4': {
+    id: 'ex-3-1-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: TANTO / TAN',
+    description: 'Вставьте tan или tanto/tanta/tantos/tantas',
+    questions: [
+      { sentence: 'La casa es ___ bonita.', correct: 'tan', blanks: 1 },
+      { sentence: 'Hay ___ muebles en el salón.', correct: 'tantos', blanks: 1 },
+      { sentence: 'El piso es ___ grande.', correct: 'tan', blanks: 1 },
+      { sentence: 'No tengo ___ tiempo.', correct: 'tanto', blanks: 1 },
+      { sentence: 'Las habitaciones son ___ luminosas.', correct: 'tan', blanks: 1 },
+      { sentence: 'Hay ___ personas aquí.', correct: 'tantas', blanks: 1 },
+      { sentence: 'El sofá es ___ cómodo.', correct: 'tan', blanks: 1 },
+      { sentence: '¿Por qué trabajas ___ ?', correct: 'tanto', blanks: 1 },
+      { sentence: 'La cocina es ___ moderna.', correct: 'tan', blanks: 1 },
+      { sentence: 'No necesito ___ cosas.', correct: 'tantas', blanks: 1 },
+      { sentence: 'El espejo es ___ elegante.', correct: 'tan', blanks: 1 },
+      { sentence: 'Tengo ___ libros que no sé dónde ponerlos.', correct: 'tantos', blanks: 1 },
+      { sentence: 'La alfombra es ___ suave.', correct: 'tan', blanks: 1 },
+      { sentence: 'No bebo ___ café.', correct: 'tanto', blanks: 1 },
+      { sentence: 'El dormitorio es ___ acogedor.', correct: 'tan', blanks: 1 }
+    ]
+  },
+
+  'ex-3-1-5': {
+    id: 'ex-3-1-5',
+    type: 'translation',
+    title: 'Упражнение 5: Перевод (HAY + квантификаторы)',
+    description: 'Переведите предложения с русского на испанский',
+    questions: [
+      { russian: 'В гостиной есть большой диван и много кресел.', correct: 'En el salón hay un sofá grande y muchos sillones.', alternatives: ['En el salón hay un sofá grande y muchas sillas', 'Hay un sofá grande y muchos sillones en el salón'] },
+      { russian: 'В моей спальне очень мало мебели.', correct: 'En mi dormitorio hay muy pocos muebles.', alternatives: ['En mi dormitorio hay poca mebela', 'Hay muy pocos muebles en mi dormitorio'] },
+      { russian: 'На кухне есть холодильник, газовая плита и микроволновая печь.', correct: 'En la cocina hay un frigorífico, una cocina de gas y un horno microondas.', alternatives: ['En la cocina hay frigorífico, cocina de gas y horno microondas', 'Hay un frigorífico, una cocina de gas y un horno microondas en la cocina'] },
+      { russian: 'В этой квартире нет стиральной машины.', correct: 'En este apartamento no hay lavadora.', alternatives: ['En este piso no hay lavadora', 'No hay lavadora en este apartamento'] },
+      { russian: 'В прихожей есть очень красивое зеркало.', correct: 'En el recibidor hay un espejo muy bonito.', alternatives: ['En la entrada hay un espejo muy bonito', 'Hay un espejo muy bonito en el recibidor'] },
+      { russian: 'На стене так много картин!', correct: '¡En la pared hay tantos cuadros!', alternatives: ['¡Hay tantos cuadros en la pared!', 'En la pared hay muchos cuadros'] },
+      { russian: 'В столовой нет стульев, только кресла.', correct: 'En el comedor no hay sillas, solo sillones.', alternatives: ['En el comedor no hay sillas solo sillones', 'No hay sillas en el comedor, solo sillones'] },
+      { russian: 'Нужно купить новую кровать для спальни.', correct: 'Hay que comprar una cama nueva para el dormitorio.', alternatives: ['Hay que comprar cama nueva para el dormitorio', 'Es necesario comprar una cama nueva para el dormitorio'] },
+      { russian: 'В кабинете есть письменный стол и много полок.', correct: 'En el despacho hay un escritorio y muchas estanterías.', alternatives: ['En el despacho hay escritorio y muchas estanterías', 'Hay un escritorio y muchas estanterías en el despacho'] },
+      { russian: 'На полу такой красивый ковер!', correct: '¡En el suelo hay una alfombra tan bonita!', alternatives: ['¡Hay una alfombra tan bonita en el suelo!', 'En el suelo hay un tapete tan bonito'] },
+      { russian: 'В ванной комнате очень мало места.', correct: 'En el cuarto de baño hay muy poco espacio.', alternatives: ['En el baño hay muy poco espacio', 'Hay muy poco espacio en el cuarto de baño'] },
+      { russian: 'На этом этаже нет лифта.', correct: 'En este piso no hay ascensor.', alternatives: ['No hay ascensor en este piso', 'En esta planta no hay ascensor'] },
+      { russian: 'В гостиной есть очень большой телевизор.', correct: 'En el salón hay un televisor muy grande.', alternatives: ['En la sala hay un televisor muy grande', 'Hay un televisor muy grande en el salón'] },
+      { russian: 'В коридоре столько дверей!', correct: '¡En el pasillo hay tantas puertas!', alternatives: ['¡Hay tantas puertas en el pasillo!', 'En el pasillo hay muchas puertas'] },
+      { russian: 'Нужно убрать эти вещи с дивана.', correct: 'Hay que quitar estas cosas del sofá.', alternatives: ['Es necesario quitar estas cosas del sofá', 'Hay que sacar estas cosas del sofá'] }
     ]
   }
 }
