@@ -504,6 +504,13 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               currentQuestionIndex={currentQuestion}
             />
           )}
+          {exercise.type === 'multi-part' && (
+            <MultiPartExercise
+              exercise={exercise}
+              onComplete={onComplete}
+              onBack={onBack}
+            />
+          )}
           {exercise.type === 'external' && (
             <ExternalExercise
               url={exercise.embedUrl || exercise.url}
@@ -513,7 +520,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           )}
         </div>
 
-        {exercise.type !== 'external' && (
+        {exercise.type !== 'external' && exercise.type !== 'multi-part' && (
           <>
             <div className={styles.questionNavigation}>
               <button
@@ -545,6 +552,248 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           </>
         )}
       </div>
+    </div>
+  )
+}
+
+function MultiPartExercise({ exercise, onComplete, onBack }) {
+  const [currentPart, setCurrentPart] = useState(0)
+  const [currentQuestion, setCurrentQuestion] = useState(0)
+  const [answers, setAnswers] = useState([])
+  const [showResult, setShowResult] = useState(false)
+  const [score, setScore] = useState(0)
+
+  if (!exercise.parts || exercise.parts.length === 0) {
+    return <div>Нет доступных заданий</div>
+  }
+
+  const part = exercise.parts[currentPart]
+  const totalParts = exercise.parts.length
+  const totalQuestionsInPart = part.questions?.length || 0
+
+  // Подсчет общего количества вопросов во всех частях
+  const totalQuestions = exercise.parts.reduce((sum, p) => sum + (p.questions?.length || 0), 0)
+  const questionsCompletedBefore = exercise.parts.slice(0, currentPart).reduce((sum, p) => sum + (p.questions?.length || 0), 0)
+  const globalQuestionNumber = questionsCompletedBefore + currentQuestion + 1
+
+  const handleAnswer = (answer) => {
+    const newAnswers = [...answers, { partId: part.id, questionIndex: currentQuestion, answer }]
+    setAnswers(newAnswers)
+
+    if (currentQuestion + 1 < totalQuestionsInPart) {
+      setCurrentQuestion(currentQuestion + 1)
+    } else if (currentPart + 1 < totalParts) {
+      // Переход к следующей части
+      setCurrentPart(currentPart + 1)
+      setCurrentQuestion(0)
+    } else {
+      // Все части завершены
+      calculateScore(newAnswers)
+      setShowResult(true)
+    }
+  }
+
+  const calculateScore = (finalAnswers) => {
+    let correct = 0
+    exercise.parts.forEach((part) => {
+      part.questions?.forEach((question, qIndex) => {
+        const userAnswer = finalAnswers.find(a => a.partId === part.id && a.questionIndex === qIndex)
+        if (!userAnswer) return
+
+        if (['fillblank', 'transformation', 'translation'].includes(part.type)) {
+          const normalizedAnswer = userAnswer.answer?.toLowerCase().trim()
+          const normalizedCorrect = question.correct?.toLowerCase().trim()
+
+          let isCorrect = normalizedAnswer === normalizedCorrect
+          if (!isCorrect && question.alternatives && Array.isArray(question.alternatives)) {
+            isCorrect = question.alternatives.some(alt => normalizedAnswer === alt?.toLowerCase().trim())
+          }
+          if (isCorrect) correct++
+        } else if (part.type === 'question-formation') {
+          const normalizedAnswer = userAnswer.answer?.toLowerCase().trim()
+          const normalizedCorrect = question.correct?.toLowerCase().trim()
+
+          let isCorrect = normalizedAnswer === normalizedCorrect
+          if (!isCorrect && question.alternatives && Array.isArray(question.alternatives)) {
+            isCorrect = question.alternatives.some(alt => normalizedAnswer === alt?.toLowerCase().trim())
+          }
+          if (isCorrect) correct++
+        }
+      })
+    })
+    setScore(correct)
+  }
+
+  const handleReset = () => {
+    setCurrentPart(0)
+    setCurrentQuestion(0)
+    setAnswers([])
+    setShowResult(false)
+    setScore(0)
+  }
+
+  const handleFinish = () => {
+    if (score >= totalQuestions * 0.7) {
+      onComplete()
+    } else {
+      handleReset()
+    }
+  }
+
+  if (showResult) {
+    const percentage = Math.round((score / totalQuestions) * 100)
+    const passed = percentage >= 70
+
+    return (
+      <div className={styles.container}>
+        <div className={styles.resultContainer}>
+          <div className={`${styles.resultCard} ${passed ? styles.passed : styles.failed}`}>
+            <div className={styles.resultIcon}>
+              {passed ? '🎉' : '😔'}
+            </div>
+            <h2 className={styles.resultTitle}>
+              {passed ? 'Отлично!' : 'Нужно повторить'}
+            </h2>
+            <p className={styles.resultScore}>
+              Ваш результат: {score} из {totalQuestions} ({percentage}%)
+            </p>
+            <p className={styles.resultMessage}>
+              {passed
+                ? 'Вы успешно завершили упражнение!'
+                : 'Для прохождения нужно набрать минимум 70%. Попробуйте еще раз!'}
+            </p>
+            <div className={styles.resultButtons}>
+              <button onClick={handleReset} className={styles.retryBtn}>
+                Попробовать снова
+              </button>
+              {passed && (
+                <button onClick={handleFinish} className={styles.finishBtn}>
+                  Завершить
+                </button>
+              )}
+              <button onClick={onBack} className={styles.backBtn}>
+                Назад к уроку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div>
+      <div className={styles.partHeader}>
+        <h3>{part.title}</h3>
+        <p>{part.description}</p>
+        <p className={styles.partProgress}>
+          Часть {currentPart + 1} из {totalParts} | Вопрос {globalQuestionNumber} из {totalQuestions}
+        </p>
+      </div>
+
+      {part.type === 'fillblank' && (
+        <FillBlankQuestion
+          question={part.questions[currentQuestion]}
+          onAnswer={handleAnswer}
+        />
+      )}
+      {part.type === 'transformation' && (
+        <TransformationQuestion
+          question={part.questions[currentQuestion]}
+          onAnswer={handleAnswer}
+        />
+      )}
+      {part.type === 'translation' && (
+        <TranslationQuestion
+          question={part.questions[currentQuestion]}
+          onAnswer={handleAnswer}
+        />
+      )}
+      {part.type === 'question-formation' && (
+        <QuestionFormationQuestion
+          question={part.questions[currentQuestion]}
+          onAnswer={handleAnswer}
+        />
+      )}
+
+      <div className={styles.progressBar}>
+        <div
+          className={styles.progressFill}
+          style={{
+            width: `${(globalQuestionNumber / totalQuestions) * 100}%`
+          }}
+        />
+      </div>
+    </div>
+  )
+}
+
+function QuestionFormationQuestion({ question, onAnswer }) {
+  const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
+
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (input.trim()) {
+      const normalizedInput = input.toLowerCase().trim()
+      const normalizedCorrect = question.correct?.toLowerCase().trim()
+
+      let isCorrect = normalizedInput === normalizedCorrect
+      if (!isCorrect && question.alternatives && Array.isArray(question.alternatives)) {
+        isCorrect = question.alternatives.some(alt => normalizedInput === alt?.toLowerCase().trim())
+      }
+
+      if (!isCorrect) {
+        setShowFeedback(true)
+        const id = setTimeout(() => {
+          setShowFeedback(false)
+          onAnswer(input)
+          setInput('')
+        }, 15000)
+        setTimeoutId(id)
+      } else {
+        onAnswer(input)
+        setInput('')
+      }
+    }
+  }
+
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>Сформулируйте вопрос:</h3>
+      <p className={styles.sentenceContext}>{question.russian}</p>
+      {question.highlight && (
+        <p className={styles.hint}>Подчеркнутое слово: <strong>{question.highlight}</strong></p>
+      )}
+      <form onSubmit={handleSubmit} className={styles.writingForm}>
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
+          placeholder="Введите вопрос на испанском"
+          autoFocus
+          disabled={showFeedback}
+        />
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
+          Ответить
+        </button>
+      </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
+      )}
     </div>
   )
 }

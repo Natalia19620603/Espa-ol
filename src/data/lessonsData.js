@@ -40,7 +40,7 @@ export const modules = {
     id: 'module-3',
     title: 'Модуль 3: Повседневная жизнь',
     level: 'beginner',
-    lessons: ['lesson-3-2', 'lesson-3-3'],
+    lessons: ['lesson-3-1', 'lesson-3-2'],
     description: 'Лексика о семье, работе, хобби'
   },
   'module-4': {
@@ -3293,80 +3293,88 @@ María: ¡Vamos!`,
     },
     exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13', 'ex-1-5-translation', 'ex-3-1-16']
   },
-  'lesson-3-2': {
-    id: 'lesson-3-2',
-    title: 'Урок 2: Работа и профессии',
+  'lesson-3-1': {
+    id: 'lesson-3-1',
+    title: 'Урок 1: Безличная глагольная форма HAY. Mucho / poco / muy / tanto / tan / tal. Мой дом.',
     moduleId: 'module-3',
     grammar: {
-      title: 'Артикли и род существительных',
-      content: `
-# Артикли (Artículos)
+      title: 'Безличная глагольная форма HAY',
+      content: `# Безличная глагольная форма HAY
 
-## Определенные артикли (el, la, los, las):
+Безличная глагольная форма **hay** (от инфинитива глагола **haber**) соответствует русским глагольным формам **есть, имеется, имеются** (в значении наличия чего-либо в определенном месте).
 
-| Род | Единственное | Множественное |
-|-----|--------------|---------------|
-| Мужской | el (el libro) | los (los libros) |
-| Женский | la (la casa) | las (las casas) |
+**Hay** в утвердительной форме при переводе на русский язык обычно опускается, а отрицательная форма **no hay** переводится словом **нет**.
 
-## Неопределенные артикли (un, una, unos, unas):
+Повествовательные предложения с формой **hay** начинаются с обстоятельства места. Следующее за **hay** существительное является прямым дополнением.
 
-| Род | Единственное | Множественное |
-|-----|--------------|---------------|
-| Мужской | un (un perro) | unos (unos perros) |
-| Женский | una (una gata) | unas (unas gatas) |
+## Правила употребления артиклей с HAY:
 
-## Род профессий:
-- Мужской: **el médico**, **el profesor**, **el ingeniero**
-- Женский: **la médica**, **la profesora**, **la ingeniera**
+| Конструкция | Артикль/Форма | Перевод на русский |
+|-------------|---------------|-------------------|
+| hay + un/una + существительное в ед.ч. | Неопределенный артикль | En la cocina hay un plato. (На кухне есть тарелка.) |
+| hay + Ø + существительное во мн.ч. | Без артикля | En la cocina hay platos. (На кухне есть тарелки.) |
+| no hay + Ø + существительное в ед.ч. | Без артикля | En la calle no hay farmacia. (На улице нет аптеки.) |
+| no hay + Ø + существительное во мн.ч. | Без артикля | En el jardín no hay flores. (В саду нет цветов.) |
+
+## Конструкция HAY QUE + Инфинитив
+
+Конструкция **hay que + инфинитив** переводится как **"надо/нужно сделать что-либо"** и не указывает лицо, которое должно совершить действие.
+
+**Примеры:**
+- **Hay que comprar pan.** (Надо купить хлеб.)
+- **No hay que hablar con ellos.** (Не надо разговаривать с ними.)
+
+## Сравнение SER, ESTAR и HAY (HABER)
+
+Обратите внимание на то, что русскому глаголу **"быть"** в испанском языке соответствуют следующие глаголы:
+
+- **ser** — быть, являться (для характеристики, профессии, происхождения, времени)
+- **estar** — быть, находиться (для местоположения, временного состояния, здоровья)
+- **hay (haber)** — быть, иметься (для обозначения наличия, существования)
+
+В отличие от русского языка, в испанских высказываниях не допускается опущение этих глаголов.
+
+## Примеры с HAY (Наличие)
+
+| Испанский пример | Перевод на русский |
+|------------------|-------------------|
+| En el centro comercial hay una tienda de ropa muy buena. | В торговом центре есть очень хороший магазин одежды. |
+| En esta zona no hay aparcamiento gratuito. | В этой зоне нет бесплатной парковки. |
+| En el cielo hay muchas estrellas esta noche. | Сегодня ночью на небе много звезд. |
+| En mi barrio no hay árboles. | В моем районе нет деревьев. |
+| ¡Mira! Aquí hay un mensaje para ti. | Смотри! Здесь есть сообщение для тебя. |
+
+## Примеры с HAY QUE (Необходимость)
+
+| Испанский пример | Перевод на русский |
+|------------------|-------------------|
+| Hay que llamar a la policía ahora mismo. | Нужно позвонить в полицию прямо сейчас. |
+| No hay que beber alcohol antes de conducir. | Нельзя пить алкоголь перед вождением. |
+| Para entrar al museo hay que comprar una entrada. | Чтобы войти в музей, нужно купить билет. |
+
+## Сравнение SER / ESTAR / HAY
+
+| Глагол | Испанский пример | Перевод на русский |
+|--------|------------------|-------------------|
+| SER (Характеристика) | El café es caliente. | Кофе горячий (по своей природе). |
+| ESTAR (Состояние) | El café está aquí, en la mesa. | Кофе находится здесь, на столе. |
+| HAY (Наличие) | En la cafetería hay mucho café. | В кафе есть много кофе (в наличии). |
+| SER (Профессия) | Mi hermana es profesora. | Моя сестра — преподаватель. |
+| ESTAR (Местоположение) | ¿Estáis vosotros en casa? | Вы находитесь дома? |
+| HAY (Наличие) | En la clase hay quince estudiantes. | В классе есть пятнадцать студентов. |
       `,
       examples: [
-        { spanish: 'Soy un estudiante', translation: 'Я студент' },
-        { spanish: 'Ella es la profesora', translation: 'Она учительница' },
-        { spanish: 'Ellos son médicos', translation: 'Они врачи' }
+        { spanish: 'En el parque hay muchos niños', translation: 'В парке много детей' },
+        { spanish: 'No hay leche en el frigorífico', translation: 'В холодильнике нет молока' },
+        { spanish: 'Hay que estudiar para el examen', translation: 'Нужно готовиться к экзамену' }
       ]
     },
-    vocabulary: [
-      { word: 'médico/a', translation: 'врач', audioUrl: null },
-      { word: 'profesor/a', translation: 'учитель', audioUrl: null },
-      { word: 'ingeniero/a', translation: 'инженер', audioUrl: null },
-      { word: 'abogado/a', translation: 'адвокат', audioUrl: null },
-      { word: 'enfermero/a', translation: 'медсестра', audioUrl: null },
-      { word: 'cocinero/a', translation: 'повар', audioUrl: null },
-      { word: 'policía', translation: 'полицейский', audioUrl: null },
-      { word: 'bombero/a', translation: 'пожарный', audioUrl: null },
-      { word: 'cantante', translation: 'певец/певица', audioUrl: null },
-      { word: 'escritor/a', translation: 'писатель', audioUrl: null }
-    ],
-    readingText: {
-      title: 'El trabajo de mis padres',
-      content: `Mis padres tienen trabajos muy interesantes y diferentes. Mi madre es médica y mi padre es profesor. Los dos aman lo que hacen.
-
-Mi madre trabaja en el Hospital General de Madrid. Es cirujana y opera a pacientes todos los días. Su trabajo es muy difícil y requiere mucha concentración. Se levanta muy temprano, a las seis de la mañana, porque sus operaciones empiezan a las ocho. A veces trabaja hasta tarde por la noche si hay emergencias.
-
-Ella dice que lo mejor de su trabajo es ayudar a las personas. Cuando un paciente se recupera y puede volver a casa con su familia, ella se siente muy feliz. Lo más difícil es trabajar tantas horas y tener poco tiempo libre. Pero está muy orgullosa de su profesión.
-
-Mi padre es profesor de historia en un instituto. Enseña a estudiantes de 15 a 18 años. Le encanta su trabajo porque le gusta compartir su conocimiento con los jóvenes. Prepara sus clases con mucho cuidado para que sean interesantes y divertidas.
-
-Él comienza a trabajar a las ocho y media de la mañana y termina a las tres de la tarde. Después de las clases, a veces ayuda a los estudiantes con sus tareas o prepara exámenes. Los veranos son especiales para él porque tiene dos meses de vacaciones y puede leer y viajar.
-
-Mi padre dice que lo mejor de ser profesor es ver cómo sus estudiantes aprenden y crecen. Muchos de sus antiguos alumnos todavía lo visitan y le cuentan sobre sus vidas. Eso lo hace muy feliz.
-
-Aunque tienen profesiones muy diferentes, mis padres tienen algo en común: los dos trabajan con personas y los dos quieren hacer del mundo un lugar mejor. Estoy muy orgulloso de ellos.`,
-      translation: 'Работа моих родителей\n\nУ моих родителей очень интересные и разные работы. Моя мать - врач, а отец - учитель. Оба любят то, что делают.\n\nМоя мать работает в Главной больнице Мадрида. Она хирург и оперирует пациентов каждый день. Ее работа очень сложная и требует большой концентрации. Она встает очень рано, в шесть утра, потому что ее операции начинаются в восемь. Иногда она работает допоздна, если есть чрезвычайные ситуации.\n\nОна говорит, что лучшее в ее работе - помогать людям. Когда пациент выздоравливает и может вернуться домой к семье, она чувствует себя очень счастливой. Самое трудное - работать столько часов и иметь мало свободного времени. Но она очень гордится своей профессией.\n\nМой отец - учитель истории в институте. Он преподает студентам от 15 до 18 лет. Ему нравится его работа, потому что он любит делиться своими знаниями с молодежью. Он тщательно готовит свои уроки, чтобы они были интересными и веселыми.\n\nОн начинает работать в половине девятого утра и заканчивает в три дня. После занятий он иногда помогает студентам с их домашними заданиями или готовит экзамены. Лето для него особенное, потому что у него два месяца отпуска, и он может читать и путешествовать.\n\nМой отец говорит, что лучшее в том, чтобы быть учителем - видеть, как его ученики учатся и растут. Многие его бывшие ученики до сих пор навещают его и рассказывают о своей жизни. Это делает его очень счастливым.\n\nХотя у них очень разные профессии, у моих родителей есть кое-что общее: они оба работают с людьми и оба хотят сделать мир лучше. Я очень горжусь ими.',
-      audioUrl: '/audio/lesson-3-2-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Mis padres tienen trabajos muy interesantes y diferentes.' },
-        { start: 5, end: 10, text: 'Mi madre es médica y mi padre es profesor.' },
-        { start: 10, end: 15, text: 'Mi madre trabaja en el Hospital General de Madrid.' },
-        { start: 15, end: 20, text: 'Mi padre es profesor de historia en un instituto.' }
-      ]
-    },
-    exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3']
+    vocabulary: [],
+    exercises: []
   },
-  'lesson-3-3': {
-    id: 'lesson-3-3',
-    title: 'Урок 3: Хобби и свободное время',
+  'lesson-3-2': {
+    id: 'lesson-3-2',
+    title: 'Урок 2: Хобби и свободное время',
     moduleId: 'module-3',
     grammar: {
       title: 'Глаголы GUSTAR, ENCANTAR',
