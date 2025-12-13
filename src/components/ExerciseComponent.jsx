@@ -73,7 +73,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         setShowCorrectAnswer(false)
         setUserAnswer(null)
         proceedToNext(answer)
-      }, 10000) // Показываем 10 секунд
+      }, 15000) // Показываем 15 секунд
       setFeedbackTimeoutId(id)
     } else {
       proceedToNext(answer)
@@ -675,6 +675,16 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
 
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
   const handleSubmit = (e) => {
     e.preventDefault()
     if (input.trim()) {
@@ -685,9 +695,10 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 10000)
+        }, 15000)
         setTimeoutId(id)
       } else {
+        setInput('')
         onAnswer(input)
       }
     }
@@ -735,6 +746,16 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
 
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
   const handleSubmit = (e) => {
     e.preventDefault()
     if (input.trim()) {
@@ -745,9 +766,10 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 10000)
+        }, 15000)
         setTimeoutId(id)
       } else {
+        setInput('')
         onAnswer(input)
       }
     }
@@ -915,7 +937,7 @@ function WordOrderQuestion({ question, onAnswer }) {
       setShowFeedback(false)
       setSelectedWords([])
       setAvailableWords(question.words || [])
-    }, correct ? 1500 : 3000)
+    }, 15000)
   }
 
   return (
@@ -971,6 +993,17 @@ function WordOrderQuestion({ question, onAnswer }) {
 function TransformationQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
+
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -978,12 +1011,14 @@ function TransformationQuestion({ question, onAnswer }) {
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 2000)
+        }, 15000)
+        setTimeoutId(id)
       } else {
+        setInput('')
         onAnswer(input)
       }
     }
@@ -1021,6 +1056,16 @@ function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
 
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
   const handleSubmit = (e) => {
     e.preventDefault()
     if (input.trim()) {
@@ -1031,9 +1076,10 @@ function ErrorCorrectionQuestion({ question, onAnswer, onSkipFeedback }) {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 10000)
+        }, 15000)
         setTimeoutId(id)
       } else {
+        setInput('')
         onAnswer(input)
       }
     }
@@ -1295,12 +1341,12 @@ function ContextQuestion({ question, onAnswer }) {
     setSelectedAnswer(index)
     setShowFeedback(true)
 
-    // Автоматически переходим к следующему вопросу через 1.5 секунды
+    // Автоматически переходим к следующему вопросу через 15 секунд
     setTimeout(() => {
       setShowFeedback(false)
       setSelectedAnswer(null)
       onAnswer(index)
-    }, 1500)
+    }, 15000)
   }
 
   const getButtonClass = (index) => {
@@ -1349,6 +1395,17 @@ function ContextQuestion({ question, onAnswer }) {
 function WordFormationQuestion({ question, onAnswer }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
+
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -1356,12 +1413,14 @@ function WordFormationQuestion({ question, onAnswer }) {
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
       if (!isCorrect) {
         setShowFeedback(true)
-        setTimeout(() => {
+        const id = setTimeout(() => {
           setShowFeedback(false)
           setInput('')
           onAnswer(input)
-        }, 2000)
+        }, 15000)
+        setTimeoutId(id)
       } else {
+        setInput('')
         onAnswer(input)
       }
     }
@@ -1570,12 +1629,12 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
     setSelectedAnswer(index)
     setShowFeedback(true)
 
-    // Автоматически переходим к следующему вопросу через 1.5 секунды
+    // Автоматически переходим к следующему вопросу через 15 секунд
     setTimeout(() => {
       setShowFeedback(false)
       setSelectedAnswer(null)
       onAnswer(index)
-    }, 1500)
+    }, 15000)
   }
 
   const getButtonClass = (index) => {
@@ -1673,7 +1732,7 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
           setShowFeedback(false)
           onAnswer(input)
           setInput('')
-        }, 3000)
+        }, 15000)
         setTimeoutId(id)
       } else {
         onAnswer(input)
