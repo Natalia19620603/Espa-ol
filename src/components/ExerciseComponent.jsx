@@ -716,6 +716,33 @@ function MultiPartExercise({ exercise, onComplete, onBack }) {
         />
       )}
 
+      <div className={styles.questionNavigation}>
+        <button
+          onClick={() => {
+            if (currentQuestion > 0) {
+              setCurrentQuestion(currentQuestion - 1)
+            } else if (currentPart > 0) {
+              setCurrentPart(currentPart - 1)
+              const prevPart = exercise.parts[currentPart - 1]
+              setCurrentQuestion(prevPart.questions.length - 1)
+            }
+          }}
+          className={styles.prevQuestionBtn}
+          disabled={currentPart === 0 && currentQuestion === 0}
+        >
+          ← НАЗАД
+        </button>
+        <div className={styles.questionCounter}>
+          Вопрос {globalQuestionNumber} из {totalQuestions}
+        </div>
+        <button
+          onClick={() => handleAnswer('')}
+          className={styles.nextQuestionBtn}
+        >
+          ВПЕРЕД →
+        </button>
+      </div>
+
       <div className={styles.progressBar}>
         <div
           className={styles.progressFill}
@@ -1038,14 +1065,14 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence}</h3>
-      <p className={styles.hint}>Глагол: {question.verb}</p>
+      {question.verb && <p className={styles.hint}>Глагол: {question.verb}</p>}
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
-          placeholder="Введите правильную форму глагола"
+          placeholder={question.verb ? "Введите правильную форму глагола" : "Введите ответ"}
           autoFocus
           disabled={showFeedback}
         />
