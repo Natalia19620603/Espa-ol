@@ -33,14 +33,14 @@ export const modules = {
     id: 'module-2',
     title: 'Модуль 2: Настоящее время',
     level: 'beginner',
-    lessons: ['lesson-2-2', 'lesson-2-3'],
+    lessons: ['lesson-2-2', 'lesson-2-3', 'lesson-2-4'],
     description: 'Настоящее время правильных глаголов'
   },
   'module-3': {
     id: 'module-3',
     title: 'Модуль 3: Повседневная жизнь',
     level: 'beginner',
-    lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3'],
+    lessons: ['lesson-3-2', 'lesson-3-3'],
     description: 'Лексика о семье, работе, хобби'
   },
   'module-4': {
@@ -2170,9 +2170,9 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       'ex-2-2-translation-rus-esp'
     ]
   },
-  'lesson-2-3': {
-    id: 'lesson-2-3',
-    title: 'Модуль 2 Урок 3 Указательные местоимения и наречия. Притяжательные местоимения . Черты характера. Описание внешности',
+  'lesson-2-4': {
+    id: 'lesson-2-4',
+    title: 'Модуль 2 Урок 4 Указательные местоимения и наречия. Притяжательные местоимения . Черты характера. Описание внешности',
     moduleId: 'module-2',
     grammar: {
       title: 'Указательные местоимения и наречия. Притяжательные местоимения',
@@ -2881,10 +2881,10 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
   },
 
   // МОДУЛЬ 3: Повседневная жизнь
-  'lesson-3-1': {
-    id: 'lesson-3-1',
-    title: 'Урок 1: Семья и родственники. Вопросительные предложения в испанском языке. Глаголы QUERER, PODER, VENIR, DECIR',
-    moduleId: 'module-3',
+  'lesson-2-3': {
+    id: 'lesson-2-3',
+    title: 'Урок 3: Семья и родственники. Вопросительные предложения в испанском языке. Глаголы QUERER, PODER, VENIR, DECIR',
+    moduleId: 'module-2',
     grammar: {
       title: 'Вопросительные предложения в испанском языке',
       intro: `# Вопросительные предложения в испанском языке
