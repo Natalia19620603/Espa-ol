@@ -3291,7 +3291,7 @@ María: ¡Vamos!`,
         { start: 55, end: 60, text: 'Mi familia quiere conocerte. - ¡Perfecto!' }
       ]
     },
-    exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5', 'ex-3-1-6', 'ex-3-1-7', 'ex-3-1-8', 'ex-3-1-9', 'ex-3-1-10', 'ex-3-1-11', 'ex-3-1-12', 'ex-3-1-13', 'ex-1-5-translation', 'ex-3-1-16']
+    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3', 'ex-2-3-4', 'ex-2-3-5', 'ex-2-3-6', 'ex-2-3-7', 'ex-2-3-8', 'ex-2-3-9', 'ex-2-3-10', 'ex-2-3-11', 'ex-2-3-12', 'ex-2-3-13', 'ex-2-3-14', 'ex-2-3-15', 'ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
   },
   'lesson-3-1': {
     id: 'lesson-3-1',
@@ -3650,37 +3650,92 @@ María: ¡Vamos!`,
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
-    title: 'Урок 2: Хобби и свободное время',
+    title: 'Урок 2: Предлоги обстоятельства места и времени. Глаголы индивидуального спряжения в настоящем времени (Presente de Indicativo). Устойчивые выражения с глаголами poner, dar и hacer.',
     moduleId: 'module-3',
     grammar: {
-      title: 'Глаголы GUSTAR, ENCANTAR',
-      content: `
-# Глаголы GUSTAR (нравиться) и ENCANTAR (обожать)
+      title: 'Предлоги обстоятельства места и времени',
+      intro: `Ниже представлен словарь с основными предлогами и выражениями для обозначения места и времени.`,
+      sections: [
+        {
+          id: 'prepositions',
+          title: 'Предлоги обстоятельства места и времени',
+          collapsible: true,
+          defaultOpen: false,
+          content: `| Испанское выражение | Перевод на русский язык |
+|---------------------|-------------------------|
+| cerca de la casa | рядом с домом |
+| al lado de la estación | около вокзала |
+| junto al monumento | у (рядом) памятника |
+| lejos de la playa | далеко от пляжа |
+| a la izquierda de la puerta | слева от двери |
+| a la derecha de la ventana | справа от окна |
+| frente al / enfrente del despacho | напротив кабинета |
+| delante del / ante el cine | перед кинотеатром |
+| detrás del / tras el hotel | позади (сзади) гостиницы |
+| alrededor del / en torno al patio | вокруг двора |
+| entre la ventana y la puerta | между окном и дверью |
+| dentro del ascensor | внутри лифта |
+| en el armario | в (внутри) шкафу |
+| fuera de la oficina | вне (снаружи / за пределами) офиса |
+| encima del ordenador | над (сверху) компьютером |
+| debajo de la cama | под (снизу) кроватью |
+| sobre la / en la mesa | на столе |
+| en medio de la calle | посреди улицы |
+| al fondo del parque | в глубине парка |
+| antes de la operación | до (перед) операции |
+| después del programa | после программы |
+| durante las vacaciones | в течение (во время) отпуска |
 
-Эти глаголы имеют особую конструкцию:
+**Употребление antes de / después de с инфинитивом:**
 
-## Схема: Местоимение + GUSTA/GUSTAN + существительное
+- antes de preguntar (перед тем, как спросить)
+- antes de comer (перед едой)
+- después de leer (после того, как кто-то прочитал)`
+        },
+        {
+          id: 'irregular-verbs',
+          title: 'Глаголы индивидуального спряжения в настоящем времени (Presente de Indicativo)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `| Инфинитив | Перевод | Yo | Tú | Él/Ella/Usted | Nosotros/as | Vosotros/as | Ellos/Ellas/Ustedes |
+|-----------|---------|----|----|---------------|-------------|-------------|---------------------|
+| caber | помещаться | quepo | cabes | cabe | cabemos | cabéis | caben |
+| caer | падать | caigo | caes | cae | caemos | caéis | caen |
+| dar | давать | doy | das | da | damos | dais | dan |
+| hacer | делать | hago | haces | hace | hacemos | hacéis | hacen |
+| poner | класть | pongo | pones | pone | ponemos | ponéis | ponen |
+| saber | знать, уметь | sé | sabes | sabe | sabemos | sabéis | saben |
+| salir | выходить | salgo | sales | sale | salimos | salís | salen |
+| traer | приносить | traigo | traes | trae | traemos | traéis | traen |
+| ver | видеть | veo | ves | ve | vemos | veis | ven |`
+        },
+        {
+          id: 'expressions',
+          title: 'Устойчивые выражения с глаголами poner, dar и hacer',
+          collapsible: true,
+          defaultOpen: false,
+          content: `**PONER:**
+- poner la mesa — накрывать на стол
+- poner orden — наводить порядок
+- poner la radio (la tele) — включать радио (телевизор)
 
-**С единственным числом (gusta):**
-- Me **gusta** el café - Мне нравится кофе
-- Te **gusta** la música - Тебе нравится музыка
-- Le **gusta** bailar - Ему/ей нравится танцевать
+**DAR:**
+- dar un paseo / una vuelta — прогуляться
+- dar un beso — поцеловать
+- dar las gracias — благодарить
+- dar recuerdos — передавать привет
+- dar clases — проводить занятия
+- dar una fiesta — устраивать праздник
+- el reloj da las tres — часы бьют 3 часа
+- las ventanas dan al patio — окна выходят во двор
 
-**С множественным числом (gustan):**
-- Me **gustan** los libros - Мне нравятся книги
-- Te **gustan** las películas - Тебе нравятся фильмы
-- Nos **gustan** los deportes - Нам нравятся виды спорта
-
-## Косвенные местоимения:
-me (мне), te (тебе), le (ему/ей/Вам), nos (нам), os (вам), les (им/Вам)
-
-## ENCANTAR используется так же:
-Me **encanta** la playa - Я обожаю пляж
-      `,
-      examples: [
-        { spanish: 'Me gusta leer', translation: 'Мне нравится читать' },
-        { spanish: 'Nos encanta viajar', translation: 'Мы обожаем путешествовать' },
-        { spanish: 'Les gustan los deportes', translation: 'Им нравятся виды спорта' }
+**HACER:**
+- hacer preguntas — задавать вопросы
+- hacer la cama — убирать (заправлять) постель
+- hacer la maleta — собирать чемодан
+- hacer ruido — шуметь
+- hacer caso a / de — обращать внимание на кого-л. / на что-л.`
+        }
       ]
     },
     vocabulary: [
