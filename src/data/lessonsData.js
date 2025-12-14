@@ -3644,13 +3644,30 @@ María: ¡Vamos!`,
 **Анна:** Хорошо. Большое спасибо.
 
 **Агент:** Пожалуйста. До завтра!`,
-      audioUrl: null
+      audioUrl: null,
+      comprehensionQuestions: [
+        { question: '¿Qué quiere ver Ana?', correct: 'el apartamento', alternatives: ['quiere ver el apartamento', 'el apartamento en alquiler', 'quiere ver el piso'] },
+        { question: '¿Dónde está el apartamento?', correct: 'en la planta baja', alternatives: ['está en la planta baja', 'planta baja', 'en el primer piso'] },
+        { question: '¿Cuántos dormitorios hay?', correct: 'tres', alternatives: ['hay tres dormitorios', 'tres dormitorios', '3'] },
+        { question: '¿Qué hay en el salón?', correct: 'un sofá, dos sillones, una mesa, un televisor y estanterías', alternatives: ['sofá sillones mesa televisor estanterías', 'hay un sofá, dos sillones, una mesa, un televisor y estanterías'] },
+        { question: '¿La cocina es moderna o antigua?', correct: 'moderna', alternatives: ['es moderna', 'la cocina es moderna', 'muy moderna'] },
+        { question: '¿Qué electrodomésticos hay en la cocina?', correct: 'frigorífico, cocina eléctrica, horno microondas, lavadora y lavavajillas', alternatives: ['un frigorífico, una cocina eléctrica, un horno microondas, una lavadora y un lavavajillas', 'frigorífico cocina horno lavadora lavavajillas'] },
+        { question: '¿Qué muebles hay en el dormitorio principal?', correct: 'una cama grande, un armario empotrado, una cómoda y dos mesitas de noche', alternatives: ['cama armario cómoda mesitas', 'hay una cama grande, un armario empotrado, una cómoda y dos mesitas de noche'] },
+        { question: '¿Hay cortinas en las habitaciones?', correct: 'sí', alternatives: ['sí hay', 'hay cortinas', 'sí, hay cortinas'] },
+        { question: '¿Hay alfombras en los dormitorios?', correct: 'no', alternatives: ['no hay', 'no hay alfombras', 'no, no hay alfombras'] },
+        { question: '¿Dónde hay una alfombra?', correct: 'en el salón', alternatives: ['hay una alfombra en el salón', 'en la sala'] },
+        { question: '¿Hay cuadros en las paredes?', correct: 'sí', alternatives: ['sí hay', 'hay cuadros', 'sí, hay cuadros'] },
+        { question: '¿Hay lámparas en el apartamento?', correct: 'sí', alternatives: ['sí hay', 'hay lámparas', 'sí, hay lámparas'] },
+        { question: '¿Hay ascensor en el edificio?', correct: 'no', alternatives: ['no hay', 'no hay ascensor', 'no, solo escalera'] },
+        { question: '¿Cuánto cuesta el apartamento al mes?', correct: 'setecientos cincuenta euros', alternatives: ['750 euros', '750', 'setecientos cincuenta'] },
+        { question: '¿Ana quiere alquilar el apartamento?', correct: 'sí', alternatives: ['sí quiere', 'quiere alquilarlo', 'sí, quiere alquilarlo'] }
+      ]
     },
     exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5']
   },
   'lesson-3-2': {
     id: 'lesson-3-2',
-    title: 'Урок 2: Предлоги обстоятельства места и времени. Глаголы индивидуального спряжения в настоящем времени (Presente de Indicativo). Устойчивые выражения с глаголами poner, dar и hacer.',
+    title: 'Урок 2: Виды жилья и аренда помещения. Предлоги обстоятельства места и времени. Глаголы индивидуального спряжения в настоящем времени (Presente de Indicativo). Устойчивые выражения с глаголами poner, dar и hacer.',
     moduleId: 'module-3',
     grammar: {
       title: 'Предлоги обстоятельства места и времени',
@@ -3818,131 +3835,221 @@ María: ¡Vamos!`,
       { word: 'hacer la cama', translation: 'убирать постель', audioUrl: null },
       { word: 'hacer la maleta', translation: 'собирать чемодан', audioUrl: null },
       { word: 'hacer ruido', translation: 'шуметь', audioUrl: null },
-      { word: 'hacer caso', translation: 'обращать внимание', audioUrl: null }
+      { word: 'hacer caso', translation: 'обращать внимание', audioUrl: null },
+
+      // Недвижимость и аренда жилья
+      { word: 'vivienda', translation: 'жилье', audioUrl: null },
+      { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
+      { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
+      { word: 'propietario', translation: 'собственник', audioUrl: null },
+      { word: 'edificio', translation: 'здание', audioUrl: null },
+      { word: 'espacio', translation: 'помещение', audioUrl: null },
+      { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
+      { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
+      { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
+      { word: 'superficie', translation: 'площадь', audioUrl: null },
+      { word: 'adosado', translation: 'таунхаус', audioUrl: null },
+      { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
+      { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
+      { word: 'chalé', translation: 'загородный дом', audioUrl: null },
+      { word: 'garaje', translation: 'гараж', audioUrl: null },
+      { word: 'portal', translation: 'подъезд', audioUrl: null },
+      { word: 'portero', translation: 'консьерж', audioUrl: null },
+      { word: 'ducha', translation: 'душ', audioUrl: null },
+      { word: 'bañera', translation: 'ванна', audioUrl: null },
+      { word: 'calefacción', translation: 'отопление', audioUrl: null },
+      { word: 'terraza', translation: 'лоджия', audioUrl: null },
+      { word: 'reparación', translation: 'ремонт', audioUrl: null },
+      { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
+      { word: 'barrio', translation: 'район', audioUrl: null },
+      { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
+      { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
+      { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
+      { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
+      { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
+      { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
+      { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
+      { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
+      { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
+      { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
+      { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
+      { word: 'portero automático', translation: 'домофон', audioUrl: null },
+      { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
+      { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
+      { word: 'casa rural', translation: 'сельский дом', audioUrl: null }
     ],
     readingText: {
-      title: 'Un día en Madrid',
-      content: `**Ana:** ¡Hola, Carlos! ¿Dónde estás?
+      title: 'Buscando piso en Madrid',
+      content: `Laura y Miguel buscan un apartamento en alquiler en Madrid. Ellos viven con los padres de Laura, pero quieren alquilar su propia vivienda. Hoy visitan una agencia inmobiliaria en el centro de la ciudad.
 
-**Carlos:** Estoy cerca de la estación de metro. Voy a tu casa ahora. ¿Dónde vives exactamente?
+**Agente:** Buenos días. ¿En qué puedo ayudarles?
 
-**Ana:** Vivo en el centro de Madrid, al lado del parque grande. Mi casa está enfrente de una farmacia. Es fácil de encontrar.
+**Laura:** Buenos días. Buscamos un piso en alquiler. Queremos un apartamento con dos dormitorios.
 
-**Carlos:** Perfecto. ¿Hay un banco cerca de tu casa?
+**Agente:** Perfecto. ¿En qué barrio prefieren vivir?
 
-**Ana:** Sí, hay un banco a la derecha de la farmacia. Y a la izquierda hay una cafetería muy buena.
+**Miguel:** Preferimos un barrio cerca del centro, pero no queremos un piso muy caro.
 
-**Carlos:** Vale. Salgo de la estación en cinco minutos. ¿Qué vamos a hacer hoy?
+**Agente:** Entiendo. Tengo varios pisos en alquiler. Hay un apartamento muy bonito al lado del parque del Retiro. Está en un edificio moderno con ascensor.
 
-**Ana:** Primero quiero ir a la biblioteca. Está detrás del ayuntamiento, al fondo de la plaza principal. Necesito devolver unos libros antes de las seis.
+**Laura:** ¿Cuántos metros cuadrados tiene?
 
-**Carlos:** ¿La biblioteca está lejos de tu casa?
+**Agente:** Tiene ochenta metros cuadrados. Hay un salón grande, dos dormitorios, una cocina, un baño y una terraza pequeña.
 
-**Ana:** No, está bastante cerca. Podemos ir a pie. Después de devolver los libros, podemos dar un paseo por el parque. Está entre mi casa y el río.
+**Miguel:** ¿El piso está amueblado?
 
-**Carlos:** Me gusta esa idea. ¿Hay un restaurante bueno cerca del parque?
+**Agente:** Sí, es un piso amueblado. Hay muebles en todos los dormitorios. En el salón hay un sofá, una mesa y sillas. También hay una televisión grande.
 
-**Ana:** Sí, hay varios restaurantes alrededor del parque. Mi favorito está junto al monumento. Hacen una paella deliciosa.
+**Laura:** ¿Y la cocina? ¿Qué hay en la cocina?
 
-**Carlos:** ¡Qué bien! Tengo mucha hambre. ¿A qué hora cierran?
+**Agente:** En la cocina hay un frigorífico nuevo, una cocina de gas, un horno y un lavavajillas. También hay una lavadora.
 
-**Ana:** No sé exactamente, pero puedo llamar y preguntar. Siempre hago preguntas antes de ir.
+**Miguel:** Perfecto. ¿El apartamento tiene calefacción?
 
-**Carlos:** Buena idea. Oye, ¿sabes dónde puedo comprar flores? Quiero traer flores para tu madre.
+**Agente:** Sí, claro. Tiene calefacción y aire acondicionado. En invierno hace mucho frío, y en verano hace mucho calor en Madrid.
 
-**Ana:** ¡Qué detalle! Hay una floristería delante del hotel, en la calle principal. Está abierta hasta las ocho.
+**Laura:** ¿Es un piso exterior o interior?
 
-**Carlos:** Perfecto. Voy a comprar flores antes de llegar a tu casa. ¿Tu madre está en casa?
+**Agente:** Es un piso exterior. Las ventanas del salón y del dormitorio principal dan a la calle. El otro dormitorio da al patio interior del edificio.
 
-**Ana:** Sí, está en casa. Ella pone la mesa para la cena ahora. Le gusta poner orden en la cocina antes de cocinar.
+**Miguel:** ¿Hay garaje o aparcamiento?
 
-**Carlos:** Tu madre siempre da clases de español, ¿verdad?
+**Agente:** Sí, el edificio tiene aparcamiento subterráneo. Caben dos coches. El aparcamiento está debajo del edificio.
 
-**Ana:** Sí, da clases en la universidad durante la semana. Pero los fines de semana no trabaja.
+**Laura:** ¿En qué piso está el apartamento?
 
-**Carlos:** Y tu padre, ¿dónde trabaja?
+**Agente:** Está en el tercer piso. El edificio tiene ascensor y portero automático. También hay un portero que trabaja durante el día.
 
-**Ana:** Mi padre trabaja en una oficina. Está en el segundo piso de un edificio moderno, encima de un supermercado.
+**Miguel:** ¿Qué hay cerca del edificio?
 
-**Carlos:** ¿Qué hace tu padre?
+**Agente:** El edificio está en una zona muy buena. Delante del edificio hay una parada de autobús. A la derecha hay un supermercado grande, y a la izquierda hay una farmacia. Detrás del edificio está el parque. Entre el parque y la calle principal hay muchas tiendas y restaurantes.
 
-**Ana:** Es ingeniero. Sale de la oficina tarde, después del trabajo siempre viene cansado. Pero los domingos damos una vuelta por el parque todos juntos.
+**Laura:** Me gusta mucho. ¿Cuánto cuesta el alquiler?
 
-**Ana:** Ah, Carlos, una cosa más. Hay muchos turistas en medio de la calle hoy. Ten cuidado cuando camines.
+**Agente:** El alquiler es de novecientos euros al mes. El precio incluye el aparcamiento, pero no incluye la calefacción.
 
-**Carlos:** Vale, gracias. Veo la farmacia. Ya estoy cerca de tu casa. ¿Qué número es?
+**Miguel:** Es un poco caro, pero el piso es muy bonito.
 
-**Ana:** Es el número quince. La puerta está a la derecha del edificio. Hay un ascensor dentro del edificio.
+**Agente:** ¿Quieren ver el piso? Puedo llamar al propietario. Sé que él está en casa hoy.
 
-**Carlos:** ¿En qué piso vives?
+**Laura:** Sí, claro. Queremos verlo. ¿Cuándo podemos ir?
 
-**Ana:** Vivo en el cuarto piso. El ascensor está al fondo del recibidor, detrás de las escaleras.
+**Agente:** Podemos ir ahora. Yo salgo de la agencia en cinco minutos y vamos juntos. El edificio está muy cerca de aquí. ¿Traen el coche?
 
-**Carlos:** Perfecto. Subo ahora. ¡Hasta ahora!
+**Miguel:** No, venimos en metro. ¿Está lejos?
 
-**Ana:** ¡Hasta ahora! Te veo en dos minutos.`,
-      translation: `**Анна:** Привет, Карлос! Где ты?
+**Agente:** No, no está lejos. Podemos ir a pie. Solo cinco minutos.
 
-**Карлос:** Я рядом с станцией метро. Иду к тебе домой сейчас. Где ты живешь точно?
+**Laura:** Perfecto. Antes de ver el piso, tengo algunas preguntas. ¿El piso tiene vidrios dobles?
 
-**Анна:** Я живу в центре Мадрида, около большого парка. Мой дом напротив аптеки. Легко найти.
+**Agente:** Sí, todas las ventanas tienen vidrios dobles. No cae mucho ruido de la calle.
 
-**Карлос:** Отлично. Есть банк рядом с твоим домом?
+**Miguel:** ¿Y el baño? ¿Tiene ducha o bañera?
 
-**Анна:** Да, есть банк справа от аптеки. А слева есть очень хорошее кафе.
+**Agente:** Tiene una ducha moderna. No hay bañera, pero la ducha es muy grande y cómoda.
 
-**Карлос:** Хорошо. Выхожу со станции через пять минут. Что мы будем делать сегодня?
+**Laura:** Una pregunta más. ¿Cuándo podemos hacer la mudanza? ¿El piso está libre?
 
-**Анна:** Сначала я хочу пойти в библиотеку. Она позади мэрии, в глубине главной площади. Мне нужно вернуть книги до шести.
+**Agente:** El piso está libre desde el primero de marzo. El propietario hace una pequeña reparación en la cocina durante esta semana, pero después está listo.
 
-**Карлос:** Библиотека далеко от твоего дома?
+**Miguel:** Muy bien. Vamos a ver el piso. Creo que es perfecto para nosotros.
 
-**Анна:** Нет, довольно близко. Можем пойти пешком. После возврата книг можем прогуляться по парку. Он между моим домом и рекой.
+**Agente:** Excelente. Vamos. Durante el camino puedo dar más información sobre el barrio y sobre otros servicios que hay en la zona.`,
+      translation: `Лаура и Мигель ищут квартиру в аренду в Мадриде. Они живут с родителями Лауры, но хотят снять собственное жилье. Сегодня они посещают агентство недвижимости в центре города.
 
-**Карлос:** Мне нравится эта идея. Есть хороший ресторан рядом с парком?
+**Агент:** Доброе утро. Чем могу помочь?
 
-**Анна:** Да, есть несколько ресторанов вокруг парка. Мой любимый у памятника. Там делают вкусную паэлью.
+**Лаура:** Доброе утро. Мы ищем квартиру в аренду. Хотим квартиру с двумя спальнями.
 
-**Карлос:** Как хорошо! Я очень голоден. Во сколько они закрываются?
+**Агент:** Отлично. В каком районе предпочитаете жить?
 
-**Анна:** Не знаю точно, но могу позвонить и спросить. Я всегда задаю вопросы перед тем, как идти.
+**Мигель:** Предпочитаем район рядом с центром, но не хотим очень дорогую квартиру.
 
-**Карлос:** Хорошая идея. Слушай, ты знаешь, где я могу купить цветы? Хочу принести цветы твоей маме.
+**Агент:** Понимаю. У меня есть несколько квартир в аренду. Есть очень красивая квартира рядом с парком Ретиро. Она в современном здании с лифтом.
 
-**Анна:** Какое внимание! Есть цветочный магазин перед отелем, на главной улице. Открыт до восьми.
+**Лаура:** Сколько квадратных метров?
 
-**Карлос:** Отлично. Куплю цветы перед тем, как прийти к тебе домой. Твоя мама дома?
+**Агент:** Восемьдесят квадратных метров. Есть большая гостиная, две спальни, кухня, ванная комната и небольшая лоджия.
 
-**Анна:** Да, она дома. Она накрывает на стол для ужина сейчас. Ей нравится наводить порядок на кухне перед готовкой.
+**Мигель:** Квартира меблирована?
 
-**Карлос:** Твоя мама всегда проводит уроки испанского, правда?
+**Агент:** Да, это меблированная квартира. Есть мебель во всех спальнях. В гостиной есть диван, стол и стулья. Также есть большой телевизор.
 
-**Анна:** Да, проводит занятия в университете в течение недели. Но по выходным не работает.
+**Лаура:** А кухня? Что есть на кухне?
 
-**Карлос:** А твой отец, где работает?
+**Агент:** На кухне есть новый холодильник, газовая плита, духовка и посудомоечная машина. Также есть стиральная машина.
 
-**Анна:** Мой отец работает в офисе. Он на втором этаже современного здания, над супермаркетом.
+**Мигель:** Отлично. В квартире есть отопление?
 
-**Карлос:** Чем занимается твой отец?
+**Агент:** Да, конечно. Есть отопление и кондиционер. Зимой очень холодно, а летом очень жарко в Мадриде.
 
-**Анна:** Он инженер. Выходит из офиса поздно, после работы всегда приходит уставший. Но по воскресеньям мы все вместе прогуливаемся по парку.
+**Лаура:** Это квартира с окнами на улицу или во двор?
 
-**Анна:** А, Карлос, еще одно. Сегодня много туристов посреди улицы. Будь осторожен, когда будешь идти.
+**Агент:** Это квартира с окнами на улицу. Окна гостиной и главной спальни выходят на улицу. Другая спальня выходит во внутренний двор здания.
 
-**Карлос:** Хорошо, спасибо. Вижу аптеку. Я уже рядом с твоим домом. Какой номер?
+**Мигель:** Есть гараж или парковка?
 
-**Анна:** Номер пятнадцать. Дверь справа от здания. Внутри здания есть лифт.
+**Агент:** Да, в здании есть подземная парковка. Помещаются две машины. Парковка находится под зданием.
 
-**Карлос:** На каком этаже ты живешь?
+**Лаура:** На каком этаже квартира?
 
-**Анна:** Живу на четвертом этаже. Лифт в глубине прихожей, позади лестницы.
+**Агент:** На третьем этаже. В здании есть лифт и домофон. Также есть консьерж, который работает в течение дня.
 
-**Карлос:** Отлично. Поднимаюсь сейчас. До скорого!
+**Мигель:** Что находится рядом со зданием?
 
-**Анна:** До скорого! Увидимся через две минуты.`,
-      audioUrl: null
+**Агент:** Здание находится в очень хорошем районе. Перед зданием есть автобусная остановка. Справа большой супермаркет, а слева аптека. Позади здания парк. Между парком и главной улицей много магазинов и ресторанов.
+
+**Лаура:** Мне очень нравится. Сколько стоит аренда?
+
+**Агент:** Аренда девятьсот евро в месяц. Цена включает парковку, но не включает отопление.
+
+**Мигель:** Это немного дорого, но квартира очень красивая.
+
+**Агент:** Хотите посмотреть квартиру? Могу позвонить собственнику. Я знаю, что он дома сегодня.
+
+**Лаура:** Да, конечно. Хотим посмотреть. Когда можем пойти?
+
+**Агент:** Можем пойти сейчас. Я выхожу из агентства через пять минут и идем вместе. Здание очень близко отсюда. Вы на машине?
+
+**Мигель:** Нет, мы на метро. Это далеко?
+
+**Агент:** Нет, не далеко. Можем пойти пешком. Всего пять минут.
+
+**Лаура:** Отлично. Перед тем как посмотреть квартиру, у меня есть несколько вопросов. В квартире двойные стеклопакеты?
+
+**Агент:** Да, все окна с двойными стеклопакетами. Не проникает много шума с улицы.
+
+**Мигель:** А ванная? Там душ или ванна?
+
+**Агент:** Там современный душ. Нет ванны, но душ очень большой и удобный.
+
+**Лаура:** Еще один вопрос. Когда можем переехать? Квартира свободна?
+
+**Агент:** Квартира свободна с первого марта. Собственник делает небольшой ремонт на кухне в течение этой недели, но потом она готова.
+
+**Мигель:** Очень хорошо. Идем посмотреть квартиру. Думаю, она идеальна для нас.
+
+**Агент:** Отлично. Идем. По дороге могу дать больше информации о районе и о других услугах, которые есть в этом районе.`,
+      audioUrl: null,
+      comprehensionQuestions: [
+        { question: '¿Qué buscan Laura y Miguel?', correct: 'un piso en alquiler', alternatives: ['buscan un piso en alquiler', 'un apartamento en alquiler', 'buscan un apartamento en alquiler'] },
+        { question: '¿Dónde viven Laura y Miguel ahora?', correct: 'con los padres de Laura', alternatives: ['viven con los padres de Laura', 'con los padres', 'con sus padres'] },
+        { question: '¿Cuántos dormitorios quieren Laura y Miguel?', correct: 'dos', alternatives: ['dos dormitorios', '2', '2 dormitorios'] },
+        { question: '¿Cuántos metros cuadrados tiene el piso?', correct: 'ochenta', alternatives: ['ochenta metros cuadrados', '80', '80 metros cuadrados'] },
+        { question: '¿El piso está amueblado o sin muebles?', correct: 'amueblado', alternatives: ['está amueblado', 'es un piso amueblado', 'tiene muebles'] },
+        { question: '¿Qué electrodomésticos hay en la cocina?', correct: 'frigorífico, cocina de gas, horno, lavavajillas y lavadora', alternatives: ['un frigorífico, una cocina de gas, un horno, un lavavajillas y una lavadora', 'frigorífico cocina horno lavavajillas lavadora'] },
+        { question: '¿El piso tiene calefacción?', correct: 'sí', alternatives: ['sí tiene', 'tiene calefacción', 'sí, tiene calefacción'] },
+        { question: '¿Es un piso exterior o interior?', correct: 'exterior', alternatives: ['es un piso exterior', 'es exterior', 'piso exterior'] },
+        { question: '¿En qué piso está el apartamento?', correct: 'en el tercer piso', alternatives: ['tercer piso', 'en el tercero', 'en el 3'] },
+        { question: '¿El edificio tiene ascensor?', correct: 'sí', alternatives: ['sí tiene', 'tiene ascensor', 'sí, tiene ascensor'] },
+        { question: '¿Qué hay delante del edificio?', correct: 'una parada de autobús', alternatives: ['hay una parada de autobús', 'parada de autobús', 'una parada'] },
+        { question: '¿Cuánto cuesta el alquiler al mes?', correct: 'novecientos euros', alternatives: ['900 euros', '900', 'novecientos'] },
+        { question: '¿El precio incluye el aparcamiento?', correct: 'sí', alternatives: ['sí incluye', 'incluye el aparcamiento', 'sí, incluye el aparcamiento'] },
+        { question: '¿Cuándo está libre el piso?', correct: 'desde el primero de marzo', alternatives: ['el primero de marzo', 'el 1 de marzo', 'desde marzo'] },
+        { question: '¿Cómo van a ir a ver el piso?', correct: 'a pie', alternatives: ['van a pie', 'andando', 'caminando'] }
+      ]
     },
-    exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3', 'ex-3-2-4', 'ex-3-2-5', 'ex-3-2-6', 'ex-3-2-7', 'ex-3-2-8', 'ex-3-2-9', 'ex-3-2-10']
+    exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3', 'ex-3-2-4', 'ex-3-2-5', 'ex-3-2-6', 'ex-3-2-7', 'ex-3-2-8', 'ex-3-2-9', 'ex-3-2-10', 'ex-3-2-11']
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -12036,6 +12143,25 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мы делаем упражнения каждое утро.', correct: 'Hacemos ejercicio cada mañana.', alternatives: ['Nosotros hacemos ejercicio cada mañana', 'Hacemos ejercicios cada mañana'] },
       { russian: 'Они хорошо относятся ко мне.', correct: 'Me caen bien.', alternatives: ['Ellos me caen bien', 'Caen bien conmigo'] },
       { russian: 'Вокзал находится далеко от центра города.', correct: 'La estación está lejos del centro de la ciudad.', alternatives: ['La estación queda lejos del centro de la ciudad', 'La estación de tren está lejos del centro'] }
+    ]
+  },
+
+  'ex-3-2-11': {
+    id: 'ex-3-2-11',
+    type: 'translation',
+    title: 'Упражнение 11: Перевод (повторение грамматики модулей 1-3)',
+    description: 'Переведите предложения с русского на испанский',
+    questions: [
+      { russian: 'Я не знаю, где живет твой друг. Можешь написать его адрес?', correct: 'No sé dónde vive tu amigo. ¿Puedes escribir su dirección?', alternatives: ['No sé donde vive tu amigo. Puedes escribir su dirección', 'No sé dónde vive tu amigo. ¿Puedes escribir su domicilio?'] },
+      { russian: 'Почему здесь так шумно? — У соседей сегодня праздник. Не надо обращать внимание на шум.', correct: '¿Por qué hay tanto ruido aquí? — Los vecinos tienen una fiesta hoy. No hay que hacer caso del ruido.', alternatives: ['¿Por qué está tan ruidoso aquí? — Los vecinos dan una fiesta hoy. No hay que hacer caso al ruido', '¿Por qué hace tanto ruido aquí? — Los vecinos tienen fiesta hoy. No hay que prestar atención al ruido'] },
+      { russian: 'Марта спешит, у нее мало времени, она собирает чемодан и едет на вокзал на такси.', correct: 'Marta tiene prisa, tiene poco tiempo, hace la maleta y va a la estación en taxi.', alternatives: ['Marta tiene prisa, no tiene mucho tiempo, hace la maleta y va a la estación en taxi', 'Marta se apresura, tiene poco tiempo, hace la maleta y va a la estación en taxi'] },
+      { russian: 'Когда мы видим (встречаем) дона Антонио, он всегда передает привет нашим родителям.', correct: 'Cuando vemos a don Antonio, siempre da recuerdos a nuestros padres.', alternatives: ['Cuando vemos a don Antonio, él siempre da recuerdos a nuestros padres', 'Cuando encontramos a don Antonio, siempre da recuerdos a nuestros padres'] },
+      { russian: 'Бабушка не включает телевизор, потому что плохо видит. Я включаю радио, и мы слушаем новости.', correct: 'La abuela no pone la televisión porque ve mal. Yo pongo la radio y escuchamos las noticias.', alternatives: ['La abuela no pone la tele porque ve mal. Pongo la radio y escuchamos las noticias', 'Mi abuela no pone la televisión porque ve mal. Yo pongo la radio y escuchamos noticias'] },
+      { russian: 'Мой сын не умеет читать, но знает много стихов.', correct: 'Mi hijo no sabe leer, pero sabe muchas poesías.', alternatives: ['Mi hijo no sabe leer pero sabe muchos poemas', 'Mi hijo no sabe leer, pero conoce muchas poesías'] },
+      { russian: 'Когда ты приходишь на работу, всегда приносишь сегодняшние газеты.', correct: 'Cuando vienes al trabajo, siempre traes los periódicos de hoy.', alternatives: ['Cuando llegas al trabajo, siempre traes los periódicos del día', 'Cuando vienes a trabajar, siempre traes los periódicos de hoy'] },
+      { russian: 'Мы видим, что он не умеет танцевать, поэтому падает.', correct: 'Vemos que no sabe bailar, por eso cae.', alternatives: ['Vemos que él no sabe bailar, por eso cae', 'Vemos que no sabe bailar por eso cae'] },
+      { russian: 'Я навожу порядок в твоем кабинете, Анна накрывает на стол, а ты ничего не делаешь. Почему? — Не хочу.', correct: 'Pongo orden en tu despacho, Ana pone la mesa, y tú no haces nada. ¿Por qué? — No quiero.', alternatives: ['Yo pongo orden en tu despacho, Ana pone la mesa y tú no haces nada. ¿Por qué? — No quiero', 'Pongo orden en tu oficina, Ana pone la mesa, y tú no haces nada. ¿Por qué? — No quiero'] },
+      { russian: 'Их окна выходят во двор. Они видят, когда их сосед выходит из дома и когда приходит.', correct: 'Sus ventanas dan al patio. Ven cuando su vecino sale de casa y cuando llega.', alternatives: ['Sus ventanas dan al patio. Ellos ven cuando su vecino sale de casa y cuando viene', 'Las ventanas de ellos dan al patio. Ven cuando su vecino sale de la casa y cuando llega'] }
     ]
   }
 }
