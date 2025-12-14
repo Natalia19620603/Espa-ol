@@ -3540,6 +3540,112 @@ María: ¡Vamos!`,
       { word: 'lavadora', translation: 'стиральная машина', audioUrl: null },
       { word: 'lavavajillas', translation: 'посудомоечная машина', audioUrl: null }
     ],
+    readingText: {
+      title: 'Buscando un apartamento',
+      content: `**Ana:** Buenas tardes. Quiero ver el apartamento que está en alquiler.
+
+**Agente:** ¡Buenas tardes! Claro, puedo enseñarle el piso. Es muy bonito. Está en la planta baja.
+
+**Ana:** ¿Cuántas habitaciones hay?
+
+**Agente:** Hay tres dormitorios, un salón grande, una cocina, un cuarto de baño y un pasillo. También hay un recibidor pequeño.
+
+**Ana:** ¿Hay muebles?
+
+**Agente:** Sí, hay muchos muebles. En el salón hay un sofá muy cómodo, dos sillones, una mesa y una televisor grande. También hay muchas estanterías.
+
+**Ana:** ¿Y en la cocina?
+
+**Agente:** En la cocina hay un frigorífico nuevo, una cocina eléctrica, un horno microondas, una lavadora y un lavavajillas. La cocina es muy moderna.
+
+**Ana:** ¿Qué hay en los dormitorios?
+
+**Agente:** En el dormitorio principal hay una cama grande, un armario empotrado, una cómoda y dos mesitas de noche. En los otros dormitorios hay camas pequeñas y armarios.
+
+**Ana:** ¿Hay cortinas en las habitaciones?
+
+**Agente:** Sí, hay cortinas en todas las habitaciones. Son muy bonitas.
+
+**Ana:** ¿Y alfombras?
+
+**Agente:** En el salón hay una alfombra grande. En los dormitorios no hay alfombras, pero el suelo es de madera.
+
+**Ana:** ¿Cuántos cuartos de baño hay?
+
+**Agente:** Hay solo un cuarto de baño, pero es muy espacioso. Tiene un espejo grande y mucha luz.
+
+**Ana:** ¿Hay ascensor en el edificio?
+
+**Agente:** No, no hay ascensor. Solo hay escaleras. Pero el apartamento está en la planta baja, no es un problema.
+
+**Ana:** ¿Qué más hay en el apartamento?
+
+**Agente:** En el pasillo hay lámparas. En el salón hay una araña muy elegante y una lámpara de pie. También hay un ordenador en uno de los dormitorios.
+
+**Ana:** Me gusta mucho. Es muy acogedor. ¿Cuánto cuesta?
+
+**Agente:** Cuesta setecientos cincuenta euros al mes.
+
+**Ana:** Es un poco caro, pero el piso es muy bonito y hay muchos muebles. Quiero alquilarlo.
+
+**Agente:** ¡Perfecto! Hay que firmar el contrato mañana.
+
+**Ana:** Muy bien. Muchas gracias.
+
+**Agente:** De nada. ¡Hasta mañana!`,
+      translation: `**Анна:** Добрый день. Я хочу посмотреть квартиру, которая сдается в аренду.
+
+**Агент:** Добрый день! Конечно, я могу показать вам квартиру. Она очень красивая. Находится на цокольном этаже.
+
+**Анна:** Сколько комнат есть?
+
+**Агент:** Есть три спальни, большая гостиная, кухня, ванная комната и коридор. Также есть маленькая прихожая.
+
+**Анна:** Есть мебель?
+
+**Агент:** Да, есть много мебели. В гостиной есть очень удобный диван, два кресла, стол и большой телевизор. Также есть много полок.
+
+**Анна:** А на кухне?
+
+**Агент:** На кухне есть новый холодильник, электроплита, микроволновая печь, стиральная машина и посудомоечная машина. Кухня очень современная.
+
+**Анна:** Что есть в спальнях?
+
+**Агент:** В главной спальне есть большая кровать, встроенный шкаф, комод и две прикроватные тумбочки. В других спальнях есть маленькие кровати и шкафы.
+
+**Анна:** Есть шторы в комнатах?
+
+**Агент:** Да, во всех комнатах есть шторы. Они очень красивые.
+
+**Анна:** А ковры?
+
+**Агент:** В гостиной есть большой ковер. В спальнях нет ковров, но пол деревянный.
+
+**Анна:** Сколько ванных комнат есть?
+
+**Агент:** Есть только одна ванная комната, но она очень просторная. В ней большое зеркало и много света.
+
+**Анна:** В здании есть лифт?
+
+**Агент:** Нет, лифта нет. Только лестница. Но квартира на цокольном этаже, это не проблема.
+
+**Анна:** Что еще есть в квартире?
+
+**Агент:** В коридоре есть лампы. В гостиной есть очень элегантная люстра и торшер. Также в одной из спален есть компьютер.
+
+**Анна:** Мне очень нравится. Она очень уютная. Сколько стоит?
+
+**Агент:** Стоит семьсот пятьдесят евро в месяц.
+
+**Анна:** Это немного дорого, но квартира очень красивая и есть много мебели. Я хочу ее снять.
+
+**Агент:** Отлично! Нужно подписать контракт завтра.
+
+**Анна:** Хорошо. Большое спасибо.
+
+**Агент:** Пожалуйста. До завтра!`,
+      audioUrl: null
+    },
     exercises: ['ex-3-1-1', 'ex-3-1-2', 'ex-3-1-3', 'ex-3-1-4', 'ex-3-1-5']
   },
   'lesson-3-2': {
