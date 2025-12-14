@@ -11796,5 +11796,246 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'В коридоре столько дверей!', correct: '¡En el pasillo hay tantas puertas!', alternatives: ['¡Hay tantas puertas en el pasillo!', 'En el pasillo hay muchas puertas'] },
       { russian: 'Нужно убрать эти вещи с дивана.', correct: 'Hay que quitar estas cosas del sofá.', alternatives: ['Es necesario quitar estas cosas del sofá', 'Hay que sacar estas cosas del sofá'] }
     ]
+  },
+
+  // Módulo 3 Lección 2 - Упражнения на предлоги и неправильные глаголы
+  'ex-3-2-1': {
+    id: 'ex-3-2-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Предлоги места',
+    description: 'Вставьте подходящий предлог места',
+    questions: [
+      { sentence: 'El banco está ___ la farmacia y la panadería.', correct: 'entre', blanks: 1 },
+      { sentence: 'El supermercado está ___ mi casa.', correct: 'cerca de', blanks: 1 },
+      { sentence: 'La estación está ___ el centro de la ciudad.', correct: 'lejos de', blanks: 1 },
+      { sentence: 'El cine está ___ del teatro.', correct: 'enfrente', blanks: 1 },
+      { sentence: 'La biblioteca está ___ la escuela.', correct: 'al lado de', blanks: 1 },
+      { sentence: 'Hay un parque ___ de mi edificio.', correct: 'delante', blanks: 1 },
+      { sentence: 'El restaurante está ___ del museo.', correct: 'detrás', blanks: 1 },
+      { sentence: 'La lámpara está ___ la mesa.', correct: 'encima de', blanks: 1 },
+      { sentence: 'El gato está ___ la cama.', correct: 'debajo de', blanks: 1 },
+      { sentence: 'Los niños están ___ la casa jugando.', correct: 'dentro de', blanks: 1 },
+      { sentence: 'El perro está ___ el jardín.', correct: 'fuera de', blanks: 1 },
+      { sentence: 'El hospital está ___ de la plaza.', correct: 'cerca', blanks: 1 },
+      { sentence: 'Vivo ___ la oficina de correos.', correct: 'al lado de', blanks: 1 },
+      { sentence: 'La iglesia está ___ el ayuntamiento.', correct: 'enfrente de', blanks: 1 },
+      { sentence: 'Hay un cuadro ___ del sofá.', correct: 'encima', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-2': {
+    id: 'ex-3-2-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Предлоги времени',
+    description: 'Вставьте antes de, después de или durante',
+    questions: [
+      { sentence: '___ comer, siempre me lavo las manos.', correct: 'Antes de', blanks: 1 },
+      { sentence: '___ la clase, el profesor hace preguntas.', correct: 'Durante', blanks: 1 },
+      { sentence: '___ trabajar, voy al gimnasio.', correct: 'Después de', blanks: 1 },
+      { sentence: '___ dormir, leo un libro.', correct: 'Antes de', blanks: 1 },
+      { sentence: '___ las vacaciones, viajamos mucho.', correct: 'Durante', blanks: 1 },
+      { sentence: '___ desayunar, bebo café.', correct: 'Después de', blanks: 1 },
+      { sentence: '___ salir, apago las luces.', correct: 'Antes de', blanks: 1 },
+      { sentence: '___ la película, no hablo.', correct: 'Durante', blanks: 1 },
+      { sentence: '___ cenar, veo la televisión.', correct: 'Después de', blanks: 1 },
+      { sentence: '___ estudiar, preparo mis libros.', correct: 'Antes de', blanks: 1 },
+      { sentence: '___ el viaje, duermo en el avión.', correct: 'Durante', blanks: 1 },
+      { sentence: '___ la cena, lavo los platos.', correct: 'Después de', blanks: 1 },
+      { sentence: '___ entrar, llamo a la puerta.', correct: 'Antes de', blanks: 1 },
+      { sentence: '___ el invierno, hace mucho frío.', correct: 'Durante', blanks: 1 },
+      { sentence: '___ levantarme, me ducho.', correct: 'Después de', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-3': {
+    id: 'ex-3-2-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Глагол HACER',
+    description: 'Поставьте глагол hacer в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ los deberes por la tarde.', verb: 'hacer', correct: 'hago', blanks: 1 },
+      { sentence: 'Tú ___ la cama cada mañana.', verb: 'hacer', correct: 'haces', blanks: 1 },
+      { sentence: 'Él ___ preguntas en clase.', verb: 'hacer', correct: 'hace', blanks: 1 },
+      { sentence: 'Nosotros ___ ejercicio todos los días.', verb: 'hacer', correct: 'hacemos', blanks: 1 },
+      { sentence: 'Vosotros ___ la comida juntos.', verb: 'hacer', correct: 'hacéis', blanks: 1 },
+      { sentence: 'Ellos ___ un viaje a España.', verb: 'hacer', correct: 'hacen', blanks: 1 },
+      { sentence: '¿Qué ___ (tú) este fin de semana?', verb: 'hacer', correct: 'haces', blanks: 1 },
+      { sentence: 'Yo siempre ___ mi trabajo bien.', verb: 'hacer', correct: 'hago', blanks: 1 },
+      { sentence: 'María ___ yoga por las mañanas.', verb: 'hacer', correct: 'hace', blanks: 1 },
+      { sentence: 'Nosotros ___ las maletas para el viaje.', verb: 'hacer', correct: 'hacemos', blanks: 1 },
+      { sentence: '¿___ (vosotros) deporte?', verb: 'hacer', correct: 'Hacéis', blanks: 1 },
+      { sentence: 'Los estudiantes ___ muchas preguntas.', verb: 'hacer', correct: 'hacen', blanks: 1 },
+      { sentence: 'Yo ___ la compra los sábados.', verb: 'hacer', correct: 'hago', blanks: 1 },
+      { sentence: 'Tú ___ mucho ruido.', verb: 'hacer', correct: 'haces', blanks: 1 },
+      { sentence: 'Mi padre ___ el café por la mañana.', verb: 'hacer', correct: 'hace', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-4': {
+    id: 'ex-3-2-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Глагол PONER',
+    description: 'Поставьте глагол poner в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ la mesa para cenar.', verb: 'poner', correct: 'pongo', blanks: 1 },
+      { sentence: 'Tú ___ la música muy alta.', verb: 'poner', correct: 'pones', blanks: 1 },
+      { sentence: 'Ella ___ los libros en la estantería.', verb: 'poner', correct: 'pone', blanks: 1 },
+      { sentence: 'Nosotros ___ las flores en el jarrón.', verb: 'poner', correct: 'ponemos', blanks: 1 },
+      { sentence: 'Vosotros ___ la televisión por la noche.', verb: 'poner', correct: 'ponéis', blanks: 1 },
+      { sentence: 'Ellos ___ los platos en el lavavajillas.', verb: 'poner', correct: 'ponen', blanks: 1 },
+      { sentence: '¿Dónde ___ (tú) las llaves?', verb: 'poner', correct: 'pones', blanks: 1 },
+      { sentence: 'Yo ___ la ropa en el armario.', verb: 'poner', correct: 'pongo', blanks: 1 },
+      { sentence: 'Mi madre ___ sal en la comida.', verb: 'poner', correct: 'pone', blanks: 1 },
+      { sentence: 'Nosotros ___ atención en clase.', verb: 'poner', correct: 'ponemos', blanks: 1 },
+      { sentence: '¿___ (vosotros) las sillas en su lugar?', verb: 'poner', correct: 'Ponéis', blanks: 1 },
+      { sentence: 'Los niños ___ los juguetes en la caja.', verb: 'poner', correct: 'ponen', blanks: 1 },
+      { sentence: 'Yo siempre ___ las cosas en orden.', verb: 'poner', correct: 'pongo', blanks: 1 },
+      { sentence: 'Tú ___ mucho azúcar en el café.', verb: 'poner', correct: 'pones', blanks: 1 },
+      { sentence: 'El profesor ___ ejemplos en la pizarra.', verb: 'poner', correct: 'pone', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-5': {
+    id: 'ex-3-2-5',
+    type: 'fillblank',
+    title: 'Упражнение 5: Глагол DAR',
+    description: 'Поставьте глагол dar в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ un paseo por el parque.', verb: 'dar', correct: 'doy', blanks: 1 },
+      { sentence: 'Tú ___ clases de español.', verb: 'dar', correct: 'das', blanks: 1 },
+      { sentence: 'Él ___ las gracias a todos.', verb: 'dar', correct: 'da', blanks: 1 },
+      { sentence: 'Nosotros ___ una fiesta el sábado.', verb: 'dar', correct: 'damos', blanks: 1 },
+      { sentence: 'Vosotros ___ la mano cuando saludáis.', verb: 'dar', correct: 'dais', blanks: 1 },
+      { sentence: 'Ellos ___ regalos en Navidad.', verb: 'dar', correct: 'dan', blanks: 1 },
+      { sentence: '¿___ (tú) un paseo cada día?', verb: 'dar', correct: 'Das', blanks: 1 },
+      { sentence: 'Yo ___ mi opinión cuando es necesario.', verb: 'dar', correct: 'doy', blanks: 1 },
+      { sentence: 'La profesora ___ explicaciones claras.', verb: 'dar', correct: 'da', blanks: 1 },
+      { sentence: 'Nosotros ___ las noticias a la familia.', verb: 'dar', correct: 'damos', blanks: 1 },
+      { sentence: '¿___ (vosotros) los buenos días?', verb: 'dar', correct: 'Dais', blanks: 1 },
+      { sentence: 'Los padres ___ consejos a sus hijos.', verb: 'dar', correct: 'dan', blanks: 1 },
+      { sentence: 'Yo ___ las llaves al portero.', verb: 'dar', correct: 'doy', blanks: 1 },
+      { sentence: 'Tú ___ mucha importancia a los detalles.', verb: 'dar', correct: 'das', blanks: 1 },
+      { sentence: 'Mi hermano ___ recuerdos a todos.', verb: 'dar', correct: 'da', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-6': {
+    id: 'ex-3-2-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: Глаголы SABER, SALIR, VER',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ hablar francés.', verb: 'saber', correct: 'sé', blanks: 1 },
+      { sentence: 'Nosotros ___ de casa a las ocho.', verb: 'salir', correct: 'salimos', blanks: 1 },
+      { sentence: 'Ellos ___ la televisión por la noche.', verb: 'ver', correct: 'ven', blanks: 1 },
+      { sentence: '¿___ (tú) dónde está el banco?', verb: 'saber', correct: 'Sabes', blanks: 1 },
+      { sentence: 'Yo ___ con mis amigos los viernes.', verb: 'salir', correct: 'salgo', blanks: 1 },
+      { sentence: 'Nosotros ___ muchas películas.', verb: 'ver', correct: 'vemos', blanks: 1 },
+      { sentence: 'María ___ tocar el piano.', verb: 'saber', correct: 'sabe', blanks: 1 },
+      { sentence: 'Vosotros ___ tarde del trabajo.', verb: 'salir', correct: 'salís', blanks: 1 },
+      { sentence: 'Yo ___ a mis padres cada semana.', verb: 'ver', correct: 'veo', blanks: 1 },
+      { sentence: 'Ellos ___ la verdad.', verb: 'saber', correct: 'saben', blanks: 1 },
+      { sentence: 'El tren ___ a las tres.', verb: 'salir', correct: 'sale', blanks: 1 },
+      { sentence: '¿___ (vosotros) el problema?', verb: 'ver', correct: 'Veis', blanks: 1 },
+      { sentence: '¿___ (usted) cocinar?', verb: 'saber', correct: 'Sabe', blanks: 1 },
+      { sentence: 'Tú ___ mucho en el periódico.', verb: 'salir', correct: 'sales', blanks: 1 },
+      { sentence: 'Mi hermana ___ todo desde su ventana.', verb: 'ver', correct: 've', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-7': {
+    id: 'ex-3-2-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: Глаголы CABER, CAER, TRAER',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo no ___ en este coche pequeño.', verb: 'caber', correct: 'quepo', blanks: 1 },
+      { sentence: 'Las hojas ___ de los árboles en otoño.', verb: 'caer', correct: 'caen', blanks: 1 },
+      { sentence: 'Yo ___ el pan de la panadería.', verb: 'traer', correct: 'traigo', blanks: 1 },
+      { sentence: '¿___ (tú) en el ascensor?', verb: 'caber', correct: 'Cabes', blanks: 1 },
+      { sentence: 'Tú siempre ___ cuando esquías.', verb: 'caer', correct: 'caes', blanks: 1 },
+      { sentence: 'Nosotros ___ vino para la cena.', verb: 'traer', correct: 'traemos', blanks: 1 },
+      { sentence: 'Todos ___ en el autobús.', verb: 'caber', correct: 'caben', blanks: 1 },
+      { sentence: 'Yo ___ bien a todos.', verb: 'caer', correct: 'caigo', blanks: 1 },
+      { sentence: '¿Qué ___ (vosotros) a la fiesta?', verb: 'traer', correct: 'traéis', blanks: 1 },
+      { sentence: 'Esta mesa no ___ en la habitación.', verb: 'caber', correct: 'cabe', blanks: 1 },
+      { sentence: 'La lluvia ___ sobre el tejado.', verb: 'caer', correct: 'cae', blanks: 1 },
+      { sentence: 'Los estudiantes ___ sus libros a clase.', verb: 'traer', correct: 'traen', blanks: 1 },
+      { sentence: 'Nosotros ___ en este taxi.', verb: 'caber', correct: 'cabemos', blanks: 1 },
+      { sentence: 'Vosotros ___ mal a mi hermano.', verb: 'caer', correct: 'caéis', blanks: 1 },
+      { sentence: 'Tú ___ buenas noticias.', verb: 'traer', correct: 'traes', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-8': {
+    id: 'ex-3-2-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: Смешанные предлоги и глаголы',
+    description: 'Вставьте предлог или глагол в правильной форме',
+    questions: [
+      { sentence: 'Voy al banco ___ sacar dinero.', correct: 'para', blanks: 1 },
+      { sentence: 'Yo ___ (hacer) la compra los domingos.', verb: 'hacer', correct: 'hago', blanks: 1 },
+      { sentence: 'El restaurante está ___ el cine.', correct: 'cerca del', blanks: 1 },
+      { sentence: 'Nosotros ___ (poner) la mesa antes de comer.', verb: 'poner', correct: 'ponemos', blanks: 1 },
+      { sentence: '___ la tarde, estudio español.', correct: 'Por', blanks: 1 },
+      { sentence: 'Ellos ___ (dar) un paseo cada día.', verb: 'dar', correct: 'dan', blanks: 1 },
+      { sentence: 'La farmacia está ___ de la panadería.', correct: 'al lado', blanks: 1 },
+      { sentence: 'Yo ___ (salir) de casa temprano.', verb: 'salir', correct: 'salgo', blanks: 1 },
+      { sentence: '___ estudiar, descanso un poco.', correct: 'Después de', blanks: 1 },
+      { sentence: 'Tú ___ (ver) muchas películas.', verb: 'ver', correct: 'ves', blanks: 1 },
+      { sentence: 'El parque está ___ mi casa.', correct: 'delante de', blanks: 1 },
+      { sentence: 'Nosotros ___ (saber) la respuesta.', verb: 'saber', correct: 'sabemos', blanks: 1 },
+      { sentence: '___ la clase, el profesor explica la gramática.', correct: 'Durante', blanks: 1 },
+      { sentence: 'Yo ___ (traer) el postre a la cena.', verb: 'traer', correct: 'traigo', blanks: 1 },
+      { sentence: 'Vivo ___ la estación de metro.', correct: 'lejos de', blanks: 1 }
+    ]
+  },
+
+  'ex-3-2-9': {
+    id: 'ex-3-2-9',
+    type: 'transformation',
+    title: 'Упражнение 9: Трансформация предложений',
+    description: 'Измените форму глагола согласно новому подлежащему',
+    questions: [
+      { russian: 'Yo hago ejercicio. → Nosotros', correct: 'Nosotros hacemos ejercicio.', alternatives: ['nosotros hacemos ejercicio'] },
+      { russian: 'Tú pones la mesa. → Él', correct: 'Él pone la mesa.', alternatives: ['él pone la mesa'] },
+      { russian: 'Ella da un paseo. → Yo', correct: 'Yo doy un paseo.', alternatives: ['yo doy un paseo'] },
+      { russian: 'Nosotros sabemos la verdad. → Tú', correct: 'Tú sabes la verdad.', alternatives: ['tú sabes la verdad'] },
+      { russian: 'Vosotros salís tarde. → Ellos', correct: 'Ellos salen tarde.', alternatives: ['ellos salen tarde'] },
+      { russian: 'Ellos ven la televisión. → Yo', correct: 'Yo veo la televisión.', alternatives: ['yo veo la televisión'] },
+      { russian: 'Yo quepo en el coche. → Nosotros', correct: 'Nosotros cabemos en el coche.', alternatives: ['nosotros cabemos en el coche'] },
+      { russian: 'Tú caes bien. → Ellos', correct: 'Ellos caen bien.', alternatives: ['ellos caen bien'] },
+      { russian: 'Él trae el vino. → Yo', correct: 'Yo traigo el vino.', alternatives: ['yo traigo el vino'] },
+      { russian: 'Nosotros hacemos preguntas. → Ella', correct: 'Ella hace preguntas.', alternatives: ['ella hace preguntas'] },
+      { russian: 'Vosotros ponéis atención. → Tú', correct: 'Tú pones atención.', alternatives: ['tú pones atención'] },
+      { russian: 'Ellos dan las gracias. → Yo', correct: 'Yo doy las gracias.', alternatives: ['yo doy las gracias'] },
+      { russian: 'Yo sé cocinar. → Vosotros', correct: 'Vosotros sabéis cocinar.', alternatives: ['vosotros sabéis cocinar'] },
+      { russian: 'Tú sales con amigos. → Nosotros', correct: 'Nosotros salimos con amigos.', alternatives: ['nosotros salimos con amigos'] },
+      { russian: 'Ella ve el problema. → Ellos', correct: 'Ellos ven el problema.', alternatives: ['ellos ven el problema'] }
+    ]
+  },
+
+  'ex-3-2-10': {
+    id: 'ex-3-2-10',
+    type: 'translation',
+    title: 'Упражнение 10: Перевод с русского на испанский',
+    description: 'Переведите предложения с русского на испанский',
+    questions: [
+      { russian: 'Банк находится рядом с аптекой.', correct: 'El banco está al lado de la farmacia.', alternatives: ['El banco está cerca de la farmacia', 'El banco queda al lado de la farmacia'] },
+      { russian: 'Я делаю домашнее задание после ужина.', correct: 'Hago los deberes después de cenar.', alternatives: ['Yo hago los deberes después de cenar', 'Hago la tarea después de cenar'] },
+      { russian: 'Во время урока мы задаем много вопросов.', correct: 'Durante la clase hacemos muchas preguntas.', alternatives: ['Durante la clase preguntamos mucho', 'Nosotros hacemos muchas preguntas durante la clase'] },
+      { russian: 'Мы гуляем по парку каждый день.', correct: 'Damos un paseo por el parque cada día.', alternatives: ['Nosotros damos un paseo por el parque cada día', 'Paseamos por el parque cada día'] },
+      { russian: 'Она накрывает на стол перед едой.', correct: 'Ella pone la mesa antes de comer.', alternatives: ['Pone la mesa antes de comer'] },
+      { russian: 'Я знаю, где находится музей.', correct: 'Sé dónde está el museo.', alternatives: ['Yo sé dónde está el museo', 'Sé dónde se encuentra el museo'] },
+      { russian: 'Они выходят из дома рано утром.', correct: 'Salen de casa temprano por la mañana.', alternatives: ['Ellos salen de casa temprano por la mañana', 'Salen de la casa temprano por la mañana'] },
+      { russian: 'Я вижу своих друзей каждую неделю.', correct: 'Veo a mis amigos cada semana.', alternatives: ['Yo veo a mis amigos cada semana', 'Veo a mis amigos todas las semanas'] },
+      { russian: 'Мы не помещаемся в этой маленькой машине.', correct: 'No cabemos en este coche pequeño.', alternatives: ['Nosotros no cabemos en este coche pequeño', 'No cabemos en este auto pequeño'] },
+      { russian: 'Я приношу хлеб из пекарни.', correct: 'Traigo el pan de la panadería.', alternatives: ['Yo traigo el pan de la panadería', 'Traigo pan de la panadería'] },
+      { russian: 'Супермаркет находится напротив школы.', correct: 'El supermercado está enfrente de la escuela.', alternatives: ['El supermercado queda enfrente de la escuela', 'El supermercado está frente a la escuela'] },
+      { russian: 'Перед сном я читаю книгу.', correct: 'Antes de dormir leo un libro.', alternatives: ['Leo un libro antes de dormir', 'Antes de acostarme leo un libro'] },
+      { russian: 'Мы делаем упражнения каждое утро.', correct: 'Hacemos ejercicio cada mañana.', alternatives: ['Nosotros hacemos ejercicio cada mañana', 'Hacemos ejercicios cada mañana'] },
+      { russian: 'Они хорошо относятся ко мне.', correct: 'Me caen bien.', alternatives: ['Ellos me caen bien', 'Caen bien conmigo'] },
+      { russian: 'Вокзал находится далеко от центра города.', correct: 'La estación está lejos del centro de la ciudad.', alternatives: ['La estación queda lejos del centro de la ciudad', 'La estación de tren está lejos del centro'] }
+    ]
   }
 }
