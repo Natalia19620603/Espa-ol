@@ -3739,44 +3739,210 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      { word: 'deporte', translation: 'спорт', audioUrl: null },
-      { word: 'música', translation: 'музыка', audioUrl: null },
-      { word: 'cine', translation: 'кино', audioUrl: null },
-      { word: 'libro', translation: 'книга', audioUrl: null },
-      { word: 'película', translation: 'фильм', audioUrl: null },
-      { word: 'fútbol', translation: 'футбол', audioUrl: null },
-      { word: 'natación', translation: 'плавание', audioUrl: null },
-      { word: 'pintura', translation: 'живопись', audioUrl: null },
-      { word: 'fotografía', translation: 'фотография', audioUrl: null },
-      { word: 'viaje', translation: 'путешествие', audioUrl: null }
+      // Предлоги и выражения места
+      { word: 'cerca de', translation: 'рядом с', audioUrl: null },
+      { word: 'al lado de', translation: 'около', audioUrl: null },
+      { word: 'junto a', translation: 'у, рядом', audioUrl: null },
+      { word: 'lejos de', translation: 'далеко от', audioUrl: null },
+      { word: 'a la izquierda de', translation: 'слева от', audioUrl: null },
+      { word: 'a la derecha de', translation: 'справа от', audioUrl: null },
+      { word: 'frente a', translation: 'напротив', audioUrl: null },
+      { word: 'enfrente de', translation: 'напротив', audioUrl: null },
+      { word: 'delante de', translation: 'перед', audioUrl: null },
+      { word: 'ante', translation: 'перед', audioUrl: null },
+      { word: 'detrás de', translation: 'позади, сзади', audioUrl: null },
+      { word: 'tras', translation: 'позади', audioUrl: null },
+      { word: 'alrededor de', translation: 'вокруг', audioUrl: null },
+      { word: 'en torno a', translation: 'вокруг', audioUrl: null },
+      { word: 'entre', translation: 'между', audioUrl: null },
+      { word: 'dentro de', translation: 'внутри', audioUrl: null },
+      { word: 'en', translation: 'в, на', audioUrl: null },
+      { word: 'fuera de', translation: 'вне, снаружи', audioUrl: null },
+      { word: 'encima de', translation: 'над, сверху', audioUrl: null },
+      { word: 'debajo de', translation: 'под, снизу', audioUrl: null },
+      { word: 'sobre', translation: 'на', audioUrl: null },
+      { word: 'en medio de', translation: 'посреди', audioUrl: null },
+      { word: 'al fondo de', translation: 'в глубине', audioUrl: null },
+
+      // Предлоги времени
+      { word: 'antes de', translation: 'до, перед', audioUrl: null },
+      { word: 'después de', translation: 'после', audioUrl: null },
+      { word: 'durante', translation: 'в течение, во время', audioUrl: null },
+
+      // Существительные для примеров
+      { word: 'casa', translation: 'дом', audioUrl: null },
+      { word: 'estación', translation: 'вокзал', audioUrl: null },
+      { word: 'monumento', translation: 'памятник', audioUrl: null },
+      { word: 'playa', translation: 'пляж', audioUrl: null },
+      { word: 'puerta', translation: 'дверь', audioUrl: null },
+      { word: 'ventana', translation: 'окно', audioUrl: null },
+      { word: 'despacho', translation: 'кабинет', audioUrl: null },
+      { word: 'cine', translation: 'кинотеатр', audioUrl: null },
+      { word: 'hotel', translation: 'гостиница', audioUrl: null },
+      { word: 'patio', translation: 'двор', audioUrl: null },
+      { word: 'ascensor', translation: 'лифт', audioUrl: null },
+      { word: 'armario', translation: 'шкаф', audioUrl: null },
+      { word: 'oficina', translation: 'офис', audioUrl: null },
+      { word: 'ordenador', translation: 'компьютер', audioUrl: null },
+      { word: 'cama', translation: 'кровать', audioUrl: null },
+      { word: 'mesa', translation: 'стол', audioUrl: null },
+      { word: 'calle', translation: 'улица', audioUrl: null },
+      { word: 'parque', translation: 'парк', audioUrl: null },
+      { word: 'operación', translation: 'операция', audioUrl: null },
+      { word: 'programa', translation: 'программа', audioUrl: null },
+      { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
+
+      // Глаголы индивидуального спряжения
+      { word: 'caber', translation: 'помещаться', audioUrl: null },
+      { word: 'caer', translation: 'падать', audioUrl: null },
+      { word: 'dar', translation: 'давать', audioUrl: null },
+      { word: 'hacer', translation: 'делать', audioUrl: null },
+      { word: 'poner', translation: 'класть, ставить', audioUrl: null },
+      { word: 'saber', translation: 'знать, уметь', audioUrl: null },
+      { word: 'salir', translation: 'выходить', audioUrl: null },
+      { word: 'traer', translation: 'приносить', audioUrl: null },
+      { word: 'ver', translation: 'видеть', audioUrl: null },
+
+      // Выражения с глаголами
+      { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
+      { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
+      { word: 'poner la radio', translation: 'включать радио', audioUrl: null },
+      { word: 'dar un paseo', translation: 'прогуляться', audioUrl: null },
+      { word: 'dar una vuelta', translation: 'прогуляться', audioUrl: null },
+      { word: 'dar un beso', translation: 'поцеловать', audioUrl: null },
+      { word: 'dar las gracias', translation: 'благодарить', audioUrl: null },
+      { word: 'dar recuerdos', translation: 'передавать привет', audioUrl: null },
+      { word: 'dar clases', translation: 'проводить занятия', audioUrl: null },
+      { word: 'dar una fiesta', translation: 'устраивать праздник', audioUrl: null },
+      { word: 'hacer preguntas', translation: 'задавать вопросы', audioUrl: null },
+      { word: 'hacer la cama', translation: 'убирать постель', audioUrl: null },
+      { word: 'hacer la maleta', translation: 'собирать чемодан', audioUrl: null },
+      { word: 'hacer ruido', translation: 'шуметь', audioUrl: null },
+      { word: 'hacer caso', translation: 'обращать внимание', audioUrl: null }
     ],
     readingText: {
-      title: 'Mis pasatiempos favoritos',
-      content: `Me llamo Elena y tengo muchos pasatiempos interesantes. En mi tiempo libre me gusta hacer diferentes actividades porque creo que es importante tener un equilibrio en la vida.
+      title: 'Un día en Madrid',
+      content: `**Ana:** ¡Hola, Carlos! ¿Dónde estás?
 
-Mi pasatiempo favorito es la lectura. Me encantan los libros, especialmente las novelas de misterio y fantasía. Leo casi todos los días antes de dormir. Tengo una biblioteca grande en mi casa con más de doscientos libros. Mi escritor favorito es Gabriel García Márquez. Sus historias son mágicas y fascinantes.
+**Carlos:** Estoy cerca de la estación de metro. Voy a tu casa ahora. ¿Dónde vives exactamente?
 
-También me gusta mucho el deporte. Practico natación tres veces por semana en la piscina municipal. La natación me relaja y me ayuda a mantenerme en forma. Los fines de semana juego al tenis con mi hermano. Él es mejor que yo, pero me divierto mucho intentando ganarle.
+**Ana:** Vivo en el centro de Madrid, al lado del parque grande. Mi casa está enfrente de una farmacia. Es fácil de encontrar.
 
-A mi novio le encanta la música y gracias a él yo también he desarrollado este interés. Vamos juntos a conciertos de música clásica y rock. Él toca la guitarra y a veces me enseña algunas canciones. Me gustaría aprender a tocar el piano algún día.
+**Carlos:** Perfecto. ¿Hay un banco cerca de tu casa?
 
-Otro de mis pasatiempos es la fotografía. Me gusta capturar momentos especiales con mi cámara. Especialmente disfruto fotografiar paisajes naturales y arquitectura antigua. He hecho algunos cursos de fotografía y mis fotos han mejorado mucho. Me gustaría organizar una exposición de mis mejores trabajos.
+**Ana:** Sí, hay un banco a la derecha de la farmacia. Y a la izquierda hay una cafetería muy buena.
 
-Los viernes por la noche me encanta ir al cine con mis amigos. Vemos todo tipo de películas: comedias, dramas, películas de acción. Después de la película siempre vamos a tomar algo y comentamos lo que hemos visto.
+**Carlos:** Vale. Salgo de la estación en cinco minutos. ¿Qué vamos a hacer hoy?
 
-En verano me apasiona viajar. He visitado muchos países de Europa: Francia, Italia, Portugal, Alemania. Cada lugar tiene su encanto especial. Me gusta conocer nuevas culturas, probar comidas diferentes y practicar idiomas. Mi próximo destino es Grecia. Las islas griegas me parecen increíbles.
+**Ana:** Primero quiero ir a la biblioteca. Está detrás del ayuntamiento, al fondo de la plaza principal. Necesito devolver unos libros antes de las seis.
 
-Todos estos pasatiempos me hacen feliz y me ayudan a desconectar del estrés diario. Creo que es fundamental dedicar tiempo a las cosas que nos gustan.`,
-      translation: 'Мои любимые хобби\n\nМеня зовут Елена, и у меня много интересных хобби. В свободное время мне нравится заниматься разными делами, потому что я считаю, что важно иметь баланс в жизни.\n\nМое любимое хобби - чтение. Я обожаю книги, особенно детективы и фэнтези. Я читаю почти каждый день перед сном. У меня большая библиотека дома с более чем двумястами книг. Мой любимый писатель - Габриэль Гарсия Маркес. Его истории волшебные и захватывающие.\n\nМне также очень нравится спорт. Я занимаюсь плаванием три раза в неделю в муниципальном бассейне. Плавание расслабляет меня и помогает оставаться в форме. По выходным я играю в теннис с моим братом. Он играет лучше меня, но мне очень весело пытаться его победить.\n\nМой парень обожает музыку, и благодаря ему я тоже развила этот интерес. Мы вместе ходим на концерты классической музыки и рока. Он играет на гитаре и иногда учит меня некоторым песням. Я бы хотела научиться играть на пианино когда-нибудь.\n\nЕще одно мое хобби - фотография. Мне нравится запечатлевать особенные моменты с моей камерой. Особенно мне нравится фотографировать природные пейзажи и старинную архитектуру. Я прошла несколько курсов фотографии, и мои фотографии сильно улучшились. Я хотела бы организовать выставку моих лучших работ.\n\nПо пятницам вечером я обожаю ходить в кино с друзьями. Мы смотрим все виды фильмов: комедии, драмы, боевики. После фильма мы всегда идем выпить и обсуждаем то, что посмотрели.\n\nЛетом я увлекаюсь путешествиями. Я посетила много стран Европы: Францию, Италию, Португалию, Германию. Каждое место имеет свое особое очарование. Мне нравится знакомиться с новыми культурами, пробовать разную еду и практиковать языки. Мой следующий пункт назначения - Греция. Греческие острова кажутся мне невероятными.\n\nВсе эти хобби делают меня счастливой и помогают мне отвлечься от повседневного стресса. Я считаю, что очень важно уделять время тому, что нам нравится.',
-      audioUrl: '/audio/lesson-3-3-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Me llamo Elena y tengo muchos pasatiempos interesantes.' },
-        { start: 5, end: 10, text: 'Mi pasatiempo favorito es la lectura.' },
-        { start: 10, end: 15, text: 'También me gusta mucho el deporte.' },
-        { start: 15, end: 20, text: 'Otro de mis pasatiempos es la fotografía.' }
-      ]
+**Carlos:** ¿La biblioteca está lejos de tu casa?
+
+**Ana:** No, está bastante cerca. Podemos ir a pie. Después de devolver los libros, podemos dar un paseo por el parque. Está entre mi casa y el río.
+
+**Carlos:** Me gusta esa idea. ¿Hay un restaurante bueno cerca del parque?
+
+**Ana:** Sí, hay varios restaurantes alrededor del parque. Mi favorito está junto al monumento. Hacen una paella deliciosa.
+
+**Carlos:** ¡Qué bien! Tengo mucha hambre. ¿A qué hora cierran?
+
+**Ana:** No sé exactamente, pero puedo llamar y preguntar. Siempre hago preguntas antes de ir.
+
+**Carlos:** Buena idea. Oye, ¿sabes dónde puedo comprar flores? Quiero traer flores para tu madre.
+
+**Ana:** ¡Qué detalle! Hay una floristería delante del hotel, en la calle principal. Está abierta hasta las ocho.
+
+**Carlos:** Perfecto. Voy a comprar flores antes de llegar a tu casa. ¿Tu madre está en casa?
+
+**Ana:** Sí, está en casa. Ella pone la mesa para la cena ahora. Le gusta poner orden en la cocina antes de cocinar.
+
+**Carlos:** Tu madre siempre da clases de español, ¿verdad?
+
+**Ana:** Sí, da clases en la universidad durante la semana. Pero los fines de semana no trabaja.
+
+**Carlos:** Y tu padre, ¿dónde trabaja?
+
+**Ana:** Mi padre trabaja en una oficina. Está en el segundo piso de un edificio moderno, encima de un supermercado.
+
+**Carlos:** ¿Qué hace tu padre?
+
+**Ana:** Es ingeniero. Sale de la oficina tarde, después del trabajo siempre viene cansado. Pero los domingos damos una vuelta por el parque todos juntos.
+
+**Ana:** Ah, Carlos, una cosa más. Hay muchos turistas en medio de la calle hoy. Ten cuidado cuando camines.
+
+**Carlos:** Vale, gracias. Veo la farmacia. Ya estoy cerca de tu casa. ¿Qué número es?
+
+**Ana:** Es el número quince. La puerta está a la derecha del edificio. Hay un ascensor dentro del edificio.
+
+**Carlos:** ¿En qué piso vives?
+
+**Ana:** Vivo en el cuarto piso. El ascensor está al fondo del recibidor, detrás de las escaleras.
+
+**Carlos:** Perfecto. Subo ahora. ¡Hasta ahora!
+
+**Ana:** ¡Hasta ahora! Te veo en dos minutos.`,
+      translation: `**Анна:** Привет, Карлос! Где ты?
+
+**Карлос:** Я рядом с станцией метро. Иду к тебе домой сейчас. Где ты живешь точно?
+
+**Анна:** Я живу в центре Мадрида, около большого парка. Мой дом напротив аптеки. Легко найти.
+
+**Карлос:** Отлично. Есть банк рядом с твоим домом?
+
+**Анна:** Да, есть банк справа от аптеки. А слева есть очень хорошее кафе.
+
+**Карлос:** Хорошо. Выхожу со станции через пять минут. Что мы будем делать сегодня?
+
+**Анна:** Сначала я хочу пойти в библиотеку. Она позади мэрии, в глубине главной площади. Мне нужно вернуть книги до шести.
+
+**Карлос:** Библиотека далеко от твоего дома?
+
+**Анна:** Нет, довольно близко. Можем пойти пешком. После возврата книг можем прогуляться по парку. Он между моим домом и рекой.
+
+**Карлос:** Мне нравится эта идея. Есть хороший ресторан рядом с парком?
+
+**Анна:** Да, есть несколько ресторанов вокруг парка. Мой любимый у памятника. Там делают вкусную паэлью.
+
+**Карлос:** Как хорошо! Я очень голоден. Во сколько они закрываются?
+
+**Анна:** Не знаю точно, но могу позвонить и спросить. Я всегда задаю вопросы перед тем, как идти.
+
+**Карлос:** Хорошая идея. Слушай, ты знаешь, где я могу купить цветы? Хочу принести цветы твоей маме.
+
+**Анна:** Какое внимание! Есть цветочный магазин перед отелем, на главной улице. Открыт до восьми.
+
+**Карлос:** Отлично. Куплю цветы перед тем, как прийти к тебе домой. Твоя мама дома?
+
+**Анна:** Да, она дома. Она накрывает на стол для ужина сейчас. Ей нравится наводить порядок на кухне перед готовкой.
+
+**Карлос:** Твоя мама всегда проводит уроки испанского, правда?
+
+**Анна:** Да, проводит занятия в университете в течение недели. Но по выходным не работает.
+
+**Карлос:** А твой отец, где работает?
+
+**Анна:** Мой отец работает в офисе. Он на втором этаже современного здания, над супермаркетом.
+
+**Карлос:** Чем занимается твой отец?
+
+**Анна:** Он инженер. Выходит из офиса поздно, после работы всегда приходит уставший. Но по воскресеньям мы все вместе прогуливаемся по парку.
+
+**Анна:** А, Карлос, еще одно. Сегодня много туристов посреди улицы. Будь осторожен, когда будешь идти.
+
+**Карлос:** Хорошо, спасибо. Вижу аптеку. Я уже рядом с твоим домом. Какой номер?
+
+**Анна:** Номер пятнадцать. Дверь справа от здания. Внутри здания есть лифт.
+
+**Карлос:** На каком этаже ты живешь?
+
+**Анна:** Живу на четвертом этаже. Лифт в глубине прихожей, позади лестницы.
+
+**Карлос:** Отлично. Поднимаюсь сейчас. До скорого!
+
+**Анна:** До скорого! Увидимся через две минуты.`,
+      audioUrl: null
     },
-    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3']
+    exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3', 'ex-3-2-4', 'ex-3-2-5', 'ex-3-2-6', 'ex-3-2-7', 'ex-3-2-8', 'ex-3-2-9', 'ex-3-2-10']
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
