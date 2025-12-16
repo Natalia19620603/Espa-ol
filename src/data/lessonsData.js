@@ -40,7 +40,7 @@ export const modules = {
     id: 'module-3',
     title: 'Модуль 3: Повседневная жизнь',
     level: 'beginner',
-    lessons: ['lesson-3-1', 'lesson-3-2'],
+    lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3'],
     description: 'Лексика о семье, работе, хобби'
   },
   'module-4': {
@@ -4050,6 +4050,64 @@ María: ¡Vamos!`,
       ]
     },
     exercises: ['ex-3-2-1', 'ex-3-2-2', 'ex-3-2-3', 'ex-3-2-4', 'ex-3-2-5', 'ex-3-2-6', 'ex-3-2-7', 'ex-3-2-8', 'ex-3-2-9', 'ex-3-2-10', 'ex-3-2-11']
+  },
+  'lesson-3-3': {
+    id: 'lesson-3-3',
+    title: 'Урок 3: Местоимения — косвенные дополнения: дательный падеж. Глагол gustar. Местоимения — прямые дополнения: винительный падеж. Одновременное употребление местоимений прямого и косвенного дополнения',
+    moduleId: 'module-3',
+    grammar: {
+      title: 'Местоимения — косвенные дополнения: Дательный падеж',
+      intro: `Личные местоимения в испанском языке изменяются по падежам. Дательный падеж личных местоимений может быть образован с помощью предлога **a**. Также в испанском языке существует беспредложная форма личных местоимений в дательном падеже.`,
+      sections: [
+        {
+          id: 'indirect-object-pronouns',
+          title: 'Местоимения — косвенные дополнения: Дательный падеж',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Формы местоимений в дательном падеже
+
+| Именительный падеж (Кто?) | Дательный падеж (Кому? Чему?) |
+|---------------------------|-------------------------------|
+| yo | me (мне) / a mí (мне) |
+| tú | te (тебе) / a ti (тебе) |
+| él / ella / usted | le (ему / ей / Вам) / a él / a ella / a usted (ему / ей / Вам) |
+| nosotros (-as) | nos (нам) / a nosotros (-as) (нам) |
+| vosotros (-as) | os (вам) / a vosotros (-as) (вам) |
+| ellos (-as) / ustedes | les (им / Вам) / a ellos (-as) / a ustedes (им / Вам) |
+
+## Порядок слов и обязательность беспредложной формы
+
+**Беспредложная форма личных местоимений в дательном падеже ставится перед глаголом в личной форме**; в отрицательном предложении — после отрицания **no**:
+
+- ¿Qué **me** dices? (Что ты **мне** говоришь?)
+- No **te** digo nada. (Я **тебе** ничего не говорю.)
+
+**Беспредложная форма дательного падежа личных местоимений употребляется обязательно.** Предложная форма не употребляется самостоятельно, а лишь вместе с беспредложной для уточнения. Как правило, требуется уточнение для 3-го лица, так как форма единственного числа **le** означает *ему / ей / Вам*, а форма множественного числа **les** — *им / Вам*.
+
+### Примеры:
+
+| Español | Русский |
+|---------|---------|
+| Yo **te** compro un café. | Я покупаю **тебе** кофе. |
+| Mi madre **nos** da las gracias. | Моя мама благодарит **нас**. |
+| ¿Por qué no **me** escribes? | Почему ты **мне** не пишешь? |
+| Pablo **le** habla **a su hermana** de la fiesta. | Пабло говорит **своей сестре** о празднике. (Уточнение *a su hermana* для *le*) |
+| Nosotros **les** explicamos la lección **a los estudiantes**. | Мы объясняем урок **студентам**. (Уточнение *a los estudiantes* для *les*) |
+| El camarero **os** trae la cuenta. | Официант приносит **вам** (vosotros) счет. |
+| Ella no **le** da la mano **a él**. | Она не подает руку **ему**. (Уточнение *a él* для *le*) |
+
+## Местоимения с неличными формами глагола
+
+Беспредложная форма личных местоимений с **неличными формами глагола (инфинитив, герундий)** ставится **после** них и **пишется слитно**:
+
+- Quiero hacer**te** un regalo. (Хочу сделать **тебе** подарок.)
+- Mi padre está explicándo**nos** la ruta. (Мой папа объясняет **нам** маршрут.)
+- Voy a dar**les** el dinero **a mis amigos**. (Я собираюсь дать **им** деньги моим друзьям.)`
+        }
+      ]
+    },
+    vocabulary: [],
+    exercises: []
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -11709,22 +11767,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         ]
       },
       {
-        id: 'part-2',
-        title: 'Задание 2. Преобразование во множественное / единственное число',
-        type: 'transformation',
-        description: 'Преобразуйте каждое предложение в противоположное число',
-        questions: [
-          { russian: 'Estos libros son aburridos.', correct: 'Este libro es aburrido.', alternatives: ['este libro es aburrido'] },
-          { russian: 'Aquella tía es inteligente.', correct: 'Aquellas tías son inteligentes.', alternatives: ['aquellas tías son inteligentes'] },
-          { russian: 'Esos museos son modernos.', correct: 'Ese museo es moderno.', alternatives: ['ese museo es moderno'] },
-          { russian: 'Este escritor es chileno.', correct: 'Estos escritores son chilenos.', alternatives: ['estos escritores son chilenos'] },
-          { russian: 'Aquellas chicas son argentinas.', correct: 'Aquella chica es argentina.', alternatives: ['aquella chica es argentina'] },
-          { russian: 'Esta camisa está aquí.', correct: 'Estas camisas están aquí.', alternatives: ['estas camisas están aquí'] }
-        ]
-      },
-      {
         id: 'part-3',
-        title: 'Задание 3. Перевод на испанский язык',
+        title: 'Задание 2. Перевод на испанский язык',
         type: 'translation',
         description: 'Переведите следующие фразы с русского на испанский язык',
         questions: [
@@ -11738,7 +11782,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       },
       {
         id: 'part-4',
-        title: 'Задание 4. Спряжение глаголов',
+        title: 'Задание 3. Спряжение глаголов',
         type: 'fillblank',
         description: 'Поставьте глаголы в скобках в соответствующую форму Настоящего времени',
         questions: [
@@ -11752,22 +11796,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         ]
       },
       {
-        id: 'part-5',
-        title: 'Задание 5. Вопросы к подчеркнутым словам',
-        type: 'question-formation',
-        description: 'Сформулируйте вопрос, чтобы получить в качестве ответа подчеркнутое слово или фразу',
-        questions: [
-          { russian: 'El niño quiere un helado.', highlight: 'un helado', correct: '¿Qué quiere el niño?', alternatives: ['¿Qué quiere?'] },
-          { russian: 'La enfermera va a la clínica en autobús.', highlight: 'en autobús', correct: '¿Cómo va la enfermera a la clínica?', alternatives: ['¿Cómo va a la clínica?', '¿En qué va la enfermera a la clínica?'] },
-          { russian: 'Tengo veinte euros en mi cartera.', highlight: 'veinte euros', correct: '¿Cuánto dinero tienes en tu cartera?', alternatives: ['¿Cuántos euros tienes en tu cartera?', '¿Qué tienes en tu cartera?'] },
-          { russian: 'Mi prima trabaja en Barcelona.', highlight: 'en Barcelona', correct: '¿Dónde trabaja tu prima?', alternatives: ['¿Dónde trabaja?', '¿En qué ciudad trabaja tu prima?'] },
-          { russian: 'Usted habla con el doctor.', highlight: 'con el doctor', correct: '¿Con quién habla usted?', alternatives: ['¿Con quién habla?'] },
-          { russian: 'Estudiamos español por la noche.', highlight: 'por la noche', correct: '¿Cuándo estudiamos español?', alternatives: ['¿Cuándo estudian español?', '¿A qué hora estudian español?'] }
-        ]
-      },
-      {
         id: 'part-6',
-        title: 'Задание 6. Перевод с русского на испанский',
+        title: 'Задание 4. Перевод с русского на испанский',
         type: 'translation',
         description: 'Переведите предложения с русского на испанский',
         questions: [
