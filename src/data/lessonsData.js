@@ -4155,11 +4155,126 @@ María: ¡Vamos!`,
 | Me gustan los zapatos. (Мне нравятся туфли/обувь.) | Quiero un café. (Я хочу кофе.) |
 | A mi hermana le gusta este color. (Моей сестре нравится этот цвет.) | Mi madre quiere mucho a mi padre. (Моя мама очень любит моего папу.) |
 | A usted le gusta la calma. (Вы любите спокойствие.) | Mi amigo quiere viajar a Madrid. (Мой друг хочет поехать в Мадрид.) |`
+        },
+        {
+          id: 'direct-object-pronouns',
+          title: 'Местоимения — прямые дополнения: винительный падеж',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Беспредложные формы личных местоимений винительного падежа используются для обозначения **прямого дополнения** (отвечает на вопрос Кого? Что?).
+
+| Именительный падеж (Кто?) | Винительный падеж (Кого? Что?) |
+|---------------------------|-------------------------------|
+| yo | me (меня) |
+| tú | te (тебя) |
+| él | lo (его, это) |
+| ella | la (её, это) |
+| usted | lo / la (Вас) |
+| nosotros (-as) | nos (нас) |
+| vosotros (-as) | os (вас) |
+| ellos | los (их, это) |
+| ellas | las (их, это) |
+| ustedes | los / las (Вас) |
+
+### Употребление lo
+
+Местоимение **lo** используется:
+1. **Для мужского рода единственного числа** (одушевленные и неодушевленные предметы):
+   - ¿Ves el libro? — Sí, **lo** veo. (Видишь книгу? — Да, вижу **её**.)
+   - ¿Conoces a Juan? — Sí, **lo** conozco. (Знаешь Хуана? — Да, знаю **его**.)
+
+2. **В значении "это", "об этом"**:
+   - **Lo** sé. (Я знаю **это**.)
+   - No **lo** entiendo. (Я не понимаю **этого**.)
+
+**Примечание**: В некоторых регионах Испании вместо **lo** для одушевленных существительных мужского рода употребляется **le**:
+- ¿Conoces a mi hermano? — Sí, **le** conozco. (Знаешь моего брата? — Да, знаю **его**.)
+
+### Порядок слов
+
+Беспредложные формы личных местоимений винительного падежа **ставятся перед глаголом** в личной форме. В отрицательном предложении — **после отрицания no**:
+
+- Mi amiga **me** llama. (Моя подруга звонит **мне**.)
+- No **te** veo. (Я **тебя** не вижу.)
+- Carlos **la** compra. (Карлос покупает **её** / **это**.)
+- Ellos no **nos** entienden. (Они не понимают **нас**.)
+
+### С неличными формами глагола
+
+С **инфинитивом и герундием** местоимения ставятся **после** них и **пишутся слитно**:
+
+- Quiero comprar**lo**. (Хочу купить **это/его**.)
+- Estoy leyéndo**la**. (Я читаю **её** / **это**. — про книгу)
+- Voy a llamar**te**. (Я собираюсь позвонить **тебе**.)
+
+### Примеры
+
+| Español | Русский |
+|---------|---------|
+| ¿Dónde está mi bolso? — **Lo** tengo yo. | Где моя сумка? — **Она** у меня. |
+| ¿Ves a María? — Sí, **la** veo. | Видишь Марию? — Да, вижу **её**. |
+| ¿Compras los libros? — Sí, **los** compro. | Покупаешь книги? — Да, покупаю **их**. |
+| ¿Me escuchas? | Ты **меня** слушаешь? |
+| Ellos no **nos** invitan a la fiesta. | Они не приглашают **нас** на праздник. |`
+        },
+        {
+          id: 'combined-pronouns',
+          title: 'Одновременное употребление местоимений прямого и косвенного дополнения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Когда в предложении одновременно используются местоимения **дательного** (косвенное дополнение) и **винительного** (прямое дополнение) падежей, они ставятся **перед глаголом** в следующем порядке:
+
+**ДАТЕЛЬНЫЙ + ВИНИТЕЛЬНЫЙ** (в отличие от русского языка, где порядок обычно обратный)
+
+### Порядок местоимений
+
+| Дательный падеж (Кому?) | Винительный падеж (Что? Кого?) |
+|------------------------|-------------------------------|
+| me | lo, la, los, las |
+| te | lo, la, los, las |
+| **se** | lo, la, los, las |
+| nos | lo, la, los, las |
+| os | lo, la, los, las |
+| **se** | lo, la, los, las |
+
+### Важное правило: le/les → se
+
+Когда местоимения **le** или **les** (дательный падеж) употребляются вместе с местоимениями **lo, la, los, las** (винительный падеж), **le** и **les** заменяются на **se**:
+
+- le + lo/la/los/las → **se** lo/la/los/las
+- les + lo/la/los/las → **se** lo/la/los/las
+
+### Примеры
+
+| Español | Русский |
+|---------|---------|
+| Mi madre **me lo** da. | Моя мама даёт **это мне** / даёт **мне это**. |
+| Te compro un regalo. → **Te lo** compro. | Покупаю тебе подарок. → Покупаю **его тебе** / **тебе его**. |
+| ¿Le das el libro a Juan? → Sí, **se lo** doy. | Даёшь книгу Хуану? — Да, даю **её ему**. |
+| Les explico la lección. → **Se la** explico. | Объясняю им урок. → Объясняю **его им**. |
+| ¿Nos traes las llaves? — Sí, **os las** traigo. | Приносишь нам ключи? — Да, приношу **их вам**. |
+| Ella le compra un café a su amiga. → Ella **se lo** compra. | Она покупает кофе своей подруге. → Она покупает **его ей**. |
+
+### С неличными формами глагола
+
+С инфинитивом и герундием местоимения ставятся **после** них и **пишутся слитно**:
+
+- Quiero dar**te lo**. (Хочу дать **это тебе**.)
+- Voy a comprar**se lo** a mi padre. (Собираюсь купить **это ему** для моего отца.)
+- Estoy explicándo**se la**. (Я объясняю **это им/ему/ей**.)
+
+### Уточнение для se
+
+Так как **se** заменяет и **le**, и **les**, для уточнения часто добавляются предложные конструкции **a él, a ella, a usted, a ellos, a ellas, a ustedes**:
+
+- **Se lo** doy **a él**. (Даю **это ему**.)
+- **Se la** explico **a ustedes**. (Объясняю **это Вам**.)
+- Mi hermano **se los** compra **a sus amigos**. (Мой брат покупает **их своим друзьям**.)`
         }
       ]
     },
     vocabulary: [],
-    exercises: []
+    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3', 'ex-3-3-4', 'ex-3-3-5', 'ex-3-3-6', 'ex-3-3-7', 'ex-3-3-8', 'ex-3-3-9', 'ex-3-3-10', 'ex-3-3-11', 'ex-3-3-12', 'ex-3-3-13', 'ex-3-3-14', 'ex-3-3-15']
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -12244,6 +12359,297 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мы видим, что он не умеет танцевать, поэтому падает.', correct: 'Vemos que no sabe bailar, por eso cae.', alternatives: ['Vemos que él no sabe bailar, por eso cae', 'Vemos que no sabe bailar por eso cae'] },
       { russian: 'Я навожу порядок в твоем кабинете, Анна накрывает на стол, а ты ничего не делаешь. Почему? — Не хочу.', correct: 'Pongo orden en tu despacho, Ana pone la mesa, y tú no haces nada. ¿Por qué? — No quiero.', alternatives: ['Yo pongo orden en tu despacho, Ana pone la mesa y tú no haces nada. ¿Por qué? — No quiero', 'Pongo orden en tu oficina, Ana pone la mesa, y tú no haces nada. ¿Por qué? — No quiero'] },
       { russian: 'Их окна выходят во двор. Они видят, когда их сосед выходит из дома и когда приходит.', correct: 'Sus ventanas dan al patio. Ven cuando su vecino sale de casa y cuando llega.', alternatives: ['Sus ventanas dan al patio. Ellos ven cuando su vecino sale de casa y cuando viene', 'Las ventanas de ellos dan al patio. Ven cuando su vecino sale de la casa y cuando llega'] }
+    ]
+  },
+
+  // Módulo 3 Lección 3 - Упражнения на местоимения и глагол gustar
+  'ex-3-3-1': {
+    id: 'ex-3-3-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Местоимения дательного падежа (косвенное дополнение)',
+    description: 'Вставьте подходящее местоимение: me, te, le, nos, os, les',
+    questions: [
+      { sentence: 'Mi madre ___ da dinero a mí.', correct: 'me', blanks: 1 },
+      { sentence: '¿Qué ___ digo a ti?', correct: 'te', blanks: 1 },
+      { sentence: 'El profesor ___ explica la lección a nosotros.', correct: 'nos', blanks: 1 },
+      { sentence: 'Yo ___ escribo una carta a ella.', correct: 'le', blanks: 1 },
+      { sentence: '¿___ compras un regalo a ellos?', correct: 'Les', blanks: 1 },
+      { sentence: 'Mis amigos ___ traen flores a mí.', correct: 'me', blanks: 1 },
+      { sentence: 'El camarero ___ trae la cuenta a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: 'Yo siempre ___ digo la verdad a ti.', correct: 'te', blanks: 1 },
+      { sentence: 'Nosotros ___ damos las gracias a usted.', correct: 'le', blanks: 1 },
+      { sentence: 'Ella ___ lee un cuento a los niños.', correct: 'les', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-2': {
+    id: 'ex-3-3-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Глагол GUSTAR',
+    description: 'Поставьте глагол gustar в правильную форму',
+    questions: [
+      { sentence: 'A mí me ___ el café.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A ti te ___ los perros.', correct: 'gustan', blanks: 1 },
+      { sentence: 'A ella le ___ bailar.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A nosotros nos ___ las películas españolas.', correct: 'gustan', blanks: 1 },
+      { sentence: 'A vosotros os ___ estudiar español.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A ellos les ___ los libros de aventuras.', correct: 'gustan', blanks: 1 },
+      { sentence: '¿Te ___ esta ciudad?', correct: 'gusta', blanks: 1 },
+      { sentence: 'No me ___ los lunes.', correct: 'gustan', blanks: 1 },
+      { sentence: 'A Juan le ___ cocinar.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A mis padres les ___ viajar.', correct: 'gusta', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-3': {
+    id: 'ex-3-3-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Местоимения винительного падежа (прямое дополнение)',
+    description: 'Вставьте подходящее местоимение: me, te, lo, la, nos, os, los, las',
+    questions: [
+      { sentence: '¿Ves a María? — Sí, ___ veo.', correct: 'la', blanks: 1 },
+      { sentence: '¿Compras el libro? — Sí, ___ compro.', correct: 'lo', blanks: 1 },
+      { sentence: 'Ella ___ llama a mí todos los días.', correct: 'me', blanks: 1 },
+      { sentence: '¿___ escuchas a nosotros?', correct: 'Nos', blanks: 1 },
+      { sentence: 'Yo ___ veo a ti en el parque.', correct: 'te', blanks: 1 },
+      { sentence: '¿Conoces a mis hermanos? — Sí, ___ conozco.', correct: 'los', blanks: 1 },
+      { sentence: '¿Tienes las llaves? — Sí, ___ tengo.', correct: 'las', blanks: 1 },
+      { sentence: 'El profesor ___ enseña español a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: '¿Entiendes la pregunta? — No, no ___ entiendo.', correct: 'la', blanks: 1 },
+      { sentence: 'Mis padres ___ invitan a cenar a nosotros.', correct: 'nos', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-4': {
+    id: 'ex-3-3-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Одновременное употребление местоимений',
+    description: 'Замените существительные местоимениями. Используйте se lo, se la, se los, se las, me lo, te la и т.д.',
+    questions: [
+      { sentence: 'Doy el libro a Juan. → ___ ___ doy.', correct: 'Se lo', blanks: 1 },
+      { sentence: 'Compro las flores a ti. → ___ ___ compro.', correct: 'Te las', blanks: 1 },
+      { sentence: 'Mi madre da la llave a mí. → Mi madre ___ ___ da.', correct: 'me la', blanks: 1 },
+      { sentence: 'Explicamos la lección a ellos. → ___ ___ explicamos.', correct: 'Se la', blanks: 1 },
+      { sentence: 'Traes los libros a nosotros. → ___ ___ traes.', correct: 'Nos los', blanks: 1 },
+      { sentence: 'El camarero trae el café a ella. → El camarero ___ ___ trae.', correct: 'se lo', blanks: 1 },
+      { sentence: 'Escribo una carta a ustedes. → ___ ___ escribo.', correct: 'Se la', blanks: 1 },
+      { sentence: '¿Das el dinero a mí? → ¿___ ___ das?', correct: 'Me lo', blanks: 1 },
+      { sentence: 'Enseño las fotos a vosotros. → ___ ___ enseño.', correct: 'Os las', blanks: 1 },
+      { sentence: 'Ellos cuentan la historia a nosotros. → Ellos ___ ___ cuentan.', correct: 'nos la', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-5': {
+    id: 'ex-3-3-5',
+    type: 'transformation',
+    title: 'Упражнение 5: Замена существительного местоимением',
+    description: 'Замените выделенное существительное местоимением винительного падежа',
+    questions: [
+      { sentence: 'Veo a mi amiga en la calle.', answer: 'La veo en la calle.' },
+      { sentence: 'Compro el periódico cada día.', answer: 'Lo compro cada día.' },
+      { sentence: 'Llamo a mis padres por teléfono.', answer: 'Los llamo por teléfono.' },
+      { sentence: 'Estudiamos las lecciones por la tarde.', answer: 'Las estudiamos por la tarde.' },
+      { sentence: 'Ellos conocen a Juan.', answer: 'Ellos lo conocen.' },
+      { sentence: 'Mi hermana lee el libro.', answer: 'Mi hermana lo lee.' },
+      { sentence: '¿Tienes las entradas?', answer: '¿Las tienes?' },
+      { sentence: 'No entiendo la pregunta.', answer: 'No la entiendo.' },
+      { sentence: 'Invitamos a María a la fiesta.', answer: 'La invitamos a la fiesta.' },
+      { sentence: 'El profesor explica la gramática.', answer: 'El profesor la explica.' }
+    ]
+  },
+
+  'ex-3-3-6': {
+    id: 'ex-3-3-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: Смешанная практика местоимений',
+    description: 'Вставьте правильное местоимение (дательный или винительный падеж)',
+    questions: [
+      { sentence: 'A mí ___ gusta el chocolate.', correct: 'me', blanks: 1 },
+      { sentence: '¿Ves a Carlos? — Sí, ___ veo.', correct: 'lo', blanks: 1 },
+      { sentence: 'Mi padre ___ da dinero a mí.', correct: 'me', blanks: 1 },
+      { sentence: '¿Conoces esta canción? — Sí, ___ conozco.', correct: 'la', blanks: 1 },
+      { sentence: 'El profesor ___ explica la lección a nosotros.', correct: 'nos', blanks: 1 },
+      { sentence: '¿Tienes los libros? — Sí, ___ tengo.', correct: 'los', blanks: 1 },
+      { sentence: 'A ellos ___ gustan las películas de acción.', correct: 'les', blanks: 1 },
+      { sentence: 'Yo ___ llamo a ti mañana.', correct: 'te', blanks: 1 },
+      { sentence: '¿Ves a mis hermanas? — No, no ___ veo.', correct: 'las', blanks: 1 },
+      { sentence: 'A nosotros ___ gusta viajar.', correct: 'nos', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-7': {
+    id: 'ex-3-3-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: Местоимения с инфинитивом и герундием',
+    description: 'Вставьте местоимение в правильное место (слитно с инфинитивом/герундием)',
+    questions: [
+      { sentence: 'Quiero hacer___ un regalo. (te)', correct: 'te', blanks: 1 },
+      { sentence: 'Voy a llamar___ mañana. (la)', correct: 'la', blanks: 1 },
+      { sentence: 'Estoy explicándo___ la lección. (les)', correct: 'les', blanks: 1 },
+      { sentence: 'Necesito dar___ el libro. (le)', correct: 'le', blanks: 1 },
+      { sentence: 'Está mirando___ desde la ventana. (nos)', correct: 'nos', blanks: 1 },
+      { sentence: 'Quiero comprar___ en esta tienda. (los)', correct: 'los', blanks: 1 },
+      { sentence: 'Voy a decir___ la verdad. (te)', correct: 'te', blanks: 1 },
+      { sentence: 'Estoy escribiendo___ un correo. (le)', correct: 'le', blanks: 1 },
+      { sentence: 'Puedo traer___ las llaves. (os)', correct: 'os', blanks: 1 },
+      { sentence: 'Está enseñándo___ español. (me)', correct: 'me', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-8': {
+    id: 'ex-3-3-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: Глаголы типа gustar (encantar, interesar, doler)',
+    description: 'Вставьте правильное местоимение и форму глагола',
+    questions: [
+      { sentence: 'A mí ___ ___ la música clásica. (encantar)', correct: 'me encanta', blanks: 1 },
+      { sentence: 'A ti ___ ___ los idiomas. (interesar)', correct: 'te interesan', blanks: 1 },
+      { sentence: 'A ella ___ ___ la cabeza. (doler)', correct: 'le duele', blanks: 1 },
+      { sentence: 'A nosotros ___ ___ viajar. (encantar)', correct: 'nos encanta', blanks: 1 },
+      { sentence: 'A vosotros ___ ___ las matemáticas. (interesar)', correct: 'os interesan', blanks: 1 },
+      { sentence: 'A ellos ___ ___ los pies. (doler)', correct: 'les duelen', blanks: 1 },
+      { sentence: '¿A ti ___ ___ el arte moderno? (interesar)', correct: 'te interesa', blanks: 1 },
+      { sentence: 'A mi hermana ___ ___ bailar. (encantar)', correct: 'le encanta', blanks: 1 },
+      { sentence: 'A mí ___ ___ el estómago. (doler)', correct: 'me duele', blanks: 1 },
+      { sentence: 'A mis padres ___ ___ las novelas históricas. (encantar)', correct: 'les encantan', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-9': {
+    id: 'ex-3-3-9',
+    type: 'fillblank',
+    title: 'Упражнение 9: Выбор правильного местоимения',
+    description: 'Выберите и вставьте правильное местоимение',
+    questions: [
+      { sentence: '___ gusta el café. (A mí)', correct: 'Me', blanks: 1 },
+      { sentence: 'Veo a María y ___ saludo.', correct: 'la', blanks: 1 },
+      { sentence: 'Mi profesor ___ explica la gramática. (a nosotros)', correct: 'nos', blanks: 1 },
+      { sentence: '¿Tienes el libro? — Sí, ___ tengo aquí.', correct: 'lo', blanks: 1 },
+      { sentence: 'Doy el regalo a Juan. → ___ ___ doy.', correct: 'Se lo', blanks: 1 },
+      { sentence: 'A ellos ___ encantan los deportes.', correct: 'les', blanks: 1 },
+      { sentence: '¿Conoces a mis hermanos? — No, no ___ conozco.', correct: 'los', blanks: 1 },
+      { sentence: 'El camarero ___ trae el menú. (a vosotros)', correct: 'os', blanks: 1 },
+      { sentence: 'Compro flores y ___ pongo en el jarrón.', correct: 'las', blanks: 1 },
+      { sentence: 'Mi madre ___ da consejos. (a mí)', correct: 'me', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-10': {
+    id: 'ex-3-3-10',
+    type: 'transformation',
+    title: 'Упражнение 10: Утвердительные и отрицательные предложения',
+    description: 'Преобразуйте утвердительное предложение в отрицательное, сохраняя местоимения',
+    questions: [
+      { sentence: 'Me gusta el invierno.', answer: 'No me gusta el invierno.' },
+      { sentence: 'Lo veo todos los días.', answer: 'No lo veo todos los días.' },
+      { sentence: 'Te escribo cartas.', answer: 'No te escribo cartas.' },
+      { sentence: 'Nos explica la lección.', answer: 'No nos explica la lección.' },
+      { sentence: 'La conozco bien.', answer: 'No la conozco bien.' },
+      { sentence: 'Les gusta bailar.', answer: 'No les gusta bailar.' },
+      { sentence: 'Os doy el dinero.', answer: 'No os doy el dinero.' },
+      { sentence: 'Los invitamos a la fiesta.', answer: 'No los invitamos a la fiesta.' },
+      { sentence: 'Me lo das.', answer: 'No me lo das.' },
+      { sentence: 'Se la explicamos.', answer: 'No se la explicamos.' }
+    ]
+  },
+
+  'ex-3-3-11': {
+    id: 'ex-3-3-11',
+    type: 'fillblank',
+    title: 'Упражнение 11: Местоимения в контексте',
+    description: 'Вставьте правильное местоимение дательного падежа',
+    questions: [
+      { sentence: 'Mi abuela ___ cuenta historias interesantes a nosotros.', correct: 'nos', blanks: 1 },
+      { sentence: 'El médico ___ pregunta a mí sobre mi salud.', correct: 'me', blanks: 1 },
+      { sentence: '¿Por qué no ___ dices la verdad a mí?', correct: 'me', blanks: 1 },
+      { sentence: 'Yo ___ presto dinero a ti cuando lo necesitas.', correct: 'te', blanks: 1 },
+      { sentence: 'El guía turístico ___ muestra la ciudad a ellos.', correct: 'les', blanks: 1 },
+      { sentence: 'Nosotros ___ mandamos un paquete a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: 'El profesor ___ enseña español a ella.', correct: 'le', blanks: 1 },
+      { sentence: '¿___ compras un regalo a tu hermana?', correct: 'Le', blanks: 1 },
+      { sentence: 'Mis padres ___ dan buenos consejos a mí.', correct: 'me', blanks: 1 },
+      { sentence: 'Yo ___ escribo correos electrónicos a ustedes.', correct: 'les', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-12': {
+    id: 'ex-3-3-12',
+    type: 'fillblank',
+    title: 'Упражнение 12: Местоимения в контексте',
+    description: 'Вставьте правильное местоимение винительного падежа',
+    questions: [
+      { sentence: '¿Dónde está mi móvil? — ___ tienes en la mano.', correct: 'Lo', blanks: 1 },
+      { sentence: '¿Conoces a Ana y María? — Sí, ___ conozco del colegio.', correct: 'las', blanks: 1 },
+      { sentence: 'Este libro es muy interesante. Necesito leer___.', correct: 'lo', blanks: 1 },
+      { sentence: '¿Ves a mi hermano en la foto? — Sí, ___ veo al lado de tu padre.', correct: 'lo', blanks: 1 },
+      { sentence: '¿Tienes las entradas para el concierto? — No, no ___ tengo todavía.', correct: 'las', blanks: 1 },
+      { sentence: 'Mi hermana ___ llama a mí todos los domingos.', correct: 'me', blanks: 1 },
+      { sentence: '¿___ puedes ayudar a nosotros con los deberes?', correct: 'Nos', blanks: 1 },
+      { sentence: 'Vuestros amigos ___ buscan a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: 'Esta canción es bonita. Quiero escuchar___ otra vez.', correct: 'la', blanks: 1 },
+      { sentence: '¿Entiendes estos ejercicios? — Sí, ___ entiendo bien.', correct: 'los', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-13': {
+    id: 'ex-3-3-13',
+    type: 'fillblank',
+    title: 'Упражнение 13: Комбинированные местоимения (продвинутый уровень)',
+    description: 'Вставьте правильную комбинацию местоимений',
+    questions: [
+      { sentence: '¿Me das la llave? — Sí, ___ ___ doy ahora.', correct: 'te la', blanks: 1 },
+      { sentence: 'Mi padre compra un coche a mi hermano. → Mi padre ___ ___ compra.', correct: 'se lo', blanks: 1 },
+      { sentence: '¿Nos traes las bebidas? — Claro, ___ ___ traigo.', correct: 'os las', blanks: 1 },
+      { sentence: 'Le doy los regalos a María. → ___ ___ doy.', correct: 'Se los', blanks: 1 },
+      { sentence: 'Te mando un mensaje. → ___ ___ mando.', correct: 'Te lo', blanks: 1 },
+      { sentence: 'Ellos nos explican las reglas. → Ellos ___ ___ explican.', correct: 'nos las', blanks: 1 },
+      { sentence: 'Les enseño mi casa a ustedes. → ___ ___ enseño.', correct: 'Se la', blanks: 1 },
+      { sentence: '¿Me prestas tu bicicleta? — Sí, ___ ___ presto.', correct: 'te la', blanks: 1 },
+      { sentence: 'Doy las llaves a vosotros. → ___ ___ doy.', correct: 'Os las', blanks: 1 },
+      { sentence: 'El camarero le sirve el café a ella. → El camarero ___ ___ sirve.', correct: 'se lo', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-14': {
+    id: 'ex-3-3-14',
+    type: 'fillblank',
+    title: 'Упражнение 14: Обобщающая практика',
+    description: 'Комплексное упражнение на все типы местоимений',
+    questions: [
+      { sentence: 'A mis amigos ___ encanta viajar.', correct: 'les', blanks: 1 },
+      { sentence: '¿Ves el error? — Sí, ___ veo perfectamente.', correct: 'lo', blanks: 1 },
+      { sentence: 'Mi profesora ___ explica la gramática muy bien.', correct: 'nos', blanks: 1 },
+      { sentence: 'Compro flores para mamá y ___ ___ doy por la mañana.', correct: 'se las', blanks: 1 },
+      { sentence: '¿___ gusta este restaurante?', correct: 'Te', blanks: 1 },
+      { sentence: 'Necesito hablar contigo. Voy a llamar___ esta noche.', correct: 'te', blanks: 1 },
+      { sentence: '¿Conoces a estas chicas? — No, no ___ conozco.', correct: 'las', blanks: 1 },
+      { sentence: 'Mis abuelos ___ mandan postales desde España.', correct: 'nos', blanks: 1 },
+      { sentence: 'Tengo tu libro. ___ ___ devuelvo mañana.', correct: 'Te lo', blanks: 1 },
+      { sentence: 'A nosotros no ___ interesa este tema.', correct: 'nos', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-15': {
+    id: 'ex-3-3-15',
+    type: 'translation',
+    title: 'Упражнение 15: Перевод с русского на испанский',
+    description: 'Переведите предложения с русского на испанский, используя грамматику и лексику модулей 1-3',
+    questions: [
+      { russian: 'Мне нравится этот город, потому что здесь много парков и музеев.', correct: 'Me gusta esta ciudad porque aquí hay muchos parques y museos.', alternatives: ['Me gusta esta ciudad porque hay muchos parques y museos aquí', 'Me gusta esta ciudad, porque aquí hay muchos parques y museos'] },
+      { russian: 'Моя сестра звонит мне каждый день и рассказывает о своей работе.', correct: 'Mi hermana me llama cada día y me cuenta sobre su trabajo.', alternatives: ['Mi hermana me llama todos los días y me habla de su trabajo', 'Mi hermana me llama cada día y me habla sobre su trabajo'] },
+      { russian: 'Я не вижу твою сумку. Где она?', correct: 'No veo tu bolso. ¿Dónde está?', alternatives: ['No veo tu bolsa. ¿Dónde está?', 'No veo tu bolso. ¿Dónde está él?'] },
+      { russian: 'Учитель объясняет нам новую грамматику, но мы ее не понимаем.', correct: 'El profesor nos explica la gramática nueva, pero no la entendemos.', alternatives: ['El profesor nos explica la nueva gramática, pero no la entendemos', 'El maestro nos explica la gramática nueva pero no la entendemos'] },
+      { russian: 'Хуан покупает цветы и дарит их своей маме.', correct: 'Juan compra flores y se las da a su madre.', alternatives: ['Juan compra flores y se las regala a su madre', 'Juan compra flores y se las da a su mamá'] },
+      { russian: 'Им очень нравится испанский язык, они изучают его каждый день.', correct: 'A ellos les gusta mucho el español, lo estudian cada día.', alternatives: ['Les gusta mucho el español, lo estudian cada día', 'A ellos les gusta mucho el español, lo estudian todos los días'] },
+      { russian: 'Где находится твоя квартира? — Она находится в центре города, рядом с банком.', correct: '¿Dónde está tu piso? — Está en el centro de la ciudad, al lado del banco.', alternatives: ['¿Dónde está tu apartamento? — Está en el centro, al lado del banco', '¿Dónde se encuentra tu piso? — Está en el centro de la ciudad, al lado del banco'] },
+      { russian: 'Мы хотим арендовать квартиру с двумя спальнями и балконом.', correct: 'Queremos alquilar un piso con dos dormitorios y balcón.', alternatives: ['Queremos alquilar un apartamento con dos dormitorios y balcón', 'Queremos alquilar un piso de dos dormitorios con balcón'] },
+      { russian: 'Моему брату нужна мебель для новой квартиры. Я помогаю ему ее выбирать.', correct: 'Mi hermano necesita muebles para el piso nuevo. Le ayudo a elegirlos.', alternatives: ['A mi hermano le hacen falta muebles para su piso nuevo. Yo le ayudo a elegirlos', 'Mi hermano necesita muebles para su apartamento nuevo. Le ayudo a escogerlos'] },
+      { russian: 'Официант приносит нам меню, и мы заказываем кофе с молоком.', correct: 'El camarero nos trae el menú y pedimos café con leche.', alternatives: ['El camarero nos trae la carta y pedimos café con leche', 'El mesero nos trae el menú y pedimos café con leche'] },
+      { russian: 'Ты знаешь этих студентов? — Да, я их знаю. Они учатся в моем университете.', correct: '¿Conoces a estos estudiantes? — Sí, los conozco. Estudian en mi universidad.', alternatives: ['¿Conoces a estos estudiantes? — Sí, yo los conozco. Ellos estudian en mi universidad', '¿Conoces estos estudiantes? — Sí, los conozco. Estudian en mi universidad'] },
+      { russian: 'Мои родители живут далеко от города, но часто приезжают к нам в гости.', correct: 'Mis padres viven lejos de la ciudad, pero vienen a visitarnos a menudo.', alternatives: ['Mis padres viven lejos de la ciudad pero nos visitan a menudo', 'Mis padres viven lejos de la ciudad, pero vienen a vernos a menudo'] },
+      { russian: 'Перед ужином я накрываю на стол, а после ужина мою посуду.', correct: 'Antes de cenar pongo la mesa y después de cenar lavo los platos.', alternatives: ['Antes de la cena pongo la mesa y después de la cena lavo los platos', 'Antes de cenar pongo la mesa y después de cenar friego los platos'] },
+      { russian: 'В этом районе много магазинов, кафе и ресторанов. Мне очень нравится здесь жить.', correct: 'En este barrio hay muchas tiendas, cafeterías y restaurantes. Me gusta mucho vivir aquí.', alternatives: ['En este barrio hay muchas tiendas, cafés y restaurantes. Me encanta vivir aquí', 'En esta zona hay muchas tiendas, cafeterías y restaurantes. Me gusta mucho vivir aquí'] },
+      { russian: 'Бабушка дает мне ключи от квартиры и просит полить цветы.', correct: 'La abuela me da las llaves del piso y me pide regar las flores.', alternatives: ['Mi abuela me da las llaves del apartamento y me pide regar las plantas', 'La abuela me da las llaves de la casa y me pide regar las flores'] }
     ]
   }
 }
