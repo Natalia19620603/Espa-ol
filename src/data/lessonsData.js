@@ -4155,11 +4155,266 @@ María: ¡Vamos!`,
 | Me gustan los zapatos. (Мне нравятся туфли/обувь.) | Quiero un café. (Я хочу кофе.) |
 | A mi hermana le gusta este color. (Моей сестре нравится этот цвет.) | Mi madre quiere mucho a mi padre. (Моя мама очень любит моего папу.) |
 | A usted le gusta la calma. (Вы любите спокойствие.) | Mi amigo quiere viajar a Madrid. (Мой друг хочет поехать в Мадрид.) |`
+        },
+        {
+          id: 'direct-object-pronouns',
+          title: 'Местоимения — прямые дополнения: винительный падеж',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Беспредложные формы личных местоимений винительного падежа используются для обозначения **прямого дополнения** (отвечает на вопрос Кого? Что?).
+
+| Именительный падеж (Кто?) | Винительный падеж (Кого? Что?) |
+|---------------------------|-------------------------------|
+| yo | me (меня) |
+| tú | te (тебя) |
+| él | lo (его, это) |
+| ella | la (её, это) |
+| usted | lo / la (Вас) |
+| nosotros (-as) | nos (нас) |
+| vosotros (-as) | os (вас) |
+| ellos | los (их, это) |
+| ellas | las (их, это) |
+| ustedes | los / las (Вас) |
+
+### Употребление lo
+
+Местоимение **lo** используется:
+1. **Для мужского рода единственного числа** (одушевленные и неодушевленные предметы):
+   - ¿Ves el libro? — Sí, **lo** veo. (Видишь книгу? — Да, вижу **её**.)
+   - ¿Conoces a Juan? — Sí, **lo** conozco. (Знаешь Хуана? — Да, знаю **его**.)
+
+2. **В значении "это", "об этом"**:
+   - **Lo** sé. (Я знаю **это**.)
+   - No **lo** entiendo. (Я не понимаю **этого**.)
+
+**Примечание**: В некоторых регионах Испании вместо **lo** для одушевленных существительных мужского рода употребляется **le**:
+- ¿Conoces a mi hermano? — Sí, **le** conozco. (Знаешь моего брата? — Да, знаю **его**.)
+
+### Порядок слов
+
+Беспредложные формы личных местоимений винительного падежа **ставятся перед глаголом** в личной форме. В отрицательном предложении — **после отрицания no**:
+
+- Mi amiga **me** llama. (Моя подруга звонит **мне**.)
+- No **te** veo. (Я **тебя** не вижу.)
+- Carlos **la** compra. (Карлос покупает **её** / **это**.)
+- Ellos no **nos** entienden. (Они не понимают **нас**.)
+
+### С неличными формами глагола
+
+С **инфинитивом и герундием** местоимения ставятся **после** них и **пишутся слитно**:
+
+- Quiero comprar**lo**. (Хочу купить **это/его**.)
+- Estoy leyéndo**la**. (Я читаю **её** / **это**. — про книгу)
+- Voy a llamar**te**. (Я собираюсь позвонить **тебе**.)
+
+### Примеры
+
+| Español | Русский |
+|---------|---------|
+| ¿Dónde está mi bolso? — **Lo** tengo yo. | Где моя сумка? — **Она** у меня. |
+| ¿Ves a María? — Sí, **la** veo. | Видишь Марию? — Да, вижу **её**. |
+| ¿Compras los libros? — Sí, **los** compro. | Покупаешь книги? — Да, покупаю **их**. |
+| ¿Me escuchas? | Ты **меня** слушаешь? |
+| Ellos no **nos** invitan a la fiesta. | Они не приглашают **нас** на праздник. |`
+        },
+        {
+          id: 'combined-pronouns',
+          title: 'Одновременное употребление местоимений прямого и косвенного дополнения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Когда в предложении одновременно используются местоимения **дательного** (косвенное дополнение) и **винительного** (прямое дополнение) падежей, они ставятся **перед глаголом** в следующем порядке:
+
+**ДАТЕЛЬНЫЙ + ВИНИТЕЛЬНЫЙ** (в отличие от русского языка, где порядок обычно обратный)
+
+### Порядок местоимений
+
+| Дательный падеж (Кому?) | Винительный падеж (Что? Кого?) |
+|------------------------|-------------------------------|
+| me | lo, la, los, las |
+| te | lo, la, los, las |
+| **se** | lo, la, los, las |
+| nos | lo, la, los, las |
+| os | lo, la, los, las |
+| **se** | lo, la, los, las |
+
+### Важное правило: le/les → se
+
+Когда местоимения **le** или **les** (дательный падеж) употребляются вместе с местоимениями **lo, la, los, las** (винительный падеж), **le** и **les** заменяются на **se**:
+
+- le + lo/la/los/las → **se** lo/la/los/las
+- les + lo/la/los/las → **se** lo/la/los/las
+
+### Примеры
+
+| Español | Русский |
+|---------|---------|
+| Mi madre **me lo** da. | Моя мама даёт **это мне** / даёт **мне это**. |
+| Te compro un regalo. → **Te lo** compro. | Покупаю тебе подарок. → Покупаю **его тебе** / **тебе его**. |
+| ¿Le das el libro a Juan? → Sí, **se lo** doy. | Даёшь книгу Хуану? — Да, даю **её ему**. |
+| Les explico la lección. → **Se la** explico. | Объясняю им урок. → Объясняю **его им**. |
+| ¿Nos traes las llaves? — Sí, **os las** traigo. | Приносишь нам ключи? — Да, приношу **их вам**. |
+| Ella le compra un café a su amiga. → Ella **se lo** compra. | Она покупает кофе своей подруге. → Она покупает **его ей**. |
+
+### С неличными формами глагола
+
+С инфинитивом и герундием местоимения ставятся **после** них и **пишутся слитно**:
+
+- Quiero dar**te lo**. (Хочу дать **это тебе**.)
+- Voy a comprar**se lo** a mi padre. (Собираюсь купить **это ему** для моего отца.)
+- Estoy explicándo**se la**. (Я объясняю **это им/ему/ей**.)
+
+### Уточнение для se
+
+Так как **se** заменяет и **le**, и **les**, для уточнения часто добавляются предложные конструкции **a él, a ella, a usted, a ellos, a ellas, a ustedes**:
+
+- **Se lo** doy **a él**. (Даю **это ему**.)
+- **Se la** explico **a ustedes**. (Объясняю **это Вам**.)
+- Mi hermano **se los** compra **a sus amigos**. (Мой брат покупает **их своим друзьям**.)`
         }
       ]
     },
-    vocabulary: [],
-    exercises: []
+    vocabulary: [
+      { word: 'vivienda', translation: 'жилье', audioUrl: null },
+      { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
+      { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
+      { word: 'propietario', translation: 'собственник', audioUrl: null },
+      { word: 'edificio', translation: 'здание', audioUrl: null },
+      { word: 'espacio', translation: 'помещение', audioUrl: null },
+      { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
+      { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
+      { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
+      { word: 'superficie', translation: 'площадь', audioUrl: null },
+      { word: 'adosado', translation: 'таунхаус', audioUrl: null },
+      { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
+      { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
+      { word: 'chalé', translation: 'загородный дом', audioUrl: null },
+      { word: 'garaje', translation: 'гараж', audioUrl: null },
+      { word: 'ascensor', translation: 'лифт', audioUrl: null },
+      { word: 'portal', translation: 'подъезд', audioUrl: null },
+      { word: 'portero', translation: 'консьерж', audioUrl: null },
+      { word: 'ducha', translation: 'душ', audioUrl: null },
+      { word: 'bañera', translation: 'ванна', audioUrl: null },
+      { word: 'calefacción', translation: 'отопление', audioUrl: null },
+      { word: 'terraza', translation: 'зд. лоджия', audioUrl: null },
+      { word: 'reparación', translation: 'ремонт', audioUrl: null },
+      { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
+      { word: 'barrio', translation: 'район', audioUrl: null },
+      { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
+      { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
+      { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
+      { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
+      { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
+      { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
+      { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
+      { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
+      { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
+      { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
+      { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
+      { word: 'portero automático', translation: 'домофон', audioUrl: null },
+      { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
+      { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
+      { word: 'casa rural', translation: 'сельский дом', audioUrl: null }
+    ],
+    readingText: {
+      title: 'En la agencia inmobiliaria',
+      content: `Carlos y Ana buscan un piso en alquiler en Valencia. Llegan a una agencia inmobiliaria del centro.
+
+**Agente:** Buenos días. ¿En qué puedo ayudarles?
+
+**Carlos:** Buenos días. Queremos alquilar un piso en Valencia. ¿Tienen pisos disponibles?
+
+**Agente:** Sí, claro. Tenemos varios apartamentos en alquiler. ¿Qué tipo de vivienda les interesa?
+
+**Ana:** Buscamos un piso de dos dormitorios, amueblado, con ascensor. Nos gusta vivir en el centro.
+
+**Agente:** Muy bien. Tengo un piso muy bonito en el barrio de Ruzafa. Es un piso exterior, tiene dos dormitorios, un baño con bañera, cocina equipada y una terraza pequeña. Está totalmente amueblado.
+
+**Carlos:** ¿Cuántos metros cuadrados tiene?
+
+**Agente:** La superficie es de 75 metros cuadrados. El edificio tiene ascensor y portero automático. También hay aparcamiento subterráneo.
+
+**Ana:** Me gusta. ¿Y cuál es el precio del alquiler?
+
+**Agente:** El alquiler es de 850 euros al mes. La calefacción y el aire acondicionado están incluidos en el precio.
+
+**Carlos:** ¿Podemos ver el piso?
+
+**Agente:** Por supuesto. Les puedo mostrar el piso esta tarde a las cinco. También tengo otro apartamento en la zona del puerto. Es un estudio de 45 metros cuadrados, muy moderno. Está en un edificio nuevo, con vidrios dobles y tiene una terraza grande.
+
+**Ana:** ¿Cuánto cuesta ese estudio?
+
+**Agente:** El estudio cuesta 650 euros al mes. Es más pequeño, pero muy cómodo y está cerca del mar.
+
+**Carlos:** Nos interesa más el piso de dos dormitorios. ¿Necesitamos pagar algo ahora?
+
+**Agente:** No, ahora no. Primero les muestro el piso, y si les gusta, necesitan pagar un mes de alquiler y un mes de fianza. El propietario es muy amable.
+
+**Ana:** Perfecto. Entonces nos vemos esta tarde a las cinco. ¿Dónde está el piso exactamente?
+
+**Agente:** Está en la calle Sueca, número 23, tercer piso. Es un barrio muy tranquilo, con muchas tiendas, cafeterías y restaurantes. Les va a encantar.
+
+**Carlos:** Muy bien. Muchas gracias. Hasta luego.
+
+**Agente:** Hasta luego. Les mando la dirección por correo electrónico.`,
+      translation: `Карлос и Анна ищут квартиру в аренду в Валенсии. Они приходят в агентство недвижимости в центре.
+
+**Агент:** Добрый день. Чем могу вам помочь?
+
+**Карлос:** Добрый день. Мы хотим снять квартиру в Валенсии. У вас есть свободные квартиры?
+
+**Агент:** Да, конечно. У нас есть несколько квартир в аренду. Какой тип жилья вас интересует?
+
+**Анна:** Мы ищем квартиру с двумя спальнями, меблированную, с лифтом. Нам нравится жить в центре.
+
+**Агент:** Очень хорошо. У меня есть очень красивая квартира в районе Русафа. Это квартира с окнами на улицу, имеет две спальни, ванную комнату с ванной, оборудованную кухню и небольшую лоджию. Она полностью меблирована.
+
+**Карлос:** Сколько у нее квадратных метров?
+
+**Агент:** Площадь составляет 75 квадратных метров. В здании есть лифт и домофон. Также есть подземная парковка.
+
+**Анна:** Мне нравится. И какая арендная плата?
+
+**Агент:** Аренда составляет 850 евро в месяц. Отопление и кондиционер включены в цену.
+
+**Карлос:** Можем ли мы посмотреть квартиру?
+
+**Агент:** Конечно. Я могу показать вам квартиру сегодня после обеда в пять. У меня также есть другая квартира в районе порта. Это студия 45 квадратных метров, очень современная. Она находится в новом здании, с двойными стеклопакетами и имеет большую лоджию.
+
+**Анна:** Сколько стоит эта студия?
+
+**Агент:** Студия стоит 650 евро в месяц. Она меньше, но очень удобная и находится близко к морю.
+
+**Карлос:** Нас больше интересует квартира с двумя спальнями. Нам нужно что-то платить сейчас?
+
+**Агент:** Нет, сейчас нет. Сначала я показываю вам квартиру, и если она вам понравится, нужно заплатить месяц аренды и месяц залога. Собственник очень приветливый.
+
+**Анна:** Отлично. Тогда встретимся сегодня после обеда в пять. Где именно находится квартира?
+
+**Агент:** Она находится на улице Суэка, номер 23, третий этаж. Это очень спокойный район, с множеством магазинов, кафе и ресторанов. Вам она очень понравится.
+
+**Карлос:** Очень хорошо. Большое спасибо. До свидания.
+
+**Агент:** До свидания. Я отправлю вам адрес по электронной почте.`,
+      audioUrl: null,
+      comprehensionQuestions: [
+        { question: '¿Qué buscan Carlos y Ana?', correct: 'un piso en alquiler', alternatives: ['un piso en venta', 'una casa rural', 'un garaje'] },
+        { question: '¿Dónde está la agencia inmobiliaria?', correct: 'en el centro', alternatives: ['en el puerto', 'en Ruzafa', 'en el barrio'] },
+        { question: '¿Cuántos dormitorios quieren Carlos y Ana?', correct: 'dos dormitorios', alternatives: ['un dormitorio', 'tres dormitorios', 'un estudio'] },
+        { question: '¿En qué barrio está el primer piso?', correct: 'en Ruzafa', alternatives: ['en el centro', 'en el puerto', 'en la playa'] },
+        { question: '¿El piso de Ruzafa es interior o exterior?', correct: 'exterior', alternatives: ['interior', 'dúplex', 'estudio'] },
+        { question: '¿Cuántos metros cuadrados tiene el piso de Ruzafa?', correct: '75 metros cuadrados', alternatives: ['45 metros cuadrados', '85 metros cuadrados', '65 metros cuadrados'] },
+        { question: '¿Cuánto cuesta el alquiler del piso de dos dormitorios?', correct: '850 euros al mes', alternatives: ['650 euros al mes', '750 euros al mes', '950 euros al mes'] },
+        { question: '¿Qué está incluido en el precio del alquiler?', correct: 'la calefacción y el aire acondicionado', alternatives: ['los muebles', 'el garaje', 'la comida'] },
+        { question: '¿Dónde está el estudio?', correct: 'en la zona del puerto', alternatives: ['en Ruzafa', 'en el centro', 'en la calle Sueca'] },
+        { question: '¿Cuántos metros cuadrados tiene el estudio?', correct: '45 metros cuadrados', alternatives: ['75 metros cuadrados', '55 metros cuadrados', '35 metros cuadrados'] },
+        { question: '¿Cuánto cuesta el estudio?', correct: '650 euros al mes', alternatives: ['850 euros al mes', '550 euros al mes', '750 euros al mes'] },
+        { question: '¿Qué piso les interesa más a Carlos y Ana?', correct: 'el piso de dos dormitorios', alternatives: ['el estudio', 'la casa rural', 'el dúplex'] },
+        { question: '¿A qué hora van a ver el piso?', correct: 'a las cinco de la tarde', alternatives: ['a las tres de la tarde', 'a las seis de la tarde', 'por la mañana'] },
+        { question: '¿En qué calle está el piso de Ruzafa?', correct: 'en la calle Sueca', alternatives: ['en la calle Valencia', 'en la calle Puerto', 'en la calle Centro'] },
+        { question: '¿Cómo es el barrio de Ruzafa según el agente?', correct: 'tranquilo con tiendas y cafeterías', alternatives: ['ruidoso', 'aburrido', 'sin comercios'] }
+      ]
+    },
+    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3', 'ex-3-3-4', 'ex-3-3-5', 'ex-3-3-6', 'ex-3-3-7', 'ex-3-3-8', 'ex-3-3-9', 'ex-3-3-10', 'ex-3-3-11', 'ex-3-3-12', 'ex-3-3-13', 'ex-3-3-14', 'ex-3-3-15', 'ex-3-3-16', 'ex-3-3-17', 'ex-3-3-18', 'ex-3-3-19', 'ex-3-3-20', 'ex-3-3-21']
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -12244,6 +12499,442 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мы видим, что он не умеет танцевать, поэтому падает.', correct: 'Vemos que no sabe bailar, por eso cae.', alternatives: ['Vemos que él no sabe bailar, por eso cae', 'Vemos que no sabe bailar por eso cae'] },
       { russian: 'Я навожу порядок в твоем кабинете, Анна накрывает на стол, а ты ничего не делаешь. Почему? — Не хочу.', correct: 'Pongo orden en tu despacho, Ana pone la mesa, y tú no haces nada. ¿Por qué? — No quiero.', alternatives: ['Yo pongo orden en tu despacho, Ana pone la mesa y tú no haces nada. ¿Por qué? — No quiero', 'Pongo orden en tu oficina, Ana pone la mesa, y tú no haces nada. ¿Por qué? — No quiero'] },
       { russian: 'Их окна выходят во двор. Они видят, когда их сосед выходит из дома и когда приходит.', correct: 'Sus ventanas dan al patio. Ven cuando su vecino sale de casa y cuando llega.', alternatives: ['Sus ventanas dan al patio. Ellos ven cuando su vecino sale de casa y cuando viene', 'Las ventanas de ellos dan al patio. Ven cuando su vecino sale de la casa y cuando llega'] }
+    ]
+  },
+
+  // Módulo 3 Lección 3 - Упражнения на местоимения и глагол gustar
+  'ex-3-3-1': {
+    id: 'ex-3-3-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Местоимения дательного падежа (косвенное дополнение)',
+    description: 'Вставьте подходящее местоимение: me, te, le, nos, os, les',
+    questions: [
+      { sentence: 'Mi madre ___ da dinero a mí.', correct: 'me', blanks: 1 },
+      { sentence: '¿Qué ___ digo a ti?', correct: 'te', blanks: 1 },
+      { sentence: 'El profesor ___ explica la lección a nosotros.', correct: 'nos', blanks: 1 },
+      { sentence: 'Yo ___ escribo una carta a ella.', correct: 'le', blanks: 1 },
+      { sentence: '¿___ compras un regalo a ellos?', correct: 'Les', blanks: 1 },
+      { sentence: 'Mis amigos ___ traen flores a mí.', correct: 'me', blanks: 1 },
+      { sentence: 'El camarero ___ trae la cuenta a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: 'Yo siempre ___ digo la verdad a ti.', correct: 'te', blanks: 1 },
+      { sentence: 'Nosotros ___ damos las gracias a usted.', correct: 'le', blanks: 1 },
+      { sentence: 'Ella ___ lee un cuento a los niños.', correct: 'les', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-2': {
+    id: 'ex-3-3-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Глагол GUSTAR',
+    description: 'Поставьте глагол gustar в правильную форму',
+    questions: [
+      { sentence: 'A mí me ___ el café.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A ti te ___ los perros.', correct: 'gustan', blanks: 1 },
+      { sentence: 'A ella le ___ bailar.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A nosotros nos ___ las películas españolas.', correct: 'gustan', blanks: 1 },
+      { sentence: 'A vosotros os ___ estudiar español.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A ellos les ___ los libros de aventuras.', correct: 'gustan', blanks: 1 },
+      { sentence: '¿Te ___ esta ciudad?', correct: 'gusta', blanks: 1 },
+      { sentence: 'No me ___ los lunes.', correct: 'gustan', blanks: 1 },
+      { sentence: 'A Juan le ___ cocinar.', correct: 'gusta', blanks: 1 },
+      { sentence: 'A mis padres les ___ viajar.', correct: 'gusta', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-3': {
+    id: 'ex-3-3-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Местоимения винительного падежа (прямое дополнение)',
+    description: 'Вставьте подходящее местоимение: me, te, lo, la, nos, os, los, las',
+    questions: [
+      { sentence: '¿Ves a María? — Sí, ___ veo.', correct: 'la', blanks: 1 },
+      { sentence: '¿Compras el libro? — Sí, ___ compro.', correct: 'lo', blanks: 1 },
+      { sentence: 'Ella ___ llama a mí todos los días.', correct: 'me', blanks: 1 },
+      { sentence: '¿___ escuchas a nosotros?', correct: 'Nos', blanks: 1 },
+      { sentence: 'Yo ___ veo a ti en el parque.', correct: 'te', blanks: 1 },
+      { sentence: '¿Conoces a mis hermanos? — Sí, ___ conozco.', correct: 'los', blanks: 1 },
+      { sentence: '¿Tienes las llaves? — Sí, ___ tengo.', correct: 'las', blanks: 1 },
+      { sentence: 'El profesor ___ enseña español a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: '¿Entiendes la pregunta? — No, no ___ entiendo.', correct: 'la', blanks: 1 },
+      { sentence: 'Mis padres ___ invitan a cenar a nosotros.', correct: 'nos', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-4': {
+    id: 'ex-3-3-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Одновременное употребление местоимений',
+    description: 'Замените существительные местоимениями. Используйте se lo, se la, se los, se las, me lo, te la и т.д.',
+    questions: [
+      { sentence: 'Doy el libro a Juan. → ___ ___ doy.', correct: 'Se lo', blanks: 1 },
+      { sentence: 'Compro las flores a ti. → ___ ___ compro.', correct: 'Te las', blanks: 1 },
+      { sentence: 'Mi madre da la llave a mí. → Mi madre ___ ___ da.', correct: 'me la', blanks: 1 },
+      { sentence: 'Explicamos la lección a ellos. → ___ ___ explicamos.', correct: 'Se la', blanks: 1 },
+      { sentence: 'Traes los libros a nosotros. → ___ ___ traes.', correct: 'Nos los', blanks: 1 },
+      { sentence: 'El camarero trae el café a ella. → El camarero ___ ___ trae.', correct: 'se lo', blanks: 1 },
+      { sentence: 'Escribo una carta a ustedes. → ___ ___ escribo.', correct: 'Se la', blanks: 1 },
+      { sentence: '¿Das el dinero a mí? → ¿___ ___ das?', correct: 'Me lo', blanks: 1 },
+      { sentence: 'Enseño las fotos a vosotros. → ___ ___ enseño.', correct: 'Os las', blanks: 1 },
+      { sentence: 'Ellos cuentan la historia a nosotros. → Ellos ___ ___ cuentan.', correct: 'nos la', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-5': {
+    id: 'ex-3-3-5',
+    type: 'transformation',
+    title: 'Упражнение 5: Замена существительного местоимением',
+    description: 'Замените выделенное существительное местоимением винительного падежа',
+    questions: [
+      { sentence: 'Veo a mi amiga en la calle.', answer: 'La veo en la calle.' },
+      { sentence: 'Compro el periódico cada día.', answer: 'Lo compro cada día.' },
+      { sentence: 'Llamo a mis padres por teléfono.', answer: 'Los llamo por teléfono.' },
+      { sentence: 'Estudiamos las lecciones por la tarde.', answer: 'Las estudiamos por la tarde.' },
+      { sentence: 'Ellos conocen a Juan.', answer: 'Ellos lo conocen.' },
+      { sentence: 'Mi hermana lee el libro.', answer: 'Mi hermana lo lee.' },
+      { sentence: '¿Tienes las entradas?', answer: '¿Las tienes?' },
+      { sentence: 'No entiendo la pregunta.', answer: 'No la entiendo.' },
+      { sentence: 'Invitamos a María a la fiesta.', answer: 'La invitamos a la fiesta.' },
+      { sentence: 'El profesor explica la gramática.', answer: 'El profesor la explica.' }
+    ]
+  },
+
+  'ex-3-3-6': {
+    id: 'ex-3-3-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: Смешанная практика местоимений',
+    description: 'Вставьте правильное местоимение (дательный или винительный падеж)',
+    questions: [
+      { sentence: 'A mí ___ gusta el chocolate.', correct: 'me', blanks: 1 },
+      { sentence: '¿Ves a Carlos? — Sí, ___ veo.', correct: 'lo', blanks: 1 },
+      { sentence: 'Mi padre ___ da dinero a mí.', correct: 'me', blanks: 1 },
+      { sentence: '¿Conoces esta canción? — Sí, ___ conozco.', correct: 'la', blanks: 1 },
+      { sentence: 'El profesor ___ explica la lección a nosotros.', correct: 'nos', blanks: 1 },
+      { sentence: '¿Tienes los libros? — Sí, ___ tengo.', correct: 'los', blanks: 1 },
+      { sentence: 'A ellos ___ gustan las películas de acción.', correct: 'les', blanks: 1 },
+      { sentence: 'Yo ___ llamo a ti mañana.', correct: 'te', blanks: 1 },
+      { sentence: '¿Ves a mis hermanas? — No, no ___ veo.', correct: 'las', blanks: 1 },
+      { sentence: 'A nosotros ___ gusta viajar.', correct: 'nos', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-7': {
+    id: 'ex-3-3-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: Местоимения с инфинитивом и герундием',
+    description: 'Вставьте местоимение в правильное место (слитно с инфинитивом/герундием)',
+    questions: [
+      { sentence: 'Quiero hacer___ un regalo. (te)', correct: 'te', blanks: 1 },
+      { sentence: 'Voy a llamar___ mañana. (la)', correct: 'la', blanks: 1 },
+      { sentence: 'Estoy explicándo___ la lección. (les)', correct: 'les', blanks: 1 },
+      { sentence: 'Necesito dar___ el libro. (le)', correct: 'le', blanks: 1 },
+      { sentence: 'Está mirando___ desde la ventana. (nos)', correct: 'nos', blanks: 1 },
+      { sentence: 'Quiero comprar___ en esta tienda. (los)', correct: 'los', blanks: 1 },
+      { sentence: 'Voy a decir___ la verdad. (te)', correct: 'te', blanks: 1 },
+      { sentence: 'Estoy escribiendo___ un correo. (le)', correct: 'le', blanks: 1 },
+      { sentence: 'Puedo traer___ las llaves. (os)', correct: 'os', blanks: 1 },
+      { sentence: 'Está enseñándo___ español. (me)', correct: 'me', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-8': {
+    id: 'ex-3-3-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: Глаголы типа gustar (encantar, interesar, doler)',
+    description: 'Вставьте правильное местоимение и форму глагола',
+    questions: [
+      { sentence: 'A mí ___ ___ la música clásica. (encantar)', correct: 'me encanta', blanks: 1 },
+      { sentence: 'A ti ___ ___ los idiomas. (interesar)', correct: 'te interesan', blanks: 1 },
+      { sentence: 'A ella ___ ___ la cabeza. (doler)', correct: 'le duele', blanks: 1 },
+      { sentence: 'A nosotros ___ ___ viajar. (encantar)', correct: 'nos encanta', blanks: 1 },
+      { sentence: 'A vosotros ___ ___ las matemáticas. (interesar)', correct: 'os interesan', blanks: 1 },
+      { sentence: 'A ellos ___ ___ los pies. (doler)', correct: 'les duelen', blanks: 1 },
+      { sentence: '¿A ti ___ ___ el arte moderno? (interesar)', correct: 'te interesa', blanks: 1 },
+      { sentence: 'A mi hermana ___ ___ bailar. (encantar)', correct: 'le encanta', blanks: 1 },
+      { sentence: 'A mí ___ ___ el estómago. (doler)', correct: 'me duele', blanks: 1 },
+      { sentence: 'A mis padres ___ ___ las novelas históricas. (encantar)', correct: 'les encantan', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-9': {
+    id: 'ex-3-3-9',
+    type: 'fillblank',
+    title: 'Упражнение 9: Выбор правильного местоимения',
+    description: 'Выберите и вставьте правильное местоимение',
+    questions: [
+      { sentence: '___ gusta el café. (A mí)', correct: 'Me', blanks: 1 },
+      { sentence: 'Veo a María y ___ saludo.', correct: 'la', blanks: 1 },
+      { sentence: 'Mi profesor ___ explica la gramática. (a nosotros)', correct: 'nos', blanks: 1 },
+      { sentence: '¿Tienes el libro? — Sí, ___ tengo aquí.', correct: 'lo', blanks: 1 },
+      { sentence: 'Doy el regalo a Juan. → ___ ___ doy.', correct: 'Se lo', blanks: 1 },
+      { sentence: 'A ellos ___ encantan los deportes.', correct: 'les', blanks: 1 },
+      { sentence: '¿Conoces a mis hermanos? — No, no ___ conozco.', correct: 'los', blanks: 1 },
+      { sentence: 'El camarero ___ trae el menú. (a vosotros)', correct: 'os', blanks: 1 },
+      { sentence: 'Compro flores y ___ pongo en el jarrón.', correct: 'las', blanks: 1 },
+      { sentence: 'Mi madre ___ da consejos. (a mí)', correct: 'me', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-10': {
+    id: 'ex-3-3-10',
+    type: 'transformation',
+    title: 'Упражнение 10: Утвердительные и отрицательные предложения',
+    description: 'Преобразуйте утвердительное предложение в отрицательное, сохраняя местоимения',
+    questions: [
+      { sentence: 'Me gusta el invierno.', answer: 'No me gusta el invierno.' },
+      { sentence: 'Lo veo todos los días.', answer: 'No lo veo todos los días.' },
+      { sentence: 'Te escribo cartas.', answer: 'No te escribo cartas.' },
+      { sentence: 'Nos explica la lección.', answer: 'No nos explica la lección.' },
+      { sentence: 'La conozco bien.', answer: 'No la conozco bien.' },
+      { sentence: 'Les gusta bailar.', answer: 'No les gusta bailar.' },
+      { sentence: 'Os doy el dinero.', answer: 'No os doy el dinero.' },
+      { sentence: 'Los invitamos a la fiesta.', answer: 'No los invitamos a la fiesta.' },
+      { sentence: 'Me lo das.', answer: 'No me lo das.' },
+      { sentence: 'Se la explicamos.', answer: 'No se la explicamos.' }
+    ]
+  },
+
+  'ex-3-3-11': {
+    id: 'ex-3-3-11',
+    type: 'fillblank',
+    title: 'Упражнение 11: Местоимения в контексте',
+    description: 'Вставьте правильное местоимение дательного падежа',
+    questions: [
+      { sentence: 'Mi abuela ___ cuenta historias interesantes a nosotros.', correct: 'nos', blanks: 1 },
+      { sentence: 'El médico ___ pregunta a mí sobre mi salud.', correct: 'me', blanks: 1 },
+      { sentence: '¿Por qué no ___ dices la verdad a mí?', correct: 'me', blanks: 1 },
+      { sentence: 'Yo ___ presto dinero a ti cuando lo necesitas.', correct: 'te', blanks: 1 },
+      { sentence: 'El guía turístico ___ muestra la ciudad a ellos.', correct: 'les', blanks: 1 },
+      { sentence: 'Nosotros ___ mandamos un paquete a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: 'El profesor ___ enseña español a ella.', correct: 'le', blanks: 1 },
+      { sentence: '¿___ compras un regalo a tu hermana?', correct: 'Le', blanks: 1 },
+      { sentence: 'Mis padres ___ dan buenos consejos a mí.', correct: 'me', blanks: 1 },
+      { sentence: 'Yo ___ escribo correos electrónicos a ustedes.', correct: 'les', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-12': {
+    id: 'ex-3-3-12',
+    type: 'fillblank',
+    title: 'Упражнение 12: Местоимения в контексте',
+    description: 'Вставьте правильное местоимение винительного падежа',
+    questions: [
+      { sentence: '¿Dónde está mi móvil? — ___ tienes en la mano.', correct: 'Lo', blanks: 1 },
+      { sentence: '¿Conoces a Ana y María? — Sí, ___ conozco del colegio.', correct: 'las', blanks: 1 },
+      { sentence: 'Este libro es muy interesante. Necesito leer___.', correct: 'lo', blanks: 1 },
+      { sentence: '¿Ves a mi hermano en la foto? — Sí, ___ veo al lado de tu padre.', correct: 'lo', blanks: 1 },
+      { sentence: '¿Tienes las entradas para el concierto? — No, no ___ tengo todavía.', correct: 'las', blanks: 1 },
+      { sentence: 'Mi hermana ___ llama a mí todos los domingos.', correct: 'me', blanks: 1 },
+      { sentence: '¿___ puedes ayudar a nosotros con los deberes?', correct: 'Nos', blanks: 1 },
+      { sentence: 'Vuestros amigos ___ buscan a vosotros.', correct: 'os', blanks: 1 },
+      { sentence: 'Esta canción es bonita. Quiero escuchar___ otra vez.', correct: 'la', blanks: 1 },
+      { sentence: '¿Entiendes estos ejercicios? — Sí, ___ entiendo bien.', correct: 'los', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-13': {
+    id: 'ex-3-3-13',
+    type: 'fillblank',
+    title: 'Упражнение 13: Комбинированные местоимения (продвинутый уровень)',
+    description: 'Вставьте правильную комбинацию местоимений',
+    questions: [
+      { sentence: '¿Me das la llave? — Sí, ___ ___ doy ahora.', correct: 'te la', blanks: 1 },
+      { sentence: 'Mi padre compra un coche a mi hermano. → Mi padre ___ ___ compra.', correct: 'se lo', blanks: 1 },
+      { sentence: '¿Nos traes las bebidas? — Claro, ___ ___ traigo.', correct: 'os las', blanks: 1 },
+      { sentence: 'Le doy los regalos a María. → ___ ___ doy.', correct: 'Se los', blanks: 1 },
+      { sentence: 'Te mando un mensaje. → ___ ___ mando.', correct: 'Te lo', blanks: 1 },
+      { sentence: 'Ellos nos explican las reglas. → Ellos ___ ___ explican.', correct: 'nos las', blanks: 1 },
+      { sentence: 'Les enseño mi casa a ustedes. → ___ ___ enseño.', correct: 'Se la', blanks: 1 },
+      { sentence: '¿Me prestas tu bicicleta? — Sí, ___ ___ presto.', correct: 'te la', blanks: 1 },
+      { sentence: 'Doy las llaves a vosotros. → ___ ___ doy.', correct: 'Os las', blanks: 1 },
+      { sentence: 'El camarero le sirve el café a ella. → El camarero ___ ___ sirve.', correct: 'se lo', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-14': {
+    id: 'ex-3-3-14',
+    type: 'fillblank',
+    title: 'Упражнение 14: Обобщающая практика',
+    description: 'Комплексное упражнение на все типы местоимений',
+    questions: [
+      { sentence: 'A mis amigos ___ encanta viajar.', correct: 'les', blanks: 1 },
+      { sentence: '¿Ves el error? — Sí, ___ veo perfectamente.', correct: 'lo', blanks: 1 },
+      { sentence: 'Mi profesora ___ explica la gramática muy bien.', correct: 'nos', blanks: 1 },
+      { sentence: 'Compro flores para mamá y ___ ___ doy por la mañana.', correct: 'se las', blanks: 1 },
+      { sentence: '¿___ gusta este restaurante?', correct: 'Te', blanks: 1 },
+      { sentence: 'Necesito hablar contigo. Voy a llamar___ esta noche.', correct: 'te', blanks: 1 },
+      { sentence: '¿Conoces a estas chicas? — No, no ___ conozco.', correct: 'las', blanks: 1 },
+      { sentence: 'Mis abuelos ___ mandan postales desde España.', correct: 'nos', blanks: 1 },
+      { sentence: 'Tengo tu libro. ___ ___ devuelvo mañana.', correct: 'Te lo', blanks: 1 },
+      { sentence: 'A nosotros no ___ interesa este tema.', correct: 'nos', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-15': {
+    id: 'ex-3-3-15',
+    type: 'translation',
+    title: 'Упражнение 15: Перевод с русского на испанский',
+    description: 'Переведите предложения с русского на испанский, используя грамматику и лексику модулей 1-3',
+    questions: [
+      { russian: 'Мне нравится этот город, потому что здесь много парков и музеев.', correct: 'Me gusta esta ciudad porque aquí hay muchos parques y museos.', alternatives: ['Me gusta esta ciudad porque hay muchos parques y museos aquí', 'Me gusta esta ciudad, porque aquí hay muchos parques y museos'] },
+      { russian: 'Моя сестра звонит мне каждый день и рассказывает о своей работе.', correct: 'Mi hermana me llama cada día y me cuenta sobre su trabajo.', alternatives: ['Mi hermana me llama todos los días y me habla de su trabajo', 'Mi hermana me llama cada día y me habla sobre su trabajo'] },
+      { russian: 'Я не вижу твою сумку. Где она?', correct: 'No veo tu bolso. ¿Dónde está?', alternatives: ['No veo tu bolsa. ¿Dónde está?', 'No veo tu bolso. ¿Dónde está él?'] },
+      { russian: 'Учитель объясняет нам новую грамматику, но мы ее не понимаем.', correct: 'El profesor nos explica la gramática nueva, pero no la entendemos.', alternatives: ['El profesor nos explica la nueva gramática, pero no la entendemos', 'El maestro nos explica la gramática nueva pero no la entendemos'] },
+      { russian: 'Хуан покупает цветы и дарит их своей маме.', correct: 'Juan compra flores y se las da a su madre.', alternatives: ['Juan compra flores y se las regala a su madre', 'Juan compra flores y se las da a su mamá'] },
+      { russian: 'Им очень нравится испанский язык, они изучают его каждый день.', correct: 'A ellos les gusta mucho el español, lo estudian cada día.', alternatives: ['Les gusta mucho el español, lo estudian cada día', 'A ellos les gusta mucho el español, lo estudian todos los días'] },
+      { russian: 'Где находится твоя квартира? — Она находится в центре города, рядом с банком.', correct: '¿Dónde está tu piso? — Está en el centro de la ciudad, al lado del banco.', alternatives: ['¿Dónde está tu apartamento? — Está en el centro, al lado del banco', '¿Dónde se encuentra tu piso? — Está en el centro de la ciudad, al lado del banco'] },
+      { russian: 'Мы хотим арендовать квартиру с двумя спальнями и балконом.', correct: 'Queremos alquilar un piso con dos dormitorios y balcón.', alternatives: ['Queremos alquilar un apartamento con dos dormitorios y balcón', 'Queremos alquilar un piso de dos dormitorios con balcón'] },
+      { russian: 'Моему брату нужна мебель для новой квартиры. Я помогаю ему ее выбирать.', correct: 'Mi hermano necesita muebles para el piso nuevo. Le ayudo a elegirlos.', alternatives: ['A mi hermano le hacen falta muebles para su piso nuevo. Yo le ayudo a elegirlos', 'Mi hermano necesita muebles para su apartamento nuevo. Le ayudo a escogerlos'] },
+      { russian: 'Официант приносит нам меню, и мы заказываем кофе с молоком.', correct: 'El camarero nos trae el menú y pedimos café con leche.', alternatives: ['El camarero nos trae la carta y pedimos café con leche', 'El mesero nos trae el menú y pedimos café con leche'] },
+      { russian: 'Ты знаешь этих студентов? — Да, я их знаю. Они учатся в моем университете.', correct: '¿Conoces a estos estudiantes? — Sí, los conozco. Estudian en mi universidad.', alternatives: ['¿Conoces a estos estudiantes? — Sí, yo los conozco. Ellos estudian en mi universidad', '¿Conoces estos estudiantes? — Sí, los conozco. Estudian en mi universidad'] },
+      { russian: 'Мои родители живут далеко от города, но часто приезжают к нам в гости.', correct: 'Mis padres viven lejos de la ciudad, pero vienen a visitarnos a menudo.', alternatives: ['Mis padres viven lejos de la ciudad pero nos visitan a menudo', 'Mis padres viven lejos de la ciudad, pero vienen a vernos a menudo'] },
+      { russian: 'Перед ужином я накрываю на стол, а после ужина мою посуду.', correct: 'Antes de cenar pongo la mesa y después de cenar lavo los platos.', alternatives: ['Antes de la cena pongo la mesa y después de la cena lavo los platos', 'Antes de cenar pongo la mesa y después de cenar friego los platos'] },
+      { russian: 'В этом районе много магазинов, кафе и ресторанов. Мне очень нравится здесь жить.', correct: 'En este barrio hay muchas tiendas, cafeterías y restaurantes. Me gusta mucho vivir aquí.', alternatives: ['En este barrio hay muchas tiendas, cafés y restaurantes. Me encanta vivir aquí', 'En esta zona hay muchas tiendas, cafeterías y restaurantes. Me gusta mucho vivir aquí'] },
+      { russian: 'Бабушка дает мне ключи от квартиры и просит полить цветы.', correct: 'La abuela me da las llaves del piso y me pide regar las flores.', alternatives: ['Mi abuela me da las llaves del apartamento y me pide regar las plantas', 'La abuela me da las llaves de la casa y me pide regar las flores'] }
+    ]
+  },
+
+  // Módulo 3 Lección 3 - Упражнения на словарь (жилье и недвижимость)
+  'ex-3-3-16': {
+    id: 'ex-3-3-16',
+    type: 'fillblank',
+    title: 'Упражнение 16: Словарь урока - Типы жилья',
+    description: 'Вставьте подходящее слово из словаря урока',
+    questions: [
+      { sentence: 'Buscamos una ___ en el centro de la ciudad.', correct: 'vivienda', blanks: 1 },
+      { sentence: 'La agencia ___ tiene muchos pisos en alquiler.', correct: 'inmobiliaria', blanks: 1 },
+      { sentence: 'Leo el ___ en el periódico para buscar un apartamento.', correct: 'anuncio', blanks: 1 },
+      { sentence: 'El ___ del piso es muy amable.', correct: 'propietario', blanks: 1 },
+      { sentence: 'Este ___ es muy alto, tiene diez pisos.', correct: 'edificio', blanks: 1 },
+      { sentence: 'Queremos ___ un piso amueblado.', correct: 'alquilar', blanks: 1 },
+      { sentence: 'El ___ es de 800 euros al mes.', correct: 'alquiler', blanks: 1 },
+      { sentence: 'La ___ del apartamento es de 80 metros cuadrados.', correct: 'superficie', blanks: 1 },
+      { sentence: 'Un ___ es una casa de dos pisos.', correct: 'dúplex', blanks: 1 },
+      { sentence: 'Un ___ es un apartamento pequeño de un solo ambiente.', correct: 'estudio', blanks: 1 },
+      { sentence: 'Mi familia vive en un ___ cerca de la playa.', correct: 'chalé', blanks: 1 },
+      { sentence: 'El coche está en el ___.', correct: 'garaje', blanks: 1 },
+      { sentence: 'El edificio tiene ___, no necesitamos subir por las escaleras.', correct: 'ascensor', blanks: 1 },
+      { sentence: 'El ___ es la entrada del edificio.', correct: 'portal', blanks: 1 },
+      { sentence: 'En este edificio hay un ___ que ayuda a los vecinos.', correct: 'portero', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-17': {
+    id: 'ex-3-3-17',
+    type: 'fillblank',
+    title: 'Упражнение 17: Словарь урока - Части квартиры и удобства',
+    description: 'Вставьте подходящее слово из словаря урока',
+    questions: [
+      { sentence: 'En el baño hay una ___ para lavar el cuerpo.', correct: 'ducha', blanks: 1 },
+      { sentence: 'Prefiero una ___ para tomar un baño relajante.', correct: 'bañera', blanks: 1 },
+      { sentence: 'En invierno necesitamos ___ para calentar el piso.', correct: 'calefacción', blanks: 1 },
+      { sentence: 'La ___ es un balcón grande donde poner plantas.', correct: 'terraza', blanks: 1 },
+      { sentence: 'El piso necesita una ___, no funciona el agua.', correct: 'reparación', blanks: 1 },
+      { sentence: 'Hacemos una ___ completa: cambiamos el suelo y pintamos las paredes.', correct: 'reforma', blanks: 1 },
+      { sentence: 'Vivo en un ___ muy tranquilo y seguro.', correct: 'barrio', blanks: 1 },
+      { sentence: 'Esta ___ de la ciudad es muy cara.', correct: 'zona', blanks: 1 },
+      { sentence: 'En verano usamos el ___ para refrescar el apartamento.', correct: 'aire acondicionado', blanks: 1 },
+      { sentence: 'El piso tiene 75 ___.', correct: 'metros cuadrados', blanks: 1 },
+      { sentence: 'Este ___ está disponible desde el próximo mes.', correct: 'apartamento en alquiler', blanks: 1 },
+      { sentence: 'El ___ incluye muebles, no necesito comprar nada.', correct: 'piso amueblado', blanks: 1 },
+      { sentence: 'Un ___ tiene ventanas que dan a la calle.', correct: 'piso exterior', blanks: 1 },
+      { sentence: 'Un ___ tiene ventanas que dan al patio interior.', correct: 'piso interior', blanks: 1 },
+      { sentence: 'Este ___ está muy bonito, acaban de pintarlo.', correct: 'piso reparado', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-18': {
+    id: 'ex-3-3-18',
+    type: 'fillblank',
+    title: 'Упражнение 18: Словарь урока - Удобства и характеристики',
+    description: 'Вставьте подходящее слово или выражение',
+    questions: [
+      { sentence: 'El ___ permite hablar con los visitantes antes de abrir la puerta.', correct: 'portero automático', blanks: 1 },
+      { sentence: 'Las ventanas con ___ protegen mejor del frío y del ruido.', correct: 'vidrios dobles', blanks: 1 },
+      { sentence: 'El edificio tiene ___ para los coches de los vecinos.', correct: 'aparcamiento subterráneo', blanks: 1 },
+      { sentence: 'Me gusta vivir en una ___, lejos del ruido de la ciudad.', correct: 'casa rural', blanks: 1 },
+      { sentence: 'Vamos a la ___ para buscar un piso.', correct: 'agencia inmobiliaria', blanks: 1 },
+      { sentence: 'El propietario quiere ___ por un año.', correct: 'alquilar la vivienda', blanks: 1 },
+      { sentence: 'Este ___ es perfecto para una persona sola.', correct: 'estudio', blanks: 1 },
+      { sentence: 'El ___ es una casa independiente con jardín.', correct: 'chalé', blanks: 1 },
+      { sentence: 'Un ___ es una casa adosada a otras casas.', correct: 'adosado', blanks: 1 },
+      { sentence: 'En este ___ hay una oficina en la planta baja.', correct: 'edificio', blanks: 1 },
+      { sentence: 'Necesito más ___ para mis libros y muebles.', correct: 'espacio', blanks: 1 },
+      { sentence: 'Alquilamos un ___ comercial para abrir una tienda.', correct: 'local', blanks: 1 },
+      { sentence: 'El sector ___ es muy importante en la economía.', correct: 'inmobiliario', blanks: 1 },
+      { sentence: 'Pongo un ___ en internet para vender mi piso.', correct: 'anuncio', blanks: 1 },
+      { sentence: 'Hablo con el ___ para negociar el precio.', correct: 'propietario', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-19': {
+    id: 'ex-3-3-19',
+    type: 'fillblank',
+    title: 'Упражнение 19: Словарь урока - Описание квартиры',
+    description: 'Вставьте подходящее слово',
+    questions: [
+      { sentence: 'La ___ total del piso es de 90 metros cuadrados.', correct: 'superficie', blanks: 1 },
+      { sentence: 'Prefiero tomar una ___ rápida por la mañana.', correct: 'ducha', blanks: 1 },
+      { sentence: 'Por la noche me gusta relajarme en la ___.', correct: 'bañera', blanks: 1 },
+      { sentence: 'En la ___ pongo plantas y una mesa para comer al aire libre.', correct: 'terraza', blanks: 1 },
+      { sentence: 'Sin ___ hace mucho frío en invierno.', correct: 'calefacción', blanks: 1 },
+      { sentence: 'El ___ sube hasta el décimo piso.', correct: 'ascensor', blanks: 1 },
+      { sentence: 'Entro al edificio por el ___ principal.', correct: 'portal', blanks: 1 },
+      { sentence: 'Dejo el coche en el ___ por la noche.', correct: 'garaje', blanks: 1 },
+      { sentence: 'Este ___ tiene buenas escuelas y parques.', correct: 'barrio', blanks: 1 },
+      { sentence: 'La ___ comercial está llena de tiendas.', correct: 'zona', blanks: 1 },
+      { sentence: 'Pagamos 700 euros de ___ cada mes.', correct: 'alquiler', blanks: 1 },
+      { sentence: 'Queremos comprar una ___ cerca del trabajo.', correct: 'vivienda', blanks: 1 },
+      { sentence: 'El ___ necesita pintura nueva.', correct: 'edificio', blanks: 1 },
+      { sentence: 'Buscamos un ___ para nuestro negocio.', correct: 'local', blanks: 1 },
+      { sentence: 'Esta habitación tiene mucho ___ para los muebles.', correct: 'espacio', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-20': {
+    id: 'ex-3-3-20',
+    type: 'fillblank',
+    title: 'Упражнение 20: Словарь урока - Комплексные выражения',
+    description: 'Вставьте подходящее выражение из словаря',
+    questions: [
+      { sentence: 'Voy a una ___ ___ para buscar un piso en alquiler.', correct: 'agencia inmobiliaria', blanks: 1 },
+      { sentence: 'Este apartamento tiene ___ ___, es muy fresco en verano.', correct: 'aire acondicionado', blanks: 1 },
+      { sentence: 'La superficie es de 80 ___ ___.', correct: 'metros cuadrados', blanks: 1 },
+      { sentence: 'Busco un ___ ___ ___ cerca del centro.', correct: 'apartamento en alquiler', blanks: 1 },
+      { sentence: 'Este ___ ___ tiene un precio muy alto.', correct: 'apartamento en venta', blanks: 1 },
+      { sentence: 'Prefiero un ___ ___ porque no tengo muebles.', correct: 'piso amueblado', blanks: 1 },
+      { sentence: 'Un ___ ___ es más luminoso que un piso interior.', correct: 'piso exterior', blanks: 1 },
+      { sentence: 'Un ___ ___ tiene ventanas al patio.', correct: 'piso interior', blanks: 1 },
+      { sentence: 'Este ___ ___ está listo para vivir.', correct: 'piso reparado', blanks: 1 },
+      { sentence: 'El edificio tiene ___ ___ para más seguridad.', correct: 'portero automático', blanks: 1 },
+      { sentence: 'Las ventanas con ___ ___ aíslan mejor del ruido.', correct: 'vidrios dobles', blanks: 1 },
+      { sentence: 'Hay ___ ___ para todos los vecinos.', correct: 'aparcamiento subterráneo', blanks: 1 },
+      { sentence: 'Me encanta vivir en una ___ ___, es muy tranquilo.', correct: 'casa rural', blanks: 1 },
+      { sentence: 'Vamos a ___ ___ ___ por seis meses.', correct: 'alquilar la vivienda', blanks: 1 },
+      { sentence: 'El ___ ayuda a los vecinos con los paquetes.', correct: 'portero', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-21': {
+    id: 'ex-3-3-21',
+    type: 'translation',
+    title: 'Упражнение 21: Перевод - Жилье и недвижимость',
+    description: 'Переведите предложения с русского на испанский, используя словарь урока',
+    questions: [
+      { russian: 'Мы хотим снять меблированную квартиру с двумя спальнями в центре города.', correct: 'Queremos alquilar un piso amueblado con dos dormitorios en el centro de la ciudad.', alternatives: ['Queremos alquilar un piso amueblado de dos dormitorios en el centro', 'Queremos alquilar un apartamento amueblado con dos dormitorios en el centro de la ciudad'] },
+      { russian: 'Агентство недвижимости показывает нам квартиру с лифтом и домофоном.', correct: 'La agencia inmobiliaria nos muestra un piso con ascensor y portero automático.', alternatives: ['La agencia inmobiliaria nos enseña un piso con ascensor y portero automático', 'La agencia inmobiliaria nos muestra un apartamento con ascensor y portero automático'] },
+      { russian: 'Площадь квартиры составляет 65 квадратных метров, она имеет лоджию и подземную парковку.', correct: 'La superficie del piso es de 65 metros cuadrados, tiene terraza y aparcamiento subterráneo.', alternatives: ['La superficie del apartamento es de 65 metros cuadrados, tiene terraza y aparcamiento subterráneo', 'El piso tiene una superficie de 65 metros cuadrados, tiene terraza y aparcamiento subterráneo'] },
+      { russian: 'Арендная плата составляет 900 евро в месяц, отопление и кондиционер включены в цену.', correct: 'El alquiler es de 900 euros al mes, la calefacción y el aire acondicionado están incluidos en el precio.', alternatives: ['El alquiler es 900 euros al mes, calefacción y aire acondicionado incluidos en el precio', 'La renta es de 900 euros al mes, la calefacción y el aire acondicionado están incluidos'] },
+      { russian: 'Мне очень нравится этот район, здесь есть магазины, школы и парки.', correct: 'Me gusta mucho este barrio, aquí hay tiendas, escuelas y parques.', alternatives: ['Me encanta este barrio, hay tiendas, escuelas y parques aquí', 'Me gusta mucho esta zona, aquí hay tiendas, colegios y parques'] },
+      { russian: 'Собственник квартиры живет в другом городе и сдает жилье студентам.', correct: 'El propietario del piso vive en otra ciudad y alquila la vivienda a estudiantes.', alternatives: ['El propietario del apartamento vive en otra ciudad y alquila la vivienda a los estudiantes', 'El dueño del piso vive en otra ciudad y alquila la vivienda a estudiantes'] },
+      { russian: 'Это квартира с окнами на улицу, очень светлая, с двойными стеклопакетами.', correct: 'Es un piso exterior, muy luminoso, con vidrios dobles.', alternatives: ['Es un apartamento exterior, muy luminoso, con vidrios dobles', 'Este es un piso exterior, muy luminoso, con ventanas de vidrios dobles'] },
+      { russian: 'В здании нет лифта, но есть консьерж, который помогает соседям.', correct: 'El edificio no tiene ascensor, pero hay un portero que ayuda a los vecinos.', alternatives: ['En el edificio no hay ascensor, pero hay un portero que ayuda a los vecinos', 'El edificio no tiene ascensor pero tiene un portero que ayuda a los vecinos'] },
+      { russian: 'Мы ищем студию около 40 квадратных метров для одного человека.', correct: 'Buscamos un estudio de unos 40 metros cuadrados para una persona.', alternatives: ['Buscamos un estudio de aproximadamente 40 metros cuadrados para una persona', 'Buscamos una estudio cerca de 40 metros cuadrados para una persona'] },
+      { russian: 'Эта двухуровневая квартира имеет три спальни, две ванные комнаты с душем и большую лоджию.', correct: 'Este dúplex tiene tres dormitorios, dos baños con ducha y una terraza grande.', alternatives: ['Este dúplex tiene tres dormitorios, dos cuartos de baño con ducha y una terraza grande', 'Este dúplex tiene tres habitaciones, dos baños con ducha y una terraza grande'] },
+      { russian: 'Квартира нуждается в капитальном ремонте: нужно поменять окна и покрасить стены.', correct: 'El piso necesita una reforma: hay que cambiar las ventanas y pintar las paredes.', alternatives: ['El apartamento necesita una reforma: hay que cambiar las ventanas y pintar las paredes', 'El piso necesita reforma: es necesario cambiar las ventanas y pintar las paredes'] },
+      { russian: 'Загородный дом находится в очень тихом месте, далеко от города.', correct: 'El chalé está en un lugar muy tranquilo, lejos de la ciudad.', alternatives: ['La casa está en un sitio muy tranquilo, lejos de la ciudad', 'El chalé se encuentra en un lugar muy tranquilo, lejos de la ciudad'] },
+      { russian: 'Мы видим объявление о продаже таунхауса с гаражом и садом.', correct: 'Vemos un anuncio de venta de un adosado con garaje y jardín.', alternatives: ['Vemos un anuncio sobre la venta de un adosado con garaje y jardín', 'Vemos un anuncio de venta de una casa adosada con garaje y jardín'] },
+      { russian: 'Ванная комната большая, в ней есть и душ, и ванна.', correct: 'El baño es grande, tiene ducha y bañera.', alternatives: ['El cuarto de baño es grande, tiene ducha y bañera', 'La habitación de baño es grande, en ella hay ducha y bañera'] },
+      { russian: 'После ремонта квартира выглядит как новая, собственник делает нам скидку на аренду.', correct: 'Después de la reparación el piso parece nuevo, el propietario nos hace un descuento en el alquiler.', alternatives: ['Después del arreglo el piso parece nuevo, el propietario nos da un descuento en el alquiler', 'Tras la reparación el apartamento parece nuevo, el propietario nos hace descuento en la renta'] }
     ]
   }
 }
