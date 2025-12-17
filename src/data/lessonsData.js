@@ -40,7 +40,7 @@ export const modules = {
     id: 'module-3',
     title: 'Модуль 3: Повседневная жизнь',
     level: 'beginner',
-    lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3'],
+    lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3', 'lesson-3-4'],
     description: 'Лексика о семье, работе, хобби'
   },
   'module-4': {
@@ -4174,48 +4174,79 @@ María: ¡Vamos!`,
 | vosotros (-as) | os (вас) |
 | ellos | los (их, это) |
 | ellas | las (их, это) |
-| ustedes | los / las (Вас) |
+| ustedes | los / las (Вас) |`
+        },
+        {
+          id: 'direct-object-lo-usage',
+          title: 'Употребление lo',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Местоимение **lo** используется:
 
-### Употребление lo
-
-Местоимение **lo** используется:
-1. **Для мужского рода единственного числа** (одушевленные и неодушевленные предметы):
+**1. Для мужского рода единственного числа** (одушевленные и неодушевленные предметы):
    - ¿Ves el libro? — Sí, **lo** veo. (Видишь книгу? — Да, вижу **её**.)
    - ¿Conoces a Juan? — Sí, **lo** conozco. (Знаешь Хуана? — Да, знаю **его**.)
 
-2. **В значении "это", "об этом"**:
+**2. В значении "это", "об этом"**:
    - **Lo** sé. (Я знаю **это**.)
    - No **lo** entiendo. (Я не понимаю **этого**.)
 
 **Примечание**: В некоторых регионах Испании вместо **lo** для одушевленных существительных мужского рода употребляется **le**:
 - ¿Conoces a mi hermano? — Sí, **le** conozco. (Знаешь моего брата? — Да, знаю **его**.)
 
-### Порядок слов
+### Примеры употребления
 
-Беспредложные формы личных местоимений винительного падежа **ставятся перед глаголом** в личной форме. В отрицательном предложении — **после отрицания no**:
+| Español | Русский |
+|---------|---------|
+| ¿Dónde está mi bolso? — **Lo** tengo yo. | Где моя сумка? — **Она** у меня. |
+| ¿Me escuchas? | Ты **меня** слушаешь? |
+| **Lo** veo claro. | Я вижу **это** ясно. |`
+        },
+        {
+          id: 'direct-object-word-order',
+          title: 'Порядок слов',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Беспредложные формы личных местоимений винительного падежа **ставятся перед глаголом** в личной форме.
 
-- Mi amiga **me** llama. (Моя подруга звонит **мне**.)
-- No **te** veo. (Я **тебя** не вижу.)
-- Carlos **la** compra. (Карлос покупает **её** / **это**.)
-- Ellos no **nos** entienden. (Они не понимают **нас**.)
-
-### С неличными формами глагола
-
-С **инфинитивом и герундием** местоимения ставятся **после** них и **пишутся слитно**:
-
-- Quiero comprar**lo**. (Хочу купить **это/его**.)
-- Estoy leyéndo**la**. (Я читаю **её** / **это**. — про книгу)
-- Voy a llamar**te**. (Я собираюсь позвонить **тебе**.)
+В отрицательном предложении местоимение ставится **после отрицания no**:
 
 ### Примеры
 
 | Español | Русский |
 |---------|---------|
-| ¿Dónde está mi bolso? — **Lo** tengo yo. | Где моя сумка? — **Она** у меня. |
+| Mi amiga **me** llama. | Моя подруга звонит **мне**. |
+| No **te** veo. | Я **тебя** не вижу. |
+| Carlos **la** compra. | Карлос покупает **её** / **это**. |
+| Ellos no **nos** entienden. | Они не понимают **нас**. |
 | ¿Ves a María? — Sí, **la** veo. | Видишь Марию? — Да, вижу **её**. |
 | ¿Compras los libros? — Sí, **los** compro. | Покупаешь книги? — Да, покупаю **их**. |
-| ¿Me escuchas? | Ты **меня** слушаешь? |
 | Ellos no **nos** invitan a la fiesta. | Они не приглашают **нас** на праздник. |`
+        },
+        {
+          id: 'direct-object-non-finite',
+          title: 'Порядок слов с неличными формами глагола',
+          collapsible: true,
+          defaultOpen: false,
+          content: `С **инфинитивом и герундием** местоимения ставятся **после** них и **пишутся слитно**:
+
+### С инфинитивом
+
+- Quiero comprar**lo**. (Хочу купить **это/его**.)
+- Voy a llamar**te**. (Я собираюсь позвонить **тебе**.)
+- Necesito ver**la**. (Мне нужно увидеть **её**.)
+- Puedo ayudar**os**. (Я могу помочь **вам**.)
+
+### С герундием
+
+- Estoy leyéndo**la**. (Я читаю **её** / **это**. — про книгу)
+- Está mirándо**nos**. (Он смотрит на **нас**.)
+- Sigo esperándo**te**. (Я продолжаю ждать **тебя**.)
+
+**Важно**: При добавлении местоимения к герундию на окончание -ando/-iendo ставится графическое ударение, чтобы сохранить ударение на том же слоге:
+- leyendo → leyéndo**la**
+- mirando → mirándо**te**
+- esperando → esperándo**los**`
         },
         {
           id: 'combined-pronouns',
@@ -4415,6 +4446,244 @@ María: ¡Vamos!`,
       ]
     },
     exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3', 'ex-3-3-4', 'ex-3-3-5', 'ex-3-3-6', 'ex-3-3-7', 'ex-3-3-8', 'ex-3-3-9', 'ex-3-3-10', 'ex-3-3-11', 'ex-3-3-12', 'ex-3-3-13', 'ex-3-3-14', 'ex-3-3-15', 'ex-3-3-16', 'ex-3-3-17', 'ex-3-3-18', 'ex-3-3-19', 'ex-3-3-20', 'ex-3-3-21']
+  },
+
+  'lesson-3-4': {
+    id: 'lesson-3-4',
+    title: 'Урок 4: Спряжение отклоняющихся глаголов в настоящем времени изъявительного наклонения. Глаголы gustar / querer, saber / conocer. Повседневные занятия. Дни недели, месяцы',
+    moduleId: 'module-3',
+    grammar: {
+      title: 'Спряжение отклоняющихся глаголов в настоящем времени (Presente de Indicativo)',
+      intro: `В испанском языке глаголы делятся на три группы:
+
+**1. Правильные глаголы** (спрягаются по стандартным правилам).
+
+**2. Отклоняющиеся глаголы** (в корне происходит закономерное изменение гласной под ударением).
+
+**3. Глаголы индивидуального спряжения** (каждый нужно запоминать отдельно).
+
+В отклоняющихся глаголах изменения происходят во всех лицах, **кроме nosotros и vosotros**.`,
+      sections: [
+        {
+          id: 'stem-change-e-ie',
+          title: 'Чередование E → IE',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Это самая частая группа. Корневая **e** под ударением распадается на дифтонг **ie**.
+
+| Лицо | Pensar (думать) | Querer (хотеть/любить) | Sentir (чувствовать/сожалеть) |
+|------|----------------|----------------------|------------------------------|
+| yo | pienso | quiero | siento |
+| tú | piensas | quieres | sientes |
+| él/ella/Ud. | piensa | quiere | siente |
+| nosotros | pensamos | queremos | sentimos |
+| vosotros | pensáis | queréis | sentís |
+| ellos/ellas/Uds. | piensan | quieren | sienten |
+
+**Другие глаголы этого типа**: cerrar (закрывать), empezar (начинать), preferir (предпочитать), entender (понимать), perder (терять), comenzar (начинать).
+
+### Примеры
+
+- Pienso en mis vacaciones. (Я думаю о своем отпуске.)
+- ¿Qué quieres hacer hoy? (Что ты хочешь делать сегодня?)
+- Preferimos el café con leche. (Мы предпочитаем кофе с молоком.)
+- La clase empieza a las nueve. (Урок начинается в девять.)`
+        },
+        {
+          id: 'stem-change-o-ue',
+          title: 'Чередование O → UE',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Корневая **o** (или **u** в глаголе jugar) меняется на **ue**.
+
+| Лицо | Poder (мочь) | Volver (возвращаться) | Dormir (спать) |
+|------|-------------|---------------------|---------------|
+| yo | puedo | vuelvo | duermo |
+| tú | puedes | vuelves | duermes |
+| él/ella/Ud. | puede | vuelve | duerme |
+| nosotros | podemos | volvemos | dormimos |
+| vosotros | podéis | volvéis | dormís |
+| ellos/ellas/Uds. | pueden | vuelven | duermen |
+
+**Другие глаголы этого типа**: almorzar (обедать), recordar (помнить), contar (считать/рассказывать), encontrar (находить), costar (стоить), **jugar** (играть — u → ue).
+
+### Примеры
+
+- No puedo ir contigo hoy. (Я не могу пойти с тобой сегодня.)
+- ¿A qué hora vuelves a casa? (Во сколько ты возвращаешься домой?)
+- Mis hijos duermen ocho horas. (Мои дети спят восемь часов.)
+- Almorzamos a las dos. (Мы обедаем в два часа.)
+- Ellos juegan al fútbol en el parque. (Они играют в футбол в парке.)`
+        },
+        {
+          id: 'stem-change-e-i',
+          title: 'Чередование E → I',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Встречается только в глаголах на **-ir**. Корневая **e** меняется на **i**.
+
+| Лицо | Pedir (просить) | Servir (служить/обслуживать) |
+|------|---------------|--------------------------|
+| yo | pido | sirvo |
+| tú | pides | sirves |
+| él/ella/Ud. | pide | serve |
+| nosotros | pedimos | servimos |
+| vosotros | pedís | servís |
+| ellos/ellas/Uds. | piden | sirven |
+
+**Другие глаголы этого типа**: repetir (повторять), seguir (продолжать/следовать), vestir (одевать), medir (измерять).
+
+### Примеры
+
+- Paco pide un café con leche. (Пако просит кофе с молоком.)
+- ¿En qué restaurante sirven paella? (В каком ресторане подают паэлью?)
+- Ellos repiten la lección. (Они повторяют урок.)
+- Sigo estudiando español. (Я продолжаю изучать испанский.)`
+        },
+        {
+          id: 'stem-change-cer-cir-uir',
+          title: 'Глаголы на -CER, -CIR и -UIR',
+          collapsible: true,
+          defaultOpen: false,
+          content: `У этих глаголов меняется либо только форма "я", либо добавляется буква в корне.
+
+### Глаголы на -cer / -cir
+
+Получают в первом лице **-zco**:
+
+| Глагол | yo | tú | él/ella | nosotros | ellos |
+|--------|----|----|---------|----------|-------|
+| conocer (знать) | conozco | conoces | conoce | conocemos | conocen |
+| traducir (переводить) | traduzco | traduces | traduce | traducimos | traducen |
+| conducir (водить) | conduzco | conduces | conduce | conducimos | conducen |
+| parecer (казаться) | parezco | pareces | parece | parecemos | parecen |
+
+### Глаголы на -uir
+
+Добавляют букву **y** везде, кроме nosotros/vosotros:
+
+| Глагол | yo | tú | él/ella | nosotros | ellos |
+|--------|----|----|---------|----------|-------|
+| construir (строить) | construyo | construyes | construye | construimos | construyen |
+| huir (убегать) | huyo | huyes | huye | huimos | huyen |
+| incluir (включать) | incluyo | incluyes | incluye | incluimos | incluyen |
+
+### Примеры
+
+- Conozco muy bien esta ciudad. (Я очень хорошо знаю этот город.)
+- Traduzco textos del español al ruso. (Я перевожу тексты с испанского на русский.)
+- ¿Conduces tu coche nuevo? (Ты водишь свою новую машину?)
+- Construyen un edificio nuevo. (Они строят новое здание.)`
+        },
+        {
+          id: 'verb-prepositions',
+          title: 'Глаголы с предлогами',
+          collapsible: true,
+          defaultOpen: false,
+          content: `В испанском языке важно помнить предложное управление глаголов:
+
+| Глагол | Предлог | Пример |
+|--------|---------|--------|
+| pensar | **en** | Pienso **en** mis vacaciones. (Я думаю **о** своем отпуске.) |
+| empezar | **a** + инфинитив | Empiezo **a** estudiar ahora. (Я начинаю учиться сейчас.) |
+| jugar | **a** | Jugamos **a** las cartas. (Мы играем **в** карты.) |
+| despedirse | **de** | Nos despedimos **de** los amigos. (Мы прощаемся **с** друзьями.) |
+| soñar | **con** | Sueño **con** viajar. (Я мечтаю **о** путешествии.) |
+
+### Дополнительные примеры
+
+- Empezamos a trabajar a las ocho. (Мы начинаем работать в восемь.)
+- Ellos juegan al fútbol en el parque. (Они играют в футбол в парке.)
+- Vuelves a casa tarde. (Ты возвращаешься домой поздно.)
+- ¿Por qué mientes? (Почему ты лжешь?)
+- La película empieza a las ocho. (Фильм начинается в восемь.)`
+        },
+        {
+          id: 'saber-conocer',
+          title: 'Различие между SABER и CONOCER',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Следует различать глаголы **saber** и **conocer**, оба глагола могут переводиться как «знать».
+
+## SABER: знать, уметь
+
+**Saber algo** — знать что-либо (относится к конкретным фактам, сведениям, предполагающим точное знание, информацию):
+
+- Saber el número de teléfono — знать номер телефона
+- Saber la dirección — знать адрес
+- Saber el precio — знать цену
+- Saber la fecha de hoy — знать сегодняшнюю дату
+- **Sé** que tú hablas español. (Я **знаю**, что ты говоришь по-испански.)
+
+**Saber + infinitivo** — уметь делать что-либо:
+
+- ¿**Sabes** cocinar paella? (Ты **умеешь** готовить паэлью?)
+- No **sé** nadar bien. (Я не **умею** хорошо плавать.)
+
+## CONOCER: знать, быть знакомым
+
+**Conocer a alguien** — знать кого-либо, быть знакомым с кем-либо:
+
+- Conocer a María — знать Марию
+- Conocer a mis padres — знать моих родителей
+- Conocer al profesor — знать учителя
+
+**Conocer algo** — знать что-либо, разбираться в чем-то (относится к понятиям и областям знаний, которые нельзя познать в полном объеме):
+
+- Conocer la literatura clásica — знать классическую литературу (разбираться в ней)
+- Conocer la cocina española — знать испанскую кухню
+- **Conozco** muy bien este problema. (Я хорошо **знаком** с этой проблемой.)
+
+**Conocer algo** — знать, ориентироваться (о городах, улицах и других объектах):
+
+- Conocer Madrid — знать Мадрид (бывать там)
+- Conocer este barrio — знать этот район
+- Conocer el museo del Prado — знать музей Прадо
+
+### Таблица сравнения
+
+| SABER | CONOCER |
+|-------|---------|
+| Sé tu dirección. (Я знаю твой адрес.) | Conozco a tu hermano. (Я знаю твоего брата.) |
+| Sabemos hablar español. (Мы умеем говорить по-испански.) | Conocemos bien Madrid. (Мы хорошо знаем Мадрид.) |
+| ¿Sabes cuánto cuesta? (Ты знаешь, сколько это стоит?) | ¿Conoces la literatura española? (Ты знаешь испанскую литературу?) |`
+        },
+        {
+          id: 'gustar-querer',
+          title: 'Различие между GUSTAR и QUERER',
+          collapsible: true,
+          defaultOpen: false,
+          content: `Следует различать глаголы **gustar** и **querer**.
+
+## GUSTAR: нравиться
+
+Глагол **gustar** используется с местоимением дательного падежа и означает **нравиться**:
+
+- **Me gusta** el café. (Мне **нравится** кофе.)
+- **Te gustan** los perros. (Тебе **нравятся** собаки.)
+- **Le gusta** bailar. (Ему/Ей **нравится** танцевать.)
+
+## QUERER: хотеть, любить
+
+Глагол **querer** — отклоняющийся (e → ie) и означает **хотеть** или **любить** (о людях):
+
+- **Quiero** un café. (Я **хочу** кофе.)
+- **Quieres** viajar. (Ты **хочешь** путешествовать.)
+- Mi madre **quiere** mucho a mi padre. (Моя мама очень **любит** моего папу.)
+
+### Таблица сравнения
+
+| GUSTAR (нравиться) | QUERER (хотеть, любить) |
+|-------------------|------------------------|
+| Me gustan los zapatos. (Мне нравятся туфли/обувь.) | Quiero un café. (Я хочу кофе.) |
+| A mi hermana le gusta este color. (Моей сестре нравится этот цвет.) | Mi madre quiere mucho a mi padre. (Моя мама очень любит моего папу.) |
+| A usted le gusta la calma. (Вы любите спокойствие.) | Mi amigo quiere viajar a Madrid. (Мой друг хочет поехать в Мадрид.) |
+| Nos gusta estudiar español. (Нам нравится изучать испанский.) | Queremos comprar una casa. (Мы хотим купить дом.) |`
+        }
+      ]
+    },
+    vocabulary: [],
+    exercises: []
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -12594,7 +12863,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: '¿Tienes las entradas?', answer: '¿Las tienes?' },
       { sentence: 'No entiendo la pregunta.', answer: 'No la entiendo.' },
       { sentence: 'Invitamos a María a la fiesta.', answer: 'La invitamos a la fiesta.' },
-      { sentence: 'El profesor explica la gramática.', answer: 'El profesor la explica.' }
+      { sentence: 'El profesor explica la gramática.', answer: 'El profesor la explica.' },
+      { sentence: 'Busco mis gafas por toda la casa.', answer: 'Las busco por toda la casa.' },
+      { sentence: 'Mis amigos visitan el museo del Prado.', answer: 'Mis amigos lo visitan.' },
+      { sentence: 'Escribo un correo a mi jefa.', answer: 'Lo escribo a mi jefa.' },
+      { sentence: '¿Ves a estos estudiantes en la universidad?', answer: '¿Los ves en la universidad?' },
+      { sentence: 'Necesitamos las llaves del coche.', answer: 'Las necesitamos.' }
     ]
   },
 
@@ -12689,7 +12963,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Os doy el dinero.', answer: 'No os doy el dinero.' },
       { sentence: 'Los invitamos a la fiesta.', answer: 'No los invitamos a la fiesta.' },
       { sentence: 'Me lo das.', answer: 'No me lo das.' },
-      { sentence: 'Se la explicamos.', answer: 'No se la explicamos.' }
+      { sentence: 'Se la explicamos.', answer: 'No se la explicamos.' },
+      { sentence: 'Te gusta estudiar.', answer: 'No te gusta estudiar.' },
+      { sentence: 'Las compro en el mercado.', answer: 'No las compro en el mercado.' },
+      { sentence: 'Nos llaman por teléfono.', answer: 'No nos llaman por teléfono.' },
+      { sentence: 'Se los mando mañana.', answer: 'No se los mando mañana.' },
+      { sentence: 'Me encanta este restaurante.', answer: 'No me encanta este restaurante.' }
     ]
   },
 
