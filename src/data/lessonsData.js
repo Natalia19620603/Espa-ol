@@ -4682,8 +4682,75 @@ María: ¡Vamos!`,
         }
       ]
     },
-    vocabulary: [],
-    exercises: []
+    vocabulary: [
+      // Дни недели
+      { word: 'lunes', translation: 'понедельник', audioUrl: null },
+      { word: 'martes', translation: 'вторник', audioUrl: null },
+      { word: 'miércoles', translation: 'среда', audioUrl: null },
+      { word: 'jueves', translation: 'четверг', audioUrl: null },
+      { word: 'viernes', translation: 'пятница', audioUrl: null },
+      { word: 'sábado', translation: 'суббота', audioUrl: null },
+      { word: 'domingo', translation: 'воскресенье', audioUrl: null },
+
+      // Месяцы
+      { word: 'enero', translation: 'январь', audioUrl: null },
+      { word: 'febrero', translation: 'февраль', audioUrl: null },
+      { word: 'marzo', translation: 'март', audioUrl: null },
+      { word: 'abril', translation: 'апрель', audioUrl: null },
+      { word: 'mayo', translation: 'май', audioUrl: null },
+      { word: 'junio', translation: 'июнь', audioUrl: null },
+      { word: 'julio', translation: 'июль', audioUrl: null },
+      { word: 'agosto', translation: 'август', audioUrl: null },
+      { word: 'septiembre', translation: 'сентябрь', audioUrl: null },
+      { word: 'octubre', translation: 'октябрь', audioUrl: null },
+      { word: 'noviembre', translation: 'ноябрь', audioUrl: null },
+      { word: 'diciembre', translation: 'декабрь', audioUrl: null },
+
+      // Завтрак и еда
+      { word: 'desayuno', translation: 'завтрак', audioUrl: null },
+      { word: 'desayunar', translation: 'завтракать', audioUrl: null },
+      { word: 'merienda', translation: 'полдник', audioUrl: null },
+      { word: 'merendar', translation: 'полдничать', audioUrl: null },
+      { word: 'desayuno continental', translation: 'континентальный завтрак', audioUrl: null },
+      { word: 'desayuno europeo', translation: 'европейский завтрак', audioUrl: null },
+      { word: 'desayuno andaluz', translation: 'андалузский завтрак', audioUrl: null },
+      { word: 'desayuno madrileño', translation: 'мадридский завтрак', audioUrl: null },
+      { word: 'leche', translation: 'молоко', audioUrl: null },
+      { word: 'café', translation: 'кофе', audioUrl: null },
+      { word: 'café con leche', translation: 'кофе с молоком', audioUrl: null },
+      { word: 'té', translation: 'чай', audioUrl: null },
+      { word: 'té con limón', translation: 'чай с лимоном', audioUrl: null },
+      { word: 'chocolate caliente', translation: 'горячий шоколад', audioUrl: null },
+      { word: 'zumo de frutas', translation: 'фруктовый сок', audioUrl: null },
+      { word: 'zumo de naranja', translation: 'апельсиновый сок', audioUrl: null },
+      { word: 'refresco', translation: 'прохладительный напиток', audioUrl: null },
+      { word: 'magdalena', translation: 'кекс', audioUrl: null },
+      { word: 'cereales', translation: 'хлопья', audioUrl: null },
+      { word: 'huevo', translation: 'яйцо', audioUrl: null },
+      { word: 'queso', translation: 'сыр', audioUrl: null },
+      { word: 'pan', translation: 'хлеб', audioUrl: null },
+      { word: 'tomate', translation: 'помидор', audioUrl: null },
+      { word: 'aceite', translation: 'растительное масло', audioUrl: null },
+      { word: 'pan con tomate y aceite de oliva', translation: 'хлеб с помидором и оливковым маслом', audioUrl: null },
+      { word: 'aceite de oliva', translation: 'оливковое масло', audioUrl: null },
+      { word: 'bocadillo de jamón', translation: 'бутерброд с ветчиной', audioUrl: null },
+      { word: 'tostada', translation: 'тост', audioUrl: null },
+      { word: 'mantequilla', translation: 'сливочное масло', audioUrl: null },
+      { word: 'tostada con mantequilla', translation: 'тост со сливочным маслом', audioUrl: null },
+      { word: 'mermelada', translation: 'джем', audioUrl: null },
+      { word: 'bollo', translation: 'булочка', audioUrl: null },
+      { word: 'bollería', translation: 'булочные изделия', audioUrl: null },
+      { word: 'churros', translation: 'чуррос', audioUrl: null },
+      { word: 'churros con chocolate', translation: 'чуррос с шоколадом', audioUrl: null },
+      { word: 'sandwich', translation: 'сендвич', audioUrl: null },
+      { word: 'galletas', translation: 'сухое печенье', audioUrl: null },
+      { word: 'cafetería', translation: 'кафе', audioUrl: null },
+      { word: 'abrir', translation: 'открывать, открываться', audioUrl: null },
+      { word: 'cerrar', translation: 'закрывать, закрываться', audioUrl: null },
+      { word: 'empezar', translation: 'начинать', audioUrl: null },
+      { word: 'terminar de hacer algo', translation: 'заканчивать что-либо делать', audioUrl: null }
+    ],
+    exercises: ['ex-3-4-1', 'ex-3-4-2', 'ex-3-4-3', 'ex-3-4-4', 'ex-3-4-5', 'ex-3-4-6', 'ex-3-4-7', 'ex-3-4-8', 'ex-3-4-9', 'ex-3-4-10', 'ex-3-4-11', 'ex-3-4-12', 'ex-3-4-13', 'ex-3-4-14', 'ex-3-4-15']
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -13214,6 +13281,367 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мы видим объявление о продаже таунхауса с гаражом и садом.', correct: 'Vemos un anuncio de venta de un adosado con garaje y jardín.', alternatives: ['Vemos un anuncio sobre la venta de un adosado con garaje y jardín', 'Vemos un anuncio de venta de una casa adosada con garaje y jardín'] },
       { russian: 'Ванная комната большая, в ней есть и душ, и ванна.', correct: 'El baño es grande, tiene ducha y bañera.', alternatives: ['El cuarto de baño es grande, tiene ducha y bañera', 'La habitación de baño es grande, en ella hay ducha y bañera'] },
       { russian: 'После ремонта квартира выглядит как новая, собственник делает нам скидку на аренду.', correct: 'Después de la reparación el piso parece nuevo, el propietario nos hace un descuento en el alquiler.', alternatives: ['Después del arreglo el piso parece nuevo, el propietario nos da un descuento en el alquiler', 'Tras la reparación el apartamento parece nuevo, el propietario nos hace descuento en la renta'] }
+    ]
+  },
+
+  // Módulo 3 Lección 4 - Упражнения на отклоняющиеся глаголы и словарь
+  'ex-3-4-1': {
+    id: 'ex-3-4-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Отклоняющиеся глаголы E → IE',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ (pensar) en mis vacaciones.', verb: 'pensar', correct: 'pienso', blanks: 1 },
+      { sentence: 'Tú ___ (querer) un café con leche.', verb: 'querer', correct: 'quieres', blanks: 1 },
+      { sentence: 'Ella ___ (preferir) el té al café.', verb: 'preferir', correct: 'prefiere', blanks: 1 },
+      { sentence: 'Nosotros ___ (empezar) a trabajar a las ocho.', verb: 'empezar', correct: 'empezamos', blanks: 1 },
+      { sentence: 'Vosotros ___ (cerrar) la tienda a las nueve.', verb: 'cerrar', correct: 'cerráis', blanks: 1 },
+      { sentence: 'Ellos ___ (pensar) estudiar español.', verb: 'pensar', correct: 'piensan', blanks: 1 },
+      { sentence: '¿Qué ___ (querer) hacer tú este fin de semana?', verb: 'querer', correct: 'quieres', blanks: 1 },
+      { sentence: 'La clase ___ (empezar) a las nueve de la mañana.', verb: 'empezar', correct: 'empieza', blanks: 1 },
+      { sentence: 'Nosotros ___ (preferir) desayunar en casa.', verb: 'preferir', correct: 'preferimos', blanks: 1 },
+      { sentence: 'Yo ___ (cerrar) la ventana porque hace frío.', verb: 'cerrar', correct: 'cierro', blanks: 1 },
+      { sentence: 'Mi hermano ___ (querer) comprar un coche nuevo.', verb: 'querer', correct: 'quiere', blanks: 1 },
+      { sentence: 'Tú ___ (empezar) el curso en septiembre.', verb: 'empezar', correct: 'empiezas', blanks: 1 },
+      { sentence: '¿En qué ___ (pensar) vosotros?', verb: 'pensar', correct: 'pensáis', blanks: 1 },
+      { sentence: 'Mis padres ___ (preferir) viajar en agosto.', verb: 'preferir', correct: 'prefieren', blanks: 1 },
+      { sentence: 'La cafetería ___ (cerrar) los domingos.', verb: 'cerrar', correct: 'cierra', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-2': {
+    id: 'ex-3-4-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Отклоняющиеся глаголы O → UE',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo no ___ (poder) ir contigo hoy.', verb: 'poder', correct: 'puedo', blanks: 1 },
+      { sentence: 'Tú ___ (volver) a casa tarde.', verb: 'volver', correct: 'vuelves', blanks: 1 },
+      { sentence: 'Mi hijo ___ (dormir) ocho horas cada noche.', verb: 'dormir', correct: 'duerme', blanks: 1 },
+      { sentence: 'Nosotros ___ (almorzar) a las dos.', verb: 'almorzar', correct: 'almorzamos', blanks: 1 },
+      { sentence: 'Vosotros ___ (jugar) al fútbol los sábados.', verb: 'jugar', correct: 'jugáis', blanks: 1 },
+      { sentence: 'Ellos ___ (poder) venir a la fiesta.', verb: 'poder', correct: 'pueden', blanks: 1 },
+      { sentence: '¿A qué hora ___ (volver) tú del trabajo?', verb: 'volver', correct: 'vuelves', blanks: 1 },
+      { sentence: 'Los niños ___ (dormir) en su habitación.', verb: 'dormir', correct: 'duermen', blanks: 1 },
+      { sentence: 'Yo ___ (almorzar) en la cafetería de la universidad.', verb: 'almorzar', correct: 'almuerzo', blanks: 1 },
+      { sentence: 'Nosotros ___ (jugar) a las cartas por la noche.', verb: 'jugar', correct: 'jugamos', blanks: 1 },
+      { sentence: '¿___ (poder) vosotros ayudarme?', verb: 'poder', correct: 'Podéis', blanks: 1 },
+      { sentence: 'Mi madre ___ (volver) del supermercado a las seis.', verb: 'volver', correct: 'vuelve', blanks: 1 },
+      { sentence: 'Yo ___ (dormir) bien cuando hace frío.', verb: 'dormir', correct: 'duermo', blanks: 1 },
+      { sentence: '¿Dónde ___ (almorzar) ellos normalmente?', verb: 'almorzar', correct: 'almuerzan', blanks: 1 },
+      { sentence: 'Mi hermana ___ (jugar) al tenis todos los martes.', verb: 'jugar', correct: 'juega', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-3': {
+    id: 'ex-3-4-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Отклоняющиеся глаголы E → I',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ (pedir) un café con leche.', verb: 'pedir', correct: 'pido', blanks: 1 },
+      { sentence: 'Tú ___ (servir) el desayuno en la terraza.', verb: 'servir', correct: 'sirves', blanks: 1 },
+      { sentence: 'El profesor ___ (repetir) la explicación.', verb: 'repetir', correct: 'repite', blanks: 1 },
+      { sentence: 'Nosotros ___ (seguir) estudiando español.', verb: 'seguir', correct: 'seguimos', blanks: 1 },
+      { sentence: 'Vosotros ___ (pedir) churros con chocolate.', verb: 'pedir', correct: 'pedís', blanks: 1 },
+      { sentence: 'Ellos ___ (servir) el desayuno hasta las once.', verb: 'servir', correct: 'sirven', blanks: 1 },
+      { sentence: '¿Qué ___ (pedir) tú para desayunar?', verb: 'pedir', correct: 'pides', blanks: 1 },
+      { sentence: 'El camarero ___ (servir) las tostadas con mantequilla.', verb: 'servir', correct: 'sirve', blanks: 1 },
+      { sentence: 'Nosotros ___ (repetir) el vocabulario en casa.', verb: 'repetir', correct: 'repetimos', blanks: 1 },
+      { sentence: 'Yo ___ (seguir) con mis clases de español.', verb: 'seguir', correct: 'sigo', blanks: 1 },
+      { sentence: '¿___ (repetir) vosotros los ejercicios?', verb: 'repetir', correct: 'Repetís', blanks: 1 },
+      { sentence: 'Mis amigos ___ (pedir) zumo de naranja.', verb: 'pedir', correct: 'piden', blanks: 1 },
+      { sentence: 'Tú ___ (seguir) en tu apartamento del centro.', verb: 'seguir', correct: 'sigues', blanks: 1 },
+      { sentence: 'La cafetería ___ (servir) desayunos continentales.', verb: 'servir', correct: 'sirve', blanks: 1 },
+      { sentence: 'Ellos ___ (repetir) el curso de gramática.', verb: 'repetir', correct: 'repiten', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-4': {
+    id: 'ex-3-4-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Глаголы на -CER, -CIR',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ (conocer) muy bien esta ciudad.', verb: 'conocer', correct: 'conozco', blanks: 1 },
+      { sentence: 'Tú ___ (traducir) del español al ruso.', verb: 'traducir', correct: 'traduces', blanks: 1 },
+      { sentence: 'Ella ___ (conducir) un coche nuevo.', verb: 'conducir', correct: 'conduce', blanks: 1 },
+      { sentence: 'Nosotros ___ (conocer) a tu hermano.', verb: 'conocer', correct: 'conocemos', blanks: 1 },
+      { sentence: 'Vosotros ___ (traducir) textos técnicos.', verb: 'traducir', correct: 'traducís', blanks: 1 },
+      { sentence: 'Ellos ___ (conocer) Madrid muy bien.', verb: 'conocer', correct: 'conocen', blanks: 1 },
+      { sentence: '¿___ (conocer) tú a María?', verb: 'conocer', correct: 'Conoces', blanks: 1 },
+      { sentence: 'Yo ___ (traducir) este libro al español.', verb: 'traducir', correct: 'traduzco', blanks: 1 },
+      { sentence: 'Mi padre ___ (conducir) muy bien.', verb: 'conducir', correct: 'conduce', blanks: 1 },
+      { sentence: 'Nosotros no ___ (conocer) este barrio.', verb: 'conocer', correct: 'conocemos', blanks: 1 },
+      { sentence: '¿___ (conducir) vosotros al trabajo?', verb: 'conducir', correct: 'Conducís', blanks: 1 },
+      { sentence: 'Yo ___ (conocer) la literatura española.', verb: 'conocer', correct: 'conozco', blanks: 1 },
+      { sentence: 'Tú ___ (conducir) un taxi en Valencia.', verb: 'conducir', correct: 'conduces', blanks: 1 },
+      { sentence: 'Ellos ___ (traducir) documentos oficiales.', verb: 'traducir', correct: 'traducen', blanks: 1 },
+      { sentence: 'Mi hermana ___ (conocer) a muchas personas.', verb: 'conocer', correct: 'conoce', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-5': {
+    id: 'ex-3-4-5',
+    type: 'fillblank',
+    title: 'Упражнение 5: Глаголы на -UIR',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Ellos ___ (construir) un edificio nuevo.', verb: 'construir', correct: 'construyen', blanks: 1 },
+      { sentence: 'Yo ___ (incluir) todos los datos en el informe.', verb: 'incluir', correct: 'incluyo', blanks: 1 },
+      { sentence: 'Tú ___ (construir) casas modernas.', verb: 'construir', correct: 'construyes', blanks: 1 },
+      { sentence: 'La empresa ___ (construir) pisos en el centro.', verb: 'construir', correct: 'construye', blanks: 1 },
+      { sentence: 'Nosotros ___ (incluir) el desayuno en el precio.', verb: 'incluir', correct: 'incluimos', blanks: 1 },
+      { sentence: 'Vosotros ___ (construir) muebles de madera.', verb: 'construir', correct: 'construís', blanks: 1 },
+      { sentence: '¿Qué ___ (incluir) este menú?', verb: 'incluir', correct: 'incluye', blanks: 1 },
+      { sentence: 'Yo ___ (construir) proyectos en mi trabajo.', verb: 'construir', correct: 'construyo', blanks: 1 },
+      { sentence: 'El hotel ___ (incluir) el desayuno continental.', verb: 'incluir', correct: 'incluye', blanks: 1 },
+      { sentence: 'Tú ___ (incluir) muchos ejemplos en tu presentación.', verb: 'incluir', correct: 'incluyes', blanks: 1 },
+      { sentence: 'Nosotros ___ (construir) relaciones con los clientes.', verb: 'construir', correct: 'construimos', blanks: 1 },
+      { sentence: 'Los arquitectos ___ (construir) edificios modernos.', verb: 'construir', correct: 'construyen', blanks: 1 },
+      { sentence: '¿___ (incluir) vosotros los impuestos en el precio?', verb: 'incluir', correct: 'Incluís', blanks: 1 },
+      { sentence: 'La cafetería ___ (incluir) zumo de frutas en el menú.', verb: 'incluir', correct: 'incluye', blanks: 1 },
+      { sentence: 'Ellos ___ (construir) una casa rural en el campo.', verb: 'construir', correct: 'construyen', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-6': {
+    id: 'ex-3-4-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: SABER vs CONOCER',
+    description: 'Вставьте правильный глагол в нужной форме: saber или conocer',
+    questions: [
+      { sentence: 'Yo ___ tu dirección.', correct: 'sé', blanks: 1 },
+      { sentence: 'Tú ___ a mi hermano.', correct: 'conoces', blanks: 1 },
+      { sentence: 'Ella ___ hablar español muy bien.', correct: 'sabe', blanks: 1 },
+      { sentence: 'Nosotros ___ Madrid.', correct: 'conocemos', blanks: 1 },
+      { sentence: 'Vosotros ___ cocinar paella.', correct: 'sabéis', blanks: 1 },
+      { sentence: 'Ellos ___ la literatura clásica.', correct: 'conocen', blanks: 1 },
+      { sentence: '¿___ tú cuánto cuesta el desayuno?', correct: 'Sabes', blanks: 1 },
+      { sentence: 'Yo ___ este restaurante muy bien.', correct: 'conozco', blanks: 1 },
+      { sentence: 'Mi padre ___ conducir camiones.', correct: 'sabe', blanks: 1 },
+      { sentence: 'Nosotros no ___ a tu profesor.', correct: 'conocemos', blanks: 1 },
+      { sentence: '¿___ vosotros el precio del alquiler?', correct: 'Sabéis', blanks: 1 },
+      { sentence: 'Ella ___ este barrio porque vive aquí.', correct: 'conoce', blanks: 1 },
+      { sentence: 'Yo ___ que mañana es martes.', correct: 'sé', blanks: 1 },
+      { sentence: 'Tú ___ bailar flamenco.', correct: 'sabes', blanks: 1 },
+      { sentence: 'Mis amigos ___ la cocina española.', correct: 'conocen', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-7': {
+    id: 'ex-3-4-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: GUSTAR vs QUERER',
+    description: 'Вставьте правильный глагол в нужной форме: gustar или querer',
+    questions: [
+      { sentence: 'A mí me ___ el café con leche.', correct: 'gusta', blanks: 1 },
+      { sentence: 'Yo ___ un zumo de naranja.', correct: 'quiero', blanks: 1 },
+      { sentence: 'A ti te ___ los churros con chocolate.', correct: 'gustan', blanks: 1 },
+      { sentence: 'Tú ___ desayunar en la cafetería.', correct: 'quieres', blanks: 1 },
+      { sentence: 'A ella le ___ viajar en agosto.', correct: 'gusta', blanks: 1 },
+      { sentence: 'Mi hermana ___ comprar una casa.', correct: 'quiere', blanks: 1 },
+      { sentence: 'A nosotros nos ___ este barrio.', correct: 'gusta', blanks: 1 },
+      { sentence: 'Nosotros ___ alquilar un piso amueblado.', correct: 'queremos', blanks: 1 },
+      { sentence: 'A vosotros os ___ las tostadas con mermelada.', correct: 'gustan', blanks: 1 },
+      { sentence: 'Vosotros ___ estudiar español.', correct: 'queréis', blanks: 1 },
+      { sentence: 'A ellos les ___ dormir hasta tarde los domingos.', correct: 'gusta', blanks: 1 },
+      { sentence: 'Mis padres ___ mucho a mis abuelos.', correct: 'quieren', blanks: 1 },
+      { sentence: '¿Te ___ el chocolate caliente?', correct: 'gusta', blanks: 1 },
+      { sentence: '¿___ tú un bocadillo de jamón?', correct: 'Quieres', blanks: 1 },
+      { sentence: 'A mi profesor le ___ enseñar gramática.', correct: 'gusta', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-8': {
+    id: 'ex-3-4-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: Дни недели',
+    description: 'Вставьте правильный день недели',
+    questions: [
+      { sentence: 'Hoy es lunes, mañana es ___.', correct: 'martes', blanks: 1 },
+      { sentence: 'El primer día de la semana es ___.', correct: 'lunes', blanks: 1 },
+      { sentence: 'Después del martes viene ___.', correct: 'miércoles', blanks: 1 },
+      { sentence: 'El ___ es el cuarto día de la semana.', correct: 'jueves', blanks: 1 },
+      { sentence: 'El último día laboral es ___.', correct: 'viernes', blanks: 1 },
+      { sentence: 'El fin de semana empieza el ___.', correct: 'sábado', blanks: 1 },
+      { sentence: 'El ___ es el día de descanso.', correct: 'domingo', blanks: 1 },
+      { sentence: 'Trabajo de ___ a viernes.', correct: 'lunes', blanks: 1 },
+      { sentence: 'La cafetería cierra los ___.', correct: 'domingos', blanks: 1 },
+      { sentence: 'Voy al gimnasio los ___ y jueves.', correct: 'martes', blanks: 1 },
+      { sentence: 'Los ___ juego al fútbol.', correct: 'sábados', blanks: 1 },
+      { sentence: 'El curso empieza el ___ 5 de septiembre.', correct: 'lunes', blanks: 1 },
+      { sentence: 'No trabajo los ___ por la tarde.', correct: 'viernes', blanks: 1 },
+      { sentence: 'Los ___ almuerzo con mi familia.', correct: 'domingos', blanks: 1 },
+      { sentence: 'Hoy es viernes, ayer fue ___.', correct: 'jueves', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-9': {
+    id: 'ex-3-4-9',
+    type: 'fillblank',
+    title: 'Упражнение 9: Месяцы',
+    description: 'Вставьте правильный месяц',
+    questions: [
+      { sentence: 'El primer mes del año es ___.', correct: 'enero', blanks: 1 },
+      { sentence: 'El Día de San Valentín es el 14 de ___.', correct: 'febrero', blanks: 1 },
+      { sentence: 'La primavera empieza en ___.', correct: 'marzo', blanks: 1 },
+      { sentence: 'El cuarto mes del año es ___.', correct: 'abril', blanks: 1 },
+      { sentence: 'El Día del Trabajo es el 1 de ___.', correct: 'mayo', blanks: 1 },
+      { sentence: 'El verano empieza en ___.', correct: 'junio', blanks: 1 },
+      { sentence: 'Hace mucho calor en ___ y agosto.', correct: 'julio', blanks: 1 },
+      { sentence: 'Muchas personas tienen vacaciones en ___.', correct: 'agosto', blanks: 1 },
+      { sentence: 'El curso escolar empieza en ___.', correct: 'septiembre', blanks: 1 },
+      { sentence: 'El otoño empieza en ___.', correct: 'octubre', blanks: 1 },
+      { sentence: 'El penúltimo mes del año es ___.', correct: 'noviembre', blanks: 1 },
+      { sentence: 'La Navidad es en ___.', correct: 'diciembre', blanks: 1 },
+      { sentence: 'Mi cumpleaños es el 15 de ___.', correct: 'enero', blanks: 1 },
+      { sentence: 'Viajamos a España en ___ porque hace buen tiempo.', correct: 'mayo', blanks: 1 },
+      { sentence: 'El año termina el 31 de ___.', correct: 'diciembre', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-10': {
+    id: 'ex-3-4-10',
+    type: 'fillblank',
+    title: 'Упражнение 10: Словарь урока - Завтрак (часть 1)',
+    description: 'Вставьте подходящее слово из словаря урока',
+    questions: [
+      { sentence: 'Por la mañana siempre tomo un ___.', correct: 'desayuno', blanks: 1 },
+      { sentence: 'Me gusta ___ en la terraza.', correct: 'desayunar', blanks: 1 },
+      { sentence: 'A las cinco de la tarde tomo una ___.', correct: 'merienda', blanks: 1 },
+      { sentence: 'En España, la ___ es importante para los niños.', correct: 'merienda', blanks: 1 },
+      { sentence: 'Prefiero tomar ___ con cereales.', correct: 'leche', blanks: 1 },
+      { sentence: 'Me encanta el ___ con leche.', correct: 'café', blanks: 1 },
+      { sentence: 'Por la mañana bebo ___ con limón.', correct: 'té', blanks: 1 },
+      { sentence: 'A los niños les gusta el ___ caliente.', correct: 'chocolate', blanks: 1 },
+      { sentence: 'Quiero un ___ de naranja, por favor.', correct: 'zumo', blanks: 1 },
+      { sentence: 'Como ___ con leche por la mañana.', correct: 'cereales', blanks: 1 },
+      { sentence: 'Un ___ frito es típico del desayuno inglés.', correct: 'huevo', blanks: 1 },
+      { sentence: 'Me gusta el ___ manchego.', correct: 'queso', blanks: 1 },
+      { sentence: 'El ___ es la base del desayuno español.', correct: 'pan', blanks: 1 },
+      { sentence: 'Pongo ___ en la ensalada.', correct: 'tomate', blanks: 1 },
+      { sentence: 'El ___ de oliva es muy saludable.', correct: 'aceite', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-11': {
+    id: 'ex-3-4-11',
+    type: 'fillblank',
+    title: 'Упражнение 11: Словарь урока - Завтрак (часть 2)',
+    description: 'Вставьте подходящее слово или выражение',
+    questions: [
+      { sentence: 'Un ___ de jamón es perfecto para el desayuno.', correct: 'bocadillo', blanks: 1 },
+      { sentence: 'Quiero una ___ con mantequilla.', correct: 'tostada', blanks: 1 },
+      { sentence: 'Pongo ___ en el pan.', correct: 'mantequilla', blanks: 1 },
+      { sentence: 'Me gusta la tostada con ___ de fresa.', correct: 'mermelada', blanks: 1 },
+      { sentence: 'Un ___ con chocolate es un desayuno típico español.', correct: 'bollo', blanks: 1 },
+      { sentence: 'La ___ es muy popular en España.', correct: 'bollería', blanks: 1 },
+      { sentence: 'Los ___ son típicos de Madrid.', correct: 'churros', blanks: 1 },
+      { sentence: 'Me encantan los ___ con chocolate caliente.', correct: 'churros', blanks: 1 },
+      { sentence: 'Preparo un ___ para el almuerzo.', correct: 'sandwich', blanks: 1 },
+      { sentence: 'Como ___ con el té.', correct: 'galletas', blanks: 1 },
+      { sentence: 'Desayuno en una ___ cerca de mi casa.', correct: 'cafetería', blanks: 1 },
+      { sentence: 'La tienda ___ a las nueve de la mañana.', correct: 'abre', blanks: 1 },
+      { sentence: 'La cafetería ___ a las diez de la noche.', correct: 'cierra', blanks: 1 },
+      { sentence: 'Las clases ___ en septiembre.', correct: 'empiezan', blanks: 1 },
+      { sentence: 'Yo ___ de trabajar a las seis.', correct: 'termino', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-12': {
+    id: 'ex-3-4-12',
+    type: 'fillblank',
+    title: 'Упражнение 12: Смешанная практика отклоняющихся глаголов',
+    description: 'Поставьте глагол в правильную форму',
+    questions: [
+      { sentence: 'Yo ___ (querer) churros con chocolate.', verb: 'querer', correct: 'quiero', blanks: 1 },
+      { sentence: 'Tú ___ (poder) desayunar conmigo.', verb: 'poder', correct: 'puedes', blanks: 1 },
+      { sentence: 'Ella ___ (preferir) el té al café.', verb: 'preferir', correct: 'prefiere', blanks: 1 },
+      { sentence: 'Nosotros ___ (pedir) tostadas con mermelada.', verb: 'pedir', correct: 'pedimos', blanks: 1 },
+      { sentence: 'Vosotros ___ (volver) a casa para almorzar.', verb: 'volver', correct: 'volvéis', blanks: 1 },
+      { sentence: 'Ellos ___ (empezar) a trabajar a las ocho.', verb: 'empezar', correct: 'empiezan', blanks: 1 },
+      { sentence: '¿Qué ___ (pensar) tú del desayuno andaluz?', verb: 'pensar', correct: 'piensas', blanks: 1 },
+      { sentence: 'La cafetería ___ (cerrar) los domingos.', verb: 'cerrar', correct: 'cierra', blanks: 1 },
+      { sentence: 'Yo ___ (dormir) siete horas cada noche.', verb: 'dormir', correct: 'duermo', blanks: 1 },
+      { sentence: 'Tú ___ (servir) el desayuno en la terraza.', verb: 'servir', correct: 'sirves', blanks: 1 },
+      { sentence: 'Mis hijos ___ (jugar) en el parque los sábados.', verb: 'jugar', correct: 'juegan', blanks: 1 },
+      { sentence: 'Nosotros ___ (repetir) el vocabulario nuevo.', verb: 'repetir', correct: 'repetimos', blanks: 1 },
+      { sentence: '¿A qué hora ___ (almorzar) vosotros?', verb: 'almorzar', correct: 'almorzáis', blanks: 1 },
+      { sentence: 'Ella ___ (seguir) estudiando en la universidad.', verb: 'seguir', correct: 'sigue', blanks: 1 },
+      { sentence: 'Ellos no ___ (poder) venir el martes.', verb: 'poder', correct: 'pueden', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-13': {
+    id: 'ex-3-4-13',
+    type: 'fillblank',
+    title: 'Упражнение 13: Глаголы с предлогами',
+    description: 'Вставьте правильный предлог и форму глагола',
+    questions: [
+      { sentence: 'Pienso ___ mis vacaciones en agosto.', correct: 'en', blanks: 1 },
+      { sentence: 'Empiezo ___ estudiar a las nueve.', correct: 'a', blanks: 1 },
+      { sentence: 'Los niños juegan ___ fútbol.', correct: 'al', blanks: 1 },
+      { sentence: 'Nos despedimos ___ nuestros amigos.', correct: 'de', blanks: 1 },
+      { sentence: 'Sueño ___ viajar a España.', correct: 'con', blanks: 1 },
+      { sentence: '¿___ qué piensas?', correct: 'En', blanks: 1 },
+      { sentence: 'Empezamos ___ trabajar el lunes.', correct: 'a', blanks: 1 },
+      { sentence: 'Mi hermano juega ___ tenis los martes.', correct: 'al', blanks: 1 },
+      { sentence: 'Me despido ___ ti hasta mañana.', correct: 'de', blanks: 1 },
+      { sentence: 'Ellos sueñan ___ comprar una casa.', correct: 'con', blanks: 1 },
+      { sentence: 'Pienso ___ mi familia todos los días.', correct: 'en', blanks: 1 },
+      { sentence: 'La clase empieza ___ las diez.', correct: 'a', blanks: 1 },
+      { sentence: 'Jugamos ___ cartas por la noche.', correct: 'a', blanks: 1 },
+      { sentence: 'Nos despedimos ___ los vecinos.', correct: 'de', blanks: 1 },
+      { sentence: 'Sueño ___ tener un chalé en el campo.', correct: 'con', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-14': {
+    id: 'ex-3-4-14',
+    type: 'fillblank',
+    title: 'Упражнение 14: Комплексное упражнение',
+    description: 'Вставьте правильную форму глагола или слово',
+    questions: [
+      { sentence: 'Los lunes yo ___ (desayunar) en casa.', verb: 'desayunar', correct: 'desayuno', blanks: 1 },
+      { sentence: 'A mí me ___ (gustar) el café con leche.', verb: 'gustar', correct: 'gusta', blanks: 1 },
+      { sentence: 'Yo ___ (conocer) una cafetería excelente.', verb: 'conocer', correct: 'conozco', blanks: 1 },
+      { sentence: 'Nosotros ___ (querer) churros con chocolate.', verb: 'querer', correct: 'queremos', blanks: 1 },
+      { sentence: 'La cafetería ___ (abrir) a las siete de la mañana.', verb: 'abrir', correct: 'abre', blanks: 1 },
+      { sentence: 'Yo ___ (pedir) un zumo de naranja.', verb: 'pedir', correct: 'pido', blanks: 1 },
+      { sentence: 'Tú ___ (saber) hacer magdalenas deliciosas.', verb: 'saber', correct: 'sabes', blanks: 1 },
+      { sentence: 'El desayuno ___ (incluir) café y tostadas.', verb: 'incluir', correct: 'incluye', blanks: 1 },
+      { sentence: 'Nosotros ___ (preferir) desayunar en enero en casa.', verb: 'preferir', correct: 'preferimos', blanks: 1 },
+      { sentence: 'Los domingos yo ___ (dormir) hasta las diez.', verb: 'dormir', correct: 'duermo', blanks: 1 },
+      { sentence: '¿___ (poder) tú venir el martes?', verb: 'poder', correct: 'Puedes', blanks: 1 },
+      { sentence: 'El camarero ___ (servir) el desayuno continental.', verb: 'servir', correct: 'sirve', blanks: 1 },
+      { sentence: 'Yo ___ (empezar) a trabajar en septiembre.', verb: 'empezar', correct: 'empiezo', blanks: 1 },
+      { sentence: 'Ellos ___ (volver) a la cafetería todos los viernes.', verb: 'volver', correct: 'vuelven', blanks: 1 },
+      { sentence: 'La tienda ___ (cerrar) en agosto.', verb: 'cerrar', correct: 'cierra', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-15': {
+    id: 'ex-3-4-15',
+    type: 'translation',
+    title: 'Упражнение 15: Перевод с русского на испанский',
+    description: 'Переведите предложения с русского на испанский, используя грамматику и словарь урока',
+    questions: [
+      { russian: 'Я хочу кофе с молоком и тост с джемом, пожалуйста.', correct: 'Quiero un café con leche y una tostada con mermelada, por favor.', alternatives: ['Quiero café con leche y tostada con mermelada, por favor', 'Quiero un café con leche y un tost con mermelada, por favor'] },
+      { russian: 'Мы завтракаем в кафе каждое воскресенье.', correct: 'Desayunamos en la cafetería cada domingo.', alternatives: ['Nosotros desayunamos en la cafetería todos los domingos', 'Desayunamos en el café cada domingo'] },
+      { russian: 'Кафе открывается в семь утра и закрывается в десять вечера.', correct: 'La cafetería abre a las siete de la mañana y cierra a las diez de la noche.', alternatives: ['El café abre a las siete de la mañana y cierra a las diez de la noche', 'La cafetería abre a las 7 de la mañana y cierra a las 22'] },
+      { russian: 'Мне нравятся чуррос с горячим шоколадом по воскресеньям.', correct: 'Me gustan los churros con chocolate caliente los domingos.', alternatives: ['Me encantan los churros con chocolate caliente los domingos', 'Me gustan churros con chocolate caliente los domingos'] },
+      { russian: 'Я знаю, что ты умеешь готовить континентальный завтрак.', correct: 'Sé que sabes preparar el desayuno continental.', alternatives: ['Yo sé que tú sabes preparar el desayuno continental', 'Sé que sabes hacer el desayuno continental'] },
+      { russian: 'Мой брат предпочитает апельсиновый сок молоку.', correct: 'Mi hermano prefiere el zumo de naranja a la leche.', alternatives: ['Mi hermano prefiere zumo de naranja a leche', 'Mi hermano prefiere el zumo de naranja antes que la leche'] },
+      { russian: 'Курс начинается в сентябре и заканчивается в июне.', correct: 'El curso empieza en septiembre y termina en junio.', alternatives: ['El curso comienza en septiembre y termina en junio', 'El curso empieza en septiembre y acaba en junio'] },
+      { russian: 'По понедельникам я возвращаюсь домой поздно, потому что работаю до восьми.', correct: 'Los lunes vuelvo a casa tarde porque trabajo hasta las ocho.', alternatives: ['Los lunes regreso a casa tarde porque trabajo hasta las ocho', 'Los lunes vuelvo tarde a casa porque trabajo hasta las 8'] },
+      { russian: 'Они заказывают бутерброд с ветчиной и кофе в кафе каждый вторник.', correct: 'Piden un bocadillo de jamón y café en la cafetería cada martes.', alternatives: ['Ellos piden bocadillo de jamón y café en la cafetería todos los martes', 'Piden un bocadillo de jamón y un café en el café cada martes'] },
+      { russian: 'Я знаю Мадрид очень хорошо, потому что живу там с января.', correct: 'Conozco Madrid muy bien porque vivo allí desde enero.', alternatives: ['Conozco muy bien Madrid porque vivo allí desde enero', 'Yo conozco Madrid muy bien porque vivo allí desde enero'] },
+      { russian: 'Дети спят до десяти утра по субботам и воскресеньям.', correct: 'Los niños duermen hasta las diez de la mañana los sábados y domingos.', alternatives: ['Los niños duermen hasta las 10 de la mañana los sábados y los domingos', 'Los niños duermen hasta las diez los sábados y domingos'] },
+      { russian: 'Моя сестра умеет переводить с испанского на русский.', correct: 'Mi hermana sabe traducir del español al ruso.', alternatives: ['Mi hermana sabe traducir de español a ruso', 'Mi hermana sabe traducir del español al ruso'] },
+      { russian: 'Мы думаем поехать в Испанию в мае или в июле.', correct: 'Pensamos viajar a España en mayo o en julio.', alternatives: ['Pensamos ir a España en mayo o julio', 'Pensamos viajar a España en mayo o julio'] },
+      { russian: 'Официант подает завтрак с восьми до одиннадцати утра.', correct: 'El camarero sirve el desayuno de ocho a once de la mañana.', alternatives: ['El camarero sirve desayuno de las ocho a las once de la mañana', 'El mesero sirve el desayuno de ocho a once'] },
+      { russian: 'Я не могу прийти в среду, потому что начинаю работать в новом офисе.', correct: 'No puedo venir el miércoles porque empiezo a trabajar en la oficina nueva.', alternatives: ['No puedo venir el miércoles porque comienzo a trabajar en la nueva oficina', 'No puedo venir el miércoles porque empiezo a trabajar en una oficina nueva'] }
     ]
   }
 }
