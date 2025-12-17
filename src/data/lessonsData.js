@@ -4273,8 +4273,148 @@ María: ¡Vamos!`,
         }
       ]
     },
-    vocabulary: [],
-    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3', 'ex-3-3-4', 'ex-3-3-5', 'ex-3-3-6', 'ex-3-3-7', 'ex-3-3-8', 'ex-3-3-9', 'ex-3-3-10', 'ex-3-3-11', 'ex-3-3-12', 'ex-3-3-13', 'ex-3-3-14', 'ex-3-3-15']
+    vocabulary: [
+      { word: 'vivienda', translation: 'жилье', audioUrl: null },
+      { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
+      { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
+      { word: 'propietario', translation: 'собственник', audioUrl: null },
+      { word: 'edificio', translation: 'здание', audioUrl: null },
+      { word: 'espacio', translation: 'помещение', audioUrl: null },
+      { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
+      { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
+      { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
+      { word: 'superficie', translation: 'площадь', audioUrl: null },
+      { word: 'adosado', translation: 'таунхаус', audioUrl: null },
+      { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
+      { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
+      { word: 'chalé', translation: 'загородный дом', audioUrl: null },
+      { word: 'garaje', translation: 'гараж', audioUrl: null },
+      { word: 'ascensor', translation: 'лифт', audioUrl: null },
+      { word: 'portal', translation: 'подъезд', audioUrl: null },
+      { word: 'portero', translation: 'консьерж', audioUrl: null },
+      { word: 'ducha', translation: 'душ', audioUrl: null },
+      { word: 'bañera', translation: 'ванна', audioUrl: null },
+      { word: 'calefacción', translation: 'отопление', audioUrl: null },
+      { word: 'terraza', translation: 'зд. лоджия', audioUrl: null },
+      { word: 'reparación', translation: 'ремонт', audioUrl: null },
+      { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
+      { word: 'barrio', translation: 'район', audioUrl: null },
+      { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
+      { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
+      { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
+      { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
+      { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
+      { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
+      { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
+      { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
+      { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
+      { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
+      { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
+      { word: 'portero automático', translation: 'домофон', audioUrl: null },
+      { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
+      { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
+      { word: 'casa rural', translation: 'сельский дом', audioUrl: null }
+    ],
+    readingText: {
+      title: 'En la agencia inmobiliaria',
+      content: `Carlos y Ana buscan un piso en alquiler en Valencia. Llegan a una agencia inmobiliaria del centro.
+
+**Agente:** Buenos días. ¿En qué puedo ayudarles?
+
+**Carlos:** Buenos días. Queremos alquilar un piso en Valencia. ¿Tienen pisos disponibles?
+
+**Agente:** Sí, claro. Tenemos varios apartamentos en alquiler. ¿Qué tipo de vivienda les interesa?
+
+**Ana:** Buscamos un piso de dos dormitorios, amueblado, con ascensor. Nos gusta vivir en el centro.
+
+**Agente:** Muy bien. Tengo un piso muy bonito en el barrio de Ruzafa. Es un piso exterior, tiene dos dormitorios, un baño con bañera, cocina equipada y una terraza pequeña. Está totalmente amueblado.
+
+**Carlos:** ¿Cuántos metros cuadrados tiene?
+
+**Agente:** La superficie es de 75 metros cuadrados. El edificio tiene ascensor y portero automático. También hay aparcamiento subterráneo.
+
+**Ana:** Me gusta. ¿Y cuál es el precio del alquiler?
+
+**Agente:** El alquiler es de 850 euros al mes. La calefacción y el aire acondicionado están incluidos en el precio.
+
+**Carlos:** ¿Podemos ver el piso?
+
+**Agente:** Por supuesto. Les puedo mostrar el piso esta tarde a las cinco. También tengo otro apartamento en la zona del puerto. Es un estudio de 45 metros cuadrados, muy moderno. Está en un edificio nuevo, con vidrios dobles y tiene una terraza grande.
+
+**Ana:** ¿Cuánto cuesta ese estudio?
+
+**Agente:** El estudio cuesta 650 euros al mes. Es más pequeño, pero muy cómodo y está cerca del mar.
+
+**Carlos:** Nos interesa más el piso de dos dormitorios. ¿Necesitamos pagar algo ahora?
+
+**Agente:** No, ahora no. Primero les muestro el piso, y si les gusta, necesitan pagar un mes de alquiler y un mes de fianza. El propietario es muy amable.
+
+**Ana:** Perfecto. Entonces nos vemos esta tarde a las cinco. ¿Dónde está el piso exactamente?
+
+**Agente:** Está en la calle Sueca, número 23, tercer piso. Es un barrio muy tranquilo, con muchas tiendas, cafeterías y restaurantes. Les va a encantar.
+
+**Carlos:** Muy bien. Muchas gracias. Hasta luego.
+
+**Agente:** Hasta luego. Les mando la dirección por correo electrónico.`,
+      translation: `Карлос и Анна ищут квартиру в аренду в Валенсии. Они приходят в агентство недвижимости в центре.
+
+**Агент:** Добрый день. Чем могу вам помочь?
+
+**Карлос:** Добрый день. Мы хотим снять квартиру в Валенсии. У вас есть свободные квартиры?
+
+**Агент:** Да, конечно. У нас есть несколько квартир в аренду. Какой тип жилья вас интересует?
+
+**Анна:** Мы ищем квартиру с двумя спальнями, меблированную, с лифтом. Нам нравится жить в центре.
+
+**Агент:** Очень хорошо. У меня есть очень красивая квартира в районе Русафа. Это квартира с окнами на улицу, имеет две спальни, ванную комнату с ванной, оборудованную кухню и небольшую лоджию. Она полностью меблирована.
+
+**Карлос:** Сколько у нее квадратных метров?
+
+**Агент:** Площадь составляет 75 квадратных метров. В здании есть лифт и домофон. Также есть подземная парковка.
+
+**Анна:** Мне нравится. И какая арендная плата?
+
+**Агент:** Аренда составляет 850 евро в месяц. Отопление и кондиционер включены в цену.
+
+**Карлос:** Можем ли мы посмотреть квартиру?
+
+**Агент:** Конечно. Я могу показать вам квартиру сегодня после обеда в пять. У меня также есть другая квартира в районе порта. Это студия 45 квадратных метров, очень современная. Она находится в новом здании, с двойными стеклопакетами и имеет большую лоджию.
+
+**Анна:** Сколько стоит эта студия?
+
+**Агент:** Студия стоит 650 евро в месяц. Она меньше, но очень удобная и находится близко к морю.
+
+**Карлос:** Нас больше интересует квартира с двумя спальнями. Нам нужно что-то платить сейчас?
+
+**Агент:** Нет, сейчас нет. Сначала я показываю вам квартиру, и если она вам понравится, нужно заплатить месяц аренды и месяц залога. Собственник очень приветливый.
+
+**Анна:** Отлично. Тогда встретимся сегодня после обеда в пять. Где именно находится квартира?
+
+**Агент:** Она находится на улице Суэка, номер 23, третий этаж. Это очень спокойный район, с множеством магазинов, кафе и ресторанов. Вам она очень понравится.
+
+**Карлос:** Очень хорошо. Большое спасибо. До свидания.
+
+**Агент:** До свидания. Я отправлю вам адрес по электронной почте.`,
+      audioUrl: null,
+      comprehensionQuestions: [
+        { question: '¿Qué buscan Carlos y Ana?', correct: 'un piso en alquiler', alternatives: ['un piso en venta', 'una casa rural', 'un garaje'] },
+        { question: '¿Dónde está la agencia inmobiliaria?', correct: 'en el centro', alternatives: ['en el puerto', 'en Ruzafa', 'en el barrio'] },
+        { question: '¿Cuántos dormitorios quieren Carlos y Ana?', correct: 'dos dormitorios', alternatives: ['un dormitorio', 'tres dormitorios', 'un estudio'] },
+        { question: '¿En qué barrio está el primer piso?', correct: 'en Ruzafa', alternatives: ['en el centro', 'en el puerto', 'en la playa'] },
+        { question: '¿El piso de Ruzafa es interior o exterior?', correct: 'exterior', alternatives: ['interior', 'dúplex', 'estudio'] },
+        { question: '¿Cuántos metros cuadrados tiene el piso de Ruzafa?', correct: '75 metros cuadrados', alternatives: ['45 metros cuadrados', '85 metros cuadrados', '65 metros cuadrados'] },
+        { question: '¿Cuánto cuesta el alquiler del piso de dos dormitorios?', correct: '850 euros al mes', alternatives: ['650 euros al mes', '750 euros al mes', '950 euros al mes'] },
+        { question: '¿Qué está incluido en el precio del alquiler?', correct: 'la calefacción y el aire acondicionado', alternatives: ['los muebles', 'el garaje', 'la comida'] },
+        { question: '¿Dónde está el estudio?', correct: 'en la zona del puerto', alternatives: ['en Ruzafa', 'en el centro', 'en la calle Sueca'] },
+        { question: '¿Cuántos metros cuadrados tiene el estudio?', correct: '45 metros cuadrados', alternatives: ['75 metros cuadrados', '55 metros cuadrados', '35 metros cuadrados'] },
+        { question: '¿Cuánto cuesta el estudio?', correct: '650 euros al mes', alternatives: ['850 euros al mes', '550 euros al mes', '750 euros al mes'] },
+        { question: '¿Qué piso les interesa más a Carlos y Ana?', correct: 'el piso de dos dormitorios', alternatives: ['el estudio', 'la casa rural', 'el dúplex'] },
+        { question: '¿A qué hora van a ver el piso?', correct: 'a las cinco de la tarde', alternatives: ['a las tres de la tarde', 'a las seis de la tarde', 'por la mañana'] },
+        { question: '¿En qué calle está el piso de Ruzafa?', correct: 'en la calle Sueca', alternatives: ['en la calle Valencia', 'en la calle Puerto', 'en la calle Centro'] },
+        { question: '¿Cómo es el barrio de Ruzafa según el agente?', correct: 'tranquilo con tiendas y cafeterías', alternatives: ['ruidoso', 'aburrido', 'sin comercios'] }
+      ]
+    },
+    exercises: ['ex-3-3-1', 'ex-3-3-2', 'ex-3-3-3', 'ex-3-3-4', 'ex-3-3-5', 'ex-3-3-6', 'ex-3-3-7', 'ex-3-3-8', 'ex-3-3-9', 'ex-3-3-10', 'ex-3-3-11', 'ex-3-3-12', 'ex-3-3-13', 'ex-3-3-14', 'ex-3-3-15', 'ex-3-3-16', 'ex-3-3-17', 'ex-3-3-18', 'ex-3-3-19', 'ex-3-3-20', 'ex-3-3-21']
   },
 
   // МОДУЛЬ 4: Прошедшее время (A2)
@@ -12650,6 +12790,151 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Перед ужином я накрываю на стол, а после ужина мою посуду.', correct: 'Antes de cenar pongo la mesa y después de cenar lavo los platos.', alternatives: ['Antes de la cena pongo la mesa y después de la cena lavo los platos', 'Antes de cenar pongo la mesa y después de cenar friego los platos'] },
       { russian: 'В этом районе много магазинов, кафе и ресторанов. Мне очень нравится здесь жить.', correct: 'En este barrio hay muchas tiendas, cafeterías y restaurantes. Me gusta mucho vivir aquí.', alternatives: ['En este barrio hay muchas tiendas, cafés y restaurantes. Me encanta vivir aquí', 'En esta zona hay muchas tiendas, cafeterías y restaurantes. Me gusta mucho vivir aquí'] },
       { russian: 'Бабушка дает мне ключи от квартиры и просит полить цветы.', correct: 'La abuela me da las llaves del piso y me pide regar las flores.', alternatives: ['Mi abuela me da las llaves del apartamento y me pide regar las plantas', 'La abuela me da las llaves de la casa y me pide regar las flores'] }
+    ]
+  },
+
+  // Módulo 3 Lección 3 - Упражнения на словарь (жилье и недвижимость)
+  'ex-3-3-16': {
+    id: 'ex-3-3-16',
+    type: 'fillblank',
+    title: 'Упражнение 16: Словарь урока - Типы жилья',
+    description: 'Вставьте подходящее слово из словаря урока',
+    questions: [
+      { sentence: 'Buscamos una ___ en el centro de la ciudad.', correct: 'vivienda', blanks: 1 },
+      { sentence: 'La agencia ___ tiene muchos pisos en alquiler.', correct: 'inmobiliaria', blanks: 1 },
+      { sentence: 'Leo el ___ en el periódico para buscar un apartamento.', correct: 'anuncio', blanks: 1 },
+      { sentence: 'El ___ del piso es muy amable.', correct: 'propietario', blanks: 1 },
+      { sentence: 'Este ___ es muy alto, tiene diez pisos.', correct: 'edificio', blanks: 1 },
+      { sentence: 'Queremos ___ un piso amueblado.', correct: 'alquilar', blanks: 1 },
+      { sentence: 'El ___ es de 800 euros al mes.', correct: 'alquiler', blanks: 1 },
+      { sentence: 'La ___ del apartamento es de 80 metros cuadrados.', correct: 'superficie', blanks: 1 },
+      { sentence: 'Un ___ es una casa de dos pisos.', correct: 'dúplex', blanks: 1 },
+      { sentence: 'Un ___ es un apartamento pequeño de un solo ambiente.', correct: 'estudio', blanks: 1 },
+      { sentence: 'Mi familia vive en un ___ cerca de la playa.', correct: 'chalé', blanks: 1 },
+      { sentence: 'El coche está en el ___.', correct: 'garaje', blanks: 1 },
+      { sentence: 'El edificio tiene ___, no necesitamos subir por las escaleras.', correct: 'ascensor', blanks: 1 },
+      { sentence: 'El ___ es la entrada del edificio.', correct: 'portal', blanks: 1 },
+      { sentence: 'En este edificio hay un ___ que ayuda a los vecinos.', correct: 'portero', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-17': {
+    id: 'ex-3-3-17',
+    type: 'fillblank',
+    title: 'Упражнение 17: Словарь урока - Части квартиры и удобства',
+    description: 'Вставьте подходящее слово из словаря урока',
+    questions: [
+      { sentence: 'En el baño hay una ___ para lavar el cuerpo.', correct: 'ducha', blanks: 1 },
+      { sentence: 'Prefiero una ___ para tomar un baño relajante.', correct: 'bañera', blanks: 1 },
+      { sentence: 'En invierno necesitamos ___ para calentar el piso.', correct: 'calefacción', blanks: 1 },
+      { sentence: 'La ___ es un balcón grande donde poner plantas.', correct: 'terraza', blanks: 1 },
+      { sentence: 'El piso necesita una ___, no funciona el agua.', correct: 'reparación', blanks: 1 },
+      { sentence: 'Hacemos una ___ completa: cambiamos el suelo y pintamos las paredes.', correct: 'reforma', blanks: 1 },
+      { sentence: 'Vivo en un ___ muy tranquilo y seguro.', correct: 'barrio', blanks: 1 },
+      { sentence: 'Esta ___ de la ciudad es muy cara.', correct: 'zona', blanks: 1 },
+      { sentence: 'En verano usamos el ___ para refrescar el apartamento.', correct: 'aire acondicionado', blanks: 1 },
+      { sentence: 'El piso tiene 75 ___.', correct: 'metros cuadrados', blanks: 1 },
+      { sentence: 'Este ___ está disponible desde el próximo mes.', correct: 'apartamento en alquiler', blanks: 1 },
+      { sentence: 'El ___ incluye muebles, no necesito comprar nada.', correct: 'piso amueblado', blanks: 1 },
+      { sentence: 'Un ___ tiene ventanas que dan a la calle.', correct: 'piso exterior', blanks: 1 },
+      { sentence: 'Un ___ tiene ventanas que dan al patio interior.', correct: 'piso interior', blanks: 1 },
+      { sentence: 'Este ___ está muy bonito, acaban de pintarlo.', correct: 'piso reparado', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-18': {
+    id: 'ex-3-3-18',
+    type: 'fillblank',
+    title: 'Упражнение 18: Словарь урока - Удобства и характеристики',
+    description: 'Вставьте подходящее слово или выражение',
+    questions: [
+      { sentence: 'El ___ permite hablar con los visitantes antes de abrir la puerta.', correct: 'portero automático', blanks: 1 },
+      { sentence: 'Las ventanas con ___ protegen mejor del frío y del ruido.', correct: 'vidrios dobles', blanks: 1 },
+      { sentence: 'El edificio tiene ___ para los coches de los vecinos.', correct: 'aparcamiento subterráneo', blanks: 1 },
+      { sentence: 'Me gusta vivir en una ___, lejos del ruido de la ciudad.', correct: 'casa rural', blanks: 1 },
+      { sentence: 'Vamos a la ___ para buscar un piso.', correct: 'agencia inmobiliaria', blanks: 1 },
+      { sentence: 'El propietario quiere ___ por un año.', correct: 'alquilar la vivienda', blanks: 1 },
+      { sentence: 'Este ___ es perfecto para una persona sola.', correct: 'estudio', blanks: 1 },
+      { sentence: 'El ___ es una casa independiente con jardín.', correct: 'chalé', blanks: 1 },
+      { sentence: 'Un ___ es una casa adosada a otras casas.', correct: 'adosado', blanks: 1 },
+      { sentence: 'En este ___ hay una oficina en la planta baja.', correct: 'edificio', blanks: 1 },
+      { sentence: 'Necesito más ___ para mis libros y muebles.', correct: 'espacio', blanks: 1 },
+      { sentence: 'Alquilamos un ___ comercial para abrir una tienda.', correct: 'local', blanks: 1 },
+      { sentence: 'El sector ___ es muy importante en la economía.', correct: 'inmobiliario', blanks: 1 },
+      { sentence: 'Pongo un ___ en internet para vender mi piso.', correct: 'anuncio', blanks: 1 },
+      { sentence: 'Hablo con el ___ para negociar el precio.', correct: 'propietario', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-19': {
+    id: 'ex-3-3-19',
+    type: 'fillblank',
+    title: 'Упражнение 19: Словарь урока - Описание квартиры',
+    description: 'Вставьте подходящее слово',
+    questions: [
+      { sentence: 'La ___ total del piso es de 90 metros cuadrados.', correct: 'superficie', blanks: 1 },
+      { sentence: 'Prefiero tomar una ___ rápida por la mañana.', correct: 'ducha', blanks: 1 },
+      { sentence: 'Por la noche me gusta relajarme en la ___.', correct: 'bañera', blanks: 1 },
+      { sentence: 'En la ___ pongo plantas y una mesa para comer al aire libre.', correct: 'terraza', blanks: 1 },
+      { sentence: 'Sin ___ hace mucho frío en invierno.', correct: 'calefacción', blanks: 1 },
+      { sentence: 'El ___ sube hasta el décimo piso.', correct: 'ascensor', blanks: 1 },
+      { sentence: 'Entro al edificio por el ___ principal.', correct: 'portal', blanks: 1 },
+      { sentence: 'Dejo el coche en el ___ por la noche.', correct: 'garaje', blanks: 1 },
+      { sentence: 'Este ___ tiene buenas escuelas y parques.', correct: 'barrio', blanks: 1 },
+      { sentence: 'La ___ comercial está llena de tiendas.', correct: 'zona', blanks: 1 },
+      { sentence: 'Pagamos 700 euros de ___ cada mes.', correct: 'alquiler', blanks: 1 },
+      { sentence: 'Queremos comprar una ___ cerca del trabajo.', correct: 'vivienda', blanks: 1 },
+      { sentence: 'El ___ necesita pintura nueva.', correct: 'edificio', blanks: 1 },
+      { sentence: 'Buscamos un ___ para nuestro negocio.', correct: 'local', blanks: 1 },
+      { sentence: 'Esta habitación tiene mucho ___ para los muebles.', correct: 'espacio', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-20': {
+    id: 'ex-3-3-20',
+    type: 'fillblank',
+    title: 'Упражнение 20: Словарь урока - Комплексные выражения',
+    description: 'Вставьте подходящее выражение из словаря',
+    questions: [
+      { sentence: 'Voy a una ___ ___ para buscar un piso en alquiler.', correct: 'agencia inmobiliaria', blanks: 1 },
+      { sentence: 'Este apartamento tiene ___ ___, es muy fresco en verano.', correct: 'aire acondicionado', blanks: 1 },
+      { sentence: 'La superficie es de 80 ___ ___.', correct: 'metros cuadrados', blanks: 1 },
+      { sentence: 'Busco un ___ ___ ___ cerca del centro.', correct: 'apartamento en alquiler', blanks: 1 },
+      { sentence: 'Este ___ ___ tiene un precio muy alto.', correct: 'apartamento en venta', blanks: 1 },
+      { sentence: 'Prefiero un ___ ___ porque no tengo muebles.', correct: 'piso amueblado', blanks: 1 },
+      { sentence: 'Un ___ ___ es más luminoso que un piso interior.', correct: 'piso exterior', blanks: 1 },
+      { sentence: 'Un ___ ___ tiene ventanas al patio.', correct: 'piso interior', blanks: 1 },
+      { sentence: 'Este ___ ___ está listo para vivir.', correct: 'piso reparado', blanks: 1 },
+      { sentence: 'El edificio tiene ___ ___ para más seguridad.', correct: 'portero automático', blanks: 1 },
+      { sentence: 'Las ventanas con ___ ___ aíslan mejor del ruido.', correct: 'vidrios dobles', blanks: 1 },
+      { sentence: 'Hay ___ ___ para todos los vecinos.', correct: 'aparcamiento subterráneo', blanks: 1 },
+      { sentence: 'Me encanta vivir en una ___ ___, es muy tranquilo.', correct: 'casa rural', blanks: 1 },
+      { sentence: 'Vamos a ___ ___ ___ por seis meses.', correct: 'alquilar la vivienda', blanks: 1 },
+      { sentence: 'El ___ ayuda a los vecinos con los paquetes.', correct: 'portero', blanks: 1 }
+    ]
+  },
+
+  'ex-3-3-21': {
+    id: 'ex-3-3-21',
+    type: 'translation',
+    title: 'Упражнение 21: Перевод - Жилье и недвижимость',
+    description: 'Переведите предложения с русского на испанский, используя словарь урока',
+    questions: [
+      { russian: 'Мы хотим снять меблированную квартиру с двумя спальнями в центре города.', correct: 'Queremos alquilar un piso amueblado con dos dormitorios en el centro de la ciudad.', alternatives: ['Queremos alquilar un piso amueblado de dos dormitorios en el centro', 'Queremos alquilar un apartamento amueblado con dos dormitorios en el centro de la ciudad'] },
+      { russian: 'Агентство недвижимости показывает нам квартиру с лифтом и домофоном.', correct: 'La agencia inmobiliaria nos muestra un piso con ascensor y portero automático.', alternatives: ['La agencia inmobiliaria nos enseña un piso con ascensor y portero automático', 'La agencia inmobiliaria nos muestra un apartamento con ascensor y portero automático'] },
+      { russian: 'Площадь квартиры составляет 65 квадратных метров, она имеет лоджию и подземную парковку.', correct: 'La superficie del piso es de 65 metros cuadrados, tiene terraza y aparcamiento subterráneo.', alternatives: ['La superficie del apartamento es de 65 metros cuadrados, tiene terraza y aparcamiento subterráneo', 'El piso tiene una superficie de 65 metros cuadrados, tiene terraza y aparcamiento subterráneo'] },
+      { russian: 'Арендная плата составляет 900 евро в месяц, отопление и кондиционер включены в цену.', correct: 'El alquiler es de 900 euros al mes, la calefacción y el aire acondicionado están incluidos en el precio.', alternatives: ['El alquiler es 900 euros al mes, calefacción y aire acondicionado incluidos en el precio', 'La renta es de 900 euros al mes, la calefacción y el aire acondicionado están incluidos'] },
+      { russian: 'Мне очень нравится этот район, здесь есть магазины, школы и парки.', correct: 'Me gusta mucho este barrio, aquí hay tiendas, escuelas y parques.', alternatives: ['Me encanta este barrio, hay tiendas, escuelas y parques aquí', 'Me gusta mucho esta zona, aquí hay tiendas, colegios y parques'] },
+      { russian: 'Собственник квартиры живет в другом городе и сдает жилье студентам.', correct: 'El propietario del piso vive en otra ciudad y alquila la vivienda a estudiantes.', alternatives: ['El propietario del apartamento vive en otra ciudad y alquila la vivienda a los estudiantes', 'El dueño del piso vive en otra ciudad y alquila la vivienda a estudiantes'] },
+      { russian: 'Это квартира с окнами на улицу, очень светлая, с двойными стеклопакетами.', correct: 'Es un piso exterior, muy luminoso, con vidrios dobles.', alternatives: ['Es un apartamento exterior, muy luminoso, con vidrios dobles', 'Este es un piso exterior, muy luminoso, con ventanas de vidrios dobles'] },
+      { russian: 'В здании нет лифта, но есть консьерж, который помогает соседям.', correct: 'El edificio no tiene ascensor, pero hay un portero que ayuda a los vecinos.', alternatives: ['En el edificio no hay ascensor, pero hay un portero que ayuda a los vecinos', 'El edificio no tiene ascensor pero tiene un portero que ayuda a los vecinos'] },
+      { russian: 'Мы ищем студию около 40 квадратных метров для одного человека.', correct: 'Buscamos un estudio de unos 40 metros cuadrados para una persona.', alternatives: ['Buscamos un estudio de aproximadamente 40 metros cuadrados para una persona', 'Buscamos una estudio cerca de 40 metros cuadrados para una persona'] },
+      { russian: 'Эта двухуровневая квартира имеет три спальни, две ванные комнаты с душем и большую лоджию.', correct: 'Este dúplex tiene tres dormitorios, dos baños con ducha y una terraza grande.', alternatives: ['Este dúplex tiene tres dormitorios, dos cuartos de baño con ducha y una terraza grande', 'Este dúplex tiene tres habitaciones, dos baños con ducha y una terraza grande'] },
+      { russian: 'Квартира нуждается в капитальном ремонте: нужно поменять окна и покрасить стены.', correct: 'El piso necesita una reforma: hay que cambiar las ventanas y pintar las paredes.', alternatives: ['El apartamento necesita una reforma: hay que cambiar las ventanas y pintar las paredes', 'El piso necesita reforma: es necesario cambiar las ventanas y pintar las paredes'] },
+      { russian: 'Загородный дом находится в очень тихом месте, далеко от города.', correct: 'El chalé está en un lugar muy tranquilo, lejos de la ciudad.', alternatives: ['La casa está en un sitio muy tranquilo, lejos de la ciudad', 'El chalé se encuentra en un lugar muy tranquilo, lejos de la ciudad'] },
+      { russian: 'Мы видим объявление о продаже таунхауса с гаражом и садом.', correct: 'Vemos un anuncio de venta de un adosado con garaje y jardín.', alternatives: ['Vemos un anuncio sobre la venta de un adosado con garaje y jardín', 'Vemos un anuncio de venta de una casa adosada con garaje y jardín'] },
+      { russian: 'Ванная комната большая, в ней есть и душ, и ванна.', correct: 'El baño es grande, tiene ducha y bañera.', alternatives: ['El cuarto de baño es grande, tiene ducha y bañera', 'La habitación de baño es grande, en ella hay ducha y bañera'] },
+      { russian: 'После ремонта квартира выглядит как новая, собственник делает нам скидку на аренду.', correct: 'Después de la reparación el piso parece nuevo, el propietario nos hace un descuento en el alquiler.', alternatives: ['Después del arreglo el piso parece nuevo, el propietario nos da un descuento en el alquiler', 'Tras la reparación el apartamento parece nuevo, el propietario nos hace descuento en la renta'] }
     ]
   }
 }
