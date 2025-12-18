@@ -38,7 +38,7 @@ export const modules = {
   },
   'module-3': {
     id: 'module-3',
-    title: 'Модуль 3: Повседневная жизнь',
+    title: 'Модуль 3: МОЙ ДОМ, АРЕНДА ПОМЕЩЕНИЯ, ЗАВТРАК',
     level: 'beginner',
     lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3', 'lesson-3-4'],
     description: 'Лексика о семье, работе, хобби'
@@ -4434,7 +4434,7 @@ María: ¡Vamos!`,
 
   'lesson-3-4': {
     id: 'lesson-3-4',
-    title: 'Урок 4: Спряжение отклоняющихся глаголов в настоящем времени изъявительного наклонения. Глаголы gustar / querer, saber / conocer. Повседневные занятия. Дни недели, месяцы',
+    title: 'Урок 4: Спряжение отклоняющихся глаголов в настоящем времени изъявительного наклонения. Глаголы gustar / querer, saber / conocer. Дни недели, месяцы. Завтрак',
     moduleId: 'module-3',
     grammar: {
       title: 'Спряжение отклоняющихся глаголов в настоящем времени (Presente de Indicativo)',
@@ -4930,7 +4930,7 @@ María: ¡Vamos!`,
     title: 'Урок 1: Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
     moduleId: 'module-4',
     grammar: {
-      title: 'Повседневные занятия. Обозначение часового времени. Возвратные глаголы. Герундий',
+      title: 'Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
       intro: `В этом уроке мы изучим, как говорить о времени по-испански, познакомимся с возвратными глаголами (которые описывают действия, направленные на себя) и научимся использовать герундий для описания текущих действий.`,
       sections: [
         {
@@ -5389,7 +5389,7 @@ Esta es mi rutina diaria. ¿Y tú? ¿A qué hora te levantas? ¿Qué estás haci
 Это мой распорядок дня. А у тебя? Во сколько ты встаешь? Что ты сейчас делаешь?`,
       audioUrl: null
     },
-    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14', 'ex-4-1-15']
+    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14', 'ex-4-1-15', 'ex-4-1-16']
   },
 
   'lesson-4-2': {
@@ -15007,6 +15007,65 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         russian: 'Дети сейчас спят, мой муж готовит ужин, а я читаю книгу.',
         correct: 'Los niños están durmiendo ahora, mi marido está preparando la cena y yo estoy leyendo un libro.',
         alternatives: ['Los niños duermen ahora, mi esposo prepara la cena y yo leo un libro', 'Ahora los niños están durmiendo, mi marido prepara la cena y estoy leyendo un libro']
+      }
+    ]
+  },
+
+  'ex-4-1-16': {
+    id: 'ex-4-1-16',
+    type: 'translation',
+    title: 'Упражнение 16 (Перевод): Переведите предложения на испанский язык',
+    description: 'В этом упражнении уделите внимание возвратным глаголам, управлению предлогами и разнице между умением что-то делать и знанием фактов',
+    questions: [
+      {
+        russian: 'Как вас зовут, сеньориты? — Меня зовут Анита, а мою подругу зовут Росита. — Очень приятно.',
+        correct: '¿Cómo se llaman, señoritas? — Me llamo Anita y a mi amiga la llaman Rosita. — Mucho gusto.',
+        alternatives: ['¿Cómo os llamáis, señoritas? — Yo me llamo Anita y mi amiga se llama Rosita. — Encantado', '¿Cómo se llaman ustedes, señoritas? — Me llamo Anita y mi amiga se llama Rosita. — Encantada']
+      },
+      {
+        russian: 'Вечером я ложусь спать очень поздно, но не могу уснуть, потому что пью слишком много кофе в течение дня.',
+        correct: 'Por la noche me acuesto muy tarde, pero no puedo dormirme porque bebo demasiado café durante el día.',
+        alternatives: ['Por la noche me acuesto muy tarde pero no me puedo dormir porque tomo demasiado café durante el día', 'Me acuesto muy tarde por la noche, pero no puedo dormirme porque bebo demasiado café durante el día']
+      },
+      {
+        russian: 'Вы не знаете, где находится музей Прадо? — Нет, я этого не знаю. Я здесь не живу (я не местный). Мне жаль.',
+        correct: '¿No sabe usted dónde está el museo del Prado? — No, no lo sé. No soy de aquí. Lo siento.',
+        alternatives: ['¿No sabe dónde queda el museo del Prado? — No, no sé. Yo no vivo aquí. Lo lamento', '¿Usted no sabe dónde está el Museo del Prado? — No lo sé. No soy de aquí. Lo siento']
+      },
+      {
+        russian: 'Почему ты не готовишься к вечеринке: не бреешься и не одеваешься? — Я не хочу идти, я плохо себя чувствую.',
+        correct: '¿Por qué no te preparas para la fiesta: no te afeitas y no te vistes? — No quiero ir, me siento mal.',
+        alternatives: ['¿Por qué no te estás preparando para la fiesta: no te afeitas ni te vistes? — No quiero ir, no me siento bien', '¿Por qué no te preparas para la fiesta: no te afeitas ni te vistes? — No quiero ir, me siento mal']
+      },
+      {
+        russian: 'Я ей не лгу, я говорю ей правду, а она смеется надо мной, потому что не верит мне.',
+        correct: 'No le miento, le digo la verdad, pero ella se ríe de mí porque no me cree.',
+        alternatives: ['Yo no la miento, le digo la verdad y ella se ríe de mí porque no cree en mí', 'No le miento a ella, le digo la verdad pero se ríe de mí porque no me cree']
+      },
+      {
+        russian: 'Педро снимает куртку, прощается со своими друзьями и уходит из офиса.',
+        correct: 'Pedro se quita la chaqueta, se despide de sus amigos y sale de la oficina.',
+        alternatives: ['Pedro se quita la chaqueta, dice adiós a sus amigos y se va de la oficina', 'Pedro quita la chaqueta, se despide de sus amigos y sale de la oficina']
+      },
+      {
+        russian: 'Я не хочу чистить зубы и не люблю умываться холодной водой.',
+        correct: 'No quiero limpiarme los dientes y no me gusta lavarme con agua fría.',
+        alternatives: ['No quiero limpiar los dientes y no me gusta lavarme la cara con agua fría', 'No quiero limpiarme los dientes y no me gusta lavarme la cara con el agua fría']
+      },
+      {
+        russian: 'Моя бабушка не купается в море, она предпочитает плавать в бассейне.',
+        correct: 'Mi abuela no se baña en el mar, prefiere nadar en la piscina.',
+        alternatives: ['Mi abuela no nada en el mar, ella prefiere nadar en la piscina', 'Mi abuela no se baña en el mar, ella prefiere nadar en la piscina']
+      },
+      {
+        russian: 'Во сколько вы (vosotros) уезжаете? — Я не помню. Нужно спросить об этом моего брата.',
+        correct: '¿A qué hora os vais? — No me acuerdo. Hay que preguntarle a mi hermano.',
+        alternatives: ['¿A qué hora os marcháis? — No recuerdo. Tengo que preguntarle a mi hermano', '¿A qué hora os vais? — No recuerdo. Hay que preguntar a mi hermano']
+      },
+      {
+        russian: 'Мама просыпается в 6 часов утра и встает. Она слышит, что её зовет сын.',
+        correct: 'Mamá se despierta a las seis de la mañana y se levanta. Oye que su hijo la llama.',
+        alternatives: ['Mi madre se despierta a las seis de la mañana y se levanta. Ella oye que la llama su hijo', 'Mamá se despierta a las seis de la mañana y se levanta. Ella oye que la llama su hijo']
       }
     ]
   }
