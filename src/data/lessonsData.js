@@ -2855,11 +2855,11 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
     exercises: [
       {
         tab: 'УПРАЖНЕНИЯ 1',
-        exerciseIds: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4', 'ex-2-2-5', 'ex-2-2-6', 'ex-2-2-7', 'ex-2-2-8', 'ex-2-2-9', 'ex-2-2-10', 'ex-2-2-11', 'ex-2-2-12', 'ex-2-2-13', 'ex-2-2-14', 'ex-2-2-15']
+        exerciseIds: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
       },
       {
         tab: 'УПРАЖНЕНИЯ 2',
-        exerciseIds: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
+        exerciseIds: ['ex-2-2-4', 'ex-2-2-5', 'ex-2-2-6', 'ex-2-2-7', 'ex-2-2-8', 'ex-2-2-9', 'ex-2-2-10', 'ex-2-2-11', 'ex-2-2-12', 'ex-2-2-13', 'ex-2-2-14', 'ex-2-2-15']
       }
     ]
   },
@@ -5355,7 +5355,7 @@ María: ¡Vamos!`,
       { word: 'normalmente', translation: 'обычно', audioUrl: null },
       { word: 'generalmente', translation: 'как правило', audioUrl: null }
     ],
-    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3']
+    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14']
   },
 
   'lesson-4-2': {
@@ -14580,61 +14580,341 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  // МОДУЛЬ 4 УРОК 1 УПРАЖНЕНИЯ
+  // МОДУЛЬ 4 УРОК 1 УПРАЖНЕНИЯ - ГРАММАТИКА
   'ex-4-1-1': {
     id: 'ex-4-1-1',
     type: 'fillblank',
-    title: 'Упражнение 1: Раскройте скобки. Поставьте глаголы в соответствующую форму',
-    description: 'Поставьте возвратные глаголы в правильную форму',
+    title: 'Упражнение 1 (Грамматика): Обозначение времени - ¿Qué hora es?',
+    description: 'Напишите, который час по-испански',
     questions: [
-      { sentence: 'Yo ________ (despertarse) temprano y ________ (acostarse) tarde.', correct: 'me despierto / me acuesto', blanks: 1 },
-      { sentence: 'Nosotros ________ (prepararse) para los exámenes en la biblioteca.', correct: 'nos preparamos', blanks: 1 },
-      { sentence: '¿Por qué no ________ (despedirse, tú) de Juan? — Porque tengo que ________ (irse) ahora y Juan ________ (venir) tarde.', correct: 'te despides / irme / viene', blanks: 1 },
-      { sentence: '¿Cómo ________ (llamarse, tú)? — Yo ________ (llamarse) David y mis padres ________ (llamarse) Augusto e Isabel.', correct: 'te llamas / me llamo / se llaman', blanks: 1 },
-      { sentence: 'Ana siempre ________ (vestirse) y ________ (peinarse) ante el espejo.', correct: 'se viste / se peina', blanks: 1 },
-      { sentence: '¿Quieres ________ (limpiarse) los dientes y ________ (maquillarse)? Tienes que ________ (irse) al cuarto de baño.', correct: 'limpiarte / maquillarte / irte', blanks: 1 },
-      { sentence: '¿Dónde ________ (encontrarse) la calle Velázquez? — Yo no ________ (conocer) esta calle. Lo ________ (sentir, yo).', correct: 'se encuentra / conozco / siento', blanks: 1 },
-      { sentence: '________ (Preferir, yo) dar un paseo antes de ________ (acostarse).', correct: 'Prefiero / acostarme', blanks: 1 },
-      { sentence: 'Susana y tú ________ (querer despedirse) de nosotros porque ________ (irse, vosotros) dentro de media hora.', correct: 'queréis despediros / os vais', blanks: 1 },
-      { sentence: 'Yo no ________ (poder maquillarse) porque hay poca luz.', correct: 'puedo maquillarme', blanks: 1 }
+      { sentence: '1:00 — Es ________ una ________ punto.', correct: 'la / en', blanks: 1 },
+      { sentence: '3:00 — Son ________ tres ________ punto.', correct: 'las / en', blanks: 1 },
+      { sentence: '9:15 — Son las nueve ________ cuarto.', correct: 'y', blanks: 1 },
+      { sentence: '10:30 — Son las diez ________ media.', correct: 'y', blanks: 1 },
+      { sentence: '8:45 — Son las nueve ________ cuarto.', correct: 'menos', blanks: 1 },
+      { sentence: '12:00 (полдень) — Es ________.', correct: 'mediodía', blanks: 1 },
+      { sentence: '24:00 (полночь) — Es ________.', correct: 'medianoche', blanks: 1 },
+      { sentence: '7:05 — Son las siete ________ cinco.', correct: 'y', blanks: 1 },
+      { sentence: '11:50 — Son las doce ________ diez.', correct: 'menos', blanks: 1 },
+      { sentence: '¿A qué hora te levantas? — Me levanto ________ las siete ________ la mañana.', correct: 'a / de', blanks: 1 },
+      { sentence: '¿A qué hora comes? — Como ________ las dos ________ la tarde.', correct: 'a / de', blanks: 1 },
+      { sentence: 'Mis padres vuelven ________ casa ________ las ocho ________ la noche.', correct: 'a / a / de', blanks: 1 },
+      { sentence: 'Son las once ________ media ________ la madrugada.', correct: 'y / de', blanks: 1 },
+      { sentence: 'Mi hermana sale de casa ________ las ocho menos cuarto.', correct: 'a', blanks: 1 },
+      { sentence: '¿Qué hora es? — ________ las cinco ________ veinte ________ la tarde.', correct: 'Son / y / de', blanks: 1 }
     ]
   },
 
   'ex-4-1-2': {
     id: 'ex-4-1-2',
     type: 'fillblank',
-    title: 'Упражнение 2: Вставьте необходимые предлоги',
-    description: 'Вставьте правильные предлоги (a, de, en, por, para, con, sin)',
+    title: 'Упражнение 2 (Грамматика): Возвратные глаголы - спряжение',
+    description: 'Поставьте возвратные глаголы в правильную форму',
     questions: [
-      { sentence: 'No podemos ir ________ dar un paseo ________ el parque porque ahora nos preparamos ________ el concierto.', correct: 'a / por / para', blanks: 1 },
-      { sentence: '¿Por qué Juan se despide ________ nosotros? — Porque él se va mañana ________ la tarde.', correct: 'de / por', blanks: 1 },
-      { sentence: '¿No le gusta ________ usted el té? Voy ________ prepararle un café.', correct: 'a / a', blanks: 1 },
-      { sentence: 'Enrique y yo empezamos ________ trabajar ________ las nueve ________ punto ________ la mañana.', correct: 'a / a / en / de', blanks: 1 },
-      { sentence: 'Ellos quieren jugar ________ el fútbol ________ mis amigos ________ el jardín.', correct: 'a / con / en', blanks: 1 },
-      { sentence: 'El jefe piensa ________ el proyecto ________ nuestro arquitecto.', correct: 'en / de', blanks: 1 },
-      { sentence: 'Son las once ________ la noche. Quiero leer un poco ________ acostarme.', correct: 'de / antes de', blanks: 1 },
-      { sentence: 'Alicia no recuerda el nombre ________ su profesor y la tía ríe ________ su sobrina.', correct: 'de / de', blanks: 1 },
-      { sentence: 'Tienes que traducir ________ ruso ________ español este documento.', correct: 'del / al', blanks: 1 },
-      { sentence: 'Hay que llamar ________ teléfono ________ saber ________ qué hora empieza la película. ¿Por qué no haces caso ________ mi consejo?', correct: 'por / para / a / de', blanks: 1 }
+      { sentence: 'Yo ________ (despertarse) a las siete.', correct: 'me despierto', blanks: 1 },
+      { sentence: 'Tú ________ (levantarse) temprano.', correct: 'te levantas', blanks: 1 },
+      { sentence: 'Mi hermano ________ (ducharse) por la mañana.', correct: 'se ducha', blanks: 1 },
+      { sentence: 'Nosotros ________ (vestirse) rápido.', correct: 'nos vestimos', blanks: 1 },
+      { sentence: 'Vosotros ________ (peinarse) ante el espejo.', correct: 'os peináis', blanks: 1 },
+      { sentence: 'Mis padres ________ (acostarse) tarde.', correct: 'se acuestan', blanks: 1 },
+      { sentence: '¿A qué hora ________ (acostarse, tú)?', correct: 'te acuestas', blanks: 1 },
+      { sentence: 'María ________ (maquillarse) en el cuarto de baño.', correct: 'se maquilla', blanks: 1 },
+      { sentence: 'Yo ________ (lavarse) las manos antes de comer.', correct: 'me lavo', blanks: 1 },
+      { sentence: '¿Cómo ________ (llamarse, usted)?', correct: 'se llama', blanks: 1 },
+      { sentence: 'Los niños ________ (bañarse) en la piscina.', correct: 'se bañan', blanks: 1 },
+      { sentence: 'Mi padre ________ (afeitarse) cada día.', correct: 'se afeita', blanks: 1 },
+      { sentence: '¿Dónde ________ (encontrarse) tu casa?', correct: 'se encuentra', blanks: 1 },
+      { sentence: 'Nosotros ________ (irse) a las nueve.', correct: 'nos vamos', blanks: 1 },
+      { sentence: 'Ella ________ (sentirse) bien.', correct: 'se siente', blanks: 1 }
     ]
   },
 
   'ex-4-1-3': {
     id: 'ex-4-1-3',
-    type: 'translation',
-    title: 'Упражнение 3: Переведите на испанский язык',
-    description: 'Переведите предложения с русского на испанский',
+    type: 'fillblank',
+    title: 'Упражнение 3 (Грамматика): Изменение смысла с SE',
+    description: 'Выберите правильный глагол (с SE или без SE)',
     questions: [
-      { russian: 'Как вас зовут, сеньориты? — Меня зовут Анита, а мою подругу зовут Росита. — Очень приятно.', correct: '¿Cómo se llaman, señoritas? — Me llamo Anita, y mi amiga se llama Rosita. — Mucho gusto.', alternatives: ['¿Cómo os llamáis, señoritas? — Yo me llamo Anita y mi amiga se llama Rosita. — Encantado'] },
-      { russian: 'Я ложусь спать, но не засыпаю, не хочу спать и пью лекарство, чтобы заснуть.', correct: 'Me acuesto, pero no me duermo, no tengo sueño y tomo medicina para dormirme.', alternatives: ['Me acuesto pero no me duermo, no quiero dormir y bebo medicina para dormirme'] },
-      { russian: 'Вы не знаете, где находится кинотеатр «Космос»? — Нет, я этого не знаю. Я не местный. Мне жаль.', correct: '¿No sabe dónde se encuentra el cine Cosmos? — No, no lo sé. No soy de aquí. Lo siento.', alternatives: ['¿No sabes dónde está el cine Cosmos? — No, no sé. No soy de aquí. Lo siento'] },
-      { russian: 'Почему ты не готовишься к празднику: не бреешься, не одеваешься? — Не хочу идти на праздник, я плохо себя чувствую.', correct: '¿Por qué no te preparas para la fiesta: no te afeitas, no te vistes? — No quiero ir a la fiesta, me siento mal.', alternatives: ['¿Por qué no te preparas para la fiesta: no te afeitas, no te vistes? — No quiero ir a la fiesta, no me siento bien'] },
-      { russian: 'Я ей не лгу, я говорю ей правду, а она смеется надо мной, потому что мне не верит.', correct: 'No le miento, le digo la verdad, y ella se ríe de mí porque no me cree.', alternatives: ['Yo no le miento, yo le digo la verdad, pero ella se ríe de mí porque no me cree'] },
-      { russian: 'Дон Альфонсо снимает шляпу, прощается со своими друзьями и уходит.', correct: 'Don Alfonso se quita el sombrero, se despide de sus amigos y se va.', alternatives: ['Don Alfonso quita su sombrero, se despide de sus amigos y se va'] },
-      { russian: 'Я не хочу чистить зубы и не люблю умываться холодной водой.', correct: 'No quiero limpiarme los dientes y no me gusta lavarme con agua fría.', alternatives: ['Yo no quiero limpiarme los dientes y no me gusta lavarme con agua fría'] },
-      { russian: 'Бабушка не купается в море, она предпочитает купаться в бассейне.', correct: 'La abuela no se baña en el mar, prefiere bañarse en la piscina.', alternatives: ['Mi abuela no se baña en el mar, ella prefiere bañarse en la piscina'] },
-      { russian: 'В котором часу вы уезжаете? — Я не помню. Надо спросить об этом ее брата.', correct: '¿A qué hora os vais? — No recuerdo. Hay que preguntar a su hermano.', alternatives: ['¿A qué hora se van? — No me acuerdo. Hay que preguntarle a su hermano'] },
-      { russian: 'Мама просыпается в 5 часов утра и встает. Она слышит, что ее зовет дочка.', correct: 'Mamá se despierta a las cinco de la mañana y se levanta. Oye que su hija la llama.', alternatives: ['La mamá se despierta a las cinco de la mañana y se levanta. Ella oye que la llama su hija'] }
+      { sentence: 'Mi madre ________ la cena. (готовит ужин)', correct: 'prepara', blanks: 1 },
+      { sentence: 'Yo ________ para el examen. (готовлюсь)', correct: 'me preparo', blanks: 1 },
+      { sentence: 'El bebé ________. (засыпает)', correct: 'se duerme', blanks: 1 },
+      { sentence: 'El bebé ________ ocho horas. (спит)', correct: 'duerme', blanks: 1 },
+      { sentence: 'Yo ________ a mi hermano a las siete. (бужу)', correct: 'despierto', blanks: 1 },
+      { sentence: 'Mi hermano ________ a las siete. (просыпается)', correct: 'se despierta', blanks: 1 },
+      { sentence: 'Nosotros ________ de casa. (уходим)', correct: 'nos vamos', blanks: 1 },
+      { sentence: 'Nosotros ________ al trabajo. (ходим)', correct: 'vamos', blanks: 1 },
+      { sentence: '¿________ el libro? (находишь)', correct: 'Encuentras', blanks: 1 },
+      { sentence: '¿Dónde ________ tu oficina? (находится)', correct: 'se encuentra', blanks: 1 },
+      { sentence: 'Yo ________ mal hoy. (чувствую себя)', correct: 'me siento', blanks: 1 },
+      { sentence: 'Yo ________ tu dolor. (сожалею)', correct: 'siento', blanks: 1 },
+      { sentence: '________ los zapatos. (надеваю)', correct: 'Me pongo', blanks: 1 },
+      { sentence: '________ el libro en la mesa. (кладу)', correct: 'Pongo', blanks: 1 },
+      { sentence: 'Pedro ________ médico. (становится)', correct: 'se hace', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-4': {
+    id: 'ex-4-1-4',
+    type: 'fillblank',
+    title: 'Упражнение 4 (Грамматика): Местоимения с инфинитивом',
+    description: 'Поставьте возвратный глагол в инфинитив с местоимением',
+    questions: [
+      { sentence: 'Quiero ________ (ducharse) ahora.', correct: 'ducharme', blanks: 1 },
+      { sentence: 'Tienes que ________ (levantarse) temprano.', correct: 'levantarte', blanks: 1 },
+      { sentence: 'Mi hermana va a ________ (vestirse) rápido.', correct: 'vestirse', blanks: 1 },
+      { sentence: 'Necesitamos ________ (prepararse) para la fiesta.', correct: 'prepararnos', blanks: 1 },
+      { sentence: '¿Podéis ________ (irse) ahora?', correct: 'iros', blanks: 1 },
+      { sentence: 'Ellos quieren ________ (acostarse) tarde.', correct: 'acostarse', blanks: 1 },
+      { sentence: 'Tengo que ________ (lavarse) las manos.', correct: 'lavarme', blanks: 1 },
+      { sentence: '¿Puedes ________ (sentarse) aquí?', correct: 'sentarte', blanks: 1 },
+      { sentence: 'Ana va a ________ (peinarse) en casa.', correct: 'peinarse', blanks: 1 },
+      { sentence: 'Queremos ________ (quedarse) en casa.', correct: 'quedarnos', blanks: 1 },
+      { sentence: 'Necesito ________ (afeitarse) hoy.', correct: 'afeitarme', blanks: 1 },
+      { sentence: '¿Vas a ________ (maquillarse)?', correct: 'maquillarte', blanks: 1 },
+      { sentence: 'Mis padres quieren ________ (despedirse) de vosotros.', correct: 'despedirse', blanks: 1 },
+      { sentence: 'Tenemos que ________ (bañarse) en la piscina.', correct: 'bañarnos', blanks: 1 },
+      { sentence: 'No puedo ________ (dormirse) sin leer.', correct: 'dormirme', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-5': {
+    id: 'ex-4-1-5',
+    type: 'fillblank',
+    title: 'Упражнение 5 (Грамматика): Герундий - образование',
+    description: 'Образуйте герундий от данных глаголов',
+    questions: [
+      { sentence: 'hablar → ________', correct: 'hablando', blanks: 1 },
+      { sentence: 'estudiar → ________', correct: 'estudiando', blanks: 1 },
+      { sentence: 'trabajar → ________', correct: 'trabajando', blanks: 1 },
+      { sentence: 'comer → ________', correct: 'comiendo', blanks: 1 },
+      { sentence: 'beber → ________', correct: 'bebiendo', blanks: 1 },
+      { sentence: 'vivir → ________', correct: 'viviendo', blanks: 1 },
+      { sentence: 'escribir → ________', correct: 'escribiendo', blanks: 1 },
+      { sentence: 'leer → ________', correct: 'leyendo', blanks: 1 },
+      { sentence: 'oír → ________', correct: 'oyendo', blanks: 1 },
+      { sentence: 'dormir → ________', correct: 'durmiendo', blanks: 1 },
+      { sentence: 'pedir → ________', correct: 'pidiendo', blanks: 1 },
+      { sentence: 'servir → ________', correct: 'sirviendo', blanks: 1 },
+      { sentence: 'ir → ________', correct: 'yendo', blanks: 1 },
+      { sentence: 'venir → ________', correct: 'viniendo', blanks: 1 },
+      { sentence: 'decir → ________', correct: 'diciendo', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-6': {
+    id: 'ex-4-1-6',
+    type: 'fillblank',
+    title: 'Упражнение 6 (Грамматика): ESTAR + герундий',
+    description: 'Составьте предложения с конструкцией ESTAR + герундий',
+    questions: [
+      { sentence: 'Yo ________ (estudiar) español ahora.', correct: 'estoy estudiando', blanks: 1 },
+      { sentence: '¿Qué ________ (hacer, tú)?', correct: 'estás haciendo', blanks: 1 },
+      { sentence: 'Mi hermano ________ (leer) un libro.', correct: 'está leyendo', blanks: 1 },
+      { sentence: 'Nosotros ________ (comer) en casa.', correct: 'estamos comiendo', blanks: 1 },
+      { sentence: '¿________ (trabajar, vosotros) ahora?', correct: 'Estáis trabajando', blanks: 1 },
+      { sentence: 'Ellos ________ (ver) la televisión.', correct: 'están viendo', blanks: 1 },
+      { sentence: 'María ________ (escribir) una carta.', correct: 'está escribiendo', blanks: 1 },
+      { sentence: '¿Qué ________ (decir, tú)?', correct: 'estás diciendo', blanks: 1 },
+      { sentence: 'Los niños ________ (dormir) ahora.', correct: 'están durmiendo', blanks: 1 },
+      { sentence: 'Yo no ________ (oír) nada.', correct: 'estoy oyendo', blanks: 1 },
+      { sentence: '¿________ (venir) tu madre?', correct: 'Está viniendo', blanks: 1 },
+      { sentence: 'Nosotros ________ (hablar) español.', correct: 'estamos hablando', blanks: 1 },
+      { sentence: 'Tú ________ (beber) café.', correct: 'estás bebiendo', blanks: 1 },
+      { sentence: 'Mi padre ________ (ir) al trabajo.', correct: 'está yendo', blanks: 1 },
+      { sentence: 'Yo ________ (pedir) ayuda.', correct: 'estoy pidiendo', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-7': {
+    id: 'ex-4-1-7',
+    type: 'fillblank',
+    title: 'Упражнение 7 (Грамматика): Герундий возвратных глаголов',
+    description: 'Используйте герундий возвратных глаголов (два варианта)',
+    questions: [
+      { sentence: 'Yo ________ (ducharse) ahora. [Me estoy duchando]', correct: 'me estoy duchando', blanks: 1 },
+      { sentence: 'Yo ________ (ducharse) ahora. [Estoy duchándome]', correct: 'estoy duchándome', blanks: 1 },
+      { sentence: 'Mi hermano ________ (vestirse). [Se está vistiendo]', correct: 'se está vistiendo', blanks: 1 },
+      { sentence: 'Mi hermano ________ (vestirse). [Está vistiéndose]', correct: 'está vistiéndose', blanks: 1 },
+      { sentence: 'Nosotros ________ (prepararse) para salir.', correct: 'nos estamos preparando', blanks: 1 },
+      { sentence: 'Nosotros ________ (prepararse) para salir.', correct: 'estamos preparándonos', blanks: 1 },
+      { sentence: '¿Tú ________ (peinarse)?', correct: 'te estás peinando', blanks: 1 },
+      { sentence: '¿Tú ________ (peinarse)?', correct: 'estás peinándote', blanks: 1 },
+      { sentence: 'Ella ________ (maquillarse) en el cuarto de baño.', correct: 'se está maquillando', blanks: 1 },
+      { sentence: 'Ella ________ (maquillarse) en el cuarto de baño.', correct: 'está maquillándose', blanks: 1 },
+      { sentence: 'Los niños ________ (bañarse).', correct: 'se están bañando', blanks: 1 },
+      { sentence: 'Los niños ________ (bañarse).', correct: 'están bañándose', blanks: 1 },
+      { sentence: 'Yo ________ (levantarse).', correct: 'me estoy levantando', blanks: 1 },
+      { sentence: 'Yo ________ (levantarse).', correct: 'estoy levantándome', blanks: 1 },
+      { sentence: 'Mi padre ________ (afeitarse).', correct: 'se está afeitando', blanks: 1 }
+    ]
+  },
+
+  // МОДУЛЬ 4 УРОК 1 УПРАЖНЕНИЯ - СЛОВАРЬ
+  'ex-4-1-8': {
+    id: 'ex-4-1-8',
+    type: 'fillblank',
+    title: 'Упражнение 8 (Словарь): Время - словарь',
+    description: 'Вставьте правильное слово о времени',
+    questions: [
+      { sentence: 'Tengo un ________ en la pared. (часы)', correct: 'reloj', blanks: 1 },
+      { sentence: 'El ________ suena a las siete. (будильник)', correct: 'despertador', blanks: 1 },
+      { sentence: '¿Qué ________ es? (час)', correct: 'hora', blanks: 1 },
+      { sentence: 'Un ________ tiene sesenta segundos. (минута)', correct: 'minuto', blanks: 1 },
+      { sentence: 'Una hora tiene sesenta ________. (минут)', correct: 'minutos', blanks: 1 },
+      { sentence: 'Voy a casa en ________ hora. (полчаса)', correct: 'media', blanks: 1 },
+      { sentence: 'No tengo ________ ahora. (время)', correct: 'tiempo', blanks: 1 },
+      { sentence: 'Llegamos ________ tiempo. (вовремя)', correct: 'a', blanks: 1 },
+      { sentence: 'El tren sale ________ eso de las tres. (около трех)', correct: 'a', blanks: 1 },
+      { sentence: 'Vuelvo ________ cinco horas. (через пять часов)', correct: 'en', blanks: 1 },
+      { sentence: 'Salimos ________ diez minutos. (через десять минут)', correct: 'dentro de', blanks: 1 },
+      { sentence: 'Comemos ________ de las seis. (после шести)', correct: 'después', blanks: 1 },
+      { sentence: 'Tengo un ________ de media hora. (опоздание)', correct: 'retraso', blanks: 1 },
+      { sentence: '________ es mediodía. (сейчас)', correct: 'Ahora', blanks: 1 },
+      { sentence: 'Un ________ tiene sesenta minutos. (час)', correct: 'hora', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-9': {
+    id: 'ex-4-1-9',
+    type: 'fillblank',
+    title: 'Упражнение 9 (Словарь): Возвратные глаголы - словарь',
+    description: 'Вставьте правильный возвратный глагол',
+    questions: [
+      { sentence: 'Por la mañana yo ________ a las siete. (просыпаюсь)', correct: 'me despierto', blanks: 1 },
+      { sentence: 'Después yo ________ de la cama. (встаю)', correct: 'me levanto', blanks: 1 },
+      { sentence: 'Voy al cuarto de baño y ________ la cara. (умываюсь)', correct: 'me lavo', blanks: 1 },
+      { sentence: 'También ________ los dientes. (чищу)', correct: 'me limpio', blanks: 1 },
+      { sentence: 'Mi hermano ________ en la ducha. (принимает душ)', correct: 'se ducha', blanks: 1 },
+      { sentence: 'Mi hermana prefiere ________ en la bañera. (принимать ванну)', correct: 'bañarse', blanks: 1 },
+      { sentence: 'Después ________ con una toalla. (вытираюсь)', correct: 'me seco', blanks: 1 },
+      { sentence: 'Mi padre ________ cada día. (бреется)', correct: 'se afeita', blanks: 1 },
+      { sentence: 'Yo ________ ante el espejo. (причесываюсь)', correct: 'me peino', blanks: 1 },
+      { sentence: 'Mi madre ________. (красится)', correct: 'se maquilla', blanks: 1 },
+      { sentence: 'Luego yo ________ rápido. (одеваюсь)', correct: 'me visto', blanks: 1 },
+      { sentence: 'Por la noche yo ________ la ropa. (снимаю)', correct: 'me quito', blanks: 1 },
+      { sentence: 'Antes de ________, leo un libro. (ложиться спать)', correct: 'acostarme', blanks: 1 },
+      { sentence: 'Yo ________ a las once. (ложусь спать)', correct: 'me acuesto', blanks: 1 },
+      { sentence: 'Rápido ________. (засыпаю)', correct: 'me duermo', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-10': {
+    id: 'ex-4-1-10',
+    type: 'fillblank',
+    title: 'Упражнение 10 (Словарь): Повседневные действия',
+    description: 'Вставьте глагол повседневного действия',
+    questions: [
+      { sentence: 'Por la mañana yo ________ café. (завтракаю)', correct: 'desayuno', blanks: 1 },
+      { sentence: 'A las dos nosotros ________. (обедаем)', correct: 'almorzamos', blanks: 1 },
+      { sentence: 'Por la noche mi familia ________ junta. (ужинает)', correct: 'cena', blanks: 1 },
+      { sentence: 'Mi madre ________ la comida. (готовит)', correct: 'prepara', blanks: 1 },
+      { sentence: 'Después de comer yo ________ mi habitación. (убираю)', correct: 'limpio', blanks: 1 },
+      { sentence: 'Mi hermano ________ su cuarto. (приводит в порядок)', correct: 'ordena', blanks: 1 },
+      { sentence: 'Yo ________ la cama cada día. (застилаю)', correct: 'hago', blanks: 1 },
+      { sentence: 'Por la tarde me gusta ________ por el parque. (гулять)', correct: 'pasear', blanks: 1 },
+      { sentence: 'El domingo yo ________ en casa. (отдыхаю)', correct: 'descanso', blanks: 1 },
+      { sentence: 'A veces yo ________ en el sofá. (расслабляюсь)', correct: 'me relajo', blanks: 1 },
+      { sentence: 'Con mis amigos ________ mucho. (развлекаемся)', correct: 'nos divertimos', blanks: 1 },
+      { sentence: 'Mi hermana ________ en una escuela. (учится)', correct: 'estudia', blanks: 1 },
+      { sentence: 'Mi padre ________ en una oficina. (работает)', correct: 'trabaja', blanks: 1 },
+      { sentence: 'Por la noche yo ________ la televisión. (смотрю)', correct: 'veo', blanks: 1 },
+      { sentence: 'Antes de dormir yo ________ un libro. (читаю)', correct: 'leo', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-11': {
+    id: 'ex-4-1-11',
+    type: 'fillblank',
+    title: 'Упражнение 11 (Словарь): Наречия времени',
+    description: 'Вставьте правильное наречие времени',
+    questions: [
+      { sentence: 'Me levanto ________ cada día. (рано)', correct: 'temprano', blanks: 1 },
+      { sentence: 'Mi hermano vuelve ________ a casa. (поздно)', correct: 'tarde', blanks: 1 },
+      { sentence: 'Voy a salir ________. (скоро)', correct: 'pronto', blanks: 1 },
+      { sentence: 'Primero como, ________ veo la tele. (потом)', correct: 'luego', blanks: 1 },
+      { sentence: '________ de comer, lavo los platos. (после)', correct: 'Después', blanks: 1 },
+      { sentence: '________ de salir, me ducho. (перед)', correct: 'Antes', blanks: 1 },
+      { sentence: '________ estoy en casa. (сейчас)', correct: 'Ahora', blanks: 1 },
+      { sentence: 'Yo ________ desayuno en casa. (всегда)', correct: 'siempre', blanks: 1 },
+      { sentence: 'Yo ________ como en un restaurante. (никогда)', correct: 'nunca', blanks: 1 },
+      { sentence: '________ salgo con mis amigos. (иногда)', correct: 'A veces', blanks: 1 },
+      { sentence: 'Voy al gimnasio ________. (каждый день)', correct: 'todos los días', blanks: 1 },
+      { sentence: 'Estudio español ________. (каждый день)', correct: 'cada día', blanks: 1 },
+      { sentence: '________ me levanto a las siete. (обычно)', correct: 'Normalmente', blanks: 1 },
+      { sentence: '________ como en casa. (как правило)', correct: 'Generalmente', blanks: 1 },
+      { sentence: '________ me acuesto tarde. (иногда)', correct: 'A veces', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-12': {
+    id: 'ex-4-1-12',
+    type: 'fillblank',
+    title: 'Упражнение 12 (Словарь): Выражения с ponerse',
+    description: 'Составьте предложения с ponerse + прилагательное',
+    questions: [
+      { sentence: 'Yo ________ los zapatos. (надеваю)', correct: 'me pongo', blanks: 1 },
+      { sentence: 'Cuando tengo vergüenza, yo ________. (краснею)', correct: 'me pongo rojo', blanks: 1 },
+      { sentence: 'Cuando tengo miedo, yo ________. (бледнею)', correct: 'me pongo blanco', blanks: 1 },
+      { sentence: 'En verano yo ________ en la playa. (загораю)', correct: 'me pongo moreno', blanks: 1 },
+      { sentence: 'Cuando estoy solo, yo ________. (грущу)', correct: 'me pongo triste', blanks: 1 },
+      { sentence: 'Cuando recibo buenas noticias, yo ________. (радуюсь)', correct: 'me pongo alegre', blanks: 1 },
+      { sentence: 'Antes de un examen, yo ________. (нервничаю)', correct: 'me pongo nervioso', blanks: 1 },
+      { sentence: 'En invierno yo ________ a veces. (болею)', correct: 'me pongo enfermo', blanks: 1 },
+      { sentence: 'Mi hermana ________ la chaqueta. (надевает)', correct: 'se pone', blanks: 1 },
+      { sentence: 'Tú ________ cuando hablas en público. (краснеешь)', correct: 'te pones rojo', blanks: 1 },
+      { sentence: 'Mi madre ________ cuando mi padre llega tarde. (нервничает)', correct: 'se pone nerviosa', blanks: 1 },
+      { sentence: 'Los niños ________ cuando juegan. (радуются)', correct: 'se ponen alegres', blanks: 1 },
+      { sentence: 'Nosotros ________ en otoño. (болеем)', correct: 'nos ponemos enfermos', blanks: 1 },
+      { sentence: 'Vosotros ________ en julio. (загораете)', correct: 'os ponéis morenos', blanks: 1 },
+      { sentence: 'Ellos ________ cuando ven películas tristes. (грустят)', correct: 'se ponen tristes', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-13': {
+    id: 'ex-4-1-13',
+    type: 'fillblank',
+    title: 'Упражнение 13 (Словарь): Выражения с hacerse',
+    description: 'Составьте предложения с hacerse + существительное/прилагательное',
+    questions: [
+      { sentence: 'Yo quiero ________ rico. (стать богатым)', correct: 'hacerme', blanks: 1 },
+      { sentence: 'Mi hermano quiere ________ famoso. (стать известным)', correct: 'hacerse', blanks: 1 },
+      { sentence: 'El deportista quiere ________ campeón. (стать чемпионом)', correct: 'hacerse', blanks: 1 },
+      { sentence: 'Nosotros queremos ________ amigos. (подружиться)', correct: 'hacernos', blanks: 1 },
+      { sentence: 'Ella quiere ________ médica. (стать врачом)', correct: 'hacerse', blanks: 1 },
+      { sentence: 'Tú vas a ________ profesor. (стать учителем)', correct: 'hacerte', blanks: 1 },
+      { sentence: 'Mi padre ________ arquitecto. (стал архитектором)', correct: 'se hizo', blanks: 1 },
+      { sentence: 'Ellos ________ amigos en la escuela. (подружились)', correct: 'se hicieron', blanks: 1 },
+      { sentence: 'Pedro quiere ________ ingeniero. (стать инженером)', correct: 'hacerse', blanks: 1 },
+      { sentence: 'Yo voy a ________ abogado. (стать адвокатом)', correct: 'hacerme', blanks: 1 },
+      { sentence: 'Ana ________ famosa. (становится известной)', correct: 'se hace', blanks: 1 },
+      { sentence: 'Nosotros ________ ricos. (становимся богатыми)', correct: 'nos hacemos', blanks: 1 },
+      { sentence: 'Mi hermana quiere ________ cantante. (стать певицей)', correct: 'hacerse', blanks: 1 },
+      { sentence: 'Vosotros ________ buenos amigos. (становитесь хорошими друзьями)', correct: 'os hacéis', blanks: 1 },
+      { sentence: 'Ellos quieren ________ escritores. (стать писателями)', correct: 'hacerse', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-14': {
+    id: 'ex-4-1-14',
+    type: 'fillblank',
+    title: 'Упражнение 14 (Словарь): Повседневная жизнь - смешанное',
+    description: 'Вставьте правильное слово или форму глагола',
+    questions: [
+      { sentence: 'Mi ________ diaria empieza a las siete. (рутина)', correct: 'rutina', blanks: 1 },
+      { sentence: 'Yo ________ a las siete de la mañana. (просыпаюсь)', correct: 'me despierto', blanks: 1 },
+      { sentence: '________ me levanto y voy al cuarto de baño. (потом)', correct: 'Luego', blanks: 1 },
+      { sentence: '________ me ducho. (сначала)', correct: 'Primero', blanks: 1 },
+      { sentence: '________ de ducharme, me visto. (после)', correct: 'Después', blanks: 1 },
+      { sentence: 'Mi madre ________ el desayuno. (готовит)', correct: 'prepara', blanks: 1 },
+      { sentence: 'Yo ________ café con leche. (завтракаю)', correct: 'desayuno', blanks: 1 },
+      { sentence: 'Salgo de casa ________ las ocho. (в)', correct: 'a', blanks: 1 },
+      { sentence: 'Voy a la universidad ________ autobús. (на)', correct: 'en', blanks: 1 },
+      { sentence: 'Las clases empiezan ________ las nueve en punto. (в)', correct: 'a', blanks: 1 },
+      { sentence: 'A las dos yo ________ en la cafetería. (обедаю)', correct: 'almuerzo', blanks: 1 },
+      { sentence: 'Vuelvo a casa ________ las seis de la tarde. (в)', correct: 'a', blanks: 1 },
+      { sentence: 'Por la noche mi familia ________ junta. (ужинает)', correct: 'cena', blanks: 1 },
+      { sentence: '________ de cenar, veo la televisión. (после)', correct: 'Después', blanks: 1 },
+      { sentence: 'Me acuesto ________ las once. (в)', correct: 'a', blanks: 1 }
     ]
   }
 }
