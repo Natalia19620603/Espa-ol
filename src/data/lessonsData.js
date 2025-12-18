@@ -5170,83 +5170,69 @@ María: ¡Vamos!`,
           defaultOpen: false,
           content: `## Герундий (Gerundio)
 
-Герундий — это неизменяемая форма глагола, которая соответствует русскому деепричастию несовершенного вида и отвечает на вопрос «что делая?».
+Герундий — это неизменяемая форма глагола, которая отвечает на вопрос «что делая?». В сочетании с глаголом **estar** он образует конструкцию, которая описывает действие, происходящее прямо сейчас.
 
-### Образование герундия
+### 1. Как образуется герундий
 
-**Правильные формы:**
+Для образования герундия нужно отбросить окончание инфинитива и добавить суффикс:
 
-1. Глаголы на **-AR**: основа + **-ando**
-   - hablar → hablando (говоря)
-   - trabajar → trabajando (работая)
-   - estudiar → estudiando (учась)
+| Спряжение | Суффикс | Примеры |
+|-----------|---------|---------|
+| **-ar** (1) | **-ando** | hablar → hablando (говоря) |
+| **-er** (2) | **-iendo** | comer → comiendo (едя) |
+| **-ir** (3) | **-iendo** | vivir → viviendo (живя) |
 
-2. Глаголы на **-ER** и **-IR**: основа + **-iendo**
-   - comer → comiendo (кушая)
-   - beber → bebiendo (пив пья)
-   - vivir → viviendo (живя)
-   - escribir → escribiendo (писав)
+### 2. Особые формы (нужно запомнить)
 
-**Особые случаи:**
+Иногда в основе происходят изменения, чтобы слово звучало красиво или согласно правилам:
 
-1. Глаголы на -**aer**, -**eer**, -**oer**, -**uir** имеют окончание **-yendo**:
-   - leer → leyendo (читая)
-   - caer → cayendo (падая)
-   - oír → oyendo (слушая)
-   - construir → construyendo (строя)
-   - incluir → incluyendo (включая)
+**Замена i на y (между гласными):**
+- leer → **leyendo** (читая)
+- ir → **yendo** (идя)
+- oír → **oyendo** (слыша)
 
-2. Отклоняющиеся глаголы **E→I** и **O→U** (только глаголы на -IR!):
-   - pedir (e→i) → pidiendo (прося)
-   - servir (e→i) → sirviendo (обслуживая)
-   - sentir (e→i) → sintiendo (чувствуя)
-   - dormir (o→u) → durmiendo (спя)
-   - morir (o→u) → muriendo (умирая)
+**Изменение гласной в корне (только для глаголов на -ir):**
+- **e → i:** decir → **diciendo**, pedir → **pidiendo**
+- **o → u:** dormir → **durmiendo**, morir → **muriendo**
 
-**Неправильные герундии:**
+### 3. Конструкция Estar + Gerundio
 
-| Глагол | Герундий |
-|--------|----------|
-| ir | yendo |
-| venir | viniendo |
-| decir | diciendo |
-| poder | pudiendo |
-
-### Употребление герундия
-
-#### 1. Конструкция ESTAR + герундий
-
-Описывает действие, происходящее в данный момент (аналог английского Present Continuous).
-
-**Формула:** estar (в настоящем времени) + герундий
+Эта конструкция нужна, чтобы подчеркнуть, что действие происходит в момент речи.
 
 **Примеры:**
-- Estoy estudiando español. (Я изучаю испанский сейчас / Я учу испанский).
-- ¿Qué estás haciendo? (Что ты делаешь?)
-- Ella está leyendo un libro. (Она читает книгу сейчас).
-- Estamos comiendo. (Мы едим / кушаем).
-- ¿Estáis trabajando? (Вы работаете сейчас?)
-- Están viendo la televisión. (Они смотрят телевизор).
+- ¿Qué estás haciendo? — Что ты сейчас делаешь?
+- Estoy comiendo una pizza. — Я (сейчас) ем пиццу.
+- Juan está durmiendo. — Хуан (сейчас) спит.
+- Estamos estudiando español. — Мы (сейчас) учим испанский.
 
-#### 2. Герундий возвратных глаголов
+### 4. Местоимения с герундием
 
-Возвратное местоимение может стоять:
-- **перед** формой estar: **Me estoy duchando.**
-- **после** герундия (слитно): **Estoy duchándome.**
+Если глагол возвратный или есть дополнения (меня, его, нам), местоимение можно поставить **перед** estar или приклеить к концу герундия.
 
 **Примеры:**
-- Me estoy lavando las manos. = Estoy lavándome las manos. (Я мою руки).
-- Te estás vistiendo. = Estás vistiéndote. (Ты одеваешься).
-- Se está peinando. = Está peinándose. (Он/она причесывается).
+- **Me estoy lavando.** / **Estoy lavándome.** (Я умываюсь).
+- **Lo estoy leyendo.** / **Estoy leyéndolo.** (Я это читаю).
 
-**Важно:** При присоединении местоимения к герундию нужно ставить графическое ударение, чтобы сохранить ударение на предпоследнем слоге: duchándo**me**, vistiéndo**te**, peinándo**se**.
+**Примечание:** при добавлении местоимения в конец герундия появляется графическое ударение.
 
-#### 3. Другие употребления герундия
+### 5. Другие случаи использования
 
-Герундий также используется для описания способа выполнения действия:
+**Как обстоятельство (как? каким образом?):**
+- Escucho música caminando por la calle. — Я слушаю музыку, гуляя по улице.
 
-- Aprendo español escuchando música. (Я учу испанский, слушая музыку).
-- Salgo de casa corriendo. (Я выхожу из дома, бегом / торопясь).`
+**С глаголом seguir (продолжать):**
+- Sigo trabajando aquí. — Я продолжаю здесь работать.
+
+**Отрицание (sin + инфинитив):**
+
+Если мы хотим сказать «не делая чего-то», используем **sin**:
+- Entra sin llamar. — Он заходит, не постучав.
+
+### Примеры для практики:
+
+- ¿Dónde está Pablo? — Está duchándose. (Где Пабло? — Он принимает душ).
+- Ahora no puedo hablar, estoy conduciendo. (Сейчас не могу говорить, я за рулем / веду машину).
+- Mis amigos están bailando en la fiesta. (Мои друзья танцуют на вечеринке).`
         }
       ]
     },
@@ -5355,7 +5341,55 @@ María: ¡Vamos!`,
       { word: 'normalmente', translation: 'обычно', audioUrl: null },
       { word: 'generalmente', translation: 'как правило', audioUrl: null }
     ],
-    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14']
+    readingText: {
+      title: 'Un día normal de Elena',
+      content: `Hola, me llamo Elena y soy estudiante de español. Quiero hablar de mi rutina diaria.
+
+Normalmente me despierto a las siete de la mañana. Suena el despertador y me levanto. Primero voy al cuarto de baño. Me lavo la cara, me limpio los dientes y me ducho. Después me seco con una toalla y me peino ante el espejo. Luego me visto rápido porque no tengo mucho tiempo.
+
+A las ocho menos cuarto estoy en la cocina. Mi madre está preparando el desayuno. Ella siempre se levanta temprano. Mi padre está leyendo el periódico y bebiendo café. Mi hermano pequeño todavía está durmiendo porque él no tiene que ir a la escuela hoy.
+
+— ¿Qué hora es, mamá? — pregunto.
+— Son las ocho menos diez — dice mi madre.
+— ¿A qué hora empieza tu clase?
+— A las nueve en punto. Tengo que irme dentro de diez minutos.
+— ¿Estás desayunando algo? — pregunta mi madre.
+— Sí, estoy comiendo un bocadillo y tomando un café con leche.
+
+Salgo de casa a las ocho. Voy a la universidad en autobús. Normalmente llego a tiempo, pero a veces tengo un retraso de cinco minutos. En el autobús, estoy escuchando música y mirando por la ventana. Veo a muchas personas: unos están yendo al trabajo, otros están paseando con sus perros.
+
+Mis clases empiezan a las nueve de la mañana y terminan a las dos de la tarde. Entre las clases, mis amigos y yo estamos hablando español, porque queremos practicar. A veces estamos haciendo los ejercicios juntos en la biblioteca.
+
+Después de las clases, almuerzo en la cafetería de la universidad. A eso de las tres vuelvo a casa. Por la tarde, hago mi tarea, limpio mi habitación y ordeno mis cosas. A veces salgo a pasear por el parque o me quedo en casa leyendo un libro.
+
+Por la noche, toda mi familia cena junta a las ocho. Después de cenar, veo la televisión o estoy hablando con mis amigos por teléfono. Me gusta mucho hablar con ellos. A las once me acuesto, pero no me duermo rápido porque siempre estoy pensando en muchas cosas.
+
+Esta es mi rutina diaria. ¿Y tú? ¿A qué hora te levantas? ¿Qué estás haciendo ahora?`,
+      translation: `Привет, меня зовут Елена, и я студентка испанского языка. Я хочу рассказать о своем распорядке дня.
+
+Обычно я просыпаюсь в семь часов утра. Звонит будильник, и я встаю. Сначала иду в ванную комнату. Я умываюсь, чищу зубы и принимаю душ. Потом вытираюсь полотенцем и причесываюсь перед зеркалом. Затем быстро одеваюсь, потому что у меня мало времени.
+
+Без четверти восемь я на кухне. Моя мама готовит завтрак. Она всегда встает рано. Мой отец читает газету и пьет кофе. Мой младший брат все еще спит, потому что ему не нужно идти в школу сегодня.
+
+— Который час, мама? — спрашиваю я.
+— Без десяти восемь, — говорит моя мама.
+— Во сколько начинается твой урок?
+— Ровно в девять. Мне нужно уйти через десять минут.
+— Ты завтракаешь? — спрашивает моя мама.
+— Да, я ем бутерброд и пью кофе с молоком.
+
+Я выхожу из дома в восемь часов. Еду в университет на автобусе. Обычно я приезжаю вовремя, но иногда опаздываю на пять минут. В автобусе я слушаю музыку и смотрю в окно. Вижу много людей: одни идут на работу, другие гуляют со своими собаками.
+
+Мои занятия начинаются в девять утра и заканчиваются в два дня. Между занятиями мы с друзьями говорим по-испански, потому что хотим практиковаться. Иногда мы вместе делаем упражнения в библиотеке.
+
+После занятий обедаю в университетской кафетерии. Около трех возвращаюсь домой. Днем делаю домашнее задание, убираю свою комнату и привожу в порядок свои вещи. Иногда выхожу погулять в парк или остаюсь дома, читая книгу.
+
+Вечером вся моя семья ужинает вместе в восемь часов. После ужина смотрю телевизор или разговариваю с друзьями по телефону. Мне очень нравится с ними разговаривать. В одиннадцать ложусь спать, но не засыпаю быстро, потому что всегда думаю о многих вещах.
+
+Это мой распорядок дня. А у тебя? Во сколько ты встаешь? Что ты сейчас делаешь?`,
+      audioUrl: null
+    },
+    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14', 'ex-4-1-15']
   },
 
   'lesson-4-2': {
@@ -14915,6 +14949,65 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Por la noche mi familia ________ junta. (ужинает)', correct: 'cena', blanks: 1 },
       { sentence: '________ de cenar, veo la televisión. (после)', correct: 'Después', blanks: 1 },
       { sentence: 'Me acuesto ________ las once. (в)', correct: 'a', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-15': {
+    id: 'ex-4-1-15',
+    type: 'translation',
+    title: 'Упражнение 15 (Перевод): Переведите предложения на испанский язык',
+    description: 'Используйте изученные темы: Presente de Indicativo, Estar + Gerundio, возвратные глаголы и обозначение времени',
+    questions: [
+      {
+        russian: 'Я ищу свой мобильный телефон уже час, но не могу его найти.',
+        correct: 'Busco mi móvil desde hace una hora, pero no puedo encontrarlo.',
+        alternatives: ['Estoy buscando mi móvil una hora, pero no lo puedo encontrar', 'Busco mi teléfono móvil una hora pero no puedo encontrarlo']
+      },
+      {
+        russian: 'Почему ты продолжаешь давать советы Хуану? Он никогда их не слушает.',
+        correct: '¿Por qué sigues dando consejos a Juan? Él nunca los escucha.',
+        alternatives: ['¿Por qué continúas dando consejos a Juan? Él nunca escucha', '¿Por qué sigues dar consejos a Juan? Nunca los escucha']
+      },
+      {
+        russian: 'Где твои друзья? — Они сейчас в парке, играют в футбол и отдыхают.',
+        correct: '¿Dónde están tus amigos? — Están en el parque ahora, están jugando al fútbol y descansando.',
+        alternatives: ['¿Dónde están tus amigos? — Ahora están en el parque, juegan al fútbol y descansan', '¿Dónde están tus amigos? — Están en el parque, están jugando fútbol y descansando']
+      },
+      {
+        russian: 'Сейчас 8:45 (без четверти девять). Ты всё еще завтракаешь? Тебе нужно выходить через 10 минут.',
+        correct: 'Son las nueve menos cuarto. ¿Todavía estás desayunando? Tienes que salir dentro de diez minutos.',
+        alternatives: ['Son las ocho cuarenta y cinco. ¿Aún estás desayunando? Necesitas salir en diez minutos', 'Son las nueve menos cuarto. ¿Estás desayunando todavía? Debes salir dentro de diez minutos']
+      },
+      {
+        russian: 'Где твоя сестра? — Она в ванной, она чистит зубы и причесывается.',
+        correct: '¿Dónde está tu hermana? — Está en el cuarto de baño, está limpiándose los dientes y peinándose.',
+        alternatives: ['¿Dónde está tu hermana? — Está en el baño, se está limpiando los dientes y peinándose', '¿Dónde está tu hermana? — Está en el cuarto de baño, se limpia los dientes y se peina']
+      },
+      {
+        russian: 'Мы всегда смеемся, когда слушаем эту музыку.',
+        correct: 'Siempre nos reímos cuando escuchamos esta música.',
+        alternatives: ['Nos reímos siempre cuando escuchamos esta música', 'Siempre reímos cuando oímos esta música']
+      },
+      {
+        russian: 'Ты не можешь уйти, не попрощавшись с Марией. — Я спешу, я позвоню ей позже.',
+        correct: 'No puedes irte sin despedirte de María. — Tengo prisa, la llamo más tarde.',
+        alternatives: ['No puedes ir sin despedirte de María. — Tengo prisa, le llamo más tarde', 'No puedes irte sin decir adiós a María. — Estoy con prisa, voy a llamarla más tarde']
+      },
+      {
+        russian: 'Что сейчас делает Анна? — Она разговаривает по телефону с учителем испанского.',
+        correct: '¿Qué está haciendo Ana ahora? — Está hablando por teléfono con el profesor de español.',
+        alternatives: ['¿Qué hace Ana ahora? — Habla por teléfono con su profesor de español', '¿Qué está haciendo Ana? — Está hablando por teléfono con su maestro de español']
+      },
+      {
+        russian: 'Что ты нам говоришь? Мы тебя не слышим, здесь очень шумно.',
+        correct: '¿Qué nos estás diciendo? No te oímos, hay mucho ruido aquí.',
+        alternatives: ['¿Qué nos dices? No te escuchamos, aquí hay mucho ruido', '¿Qué estás diciendo? No te oímos, aquí es muy ruidoso']
+      },
+      {
+        russian: 'Дети сейчас спят, мой муж готовит ужин, а я читаю книгу.',
+        correct: 'Los niños están durmiendo ahora, mi marido está preparando la cena y yo estoy leyendo un libro.',
+        alternatives: ['Los niños duermen ahora, mi esposo prepara la cena y yo leo un libro', 'Ahora los niños están durmiendo, mi marido prepara la cena y estoy leyendo un libro']
+      }
     ]
   }
 }
