@@ -2853,34 +2853,18 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       audioUrl: '/audio/lesson-2-3-reading.mp3'
     },
     exercises: [
-      'ex-2-3-1',
-      'ex-2-3-2',
-      'ex-2-3-3',
-      'ex-2-3-4',
-      'ex-2-3-5',
-      'ex-2-3-6',
-      'ex-2-3-7',
-      'ex-2-3-8',
-      'ex-2-3-9',
-      'ex-2-3-10',
-      'ex-2-3-11',
-      'ex-2-3-12',
-      'ex-2-3-13',
-      'ex-2-3-14',
-      'ex-2-3-15',
-      'ex-3-1-demonstrativos',
-      'ex-3-1-posesivos-mi-tu-su',
-      'ex-3-1-posesivos-nuestro',
-      'ex-3-1-demonstrativos-sust',
-      'ex-3-1-posesivos-pronombres',
-      'ex-3-1-neutros',
-      'ex-3-1-adverbios-lugar',
-      'ex-3-1-su-aclaracion',
-      'ex-3-1-combinado'
+      {
+        tab: 'УПРАЖНЕНИЯ 1',
+        exerciseIds: ['ex-2-2-1', 'ex-2-2-2', 'ex-2-2-3', 'ex-2-2-4', 'ex-2-2-5', 'ex-2-2-6', 'ex-2-2-7', 'ex-2-2-8', 'ex-2-2-9', 'ex-2-2-10', 'ex-2-2-11', 'ex-2-2-12', 'ex-2-2-13', 'ex-2-2-14', 'ex-2-2-15']
+      },
+      {
+        tab: 'УПРАЖНЕНИЯ 2',
+        exerciseIds: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
+      }
     ]
   },
 
-  // МОДУЛЬ 3: Повседневная жизнь
+  // МОДУЛЬ 2: Настоящее время (продолжение)
   'lesson-2-3': {
     id: 'lesson-2-3',
     title: 'Урок 3: Семья и родственники. Вопросительные предложения в испанском языке. Глаголы QUERER, PODER, VENIR, DECIR',
@@ -3291,7 +3275,7 @@ María: ¡Vamos!`,
         { start: 55, end: 60, text: 'Mi familia quiere conocerte. - ¡Perfecto!' }
       ]
     },
-    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3', 'ex-2-3-4', 'ex-2-3-5', 'ex-2-3-6', 'ex-2-3-7', 'ex-2-3-8', 'ex-2-3-9', 'ex-2-3-10', 'ex-2-3-11', 'ex-2-3-12', 'ex-2-3-13', 'ex-2-3-14', 'ex-2-3-15', 'ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
+    exercises: ['ex-2-3-1', 'ex-2-3-2', 'ex-2-3-3', 'ex-2-3-4', 'ex-2-3-5', 'ex-2-3-6', 'ex-2-3-7', 'ex-2-3-8', 'ex-2-3-9', 'ex-2-3-10', 'ex-2-3-11', 'ex-2-3-12', 'ex-2-3-13', 'ex-2-3-14', 'ex-2-3-15']
   },
   'lesson-3-1': {
     id: 'lesson-3-1',
@@ -14084,6 +14068,367 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: '¿Tú ________ (querer) desayunar con nosotros el domingo?', verb: 'querer', correct: 'quieres', blanks: 1 },
       { sentence: 'Yo ________ (incluir) todos los gastos en el precio.', verb: 'incluir', correct: 'incluyo', blanks: 1 },
       { sentence: 'La cafetería ________ (abrir) a las siete y ________ (cerrar) a las dos.', verb: 'abrir / cerrar', correct: 'abre / cierra', blanks: 1 }
+    ]
+  },
+
+  // МОДУЛЬ 2 УРОК 3: Новые упражнения
+  'ex-2-3-1': {
+    id: 'ex-2-3-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Глагол QUERER + инфинитив',
+    description: 'Поставьте глагол QUERER в правильную форму',
+    questions: [
+      { sentence: 'Yo ________ estudiar medicina. (querer)', correct: 'quiero', blanks: 1 },
+      { sentence: '¿Tú ________ venir conmigo? (querer)', correct: 'quieres', blanks: 1 },
+      { sentence: 'Mi hermano ________ ser médico. (querer)', correct: 'quiere', blanks: 1 },
+      { sentence: 'Nosotros ________ hablar español. (querer)', correct: 'queremos', blanks: 1 },
+      { sentence: '¿Vosotros ________ visitar Madrid? (querer)', correct: 'queréis', blanks: 1 },
+      { sentence: 'Ellos ________ trabajar en la universidad. (querer)', correct: 'quieren', blanks: 1 },
+      { sentence: 'Mi madre ________ comprar una casa nueva. (querer)', correct: 'quiere', blanks: 1 },
+      { sentence: '¿Usted ________ tomar café? (querer)', correct: 'quiere', blanks: 1 },
+      { sentence: 'Mis padres ________ vivir en Barcelona. (querer)', correct: 'quieren', blanks: 1 },
+      { sentence: 'Mi hermana ________ aprender español. (querer)', correct: 'quiere', blanks: 1 },
+      { sentence: '¿Quién ________ leer este libro? (querer)', correct: 'quiere', blanks: 1 },
+      { sentence: 'Yo no ________ hablar con él. (querer)', correct: 'quiero', blanks: 1 },
+      { sentence: 'Mis amigos ________ ir al cine. (querer)', correct: 'quieren', blanks: 1 },
+      { sentence: '¿Qué ________ tú? (querer)', correct: 'quieres', blanks: 1 },
+      { sentence: 'Nosotros no ________ comer ahora. (querer)', correct: 'queremos', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-2': {
+    id: 'ex-2-3-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Глагол PODER + инфинитив',
+    description: 'Поставьте глагол PODER в правильную форму',
+    questions: [
+      { sentence: 'Yo ________ hablar español. (poder)', correct: 'puedo', blanks: 1 },
+      { sentence: '¿Tú ________ venir mañana? (poder)', correct: 'puedes', blanks: 1 },
+      { sentence: 'Mi padre no ________ trabajar hoy. (poder)', correct: 'puede', blanks: 1 },
+      { sentence: 'Nosotros ________ estudiar en la biblioteca. (poder)', correct: 'podemos', blanks: 1 },
+      { sentence: '¿Vosotros ________ ayudarme? (poder)', correct: 'podéis', blanks: 1 },
+      { sentence: 'Ellos ________ venir a la fiesta. (poder)', correct: 'pueden', blanks: 1 },
+      { sentence: '¿Usted ________ esperar? (poder)', correct: 'puede', blanks: 1 },
+      { sentence: 'Mi hermana ________ cocinar muy bien. (poder)', correct: 'puede', blanks: 1 },
+      { sentence: 'Yo no ________ leer sin gafas. (poder)', correct: 'puedo', blanks: 1 },
+      { sentence: '¿Quién ________ abrir la puerta? (poder)', correct: 'puede', blanks: 1 },
+      { sentence: 'Mis hermanos ________ vivir solos. (poder)', correct: 'pueden', blanks: 1 },
+      { sentence: '¿Cuándo ________ tú venir? (poder)', correct: 'puedes', blanks: 1 },
+      { sentence: 'Nosotros no ________ comer ahora. (poder)', correct: 'podemos', blanks: 1 },
+      { sentence: '¿Dónde ________ yo comprar un libro? (poder)', correct: 'puedo', blanks: 1 },
+      { sentence: 'Ustedes ________ entrar. (poder)', correct: 'pueden', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-3': {
+    id: 'ex-2-3-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Глагол VENIR',
+    description: 'Поставьте глагол VENIR в правильную форму',
+    questions: [
+      { sentence: 'Yo ________ de Madrid. (venir)', correct: 'vengo', blanks: 1 },
+      { sentence: '¿Tú ________ a mi casa mañana? (venir)', correct: 'vienes', blanks: 1 },
+      { sentence: 'Mi hermano ________ en cinco minutos. (venir)', correct: 'viene', blanks: 1 },
+      { sentence: 'Nosotros ________ a la universidad cada día. (venir)', correct: 'venimos', blanks: 1 },
+      { sentence: '¿Vosotros ________ a la fiesta? (venir)', correct: 'venís', blanks: 1 },
+      { sentence: 'Ellos ________ de Barcelona. (venir)', correct: 'vienen', blanks: 1 },
+      { sentence: '¿Usted ________ con nosotros? (venir)', correct: 'viene', blanks: 1 },
+      { sentence: 'Mis padres ________ el domingo. (venir)', correct: 'vienen', blanks: 1 },
+      { sentence: '¿Quién ________ a la reunión? (venir)', correct: 'viene', blanks: 1 },
+      { sentence: 'Yo ________ solo. (venir)', correct: 'vengo', blanks: 1 },
+      { sentence: 'Mi amiga ________ tarde. (venir)', correct: 'viene', blanks: 1 },
+      { sentence: '¿Cuándo ________ tú? (venir)', correct: 'vienes', blanks: 1 },
+      { sentence: 'Nosotros no ________ hoy. (venir)', correct: 'venimos', blanks: 1 },
+      { sentence: '¿De dónde ________ ustedes? (venir)', correct: 'vienen', blanks: 1 },
+      { sentence: 'Mis hermanas ________ conmigo. (venir)', correct: 'vienen', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-4': {
+    id: 'ex-2-3-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Глагол DECIR',
+    description: 'Поставьте глагол DECIR в правильную форму',
+    questions: [
+      { sentence: 'Yo ________ la verdad. (decir)', correct: 'digo', blanks: 1 },
+      { sentence: '¿Qué ________ tú? (decir)', correct: 'dices', blanks: 1 },
+      { sentence: 'Mi profesor ________ que es importante. (decir)', correct: 'dice', blanks: 1 },
+      { sentence: 'Nosotros ________ que sí. (decir)', correct: 'decimos', blanks: 1 },
+      { sentence: '¿Qué ________ vosotros? (decir)', correct: 'decís', blanks: 1 },
+      { sentence: 'Ellos ________ que no pueden venir. (decir)', correct: 'dicen', blanks: 1 },
+      { sentence: 'Mi madre siempre ________ la verdad. (decir)', correct: 'dice', blanks: 1 },
+      { sentence: '¿Usted ________ que es médico? (decir)', correct: 'dice', blanks: 1 },
+      { sentence: 'Mis amigos ________ que quieren estudiar. (decir)', correct: 'dicen', blanks: 1 },
+      { sentence: 'Yo no ________ nada. (decir)', correct: 'digo', blanks: 1 },
+      { sentence: '¿Quién ________ eso? (decir)', correct: 'dice', blanks: 1 },
+      { sentence: 'Mi hermana ________ que está bien. (decir)', correct: 'dice', blanks: 1 },
+      { sentence: 'Nosotros ________ "buenos días". (decir)', correct: 'decimos', blanks: 1 },
+      { sentence: '¿Qué ________ ustedes? (decir)', correct: 'dicen', blanks: 1 },
+      { sentence: 'Tú siempre ________ lo mismo. (decir)', correct: 'dices', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-5': {
+    id: 'ex-2-3-5',
+    type: 'fillblank',
+    title: 'Упражнение 5: Вопросительные слова',
+    description: 'Выберите правильное вопросительное слово: ¿Quién?, ¿Qué?, ¿Dónde?, ¿Cuándo?, ¿Por qué?, ¿Cómo?',
+    questions: [
+      { sentence: '________ te llamas? — Me llamo Carlos.', correct: 'Cómo', blanks: 1 },
+      { sentence: '________ eres? — Soy estudiante.', correct: 'Qué', blanks: 1 },
+      { sentence: '________ vives? — Vivo en Madrid.', correct: 'Dónde', blanks: 1 },
+      { sentence: '________ estudias español? — Porque quiero trabajar en España.', correct: 'Por qué', blanks: 1 },
+      { sentence: '________ es tu padre? — Es Juan López.', correct: 'Quién', blanks: 1 },
+      { sentence: '________ empiezan las clases? — A las nueve.', correct: 'Cuándo', blanks: 1 },
+      { sentence: '________ es tu hermano? — Es médico.', correct: 'Qué', blanks: 1 },
+      { sentence: '________ está la biblioteca? — Está en el edificio principal.', correct: 'Dónde', blanks: 1 },
+      { sentence: '________ viene tu amigo? — Viene mañana.', correct: 'Cuándo', blanks: 1 },
+      { sentence: '________ no puedes venir? — Porque trabajo.', correct: 'Por qué', blanks: 1 },
+      { sentence: '________ es ella? — Es mi hermana.', correct: 'Quién', blanks: 1 },
+      { sentence: '________ estudias? — Estudio medicina.', correct: 'Qué', blanks: 1 },
+      { sentence: '________ estás? — Estoy bien, gracias.', correct: 'Cómo', blanks: 1 },
+      { sentence: '________ vive tu familia? — En Barcelona.', correct: 'Dónde', blanks: 1 },
+      { sentence: '________ es tu madre? — Es profesora.', correct: 'Qué', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-6': {
+    id: 'ex-2-3-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: Семья и родственники',
+    description: 'Вставьте правильное слово из словаря семьи',
+    questions: [
+      { sentence: 'Mi ________ es médico. (padre)', correct: 'padre', blanks: 1 },
+      { sentence: 'Mi ________ es profesora. (madre)', correct: 'madre', blanks: 1 },
+      { sentence: 'Tengo dos ________. (hermanos)', correct: 'hermanos', blanks: 1 },
+      { sentence: 'Mi ________ mayor se llama Miguel. (hermano)', correct: 'hermano', blanks: 1 },
+      { sentence: 'Mi ________ pequeña tiene quince años. (hermana)', correct: 'hermana', blanks: 1 },
+      { sentence: 'Mis ________ viven en Valencia. (padres)', correct: 'padres', blanks: 1 },
+      { sentence: 'Mi ________ es ingeniero. (padre)', correct: 'padre', blanks: 1 },
+      { sentence: 'Tengo una ________ muy grande. (familia)', correct: 'familia', blanks: 1 },
+      { sentence: '¿Cuántos ________ tienes? (hermanos)', correct: 'hermanos', blanks: 1 },
+      { sentence: 'Mi ________ quiere ser médico. (hermano)', correct: 'hermano', blanks: 1 },
+      { sentence: '¿Dónde vive tu ________? (familia)', correct: 'familia', blanks: 1 },
+      { sentence: 'Mi ________ trabaja en una universidad. (padre)', correct: 'padre', blanks: 1 },
+      { sentence: '¿Qué hace tu ________? (madre)', correct: 'madre', blanks: 1 },
+      { sentence: 'Mis ________ son muy inteligentes. (hermanos)', correct: 'hermanos', blanks: 1 },
+      { sentence: 'Quiero mucho a mi ________. (familia)', correct: 'familia', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-7': {
+    id: 'ex-2-3-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: Вопросительные предложения - порядок слов',
+    description: 'Преобразуйте утверждение в вопрос (используйте инверсию)',
+    questions: [
+      { sentence: 'Tu hermano estudia medicina. → ¿________ tu hermano medicina?', correct: 'Estudia', blanks: 1 },
+      { sentence: 'Tú vives en Madrid. → ¿________ tú en Madrid?', correct: 'Vives', blanks: 1 },
+      { sentence: 'Ellos pueden venir. → ¿________ ellos venir?', correct: 'Pueden', blanks: 1 },
+      { sentence: 'Usted quiere café. → ¿________ usted café?', correct: 'Quiere', blanks: 1 },
+      { sentence: 'Vosotros trabajáis aquí. → ¿________ vosotros aquí?', correct: 'Trabajáis', blanks: 1 },
+      { sentence: 'Mi padre es médico. → ¿________ tu padre médico?', correct: 'Es', blanks: 1 },
+      { sentence: 'Ella viene mañana. → ¿________ ella mañana?', correct: 'Viene', blanks: 1 },
+      { sentence: 'Nosotros hablamos español. → ¿________ nosotros español?', correct: 'Hablamos', blanks: 1 },
+      { sentence: 'Tú tienes hermanos. → ¿________ tú hermanos?', correct: 'Tienes', blanks: 1 },
+      { sentence: 'Ustedes son estudiantes. → ¿________ ustedes estudiantes?', correct: 'Son', blanks: 1 },
+      { sentence: 'Él puede ayudar. → ¿________ él ayudar?', correct: 'Puede', blanks: 1 },
+      { sentence: 'Tú quieres venir. → ¿________ tú venir?', correct: 'Quieres', blanks: 1 },
+      { sentence: 'Ellas dicen la verdad. → ¿________ ellas la verdad?', correct: 'Dicen', blanks: 1 },
+      { sentence: 'Mi hermana vive sola. → ¿________ tu hermana sola?', correct: 'Vive', blanks: 1 },
+      { sentence: 'Vosotros venís a la fiesta. → ¿________ vosotros a la fiesta?', correct: 'Venís', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-8': {
+    id: 'ex-2-3-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: ¿Quién eres? vs ¿Qué eres?',
+    description: 'Выберите правильный вопрос: ¿Quién? или ¿Qué?',
+    questions: [
+      { sentence: '________ eres? — Soy Carlos López. (имя)', correct: 'Quién', blanks: 1 },
+      { sentence: '________ eres? — Soy estudiante. (профессия)', correct: 'Qué', blanks: 1 },
+      { sentence: '________ es usted? — Soy el profesor de español. (личность)', correct: 'Quién', blanks: 1 },
+      { sentence: '________ es tu padre? — Es ingeniero. (профессия)', correct: 'Qué', blanks: 1 },
+      { sentence: '________ es ella? — Es mi hermana. (родственная связь)', correct: 'Quién', blanks: 1 },
+      { sentence: '________ es tu madre? — Es médica. (профессия)', correct: 'Qué', blanks: 1 },
+      { sentence: '________ sois vosotros? — Somos los amigos de María. (личность)', correct: 'Quiénes', blanks: 1 },
+      { sentence: '________ eres tú? — Soy profesor. (профессия)', correct: 'Qué', blanks: 1 },
+      { sentence: '________ es este señor? — Es mi padre. (родственная связь)', correct: 'Quién', blanks: 1 },
+      { sentence: '________ son ustedes? — Somos estudiantes. (профессия)', correct: 'Qué', blanks: 1 },
+      { sentence: '________ es Juan? — Es mi hermano. (родственная связь)', correct: 'Quién', blanks: 1 },
+      { sentence: '________ eres? — Soy Ana García. (имя)', correct: 'Quién', blanks: 1 },
+      { sentence: '________ hace tu padre? — Es abogado. (профессия)', correct: 'Qué', blanks: 1 },
+      { sentence: '________ son ellos? — Son mis amigos. (личность)', correct: 'Quiénes', blanks: 1 },
+      { sentence: '________ soy yo? — Eres mi mejor amigo. (личность)', correct: 'Quién', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-9': {
+    id: 'ex-2-3-9',
+    type: 'fillblank',
+    title: 'Упражнение 9: Альтернативные вопросы с "o"',
+    description: 'Составьте альтернативный вопрос, используя союз "o"',
+    questions: [
+      { sentence: '¿Quieres café ________ té?', correct: 'o', blanks: 1 },
+      { sentence: '¿Estudias medicina ________ literatura?', correct: 'o', blanks: 1 },
+      { sentence: '¿Tu padre es médico ________ ingeniero?', correct: 'o', blanks: 1 },
+      { sentence: '¿Vives en Madrid ________ en Barcelona?', correct: 'o', blanks: 1 },
+      { sentence: '¿Vienes mañana ________ hoy?', correct: 'o', blanks: 1 },
+      { sentence: '¿Tienes hermanos ________ hermanas?', correct: 'o', blanks: 1 },
+      { sentence: '¿Puedes venir ________ no puedes?', correct: 'o', blanks: 1 },
+      { sentence: '¿Quieres trabajar ________ estudiar?', correct: 'o', blanks: 1 },
+      { sentence: '¿Eres estudiante ________ profesor?', correct: 'o', blanks: 1 },
+      { sentence: '¿Hablas español ________ inglés?', correct: 'o', blanks: 1 },
+      { sentence: '¿Tu hermana es alta ________ baja?', correct: 'o', blanks: 1 },
+      { sentence: '¿Trabajas ________ estudias?', correct: 'o', blanks: 1 },
+      { sentence: '¿Quieres leer ________ escribir?', correct: 'o', blanks: 1 },
+      { sentence: '¿Vienen ustedes solos ________ con la familia?', correct: 'o', blanks: 1 },
+      { sentence: '¿Dices la verdad ________ mientes?', correct: 'o', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-10': {
+    id: 'ex-2-3-10',
+    type: 'fillblank',
+    title: 'Упражнение 10: Общие вопросы (Sí/No)',
+    description: 'Дайте краткий ответ на общий вопрос',
+    questions: [
+      { sentence: '¿Estudias español? — ________, estudio español.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Puedes venir mañana? — ________, no puedo.', correct: 'No', blanks: 1 },
+      { sentence: '¿Tienes hermanos? — ________, tengo dos hermanos.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Vive tu familia en Madrid? — ________, viven en Barcelona.', correct: 'No', blanks: 1 },
+      { sentence: '¿Quieres café? — ________, quiero café.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Trabajas en la universidad? — ________, no trabajo allí.', correct: 'No', blanks: 1 },
+      { sentence: '¿Viene tu hermano hoy? — ________, viene mañana.', correct: 'No', blanks: 1 },
+      { sentence: '¿Eres estudiante? — ________, soy estudiante.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Hablas inglés? — ________, hablo inglés.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Tu madre es médica? — ________, es profesora.', correct: 'No', blanks: 1 },
+      { sentence: '¿Dices la verdad? — ________, siempre digo la verdad.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Pueden ustedes ayudar? — ________, no podemos.', correct: 'No', blanks: 1 },
+      { sentence: '¿Vives solo? — ________, vivo con mi familia.', correct: 'No', blanks: 1 },
+      { sentence: '¿Quieres estudiar medicina? — ________, quiero.', correct: 'Sí', blanks: 1 },
+      { sentence: '¿Venís a la fiesta? — ________, venimos.', correct: 'Sí', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-11': {
+    id: 'ex-2-3-11',
+    type: 'fillblank',
+    title: 'Упражнение 11: Специальные вопросы',
+    description: 'Составьте вопрос к подчеркнутому слову',
+    questions: [
+      { sentence: 'Me llamo Carlos. → ¿________ te llamas?', correct: 'Cómo', blanks: 1 },
+      { sentence: 'Estudio medicina. → ¿________ estudias?', correct: 'Qué', blanks: 1 },
+      { sentence: 'Vivo en Madrid. → ¿________ vives?', correct: 'Dónde', blanks: 1 },
+      { sentence: 'Vengo de Barcelona. → ¿________ dónde vienes?', correct: 'De', blanks: 1 },
+      { sentence: 'Tengo veinte años. → ¿________ años tienes?', correct: 'Cuántos', blanks: 1 },
+      { sentence: 'Trabajo porque necesito dinero. → ¿________ trabajas?', correct: 'Por qué', blanks: 1 },
+      { sentence: 'Mi padre es ingeniero. → ¿________ es tu padre?', correct: 'Qué', blanks: 1 },
+      { sentence: 'Ella es mi hermana. → ¿________ es ella?', correct: 'Quién', blanks: 1 },
+      { sentence: 'Las clases empiezan a las nueve. → ¿________ qué hora empiezan las clases?', correct: 'A', blanks: 1 },
+      { sentence: 'Quiero estudiar español. → ¿________ quieres estudiar?', correct: 'Qué', blanks: 1 },
+      { sentence: 'Puedo venir mañana. → ¿________ puedes venir?', correct: 'Cuándo', blanks: 1 },
+      { sentence: 'Voy a la universidad. → ¿________ vas?', correct: 'Adónde', blanks: 1 },
+      { sentence: 'Tengo tres hermanos. → ¿________ hermanos tienes?', correct: 'Cuántos', blanks: 1 },
+      { sentence: 'Mi madre es médica. → ¿________ hace tu madre?', correct: 'Qué', blanks: 1 },
+      { sentence: 'Estoy bien. → ¿________ estás?', correct: 'Cómo', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-12': {
+    id: 'ex-2-3-12',
+    type: 'fillblank',
+    title: 'Упражнение 12: QUERER a alguien (любить кого-то)',
+    description: 'Используйте глагол QUERER в значении "любить"',
+    questions: [
+      { sentence: 'Yo ________ mucho a mi familia.', correct: 'quiero', blanks: 1 },
+      { sentence: '¿Tú ________ a tu hermano?', correct: 'quieres', blanks: 1 },
+      { sentence: 'Mi madre ________ mucho a mi padre.', correct: 'quiere', blanks: 1 },
+      { sentence: 'Nosotros ________ a nuestros padres.', correct: 'queremos', blanks: 1 },
+      { sentence: '¿Vosotros ________ a vuestros hermanos?', correct: 'queréis', blanks: 1 },
+      { sentence: 'Ellos ________ mucho a su familia.', correct: 'quieren', blanks: 1 },
+      { sentence: 'Mis hermanos ________ a nuestra madre.', correct: 'quieren', blanks: 1 },
+      { sentence: 'Yo ________ a mi hermana pequeña.', correct: 'quiero', blanks: 1 },
+      { sentence: '¿Tú ________ a tus padres?', correct: 'quieres', blanks: 1 },
+      { sentence: 'Mi padre ________ mucho a sus hijos.', correct: 'quiere', blanks: 1 },
+      { sentence: 'Nosotros ________ a nuestra familia.', correct: 'queremos', blanks: 1 },
+      { sentence: '¿Quién ________ a esta niña?', correct: 'quiere', blanks: 1 },
+      { sentence: 'Todos ________ a su madre.', correct: 'quieren', blanks: 1 },
+      { sentence: 'Yo ________ mucho a mis amigos.', correct: 'quiero', blanks: 1 },
+      { sentence: '¿Ustedes ________ a su familia?', correct: 'quieren', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-13': {
+    id: 'ex-2-3-13',
+    type: 'fillblank',
+    title: 'Упражнение 13: Смешанное использование глаголов',
+    description: 'Выберите правильный глагол: QUERER, PODER, VENIR или DECIR',
+    questions: [
+      { sentence: 'Yo ________ estudiar medicina. (хочу)', correct: 'quiero', blanks: 1 },
+      { sentence: '¿Tú ________ venir mañana? (можешь)', correct: 'puedes', blanks: 1 },
+      { sentence: 'Mi hermano ________ de Valencia. (приезжает)', correct: 'viene', blanks: 1 },
+      { sentence: 'Mi profesor ________ que es importante. (говорит)', correct: 'dice', blanks: 1 },
+      { sentence: 'Nosotros ________ hablar español. (можем)', correct: 'podemos', blanks: 1 },
+      { sentence: '¿Vosotros ________ a la fiesta? (приходите)', correct: 'venís', blanks: 1 },
+      { sentence: 'Ellos ________ trabajar aquí. (хотят)', correct: 'quieren', blanks: 1 },
+      { sentence: 'Yo ________ la verdad. (говорю)', correct: 'digo', blanks: 1 },
+      { sentence: '¿Usted ________ ayudarme? (можете)', correct: 'puede', blanks: 1 },
+      { sentence: 'Mi madre ________ que sí. (говорит)', correct: 'dice', blanks: 1 },
+      { sentence: 'Mis amigos ________ mañana. (приходят)', correct: 'vienen', blanks: 1 },
+      { sentence: 'Tú ________ ser médico. (хочешь)', correct: 'quieres', blanks: 1 },
+      { sentence: 'Nosotros no ________ venir hoy. (можем)', correct: 'podemos', blanks: 1 },
+      { sentence: '¿Qué ________ ustedes? (говорите)', correct: 'dicen', blanks: 1 },
+      { sentence: 'Yo ________ solo. (прихожу)', correct: 'vengo', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-14': {
+    id: 'ex-2-3-14',
+    type: 'fillblank',
+    title: 'Упражнение 14: Вопросы и ответы - диалог',
+    description: 'Дополните диалог правильными формами глаголов',
+    questions: [
+      { sentence: '¿Cómo te ________? (llamarse)', correct: 'llamas', blanks: 1 },
+      { sentence: '¿De dónde ________? (ser, tú)', correct: 'eres', blanks: 1 },
+      { sentence: '¿Qué ________? (estudiar, tú)', correct: 'estudias', blanks: 1 },
+      { sentence: '¿Dónde ________? (vivir, tú)', correct: 'vives', blanks: 1 },
+      { sentence: '¿Por qué ________ medicina? (estudiar, tú)', correct: 'estudias', blanks: 1 },
+      { sentence: '¿________ hermanos? (tener, tú)', correct: 'Tienes', blanks: 1 },
+      { sentence: '¿Qué ________ tu padre? (hacer)', correct: 'hace', blanks: 1 },
+      { sentence: '¿________ venir a mi casa? (querer, tú)', correct: 'Quieres', blanks: 1 },
+      { sentence: '¿________ esperar? (poder, tú)', correct: 'Puedes', blanks: 1 },
+      { sentence: '¿Cuándo ________ tus clases? (empezar)', correct: 'empiezan', blanks: 1 },
+      { sentence: '¿Adónde ________ ahora? (ir, tú)', correct: 'vas', blanks: 1 },
+      { sentence: '¿________ de Barcelona? (venir, tú)', correct: 'Vienes', blanks: 1 },
+      { sentence: '¿Qué ________ tu profesor? (decir)', correct: 'dice', blanks: 1 },
+      { sentence: '¿________ ayudarme? (poder, tú)', correct: 'Puedes', blanks: 1 },
+      { sentence: '¿A qué hora ________ venir? (poder, tú)', correct: 'puedes', blanks: 1 }
+    ]
+  },
+
+  'ex-2-3-15': {
+    id: 'ex-2-3-15',
+    type: 'translation',
+    title: 'Упражнение 15: Перевод с русского',
+    description: 'Переведите предложения с русского на испанский',
+    questions: [
+      { russian: 'Я хочу изучать медицину.', correct: 'Quiero estudiar medicina.', alternatives: ['Yo quiero estudiar medicina', 'Quiero estudiar la medicina'] },
+      { russian: 'Ты можешь прийти завтра?', correct: '¿Puedes venir mañana?', alternatives: ['¿Tú puedes venir mañana?', '¿Puedes venir mañana tú?'] },
+      { russian: 'Мой брат приходит из Барселоны.', correct: 'Mi hermano viene de Barcelona.', alternatives: ['Mi hermano viene desde Barcelona'] },
+      { russian: 'Что говорит твой учитель?', correct: '¿Qué dice tu profesor?', alternatives: ['¿Qué dice tu maestro?', '¿Qué dice el profesor?'] },
+      { russian: 'Мы можем говорить по-испански.', correct: 'Podemos hablar español.', alternatives: ['Nosotros podemos hablar español', 'Podemos hablar en español'] },
+      { russian: 'Где ты живешь?', correct: '¿Dónde vives?', alternatives: ['¿Dónde vives tú?', '¿En dónde vives?'] },
+      { russian: 'Кто твой отец?', correct: '¿Quién es tu padre?', alternatives: ['¿Quién es vuestro padre?'] },
+      { russian: 'Почему ты не можешь прийти?', correct: '¿Por qué no puedes venir?', alternatives: ['¿Por qué tú no puedes venir?'] },
+      { russian: 'У тебя есть братья и сестры?', correct: '¿Tienes hermanos?', alternatives: ['¿Tú tienes hermanos?', '¿Tienes hermanos y hermanas?'] },
+      { russian: 'Моя мать — врач.', correct: 'Mi madre es médica.', alternatives: ['Mi madre es doctora', 'Mi madre es una médica'] },
+      { russian: 'Я очень люблю свою семью.', correct: 'Quiero mucho a mi familia.', alternatives: ['Yo quiero mucho a mi familia', 'Amo mucho a mi familia'] },
+      { russian: 'Когда начинаются твои занятия?', correct: '¿Cuándo empiezan tus clases?', alternatives: ['¿Cuándo empiezan las clases?', '¿A qué hora empiezan tus clases?'] },
+      { russian: 'Вы хотите кофе или чай?', correct: '¿Quieres café o té?', alternatives: ['¿Quiere café o té?', '¿Queréis café o té?', '¿Quieren café o té?'] },
+      { russian: 'Мой отец говорит, что это важно.', correct: 'Mi padre dice que es importante.', alternatives: ['Mi padre dice que esto es importante'] },
+      { russian: 'Мы приходим в университет каждый день.', correct: 'Venimos a la universidad cada día.', alternatives: ['Nosotros venimos a la universidad cada día', 'Venimos a la universidad todos los días'] }
     ]
   }
 }
