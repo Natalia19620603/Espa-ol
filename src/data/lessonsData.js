@@ -4682,6 +4682,192 @@ María: ¡Vamos!`,
         }
       ]
     },
+    reading: {
+      content: `Ana y Carlos son amigos. Hoy es sábado y no trabajan. Son las nueve de la mañana y quieren desayunar juntos en el bar "La Estrella", que está en el centro de la ciudad. Este bar abre todos los días a las siete de la mañana. Ana y Carlos prefieren este bar porque sirven un desayuno muy bueno y conocen al camarero Pedro.
+
+**Pedro:** ¡Buenos días! ¿Cómo estáis?
+
+**Ana:** ¡Hola, Pedro! Muy bien, gracias. ¿Y tú?
+
+**Pedro:** Muy bien. ¿Queréis desayunar?
+
+**Carlos:** Sí, queremos desayunar. Tenemos mucha hambre. ¿Qué tienes hoy?
+
+**Pedro:** Tenemos de todo. Churros con chocolate, tostadas con mantequilla y mermelada, pan con tomate y aceite de oliva, bollería, bocadillos...
+
+**Ana:** Yo quiero churros con chocolate. Me encantan los churros. ¿Tú los conoces, Carlos?
+
+**Carlos:** Sí, los conozco. Son muy buenos, pero yo prefiero un desayuno continental. Quiero tostadas con mantequilla y mermelada. Y también quiero un café con leche.
+
+**Pedro:** Muy bien. ¿Y para ti, Ana? ¿Qué quieres beber?
+
+**Ana:** Yo pienso que... mmm... quiero un chocolate caliente. No me gusta el café.
+
+**Pedro:** Perfecto. ¿Queréis algo más? ¿Zumo de naranja? ¿Magdalenas?
+
+**Carlos:** Sí, también pido un zumo de naranja. Empiezo el día con vitaminas.
+
+**Ana:** Yo no quiero zumo. Pero... ¿puedo pedir una magdalena?
+
+**Pedro:** Claro que sí. Entonces... para Carlos: tostadas con mantequilla y mermelada, café con leche y zumo de naranja. Para Ana: churros con chocolate, chocolate caliente y una magdalena. ¿Es correcto?
+
+**Ana:** Sí, perfecto.
+
+**Pedro:** Muy bien. Ahora os sirvo. En cinco minutos vuelvo con vuestro desayuno.
+
+(Cinco minutos después...)
+
+**Pedro:** Aquí está vuestro desayuno. Buen provecho.
+
+**Carlos:** Gracias, Pedro. Todo tiene muy buena pinta.
+
+**Ana:** Sí, gracias. Estas tostadas... ¿las puedes traer con aceite de oliva en vez de mantequilla?
+
+**Pedro:** Claro, sin problema. Ahora las traigo.
+
+**Carlos:** Pedro, ¿cuándo cierras el bar los sábados?
+
+**Pedro:** Los sábados cierro a las dos de la tarde. Pero los domingos no abro. Descanso los domingos.
+
+**Ana:** ¿Y los lunes? ¿También descansas los lunes?
+
+**Pedro:** No, los lunes trabajo. Abro todos los días de lunes a sábado. Solo cierro los domingos.
+
+**Carlos:** ¿Sabes si la cafetería de la esquina también abre los domingos?
+
+**Pedro:** Sí, esa cafetería abre todos los días. Los dueños no descansan nunca.
+
+**Ana:** Nosotros tampoco descansamos mucho. Yo trabajo de lunes a viernes, y los fines de semana estudio.
+
+**Carlos:** Yo prefiero descansar los fines de semana. No puedo trabajar siempre.
+
+**Pedro:** Entiendo. Bueno, aquí están las tostadas con aceite de oliva. ¿Queréis algo más?
+
+**Ana:** No, gracias. Está todo perfecto.
+
+**Carlos:** Sí, muchas gracias. ¿Cuánto es?
+
+**Pedro:** Son doce euros en total.
+
+**Carlos:** Muy bien. Aquí tienes.
+
+**Pedro:** Gracias. Vuelvo con el cambio.
+
+**Ana:** No hace falta. Es para ti.
+
+**Pedro:** Muchas gracias. Sois muy amables. ¿Volvéis la próxima semana?
+
+**Carlos:** Sí, claro. Nos gusta mucho este bar. Preferimos venir aquí porque el desayuno es excelente.
+
+**Ana:** Y porque tú sirves muy bien. Conoces a todos los clientes.
+
+**Pedro:** Gracias. Es mi trabajo. Me gusta servir y hablar con la gente.
+
+**Carlos:** Pues hasta la próxima, Pedro. ¡Que tengas un buen día!
+
+**Pedro:** ¡Igualmente! ¡Hasta pronto!`,
+      translation: `Ана и Карлос — друзья. Сегодня суббота, и они не работают. Сейчас девять часов утра, и они хотят позавтракать вместе в баре "Ла Эстрелья", который находится в центре города. Этот бар открывается каждый день в семь часов утра. Ана и Карлос предпочитают этот бар, потому что там подают очень хороший завтрак, и они знают официанта Педро.
+
+**Педро:** Доброе утро! Как дела?
+
+**Ана:** Привет, Педро! Очень хорошо, спасибо. А у тебя?
+
+**Педро:** Очень хорошо. Хотите позавтракать?
+
+**Карлос:** Да, хотим позавтракать. Мы очень голодные. Что у тебя есть сегодня?
+
+**Педро:** У нас есть всё. Чуррос с шоколадом, тосты со сливочным маслом и джемом, хлеб с помидором и оливковым маслом, булочные изделия, бутерброды...
+
+**Ана:** Я хочу чуррос с шоколадом. Обожаю чуррос. Ты их знаешь, Карлос?
+
+**Карлос:** Да, я их знаю. Они очень хорошие, но я предпочитаю континентальный завтрак. Хочу тосты со сливочным маслом и джемом. А также хочу кофе с молоком.
+
+**Педро:** Очень хорошо. А для тебя, Ана? Что хочешь пить?
+
+**Ана:** Я думаю, что... ммм... хочу горячий шоколад. Мне не нравится кофе.
+
+**Педро:** Отлично. Хотите что-нибудь еще? Апельсиновый сок? Кексы?
+
+**Карлос:** Да, я также заказываю апельсиновый сок. Я начинаю день с витаминами.
+
+**Ана:** Я не хочу сок. Но... могу я заказать кекс?
+
+**Педро:** Конечно. Итак... для Карлоса: тосты со сливочным маслом и джемом, кофе с молоком и апельсиновый сок. Для Аны: чуррос с шоколадом, горячий шоколад и кекс. Правильно?
+
+**Ана:** Да, идеально.
+
+**Педро:** Очень хорошо. Сейчас вам подаю. Через пять минут вернусь с вашим завтраком.
+
+(Пять минут спустя...)
+
+**Педро:** Вот ваш завтрак. Приятного аппетита.
+
+**Карлос:** Спасибо, Педро. Всё выглядит очень аппетитно.
+
+**Ана:** Да, спасибо. Эти тосты... можешь принести их с оливковым маслом вместо сливочного масла?
+
+**Педро:** Конечно, без проблем. Сейчас принесу.
+
+**Карлос:** Педро, когда ты закрываешь бар по субботам?
+
+**Педро:** По субботам я закрываю в два часа дня. Но по воскресеньям не открываю. Отдыхаю по воскресеньям.
+
+**Ана:** А по понедельникам? Ты также отдыхаешь по понедельникам?
+
+**Педро:** Нет, по понедельникам работаю. Открываю каждый день с понедельника по субботу. Закрыт только по воскресеньям.
+
+**Карлос:** Ты знаешь, открыта ли кафетерия на углу по воскресеньям?
+
+**Педро:** Да, та кафетерия открыта каждый день. Владельцы никогда не отдыхают.
+
+**Ана:** Мы тоже мало отдыхаем. Я работаю с понедельника по пятницу, а по выходным учусь.
+
+**Карлос:** Я предпочитаю отдыхать по выходным. Не могу работать всегда.
+
+**Педро:** Понимаю. Ну вот, вот тосты с оливковым маслом. Хотите что-нибудь еще?
+
+**Ана:** Нет, спасибо. Всё идеально.
+
+**Карлос:** Да, большое спасибо. Сколько с нас?
+
+**Педро:** Двенадцать евро всего.
+
+**Карлос:** Хорошо. Вот, держи.
+
+**Педро:** Спасибо. Вернусь со сдачей.
+
+**Ана:** Не нужно. Это тебе.
+
+**Педро:** Большое спасибо. Вы очень любезны. Вернетесь на следующей неделе?
+
+**Карлос:** Да, конечно. Нам очень нравится этот бар. Мы предпочитаем приходить сюда, потому что завтрак отличный.
+
+**Ана:** И потому что ты очень хорошо обслуживаешь. Ты знаешь всех клиентов.
+
+**Педро:** Спасибо. Это моя работа. Мне нравится обслуживать и разговаривать с людьми.
+
+**Карлос:** Ну, до следующего раза, Педро. Хорошего дня!
+
+**Педро:** Взаимно! До скорого!`,
+      audioUrl: null,
+      comprehensionQuestions: [
+        { question: '¿Qué día es hoy?', correct: 'sábado', alternatives: ['es sábado', 'hoy es sábado', 'sabado'] },
+        { question: '¿Cómo se llama el bar?', correct: 'La Estrella', alternatives: ['el bar se llama La Estrella', 'La estrella', '"La Estrella"'] },
+        { question: '¿A qué hora abre el bar?', correct: 'a las siete', alternatives: ['a las siete de la mañana', 'a las 7', 'abre a las siete'] },
+        { question: '¿Cómo se llama el camarero?', correct: 'Pedro', alternatives: ['el camarero se llama Pedro', 'se llama Pedro'] },
+        { question: '¿Qué quiere desayunar Ana?', correct: 'churros con chocolate', alternatives: ['churros', 'Ana quiere churros con chocolate', 'quiere churros con chocolate'] },
+        { question: '¿Qué quiere desayunar Carlos?', correct: 'tostadas con mantequilla y mermelada', alternatives: ['tostadas', 'Carlos quiere tostadas', 'quiere tostadas con mantequilla y mermelada'] },
+        { question: '¿Qué quiere beber Ana?', correct: 'chocolate caliente', alternatives: ['un chocolate caliente', 'quiere chocolate caliente', 'Ana quiere chocolate caliente'] },
+        { question: '¿Qué quiere beber Carlos?', correct: 'café con leche', alternatives: ['un café con leche', 'quiere café con leche', 'Carlos quiere café con leche'] },
+        { question: '¿Carlos pide zumo de naranja?', correct: 'sí', alternatives: ['sí pide', 'pide zumo de naranja', 'sí, pide zumo de naranja'] },
+        { question: '¿Ana pide una magdalena?', correct: 'sí', alternatives: ['sí pide', 'pide una magdalena', 'sí, pide una magdalena'] },
+        { question: '¿Le gusta el café a Ana?', correct: 'no', alternatives: ['no le gusta', 'no le gusta el café', 'no, no le gusta'] },
+        { question: '¿A qué hora cierra el bar los sábados?', correct: 'a las dos', alternatives: ['a las dos de la tarde', 'a las 2', 'cierra a las dos'] },
+        { question: '¿El bar abre los domingos?', correct: 'no', alternatives: ['no abre', 'no, no abre', 'los domingos no abre'] },
+        { question: '¿Qué días trabaja Pedro?', correct: 'de lunes a sábado', alternatives: ['trabaja de lunes a sábado', 'lunes a sábado', 'de lunes a sabado'] },
+        { question: '¿Cuánto cuesta el desayuno en total?', correct: 'doce euros', alternatives: ['12 euros', '12', 'cuesta doce euros'] }
+      ]
+    },
     vocabulary: [
       // Дни недели
       { word: 'lunes', translation: 'понедельник', audioUrl: null },
