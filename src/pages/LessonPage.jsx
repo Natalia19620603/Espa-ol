@@ -31,6 +31,7 @@ function LessonPage() {
   const [user, setUser] = useState(null)
   const [currentExercise, setCurrentExercise] = useState(null)
   const [openSections, setOpenSections] = useState({})
+  const [activeExerciseTab, setActiveExerciseTab] = useState(0)
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -419,36 +420,96 @@ function LessonPage() {
         {activeTab === 'exercises' && (
           <div className={styles.exercisesSection}>
             <h2 className={styles.sectionTitle}>Упражнения</h2>
-            <div className={styles.exercisesList}>
-              {lesson.exercises && lesson.exercises.map((exerciseId, index) => {
-                const exercise = exercisesData[exerciseId]
-                if (!exercise) return null
+            {(() => {
+              // Check if exercises are organized in tabs
+              const hasExerciseTabs = lesson.exercises &&
+                lesson.exercises.length > 0 &&
+                typeof lesson.exercises[0] === 'object' &&
+                lesson.exercises[0].tab !== undefined
 
-                const progress = JSON.parse(localStorage.getItem('progress') || '{}')
-                const lessonProgress = progress[lessonId] || {}
-                const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
-
+              if (hasExerciseTabs) {
+                // Render exercises with tabs
                 return (
-                  <div
-                    key={exerciseId}
-                    className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
-                    onClick={() => handleExerciseClick(exerciseId)}
-                  >
-                    <div className={styles.exerciseNumber}>{index + 1}</div>
-                    <div className={styles.exerciseInfo}>
-                      <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
-                      <p className={styles.exerciseDescription}>{exercise.description}</p>
-                      <span className={styles.exerciseType}>
-                        Тип: {getExerciseTypeName(exercise.type)}
-                      </span>
+                  <div>
+                    <div className={styles.exerciseTabs}>
+                      {lesson.exercises.map((tabData, index) => (
+                        <button
+                          key={index}
+                          className={`${styles.exerciseTab} ${activeExerciseTab === index ? styles.activeExerciseTab : ''}`}
+                          onClick={() => setActiveExerciseTab(index)}
+                        >
+                          {tabData.tab}
+                        </button>
+                      ))}
                     </div>
-                    {isCompleted && (
-                      <div className={styles.completedBadge}>✓</div>
-                    )}
+                    <div className={styles.exercisesList}>
+                      {lesson.exercises[activeExerciseTab].exerciseIds.map((exerciseId, index) => {
+                        const exercise = exercisesData[exerciseId]
+                        if (!exercise) return null
+
+                        const progress = JSON.parse(localStorage.getItem('progress') || '{}')
+                        const lessonProgress = progress[lessonId] || {}
+                        const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
+
+                        return (
+                          <div
+                            key={exerciseId}
+                            className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
+                            onClick={() => handleExerciseClick(exerciseId)}
+                          >
+                            <div className={styles.exerciseNumber}>{index + 1}</div>
+                            <div className={styles.exerciseInfo}>
+                              <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
+                              <p className={styles.exerciseDescription}>{exercise.description}</p>
+                              <span className={styles.exerciseType}>
+                                Тип: {getExerciseTypeName(exercise.type)}
+                              </span>
+                            </div>
+                            {isCompleted && (
+                              <div className={styles.completedBadge}>✓</div>
+                            )}
+                          </div>
+                        )
+                      })}
+                    </div>
                   </div>
                 )
-              })}
-            </div>
+              } else {
+                // Render exercises without tabs (simple array)
+                return (
+                  <div className={styles.exercisesList}>
+                    {lesson.exercises && lesson.exercises.map((exerciseId, index) => {
+                      const exercise = exercisesData[exerciseId]
+                      if (!exercise) return null
+
+                      const progress = JSON.parse(localStorage.getItem('progress') || '{}')
+                      const lessonProgress = progress[lessonId] || {}
+                      const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
+
+                      return (
+                        <div
+                          key={exerciseId}
+                          className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
+                          onClick={() => handleExerciseClick(exerciseId)}
+                        >
+                          <div className={styles.exerciseNumber}>{index + 1}</div>
+                          <div className={styles.exerciseInfo}>
+                            <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
+                            <p className={styles.exerciseDescription}>{exercise.description}</p>
+                            <span className={styles.exerciseType}>
+                              Тип: {getExerciseTypeName(exercise.type)}
+                            </span>
+                          </div>
+                          {isCompleted && (
+                            <div className={styles.completedBadge}>✓</div>
+                          )}
+                        </div>
+                      )
+                    })}
+                  </div>
+                )
+              }
+            })()}
           </div>
         )}
       </main>
