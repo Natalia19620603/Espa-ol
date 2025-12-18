@@ -5339,11 +5339,35 @@ María: ¡Vamos!`,
       { word: 'todos los días', translation: 'каждый день', audioUrl: null },
       { word: 'cada día', translation: 'каждый день', audioUrl: null },
       { word: 'normalmente', translation: 'обычно', audioUrl: null },
-      { word: 'generalmente', translation: 'как правило', audioUrl: null }
+      { word: 'generalmente', translation: 'как правило', audioUrl: null },
+
+      // Повседневные дела и домашние обязанности
+      { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null },
+      { word: 'costumbre', translation: 'привычка', audioUrl: null },
+      { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
+      { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
+      { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
+      { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
+      { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
+      { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
+      { word: 'almuerzo', translation: 'обед', audioUrl: null },
+      { word: 'cena', translation: 'ужин', audioUrl: null },
+      { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
+      { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
+      { word: 'planchar', translation: 'гладить', audioUrl: null },
+      { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
+      { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null },
+      { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
+      { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
+      { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
+      { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
+      { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null }
     ],
-    readingText: {
-      title: 'Un día normal de Elena',
-      content: `Hola, me llamo Elena y soy estudiante de español. Quiero hablar de mi rutina diaria.
+    readingText: [
+      {
+        tab: 'ТЕКСТ 1',
+        title: 'Un día normal de Elena',
+        content: `Hola, me llamo Elena y soy estudiante de español. Quiero hablar de mi rutina diaria.
 
 Normalmente me despierto a las siete de la mañana. Suena el despertador y me levanto. Primero voy al cuarto de baño. Me lavo la cara, me limpio los dientes y me ducho. Después me seco con una toalla y me peino ante el espejo. Luego me visto rápido porque no tengo mucho tiempo.
 
@@ -5365,7 +5389,7 @@ Después de las clases, almuerzo en la cafetería de la universidad. A eso de la
 Por la noche, toda mi familia cena junta a las ocho. Después de cenar, veo la televisión o estoy hablando con mis amigos por teléfono. Me gusta mucho hablar con ellos. A las once me acuesto, pero no me duermo rápido porque siempre estoy pensando en muchas cosas.
 
 Esta es mi rutina diaria. ¿Y tú? ¿A qué hora te levantas? ¿Qué estás haciendo ahora?`,
-      translation: `Привет, меня зовут Елена, и я студентка испанского языка. Я хочу рассказать о своем распорядке дня.
+        translation: `Привет, меня зовут Елена, и я студентка испанского языка. Я хочу рассказать о своем распорядке дня.
 
 Обычно я просыпаюсь в семь часов утра. Звонит будильник, и я встаю. Сначала иду в ванную комнату. Я умываюсь, чищу зубы и принимаю душ. Потом вытираюсь полотенцем и причесываюсь перед зеркалом. Затем быстро одеваюсь, потому что у меня мало времени.
 
@@ -5387,9 +5411,70 @@ Esta es mi rutina diaria. ¿Y tú? ¿A qué hora te levantas? ¿Qué estás haci
 Вечером вся моя семья ужинает вместе в восемь часов. После ужина смотрю телевизор или разговариваю с друзьями по телефону. Мне очень нравится с ними разговаривать. В одиннадцать ложусь спать, но не засыпаю быстро, потому что всегда думаю о многих вещах.
 
 Это мой распорядок дня. А у тебя? Во сколько ты встаешь? Что ты сейчас делаешь?`,
-      audioUrl: null
-    },
-    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14', 'ex-4-1-15', 'ex-4-1-16']
+        audioUrl: null
+      },
+      {
+        tab: 'ДИАЛОГ',
+        title: '¿Qué hora es?',
+        content: `Marcos: — Elena, ¿tienes hora? ¿Puedes decirme qué hora es, por favor?
+
+Elena: — Sí, Marcos, ahora son las diez y cuarto.
+
+Marcos: — ¿De la mañana o de la noche?
+
+Elena: — ¡Qué pregunta más tonta! De la mañana, claro. ¿Por qué lo preguntas?
+
+Marcos: — ¡Menos mal! Es que hoy por la tarde tengo una entrevista de trabajo muy importante.
+
+Elena: — ¿A qué hora es?
+
+Marcos: — A las cuatro en punto.
+
+Elena: — Entonces tienes mucho tiempo todavía.
+
+Marcos: — Sí, pero tengo tanto sueño que no puedo ni moverme.
+
+Elena: — Es porque por las noches, en vez de descansar, estás jugando a los videojuegos y te acuestas a las cuatro de la madrugada.
+
+Marcos: — Tienes razón, hermana. ¿Me preparas un té fuerte?
+
+Elena: — Vale, ahora mismo voy a preparártelo.`,
+        translation: `Маркос: — Елена, у тебя есть часы? Можешь сказать мне, который час, пожалуйста?
+
+Елена: — Да, Маркос, сейчас десять пятнадцать (четверть одиннадцатого).
+
+Маркос: — Утра или вечера?
+
+Елена: — Какой глупый вопрос! Утра, конечно. Почему ты спрашиваешь?
+
+Маркос: — Слава богу! Дело в том, что сегодня днем у меня очень важное собеседование.
+
+Елена: — Во сколько?
+
+Маркос: — Ровно в четыре.
+
+Елена: — Тогда у тебя еще много времени.
+
+Маркос: — Да, но мне так хочется спать, что я даже не могу пошевелиться.
+
+Елена: — Это потому что по ночам, вместо того чтобы отдыхать, ты играешь в видеоигры и ложишься спать в четыре утра.
+
+Маркос: — Ты права, сестра. Приготовишь мне крепкий чай?
+
+Елена: — Хорошо, сейчас же пойду тебе его приготовлю.`,
+        audioUrl: null
+      }
+    ],
+    exercises: [
+      {
+        tab: 'УПРАЖНЕНИЯ ПО ТЕМАМ',
+        exerciseIds: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5', 'ex-4-1-6', 'ex-4-1-7', 'ex-4-1-8', 'ex-4-1-9', 'ex-4-1-10', 'ex-4-1-11', 'ex-4-1-12', 'ex-4-1-13', 'ex-4-1-14', 'ex-4-1-15', 'ex-4-1-16']
+      },
+      {
+        tab: 'ОБОБЩАЮЩИЕ УПРАЖНЕНИЯ',
+        exerciseIds: ['ex-4-1-17', 'ex-4-1-18', 'ex-4-1-19', 'ex-4-1-20']
+      }
+    ]
   },
 
   'lesson-4-2': {
@@ -15066,6 +15151,121 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         russian: 'Мама просыпается в 6 часов утра и встает. Она слышит, что её зовет сын.',
         correct: 'Mamá se despierta a las seis de la mañana y se levanta. Oye que su hijo la llama.',
         alternatives: ['Mi madre se despierta a las seis de la mañana y se levanta. Ella oye que la llama su hijo', 'Mamá se despierta a las seis de la mañana y se levanta. Ella oye que la llama su hijo']
+      }
+    ]
+  },
+
+  'ex-4-1-17': {
+    id: 'ex-4-1-17',
+    type: 'fillblank',
+    title: 'Упражнение 1. Поставьте глаголы в правильную форму',
+    description: 'Внимательно следите за отклоняющимися глаголами (e→ie, o→ue) и возвратными местоимениями',
+    questions: [
+      { sentence: 'Ellos ________ (entrar) en la habitación y ________ (encender) la luz.', correct: 'entran / encienden', blanks: 1 },
+      { sentence: 'El concierto ________ (empezar) a las 20:00, por eso ________ (tener, nosotros) tiempo y ________ (poder, nosotros) tomar algo.', correct: 'empieza / tenemos / podemos', blanks: 1 },
+      { sentence: '¿Cómo ________ (sentirse, tú)? — ________ (estar, yo) un poco enfermo, por eso no ________ (salir, yo) hoy.', correct: 'te sientes / Estoy / salgo', blanks: 1 },
+      { sentence: 'Los chicos ________ (volver) de la universidad a las 15:30 y ________ (almorzar) en casa.', correct: 'vuelven / almuerzan', blanks: 1 },
+      { sentence: '¿Qué película ________ (preferir, vosotros) ver? — No ________ (poder, nosotros) ver la tele porque ________ (tener, nosotros) deberes.', correct: 'preferís / podemos / tenemos', blanks: 1 },
+      { sentence: 'Tú ________ (despertarse) a las 7:00 pero no ________ (querer levantarse, tú).', correct: 'te despiertas / quieres levantarte', blanks: 1 },
+      { sentence: '¿Por qué ________ (seguir + leer, vosotros) revistas y no ________ (salir) a caminar?', correct: 'seguís leyendo / salís', blanks: 1 },
+      { sentence: 'Carlos ________ (dormir) poco porque ________ (acostarse) muy tarde.', correct: 'duerme / se acuesta', blanks: 1 },
+      { sentence: '¿Qué me ________ (estar + decir, Ud.)? — Yo le ________ (decir) que ________ (irse, yo).', correct: 'está diciendo / digo / me voy', blanks: 1 },
+      { sentence: 'Yo ________ (oír) como tú ________ (traducir) el texto y ________ (reírse, yo).', correct: 'oigo / traduces / me río', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-18': {
+    id: 'ex-4-1-18',
+    type: 'fillblank',
+    title: 'Упражнение 2. Ответьте на вопросы по образцу',
+    description: 'Образец: ¿Me preparas un café? — Sí, te lo preparo.',
+    questions: [
+      { sentence: '¿Lees el menú a tu abuela? — Sí, ________.', correct: 'se lo leo', blanks: 1 },
+      { sentence: '¿Quieres abrir la puerta a los vecinos? — Sí, quiero ________.', correct: 'abrírsela', blanks: 1 },
+      { sentence: '¿Ofreces flores a tu novia? — Sí, ________.', correct: 'se las ofrezco', blanks: 1 },
+      { sentence: '¿Nos dices la hora? — Sí, ________.', correct: 'os la digo', blanks: 1 },
+      { sentence: '¿Quieres hacerme un regalo? — Sí, quiero ________.', correct: 'hacértelo', blanks: 1 },
+      { sentence: '¿Puedes decirme la verdad? — Sí, puedo ________.', correct: 'decírtela', blanks: 1 },
+      { sentence: '¿Sigues traduciendo las cartas al jefe? — Sí, sigo ________.', correct: 'traduciéndoselas', blanks: 1 },
+      { sentence: '¿Le das el móvil a tu amigo? — Sí, ________.', correct: 'se lo doy', blanks: 1 },
+      { sentence: '¿Alquilas tu apartamento al turista? — Sí, ________.', correct: 'se lo alquilo', blanks: 1 },
+      { sentence: '¿Les pides consejos a tus padres? — Sí, ________.', correct: 'se los pido', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-19': {
+    id: 'ex-4-1-19',
+    type: 'fillblank',
+    title: 'Упражнение 3. Вставьте необходимые предлоги',
+    description: 'Вставьте: a, de, en, con, por, para',
+    questions: [
+      { sentence: 'Tenemos mucha prisa porque la película empieza ________ las ocho ________ punto ________ la tarde.', correct: 'a / en / de', blanks: 1 },
+      { sentence: 'Miro mi serie favorita antes ________ acostarme y mi marido se ríe ________ mi costumbre.', correct: 'de / de', blanks: 1 },
+      { sentence: 'Los tíos tienen que prepararse ________ el viaje porque su hijo se casa ________ una mexicana.', correct: 'para / con', blanks: 1 },
+      { sentence: 'Hay que hablar ________ el médico sobre la operación.', correct: 'con', blanks: 1 },
+      { sentence: 'Los niños juegan ________ fútbol después ________ las clases.', correct: 'al / de', blanks: 1 },
+      { sentence: 'El jefe se despide ________ los compañeros, sale ________ la oficina y se va ________ casa ________ coche.', correct: 'de / de / a / en', blanks: 1 },
+      { sentence: 'No le gusta ________ Carmen ducharse ________ agua fría.', correct: 'a / con', blanks: 1 },
+      { sentence: 'No puedo dormirme pronto porque pienso ________ tus palabras.', correct: 'en', blanks: 1 },
+      { sentence: 'El banco trabaja ________ las 9:00 ________ la mañana ________ las 14:00 ________ la tarde.', correct: 'de / de / a / de', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-20': {
+    id: 'ex-4-1-20',
+    type: 'translation',
+    title: 'Упражнение 4. Переведите на испанский язык',
+    description: 'Используйте грамматику и лексику всех изученных уроков',
+    questions: [
+      {
+        russian: 'У меня есть парень. Его зовут Фелипе. Я его люблю и хочу выйти за него замуж, но не могу ему это сказать.',
+        correct: 'Tengo novio. Se llama Felipe. Lo quiero y quiero casarme con él, pero no puedo decírselo.',
+        alternatives: ['Tengo un novio. Se llama Felipe. Yo lo amo y quiero casarme con él pero no puedo decirle esto', 'Tengo novio. Se llama Felipe. Le quiero y quiero casarme con él pero no se lo puedo decir']
+      },
+      {
+        russian: 'Ты больна? Плохо себя чувствуешь? Почему не встаешь? Уже десять утра! — Дело в том, что я не хочу убирать кровать и готовить завтрак. Я устала!',
+        correct: '¿Estás enferma? ¿Te sientes mal? ¿Por qué no te levantas? ¡Ya son las diez de la mañana! — Es que no quiero hacer la cama y preparar el desayuno. ¡Estoy cansada!',
+        alternatives: ['¿Estás enferma? ¿No te sientes bien? ¿Por qué no te levantas? ¡Ya es las diez de la mañana! — Es que no quiero arreglar la cama y preparar desayuno. Estoy cansada', '¿Estás enferma? ¿Te sientes mal? ¿Por qué no te levantas? ¡Son las diez de la mañana! — Pasa que no quiero hacer la cama y preparar el desayuno. Estoy cansada']
+      },
+      {
+        russian: 'Сестра Рамона — красивая и умная девушка. Но она меня не замечает, потому что я ей не нравлюсь.',
+        correct: 'La hermana de Ramón es una chica guapa e inteligente. Pero no me hace caso porque no le gusto.',
+        alternatives: ['La hermana de Ramón es guapa e inteligente. Pero ella no me nota porque yo no le gusto', 'La hermana de Ramón es una chica bonita y inteligente. Pero no me ve porque no le gusto']
+      },
+      {
+        russian: 'Ты не пишешь письма родителям, потому что не любишь их писать. Ты предпочитаешь звонить им.',
+        correct: 'No escribes cartas a tus padres porque no te gusta escribirlas. Prefieres llamarles.',
+        alternatives: ['Tú no escribes cartas a tus padres porque no te gusta escribirlas. Prefieres llamarlos', 'No escribes cartas a los padres porque no te gusta escribirlas. Tú prefieres llamarles']
+      },
+      {
+        russian: 'Вы (vosotros) ложитесь спать в 23:15, потому что вам надо вставать в 7:00, а нам не надо просыпаться так рано.',
+        correct: 'Os acostáis a las once y cuarto porque tenéis que levantaros a las siete, y nosotros no tenemos que despertarnos tan temprano.',
+        alternatives: ['Vosotros os acostáis a las once y cuarto de la noche porque tenéis que levantaros a las siete y nosotros no tenemos que despertarnos tan temprano', 'Os acostáis a las veintitrés quince porque tenéis que levantaros a las siete y a nosotros no nos hace falta despertarnos tan temprano']
+      },
+      {
+        russian: 'Это твой дом? — Нет, мой находится далеко отсюда, слева от парка.',
+        correct: '¿Es tu casa? — No, la mía está lejos de aquí, a la izquierda del parque.',
+        alternatives: ['¿Esta es tu casa? — No, mi casa está lejos de aquí, a la izquierda del parque', '¿Es esta tu casa? — No, la mía queda lejos de aquí, a la izquierda del parque']
+      },
+      {
+        russian: 'Где дети? Они все еще спят? Мне надо уезжать, и я не могу с ними попрощаться.',
+        correct: '¿Dónde están los niños? ¿Todavía están durmiendo? Tengo que irme y no puedo despedirme de ellos.',
+        alternatives: ['¿Dónde están los niños? ¿Aún duermen? Tengo que marcharme y no puedo despedirme de ellos', '¿Dónde están los niños? ¿Siguen durmiendo? Debo irme y no puedo despedirme de ellos']
+      },
+      {
+        russian: 'По утрам я просыпаюсь, включаю радио и делаю зарядку, слушая музыку и не думая о проблемах.',
+        correct: 'Por las mañanas me despierto, enciendo la radio y hago gimnasia, escuchando música y sin pensar en los problemas.',
+        alternatives: ['Por la mañana me despierto, pongo la radio y hago gimnasia escuchando música y no pensando en problemas', 'Por las mañanas me despierto, enciendo el radio y hago ejercicio escuchando música y sin pensar en problemas']
+      },
+      {
+        russian: 'Почему ты не хочешь сказать мне правду? Я тебя хорошо знаю: когда ты лжешь, ты всегда краснеешь.',
+        correct: '¿Por qué no quieres decirme la verdad? Te conozco bien: cuando mientes, siempre te pones rojo.',
+        alternatives: ['¿Por qué no quieres decirme la verdad? Yo te conozco bien: cuando tú mientes siempre te pones rojo', '¿Por qué no me quieres decir la verdad? Te conozco bien: cuando mientes te pones rojo siempre']
+      },
+      {
+        russian: 'В их саду так много цветов! Кто за ними ухаживает?',
+        correct: '¡En su jardín hay tantas flores! ¿Quién las cuida?',
+        alternatives: ['¡Hay tantas flores en su jardín! ¿Quién cuida de ellas?', '¡En su jardín tienen tantas flores! ¿Quién las cuida?']
       }
     ]
   }

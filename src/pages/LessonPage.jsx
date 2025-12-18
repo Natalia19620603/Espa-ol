@@ -32,6 +32,7 @@ function LessonPage() {
   const [currentExercise, setCurrentExercise] = useState(null)
   const [openSections, setOpenSections] = useState({})
   const [activeExerciseTab, setActiveExerciseTab] = useState(0)
+  const [activeReadingTab, setActiveReadingTab] = useState(0)
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -296,32 +297,92 @@ function LessonPage() {
 
         {activeTab === 'reading' && lesson.readingText && (
           <div className={styles.readingSection}>
-            <h2 className={styles.sectionTitle}>{lesson.readingText.title}</h2>
+            {(() => {
+              // Check if readingText is organized in tabs
+              const hasReadingTabs = Array.isArray(lesson.readingText) &&
+                lesson.readingText.length > 0 &&
+                lesson.readingText[0].tab !== undefined
 
-            {/* Аудио для текста */}
-            {lesson.readingText.audioUrl && (
-              <AudioPlayer
-                audioUrl={lesson.readingText.audioUrl}
-                text={lesson.readingText.content}
-                subtitles={lesson.readingText.subtitles || []}
-              />
-            )}
+              if (hasReadingTabs) {
+                // Render reading with tabs
+                const currentReading = lesson.readingText[activeReadingTab]
+                return (
+                  <div>
+                    <div className={styles.exerciseTabs}>
+                      {lesson.readingText.map((tabData, index) => (
+                        <button
+                          key={index}
+                          className={`${styles.exerciseTab} ${activeReadingTab === index ? styles.activeExerciseTab : ''}`}
+                          onClick={() => setActiveReadingTab(index)}
+                        >
+                          {tabData.tab}
+                        </button>
+                      ))}
+                    </div>
+                    <div>
+                      <h2 className={styles.sectionTitle}>{currentReading.title}</h2>
 
-            <div className={styles.readingContent}>
-              <div className={styles.spanishText}>
-                {lesson.readingText.content.split('\n').map((paragraph, index) => (
-                  paragraph.trim() && <p key={index}>{paragraph}</p>
-                ))}
-              </div>
-              {lesson.readingText.translation && (
-                <div className={styles.translationHint}>
-                  <details>
-                    <summary>Показать перевод</summary>
-                    <p>{lesson.readingText.translation}</p>
-                  </details>
-                </div>
-              )}
-            </div>
+                      {/* Аудио для текста */}
+                      {currentReading.audioUrl && (
+                        <AudioPlayer
+                          audioUrl={currentReading.audioUrl}
+                          text={currentReading.content}
+                          subtitles={currentReading.subtitles || []}
+                        />
+                      )}
+
+                      <div className={styles.readingContent}>
+                        <div className={styles.spanishText}>
+                          {currentReading.content.split('\n').map((paragraph, index) => (
+                            paragraph.trim() && <p key={index}>{paragraph}</p>
+                          ))}
+                        </div>
+                        {currentReading.translation && (
+                          <div className={styles.translationHint}>
+                            <details>
+                              <summary>Показать перевод</summary>
+                              <p>{currentReading.translation}</p>
+                            </details>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                )
+              } else {
+                // Render single reading text (backward compatibility)
+                return (
+                  <div>
+                    <h2 className={styles.sectionTitle}>{lesson.readingText.title}</h2>
+
+                    {/* Аудио для текста */}
+                    {lesson.readingText.audioUrl && (
+                      <AudioPlayer
+                        audioUrl={lesson.readingText.audioUrl}
+                        text={lesson.readingText.content}
+                        subtitles={lesson.readingText.subtitles || []}
+                      />
+                    )}
+
+                    <div className={styles.readingContent}>
+                      <div className={styles.spanishText}>
+                        {lesson.readingText.content.split('\n').map((paragraph, index) => (
+                          paragraph.trim() && <p key={index}>{paragraph}</p>
+                        ))}
+                      </div>
+                      {lesson.readingText.translation && (
+                        <div className={styles.translationHint}>
+                          <details>
+                            <summary>Показать перевод</summary>
+                            <p>{lesson.readingText.translation}</p>
+                          </details>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )
+              }
+            })()}
           </div>
         )}
 
