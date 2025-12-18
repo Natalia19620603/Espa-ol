@@ -45,10 +45,10 @@ export const modules = {
   },
   'module-4': {
     id: 'module-4',
-    title: 'Модуль 4: Прошедшее время',
-    level: 'elementary',
+    title: 'Модуль 4: Повседневные занятия',
+    level: 'beginner',
     lessons: ['lesson-4-1', 'lesson-4-2', 'lesson-4-3'],
-    description: 'Pretérito perfecto и прошедшие события'
+    description: 'Обозначение часового времени. Возвратные глаголы. Герундий. Повседневная рутина.'
   },
   'module-5': {
     id: 'module-5',
@@ -4682,7 +4682,8 @@ María: ¡Vamos!`,
         }
       ]
     },
-    reading: {
+    readingText: {
+      title: 'En el bar para desayunar',
       content: `Ana y Carlos son amigos. Hoy es sábado y no trabajan. Son las nueve de la mañana y quieren desayunar juntos en el bar "La Estrella", que está en el centro de la ciudad. Este bar abre todos los días a las siete de la mañana. Ana y Carlos prefieren este bar porque sirven un desayuno muy bueno y conocen al camarero Pedro.
 
 **Pedro:** ¡Buenos días! ¿Cómo estáis?
@@ -4936,110 +4937,293 @@ María: ¡Vamos!`,
       { word: 'empezar', translation: 'начинать', audioUrl: null },
       { word: 'terminar de hacer algo', translation: 'заканчивать что-либо делать', audioUrl: null }
     ],
-    exercises: ['ex-3-4-1', 'ex-3-4-2', 'ex-3-4-3', 'ex-3-4-4', 'ex-3-4-5', 'ex-3-4-6', 'ex-3-4-7', 'ex-3-4-8', 'ex-3-4-9', 'ex-3-4-10', 'ex-3-4-11', 'ex-3-4-12', 'ex-3-4-13', 'ex-3-4-14', 'ex-3-4-15']
+    exercises: ['ex-3-4-1', 'ex-3-4-2', 'ex-3-4-3', 'ex-3-4-4', 'ex-3-4-5', 'ex-3-4-6', 'ex-3-4-7', 'ex-3-4-8', 'ex-3-4-9', 'ex-3-4-10', 'ex-3-4-11', 'ex-3-4-12', 'ex-3-4-13', 'ex-3-4-14', 'ex-3-4-15', 'ex-3-4-16', 'ex-3-4-17', 'ex-3-4-18']
   },
 
-  // МОДУЛЬ 4: Прошедшее время (A2)
+  // МОДУЛЬ 4: Повседневные занятия (A1)
   'lesson-4-1': {
     id: 'lesson-4-1',
-    title: 'Урок 1: Pretérito perfecto',
+    title: 'Урок 1: Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
     moduleId: 'module-4',
     grammar: {
-      title: 'Pretérito perfecto (Настоящее совершенное время)',
-      content: `
-# Pretérito perfecto
+      title: 'Повседневные занятия. Обозначение часового времени. Возвратные глаголы. Герундий',
+      intro: `В этом уроке мы изучим, как говорить о времени по-испански, познакомимся с возвратными глаголами (которые описывают действия, направленные на себя) и научимся использовать герундий для описания текущих действий.`,
+      sections: [
+        {
+          id: 'time',
+          title: 'Обозначение часового времени',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Обозначение часового времени
 
-## Образование:
-**Haber (настоящее время) + participio pasado**
+В испанском языке при обозначении времени слово **hora** (час) используется только в вопросе, а в ответах сохраняется лишь определенный артикль этого существительного. В разговорной речи слово **minuto** (минута) также не употребляется.
 
-## Спряжение HABER:
-| Лицо | Форма |
-|------|-------|
-| yo | he |
-| tú | has |
-| él/ella/usted | ha |
-| nosotros/as | hemos |
-| vosotros/as | habéis |
-| ellos/ellas/ustedes | han |
+**¿Qué hora es?** — Который час? / Сколько времени?
 
-## Причастие прошедшего времени:
+### Таблица времени
+
+| Время | Испанский вариант | Русский перевод |
+|-------|-------------------|-----------------|
+| 1:00 | Es la una en punto. | Сейчас ровно час. |
+| 2:00 – 11:00 | Son las dos (tres, cuatro...) en punto. | Сейчас 2 (3, 4...) часа ровно. |
+| 12:00 | Son las doce. | Сейчас 12 часов. |
+| 12:00 (день) | Es mediodía. | Полдень. |
+| 24:00 (ночь) | Es medianoche. | Полночь. |
+| 9:05 | Son las nueve y cinco. | Пять минут десятого. |
+| 9:15 | Son las nueve y cuarto. | Четверть десятого. |
+| 9:30 | Son las nueve y media. | Половина десятого. |
+| 9:40 | Son las diez menos veinte. | Без двадцати десять. |
+| 9:45 | Son las diez menos cuarto. | Без четверти десять. |
+
+### Части суток в Испании
+
+В испанском языке в разговорной речи используется 12-часовой формат времени, поэтому для уточнения, о какой половине дня идет речь, употребляют описательные конструкции со словами «утра», «дня», «вечера», «ночи».
+
+- **madrugada** — рассвет / раннее утро (с 1:00 до ~ 6:00)
+- **mañana** — утро (с 6:00 до 12:00)
+- **tarde** — день / вечер (с 12:00 до ~ 20:00)
+- **noche** — вечер / ночь (с 20:00 до 24:00)
+
+**Примеры:**
+- Son las dos de la madrugada. (2 часа ночи).
+- Son las ocho de la mañana. (8 часов утра).
+- Son las cuatro de la tarde. (4 часа дня).
+- Son las diez de la noche. (10 часов вечера).
+- Es la una de la tarde. (Час дня).
+
+### Вопрос «Во сколько?»
+
+Для того чтобы узнать, в какое время произойдет определенное событие, используется вопрос:
+**¿A qué hora?** — Во сколько? / В котором часу?
+
+**Примеры:**
+- A las nueve de la mañana. (В 9 часов утра).
+- A la una y media. (В половине второго).
+- Al mediodía. (В полдень).
+- A la medianoche. (В полночь).
+
+### Обозначение времени без точности
+
+Выражения **por la mañana — por las mañanas** (утром — по утрам), **por la tarde** (днем/вечером), **por la noche** (вечером/ночью) употребляются, когда не указано точное время.
+
+**Примеры:**
+- Por las mañanas tomo un café. (По утрам я пью кофе).
+- Por la tarde estudio español. (Днем я учу испанский).
+- Por la noche miro la tele. (Вечером я смотрю телевизор).`
+        },
+        {
+          id: 'reflexive-verbs',
+          title: 'Возвратные (местоименные) глаголы',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Возвратные (местоименные) глаголы
+
+Возвратные глаголы в испанском языке обозначают действия, направленные на самого себя. В инфинитиве они имеют частицу **-se** на конце (например: levantarse — вставать, lavarse — умываться).
+
+### Возвратные местоимения
+
+При спряжении возвратных глаголов используются возвратные местоимения, которые ставятся **перед** спрягаемым глаголом:
+
+| Лицо | Местоимение | Пример (levantarse — вставать) |
+|------|-------------|--------------------------------|
+| yo | me | (yo) me levanto |
+| tú | te | (tú) te levantas |
+| él/ella/usted | se | (él/ella) se levanta |
+| nosotros/as | nos | (nosotros/as) nos levantamos |
+| vosotros/as | os | (vosotros/as) os levantáis |
+| ellos/ellas/ustedes | se | (ellos/ellas) se levantan |
+
+### Основные возвратные глаголы
+
+| Глагол | Перевод |
+|--------|---------|
+| levantarse | вставать |
+| acostarse (o→ue) | ложиться спать |
+| despertarse (e→ie) | просыпаться |
+| lavarse | умываться, мыться |
+| ducharse | принимать душ |
+| bañarse | купаться, принимать ванну |
+| peinarse | причесываться |
+| vestirse (e→i) | одеваться |
+| ponerse | надевать (одежду) |
+| quitarse | снимать (одежду) |
+| afeitarse | бриться |
+| maquillarse | краситься |
+| llamarse | зваться, называться |
+| sentarse (e→ie) | садиться |
+| quedarse | оставаться |
+| irse | уходить |
+| reunirse | собираться, встречаться |
+
+### Примеры
+
+- Me levanto a las siete de la mañana. (Я встаю в семь утра).
+- ¿A qué hora te acuestas? (Во сколько ты ложишься спать?)
+- Ella se ducha por la mañana. (Она принимает душ утром).
+- Nos vestimos rápido. (Мы одеваемся быстро).
+- ¿Cómo te llamas? (Как тебя зовут?)
+- Me llamo Ana. (Меня зовут Ана).
+
+**Важно:** Многие возвратные глаголы также являются отклоняющимися (stem-changing), например:
+- acostarse (o→ue): me acuesto, te acuestas, se acuesta, nos acostamos, os acostáis, se acuestan
+- despertarse (e→ie): me despierto, te despiertas, se despierta, nos despertamos, os despertáis, se despiertan
+- vestirse (e→i): me visto, te vistes, se viste, nos vestimos, os vestís, se visten`
+        },
+        {
+          id: 'gerund',
+          title: 'Герундий (Gerundio)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Герундий (Gerundio)
+
+Герундий — это неизменяемая форма глагола, которая соответствует русскому деепричастию несовершенного вида и отвечает на вопрос «что делая?».
+
+### Образование герундия
 
 **Правильные формы:**
-- Глаголы на -AR: **-ado** (hablar → hablado)
-- Глаголы на -ER/-IR: **-ido** (comer → comido, vivir → vivido)
 
-**Неправильные причастия:**
-| Глагол | Причастие |
-|--------|-----------|
-| hacer | hecho |
-| ver | visto |
-| decir | dicho |
-| escribir | escrito |
-| poner | puesto |
-| volver | vuelto |
-| abrir | abierto |
-| romper | roto |
-| morir | muerto |
+1. Глаголы на **-AR**: основа + **-ando**
+   - hablar → hablando (говоря)
+   - trabajar → trabajando (работая)
+   - estudiar → estudiando (учась)
 
-## Употребление:
-Используется для действий в прошлом, которые:
-1. Произошли недавно: **Esta semana he visitado el museo**
-2. Имеют связь с настоящим: **Nunca he estado en España**
-3. Результат виден сейчас: **He perdido las llaves** (и до сих пор не нашел)
+2. Глаголы на **-ER** и **-IR**: основа + **-iendo**
+   - comer → comiendo (кушая)
+   - beber → bebiendo (пив пья)
+   - vivir → viviendo (живя)
+   - escribir → escribiendo (писав)
 
-## Слова-маркеры:
-- **hoy** (сегодня)
-- **esta semana** (на этой неделе)
-- **este mes/año** (в этом месяце/году)
-- **ya** (уже)
-- **todavía no** (еще нет)
-- **nunca** (никогда)
-- **alguna vez** (когда-нибудь)
-      `,
-      examples: [
-        { spanish: 'He comido paella hoy', translation: 'Я ел паэлью сегодня' },
-        { spanish: '¿Has visto esta película?', translation: 'Ты видел этот фильм?' },
-        { spanish: 'Nunca hemos estado en México', translation: 'Мы никогда не были в Мексике' },
-        { spanish: 'Ella ha escrito un libro', translation: 'Она написала книгу' }
+**Особые случаи:**
+
+1. Глаголы на -**aer**, -**eer**, -**oer**, -**uir** имеют окончание **-yendo**:
+   - leer → leyendo (читая)
+   - caer → cayendo (падая)
+   - oír → oyendo (слушая)
+   - construir → construyendo (строя)
+   - incluir → incluyendo (включая)
+
+2. Отклоняющиеся глаголы **E→I** и **O→U** (только глаголы на -IR!):
+   - pedir (e→i) → pidiendo (прося)
+   - servir (e→i) → sirviendo (обслуживая)
+   - sentir (e→i) → sintiendo (чувствуя)
+   - dormir (o→u) → durmiendo (спя)
+   - morir (o→u) → muriendo (умирая)
+
+**Неправильные герундии:**
+
+| Глагол | Герундий |
+|--------|----------|
+| ir | yendo |
+| venir | viniendo |
+| decir | diciendo |
+| poder | pudiendo |
+
+### Употребление герундия
+
+#### 1. Конструкция ESTAR + герундий
+
+Описывает действие, происходящее в данный момент (аналог английского Present Continuous).
+
+**Формула:** estar (в настоящем времени) + герундий
+
+**Примеры:**
+- Estoy estudiando español. (Я изучаю испанский сейчас / Я учу испанский).
+- ¿Qué estás haciendo? (Что ты делаешь?)
+- Ella está leyendo un libro. (Она читает книгу сейчас).
+- Estamos comiendo. (Мы едим / кушаем).
+- ¿Estáis trabajando? (Вы работаете сейчас?)
+- Están viendo la televisión. (Они смотрят телевизор).
+
+#### 2. Герундий возвратных глаголов
+
+Возвратное местоимение может стоять:
+- **перед** формой estar: **Me estoy duchando.**
+- **после** герундия (слитно): **Estoy duchándome.**
+
+**Примеры:**
+- Me estoy lavando las manos. = Estoy lavándome las manos. (Я мою руки).
+- Te estás vistiendo. = Estás vistiéndote. (Ты одеваешься).
+- Se está peinando. = Está peinándose. (Он/она причесывается).
+
+**Важно:** При присоединении местоимения к герундию нужно ставить графическое ударение, чтобы сохранить ударение на предпоследнем слоге: duchándo**me**, vistiéndo**te**, peinándo**se**.
+
+#### 3. Другие употребления герундия
+
+Герундий также используется для описания способа выполнения действия:
+
+- Aprendo español escuchando música. (Я учу испанский, слушая музыку).
+- Salgo de casa corriendo. (Я выхожу из дома, бегом / торопясь).`
+        }
       ]
     },
     vocabulary: [
-      { word: 'ya', translation: 'уже', audioUrl: null },
-      { word: 'todavía', translation: 'еще, все еще', audioUrl: null },
+      // Время
+      { word: 'hora', translation: 'час', audioUrl: null },
+      { word: 'minuto', translation: 'минута', audioUrl: null },
+      { word: 'segundo', translation: 'секунда', audioUrl: null },
+      { word: 'reloj', translation: 'часы', audioUrl: null },
+      { word: 'despertador', translation: 'будильник', audioUrl: null },
+      { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
+      { word: 'y cuarto', translation: 'четверть', audioUrl: null },
+      { word: 'y media', translation: 'половина', audioUrl: null },
+      { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
+      { word: 'mediodía', translation: 'полдень', audioUrl: null },
+      { word: 'medianoche', translation: 'полночь', audioUrl: null },
+      { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
+      { word: 'mañana', translation: 'утро', audioUrl: null },
+      { word: 'tarde', translation: 'день, вечер', audioUrl: null },
+      { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
+
+      // Возвратные глаголы
+      { word: 'levantarse', translation: 'вставать', audioUrl: null },
+      { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
+      { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
+      { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
+      { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
+      { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
+      { word: 'peinarse', translation: 'причесываться', audioUrl: null },
+      { word: 'vestirse', translation: 'одеваться', audioUrl: null },
+      { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
+      { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
+      { word: 'afeitarse', translation: 'бриться', audioUrl: null },
+      { word: 'maquillarse', translation: 'краситься', audioUrl: null },
+      { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
+      { word: 'sentarse', translation: 'садиться', audioUrl: null },
+      { word: 'quedarse', translation: 'оставаться', audioUrl: null },
+      { word: 'irse', translation: 'уходить', audioUrl: null },
+      { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
+
+      // Повседневные действия
+      { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
+      { word: 'desayunar', translation: 'завтракать', audioUrl: null },
+      { word: 'almorzar', translation: 'обедать', audioUrl: null },
+      { word: 'cenar', translation: 'ужинать', audioUrl: null },
+      { word: 'preparar', translation: 'готовить, подготавливать', audioUrl: null },
+      { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
+      { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
+      { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
+      { word: 'pasear', translation: 'гулять', audioUrl: null },
+      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+      { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
+      { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
+
+      // Наречия времени
+      { word: 'temprano', translation: 'рано', audioUrl: null },
+      { word: 'tarde', translation: 'поздно', audioUrl: null },
+      { word: 'pronto', translation: 'скоро', audioUrl: null },
+      { word: 'luego', translation: 'потом', audioUrl: null },
+      { word: 'después', translation: 'после', audioUrl: null },
+      { word: 'antes', translation: 'до, перед', audioUrl: null },
+      { word: 'ahora', translation: 'сейчас', audioUrl: null },
+      { word: 'siempre', translation: 'всегда', audioUrl: null },
       { word: 'nunca', translation: 'никогда', audioUrl: null },
-      { word: 'alguna vez', translation: 'когда-нибудь', audioUrl: null },
-      { word: 'esta semana', translation: 'на этой неделе', audioUrl: null },
-      { word: 'este mes', translation: 'в этом месяце', audioUrl: null },
-      { word: 'hoy', translation: 'сегодня', audioUrl: null },
-      { word: 'reciente', translation: 'недавний', audioUrl: null },
-      { word: 'visitar', translation: 'посещать', audioUrl: null },
-      { word: 'terminar', translation: 'заканчивать', audioUrl: null },
-      { word: 'perder', translation: 'терять', audioUrl: null },
-      { word: 'ganar', translation: 'выигрывать, зарабатывать', audioUrl: null }
+      { word: 'a veces', translation: 'иногда', audioUrl: null },
+      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+      { word: 'cada día', translation: 'каждый день', audioUrl: null },
+      { word: 'normalmente', translation: 'обычно', audioUrl: null },
+      { word: 'generalmente', translation: 'как правило', audioUrl: null }
     ],
-    readingText: {
-      title: 'Una semana ocupada',
-      content: `Esta semana ha sido muy productiva para mí. El lunes he empezado un nuevo proyecto en el trabajo. Es un desafío interesante y estoy muy motivado.
-
-El martes he ido al gimnasio por primera vez en meses. Me ha costado mucho porque estaba muy fuera de forma, pero me he sentido muy bien después. He decidido ir tres veces por semana a partir de ahora.
-
-El miércoles mi hermana ha llegado de Barcelona. Hacía mucho tiempo que no la veía. Hemos cenado juntas en mi restaurante favorito y hemos hablado durante horas. Me ha contado sobre su nuevo trabajo y sus planes para el futuro.
-
-El jueves he terminado un informe importante que llevaba semanas preparando. Mi jefe lo ha leído y ha dicho que está muy bien hecho. Me ha felicitado delante de todo el equipo. Me he sentido muy orgullosa.
-
-Hoy es viernes y he recibido mi salario. También he comprado los billetes para mis vacaciones en Italia el mes que viene. Nunca he estado allí y estoy muy emocionada. He reservado un hotel en Roma y he hecho una lista de todos los lugares que quiero visitar.
-
-¿Y tú? ¿Qué has hecho esta semana? ¿Has tenido alguna experiencia interesante?`,
-      translation: 'Напряженная неделя\n\nЭта неделя была очень продуктивной для меня. В понедельник я начала новый проект на работе. Это интересный вызов, и я очень мотивирована.\n\nВо вторник я пошла в спортзал впервые за несколько месяцев. Мне было очень тяжело, потому что я была не в форме, но я чувствовала себя очень хорошо после. Я решила ходить три раза в неделю с этого момента.\n\nВ среду моя сестра приехала из Барселоны. Прошло много времени с тех пор, как я ее видела. Мы поужинали вместе в моем любимом ресторане и проговорили часами. Она рассказала мне о своей новой работе и планах на будущее.\n\nВ четверг я закончила важный отчет, который готовила неделями. Мой начальник прочитал его и сказал, что он очень хорошо сделан. Он похвалил меня перед всей командой. Я почувствовала себя очень гордой.\n\nСегодня пятница, и я получила зарплату. Я также купила билеты на отпуск в Италии в следующем месяце. Я никогда там не была и очень взволнована. Я забронировала отель в Риме и составила список всех мест, которые хочу посетить.\n\nА ты? Что ты делал на этой неделе? У тебя был какой-нибудь интересный опыт?',
-      audioUrl: '/audio/lesson-4-1-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Esta semana ha sido muy productiva para mí.' },
-        { start: 5, end: 10, text: 'El lunes he empezado un nuevo proyecto en el trabajo.' },
-        { start: 10, end: 15, text: 'El martes he ido al gimnasio por primera vez en meses.' },
-        { start: 15, end: 20, text: 'El miércoles mi hermana ha llegado de Barcelona.' }
-      ]
-    },
-    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3', 'ex-4-1-4', 'ex-4-1-5']
+    exercises: []
   },
 
   'lesson-4-2': {
@@ -13828,6 +14012,78 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мы думаем поехать в Испанию в мае или в июле.', correct: 'Pensamos viajar a España en mayo o en julio.', alternatives: ['Pensamos ir a España en mayo o julio', 'Pensamos viajar a España en mayo o julio'] },
       { russian: 'Официант подает завтрак с восьми до одиннадцати утра.', correct: 'El camarero sirve el desayuno de ocho a once de la mañana.', alternatives: ['El camarero sirve desayuno de las ocho a las once de la mañana', 'El mesero sirve el desayuno de ocho a once'] },
       { russian: 'Я не могу прийти в среду, потому что начинаю работать в новом офисе.', correct: 'No puedo venir el miércoles porque empiezo a trabajar en la oficina nueva.', alternatives: ['No puedo venir el miércoles porque comienzo a trabajar en la nueva oficina', 'No puedo venir el miércoles porque empiezo a trabajar en una oficina nueva'] }
+    ]
+  },
+
+  'ex-3-4-16': {
+    id: 'ex-3-4-16',
+    type: 'fillblank',
+    title: 'Упражнение 16: Saber или Conocer',
+    description: 'Выберите подходящий глагол и поставьте его в соответствующую форму (настоящее время)',
+    questions: [
+      { sentence: 'Mi hermano ________ a doña Marta, pero él no ________ su número de teléfono. (conocer / saber)', correct: 'conoce / sabe', blanks: 1 },
+      { sentence: 'Nuestros amigos ________ bien esta ciudad porque viven aquí. (conocer)', correct: 'conocen', blanks: 1 },
+      { sentence: 'Yo ________ que vosotros ________ bailar bien la salsa. (saber / saber)', correct: 'sé / sabéis', blanks: 1 },
+      { sentence: 'Tu tía ________ la historia de España porque a ella le gusta leer novelas históricas. (conocer)', correct: 'conoce', blanks: 1 },
+      { sentence: 'Tú ________ que no me gusta esta idea, porque somos amigos y tú ________ mi carácter. (saber / conocer)', correct: 'sabes / conoces', blanks: 1 },
+      { sentence: '¿________ ustedes al director de la empresa? (conocer)', correct: 'Conocen', blanks: 1 },
+      { sentence: 'Nosotros no ________ dónde está el bar. (saber)', correct: 'sabemos', blanks: 1 },
+      { sentence: 'Ella ________ tocar el piano muy bien. (saber)', correct: 'sabe', blanks: 1 },
+      { sentence: '¿________ vosotros a María? (conocer)', correct: 'Conocéis', blanks: 1 },
+      { sentence: 'Yo ________ Madrid muy bien. (conocer)', correct: 'conozco', blanks: 1 },
+      { sentence: '¿Tú ________ hablar francés? (saber)', correct: 'sabes', blanks: 1 },
+      { sentence: 'Mis padres ________ a todos los vecinos. (conocer)', correct: 'conocen', blanks: 1 },
+      { sentence: 'Nosotros ________ que el bar cierra los domingos. (saber)', correct: 'sabemos', blanks: 1 },
+      { sentence: '¿Usted ________ este restaurante? (conocer)', correct: 'conoce', blanks: 1 },
+      { sentence: 'Yo no ________ cocinar paella. (saber)', correct: 'sé', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-17': {
+    id: 'ex-3-4-17',
+    type: 'fillblank',
+    title: 'Упражнение 17: Измените предложения по образцу',
+    description: 'Образец: Yo cierro la ventana. → Marta y yo cerramos la ventana. (Вспомните: в форме nosotros/vosotros корень отклоняющихся глаголов не меняется)',
+    questions: [
+      { sentence: 'El padre juega con los hijos. → Tú ________ con los hijos. (jugar)', correct: 'juegas', blanks: 1 },
+      { sentence: '¿Por qué me mientes? → ¿Por qué vosotros me ________? (mentir)', correct: 'mentís', blanks: 1 },
+      { sentence: 'No conocemos al guía. → Yo no ________ al guía. (conocer)', correct: 'conozco', blanks: 1 },
+      { sentence: 'Yo le pido dinero al tío. → María y yo le ________ dinero al tío. (pedir)', correct: 'pedimos', blanks: 1 },
+      { sentence: 'Los amigos os ofrecen su ayuda. → Yo os ________ mi ayuda. (ofrecer)', correct: 'ofrezco', blanks: 1 },
+      { sentence: 'Los abuelos ríen de su nieto. → Nosotros ________ de nuestro nieto. (reír)', correct: 'reímos', blanks: 1 },
+      { sentence: 'José influye mal en mi hermano. → Juan y tú ________ mal en mi hermano. (influir)', correct: 'influís', blanks: 1 },
+      { sentence: 'La secretaria le traduce la carta al jefe. → Yo le ________ la carta al jefe. (traducir)', correct: 'traduzco', blanks: 1 },
+      { sentence: 'Vuelves de la oficina tarde. → El señor Gómez ________ de la oficina tarde. (volver)', correct: 'vuelve', blanks: 1 },
+      { sentence: 'Empezamos a aprender la gramática. → Ellos ________ a aprender la gramática. (empezar)', correct: 'empiezan', blanks: 1 },
+      { sentence: 'Tú cierras la puerta. → Nosotros ________ la puerta. (cerrar)', correct: 'cerramos', blanks: 1 },
+      { sentence: 'Ella duerme mucho. → Vosotros ________ mucho. (dormir)', correct: 'dormís', blanks: 1 },
+      { sentence: 'Prefiero café. → Ustedes ________ café. (preferir)', correct: 'prefieren', blanks: 1 },
+      { sentence: 'Construimos una casa. → Tú ________ una casa. (construir)', correct: 'construyes', blanks: 1 },
+      { sentence: 'Ellos sirven el desayuno. → Ella ________ el desayuno. (servir)', correct: 'sirve', blanks: 1 }
+    ]
+  },
+
+  'ex-3-4-18': {
+    id: 'ex-3-4-18',
+    type: 'fillblank',
+    title: 'Упражнение 18: Раскройте скобки',
+    description: 'Поставьте глагол в правильную форму настоящего времени (Presente de Indicativo)',
+    questions: [
+      { sentence: 'Los chicos ________ (jugar) al fútbol en el patio.', verb: 'jugar', correct: 'juegan', blanks: 1 },
+      { sentence: '¿En qué ________ (pensar, vosotros)? — Ella ________ (pensar) en el futuro y yo ________ (pensar) en mi familia.', verb: 'pensar', correct: 'pensáis / piensa / pienso', blanks: 1 },
+      { sentence: 'Usted ________ (dormir) poco y ellos ________ (dormir) mucho.', verb: 'dormir', correct: 'duerme / duermen', blanks: 1 },
+      { sentence: 'Yo no ________ (conocer) al camarero que ________ (atender) al señor López.', verb: 'conocer / atender', correct: 'conozco / atiende', blanks: 1 },
+      { sentence: 'La señorita no ________ (recordar) su nombre y nosotros no ________ (reír) de ella.', verb: 'recordar / reír', correct: 'recuerda / reímos', blanks: 1 },
+      { sentence: 'Yo ________ (traducir) el artículo del ruso al español y usted ________ (preferir) escribir.', verb: 'traducir / preferir', correct: 'traduzco / prefiere', blanks: 1 },
+      { sentence: '¿Por qué no ________ (construir) ustedes su casa aquí?', verb: 'construir', correct: 'construyen', blanks: 1 },
+      { sentence: 'Andrés me ________ (pedir) el número de móvil de Ana pero yo no lo ________ (recordar).', verb: 'pedir / recordar', correct: 'pide / recuerdo', blanks: 1 },
+      { sentence: 'Tú ________ (almorzar) en casa y vosotros ________ (preferir) comer en el bar.', verb: 'almorzar / preferir', correct: 'almuerzas / preferís', blanks: 1 },
+      { sentence: 'Yo le ________ (repetir) mi pregunta y ________ (empezar) a comprender que él me ________ (mentir).', verb: 'repetir / empezar / mentir', correct: 'repito / empiezo / miente', blanks: 1 },
+      { sentence: 'Nosotros ________ (cerrar) las ventanas cuando ________ (volver) a casa.', verb: 'cerrar / volver', correct: 'cerramos / volvemos', blanks: 1 },
+      { sentence: 'Ellos ________ (servir) churros con chocolate en este bar.', verb: 'servir', correct: 'sirven', blanks: 1 },
+      { sentence: '¿Tú ________ (querer) desayunar con nosotros el domingo?', verb: 'querer', correct: 'quieres', blanks: 1 },
+      { sentence: 'Yo ________ (incluir) todos los gastos en el precio.', verb: 'incluir', correct: 'incluyo', blanks: 1 },
+      { sentence: 'La cafetería ________ (abrir) a las siete y ________ (cerrar) a las dos.', verb: 'abrir / cerrar', correct: 'abre / cierra', blanks: 1 }
     ]
   }
 }
