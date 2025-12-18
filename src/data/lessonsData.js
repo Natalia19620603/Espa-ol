@@ -4,13 +4,13 @@ export const courseLevels = [
     id: 'beginner',
     name: 'Начальный уровень (A1)',
     description: 'Основы испанского языка',
-    modules: ['module-1', 'module-2', 'module-3']
+    modules: ['module-1', 'module-2', 'module-3', 'module-4']
   },
   {
     id: 'elementary',
     name: 'Базовый уровень (A2)',
     description: 'Развитие базовых навыков',
-    modules: ['module-4', 'module-5', 'module-6']
+    modules: ['module-5', 'module-6']
   },
   {
     id: 'intermediate',
@@ -5355,7 +5355,7 @@ María: ¡Vamos!`,
       { word: 'normalmente', translation: 'обычно', audioUrl: null },
       { word: 'generalmente', translation: 'как правило', audioUrl: null }
     ],
-    exercises: []
+    exercises: ['ex-4-1-1', 'ex-4-1-2', 'ex-4-1-3']
   },
 
   'lesson-4-2': {
@@ -14343,24 +14343,24 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-2-3-6': {
     id: 'ex-2-3-6',
     type: 'fillblank',
-    title: 'Упражнение 6: Семья и родственники',
-    description: 'Вставьте правильное слово из словаря семьи',
+    title: 'Упражнение 6: Семья и родственники с глаголами',
+    description: 'Вставьте правильное слово из словаря семьи или правильную форму глагола',
     questions: [
-      { sentence: 'Mi ________ es médico. (padre)', correct: 'padre', blanks: 1 },
-      { sentence: 'Mi ________ es profesora. (madre)', correct: 'madre', blanks: 1 },
-      { sentence: 'Tengo dos ________. (hermanos)', correct: 'hermanos', blanks: 1 },
-      { sentence: 'Mi ________ mayor se llama Miguel. (hermano)', correct: 'hermano', blanks: 1 },
-      { sentence: 'Mi ________ pequeña tiene quince años. (hermana)', correct: 'hermana', blanks: 1 },
-      { sentence: 'Mis ________ viven en Valencia. (padres)', correct: 'padres', blanks: 1 },
-      { sentence: 'Mi ________ es ingeniero. (padre)', correct: 'padre', blanks: 1 },
-      { sentence: 'Tengo una ________ muy grande. (familia)', correct: 'familia', blanks: 1 },
-      { sentence: '¿Cuántos ________ tienes? (hermanos)', correct: 'hermanos', blanks: 1 },
-      { sentence: 'Mi ________ quiere ser médico. (hermano)', correct: 'hermano', blanks: 1 },
-      { sentence: '¿Dónde vive tu ________? (familia)', correct: 'familia', blanks: 1 },
-      { sentence: 'Mi ________ trabaja en una universidad. (padre)', correct: 'padre', blanks: 1 },
-      { sentence: '¿Qué hace tu ________? (madre)', correct: 'madre', blanks: 1 },
-      { sentence: 'Mis ________ son muy inteligentes. (hermanos)', correct: 'hermanos', blanks: 1 },
-      { sentence: 'Quiero mucho a mi ________. (familia)', correct: 'familia', blanks: 1 }
+      { sentence: 'El ________ de mi madre es mi padre.', correct: 'marido', blanks: 1 },
+      { sentence: 'La ________ de mi padre es mi madre.', correct: 'mujer', blanks: 1 },
+      { sentence: 'Mis ________ viven en el campo y nosotros ________ visitarlos el domingo.', correct: 'abuelos / queremos', blanks: 1 },
+      { sentence: 'Mi ________ ________ que yo soy su nieto favorito.', correct: 'abuela / dice', blanks: 1 },
+      { sentence: '¿Tu ________ ________ venir a la fiesta?', correct: 'tío / puede', blanks: 1 },
+      { sentence: 'Los ________ de mi tío son mis ________.', correct: 'hijos / primos', blanks: 1 },
+      { sentence: 'Mi ________ ________ estudiar medicina como su padre.', correct: 'prima / quiere', blanks: 1 },
+      { sentence: 'Tengo dos ________: un ________ y una ________.', correct: 'hermanos / hermano / hermana', blanks: 1 },
+      { sentence: 'Mis ________ ________ que la ________ es lo más importante.', correct: 'padres / dicen / familia', blanks: 1 },
+      { sentence: 'Mi ________ no ________ venir porque está enfermo.', correct: 'abuelo / puede', blanks: 1 },
+      { sentence: '¿Cuántos ________ tiene tu abuela? — ________ cinco nietos a su casa cada verano.', correct: 'nietos / Vienen', blanks: 1 },
+      { sentence: 'La hermana de mi madre es mi ________ y su marido es mi ________.', correct: 'tía / tío', blanks: 1 },
+      { sentence: 'Yo ________ mucho a toda mi ________.', correct: 'quiero / familia', blanks: 1 },
+      { sentence: '¿________ tus ________ a tu cumpleaños? — Sí, ellos ________ venir.', correct: 'Vienen / abuelos / quieren', blanks: 1 },
+      { sentence: 'Mi ________ ________ que no ________ ir con nosotros.', correct: 'hermano / dice / puede', blanks: 1 }
     ]
   },
 
@@ -14577,6 +14577,64 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Вы хотите кофе или чай?', correct: '¿Quieres café o té?', alternatives: ['¿Quiere café o té?', '¿Queréis café o té?', '¿Quieren café o té?'] },
       { russian: 'Мой отец говорит, что это важно.', correct: 'Mi padre dice que es importante.', alternatives: ['Mi padre dice que esto es importante'] },
       { russian: 'Мы приходим в университет каждый день.', correct: 'Venimos a la universidad cada día.', alternatives: ['Nosotros venimos a la universidad cada día', 'Venimos a la universidad todos los días'] }
+    ]
+  },
+
+  // МОДУЛЬ 4 УРОК 1 УПРАЖНЕНИЯ
+  'ex-4-1-1': {
+    id: 'ex-4-1-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Раскройте скобки. Поставьте глаголы в соответствующую форму',
+    description: 'Поставьте возвратные глаголы в правильную форму',
+    questions: [
+      { sentence: 'Yo ________ (despertarse) temprano y ________ (acostarse) tarde.', correct: 'me despierto / me acuesto', blanks: 1 },
+      { sentence: 'Nosotros ________ (prepararse) para los exámenes en la biblioteca.', correct: 'nos preparamos', blanks: 1 },
+      { sentence: '¿Por qué no ________ (despedirse, tú) de Juan? — Porque tengo que ________ (irse) ahora y Juan ________ (venir) tarde.', correct: 'te despides / irme / viene', blanks: 1 },
+      { sentence: '¿Cómo ________ (llamarse, tú)? — Yo ________ (llamarse) David y mis padres ________ (llamarse) Augusto e Isabel.', correct: 'te llamas / me llamo / se llaman', blanks: 1 },
+      { sentence: 'Ana siempre ________ (vestirse) y ________ (peinarse) ante el espejo.', correct: 'se viste / se peina', blanks: 1 },
+      { sentence: '¿Quieres ________ (limpiarse) los dientes y ________ (maquillarse)? Tienes que ________ (irse) al cuarto de baño.', correct: 'limpiarte / maquillarte / irte', blanks: 1 },
+      { sentence: '¿Dónde ________ (encontrarse) la calle Velázquez? — Yo no ________ (conocer) esta calle. Lo ________ (sentir, yo).', correct: 'se encuentra / conozco / siento', blanks: 1 },
+      { sentence: '________ (Preferir, yo) dar un paseo antes de ________ (acostarse).', correct: 'Prefiero / acostarme', blanks: 1 },
+      { sentence: 'Susana y tú ________ (querer despedirse) de nosotros porque ________ (irse, vosotros) dentro de media hora.', correct: 'queréis despediros / os vais', blanks: 1 },
+      { sentence: 'Yo no ________ (poder maquillarse) porque hay poca luz.', correct: 'puedo maquillarme', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-2': {
+    id: 'ex-4-1-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Вставьте необходимые предлоги',
+    description: 'Вставьте правильные предлоги (a, de, en, por, para, con, sin)',
+    questions: [
+      { sentence: 'No podemos ir ________ dar un paseo ________ el parque porque ahora nos preparamos ________ el concierto.', correct: 'a / por / para', blanks: 1 },
+      { sentence: '¿Por qué Juan se despide ________ nosotros? — Porque él se va mañana ________ la tarde.', correct: 'de / por', blanks: 1 },
+      { sentence: '¿No le gusta ________ usted el té? Voy ________ prepararle un café.', correct: 'a / a', blanks: 1 },
+      { sentence: 'Enrique y yo empezamos ________ trabajar ________ las nueve ________ punto ________ la mañana.', correct: 'a / a / en / de', blanks: 1 },
+      { sentence: 'Ellos quieren jugar ________ el fútbol ________ mis amigos ________ el jardín.', correct: 'a / con / en', blanks: 1 },
+      { sentence: 'El jefe piensa ________ el proyecto ________ nuestro arquitecto.', correct: 'en / de', blanks: 1 },
+      { sentence: 'Son las once ________ la noche. Quiero leer un poco ________ acostarme.', correct: 'de / antes de', blanks: 1 },
+      { sentence: 'Alicia no recuerda el nombre ________ su profesor y la tía ríe ________ su sobrina.', correct: 'de / de', blanks: 1 },
+      { sentence: 'Tienes que traducir ________ ruso ________ español este documento.', correct: 'del / al', blanks: 1 },
+      { sentence: 'Hay que llamar ________ teléfono ________ saber ________ qué hora empieza la película. ¿Por qué no haces caso ________ mi consejo?', correct: 'por / para / a / de', blanks: 1 }
+    ]
+  },
+
+  'ex-4-1-3': {
+    id: 'ex-4-1-3',
+    type: 'translation',
+    title: 'Упражнение 3: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский',
+    questions: [
+      { russian: 'Как вас зовут, сеньориты? — Меня зовут Анита, а мою подругу зовут Росита. — Очень приятно.', correct: '¿Cómo se llaman, señoritas? — Me llamo Anita, y mi amiga se llama Rosita. — Mucho gusto.', alternatives: ['¿Cómo os llamáis, señoritas? — Yo me llamo Anita y mi amiga se llama Rosita. — Encantado'] },
+      { russian: 'Я ложусь спать, но не засыпаю, не хочу спать и пью лекарство, чтобы заснуть.', correct: 'Me acuesto, pero no me duermo, no tengo sueño y tomo medicina para dormirme.', alternatives: ['Me acuesto pero no me duermo, no quiero dormir y bebo medicina para dormirme'] },
+      { russian: 'Вы не знаете, где находится кинотеатр «Космос»? — Нет, я этого не знаю. Я не местный. Мне жаль.', correct: '¿No sabe dónde se encuentra el cine Cosmos? — No, no lo sé. No soy de aquí. Lo siento.', alternatives: ['¿No sabes dónde está el cine Cosmos? — No, no sé. No soy de aquí. Lo siento'] },
+      { russian: 'Почему ты не готовишься к празднику: не бреешься, не одеваешься? — Не хочу идти на праздник, я плохо себя чувствую.', correct: '¿Por qué no te preparas para la fiesta: no te afeitas, no te vistes? — No quiero ir a la fiesta, me siento mal.', alternatives: ['¿Por qué no te preparas para la fiesta: no te afeitas, no te vistes? — No quiero ir a la fiesta, no me siento bien'] },
+      { russian: 'Я ей не лгу, я говорю ей правду, а она смеется надо мной, потому что мне не верит.', correct: 'No le miento, le digo la verdad, y ella se ríe de mí porque no me cree.', alternatives: ['Yo no le miento, yo le digo la verdad, pero ella se ríe de mí porque no me cree'] },
+      { russian: 'Дон Альфонсо снимает шляпу, прощается со своими друзьями и уходит.', correct: 'Don Alfonso se quita el sombrero, se despide de sus amigos y se va.', alternatives: ['Don Alfonso quita su sombrero, se despide de sus amigos y se va'] },
+      { russian: 'Я не хочу чистить зубы и не люблю умываться холодной водой.', correct: 'No quiero limpiarme los dientes y no me gusta lavarme con agua fría.', alternatives: ['Yo no quiero limpiarme los dientes y no me gusta lavarme con agua fría'] },
+      { russian: 'Бабушка не купается в море, она предпочитает купаться в бассейне.', correct: 'La abuela no se baña en el mar, prefiere bañarse en la piscina.', alternatives: ['Mi abuela no se baña en el mar, ella prefiere bañarse en la piscina'] },
+      { russian: 'В котором часу вы уезжаете? — Я не помню. Надо спросить об этом ее брата.', correct: '¿A qué hora os vais? — No recuerdo. Hay que preguntar a su hermano.', alternatives: ['¿A qué hora se van? — No me acuerdo. Hay que preguntarle a su hermano'] },
+      { russian: 'Мама просыпается в 5 часов утра и встает. Она слышит, что ее зовет дочка.', correct: 'Mamá se despierta a las cinco de la mañana y se levanta. Oye que su hija la llama.', alternatives: ['La mamá se despierta a las cinco de la mañana y se levanta. Ella oye que la llama su hija'] }
     ]
   }
 }
