@@ -5054,6 +5054,116 @@ María: ¡Vamos!`,
 - vestirse (e→i): me visto, te vistes, se viste, nos vestimos, os vestís, se visten`
         },
         {
+          id: 'reflexive-verbs-se-meaning-change',
+          title: 'Изменение смысла глагола при добавлении частички SE',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Изменение смысла глагола при добавлении частички SE
+
+Многие глаголы меняют свое значение при добавлении возвратной частицы **-se**. Глагол без частицы обозначает действие, направленное на другой объект, а с частицей **-se** — действие, направленное на себя или изменение состояния.
+
+| Глагол без SE | Перевод | Глагол с SE | Перевод |
+|---------------|---------|-------------|---------|
+| preparar | готовить | prepararse para | готовиться к |
+| encontrar | находить | encontrarse | находиться |
+| dormir | спать | dormirse | засыпать |
+| despertar | будить | despertarse | просыпаться |
+| ir | ходить | irse | уходить |
+| sentir | сожалеть | sentirse | чувствовать себя |
+| hacer | делать | hacerse | стать |
+| poner | положить | ponerse | надеть на себя |
+| llamar | звать | llamarse | зваться, называться |
+
+**Примеры:**
+
+- Preparo la cena. (Я готовлю ужин). → Me preparo para el examen. (Я готовлюсь к экзамену).
+- Encuentro el libro. (Я нахожу книгу). → Me encuentro en casa. (Я нахожусь дома).
+- El bebé duerme. (Малыш спит). → El bebé se duerme. (Малыш засыпает).
+- Despierto a mi hermano. (Я бужу брата). → Me despierto a las 7. (Я просыпаюсь в 7).
+- Voy al cine. (Я иду в кино). → Me voy de casa. (Я ухожу из дома).
+- Siento tu dolor. (Я сожалею о твоей боли). → Me siento bien. (Я чувствую себя хорошо).
+
+**PONERSE** (надевать на себя / становиться):
+
+| Выражение | Перевод |
+|-----------|---------|
+| ponerse los zapatos | надевать туфли |
+| ponerse + прилагательное | становиться |
+| ponerse rojo | покраснеть |
+| ponerse blanco | побледнеть |
+| ponerse moreno | загореть |
+| ponerse triste | загрустить |
+| ponerse alegre | развеселиться, обрадоваться |
+| ponerse nervioso | занервничать |
+| ponerse enfermo | заболеть |
+
+**Примеры:**
+- Me pongo los zapatos. (Я надеваю туфли).
+- Te pones rojo cuando hablas en público. (Ты краснеешь, когда говоришь публично).
+- Ella se pone triste cuando llueve. (Она грустит, когда идет дождь).
+
+**HACERSE** (стать):
+
+| Выражение | Перевод |
+|-----------|---------|
+| hacerse + прилагательное / существительное | стать |
+| hacerse rico | разбогатеть / стать богатым |
+| hacerse famoso | стать известным |
+| hacerse campeón | стать чемпионом |
+| hacerse amigos | подружиться / стать друзьями |
+
+**Примеры:**
+- Quiero hacerme rico. (Я хочу стать богатым).
+- Ella se hace famosa. (Она становится известной).
+- Nos hacemos amigos. (Мы становимся друзьями / подружились).`
+        },
+        {
+          id: 'reflexive-verbs-conjugation',
+          title: 'Спряжение возвратных глаголов',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Спряжение возвратных глаголов
+
+При спряжении возвратное местоимение **-se** изменяется по лицам и ставится **перед** личной формой глагола.
+
+### Ejemplo: llamarse (зваться / называться)
+
+| Лицо | Местоимение + Глагол | Перевод |
+|------|---------------------|---------|
+| yo | me llamo | меня зовут / я называюсь |
+| tú | te llamas | тебя зовут / ты называешься |
+| él, ella, usted | se llama | его, ее, Вас зовут / он, она называется, Вы называетесь |
+| nosotros (-as) | nos llamamos | нас зовут / мы называемся |
+| vosotros (-as) | os llamáis | вас зовут / вы называетесь |
+| ellos (-as), ustedes | se llaman | их, Вас зовут / они называются, Вы называетесь |
+
+### Местоимение с инфинитивом
+
+С инфинитивом и герундием возвратное местоимение **-se** также изменяется по лицам, но пишется **слитно** после неличной формы глагола.
+
+### Ejemplo: prepararse (готовиться)
+
+| Лицо | Личная форма | С инфинитивом (хотеть подготовиться) |
+|------|--------------|--------------------------------------|
+| yo | me preparo | quiero prepararme |
+| tú | te preparas | quieres prepararte |
+| él, ella, usted | se prepara | quiere prepararse |
+| nosotros (-as) | nos preparamos | queremos prepararnos |
+| vosotros (-as) | os preparáis | queréis prepararos |
+| ellos (-as), ustedes | se preparan | quieren prepararse |
+
+### Примеры:
+
+- **Me preparo** para la clase de español. (Я готовлюсь к уроку испанского).
+- Tenemos que **prepararnos** para el viaje. (Нам нужно подготовиться к поездке).
+- ¿A qué hora **te levantas**? (Во сколько ты встаешь?)
+- Juan tiene que **lavarse** las manos. (Хуану нужно помыть руки).
+- **Se visten** rápido. (Они одеваются быстро).
+- Quiero **ducharme** ahora. (Я хочу принять душ сейчас).
+- ¿Puedes **peinarte** antes de salir? (Можешь причесаться перед выходом?)
+- **Nos acostamos** a las once. (Мы ложимся спать в одиннадцать).`
+        },
+        {
           id: 'gerund',
           title: 'Герундий (Gerundio)',
           collapsible: true,
@@ -5157,6 +5267,41 @@ María: ¡Vamos!`,
       { word: 'mañana', translation: 'утро', audioUrl: null },
       { word: 'tarde', translation: 'день, вечер', audioUrl: null },
       { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
+      { word: 'media hora', translation: 'полчаса', audioUrl: null },
+      { word: 'tiempo', translation: 'время', audioUrl: null },
+      { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
+      { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
+      { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
+      { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
+      { word: 'después de las seis', translation: 'после шести', audioUrl: null },
+      { word: 'retraso', translation: 'опоздание', audioUrl: null },
+
+      // Глаголы и их возвратные формы
+      { word: 'preparar', translation: 'готовить', audioUrl: null },
+      { word: 'encontrar', translation: 'находить', audioUrl: null },
+      { word: 'dormir', translation: 'спать', audioUrl: null },
+      { word: 'despertar', translation: 'будить', audioUrl: null },
+      { word: 'ir', translation: 'ходить', audioUrl: null },
+      { word: 'sentir', translation: 'сожалеть', audioUrl: null },
+      { word: 'hacer', translation: 'делать', audioUrl: null },
+      { word: 'poner', translation: 'положить', audioUrl: null },
+      { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
+      { word: 'encontrarse', translation: 'находиться', audioUrl: null },
+      { word: 'dormirse', translation: 'засыпать', audioUrl: null },
+      { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
+      { word: 'hacerse', translation: 'стать', audioUrl: null },
+      { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
+      { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
+      { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
+      { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
+      { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
+      { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
+      { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
+      { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
+      { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
+      { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
+      { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
+      { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
 
       // Возвратные глаголы
       { word: 'levantarse', translation: 'вставать', audioUrl: null },
@@ -5171,10 +5316,13 @@ María: ¡Vamos!`,
       { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
       { word: 'afeitarse', translation: 'бриться', audioUrl: null },
       { word: 'maquillarse', translation: 'краситься', audioUrl: null },
+      { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
+      { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
       { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
       { word: 'sentarse', translation: 'садиться', audioUrl: null },
       { word: 'quedarse', translation: 'оставаться', audioUrl: null },
       { word: 'irse', translation: 'уходить', audioUrl: null },
+      { word: 'despedirse', translation: 'прощаться', audioUrl: null },
       { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
 
       // Повседневные действия
