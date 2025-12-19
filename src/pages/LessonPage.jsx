@@ -33,6 +33,7 @@ function LessonPage() {
   const [openSections, setOpenSections] = useState({})
   const [activeExerciseTab, setActiveExerciseTab] = useState(0)
   const [activeReadingTab, setActiveReadingTab] = useState(0)
+  const [activeVocabularyTab, setActiveVocabularyTab] = useState(0)
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -285,13 +286,54 @@ function LessonPage() {
 
         {activeTab === 'vocabulary' && (
           <div className={styles.vocabularySection}>
-            <h2 className={styles.sectionTitle}>Новые слова</h2>
-            <p className={styles.flashcardHint}>💡 Нажмите на карточку, чтобы увидеть перевод</p>
-            <div className={styles.vocabularyList}>
-              {lesson.vocabulary && lesson.vocabulary.map((item, index) => (
-                <FlashCard key={index} word={item.word} translation={item.translation} />
-              ))}
-            </div>
+            {(() => {
+              // Check if vocabulary is organized in tabs
+              const hasVocabularyTabs = Array.isArray(lesson.vocabulary) &&
+                lesson.vocabulary.length > 0 &&
+                lesson.vocabulary[0].tab !== undefined
+
+              if (hasVocabularyTabs) {
+                // Render vocabulary with tabs
+                const currentVocabulary = lesson.vocabulary[activeVocabularyTab]
+                return (
+                  <div>
+                    <div className={styles.exerciseTabs}>
+                      {lesson.vocabulary.map((tabData, index) => (
+                        <button
+                          key={index}
+                          className={`${styles.exerciseTab} ${activeVocabularyTab === index ? styles.activeExerciseTab : ''}`}
+                          onClick={() => setActiveVocabularyTab(index)}
+                        >
+                          {tabData.tab}
+                        </button>
+                      ))}
+                    </div>
+                    <div>
+                      <h2 className={styles.sectionTitle}>Новые слова</h2>
+                      <p className={styles.flashcardHint}>💡 Нажмите на карточку, чтобы увидеть перевод</p>
+                      <div className={styles.vocabularyList}>
+                        {currentVocabulary.words && currentVocabulary.words.map((item, index) => (
+                          <FlashCard key={index} word={item.word} translation={item.translation} />
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )
+              } else {
+                // Render single vocabulary list (backward compatibility)
+                return (
+                  <div>
+                    <h2 className={styles.sectionTitle}>Новые слова</h2>
+                    <p className={styles.flashcardHint}>💡 Нажмите на карточку, чтобы увидеть перевод</p>
+                    <div className={styles.vocabularyList}>
+                      {lesson.vocabulary && lesson.vocabulary.map((item, index) => (
+                        <FlashCard key={index} word={item.word} translation={item.translation} />
+                      ))}
+                    </div>
+                  </div>
+                )
+              }
+            })()}
           </div>
         )}
 

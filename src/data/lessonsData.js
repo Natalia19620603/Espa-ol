@@ -5237,131 +5237,135 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      // Время
-      { word: 'hora', translation: 'час', audioUrl: null },
-      { word: 'minuto', translation: 'минута', audioUrl: null },
-      { word: 'segundo', translation: 'секунда', audioUrl: null },
-      { word: 'reloj', translation: 'часы', audioUrl: null },
-      { word: 'despertador', translation: 'будильник', audioUrl: null },
-      { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
-      { word: 'y cuarto', translation: 'четверть', audioUrl: null },
-      { word: 'y media', translation: 'половина', audioUrl: null },
-      { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
-      { word: 'mediodía', translation: 'полдень', audioUrl: null },
-      { word: 'medianoche', translation: 'полночь', audioUrl: null },
-      { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
-      { word: 'mañana', translation: 'утро', audioUrl: null },
-      { word: 'tarde', translation: 'день, вечер', audioUrl: null },
-      { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
-      { word: 'media hora', translation: 'полчаса', audioUrl: null },
-      { word: 'tiempo', translation: 'время', audioUrl: null },
-      { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
-      { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
-      { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
-      { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
-      { word: 'después de las seis', translation: 'после шести', audioUrl: null },
-      { word: 'retraso', translation: 'опоздание', audioUrl: null },
-
-      // Глаголы и их возвратные формы
-      { word: 'preparar', translation: 'готовить', audioUrl: null },
-      { word: 'encontrar', translation: 'находить', audioUrl: null },
-      { word: 'dormir', translation: 'спать', audioUrl: null },
-      { word: 'despertar', translation: 'будить', audioUrl: null },
-      { word: 'ir', translation: 'ходить', audioUrl: null },
-      { word: 'sentir', translation: 'сожалеть', audioUrl: null },
-      { word: 'hacer', translation: 'делать', audioUrl: null },
-      { word: 'poner', translation: 'положить', audioUrl: null },
-      { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
-      { word: 'encontrarse', translation: 'находиться', audioUrl: null },
-      { word: 'dormirse', translation: 'засыпать', audioUrl: null },
-      { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
-      { word: 'hacerse', translation: 'стать', audioUrl: null },
-      { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
-      { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
-      { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
-      { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
-      { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
-      { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
-      { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
-      { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
-      { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
-      { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
-      { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
-      { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
-
-      // Возвратные глаголы
-      { word: 'levantarse', translation: 'вставать', audioUrl: null },
-      { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
-      { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
-      { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
-      { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
-      { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
-      { word: 'peinarse', translation: 'причесываться', audioUrl: null },
-      { word: 'vestirse', translation: 'одеваться', audioUrl: null },
-      { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
-      { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
-      { word: 'afeitarse', translation: 'бриться', audioUrl: null },
-      { word: 'maquillarse', translation: 'краситься', audioUrl: null },
-      { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
-      { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
-      { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
-      { word: 'sentarse', translation: 'садиться', audioUrl: null },
-      { word: 'quedarse', translation: 'оставаться', audioUrl: null },
-      { word: 'irse', translation: 'уходить', audioUrl: null },
-      { word: 'despedirse', translation: 'прощаться', audioUrl: null },
-      { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
-
-      // Повседневные действия
-      { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
-      { word: 'desayunar', translation: 'завтракать', audioUrl: null },
-      { word: 'almorzar', translation: 'обедать', audioUrl: null },
-      { word: 'cenar', translation: 'ужинать', audioUrl: null },
-      { word: 'preparar', translation: 'готовить, подготавливать', audioUrl: null },
-      { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
-      { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
-      { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
-      { word: 'pasear', translation: 'гулять', audioUrl: null },
-      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-      { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
-      { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
-
-      // Наречия времени
-      { word: 'temprano', translation: 'рано', audioUrl: null },
-      { word: 'tarde', translation: 'поздно', audioUrl: null },
-      { word: 'pronto', translation: 'скоро', audioUrl: null },
-      { word: 'luego', translation: 'потом', audioUrl: null },
-      { word: 'después', translation: 'после', audioUrl: null },
-      { word: 'antes', translation: 'до, перед', audioUrl: null },
-      { word: 'ahora', translation: 'сейчас', audioUrl: null },
-      { word: 'siempre', translation: 'всегда', audioUrl: null },
-      { word: 'nunca', translation: 'никогда', audioUrl: null },
-      { word: 'a veces', translation: 'иногда', audioUrl: null },
-      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
-      { word: 'cada día', translation: 'каждый день', audioUrl: null },
-      { word: 'normalmente', translation: 'обычно', audioUrl: null },
-      { word: 'generalmente', translation: 'как правило', audioUrl: null },
-
-      // Повседневные дела и домашние обязанности
-      { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null },
-      { word: 'costumbre', translation: 'привычка', audioUrl: null },
-      { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
-      { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
-      { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
-      { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
-      { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
-      { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
-      { word: 'almuerzo', translation: 'обед', audioUrl: null },
-      { word: 'cena', translation: 'ужин', audioUrl: null },
-      { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
-      { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
-      { word: 'planchar', translation: 'гладить', audioUrl: null },
-      { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
-      { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null },
-      { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
-      { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
-      { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
-      { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
-      { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'hora', translation: 'час', audioUrl: null },
+          { word: 'minuto', translation: 'минута', audioUrl: null },
+          { word: 'segundo', translation: 'секунда', audioUrl: null },
+          { word: 'reloj', translation: 'часы', audioUrl: null },
+          { word: 'despertador', translation: 'будильник', audioUrl: null },
+          { word: 'mediodía', translation: 'полдень', audioUrl: null },
+          { word: 'medianoche', translation: 'полночь', audioUrl: null },
+          { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
+          { word: 'mañana', translation: 'утро', audioUrl: null },
+          { word: 'tarde', translation: 'день, вечер', audioUrl: null },
+          { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
+          { word: 'tiempo', translation: 'время', audioUrl: null },
+          { word: 'retraso', translation: 'опоздание', audioUrl: null },
+          { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
+          { word: 'almuerzo', translation: 'обед', audioUrl: null },
+          { word: 'cena', translation: 'ужин', audioUrl: null },
+          { word: 'costumbre', translation: 'привычка', audioUrl: null },
+          { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'preparar', translation: 'готовить', audioUrl: null },
+          { word: 'encontrar', translation: 'находить', audioUrl: null },
+          { word: 'dormir', translation: 'спать', audioUrl: null },
+          { word: 'despertar', translation: 'будить', audioUrl: null },
+          { word: 'ir', translation: 'ходить', audioUrl: null },
+          { word: 'sentir', translation: 'сожалеть', audioUrl: null },
+          { word: 'hacer', translation: 'делать', audioUrl: null },
+          { word: 'poner', translation: 'положить', audioUrl: null },
+          { word: 'levantarse', translation: 'вставать', audioUrl: null },
+          { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
+          { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
+          { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
+          { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
+          { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
+          { word: 'peinarse', translation: 'причесываться', audioUrl: null },
+          { word: 'vestirse', translation: 'одеваться', audioUrl: null },
+          { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
+          { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
+          { word: 'afeitarse', translation: 'бриться', audioUrl: null },
+          { word: 'maquillarse', translation: 'краситься', audioUrl: null },
+          { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
+          { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
+          { word: 'sentarse', translation: 'садиться', audioUrl: null },
+          { word: 'quedarse', translation: 'оставаться', audioUrl: null },
+          { word: 'irse', translation: 'уходить', audioUrl: null },
+          { word: 'despedirse', translation: 'прощаться', audioUrl: null },
+          { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
+          { word: 'desayunar', translation: 'завтракать', audioUrl: null },
+          { word: 'almorzar', translation: 'обедать', audioUrl: null },
+          { word: 'cenar', translation: 'ужинать', audioUrl: null },
+          { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
+          { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
+          { word: 'pasear', translation: 'гулять', audioUrl: null },
+          { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+          { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
+          { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
+          { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
+          { word: 'planchar', translation: 'гладить', audioUrl: null },
+          { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null },
+          { word: 'cuidar', translation: 'ухаживать, заботиться', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ',
+        words: [
+          { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
+          { word: 'y cuarto', translation: 'четверть', audioUrl: null },
+          { word: 'y media', translation: 'половина', audioUrl: null },
+          { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
+          { word: 'media hora', translation: 'полчаса', audioUrl: null },
+          { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
+          { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
+          { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
+          { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
+          { word: 'después de las seis', translation: 'после шести', audioUrl: null },
+          { word: 'temprano', translation: 'рано', audioUrl: null },
+          { word: 'tarde', translation: 'поздно', audioUrl: null },
+          { word: 'pronto', translation: 'скоро', audioUrl: null },
+          { word: 'luego', translation: 'потом', audioUrl: null },
+          { word: 'después', translation: 'после', audioUrl: null },
+          { word: 'antes', translation: 'до, перед', audioUrl: null },
+          { word: 'ahora', translation: 'сейчас', audioUrl: null },
+          { word: 'siempre', translation: 'всегда', audioUrl: null },
+          { word: 'nunca', translation: 'никогда', audioUrl: null },
+          { word: 'a veces', translation: 'иногда', audioUrl: null },
+          { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+          { word: 'cada día', translation: 'каждый день', audioUrl: null },
+          { word: 'normalmente', translation: 'обычно', audioUrl: null },
+          { word: 'generalmente', translation: 'как правило', audioUrl: null },
+          { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
+          { word: 'encontrarse', translation: 'находиться', audioUrl: null },
+          { word: 'dormirse', translation: 'засыпать', audioUrl: null },
+          { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
+          { word: 'hacerse', translation: 'стать', audioUrl: null },
+          { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
+          { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
+          { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
+          { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
+          { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
+          { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
+          { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
+          { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
+          { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
+          { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
+          { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
+          { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
+          { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
+          { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
+          { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
+          { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
+          { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
+          { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
+          { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
+          { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
+          { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
+          { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
+          { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
+          { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
+          { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
+          { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
+          { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null }
+        ]
+      }
     ],
     readingText: [
       {
@@ -5479,116 +5483,208 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
 
   'lesson-4-2': {
     id: 'lesson-4-2',
-    title: 'Урок 2: Pretérito indefinido',
+    title: 'Урок 2: ГОРОД. Наречия, Числительные и Глаголы',
     moduleId: 'module-4',
     grammar: {
-      title: 'Pretérito indefinido (Простое прошедшее время)',
-      content: `
-# Pretérito indefinido (Pretérito perfecto simple)
+      title: 'Наречия, Числительные и Глаголы',
+      intro: `В этом уроке мы изучим наречия (как они образуются и сравниваются), количественные и порядковые числительные (от 100 до 1 000 000), а также различия между важными глаголами обучения и предложения.`,
+      sections: [
+        {
+          id: 'adverbs',
+          title: 'Наречия',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Наречия
 
-## Правильные глаголы:
+В испанском языке наречия являются неизменяемой частью речи. Вот список наиболее употребительных наречий:
 
-**Глаголы на -AR (hablar):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -é | hablé |
-| tú | -aste | hablaste |
-| él/ella/usted | -ó | habló |
-| nosotros/as | -amos | hablamos |
-| vosotros/as | -asteis | hablasteis |
-| ellos/ellas/ustedes | -aron | hablaron |
+| Испанский | Русский | Испанский | Русский |
+|-----------|---------|-----------|---------|
+| ahora | сейчас | bien | хорошо |
+| hoy | сегодня | mal | плохо |
+| mañana | завтра | casi | почти |
+| ayer | вчера | primero | сначала |
+| tarde | поздно | después / luego | потом, после, затем |
+| temprano | рано | arriba / abajo | наверху / внизу |
+| cerca / lejos | близко / далеко | fuera / dentro | снаружи / внутри |
+| siempre / nunca | всегда / никогда | tanto | так много, столько |`
+        },
+        {
+          id: 'adverb-formation',
+          title: 'Образование наречий',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Образование наречий
 
-**Глаголы на -ER/-IR (comer/vivir):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -í | comí, viví |
-| tú | -iste | comiste, viviste |
-| él/ella/usted | -ió | comió, vivió |
-| nosotros/as | -imos | comimos, vivimos |
-| vosotros/as | -isteis | comisteis, vivisteis |
-| ellos/ellas/ustedes | -ieron | comieron, vivieron |
+Образование с помощью суффикса **-mente**:
 
-## Важные неправильные глаголы:
+**От прилагательных с одним окончанием** (на -e, -l, -z): суффикс присоединяется напрямую.
 
-**SER/IR (одинаковые формы!):**
-fui, fuiste, fue, fuimos, fuisteis, fueron
+- fácil → **fácilmente** (легко)
+- difícil → **difícilmente** (трудно)
+- alegre → **alegremente** (весело)
 
-**ESTAR:**
-estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron
+**От прилагательных с двумя окончаниями** (на -o/-a): суффикс присоединяется к форме женского рода.
 
-**TENER:**
-tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron
+- rápido → rápida + mente = **rápidamente** (быстро)
+- raro → rara + mente = **raramente** (редко)
 
-**HACER:**
-hice, hiciste, hizo, hicimos, hicisteis, hicieron
+**Группы наречий**: Если несколько наречий на -mente стоят подряд, суффикс добавляется только к последнему:
 
-**VENIR:**
-vine, viniste, vino, vinimos, vinisteis, vinieron
+- Él habla lenta, clara y **correctamente**. (Он говорит медленно, ясно и правильно).`
+        },
+        {
+          id: 'adverb-comparison',
+          title: 'Степени сравнения наречий',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Степени сравнения наречий
 
-**DECIR:**
-dije, dijiste, dijo, dijimos, dijisteis, dijeron
+**Сравнительная степень:**
 
-**DAR:**
-di, diste, dio, dimos, disteis, dieron
+- **más + наречие + que** (более ... чем)
+- **menos + наречие + que** (менее ... чем)
+- **tan + наречие + como** (так же ... как)
 
-## Употребление:
-Используется для законченных действий в прошлом:
-1. Конкретное время: **Ayer fui al cine**
-2. Определенный период: **Viví en Madrid dos años**
-3. Последовательность событий: **Me levanté, desayuné y salí**
+**Превосходная степень:**
 
-## Слова-маркеры:
-- **ayer** (вчера)
-- **anteayer** (позавчера)
-- **el año pasado** (в прошлом году)
-- **la semana pasada** (на прошлой неделе)
-- **el otro día** (на днях)
-- **hace dos días/semanas/meses** (два дня/недели/месяца назад)
-      `,
-      examples: [
-        { spanish: 'Ayer comí en un restaurante italiano', translation: 'Вчера я ел в итальянском ресторане' },
-        { spanish: 'El año pasado fui a España', translation: 'В прошлом году я ездил в Испанию' },
-        { spanish: 'Hice la tarea anoche', translation: 'Я сделал домашку вчера вечером' },
-        { spanish: 'Vinieron a visitarme la semana pasada', translation: 'Они приехали навестить меня на прошлой неделе' }
+- Относительная: **lo + сравнительная степень + posible** (lo más pronto posible — как можно скорее).
+- Абсолютная: **muy + наречие** или суффикс **-ísimo** (tempranísimo — очень рано).`
+        },
+        {
+          id: 'special-adverbs',
+          title: 'Особые формы сравнения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Особые формы сравнения
+
+| Положительная | Сравнительная | Перевод |
+|---------------|---------------|---------|
+| bien | mejor | хорошо — лучше |
+| mal | peor | плохо — хуже |
+| mucho | más | много — больше |
+| poco | menos | мало — меньше |`
+        },
+        {
+          id: 'tambien-tampoco',
+          title: 'Наречия también / tampoco',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Наречия también / tampoco
+
+**también** (тоже) — для согласия с утверждением.
+
+- Quiero ir al cine. — Yo **también**.
+
+**tampoco** (тоже не) — для согласия с отрицанием.
+
+- No quiero ir al cine. — Yo **tampoco**.`
+        },
+        {
+          id: 'cardinal-numbers',
+          title: 'Количественные числительные (100 — 1 000 000)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Количественные числительные (100 — 1 000 000)
+
+| Число | Вариант | Число | Вариант |
+|-------|---------|-------|---------|
+| 100 | cien | 600 | seiscientos |
+| 101 | ciento uno | 700 | setecientos |
+| 200 | doscientos / -as | 800 | ochocientos |
+| 500 | quinientos | 900 | novecientos |
+| 1 000 | mil | 1 000 000 | un millón |`
+        },
+        {
+          id: 'ordinal-numbers',
+          title: 'Порядковые числительные',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Порядковые числительные
+
+- 1º – **primero** (первый)
+- 2º – **segundo** (второй)
+- 3º – **tercero** (третий)
+- 4º – **cuarto** (четвертый)
+- 5º – **quinto** (пятый)
+- 6º – **sexto** (шестой)
+
+**Внимание:** Перед существительными мужского рода ед. числа **primero** и **tercero** сокращаются: **el primer piso**, **el tercer día**.`
+        },
+        {
+          id: 'verb-differences',
+          title: 'Различия глаголов обучения и предложения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Различия глаголов обучения и предложения
+
+**Estudiar / Aprender / Enseñar**
+
+- **Estudiar**: процесс учебы (в университете, школе, выполнение заданий).
+  - Estudio medicina en la universidad.
+
+- **Aprender**: результат, получение знаний или навыков.
+  - Aprendo a conducir. (Я учусь водить).
+
+- **Enseñar**: обучать кого-то другого, показывать.
+  - Mi profesor me enseña español.
+
+**Ofrecer / Proponer**
+
+- **Ofrecer**: предлагать что-то конкретное, вещь или помощь.
+  - Te ofrezco mi ayuda. (Предлагаю тебе свою помощь).
+
+- **Proponer**: предлагать идею, план или действие.
+  - Te propongo ir al cine. (Предлагаю тебе пойти в кино).`
+        }
       ]
     },
     vocabulary: [
-      { word: 'ayer', translation: 'вчера', audioUrl: null },
-      { word: 'anteayer', translation: 'позавчера', audioUrl: null },
-      { word: 'el año pasado', translation: 'в прошлом году', audioUrl: null },
-      { word: 'la semana pasada', translation: 'на прошлой неделе', audioUrl: null },
-      { word: 'el mes pasado', translation: 'в прошлом месяце', audioUrl: null },
-      { word: 'hace', translation: 'назад (hace dos días)', audioUrl: null },
-      { word: 'anoche', translation: 'вчера вечером', audioUrl: null },
-      { word: 'visitar', translation: 'посещать', audioUrl: null },
-      { word: 'comprar', translation: 'покупать', audioUrl: null },
-      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
-      { word: 'recuerdo', translation: 'сувенир, воспоминание', audioUrl: null },
-      { word: 'inolvidable', translation: 'незабываемый', audioUrl: null }
+      { word: 'curiosidad', translation: 'достопримечательность', audioUrl: null },
+      { word: 'lugar de interés', translation: 'достопримечательность', audioUrl: null },
+      { word: 'centro', translation: 'центр', audioUrl: null },
+      { word: 'ayuntamiento', translation: 'мэрия', audioUrl: null },
+      { word: 'afueras', translation: 'пригород / окрестности', audioUrl: null },
+      { word: 'calle', translation: 'улица', audioUrl: null },
+      { word: 'bocacalle', translation: 'переулок', audioUrl: null },
+      { word: 'callejón', translation: 'переулок', audioUrl: null },
+      { word: 'esquina', translation: 'угол улицы', audioUrl: null },
+      { word: 'avenida', translation: 'проспект', audioUrl: null },
+      { word: 'plaza', translation: 'площадь', audioUrl: null },
+      { word: 'paseo', translation: 'бульвар', audioUrl: null },
+      { word: 'malecón', translation: 'набережная', audioUrl: null },
+      { word: 'barrio', translation: 'район', audioUrl: null },
+      { word: 'cuadra', translation: 'квартал (городской)', audioUrl: null },
+      { word: 'muralla', translation: 'городская стена', audioUrl: null },
+      { word: 'edificio', translation: 'здание', audioUrl: null },
+      { word: 'estación', translation: 'вокзал', audioUrl: null },
+      { word: 'farmacia', translation: 'аптека', audioUrl: null },
+      { word: 'hospital', translation: 'больница', audioUrl: null },
+      { word: 'policía', translation: 'полиция', audioUrl: null },
+      { word: 'banco', translation: 'банк', audioUrl: null },
+      { word: 'parque', translation: 'парк', audioUrl: null },
+      { word: 'museo', translation: 'музей', audioUrl: null },
+      { word: 'teatro', translation: 'театр', audioUrl: null },
+      { word: 'cine', translation: 'кинотеатр', audioUrl: null },
+      { word: 'monumento', translation: 'памятник', audioUrl: null },
+      { word: 'iglesia', translation: 'церковь', audioUrl: null },
+      { word: 'catedral', translation: 'собор', audioUrl: null },
+      { word: 'tienda', translation: 'магазин', audioUrl: null },
+      { word: 'mercado', translation: 'рынок', audioUrl: null },
+      { word: 'centro comercial', translation: 'торговый центр', audioUrl: null },
+      { word: 'peluquería', translation: 'парикмахерская', audioUrl: null },
+      { word: 'estadio', translation: 'стадион', audioUrl: null },
+      { word: 'Correos', translation: 'почта', audioUrl: null },
+      { word: 'río', translation: 'река', audioUrl: null },
+      { word: 'puerto', translation: 'порт', audioUrl: null },
+      { word: 'fuente', translation: 'фонтан', audioUrl: null },
+      { word: 'puente', translation: 'мост', audioUrl: null },
+      { word: 'norte', translation: 'север', audioUrl: null },
+      { word: 'sur', translation: 'юг', audioUrl: null },
+      { word: 'este', translation: 'восток', audioUrl: null },
+      { word: 'oeste', translation: 'запад', audioUrl: null }
     ],
-    readingText: {
-      title: 'Mis vacaciones en Italia',
-      content: `El verano pasado realicé el viaje de mis sueños: fui a Italia con mi mejor amiga Laura. Fue una experiencia absolutamente inolvidable.
-
-Salimos de Madrid el 15 de julio. Nuestro primer destino fue Roma. Llegamos por la tarde y fuimos directamente al hotel. Era un pequeño hotel cerca del Vaticano, muy acogedor. Esa noche caminamos por el barrio y cenamos en una trattoria tradicional. Comimos pizza y pasta deliciosas.
-
-Al día siguiente visitamos el Coliseo. ¡Fue impresionante! También vimos el Foro Romano y la Fontana di Trevi. Echamos monedas en la fuente e hicimos un deseo. Laura pidió encontrar el amor, y yo pedí volver a Italia algún día.
-
-Después de tres días en Roma, tomamos el tren a Florencia. La ciudad nos enamoró completamente. Visitamos la Galería Uffizi y vimos obras maestras de Botticelli y Leonardo da Vinci. Laura compró muchos recuerdos: bolsos de cuero, joyas y chocolates.
-
-Nuestro último destino fue Venecia. Llegamos en vaporetto desde el aeropuerto. La ciudad flotante nos dejó sin palabras. Paseamos en góndola por los canales, visitamos la Basílica de San Marcos y nos perdimos por las callejuelas encantadoras.
-
-El viaje duró diez días. Cuando volvimos a España, estábamos cansadas pero felices. Todavía hablamos de ese viaje y miramos las fotos con nostalgia. Definitivamente quiero volver.`,
-      translation: 'Мой отпуск в Италии\n\nПрошлым летом я совершила путешествие своей мечты: поехала в Италию с моей лучшей подругой Лаурой. Это был абсолютно незабываемый опыт.\n\nМы уехали из Мадрида 15 июля. Нашим первым пунктом назначения был Рим. Мы прибыли днем и пошли прямо в отель. Это был маленький отель рядом с Ватиканом, очень уютный. В тот вечер мы гуляли по району и ужинали в традиционной траттории. Мы ели вкусную пиццу и пасту.\n\nНа следующий день мы посетили Колизей. Это было впечатляюще! Мы также увидели Римский Форум и фонтан Треви. Мы бросили монеты в фонтан и загадали желания. Лаура попросила найти любовь, а я попросила вернуться в Италию когда-нибудь.\n\nПосле трех дней в Риме мы сели на поезд во Флоренцию. Город нас полностью очаровал. Мы посетили галерею Уффици и увидели шедевры Боттичелли и Леонардо да Винчи. Лаура купила много сувениров: кожаные сумки, украшения и шоколад.\n\nНашим последним пунктом назначения была Венеция. Мы прибыли на вапоретто из аэропорта. Плавучий город оставил нас без слов. Мы катались на гондоле по каналам, посетили базилику Сан-Марко и терялись по очаровательным улочкам.\n\nПутешествие длилось десять дней. Когда мы вернулись в Испанию, мы были уставшими, но счастливыми. Мы до сих пор говорим о том путешествии и смотрим фотографии с ностальгией. Я определенно хочу вернуться.',
-      audioUrl: '/audio/lesson-4-2-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'El verano pasado realicé el viaje de mis sueños.' },
-        { start: 5, end: 10, text: 'Fui a Italia con mi mejor amiga Laura.' },
-        { start: 10, end: 15, text: 'Nuestro primer destino fue Roma.' },
-        { start: 15, end: 20, text: 'Visitamos el Coliseo. ¡Fue impresionante!' }
-      ]
-    },
-    exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5']
+    exercises: []
   },
 
   'lesson-4-3': {
