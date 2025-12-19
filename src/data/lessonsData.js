@@ -851,114 +851,124 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       ]
     },
     vocabulary: [
-      { word: 'chico', translation: 'мальчик', audioUrl: null },
-      { word: 'chica', translation: 'девочка', audioUrl: null },
-      { word: 'amigo', translation: 'друг', audioUrl: null },
-      { word: 'amiga', translation: 'подруга', audioUrl: null },
-      { word: 'hermano', translation: 'брат', audioUrl: null },
-      { word: 'hermana', translation: 'сестра', audioUrl: null },
-      { word: 'casa', translation: 'дом', audioUrl: null },
-      { word: 'libro', translation: 'книга', audioUrl: null },
-      { word: 'alumna', translation: 'ученица', audioUrl: null },
-      { word: 'museo', translation: 'музей', audioUrl: null },
-      { word: 'playa', translation: 'пляж', audioUrl: null },
-      { word: 'papá', translation: 'папа', audioUrl: null },
-      { word: 'día', translation: 'день', audioUrl: null },
-      { word: 'policía', translation: 'полицейский', audioUrl: null },
-      { word: 'mano', translation: 'рука', audioUrl: null },
-      { word: 'radio', translation: 'радио', audioUrl: null },
-      { word: 'problema', translation: 'проблема', audioUrl: null },
-      { word: 'programa', translation: 'программа', audioUrl: null },
-      { word: 'tema', translation: 'тема', audioUrl: null },
-      { word: 'planeta', translation: 'планета', audioUrl: null },
-      { word: 'padre', translation: 'отец', audioUrl: null },
-      { word: 'madre', translation: 'мать', audioUrl: null },
-      { word: 'café', translation: 'кофе', audioUrl: null },
-      { word: 'calle', translation: 'улица', audioUrl: null },
-      { word: 'coche', translation: 'автомобиль', audioUrl: null },
-      { word: 'noche', translation: 'ночь', audioUrl: null },
-      { word: 'hombre', translation: 'человек / мужчина', audioUrl: null },
-      { word: 'mujer', translation: 'женщина', audioUrl: null },
-      { word: 'tarde', translation: 'вечер / день', audioUrl: null },
-      { word: 'amor', translation: 'любовь', audioUrl: null },
-      { word: 'sol', translation: 'солнце', audioUrl: null },
-      { word: 'avión', translation: 'самолет', audioUrl: null },
-      { word: 'lápiz', translation: 'карандаш', audioUrl: null },
-      { word: 'país', translation: 'страна', audioUrl: null },
-      { word: 'flor', translation: 'цветок', audioUrl: null },
-      { word: 'luz', translation: 'свет', audioUrl: null },
-      { word: 'ciudad', translation: 'город', audioUrl: null },
-      { word: 'estación', translation: 'станция', audioUrl: null },
-      { word: 'felicidad', translation: 'счастье', audioUrl: null },
-      { word: 'estudiante', translation: 'студент/студентка', audioUrl: null },
-      { word: 'cliente', translation: 'клиент/клиентка', audioUrl: null },
-      { word: 'economista', translation: 'экономист', audioUrl: null },
-      { word: 'lunes', translation: 'понедельник', audioUrl: null },
-      { word: 'dinero', translation: 'деньги', audioUrl: null },
-      { word: 'vacaciones', translation: 'каникулы', audioUrl: null },
-      { word: 'salud', translation: 'здоровье', audioUrl: null },
-      { word: 'hambre', translation: 'голод', audioUrl: null },
-      { word: 'crisis', translation: 'кризис', audioUrl: null },
-      { word: 'pared', translation: 'стена', audioUrl: null },
-      { word: 'césped', translation: 'газон', audioUrl: null },
-      { word: 'cumpleaños', translation: 'день рождения', audioUrl: null },
-      { word: 'alma', translation: 'душа', audioUrl: null },
-      { word: 'ama', translation: 'хозяйка', audioUrl: null },
-      { word: 'águila', translation: 'орёл', audioUrl: null },
-      { word: 'el', translation: 'артикль м.р. ед.ч.', audioUrl: null },
-      { word: 'la', translation: 'артикль ж.р. ед.ч.', audioUrl: null },
-      { word: 'los', translation: 'артикль м.р. мн.ч.', audioUrl: null },
-      { word: 'las', translation: 'артикль ж.р. мн.ч.', audioUrl: null },
-      { word: 'un', translation: 'неопр. артикль м.р.', audioUrl: null },
-      { word: 'una', translation: 'неопр. артикль ж.р.', audioUrl: null },
-      { word: 'agua', translation: 'вода', audioUrl: null },
-      { word: 'aula', translation: 'аудитория', audioUrl: null },
-      { word: 'blanco, -a', translation: 'белый, -ая', audioUrl: null },
-      { word: 'negro, -a', translation: 'чёрный, -ая', audioUrl: null },
-      { word: 'bueno, -a', translation: 'хороший, -ая', audioUrl: null },
-      { word: 'malo, -a', translation: 'плохой, -ая', audioUrl: null },
-      { word: 'nuevo, -a', translation: 'новый, -ая', audioUrl: null },
-      { word: 'viejo, -a', translation: 'старый, -ая', audioUrl: null },
-      { word: 'antiguo, -a', translation: 'древний, старинный', audioUrl: null },
-      { word: 'largo, -a', translation: 'длинный, -ая', audioUrl: null },
-      { word: 'corto, -a', translation: 'короткий, -ая', audioUrl: null },
-      { word: 'bonito, -a', translation: 'красивый, -ая', audioUrl: null },
-      { word: 'guapo, -a', translation: 'красивый, -ая', audioUrl: null },
-      { word: 'feo, -a', translation: 'некрасивый, -ая', audioUrl: null },
-      { word: 'grande', translation: 'большой', audioUrl: null },
-      { word: 'pequeño, -a', translation: 'маленький, -ая', audioUrl: null },
-      { word: 'alto, -a', translation: 'высокий, -ая', audioUrl: null },
-      { word: 'bajo, -a', translation: 'низкий, -ая', audioUrl: null },
-      { word: 'gordo, -a', translation: 'толстый, -ая', audioUrl: null },
-      { word: 'delgado, -a', translation: 'стройный, -ая', audioUrl: null },
-      { word: 'joven', translation: 'молодой', audioUrl: null },
-      { word: 'enfermo, -a', translation: 'больной, -ая', audioUrl: null },
-      { word: 'contento, -a', translation: 'довольный, -ая', audioUrl: null },
-      { word: 'feliz', translation: 'счастливый', audioUrl: null },
-      { word: 'alegre', translation: 'весёлый', audioUrl: null },
-      { word: 'triste', translation: 'грустный', audioUrl: null },
-      { word: 'barato, -a', translation: 'дешёвый, -ая', audioUrl: null },
-      { word: 'caro, -a', translation: 'дорогой, -ая', audioUrl: null },
-      { word: 'soltero, -a', translation: 'холостой, незамужняя', audioUrl: null },
-      { word: 'casado, -a', translation: 'женатый, замужняя', audioUrl: null },
-      { word: 'azul', translation: 'синий', audioUrl: null },
-      { word: 'verde', translation: 'зелёный', audioUrl: null },
-      { word: 'rojo, -a', translation: 'красный, -ая', audioUrl: null },
-      { word: 'amarillo, -a', translation: 'жёлтый, -ая', audioUrl: null },
-      { word: 'naranja', translation: 'оранжевый', audioUrl: null },
-      { word: 'rosa', translation: 'розовый', audioUrl: null },
-      { word: 'gris', translation: 'серый', audioUrl: null },
-      { word: 'marrón', translation: 'коричневый', audioUrl: null },
-      { word: 'morado, -a', translation: 'фиолетовый, -ая', audioUrl: null },
-      { word: 'regular', translation: 'обычный', audioUrl: null },
-      { word: 'raro, -a', translation: 'странный, -ая', audioUrl: null },
-      { word: 'caliente', translation: 'горячий', audioUrl: null },
-      { word: 'frío, -a', translation: 'холодный, -ая', audioUrl: null },
-      { word: 'difícil', translation: 'трудный', audioUrl: null },
-      { word: 'fácil', translation: 'лёгкий', audioUrl: null },
-      { word: 'interesante', translation: 'интересный', audioUrl: null },
-      { word: 'rico, -a', translation: 'богатый, -ая', audioUrl: null },
-      { word: 'pobre', translation: 'бедный', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'chico', translation: 'мальчик', audioUrl: null },
+          { word: 'chica', translation: 'девочка', audioUrl: null },
+          { word: 'amigo', translation: 'друг', audioUrl: null },
+          { word: 'amiga', translation: 'подруга', audioUrl: null },
+          { word: 'hermano', translation: 'брат', audioUrl: null },
+          { word: 'hermana', translation: 'сестра', audioUrl: null },
+          { word: 'casa', translation: 'дом', audioUrl: null },
+          { word: 'libro', translation: 'книга', audioUrl: null },
+          { word: 'alumna', translation: 'ученица', audioUrl: null },
+          { word: 'museo', translation: 'музей', audioUrl: null },
+          { word: 'playa', translation: 'пляж', audioUrl: null },
+          { word: 'papá', translation: 'папа', audioUrl: null },
+          { word: 'día', translation: 'день', audioUrl: null },
+          { word: 'policía', translation: 'полицейский', audioUrl: null },
+          { word: 'mano', translation: 'рука', audioUrl: null },
+          { word: 'radio', translation: 'радио', audioUrl: null },
+          { word: 'problema', translation: 'проблема', audioUrl: null },
+          { word: 'programa', translation: 'программа', audioUrl: null },
+          { word: 'tema', translation: 'тема', audioUrl: null },
+          { word: 'planeta', translation: 'планета', audioUrl: null },
+          { word: 'padre', translation: 'отец', audioUrl: null },
+          { word: 'madre', translation: 'мать', audioUrl: null },
+          { word: 'café', translation: 'кофе', audioUrl: null },
+          { word: 'calle', translation: 'улица', audioUrl: null },
+          { word: 'coche', translation: 'автомобиль', audioUrl: null },
+          { word: 'noche', translation: 'ночь', audioUrl: null },
+          { word: 'hombre', translation: 'человек / мужчина', audioUrl: null },
+          { word: 'mujer', translation: 'женщина', audioUrl: null },
+          { word: 'tarde', translation: 'вечер / день', audioUrl: null },
+          { word: 'amor', translation: 'любовь', audioUrl: null },
+          { word: 'sol', translation: 'солнце', audioUrl: null },
+          { word: 'avión', translation: 'самолет', audioUrl: null },
+          { word: 'lápiz', translation: 'карандаш', audioUrl: null },
+          { word: 'país', translation: 'страна', audioUrl: null },
+          { word: 'flor', translation: 'цветок', audioUrl: null },
+          { word: 'luz', translation: 'свет', audioUrl: null },
+          { word: 'ciudad', translation: 'город', audioUrl: null },
+          { word: 'estación', translation: 'станция', audioUrl: null },
+          { word: 'felicidad', translation: 'счастье', audioUrl: null },
+          { word: 'estudiante', translation: 'студент/студентка', audioUrl: null },
+          { word: 'cliente', translation: 'клиент/клиентка', audioUrl: null },
+          { word: 'economista', translation: 'экономист', audioUrl: null },
+          { word: 'lunes', translation: 'понедельник', audioUrl: null },
+          { word: 'dinero', translation: 'деньги', audioUrl: null },
+          { word: 'vacaciones', translation: 'каникулы', audioUrl: null },
+          { word: 'salud', translation: 'здоровье', audioUrl: null },
+          { word: 'hambre', translation: 'голод', audioUrl: null },
+          { word: 'crisis', translation: 'кризис', audioUrl: null },
+          { word: 'pared', translation: 'стена', audioUrl: null },
+          { word: 'césped', translation: 'газон', audioUrl: null },
+          { word: 'cumpleaños', translation: 'день рождения', audioUrl: null },
+          { word: 'alma', translation: 'душа', audioUrl: null },
+          { word: 'ama', translation: 'хозяйка', audioUrl: null },
+          { word: 'águila', translation: 'орёл', audioUrl: null },
+          { word: 'el', translation: 'артикль м.р. ед.ч.', audioUrl: null },
+          { word: 'la', translation: 'артикль ж.р. ед.ч.', audioUrl: null },
+          { word: 'los', translation: 'артикль м.р. мн.ч.', audioUrl: null },
+          { word: 'las', translation: 'артикль ж.р. мн.ч.', audioUrl: null },
+          { word: 'un', translation: 'неопр. артикль м.р.', audioUrl: null },
+          { word: 'una', translation: 'неопр. артикль ж.р.', audioUrl: null },
+          { word: 'agua', translation: 'вода', audioUrl: null },
+          { word: 'aula', translation: 'аудитория', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ПРИЛАГАТЕЛЬНЫЕ',
+        words: [
+          { word: 'blanco, -a', translation: 'белый, -ая', audioUrl: null },
+          { word: 'negro, -a', translation: 'чёрный, -ая', audioUrl: null },
+          { word: 'bueno, -a', translation: 'хороший, -ая', audioUrl: null },
+          { word: 'malo, -a', translation: 'плохой, -ая', audioUrl: null },
+          { word: 'nuevo, -a', translation: 'новый, -ая', audioUrl: null },
+          { word: 'viejo, -a', translation: 'старый, -ая', audioUrl: null },
+          { word: 'antiguo, -a', translation: 'древний, старинный', audioUrl: null },
+          { word: 'largo, -a', translation: 'длинный, -ая', audioUrl: null },
+          { word: 'corto, -a', translation: 'короткий, -ая', audioUrl: null },
+          { word: 'bonito, -a', translation: 'красивый, -ая', audioUrl: null },
+          { word: 'guapo, -a', translation: 'красивый, -ая', audioUrl: null },
+          { word: 'feo, -a', translation: 'некрасивый, -ая', audioUrl: null },
+          { word: 'grande', translation: 'большой', audioUrl: null },
+          { word: 'pequeño, -a', translation: 'маленький, -ая', audioUrl: null },
+          { word: 'alto, -a', translation: 'высокий, -ая', audioUrl: null },
+          { word: 'bajo, -a', translation: 'низкий, -ая', audioUrl: null },
+          { word: 'gordo, -a', translation: 'толстый, -ая', audioUrl: null },
+          { word: 'delgado, -a', translation: 'стройный, -ая', audioUrl: null },
+          { word: 'joven', translation: 'молодой', audioUrl: null },
+          { word: 'enfermo, -a', translation: 'больной, -ая', audioUrl: null },
+          { word: 'contento, -a', translation: 'довольный, -ая', audioUrl: null },
+          { word: 'feliz', translation: 'счастливый', audioUrl: null },
+          { word: 'alegre', translation: 'весёлый', audioUrl: null },
+          { word: 'triste', translation: 'грустный', audioUrl: null },
+          { word: 'barato, -a', translation: 'дешёвый, -ая', audioUrl: null },
+          { word: 'caro, -a', translation: 'дорогой, -ая', audioUrl: null },
+          { word: 'soltero, -a', translation: 'холостой, незамужняя', audioUrl: null },
+          { word: 'casado, -a', translation: 'женатый, замужняя', audioUrl: null },
+          { word: 'azul', translation: 'синий', audioUrl: null },
+          { word: 'verde', translation: 'зелёный', audioUrl: null },
+          { word: 'rojo, -a', translation: 'красный, -ая', audioUrl: null },
+          { word: 'amarillo, -a', translation: 'жёлтый, -ая', audioUrl: null },
+          { word: 'naranja', translation: 'оранжевый', audioUrl: null },
+          { word: 'rosa', translation: 'розовый', audioUrl: null },
+          { word: 'gris', translation: 'серый', audioUrl: null },
+          { word: 'marrón', translation: 'коричневый', audioUrl: null },
+          { word: 'morado, -a', translation: 'фиолетовый, -ая', audioUrl: null },
+          { word: 'regular', translation: 'обычный', audioUrl: null },
+          { word: 'raro, -a', translation: 'странный, -ая', audioUrl: null },
+          { word: 'caliente', translation: 'горячий', audioUrl: null },
+          { word: 'frío, -a', translation: 'холодный, -ая', audioUrl: null },
+          { word: 'difícil', translation: 'трудный', audioUrl: null },
+          { word: 'fácil', translation: 'лёгкий', audioUrl: null },
+          { word: 'interesante', translation: 'интересный', audioUrl: null },
+          { word: 'rico, -a', translation: 'богатый, -ая', audioUrl: null },
+          { word: 'pobre', translation: 'бедный', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'La familia y la ciudad',
@@ -1130,53 +1140,73 @@ Estar используется для обозначения временных 
       ]
     },
     vocabulary: [
-      { word: 'yo', translation: 'я', audioUrl: null },
-      { word: 'tú', translation: 'ты', audioUrl: null },
-      { word: 'él', translation: 'он', audioUrl: null },
-      { word: 'ella', translation: 'она', audioUrl: null },
-      { word: 'nosotros', translation: 'мы (м.р.)', audioUrl: null },
-      { word: 'nosotras', translation: 'мы (ж.р.)', audioUrl: null },
-      { word: 'vosotros', translation: 'вы (м.р.)', audioUrl: null },
-      { word: 'vosotras', translation: 'вы (ж.р.)', audioUrl: null },
-      { word: 'ellos', translation: 'они (м.р.)', audioUrl: null },
-      { word: 'ellas', translation: 'они (ж.р.)', audioUrl: null },
-      { word: 'usted', translation: 'Вы (вежл., ед.ч.)', audioUrl: null },
-      { word: 'ustedes', translation: 'Вы (вежл., мн.ч.)', audioUrl: null },
-      { word: 'ser', translation: 'быть, являться', audioUrl: null },
-      { word: 'estar', translation: 'быть, находиться', audioUrl: null },
-      { word: 'soy', translation: '(я) есть/являюсь', audioUrl: null },
-      { word: 'eres', translation: '(ты) есть/являешься', audioUrl: null },
-      { word: 'es', translation: '(он/она/Вы) есть/является', audioUrl: null },
-      { word: 'somos', translation: '(мы) есть/являемся', audioUrl: null },
-      { word: 'sois', translation: '(вы) есть/являетесь', audioUrl: null },
-      { word: 'son', translation: '(они/Вы) есть/являются', audioUrl: null },
-      { word: 'estoy', translation: '(я) нахожусь', audioUrl: null },
-      { word: 'estás', translation: '(ты) находишься', audioUrl: null },
-      { word: 'está', translation: '(он/она/Вы) находится', audioUrl: null },
-      { word: 'estamos', translation: '(мы) находимся', audioUrl: null },
-      { word: 'estáis', translation: '(вы) находитесь', audioUrl: null },
-      { word: 'están', translation: '(они/Вы) находятся', audioUrl: null },
-      { word: 'en', translation: 'в', audioUrl: null },
-      { word: 'de', translation: 'из, от', audioUrl: null },
-      { word: 'bien', translation: 'хорошо', audioUrl: null },
-      { word: '¿Cómo te llamas?', translation: 'как тебя зовут?', audioUrl: null },
-      { word: 'Me llamo', translation: 'меня зовут', audioUrl: null },
-      { word: '¿De dónde eres?', translation: 'откуда ты?', audioUrl: null },
-      { word: '¿Cómo estás?', translation: 'как (ты) себя чувствуешь?', audioUrl: null },
-      { word: '¿Cómo es?', translation: 'какой он/она?', audioUrl: null },
-      { word: 'Mucho gusto', translation: 'очень приятно', audioUrl: null },
-      { word: 'Encantado, -a', translation: 'рад(а) познакомиться', audioUrl: null },
-      { word: '¿Dónde?', translation: 'где?', audioUrl: null },
-      { word: 'ahora', translation: 'сейчас', audioUrl: null },
-      { word: '¿Cómo se llama usted?', translation: 'как Вас зовут?', audioUrl: null },
-      { word: 'señor', translation: 'господин', audioUrl: null },
-      { word: 'señora', translation: 'госпожа', audioUrl: null },
-      { word: 'señorita', translation: 'сеньорита', audioUrl: null },
-      { word: 'don', translation: 'дон (почтительное обращение)', audioUrl: null },
-      { word: 'doña', translation: 'донья (почтительное обращение)', audioUrl: null },
-      { word: 'mi', translation: 'мой, моя, моё', audioUrl: null },
-      { word: 'tu', translation: 'твой, твоя, твоё', audioUrl: null },
-      { word: 'su', translation: 'его, её, Ваш', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'señor', translation: 'господин', audioUrl: null },
+          { word: 'señora', translation: 'госпожа', audioUrl: null },
+          { word: 'señorita', translation: 'сеньорита', audioUrl: null },
+          { word: 'don', translation: 'дон (почтительное обращение)', audioUrl: null },
+          { word: 'doña', translation: 'донья (почтительное обращение)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'МЕСТОИМЕНИЯ',
+        words: [
+          { word: 'yo', translation: 'я', audioUrl: null },
+          { word: 'tú', translation: 'ты', audioUrl: null },
+          { word: 'él', translation: 'он', audioUrl: null },
+          { word: 'ella', translation: 'она', audioUrl: null },
+          { word: 'nosotros', translation: 'мы (м.р.)', audioUrl: null },
+          { word: 'nosotras', translation: 'мы (ж.р.)', audioUrl: null },
+          { word: 'vosotros', translation: 'вы (м.р.)', audioUrl: null },
+          { word: 'vosotras', translation: 'вы (ж.р.)', audioUrl: null },
+          { word: 'ellos', translation: 'они (м.р.)', audioUrl: null },
+          { word: 'ellas', translation: 'они (ж.р.)', audioUrl: null },
+          { word: 'usted', translation: 'Вы (вежл., ед.ч.)', audioUrl: null },
+          { word: 'ustedes', translation: 'Вы (вежл., мн.ч.)', audioUrl: null },
+          { word: 'mi', translation: 'мой, моя, моё', audioUrl: null },
+          { word: 'tu', translation: 'твой, твоя, твоё', audioUrl: null },
+          { word: 'su', translation: 'его, её, Ваш', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'ser', translation: 'быть, являться', audioUrl: null },
+          { word: 'estar', translation: 'быть, находиться', audioUrl: null },
+          { word: 'soy', translation: '(я) есть/являюсь', audioUrl: null },
+          { word: 'eres', translation: '(ты) есть/являешься', audioUrl: null },
+          { word: 'es', translation: '(он/она/Вы) есть/является', audioUrl: null },
+          { word: 'somos', translation: '(мы) есть/являемся', audioUrl: null },
+          { word: 'sois', translation: '(вы) есть/являетесь', audioUrl: null },
+          { word: 'son', translation: '(они/Вы) есть/являются', audioUrl: null },
+          { word: 'estoy', translation: '(я) нахожусь', audioUrl: null },
+          { word: 'estás', translation: '(ты) находишься', audioUrl: null },
+          { word: 'está', translation: '(он/она/Вы) находится', audioUrl: null },
+          { word: 'estamos', translation: '(мы) находимся', audioUrl: null },
+          { word: 'estáis', translation: '(вы) находитесь', audioUrl: null },
+          { word: 'están', translation: '(они/Вы) находятся', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ',
+        words: [
+          { word: 'en', translation: 'в', audioUrl: null },
+          { word: 'de', translation: 'из, от', audioUrl: null },
+          { word: 'bien', translation: 'хорошо', audioUrl: null },
+          { word: '¿Cómo te llamas?', translation: 'как тебя зовут?', audioUrl: null },
+          { word: 'Me llamo', translation: 'меня зовут', audioUrl: null },
+          { word: '¿De dónde eres?', translation: 'откуда ты?', audioUrl: null },
+          { word: '¿Cómo estás?', translation: 'как (ты) себя чувствуешь?', audioUrl: null },
+          { word: '¿Cómo es?', translation: 'какой он/она?', audioUrl: null },
+          { word: 'Mucho gusto', translation: 'очень приятно', audioUrl: null },
+          { word: 'Encantado, -a', translation: 'рад(а) познакомиться', audioUrl: null },
+          { word: '¿Dónde?', translation: 'где?', audioUrl: null },
+          { word: 'ahora', translation: 'сейчас', audioUrl: null },
+          { word: '¿Cómo se llama usted?', translation: 'как Вас зовут?', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Palabras y frases',
@@ -1306,79 +1336,99 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
       ]
     },
     vocabulary: [
-      { word: 'abogado, -a', translation: 'адвокат', audioUrl: null },
-      { word: 'actor', translation: 'актер', audioUrl: null },
-      { word: 'actriz', translation: 'актриса', audioUrl: null },
-      { word: 'banquero', translation: 'банкир', audioUrl: null },
-      { word: 'médico, -a', translation: 'врач', audioUrl: null },
-      { word: 'guía', translation: 'гид', audioUrl: null },
-      { word: 'periodista', translation: 'журналист', audioUrl: null },
-      { word: 'ingeniero, -a', translation: 'инженер', audioUrl: null },
-      { word: 'enfermera', translation: 'медсестра', audioUrl: null },
-      { word: 'músico', translation: 'музыкант', audioUrl: null },
-      { word: 'camarero, -a', translation: 'официант', audioUrl: null },
-      { word: 'escritor, -a', translation: 'писатель', audioUrl: null },
-      { word: 'cocinero, -a', translation: 'повар', audioUrl: null },
-      { word: 'poeta', translation: 'поэт', audioUrl: null },
-      { word: 'profesor, -a', translation: 'преподаватель', audioUrl: null },
-      { word: 'dependiente, -a', translation: 'продавец', audioUrl: null },
-      { word: 'constructor', translation: 'строитель', audioUrl: null },
-      { word: 'pintor, -a', translation: 'художник', audioUrl: null },
-      { word: 'economista', translation: 'экономист', audioUrl: null },
-      { word: 'jurista', translation: 'юрист', audioUrl: null },
-      { word: 'España', translation: 'Испания', audioUrl: null },
-      { word: 'Rusia', translation: 'Россия', audioUrl: null },
-      { word: 'Francia', translation: 'Франция', audioUrl: null },
-      { word: 'Bélgica', translation: 'Бельгия', audioUrl: null },
-      { word: 'Holanda', translation: 'Голландия', audioUrl: null },
-      { word: 'Italia', translation: 'Италия', audioUrl: null },
-      { word: 'Grecia', translation: 'Греция', audioUrl: null },
-      { word: 'Portugal', translation: 'Португалия', audioUrl: null },
-      { word: 'Alemania', translation: 'Германия', audioUrl: null },
-      { word: 'Dinamarca', translation: 'Дания', audioUrl: null },
-      { word: 'China', translation: 'Китай', audioUrl: null },
-      { word: 'Japón', translation: 'Япония', audioUrl: null },
-      { word: 'Turquía', translation: 'Турция', audioUrl: null },
-      { word: 'Inglaterra', translation: 'Англия', audioUrl: null },
-      { word: 'Estados Unidos', translation: 'США', audioUrl: null },
-      { word: 'Marruecos', translation: 'Марокко', audioUrl: null },
-      { word: 'Madrid', translation: 'Мадрид', audioUrl: null },
-      { word: 'Moscú', translation: 'Москва', audioUrl: null },
-      { word: 'París', translation: 'Париж', audioUrl: null },
-      { word: 'Berlín', translation: 'Берлин', audioUrl: null },
-      { word: 'Roma', translation: 'Рим', audioUrl: null },
-      { word: 'Londres', translation: 'Лондон', audioUrl: null },
-      { word: 'Bruselas', translation: 'Брюссель', audioUrl: null },
-      { word: 'Ámsterdam', translation: 'Амстердам', audioUrl: null },
-      { word: 'Atenas', translation: 'Афины', audioUrl: null },
-      { word: 'Lisboa', translation: 'Лиссабон', audioUrl: null },
-      { word: 'Copenhague', translation: 'Копенгаген', audioUrl: null },
-      { word: 'Pekín', translation: 'Пекин', audioUrl: null },
-      { word: 'Tokio', translation: 'Токио', audioUrl: null },
-      { word: 'Estambul', translation: 'Стамбул', audioUrl: null },
-      { word: 'Washington', translation: 'Вашингтон', audioUrl: null },
-      { word: 'Rabat', translation: 'Рабат', audioUrl: null },
-      { word: 'español, -a', translation: 'испанец, испанка', audioUrl: null },
-      { word: 'ruso, -a', translation: 'русский, русская', audioUrl: null },
-      { word: 'francés, -esa', translation: 'француз, француженка', audioUrl: null },
-      { word: 'alemán, -ana', translation: 'немец, немка', audioUrl: null },
-      { word: 'italiano, -a', translation: 'итальянец, итальянка', audioUrl: null },
-      { word: 'inglés, -esa', translation: 'англичанин, англичанка', audioUrl: null },
-      { word: 'belga', translation: 'бельгиец, бельгийка', audioUrl: null },
-      { word: 'holandés, -esa', translation: 'голландец, голландка', audioUrl: null },
-      { word: 'griego, -a', translation: 'грек, гречанка', audioUrl: null },
-      { word: 'portugués, -esa', translation: 'португалец, португалка', audioUrl: null },
-      { word: 'danés, -esa', translation: 'датчанин, датчанка', audioUrl: null },
-      { word: 'chino, -a', translation: 'китаец, китаянка', audioUrl: null },
-      { word: 'japonés, -esa', translation: 'японец, японка', audioUrl: null },
-      { word: 'turco, -a', translation: 'турок, турчанка', audioUrl: null },
-      { word: 'norteamericano, -a', translation: 'американец, американка', audioUrl: null },
-      { word: 'marroquí', translation: 'марокканец, марокканка', audioUrl: null },
-      { word: 'alto, -a', translation: 'высокий, высокая', audioUrl: null },
-      { word: 'bajo, -a', translation: 'низкий, низкая', audioUrl: null },
-      { word: 'guapo, -a', translation: 'красивый, красивая', audioUrl: null },
-      { word: 'soltera, -o', translation: 'холостой, незамужняя', audioUrl: null },
-      { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null }
+      {
+        tab: 'ПРОФЕССИИ',
+        words: [
+          { word: 'abogado, -a', translation: 'адвокат', audioUrl: null },
+          { word: 'actor', translation: 'актер', audioUrl: null },
+          { word: 'actriz', translation: 'актриса', audioUrl: null },
+          { word: 'banquero', translation: 'банкир', audioUrl: null },
+          { word: 'médico, -a', translation: 'врач', audioUrl: null },
+          { word: 'guía', translation: 'гид', audioUrl: null },
+          { word: 'periodista', translation: 'журналист', audioUrl: null },
+          { word: 'ingeniero, -a', translation: 'инженер', audioUrl: null },
+          { word: 'enfermera', translation: 'медсестра', audioUrl: null },
+          { word: 'músico', translation: 'музыкант', audioUrl: null },
+          { word: 'camarero, -a', translation: 'официант', audioUrl: null },
+          { word: 'escritor, -a', translation: 'писатель', audioUrl: null },
+          { word: 'cocinero, -a', translation: 'повар', audioUrl: null },
+          { word: 'poeta', translation: 'поэт', audioUrl: null },
+          { word: 'profesor, -a', translation: 'преподаватель', audioUrl: null },
+          { word: 'dependiente, -a', translation: 'продавец', audioUrl: null },
+          { word: 'constructor', translation: 'строитель', audioUrl: null },
+          { word: 'pintor, -a', translation: 'художник', audioUrl: null },
+          { word: 'economista', translation: 'экономист', audioUrl: null },
+          { word: 'jurista', translation: 'юрист', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СТРАНЫ',
+        words: [
+          { word: 'España', translation: 'Испания', audioUrl: null },
+          { word: 'Rusia', translation: 'Россия', audioUrl: null },
+          { word: 'Francia', translation: 'Франция', audioUrl: null },
+          { word: 'Bélgica', translation: 'Бельгия', audioUrl: null },
+          { word: 'Holanda', translation: 'Голландия', audioUrl: null },
+          { word: 'Italia', translation: 'Италия', audioUrl: null },
+          { word: 'Grecia', translation: 'Греция', audioUrl: null },
+          { word: 'Portugal', translation: 'Португалия', audioUrl: null },
+          { word: 'Alemania', translation: 'Германия', audioUrl: null },
+          { word: 'Dinamarca', translation: 'Дания', audioUrl: null },
+          { word: 'China', translation: 'Китай', audioUrl: null },
+          { word: 'Japón', translation: 'Япония', audioUrl: null },
+          { word: 'Turquía', translation: 'Турция', audioUrl: null },
+          { word: 'Inglaterra', translation: 'Англия', audioUrl: null },
+          { word: 'Estados Unidos', translation: 'США', audioUrl: null },
+          { word: 'Marruecos', translation: 'Марокко', audioUrl: null },
+          { word: 'Madrid', translation: 'Мадрид', audioUrl: null },
+          { word: 'Moscú', translation: 'Москва', audioUrl: null },
+          { word: 'París', translation: 'Париж', audioUrl: null },
+          { word: 'Berlín', translation: 'Берлин', audioUrl: null },
+          { word: 'Roma', translation: 'Рим', audioUrl: null },
+          { word: 'Londres', translation: 'Лондон', audioUrl: null },
+          { word: 'Bruselas', translation: 'Брюссель', audioUrl: null },
+          { word: 'Ámsterdam', translation: 'Амстердам', audioUrl: null },
+          { word: 'Atenas', translation: 'Афины', audioUrl: null },
+          { word: 'Lisboa', translation: 'Лиссабон', audioUrl: null },
+          { word: 'Copenhague', translation: 'Копенгаген', audioUrl: null },
+          { word: 'Pekín', translation: 'Пекин', audioUrl: null },
+          { word: 'Tokio', translation: 'Токио', audioUrl: null },
+          { word: 'Estambul', translation: 'Стамбул', audioUrl: null },
+          { word: 'Washington', translation: 'Вашингтон', audioUrl: null },
+          { word: 'Rabat', translation: 'Рабат', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'НАЦИОНАЛЬНОСТИ',
+        words: [
+          { word: 'español, -a', translation: 'испанец, испанка', audioUrl: null },
+          { word: 'ruso, -a', translation: 'русский, русская', audioUrl: null },
+          { word: 'francés, -esa', translation: 'француз, француженка', audioUrl: null },
+          { word: 'alemán, -ana', translation: 'немец, немка', audioUrl: null },
+          { word: 'italiano, -a', translation: 'итальянец, итальянка', audioUrl: null },
+          { word: 'inglés, -esa', translation: 'англичанин, англичанка', audioUrl: null },
+          { word: 'belga', translation: 'бельгиец, бельгийка', audioUrl: null },
+          { word: 'holandés, -esa', translation: 'голландец, голландка', audioUrl: null },
+          { word: 'griego, -a', translation: 'грек, гречанка', audioUrl: null },
+          { word: 'portugués, -esa', translation: 'португалец, португалка', audioUrl: null },
+          { word: 'danés, -esa', translation: 'датчанин, датчанка', audioUrl: null },
+          { word: 'chino, -a', translation: 'китаец, китаянка', audioUrl: null },
+          { word: 'japonés, -esa', translation: 'японец, японка', audioUrl: null },
+          { word: 'turco, -a', translation: 'турок, турчанка', audioUrl: null },
+          { word: 'norteamericano, -a', translation: 'американец, американка', audioUrl: null },
+          { word: 'marroquí', translation: 'марокканец, марокканка', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ПРИЛАГАТЕЛЬНЫЕ',
+        words: [
+          { word: 'alto, -a', translation: 'высокий, высокая', audioUrl: null },
+          { word: 'bajo, -a', translation: 'низкий, низкая', audioUrl: null },
+          { word: 'guapo, -a', translation: 'красивый, красивая', audioUrl: null },
+          { word: 'soltera, -o', translation: 'холостой, незамужняя', audioUrl: null },
+          { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Mi familia',
@@ -1696,124 +1746,149 @@ La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol 
       ]
     },
     vocabulary: [
-      { word: 'a', translation: 'в, на (направление)', audioUrl: null },
-      { word: 'de', translation: 'из, от, о', audioUrl: null },
-      { word: 'en', translation: 'в, на (местонахождение)', audioUrl: null },
-      { word: 'con', translation: 'с, вместе с', audioUrl: null },
-      { word: 'por', translation: 'по, через', audioUrl: null },
-      { word: 'para', translation: 'для', audioUrl: null },
-      { word: 'sin', translation: 'без', audioUrl: null },
-      { word: 'al', translation: 'в (a + el)', audioUrl: null },
-      { word: 'del', translation: 'из (de + el)', audioUrl: null },
-      { word: 'cero', translation: 'ноль', audioUrl: null },
-      { word: 'uno', translation: 'один', audioUrl: null },
-      { word: 'dos', translation: 'два', audioUrl: null },
-      { word: 'tres', translation: 'три', audioUrl: null },
-      { word: 'cuatro', translation: 'четыре', audioUrl: null },
-      { word: 'cinco', translation: 'пять', audioUrl: null },
-      { word: 'seis', translation: 'шесть', audioUrl: null },
-      { word: 'siete', translation: 'семь', audioUrl: null },
-      { word: 'ocho', translation: 'восемь', audioUrl: null },
-      { word: 'nueve', translation: 'девять', audioUrl: null },
-      { word: 'diez', translation: 'десять', audioUrl: null },
-      { word: 'once', translation: 'одиннадцать', audioUrl: null },
-      { word: 'doce', translation: 'двенадцать', audioUrl: null },
-      { word: 'trece', translation: 'тринадцать', audioUrl: null },
-      { word: 'catorce', translation: 'четырнадцать', audioUrl: null },
-      { word: 'quince', translation: 'пятнадцать', audioUrl: null },
-      { word: 'dieciséis', translation: 'шестнадцать', audioUrl: null },
-      { word: 'diecisiete', translation: 'семнадцать', audioUrl: null },
-      { word: 'dieciocho', translation: 'восемнадцать', audioUrl: null },
-      { word: 'diecinueve', translation: 'девятнадцать', audioUrl: null },
-      { word: 'veinte', translation: 'двадцать', audioUrl: null },
-      { word: 'veintiuno', translation: 'двадцать один', audioUrl: null },
-      { word: 'treinta', translation: 'тридцать', audioUrl: null },
-      { word: 'cuarenta', translation: 'сорок', audioUrl: null },
-      { word: 'cincuenta', translation: 'пятьдесят', audioUrl: null },
-      { word: 'sesenta', translation: 'шестьдесят', audioUrl: null },
-      { word: 'setenta', translation: 'семьдесят', audioUrl: null },
-      { word: 'ochenta', translation: 'восемьдесят', audioUrl: null },
-      { word: 'noventa', translation: 'девяносто', audioUrl: null },
-      { word: 'cien', translation: 'сто', audioUrl: null },
-      { word: 'ciento', translation: 'сто (перед другими числами)', audioUrl: null },
-      { word: 'hablar', translation: 'говорить, разговаривать', audioUrl: null },
-      { word: 'llamar', translation: 'звать, звонить', audioUrl: null },
-      { word: 'preguntar', translation: 'спрашивать', audioUrl: null },
-      { word: 'escuchar', translation: 'слушать', audioUrl: null },
-      { word: 'tomar', translation: 'брать, есть, пить', audioUrl: null },
-      { word: 'leer', translation: 'читать', audioUrl: null },
-      { word: 'aprender', translation: 'учить', audioUrl: null },
-      { word: 'comprender', translation: 'понимать', audioUrl: null },
-      { word: 'comer', translation: 'есть, кушать', audioUrl: null },
-      { word: 'beber', translation: 'пить', audioUrl: null },
-      { word: 'abrir', translation: 'открывать', audioUrl: null },
-      { word: 'escribir', translation: 'писать', audioUrl: null },
-      { word: 'vivir', translation: 'жить', audioUrl: null },
-      { word: 'recibir', translation: 'получать', audioUrl: null },
-      { word: 'agua', translation: 'вода (f)', audioUrl: null },
-      { word: 'bocadillo', translation: 'бутерброд (m)', audioUrl: null },
-      { word: 'metro', translation: 'метро (m)', audioUrl: null },
-      { word: 'tranvía', translation: 'трамвай (m)', audioUrl: null },
-      { word: 'tren', translation: 'поезд (m)', audioUrl: null },
-      { word: 'taxi', translation: 'такси (m)', audioUrl: null },
-      { word: 'medicinas', translation: 'лекарства (f pl)', audioUrl: null },
-      { word: 'sol', translation: 'солнце (m)', audioUrl: null },
-      { word: 'libro', translation: 'книга (m)', audioUrl: null },
-      { word: 'escuela', translation: 'школа (f)', audioUrl: null },
-      { word: 'restaurante', translation: 'ресторан (m)', audioUrl: null },
-      { word: 'fiesta', translation: 'вечеринка (f)', audioUrl: null },
-      { word: 'amigo', translation: 'друг (m)', audioUrl: null },
-      { word: 'amiga', translation: 'подруга (f)', audioUrl: null },
-      { word: 'regalo', translation: 'подарок (m)', audioUrl: null },
-      { word: 'profesor', translation: 'учитель, преподаватель (m)', audioUrl: null },
-      { word: 'profesora', translation: 'учительница, преподавательница (f)', audioUrl: null },
-      { word: 'playa', translation: 'пляж (m)', audioUrl: null },
-      { word: 'museo', translation: 'музей (m)', audioUrl: null },
-      { word: 'hermano', translation: 'брат (m)', audioUrl: null },
-      { word: 'hermana', translation: 'сестра (f)', audioUrl: null },
-      { word: 'pintor', translation: 'художник (m)', audioUrl: null },
-      { word: 'estudiante', translation: 'студент, студентка (m/f)', audioUrl: null },
-      { word: 'hotel', translation: 'отель (m)', audioUrl: null },
-      { word: 'lápiz', translation: 'карандаш (m)', audioUrl: null },
-      { word: 'mesa', translation: 'стол (f)', audioUrl: null },
-      { word: 'coche', translation: 'машина (m)', audioUrl: null },
-      { word: 'cine', translation: 'кино (m)', audioUrl: null },
-      { word: 'voz baja', translation: 'тихо, шепотом', audioUrl: null },
-      { word: 'precio', translation: 'цена (m)', audioUrl: null },
-      { word: 'radio', translation: 'радио (f)', audioUrl: null },
-      { word: 'señora', translation: 'сеньора, госпожа (f)', audioUrl: null },
-      { word: 'señor', translation: 'сеньор, господин (m)', audioUrl: null },
-      { word: 'en serio', translation: 'всерьез', audioUrl: null },
-      { word: 'puerta', translation: 'дверь (f)', audioUrl: null },
-      { word: 'cliente', translation: 'клиент (m/f)', audioUrl: null },
-      { word: 'artículo', translation: 'статья (m)', audioUrl: null },
-      { word: 'país', translation: 'страна (m)', audioUrl: null },
-      { word: 'pan', translation: 'хлеб (m)', audioUrl: null },
-      { word: 'casa', translation: 'дом (f)', audioUrl: null },
-      { word: 'noche', translation: 'ночь (f)', audioUrl: null },
-      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
-      { word: 'venir', translation: 'приходить', audioUrl: null },
-      { word: 'salir', translation: 'выходить', audioUrl: null },
-      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
-      { word: 'dar', translation: 'давать', audioUrl: null },
-      { word: 'ver', translation: 'видеть', audioUrl: null },
-      { word: 'estar', translation: 'находиться, быть (временное состояние)', audioUrl: null },
-      { word: 'problema', translation: 'проблема (m)', audioUrl: null },
-      { word: 'teléfono', translation: 'телефон (m)', audioUrl: null },
-      { word: 'tiempo', translation: 'время (m), погода', audioUrl: null },
-      { word: 'palabra', translation: 'слово (f)', audioUrl: null },
-      { word: 'mensaje', translation: 'сообщение (m)', audioUrl: null },
-      { word: 'carta', translation: 'письмо (f)', audioUrl: null },
-      { word: 'periódico', translation: 'газета (m)', audioUrl: null },
-      { word: 'zumo', translation: 'сок (m)', audioUrl: null },
-      { word: 'naranja', translation: 'апельсин (f)', audioUrl: null },
-      { word: 'fruta', translation: 'фрукт (f)', audioUrl: null },
-      { word: 'café', translation: 'кофе (m)', audioUrl: null },
-      { word: 'vender', translation: 'продавать', audioUrl: null },
-      { word: 'responder', translation: 'отвечать', audioUrl: null },
-      { word: 'correr', translation: 'бегать', audioUrl: null },
-      { word: 'subir', translation: 'подниматься', audioUrl: null },
-      { word: 'partir', translation: 'уезжать', audioUrl: null }
+      {
+        tab: 'ПРЕДЛОГИ',
+        words: [
+          { word: 'a', translation: 'в, на (направление)', audioUrl: null },
+          { word: 'de', translation: 'из, от, о', audioUrl: null },
+          { word: 'en', translation: 'в, на (местонахождение)', audioUrl: null },
+          { word: 'con', translation: 'с, вместе с', audioUrl: null },
+          { word: 'por', translation: 'по, через', audioUrl: null },
+          { word: 'para', translation: 'для', audioUrl: null },
+          { word: 'sin', translation: 'без', audioUrl: null },
+          { word: 'al', translation: 'в (a + el)', audioUrl: null },
+          { word: 'del', translation: 'из (de + el)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ЧИСЛИТЕЛЬНЫЕ',
+        words: [
+          { word: 'cero', translation: 'ноль', audioUrl: null },
+          { word: 'uno', translation: 'один', audioUrl: null },
+          { word: 'dos', translation: 'два', audioUrl: null },
+          { word: 'tres', translation: 'три', audioUrl: null },
+          { word: 'cuatro', translation: 'четыре', audioUrl: null },
+          { word: 'cinco', translation: 'пять', audioUrl: null },
+          { word: 'seis', translation: 'шесть', audioUrl: null },
+          { word: 'siete', translation: 'семь', audioUrl: null },
+          { word: 'ocho', translation: 'восемь', audioUrl: null },
+          { word: 'nueve', translation: 'девять', audioUrl: null },
+          { word: 'diez', translation: 'десять', audioUrl: null },
+          { word: 'once', translation: 'одиннадцать', audioUrl: null },
+          { word: 'doce', translation: 'двенадцать', audioUrl: null },
+          { word: 'trece', translation: 'тринадцать', audioUrl: null },
+          { word: 'catorce', translation: 'четырнадцать', audioUrl: null },
+          { word: 'quince', translation: 'пятнадцать', audioUrl: null },
+          { word: 'dieciséis', translation: 'шестнадцать', audioUrl: null },
+          { word: 'diecisiete', translation: 'семнадцать', audioUrl: null },
+          { word: 'dieciocho', translation: 'восемнадцать', audioUrl: null },
+          { word: 'diecinueve', translation: 'девятнадцать', audioUrl: null },
+          { word: 'veinte', translation: 'двадцать', audioUrl: null },
+          { word: 'veintiuno', translation: 'двадцать один', audioUrl: null },
+          { word: 'treinta', translation: 'тридцать', audioUrl: null },
+          { word: 'cuarenta', translation: 'сорок', audioUrl: null },
+          { word: 'cincuenta', translation: 'пятьдесят', audioUrl: null },
+          { word: 'sesenta', translation: 'шестьдесят', audioUrl: null },
+          { word: 'setenta', translation: 'семьдесят', audioUrl: null },
+          { word: 'ochenta', translation: 'восемьдесят', audioUrl: null },
+          { word: 'noventa', translation: 'девяносто', audioUrl: null },
+          { word: 'cien', translation: 'сто', audioUrl: null },
+          { word: 'ciento', translation: 'сто (перед другими числами)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'hablar', translation: 'говорить, разговаривать', audioUrl: null },
+          { word: 'llamar', translation: 'звать, звонить', audioUrl: null },
+          { word: 'preguntar', translation: 'спрашивать', audioUrl: null },
+          { word: 'escuchar', translation: 'слушать', audioUrl: null },
+          { word: 'tomar', translation: 'брать, есть, пить', audioUrl: null },
+          { word: 'leer', translation: 'читать', audioUrl: null },
+          { word: 'aprender', translation: 'учить', audioUrl: null },
+          { word: 'comprender', translation: 'понимать', audioUrl: null },
+          { word: 'comer', translation: 'есть, кушать', audioUrl: null },
+          { word: 'beber', translation: 'пить', audioUrl: null },
+          { word: 'abrir', translation: 'открывать', audioUrl: null },
+          { word: 'escribir', translation: 'писать', audioUrl: null },
+          { word: 'vivir', translation: 'жить', audioUrl: null },
+          { word: 'recibir', translation: 'получать', audioUrl: null },
+          { word: 'ir', translation: 'идти, ехать', audioUrl: null },
+          { word: 'venir', translation: 'приходить', audioUrl: null },
+          { word: 'salir', translation: 'выходить', audioUrl: null },
+          { word: 'viajar', translation: 'путешествовать', audioUrl: null },
+          { word: 'dar', translation: 'давать', audioUrl: null },
+          { word: 'ver', translation: 'видеть', audioUrl: null },
+          { word: 'estar', translation: 'находиться, быть (временное состояние)', audioUrl: null },
+          { word: 'vender', translation: 'продавать', audioUrl: null },
+          { word: 'responder', translation: 'отвечать', audioUrl: null },
+          { word: 'correr', translation: 'бегать', audioUrl: null },
+          { word: 'subir', translation: 'подниматься', audioUrl: null },
+          { word: 'partir', translation: 'уезжать', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'agua', translation: 'вода (f)', audioUrl: null },
+          { word: 'bocadillo', translation: 'бутерброд (m)', audioUrl: null },
+          { word: 'metro', translation: 'метро (m)', audioUrl: null },
+          { word: 'tranvía', translation: 'трамвай (m)', audioUrl: null },
+          { word: 'tren', translation: 'поезд (m)', audioUrl: null },
+          { word: 'taxi', translation: 'такси (m)', audioUrl: null },
+          { word: 'medicinas', translation: 'лекарства (f pl)', audioUrl: null },
+          { word: 'sol', translation: 'солнце (m)', audioUrl: null },
+          { word: 'libro', translation: 'книга (m)', audioUrl: null },
+          { word: 'escuela', translation: 'школа (f)', audioUrl: null },
+          { word: 'restaurante', translation: 'ресторан (m)', audioUrl: null },
+          { word: 'fiesta', translation: 'вечеринка (f)', audioUrl: null },
+          { word: 'amigo', translation: 'друг (m)', audioUrl: null },
+          { word: 'amiga', translation: 'подруга (f)', audioUrl: null },
+          { word: 'regalo', translation: 'подарок (m)', audioUrl: null },
+          { word: 'profesor', translation: 'учитель, преподаватель (m)', audioUrl: null },
+          { word: 'profesora', translation: 'учительница, преподавательница (f)', audioUrl: null },
+          { word: 'playa', translation: 'пляж (m)', audioUrl: null },
+          { word: 'museo', translation: 'музей (m)', audioUrl: null },
+          { word: 'hermano', translation: 'брат (m)', audioUrl: null },
+          { word: 'hermana', translation: 'сестра (f)', audioUrl: null },
+          { word: 'pintor', translation: 'художник (m)', audioUrl: null },
+          { word: 'estudiante', translation: 'студент, студентка (m/f)', audioUrl: null },
+          { word: 'hotel', translation: 'отель (m)', audioUrl: null },
+          { word: 'lápiz', translation: 'карандаш (m)', audioUrl: null },
+          { word: 'mesa', translation: 'стол (f)', audioUrl: null },
+          { word: 'coche', translation: 'машина (m)', audioUrl: null },
+          { word: 'cine', translation: 'кино (m)', audioUrl: null },
+          { word: 'precio', translation: 'цена (m)', audioUrl: null },
+          { word: 'radio', translation: 'радио (f)', audioUrl: null },
+          { word: 'señora', translation: 'сеньора, госпожа (f)', audioUrl: null },
+          { word: 'señor', translation: 'сеньор, господин (m)', audioUrl: null },
+          { word: 'puerta', translation: 'дверь (f)', audioUrl: null },
+          { word: 'cliente', translation: 'клиент (m/f)', audioUrl: null },
+          { word: 'artículo', translation: 'статья (m)', audioUrl: null },
+          { word: 'país', translation: 'страна (m)', audioUrl: null },
+          { word: 'pan', translation: 'хлеб (m)', audioUrl: null },
+          { word: 'casa', translation: 'дом (f)', audioUrl: null },
+          { word: 'noche', translation: 'ночь (f)', audioUrl: null },
+          { word: 'problema', translation: 'проблема (m)', audioUrl: null },
+          { word: 'teléfono', translation: 'телефон (m)', audioUrl: null },
+          { word: 'tiempo', translation: 'время (m), погода', audioUrl: null },
+          { word: 'palabra', translation: 'слово (f)', audioUrl: null },
+          { word: 'mensaje', translation: 'сообщение (m)', audioUrl: null },
+          { word: 'carta', translation: 'письмо (f)', audioUrl: null },
+          { word: 'periódico', translation: 'газета (m)', audioUrl: null },
+          { word: 'zumo', translation: 'сок (m)', audioUrl: null },
+          { word: 'naranja', translation: 'апельсин (f)', audioUrl: null },
+          { word: 'fruta', translation: 'фрукт (f)', audioUrl: null },
+          { word: 'café', translation: 'кофе (m)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ',
+        words: [
+          { word: 'voz baja', translation: 'тихо, шепотом', audioUrl: null },
+          { word: 'en serio', translation: 'всерьез', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Diálogos en la ciudad',
@@ -2065,71 +2140,86 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
       ]
     },
     vocabulary: [
-      { word: 'ir', translation: 'идти, ехать', audioUrl: null },
-      { word: 'hacer', translation: 'делать', audioUrl: null },
-      { word: 'estar', translation: 'быть, находиться', audioUrl: null },
-      { word: 'venir', translation: 'приходить', audioUrl: null },
-      { word: 'tener', translation: 'иметь', audioUrl: null },
-      { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
-      { word: 'tener familia', translation: 'иметь семью', audioUrl: null },
-      { word: 'tener padre / madre', translation: 'иметь отца / мать', audioUrl: null },
-      { word: 'tener dinero', translation: 'иметь деньги', audioUrl: null },
-      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
-      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
-      { word: 'tener hambre', translation: 'быть голодным / хотеть есть', audioUrl: null },
-      { word: 'tener sed', translation: 'испытывать жажду / хотеть пить', audioUrl: null },
-      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
-      { word: 'tener miedo', translation: 'бояться (испытывать страх)', audioUrl: null },
-      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
-      { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
-      { word: 'tener prisa', translation: 'торопиться, спешить', audioUrl: null },
-      { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
-      { word: 'tener que + инфинитив', translation: 'быть должным сделать что-либо', audioUrl: null },
-      { word: 'poder', translation: 'мочь', audioUrl: null },
-      { word: 'querer', translation: 'хотеть', audioUrl: null },
-      { word: 'saber', translation: 'знать', audioUrl: null },
-      { word: 'oír', translation: 'слышать', audioUrl: null },
-      { word: 'bar', translation: 'бар', audioUrl: null },
-      { word: 'teatro', translation: 'театр', audioUrl: null },
-      { word: 'café', translation: 'кафе', audioUrl: null },
-      { word: 'casa', translation: 'дом', audioUrl: null },
-      { word: 'coche', translation: 'машина', audioUrl: null },
-      { word: 'taxi', translation: 'такси', audioUrl: null },
-      { word: 'autobús', translation: 'автобус', audioUrl: null },
-      { word: 'tren', translation: 'поезд', audioUrl: null },
-      { word: 'avión', translation: 'самолет', audioUrl: null },
-      { word: 'barco', translation: 'корабль', audioUrl: null },
-      { word: 'a pie', translation: 'пешком', audioUrl: null },
-      { word: 'compras', translation: 'покупки', audioUrl: null },
-      { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
-      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-      { word: 'té', translation: 'чай', audioUrl: null },
-      { word: 'familia', translation: 'семья (f)', audioUrl: null },
-      { word: 'padre', translation: 'отец (m)', audioUrl: null },
-      { word: 'madre', translation: 'мать (f)', audioUrl: null },
-      { word: 'dinero', translation: 'деньги (m)', audioUrl: null },
-      { word: 'calor', translation: 'жара (m)', audioUrl: null },
-      { word: 'frío', translation: 'холод (m)', audioUrl: null },
-      { word: 'hambre', translation: 'голод (f)', audioUrl: null },
-      { word: 'sed', translation: 'жажда (f)', audioUrl: null },
-      { word: 'sueño', translation: 'сон (m)', audioUrl: null },
-      { word: 'miedo', translation: 'страх (m)', audioUrl: null },
-      { word: 'razón', translation: 'правота (f)', audioUrl: null },
-      { word: 'suerte', translation: 'удача (f)', audioUrl: null },
-      { word: 'prisa', translation: 'спешка (f)', audioUrl: null },
-      { word: 'tiempo', translation: 'время (m)', audioUrl: null },
-      { word: 'medicina', translation: 'лекарство (f)', audioUrl: null },
-      { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
-      { word: 'tener hambre', translation: 'быть голодным', audioUrl: null },
-      { word: 'tener sed', translation: 'хотеть пить', audioUrl: null },
-      { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
-      { word: 'tener miedo', translation: 'бояться', audioUrl: null },
-      { word: 'tener razón', translation: 'быть правым', audioUrl: null },
-      { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
-      { word: 'tener prisa', translation: 'торопиться', audioUrl: null },
-      { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
-      { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
-      { word: 'tener que', translation: 'быть должным', audioUrl: null }
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'ir', translation: 'идти, ехать', audioUrl: null },
+          { word: 'hacer', translation: 'делать', audioUrl: null },
+          { word: 'estar', translation: 'быть, находиться', audioUrl: null },
+          { word: 'venir', translation: 'приходить', audioUrl: null },
+          { word: 'tener', translation: 'иметь', audioUrl: null },
+          { word: 'poder', translation: 'мочь', audioUrl: null },
+          { word: 'querer', translation: 'хотеть', audioUrl: null },
+          { word: 'saber', translation: 'знать', audioUrl: null },
+          { word: 'oír', translation: 'слышать', audioUrl: null },
+          { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'bar', translation: 'бар', audioUrl: null },
+          { word: 'teatro', translation: 'театр', audioUrl: null },
+          { word: 'café', translation: 'кафе', audioUrl: null },
+          { word: 'casa', translation: 'дом', audioUrl: null },
+          { word: 'coche', translation: 'машина', audioUrl: null },
+          { word: 'taxi', translation: 'такси', audioUrl: null },
+          { word: 'autobús', translation: 'автобус', audioUrl: null },
+          { word: 'tren', translation: 'поезд', audioUrl: null },
+          { word: 'avión', translation: 'самолет', audioUrl: null },
+          { word: 'barco', translation: 'корабль', audioUrl: null },
+          { word: 'a pie', translation: 'пешком', audioUrl: null },
+          { word: 'compras', translation: 'покупки', audioUrl: null },
+          { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
+          { word: 'té', translation: 'чай', audioUrl: null },
+          { word: 'familia', translation: 'семья (f)', audioUrl: null },
+          { word: 'padre', translation: 'отец (m)', audioUrl: null },
+          { word: 'madre', translation: 'мать (f)', audioUrl: null },
+          { word: 'dinero', translation: 'деньги (m)', audioUrl: null },
+          { word: 'calor', translation: 'жара (m)', audioUrl: null },
+          { word: 'frío', translation: 'холод (m)', audioUrl: null },
+          { word: 'hambre', translation: 'голод (f)', audioUrl: null },
+          { word: 'sed', translation: 'жажда (f)', audioUrl: null },
+          { word: 'sueño', translation: 'сон (m)', audioUrl: null },
+          { word: 'miedo', translation: 'страх (m)', audioUrl: null },
+          { word: 'razón', translation: 'правота (f)', audioUrl: null },
+          { word: 'suerte', translation: 'удача (f)', audioUrl: null },
+          { word: 'prisa', translation: 'спешка (f)', audioUrl: null },
+          { word: 'tiempo', translation: 'время (m)', audioUrl: null },
+          { word: 'medicina', translation: 'лекарство (f)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ С ГЛАГОЛОМ TENER',
+        words: [
+          { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
+          { word: 'tener familia', translation: 'иметь семью', audioUrl: null },
+          { word: 'tener padre / madre', translation: 'иметь отца / мать', audioUrl: null },
+          { word: 'tener dinero', translation: 'иметь деньги', audioUrl: null },
+          { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
+          { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
+          { word: 'tener hambre', translation: 'быть голодным / хотеть есть', audioUrl: null },
+          { word: 'tener sed', translation: 'испытывать жажду / хотеть пить', audioUrl: null },
+          { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
+          { word: 'tener miedo', translation: 'бояться (испытывать страх)', audioUrl: null },
+          { word: 'tener razón', translation: 'быть правым', audioUrl: null },
+          { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
+          { word: 'tener prisa', translation: 'торопиться, спешить', audioUrl: null },
+          { word: 'tener tiempo', translation: 'иметь время', audioUrl: null },
+          { word: 'tener que + инфинитив', translation: 'быть должным сделать что-либо', audioUrl: null },
+          { word: 'tener ... años', translation: 'иметь ... лет', audioUrl: null },
+          { word: 'tener hambre', translation: 'быть голодным', audioUrl: null },
+          { word: 'tener sed', translation: 'хотеть пить', audioUrl: null },
+          { word: 'tener sueño', translation: 'хотеть спать', audioUrl: null },
+          { word: 'tener miedo', translation: 'бояться', audioUrl: null },
+          { word: 'tener razón', translation: 'быть правым', audioUrl: null },
+          { word: 'tener suerte', translation: 'быть удачливым', audioUrl: null },
+          { word: 'tener prisa', translation: 'торопиться', audioUrl: null },
+          { word: 'tener calor', translation: 'страдать от жары', audioUrl: null },
+          { word: 'tener frío', translation: 'мерзнуть', audioUrl: null },
+          { word: 'tener que', translation: 'быть должным', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Mis planes',
@@ -2737,100 +2827,99 @@ Ejemplos:
       ]
     },
     vocabulary: [
-      // Aspecto físico - Внешний вид
-      { word: 'aspecto físico', translation: 'внешний вид', audioUrl: null },
-      { word: 'simpático', translation: 'симпатичный', audioUrl: null },
-      { word: 'antipático', translation: 'неприятный', audioUrl: null },
-      { word: 'feo', translation: 'некрасивый', audioUrl: null },
-      { word: 'guapo', translation: 'красивый', audioUrl: null },
-      { word: 'hermoso', translation: 'красивый', audioUrl: null },
-      { word: 'alto', translation: 'высокий', audioUrl: null },
-      { word: 'bajo', translation: 'низкий', audioUrl: null },
-      { word: 'gordo', translation: 'толстый', audioUrl: null },
-      { word: 'delgado', translation: 'стройный', audioUrl: null },
-      { word: 'flaco', translation: 'худой', audioUrl: null },
-      { word: 'atlético', translation: 'спортивное телосложение', audioUrl: null },
-      { word: 'jorobado', translation: 'горбатый', audioUrl: null },
-      { word: 'cojo', translation: 'хромой', audioUrl: null },
-
-      // Edad - Возраст
-      { word: 'edad', translation: 'возраст (f)', audioUrl: null },
-      { word: 'niño', translation: 'ребенок', audioUrl: null },
-      { word: 'adolescente', translation: 'подросток (m/f)', audioUrl: null },
-      { word: 'joven', translation: 'молодой', audioUrl: null },
-      { word: 'maduro', translation: 'средних лет', audioUrl: null },
-      { word: 'viejo', translation: 'старый', audioUrl: null },
-
-      // Pelo - Волосы
-      { word: 'pelo', translation: 'волосы (m)', audioUrl: null },
-      { word: 'liso', translation: 'прямые', audioUrl: null },
-      { word: 'rizado', translation: 'вьющиеся', audioUrl: null },
-      { word: 'corto', translation: 'короткие', audioUrl: null },
-      { word: 'largo', translation: 'длинные', audioUrl: null },
-      { word: 'calvo', translation: 'лысый', audioUrl: null },
-      { word: 'moreno', translation: 'брюнет', audioUrl: null },
-      { word: 'rubio', translation: 'блондин', audioUrl: null },
-      { word: 'pelirrojo', translation: 'рыжий', audioUrl: null },
-      { word: 'castaño', translation: 'шатен', audioUrl: null },
-      { word: 'cano', translation: 'седой', audioUrl: null },
-
-      // Facciones - Черты лица
-      { word: 'facciones', translation: 'черты лица (f)', audioUrl: null },
-      { word: 'ojos', translation: 'глаза (m)', audioUrl: null },
-      { word: 'grandes', translation: 'большие', audioUrl: null },
-      { word: 'pequeños', translation: 'маленькие', audioUrl: null },
-      { word: 'azules', translation: 'голубые', audioUrl: null },
-      { word: 'grises', translation: 'серые', audioUrl: null },
-      { word: 'pardos', translation: 'карие', audioUrl: null },
-      { word: 'verdes', translation: 'зеленые', audioUrl: null },
-      { word: 'nariz', translation: 'нос (f)', audioUrl: null },
-      { word: 'recta', translation: 'прямой', audioUrl: null },
-      { word: 'ancha', translation: 'широкий', audioUrl: null },
-      { word: 'chata', translation: 'курносый', audioUrl: null },
-      { word: 'labios', translation: 'губы (m)', audioUrl: null },
-      { word: 'finos', translation: 'тонкие', audioUrl: null },
-      { word: 'carnosos', translation: 'полные', audioUrl: null },
-      { word: 'cejas', translation: 'брови (f)', audioUrl: null },
-      { word: 'pobladas', translation: 'густые', audioUrl: null },
-
-      // Otros detalles (lleva) - Особые приметы
-      { word: 'bigotes', translation: 'усы (m)', audioUrl: null },
-      { word: 'barba', translation: 'борода (f)', audioUrl: null },
-      { word: 'gafas', translation: 'очки (f)', audioUrl: null },
-      { word: 'tatuaje', translation: 'татуировка (m)', audioUrl: null },
-      { word: 'lunar', translation: 'родинка (m)', audioUrl: null },
-      { word: 'cicatriz', translation: 'шрам (f)', audioUrl: null },
-
-      // Carácter - Характер
-      { word: 'carácter', translation: 'характер (m)', audioUrl: null },
-      { word: 'alegre', translation: 'веселый', audioUrl: null },
-      { word: 'triste', translation: 'грустный', audioUrl: null },
-      { word: 'cortés', translation: 'вежливый', audioUrl: null },
-      { word: 'serio', translation: 'серьезный', audioUrl: null },
-      { word: 'tranquilo', translation: 'спокойный', audioUrl: null },
-      { word: 'trabajador', translation: 'трудолюбивый', audioUrl: null },
-      { word: 'formal', translation: 'аккуратный / педантичный', audioUrl: null },
-      { word: 'puntual', translation: 'пунктуальный', audioUrl: null },
-      { word: 'educado', translation: 'воспитанный', audioUrl: null },
-      { word: 'egoísta', translation: 'эгоист (m/f)', audioUrl: null },
-      { word: 'perezoso', translation: 'ленивый', audioUrl: null },
-      { word: 'generoso', translation: 'щедрый', audioUrl: null },
-      { word: 'avaro', translation: 'жадный', audioUrl: null },
-      { word: 'tímido', translation: 'скромный / застенчивый', audioUrl: null },
-      { word: 'curioso', translation: 'любопытный', audioUrl: null },
-      { word: 'astuto', translation: 'хитрый', audioUrl: null },
-      { word: 'presumido', translation: 'тщеславный', audioUrl: null },
-      { word: 'bondadoso', translation: 'добрый', audioUrl: null },
-      { word: 'prudente', translation: 'осторожный / благоразумный', audioUrl: null },
-      { word: 'comunicativo', translation: 'общительный', audioUrl: null },
-      { word: 'honrado', translation: 'честный', audioUrl: null },
-      { word: 'valiente', translation: 'смелый', audioUrl: null },
-      { word: 'sincero', translation: 'искренний', audioUrl: null },
-      { word: 'fiel', translation: 'верный', audioUrl: null },
-      { word: 'terco', translation: 'упрямый', audioUrl: null },
-      { word: 'cariñoso', translation: 'нежный', audioUrl: null },
-      { word: 'inteligente', translation: 'умный', audioUrl: null },
-      { word: 'tonto', translation: 'глупый', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'aspecto físico', translation: 'внешний вид', audioUrl: null },
+          { word: 'edad', translation: 'возраст (f)', audioUrl: null },
+          { word: 'niño', translation: 'ребенок', audioUrl: null },
+          { word: 'adolescente', translation: 'подросток (m/f)', audioUrl: null },
+          { word: 'pelo', translation: 'волосы (m)', audioUrl: null },
+          { word: 'facciones', translation: 'черты лица (f)', audioUrl: null },
+          { word: 'ojos', translation: 'глаза (m)', audioUrl: null },
+          { word: 'nariz', translation: 'нос (f)', audioUrl: null },
+          { word: 'labios', translation: 'губы (m)', audioUrl: null },
+          { word: 'cejas', translation: 'брови (f)', audioUrl: null },
+          { word: 'bigotes', translation: 'усы (m)', audioUrl: null },
+          { word: 'barba', translation: 'борода (f)', audioUrl: null },
+          { word: 'gafas', translation: 'очки (f)', audioUrl: null },
+          { word: 'tatuaje', translation: 'татуировка (m)', audioUrl: null },
+          { word: 'lunar', translation: 'родинка (m)', audioUrl: null },
+          { word: 'cicatriz', translation: 'шрам (f)', audioUrl: null },
+          { word: 'carácter', translation: 'характер (m)', audioUrl: null },
+          { word: 'egoísta', translation: 'эгоист (m/f)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ПРИЛАГАТЕЛЬНЫЕ',
+        words: [
+          { word: 'simpático', translation: 'симпатичный', audioUrl: null },
+          { word: 'antipático', translation: 'неприятный', audioUrl: null },
+          { word: 'feo', translation: 'некрасивый', audioUrl: null },
+          { word: 'guapo', translation: 'красивый', audioUrl: null },
+          { word: 'hermoso', translation: 'красивый', audioUrl: null },
+          { word: 'alto', translation: 'высокий', audioUrl: null },
+          { word: 'bajo', translation: 'низкий', audioUrl: null },
+          { word: 'gordo', translation: 'толстый', audioUrl: null },
+          { word: 'delgado', translation: 'стройный', audioUrl: null },
+          { word: 'flaco', translation: 'худой', audioUrl: null },
+          { word: 'atlético', translation: 'спортивное телосложение', audioUrl: null },
+          { word: 'jorobado', translation: 'горбатый', audioUrl: null },
+          { word: 'cojo', translation: 'хромой', audioUrl: null },
+          { word: 'joven', translation: 'молодой', audioUrl: null },
+          { word: 'maduro', translation: 'средних лет', audioUrl: null },
+          { word: 'viejo', translation: 'старый', audioUrl: null },
+          { word: 'liso', translation: 'прямые', audioUrl: null },
+          { word: 'rizado', translation: 'вьющиеся', audioUrl: null },
+          { word: 'corto', translation: 'короткие', audioUrl: null },
+          { word: 'largo', translation: 'длинные', audioUrl: null },
+          { word: 'calvo', translation: 'лысый', audioUrl: null },
+          { word: 'moreno', translation: 'брюнет', audioUrl: null },
+          { word: 'rubio', translation: 'блондин', audioUrl: null },
+          { word: 'pelirrojo', translation: 'рыжий', audioUrl: null },
+          { word: 'castaño', translation: 'шатен', audioUrl: null },
+          { word: 'cano', translation: 'седой', audioUrl: null },
+          { word: 'grandes', translation: 'большие', audioUrl: null },
+          { word: 'pequeños', translation: 'маленькие', audioUrl: null },
+          { word: 'azules', translation: 'голубые', audioUrl: null },
+          { word: 'grises', translation: 'серые', audioUrl: null },
+          { word: 'pardos', translation: 'карие', audioUrl: null },
+          { word: 'verdes', translation: 'зеленые', audioUrl: null },
+          { word: 'recta', translation: 'прямой', audioUrl: null },
+          { word: 'ancha', translation: 'широкий', audioUrl: null },
+          { word: 'chata', translation: 'курносый', audioUrl: null },
+          { word: 'finos', translation: 'тонкие', audioUrl: null },
+          { word: 'carnosos', translation: 'полные', audioUrl: null },
+          { word: 'pobladas', translation: 'густые', audioUrl: null },
+          { word: 'alegre', translation: 'веселый', audioUrl: null },
+          { word: 'triste', translation: 'грустный', audioUrl: null },
+          { word: 'cortés', translation: 'вежливый', audioUrl: null },
+          { word: 'serio', translation: 'серьезный', audioUrl: null },
+          { word: 'tranquilo', translation: 'спокойный', audioUrl: null },
+          { word: 'trabajador', translation: 'трудолюбивый', audioUrl: null },
+          { word: 'formal', translation: 'аккуратный / педантичный', audioUrl: null },
+          { word: 'puntual', translation: 'пунктуальный', audioUrl: null },
+          { word: 'educado', translation: 'воспитанный', audioUrl: null },
+          { word: 'perezoso', translation: 'ленивый', audioUrl: null },
+          { word: 'generoso', translation: 'щедрый', audioUrl: null },
+          { word: 'avaro', translation: 'жадный', audioUrl: null },
+          { word: 'tímido', translation: 'скромный / застенчивый', audioUrl: null },
+          { word: 'curioso', translation: 'любопытный', audioUrl: null },
+          { word: 'astuto', translation: 'хитрый', audioUrl: null },
+          { word: 'presumido', translation: 'тщеславный', audioUrl: null },
+          { word: 'bondadoso', translation: 'добрый', audioUrl: null },
+          { word: 'prudente', translation: 'осторожный / благоразумный', audioUrl: null },
+          { word: 'comunicativo', translation: 'общительный', audioUrl: null },
+          { word: 'honrado', translation: 'честный', audioUrl: null },
+          { word: 'valiente', translation: 'смелый', audioUrl: null },
+          { word: 'sincero', translation: 'искренний', audioUrl: null },
+          { word: 'fiel', translation: 'верный', audioUrl: null },
+          { word: 'terco', translation: 'упрямый', audioUrl: null },
+          { word: 'cariñoso', translation: 'нежный', audioUrl: null },
+          { word: 'inteligente', translation: 'умный', audioUrl: null },
+          { word: 'tonto', translation: 'глупый', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Mis amigos y mi familia',
@@ -3122,106 +3211,113 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       ]
     },
     vocabulary: [
-      // Семейная лексика
-      { word: 'familia', translation: 'семья', audioUrl: null },
-      { word: 'matrimonio', translation: 'супружеская пара / брак', audioUrl: null },
-      { word: 'padre', translation: 'отец', audioUrl: null },
-      { word: 'madre', translation: 'мать', audioUrl: null },
-      { word: 'padres', translation: 'родители', audioUrl: null },
-      { word: 'marido', translation: 'муж', audioUrl: null },
-      { word: 'mujer', translation: 'жена', audioUrl: null },
-      { word: 'esposo', translation: 'супруг', audioUrl: null },
-      { word: 'esposa', translation: 'супруга', audioUrl: null },
-      { word: 'hijo', translation: 'сын', audioUrl: null },
-      { word: 'hija', translation: 'дочь', audioUrl: null },
-      { word: 'hijos', translation: 'дети', audioUrl: null },
-      { word: 'abuelo', translation: 'дедушка', audioUrl: null },
-      { word: 'abuela', translation: 'бабушка', audioUrl: null },
-      { word: 'nieto', translation: 'внук', audioUrl: null },
-      { word: 'nieta', translation: 'внучка', audioUrl: null },
-      { word: 'hermano', translation: 'брат', audioUrl: null },
-      { word: 'hermana', translation: 'сестра', audioUrl: null },
-      { word: 'mellizos', translation: 'близнецы (м.р.)', audioUrl: null },
-      { word: 'mellizas', translation: 'близнецы (ж.р.)', audioUrl: null },
-      { word: 'padrino', translation: 'крестный отец', audioUrl: null },
-      { word: 'madrina', translation: 'крестная мать', audioUrl: null },
-      { word: 'tío', translation: 'дядя', audioUrl: null },
-      { word: 'tía', translation: 'тетя', audioUrl: null },
-      { word: 'primo', translation: 'двоюродный брат', audioUrl: null },
-      { word: 'prima', translation: 'двоюродная сестра', audioUrl: null },
-      { word: 'sobrino', translation: 'племянник', audioUrl: null },
-      { word: 'sobrina', translation: 'племянница', audioUrl: null },
-      { word: 'suegro', translation: 'свекор / тесть', audioUrl: null },
-      { word: 'suegra', translation: 'свекровь / теща', audioUrl: null },
-      { word: 'yerno', translation: 'зять (муж дочери)', audioUrl: null },
-      { word: 'nuera', translation: 'невестка (жена сына)', audioUrl: null },
-      { word: 'cuñado', translation: 'сват / свояк / деверь / шурин', audioUrl: null },
-      { word: 'cuñada', translation: 'сватья / свояченица / золовка', audioUrl: null },
-      { word: 'padrastro', translation: 'отчим', audioUrl: null },
-      { word: 'madrastra', translation: 'мачеха', audioUrl: null },
-      { word: 'hijastro', translation: 'пасынок', audioUrl: null },
-      { word: 'hijastra', translation: 'падчерица', audioUrl: null },
-      { word: 'pariente', translation: 'родственник / родственница', audioUrl: null },
-
-      // Указательные местоимения
-      { word: 'este', translation: 'этот (м.р., ед.ч.)', audioUrl: null },
-      { word: 'esta', translation: 'эта (ж.р., ед.ч.)', audioUrl: null },
-      { word: 'estos', translation: 'эти (м.р., мн.ч.)', audioUrl: null },
-      { word: 'estas', translation: 'эти (ж.р., мн.ч.)', audioUrl: null },
-      { word: 'ese', translation: 'тот (м.р., ед.ч.)', audioUrl: null },
-      { word: 'esa', translation: 'та (ж.р., ед.ч.)', audioUrl: null },
-      { word: 'esos', translation: 'те (м.р., мн.ч.)', audioUrl: null },
-      { word: 'esas', translation: 'те (ж.р., мн.ч.)', audioUrl: null },
-      { word: 'aquel', translation: 'вон тот (м.р., ед.ч.)', audioUrl: null },
-      { word: 'aquella', translation: 'вон та (ж.р., ед.ч.)', audioUrl: null },
-      { word: 'aquellos', translation: 'вон те (м.р., мн.ч.)', audioUrl: null },
-      { word: 'aquellas', translation: 'вон те (ж.р., мн.ч.)', audioUrl: null },
-
-      // Нейтральные формы
-      { word: 'esto', translation: 'это (нейтральное, близко)', audioUrl: null },
-      { word: 'eso', translation: 'то (нейтральное, на расстоянии)', audioUrl: null },
-      { word: 'aquello', translation: 'то (нейтральное, далеко)', audioUrl: null },
-
-      // Наречия места
-      { word: 'aquí', translation: 'здесь, тут', audioUrl: null },
-      { word: 'ahí', translation: 'там (на расстоянии)', audioUrl: null },
-      { word: 'allí', translation: 'там (далеко)', audioUrl: null },
-
-      // Притяжательные местоимения-прилагательные
-      { word: 'mi', translation: 'мой, моя (ед.ч.)', audioUrl: null },
-      { word: 'mis', translation: 'мои (мн.ч.)', audioUrl: null },
-      { word: 'tu', translation: 'твой, твоя (ед.ч.)', audioUrl: null },
-      { word: 'tus', translation: 'твои (мн.ч.)', audioUrl: null },
-      { word: 'su', translation: 'его, её, Ваш (ед.ч.)', audioUrl: null },
-      { word: 'sus', translation: 'его, её, Ваши (мн.ч.)', audioUrl: null },
-      { word: 'nuestro', translation: 'наш (м.р., ед.ч.)', audioUrl: null },
-      { word: 'nuestra', translation: 'наша (ж.р., ед.ч.)', audioUrl: null },
-      { word: 'nuestros', translation: 'наши (м.р., мн.ч.)', audioUrl: null },
-      { word: 'nuestras', translation: 'наши (ж.р., мн.ч.)', audioUrl: null },
-      { word: 'vuestro', translation: 'ваш (м.р., ед.ч.)', audioUrl: null },
-      { word: 'vuestra', translation: 'ваша (ж.р., ед.ч.)', audioUrl: null },
-      { word: 'vuestros', translation: 'ваши (м.р., мн.ч.)', audioUrl: null },
-      { word: 'vuestras', translation: 'ваши (ж.р., мн.ч.)', audioUrl: null },
-
-      // Притяжательные местоимения-существительные
-      { word: 'el mío', translation: 'мой (м.р., с артиклем)', audioUrl: null },
-      { word: 'la mía', translation: 'моя (ж.р., с артиклем)', audioUrl: null },
-      { word: 'los míos', translation: 'мои (м.р., мн.ч., с артиклем)', audioUrl: null },
-      { word: 'las mías', translation: 'мои (ж.р., мн.ч., с артиклем)', audioUrl: null },
-      { word: 'el tuyo', translation: 'твой (м.р., с артиклем)', audioUrl: null },
-      { word: 'la tuya', translation: 'твоя (ж.р., с артиклем)', audioUrl: null },
-      { word: 'los tuyos', translation: 'твои (м.р., мн.ч., с артиклем)', audioUrl: null },
-      { word: 'las tuyas', translation: 'твои (ж.р., мн.ч., с артиклем)', audioUrl: null },
-      { word: 'el suyo', translation: 'его/её/Ваш (м.р., с артиклем)', audioUrl: null },
-      { word: 'la suya', translation: 'его/её/Ваша (ж.р., с артиклем)', audioUrl: null },
-      { word: 'los suyos', translation: 'его/её/Ваши (м.р., мн.ч., с артиклем)', audioUrl: null },
-      { word: 'las suyas', translation: 'его/её/Ваши (ж.р., мн.ч., с артиклем)', audioUrl: null },
-
-      // Глаголы индивидуального спряжения
-      { word: 'querer', translation: 'хотеть, желать, любить', audioUrl: null },
-      { word: 'poder', translation: 'мочь', audioUrl: null },
-      { word: 'venir', translation: 'приходить, приезжать', audioUrl: null },
-      { word: 'decir', translation: 'говорить, сказать', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'familia', translation: 'семья', audioUrl: null },
+          { word: 'matrimonio', translation: 'супружеская пара / брак', audioUrl: null },
+          { word: 'padre', translation: 'отец', audioUrl: null },
+          { word: 'madre', translation: 'мать', audioUrl: null },
+          { word: 'padres', translation: 'родители', audioUrl: null },
+          { word: 'marido', translation: 'муж', audioUrl: null },
+          { word: 'mujer', translation: 'жена', audioUrl: null },
+          { word: 'esposo', translation: 'супруг', audioUrl: null },
+          { word: 'esposa', translation: 'супруга', audioUrl: null },
+          { word: 'hijo', translation: 'сын', audioUrl: null },
+          { word: 'hija', translation: 'дочь', audioUrl: null },
+          { word: 'hijos', translation: 'дети', audioUrl: null },
+          { word: 'abuelo', translation: 'дедушка', audioUrl: null },
+          { word: 'abuela', translation: 'бабушка', audioUrl: null },
+          { word: 'nieto', translation: 'внук', audioUrl: null },
+          { word: 'nieta', translation: 'внучка', audioUrl: null },
+          { word: 'hermano', translation: 'брат', audioUrl: null },
+          { word: 'hermana', translation: 'сестра', audioUrl: null },
+          { word: 'mellizos', translation: 'близнецы (м.р.)', audioUrl: null },
+          { word: 'mellizas', translation: 'близнецы (ж.р.)', audioUrl: null },
+          { word: 'padrino', translation: 'крестный отец', audioUrl: null },
+          { word: 'madrina', translation: 'крестная мать', audioUrl: null },
+          { word: 'tío', translation: 'дядя', audioUrl: null },
+          { word: 'tía', translation: 'тетя', audioUrl: null },
+          { word: 'primo', translation: 'двоюродный брат', audioUrl: null },
+          { word: 'prima', translation: 'двоюродная сестра', audioUrl: null },
+          { word: 'sobrino', translation: 'племянник', audioUrl: null },
+          { word: 'sobrina', translation: 'племянница', audioUrl: null },
+          { word: 'suegro', translation: 'свекор / тесть', audioUrl: null },
+          { word: 'suegra', translation: 'свекровь / теща', audioUrl: null },
+          { word: 'yerno', translation: 'зять (муж дочери)', audioUrl: null },
+          { word: 'nuera', translation: 'невестка (жена сына)', audioUrl: null },
+          { word: 'cuñado', translation: 'сват / свояк / деверь / шурин', audioUrl: null },
+          { word: 'cuñada', translation: 'сватья / свояченица / золовка', audioUrl: null },
+          { word: 'padrastro', translation: 'отчим', audioUrl: null },
+          { word: 'madrastra', translation: 'мачеха', audioUrl: null },
+          { word: 'hijastro', translation: 'пасынок', audioUrl: null },
+          { word: 'hijastra', translation: 'падчерица', audioUrl: null },
+          { word: 'pariente', translation: 'родственник / родственница', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'УКАЗАТЕЛЬНЫЕ МЕСТОИМЕНИЯ',
+        words: [
+          { word: 'este', translation: 'этот (м.р., ед.ч.)', audioUrl: null },
+          { word: 'esta', translation: 'эта (ж.р., ед.ч.)', audioUrl: null },
+          { word: 'estos', translation: 'эти (м.р., мн.ч.)', audioUrl: null },
+          { word: 'estas', translation: 'эти (ж.р., мн.ч.)', audioUrl: null },
+          { word: 'ese', translation: 'тот (м.р., ед.ч.)', audioUrl: null },
+          { word: 'esa', translation: 'та (ж.р., ед.ч.)', audioUrl: null },
+          { word: 'esos', translation: 'те (м.р., мн.ч.)', audioUrl: null },
+          { word: 'esas', translation: 'те (ж.р., мн.ч.)', audioUrl: null },
+          { word: 'aquel', translation: 'вон тот (м.р., ед.ч.)', audioUrl: null },
+          { word: 'aquella', translation: 'вон та (ж.р., ед.ч.)', audioUrl: null },
+          { word: 'aquellos', translation: 'вон те (м.р., мн.ч.)', audioUrl: null },
+          { word: 'aquellas', translation: 'вон те (ж.р., мн.ч.)', audioUrl: null },
+          { word: 'esto', translation: 'это (нейтральное, близко)', audioUrl: null },
+          { word: 'eso', translation: 'то (нейтральное, на расстоянии)', audioUrl: null },
+          { word: 'aquello', translation: 'то (нейтральное, далеко)', audioUrl: null },
+          { word: 'aquí', translation: 'здесь, тут', audioUrl: null },
+          { word: 'ahí', translation: 'там (на расстоянии)', audioUrl: null },
+          { word: 'allí', translation: 'там (далеко)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ПРИТЯЖАТЕЛЬНЫЕ МЕСТОИМЕНИЯ',
+        words: [
+          { word: 'mi', translation: 'мой, моя (ед.ч.)', audioUrl: null },
+          { word: 'mis', translation: 'мои (мн.ч.)', audioUrl: null },
+          { word: 'tu', translation: 'твой, твоя (ед.ч.)', audioUrl: null },
+          { word: 'tus', translation: 'твои (мн.ч.)', audioUrl: null },
+          { word: 'su', translation: 'его, её, Ваш (ед.ч.)', audioUrl: null },
+          { word: 'sus', translation: 'его, её, Ваши (мн.ч.)', audioUrl: null },
+          { word: 'nuestro', translation: 'наш (м.р., ед.ч.)', audioUrl: null },
+          { word: 'nuestra', translation: 'наша (ж.р., ед.ч.)', audioUrl: null },
+          { word: 'nuestros', translation: 'наши (м.р., мн.ч.)', audioUrl: null },
+          { word: 'nuestras', translation: 'наши (ж.р., мн.ч.)', audioUrl: null },
+          { word: 'vuestro', translation: 'ваш (м.р., ед.ч.)', audioUrl: null },
+          { word: 'vuestra', translation: 'ваша (ж.р., ед.ч.)', audioUrl: null },
+          { word: 'vuestros', translation: 'ваши (м.р., мн.ч.)', audioUrl: null },
+          { word: 'vuestras', translation: 'ваши (ж.р., мн.ч.)', audioUrl: null },
+          { word: 'el mío', translation: 'мой (м.р., с артиклем)', audioUrl: null },
+          { word: 'la mía', translation: 'моя (ж.р., с артиклем)', audioUrl: null },
+          { word: 'los míos', translation: 'мои (м.р., мн.ч., с артиклем)', audioUrl: null },
+          { word: 'las mías', translation: 'мои (ж.р., мн.ч., с артиклем)', audioUrl: null },
+          { word: 'el tuyo', translation: 'твой (м.р., с артиклем)', audioUrl: null },
+          { word: 'la tuya', translation: 'твоя (ж.р., с артиклем)', audioUrl: null },
+          { word: 'los tuyos', translation: 'твои (м.р., мн.ч., с артиклем)', audioUrl: null },
+          { word: 'las tuyas', translation: 'твои (ж.р., мн.ч., с артиклем)', audioUrl: null },
+          { word: 'el suyo', translation: 'его/её/Ваш (м.р., с артиклем)', audioUrl: null },
+          { word: 'la suya', translation: 'его/её/Ваша (ж.р., с артиклем)', audioUrl: null },
+          { word: 'los suyos', translation: 'его/её/Ваши (м.р., мн.ч., с артиклем)', audioUrl: null },
+          { word: 'las suyas', translation: 'его/её/Ваши (ж.р., мн.ч., с артиклем)', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'querer', translation: 'хотеть, желать, любить', audioUrl: null },
+          { word: 'poder', translation: 'мочь', audioUrl: null },
+          { word: 'venir', translation: 'приходить, приезжать', audioUrl: null },
+          { word: 'decir', translation: 'говорить, сказать', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'En la universidad',
@@ -3474,55 +3570,65 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      { word: 'hogar', translation: 'дом (домашний очаг)', audioUrl: null },
-      { word: 'piso', translation: 'этаж / квартира', audioUrl: null },
-      { word: 'planta baja', translation: 'цокольный этаж', audioUrl: null },
-      { word: 'apartamento', translation: 'квартира', audioUrl: null },
-      { word: 'entrada', translation: 'вход', audioUrl: null },
-      { word: 'escalera', translation: 'лестница', audioUrl: null },
-      { word: 'pared', translation: 'стена', audioUrl: null },
-      { word: 'techo', translation: 'потолок / крыша', audioUrl: null },
-      { word: 'suelo', translation: 'пол', audioUrl: null },
-      { word: 'habitación', translation: 'комната', audioUrl: null },
-      { word: 'cuarto', translation: 'комната', audioUrl: null },
-      { word: 'cuarto de baño', translation: 'ванная комната / туалет', audioUrl: null },
-      { word: 'aseo', translation: 'туалет', audioUrl: null },
-      { word: 'recibidor', translation: 'прихожая', audioUrl: null },
-      { word: 'pasillo', translation: 'коридор', audioUrl: null },
-      { word: 'dormitorio', translation: 'спальня', audioUrl: null },
-      { word: 'salón', translation: 'гостиная', audioUrl: null },
-      { word: 'comedor', translation: 'столовая', audioUrl: null },
-      { word: 'cocina', translation: 'кухня', audioUrl: null },
-      { word: 'despacho', translation: 'кабинет', audioUrl: null },
-      { word: 'cortinas', translation: 'шторы', audioUrl: null },
-      { word: 'alfombra', translation: 'ковер', audioUrl: null },
-      { word: 'mueble', translation: 'мебель', audioUrl: null },
-      { word: 'mesa', translation: 'стол', audioUrl: null },
-      { word: 'mesita de noche', translation: 'прикроватная тумбочка', audioUrl: null },
-      { word: 'escritorio', translation: 'письменный стол', audioUrl: null },
-      { word: 'silla', translation: 'стул', audioUrl: null },
-      { word: 'sillón', translation: 'кресло', audioUrl: null },
-      { word: 'cama', translation: 'кровать', audioUrl: null },
-      { word: 'sofá', translation: 'софа', audioUrl: null },
-      { word: 'armario', translation: 'шкаф платяной', audioUrl: null },
-      { word: 'armario empotrado', translation: 'встроенный шкаф', audioUrl: null },
-      { word: 'estantería', translation: 'полка / стеллаж', audioUrl: null },
-      { word: 'aparador', translation: 'буфет', audioUrl: null },
-      { word: 'cómoda', translation: 'комод', audioUrl: null },
-      { word: 'tocador', translation: 'туалетный столик', audioUrl: null },
-      { word: 'espejo', translation: 'зеркало', audioUrl: null },
-      { word: 'lámpara', translation: 'лампа', audioUrl: null },
-      { word: 'lámpara de pie', translation: 'торшер', audioUrl: null },
-      { word: 'araña', translation: 'люстра', audioUrl: null },
-      { word: 'televisor', translation: 'телевизор', audioUrl: null },
-      { word: 'ordenador', translation: 'компьютер', audioUrl: null },
-      { word: 'electrodomésticos', translation: 'электробытовые приборы', audioUrl: null },
-      { word: 'frigorífico', translation: 'холодильник', audioUrl: null },
-      { word: 'horno microondas', translation: 'микроволновая печь', audioUrl: null },
-      { word: 'cocina de gas', translation: 'газовая плита', audioUrl: null },
-      { word: 'cocina eléctrica', translation: 'электроплита', audioUrl: null },
-      { word: 'lavadora', translation: 'стиральная машина', audioUrl: null },
-      { word: 'lavavajillas', translation: 'посудомоечная машина', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'hogar', translation: 'дом (домашний очаг)', audioUrl: null },
+          { word: 'piso', translation: 'этаж / квартира', audioUrl: null },
+          { word: 'apartamento', translation: 'квартира', audioUrl: null },
+          { word: 'entrada', translation: 'вход', audioUrl: null },
+          { word: 'escalera', translation: 'лестница', audioUrl: null },
+          { word: 'pared', translation: 'стена', audioUrl: null },
+          { word: 'techo', translation: 'потолок / крыша', audioUrl: null },
+          { word: 'suelo', translation: 'пол', audioUrl: null },
+          { word: 'habitación', translation: 'комната', audioUrl: null },
+          { word: 'cuarto', translation: 'комната', audioUrl: null },
+          { word: 'aseo', translation: 'туалет', audioUrl: null },
+          { word: 'recibidor', translation: 'прихожая', audioUrl: null },
+          { word: 'pasillo', translation: 'коридор', audioUrl: null },
+          { word: 'dormitorio', translation: 'спальня', audioUrl: null },
+          { word: 'salón', translation: 'гостиная', audioUrl: null },
+          { word: 'comedor', translation: 'столовая', audioUrl: null },
+          { word: 'cocina', translation: 'кухня', audioUrl: null },
+          { word: 'despacho', translation: 'кабинет', audioUrl: null },
+          { word: 'cortinas', translation: 'шторы', audioUrl: null },
+          { word: 'alfombra', translation: 'ковер', audioUrl: null },
+          { word: 'mueble', translation: 'мебель', audioUrl: null },
+          { word: 'mesa', translation: 'стол', audioUrl: null },
+          { word: 'escritorio', translation: 'письменный стол', audioUrl: null },
+          { word: 'silla', translation: 'стул', audioUrl: null },
+          { word: 'sillón', translation: 'кресло', audioUrl: null },
+          { word: 'cama', translation: 'кровать', audioUrl: null },
+          { word: 'sofá', translation: 'софа', audioUrl: null },
+          { word: 'armario', translation: 'шкаф платяной', audioUrl: null },
+          { word: 'estantería', translation: 'полка / стеллаж', audioUrl: null },
+          { word: 'aparador', translation: 'буфет', audioUrl: null },
+          { word: 'cómoda', translation: 'комод', audioUrl: null },
+          { word: 'tocador', translation: 'туалетный столик', audioUrl: null },
+          { word: 'espejo', translation: 'зеркало', audioUrl: null },
+          { word: 'lámpara', translation: 'лампа', audioUrl: null },
+          { word: 'araña', translation: 'люстра', audioUrl: null },
+          { word: 'televisor', translation: 'телевизор', audioUrl: null },
+          { word: 'ordenador', translation: 'компьютер', audioUrl: null },
+          { word: 'electrodomésticos', translation: 'электробытовые приборы', audioUrl: null },
+          { word: 'frigorífico', translation: 'холодильник', audioUrl: null },
+          { word: 'lavadora', translation: 'стиральная машина', audioUrl: null },
+          { word: 'lavavajillas', translation: 'посудомоечная машина', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СЛОВОСОЧЕТАНИЯ',
+        words: [
+          { word: 'planta baja', translation: 'цокольный этаж', audioUrl: null },
+          { word: 'cuarto de baño', translation: 'ванная комната / туалет', audioUrl: null },
+          { word: 'mesita de noche', translation: 'прикроватная тумбочка', audioUrl: null },
+          { word: 'armario empotrado', translation: 'встроенный шкаф', audioUrl: null },
+          { word: 'lámpara de pie', translation: 'торшер', audioUrl: null },
+          { word: 'horno microondas', translation: 'микроволновая печь', audioUrl: null },
+          { word: 'cocina de gas', translation: 'газовая плита', audioUrl: null },
+          { word: 'cocina eléctrica', translation: 'электроплита', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Buscando un apartamento',
@@ -3740,127 +3846,136 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      // Предлоги и выражения места
-      { word: 'cerca de', translation: 'рядом с', audioUrl: null },
-      { word: 'al lado de', translation: 'около', audioUrl: null },
-      { word: 'junto a', translation: 'у, рядом', audioUrl: null },
-      { word: 'lejos de', translation: 'далеко от', audioUrl: null },
-      { word: 'a la izquierda de', translation: 'слева от', audioUrl: null },
-      { word: 'a la derecha de', translation: 'справа от', audioUrl: null },
-      { word: 'frente a', translation: 'напротив', audioUrl: null },
-      { word: 'enfrente de', translation: 'напротив', audioUrl: null },
-      { word: 'delante de', translation: 'перед', audioUrl: null },
-      { word: 'ante', translation: 'перед', audioUrl: null },
-      { word: 'detrás de', translation: 'позади, сзади', audioUrl: null },
-      { word: 'tras', translation: 'позади', audioUrl: null },
-      { word: 'alrededor de', translation: 'вокруг', audioUrl: null },
-      { word: 'en torno a', translation: 'вокруг', audioUrl: null },
-      { word: 'entre', translation: 'между', audioUrl: null },
-      { word: 'dentro de', translation: 'внутри', audioUrl: null },
-      { word: 'en', translation: 'в, на', audioUrl: null },
-      { word: 'fuera de', translation: 'вне, снаружи', audioUrl: null },
-      { word: 'encima de', translation: 'над, сверху', audioUrl: null },
-      { word: 'debajo de', translation: 'под, снизу', audioUrl: null },
-      { word: 'sobre', translation: 'на', audioUrl: null },
-      { word: 'en medio de', translation: 'посреди', audioUrl: null },
-      { word: 'al fondo de', translation: 'в глубине', audioUrl: null },
-
-      // Предлоги времени
-      { word: 'antes de', translation: 'до, перед', audioUrl: null },
-      { word: 'después de', translation: 'после', audioUrl: null },
-      { word: 'durante', translation: 'в течение, во время', audioUrl: null },
-
-      // Существительные для примеров
-      { word: 'casa', translation: 'дом', audioUrl: null },
-      { word: 'estación', translation: 'вокзал', audioUrl: null },
-      { word: 'monumento', translation: 'памятник', audioUrl: null },
-      { word: 'playa', translation: 'пляж', audioUrl: null },
-      { word: 'puerta', translation: 'дверь', audioUrl: null },
-      { word: 'ventana', translation: 'окно', audioUrl: null },
-      { word: 'despacho', translation: 'кабинет', audioUrl: null },
-      { word: 'cine', translation: 'кинотеатр', audioUrl: null },
-      { word: 'hotel', translation: 'гостиница', audioUrl: null },
-      { word: 'patio', translation: 'двор', audioUrl: null },
-      { word: 'ascensor', translation: 'лифт', audioUrl: null },
-      { word: 'armario', translation: 'шкаф', audioUrl: null },
-      { word: 'oficina', translation: 'офис', audioUrl: null },
-      { word: 'ordenador', translation: 'компьютер', audioUrl: null },
-      { word: 'cama', translation: 'кровать', audioUrl: null },
-      { word: 'mesa', translation: 'стол', audioUrl: null },
-      { word: 'calle', translation: 'улица', audioUrl: null },
-      { word: 'parque', translation: 'парк', audioUrl: null },
-      { word: 'operación', translation: 'операция', audioUrl: null },
-      { word: 'programa', translation: 'программа', audioUrl: null },
-      { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
-
-      // Глаголы индивидуального спряжения
-      { word: 'caber', translation: 'помещаться', audioUrl: null },
-      { word: 'caer', translation: 'падать', audioUrl: null },
-      { word: 'dar', translation: 'давать', audioUrl: null },
-      { word: 'hacer', translation: 'делать', audioUrl: null },
-      { word: 'poner', translation: 'класть, ставить', audioUrl: null },
-      { word: 'saber', translation: 'знать, уметь', audioUrl: null },
-      { word: 'salir', translation: 'выходить', audioUrl: null },
-      { word: 'traer', translation: 'приносить', audioUrl: null },
-      { word: 'ver', translation: 'видеть', audioUrl: null },
-
-      // Выражения с глаголами
-      { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
-      { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
-      { word: 'poner la radio', translation: 'включать радио', audioUrl: null },
-      { word: 'dar un paseo', translation: 'прогуляться', audioUrl: null },
-      { word: 'dar una vuelta', translation: 'прогуляться', audioUrl: null },
-      { word: 'dar un beso', translation: 'поцеловать', audioUrl: null },
-      { word: 'dar las gracias', translation: 'благодарить', audioUrl: null },
-      { word: 'dar recuerdos', translation: 'передавать привет', audioUrl: null },
-      { word: 'dar clases', translation: 'проводить занятия', audioUrl: null },
-      { word: 'dar una fiesta', translation: 'устраивать праздник', audioUrl: null },
-      { word: 'hacer preguntas', translation: 'задавать вопросы', audioUrl: null },
-      { word: 'hacer la cama', translation: 'убирать постель', audioUrl: null },
-      { word: 'hacer la maleta', translation: 'собирать чемодан', audioUrl: null },
-      { word: 'hacer ruido', translation: 'шуметь', audioUrl: null },
-      { word: 'hacer caso', translation: 'обращать внимание', audioUrl: null },
-
-      // Недвижимость и аренда жилья
-      { word: 'vivienda', translation: 'жилье', audioUrl: null },
-      { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
-      { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
-      { word: 'propietario', translation: 'собственник', audioUrl: null },
-      { word: 'edificio', translation: 'здание', audioUrl: null },
-      { word: 'espacio', translation: 'помещение', audioUrl: null },
-      { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
-      { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
-      { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
-      { word: 'superficie', translation: 'площадь', audioUrl: null },
-      { word: 'adosado', translation: 'таунхаус', audioUrl: null },
-      { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
-      { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
-      { word: 'chalé', translation: 'загородный дом', audioUrl: null },
-      { word: 'garaje', translation: 'гараж', audioUrl: null },
-      { word: 'portal', translation: 'подъезд', audioUrl: null },
-      { word: 'portero', translation: 'консьерж', audioUrl: null },
-      { word: 'ducha', translation: 'душ', audioUrl: null },
-      { word: 'bañera', translation: 'ванна', audioUrl: null },
-      { word: 'calefacción', translation: 'отопление', audioUrl: null },
-      { word: 'terraza', translation: 'лоджия', audioUrl: null },
-      { word: 'reparación', translation: 'ремонт', audioUrl: null },
-      { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
-      { word: 'barrio', translation: 'район', audioUrl: null },
-      { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
-      { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
-      { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
-      { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
-      { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
-      { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
-      { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
-      { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
-      { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
-      { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
-      { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
-      { word: 'portero automático', translation: 'домофон', audioUrl: null },
-      { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
-      { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
-      { word: 'casa rural', translation: 'сельский дом', audioUrl: null }
+      {
+        tab: 'ПРЕДЛОГИ',
+        words: [
+          { word: 'cerca de', translation: 'рядом с', audioUrl: null },
+          { word: 'al lado de', translation: 'около', audioUrl: null },
+          { word: 'junto a', translation: 'у, рядом', audioUrl: null },
+          { word: 'lejos de', translation: 'далеко от', audioUrl: null },
+          { word: 'a la izquierda de', translation: 'слева от', audioUrl: null },
+          { word: 'a la derecha de', translation: 'справа от', audioUrl: null },
+          { word: 'frente a', translation: 'напротив', audioUrl: null },
+          { word: 'enfrente de', translation: 'напротив', audioUrl: null },
+          { word: 'delante de', translation: 'перед', audioUrl: null },
+          { word: 'ante', translation: 'перед', audioUrl: null },
+          { word: 'detrás de', translation: 'позади, сзади', audioUrl: null },
+          { word: 'tras', translation: 'позади', audioUrl: null },
+          { word: 'alrededor de', translation: 'вокруг', audioUrl: null },
+          { word: 'en torno a', translation: 'вокруг', audioUrl: null },
+          { word: 'entre', translation: 'между', audioUrl: null },
+          { word: 'dentro de', translation: 'внутри', audioUrl: null },
+          { word: 'en', translation: 'в, на', audioUrl: null },
+          { word: 'fuera de', translation: 'вне, снаружи', audioUrl: null },
+          { word: 'encima de', translation: 'над, сверху', audioUrl: null },
+          { word: 'debajo de', translation: 'под, снизу', audioUrl: null },
+          { word: 'sobre', translation: 'на', audioUrl: null },
+          { word: 'en medio de', translation: 'посреди', audioUrl: null },
+          { word: 'al fondo de', translation: 'в глубине', audioUrl: null },
+          { word: 'antes de', translation: 'до, перед', audioUrl: null },
+          { word: 'después de', translation: 'после', audioUrl: null },
+          { word: 'durante', translation: 'в течение, во время', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'casa', translation: 'дом', audioUrl: null },
+          { word: 'estación', translation: 'вокзал', audioUrl: null },
+          { word: 'monumento', translation: 'памятник', audioUrl: null },
+          { word: 'playa', translation: 'пляж', audioUrl: null },
+          { word: 'puerta', translation: 'дверь', audioUrl: null },
+          { word: 'ventana', translation: 'окно', audioUrl: null },
+          { word: 'despacho', translation: 'кабинет', audioUrl: null },
+          { word: 'cine', translation: 'кинотеатр', audioUrl: null },
+          { word: 'hotel', translation: 'гостиница', audioUrl: null },
+          { word: 'patio', translation: 'двор', audioUrl: null },
+          { word: 'ascensor', translation: 'лифт', audioUrl: null },
+          { word: 'armario', translation: 'шкаф', audioUrl: null },
+          { word: 'oficina', translation: 'офис', audioUrl: null },
+          { word: 'ordenador', translation: 'компьютер', audioUrl: null },
+          { word: 'cama', translation: 'кровать', audioUrl: null },
+          { word: 'mesa', translation: 'стол', audioUrl: null },
+          { word: 'calle', translation: 'улица', audioUrl: null },
+          { word: 'parque', translation: 'парк', audioUrl: null },
+          { word: 'operación', translation: 'операция', audioUrl: null },
+          { word: 'programa', translation: 'программа', audioUrl: null },
+          { word: 'vacaciones', translation: 'отпуск, каникулы', audioUrl: null },
+          { word: 'caber', translation: 'помещаться', audioUrl: null },
+          { word: 'saber', translation: 'знать, уметь', audioUrl: null },
+          { word: 'ver', translation: 'видеть', audioUrl: null },
+          { word: 'vivienda', translation: 'жилье', audioUrl: null },
+          { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
+          { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
+          { word: 'propietario', translation: 'собственник', audioUrl: null },
+          { word: 'edificio', translation: 'здание', audioUrl: null },
+          { word: 'espacio', translation: 'помещение', audioUrl: null },
+          { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
+          { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
+          { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
+          { word: 'superficie', translation: 'площадь', audioUrl: null },
+          { word: 'adosado', translation: 'таунхаус', audioUrl: null },
+          { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
+          { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
+          { word: 'chalé', translation: 'загородный дом', audioUrl: null },
+          { word: 'garaje', translation: 'гараж', audioUrl: null },
+          { word: 'portal', translation: 'подъезд', audioUrl: null },
+          { word: 'portero', translation: 'консьерж', audioUrl: null },
+          { word: 'ducha', translation: 'душ', audioUrl: null },
+          { word: 'bañera', translation: 'ванна', audioUrl: null },
+          { word: 'calefacción', translation: 'отопление', audioUrl: null },
+          { word: 'terraza', translation: 'лоджия', audioUrl: null },
+          { word: 'reparación', translation: 'ремонт', audioUrl: null },
+          { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
+          { word: 'barrio', translation: 'район', audioUrl: null },
+          { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'caer', translation: 'падать', audioUrl: null },
+          { word: 'dar', translation: 'давать', audioUrl: null },
+          { word: 'hacer', translation: 'делать', audioUrl: null },
+          { word: 'poner', translation: 'класть, ставить', audioUrl: null },
+          { word: 'salir', translation: 'выходить', audioUrl: null },
+          { word: 'traer', translation: 'приносить', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ',
+        words: [
+          { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
+          { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
+          { word: 'poner la radio', translation: 'включать радио', audioUrl: null },
+          { word: 'dar un paseo', translation: 'прогуляться', audioUrl: null },
+          { word: 'dar una vuelta', translation: 'прогуляться', audioUrl: null },
+          { word: 'dar un beso', translation: 'поцеловать', audioUrl: null },
+          { word: 'dar las gracias', translation: 'благодарить', audioUrl: null },
+          { word: 'dar recuerdos', translation: 'передавать привет', audioUrl: null },
+          { word: 'dar clases', translation: 'проводить занятия', audioUrl: null },
+          { word: 'dar una fiesta', translation: 'устраивать праздник', audioUrl: null },
+          { word: 'hacer preguntas', translation: 'задавать вопросы', audioUrl: null },
+          { word: 'hacer la cama', translation: 'убирать постель', audioUrl: null },
+          { word: 'hacer la maleta', translation: 'собирать чемодан', audioUrl: null },
+          { word: 'hacer ruido', translation: 'шуметь', audioUrl: null },
+          { word: 'hacer caso', translation: 'обращать внимание', audioUrl: null },
+          { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
+          { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
+          { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
+          { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
+          { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
+          { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
+          { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
+          { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
+          { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
+          { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
+          { word: 'portero automático', translation: 'домофон', audioUrl: null },
+          { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
+          { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
+          { word: 'casa rural', translation: 'сельский дом', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'Buscando piso en Madrid',
@@ -4289,46 +4404,56 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      { word: 'vivienda', translation: 'жилье', audioUrl: null },
-      { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
-      { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
-      { word: 'propietario', translation: 'собственник', audioUrl: null },
-      { word: 'edificio', translation: 'здание', audioUrl: null },
-      { word: 'espacio', translation: 'помещение', audioUrl: null },
-      { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
-      { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
-      { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
-      { word: 'superficie', translation: 'площадь', audioUrl: null },
-      { word: 'adosado', translation: 'таунхаус', audioUrl: null },
-      { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
-      { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
-      { word: 'chalé', translation: 'загородный дом', audioUrl: null },
-      { word: 'garaje', translation: 'гараж', audioUrl: null },
-      { word: 'ascensor', translation: 'лифт', audioUrl: null },
-      { word: 'portal', translation: 'подъезд', audioUrl: null },
-      { word: 'portero', translation: 'консьерж', audioUrl: null },
-      { word: 'ducha', translation: 'душ', audioUrl: null },
-      { word: 'bañera', translation: 'ванна', audioUrl: null },
-      { word: 'calefacción', translation: 'отопление', audioUrl: null },
-      { word: 'terraza', translation: 'зд. лоджия', audioUrl: null },
-      { word: 'reparación', translation: 'ремонт', audioUrl: null },
-      { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
-      { word: 'barrio', translation: 'район', audioUrl: null },
-      { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
-      { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
-      { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
-      { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
-      { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
-      { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
-      { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
-      { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
-      { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
-      { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
-      { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
-      { word: 'portero automático', translation: 'домофон', audioUrl: null },
-      { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
-      { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
-      { word: 'casa rural', translation: 'сельский дом', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'vivienda', translation: 'жилье', audioUrl: null },
+          { word: 'inmobiliario', translation: 'недвижимость', audioUrl: null },
+          { word: 'anuncio', translation: 'объявление / реклама', audioUrl: null },
+          { word: 'propietario', translation: 'собственник', audioUrl: null },
+          { word: 'edificio', translation: 'здание', audioUrl: null },
+          { word: 'espacio', translation: 'помещение', audioUrl: null },
+          { word: 'local', translation: 'помещение (для учреждения и т.п.)', audioUrl: null },
+          { word: 'alquilar', translation: 'арендовать (помещение) / сдать в аренду', audioUrl: null },
+          { word: 'alquiler', translation: 'арендная плата', audioUrl: null },
+          { word: 'superficie', translation: 'площадь', audioUrl: null },
+          { word: 'adosado', translation: 'таунхаус', audioUrl: null },
+          { word: 'dúplex', translation: 'двухуровневая квартира', audioUrl: null },
+          { word: 'estudio', translation: 'однокомнатная квартира / студия', audioUrl: null },
+          { word: 'chalé', translation: 'загородный дом', audioUrl: null },
+          { word: 'garaje', translation: 'гараж', audioUrl: null },
+          { word: 'ascensor', translation: 'лифт', audioUrl: null },
+          { word: 'portal', translation: 'подъезд', audioUrl: null },
+          { word: 'portero', translation: 'консьерж', audioUrl: null },
+          { word: 'ducha', translation: 'душ', audioUrl: null },
+          { word: 'bañera', translation: 'ванна', audioUrl: null },
+          { word: 'calefacción', translation: 'отопление', audioUrl: null },
+          { word: 'terraza', translation: 'зд. лоджия', audioUrl: null },
+          { word: 'reparación', translation: 'ремонт', audioUrl: null },
+          { word: 'reforma', translation: 'капитальный ремонт', audioUrl: null },
+          { word: 'barrio', translation: 'район', audioUrl: null },
+          { word: 'zona', translation: 'пространство / район / участок', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СЛОВОСОЧЕТАНИЯ',
+        words: [
+          { word: 'agencia inmobiliaria', translation: 'агентство недвижимости', audioUrl: null },
+          { word: 'alquilar la vivienda', translation: 'снять (сдать) жилье', audioUrl: null },
+          { word: 'aire acondicionado', translation: 'кондиционер', audioUrl: null },
+          { word: 'metros cuadrados', translation: 'квадратные метры', audioUrl: null },
+          { word: 'apartamento en alquiler', translation: 'квартира в аренду', audioUrl: null },
+          { word: 'apartamento en venta', translation: 'квартира на продажу', audioUrl: null },
+          { word: 'piso amueblado', translation: 'меблированная квартира', audioUrl: null },
+          { word: 'piso exterior', translation: 'квартира с окнами на улицу', audioUrl: null },
+          { word: 'piso interior', translation: 'квартира с окнами во двор', audioUrl: null },
+          { word: 'piso reparado', translation: 'квартира после ремонта', audioUrl: null },
+          { word: 'portero automático', translation: 'домофон', audioUrl: null },
+          { word: 'vidrios dobles', translation: 'двойные стеклопакеты', audioUrl: null },
+          { word: 'aparcamiento subterráneo', translation: 'подземная парковка', audioUrl: null },
+          { word: 'casa rural', translation: 'сельский дом', audioUrl: null },
+        ]
+      },
     ],
     readingText: {
       title: 'En la agencia inmobiliaria',
@@ -4854,518 +4979,92 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      // Дни недели
-      { word: 'lunes', translation: 'понедельник', audioUrl: null },
-      { word: 'martes', translation: 'вторник', audioUrl: null },
-      { word: 'miércoles', translation: 'среда', audioUrl: null },
-      { word: 'jueves', translation: 'четверг', audioUrl: null },
-      { word: 'viernes', translation: 'пятница', audioUrl: null },
-      { word: 'sábado', translation: 'суббота', audioUrl: null },
-      { word: 'domingo', translation: 'воскресенье', audioUrl: null },
-
-      // Месяцы
-      { word: 'enero', translation: 'январь', audioUrl: null },
-      { word: 'febrero', translation: 'февраль', audioUrl: null },
-      { word: 'marzo', translation: 'март', audioUrl: null },
-      { word: 'abril', translation: 'апрель', audioUrl: null },
-      { word: 'mayo', translation: 'май', audioUrl: null },
-      { word: 'junio', translation: 'июнь', audioUrl: null },
-      { word: 'julio', translation: 'июль', audioUrl: null },
-      { word: 'agosto', translation: 'август', audioUrl: null },
-      { word: 'septiembre', translation: 'сентябрь', audioUrl: null },
-      { word: 'octubre', translation: 'октябрь', audioUrl: null },
-      { word: 'noviembre', translation: 'ноябрь', audioUrl: null },
-      { word: 'diciembre', translation: 'декабрь', audioUrl: null },
-
-      // Завтрак и еда
-      { word: 'desayuno', translation: 'завтрак', audioUrl: null },
-      { word: 'desayunar', translation: 'завтракать', audioUrl: null },
-      { word: 'merienda', translation: 'полдник', audioUrl: null },
-      { word: 'merendar', translation: 'полдничать', audioUrl: null },
-      { word: 'desayuno continental', translation: 'континентальный завтрак', audioUrl: null },
-      { word: 'desayuno europeo', translation: 'европейский завтрак', audioUrl: null },
-      { word: 'desayuno andaluz', translation: 'андалузский завтрак', audioUrl: null },
-      { word: 'desayuno madrileño', translation: 'мадридский завтрак', audioUrl: null },
-      { word: 'leche', translation: 'молоко', audioUrl: null },
-      { word: 'café', translation: 'кофе', audioUrl: null },
-      { word: 'café con leche', translation: 'кофе с молоком', audioUrl: null },
-      { word: 'té', translation: 'чай', audioUrl: null },
-      { word: 'té con limón', translation: 'чай с лимоном', audioUrl: null },
-      { word: 'chocolate caliente', translation: 'горячий шоколад', audioUrl: null },
-      { word: 'zumo de frutas', translation: 'фруктовый сок', audioUrl: null },
-      { word: 'zumo de naranja', translation: 'апельсиновый сок', audioUrl: null },
-      { word: 'refresco', translation: 'прохладительный напиток', audioUrl: null },
-      { word: 'magdalena', translation: 'кекс', audioUrl: null },
-      { word: 'cereales', translation: 'хлопья', audioUrl: null },
-      { word: 'huevo', translation: 'яйцо', audioUrl: null },
-      { word: 'queso', translation: 'сыр', audioUrl: null },
-      { word: 'pan', translation: 'хлеб', audioUrl: null },
-      { word: 'tomate', translation: 'помидор', audioUrl: null },
-      { word: 'aceite', translation: 'растительное масло', audioUrl: null },
-      { word: 'pan con tomate y aceite de oliva', translation: 'хлеб с помидором и оливковым маслом', audioUrl: null },
-      { word: 'aceite de oliva', translation: 'оливковое масло', audioUrl: null },
-      { word: 'bocadillo de jamón', translation: 'бутерброд с ветчиной', audioUrl: null },
-      { word: 'tostada', translation: 'тост', audioUrl: null },
-      { word: 'mantequilla', translation: 'сливочное масло', audioUrl: null },
-      { word: 'tostada con mantequilla', translation: 'тост со сливочным маслом', audioUrl: null },
-      { word: 'mermelada', translation: 'джем', audioUrl: null },
-      { word: 'bollo', translation: 'булочка', audioUrl: null },
-      { word: 'bollería', translation: 'булочные изделия', audioUrl: null },
-      { word: 'churros', translation: 'чуррос', audioUrl: null },
-      { word: 'churros con chocolate', translation: 'чуррос с шоколадом', audioUrl: null },
-      { word: 'sandwich', translation: 'сендвич', audioUrl: null },
-      { word: 'galletas', translation: 'сухое печенье', audioUrl: null },
-      { word: 'cafetería', translation: 'кафе', audioUrl: null },
-      { word: 'abrir', translation: 'открывать, открываться', audioUrl: null },
-      { word: 'cerrar', translation: 'закрывать, закрываться', audioUrl: null },
-      { word: 'empezar', translation: 'начинать', audioUrl: null },
-      { word: 'terminar de hacer algo', translation: 'заканчивать что-либо делать', audioUrl: null }
-    ],
-    exercises: ['ex-3-4-1', 'ex-3-4-2', 'ex-3-4-3', 'ex-3-4-4', 'ex-3-4-5', 'ex-3-4-6', 'ex-3-4-7', 'ex-3-4-8', 'ex-3-4-9', 'ex-3-4-10', 'ex-3-4-11', 'ex-3-4-12', 'ex-3-4-13', 'ex-3-4-14', 'ex-3-4-15', 'ex-3-4-16', 'ex-3-4-17', 'ex-3-4-18']
-  },
-
-  // МОДУЛЬ 4: Повседневные занятия (A1)
-  'lesson-4-1': {
-    id: 'lesson-4-1',
-    title: 'Урок 1: Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
-    moduleId: 'module-4',
-    grammar: {
-      title: 'Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
-      intro: `В этом уроке мы изучим, как говорить о времени по-испански, познакомимся с возвратными глаголами (которые описывают действия, направленные на себя) и научимся использовать герундий для описания текущих действий.`,
-      sections: [
-        {
-          id: 'time',
-          title: 'Обозначение часового времени',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Обозначение часового времени
-
-В испанском языке при обозначении времени слово **hora** (час) используется только в вопросе, а в ответах сохраняется лишь определенный артикль этого существительного. В разговорной речи слово **minuto** (минута) также не употребляется.
-
-**¿Qué hora es?** — Который час? / Сколько времени?
-
-### Таблица времени
-
-| Время | Испанский вариант | Русский перевод |
-|-------|-------------------|-----------------|
-| 1:00 | Es la una en punto. | Сейчас ровно час. |
-| 2:00 – 11:00 | Son las dos (tres, cuatro...) en punto. | Сейчас 2 (3, 4...) часа ровно. |
-| 12:00 | Son las doce. | Сейчас 12 часов. |
-| 12:00 (день) | Es mediodía. | Полдень. |
-| 24:00 (ночь) | Es medianoche. | Полночь. |
-| 9:05 | Son las nueve y cinco. | Пять минут десятого. |
-| 9:15 | Son las nueve y cuarto. | Четверть десятого. |
-| 9:30 | Son las nueve y media. | Половина десятого. |
-| 9:40 | Son las diez menos veinte. | Без двадцати десять. |
-| 9:45 | Son las diez menos cuarto. | Без четверти десять. |
-
-### Части суток в Испании
-
-В испанском языке в разговорной речи используется 12-часовой формат времени, поэтому для уточнения, о какой половине дня идет речь, употребляют описательные конструкции со словами «утра», «дня», «вечера», «ночи».
-
-- **madrugada** — рассвет / раннее утро (с 1:00 до ~ 6:00)
-- **mañana** — утро (с 6:00 до 12:00)
-- **tarde** — день / вечер (с 12:00 до ~ 20:00)
-- **noche** — вечер / ночь (с 20:00 до 24:00)
-
-**Примеры:**
-- Son las dos de la madrugada. (2 часа ночи).
-- Son las ocho de la mañana. (8 часов утра).
-- Son las cuatro de la tarde. (4 часа дня).
-- Son las diez de la noche. (10 часов вечера).
-- Es la una de la tarde. (Час дня).
-
-### Вопрос «Во сколько?»
-
-Для того чтобы узнать, в какое время произойдет определенное событие, используется вопрос:
-**¿A qué hora?** — Во сколько? / В котором часу?
-
-**Примеры:**
-- A las nueve de la mañana. (В 9 часов утра).
-- A la una y media. (В половине второго).
-- Al mediodía. (В полдень).
-- A la medianoche. (В полночь).
-
-### Обозначение времени без точности
-
-Выражения **por la mañana — por las mañanas** (утром — по утрам), **por la tarde** (днем/вечером), **por la noche** (вечером/ночью) употребляются, когда не указано точное время.
-
-**Примеры:**
-- Por las mañanas tomo un café. (По утрам я пью кофе).
-- Por la tarde estudio español. (Днем я учу испанский).
-- Por la noche miro la tele. (Вечером я смотрю телевизор).`
-        },
-        {
-          id: 'reflexive-verbs',
-          title: 'Возвратные (местоименные) глаголы',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Возвратные (местоименные) глаголы
-
-Возвратные глаголы в испанском языке обозначают действия, направленные на самого себя. В инфинитиве они имеют частицу **-se** на конце (например: levantarse — вставать, lavarse — умываться).
-
-### Возвратные местоимения
-
-При спряжении возвратных глаголов используются возвратные местоимения, которые ставятся **перед** спрягаемым глаголом:
-
-| Лицо | Местоимение | Пример (levantarse — вставать) |
-|------|-------------|--------------------------------|
-| yo | me | (yo) me levanto |
-| tú | te | (tú) te levantas |
-| él/ella/usted | se | (él/ella) se levanta |
-| nosotros/as | nos | (nosotros/as) nos levantamos |
-| vosotros/as | os | (vosotros/as) os levantáis |
-| ellos/ellas/ustedes | se | (ellos/ellas) se levantan |
-
-### Основные возвратные глаголы
-
-| Глагол | Перевод |
-|--------|---------|
-| levantarse | вставать |
-| acostarse (o→ue) | ложиться спать |
-| despertarse (e→ie) | просыпаться |
-| lavarse | умываться, мыться |
-| ducharse | принимать душ |
-| bañarse | купаться, принимать ванну |
-| peinarse | причесываться |
-| vestirse (e→i) | одеваться |
-| ponerse | надевать (одежду) |
-| quitarse | снимать (одежду) |
-| afeitarse | бриться |
-| maquillarse | краситься |
-| llamarse | зваться, называться |
-| sentarse (e→ie) | садиться |
-| quedarse | оставаться |
-| irse | уходить |
-| reunirse | собираться, встречаться |
-
-### Примеры
-
-- Me levanto a las siete de la mañana. (Я встаю в семь утра).
-- ¿A qué hora te acuestas? (Во сколько ты ложишься спать?)
-- Ella se ducha por la mañana. (Она принимает душ утром).
-- Nos vestimos rápido. (Мы одеваемся быстро).
-- ¿Cómo te llamas? (Как тебя зовут?)
-- Me llamo Ana. (Меня зовут Ана).
-
-**Важно:** Многие возвратные глаголы также являются отклоняющимися (stem-changing), например:
-- acostarse (o→ue): me acuesto, te acuestas, se acuesta, nos acostamos, os acostáis, se acuestan
-- despertarse (e→ie): me despierto, te despiertas, se despierta, nos despertamos, os despertáis, se despiertan
-- vestirse (e→i): me visto, te vistes, se viste, nos vestimos, os vestís, se visten`
-        },
-        {
-          id: 'reflexive-verbs-se-meaning-change',
-          title: 'Изменение смысла глагола при добавлении частички SE',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Изменение смысла глагола при добавлении частички SE
-
-Многие глаголы меняют свое значение при добавлении возвратной частицы **-se**. Глагол без частицы обозначает действие, направленное на другой объект, а с частицей **-se** — действие, направленное на себя или изменение состояния.
-
-| Глагол без SE | Перевод | Глагол с SE | Перевод |
-|---------------|---------|-------------|---------|
-| preparar | готовить | prepararse para | готовиться к |
-| encontrar | находить | encontrarse | находиться |
-| dormir | спать | dormirse | засыпать |
-| despertar | будить | despertarse | просыпаться |
-| ir | ходить | irse | уходить |
-| sentir | сожалеть | sentirse | чувствовать себя |
-| hacer | делать | hacerse | стать |
-| poner | положить | ponerse | надеть на себя |
-| llamar | звать | llamarse | зваться, называться |
-
-**Примеры:**
-
-- Preparo la cena. (Я готовлю ужин). → Me preparo para el examen. (Я готовлюсь к экзамену).
-- Encuentro el libro. (Я нахожу книгу). → Me encuentro en casa. (Я нахожусь дома).
-- El bebé duerme. (Малыш спит). → El bebé se duerme. (Малыш засыпает).
-- Despierto a mi hermano. (Я бужу брата). → Me despierto a las 7. (Я просыпаюсь в 7).
-- Voy al cine. (Я иду в кино). → Me voy de casa. (Я ухожу из дома).
-- Siento tu dolor. (Я сожалею о твоей боли). → Me siento bien. (Я чувствую себя хорошо).
-
-**PONERSE** (надевать на себя / становиться):
-
-| Выражение | Перевод |
-|-----------|---------|
-| ponerse los zapatos | надевать туфли |
-| ponerse + прилагательное | становиться |
-| ponerse rojo | покраснеть |
-| ponerse blanco | побледнеть |
-| ponerse moreno | загореть |
-| ponerse triste | загрустить |
-| ponerse alegre | развеселиться, обрадоваться |
-| ponerse nervioso | занервничать |
-| ponerse enfermo | заболеть |
-
-**Примеры:**
-- Me pongo los zapatos. (Я надеваю туфли).
-- Te pones rojo cuando hablas en público. (Ты краснеешь, когда говоришь публично).
-- Ella se pone triste cuando llueve. (Она грустит, когда идет дождь).
-
-**HACERSE** (стать):
-
-| Выражение | Перевод |
-|-----------|---------|
-| hacerse + прилагательное / существительное | стать |
-| hacerse rico | разбогатеть / стать богатым |
-| hacerse famoso | стать известным |
-| hacerse campeón | стать чемпионом |
-| hacerse amigos | подружиться / стать друзьями |
-
-**Примеры:**
-- Quiero hacerme rico. (Я хочу стать богатым).
-- Ella se hace famosa. (Она становится известной).
-- Nos hacemos amigos. (Мы становимся друзьями / подружились).`
-        },
-        {
-          id: 'reflexive-verbs-conjugation',
-          title: 'Спряжение возвратных глаголов',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Спряжение возвратных глаголов
-
-При спряжении возвратное местоимение **-se** изменяется по лицам и ставится **перед** личной формой глагола.
-
-### Ejemplo: llamarse (зваться / называться)
-
-| Лицо | Местоимение + Глагол | Перевод |
-|------|---------------------|---------|
-| yo | me llamo | меня зовут / я называюсь |
-| tú | te llamas | тебя зовут / ты называешься |
-| él, ella, usted | se llama | его, ее, Вас зовут / он, она называется, Вы называетесь |
-| nosotros (-as) | nos llamamos | нас зовут / мы называемся |
-| vosotros (-as) | os llamáis | вас зовут / вы называетесь |
-| ellos (-as), ustedes | se llaman | их, Вас зовут / они называются, Вы называетесь |
-
-### Местоимение с инфинитивом
-
-С инфинитивом и герундием возвратное местоимение **-se** также изменяется по лицам, но пишется **слитно** после неличной формы глагола.
-
-### Ejemplo: prepararse (готовиться)
-
-| Лицо | Личная форма | С инфинитивом (хотеть подготовиться) |
-|------|--------------|--------------------------------------|
-| yo | me preparo | quiero prepararme |
-| tú | te preparas | quieres prepararte |
-| él, ella, usted | se prepara | quiere prepararse |
-| nosotros (-as) | nos preparamos | queremos prepararnos |
-| vosotros (-as) | os preparáis | queréis prepararos |
-| ellos (-as), ustedes | se preparan | quieren prepararse |
-
-### Примеры:
-
-- **Me preparo** para la clase de español. (Я готовлюсь к уроку испанского).
-- Tenemos que **prepararnos** para el viaje. (Нам нужно подготовиться к поездке).
-- ¿A qué hora **te levantas**? (Во сколько ты встаешь?)
-- Juan tiene que **lavarse** las manos. (Хуану нужно помыть руки).
-- **Se visten** rápido. (Они одеваются быстро).
-- Quiero **ducharme** ahora. (Я хочу принять душ сейчас).
-- ¿Puedes **peinarte** antes de salir? (Можешь причесаться перед выходом?)
-- **Nos acostamos** a las once. (Мы ложимся спать в одиннадцать).`
-        },
-        {
-          id: 'gerund',
-          title: 'Герундий (Gerundio)',
-          collapsible: true,
-          defaultOpen: false,
-          content: `## Герундий (Gerundio)
-
-Герундий — это неизменяемая форма глагола, которая отвечает на вопрос «что делая?». В сочетании с глаголом **estar** он образует конструкцию, которая описывает действие, происходящее прямо сейчас.
-
-### 1. Как образуется герундий
-
-Для образования герундия нужно отбросить окончание инфинитива и добавить суффикс:
-
-| Спряжение | Суффикс | Примеры |
-|-----------|---------|---------|
-| **-ar** (1) | **-ando** | hablar → hablando (говоря) |
-| **-er** (2) | **-iendo** | comer → comiendo (едя) |
-| **-ir** (3) | **-iendo** | vivir → viviendo (живя) |
-
-### 2. Особые формы (нужно запомнить)
-
-Иногда в основе происходят изменения, чтобы слово звучало красиво или согласно правилам:
-
-**Замена i на y (между гласными):**
-- leer → **leyendo** (читая)
-- ir → **yendo** (идя)
-- oír → **oyendo** (слыша)
-
-**Изменение гласной в корне (только для глаголов на -ir):**
-- **e → i:** decir → **diciendo**, pedir → **pidiendo**
-- **o → u:** dormir → **durmiendo**, morir → **muriendo**
-
-### 3. Конструкция Estar + Gerundio
-
-Эта конструкция нужна, чтобы подчеркнуть, что действие происходит в момент речи.
-
-**Примеры:**
-- ¿Qué estás haciendo? — Что ты сейчас делаешь?
-- Estoy comiendo una pizza. — Я (сейчас) ем пиццу.
-- Juan está durmiendo. — Хуан (сейчас) спит.
-- Estamos estudiando español. — Мы (сейчас) учим испанский.
-
-### 4. Местоимения с герундием
-
-Если глагол возвратный или есть дополнения (меня, его, нам), местоимение можно поставить **перед** estar или приклеить к концу герундия.
-
-**Примеры:**
-- **Me estoy lavando.** / **Estoy lavándome.** (Я умываюсь).
-- **Lo estoy leyendo.** / **Estoy leyéndolo.** (Я это читаю).
-
-**Примечание:** при добавлении местоимения в конец герундия появляется графическое ударение.
-
-### 5. Другие случаи использования
-
-**Как обстоятельство (как? каким образом?):**
-- Escucho música caminando por la calle. — Я слушаю музыку, гуляя по улице.
-
-**С глаголом seguir (продолжать):**
-- Sigo trabajando aquí. — Я продолжаю здесь работать.
-
-**Отрицание (sin + инфинитив):**
-
-Если мы хотим сказать «не делая чего-то», используем **sin**:
-- Entra sin llamar. — Он заходит, не постучав.
-
-### Примеры для практики:
-
-- ¿Dónde está Pablo? — Está duchándose. (Где Пабло? — Он принимает душ).
-- Ahora no puedo hablar, estoy conduciendo. (Сейчас не могу говорить, я за рулем / веду машину).
-- Mis amigos están bailando en la fiesta. (Мои друзья танцуют на вечеринке).`
-        }
-      ]
-    },
-    vocabulary: [
+      {
+        tab: 'ДНИ НЕДЕЛИ',
+        words: [
+          { word: 'lunes', translation: 'понедельник', audioUrl: null },
+          { word: 'martes', translation: 'вторник', audioUrl: null },
+          { word: 'miércoles', translation: 'среда', audioUrl: null },
+          { word: 'jueves', translation: 'четверг', audioUrl: null },
+          { word: 'viernes', translation: 'пятница', audioUrl: null },
+          { word: 'sábado', translation: 'суббота', audioUrl: null },
+          { word: 'domingo', translation: 'воскресенье', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'МЕСЯЦЫ',
+        words: [
+          { word: 'enero', translation: 'январь', audioUrl: null },
+          { word: 'febrero', translation: 'февраль', audioUrl: null },
+          { word: 'marzo', translation: 'март', audioUrl: null },
+          { word: 'abril', translation: 'апрель', audioUrl: null },
+          { word: 'mayo', translation: 'май', audioUrl: null },
+          { word: 'junio', translation: 'июнь', audioUrl: null },
+          { word: 'julio', translation: 'июль', audioUrl: null },
+          { word: 'agosto', translation: 'август', audioUrl: null },
+          { word: 'septiembre', translation: 'сентябрь', audioUrl: null },
+          { word: 'octubre', translation: 'октябрь', audioUrl: null },
+          { word: 'noviembre', translation: 'ноябрь', audioUrl: null },
+          { word: 'diciembre', translation: 'декабрь', audioUrl: null },
+        ]
+      },
       {
         tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
         words: [
-          { word: 'hora', translation: 'час', audioUrl: null },
-          { word: 'minuto', translation: 'минута', audioUrl: null },
-          { word: 'segundo', translation: 'секунда', audioUrl: null },
-          { word: 'reloj', translation: 'часы', audioUrl: null },
-          { word: 'despertador', translation: 'будильник', audioUrl: null },
-          { word: 'mediodía', translation: 'полдень', audioUrl: null },
-          { word: 'medianoche', translation: 'полночь', audioUrl: null },
-          { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
-          { word: 'mañana', translation: 'утро', audioUrl: null },
-          { word: 'tarde', translation: 'день, вечер', audioUrl: null },
-          { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
-          { word: 'tiempo', translation: 'время', audioUrl: null },
-          { word: 'retraso', translation: 'опоздание', audioUrl: null },
-          { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
-          { word: 'almuerzo', translation: 'обед', audioUrl: null },
-          { word: 'cena', translation: 'ужин', audioUrl: null },
-          { word: 'costumbre', translation: 'привычка', audioUrl: null },
-          { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null }
+          { word: 'desayuno', translation: 'завтрак', audioUrl: null },
+          { word: 'merienda', translation: 'полдник', audioUrl: null },
+          { word: 'merendar', translation: 'полдничать', audioUrl: null },
+          { word: 'leche', translation: 'молоко', audioUrl: null },
+          { word: 'café', translation: 'кофе', audioUrl: null },
+          { word: 'té', translation: 'чай', audioUrl: null },
+          { word: 'refresco', translation: 'прохладительный напиток', audioUrl: null },
+          { word: 'magdalena', translation: 'кекс', audioUrl: null },
+          { word: 'cereales', translation: 'хлопья', audioUrl: null },
+          { word: 'huevo', translation: 'яйцо', audioUrl: null },
+          { word: 'queso', translation: 'сыр', audioUrl: null },
+          { word: 'pan', translation: 'хлеб', audioUrl: null },
+          { word: 'tomate', translation: 'помидор', audioUrl: null },
+          { word: 'aceite', translation: 'растительное масло', audioUrl: null },
+          { word: 'tostada', translation: 'тост', audioUrl: null },
+          { word: 'mantequilla', translation: 'сливочное масло', audioUrl: null },
+          { word: 'mermelada', translation: 'джем', audioUrl: null },
+          { word: 'bollo', translation: 'булочка', audioUrl: null },
+          { word: 'bollería', translation: 'булочные изделия', audioUrl: null },
+          { word: 'churros', translation: 'чуррос', audioUrl: null },
+          { word: 'sandwich', translation: 'сендвич', audioUrl: null },
+          { word: 'galletas', translation: 'сухое печенье', audioUrl: null },
+          { word: 'cafetería', translation: 'кафе', audioUrl: null },
+          { word: 'abrir', translation: 'открывать, открываться', audioUrl: null },
+          { word: 'cerrar', translation: 'закрывать, закрываться', audioUrl: null },
+          { word: 'empezar', translation: 'начинать', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'СЛОВОСОЧЕТАНИЯ',
+        words: [
+          { word: 'desayuno continental', translation: 'континентальный завтрак', audioUrl: null },
+          { word: 'desayuno europeo', translation: 'европейский завтрак', audioUrl: null },
+          { word: 'desayuno andaluz', translation: 'андалузский завтрак', audioUrl: null },
+          { word: 'desayuno madrileño', translation: 'мадридский завтрак', audioUrl: null },
+          { word: 'café con leche', translation: 'кофе с молоком', audioUrl: null },
+          { word: 'té con limón', translation: 'чай с лимоном', audioUrl: null },
+          { word: 'chocolate caliente', translation: 'горячий шоколад', audioUrl: null },
+          { word: 'zumo de frutas', translation: 'фруктовый сок', audioUrl: null },
+          { word: 'zumo de naranja', translation: 'апельсиновый сок', audioUrl: null },
+          { word: 'pan con tomate y aceite de oliva', translation: 'хлеб с помидором и оливковым маслом', audioUrl: null },
+          { word: 'aceite de oliva', translation: 'оливковое масло', audioUrl: null },
+          { word: 'bocadillo de jamón', translation: 'бутерброд с ветчиной', audioUrl: null },
+          { word: 'tostada con mantequilla', translation: 'тост со сливочным маслом', audioUrl: null },
+          { word: 'churros con chocolate', translation: 'чуррос с шоколадом', audioUrl: null },
+          { word: 'terminar de hacer algo', translation: 'заканчивать что-либо делать', audioUrl: null },
         ]
       },
       {
         tab: 'ГЛАГОЛЫ',
         words: [
-          { word: 'preparar', translation: 'готовить', audioUrl: null },
-          { word: 'encontrar', translation: 'находить', audioUrl: null },
-          { word: 'dormir', translation: 'спать', audioUrl: null },
-          { word: 'despertar', translation: 'будить', audioUrl: null },
-          { word: 'ir', translation: 'ходить', audioUrl: null },
-          { word: 'sentir', translation: 'сожалеть', audioUrl: null },
-          { word: 'hacer', translation: 'делать', audioUrl: null },
-          { word: 'poner', translation: 'положить', audioUrl: null },
-          { word: 'levantarse', translation: 'вставать', audioUrl: null },
-          { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
-          { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
-          { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
-          { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
-          { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
-          { word: 'peinarse', translation: 'причесываться', audioUrl: null },
-          { word: 'vestirse', translation: 'одеваться', audioUrl: null },
-          { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
-          { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
-          { word: 'afeitarse', translation: 'бриться', audioUrl: null },
-          { word: 'maquillarse', translation: 'краситься', audioUrl: null },
-          { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
-          { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
-          { word: 'sentarse', translation: 'садиться', audioUrl: null },
-          { word: 'quedarse', translation: 'оставаться', audioUrl: null },
-          { word: 'irse', translation: 'уходить', audioUrl: null },
-          { word: 'despedirse', translation: 'прощаться', audioUrl: null },
-          { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
           { word: 'desayunar', translation: 'завтракать', audioUrl: null },
-          { word: 'almorzar', translation: 'обедать', audioUrl: null },
-          { word: 'cenar', translation: 'ужинать', audioUrl: null },
-          { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
-          { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
-          { word: 'pasear', translation: 'гулять', audioUrl: null },
-          { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-          { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
-          { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
-          { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
-          { word: 'planchar', translation: 'гладить', audioUrl: null },
-          { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null },
-          { word: 'cuidar', translation: 'ухаживать, заботиться', audioUrl: null }
         ]
       },
-      {
-        tab: 'ВЫРАЖЕНИЯ',
-        words: [
-          { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
-          { word: 'y cuarto', translation: 'четверть', audioUrl: null },
-          { word: 'y media', translation: 'половина', audioUrl: null },
-          { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
-          { word: 'media hora', translation: 'полчаса', audioUrl: null },
-          { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
-          { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
-          { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
-          { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
-          { word: 'después de las seis', translation: 'после шести', audioUrl: null },
-          { word: 'temprano', translation: 'рано', audioUrl: null },
-          { word: 'tarde', translation: 'поздно', audioUrl: null },
-          { word: 'pronto', translation: 'скоро', audioUrl: null },
-          { word: 'luego', translation: 'потом', audioUrl: null },
-          { word: 'después', translation: 'после', audioUrl: null },
-          { word: 'antes', translation: 'до, перед', audioUrl: null },
-          { word: 'ahora', translation: 'сейчас', audioUrl: null },
-          { word: 'siempre', translation: 'всегда', audioUrl: null },
-          { word: 'nunca', translation: 'никогда', audioUrl: null },
-          { word: 'a veces', translation: 'иногда', audioUrl: null },
-          { word: 'todos los días', translation: 'каждый день', audioUrl: null },
-          { word: 'cada día', translation: 'каждый день', audioUrl: null },
-          { word: 'normalmente', translation: 'обычно', audioUrl: null },
-          { word: 'generalmente', translation: 'как правило', audioUrl: null },
-          { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
-          { word: 'encontrarse', translation: 'находиться', audioUrl: null },
-          { word: 'dormirse', translation: 'засыпать', audioUrl: null },
-          { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
-          { word: 'hacerse', translation: 'стать', audioUrl: null },
-          { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
-          { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
-          { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
-          { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
-          { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
-          { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
-          { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
-          { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
-          { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
-          { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
-          { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
-          { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
-          { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
-          { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
-          { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
-          { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
-          { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
-          { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
-          { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
-          { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
-          { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
-          { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
-          { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
-          { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
-          { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
-          { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
-          { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null }
-        ]
-      }
     ],
     readingText: [
       {
