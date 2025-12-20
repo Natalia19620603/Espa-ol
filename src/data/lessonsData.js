@@ -5905,6 +5905,70 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
           { word: 'feliz', translation: 'счастливый', audioUrl: null },
           { word: 'cordial', translation: 'сердечный', audioUrl: null }
         ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ',
+        words: [
+          { word: 'doblar la esquina', translation: 'повернуть за угол', audioUrl: null },
+          { word: 'cruzar la plaza', translation: 'перейти площадь', audioUrl: null },
+          { word: 'seguir todo recto', translation: 'идти все время прямо', audioUrl: null },
+          { word: 'girar a la izquierda', translation: 'повернуть налево', audioUrl: null },
+          { word: 'girar a la derecha', translation: 'повернуть направо', audioUrl: null },
+          { word: 'tomar el metro', translation: 'сесть в метро', audioUrl: null },
+          { word: 'a dos cuadras de aquí', translation: 'в двух кварталах отсюда', audioUrl: null },
+          { word: 'a quinientos metros de la estación', translation: 'в пятистах метрах от вокзала', audioUrl: null },
+          { word: 'subir por la calle', translation: 'подняться вверх по улице', audioUrl: null },
+          { word: 'bajar por la avenida', translation: 'спуститься вниз по проспекту', audioUrl: null },
+          { word: 'enseñar el camino en el mapa', translation: 'показать дорогу на карте', audioUrl: null },
+          { word: 'buscar el camino', translation: 'искать дорогу', audioUrl: null },
+          { word: 'perderse', translation: 'потеряться / заблудиться', audioUrl: null },
+          { word: 'transeúnte', translation: 'прохожий', audioUrl: null }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: 'ТЕКСТ',
+        title: 'Madrid - una ciudad fascinante',
+        content: `Madrid es la capital de España y una de las ciudades más grandes de Europa. Está situada en el centro del país.
+
+En Madrid hay muchos monumentos históricos: el Palacio Real, la Catedral de la Almudena, la Plaza Mayor y el Parque del Retiro. Los turistas siempre visitan estos lugares porque son muy bonitos e interesantes.
+
+El centro de la ciudad tiene calles largas y anchas como la Gran Vía y el Paseo de la Castellana. También hay muchos barrios diferentes. El barrio más antiguo se llama Austrias. Allí las calles son estrechas y hay muchas plazas pequeñas.
+
+Para moverse por Madrid es muy fácil. El metro funciona muy bien y hay muchas líneas. Los autobuses también circulan regularmente. Muchas personas prefieren caminar porque así conocen mejor la ciudad.
+
+En Madrid la gente vive alegremente. Los madrileños comen tarde - normalmente almuerzan a las dos o tres de la tarde y cenan a las diez de la noche. Les gusta mucho salir a pasear y tomar algo en las terrazas.
+
+Si visitas Madrid, no puedes perderte el Museo del Prado. Es uno de los museos más importantes del mundo. Allí puedes ver obras de Velázquez, Goya y El Greco.`
+      },
+      {
+        tab: 'ДИАЛОГИ',
+        title: 'Диалоги о городе',
+        content: `**¿Dónde está la biblioteca?**
+
+María: ¡Perdone, señor! ¿Hay una biblioteca por aquí?
+José: Sí, hay una cerca de la catedral.
+María: ¿Cómo se va? No sé el camino.
+José: Es fácil. Siga todo recto hasta el segundo semáforo. Allí doble a la izquierda.
+María: ¿Está muy lejos de aquí?
+José: No, a unos diez minutos a pie. Son unos ochocientos metros.
+María: ¿Puede enseñarme el camino en el mapa?
+José: Sí, mire. Estamos aquí. Siga esta calle.
+María: Muchas gracias, José. Usted es muy amable.
+José: De nada, María. ¡Adiós!
+
+---
+
+**¿Dónde está el hotel?**
+
+Ana: ¡Perdone! ¿Cómo puedo llegar a la Plaza Mayor?
+Luis: No lo sé, lo siento. ¿Qué busca usted exactamente?
+Ana: Busco un hotel pequeño que se llama "El Sol".
+Luis: No tengo ni idea... Es que no soy de este barrio.
+Ana: No pasa nada. Gracias de todos modos.
+Luis: Perdón por no ayudar.
+Ana: No se preocupe. ¡Adiós!`
       }
     ],
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
@@ -15624,14 +15688,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-4-2-3',
     type: 'fillblank',
     title: 'Упражнение 3: Абсолютная превосходная степень',
-    description: 'Измените фразы по образцу',
+    description: 'Вставьте правильную форму абсолютной превосходной степени',
     questions: [
-      { sentence: 'Me levanto temprano. — Me levanto ________ / lo más temprano ________.', correct: 'tempranísimo / posible', blanks: 2 },
-      { sentence: 'Leemos diálogos altamente. — Leemos diálogos ________ / lo más alto ________.', correct: 'altísimamente / posible', blanks: 2 },
-      { sentence: 'Tú juegas bien al tenis. — Tú juegas muy ________ / lo ________ posible.', correct: 'bien / mejor', blanks: 2 },
-      { sentence: 'Me voy lejos de aquí. — Me voy ________ / lo más lejos ________.', correct: 'lejísimos / posible', blanks: 2 },
-      { sentence: 'Coméis poco. — Coméis ________ / lo ________ posible.', correct: 'poquísimo / menos', blanks: 2 },
-      { sentence: 'Ellos trabajan mucho. — Ellos trabajan ________ / lo más ________.', correct: 'muchísimo / posible', blanks: 2 }
+      { sentence: 'Me levanto temprano. — Me levanto ________.', correct: 'tempranísimo', blanks: 1 },
+      { sentence: 'Ella habla rápidamente. — Ella habla ________.', correct: 'rapidísimamente', blanks: 1 },
+      { sentence: 'Tú juegas bien al tenis. — Tú juegas ________.', correct: 'muy bien', blanks: 1 },
+      { sentence: 'Me voy lejos de aquí. — Me voy ________.', correct: 'lejísimos', blanks: 1 },
+      { sentence: 'Coméis poco. — Coméis ________.', correct: 'poquísimo', blanks: 1 },
+      { sentence: 'Ellos trabajan mucho. — Ellos trabajan ________.', correct: 'muchísimo', blanks: 1 },
+      { sentence: 'El museo está cerca del centro. — El museo está ________.', correct: 'cerquísima', blanks: 1 },
+      { sentence: 'María canta mal. — María canta ________.', correct: 'muy mal', blanks: 1 },
+      { sentence: 'Los estudiantes estudian felizmente. — Los estudiantes estudian ________.', correct: 'felicísimamente', blanks: 1 },
+      { sentence: 'Vosotros llegáis tarde a casa. — Vosotros llegáis ________.', correct: 'tardísimo', blanks: 1 }
     ]
   },
 
@@ -15714,16 +15782,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 6: Глаголы estudiar / aprender / enseñar',
     description: 'Выберите подходящий глагол и поставьте его в нужную форму',
     questions: [
-      { sentence: 'El profesor ________ (enseñar) a los alumnos los monumentos más importantes en el mapa.', correct: 'enseña', blanks: 1 },
-      { sentence: 'Mi hermano mayor ________ (estudiar) medicina en Madrid y vive en el tercer piso.', correct: 'estudia', blanks: 1 },
-      { sentence: 'Si quieres hablar español tan bien como Lola, tienes que ________ (aprender) muchas reglas.', correct: 'aprender', blanks: 1 },
-      { sentence: '¿Quién te ________ (enseñar) a tocar la guitarra? — Mi padre me ________ (enseñar) cada domingo.', correct: 'enseña / enseña', blanks: 2 },
-      { sentence: 'Los niños ________ (aprender) a montar en bicicleta muy rápidamente.', correct: 'aprenden', blanks: 1 },
-      { sentence: 'Mi hermana ________ (estudiar) en la facultad de derecho y quiere ser abogada.', correct: 'estudia', blanks: 1 },
-      { sentence: 'Hoy tengo que ________ (aprender) los números del cien al mil millones.', correct: 'aprender', blanks: 1 },
-      { sentence: '¿Puedes ________ (enseñar) dónde está el banco más cercano?', correct: 'enseñar', blanks: 1 },
-      { sentence: 'Nosotros ________ (aprender) a bailar salsa en una academia muy buena.', correct: 'aprendemos', blanks: 1 },
-      { sentence: 'El abuelo ________ (enseñar) a sus nietos a jugar al ajedrez.', correct: 'enseña', blanks: 1 }
+      { sentence: 'El profesor ________ a los alumnos los monumentos más importantes en el mapa.', correct: 'enseña', blanks: 1 },
+      { sentence: 'Mi hermano mayor ________ medicina en Madrid y vive en el tercer piso.', correct: 'estudia', blanks: 1 },
+      { sentence: 'Si quieres hablar español tan bien como Lola, tienes que ________ muchas reglas.', correct: 'aprender', blanks: 1 },
+      { sentence: '¿Quién te ________ a tocar la guitarra? — Mi padre me ________ cada domingo.', correct: 'enseña / enseña', blanks: 2 },
+      { sentence: 'Los niños ________ a montar en bicicleta muy rápidamente.', correct: 'aprenden', blanks: 1 },
+      { sentence: 'Mi hermana ________ en la facultad de derecho y quiere ser abogada.', correct: 'estudia', blanks: 1 },
+      { sentence: 'Hoy tengo que ________ los números del cien al mil millones.', correct: 'aprender', blanks: 1 },
+      { sentence: '¿Puedes ________ dónde está el banco más cercano?', correct: 'enseñar', blanks: 1 },
+      { sentence: 'Nosotros ________ a bailar salsa en una academia muy buena.', correct: 'aprendemos', blanks: 1 },
+      { sentence: 'El abuelo ________ a sus nietos a jugar al ajedrez.', correct: 'enseña', blanks: 1 }
     ]
   },
 
@@ -15733,16 +15801,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 7: Глаголы proponer / ofrecer',
     description: 'Выберите подходящий глагол и поставьте его в нужную форму',
     questions: [
-      { sentence: 'Si tienes frío, te ________ (ofrecer) mi chaqueta.', correct: 'ofrezco', blanks: 1 },
-      { sentence: 'Nosotros os ________ (proponer) ir al cine esta tarde, ¿qué decís?', correct: 'proponemos', blanks: 1 },
-      { sentence: 'Siempre me ________ (ofrecer) un café cuando voy a su casa.', correct: 'ofrecen', blanks: 1 },
-      { sentence: '¿Qué nos ________ (proponer) usted para solucionar este problema de tráfico?', correct: 'propone', blanks: 1 },
-      { sentence: 'Mis amigos me ________ (ofrecer) su ayuda porque saben que vivo solo.', correct: 'ofrecen', blanks: 1 },
-      { sentence: 'El camarero nos ________ (ofrecer) el menú del día.', correct: 'ofrece', blanks: 1 },
-      { sentence: '¿Por qué le ________ (proponer) tú viajar a América Latina en verano?', correct: 'propones', blanks: 1 },
-      { sentence: 'Ellos nos ________ (ofrecer) su apartamento en la playa para las vacaciones.', correct: 'ofrecen', blanks: 1 },
-      { sentence: 'Yo te ________ (proponer) cenar en el restaurante que está cerca del puerto.', correct: 'propongo', blanks: 1 },
-      { sentence: 'El director les ________ (ofrecer) un nuevo puesto de trabajo con mejor sueldo.', correct: 'ofrece', blanks: 1 }
+      { sentence: 'Si tienes frío, te ________ mi chaqueta.', correct: 'ofrezco', blanks: 1 },
+      { sentence: 'Nosotros os ________ ir al cine esta tarde, ¿qué decís?', correct: 'proponemos', blanks: 1 },
+      { sentence: 'Siempre me ________ un café cuando voy a su casa.', correct: 'ofrecen', blanks: 1 },
+      { sentence: '¿Qué nos ________ usted para solucionar este problema de tráfico?', correct: 'propone', blanks: 1 },
+      { sentence: 'Mis amigos me ________ su ayuda porque saben que vivo solo.', correct: 'ofrecen', blanks: 1 },
+      { sentence: 'El camarero nos ________ el menú del día.', correct: 'ofrece', blanks: 1 },
+      { sentence: '¿Por qué le ________ tú viajar a América Latina en verano?', correct: 'propones', blanks: 1 },
+      { sentence: 'Ellos nos ________ su apartamento en la playa para las vacaciones.', correct: 'ofrecen', blanks: 1 },
+      { sentence: 'Yo te ________ cenar en el restaurante que está cerca del puerto.', correct: 'propongo', blanks: 1 },
+      { sentence: 'El director les ________ un nuevo puesto de trabajo con mejor sueldo.', correct: 'ofrece', blanks: 1 }
     ]
   },
 
