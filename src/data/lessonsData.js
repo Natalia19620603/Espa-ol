@@ -5382,131 +5382,144 @@ María: ¡Vamos!`,
       ]
     },
     vocabulary: [
-      // Время
-      { word: 'hora', translation: 'час', audioUrl: null },
-      { word: 'minuto', translation: 'минута', audioUrl: null },
-      { word: 'segundo', translation: 'секунда', audioUrl: null },
-      { word: 'reloj', translation: 'часы', audioUrl: null },
-      { word: 'despertador', translation: 'будильник', audioUrl: null },
-      { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
-      { word: 'y cuarto', translation: 'четверть', audioUrl: null },
-      { word: 'y media', translation: 'половина', audioUrl: null },
-      { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
-      { word: 'mediodía', translation: 'полдень', audioUrl: null },
-      { word: 'medianoche', translation: 'полночь', audioUrl: null },
-      { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
-      { word: 'mañana', translation: 'утро', audioUrl: null },
-      { word: 'tarde', translation: 'день, вечер', audioUrl: null },
-      { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
-      { word: 'media hora', translation: 'полчаса', audioUrl: null },
-      { word: 'tiempo', translation: 'время', audioUrl: null },
-      { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
-      { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
-      { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
-      { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
-      { word: 'después de las seis', translation: 'после шести', audioUrl: null },
-      { word: 'retraso', translation: 'опоздание', audioUrl: null },
-
-      // Глаголы и их возвратные формы
-      { word: 'preparar', translation: 'готовить', audioUrl: null },
-      { word: 'encontrar', translation: 'находить', audioUrl: null },
-      { word: 'dormir', translation: 'спать', audioUrl: null },
-      { word: 'despertar', translation: 'будить', audioUrl: null },
-      { word: 'ir', translation: 'ходить', audioUrl: null },
-      { word: 'sentir', translation: 'сожалеть', audioUrl: null },
-      { word: 'hacer', translation: 'делать', audioUrl: null },
-      { word: 'poner', translation: 'положить', audioUrl: null },
-      { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
-      { word: 'encontrarse', translation: 'находиться', audioUrl: null },
-      { word: 'dormirse', translation: 'засыпать', audioUrl: null },
-      { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
-      { word: 'hacerse', translation: 'стать', audioUrl: null },
-      { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
-      { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
-      { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
-      { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
-      { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
-      { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
-      { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
-      { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
-      { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
-      { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
-      { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
-      { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
-
-      // Возвратные глаголы
-      { word: 'levantarse', translation: 'вставать', audioUrl: null },
-      { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
-      { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
-      { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
-      { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
-      { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
-      { word: 'peinarse', translation: 'причесываться', audioUrl: null },
-      { word: 'vestirse', translation: 'одеваться', audioUrl: null },
-      { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
-      { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
-      { word: 'afeitarse', translation: 'бриться', audioUrl: null },
-      { word: 'maquillarse', translation: 'краситься', audioUrl: null },
-      { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
-      { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
-      { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
-      { word: 'sentarse', translation: 'садиться', audioUrl: null },
-      { word: 'quedarse', translation: 'оставаться', audioUrl: null },
-      { word: 'irse', translation: 'уходить', audioUrl: null },
-      { word: 'despedirse', translation: 'прощаться', audioUrl: null },
-      { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
-
-      // Повседневные действия
-      { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
-      { word: 'desayunar', translation: 'завтракать', audioUrl: null },
-      { word: 'almorzar', translation: 'обедать', audioUrl: null },
-      { word: 'cenar', translation: 'ужинать', audioUrl: null },
-      { word: 'preparar', translation: 'готовить, подготавливать', audioUrl: null },
-      { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
-      { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
-      { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
-      { word: 'pasear', translation: 'гулять', audioUrl: null },
-      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-      { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
-      { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
-
-      // Наречия времени
-      { word: 'temprano', translation: 'рано', audioUrl: null },
-      { word: 'tarde', translation: 'поздно', audioUrl: null },
-      { word: 'pronto', translation: 'скоро', audioUrl: null },
-      { word: 'luego', translation: 'потом', audioUrl: null },
-      { word: 'después', translation: 'после', audioUrl: null },
-      { word: 'antes', translation: 'до, перед', audioUrl: null },
-      { word: 'ahora', translation: 'сейчас', audioUrl: null },
-      { word: 'siempre', translation: 'всегда', audioUrl: null },
-      { word: 'nunca', translation: 'никогда', audioUrl: null },
-      { word: 'a veces', translation: 'иногда', audioUrl: null },
-      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
-      { word: 'cada día', translation: 'каждый день', audioUrl: null },
-      { word: 'normalmente', translation: 'обычно', audioUrl: null },
-      { word: 'generalmente', translation: 'как правило', audioUrl: null },
-
-      // Повседневные дела и домашние обязанности
-      { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null },
-      { word: 'costumbre', translation: 'привычка', audioUrl: null },
-      { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
-      { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
-      { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
-      { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
-      { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
-      { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
-      { word: 'almuerzo', translation: 'обед', audioUrl: null },
-      { word: 'cena', translation: 'ужин', audioUrl: null },
-      { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
-      { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
-      { word: 'planchar', translation: 'гладить', audioUrl: null },
-      { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
-      { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null },
-      { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
-      { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
-      { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
-      { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
-      { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null }
+      {
+        tab: 'ВРЕМЯ',
+        words: [
+          { word: 'hora', translation: 'час', audioUrl: null },
+          { word: 'minuto', translation: 'минута', audioUrl: null },
+          { word: 'segundo', translation: 'секунда', audioUrl: null },
+          { word: 'reloj', translation: 'часы', audioUrl: null },
+          { word: 'despertador', translation: 'будильник', audioUrl: null },
+          { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
+          { word: 'y cuarto', translation: 'четверть', audioUrl: null },
+          { word: 'y media', translation: 'половина', audioUrl: null },
+          { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
+          { word: 'mediodía', translation: 'полдень', audioUrl: null },
+          { word: 'medianoche', translation: 'полночь', audioUrl: null },
+          { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
+          { word: 'mañana', translation: 'утро', audioUrl: null },
+          { word: 'tarde', translation: 'день, вечер', audioUrl: null },
+          { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
+          { word: 'media hora', translation: 'полчаса', audioUrl: null },
+          { word: 'tiempo', translation: 'время', audioUrl: null },
+          { word: 'retraso', translation: 'опоздание', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'ГЛАГОЛЫ',
+        words: [
+          { word: 'preparar', translation: 'готовить', audioUrl: null },
+          { word: 'encontrar', translation: 'находить', audioUrl: null },
+          { word: 'dormir', translation: 'спать', audioUrl: null },
+          { word: 'despertar', translation: 'будить', audioUrl: null },
+          { word: 'ir', translation: 'ходить', audioUrl: null },
+          { word: 'sentir', translation: 'сожалеть', audioUrl: null },
+          { word: 'hacer', translation: 'делать', audioUrl: null },
+          { word: 'poner', translation: 'положить', audioUrl: null },
+          { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
+          { word: 'encontrarse', translation: 'находиться', audioUrl: null },
+          { word: 'dormirse', translation: 'засыпать', audioUrl: null },
+          { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
+          { word: 'hacerse', translation: 'стать', audioUrl: null },
+          { word: 'levantarse', translation: 'вставать', audioUrl: null },
+          { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
+          { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
+          { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
+          { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
+          { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
+          { word: 'peinarse', translation: 'причесываться', audioUrl: null },
+          { word: 'vestirse', translation: 'одеваться', audioUrl: null },
+          { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
+          { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
+          { word: 'afeitarse', translation: 'бриться', audioUrl: null },
+          { word: 'maquillarse', translation: 'краситься', audioUrl: null },
+          { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
+          { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
+          { word: 'sentarse', translation: 'садиться', audioUrl: null },
+          { word: 'quedarse', translation: 'оставаться', audioUrl: null },
+          { word: 'irse', translation: 'уходить', audioUrl: null },
+          { word: 'despedirse', translation: 'прощаться', audioUrl: null },
+          { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
+          { word: 'desayunar', translation: 'завтракать', audioUrl: null },
+          { word: 'almorzar', translation: 'обедать', audioUrl: null },
+          { word: 'cenar', translation: 'ужинать', audioUrl: null },
+          { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
+          { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
+          { word: 'pasear', translation: 'гулять', audioUrl: null },
+          { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+          { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
+          { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
+          { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
+          { word: 'planchar', translation: 'гладить', audioUrl: null },
+          { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'ВЫРАЖЕНИЯ',
+        words: [
+          { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
+          { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
+          { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
+          { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
+          { word: 'después de las seis', translation: 'после шести', audioUrl: null },
+          { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
+          { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
+          { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
+          { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
+          { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
+          { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
+          { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
+          { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
+          { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
+          { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
+          { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
+          { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
+          { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
+          { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
+          { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
+          { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
+          { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
+          { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
+          { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
+          { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
+          { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
+          { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
+          { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
+          { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
+          { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
+          { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
+          { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null },
+          { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+          { word: 'cada día', translation: 'каждый день', audioUrl: null },
+          { word: 'a veces', translation: 'иногда', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'НАРЕЧИЯ',
+        words: [
+          { word: 'temprano', translation: 'рано', audioUrl: null },
+          { word: 'tarde', translation: 'поздно', audioUrl: null },
+          { word: 'pronto', translation: 'скоро', audioUrl: null },
+          { word: 'luego', translation: 'потом', audioUrl: null },
+          { word: 'después', translation: 'после', audioUrl: null },
+          { word: 'antes', translation: 'до, перед', audioUrl: null },
+          { word: 'ahora', translation: 'сейчас', audioUrl: null },
+          { word: 'siempre', translation: 'всегда', audioUrl: null },
+          { word: 'nunca', translation: 'никогда', audioUrl: null },
+          { word: 'normalmente', translation: 'обычно', audioUrl: null },
+          { word: 'generalmente', translation: 'как правило', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
+          { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null },
+          { word: 'costumbre', translation: 'привычка', audioUrl: null },
+          { word: 'almuerzo', translation: 'обед', audioUrl: null },
+          { word: 'cena', translation: 'ужин', audioUrl: null }
+        ]
+      }
     ],
     readingText: [
       {
@@ -5894,7 +5907,7 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
         ]
       }
     ],
-    exercises: []
+    exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
   },
 
   'lesson-4-3': {
@@ -15572,6 +15585,222 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         russian: 'В их саду так много цветов! Кто за ними ухаживает?',
         correct: '¡En su jardín hay tantas flores! ¿Quién las cuida?',
         alternatives: ['¡Hay tantas flores en su jardín! ¿Quién cuida de ellas?', '¡En su jardín tienen tantas flores! ¿Quién las cuida?']
+      }
+    ]
+  },
+
+  // Módulo 4 Lección 2: ГОРОД. Наречия, Числительные и Глаголы
+  'ex-4-2-1': {
+    id: 'ex-4-2-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Сравнительная степень (más ... que / mejor / peor)',
+    description: 'Ответьте на вопросы, используя сравнительную степень',
+    questions: [
+      { sentence: 'Yo hablo rápidamente, ¿y vosotros? — Nosotros hablamos ________ rápidamente ________ tú.', correct: 'más / que', blanks: 2 },
+      { sentence: 'Yo vivo cerca del centro de la ciudad, ¿y ustedes? — Nosotros vivimos ________ cerca ________ usted.', correct: 'más / que', blanks: 2 },
+      { sentence: 'Yo me acuesto tarde, ¿y tú? — Yo me acuesto ________ tarde ________ tú.', correct: 'más / que', blanks: 2 },
+      { sentence: 'Yo vengo temprano a casa, ¿y ella? — Ella viene ________ temprano ________ yo.', correct: 'más / que', blanks: 2 },
+      { sentence: 'Yo estudio bien, ¿y él? — Él estudia ________ que tú.', correct: 'mejor', blanks: 1 },
+      { sentence: 'Yo hablo mucho, ¿y usted? — Yo hablo ________ que usted.', correct: 'más', blanks: 1 }
+    ]
+  },
+
+  'ex-4-2-2': {
+    id: 'ex-4-2-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Конструкция равенства (tan ... como)',
+    description: 'Ответьте на вопросы, используя конструкцию равенства',
+    questions: [
+      { sentence: 'Yo hablo rápidamente, ¿y vosotros? — Nosotros hablamos ________ rápidamente ________ tú.', correct: 'tan / como', blanks: 2 },
+      { sentence: 'Yo quiero irme lejos de aquí, ¿y ella? — Ella quiere irse ________ lejos ________ tú.', correct: 'tan / como', blanks: 2 },
+      { sentence: 'Yo la escucho atentamente, ¿y vosotros? — Nosotros la escuchamos ________ atentamente ________ tú.', correct: 'tan / como', blanks: 2 },
+      { sentence: 'Yo hago gimnasia regularmente, ¿y él? — Él hace gimnasia ________ regularmente ________ tú.', correct: 'tan / como', blanks: 2 },
+      { sentence: 'Yo como poco, ¿y tú? — Yo como ________ poco ________ tú.', correct: 'tan / como', blanks: 2 },
+      { sentence: 'Me siento mal, ¿y usted? — Yo me siento ________ mal ________ usted.', correct: 'tan / como', blanks: 2 }
+    ]
+  },
+
+  'ex-4-2-3': {
+    id: 'ex-4-2-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Абсолютная превосходная степень',
+    description: 'Измените фразы по образцу',
+    questions: [
+      { sentence: 'Me levanto temprano. — Me levanto ________ / lo más temprano ________.', correct: 'tempranísimo / posible', blanks: 2 },
+      { sentence: 'Leemos diálogos altamente. — Leemos diálogos ________ / lo más alto ________.', correct: 'altísimamente / posible', blanks: 2 },
+      { sentence: 'Tú juegas bien al tenis. — Tú juegas muy ________ / lo ________ posible.', correct: 'bien / mejor', blanks: 2 },
+      { sentence: 'Me voy lejos de aquí. — Me voy ________ / lo más lejos ________.', correct: 'lejísimos / posible', blanks: 2 },
+      { sentence: 'Coméis poco. — Coméis ________ / lo ________ posible.', correct: 'poquísimo / menos', blanks: 2 },
+      { sentence: 'Ellos trabajan mucho. — Ellos trabajan ________ / lo más ________.', correct: 'muchísimo / posible', blanks: 2 }
+    ]
+  },
+
+  'ex-4-2-4': {
+    id: 'ex-4-2-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Наречия también / tampoco',
+    description: 'Вставьте наречия también (тоже) или tampoco (тоже не)',
+    questions: [
+      { sentence: 'No tengo hambre. Vosotros ________ tenéis hambre.', correct: 'tampoco', blanks: 1 },
+      { sentence: 'El padre se ducha con agua fría. El hijo ________ se ducha con agua fría.', correct: 'también', blanks: 1 },
+      { sentence: 'Mi tío no es viejo. La tía no es vieja ________, es joven.', correct: 'tampoco', blanks: 1 },
+      { sentence: 'Usted es economista y mi hermano ________ es economista.', correct: 'también', blanks: 1 },
+      { sentence: 'No me gusta levantarme temprano, a ti ________ te gusta.', correct: 'tampoco', blanks: 1 }
+    ]
+  },
+
+  'ex-4-2-5': {
+    id: 'ex-4-2-5',
+    type: 'translation',
+    title: 'Упражнение 5: Перевод на испанский (Наречия)',
+    description: 'Переведите предложения на испанский язык',
+    questions: [
+      {
+        russian: 'Лола говорит по-испански быстро и правильно. Я тоже хочу говорить по-испански так же быстро, как и она.',
+        correct: 'Lola habla español rápida y correctamente. Yo también quiero hablar español tan rápidamente como ella.',
+        alternatives: ['Lola habla español rápido y correctamente. Yo también quiero hablar español tan rápido como ella']
+      },
+      {
+        russian: 'Ты должен лечь спать сегодня как можно раньше, потому что завтра у тебя трудный день.',
+        correct: 'Debes acostarte hoy lo más temprano posible porque mañana tienes un día difícil.',
+        alternatives: ['Tienes que acostarte hoy lo más temprano posible porque mañana tienes un día difícil']
+      },
+      {
+        russian: 'Мои дети не любят делать зарядку. — Мои тоже не любят.',
+        correct: 'A mis hijos no les gusta hacer gimnasia. — A los míos tampoco.',
+        alternatives: ['A mis hijos no les gusta hacer gimnasia. — A los míos tampoco les gusta']
+      },
+      {
+        russian: 'Бабушка очень редко слушает новости, она предпочитает смотреть старые фильмы.',
+        correct: 'La abuela escucha las noticias muy raramente, prefiere ver películas viejas.',
+        alternatives: ['La abuela escucha las noticias raramente, ella prefiere ver películas viejas']
+      },
+      {
+        russian: 'Я возвращаюсь с работы позже тебя, поэтому ты готовишь ужин.',
+        correct: 'Vuelvo del trabajo más tarde que tú, por eso tú preparas la cena.',
+        alternatives: ['Regreso del trabajo más tarde que tú, por eso preparas la cena']
+      },
+      {
+        russian: 'Эти студенты переводят тексты хуже, чем те, поэтому им надо заниматься как можно больше.',
+        correct: 'Estos estudiantes traducen los textos peor que aquellos, por eso necesitan estudiar lo más posible.',
+        alternatives: ['Estos estudiantes traducen los textos peor que aquellos, por eso tienen que estudiar lo más posible']
+      },
+      {
+        russian: 'Елена ест очень мало. Я тоже ем мало, меньше ее.',
+        correct: 'Elena come muy poco. Yo también como poco, menos que ella.',
+        alternatives: ['Elena come muy poco. Yo también como poco, menos de ella']
+      },
+      {
+        russian: 'Ты не можешь заснуть, потому что очень много думаешь о своих проблемах, и я тоже не сплю.',
+        correct: 'No puedes dormir porque piensas mucho en tus problemas, y yo tampoco duermo.',
+        alternatives: ['No puedes dormirte porque piensas mucho en tus problemas, y yo tampoco duermo']
+      },
+      {
+        russian: 'Мы чувствуем себя лучше, потому что больше гуляем и отдыхаем.',
+        correct: 'Nos sentimos mejor porque paseamos y descansamos más.',
+        alternatives: ['Nos sentimos mejor porque caminamos y descansamos más']
+      },
+      {
+        russian: 'Вы живете ближе к работе, чем они, но приходите позже их.',
+        correct: 'Vivís más cerca del trabajo que ellos, pero llegáis más tarde que ellos.',
+        alternatives: ['Vosotros vivís más cerca del trabajo que ellos, pero llegáis más tarde que ellos']
+      }
+    ]
+  },
+
+  'ex-4-2-6': {
+    id: 'ex-4-2-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: Глаголы estudiar / aprender / enseñar',
+    description: 'Выберите подходящий глагол и поставьте его в нужную форму',
+    questions: [
+      { sentence: 'El profesor ________ (enseñar) a los alumnos los monumentos más importantes en el mapa.', correct: 'enseña', blanks: 1 },
+      { sentence: 'Mi hermano mayor ________ (estudiar) medicina en Madrid y vive en el tercer piso.', correct: 'estudia', blanks: 1 },
+      { sentence: 'Si quieres hablar español tan bien como Lola, tienes que ________ (aprender) muchas reglas.', correct: 'aprender', blanks: 1 },
+      { sentence: '¿Quién te ________ (enseñar) a tocar la guitarra? — Mi padre me ________ (enseñar) cada domingo.', correct: 'enseña / enseña', blanks: 2 },
+      { sentence: 'Los niños ________ (aprender) a montar en bicicleta muy rápidamente.', correct: 'aprenden', blanks: 1 },
+      { sentence: 'Mi hermana ________ (estudiar) en la facultad de derecho y quiere ser abogada.', correct: 'estudia', blanks: 1 },
+      { sentence: 'Hoy tengo que ________ (aprender) los números del cien al mil millones.', correct: 'aprender', blanks: 1 },
+      { sentence: '¿Puedes ________ (enseñar) dónde está el banco más cercano?', correct: 'enseñar', blanks: 1 },
+      { sentence: 'Nosotros ________ (aprender) a bailar salsa en una academia muy buena.', correct: 'aprendemos', blanks: 1 },
+      { sentence: 'El abuelo ________ (enseñar) a sus nietos a jugar al ajedrez.', correct: 'enseña', blanks: 1 }
+    ]
+  },
+
+  'ex-4-2-7': {
+    id: 'ex-4-2-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: Глаголы proponer / ofrecer',
+    description: 'Выберите подходящий глагол и поставьте его в нужную форму',
+    questions: [
+      { sentence: 'Si tienes frío, te ________ (ofrecer) mi chaqueta.', correct: 'ofrezco', blanks: 1 },
+      { sentence: 'Nosotros os ________ (proponer) ir al cine esta tarde, ¿qué decís?', correct: 'proponemos', blanks: 1 },
+      { sentence: 'Siempre me ________ (ofrecer) un café cuando voy a su casa.', correct: 'ofrecen', blanks: 1 },
+      { sentence: '¿Qué nos ________ (proponer) usted para solucionar este problema de tráfico?', correct: 'propone', blanks: 1 },
+      { sentence: 'Mis amigos me ________ (ofrecer) su ayuda porque saben que vivo solo.', correct: 'ofrecen', blanks: 1 },
+      { sentence: 'El camarero nos ________ (ofrecer) el menú del día.', correct: 'ofrece', blanks: 1 },
+      { sentence: '¿Por qué le ________ (proponer) tú viajar a América Latina en verano?', correct: 'propones', blanks: 1 },
+      { sentence: 'Ellos nos ________ (ofrecer) su apartamento en la playa para las vacaciones.', correct: 'ofrecen', blanks: 1 },
+      { sentence: 'Yo te ________ (proponer) cenar en el restaurante que está cerca del puerto.', correct: 'propongo', blanks: 1 },
+      { sentence: 'El director les ________ (ofrecer) un nuevo puesto de trabajo con mejor sueldo.', correct: 'ofrece', blanks: 1 }
+    ]
+  },
+
+  'ex-4-2-8': {
+    id: 'ex-4-2-8',
+    type: 'translation',
+    title: 'Упражнение 8: Перевод на испанский (Глаголы)',
+    description: 'Переведите предложения на испанский язык',
+    questions: [
+      {
+        russian: 'Я не умею готовить, и моя подруга предлагает научить меня делать паэлью.',
+        correct: 'No sé cocinar y mi amiga se ofrece a enseñarme a hacer paella.',
+        alternatives: ['No sé cocinar y mi amiga propone enseñarme a hacer paella']
+      },
+      {
+        russian: 'Мы предлагаем вам (ustedes) поехать в центр на метро, потому что это быстрее.',
+        correct: 'Les proponemos ir al centro en metro porque es más rápido.',
+        alternatives: ['Os proponemos ir al centro en metro porque es más rápido']
+      },
+      {
+        russian: 'Мой дядя преподает историю в университете, а его сын изучает архитектуру.',
+        correct: 'Mi tío enseña historia en la universidad y su hijo estudia arquitectura.',
+        alternatives: ['Mi tío enseña historia en la universidad y su hijo estudia arquitectura']
+      },
+      {
+        russian: 'Я предлагаю тебе свою машину, потому что твой гараж находится очень далеко отсюда.',
+        correct: 'Te ofrezco mi coche porque tu garaje está muy lejos de aquí.',
+        alternatives: ['Te ofrezco mi auto porque tu garaje se encuentra muy lejos de aquí']
+      },
+      {
+        russian: 'Чтобы понимать эти тексты, студенты должны выучить более пятисот новых слов.',
+        correct: 'Para entender estos textos, los estudiantes deben aprender más de quinientas palabras nuevas.',
+        alternatives: ['Para comprender estos textos los estudiantes tienen que aprender más de quinientas palabras nuevas']
+      },
+      {
+        russian: 'Ты знаешь, где находится шестой переулок? — Нет, я плохо знаю этот район.',
+        correct: '¿Sabes dónde está el sexto callejón? — No, conozco mal este barrio.',
+        alternatives: ['¿Sabes dónde se encuentra el sexto callejón? — No, no conozco bien este barrio']
+      },
+      {
+        russian: 'Почему ты предлагаешь мне этот отель? Он находится очень далеко от порта.',
+        correct: '¿Por qué me propones este hotel? Está muy lejos del puerto.',
+        alternatives: ['¿Por qué me propones este hotel? Se encuentra muy lejos del puerto']
+      },
+      {
+        russian: 'Моя сестра учится в школе и хочет научиться говорить по-французски так же быстро, как её учительница.',
+        correct: 'Mi hermana estudia en la escuela y quiere aprender a hablar francés tan rápidamente como su profesora.',
+        alternatives: ['Mi hermana estudia en el colegio y quiere aprender a hablar francés tan rápido como su maestra']
+      },
+      {
+        russian: 'Мы предлагаем им купить эту квартиру, потому что она стоит меньше двух миллионов евро.',
+        correct: 'Les proponemos comprar este piso porque cuesta menos de dos millones de euros.',
+        alternatives: ['Les proponemos comprar este apartamento porque vale menos de dos millones de euros']
+      },
+      {
+        russian: 'Ты должен показать нам свою новую работу, мы хотим знать, что ты там делаешь.',
+        correct: 'Debes enseñarnos tu nuevo trabajo, queremos saber qué haces allí.',
+        alternatives: ['Tienes que enseñarnos tu nuevo trabajo, queremos saber qué haces ahí']
       }
     ]
   }
