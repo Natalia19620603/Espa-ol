@@ -5066,6 +5066,448 @@ María: ¡Vamos!`,
         ]
       },
     ],
+    exercises: ['ex-3-4-1', 'ex-3-4-2', 'ex-3-4-3', 'ex-3-4-4', 'ex-3-4-5', 'ex-3-4-6', 'ex-3-4-7', 'ex-3-4-8', 'ex-3-4-9', 'ex-3-4-10', 'ex-3-4-11', 'ex-3-4-12', 'ex-3-4-13', 'ex-3-4-14', 'ex-3-4-15', 'ex-3-4-16', 'ex-3-4-17', 'ex-3-4-18']
+  },
+
+  // МОДУЛЬ 4: Повседневные занятия (A1)
+  'lesson-4-1': {
+    id: 'lesson-4-1',
+    title: 'Урок 1: Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
+    moduleId: 'module-4',
+    grammar: {
+      title: 'Обозначение часового времени. Возвратные (местоименные) глаголы. Герундий',
+      intro: `В этом уроке мы изучим, как говорить о времени по-испански, познакомимся с возвратными глаголами (которые описывают действия, направленные на себя) и научимся использовать герундий для описания текущих действий.`,
+      sections: [
+        {
+          id: 'time',
+          title: 'Обозначение часового времени',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Обозначение часового времени
+
+В испанском языке при обозначении времени слово **hora** (час) используется только в вопросе, а в ответах сохраняется лишь определенный артикль этого существительного. В разговорной речи слово **minuto** (минута) также не употребляется.
+
+**¿Qué hora es?** — Который час? / Сколько времени?
+
+### Таблица времени
+
+| Время | Испанский вариант | Русский перевод |
+|-------|-------------------|-----------------|
+| 1:00 | Es la una en punto. | Сейчас ровно час. |
+| 2:00 – 11:00 | Son las dos (tres, cuatro...) en punto. | Сейчас 2 (3, 4...) часа ровно. |
+| 12:00 | Son las doce. | Сейчас 12 часов. |
+| 12:00 (день) | Es mediodía. | Полдень. |
+| 24:00 (ночь) | Es medianoche. | Полночь. |
+| 9:05 | Son las nueve y cinco. | Пять минут десятого. |
+| 9:15 | Son las nueve y cuarto. | Четверть десятого. |
+| 9:30 | Son las nueve y media. | Половина десятого. |
+| 9:40 | Son las diez menos veinte. | Без двадцати десять. |
+| 9:45 | Son las diez menos cuarto. | Без четверти десять. |
+
+### Части суток в Испании
+
+В испанском языке в разговорной речи используется 12-часовой формат времени, поэтому для уточнения, о какой половине дня идет речь, употребляют описательные конструкции со словами «утра», «дня», «вечера», «ночи».
+
+- **madrugada** — рассвет / раннее утро (с 1:00 до ~ 6:00)
+- **mañana** — утро (с 6:00 до 12:00)
+- **tarde** — день / вечер (с 12:00 до ~ 20:00)
+- **noche** — вечер / ночь (с 20:00 до 24:00)
+
+**Примеры:**
+- Son las dos de la madrugada. (2 часа ночи).
+- Son las ocho de la mañana. (8 часов утра).
+- Son las cuatro de la tarde. (4 часа дня).
+- Son las diez de la noche. (10 часов вечера).
+- Es la una de la tarde. (Час дня).
+
+### Вопрос «Во сколько?»
+
+Для того чтобы узнать, в какое время произойдет определенное событие, используется вопрос:
+**¿A qué hora?** — Во сколько? / В котором часу?
+
+**Примеры:**
+- A las nueve de la mañana. (В 9 часов утра).
+- A la una y media. (В половине второго).
+- Al mediodía. (В полдень).
+- A la medianoche. (В полночь).
+
+### Обозначение времени без точности
+
+Выражения **por la mañana — por las mañanas** (утром — по утрам), **por la tarde** (днем/вечером), **por la noche** (вечером/ночью) употребляются, когда не указано точное время.
+
+**Примеры:**
+- Por las mañanas tomo un café. (По утрам я пью кофе).
+- Por la tarde estudio español. (Днем я учу испанский).
+- Por la noche miro la tele. (Вечером я смотрю телевизор).`
+        },
+        {
+          id: 'reflexive-verbs',
+          title: 'Возвратные (местоименные) глаголы',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Возвратные (местоименные) глаголы
+
+Возвратные глаголы в испанском языке обозначают действия, направленные на самого себя. В инфинитиве они имеют частицу **-se** на конце (например: levantarse — вставать, lavarse — умываться).
+
+### Возвратные местоимения
+
+При спряжении возвратных глаголов используются возвратные местоимения, которые ставятся **перед** спрягаемым глаголом:
+
+| Лицо | Местоимение | Пример (levantarse — вставать) |
+|------|-------------|--------------------------------|
+| yo | me | (yo) me levanto |
+| tú | te | (tú) te levantas |
+| él/ella/usted | se | (él/ella) se levanta |
+| nosotros/as | nos | (nosotros/as) nos levantamos |
+| vosotros/as | os | (vosotros/as) os levantáis |
+| ellos/ellas/ustedes | se | (ellos/ellas) se levantan |
+
+### Основные возвратные глаголы
+
+| Глагол | Перевод |
+|--------|---------|
+| levantarse | вставать |
+| acostarse (o→ue) | ложиться спать |
+| despertarse (e→ie) | просыпаться |
+| lavarse | умываться, мыться |
+| ducharse | принимать душ |
+| bañarse | купаться, принимать ванну |
+| peinarse | причесываться |
+| vestirse (e→i) | одеваться |
+| ponerse | надевать (одежду) |
+| quitarse | снимать (одежду) |
+| afeitarse | бриться |
+| maquillarse | краситься |
+| llamarse | зваться, называться |
+| sentarse (e→ie) | садиться |
+| quedarse | оставаться |
+| irse | уходить |
+| reunirse | собираться, встречаться |
+
+### Примеры
+
+- Me levanto a las siete de la mañana. (Я встаю в семь утра).
+- ¿A qué hora te acuestas? (Во сколько ты ложишься спать?)
+- Ella se ducha por la mañana. (Она принимает душ утром).
+- Nos vestimos rápido. (Мы одеваемся быстро).
+- ¿Cómo te llamas? (Как тебя зовут?)
+- Me llamo Ana. (Меня зовут Ана).
+
+**Важно:** Многие возвратные глаголы также являются отклоняющимися (stem-changing), например:
+- acostarse (o→ue): me acuesto, te acuestas, se acuesta, nos acostamos, os acostáis, se acuestan
+- despertarse (e→ie): me despierto, te despiertas, se despierta, nos despertamos, os despertáis, se despiertan
+- vestirse (e→i): me visto, te vistes, se viste, nos vestimos, os vestís, se visten`
+        },
+        {
+          id: 'reflexive-verbs-se-meaning-change',
+          title: 'Изменение смысла глагола при добавлении частички SE',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Изменение смысла глагола при добавлении частички SE
+
+Многие глаголы меняют свое значение при добавлении возвратной частицы **-se**. Глагол без частицы обозначает действие, направленное на другой объект, а с частицей **-se** — действие, направленное на себя или изменение состояния.
+
+| Глагол без SE | Перевод | Глагол с SE | Перевод |
+|---------------|---------|-------------|---------|
+| preparar | готовить | prepararse para | готовиться к |
+| encontrar | находить | encontrarse | находиться |
+| dormir | спать | dormirse | засыпать |
+| despertar | будить | despertarse | просыпаться |
+| ir | ходить | irse | уходить |
+| sentir | сожалеть | sentirse | чувствовать себя |
+| hacer | делать | hacerse | стать |
+| poner | положить | ponerse | надеть на себя |
+| llamar | звать | llamarse | зваться, называться |
+
+**Примеры:**
+
+- Preparo la cena. (Я готовлю ужин). → Me preparo para el examen. (Я готовлюсь к экзамену).
+- Encuentro el libro. (Я нахожу книгу). → Me encuentro en casa. (Я нахожусь дома).
+- El bebé duerme. (Малыш спит). → El bebé se duerme. (Малыш засыпает).
+- Despierto a mi hermano. (Я бужу брата). → Me despierto a las 7. (Я просыпаюсь в 7).
+- Voy al cine. (Я иду в кино). → Me voy de casa. (Я ухожу из дома).
+- Siento tu dolor. (Я сожалею о твоей боли). → Me siento bien. (Я чувствую себя хорошо).
+
+**PONERSE** (надевать на себя / становиться):
+
+| Выражение | Перевод |
+|-----------|---------|
+| ponerse los zapatos | надевать туфли |
+| ponerse + прилагательное | становиться |
+| ponerse rojo | покраснеть |
+| ponerse blanco | побледнеть |
+| ponerse moreno | загореть |
+| ponerse triste | загрустить |
+| ponerse alegre | развеселиться, обрадоваться |
+| ponerse nervioso | занервничать |
+| ponerse enfermo | заболеть |
+
+**Примеры:**
+- Me pongo los zapatos. (Я надеваю туфли).
+- Te pones rojo cuando hablas en público. (Ты краснеешь, когда говоришь публично).
+- Ella se pone triste cuando llueve. (Она грустит, когда идет дождь).
+
+**HACERSE** (стать):
+
+| Выражение | Перевод |
+|-----------|---------|
+| hacerse + прилагательное / существительное | стать |
+| hacerse rico | разбогатеть / стать богатым |
+| hacerse famoso | стать известным |
+| hacerse campeón | стать чемпионом |
+| hacerse amigos | подружиться / стать друзьями |
+
+**Примеры:**
+- Quiero hacerme rico. (Я хочу стать богатым).
+- Ella se hace famosa. (Она становится известной).
+- Nos hacemos amigos. (Мы становимся друзьями / подружились).`
+        },
+        {
+          id: 'reflexive-verbs-conjugation',
+          title: 'Спряжение возвратных глаголов',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Спряжение возвратных глаголов
+
+При спряжении возвратное местоимение **-se** изменяется по лицам и ставится **перед** личной формой глагола.
+
+### Ejemplo: llamarse (зваться / называться)
+
+| Лицо | Местоимение + Глагол | Перевод |
+|------|---------------------|---------|
+| yo | me llamo | меня зовут / я называюсь |
+| tú | te llamas | тебя зовут / ты называешься |
+| él, ella, usted | se llama | его, ее, Вас зовут / он, она называется, Вы называетесь |
+| nosotros (-as) | nos llamamos | нас зовут / мы называемся |
+| vosotros (-as) | os llamáis | вас зовут / вы называетесь |
+| ellos (-as), ustedes | se llaman | их, Вас зовут / они называются, Вы называетесь |
+
+### Местоимение с инфинитивом
+
+С инфинитивом и герундием возвратное местоимение **-se** также изменяется по лицам, но пишется **слитно** после неличной формы глагола.
+
+### Ejemplo: prepararse (готовиться)
+
+| Лицо | Личная форма | С инфинитивом (хотеть подготовиться) |
+|------|--------------|--------------------------------------|
+| yo | me preparo | quiero prepararme |
+| tú | te preparas | quieres prepararte |
+| él, ella, usted | se prepara | quiere prepararse |
+| nosotros (-as) | nos preparamos | queremos prepararnos |
+| vosotros (-as) | os preparáis | queréis prepararos |
+| ellos (-as), ustedes | se preparan | quieren prepararse |
+
+### Примеры:
+
+- **Me preparo** para la clase de español. (Я готовлюсь к уроку испанского).
+- Tenemos que **prepararnos** para el viaje. (Нам нужно подготовиться к поездке).
+- ¿A qué hora **te levantas**? (Во сколько ты встаешь?)
+- Juan tiene que **lavarse** las manos. (Хуану нужно помыть руки).
+- **Se visten** rápido. (Они одеваются быстро).
+- Quiero **ducharme** ahora. (Я хочу принять душ сейчас).
+- ¿Puedes **peinarte** antes de salir? (Можешь причесаться перед выходом?)
+- **Nos acostamos** a las once. (Мы ложимся спать в одиннадцать).`
+        },
+        {
+          id: 'gerund',
+          title: 'Герундий (Gerundio)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Герундий (Gerundio)
+
+Герундий — это неизменяемая форма глагола, которая отвечает на вопрос «что делая?». В сочетании с глаголом **estar** он образует конструкцию, которая описывает действие, происходящее прямо сейчас.
+
+### 1. Как образуется герундий
+
+Для образования герундия нужно отбросить окончание инфинитива и добавить суффикс:
+
+| Спряжение | Суффикс | Примеры |
+|-----------|---------|---------|
+| **-ar** (1) | **-ando** | hablar → hablando (говоря) |
+| **-er** (2) | **-iendo** | comer → comiendo (едя) |
+| **-ir** (3) | **-iendo** | vivir → viviendo (живя) |
+
+### 2. Особые формы (нужно запомнить)
+
+Иногда в основе происходят изменения, чтобы слово звучало красиво или согласно правилам:
+
+**Замена i на y (между гласными):**
+- leer → **leyendo** (читая)
+- ir → **yendo** (идя)
+- oír → **oyendo** (слыша)
+
+**Изменение гласной в корне (только для глаголов на -ir):**
+- **e → i:** decir → **diciendo**, pedir → **pidiendo**
+- **o → u:** dormir → **durmiendo**, morir → **muriendo**
+
+### 3. Конструкция Estar + Gerundio
+
+Эта конструкция нужна, чтобы подчеркнуть, что действие происходит в момент речи.
+
+**Примеры:**
+- ¿Qué estás haciendo? — Что ты сейчас делаешь?
+- Estoy comiendo una pizza. — Я (сейчас) ем пиццу.
+- Juan está durmiendo. — Хуан (сейчас) спит.
+- Estamos estudiando español. — Мы (сейчас) учим испанский.
+
+### 4. Местоимения с герундием
+
+Если глагол возвратный или есть дополнения (меня, его, нам), местоимение можно поставить **перед** estar или приклеить к концу герундия.
+
+**Примеры:**
+- **Me estoy lavando.** / **Estoy lavándome.** (Я умываюсь).
+- **Lo estoy leyendo.** / **Estoy leyéndolo.** (Я это читаю).
+
+**Примечание:** при добавлении местоимения в конец герундия появляется графическое ударение.
+
+### 5. Другие случаи использования
+
+**Как обстоятельство (как? каким образом?):**
+- Escucho música caminando por la calle. — Я слушаю музыку, гуляя по улице.
+
+**С глаголом seguir (продолжать):**
+- Sigo trabajando aquí. — Я продолжаю здесь работать.
+
+**Отрицание (sin + инфинитив):**
+
+Если мы хотим сказать «не делая чего-то», используем **sin**:
+- Entra sin llamar. — Он заходит, не постучав.
+
+### Примеры для практики:
+
+- ¿Dónde está Pablo? — Está duchándose. (Где Пабло? — Он принимает душ).
+- Ahora no puedo hablar, estoy conduciendo. (Сейчас не могу говорить, я за рулем / веду машину).
+- Mis amigos están bailando en la fiesta. (Мои друзья танцуют на вечеринке).`
+        }
+      ]
+    },
+    vocabulary: [
+      // Время
+      { word: 'hora', translation: 'час', audioUrl: null },
+      { word: 'minuto', translation: 'минута', audioUrl: null },
+      { word: 'segundo', translation: 'секунда', audioUrl: null },
+      { word: 'reloj', translation: 'часы', audioUrl: null },
+      { word: 'despertador', translation: 'будильник', audioUrl: null },
+      { word: 'en punto', translation: 'ровно, точно', audioUrl: null },
+      { word: 'y cuarto', translation: 'четверть', audioUrl: null },
+      { word: 'y media', translation: 'половина', audioUrl: null },
+      { word: 'menos cuarto', translation: 'без четверти', audioUrl: null },
+      { word: 'mediodía', translation: 'полдень', audioUrl: null },
+      { word: 'medianoche', translation: 'полночь', audioUrl: null },
+      { word: 'madrugada', translation: 'рассвет, раннее утро', audioUrl: null },
+      { word: 'mañana', translation: 'утро', audioUrl: null },
+      { word: 'tarde', translation: 'день, вечер', audioUrl: null },
+      { word: 'noche', translation: 'вечер, ночь', audioUrl: null },
+      { word: 'media hora', translation: 'полчаса', audioUrl: null },
+      { word: 'tiempo', translation: 'время', audioUrl: null },
+      { word: 'a tiempo', translation: 'вовремя', audioUrl: null },
+      { word: 'a eso de las... tres', translation: 'около... трех', audioUrl: null },
+      { word: 'en cinco horas', translation: 'за пять часов', audioUrl: null },
+      { word: 'dentro de diez minutos', translation: 'через десять минут', audioUrl: null },
+      { word: 'después de las seis', translation: 'после шести', audioUrl: null },
+      { word: 'retraso', translation: 'опоздание', audioUrl: null },
+
+      // Глаголы и их возвратные формы
+      { word: 'preparar', translation: 'готовить', audioUrl: null },
+      { word: 'encontrar', translation: 'находить', audioUrl: null },
+      { word: 'dormir', translation: 'спать', audioUrl: null },
+      { word: 'despertar', translation: 'будить', audioUrl: null },
+      { word: 'ir', translation: 'ходить', audioUrl: null },
+      { word: 'sentir', translation: 'сожалеть', audioUrl: null },
+      { word: 'hacer', translation: 'делать', audioUrl: null },
+      { word: 'poner', translation: 'положить', audioUrl: null },
+      { word: 'prepararse para', translation: 'готовиться к', audioUrl: null },
+      { word: 'encontrarse', translation: 'находиться', audioUrl: null },
+      { word: 'dormirse', translation: 'засыпать', audioUrl: null },
+      { word: 'sentirse', translation: 'чувствовать себя', audioUrl: null },
+      { word: 'hacerse', translation: 'стать', audioUrl: null },
+      { word: 'ponerse los zapatos', translation: 'надевать туфли', audioUrl: null },
+      { word: 'ponerse rojo', translation: 'покраснеть', audioUrl: null },
+      { word: 'ponerse blanco', translation: 'побледнеть', audioUrl: null },
+      { word: 'ponerse moreno', translation: 'загореть', audioUrl: null },
+      { word: 'ponerse triste', translation: 'загрустить', audioUrl: null },
+      { word: 'ponerse alegre', translation: 'развеселиться, обрадоваться', audioUrl: null },
+      { word: 'ponerse nervioso', translation: 'занервничать', audioUrl: null },
+      { word: 'ponerse enfermo', translation: 'заболеть', audioUrl: null },
+      { word: 'hacerse rico', translation: 'разбогатеть / стать богатым', audioUrl: null },
+      { word: 'hacerse famoso', translation: 'стать известным', audioUrl: null },
+      { word: 'hacerse campeón', translation: 'стать чемпионом', audioUrl: null },
+      { word: 'hacerse amigos', translation: 'подружиться / стать друзьями', audioUrl: null },
+
+      // Возвратные глаголы
+      { word: 'levantarse', translation: 'вставать', audioUrl: null },
+      { word: 'acostarse', translation: 'ложиться спать', audioUrl: null },
+      { word: 'despertarse', translation: 'просыпаться', audioUrl: null },
+      { word: 'lavarse', translation: 'умываться, мыться', audioUrl: null },
+      { word: 'ducharse', translation: 'принимать душ', audioUrl: null },
+      { word: 'bañarse', translation: 'купаться, принимать ванну', audioUrl: null },
+      { word: 'peinarse', translation: 'причесываться', audioUrl: null },
+      { word: 'vestirse', translation: 'одеваться', audioUrl: null },
+      { word: 'ponerse', translation: 'надевать (одежду)', audioUrl: null },
+      { word: 'quitarse', translation: 'снимать (одежду)', audioUrl: null },
+      { word: 'afeitarse', translation: 'бриться', audioUrl: null },
+      { word: 'maquillarse', translation: 'краситься', audioUrl: null },
+      { word: 'limpiarse los dientes', translation: 'чистить зубы', audioUrl: null },
+      { word: 'secarse', translation: 'вытираться / сушиться', audioUrl: null },
+      { word: 'llamarse', translation: 'зваться, называться', audioUrl: null },
+      { word: 'sentarse', translation: 'садиться', audioUrl: null },
+      { word: 'quedarse', translation: 'оставаться', audioUrl: null },
+      { word: 'irse', translation: 'уходить', audioUrl: null },
+      { word: 'despedirse', translation: 'прощаться', audioUrl: null },
+      { word: 'reunirse', translation: 'собираться, встречаться', audioUrl: null },
+
+      // Повседневные действия
+      { word: 'rutina diaria', translation: 'повседневная рутина', audioUrl: null },
+      { word: 'desayunar', translation: 'завтракать', audioUrl: null },
+      { word: 'almorzar', translation: 'обедать', audioUrl: null },
+      { word: 'cenar', translation: 'ужинать', audioUrl: null },
+      { word: 'preparar', translation: 'готовить, подготавливать', audioUrl: null },
+      { word: 'limpiar', translation: 'убирать, чистить', audioUrl: null },
+      { word: 'ordenar', translation: 'приводить в порядок', audioUrl: null },
+      { word: 'hacer la cama', translation: 'застилать постель', audioUrl: null },
+      { word: 'pasear', translation: 'гулять', audioUrl: null },
+      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+      { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
+      { word: 'divertirse', translation: 'развлекаться, веселиться', audioUrl: null },
+
+      // Наречия времени
+      { word: 'temprano', translation: 'рано', audioUrl: null },
+      { word: 'tarde', translation: 'поздно', audioUrl: null },
+      { word: 'pronto', translation: 'скоро', audioUrl: null },
+      { word: 'luego', translation: 'потом', audioUrl: null },
+      { word: 'después', translation: 'после', audioUrl: null },
+      { word: 'antes', translation: 'до, перед', audioUrl: null },
+      { word: 'ahora', translation: 'сейчас', audioUrl: null },
+      { word: 'siempre', translation: 'всегда', audioUrl: null },
+      { word: 'nunca', translation: 'никогда', audioUrl: null },
+      { word: 'a veces', translation: 'иногда', audioUrl: null },
+      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+      { word: 'cada día', translation: 'каждый день', audioUrl: null },
+      { word: 'normalmente', translation: 'обычно', audioUrl: null },
+      { word: 'generalmente', translation: 'как правило', audioUrl: null },
+
+      // Повседневные дела и домашние обязанности
+      { word: 'actividades cotidianas', translation: 'повседневные дела', audioUrl: null },
+      { word: 'costumbre', translation: 'привычка', audioUrl: null },
+      { word: 'soler', translation: 'иметь обыкновение', audioUrl: null },
+      { word: 'hacer gimnasia', translation: 'делать зарядку', audioUrl: null },
+      { word: 'poner la mesa', translation: 'накрывать на стол', audioUrl: null },
+      { word: 'lavar la vajilla', translation: 'мыть посуду', audioUrl: null },
+      { word: 'ir de compras', translation: 'ходить за покупками', audioUrl: null },
+      { word: 'preparar el desayuno', translation: 'готовить завтрак', audioUrl: null },
+      { word: 'almuerzo', translation: 'обед', audioUrl: null },
+      { word: 'cena', translation: 'ужин', audioUrl: null },
+      { word: 'poner orden', translation: 'наводить порядок', audioUrl: null },
+      { word: 'lavar la ropa', translation: 'стирать белье', audioUrl: null },
+      { word: 'planchar', translation: 'гладить', audioUrl: null },
+      { word: 'quitar el polvo', translation: 'вытирать пыль', audioUrl: null },
+      { word: 'arreglar', translation: 'приводить в порядок', audioUrl: null },
+      { word: 'cuidar (el jardín)', translation: 'ухаживать (за садом)', audioUrl: null },
+      { word: 'cuidar (a los niños)', translation: 'заботиться (о детях)', audioUrl: null },
+      { word: 'dormir la siesta', translation: 'спать после обеда', audioUrl: null },
+      { word: 'ver la tele', translation: 'смотреть телевизор', audioUrl: null },
+      { word: 'navegar por Internet', translation: 'сидеть в интернете', audioUrl: null }
+    ],
     readingText: [
       {
         tab: 'ТЕКСТ 1',
@@ -5179,6 +5621,7 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
       }
     ]
   },
+
 
   'lesson-4-2': {
     id: 'lesson-4-2',
@@ -5339,49 +5782,117 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
       ]
     },
     vocabulary: [
-      { word: 'curiosidad', translation: 'достопримечательность', audioUrl: null },
-      { word: 'lugar de interés', translation: 'достопримечательность', audioUrl: null },
-      { word: 'centro', translation: 'центр', audioUrl: null },
-      { word: 'ayuntamiento', translation: 'мэрия', audioUrl: null },
-      { word: 'afueras', translation: 'пригород / окрестности', audioUrl: null },
-      { word: 'calle', translation: 'улица', audioUrl: null },
-      { word: 'bocacalle', translation: 'переулок', audioUrl: null },
-      { word: 'callejón', translation: 'переулок', audioUrl: null },
-      { word: 'esquina', translation: 'угол улицы', audioUrl: null },
-      { word: 'avenida', translation: 'проспект', audioUrl: null },
-      { word: 'plaza', translation: 'площадь', audioUrl: null },
-      { word: 'paseo', translation: 'бульвар', audioUrl: null },
-      { word: 'malecón', translation: 'набережная', audioUrl: null },
-      { word: 'barrio', translation: 'район', audioUrl: null },
-      { word: 'cuadra', translation: 'квартал (городской)', audioUrl: null },
-      { word: 'muralla', translation: 'городская стена', audioUrl: null },
-      { word: 'edificio', translation: 'здание', audioUrl: null },
-      { word: 'estación', translation: 'вокзал', audioUrl: null },
-      { word: 'farmacia', translation: 'аптека', audioUrl: null },
-      { word: 'hospital', translation: 'больница', audioUrl: null },
-      { word: 'policía', translation: 'полиция', audioUrl: null },
-      { word: 'banco', translation: 'банк', audioUrl: null },
-      { word: 'parque', translation: 'парк', audioUrl: null },
-      { word: 'museo', translation: 'музей', audioUrl: null },
-      { word: 'teatro', translation: 'театр', audioUrl: null },
-      { word: 'cine', translation: 'кинотеатр', audioUrl: null },
-      { word: 'monumento', translation: 'памятник', audioUrl: null },
-      { word: 'iglesia', translation: 'церковь', audioUrl: null },
-      { word: 'catedral', translation: 'собор', audioUrl: null },
-      { word: 'tienda', translation: 'магазин', audioUrl: null },
-      { word: 'mercado', translation: 'рынок', audioUrl: null },
-      { word: 'centro comercial', translation: 'торговый центр', audioUrl: null },
-      { word: 'peluquería', translation: 'парикмахерская', audioUrl: null },
-      { word: 'estadio', translation: 'стадион', audioUrl: null },
-      { word: 'Correos', translation: 'почта', audioUrl: null },
-      { word: 'río', translation: 'река', audioUrl: null },
-      { word: 'puerto', translation: 'порт', audioUrl: null },
-      { word: 'fuente', translation: 'фонтан', audioUrl: null },
-      { word: 'puente', translation: 'мост', audioUrl: null },
-      { word: 'norte', translation: 'север', audioUrl: null },
-      { word: 'sur', translation: 'юг', audioUrl: null },
-      { word: 'este', translation: 'восток', audioUrl: null },
-      { word: 'oeste', translation: 'запад', audioUrl: null }
+      {
+        tab: 'СУЩЕСТВИТЕЛЬНЫЕ',
+        words: [
+          { word: 'curiosidad', translation: 'достопримечательность', audioUrl: null },
+          { word: 'lugar de interés', translation: 'достопримечательность', audioUrl: null },
+          { word: 'centro', translation: 'центр', audioUrl: null },
+          { word: 'ayuntamiento', translation: 'мэрия', audioUrl: null },
+          { word: 'afueras', translation: 'пригород / окрестности', audioUrl: null },
+          { word: 'calle', translation: 'улица', audioUrl: null },
+          { word: 'bocacalle', translation: 'переулок', audioUrl: null },
+          { word: 'callejón', translation: 'переулок', audioUrl: null },
+          { word: 'esquina', translation: 'угол улицы', audioUrl: null },
+          { word: 'avenida', translation: 'проспект', audioUrl: null },
+          { word: 'plaza', translation: 'площадь', audioUrl: null },
+          { word: 'paseo', translation: 'бульвар', audioUrl: null },
+          { word: 'malecón', translation: 'набережная', audioUrl: null },
+          { word: 'barrio', translation: 'район', audioUrl: null },
+          { word: 'cuadra', translation: 'квартал (городской)', audioUrl: null },
+          { word: 'muralla', translation: 'городская стена', audioUrl: null },
+          { word: 'edificio', translation: 'здание', audioUrl: null },
+          { word: 'estación', translation: 'вокзал', audioUrl: null },
+          { word: 'farmacia', translation: 'аптека', audioUrl: null },
+          { word: 'hospital', translation: 'больница', audioUrl: null },
+          { word: 'policía', translation: 'полиция', audioUrl: null },
+          { word: 'banco', translation: 'банк', audioUrl: null },
+          { word: 'parque', translation: 'парк', audioUrl: null },
+          { word: 'museo', translation: 'музей', audioUrl: null },
+          { word: 'teatro', translation: 'театр', audioUrl: null },
+          { word: 'cine', translation: 'кинотеатр', audioUrl: null },
+          { word: 'monumento', translation: 'памятник', audioUrl: null },
+          { word: 'iglesia', translation: 'церковь', audioUrl: null },
+          { word: 'catedral', translation: 'собор', audioUrl: null },
+          { word: 'tienda', translation: 'магазин', audioUrl: null },
+          { word: 'mercado', translation: 'рынок', audioUrl: null },
+          { word: 'centro comercial', translation: 'торговый центр', audioUrl: null },
+          { word: 'peluquería', translation: 'парикмахерская', audioUrl: null },
+          { word: 'estadio', translation: 'стадион', audioUrl: null },
+          { word: 'Correos', translation: 'почта', audioUrl: null },
+          { word: 'río', translation: 'река', audioUrl: null },
+          { word: 'puerto', translation: 'порт', audioUrl: null },
+          { word: 'fuente', translation: 'фонтан', audioUrl: null },
+          { word: 'puente', translation: 'мост', audioUrl: null },
+          { word: 'norte', translation: 'север', audioUrl: null },
+          { word: 'sur', translation: 'юг', audioUrl: null },
+          { word: 'este', translation: 'восток', audioUrl: null },
+          { word: 'oeste', translation: 'запад', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'НАРЕЧИЯ',
+        words: [
+          { word: 'ahora', translation: 'сейчас', audioUrl: null },
+          { word: 'hoy', translation: 'сегодня', audioUrl: null },
+          { word: 'mañana', translation: 'завтра', audioUrl: null },
+          { word: 'ayer', translation: 'вчера', audioUrl: null },
+          { word: 'tarde', translation: 'поздно', audioUrl: null },
+          { word: 'temprano', translation: 'рано', audioUrl: null },
+          { word: 'cerca', translation: 'близко', audioUrl: null },
+          { word: 'lejos', translation: 'далеко', audioUrl: null },
+          { word: 'siempre', translation: 'всегда', audioUrl: null },
+          { word: 'nunca', translation: 'никогда', audioUrl: null },
+          { word: 'bien', translation: 'хорошо', audioUrl: null },
+          { word: 'mal', translation: 'плохо', audioUrl: null },
+          { word: 'casi', translation: 'почти', audioUrl: null },
+          { word: 'primero', translation: 'сначала', audioUrl: null },
+          { word: 'después', translation: 'потом, после', audioUrl: null },
+          { word: 'luego', translation: 'затем, после', audioUrl: null },
+          { word: 'arriba', translation: 'наверху, вверх', audioUrl: null },
+          { word: 'abajo', translation: 'внизу, вниз', audioUrl: null },
+          { word: 'fuera', translation: 'снаружи', audioUrl: null },
+          { word: 'dentro', translation: 'внутри', audioUrl: null },
+          { word: 'raramente', translation: 'редко', audioUrl: null },
+          { word: 'altamente', translation: 'высоко', audioUrl: null },
+          { word: 'rápidamente', translation: 'быстро', audioUrl: null },
+          { word: 'difícilmente', translation: 'трудно', audioUrl: null },
+          { word: 'felizmente', translation: 'счастливо', audioUrl: null },
+          { word: 'alegremente', translation: 'весело', audioUrl: null },
+          { word: 'lentamente', translation: 'медленно', audioUrl: null },
+          { word: 'tristemente', translation: 'грустно', audioUrl: null },
+          { word: 'fácilmente', translation: 'легко', audioUrl: null },
+          { word: 'sinceramente', translation: 'искренне', audioUrl: null },
+          { word: 'fuertemente', translation: 'сильно', audioUrl: null },
+          { word: 'claramente', translation: 'ясно', audioUrl: null },
+          { word: 'mejor', translation: 'лучше', audioUrl: null },
+          { word: 'peor', translation: 'хуже', audioUrl: null },
+          { word: 'mucho', translation: 'много', audioUrl: null },
+          { word: 'poco', translation: 'мало', audioUrl: null },
+          { word: 'más', translation: 'больше', audioUrl: null },
+          { word: 'menos', translation: 'меньше', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'ПРИЛАГАТЕЛЬНЫЕ',
+        words: [
+          { word: 'largo', translation: 'длинный', audioUrl: null },
+          { word: 'difícil', translation: 'трудный', audioUrl: null },
+          { word: 'tímido', translation: 'застенчивый', audioUrl: null },
+          { word: 'regular', translation: 'обычный', audioUrl: null },
+          { word: 'atento', translation: 'внимательный', audioUrl: null },
+          { word: 'fuerte', translation: 'сильный', audioUrl: null },
+          { word: 'cariñoso', translation: 'ласковый', audioUrl: null },
+          { word: 'frío', translation: 'холодный', audioUrl: null },
+          { word: 'sencillo', translation: 'простой', audioUrl: null },
+          { word: 'alegre', translation: 'весёлый', audioUrl: null },
+          { word: 'prudente', translation: 'осторожный', audioUrl: null },
+          { word: 'triste', translation: 'грустный', audioUrl: null },
+          { word: 'fácil', translation: 'лёгкий', audioUrl: null },
+          { word: 'feliz', translation: 'счастливый', audioUrl: null },
+          { word: 'cordial', translation: 'сердечный', audioUrl: null }
+        ]
+      }
     ],
     exercises: []
   },
