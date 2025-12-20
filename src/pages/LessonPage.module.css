@@ -728,4 +728,17 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .exerciseTabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .exerciseTab {
+    white-space: nowrap;
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+    flex-shrink: 0;
+  }
 }
