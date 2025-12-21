@@ -5976,14 +5976,93 @@ Ana: No se preocupe. ¡Adiós!`
 
   'lesson-4-3': {
     id: 'lesson-4-3',
-    title: 'Урок 3: Pretérito imperfecto',
+    title: 'Урок 3: ГОРОДСКОЙ ТРАНСПОРТ. Степени сравнения прилагательных. Предложные формы местоимений-дополнений. Причастие. Pretérito perfecto compuesto',
     moduleId: 'module-4',
     grammar: {
-      title: 'Pretérito imperfecto vs Indefinido',
-      content: `
-# Pretérito imperfecto (Незавершенное прошедшее время)
+      title: 'Степени сравнения прилагательных. Предложные формы местоимений-дополнений. Причастие. Pretérito perfecto compuesto',
+      intro: `В этом уроке мы изучим степени сравнения прилагательных для описания городского транспорта, предложные формы местоимений, причастие и сложное прошедшее время Pretérito perfecto compuesto.`,
+      sections: [
+        {
+          id: 'adjective-comparison',
+          title: 'Степени сравнения прилагательных',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Степени сравнения прилагательных
 
-## Образование:
+### Положительная степень
+
+Обычная форма прилагательного без сравнения.
+
+**Примеры:**
+- un autobús rápido (быстрый автобус)
+- una estación limpia (чистая станция)
+
+### Сравнительная степень
+
+Используется для сопоставления двух объектов.
+
+**Más + прилагательное + que** (более... чем)
+- El tren es más puntual que el autobús. (Поезд более пунктуален, чем автобус).
+
+**Menos + прилагательное + que** (менее... чем)
+- La bicicleta es menos peligrosa que la moto. (Велосипед менее опасен, чем мотоцикл).
+
+**Tan + прилагательное + como** (такой же... как)
+- El tranvía es tan cómodo como el metro. (Трамвай такой же удобный, как метро).
+
+### Особые формы сравнения
+
+Некоторые прилагательные меняют корень при сравнении:
+
+**bueno (хороший) → mejor (лучше)**
+- Ir a pie es mejor para la salud. (Ходить пешком лучше для здоровья).
+
+**malo (плохой) → peor (хуже)**
+- Este camino es peor que el otro. (Этот путь хуже другого).
+
+**grande (большой):**
+- mayor (старше — о возрасте)
+- más grande (больше — о размере)
+
+**pequeño (маленький):**
+- menor (младше — о возрасте)
+- más pequeño (меньше — о размере)
+
+### Превосходная степень
+
+Выделяет объект среди всех остальных.
+
+**1. Относительная превосходная степень (самый... из группы):**
+
+артикль (el/la) + más + прилагательное + de
+
+- Este es el taxi más caro de la ciudad. (Это самое дорогое такси в городе).
+- Es la estación más moderna de la línea. (Это самая современная станция на линии).
+
+**2. Абсолютная превосходная степень (очень / крайне):**
+
+muy + прилагательное
+- El viaje es muy largo. (Поездка очень долгая).
+
+прилагательное + суффикс -ísimo/a
+- El billete es carísimo. (Билет дорогущий).
+
+### Дополнительные примеры
+
+- Este transbordo es tan difícil como el anterior. (Эта пересадка такая же сложная, как предыдущая).
+- El avión es más veloz que el barco. (Самолет быстрее корабля).
+- Es un sistema de transporte buenísimo. (Это отличнейшая система транспорта).
+- Mi coche es peor que el tuyo, pero consume menos. (Моя машина хуже твоей, но потребляет меньше).
+- Esta es la ruta más corta para llegar al centro. (Это самый короткий маршрут, чтобы добраться до центра).`
+        },
+        {
+          id: 'preterito-imperfecto',
+          title: 'Pretérito imperfecto (Незавершенное прошедшее время)',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Pretérito imperfecto (Незавершенное прошедшее время)
+
+### Образование:
 
 **Глаголы на -AR (hablar):**
 | Лицо | Окончание | Пример |
@@ -6005,13 +6084,13 @@ Ana: No se preocupe. ¡Adiós!`
 | vosotros/as | -íais | comíais, vivíais |
 | ellos/ellas/ustedes | -ían | comían, vivían |
 
-## Неправильные глаголы (только 3!):
+### Неправильные глаголы (только 3!):
 
 **SER:** era, eras, era, éramos, erais, eran
 **IR:** iba, ibas, iba, íbamos, ibais, iban
 **VER:** veía, veías, veía, veíamos, veíais, veían
 
-## Употребление Imperfecto:
+### Употребление Imperfecto:
 
 1. **Описание в прошлом:**
    - Era una casa grande (Это был большой дом)
@@ -6028,7 +6107,7 @@ Ana: No se preocupe. ¡Adiós!`
    - Eran las tres (Было три часа)
    - Tenía 10 años (Мне было 10 лет)
 
-## Imperfecto vs Indefinido:
+### Imperfecto vs Indefinido:
 
 **Indefinido** (законченное действие):
 - Ayer fui al cine (Вчера я ходил в кино - и вернулся)
@@ -6038,16 +6117,11 @@ Ana: No se preocupe. ¡Adiós!`
 - De niño iba al cine cada sábado (Ребенком я ходил в кино каждую субботу)
 - Vivía en Madrid cuando te conocí (Я жил в Мадриде, когда познакомился с тобой)
 
-## Комбинация:
+### Комбинация:
 **Imperfecto (фон) + Indefinido (действие):**
 - Mientras **dormía** (imperfecto), **sonó** (indefinido) el teléfono
-- **Llovía** (imperfecto) cuando **salí** (indefinido) de casa
-      `,
-      examples: [
-        { spanish: 'Cuando era niño, jugaba fútbol', translation: 'Когда я был ребенком, я играл в футбол' },
-        { spanish: 'Vivíamos en una casa grande', translation: 'Мы жили в большом доме' },
-        { spanish: 'Mientras cocinaba, llegaron mis amigos', translation: 'Пока я готовил, пришли мои друзья' },
-        { spanish: 'Hacía sol cuando salimos', translation: 'Было солнечно, когда мы вышли' }
+- **Llovía** (imperfecto) cuando **salí** (indefinido) de casa`
+        }
       ]
     },
     vocabulary: [
