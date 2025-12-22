@@ -5980,55 +5980,77 @@ Ana: No se preocupe. ¡Adiós!`
     moduleId: 'module-4',
     grammar: {
       title: 'Степени сравнения прилагательных. Предложные формы местоимений-дополнений. Причастие. Pretérito perfecto compuesto',
-      intro: `В этом уроке мы изучим степени сравнения прилагательных для описания городского транспорта, предложные формы местоимений, причастие и сложное прошедшее время Pretérito perfecto compuesto.`,
+      intro: `В этом уроке мы изучим степени сравнения прилагательных, предложные формы местоимений.`,
       sections: [
         {
-          id: 'adjective-comparison',
-          title: 'Степени сравнения прилагательных',
+          id: 'positive-degree',
+          title: 'Положительная степень',
           collapsible: true,
           defaultOpen: false,
-          content: `## Степени сравнения прилагательных
-
-### Положительная степень
+          content: `## Положительная степень
 
 Обычная форма прилагательного без сравнения.
 
 **Примеры:**
 - un autobús rápido (быстрый автобус)
 - una estación limpia (чистая станция)
-
-### Сравнительная степень
+- un tren moderno (современный поезд)
+- una bicicleta cómoda (удобный велосипед)`
+        },
+        {
+          id: 'comparative-degree',
+          title: 'Сравнительная степень',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Сравнительная степень
 
 Используется для сопоставления двух объектов.
 
 **Más + прилагательное + que** (более... чем)
 - El tren es más puntual que el autobús. (Поезд более пунктуален, чем автобус).
+- El metro es más rápido que el tranvía. (Метро быстрее трамвая).
 
 **Menos + прилагательное + que** (менее... чем)
 - La bicicleta es menos peligrosa que la moto. (Велосипед менее опасен, чем мотоцикл).
+- El autobús es menos caro que el taxi. (Автобус менее дорогой, чем такси).
 
 **Tan + прилагательное + como** (такой же... как)
 - El tranvía es tan cómodo como el metro. (Трамвай такой же удобный, как метро).
-
-### Особые формы сравнения
+- Este billete es tan barato como el otro. (Этот билет такой же дешевый, как другой).`
+        },
+        {
+          id: 'special-forms',
+          title: 'Особые формы сравнения',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Особые формы сравнения
 
 Некоторые прилагательные меняют корень при сравнении:
 
 **bueno (хороший) → mejor (лучше)**
 - Ir a pie es mejor para la salud. (Ходить пешком лучше для здоровья).
+- El metro es mejor que el autobús en hora punta. (Метро лучше автобуса в час пик).
 
 **malo (плохой) → peor (хуже)**
 - Este camino es peor que el otro. (Этот путь хуже другого).
+- El tráfico hoy es peor que ayer. (Движение сегодня хуже, чем вчера).
 
 **grande (большой):**
 - mayor (старше — о возрасте)
 - más grande (больше — о размере)
+- La estación central es más grande que la del barrio. (Центральная станция больше районной).
 
 **pequeño (маленький):**
 - menor (младше — о возрасте)
 - más pequeño (меньше — о размере)
-
-### Превосходная степень
+- Este taxi es más pequeño que aquel. (Это такси меньше того).`
+        },
+        {
+          id: 'superlative-degree',
+          title: 'Превосходная степень',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Превосходная степень
 
 Выделяет объект среди всех остальных.
 
@@ -6038,105 +6060,123 @@ Ana: No se preocupe. ¡Adiós!`
 
 - Este es el taxi más caro de la ciudad. (Это самое дорогое такси в городе).
 - Es la estación más moderna de la línea. (Это самая современная станция на линии).
+- El metro es el transporte más rápido de Madrid. (Метро — самый быстрый транспорт в Мадриде).
 
 **2. Абсолютная превосходная степень (очень / крайне):**
 
 muy + прилагательное
 - El viaje es muy largo. (Поездка очень долгая).
+- La parada está muy cerca. (Остановка очень близко).
 
 прилагательное + суффикс -ísimo/a
 - El billete es carísimo. (Билет дорогущий).
-
-### Дополнительные примеры
+- El autobús va lentísimo. (Автобус едет очень медленно).`
+        },
+        {
+          id: 'additional-examples',
+          title: 'Дополнительные примеры',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Дополнительные примеры
 
 - Este transbordo es tan difícil como el anterior. (Эта пересадка такая же сложная, как предыдущая).
 - El avión es más veloz que el barco. (Самолет быстрее корабля).
 - Es un sistema de transporte buenísimo. (Это отличнейшая система транспорта).
 - Mi coche es peor que el tuyo, pero consume menos. (Моя машина хуже твоей, но потребляет меньше).
-- Esta es la ruta más corta para llegar al centro. (Это самый короткий маршрут, чтобы добраться до центра).`
+- Esta es la ruta más corta para llegar al centro. (Это самый короткий маршрут, чтобы добраться до центра).
+- El tren de alta velocidad es rapidísimo. (Скоростной поезд очень быстрый).
+- Tomar el metro es más conveniente que ir en coche. (Ехать на метро удобнее, чем на машине).`
         },
         {
-          id: 'preterito-imperfecto',
-          title: 'Pretérito imperfecto (Незавершенное прошедшее время)',
+          id: 'prepositional-pronouns',
+          title: 'Предложные формы местоимений-дополнений',
           collapsible: true,
           defaultOpen: false,
-          content: `## Pretérito imperfecto (Незавершенное прошедшее время)
+          content: `## Предложные формы местоимений-дополнений
 
-### Образование:
+Местоимения, которые используются после предлогов.
 
-**Глаголы на -AR (hablar):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -aba | hablaba |
-| tú | -abas | hablabas |
-| él/ella/usted | -aba | hablaba |
-| nosotros/as | -ábamos | hablábamos |
-| vosotros/as | -abais | hablabais |
-| ellos/ellas/ustedes | -aban | hablaban |
+### Формы предложных местоимений:
 
-**Глаголы на -ER/-IR (comer/vivir):**
-| Лицо | Окончание | Пример |
-|------|-----------|--------|
-| yo | -ía | comía, vivía |
-| tú | -ías | comías, vivías |
-| él/ella/usted | -ía | comía, vivía |
-| nosotros/as | -íamos | comíamos, vivíamos |
-| vosotros/as | -íais | comíais, vivíais |
-| ellos/ellas/ustedes | -ían | comían, vivían |
+| Лицо | Местоимение | Пример |
+|------|-------------|---------|
+| yo | mí | para mí (для меня) |
+| tú | ti | sin ti (без тебя) |
+| él | él | con él (с ним) |
+| ella | ella | por ella (из-за неё) |
+| usted | usted | cerca de usted (рядом с Вами) |
+| nosotros/as | nosotros/as | entre nosotros (между нами) |
+| vosotros/as | vosotros/as | delante de vosotros (перед вами) |
+| ellos | ellos | detrás de ellos (позади них) |
+| ellas | ellas | al lado de ellas (рядом с ними) |
+| ustedes | ustedes | lejos de ustedes (далеко от Вас) |
 
-### Неправильные глаголы (только 3!):
+### Особый случай: con + mí/ti → conmigo/contigo
 
-**SER:** era, eras, era, éramos, erais, eran
-**IR:** iba, ibas, iba, íbamos, ibais, iban
-**VER:** veía, veías, veía, veíamos, veíais, veían
+- ¿Vienes **conmigo** al centro? (Поедешь со мной в центр?)
+- Voy **contigo** a la estación. (Я иду с тобой на станцию).
+- Ella viene con él. (Она едет с ним).
 
-### Употребление Imperfecto:
+### Примеры с транспортом:
 
-1. **Описание в прошлом:**
-   - Era una casa grande (Это был большой дом)
-   - Hacía frío (Было холодно)
-
-2. **Привычные действия:**
-   - Todos los días iba al parque (Каждый день я ходил в парк)
-   - Siempre comíamos juntos (Мы всегда ели вместе)
-
-3. **Фоновое действие:**
-   - Mientras leía, sonó el teléfono (Пока я читал, зазвонил телефон)
-
-4. **Время, возраст в прошлом:**
-   - Eran las tres (Было три часа)
-   - Tenía 10 años (Мне было 10 лет)
-
-### Imperfecto vs Indefinido:
-
-**Indefinido** (законченное действие):
-- Ayer fui al cine (Вчера я ходил в кино - и вернулся)
-- Viví en Madrid dos años (Я жил в Мадриде 2 года - но больше не живу)
-
-**Imperfecto** (незаконченное, фон, привычка):
-- De niño iba al cine cada sábado (Ребенком я ходил в кино каждую субботу)
-- Vivía en Madrid cuando te conocí (Я жил в Мадриде, когда познакомился с тобой)
-
-### Комбинация:
-**Imperfecto (фон) + Indefinido (действие):**
-- Mientras **dormía** (imperfecto), **sonó** (indefinido) el teléfono
-- **Llovía** (imperfecto) cuando **salí** (indefinido) de casa`
+- Este billete es **para ti**. (Этот билет для тебя).
+- El taxi viene **por nosotros**. (Такси приезжает за нами).
+- ¿Puedes viajar **conmigo** en tren? (Ты можешь поехать со мной на поезде?)
+- La parada está **cerca de ti**. (Остановка рядом с тобой).
+- Sin **ella**, no podemos ir. (Без неё мы не можем поехать).`
         }
       ]
     },
     vocabulary: [
-      { word: 'niño/a', translation: 'ребенок', audioUrl: null },
-      { word: 'infancia', translation: 'детство', audioUrl: null },
-      { word: 'cuando', translation: 'когда', audioUrl: null },
-      { word: 'mientras', translation: 'пока, в то время как', audioUrl: null },
-      { word: 'siempre', translation: 'всегда', audioUrl: null },
-      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
-      { word: 'normalmente', translation: 'обычно', audioUrl: null },
-      { word: 'jugar', translation: 'играть', audioUrl: null },
-      { word: 'contar', translation: 'рассказывать', audioUrl: null },
-      { word: 'historia', translation: 'история, рассказ', audioUrl: null },
-      { word: 'juventud', translation: 'молодость', audioUrl: null },
-      { word: 'feliz', translation: 'счастливый', audioUrl: null }
+      { word: 'transporte público', translation: 'общественный транспорт', audioUrl: null },
+      { word: 'transporte urbano', translation: 'городской транспорт', audioUrl: null },
+      { word: 'parada de autobús', translation: 'автобусная остановка', audioUrl: null },
+      { word: 'viaje', translation: 'поездка / путешествие / проезд', audioUrl: null },
+      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
+      { word: 'pasajero', translation: 'пассажир', audioUrl: null },
+      { word: 'conductor', translation: 'водитель', audioUrl: null },
+      { word: 'próxima parada', translation: 'следующая остановка', audioUrl: null },
+      { word: 'plano', translation: 'схема / план', audioUrl: null },
+      { word: 'ruta / línea', translation: 'маршрут / линия', audioUrl: null },
+      { word: 'tráfico', translation: 'дорожное движение', audioUrl: null },
+      { word: 'subir al autobús', translation: 'сесть в автобус', audioUrl: null },
+      { word: 'bajar del autobús', translation: 'выйти из автобуса', audioUrl: null },
+      { word: 'ceder el asiento', translation: 'уступить место', audioUrl: null },
+      { word: 'tarjeta de transporte', translation: 'проездной билет / карточка', audioUrl: null },
+      { word: 'horario', translation: 'расписание', audioUrl: null },
+      { word: 'paso de peatones', translation: 'пешеходный переход', audioUrl: null },
+      { word: 'ir en dirección contraria', translation: 'ехать в обратном направлении', audioUrl: null },
+      { word: 'perder el autobús', translation: 'опоздать на автобус', audioUrl: null },
+      { word: 'costar', translation: 'стоить', audioUrl: null },
+      { word: 'estación del metro', translation: 'станция метро', audioUrl: null },
+      { word: 'entrada', translation: 'вход', audioUrl: null },
+      { word: 'salida', translation: 'выход', audioUrl: null },
+      { word: 'taquilla', translation: 'билетная касса', audioUrl: null },
+      { word: 'máquina expendedora', translation: 'автомат для продажи проездных билетов / платежный терминал', audioUrl: null },
+      { word: 'origen', translation: 'станция отправления', audioUrl: null },
+      { word: 'destino', translation: 'станция назначения', audioUrl: null },
+      { word: 'tren', translation: 'поезд', audioUrl: null },
+      { word: 'cambiar de línea', translation: 'сделать пересадку на другую линию', audioUrl: null },
+      { word: 'correspondencia', translation: 'станция пересадки', audioUrl: null },
+      { word: 'escalera mecánica', translation: 'эскалатор', audioUrl: null },
+      { word: 'andén', translation: 'перрон / платформа', audioUrl: null },
+      { word: 'llamar un taxi', translation: 'вызвать такси', audioUrl: null },
+      { word: 'tomar un taxi', translation: 'поймать / взять такси', audioUrl: null },
+      { word: 'parada de taxis', translation: 'стоянка такси', audioUrl: null },
+      { word: 'dirección', translation: 'адрес', audioUrl: null },
+      { word: 'taxímetro', translation: 'счётчик', audioUrl: null },
+      { word: 'pagar al taxista', translation: 'заплатить таксисту', audioUrl: null },
+      { word: 'equipaje', translation: 'багаж', audioUrl: null },
+      { word: 'maletero', translation: 'багажник', audioUrl: null },
+      { word: 'abrocharse el cinturón', translation: 'пристегнуть ремень безопасности', audioUrl: null },
+      { word: 'prohibido fumar', translation: 'курить запрещено', audioUrl: null },
+      { word: 'prohibido parar', translation: 'остановка запрещена', audioUrl: null },
+      { word: 'atasco', translation: 'пробка (на дороге)', audioUrl: null },
+      { word: 'carretera', translation: 'шоссе / дорога', audioUrl: null },
+      { word: '¿Puede llamar a un taxi, por favor?', translation: 'Можете вызвать такси, пожалуйста?', audioUrl: null },
+      { word: 'Lléveme a esta dirección', translation: 'Отвезите меня по этому адресу', audioUrl: null },
+      { word: '¿Puedo poner las maletas en el maletero?', translation: 'Я могу положить чемоданы в багажник?', audioUrl: null },
+      { word: 'Hay mucho tráfico, hay un atasco en la carretera', translation: 'На дорогах сильное движение, на шоссе пробка', audioUrl: null }
     ],
     readingText: {
       title: 'Recuerdos de mi infancia',
