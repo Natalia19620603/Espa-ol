@@ -62,6 +62,18 @@ function ModulePage() {
               const totalExercises = lesson.exercises?.length || 0
               const completedExercises = lessonProgress.exercisesCompleted || 0
 
+              // Count total words (handle both flat and tabbed vocabulary)
+              let wordCount = 0
+              if (lesson.vocabulary && Array.isArray(lesson.vocabulary)) {
+                if (lesson.vocabulary.length > 0 && lesson.vocabulary[0].words) {
+                  // Tabbed vocabulary
+                  wordCount = lesson.vocabulary.reduce((sum, tab) => sum + (tab.words?.length || 0), 0)
+                } else {
+                  // Flat vocabulary
+                  wordCount = lesson.vocabulary.length
+                }
+              }
+
               return (
                 <div
                   key={lessonId}
@@ -79,7 +91,7 @@ function ModulePage() {
                       </div>
                       <div className={styles.metaItem}>
                         <span className={styles.metaIcon}>📝</span>
-                        <span>Слов: {lesson.vocabulary?.length || 0}</span>
+                        <span>Слов: {wordCount}</span>
                       </div>
                       <div className={styles.metaItem}>
                         <span className={styles.metaIcon}>✏️</span>
