@@ -6264,7 +6264,45 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
 **Pasajera:** — ¿Cuánto dura el viaje? Tengo prisa.
 **Conductor:** — Unos ocho o diez minutos. ¿Va a pagar? Son 1,50 € (uno con cincuenta).
 **Pasajera:** — Sí, por supuesto. No tengo monedas, tengo un billete de cinco euros.
-**Conductor:** — No importa. Aquí tiene la vuelta (el cambio).`
+**Conductor:** — No importa. Aquí tiene la vuelta (el cambio).
+
+---
+
+**Diálogo 3: En el metro**
+
+**Pasajero:** — Perdone, ¿sabe cómo ir al Museo del Prado?
+**Empleado:** — Sí, claro. ¿Dónde estamos ahora?
+**Pasajero:** — Estamos en la estación de Sol.
+**Empleado:** — Bien. Tiene que tomar la Línea 2 (roja) en dirección a «Las Rosas».
+**Pasajero:** — ¿Tengo que cambiar de línea?
+**Empleado:** — No, es directo hasta la estación de Banco de España. Allí tiene que bajar.
+**Pasajero:** — ¿Y cuánto se tarda en llegar?
+**Empleado:** — Muy poco, son solo dos paradas. Unos cinco minutos.
+**Pasajero:** — Perfecto. ¿Dónde puedo comprar el billete?
+**Empleado:** — En aquellas máquinas automáticas de allí. Puede pagar con tarjeta o en efectivo.
+**Pasajero:** — Muy amable, gracias.
+**Empleado:** — De nada, ¡buen viaje!
+
+---
+
+**Diálogo 4: En el taxi**
+
+**Taxista:** — Buenas noches. ¿Adónde vamos, señor?
+**Pasajero:** — Aquí tengo la dirección: Avenida de la Paz, 5.
+**Taxista:** — Un momento, voy a poner su equipaje en el maletero.
+**Pasajero:** — ¿Hay atascos en la carretera?
+**Taxista:** — No, no hay. A esta hora hay pocos coches. ¿Se ha abrochado el cinturón?
+**Pasajero:** — Sí, lo tengo abrochado. ¿Está lejos la Avenida de la Paz?
+**Taxista:** — Unos quince minutos, no más...
+**Pasajero:** — ¿Puede parar al lado del portal, por favor?
+**Taxista:** — Aquí está prohibido parar. Lo siento.
+**Pasajero:** — ¿Cuánto le debo?
+**Taxista:** — 38,70 € (treinta y ocho euros con setenta céntimos).
+**Pasajero:** — ¿Cómo? ¡El taxímetro marca 28!
+**Taxista:** — Es la tarifa nocturna.
+**Pasajero:** — Ah, sí... Perdone. Aquí tiene cuarenta. El cambio (la vuelta) es para usted.
+**Taxista:** — Gracias, señor. ¡Adiós!
+**Pasajero:** — Hasta luego.`
       }
     ],
     exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5', 'ex-4-3-6', 'ex-4-3-7']
