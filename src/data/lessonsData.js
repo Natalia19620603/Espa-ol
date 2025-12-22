@@ -6088,15 +6088,13 @@ muy + прилагательное
 - Tomar el metro es más conveniente que ir en coche. (Ехать на метро удобнее, чем на машине).`
         },
         {
-          id: 'prepositional-pronouns',
-          title: 'Предложные формы местоимений-дополнений',
+          id: 'prepositional-pronouns-forms',
+          title: 'Формы предложных местоимений',
           collapsible: true,
           defaultOpen: false,
-          content: `## Предложные формы местоимений-дополнений
+          content: `## Формы предложных местоимений
 
 Местоимения, которые используются после предлогов.
-
-### Формы предложных местоимений:
 
 | Лицо | Местоимение | Пример |
 |------|-------------|---------|
@@ -6109,21 +6107,51 @@ muy + прилагательное
 | vosotros/as | vosotros/as | delante de vosotros (перед вами) |
 | ellos | ellos | detrás de ellos (позади них) |
 | ellas | ellas | al lado de ellas (рядом с ними) |
-| ustedes | ustedes | lejos de ustedes (далеко от Вас) |
+| ustedes | ustedes | lejos de ustedes (далеко от Вас) |`
+        },
+        {
+          id: 'conmigo-contigo',
+          title: 'Особый случай: con + mí/ti → conmigo/contigo',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Особый случай: con + mí/ti → conmigo/contigo
 
-### Особый случай: con + mí/ti → conmigo/contigo
+С предлогом **con** местоимения **mí** и **ti** образуют особые формы:
+
+- **con + mí** = **conmigo** (со мной)
+- **con + ti** = **contigo** (с тобой)
+
+**Примеры:**
 
 - ¿Vienes **conmigo** al centro? (Поедешь со мной в центр?)
 - Voy **contigo** a la estación. (Я иду с тобой на станцию).
-- Ella viene con él. (Она едет с ним).
+- Ella quiere hablar **contigo**. (Она хочет поговорить с тобой).
+- ¿Puedes ir **conmigo**? (Ты можешь пойти со мной?)
 
-### Примеры с транспортом:
+**Остальные формы остаются обычными:**
+
+- Ella viene **con él**. (Она едет с ним).
+- Vamos **con ellos**. (Мы идём с ними).`
+        },
+        {
+          id: 'transport-examples',
+          title: 'Примеры с транспортом',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Примеры с транспортом
+
+**Использование предложных местоимений в транспортном контексте:**
 
 - Este billete es **para ti**. (Этот билет для тебя).
+- La tarjeta de transporte es **para mí**. (Проездной билет для меня).
 - El taxi viene **por nosotros**. (Такси приезжает за нами).
 - ¿Puedes viajar **conmigo** en tren? (Ты можешь поехать со мной на поезде?)
 - La parada está **cerca de ti**. (Остановка рядом с тобой).
-- Sin **ella**, no podemos ir. (Без неё мы не можем поехать).`
+- Sin **ella**, no podemos ir. (Без неё мы не можем поехать).
+- El conductor habla **de él**. (Водитель говорит о нём).
+- Entre **tú** y yo, el metro es más rápido. (Между тобой и мной, метро быстрее).
+- ¿Vienes **conmigo** a la estación de metro? (Поедешь со мной на станцию метро?)
+- Este asiento es **para usted**. (Это место для Вас).`
         }
       ]
     },
@@ -6193,33 +6221,53 @@ muy + прилагательное
         ]
       }
     ],
-    readingText: {
-      title: 'Recuerdos de mi infancia',
-      content: `Cuando pienso en mi infancia, siempre sonrío. Eran tiempos muy felices y sencillos.
+    readingText: [
+      {
+        tab: 'ТЕКСТ',
+        title: 'El transporte urbano en Madrid',
+        content: `**El transporte urbano en Madrid**
 
-Vivía en un pueblo pequeño cerca de Granada. Nuestra casa era antigua pero acogedora. Tenía un jardín enorme donde mi hermano y yo jugábamos durante horas. Había un árbol grande - un olivo centenario - donde construimos una casa en el árbol. Era nuestro lugar secreto.
+Madrid tiene uno de los sistemas de transporte público más modernos y eficientes de Europa. Para los habitantes y turistas, viajar por la ciudad es muy cómodo y rápido.
 
-Todos los días me levantaba temprano. Mi madre preparaba el desayuno mientras yo me vestía. Normalmente tomábamos chocolate caliente con churros. Después iba a la escuela a pie. El camino duraba unos veinte minutos, pero me gustaba porque pasaba por el parque y veía a los pájaros.
+El metro de Madrid es el transporte más rápido de la ciudad. Es más extenso que el de Barcelona y tiene más de 300 estaciones. Para usar el metro, puedes comprar un billete sencillo en la taquilla o en una máquina expendedora. El billete sencillo cuesta 1,50-2,00 euros, dependiendo de la zona. Pero si viajas mucho, es mejor comprar una tarjeta de transporte. La tarjeta de 10 viajes es más barata que comprar 10 billetes individuales.
 
-En la escuela tenía muchos amigos. Mi mejor amigo se llamaba Carlos. Éramos inseparables. Siempre nos sentábamos juntos y compartíamos nuestras meriendas. Después de las clases jugábamos al fútbol en el patio. Yo era portero y Carlos era delantero. Formábamos un gran equipo.
+Cuando entras en la estación del metro, primero debes ver el plano de rutas para saber qué línea tomar. Cada línea tiene un color diferente. Si tu destino está en otra línea, tienes que cambiar de línea en una estación de correspondencia. En los andenes siempre hay información sobre la dirección del tren y la próxima parada.
 
-Los fines de semana eran especiales. Los sábados por la mañana iba al mercado con mi abuela. Ella compraba verduras frescas y hablaba con todos los vendedores. Conocía a todo el mundo. A mí me compraba dulces - siempre los mismos: caramelos de menta.
+Los autobuses urbanos también son muy populares. Hay muchas rutas que conectan todos los barrios de la ciudad. En la parada de autobús puedes ver el horario y el número de línea. Para subir al autobús, esperas en la parada. Cuando el autobús llega, subes por la puerta delantera y pagas al conductor o validas tu tarjeta de transporte. El conductor te puede avisar cuándo debes bajar si se lo pides.
 
-Los domingos comíamos en casa de mis abuelos. Mi abuela cocinaba platos deliciosos: paella, cocido, gazpacho en verano. Toda la familia se reunía: tíos, tías, primos. Después de comer, mi abuelo nos contaba historias de cuando era joven. Nosotros escuchábamos fascinados.
+En el autobús hay asientos especiales para personas mayores y mujeres embarazadas. Es importante ceder el asiento a estas personas. También está prohibido fumar en todo el transporte público.
 
-En verano íbamos a la playa. Pasábamos todo el mes de agosto en un apartamento pequeño en Málaga. Mis padres alquilaban el mismo apartamento cada año. Estaba a cinco minutos de la playa. Todos los días nadábamos, construíamos castillos de arena y jugábamos al voleibol. Por las noches paseábamos por el paseo marítimo y comíamos helado.
+Los taxis en Madrid son blancos con una raya roja diagonal. Para tomar un taxi, puedes llamar por teléfono, ir a una parada de taxis o parar uno en la calle si tiene la luz verde encendida. El taxista siempre usa el taxímetro, que indica cuánto cuesta el viaje. Normalmente el viaje desde el aeropuerto al centro cuesta unos 30 euros. Si llevas mucho equipaje, puedes ponerlo en el maletero. Es importante abrocharse el cinturón de seguridad.
 
-Ahora vivo en Madrid. Trabajo en una oficina y mi vida es muy diferente. Pero cuando vuelvo al pueblo y veo el olivo de mi infancia, todos esos recuerdos vuelven. Me siento otra vez ese niño feliz que jugaba sin preocupaciones.`,
-      translation: 'Воспоминания о моем детстве\n\nКогда я думаю о своем детстве, я всегда улыбаюсь. Это были очень счастливые и простые времена.\n\nЯ жил в маленькой деревне недалеко от Гранады. Наш дом был старинным, но уютным. У него был огромный сад, где мы с братом играли часами. Там было большое дерево - вековая олива - где мы построили дом на дереве. Это было наше секретное место.\n\nКаждый день я вставал рано. Моя мать готовила завтрак, пока я одевался. Обычно мы пили горячий шоколад с чуррос. Потом я шел в школу пешком. Дорога занимала около двадцати минут, но мне нравилось, потому что я проходил через парк и видел птиц.\n\nВ школе у меня было много друзей. Моего лучшего друга звали Карлос. Мы были неразлучны. Мы всегда сидели вместе и делились нашими полдниками. После занятий мы играли в футбол во дворе. Я был вратарем, а Карлос нападающим. Мы составляли отличную команду.\n\nВыходные были особенными. По субботам утром я ходил на рынок с бабушкой. Она покупала свежие овощи и разговаривала со всеми продавцами. Она знала всех. Она покупала мне сладости - всегда одни и те же: мятные леденцы.\n\nПо воскресеньям мы ели в доме моих бабушки и дедушки. Моя бабушка готовила вкусные блюда: паэлью, кocido, гаспачо летом. Вся семья собиралась: дяди, тети, двоюродные братья. После еды мой дедушка рассказывал нам истории о том, когда он был молодым. Мы слушали, зачарованные.\n\nЛетом мы ездили на пляж. Мы проводили весь август в маленькой квартире в Малаге. Мои родители арендовали ту же квартиру каждый год. Она была в пяти минутах от пляжа. Каждый день мы плавали, строили замки из песка и играли в волейбол. По вечерам мы гуляли по набережной и ели мороженое.\n\nТеперь я живу в Мадриде. Я работаю в офисе, и моя жизнь очень отличается. Но когда я возвращаюсь в деревню и вижу оливу моего детства, все эти воспоминания возвращаются. Я снова чувствую себя тем счастливым ребенком, который играл беззаботно.',
-      audioUrl: '/audio/lesson-4-3-reading.mp3',
-      subtitles: [
-        { start: 0, end: 5, text: 'Cuando pienso en mi infancia, siempre sonrío.' },
-        { start: 5, end: 10, text: 'Vivía en un pueblo pequeño cerca de Granada.' },
-        { start: 10, end: 15, text: 'Todos los días me levantaba temprano.' },
-        { start: 15, end: 20, text: 'En la escuela tenía muchos amigos.' }
-      ]
-    },
-    exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5']
+En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por eso, el metro es más rápido que el taxi o el autobús. Entre el metro y el autobús, para mí el metro es más conveniente porque no depende del tráfico. ¿Y para ti? ¿Qué transporte prefieres?`
+      },
+      {
+        tab: 'ДИАЛОГИ',
+        title: 'Диалоги о транспорте',
+        content: `**Diálogo 1: En la parada de autobús**
+
+— ¡Oiga! ¿Puede ayudarme?
+— Sí. ¡Cómo no!
+— ¿Qué autobús tengo que tomar para ir a la Estación Central?
+— Un momento, hay que ver el plano de rutas.
+— Ya veo: la línea gris, el autobús número dos.
+— Sí, usted tiene razón. Hay que tomar el autobús número dos, pero en dirección contraria. Usted necesita cruzar la calle. La parada está enfrente.
+— Muchas gracias.
+— De nada.
+
+---
+
+**Diálogo 2: En el autobús**
+
+**Pasajera:** — Buenos días. Para ir a la Estación Central, ¿en qué parada tengo que bajar?
+**Conductor:** — Buenos días, señora. Es la quinta parada. Yo la aviso.
+**Pasajera:** — ¿Cuánto dura el viaje? Tengo prisa.
+**Conductor:** — Unos ocho o diez minutos. ¿Va a pagar? Son 1,50 € (uno con cincuenta).
+**Pasajera:** — Sí, por supuesto. No tengo monedas, tengo un billete de cinco euros.
+**Conductor:** — No importa. Aquí tiene la vuelta (el cambio).`
+      }
+    ],
+    exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5', 'ex-4-3-6', 'ex-4-3-7']
   },
 
   // МОДУЛЬ 5: Путешествия и места (A2)
@@ -10400,6 +10448,40 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'El transporte público es _____ ecológico que el coche privado', options: ['más', 'muy', 'mucho', 'tan'], correct: 0 },
       { sentence: 'Debes _____ en la próxima parada', options: ['subir', 'bajar', 'viajar', 'costar'], correct: 1 },
       { sentence: 'La Sagrada Familia es el monumento _____ famoso de Barcelona', options: ['muy', 'más', 'el más', 'tan'], correct: 2 }
+    ]
+  },
+  'ex-4-3-6': {
+    id: 'ex-4-3-6',
+    type: 'writing',
+    title: 'Переведите на испанский - Предложные местоимения',
+    description: 'Используйте правильные формы предложных местоимений',
+    questions: [
+      { russian: 'Хочешь пойти со мной в театр?', correct: '¿quieres ir conmigo al teatro?' },
+      { russian: 'Нам нравится рано вставать, а вам нравится?', correct: 'a nosotros nos gusta levantarnos temprano, ¿a ustedes les gusta?' },
+      { russian: 'Эти упражнения для них — простые', correct: 'estos ejercicios para ellos son fáciles' },
+      { russian: 'Я не могу ехать за границу без тебя', correct: 'no puedo ir al extranjero sin ti' },
+      { russian: 'Мы не смеемся над тобой, мы смеемся над ними', correct: 'no nos reímos de ti, nos reímos de ellos' },
+      { russian: 'Я делаю это ради тебя, а не ради них', correct: 'hago esto por ti, no por ellos' },
+      { russian: 'Он предпочитает не говорить с Вами о ней', correct: 'él prefiere no hablar con usted de ella' },
+      { russian: 'Она думает о тебе, готовит ужин для тебя. Тебе надо позвонить ей', correct: 'ella piensa en ti, prepara la cena para ti. tienes que llamarla' },
+      { russian: 'Сын говорит родителям, что хочет жениться на ней, потому что не может жить без нее', correct: 'el hijo dice a los padres que quiere casarse con ella porque no puede vivir sin ella' },
+      { russian: 'Полицейский спрашивает про Вас, а я не знаю, что сказать ему', correct: 'el policía pregunta por usted y no sé qué decirle' }
+    ]
+  },
+  'ex-4-3-7': {
+    id: 'ex-4-3-7',
+    type: 'writing',
+    title: 'Переведите на испанский - Транспортные ситуации',
+    description: 'Переведите фразы из диалогов о транспорте',
+    questions: [
+      { russian: 'Послушайте! Где я могу посмотреть схему маршрутов автобусов?', correct: '¡oiga! ¿dónde puedo ver el plano de rutas de autobuses?' },
+      { russian: 'До Центрального Вокзала Вы можете доехать на автобусе № 2 серой линии, который идет в противоположном направлении. Остановка автобуса находится напротив, поэтому Вам надо перейти улицу', correct: 'a la estación central puede ir en el autobús número dos de la línea gris, que va en dirección contraria. la parada de autobús está enfrente, por eso usted necesita cruzar la calle' },
+      { russian: 'Вам надо выйти на пятой остановке. Поездка длится минут 8-10', correct: 'usted tiene que bajar en la quinta parada. el viaje dura unos ocho o diez minutos' },
+      { russian: 'Одна поездка на автобусе стоит 1,50 €', correct: 'un viaje en autobús cuesta 1,50 €' },
+      { russian: 'У меня нет проездного билета', correct: 'no tengo tarjeta de transporte' },
+      { russian: 'Вот Вам сдача 8,50 € с купюры в 10 €', correct: 'aquí tiene la vuelta 8,50 € de un billete de 10 €' },
+      { russian: 'Вы собираетесь платить? — Да, конечно', correct: '¿va a pagar? — sí, por supuesto' },
+      { russian: 'Водитель предупреждает пассажира, что ему нужно выходить на следующей остановке', correct: 'el conductor avisa al pasajero que tiene que bajar en la próxima parada' }
     ]
   },
 
