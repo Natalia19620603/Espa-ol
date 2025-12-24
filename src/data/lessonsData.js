@@ -6560,6 +6560,207 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
         ]
       }
     ],
+    readingText: {
+      title: 'Un día ocupado',
+      content: `Hoy ha sido un día muy ocupado. Esta mañana me he despertado a las siete porque tenía muchas cosas que hacer. Primero, he desayunado café con tostadas y después me he duchado rápidamente.
+
+He salido de casa a las ocho y media y he tomado el metro para ir al centro. La estación estaba muy llena porque era hora punta. He llegado a la oficina a las nueve en punto.
+
+Durante toda la mañana he trabajado en un proyecto importante. He escrito varios emails, he hecho algunas llamadas telefónicas y he preparado una presentación para la reunión de esta tarde. Mi jefe ha venido a mi despacho y hemos hablado sobre el nuevo cliente. Él me ha dicho que el trabajo está muy bien hecho.
+
+A la una he ido a comer con mis compañeros a un restaurante cerca de la oficina. Hemos comido el menú del día: de primero, gazpacho; de segundo, paella de mariscos; y de postre, flan. La comida ha estado deliciosa. Después de comer, hemos tomado un café y hemos vuelto a la oficina.
+
+Por la tarde he tenido la reunión con el cliente. Todo ha salido muy bien. El cliente ha dicho que está muy contento con nuestro trabajo y ha propuesto ampliar el proyecto. Mi equipo y yo estamos muy satisfechos con el resultado.
+
+He terminado de trabajar a las seis y he vuelto a casa en autobús. Esta noche he cenado con mi familia. Mi madre ha cocinado mi plato favorito: pollo asado con patatas. Después de cenar, he visto una película en la televisión.
+
+Ahora son las once de la noche y estoy muy cansado. Hoy he hecho muchas cosas pero me siento contento porque ha sido un día productivo. Mañana tengo que levantarme temprano otra vez porque hay mucho trabajo pendiente.`,
+      translation: `Сегодня был очень загруженный день. Сегодня утром я проснулся в семь, потому что мне нужно было сделать много дел. Сначала я позавтракал кофе с тостами, а потом быстро принял душ.
+
+Я вышел из дома в половине девятого и сел на метро, чтобы поехать в центр. Станция была очень полна, потому что был час пик. Я прибыл в офис ровно в девять.
+
+В течение всего утра я работал над важным проектом. Я написал несколько писем, сделал несколько телефонных звонков и подготовил презентацию для встречи сегодня днём. Мой начальник пришёл в мой кабинет, и мы поговорили о новом клиенте. Он сказал мне, что работа очень хорошо сделана.
+
+В час дня я пошёл пообедать с коллегами в ресторан недалеко от офиса. Мы заказали меню дня: на первое - гаспачо; на второе - паэлья с морепродуктами; и на десерт - флан. Еда была восхитительная. После обеда мы выпили кофе и вернулись в офис.
+
+Во второй половине дня у меня была встреча с клиентом. Всё прошло очень хорошо. Клиент сказал, что он очень доволен нашей работой, и предложил расширить проект. Мы с командой очень довольны результатом.
+
+Я закончил работу в шесть и вернулся домой на автобусе. Сегодня вечером я поужинал с семьёй. Моя мама приготовила моё любимое блюдо: жареную курицу с картошкой. После ужина я посмотрел фильм по телевизору.
+
+Сейчас одиннадцать вечера, и я очень устал. Сегодня я сделал много дел, но чувствую себя довольным, потому что это был продуктивный день. Завтра мне нужно рано вставать снова, потому что много незавершённой работы.`
+    },
+    dialogues: [
+      {
+        id: 'dialogue-4-4-1',
+        title: 'Diálogo 1: En la oficina',
+        content: `**Jefe:** Buenos días, Ana. ¿Has terminado ya el informe del proyecto?
+
+**Ana:** Sí, señor. Ya lo he terminado. Lo he enviado por email esta mañana.
+
+**Jefe:** Perfecto. ¿Y has hablado con el cliente sobre las nuevas propuestas?
+
+**Ana:** Sí, he hablado con él hace una hora. Ha dicho que está muy interesado y que quiere reunirse con nosotros la semana que viene.
+
+**Jefe:** Excelente trabajo, Ana. ¿Has preparado la presentación para la reunión?
+
+**Ana:** Todavía no la he terminado del todo, pero ya tengo hechas la mayoría de las diapositivas. Esta tarde voy a terminarla.
+
+**Jefe:** Muy bien. Por cierto, ¿has visto a Carlos hoy? He intentado llamarlo pero no ha contestado.
+
+**Ana:** No, no lo he visto. Creo que hoy ha ido al dentista. Me ha enviado un mensaje esta mañana.
+
+**Jefe:** Ah, vale. Cuando vuelva, dile que venga a mi despacho, por favor.
+
+**Ana:** Por supuesto, se lo diré en cuanto lo vea.`,
+        translation: `**Начальник:** Доброе утро, Ана. Ты уже закончила отчёт по проекту?
+
+**Ана:** Да, сэр. Я уже его закончила. Я отправила его по электронной почте сегодня утром.
+
+**Начальник:** Отлично. А ты поговорила с клиентом о новых предложениях?
+
+**Ана:** Да, я говорила с ним час назад. Он сказал, что очень заинтересован и что хочет встретиться с нами на следующей неделе.
+
+**Начальник:** Отличная работа, Ана. Ты подготовила презентацию для встречи?
+
+**Ана:** Я ещё не закончила её полностью, но уже сделала большинство слайдов. Сегодня днём я её закончу.
+
+**Начальник:** Очень хорошо. Кстати, ты видела Карлоса сегодня? Я пытался ему позвонить, но он не ответил.
+
+**Ана:** Нет, я его не видела. Думаю, что сегодня он пошёл к стоматологу. Он прислал мне сообщение сегодня утром.
+
+**Начальник:** А, понятно. Когда он вернётся, скажи ему, чтобы зашёл ко мне в кабинет, пожалуйста.
+
+**Ана:** Конечно, я скажу ему, как только его увижу.`
+      },
+      {
+        id: 'dialogue-4-4-2',
+        title: 'Diálogo 2: Entre amigos',
+        content: `**María:** ¡Hola, Pedro! ¿Qué tal? Hace mucho que no te veo.
+
+**Pedro:** ¡Hola, María! Es verdad, han pasado varias semanas. He estado muy ocupado últimamente.
+
+**María:** Ya veo. ¿Qué has hecho? Cuéntame.
+
+**Pedro:** Pues este mes he cambiado de trabajo. He empezado en una empresa nueva y he tenido que aprender muchas cosas.
+
+**María:** ¡Qué bien! ¿Y cómo te va en el nuevo trabajo?
+
+**Pedro:** Muy bien. Los compañeros son muy simpáticos y el ambiente es genial. Ya he hecho algunos amigos.
+
+**María:** Me alegro mucho. ¿Y has viajado este año? El año pasado dijiste que querías ir a Barcelona.
+
+**Pedro:** Sí, he estado allí el mes pasado. Ha sido un viaje increíble. He visitado la Sagrada Familia, he paseado por Las Ramblas y he comido paella auténtica.
+
+**María:** ¡Qué envidia! Yo todavía no he ido a Barcelona. Siempre he querido visitar esa ciudad.
+
+**Pedro:** Tienes que ir. Es una ciudad preciosa. Por cierto, ¿qué has hecho tú este verano?
+
+**María:** Yo he estado de vacaciones en la playa con mi familia. Hemos alquilado una casa cerca del mar y nos hemos divertido mucho.
+
+**Pedro:** Suena genial. Oye, ¿has visto la nueva película de Almodóvar?
+
+**María:** No, todavía no la he visto. ¿Tú la has visto ya?
+
+**Pedro:** Sí, la he visto la semana pasada. Te la recomiendo. Es muy buena.`,
+        translation: `**Мария:** Привет, Педро! Как дела? Давно тебя не видела.
+
+**Педро:** Привет, Мария! Правда, прошло несколько недель. Я был очень занят в последнее время.
+
+**Мария:** Вижу. Что ты делал? Расскажи.
+
+**Педро:** Ну, в этом месяце я сменил работу. Я начал в новой компании и мне пришлось многому научиться.
+
+**Мария:** Как здорово! И как тебе новая работа?
+
+**Педро:** Очень хорошо. Коллеги очень приятные, и атмосфера отличная. Я уже завёл несколько друзей.
+
+**Мария:** Я очень рада. А ты путешествовал в этом году? В прошлом году ты говорил, что хочешь поехать в Барселону.
+
+**Педро:** Да, я был там в прошлом месяце. Это была невероятная поездка. Я посетил Саграда Фамилия, прогулялся по Лас-Рамблас и ел настоящую паэлью.
+
+**Мария:** Как завидно! Я ещё не была в Барселоне. Я всегда хотела посетить этот город.
+
+**Педро:** Тебе надо поехать. Это прекрасный город. Кстати, что ты делала этим летом?
+
+**Мария:** Я была в отпуске на пляже с семьёй. Мы сняли дом у моря и очень хорошо провели время.
+
+**Педро:** Звучит здорово. Слушай, ты видела новый фильм Альмодовара?
+
+**Мария:** Нет, я ещё его не видела. А ты уже посмотрел?
+
+**Педро:** Да, я посмотрел его на прошлой неделе. Рекомендую тебе. Он очень хороший.`
+      },
+      {
+        id: 'dialogue-4-4-3',
+        title: 'Diálogo 3: En casa',
+        content: `**Madre:** Hijos, ¿ya habéis hecho los deberes?
+
+**Juan:** Yo ya he terminado los míos, mamá.
+
+**Laura:** Yo todavía no he acabado. Me falta el ejercicio de matemáticas.
+
+**Madre:** Laura, ¿por qué no has terminado? Has tenido toda la tarde.
+
+**Laura:** Es que he estado ayudando a papá en el jardín. Hemos plantado flores y hemos regado las plantas.
+
+**Padre:** Es verdad. Laura me ha ayudado mucho esta tarde. Ha trabajado muy bien.
+
+**Madre:** Vale, pero ahora tienes que terminar los deberes. ¿Juan, has recogido tu habitación?
+
+**Juan:** Sí, mamá. Ya la he recogido y he puesto la ropa sucia en el cesto.
+
+**Madre:** Muy bien. ¿Y habéis preparado las mochilas para mañana?
+
+**Juan:** Yo sí. He metido todos los libros y los cuadernos que necesito.
+
+**Laura:** Yo las prepararé después de terminar los deberes.
+
+**Padre:** Por cierto, ¿habéis visto mis llaves del coche? No las encuentro.
+
+**Juan:** Yo las he visto en la mesa de la cocina esta mañana.
+
+**Padre:** Gracias, voy a mirar allí. ¿Y habéis dado de comer al perro?
+
+**Laura:** Sí, papá. Ya le he dado de comer y le he puesto agua fresca.
+
+**Madre:** Muy bien, chicos. Cuando terminéis todo, vamos a cenar. He preparado vuestra comida favorita.
+
+**Juan y Laura:** ¡Qué bien! Gracias, mamá.`,
+        translation: `**Мама:** Дети, вы уже сделали домашнее задание?
+
+**Хуан:** Я уже закончил своё, мама.
+
+**Лаура:** Я ещё не закончила. Мне осталось упражнение по математике.
+
+**Мама:** Лаура, почему ты не закончила? У тебя был весь вечер.
+
+**Лаура:** Дело в том, что я помогала папе в саду. Мы посадили цветы и полили растения.
+
+**Папа:** Правда. Лаура мне очень помогла сегодня днём. Она очень хорошо поработала.
+
+**Мама:** Хорошо, но сейчас тебе нужно закончить домашнее задание. Хуан, ты убрал свою комнату?
+
+**Хуан:** Да, мама. Я уже убрал её и положил грязную одежду в корзину.
+
+**Мама:** Очень хорошо. А вы приготовили рюкзаки на завтра?
+
+**Хуан:** Я да. Я положил все книги и тетради, которые мне нужны.
+
+**Лаура:** Я приготовлю их после того, как закончу домашнее задание.
+
+**Папа:** Кстати, вы видели мои ключи от машины? Я не могу их найти.
+
+**Хуан:** Я видел их на кухонном столе сегодня утром.
+
+**Папа:** Спасибо, пойду посмотрю там. А вы покормили собаку?
+
+**Лаура:** Да, папа. Я уже покормила её и налила ей свежей воды.
+
+**Мама:** Очень хорошо, дети. Когда закончите всё, мы поужинаем. Я приготовила ваше любимое блюдо.
+
+**Хуан и Лаура:** Как здорово! Спасибо, мама.`
+      }
+    ],
     exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13']
   },
 
@@ -10781,7 +10982,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // Упражнения для Урока 4-4: Причастие и Pretérito Perfecto Compuesto
   'ex-4-4-1': {
     id: 'ex-4-4-1',
-    type: 'fillblank',
+    type: 'writing',
     title: 'Упражнение 1a: Состояние (estar + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Puedes abrir la ventana? — Ya está abierta.',
     questions: [
@@ -10800,7 +11001,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-2': {
     id: 'ex-4-4-2',
-    type: 'fillblank',
+    type: 'writing',
     title: 'Упражнение 1b: Результат (tener + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Vas a hacer los ejercicios? — Ya tengo hechos los ejercicios.',
     questions: [
@@ -10819,7 +11020,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-3': {
     id: 'ex-4-4-3',
-    type: 'conjugation',
+    type: 'writing',
     title: 'Упражнение 2: Pretérito Perfecto Compuesto',
     description: 'Поставьте глаголы в Pretérito Perfecto Compuesto',
     questions: [
@@ -10881,7 +11082,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-6': {
     id: 'ex-4-4-6',
-    type: 'conjugation',
+    type: 'writing',
     title: 'Упражнение 5: Pretérito Perfecto - Verbo estar',
     description: 'Поставьте глагол в Pretérito Perfecto Compuesto',
     questions: [
@@ -10905,7 +11106,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-7': {
     id: 'ex-4-4-7',
-    type: 'conjugation',
+    type: 'writing',
     title: 'Упражнение 6: Pretérito Perfecto - Verbos reflexivos',
     description: 'Поставьте возвратный глагол в Pretérito Perfecto Compuesto',
     questions: [
@@ -10929,7 +11130,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-8': {
     id: 'ex-4-4-8',
-    type: 'fillblank',
+    type: 'writing',
     title: 'Упражнение 7: Указатели времени',
     description: 'Дополните предложения подходящим указателем времени',
     questions: [
@@ -10977,7 +11178,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-10': {
     id: 'ex-4-4-10',
-    type: 'conjugation',
+    type: 'writing',
     title: 'Упражнение 9: Participios irregulares en contexto',
     description: 'Используйте правильную форму неправильного причастия',
     questions: [
@@ -11001,25 +11202,25 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-11': {
     id: 'ex-4-4-11',
-    type: 'grammar',
-    title: 'Упражнение 10: Pretérito Perfecto vs Presente',
-    description: 'Выберите правильное время глагола',
+    type: 'writing',
+    title: 'Упражнение 11: Перевод на испанский - Pretérito Perfecto',
+    description: 'Переведите предложения на испанский, используя Pretérito Perfecto Compuesto',
     questions: [
-      { sentence: 'Esta mañana ___ al gimnasio.', options: ['voy', 'he ido', 'iba', 'fui'], correct: 1 },
-      { sentence: 'Todos los días ___ al gimnasio.', options: ['voy', 'he ido', 'iba', 'fui'], correct: 0 },
-      { sentence: 'Hoy ___ con mis padres.', options: ['como', 'he comido', 'comía', 'comí'], correct: 1 },
-      { sentence: 'Normalmente ___ en casa.', options: ['como', 'he comido', 'comía', 'comí'], correct: 0 },
-      { sentence: 'Este año ___ mucho español.', options: ['estudio', 'he estudiado', 'estudiaba', 'estudié'], correct: 1 },
-      { sentence: 'Siempre ___ mucho para los exámenes.', options: ['estudio', 'he estudiado', 'estudiaba', 'estudié'], correct: 0 },
-      { sentence: 'Esta semana ___ tres películas.', options: ['veo', 'he visto', 'veía', 'vi'], correct: 1 },
-      { sentence: 'Me gusta ___ películas.', options: ['ver', 'he visto', 'veía', 'vi'], correct: 0 },
-      { sentence: 'Hoy no ___ tiempo libre.', options: ['tengo', 'he tenido', 'tenía', 'tuve'], correct: 1 },
-      { sentence: 'Generalmente ___ mucho tiempo libre.', options: ['tengo', 'he tenido', 'tenía', 'tuve'], correct: 0 },
-      { sentence: 'Este mes ___ mucho dinero.', options: ['gasto', 'he gastado', 'gastaba', 'gasté'], correct: 1 },
-      { sentence: 'Cada mes ___ mi salario en ropa.', options: ['gasto', 'he gastado', 'gastaba', 'gasté'], correct: 0 },
-      { sentence: 'Esta tarde ___ con María.', options: ['hablo', 'he hablado', 'hablaba', 'hablé'], correct: 1 },
-      { sentence: 'A menudo ___ con María por teléfono.', options: ['hablo', 'he hablado', 'hablaba', 'hablé'], correct: 0 },
-      { sentence: 'Hoy ___ un regalo para ti.', options: ['compro', 'he comprado', 'compraba', 'compré'], correct: 1 }
+      { russian: 'Сегодня утром я пошел в спортзал.', correct: 'esta mañana he ido al gimnasio' },
+      { russian: 'Сегодня я пообедал с родителями.', correct: 'hoy he comido con mis padres' },
+      { russian: 'В этом году я много изучал испанский.', correct: 'este año he estudiado mucho español' },
+      { russian: 'На этой неделе я посмотрел три фильма.', correct: 'esta semana he visto tres películas' },
+      { russian: 'Сегодня у меня не было свободного времени.', correct: 'hoy no he tenido tiempo libre' },
+      { russian: 'В этом месяце я потратил много денег.', correct: 'este mes he gastado mucho dinero' },
+      { russian: 'Сегодня днем я говорил с Марией.', correct: 'esta tarde he hablado con maría' },
+      { russian: 'Сегодня я купил подарок для тебя.', correct: 'hoy he comprado un regalo para ti' },
+      { russian: 'Ты когда-нибудь был в Барселоне?', correct: '¿has estado alguna vez en barcelona?' },
+      { russian: 'Они еще не позвонили.', correct: 'todavía no han llamado' },
+      { russian: 'Мы уже закончили работу.', correct: 'ya hemos terminado el trabajo' },
+      { russian: 'Она никогда не пробовала паэлью.', correct: 'ella nunca ha comido paella' },
+      { russian: 'Вы уже сделали домашнее задание?', correct: '¿ya habéis hecho los deberes?' },
+      { russian: 'В этом году много дождей.', correct: 'este año ha llovido mucho' },
+      { russian: 'Сегодня вечером мы ужинали в ресторане.', correct: 'esta noche hemos cenado en un restaurante' }
     ]
   },
 
