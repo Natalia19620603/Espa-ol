@@ -45,10 +45,10 @@ export const modules = {
   },
   'module-4': {
     id: 'module-4',
-    title: 'Модуль 4: Повседневные занятия',
+    title: 'Модуль 4: Повседневные занятия. Город. Городской транспорт',
     level: 'beginner',
-    lessons: ['lesson-4-1', 'lesson-4-2', 'lesson-4-3'],
-    description: 'Обозначение часового времени. Возвратные глаголы. Герундий. Повседневная рутина.'
+    lessons: ['lesson-4-1', 'lesson-4-2', 'lesson-4-3', 'lesson-4-4'],
+    description: 'Обозначение часового времени. Возвратные глаголы. Герундий. Повседневная рутина. Числительные, Наречия, Город, Городской транспорт, Степени сравнения прилагательных, Причастия, Pretérito Perfecto Compuesto'
   },
   'module-5': {
     id: 'module-5',
@@ -5976,10 +5976,10 @@ Ana: No se preocupe. ¡Adiós!`
 
   'lesson-4-3': {
     id: 'lesson-4-3',
-    title: 'Урок 3: ГОРОДСКОЙ ТРАНСПОРТ. Степени сравнения прилагательных. Предложные формы местоимений-дополнений. Причастие. Pretérito perfecto compuesto',
+    title: 'Урок 3: ГОРОДСКОЙ ТРАНСПОРТ. Степени сравнения прилагательных. Предложные формы местоимений-дополнений',
     moduleId: 'module-4',
     grammar: {
-      title: 'Степени сравнения прилагательных. Предложные формы местоимений-дополнений. Причастие. Pretérito perfecto compuesto',
+      title: 'Степени сравнения прилагательных. Предложные формы местоимений-дополнений',
       intro: `В этом уроке мы изучим степени сравнения прилагательных, предложные формы местоимений.`,
       sections: [
         {
@@ -6306,6 +6306,162 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       }
     ],
     exercises: ['ex-4-3-1', 'ex-4-3-2', 'ex-4-3-3', 'ex-4-3-4', 'ex-4-3-5', 'ex-4-3-6', 'ex-4-3-7']
+  },
+
+  'lesson-4-4': {
+    id: 'lesson-4-4',
+    title: 'Урок 4: Причастие. Pretérito Perfecto Compuesto',
+    moduleId: 'module-4',
+    grammar: {
+      title: 'Причастие. Pretérito Perfecto Compuesto',
+      intro: `В этом уроке мы изучим причастие (participio) и сложное прошедшее время Pretérito Perfecto Compuesto.`,
+      sections: [
+        {
+          id: 'participio',
+          title: 'Причастие',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Причастие
+
+Причастие (participio) является неличной формой глагола и выполняет функцию определения по отношению к существительному, согласуясь с ним в роде и числе. Причастие сообщает о результате действия того глагола, от которого образовано.
+
+Причастия от глаголов 1-го спряжения образуются путем прибавления суффикса **-ado**, а от глаголов 2-го и 3-го спряжений — суффикса **-ido**:
+
+- **descansar** (отдыхать) — **descansado** (отдохнувший)
+- **vender** (продавать) — **vendido** (проданный)
+- **vivir** (жить) — **vivido** (прожитый)
+
+### Особые формы причастий
+
+Ряд глаголов имеет особую форму причастий:
+
+- **abrir** — **abierto** (открытый)
+- **cubrir** — **cubierto** (накрытый)
+- **decir** — **dicho** (сказанный)
+- **hacer** — **hecho** (сделанный)
+- **escribir** — **escrito** (написанный)
+- **romper** — **roto** (сломанный / рваный)
+- **morir** — **muerto** (мертвый)
+- **poner** — **puesto** (положенный)
+- **volver** — **vuelto** (вернувшийся)
+- **ver** — **visto** (увиденный)
+- **resolver** — **resuelto** (решенный)
+
+Глаголы, производные от вышеперечисленных исключений, сохраняют те же особенности образования причастия:
+
+- **escribir** → **prescribir** (prescrito), **describir** (descrito)
+- **volver** → **devolver** (devuelto), **envolver** (envuelto)
+- **poner** → **proponer** (propuesto), **componer** (compuesto), **disponer** (dispuesto)
+- **cubrir** → **descubrir** (descubierto)
+
+### Употребление причастия
+
+Причастие употребляется с глаголом **estar** для образования глагольной конструкции, которая выражает состояние, являющееся результатом предшествующего действия. Причастие в данной конструкции согласуется в роде и числе с подлежащим.
+
+Причастие может употребляться с глаголом **tener**. В этой конструкции оно согласуется в роде и числе с прямым дополнением.
+
+**Сравните:**
+
+- **La tienda está cerrada.** (Магазин закрыт).
+- **Los platos están lavados.** (Тарелки вымыты).
+- **La carta está escrita.** (Письмо написано).
+
+**С глаголом tener:**
+
+- **Tengo cerrada la tienda.** (У меня закрыт магазин / Я держу магазин закрытым).
+- **Tenemos lavados los platos.** (У нас вымыты тарелки / Мы уже перемыли все тарелки).
+- **Ya tengo escrita la carta.** (У меня уже написано письмо / Я уже написал письмо).`
+        },
+        {
+          id: 'preterito-perfecto',
+          title: 'Pretérito Perfecto Compuesto',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Pretérito perfecto compuesto (сложное прошедшее время)
+
+**Pretérito perfecto compuesto** (сложное прошедшее время) выражает законченное действие, имеющее непосредственную связь с настоящим.
+
+**Pretérito perfecto** образуется с помощью вспомогательного глагола **haber** в настоящем времени и **participio** (причастия) смыслового глагола. Причастие в этом случае не изменяется ни в роде, ни в числе.
+
+### Формула: haber + participio
+
+| Лицо | haber | I pagar (платить) | II vender (продать) | III recibir (получать) |
+|------|-------|-------------------|---------------------|------------------------|
+| yo | **he** | pagado | vendido | recibido |
+| tú | **has** | pagado | vendido | recibido |
+| él, ella, Ud. | **ha** | pagado | vendido | recibido |
+| nosotros (-as) | **hemos** | pagado | vendido | recibido |
+| vosotros (-as) | **habéis** | pagado | vendido | recibido |
+| ellos(-as), Uds. | **han** | pagado | vendido | recibido |
+
+### Важно!
+
+Вспомогательный глагол и причастие смыслового глагола **неразделимы**. Между ними не может быть других слов (отрицания, местоимения и т. п.).
+
+Возвратные местоимения, а также беспредложные формы личных местоимений в acusativo и dativo ставятся **перед** вспомогательным глаголом haber:
+
+- **Me he despertado temprano.** (Я проснулся рано).
+- **Te lo he dicho mil veces.** (Я тебе это говорил тысячу раз).
+- **No nos han llamado todavía.** (Они нам еще не позвонили).
+
+### Указатели времени
+
+**Pretérito perfecto compuesto** часто сопровождается следующими наречиями и наречными оборотами:
+
+- **todavía no** (еще не)
+- **ya** (уже)
+- **nunca** (никогда)
+- **siempre** (всегда)
+- **hoy** (сегодня)
+- **esta mañana** (этим утром)
+- **esta tarde** (этим днем/вечером)
+- **esta noche** (сегодня ночью/вечером)
+- **esta semana** (на этой неделе)
+- **este mes** (в этом месяце)
+- **este año** (в этом году)
+
+### Примеры
+
+- **Hoy hemos comido en un restaurante italiano.** (Сегодня мы пообедали в итальянском ресторане).
+- **¿Has visto mi teléfono? No lo encuentro.** (Ты видел мой телефон? Я его не нахожу).
+- **Este año ha llovido muy poco.** (В этом году дождей было очень мало).
+- **Todavía no he terminado de leer este libro.** (Я еще не закончил читать эту книгу).
+- **Mis amigos ya han vuelto de sus vacaciones.** (Мои друзья уже вернулись из отпуска).`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'participio', translation: 'причастие' },
+      { word: 'compuesto', translation: 'сложный, составной' },
+      { word: 'perfecto', translation: 'совершенный, законченный' },
+      { word: 'haber', translation: 'иметь (вспомогательный глагол)' },
+      { word: 'acabado', translation: 'законченный' },
+      { word: 'hecho', translation: 'сделанный, факт' },
+      { word: 'dicho', translation: 'сказанный' },
+      { word: 'escrito', translation: 'написанный' },
+      { word: 'visto', translation: 'увиденный' },
+      { word: 'abierto', translation: 'открытый' },
+      { word: 'cerrado', translation: 'закрытый' },
+      { word: 'roto', translation: 'сломанный' },
+      { word: 'puesto', translation: 'положенный' },
+      { word: 'vuelto', translation: 'вернувшийся' },
+      { word: 'muerto', translation: 'мертвый' },
+      { word: 'todavía no', translation: 'еще не' },
+      { word: 'ya', translation: 'уже' },
+      { word: 'nunca', translation: 'никогда' },
+      { word: 'siempre', translation: 'всегда' },
+      { word: 'este año', translation: 'в этом году' },
+      { word: 'este mes', translation: 'в этом месяце' },
+      { word: 'esta semana', translation: 'на этой неделе' },
+      { word: 'hoy', translation: 'сегодня' },
+      { word: 'esta mañana', translation: 'сегодня утром' },
+      { word: 'esta tarde', translation: 'сегодня днем/вечером' },
+      { word: 'vacaciones', translation: 'отпуск, каникулы' },
+      { word: 'terminar', translation: 'заканчивать' },
+      { word: 'llover', translation: 'идти (о дожде)' },
+      { word: 'volver', translation: 'возвращаться' }
+    ],
+    exercises: []
   },
 
   // МОДУЛЬ 5: Путешествия и места (A2)
