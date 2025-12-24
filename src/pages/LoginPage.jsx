@@ -9,9 +9,17 @@ function LoginPage() {
 
   // Проверка: если пользователь уже авторизован, перенаправляем на курсы
   useEffect(() => {
-    const userData = localStorage.getItem('user')
-    if (userData) {
-      navigate('/courses')
+    try {
+      const userData = localStorage.getItem('user')
+      if (userData) {
+        // Validate that userData is valid JSON
+        JSON.parse(userData)
+        navigate('/courses')
+      }
+    } catch (error) {
+      console.error('Error reading user data from localStorage:', error)
+      // Clear invalid data
+      localStorage.removeItem('user')
     }
   }, [navigate])
 
@@ -20,10 +28,19 @@ function LoginPage() {
 
     // Простая проверка (в реальном приложении здесь будет API запрос)
     if (email && password) {
-      // Сохраняем данные пользователя в localStorage
-      localStorage.setItem('user', JSON.stringify({ email, name: 'Пользователь' }))
-      // Редирект на курсы
-      navigate('/courses')
+      try {
+        // Сохраняем данные пользователя в localStorage
+        localStorage.setItem('user', JSON.stringify({ email, name: 'Пользователь' }))
+        // Редирект на курсы
+        navigate('/courses')
+      } catch (error) {
+        console.error('Error saving user data to localStorage:', error)
+        if (error.name === 'QuotaExceededError') {
+          alert('Недостаточно места для сохранения данных. Очистите хранилище браузера.')
+        } else {
+          alert('Ошибка при сохранении данных: ' + (error.message || 'Неизвестная ошибка'))
+        }
+      }
     } else {
       alert('Пожалуйста, заполните все поля')
     }
@@ -31,11 +48,20 @@ function LoginPage() {
 
   // Демо-вход для тестирования
   const handleDemoLogin = () => {
-    localStorage.setItem('user', JSON.stringify({
-      email: 'demo@example.com',
-      name: 'Демо пользователь'
-    }))
-    navigate('/courses')
+    try {
+      localStorage.setItem('user', JSON.stringify({
+        email: 'demo@example.com',
+        name: 'Демо пользователь'
+      }))
+      navigate('/courses')
+    } catch (error) {
+      console.error('Error during demo login:', error)
+      if (error.name === 'QuotaExceededError') {
+        alert('Недостаточно места для сохранения данных. Очистите хранилище браузера.')
+      } else {
+        alert('Ошибка при входе: ' + (error.message || 'Неизвестная ошибка'))
+      }
+    }
   }
 
   return (

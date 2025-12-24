@@ -7,6 +7,7 @@ function AudioPlayer({ audioUrl, text, showSubtitles = true, subtitles = [] }) {
   const [duration, setDuration] = useState(0)
   const [playbackRate, setPlaybackRate] = useState(1.0)
   const [currentSubtitle, setCurrentSubtitle] = useState('')
+  const [error, setError] = useState(null)
   const audioRef = useRef(null)
 
   useEffect(() => {
@@ -14,19 +15,33 @@ function AudioPlayer({ audioUrl, text, showSubtitles = true, subtitles = [] }) {
     if (!audio) return
 
     const handleTimeUpdate = () => {
-      setCurrentTime(audio.currentTime)
+      try {
+        if (audio.currentTime !== undefined && !isNaN(audio.currentTime)) {
+          setCurrentTime(audio.currentTime)
 
-      // Обновление субтитров
-      if (showSubtitles && subtitles.length > 0) {
-        const current = subtitles.find(
-          sub => audio.currentTime >= sub.start && audio.currentTime <= sub.end
-        )
-        setCurrentSubtitle(current ? current.text : '')
+          // Обновление субтитров
+          if (showSubtitles && subtitles.length > 0) {
+            const current = subtitles.find(
+              sub => audio.currentTime >= sub.start && audio.currentTime <= sub.end
+            )
+            setCurrentSubtitle(current ? current.text : '')
+          }
+        }
+      } catch (err) {
+        console.error('Error updating audio time:', err)
       }
     }
 
     const handleLoadedMetadata = () => {
-      setDuration(audio.duration)
+      try {
+        if (audio.duration !== undefined && !isNaN(audio.duration)) {
+          setDuration(audio.duration)
+          setError(null)
+        }
+      } catch (err) {
+        console.error('Error loading audio metadata:', err)
+        setError('Failed to load audio metadata')
+      }
     }
 
     const handleEnded = () => {
@@ -34,39 +49,99 @@ function AudioPlayer({ audioUrl, text, showSubtitles = true, subtitles = [] }) {
       setCurrentTime(0)
     }
 
+    const handleError = (e) => {
+      console.error('Audio playback error:', e)
+      setError('Unable to play audio. The file may be corrupted or in an unsupported format.')
+      setIsPlaying(false)
+    }
+
     audio.addEventListener('timeupdate', handleTimeUpdate)
     audio.addEventListener('loadedmetadata', handleLoadedMetadata)
     audio.addEventListener('ended', handleEnded)
+    audio.addEventListener('error', handleError)
 
     return () => {
       audio.removeEventListener('timeupdate', handleTimeUpdate)
       audio.removeEventListener('loadedmetadata', handleLoadedMetadata)
       audio.removeEventListener('ended', handleEnded)
+      audio.removeEventListener('error', handleError)
     }
   }, [showSubtitles, subtitles])
 
-  const togglePlay = () => {
+  const togglePlay = async () => {
     const audio = audioRef.current
-    if (isPlaying) {
-      audio.pause()
-    } else {
-      audio.play()
+    if (!audio) {
+      setError('Audio player not initialized')
+      return
     }
-    setIsPlaying(!isPlaying)
+
+    try {
+      if (isPlaying) {
+        audio.pause()
+        setIsPlaying(false)
+      } else {
+        await audio.play()
+        setIsPlaying(true)
+        setError(null)
+      }
+    } catch (err) {
+      console.error('Error toggling audio playback:', err)
+      setError('Failed to play audio. Please try again.')
+      setIsPlaying(false)
+    }
   }
 
   const handleSeek = (e) => {
     const audio = audioRef.current
-    const rect = e.currentTarget.getBoundingClientRect()
-    const x = e.clientX - rect.left
-    const percentage = x / rect.width
-    audio.currentTime = percentage * duration
+    if (!audio) {
+      setError('Audio player not initialized')
+      return
+    }
+
+    try {
+      const rect = e.currentTarget.getBoundingClientRect()
+      const x = e.clientX - rect.left
+      const percentage = Math.max(0, Math.min(1, x / rect.width))
+
+      if (duration && !isNaN(duration) && isFinite(duration)) {
+        const newTime = percentage * duration
+        if (!isNaN(newTime) && isFinite(newTime)) {
+          audio.currentTime = newTime
+          setError(null)
+        } else {
+          console.error('Invalid seek time calculated:', newTime)
+          setError('Unable to seek to the requested position')
+        }
+      } else {
+        console.error('Invalid duration:', duration)
+        setError('Audio duration not available yet')
+      }
+    } catch (err) {
+      console.error('Error seeking audio:', err)
+      setError('Failed to seek audio position')
+    }
   }
 
   const changePlaybackRate = (rate) => {
     const audio = audioRef.current
-    audio.playbackRate = rate
-    setPlaybackRate(rate)
+    if (!audio) {
+      setError('Audio player not initialized')
+      return
+    }
+
+    try {
+      if (typeof rate === 'number' && rate > 0 && rate <= 2) {
+        audio.playbackRate = rate
+        setPlaybackRate(rate)
+        setError(null)
+      } else {
+        console.error('Invalid playback rate:', rate)
+        setError('Invalid playback rate')
+      }
+    } catch (err) {
+      console.error('Error changing playback rate:', err)
+      setError('Failed to change playback speed')
+    }
   }
 
   const formatTime = (time) => {
@@ -78,6 +153,19 @@ function AudioPlayer({ audioUrl, text, showSubtitles = true, subtitles = [] }) {
   return (
     <div className={styles.audioPlayer}>
       <audio ref={audioRef} src={audioUrl} />
+
+      {error && (
+        <div className={styles.errorMessage} style={{
+          color: '#d32f2f',
+          padding: '8px',
+          marginBottom: '8px',
+          backgroundColor: '#ffebee',
+          borderRadius: '4px',
+          fontSize: '14px'
+        }}>
+          ⚠️ {error}
+        </div>
+      )}
 
       {showSubtitles && subtitles.length > 0 && (
         <div className={styles.subtitles}>

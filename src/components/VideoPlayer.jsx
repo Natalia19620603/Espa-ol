@@ -10,6 +10,7 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
   const [showSubtitles, setShowSubtitles] = useState(true)
   const [volume, setVolume] = useState(1.0)
   const [isMuted, setIsMuted] = useState(false)
+  const [error, setError] = useState(null)
   const videoRef = useRef(null)
 
   useEffect(() => {
@@ -17,19 +18,33 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
     if (!video) return
 
     const handleTimeUpdate = () => {
-      setCurrentTime(video.currentTime)
+      try {
+        if (video.currentTime !== undefined && !isNaN(video.currentTime)) {
+          setCurrentTime(video.currentTime)
 
-      // Обновление субтитров
-      if (showSubtitles && subtitles.length > 0) {
-        const current = subtitles.find(
-          sub => video.currentTime >= sub.start && video.currentTime <= sub.end
-        )
-        setCurrentSubtitle(current ? current.text : '')
+          // Обновление субтитров
+          if (showSubtitles && subtitles.length > 0) {
+            const current = subtitles.find(
+              sub => video.currentTime >= sub.start && video.currentTime <= sub.end
+            )
+            setCurrentSubtitle(current ? current.text : '')
+          }
+        }
+      } catch (err) {
+        console.error('Error updating video time:', err)
       }
     }
 
     const handleLoadedMetadata = () => {
-      setDuration(video.duration)
+      try {
+        if (video.duration !== undefined && !isNaN(video.duration)) {
+          setDuration(video.duration)
+          setError(null)
+        }
+      } catch (err) {
+        console.error('Error loading video metadata:', err)
+        setError('Failed to load video metadata')
+      }
     }
 
     const handleEnded = () => {
@@ -40,11 +55,18 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
     const handlePlay = () => setIsPlaying(true)
     const handlePause = () => setIsPlaying(false)
 
+    const handleError = (e) => {
+      console.error('Video playback error:', e)
+      setError('Unable to play video. The file may be corrupted or in an unsupported format.')
+      setIsPlaying(false)
+    }
+
     video.addEventListener('timeupdate', handleTimeUpdate)
     video.addEventListener('loadedmetadata', handleLoadedMetadata)
     video.addEventListener('ended', handleEnded)
     video.addEventListener('play', handlePlay)
     video.addEventListener('pause', handlePause)
+    video.addEventListener('error', handleError)
 
     return () => {
       video.removeEventListener('timeupdate', handleTimeUpdate)
@@ -52,47 +74,126 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
       video.removeEventListener('ended', handleEnded)
       video.removeEventListener('play', handlePlay)
       video.removeEventListener('pause', handlePause)
+      video.removeEventListener('error', handleError)
     }
   }, [showSubtitles, subtitles])
 
-  const togglePlay = () => {
+  const togglePlay = async () => {
     const video = videoRef.current
-    if (isPlaying) {
-      video.pause()
-    } else {
-      video.play()
+    if (!video) {
+      setError('Video player not initialized')
+      return
+    }
+
+    try {
+      if (isPlaying) {
+        video.pause()
+      } else {
+        await video.play()
+        setError(null)
+      }
+    } catch (err) {
+      console.error('Error toggling video playback:', err)
+      setError('Failed to play video. Please try again.')
+      setIsPlaying(false)
     }
   }
 
   const handleSeek = (e) => {
     const video = videoRef.current
-    const rect = e.currentTarget.getBoundingClientRect()
-    const x = e.clientX - rect.left
-    const percentage = x / rect.width
-    video.currentTime = percentage * duration
+    if (!video) {
+      setError('Video player not initialized')
+      return
+    }
+
+    try {
+      const rect = e.currentTarget.getBoundingClientRect()
+      const x = e.clientX - rect.left
+      const percentage = Math.max(0, Math.min(1, x / rect.width))
+
+      if (duration && !isNaN(duration) && isFinite(duration)) {
+        const newTime = percentage * duration
+        if (!isNaN(newTime) && isFinite(newTime)) {
+          video.currentTime = newTime
+          setError(null)
+        } else {
+          console.error('Invalid seek time calculated:', newTime)
+          setError('Unable to seek to the requested position')
+        }
+      } else {
+        console.error('Invalid duration:', duration)
+        setError('Video duration not available yet')
+      }
+    } catch (err) {
+      console.error('Error seeking video:', err)
+      setError('Failed to seek video position')
+    }
   }
 
   const changePlaybackRate = (rate) => {
     const video = videoRef.current
-    video.playbackRate = rate
-    setPlaybackRate(rate)
+    if (!video) {
+      setError('Video player not initialized')
+      return
+    }
+
+    try {
+      if (typeof rate === 'number' && rate > 0 && rate <= 2) {
+        video.playbackRate = rate
+        setPlaybackRate(rate)
+        setError(null)
+      } else {
+        console.error('Invalid playback rate:', rate)
+        setError('Invalid playback rate')
+      }
+    } catch (err) {
+      console.error('Error changing playback rate:', err)
+      setError('Failed to change playback speed')
+    }
   }
 
   const toggleMute = () => {
     const video = videoRef.current
-    video.muted = !isMuted
-    setIsMuted(!isMuted)
+    if (!video) {
+      setError('Video player not initialized')
+      return
+    }
+
+    try {
+      video.muted = !isMuted
+      setIsMuted(!isMuted)
+      setError(null)
+    } catch (err) {
+      console.error('Error toggling mute:', err)
+      setError('Failed to toggle mute')
+    }
   }
 
   const handleVolumeChange = (e) => {
     const video = videoRef.current
-    const newVolume = parseFloat(e.target.value)
-    video.volume = newVolume
-    setVolume(newVolume)
-    if (newVolume === 0) {
-      setIsMuted(true)
-    } else if (isMuted) {
-      setIsMuted(false)
+    if (!video) {
+      setError('Video player not initialized')
+      return
+    }
+
+    try {
+      const newVolume = parseFloat(e.target.value)
+      if (!isNaN(newVolume) && newVolume >= 0 && newVolume <= 1) {
+        video.volume = newVolume
+        setVolume(newVolume)
+        if (newVolume === 0) {
+          setIsMuted(true)
+        } else if (isMuted) {
+          setIsMuted(false)
+        }
+        setError(null)
+      } else {
+        console.error('Invalid volume value:', newVolume)
+        setError('Invalid volume value')
+      }
+    } catch (err) {
+      console.error('Error changing volume:', err)
+      setError('Failed to change volume')
     }
   }
 
@@ -105,6 +206,19 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
   return (
     <div className={styles.videoPlayerContainer}>
       {title && <h3 className={styles.videoTitle}>{title}</h3>}
+
+      {error && (
+        <div className={styles.errorMessage} style={{
+          color: '#d32f2f',
+          padding: '8px',
+          marginBottom: '8px',
+          backgroundColor: '#ffebee',
+          borderRadius: '4px',
+          fontSize: '14px'
+        }}>
+          ⚠️ {error}
+        </div>
+      )}
 
       <div className={styles.videoWrapper}>
         <video

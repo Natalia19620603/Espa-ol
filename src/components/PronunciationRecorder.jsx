@@ -31,6 +31,17 @@ function PronunciationRecorder({ text, onRecordingComplete }) {
     } catch (error) {
       console.error('Ошибка доступа к микрофону:', error)
       setHasPermission(false)
+
+      // Provide specific error messages based on error type
+      if (error.name === 'NotAllowedError') {
+        console.error('Microphone access denied by user')
+      } else if (error.name === 'NotFoundError') {
+        console.error('No microphone device found')
+      } else if (error.name === 'NotReadableError') {
+        console.error('Microphone is already in use by another application')
+      } else {
+        console.error('Unknown microphone error:', error.message)
+      }
     }
   }
 
@@ -38,26 +49,49 @@ function PronunciationRecorder({ text, onRecordingComplete }) {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
 
+      // Check if MediaRecorder is supported
+      if (!window.MediaRecorder) {
+        throw new Error('MediaRecorder is not supported in this browser')
+      }
+
       const mediaRecorder = new MediaRecorder(stream)
       mediaRecorderRef.current = mediaRecorder
       audioChunksRef.current = []
 
       mediaRecorder.ondataavailable = (event) => {
-        if (event.data.size > 0) {
+        if (event.data && event.data.size > 0) {
           audioChunksRef.current.push(event.data)
         }
       }
 
       mediaRecorder.onstop = () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' })
-        const url = URL.createObjectURL(audioBlob)
-        setAudioURL(url)
+        try {
+          if (audioChunksRef.current.length === 0) {
+            console.error('No audio data recorded')
+            alert('Не удалось записать аудио. Попробуйте еще раз.')
+            return
+          }
 
-        if (onRecordingComplete) {
-          onRecordingComplete(audioBlob, url)
+          const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' })
+          const url = URL.createObjectURL(audioBlob)
+          setAudioURL(url)
+
+          if (onRecordingComplete) {
+            onRecordingComplete(audioBlob, url)
+          }
+
+          // Останавливаем все треки
+          stream.getTracks().forEach(track => track.stop())
+        } catch (err) {
+          console.error('Error processing recording:', err)
+          alert('Ошибка при обработке записи. Попробуйте снова.')
         }
+      }
 
-        // Останавливаем все треки
+      mediaRecorder.onerror = (event) => {
+        console.error('MediaRecorder error:', event.error)
+        alert('Ошибка записи: ' + (event.error?.message || 'Неизвестная ошибка'))
+        setIsRecording(false)
         stream.getTracks().forEach(track => track.stop())
       }
 
@@ -71,13 +105,49 @@ function PronunciationRecorder({ text, onRecordingComplete }) {
       }, 1000)
     } catch (error) {
       console.error('Ошибка начала записи:', error)
-      alert('Не удалось начать запись. Проверьте разрешения микрофона.')
+
+      let errorMessage = 'Не удалось начать запись. '
+      if (error.name === 'NotAllowedError') {
+        errorMessage += 'Доступ к микрофону запрещен. Пожалуйста, разрешите доступ в настройках браузера.'
+      } else if (error.name === 'NotFoundError') {
+        errorMessage += 'Микрофон не найден. Проверьте подключение микрофона.'
+      } else if (error.name === 'NotReadableError') {
+        errorMessage += 'Микрофон уже используется другим приложением.'
+      } else if (error.message) {
+        errorMessage += error.message
+      } else {
+        errorMessage += 'Проверьте разрешения микрофона.'
+      }
+
+      alert(errorMessage)
     }
   }
 
   const stopRecording = () => {
-    if (mediaRecorderRef.current && isRecording) {
-      mediaRecorderRef.current.stop()
+    try {
+      const recorder = mediaRecorderRef.current
+
+      if (!recorder) {
+        console.error('MediaRecorder not initialized')
+        return
+      }
+
+      // Check if recorder is in a state that can be stopped
+      if (recorder.state === 'recording') {
+        recorder.stop()
+        setIsRecording(false)
+
+        if (timerRef.current) {
+          clearInterval(timerRef.current)
+          timerRef.current = null
+        }
+      } else {
+        console.warn('MediaRecorder is not recording, current state:', recorder.state)
+        setIsRecording(false)
+      }
+    } catch (error) {
+      console.error('Error stopping recording:', error)
+      alert('Ошибка при остановке записи: ' + (error.message || 'Неизвестная ошибка'))
       setIsRecording(false)
 
       if (timerRef.current) {
