@@ -6329,9 +6329,14 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
 
 - **descansar** (отдыхать) — **descansado** (отдохнувший)
 - **vender** (продавать) — **vendido** (проданный)
-- **vivir** (жить) — **vivido** (прожитый)
-
-### Особые формы причастий
+- **vivir** (жить) — **vivido** (прожитый)`
+        },
+        {
+          id: 'participle-special-forms',
+          title: 'Особые формы причастий',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Особые формы причастий
 
 Ряд глаголов имеет особую форму причастий:
 
@@ -6347,30 +6352,43 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
 - **ver** — **visto** (увиденный)
 - **resolver** — **resuelto** (решенный)
 
+### Производные глаголы
+
 Глаголы, производные от вышеперечисленных исключений, сохраняют те же особенности образования причастия:
 
 - **escribir** → **prescribir** (prescrito), **describir** (descrito)
 - **volver** → **devolver** (devuelto), **envolver** (envuelto)
 - **poner** → **proponer** (propuesto), **componer** (compuesto), **disponer** (dispuesto)
-- **cubrir** → **descubrir** (descubierto)
+- **cubrir** → **descubrir** (descubierto)`
+        },
+        {
+          id: 'participle-usage',
+          title: 'Употребление причастия',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Употребление причастия
 
-### Употребление причастия
+### С глаголом ESTAR
 
 Причастие употребляется с глаголом **estar** для образования глагольной конструкции, которая выражает состояние, являющееся результатом предшествующего действия. Причастие в данной конструкции согласуется в роде и числе с подлежащим.
 
-Причастие может употребляться с глаголом **tener**. В этой конструкции оно согласуется в роде и числе с прямым дополнением.
-
-**Сравните:**
+**Примеры:**
 
 - **La tienda está cerrada.** (Магазин закрыт).
 - **Los platos están lavados.** (Тарелки вымыты).
 - **La carta está escrita.** (Письмо написано).
+- **Las ventanas están abiertas.** (Окна открыты).
 
-**С глаголом tener:**
+### С глаголом TENER
+
+Причастие может употребляться с глаголом **tener**. В этой конструкции оно согласуется в роде и числе с прямым дополнением и выражает результат действия.
+
+**Примеры:**
 
 - **Tengo cerrada la tienda.** (У меня закрыт магазин / Я держу магазин закрытым).
 - **Tenemos lavados los platos.** (У нас вымыты тарелки / Мы уже перемыли все тарелки).
-- **Ya tengo escrita la carta.** (У меня уже написано письмо / Я уже написал письмо).`
+- **Ya tengo escrita la carta.** (У меня уже написано письмо / Я уже написал письмо).
+- **Tiene hechos los deberes.** (У него сделаны домашние задания).`
         },
         {
           id: 'preterito-perfecto',
@@ -6402,9 +6420,14 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
 
 - **Me he despertado temprano.** (Я проснулся рано).
 - **Te lo he dicho mil veces.** (Я тебе это говорил тысячу раз).
-- **No nos han llamado todavía.** (Они нам еще не позвонили).
-
-### Указатели времени
+- **No nos han llamado todavía.** (Они нам еще не позвонили).`
+        },
+        {
+          id: 'time-indicators',
+          title: 'Указатели времени',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Указатели времени
 
 **Pretérito perfecto compuesto** часто сопровождается следующими наречиями и наречными оборотами:
 
@@ -6420,48 +6443,124 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
 - **este mes** (в этом месяце)
 - **este año** (в этом году)
 
-### Примеры
+**Важно:** Эти временные указатели помогают определить, что действие связано с настоящим моментом.`
+        },
+        {
+          id: 'examples',
+          title: 'Примеры',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Примеры использования Pretérito Perfecto Compuesto
 
 - **Hoy hemos comido en un restaurante italiano.** (Сегодня мы пообедали в итальянском ресторане).
 - **¿Has visto mi teléfono? No lo encuentro.** (Ты видел мой телефон? Я его не нахожу).
 - **Este año ha llovido muy poco.** (В этом году дождей было очень мало).
 - **Todavía no he terminado de leer este libro.** (Я еще не закончил читать эту книгу).
-- **Mis amigos ya han vuelto de sus vacaciones.** (Мои друзья уже вернулись из отпуска).`
+- **Mis amigos ya han vuelto de sus vacaciones.** (Мои друзья уже вернулись из отпуска).
+- **Esta mañana me he levantado a las siete.** (Сегодня утром я встал в семь).
+- **¿Habéis hecho los deberes?** (Вы сделали домашнее задание?)
+- **Nunca he estado en Madrid.** (Я никогда не был в Мадриде).
+- **Esta semana he trabajado mucho.** (На этой неделе я много работал).
+- **¿Han comprado el pan?** — **Sí, ya lo hemos comprado.** (Вы купили хлеб? — Да, мы его уже купили).`
+        },
+        {
+          id: 'verb-tratar',
+          title: 'Глагол tratar',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Глагол tratar
+
+Глагол **tratar** имеет разные значения. Запомните некоторые выражения с этим глаголом:
+
+### Основные значения
+
+- **tratar algo** (un asunto, un problema, una cuestión) — обсудить что-л. (дело, проблему, вопрос)
+- **tratar a alguien** — 1. обращаться / общаться с кем-л. 2. лечить кого-л.
+- **tratar bien / mal a alguien** — быть в хороших / плохих отношениях с кем-л.
+- **tratar con alguien** — иметь дело с кем-либо
+- **tratar de algo** — рассказывать / повествовать о чем-л.
+- **tratar de tú / de usted** — обращаться на ты / на Вы
+- **tratar de + infinitivo** — пытаться / стараться сделать что-либо
+
+### Примеры
+
+- **Juan trata de explicarte el camino pero no lo escuchas.** — Хуан пытается объяснить тебе дорогу, но ты его не слушаешь.
+- **Esta canción trata de una triste historia de amor.** — В этой песне говорится о грустной истории любви.
+- **Prefiero no tratar con tal gente.** — Я предпочитаю не общаться с такими людьми.
+- **El viejo profesor trata a sus estudiantes de usted.** — Старый преподаватель обращается к студентам на Вы.
+- **La suegra trata mal a mi hermana.** — Свекровь плохо обращается с моей сестрой.
+- **Tenemos que tratar esta cuestión en la conferencia.** — Нам надо обсудить этот вопрос на лекции.
+- **¿Quién ha tratado vuestro perro?** — Кто вылечил вашу собаку?`
         }
       ]
     },
     vocabulary: [
-      { word: 'participio', translation: 'причастие' },
-      { word: 'compuesto', translation: 'сложный, составной' },
-      { word: 'perfecto', translation: 'совершенный, законченный' },
-      { word: 'haber', translation: 'иметь (вспомогательный глагол)' },
-      { word: 'acabado', translation: 'законченный' },
-      { word: 'hecho', translation: 'сделанный, факт' },
-      { word: 'dicho', translation: 'сказанный' },
-      { word: 'escrito', translation: 'написанный' },
-      { word: 'visto', translation: 'увиденный' },
-      { word: 'abierto', translation: 'открытый' },
-      { word: 'cerrado', translation: 'закрытый' },
-      { word: 'roto', translation: 'сломанный' },
-      { word: 'puesto', translation: 'положенный' },
-      { word: 'vuelto', translation: 'вернувшийся' },
-      { word: 'muerto', translation: 'мертвый' },
-      { word: 'todavía no', translation: 'еще не' },
-      { word: 'ya', translation: 'уже' },
-      { word: 'nunca', translation: 'никогда' },
-      { word: 'siempre', translation: 'всегда' },
-      { word: 'este año', translation: 'в этом году' },
-      { word: 'este mes', translation: 'в этом месяце' },
-      { word: 'esta semana', translation: 'на этой неделе' },
-      { word: 'hoy', translation: 'сегодня' },
-      { word: 'esta mañana', translation: 'сегодня утром' },
-      { word: 'esta tarde', translation: 'сегодня днем/вечером' },
-      { word: 'vacaciones', translation: 'отпуск, каникулы' },
-      { word: 'terminar', translation: 'заканчивать' },
-      { word: 'llover', translation: 'идти (о дожде)' },
-      { word: 'volver', translation: 'возвращаться' }
+      {
+        tab: 'Выражения',
+        words: [
+          { word: 'todavía no', translation: 'еще не' },
+          { word: 'ya', translation: 'уже' },
+          { word: 'nunca', translation: 'никогда' },
+          { word: 'siempre', translation: 'всегда' },
+          { word: 'este año', translation: 'в этом году' },
+          { word: 'este mes', translation: 'в этом месяце' },
+          { word: 'esta semana', translation: 'на этой неделе' },
+          { word: 'hoy', translation: 'сегодня' },
+          { word: 'esta mañana', translation: 'сегодня утром' },
+          { word: 'esta tarde', translation: 'сегодня днем/вечером' },
+          { word: 'esta noche', translation: 'сегодня ночью' },
+          { word: 'tratar de', translation: 'пытаться, стараться' },
+          { word: 'tratar con', translation: 'иметь дело с' },
+          { word: 'tratar bien/mal', translation: 'хорошо/плохо обращаться' }
+        ]
+      },
+      {
+        tab: 'Глаголы',
+        words: [
+          { word: 'haber', translation: 'иметь (вспомогательный глагол)' },
+          { word: 'terminar', translation: 'заканчивать' },
+          { word: 'llover', translation: 'идти (о дожде)' },
+          { word: 'volver', translation: 'возвращаться' },
+          { word: 'tratar', translation: 'обращаться, лечить, обсуждать' },
+          { word: 'resolver', translation: 'решать' },
+          { word: 'romper', translation: 'ломать, рвать' },
+          { word: 'cubrir', translation: 'покрывать, накрывать' },
+          { word: 'descubrir', translation: 'открывать, обнаруживать' },
+          { word: 'morir', translation: 'умирать' },
+          { word: 'devolver', translation: 'возвращать (вещь)' },
+          { word: 'envolver', translation: 'заворачивать' },
+          { word: 'proponer', translation: 'предлагать' },
+          { word: 'componer', translation: 'составлять, сочинять' },
+          { word: 'disponer', translation: 'располагать, иметь' }
+        ]
+      },
+      {
+        tab: 'Причастия',
+        words: [
+          { word: 'participio', translation: 'причастие' },
+          { word: 'compuesto', translation: 'сложный, составной' },
+          { word: 'perfecto', translation: 'совершенный, законченный' },
+          { word: 'acabado', translation: 'законченный' },
+          { word: 'hecho', translation: 'сделанный' },
+          { word: 'dicho', translation: 'сказанный' },
+          { word: 'escrito', translation: 'написанный' },
+          { word: 'visto', translation: 'увиденный' },
+          { word: 'abierto', translation: 'открытый' },
+          { word: 'cerrado', translation: 'закрытый' },
+          { word: 'roto', translation: 'сломанный' },
+          { word: 'puesto', translation: 'положенный' },
+          { word: 'vuelto', translation: 'вернувшийся' },
+          { word: 'muerto', translation: 'мертвый' },
+          { word: 'cubierto', translation: 'накрытый' },
+          { word: 'resuelto', translation: 'решенный' },
+          { word: 'descubierto', translation: 'открытый, обнаруженный' },
+          { word: 'devuelto', translation: 'возвращенный' },
+          { word: 'envuelto', translation: 'завернутый' },
+          { word: 'propuesto', translation: 'предложенный' }
+        ]
+      }
     ],
-    exercises: []
+    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13']
   },
 
   // МОДУЛЬ 5: Путешествия и места (A2)
@@ -10676,6 +10775,289 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Вот Вам сдача 8,50 € с купюры в 10 €', correct: 'aquí tiene la vuelta 8,50 € de un billete de 10 €' },
       { russian: 'Вы собираетесь платить? — Да, конечно', correct: '¿va a pagar? — sí, por supuesto' },
       { russian: 'Водитель предупреждает пассажира, что ему нужно выходить на следующей остановке', correct: 'el conductor avisa al pasajero que tiene que bajar en la próxima parada' }
+    ]
+  },
+
+  // Упражнения для Урока 4-4: Причастие и Pretérito Perfecto Compuesto
+  'ex-4-4-1': {
+    id: 'ex-4-4-1',
+    type: 'fillblank',
+    title: 'Упражнение 1a: Состояние (estar + participio)',
+    description: 'Ответьте на вопросы по образцу: ¿Puedes abrir la ventana? — Ya está abierta.',
+    questions: [
+      { question: '¿Puedes encender la luz?', correct: 'ya está encendida' },
+      { question: '¿Quieres lavar los platos?', correct: 'ya están lavados' },
+      { question: '¿Tienes que resolver el problema?', correct: 'ya está resuelto' },
+      { question: '¿Piensas romper el contrato?', correct: 'ya está roto' },
+      { question: '¿Puedes imprimir los documentos?', correct: 'ya están impresos' },
+      { question: '¿Quieres despertar a los niños?', correct: 'ya están despertados' },
+      { question: '¿Tienes que arreglar el coche?', correct: 'ya está arreglado' },
+      { question: '¿Piensas freír las patatas?', correct: 'ya están fritas' },
+      { question: '¿Puedes cerrar la oficina?', correct: 'ya está cerrada' },
+      { question: '¿Quieres colgar el cuadro?', correct: 'ya está colgado' }
+    ]
+  },
+
+  'ex-4-4-2': {
+    id: 'ex-4-4-2',
+    type: 'fillblank',
+    title: 'Упражнение 1b: Результат (tener + participio)',
+    description: 'Ответьте на вопросы по образцу: ¿Vas a hacer los ejercicios? — Ya tengo hechos los ejercicios.',
+    questions: [
+      { question: '¿Vais a comprar las entradas?', correct: 'ya tenemos compradas las entradas' },
+      { question: '¿Vas a leer el informe?', correct: 'ya tengo leído el informe' },
+      { question: '¿Va usted a cocinar la paella?', correct: 'ya tengo cocinada la paella' },
+      { question: '¿Vais a reservar las habitaciones?', correct: 'ya tenemos reservadas las habitaciones' },
+      { question: '¿Vas a escribir las invitaciones?', correct: 'ya tengo escritas las invitaciones' },
+      { question: '¿Van ellos a vender las acciones?', correct: 'ya tienen vendidas las acciones' },
+      { question: '¿Vas a limpiar las ventanas?', correct: 'ya tengo limpias las ventanas' },
+      { question: '¿Va usted a traducir los textos?', correct: 'ya tengo traducidos los textos' },
+      { question: '¿Van a corregir ellos los errores?', correct: 'ya tienen corregidos los errores' },
+      { question: '¿Vas a preparar las maletas?', correct: 'ya tengo preparadas las maletas' }
+    ]
+  },
+
+  'ex-4-4-3': {
+    id: 'ex-4-4-3',
+    type: 'conjugation',
+    title: 'Упражнение 2: Pretérito Perfecto Compuesto',
+    description: 'Поставьте глаголы в Pretérito Perfecto Compuesto',
+    questions: [
+      { question: 'Esta mañana yo (perder) las llaves de casa.', correct: 'he perdido' },
+      { question: '¿Qué (decir, ellos) sobre el nuevo proyecto?', correct: 'han dicho' },
+      { question: 'Hoy (morir) un actor muy famoso.', correct: 'ha muerto' },
+      { question: '¿Todavía no (ver, tú) la última película de Almodóvar?', correct: 'has visto' },
+      { question: 'Este mes nosotros (gastar) mucho dinero en ropa.', correct: 'hemos gastado' },
+      { question: '¿Por qué (ponerse, ella) ese vestido tan feo?', correct: 'se ha puesto' },
+      { question: 'Mis padres (volver) de su viaje por Italia muy cansados.', correct: 'han vuelto' },
+      { question: '(Escribir, yo) un mensaje a Carmen, pero ella no (responder) todavía.', correct: 'he escrito / ha respondido' },
+      { question: 'Esta tarde los niños (romper) un jarrón chino.', correct: 'han roto' },
+      { question: '¿(Hacer, vosotros) ya la compra para la cena?', correct: 'habéis hecho' }
+    ]
+  },
+
+  'ex-4-4-4': {
+    id: 'ex-4-4-4',
+    type: 'writing',
+    title: 'Упражнение 3: Перевод на испанский',
+    description: 'Переведите предложения на испанский язык',
+    questions: [
+      { russian: 'Сегодня я проснулся очень поздно и не позавтракал.', correct: 'hoy me he despertado muy tarde y no he desayunado' },
+      { russian: 'Ты уже видел новый памятник в центре города?', correct: '¿ya has visto el nuevo monumento en el centro de la ciudad?' },
+      { russian: 'На этой неделе мы много работали и очень устали.', correct: 'esta semana hemos trabajado mucho y estamos muy cansados' },
+      { russian: 'Кто открыл дверь и включил музыку? — Это сделал я.', correct: '¿quién ha abierto la puerta y ha puesto la música? — lo he hecho yo' },
+      { russian: 'Почему вы еще не вернули мне книгу? — Мы ее еще не дочитали.', correct: '¿por qué todavía no me habéis devuelto el libro? — todavía no lo hemos terminado de leer' },
+      { russian: 'В этом году мой брат женился и купил квартиру.', correct: 'este año mi hermano se ha casado y ha comprado un piso' },
+      { russian: 'Сегодня днем шел дождь, поэтому мы остались дома.', correct: 'esta tarde ha llovido, por eso nos hemos quedado en casa' },
+      { russian: 'Ты когда-нибудь пробовал паэлью? — Нет, никогда.', correct: '¿has comido paella alguna vez? — no, nunca' },
+      { russian: 'Дети, вы уже умылись и оделись? Мы уходим через пять минут.', correct: 'niños, ¿ya os habéis lavado y vestido? nos vamos en cinco minutos' },
+      { russian: 'Марта сегодня не пришла, потому что она заболела.', correct: 'marta no ha venido hoy porque se ha puesto enferma' }
+    ]
+  },
+
+  'ex-4-4-5': {
+    id: 'ex-4-4-5',
+    type: 'grammar',
+    title: 'Упражнение 4: Особые формы причастий',
+    description: 'Выберите правильную форму причастия',
+    questions: [
+      { sentence: 'La puerta está ___', options: ['abierta', 'abrida', 'abrienda', 'abriendo'], correct: 0 },
+      { sentence: 'El trabajo está ___', options: ['hacido', 'hecho', 'haciendo', 'hacer'], correct: 1 },
+      { sentence: 'Los documentos están ___', options: ['escribidos', 'escritos', 'escribiendo', 'escrito'], correct: 1 },
+      { sentence: 'Las cartas han sido ___', options: ['poniéndose', 'pustas', 'ponidas', 'puestas'], correct: 3 },
+      { sentence: 'El jarrón está ___', options: ['rompido', 'roto', 'rompiendo', 'romper'], correct: 1 },
+      { sentence: 'Las ventanas están ___', options: ['cubiertas', 'cubridas', 'cubriendo', 'cubrir'], correct: 0 },
+      { sentence: 'El problema ha sido ___', options: ['resolvido', 'resuelto', 'resolviendo', 'resolver'], correct: 1 },
+      { sentence: 'Ella ha ___ la verdad', options: ['dicido', 'dicho', 'diciendo', 'decir'], correct: 1 },
+      { sentence: 'He ___ a mi familia', options: ['vedo', 'vido', 'visto', 'viendo'], correct: 2 },
+      { sentence: 'Han ___ de vacaciones', options: ['volvido', 'vuelto', 'volviendo', 'volver'], correct: 1 },
+      { sentence: 'América fue ___ por Colón', options: ['descubierta', 'descubrida', 'descubriendo', 'descubrir'], correct: 0 },
+      { sentence: 'El paquete ha sido ___', options: ['devolvido', 'devuelto', 'devolviendo', 'devolver'], correct: 1 },
+      { sentence: 'Han ___ una nueva ley', options: ['proponido', 'propuesto', 'proponiendo', 'proponer'], correct: 1 },
+      { sentence: 'Mozart ha ___ muchas sinfonías', options: ['componido', 'compuesto', 'componiendo', 'componer'], correct: 1 },
+      { sentence: 'El rey ha ___ ayer', options: ['morido', 'muerto', 'moriendo', 'morir'], correct: 1 }
+    ]
+  },
+
+  'ex-4-4-6': {
+    id: 'ex-4-4-6',
+    type: 'conjugation',
+    title: 'Упражнение 5: Pretérito Perfecto - Verbo estar',
+    description: 'Поставьте глагол в Pretérito Perfecto Compuesto',
+    questions: [
+      { question: 'Hoy yo (estar) en el médico.', correct: 'he estado' },
+      { question: '¿Vosotros (estar) alguna vez en Barcelona?', correct: 'habéis estado' },
+      { question: 'Este año mi familia (estar) de vacaciones en Italia.', correct: 'ha estado' },
+      { question: '¿Tú (estar) en la reunión esta mañana?', correct: 'has estado' },
+      { question: 'Nosotros nunca (estar) en América del Sur.', correct: 'hemos estado' },
+      { question: 'Los niños (estar) jugando toda la tarde.', correct: 'han estado' },
+      { question: '¿Usted (estar) esperando mucho tiempo?', correct: 'ha estado' },
+      { question: 'Yo (estar) trabajando desde las 8.', correct: 'he estado' },
+      { question: 'Ellas (estar) estudiando para el examen.', correct: 'han estado' },
+      { question: '¿Cuántas veces (estar, tú) en Madrid?', correct: 'has estado' },
+      { question: 'Esta semana (estar, nosotros) muy ocupados.', correct: 'hemos estado' },
+      { question: 'Mi hermano (estar) enfermo toda la semana.', correct: 'ha estado' },
+      { question: '¿Por qué (estar, vosotros) tan callados?', correct: 'habéis estado' },
+      { question: 'Hoy (estar, yo) todo el día en casa.', correct: 'he estado' },
+      { question: 'Los profesores (estar) corrigiendo exámenes.', correct: 'han estado' }
+    ]
+  },
+
+  'ex-4-4-7': {
+    id: 'ex-4-4-7',
+    type: 'conjugation',
+    title: 'Упражнение 6: Pretérito Perfecto - Verbos reflexivos',
+    description: 'Поставьте возвратный глагол в Pretérito Perfecto Compuesto',
+    questions: [
+      { question: 'Esta mañana (levantarse, yo) a las 7.', correct: 'me he levantado' },
+      { question: '¿Ya (ducharse, tú)?', correct: 'te has duchado' },
+      { question: 'Los niños (vestirse) rápidamente.', correct: 'se han vestido' },
+      { question: 'Nosotros (quedarse) en casa todo el día.', correct: 'nos hemos quedado' },
+      { question: '¿Por qué (enfadarse, ella) contigo?', correct: 'se ha enfadado' },
+      { question: 'Yo (lavarse) las manos antes de comer.', correct: 'me he lavado' },
+      { question: '¿Vosotros (acordarse) de comprar pan?', correct: 'os habéis acordado' },
+      { question: 'Mi padre (afeitarse) esta mañana.', correct: 'se ha afeitado' },
+      { question: 'Ellas (maquillarse) para la fiesta.', correct: 'se han maquillado' },
+      { question: 'Yo nunca (preocuparse) por eso.', correct: 'me he preocupado' },
+      { question: '¿Tú (equivocarse) en el examen?', correct: 'te has equivocado' },
+      { question: 'Nosotros (divertirse) mucho en la fiesta.', correct: 'nos hemos divertido' },
+      { question: 'El bebé (dormirse) hace una hora.', correct: 'se ha dormido' },
+      { question: '¿Por qué (irse, vosotros) tan temprano?', correct: 'os habéis ido' },
+      { question: 'Ella (ponerse) el abrigo nuevo.', correct: 'se ha puesto' }
+    ]
+  },
+
+  'ex-4-4-8': {
+    id: 'ex-4-4-8',
+    type: 'fillblank',
+    title: 'Упражнение 7: Указатели времени',
+    description: 'Дополните предложения подходящим указателем времени',
+    questions: [
+      { question: '___ hemos desayunado juntos. (сегодня утром)', correct: 'esta mañana' },
+      { question: '¿___ has visitado el Museo del Prado? - No, nunca. (когда-нибудь)', correct: 'alguna vez' },
+      { question: '___ he trabajado mucho. (на этой неделе)', correct: 'esta semana' },
+      { question: '¿Has terminado el informe? - ___, todavía no. (нет)', correct: 'no' },
+      { question: '___ ha llovido poco. (в этом году)', correct: 'este año' },
+      { question: 'Mis amigos ___ han llegado. (уже)', correct: 'ya' },
+      { question: '___ no he comido nada. (сегодня)', correct: 'hoy' },
+      { question: '¿Has estado en España? - No, ___. (никогда)', correct: 'nunca' },
+      { question: '___ hemos ido al cine. (сегодня днем)', correct: 'esta tarde' },
+      { question: 'Ella ___ ha sido muy buena estudiante. (всегда)', correct: 'siempre' },
+      { question: '___ hemos gastado mucho dinero. (в этом месяце)', correct: 'este mes' },
+      { question: '¿___ has terminado? - Sí, ya he terminado. (уже)', correct: 'ya' },
+      { question: '___ no han llamado. (еще не)', correct: 'todavía no' },
+      { question: '___ he cenado con mis padres. (сегодня вечером)', correct: 'esta noche' },
+      { question: '¿Has visto esa película? - Sí, ___ la he visto. (уже)', correct: 'ya' }
+    ]
+  },
+
+  'ex-4-4-9': {
+    id: 'ex-4-4-9',
+    type: 'grammar',
+    title: 'Упражнение 8: Verbo tratar',
+    description: 'Выберите правильное значение глагола tratar',
+    questions: [
+      { sentence: 'Él trata de explicar la lección.', options: ['обсуждает', 'лечит', 'пытается', 'обращается'], correct: 2 },
+      { sentence: 'El doctor trata a muchos pacientes.', options: ['лечит', 'обсуждает', 'пытается', 'рассказывает'], correct: 0 },
+      { sentence: 'Este libro trata de la historia de España.', options: ['пытается', 'лечит', 'повествует о', 'обращается'], correct: 2 },
+      { sentence: 'Mi jefe me trata muy bien.', options: ['лечит', 'обращается', 'обсуждает', 'пытается'], correct: 1 },
+      { sentence: 'Tenemos que tratar este asunto.', options: ['лечить', 'обсудить', 'пытаться', 'обращаться'], correct: 1 },
+      { sentence: 'Prefiero tratar con personas honestas.', options: ['лечить', 'пытаться', 'иметь дело с', 'обращаться'], correct: 2 },
+      { sentence: 'Él trata a todos de usted.', options: ['лечит', 'обращается на Вы', 'обсуждает', 'пытается'], correct: 1 },
+      { sentence: 'Trato de llegar temprano.', correct: 'стараюсь' },
+      { sentence: '¿Quién trata a tu perro?', correct: 'лечит' },
+      { sentence: 'La película trata de una familia.', correct: 'рассказывает о' },
+      { sentence: 'Ella trata mal a sus empleados.', correct: 'плохо обращается' },
+      { sentence: 'Vamos a tratar el problema mañana.', correct: 'обсудим' },
+      { sentence: 'No me gusta tratar con él.', correct: 'иметь дело' },
+      { sentence: 'Tratamos de tú a nuestro profesor.', correct: 'обращаемся на ты' },
+      { sentence: 'Mi psicólogo me trata muy bien.', correct: 'обращается / лечит' }
+    ]
+  },
+
+  'ex-4-4-10': {
+    id: 'ex-4-4-10',
+    type: 'conjugation',
+    title: 'Упражнение 9: Participios irregulares en contexto',
+    description: 'Используйте правильную форму неправильного причастия',
+    questions: [
+      { question: 'He (abrir) la ventana porque hace calor.', correct: 'abierto' },
+      { question: '¿Has (hacer) los deberes?', correct: 'hecho' },
+      { question: 'Hemos (escribir) una carta al director.', correct: 'escrito' },
+      { question: 'Han (romper) el jarrón.', correct: 'roto' },
+      { question: '¿Habéis (ver) la nueva película?', correct: 'visto' },
+      { question: 'Mi abuela ha (morir) este año.', correct: 'muerto' },
+      { question: 'He (poner) las llaves en la mesa.', correct: 'puesto' },
+      { question: '¿Qué han (decir) ellos?', correct: 'dicho' },
+      { question: 'Hemos (volver) de vacaciones.', correct: 'vuelto' },
+      { question: 'Han (descubrir) un nuevo planeta.', correct: 'descubierto' },
+      { question: 'He (resolver) el problema matemático.', correct: 'resuelto' },
+      { question: 'Has (cubrir) la comida con papel de aluminio.', correct: 'cubierto' },
+      { question: 'Hemos (devolver) los libros a la biblioteca.', correct: 'devuelto' },
+      { question: 'Han (proponer) una idea interesante.', correct: 'propuesto' },
+      { question: 'Mozart ha (componer) esta sinfonía.', correct: 'compuesto' }
+    ]
+  },
+
+  'ex-4-4-11': {
+    id: 'ex-4-4-11',
+    type: 'grammar',
+    title: 'Упражнение 10: Pretérito Perfecto vs Presente',
+    description: 'Выберите правильное время глагола',
+    questions: [
+      { sentence: 'Esta mañana ___ al gimnasio.', options: ['voy', 'he ido', 'iba', 'fui'], correct: 1 },
+      { sentence: 'Todos los días ___ al gimnasio.', options: ['voy', 'he ido', 'iba', 'fui'], correct: 0 },
+      { sentence: 'Hoy ___ con mis padres.', options: ['como', 'he comido', 'comía', 'comí'], correct: 1 },
+      { sentence: 'Normalmente ___ en casa.', options: ['como', 'he comido', 'comía', 'comí'], correct: 0 },
+      { sentence: 'Este año ___ mucho español.', options: ['estudio', 'he estudiado', 'estudiaba', 'estudié'], correct: 1 },
+      { sentence: 'Siempre ___ mucho para los exámenes.', options: ['estudio', 'he estudiado', 'estudiaba', 'estudié'], correct: 0 },
+      { sentence: 'Esta semana ___ tres películas.', options: ['veo', 'he visto', 'veía', 'vi'], correct: 1 },
+      { sentence: 'Me gusta ___ películas.', options: ['ver', 'he visto', 'veía', 'vi'], correct: 0 },
+      { sentence: 'Hoy no ___ tiempo libre.', options: ['tengo', 'he tenido', 'tenía', 'tuve'], correct: 1 },
+      { sentence: 'Generalmente ___ mucho tiempo libre.', options: ['tengo', 'he tenido', 'tenía', 'tuve'], correct: 0 },
+      { sentence: 'Este mes ___ mucho dinero.', options: ['gasto', 'he gastado', 'gastaba', 'gasté'], correct: 1 },
+      { sentence: 'Cada mes ___ mi salario en ropa.', options: ['gasto', 'he gastado', 'gastaba', 'gasté'], correct: 0 },
+      { sentence: 'Esta tarde ___ con María.', options: ['hablo', 'he hablado', 'hablaba', 'hablé'], correct: 1 },
+      { sentence: 'A menudo ___ con María por teléfono.', options: ['hablo', 'he hablado', 'hablaba', 'hablé'], correct: 0 },
+      { sentence: 'Hoy ___ un regalo para ti.', options: ['compro', 'he comprado', 'compraba', 'compré'], correct: 1 }
+    ]
+  },
+
+  'ex-4-4-12': {
+    id: 'ex-4-4-12',
+    type: 'writing',
+    title: 'Упражнение 11: Composición - Mi día',
+    description: 'Напишите 5 предложений о том, что вы сделали сегодня, используя Pretérito Perfecto',
+    questions: [
+      { question: '¿Qué has hecho esta mañana?', correct: 'esta mañana me he levantado temprano' },
+      { question: '¿Has desayunado? ¿Qué has comido?', correct: 'he desayunado café y tostadas' },
+      { question: '¿Dónde has estado hoy?', correct: 'he estado en el trabajo' },
+      { question: '¿Con quién has hablado?', correct: 'he hablado con mis compañeros' },
+      { question: '¿Qué has aprendido en esta lección?', correct: 'he aprendido el pretérito perfecto' }
+    ]
+  },
+
+  'ex-4-4-13': {
+    id: 'ex-4-4-13',
+    type: 'grammar',
+    title: 'Упражнение 12: Repaso completo - Participios y Pretérito Perfecto',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'Las cartas están ___', options: ['escribidas', 'escritas', 'escribiendo', 'escrito'], correct: 1 },
+      { sentence: '¿___ has visto a Juan?', options: ['Nunca', 'Siempre', 'Cada día', 'Ayer'], correct: 0 },
+      { sentence: 'Hoy ___ mucho frío.', options: ['hace', 'ha hecho', 'hacía', 'hizo'], correct: 1 },
+      { sentence: 'La puerta está ___', options: ['abriendo', 'abierta', 'abrida', 'abrir'], correct: 1 },
+      { sentence: '___ he comido paella.', options: ['Ayer', 'Esta mañana', 'El año pasado', 'Hace tres días'], correct: 1 },
+      { sentence: 'Ellos han ___ de vacaciones.', options: ['volvido', 'vuelto', 'volviendo', 'volver'], correct: 1 },
+      { sentence: 'El trabajo está ___', correct: 'hecho' },
+      { sentence: '¿Qué ___ (decir, tú) a tu madre?', correct: 'has dicho' },
+      { sentence: 'Este año mi hermano ___ (casarse)', correct: 'se ha casado' },
+      { sentence: 'Los libros están ___ (devolver)', correct: 'devueltos' },
+      { sentence: '¿___ habéis estado en París?', options: ['Ayer', 'Alguna vez', 'El mes pasado', 'Hace un año'], correct: 1 },
+      { sentence: 'Nosotros ___ (hacer) los deberes.', correct: 'hemos hecho' },
+      { sentence: 'Las ventanas están ___ (abrir)', correct: 'abiertas' },
+      { sentence: '___ no han llamado.', options: ['Ayer', 'Todavía no', 'Hace dos días', 'El lunes'], correct: 1 },
+      { sentence: 'Yo ___ (ver) esa película tres veces.', correct: 'he visto' }
     ]
   },
 
