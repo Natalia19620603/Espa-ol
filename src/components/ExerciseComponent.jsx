@@ -157,6 +157,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           if (allCorrect) correct++
         } catch (e) {
           // Invalid JSON, incorrect answer
+          console.error('Error parsing categorization answer:', e)
         }
       }
       // Multiple choice types (compare index)
@@ -271,8 +272,20 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           <div className={styles.introAudioContainer}>
             <button
               onClick={() => {
-                const audio = new Audio(exercise.introAudio)
-                audio.play()
+                try {
+                  const audio = new Audio(exercise.introAudio)
+                  audio.onerror = (e) => {
+                    console.error('Error loading intro audio:', e)
+                    alert('Не удалось загрузить аудио. Проверьте интернет-соединение.')
+                  }
+                  audio.play().catch(err => {
+                    console.error('Error playing intro audio:', err)
+                    alert('Не удалось воспроизвести аудио.')
+                  })
+                } catch (err) {
+                  console.error('Error creating audio:', err)
+                  alert('Ошибка при создании аудио.')
+                }
               }}
               className={styles.introAudioBtn}
             >
@@ -2070,9 +2083,15 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
 function AudioPronunciationQuestion({ word, onAnswer }) {
   const [audio, setAudio] = useState(null)
   const [isPlaying, setIsPlaying] = useState(false)
+  const [error, setError] = useState(null)
 
   const playAudio = () => {
-    if (word.audioUrl) {
+    if (!word || !word.audioUrl) {
+      setError('Audio URL not available')
+      return
+    }
+
+    try {
       // Останавливаем предыдущее аудио если оно играет
       if (audio) {
         audio.pause()
@@ -2080,17 +2099,40 @@ function AudioPronunciationQuestion({ word, onAnswer }) {
       }
 
       const newAudio = new Audio(word.audioUrl)
+
       newAudio.onended = () => setIsPlaying(false)
-      newAudio.play()
-      setAudio(newAudio)
-      setIsPlaying(true)
+
+      newAudio.onerror = (e) => {
+        console.error('Error loading audio:', e)
+        setError('Не удалось загрузить аудио. Проверьте интернет-соединение.')
+        setIsPlaying(false)
+      }
+
+      newAudio.play().then(() => {
+        setAudio(newAudio)
+        setIsPlaying(true)
+        setError(null)
+      }).catch(err => {
+        console.error('Error playing audio:', err)
+        setError('Не удалось воспроизвести аудио.')
+        setIsPlaying(false)
+      })
+    } catch (err) {
+      console.error('Error creating audio:', err)
+      setError('Ошибка при создании аудио.')
+      setIsPlaying(false)
     }
   }
 
   const stopAudio = () => {
-    if (audio) {
-      audio.pause()
-      audio.currentTime = 0
+    try {
+      if (audio) {
+        audio.pause()
+        audio.currentTime = 0
+        setIsPlaying(false)
+      }
+    } catch (err) {
+      console.error('Error stopping audio:', err)
       setIsPlaying(false)
     }
   }
@@ -2103,6 +2145,18 @@ function AudioPronunciationQuestion({ word, onAnswer }) {
       <p className={styles.pronunciation}>
         Произношение: {word.pronunciation}
       </p>
+      {error && (
+        <div style={{
+          color: '#d32f2f',
+          padding: '8px',
+          marginBottom: '8px',
+          backgroundColor: '#ffebee',
+          borderRadius: '4px',
+          fontSize: '14px'
+        }}>
+          ⚠️ {error}
+        </div>
+      )}
       {word.audioUrl && (
         <div className={styles.audioControls}>
           <button onClick={playAudio} className={styles.audioBtn} disabled={isPlaying}>

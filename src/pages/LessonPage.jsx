@@ -51,10 +51,18 @@ function LessonPage() {
   const [activeTab, setActiveTab] = useState(getInitialTab())
 
   useEffect(() => {
-    const userData = localStorage.getItem('user')
-    if (userData) {
-      setUser(JSON.parse(userData))
-    } else {
+    try {
+      const userData = localStorage.getItem('user')
+      if (userData) {
+        const parsedUser = JSON.parse(userData)
+        setUser(parsedUser)
+      } else {
+        navigate('/login')
+      }
+    } catch (error) {
+      console.error('Error reading user data from localStorage:', error)
+      // Clear invalid data and redirect to login
+      localStorage.removeItem('user')
       navigate('/login')
     }
   }, [navigate])
@@ -65,25 +73,40 @@ function LessonPage() {
   }
 
   const handleExerciseComplete = (exerciseId) => {
-    // Сохранение прогресса
-    const progress = JSON.parse(localStorage.getItem('progress') || '{}')
-    if (!progress[lessonId]) {
-      progress[lessonId] = { completed: false, exercisesCompleted: 0 }
+    try {
+      // Сохранение прогресса
+      const progressData = localStorage.getItem('progress') || '{}'
+      const progress = JSON.parse(progressData)
+
+      if (!progress[lessonId]) {
+        progress[lessonId] = { completed: false, exercisesCompleted: 0 }
+      }
+
+      // Обновление счетчика выполненных упражнений
+      const completedExercises = new Set(progress[lessonId].completedExerciseIds || [])
+      completedExercises.add(exerciseId)
+      progress[lessonId].completedExerciseIds = Array.from(completedExercises)
+      progress[lessonId].exercisesCompleted = completedExercises.size
+
+      // Проверка завершения урока
+      if (lesson && lesson.exercises && completedExercises.size === lesson.exercises.length) {
+        progress[lessonId].completed = true
+      }
+
+      localStorage.setItem('progress', JSON.stringify(progress))
+      setCurrentExercise(null)
+    } catch (error) {
+      console.error('Error saving exercise progress:', error)
+      if (error.name === 'QuotaExceededError') {
+        alert('Недостаточно места для сохранения прогресса. Очистите хранилище браузера.')
+      } else if (error instanceof SyntaxError) {
+        console.error('Invalid JSON in localStorage, resetting progress')
+        localStorage.removeItem('progress')
+      } else {
+        alert('Ошибка при сохранении прогресса: ' + (error.message || 'Неизвестная ошибка'))
+      }
+      setCurrentExercise(null)
     }
-
-    // Обновление счетчика выполненных упражнений
-    const completedExercises = new Set(progress[lessonId].completedExerciseIds || [])
-    completedExercises.add(exerciseId)
-    progress[lessonId].completedExerciseIds = Array.from(completedExercises)
-    progress[lessonId].exercisesCompleted = completedExercises.size
-
-    // Проверка завершения урока
-    if (completedExercises.size === lesson.exercises.length) {
-      progress[lessonId].completed = true
-    }
-
-    localStorage.setItem('progress', JSON.stringify(progress))
-    setCurrentExercise(null)
   }
 
   const toggleSection = (sectionId) => {
@@ -91,6 +114,17 @@ function LessonPage() {
       ...prev,
       [sectionId]: !prev[sectionId]
     }))
+  }
+
+  // Helper function to safely get progress from localStorage
+  const getProgress = () => {
+    try {
+      const progressData = localStorage.getItem('progress') || '{}'
+      return JSON.parse(progressData)
+    } catch (error) {
+      console.error('Error reading progress from localStorage:', error)
+      return {}
+    }
   }
 
   const renderMarkdown = (text) => {
@@ -550,7 +584,7 @@ function LessonPage() {
                         const exercise = exercisesData[exerciseId]
                         if (!exercise) return null
 
-                        const progress = JSON.parse(localStorage.getItem('progress') || '{}')
+                        const progress = getProgress()
                         const lessonProgress = progress[lessonId] || {}
                         const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
 
@@ -585,7 +619,7 @@ function LessonPage() {
                       const exercise = exercisesData[exerciseId]
                       if (!exercise) return null
 
-                      const progress = JSON.parse(localStorage.getItem('progress') || '{}')
+                      const progress = getProgress()
                       const lessonProgress = progress[lessonId] || {}
                       const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
 

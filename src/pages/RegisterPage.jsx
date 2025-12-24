@@ -10,9 +10,17 @@ function RegisterPage() {
 
   // Проверка: если пользователь уже авторизован, перенаправляем на курсы
   useEffect(() => {
-    const userData = localStorage.getItem('user')
-    if (userData) {
-      navigate('/courses')
+    try {
+      const userData = localStorage.getItem('user')
+      if (userData) {
+        // Validate that userData is valid JSON
+        JSON.parse(userData)
+        navigate('/courses')
+      }
+    } catch (error) {
+      console.error('Error reading user data from localStorage:', error)
+      // Clear invalid data
+      localStorage.removeItem('user')
     }
   }, [navigate])
 
@@ -21,10 +29,19 @@ function RegisterPage() {
 
     // Простая проверка (в реальном приложении здесь будет API запрос)
     if (name && email && password) {
-      // Сохраняем данные пользователя в localStorage
-      localStorage.setItem('user', JSON.stringify({ name, email }))
-      // Редирект на курсы
-      navigate('/courses')
+      try {
+        // Сохраняем данные пользователя в localStorage
+        localStorage.setItem('user', JSON.stringify({ name, email }))
+        // Редирект на курсы
+        navigate('/courses')
+      } catch (error) {
+        console.error('Error saving user data to localStorage:', error)
+        if (error.name === 'QuotaExceededError') {
+          alert('Недостаточно места для сохранения данных. Очистите хранилище браузера.')
+        } else {
+          alert('Ошибка при сохранении данных: ' + (error.message || 'Неизвестная ошибка'))
+        }
+      }
     } else {
       alert('Пожалуйста, заполните все поля')
     }
