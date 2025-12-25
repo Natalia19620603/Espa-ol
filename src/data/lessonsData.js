@@ -6700,34 +6700,133 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
   // МОДУЛЬ 5: Путешествия и места (A2)
   'lesson-5-1': {
     id: 'lesson-5-1',
-    title: 'Урок 1: Транспорт и направления',
+    title: 'Урок 1: ПУТЕШЕСТВИЕ НА САМОЛЕТЕ, ПОЕЗДЕ. Futuro Simple (будущее время)',
     moduleId: 'module-5',
     grammar: {
-      title: 'Предлоги места и направления',
+      title: 'Futuro Simple, неопределенные и отрицательные местоимения',
       content: `
-# Предлоги места и направления
+# I. Futuro Simple (Будущее время)
 
-## Предлоги места (dónde):
+Образуется путем добавления окончаний к инфинитиву глагола для всех трех спряжений.
 
-| Испанский | Русский | Пример |
-|-----------|---------|--------|
-| **en** | в, на | Estoy **en** casa |
-| **a** | в, на (направление) | Voy **a** Madrid |
-| **de** | из | Vengo **de** Barcelona |
-| **cerca de** | рядом с | Vivo **cerca de** la estación |
-| **lejos de** | далеко от | Está **lejos del** centro |
-| **delante de** | перед | **Delante del** hotel |
-| **detrás de** | за, позади | **Detrás de** la iglesia |
-| **al lado de** | рядом с | **Al lado del** museo |
-| **enfrente de** | напротив | **Enfrente de** la plaza |
-| **entre** | между | **Entre** el banco y la farmacia |
+## 1. Спряжение правильных глаголов
 
-## IR + A (направление):
-- Voy **a** la playa (Я иду на пляж)
-- Vas **al** aeropuerto (Ты едешь в аэропорт)
-- Van **a** España (Они едут в Испанию)
+| Лицо | Окончание | Descansar (отдыхать) | Ofrecer (предлагать) | Cumplir (выполнять) |
+|------|-----------|----------------------|----------------------|---------------------|
+| Yo | -é | descansaré | ofreceré | cumpliré |
+| Tú | -ás | descansarás | ofrecerás | cumplirás |
+| Él/Ella/Ud. | -á | descansará | ofrecerá | cumplirá |
+| Nosotros/as | -emos | descansaremos | ofreceremos | cumpliremos |
+| Vosotros/as | -éis | descansaréis | ofreceréis | cumpliréis |
+| Ellos/as/Uds. | -án | descansarán | ofrecerán | cumplirán |
 
-## Транспорт:
+## 2. Глаголы-исключения (основа меняется)
+
+- **decir** → **dir-** (diré, dirás, dirá...)
+- **hacer** → **har-** (haré, harás, hará...)
+- **poder** → **podr-** (podré, podrás, podrá...)
+- **poner** → **pondr-** (pondré, pondrás, pondrá...)
+- **querer** → **querr-** (querré, querrás, querrá...)
+- **saber** → **sabr-** (sabré, sabrás, sabrá...)
+- **salir** → **saldr-** (saldré, saldrás, saldrá...)
+- **tener** → **tendr-** (tendré, tendrás, tendrá...)
+- **venir** → **vendr-** (vendré, vendrás, vendrá...)
+- **haber** → **habr-** (habrá — будет)
+
+## 3. Значения Futuro Simple
+
+### Временное: Будущее действие
+Часто с наречиями: **mañana** (завтра), **el mes que viene** (в следующем месяце), **dentro de 5 días** (через 5 дней).
+
+**Примеры:**
+- **El mes que viene viajaremos a Chile.** (В следующем месяце мы отправимся в Чили.)
+- **Mañana llegaré a Madrid.** (Завтра я прибуду в Мадрид.)
+
+### Модальное: Предположение в настоящем (наверное, возможно)
+
+**Примеры:**
+- **¿Qué hora es? — Serán las seis.** (Который час? — Наверное, сейчас шесть.)
+- **¿Dónde está Juan? — Estará en casa.** (Где Хуан? — Наверное, он дома.)
+
+
+# II. Отрицательные местоимения и наречия
+
+## 1. Основные формы
+
+- **Algo** (что-то) / **Nada** (ничто)
+- **Alguien** (кто-то) / **Nadie** (никто)
+- **Nunca** / **Jamás** (никогда)
+
+## 2. Правило «Двойного отрицания»
+
+Если отрицательное слово стоит **перед глаголом**, частица **no не нужна**.
+Если **после** — **no обязательна**.
+
+**Примеры:**
+- **Nadie llama.** / **No llama nadie.** (Никто не звонит.)
+- **Nunca tomo café.** / **No tomo café nunca.** (Я никогда не пью кофе.)
+- **Nada me importa.** / **No me importa nada.** (Мне ничего не важно.)
+
+
+# III. Неопределенные местоимения и прилагательные
+
+## 1. Alguno и Ninguno (Какой-то / Никакой)
+
+Перед существительными мужского рода ед. числа принимают формы **algún** и **ningún**.
+
+**Примеры:**
+- **¿Tienes algún periódico?** — **No, no tengo ningún periódico** (или **ninguno**).
+
+**Важно:** С предлогом **de** (из) используются только они:
+- **Ninguno de nosotros viajará.** (Никто из нас не поедет.)
+
+## 2. Todo (Весь / Каждый / Любой)
+
+### Todo el / toda la (+ определенный артикль) = Весь / Вся
+- **Todo el verano** (все лето)
+- **Toda la noche** (вся ночь)
+
+### Todo un / toda una (+ неопределенный артикль) = Целый / Настоящий
+- **Toda una vida** (целая жизнь)
+
+### Todo / toda (без артикля) = Любой
+- **En todo caso** (в любом случае)
+
+### С местоимением lo: Если todo — прямое дополнение (всё)
+- **Lo sé todo.** (Я всё знаю.)
+
+## 3. Cada (Каждый)
+
+Не изменяется по родам и числам.
+
+**Примеры:**
+- **Cada semana** (каждая неделя)
+- **Cada cinco minutos** (каждые пять минут)
+- **Cada uno / cada una** — используется без существительного (каждый/каждая)
+
+## 4. Otro (Другой)
+
+Изменяется по родам и числам (**otro, otra, otros, otras**).
+
+Обычно **без артикля**:
+- **Otra ciudad** (другой город)
+
+С артиклем (если из двух):
+- **Una es grande y la otra es pequeña.**
+
+## 5. Cualquiera (Любой)
+
+**Перед существительным:** усекается до **cualquier**.
+- **Cualquier día** (любой день)
+
+**После существительного:** полная форма.
+- **Un hombre cualquiera**
+
+**Множественное число:** **cualesquiera**.
+- **Cualesquiera noches** (любые ночи)
+
+
+# IV. Транспорт
 
 **EN + транспорт (внутри):**
 - **en coche** (на машине)
@@ -6740,23 +6839,6 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 **A + без транспорта:**
 - **a pie** (пешком)
 - **a caballo** (на лошади)
-
-## Глаголы движения:
-
-- **ir** (идти, ехать)
-- **venir** (приходить, приезжать)
-- **llegar** (прибывать)
-- **salir** (уходить, выезжать)
-- **viajar** (путешествовать)
-- **caminar** (идти пешком)
-
-## Давать указания:
-
-- **Sigue recto** - Иди прямо
-- **Gira a la derecha** - Поверни направо
-- **Gira a la izquierda** - Поверни налево
-- **Cruza la calle** - Перейди улицу
-- **Está a dos calles** - Через две улицы
       `,
       examples: [
         { spanish: 'Voy a la estación en metro', translation: 'Я еду на станцию на метро' },
@@ -10919,16 +11001,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 1a: Состояние (estar + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Puedes abrir la ventana? — Ya está abierta.',
     questions: [
-      { question: '¿Puedes encender la luz?', correct: 'Ya está encendida' },
-      { question: '¿Quieres lavar los platos?', correct: 'Ya están lavados' },
-      { question: '¿Tienes que resolver el problema?', correct: 'Ya está resuelto' },
-      { question: '¿Piensas romper el contrato?', correct: 'Ya está roto' },
-      { question: '¿Puedes imprimir los documentos?', correct: 'Ya están impresos' },
-      { question: '¿Quieres despertar a los niños?', correct: 'Ya están despertados' },
-      { question: '¿Tienes que arreglar el coche?', correct: 'Ya está arreglado' },
-      { question: '¿Piensas freír las patatas?', correct: 'Ya están fritas' },
-      { question: '¿Puedes cerrar la oficina?', correct: 'Ya está cerrada' },
-      { question: '¿Quieres colgar el cuadro?', correct: 'Ya está colgado' }
+      { question: '¿Puedes encender la luz?', correct: 'Ya está encendida.' },
+      { question: '¿Quieres lavar los platos?', correct: 'Ya están lavados.' },
+      { question: '¿Tienes que resolver el problema?', correct: 'Ya está resuelto.' },
+      { question: '¿Piensas romper el contrato?', correct: 'Ya está roto.' },
+      { question: '¿Puedes imprimir los documentos?', correct: 'Ya están impresos.' },
+      { question: '¿Quieres despertar a los niños?', correct: 'Ya están despertados.' },
+      { question: '¿Tienes que arreglar el coche?', correct: 'Ya está arreglado.' },
+      { question: '¿Piensas freír las patatas?', correct: 'Ya están fritas.' },
+      { question: '¿Puedes cerrar la oficina?', correct: 'Ya está cerrada.' },
+      { question: '¿Quieres colgar el cuadro?', correct: 'Ya está colgado.' }
     ]
   },
 
@@ -10938,16 +11020,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 1b: Результат (tener + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Vas a hacer los ejercicios? — Ya tengo hechos los ejercicios.',
     questions: [
-      { question: '¿Vais a comprar las entradas?', correct: 'Ya tenemos compradas las entradas' },
-      { question: '¿Vas a leer el informe?', correct: 'Ya tengo leído el informe' },
-      { question: '¿Va usted a cocinar la paella?', correct: 'Ya tengo cocinada la paella' },
-      { question: '¿Vais a reservar las habitaciones?', correct: 'Ya tenemos reservadas las habitaciones' },
-      { question: '¿Vas a escribir las invitaciones?', correct: 'Ya tengo escritas las invitaciones' },
-      { question: '¿Van ellos a vender las acciones?', correct: 'Ya tienen vendidas las acciones' },
-      { question: '¿Vas a limpiar las ventanas?', correct: 'Ya tengo limpias las ventanas' },
-      { question: '¿Va usted a traducir los textos?', correct: 'Ya tengo traducidos los textos' },
-      { question: '¿Van a corregir ellos los errores?', correct: 'Ya tienen corregidos los errores' },
-      { question: '¿Vas a preparar las maletas?', correct: 'Ya tengo preparadas las maletas' }
+      { question: '¿Vais a comprar las entradas?', correct: 'Ya tenemos compradas las entradas.' },
+      { question: '¿Vas a leer el informe?', correct: 'Ya tengo leído el informe.' },
+      { question: '¿Va usted a cocinar la paella?', correct: 'Ya tengo cocinada la paella.' },
+      { question: '¿Vais a reservar las habitaciones?', correct: 'Ya tenemos reservadas las habitaciones.' },
+      { question: '¿Vas a escribir las invitaciones?', correct: 'Ya tengo escritas las invitaciones.' },
+      { question: '¿Van ellos a vender las acciones?', correct: 'Ya tienen vendidas las acciones.' },
+      { question: '¿Vas a limpiar las ventanas?', correct: 'Ya tengo limpias las ventanas.' },
+      { question: '¿Va usted a traducir los textos?', correct: 'Ya tengo traducidos los textos.' },
+      { question: '¿Van a corregir ellos los errores?', correct: 'Ya tienen corregidos los errores.' },
+      { question: '¿Vas a preparar las maletas?', correct: 'Ya tengo preparadas las maletas.' }
     ]
   },
 
