@@ -10919,16 +10919,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 1a: Состояние (estar + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Puedes abrir la ventana? — Ya está abierta.',
     questions: [
-      { question: '¿Puedes encender la luz?', correct: 'ya está encendida' },
-      { question: '¿Quieres lavar los platos?', correct: 'ya están lavados' },
-      { question: '¿Tienes que resolver el problema?', correct: 'ya está resuelto' },
-      { question: '¿Piensas romper el contrato?', correct: 'ya está roto' },
-      { question: '¿Puedes imprimir los documentos?', correct: 'ya están impresos' },
-      { question: '¿Quieres despertar a los niños?', correct: 'ya están despertados' },
-      { question: '¿Tienes que arreglar el coche?', correct: 'ya está arreglado' },
-      { question: '¿Piensas freír las patatas?', correct: 'ya están fritas' },
-      { question: '¿Puedes cerrar la oficina?', correct: 'ya está cerrada' },
-      { question: '¿Quieres colgar el cuadro?', correct: 'ya está colgado' }
+      { question: '¿Puedes encender la luz?', correct: 'Ya está encendida' },
+      { question: '¿Quieres lavar los platos?', correct: 'Ya están lavados' },
+      { question: '¿Tienes que resolver el problema?', correct: 'Ya está resuelto' },
+      { question: '¿Piensas romper el contrato?', correct: 'Ya está roto' },
+      { question: '¿Puedes imprimir los documentos?', correct: 'Ya están impresos' },
+      { question: '¿Quieres despertar a los niños?', correct: 'Ya están despertados' },
+      { question: '¿Tienes que arreglar el coche?', correct: 'Ya está arreglado' },
+      { question: '¿Piensas freír las patatas?', correct: 'Ya están fritas' },
+      { question: '¿Puedes cerrar la oficina?', correct: 'Ya está cerrada' },
+      { question: '¿Quieres colgar el cuadro?', correct: 'Ya está colgado' }
     ]
   },
 
@@ -10938,16 +10938,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 1b: Результат (tener + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Vas a hacer los ejercicios? — Ya tengo hechos los ejercicios.',
     questions: [
-      { question: '¿Vais a comprar las entradas?', correct: 'ya tenemos compradas las entradas' },
-      { question: '¿Vas a leer el informe?', correct: 'ya tengo leído el informe' },
-      { question: '¿Va usted a cocinar la paella?', correct: 'ya tengo cocinada la paella' },
-      { question: '¿Vais a reservar las habitaciones?', correct: 'ya tenemos reservadas las habitaciones' },
-      { question: '¿Vas a escribir las invitaciones?', correct: 'ya tengo escritas las invitaciones' },
-      { question: '¿Van ellos a vender las acciones?', correct: 'ya tienen vendidas las acciones' },
-      { question: '¿Vas a limpiar las ventanas?', correct: 'ya tengo limpias las ventanas' },
-      { question: '¿Va usted a traducir los textos?', correct: 'ya tengo traducidos los textos' },
-      { question: '¿Van a corregir ellos los errores?', correct: 'ya tienen corregidos los errores' },
-      { question: '¿Vas a preparar las maletas?', correct: 'ya tengo preparadas las maletas' }
+      { question: '¿Vais a comprar las entradas?', correct: 'Ya tenemos compradas las entradas' },
+      { question: '¿Vas a leer el informe?', correct: 'Ya tengo leído el informe' },
+      { question: '¿Va usted a cocinar la paella?', correct: 'Ya tengo cocinada la paella' },
+      { question: '¿Vais a reservar las habitaciones?', correct: 'Ya tenemos reservadas las habitaciones' },
+      { question: '¿Vas a escribir las invitaciones?', correct: 'Ya tengo escritas las invitaciones' },
+      { question: '¿Van ellos a vender las acciones?', correct: 'Ya tienen vendidas las acciones' },
+      { question: '¿Vas a limpiar las ventanas?', correct: 'Ya tengo limpias las ventanas' },
+      { question: '¿Va usted a traducir los textos?', correct: 'Ya tengo traducidos los textos' },
+      { question: '¿Van a corregir ellos los errores?', correct: 'Ya tienen corregidos los errores' },
+      { question: '¿Vas a preparar las maletas?', correct: 'Ya tengo preparadas las maletas' }
     ]
   },
 
@@ -10976,16 +10976,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 3: Перевод на испанский',
     description: 'Переведите предложения на испанский язык',
     questions: [
-      { russian: 'Сегодня я проснулся очень поздно и не позавтракал.', correct: 'hoy me he despertado muy tarde y no he desayunado' },
+      { russian: 'Сегодня я проснулся очень поздно и не позавтракал.', correct: 'Hoy me he despertado muy tarde y no he desayunado' },
       { russian: 'Ты уже видел новый памятник в центре города?', correct: '¿Ya has visto el nuevo monumento en el centro de la ciudad?' },
-      { russian: 'На этой неделе мы много работали и очень устали.', correct: 'esta semana hemos trabajado mucho y estamos muy cansados' },
-      { russian: 'Кто открыл дверь и включил музыку? — Это сделал я.', correct: '¿Quién ha abierto la puerta y ha puesto la música? — lo he hecho yo' },
-      { russian: 'Почему вы еще не вернули мне книгу? — Мы ее еще не дочитали.', correct: '¿Por qué todavía no me habéis devuelto el libro? — todavía no lo hemos terminado de leer' },
-      { russian: 'В этом году мой брат женился и купил квартиру.', correct: 'este año mi hermano se ha casado y ha comprado un piso' },
-      { russian: 'Сегодня днем шел дождь, поэтому мы остались дома.', correct: 'esta tarde ha llovido, por eso nos hemos quedado en casa' },
-      { russian: 'Ты когда-нибудь пробовал паэлью? — Нет, никогда.', correct: '¿Has comido paella alguna vez? — no, nunca' },
-      { russian: 'Дети, вы уже умылись и оделись? Мы уходим через пять минут.', correct: 'niños, ¿ya os habéis lavado y vestido? nos vamos en cinco minutos' },
-      { russian: 'Марта сегодня не пришла, потому что она заболела.', correct: 'marta no ha venido hoy porque se ha puesto enferma' }
+      { russian: 'На этой неделе мы много работали и очень устали.', correct: 'Esta semana hemos trabajado mucho y estamos muy cansados' },
+      { russian: 'Кто открыл дверь и включил музыку? — Это сделал я.', correct: '¿Quién ha abierto la puerta y ha puesto la música? — Lo he hecho yo' },
+      { russian: 'Почему вы еще не вернули мне книгу? — Мы ее еще не дочитали.', correct: '¿Por qué todavía no me habéis devuelto el libro? — Todavía no lo hemos terminado de leer' },
+      { russian: 'В этом году мой брат женился и купил квартиру.', correct: 'Este año mi hermano se ha casado y ha comprado un piso' },
+      { russian: 'Сегодня днем шел дождь, поэтому мы остались дома.', correct: 'Esta tarde ha llovido, por eso nos hemos quedado en casa' },
+      { russian: 'Ты когда-нибудь пробовал паэлью? — Нет, никогда.', correct: '¿Has comido paella alguna vez? — No, nunca' },
+      { russian: 'Дети, вы уже умылись и оделись? Мы уходим через пять минут.', correct: 'Niños, ¿ya os habéis lavado y vestido? Nos vamos en cinco minutos' },
+      { russian: 'Марта сегодня не пришла, потому что она заболела.', correct: 'Marta no ha venido hoy porque se ha puesto enferma' }
     ]
   },
 
@@ -11139,11 +11139,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 11: Composición - Mi día',
     description: 'Напишите 5 предложений о том, что вы сделали сегодня, используя Pretérito Perfecto',
     questions: [
-      { question: '¿Qué has hecho esta mañana?', correct: 'esta mañana me he levantado temprano' },
-      { question: '¿Has desayunado? ¿Qué has comido?', correct: 'he desayunado café y tostadas' },
-      { question: '¿Dónde has estado hoy?', correct: 'he estado en el trabajo' },
-      { question: '¿Con quién has hablado?', correct: 'he hablado con mis compañeros' },
-      { question: '¿Qué has aprendido en esta lección?', correct: 'he aprendido el pretérito perfecto' }
+      { question: '¿Qué has hecho esta mañana?', correct: 'Esta mañana me he levantado temprano' },
+      { question: '¿Has desayunado? ¿Qué has comido?', correct: 'He desayunado café y tostadas' },
+      { question: '¿Dónde has estado hoy?', correct: 'He estado en el trabajo' },
+      { question: '¿Con quién has hablado?', correct: 'He hablado con mis compañeros' },
+      { question: '¿Qué has aprendido en esta lección?', correct: 'He aprendido el pretérito perfecto' }
     ]
   },
 
@@ -11274,14 +11274,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { question: 'Esta mañana me ___ (despertarse) a las siete.', correct: 'me he despertado' },
       { question: 'Primero, ___ (desayunar) café con tostadas.', correct: 'he desayunado' },
-      { question: '___ (salir) de casa a las ocho y media.', correct: 'he salido' },
-      { question: '___ (tomar) el metro para ir al centro.', correct: 'he tomado' },
-      { question: '___ (llegar) a la oficina a las nueve.', correct: 'he llegado' },
-      { question: '___ (escribir) varios emails.', correct: 'he escrito' },
+      { question: '___ (salir) de casa a las ocho y media.', correct: 'He salido' },
+      { question: '___ (tomar) el metro para ir al centro.', correct: 'He tomado' },
+      { question: '___ (llegar) a la oficina a las nueve.', correct: 'He llegado' },
+      { question: '___ (escribir) varios emails.', correct: 'He escrito' },
       { question: 'Mi jefe ___ (venir) a mi despacho.', correct: 'ha venido' },
-      { question: '___ (comer) paella de mariscos.', correct: 'hemos comido' },
+      { question: '___ (comer) paella de mariscos.', correct: 'Hemos comido' },
       { question: 'El cliente ___ (proponer) ampliar el proyecto.', correct: 'ha propuesto' },
-      { question: '___ (volver) a casa en autobús.', correct: 'he vuelto' },
+      { question: '___ (volver) a casa en autobús.', correct: 'He vuelto' },
       { question: 'Mi madre ___ (cocinar) mi plato favorito.', correct: 'ha cocinado' },
       { question: 'Hoy ___ (hacer) muchas cosas.', correct: 'he hecho' }
     ]
