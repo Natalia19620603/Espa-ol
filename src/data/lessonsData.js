@@ -4,13 +4,13 @@ export const courseLevels = [
     id: 'beginner',
     name: 'Начальный уровень (A1)',
     description: 'Основы испанского языка',
-    modules: ['module-1', 'module-2', 'module-3', 'module-4']
+    modules: ['module-1', 'module-2', 'module-3', 'module-4', 'module-5']
   },
   {
     id: 'elementary',
     name: 'Базовый уровень (A2)',
     description: 'Развитие базовых навыков',
-    modules: ['module-5', 'module-6']
+    modules: ['module-6']
   },
   {
     id: 'intermediate',
@@ -6847,64 +6847,55 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
         { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
       ]
     },
-    vocabularyTabs: [
-      {
-        title: 'Существительные',
-        words: [
-          { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-          { word: 'avión', translation: 'самолёт', audioUrl: null },
-          { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
-          { word: 'azafata', translation: 'стюардесса', audioUrl: null },
-          { word: 'tripulación', translation: 'экипаж', audioUrl: null },
-          { word: 'comandante', translation: 'командир', audioUrl: null },
-          { word: 'facturación', translation: 'регистрация', audioUrl: null },
-          { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
-          { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
-          { word: 'aduana', translation: 'таможня', audioUrl: null },
-          { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
-          { word: 'equipaje', translation: 'багаж', audioUrl: null },
-          { word: 'maleta', translation: 'чемодан', audioUrl: null },
-          { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
-          { word: 'salida', translation: 'отправление', audioUrl: null },
-          { word: 'llegada', translation: 'прибытие', audioUrl: null },
-          { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
-          { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
-          { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
-          { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
-          { word: 'carrito', translation: 'тележка', audioUrl: null },
-          { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
-          { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
-          { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
-          { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
-          { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
-          { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
-          { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
-          { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
-          { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
-          { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
-          { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
-          { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
-          { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
-          { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
-          { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null }
-        ]
-      },
-      {
-        title: 'Выражения',
-        words: [
-          { word: 'Solicitar el visado en la embajada', translation: 'Запросить визу в посольстве', audioUrl: null },
-          { word: 'Reservar y comprar el billete (a través de Internet, en una agencia de viajes, por teléfono, etc.)', translation: 'Забронировать и купить билет (через интернет, в туристическом агентстве, по телефону и т. д.)', audioUrl: null },
-          { word: 'Ir al aeropuerto dos horas antes de la salida del vuelo', translation: 'Приехать в аэропорт за два часа до вылета рейса', audioUrl: null },
-          { word: 'Declarar los objetos de valor y las divisas', translation: 'Декларировать ценные вещи и валюту', audioUrl: null },
-          { word: 'Facturar el equipaje y obtener la tarjeta de embarque en la que figura el número del asiento', translation: 'Сдать багаж и получить посадочный талон, в котором указан номер места', audioUrl: null },
-          { word: 'Pagar el exceso de peso del equipaje', translation: 'Оплатить перевес багажа', audioUrl: null },
-          { word: 'Pasar el control de seguridad', translation: 'Пройти контроль безопасности (досмотр)', audioUrl: null },
-          { word: 'Pasar el control de pasaportes', translation: 'Пройти паспортный контроль', audioUrl: null },
-          { word: 'Esperar en la sala de embarque', translation: 'Ожидать в зале посадки', audioUrl: null },
-          { word: 'Embarcar', translation: 'Пройти на посадку (сесть в самолет)', audioUrl: null },
-          { word: 'Recoger el equipaje', translation: 'Забрать багаж', audioUrl: null }
-        ]
-      }
+    vocabulary: [
+      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
+      { word: 'avión', translation: 'самолёт', audioUrl: null },
+      { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
+      { word: 'azafata', translation: 'стюардесса', audioUrl: null },
+      { word: 'tripulación', translation: 'экипаж', audioUrl: null },
+      { word: 'comandante', translation: 'командир', audioUrl: null },
+      { word: 'facturación', translation: 'регистрация', audioUrl: null },
+      { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
+      { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
+      { word: 'aduana', translation: 'таможня', audioUrl: null },
+      { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
+      { word: 'equipaje', translation: 'багаж', audioUrl: null },
+      { word: 'maleta', translation: 'чемодан', audioUrl: null },
+      { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
+      { word: 'salida', translation: 'отправление', audioUrl: null },
+      { word: 'llegada', translation: 'прибытие', audioUrl: null },
+      { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
+      { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
+      { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
+      { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
+      { word: 'carrito', translation: 'тележка', audioUrl: null },
+      { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
+      { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
+      { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
+      { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
+      { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
+      { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
+      { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
+      { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
+      { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
+      { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
+      { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
+      { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
+      { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
+      { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
+      { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null },
+      { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null },
+      { word: 'solicitar el visado en la embajada', translation: 'запросить визу в посольстве', audioUrl: null },
+      { word: 'reservar y comprar el billete', translation: 'забронировать и купить билет', audioUrl: null },
+      { word: 'ir al aeropuerto', translation: 'приехать в аэропорт', audioUrl: null },
+      { word: 'declarar los objetos de valor y las divisas', translation: 'декларировать ценные вещи и валюту', audioUrl: null },
+      { word: 'facturar el equipaje', translation: 'сдать багаж', audioUrl: null },
+      { word: 'obtener la tarjeta de embarque', translation: 'получить посадочный талон', audioUrl: null },
+      { word: 'pagar el exceso de peso', translation: 'оплатить перевес багажа', audioUrl: null },
+      { word: 'pasar el control de seguridad', translation: 'пройти контроль безопасности', audioUrl: null },
+      { word: 'pasar el control de pasaportes', translation: 'пройти паспортный контроль', audioUrl: null },
+      { word: 'esperar en la sala de embarque', translation: 'ожидать в зале посадки', audioUrl: null },
+      { word: 'embarcar', translation: 'пройти на посадку', audioUrl: null }
     ],
     readingText: {
       title: 'Un día en Barcelona',
@@ -11426,7 +11417,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-1': {
     id: 'ex-5-1-1',
     type: 'writing',
-    title: 'Упражнение 10: Будущее время (Futuro Simple)',
+    title: 'Упражнение 17: Будущее время (Futuro Simple)',
     description: 'Переведите предложения на испанский язык',
     questions: [
       { russian: 'Завтра поезд отправится ровно в шесть.', correct: 'Mañana el tren saldrá a las seis en punto.' },
@@ -11444,8 +11435,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-2': {
     id: 'ex-5-1-2',
     type: 'writing',
-    title: 'Упражнение 11: Вероятность в настоящем (Futuro de Probabilidad)',
-    description: 'Переведите предложения на испанский язык',
+    title: 'Упражнение 18: Вероятность в настоящем (Futuro de Probabilidad)',
+    description: 'Переведите предложения на испанский язык (наверное, должно быть, вероятно, скорее всего → Futuro Simple)',
     questions: [
       { russian: 'Сколько детей у Сильвии? — Наверное, шестеро.', correct: '¿Cuántos hijos tiene Silvia? — Tendrá seis hijos.' },
       { russian: 'Сейчас они, должно быть, живут в Дании.', correct: 'Ahora ellos vivirán en Dinamarca.' },
@@ -11498,7 +11489,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-5': {
     id: 'ex-5-1-5',
     type: 'writing',
-    title: 'Упражнение 12: Перевод на испанский язык',
+    title: 'Упражнение 19: Перевод на испанский язык',
     description: 'Переведите предложения на испанский',
     questions: [
       { russian: 'В следующем году они поедут в отпуск в Италию.', correct: 'El año que viene irán de vacaciones a Italia.' },
@@ -11560,7 +11551,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-8': {
     id: 'ex-5-1-8',
     type: 'writing',
-    title: 'Упражнение 13: Переведите на испанский язык',
+    title: 'Упражнение 20: Переведите на испанский язык',
     description: 'Отрицательные и неопределенные местоимения',
     questions: [
       { russian: 'Никто ничего не знает.', correct: 'Nadie sabe nada.' },
@@ -11668,7 +11659,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-14': {
     id: 'ex-5-1-14',
     type: 'writing',
-    title: 'Упражнение 14: Переведите на испанский язык',
+    title: 'Упражнение 21: Переведите на испанский язык',
     description: 'Используйте cada, otro, todo, cualquiera',
     questions: [
       { russian: 'Каждый день я хожу в офис.', correct: 'Cada día voy a la oficina.' },
