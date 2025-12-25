@@ -6847,55 +6847,65 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
         { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
       ]
     },
-    vocabulary: [
-      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-      { word: 'avión', translation: 'самолёт', audioUrl: null },
-      { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
-      { word: 'azafata', translation: 'стюардесса', audioUrl: null },
-      { word: 'tripulación', translation: 'экипаж', audioUrl: null },
-      { word: 'comandante', translation: 'командир', audioUrl: null },
-      { word: 'facturación', translation: 'регистрация', audioUrl: null },
-      { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
-      { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
-      { word: 'aduana', translation: 'таможня', audioUrl: null },
-      { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
-      { word: 'equipaje', translation: 'багаж', audioUrl: null },
-      { word: 'maleta', translation: 'чемодан', audioUrl: null },
-      { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
-      { word: 'salida', translation: 'отправление', audioUrl: null },
-      { word: 'llegada', translation: 'прибытие', audioUrl: null },
-      { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
-      { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
-      { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
-      { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
-      { word: 'carrito', translation: 'тележка', audioUrl: null },
-      { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
-      { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
-      { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
-      { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
-      { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
-      { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
-      { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
-      { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
-      { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
-      { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
-      { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
-      { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
-      { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
-      { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
-      { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null },
-      { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null },
-      { word: 'solicitar el visado en la embajada', translation: 'запросить визу в посольстве', audioUrl: null },
-      { word: 'reservar y comprar el billete', translation: 'забронировать и купить билет', audioUrl: null },
-      { word: 'ir al aeropuerto', translation: 'приехать в аэропорт', audioUrl: null },
-      { word: 'declarar los objetos de valor y las divisas', translation: 'декларировать ценные вещи и валюту', audioUrl: null },
-      { word: 'facturar el equipaje', translation: 'сдать багаж', audioUrl: null },
-      { word: 'obtener la tarjeta de embarque', translation: 'получить посадочный талон', audioUrl: null },
-      { word: 'pagar el exceso de peso', translation: 'оплатить перевес багажа', audioUrl: null },
-      { word: 'pasar el control de seguridad', translation: 'пройти контроль безопасности', audioUrl: null },
-      { word: 'pasar el control de pasaportes', translation: 'пройти паспортный контроль', audioUrl: null },
-      { word: 'esperar en la sala de embarque', translation: 'ожидать в зале посадки', audioUrl: null },
-      { word: 'embarcar', translation: 'пройти на посадку', audioUrl: null }
+    vocabularyTabs: [
+      {
+        title: 'Существительные',
+        words: [
+          { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
+          { word: 'avión', translation: 'самолёт', audioUrl: null },
+          { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
+          { word: 'azafata', translation: 'стюардесса', audioUrl: null },
+          { word: 'tripulación', translation: 'экипаж', audioUrl: null },
+          { word: 'comandante', translation: 'командир', audioUrl: null },
+          { word: 'facturación', translation: 'регистрация', audioUrl: null },
+          { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
+          { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
+          { word: 'aduana', translation: 'таможня', audioUrl: null },
+          { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
+          { word: 'equipaje', translation: 'багаж', audioUrl: null },
+          { word: 'maleta', translation: 'чемодан', audioUrl: null },
+          { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
+          { word: 'salida', translation: 'отправление', audioUrl: null },
+          { word: 'llegada', translation: 'прибытие', audioUrl: null },
+          { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
+          { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
+          { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
+          { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
+          { word: 'carrito', translation: 'тележка', audioUrl: null },
+          { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
+          { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
+          { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
+          { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
+          { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
+          { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
+          { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
+          { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
+          { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
+          { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
+          { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
+          { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
+          { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
+          { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
+          { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null }
+        ]
+      },
+      {
+        title: 'Выражения',
+        words: [
+          { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null },
+          { word: 'solicitar el visado en la embajada', translation: 'запросить визу в посольстве', audioUrl: null },
+          { word: 'reservar y comprar el billete', translation: 'забронировать и купить билет', audioUrl: null },
+          { word: 'ir al aeropuerto', translation: 'приехать в аэропорт', audioUrl: null },
+          { word: 'declarar los objetos de valor y las divisas', translation: 'декларировать ценные вещи и валюту', audioUrl: null },
+          { word: 'facturar el equipaje', translation: 'сдать багаж', audioUrl: null },
+          { word: 'obtener la tarjeta de embarque', translation: 'получить посадочный талон', audioUrl: null },
+          { word: 'pagar el exceso de peso', translation: 'оплатить перевес багажа', audioUrl: null },
+          { word: 'pasar el control de seguridad', translation: 'пройти контроль безопасности', audioUrl: null },
+          { word: 'pasar el control de pasaportes', translation: 'пройти паспортный контроль', audioUrl: null },
+          { word: 'esperar en la sala de embarque', translation: 'ожидать в зале посадки', audioUrl: null },
+          { word: 'embarcar', translation: 'пройти на посадку', audioUrl: null }
+        ]
+      }
     ],
     readingText: {
       title: 'Un día en Barcelona',
@@ -7004,20 +7014,27 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
       ]
     },
     vocabulary: [
-      { word: 'hotel', translation: 'отель', audioUrl: null },
-      { word: 'habitación', translation: 'номер (в отеле)', audioUrl: null },
-      { word: 'reserva', translation: 'бронь', audioUrl: null },
-      { word: 'recepción', translation: 'рецепция', audioUrl: null },
-      { word: 'llave', translation: 'ключ', audioUrl: null },
-      { word: 'restaurante', translation: 'ресторан', audioUrl: null },
-      { word: 'menú', translation: 'меню', audioUrl: null },
-      { word: 'camarero/a', translation: 'официант/ка', audioUrl: null },
-      { word: 'cuenta', translation: 'счёт', audioUrl: null },
-      { word: 'propina', translation: 'чаевые', audioUrl: null },
-      { word: 'plato', translation: 'блюдо', audioUrl: null },
-      { word: 'postre', translation: 'десерт', audioUrl: null },
-      { word: 'vino', translation: 'вино', audioUrl: null },
-      { word: 'agua', translation: 'вода', audioUrl: null }
+      { word: '¿Qué tiempo hace hoy?', translation: 'Какая сегодня погода?', audioUrl: null },
+      { word: 'Hace buen tiempo', translation: 'Стоит хорошая погода', audioUrl: null },
+      { word: 'Hace mal tiempo', translation: 'Стоит плохая погода', audioUrl: null },
+      { word: 'Hace (mucho) frío', translation: '(Очень) холодно', audioUrl: null },
+      { word: 'Hace (mucho) calor', translation: '(Очень) жарко', audioUrl: null },
+      { word: 'Hace sol', translation: 'Светит солнце (солнечно)', audioUrl: null },
+      { word: 'Hace viento', translation: 'Дует ветер (ветрено)', audioUrl: null },
+      { word: '10 grados sobre / bajo cero', translation: '10 градусов выше / ниже нуля', audioUrl: null },
+      { word: 'Llueve (verbo llover)', translation: 'Идет дождь', audioUrl: null },
+      { word: 'Lluvia (f)', translation: 'Дождь', audioUrl: null },
+      { word: 'Nieva (verbo nevar)', translation: 'Идет снег', audioUrl: null },
+      { word: 'Nieve (f)', translation: 'Снег', audioUrl: null },
+      { word: 'Niebla (f)', translation: 'Туман', audioUrl: null },
+      { word: 'Tormenta (f)', translation: 'Гроза / буря / шторм', audioUrl: null },
+      { word: 'Huracán (m)', translation: 'Ураган', audioUrl: null },
+      { word: 'Nevada (f)', translation: 'Снегопад', audioUrl: null },
+      { word: 'Congelación (f) / Escarcha', translation: 'Обледенение', audioUrl: null },
+      { word: 'Condiciones meteorológicas desfavorables', translation: 'Неблагоприятные метеорологические условия', audioUrl: null },
+      { word: 'Desperfectos técnicos', translation: 'Технические неполадки (самолета)', audioUrl: null },
+      { word: 'Huelga del personal', translation: 'Забастовка персонала', audioUrl: null },
+      { word: 'Atentado terrorista', translation: 'Террористический акт', audioUrl: null }
     ],
     readingText: {
       title: 'Experiencia en un hotel español',
@@ -7065,7 +7082,7 @@ Sin duda volvería a ese hotel. El servicio fue excelente y todo el personal muy
 Без сомнения, я вернулась бы в этот отель. Обслуживание было превосходным, а весь персонал очень профессиональным и приветливым.`,
       audioUrl: '/audio/lesson-5-2-reading.mp3'
     },
-    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5']
+    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11', 'ex-5-2-12', 'ex-5-2-13', 'ex-5-2-14', 'ex-5-2-15', 'ex-5-2-16']
   },
 
   'lesson-5-3': {
@@ -11868,6 +11885,215 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Я хотел бы забронировать столик', correct: 'me gustaría reservar una mesa' },
       { russian: 'Что вы порекомендуете?', correct: 'qué me recomendaría' },
       { russian: 'Счёт, пожалуйста', correct: 'la cuenta por favor' }
+    ]
+  },
+
+  'ex-5-2-6': {
+    id: 'ex-5-2-6',
+    type: 'grammar',
+    title: 'Упражнение 6: Futuro Simple - Спряжение правильных глаголов',
+    description: 'Выберите правильную форму глагола в будущем времени',
+    questions: [
+      { sentence: 'Mañana ___ (llover) mucho.', options: ['lloverá', 'lloverás', 'lloveré', 'lloveremos'], correct: 0 },
+      { sentence: 'El próximo año nosotros ___ (viajar) a México.', options: ['viajaré', 'viajarás', 'viajaremos', 'viajarán'], correct: 2 },
+      { sentence: 'Tú ___ (visitar) el museo mañana.', options: ['visitaré', 'visitarás', 'visitará', 'visitaremos'], correct: 1 },
+      { sentence: 'Ellos ___ (comer) paella en el restaurante.', options: ['comeré', 'comerás', 'comerá', 'comerán'], correct: 3 },
+      { sentence: 'Yo ___ (escribir) un email esta tarde.', options: ['escribiré', 'escribirás', 'escribirá', 'escribiremos'], correct: 0 },
+      { sentence: 'El avión ___ (salir) a las 10 de la mañana.', options: ['saliré', 'salirá', 'salirás', 'saliremos'], correct: 1 },
+      { sentence: 'Vosotros ___ (trabajar) en la oficina.', options: ['trabajaré', 'trabajarás', 'trabajará', 'trabajaréis'], correct: 3 },
+      { sentence: 'Ella ___ (comprar) los billetes mañana.', options: ['compraré', 'comprará', 'comprarás', 'compraremos'], correct: 1 },
+      { sentence: 'Ustedes ___ (hablar) con el director.', options: ['hablaré', 'hablarás', 'hablará', 'hablarán'], correct: 3 },
+      { sentence: 'Mi hermana ___ (estudiar) español.', options: ['estudiaré', 'estudiará', 'estudiarás', 'estudiaremos'], correct: 1 }
+    ]
+  },
+
+  'ex-5-2-7': {
+    id: 'ex-5-2-7',
+    type: 'grammar',
+    title: 'Упражнение 7: Futuro Simple - Неправильные глаголы',
+    description: 'Выберите правильную форму неправильного глагола',
+    questions: [
+      { sentence: 'Yo te ___ (decir) la verdad mañana.', options: ['decirá', 'diré', 'diría', 'digo'], correct: 1 },
+      { sentence: 'Nosotros ___ (hacer) el trabajo esta semana.', options: ['haceremos', 'haremos', 'hacíamos', 'hacemos'], correct: 1 },
+      { sentence: 'Tú ___ (poder) venir a la fiesta.', options: ['poderás', 'podrás', 'puedes', 'podías'], correct: 1 },
+      { sentence: 'Ellos ___ (saber) los resultados pronto.', options: ['saberán', 'sabían', 'sabrán', 'saben'], correct: 2 },
+      { sentence: 'Yo ___ (salir) temprano del trabajo.', options: ['saliré', 'salía', 'saldré', 'salgo'], correct: 2 },
+      { sentence: 'Vosotros ___ (poner) la mesa para la cena.', options: ['poneréis', 'ponéis', 'pondréis', 'ponías'], correct: 2 },
+      { sentence: 'Ella ___ (venir) a visitarnos en julio.', options: ['venirá', 'vendría', 'vendrá', 'viene'], correct: 2 },
+      { sentence: 'Ustedes ___ (tener) que esperar un poco.', options: ['tenerán', 'tendrán', 'tenían', 'tienen'], correct: 1 },
+      { sentence: 'Yo ___ (querer) ir al concierto.', options: ['querrá', 'querré', 'quería', 'quiero'], correct: 1 },
+      { sentence: 'Mañana ___ (haber) una reunión importante.', options: ['habrá', 'había', 'hay', 'habría'], correct: 0 }
+    ]
+  },
+
+  'ex-5-2-8': {
+    id: 'ex-5-2-8',
+    type: 'grammar',
+    title: 'Упражнение 8: Погода - Выражения с HACER',
+    description: 'Выберите правильное выражение для описания погоды',
+    questions: [
+      { sentence: 'Cuando ___, necesito un abrigo.', options: ['hace calor', 'hace frío', 'hace sol', 'hace buen tiempo'], correct: 1 },
+      { sentence: 'En verano en España ___ mucho.', options: ['hace frío', 'hace calor', 'nieva', 'hace mal tiempo'], correct: 1 },
+      { sentence: 'Hoy es un día perfecto para la playa porque ___.', options: ['llueve', 'nieva', 'hace sol', 'hace frío'], correct: 2 },
+      { sentence: 'No puedo abrir el paraguas porque ___ mucho.', options: ['hace sol', 'hace viento', 'hace calor', 'hace buen tiempo'], correct: 1 },
+      { sentence: 'En invierno en Moscú ___.', options: ['hace calor', 'hace mucho frío', 'hace sol siempre', 'llueve mucho'], correct: 1 },
+      { sentence: 'Cuando ___, la gente va al parque.', options: ['hace mal tiempo', 'nieva', 'hace buen tiempo', 'llueve'], correct: 2 },
+      { sentence: 'Hoy la temperatura está a 5 grados ___ cero.', options: ['sobre', 'bajo', 'en', 'de'], correct: 1 },
+      { sentence: 'En otoño en Madrid ___ frecuentemente.', options: ['nieva', 'hace mucho calor', 'llueve', 'hace frío'], correct: 2 },
+      { sentence: 'Necesitas gafas de sol cuando ___.', options: ['llueve', 'nieva', 'hace sol', 'hace viento'], correct: 2 },
+      { sentence: 'En las montañas en invierno ___.', options: ['hace calor', 'nieva', 'hace buen tiempo siempre', 'llueve'], correct: 1 }
+    ]
+  },
+
+  'ex-5-2-9': {
+    id: 'ex-5-2-9',
+    type: 'grammar',
+    title: 'Упражнение 9: Отрицательные местоимения',
+    description: 'Выберите правильное отрицательное местоимение',
+    questions: [
+      { sentence: 'En el aeropuerto no veo a ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'No hay ___ información sobre el vuelo.', options: ['alguna', 'ninguna', 'alguien', 'nadie'], correct: 1 },
+      { sentence: '___ ha llamado por teléfono.', options: ['Nadie', 'Nada', 'Alguno', 'Alguien'], correct: 0 },
+      { sentence: 'No quiero comer ___.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
+      { sentence: '___ viajo sin mi maleta.', options: ['Siempre', 'Nunca', 'A veces', 'Mucho'], correct: 1 },
+      { sentence: 'No conozco a ___ de los pasajeros.', options: ['alguno', 'ninguno', 'algo', 'nada'], correct: 1 },
+      { sentence: 'En la sala de espera no hay ___.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 3 },
+      { sentence: 'No tengo ___ pregunta.', options: ['alguna', 'ninguna', 'alguien', 'nadie'], correct: 1 },
+      { sentence: '___ he estado en primera clase.', options: ['Siempre', 'Nunca', 'Mucho', 'Poco'], correct: 1 },
+      { sentence: '¿Hay alguien aquí? — No, no hay ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 }
+    ]
+  },
+
+  'ex-5-2-10': {
+    id: 'ex-5-2-10',
+    type: 'grammar',
+    title: 'Упражнение 10: Неопределенные местоимения - alguno/ninguno',
+    description: 'Выберите правильную форму местоимения',
+    questions: [
+      { sentence: '¿Tienes ___ maleta?', options: ['alguna', 'alguno', 'algunos', 'algunas'], correct: 0 },
+      { sentence: 'No tengo ___ billete de avión.', options: ['algún', 'ningún', 'ninguno', 'ninguna'], correct: 1 },
+      { sentence: '___ pasajeros ya han embarcado.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
+      { sentence: 'No hay ___ vuelo disponible hoy.', options: ['algún', 'ningún', 'ninguno', 'algunos'], correct: 1 },
+      { sentence: '¿___ de ustedes sabe el número de puerta?', options: ['Algún', 'Alguno', 'Algunos', 'Alguna'], correct: 1 },
+      { sentence: 'No conozco a ___ azafata de este vuelo.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
+      { sentence: '¿Hay ___ problema con el equipaje?', options: ['algún', 'alguno', 'algunos', 'alguna'], correct: 0 },
+      { sentence: 'No tenemos ___ información sobre el retraso.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
+      { sentence: '___ días el vuelo sale con retraso.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
+      { sentence: 'No he visto ___ película en el avión.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 }
+    ]
+  },
+
+  'ex-5-2-11': {
+    id: 'ex-5-2-11',
+    type: 'grammar',
+    title: 'Упражнение 11: Местоимения todo/cada/otro/cualquier',
+    description: 'Выберите правильное местоимение',
+    questions: [
+      { sentence: '___ los vuelos están cancelados por mal tiempo.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ día reviso el horario de vuelos.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: 'Este asiento está ocupado, necesito ___.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ persona debe pasar por el control de seguridad.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 0 },
+      { sentence: '___ el equipaje está en el avión.', options: ['Cada', 'Todos', 'Todo', 'Cualquier'], correct: 2 },
+      { sentence: 'Puedes viajar ___ día de la semana.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 3 },
+      { sentence: '___ pasajero tiene una tarjeta de embarque.', options: ['Todo', 'Cada', 'Otro', 'Todos'], correct: 1 },
+      { sentence: 'Quiero cambiar a ___ vuelo.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ persona puede comprar billetes en línea.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 3 },
+      { sentence: '___ las azafatas son muy amables.', options: ['Cada', 'Todos', 'Otro', 'Todas'], correct: 3 }
+    ]
+  },
+
+  'ex-5-2-12': {
+    id: 'ex-5-2-12',
+    type: 'grammar',
+    title: 'Упражнение 12: Futuro de Probabilidad',
+    description: 'Выберите правильную форму для выражения вероятности',
+    questions: [
+      { sentence: '¿Qué hora es? — ___ las tres.', options: ['Es', 'Será', 'Serán', 'Era'], correct: 2 },
+      { sentence: '¿Dónde está María? — ___ en el aeropuerto.', options: ['Está', 'Estará', 'Estaba', 'Estuvo'], correct: 1 },
+      { sentence: '¿Cuántos años tiene tu hermano? — ___ 25 años.', options: ['Tiene', 'Tendrá', 'Tenía', 'Tuvo'], correct: 1 },
+      { sentence: '¿Por qué no ha llegado el vuelo? — ___ mal tiempo.', options: ['Hace', 'Hará', 'Hacía', 'Hizo'], correct: 1 },
+      { sentence: '¿Quién es ese señor? — ___ el piloto.', options: ['Es', 'Será', 'Era', 'Fue'], correct: 1 },
+      { sentence: '¿Cuánto cuesta el billete? — ___ unos 200 euros.', options: ['Cuesta', 'Costará', 'Costaba', 'Costó'], correct: 1 },
+      { sentence: '¿Dónde están mis maletas? — ___ en el avión.', options: ['Están', 'Estarán', 'Estaban', 'Estuvieron'], correct: 1 },
+      { sentence: '¿Qué tiempo hace allí? — ___ sol.', options: ['Hace', 'Hará', 'Hacía', 'Hizo'], correct: 1 },
+      { sentence: '¿A qué hora sale el vuelo? — ___ a las 10.', options: ['Sale', 'Saldrá', 'Salía', 'Salió'], correct: 1 },
+      { sentence: '¿Por qué llora el niño? — ___ cansado.', options: ['Está', 'Estará', 'Estaba', 'Estuvo'], correct: 1 }
+    ]
+  },
+
+  'ex-5-2-13': {
+    id: 'ex-5-2-13',
+    type: 'grammar',
+    title: 'Упражнение 13: Смешанная грамматика - Futuro Simple и местоимения',
+    description: 'Выберите правильный вариант',
+    questions: [
+      { sentence: 'Mañana ___ (yo, ir) al aeropuerto temprano.', options: ['voy', 'iré', 'iría', 'fui'], correct: 1 },
+      { sentence: 'No hay ___ en la sala de embarque.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'El próximo año nosotros ___ (hacer) un viaje largo.', options: ['hacemos', 'haremos', 'haríamos', 'hicimos'], correct: 1 },
+      { sentence: '___ los pasajeros deben facturar el equipaje.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '¿Dónde estará mi tarjeta de embarque? — ___ en tu bolso.', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
+      { sentence: 'No conozco a ___ de los tripulantes.', options: ['alguno', 'ninguno', 'alguien', 'nadie'], correct: 1 },
+      { sentence: '___ día visitaré México.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 2 },
+      { sentence: 'Mañana ___ (llover) mucho.', options: ['llueve', 'lloverá', 'llovía', 'llovió'], correct: 1 },
+      { sentence: '___ nunca he volado en primera clase.', options: ['Yo', 'Tú', 'Él', 'Nosotros'], correct: 0 },
+      { sentence: '¿Hay ___ vuelo directo? — No, no hay ___.', options: ['algún / ninguno', 'ningún / alguno', 'algo / nada', 'alguien / nadie'], correct: 0 }
+    ]
+  },
+
+  'ex-5-2-14': {
+    id: 'ex-5-2-14',
+    type: 'grammar',
+    title: 'Упражнение 14: Погода и путешествия',
+    description: 'Выберите правильный вариант',
+    questions: [
+      { sentence: 'El vuelo está cancelado debido a ___.', options: ['hace sol', 'hace buen tiempo', 'condiciones meteorológicas desfavorables', 'hace calor'], correct: 2 },
+      { sentence: 'Cuando ___, es difícil conducir.', options: ['hace sol', 'hace buen tiempo', 'nieva', 'hace calor'], correct: 2 },
+      { sentence: 'El avión no puede despegar porque hay ___.', options: ['sol', 'buen tiempo', 'niebla', 'calor'], correct: 2 },
+      { sentence: 'El retraso del vuelo es por ___.', options: ['hace sol', 'desperfectos técnicos', 'hace buen tiempo', 'hace calor'], correct: 1 },
+      { sentence: 'Todos los vuelos están cancelados por ___.', options: ['hace sol', 'huelga del personal', 'hace buen tiempo', 'hace calor'], correct: 1 },
+      { sentence: 'En invierno las carreteras están cubiertas de ___.', options: ['sol', 'calor', 'nieve', 'viento'], correct: 2 },
+      { sentence: 'Durante la ___ es peligroso volar.', options: ['sol', 'buen tiempo', 'tormenta', 'calor'], correct: 2 },
+      { sentence: 'El aeropuerto está cerrado por ___.', options: ['hace sol', 'hace buen tiempo', 'un huracán', 'hace calor'], correct: 2 },
+      { sentence: 'Hay ___ en la pista, el avión no puede aterrizar.', options: ['sol', 'escarcha', 'buen tiempo', 'calor'], correct: 1 },
+      { sentence: 'El vuelo se retrasa por ___.', options: ['hace buen tiempo', 'hace sol', 'una nevada fuerte', 'hace calor'], correct: 2 }
+    ]
+  },
+
+  'ex-5-2-15': {
+    id: 'ex-5-2-15',
+    type: 'grammar',
+    title: 'Упражнение 15: Vocabulario del aeropuerto y la meteorología',
+    description: 'Соотнесите испанские слова с русским переводом',
+    questions: [
+      { sentence: 'Lluvia', options: ['Снег', 'Дождь', 'Туман', 'Ветер'], correct: 1 },
+      { sentence: 'Niebla', options: ['Снег', 'Дождь', 'Туман', 'Гроза'], correct: 2 },
+      { sentence: 'Tormenta', options: ['Снег', 'Туман', 'Гроза', 'Ветер'], correct: 2 },
+      { sentence: 'Nevada', options: ['Дождь', 'Снегопад', 'Туман', 'Ветер'], correct: 1 },
+      { sentence: 'Huracán', options: ['Снег', 'Дождь', 'Туман', 'Ураган'], correct: 3 },
+      { sentence: 'Desperfectos técnicos', options: ['Забастовка', 'Технические неполадки', 'Туман', 'Плохая погода'], correct: 1 },
+      { sentence: 'Huelga del personal', options: ['Забастовка персонала', 'Технические неполадки', 'Туман', 'Снег'], correct: 0 },
+      { sentence: 'Congelación', options: ['Дождь', 'Снег', 'Обледенение', 'Ветер'], correct: 2 },
+      { sentence: 'Hace viento', options: ['Идет дождь', 'Идет снег', 'Дует ветер', 'Светит солнце'], correct: 2 },
+      { sentence: 'Hace sol', options: ['Идет дождь', 'Идет снег', 'Дует ветер', 'Светит солнце'], correct: 3 }
+    ]
+  },
+
+  'ex-5-2-16': {
+    id: 'ex-5-2-16',
+    type: 'writing',
+    title: 'Упражнение 16: Переведите на испанский язык',
+    description: 'Переведите предложения, используя грамматику и словарь урока',
+    questions: [
+      { russian: 'Завтра будет прекрасный и солнечный день.', correct: 'Mañana será un día hermoso y soleado.' },
+      { russian: 'Особенно меня удивляет количество людей и машин на улицах Мехико.', correct: 'Me sorprende especialmente la cantidad de personas y coches en las calles de México.' },
+      { russian: 'Сегодня такая приятная погода!', correct: '¡Hoy hace tan buen tiempo!' },
+      { russian: 'Давиду кажется, что сейчас в этой части планеты деревья зеленее, а цветы — ярче, чем в Европе.', correct: 'A David le parece que ahora en esta parte del planeta los árboles son más verdes y las flores más brillantes que en Europa.' },
+      { russian: 'Трудно водить машину в таком огромном городе, где проживает 18 млн. человек.', correct: 'Es difícil conducir en una ciudad tan enorme donde viven 18 millones de personas.' },
+      { russian: 'К счастью, мне не нужна въездная виза и мне не придется выполнять некоторые формальности.', correct: 'Afortunadamente, no necesito visado de entrada y no tendré que cumplir algunas formalidades.' },
+      { russian: 'Все шоссе полностью покрыты снегом, поэтому мы потратим на дорогу до аэропорта больше времени.', correct: 'Todas las carreteras están completamente cubiertas de nieve, por eso tardaremos más tiempo en llegar al aeropuerto.' },
+      { russian: 'Пассажиры, вылетающие рейсом 3449 в Лондон, должны срочно пройти на посадку к выходу 25.', correct: 'Los pasajeros del vuelo 3449 a Londres deben embarcar urgentemente por la puerta 25.' },
+      { russian: 'Давид крепко обнимает Фернанду, которая безутешно плачет.', correct: 'David abraza fuertemente a Fernanda, que llora desconsoladamente.' },
+      { russian: 'Прекрасная стюардесса с огромными черными глазами говорит, что пассажиры должны пристегнуть ремни безопасности и привести спинки кресел в вертикальное положение, потому что самолет идет на посадку.', correct: 'La hermosa azafata de grandes ojos negros dice que los pasajeros deben abrocharse los cinturones de seguridad y poner los respaldos de los asientos en posición vertical porque el avión va a aterrizar.' }
     ]
   },
 
