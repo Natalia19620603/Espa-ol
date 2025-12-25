@@ -150,9 +150,9 @@
 }
 
 .wrongAnswer {
-  background: #f44336 !important;
-  color: white !important;
-  border-color: #f44336 !important;
+  background: #F5DEB3 !important;
+  color: #333 !important;
+  border-color: #DEB887 !important;
   animation: wrongShake 0.5s;
 }
 

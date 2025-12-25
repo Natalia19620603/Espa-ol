@@ -11,6 +11,15 @@ function shuffleArray(array) {
   return shuffled
 }
 
+// Функция нормализации ответа - делает первую букву lowercase, остальное оставляет как есть
+function normalizeAnswer(answer) {
+  if (!answer || typeof answer !== 'string') return ''
+  const trimmed = answer.trim()
+  if (trimmed.length === 0) return ''
+  // Приводим весь ответ к lowercase
+  return trimmed.toLowerCase()
+}
+
 function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState([])
@@ -340,6 +349,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
               onSkipFeedback={handleSkipFeedback}
+              exerciseDescription={exercise.description}
             />
           )}
           {exercise.type === 'fillblank' && (
@@ -959,7 +969,7 @@ function ReadingQuestion({ text, question, onAnswer, showCorrectAnswer, userAnsw
   )
 }
 
-function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
+function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback, exerciseDescription }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
@@ -1004,9 +1014,19 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
     onAnswer(currentInput)
   }
 
+  // Определяем, нужно ли показывать "Переведите:" или просто вопрос
+  const shouldShowTranslate = question.russian || (question.question && !exerciseDescription?.includes('глагол'))
+  const questionText = question.question || question.russian
+
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>Переведите: <strong>{question.question || question.russian}</strong></h3>
+      <h3 className={styles.questionText}>
+        {shouldShowTranslate && !exerciseDescription?.includes('глагол') ? (
+          <>Переведите: <strong>{questionText}</strong></>
+        ) : (
+          <strong>{questionText}</strong>
+        )}
+      </h3>
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
