@@ -6847,65 +6847,55 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
         { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
       ]
     },
-    vocabularyTabs: [
-      {
-        title: 'Существительные',
-        words: [
-          { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-          { word: 'avión', translation: 'самолёт', audioUrl: null },
-          { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
-          { word: 'azafata', translation: 'стюардесса', audioUrl: null },
-          { word: 'tripulación', translation: 'экипаж', audioUrl: null },
-          { word: 'comandante', translation: 'командир', audioUrl: null },
-          { word: 'facturación', translation: 'регистрация', audioUrl: null },
-          { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
-          { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
-          { word: 'aduana', translation: 'таможня', audioUrl: null },
-          { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
-          { word: 'equipaje', translation: 'багаж', audioUrl: null },
-          { word: 'maleta', translation: 'чемодан', audioUrl: null },
-          { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
-          { word: 'salida', translation: 'отправление', audioUrl: null },
-          { word: 'llegada', translation: 'прибытие', audioUrl: null },
-          { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
-          { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
-          { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
-          { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
-          { word: 'carrito', translation: 'тележка', audioUrl: null },
-          { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
-          { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
-          { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
-          { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
-          { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
-          { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
-          { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
-          { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
-          { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
-          { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
-          { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
-          { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
-          { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
-          { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
-          { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null }
-        ]
-      },
-      {
-        title: 'Выражения',
-        words: [
-          { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null },
-          { word: 'solicitar el visado en la embajada', translation: 'запросить визу в посольстве', audioUrl: null },
-          { word: 'reservar y comprar el billete', translation: 'забронировать и купить билет', audioUrl: null },
-          { word: 'ir al aeropuerto', translation: 'приехать в аэропорт', audioUrl: null },
-          { word: 'declarar los objetos de valor y las divisas', translation: 'декларировать ценные вещи и валюту', audioUrl: null },
-          { word: 'facturar el equipaje', translation: 'сдать багаж', audioUrl: null },
-          { word: 'obtener la tarjeta de embarque', translation: 'получить посадочный талон', audioUrl: null },
-          { word: 'pagar el exceso de peso', translation: 'оплатить перевес багажа', audioUrl: null },
-          { word: 'pasar el control de seguridad', translation: 'пройти контроль безопасности', audioUrl: null },
-          { word: 'pasar el control de pasaportes', translation: 'пройти паспортный контроль', audioUrl: null },
-          { word: 'esperar en la sala de embarque', translation: 'ожидать в зале посадки', audioUrl: null },
-          { word: 'embarcar', translation: 'пройти на посадку', audioUrl: null }
-        ]
-      }
+    vocabulary: [
+      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
+      { word: 'avión', translation: 'самолёт', audioUrl: null },
+      { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
+      { word: 'azafata', translation: 'стюардесса', audioUrl: null },
+      { word: 'tripulación', translation: 'экипаж', audioUrl: null },
+      { word: 'comandante', translation: 'командир', audioUrl: null },
+      { word: 'facturación', translation: 'регистрация', audioUrl: null },
+      { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
+      { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
+      { word: 'aduana', translation: 'таможня', audioUrl: null },
+      { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
+      { word: 'equipaje', translation: 'багаж', audioUrl: null },
+      { word: 'maleta', translation: 'чемодан', audioUrl: null },
+      { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
+      { word: 'salida', translation: 'отправление', audioUrl: null },
+      { word: 'llegada', translation: 'прибытие', audioUrl: null },
+      { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
+      { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
+      { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
+      { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
+      { word: 'carrito', translation: 'тележка', audioUrl: null },
+      { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
+      { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
+      { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
+      { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
+      { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
+      { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
+      { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
+      { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
+      { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
+      { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
+      { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
+      { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
+      { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
+      { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
+      { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null },
+      { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null },
+      { word: 'solicitar el visado en la embajada', translation: 'запросить визу в посольстве', audioUrl: null },
+      { word: 'reservar y comprar el billete', translation: 'забронировать и купить билет', audioUrl: null },
+      { word: 'ir al aeropuerto', translation: 'приехать в аэропорт', audioUrl: null },
+      { word: 'declarar los objetos de valor y las divisas', translation: 'декларировать ценные вещи и валюту', audioUrl: null },
+      { word: 'facturar el equipaje', translation: 'сдать багаж', audioUrl: null },
+      { word: 'obtener la tarjeta de embarque', translation: 'получить посадочный талон', audioUrl: null },
+      { word: 'pagar el exceso de peso', translation: 'оплатить перевес багажа', audioUrl: null },
+      { word: 'pasar el control de seguridad', translation: 'пройти контроль безопасности', audioUrl: null },
+      { word: 'pasar el control de pasaportes', translation: 'пройти паспортный контроль', audioUrl: null },
+      { word: 'esperar en la sala de embarque', translation: 'ожидать в зале посадки', audioUrl: null },
+      { word: 'embarcar', translation: 'пройти на посадку', audioUrl: null }
     ],
     readingText: {
       title: 'Un día en Barcelona',
@@ -6942,77 +6932,8 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
 
   'lesson-5-2': {
     id: 'lesson-5-2',
-    title: 'Урок 2: В отеле и ресторане',
+    title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
-    grammar: {
-      title: 'Условное наклонение (Condicional simple)',
-      content: `
-# Condicional simple (Условное наклонение)
-
-## Образование:
-**Инфинитив + окончания**
-
-| Лицо | Окончание | Hablar | Comer | Vivir |
-|------|-----------|--------|-------|-------|
-| yo | -ía | hablaría | comería | viviría |
-| tú | -ías | hablarías | comerías | vivirías |
-| él/ella/usted | -ía | hablaría | comería | viviría |
-| nosotros/as | -íamos | hablaríamos | comeríamos | viviríamos |
-| vosotros/as | -íais | hablaríais | comeríais | viviríais |
-| ellos/ellas/ustedes | -ían | hablarían | comerían | vivirían |
-
-## Неправильные основы:
-
-| Инфинитив | Основа | Пример |
-|-----------|--------|--------|
-| hacer | har- | haría |
-| decir | dir- | diría |
-| poder | podr- | podría |
-| poner | pondr- | pondría |
-| salir | saldr- | saldría |
-| tener | tendr- | tendría |
-| venir | vendr- | vendría |
-| saber | sabr- | sabría |
-| querer | querr- | querría |
-| haber | habr- | habría |
-
-## Употребление:
-
-1. **Вежливые просьбы:**
-   - ¿**Podría** ayudarme? (Могли бы вы мне помочь?)
-   - **Me gustaría** una habitación (Я хотел бы номер)
-   - ¿**Tendría** una mesa libre? (У вас есть свободный столик?)
-
-2. **Советы:**
-   - **Deberías** visitar el museo (Тебе следует посетить музей)
-   - Yo **comería** la paella (Я бы съел паэлью)
-
-3. **Условия (с SI):**
-   - Si tuviera dinero, **viajaría** por el mundo
-   - Si pudiera, **me quedaría** más tiempo
-
-## Полезные фразы для отеля:
-
-- **¿Tiene habitaciones libres?** - У вас есть свободные номера?
-- **Quisiera reservar una habitación** - Я хотел бы забронировать номер
-- **¿Cuánto cuesta por noche?** - Сколько стоит за ночь?
-- **¿Está incluido el desayuno?** - Завтрак включён?
-- **¿A qué hora es el check-out?** - Во сколько выселение?
-
-## Полезные фразы для ресторана:
-
-- **¿Me podría traer el menú?** - Не могли бы вы принести меню?
-- **Quisiera pedir...** - Я хотел бы заказать...
-- **¿Qué me recomendaría?** - Что вы бы мне порекомендовали?
-- **La cuenta, por favor** - Счёт, пожалуйста
-      `,
-      examples: [
-        { spanish: '¿Podría darme una habitación con vistas al mar?', translation: 'Могли бы вы дать мне номер с видом на море?' },
-        { spanish: 'Me gustaría reservar para dos personas', translation: 'Я хотел бы забронировать на двоих' },
-        { spanish: '¿Qué me recomendaría del menú?', translation: 'Что бы вы порекомендовали из меню?' },
-        { spanish: 'Querríamos una mesa para cuatro', translation: 'Мы хотели бы столик на четверых' }
-      ]
-    },
     vocabulary: [
       { word: '¿Qué tiempo hace hoy?', translation: 'Какая сегодня погода?', audioUrl: null },
       { word: 'Hace buen tiempo', translation: 'Стоит хорошая погода', audioUrl: null },
@@ -7034,55 +6955,172 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
       { word: 'Condiciones meteorológicas desfavorables', translation: 'Неблагоприятные метеорологические условия', audioUrl: null },
       { word: 'Desperfectos técnicos', translation: 'Технические неполадки (самолета)', audioUrl: null },
       { word: 'Huelga del personal', translation: 'Забастовка персонала', audioUrl: null },
-      { word: 'Atentado terrorista', translation: 'Террористический акт', audioUrl: null }
+      { word: 'Atentado terrorista', translation: 'Террористический акт', audioUrl: null },
+      { word: 'Ferrocarril (m)', translation: 'железная дорога', audioUrl: null },
+      { word: 'Estación (f)', translation: 'вокзал', audioUrl: null },
+      { word: 'Vagón (m)', translation: 'вагон', audioUrl: null },
+      { word: 'Tren (m)', translation: 'поезд', audioUrl: null },
+      { word: 'Tren rápido', translation: 'скоростной поезд', audioUrl: null },
+      { word: 'AVE', translation: 'AVE (Alta Velocidad Española - скоростной поезд в Испании)', audioUrl: null },
+      { word: 'Vía (f)', translation: 'путь', audioUrl: null },
+      { word: 'Andén (m)', translation: 'платформа', audioUrl: null },
+      { word: 'Coche-cama (m)', translation: 'спальный вагон', audioUrl: null },
+      { word: 'Litera (f)', translation: 'полка (в поезде)', audioUrl: null },
+      { word: 'Asiento (m)', translation: 'место', audioUrl: null },
+      { word: 'Compartimiento (m)', translation: 'купе', audioUrl: null },
+      { word: 'Revisor (m)', translation: 'контролер', audioUrl: null },
+      { word: 'Destino (m)', translation: 'пункт назначения', audioUrl: null },
+      { word: 'Horario (m)', translation: 'расписание', audioUrl: null },
+      { word: 'Taquilla (f)', translation: 'касса', audioUrl: null },
+      { word: 'Billete de ida (m)', translation: 'билет в одну сторону', audioUrl: null },
+      { word: 'Billete de ida y vuelta (m)', translation: 'билет туда и обратно', audioUrl: null },
+      { word: 'Consigna (f)', translation: 'камера хранения', audioUrl: null }
     ],
-    readingText: {
-      title: 'Experiencia en un hotel español',
-      content: `Cuando llegué al Hotel Mediterráneo en Valencia, estaba un poco nerviosa. Era mi primera vez viajando sola por España. Pero desde el primer momento todo fue perfecto.
+    readingTabs: [
+      {
+        title: 'Текст',
+        content: `Mi viaje a Barcelona fue toda una aventura. Todo comenzó en el aeropuerto de Moscú. Llegué temprano para facturar mi equipaje - tenía dos maletas grandes y una bolsa de mano. En el mostrador de facturación, la empleada me preguntó si quería asiento de pasillo o de ventana. Elegí ventana porque me gusta ver las nubes.
 
-En la recepción me atendió una señora muy amable. Le dije: "Buenas tardes, tengo una reserva a nombre de Elena Petrov." Ella sonrió y me respondió: "Bienvenida, señorita Petrov. ¿Me podría mostrar su pasaporte, por favor?"
+Después de pasar el control de seguridad y el control de pasaportes, fui a la sala de embarque. En el panel de información vi que mi vuelo tenía un retraso de una hora debido a condiciones meteorológicas desfavorables. La azafata anunció: "Señores pasajeros, lamentamos informarles que el vuelo está retrasado por la niebla en Barcelona. Embarcaremos en aproximadamente una hora."
 
-Mientras ella preparaba mi habitación, me preguntó: "¿Le gustaría una habitación con vistas al mar o al jardín?" Le respondí que preferiría vistas al mar. "Excelente elección", dijo ella. "Le daría la habitación 305. Tiene un balcón precioso."
+"¿Qué tiempo hará en Barcelona cuando lleguemos?" - preguntó alguien. "Según el pronóstico, mañana hará sol y la temperatura será de 20 grados. Hoy hace mal tiempo, pero mejorará pronto," - respondió la azafata.
 
-Me explicó que el desayuno estaba incluido y se servía de 7 a 11 de la mañana en el restaurante del tercer piso. También me informó que el hotel tenía piscina, gimnasio y spa. Me dio la llave y un empleado llevó mi maleta a la habitación.
+Finalmente embarcamos. Durante el vuelo, el comandante nos informó que llegaríamos con solo 30 minutos de retraso. La tripulación fue muy amable. Cuando aterrizamos, todos aplaudieron.
 
-La habitación era hermosa. Tenía una cama grande, un escritorio, un sofá y un baño moderno. Desde el balcón se veía el mar Mediterráneo. Era espectacular.
+En el aeropuerto de Barcelona recogí mi equipaje y salí. Hacía frío y llovía un poco. Tomé un taxi al hotel. "¿Es normal esta lluvia?" - le pregunté al taxista. "No se preocupe, mañana hará buen tiempo. En Barcelona nunca llueve mucho tiempo," - me dijo sonriendo.
 
-Esa noche decidí cenar en el restaurante del hotel. El camarero fue muy atento. Me preguntó: "¿Qué le gustaría beber?" Pedí una copa de vino blanco. Luego me dijo: "De primer plato le recomendaría la ensalada valenciana o el gazpacho. De segundo, nuestra especialidad es la paella de mariscos."
+Al día siguiente me desperté temprano. Desde la ventana del hotel vi que hacía un día hermoso - hacía sol y no hacía viento. Perfecto para viajar. Decidí ir a Sevilla en tren.
 
-Seguí su consejo y pedí el gazpacho y la paella. Estaba delicioso. De postre probé la crema catalana - un postre típico de la región. Todo fue perfecto.
+Fui a la estación de Barcelona-Sants. Nunca había viajado en el AVE, el tren rápido español. En la taquilla compré un billete de ida y vuelta en segunda clase. "El tren sale del andén número 7, vía 3," - me informó la empleada. "¿A qué hora llegará a Sevilla?" - pregunté. "Llegará a las 15:30. El viaje dura cinco horas y media."
 
-Al día siguiente, en el desayuno, había una gran variedad: frutas frescas, yogures, panes, jamón ibérico, quesos, zumos naturales... Comí en la terraza disfrutando de las vistas.
+Encontré mi vagón y mi asiento fácilmente. El tren era muy moderno y cómodo. Durante el viaje, el revisor vino a revisar los billetes. Por la ventana veía campos, montañas y pueblos pequeños. El paisaje era precioso.
 
-Antes de salir a explorar la ciudad, pregunté en recepción: "¿Me podría recomendar lugares para visitar?" La recepcionista me dio un mapa y marcó los lugares imprescindibles: la Ciudad de las Artes y las Ciencias, la Catedral, el Mercado Central y la playa de la Malvarrosa.
+En algunos tramos hacía mucho calor, en otros hacía fresco. Cuando pasamos por ciertas zonas, el cielo estaba nublado y parecía que nevaría, pero luego volvía a hacer sol.
 
-Después de tres días maravillosos, llegó el momento de hacer el check-out. Le dije a la recepcionista: "Ha sido una estancia perfecta. Muchas gracias por todo." Ella me respondió: "El placer fue nuestro. Esperamos verla pronto de nuevo."
+Llegué a Sevilla exactamente a la hora prevista. Pasaré aquí tres días y luego volveré a Barcelona en tren. Después tomaré mi vuelo de regreso a Moscú. Sin duda, viajaré otra vez en AVE - es rápido, cómodo y puedes ver todo el país.`,
+        translation: `Моя поездка в Барселону была настоящим приключением. Всё началось в московском аэропорту. Я приехала рано, чтобы сдать багаж - у меня было два больших чемодана и ручная кладь. У стойки регистрации сотрудница спросила меня, хочу ли я место у прохода или у окна. Я выбрала у окна, потому что мне нравится смотреть на облака.
 
-Sin duda volvería a ese hotel. El servicio fue excelente y todo el personal muy profesional y amable.`,
-      translation: `Когда я приехала в отель Mediterráneo в Валенсии, я была немного нервной. Это был мой первый раз путешествия по Испании в одиночку. Но с первого момента всё было идеально.
+После прохождения контроля безопасности и паспортного контроля я пошла в зал ожидания. На информационном табло я увидела, что мой рейс задерживается на час из-за неблагоприятных погодных условий. Стюардесса объявила: "Уважаемые пассажиры, с сожалением сообщаем, что рейс задерживается из-за тумана в Барселоне. Посадка начнётся примерно через час."
 
-На рецепции меня встретила очень приветливая женщина. Я сказала ей: "Добрый день, у меня бронь на имя Елена Петрова." Она улыбнулась и ответила: "Добро пожаловать, сеньорита Петрова. Не могли бы вы показать ваш паспорт, пожалуйста?"
+"Какая погода будет в Барселоне, когда мы прибудем?" - спросил кто-то. "Согласно прогнозу, завтра будет солнечно и температура будет 20 градусов. Сегодня плохая погода, но скоро улучшится," - ответила стюардесса.
 
-Пока она готовила мой номер, она спросила: "Вы хотели бы номер с видом на море или на сад?" Я ответила, что предпочла бы вид на море. "Отличный выбор," сказала она. "Я дам вам номер 305. У него прекрасный балкон."
+Наконец мы сели на борт. Во время полёта командир сообщил нам, что мы прибудем с задержкой всего в 30 минут. Экипаж был очень любезным. Когда мы приземлились, все зааплодировали.
 
-Она объяснила, что завтрак включён и подаётся с 7 до 11 утра в ресторане на третьем этаже. Также она сообщила мне, что в отеле есть бассейн, тренажёрный зал и спа. Она дала мне ключ, и сотрудник отнёс мой чемодан в номер.
+В аэропорту Барселоны я забрала багаж и вышла. Было холодно и немного шёл дождь. Я взяла такси до отеля. "Это нормальный дождь?" - спросила я таксиста. "Не волнуйтесь, завтра будет хорошая погода. В Барселоне никогда долго не идёт дождь," - сказал он мне, улыбаясь.
 
-Номер был прекрасным. В нём была большая кровать, письменный стол, диван и современная ванная комната. С балкона было видно Средиземное море. Это было впечатляюще.
+На следующий день я проснулась рано. Из окна отеля я увидела, что день прекрасный - светило солнце и не было ветра. Идеально для путешествия. Я решила поехать в Севилью на поезде.
 
-В тот вечер я решила поужинать в ресторане отеля. Официант был очень внимателен. Он спросил меня: "Что бы вы хотели выпить?" Я заказала бокал белого вина. Затем он сказал: "На первое я бы рекомендовал валенсийский салат или гаспачо. На второе наша фирменное блюдо - паэлья с морепродуктами."
+Я пошла на вокзал Барселона-Сантс. Я никогда не ездила на AVE, испанском скоростном поезде. В кассе я купила билет туда и обратно во втором классе. "Поезд отправляется с платформы номер 7, путь 3," - сообщила мне сотрудница. "Во сколько он прибудет в Севилью?" - спросила я. "Прибудет в 15:30. Поездка длится пять с половиной часов."
 
-Я последовала его совету и заказала гаспачо и паэлью. Было восхитительно. На десерт я попробовала каталонский крем - типичный десерт региона. Всё было идеально.
+Я легко нашла свой вагон и место. Поезд был очень современным и удобным. Во время поездки контролёр пришёл проверять билеты. В окно я видела поля, горы и маленькие деревни. Пейзаж был прекрасным.
 
-На следующий день на завтраке был большой выбор: свежие фрукты, йогурты, хлеб, иберийский хамон, сыры, натуральные соки... Я ела на террасе, наслаждаясь видами.
+На некоторых участках было очень жарко, на других было прохладно. Когда мы проезжали через определённые зоны, небо было облачным и казалось, что пойдёт снег, но потом снова выходило солнце.
 
-Перед тем как отправиться изучать город, я спросила на рецепции: "Не могли бы вы порекомендовать места для посещения?" Администратор дала мне карту и отметила обязательные к посещению места: Город искусств и наук, Собор, Центральный рынок и пляж Мальварроса.
+Я прибыла в Севилью точно в назначенное время. Я проведу здесь три дня, а потом вернусь в Барселону на поезде. После этого я возьму обратный рейс в Москву. Без сомнения, я снова буду ездить на AVE - это быстро, удобно и можно увидеть всю страну.`,
+        audioUrl: null
+      },
+      {
+        title: '3 Диалога',
+        content: `**Diálogo 1: En el aeropuerto (retraso del vuelo)**
 
-После трёх чудесных дней пришло время выселяться. Я сказала администратору: "Пребывание было идеальным. Большое спасибо за всё." Она ответила мне: "Нам было приятно. Надеемся увидеть вас снова в ближайшее время."
+Pasajero: Disculpe, ¿sabe usted por qué está retrasado el vuelo a Madrid?
+Empleada: Sí, señor. El retraso es debido a la tormenta en Madrid. Hace muy mal tiempo allí.
+Pasajero: ¿Cuánto tiempo durará el retraso?
+Empleada: Probablemente será una hora. Cuando el tiempo mejore, el avión despegará.
+Pasajero: ¿Y mi maleta? Ya la he facturado.
+Empleada: No se preocupe, su equipaje viajará con usted en el mismo vuelo.
+Pasajero: ¿Dónde puedo esperar?
+Empleada: Puede esperar en la sala de embarque número 12. Anunciaremos el embarque por megafonía.
+Pasajero: Muchas gracias por la información.
+Empleada: De nada. Lamentamos las molestias.
 
-Без сомнения, я вернулась бы в этот отель. Обслуживание было превосходным, а весь персонал очень профессиональным и приветливым.`,
-      audioUrl: '/audio/lesson-5-2-reading.mp3'
-    },
-    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11', 'ex-5-2-12', 'ex-5-2-13', 'ex-5-2-14', 'ex-5-2-15', 'ex-5-2-16']
+**Диалог 1: В аэропорту (задержка рейса)**
+
+Пассажир: Извините, вы знаете, почему задерживается рейс в Мадрид?
+Сотрудница: Да, сеньор. Задержка из-за грозы в Мадриде. Там очень плохая погода.
+Пассажир: Сколько продлится задержка?
+Сотрудница: Вероятно, это будет час. Когда погода улучшится, самолёт взлетит.
+Пассажир: А мой чемодан? Я уже сдал его.
+Сотрудница: Не волнуйтесь, ваш багаж полетит с вами тем же рейсом.
+Пассажир: Где я могу подождать?
+Сотрудница: Вы можете подождать в зале ожидания номер 12. Мы объявим посадку по громкой связи.
+Пассажир: Большое спасибо за информацию.
+Сотрудница: Не за что. Приносим извинения за неудобства.
+
+---
+
+**Diálogo 2: En la estación de tren**
+
+Cliente: Buenos días. Quisiera un billete a Sevilla para mañana.
+Empleado: ¿Prefiere billete de ida o de ida y vuelta?
+Cliente: De ida y vuelta, por favor. ¿A qué hora sale el primer tren?
+Empleado: El primer AVE sale a las 8:30 de la mañana. Llega a Sevilla a las 14:00.
+Cliente: Perfecto. ¿Cuánto cuesta el billete?
+Empleado: En segunda clase, 120 euros ida y vuelta. ¿Quiere reservar asiento?
+Cliente: Sí, prefiero asiento de pasillo. ¿De qué andén sale?
+Empleado: Del andén 7, vía 2. Debe estar allí 10 minutos antes de la salida.
+Cliente: ¿Puedo llevar dos maletas?
+Empleado: Sí, puede llevar dos maletas grandes y equipaje de mano sin ningún problema.
+Cliente: Excelente. Aquí tiene mi tarjeta.
+Empleado: Perfecto. Aquí está su billete. ¡Buen viaje!
+
+**Диалог 2: На железнодорожном вокзале**
+
+Клиент: Доброе утро. Я хотел бы билет в Севилью на завтра.
+Сотрудник: Вы предпочитаете билет в один конец или туда-обратно?
+Клиент: Туда-обратно, пожалуйста. Во сколько отправляется первый поезд?
+Сотрудник: Первый AVE отправляется в 8:30 утра. Прибывает в Севилью в 14:00.
+Клиент: Отлично. Сколько стоит билет?
+Сотрудник: Во втором классе 120 евро туда-обратно. Хотите забронировать место?
+Клиент: Да, я предпочитаю место у прохода. С какой платформы отправление?
+Сотрудник: С платформы 7, путь 2. Вы должны быть там за 10 минут до отправления.
+Клиент: Могу ли я взять два чемодана?
+Сотрудник: Да, вы можете взять два больших чемодана и ручную кладь без проблем.
+Клиент: Отлично. Вот моя карта.
+Сотрудник: Отлично. Вот ваш билет. Счастливого пути!
+
+---
+
+**Diálogo 3: Por teléfono (planes de viaje)**
+
+Ana: ¡Hola, Carlos! ¿Cómo estás?
+Carlos: Muy bien, Ana. ¿Ya compraste los billetes para Barcelona?
+Ana: Sí, volaremos el próximo viernes. El vuelo sale a las 10 de la mañana.
+Carlos: ¿Y qué haremos en Barcelona?
+Ana: El primer día visitaremos la Sagrada Familia y el Parque Güell. Por la tarde iremos a la playa.
+Carlos: ¡Genial! ¿Y el segundo día?
+Ana: Caminaremos por Las Ramblas y comeremos en algún restaurante del Barrio Gótico.
+Carlos: ¿Qué tiempo hará allí?
+Ana: Según el pronóstico, hará sol todos los días. La temperatura será de 25 grados.
+Carlos: Perfecto. ¿Ya reservaste el hotel?
+Ana: Sí, nos quedaremos en un hotel cerca de la Plaza de Catalunya. Será muy conveniente.
+Carlos: ¿Y cuánto tiempo estaremos allí?
+Ana: Tres días. Volveremos el lunes por la tarde.
+Carlos: Excelente. ¡Tengo muchas ganas de ir!
+Ana: Yo también. Será un viaje inolvidable.
+
+**Диалог 3: По телефону (планы поездки)**
+
+Ана: Привет, Карлос! Как дела?
+Карлос: Очень хорошо, Ана. Ты уже купила билеты в Барселону?
+Ана: Да, мы полетим в следующую пятницу. Рейс отправляется в 10 утра.
+Карлос: А что мы будем делать в Барселоне?
+Ана: В первый день мы посетим Саграда Фамилия и парк Гуэль. Вечером пойдём на пляж.
+Карлос: Здорово! А второй день?
+Ана: Мы погуляем по Лас-Рамблас и пообедаем в каком-нибудь ресторане Готического квартала.
+Карлос: Какая там будет погода?
+Ана: Согласно прогнозу, будет солнечно все дни. Температура будет 25 градусов.
+Карлос: Отлично. Ты уже забронировала отель?
+Ана: Да, мы остановимся в отеле рядом с площадью Каталонии. Это будет очень удобно.
+Карлос: А сколько времени мы там пробудем?
+Ана: Три дня. Мы вернёмся в понедельник вечером.
+Карлос: Отлично. Я очень хочу поехать!
+Ана: Я тоже. Это будет незабываемая поездка.`,
+        translation: null,
+        audioUrl: null
+      }
+    ],
+    exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11']
   },
 
   'lesson-5-3': {
@@ -11827,71 +11865,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-2-1': {
     id: 'ex-5-2-1',
     type: 'grammar',
-    title: 'Condicional simple - формы',
-    description: 'Выберите правильную форму условного наклонения',
-    questions: [
-      { sentence: 'Yo ___ (viajar) más si tuviera tiempo', options: ['viajaría', 'viajarías', 'viajaríamos', 'viajarían'], correct: 0 },
-      { sentence: '¿___ (poder-tú) ayudarme?', options: ['podría', 'podrías', 'podríamos', 'podrían'], correct: 1 },
-      { sentence: 'Nosotros ___ (comer) paella', options: ['comería', 'comerías', 'comeríamos', 'comerían'], correct: 2 },
-      { sentence: 'Me ___ (gustar) una habitación con vistas', options: ['gustaría', 'gustarías', 'gustaríamos', 'gustarían'], correct: 0 },
-      { sentence: 'Ellos ___ (querer) reservar una mesa', options: ['querría', 'querrías', 'querríamos', 'querrían'], correct: 3 }
-    ]
-  },
-  'ex-5-2-2': {
-    id: 'ex-5-2-2',
-    type: 'vocabulary',
-    title: 'Отель и ресторан',
-    description: 'Сопоставьте слова с переводом',
-    questions: [
-      { spanish: 'habitación', options: ['ключ', 'номер', 'рецепция', 'завтрак'], correct: 1 },
-      { spanish: 'camarero', options: ['повар', 'официант', 'гид', 'турист'], correct: 1 },
-      { spanish: 'cuenta', options: ['меню', 'счёт', 'чаевые', 'блюдо'], correct: 1 },
-      { spanish: 'llave', options: ['номер', 'бронь', 'ключ', 'чемодан'], correct: 2 },
-      { spanish: 'menú', options: ['счёт', 'блюдо', 'меню', 'десерт'], correct: 2 }
-    ]
-  },
-  'ex-5-2-3': {
-    id: 'ex-5-2-3',
-    type: 'fillblank',
-    title: 'Вежливые просьбы',
-    description: 'Вставьте condicional для вежливой просьбы',
-    questions: [
-      { sentence: '¿_____ (poder) darme una habitación?', verb: 'poder', correct: 'podría' },
-      { sentence: 'Me _____ (gustar) reservar una mesa', verb: 'gustar', correct: 'gustaría' },
-      { sentence: '¿Qué me _____ (recomendar)?', verb: 'recomendar', correct: 'recomendaría' },
-      { sentence: '_____ (querer) una habitación doble', verb: 'querer', correct: 'querría' }
-    ]
-  },
-  'ex-5-2-4': {
-    id: 'ex-5-2-4',
-    type: 'reading',
-    title: 'Чтение: En el hotel',
-    description: 'Ответьте на вопросы',
-    text: 'Llegué al Hotel Mediterráneo. En recepción me preguntaron si prefería vistas al mar o al jardín. Elegí vistas al mar. La habitación tenía un balcón precioso. El desayuno estaba incluido. En el restaurante, el camarero me recomendó la paella de mariscos.',
-    questions: [
-      { question: 'Что спросили в рецепции?', options: ['Имя', 'Паспорт', 'Вид из окна', 'Время приезда'], correct: 2 },
-      { question: 'Что выбрал автор?', options: ['Вид на сад', 'Вид на море', 'Вид на горы', 'Вид на город'], correct: 1 },
-      { question: 'Что было включено?', options: ['Завтрак', 'Обед', 'Ужин', 'Бассейн'], correct: 0 },
-      { question: 'Что порекомендовал официант?', options: ['Газпачо', 'Паэлья с морепродуктами', 'Пицца', 'Салат'], correct: 1 }
-    ]
-  },
-  'ex-5-2-5': {
-    id: 'ex-5-2-5',
-    type: 'writing',
-    title: 'В ресторане',
-    description: 'Переведите вежливые просьбы',
-    questions: [
-      { russian: 'Могли бы вы принести меню?', correct: 'podría traer el menú' },
-      { russian: 'Я хотел бы забронировать столик', correct: 'me gustaría reservar una mesa' },
-      { russian: 'Что вы порекомендуете?', correct: 'qué me recomendaría' },
-      { russian: 'Счёт, пожалуйста', correct: 'la cuenta por favor' }
-    ]
-  },
-
-  'ex-5-2-6': {
-    id: 'ex-5-2-6',
-    type: 'grammar',
-    title: 'Упражнение 6: Futuro Simple - Спряжение правильных глаголов',
+    title: 'Упражнение 1: Futuro Simple - Спряжение правильных глаголов',
     description: 'Выберите правильную форму глагола в будущем времени',
     questions: [
       { sentence: 'Mañana ___ (llover) mucho.', options: ['lloverá', 'lloverás', 'lloveré', 'lloveremos'], correct: 0 },
@@ -11907,10 +11881,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-7': {
-    id: 'ex-5-2-7',
+  'ex-5-2-2': {
+    id: 'ex-5-2-2',
     type: 'grammar',
-    title: 'Упражнение 7: Futuro Simple - Неправильные глаголы',
+    title: 'Упражнение 2: Futuro Simple - Неправильные глаголы',
     description: 'Выберите правильную форму неправильного глагола',
     questions: [
       { sentence: 'Yo te ___ (decir) la verdad mañana.', options: ['decirá', 'diré', 'diría', 'digo'], correct: 1 },
@@ -11926,10 +11900,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-8': {
-    id: 'ex-5-2-8',
+  'ex-5-2-3': {
+    id: 'ex-5-2-3',
     type: 'grammar',
-    title: 'Упражнение 8: Погода - Выражения с HACER',
+    title: 'Упражнение 3: Погода - Выражения с HACER',
     description: 'Выберите правильное выражение для описания погоды',
     questions: [
       { sentence: 'Cuando ___, necesito un abrigo.', options: ['hace calor', 'hace frío', 'hace sol', 'hace buen tiempo'], correct: 1 },
@@ -11945,10 +11919,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-9': {
-    id: 'ex-5-2-9',
+  'ex-5-2-4': {
+    id: 'ex-5-2-4',
     type: 'grammar',
-    title: 'Упражнение 9: Отрицательные местоимения',
+    title: 'Упражнение 4: Отрицательные местоимения',
     description: 'Выберите правильное отрицательное местоимение',
     questions: [
       { sentence: 'En el aeropuerto no veo a ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
@@ -11964,10 +11938,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-10': {
-    id: 'ex-5-2-10',
+  'ex-5-2-5': {
+    id: 'ex-5-2-5',
     type: 'grammar',
-    title: 'Упражнение 10: Неопределенные местоимения - alguno/ninguno',
+    title: 'Упражнение 5: Неопределенные местоимения - alguno/ninguno',
     description: 'Выберите правильную форму местоимения',
     questions: [
       { sentence: '¿Tienes ___ maleta?', options: ['alguna', 'alguno', 'algunos', 'algunas'], correct: 0 },
@@ -11983,10 +11957,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-11': {
-    id: 'ex-5-2-11',
+  'ex-5-2-6': {
+    id: 'ex-5-2-6',
     type: 'grammar',
-    title: 'Упражнение 11: Местоимения todo/cada/otro/cualquier',
+    title: 'Упражнение 6: Местоимения todo/cada/otro/cualquier',
     description: 'Выберите правильное местоимение',
     questions: [
       { sentence: '___ los vuelos están cancelados por mal tiempo.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
@@ -12002,10 +11976,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-12': {
-    id: 'ex-5-2-12',
+  'ex-5-2-7': {
+    id: 'ex-5-2-7',
     type: 'grammar',
-    title: 'Упражнение 12: Futuro de Probabilidad',
+    title: 'Упражнение 7: Futuro de Probabilidad',
     description: 'Выберите правильную форму для выражения вероятности',
     questions: [
       { sentence: '¿Qué hora es? — ___ las tres.', options: ['Es', 'Será', 'Serán', 'Era'], correct: 2 },
@@ -12021,10 +11995,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-13': {
-    id: 'ex-5-2-13',
+  'ex-5-2-8': {
+    id: 'ex-5-2-8',
     type: 'grammar',
-    title: 'Упражнение 13: Смешанная грамматика - Futuro Simple и местоимения',
+    title: 'Упражнение 8: Смешанная грамматика - Futuro Simple и местоимения',
     description: 'Выберите правильный вариант',
     questions: [
       { sentence: 'Mañana ___ (yo, ir) al aeropuerto temprano.', options: ['voy', 'iré', 'iría', 'fui'], correct: 1 },
@@ -12040,10 +12014,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-14': {
-    id: 'ex-5-2-14',
+  'ex-5-2-9': {
+    id: 'ex-5-2-9',
     type: 'grammar',
-    title: 'Упражнение 14: Погода и путешествия',
+    title: 'Упражнение 9: Погода и путешествия',
     description: 'Выберите правильный вариант',
     questions: [
       { sentence: 'El vuelo está cancelado debido a ___.', options: ['hace sol', 'hace buen tiempo', 'condiciones meteorológicas desfavorables', 'hace calor'], correct: 2 },
@@ -12059,10 +12033,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-15': {
-    id: 'ex-5-2-15',
+  'ex-5-2-10': {
+    id: 'ex-5-2-10',
     type: 'grammar',
-    title: 'Упражнение 15: Vocabulario del aeropuerto y la meteorología',
+    title: 'Упражнение 10: Vocabulario del aeropuerto y la meteorología',
     description: 'Соотнесите испанские слова с русским переводом',
     questions: [
       { sentence: 'Lluvia', options: ['Снег', 'Дождь', 'Туман', 'Ветер'], correct: 1 },
@@ -12078,10 +12052,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-5-2-16': {
-    id: 'ex-5-2-16',
+  'ex-5-2-11': {
+    id: 'ex-5-2-11',
     type: 'writing',
-    title: 'Упражнение 16: Переведите на испанский язык',
+    title: 'Упражнение 11: Переведите на испанский язык',
     description: 'Переведите предложения, используя грамматику и словарь урока',
     questions: [
       { russian: 'Завтра будет прекрасный и солнечный день.', correct: 'Mañana será un día hermoso y soleado.' },
