@@ -6694,7 +6694,7 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Хуан и Лаура: Как здорово! Спасибо, мама.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-12', 'ex-4-4-13']
+    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20']
   },
 
   // МОДУЛЬ 5: Путешествия и места (A2)
@@ -9197,14 +9197,14 @@ Pedro: Igualmente. Muchas gracias.
       { russian: 'Спасибо', correct: 'gracias' },
       { russian: 'Пожалуйста', correct: 'por favor' },
       { russian: 'Пока', correct: 'adiós' },
-      { russian: 'Как дела?', correct: '¿qué tal?' },
+      { russian: 'Как дела?', correct: '¿Qué tal?' },
       { russian: 'Все хорошо', correct: 'todo va bien' },
       { russian: 'Большое спасибо', correct: 'muchas gracias' },
       { russian: 'Так себе', correct: 'regular' },
       { russian: 'Доброе утро', correct: 'buenos días' },
       { russian: 'Добрый день', correct: 'buenas tardes' },
       { russian: 'Добрый вечер', correct: 'buenas noches' },
-      { russian: 'Как семья?', correct: '¿qué tal la familia?' },
+      { russian: 'Как семья?', correct: '¿Qué tal la familia?' },
       { russian: 'Не за что', correct: 'de nada' },
       { russian: 'Извините', correct: 'perdón' },
       { russian: 'До скорого', correct: 'hasta luego' }
@@ -9971,26 +9971,26 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Переведите предложения',
     description: 'Переведите на испанский',
     questions: [
-      { russian: 'Я говорю по-испански, а мой друг слушает новости.', correct: 'yo hablo español y mi amigo escucha las noticias' },
-      { russian: 'Ты звонишь твоей маме по телефону?', correct: '¿tú llamas a tu madre por teléfono?' },
-      { russian: 'Он спрашивает о цене такси, потому что оно дорогое (ser).', correct: 'él pregunta por el precio del taxi porque es caro' },
-      { russian: 'Мы слушаем радио, потому что сейчас дома (estar).', correct: 'nosotros escuchamos la radio porque estamos en casa ahora' },
-      { russian: 'Вы (vosotros) пьете сок в доме, потому что вы больны (estar)?', correct: '¿vosotros bebéis zumo en casa porque estáis enfermos?' },
-      { russian: 'Они (ellas) едят бутерброды в кафе, и они веселые (estar).', correct: 'ellas comen bocadillos en el café y están alegres' },
-      { russian: 'Вы (usted) принимаете эту проблему всерьез?', correct: '¿usted toma este problema en serio?' },
-      { russian: 'Она загорает на пляже, и она счастлива (ser).', correct: 'ella toma el sol en la playa y es feliz' },
-      { russian: 'Я сажусь на поезд, потому что он новый (ser).', correct: 'yo tomo el tren porque es nuevo' },
-      { russian: 'Моя мама принимает лекарства, и она старая (ser).', correct: 'mi madre toma medicinas y es vieja' },
-      { russian: 'Мы читаем интересную книгу, и она большая (ser).', correct: 'nosotros leemos un libro interesante y es grande' },
-      { russian: 'Ты учишь новые слова? Это легко (ser)?', correct: '¿tú aprendes palabras nuevas? ¿es fácil?' },
-      { russian: 'Они (ellos) понимают проблему, и она серьезная (ser).', correct: 'ellos comprenden el problema y es serio' },
+      { russian: 'Я говорю по-испански, а мой друг слушает новости.', correct: 'Yo hablo español y mi amigo escucha las noticias' },
+      { russian: 'Ты звонишь твоей маме по телефону?', correct: '¿Tú llamas a tu madre por teléfono?' },
+      { russian: 'Он спрашивает о цене такси, потому что оно дорогое (ser).', correct: 'Él pregunta por el precio del taxi porque es caro' },
+      { russian: 'Мы слушаем радио, потому что сейчас дома (estar).', correct: 'Nosotros escuchamos la radio porque estamos en casa ahora' },
+      { russian: 'Вы (vosotros) пьете сок в доме, потому что вы больны (estar)?', correct: '¿Vosotros bebéis zumo en casa porque estáis enfermos?' },
+      { russian: 'Они (ellas) едят бутерброды в кафе, и они веселые (estar).', correct: 'Ellas comen bocadillos en el café y están alegres' },
+      { russian: 'Вы (usted) принимаете эту проблему всерьез?', correct: '¿Usted toma este problema en serio?' },
+      { russian: 'Она загорает на пляже, и она счастлива (ser).', correct: 'Ella toma el sol en la playa y es feliz' },
+      { russian: 'Я сажусь на поезд, потому что он новый (ser).', correct: 'Yo tomo el tren porque es nuevo' },
+      { russian: 'Моя мама принимает лекарства, и она старая (ser).', correct: 'Mi madre toma medicinas y es vieja' },
+      { russian: 'Мы читаем интересную книгу, и она большая (ser).', correct: 'Nosotros leemos un libro interesante y es grande' },
+      { russian: 'Ты учишь новые слова? Это легко (ser)?', correct: '¿Tú aprendes palabras nuevas? ¿Es fácil?' },
+      { russian: 'Они (ellos) понимают проблему, и она серьезная (ser).', correct: 'Ellos comprenden el problema y es serio' },
       { russian: 'Ребенок ест дома с аппетитом, потому что он голоден (estar).', correct: 'el niño come en casa con apetito porque está hambriento' },
-      { russian: 'Я не понимаю гида, потому что он немец (ser).', correct: 'yo no comprendo al guía porque es alemán' },
-      { russian: 'Вы (ustedes) открываете окно, потому что в комнате горячо (estar).', correct: 'ustedes abren la ventana porque está caliente en la habitación' },
-      { russian: 'Я пишу письмо моей сестре, она экономист (ser).', correct: 'yo escribo una carta a mi hermana, ella es economista' },
-      { russian: 'Мы живем в большом городе, и он красивый (ser).', correct: 'nosotros vivimos en una ciudad grande y es bonita' },
-      { russian: 'Вы (vosotros) пишете о жизни в Испании?', correct: '¿vosotros escribís sobre la vida en España?' },
-      { russian: 'Мой отец живет в старом доме, и сейчас он одинок (estar).', correct: 'mi padre vive en una casa vieja y ahora está solo' }
+      { russian: 'Я не понимаю гида, потому что он немец (ser).', correct: 'Yo no comprendo al guía porque es alemán' },
+      { russian: 'Вы (ustedes) открываете окно, потому что в комнате горячо (estar).', correct: 'Ustedes abren la ventana porque está caliente en la habitación' },
+      { russian: 'Я пишу письмо моей сестре, она экономист (ser).', correct: 'Yo escribo una carta a mi hermana, ella es economista' },
+      { russian: 'Мы живем в большом городе, и он красивый (ser).', correct: 'Nosotros vivimos en una ciudad grande y es bonita' },
+      { russian: 'Вы (vosotros) пишете о жизни в Испании?', correct: '¿Vosotros escribís sobre la vida en España?' },
+      { russian: 'Мой отец живет в старом доме, и сейчас он одинок (estar).', correct: 'Mi padre vive en una casa vieja y ahora está solo' }
     ]
   },
   'ex-2-1-5': {
@@ -10072,12 +10072,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Они живут', correct: 'viven' },
       { russian: 'Мы читаем', correct: 'leemos' },
       { russian: 'Ты пишешь', correct: 'escribes' },
-      { russian: 'Она пьет воду', correct: 'ella bebe agua' },
-      { russian: 'Вы (вежл.) учитесь', correct: 'usted aprende' },
+      { russian: 'Она пьет воду', correct: 'Ella bebe agua' },
+      { russian: 'Вы (вежл.) учитесь', correct: 'Usted aprende' },
       { russian: 'Я открываю дверь', correct: 'abro la puerta' },
       { russian: 'Он получает письма', correct: 'recibe cartas' },
       { russian: 'Мы пьем кофе', correct: 'bebemos café' },
-      { russian: 'Они (ж.р.) едят фрукты', correct: 'ellas comen frutas' },
+      { russian: 'Они (ж.р.) едят фрукты', correct: 'Ellas comen frutas' },
       { russian: 'Ты живешь в Мадриде', correct: 'vives en Madrid' },
       { russian: 'Я читаю книги', correct: 'leo libros' },
       { russian: 'Вы (друзья) пишете', correct: 'escribís' },
@@ -10883,14 +10883,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Переведите на испанский - Предложные местоимения',
     description: 'Используйте правильные формы предложных местоимений',
     questions: [
-      { russian: 'Хочешь пойти со мной в театр?', correct: '¿quieres ir conmigo al teatro?' },
+      { russian: 'Хочешь пойти со мной в театр?', correct: '¿Quieres ir conmigo al teatro?' },
       { russian: 'Нам нравится рано вставать, а вам нравится?', correct: 'a nosotros nos gusta levantarnos temprano, ¿a ustedes les gusta?' },
       { russian: 'Эти упражнения для них — простые', correct: 'estos ejercicios para ellos son fáciles' },
       { russian: 'Я не могу ехать за границу без тебя', correct: 'no puedo ir al extranjero sin ti' },
       { russian: 'Мы не смеемся над тобой, мы смеемся над ними', correct: 'no nos reímos de ti, nos reímos de ellos' },
       { russian: 'Я делаю это ради тебя, а не ради них', correct: 'hago esto por ti, no por ellos' },
-      { russian: 'Он предпочитает не говорить с Вами о ней', correct: 'él prefiere no hablar con usted de ella' },
-      { russian: 'Она думает о тебе, готовит ужин для тебя. Тебе надо позвонить ей', correct: 'ella piensa en ti, prepara la cena para ti. tienes que llamarla' },
+      { russian: 'Он предпочитает не говорить с Вами о ней', correct: 'Él prefiere no hablar con usted de ella' },
+      { russian: 'Она думает о тебе, готовит ужин для тебя. Тебе надо позвонить ей', correct: 'Ella piensa en ti, prepara la cena para ti. Tienes que llamarla' },
       { russian: 'Сын говорит родителям, что хочет жениться на ней, потому что не может жить без нее', correct: 'el hijo dice a los padres que quiere casarse con ella porque no puede vivir sin ella' },
       { russian: 'Полицейский спрашивает про Вас, а я не знаю, что сказать ему', correct: 'el policía pregunta por usted y no sé qué decirle' }
     ]
@@ -10903,11 +10903,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { russian: 'Послушайте! Где я могу посмотреть схему маршрутов автобусов?', correct: '¡oiga! ¿dónde puedo ver el plano de rutas de autobuses?' },
       { russian: 'До Центрального Вокзала Вы можете доехать на автобусе № 2 серой линии, который идет в противоположном направлении. Остановка автобуса находится напротив, поэтому Вам надо перейти улицу', correct: 'a la estación central puede ir en el autobús número dos de la línea gris, que va en dirección contraria. la parada de autobús está enfrente, por eso usted necesita cruzar la calle' },
-      { russian: 'Вам надо выйти на пятой остановке. Поездка длится минут 8-10', correct: 'usted tiene que bajar en la quinta parada. el viaje dura unos ocho o diez minutos' },
+      { russian: 'Вам надо выйти на пятой остановке. Поездка длится минут 8-10', correct: 'Usted tiene que bajar en la quinta parada. El viaje dura unos ocho o diez minutos' },
       { russian: 'Одна поездка на автобусе стоит 1,50 €', correct: 'un viaje en autobús cuesta 1,50 €' },
       { russian: 'У меня нет проездного билета', correct: 'no tengo tarjeta de transporte' },
       { russian: 'Вот Вам сдача 8,50 € с купюры в 10 €', correct: 'aquí tiene la vuelta 8,50 € de un billete de 10 €' },
-      { russian: 'Вы собираетесь платить? — Да, конечно', correct: '¿va a pagar? — sí, por supuesto' },
+      { russian: 'Вы собираетесь платить? — Да, конечно', correct: '¿Va a pagar? — sí, por supuesto' },
       { russian: 'Водитель предупреждает пассажира, что ему нужно выходить на следующей остановке', correct: 'el conductor avisa al pasajero que tiene que bajar en la próxima parada' }
     ]
   },
@@ -10977,13 +10977,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Переведите предложения на испанский язык',
     questions: [
       { russian: 'Сегодня я проснулся очень поздно и не позавтракал.', correct: 'hoy me he despertado muy tarde y no he desayunado' },
-      { russian: 'Ты уже видел новый памятник в центре города?', correct: '¿ya has visto el nuevo monumento en el centro de la ciudad?' },
+      { russian: 'Ты уже видел новый памятник в центре города?', correct: '¿Ya has visto el nuevo monumento en el centro de la ciudad?' },
       { russian: 'На этой неделе мы много работали и очень устали.', correct: 'esta semana hemos trabajado mucho y estamos muy cansados' },
-      { russian: 'Кто открыл дверь и включил музыку? — Это сделал я.', correct: '¿quién ha abierto la puerta y ha puesto la música? — lo he hecho yo' },
-      { russian: 'Почему вы еще не вернули мне книгу? — Мы ее еще не дочитали.', correct: '¿por qué todavía no me habéis devuelto el libro? — todavía no lo hemos terminado de leer' },
+      { russian: 'Кто открыл дверь и включил музыку? — Это сделал я.', correct: '¿Quién ha abierto la puerta y ha puesto la música? — lo he hecho yo' },
+      { russian: 'Почему вы еще не вернули мне книгу? — Мы ее еще не дочитали.', correct: '¿Por qué todavía no me habéis devuelto el libro? — todavía no lo hemos terminado de leer' },
       { russian: 'В этом году мой брат женился и купил квартиру.', correct: 'este año mi hermano se ha casado y ha comprado un piso' },
       { russian: 'Сегодня днем шел дождь, поэтому мы остались дома.', correct: 'esta tarde ha llovido, por eso nos hemos quedado en casa' },
-      { russian: 'Ты когда-нибудь пробовал паэлью? — Нет, никогда.', correct: '¿has comido paella alguna vez? — no, nunca' },
+      { russian: 'Ты когда-нибудь пробовал паэлью? — Нет, никогда.', correct: '¿Has comido paella alguna vez? — no, nunca' },
       { russian: 'Дети, вы уже умылись и оделись? Мы уходим через пять минут.', correct: 'niños, ¿ya os habéis lavado y vestido? nos vamos en cinco minutos' },
       { russian: 'Марта сегодня не пришла, потому что она заболела.', correct: 'marta no ha venido hoy porque se ha puesto enferma' }
     ]
@@ -11168,6 +11168,146 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Las ventanas están ___ (abrir)', correct: 'abiertas' },
       { sentence: '___ no han llamado.', options: ['Ayer', 'Todavía no', 'Hace dos días', 'El lunes'], correct: 1 },
       { sentence: 'Yo ___ (ver) esa película tres veces.', correct: 'he visto' }
+    ]
+  },
+
+  'ex-4-4-14': {
+    id: 'ex-4-4-14',
+    type: 'reading',
+    title: 'Упражнение 13: Понимание текста "Un día ocupado"',
+    description: 'Ответьте на вопросы по тексту',
+    text: 'Hoy ha sido un día muy ocupado. Esta mañana me he despertado a las siete porque tenía muchas cosas que hacer. He salido de casa a las ocho y media y he tomado el metro para ir al centro. Durante toda la mañana he trabajado en un proyecto importante. A la una he ido a comer con mis compañeros a un restaurante. Hemos comido paella de mariscos. Por la tarde he tenido la reunión con el cliente. Todo ha salido muy bien. He terminado de trabajar a las seis y he vuelto a casa en autobús.',
+    questions: [
+      { question: '¿A qué hora se ha despertado?', options: ['A las seis', 'A las siete', 'A las ocho', 'A las nueve'], correct: 1 },
+      { question: '¿Cómo ha ido al centro?', options: ['En autobús', 'En metro', 'En coche', 'A pie'], correct: 1 },
+      { question: '¿Dónde ha comido?', options: ['En casa', 'En la oficina', 'En un restaurante', 'En un café'], correct: 2 },
+      { question: '¿Qué ha comido?', options: ['Gazpacho', 'Paella de mariscos', 'Flan', 'Pollo asado'], correct: 1 },
+      { question: '¿Cómo ha salido la reunión?', options: ['Mal', 'Regular', 'Muy bien', 'No hubo reunión'], correct: 2 },
+      { question: '¿A qué hora ha terminado de trabajar?', options: ['A las cinco', 'A las seis', 'A las siete', 'A las ocho'], correct: 1 },
+      { question: '¿Cómo ha vuelto a casa?', options: ['En metro', 'En autobús', 'En coche', 'A pie'], correct: 1 }
+    ]
+  },
+
+  'ex-4-4-15': {
+    id: 'ex-4-4-15',
+    type: 'grammar',
+    title: 'Упражнение 14: Понимание диалогов',
+    description: 'Выберите правильный ответ на основе диалогов',
+    questions: [
+      { sentence: 'En el Diálogo 1: ¿Ana ha terminado el informe?', options: ['No, todavía no', 'Sí, ya lo ha terminado', 'No ha empezado', 'Lo terminará mañana'], correct: 1 },
+      { sentence: 'En el Diálogo 1: ¿Ana ha hablado con el cliente?', options: ['No', 'Sí, hace una hora', 'Sí, esta mañana', 'Sí, ayer'], correct: 1 },
+      { sentence: 'En el Diálogo 2: ¿Pedro ha cambiado de trabajo?', options: ['No', 'Sí, este mes', 'Sí, el año pasado', 'Va a cambiar'], correct: 1 },
+      { sentence: 'En el Diálogo 2: ¿Pedro ha estado en Barcelona?', options: ['No', 'Sí, este año', 'Sí, el mes pasado', 'Sí, la semana pasada'], correct: 2 },
+      { sentence: 'En el Diálogo 2: ¿María ha visto la nueva película de Almodóvar?', options: ['Sí, ya la ha visto', 'No, todavía no la ha visto', 'Sí, la semana pasada', 'No le gustan sus películas'], correct: 1 },
+      { sentence: 'En el Diálogo 3: ¿Juan ha terminado los deberes?', options: ['No', 'Sí, ya los ha terminado', 'Está terminando', 'No tiene deberes'], correct: 1 },
+      { sentence: 'En el Diálogo 3: ¿Laura ha recogido su habitación?', options: ['Sí', 'No, ha estado en el jardín', 'Sí, por la mañana', 'No menciona'], correct: 3 }
+    ]
+  },
+
+  'ex-4-4-16': {
+    id: 'ex-4-4-16',
+    type: 'writing',
+    title: 'Упражнение 15: Отрицательные предложения',
+    description: 'Ответьте отрицательно, используя todavía no или nunca',
+    questions: [
+      { question: '¿Has estado en España? (nunca)', correct: 'No, nunca he estado en España' },
+      { question: '¿Has terminado el trabajo? (todavía no)', correct: 'No, todavía no he terminado el trabajo' },
+      { question: '¿Habéis visto esta película? (nunca)', correct: 'No, nunca hemos visto esta película' },
+      { question: '¿Han llamado tus padres? (todavía no)', correct: 'No, todavía no han llamado' },
+      { question: '¿Has comido paella? (nunca)', correct: 'No, nunca he comido paella' },
+      { question: '¿Ha llegado el autobús? (todavía no)', correct: 'No, todavía no ha llegado' },
+      { question: '¿Habéis hecho los deberes? (todavía no)', correct: 'No, todavía no hemos hecho los deberes' },
+      { question: '¿Has viajado a América? (nunca)', correct: 'No, nunca he viajado a América' },
+      { question: '¿Han abierto la tienda? (todavía no)', correct: 'No, todavía no han abierto la tienda' },
+      { question: '¿Has probado el gazpacho? (nunca)', correct: 'No, nunca he probado el gazpacho' }
+    ]
+  },
+
+  'ex-4-4-17': {
+    id: 'ex-4-4-17',
+    type: 'writing',
+    title: 'Упражнение 16: Формирование вопросов',
+    description: 'Преобразуйте утверждения в вопросы в Pretérito Perfecto',
+    questions: [
+      { question: 'Tú has visto la película. → ¿...?', correct: '¿Has visto la película?' },
+      { question: 'Ellos han llegado temprano. → ¿...?', correct: '¿Han llegado temprano?' },
+      { question: 'Vosotros habéis hecho los deberes. → ¿...?', correct: '¿Habéis hecho los deberes?' },
+      { question: 'Ella ha terminado el informe. → ¿...?', correct: '¿Ha terminado el informe?' },
+      { question: 'Ustedes han estado en Madrid. → ¿...?', correct: '¿Han estado en Madrid?' },
+      { question: 'Tú has desayunado. → ¿...?', correct: '¿Has desayunado?' },
+      { question: 'Nosotros hemos vuelto de vacaciones. → ¿...?', correct: '¿Hemos vuelto de vacaciones?' },
+      { question: 'Él ha abierto la ventana. → ¿...?', correct: '¿Ha abierto la ventana?' },
+      { question: 'Ellas se han levantado temprano. → ¿...?', correct: '¿Se han levantado temprano?' },
+      { question: 'Usted ha resuelto el problema. → ¿...?', correct: '¿Ha resuelto el problema?' }
+    ]
+  },
+
+  'ex-4-4-18': {
+    id: 'ex-4-4-18',
+    type: 'grammar',
+    title: 'Упражнение 17: Соответствие причастий и инфинитивов',
+    description: 'Соотнесите неправильные причастия с инфинитивами',
+    questions: [
+      { sentence: 'abierto →', options: ['abrir', 'cubrir', 'escribir', 'romper'], correct: 0 },
+      { sentence: 'hecho →', options: ['decir', 'hacer', 'ver', 'poner'], correct: 1 },
+      { sentence: 'dicho →', options: ['decir', 'hacer', 'ver', 'escribir'], correct: 0 },
+      { sentence: 'escrito →', options: ['ver', 'escribir', 'abrir', 'cubrir'], correct: 1 },
+      { sentence: 'visto →', options: ['volver', 'ver', 'vivir', 'venir'], correct: 1 },
+      { sentence: 'roto →', options: ['resolver', 'romper', 'volver', 'morir'], correct: 1 },
+      { sentence: 'muerto →', options: ['morir', 'mover', 'mostrar', 'meter'], correct: 0 },
+      { sentence: 'puesto →', options: ['poner', 'poder', 'pasar', 'pensar'], correct: 0 },
+      { sentence: 'vuelto →', options: ['ver', 'venir', 'volver', 'vivir'], correct: 2 },
+      { sentence: 'cubierto →', options: ['cubrir', 'cumplir', 'comer', 'correr'], correct: 0 },
+      { sentence: 'resuelto →', options: ['resultar', 'resolver', 'responder', 'recibir'], correct: 1 },
+      { sentence: 'descubierto →', options: ['describir', 'descubrir', 'descansar', 'despertar'], correct: 1 },
+      { sentence: 'devuelto →', options: ['deber', 'devolver', 'decidir', 'decir'], correct: 1 },
+      { sentence: 'propuesto →', options: ['proponer', 'probar', 'producir', 'proteger'], correct: 0 },
+      { sentence: 'compuesto →', options: ['comparar', 'completar', 'componer', 'comprar'], correct: 2 }
+    ]
+  },
+
+  'ex-4-4-19': {
+    id: 'ex-4-4-19',
+    type: 'writing',
+    title: 'Упражнение 18: Дополните предложения из текста',
+    description: 'Дополните предложения глаголами в Pretérito Perfecto из текста "Un día ocupado"',
+    questions: [
+      { question: 'Esta mañana me ___ (despertarse) a las siete.', correct: 'me he despertado' },
+      { question: 'Primero, ___ (desayunar) café con tostadas.', correct: 'he desayunado' },
+      { question: '___ (salir) de casa a las ocho y media.', correct: 'he salido' },
+      { question: '___ (tomar) el metro para ir al centro.', correct: 'he tomado' },
+      { question: '___ (llegar) a la oficina a las nueve.', correct: 'he llegado' },
+      { question: '___ (escribir) varios emails.', correct: 'he escrito' },
+      { question: 'Mi jefe ___ (venir) a mi despacho.', correct: 'ha venido' },
+      { question: '___ (comer) paella de mariscos.', correct: 'hemos comido' },
+      { question: 'El cliente ___ (proponer) ampliar el proyecto.', correct: 'ha propuesto' },
+      { question: '___ (volver) a casa en autobús.', correct: 'he vuelto' },
+      { question: 'Mi madre ___ (cocinar) mi plato favorito.', correct: 'ha cocinado' },
+      { question: 'Hoy ___ (hacer) muchas cosas.', correct: 'he hecho' }
+    ]
+  },
+
+  'ex-4-4-20': {
+    id: 'ex-4-4-20',
+    type: 'writing',
+    title: 'Упражнение 19: Перевод с использованием лексики диалогов',
+    description: 'Переведите предложения, используя выражения из диалогов',
+    questions: [
+      { russian: 'Ты уже закончил отчет?', correct: '¿Ya has terminado el informe?' },
+      { russian: 'Я отправил его по электронной почте сегодня утром.', correct: 'Lo he enviado por email esta mañana' },
+      { russian: 'Я говорил с ним час назад.', correct: 'He hablado con él hace una hora' },
+      { russian: 'Я еще не закончил полностью.', correct: 'Todavía no he terminado del todo' },
+      { russian: 'Я пытался ему позвонить, но он не ответил.', correct: 'He intentado llamarlo pero no ha contestado' },
+      { russian: 'Я был очень занят в последнее время.', correct: 'He estado muy ocupado últimamente' },
+      { russian: 'Я начал в новой компании.', correct: 'He empezado en una empresa nueva' },
+      { russian: 'Я уже завел несколько друзей.', correct: 'Ya he hecho algunos amigos' },
+      { russian: 'Я посетил Саграда Фамилия.', correct: 'He visitado la Sagrada Familia' },
+      { russian: 'Я еще не был в Барселоне.', correct: 'Todavía no he ido a Barcelona' },
+      { russian: 'Мы сняли дом у моря.', correct: 'Hemos alquilado una casa cerca del mar' },
+      { russian: 'Я посмотрел ее на прошлой неделе.', correct: 'La he visto la semana pasada' },
+      { russian: 'Ты уже сделал домашнее задание?', correct: '¿Ya has hecho los deberes?' },
+      { russian: 'Я помогал папе в саду.', correct: 'He estado ayudando a papá en el jardín' },
+      { russian: 'Я положил все книги и тетради.', correct: 'He metido todos los libros y los cuadernos' }
     ]
   },
 
@@ -12803,21 +12943,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     showCorrectAnswer: true,
     highlightErrors: true,
     questions: [
-      { sentence: 'Yo hablas español en casa', correct: 'yo hablo español en casa', error: 'hablas' },
-      { sentence: 'Tú llaman a tu madre por teléfono', correct: 'tú llamas a tu madre por teléfono', error: 'llaman' },
-      { sentence: 'Ella preguntar por el precio del taxi', correct: 'ella pregunta por el precio del taxi', error: 'preguntar' },
-      { sentence: 'Nosotros escucha la radio en casa', correct: 'nosotros escuchamos la radio en casa', error: 'escucha' },
-      { sentence: 'Vosotros toma agua en el restaurante', correct: 'vosotros tomáis agua en el restaurante', error: 'toma' },
-      { sentence: 'Ellos comen bocadillo en el café', correct: 'ellos comen bocadillos en el café', error: 'bocadillo' },
-      { sentence: 'Yo leo un libros grande', correct: 'yo leo un libro grande', error: 'libros' },
-      { sentence: 'Tú aprendes palabra nuevas', correct: 'tú aprendes palabras nuevas', error: 'palabra' },
-      { sentence: 'Él comprende el problemas serio', correct: 'él comprende el problema serio', error: 'problemas' },
-      { sentence: 'Nosotros vivimos en una ciudad grandes', correct: 'nosotros vivimos en una ciudad grande', error: 'grandes' },
-      { sentence: 'Ella escribe una cartas a su hermana', correct: 'ella escribe una carta a su hermana', error: 'cartas' },
-      { sentence: 'Yo abro las puerta del coche', correct: 'yo abro la puerta del coche', error: 'las' },
-      { sentence: 'Ustedes bebe zumo de naranja', correct: 'ustedes beben zumo de naranja', error: 'bebe' },
-      { sentence: 'Mi padre vive en un casa vieja', correct: 'mi padre vive en una casa vieja', error: 'un' },
-      { sentence: 'Nosotras recibir mensajes importantes', correct: 'nosotras recibimos mensajes importantes', error: 'recibir' }
+      { sentence: 'Yo hablas español en casa', correct: 'Yo hablo español en casa', error: 'hablas' },
+      { sentence: 'Tú llaman a tu madre por teléfono', correct: 'Tú llamas a tu madre por teléfono', error: 'llaman' },
+      { sentence: 'Ella preguntar por el precio del taxi', correct: 'Ella pregunta por el precio del taxi', error: 'preguntar' },
+      { sentence: 'Nosotros escucha la radio en casa', correct: 'Nosotros escuchamos la radio en casa', error: 'escucha' },
+      { sentence: 'Vosotros toma agua en el restaurante', correct: 'Vosotros tomáis agua en el restaurante', error: 'toma' },
+      { sentence: 'Ellos comen bocadillo en el café', correct: 'Ellos comen bocadillos en el café', error: 'bocadillo' },
+      { sentence: 'Yo leo un libros grande', correct: 'Yo leo un libro grande', error: 'libros' },
+      { sentence: 'Tú aprendes palabra nuevas', correct: 'Tú aprendes palabras nuevas', error: 'palabra' },
+      { sentence: 'Él comprende el problemas serio', correct: 'Él comprende el problema serio', error: 'problemas' },
+      { sentence: 'Nosotros vivimos en una ciudad grandes', correct: 'Nosotros vivimos en una ciudad grande', error: 'grandes' },
+      { sentence: 'Ella escribe una cartas a su hermana', correct: 'Ella escribe una carta a su hermana', error: 'cartas' },
+      { sentence: 'Yo abro las puerta del coche', correct: 'Yo abro la puerta del coche', error: 'las' },
+      { sentence: 'Ustedes bebe zumo de naranja', correct: 'Ustedes beben zumo de naranja', error: 'bebe' },
+      { sentence: 'Mi padre vive en un casa vieja', correct: 'Mi padre vive en una casa vieja', error: 'un' },
+      { sentence: 'Nosotras recibir mensajes importantes', correct: 'Nosotras recibimos mensajes importantes', error: 'recibir' }
     ]
   },
 
@@ -12827,16 +12967,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Transformación de Sujetos y Conjugación',
     description: 'Cambie el sujeto de la frase por el que se indica entre paréntesis y conjugue el verbo correctamente',
     questions: [
-      { russian: 'Yo vivo en Barcelona. → (Ellos)', correct: 'ellos viven en barcelona' },
-      { russian: 'Tú lees el periódico. → (Usted)', correct: 'usted lee el periódico' },
-      { russian: 'Nosotros comprendemos la lección. → (Yo)', correct: 'yo comprendo la lección' },
+      { russian: 'Yo vivo en Barcelona. → (Ellos)', correct: 'Ellos viven en Barcelona' },
+      { russian: 'Tú lees el periódico. → (Usted)', correct: 'Usted lee el periódico' },
+      { russian: 'Nosotros comprendemos la lección. → (Yo)', correct: 'Yo comprendo la lección' },
       { russian: 'La chica toma el sol. → (Las chicas y tú)', correct: 'las chicas y tú tomáis el sol' },
-      { russian: 'Ustedes hablan ruso. → (Mi hermana y yo)', correct: 'mi hermana y yo hablamos ruso' },
-      { russian: 'Vosotros coméis un bocadillo. → (Ella)', correct: 'ella come un bocadillo' },
+      { russian: 'Ustedes hablan ruso. → (Mi hermana y yo)', correct: 'Mi hermana y yo hablamos ruso' },
+      { russian: 'Vosotros coméis un bocadillo. → (Ella)', correct: 'Ella come un bocadillo' },
       { russian: 'Ellos preguntan por la dirección. → (El señor y la señora)', correct: 'el señor y la señora preguntan por la dirección' },
-      { russian: 'Tú estás triste ahora. → (Nosotros)', correct: 'nosotros estamos tristes ahora' },
+      { russian: 'Tú estás triste ahora. → (Nosotros)', correct: 'Nosotros estamos tristes ahora' },
       { russian: 'Yo soy estudiante. → (Pablo y él)', correct: 'pablo y él son estudiantes' },
-      { russian: 'Vosotros abrís la ventana. → (Yo)', correct: 'yo abro la ventana' }
+      { russian: 'Vosotros abrís la ventana. → (Yo)', correct: 'Yo abro la ventana' }
     ]
   },
 
@@ -13187,7 +13327,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Трансформация предложений',
     description: 'Преобразуйте предложение',
     questions: [
-      { instruction: 'Преобразуйте в вопрос:', sentence: 'María habla español', correct: '¿habla maría español?' },
+      { instruction: 'Преобразуйте в вопрос:', sentence: 'María habla español', correct: '¿Habla María español?' },
       { instruction: 'Преобразуйте в отрицание:', sentence: 'Tengo tiempo', correct: 'no tengo tiempo' }
     ]
   },
@@ -13198,9 +13338,9 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Исправление ошибок',
     description: 'Найдите и исправьте ошибку',
     questions: [
-      { sentence: 'Yo es estudiante', correct: 'yo soy estudiante' },
+      { sentence: 'Yo es estudiante', correct: 'Yo soy estudiante' },
       { sentence: 'Me gusta los libros', correct: 'me gustan los libros' },
-      { sentence: 'Ella va a el cine', correct: 'ella va al cine' }
+      { sentence: 'Ella va a el cine', correct: 'Ella va al cine' }
     ]
   },
 
