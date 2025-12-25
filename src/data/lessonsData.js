@@ -7125,148 +7125,9 @@ Ana: Yo también. Será un viaje inolvidable.
 
   'lesson-5-3': {
     id: 'lesson-5-3',
-    title: 'Урок 3: Достопримечательности',
+    title: 'Урок 3: Упражнения на повторение модулей 1-5',
     moduleId: 'module-5',
-    grammar: {
-      title: 'Сравнительная и превосходная степень',
-      content: `
-# Сравнительная и превосходная степень
-
-## Сравнительная степень:
-
-**MÁS + прилагательное + QUE** (более... чем):
-- Madrid es **más grande que** Valencia
-- Este museo es **más interesante que** aquel
-
-**MENOS + прилагательное + QUE** (менее... чем):
-- Este hotel es **menos caro que** el otro
-- Barcelona es **menos calurosa que** Sevilla
-
-**TAN + прилагательное + COMO** (такой же... как):
-- Esta iglesia es **tan antigua como** la catedral
-- El parque es **tan bonito como** el jardín
-
-## Неправильные формы:
-
-| Прилагательное | Сравнительная | Перевод |
-|----------------|---------------|---------|
-| bueno | mejor | лучше |
-| malo | peor | хуже |
-| grande | mayor | больше |
-| pequeño | menor | меньше |
-
-**Примеры:**
-- Este restaurante es **mejor que** ese
-- Esta habitación es **peor que** la otra
-
-## Превосходная степень:
-
-**EL/LA/LOS/LAS + MÁS/MENOS + прилагательное (+ DE)**:
-- **La más** bonita ciudad **de** España
-- **El más** famoso museo **del** mundo
-- **Los más** importantes monumentos
-
-**Con неправильными формами:**
-- **El mejor** hotel de la ciudad
-- **La peor** experiencia de mi vida
-- **El mayor** parque de Barcelona
-
-## TANTO/TAN (столько):
-
-**TAN + прилагательное:**
-- Es **tan** hermoso
-
-**TANTO/A/OS/AS + существительное:**
-- Hay **tantos** turistas
-- Tiene **tanta** historia
-
-## Полезная лексика для описания мест:
-
-**Положительные:**
-- impresionante (впечатляющий)
-- hermoso/a (прекрасный)
-- espectacular (потрясающий)
-- histórico/a (исторический)
-- pintoresco/a (живописный)
-
-**Размеры:**
-- enorme (огромный)
-- grande (большой)
-- pequeño/a (маленький)
-- espacioso/a (просторный)
-
-**Характеристики:**
-- antiguo/a (старинный)
-- moderno/a (современный)
-- famoso/a (знаменитый)
-- popular (популярный)
-      `,
-      examples: [
-        { spanish: 'La Sagrada Familia es el monumento más famoso de Barcelona', translation: 'Саграда Фамилия - самый знаменитый памятник Барселоны' },
-        { spanish: 'Este museo es tan interesante como aquel', translation: 'Этот музей такой же интересный, как и тот' },
-        { spanish: 'Madrid tiene más museos que Valencia', translation: 'В Мадриде больше музеев, чем в Валенсии' },
-        { spanish: 'Es la mejor paella que he comido', translation: 'Это лучшая паэлья, которую я ел' }
-      ]
-    },
-    vocabulary: [
-      { word: 'monumento', translation: 'памятник', audioUrl: null },
-      { word: 'museo', translation: 'музей', audioUrl: null },
-      { word: 'catedral', translation: 'собор', audioUrl: null },
-      { word: 'iglesia', translation: 'церковь', audioUrl: null },
-      { word: 'castillo', translation: 'замок', audioUrl: null },
-      { word: 'palacio', translation: 'дворец', audioUrl: null },
-      { word: 'plaza', translation: 'площадь', audioUrl: null },
-      { word: 'parque', translation: 'парк', audioUrl: null },
-      { word: 'playa', translation: 'пляж', audioUrl: null },
-      { word: 'centro histórico', translation: 'исторический центр', audioUrl: null },
-      { word: 'turista', translation: 'турист', audioUrl: null },
-      { word: 'guía', translation: 'гид', audioUrl: null },
-      { word: 'entrada', translation: 'вход, билет', audioUrl: null },
-      { word: 'recorrido', translation: 'маршрут, экскурсия', audioUrl: null }
-    ],
-    readingText: {
-      title: 'Las maravillas de España',
-      content: `España es uno de los países más visitados del mundo, y no es difícil entender por qué. Tiene una increíble combinación de historia, cultura, gastronomía y belleza natural.
-
-Para mí, la ciudad más impresionante de España es Granada. La Alhambra es el monumento más espectacular que he visto en mi vida. Es un palacio y fortaleza árabe construido en el siglo XIII. Los jardines del Generalife son tan hermosos como el palacio mismo. Desde allí se ve toda la ciudad y las montañas de Sierra Nevada. Es mejor visitarla en primavera cuando hace buen tiempo pero no hay tantos turistas como en verano.
-
-Barcelona es probablemente la ciudad más famosa de España. La arquitectura de Gaudí es única en el mundo. La Sagrada Familia es más grande de lo que imaginaba - lleva más de 140 años en construcción y todavía no está terminada. El Parque Güell es menos conocido pero igualmente fascinante. Las vistas desde allí son espectaculares.
-
-Madrid, la capital, tiene los mejores museos de España. El Museo del Prado es tan importante como el Louvre de París. Tiene obras maestras de Velázquez, Goya y El Greco. El Museo Reina Sofía es más moderno y alberga el famoso "Guernica" de Picasso. La ciudad es más grande que Barcelona pero menos turística.
-
-Sevilla es la ciudad más calurosa de España, especialmente en verano. La Catedral de Sevilla es la más grande de estilo gótico en el mundo. La Giralda, su campanario, era originalmente un minarete árabe. El barrio de Santa Cruz es el más pintoresco de la ciudad, con sus calles estrechas y patios llenos de flores.
-
-Valencia es menos conocida que Barcelona o Madrid, pero no menos interesante. La Ciudad de las Artes y las Ciencias es el complejo arquitectónico más moderno de España. Fue diseñado por Santiago Calatrava y es tan impresionante de día como de noche. Valencia también es famosa por su playa urbana - la Malvarrosa es una de las mejores playas urbanas de Europa.
-
-No puedo olvidar Toledo, la ciudad medieval mejor conservada de España. Sus calles son tan estrechas que apenas pasa un coche. La catedral es una de las más ricas de España en arte. Desde el Mirador del Valle se tiene la vista más completa de la ciudad.
-
-Santiago de Compostela, en Galicia, es el destino más importante de peregrinación cristiana después de Roma y Jerusalén. La catedral es impresionante y la plaza del Obradoiro es una de las más bonitas de Europa.
-
-Cada región de España es diferente. El norte es más verde y lluvioso, el sur más caluroso y seco. La comida del norte es tan buena como la del sur, pero completamente diferente. En el norte se come más pescado y marisco, en el sur más jamón y aceite de oliva.
-
-Para mí, España es el país más diverso de Europa. Tiene playas mejores que Italia, montañas tan altas como en Suiza, y una cultura tan rica como Francia. No es sorprendente que sea uno de los destinos turísticos más populares del mundo.`,
-      translation: `Испания - одна из самых посещаемых стран в мире, и нетрудно понять почему. Она имеет невероятное сочетание истории, культуры, гастрономии и природной красоты.
-
-Для меня самый впечатляющий город Испании - это Гранада. Альгамбра - самый зрелищный памятник, который я видел в своей жизни. Это арабский дворец и крепость, построенные в XIII веке. Сады Хенералифе так же прекрасны, как и сам дворец. Оттуда виден весь город и горы Сьерра-Невада. Лучше посещать её весной, когда стоит хорошая погода, но ещё не так много туристов, как летом.
-
-Барселона - вероятно, самый известный город Испании. Архитектура Гауди уникальна в мире. Саграда Фамилия больше, чем я представлял - она строится уже более 140 лет и всё ещё не закончена. Парк Гуэль менее известен, но столь же очарователен. Виды оттуда впечатляющие.
-
-Мадрид, столица, имеет лучшие музеи Испании. Музей Прадо так же важен, как Лувр в Париже. В нём есть шедевры Веласкеса, Гойи и Эль Греко. Музей Рейна София более современный и хранит знаменитую "Гернику" Пикассо. Город больше, чем Барселона, но менее туристический.
-
-Севилья - самый жаркий город Испании, особенно летом. Севильский собор - самый большой готический собор в мире. Хиральда, его колокольня, изначально была арабским минаретом. Район Санта-Крус - самый живописный в городе, с узкими улочками и внутренними двориками, полными цветов.
-
-Валенсия менее известна, чем Барселона или Мадрид, но не менее интересна. Город искусств и наук - самый современный архитектурный комплекс Испании. Он был спроектирован Сантьяго Калатравой и так же впечатляет днём, как и ночью. Валенсия также знаменита своим городским пляжем - Мальварроса считается одним из лучших городских пляжей Европы.
-
-Не могу забыть Толедо, наиболее хорошо сохранившийся средневековый город Испании. Его улицы настолько узкие, что едва проезжает машина. Собор - один из самых богатых в Испании по искусству. Со смотровой площадки Мирадор-дель-Валье открывается самый полный вид на город.
-
-Сантьяго-де-Компостела, в Галисии, - самое важное место христианского паломничества после Рима и Иерусалима. Собор впечатляет, а площадь Обрадоиро - одна из самых красивых в Европе.
-
-Каждый регион Испании разный. Север более зелёный и дождливый, юг более жаркий и сухой. Еда на севере такая же хорошая, как и на юге, но совершенно другая. На севере едят больше рыбы и морепродуктов, на юге больше хамона и оливкового масла.
-
-Для меня Испания - самая разнообразная страна Европы. У неё пляжи лучше, чем в Италии, горы такие же высокие, как в Швейцарии, и культура такая же богатая, как во Франции. Неудивительно, что она является одним из самых популярных туристических направлений в мире.`,
-      audioUrl: '/audio/lesson-5-3-reading.mp3'
-    },
-    exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-3', 'ex-5-3-4', 'ex-5-3-5']
+    exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-3', 'ex-5-3-4', 'ex-5-3-5', 'ex-5-3-6', 'ex-5-3-7', 'ex-5-3-8', 'ex-5-3-9', 'ex-5-3-10', 'ex-5-3-11', 'ex-5-3-12', 'ex-5-3-13', 'ex-5-3-14', 'ex-5-3-15', 'ex-5-3-16', 'ex-5-3-17', 'ex-5-3-18']
   },
 
   // МОДУЛЬ 6: Будущее время (A2)
@@ -12073,65 +11934,416 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-5-3-1': {
     id: 'ex-5-3-1',
-    type: 'grammar',
-    title: 'Сравнительная степень',
-    description: 'Выберите правильную форму',
+    type: 'fillblank',
+    title: 'Упражнение 1: Замените неопределенную форму глаголов соответствующей видовременной формой',
+    description: 'Вставьте правильную форму глагола',
     questions: [
-      { sentence: 'Madrid es ___ grande ___ Valencia', options: ['más...que', 'menos...que', 'tan...como', 'muy...de'], correct: 0 },
-      { sentence: 'Este museo es ___ interesante ___ aquel', options: ['más...de', 'menos...que', 'tan...como', 'muy...que'], correct: 2 },
-      { sentence: 'La Sagrada Familia es el monumento ___ famoso', options: ['más', 'menos', 'tan', 'muy'], correct: 0 },
-      { sentence: 'Este hotel es ___ que ese (лучше)', options: ['más bueno', 'mejor', 'bueno', 'muy bueno'], correct: 1 },
-      { sentence: 'Hay ___ turistas en verano', options: ['tan', 'tanto', 'tantos', 'tanta'], correct: 2 }
+      { sentence: 'Pasado mañana no ___ (tener, yo) tiempo y no ___ (venir) a verte.', correct: 'tendré / vendré' },
+      { sentence: 'María todavía no ___ (conocer) a su vecino, y yo ___ (conocerlo) bien. Yo ___ (saber, yo) que esta semana él ___ (volver) de un viaje por Europa y el mes que viene ___ (irse, él) a América Latina.', correct: 'conoce / lo conozco / sé / vuelve / se irá' },
+      { sentence: 'Esta mañana ___ (perder, yo) el tren, ___ (ir) a la información y allí ___ (decirme, ellos) que el próximo tren ___ (salir) dentro de tres horas.', correct: 'perdí / fui / me dijeron / sale' },
+      { sentence: 'Cada mañana a las 7 ___ (sonar) el despertador, mamá ___ (despertarse, vestirse), después ___ (despertarse y vestirse, nosotros).', correct: 'suena / se despierta y se viste / nos despertamos y nos vestimos' },
+      { sentence: 'La próxima semana ___ (decirnos, ellos) los resultados de la entrevista y alguno de nosotros ___ (poder) trabajar en esta empresa.', correct: 'nos dirán / podrá' },
+      { sentence: 'Todavía no ___ (ver, nosotros) las curiosidades de esta ciudad porque hoy no ___ (disponer, nosotros) de tiempo libre. ___ (Hacerlo, nosotros) mañana.', correct: 'hemos visto / disponemos / Lo haremos' },
+      { sentence: '___ (Tener, yo) frío. ¿Quién ___ (abrir) la ventana? — Nadie. Yo ___ (poner) el aire acondicionado.', correct: 'Tengo / abrió / puse' },
+      { sentence: '¿Ya ___ (prepararse, tú) para el viaje? — Naturalmente. Ya ___ (escribir, yo) por correo electrónico que ___ (llegar, nosotros) la semana siguiente, ___ (solicitar, yo) el visado, y mi marido ___ (reservarme) el billete para el avión.', correct: 'te has preparado / he escrito / llegaremos / solicité / me ha reservado' },
+      { sentence: 'Miguel no ___ (devolverme) la deuda porque todavía no ___ (resolver, él) sus problemas.', correct: 'me devuelve / ha resuelto' },
+      { sentence: 'Ellos no ___ (querer) ir en tren porque ___ (tardar, ellos) todo un día en llegar. ___ (Pensar, yo) que ___ (preferir, ellos) ir en avión.', correct: 'quieren / tardarán / Pienso / prefieren' }
     ]
   },
   'ex-5-3-2': {
     id: 'ex-5-3-2',
-    type: 'vocabulary',
-    title: 'Достопримечательности',
-    description: 'Выберите правильный перевод',
+    type: 'fillblank',
+    title: 'Упражнение 2: Вставьте необходимые предлоги и артикли',
+    description: 'Вставьте правильные предлоги и артикли',
     questions: [
-      { spanish: 'catedral', options: ['церковь', 'собор', 'музей', 'замок'], correct: 1 },
-      { spanish: 'castillo', options: ['дворец', 'замок', 'музей', 'парк'], correct: 1 },
-      { spanish: 'plaza', options: ['пляж', 'парк', 'площадь', 'улица'], correct: 2 },
-      { spanish: 'entrada', options: ['выход', 'вход', 'площадь', 'гид'], correct: 1 },
-      { spanish: 'guía', options: ['турист', 'билет', 'карта', 'гид'], correct: 3 }
+      { sentence: 'Marisol es ___ más puntual ___ nuestra oficina. Nunca llega ___ retraso.', correct: 'la / de / con' },
+      { sentence: '¿Va ___ pagar usted ___ viaje? — ___ supuesto, pero tengo ___ billete ___ 50€. — No hay ___ problema, le doy ___ vuelta.', correct: 'a / el / Por / un / de / ningún / la' },
+      { sentence: '¿Quién te ha enseñado ___ esquiar? ¿Ha sido alguno ___ tus amigos?', correct: 'a / de' },
+      { sentence: 'Necesito dos billetes ___ ida y vuelta ___ destino ___ París.', correct: 'de / con / a' },
+      { sentence: 'Tenemos que llegar ___ aeropuerto dos horas ___ salida ___ avión ___ facturar ___ equipaje y cumplir todas ___ formalidades.', correct: 'al / antes de la / del / para / el / las' },
+      { sentence: '¿Hay ___ vuestro barrio ___ estadio? — No, no hay ___ estadio, pero hay ___ polideportivo.', correct: 'en / un / ningún / un' },
+      { sentence: '¿Tenemos que cambiar ___ línea ___ ir ___ zoo? — ¡Qué va! Es ___ misma línea, pero hay que ir ___ dirección contraria.', correct: 'de / para / al / la / en' },
+      { sentence: '___ farmacia está ___ cinco cuadras ___ mi casa ___ eso subo ___ coche ___ ir allí.', correct: 'La / a / de / por / al / para' },
+      { sentence: 'Toda ___ semana Jorge piensa ___ tus palabras.', correct: 'la / en' },
+      { sentence: 'Cuando tú tratas ___ traducir ___ poesías de Lorca ___ español ___ ruso todos ríen ___ ti.', correct: 'de / las / del / al / de' }
     ]
   },
   'ex-5-3-3': {
     id: 'ex-5-3-3',
-    type: 'grammar',
-    title: 'Превосходная степень',
-    description: 'Составьте превосходную степень',
+    type: 'writing',
+    title: 'Упражнение 3: Переведите на испанский язык',
+    description: 'Переведите предложения на испанский',
     questions: [
-      { sentence: '___ ciudad más bonita de España', options: ['La', 'El', 'Los', 'Las'], correct: 0 },
-      { sentence: 'El ___ museo del mundo', options: ['más famoso', 'famoso más', 'muy famoso', 'tan famoso'], correct: 0 },
-      { sentence: 'La ___ experiencia (mejor)', options: ['más buena', 'buena más', 'mejor', 'muy buena'], correct: 2 },
-      { sentence: 'Los monumentos ___ importantes', options: ['muy', 'más', 'tan', 'tanto'], correct: 1 }
+      { russian: 'Почему ты ходишь в рваных ботинках? Все над тобой смеются. Я предлагаю тебе поехать в магазин, чтобы купить тебе новые ботинки.', correct: '¿Por qué llevas zapatos rotos? Todos se ríen de ti. Te propongo ir a la tienda para comprarte zapatos nuevos.' },
+      { russian: 'Хосе очень мало спит и много работает, поэтому чувствует себя хуже. Ему надо больше отдыхать.', correct: 'José duerme muy poco y trabaja mucho, por eso se siente peor. Necesita descansar más.' },
+      { russian: 'Почему ты так нервничаешь? К поездке у тебя все готово, чемоданы собраны. — Да, но я еще no заказала такси. — Я сам отвезу тебя на вокзал.', correct: '¿Por qué estás tan nervioso/a? Tienes todo listo para el viaje, las maletas están hechas. — Sí, pero todavía no he pedido un taxi. — Yo mismo te llevaré a la estación.' },
+      { sentence: '¿Здесь есть поблизости банк? — Да, есть один. Вам надо пройти один квартал до угла и там повернуть налево, перейти улицу и вы увидите банк. — Спасибо, а Вы не знаете, он сейчас открыт?', correct: '¿Hay un banco cerca de aquí? — Sí, hay uno. Tiene que andar una cuadra hasta la esquina y allí girar a la izquierda, cruzar la calle y verá el banco. — Gracias, ¿y usted no sabe si está abierto ahora?' },
+      { russian: 'Мои родители решили мою проблему с жильем. Они купили мне однокомнатную квартиру в центре города недалеко от университета.', correct: 'Mis padres han resuelto mi problema de vivienda. Me han comprado un piso de una habitación en el centro de la ciudad cerca de la universidad.' },
+      { russian: 'Мы слышали по радио, что будет ураган, и поэтому из-за неблагоприятных метеорологических условий все рейсы из Мадрида задерживаются.', correct: 'Hemos oído por la radio que habrá un huracán, y por eso debido a las condiciones meteorológicas desfavorables todos los vuelos desde Madrid se retrasan.' },
+      { russian: 'Если завтра будет хорошая погода, будет солнечно и тепло, мы отправимся на экскурсию в пригород Санкт-Петербурга, я покажу тебе дворец, мы насладимся прогулкой по красивейшему парку, а вечером купим билеты на ночной поезд и вернемся в Москву. — Мне очень жаль, я не смогу поехать, у меня много работы. — Наверное, тебе просто не нравится мой план.', correct: 'Si mañana hace buen tiempo, estará soleado y cálido, iremos de excursión a las afueras de San Petersburgo, te mostraré el palacio, disfrutaremos del paseo por el parque hermosísimo, y por la noche compraremos billetes para el tren nocturno y volveremos a Moscú. — Lo siento mucho, no podré ir, tengo mucho trabajo. — Probablemente simplemente no te gusta mi plan.' },
+      { russian: 'Ты уже вернул книги Елене? — Еще нет, я еще не закончил писать статью об открытии Америки. Завтра я приду домой пораньше, все сделаю, а послезавтра верну ей ее книги.', correct: '¿Ya has devuelto los libros a Elena? — Todavía no, aún no he terminado de escribir el artículo sobre el descubrimiento de América. Mañana llegaré a casa más temprano, lo haré todo, y pasado mañana le devolveré sus libros.' },
+      { russian: 'Если мы не узнаем всей правды, мы не сможем помочь тебе. Речь идет об очень важном деле.', correct: 'Si no conocemos toda la verdad, no podremos ayudarte. Se trata de un asunto muy importante.' },
+      { russian: 'Ваш район не такой старый, как наш. — Да, он более новый, здесь нет старинных зданий или каких-либо других достопримечательностей, но есть спорткомплекс, парк, скоро построят еще одну школу, а в этом месяце открыли большой торговый центр.', correct: 'Vuestro barrio no es tan viejo como el nuestro. — Sí, es más nuevo, aquí no hay edificios antiguos ni ningunos otros monumentos, pero hay un polideportivo, un parque, pronto construirán otra escuela, y este mes han abierto un gran centro comercial.' }
     ]
   },
+
   'ex-5-3-4': {
     id: 'ex-5-3-4',
-    type: 'reading',
-    title: 'Чтение: Ciudades españolas',
-    description: 'Ответьте на вопросы о тексте',
-    text: 'Granada es la ciudad más impresionante de España. La Alhambra es el monumento más espectacular. Barcelona es más famosa que Valencia. Madrid tiene los mejores museos. Sevilla es más calurosa que Barcelona. El Museo del Prado es tan importante como el Louvre.',
+    type: 'grammar',
+    title: 'Упражнение 4: Presente de Indicativo - Повторение',
+    description: 'Выберите правильную форму глагола в настоящем времени',
     questions: [
-      { question: 'Какой город самый впечатляющий?', options: ['Барселона', 'Мадрид', 'Гранада', 'Севилья'], correct: 2 },
-      { question: 'Какой музей сравнивают с Лувром?', options: ['Reina Sofía', 'Prado', 'Guggenheim', 'Picasso'], correct: 1 },
-      { question: 'Где лучшие музеи?', options: ['В Барселоне', 'В Мадриде', 'В Севилье', 'В Валенсии'], correct: 1 },
-      { question: 'Какой город более жаркий?', options: ['Барселона', 'Севилья', 'Мадрид', 'Валенсия'], correct: 1 }
+      { sentence: 'Yo ___ (vivir) en Madrid desde hace tres años.', options: ['vivo', 'vives', 'vive', 'viven'], correct: 0 },
+      { sentence: 'Mis padres ___ (trabajar) en una empresa internacional.', options: ['trabajo', 'trabajas', 'trabaja', 'trabajan'], correct: 3 },
+      { sentence: 'Tú ___ (estudiar) español todos los días.', options: ['estudio', 'estudias', 'estudia', 'estudiamos'], correct: 1 },
+      { sentence: 'Nosotros ___ (comer) en el restaurante los domingos.', options: ['como', 'comes', 'come', 'comemos'], correct: 3 },
+      { sentence: 'María ___ (escribir) cartas a su abuela cada semana.', options: ['escribo', 'escribes', 'escribe', 'escriben'], correct: 2 },
+      { sentence: '¿Vosotros ___ (hablar) inglés?', options: ['hablo', 'hablas', 'habla', 'habláis'], correct: 3 },
+      { sentence: 'Ellos ___ (beber) café por la mañana.', options: ['bebo', 'bebes', 'bebe', 'beben'], correct: 3 },
+      { sentence: 'Mi hermana ___ (leer) muchos libros.', options: ['leo', 'lees', 'lee', 'leen'], correct: 2 },
+      { sentence: 'Yo ___ (abrir) la tienda a las 9.', options: ['abro', 'abres', 'abre', 'abren'], correct: 0 },
+      { sentence: 'Tú ___ (comprender) todo bien.', options: ['comprendo', 'comprendes', 'comprende', 'comprenden'], correct: 1 },
+      { sentence: 'Nosotros ___ (vivir) cerca del centro.', options: ['vivo', 'vives', 'vive', 'vivimos'], correct: 3 },
+      { sentence: 'El profesor ___ (explicar) la lección claramente.', options: ['explico', 'explicas', 'explica', 'explican'], correct: 2 },
+      { sentence: '¿Usted ___ (necesitar) ayuda?', options: ['necesito', 'necesitas', 'necesita', 'necesitan'], correct: 2 },
+      { sentence: 'Los niños ___ (jugar) en el parque.', options: ['juego', 'juegas', 'juega', 'juegan'], correct: 3 },
+      { sentence: 'Yo ___ (recibir) muchos correos electrónicos.', options: ['recibo', 'recibes', 'recibe', 'reciben'], correct: 0 }
     ]
   },
+
   'ex-5-3-5': {
     id: 'ex-5-3-5',
-    type: 'writing',
-    title: 'Сравнения',
-    description: 'Переведите сравнения на испанский',
+    type: 'grammar',
+    title: 'Упражнение 5: Pretérito Perfecto - Повторение',
+    description: 'Выберите правильную форму глагола в Pretérito Perfecto',
     questions: [
-      { russian: 'Мадрид больше чем Валенсия', correct: 'Madrid es más grande que Valencia' },
-      { russian: 'Самый знаменитый памятник', correct: 'el monumento más famoso' },
-      { russian: 'Такой же интересный как', correct: 'tan interesante como' },
-      { russian: 'Лучший отель города', correct: 'el mejor hotel de la ciudad' }
+      { sentence: 'Hoy yo ___ (comer) paella.', options: ['he comido', 'has comido', 'ha comido', 'han comido'], correct: 0 },
+      { sentence: 'Esta semana nosotros ___ (visitar) tres museos.', options: ['he visitado', 'has visitado', 'ha visitado', 'hemos visitado'], correct: 3 },
+      { sentence: '¿Tú ___ (ver) esta película?', options: ['he visto', 'has visto', 'ha visto', 'han visto'], correct: 1 },
+      { sentence: 'Mis amigos ___ (viajar) a Barcelona este mes.', options: ['he viajado', 'has viajado', 'ha viajado', 'han viajado'], correct: 3 },
+      { sentence: 'Ella ___ (escribir) un libro este año.', options: ['he escrito', 'has escrito', 'ha escrito', 'han escrito'], correct: 2 },
+      { sentence: 'Yo nunca ___ (estar) en México.', options: ['he estado', 'has estado', 'ha estado', 'han estado'], correct: 0 },
+      { sentence: '¿Vosotros ___ (hacer) la tarea?', options: ['he hecho', 'has hecho', 'habéis hecho', 'han hecho'], correct: 2 },
+      { sentence: 'Hoy no ___ (llover) nada.', options: ['he llovido', 'has llovido', 'ha llovido', 'han llovido'], correct: 2 },
+      { sentence: 'Este año yo ___ (aprender) mucho español.', options: ['he aprendido', 'has aprendido', 'ha aprendido', 'han aprendido'], correct: 0 },
+      { sentence: 'Tú ___ (abrir) la ventana.', options: ['he abierto', 'has abierto', 'ha abierto', 'han abierto'], correct: 1 },
+      { sentence: 'Nosotros ___ (comprar) una casa nueva.', options: ['he comprado', 'has comprado', 'ha comprado', 'hemos comprado'], correct: 3 },
+      { sentence: 'Ellos ___ (volver) de vacaciones.', options: ['he vuelto', 'has vuelto', 'ha vuelto', 'han vuelto'], correct: 3 },
+      { sentence: 'María ___ (romper) el vaso.', options: ['he roto', 'has roto', 'ha roto', 'han roto'], correct: 2 },
+      { sentence: 'Yo ___ (decir) la verdad.', options: ['he dicho', 'has dicho', 'ha dicho', 'han dicho'], correct: 0 },
+      { sentence: '¿Ustedes ___ (poner) la mesa?', options: ['he puesto', 'has puesto', 'ha puesto', 'han puesto'], correct: 3 }
+    ]
+  },
+
+  'ex-5-3-6': {
+    id: 'ex-5-3-6',
+    type: 'grammar',
+    title: 'Упражнение 6: Verbos reflexivos - Повторение',
+    description: 'Выберите правильную форму возвратного глагола',
+    questions: [
+      { sentence: 'Yo ___ a las 7 de la mañana.', options: ['me levanto', 'te levantas', 'se levanta', 'nos levantamos'], correct: 0 },
+      { sentence: 'Tú ___ todos los días.', options: ['me ducho', 'te duchas', 'se ducha', 'nos duchamos'], correct: 1 },
+      { sentence: 'Él ___ la cara por la mañana.', options: ['me lavo', 'te lavas', 'se lava', 'nos lavamos'], correct: 2 },
+      { sentence: 'Nosotros ___ antes de salir.', options: ['me visto', 'te vistes', 'se viste', 'nos vestimos'], correct: 3 },
+      { sentence: 'Vosotros ___ tarde los fines de semana.', options: ['me acuesto', 'te acuestas', 'se acuesta', 'os acostáis'], correct: 3 },
+      { sentence: 'Ellos ___ el pelo.', options: ['me peino', 'te peinas', 'se peinan', 'nos peinamos'], correct: 2 },
+      { sentence: 'María ___ los dientes tres veces al día.', options: ['me cepillo', 'te cepillas', 'se cepilla', 'nos cepillamos'], correct: 2 },
+      { sentence: 'Yo ___ Juan.', options: ['me llamo', 'te llamas', 'se llama', 'nos llamamos'], correct: 0 },
+      { sentence: 'Tú ___ muy bien.', options: ['me siento', 'te sientes', 'se siente', 'nos sentimos'], correct: 1 },
+      { sentence: 'Nosotros ___ en el sofá.', options: ['me siento', 'te sientas', 'se sienta', 'nos sentamos'], correct: 3 },
+      { sentence: 'Ellos ___ rápido.', options: ['me afeito', 'te afeitas', 'se afeitan', 'nos afeitamos'], correct: 2 },
+      { sentence: 'Mi hermana ___ con agua fría.', options: ['me lavo', 'te lavas', 'se lava', 'nos lavamos'], correct: 2 },
+      { sentence: 'Vosotros ___ en la silla.', options: ['me siento', 'te sientas', 'se sienta', 'os sentáis'], correct: 3 },
+      { sentence: 'Yo ___ a las 11 de la noche.', options: ['me acuesto', 'te acuestas', 'se acuesta', 'nos acostamos'], correct: 0 },
+      { sentence: 'Tú ___ el abrigo.', options: ['me quito', 'te quitas', 'se quita', 'nos quitamos'], correct: 1 }
+    ]
+  },
+
+  'ex-5-3-7': {
+    id: 'ex-5-3-7',
+    type: 'grammar',
+    title: 'Упражнение 7: Ser vs Estar - Повторение',
+    description: 'Выберите правильный глагол (ser или estar)',
+    questions: [
+      { sentence: 'Mi hermano ___ médico.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Nosotros ___ en el parque.', options: ['somos', 'estamos', 'son', 'están'], correct: 1 },
+      { sentence: 'La ventana ___ abierta.', options: ['es', 'está', 'son', 'están'], correct: 1 },
+      { sentence: 'Ellos ___ de España.', options: ['es', 'está', 'son', 'están'], correct: 2 },
+      { sentence: 'Hoy ___ lunes.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'El café ___ frío.', options: ['es', 'está', 'son', 'están'], correct: 1 },
+      { sentence: 'Madrid ___ la capital de España.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: '¿Dónde ___ las llaves?', options: ['es', 'está', 'son', 'están'], correct: 3 },
+      { sentence: 'Mi madre ___ profesora.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Yo ___ cansado hoy.', options: ['soy', 'estoy', 'son', 'están'], correct: 1 },
+      { sentence: 'Vosotros ___ muy inteligentes.', options: ['sois', 'estáis', 'son', 'están'], correct: 0 },
+      { sentence: 'La película ___ interesante.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Tú ___ en casa.', options: ['eres', 'estás', 'es', 'está'], correct: 1 },
+      { sentence: 'Las tiendas ___ cerradas.', options: ['son', 'están', 'es', 'está'], correct: 1 },
+      { sentence: 'El examen ___ difícil.', options: ['es', 'está', 'son', 'están'], correct: 0 }
+    ]
+  },
+
+  'ex-5-3-8': {
+    id: 'ex-5-3-8',
+    type: 'grammar',
+    title: 'Упражнение 8: Futuro Simple - Повторение',
+    description: 'Выберите правильную форму глагола в будущем времени',
+    questions: [
+      { sentence: 'Mañana yo ___ (estudiar) para el examen.', options: ['estudiaré', 'estudiarás', 'estudiará', 'estudiarán'], correct: 0 },
+      { sentence: 'Nosotros ___ (viajar) a Italia el próximo mes.', options: ['viajaré', 'viajarás', 'viajará', 'viajaremos'], correct: 3 },
+      { sentence: 'Ellos ___ (comer) en el restaurante.', options: ['comeré', 'comerás', 'comerá', 'comerán'], correct: 3 },
+      { sentence: 'Tú ___ (vivir) en Madrid.', options: ['viviré', 'vivirás', 'vivirá', 'vivirán'], correct: 1 },
+      { sentence: 'Yo ___ (hacer) la tarea esta tarde.', options: ['haré', 'harás', 'hará', 'harán'], correct: 0 },
+      { sentence: 'María ___ (tener) un examen mañana.', options: ['tendré', 'tendrás', 'tendrá', 'tendrán'], correct: 2 },
+      { sentence: 'Nosotros ___ (salir) a las 8.', options: ['saldré', 'saldrás', 'saldrá', 'saldremos'], correct: 3 },
+      { sentence: '¿Vosotros ___ (venir) a la fiesta?', options: ['vendré', 'vendrás', 'vendrá', 'vendréis'], correct: 3 },
+      { sentence: 'Ellos ___ (poder) ayudarnos.', options: ['podré', 'podrás', 'podrá', 'podrán'], correct: 3 },
+      { sentence: 'Yo te ___ (decir) la verdad.', options: ['diré', 'dirás', 'dirá', 'dirán'], correct: 0 },
+      { sentence: 'Tú ___ (poner) la mesa.', options: ['pondré', 'pondrás', 'pondrá', 'pondrán'], correct: 1 },
+      { sentence: 'Nosotros ___ (saber) los resultados pronto.', options: ['sabré', 'sabrás', 'sabrá', 'sabremos'], correct: 3 },
+      { sentence: 'Mañana ___ (haber) una reunión.', options: ['habrá', 'habrás', 'habrán', 'habré'], correct: 0 },
+      { sentence: 'Ellos ___ (querer) venir con nosotros.', options: ['querré', 'querrás', 'querrá', 'querrán'], correct: 3 },
+      { sentence: 'Yo ___ (volver) a casa tarde.', options: ['volveré', 'volverás', 'volverá', 'volverán'], correct: 0 }
+    ]
+  },
+
+  'ex-5-3-9': {
+    id: 'ex-5-3-9',
+    type: 'grammar',
+    title: 'Упражнение 9: Verbos como gustar - Повторение',
+    description: 'Выберите правильную форму',
+    questions: [
+      { sentence: 'A mí ___ gusta el español.', options: ['me', 'te', 'le', 'nos'], correct: 0 },
+      { sentence: 'A ti ___ gustan las películas.', options: ['me', 'te', 'le', 'nos'], correct: 1 },
+      { sentence: 'A ella ___ encanta viajar.', options: ['me', 'te', 'le', 'nos'], correct: 2 },
+      { sentence: 'A nosotros ___ interesan los museos.', options: ['me', 'te', 'le', 'nos'], correct: 3 },
+      { sentence: 'A vosotros ___ gusta la paella.', options: ['me', 'te', 'os', 'les'], correct: 2 },
+      { sentence: 'A ellos ___ encantan los deportes.', options: ['me', 'te', 'le', 'les'], correct: 3 },
+      { sentence: 'A María ___ gusta bailar.', options: ['me', 'te', 'le', 'nos'], correct: 2 },
+      { sentence: 'A mis padres ___ interesan las noticias.', options: ['me', 'te', 'le', 'les'], correct: 3 },
+      { sentence: '¿A usted ___ gusta el café?', options: ['me', 'te', 'le', 'nos'], correct: 2 },
+      { sentence: 'A Juan y a mí ___ encanta la música.', options: ['me', 'te', 'le', 'nos'], correct: 3 },
+      { sentence: 'A ti no ___ gustan las verduras.', options: ['me', 'te', 'le', 'nos'], correct: 1 },
+      { sentence: 'A nosotros ___ gusta estudiar español.', options: ['me', 'te', 'le', 'nos'], correct: 3 },
+      { sentence: 'A ella ___ duele la cabeza.', options: ['me', 'te', 'le', 'nos'], correct: 2 },
+      { sentence: 'A mí ___ molesta el ruido.', options: ['me', 'te', 'le', 'nos'], correct: 0 },
+      { sentence: '¿A vosotros ___ apetece salir?', options: ['me', 'te', 'os', 'les'], correct: 2 }
+    ]
+  },
+
+  'ex-5-3-10': {
+    id: 'ex-5-3-10',
+    type: 'grammar',
+    title: 'Упражнение 10: Pronombres - Повторение',
+    description: 'Выберите правильное местоимение',
+    questions: [
+      { sentence: '___ veo todos los días. (él)', options: ['Lo', 'La', 'Los', 'Las'], correct: 0 },
+      { sentence: '___ llamo por teléfono. (ella)', options: ['Lo', 'La', 'Los', 'Las'], correct: 1 },
+      { sentence: '___ compro en el mercado. (las frutas)', options: ['Lo', 'La', 'Los', 'Las'], correct: 3 },
+      { sentence: '___ escribo una carta. (a mi abuela)', options: ['Le', 'Les', 'Lo', 'La'], correct: 0 },
+      { sentence: '___ doy el regalo. (a ellos)', options: ['Le', 'Les', 'Lo', 'La'], correct: 1 },
+      { sentence: 'Juan ___ explica la lección. (a nosotros)', options: ['me', 'te', 'nos', 'os'], correct: 2 },
+      { sentence: 'Yo ___ ayudo con la tarea. (a ti)', options: ['me', 'te', 'le', 'nos'], correct: 1 },
+      { sentence: '___ han dicho la verdad. (a mí)', options: ['Me', 'Te', 'Le', 'Nos'], correct: 0 },
+      { sentence: '___ hemos comprado un libro. (los libros)', options: ['Lo', 'La', 'Los', 'Las'], correct: 2 },
+      { sentence: 'María ___ presta dinero. (a vosotros)', options: ['me', 'te', 'nos', 'os'], correct: 3 },
+      { sentence: '___ necesito ahora. (el coche)', options: ['Lo', 'La', 'Los', 'Las'], correct: 0 },
+      { sentence: '¿___ has visto? (las llaves)', options: ['Lo', 'La', 'Los', 'Las'], correct: 3 },
+      { sentence: 'El profesor ___ explica bien. (a nosotros)', options: ['me', 'te', 'nos', 'os'], correct: 2 },
+      { sentence: '___ envío un correo. (a ella)', options: ['Le', 'Les', 'Lo', 'La'], correct: 0 },
+      { sentence: '¿___ traes la comida? (a mí)', options: ['Me', 'Te', 'Le', 'Nos'], correct: 0 }
+    ]
+  },
+
+  'ex-5-3-11': {
+    id: 'ex-5-3-11',
+    type: 'vocabulary',
+    title: 'Упражнение 11: Vocabulario - La familia',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'padre', options: ['отец', 'мать', 'брат', 'дедушка'], correct: 0 },
+      { spanish: 'hermana', options: ['брат', 'сестра', 'дочь', 'тётя'], correct: 1 },
+      { spanish: 'abuelo', options: ['отец', 'дядя', 'дедушка', 'сын'], correct: 2 },
+      { spanish: 'tío', options: ['отец', 'дядя', 'брат', 'сын'], correct: 1 },
+      { spanish: 'hijo', options: ['брат', 'отец', 'дедушка', 'сын'], correct: 3 },
+      { spanish: 'prima', options: ['тётя', 'сестра', 'двоюродная сестра', 'мать'], correct: 2 },
+      { spanish: 'nieto', options: ['внук', 'дедушка', 'отец', 'сын'], correct: 0 },
+      { spanish: 'esposo', options: ['муж', 'отец', 'сын', 'брат'], correct: 0 },
+      { spanish: 'madre', options: ['мать', 'сестра', 'тётя', 'бабушка'], correct: 0 },
+      { spanish: 'hermano', options: ['брат', 'отец', 'сын', 'дядя'], correct: 0 },
+      { spanish: 'abuela', options: ['мать', 'тётя', 'бабушка', 'сестра'], correct: 2 },
+      { spanish: 'tía', options: ['мать', 'тётя', 'сестра', 'бабушка'], correct: 1 },
+      { spanish: 'hija', options: ['дочь', 'сестра', 'мать', 'тётя'], correct: 0 },
+      { spanish: 'primo', options: ['брат', 'сын', 'двоюродный брат', 'дядя'], correct: 2 },
+      { spanish: 'esposa', options: ['жена', 'мать', 'сестра', 'дочь'], correct: 0 }
+    ]
+  },
+
+  'ex-5-3-12': {
+    id: 'ex-5-3-12',
+    type: 'vocabulary',
+    title: 'Упражнение 12: Vocabulario - La casa',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'cocina', options: ['кухня', 'гостиная', 'спальня', 'ванная'], correct: 0 },
+      { spanish: 'dormitorio', options: ['кухня', 'спальня', 'гостиная', 'прихожая'], correct: 1 },
+      { spanish: 'salón', options: ['спальня', 'кухня', 'гостиная', 'балкон'], correct: 2 },
+      { spanish: 'baño', options: ['кухня', 'спальня', 'туалет', 'ванная'], correct: 3 },
+      { spanish: 'jardín', options: ['балкон', 'сад', 'гараж', 'крыша'], correct: 1 },
+      { spanish: 'ventana', options: ['дверь', 'окно', 'стена', 'потолок'], correct: 1 },
+      { spanish: 'puerta', options: ['дверь', 'окно', 'стена', 'пол'], correct: 0 },
+      { spanish: 'mesa', options: ['стул', 'стол', 'диван', 'кровать'], correct: 1 },
+      { spanish: 'silla', options: ['стул', 'стол', 'диван', 'кресло'], correct: 0 },
+      { spanish: 'sofá', options: ['стул', 'кровать', 'диван', 'кресло'], correct: 2 },
+      { spanish: 'cama', options: ['диван', 'кровать', 'стул', 'кресло'], correct: 1 },
+      { spanish: 'armario', options: ['стол', 'шкаф', 'полка', 'комод'], correct: 1 },
+      { spanish: 'escalera', options: ['лифт', 'лестница', 'балкон', 'крыша'], correct: 1 },
+      { spanish: 'balcón', options: ['сад', 'балкон', 'терраса', 'крыша'], correct: 1 },
+      { spanish: 'garaje', options: ['подвал', 'гараж', 'чердак', 'сад'], correct: 1 }
+    ]
+  },
+
+  'ex-5-3-13': {
+    id: 'ex-5-3-13',
+    type: 'vocabulary',
+    title: 'Упражнение 13: Vocabulario - La comida',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'pan', options: ['хлеб', 'молоко', 'сыр', 'масло'], correct: 0 },
+      { spanish: 'leche', options: ['вода', 'молоко', 'сок', 'кофе'], correct: 1 },
+      { spanish: 'queso', options: ['хлеб', 'молоко', 'сыр', 'масло'], correct: 2 },
+      { spanish: 'carne', options: ['рыба', 'курица', 'мясо', 'колбаса'], correct: 2 },
+      { spanish: 'pescado', options: ['рыба', 'мясо', 'курица', 'морепродукты'], correct: 0 },
+      { spanish: 'verdura', options: ['фрукт', 'овощ', 'салат', 'зелень'], correct: 1 },
+      { spanish: 'fruta', options: ['овощ', 'фрукт', 'ягода', 'орех'], correct: 1 },
+      { spanish: 'huevo', options: ['молоко', 'сыр', 'яйцо', 'масло'], correct: 2 },
+      { spanish: 'arroz', options: ['рис', 'паста', 'хлеб', 'картофель'], correct: 0 },
+      { spanish: 'patata', options: ['рис', 'паста', 'картофель', 'хлеб'], correct: 2 },
+      { spanish: 'tomate', options: ['огурец', 'помидор', 'перец', 'морковь'], correct: 1 },
+      { spanish: 'manzana', options: ['груша', 'яблоко', 'банан', 'апельсин'], correct: 1 },
+      { spanish: 'agua', options: ['вода', 'сок', 'вино', 'пиво'], correct: 0 },
+      { spanish: 'vino', options: ['вода', 'сок', 'вино', 'пиво'], correct: 2 },
+      { spanish: 'azúcar', options: ['соль', 'сахар', 'перец', 'мука'], correct: 1 }
+    ]
+  },
+
+  'ex-5-3-14': {
+    id: 'ex-5-3-14',
+    type: 'vocabulary',
+    title: 'Упражнение 14: Vocabulario - La ciudad',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'calle', options: ['улица', 'площадь', 'проспект', 'переулок'], correct: 0 },
+      { spanish: 'plaza', options: ['улица', 'площадь', 'парк', 'сквер'], correct: 1 },
+      { spanish: 'tienda', options: ['магазин', 'аптека', 'банк', 'почта'], correct: 0 },
+      { spanish: 'restaurante', options: ['кафе', 'бар', 'ресторан', 'столовая'], correct: 2 },
+      { spanish: 'hospital', options: ['поликлиника', 'больница', 'аптека', 'клиника'], correct: 1 },
+      { spanish: 'escuela', options: ['школа', 'университет', 'колледж', 'институт'], correct: 0 },
+      { spanish: 'banco', options: ['магазин', 'банк', 'почта', 'аптека'], correct: 1 },
+      { spanish: 'parque', options: ['сад', 'парк', 'сквер', 'лес'], correct: 1 },
+      { spanish: 'museo', options: ['театр', 'музей', 'библиотека', 'галерея'], correct: 1 },
+      { spanish: 'iglesia', options: ['собор', 'церковь', 'монастырь', 'храм'], correct: 1 },
+      { spanish: 'estación', options: ['вокзал', 'аэропорт', 'порт', 'остановка'], correct: 0 },
+      { spanish: 'cine', options: ['театр', 'кино', 'цирк', 'концерт'], correct: 1 },
+      { spanish: 'farmacia', options: ['больница', 'поликлиника', 'аптека', 'лаборатория'], correct: 2 },
+      { spanish: 'oficina', options: ['офис', 'магазин', 'склад', 'мастерская'], correct: 0 },
+      { spanish: 'mercado', options: ['магазин', 'рынок', 'супермаркет', 'торговый центр'], correct: 1 }
+    ]
+  },
+
+  'ex-5-3-15': {
+    id: 'ex-5-3-15',
+    type: 'grammar',
+    title: 'Упражнение 15: Preposiciones - Повторение',
+    description: 'Выберите правильный предлог',
+    questions: [
+      { sentence: 'Voy ___ Madrid.', options: ['a', 'en', 'de', 'por'], correct: 0 },
+      { sentence: 'Vengo ___ Barcelona.', options: ['a', 'en', 'de', 'por'], correct: 2 },
+      { sentence: 'Estoy ___ casa.', options: ['a', 'en', 'de', 'por'], correct: 1 },
+      { sentence: 'El libro está ___ la mesa.', options: ['en', 'a', 'de', 'por'], correct: 0 },
+      { sentence: 'Vamos ___ coche.', options: ['a', 'en', 'de', 'por'], correct: 1 },
+      { sentence: 'La tienda está ___ la esquina.', options: ['en', 'a', 'de', 'por'], correct: 0 },
+      { sentence: 'Trabajo ___ las 9 ___ las 6.', options: ['de...a', 'desde...hasta', 'por...para', 'en...a'], correct: 1 },
+      { sentence: 'Hablo ___ teléfono.', options: ['en', 'a', 'por', 'de'], correct: 2 },
+      { sentence: 'Este regalo es ___ ti.', options: ['a', 'para', 'por', 'de'], correct: 1 },
+      { sentence: 'Paso ___ tu casa.', options: ['a', 'en', 'por', 'de'], correct: 2 },
+      { sentence: 'Vivo ___ el centro.', options: ['en', 'a', 'de', 'cerca de'], correct: 3 },
+      { sentence: 'La farmacia está ___ el banco.', options: ['enfrente de', 'a', 'en', 'por'], correct: 0 },
+      { sentence: 'Voy ___ pie.', options: ['a', 'en', 'de', 'por'], correct: 0 },
+      { sentence: 'El cine está ___ la calle Mayor.', options: ['en', 'a', 'de', 'por'], correct: 0 },
+      { sentence: 'Salgo ___ casa ___ las 8.', options: ['de...a', 'en...a', 'por...a', 'desde...a'], correct: 0 }
+    ]
+  },
+
+  'ex-5-3-16': {
+    id: 'ex-5-3-16',
+    type: 'grammar',
+    title: 'Упражнение 16: Смешанная грамматика - Повторение',
+    description: 'Выберите правильный вариант',
+    questions: [
+      { sentence: 'Yo ___ español desde hace dos años.', options: ['estudio', 'estudiando', 'estudiar', 'estudiado'], correct: 0 },
+      { sentence: 'Mañana ___ al cine.', options: ['voy', 'iré', 'iba', 'he ido'], correct: 1 },
+      { sentence: 'Hoy ___ mucho trabajo.', options: ['tengo', 'tendré', 'tenía', 'he tenido'], correct: 0 },
+      { sentence: 'Esta mañana ___ temprano.', options: ['me levanto', 'me he levantado', 'me levantaba', 'me levantaré'], correct: 1 },
+      { sentence: 'A mí ___ gusta la música.', options: ['me', 'te', 'le', 'se'], correct: 0 },
+      { sentence: 'Mi casa ___ grande.', options: ['es', 'está', 'hay', 'tiene'], correct: 0 },
+      { sentence: 'Yo ___ en Madrid.', options: ['soy', 'estoy', 'hay', 'tengo'], correct: 1 },
+      { sentence: '___ tres libros en la mesa.', options: ['Es', 'Está', 'Hay', 'Tiene'], correct: 2 },
+      { sentence: 'Nosotros ___ al parque los domingos.', options: ['vamos', 'iremos', 'íbamos', 'hemos ido'], correct: 0 },
+      { sentence: 'Ella ___ todos los días.', options: ['se ducha', 'ducha', 'ducharse', 'duchando'], correct: 0 },
+      { sentence: '¿___ has visto la película?', options: ['Ya', 'Todavía', 'Nunca', 'Siempre'], correct: 0 },
+      { sentence: 'El año pasado ___ a Italia.', options: ['viajo', 'viajaré', 'viajé', 'he viajado'], correct: 2 },
+      { sentence: '___ llamo María.', options: ['Me', 'Te', 'Se', 'Le'], correct: 0 },
+      { sentence: 'El libro ___ interesante.', options: ['es', 'está', 'hay', 'tiene'], correct: 0 },
+      { sentence: 'Mañana ___ buen tiempo.', options: ['hace', 'hará', 'hacía', 'ha hecho'], correct: 1 }
+    ]
+  },
+
+  'ex-5-3-17': {
+    id: 'ex-5-3-17',
+    type: 'vocabulary',
+    title: 'Упражнение 17: Vocabulario - Viajes y transporte',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'avión', options: ['самолёт', 'поезд', 'автобус', 'корабль'], correct: 0 },
+      { spanish: 'tren', options: ['самолёт', 'поезд', 'автобус', 'метро'], correct: 1 },
+      { spanish: 'autobús', options: ['троллейбус', 'автобус', 'трамвай', 'такси'], correct: 1 },
+      { spanish: 'aeropuerto', options: ['аэропорт', 'вокзал', 'порт', 'остановка'], correct: 0 },
+      { spanish: 'maleta', options: ['сумка', 'рюкзак', 'чемодан', 'пакет'], correct: 2 },
+      { spanish: 'billete', options: ['билет', 'паспорт', 'виза', 'карта'], correct: 0 },
+      { spanish: 'hotel', options: ['гостиница', 'хостел', 'квартира', 'дом'], correct: 0 },
+      { spanish: 'playa', options: ['море', 'пляж', 'река', 'озеро'], correct: 1 },
+      { spanish: 'montaña', options: ['холм', 'гора', 'долина', 'равнина'], correct: 1 },
+      { spanish: 'pasaporte', options: ['виза', 'билет', 'паспорт', 'удостоверение'], correct: 2 },
+      { spanish: 'equipaje', options: ['чемодан', 'сумка', 'багаж', 'рюкзак'], correct: 2 },
+      { spanish: 'vuelo', options: ['полёт', 'рейс', 'поездка', 'путешествие'], correct: 1 },
+      { spanish: 'reserva', options: ['билет', 'бронь', 'виза', 'карта'], correct: 1 },
+      { spanish: 'mapa', options: ['план', 'карта', 'схема', 'атлас'], correct: 1 },
+      { spanish: 'guía', options: ['турист', 'гид', 'экскурсовод', 'переводчик'], correct: 1 }
+    ]
+  },
+
+  'ex-5-3-18': {
+    id: 'ex-5-3-18',
+    type: 'writing',
+    title: 'Упражнение 18: Traducción final - Повторение',
+    description: 'Переведите предложения на испанский',
+    questions: [
+      { russian: 'Я живу в Мадриде уже три года.', correct: 'Vivo en Madrid desde hace tres años.' },
+      { russian: 'Завтра мы поедем в музей.', correct: 'Mañana iremos al museo.' },
+      { russian: 'Сегодня я встал в 7 утра.', correct: 'Hoy me he levantado a las 7 de la mañana.' },
+      { russian: 'Мне нравится испанский язык.', correct: 'Me gusta el español.' },
+      { russian: 'Мой брат врач, а я учитель.', correct: 'Mi hermano es médico y yo soy profesor.' },
+      { russian: 'Мы находимся в парке.', correct: 'Estamos en el parque.' },
+      { russian: 'В комнате три окна.', correct: 'Hay tres ventanas en la habitación.' },
+      { russian: 'Каждый день я завтракаю в 8 часов.', correct: 'Todos los días desayuno a las 8.' },
+      { russian: 'Она купила билет на поезд.', correct: 'Ella ha comprado un billete de tren.' },
+      { russian: 'Я иду в банк пешком.', correct: 'Voy al banco a pie.' },
+      { russian: 'Эта книга очень интересная.', correct: 'Este libro es muy interesante.' },
+      { russian: 'Кофе холодный.', correct: 'El café está frío.' },
+      { russian: 'Я позвоню тебе завтра.', correct: 'Te llamaré mañana.' },
+      { russian: 'Они живут рядом с метро.', correct: 'Ellos viven cerca del metro.' },
+      { russian: 'Где находится аптека?', correct: '¿Dónde está la farmacia?' }
     ]
   },
 
