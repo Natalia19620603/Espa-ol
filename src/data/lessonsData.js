@@ -53,7 +53,7 @@ export const modules = {
   'module-5': {
     id: 'module-5',
     title: 'Модуль 5: Путешествия и места',
-    level: 'elementary',
+    level: 'beginner',
     lessons: ['lesson-5-1', 'lesson-5-2', 'lesson-5-3'],
     description: 'Лексика путешествий, направления, транспорт'
   },
@@ -6694,10 +6694,10 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Хуан и Лаура: Как здорово! Спасибо, мама.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20']
+    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20']
   },
 
-  // МОДУЛЬ 5: Путешествия и места (A2)
+  // МОДУЛЬ 5: Путешествия и места (A1)
   'lesson-5-1': {
     id: 'lesson-5-1',
     title: 'Урок 1: ПУТЕШЕСТВИЕ НА САМОЛЕТЕ, ПОЕЗДЕ. Futuro Simple (будущее время)',
@@ -6849,19 +6849,45 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
     },
     vocabulary: [
       { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-      { word: 'estación', translation: 'станция, вокзал', audioUrl: null },
-      { word: 'tren', translation: 'поезд', audioUrl: null },
       { word: 'avión', translation: 'самолёт', audioUrl: null },
-      { word: 'autobús', translation: 'автобус', audioUrl: null },
-      { word: 'metro', translation: 'метро', audioUrl: null },
-      { word: 'taxi', translation: 'такси', audioUrl: null },
-      { word: 'billete', translation: 'билет', audioUrl: null },
+      { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
+      { word: 'azafata', translation: 'стюардесса', audioUrl: null },
+      { word: 'tripulación', translation: 'экипаж', audioUrl: null },
+      { word: 'comandante', translation: 'командир', audioUrl: null },
+      { word: 'facturación', translation: 'регистрация', audioUrl: null },
+      { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
+      { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
+      { word: 'aduana', translation: 'таможня', audioUrl: null },
+      { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
+      { word: 'equipaje', translation: 'багаж', audioUrl: null },
       { word: 'maleta', translation: 'чемодан', audioUrl: null },
-      { word: 'mochila', translation: 'рюкзак', audioUrl: null },
-      { word: 'mapa', translation: 'карта', audioUrl: null },
-      { word: 'derecha', translation: 'право', audioUrl: null },
-      { word: 'izquierda', translation: 'лево', audioUrl: null },
-      { word: 'recto', translation: 'прямо', audioUrl: null }
+      { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
+      { word: 'salida', translation: 'отправление', audioUrl: null },
+      { word: 'llegada', translation: 'прибытие', audioUrl: null },
+      { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
+      { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
+      { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
+      { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
+      { word: 'carrito', translation: 'тележка', audioUrl: null },
+      { word: 'reservar billetes', translation: 'забронировать билеты', audioUrl: null },
+      { word: 'solicitar el visado', translation: 'запросить визу', audioUrl: null },
+      { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
+      { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
+      { word: 'facturar el equipaje', translation: 'сдать вещи в багаж', audioUrl: null },
+      { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
+      { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
+      { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
+      { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
+      { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
+      { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
+      { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
+      { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
+      { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
+      { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
+      { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
+      { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
+      { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null },
+      { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null }
     ],
     readingText: {
       title: 'Un día en Barcelona',
@@ -6893,7 +6919,7 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
 Сейчас я вернулся в отель. Завтра хочу посетить парк Гуэль и пляж Барселонета. Я купил билет на метро на три дня. Мне очень нравится Барселона. Это идеальный город для путешествий.`,
       audioUrl: '/audio/lesson-5-1-reading.mp3'
     },
-    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5']
+    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5', 'ex-5-1-6', 'ex-5-1-7', 'ex-5-1-8', 'ex-5-1-9', 'ex-5-1-10', 'ex-5-1-11', 'ex-5-1-12', 'ex-5-1-13', 'ex-5-1-14']
   },
 
   'lesson-5-2': {
@@ -11215,20 +11241,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-12': {
-    id: 'ex-4-4-12',
-    type: 'writing',
-    title: 'Упражнение 11: Composición - Mi día',
-    description: 'Напишите 5 предложений о том, что вы сделали сегодня, используя Pretérito Perfecto',
-    questions: [
-      { question: '¿Qué has hecho esta mañana?', correct: 'Esta mañana me he levantado temprano' },
-      { question: '¿Has desayunado? ¿Qué has comido?', correct: 'He desayunado café y tostadas' },
-      { question: '¿Dónde has estado hoy?', correct: 'He estado en el trabajo' },
-      { question: '¿Con quién has hablado?', correct: 'He hablado con mis compañeros' },
-      { question: '¿Qué has aprendido en esta lección?', correct: 'He aprendido el pretérito perfecto' }
-    ]
-  },
-
   'ex-4-4-13': {
     id: 'ex-4-4-13',
     type: 'grammar',
@@ -11396,65 +11408,261 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // МОДУЛЬ 5: Путешествия и места
   'ex-5-1-1': {
     id: 'ex-5-1-1',
-    type: 'vocabulary',
-    title: 'Транспорт',
-    description: 'Выберите правильный перевод',
+    type: 'writing',
+    title: 'Упражнение 1: Будущее время (Futuro Simple)',
+    description: 'Переведите предложения на испанский язык',
     questions: [
-      { spanish: 'avión', options: ['автобус', 'самолёт', 'поезд', 'такси'], correct: 1 },
-      { spanish: 'tren', options: ['метро', 'автобус', 'поезд', 'машина'], correct: 2 },
-      { spanish: 'aeropuerto', options: ['вокзал', 'аэропорт', 'гостиница', 'музей'], correct: 1 },
-      { spanish: 'billete', options: ['чемодан', 'карта', 'билет', 'ключ'], correct: 2 },
-      { spanish: 'maleta', options: ['рюкзак', 'сумка', 'чемодан', 'карта'], correct: 2 }
+      { russian: 'Завтра поезд отправится ровно в шесть.', correct: 'Mañana el tren saldrá a las seis en punto.' },
+      { russian: 'На следующей неделе мы придем тебя навестить.', correct: 'La semana que viene nosotros vendremos a verte.' },
+      { russian: 'Родители поедут в путешествие с дочерью на Кубу в следующем году.', correct: 'Los padres irán de viaje con su hija a Cuba el año siguiente.' },
+      { russian: 'Они скажут нам результаты операции послезавтра.', correct: 'Ellos nos dirán los resultados de la operación pasado mañana.' },
+      { russian: 'В следующем месяце семья Муньос снимет другую квартиру.', correct: 'El próximo mes los Muñoz alquilarán otro piso.' },
+      { russian: 'Мы вернемся через 5 минут.', correct: 'Nosotros volveremos dentro de 5 minutos.' },
+      { russian: 'Луис говорит, что соседи тоже захотят прийти завтра на наш праздник.', correct: 'Luis dice que los vecinos también querrán venir mañana a nuestra fiesta.' },
+      { russian: 'На следующей неделе у них будет мало работы.', correct: 'La semana siguiente ellos tendrán poco trabajo.' },
+      { russian: 'Через три месяца ты будешь уметь хорошо говорить по-испански.', correct: 'Dentro de tres meses tú sabrás hablar el español bien.' },
+      { russian: 'После обеда мы с дядей погуляем по парку.', correct: 'Después del almuerzo mi tío y yo daremos un paseo por el parque.' }
     ]
   },
   'ex-5-1-2': {
     id: 'ex-5-1-2',
-    type: 'grammar',
-    title: 'Предлоги места',
-    description: 'Выберите правильный предлог',
+    type: 'writing',
+    title: 'Упражнение 2: Вероятность в настоящем (Futuro de Probabilidad)',
+    description: 'Переведите предложения на испанский язык',
     questions: [
-      { sentence: 'El hotel está ___ la estación', options: ['cerca de', 'lejos', 'entre', 'desde'], correct: 0 },
-      { sentence: 'Voy ___ Madrid', options: ['en', 'a', 'de', 'por'], correct: 1 },
-      { sentence: 'La farmacia está ___ del banco', options: ['lejos', 'cerca', 'enfrente', 'entre'], correct: 2 },
-      { sentence: 'Viajo ___ avión', options: ['a', 'de', 'en', 'por'], correct: 2 },
-      { sentence: 'El museo está ___ la iglesia y el hotel', options: ['cerca', 'entre', 'enfrente', 'delante'], correct: 1 }
+      { russian: 'Сколько детей у Сильвии? — Наверное, шестеро.', correct: '¿Cuántos hijos tiene Silvia? — Tendrá seis hijos.' },
+      { russian: 'Сейчас они, должно быть, живут в Дании.', correct: 'Ahora ellos vivirán en Dinamarca.' },
+      { russian: 'Откуда Хельга? — Вероятно, из Швейцарии.', correct: '¿De dónde es Helga? — Será de Suiza.' },
+      { russian: 'Почему не пришел начальник? — Должно быть, он болен.', correct: '¿Por qué no ha venido el jefe? — Estará enfermo.' },
+      { russian: 'Где твои друзья? — Наверное, играют в футбол.', correct: '¿Dónde están tus amigos? — Jugarán al fútbol.' },
+      { russian: 'В это время на дороге, скорее всего, пробки.', correct: 'A esta hora habrá atascos en la carretera.' },
+      { russian: 'Ты, случайно, не знаешь адрес своего двоюродного брата?', correct: '¿No sabrás tú la dirección de tu primo?' },
+      { russian: 'Что делает сестра? — Наверное, говорит по телефону или смотрит телевизор.', correct: '¿Qué está haciendo la hermana? — Hablará por teléfono o verá la tele.' },
+      { russian: 'Эта спортивная машина, должно быть, стоит очень дорого.', correct: 'Este coche deportivo costará muchísimo.' },
+      { russian: 'Вы, случайно, не знакомы с соседями с пятого этажа?', correct: '¿No conoceréis vosotros a los vecinos del quinto?' }
     ]
   },
   'ex-5-1-3': {
     id: 'ex-5-1-3',
-    type: 'reading',
-    title: 'Чтение: Un día en Barcelona',
-    description: 'Ответьте на вопросы о тексте',
-    text: 'He llegado al aeropuerto de El Prat. He tomado el tren hasta Sants y después el metro hasta Passeig de Gràcia. Mi hotel está cerca de la Plaza de Catalunya. He visitado Las Ramblas y el Barrio Gótico. La Sagrada Familia está lejos del centro.',
+    type: 'writing',
+    title: 'Упражнение 3: Трансформация предложений',
+    description: 'Замените привычные действия в настоящем времени на действия в будущем (mañana)',
     questions: [
-      { question: 'Как автор добрался из аэропорта?', options: ['На такси', 'На поезде', 'На автобусе', 'Пешком'], correct: 1 },
-      { question: 'Где находится отель?', options: ['У вокзала', 'У аэропорта', 'У Plaza de Catalunya', 'У пляжа'], correct: 2 },
-      { question: 'Какие места посетил автор?', options: ['Музеи', 'Las Ramblas и Barrio Gótico', 'Пляжи', 'Парки'], correct: 1 },
-      { question: 'Где находится Sagrada Familia?', options: ['В центре', 'Далеко от центра', 'Рядом с отелем', 'У вокзала'], correct: 1 }
+      { question: 'Hoy desayuno en casa también. → Mañana...', correct: 'Mañana desayunaré en casa también.' },
+      { question: 'Hoy salimos de la Universidad a las 4 también. → Mañana...', correct: 'Mañana saldremos de la Universidad a las 4 también.' },
+      { question: 'Hoy los estudiantes leen y escriben mucho también. → Mañana...', correct: 'Mañana los estudiantes leerán y escribirán mucho también.' },
+      { question: 'Hoy Carmen descubre mis secretos también. → Mañana...', correct: 'Mañana Carmen descubrirá mis secretos también.' },
+      { question: 'Hoy veo dos películas por la noche también. → Mañana...', correct: 'Mañana veré dos películas por la noche también.' },
+      { question: 'Hoy tenemos prisa, por eso vamos en taxi también. → Mañana...', correct: 'Mañana tendremos prisa, por eso iremos en taxi también.' },
+      { question: 'Hoy quiero decir la verdad pero no puedo. → Mañana...', correct: 'Mañana querré decir la verdad pero no podré.' },
+      { question: 'Hoy Lola hace la cena y nosotros ponemos la mesa. → Mañana...', correct: 'Mañana Lola hará la cena y nosotros pondremos la mesa.' },
+      { question: 'Hoy Anita y Pablito rompen sus juguetes también. → Mañana...', correct: 'Mañana Anita y Pablito romperán sus juguetes también.' },
+      { question: 'Hoy hay mucho tráfico y no podemos llegar a tiempo. → Mañana...', correct: 'Mañana habrá mucho tráfico y no podremos llegar a tiempo.' }
     ]
   },
   'ex-5-1-4': {
     id: 'ex-5-1-4',
-    type: 'fillblank',
-    title: 'Направления',
-    description: 'Заполните пропуски предлогами',
+    type: 'writing',
+    title: 'Упражнение 4: Ответы на вопросы',
+    description: 'Отвечайте по схеме: No + глагол в Futuro + указатель времени',
     questions: [
-      { sentence: 'Voy _____ la playa en autobús', verb: 'a/en', correct: 'a' },
-      { sentence: 'El hotel está _____ del aeropuerto', verb: 'cerca/lejos', correct: 'cerca' },
-      { sentence: 'Viajamos _____ tren', verb: 'en/a', correct: 'en' },
-      { sentence: 'La estación está _____ de la plaza', verb: 'enfrente', correct: 'enfrente' }
+      { question: '¿Habéis visitado el museo del Prado?', correct: 'No, lo visitaremos el año que viene.' },
+      { question: '¿Ha escrito ya tu hermano el artículo?', correct: 'No, lo escribirá la próxima semana.' },
+      { question: '¿Has roto aquellas cartas?', correct: 'No, las romperé mañana.' },
+      { question: '¿Ha comprado ya el tío Martí los regalos?', correct: 'No, los comprará pasado mañana.' },
+      { question: '¿Habéis hecho los deberes?', correct: 'No, los haremos dentro de media hora.' },
+      { question: '¿Ha vendido tu abuelo su castillo?', correct: 'No, lo venderá el próximo año.' },
+      { question: '¿Habéis visto películas cubanas?', correct: 'No, las veremos el mes siguiente.' },
+      { question: '¿Ha puesto usted la tele?', correct: 'No, la pondré dentro de cinco minutos.' },
+      { question: '¿Han dicho los resultados de la operación?', correct: 'No, los dirán pronto.' },
+      { question: '¿Ha devuelto Jorge la deuda?', correct: 'No, la devolverá pasado mañana.' }
     ]
   },
   'ex-5-1-5': {
     id: 'ex-5-1-5',
     type: 'writing',
-    title: 'Как добраться',
-    description: 'Переведите на испанский',
+    title: 'Упражнение 5: Перевод на испанский язык',
+    description: 'Переведите предложения на испанский',
     questions: [
-      { russian: 'Я еду в аэропорт на метро', correct: 'voy al aeropuerto en metro' },
-      { russian: 'Отель рядом со станцией', correct: 'el hotel está cerca de la estación' },
-      { russian: 'Мы путешествуем на поезде', correct: 'viajamos en tren' },
-      { russian: 'Поверни направо', correct: 'gira a la derecha' }
+      { russian: 'В следующем году они поедут в отпуск в Италию.', correct: 'El año que viene irán de vacaciones a Italia.' },
+      { russian: 'Мы купим билеты на следующей неделе.', correct: 'Compraremos los billetes la semana que viene.' },
+      { russian: 'Послезавтра Лола придет к нам в гости, и ты с ней познакомишься.', correct: 'Pasado mañana Lola vendrá a vernos y tú la conocerás.' },
+      { russian: 'Почему дедушка не играет со мной? — Наверное, он плохо себя чувствует или устал.', correct: '¿Por qué el abuelo no juega conmigo? — Se sentirá mal o estará cansado.' },
+      { russian: 'Завтра я узнаю, в котором часу уходит поезд, и тебе об этом скажу. Сможешь проводить меня на вокзал?', correct: 'Mañana sabré a qué hora sale el tren y te lo diré. ¿Podrás acompañarme a la estación?' },
+      { russian: 'Сколько лет Анне? — Ей лет 20-25.', correct: '¿Cuántos años tiene Ana? — Tendrá unos 20 o 25 años.' },
+      { russian: 'Вы (vosotros) полетите на самолете или поедете на поезде? — Я думаю, что моя жена захочет поехать на поезде.', correct: '¿Volaréis en avión o iréis en tren? — Creo que mi mujer querrá ir en tren.' },
+      { russian: 'Им понравится эта квартира, и они ее снимут.', correct: 'Les gustará este piso y lo alquilarán.' },
+      { russian: 'Завтра ты выйдешь из дома пораньше и приедешь на работу вовремя.', correct: 'Mañana saldrás de casa más temprano y llegarás al trabajo a tiempo.' },
+      { russian: 'Мы сможем посмотреть этот фильм через неделю.', correct: 'Podremos ver esta película dentro de una semana.' }
+    ]
+  },
+
+  'ex-5-1-6': {
+    id: 'ex-5-1-6',
+    type: 'writing',
+    title: 'Упражнение 6: Ответьте на вопросы по образцу',
+    description: 'Отрицание с "nada", "nadie", "nunca" и "ninguno"',
+    questions: [
+      { question: '¿Ves a alguien?', correct: 'No veo a nadie.' },
+      { question: '¿Estás diciendo algo?', correct: 'No estoy diciendo nada.' },
+      { question: '¿A quién quieres?', correct: 'No quiero a nadie.' },
+      { question: '¿De quién estás hablando?', correct: 'No estoy hablando de nadie.' },
+      { question: '¿A quién vas a hacer esta pregunta?', correct: 'No voy a hacer esta pregunta a nadie.' },
+      { question: '¿Con quién desayunas?', correct: 'No desayuno con nadie.' },
+      { question: '¿Sabes algo de María?', correct: 'No sé nada de María.' },
+      { question: '¿Oyes algo?', correct: 'No oigo nada.' },
+      { question: '¿Quién abrirá la ventana?', correct: 'Nadie la abrirá.' },
+      { question: '¿Quién hará la cama?', correct: 'Nadie la hará.' },
+      { question: '¿Quién pondrá la mesa?', correct: 'Nadie la pondrá.' },
+      { question: '¿Quién traerá los billetes?', correct: 'Nadie los traerá.' },
+      { question: '¿Habéis leído poesías de Lorca?', correct: 'Nunca hemos leído ninguna poesía de Lorca.' },
+      { question: '¿Ha trabajado usted en el banco BBV?', correct: 'Nunca he trabajado en ningún banco.' },
+      { question: '¿Has roto tu teléfono móvil?', correct: 'Nunca he roto ningún teléfono móvil.' }
+    ]
+  },
+
+  'ex-5-1-7': {
+    id: 'ex-5-1-7',
+    type: 'grammar',
+    title: 'Упражнение 7: Заполните пропуски',
+    description: 'Выберите правильное местоимение',
+    questions: [
+      { sentence: 'Quiero comer ___', options: ['algo', 'alguien', 'alguno', 'nada'], correct: 0 },
+      { sentence: 'Por la mañana el padre lee ___ periódico', options: ['algún', 'alguno', 'algunos', 'algo'], correct: 0 },
+      { sentence: 'Juan no hace ___, porque es perezoso', options: ['algo', 'alguien', 'nada', 'nadie'], correct: 2 },
+      { sentence: 'En nuestro grupo ___ estudiantes son de Francia', options: ['algún', 'algunos', 'ningún', 'algo'], correct: 1 },
+      { sentence: 'En mi cuarto no hay ___ espejo', options: ['algún', 'ningún', 'alguno', 'ninguno'], correct: 1 },
+      { sentence: 'Ana no pregunta ___ al profesor', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
+      { sentence: 'Pedro ___ va de compras con sus padres', options: ['nunca', 'jamás', 'siempre', 'algo'], correct: 0 },
+      { sentence: '¿Conoces a ___ de tus vecinos?', options: ['algo', 'alguien', 'alguno', 'algún'], correct: 2 },
+      { sentence: 'No sabe bailar bien ___ de mis amigas', options: ['ninguna', 'ningún', 'nadie', 'nada'], correct: 0 },
+      { sentence: '¿Esperas a alguien? — No espero a ___', options: ['algo', 'alguien', 'nadie', 'nada'], correct: 2 }
+    ]
+  },
+
+  'ex-5-1-8': {
+    id: 'ex-5-1-8',
+    type: 'writing',
+    title: 'Упражнение 8: Переведите на испанский язык',
+    description: 'Отрицательные и неопределенные местоимения',
+    questions: [
+      { russian: 'Никто ничего не знает.', correct: 'Nadie sabe nada.' },
+      { russian: 'Я никогда не езжу в отпуск без тебя.', correct: 'Nunca voy de vacaciones sin ti.' },
+      { russian: 'В нашем городе нет никаких музеев.', correct: 'En nuestra ciudad no hay ningún museo.' },
+      { russian: 'Он не помнит никого из них.', correct: 'No recuerda a ninguno de ellos.' },
+      { russian: 'На этой улице есть какая-нибудь аптека? — Нет, здесь нет никакой аптеки.', correct: '¿Hay alguna farmacia en esta calle? — No, no hay ninguna farmacia aquí.' },
+      { russian: 'Перед сном дедушка любит что-нибудь почитать.', correct: 'Antes de dormir al abuelo le gusta leer algo.' },
+      { russian: 'В 10 часов вечера Терезе кто-то звонит по телефону и ничего не говорит.', correct: 'A las 10 de la noche alguien llama a Teresa por teléfono y no dice nada.' },
+      { russian: 'Кто-нибудь из Вас знает, где находится стоянка такси?', correct: '¿Alguno de ustedes sabe dónde está la parada de taxis?' },
+      { russian: 'Ты видишь кого-нибудь? — Я не вижу никого.', correct: '¿Ves a alguien? — No veo a nadie.' },
+      { russian: 'Здесь есть поблизости какой-нибудь банк? — Да, есть какой-то.', correct: '¿Hay algún banco cerca de aquí? — Sí, hay alguno.' }
+    ]
+  },
+
+  'ex-5-1-9': {
+    id: 'ex-5-1-9',
+    type: 'writing',
+    title: 'Упражнение 9: Замените este/esta на todo/toda',
+    description: 'Ответьте по образцу: Traduzco este texto. — Traduzco todos los textos.',
+    questions: [
+      { question: 'Traduzco este texto.', correct: 'Traduzco todos los textos.' },
+      { question: 'Esta película está en español.', correct: 'Todas las películas están en español.' },
+      { question: 'Este pasaporte está caducado.', correct: 'Todos los pasaportes están caducados.' },
+      { question: 'Esta azafata es muy amable.', correct: 'Todas las azafatas son muy amables.' },
+      { question: 'Este tren es rápido.', correct: 'Todos los trenes son rápidos.' },
+      { question: 'Esta maleta es pesada.', correct: 'Todas las maletas son pesadas.' },
+      { question: 'Este vuelo es directo.', correct: 'Todos los vuelos son directos.' },
+      { question: 'Esta habitación está limpia.', correct: 'Todas las habitaciones están limpias.' }
+    ]
+  },
+
+  'ex-5-1-10': {
+    id: 'ex-5-1-10',
+    type: 'writing',
+    title: 'Упражнение 10: Переведите на русский язык',
+    description: 'Предложения с "todo"',
+    questions: [
+      { question: 'Todo el mundo compra billetes de avión por internet.', correct: 'Весь мир покупает билеты на самолёт через интернет.' },
+      { question: 'Todos los pasajeros llegan temprano al aeropuerto.', correct: 'Все пассажиры приходят рано в аэропорт.' },
+      { question: 'Todo el equipaje pasa por el control de seguridad.', correct: 'Весь багаж проходит через контроль безопасности.' },
+      { question: 'Toda la tripulación está lista para el vuelo.', correct: 'Весь экипаж готов к полёту.' },
+      { question: 'En toda mi vida nunca he viajado en primera clase.', correct: 'За всю мою жизнь я никогда не летал первым классом.' },
+      { question: 'Toda Europa está conectada por trenes de alta velocidad.', correct: 'Вся Европа связана высокоскоростными поездами.' },
+      { question: 'Todos los viajeros deben tener pasaporte.', correct: 'Все путешественники должны иметь паспорт.' },
+      { question: 'Toda la información está en la página web.', correct: 'Вся информация находится на веб-сайте.' }
+    ]
+  },
+
+  'ex-5-1-11': {
+    id: 'ex-5-1-11',
+    type: 'writing',
+    title: 'Упражнение 11: Ответьте, заменив este/esta на otro/otra',
+    description: 'Ответьте по образцу: ¿Quieres este café? — Prefiero otro café.',
+    questions: [
+      { question: '¿Quieres este café?', correct: 'Prefiero otro café.' },
+      { question: '¿Te gusta esta revista?', correct: 'Prefiero otra revista.' },
+      { question: '¿Necesitas este bolígrafo?', correct: 'Necesito otro bolígrafo.' },
+      { question: '¿Compras esta maleta?', correct: 'Compro otra maleta.' },
+      { question: '¿Lees este periódico?', correct: 'Leo otro periódico.' },
+      { question: '¿Eliges este asiento?', correct: 'Elijo otro asiento.' },
+      { question: '¿Reservas este hotel?', correct: 'Reservo otro hotel.' },
+      { question: '¿Prefieres esta habitación?', correct: 'Prefiero otra habitación.' }
+    ]
+  },
+
+  'ex-5-1-12': {
+    id: 'ex-5-1-12',
+    type: 'writing',
+    title: 'Упражнение 12: Переведите на русский язык',
+    description: 'Предложения с cada, otro, cualquiera',
+    questions: [
+      { question: 'Cada pasajero tiene su propio asiento.', correct: 'У каждого пассажира есть свое место.' },
+      { question: 'Otro día viajaré a España.', correct: 'В другой день я поеду в Испанию.' },
+      { question: 'Cualquier persona puede comprar un billete.', correct: 'Любой человек может купить билет.' },
+      { question: 'Cada mañana desayuno a las 8.', correct: 'Каждое утро я завтракаю в 8.' },
+      { question: '¿Hay otra salida de emergencia?', correct: 'Есть другой аварийный выход?' },
+      { question: 'Puedes sentarte en cualquier asiento libre.', correct: 'Ты можешь сесть на любое свободное место.' },
+      { question: 'Cada vuelo tiene un número.', correct: 'У каждого рейса есть номер.' },
+      { question: 'Necesito otro pasaporte.', correct: 'Мне нужен другой паспорт.' },
+      { question: 'Cualquier día de la semana está bien para mí.', correct: 'Любой день недели мне подходит.' },
+      { question: 'Cada año viajo a un país diferente.', correct: 'Каждый год я езжу в другую страну.' }
+    ]
+  },
+
+  'ex-5-1-13': {
+    id: 'ex-5-1-13',
+    type: 'grammar',
+    title: 'Упражнение 13: Заполните пропуски',
+    description: 'Выберите правильное местоимение: todo, cada, otro, cualquier',
+    questions: [
+      { sentence: '___ los pasajeros deben presentar su pasaporte.', options: ['Todos', 'Cada', 'Otro', 'Cualquier'], correct: 0 },
+      { sentence: '___ persona puede hacer una pregunta.', options: ['Todo', 'Cada', 'Otra', 'Cualquier'], correct: 3 },
+      { sentence: 'Necesito ___ billete, este está roto.', options: ['todo', 'cada', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ día salgo a correr.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ el equipaje está en el avión.', options: ['Todos', 'Cada', 'Todo', 'Cualquier'], correct: 2 },
+      { sentence: '¿Hay ___ vuelo disponible?', options: ['todo', 'cada', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ estudiante tiene un libro.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ día haré este viaje.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 2 },
+      { sentence: 'Puedes elegir ___ hotel que quieras.', options: ['todo', 'cada', 'otro', 'cualquier'], correct: 3 },
+      { sentence: '___ las azafatas son muy profesionales.', options: ['Todos', 'Cada', 'Otro', 'Todas'], correct: 3 }
+    ]
+  },
+
+  'ex-5-1-14': {
+    id: 'ex-5-1-14',
+    type: 'writing',
+    title: 'Упражнение 14: Переведите на испанский язык',
+    description: 'Используйте cada, otro, todo, cualquiera',
+    questions: [
+      { russian: 'Каждый день я хожу в офис.', correct: 'Cada día voy a la oficina.' },
+      { russian: 'Все студенты сдали экзамен.', correct: 'Todos los estudiantes aprobaron el examen.' },
+      { russian: 'Мне нужна другая комната.', correct: 'Necesito otra habitación.' },
+      { russian: 'Любой человек может участвовать.', correct: 'Cualquier persona puede participar.' },
+      { russian: 'Каждое утро я пью кофе.', correct: 'Cada mañana bebo café.' },
+      { russian: 'Весь багаж уже на борту.', correct: 'Todo el equipaje ya está a bordo.' },
+      { russian: 'У тебя есть другая ручка?', correct: '¿Tienes otro bolígrafo?' },
+      { russian: 'Любой день недели мне подходит.', correct: 'Cualquier día de la semana me viene bien.' },
+      { russian: 'Все рейсы отменены.', correct: 'Todos los vuelos están cancelados.' }
     ]
   },
 
