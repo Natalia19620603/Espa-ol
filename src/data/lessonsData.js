@@ -6849,19 +6849,45 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
     },
     vocabulary: [
       { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-      { word: 'estación', translation: 'станция, вокзал', audioUrl: null },
-      { word: 'tren', translation: 'поезд', audioUrl: null },
       { word: 'avión', translation: 'самолёт', audioUrl: null },
-      { word: 'autobús', translation: 'автобус', audioUrl: null },
-      { word: 'metro', translation: 'метро', audioUrl: null },
-      { word: 'taxi', translation: 'такси', audioUrl: null },
-      { word: 'billete', translation: 'билет', audioUrl: null },
+      { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
+      { word: 'azafata', translation: 'стюардесса', audioUrl: null },
+      { word: 'tripulación', translation: 'экипаж', audioUrl: null },
+      { word: 'comandante', translation: 'командир', audioUrl: null },
+      { word: 'facturación', translation: 'регистрация', audioUrl: null },
+      { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
+      { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
+      { word: 'aduana', translation: 'таможня', audioUrl: null },
+      { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
+      { word: 'equipaje', translation: 'багаж', audioUrl: null },
       { word: 'maleta', translation: 'чемодан', audioUrl: null },
-      { word: 'mochila', translation: 'рюкзак', audioUrl: null },
-      { word: 'mapa', translation: 'карта', audioUrl: null },
-      { word: 'derecha', translation: 'право', audioUrl: null },
-      { word: 'izquierda', translation: 'лево', audioUrl: null },
-      { word: 'recto', translation: 'прямо', audioUrl: null }
+      { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
+      { word: 'salida', translation: 'отправление', audioUrl: null },
+      { word: 'llegada', translation: 'прибытие', audioUrl: null },
+      { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
+      { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
+      { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
+      { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
+      { word: 'carrito', translation: 'тележка', audioUrl: null },
+      { word: 'reservar billetes', translation: 'забронировать билеты', audioUrl: null },
+      { word: 'solicitar el visado', translation: 'запросить визу', audioUrl: null },
+      { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
+      { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
+      { word: 'facturar el equipaje', translation: 'сдать вещи в багаж', audioUrl: null },
+      { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
+      { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
+      { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
+      { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
+      { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
+      { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
+      { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
+      { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
+      { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
+      { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
+      { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
+      { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
+      { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null },
+      { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null }
     ],
     readingText: {
       title: 'Un día en Barcelona',
@@ -6893,7 +6919,7 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
 Сейчас я вернулся в отель. Завтра хочу посетить парк Гуэль и пляж Барселонета. Я купил билет на метро на три дня. Мне очень нравится Барселона. Это идеальный город для путешествий.`,
       audioUrl: '/audio/lesson-5-1-reading.mp3'
     },
-    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5']
+    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5', 'ex-5-1-6', 'ex-5-1-7', 'ex-5-1-8', 'ex-5-1-9', 'ex-5-1-10', 'ex-5-1-11', 'ex-5-1-12', 'ex-5-1-13', 'ex-5-1-14']
   },
 
   'lesson-5-2': {
@@ -11468,6 +11494,175 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Им понравится эта квартира, и они ее снимут.', correct: 'Les gustará este piso y lo alquilarán.' },
       { russian: 'Завтра ты выйдешь из дома пораньше и приедешь на работу вовремя.', correct: 'Mañana saldrás de casa más temprano y llegarás al trabajo a tiempo.' },
       { russian: 'Мы сможем посмотреть этот фильм через неделю.', correct: 'Podremos ver esta película dentro de una semana.' }
+    ]
+  },
+
+  'ex-5-1-6': {
+    id: 'ex-5-1-6',
+    type: 'writing',
+    title: 'Упражнение 6: Ответьте на вопросы по образцу',
+    description: 'Отрицание с "nada", "nadie", "nunca" и "ninguno"',
+    questions: [
+      { question: '¿Ves a alguien?', correct: 'No veo a nadie.' },
+      { question: '¿Estás diciendo algo?', correct: 'No estoy diciendo nada.' },
+      { question: '¿A quién quieres?', correct: 'No quiero a nadie.' },
+      { question: '¿De quién estás hablando?', correct: 'No estoy hablando de nadie.' },
+      { question: '¿A quién vas a hacer esta pregunta?', correct: 'No voy a hacer esta pregunta a nadie.' },
+      { question: '¿Con quién desayunas?', correct: 'No desayuno con nadie.' },
+      { question: '¿Sabes algo de María?', correct: 'No sé nada de María.' },
+      { question: '¿Oyes algo?', correct: 'No oigo nada.' },
+      { question: '¿Quién abrirá la ventana?', correct: 'Nadie la abrirá.' },
+      { question: '¿Quién hará la cama?', correct: 'Nadie la hará.' },
+      { question: '¿Quién pondrá la mesa?', correct: 'Nadie la pondrá.' },
+      { question: '¿Quién traerá los billetes?', correct: 'Nadie los traerá.' },
+      { question: '¿Habéis leído poesías de Lorca?', correct: 'Nunca hemos leído ninguna poesía de Lorca.' },
+      { question: '¿Ha trabajado usted en el banco BBV?', correct: 'Nunca he trabajado en ningún banco.' },
+      { question: '¿Has roto tu teléfono móvil?', correct: 'Nunca he roto ningún teléfono móvil.' }
+    ]
+  },
+
+  'ex-5-1-7': {
+    id: 'ex-5-1-7',
+    type: 'grammar',
+    title: 'Упражнение 7: Заполните пропуски',
+    description: 'Выберите правильное местоимение',
+    questions: [
+      { sentence: 'Quiero comer ___', options: ['algo', 'alguien', 'alguno', 'nada'], correct: 0 },
+      { sentence: 'Por la mañana el padre lee ___ periódico', options: ['algún', 'alguno', 'algunos', 'algo'], correct: 0 },
+      { sentence: 'Juan no hace ___, porque es perezoso', options: ['algo', 'alguien', 'nada', 'nadie'], correct: 2 },
+      { sentence: 'En nuestro grupo ___ estudiantes son de Francia', options: ['algún', 'algunos', 'ningún', 'algo'], correct: 1 },
+      { sentence: 'En mi cuarto no hay ___ espejo', options: ['algún', 'ningún', 'alguno', 'ninguno'], correct: 1 },
+      { sentence: 'Ana no pregunta ___ al profesor', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
+      { sentence: 'Pedro ___ va de compras con sus padres', options: ['nunca', 'jamás', 'siempre', 'algo'], correct: 0 },
+      { sentence: '¿Conoces a ___ de tus vecinos?', options: ['algo', 'alguien', 'alguno', 'algún'], correct: 2 },
+      { sentence: 'No sabe bailar bien ___ de mis amigas', options: ['ninguna', 'ningún', 'nadie', 'nada'], correct: 0 },
+      { sentence: '¿Esperas a alguien? — No espero a ___', options: ['algo', 'alguien', 'nadie', 'nada'], correct: 2 }
+    ]
+  },
+
+  'ex-5-1-8': {
+    id: 'ex-5-1-8',
+    type: 'writing',
+    title: 'Упражнение 8: Переведите на испанский язык',
+    description: 'Отрицательные и неопределенные местоимения',
+    questions: [
+      { russian: 'Никто ничего не знает.', correct: 'Nadie sabe nada.' },
+      { russian: 'Я никогда не езжу в отпуск без тебя.', correct: 'Nunca voy de vacaciones sin ti.' },
+      { russian: 'В нашем городе нет никаких музеев.', correct: 'En nuestra ciudad no hay ningún museo.' },
+      { russian: 'Он не помнит никого из них.', correct: 'No recuerda a ninguno de ellos.' },
+      { russian: 'На этой улице есть какая-нибудь аптека? — Нет, здесь нет никакой аптеки.', correct: '¿Hay alguna farmacia en esta calle? — No, no hay ninguna farmacia aquí.' },
+      { russian: 'Перед сном дедушка любит что-нибудь почитать.', correct: 'Antes de dormir al abuelo le gusta leer algo.' },
+      { russian: 'В 10 часов вечера Терезе кто-то звонит по телефону и ничего не говорит.', correct: 'A las 10 de la noche alguien llama a Teresa por teléfono y no dice nada.' },
+      { russian: 'Кто-нибудь из Вас знает, где находится стоянка такси?', correct: '¿Alguno de ustedes sabe dónde está la parada de taxis?' },
+      { russian: 'Ты видишь кого-нибудь? — Я не вижу никого.', correct: '¿Ves a alguien? — No veo a nadie.' },
+      { russian: 'Здесь есть поблизости какой-нибудь банк? — Да, есть какой-то.', correct: '¿Hay algún banco cerca de aquí? — Sí, hay alguno.' }
+    ]
+  },
+
+  'ex-5-1-9': {
+    id: 'ex-5-1-9',
+    type: 'writing',
+    title: 'Упражнение 9: Замените este/esta на todo/toda',
+    description: 'Ответьте по образцу: Traduzco este texto. — Traduzco todos los textos.',
+    questions: [
+      { question: 'Traduzco este texto.', correct: 'Traduzco todos los textos.' },
+      { question: 'Esta película está en español.', correct: 'Todas las películas están en español.' },
+      { question: 'Este pasaporte está caducado.', correct: 'Todos los pasaportes están caducados.' },
+      { question: 'Esta azafata es muy amable.', correct: 'Todas las azafatas son muy amables.' },
+      { question: 'Este tren es rápido.', correct: 'Todos los trenes son rápidos.' },
+      { question: 'Esta maleta es pesada.', correct: 'Todas las maletas son pesadas.' },
+      { question: 'Este vuelo es directo.', correct: 'Todos los vuelos son directos.' },
+      { question: 'Esta habitación está limpia.', correct: 'Todas las habitaciones están limpias.' }
+    ]
+  },
+
+  'ex-5-1-10': {
+    id: 'ex-5-1-10',
+    type: 'writing',
+    title: 'Упражнение 10: Переведите на русский язык',
+    description: 'Предложения с "todo"',
+    questions: [
+      { question: 'Todo el mundo compra billetes de avión por internet.', correct: 'Весь мир покупает билеты на самолёт через интернет.' },
+      { question: 'Todos los pasajeros llegan temprano al aeropuerto.', correct: 'Все пассажиры приходят рано в аэропорт.' },
+      { question: 'Todo el equipaje pasa por el control de seguridad.', correct: 'Весь багаж проходит через контроль безопасности.' },
+      { question: 'Toda la tripulación está lista para el vuelo.', correct: 'Весь экипаж готов к полёту.' },
+      { question: 'En toda mi vida nunca he viajado en primera clase.', correct: 'За всю мою жизнь я никогда не летал первым классом.' },
+      { question: 'Toda Europa está conectada por trenes de alta velocidad.', correct: 'Вся Европа связана высокоскоростными поездами.' },
+      { question: 'Todos los viajeros deben tener pasaporte.', correct: 'Все путешественники должны иметь паспорт.' },
+      { question: 'Toda la información está en la página web.', correct: 'Вся информация находится на веб-сайте.' }
+    ]
+  },
+
+  'ex-5-1-11': {
+    id: 'ex-5-1-11',
+    type: 'writing',
+    title: 'Упражнение 11: Ответьте, заменив este/esta на otro/otra',
+    description: 'Ответьте по образцу: ¿Quieres este café? — Prefiero otro café.',
+    questions: [
+      { question: '¿Quieres este café?', correct: 'Prefiero otro café.' },
+      { question: '¿Te gusta esta revista?', correct: 'Prefiero otra revista.' },
+      { question: '¿Necesitas este bolígrafo?', correct: 'Necesito otro bolígrafo.' },
+      { question: '¿Compras esta maleta?', correct: 'Compro otra maleta.' },
+      { question: '¿Lees este periódico?', correct: 'Leo otro periódico.' },
+      { question: '¿Eliges este asiento?', correct: 'Elijo otro asiento.' },
+      { question: '¿Reservas este hotel?', correct: 'Reservo otro hotel.' },
+      { question: '¿Prefieres esta habitación?', correct: 'Prefiero otra habitación.' }
+    ]
+  },
+
+  'ex-5-1-12': {
+    id: 'ex-5-1-12',
+    type: 'writing',
+    title: 'Упражнение 12: Переведите на русский язык',
+    description: 'Предложения с cada, otro, cualquiera',
+    questions: [
+      { question: 'Cada pasajero tiene su propio asiento.', correct: 'У каждого пассажира есть свое место.' },
+      { question: 'Otro día viajaré a España.', correct: 'В другой день я поеду в Испанию.' },
+      { question: 'Cualquier persona puede comprar un billete.', correct: 'Любой человек может купить билет.' },
+      { question: 'Cada mañana desayuno a las 8.', correct: 'Каждое утро я завтракаю в 8.' },
+      { question: '¿Hay otra salida de emergencia?', correct: 'Есть другой аварийный выход?' },
+      { question: 'Puedes sentarte en cualquier asiento libre.', correct: 'Ты можешь сесть на любое свободное место.' },
+      { question: 'Cada vuelo tiene un número.', correct: 'У каждого рейса есть номер.' },
+      { question: 'Necesito otro pasaporte.', correct: 'Мне нужен другой паспорт.' },
+      { question: 'Cualquier día de la semana está bien para mí.', correct: 'Любой день недели мне подходит.' },
+      { question: 'Cada año viajo a un país diferente.', correct: 'Каждый год я езжу в другую страну.' }
+    ]
+  },
+
+  'ex-5-1-13': {
+    id: 'ex-5-1-13',
+    type: 'grammar',
+    title: 'Упражнение 13: Заполните пропуски',
+    description: 'Выберите правильное местоимение: todo, cada, otro, cualquier',
+    questions: [
+      { sentence: '___ los pasajeros deben presentar su pasaporte.', options: ['Todos', 'Cada', 'Otro', 'Cualquier'], correct: 0 },
+      { sentence: '___ persona puede hacer una pregunta.', options: ['Todo', 'Cada', 'Otra', 'Cualquier'], correct: 3 },
+      { sentence: 'Necesito ___ billete, este está roto.', options: ['todo', 'cada', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ día salgo a correr.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ el equipaje está en el avión.', options: ['Todos', 'Cada', 'Todo', 'Cualquier'], correct: 2 },
+      { sentence: '¿Hay ___ vuelo disponible?', options: ['todo', 'cada', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ estudiante tiene un libro.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ día haré este viaje.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 2 },
+      { sentence: 'Puedes elegir ___ hotel que quieras.', options: ['todo', 'cada', 'otro', 'cualquier'], correct: 3 },
+      { sentence: '___ las azafatas son muy profesionales.', options: ['Todos', 'Cada', 'Otro', 'Todas'], correct: 3 }
+    ]
+  },
+
+  'ex-5-1-14': {
+    id: 'ex-5-1-14',
+    type: 'writing',
+    title: 'Упражнение 14: Переведите на испанский язык',
+    description: 'Используйте cada, otro, todo, cualquiera',
+    questions: [
+      { russian: 'Каждый день я хожу в офис.', correct: 'Cada día voy a la oficina.' },
+      { russian: 'Все студенты сдали экзамен.', correct: 'Todos los estudiantes aprobaron el examen.' },
+      { russian: 'Мне нужна другая комната.', correct: 'Necesito otra habitación.' },
+      { russian: 'Любой человек может участвовать.', correct: 'Cualquier persona puede participar.' },
+      { russian: 'Каждое утро я пью кофе.', correct: 'Cada mañana bebo café.' },
+      { russian: 'Весь багаж уже на борту.', correct: 'Todo el equipaje ya está a bordo.' },
+      { russian: 'У тебя есть другая ручка?', correct: '¿Tienes otro bolígrafo?' },
+      { russian: 'Любой день недели мне подходит.', correct: 'Cualquier día de la semana me viene bien.' },
+      { russian: 'Все рейсы отменены.', correct: 'Todos los vuelos están cancelados.' }
     ]
   },
 
