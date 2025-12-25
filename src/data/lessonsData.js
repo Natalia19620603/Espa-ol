@@ -53,7 +53,7 @@ export const modules = {
   'module-5': {
     id: 'module-5',
     title: 'Модуль 5: Путешествия и места',
-    level: 'elementary',
+    level: 'beginner',
     lessons: ['lesson-5-1', 'lesson-5-2', 'lesson-5-3'],
     description: 'Лексика путешествий, направления, транспорт'
   },
@@ -6694,10 +6694,10 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Хуан и Лаура: Как здорово! Спасибо, мама.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20']
+    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20']
   },
 
-  // МОДУЛЬ 5: Путешествия и места (A2)
+  // МОДУЛЬ 5: Путешествия и места (A1)
   'lesson-5-1': {
     id: 'lesson-5-1',
     title: 'Урок 1: ПУТЕШЕСТВИЕ НА САМОЛЕТЕ, ПОЕЗДЕ. Futuro Simple (будущее время)',
@@ -11215,20 +11215,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-12': {
-    id: 'ex-4-4-12',
-    type: 'writing',
-    title: 'Упражнение 11: Composición - Mi día',
-    description: 'Напишите 5 предложений о том, что вы сделали сегодня, используя Pretérito Perfecto',
-    questions: [
-      { question: '¿Qué has hecho esta mañana?', correct: 'Esta mañana me he levantado temprano' },
-      { question: '¿Has desayunado? ¿Qué has comido?', correct: 'He desayunado café y tostadas' },
-      { question: '¿Dónde has estado hoy?', correct: 'He estado en el trabajo' },
-      { question: '¿Con quién has hablado?', correct: 'He hablado con mis compañeros' },
-      { question: '¿Qué has aprendido en esta lección?', correct: 'He aprendido el pretérito perfecto' }
-    ]
-  },
-
   'ex-4-4-13': {
     id: 'ex-4-4-13',
     type: 'grammar',
@@ -11396,65 +11382,92 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // МОДУЛЬ 5: Путешествия и места
   'ex-5-1-1': {
     id: 'ex-5-1-1',
-    type: 'vocabulary',
-    title: 'Транспорт',
-    description: 'Выберите правильный перевод',
+    type: 'writing',
+    title: 'Упражнение 1: Будущее время (Futuro Simple)',
+    description: 'Переведите предложения на испанский язык',
     questions: [
-      { spanish: 'avión', options: ['автобус', 'самолёт', 'поезд', 'такси'], correct: 1 },
-      { spanish: 'tren', options: ['метро', 'автобус', 'поезд', 'машина'], correct: 2 },
-      { spanish: 'aeropuerto', options: ['вокзал', 'аэропорт', 'гостиница', 'музей'], correct: 1 },
-      { spanish: 'billete', options: ['чемодан', 'карта', 'билет', 'ключ'], correct: 2 },
-      { spanish: 'maleta', options: ['рюкзак', 'сумка', 'чемодан', 'карта'], correct: 2 }
+      { russian: 'Завтра поезд отправится ровно в шесть.', correct: 'Mañana el tren saldrá a las seis en punto.' },
+      { russian: 'На следующей неделе мы придем тебя навестить.', correct: 'La semana que viene nosotros vendremos a verte.' },
+      { russian: 'Родители поедут в путешествие с дочерью на Кубу в следующем году.', correct: 'Los padres irán de viaje con su hija a Cuba el año siguiente.' },
+      { russian: 'Они скажут нам результаты операции послезавтра.', correct: 'Ellos nos dirán los resultados de la operación pasado mañana.' },
+      { russian: 'В следующем месяце семья Муньос снимет другую квартиру.', correct: 'El próximo mes los Muñoz alquilarán otro piso.' },
+      { russian: 'Мы вернемся через 5 минут.', correct: 'Nosotros volveremos dentro de 5 minutos.' },
+      { russian: 'Луис говорит, что соседи тоже захотят прийти завтра на наш праздник.', correct: 'Luis dice que los vecinos también querrán venir mañana a nuestra fiesta.' },
+      { russian: 'На следующей неделе у них будет мало работы.', correct: 'La semana siguiente ellos tendrán poco trabajo.' },
+      { russian: 'Через три месяца ты будешь уметь хорошо говорить по-испански.', correct: 'Dentro de tres meses tú sabrás hablar el español bien.' },
+      { russian: 'После обеда мы с дядей погуляем по парку.', correct: 'Después del almuerzo mi tío y yo daremos un paseo por el parque.' }
     ]
   },
   'ex-5-1-2': {
     id: 'ex-5-1-2',
-    type: 'grammar',
-    title: 'Предлоги места',
-    description: 'Выберите правильный предлог',
+    type: 'writing',
+    title: 'Упражнение 2: Вероятность в настоящем (Futuro de Probabilidad)',
+    description: 'Переведите предложения на испанский язык',
     questions: [
-      { sentence: 'El hotel está ___ la estación', options: ['cerca de', 'lejos', 'entre', 'desde'], correct: 0 },
-      { sentence: 'Voy ___ Madrid', options: ['en', 'a', 'de', 'por'], correct: 1 },
-      { sentence: 'La farmacia está ___ del banco', options: ['lejos', 'cerca', 'enfrente', 'entre'], correct: 2 },
-      { sentence: 'Viajo ___ avión', options: ['a', 'de', 'en', 'por'], correct: 2 },
-      { sentence: 'El museo está ___ la iglesia y el hotel', options: ['cerca', 'entre', 'enfrente', 'delante'], correct: 1 }
+      { russian: 'Сколько детей у Сильвии? — Наверное, шестеро.', correct: '¿Cuántos hijos tiene Silvia? — Tendrá seis hijos.' },
+      { russian: 'Сейчас они, должно быть, живут в Дании.', correct: 'Ahora ellos vivirán en Dinamarca.' },
+      { russian: 'Откуда Хельга? — Вероятно, из Швейцарии.', correct: '¿De dónde es Helga? — Será de Suiza.' },
+      { russian: 'Почему не пришел начальник? — Должно быть, он болен.', correct: '¿Por qué no ha venido el jefe? — Estará enfermo.' },
+      { russian: 'Где твои друзья? — Наверное, играют в футбол.', correct: '¿Dónde están tus amigos? — Jugarán al fútbol.' },
+      { russian: 'В это время на дороге, скорее всего, пробки.', correct: 'A esta hora habrá atascos en la carretera.' },
+      { russian: 'Ты, случайно, не знаешь адрес своего двоюродного брата?', correct: '¿No sabrás tú la dirección de tu primo?' },
+      { russian: 'Что делает сестра? — Наверное, говорит по телефону или смотрит телевизор.', correct: '¿Qué está haciendo la hermana? — Hablará por teléfono o verá la tele.' },
+      { russian: 'Эта спортивная машина, должно быть, стоит очень дорого.', correct: 'Este coche deportivo costará muchísimo.' },
+      { russian: 'Вы, случайно, не знакомы с соседями с пятого этажа?', correct: '¿No conoceréis vosotros a los vecinos del quinto?' }
     ]
   },
   'ex-5-1-3': {
     id: 'ex-5-1-3',
-    type: 'reading',
-    title: 'Чтение: Un día en Barcelona',
-    description: 'Ответьте на вопросы о тексте',
-    text: 'He llegado al aeropuerto de El Prat. He tomado el tren hasta Sants y después el metro hasta Passeig de Gràcia. Mi hotel está cerca de la Plaza de Catalunya. He visitado Las Ramblas y el Barrio Gótico. La Sagrada Familia está lejos del centro.',
+    type: 'writing',
+    title: 'Упражнение 3: Трансформация предложений',
+    description: 'Замените привычные действия в настоящем времени на действия в будущем (mañana)',
     questions: [
-      { question: 'Как автор добрался из аэропорта?', options: ['На такси', 'На поезде', 'На автобусе', 'Пешком'], correct: 1 },
-      { question: 'Где находится отель?', options: ['У вокзала', 'У аэропорта', 'У Plaza de Catalunya', 'У пляжа'], correct: 2 },
-      { question: 'Какие места посетил автор?', options: ['Музеи', 'Las Ramblas и Barrio Gótico', 'Пляжи', 'Парки'], correct: 1 },
-      { question: 'Где находится Sagrada Familia?', options: ['В центре', 'Далеко от центра', 'Рядом с отелем', 'У вокзала'], correct: 1 }
+      { question: 'Hoy desayuno en casa también. → Mañana...', correct: 'Mañana desayunaré en casa también.' },
+      { question: 'Hoy salimos de la Universidad a las 4 también. → Mañana...', correct: 'Mañana saldremos de la Universidad a las 4 también.' },
+      { question: 'Hoy los estudiantes leen y escriben mucho también. → Mañana...', correct: 'Mañana los estudiantes leerán y escribirán mucho también.' },
+      { question: 'Hoy Carmen descubre mis secretos también. → Mañana...', correct: 'Mañana Carmen descubrirá mis secretos también.' },
+      { question: 'Hoy veo dos películas por la noche también. → Mañana...', correct: 'Mañana veré dos películas por la noche también.' },
+      { question: 'Hoy tenemos prisa, por eso vamos en taxi también. → Mañana...', correct: 'Mañana tendremos prisa, por eso iremos en taxi también.' },
+      { question: 'Hoy quiero decir la verdad pero no puedo. → Mañana...', correct: 'Mañana querré decir la verdad pero no podré.' },
+      { question: 'Hoy Lola hace la cena y nosotros ponemos la mesa. → Mañana...', correct: 'Mañana Lola hará la cena y nosotros pondremos la mesa.' },
+      { question: 'Hoy Anita y Pablito rompen sus juguetes también. → Mañana...', correct: 'Mañana Anita y Pablito romperán sus juguetes también.' },
+      { question: 'Hoy hay mucho tráfico y no podemos llegar a tiempo. → Mañana...', correct: 'Mañana habrá mucho tráfico y no podremos llegar a tiempo.' }
     ]
   },
   'ex-5-1-4': {
     id: 'ex-5-1-4',
-    type: 'fillblank',
-    title: 'Направления',
-    description: 'Заполните пропуски предлогами',
+    type: 'writing',
+    title: 'Упражнение 4: Ответы на вопросы',
+    description: 'Отвечайте по схеме: No + глагол в Futuro + указатель времени',
     questions: [
-      { sentence: 'Voy _____ la playa en autobús', verb: 'a/en', correct: 'a' },
-      { sentence: 'El hotel está _____ del aeropuerto', verb: 'cerca/lejos', correct: 'cerca' },
-      { sentence: 'Viajamos _____ tren', verb: 'en/a', correct: 'en' },
-      { sentence: 'La estación está _____ de la plaza', verb: 'enfrente', correct: 'enfrente' }
+      { question: '¿Habéis visitado el museo del Prado?', correct: 'No, lo visitaremos el año que viene.' },
+      { question: '¿Ha escrito ya tu hermano el artículo?', correct: 'No, lo escribirá la próxima semana.' },
+      { question: '¿Has roto aquellas cartas?', correct: 'No, las romperé mañana.' },
+      { question: '¿Ha comprado ya el tío Martí los regalos?', correct: 'No, los comprará pasado mañana.' },
+      { question: '¿Habéis hecho los deberes?', correct: 'No, los haremos dentro de media hora.' },
+      { question: '¿Ha vendido tu abuelo su castillo?', correct: 'No, lo venderá el próximo año.' },
+      { question: '¿Habéis visto películas cubanas?', correct: 'No, las veremos el mes siguiente.' },
+      { question: '¿Ha puesto usted la tele?', correct: 'No, la pondré dentro de cinco minutos.' },
+      { question: '¿Han dicho los resultados de la operación?', correct: 'No, los dirán pronto.' },
+      { question: '¿Ha devuelto Jorge la deuda?', correct: 'No, la devolverá pasado mañana.' }
     ]
   },
   'ex-5-1-5': {
     id: 'ex-5-1-5',
     type: 'writing',
-    title: 'Как добраться',
-    description: 'Переведите на испанский',
+    title: 'Упражнение 5: Перевод на испанский язык',
+    description: 'Переведите предложения на испанский',
     questions: [
-      { russian: 'Я еду в аэропорт на метро', correct: 'voy al aeropuerto en metro' },
-      { russian: 'Отель рядом со станцией', correct: 'el hotel está cerca de la estación' },
-      { russian: 'Мы путешествуем на поезде', correct: 'viajamos en tren' },
-      { russian: 'Поверни направо', correct: 'gira a la derecha' }
+      { russian: 'В следующем году они поедут в отпуск в Италию.', correct: 'El año que viene irán de vacaciones a Italia.' },
+      { russian: 'Мы купим билеты на следующей неделе.', correct: 'Compraremos los billetes la semana que viene.' },
+      { russian: 'Послезавтра Лола придет к нам в гости, и ты с ней познакомишься.', correct: 'Pasado mañana Lola vendrá a vernos y tú la conocerás.' },
+      { russian: 'Почему дедушка не играет со мной? — Наверное, он плохо себя чувствует или устал.', correct: '¿Por qué el abuelo no juega conmigo? — Se sentirá mal o estará cansado.' },
+      { russian: 'Завтра я узнаю, в котором часу уходит поезд, и тебе об этом скажу. Сможешь проводить меня на вокзал?', correct: 'Mañana sabré a qué hora sale el tren y te lo diré. ¿Podrás acompañarme a la estación?' },
+      { russian: 'Сколько лет Анне? — Ей лет 20-25.', correct: '¿Cuántos años tiene Ana? — Tendrá unos 20 o 25 años.' },
+      { russian: 'Вы (vosotros) полетите на самолете или поедете на поезде? — Я думаю, что моя жена захочет поехать на поезде.', correct: '¿Volaréis en avión o iréis en tren? — Creo que mi mujer querrá ir en tren.' },
+      { russian: 'Им понравится эта квартира, и они ее снимут.', correct: 'Les gustará este piso y lo alquilarán.' },
+      { russian: 'Завтра ты выйдешь из дома пораньше и приедешь на работу вовремя.', correct: 'Mañana saldrás de casa más temprano y llegarás al trabajo a tiempo.' },
+      { russian: 'Мы сможем посмотреть этот фильм через неделю.', correct: 'Podremos ver esta película dentro de una semana.' }
     ]
   },
 
