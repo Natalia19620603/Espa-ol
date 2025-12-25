@@ -6694,7 +6694,7 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Хуан и Лаура: Как здорово! Спасибо, мама.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20']
+    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18']
   },
 
   // МОДУЛЬ 5: Путешествия и места (A1)
@@ -6847,47 +6847,64 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
         { spanish: 'La farmacia está enfrente del banco', translation: 'Аптека находится напротив банка' }
       ]
     },
-    vocabulary: [
-      { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
-      { word: 'avión', translation: 'самолёт', audioUrl: null },
-      { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
-      { word: 'azafata', translation: 'стюардесса', audioUrl: null },
-      { word: 'tripulación', translation: 'экипаж', audioUrl: null },
-      { word: 'comandante', translation: 'командир', audioUrl: null },
-      { word: 'facturación', translation: 'регистрация', audioUrl: null },
-      { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
-      { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
-      { word: 'aduana', translation: 'таможня', audioUrl: null },
-      { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
-      { word: 'equipaje', translation: 'багаж', audioUrl: null },
-      { word: 'maleta', translation: 'чемодан', audioUrl: null },
-      { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
-      { word: 'salida', translation: 'отправление', audioUrl: null },
-      { word: 'llegada', translation: 'прибытие', audioUrl: null },
-      { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
-      { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
-      { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
-      { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
-      { word: 'carrito', translation: 'тележка', audioUrl: null },
-      { word: 'reservar billetes', translation: 'забронировать билеты', audioUrl: null },
-      { word: 'solicitar el visado', translation: 'запросить визу', audioUrl: null },
-      { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
-      { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
-      { word: 'facturar el equipaje', translation: 'сдать вещи в багаж', audioUrl: null },
-      { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
-      { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
-      { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
-      { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
-      { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
-      { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
-      { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
-      { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
-      { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
-      { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
-      { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
-      { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
-      { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null },
-      { word: 'recoger el equipaje', translation: 'забрать багаж', audioUrl: null }
+    vocabularyTabs: [
+      {
+        title: 'Существительные',
+        words: [
+          { word: 'aeropuerto', translation: 'аэропорт', audioUrl: null },
+          { word: 'avión', translation: 'самолёт', audioUrl: null },
+          { word: 'vuelo', translation: 'рейс, полёт', audioUrl: null },
+          { word: 'azafata', translation: 'стюардесса', audioUrl: null },
+          { word: 'tripulación', translation: 'экипаж', audioUrl: null },
+          { word: 'comandante', translation: 'командир', audioUrl: null },
+          { word: 'facturación', translation: 'регистрация', audioUrl: null },
+          { word: 'pasillo', translation: '(зд.) место у прохода', audioUrl: null },
+          { word: 'ventana', translation: '(зд.) место у окна', audioUrl: null },
+          { word: 'aduana', translation: 'таможня', audioUrl: null },
+          { word: 'registro', translation: 'досмотр (багажа)', audioUrl: null },
+          { word: 'equipaje', translation: 'багаж', audioUrl: null },
+          { word: 'maleta', translation: 'чемодан', audioUrl: null },
+          { word: 'bolsa', translation: 'сумка (дорожная / хозяйственная)', audioUrl: null },
+          { word: 'salida', translation: 'отправление', audioUrl: null },
+          { word: 'llegada', translation: 'прибытие', audioUrl: null },
+          { word: 'embarque', translation: 'посадка (на самолёт)', audioUrl: null },
+          { word: 'retraso', translation: 'задержка (рейса)', audioUrl: null },
+          { word: 'cancelación', translation: 'отмена (рейса)', audioUrl: null },
+          { word: 'escala', translation: 'промежуточная посадка', audioUrl: null },
+          { word: 'carrito', translation: 'тележка', audioUrl: null },
+          { word: 'panel de información', translation: 'информационное табло', audioUrl: null },
+          { word: 'mostrador de facturación', translation: 'стойка регистрации', audioUrl: null },
+          { word: 'equipaje de mano', translation: 'ручная кладь', audioUrl: null },
+          { word: 'tarjeta de embarque', translation: 'посадочный талон', audioUrl: null },
+          { word: 'exceso de peso', translation: 'перевес (багажа)', audioUrl: null },
+          { word: 'compañía aérea', translation: 'авиакомпания', audioUrl: null },
+          { word: 'control de pasaportes', translation: 'паспортный контроль', audioUrl: null },
+          { word: 'impreso de declaración', translation: 'бланк декларации', audioUrl: null },
+          { word: 'control de seguridad', translation: 'зона контроля безопасности', audioUrl: null },
+          { word: 'vuelo directo', translation: 'прямой рейс', audioUrl: null },
+          { word: 'vuelo sin escala', translation: 'беспосадочный рейс', audioUrl: null },
+          { word: 'vuelo de conexión', translation: 'стыковочный рейс', audioUrl: null },
+          { word: 'pasajero en tránsito', translation: 'транзитный пассажир', audioUrl: null },
+          { word: 'puerta de embarque', translation: 'выход на посадку', audioUrl: null },
+          { word: 'aterrizaje de emergencia', translation: 'вынужденная посадка', audioUrl: null }
+        ]
+      },
+      {
+        title: 'Выражения',
+        words: [
+          { word: 'Solicitar el visado en la embajada', translation: 'Запросить визу в посольстве', audioUrl: null },
+          { word: 'Reservar y comprar el billete (a través de Internet, en una agencia de viajes, por teléfono, etc.)', translation: 'Забронировать и купить билет (через интернет, в туристическом агентстве, по телефону и т. д.)', audioUrl: null },
+          { word: 'Ir al aeropuerto dos horas antes de la salida del vuelo', translation: 'Приехать в аэропорт за два часа до вылета рейса', audioUrl: null },
+          { word: 'Declarar los objetos de valor y las divisas', translation: 'Декларировать ценные вещи и валюту', audioUrl: null },
+          { word: 'Facturar el equipaje y obtener la tarjeta de embarque en la que figura el número del asiento', translation: 'Сдать багаж и получить посадочный талон, в котором указан номер места', audioUrl: null },
+          { word: 'Pagar el exceso de peso del equipaje', translation: 'Оплатить перевес багажа', audioUrl: null },
+          { word: 'Pasar el control de seguridad', translation: 'Пройти контроль безопасности (досмотр)', audioUrl: null },
+          { word: 'Pasar el control de pasaportes', translation: 'Пройти паспортный контроль', audioUrl: null },
+          { word: 'Esperar en la sala de embarque', translation: 'Ожидать в зале посадки', audioUrl: null },
+          { word: 'Embarcar', translation: 'Пройти на посадку (сесть в самолет)', audioUrl: null },
+          { word: 'Recoger el equipaje', translation: 'Забрать багаж', audioUrl: null }
+        ]
+      }
     ],
     readingText: {
       title: 'Un día en Barcelona',
@@ -6919,7 +6936,7 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
 Сейчас я вернулся в отель. Завтра хочу посетить парк Гуэль и пляж Барселонета. Я купил билет на метро на три дня. Мне очень нравится Барселона. Это идеальный город для путешествий.`,
       audioUrl: '/audio/lesson-5-1-reading.mp3'
     },
-    exercises: ['ex-5-1-1', 'ex-5-1-2', 'ex-5-1-3', 'ex-5-1-4', 'ex-5-1-5', 'ex-5-1-6', 'ex-5-1-7', 'ex-5-1-8', 'ex-5-1-9', 'ex-5-1-10', 'ex-5-1-11', 'ex-5-1-12', 'ex-5-1-13', 'ex-5-1-14']
+    exercises: ['ex-5-1-3', 'ex-5-1-4', 'ex-5-1-6', 'ex-5-1-7', 'ex-5-1-9', 'ex-5-1-10', 'ex-5-1-11', 'ex-5-1-12', 'ex-5-1-13', 'ex-5-1-15', 'ex-5-1-16', 'ex-5-1-17', 'ex-5-1-18', 'ex-5-1-19', 'ex-5-1-20', 'ex-5-1-21', 'ex-5-1-1', 'ex-5-1-2', 'ex-5-1-5', 'ex-5-1-8', 'ex-5-1-14']
   },
 
   'lesson-5-2': {
@@ -11241,10 +11258,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-13': {
-    id: 'ex-4-4-13',
+  'ex-4-4-11': {
+    id: 'ex-4-4-11',
     type: 'grammar',
-    title: 'Упражнение 12: Repaso completo - Participios y Pretérito Perfecto',
+    title: 'Упражнение 11: Repaso completo - Participios y Pretérito Perfecto',
     description: 'Выберите правильную форму',
     questions: [
       { sentence: 'Las cartas están ___', options: ['escribidas', 'escritas', 'escribiendo', 'escrito'], correct: 1 },
@@ -11265,10 +11282,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-14': {
-    id: 'ex-4-4-14',
+  'ex-4-4-12': {
+    id: 'ex-4-4-12',
     type: 'reading',
-    title: 'Упражнение 13: Понимание текста "Un día ocupado"',
+    title: 'Упражнение 12: Понимание текста "Un día ocupado"',
     description: 'Ответьте на вопросы по тексту',
     text: 'Hoy ha sido un día muy ocupado. Esta mañana me he despertado a las siete porque tenía muchas cosas que hacer. He salido de casa a las ocho y media y he tomado el metro para ir al centro. Durante toda la mañana he trabajado en un proyecto importante. A la una he ido a comer con mis compañeros a un restaurante. Hemos comido paella de mariscos. Por la tarde he tenido la reunión con el cliente. Todo ha salido muy bien. He terminado de trabajar a las seis y he vuelto a casa en autobús.',
     questions: [
@@ -11282,10 +11299,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-15': {
-    id: 'ex-4-4-15',
+  'ex-4-4-13': {
+    id: 'ex-4-4-13',
     type: 'grammar',
-    title: 'Упражнение 14: Понимание диалогов',
+    title: 'Упражнение 13: Понимание диалогов',
     description: 'Выберите правильный ответ на основе диалогов',
     questions: [
       { sentence: 'En el Diálogo 1: ¿Ana ha terminado el informe?', options: ['No, todavía no', 'Sí, ya lo ha terminado', 'No ha empezado', 'Lo terminará mañana'], correct: 1 },
@@ -11298,10 +11315,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-16': {
-    id: 'ex-4-4-16',
+  'ex-4-4-14': {
+    id: 'ex-4-4-14',
     type: 'writing',
-    title: 'Упражнение 15: Отрицательные предложения',
+    title: 'Упражнение 14: Отрицательные предложения',
     description: 'Ответьте отрицательно, используя todavía no или nunca',
     questions: [
       { question: '¿Has estado en España? (nunca)', correct: 'No, nunca he estado en España' },
@@ -11317,10 +11334,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-17': {
-    id: 'ex-4-4-17',
+  'ex-4-4-15': {
+    id: 'ex-4-4-15',
     type: 'writing',
-    title: 'Упражнение 16: Формирование вопросов',
+    title: 'Упражнение 15: Формирование вопросов',
     description: 'Преобразуйте утверждения в вопросы в Pretérito Perfecto',
     questions: [
       { question: 'Tú has visto la película. → ¿...?', correct: '¿Has visto la película?' },
@@ -11336,10 +11353,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-18': {
-    id: 'ex-4-4-18',
+  'ex-4-4-16': {
+    id: 'ex-4-4-16',
     type: 'grammar',
-    title: 'Упражнение 17: Соответствие причастий и инфинитивов',
+    title: 'Упражнение 16: Соответствие причастий и инфинитивов',
     description: 'Соотнесите неправильные причастия с инфинитивами',
     questions: [
       { sentence: 'abierto →', options: ['abrir', 'cubrir', 'escribir', 'romper'], correct: 0 },
@@ -11360,10 +11377,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-19': {
-    id: 'ex-4-4-19',
+  'ex-4-4-17': {
+    id: 'ex-4-4-17',
     type: 'writing',
-    title: 'Упражнение 18: Дополните предложения из текста',
+    title: 'Упражнение 17: Дополните предложения из текста',
     description: 'Дополните предложения глаголами в Pretérito Perfecto из текста "Un día ocupado"',
     questions: [
       { question: 'Esta mañana me ___ (despertarse) a las siete.', correct: 'me he despertado' },
@@ -11381,10 +11398,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-4-4-20': {
-    id: 'ex-4-4-20',
+  'ex-4-4-18': {
+    id: 'ex-4-4-18',
     type: 'writing',
-    title: 'Упражнение 19: Перевод с использованием лексики диалогов',
+    title: 'Упражнение 18: Перевод с использованием лексики диалогов',
     description: 'Переведите предложения, используя выражения из диалогов',
     questions: [
       { russian: 'Ты уже закончил отчет?', correct: '¿Ya has terminado el informe?' },
@@ -11409,7 +11426,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-1': {
     id: 'ex-5-1-1',
     type: 'writing',
-    title: 'Упражнение 1: Будущее время (Futuro Simple)',
+    title: 'Упражнение 10: Будущее время (Futuro Simple)',
     description: 'Переведите предложения на испанский язык',
     questions: [
       { russian: 'Завтра поезд отправится ровно в шесть.', correct: 'Mañana el tren saldrá a las seis en punto.' },
@@ -11427,7 +11444,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-2': {
     id: 'ex-5-1-2',
     type: 'writing',
-    title: 'Упражнение 2: Вероятность в настоящем (Futuro de Probabilidad)',
+    title: 'Упражнение 11: Вероятность в настоящем (Futuro de Probabilidad)',
     description: 'Переведите предложения на испанский язык',
     questions: [
       { russian: 'Сколько детей у Сильвии? — Наверное, шестеро.', correct: '¿Cuántos hijos tiene Silvia? — Tendrá seis hijos.' },
@@ -11445,7 +11462,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-3': {
     id: 'ex-5-1-3',
     type: 'writing',
-    title: 'Упражнение 3: Трансформация предложений',
+    title: 'Упражнение 1: Трансформация предложений',
     description: 'Замените привычные действия в настоящем времени на действия в будущем (mañana)',
     questions: [
       { question: 'Hoy desayuno en casa también. → Mañana...', correct: 'Mañana desayunaré en casa también.' },
@@ -11463,7 +11480,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-4': {
     id: 'ex-5-1-4',
     type: 'writing',
-    title: 'Упражнение 4: Ответы на вопросы',
+    title: 'Упражнение 2: Ответы на вопросы',
     description: 'Отвечайте по схеме: No + глагол в Futuro + указатель времени',
     questions: [
       { question: '¿Habéis visitado el museo del Prado?', correct: 'No, lo visitaremos el año que viene.' },
@@ -11481,7 +11498,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-5': {
     id: 'ex-5-1-5',
     type: 'writing',
-    title: 'Упражнение 5: Перевод на испанский язык',
+    title: 'Упражнение 12: Перевод на испанский язык',
     description: 'Переведите предложения на испанский',
     questions: [
       { russian: 'В следующем году они поедут в отпуск в Италию.', correct: 'El año que viene irán de vacaciones a Italia.' },
@@ -11500,7 +11517,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-6': {
     id: 'ex-5-1-6',
     type: 'writing',
-    title: 'Упражнение 6: Ответьте на вопросы по образцу',
+    title: 'Упражнение 3: Ответьте на вопросы по образцу',
     description: 'Отрицание с "nada", "nadie", "nunca" и "ninguno"',
     questions: [
       { question: '¿Ves a alguien?', correct: 'No veo a nadie.' },
@@ -11524,7 +11541,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-7': {
     id: 'ex-5-1-7',
     type: 'grammar',
-    title: 'Упражнение 7: Заполните пропуски',
+    title: 'Упражнение 4: Заполните пропуски',
     description: 'Выберите правильное местоимение',
     questions: [
       { sentence: 'Quiero comer ___', options: ['algo', 'alguien', 'alguno', 'nada'], correct: 0 },
@@ -11543,7 +11560,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-8': {
     id: 'ex-5-1-8',
     type: 'writing',
-    title: 'Упражнение 8: Переведите на испанский язык',
+    title: 'Упражнение 13: Переведите на испанский язык',
     description: 'Отрицательные и неопределенные местоимения',
     questions: [
       { russian: 'Никто ничего не знает.', correct: 'Nadie sabe nada.' },
@@ -11562,7 +11579,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-9': {
     id: 'ex-5-1-9',
     type: 'writing',
-    title: 'Упражнение 9: Замените este/esta на todo/toda',
+    title: 'Упражнение 5: Замените este/esta на todo/toda',
     description: 'Ответьте по образцу: Traduzco este texto. — Traduzco todos los textos.',
     questions: [
       { question: 'Traduzco este texto.', correct: 'Traduzco todos los textos.' },
@@ -11579,7 +11596,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-10': {
     id: 'ex-5-1-10',
     type: 'writing',
-    title: 'Упражнение 10: Переведите на русский язык',
+    title: 'Упражнение 6: Переведите на русский язык',
     description: 'Предложения с "todo"',
     questions: [
       { question: 'Todo el mundo compra billetes de avión por internet.', correct: 'Весь мир покупает билеты на самолёт через интернет.' },
@@ -11596,7 +11613,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-11': {
     id: 'ex-5-1-11',
     type: 'writing',
-    title: 'Упражнение 11: Ответьте, заменив este/esta на otro/otra',
+    title: 'Упражнение 7: Ответьте, заменив este/esta на otro/otra',
     description: 'Ответьте по образцу: ¿Quieres este café? — Prefiero otro café.',
     questions: [
       { question: '¿Quieres este café?', correct: 'Prefiero otro café.' },
@@ -11613,7 +11630,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-12': {
     id: 'ex-5-1-12',
     type: 'writing',
-    title: 'Упражнение 12: Переведите на русский язык',
+    title: 'Упражнение 8: Переведите на русский язык',
     description: 'Предложения с cada, otro, cualquiera',
     questions: [
       { question: 'Cada pasajero tiene su propio asiento.', correct: 'У каждого пассажира есть свое место.' },
@@ -11632,7 +11649,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-5-1-13': {
     id: 'ex-5-1-13',
     type: 'grammar',
-    title: 'Упражнение 13: Заполните пропуски',
+    title: 'Упражнение 9: Заполните пропуски',
     description: 'Выберите правильное местоимение: todo, cada, otro, cualquier',
     questions: [
       { sentence: '___ los pasajeros deben presentar su pasaporte.', options: ['Todos', 'Cada', 'Otro', 'Cualquier'], correct: 0 },
@@ -11663,6 +11680,139 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'У тебя есть другая ручка?', correct: '¿Tienes otro bolígrafo?' },
       { russian: 'Любой день недели мне подходит.', correct: 'Cualquier día de la semana me viene bien.' },
       { russian: 'Все рейсы отменены.', correct: 'Todos los vuelos están cancelados.' }
+    ]
+  },
+
+  'ex-5-1-15': {
+    id: 'ex-5-1-15',
+    type: 'grammar',
+    title: 'Упражнение 10: Futuro Simple - Правильные глаголы',
+    description: 'Выберите правильную форму глагола в будущем времени',
+    questions: [
+      { sentence: 'Mañana yo ___ (hablar) con el profesor.', options: ['hablaré', 'hablarás', 'hablará', 'hablarán'], correct: 0 },
+      { sentence: 'Tú ___ (comer) paella en el restaurante.', options: ['comeré', 'comerás', 'comerá', 'comeremos'], correct: 1 },
+      { sentence: 'Nosotros ___ (vivir) en Madrid el próximo año.', options: ['viviré', 'vivirás', 'vivirá', 'viviremos'], correct: 3 },
+      { sentence: 'Ellos ___ (estudiar) español en la universidad.', options: ['estudiaré', 'estudiarás', 'estudiará', 'estudiarán'], correct: 3 },
+      { sentence: 'Usted ___ (escribir) un email mañana.', options: ['escribirá', 'escribirás', 'escribiré', 'escribiremos'], correct: 0 },
+      { sentence: 'Vosotros ___ (trabajar) en la oficina.', options: ['trabajaré', 'trabajarás', 'trabajará', 'trabajaréis'], correct: 3 },
+      { sentence: 'Ella ___ (comprar) los billetes de avión.', options: ['compraré', 'comprará', 'comprarás', 'compraremos'], correct: 1 },
+      { sentence: 'Yo ___ (aprender) a conducir.', options: ['aprenderé', 'aprenderás', 'aprenderá', 'aprenderemos'], correct: 0 },
+      { sentence: 'Tú y yo ___ (viajar) a España.', options: ['viajaré', 'viajarás', 'viajaremos', 'viajarán'], correct: 2 },
+      { sentence: 'Mi hermana ___ (visitar) el museo.', options: ['visitaré', 'visitará', 'visitarás', 'visitaremos'], correct: 1 }
+    ]
+  },
+
+  'ex-5-1-16': {
+    id: 'ex-5-1-16',
+    type: 'grammar',
+    title: 'Упражнение 11: Futuro Simple - Неправильные глаголы',
+    description: 'Выберите правильную форму неправильного глагола в будущем времени',
+    questions: [
+      { sentence: 'Yo te ___ (decir) la verdad.', options: ['decirá', 'diré', 'diría', 'diceré'], correct: 1 },
+      { sentence: 'Nosotros ___ (hacer) los ejercicios.', options: ['haceremos', 'haremos', 'haríamos', 'hacíamos'], correct: 1 },
+      { sentence: 'Tú ___ (poder) venir mañana.', options: ['poderás', 'podrás', 'podías', 'puedes'], correct: 1 },
+      { sentence: 'Ellos ___ (saber) los resultados pronto.', options: ['saberán', 'sabían', 'sabrán', 'sabíamos'], correct: 2 },
+      { sentence: 'Yo ___ (salir) temprano mañana.', options: ['saliré', 'salía', 'saldré', 'saleré'], correct: 2 },
+      { sentence: 'Vosotros ___ (poner) la mesa.', options: ['poneréis', 'ponéis', 'ponías', 'pondréis'], correct: 3 },
+      { sentence: 'Ella ___ (venir) a la fiesta.', options: ['venirá', 'vendría', 'vendrá', 'veneré'], correct: 2 },
+      { sentence: 'Ustedes ___ (tener) que esperar.', options: ['tenerán', 'tendrán', 'tenían', 'tienen'], correct: 1 },
+      { sentence: 'Yo no ___ (caber) en ese coche pequeño.', options: ['caberé', 'cabré', 'cabría', 'cabo'], correct: 1 },
+      { sentence: 'Nosotros ___ (querer) ir al cine.', options: ['querremos', 'queremos', 'queríamos', 'querréis'], correct: 0 }
+    ]
+  },
+
+  'ex-5-1-17': {
+    id: 'ex-5-1-17',
+    type: 'grammar',
+    title: 'Упражнение 12: Futuro Simple - Значение (временное или модальное)',
+    description: 'Определите значение будущего времени',
+    questions: [
+      { sentence: 'Mañana iré al médico.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
+      { sentence: '¿Dónde estará Pedro? — Estará en casa.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 },
+      { sentence: 'El próximo año viajaremos a Italia.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
+      { sentence: '¿Qué hora será? — Serán las tres.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 },
+      { sentence: 'Dentro de dos días te llamaré.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
+      { sentence: '¿Cuántos años tendrá María? — Tendrá veinte años.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 },
+      { sentence: 'La semana que viene empezaré un nuevo trabajo.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
+      { sentence: '¿Quién será? — Será tu hermano.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 }
+    ]
+  },
+
+  'ex-5-1-18': {
+    id: 'ex-5-1-18',
+    type: 'grammar',
+    title: 'Упражнение 13: Отрицательные местоимения',
+    description: 'Выберите правильное отрицательное местоимение',
+    questions: [
+      { sentence: 'No veo a ___ en la calle.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'No quiero ___ para comer.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
+      { sentence: '___ ha llamado por teléfono.', options: ['Nadie', 'Nada', 'Ninguno', 'Nunca'], correct: 0 },
+      { sentence: 'No tengo ___ amigo en esta ciudad.', options: ['algún', 'ningún', 'nadie', 'nada'], correct: 1 },
+      { sentence: '___ voy al trabajo en coche.', options: ['Nadie', 'Nada', 'Ninguno', 'Nunca'], correct: 3 },
+      { sentence: 'No hay ___ en la nevera.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
+      { sentence: 'No conozco a ___ de ellos.', options: ['alguno', 'ninguno', 'algo', 'nada'], correct: 1 },
+      { sentence: '¿Conoces a alguien aquí? — No, no conozco a ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'No he estado ___ en Barcelona.', options: ['nadie', 'nada', 'nunca', 'ninguno'], correct: 2 },
+      { sentence: 'No tenemos ___ información sobre el vuelo.', options: ['alguna', 'ninguna', 'nadie', 'nada'], correct: 1 }
+    ]
+  },
+
+  'ex-5-1-19': {
+    id: 'ex-5-1-19',
+    type: 'grammar',
+    title: 'Упражнение 14: Неопределенные местоимения - alguno/ninguno',
+    description: 'Выберите правильную форму местоимения',
+    questions: [
+      { sentence: '¿Tienes ___ pregunta?', options: ['alguna', 'alguno', 'algunos', 'algunas'], correct: 0 },
+      { sentence: 'No tengo ___ libro de español.', options: ['algún', 'ningún', 'ninguno', 'ninguna'], correct: 1 },
+      { sentence: '___ estudiantes han llegado tarde.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
+      { sentence: 'No hay ___ farmacia abierta.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
+      { sentence: '¿___ de vosotros sabe la respuesta?', options: ['Algún', 'Alguno', 'Algunos', 'Alguna'], correct: 1 },
+      { sentence: 'No conozco a ___ de tus amigos.', options: ['alguno', 'ninguno', 'algunos', 'ningunos'], correct: 1 },
+      { sentence: '¿Hay ___ problema?', options: ['algún', 'alguno', 'algunos', 'alguna'], correct: 0 },
+      { sentence: 'No tenemos ___ duda.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
+      { sentence: '___ días trabajo desde casa.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
+      { sentence: 'No he visto ___ película de Almodóvar.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 }
+    ]
+  },
+
+  'ex-5-1-20': {
+    id: 'ex-5-1-20',
+    type: 'grammar',
+    title: 'Упражнение 15: Неопределенные местоимения - todo/cada/otro/cualquier',
+    description: 'Выберите правильное местоимение',
+    questions: [
+      { sentence: '___ el mundo habla español en este país.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ día voy al gimnasio.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: 'Necesito ___ café, este está frío.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 2 },
+      { sentence: '___ persona puede aprender español.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 3 },
+      { sentence: '___ los pasajeros deben tener pasaporte.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ vez que viajo, compro souvenirs.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: 'Vivo en ___ ciudad, no en Madrid.', options: ['cada', 'todo', 'otra', 'cualquier'], correct: 2 },
+      { sentence: 'Puedes venir ___ día que quieras.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 3 },
+      { sentence: '___ el equipaje está en el avión.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ estudiante tiene su propio libro.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 }
+    ]
+  },
+
+  'ex-5-1-21': {
+    id: 'ex-5-1-21',
+    type: 'grammar',
+    title: 'Упражнение 16: Грамматика урока - Обобщающее упражнение',
+    description: 'Выберите правильный вариант (Futuro Simple + местоимения)',
+    questions: [
+      { sentence: 'Mañana ___ (nosotros, ir) al aeropuerto.', options: ['vamos', 'iremos', 'iríamos', 'fuimos'], correct: 1 },
+      { sentence: 'No hay ___ en la sala de espera.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'Yo te ___ (decir) la hora de salida del vuelo.', options: ['diré', 'decía', 'digo', 'diría'], correct: 0 },
+      { sentence: '___ los viajeros deben facturar el equipaje.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '¿Dónde estará mi maleta? — ___ en el avión.', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
+      { sentence: 'No conozco a ___ de los pasajeros.', options: ['alguno', 'ninguno', 'alguien', 'nadie'], correct: 1 },
+      { sentence: '___ día viajaré a América del Sur.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 2 },
+      { sentence: 'Nosotros ___ (hacer) escala en París.', options: ['hacemos', 'haremos', 'haríamos', 'hicimos'], correct: 1 },
+      { sentence: '___ nunca he viajado en primera clase.', options: ['Yo', 'Tú', 'Él', 'Nosotros'], correct: 0 },
+      { sentence: '¿Hay ___ asiento libre? — No, no hay ___.', options: ['algún / ninguno', 'ningún / alguno', 'algo / nada', 'alguien / nadie'], correct: 0 },
+      { sentence: '___ pasajero puede llevar una maleta de mano.', options: ['Todo', 'Cada', 'Otro', 'Todos'], correct: 1 },
+      { sentence: 'Ellos ___ (poder) embarcar a las 10.', options: ['pueden', 'podrán', 'podrían', 'pudieron'], correct: 1 }
     ]
   },
 
