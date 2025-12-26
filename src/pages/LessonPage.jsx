@@ -68,6 +68,14 @@ function LessonPage() {
     }
   }, [navigate])
 
+  // Reset video tab when lesson changes
+  useEffect(() => {
+    setActiveVideoTab(0)
+    setActiveExerciseTab(0)
+    setActiveReadingTab(0)
+    setActiveVocabularyTab(0)
+  }, [lessonId])
+
   const handleExerciseClick = (exerciseId) => {
     setCurrentExercise(exerciseId)
     setActiveTab('exercises')
