@@ -485,23 +485,40 @@ function LessonPage() {
                 const currentVideo = lesson.videoTabs[activeVideoTab]
                 return (
                   <div>
-                    <div className={styles.exerciseTabs}>
+                    <div className={styles.exerciseTabs} style={{
+                      display: 'flex',
+                      flexWrap: 'wrap',
+                      gap: '8px',
+                      overflowX: 'auto',
+                      maxWidth: '100%'
+                    }}>
                       {lesson.videoTabs.map((tabData, index) => (
                         <button
                           key={index}
                           className={`${styles.exerciseTab} ${activeVideoTab === index ? styles.activeExerciseTab : ''}`}
                           onClick={() => setActiveVideoTab(index)}
+                          style={{
+                            flex: '0 0 auto',
+                            minWidth: 'fit-content',
+                            whiteSpace: 'nowrap'
+                          }}
                         >
                           {tabData.tab}
                         </button>
                       ))}
                     </div>
-                    <div className={styles.videoContainer} style={{ marginTop: '20px' }}>
+                    <div className={styles.videoContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
                       {currentVideo.videoUrl && (
                         <video
                           controls
                           className={styles.videoPlayer}
-                          style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
+                          style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            borderRadius: '8px',
+                            display: 'block'
+                          }}
                         >
                           <source src={currentVideo.videoUrl} type="video/mp4" />
                           Ваш браузер не поддерживает воспроизведение видео.
@@ -520,11 +537,17 @@ function LessonPage() {
               } else if (lesson.videoUrl) {
                 // Render single video
                 return (
-                  <div className={styles.videoContainer}>
+                  <div className={styles.videoContainer} style={{ width: '100%', maxWidth: '800px' }}>
                     <video
                       controls
                       className={styles.videoPlayer}
-                      style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                        maxWidth: '100%',
+                        borderRadius: '8px',
+                        display: 'block'
+                      }}
                     >
                       <source src={lesson.videoUrl} type="video/mp4" />
                       Ваш браузер не поддерживает воспроизведение видео.
