@@ -1005,7 +1005,48 @@ Adiós. Gracias. Muchas gracias. De nada. Por favor. ¿Qué tal? Bien.`,
     id: 'lesson-1-3',
     title: 'Урок 3: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ',
     moduleId: 'module-1',
-    videoUrl: '/video/module-1-lesson-3.mp4',
+    videoTabs: [
+      {
+        tab: 'Упр. 6',
+        videoUrl: '/video/A1-U1-clase1-ejercicio 6.mp4'
+      },
+      {
+        tab: 'Упр. 7',
+        videoUrl: '/video/A1-U1-Cl1-Ej.7.mp4'
+      },
+      {
+        tab: 'Аудирование 1',
+        videoUrl: '/video/Comprensión auditiva, ej.1 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудирование 2',
+        videoUrl: '/video/Comprensión auditiva, ej.2 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудирование 3',
+        videoUrl: '/video/Comprensión auditiva, ej.3 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудирование 4',
+        videoUrl: '/video/Comprensión auditiva, ej.4 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудирование 5',
+        videoUrl: '/video/Comprensión auditiva, ej.5 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудирование 6',
+        videoUrl: '/video/Comprensión auditiva, ej.6 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудирование 7',
+        videoUrl: '/video/Comprensión auditiva, ej.7 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Аудио 1',
+        videoUrl: '/video/module-1-lesson-3-1.mp4'
+      }
+    ],
     grammar: {
       title: 'Личные местоимения (Pronombres personales). Глаголы SER и ESTAR',
       intro: `В испанском языке личные местоимения имеют разные формы по родам во множественном числе. Глаголы **ser** и **estar** оба переводятся как «быть», но используются в разных контекстах.`,
@@ -1471,7 +1512,8 @@ La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol 
     id: 'lesson-1-5',
     title: 'Урок 5: Предлоги, числительные, глаголы',
     moduleId: 'module-1',
-        grammar: {
+    audioUrl: '/audio/Ej.15a (A1U1Cl3).mp3',
+    grammar: {
       title: 'Простые предлоги. Числительные. Правильные глаголы',
       intro: `# Грамматика урока
 

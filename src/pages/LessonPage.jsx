@@ -34,6 +34,7 @@ function LessonPage() {
   const [activeExerciseTab, setActiveExerciseTab] = useState(0)
   const [activeReadingTab, setActiveReadingTab] = useState(0)
   const [activeVocabularyTab, setActiveVocabularyTab] = useState(0)
+  const [activeVideoTab, setActiveVideoTab] = useState(0)
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -230,7 +231,7 @@ function LessonPage() {
             📖 Чтение
           </button>
         )}
-        {lesson.videoUrl && (
+        {(lesson.videoUrl || lesson.videoTabs || lesson.audioUrl) && (
           <button
             className={`${styles.tab} ${activeTab === 'video' ? styles.activeTab : ''}`}
             onClick={() => setActiveTab('video')}
@@ -470,19 +471,79 @@ function LessonPage() {
           </div>
         )}
 
-        {activeTab === 'video' && lesson.videoUrl && (
+        {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.audioUrl) && (
           <div className={styles.videoSection}>
             <h2 className={styles.sectionTitle}>АУДИО</h2>
-            <div className={styles.videoContainer}>
-              <video
-                controls
-                className={styles.videoPlayer}
-                style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
-              >
-                <source src={lesson.videoUrl} type="video/mp4" />
-                Ваш браузер не поддерживает воспроизведение видео.
-              </video>
-            </div>
+            {(() => {
+              // Check if video is organized in tabs
+              const hasVideoTabs = Array.isArray(lesson.videoTabs) &&
+                lesson.videoTabs.length > 0 &&
+                lesson.videoTabs[0].tab !== undefined
+
+              if (hasVideoTabs) {
+                // Render video with tabs
+                const currentVideo = lesson.videoTabs[activeVideoTab]
+                return (
+                  <div>
+                    <div className={styles.exerciseTabs}>
+                      {lesson.videoTabs.map((tabData, index) => (
+                        <button
+                          key={index}
+                          className={`${styles.exerciseTab} ${activeVideoTab === index ? styles.activeExerciseTab : ''}`}
+                          onClick={() => setActiveVideoTab(index)}
+                        >
+                          {tabData.tab}
+                        </button>
+                      ))}
+                    </div>
+                    <div className={styles.videoContainer} style={{ marginTop: '20px' }}>
+                      {currentVideo.videoUrl && (
+                        <video
+                          controls
+                          className={styles.videoPlayer}
+                          style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
+                        >
+                          <source src={currentVideo.videoUrl} type="video/mp4" />
+                          Ваш браузер не поддерживает воспроизведение видео.
+                        </video>
+                      )}
+                      {currentVideo.audioUrl && (
+                        <AudioPlayer
+                          audioUrl={currentVideo.audioUrl}
+                          text=""
+                          subtitles={currentVideo.subtitles || []}
+                        />
+                      )}
+                    </div>
+                  </div>
+                )
+              } else if (lesson.videoUrl) {
+                // Render single video
+                return (
+                  <div className={styles.videoContainer}>
+                    <video
+                      controls
+                      className={styles.videoPlayer}
+                      style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
+                    >
+                      <source src={lesson.videoUrl} type="video/mp4" />
+                      Ваш браузер не поддерживает воспроизведение видео.
+                    </video>
+                  </div>
+                )
+              } else if (lesson.audioUrl) {
+                // Render single audio
+                return (
+                  <div className={styles.audioContainer}>
+                    <AudioPlayer
+                      audioUrl={lesson.audioUrl}
+                      text=""
+                      subtitles={lesson.audioSubtitles || []}
+                    />
+                  </div>
+                )
+              }
+            })()}
           </div>
         )}
 
