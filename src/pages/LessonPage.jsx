@@ -230,6 +230,14 @@ function LessonPage() {
             📖 Чтение
           </button>
         )}
+        {lesson.videoUrl && (
+          <button
+            className={`${styles.tab} ${activeTab === 'video' ? styles.activeTab : ''}`}
+            onClick={() => setActiveTab('video')}
+          >
+            🎬 АУДИО
+          </button>
+        )}
         {lesson.dialogues && lesson.dialogues.length > 0 && (
           <button
             className={`${styles.tab} ${activeTab === 'dialogues' ? styles.activeTab : ''}`}
@@ -459,6 +467,22 @@ function LessonPage() {
                 )
               }
             })()}
+          </div>
+        )}
+
+        {activeTab === 'video' && lesson.videoUrl && (
+          <div className={styles.videoSection}>
+            <h2 className={styles.sectionTitle}>АУДИО</h2>
+            <div className={styles.videoContainer}>
+              <video
+                controls
+                className={styles.videoPlayer}
+                style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
+              >
+                <source src={lesson.videoUrl} type="video/mp4" />
+                Ваш браузер не поддерживает воспроизведение видео.
+              </video>
+            </div>
           </div>
         )}
 
