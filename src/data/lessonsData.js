@@ -1003,8 +1003,9 @@ Adiós. Gracias. Muchas gracias. De nada. Por favor. ¿Qué tal? Bien.`,
   },
   'lesson-1-3': {
     id: 'lesson-1-3',
-    title: 'Урок 3: Личные местоимения. Глаголы SER и ESTAR',
+    title: 'Урок 3: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ',
     moduleId: 'module-1',
+    videoUrl: '/video/module-1-lesson-3.mp4',
     grammar: {
       title: 'Личные местоимения (Pronombres personales). Глаголы SER и ESTAR',
       intro: `В испанском языке личные местоимения имеют разные формы по родам во множественном числе. Глаголы **ser** и **estar** оба переводятся как «быть», но используются в разных контекстах.`,
