@@ -518,6 +518,7 @@ function LessonPage() {
                     <div className={styles.videoContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
                       {currentVideo.videoUrl && (
                         <video
+                          key={activeVideoTab}
                           controls
                           className={styles.videoPlayer}
                           style={{
@@ -534,6 +535,7 @@ function LessonPage() {
                       )}
                       {currentVideo.audioUrl && (
                         <AudioPlayer
+                          key={activeVideoTab}
                           audioUrl={currentVideo.audioUrl}
                           text=""
                           subtitles={currentVideo.subtitles || []}
