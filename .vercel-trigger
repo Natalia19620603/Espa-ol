@@ -1,3 +1,3 @@
 # Deployment trigger
-# Auto deploy: Fri Dec 26 19:34:50 UTC 2025
-# PR #184: Fix video paths and make video tabs responsive for mobile
+# Auto deploy: Fri Dec 26 19:45:16 UTC 2025
+# PR #185: Fix video tab switching - reset active tab when lesson changes
