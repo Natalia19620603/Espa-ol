@@ -31,7 +31,7 @@ export const modules = {
   },
   'module-2': {
     id: 'module-2',
-    title: 'Модуль 2: Настоящее время',
+    title: 'Модуль 2: Черты характера. Описание внешности. Семья и родственники',
     level: 'beginner',
     lessons: ['lesson-2-1', 'lesson-2-2', 'lesson-2-3'],
     description: 'Настоящее время правильных глаголов'
@@ -1165,7 +1165,7 @@ Estar используется для обозначения временных 
         {
           id: 'ser-estar-comparison',
           title: 'Сравнение Ser и Estar',
-          content: `## Сравнение Ser и Estar
+          content: `## Сравнение Ser y Estar
 
 Некоторые прилагательные могут сочетаться с обоими глаголами, но при этом меняется смысл высказывания, так как Ser говорит о постоянном качестве, а Estar — о временном состоянии:
 
@@ -1174,6 +1174,37 @@ Estar используется для обозначения временных 
 | José es alegre. (Хосе веселый по характеру.) | José está alegre. (Хосе весел в данный момент.) |
 | Pilar es guapa. (Пилар красивая в целом.) | Pilar está guapa. (Пилар нарядная/хорошо выглядит сейчас.) |
 | Es una cuestión regular. (Обычный вопрос.) | Estoy regular. (Я неважно себя чувствую.) |`
+        },
+        {
+          id: 'preposiciones-lugar',
+          title: 'Предлоги Места',
+          collapsible: true,
+          defaultOpen: false,
+          content: `## Предлоги Места
+
+Objeto + está + preposición + del/de la + lugar.
+
+**del:** Es la unión de "de + el" (ej: del cuadro).
+
+**de la:** Se usa para palabras femeninas (ej: de la mesita).
+
+### Los marcadores que usaremos:
+
+**Encima de / Sobre:** En la parte superior tocando la superficie.
+
+**Debajo de:** En la parte inferior.
+
+**Al lado de:** Cerca, a un costado.
+
+**A la derecha / izquierda de:** Posición lateral específica.
+
+**Delante de:** En la parte frontal.
+
+**Detrás de:** En la parte posterior.
+
+**Entre:** En medio de dos cosas.
+
+**En:** Dentro de algo o simplemente sobre una superficie de forma general.`
         }
       ]
     },
@@ -1339,7 +1370,16 @@ Estar используется для обозначения временных 
         { start: 16, end: 20, text: '¿Cómo es tu amigo?' }
       ]
     },
-    exercises: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3']
+    exercises: [
+      {
+        tab: 'SER y ESTAR',
+        exerciseIds: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3']
+      },
+      {
+        tab: 'Предлоги Места',
+        exerciseIds: ['ex-1-3-6', 'ex-1-3-7', 'ex-1-3-8']
+      }
+    ]
   },
   'lesson-1-4': {
     id: 'lesson-1-4',
@@ -1612,7 +1652,12 @@ Estar используется для обозначения временных 
     title: 'Урок 5: Предлоги, числительные, глаголы',
     moduleId: 'module-1',
     audioUrl: '/Ej.15a (A1U1Cl3).mp3',
-    videoUrl: '/video/Модуль 1 Урок 5.mp4',
+    videoTabs: [
+      {
+        tab: 'Видео 1',
+        videoUrl: '/video/Модуль 1 Урок 5.mp4'
+      }
+    ],
     grammar: {
       title: 'Простые предлоги. Числительные. Правильные глаголы',
       intro: `# Грамматика урока
@@ -3216,6 +3261,10 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: 'Видео 9',
         videoUrl: '/video/Модуль 2 Урок 3 - Видео 9.mp4'
+      },
+      {
+        tab: 'Видео 10',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 10.mp4'
       }
     ],
     grammar: {
@@ -18057,6 +18106,60 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         correct: 'Debes enseñarnos tu nuevo trabajo, queremos saber qué haces allí.',
         alternatives: ['Tienes que enseñarnos tu nuevo trabajo, queremos saber qué haces ahí']
       }
+    ]
+  },
+  'ex-1-3-6': {
+    id: 'ex-1-3-6',
+    type: 'grammar',
+    title: 'Предлоги места - Часть 1',
+    description: 'Выберите правильный предлог места для каждого предложения',
+    questions: [
+      { sentence: 'El libro está ________ la mesa.', options: ['encima de', 'debajo de', 'entre', 'detrás de'], correct: 0 },
+      { sentence: 'El gato está ________ la silla.', options: ['debajo de', 'encima de', 'delante de', 'entre'], correct: 0 },
+      { sentence: 'La casa está ________ la escuela.', options: ['al lado de', 'debajo de', 'encima de', 'en'], correct: 0 },
+      { sentence: 'El cuadro está ________ la pared.', options: ['en', 'debajo de', 'al lado de', 'entre'], correct: 0 },
+      { sentence: 'La lámpara está ________ la mesita.', options: ['a la derecha de', 'debajo de', 'entre', 'detrás de'], correct: 0 },
+      { sentence: 'El niño está ________ la puerta.', options: ['delante de', 'debajo de', 'encima de', 'a la izquierda de'], correct: 0 },
+      { sentence: 'La silla está ________ la ventana.', options: ['detrás de', 'encima de', 'debajo de', 'entre'], correct: 0 },
+      { sentence: 'El jardín está ________ dos casas.', options: ['entre', 'encima de', 'debajo de', 'delante de'], correct: 0 },
+      { sentence: 'El perro está ________ el árbol.', options: ['a la izquierda de', 'encima de', 'debajo de', 'en'], correct: 0 },
+      { sentence: 'La escuela está ________ el museo.', options: ['detrás de', 'debajo de', 'encima de', 'en'], correct: 0 }
+    ]
+  },
+  'ex-1-3-7': {
+    id: 'ex-1-3-7',
+    type: 'grammar',
+    title: 'Предлоги места - del/de la',
+    description: 'Выберите правильную форму предлога (del или de la)',
+    questions: [
+      { sentence: 'El libro está encima ________ mesa.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'El gato está debajo ________ cuadro.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
+      { sentence: 'La casa está al lado ________ escuela.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'El niño está delante ________ museo.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
+      { sentence: 'La silla está a la derecha ________ puerta.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'El perro está detrás ________ árbol.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
+      { sentence: 'La lámpara está a la izquierda ________ ventana.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'El cuadro está encima ________ sofá.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
+      { sentence: 'El jardín está entre ________ casa y la escuela.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'La mesita está al lado ________ libro.', options: ['del', 'de la', 'de', 'de los'], correct: 0 }
+    ]
+  },
+  'ex-1-3-8': {
+    id: 'ex-1-3-8',
+    type: 'translation',
+    title: 'Перевод с предлогами места',
+    description: 'Переведите предложения на испанский, используя предлоги места. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Книга на столе.', correct: 'El libro está encima de la mesa.' },
+      { russian: 'Кот под стулом.', correct: 'El gato está debajo de la silla.' },
+      { russian: 'Дом рядом со школой.', correct: 'La casa está al lado de la escuela.' },
+      { russian: 'Картина на стене.', correct: 'El cuadro está en la pared.' },
+      { russian: 'Лампа справа от столика.', correct: 'La lámpara está a la derecha de la mesita.' },
+      { russian: 'Мальчик перед дверью.', correct: 'El niño está delante de la puerta.' },
+      { russian: 'Стул позади окна.', correct: 'La silla está detrás de la ventana.' },
+      { russian: 'Сад между двумя домами.', correct: 'El jardín está entre dos casas.' },
+      { russian: 'Собака слева от дерева.', correct: 'El perro está a la izquierda del árbol.' },
+      { russian: 'Школа позади музея.', correct: 'La escuela está detrás del museo.' }
     ]
   }
 }
