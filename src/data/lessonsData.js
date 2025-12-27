@@ -1509,6 +1509,7 @@ La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol 
     title: 'Урок 5: Предлоги, числительные, глаголы',
     moduleId: 'module-1',
     audioUrl: '/Ej.15a (A1U1Cl3).mp3',
+    videoUrl: '/video/Модуль 1 Урок 5.mp4',
     grammar: {
       title: 'Простые предлоги. Числительные. Правильные глаголы',
       intro: `# Грамматика урока
@@ -1978,6 +1979,7 @@ Marta: Mi hermano está en la playa. El sol es caliente.`,
     id: 'lesson-2-1',
     title: 'Урок 1: Глаголы IR, TENER, OÍR',
     moduleId: 'module-2',
+    audioUrl: '/audio/Модуль 2 Урок 1.mp3',
     grammar: {
       title: 'Неправильные глаголы IR, TENER, OÍR',
       intro: `В этом уроке мы изучим:
