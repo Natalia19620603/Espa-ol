@@ -1005,6 +1005,7 @@ Adiós. Gracias. Muchas gracias. De nada. Por favor. ¿Qué tal? Bien.`,
     id: 'lesson-1-3',
     title: 'Урок 3: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ',
     moduleId: 'module-1',
+    audioUrl: '/audio/Модуль 1 Урок 3.mp3',
     videoTabs: [
       {
         tab: 'Упр. 6',
@@ -1634,7 +1635,26 @@ Objeto + está + preposición + del/de la + lugar.
 — Кто он? Студент?
 — Нет, он врач. Он высокий и красивый.
 — А твоя сестра?
-— Моя сестра преподавательница. Она молодая и веселая.`,
+— Моя сестра преподавательница. Она молодая и веселая.
+
+**Диалог 6: ¿Dónde están mis gafas?**
+
+**Vocabulario:**
+- cariño - дорогой, дорогая (ласковое обращение к человеку)
+- ni idea - понятия не имею
+- pues - ну
+
+**Mamá:** Ay, dios mío… ¿Dónde están mis gafas? ¡Alberto!
+**Papá:** ¿Sí, cariño?
+**Mamá:** ¿Dónde están mis gafas?
+**Papá:** Ni idea.
+**Mamá:** Uf… ¿Y mi ordenador? ¿Dónde está mi ordenador?
+**Papá:** Está sobre la mesa.
+**Mamá:** Gracias. No, no está sobre la mesa.
+**Papá:** Pues… ¿En la mesita?
+**Mamá:** Mmm… No, no está.
+**Papá:** Ah, mira tus gafas están debajo del sillón.
+**Mamá:** Oh, gracias. Y el ordenador está al lado de la librería.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: 'Soy Elena Petrova, de Rusia. ¿Y usted?' },
@@ -3265,6 +3285,10 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: 'Видео 10',
         videoUrl: '/video/Модуль 2 Урок 3 - Видео 10.mp4'
+      },
+      {
+        tab: 'Аудио 2',
+        audioUrl: '/audio/Модуль 2 Урок 3 - Аудио 2.mp3'
       }
     ],
     grammar: {
