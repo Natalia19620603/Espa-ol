@@ -1672,6 +1672,16 @@ Objeto + está + preposición + del/de la + lugar.
     title: 'Урок 5: Предлоги, числительные, глаголы',
     moduleId: 'module-1',
     audioUrl: '/Ej.15a (A1U1Cl3).mp3',
+    videoTabs: [
+      {
+        tab: 'Видео 1',
+        videoUrl: '/video/A1-U1-clase4-Ejercicio 7.mp4'
+      },
+      {
+        tab: 'Видео 2',
+        videoUrl: '/video/A1-U2-clase4-Ej.7.mp4'
+      }
+    ],
     grammar: {
       title: 'Простые предлоги. Числительные. Правильные глаголы',
       intro: `# Грамматика урока
@@ -2218,6 +2228,13 @@ Objeto + está + preposición + del/de la + lugar.
     id: 'lesson-2-1',
     title: 'Урок 1: Глаголы IR, TENER, OÍR',
     moduleId: 'module-2',
+    audioUrl: '/audio/Ej. 13 (A1U2Cl1).mp3',
+    videoTabs: [
+      {
+        tab: 'Видео 1',
+        videoUrl: '/video/A1-U3-Cl1.1-Ej.14.mp4'
+      }
+    ],
     grammar: {
       title: 'Неправильные глаголы IR, TENER, OÍR',
       intro: `В этом уроке мы изучим:
@@ -3237,6 +3254,53 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
     id: 'lesson-2-3',
     title: 'Урок 3: Семья и родственники. Вопросительные предложения в испанском языке. Глаголы QUERER, PODER, VENIR, DECIR',
     moduleId: 'module-2',
+    audioUrl: '/audio/Ej. 12 .mp3',
+    videoTabs: [
+      {
+        tab: 'Видео 1',
+        videoUrl: '/video/A1-U2-Cl2-Deberes, ej.6.mp4'
+      },
+      {
+        tab: 'Видео 2',
+        videoUrl: '/video/A1-U2-clase2-Ej.8.mp4'
+      },
+      {
+        tab: 'Видео 3',
+        videoUrl: '/video/A1-U2-clase3-Ana.mp4'
+      },
+      {
+        tab: 'Видео 4',
+        videoUrl: '/video/A2-U2-Cl2-Ej2.mp4'
+      },
+      {
+        tab: 'Видео 5',
+        videoUrl: '/video/Ejercicio 9. Audio 1 (A1U2Cl2).mp4'
+      },
+      {
+        tab: 'Видео 6',
+        videoUrl: '/video/Ejercicio 9. Audio 2 (A1U2Cl2).mp4'
+      },
+      {
+        tab: 'Видео 7',
+        videoUrl: '/video/Ejercicio 9. Audio 3 (A1U2Cl2).mp4'
+      },
+      {
+        tab: 'Видео 8',
+        videoUrl: '/video/Ejercicio 9. Audio 4 (A1U2Cl2).mp4'
+      },
+      {
+        tab: 'Видео 9',
+        videoUrl: '/video/Ejercicio 9. Audio 5 (A1U2Cl2).mp4'
+      },
+      {
+        tab: 'Видео 10',
+        videoUrl: '/video/Ejercicio 9. Audio 6 (A1U2Cl2).mp4'
+      },
+      {
+        tab: 'Аудио 2',
+        audioUrl: '/audio/A1-U2-Cl3-Ej.14.mp3'
+      }
+    ],
     grammar: {
       title: 'Вопросительные предложения в испанском языке',
       intro: `# Вопросительные предложения в испанском языке
