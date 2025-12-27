@@ -24,7 +24,7 @@ export const courseLevels = [
 export const modules = {
   'module-1': {
     id: 'module-1',
-    title: 'Модуль 1: Знакомство с испанским',
+    title: 'Модуль 1: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ',
     level: 'beginner',
     lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4', 'lesson-1-5'],
     description: 'Алфавит, приветствия, базовая лексика, грамматические основы'
@@ -1247,54 +1247,89 @@ Estar используется для обозначения временных 
       },
     ],
     readingText: {
-      title: 'Palabras y frases',
-      content: `Hola. Yo soy Ana y soy chica. Ella es mi amiga María. María es joven y guapa. El libro es grande y azul. La casa es blanca. El padre es alto y bueno.
+      title: 'Diálogos - Знакомство',
+      content: `**Диалог 1: Первое знакомство**
 
+— ¡Hola! ¿Cómo te llamas?
+— Me llamo Ana. ¿Y tú?
+— Yo soy Carlos. Mucho gusto.
+— Encantada.
 
+**Диалог 2: В офисе**
 
-Buenos días, ¿Cómo estás? Yo estoy bien, gracias. Ahora estoy en la playa. El sol es caliente. Un chico está en el coche. Su coche es nuevo y barato. Mi hermana es alumna. Ella está contenta. La ciudad es grande, pero mi casa es pequeña.
+— Buenos días. ¿Cómo se llama usted?
+— Me llamo María González. Soy la señora González.
+— Mucho gusto, señora. Yo soy el señor Pérez.
+— Encantada, don Miguel.
 
+**Диалог 3: Откуда ты?**
 
+— ¡Hola! ¿De dónde eres?
+— Yo soy de Rusia. ¿Y tú?
+— Soy de España. Soy español.
+— ¡Qué bien!
 
-El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él está en casa. Un libro interesante está en la mesa. Nosotros somos clientes ricos, pero estamos enfermos. La flor es bonita y verde. ¿Dónde están los aviones? Los aviones son grandes. Tú eres economista. Tu trabajo es difícil, pero es interesante.`,
-      translation: `**Приветствия и выражения**
-Привет! Доброе утро. Добрый день. Добрый вечер/Спокойной ночи.
-Спасибо. Большое спасибо. Пожалуйста (ответ). Пожалуйста (просьба).
-Пока. Очень приятно. Рад познакомиться (м.р.). Рада познакомиться (ж.р.).
+**Диалог 4: Как дела?**
 
-**Семья**
-Отец. Мать. Брат. Сестра.
-Мой отец. Моя мать. Твой брат. Твоя сестра.
-Молодой мальчик. Молодая девочка.
-Высокий мужчина. Высокая женщина.
-Хороший друг. Хорошая подруга.
+— Buenos días, Ana. ¿Cómo estás?
+— Estoy bien, gracias. ¿Y tú?
+— Yo estoy muy bien.
+— Me alegro.
 
-**Описания**
-Большая книга. Большой дом.
-Красивый день. Красивый город.
-Интересный музей. Красивый пляж.
-Горячий кофе. Холодная ночь.
-Белое солнце. Белый свет.
-Дорогая машина. Дорогой цветок.
+**Диалог 5: Где ты?**
 
-**Места**
-Дом. Музей. Пляж. Город.
-Длинная улица. Длинный день.
-Дома. В музее. На пляже. В городе.
+— ¿Dónde estás ahora?
+— Estoy en casa. ¿Y tú?
+— Yo estoy en la playa.
+— ¡Qué bien! La playa es bonita.
 
-**Качества и состояния**
-Счастливый. Довольный. Весёлый. Грустный.
-Больной. Молодой. Старый. Высокий. Низкий.
-Красивый. Симпатичный. Некрасивый. Хороший. Плохой.
-Новый. Старинный. Большой. Маленький.
-Толстый. Стройный. Богатый. Бедный.
+**Диалог 6: Кто они?**
 
-**Предметы и вещи**
-Новая книга. Новый дом.
-Маленький карандаш. Маленькая рука.
-Зелёная машина. Синий цветок.
-Большой самолёт. Большая станция.
-Деньги. Любовь. Счастье. Здоровье.`,
+— ¿Quién es ella?
+— Ella es mi amiga María. Es muy guapa.
+— ¿Y él?
+— Él es mi hermano. Es alto y alegre.`,
+      translation: `**Диалог 1: Первое знакомство**
+
+— Привет! Как тебя зовут?
+— Меня зовут Ана. А тебя?
+— Я Карлос. Очень приятно.
+— Рада познакомиться.
+
+**Диалог 2: В офисе**
+
+— Доброе утро. Как Вас зовут?
+— Меня зовут Мария Гонсалес. Я сеньора Гонсалес.
+— Очень приятно, сеньора. Я сеньор Перес.
+— Рада познакомиться, дон Мигель.
+
+**Диалог 3: Откуда ты?**
+
+— Привет! Откуда ты?
+— Я из России. А ты?
+— Я из Испании. Я испанец.
+— Как хорошо!
+
+**Диалог 4: Как дела?**
+
+— Доброе утро, Ана. Как дела?
+— Хорошо, спасибо. А у тебя?
+— У меня очень хорошо.
+— Рада слышать.
+
+**Диалог 5: Где ты?**
+
+— Где ты сейчас?
+— Я дома. А ты?
+— Я на пляже.
+— Как хорошо! Пляж красивый.
+
+**Диалог 6: Кто они?**
+
+— Кто она?
+— Она моя подруга Мария. Она очень красивая.
+— А он?
+— Он мой брат. Он высокий и веселый.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 4, text: '¡Hola! ¿Cómo te llamas?' },
@@ -1469,29 +1504,97 @@ El día es largo y la noche es fría. Mi hermano es feliz y soltero. Ahora él e
       },
     ],
     readingText: {
-      title: 'Mi familia',
-      content: `Me llamo Ana. Soy joven y alta. Estoy contenta. Ahora estoy en casa.
+      title: 'Diálogos - Профессии и национальности',
+      content: `**Диалог 1: В кафе**
 
-Mi padre es bueno y alto. Mi madre es guapa y alegre. Ella es joven.
+— Hola, buenos días. ¿Cómo te llamas?
+— Me llamo Elena. Soy de Rusia, soy rusa. ¿Y tú?
+— Yo soy Miguel. Soy español, de Madrid.
+— Mucho gusto, Miguel.
+— Encantado. ¿A qué te dedicas?
+— Soy médica. ¿Y tú?
+— Yo soy abogado.
 
-Mi hermano es grande y soltero. Él es feliz. Ahora él está en casa. Mi hermana es pequeña y bonita. Ella es alumna. Ahora ella está en la ciudad.
+**Диалог 2: En la universidad**
 
-Una amiga: ella es joven y guapa. Ella es estudiante. Ahora está en el museo. El museo es antiguo y grande.
+— ¿Eres estudiante?
+— Sí, soy estudiante. Estudio en la universidad.
+— ¿De dónde eres?
+— Soy italiana, de Roma. ¿Y tú?
+— Yo soy francés, de París. Soy ingeniero.
+— ¡Qué interesante!
 
-Un amigo: él es alto y delgado. Él es alegre. Ahora está en la playa. La playa es bonita.
+**Диалог 3: Presentaciones**
 
-La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol es caliente. La noche es fría.`,
-      translation: `Меня зовут Ана. Я молодая и высокая. Я довольна. Сейчас я дома.
+— Ella es mi amiga Lucía. Es periodista.
+— Mucho gusto, Lucía.
+— Encantada. ¿Usted es profesor?
+— Sí, soy profesor de español.
+— ¿De dónde es usted?
+— Soy de España, pero ahora estoy en Moscú.
 
-Мой отец хороший и высокий. Моя мать красивая и веселая. Она молодая.
+**Диалог 4: En el trabajo**
 
-Мой брат большой и холостой. Он счастливый. Сейчас он дома. Моя сестра маленькая и красивая. Она ученица. Сейчас она в городе.
+— Buenos días, señora González. ¿Cómo está?
+— Estoy bien, gracias. Estoy muy ocupada.
+— ¿Es usted economista?
+— Sí, trabajo en un banco. ¿Y usted?
+— Yo soy actor. Ahora estoy en el teatro.
+— ¡Qué bien!
 
-Одна подруга: она молодая и красивая. Она студентка. Сейчас она в музее. Музей старинный и большой.
+**Диалог 5: Amigos internacionales**
 
-Один друг: он высокий и стройный. Он веселый. Сейчас он на пляже. Пляж красивый.
+— ¿Tu hermano es alemán?
+— No, mi hermano es ruso, pero vive en Alemania.
+— ¿Qué es? ¿Estudiante?
+— No, es médico. Es alto y guapo.
+— ¿Y tu hermana?
+— Mi hermana es profesora. Es joven y alegre.`,
+      translation: `**Диалог 1: В кафе**
 
-Дом большой и белый. Он находится на длинной улице. День красивый. Солнце горячее. Ночь холодная.`,
+— Привет, доброе утро. Как тебя зовут?
+— Меня зовут Елена. Я из России, я русская. А ты?
+— Я Мигель. Я испанец, из Мадрида.
+— Очень приятно, Мигель.
+— Рад познакомиться. Чем ты занимаешься?
+— Я врач. А ты?
+— Я адвокат.
+
+**Диалог 2: В университете**
+
+— Ты студентка?
+— Да, я студентка. Учусь в университете.
+— Откуда ты?
+— Я итальянка, из Рима. А ты?
+— Я француз, из Парижа. Я инженер.
+— Как интересно!
+
+**Диалог 3: Представления**
+
+— Она моя подруга Лусия. Она журналистка.
+— Очень приятно, Лусия.
+— Рада познакомиться. Вы преподаватель?
+— Да, я преподаватель испанского.
+— Откуда Вы?
+— Я из Испании, но сейчас я в Москве.
+
+**Диалог 4: На работе**
+
+— Доброе утро, сеньора Гонсалес. Как дела?
+— Хорошо, спасибо. Я очень занята.
+— Вы экономист?
+— Да, я работаю в банке. А Вы?
+— Я актер. Сейчас я в театре.
+— Как хорошо!
+
+**Диалог 5: Международные друзья**
+
+— Твой брат немец?
+— Нет, мой брат русский, но живет в Германии.
+— Кто он? Студент?
+— Нет, он врач. Он высокий и красивый.
+— А твоя сестра?
+— Моя сестра преподавательница. Она молодая и веселая.`,
       audioUrl: '/audio/lesson-1-3-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: 'Soy Elena Petrova, de Rusia. ¿Y usted?' },
@@ -1931,38 +2034,115 @@ La casa es grande y blanca. Está en una calle larga. El día es bonito. El sol 
       },
     ],
     readingText: {
-      title: 'Diálogos en la ciudad',
-      content: `**Diálogo en la ciudad**
+      title: 'Diálogos - Повседневная жизнь',
+      content: `**Диалог 1: En el café**
 
-Juan: ¡Hola! Yo soy Juan. ¿Y tú?
-Ana: Me llamo Ana. Soy joven y alegre.
-Juan: ¡Mucho gusto! La ciudad es grande.
-Ana: Sí, es grande y bonita. Ahora estoy en la calle.
-Juan: Yo estoy en casa.
-Ana: ¡Adiós!
-Juan: ¡Adiós!
+— Buenos días. ¿Qué tomas?
+— Tomo un café con leche, por favor.
+— ¿Y tú?
+— Yo tomo agua y un bocadillo.
+— ¿Cuánto es?
+— Son diez euros.
 
-**Diálogo sobre ubicación y origen**
+**Диалог 2: En la calle**
 
-Felipe: Buenos días, señora. ¿Cómo se llama usted?
-Doña Clara: Me llamo Doña Clara. Soy rica.
-Felipe: Encantado. Yo soy Felipe, soy estudiante. Soy de Rusia.
-Doña Clara: Qué interesante... ¿De dónde es su hermano?
-Felipe: Mi hermano es de China. Él es ingeniero y está casado.
-Doña Clara: Yo estoy en casa. ¿Dónde está el museo?
-Felipe: Vengo del museo. El museo es antiguo.
+— Perdón, ¿dónde está el metro?
+— El metro está en la calle Principal.
+— ¿Tomo el metro o el autobús?
+— Es mejor tomar el metro. Es más rápido.
+— Gracias.
+— De nada.
 
-**Diálogo sobre estados y rutinas**
+**Диалог 3: Hábitos diarios**
 
-Pedro: ¡Hola! ¿Cómo estás?
-Marta: Estoy regular. Mi mano está fría y tengo veinticinco años.
-Pedro: ¡Qué lástima! ¿Estás enferma?
-Marta: No, no estoy enferma, estoy triste. Soy soltera. ¿Y tú?
-Pedro: Yo soy policía. Soy alto y delgado. Ahora voy a la escuela con mi amigo Carlos.
-Marta: ¿Es fácil la escuela?
-Pedro: Es difícil, pero es interesante. Estamos contentos.
-Marta: Mi hermano está en la playa. El sol es caliente.`,
-      translation: 'Диалог в городе\n\nХуан: Привет! Я Хуан. А ты?\nАна: Меня зовут Ана. Я молодая и веселая.\nХуан: Очень приятно! Город большой.\nАна: Да, он большой и красивый. Сейчас я на улице.\nХуан: Я дома.\nАна: Пока!\nХуан: Пока!\n\nДиалог о местонахождении и происхождении\n\nФелипе: Доброе утро, сеньора. Как вас зовут?\nДонья Клара: Меня зовут Донья Клара. Я богата.\nФелипе: Рад познакомиться. Я Фелипе, я студент. Я из России.\nДонья Клара: Как интересно... Откуда ваш брат?\nФелипе: Мой брат из Китая. Он инженер и женат.\nДонья Клара: Я дома. Где находится музей?\nФелипе: Я иду из музея. Музей старинный.\n\nДиалог о состояниях и распорядке\n\nПедро: Привет! Как дела?\nМарта: Так себе. Моя рука холодная, и мне двадцать пять лет.\nПедро: Как жаль! Ты больна?\nМарта: Нет, я не больна, я грустная. Я не замужем. А ты?\nПедро: Я полицейский. Я высокий и стройный. Сейчас я иду в школу с моим другом Карлосом.\nМарта: Легко ли в школе?\nПедро: Сложно, но интересно. Мы довольны.\nМарта: Мой брат на пляже. Солнце горячее.',
+— ¿Qué haces cada día?
+— Por la mañana leo el periódico y tomo café.
+— ¿Comes en casa?
+— No, como en el restaurante con mis amigos.
+— ¿Hablas español con ellos?
+— Sí, hablamos español y aprendemos juntos.
+
+**Диалог 4: Planes**
+
+— ¿Adónde vas ahora?
+— Voy a la escuela. Estudio español.
+— ¿Con quién vas?
+— Voy con mi amiga Ana. Ella también aprende español.
+— ¿Dónde vive Ana?
+— Vive en Madrid, en una casa grande.
+
+**Диалог 5: En la librería**
+
+— Buenos días. Busco un libro de español.
+— Aquí tenemos muchos libros. ¿Para estudiar?
+— Sí, aprendo español en la universidad.
+— Este libro es bueno y cuesta veinte euros.
+— Perfecto. Lo tomo.
+— ¿Paga con tarjeta?
+— No, pago en efectivo.
+
+**Диалог 6: Números y edad**
+
+— ¿Cuántos años tienes?
+— Tengo veinticinco años. ¿Y tú?
+— Yo tengo treinta años.
+— ¿Tienes hermanos?
+— Sí, tengo dos hermanos. Uno tiene quince años y otro tiene veinte.
+— ¡Qué bien!`,
+      translation: `**Диалог 1: В кафе**
+
+— Доброе утро. Что будете пить/есть?
+— Кофе с молоком, пожалуйста.
+— А ты?
+— Я возьму воду и бутерброд.
+— Сколько это стоит?
+— Десять евро.
+
+**Диалог 2: На улице**
+
+— Извините, где находится метро?
+— Метро находится на Главной улице.
+— Мне сесть на метро или на автобус?
+— Лучше сесть на метро. Это быстрее.
+— Спасибо.
+— Пожалуйста.
+
+**Диалог 3: Ежедневные привычки**
+
+— Что ты делаешь каждый день?
+— Утром я читаю газету и пью кофе.
+— Ты ешь дома?
+— Нет, я ем в ресторане с друзьями.
+— Ты говоришь с ними по-испански?
+— Да, мы говорим по-испански и учимся вместе.
+
+**Диалог 4: Планы**
+
+— Куда ты идешь сейчас?
+— Я иду в школу. Я учу испанский.
+— С кем ты идешь?
+— Я иду с моей подругой Аной. Она тоже учит испанский.
+— Где живет Ана?
+— Она живет в Мадриде, в большом доме.
+
+**Диалог 5: В книжном магазине**
+
+— Доброе утро. Я ищу учебник испанского.
+— У нас есть много книг. Для учебы?
+— Да, я учу испанский в университете.
+— Эта книга хорошая и стоит двадцать евро.
+— Отлично. Я ее беру.
+— Вы платите картой?
+— Нет, я плачу наличными.
+
+**Диалог 6: Числа и возраст**
+
+— Сколько тебе лет?
+— Мне двадцать пять лет. А тебе?
+— Мне тридцать лет.
+— У тебя есть братья и сестры?
+— Да, у меня два брата. Одному пятнадцать лет, а другому двадцать.
+— Как хорошо!`,
       audioUrl: '/audio/lesson-2-1-reading.mp3',
       subtitles: [
         { start: 0, end: 5, text: '¡Hola! Yo soy Juan. ¿Y tú?' },
@@ -2999,6 +3179,45 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
     id: 'lesson-2-3',
     title: 'Урок 3: Семья и родственники. Вопросительные предложения в испанском языке. Глаголы QUERER, PODER, VENIR, DECIR',
     moduleId: 'module-2',
+    audioUrl: '/audio/Модуль 2 Урок 3.mp3',
+    videoTabs: [
+      {
+        tab: 'Видео 1',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 1.mp4'
+      },
+      {
+        tab: 'Видео 2',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 2.mp4'
+      },
+      {
+        tab: 'Видео 3',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 3.mp4'
+      },
+      {
+        tab: 'Видео 4',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 4.mp4'
+      },
+      {
+        tab: 'Видео 5',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 5.mp4'
+      },
+      {
+        tab: 'Видео 6',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 6.mp4'
+      },
+      {
+        tab: 'Видео 7',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 7.mp4'
+      },
+      {
+        tab: 'Видео 8',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 8.mp4'
+      },
+      {
+        tab: 'Видео 9',
+        videoUrl: '/video/Модуль 2 Урок 3 - Видео 9.mp4'
+      }
+    ],
     grammar: {
       title: 'Вопросительные предложения в испанском языке',
       intro: `# Вопросительные предложения в испанском языке
