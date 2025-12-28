@@ -9228,126 +9228,91 @@ Hoy, "luchar contra molinos de viento" significa luchar contra enemigos imaginar
     id: 'lesson-9-2',
     title: 'Урок 2: Испанские традиции',
     moduleId: 'module-9',
-    grammar: {
-      title: 'Культура и традиции Испании',
-      content: `
-# Tradiciones españolas
-
-## 1. FIESTAS PRINCIPALES
-
-### Las Fallas (Валенсия, март)
-Огромные скульптуры сжигаются в последнюю ночь.
-
-### Semana Santa (Страстная неделя)
-Религиозные процессии с платформами, особенно в Севилье.
-
-### San Fermín (Памплона, июль)
-Знаменитый **encierro** - бег быков по улицам.
-
-### La Tomatina (Буньол, август)
-Битва помидорами - 20,000 человек, 150 тонн помидоров!
-
-### Nochevieja (31 декабря)
-Традиция есть 12 виноградин под 12 ударов часов.
-
-### Reyes Magos (6 января)
-Три короля приносят подарки детям.
-
-## 2. FLAMENCO
-
-Андалузское искусство:
-- **Cante** (пение)
-- **Baile** (танец)
-- **Toque** (гитара)
-- **Duende** - магия исполнения
-
-## 3. GASTRONOMÍA
-
-### Las tapas
-Маленькие закуски в барах.
-
-**Популярные:**
-- Jamón ibérico
-- Tortilla española
-- Patatas bravas
-- Pulpo a la gallega
-
-### Horario de comidas:
-- Desayuno: 7-9
-- Almuerzo: 14-15:30 (главный прием)
-- Cena: 21-22:30 (поздний)
-
-## 4. EXPRESIONES
-
-- ¡Olé! - Браво!
-- ¡Vale! - ОК!
-- ¡Qué guay! - Как круто!`,
-      examples: [
-        { spanish: 'Me encanta ir de tapas', russian: 'Мне нравится ходить на тапас' },
-        { spanish: 'La Semana Santa es impresionante', russian: 'Страстная неделя впечатляет' },
-        { spanish: 'En España se cena muy tarde', russian: 'В Испании ужинают поздно' }
-      ]
-    },
-    vocabulary: [
-      { word: 'la fiesta', translation: 'праздник', audioUrl: null },
-      { word: 'la tradición', translation: 'традиция', audioUrl: null },
-      { word: 'la costumbre', translation: 'обычай', audioUrl: null },
-      { word: 'el desfile', translation: 'парад', audioUrl: null },
-      { word: 'bailar', translation: 'танцевать', audioUrl: null },
-      { word: 'cantar', translation: 'петь', audioUrl: null },
-      { word: 'la gastronomía', translation: 'гастрономия', audioUrl: null },
-      { word: 'la tapa', translation: 'тапа', audioUrl: null },
-      { word: 'el jamón', translation: 'хамон', audioUrl: null },
-      { word: 'celebrar', translation: 'праздновать', audioUrl: null },
-      { word: 'los fuegos artificiales', translation: 'фейерверки', audioUrl: null },
-      { word: 'el traje típico', translation: 'традиционный костюм', audioUrl: null },
-      { word: 'la procesión', translation: 'процессия', audioUrl: null },
-      { word: 'el plato típico', translation: 'традиционное блюдо', audioUrl: null },
-      { word: 'la celebración', translation: 'празднование', audioUrl: null }
+    videoTabs: [
+      {
+        tab: 'Видео',
+        videoUrl: '/video/module-9-lesson-2.mp4'
+      }
     ],
-    readingText: {
-      title: 'Un año de fiestas españolas',
-      content: `Si hay algo que caracteriza a España, son sus fiestas. Cada mes tiene celebraciones únicas.
+    vocabulary: [
+      {
+        tab: 'Словарь',
+        words: [
+          { word: 'pararse a pensar', translation: 'задуматься', audioUrl: null },
+          { word: 'las entrañas', translation: 'внутренности', audioUrl: null },
+          { word: 'desentrañar', translation: 'вникать в суть', audioUrl: null },
+          { word: 'fascinante', translation: 'восхитительный, очаровательный', audioUrl: null },
+          { word: 'sagrado', translation: 'святой, священный', audioUrl: null },
+          { word: 'la deidad', translation: 'божество', audioUrl: null },
+          { word: 'la devoción a', translation: 'набожность, благочестие', audioUrl: null },
+          { word: 'invicto', translation: 'непобедимый, непобежденный', audioUrl: null },
+          { word: 'la expansión', translation: 'расширение, распространение', audioUrl: null },
+          { word: 'el templo', translation: 'храм, церковь, святилище; буддийский храм', audioUrl: null },
+          { word: 'el solsticio', translation: 'солнцестояние', audioUrl: null },
+          { word: 'arraigado', translation: 'укоренившийся, закоренелый', audioUrl: null },
+          { word: 'la transición', translation: 'превращение, изменение, переход', audioUrl: null },
+          { word: 'perenne', translation: 'многолетний, вечный', audioUrl: null },
+          { word: 'la fusión', translation: 'слияние, объединение', audioUrl: null },
+          { word: 'pagano', translation: 'языческий, язычник', audioUrl: null },
+          { word: 'resonar', translation: 'прозвучать, резонировать, отзываться', audioUrl: null }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: '1 Navidad',
+        title: 'La Navidad en España: Entre lo Sagrado y lo Pagano',
+        content: `Cuando llega diciembre, España se transforma. Las calles brillan con luces, los villancicos resuenan en cada esquina, y el aroma a turrón y polvorones llena el aire. Pero la Navidad española es mucho más que decoración y dulces. Es un fenómeno fascinante que nos invita a pararse a pensar sobre sus orígenes y significados.
 
-Enero empieza con Reyes Magos el 6 de enero. La noche anterior, Melchor, Gaspar y Baltasar llegan en cabalgata. Los niños dejan zapatos en la puerta con agua para los camellos. Por la mañana, encuentran regalos si han sido buenos, o carbón dulce si no. Las familias comen Roscón de Reyes con una figura escondida dentro.
+Para desentrañar la verdadera naturaleza de la Navidad, debemos explorar sus entrañas históricas. Muchos no saben que el 25 de diciembre no fue siempre una fecha cristiana. En la antigua Roma, este día se celebraba el "Sol Invictus" - el Sol Invicto - una deidad pagana venerada por su poder perenne de renacer cada año después del solsticio de invierno.
 
-Marzo en Valencia significa Las Fallas. Durante todo el año, los valencianos construyen enormes esculturas de cartón llamadas "fallas". Durante cinco días, la ciudad se llena de música y pólvora. La mascletà al mediodía hace temblar toda la ciudad. La noche del 19, la Cremà, todas las fallas se queman. Es mágico y melancólico: meses de trabajo en cenizas.
+El solsticio de invierno, que ocurre alrededor del 21 de diciembre, marcaba el día más corto del año. Para las culturas paganas, este momento era sagrado. Representaba la transición de la oscuridad a la luz, el triunfo del sol invicto sobre las tinieblas. Los antiguos romanos celebraban las "Saturnales", fiestas llenas de alegría, intercambio de regalos y banquetes.
 
-Abril trae Semana Santa, especialmente impresionante en Sevilla. Los costaleros cargan pasos de toneladas al ritmo de tambores. Los nazarenos con capirotes caminan descalzos. Cuando pasa una Virgen bella, la gente grita "¡Guapa!" Una saeta surge de un balcón y todo se detiene.
+Con la expansión del cristianismo por el Imperio Romano, la Iglesia necesitaba convertir a los pueblos paganos. En lugar de prohibir sus celebraciones arraigadas, adoptó una estrategia brillante: la fusión. Así, las autoridades cristianas decidieron que el 25 de diciembre sería el día del nacimiento de Cristo, aunque ningún texto bíblico menciona esta fecha exacta.
 
-Después de Semana Santa, Sevilla celebra la Feria de Abril. Miles de casetas con baile de sevillanas, rebujito y jamón. Las mujeres lucen trajes de flamenca, los caballos andaluces pasean. La feria dura una semana.
+Esta transición fue gradual pero efectiva. Los templos paganos se convirtieron en iglesias cristianas. Las celebraciones del Sol Invicto se transformaron en la adoración del "Sol de Justicia", como se llamaba a Jesús. La devoción a las antiguas deidades fue reemplazada por la devoción a Cristo y los santos.
 
-Julio trae San Fermines en Pamplona. El 6 de julio lanzan el chupinazo y gritan "¡Viva San Fermín!" Durante nueve días, cada mañana seis toros corren 850 metros en tres minutos. Miles de personas corren delante. Es aterrador y emocionante.
+En la España moderna, esta fascinante mezcla sigue resonando. La Navidad española combina elementos profundamente cristianos con tradiciones que tienen raíces paganas. El árbol de Navidad, por ejemplo, era originalmente un símbolo pagano germánico que representaba la vida eterna. El intercambio de regalos recuerda tanto a las Saturnales romanas como a la historia cristiana de los Tres Reyes Magos.
 
-Agosto trae La Tomatina en Buñol. 20,000 personas se lanzan 150 toneladas de tomates durante una hora. Las calles se vuelven ríos rojos. Es absurdo y divertido.
+La Nochebuena, la noche del 24 de diciembre, es el momento más sagrado para muchas familias españolas. Se reúnen para cenar, asisten a la Misa del Gallo a medianoche, y celebran el nacimiento de Cristo. Pero también cantan villancicos que mezclan lo religioso con lo folklórico, comen turrón cuyas recetas vienen de tradiciones árabes, y decoran sus casas con elementos tanto cristianos como seculares.
 
-Diciembre termina con Nochevieja. En toda España, la gente come doce uvas en doce segundos al ritmo de las campanadas - doce deseos para doce meses. Después, ¡fiesta hasta el amanecer!
+Los Reyes Magos, que llegan el 6 de enero, añaden otra capa a esta compleja tradición. Aunque son figuras bíblicas, la manera española de celebrar su llegada - con cabalgatas llenas de música, dulces y magia - tiene más de celebración comunitaria pagana que de ceremonia religiosa estricta.
 
-Lo especial de las fiestas españolas es que no son espectáculos turísticos. Son tradiciones vivas que las comunidades practican apasionadamente. Muestran el carácter español: pasional, comunitario, festivo. Son la celebración de la vida misma.
+Al desentrañar todos estos elementos, la Navidad española se revela como una tradición perenne y fascinante. No es puramente cristiana ni puramente pagana, sino una fusión armoniosa que ha sobrevivido siglos. Es un testimonio de cómo las culturas se transforman, se mezclan y crean algo nuevo sin perder completamente sus raíces.
 
-Y cuando un extranjero pregunta cuál es la mejor fiesta, cualquier español responde: "¡La de mi pueblo, claro!"`,
-      translation: `Если что-то характеризует Испанию - это праздники. Каждый месяц имеет уникальные празднования.
+Cada vez que vemos las luces navideñas brillar en diciembre, estamos presenciando ecos de antiguas celebraciones del solsticio. Cada vez que cantamos villancicos, hacemos resonar tradiciones que tienen mil años de antigüedad. La Navidad española, con todas sus contradicciones y belleza, es un recordatorio de que nuestras tradiciones más arraigadas son a menudo el resultado de largas transiciones históricas.
 
-Январь начинается с Дня Трёх Королей 6 января. Накануне вечером Мельхиор, Гаспар и Бальтазар прибывают в процессии. Дети оставляют туфли у двери с водой для верблюдов. Утром они находят подарки, если были хорошими, или сладкий уголь, если нет. Семьи едят Королевский пирог со спрятанной внутри фигуркой.
+Así que este diciembre, cuando celebres la Navidad, párate a pensar: ¿Qué celebras realmente? ¿El nacimiento de Cristo? ¿El renacimiento del sol? ¿La reunión familiar? Quizás, de manera fascinante, celebras todo esto a la vez.`,
+        translation: `Когда наступает декабрь, Испания преображается. Улицы сияют огнями, рождественские песни звучат на каждом углу, и аромат туррона и польворонес наполняет воздух. Но испанское Рождество - это гораздо больше, чем украшения и сладости. Это восхитительное явление, которое приглашает нас задуматься о его происхождении и значении.
 
-Март в Валенсии означает Лас Фальяс. В течение всего года валенсийцы строят огромные картонные скульптуры, называемые "фальяс". В течение пяти дней город наполняется музыкой и порохом. Полуденная маскалета заставляет дрожать весь город. Ночью 19-го, Кремá, все фальяс сжигаются. Это волшебно и меланхолично: месяцы работы в пепле.
+Чтобы вникнуть в суть истинной природы Рождества, мы должны исследовать его исторические внутренности. Многие не знают, что 25 декабря не всегда было христианской датой. В Древнем Риме в этот день отмечали "Sol Invictus" - Непобедимое Солнце - языческое божество, почитаемое за его вечную силу возрождаться каждый год после зимнего солнцестояния.
 
-Апрель приносит Страстную неделю, особенно впечатляющую в Севилье. Костальеро несут платформы весом в тонны под ритм барабанов. Назарены в капюшонах идут босиком. Когда проходит красивая статуя Девы Марии, люди кричат "¡Guapa!" Саэта раздаётся с балкона, и всё останавливается.
+Зимнее солнцестояние, которое происходит около 21 декабря, отмечало самый короткий день в году. Для языческих культур этот момент был священным. Он представлял переход от тьмы к свету, триумф непобедимого солнца над мраком. Древние римляне праздновали "Сатурналии", праздники, полные радости, обмена подарками и пиршеств.
 
-После Страстной недели Севилья празднует Апрельскую ярмарку. Тысячи палаток с танцами севильяны, ребухито и хамоном. Женщины носят платья фламенко, андалузские лошади гуляют. Ярмарка длится неделю.
+С распространением христианства по Римской империи Церкви нужно было обращать языческие народы. Вместо того чтобы запретить их укоренившиеся празднования, она приняла блестящую стратегию: слияние. Так, христианские власти решили, что 25 декабря будет днем рождения Христа, хотя никакой библейский текст не упоминает эту точную дату.
 
-Июль приносит Сан-Фермины в Памплоне. 6 июля запускают чупиназо и кричат "¡Viva San Fermín!" В течение девяти дней каждое утро шесть быков пробегают 850 метров за три минуты. Тысячи людей бегут впереди. Это пугающе и захватывающе.
+Этот переход был постепенным, но эффективным. Языческие храмы превратились в христианские церкви. Празднования Непобедимого Солнца трансформировались в поклонение "Солнцу Справедливости", как называли Иисуса. Набожность к древним божествам была заменена набожностью ко Христу и святым.
 
-Август приносит Томатину в Буньоле. 20,000 человек бросают 150 тонн помидоров в течение часа. Улицы превращаются в красные реки. Это абсурдно и весело.
+В современной Испании это восхитительное смешение продолжает резонировать. Испанское Рождество сочетает глубоко христианские элементы с традициями, имеющими языческие корни. Рождественская ель, например, изначально была языческим германским символом, представляющим вечную жизнь. Обмен подарками напоминает как римские Сатурналии, так и христианскую историю Трех Королей-Волхвов.
 
-Декабрь заканчивается Новым годом. По всей Испании люди едят двенадцать виноградин за двенадцать секунд под ритм ударов колокола - двенадцать желаний на двенадцать месяцев. Потом - вечеринка до рассвета!
+Сочельник, ночь 24 декабря, - самый священный момент для многих испанских семей. Они собираются на ужин, посещают Полуночную мессу в полночь и празднуют рождение Христа. Но они также поют рождественские песни, смешивающие религиозное с фольклорным, едят туррон, рецепты которого происходят из арабских традиций, и украшают свои дома как христианскими, так и светскими элементами.
 
-Особенность испанских праздников в том, что это не туристические представления. Это живые традиции, которые сообщества практикуют с страстью. Они показывают испанский характер: страстный, общинный, праздничный. Это празднование самой жизни.
+Три Короля, которые прибывают 6 января, добавляют еще один слой к этой сложной традиции. Хотя они являются библейскими фигурами, испанский способ празднования их прибытия - с процессиями, полными музыки, сладостей и волшебства - больше похож на языческое общественное празднование, чем на строгую религиозную церемонию.
 
-И когда иностранец спрашивает, какой праздник лучший, любой испанец отвечает: "Праздник моего города, конечно!"`,
-      audioUrl: '/audio/lesson-9-2-reading.mp3'
-    },
-    exercises: ['ex-9-2-1', 'ex-9-2-2', 'ex-9-2-3', 'ex-9-2-4', 'ex-9-2-5']
+Вникнув во все эти элементы, испанское Рождество раскрывается как вечная и восхитительная традиция. Оно не является чисто христианским или чисто языческим, а представляет собой гармоничное слияние, пережившее века. Это свидетельство того, как культуры трансформируются, смешиваются и создают что-то новое, не теряя полностью своих корней.
+
+Каждый раз, когда мы видим, как рождественские огни сияют в декабре, мы видим отголоски древних празднований солнцестояния. Каждый раз, когда мы поем рождественские песни, мы заставляем резонировать традиции, которым тысяча лет. Испанское Рождество, со всеми его противоречиями и красотой, - это напоминание о том, что наши самые укоренившиеся традиции часто являются результатом долгих исторических переходов.
+
+Так что в этом декабре, когда вы будете праздновать Рождество, задумайтесь: что вы на самом деле празднуете? Рождение Христа? Возрождение солнца? Семейное воссоединение? Возможно, восхитительным образом, вы празднуете все это одновременно.`,
+        audioUrl: '/audio/lesson-9-2-navidad.mp3'
+      }
+    ],
+    exercises: [
+      {
+        tab: '1 Navidad',
+        exerciseIds: ['ex-9-2-navidad-1', 'ex-9-2-navidad-2', 'ex-9-2-navidad-3', 'ex-9-2-navidad-4']
+      }
+    ]
   },
 
   'lesson-9-3': {
@@ -13477,6 +13442,100 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Испанские праздники очень интересные', correct: 'las fiestas españolas son muy interesantes' },
       { russian: 'В Испании ужинают поздно', correct: 'en españa se cena tarde' },
       { russian: 'Фламенко - традиционный танец', correct: 'el flamenco es un baile tradicional' }
+    ]
+  },
+
+  // Новые упражнения для Navidad (Урок 9.2)
+  'ex-9-2-navidad-1': {
+    id: 'ex-9-2-navidad-1',
+    type: 'vocabulary',
+    title: 'Упражнение 1: Словарь к тексту о Navidad',
+    description: 'Выберите правильный перевод слова (Nivel A2 avanzado)',
+    questions: [
+      { spanish: 'pararse a pensar', options: ['остановиться', 'задуматься', 'подумать быстро', 'забыть'], correct: 1 },
+      { spanish: 'desentrañar', options: ['запутывать', 'вникать в суть', 'терять', 'находить'], correct: 1 },
+      { spanish: 'fascinante', options: ['скучный', 'простой', 'восхитительный', 'страшный'], correct: 2 },
+      { spanish: 'sagrado', options: ['светский', 'святой', 'обычный', 'новый'], correct: 1 },
+      { spanish: 'la deidad', options: ['праздник', 'божество', 'храм', 'священник'], correct: 1 },
+      { spanish: 'invicto', options: ['побежденный', 'слабый', 'непобедимый', 'старый'], correct: 2 },
+      { spanish: 'la expansión', options: ['сокращение', 'остановка', 'расширение', 'закрытие'], correct: 2 },
+      { spanish: 'el templo', options: ['дом', 'магазин', 'храм', 'школа'], correct: 2 },
+      { spanish: 'el solsticio', options: ['праздник', 'месяц', 'солнцестояние', 'год'], correct: 2 },
+      { spanish: 'arraigado', options: ['временный', 'новый', 'укоренившийся', 'слабый'], correct: 2 },
+      { spanish: 'la transición', options: ['постоянство', 'переход', 'начало', 'конец'], correct: 1 },
+      { spanish: 'perenne', options: ['временный', 'короткий', 'вечный', 'быстрый'], correct: 2 },
+      { spanish: 'la fusión', options: ['разделение', 'слияние', 'борьба', 'конфликт'], correct: 1 },
+      { spanish: 'pagano', options: ['христианский', 'языческий', 'современный', 'древний'], correct: 1 },
+      { spanish: 'resonar', options: ['молчать', 'шептать', 'резонировать', 'кричать'], correct: 2 }
+    ]
+  },
+  'ex-9-2-navidad-2': {
+    id: 'ex-9-2-navidad-2',
+    type: 'reading',
+    title: 'Упражнение 2: Понимание текста о Navidad',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      { question: '¿Qué se celebraba el 25 de diciembre en la antigua Roma?', options: ['El nacimiento de Cristo', 'El Sol Invictus', 'Las Saturnales', 'El solsticio'], correct: 1 },
+      { question: '¿Cuándo ocurre el solsticio de invierno?', options: ['25 de diciembre', '1 de enero', 'Alrededor del 21 de diciembre', '6 de enero'], correct: 2 },
+      { question: '¿Qué representaba el solsticio para las culturas paganas?', options: ['El fin del año', 'La transición de la oscuridad a la luz', 'El nacimiento del sol', 'El final del invierno'], correct: 1 },
+      { question: '¿Cómo se llamaban las fiestas romanas de diciembre?', options: ['Navidad', 'Saturnales', 'Reyes Magos', 'Sol Invictus'], correct: 1 },
+      { question: '¿Por qué la Iglesia eligió el 25 de diciembre?', options: ['Porque es la fecha real del nacimiento de Cristo', 'Para fusionar tradiciones paganas y cristianas', 'Porque lo dice la Biblia', 'Porque es el solsticio'], correct: 1 },
+      { question: '¿Qué pasó con los templos paganos?', options: ['Fueron destruidos', 'Se convirtieron en iglesias', 'Permanecieron igual', 'Fueron abandonados'], correct: 1 },
+      { question: '¿Cómo llamaban a Jesús en relación con el sol?', options: ['Sol Invictus', 'Sol de Justicia', 'Sol Sagrado', 'Sol Divino'], correct: 1 },
+      { question: '¿Qué simbolizaba originalmente el árbol de Navidad?', options: ['El nacimiento de Cristo', 'La vida eterna (símbolo pagano germánico)', 'La familia', 'El invierno'], correct: 1 },
+      { question: '¿Qué es la Nochebuena?', options: ['El 25 de diciembre', 'La noche del 24 de diciembre', 'El 6 de enero', 'El 31 de diciembre'], correct: 1 },
+      { question: '¿Qué es la Misa del Gallo?', options: ['Una misa por la mañana', 'Una misa a medianoche', 'Una misa por la tarde', 'Una procesión'], correct: 1 },
+      { question: '¿Cuándo llegan los Reyes Magos?', options: ['25 de diciembre', '31 de diciembre', '1 de enero', '6 de enero'], correct: 3 },
+      { question: 'Según el texto, ¿qué tipo de fusión es la Navidad española?', options: ['Solo cristiana', 'Solo pagana', 'Una fusión armoniosa de ambas', 'Moderna y secular'], correct: 2 },
+      { question: '¿De dónde vienen las recetas del turrón?', options: ['Tradiciones romanas', 'Tradiciones árabes', 'Tradiciones germánicas', 'Tradiciones celtas'], correct: 1 },
+      { question: '¿Qué dice el texto sobre las cabalgatas de Reyes?', options: ['Son puramente religiosas', 'Tienen más de celebración comunitaria pagana', 'Son modernas', 'Son aburridas'], correct: 1 },
+      { question: 'Según el texto, ¿qué celebramos en Navidad?', options: ['Solo el nacimiento de Cristo', 'Solo el solsticio', 'Solo la reunión familiar', 'Fascinantemente, todo a la vez'], correct: 3 }
+    ]
+  },
+  'ex-9-2-navidad-3': {
+    id: 'ex-9-2-navidad-3',
+    type: 'grammar',
+    title: 'Упражнение 3: Грамматика - Pretérito Indefinido, Imperfecto, Imperativo',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'En la antigua Roma se ___ (celebrar - imperfecto) el Sol Invictus', options: ['celebró', 'celebraba', 'celebraban', 'celebrara'], correct: 1 },
+      { sentence: 'La Iglesia ___ (decidir - indefinido) que el 25 de diciembre sería el día del nacimiento de Cristo', options: ['decidía', 'decidió', 'decide', 'decidiera'], correct: 1 },
+      { sentence: 'Los antiguos romanos ___ (celebrar - imperfecto) las Saturnales', options: ['celebraron', 'celebraban', 'celebran', 'celebren'], correct: 1 },
+      { sentence: 'Los templos paganos se ___ (convertir - indefinido) en iglesias', options: ['convertían', 'convierten', 'convirtieron', 'convertirían'], correct: 2 },
+      { sentence: 'El solsticio ___ (representar - imperfecto) la transición de la oscuridad a la luz', options: ['representó', 'representaba', 'representa', 'representara'], correct: 1 },
+      { sentence: 'La expansión del cristianismo ___ (ser - indefinido) gradual pero efectiva', options: ['era', 'fue', 'es', 'sería'], correct: 1 },
+      { sentence: '___ (pararse - imperativo afirmativo, tú) a pensar sobre los orígenes de la Navidad', options: ['Párate', 'Parate', 'Parándote', 'Párese'], correct: 0 },
+      { sentence: 'No ___ (olvidar - imperativo negativo, tú) que la Navidad tiene raíces paganas', options: ['olvida', 'olvides', 'olvidaras', 'olvidaste'], correct: 1 },
+      { sentence: '___ (desentrañar - imperativo afirmativo, vosotros) la verdadera naturaleza de estas tradiciones', options: ['Desentrañad', 'Desentrañáis', 'Desentrañen', 'Desentrañando'], correct: 0 },
+      { sentence: 'Cuando ___ (llegar - indefinido) diciembre, España se transformó', options: ['llegaba', 'llega', 'llegó', 'llegara'], correct: 2 },
+      { sentence: 'Las celebraciones ___ (tener - imperfecto) lugar en los templos', options: ['tuvieron', 'tenían', 'tienen', 'tendrían'], correct: 1 },
+      { sentence: 'No ___ (prohibir - imperativo negativo, vosotros) estas celebraciones arraigadas', options: ['prohibid', 'prohibáis', 'prohibís', 'prohibiendo'], correct: 1 },
+      { sentence: '___ (explorar - imperativo afirmativo, usted) las entrañas históricas de la Navidad', options: ['Explora', 'Explore', 'Explorando', 'Explorad'], correct: 1 },
+      { sentence: 'La fusión ___ (ser - indefinido) armoniosa y perenne', options: ['era', 'fue', 'es', 'sería'], correct: 1 },
+      { sentence: 'No ___ (perder - imperativo negativo, tú) de vista que estas tradiciones tienen mil años', options: ['pierdas', 'pierdes', 'pierde', 'perdieras'], correct: 0 }
+    ]
+  },
+  'ex-9-2-navidad-4': {
+    id: 'ex-9-2-navidad-4',
+    type: 'writing',
+    title: 'Упражнение 4: Перевод с русского на испанский',
+    description: 'Переведите фразы на испанский',
+    questions: [
+      { russian: 'Рождество - восхитительная традиция', correct: 'la navidad es una tradición fascinante' },
+      { russian: 'Зимнее солнцестояние было священным для языческих культур', correct: 'el solsticio de invierno era sagrado para las culturas paganas' },
+      { russian: 'Древние римляне праздновали Непобедимое Солнце', correct: 'los antiguos romanos celebraban el sol invicto' },
+      { russian: 'Церковь приняла стратегию слияния', correct: 'la iglesia adoptó una estrategia de fusión' },
+      { russian: 'Языческие храмы превратились в церкви', correct: 'los templos paganos se convirtieron en iglesias' },
+      { russian: 'Этот переход был постепенным', correct: 'esta transición fue gradual' },
+      { russian: 'Традиции имеют языческие корни', correct: 'las tradiciones tienen raíces paganas' },
+      { russian: 'Задумайся о происхождении Рождества', correct: 'párate a pensar sobre los orígenes de la navidad' },
+      { russian: 'Нужно вникнуть в суть этой традиции', correct: 'hay que desentrañar esta tradición' },
+      { russian: 'Набожность к божествам была заменена', correct: 'la devoción a las deidades fue reemplazada' },
+      { russian: 'Это восхитительное смешение продолжает резонировать', correct: 'esta fascinante mezcla sigue resonando' },
+      { russian: 'Празднование было укоренившимся', correct: 'la celebración era arraigada' },
+      { russian: 'Расширение христианства было эффективным', correct: 'la expansión del cristianismo fue efectiva' },
+      { russian: 'Символ был вечным', correct: 'el símbolo era perenne' },
+      { russian: 'Не забывай о языческих корнях', correct: 'no olvides las raíces paganas' }
     ]
   },
 
