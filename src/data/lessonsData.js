@@ -9228,12 +9228,6 @@ Hoy, "luchar contra molinos de viento" significa luchar contra enemigos imaginar
     id: 'lesson-9-2',
     title: 'Урок 2: Испанские традиции',
     moduleId: 'module-9',
-    videoTabs: [
-      {
-        tab: '1',
-        videoUrl: '/video/module-9-lesson-2.mp4'
-      }
-    ],
     vocabulary: [
       {
         tab: 'Словарь',
