@@ -82,7 +82,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: Литература и культура',
     level: 'intermediate',
-    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -9579,6 +9579,330 @@ España mira al futuro mientras honra el pasado. En esa tensión creativa está 
       audioUrl: '/audio/lesson-9-3-reading.mp3'
     },
     exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5']
+  },
+  'lesson-9-4': {
+    id: 'lesson-9-4',
+    title: 'Урок 4: Испанская кухня и традиции',
+    moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: '1',
+        videoUrl: '/video/module-9-lesson-4-intro.mp4'
+      },
+      {
+        tab: '2',
+        videoUrl: '/video/module-9-lesson-4-cocina.mp4'
+      }
+    ],
+    vocabulary: [
+      {
+        tab: 'Словарь еды',
+        words: [
+          { word: 'la gastronomía', translation: 'гастрономия, кулинария', audioUrl: '/audio/vocab-gastronomia.mp3' },
+          { word: 'la receta', translation: 'рецепт', audioUrl: '/audio/vocab-receta.mp3' },
+          { word: 'el ingrediente', translation: 'ингредиент', audioUrl: '/audio/vocab-ingrediente.mp3' },
+          { word: 'cocinar', translation: 'готовить', audioUrl: '/audio/vocab-cocinar.mp3' },
+          { word: 'freír', translation: 'жарить', audioUrl: '/audio/vocab-freir.mp3' },
+          { word: 'hervir', translation: 'варить, кипятить', audioUrl: '/audio/vocab-hervir.mp3' },
+          { word: 'asar', translation: 'запекать', audioUrl: '/audio/vocab-asar.mp3' },
+          { word: 'el plato', translation: 'блюдо', audioUrl: '/audio/vocab-plato.mp3' },
+          { word: 'la tapa', translation: 'тапа, закуска', audioUrl: '/audio/vocab-tapa.mp3' },
+          { word: 'la paella', translation: 'паэлья', audioUrl: '/audio/vocab-paella.mp3' },
+          { word: 'el jamón', translation: 'хамон, ветчина', audioUrl: '/audio/vocab-jamon.mp3' },
+          { word: 'el chorizo', translation: 'чоризо, колбаса', audioUrl: '/audio/vocab-chorizo.mp3' },
+          { word: 'la tortilla', translation: 'тортилья, омлет', audioUrl: '/audio/vocab-tortilla.mp3' },
+          { word: 'el aceite de oliva', translation: 'оливковое масло', audioUrl: '/audio/vocab-aceite.mp3' },
+          { word: 'el ajo', translation: 'чеснок', audioUrl: '/audio/vocab-ajo.mp3' },
+          { word: 'el marisco', translation: 'морепродукты', audioUrl: '/audio/vocab-marisco.mp3' },
+          { word: 'el vino', translation: 'вино', audioUrl: '/audio/vocab-vino.mp3' },
+          { word: 'delicioso', translation: 'вкусный', audioUrl: '/audio/vocab-delicioso.mp3' },
+          { word: 'sabroso', translation: 'вкусный, смачный', audioUrl: '/audio/vocab-sabroso.mp3' },
+          { word: 'picante', translation: 'острый', audioUrl: '/audio/vocab-picante.mp3' }
+        ]
+      },
+      {
+        tab: 'Словарь традиций',
+        words: [
+          { word: 'la fiesta', translation: 'праздник, фиеста', audioUrl: '/audio/vocab-fiesta.mp3' },
+          { word: 'la tradición', translation: 'традиция', audioUrl: '/audio/vocab-tradicion.mp3' },
+          { word: 'la costumbre', translation: 'обычай', audioUrl: '/audio/vocab-costumbre.mp3' },
+          { word: 'celebrar', translation: 'праздновать', audioUrl: '/audio/vocab-celebrar.mp3' },
+          { word: 'la siesta', translation: 'сиеста, послеобеденный отдых', audioUrl: '/audio/vocab-siesta.mp3' },
+          { word: 'la sobremesa', translation: 'общение за столом после еды', audioUrl: '/audio/vocab-sobremesa.mp3' },
+          { word: 'el tapeo', translation: 'хождение по барам с тапасами', audioUrl: '/audio/vocab-tapeo.mp3' },
+          { word: 'la tertulia', translation: 'светская беседа, посиделки', audioUrl: '/audio/vocab-tertulia.mp3' },
+          { word: 'la corrida', translation: 'коррида, бой быков', audioUrl: '/audio/vocab-corrida.mp3' },
+          { word: 'el flamenco', translation: 'фламенко', audioUrl: '/audio/vocab-flamenco.mp3' }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: '1 Tapas',
+        title: 'Las Tapas: Pequeñas Delicias de España',
+        content: `Las tapas son mucho más que simples aperitivos. Son una parte fundamental de la cultura española, una tradición que convierte el acto de comer en una experiencia social única.
+
+¿Qué son las tapas?
+
+Una tapa es una pequeña porción de comida que se sirve en los bares españoles, generalmente para acompañar una bebida. El nombre viene de "tapar" - cubrir - porque originalmente se colocaba una rebanada de pan o jamón sobre el vaso para proteger la bebida de moscas e insectos.
+
+El origen de las tapas
+
+Existen varias leyendas sobre el origen de las tapas. Una de las más famosas cuenta que el rey Alfonso X "El Sabio" en el siglo XIII ordenó que en los mesones de Castilla se sirviera comida con el vino para evitar que los viajeros se emborracharan con el estómago vacío.
+
+Otra historia popular habla del rey Alfonso XIII, quien durante una visita a Cádiz en el siglo XX, pidió un vino. El camarero, preocupado por la arena de la playa que volaba con el viento, cubrió el vaso con una loncha de jamón. Al rey le gustó tanto la idea que pidió "otra tapa igual".
+
+Tipos de tapas
+
+Las tapas varían enormemente de región a región:
+
+**En Andalucía**: Muchos bares aún sirven tapas gratis con cada bebida. Puedes encontrar pescaíto frito, aceitunas, jamón ibérico.
+
+**En el País Vasco**: Las "pintxos" (pinchos) son obras de arte culinarias. Pequeñas creaciones gourmet presentadas sobre rebanadas de pan.
+
+**En Madrid**: La tortilla de patatas es la reina de las tapas. Cada bar presume de tener la mejor receta.
+
+**En Galicia**: Pulpo a la gallega, percebes, navajas - los mariscos son protagonistas.
+
+La cultura del tapeo
+
+Ir de tapas, o "tapear", es un ritual social. No se trata solo de comer, sino de socializar. Los españoles no se quedan en un solo bar - van de un lugar a otro, probando diferentes tapas en cada sitio. Esto se llama "ir de tapas" o "hacer la ronda de tapas".
+
+Una tarde típica de tapeo:
+
+1. Quedas con amigos alrededor de las 20:00 (los españoles cenan tarde)
+2. Empiezas en un bar conocido por sus croquetas
+3. Tomas una caña (cerveza pequeña) y compartes unas croquetas
+4. Después de 20-30 minutos, vas al siguiente bar
+5. Allí pruebas las gambas al ajillo con un vino
+6. Continúas así durante 2-3 horas, visitando 4-5 bares diferentes
+
+Las tapas más populares
+
+**Jamón ibérico**: El rey de las tapas. Lonchas finas de jamón curado de cerdo ibérico.
+
+**Tortilla de patatas**: Omelet español con patatas y cebolla.
+
+**Croquetas**: Bolitas fritas con bechamel y diversos rellenos (jamón, bacalao, setas).
+
+**Patatas bravas**: Patatas fritas con salsa picante.
+
+**Gambas al ajillo**: Gambas salteadas con ajo y aceite de oliva.
+
+**Pan con tomate**: Pan tostado frotado con tomate, ajo y aceite de oliva (típico de Cataluña).
+
+**Pulpo a la gallega**: Pulpo cocido con pimentón y aceite de oliva.
+
+**Boquerones en vinagre**: Anchoas marinadas.
+
+La sobremesa
+
+Después del tapeo viene la sobremesa - otro concepto muy español. Es el tiempo que pasas en la mesa después de comer, charlando, riendo, tomando café o una copa. No hay prisa. La vida social es más importante que el reloj.
+
+Las tapas en el mundo
+
+El concepto de tapas ha conquistado el mundo. Desde Nueva York hasta Tokio, los "tapas bars" son populares. Pero ninguna experiencia se compara con ir de tapas en España - el ambiente, la gente, la autenticidad.
+
+¿Por qué son importantes las tapas?
+
+Las tapas representan la filosofía de vida española: disfrutar del momento, la compañía, la conversación. No se trata de comer rápido y seguir con tu día. Se trata de vivir, de saborear, de conectar con otros.
+
+En un mundo que va cada vez más rápido, las tapas nos recuerdan que a veces lo mejor es ir despacio, compartir, disfrutar de las pequeñas cosas. Porque al final, las mejores experiencias de la vida son como las tapas: pequeñas, pero llenas de sabor.`,
+        translation: `Тапас - это гораздо больше, чем просто закуски. Они являются фундаментальной частью испанской культуры, традицией, которая превращает акт еды в уникальный социальный опыт.
+
+Что такое тапас?
+
+Тапа - это небольшая порция еды, которую подают в испанских барах, обычно для сопровождения напитка. Название происходит от "tapar" - покрывать - потому что изначально на стакан клали ломтик хлеба или хамона, чтобы защитить напиток от мух и насекомых.
+
+Происхождение тапас
+
+Существует несколько легенд о происхождении тапас. Одна из самых известных рассказывает, что король Альфонсо X "Мудрый" в XIII веке приказал, чтобы в тавернах Кастилии подавали еду с вином, чтобы путешественники не напивались на голодный желудок.
+
+Другая популярная история рассказывает о короле Альфонсо XIII, который во время визита в Кадис в XX веке попросил вино. Официант, обеспокоенный песком с пляжа, который развевался ветром, накрыл стакан ломтиком хамона. Королю так понравилась идея, что он попросил "otra tapa igual" - еще такую же крышку.
+
+Виды тапас
+
+Тапас сильно различаются от региона к региону:
+
+**В Андалусии**: Многие бары до сих пор подают тапас бесплатно с каждым напитком. Вы можете найти жареную рыбку, оливки, иберийский хамон.
+
+**В Стране Басков**: "Pintxos" (пинчос) - это кулинарные произведения искусства. Маленькие гурманские творения, представленные на ломтиках хлеба.
+
+**В Мадриде**: Тортилья де патата - королева тапас. Каждый бар гордится тем, что у него лучший рецепт.
+
+**В Галисии**: Осьминог по-галисийски, морские желуди, морские бритвы - морепродукты являются главными героями.
+
+Культура тапео
+
+Ходить на тапас, или "tapear" - это социальный ритуал. Дело не только в еде, но и в общении. Испанцы не остаются в одном баре - они переходят с места на место, пробуя разные тапас в каждом заведении. Это называется "ir de tapas" или "hacer la ronda de tapas".
+
+Типичный вечер тапео:
+
+1. Встречаешься с друзьями около 20:00 (испанцы ужинают поздно)
+2. Начинаешь в баре, известном своими крокетами
+3. Берешь "caña" (маленькое пиво) и делишься крокетами
+4. Через 20-30 минут идешь в следующий бар
+5. Там пробуешь креветки с чесноком с вином
+6. Продолжаешь так 2-3 часа, посещая 4-5 разных баров
+
+Самые популярные тапас
+
+**Хамон иберико**: Король тапас. Тонкие ломтики вяленого хамона из иберийской свинины.
+
+**Тортилья де патата**: Испанский омлет с картофелем и луком.
+
+**Крокеты**: Жареные шарики с бешамелем и различными начинками (хамон, треска, грибы).
+
+**Патата бравас**: Жареный картофель с острым соусом.
+
+**Креветки с чесноком**: Креветки, обжаренные с чесноком и оливковым маслом.
+
+**Хлеб с помидором**: Поджаренный хлеб, натертый помидором, чесноком и оливковым маслом (типично для Каталонии).
+
+**Осьминог по-галисийски**: Вареный осьминог с паприкой и оливковым маслом.
+
+**Анчоусы в уксусе**: Маринованные анчоусы.
+
+Собремеса
+
+После тапео наступает собремеса - еще одна очень испанская концепция. Это время, которое вы проводите за столом после еды, болтая, смеясь, выпивая кофе или бокал. Нет спешки. Социальная жизнь важнее часов.
+
+Тапас в мире
+
+Концепция тапас покорила мир. От Нью-Йорка до Токио "tapas bars" популярны. Но никакой опыт не сравнится с походом на тапас в Испании - атмосфера, люди, аутентичность.
+
+Почему тапас важны?
+
+Тапас представляют испанскую философию жизни: наслаждаться моментом, компанией, беседой. Дело не в том, чтобы быстро поесть и продолжить свой день. Дело в том, чтобы жить, смаковать, общаться с другими.
+
+В мире, который движется все быстрее, тапас напоминают нам, что иногда лучше всего идти медленно, делиться, наслаждаться маленькими вещами. Потому что в конце концов, лучшие жизненные впечатления - как тапас: маленькие, но полные вкуса.`,
+        audioUrl: '/audio/lesson-9-4-tapas.mp3'
+      },
+      {
+        tab: '2 Fiestas',
+        title: 'Las Fiestas Españolas: Celebrando la Vida',
+        content: `España es un país de fiestas. Con más de 3000 celebraciones oficiales al año, parece que siempre hay algo que celebrar. Pero estas fiestas son mucho más que simples días libres - son expresiones profundas de identidad, historia y pasión por la vida.
+
+Las Fallas de Valencia (19 de marzo)
+
+Durante una semana en marzo, Valencia se transforma en un espectáculo de arte, fuego y celebración. Las Fallas son monumentos de cartón y madera - esculturas gigantes que pueden alcanzar 20 metros de altura. Artistas trabajan todo el año para crear estas obras maestras satíricas.
+
+El clímax llega la noche del 19 de marzo - La Cremà - cuando todas las Fallas se queman simultáneamente. Miles de personas llenan las calles para ver cómo el trabajo de un año completo se convierte en cenizas en minutos. Es un símbolo poderoso: la belleza es efímera, hay que disfrutar el momento.
+
+La Tomatina (último miércoles de agosto, Buñol)
+
+¿Una batalla con 150,000 kilos de tomates? Solo en España. En el pequeño pueblo de Buñol, miles de personas de todo el mundo se reúnen para lanzarse tomates durante una hora.
+
+Nadie está completamente seguro de cómo empezó esta tradición - quizás una pelea de mercado en 1945, o jóvenes rebeldes en una procesión. Pero hoy es una de las fiestas más famosas del mundo. Las reglas son simples: aplastar el tomate antes de lanzarlo (para no lastimar a nadie) y detenerse cuando suena el segundo cañonazo.
+
+San Fermín - Los Sanfermines (6-14 de julio, Pamplona)
+
+"Los toros, los toros!" - ese grito significa que seis toros bravos y cientos de corredores están atravesando las calles de Pamplona a toda velocidad. El encierro dura solo 3-4 minutos pero atrae a miles de participantes y millones de espectadores.
+
+Hemingway popularizó esta fiesta en su novela "The Sun Also Rises". Pero para los pamploneses, San Fermín es mucho más que el encierro: son nueve días de música, danza, amistad y celebración constante. La ciudad se viste de blanco y rojo, y el ambiente es de euforia colectiva.
+
+La Semana Santa (Semana antes de Pascua)
+
+La Semana Santa española es un espectáculo de devoción religiosa y arte. En ciudades como Sevilla, Málaga y Granada, las procesiones son eventos extraordinarios.
+
+Cofradías (hermandades religiosas) llevan pasos - plataformas enormes con esculturas religiosas que pueden pesar toneladas. Estas esculturas, muchas del siglo XVI y XVII, valen millones. Los costaleros (portadores) caminan ocultos bajo el paso, moviéndose al ritmo de tambores y música.
+
+Las saetas - cantos flamencos espontáneos de devoción - emergen de balcones cuando pasa la procesión. El ambiente mezcla lo solemne con lo festivo, lo religioso con lo cultural.
+
+La Feria de Abril (Sevilla, dos semanas después de Semana Santa)
+
+Después de la solemnidad de Semana Santa, Sevilla explota en color y alegría con la Feria de Abril. Durante una semana, más de mil casetas (carpas) se llenan de música, baile, vino y tapas.
+
+Las mujeres visten trajes de flamenca - vestidos de lunares coloridos con volantes - y los hombres trajes tradicionales. La gente baila sevillanas hasta el amanecer. Los caballos y carruajes desfilan. Es la celebración de la primavera, de la amistad, de la vida.
+
+San Juan (23-24 de junio)
+
+La noche más corta del año se celebra con fuego. En las playas de toda España, especialmente en Alicante y Galicia, la gente enciende hogueras en la playa, salta sobre las llamas (para purificarse y tener buena suerte), y se baña en el mar a medianoche.
+
+Las hogueras son a menudo figuras elaboradas - como mini-Fallas. A medianoche, todo se quema. Es una noche mágica donde se mezclan tradiciones paganas pre-cristianas con festividades modernas.
+
+¿Por qué tantas fiestas?
+
+Las fiestas españolas reflejan varios aspectos de la cultura:
+
+**Identidad local**: Cada región, cada pueblo, tiene sus propias fiestas. Son expresiones de orgullo local y tradición.
+
+**Comunidad**: Las fiestas unen a la gente. Ricos y pobres, jóvenes y viejos - todos participan.
+
+**Pasión**: Los españoles celebran con intensidad total. No hay medias tintas.
+
+**Historia viva**: Muchas fiestas tienen siglos de antigüedad pero siguen siendo relevantes y vibrantes.
+
+**Mezcla de lo sagrado y profano**: Muchas fiestas religiosas incluyen elementos muy seculares y festivos.
+
+El espíritu de la fiesta
+
+Participar en una fiesta española es entender algo fundamental sobre España: la vida es para vivirla, no para observarla. No son espectáculos para turistas (aunque los turistas son bienvenidos) - son celebraciones genuinas de comunidad, identidad y alegría de vivir.
+
+En un mundo que a menudo se siente fragmentado e individualista, las fiestas españolas nos recuerdan el poder de celebrar juntos, de mantener vivas las tradiciones, y de que a veces, lo más importante que podemos hacer es simplemente... celebrar.`,
+        translation: `Испания - страна праздников. С более чем 3000 официальных празднований в год кажется, что всегда есть что отпраздновать. Но эти фиесты - гораздо больше, чем просто выходные дни - это глубокие выражения идентичности, истории и страсти к жизни.
+
+Лас Фальяс в Валенсии (19 марта)
+
+В течение недели в марте Валенсия превращается в зрелище искусства, огня и празднования. Фальяс - это памятники из картона и дерева - гигантские скульптуры, которые могут достигать 20 метров в высоту. Художники работают весь год, чтобы создать эти сатирические шедевры.
+
+Кульминация наступает в ночь 19 марта - Ла Крема - когда все Фальяс сжигаются одновременно. Тысячи людей заполняют улицы, чтобы увидеть, как работа целого года превращается в пепел за минуты. Это мощный символ: красота эфемерна, нужно наслаждаться моментом.
+
+Томатина (последняя среда августа, Буньоль)
+
+Битва со 150 000 килограммами помидоров? Только в Испании. В маленьком городке Буньоль тысячи людей со всего мира собираются, чтобы бросать друг в друга помидоры в течение часа.
+
+Никто не уверен точно, как началась эта традиция - возможно, рыночная драка в 1945 году, или восставшая молодежь на процессии. Но сегодня это один из самых известных праздников в мире. Правила просты: раздавите помидор перед тем, как бросить его (чтобы никого не поранить) и остановитесь, когда прозвучит второй пушечный выстрел.
+
+Сан Фермин - Лос Санфермины (6-14 июля, Памплона)
+
+"Los toros, los toros!" - этот крик означает, что шесть боевых быков и сотни бегунов мчатся по улицам Памплоны на полной скорости. Энсьерро длится всего 3-4 минуты, но привлекает тысячи участников и миллионы зрителей.
+
+Хемингуэй популяризировал этот праздник в своем романе "И восходит солнце". Но для жителей Памплоны Сан Фермин - это гораздо больше, чем энсьерро: это девять дней музыки, танцев, дружбы и постоянного празднования. Город одевается в белое и красное, а атмосфера - коллективная эйфория.
+
+Страстная неделя (неделя перед Пасхой)
+
+Испанская Страстная неделя - это зрелище религиозной преданности и искусства. В таких городах, как Севилья, Малага и Гранада, процессии - это необыкновенные события.
+
+Cofradías (религиозные братства) несут pasos - огромные платформы с религиозными скульптурами, которые могут весить тонны. Эти скульптуры, многие из XVI и XVII веков, стоят миллионы. Costaleros (носители) идут скрытые под paso, двигаясь в ритме барабанов и музыки.
+
+Saetas - спонтанные фламенко-песни преданности - возникают с балконов, когда проходит процессия. Атмосфера смешивает торжественное с праздничным, религиозное с культурным.
+
+Апрельская ярмарка (Севилья, через две недели после Страстной недели)
+
+После торжественности Страстной недели Севилья взрывается цветом и радостью с Апрельской ярмаркой. В течение недели более тысячи casetas (шатров) наполняются музыкой, танцами, вином и тапас.
+
+Женщины носят платья фламенко - цветные платья в горошек с оборками - а мужчины традиционные костюмы. Люди танцуют севильяны до рассвета. Лошади и кареты проходят парадом. Это празднование весны, дружбы, жизни.
+
+Сан Хуан (23-24 июня)
+
+Самая короткая ночь года празднуется огнем. На пляжах по всей Испании, особенно в Аликанте и Галисии, люди разжигают костры на пляже, прыгают через пламя (для очищения и удачи) и купаются в море в полночь.
+
+Костры часто представляют собой искусно сделанные фигуры - как мини-Фальяс. В полночь все сжигается. Это волшебная ночь, где смешиваются дохристианские языческие традиции с современными праздниками.
+
+Почему так много праздников?
+
+Испанские фиесты отражают несколько аспектов культуры:
+
+**Местная идентичность**: Каждый регион, каждый город имеет свои собственные праздники. Это выражения местной гордости и традиций.
+
+**Община**: Фиесты объединяют людей. Богатые и бедные, молодые и старые - все участвуют.
+
+**Страсть**: Испанцы празднуют с полной интенсивностью. Никаких полумер.
+
+**Живая история**: Многие фиесты имеют вековую историю, но остаются актуальными и живыми.
+
+**Смесь священного и мирского**: Многие религиозные праздники включают очень светские и праздничные элементы.
+
+Дух фиесты
+
+Участвовать в испанской фиесте - значит понять что-то фундаментальное об Испании: жизнь нужно проживать, а не наблюдать. Это не зрелища для туристов (хотя туристы приветствуются) - это подлинные празднования общины, идентичности и радости жизни.
+
+В мире, который часто кажется фрагментированным и индивидуалистичным, испанские фиесты напоминают нам о силе празднования вместе, о сохранении традиций живыми, и о том, что иногда самое важное, что мы можем сделать - это просто... праздновать.`,
+        audioUrl: '/audio/lesson-9-4-fiestas.mp3'
+      }
+    ],
+    exercises: ['ex-9-4-1', 'ex-9-4-2', 'ex-9-4-3', 'ex-9-4-4', 'ex-9-4-5']
   }
 }
 
@@ -13819,6 +14143,79 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Футбол - национальная страсть', correct: 'el fútbol es una pasión nacional' },
       { russian: 'Саграда Фамилия очень впечатляет', correct: 'la sagrada familia es muy impresionante' },
       { russian: 'Испанское искусство известно во всем мире', correct: 'el arte español es conocido en todo el mundo' }
+    ]
+  },
+  'ex-9-4-1': {
+    id: 'ex-9-4-1',
+    type: 'reading',
+    title: 'Чтение: Тапас и традиции',
+    description: 'Ответьте на вопросы по тексту',
+    text: 'Las tapas son pequeñas porciones de comida que se sirven en bares españoles. El nombre viene de "tapar" porque se cubría el vaso con pan o jamón. Ir de tapas es un ritual social - los españoles van de bar en bar probando diferentes tapas. Las fiestas españolas son expresiones de identidad y comunidad. Las Fallas de Valencia se queman el 19 de marzo. La Tomatina es una batalla con 150,000 kilos de tomates en Buñol.',
+    questions: [
+      { question: '¿De dónde viene el nombre "tapas"?', options: ['Del verbo tapar', 'De una ciudad', 'De un rey', 'De un plato'], correct: 0 },
+      { question: '¿Qué es ir de tapas?', options: ['Comer en casa', 'Ir de bar en bar', 'Cocinar', 'Bailar'], correct: 1 },
+      { question: '¿Cuándo se queman las Fallas?', options: ['1 de enero', '19 de marzo', '25 de diciembre', '14 de julio'], correct: 1 },
+      { question: '¿Cuántos kilos de tomates se usan en La Tomatina?', options: ['10,000', '50,000', '150,000', '200,000'], correct: 2 }
+    ]
+  },
+  'ex-9-4-2': {
+    id: 'ex-9-4-2',
+    type: 'vocabulary',
+    title: 'Словарь еды',
+    description: 'Сопоставьте испанские слова с переводом',
+    questions: [
+      { spanish: 'la tapa', options: ['закуска', 'ужин', 'завтрак', 'обед'], correct: 0 },
+      { spanish: 'el jamón', options: ['сыр', 'хамон', 'хлеб', 'вино'], correct: 1 },
+      { spanish: 'cocinar', options: ['есть', 'готовить', 'пить', 'танцевать'], correct: 1 },
+      { spanish: 'delicioso', options: ['острый', 'холодный', 'вкусный', 'горячий'], correct: 2 },
+      { spanish: 'la fiesta', options: ['работа', 'праздник', 'дом', 'улица'], correct: 1 },
+      { spanish: 'celebrar', options: ['праздновать', 'работать', 'учиться', 'спать'], correct: 0 },
+      { spanish: 'la tradición', options: ['традиция', 'еда', 'музыка', 'танец'], correct: 0 },
+      { spanish: 'el marisco', options: ['мясо', 'рыба', 'морепродукты', 'овощи'], correct: 2 }
+    ]
+  },
+  'ex-9-4-3': {
+    id: 'ex-9-4-3',
+    type: 'grammar',
+    title: 'Кухня и традиции',
+    description: 'Выберите правильный ответ',
+    questions: [
+      { sentence: 'La tortilla de ___ es muy popular en España', options: ['tomates', 'patatas', 'arroz', 'pasta'], correct: 1 },
+      { sentence: 'El ___ ibérico es el rey de las tapas', options: ['queso', 'pan', 'jamón', 'vino'], correct: 2 },
+      { sentence: 'Las Fallas se celebran en ___', options: ['Madrid', 'Barcelona', 'Valencia', 'Sevilla'], correct: 2 },
+      { sentence: 'San Fermín se celebra en ___', options: ['Pamplona', 'Granada', 'Málaga', 'Bilbao'], correct: 0 },
+      { sentence: 'La ___ es el tiempo después de comer charlando', options: ['siesta', 'sobremesa', 'fiesta', 'comida'], correct: 1 },
+      { sentence: 'Las ___ son pequeñas porciones de comida', options: ['paellas', 'tortillas', 'tapas', 'gazpachos'], correct: 2 }
+    ]
+  },
+  'ex-9-4-4': {
+    id: 'ex-9-4-4',
+    type: 'fillblank',
+    title: 'Completar sobre gastronomía',
+    description: 'Complete las frases',
+    questions: [
+      { sentence: 'Las ___ son típicas de la cocina española', correct: 'tapas' },
+      { sentence: 'El aceite de ___ es muy usado en España', correct: 'oliva' },
+      { sentence: 'La ___ es un plato de arroz típico de Valencia', correct: 'paella' },
+      { sentence: 'Ir de ___ es un ritual social español', correct: 'tapas' },
+      { sentence: 'Las ___ de Valencia se queman cada año', correct: 'Fallas' },
+      { sentence: 'La ___ es una batalla de tomates', correct: 'Tomatina' },
+      { sentence: 'La ___ Santa es una semana de procesiones', correct: 'Semana' },
+      { sentence: 'En Pamplona se celebra San ___', correct: 'Fermín' }
+    ]
+  },
+  'ex-9-4-5': {
+    id: 'ex-9-4-5',
+    type: 'writing',
+    title: 'Escribir sobre tradiciones',
+    description: 'Переведите на испанский',
+    questions: [
+      { russian: 'Тапас очень вкусные', correct: 'las tapas son muy deliciosas' },
+      { russian: 'Хамон - мое любимое блюдо', correct: 'el jamón es mi plato favorito' },
+      { russian: 'Испанские праздники очень веселые', correct: 'las fiestas españolas son muy divertidas' },
+      { russian: 'Я люблю испанскую кухню', correct: 'me gusta la cocina española' },
+      { russian: 'Паэлья - традиционное блюдо Валенсии', correct: 'la paella es un plato tradicional de valencia' },
+      { russian: 'Ходить на тапас - это социальная традиция', correct: 'ir de tapas es una tradición social' }
     ]
   },
 
