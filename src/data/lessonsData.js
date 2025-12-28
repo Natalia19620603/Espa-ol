@@ -1008,39 +1008,39 @@ Adiós. Gracias. Muchas gracias. De nada. Por favor. ¿Qué tal? Bien.`,
     audioUrl: '/audio/Модуль 1 Урок 3.mp3',
     videoTabs: [
       {
-        tab: 'Упр. 6',
+        tab: '1',
         videoUrl: '/A1-U1-clase1-ejercicio 6.mp4'
       },
       {
-        tab: 'Упр. 7',
+        tab: '2',
         videoUrl: '/A1-U1-Cl1-Ej.7.mp4'
       },
       {
-        tab: 'Аудирование 1',
+        tab: '3',
         videoUrl: '/Comprensión auditiva, ej.1 (A1U1Cl1).mp4'
       },
       {
-        tab: 'Аудирование 2',
+        tab: '4',
         videoUrl: '/Comprensión auditiva, ej.2 (A1U1Cl1).mp4'
       },
       {
-        tab: 'Аудирование 3',
+        tab: '5',
         videoUrl: '/Comprensión auditiva, ej.3 (A1U1Cl1).mp4'
       },
       {
-        tab: 'Аудирование 4',
+        tab: '6',
         videoUrl: '/Comprensión auditiva, ej.4 (A1U1Cl1).mp4'
       },
       {
-        tab: 'Аудирование 5',
+        tab: '7',
         videoUrl: '/Comprensión auditiva, ej.5 (A1U1Cl1).mp4'
       },
       {
-        tab: 'Аудирование 6',
+        tab: '8',
         videoUrl: '/Comprensión auditiva, ej.6 (A1U1Cl1).mp4'
       },
       {
-        tab: 'Аудирование 7',
+        tab: '9',
         videoUrl: '/Comprensión auditiva, ej.7 (A1U1Cl1).mp4'
       }
     ],
@@ -1674,11 +1674,11 @@ Objeto + está + preposición + del/de la + lugar.
     audioUrl: '/Ej.15a (A1U1Cl3).mp3',
     videoTabs: [
       {
-        tab: 'Видео 1',
+        tab: '1',
         videoUrl: '/video/A1-U1-clase4-Ejercicio 7.mp4'
       },
       {
-        tab: 'Видео 2',
+        tab: '2',
         videoUrl: '/video/A1-U2-clase4-Ej.7.mp4'
       }
     ],
@@ -2231,7 +2231,7 @@ Objeto + está + preposición + del/de la + lugar.
     audioUrl: '/audio/Ej. 13 (A1U2Cl1).mp3',
     videoTabs: [
       {
-        tab: 'Видео 1',
+        tab: '1',
         videoUrl: '/video/A1-U3-Cl1.1-Ej.14.mp4'
       }
     ],
@@ -3257,47 +3257,47 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
     audioUrl: '/audio/Ej. 12 .mp3',
     videoTabs: [
       {
-        tab: 'Видео 1',
+        tab: '1',
         videoUrl: '/video/A1-U2-Cl2-Deberes, ej.6.mp4'
       },
       {
-        tab: 'Видео 2',
+        tab: '2',
         videoUrl: '/video/A1-U2-clase2-Ej.8.mp4'
       },
       {
-        tab: 'Видео 3',
+        tab: '3',
         videoUrl: '/video/A1-U2-clase3-Ana.mp4'
       },
       {
-        tab: 'Видео 4',
+        tab: '4',
         videoUrl: '/video/A2-U2-Cl2-Ej2.mp4'
       },
       {
-        tab: 'Видео 5',
+        tab: '5',
         videoUrl: '/video/Ejercicio 9. Audio 1 (A1U2Cl2).mp4'
       },
       {
-        tab: 'Видео 6',
+        tab: '6',
         videoUrl: '/video/Ejercicio 9. Audio 2 (A1U2Cl2).mp4'
       },
       {
-        tab: 'Видео 7',
+        tab: '7',
         videoUrl: '/video/Ejercicio 9. Audio 3 (A1U2Cl2).mp4'
       },
       {
-        tab: 'Видео 8',
+        tab: '8',
         videoUrl: '/video/Ejercicio 9. Audio 4 (A1U2Cl2).mp4'
       },
       {
-        tab: 'Видео 9',
+        tab: '9',
         videoUrl: '/video/Ejercicio 9. Audio 5 (A1U2Cl2).mp4'
       },
       {
-        tab: 'Видео 10',
+        tab: '10',
         videoUrl: '/video/Ejercicio 9. Audio 6 (A1U2Cl2).mp4'
       },
       {
-        tab: 'Аудио 2',
+        tab: '11',
         audioUrl: '/audio/A1-U2-Cl3-Ej.14.mp3'
       }
     ],
@@ -4104,19 +4104,19 @@ María: ¡Vamos!`,
     moduleId: 'module-3',
     videoTabs: [
       {
-        tab: 'Упр. 7',
+        tab: '1',
         videoUrl: '/audio/A1-U4-Cl1- Ej.7.mp4'
       },
       {
-        tab: 'Clase 1 - Упр. 2',
+        tab: '2',
         videoUrl: '/audio/A1-U4-clase1-ej.2.mp4'
       },
       {
-        tab: 'Clase 1 - Упр. 4',
+        tab: '3',
         videoUrl: '/audio/A1-U4-clase1-ej.4.mp4'
       },
       {
-        tab: 'Clase 2 - Упр. 2',
+        tab: '4',
         videoUrl: '/audio/A1-U4-clase2-ej.2.mp4'
       }
     ],
@@ -4924,27 +4924,27 @@ María: ¡Vamos!`,
     moduleId: 'module-3',
     videoTabs: [
       {
-        tab: 'Упр. 14',
+        tab: '1',
         videoUrl: '/video/A1-U3-Cl4-Ej.14.mp4'
       },
       {
-        tab: 'Домашнее задание упр. 1',
+        tab: '2',
         videoUrl: '/video/A1-U3-Cl4-deberes-ej.1.mp4'
       },
       {
-        tab: 'Домашнее задание упр. 2',
+        tab: '3',
         videoUrl: '/video/A1-U3-Cl4-deberes-ej.2.mp4'
       },
       {
-        tab: 'Домашнее задание видео опционально',
+        tab: '4',
         videoUrl: '/video/A1-U3-Cl4-deberes-video opcional.mp4'
       },
       {
-        tab: 'Упр. 11',
+        tab: '5',
         videoUrl: '/video/A1-U3-clase4-ej.11.mp4'
       },
       {
-        tab: 'Упр. 7',
+        tab: '6',
         videoUrl: '/video/A1-U3-clase4-ej.7.mp4'
       }
     ],
@@ -5464,19 +5464,19 @@ María: ¡Vamos!`,
     audioUrl: '/audio/Модуль 4 Урок 1.mp3',
     videoTabs: [
       {
-        tab: 'Домашнее задание упр. 4',
+        tab: '1',
         videoUrl: '/video/Модуль 4 Урок 1 - Домашнее задание упр. 4.mp4'
       },
       {
-        tab: 'Упр. 6 - Carlos',
+        tab: '2',
         videoUrl: '/video/Модуль 4 Урок 1 - Упр. 6 Carlos.mp4'
       },
       {
-        tab: 'Упр. 6 - Lucia',
+        tab: '3',
         videoUrl: '/video/Модуль 4 Урок 1 - Упр. 6 Lucia.mp4'
       },
       {
-        tab: 'Рутина Евы',
+        tab: '4',
         videoUrl: '/video/Модуль 4 Урок 1 - Рутина Евы.mp4'
       }
     ],
