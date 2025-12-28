@@ -4906,28 +4906,28 @@ María: ¡Vamos!`,
     moduleId: 'module-3',
     videoTabs: [
       {
-        tab: 'Аудио 1',
-        videoUrl: '/video/Модуль 3 Урок 4 - Аудио 1.mp4'
+        tab: 'Упр. 14',
+        videoUrl: '/video/A1-U3-Cl4-Ej.14.mp4'
       },
       {
-        tab: 'Аудио 2',
-        videoUrl: '/video/Модуль 3 Урок 4 - Аудио 2.mp4'
+        tab: 'Домашнее задание упр. 1',
+        videoUrl: '/video/A1-U3-Cl4-deberes-ej.1.mp4'
       },
       {
-        tab: 'Аудио 3',
-        videoUrl: '/video/Модуль 3 Урок 4 - Аудио 3.mp4'
+        tab: 'Домашнее задание упр. 2',
+        videoUrl: '/video/A1-U3-Cl4-deberes-ej.2.mp4'
       },
       {
-        tab: 'Аудио 4',
-        videoUrl: '/video/Модуль 3 Урок 4 - Аудио 4.mp4'
+        tab: 'Домашнее задание видео опционально',
+        videoUrl: '/video/A1-U3-Cl4-deberes-video opcional.mp4'
       },
       {
-        tab: 'Аудио 5',
-        videoUrl: '/video/Модуль 3 Урок 4 - Аудио 5.mp4'
+        tab: 'Упр. 11',
+        videoUrl: '/video/A1-U3-clase4-ej.11.mp4'
       },
       {
-        tab: 'Аудио 6',
-        videoUrl: '/video/Модуль 3 Урок 4 - Аудио 6.mp4'
+        tab: 'Упр. 7',
+        videoUrl: '/video/A1-U3-clase4-ej.7.mp4'
       }
     ],
     grammar: {
