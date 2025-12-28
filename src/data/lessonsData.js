@@ -4102,6 +4102,24 @@ María: ¡Vamos!`,
     id: 'lesson-3-2',
     title: 'Урок 2: Виды жилья и аренда помещения. Предлоги обстоятельства места и времени. Глаголы индивидуального спряжения в настоящем времени (Presente de Indicativo). Устойчивые выражения с глаголами poner, dar и hacer.',
     moduleId: 'module-3',
+    videoTabs: [
+      {
+        tab: 'Упр. 7',
+        videoUrl: '/audio/A1-U4-Cl1- Ej.7.mp4'
+      },
+      {
+        tab: 'Clase 1 - Упр. 2',
+        videoUrl: '/audio/A1-U4-clase1-ej.2.mp4'
+      },
+      {
+        tab: 'Clase 1 - Упр. 4',
+        videoUrl: '/audio/A1-U4-clase1-ej.4.mp4'
+      },
+      {
+        tab: 'Clase 2 - Упр. 2',
+        videoUrl: '/audio/A1-U4-clase2-ej.2.mp4'
+      }
+    ],
     grammar: {
       title: 'Предлоги обстоятельства места и времени',
       intro: `Ниже представлен словарь с основными предлогами и выражениями для обозначения места и времени.`,
