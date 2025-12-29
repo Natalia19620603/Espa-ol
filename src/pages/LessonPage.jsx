@@ -36,6 +36,7 @@ function LessonPage() {
   const [activeVocabularyTab, setActiveVocabularyTab] = useState(0)
   const [activeVideoTab, setActiveVideoTab] = useState(0)
   const [videoError, setVideoError] = useState(null)
+  const [canPlayMP4, setCanPlayMP4] = useState(true)
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -82,6 +83,17 @@ function LessonPage() {
   useEffect(() => {
     setVideoError(null)
   }, [activeVideoTab])
+
+  // Check if browser can play MP4 videos
+  useEffect(() => {
+    const video = document.createElement('video')
+    const canPlay = video.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"')
+    setCanPlayMP4(canPlay === 'probably' || canPlay === 'maybe')
+
+    if (!canPlay || canPlay === '') {
+      console.warn('Browser may not support MP4 video format')
+    }
+  }, [])
 
   const handleExerciseClick = (exerciseId) => {
     setCurrentExercise(exerciseId)
@@ -489,6 +501,19 @@ function LessonPage() {
         {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.audioUrl || lesson.audioTabs) && (
           <div className={styles.videoSection}>
             <h2 className={styles.sectionTitle}>АУДИО</h2>
+            {!canPlayMP4 && (
+              <div style={{
+                padding: '15px',
+                backgroundColor: '#fff3cd',
+                border: '1px solid #ffc107',
+                borderRadius: '8px',
+                marginBottom: '20px',
+                color: '#856404',
+                fontSize: '14px'
+              }}>
+                ⚠️ Ваш браузер может не поддерживать воспроизведение видео в формате MP4. Рекомендуем использовать последние версии Chrome, Firefox или Safari.
+              </div>
+            )}
             {(() => {
               // Check if video/audio is organized in tabs
               const hasVideoTabs = Array.isArray(lesson.videoTabs) &&
@@ -602,8 +627,25 @@ function LessonPage() {
                           <div style={{ fontSize: '14px', marginBottom: '15px' }}>
                             {videoError}
                           </div>
-                          <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace' }}>
+                          <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace', marginBottom: '15px' }}>
                             Файл: {currentVideo.videoUrl}
+                          </div>
+                          <div style={{
+                            fontSize: '13px',
+                            color: '#555',
+                            textAlign: 'left',
+                            backgroundColor: '#f8f9fa',
+                            padding: '15px',
+                            borderRadius: '4px',
+                            marginTop: '10px'
+                          }}>
+                            <div style={{ fontWeight: 'bold', marginBottom: '8px' }}>💡 Попробуйте:</div>
+                            <ul style={{ margin: '0', paddingLeft: '20px', textAlign: 'left' }}>
+                              <li>Обновите страницу (Ctrl+R или Cmd+R)</li>
+                              <li>Попробуйте другой браузер (Chrome, Firefox, Safari)</li>
+                              <li>Проверьте подключение к интернету</li>
+                              <li>Очистите кеш браузера</li>
+                            </ul>
                           </div>
                         </div>
                       )}
@@ -659,8 +701,25 @@ function LessonPage() {
                         <div style={{ fontSize: '14px', marginBottom: '15px' }}>
                           {videoError}
                         </div>
-                        <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace' }}>
+                        <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace', marginBottom: '15px' }}>
                           Файл: {lesson.videoUrl}
+                        </div>
+                        <div style={{
+                          fontSize: '13px',
+                          color: '#555',
+                          textAlign: 'left',
+                          backgroundColor: '#f8f9fa',
+                          padding: '15px',
+                          borderRadius: '4px',
+                          marginTop: '10px'
+                        }}>
+                          <div style={{ fontWeight: 'bold', marginBottom: '8px' }}>💡 Попробуйте:</div>
+                          <ul style={{ margin: '0', paddingLeft: '20px', textAlign: 'left' }}>
+                            <li>Обновите страницу (Ctrl+R или Cmd+R)</li>
+                            <li>Попробуйте другой браузер (Chrome, Firefox, Safari)</li>
+                            <li>Проверьте подключение к интернету</li>
+                            <li>Очистите кеш браузера</li>
+                          </ul>
                         </div>
                       </div>
                     )}
