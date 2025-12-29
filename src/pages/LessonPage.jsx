@@ -35,6 +35,7 @@ function LessonPage() {
   const [activeReadingTab, setActiveReadingTab] = useState(0)
   const [activeVocabularyTab, setActiveVocabularyTab] = useState(0)
   const [activeVideoTab, setActiveVideoTab] = useState(0)
+  const [videoError, setVideoError] = useState(null)
   const { lessonId } = useParams()
   const navigate = useNavigate()
 
@@ -74,7 +75,13 @@ function LessonPage() {
     setActiveExerciseTab(0)
     setActiveReadingTab(0)
     setActiveVocabularyTab(0)
+    setVideoError(null)
   }, [lessonId])
+
+  // Reset video error when changing video tabs
+  useEffect(() => {
+    setVideoError(null)
+  }, [activeVideoTab])
 
   const handleExerciseClick = (exerciseId) => {
     setCurrentExercise(exerciseId)
@@ -557,7 +564,7 @@ function LessonPage() {
                       ))}
                     </div>
                     <div className={styles.videoContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
-                      {currentVideo.videoUrl && (
+                      {currentVideo.videoUrl && !videoError && (
                         <video
                           key={activeVideoTab}
                           controls
@@ -569,10 +576,36 @@ function LessonPage() {
                             borderRadius: '8px',
                             display: 'block'
                           }}
+                          onError={(e) => {
+                            console.error('Ошибка загрузки видео:', currentVideo.videoUrl, e)
+                            setVideoError(`Не удалось загрузить видео. Файл может отсутствовать или быть поврежден.`)
+                          }}
+                          onLoadStart={() => setVideoError(null)}
                         >
                           <source src={currentVideo.videoUrl} type="video/mp4" />
                           Ваш браузер не поддерживает воспроизведение видео.
                         </video>
+                      )}
+                      {currentVideo.videoUrl && videoError && (
+                        <div style={{
+                          padding: '30px',
+                          backgroundColor: '#fff3cd',
+                          border: '2px solid #ffc107',
+                          borderRadius: '8px',
+                          textAlign: 'center',
+                          color: '#856404'
+                        }}>
+                          <div style={{ fontSize: '48px', marginBottom: '15px' }}>⚠️</div>
+                          <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '10px' }}>
+                            Ошибка загрузки видео
+                          </div>
+                          <div style={{ fontSize: '14px', marginBottom: '15px' }}>
+                            {videoError}
+                          </div>
+                          <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace' }}>
+                            Файл: {currentVideo.videoUrl}
+                          </div>
+                        </div>
                       )}
                       {currentVideo.audioUrl && (
                         <AudioPlayer
@@ -589,20 +622,48 @@ function LessonPage() {
                 // Render single video
                 return (
                   <div className={styles.videoContainer} style={{ width: '100%', maxWidth: '800px' }}>
-                    <video
-                      controls
-                      className={styles.videoPlayer}
-                      style={{
-                        width: '100%',
-                        height: 'auto',
-                        maxWidth: '100%',
+                    {!videoError && (
+                      <video
+                        controls
+                        className={styles.videoPlayer}
+                        style={{
+                          width: '100%',
+                          height: 'auto',
+                          maxWidth: '100%',
+                          borderRadius: '8px',
+                          display: 'block'
+                        }}
+                        onError={(e) => {
+                          console.error('Ошибка загрузки видео:', lesson.videoUrl, e)
+                          setVideoError(`Не удалось загрузить видео. Файл может отсутствовать или быть поврежден.`)
+                        }}
+                        onLoadStart={() => setVideoError(null)}
+                      >
+                        <source src={lesson.videoUrl} type="video/mp4" />
+                        Ваш браузер не поддерживает воспроизведение видео.
+                      </video>
+                    )}
+                    {videoError && (
+                      <div style={{
+                        padding: '30px',
+                        backgroundColor: '#fff3cd',
+                        border: '2px solid #ffc107',
                         borderRadius: '8px',
-                        display: 'block'
-                      }}
-                    >
-                      <source src={lesson.videoUrl} type="video/mp4" />
-                      Ваш браузер не поддерживает воспроизведение видео.
-                    </video>
+                        textAlign: 'center',
+                        color: '#856404'
+                      }}>
+                        <div style={{ fontSize: '48px', marginBottom: '15px' }}>⚠️</div>
+                        <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '10px' }}>
+                          Ошибка загрузки видео
+                        </div>
+                        <div style={{ fontSize: '14px', marginBottom: '15px' }}>
+                          {videoError}
+                        </div>
+                        <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace' }}>
+                          Файл: {lesson.videoUrl}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 )
               } else if (lesson.audioUrl) {
