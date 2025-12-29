@@ -9996,6 +9996,7 @@ export const exercises = {
     type: 'reading',
     title: 'Чтение',
     description: 'Прочитайте диалог и ответьте на вопросы',
+    audio: '/audio/lesson-1-1-reading.mp3',
     text: `
 Pedro: ¡Hola! Buenos días. ¿Qué tal?
 Ana: Bien, gracias. ¿Y tú?
