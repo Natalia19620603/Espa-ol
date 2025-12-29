@@ -971,31 +971,67 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       },
     ],
     readingText: {
-      title: 'La familia y la ciudad',
-      content: `Hola. Buenos días. Un día bonito. El sol. La ciudad. La ciudad grande.
+      title: 'Diálogos: La familia y la ciudad',
+      content: `**Diálogo 1: El saludo**
 
-Un chico. Una chica. Un hermano. Una hermana. El padre. La madre. El papá. La familia. ¿Qué tal la familia? Todo va bien. Gracias.
+- Hola. Buenos días.
+- Buenos días. ¿Qué tal?
+- Bien, gracias. ¿Y tú?
+- Todo va bien, gracias.
+- ¿Qué tal la familia?
+- La familia, bien. Gracias.
+- Adiós.
+- Hasta luego.
 
-Un amigo bueno. Una amiga buena. El hombre alto. La mujer alta. El estudiante joven. El economista. Un cliente.
+**Diálogo 2: La ciudad**
 
-La casa. La casa grande. La casa bonita. La casa nueva. Un museo. El museo interesante. El museo antiguo. Una playa. La playa bonita. Una calle. La calle larga. Una estación.
+- Por favor, ¿el museo?
+- El museo grande. El museo antiguo.
+- ¿Y la playa?
+- La playa bonita. La playa grande.
+- Muchas gracias.
+- De nada.
 
-El lunes. El día largo. El día bueno. La tarde. La noche. La noche fría. Buenas tardes. Buenas noches.
+**Diálogo 3: La familia**
 
-Un libro. El libro nuevo. El libro interesante. Un lápiz. Una alumna. Un aula.
+- ¿El hermano?
+- El hermano joven y alto.
+- ¿La hermana?
+- La hermana bonita y alegre.
+- ¿El padre y la madre?
+- El padre bueno. La madre feliz.
+- ¡Qué bien!
 
-Un coche. El coche caro. Un avión. El avión grande.
+**Diálogo 4: La casa**
 
-Un café. El café caliente. El agua. El agua fría.
+- ¿La casa nueva?
+- Sí, la casa nueva y grande.
+- ¿La calle?
+- La calle larga y bonita.
+- ¿El coche?
+- El coche caro y rojo.
+- Muy bien.
 
-Una flor. La flor bonita. La flor blanca. El sol. La luz.
+**Diálogo 5: En el café**
 
-El país. La ciudad. El amor. La felicidad. La salud. El dinero. Las vacaciones. El cumpleaños. Más o menos bien. Regular.
+- Buenos días. Un café, por favor.
+- ¿El café caliente?
+- Sí, el café caliente.
+- ¿Y el agua?
+- El agua fría, por favor.
+- Muy bien.
+- Gracias.
 
-Un hombre rico. Una mujer pobre. Un chico alegre. Una chica triste. Un padre feliz. Una madre contenta.
+**Diálogo 6: Los amigos**
 
-Adiós. Gracias. Muchas gracias. De nada. Por favor. ¿Qué tal? Bien.`,
-      translation: 'Семья и город\n\nПривет. Доброе утро. Хороший день. Солнце. Город. Большой город.\n\nМальчик. Девочка. Брат. Сестра. Отец. Мать. Папа. Семья. Как семья? Все хорошо. Спасибо.\n\nХороший друг. Хорошая подруга. Высокий мужчина. Высокая женщина. Молодой студент. Экономист. Клиент.\n\nДом. Большой дом. Красивый дом. Новый дом. Музей. Интересный музей. Старинный музей. Пляж. Красивый пляж. Улица. Длинная улица. Станция.\n\nПонедельник. Длинный день. Хороший день. Вечер. Ночь. Холодная ночь. Добрый день. Добрый вечер.\n\nКнига. Новая книга. Интересная книга. Карандаш. Ученица. Аудитория.\n\nМашина. Дорогая машина. Самолет. Большой самолет.\n\nКофе. Горячий кофе. Вода. Холодная вода.\n\nЦветок. Красивый цветок. Белый цветок. Солнце. Свет.\n\nСтрана. Город. Любовь. Счастье. Здоровье. Деньги. Каникулы. День рождения. Более или менее хорошо. Так себе.\n\nБогатый мужчина. Бедная женщина. Веселый мальчик. Грустная девочка. Счастливый отец. Довольная мать.\n\nПока. Спасибо. Большое спасибо. Пожалуйста. Пожалуйста. Как дела? Хорошо.',
+- Hola, ¿qué tal?
+- Bien. ¿El amigo nuevo?
+- El amigo bueno y alegre.
+- ¿Y la amiga?
+- La amiga joven y guapa.
+- Regular. Adiós.
+- Adiós.`,
+      translation: 'Диалоги: Семья и город\n\n**Диалог 1: Приветствие**\n\n- Привет. Доброе утро.\n- Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Все хорошо, спасибо.\n- Как семья?\n- Семья, хорошо. Спасибо.\n- Пока.\n- До скорого.\n\n**Диалог 2: Город**\n\n- Пожалуйста, музей?\n- Музей большой. Музей старинный.\n- А пляж?\n- Пляж красивый. Пляж большой.\n- Большое спасибо.\n- Пожалуйста.\n\n**Диалог 3: Семья**\n\n- Брат?\n- Брат молодой и высокий.\n- Сестра?\n- Сестра красивая и веселая.\n- Отец и мать?\n- Отец хороший. Мать счастливая.\n- Как хорошо!\n\n**Диалог 4: Дом**\n\n- Новый дом?\n- Да, дом новый и большой.\n- Улица?\n- Улица длинная и красивая.\n- Машина?\n- Машина дорогая и красная.\n- Очень хорошо.\n\n**Диалог 5: В кафе**\n\n- Доброе утро. Кофе, пожалуйста.\n- Кофе горячий?\n- Да, кофе горячий.\n- А вода?\n- Вода холодная, пожалуйста.\n- Очень хорошо.\n- Спасибо.\n\n**Диалог 6: Друзья**\n\n- Привет, как дела?\n- Хорошо. Новый друг?\n- Друг хороший и веселый.\n- А подруга?\n- Подруга молодая и красивая.\n- Так себе. Пока.\n- Пока.',
       audioUrl: '/audio/lesson-1-2-reading.mp3',
       subtitles: []
     },
@@ -10173,35 +10209,24 @@ Pedro: Igualmente. Muchas gracias.
   'ex-1-2-4': {
     id: 'ex-1-2-4',
     type: 'reading-comprehension',
-    title: 'Понимание прочитанного',
-    description: 'Прочитайте текст "Mi día en la ciudad" и ответьте на вопросы',
+    title: 'Понимание прочитанного диалогов',
+    description: 'Прочитайте диалоги из раздела Чтение и ответьте на вопросы',
     texts: [
-      { text: 'Hola. Buenos días. Me llamo Carlos. Soy un chico. Soy un estudiante.', question: '¿Cómo se llama el chico?', options: ['Juan', 'Carlos', 'Pedro', 'Miguel'], correct: 1 },
-      { text: 'Soy un chico. Soy un estudiante.', question: '¿Quién es Carlos?', options: ['un padre', 'un estudiante', 'un economista', 'un cliente'], correct: 1 },
-      { text: 'El lunes es un día bonito. El sol brilla en la ciudad.', question: '¿Qué día es?', options: ['martes', 'viernes', 'lunes', 'domingo'], correct: 2 },
-      { text: 'El sol brilla en la ciudad. La ciudad es grande.', question: '¿Cómo es la ciudad?', options: ['pequeña', 'grande', 'bonita', 'nueva'], correct: 1 },
-      { text: 'El lunes es un día bonito.', question: '¿Cómo es el día?', options: ['malo', 'bonito', 'triste', 'largo'], correct: 1 },
-      { text: 'Por la mañana, el padre y la madre toman un café en la casa.', question: '¿Dónde toman café?', options: ['en el museo', 'en la casa', 'en la calle', 'en la oficina'], correct: 1 },
-      { text: 'El padre y la madre toman un café en la casa.', question: '¿Qué toman el padre y la madre?', options: ['agua', 'café', 'libro', 'flor'], correct: 1 },
-      { text: 'El hermano lee un libro.', question: '¿Qué hace el hermano?', options: ['estudia', 'lee', 'trabaja', 'camina'], correct: 1 },
-      { text: 'La chica estudia en el aula con una alumna.', question: '¿Dónde estudia la chica?', options: ['en casa', 'en el museo', 'en el aula', 'en la calle'], correct: 2 },
-      { text: 'La chica estudia en el aula con una alumna.', question: '¿Con quién estudia la chica?', options: ['con el hermano', 'con una alumna', 'con el padre', 'con Carlos'], correct: 1 },
-      { text: 'El amigo de Carlos vive en la calle. La calle es larga.', question: '¿Cómo es la calle?', options: ['corta', 'larga', 'pequeña', 'nueva'], correct: 1 },
-      { text: 'En la calle hay un museo, una estación y una playa.', question: '¿Qué hay en la calle?', options: ['solo un museo', 'museo, estación y playa', 'solo una playa', 'oficina y casa'], correct: 1 },
-      { text: 'El museo es interesante. La playa es bonita.', question: '¿Cómo es el museo?', options: ['interesante', 'grande', 'bonito', 'pequeño'], correct: 0 },
-      { text: 'El museo es interesante. La playa es bonita.', question: '¿Cómo es la playa?', options: ['interesante', 'grande', 'bonita', 'pequeña'], correct: 2 },
-      { text: 'Por la tarde, Carlos va al museo en un coche. El coche es rápido.', question: '¿Cómo es el coche?', options: ['lento', 'rápido', 'viejo', 'pequeño'], correct: 1 },
-      { text: 'Por la tarde, Carlos va al museo.', question: '¿Adónde va Carlos?', options: ['a casa', 'al museo', 'a la playa', 'a la estación'], correct: 1 },
-      { text: 'En el museo hay una flor bonita. La luz del sol ilumina la flor.', question: '¿Qué hay en el museo?', options: ['un libro', 'una flor bonita', 'un lápiz', 'un café'], correct: 1 },
-      { text: 'En el museo hay una flor bonita. La luz del sol ilumina la flor.', question: '¿Qué ilumina la flor?', options: ['la luz de la luna', 'la luz del sol', 'la lámpara', 'la vela'], correct: 1 },
-      { text: 'El economista trabaja en la oficina. El cliente espera.', question: '¿Dónde trabaja el economista?', options: ['en casa', 'en el museo', 'en la oficina', 'en la calle'], correct: 2 },
-      { text: 'El economista trabaja en la oficina. El cliente espera.', question: '¿Qué hace el cliente?', options: ['trabaja', 'espera', 'lee', 'estudia'], correct: 1 },
-      { text: 'El hombre y la mujer hablan.', question: '¿Qué hacen el hombre y la mujer?', options: ['hablan', 'caminan', 'estudian', 'trabajan'], correct: 0 },
-      { text: 'Por la noche, Carlos está en casa. La casa es cómoda.', question: '¿Dónde está Carlos por la noche?', options: ['en el museo', 'en la oficina', 'en casa', 'en la calle'], correct: 2 },
-      { text: 'La casa es cómoda.', question: '¿Cómo es la casa?', options: ['grande', 'pequeña', 'cómoda', 'bonita'], correct: 2 },
-      { text: 'Carlos lee un libro con un lápiz en la mano.', question: '¿Qué tiene Carlos en la mano?', options: ['un libro', 'un lápiz', 'una flor', 'un café'], correct: 1 },
-      { text: 'Carlos lee un libro con un lápiz en la mano.', question: '¿Qué lee Carlos?', options: ['un programa', 'un tema', 'un libro', 'un problema'], correct: 2 },
-      { text: '¿Qué tal? Todo va bien.', question: '¿Cómo está todo?', options: ['mal', 'regular', 'bien', 'muy mal'], correct: 2 }
+      { text: 'Diálogo 2: - Por favor, ¿el museo? - El museo grande. El museo antiguo.', question: '¿Cómo es el museo?', options: ['pequeño y nuevo', 'grande y antiguo', 'bonito y nuevo', 'pequeño y viejo'], correct: 1 },
+      { text: 'Diálogo 2: - ¿Y la playa? - La playa bonita. La playa grande.', question: '¿Cómo es la playa?', options: ['fea y pequeña', 'bonita y pequeña', 'bonita y grande', 'fea y grande'], correct: 2 },
+      { text: 'Diálogo 3: - ¿El hermano? - El hermano joven y alto.', question: '¿Cómo es el hermano?', options: ['viejo y bajo', 'joven y bajo', 'viejo y alto', 'joven y alto'], correct: 3 },
+      { text: 'Diálogo 3: - ¿La hermana? - La hermana bonita y alegre.', question: '¿Cómo es la hermana?', options: ['fea y triste', 'bonita y triste', 'bonita y alegre', 'fea y alegre'], correct: 2 },
+      { text: 'Diálogo 3: - ¿El padre y la madre? - El padre bueno. La madre feliz.', question: '¿Cómo es el padre?', options: ['malo', 'bueno', 'feliz', 'triste'], correct: 1 },
+      { text: 'Diálogo 3: - ¿El padre y la madre? - El padre bueno. La madre feliz.', question: '¿Cómo es la madre?', options: ['buena', 'mala', 'feliz', 'triste'], correct: 2 },
+      { text: 'Diálogo 4: - ¿La casa nueva? - Sí, la casa nueva y grande.', question: '¿Cómo es la casa?', options: ['vieja y pequeña', 'nueva y pequeña', 'vieja y grande', 'nueva y grande'], correct: 3 },
+      { text: 'Diálogo 4: - ¿La calle? - La calle larga y bonita.', question: '¿Cómo es la calle?', options: ['corta y fea', 'larga y fea', 'corta y bonita', 'larga y bonita'], correct: 3 },
+      { text: 'Diálogo 4: - ¿El coche? - El coche caro y rojo.', question: '¿Cómo es el coche?', options: ['barato y azul', 'caro y azul', 'barato y rojo', 'caro y rojo'], correct: 3 },
+      { text: 'Diálogo 5: - Buenos días. Un café, por favor. - ¿El café caliente? - Sí, el café caliente.', question: '¿El café?', options: ['frío', 'caliente', 'malo', 'caro'], correct: 1 },
+      { text: 'Diálogo 5: - ¿Y el agua? - El agua fría, por favor.', question: '¿El agua?', options: ['caliente', 'fría', 'mala', 'cara'], correct: 1 },
+      { text: 'Diálogo 6: - ¿El amigo nuevo? - El amigo bueno y alegre.', question: '¿Cómo es el amigo?', options: ['malo y triste', 'bueno y triste', 'malo y alegre', 'bueno y alegre'], correct: 3 },
+      { text: 'Diálogo 6: - ¿Y la amiga? - La amiga joven y guapa.', question: '¿Cómo es la amiga?', options: ['vieja y fea', 'joven y fea', 'vieja y guapa', 'joven y guapa'], correct: 3 },
+      { text: 'Diálogo 1: - Hola. Buenos días. - Buenos días. ¿Qué tal?', question: '¿Qué tal?', options: ['Adiós', 'Gracias', 'Buenos días', 'Buenas noches'], correct: 2 },
+      { text: 'Diálogo 1: - ¿Qué tal la familia? - La familia, bien. Gracias.', question: '¿Qué tal la familia?', options: ['Mal', 'Bien', 'Regular', 'Así así'], correct: 1 }
     ]
   },
   'ex-1-2-5': {
