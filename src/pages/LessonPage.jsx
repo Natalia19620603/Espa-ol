@@ -239,7 +239,7 @@ function LessonPage() {
             📖 Чтение
           </button>
         )}
-        {(lesson.videoUrl || lesson.videoTabs || lesson.audioUrl) && (
+        {(lesson.videoUrl || lesson.videoTabs || lesson.audioUrl || lesson.audioTabs) && (
           <button
             className={`${styles.tab} ${activeTab === 'video' ? styles.activeTab : ''}`}
             onClick={() => setActiveTab('video')}
@@ -479,16 +479,57 @@ function LessonPage() {
           </div>
         )}
 
-        {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.audioUrl) && (
+        {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.audioUrl || lesson.audioTabs) && (
           <div className={styles.videoSection}>
             <h2 className={styles.sectionTitle}>АУДИО</h2>
             {(() => {
-              // Check if video is organized in tabs
+              // Check if video/audio is organized in tabs
               const hasVideoTabs = Array.isArray(lesson.videoTabs) &&
                 lesson.videoTabs.length > 0 &&
                 lesson.videoTabs[0].tab !== undefined
 
-              if (hasVideoTabs) {
+              const hasAudioTabs = Array.isArray(lesson.audioTabs) &&
+                lesson.audioTabs.length > 0 &&
+                lesson.audioTabs[0].tab !== undefined
+
+              if (hasAudioTabs) {
+                // Render audio with tabs
+                const currentAudio = lesson.audioTabs[activeVideoTab]
+                return (
+                  <div>
+                    <div className={styles.exerciseTabs} style={{
+                      display: 'flex',
+                      flexWrap: 'wrap',
+                      gap: '8px',
+                      overflowX: 'auto',
+                      maxWidth: '100%'
+                    }}>
+                      {lesson.audioTabs.map((tabData, index) => (
+                        <button
+                          key={index}
+                          className={`${styles.exerciseTab} ${activeVideoTab === index ? styles.activeExerciseTab : ''}`}
+                          onClick={() => setActiveVideoTab(index)}
+                          style={{
+                            flex: '0 0 auto',
+                            minWidth: 'fit-content',
+                            whiteSpace: 'nowrap'
+                          }}
+                        >
+                          {tabData.tab}
+                        </button>
+                      ))}
+                    </div>
+                    <div className={styles.audioContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
+                      <AudioPlayer
+                        key={activeVideoTab}
+                        audioUrl={currentAudio.audioUrl}
+                        text=""
+                        subtitles={currentAudio.subtitles || []}
+                      />
+                    </div>
+                  </div>
+                )
+              } else if (hasVideoTabs) {
                 // Render video with tabs
                 const currentVideo = lesson.videoTabs[activeVideoTab]
                 return (
