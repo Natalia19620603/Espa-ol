@@ -1404,14 +1404,14 @@ Objeto + está + preposición + del/de la + lugar.
     id: 'lesson-1-4',
     title: 'Урок 4: Профессии и национальности. Обобщение уроков 1, 2, 3',
     moduleId: 'module-1',
-    audioTabs: [
+    videoTabs: [
       {
         tab: 'Аудио 1',
         audioUrl: '/video/A1-U1-clase4-Ejercicio 7.mp4'
       },
       {
-        tab: 'Аудио 2',
-        audioUrl: '/video/Profesiones. Nivel A1 M1 4.mp4'
+        tab: 'Видео 2',
+        videoUrl: '/video/Profesiones. Nivel A1 M1 4.mp4'
       }
     ],
     grammar: {
