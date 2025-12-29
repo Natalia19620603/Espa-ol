@@ -338,6 +338,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           {exercise.type === 'reading' && (
             <ReadingQuestion
               text={exercise.text}
+              audio={exercise.audio}
               question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
               showCorrectAnswer={showCorrectAnswer}
@@ -933,12 +934,46 @@ function PronunciationQuestion({ question, onAnswer }) {
   )
 }
 
-function ReadingQuestion({ text, question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
+function ReadingQuestion({ text, audio, question, onAnswer, showCorrectAnswer, userAnswer, onSkipFeedback }) {
   return (
     <div className={styles.question}>
       <div className={styles.readingText}>
         {text}
       </div>
+      {audio && (
+        <div className={styles.audioContainer} style={{ marginTop: '15px', marginBottom: '15px' }}>
+          <button
+            onClick={() => {
+              try {
+                const audioElement = new Audio(audio)
+                audioElement.onerror = (e) => {
+                  console.error('Error loading audio:', e)
+                  alert('Не удалось загрузить аудио. Проверьте интернет-соединение.')
+                }
+                audioElement.play().catch(err => {
+                  console.error('Error playing audio:', err)
+                  alert('Не удалось воспроизвести аудио.')
+                })
+              } catch (err) {
+                console.error('Error creating audio:', err)
+                alert('Ошибка при создании аудио.')
+              }
+            }}
+            className={styles.audioBtn}
+            style={{
+              padding: '10px 20px',
+              backgroundColor: '#4CAF50',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              fontSize: '16px'
+            }}
+          >
+            🔊 Прослушать диалог
+          </button>
+        </div>
+      )}
       <h3 className={styles.questionText}>{question.question}</h3>
       <div className={styles.options}>
         {question.options.map((option, index) => {
