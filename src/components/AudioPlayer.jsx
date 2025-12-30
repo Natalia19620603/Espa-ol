@@ -35,6 +35,12 @@ function AudioPlayer({ audioUrl, text, showSubtitles = true, subtitles = [] }) {
     const handleLoadedMetadata = () => {
       try {
         if (audio.duration !== undefined && !isNaN(audio.duration)) {
+          // Check if the file is empty (0 duration or very short)
+          if (audio.duration === 0 || audio.duration < 0.1) {
+            setError('Audio file is empty or invalid. Please add the actual audio content.')
+            setDuration(0)
+            return
+          }
           setDuration(audio.duration)
           setError(null)
         }
@@ -51,7 +57,29 @@ function AudioPlayer({ audioUrl, text, showSubtitles = true, subtitles = [] }) {
 
     const handleError = (e) => {
       console.error('Audio playback error:', e)
-      setError('Unable to play audio. The file may be corrupted or in an unsupported format.')
+      const target = e.target
+      let errorMessage = 'Failed to play audio. Please try again.'
+
+      if (target && target.error) {
+        switch (target.error.code) {
+          case target.error.MEDIA_ERR_ABORTED:
+            errorMessage = 'Audio playback was aborted.'
+            break
+          case target.error.MEDIA_ERR_NETWORK:
+            errorMessage = 'Network error occurred while loading audio.'
+            break
+          case target.error.MEDIA_ERR_DECODE:
+            errorMessage = 'Audio file is corrupted or in an unsupported format.'
+            break
+          case target.error.MEDIA_ERR_SRC_NOT_SUPPORTED:
+            errorMessage = 'Audio file not found or format not supported. Please ensure the audio file exists and is properly formatted.'
+            break
+          default:
+            errorMessage = 'Failed to play audio. The file may be missing or corrupted.'
+        }
+      }
+
+      setError(errorMessage)
       setIsPlaying(false)
     }
 
