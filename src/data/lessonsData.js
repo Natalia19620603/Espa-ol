@@ -9152,115 +9152,170 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
 
   'lesson-9-1': {
     id: 'lesson-9-1',
-    title: 'Урок 1: Испанская литература',
+    title: 'Урок 1: El misterio de la llave',
     moduleId: 'module-9',
-    grammar: {
-      title: 'Обзор испанской литературы',
-      content: `
-# Historia de la literatura española
-
-Испанская литература - одна из богатейших литературных традиций мира.
-
-## 1. EDAD MEDIA - до XV века
-
-### Cantar de Mio Cid (XII век)
-Эпическая поэма о Сиде, национальном герое Испании.
-
-## 2. SIGLO DE ORO - XVI-XVII века
-
-### Miguel de Cervantes (1547-1616)
-**"Don Quijote de la Mancha"** - величайший роман всех времен.
-
-**Темы:** реальность vs воображение, идеализм, благородство.
-
-**Знаменитая цитата:**
-> "En un lugar de la Mancha, de cuyo nombre no quiero acordarme..."
-
-### Lope de Vega (1562-1635)
-Написал около 1500 пьес! **"Fuenteovejuna"** - драма о восстании.
-
-### Calderón de la Barca (1600-1681)
-**"La vida es sueño"** - философская драма.
-
-## 3. SIGLO XIX - Романтизм
-
-### Gustavo Adolfo Bécquer (1836-1870)
-**"Rimas y Leyendas"** - романтические стихи.
-
-## 4. GENERACIÓN DEL 27
-
-### Federico García Lorca (1898-1936)
-Величайший поэт XX века.
-
-**Произведения:**
-- **"Romancero gitano"**
-- **"Bodas de sangre"**
-- **"La casa de Bernarda Alba"**
-
-**Темы:** любовь, смерть, судьба, Андалусия.
-
-## 5. LITERATURA CONTEMPORÁNEA
-
-- Carlos Ruiz Zafón - **"La sombra del viento"**
-- Javier Marías - философская проза
-- Mario Vargas Llosa - Нобелевская премия 2010`,
-      examples: [
-        { spanish: 'Don Quijote es la obra más famosa de Cervantes', russian: 'Дон Кихот - самое знаменитое произведение Сервантеса' },
-        { spanish: 'Lorca fue uno de los mejores poetas del siglo XX', russian: 'Лорка был одним из лучших поэтов XX века' },
-        { spanish: 'Me encanta leer poesía en español', russian: 'Мне очень нравится читать поэзию на испанском' }
-      ]
-    },
-    vocabulary: [
-      { word: 'la literatura', translation: 'литература', audioUrl: null },
-      { word: 'el escritor', translation: 'писатель', audioUrl: null },
-      { word: 'el poeta', translation: 'поэт', audioUrl: null },
-      { word: 'la novela', translation: 'роман', audioUrl: null },
-      { word: 'el cuento', translation: 'рассказ', audioUrl: null },
-      { word: 'el poema', translation: 'стихотворение', audioUrl: null },
-      { word: 'la obra de teatro', translation: 'пьеса', audioUrl: null },
-      { word: 'el personaje', translation: 'персонаж', audioUrl: null },
-      { word: 'la trama', translation: 'сюжет', audioUrl: null },
-      { word: 'el tema', translation: 'тема', audioUrl: null },
-      { word: 'el símbolo', translation: 'символ', audioUrl: null },
-      { word: 'la metáfora', translation: 'метафора', audioUrl: null },
-      { word: 'el siglo', translation: 'век', audioUrl: null },
-      { word: 'la época', translation: 'эпоха', audioUrl: null },
-      { word: 'el Premio Nobel', translation: 'Нобелевская премия', audioUrl: null }
+    videoTabs: [
+      {
+        tab: 'Capítulo 1',
+        subtabs: [
+          {
+            tab: 'Fragmento 1',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-1.mp3'
+          },
+          {
+            tab: 'Fragmento 2',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-2.mp3'
+          },
+          {
+            tab: 'Fragmento 3',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-3.mp3'
+          },
+          {
+            tab: 'Fragmento 4',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-4.mp3'
+          },
+          {
+            tab: 'Fragmento 5',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-5.mp3'
+          },
+          {
+            tab: 'Fragmento 6',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-6.mp3'
+          }
+        ]
+      },
+      {
+        tab: 'Capítulo 2',
+        subtabs: [
+          {
+            tab: 'Fragmento 1',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-1.mp3'
+          },
+          {
+            tab: 'Fragmento 2',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-2.mp3'
+          },
+          {
+            tab: 'Fragmento 3',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-3.mp3'
+          },
+          {
+            tab: 'Fragmento 4',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-4.mp3'
+          },
+          {
+            tab: 'Fragmento 5',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-5.mp3'
+          },
+          {
+            tab: 'Fragmento 6',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-6.mp3'
+          },
+          {
+            tab: 'Fragmento 7',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-7.mp3'
+          }
+        ]
+      },
+      {
+        tab: 'Capítulo 3',
+        subtabs: [
+          {
+            tab: 'Fragmento 1',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-1.mp3'
+          },
+          {
+            tab: 'Fragmento 2',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-2.mp3'
+          },
+          {
+            tab: 'Fragmento 3',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-3.mp3'
+          },
+          {
+            tab: 'Fragmento 4',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-4.mp3'
+          },
+          {
+            tab: 'Fragmento 5',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-5.mp3'
+          },
+          {
+            tab: 'Fragmento 6',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-6.mp3'
+          }
+        ]
+      },
+      {
+        tab: 'Capítulo 4',
+        subtabs: [
+          {
+            tab: 'Fragmento 1',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-1.mp3'
+          },
+          {
+            tab: 'Fragmento 2',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-2.mp3'
+          },
+          {
+            tab: 'Fragmento 3',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-3.mp3'
+          },
+          {
+            tab: 'Fragmento 4',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-4.mp3'
+          },
+          {
+            tab: 'Fragmento 5',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-5.mp3'
+          },
+          {
+            tab: 'Fragmento 6',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-6.mp3'
+          },
+          {
+            tab: 'Fragmento 7',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-7.mp3'
+          },
+          {
+            tab: 'Fragmento 8',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-8.mp3'
+          }
+        ]
+      },
+      {
+        tab: 'Capítulo 5',
+        subtabs: [
+          {
+            tab: 'Fragmento 1',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-1.mp3'
+          },
+          {
+            tab: 'Fragmento 2',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-2.mp3'
+          },
+          {
+            tab: 'Fragmento 3',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-3.mp3'
+          },
+          {
+            tab: 'Fragmento 4',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-4.mp3'
+          },
+          {
+            tab: 'Fragmento 5',
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-5.mp3'
+          }
+        ]
+      }
     ],
-    readingText: {
-      title: 'Don Quijote: El ingenioso hidalgo',
-      content: `Don Quijote de la Mancha es la obra más importante de la literatura española. Escrita por Miguel de Cervantes en dos partes (1605 y 1615), esta novela ha sido traducida a más idiomas que cualquier otro libro excepto la Biblia.
-
-La historia comienza con Alonso Quijano, un hidalgo que lee tantas novelas de caballerías que pierde la razón. Decide convertirse en caballero andante con el nombre de Don Quijote de la Mancha. Encuentra una vieja armadura, toma un caballo flaco llamado Rocinante, y escoge a Dulcinea del Toboso como su dama.
-
-Para su segunda salida, convence a Sancho Panza de ser su escudero. Sancho es todo lo contrario: bajo, gordo y práctico, mientras Don Quijote es alto, flaco e idealista. Juntos forman una de las parejas más famosas de la literatura.
-
-El episodio más famoso es la aventura de los molinos de viento. Don Quijote ve molinos y cree que son gigantes. Sancho intenta explicarle que son molinos, pero Don Quijote no escucha. Ataca con su lanza, el viento mueve las aspas y lo arroja al suelo. Don Quijote insiste en que un mago convirtió a los gigantes en molinos.
-
-Esta escena es perfecta para entender el mensaje. Don Quijote vive en fantasía: las ventas son castillos, las prostitutas son damas, los molinos son gigantes. Sancho representa la realidad, pero gradualmente también empieza a creer en las fantasías.
-
-En la segunda parte, Don Quijote y Sancho se vuelven famosos. Sancho finalmente gobierna una ínsula con sorprendente sabiduría. Pero el final es melancólico. Don Quijote regresa a casa derrotado. En su lecho de muerte, recupera la cordura y muere cuerdo. Todos lloran porque prefieren al loco idealista que al sensato Alonso Quijano.
-
-¿Cuál es el mensaje? Cervantes muestra el conflicto entre idealismo y realismo. Don Quijote es ridículo pero noble, valiente y generoso. Quiere hacer el bien y luchar contra la injusticia. ¿Es mejor vivir con nobles ideales aunque seamos llamados locos, o con los pies en la tierra sin grandes sueños?
-
-Hoy, "luchar contra molinos de viento" significa luchar contra enemigos imaginarios. Pero el libro nos enseña que vale la pena soñar y luchar por un mundo mejor. Como dijo Don Quijote: "Yo sé quién soy". La locura de soñar es, a veces, la única cordura verdadera.`,
-      translation: `Дон Кихот Ламанчский - самое важное произведение испанской литературы. Написанный Мигелем де Сервантесом в двух частях (1605 и 1615), этот роман был переведён на больше языков, чем любая другая книга, кроме Библии.
-
-История начинается с Алонсо Кихано, идальго, который читает столько рыцарских романов, что теряет рассудок. Он решает стать странствующим рыцарем с именем Дон Кихот Ламанчский. Он находит старые доспехи, берёт худую лошадь по кличке Росинант и выбирает Дульсинею Тобосскую своей дамой.
-
-Для второго выхода он убеждает Санчо Пансу быть его оруженосцем. Санчо - полная противоположность: низкий, толстый и практичный, в то время как Дон Кихот высокий, худой и идеалист. Вместе они образуют одну из самых знаменитых пар в литературе.
-
-Самый известный эпизод - приключение с ветряными мельницами. Дон Кихот видит мельницы и думает, что это великаны. Санчо пытается объяснить, что это мельницы, но Дон Кихот не слушает. Он атакует с копьём, ветер вращает лопасти и сбрасывает его на землю. Дон Кихот настаивает, что волшебник превратил великанов в мельницы.
-
-Эта сцена идеально демонстрирует послание. Дон Кихот живёт в фантазии: трактиры - это замки, проститутки - дамы, мельницы - великаны. Санчо представляет реальность, но постепенно и он начинает верить в фантазии.
-
-Во второй части Дон Кихот и Санчо становятся знаменитыми. Санчо, наконец, управляет островом с удивительной мудростью. Но конец меланхоличен. Дон Кихот возвращается домой побеждённым. На смертном одре он обретает рассудок и умирает в здравом уме. Все плачут, потому что предпочитают сумасшедшего идеалиста разумному Алонсо Кихано.
-
-Каково послание? Сервантес показывает конфликт между идеализмом и реализмом. Дон Кихот смешон, но благороден, храбр и великодушен. Он хочет творить добро и бороться с несправедливостью. Лучше ли жить с благородными идеалами, даже если нас называют сумасшедшими, или с ногами на земле без великих мечтаний?
-
-Сегодня "бороться с ветряными мельницами" означает бороться с воображаемыми врагами. Но книга учит нас, что стоит мечтать и бороться за лучший мир. Как сказал Дон Кихот: "Я знаю, кто я". Безумие мечтать - иногда единственное настоящее здравомыслие.`
-    },
-    exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5']
+    exercises: [
+      'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
+      'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7',
+      'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6',
+      'ex-9-1-c4-f1', 'ex-9-1-c4-f2', 'ex-9-1-c4-f3', 'ex-9-1-c4-f4', 'ex-9-1-c4-f5', 'ex-9-1-c4-f6', 'ex-9-1-c4-f7', 'ex-9-1-c4-f8',
+      'ex-9-1-c5-f1', 'ex-9-1-c5-f2', 'ex-9-1-c5-f3', 'ex-9-1-c5-f4', 'ex-9-1-c5-f5'
+    ]
   },
 
   'lesson-9-2': {
@@ -13837,65 +13892,365 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   // Урок 9.1 - Испанская литература
-  'ex-9-1-1': {
-    id: 'ex-9-1-1',
-    type: 'reading',
-    title: 'Чтение: Don Quijote',
-    description: 'Ответьте на вопросы о Дон Кихоте',
-    text: 'Don Quijote es la obra más importante de Cervantes. Alonso Quijano lee muchas novelas de caballerías y se vuelve loco. Se convierte en Don Quijote con Sancho Panza como escudero. En el episodio famoso, ataca molinos de viento creyendo que son gigantes. Sancho es práctico, Don Quijote es idealista.',
+  // Capítulo 1
+  'ex-9-1-c1-f1': {
+    id: 'ex-9-1-c1-f1',
+    type: 'audio-comprehension',
+    title: 'Capítulo 1 - Fragmento 1',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     questions: [
-      { question: 'Кто написал Дон Кихота?', options: ['Lorca', 'Cervantes', 'Lope de Vega', 'Calderón'], correct: 1 },
-      { question: 'Почему Алонсо сходит с ума?', options: ['От болезни', 'От любви', 'От чтения рыцарских романов', 'От бедности'], correct: 2 },
-      { question: 'Кто такой Санчо Панса?', options: ['Конь', 'Оруженосец', 'Враг', 'Брат'], correct: 1 },
-      { question: 'За кого принимает мельницы?', options: ['За замки', 'За великанов', 'За драконов', 'За армии'], correct: 1 }
+      { question: '¿Qué pasó al principio del fragmento?', type: 'open' },
+      { question: '¿Quién es el personaje principal?', type: 'open' },
+      { question: '¿Dónde ocurre la acción?', type: 'open' }
     ]
   },
-  'ex-9-1-2': {
-    id: 'ex-9-1-2',
-    type: 'vocabulary',
-    title: 'Литературная лексика',
-    description: 'Сопоставьте слова',
+  'ex-9-1-c1-f2': {
+    id: 'ex-9-1-c1-f2',
+    type: 'audio-comprehension',
+    title: 'Capítulo 1 - Fragmento 2',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     questions: [
-      { spanish: 'la novela', options: ['стихотворение', 'роман', 'пьеса', 'рассказ'], correct: 1 },
-      { spanish: 'el poeta', options: ['поэт', 'писатель', 'актер', 'художник'], correct: 0 },
-      { spanish: 'el personaje', options: ['персонаж', 'автор', 'читатель', 'критик'], correct: 0 },
-      { spanish: 'la obra de teatro', options: ['роман', 'стих', 'пьеса', 'эссе'], correct: 2 }
+      { question: '¿Qué descubrió el personaje?', type: 'open' },
+      { question: '¿Qué hizo después?', type: 'open' },
+      { question: '¿Cómo reaccionó?', type: 'open' }
     ]
   },
-  'ex-9-1-3': {
-    id: 'ex-9-1-3',
-    type: 'grammar',
-    title: 'Литературные периоды',
-    description: 'Выберите правильный ответ',
+  'ex-9-1-c1-f3': {
+    id: 'ex-9-1-c1-f3',
+    type: 'audio-comprehension',
+    title: 'Capítulo 1 - Fragmento 3',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     questions: [
-      { sentence: 'Cervantes escribió Don Quijote en el ___', options: ['Edad Media', 'Siglo de Oro', 'Siglo XIX', 'Siglo XX'], correct: 1 },
-      { sentence: 'Lorca fue parte de la ___', options: ['Generación del 98', 'Generación del 27', 'Generación del 50', 'Generación Beat'], correct: 1 },
-      { sentence: '"La vida es sueño" es una obra de ___', options: ['Cervantes', 'Lorca', 'Calderón', 'Bécquer'], correct: 2 },
-      { sentence: 'El "Romancero gitano" es de ___', options: ['Cervantes', 'Lorca', 'Lope de Vega', 'Machado'], correct: 1 }
+      { question: '¿Qué evento importante ocurrió?', type: 'open' },
+      { question: '¿Quién apareció en la escena?', type: 'open' },
+      { question: '¿Qué dijeron?', type: 'open' }
     ]
   },
-  'ex-9-1-4': {
-    id: 'ex-9-1-4',
-    type: 'fillblank',
-    title: 'Completar sobre literatura',
-    description: 'Complete las frases',
+  'ex-9-1-c1-f4': {
+    id: 'ex-9-1-c1-f4',
+    type: 'audio-comprehension',
+    title: 'Capítulo 1 - Fragmento 4',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     questions: [
-      { sentence: 'Don Quijote fue escrito por Miguel de ___ ', correct: 'Cervantes' },
-      { sentence: 'Lorca escribió "Bodas de ___ "', correct: 'sangre' },
-      { sentence: 'El Siglo de ___ fue el período más brillante', correct: 'Oro' },
-      { sentence: 'Sancho Panza es el ___ de Don Quijote', correct: 'escudero' }
+      { question: '¿Qué problema surgió?', type: 'open' },
+      { question: '¿Cómo intentaron resolverlo?', type: 'open' },
+      { question: '¿Cuál fue el resultado?', type: 'open' }
     ]
   },
-  'ex-9-1-5': {
-    id: 'ex-9-1-5',
-    type: 'writing',
-    title: 'Опишите произведение',
-    description: 'Переведите на испанский',
+  'ex-9-1-c1-f5': {
+    id: 'ex-9-1-c1-f5',
+    type: 'audio-comprehension',
+    title: 'Capítulo 1 - Fragmento 5',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     questions: [
-      { russian: 'Дон Кихот - самая знаменитая книга Сервантеса', correct: 'don quijote es el libro más famoso de cervantes' },
-      { russian: 'Лорка был великим поэтом', correct: 'lorca fue un gran poeta' },
-      { russian: 'Мне нравится читать испанскую литературу', correct: 'me gusta leer literatura española' },
-      { russian: 'Эта пьеса очень интересная', correct: 'esta obra de teatro es muy interesante' }
+      { question: '¿Qué decisión tomó el personaje?', type: 'open' },
+      { question: '¿Por qué tomó esa decisión?', type: 'open' },
+      { question: '¿Qué consecuencias tuvo?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c1-f6': {
+    id: 'ex-9-1-c1-f6',
+    type: 'audio-comprehension',
+    title: 'Capítulo 1 - Fragmento 6',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo terminó el capítulo?', type: 'open' },
+      { question: '¿Qué misterio quedó sin resolver?', type: 'open' },
+      { question: '¿Qué esperas que pase después?', type: 'open' }
+    ]
+  },
+
+  // Capítulo 2
+  'ex-9-1-c2-f1': {
+    id: 'ex-9-1-c2-f1',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 1',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué pasó al inicio del capítulo 2?', type: 'open' },
+      { question: '¿Dónde estaban los personajes?', type: 'open' },
+      { question: '¿Qué buscaban?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f2': {
+    id: 'ex-9-1-c2-f2',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 2',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué encontraron?', type: 'open' },
+      { question: '¿Qué significado tenía?', type: 'open' },
+      { question: '¿Cómo reaccionaron?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f3': {
+    id: 'ex-9-1-c2-f3',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 3',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Quién llegó inesperadamente?', type: 'open' },
+      { question: '¿Qué información trajo?', type: 'open' },
+      { question: '¿Cambió esto el curso de la historia?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f4': {
+    id: 'ex-9-1-c2-f4',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 4',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué nuevo misterio apareció?', type: 'open' },
+      { question: '¿Qué pistas encontraron?', type: 'open' },
+      { question: '¿Qué teorías tienen los personajes?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f5': {
+    id: 'ex-9-1-c2-f5',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 5',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué acción tomaron los personajes?', type: 'open' },
+      { question: '¿Tuvieron éxito?', type: 'open' },
+      { question: '¿Qué obstáculos enfrentaron?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f6': {
+    id: 'ex-9-1-c2-f6',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 6',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué revelación importante hubo?', type: 'open' },
+      { question: '¿Cómo afectó esto a los personajes?', type: 'open' },
+      { question: '¿Qué decisiones tomaron?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f7': {
+    id: 'ex-9-1-c2-f7',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 7',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo terminó el capítulo 2?', type: 'open' },
+      { question: '¿Qué conflicto quedó pendiente?', type: 'open' },
+      { question: '¿Qué crees que pasará en el siguiente capítulo?', type: 'open' }
+    ]
+  },
+
+  // Capítulo 3
+  'ex-9-1-c3-f1': {
+    id: 'ex-9-1-c3-f1',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 1',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué sucedió al comenzar el capítulo 3?', type: 'open' },
+      { question: '¿Cuál era el estado de ánimo de los personajes?', type: 'open' },
+      { question: '¿Qué plan tenían?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f2': {
+    id: 'ex-9-1-c3-f2',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 2',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué descubrimiento hicieron?', type: 'open' },
+      { question: '¿Era lo que esperaban?', type: 'open' },
+      { question: '¿Qué hicieron con esta información?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f3': {
+    id: 'ex-9-1-c3-f3',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 3',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué personaje nuevo apareció?', type: 'open' },
+      { question: '¿Qué relación tiene con la trama?', type: 'open' },
+      { question: '¿Es aliado o enemigo?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f4': {
+    id: 'ex-9-1-c3-f4',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 4',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué conflicto surgió?', type: 'open' },
+      { question: '¿Cómo intentaron resolverlo?', type: 'open' },
+      { question: '¿Hubo consecuencias?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f5': {
+    id: 'ex-9-1-c3-f5',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 5',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué giro inesperado ocurrió?', type: 'open' },
+      { question: '¿Cómo cambió la situación?', type: 'open' },
+      { question: '¿Qué opciones tienen ahora?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f6': {
+    id: 'ex-9-1-c3-f6',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 6',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo concluyó el capítulo 3?', type: 'open' },
+      { question: '¿Se resolvió algún misterio?', type: 'open' },
+      { question: '¿Qué nuevas preguntas surgieron?', type: 'open' }
+    ]
+  },
+
+  // Capítulo 4
+  'ex-9-1-c4-f1': {
+    id: 'ex-9-1-c4-f1',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 1',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué ocurrió al inicio del capítulo 4?', type: 'open' },
+      { question: '¿Dónde se encontraban los personajes?', type: 'open' },
+      { question: '¿Qué objetivo tenían?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f2': {
+    id: 'ex-9-1-c4-f2',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 2',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué pista importante encontraron?', type: 'open' },
+      { question: '¿Qué significaba?', type: 'open' },
+      { question: '¿Cómo la interpretaron?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f3': {
+    id: 'ex-9-1-c4-f3',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 3',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué desafío enfrentaron?', type: 'open' },
+      { question: '¿Cómo lo superaron?', type: 'open' },
+      { question: '¿Qué aprendieron de la experiencia?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f4': {
+    id: 'ex-9-1-c4-f4',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 4',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué personaje reveló un secreto?', type: 'open' },
+      { question: '¿Cuál era el secreto?', type: 'open' },
+      { question: '¿Cómo reaccionaron los demás?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f5': {
+    id: 'ex-9-1-c4-f5',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 5',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué evento cambió todo?', type: 'open' },
+      { question: '¿Por qué fue tan importante?', type: 'open' },
+      { question: '¿Qué decisión tuvieron que tomar?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f6': {
+    id: 'ex-9-1-c4-f6',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 6',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué acción arriesgada tomaron?', type: 'open' },
+      { question: '¿Cuáles eran los riesgos?', type: 'open' },
+      { question: '¿Valió la pena?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f7': {
+    id: 'ex-9-1-c4-f7',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 7',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué gran revelación hubo?', type: 'open' },
+      { question: '¿Cambió esto su comprensión de la historia?', type: 'open' },
+      { question: '¿Qué implicaciones tiene?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c4-f8': {
+    id: 'ex-9-1-c4-f8',
+    type: 'audio-comprehension',
+    title: 'Capítulo 4 - Fragmento 8',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo terminó el capítulo 4?', type: 'open' },
+      { question: '¿En qué situación quedaron los personajes?', type: 'open' },
+      { question: '¿Qué esperas del capítulo final?', type: 'open' }
+    ]
+  },
+
+  // Capítulo 5
+  'ex-9-1-c5-f1': {
+    id: 'ex-9-1-c5-f1',
+    type: 'audio-comprehension',
+    title: 'Capítulo 5 - Fragmento 1',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo comenzó el capítulo final?', type: 'open' },
+      { question: '¿Cuál era el estado de los personajes?', type: 'open' },
+      { question: '¿Qué debían hacer?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c5-f2': {
+    id: 'ex-9-1-c5-f2',
+    type: 'audio-comprehension',
+    title: 'Capítulo 5 - Fragmento 2',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué último obstáculo enfrentaron?', type: 'open' },
+      { question: '¿Cómo lo superaron?', type: 'open' },
+      { question: '¿Qué sacrificios tuvieron que hacer?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c5-f3': {
+    id: 'ex-9-1-c5-f3',
+    type: 'audio-comprehension',
+    title: 'Capítulo 5 - Fragmento 3',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Qué descubrieron sobre la llave?', type: 'open' },
+      { question: '¿Qué abría realmente?', type: 'open' },
+      { question: '¿Era lo que esperaban?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c5-f4': {
+    id: 'ex-9-1-c5-f4',
+    type: 'audio-comprehension',
+    title: 'Capítulo 5 - Fragmento 4',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo se resolvió el misterio?', type: 'open' },
+      { question: '¿Todos los personajes quedaron satisfechos?', type: 'open' },
+      { question: '¿Hubo sorpresas finales?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c5-f5': {
+    id: 'ex-9-1-c5-f5',
+    type: 'audio-comprehension',
+    title: 'Capítulo 5 - Fragmento 5',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    questions: [
+      { question: '¿Cómo terminó la historia?', type: 'open' },
+      { question: '¿Qué lección aprendieron los personajes?', type: 'open' },
+      { question: '¿Cuál es tu opinión sobre el final?', type: 'open' }
     ]
   },
 
