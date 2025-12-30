@@ -9566,7 +9566,7 @@ España mira al futuro mientras honra el pasado. En esa tensión creativa está 
       },
       {
         tab: '3',
-        videoUrl: '/video/module-9-lesson-4-gusanos.mp4'
+        videoUrl: '/video/Los gusanos de harina ya son alimento oficial en Europa.mp4'
       }
     ],
     vocabulary: [
