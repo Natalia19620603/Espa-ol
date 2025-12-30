@@ -9309,6 +9309,32 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         ]
       }
     ],
+    audioTabs: [
+      {
+        tab: 'Capitulo 1',
+        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-1.mp3'
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 2',
+        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-2.mp3'
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 3',
+        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-3.mp3'
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 4',
+        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-4.mp3'
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 5',
+        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-5.mp3'
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 6',
+        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-6.mp3'
+      }
+    ],
     exercises: [
       'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
       'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7',
