@@ -4920,6 +4920,23 @@ María: ¡Vamos!`,
       {
         tab: '3',
         videoUrl: '/video/A1-U3-Cl4-deberes-video opcional.mp4'
+      },
+      {
+        tab: 'Desayuno',
+        videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-Cl4-Ej.14.mp4'
+      },
+      {
+        tab: 'Gustar',
+        subtabs: [
+          {
+            tab: '1',
+            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 1.mp4'
+          },
+          {
+            tab: '2',
+            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/GUstar 2.mp4'
+          }
+        ]
       }
     ],
     grammar: {
