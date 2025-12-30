@@ -18,6 +18,6 @@
 ## Модуль 9 Урок 4 (Испанская кухня и традиции)
 - `module-9-lesson-4-intro.mp4` ⚠️ ОТСУТСТВУЕТ
 - `module-9-lesson-4-cocina.mp4` ⚠️ ОТСУТСТВУЕТ
-- `module-9-lesson-4-gusanos.mp4` ⚠️ ОТСУТСТВУЕТ
+- `Los gusanos de harina ya son alimento oficial en Europa.mp4` ✅ ДОСТУПНО
 
 Загрузите видео файлы в эту директорию с указанными выше именами.
