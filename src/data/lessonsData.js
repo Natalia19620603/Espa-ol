@@ -4910,33 +4910,37 @@ María: ¡Vamos!`,
     moduleId: 'module-3',
     videoTabs: [
       {
-        tab: '1',
-        videoUrl: '/video/A1-U3-Cl4-deberes-ej.1.mp4'
-      },
-      {
-        tab: '2',
-        videoUrl: '/video/A1-U3-Cl4-deberes-ej.2.mp4'
-      },
-      {
-        tab: '3',
-        videoUrl: '/video/A1-U3-Cl4-deberes-video opcional.mp4'
-      },
-      {
         tab: 'Desayuno',
-        videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-Cl4-Ej.14.mp4'
-      },
-      {
-        tab: 'Gustar',
         subtabs: [
           {
             tab: '1',
-            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 1.mp4'
+            videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-Cl4-deberes-ej.1.mp4'
           },
           {
             tab: '2',
-            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/GUstar 2.mp4'
+            videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-Cl4-deberes-ej.2.mp4'
+          },
+          {
+            tab: '3',
+            videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-Cl4-deberes-video opcional.mp4'
+          },
+          {
+            tab: '4',
+            videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-Cl4-Ej.14.mp4'
+          },
+          {
+            tab: '5',
+            videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-clase4-ej.7.mp4'
+          },
+          {
+            tab: '6',
+            videoUrl: '/audio/Модуль 3 Урок 4/Desayuno/A1-U3-clase4-ej.11.mp4'
           }
         ]
+      },
+      {
+        tab: 'Gustar',
+        videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 1.mp4'
       }
     ],
     grammar: {
