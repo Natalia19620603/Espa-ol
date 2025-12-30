@@ -4911,27 +4911,15 @@ María: ¡Vamos!`,
     videoTabs: [
       {
         tab: '1',
-        videoUrl: '/video/A1-U3-Cl4-Ej.14.mp4'
-      },
-      {
-        tab: '2',
         videoUrl: '/video/A1-U3-Cl4-deberes-ej.1.mp4'
       },
       {
-        tab: '3',
+        tab: '2',
         videoUrl: '/video/A1-U3-Cl4-deberes-ej.2.mp4'
       },
       {
-        tab: '4',
+        tab: '3',
         videoUrl: '/video/A1-U3-Cl4-deberes-video opcional.mp4'
-      },
-      {
-        tab: '5',
-        videoUrl: '/video/A1-U3-clase4-ej.11.mp4'
-      },
-      {
-        tab: '6',
-        videoUrl: '/video/A1-U3-clase4-ej.7.mp4'
       }
     ],
     grammar: {
@@ -5436,6 +5424,45 @@ María: ¡Vamos!`,
         tab: 'ГЛАГОЛЫ',
         words: [
           { word: 'desayunar', translation: 'завтракать', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'DESAYUNO',
+        words: [
+          { word: 'churros', translation: 'чуррос (испанский десерт)', audioUrl: null },
+          { word: 'chocolate caliente', translation: 'горячий шоколад', audioUrl: null },
+          { word: 'tostadas', translation: 'тосты', audioUrl: null },
+          { word: 'mantequilla', translation: 'сливочное масло', audioUrl: null },
+          { word: 'mermelada', translation: 'джем', audioUrl: null },
+          { word: 'pan con tomate', translation: 'хлеб с помидором', audioUrl: null },
+          { word: 'aceite de oliva', translation: 'оливковое масло', audioUrl: null },
+          { word: 'bollería', translation: 'булочные изделия', audioUrl: null },
+          { word: 'bocadillos', translation: 'бутерброды', audioUrl: null },
+          { word: 'café con leche', translation: 'кофе с молоком', audioUrl: null },
+          { word: 'zumo de naranja', translation: 'апельсиновый сок', audioUrl: null },
+          { word: 'magdalenas', translation: 'кексы', audioUrl: null },
+          { word: 'desayuno continental', translation: 'континентальный завтрак', audioUrl: null },
+          { word: 'buen provecho', translation: 'приятного аппетита', audioUrl: null },
+        ]
+      },
+      {
+        tab: 'GUSTAR',
+        words: [
+          { word: 'me gusta', translation: 'мне нравится', audioUrl: null },
+          { word: 'te gusta', translation: 'тебе нравится', audioUrl: null },
+          { word: 'le gusta', translation: 'ему/ей нравится', audioUrl: null },
+          { word: 'nos gusta', translation: 'нам нравится', audioUrl: null },
+          { word: 'os gusta', translation: 'вам нравится', audioUrl: null },
+          { word: 'les gusta', translation: 'им нравится', audioUrl: null },
+          { word: 'me gustan', translation: 'мне нравятся', audioUrl: null },
+          { word: 'te gustan', translation: 'тебе нравятся', audioUrl: null },
+          { word: 'le gustan', translation: 'ему/ей нравятся', audioUrl: null },
+          { word: 'nos gustan', translation: 'нам нравятся', audioUrl: null },
+          { word: 'os gustan', translation: 'вам нравятся', audioUrl: null },
+          { word: 'les gustan', translation: 'им нравятся', audioUrl: null },
+          { word: 'me encanta', translation: 'я обожаю', audioUrl: null },
+          { word: 'me encantan', translation: 'я обожаю (мн.ч.)', audioUrl: null },
+          { word: 'no me gusta', translation: 'мне не нравится', audioUrl: null },
         ]
       },
     ],
