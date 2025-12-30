@@ -35,6 +35,7 @@ function LessonPage() {
   const [activeReadingTab, setActiveReadingTab] = useState(0)
   const [activeVocabularyTab, setActiveVocabularyTab] = useState(0)
   const [activeVideoTab, setActiveVideoTab] = useState(0)
+  const [activeSubtab, setActiveSubtab] = useState(0)
   const [videoError, setVideoError] = useState(null)
   const [canPlayMP4, setCanPlayMP4] = useState(true)
   const { lessonId } = useParams()
@@ -73,15 +74,17 @@ function LessonPage() {
   // Reset video tab when lesson changes
   useEffect(() => {
     setActiveVideoTab(0)
+    setActiveSubtab(0)
     setActiveExerciseTab(0)
     setActiveReadingTab(0)
     setActiveVocabularyTab(0)
     setVideoError(null)
   }, [lessonId])
 
-  // Reset video error when changing video tabs
+  // Reset video error and subtab when changing video tabs
   useEffect(() => {
     setVideoError(null)
+    setActiveSubtab(0)
   }, [activeVideoTab])
 
   // Check if browser can play MP4 videos
@@ -564,8 +567,12 @@ function LessonPage() {
               } else if (hasVideoTabs) {
                 // Render video with tabs
                 const currentVideo = lesson.videoTabs[activeVideoTab]
+                const hasSubtabs = currentVideo.subtabs && Array.isArray(currentVideo.subtabs) && currentVideo.subtabs.length > 0
+                const activeContent = hasSubtabs ? currentVideo.subtabs[activeSubtab] : currentVideo
+
                 return (
                   <div>
+                    {/* Main tabs */}
                     <div className={styles.exerciseTabs} style={{
                       display: 'flex',
                       flexWrap: 'wrap',
@@ -588,10 +595,38 @@ function LessonPage() {
                         </button>
                       ))}
                     </div>
+
+                    {/* Subtabs if they exist */}
+                    {hasSubtabs && (
+                      <div className={styles.exerciseTabs} style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '8px',
+                        overflowX: 'auto',
+                        maxWidth: '100%',
+                        marginTop: '10px'
+                      }}>
+                        {currentVideo.subtabs.map((subtabData, index) => (
+                          <button
+                            key={index}
+                            className={`${styles.exerciseTab} ${activeSubtab === index ? styles.activeExerciseTab : ''}`}
+                            onClick={() => setActiveSubtab(index)}
+                            style={{
+                              flex: '0 0 auto',
+                              minWidth: 'fit-content',
+                              whiteSpace: 'nowrap'
+                            }}
+                          >
+                            {subtabData.tab}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+
                     <div className={styles.videoContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
-                      {currentVideo.videoUrl && !videoError && (
+                      {activeContent.videoUrl && !videoError && (
                         <video
-                          key={activeVideoTab}
+                          key={`${activeVideoTab}-${activeSubtab}`}
                           controls
                           className={styles.videoPlayer}
                           style={{
@@ -602,16 +637,16 @@ function LessonPage() {
                             display: 'block'
                           }}
                           onError={(e) => {
-                            console.error('Ошибка загрузки видео:', currentVideo.videoUrl, e)
+                            console.error('Ошибка загрузки видео:', activeContent.videoUrl, e)
                             setVideoError(`Не удалось загрузить видео. Файл может отсутствовать или быть поврежден.`)
                           }}
                           onLoadStart={() => setVideoError(null)}
                         >
-                          <source src={currentVideo.videoUrl} type="video/mp4" />
+                          <source src={activeContent.videoUrl} type="video/mp4" />
                           Ваш браузер не поддерживает воспроизведение видео.
                         </video>
                       )}
-                      {currentVideo.videoUrl && videoError && (
+                      {activeContent.videoUrl && videoError && (
                         <div style={{
                           padding: '30px',
                           backgroundColor: '#fff3cd',
@@ -628,7 +663,7 @@ function LessonPage() {
                             {videoError}
                           </div>
                           <div style={{ fontSize: '12px', color: '#666', fontFamily: 'monospace', marginBottom: '15px' }}>
-                            Файл: {currentVideo.videoUrl}
+                            Файл: {activeContent.videoUrl}
                           </div>
                           <div style={{
                             fontSize: '13px',
@@ -649,12 +684,12 @@ function LessonPage() {
                           </div>
                         </div>
                       )}
-                      {currentVideo.audioUrl && (
+                      {activeContent.audioUrl && (
                         <AudioPlayer
-                          key={activeVideoTab}
-                          audioUrl={currentVideo.audioUrl}
+                          key={`${activeVideoTab}-${activeSubtab}`}
+                          audioUrl={activeContent.audioUrl}
                           text=""
-                          subtitles={currentVideo.subtitles || []}
+                          subtitles={activeContent.subtitles || []}
                         />
                       )}
                     </div>
