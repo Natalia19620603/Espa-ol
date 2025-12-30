@@ -9563,6 +9563,10 @@ España mira al futuro mientras honra el pasado. En esa tensión creativa está 
       {
         tab: '2',
         videoUrl: '/video/module-9-lesson-4-cocina.mp4'
+      },
+      {
+        tab: '3',
+        videoUrl: '/video/module-9-lesson-4-gusanos.mp4'
       }
     ],
     vocabulary: [
@@ -9604,6 +9608,34 @@ España mira al futuro mientras honra el pasado. En esa tensión creativa está 
           { word: 'la tertulia', translation: 'светская беседа, посиделки' },
           { word: 'la corrida', translation: 'коррида, бой быков' },
           { word: 'el flamenco', translation: 'фламенко' }
+        ]
+      },
+      {
+        tab: 'Gusanos',
+        words: [
+          { word: 'cultivar', translation: 'культивировать, выращивать' },
+          { word: 'criar', translation: 'воспитывать, растить' },
+          { word: 'el gusano', translation: 'червяк, гусеница' },
+          { word: 'gusano de harina', translation: 'мучной червь' },
+          { word: 'diminuto', translation: 'крошечный, очень маленький' },
+          { word: 'la proteína', translation: 'белок, протеин' },
+          { word: 'el (ácido graso) omega-3', translation: 'жирная кислота омега 3' },
+          { word: 'el grillo', translation: 'сверчок' },
+          { word: 'el saltamonte', translation: 'кузнечик' },
+          { word: 'caer en sueño profundo', translation: 'впасть в глубокий сон' },
+          { word: 'allanar', translation: 'выравнивать' },
+          { word: 'los gastos', translation: 'расходы, затраты' },
+          { word: 'automatizar', translation: 'автоматизировать' },
+          { word: 'reducir', translation: 'уменьшать, сокращать' },
+          { word: 'el trabajo manual', translation: 'ручной труд' },
+          { word: 'el consumidor', translation: 'потребитель, покупатель' },
+          { word: 'en lo que respecta a', translation: 'что касается' },
+          { word: 'la generación', translation: 'поколение, потомство, зарождение, рождение' },
+          { word: 'ser propenso a', translation: 'быть склонным к' },
+          { word: 'de hecho', translation: 'на самом деле, фактически' },
+          { word: 'atrevido', translation: 'смелый, отважный' },
+          { word: 'audaz', translation: 'смелый, отважный' },
+          { word: 'la razón', translation: 'смысл, причина' }
         ]
       }
     ],
@@ -9869,6 +9901,24 @@ Saetas - спонтанные фламенко-песни преданности
 Участвовать в испанской фиесте - значит понять что-то фундаментальное об Испании: жизнь нужно проживать, а не наблюдать. Это не зрелища для туристов (хотя туристы приветствуются) - это подлинные празднования общины, идентичности и радости жизни.
 
 В мире, который часто кажется фрагментированным и индивидуалистичным, испанские фиесты напоминают нам о силе празднования вместе, о сохранении традиций живыми, и о том, что иногда самое важное, что мы можем сделать - это просто... праздновать.`
+      },
+      {
+        tab: '3 Gusanos',
+        title: 'Proteína del Futuro: Los Gusanos de Harina',
+        content: `Aquí se cultiva la proteína del futuro en dos plantas en un pueblo del sur de alemania. La granja llamada sixfeet suite cría gusanos de la harina. Estos diminutos insectos de poco más de dos centímetros de largo podrían ser cruciales para alimentar al planeta. Los insectos son ricos en proteínas; hasta el 70% de su masa es proteína. Además son ricos en ácidos grasos omega 3 como los peces, con la diferencia de que los peces tienen un 2% de omega 3 y algunos insectos, sobre todo el gusano de la harina, tienen más del 14 por ciento, 7 veces más.
+
+Aquí se crían literalmente millones de insectos: gusanos de la harina, grillos, saltamontes, cada uno con necesidades muy particulares, como por ejemplo temperaturas constantes de hasta 40 grados. Los insectos viven solo entre 4 y 5 semanas. Luego entran en el refrigerador y caen en un sueño profundo que termina en un horno para se empaquetan y se envían a tiendas, a restaurantes o directamente a los consumidores que actualmente pagan precios elevados por el producto. Pero la Unión Europea allana el camino para que estas empresas tengan menos gastos.
+
+Algunos insectos son ideales para las granjas industriales éticas, como el gusano de la harina o el grillo. Actualmente estamos automatizando nuestros procesos para reducir gran parte del trabajo manual que se necesita. Es una forma de reducir los costos que también ayudará a reducir los precios al consumidor. Pero ¿qué pasa con los que no pueden imaginar comerse un con su plato de ensalada o pasta? Pueden ir al Nono Peka Work Airlines, panadero en Núremberg, que se ha especializado en ingredientes especiales como la espelta o, bueno, los insectos.
+
+Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, más de ocho euros por un pan pequeño, pero los clientes se han interesado rápidamente. Y nos sorprendió positivamente, especialmente en lo que respecta a nuestros clientes mayores. Pensamos que la generación más joven sería más propensa a probar algo nuevo, pero de hecho fue el grupo de mayores de 50 años el más interesado. Muchos incluso probaron los gusanos de la harina enteros. Razón más que suficiente para que el panadero confíe en seguir vendiendo productos atrevidos para clientes audaces.`,
+        translation: `Здесь выращивают белок будущего на двух фабриках в городе на юге Германии. Ферма под названием Sixfeet Suite разводит мучных червей. Эти крошечные насекомые длиной чуть более двух сантиметров могут стать ключевыми для питания планеты. Насекомые богаты белком; до 70% их массы составляет белок. Кроме того, они богаты жирными кислотами омега-3, как и рыба, с той разницей, что рыба содержит 2% омега-3, а некоторые насекомые, особенно мучной червь, содержат более 14 процентов, в 7 раз больше.
+
+Здесь буквально выращивают миллионы насекомых: мучных червей, сверчков, кузнечиков, каждый с очень специфическими потребностями, например, постоянная температура до 40 градусов. Насекомые живут всего от 4 до 5 недель. Затем их помещают в холодильник, и они впадают в глубокий сон, который заканчивается в печи, после чего их упаковывают и отправляют в магазины, рестораны или непосредственно потребителям, которые в настоящее время платят за продукт высокие цены. Но Европейский Союз выравнивает путь для того, чтобы у этих компаний было меньше расходов.
+
+Некоторые насекомые идеально подходят для этических промышленных ферм, такие как мучной червь или сверчок. В настоящее время мы автоматизируем наши процессы, чтобы сократить большую часть необходимого ручного труда. Это способ сократить расходы, который также поможет снизить цены для потребителей. Но что насчет тех, кто не может представить себе, что ест насекомое в своей тарелке с салатом или пастой? Они могут пойти к Ноно Пека Уорк Эйрлайнс, пекарю в Нюрнберге, который специализируется на специальных ингредиентах, таких как спельта или, ну, насекомые.
+
+Его хлеб с насекомыми содержит 20% муки из мучного червя. Он дорогой, более восьми евро за маленький хлеб, но клиенты быстро заинтересовались. И нас положительно удивило, особенно что касается наших пожилых клиентов. Мы думали, что молодое поколение будет более склонно попробовать что-то новое, но на самом деле именно группа старше 50 лет была наиболее заинтересована. Многие даже попробовали целых мучных червей. Причина более чем достаточная для того, чтобы пекарь продолжал продавать смелые продукты для отважных клиентов.`
       }
     ],
     exercises: ['ex-9-4-1', 'ex-9-4-2', 'ex-9-4-3', 'ex-9-4-4', 'ex-9-4-5']
