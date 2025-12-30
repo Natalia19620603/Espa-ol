@@ -4940,7 +4940,24 @@ María: ¡Vamos!`,
       },
       {
         tab: 'Gustar',
-        videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 1.mp4'
+        subtabs: [
+          {
+            tab: '1',
+            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 1.mp4'
+          },
+          {
+            tab: '2',
+            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/GUstar 2.mp4'
+          },
+          {
+            tab: '3',
+            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 3.mp4'
+          },
+          {
+            tab: '4',
+            videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 4.mp4'
+          }
+        ]
       }
     ],
     grammar: {
