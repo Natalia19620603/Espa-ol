@@ -9860,7 +9860,18 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: '3 de noviembre. Por la mañana.',
-        words: []
+        words: [
+          { word: 'el carrito de compra', translation: 'сумка с колесиками', audioUrl: null },
+          { word: 'tener ganas', translation: 'иметь желание, хотеть', audioUrl: null },
+          { word: 'de dos en dos', translation: 'по двое', audioUrl: null },
+          { word: 'el hueco', translation: 'пустота, свободное место, пробел', audioUrl: null },
+          { word: 'la excusa', translation: 'оправдание, отговорка', audioUrl: null },
+          { word: 'currar', translation: 'работать (разг.), вкалывать', audioUrl: null },
+          { word: 'un duro', translation: 'монета', audioUrl: null },
+          { word: 'caldoso', translation: 'жидкий', audioUrl: null },
+          { word: 'el caldo', translation: 'бульон', audioUrl: null },
+          { word: 'delicioso', translation: 'восхитительный', audioUrl: null }
+        ]
       },
       {
         tab: '3 de noviembre. 16.00 h.',
