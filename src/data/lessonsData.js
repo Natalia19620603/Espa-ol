@@ -9674,148 +9674,77 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
 
   'lesson-9-3': {
     id: 'lesson-9-3',
-    title: 'Урок 3: Современная культура',
+    title: 'Урок 3: Fantasmas en la escalera',
     moduleId: 'module-9',
-    grammar: {
-      title: 'Cultura española contemporánea',
-      content: `
-# Cultura moderna
-
-## 1. CINE
-
-### Pedro Almodóvar (род. 1949)
-Самый знаменитый режиссер. 2 Оскара.
-
-**Фильмы:**
-- "Todo sobre mi madre" (1999)
-- "Hable con ella" (2002)
-- "Volver" (2006)
-
-## 2. MÚSICA
-
-### Flamenco moderno:
-- **Rosalía** - современное фламенко + урбан
-
-### Pop:
-- Alejandro Sanz
-- Shakira
-
-## 3. ARQUITECTURA
-
-### Antoni Gaudí (1852-1926)
-- **La Sagrada Familia** - строится с 1882
-- **Park Güell**
-- **Casa Batlló**
-
-## 4. ARTE
-
-### Pablo Picasso (1881-1973)
-Основатель кубизма. **"Guernica"** (1937).
-
-### Salvador Dalí (1904-1989)
-Сюрреалист. Тающие часы.
-
-## 5. DEPORTES
-
-### Fútbol
-Национальная страсть.
-- Real Madrid vs FC Barcelona ("El Clásico")
-- Чемпионы мира 2010
-
-### Tenis
-- Rafael Nadal
-- Carlos Alcaraz
-
-## 6. GASTRONOMÍA
-
-### Ferran Adrià
-Революционизировал кухню молекулярной гастрономией.
-
-## 7. LITERATURA
-
-- Carlos Ruiz Zafón - "La sombra del viento"
-- Javier Marías - философская проза`,
-      examples: [
-        { spanish: 'Almodóvar es mi director favorito', russian: 'Альмодовар - мой любимый режиссер' },
-        { spanish: 'La Sagrada Familia es impresionante', russian: 'Саграда Фамилия впечатляет' },
-        { spanish: 'El fútbol es una pasión nacional', russian: 'Футбол - национальная страсть' }
-      ]
-    },
-    vocabulary: [
-      { word: 'el cine', translation: 'кино', audioUrl: null },
-      { word: 'la película', translation: 'фильм', audioUrl: null },
-      { word: 'el director', translation: 'режиссер', audioUrl: null },
-      { word: 'la música', translation: 'музыка', audioUrl: null },
-      { word: 'el cantante', translation: 'певец', audioUrl: null },
-      { word: 'el arte', translation: 'искусство', audioUrl: null },
-      { word: 'el pintor', translation: 'художник', audioUrl: null },
-      { word: 'la arquitectura', translation: 'архитектура', audioUrl: null },
-      { word: 'el edificio', translation: 'здание', audioUrl: null },
-      { word: 'el deporte', translation: 'спорт', audioUrl: null },
-      { word: 'el equipo', translation: 'команда', audioUrl: null },
-      { word: 'el partido', translation: 'матч', audioUrl: null },
-      { word: 'contemporáneo', translation: 'современный', audioUrl: null },
-      { word: 'mundial', translation: 'мировой', audioUrl: null },
-      { word: 'el actor', translation: 'актер', audioUrl: null }
+    vocabulary: [],
+    audioTabs: [
+      {
+        tab: 'CAPITULO 1 - 28.10 10.00',
+        audioUrl: '/audio/9-3-capitulo-1.mp3'
+      },
+      {
+        tab: 'CAPITULO 2 - 28.10 10.30',
+        audioUrl: '/audio/9-3-capitulo-2.mp3'
+      },
+      {
+        tab: 'CAPITULO 3 - 28.10 12.30',
+        audioUrl: '/audio/9-3-capitulo-3.mp3'
+      },
+      {
+        tab: 'Capitulo 4 - 30.20 por la mañana',
+        audioUrl: '/audio/9-3-capitulo-4.mp3'
+      },
+      {
+        tab: 'CAPITULO 5 - 30.10 por la tarde',
+        audioUrl: '/audio/9-3-capitulo-5.mp3'
+      },
+      {
+        tab: 'CAPITULO 6 - 30.10 19.00',
+        audioUrl: '/audio/9-3-capitulo-6.mp3'
+      },
+      {
+        tab: 'CAPITULO 7 - 31.10',
+        audioUrl: '/audio/9-3-capitulo-7.mp3'
+      },
+      {
+        tab: 'CAPITULO 8 - Casa Monserrat 23.00',
+        audioUrl: '/audio/9-3-capitulo-8.mp3'
+      },
+      {
+        tab: 'CAPITULO 9 - 01.11 00.30',
+        audioUrl: '/audio/9-3-capitulo-9.mp3'
+      },
+      {
+        tab: 'CAPITULO 10 - 01.11 10.30',
+        audioUrl: '/audio/9-3-capitulo-10.mp3'
+      },
+      {
+        tab: 'CAPITULO 11 - 02.11 08.00',
+        audioUrl: '/audio/9-3-capitulo-11.mp3'
+      },
+      {
+        tab: 'CAPITULO 12 - 03.11 por la mañana',
+        audioUrl: '/audio/9-3-capitulo-12.mp3'
+      },
+      {
+        tab: 'CAPITULO 13 - 03.11 16.00',
+        audioUrl: '/audio/9-3-capitulo-13.mp3'
+      },
+      {
+        tab: 'CAPITULO 14 - 03.11 19.00',
+        audioUrl: '/audio/9-3-capitulo-14.mp3'
+      },
+      {
+        tab: 'CAPITULO 15 - Calle Bonavista 23.00',
+        audioUrl: '/audio/9-3-capitulo-15.mp3'
+      }
     ],
     readingText: {
-      title: 'España moderna: tradición y futuro',
-      content: `Camino por Madrid en 2025 y veo un país que mezcla tradición y modernidad. Esta mañana pasé por la Puerta del Sol con su oso y madroño medieval, pero alrededor la gente llevaba smartphones y en pantallas se anunciaba el último filme español nominado al Oscar.
-
-En una cafetería, sonaba Rosalía - la cantante que revolucionó el flamenco fusionándolo con reggaeton. Hace treinta años esto habría sido impensable. El flamenco era sagrado. Pero Rosalía demostró que puedes honrar la tradición transformándola. Sus videos tienen millones de visitas. Ha colaborado con Billie Eilish. El flamenco gitano-andaluz ahora suena en Tokio y Nueva York.
-
-Fui al Museo Reina Sofía a ver el "Guernica" de Picasso. Este cuadro de 1937 sobre el bombardeo durante la Guerra Civil sigue siendo relevante. Picasso cambió el arte mundial. El cubismo que inventó todavía influye hoy.
-
-Por la tarde, vi una película de Almodóvar. Sus películas son inconfundiblemente españolas - melodramáticas, coloridas, emotivas - pero hablan de temas universales. Ha ganado dos Oscars. Penélope Cruz y Antonio Banderas son estrellas de Hollywood pero siempre vuelven a España.
-
-Pasé por el Bernabéu, casa del Real Madrid. El fútbol es una religión. "El Clásico" con Barcelona paraliza el país - 400 millones lo ven mundialmente. España ganó la Copa del Mundo en 2010. Toda España salió a celebrar. Todas las divisiones desaparecieron.
-
-Cené en un restaurante de tapas modernizado - deconstrucciones, espumas. La influencia de Ferran Adrià está en todas partes. España tiene más restaurantes Michelin que nunca.
-
-Caminé por Malasaña, el distrito hipster. Bares llenos, arte urbano, tiendas vintage. En una librería hojeé a Ruiz Zafón y Javier Marías - autores españoles traducidos a docenas de idiomas.
-
-En el metro escuché español, inglés, árabe, chino. Madrid se ha vuelto internacional. España ha pasado de país de emigración a inmigración.
-
-Esto trae desafíos. Cataluña quiere independencia. El País Vasco tiene su cultura. ¿Qué significa ser español con tantas identidades regionales? Esta tensión entre lo local y nacional define la España moderna.
-
-Pero algo nunca cambia: la importancia de la familia, la pasión por la vida, la sobremesa, las plazas llenas de gente, las fiestas de pueblo.
-
-España ha producido grandes artistas: Velázquez, Goya, Picasso, Dalí, Miró. Escritores como Cervantes, Lorca. Arquitectos como Gaudí y Calatrava. Cineastas como Buñuel y Almodóvar. Para un país pequeño, el impacto cultural ha sido inmenso.
-
-El español es hablado por 600 millones mundialmente - el segundo idioma del mundo. España sigue siendo el corazón histórico del idioma.
-
-Mañana iré a Barcelona a ver la Sagrada Familia de Gaudí, construyéndose durante 140 años. Es el símbolo perfecto: un proyecto ambicioso, único, que mezcla tradición e innovación, que ha tomado generaciones pero nunca perdió su visión.
-
-España mira al futuro mientras honra el pasado. En esa tensión creativa está su genio.`,
-      translation: `Иду по Мадриду в 2025 году и вижу страну, смешивающую традицию и современность. Сегодня утром я прошёл мимо Пуэрта-дель-Соль с её средневековым медведем и земляничным деревом, но вокруг люди носили смартфоны, а на экранах рекламировался последний испанский фильм, номинированный на Оскар.
-
-В кафе играла Росалия - певица, которая революционизировала фламенко, слив его с реггетоном. Тридцать лет назад это было бы немыслимо. Фламенко было священным. Но Росалия показала, что можно чтить традицию, трансформируя её. Её видео имеют миллионы просмотров. Она сотрудничала с Билли Айлиш. Цыганско-андалузское фламенко теперь звучит в Токио и Нью-Йорке.
-
-Я пошёл в музей Рейна София посмотреть "Гернику" Пикассо. Эта картина 1937 года о бомбардировке во время Гражданской войны остаётся актуальной. Пикассо изменил мировое искусство. Кубизм, который он изобрёл, до сих пор влияет на искусство сегодня.
-
-Во второй половине дня я посмотрел фильм Альмодовара. Его фильмы безошибочно испанские - мелодраматические, красочные, эмоциональные - но говорят о универсальных темах. Он выиграл два Оскара. Пенелопа Крус и Антонио Бандерас - звёзды Голливуда, но всегда возвращаются в Испанию.
-
-Я прошёл мимо Бернабеу, дома Реал Мадрида. Футбол - это религия. "Эль Класико" с Барселоной парализует страну - 400 миллионов смотрят по всему миру. Испания выиграла Чемпионат мира в 2010 году. Вся Испания вышла праздновать. Все разделения исчезли.
-
-Я поужинал в модернизированном ресторане тапас - деконструкции, пены. Влияние Феррана Адриа повсюду. В Испании теперь больше ресторанов Мишлен, чем когда-либо.
-
-Я прогулялся по Маласанье, хипстерскому району. Переполненные бары, уличное искусство, винтажные магазины. В книжном магазине я просматривал Руиса Сафона и Хавьера Мариаса - испанских авторов, переведённых на десятки языков.
-
-В метро я слышал испанский, английский, арабский, китайский. Мадрид стал международным. Испания перешла от страны эмиграции к иммиграции.
-
-Это приносит вызовы. Каталония хочет независимости. Страна Басков имеет свою культуру. Что значит быть испанцем с таким количеством региональных идентичностей? Это напряжение между местным и национальным определяет современную Испанию.
-
-Но кое-что никогда не меняется: важность семьи, страсть к жизни, собремеса, площади, полные людей, деревенские праздники.
-
-Испания произвела великих художников: Веласкес, Гойя, Пикассо, Дали, Миро. Писателей, как Сервантес, Лорка. Архитекторов, как Гауди и Калатрава. Кинорежиссёров, как Бунюэль и Альмодовар. Для маленькой страны культурное влияние было огромным.
-
-На испанском говорят 600 миллионов человек по всему миру - второй язык мира. Испания остаётся историческим сердцем языка.
-
-Завтра я поеду в Барселону, чтобы увидеть Саграда Фамилия Гауди, строящуюся уже 140 лет. Это идеальный символ: амбициозный, уникальный проект, который смешивает традицию и инновацию, который занял поколения, но никогда не терял своего видения.
-
-Испания смотрит в будущее, чтя прошлое. В этом творческом напряжении её гений.`
+      title: 'Fantasmas en la escalera',
+      content: ``,
+      translation: ``
     },
-    exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5']
+    exercises: []
   },
   'lesson-9-4': {
     id: 'lesson-9-4',
