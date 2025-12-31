@@ -9715,11 +9715,33 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: 'Barcelona. 28 de octubre. 12.30 h.',
-        words: []
+        words: [
+          { word: 'apetecer', translation: 'желать, хотеть', audioUrl: null },
+          { word: 'el cajero automático', translation: 'банкомат (АТМ)', audioUrl: null },
+          { word: 'la cuenta corriente', translation: 'Текущий счет в банке', audioUrl: null },
+          { word: 'la plaza', translation: 'место, площадь', audioUrl: null },
+          { word: 'porteño', translation: 'портовый, житель Буэнос-Айреса', audioUrl: null },
+          { word: 'sabio', translation: 'мудрый, мудрец', audioUrl: null },
+          { word: 'el talego', translation: 'тюрьма', audioUrl: null },
+          { word: 'Alcalá Meco', translation: 'название тюрьмы', audioUrl: null },
+          { word: 'el camello', translation: 'верблюд, торговец наркотиками', audioUrl: null },
+          { word: 'las drogas', translation: 'наркотики', audioUrl: null },
+          { word: 'salvaje', translation: 'дикий, грубый', audioUrl: null },
+          { word: 'el enchufe', translation: 'розетка', audioUrl: null },
+          { word: 'ser un tarado', translation: 'быть глупым, испорченным', audioUrl: null },
+          { word: 'el odio', translation: 'ненависть', audioUrl: null },
+          { word: 'palmar', translation: 'помереть, откинуться', audioUrl: null },
+          { word: 'el murciélago', translation: 'летучая мышь', audioUrl: null },
+          { word: 'un Pomerania', translation: 'шпиц', audioUrl: null }
+        ]
       },
       {
         tab: '30 de octubre. Por la mañana.',
-        words: []
+        words: [
+          { word: 'el ático', translation: 'мансарда', audioUrl: null },
+          { word: 'la acera', translation: 'тротуар; сторона улицы', audioUrl: null },
+          { word: 'la movida', translation: 'движуха', audioUrl: null }
+        ]
       },
       {
         tab: '30 de octubre. Por la tarde.',
