@@ -10257,27 +10257,471 @@ Ariel se toma un café y los tres comentan los misterios de la casa. La señora 
       },
       {
         tab: '2 de noviembre. 08.00 h.',
-        content: ``,
+        content: `Un ejecutivo estresado, que habla constantemente con el móvil, coge el taxi en la Diagonal52.
+−Muntaner, 367.
+
+No dice «hola», ni «buenos días». «Otro que piensa que el taxi es solo un coche. Hoy el tráfico está fatal. Claro, después de un día de fiesta…», piensa Pepa mientras conduce lentamente a través del Ensanche53. Hace buen tiempo, el cielo está azul, y escucha buena música: el piano maravilloso de Bebo Valdés54. Se siente bien.
+−Doce euros −dice Pepa cuando llegan al destino.
+
+El cliente paga sin decir nada. No dice adiós y baja con el móvil pegado a la oreja.
+
+Pepa pone la señal de «libre» y baja por la calle Muntaner. A pocos metros, un hombre para el taxi.
+
+−A la calle Bonavista, en Gracia.
+
+−Sí, conozco esa calle.
+
+«Mira, me lleva a mi casa», piensa Pepa, divertida. La cara del pasajero le suena55. «¿Quién es? ¿Lo conozco?», se pregunta. «¡Síiiiiii, claro…! ¡Es uno de los hombres que quieren comprar el piso de la señora Montserrat!» El hombre hace una llamada y Pepa escucha con mucha atención.
+
+−¿Bernardo? Sí, mira… Voy a Gracia. Sí, eso. A preparar el siguiente numerito56. A ver qué dice ahora la vieja.
+«¿El siguiente numerito? ¿La vieja?… ¿Qué significa todo esto?», se pregunta Pepa mientras observa al hombre por el retrovisor. Está preparando algo: en las manos tiene una pequeña maleta negra y saca un
+
+bigote, unas gafas, una pipa…
+
+En unos minutos están frente al portal de Pepa. Pepa deja al pasajero y aparca en un lugar prohibido. No importa. Ahora lo más importante es seguir al hombre de la maleta. Este ha entrado en el portal, y Pepa entra también. No ve a nadie, pero oye ruidos en el cuarto de los contadores, una pequeña habitación al lado del ascensor. «¿Es el hombre de la maleta negra?» Pepa se esconde detrás de los cubos de basura. Se abre la puerta del cuartito y sale… ¡¡¡El señor Ramón!!! Bueno, no, el doble del señor Ramón. Con sus gafas, su bigote blanco, su pipa… Pepa empieza a entenderlo todo.
+
+El hombre empieza a subir. No ha visto a Pepa. Pepa busca su móvil y llama a sus amigos.
+
+−¡Raúl, rápido, ven a mi casa, al portal!
+
+−Tía, qué pasa. ¡Qué prisas! Estoy aquí, en el bar, con unos colegas tomando el aperitivo. Unas cañas, unas tapitas…
+
+−¿El aperitivo? Que son las doce… Es muy pronto para el aperitivo.
+
+−Es que yo hago horario europeo57.
+
+−¡Ni horario europeo ni leches58! −dice Pepa, nerviosa, intentando no gritar−. Ven ahora mismo. Es un asunto de vida o muerte.
+
+−Sí, hombre, encima. No quiero hablar de muertos. Y menos en tu casa. ¡Qué nochecita hemos pasado!59 Menudo «jalobín».
+−Halloween… Se dice Halloween. Bueno, no importa. Te espero.
+Ahora. Y pasa a buscar a Armando.
+
+A Pepa se le ocurre un plan. ¿Quieren sustos? Pues los van a tener. Suben rápido por las escaleras hasta su casa, al ático. La masa de los panellets sigue en la mesa de la cocina. La motosierra de broma de Raúl
+
+y la máscara de Chucky también. Se pone masa de panellets por la cabeza. Con el pelo tieso el efecto es terrorífico. Baja las escaleras hasta el primero. Hay suerte, la puerta no está cerrada. Aparece Aristóteles, que mueve la cola al reconocer a Pepa. Pepa entra y avanza lentamente por el pasillo. Quiere asustar al falso fantasma. Pero lo que le espera en
+el salón la deja helada60: ¡el falso señor Ramón y la señora Montserrat están hablando tranquilamente!
+
+−Entonces… ¿café o té? –pregunta ella−. Ya sabes que a esta hora el café te sienta mal… Tomas demasiado café. De acuerdo, los fantasmas seguramente no tienen problemas de estómago. Pero tanto café no es bueno. Ni para los fantasmas.
+
+El falso señor Ramón no dice nada. ¿Los fantasmas no hablan? Pepa decide actuar. Entra en el salón y pega un grito aterrador. En ese momento llegan Armando y Raúl. Y también gritan al ver a la Pepa- Chucky y al señor Ramón. O a su fantasma. El falso señor Ramón cae al suelo. Montserrat, ha empezado a sacar platos de un mueble y se los tira a la Pepa-Chucky.
+
+−Señora Montserrat, soy yo, Pepa –dice intentando sacarse la máscara. Pero la máscara se ha pegado con la masa de almendra y no es fácil.
+
+Aristóteles muerde ferozmente la pierna de Raúl y este también grita. Los dos gemelos del tercero también han bajado.
+
+−¡Qué guay61! ¡Qué divertido! −dicen, y se sientan felices en el sofá a ver el espectáculo.
+
+Por fin todo el mundo se calma un poco. El hombre de la maleta sigue en el suelo.
+
+−Llamo a una ambulancia −dice Armando.
+
+−Yo sé hacer masaje cardíaco −dice Raúl−. Aprendí en la mili62.
+
+−No, deja, deja… No la líes más63. Que lo rematas. ¿Respira?
+−pregunta Pepa.
+
+Ya se oye cerca la sirena de la ambulancia y la de un coche de policía. Alguien de la calle ha llamado a la policía. Loli ha escuchado los gritos y también llega al piso.
+
+−Pero Pepa, ¿qué te has hecho en el pelo? Yo te he hecho un alisado monísimo64. Es que no te cuidas nada, siempre te lo digo…
+−Loli, vamos a dejarlo, ¿eh? No es el momento.
+
+Han llegado un médico y dos enfermeros. El médico se ocupa del falso señor Ramón.
+
+−Señora, no es grave −le dice el médico a la señora Montserrat−. Su marido se ha desmayado… ¿Tiene problemas del corazón? ¿Toma algún medicamento?
+
+−Sí, no, sí… Bueno, doctor, es que… No sé si es mi marido,
+¿sabe? Pero… ¿está vivo? ¿Seguro, seguro…? Usted puede saber si es mi marido, ¿no? Como en la tele, digo, con el ADN y esas cosas. Bueno, claro que a lo mejor los fantasmas no tienen ADN… Como están muertos…
+
+Como siempre, la señora Montserrat habla y habla y habla. Ella pregunta, ella responde. El médico no entiende nada. Nadie entiende nada.
+
+Mientras, un policía interroga a Raúl.
+
+−¿Dice usted que es un «cazafantasmas»…? −pregunta el policía.
+Tampoco entiende nada.
+
+−Sí, señor, exactamente. En esta casa hay fantasmas. Bueno, ahora ya no. Porque… lo hemos cazado.
+
+El policía tampoco entiende nada. Pero Raúl se siente como un superhéroe. «Sí, definitivamente, cazafantasmas es mejor profesión que paseador de perros», piensa.
+
+Mientras, Pepa se lo explica todo a la señora Montserrat y a Armando.
+
+−Pues qué pena… −dice la señora Montserrat−. He estado hablando con el fantasma, y parece simpático. No es Ramón, pero…
+
+En medio de este lío, aparece Ariel, el sobrino guapo de la señora Montserrat. Pepa lo ve entrar y, automáticamente, se toca la cabeza…
+«¡Y yo con estos pelos!», piensa. «Después de esto no me invita a cenar. Seguro.»
+
+También le explica la historia a Ariel: Pepa ha encontrado al hombre, lo ha visto disfrazarse en la escalera y lo ha seguido. Después… Todo se ha complicado un poco.
+
+Armando le dice a Pepa, cuando están ya más tranquilos:
+
+−Pepa tenés que ducharte… Ariel tiene que hablar con la poli65. Y después, ¿por qué no vienen todos ustedes al bar? Tengo un asado argentino66 buenísimo en la parrilla.
+
+−Ok. ¿Todo el mundo de acuerdo? Nos vemos en el bar de Armando dentro de una hora −dice Pepa.
+
+Todos aceptan encantados. Un buen asado y unos vinos argentinos ahuyentan a todos los fantasmas.`,
         translation: ``
       },
       {
         tab: '3 de noviembre. Por la mañana.',
-        content: ``,
+        content: `Pepa sale de casa a las once. Ha dormido mucho pero todavía está cansada. Han sido unos días muy estresantes. En la entrada encuentra a la señora Montserrat, que llega del mercado con su carrito de la compra.
+
+−Hola, Pepa. ¡Qué caro está todo en el mercado, Dios mío! ¡Y cómo pesa este carro! Y es solo comida para mí. Bueno, y para Aristóteles… Ah, una cosa importante… Espera un momento… A ver, aquí en el bolso… Sí, mira, quiero enseñarte esto. Lo he encontrado en el salón de mi casa.
+
+Montserrat le da a Pepa un CD. En la caja pone: «Calle Bonavista,
+5».
+
+−No es mío. Yo no entiendo nada de ordenadores. Ni de discos de estos. Alguien lo ha perdido. ¿Tú puedes mirar qué es? ¿O de quién es?
+
+−Claro. Subo a casa y lo miro ahora mismo.
+
+Pepa tiene muchas ganas de ver qué hay en el CD. Es algo del edificio porque pone la dirección, Bonavista, 5… Pueden ser pistas sobre el misterio de la escalera, la extraña empresa inmobiliaria y sus juegos terroríficos de fantasmas.
+
+Sube las escaleras de dos en dos y se sienta frente al portátil. Examina el contenido del disco: son unos planos, como de un arquitecto. Pepa los mira con atención. Al principio no entiende nada, pero luego ve que es un plano de la entrada: el portal, la escalera, el cuartito de los contadores… ¿Qué es esto? ¡Qué raro! En color rojo está señalada una zona.
+
+−A ver… Esta parte roja, ¿qué es? −Pepa piensa en voz alta−. Esto es la puerta, esto el cuarto de los contadores, esto la escalera y…
+¡Entonces esto es el ascensor, el hueco del ascensor! ¿Por qué les interesa el ascensor? ¿Qué hay en un viejo ascensor de una vieja casa?
+«Tengo que llamar a Ariel y explicarle esto», piensa Pepa. «¿O es que
+
+busco una excusa para verlo?», se pregunta después.
+
+Finalmente decide ir a trabajar un rato. Un taxista que se queda en casa no gana un duro67. Y Pepa quiere irse al Caribe en enero. Va a buscar el coche a la Plaza del Sol. Raúl está durmiendo la siesta en su caseta. Cuando pasa a su lado, Raúl se despierta.
+
+−Tía, ¿qué pasa? ¿No saludas o qué? ¿Te vas a currar68? Pepa no tiene muchas ganas de hablar con él.
+−Sí, me voy a currar. Que hoy no he ganado ni un duro.
+
+−Pues hasta luego.
+
+Pepa sale por las pequeñas calles hasta Gran de Gracia, la calle principal del barrio. Es una calle comercial y siempre suele haber gente que busca taxi. En un par de minutos ya ha puesto el cartel de
+«ocupado». Es un norteamericano que quiere comer paella.
+
+Pepa le propone llevarlo al puerto y cruza Barcelona. En la Barceloneta69 lo deja en El suquet de l'Almirall, donde hacen los mejores arroces de pescado de Barcelona. No es exactamente paella, pero están buenísimos. Intenta explicarle al norteamericano la diferencia entre una paella y un arroz caldoso70, pero al final lo deja. Demasiado difícil.
+
+−Ya verá, el arroz aquí está delicioso.
+
+El americano le deja una propina fantástica. «Si sigue así el día… A lo mejor puedo invitar a Ariel a tomar un arroz en este restaurante. Una cena romántica, junto al mar…», piensa Pepa. Está claro que le gusta Ariel.
+
+Trabaja seis horas y vuelve a casa. Tiene hambre y no ha comido nada en todo el día.`,
         translation: ``
       },
       {
         tab: '3 de noviembre. 16.00 h.',
-        content: ``,
+        content: `Al entrar en el portal, oye un ruido muy fuerte. La madre de los gemelos, Laura, sale en ese momento.
+
+−¿Qué pasa? –le pregunta Pepa.
+
+−No sé, chica, en esta escalera, hay mucho ruido últimamente.
+
+−Pues sí −responde Pepa pensando en la noche anterior.
+
+−Creo que están arreglando el ascensor o algo así.
+
+A Pepa algo le huele mal71. Están trabajando exactamente en la zona marcada en rojo en el plano. Decide esperar un poco y observar. Se sienta en la escalera, en una parte con poca luz. Si pasa alguien, puede decir que le duele un pie o algo así. A los cinco minutos, llega un hombre con un traje gris. «¡Es uno de los mafiosos de la calle Muntaner!», piensa Pepa al reconocerlo.
+
+Se para delante del ascensor. En la puerta hay un cartel: «No funciona». Pero el hombre abre la puerta. El ascensor está entre la planta baja y el entresuelo72.
+
+−Manolo… –dice el hombre del traje gris.
+
+Enseguida saca la cabeza otro hombre. Va vestido de obrero de la construcción, con casco y todo.
+
+−¿Qué? ¿Cómo vamos, Manolo?
+
+−De momento, nada, señor Martínez. Piedra, piedra y piedra…
+
+−Tiene que estar ahí. Recuerda: es una caja metálica no muy grande. Lo dice la carta.
+
+Pepa intenta entender lo que dicen: «¿Una caja metálica? ¿Una
+
+carta…? ¿De qué hablan? Una cosa está clara: no están arreglando el ascensor. Esto tiene relación con los fantasmas, con la inmobiliaria… Esta gente busca algo importante. Tengo que llamar a Ariel.» Pepa sale de su rincón en la escalera y, al pasar al lado de Martínez, saluda de forma totalmente natural.
+
+−Buenas tardes.
+
+El hombre no responde. Parece preocupado.
+
+Pepa sale corriendo hacia el párking. Necesita su coche rápido. Esos hombres viajan siempre en taxi y si pasa, casualmente, por la calle Bonavista…
+
+En el párking Raúl le pregunta:
+
+−Chica, ¿vuelves a salir?
+
+−Sí, una urgencia −y sale del párking como un piloto de Fórmula 1.
+
+−Niiiiiña, que pareces Fernando Alonso…−dice Raúl, pero Pepa ni lo oye.
+
+Por suerte, cuando llega a la calle Bonavista, el hombre sale del número 5.
+
+«Este tío es tonto», piensa Pepa. «Lo he llevado tres veces ya y no me conoce.»
+
+Naturalmente no dice «buenas tardes». Solo gruñe:
+
+−Muntaner, 367.
+
+Inmediatamente saca el móvil y hace una llamada.
+
+−¿Ariel?
+
+«¿Cómo? ¡No puede ser…!», piensa Pepa. «¿Ariel? ¿Ariel está en
+
+esto? No me lo puedo creer… Pero no hay muchos Ariel en España.» Pepa escucha atenta el resto de la conversación.
+−Sí, ya sé, tienes la carta de tu bisabuela republicana73 desde el exilio en París… Sí, la he leído tres veces: ¡todas las joyas de la familia tienen que estar debajo del ascensor! Pero, lo siento, chico, no salen. Hay que seguir buscando, pero los vecinos preguntan… Que qué hacemos, que si va a durar mucho el ruido, que por qué picamos… Te
+llamo luego, ¿vale74?
+
+Está claro que Pepa no puede llamar a Ariel para explicarle el misterio de los planos.`,
         translation: ``
       },
       {
         tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
-        content: ``,
+        content: `−Armando, tienes que ayudarme. Bueno, primero ponme una caña.
+
+−¿Qué tenés?
+
+−Es largo de explicar.
+
+Pepa se lo cuenta todo a Armando: lo del CD con los planos que encontró la señora Montserrat , lo de las obras del ascensor y la conversación que ha oído en el taxi.
+
+−Elemental, mi querida Pepa −dice Armando, imitando a Sherlock Holmes.
+
+−¿Tú lo entiendes?
+
+−Perfectamente.
+
+−Pues explícate, tío.
+
+−La señora Montserrat me contó muchas veces la historia de su familia. Los Picornell, una familia de industriales de Barcelona. Industriales ricos, pero… ¡republicanos! Un poco antes de terminar la Guerra Civil, con el ejército de Franco a las puertas de Barcelona, los Picornell huyen, pasan la frontera y se refugian en Francia, como otros muchos republicanos.
+
+−Y dejan aquí las joyas.
+
+−Sí, seguro.
+
+−Y las joyas están debajo del ascensor.
+
+−Supongo que sí.
+
+−Pues hay que encontrarlas. Son de la señora Montserrat. Y Ariel
+
+no quiere esperar para heredarlas. ¿Puedes venir a mi casa esta noche?
+¿A las once?
+
+−Sí, no te preocupés. Contá conmigo.
+
+−Voy a llamar también a Raúl.`,
         translation: ``
       },
       {
         tab: 'Calle Bonavista. 23.00 h.',
-        content: ``,
+        content: `−Pepa, qué bien que nos invitas a cenar… ¿Es tu cumpleaños o algo?
+
+−Bueno… Cenar, cenar… Vamos a cenar más tarde.
+
+−Pues yo tengo un hambre… Estoy con un bocadillo de atún desde esta mañana…
+
+Pepa saca del cuartito de los contadores un casco, un mono de trabajo azul y un pico.
+
+Raúl la mira horrorizado.
+
+−Pero, tía, ¿qué quieres hacer? A estas horas… Y además, a mí, el trabajo manual… Vamos, que no es lo mío75.
+
+−¡No, claro! Lo tuyo es la filosofía… −dice Pepa irónicamente−.
+Pero hoy nos vas a ayudar. Tú eres el más fuerte de los tres, ¿no?
+
+Raúl, finalmente, acepta ponerse debajo del ascensor.
+
+−Mierda… ¿Y si esto se cae? No sé, me da mal rollo. ¿Y si hay ratas?
+
+−Que no, que no, que el ascensor no se cae.
+
+Pepa y Armando iluminan con linternas y controlan la entrada. Al cabo de unos minutos, Raúl dice:
+−Aquí hay una caja, parece una caja muy vieja, de metal…
+
+−¡Bingo! −grita Pepa.
+
+−Che76, entró alguien… −dice Armando−. Apagá la linterna, Pepa.
+
+Es Ariel. Pepa lo reconoce enseguida.
+
+Ariel enciende la luz de la escalera. Mira con preocupación a los tres amigos. Especialmente a Raúl, que saca la cabeza del hueco del ascensor.
+
+−¿Qué hacéis aquí?
+
+−Lo sabes perfectamente.
+
+−Mi tía no tiene que saber nada de esto.
+
+−Sobre todo, tiene que saberlo la policía. ¿Les vas a explicar también tu juego de fantasmas? Claro, tú puedes entrar y salir de aquí siempre sin problema. ¿Cómo no lo he pensado antes? ¿Y la carta? Es un viejo documento de familia, supongo.
+
+Mientras, Armando ha sacado el móvil y está llamando a los
+Mossos77.
+
+−Ya vienen para acá.
+
+Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja metálica, como las de los bancos.
+
+−Tíos, ¿me ayudáis o qué? Ahora ya nos podemos ir a cenar, ¿no?
+
+−Sí, hablamos con la poli, les damos la cajita, y os invito a cenar. Un arroz en la Barceloneta. En El suquet del Almirall. ¡Nos lo hemos ganado!
+
+«¡Qué pena! ¡Con lo guapo que es…!», piensa Pepa mirando por última vez a Ariel.`,
+        translation: ``
+      },
+      {
+        tab: 'NOTAS EXPLICATIVAS',
+        content: `Notas explicativas
+
+  Palabra o expresión vulgar.
+  Palabra o expresión coloquial.
+
+1. Licencia. El número de taxis en España está controlado por cada ayuntamiento. Las licencias de taxi se traspasan y valen mucho dinero.
+
+2. Fashion. Palabra de origen inglés que se usa para decir «moderno».
+
+3. Look. Palabra de origen inglés que se usa para decir «imagen».
+
+4. Ligar. Empezar una relación amorosa o sexual pasajera.
+
+5. Y qué coño. En este contexto, siginifica «¿Por qué no?»
+
+6. Ser un plomo. Ser aburrido, pesado. Se aplica a personas.
+
+7. Tía. mujer, chica.
+
+8. Gracia. Barrio de Barcelona donde vive Pepa.
+
+9. Que en paz descanse. Fórmula tradicional para referirse a una persona muerta.
+
+10. Joder, qué fuerte. expresión de sorpresa ante algo desagradable. «Joder» es una exclamación muy frecuente con muchos valores: sorpresa, enfado, impaciencia, etc.
+
+11. No somos nada. Lugar común que se emplea ante una muerte, una enfermedad o una desgracia.
+
+12. Linda. guapa. Es frecuente en el español de Latinoamérica.
+
+13. Decís. En algunas zonas de Hispanoamérica, como Argentina, la segunda persona del singular del Presente de Indicativo tiene unas formas particulares.
+
+14. Sos. «Eres», en Argentina y algunas zonas de Hispanoamérica.
+
+15. Acento porteño. Acento de Buenos Aires.
+
+16. Chungo. Malo.
+
+17. Alcalá Meco. Prisión española situada en la Comunidad Autónoma de Madrid.
+
+18. Talego. Cárcel o prisión.
+
+19. Camello. Persona que vende droga directamente a los consumidores.
+
+20. Ser un tarado. Ser un estúpido; muy usado en Argentina y Uruguay.
+
+21. Palmar. Morirse.
+
+22. Movida. Situación, lío, problema.
+
+23. (Tener) mala leche. Ser agresivo, tener mal carácter.
+
+24. (Vagar) como un alma en pena. Como un muerto entre los vivos, como un alma del purgatorio.
+
+25. Cabrón. Insulto muy usual.
+
+26. (Ser un) fantasma. Persona poco seria, poco fiable.
+
+27. Carajillo de Torres. El carajillo es café con coñac o anís. Es una bebida muy popular en España, que se toma después de comer, o incluso por la mañana. Torres es una marca de coñac.
+
+28. Y dale con… Se usa para rechazar la insistencia de alguien. Aquí, la Señora Montserrat no quiere una interpretación «psicológica» de su problema.
+
+29. Barça. Fútbol Club Barcelona. Equipo de fútbol de esta ciudad.
+
+30. Castañas, boniatos y panellets. Productos que se toman tradicionalmente el día de Todos los Santos en Cataluña. La castañas y los boniatos (un tipo de patata dulce) se asan. Los panellets son unos pastelitos de almendra, muy parecidos a los del norte de África.
+
+31. La Boquería. Es un gran mercado de comida situado en La Rambla.
+
+32. Llegaron recién. «Acaban de llegar» en variante argentina.
+
+33. Mejor solo/a que mal acompañado/a. Refrán español.
+
+34. Puñetero/a/os/as… Calificativo que se une a algo que no nos gusta o que nos molesta. Aquí Pepa está harta de preparar los panellets.
+
+35. ¿Qué coño…? Expresión muy usual que puede combinarse con muchas preguntas, por ejemplo, «¿Qué coño dices/haces/quieres…?» Manifiesta sorpresa, enfado, impaciencia, etc.
+
+36. Vos. Forma usada en Argentina y en otros lugares de Hispanoamérica para decir «tú».
+
+37. Pinta. Aspecto.
+
+38. Gilipollas. Insulto muy corriente que significa «estúpido».
+
+39. Jalogüin. Raúl, como muchos españoles, pronuncia muy mal el inglés. Quiere decir Halloween.
+
+40. Macho. Vocativo frecuente para dirigise a un hombre.
+
+41. No jodas. Aquí, expresión para manifestar sorpresa.
+
+42. Fiambres. Cadáveres. El fiambre es carne o pescado preparado para comer frío.
+
+43. (Dar) mal rollo. No gustar, dar miedo.
+
+44. (Estar) muerto/a de miedo. Tener mucho miedo.
+
+45. Rico, rico. Dicho de la comida, significa que está sabrosa. Expresión muy difundida en España por un cocinero muy popular que aparece en la televisión.
+
+46. La pasma. La policía.
+
+47. (Dar) yuyu. Dar miedo, muchas veces relacionado con la muerte o algo paranormal.
+
+48. Tan ricamente. Tan a gusto.
+
+49. Me abro. Me voy.
+
+50. La Vanguardia. Periódico editado en Barcelona.
+
+51. Tío/a bueno/a. Se aplica a alguien guapo, con buen tipo.
+
+52. Diagonal. La avenida Diagonal es una de las calles más largas de Barcelona. Allí se encuentran muchas oficinas, bancos, comercios, etc.
+
+53. Ensanche. Parte del centro de Barcelona construida a finales del siglo XIX y principios del XX.
+
+54. Bebo Valdés. Pianista de jazz cubano.
+
+55. Le suena. Cree recordarlo.
+
+56. Numerito. Despectivamente, show, espectáculo.
+
+57. Horario europeo. En España, respecto a los otros países europeos, se come más tarde, se empieza y se sale del trabajo más tarde, etc. Aquí es irónico.
+
+58. Ni leches. Expresión usada para enfatizar una frase negativa.
+
+59. Qué nochecita hemos pasado. Qué mala noche hemos pasado.
+
+60. Dejar helado/a (a alguien, algo). Causar una gran sorpresa.
+
+61. Qué guay. Expresión infantil o juvenil. Equivale a «qué bueno/a» o a «qué bien».
+
+62. Mili. Abreviatura frecuente de «servicio militar».
+
+63. No la líes más. No compliques más la situación.
+
+64. Monísimo. Superlativo de «mono». Bonito. Es una expresión más usada por las mujeres que por los hombres.
+
+65. Poli. Abreviación frecuente de «policía».
+
+66. Asado argentino. En Argentina hay una carne de gran calidad; la carne asada al fuego es uno de los platos más típicos de este país.
+
+67. No ganar un duro. No ganar nada de dinero.
+
+68. Currar. Trabajar.
+
+69. Barceloneta. Es el antiguo barrio de pescadores de Barcelona. Está entre el puerto y la playa y hay muchos restaurantes especializados en pescado, mariscos y paellas.
+
+70. Arroz caldoso. En España existen muchas maneras de preparar arroz. En las paellas el arroz se sirve seco y en los arroces caldosos con caldo.
+
+71. Algo le huele mal. Algo le parece poco claro, sospechoso.
+
+72. Entresuelo. En muchos edificios de viviendas, el primer nivel, entre la planta baja y el primer piso, se llama entresuelo.
+
+73. Republicana. En la Guerra Civil español se enfrentan los republicanos, que defienden la República frente a los nacionales, que apoyan el levantamiento militar del General Franco. Muchos de los republicanos, como la familia de la Sra. Montserrat, tuvieron que exiliarse.
+
+74. Vale. De acuerdo.
+
+75. Es lo mío. Expresión para referirse a un tema o habilidad que uno domina o que a uno le gusta especialmente.
+
+76. Che. Vocativo muy usado en Argentina y otras zonas de Hispanoamérica.
+
+77. Mossos. Los Mossos d'Esquadra son la policía autonómica catalana.`,
         translation: ``
       }
     ],
