@@ -10872,7 +10872,143 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         translation: ``
       }
     ],
-    exercises: []
+    exercises: [
+      {
+        tab: 'Barcelona. 28 de octubre. 10.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: 'Barcelona. 28 de octubre. 10.30 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: 'Barcelona. 28 de octubre. 12.30 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '30 de octubre. Por la mañana.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '30 de octubre. Por la tarde.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '30 de octubre. 19.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '31 de octubre',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: 'Casa de la señora Montserrat. 23.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '1 de noviembre. 00.30 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '1 de noviembre. 10.30 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '2 de noviembre. 08.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '3 de noviembre. Por la mañana.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: '3 de noviembre. 16.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      },
+      {
+        tab: 'Calle Bonavista. 23.00 h.',
+        subtabs: [
+          { name: 'Словарь', exercises: [] },
+          { name: 'Понимание текста', exercises: [] },
+          { name: 'Грамматика', exercises: [] },
+          { name: 'Перевод', exercises: [] }
+        ]
+      }
+    ]
   },
   'lesson-9-4': {
     id: 'lesson-9-4',

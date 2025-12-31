@@ -32,6 +32,7 @@ function LessonPage() {
   const [currentExercise, setCurrentExercise] = useState(null)
   const [openSections, setOpenSections] = useState({})
   const [activeExerciseTab, setActiveExerciseTab] = useState(0)
+  const [activeExerciseSubtab, setActiveExerciseSubtab] = useState(0)
   const [activeReadingTab, setActiveReadingTab] = useState(0)
   const [activeVocabularyTab, setActiveVocabularyTab] = useState(0)
   const [activeVideoTab, setActiveVideoTab] = useState(0)
@@ -886,52 +887,130 @@ function LessonPage() {
                 lesson.exercises[0].tab !== undefined
 
               if (hasExerciseTabs) {
-                // Render exercises with tabs
-                return (
-                  <div>
-                    <div className={styles.exerciseTabs}>
-                      {lesson.exercises.map((tabData, index) => (
-                        <button
-                          key={index}
-                          className={`${styles.exerciseTab} ${activeExerciseTab === index ? styles.activeExerciseTab : ''}`}
-                          onClick={() => setActiveExerciseTab(index)}
-                        >
-                          {tabData.tab}
-                        </button>
-                      ))}
-                    </div>
-                    <div className={styles.exercisesList}>
-                      {lesson.exercises[activeExerciseTab].exerciseIds.map((exerciseId, index) => {
-                        const exercise = exercisesData[exerciseId]
-                        if (!exercise) return null
+                // Check if tabs have subtabs (nested structure)
+                const hasSubtabs = lesson.exercises[0].subtabs !== undefined
 
-                        const progress = getProgress()
-                        const lessonProgress = progress[lessonId] || {}
-                        const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
+                if (hasSubtabs) {
+                  // Render exercises with nested tabs (chapter tabs + exercise type subtabs)
+                  const currentChapter = lesson.exercises[activeExerciseTab]
+                  const currentSubtab = currentChapter.subtabs[activeExerciseSubtab]
 
-                        return (
-                          <div
-                            key={exerciseId}
-                            className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
-                            onClick={() => handleExerciseClick(exerciseId)}
+                  return (
+                    <div>
+                      {/* Chapter tabs */}
+                      <div className={styles.exerciseTabs}>
+                        {lesson.exercises.map((tabData, index) => (
+                          <button
+                            key={index}
+                            className={`${styles.exerciseTab} ${activeExerciseTab === index ? styles.activeExerciseTab : ''}`}
+                            onClick={() => {
+                              setActiveExerciseTab(index)
+                              setActiveExerciseSubtab(0)
+                            }}
                           >
-                            <div className={styles.exerciseNumber}>{index + 1}</div>
-                            <div className={styles.exerciseInfo}>
-                              <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
-                              <p className={styles.exerciseDescription}>{exercise.description}</p>
-                              <span className={styles.exerciseType}>
-                                Тип: {getExerciseTypeName(exercise.type)}
-                              </span>
-                            </div>
-                            {isCompleted && (
-                              <div className={styles.completedBadge}>✓</div>
-                            )}
-                          </div>
-                        )
-                      })}
+                            {tabData.tab}
+                          </button>
+                        ))}
+                      </div>
+
+                      {/* Exercise type subtabs */}
+                      <div className={styles.exerciseSubtabs}>
+                        {currentChapter.subtabs.map((subtab, index) => (
+                          <button
+                            key={index}
+                            className={`${styles.exerciseSubtab} ${activeExerciseSubtab === index ? styles.activeExerciseSubtab : ''}`}
+                            onClick={() => setActiveExerciseSubtab(index)}
+                          >
+                            {subtab.name}
+                          </button>
+                        ))}
+                      </div>
+
+                      {/* Exercises list */}
+                      <div className={styles.exercisesList}>
+                        {currentSubtab.exercises.length === 0 ? (
+                          <p className={styles.noExercises}>Упражнения скоро будут добавлены</p>
+                        ) : (
+                          currentSubtab.exercises.map((exerciseId, index) => {
+                            const exercise = exercisesData[exerciseId]
+                            if (!exercise) return null
+
+                            const progress = getProgress()
+                            const lessonProgress = progress[lessonId] || {}
+                            const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
+
+                            return (
+                              <div
+                                key={exerciseId}
+                                className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
+                                onClick={() => handleExerciseClick(exerciseId)}
+                              >
+                                <div className={styles.exerciseNumber}>{index + 1}</div>
+                                <div className={styles.exerciseInfo}>
+                                  <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
+                                  <p className={styles.exerciseDescription}>{exercise.description}</p>
+                                  <span className={styles.exerciseType}>
+                                    Тип: {getExerciseTypeName(exercise.type)}
+                                  </span>
+                                </div>
+                                {isCompleted && (
+                                  <div className={styles.completedBadge}>✓</div>
+                                )}
+                              </div>
+                            )
+                          })
+                        )}
+                      </div>
                     </div>
-                  </div>
-                )
+                  )
+                } else {
+                  // Render exercises with simple tabs (no subtabs)
+                  return (
+                    <div>
+                      <div className={styles.exerciseTabs}>
+                        {lesson.exercises.map((tabData, index) => (
+                          <button
+                            key={index}
+                            className={`${styles.exerciseTab} ${activeExerciseTab === index ? styles.activeExerciseTab : ''}`}
+                            onClick={() => setActiveExerciseTab(index)}
+                          >
+                            {tabData.tab}
+                          </button>
+                        ))}
+                      </div>
+                      <div className={styles.exercisesList}>
+                        {lesson.exercises[activeExerciseTab].exerciseIds.map((exerciseId, index) => {
+                          const exercise = exercisesData[exerciseId]
+                          if (!exercise) return null
+
+                          const progress = getProgress()
+                          const lessonProgress = progress[lessonId] || {}
+                          const isCompleted = (lessonProgress.completedExerciseIds || []).includes(exerciseId)
+
+                          return (
+                            <div
+                              key={exerciseId}
+                              className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
+                              onClick={() => handleExerciseClick(exerciseId)}
+                            >
+                              <div className={styles.exerciseNumber}>{index + 1}</div>
+                              <div className={styles.exerciseInfo}>
+                                <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
+                                <p className={styles.exerciseDescription}>{exercise.description}</p>
+                                <span className={styles.exerciseType}>
+                                  Тип: {getExerciseTypeName(exercise.type)}
+                                </span>
+                              </div>
+                              {isCompleted && (
+                                <div className={styles.completedBadge}>✓</div>
+                              )}
+                            </div>
+                          )
+                        })}
+                      </div>
+                    </div>
+                  )
+                }
               } else {
                 // Render exercises without tabs (simple array)
                 return (
