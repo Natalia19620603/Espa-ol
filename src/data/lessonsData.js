@@ -9312,27 +9312,27 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
     audioTabs: [
       {
         tab: 'Capitulo 1',
-        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-1.mp3'
+        audioUrl: '/audio/1 1.mp3'
       },
       {
         tab: 'Capitulo 1 - Fragmento 2',
-        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-2.mp3'
+        audioUrl: '/audio/1 2.mp3'
       },
       {
         tab: 'Capitulo 1 - Fragmento 3',
-        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-3.mp3'
+        audioUrl: '/audio/1 3.mp3'
       },
       {
         tab: 'Capitulo 1 - Fragmento 4',
-        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-4.mp3'
+        audioUrl: '/audio/1 4.mp3'
       },
       {
         tab: 'Capitulo 1 - Fragmento 5',
-        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-5.mp3'
+        audioUrl: '/audio/1 5.mp3'
       },
       {
         tab: 'Capitulo 1 - Fragmento 6',
-        audioUrl: '/audio/Módulo 9 Урок 1/АУДИО/Capitulo 1/fragmento-6.mp3'
+        audioUrl: '/audio/1 6.mp3'
       }
     ],
     exercises: [
