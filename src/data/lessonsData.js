@@ -9950,7 +9950,70 @@ Pepa entra en la iglesia con Loli. Se sienta al final: no le gustan los entierro
       },
       {
         tab: '30 de octubre. 19.00 h.',
-        content: ``,
+        content: `A las siete, Pepa aparca el taxi. No hay mucho trabajo y está cansada. Antes de ir a casa, pasa por el bar de Armando. En la barra está la señora Montserrat, que se está tomando una tila.
+
+−Hola, señora Montserrat. Lo siento mucho −dice Pepa. «¿Qué se dice en estos casos? Ni idea», piensa Pepa.
+
+La señora Montserrat le da las gracias con dos besos muy sonoros.
+No es necesario decir nada: la señora Montserrat lo dice todo.
+
+El perrito horrible se pone a dormir sobre el pie de Pepa. Cada vez que ella se mueve, el perro gruñe. También él parece deprimido.
+¡Normal!
+
+−Pues, como le decía a Armando: en nuestra casa pasan cosas raras, muy raras, Pepa.
+
+−¿Qué cosas raras? −pregunta Pepa.
+
+−¡Hay fantasmas! −dice la señora Montserrat con los ojos bien abiertos.
+
+−¿Cómo? ¿Qué?
+
+− Sí, chica, sí. Es terrible. Ya sé, vais a pensar: «Esta pobre vieja está loca…». Pero algo pasa. Hay ruidos raros, gritos…
+
+Armando quiere tranquilizarla:
+
+−Mujer, tranquila, es el shock… Es normal, los primeros días…
+
+−Armando, que no… Ya sé que los argentinos sois muy psicólogos, pero yo no estoy loca. Veo cosas y oigo cosas… Ay, pobre mi Ramón… Quizá está vagando por la casa, como un alma en pena24….
+
+−¿Cómo un fantasma, quiere decir? −pregunta Pepa.
+
+−Eso, como un fantasma −dice la señora Montserrat muy seria. En ese momento se oyen unos gritos terribles.
+−Uuuuuuh, aaaaah, oooooooh…
+
+Todos dan un salto y miran hacia los gritos.
+
+No es un fantasma. En la puerta está Raúl. Aristóteles, el perro- murciélago, le clava sus pequeños dientes en la pierna.
+
+−¡Aristóles, cabrón25! ¡Qué haces! ¡Que soy tu amigo! −grita entre lamentos Raúl.
+
+−Ese sí que es un fantasma26 −dice Pepa.
+
+Cuando por fin Raúl está libre de Aristóteles, la señora Montserrat se toma una segunda tila. Raúl reclama un carajillo de Torres27.
+−Te invito yo −dice la señora Montserrat−. Aristóteles, eres muy malo. Malo, malo, malo…
+
+−Con mucho coñac −dice Raúl cuando sabe que la señora Montserrat es la que paga.
+
+−¡Pobre Aristóteles! −exclama la mujer−. Es que tiene mucho carácter…
+
+−Grrrrrrrrrrrrr −dice simplemente Aristóteles, que sigue mirando a Raúl.
+
+−Perro desagradecido −comenta Raúl−. Eso no es carácter. ¡Es mala leche!
+
+Al final todos están ya más tranquilos, Raúl, Aristóteles y su dueña.
+
+Armando le da su número de móvil.
+
+−Señora Montserrat, usted me llama si tiene miedo. A cualquier hora, de día o de noche −le dice el argentino−. Hablamos un rato, usted me cuenta sobre sus fantasmas…
+
+−Y dale con28 la psicología −dice Raúl.
+
+−Y a mí también me puede llamar. Ya tiene mi teléfono, ¿no?
+−añade Pepa.
+
+La señora Montserrat les da las gracias a todos, paga sus tilas y el carajillo de Raúl y sale con Aristóteles. Es una mujer valiente.
+
+«Además, si el fantasma es mi difunto Ramón…», piensa entrando en la casa. «En 40 años no hemos tenido problemas, o sea, que ahora, vivo o muerto… Bueno, solamente cuando el Barça29 no va bien…»`,
         translation: ``
       },
       {
