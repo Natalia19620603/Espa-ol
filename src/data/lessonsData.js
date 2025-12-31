@@ -9739,11 +9739,83 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
         audioUrl: '/audio/9-3-15.mp3'
       }
     ],
-    readingText: {
-      title: 'Fantasmas en la escalera',
-      content: ``,
-      translation: ``
-    },
+    readingTabs: [
+      {
+        tab: 'Barcelona. 28 de octubre. 10.00 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Barcelona. 28 de octubre. 10.30 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Barcelona. 28 de octubre. 12.30 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '30 de octubre. Por la mañana.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '30 de octubre. Por la tarde.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '30 de octubre. 19.00 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '31 de octubre',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Casa de la señora Montserrat. 23.00 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '1 de noviembre. 00.30 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '1 de noviembre. 10.30 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '2 de noviembre. 08.00 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '3 de noviembre. Por la mañana.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: '3 de noviembre. 16.00 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Calle Bonavista. 23.00 h.',
+        content: ``,
+        translation: ``
+      }
+    ],
     exercises: []
   },
   'lesson-9-4': {
