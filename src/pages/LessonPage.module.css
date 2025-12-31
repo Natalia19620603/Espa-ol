@@ -408,6 +408,14 @@
   margin-bottom: 1rem;
 }
 
+.spanishText sup {
+  font-size: 0.65em;
+  vertical-align: super;
+  line-height: 0;
+  color: #667eea;
+  font-weight: 600;
+}
+
 .translationHint {
   margin-top: 2rem;
   padding-top: 2rem;
