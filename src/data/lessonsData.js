@@ -10405,7 +10405,67 @@ Trabaja seis horas y vuelve a casa. Tiene hambre y no ha comido nada en todo el 
       },
       {
         tab: '3 de noviembre. 16.00 h.',
-        content: ``,
+        content: `Al entrar en el portal, oye un ruido muy fuerte. La madre de los gemelos, Laura, sale en ese momento.
+
+−¿Qué pasa? –le pregunta Pepa.
+
+−No sé, chica, en esta escalera, hay mucho ruido últimamente.
+
+−Pues sí −responde Pepa pensando en la noche anterior.
+
+−Creo que están arreglando el ascensor o algo así.
+
+A Pepa algo le huele mal71. Están trabajando exactamente en la zona marcada en rojo en el plano. Decide esperar un poco y observar. Se sienta en la escalera, en una parte con poca luz. Si pasa alguien, puede decir que le duele un pie o algo así. A los cinco minutos, llega un hombre con un traje gris. «¡Es uno de los mafiosos de la calle Muntaner!», piensa Pepa al reconocerlo.
+
+Se para delante del ascensor. En la puerta hay un cartel: «No funciona». Pero el hombre abre la puerta. El ascensor está entre la planta baja y el entresuelo72.
+
+−Manolo… –dice el hombre del traje gris.
+
+Enseguida saca la cabeza otro hombre. Va vestido de obrero de la construcción, con casco y todo.
+
+−¿Qué? ¿Cómo vamos, Manolo?
+
+−De momento, nada, señor Martínez. Piedra, piedra y piedra…
+
+−Tiene que estar ahí. Recuerda: es una caja metálica no muy grande. Lo dice la carta.
+
+Pepa intenta entender lo que dicen: «¿Una caja metálica? ¿Una
+
+carta…? ¿De qué hablan? Una cosa está clara: no están arreglando el ascensor. Esto tiene relación con los fantasmas, con la inmobiliaria… Esta gente busca algo importante. Tengo que llamar a Ariel.» Pepa sale de su rincón en la escalera y, al pasar al lado de Martínez, saluda de forma totalmente natural.
+
+−Buenas tardes.
+
+El hombre no responde. Parece preocupado.
+
+Pepa sale corriendo hacia el párking. Necesita su coche rápido. Esos hombres viajan siempre en taxi y si pasa, casualmente, por la calle Bonavista…
+
+En el párking Raúl le pregunta:
+
+−Chica, ¿vuelves a salir?
+
+−Sí, una urgencia −y sale del párking como un piloto de Fórmula 1.
+
+−Niiiiiña, que pareces Fernando Alonso…−dice Raúl, pero Pepa ni lo oye.
+
+Por suerte, cuando llega a la calle Bonavista, el hombre sale del número 5.
+
+«Este tío es tonto», piensa Pepa. «Lo he llevado tres veces ya y no me conoce.»
+
+Naturalmente no dice «buenas tardes». Solo gruñe:
+
+−Muntaner, 367.
+
+Inmediatamente saca el móvil y hace una llamada.
+
+−¿Ariel?
+
+«¿Cómo? ¡No puede ser…!», piensa Pepa. «¿Ariel? ¿Ariel está en
+
+esto? No me lo puedo creer… Pero no hay muchos Ariel en España.» Pepa escucha atenta el resto de la conversación.
+−Sí, ya sé, tienes la carta de tu bisabuela republicana73 desde el exilio en París… Sí, la he leído tres veces: ¡todas las joyas de la familia tienen que estar debajo del ascensor! Pero, lo siento, chico, no salen. Hay que seguir buscando, pero los vecinos preguntan… Que qué hacemos, que si va a durar mucho el ruido, que por qué picamos… Te
+llamo luego, ¿vale74?
+
+Está claro que Pepa no puede llamar a Ariel para explicarle el misterio de los planos.`,
         translation: ``
       },
       {
