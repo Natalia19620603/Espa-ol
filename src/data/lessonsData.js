@@ -10470,7 +10470,40 @@ Está claro que Pepa no puede llamar a Ariel para explicarle el misterio de los 
       },
       {
         tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
-        content: ``,
+        content: `−Armando, tienes que ayudarme. Bueno, primero ponme una caña.
+
+−¿Qué tenés?
+
+−Es largo de explicar.
+
+Pepa se lo cuenta todo a Armando: lo del CD con los planos que encontró la señora Montserrat , lo de las obras del ascensor y la conversación que ha oído en el taxi.
+
+−Elemental, mi querida Pepa −dice Armando, imitando a Sherlock Holmes.
+
+−¿Tú lo entiendes?
+
+−Perfectamente.
+
+−Pues explícate, tío.
+
+−La señora Montserrat me contó muchas veces la historia de su familia. Los Picornell, una familia de industriales de Barcelona. Industriales ricos, pero… ¡republicanos! Un poco antes de terminar la Guerra Civil, con el ejército de Franco a las puertas de Barcelona, los Picornell huyen, pasan la frontera y se refugian en Francia, como otros muchos republicanos.
+
+−Y dejan aquí las joyas.
+
+−Sí, seguro.
+
+−Y las joyas están debajo del ascensor.
+
+−Supongo que sí.
+
+−Pues hay que encontrarlas. Son de la señora Montserrat. Y Ariel
+
+no quiere esperar para heredarlas. ¿Puedes venir a mi casa esta noche?
+¿A las once?
+
+−Sí, no te preocupés. Contá conmigo.
+
+−Voy a llamar también a Raúl.`,
         translation: ``
       },
       {
