@@ -448,9 +448,16 @@ function LessonPage() {
 
                       <div className={styles.readingContent}>
                         <div className={styles.spanishText}>
-                          {currentReading.content.split('\n').map((paragraph, index) => (
-                            paragraph.trim() && <p key={index}>{paragraph}</p>
-                          ))}
+                          {currentReading.content.split('\n').map((paragraph, index) => {
+                            if (paragraph.trim()) {
+                              // Check if paragraph contains HTML tags
+                              if (paragraph.includes('<img') || paragraph.includes('<')) {
+                                return <div key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />;
+                              }
+                              return <p key={index}>{paragraph}</p>;
+                            }
+                            return null;
+                          })}
                         </div>
                         {currentReading.translation && (
                           <div className={styles.translationHint}>
