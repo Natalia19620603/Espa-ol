@@ -9679,11 +9679,39 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
     vocabulary: [
       {
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
-        words: []
+        words: [
+          { word: 'el folleto', translation: 'буклет, брошюра', audioUrl: null },
+          { word: 'el crucero', translation: 'круиз, круизное судно', audioUrl: null },
+          { word: 'la licencia', translation: 'лицензия', audioUrl: null },
+          { word: 'el local', translation: 'помещение', audioUrl: null },
+          { word: 'urgentemente', translation: 'срочно, незамедлительно', audioUrl: null },
+          { word: 'la reforma', translation: 'ремонт', audioUrl: null },
+          { word: 'llevarse bien', translation: 'хорошо ладить', audioUrl: null },
+          { word: 'soso', translation: 'несоленый, пресный, безвкусный', audioUrl: null },
+          { word: 'el mono', translation: 'комбинезон, обезьяна, симпатичный', audioUrl: null },
+          { word: 'el corte', translation: 'порез, стрижка', audioUrl: null },
+          { word: 'liso', translation: 'гладкий', audioUrl: null },
+          { word: 'ligar', translation: 'флиртовать, связывать', audioUrl: null }
+        ]
       },
       {
         tab: 'Barcelona. 28 de octubre. 10.30 h.',
-        words: []
+        words: [
+          { word: 'divino', translation: 'божественный, прекрасный', audioUrl: null },
+          { word: 'el plomo', translation: 'свинец, зануда', audioUrl: null },
+          { word: 'la peste', translation: 'чума, вонь', audioUrl: null },
+          { word: 'apestar', translation: 'вонять, плохо пахнуть', audioUrl: null },
+          { word: 'distribuir', translation: 'распределять, распространять', audioUrl: null },
+          { word: 'el escepticismo', translation: 'скептицизм', audioUrl: null },
+          { word: 'la ambulancia', translation: 'машина скорой помощи', audioUrl: null },
+          { word: 'auténtico', translation: 'подлинный, настоящий', audioUrl: null },
+          { word: 'asomarse', translation: 'показываться, высовываться', audioUrl: null },
+          { word: 'la portera/el portero', translation: 'консьерж', audioUrl: null },
+          { word: 'impaciente', translation: 'нетерпеливый; беспокойный', audioUrl: null },
+          { word: 'en paz descanse', translation: 'упокой Господь его душу', audioUrl: null },
+          { word: 'suspirar', translation: 'вздыхать/вздохнуть', audioUrl: null },
+          { word: 'de repente', translation: 'внезапно, вдруг', audioUrl: null }
+        ]
       },
       {
         tab: 'Barcelona. 28 de octubre. 12.30 h.',
