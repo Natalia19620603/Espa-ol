@@ -9820,7 +9820,53 @@ Loli mira dramáticamente el reloj y responde:
       },
       {
         tab: 'Barcelona. 28 de octubre. 12.30 h.',
-        content: ``,
+        content: `Ir a las Islas Maldivas o a Martinica es muy caro: como mínimo, 2500 euros. ¿Canarias? No. Le apetece ir al extranjero. En un cajero automático Pepa mira cuánto dinero hay en su cuenta corriente y se deprime: ¡ni para Canarias tiene suficiente!
+
+El peinado que le ha hecho su amiga Loli es horrible. Con la ambulancia y la muerte del vecino, del señor Ramón, Loli ha calculado mal. Le ha dejado el producto demasiado tiempo. Parece una cantante de reggae con minirrastas de quince centímetros.
+
+Va hacia la plaza del Sol, donde tiene una plaza de párking para el taxi. Hace un día feo, frío y húmedo. Gracia, el barrio donde vive y que tanto le gusta normalmente, le parece hoy triste y sucio. Para animarse, decide tomar un café con leche en el bar de Armando.
+
+Armando le sirve el café a Pepa. Esta toma el vaso con las dos manos y cierra los ojos con placer. «¡Cómo me gusta el café con leche!», piensa.
+
+−El mejor café del barrio, Armando… −dice Pepa.
+
+−Para la taxista más linda…
+
+−¡Por favor, Armando…! Hoy estoy horrible.
+
+−¡Pero qué decís…! Sos la más linda de las taxistas de Barcelona.
+
+Armando es argentino y lleva 30 años en Barcelona. Pero sigue hablando el español con acento porteño. «El acento es como parte de tu persona. No se puede perder», dice él siempre. Es como el psicoanalista del barrio: escucha tranquilamente los problemas de sus clientes y les da consejos muy sabios.
+
+En este momento entra Raúl. Raúl ha hecho mil cosas en la vida.
+
+Ha estado dos años, según él «muy chungos» en Alcalá Meco y no quiere volver al talego. Ha sido mecánico, camello, camarero, boxeador… Ahora, trabaja en el párking donde guarda el taxi Pepa. Y parece que sus únicas drogas son la cerveza de lata y una planta de marihuana que sobrevive milagrosamente en el patio del párking. Es feo, maleducado, medio salvaje… y una muy buena persona.
+
+−Pero Pepa… ¿qué te ha pasado en el pelo? Si parece que has metido los dedos en un enchufe… Je, je, je…
+
+−No tiene gracia.
+
+−Tranquila mujer, es solo una broma.
+
+−Vos sos un tarado, Raúl… −murmura Armando−. Eso no se le dice a una señorita.
+
+−¿Pepa una señorita? Je, je, je… Tú sí que estás de broma. Pepa mira a Raúl con odio.
+
+−Vale, vale, vale… Es una broma, solo una broma. Ya está, ya está… −dice él−. Por cierto, ha palmao un vecino, ¿no? −comenta Raúl para cambiar de tema.
+
+−Sí, del corazón. El señor Ramón, el marido de la señora Montserrat. La del perrito horrible −añade Pepa.
+
+−Un pomerania −dice Armando.
+
+−¿Qué? −pregunta Raúl.
+
+−Que el perrito horrible es un pomerania. Pomerania es una raza de perros muy cara.
+
+−Pues es muy feo, parece un murciélago…−dice Raúl.
+
+−Un murciélago muy caro −añade Armando.
+
+−Bueno, chicos… Yo me voy a trabajar −dice Pepa, y sale del bar.`,
         translation: ``
       },
       {
