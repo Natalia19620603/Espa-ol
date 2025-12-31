@@ -10018,7 +10018,87 @@ La señora Montserrat les da las gracias a todos, paga sus tilas y el carajillo 
       },
       {
         tab: '31 de octubre',
-        content: ``,
+        content: `Pepa ha trabajado bien hoy. Mucha gente se prepara para esta noche y toman taxis. Es una noche especial. Es la víspera del 1 de noviembre, día de Todos los Santos. En Cataluña, y en Barcelona, su capital, algunos celebran la fiesta del modo tradicional: se comen castañas, boniatos y
+panellets30. Otros lo celebran como en los países anglosajones, o sea como en Halloween, vestidos de monstruos, brujas y máscaras de plástico de asesinos o dráculas. Pepa, en estas cosas, es muy tradicional. Y a las siete se va a casa. Ha comprado castañas y almendras en La
+Boquería31, y quiere invitar a Armando. No tiene ganas de ver a Federico, su novio. Va a inventarse alguna excusa. «No estoy preparada todavía para hablar con él», piensa. Antes de ir a casa, pasa por el bar de Armando.
+
+−¿Qué haces esta noche, Armando? −le pregunta después de pedir una cerveza.
+
+−¿Por qué?
+
+−No, no, por nada…
+
+−Voy al aeropuerto a buscar a unos amigos, que llegaron recién 32
+de Buenos Aires.
+
+−Ah, qué bien, qué bien… −contesta Pepa. Va a comerse sola los panellets y las castañas. «Mejor sola que mal acompañada33», piensa para justificarse. Después de la cerveza se va a casa dando un paseo.
+En casa, busca una receta de panellets en internet. Siempre los compra en una pastelería, pero hoy, excepcionalmente, tiene ganas de cocinar. Y no parece tan difícil.
+
+<img src="/images/panellets-recipe.png" alt="Receta de panellets" style="max-width: 100%; height: auto; margin: 20px 0;" />
+
+Tres horas después, Pepa sigue luchando con una masa pegajosa de almendra y patata. Y unas bolitas que nunca salen redondas.
+
+−Dios, qué idea más estúpida −le dice a su gato−. ¿Qué hago yo aquí sola, haciendo unos pastelitos horribles que nadie quiere? Además, engordan mucho…
+
+Por un momento piensa en llamar a su novio. Pero no, mejor no.
+
+−¡Voy a terminar los puñeteros34 panellets!
+
+En ese momento suena el timbre. Suena varias veces.
+
+−¡Ya voy, ya voy…! ¡Pero qué pasa, joder! ¿Hay fuego en la casa? Es Armando, en pijama.
+−Pepa… Tenemos un problema.
+
+−¿Uno solo? Yo tengo muchos. Pasa, hombre, pasa… ¿ Qué coño35 haces en pijama? Muy sexy no estás…
+
+−La señora Montserrat. Vio otra vez fantasmas y me llamó.
+
+−Dios…
+
+−Vamos a su casa. Está muy nerviosa, la pobre.
+
+−Pues venga, vamos. Espera que me lavo las manos.
+
+−¿Qué hacés? ¿Vos36 cocinás? −pregunta Armando al ver el caos en la cocina.
+
+−Bueno, sí… No… A veces.
+
+Cuando están bajando la escalera, se apaga la luz. Pepa busca el botón, pero parece que no funciona.
+
+−Genial, el día de los muertos, hay fantasmas y ahora un corte de luz… −Pepa está cada vez de peor humor.
+
+−Esperá, creo que tengo un encendedor por acá. A ver… Sí.
+
+Con la luz del encendedor bajan dos pisos. Pero en el tercero, de pronto, se ven sombras.
+
+−¿Has visto eso…?− dice Pepa con un poco de miedo.
+
+Algo se mueve en el suelo. Armando no lo ve y tropieza con un bulto. El bulto se da la vuelta y tiene la cara de Chucky, el muñeco diabólico.
+
+−¡Ahhhhhhh! ¡Tío, que me has pisado la mano! Pepa, después del susto, reconoce la voz de Raúl.
+−Pero… Raúl, ¿qué coño estás haciendo aquí con esa pinta37?
+Serás gilipollas38… ¿Tú sabes el susto que…?
+
+−Es «jalogüin39», tía…
+
+−Halloween, Raúl, Halloween −dice Armando pronunciando correctamente en inglés.
+
+−Bueno, pues eso, «jalobín». Y quería hacerte una broma.
+
+−Pues qué gracioso, macho40. Pareces un niño.
+
+−¿Te vienes con unos colegas a comer castañas? Con esos pelos, tú no necesitas disfraz −se ríe Raúl.
+
+−Para fantasmas ya te tenemos a ti. Bueno, y al del señor Ramón
+−le dice Pepa.
+
+−No jodas…41 ¿Se aparece el viejo? –ahora es Raúl el que está un poco asustado.
+
+−Sí, ahora vamos a ver a la pobre mujer, que está muerta…
+
+−¿Muerta? ¿También? Yo no quiero ver muertos, ¿eh? No me gustan nada los fiambres42. Me dan mal rollo…43
+
+−Que está muerta de miedo44, idiota. De miedo.`,
         translation: ``
       },
       {
