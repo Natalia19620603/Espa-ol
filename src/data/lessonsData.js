@@ -9433,6 +9433,26 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
       {
         tab: 'Capitulo 4 - Fragmento 8',
         audioUrl: '/audio/4 8.mp3'
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 1',
+        audioUrl: '/audio/5 1.mp3'
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 2',
+        audioUrl: '/audio/5 2.mp3'
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 3',
+        audioUrl: '/audio/5 3.mp3'
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 4',
+        audioUrl: '/audio/5 4.mp3'
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 5',
+        audioUrl: '/audio/5 5.mp3'
       }
     ],
     exercises: [
