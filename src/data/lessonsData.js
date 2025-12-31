@@ -9676,7 +9676,68 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
     id: 'lesson-9-3',
     title: 'Урок 3: Fantasmas en la escalera',
     moduleId: 'module-9',
-    vocabulary: [],
+    vocabulary: [
+      {
+        tab: 'Barcelona. 28 de octubre. 10.00 h.',
+        words: []
+      },
+      {
+        tab: 'Barcelona. 28 de octubre. 10.30 h.',
+        words: []
+      },
+      {
+        tab: 'Barcelona. 28 de octubre. 12.30 h.',
+        words: []
+      },
+      {
+        tab: '30 de octubre. Por la mañana.',
+        words: []
+      },
+      {
+        tab: '30 de octubre. Por la tarde.',
+        words: []
+      },
+      {
+        tab: '30 de octubre. 19.00 h.',
+        words: []
+      },
+      {
+        tab: '31 de octubre',
+        words: []
+      },
+      {
+        tab: 'Casa de la señora Montserrat. 23.00 h.',
+        words: []
+      },
+      {
+        tab: '1 de noviembre. 00.30 h.',
+        words: []
+      },
+      {
+        tab: '1 de noviembre. 10.30 h.',
+        words: []
+      },
+      {
+        tab: '2 de noviembre. 08.00 h.',
+        words: []
+      },
+      {
+        tab: '3 de noviembre. Por la mañana.',
+        words: []
+      },
+      {
+        tab: '3 de noviembre. 16.00 h.',
+        words: []
+      },
+      {
+        tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
+        words: []
+      },
+      {
+        tab: 'Calle Bonavista. 23.00 h.',
+        words: []
+      }
+    ],
     audioTabs: [
       {
         tab: 'CAPITULO 1 - 28.10 10.00',
