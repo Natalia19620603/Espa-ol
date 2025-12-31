@@ -9886,7 +9886,12 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
-        words: []
+        words: [
+          { word: 'a las puertas', translation: 'у дверей/ворот', audioUrl: null },
+          { word: 'huir', translation: 'бежать, скрываться', audioUrl: null },
+          { word: 'refugiarse', translation: 'прятаться, укрыться', audioUrl: null },
+          { word: 'heredar', translation: 'унаследовать, получить наследство', audioUrl: null }
+        ]
       },
       {
         tab: 'Calle Bonavista. 23.00 h.',
