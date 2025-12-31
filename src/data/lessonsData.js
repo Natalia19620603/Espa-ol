@@ -9920,7 +9920,32 @@ A las diez suena el teléfono móvil de Pepa. Es Federico.
       },
       {
         tab: '30 de octubre. Por la tarde.',
-        content: ``,
+        content: `Por la tarde es el funeral del señor Ramón. Hay mucha gente en la iglesia de la plaza de la Virreina. Familia y vecinos. Pepa conoce a muchos de ellos. Naturalmente están ahí Loli y Armando.
+
+Llega la señora Montserrat con el perrito. El pomerania que parece un murciélago. Aristóteles, se llama. La señora Montserrat piensa que es muy inteligente y por eso el perro tiene ese nombre.
+
+«¿Va a la iglesia el perro?», se pregunta Pepa. Pero ve que llega Raúl. La señora Montserrat le da el perro y Raúl se pone a pasear con él por la plaza. Raúl ve a Pepa.
+
+−Ocho euros la hora −le dice Raúl.
+
+−¿Cómo?
+
+−Que ahora soy paseador de perros, tía… La señora Montserrat me paga ocho euros la hora por estar con Aristóteles.
+
+−Qué bien −dice Pepa.
+
+−Es un pomerania, ¿sabes? −dice Raúl−. Con muy mala leche23, pero de pura raza.
+
+−Sí, ya lo sé.
+
+−Ahora soy paseador de perros − vuelve a decir Raúl, orgulloso−.
+Creo que es una profesión con futuro.
+
+−¿Y ya tienes varios clientes?
+
+−No, de momento, solo Aristóteles.
+
+Pepa entra en la iglesia con Loli. Se sienta al final: no le gustan los entierros.`,
         translation: ``
       },
       {
