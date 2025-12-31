@@ -9742,7 +9742,31 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
     readingTabs: [
       {
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
-        content: ``,
+        content: `Pepa quiere irse de vacaciones. Lejos, muy lejos… ¿A África? ¿A Vietnam? ¿A Madagascar?… Estamos en octubre y no hay muchos turistas en Barcelona. Bueno, en Barcelona siempre hay turistas, pero en octubre menos. Es un buen momento para irse de vacaciones y descansar. Olvidar su taxi, la policía municipal, su casa y un novio, Federico. El último novio de Pepa se llama Federico. Solo han estado tres meses juntos, pero… No es mal chico. Es dulce y bastante guapo.
+
+¡Pero quiere casarse y tener muchos niños! No, no, no, no… «Adiós, Federico», piensa Pepa. «Es buen chico, pero… ¿vivir con Federico siempre?»
+
+−No, no, no, no… Tengo que hablar con él −se dice a sí misma, y entra en la ducha.
+
+Ahora, en la peluquería de su calle, Pepa mira un folleto de la agencia Sueños lejanos: fotos de playas del Caribe y montañas suizas, cruceros y pirámides mayas… Pero todos los viajes son muy caros. Pepa es taxista y no gana mucho dinero. Además, está pagando la licencia del taxi y el coche.
+
+La peluquería es un pequeño local que necesita urgentemente una reforma. Se llama Loli Fashion y, aunque Loli, la peluquera, no es nada fashion, sí es una buena amiga de Pepa. Son totalmente diferentes, pero se llevan bien. El único problema es que Loli siempre le quiere cambiar el look a Pepa. Y hoy Pepa está de mal humor.
+
+−¿Qué? ¿Te hago algo especial? ¿Algo diferente? ¿Super, superfashion? −pregunta Loli.
+
+−Quiero el pelo cortito, como siempre.
+
+−Pepa, qué aburrida eres, qué sosa… Mira qué cosas tan monas se llevan esta temporada… Colores, cortes especiales, alisado japonés, cosas extremas, modernas… ¿Cómo vas a ligar con este pelo?
+
+−Ya sabes: yo soy yo… Y me gusta mi pelo. Y a veces ligo. ¿Qué es eso del «alisado japonés»?
+
+−Uy, pues una maravilla… ¡Divino! ¿Ves estos rizos? Pues nada, con el alisado japonés, no queda ni un rizo. Tenemos un nuevo producto que… Tienes que hacértelo. Es fantástico.
+
+−Vale, vale, vale: alisado japonés −acepta Pepa. A Pepa no le gusta su pelo y por eso nunca lo lleva demasiado largo. Y hoy no quiere discutir con Loli.
+
+Y, sí, es verdad: necesita cambios, cosas nuevas… Y qué coño: un novio nuevo. Necesita un novio nuevo. Federico es un plomo. Muy buen chico, pero un plomo: no bebe, no fuma, no liga con otras, trabaja en un banco y se gana la vida… Pero es un plomo. ¡Y siempre lleva trajes grises!
+
+Para la primera fase, el pelo y un viaje. Una playa tropical, unas buenas novelas y… lo del novio nuevo, ya veremos.`,
         translation: ``
       },
       {
