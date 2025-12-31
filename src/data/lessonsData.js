@@ -10877,9 +10877,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-1-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-1-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-1-3'] }
         ]
       },
       {
@@ -20718,6 +20718,77 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Сад между двумя домами.', correct: 'El jardín está entre dos casas.' },
       { russian: 'Собака слева от дерева.', correct: 'El perro está a la izquierda del árbol.' },
       { russian: 'Школа позади музея.', correct: 'La escuela está detrás del museo.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 1: Barcelona. 28 de octubre. 10.00 h.
+  'ex-9-3-1-1': {
+    id: 'ex-9-3-1-1',
+    type: 'fillblank',
+    title: 'Понимание текста: Barcelona. 28 de octubre. 10.00 h.',
+    description: 'Заполните пропуски словами из текста. Слова для изучения: irse, vacaciones, folleto, cruceros, licencia, local, reforma, llevarse bien, soso/a, mono/a, corte, ligar',
+    questions: [
+      { sentence: 'Pepa quiere _____ de vacaciones muy lejos', correct: 'irse' },
+      { sentence: 'Es un buen momento para _____ y descansar', correct: 'irse de vacaciones' },
+      { sentence: 'El último _____ de Pepa se llama Federico', correct: 'novio' },
+      { sentence: 'Federico es dulce y bastante _____', correct: 'guapo' },
+      { sentence: 'Pepa mira un _____ de la agencia Sueños lejanos', correct: 'folleto' },
+      { sentence: 'El folleto tiene fotos de _____ y pirámides mayas', correct: 'cruceros' },
+      { sentence: 'Pepa está pagando la _____ del taxi', correct: 'licencia' },
+      { sentence: 'La peluquería es un pequeño _____ que necesita reforma', correct: 'local' },
+      { sentence: 'El local necesita urgentemente una _____', correct: 'reforma' },
+      { sentence: 'Pepa y Loli son diferentes pero se _____ bien', correct: 'llevan' },
+      { sentence: 'Loli pregunta: "¿Cómo vas a _____ con este pelo?"', correct: 'ligar' },
+      { sentence: 'Pepa piensa que Federico es un _____', correct: 'plomo' },
+      { sentence: 'Pepa dice que es _____: qué aburrida', correct: 'sosa' },
+      { sentence: 'Loli habla de cosas _____ que se llevan esta temporada', correct: 'monas' },
+      { sentence: 'Loli pregunta qué tipo de _____ quiere Pepa', correct: 'corte' }
+    ]
+  },
+  'ex-9-3-1-2': {
+    id: 'ex-9-3-1-2',
+    type: 'fillblank',
+    title: 'Грамматика: Verbos reflexivos y expresiones',
+    description: 'Заполните пропуски правильной формой глагола. Слова для изучения: irse, llamarse, decirse, llevarse, hacerse, gustarse, verse, quedarse, casarse, olvidarse',
+    questions: [
+      { sentence: 'Pepa quiere _____ (irse) de vacaciones', correct: 'irse' },
+      { sentence: 'El último novio _____ (llamarse) Federico', correct: 'se llama' },
+      { sentence: 'Pepa _____ (decirse) a sí misma: "Tengo que hablar con él"', correct: 'se dice' },
+      { sentence: 'Pepa y Loli _____ (llevarse) bien', correct: 'se llevan' },
+      { sentence: 'Loli pregunta: "¿Te _____ (hacer) algo especial?"', correct: 'hago' },
+      { sentence: 'A Pepa le _____ (gustar) su pelo', correct: 'gusta' },
+      { sentence: 'Pepa no _____ (querer) discutir con Loli', correct: 'quiere' },
+      { sentence: 'Federico _____ (querer) casarse y tener niños', correct: 'quiere' },
+      { sentence: 'Pepa _____ (pensar): "Adiós, Federico"', correct: 'piensa' },
+      { sentence: 'Pepa _____ (estar) pagando la licencia del taxi', correct: 'está' },
+      { sentence: 'Los viajes _____ (ser) muy caros', correct: 'son' },
+      { sentence: 'Pepa _____ (mirar) un folleto en la peluquería', correct: 'mira' },
+      { sentence: 'Loli siempre le _____ (querer) cambiar el look a Pepa', correct: 'quiere' },
+      { sentence: 'Pepa _____ (entrar) en la ducha', correct: 'entra' },
+      { sentence: 'Loli _____ (preguntar): "¿Qué te hago?"', correct: 'pregunta' }
+    ]
+  },
+  'ex-9-3-1-3': {
+    id: 'ex-9-3-1-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Пепа хочет уехать в отпуск.', correct: 'Pepa quiere irse de vacaciones.' },
+      { russian: 'Последнего парня зовут Федерико.', correct: 'El último novio se llama Federico.' },
+      { russian: 'Они были вместе три месяца.', correct: 'Han estado tres meses juntos.' },
+      { russian: 'Он неплохой парень, но...', correct: 'No es mal chico, pero...' },
+      { russian: 'Пепа смотрит на брошюру агентства.', correct: 'Pepa mira un folleto de la agencia.' },
+      { russian: 'Все поездки очень дорогие.', correct: 'Todos los viajes son muy caros.' },
+      { russian: 'Пепа — таксистка и не зарабатывает много денег.', correct: 'Pepa es taxista y no gana mucho dinero.' },
+      { russian: 'Она платит за лицензию такси.', correct: 'Está pagando la licencia del taxi.' },
+      { russian: 'Парикмахерская — маленькое помещение.', correct: 'La peluquería es un pequeño local.' },
+      { russian: 'Помещение срочно нуждается в ремонте.', correct: 'El local necesita urgentemente una reforma.' },
+      { russian: 'Они совершенно разные, но хорошо ладят.', correct: 'Son totalmente diferentes, pero se llevan bien.' },
+      { russian: 'Сегодня Пепа в плохом настроении.', correct: 'Hoy Pepa está de mal humor.' },
+      { russian: 'Какая ты скучная, какая пресная...', correct: 'Qué aburrida eres, qué sosa...' },
+      { russian: 'Как ты будешь флиртовать с такой прической?', correct: '¿Cómo vas a ligar con este pelo?' },
+      { russian: 'Федерико — зануда, но очень хороший парень.', correct: 'Federico es un plomo, pero muy buen chico.' }
     ]
   }
 }
