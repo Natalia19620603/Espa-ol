@@ -10561,6 +10561,168 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
 
 «¡Qué pena! ¡Con lo guapo que es…!», piensa Pepa mirando por última vez a Ariel.`,
         translation: ``
+      },
+      {
+        tab: 'NOTAS EXPLICATIVAS',
+        content: `Notas explicativas
+
+  Palabra o expresión vulgar.
+  Palabra o expresión coloquial.
+
+1. Licencia. El número de taxis en España está controlado por cada ayuntamiento. Las licencias de taxi se traspasan y valen mucho dinero.
+
+2. Fashion. Palabra de origen inglés que se usa para decir «moderno».
+
+3. Look. Palabra de origen inglés que se usa para decir «imagen».
+
+4. Ligar. Empezar una relación amorosa o sexual pasajera.
+
+5. Y qué coño. En este contexto, siginifica «¿Por qué no?»
+
+6. Ser un plomo. Ser aburrido, pesado. Se aplica a personas.
+
+7. Tía. mujer, chica.
+
+8. Gracia. Barrio de Barcelona donde vive Pepa.
+
+9. Que en paz descanse. Fórmula tradicional para referirse a una persona muerta.
+
+10. Joder, qué fuerte. expresión de sorpresa ante algo desagradable. «Joder» es una exclamación muy frecuente con muchos valores: sorpresa, enfado, impaciencia, etc.
+
+11. No somos nada. Lugar común que se emplea ante una muerte, una enfermedad o una desgracia.
+
+12. Linda. guapa. Es frecuente en el español de Latinoamérica.
+
+13. Decís. En algunas zonas de Hispanoamérica, como Argentina, la segunda persona del singular del Presente de Indicativo tiene unas formas particulares.
+
+14. Sos. «Eres», en Argentina y algunas zonas de Hispanoamérica.
+
+15. Acento porteño. Acento de Buenos Aires.
+
+16. Chungo. Malo.
+
+17. Alcalá Meco. Prisión española situada en la Comunidad Autónoma de Madrid.
+
+18. Talego. Cárcel o prisión.
+
+19. Camello. Persona que vende droga directamente a los consumidores.
+
+20. Ser un tarado. Ser un estúpido; muy usado en Argentina y Uruguay.
+
+21. Palmar. Morirse.
+
+22. Movida. Situación, lío, problema.
+
+23. (Tener) mala leche. Ser agresivo, tener mal carácter.
+
+24. (Vagar) como un alma en pena. Como un muerto entre los vivos, como un alma del purgatorio.
+
+25. Cabrón. Insulto muy usual.
+
+26. (Ser un) fantasma. Persona poco seria, poco fiable.
+
+27. Carajillo de Torres. El carajillo es café con coñac o anís. Es una bebida muy popular en España, que se toma después de comer, o incluso por la mañana. Torres es una marca de coñac.
+
+28. Y dale con… Se usa para rechazar la insistencia de alguien. Aquí, la Señora Montserrat no quiere una interpretación «psicológica» de su problema.
+
+29. Barça. Fútbol Club Barcelona. Equipo de fútbol de esta ciudad.
+
+30. Castañas, boniatos y panellets. Productos que se toman tradicionalmente el día de Todos los Santos en Cataluña. La castañas y los boniatos (un tipo de patata dulce) se asan. Los panellets son unos pastelitos de almendra, muy parecidos a los del norte de África.
+
+31. La Boquería. Es un gran mercado de comida situado en La Rambla.
+
+32. Llegaron recién. «Acaban de llegar» en variante argentina.
+
+33. Mejor solo/a que mal acompañado/a. Refrán español.
+
+34. Puñetero/a/os/as… Calificativo que se une a algo que no nos gusta o que nos molesta. Aquí Pepa está harta de preparar los panellets.
+
+35. ¿Qué coño…? Expresión muy usual que puede combinarse con muchas preguntas, por ejemplo, «¿Qué coño dices/haces/quieres…?» Manifiesta sorpresa, enfado, impaciencia, etc.
+
+36. Vos. Forma usada en Argentina y en otros lugares de Hispanoamérica para decir «tú».
+
+37. Pinta. Aspecto.
+
+38. Gilipollas. Insulto muy corriente que significa «estúpido».
+
+39. Jalogüin. Raúl, como muchos españoles, pronuncia muy mal el inglés. Quiere decir Halloween.
+
+40. Macho. Vocativo frecuente para dirigise a un hombre.
+
+41. No jodas. Aquí, expresión para manifestar sorpresa.
+
+42. Fiambres. Cadáveres. El fiambre es carne o pescado preparado para comer frío.
+
+43. (Dar) mal rollo. No gustar, dar miedo.
+
+44. (Estar) muerto/a de miedo. Tener mucho miedo.
+
+45. Rico, rico. Dicho de la comida, significa que está sabrosa. Expresión muy difundida en España por un cocinero muy popular que aparece en la televisión.
+
+46. La pasma. La policía.
+
+47. (Dar) yuyu. Dar miedo, muchas veces relacionado con la muerte o algo paranormal.
+
+48. Tan ricamente. Tan a gusto.
+
+49. Me abro. Me voy.
+
+50. La Vanguardia. Periódico editado en Barcelona.
+
+51. Tío/a bueno/a. Se aplica a alguien guapo, con buen tipo.
+
+52. Diagonal. La avenida Diagonal es una de las calles más largas de Barcelona. Allí se encuentran muchas oficinas, bancos, comercios, etc.
+
+53. Ensanche. Parte del centro de Barcelona construida a finales del siglo XIX y principios del XX.
+
+54. Bebo Valdés. Pianista de jazz cubano.
+
+55. Le suena. Cree recordarlo.
+
+56. Numerito. Despectivamente, show, espectáculo.
+
+57. Horario europeo. En España, respecto a los otros países europeos, se come más tarde, se empieza y se sale del trabajo más tarde, etc. Aquí es irónico.
+
+58. Ni leches. Expresión usada para enfatizar una frase negativa.
+
+59. Qué nochecita hemos pasado. Qué mala noche hemos pasado.
+
+60. Dejar helado/a (a alguien, algo). Causar una gran sorpresa.
+
+61. Qué guay. Expresión infantil o juvenil. Equivale a «qué bueno/a» o a «qué bien».
+
+62. Mili. Abreviatura frecuente de «servicio militar».
+
+63. No la líes más. No compliques más la situación.
+
+64. Monísimo. Superlativo de «mono». Bonito. Es una expresión más usada por las mujeres que por los hombres.
+
+65. Poli. Abreviación frecuente de «policía».
+
+66. Asado argentino. En Argentina hay una carne de gran calidad; la carne asada al fuego es uno de los platos más típicos de este país.
+
+67. No ganar un duro. No ganar nada de dinero.
+
+68. Currar. Trabajar.
+
+69. Barceloneta. Es el antiguo barrio de pescadores de Barcelona. Está entre el puerto y la playa y hay muchos restaurantes especializados en pescado, mariscos y paellas.
+
+70. Arroz caldoso. En España existen muchas maneras de preparar arroz. En las paellas el arroz se sirve seco y en los arroces caldosos con caldo.
+
+71. Algo le huele mal. Algo le parece poco claro, sospechoso.
+
+72. Entresuelo. En muchos edificios de viviendas, el primer nivel, entre la planta baja y el primer piso, se llama entresuelo.
+
+73. Republicana. En la Guerra Civil español se enfrentan los republicanos, que defienden la República frente a los nacionales, que apoyan el levantamiento militar del General Franco. Muchos de los republicanos, como la familia de la Sra. Montserrat, tuvieron que exiliarse.
+
+74. Vale. De acuerdo.
+
+75. Es lo mío. Expresión para referirse a un tema o habilidad que uno domina o que a uno le gusta especialmente.
+
+76. Che. Vocativo muy usado en Argentina y otras zonas de Hispanoamérica.
+
+77. Mossos. Los Mossos d'Esquadra son la policía autonómica catalana.`,
+        translation: ``
       }
     ],
     exercises: []
