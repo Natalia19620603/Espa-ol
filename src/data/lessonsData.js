@@ -9680,63 +9680,63 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
     audioTabs: [
       {
         tab: 'CAPITULO 1 - 28.10 10.00',
-        audioUrl: '/audio/9-3-capitulo-1.mp3'
+        audioUrl: '/audio/9-3-1.mp3'
       },
       {
         tab: 'CAPITULO 2 - 28.10 10.30',
-        audioUrl: '/audio/9-3-capitulo-2.mp3'
+        audioUrl: '/audio/9-3-2.mp3'
       },
       {
         tab: 'CAPITULO 3 - 28.10 12.30',
-        audioUrl: '/audio/9-3-capitulo-3.mp3'
+        audioUrl: '/audio/9-3-3.mp3'
       },
       {
         tab: 'Capitulo 4 - 30.20 por la mañana',
-        audioUrl: '/audio/9-3-capitulo-4.mp3'
+        audioUrl: '/audio/9-3-4.mp3'
       },
       {
         tab: 'CAPITULO 5 - 30.10 por la tarde',
-        audioUrl: '/audio/9-3-capitulo-5.mp3'
+        audioUrl: '/audio/9-3-5.mp3'
       },
       {
         tab: 'CAPITULO 6 - 30.10 19.00',
-        audioUrl: '/audio/9-3-capitulo-6.mp3'
+        audioUrl: '/audio/9-3-6.mp3'
       },
       {
         tab: 'CAPITULO 7 - 31.10',
-        audioUrl: '/audio/9-3-capitulo-7.mp3'
+        audioUrl: '/audio/9-3-7.mp3'
       },
       {
         tab: 'CAPITULO 8 - Casa Monserrat 23.00',
-        audioUrl: '/audio/9-3-capitulo-8.mp3'
+        audioUrl: '/audio/9-3-8.mp3'
       },
       {
         tab: 'CAPITULO 9 - 01.11 00.30',
-        audioUrl: '/audio/9-3-capitulo-9.mp3'
+        audioUrl: '/audio/9-3-9.mp3'
       },
       {
         tab: 'CAPITULO 10 - 01.11 10.30',
-        audioUrl: '/audio/9-3-capitulo-10.mp3'
+        audioUrl: '/audio/9-3-10.mp3'
       },
       {
         tab: 'CAPITULO 11 - 02.11 08.00',
-        audioUrl: '/audio/9-3-capitulo-11.mp3'
+        audioUrl: '/audio/9-3-11.mp3'
       },
       {
         tab: 'CAPITULO 12 - 03.11 por la mañana',
-        audioUrl: '/audio/9-3-capitulo-12.mp3'
+        audioUrl: '/audio/9-3-12.mp3'
       },
       {
         tab: 'CAPITULO 13 - 03.11 16.00',
-        audioUrl: '/audio/9-3-capitulo-13.mp3'
+        audioUrl: '/audio/9-3-13.mp3'
       },
       {
         tab: 'CAPITULO 14 - 03.11 19.00',
-        audioUrl: '/audio/9-3-capitulo-14.mp3'
+        audioUrl: '/audio/9-3-14.mp3'
       },
       {
         tab: 'CAPITULO 15 - Calle Bonavista 23.00',
-        audioUrl: '/audio/9-3-capitulo-15.mp3'
+        audioUrl: '/audio/9-3-15.mp3'
       }
     ],
     readingText: {
