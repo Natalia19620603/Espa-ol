@@ -9811,7 +9811,11 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: '1 de noviembre. 00.30 h.',
-        words: []
+        words: [
+          { word: 'el tocadiscos', translation: 'проигрыватель дисков', audioUrl: null },
+          { word: 'el gilipollas', translation: 'придурок, мудак', audioUrl: null },
+          { word: 'el mando a distancia', translation: 'пульт дистанционного управления', audioUrl: null }
+        ]
       },
       {
         tab: '1 de noviembre. 10.30 h.',
@@ -20801,7 +20805,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Парикмахер спрашивает Пепу, как она собирается флиртовать с парнями с такой ужасной прической.', correct: 'La peluquera le pregunta a Pepa cómo va a ligar con los chicos con ese pelo tan horrible.' },
       { russian: 'Федерико хочет жениться и завести детей, но для Пепы он — настоящий зануда, хотя и хороший человек.', correct: 'Federico quiere casarse y tener hijos, pero para Pepa es un auténtico plomo, aunque sea buena persona.' },
       { russian: 'Пепа говорит себе, что это хороший момент, чтобы уехать и начать новую жизнь без всех этих проблем.', correct: 'Pepa se dice a sí misma que es un buen momento para irse y empezar una nueva vida sin todos estos problemas.' },
-      { russian: 'Когда Пепа входит в душ парикмахерской, Лоли начинает говорить о модных вещах этого сезона.', correct: 'Cuando Pepa entra en la ducha de la peluquería, Loli empieza a hablar de las cosas monas de esta temporada.' },
+      { russian: 'Когда Пепа садится в кресло парикмахерской, Лоли начинает говорить о модных вещах этого сезона.', correct: 'Cuando Pepa se sienta en el sillón de la peluquería, Loli empieza a hablar de las cosas monas de esta temporada.' },
       { russian: 'Пепе на самом деле нравится её собственный стиль, и она не хочет, чтобы Лоли её меняла.', correct: 'A Pepa en realidad le gusta su propio estilo y no quiere que Loli la cambie.' }
     ]
   }
