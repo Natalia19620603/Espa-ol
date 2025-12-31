@@ -10197,7 +10197,11 @@ Armando, tras el primer susto, reconoce la cola de Aristóteles debajo de la cap
       },
       {
         tab: '1 de noviembre. 00.30 h.',
-        content: ``,
+        content: `La verdad es que Pepa está un poco nerviosa. No cree en fantasmas, pero ha sido una noche muy extraña. Da vueltas en el sofá-cama que la señora Montserrat le ha preparado. Pero no puede dormir, y se levanta. Va al salón y se sirve una copita de vino moscatel.
+
+El tema de la música misteriosa le interesa. Sin hacer ruido, entra en el despacho del señor Ramón. Hay un tocadiscos, pero no hay ningún disco. Mira un poco por toda la habitación. «¿Qué buscas, gilipollas?», se pregunta a sí misma. Pero siente que en esa habitación hay algo. Un misterio que ella puede explicar. Y de pronto lo ve: un pequeño aparato encima de un cuadro. Es realmente muy pequeño. Un reproductor de mp3 o algo parecido.
+
+«Algo muy pequeño, pero que suena muy alto y que seguramente va con un mando a distancia», piensa Pepa. «¿Quién ha puesto esto aquí?». Y entonces piensa en los hombres del taxi. Y en lo que han dicho en el taxi: «El problema es la vieja del primero.» Pepa lo recuerda claramente.`,
         translation: ``
       },
       {
