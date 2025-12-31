@@ -10257,7 +10257,108 @@ Ariel se toma un café y los tres comentan los misterios de la casa. La señora 
       },
       {
         tab: '2 de noviembre. 08.00 h.',
-        content: ``,
+        content: `Un ejecutivo estresado, que habla constantemente con el móvil, coge el taxi en la Diagonal52.
+−Muntaner, 367.
+
+No dice «hola», ni «buenos días». «Otro que piensa que el taxi es solo un coche. Hoy el tráfico está fatal. Claro, después de un día de fiesta…», piensa Pepa mientras conduce lentamente a través del Ensanche53. Hace buen tiempo, el cielo está azul, y escucha buena música: el piano maravilloso de Bebo Valdés54. Se siente bien.
+−Doce euros −dice Pepa cuando llegan al destino.
+
+El cliente paga sin decir nada. No dice adiós y baja con el móvil pegado a la oreja.
+
+Pepa pone la señal de «libre» y baja por la calle Muntaner. A pocos metros, un hombre para el taxi.
+
+−A la calle Bonavista, en Gracia.
+
+−Sí, conozco esa calle.
+
+«Mira, me lleva a mi casa», piensa Pepa, divertida. La cara del pasajero le suena55. «¿Quién es? ¿Lo conozco?», se pregunta. «¡Síiiiiii, claro…! ¡Es uno de los hombres que quieren comprar el piso de la señora Montserrat!» El hombre hace una llamada y Pepa escucha con mucha atención.
+
+−¿Bernardo? Sí, mira… Voy a Gracia. Sí, eso. A preparar el siguiente numerito56. A ver qué dice ahora la vieja.
+«¿El siguiente numerito? ¿La vieja?… ¿Qué significa todo esto?», se pregunta Pepa mientras observa al hombre por el retrovisor. Está preparando algo: en las manos tiene una pequeña maleta negra y saca un
+
+bigote, unas gafas, una pipa…
+
+En unos minutos están frente al portal de Pepa. Pepa deja al pasajero y aparca en un lugar prohibido. No importa. Ahora lo más importante es seguir al hombre de la maleta. Este ha entrado en el portal, y Pepa entra también. No ve a nadie, pero oye ruidos en el cuarto de los contadores, una pequeña habitación al lado del ascensor. «¿Es el hombre de la maleta negra?» Pepa se esconde detrás de los cubos de basura. Se abre la puerta del cuartito y sale… ¡¡¡El señor Ramón!!! Bueno, no, el doble del señor Ramón. Con sus gafas, su bigote blanco, su pipa… Pepa empieza a entenderlo todo.
+
+El hombre empieza a subir. No ha visto a Pepa. Pepa busca su móvil y llama a sus amigos.
+
+−¡Raúl, rápido, ven a mi casa, al portal!
+
+−Tía, qué pasa. ¡Qué prisas! Estoy aquí, en el bar, con unos colegas tomando el aperitivo. Unas cañas, unas tapitas…
+
+−¿El aperitivo? Que son las doce… Es muy pronto para el aperitivo.
+
+−Es que yo hago horario europeo57.
+
+−¡Ni horario europeo ni leches58! −dice Pepa, nerviosa, intentando no gritar−. Ven ahora mismo. Es un asunto de vida o muerte.
+
+−Sí, hombre, encima. No quiero hablar de muertos. Y menos en tu casa. ¡Qué nochecita hemos pasado!59 Menudo «jalobín».
+−Halloween… Se dice Halloween. Bueno, no importa. Te espero.
+Ahora. Y pasa a buscar a Armando.
+
+A Pepa se le ocurre un plan. ¿Quieren sustos? Pues los van a tener. Suben rápido por las escaleras hasta su casa, al ático. La masa de los panellets sigue en la mesa de la cocina. La motosierra de broma de Raúl
+
+y la máscara de Chucky también. Se pone masa de panellets por la cabeza. Con el pelo tieso el efecto es terrorífico. Baja las escaleras hasta el primero. Hay suerte, la puerta no está cerrada. Aparece Aristóteles, que mueve la cola al reconocer a Pepa. Pepa entra y avanza lentamente por el pasillo. Quiere asustar al falso fantasma. Pero lo que le espera en
+el salón la deja helada60: ¡el falso señor Ramón y la señora Montserrat están hablando tranquilamente!
+
+−Entonces… ¿café o té? –pregunta ella−. Ya sabes que a esta hora el café te sienta mal… Tomas demasiado café. De acuerdo, los fantasmas seguramente no tienen problemas de estómago. Pero tanto café no es bueno. Ni para los fantasmas.
+
+El falso señor Ramón no dice nada. ¿Los fantasmas no hablan? Pepa decide actuar. Entra en el salón y pega un grito aterrador. En ese momento llegan Armando y Raúl. Y también gritan al ver a la Pepa- Chucky y al señor Ramón. O a su fantasma. El falso señor Ramón cae al suelo. Montserrat, ha empezado a sacar platos de un mueble y se los tira a la Pepa-Chucky.
+
+−Señora Montserrat, soy yo, Pepa –dice intentando sacarse la máscara. Pero la máscara se ha pegado con la masa de almendra y no es fácil.
+
+Aristóteles muerde ferozmente la pierna de Raúl y este también grita. Los dos gemelos del tercero también han bajado.
+
+−¡Qué guay61! ¡Qué divertido! −dicen, y se sientan felices en el sofá a ver el espectáculo.
+
+Por fin todo el mundo se calma un poco. El hombre de la maleta sigue en el suelo.
+
+−Llamo a una ambulancia −dice Armando.
+
+−Yo sé hacer masaje cardíaco −dice Raúl−. Aprendí en la mili62.
+
+−No, deja, deja… No la líes más63. Que lo rematas. ¿Respira?
+−pregunta Pepa.
+
+Ya se oye cerca la sirena de la ambulancia y la de un coche de policía. Alguien de la calle ha llamado a la policía. Loli ha escuchado los gritos y también llega al piso.
+
+−Pero Pepa, ¿qué te has hecho en el pelo? Yo te he hecho un alisado monísimo64. Es que no te cuidas nada, siempre te lo digo…
+−Loli, vamos a dejarlo, ¿eh? No es el momento.
+
+Han llegado un médico y dos enfermeros. El médico se ocupa del falso señor Ramón.
+
+−Señora, no es grave −le dice el médico a la señora Montserrat−. Su marido se ha desmayado… ¿Tiene problemas del corazón? ¿Toma algún medicamento?
+
+−Sí, no, sí… Bueno, doctor, es que… No sé si es mi marido,
+¿sabe? Pero… ¿está vivo? ¿Seguro, seguro…? Usted puede saber si es mi marido, ¿no? Como en la tele, digo, con el ADN y esas cosas. Bueno, claro que a lo mejor los fantasmas no tienen ADN… Como están muertos…
+
+Como siempre, la señora Montserrat habla y habla y habla. Ella pregunta, ella responde. El médico no entiende nada. Nadie entiende nada.
+
+Mientras, un policía interroga a Raúl.
+
+−¿Dice usted que es un «cazafantasmas»…? −pregunta el policía.
+Tampoco entiende nada.
+
+−Sí, señor, exactamente. En esta casa hay fantasmas. Bueno, ahora ya no. Porque… lo hemos cazado.
+
+El policía tampoco entiende nada. Pero Raúl se siente como un superhéroe. «Sí, definitivamente, cazafantasmas es mejor profesión que paseador de perros», piensa.
+
+Mientras, Pepa se lo explica todo a la señora Montserrat y a Armando.
+
+−Pues qué pena… −dice la señora Montserrat−. He estado hablando con el fantasma, y parece simpático. No es Ramón, pero…
+
+En medio de este lío, aparece Ariel, el sobrino guapo de la señora Montserrat. Pepa lo ve entrar y, automáticamente, se toca la cabeza…
+«¡Y yo con estos pelos!», piensa. «Después de esto no me invita a cenar. Seguro.»
+
+También le explica la historia a Ariel: Pepa ha encontrado al hombre, lo ha visto disfrazarse en la escalera y lo ha seguido. Después… Todo se ha complicado un poco.
+
+Armando le dice a Pepa, cuando están ya más tranquilos:
+
+−Pepa tenés que ducharte… Ariel tiene que hablar con la poli65. Y después, ¿por qué no vienen todos ustedes al bar? Tengo un asado argentino66 buenísimo en la parrilla.
+
+−Ok. ¿Todo el mundo de acuerdo? Nos vemos en el bar de Armando dentro de una hora −dice Pepa.
+
+Todos aceptan encantados. Un buen asado y unos vinos argentinos ahuyentan a todos los fantasmas.`,
         translation: ``
       },
       {
