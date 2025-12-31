@@ -10904,9 +10904,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: 'Barcelona. 28 de octubre. 10.30 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-2-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-2-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-2-3'] }
         ]
       },
       {
@@ -20807,6 +20807,77 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Пепа говорит себе, что это хороший момент, чтобы уехать и начать новую жизнь без всех этих проблем.', correct: 'Pepa se dice a sí misma que es un buen momento para irse y empezar una nueva vida sin todos estos problemas.' },
       { russian: 'Когда Пепа садится в кресло парикмахерской, Лоли начинает говорить о модных вещах этого сезона.', correct: 'Cuando Pepa se sienta en el sillón de la peluquería, Loli empieza a hablar de las cosas monas de esta temporada.' },
       { russian: 'Пепе на самом деле нравится её собственный стиль, и она не хочет, чтобы Лоли её меняла.', correct: 'A Pepa en realidad le gusta su propio estilo y no quiere que Loli la cambie.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 2: Barcelona. 28 de octubre. 10.30 h.
+  'ex-9-3-2-1': {
+    id: 'ex-9-3-2-1',
+    type: 'fillblank',
+    title: 'Понимание текста: Barcelona. 28 de octubre. 10.30 h.',
+    description: 'Заполните пропуски словами из списка:\n\napestar • distribuir • asomarse • portera • impaciente • en paz descanse • suspirar • de repente • divino • escepticismo • ambulancia • auténtico • alien • teatrera • supermaquillada',
+    questions: [
+      { sentence: 'El alisado japonés es _____, según Loli', correct: 'divino' },
+      { sentence: 'La crema blanca _____ a amoniaco', correct: 'apesta' },
+      { sentence: 'Loli _____ el producto mágico en la cabeza de Pepa', correct: 'distribuye' },
+      { sentence: 'Pepa se mira con _____ en el espejo', correct: 'escepticismo' },
+      { sentence: 'De pronto, se oye una _____', correct: 'ambulancia' },
+      { sentence: 'Las peluquerías de barrio son _____ oficinas de la CIA', correct: 'auténticas' },
+      { sentence: 'Pepa se levanta y se _____ a la puerta', correct: 'asoma' },
+      { sentence: 'Parece un _____ con su capa de plástico', correct: 'alien' },
+      { sentence: 'Loli habla con la _____ del edificio', correct: 'portera' },
+      { sentence: 'Loli es muy _____, siempre dramatiza todo', correct: 'teatrera' },
+      { sentence: 'Pepa pregunta _____ qué pasa', correct: 'impaciente' },
+      { sentence: 'El señor Ramón murió, que _____ dice Loli', correct: 'en paz descanse' },
+      { sentence: 'Loli _____ dramáticamente', correct: 'suspira' },
+      { sentence: 'Llegamos al mundo y _____, ya no estamos', correct: 'de repente' },
+      { sentence: 'Loli tiene la cara _____', correct: 'supermaquillada' }
+    ]
+  },
+  'ex-9-3-2-2': {
+    id: 'ex-9-3-2-2',
+    type: 'fillblank',
+    title: 'Грамматика: Imperativo y tiempos del pasado',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Imperativo (afirmativo/negativo), Pretérito Perfecto, Indefinido o Imperfecto.\n\nGlагол в скобках дан в инфинитиве - выберите правильную форму!\n\nponer • observar • funcionar • salir • oírse • asomarse • regresar • parecer • encontrar • vivir • llevar • conocer • venir • quitar • faltar',
+    questions: [
+      { sentence: 'Loli le _____ (poner) en la cabeza una crema blanca', correct: 'pone' },
+      { sentence: 'Pepa _____ (observar) pacientemente cómo su amiga distribuye el producto', correct: 'observa' },
+      { sentence: '¿Seguro que esto _____ (funcionar)?', correct: 'funciona' },
+      { sentence: 'De pronto, _____ (oírse) una ambulancia', correct: 'se oyó' },
+      { sentence: 'Loli _____ (salir) a la puerta de la peluquería', correct: 'salió' },
+      { sentence: '¡_____ (asomarse - tú) a la ventana! - dice Loli a su clienta', correct: 'Asómate' },
+      { sentence: 'Loli _____ (regresar) con cara de tragedia', correct: 'regresó' },
+      { sentence: 'Esta vez _____ (parecer) que va en serio', correct: 'parece' },
+      { sentence: 'La señora Montserrat lo _____ (encontrar) muerto en la cama', correct: 'ha encontrado' },
+      { sentence: 'Ellos _____ (vivir) en el primero del edificio', correct: 'viven' },
+      { sentence: 'Pepa lo _____ (llevar) muchas veces en el taxi', correct: 'ha llevado' },
+      { sentence: '¿Tú los _____ (conocer) mucho? - pregunta Pepa', correct: 'conoces' },
+      { sentence: 'Ella _____ (venir) dos veces por semana a la peluquería', correct: 'viene' },
+      { sentence: '¡_____ (quitar - tú) esto de la cabeza, por favor!', correct: 'Quita' },
+      { sentence: '_____ (faltar) dos minutos y medio para terminar el tratamiento', correct: 'Faltan' }
+    ]
+  },
+  'ex-9-3-2-3': {
+    id: 'ex-9-3-2-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Лоли наносит Пепе на голову белый крем, который ужасно воняет аммиаком.', correct: 'Loli le pone a Pepa en la cabeza una crema blanca que apesta a amoniaco.' },
+      { russian: 'Пепа терпеливо наблюдает, как её подруга распределяет волшебный продукт по всей голове.', correct: 'Pepa observa pacientemente cómo su amiga distribuye el producto mágico por toda la cabeza.' },
+      { russian: 'Пепа смотрит на себя в зеркало со скептицизмом и задается вопросом, зачем ей это нужно.', correct: 'Pepa se mira en el espejo con escepticismo y se pregunta para qué lo necesita.' },
+      { russian: 'Внезапно перед парикмахерской останавливается машина скорой помощи, и Лоли выходит узнать, что случилось.', correct: 'De repente para una ambulancia frente a la peluquería y Loli sale a averiguar qué ha pasado.' },
+      { russian: 'Все знают, что районные парикмахерские — это настоящие офисы ЦРУ, где узнают все новости.', correct: 'Todo el mundo sabe que las peluquerías de barrio son auténticas oficinas de la CIA donde se enteran de todas las noticias.' },
+      { russian: 'Пепа, с головой полной японского крема, встает и высовывается к двери парикмахерской.', correct: 'Pepa, con la cabeza llena de crema japonesa, se levanta y se asoma a la puerta de la peluquería.' },
+      { russian: 'С пластиковой накидкой и кремом на голове она выглядит как настоящий инопланетянин.', correct: 'Con su capa de plástico y la crema en la cabeza parece un auténtico alien.' },
+      { russian: 'Лоли разговаривает с консьержкой соседнего здания, того самого, в котором живет Пепа.', correct: 'Loli habla con la portera del edificio de al lado, el mismo en el que vive Pepa.' },
+      { russian: 'Лоли возвращается с трагическим лицом, и на этот раз кажется, что дело серьезное.', correct: 'Loli regresa con cara de tragedia, y esta vez parece que va en serio.' },
+      { russian: 'Сеньора Монсеррат нашла своего мужа, сеньора Рамона, мертвым в постели этим утром.', correct: 'La señora Montserrat ha encontrado a su marido, el señor Ramón, muerto en la cama esta mañana.' },
+      { russian: 'Пепа много раз возила его на такси к врачу, потому что они живут в одном доме.', correct: 'Pepa lo ha llevado muchas veces en el taxi al médico porque viven en el mismo edificio.' },
+      { russian: 'Лоли говорит, что на этот раз его забрал Бог, и вздыхает как звезда американского кино.', correct: 'Loli dice que esta vez se lo ha llevado Dios y suspira como una estrella del cine americano.' },
+      { russian: 'Она была очень хорошей клиенткой парикмахерской и приходила два раза в неделю красить волосы.', correct: 'Ella era muy buena clienta de la peluquería y venía dos veces por semana a teñirse el pelo.' },
+      { russian: 'Лоли драматично смотрит на часы и отвечает, что осталось всего два с половиной минуты.', correct: 'Loli mira dramáticamente el reloj y responde que faltan solo dos minutos y medio.' },
+      { russian: 'Нетерпеливая Пепа просит подругу немедленно снять этот крем с головы, потому что ей очень неудобно.', correct: 'Pepa impaciente le pide a su amiga que le quite inmediatamente esta crema de la cabeza porque está muy incómoda.' }
     ]
   }
 }
