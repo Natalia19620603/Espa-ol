@@ -10197,12 +10197,62 @@ Armando, tras el primer susto, reconoce la cola de Aristóteles debajo de la cap
       },
       {
         tab: '1 de noviembre. 00.30 h.',
-        content: ``,
+        content: `La verdad es que Pepa está un poco nerviosa. No cree en fantasmas, pero ha sido una noche muy extraña. Da vueltas en el sofá-cama que la señora Montserrat le ha preparado. Pero no puede dormir, y se levanta. Va al salón y se sirve una copita de vino moscatel.
+
+El tema de la música misteriosa le interesa. Sin hacer ruido, entra en el despacho del señor Ramón. Hay un tocadiscos, pero no hay ningún disco. Mira un poco por toda la habitación. «¿Qué buscas, gilipollas?», se pregunta a sí misma. Pero siente que en esa habitación hay algo. Un misterio que ella puede explicar. Y de pronto lo ve: un pequeño aparato encima de un cuadro. Es realmente muy pequeño. Un reproductor de mp3 o algo parecido.
+
+«Algo muy pequeño, pero que suena muy alto y que seguramente va con un mando a distancia», piensa Pepa. «¿Quién ha puesto esto aquí?». Y entonces piensa en los hombres del taxi. Y en lo que han dicho en el taxi: «El problema es la vieja del primero.» Pepa lo recuerda claramente.`,
         translation: ``
       },
       {
         tab: '1 de noviembre. 10.30 h.',
-        content: ``,
+        content: `El olor de la cafetera de la señora Montserrat despierta a Pepa. Se levanta y va a la cocina. La señora Montserrat ha preparado el desayuno: cruasanes, pan, La Vanguardia50… El desayuno ideal de un día festivo.
+−Buenos días, Pepa.
+
+−Buenos días, señora Montserrat.
+
+−¿Has dormido bien?
+
+−Sí, gracias. Especialmente después de encontrar esto −Pepa le enseña el pequeño aparato.
+
+−¿Y eso qué es?
+
+−Pues de aquí sale la música, los Carmina Burana. La señora Montserrat mira el aparato sin entender.
+−Señora Montserrat, alguien quiere asustarla. Es un montaje. No hay fantasmas. Con este aparato ponen música… La música de Ramón.
+
+−Pero, pero… ¿Quién? ¿Por qué?
+
+−Tranquila. Creo que yo sí lo sé. Pero necesito un par de días. A mitad del desayuno, suena el timbre.
+−Ah, es mi sobrino, Ariel, que viene a verme. Es muy guapo…
+
+La señora Montserrat entra de nuevo en la cocina acompañada de un hombre de unos treinta años. Tenía razón: es muy guapo.
+
+−Ariel, esta es Pepa, mi mejor vecina. Y la más valiente…
+
+−Je, je, je… –ríe Pepa, que no sabe qué decir. Lleva ropa arrugada de dormir, el pelo de punta y no se ha lavado los dientes. ¡Y ahí, de pie, frente a ella una especie de Brad Pitt que le tiende la mano! «Y yo, horrible…», piensa.
+
+−Hola, qué tal.
+
+−Muy bien, muy bien −dice Pepa. Y piensa: «No tan bien como tú,
+tío bueno51.»
+
+Ariel se toma un café y los tres comentan los misterios de la casa. La señora Montserrat los deja solos un rato y Pepa le explica a Ariel lo que sabe. De momento no quiere explicarle su teoría a la señora Montserrat.
+
+−Sí, tienes razón, esos tíos parecen peligrosos −responde Ariel−. Yo soy abogado, ¿sabes? Quieren el piso de mi tía. He hablado dos veces con ellos. Quieren el edificio entero a cualquier precio. Y mi tía no quiere irse. ¡Es su casa! ¡Ha nacido en esta casa!
+
+−Pero… ¿Por qué tanto interés por esta casa? ¡Hay muchas casas en venta en Barcelona! Después de la crisis inmobiliaria…
+
+−Sí, es verdad. No se entiende.
+
+−¿Y qué podemos hacer?
+
+−Esperar, tenemos que esperar… Y vigilar. Oye, por cierto, muchas gracias por todo. Gracias por estar con mi tía. Yo me voy a quedar unos días con ella, aquí, en su casa…
+
+−Perfecto −dice Pepa. Y piensa: «Qué bien, qué bien… Se queda unos días. ¡Somos vecinos!»
+
+−¿Cenamos una noche de estas? −pregunta Ariel.
+
+−Sí, ¡claro! Quiero decir que… Buena idea… Sí, y hablamos de… de… de tu tía y su piso −Pepa se ha puesto nerviosa y piensa: «¡Qué ridícula estoy cuando me gusta un tío!»`,
         translation: ``
       },
       {
