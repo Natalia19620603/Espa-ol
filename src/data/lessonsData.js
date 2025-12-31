@@ -10508,7 +10508,58 @@ no quiere esperar para heredarlas. ¿Puedes venir a mi casa esta noche?
       },
       {
         tab: 'Calle Bonavista. 23.00 h.',
-        content: ``,
+        content: `−Pepa, qué bien que nos invitas a cenar… ¿Es tu cumpleaños o algo?
+
+−Bueno… Cenar, cenar… Vamos a cenar más tarde.
+
+−Pues yo tengo un hambre… Estoy con un bocadillo de atún desde esta mañana…
+
+Pepa saca del cuartito de los contadores un casco, un mono de trabajo azul y un pico.
+
+Raúl la mira horrorizado.
+
+−Pero, tía, ¿qué quieres hacer? A estas horas… Y además, a mí, el trabajo manual… Vamos, que no es lo mío75.
+
+−¡No, claro! Lo tuyo es la filosofía… −dice Pepa irónicamente−.
+Pero hoy nos vas a ayudar. Tú eres el más fuerte de los tres, ¿no?
+
+Raúl, finalmente, acepta ponerse debajo del ascensor.
+
+−Mierda… ¿Y si esto se cae? No sé, me da mal rollo. ¿Y si hay ratas?
+
+−Que no, que no, que el ascensor no se cae.
+
+Pepa y Armando iluminan con linternas y controlan la entrada. Al cabo de unos minutos, Raúl dice:
+−Aquí hay una caja, parece una caja muy vieja, de metal…
+
+−¡Bingo! −grita Pepa.
+
+−Che76, entró alguien… −dice Armando−. Apagá la linterna, Pepa.
+
+Es Ariel. Pepa lo reconoce enseguida.
+
+Ariel enciende la luz de la escalera. Mira con preocupación a los tres amigos. Especialmente a Raúl, que saca la cabeza del hueco del ascensor.
+
+−¿Qué hacéis aquí?
+
+−Lo sabes perfectamente.
+
+−Mi tía no tiene que saber nada de esto.
+
+−Sobre todo, tiene que saberlo la policía. ¿Les vas a explicar también tu juego de fantasmas? Claro, tú puedes entrar y salir de aquí siempre sin problema. ¿Cómo no lo he pensado antes? ¿Y la carta? Es un viejo documento de familia, supongo.
+
+Mientras, Armando ha sacado el móvil y está llamando a los
+Mossos77.
+
+−Ya vienen para acá.
+
+Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja metálica, como las de los bancos.
+
+−Tíos, ¿me ayudáis o qué? Ahora ya nos podemos ir a cenar, ¿no?
+
+−Sí, hablamos con la poli, les damos la cajita, y os invito a cenar. Un arroz en la Barceloneta. En El suquet del Almirall. ¡Nos lo hemos ganado!
+
+«¡Qué pena! ¡Con lo guapo que es…!», piensa Pepa mirando por última vez a Ariel.`,
         translation: ``
       }
     ],
