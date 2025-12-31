@@ -9771,7 +9771,51 @@ Para la primera fase, el pelo y un viaje. Una playa tropical, unas buenas novela
       },
       {
         tab: 'Barcelona. 28 de octubre. 10.30 h.',
-        content: ``,
+        content: `Loli le pone en la cabeza una crema blanca que apesta a amoniaco. Pepa observa pacientemente cómo su amiga distribuye el mágico producto.
+
+−¿Seguro que esto funciona?
+
+−Claro, mujer…. Vas a ser la tía más guapa de Gracia. Mejor dicho, la taxista más guapa de Barcelona.
+
+«Lo necesito», se dice Pepa, y se mira con escepticismo en el espejo. «¿Por qué todos tenemos este aspecto horrible en la peluquería?», piensa.
+
+De pronto, se oye una ambulancia. Para frente a la peluquería.
+
+−¿Qué pasa? −pregunta Pepa.
+
+Loli sale a la puerta de la peluquería. Loli lo sabe todo en el barrio. Ya se sabe: las peluquerías de barrio son auténticas oficinas de la CIA, o peor. Y Loli necesita estar perfectamente informada. Cinco minutos después, Pepa, con la cabeza llena de crema japonesa, se levanta y se asoma a la puerta. Parece un alien, con su capa de plástico y la crema en la cabeza.
+
+−Loli, ¿qué pasa? −la peluquera habla con la portera del edificio de al lado, el mismo edificio en el que vive Pepa.
+
+Loli regresa con cara de tragedia. Pepa casi nunca le hace demasiado caso cuando la ve así, porque Loli es muy teatrera, pero esta vez parece que va en serio.
+
+−¡El señor Ramón! Pobre señor Ramón… Pobre señora Montserrat… ¡Qué pena! – dice Loli, y una lágrima gorda cae por su cara supermaquillada.
+
+−Pero, ¿qué pasa? −pregunta Pepa impaciente.
+
+−Pues la señora Montserrat, ya sabes, la vecina del primero… Esa señora tan amable con el perrito.
+
+−¿El perrito horrible…?
+
+−Sí… ¡Lo ha encontrado muerto en la cama!
+
+−¿Al perrito?
+
+−No, mujer, al marido. Al señor Ramón, que en paz descanse.
+
+−Joder, qué fuerte… Viven en el primero. ¡En el mismo edificio que yo! Y lo llevo muchas veces en el taxi. Al médico, y esas cosas.
+
+−Pues esta vez se lo ha llevado Dios −dice Loli, que ahora parece una estrella americana del cine de los años 50 interpretando la escena más trágica de la película.
+
+−¿Tú los conoces mucho? −pregunta Pepa.
+
+−Bueno… No, mucho no. Ella es muy buena clienta. ¡Viene dos veces por semana! Y él… un buen hombre −Loli suspira y continúa−. ¡Ay, no somos nada! Estamos cuatro días en el mundo y ¡zas!, llega un día, de repente, y ya no estamos.
+
+−Sí, Loli, no somos nada. Pero, ahora, por favor, ¿me puedes quitar esto de la cabeza?
+
+Loli mira dramáticamente el reloj y responde:
+
+−Faltan dos minutos y medio.`,
         translation: ``
       },
       {
