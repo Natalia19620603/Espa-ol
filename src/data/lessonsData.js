@@ -9745,11 +9745,29 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: '30 de octubre. Por la tarde.',
-        words: []
+        words: [
+          { word: 'la barra', translation: 'барная стойка, батон', audioUrl: null },
+          { word: 'tener mala leche', translation: 'иметь дурной характер', audioUrl: null }
+        ]
       },
       {
         tab: '30 de octubre. 19.00 h.',
-        words: []
+        words: [
+          { word: 'la tila', translation: 'липовый чай', audioUrl: null },
+          { word: 'sonoro', translation: 'звучный', audioUrl: null },
+          { word: 'gruñir', translation: 'ворчать, рычать', audioUrl: null },
+          { word: 'deprimido', translation: 'подавленный, расстроенный', audioUrl: null },
+          { word: 'el alma en pena', translation: 'неприкаянная душа', audioUrl: null },
+          { word: 'el cabrón', translation: 'козел (руг.)', audioUrl: null },
+          { word: 'el lamento', translation: 'плач', audioUrl: null },
+          { word: 'el carajillo', translation: 'кофе с алкоголем', audioUrl: null },
+          { word: 'tener mucho carácter', translation: 'иметь сильный характер', audioUrl: null },
+          { word: 'desagradecido', translation: 'неблагодарный', audioUrl: null },
+          { word: 'tener mala leche', translation: 'иметь дурной характер', audioUrl: null },
+          { word: 'el funeral', translation: 'похороны', audioUrl: null },
+          { word: 'ser de pura raza', translation: 'чистокровный', audioUrl: null },
+          { word: 'el entierro', translation: 'похороны', audioUrl: null }
+        ]
       },
       {
         tab: '31 de octubre',
@@ -10045,7 +10063,7 @@ Llega la señora Montserrat con el perrito. El pomerania que parece un murciéla
 
 −Qué bien −dice Pepa.
 
-−Es un pomerania, ¿sabes? −dice Raúl−. Con muy mala leche23, pero de pura raza.
+−Es un pomerania, ¿sabes? −dice Raúl−. Con muy mala leche<sup>23</sup>, pero de pura raza.
 
 −Sí, ya lo sé.
 
@@ -10085,7 +10103,7 @@ Armando quiere tranquilizarla:
 
 −Mujer, tranquila, es el shock… Es normal, los primeros días…
 
-−Armando, que no… Ya sé que los argentinos sois muy psicólogos, pero yo no estoy loca. Veo cosas y oigo cosas… Ay, pobre mi Ramón… Quizá está vagando por la casa, como un alma en pena24….
+−Armando, que no… Ya sé que los argentinos sois muy psicólogos, pero yo no estoy loca. Veo cosas y oigo cosas… Ay, pobre mi Ramón… Quizá está vagando por la casa, como un alma en pena<sup>24</sup>….
 
 −¿Cómo un fantasma, quiere decir? −pregunta Pepa.
 
@@ -10096,11 +10114,11 @@ Todos dan un salto y miran hacia los gritos.
 
 No es un fantasma. En la puerta está Raúl. Aristóteles, el perro- murciélago, le clava sus pequeños dientes en la pierna.
 
-−¡Aristóles, cabrón25! ¡Qué haces! ¡Que soy tu amigo! −grita entre lamentos Raúl.
+−¡Aristóles, cabrón<sup>25</sup>! ¡Qué haces! ¡Que soy tu amigo! −grita entre lamentos Raúl.
 
-−Ese sí que es un fantasma26 −dice Pepa.
+−Ese sí que es un fantasma<sup>26</sup> −dice Pepa.
 
-Cuando por fin Raúl está libre de Aristóteles, la señora Montserrat se toma una segunda tila. Raúl reclama un carajillo de Torres27.
+Cuando por fin Raúl está libre de Aristóteles, la señora Montserrat se toma una segunda tila. Raúl reclama un carajillo de Torres<sup>27</sup>.
 −Te invito yo −dice la señora Montserrat−. Aristóteles, eres muy malo. Malo, malo, malo…
 
 −Con mucho coñac −dice Raúl cuando sabe que la señora Montserrat es la que paga.
@@ -10117,21 +10135,21 @@ Armando le da su número de móvil.
 
 −Señora Montserrat, usted me llama si tiene miedo. A cualquier hora, de día o de noche −le dice el argentino−. Hablamos un rato, usted me cuenta sobre sus fantasmas…
 
-−Y dale con28 la psicología −dice Raúl.
+−Y dale con<sup>28</sup> la psicología −dice Raúl.
 
 −Y a mí también me puede llamar. Ya tiene mi teléfono, ¿no?
 −añade Pepa.
 
 La señora Montserrat les da las gracias a todos, paga sus tilas y el carajillo de Raúl y sale con Aristóteles. Es una mujer valiente.
 
-«Además, si el fantasma es mi difunto Ramón…», piensa entrando en la casa. «En 40 años no hemos tenido problemas, o sea, que ahora, vivo o muerto… Bueno, solamente cuando el Barça29 no va bien…»`,
+«Además, si el fantasma es mi difunto Ramón…», piensa entrando en la casa. «En 40 años no hemos tenido problemas, o sea, que ahora, vivo o muerto… Bueno, solamente cuando el Barça<sup>29</sup> no va bien…»`,
         translation: ``
       },
       {
         tab: '31 de octubre',
         content: `Pepa ha trabajado bien hoy. Mucha gente se prepara para esta noche y toman taxis. Es una noche especial. Es la víspera del 1 de noviembre, día de Todos los Santos. En Cataluña, y en Barcelona, su capital, algunos celebran la fiesta del modo tradicional: se comen castañas, boniatos y
-panellets30. Otros lo celebran como en los países anglosajones, o sea como en Halloween, vestidos de monstruos, brujas y máscaras de plástico de asesinos o dráculas. Pepa, en estas cosas, es muy tradicional. Y a las siete se va a casa. Ha comprado castañas y almendras en La
-Boquería31, y quiere invitar a Armando. No tiene ganas de ver a Federico, su novio. Va a inventarse alguna excusa. «No estoy preparada todavía para hablar con él», piensa. Antes de ir a casa, pasa por el bar de Armando.
+panellets<sup>30</sup>. Otros lo celebran como en los países anglosajones, o sea como en Halloween, vestidos de monstruos, brujas y máscaras de plástico de asesinos o dráculas. Pepa, en estas cosas, es muy tradicional. Y a las siete se va a casa. Ha comprado castañas y almendras en La
+Boquería<sup>31</sup>, y quiere invitar a Armando. No tiene ganas de ver a Federico, su novio. Va a inventarse alguna excusa. «No estoy preparada todavía para hablar con él», piensa. Antes de ir a casa, pasa por el bar de Armando.
 
 −¿Qué haces esta noche, Armando? −le pregunta después de pedir una cerveza.
 
@@ -10139,10 +10157,10 @@ Boquería31, y quiere invitar a Armando. No tiene ganas de ver a Federico, su no
 
 −No, no, por nada…
 
-−Voy al aeropuerto a buscar a unos amigos, que llegaron recién 32
+−Voy al aeropuerto a buscar a unos amigos, que llegaron recién<sup>32</sup>
 de Buenos Aires.
 
-−Ah, qué bien, qué bien… −contesta Pepa. Va a comerse sola los panellets y las castañas. «Mejor sola que mal acompañada33», piensa para justificarse. Después de la cerveza se va a casa dando un paseo.
+−Ah, qué bien, qué bien… −contesta Pepa. Va a comerse sola los panellets y las castañas. «Mejor sola que mal acompañada<sup>33</sup>», piensa para justificarse. Después de la cerveza se va a casa dando un paseo.
 En casa, busca una receta de panellets en internet. Siempre los compra en una pastelería, pero hoy, excepcionalmente, tiene ganas de cocinar. Y no parece tan difícil.
 
 <img src="/images/panellets-recipe.png" alt="Receta de panellets" style="max-width: 100%; height: auto; margin: 20px 0;" />
@@ -10153,14 +10171,14 @@ Tres horas después, Pepa sigue luchando con una masa pegajosa de almendra y pat
 
 Por un momento piensa en llamar a su novio. Pero no, mejor no.
 
-−¡Voy a terminar los puñeteros34 panellets!
+−¡Voy a terminar los puñeteros<sup>34</sup> panellets!
 
 En ese momento suena el timbre. Suena varias veces.
 
 −¡Ya voy, ya voy…! ¡Pero qué pasa, joder! ¿Hay fuego en la casa? Es Armando, en pijama.
 −Pepa… Tenemos un problema.
 
-−¿Uno solo? Yo tengo muchos. Pasa, hombre, pasa… ¿ Qué coño35 haces en pijama? Muy sexy no estás…
+−¿Uno solo? Yo tengo muchos. Pasa, hombre, pasa… ¿ Qué coño<sup>35</sup> haces en pijama? Muy sexy no estás…
 
 −La señora Montserrat. Vio otra vez fantasmas y me llamó.
 
@@ -10170,7 +10188,7 @@ En ese momento suena el timbre. Suena varias veces.
 
 −Pues venga, vamos. Espera que me lavo las manos.
 
-−¿Qué hacés? ¿Vos36 cocinás? −pregunta Armando al ver el caos en la cocina.
+−¿Qué hacés? ¿Vos<sup>36</sup> cocinás? −pregunta Armando al ver el caos en la cocina.
 
 −Bueno, sí… No… A veces.
 
@@ -10187,8 +10205,8 @@ Con la luz del encendedor bajan dos pisos. Pero en el tercero, de pronto, se ven
 Algo se mueve en el suelo. Armando no lo ve y tropieza con un bulto. El bulto se da la vuelta y tiene la cara de Chucky, el muñeco diabólico.
 
 −¡Ahhhhhhh! ¡Tío, que me has pisado la mano! Pepa, después del susto, reconoce la voz de Raúl.
-−Pero… Raúl, ¿qué coño estás haciendo aquí con esa pinta37?
-Serás gilipollas38… ¿Tú sabes el susto que…?
+−Pero… Raúl, ¿qué coño estás haciendo aquí con esa pinta<sup>37</sup>?
+Serás gilipollas<sup>38</sup>… ¿Tú sabes el susto que…?
 
 −Es «jalogüin39», tía…
 
@@ -10196,7 +10214,7 @@ Serás gilipollas38… ¿Tú sabes el susto que…?
 
 −Bueno, pues eso, «jalobín». Y quería hacerte una broma.
 
-−Pues qué gracioso, macho40. Pareces un niño.
+−Pues qué gracioso, macho<sup>40</sup>. Pareces un niño.
 
 −¿Te vienes con unos colegas a comer castañas? Con esos pelos, tú no necesitas disfraz −se ríe Raúl.
 
@@ -10207,9 +10225,9 @@ Serás gilipollas38… ¿Tú sabes el susto que…?
 
 −Sí, ahora vamos a ver a la pobre mujer, que está muerta…
 
-−¿Muerta? ¿También? Yo no quiero ver muertos, ¿eh? No me gustan nada los fiambres42. Me dan mal rollo…43
+−¿Muerta? ¿También? Yo no quiero ver muertos, ¿eh? No me gustan nada los fiambres<sup>42</sup>. Me dan mal rollo…43
 
-−Que está muerta de miedo44, idiota. De miedo.`,
+−Que está muerta de miedo<sup>44</sup>, idiota. De miedo.`,
         translation: ``
       },
       {
@@ -10249,7 +10267,7 @@ como… ¡cadenas! Los fantasmas llevan cadenas, ¿no?
 
 −¿Llamamos a la policía?
 
-−No, a la pasma46 no, eso no… −dice Raúl, que tiene terror a los uniformes. A los de los policías, a los de los médicos y hasta a los de los porteros.
+−No, a la pasma<sup>46</sup> no, eso no… −dice Raúl, que tiene terror a los uniformes. A los de los policías, a los de los médicos y hasta a los de los porteros.
 
 Un par de minutos después, se oye música en la habitación de al lado. Es el despacho del señor Ramón.
 
@@ -10259,14 +10277,14 @@ Un par de minutos después, se oye música en la habitación de al lado. Es el d
 
 −Un compositor alemán.. Y eso son los Carmina Burana, su obra más famosa.
 
-−Pues es como de película de miedo… Da un poco de yuyu47 −
+−Pues es como de película de miedo… Da un poco de yuyu<sup>47</sup> −
 añade Raúl−. ¿A usted le gusta esa música, señora Montserrat?
 
 −No, a mí no. Pero a Ramón sí.
 
 −Y la pone para él…
 
-−No, ¡es peor! La música se pone sola… Quiero decir que yo no he puesto el disco. Si estoy aquí con vosotros…, tan ricamente48, ¿no?
+−No, ¡es peor! La música se pone sola… Quiero decir que yo no he puesto el disco. Si estoy aquí con vosotros…, tan ricamente<sup>48</sup>, ¿no?
 −¿Y quién la pone entonces? ¿Aristóteles, que es tan inteligente…?
 −Raúl busca una respuesta tranquilizadora.
 
@@ -10300,7 +10318,7 @@ Pero Aristóteles no está en casa. Cuando se ha ido la luz, ha aprovechado para
 
 En veinte minutos el perro ya no parece un murciélago: ahora es Batman, con pelo y cola. Por suerte, consigue escapar de sus secuestradores, los gemelos, y baja aterrorizado por la escalera. En ese momento sale Raúl.
 
-−¡Otro fantasma! ¡Otro fantasma! ¡Joder, esto es una casa de locos! Yo me abro49 –y sale corriendo al oír el gruñido de Aristóteles.
+−¡Otro fantasma! ¡Otro fantasma! ¡Joder, esto es una casa de locos! Yo me abro<sup>49</sup> –y sale corriendo al oír el gruñido de Aristóteles.
 Armando, tras el primer susto, reconoce la cola de Aristóteles debajo de la capa de Batman.
 
 − ¿Vos también celebrás Halloween? −se agacha y coge al perro en brazos−. Vení Aristóteles, que te llevo a casa con tu dueña.`,
@@ -10317,7 +10335,7 @@ El tema de la música misteriosa le interesa. Sin hacer ruido, entra en el despa
       },
       {
         tab: '1 de noviembre. 10.30 h.',
-        content: `El olor de la cafetera de la señora Montserrat despierta a Pepa. Se levanta y va a la cocina. La señora Montserrat ha preparado el desayuno: cruasanes, pan, La Vanguardia50… El desayuno ideal de un día festivo.
+        content: `El olor de la cafetera de la señora Montserrat despierta a Pepa. Se levanta y va a la cocina. La señora Montserrat ha preparado el desayuno: cruasanes, pan, La Vanguardia<sup>50</sup>… El desayuno ideal de un día festivo.
 −Buenos días, Pepa.
 
 −Buenos días, señora Montserrat.
@@ -10345,7 +10363,7 @@ La señora Montserrat entra de nuevo en la cocina acompañada de un hombre de un
 −Hola, qué tal.
 
 −Muy bien, muy bien −dice Pepa. Y piensa: «No tan bien como tú,
-tío bueno51.»
+tío bueno<sup>51</sup>.»
 
 Ariel se toma un café y los tres comentan los misterios de la casa. La señora Montserrat los deja solos un rato y Pepa le explica a Ariel lo que sabe. De momento no quiere explicarle su teoría a la señora Montserrat.
 
@@ -10368,10 +10386,10 @@ Ariel se toma un café y los tres comentan los misterios de la casa. La señora 
       },
       {
         tab: '2 de noviembre. 08.00 h.',
-        content: `Un ejecutivo estresado, que habla constantemente con el móvil, coge el taxi en la Diagonal52.
+        content: `Un ejecutivo estresado, que habla constantemente con el móvil, coge el taxi en la Diagonal<sup>52</sup>.
 −Muntaner, 367.
 
-No dice «hola», ni «buenos días». «Otro que piensa que el taxi es solo un coche. Hoy el tráfico está fatal. Claro, después de un día de fiesta…», piensa Pepa mientras conduce lentamente a través del Ensanche53. Hace buen tiempo, el cielo está azul, y escucha buena música: el piano maravilloso de Bebo Valdés54. Se siente bien.
+No dice «hola», ni «buenos días». «Otro que piensa que el taxi es solo un coche. Hoy el tráfico está fatal. Claro, después de un día de fiesta…», piensa Pepa mientras conduce lentamente a través del Ensanche<sup>53</sup>. Hace buen tiempo, el cielo está azul, y escucha buena música: el piano maravilloso de Bebo Valdés<sup>54</sup>. Se siente bien.
 −Doce euros −dice Pepa cuando llegan al destino.
 
 El cliente paga sin decir nada. No dice adiós y baja con el móvil pegado a la oreja.
@@ -10382,9 +10400,9 @@ Pepa pone la señal de «libre» y baja por la calle Muntaner. A pocos metros, u
 
 −Sí, conozco esa calle.
 
-«Mira, me lleva a mi casa», piensa Pepa, divertida. La cara del pasajero le suena55. «¿Quién es? ¿Lo conozco?», se pregunta. «¡Síiiiiii, claro…! ¡Es uno de los hombres que quieren comprar el piso de la señora Montserrat!» El hombre hace una llamada y Pepa escucha con mucha atención.
+«Mira, me lleva a mi casa», piensa Pepa, divertida. La cara del pasajero le suena<sup>55</sup>. «¿Quién es? ¿Lo conozco?», se pregunta. «¡Síiiiiii, claro…! ¡Es uno de los hombres que quieren comprar el piso de la señora Montserrat!» El hombre hace una llamada y Pepa escucha con mucha atención.
 
-−¿Bernardo? Sí, mira… Voy a Gracia. Sí, eso. A preparar el siguiente numerito56. A ver qué dice ahora la vieja.
+−¿Bernardo? Sí, mira… Voy a Gracia. Sí, eso. A preparar el siguiente numerito<sup>56</sup>. A ver qué dice ahora la vieja.
 «¿El siguiente numerito? ¿La vieja?… ¿Qué significa todo esto?», se pregunta Pepa mientras observa al hombre por el retrovisor. Está preparando algo: en las manos tiene una pequeña maleta negra y saca un
 
 bigote, unas gafas, una pipa…
@@ -10399,9 +10417,9 @@ El hombre empieza a subir. No ha visto a Pepa. Pepa busca su móvil y llama a su
 
 −¿El aperitivo? Que son las doce… Es muy pronto para el aperitivo.
 
-−Es que yo hago horario europeo57.
+−Es que yo hago horario europeo<sup>57</sup>.
 
-−¡Ni horario europeo ni leches58! −dice Pepa, nerviosa, intentando no gritar−. Ven ahora mismo. Es un asunto de vida o muerte.
+−¡Ni horario europeo ni leches<sup>58</sup>! −dice Pepa, nerviosa, intentando no gritar−. Ven ahora mismo. Es un asunto de vida o muerte.
 
 −Sí, hombre, encima. No quiero hablar de muertos. Y menos en tu casa. ¡Qué nochecita hemos pasado!59 Menudo «jalobín».
 −Halloween… Se dice Halloween. Bueno, no importa. Te espero.
@@ -10410,7 +10428,7 @@ Ahora. Y pasa a buscar a Armando.
 A Pepa se le ocurre un plan. ¿Quieren sustos? Pues los van a tener. Suben rápido por las escaleras hasta su casa, al ático. La masa de los panellets sigue en la mesa de la cocina. La motosierra de broma de Raúl
 
 y la máscara de Chucky también. Se pone masa de panellets por la cabeza. Con el pelo tieso el efecto es terrorífico. Baja las escaleras hasta el primero. Hay suerte, la puerta no está cerrada. Aparece Aristóteles, que mueve la cola al reconocer a Pepa. Pepa entra y avanza lentamente por el pasillo. Quiere asustar al falso fantasma. Pero lo que le espera en
-el salón la deja helada60: ¡el falso señor Ramón y la señora Montserrat están hablando tranquilamente!
+el salón la deja helada<sup>60</sup>: ¡el falso señor Ramón y la señora Montserrat están hablando tranquilamente!
 
 −Entonces… ¿café o té? –pregunta ella−. Ya sabes que a esta hora el café te sienta mal… Tomas demasiado café. De acuerdo, los fantasmas seguramente no tienen problemas de estómago. Pero tanto café no es bueno. Ni para los fantasmas.
 
@@ -10420,20 +10438,20 @@ El falso señor Ramón no dice nada. ¿Los fantasmas no hablan? Pepa decide actu
 
 Aristóteles muerde ferozmente la pierna de Raúl y este también grita. Los dos gemelos del tercero también han bajado.
 
-−¡Qué guay61! ¡Qué divertido! −dicen, y se sientan felices en el sofá a ver el espectáculo.
+−¡Qué guay<sup>61</sup>! ¡Qué divertido! −dicen, y se sientan felices en el sofá a ver el espectáculo.
 
 Por fin todo el mundo se calma un poco. El hombre de la maleta sigue en el suelo.
 
 −Llamo a una ambulancia −dice Armando.
 
-−Yo sé hacer masaje cardíaco −dice Raúl−. Aprendí en la mili62.
+−Yo sé hacer masaje cardíaco −dice Raúl−. Aprendí en la mili<sup>62</sup>.
 
 −No, deja, deja… No la líes más63. Que lo rematas. ¿Respira?
 −pregunta Pepa.
 
 Ya se oye cerca la sirena de la ambulancia y la de un coche de policía. Alguien de la calle ha llamado a la policía. Loli ha escuchado los gritos y también llega al piso.
 
-−Pero Pepa, ¿qué te has hecho en el pelo? Yo te he hecho un alisado monísimo64. Es que no te cuidas nada, siempre te lo digo…
+−Pero Pepa, ¿qué te has hecho en el pelo? Yo te he hecho un alisado monísimo<sup>64</sup>. Es que no te cuidas nada, siempre te lo digo…
 −Loli, vamos a dejarlo, ¿eh? No es el momento.
 
 Han llegado un médico y dos enfermeros. El médico se ocupa del falso señor Ramón.
@@ -10465,7 +10483,7 @@ También le explica la historia a Ariel: Pepa ha encontrado al hombre, lo ha vis
 
 Armando le dice a Pepa, cuando están ya más tranquilos:
 
-−Pepa tenés que ducharte… Ariel tiene que hablar con la poli65. Y después, ¿por qué no vienen todos ustedes al bar? Tengo un asado argentino66 buenísimo en la parrilla.
+−Pepa tenés que ducharte… Ariel tiene que hablar con la poli<sup>65</sup>. Y después, ¿por qué no vienen todos ustedes al bar? Tengo un asado argentino<sup>66</sup> buenísimo en la parrilla.
 
 −Ok. ¿Todo el mundo de acuerdo? Nos vemos en el bar de Armando dentro de una hora −dice Pepa.
 
@@ -10495,9 +10513,9 @@ Sube las escaleras de dos en dos y se sienta frente al portátil. Examina el con
 
 busco una excusa para verlo?», se pregunta después.
 
-Finalmente decide ir a trabajar un rato. Un taxista que se queda en casa no gana un duro67. Y Pepa quiere irse al Caribe en enero. Va a buscar el coche a la Plaza del Sol. Raúl está durmiendo la siesta en su caseta. Cuando pasa a su lado, Raúl se despierta.
+Finalmente decide ir a trabajar un rato. Un taxista que se queda en casa no gana un duro<sup>67</sup>. Y Pepa quiere irse al Caribe en enero. Va a buscar el coche a la Plaza del Sol. Raúl está durmiendo la siesta en su caseta. Cuando pasa a su lado, Raúl se despierta.
 
-−Tía, ¿qué pasa? ¿No saludas o qué? ¿Te vas a currar68? Pepa no tiene muchas ganas de hablar con él.
+−Tía, ¿qué pasa? ¿No saludas o qué? ¿Te vas a currar<sup>68</sup>? Pepa no tiene muchas ganas de hablar con él.
 −Sí, me voy a currar. Que hoy no he ganado ni un duro.
 
 −Pues hasta luego.
@@ -10505,7 +10523,7 @@ Finalmente decide ir a trabajar un rato. Un taxista que se queda en casa no gana
 Pepa sale por las pequeñas calles hasta Gran de Gracia, la calle principal del barrio. Es una calle comercial y siempre suele haber gente que busca taxi. En un par de minutos ya ha puesto el cartel de
 «ocupado». Es un norteamericano que quiere comer paella.
 
-Pepa le propone llevarlo al puerto y cruza Barcelona. En la Barceloneta69 lo deja en El suquet de l'Almirall, donde hacen los mejores arroces de pescado de Barcelona. No es exactamente paella, pero están buenísimos. Intenta explicarle al norteamericano la diferencia entre una paella y un arroz caldoso70, pero al final lo deja. Demasiado difícil.
+Pepa le propone llevarlo al puerto y cruza Barcelona. En la Barceloneta<sup>69</sup> lo deja en El suquet de l'Almirall, donde hacen los mejores arroces de pescado de Barcelona. No es exactamente paella, pero están buenísimos. Intenta explicarle al norteamericano la diferencia entre una paella y un arroz caldoso<sup>70</sup>, pero al final lo deja. Demasiado difícil.
 
 −Ya verá, el arroz aquí está delicioso.
 
@@ -10526,9 +10544,9 @@ Trabaja seis horas y vuelve a casa. Tiene hambre y no ha comido nada en todo el 
 
 −Creo que están arreglando el ascensor o algo así.
 
-A Pepa algo le huele mal71. Están trabajando exactamente en la zona marcada en rojo en el plano. Decide esperar un poco y observar. Se sienta en la escalera, en una parte con poca luz. Si pasa alguien, puede decir que le duele un pie o algo así. A los cinco minutos, llega un hombre con un traje gris. «¡Es uno de los mafiosos de la calle Muntaner!», piensa Pepa al reconocerlo.
+A Pepa algo le huele mal<sup>71</sup>. Están trabajando exactamente en la zona marcada en rojo en el plano. Decide esperar un poco y observar. Se sienta en la escalera, en una parte con poca luz. Si pasa alguien, puede decir que le duele un pie o algo así. A los cinco minutos, llega un hombre con un traje gris. «¡Es uno de los mafiosos de la calle Muntaner!», piensa Pepa al reconocerlo.
 
-Se para delante del ascensor. En la puerta hay un cartel: «No funciona». Pero el hombre abre la puerta. El ascensor está entre la planta baja y el entresuelo72.
+Se para delante del ascensor. En la puerta hay un cartel: «No funciona». Pero el hombre abre la puerta. El ascensor está entre la planta baja y el entresuelo<sup>72</sup>.
 
 −Manolo… –dice el hombre del traje gris.
 
@@ -10573,7 +10591,7 @@ Inmediatamente saca el móvil y hace una llamada.
 «¿Cómo? ¡No puede ser…!», piensa Pepa. «¿Ariel? ¿Ariel está en
 
 esto? No me lo puedo creer… Pero no hay muchos Ariel en España.» Pepa escucha atenta el resto de la conversación.
-−Sí, ya sé, tienes la carta de tu bisabuela republicana73 desde el exilio en París… Sí, la he leído tres veces: ¡todas las joyas de la familia tienen que estar debajo del ascensor! Pero, lo siento, chico, no salen. Hay que seguir buscando, pero los vecinos preguntan… Que qué hacemos, que si va a durar mucho el ruido, que por qué picamos… Te
+−Sí, ya sé, tienes la carta de tu bisabuela republicana<sup>73</sup> desde el exilio en París… Sí, la he leído tres veces: ¡todas las joyas de la familia tienen que estar debajo del ascensor! Pero, lo siento, chico, no salen. Hay que seguir buscando, pero los vecinos preguntan… Que qué hacemos, que si va a durar mucho el ruido, que por qué picamos… Te
 llamo luego, ¿vale74?
 
 Está claro que Pepa no puede llamar a Ariel para explicarle el misterio de los planos.`,
@@ -10629,7 +10647,7 @@ Pepa saca del cuartito de los contadores un casco, un mono de trabajo azul y un 
 
 Raúl la mira horrorizado.
 
-−Pero, tía, ¿qué quieres hacer? A estas horas… Y además, a mí, el trabajo manual… Vamos, que no es lo mío75.
+−Pero, tía, ¿qué quieres hacer? A estas horas… Y además, a mí, el trabajo manual… Vamos, que no es lo mío<sup>75</sup>.
 
 −¡No, claro! Lo tuyo es la filosofía… −dice Pepa irónicamente−.
 Pero hoy nos vas a ayudar. Tú eres el más fuerte de los tres, ¿no?
@@ -10645,7 +10663,7 @@ Pepa y Armando iluminan con linternas y controlan la entrada. Al cabo de unos mi
 
 −¡Bingo! −grita Pepa.
 
-−Che76, entró alguien… −dice Armando−. Apagá la linterna, Pepa.
+−Che<sup>76</sup>, entró alguien… −dice Armando−. Apagá la linterna, Pepa.
 
 Es Ariel. Pepa lo reconoce enseguida.
 
@@ -10660,7 +10678,7 @@ Ariel enciende la luz de la escalera. Mira con preocupación a los tres amigos. 
 −Sobre todo, tiene que saberlo la policía. ¿Les vas a explicar también tu juego de fantasmas? Claro, tú puedes entrar y salir de aquí siempre sin problema. ¿Cómo no lo he pensado antes? ¿Y la carta? Es un viejo documento de familia, supongo.
 
 Mientras, Armando ha sacado el móvil y está llamando a los
-Mossos77.
+Mossos<sup>77</sup>.
 
 −Ya vienen para acá.
 
