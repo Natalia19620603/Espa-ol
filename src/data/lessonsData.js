@@ -10957,9 +10957,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: 'Barcelona. 28 de octubre. 12.30 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-3-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-3-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-3-3'] }
         ]
       },
       {
@@ -20922,6 +20922,78 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Она была очень хорошей клиенткой парикмахерской и приходила два раза в неделю красить волосы.', correct: 'Ella era muy buena clienta de la peluquería y venía dos veces por semana a teñirse el pelo.' },
       { russian: 'Лоли драматично смотрит на часы и отвечает, что осталось всего два с половиной минуты.', correct: 'Loli mira dramáticamente el reloj y responde que faltan solo dos minutos y medio.' },
       { russian: 'Нетерпеливая Пепа просит подругу немедленно снять этот крем с головы, потому что ей очень неудобно.', correct: 'Pepa impaciente le pide a su amiga que le quite inmediatamente esta crema de la cabeza porque está muy incómoda.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 3: Barcelona. 28 de octubre. 12.30 h.
+  'ex-9-3-3-1': {
+    id: 'ex-9-3-3-1',
+    type: 'fillblank',
+    title: 'Понимание текста: Barcelona. 28 de octubre. 12.30 h.',
+    description: 'Заполните пропуски словами из списка:\n\napetecer • cajero automático • cuenta corriente • plaza • porteño • sabio • talego • camello • drogas • salvaje • enchufe • tarado • odio • palmar • murciélago • pomerania',
+    questions: [
+      { sentence: 'A Pepa le _____ ir al extranjero, no a Canarias', correct: 'apetece' },
+      { sentence: 'Pepa mira su dinero en un _____', correct: 'cajero automático' },
+      { sentence: 'No tiene suficiente dinero en su _____', correct: 'cuenta corriente' },
+      { sentence: 'Va hacia la _____ del Sol, donde tiene el taxi', correct: 'plaza' },
+      { sentence: 'Armando habla español con acento _____', correct: 'porteño' },
+      { sentence: 'Armando da consejos muy _____ a sus clientes', correct: 'sabios' },
+      { sentence: 'Raúl estuvo dos años en Alcalá Meco y no quiere volver al _____', correct: 'talego' },
+      { sentence: 'Raúl ha sido mecánico, _____, camarero y boxeador', correct: 'camello' },
+      { sentence: 'Sus únicas _____ son la cerveza y la marihuana', correct: 'drogas' },
+      { sentence: 'Raúl es feo, maleducado y medio _____', correct: 'salvaje' },
+      { sentence: 'Raúl dice que Pepa parece que ha metido los dedos en un _____', correct: 'enchufe' },
+      { sentence: 'Armando le dice a Raúl que es un _____', correct: 'tarado' },
+      { sentence: 'Pepa mira a Raúl con _____', correct: 'odio' },
+      { sentence: 'Un vecino ha _____ del corazón', correct: 'palmao' },
+      { sentence: 'Raúl dice que el perrito parece un _____', correct: 'murciélago' },
+      { sentence: 'Armando explica que el perrito es un _____, una raza muy cara', correct: 'pomerania' }
+    ]
+  },
+  'ex-9-3-3-2': {
+    id: 'ex-9-3-3-2',
+    type: 'fillblank',
+    title: 'Грамматика: Tiempos verbales y estructuras complejas',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Presente, Pretérito Perfecto, Indefinido o Imperfecto.\n\nGlагол в скобках дан в инфинитиве - выберите правильную форму!\n\napetecer • mirar • deprimirse • hacer • calcular • dejar • ir • servir • llevar • escuchar • entrar • estar • ser • decir • salir',
+    questions: [
+      { sentence: 'A Pepa no le _____ (apetecer) ir a Canarias, prefiere el extranjero', correct: 'apetece' },
+      { sentence: 'Cuando Pepa _____ (mirar) su cuenta, se dio cuenta de que no tenía suficiente dinero', correct: 'miró' },
+      { sentence: 'Pepa _____ (deprimirse) al ver que no podía ir ni a Canarias', correct: 'se deprimió' },
+      { sentence: 'El peinado que Loli le _____ (hacer) a Pepa era horrible', correct: 'había hecho' },
+      { sentence: 'Con la ambulancia, Loli _____ (calcular) mal el tiempo del producto', correct: 'calculó' },
+      { sentence: 'Loli le _____ (dejar) el producto demasiado tiempo en la cabeza', correct: 'dejó' },
+      { sentence: 'Mientras _____ (ir) hacia la plaza del Sol, Pepa pensaba en su mal día', correct: 'iba' },
+      { sentence: 'Cuando Armando le _____ (servir) el café, Pepa cerró los ojos con placer', correct: 'sirvió' },
+      { sentence: 'Armando _____ (llevar) treinta años en Barcelona pero sigue con acento argentino', correct: 'lleva' },
+      { sentence: 'Armando siempre _____ (escuchar) tranquilamente los problemas de sus clientes', correct: 'escucha' },
+      { sentence: 'En ese momento _____ (entrar) Raúl en el bar', correct: 'entró' },
+      { sentence: 'Raúl _____ (estar) dos años en la cárcel de Alcalá Meco', correct: 'estuvo' },
+      { sentence: 'A lo largo de su vida, Raúl _____ (ser) mecánico, camello, camarero y boxeador', correct: 'ha sido' },
+      { sentence: 'Armando le _____ (decir) a Raúl que era un tarado por burlarse de Pepa', correct: 'dijo' },
+      { sentence: 'Después de tomar el café, Pepa _____ (salir) del bar para ir a trabajar', correct: 'salió' }
+    ]
+  },
+  'ex-9-3-3-3': {
+    id: 'ex-9-3-3-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Поездка на Мальдивы или Мартинику стоит очень дорого — минимум 2500 евро для такой поездки.', correct: 'Ir a las Islas Maldivas o a Martinica es muy caro: como mínimo 2500 euros para ese viaje.' },
+      { russian: 'Пепе хочется поехать за границу, а не на Канары, потому что она хочет чего-то нового.', correct: 'A Pepa le apetece ir al extranjero, no a Canarias, porque quiere algo nuevo.' },
+      { russian: 'Когда Пепа проверяет свой текущий счет в банкомате, она впадает в депрессию от нехватки денег.', correct: 'Cuando Pepa mira su cuenta corriente en el cajero automático, se deprime por la falta de dinero.' },
+      { russian: 'Прическа, которую сделала ей подруга Лоли, выглядит ужасно из-за того, что продукт держали слишком долго.', correct: 'El peinado que le ha hecho su amiga Loli es horrible porque dejó el producto demasiado tiempo.' },
+      { russian: 'Пепа направляется к площади Соль, где у нее есть парковочное место для такси в гараже.', correct: 'Pepa va hacia la plaza del Sol, donde tiene una plaza de párking para el taxi.' },
+      { russian: 'Сегодня стоит холодная и влажная погода, и район Грасиа кажется ей грустным и грязным.', correct: 'Hoy hace un día frío y húmedo, y el barrio de Gracia le parece triste y sucio.' },
+      { russian: 'Чтобы поднять себе настроение, Пепа решает выпить кофе с молоком в баре Армандо.', correct: 'Para animarse, Pepa decide tomar un café con leche en el bar de Armando.' },
+      { russian: 'Армандо — аргентинец, живет в Барселоне тридцать лет, но до сих пор говорит с портеньским акцентом.', correct: 'Armando es argentino, lleva treinta años en Barcelona, pero sigue hablando con acento porteño.' },
+      { russian: 'Он как психоаналитик района: спокойно слушает проблемы своих клиентов и дает им мудрые советы.', correct: 'Es como el psicoanalista del barrio: escucha tranquilamente los problemas de sus clientes y les da consejos sabios.' },
+      { russian: 'В этот момент в бар входит Рауль, который провел два года в тюрьме Алькала-Меко.', correct: 'En ese momento entra Raúl en el bar, que estuvo dos años en la cárcel de Alcalá Meco.' },
+      { russian: 'Рауль был механиком, торговцем наркотиками, официантом и боксером на протяжении своей жизни.', correct: 'Raúl ha sido mecánico, camello, camarero y boxeador a lo largo de su vida.' },
+      { russian: 'Сейчас он работает на парковке, и его единственные наркотики — это пиво и растение марихуаны.', correct: 'Ahora trabaja en el párking y sus únicas drogas son la cerveza y una planta de marihuana.' },
+      { russian: 'Рауль грубо шутит над прической Пепы, говоря, что она выглядит так, будто засунула пальцы в розетку.', correct: 'Raúl bromea groseramente sobre el pelo de Pepa, diciendo que parece que ha metido los dedos en un enchufe.' },
+      { russian: 'Армандо говорит Раулю, что он идиот, потому что так нельзя говорить молодой женщине.', correct: 'Armando le dice a Raúl que es un tarado porque eso no se le dice a una señorita.' },
+      { russian: 'Рауль меняет тему и комментирует, что умер сосед, и Пепа объясняет, что это муж сеньоры Монсеррат.', correct: 'Raúl cambia de tema y comenta que ha muerto un vecino, y Pepa explica que es el marido de la señora Montserrat.' }
     ]
   }
 }
