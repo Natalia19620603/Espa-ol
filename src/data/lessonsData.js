@@ -9793,7 +9793,21 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: 'Casa de la señora Montserrat. 23.00 h.',
-        words: []
+        words: [
+          { word: 'el moscatel', translation: 'мускат, алкогольный напиток', audioUrl: null },
+          { word: 'el suspiro', translation: 'вздох', audioUrl: null },
+          { word: 'no estar para', translation: 'быть не в настроении для', audioUrl: null },
+          { word: 'a medio hacer', translation: 'недоделанный', audioUrl: null },
+          { word: 'las cadenas', translation: 'цепи', audioUrl: null },
+          { word: 'compartir', translation: 'разделять', audioUrl: null },
+          { word: 'dar yuyu', translation: 'dar miedo', audioUrl: null },
+          { word: 'la pipa', translation: 'курительная трубка', audioUrl: null },
+          { word: 'de repente', translation: 'внезапно, вдруг', audioUrl: null },
+          { word: 'los gemelos', translation: 'близнецы, запонки', audioUrl: null },
+          { word: 'el secuestrador', translation: 'похититель', audioUrl: null },
+          { word: 'secuestrar', translation: 'похищать, лишать свободы', audioUrl: null },
+          { word: 'agacharse', translation: 'наклоняться, нагибаться', audioUrl: null }
+        ]
       },
       {
         tab: '1 de noviembre. 00.30 h.',
@@ -20757,7 +20771,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Federico siempre _____ (decir) que quería casarse', correct: 'decía' },
       { sentence: 'Pepa ahora _____ (querer) irse muy lejos de vacaciones', correct: 'quiere' },
       { sentence: 'Antes Pepa _____ (pensar) que Federico era perfecto', correct: 'pensaba' },
-      { sentence: 'Pero luego _____ (ser) aburrido para ella', correct: 'fue' },
+      { sentence: 'Cuando Pepa _____ (irse) a la peluquería, pensaba en sus vacaciones', correct: 'se fue' },
       { sentence: 'Pepa y Loli siempre _____ (llevarse) bien', correct: 'se han llevado' },
       { sentence: 'A Pepa le _____ (gustar) su pelo tal como está', correct: 'gusta' },
       { sentence: 'Federico le _____ (parecer) un plomo a Pepa', correct: 'parece' },
@@ -20774,21 +20788,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Перевод: с русского на испанский',
     description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
-      { russian: 'Пепа хочет уехать в отпуск.', correct: 'Pepa quiere irse de vacaciones.' },
-      { russian: 'Последнего парня зовут Федерико.', correct: 'El último novio se llama Federico.' },
-      { russian: 'Они были вместе три месяца.', correct: 'Han estado tres meses juntos.' },
-      { russian: 'Он неплохой парень, но...', correct: 'No es mal chico, pero...' },
-      { russian: 'Пепа смотрит на брошюру агентства.', correct: 'Pepa mira un folleto de la agencia.' },
-      { russian: 'Все поездки очень дорогие.', correct: 'Todos los viajes son muy caros.' },
-      { russian: 'Пепа — таксистка и не зарабатывает много денег.', correct: 'Pepa es taxista y no gana mucho dinero.' },
-      { russian: 'Она платит за лицензию такси.', correct: 'Está pagando la licencia del taxi.' },
-      { russian: 'Парикмахерская — маленькое помещение.', correct: 'La peluquería es un pequeño local.' },
-      { russian: 'Помещение срочно нуждается в ремонте.', correct: 'El local necesita urgentemente una reforma.' },
-      { russian: 'Они совершенно разные, но хорошо ладят.', correct: 'Son totalmente diferentes, pero se llevan bien.' },
-      { russian: 'Сегодня Пепа в плохом настроении.', correct: 'Hoy Pepa está de mal humor.' },
-      { russian: 'Какая ты скучная, какая пресная...', correct: 'Qué aburrida eres, qué sosa...' },
-      { russian: 'Как ты будешь флиртовать с такой прической?', correct: '¿Cómo vas a ligar con este pelo?' },
-      { russian: 'Федерико — зануда, но очень хороший парень.', correct: 'Federico es un plomo, pero muy buen chico.' }
+      { russian: 'Пепа хочет уехать в отпуск очень далеко, потому что ей нужно отдохнуть от всего.', correct: 'Pepa quiere irse de vacaciones muy lejos porque necesita descansar de todo.' },
+      { russian: 'Её последнего парня зовут Федерико, и они были вместе всего три месяца.', correct: 'Su último novio se llama Federico y han estado juntos solo tres meses.' },
+      { russian: 'Хотя Федерико милый и довольно симпатичный, Пепа думает, что он ужасно скучный.', correct: 'Aunque Federico es dulce y bastante guapo, Pepa piensa que es terriblemente aburrido.' },
+      { russian: 'Пепа сидела в такси и рассматривала брошюру туристического агентства с фотографиями круизов.', correct: 'Pepa estaba sentada en el taxi y miraba un folleto de la agencia de viajes con fotos de cruceros.' },
+      { russian: 'Все поездки, которые она хотела бы сделать, оказались очень дорогими для её бюджета.', correct: 'Todos los viajes que le gustaría hacer resultaron muy caros para su presupuesto.' },
+      { russian: 'Пепа работает таксисткой в Барселоне и не зарабатывает много денег, потому что платит за лицензию.', correct: 'Pepa trabaja como taxista en Barcelona y no gana mucho dinero porque está pagando la licencia.' },
+      { russian: 'Парикмахерская её подруги Лоли — это маленькое помещение, которое срочно нуждается в ремонте.', correct: 'La peluquería de su amiga Loli es un pequeño local que necesita urgentemente una reforma.' },
+      { russian: 'Несмотря на то, что Пепа и Лоли совершенно разные по характеру, они всегда хорошо ладили друг с другом.', correct: 'Aunque Pepa y Loli son totalmente diferentes de carácter, siempre se han llevado bien.' },
+      { russian: 'Сегодня Пепа в особенно плохом настроении, потому что думает о том, как расстаться с Федерико.', correct: 'Hoy Pepa está de especialmente mal humor porque está pensando en cómo romper con Federico.' },
+      { russian: 'Лоли считает, что Пепа слишком скучная и пресная, и ей нужно изменить свой стиль.', correct: 'Loli cree que Pepa es demasiado aburrida y sosa, y necesita cambiar su estilo.' },
+      { russian: 'Парикмахер спрашивает Пепу, как она собирается флиртовать с парнями с такой ужасной прической.', correct: 'La peluquera le pregunta a Pepa cómo va a ligar con los chicos con ese pelo tan horrible.' },
+      { russian: 'Федерико хочет жениться и завести детей, но для Пепы он — настоящий зануда, хотя и хороший человек.', correct: 'Federico quiere casarse y tener hijos, pero para Pepa es un auténtico plomo, aunque sea buena persona.' },
+      { russian: 'Пепа говорит себе, что это хороший момент, чтобы уехать и начать новую жизнь без всех этих проблем.', correct: 'Pepa se dice a sí misma que es un buen momento para irse y empezar una nueva vida sin todos estos problemas.' },
+      { russian: 'Когда Пепа входит в душ парикмахерской, Лоли начинает говорить о модных вещах этого сезона.', correct: 'Cuando Pepa entra en la ducha de la peluquería, Loli empieza a hablar de las cosas monas de esta temporada.' },
+      { russian: 'Пепе на самом деле нравится её собственный стиль, и она не хочет, чтобы Лоли её меняла.', correct: 'A Pepa en realidad le gusta su propio estilo y no quiere que Loli la cambie.' }
     ]
   }
 }
