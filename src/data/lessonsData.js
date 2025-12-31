@@ -10363,7 +10363,44 @@ Todos aceptan encantados. Un buen asado y unos vinos argentinos ahuyentan a todo
       },
       {
         tab: '3 de noviembre. Por la mañana.',
-        content: ``,
+        content: `Pepa sale de casa a las once. Ha dormido mucho pero todavía está cansada. Han sido unos días muy estresantes. En la entrada encuentra a la señora Montserrat, que llega del mercado con su carrito de la compra.
+
+−Hola, Pepa. ¡Qué caro está todo en el mercado, Dios mío! ¡Y cómo pesa este carro! Y es solo comida para mí. Bueno, y para Aristóteles… Ah, una cosa importante… Espera un momento… A ver, aquí en el bolso… Sí, mira, quiero enseñarte esto. Lo he encontrado en el salón de mi casa.
+
+Montserrat le da a Pepa un CD. En la caja pone: «Calle Bonavista,
+5».
+
+−No es mío. Yo no entiendo nada de ordenadores. Ni de discos de estos. Alguien lo ha perdido. ¿Tú puedes mirar qué es? ¿O de quién es?
+
+−Claro. Subo a casa y lo miro ahora mismo.
+
+Pepa tiene muchas ganas de ver qué hay en el CD. Es algo del edificio porque pone la dirección, Bonavista, 5… Pueden ser pistas sobre el misterio de la escalera, la extraña empresa inmobiliaria y sus juegos terroríficos de fantasmas.
+
+Sube las escaleras de dos en dos y se sienta frente al portátil. Examina el contenido del disco: son unos planos, como de un arquitecto. Pepa los mira con atención. Al principio no entiende nada, pero luego ve que es un plano de la entrada: el portal, la escalera, el cuartito de los contadores… ¿Qué es esto? ¡Qué raro! En color rojo está señalada una zona.
+
+−A ver… Esta parte roja, ¿qué es? −Pepa piensa en voz alta−. Esto es la puerta, esto el cuarto de los contadores, esto la escalera y…
+¡Entonces esto es el ascensor, el hueco del ascensor! ¿Por qué les interesa el ascensor? ¿Qué hay en un viejo ascensor de una vieja casa?
+«Tengo que llamar a Ariel y explicarle esto», piensa Pepa. «¿O es que
+
+busco una excusa para verlo?», se pregunta después.
+
+Finalmente decide ir a trabajar un rato. Un taxista que se queda en casa no gana un duro67. Y Pepa quiere irse al Caribe en enero. Va a buscar el coche a la Plaza del Sol. Raúl está durmiendo la siesta en su caseta. Cuando pasa a su lado, Raúl se despierta.
+
+−Tía, ¿qué pasa? ¿No saludas o qué? ¿Te vas a currar68? Pepa no tiene muchas ganas de hablar con él.
+−Sí, me voy a currar. Que hoy no he ganado ni un duro.
+
+−Pues hasta luego.
+
+Pepa sale por las pequeñas calles hasta Gran de Gracia, la calle principal del barrio. Es una calle comercial y siempre suele haber gente que busca taxi. En un par de minutos ya ha puesto el cartel de
+«ocupado». Es un norteamericano que quiere comer paella.
+
+Pepa le propone llevarlo al puerto y cruza Barcelona. En la Barceloneta69 lo deja en El suquet de l'Almirall, donde hacen los mejores arroces de pescado de Barcelona. No es exactamente paella, pero están buenísimos. Intenta explicarle al norteamericano la diferencia entre una paella y un arroz caldoso70, pero al final lo deja. Demasiado difícil.
+
+−Ya verá, el arroz aquí está delicioso.
+
+El americano le deja una propina fantástica. «Si sigue así el día… A lo mejor puedo invitar a Ariel a tomar un arroz en este restaurante. Una cena romántica, junto al mar…», piensa Pepa. Está claro que le gusta Ariel.
+
+Trabaja seis horas y vuelve a casa. Tiene hambre y no ha comido nada en todo el día.`,
         translation: ``
       },
       {
