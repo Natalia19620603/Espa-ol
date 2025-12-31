@@ -9875,7 +9875,14 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: '3 de noviembre. 16.00 h.',
-        words: []
+        words: [
+          { word: 'el portal', translation: 'подъезд (дома)', audioUrl: null },
+          { word: 'observar', translation: 'наблюдать, рассматривать', audioUrl: null },
+          { word: 'reconocer', translation: 'узнавать, признавать', audioUrl: null },
+          { word: 'el casco', translation: 'шлем, каска', audioUrl: null },
+          { word: 'arreglar', translation: 'приводить в порядок, чинить', audioUrl: null },
+          { word: 'picar', translation: 'мелко порубить, долбить', audioUrl: null }
+        ]
       },
       {
         tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
