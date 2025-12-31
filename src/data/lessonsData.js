@@ -9819,7 +9819,17 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: '1 de noviembre. 10.30 h.',
-        words: []
+        words: [
+          { word: 'la vanguardia', translation: 'впереди, в авангарде, название газеты', audioUrl: null },
+          { word: 'valiente', translation: 'храбрый, смелый', audioUrl: null },
+          { word: 'arrugado', translation: 'мятый', audioUrl: null },
+          { word: 'las arrugas', translation: 'морщины, складки', audioUrl: null },
+          { word: 'el pelo de punta', translation: 'волосы дыбом, торчащие вверх', audioUrl: null },
+          { word: 'tender la mano', translation: 'протянуть руку', audioUrl: null },
+          { word: 'vigilar', translation: 'следить, наблюдать', audioUrl: null },
+          { word: 'cierto', translation: 'точный, точно', audioUrl: null },
+          { word: 'ridículo', translation: 'смешной, нелепый', audioUrl: null }
+        ]
       },
       {
         tab: '2 de noviembre. 08.00 h.',
@@ -20838,23 +20848,23 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-9-3-2-2',
     type: 'fillblank',
     title: 'Грамматика: Imperativo y tiempos del pasado',
-    description: 'Заполните пропуски правильной формой глагола. Используйте Imperativo (afirmativo/negativo), Pretérito Perfecto, Indefinido o Imperfecto.\n\nGlагол в скобках дан в инфинитиве - выберите правильную форму!\n\nponer • observar • funcionar • salir • oírse • asomarse • regresar • parecer • encontrar • vivir • llevar • conocer • venir • quitar • faltar',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Imperativo (afirmativo/negativo), Pretérito Perfecto, Indefinido o Imperfecto.\n\nGlагол в скобках дан в инфинитиве - выберите правильную форму!\n\nponer • observar • funcionar • salir • oírse • asomarse • regresar • parecer • encontrar • vivir • llevar • conocer • venir • quitar • faltar • decir • ser • estar • tener',
     questions: [
-      { sentence: 'Loli le _____ (poner) en la cabeza una crema blanca', correct: 'pone' },
-      { sentence: 'Pepa _____ (observar) pacientemente cómo su amiga distribuye el producto', correct: 'observa' },
-      { sentence: '¿Seguro que esto _____ (funcionar)?', correct: 'funciona' },
-      { sentence: 'De pronto, _____ (oírse) una ambulancia', correct: 'se oyó' },
-      { sentence: 'Loli _____ (salir) a la puerta de la peluquería', correct: 'salió' },
-      { sentence: '¡_____ (asomarse - tú) a la ventana! - dice Loli a su clienta', correct: 'Asómate' },
-      { sentence: 'Loli _____ (regresar) con cara de tragedia', correct: 'regresó' },
-      { sentence: 'Esta vez _____ (parecer) que va en serio', correct: 'parece' },
-      { sentence: 'La señora Montserrat lo _____ (encontrar) muerto en la cama', correct: 'ha encontrado' },
-      { sentence: 'Ellos _____ (vivir) en el primero del edificio', correct: 'viven' },
-      { sentence: 'Pepa lo _____ (llevar) muchas veces en el taxi', correct: 'ha llevado' },
-      { sentence: '¿Tú los _____ (conocer) mucho? - pregunta Pepa', correct: 'conoces' },
-      { sentence: 'Ella _____ (venir) dos veces por semana a la peluquería', correct: 'viene' },
-      { sentence: '¡_____ (quitar - tú) esto de la cabeza, por favor!', correct: 'Quita' },
-      { sentence: '_____ (faltar) dos minutos y medio para terminar el tratamiento', correct: 'Faltan' }
+      { sentence: 'Cuando Loli le _____ (poner) la crema en la cabeza, Pepa pensaba en sus vacaciones', correct: 'puso' },
+      { sentence: 'Mientras Pepa _____ (observar) cómo distribuía el producto, se preguntaba si funcionaría', correct: 'observaba' },
+      { sentence: 'Pepa le preguntó a Loli si _____ (estar) segura de que esto funcionaba bien', correct: 'estaba' },
+      { sentence: 'De pronto, _____ (oírse) el sonido de una ambulancia que paraba en la calle', correct: 'se oyó' },
+      { sentence: 'En cuanto Loli _____ (oírse) la ambulancia, salió corriendo a la puerta', correct: 'oyó' },
+      { sentence: '¡No _____ (asomarse - tú) todavía, que tienes la crema en la cabeza! - le dice Loli', correct: 'te asomes' },
+      { sentence: 'Cuando Loli _____ (regresar) de hablar con la portera, tenía cara de tragedia', correct: 'regresó' },
+      { sentence: 'A Pepa le _____ (parecer) que esta vez su amiga no estaba exagerando', correct: 'pareció' },
+      { sentence: 'La pobre señora Montserrat lo _____ (encontrar) muerto esta mañana cuando se despertó', correct: 'ha encontrado' },
+      { sentence: 'Antes de morir, ellos _____ (vivir) juntos más de cuarenta años en ese piso', correct: 'habían vivido' },
+      { sentence: 'Pepa _____ (llevar) al señor Ramón muchas veces al médico en su taxi', correct: 'había llevado' },
+      { sentence: 'Loli le _____ (decir) a Pepa que la señora Montserrat era muy buena clienta', correct: 'dijo' },
+      { sentence: 'La señora Montserrat _____ (venir) a la peluquería religiosamente dos veces por semana', correct: 'venía' },
+      { sentence: '¡_____ (quitar - tú) inmediatamente este producto, por favor, que me molesta mucho!', correct: 'Quita' },
+      { sentence: 'Loli le _____ (decir) que faltaban exactamente dos minutos y medio para terminar', correct: 'dijo' }
     ]
   },
   'ex-9-3-2-3': {
