@@ -9311,7 +9311,7 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
     ],
     audioTabs: [
       {
-        tab: 'Capitulo 1',
+        tab: 'Capitulo 1 - Fragmento 1',
         audioUrl: '/audio/1 1.mp3'
       },
       {
@@ -9333,6 +9333,42 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
       {
         tab: 'Capitulo 1 - Fragmento 6',
         audioUrl: '/audio/1 6.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 1',
+        audioUrl: '/audio/2 1.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 2',
+        audioUrl: '/audio/2 2.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 3',
+        audioUrl: '/audio/2 3.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 4',
+        audioUrl: '/audio/2 4.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 5',
+        audioUrl: '/audio/2 5.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 6',
+        audioUrl: '/audio/2 6.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 7',
+        audioUrl: '/audio/2 7.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 8',
+        audioUrl: '/audio/2 8.mp3'
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 9',
+        audioUrl: '/audio/2 9.mp3'
       }
     ],
     exercises: [
