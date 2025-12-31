@@ -9742,32 +9742,278 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
     readingTabs: [
       {
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
-        content: ``,
+        content: `Pepa quiere irse de vacaciones. Lejos, muy lejos… ¿A África? ¿A Vietnam? ¿A Madagascar?… Estamos en octubre y no hay muchos turistas en Barcelona. Bueno, en Barcelona siempre hay turistas, pero en octubre menos. Es un buen momento para irse de vacaciones y descansar. Olvidar su taxi, la policía municipal, su casa y un novio, Federico. El último novio de Pepa se llama Federico. Solo han estado tres meses juntos, pero… No es mal chico. Es dulce y bastante guapo.
+
+¡Pero quiere casarse y tener muchos niños! No, no, no, no… «Adiós, Federico», piensa Pepa. «Es buen chico, pero… ¿vivir con Federico siempre?»
+
+−No, no, no, no… Tengo que hablar con él −se dice a sí misma, y entra en la ducha.
+
+Ahora, en la peluquería de su calle, Pepa mira un folleto de la agencia Sueños lejanos: fotos de playas del Caribe y montañas suizas, cruceros y pirámides mayas… Pero todos los viajes son muy caros. Pepa es taxista y no gana mucho dinero. Además, está pagando la licencia del taxi y el coche.
+
+La peluquería es un pequeño local que necesita urgentemente una reforma. Se llama Loli Fashion y, aunque Loli, la peluquera, no es nada fashion, sí es una buena amiga de Pepa. Son totalmente diferentes, pero se llevan bien. El único problema es que Loli siempre le quiere cambiar el look a Pepa. Y hoy Pepa está de mal humor.
+
+−¿Qué? ¿Te hago algo especial? ¿Algo diferente? ¿Super, superfashion? −pregunta Loli.
+
+−Quiero el pelo cortito, como siempre.
+
+−Pepa, qué aburrida eres, qué sosa… Mira qué cosas tan monas se llevan esta temporada… Colores, cortes especiales, alisado japonés, cosas extremas, modernas… ¿Cómo vas a ligar con este pelo?
+
+−Ya sabes: yo soy yo… Y me gusta mi pelo. Y a veces ligo. ¿Qué es eso del «alisado japonés»?
+
+−Uy, pues una maravilla… ¡Divino! ¿Ves estos rizos? Pues nada, con el alisado japonés, no queda ni un rizo. Tenemos un nuevo producto que… Tienes que hacértelo. Es fantástico.
+
+−Vale, vale, vale: alisado japonés −acepta Pepa. A Pepa no le gusta su pelo y por eso nunca lo lleva demasiado largo. Y hoy no quiere discutir con Loli.
+
+Y, sí, es verdad: necesita cambios, cosas nuevas… Y qué coño: un novio nuevo. Necesita un novio nuevo. Federico es un plomo. Muy buen chico, pero un plomo: no bebe, no fuma, no liga con otras, trabaja en un banco y se gana la vida… Pero es un plomo. ¡Y siempre lleva trajes grises!
+
+Para la primera fase, el pelo y un viaje. Una playa tropical, unas buenas novelas y… lo del novio nuevo, ya veremos.`,
         translation: ``
       },
       {
         tab: 'Barcelona. 28 de octubre. 10.30 h.',
-        content: ``,
+        content: `Loli le pone en la cabeza una crema blanca que apesta a amoniaco. Pepa observa pacientemente cómo su amiga distribuye el mágico producto.
+
+−¿Seguro que esto funciona?
+
+−Claro, mujer…. Vas a ser la tía más guapa de Gracia. Mejor dicho, la taxista más guapa de Barcelona.
+
+«Lo necesito», se dice Pepa, y se mira con escepticismo en el espejo. «¿Por qué todos tenemos este aspecto horrible en la peluquería?», piensa.
+
+De pronto, se oye una ambulancia. Para frente a la peluquería.
+
+−¿Qué pasa? −pregunta Pepa.
+
+Loli sale a la puerta de la peluquería. Loli lo sabe todo en el barrio. Ya se sabe: las peluquerías de barrio son auténticas oficinas de la CIA, o peor. Y Loli necesita estar perfectamente informada. Cinco minutos después, Pepa, con la cabeza llena de crema japonesa, se levanta y se asoma a la puerta. Parece un alien, con su capa de plástico y la crema en la cabeza.
+
+−Loli, ¿qué pasa? −la peluquera habla con la portera del edificio de al lado, el mismo edificio en el que vive Pepa.
+
+Loli regresa con cara de tragedia. Pepa casi nunca le hace demasiado caso cuando la ve así, porque Loli es muy teatrera, pero esta vez parece que va en serio.
+
+−¡El señor Ramón! Pobre señor Ramón… Pobre señora Montserrat… ¡Qué pena! – dice Loli, y una lágrima gorda cae por su cara supermaquillada.
+
+−Pero, ¿qué pasa? −pregunta Pepa impaciente.
+
+−Pues la señora Montserrat, ya sabes, la vecina del primero… Esa señora tan amable con el perrito.
+
+−¿El perrito horrible…?
+
+−Sí… ¡Lo ha encontrado muerto en la cama!
+
+−¿Al perrito?
+
+−No, mujer, al marido. Al señor Ramón, que en paz descanse.
+
+−Joder, qué fuerte… Viven en el primero. ¡En el mismo edificio que yo! Y lo llevo muchas veces en el taxi. Al médico, y esas cosas.
+
+−Pues esta vez se lo ha llevado Dios −dice Loli, que ahora parece una estrella americana del cine de los años 50 interpretando la escena más trágica de la película.
+
+−¿Tú los conoces mucho? −pregunta Pepa.
+
+−Bueno… No, mucho no. Ella es muy buena clienta. ¡Viene dos veces por semana! Y él… un buen hombre −Loli suspira y continúa−. ¡Ay, no somos nada! Estamos cuatro días en el mundo y ¡zas!, llega un día, de repente, y ya no estamos.
+
+−Sí, Loli, no somos nada. Pero, ahora, por favor, ¿me puedes quitar esto de la cabeza?
+
+Loli mira dramáticamente el reloj y responde:
+
+−Faltan dos minutos y medio.`,
         translation: ``
       },
       {
         tab: 'Barcelona. 28 de octubre. 12.30 h.',
-        content: ``,
+        content: `Ir a las Islas Maldivas o a Martinica es muy caro: como mínimo, 2500 euros. ¿Canarias? No. Le apetece ir al extranjero. En un cajero automático Pepa mira cuánto dinero hay en su cuenta corriente y se deprime: ¡ni para Canarias tiene suficiente!
+
+El peinado que le ha hecho su amiga Loli es horrible. Con la ambulancia y la muerte del vecino, del señor Ramón, Loli ha calculado mal. Le ha dejado el producto demasiado tiempo. Parece una cantante de reggae con minirrastas de quince centímetros.
+
+Va hacia la plaza del Sol, donde tiene una plaza de párking para el taxi. Hace un día feo, frío y húmedo. Gracia, el barrio donde vive y que tanto le gusta normalmente, le parece hoy triste y sucio. Para animarse, decide tomar un café con leche en el bar de Armando.
+
+Armando le sirve el café a Pepa. Esta toma el vaso con las dos manos y cierra los ojos con placer. «¡Cómo me gusta el café con leche!», piensa.
+
+−El mejor café del barrio, Armando… −dice Pepa.
+
+−Para la taxista más linda…
+
+−¡Por favor, Armando…! Hoy estoy horrible.
+
+−¡Pero qué decís…! Sos la más linda de las taxistas de Barcelona.
+
+Armando es argentino y lleva 30 años en Barcelona. Pero sigue hablando el español con acento porteño. «El acento es como parte de tu persona. No se puede perder», dice él siempre. Es como el psicoanalista del barrio: escucha tranquilamente los problemas de sus clientes y les da consejos muy sabios.
+
+En este momento entra Raúl. Raúl ha hecho mil cosas en la vida.
+
+Ha estado dos años, según él «muy chungos» en Alcalá Meco y no quiere volver al talego. Ha sido mecánico, camello, camarero, boxeador… Ahora, trabaja en el párking donde guarda el taxi Pepa. Y parece que sus únicas drogas son la cerveza de lata y una planta de marihuana que sobrevive milagrosamente en el patio del párking. Es feo, maleducado, medio salvaje… y una muy buena persona.
+
+−Pero Pepa… ¿qué te ha pasado en el pelo? Si parece que has metido los dedos en un enchufe… Je, je, je…
+
+−No tiene gracia.
+
+−Tranquila mujer, es solo una broma.
+
+−Vos sos un tarado, Raúl… −murmura Armando−. Eso no se le dice a una señorita.
+
+−¿Pepa una señorita? Je, je, je… Tú sí que estás de broma. Pepa mira a Raúl con odio.
+
+−Vale, vale, vale… Es una broma, solo una broma. Ya está, ya está… −dice él−. Por cierto, ha palmao un vecino, ¿no? −comenta Raúl para cambiar de tema.
+
+−Sí, del corazón. El señor Ramón, el marido de la señora Montserrat. La del perrito horrible −añade Pepa.
+
+−Un pomerania −dice Armando.
+
+−¿Qué? −pregunta Raúl.
+
+−Que el perrito horrible es un pomerania. Pomerania es una raza de perros muy cara.
+
+−Pues es muy feo, parece un murciélago…−dice Raúl.
+
+−Un murciélago muy caro −añade Armando.
+
+−Bueno, chicos… Yo me voy a trabajar −dice Pepa, y sale del bar.`,
         translation: ``
       },
       {
         tab: '30 de octubre. Por la mañana.',
-        content: ``,
+        content: `Pepa se levanta pronto. Se prepara un café y piensa «a ver si trabajo bien hoy, ahorro algo y en enero me voy al Caribe».
+
+Sale a la calle. Frente a la casa hay tres hombres. Miran unos planos y hablan del edificio.
+
+−Ya tenemos el segundo, el tercero…
+
+Pepa sabe que una constructora quiere comprar todo el edificio. Pepa vive en el ático, en un piso muy pequeño, pero con una terraza muy bonita desde la que se ve un poquito el mar. Pasa lentamente al lado de los hombres para escuchar la conversación.
+
+−El problema es la vieja del primero −dice uno de ellos, gordito y con aspecto de mafioso.
+
+«¿La vieja del primero? Es la señora Montserrat…», piensa Pepa.
+
+Va a la plaza del Sol y vuelve hacia su calle con el taxi. Quiere saber más de esos tipos. Pepa tiene un contrato de alquiler para tres años y no quiere dejar su ático. Pasa lentamente en coche por delante del edificio. Los hombres de los planos están allí todavía, en la acera. Parece que se están despidiendo. Uno de ellos levanta la mano.
+
+−¡Taxi! −grita.
+
+Pepa se para y dos de los hombres suben al taxi.
+
+−Calle Muntaner, 367 −dicen directamente. No han dicho «buenos días». Pepa clasifica a sus pasajeros en dos clases: los que dicen «buenos días» y los que no dicen «buenos días».
+
+Pepa escucha con atención lo que dicen. No la conocen. No saben que es la vecina del ático.
+
+−Tenemos que hacer algo con la vieja −dice uno.
+
+−Sí, tiene que vender su piso. Necesitamos todo el edificio para la operación.
+
+−¿Y el ático? ¿Qué pasa con el ático?
+
+−Eso no es problema.
+
+«¿No es problema?», piensa Pepa. «¡Para mí sí que es un problema!»
+
+En la calle Muntaner bajan. Y no dicen adiós. ¡Claro!
+
+Pepa escribe en su agenda la dirección: Muntaner, 367. Quiere saber más sobre esta movida.
+
+A las diez suena el teléfono móvil de Pepa. Es Federico.
+
+−Hola, mi amor… ¿Comemos juntos? −pregunta él.
+
+−Tengo mucho trabajo, y hoy…
+
+−Bueno, vale… Te llamo luego.
+
+«¡Federico es tan bueno! Siempre está de acuerdo en todo. Pero no estoy enamorada, joder…», piensa Pepa. «Mañana hablo con él y lo dejamos».`,
         translation: ``
       },
       {
         tab: '30 de octubre. Por la tarde.',
-        content: ``,
+        content: `Por la tarde es el funeral del señor Ramón. Hay mucha gente en la iglesia de la plaza de la Virreina. Familia y vecinos. Pepa conoce a muchos de ellos. Naturalmente están ahí Loli y Armando.
+
+Llega la señora Montserrat con el perrito. El pomerania que parece un murciélago. Aristóteles, se llama. La señora Montserrat piensa que es muy inteligente y por eso el perro tiene ese nombre.
+
+«¿Va a la iglesia el perro?», se pregunta Pepa. Pero ve que llega Raúl. La señora Montserrat le da el perro y Raúl se pone a pasear con él por la plaza. Raúl ve a Pepa.
+
+−Ocho euros la hora −le dice Raúl.
+
+−¿Cómo?
+
+−Que ahora soy paseador de perros, tía… La señora Montserrat me paga ocho euros la hora por estar con Aristóteles.
+
+−Qué bien −dice Pepa.
+
+−Es un pomerania, ¿sabes? −dice Raúl−. Con muy mala leche23, pero de pura raza.
+
+−Sí, ya lo sé.
+
+−Ahora soy paseador de perros − vuelve a decir Raúl, orgulloso−.
+Creo que es una profesión con futuro.
+
+−¿Y ya tienes varios clientes?
+
+−No, de momento, solo Aristóteles.
+
+Pepa entra en la iglesia con Loli. Se sienta al final: no le gustan los entierros.`,
         translation: ``
       },
       {
         tab: '30 de octubre. 19.00 h.',
-        content: ``,
+        content: `A las siete, Pepa aparca el taxi. No hay mucho trabajo y está cansada. Antes de ir a casa, pasa por el bar de Armando. En la barra está la señora Montserrat, que se está tomando una tila.
+
+−Hola, señora Montserrat. Lo siento mucho −dice Pepa. «¿Qué se dice en estos casos? Ni idea», piensa Pepa.
+
+La señora Montserrat le da las gracias con dos besos muy sonoros.
+No es necesario decir nada: la señora Montserrat lo dice todo.
+
+El perrito horrible se pone a dormir sobre el pie de Pepa. Cada vez que ella se mueve, el perro gruñe. También él parece deprimido.
+¡Normal!
+
+−Pues, como le decía a Armando: en nuestra casa pasan cosas raras, muy raras, Pepa.
+
+−¿Qué cosas raras? −pregunta Pepa.
+
+−¡Hay fantasmas! −dice la señora Montserrat con los ojos bien abiertos.
+
+−¿Cómo? ¿Qué?
+
+− Sí, chica, sí. Es terrible. Ya sé, vais a pensar: «Esta pobre vieja está loca…». Pero algo pasa. Hay ruidos raros, gritos…
+
+Armando quiere tranquilizarla:
+
+−Mujer, tranquila, es el shock… Es normal, los primeros días…
+
+−Armando, que no… Ya sé que los argentinos sois muy psicólogos, pero yo no estoy loca. Veo cosas y oigo cosas… Ay, pobre mi Ramón… Quizá está vagando por la casa, como un alma en pena24….
+
+−¿Cómo un fantasma, quiere decir? −pregunta Pepa.
+
+−Eso, como un fantasma −dice la señora Montserrat muy seria. En ese momento se oyen unos gritos terribles.
+−Uuuuuuh, aaaaah, oooooooh…
+
+Todos dan un salto y miran hacia los gritos.
+
+No es un fantasma. En la puerta está Raúl. Aristóteles, el perro- murciélago, le clava sus pequeños dientes en la pierna.
+
+−¡Aristóles, cabrón25! ¡Qué haces! ¡Que soy tu amigo! −grita entre lamentos Raúl.
+
+−Ese sí que es un fantasma26 −dice Pepa.
+
+Cuando por fin Raúl está libre de Aristóteles, la señora Montserrat se toma una segunda tila. Raúl reclama un carajillo de Torres27.
+−Te invito yo −dice la señora Montserrat−. Aristóteles, eres muy malo. Malo, malo, malo…
+
+−Con mucho coñac −dice Raúl cuando sabe que la señora Montserrat es la que paga.
+
+−¡Pobre Aristóteles! −exclama la mujer−. Es que tiene mucho carácter…
+
+−Grrrrrrrrrrrrr −dice simplemente Aristóteles, que sigue mirando a Raúl.
+
+−Perro desagradecido −comenta Raúl−. Eso no es carácter. ¡Es mala leche!
+
+Al final todos están ya más tranquilos, Raúl, Aristóteles y su dueña.
+
+Armando le da su número de móvil.
+
+−Señora Montserrat, usted me llama si tiene miedo. A cualquier hora, de día o de noche −le dice el argentino−. Hablamos un rato, usted me cuenta sobre sus fantasmas…
+
+−Y dale con28 la psicología −dice Raúl.
+
+−Y a mí también me puede llamar. Ya tiene mi teléfono, ¿no?
+−añade Pepa.
+
+La señora Montserrat les da las gracias a todos, paga sus tilas y el carajillo de Raúl y sale con Aristóteles. Es una mujer valiente.
+
+«Además, si el fantasma es mi difunto Ramón…», piensa entrando en la casa. «En 40 años no hemos tenido problemas, o sea, que ahora, vivo o muerto… Bueno, solamente cuando el Barça29 no va bien…»`,
         translation: ``
       },
       {
