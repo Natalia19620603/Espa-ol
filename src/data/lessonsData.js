@@ -9771,7 +9771,25 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: '31 de octubre',
-        words: []
+        words: [
+          { word: 'en vísperas', translation: 'накануне, в преддверии', audioUrl: null },
+          { word: 'el boniato', translation: 'батат, сладкий картофель', audioUrl: null },
+          { word: 'anglosajón', translation: 'англосаксонский', audioUrl: null },
+          { word: 'la bruja', translation: 'ведьма, колдунья', audioUrl: null },
+          { word: 'el asesino', translation: 'убийца', audioUrl: null },
+          { word: 'las almendras', translation: 'миндальные орехи', audioUrl: null },
+          { word: 'la excusa', translation: 'оправдание, отговорка', audioUrl: null },
+          { word: 'recién', translation: 'недавно, только что', audioUrl: null },
+          { word: 'pegajoso', translation: 'липкий, клейкий', audioUrl: null },
+          { word: 'el puño', translation: 'кулак, манжета', audioUrl: null },
+          { word: 'puñetero', translation: 'чертов, проклятый', audioUrl: null },
+          { word: 'el botón', translation: 'кнопка, пуговица', audioUrl: null },
+          { word: 'el encendedor', translation: 'зажигалка', audioUrl: null },
+          { word: 'tropezar', translation: 'споткнуться', audioUrl: null },
+          { word: 'el macho', translation: 'самец', audioUrl: null },
+          { word: 'el disfraz', translation: 'маскарадный костюм', audioUrl: null },
+          { word: 'el fiambre', translation: 'холодная мясная закуска', audioUrl: null }
+        ]
       },
       {
         tab: 'Casa de la señora Montserrat. 23.00 h.',
