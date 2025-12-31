@@ -9871,7 +9871,51 @@ Ha estado dos años, según él «muy chungos» en Alcalá Meco y no quiere volv
       },
       {
         tab: '30 de octubre. Por la mañana.',
-        content: ``,
+        content: `Pepa se levanta pronto. Se prepara un café y piensa «a ver si trabajo bien hoy, ahorro algo y en enero me voy al Caribe».
+
+Sale a la calle. Frente a la casa hay tres hombres. Miran unos planos y hablan del edificio.
+
+−Ya tenemos el segundo, el tercero…
+
+Pepa sabe que una constructora quiere comprar todo el edificio. Pepa vive en el ático, en un piso muy pequeño, pero con una terraza muy bonita desde la que se ve un poquito el mar. Pasa lentamente al lado de los hombres para escuchar la conversación.
+
+−El problema es la vieja del primero −dice uno de ellos, gordito y con aspecto de mafioso.
+
+«¿La vieja del primero? Es la señora Montserrat…», piensa Pepa.
+
+Va a la plaza del Sol y vuelve hacia su calle con el taxi. Quiere saber más de esos tipos. Pepa tiene un contrato de alquiler para tres años y no quiere dejar su ático. Pasa lentamente en coche por delante del edificio. Los hombres de los planos están allí todavía, en la acera. Parece que se están despidiendo. Uno de ellos levanta la mano.
+
+−¡Taxi! −grita.
+
+Pepa se para y dos de los hombres suben al taxi.
+
+−Calle Muntaner, 367 −dicen directamente. No han dicho «buenos días». Pepa clasifica a sus pasajeros en dos clases: los que dicen «buenos días» y los que no dicen «buenos días».
+
+Pepa escucha con atención lo que dicen. No la conocen. No saben que es la vecina del ático.
+
+−Tenemos que hacer algo con la vieja −dice uno.
+
+−Sí, tiene que vender su piso. Necesitamos todo el edificio para la operación.
+
+−¿Y el ático? ¿Qué pasa con el ático?
+
+−Eso no es problema.
+
+«¿No es problema?», piensa Pepa. «¡Para mí sí que es un problema!»
+
+En la calle Muntaner bajan. Y no dicen adiós. ¡Claro!
+
+Pepa escribe en su agenda la dirección: Muntaner, 367. Quiere saber más sobre esta movida.
+
+A las diez suena el teléfono móvil de Pepa. Es Federico.
+
+−Hola, mi amor… ¿Comemos juntos? −pregunta él.
+
+−Tengo mucho trabajo, y hoy…
+
+−Bueno, vale… Te llamo luego.
+
+«¡Federico es tan bueno! Siempre está de acuerdo en todo. Pero no estoy enamorada, joder…», piensa Pepa. «Mañana hablo con él y lo dejamos».`,
         translation: ``
       },
       {
