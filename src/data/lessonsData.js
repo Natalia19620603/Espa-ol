@@ -9739,7 +9739,7 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
         audioUrl: '/audio/9-3-15.mp3'
       }
     ],
-    readingTabs: [
+    readingText: [
       {
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
         content: `Pepa quiere irse de vacaciones. Lejos, muy lejos… ¿A África? ¿A Vietnam? ¿A Madagascar?… Estamos en octubre y no hay muchos turistas en Barcelona. Bueno, en Barcelona siempre hay turistas, pero en octubre menos. Es un buen momento para irse de vacaciones y descansar. Olvidar su taxi, la policía municipal, su casa y un novio, Federico. El último novio de Pepa se llama Federico. Solo han estado tres meses juntos, pero… No es mal chico. Es dulce y bastante guapo.
@@ -10103,7 +10103,96 @@ Serás gilipollas38… ¿Tú sabes el susto que…?
       },
       {
         tab: 'Casa de la señora Montserrat. 23.00 h.',
-        content: ``,
+        content: `−¿Te quitas la máscara o qué, Raúl?
+
+−Sí, ya, ya…
+
+La puerta del primer piso está abierta. Entran con la luz de los encendedores.
+
+−¡Señora Montserrat! ¿Está ahí? −pregunta Pepa.
+
+−Estoy aquí, aquí −la mujer sale a buscarlos al pasillo. Lleva una vela y va vestida de negro.
+
+−Suerte que la conozco, señora Montserrat, que con esa vela y de negro parece… −comenta Raúl.
+
+−Venga, ¿un poquito de moscatel y unos panellets? −con sus vecinos, la señora Montserrat está más tranquila. Y no quiere volver a estar sola−. Que hoy es el día de los muertos… ¡Ay, mi pobre Ramón! Y además, sin televisión −dice con un suspiro.
+
+Toda la casa está a oscuras. Se sientan alrededor de la mesa y prueban los pastelitos.
+
+−¡Qué ricos, señora Montserrat! ¿Los hace usted? −dice Armando siempre tan educado.
+
+−No, los he comprado en la pastelería. Este año no estoy para cocinar.
+
+−Pues están ricos, ricos45… −dice Pepa pensando en sus panellets
+a medio hacer.
+
+De pronto, se oye un ruido raro.
+
+−¿Qué es  eso? −pregunta nervioso  Raúl−.  Parecen  como…
+
+como… ¡cadenas! Los fantasmas llevan cadenas, ¿no?
+
+−Sí, en las películas −responde Pepa. Es un coche que pasa, el camión de la basura…
+
+−No, no, no, no, no es un camión. Raúl tiene razón. Son cadenas. En esta casa pasan cosas raras… −dice la señora Montserrat, contenta de compartir con alguien los misterios de su casa.
+
+−¿Llamamos a la policía?
+
+−No, a la pasma46 no, eso no… −dice Raúl, que tiene terror a los uniformes. A los de los policías, a los de los médicos y hasta a los de los porteros.
+
+Un par de minutos después, se oye música en la habitación de al lado. Es el despacho del señor Ramón.
+
+−¿Escuchan eso? Carl Orff −dice Armando.
+
+−¿Qué es eso?
+
+−Un compositor alemán.. Y eso son los Carmina Burana, su obra más famosa.
+
+−Pues es como de película de miedo… Da un poco de yuyu47 −
+añade Raúl−. ¿A usted le gusta esa música, señora Montserrat?
+
+−No, a mí no. Pero a Ramón sí.
+
+−Y la pone para él…
+
+−No, ¡es peor! La música se pone sola… Quiero decir que yo no he puesto el disco. Si estoy aquí con vosotros…, tan ricamente48, ¿no?
+−¿Y quién la pone entonces? ¿Aristóteles, que es tan inteligente…?
+−Raúl busca una respuesta tranquilizadora.
+
+−No, cada noche se oye esta música en el despacho de Ramón. Y está también lo de la pipa.
+
+−¿Qué pipa?
+
+−La pipa de Ramón, que se enciende sola, todas las noches desde el día de su muerte. Ahora ya me creéis, ¿no? Voy al despacho o a la cocina y ahí está la pipa, encendida.
+
+Nadie sabe qué decir. ¿Está loca la pobre viuda? ¿Existen de verdad los fantasmas? De repente, la música para y vuelve la luz. Todos respiran un poco.
+
+−Pepa, guapa, ¿puedo pedirte un favor?
+
+−Sí, claro, naturalmente…
+
+−¿Puedes quedarte a dormir aquí esta noche…? Tengo un poco de miedo.
+
+−Sí, claro, cómo no… −dice Pepa−. Yo no veo películas de terror, como este −añade, señalando a Raúl.
+
+−Pues nada. Nosotros ya nos vamos… −dice Raúl, que quiere salir corriendo.
+
+−¿Y Aristóteles? −pregunta Armando.
+
+−Seguro que está en la cama con Ramón… de Ramón, quiero decir… Como lo quiere tanto… Bueno, lo quería…
+
+Pero Aristóteles no está en casa. Cuando se ha ido la luz, ha aprovechado para salir y ha subido al tercer piso. Ahí es donde viven Miguel y Alonso, dos traviesos hermanos gemelos de siete años.
+
+−¿Y si disfrazamos a Aristóteles? ¡Es Halloween! −dice uno de los gemelos al ver al perro en la escalera.
+
+−¡Síiii! −responde el otro−. Vamos a mirar en la caja de los disfraces.
+
+En veinte minutos el perro ya no parece un murciélago: ahora es Batman, con pelo y cola. Por suerte, consigue escapar de sus secuestradores, los gemelos, y baja aterrorizado por la escalera. En ese momento sale Raúl.
+
+−¡Otro fantasma! ¡Otro fantasma! ¡Joder, esto es una casa de locos! Yo me abro49 –y sale corriendo al oír el gruñido de Aristóteles.
+Armando, tras el primer susto, reconoce la cola de Aristóteles debajo de la capa de Batman.
+
+− ¿Vos también celebrás Halloween? −se agacha y coge al perro en brazos−. Vení Aristóteles, que te llevo a casa con tu dueña.`,
         translation: ``
       },
       {
