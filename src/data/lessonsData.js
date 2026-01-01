@@ -11468,16 +11468,20 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
     moduleId: 'module-9',
     videoTabs: [
       {
-        tab: 'Видео 1',
-        videoUrl: '/video/module-9-lesson-5-video1.mp4'
+        tab: 'Cambia el pensamiento',
+        videoUrl: '/video/CAMBIA el pensamiento que te ancla.mp4'
       },
       {
-        tab: 'Видео 2',
-        videoUrl: '/video/module-9-lesson-5-video2.mp4'
+        tab: 'Vívela con intensidad',
+        videoUrl: '/video/Vivela con intensidad.mp4'
       },
       {
-        tab: 'Видео 3',
-        videoUrl: '/video/module-9-lesson-5-video3.mp4'
+        tab: 'El amor cura',
+        videoUrl: '/video/el amor cura Ashoka.mp4'
+      },
+      {
+        tab: 'Nerviosismo y timidez',
+        videoUrl: '/video/¿Cómo reduci el nerviosismo y dejar la timidez de lado.mp4'
       }
     ],
     vocabulary: [
