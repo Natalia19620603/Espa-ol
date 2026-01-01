@@ -11055,36 +11055,36 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '3 de noviembre. Por la mañana.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-12-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-12-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-12-3'] }
         ]
       },
       {
         tab: '3 de noviembre. 16.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-13-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-13-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-13-3'] }
         ]
       },
       {
         tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-14-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-14-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-14-3'] }
         ]
       },
       {
         tab: 'Calle Bonavista. 23.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-15-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-15-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-15-3'] }
         ]
       }
     ]
@@ -21914,6 +21914,723 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Появился Ариэль, красивый племянник сеньоры, и Пепа подумала: "А я с такими волосами! Теперь точно не пригласит меня поужинать".', correct: 'Apareció Ariel, el sobrino guapo de la señora, y Pepa pensó: "¡Y yo con estos pelos! Ahora seguro que no me invita a cenar".' },
       { russian: 'Пепа объяснила Ариэлю всю историю — она нашла мужчину, видела как он переодевался на лестнице и следовала за ним.', correct: 'Pepa le explicó toda la historia a Ariel — había encontrado al hombre, lo había visto disfrazarse en la escalera y lo había seguido.' },
       { russian: 'Армандо предложил им всем прийти в его бар — у него было превосходное аргентинское жаркое на гриле.', correct: 'Armando les propuso a todos que fueran a su bar — tenía un asado argentino buenísimo en la parrilla.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 12: 3 de noviembre. Por la mañana
+  'ex-9-3-12-1': {
+    id: 'ex-9-3-12-1',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: 3 de noviembre. Por la mañana',
+    description: 'Выберите правильный ответ на вопросы по тексту:',
+    questions: [
+      {
+        question: '¿A qué hora sale Pepa de casa?',
+        options: ['A las diez', 'A las once', 'A las doce', 'A las nueve'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo se siente Pepa por la mañana?',
+        options: ['Descansada y feliz', 'Todavía cansada', 'Enferma', 'Nerviosa'],
+        correct: 1
+      },
+      {
+        question: '¿A quién encuentra Pepa en la entrada?',
+        options: ['A Raúl', 'A Ariel', 'A la señora Montserrat', 'A Armando'],
+        correct: 2
+      },
+      {
+        question: '¿De dónde llega la señora Montserrat?',
+        options: ['Del trabajo', 'Del médico', 'Del mercado', 'De casa de su familia'],
+        correct: 2
+      },
+      {
+        question: '¿Qué le da la señora Montserrat a Pepa?',
+        options: ['Una carta', 'Un CD', 'Una llave', 'Un mapa'],
+        correct: 1
+      },
+      {
+        question: '¿Qué dice en la caja del CD?',
+        options: ['Calle Bonavista, 5', 'Señora Montserrat', 'Planos secretos', 'Ascensor'],
+        correct: 0
+      },
+      {
+        question: '¿Qué hay en el CD?',
+        options: ['Fotos antiguas', 'Música', 'Unos planos de arquitecto', 'Documentos de familia'],
+        correct: 2
+      },
+      {
+        question: '¿De qué color está señalada una zona en el plano?',
+        options: ['Azul', 'Verde', 'Rojo', 'Amarillo'],
+        correct: 2
+      },
+      {
+        question: '¿Qué zona está marcada en rojo en el plano?',
+        options: ['La cocina', 'El portal', 'El hueco del ascensor', 'El cuarto de baño'],
+        correct: 2
+      },
+      {
+        question: '¿A quién piensa llamar Pepa después de ver el CD?',
+        options: ['A Armando', 'A Raúl', 'A Ariel', 'A la policía'],
+        correct: 2
+      },
+      {
+        question: '¿Por qué decide Pepa ir a trabajar?',
+        options: ['Porque está aburrida', 'Porque un taxista que se queda en casa no gana un duro', 'Porque tiene una cita', 'Porque se lo pidió Raúl'],
+        correct: 1
+      },
+      {
+        question: '¿Qué está haciendo Raúl cuando Pepa pasa?',
+        options: ['Trabajando', 'Comiendo', 'Durmiendo la siesta', 'Hablando por teléfono'],
+        correct: 2
+      },
+      {
+        question: '¿Quién es su primer cliente del día?',
+        options: ['Un ejecutivo', 'Un estudiante', 'Un norteamericano', 'Un turista francés'],
+        correct: 2
+      },
+      {
+        question: '¿A qué restaurante lleva Pepa al norteamericano?',
+        options: ['El suquet de l\'Almirall', 'Casa Montserrat', 'Bar de Armando', 'Restaurante Picornell'],
+        correct: 0
+      },
+      {
+        question: '¿Cuántas horas trabaja Pepa ese día?',
+        options: ['Cuatro horas', 'Cinco horas', 'Seis horas', 'Ocho horas'],
+        correct: 2
+      }
+    ]
+  },
+
+  'ex-9-3-12-2': {
+    id: 'ex-9-3-12-2',
+    type: 'grammar',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Выберите правильную форму глагола:',
+    questions: [
+      {
+        sentence: 'Pepa _____ de casa a las once.',
+        options: ['salió', 'salía', 'ha salido', 'sale'],
+        correct: 0
+      },
+      {
+        sentence: 'Ella _____ mucho pero todavía estaba cansada.',
+        options: ['durmió', 'había dormido', 'duerme', 'dormía'],
+        correct: 1
+      },
+      {
+        sentence: 'En la entrada _____ a la señora Montserrat.',
+        options: ['encontró', 'encontraba', 'ha encontrado', 'encuentra'],
+        correct: 0
+      },
+      {
+        sentence: 'La señora _____ del mercado con su carrito.',
+        options: ['llegó', 'llegaba', 'ha llegado', 'llega'],
+        correct: 1
+      },
+      {
+        sentence: 'Montserrat le _____ a Pepa un CD.',
+        options: ['dio', 'daba', 'ha dado', 'da'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ muchas ganas de ver qué había en el CD.',
+        options: ['tuvo', 'tenía', 'ha tenido', 'tiene'],
+        correct: 1
+      },
+      {
+        sentence: 'Ella _____ las escaleras de dos en dos.',
+        options: ['subió', 'subía', 'ha subido', 'sube'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ el contenido del disco con atención.',
+        options: ['examinó', 'examinaba', 'ha examinado', 'examina'],
+        correct: 0
+      },
+      {
+        sentence: 'Al principio no _____ nada.',
+        options: ['entendió', 'entendía', 'ha entendido', 'entiende'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ en voz alta mientras miraba el plano.',
+        options: ['pensó', 'pensaba', 'ha pensado', 'piensa'],
+        correct: 1
+      },
+      {
+        sentence: 'Finalmente _____ ir a trabajar un rato.',
+        options: ['decidió', 'decidía', 'ha decidido', 'decide'],
+        correct: 0
+      },
+      {
+        sentence: 'Raúl _____ la siesta en su caseta.',
+        options: ['durmió', 'dormía', 'ha dormido', 'duerme'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ al norteamericano al puerto.',
+        options: ['llevó', 'llevaba', 'ha llevado', 'lleva'],
+        correct: 0
+      },
+      {
+        sentence: 'El americano le _____ una propina fantástica.',
+        options: ['dejó', 'dejaba', 'ha dejado', 'deja'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ seis horas y volvió a casa.',
+        options: ['trabajó', 'trabajaba', 'ha trabajado', 'trabaja'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-3-12-3': {
+    id: 'ex-9-3-12-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский:',
+    questions: [
+      { russian: 'Пепа вышла из дома в одиннадцать — она много спала, но все еще была уставшей.', correct: 'Pepa salió de casa a las once — había dormido mucho pero todavía estaba cansada.' },
+      { russian: 'Это были очень напряженные дни для нее.', correct: 'Habían sido unos días muy estresantes para ella.' },
+      { russian: 'У входа она встретила сеньору Монсеррат, которая приходила с рынка со своей тележкой для покупок.', correct: 'En la entrada encontró a la señora Montserrat, que llegaba del mercado con su carrito de la compra.' },
+      { russian: 'Монсеррат дала Пепе CD — на коробке было написано: "Calle Bonavista, 5".', correct: 'Montserrat le dio a Pepa un CD — en la caja ponía: «Calle Bonavista, 5».' },
+      { russian: 'Сеньора попросила Пепу посмотреть, что это или чье это, потому что она ничего не понимала в компьютерах.', correct: 'La señora le pidió a Pepa que mirara qué era o de quién era porque ella no entendía nada de ordenadores.' },
+      { russian: 'Пепе очень хотелось посмотреть, что было на CD.', correct: 'Pepa tenía muchas ganas de ver qué había en el CD.' },
+      { russian: 'Она поднялась по лестнице через две ступеньки и села перед ноутбуком.', correct: 'Subió las escaleras de dos en dos y se sentó frente al portátil.' },
+      { russian: 'Пепа изучила содержимое диска — это были планы, как у архитектора.', correct: 'Pepa examinó el contenido del disco — eran unos planos, como de un arquitecto.' },
+      { russian: 'Сначала она ничего не поняла, но потом увидела, что это план входа.', correct: 'Al principio no entendió nada, pero luego vio que era un plano de la entrada.' },
+      { russian: 'Одна зона была отмечена красным цветом — это была шахта лифта.', correct: 'Una zona estaba señalada en color rojo — era el hueco del ascensor.' },
+      { russian: 'Пепа подумала позвонить Ариэлю и объяснить ему это.', correct: 'Pepa pensó llamar a Ariel y explicarle esto.' },
+      { russian: 'Наконец она решила пойти поработать немного — таксист, который остается дома, не зарабатывает ни гроша.', correct: 'Finalmente decidió ir a trabajar un rato — un taxista que se queda en casa no gana un duro.' },
+      { russian: 'Когда она проходила мимо, Рауль спал сиесту в своей будке.', correct: 'Cuando pasó a su lado, Raúl dormía la siesta en su caseta.' },
+      { russian: 'Ее первым клиентом был североамериканец, который хотел поесть паэлью.', correct: 'Su primer cliente fue un norteamericano que quería comer paella.' },
+      { russian: 'Пепа отвезла его в порт и оставила в ресторане El suquet de l\'Almirall, где делали лучшие рисовые блюда с рыбой в Барселоне.', correct: 'Pepa lo llevó al puerto y lo dejó en El suquet de l\'Almirall, donde hacían los mejores arroces de pescado de Barcelona.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 13: 3 de noviembre. 16.00 h.
+  'ex-9-3-13-1': {
+    id: 'ex-9-3-13-1',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: 3 de noviembre. 16.00 h.',
+    description: 'Выберите правильный ответ на вопросы по тексту:',
+    questions: [
+      {
+        question: '¿Qué oye Pepa al entrar en el portal?',
+        options: ['Música alta', 'Un ruido muy fuerte', 'Voces de niños', 'El ascensor'],
+        correct: 1
+      },
+      {
+        question: '¿A quién encuentra Pepa que sale en ese momento?',
+        options: ['A la señora Montserrat', 'A Laura, la madre de los gemelos', 'A Raúl', 'A Ariel'],
+        correct: 1
+      },
+      {
+        question: '¿Qué cree Laura que están haciendo?',
+        options: ['Limpiando la escalera', 'Pintando', 'Arreglando el ascensor', 'Reparando el portal'],
+        correct: 2
+      },
+      {
+        question: '¿Qué decide hacer Pepa?',
+        options: ['Llamar a la policía', 'Irse a dormir', 'Esperar y observar', 'Hablar con los trabajadores'],
+        correct: 2
+      },
+      {
+        question: '¿Dónde se sienta Pepa para observar?',
+        options: ['En su casa', 'En la escalera, en una parte con poca luz', 'En el bar de Armando', 'En el taxi'],
+        correct: 1
+      },
+      {
+        question: '¿A quién reconoce Pepa después de cinco minutos?',
+        options: ['A Ariel', 'A uno de los mafiosos de la calle Muntaner', 'A Raúl', 'A la señora Montserrat'],
+        correct: 1
+      },
+      {
+        question: '¿Qué ropa lleva el hombre que sube?',
+        options: ['Un mono de trabajo', 'Ropa de deporte', 'Un traje gris', 'Un uniforme de policía'],
+        correct: 2
+      },
+      {
+        question: '¿Cómo se llama el hombre del traje gris?',
+        options: ['Manolo', 'Martínez', 'Ariel', 'Armando'],
+        correct: 1
+      },
+      {
+        question: '¿Qué buscan los hombres debajo del ascensor?',
+        options: ['Documentos antiguos', 'Una caja metálica no muy grande', 'Dinero', 'Joyas sueltas'],
+        correct: 1
+      },
+      {
+        question: '¿Qué dice la carta sobre la caja?',
+        options: ['Que está en el sótano', 'Que está debajo del ascensor', 'Que está en casa de Montserrat', 'Que está en el banco'],
+        correct: 1
+      },
+      {
+        question: '¿Adónde sale corriendo Pepa?',
+        options: ['A su casa', 'Al bar de Armando', 'Al párking', 'A la calle Muntaner'],
+        correct: 2
+      },
+      {
+        question: '¿Por qué necesita Pepa su coche rápido?',
+        options: ['Tiene una cita', 'Los hombres viajan en taxi y puede encontrarlos', 'Quiere ir de compras', 'Tiene que trabajar'],
+        correct: 1
+      },
+      {
+        question: '¿Quién coge el taxi de Pepa?',
+        options: ['Manolo', 'Laura', 'El hombre del traje gris (Martínez)', 'Ariel'],
+        correct: 2
+      },
+      {
+        question: '¿A quién llama Martínez por teléfono en el taxi?',
+        options: ['A Manolo', 'A Ariel', 'A la policía', 'A su jefe'],
+        correct: 1
+      },
+      {
+        question: '¿De quién es la carta que menciona Martínez?',
+        options: ['De la señora Montserrat', 'De la bisabuela republicana de Ariel', 'De un arquitecto', 'De un abogado'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-3-13-2': {
+    id: 'ex-9-3-13-2',
+    type: 'grammar',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Выберите правильную форму глагола:',
+    questions: [
+      {
+        sentence: 'Al entrar en el portal, Pepa _____ un ruido muy fuerte.',
+        options: ['oyó', 'oía', 'ha oído', 'oye'],
+        correct: 0
+      },
+      {
+        sentence: 'Laura _____ en ese momento del portal.',
+        options: ['salió', 'salía', 'ha salido', 'sale'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ que algo le olía mal.',
+        options: ['pensó', 'pensaba', 'ha pensado', 'piensa'],
+        correct: 0
+      },
+      {
+        sentence: 'Ella _____ esperar un poco y observar.',
+        options: ['decidió', 'decidía', 'ha decidido', 'decide'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa se _____ en la escalera, en una parte con poca luz.',
+        options: ['sentó', 'sentaba', 'ha sentado', 'sienta'],
+        correct: 0
+      },
+      {
+        sentence: 'A los cinco minutos, _____ un hombre con un traje gris.',
+        options: ['llegó', 'llegaba', 'ha llegado', 'llega'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa lo _____ enseguida.',
+        options: ['reconoció', 'reconocía', 'ha reconocido', 'reconoce'],
+        correct: 0
+      },
+      {
+        sentence: 'El hombre _____ la puerta del ascensor.',
+        options: ['abrió', 'abría', 'ha abierto', 'abre'],
+        correct: 0
+      },
+      {
+        sentence: 'Otro hombre _____ vestido de obrero de la construcción.',
+        options: ['fue', 'iba', 'ha ido', 'va'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ entender lo que decían.',
+        options: ['intentó', 'intentaba', 'ha intentado', 'intenta'],
+        correct: 1
+      },
+      {
+        sentence: 'Ella _____ de su rincón en la escalera.',
+        options: ['salió', 'salía', 'ha salido', 'sale'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ corriendo hacia el párking.',
+        options: ['salió', 'salía', 'ha salido', 'sale'],
+        correct: 0
+      },
+      {
+        sentence: 'El hombre _____ el móvil inmediatamente.',
+        options: ['sacó', 'sacaba', 'ha sacado', 'saca'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ atenta el resto de la conversación.',
+        options: ['escuchó', 'escuchaba', 'ha escuchado', 'escucha'],
+        correct: 0
+      },
+      {
+        sentence: 'Martínez _____ que las joyas tenían que estar debajo del ascensor.',
+        options: ['dijo', 'decía', 'ha dicho', 'dice'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-3-13-3': {
+    id: 'ex-9-3-13-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский:',
+    questions: [
+      { russian: 'При входе в подъезд Пепа услышала очень громкий шум.', correct: 'Al entrar en el portal, Pepa oyó un ruido muy fuerte.' },
+      { russian: 'Лаура, мать близнецов, выходила в этот момент.', correct: 'Laura, la madre de los gemelos, salía en ese momento.' },
+      { russian: 'Пепа подумала, что что-то подозрительно — они работали именно в зоне, отмеченной красным на плане.', correct: 'Pepa pensó que algo le olía mal — estaban trabajando exactamente en la zona marcada en rojo en el plano.' },
+      { russian: 'Она решила немного подождать и понаблюдать.', correct: 'Decidió esperar un poco y observar.' },
+      { russian: 'Пепа села на лестнице, в месте с небольшим освещением.', correct: 'Pepa se sentó en la escalera, en una parte con poca luz.' },
+      { russian: 'Через пять минут пришел мужчина в сером костюме.', correct: 'A los cinco minutos, llegó un hombre con un traje gris.' },
+      { russian: 'Пепа сразу узнала его — это был один из мафиози с улицы Мунтанер.', correct: 'Pepa lo reconoció enseguida — era uno de los mafiosos de la calle Muntaner.' },
+      { russian: 'Мужчина открыл дверь лифта — лифт был между первым этажом и антресолью.', correct: 'El hombre abrió la puerta del ascensor — el ascensor estaba entre la planta baja y el entresuelo.' },
+      { russian: 'Другой мужчина был одет как строитель, в каске и во всем.', correct: 'Otro hombre iba vestido de obrero de la construcción, con casco y todo.' },
+      { russian: 'Они искали металлическую коробку не очень большого размера.', correct: 'Buscaban una caja metálica no muy grande.' },
+      { russian: 'Об этом говорилось в письме.', correct: 'Lo decía la carta.' },
+      { russian: 'Пепа пыталась понять, о чем они говорили.', correct: 'Pepa intentaba entender de qué hablaban.' },
+      { russian: 'Пепа вышла из своего уголка на лестнице и, проходя мимо Мартинеса, поздоровалась совершенно естественно.', correct: 'Pepa salió de su rincón en la escalera y, al pasar al lado de Martínez, saludó de forma totalmente natural.' },
+      { russian: 'Мужчина сразу достал мобильный телефон и позвонил Ариэлю.', correct: 'El hombre sacó el móvil inmediatamente e hizo una llamada a Ariel.' },
+      { russian: 'Было ясно, что Пепа не могла позвонить Ариэлю, чтобы объяснить ему тайну планов.', correct: 'Estaba claro que Pepa no podía llamar a Ariel para explicarle el misterio de los planos.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 14: Bar de Armando. 3 de noviembre. 19.00 h.
+  'ex-9-3-14-1': {
+    id: 'ex-9-3-14-1',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Bar de Armando. 3 de noviembre. 19.00 h.',
+    description: 'Выберите правильный ответ на вопросы по тексту:',
+    questions: [
+      {
+        question: '¿Adónde va Pepa para pedir ayuda?',
+        options: ['A casa de Raúl', 'Al bar de Armando', 'A casa de la señora Montserrat', 'A la policía'],
+        correct: 1
+      },
+      {
+        question: '¿Qué le pide Pepa a Armando primero?',
+        options: ['Un café', 'Una caña', 'Agua', 'Un vino'],
+        correct: 1
+      },
+      {
+        question: '¿A quién imita Armando cuando dice "Elemental, mi querida Pepa"?',
+        options: ['A un detective famoso', 'A Sherlock Holmes', 'A un policía', 'A un actor'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo se llama la familia de la señora Montserrat?',
+        options: ['Los Martínez', 'Los Picornell', 'Los Ariel', 'Los Barcelona'],
+        correct: 1
+      },
+      {
+        question: '¿Qué eran los Picornell?',
+        options: ['Comerciantes', 'Industriales de Barcelona', 'Políticos', 'Agricultores'],
+        correct: 1
+      },
+      {
+        question: '¿Qué ideología política tenían los Picornell?',
+        options: ['Eran monárquicos', 'Eran franquistas', 'Eran republicanos', 'Eran anarquistas'],
+        correct: 2
+      },
+      {
+        question: '¿Adónde huyeron los Picornell?',
+        options: ['A Inglaterra', 'A Italia', 'A Francia', 'A Portugal'],
+        correct: 2
+      },
+      {
+        question: '¿Dónde están las joyas de la familia?',
+        options: ['En Francia', 'En el banco', 'Debajo del ascensor', 'En casa de Ariel'],
+        correct: 2
+      },
+      {
+        question: '¿A qué hora le pide Pepa a Armando que vaya a su casa?',
+        options: ['A las nueve', 'A las diez', 'A las once', 'A las doce'],
+        correct: 2
+      },
+      {
+        question: '¿A quién más va a llamar Pepa?',
+        options: ['A Ariel', 'A la policía', 'A Raúl', 'A la señora Montserrat'],
+        correct: 2
+      }
+    ]
+  },
+
+  'ex-9-3-14-2': {
+    id: 'ex-9-3-14-2',
+    type: 'grammar',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Выберите правильную форму глагола:',
+    questions: [
+      {
+        sentence: 'Pepa le _____ todo a Armando.',
+        options: ['contó', 'contaba', 'ha contado', 'cuenta'],
+        correct: 0
+      },
+      {
+        sentence: 'La señora Montserrat _____ el CD con los planos.',
+        options: ['encontró', 'encontraba', 'ha encontrado', 'encuentra'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ la conversación en el taxi.',
+        options: ['oyó', 'oía', 'ha oído', 'oye'],
+        correct: 0
+      },
+      {
+        sentence: 'Armando _____ a Sherlock Holmes.',
+        options: ['imitó', 'imitaba', 'ha imitado', 'imita'],
+        correct: 0
+      },
+      {
+        sentence: 'La señora Montserrat le _____ muchas veces la historia de su familia a Armando.',
+        options: ['contó', 'contaba', 'había contado', 'cuenta'],
+        correct: 2
+      },
+      {
+        sentence: 'Los Picornell _____ una familia de industriales de Barcelona.',
+        options: ['fueron', 'eran', 'han sido', 'son'],
+        correct: 1
+      },
+      {
+        sentence: 'Ellos _____ antes de terminar la Guerra Civil.',
+        options: ['huyeron', 'huían', 'han huido', 'huyen'],
+        correct: 0
+      },
+      {
+        sentence: 'Los Picornell _____ la frontera.',
+        options: ['pasaron', 'pasaban', 'han pasado', 'pasan'],
+        correct: 0
+      },
+      {
+        sentence: 'Ellos se _____ en Francia.',
+        options: ['refugiaron', 'refugiaban', 'han refugiado', 'refugian'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa le _____ a Armando si podía venir a su casa esa noche.',
+        options: ['preguntó', 'preguntaba', 'ha preguntado', 'pregunta'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-3-14-3': {
+    id: 'ex-9-3-14-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский:',
+    questions: [
+      { russian: 'Пепа пришла в бар Армандо и попросила помочь ей.', correct: 'Pepa fue al bar de Armando y le pidió que la ayudara.' },
+      { russian: 'Сначала она попросила налить ей пива.', correct: 'Primero le pidió una caña.' },
+      { russian: 'Пепа рассказала Армандо все: про CD с планами, про работы в лифте и про разговор, который она услышала в такси.', correct: 'Pepa le contó todo a Armando: lo del CD con los planos, lo de las obras del ascensor y la conversación que oyó en el taxi.' },
+      { russian: 'Армандо сказал, подражая Шерлоку Холмсу: "Элементарно, моя дорогая Пепа".', correct: 'Armando dijo, imitando a Sherlock Holmes: «Elemental, mi querida Pepa».' },
+      { russian: 'Сеньора Монсеррат много раз рассказывала Армандо историю своей семьи.', correct: 'La señora Montserrat le había contado muchas veces la historia de su familia a Armando.' },
+      { russian: 'Пикорнели были семьей промышленников из Барселоны — богатых, но республиканцев.', correct: 'Los Picornell eran una familia de industriales de Barcelona — ricos, pero republicanos.' },
+      { russian: 'Незадолго до окончания Гражданской войны, когда армия Франко была у ворот Барселоны, Пикорнели бежали.', correct: 'Un poco antes de terminar la Guerra Civil, con el ejército de Franco a las puertas de Barcelona, los Picornell huyeron.' },
+      { russian: 'Они пересекли границу и укрылись во Франции, как многие другие республиканцы.', correct: 'Pasaron la frontera y se refugiaron en Francia, como otros muchos republicanos.' },
+      { russian: 'Драгоценности остались здесь под лифтом.', correct: 'Las joyas se quedaron aquí debajo del ascensor.' },
+      { russian: 'Ариэль не хочет ждать, чтобы унаследовать их — Пепа попросила Армандо прийти к ней домой в одиннадцать вечера.', correct: 'Ariel no quiere esperar para heredarlas — Pepa le preguntó a Armando si podía venir a su casa a las once.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 15: Calle Bonavista. 23.00 h.
+  'ex-9-3-15-1': {
+    id: 'ex-9-3-15-1',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Calle Bonavista. 23.00 h.',
+    description: 'Выберите правильный ответ на вопросы по тексту:',
+    questions: [
+      {
+        question: '¿Qué piensan los amigos cuando Pepa los invita?',
+        options: ['Que van a trabajar', 'Que es su cumpleaños', 'Que van a estudiar', 'Que van a ver una película'],
+        correct: 1
+      },
+      {
+        question: '¿Qué ha comido Raúl desde la mañana?',
+        options: ['Nada', 'Un bocadillo de jamón', 'Un bocadillo de atún', 'Una paella'],
+        correct: 2
+      },
+      {
+        question: '¿Qué saca Pepa del cuartito de los contadores?',
+        options: ['Una caja', 'Un casco, un mono de trabajo azul y un pico', 'Herramientas eléctricas', 'Una linterna'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo reacciona Raúl?',
+        options: ['Está contento', 'Está horrorizado', 'Está emocionado', 'Está tranquilo'],
+        correct: 1
+      },
+      {
+        question: '¿Qué dice Raúl que no es lo suyo?',
+        options: ['La cocina', 'El trabajo manual', 'Los deportes', 'Los idiomas'],
+        correct: 1
+      },
+      {
+        question: '¿Qué estudia Raúl?',
+        options: ['Ingeniería', 'Medicina', 'Filosofía', 'Arquitectura'],
+        correct: 2
+      },
+      {
+        question: '¿Por qué acepta Raúl finalmente ponerse debajo del ascensor?',
+        options: ['Le pagan', 'Es el más fuerte de los tres', 'Tiene curiosidad', 'Le gusta la aventura'],
+        correct: 1
+      },
+      {
+        question: '¿De qué tiene miedo Raúl?',
+        options: ['De la policía', 'De Ariel', 'De que el ascensor se caiga y de las ratas', 'De la oscuridad'],
+        correct: 2
+      },
+      {
+        question: '¿Qué encuentran debajo del ascensor?',
+        options: ['Documentos antiguos', 'Una caja muy vieja de metal', 'Dinero', 'Un tesoro de oro'],
+        correct: 1
+      },
+      {
+        question: '¿Quién entra mientras están trabajando?',
+        options: ['La señora Montserrat', 'La policía', 'Ariel', 'Martínez'],
+        correct: 2
+      },
+      {
+        question: '¿A quién llama Armando?',
+        options: ['A un abogado', 'A la señora Montserrat', 'A los Mossos (la policía)', 'A un periodista'],
+        correct: 2
+      },
+      {
+        question: '¿Qué tipo de caja tiene Raúl en las manos?',
+        options: ['Una caja de madera', 'Una vieja caja metálica, como las de los bancos', 'Una caja de plástico', 'Una caja de cartón'],
+        correct: 1
+      },
+      {
+        question: '¿Adónde invita Pepa a sus amigos a cenar?',
+        options: ['Al bar de Armando', 'A su casa', 'A El suquet del Almirall en la Barceloneta', 'A un restaurante chino'],
+        correct: 2
+      },
+      {
+        question: '¿Qué van a comer?',
+        options: ['Paella', 'Un arroz', 'Tapas', 'Pescado frito'],
+        correct: 1
+      },
+      {
+        question: '¿Qué piensa Pepa mirando a Ariel por última vez?',
+        options: ['Que es un criminal', 'Qué pena, con lo guapo que es', 'Que es muy inteligente', 'Que era obvio'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-3-15-2': {
+    id: 'ex-9-3-15-2',
+    type: 'grammar',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Выберите правильную форму глагола:',
+    questions: [
+      {
+        sentence: 'Raúl _____ con un bocadillo de atún desde la mañana.',
+        options: ['estuvo', 'estaba', 'ha estado', 'está'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ del cuartito un casco, un mono y un pico.',
+        options: ['sacó', 'sacaba', 'ha sacado', 'saca'],
+        correct: 0
+      },
+      {
+        sentence: 'Raúl la _____ horrorizado.',
+        options: ['miró', 'miraba', 'ha mirado', 'mira'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa le _____ irónicamente.',
+        options: ['dijo', 'decía', 'ha dicho', 'dice'],
+        correct: 0
+      },
+      {
+        sentence: 'Raúl finalmente _____ ponerse debajo del ascensor.',
+        options: ['aceptó', 'aceptaba', 'ha aceptado', 'acepta'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa y Armando _____ con linternas.',
+        options: ['iluminaron', 'iluminaban', 'han iluminado', 'iluminan'],
+        correct: 1
+      },
+      {
+        sentence: 'Al cabo de unos minutos, Raúl _____ que había una caja.',
+        options: ['dijo', 'decía', 'ha dicho', 'dice'],
+        correct: 0
+      },
+      {
+        sentence: 'Armando _____ que alguien había entrado.',
+        options: ['dijo', 'decía', 'ha dicho', 'dice'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa lo _____ enseguida — era Ariel.',
+        options: ['reconoció', 'reconocía', 'ha reconocido', 'reconoce'],
+        correct: 0
+      },
+      {
+        sentence: 'Ariel _____ la luz de la escalera.',
+        options: ['encendió', 'encendía', 'ha encendido', 'enciende'],
+        correct: 0
+      },
+      {
+        sentence: 'Ariel _____ con preocupación a los tres amigos.',
+        options: ['miró', 'miraba', 'ha mirado', 'mira'],
+        correct: 0
+      },
+      {
+        sentence: 'Armando _____ el móvil y estaba llamando a los Mossos.',
+        options: ['sacó', 'sacaba', 'había sacado', 'saca'],
+        correct: 2
+      },
+      {
+        sentence: 'Raúl _____ salir sin éxito del agujero.',
+        options: ['intentó', 'intentaba', 'ha intentado', 'intenta'],
+        correct: 1
+      },
+      {
+        sentence: 'Raúl _____ en las manos una vieja caja metálica.',
+        options: ['tuvo', 'tenía', 'ha tenido', 'tiene'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ mirando por última vez a Ariel.',
+        options: ['pensó', 'pensaba', 'ha pensado', 'piensa'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-3-15-3': {
+    id: 'ex-9-3-15-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский:',
+    questions: [
+      { russian: 'Друзья подумали, что Пепа приглашает их поужинать, может быть, это ее день рождения или что-то такое.', correct: 'Los amigos pensaron que Pepa los invitaba a cenar, quizás era su cumpleaños o algo.' },
+      { russian: 'Рауль был с бутербродом с тунцом с самого утра и был очень голоден.', correct: 'Raúl estaba con un bocadillo de atún desde la mañana y tenía mucha hambre.' },
+      { russian: 'Пепа достала из комнаты счетчиков каску, синий рабочий комбинезон и кирку.', correct: 'Pepa sacó del cuartito de los contadores un casco, un mono de trabajo azul y un pico.' },
+      { russian: 'Рауль посмотрел на нее в ужасе — ручная работа была не его дело.', correct: 'Raúl la miró horrorizado — el trabajo manual no era lo suyo.' },
+      { russian: 'Пепа сказала ему иронично: "Твое дело — философия, но сегодня ты нам поможешь".', correct: 'Pepa le dijo irónicamente: «Lo tuyo es la filosofía, pero hoy nos vas a ayudar».' },
+      { russian: 'Рауль наконец согласился залезть под лифт — он был самым сильным из троих.', correct: 'Raúl finalmente aceptó ponerse debajo del ascensor — era el más fuerte de los tres.' },
+      { russian: 'Он боялся, что лифт может упасть или что там могут быть крысы.', correct: 'Tenía miedo de que el ascensor se cayera o de que hubiera ratas.' },
+      { russian: 'Пепа и Армандо освещали фонариками и контролировали вход.', correct: 'Pepa y Armando iluminaban con linternas y controlaban la entrada.' },
+      { russian: 'Через несколько минут Рауль сказал, что там была очень старая металлическая коробка.', correct: 'Al cabo de unos minutos, Raúl dijo que había una caja muy vieja de metal.' },
+      { russian: 'Армандо сказал, что кто-то вошел, и попросил Пепу выключить фонарик.', correct: 'Armando dijo que había entrado alguien y le pidió a Pepa que apagara la linterna.' },
+      { russian: 'Это был Ариэль — Пепа сразу узнала его.', correct: 'Era Ariel — Pepa lo reconoció enseguida.' },
+      { russian: 'Ариэль включил свет на лестнице и с беспокойством посмотрел на трех друзей.', correct: 'Ariel encendió la luz de la escalera y miró con preocupación a los tres amigos.' },
+      { russian: 'Тем временем Армандо уже достал мобильный телефон и звонил в полицию Мосос.', correct: 'Mientras, Armando había sacado el móvil y estaba llamando a los Mossos.' },
+      { russian: 'Рауль пытался выбраться из дыры — у него в руках была старая металлическая коробка, как банковская.', correct: 'Raúl intentaba salir del agujero — tenía en las manos una vieja caja metálica, como las de los bancos.' },
+      { russian: 'Пепа подумала, глядя на Ариэля в последний раз: "Какая жалость! А он такой красивый!"', correct: 'Pepa pensó, mirando a Ariel por última vez: «¡Qué pena! ¡Con lo guapo que es...!»' }
     ]
   }
 }
