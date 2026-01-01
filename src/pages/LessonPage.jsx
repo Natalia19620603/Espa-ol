@@ -292,12 +292,6 @@ function LessonPage() {
         >
           ✏️ Упражнения
         </button>
-        <button
-          className={`${styles.tab} ${activeTab === 'pronunciation' ? styles.activeTab : ''}`}
-          onClick={() => setActiveTab('pronunciation')}
-        >
-          🎙️ Произношение
-        </button>
       </div>
 
       <main className={styles.main}>
@@ -852,30 +846,6 @@ function LessonPage() {
           </div>
         )}
 
-        {activeTab === 'pronunciation' && (
-          <div className={styles.pronunciationSection}>
-            <h2 className={styles.sectionTitle}>Практика произношения</h2>
-            <p className={styles.pronunciationDescription}>
-              Прочитайте текст вслух и запишите свое произношение. Сравните с оригиналом.
-            </p>
-
-            {lesson.readingText && (
-              <PronunciationRecorder text={lesson.readingText.content} />
-            )}
-
-            {lesson.grammar?.examples && lesson.grammar.examples.length > 0 && (
-              <div className={styles.examplesPronunciation}>
-                <h3 className={styles.subsectionTitle}>Примеры для практики:</h3>
-                {lesson.grammar.examples.map((example, index) => (
-                  <div key={index} className={styles.pronunciationExample}>
-                    <PronunciationRecorder text={example.spanish} />
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-
         {activeTab === 'exercises' && (
           <div className={styles.exercisesSection}>
             <h2 className={styles.sectionTitle}>Упражнения</h2>
@@ -1060,7 +1030,6 @@ function getExerciseTypeName(type) {
     grammar: 'Грамматика',
     reading: 'Чтение',
     writing: 'Письмо',
-    pronunciation: 'Произношение',
     fillblank: 'Заполнение пропусков',
     'ser-estar': 'SER vs ESTAR',
     articles: 'Артикли',

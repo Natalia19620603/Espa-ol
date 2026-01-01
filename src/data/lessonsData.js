@@ -11510,14 +11510,11 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         words: [
           { word: 'vivir', translation: 'жить' },
           { word: 'la intensidad', translation: 'интенсивность' },
-          { word: 'el momento', translation: 'момент' },
-          { word: 'la pasión', translation: 'страсть' },
-          { word: 'disfrutar', translation: 'наслаждаться' },
-          { word: 'aprovechar', translation: 'использовать, воспользоваться' },
-          { word: 'la experiencia', translation: 'опыт, переживание' },
-          { word: 'pleno', translation: 'полный, наполненный' },
-          { word: 'consciente', translation: 'осознанный' },
-          { word: 'presente', translation: 'настоящее, присутствующий' }
+          { word: 'una detrás de otra', translation: 'одна за другой' },
+          { word: 'el espacio', translation: 'пространство' },
+          { word: 'el desafío', translation: 'вызов, задача' },
+          { word: 'relevante', translation: 'важный, значимый' },
+          { word: 'confesar', translation: 'признаваться' }
         ]
       },
       {
@@ -11568,6 +11565,21 @@ Cámbialo por otro, di STOP y busca un pensamiento que sea diferente, un pensami
 "Ah, yo es que me quiero sentir mejor", sí, claro, ¿pero cómo te vas a sentir mejor si te estás machacando?
 
 Piensa de otra manera y te sentirás de forma diferente. Es muy difícil gestionar directamente el sentimiento si no vas o por el pensamiento o por el cuerpo.`,
+        translation: ``
+      },
+      {
+        tab: 'Vívela con intensidad',
+        content: `Vívela con intensidad
+
+Y si te das cuenta y ves una partitura, si todas las notas fueran pegadas una detrás de otra, no tendríamos música; tendríamos ruido. Lo que hace que tengamos música es que haya espacios de silencio. Son esos espacios donde no hay ninguna nota los que permiten que, en vez de ruido, haya música.
+
+¿Qué quiero decir? Quiero decir que esta vida —yo creo que el tiempo que la vivamos— es una vida para vivirla con intensidad, con dificultades, con desafíos; que nos enfoquemos en lo que realmente es relevante.
+
+Que cuando llegue el final de nuestra vida digamos como Neruda:
+
+"Confieso que he vivido"
+
+Que podamos decir «confieso que he vivido la vida» y no que la he visto pasar.`,
         translation: ``
       },
       {
