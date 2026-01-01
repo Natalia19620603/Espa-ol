@@ -22692,20 +22692,20 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-9-3-12-vocab',
     type: 'vocabulary',
     title: 'Словарь: 3 de noviembre. Por la mañana',
-    description: 'Ключевые слова из текста',
-    words: [
-      { spanish: 'el carrito de la compra', russian: 'тележка для покупок' },
-      { spanish: 'el disco / el CD', russian: 'диск' },
-      { spanish: 'el ordenador', russian: 'компьютер' },
-      { spanish: 'el portátil', russian: 'ноутбук' },
-      { spanish: 'el plano', russian: 'план, чертеж' },
-      { spanish: 'el arquitecto', russian: 'архитектор' },
-      { spanish: 'señalar', russian: 'отмечать, указывать' },
-      { spanish: 'el hueco del ascensor', russian: 'шахта лифта' },
-      { spanish: 'currar (coloquial)', russian: 'работать (разг.)' },
-      { spanish: 'ganar un duro', russian: 'заработать копейку' },
-      { spanish: 'la propina', russian: 'чаевые' },
-      { spanish: 'el arroz caldoso', russian: 'жидкий рис (суп)' }
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el carrito de la compra', options: ['тележка для покупок', 'корзина для белья', 'детская коляска', 'багажная тележка'], correct: 0 },
+      { spanish: 'el disco / el CD', options: ['пластинка', 'диск', 'радио', 'кассета'], correct: 1 },
+      { spanish: 'el ordenador', options: ['телефон', 'планшет', 'компьютер', 'калькулятор'], correct: 2 },
+      { spanish: 'el portátil', options: ['планшет', 'телефон', 'ноутбук', 'монитор'], correct: 2 },
+      { spanish: 'el plano', options: ['самолет', 'план, чертеж', 'карта', 'схема метро'], correct: 1 },
+      { spanish: 'el arquitecto', options: ['инженер', 'строитель', 'архитектор', 'дизайнер'], correct: 2 },
+      { spanish: 'señalar', options: ['подписывать', 'отмечать, указывать', 'смотреть', 'писать'], correct: 1 },
+      { spanish: 'el hueco del ascensor', options: ['кабина лифта', 'дверь лифта', 'шахта лифта', 'кнопка лифта'], correct: 2 },
+      { spanish: 'currar (coloquial)', options: ['бегать', 'учиться', 'есть', 'работать (разг.)'], correct: 3 },
+      { spanish: 'ganar un duro', options: ['выиграть приз', 'найти монету', 'заработать копейку', 'потратить деньги'], correct: 2 },
+      { spanish: 'la propina', options: ['подарок', 'чаевые', 'зарплата', 'премия'], correct: 1 },
+      { spanish: 'el arroz caldoso', options: ['жареный рис', 'жидкий рис (суп)', 'вареный рис', 'рисовая каша'], correct: 1 }
     ]
   },
 
@@ -22713,20 +22713,20 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-9-3-13-vocab',
     type: 'vocabulary',
     title: 'Словарь: 3 de noviembre. 16.00 h.',
-    description: 'Ключевые слова из текста',
-    words: [
-      { spanish: 'arreglar', russian: 'чинить, ремонтировать' },
-      { spanish: 'oler mal', russian: 'плохо пахнуть (быть подозрительным)' },
-      { spanish: 'el traje gris', russian: 'серый костюм' },
-      { spanish: 'el obrero de la construcción', russian: 'строитель' },
-      { spanish: 'el casco', russian: 'каска' },
-      { spanish: 'la caja metálica', russian: 'металлическая коробка' },
-      { spanish: 'la carta', russian: 'письмо' },
-      { spanish: 'el párking', russian: 'парковка' },
-      { spanish: 'gruñir', russian: 'ворчать, рычать' },
-      { spanish: 'la bisabuela', russian: 'прабабушка' },
-      { spanish: 'el exilio', russian: 'изгнание, эмиграция' },
-      { spanish: 'las joyas', russian: 'драгоценности' }
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'arreglar', options: ['покупать', 'продавать', 'чинить, ремонтировать', 'строить'], correct: 2 },
+      { spanish: 'oler mal', options: ['плохо выглядеть', 'плохо слышать', 'плохо пахнуть (быть подозрительным)', 'плохо говорить'], correct: 2 },
+      { spanish: 'el traje gris', options: ['серая рубашка', 'серые брюки', 'серый костюм', 'серое пальто'], correct: 2 },
+      { spanish: 'el obrero de la construcción', options: ['архитектор', 'инженер', 'строитель', 'прораб'], correct: 2 },
+      { spanish: 'el casco', options: ['шлем', 'каска', 'шапка', 'кепка'], correct: 1 },
+      { spanish: 'la caja metálica', options: ['металлический ящик', 'металлическая коробка', 'железная дверь', 'стальной сейф'], correct: 1 },
+      { spanish: 'la carta', options: ['меню', 'открытка', 'письмо', 'документ'], correct: 2 },
+      { spanish: 'el párking', options: ['парк', 'парковка', 'гараж', 'стоянка такси'], correct: 1 },
+      { spanish: 'gruñir', options: ['кричать', 'шептать', 'ворчать, рычать', 'смеяться'], correct: 2 },
+      { spanish: 'la bisabuela', options: ['бабушка', 'прабабушка', 'тетя', 'двоюродная бабушка'], correct: 1 },
+      { spanish: 'el exilio', options: ['путешествие', 'переезд', 'изгнание, эмиграция', 'командировка'], correct: 2 },
+      { spanish: 'las joyas', options: ['украшения', 'драгоценности', 'бриллианты', 'золото'], correct: 1 }
     ]
   },
 
@@ -22734,19 +22734,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-9-3-14-vocab',
     type: 'vocabulary',
     title: 'Словарь: Bar de Armando. 3 de noviembre. 19.00 h.',
-    description: 'Ключевые слова из текста',
-    words: [
-      { spanish: 'la caña', russian: 'маленькое пиво (стакан пива)' },
-      { spanish: 'las obras', russian: 'строительные работы' },
-      { spanish: 'los industriales', russian: 'промышленники' },
-      { spanish: 'republicano', russian: 'республиканский, республиканец' },
-      { spanish: 'la Guerra Civil', russian: 'Гражданская война' },
-      { spanish: 'el ejército', russian: 'армия' },
-      { spanish: 'a las puertas de', russian: 'у ворот, у дверей' },
-      { spanish: 'huir', russian: 'бежать, убегать' },
-      { spanish: 'pasar la frontera', russian: 'пересечь границу' },
-      { spanish: 'refugiarse', russian: 'укрыться, найти убежище' },
-      { spanish: 'heredar', russian: 'наследовать' }
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la caña', options: ['бутылка пива', 'маленькое пиво (стакан пива)', 'вино', 'виски'], correct: 1 },
+      { spanish: 'las obras', options: ['работы', 'строительные работы', 'ремонт', 'стройка'], correct: 1 },
+      { spanish: 'los industriales', options: ['рабочие', 'фабриканты', 'промышленники', 'бизнесмены'], correct: 2 },
+      { spanish: 'republicano', options: ['демократический', 'либеральный', 'республиканский, республиканец', 'социалистический'], correct: 2 },
+      { spanish: 'la Guerra Civil', options: ['Первая мировая война', 'Вторая мировая война', 'Гражданская война', 'Война за независимость'], correct: 2 },
+      { spanish: 'el ejército', options: ['флот', 'армия', 'полиция', 'гвардия'], correct: 1 },
+      { spanish: 'a las puertas de', options: ['за дверью', 'у ворот, у дверей', 'перед домом', 'на улице'], correct: 1 },
+      { spanish: 'huir', options: ['идти', 'бегать', 'бежать, убегать', 'летать'], correct: 2 },
+      { spanish: 'pasar la frontera', options: ['переехать страну', 'пересечь границу', 'покинуть город', 'сменить адрес'], correct: 1 },
+      { spanish: 'refugiarse', options: ['переехать', 'укрыться, найти убежище', 'спрятаться', 'эмигрировать'], correct: 1 },
+      { spanish: 'heredar', options: ['покупать', 'продавать', 'дарить', 'наследовать'], correct: 3 }
     ]
   },
 
@@ -22754,22 +22754,22 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     id: 'ex-9-3-15-vocab',
     type: 'vocabulary',
     title: 'Словарь: Calle Bonavista. 23.00 h.',
-    description: 'Ключевые слова из текста',
-    words: [
-      { spanish: 'el cumpleaños', russian: 'день рождения' },
-      { spanish: 'el bocadillo de atún', russian: 'бутерброд с тунцом' },
-      { spanish: 'el mono de trabajo', russian: 'рабочий комбинезон' },
-      { spanish: 'el pico', russian: 'кирка, кайло' },
-      { spanish: 'el trabajo manual', russian: 'ручной труд' },
-      { spanish: 'dar mal rollo (coloquial)', russian: 'вызывать дурное предчувствие (разг.)' },
-      { spanish: 'la rata', russian: 'крыса' },
-      { spanish: 'la linterna', russian: 'фонарик' },
-      { spanish: 'iluminar', russian: 'освещать' },
-      { spanish: 'al cabo de', russian: 'спустя, через' },
-      { spanish: 'el agujero', russian: 'дыра, яма' },
-      { spanish: 'la poli (coloquial)', russian: 'полиция (разг.)' },
-      { spanish: 'los Mossos', russian: 'Мососы (полиция Каталонии)' },
-      { spanish: '¡Qué pena!', russian: 'Какая жалость!' }
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el cumpleaños', options: ['праздник', 'день рождения', 'годовщина', 'именины'], correct: 1 },
+      { spanish: 'el bocadillo de atún', options: ['бутерброд с ветчиной', 'бутерброд с тунцом', 'сэндвич с сыром', 'хот-дог'], correct: 1 },
+      { spanish: 'el mono de trabajo', options: ['рабочая куртка', 'рабочие брюки', 'рабочий комбинезон', 'спецодежда'], correct: 2 },
+      { spanish: 'el pico', options: ['лопата', 'молоток', 'кирка, кайло', 'топор'], correct: 2 },
+      { spanish: 'el trabajo manual', options: ['домашняя работа', 'умственный труд', 'ручной труд', 'офисная работа'], correct: 2 },
+      { spanish: 'dar mal rollo (coloquial)', options: ['плохо выглядеть', 'плохо себя чувствовать', 'вызывать дурное предчувствие (разг.)', 'быть в плохом настроении'], correct: 2 },
+      { spanish: 'la rata', options: ['мышь', 'крыса', 'хомяк', 'кролик'], correct: 1 },
+      { spanish: 'la linterna', options: ['лампа', 'свеча', 'фонарик', 'прожектор'], correct: 2 },
+      { spanish: 'iluminar', options: ['зажигать', 'тушить', 'освещать', 'светить'], correct: 2 },
+      { spanish: 'al cabo de', options: ['в конце', 'сначала', 'спустя, через', 'во время'], correct: 2 },
+      { spanish: 'el agujero', options: ['яма', 'дыра, яма', 'канава', 'ров'], correct: 1 },
+      { spanish: 'la poli (coloquial)', options: ['больница', 'полиция (разг.)', 'почта', 'политика'], correct: 1 },
+      { spanish: 'los Mossos', options: ['таксисты', 'пожарные', 'Мососы (полиция Каталонии)', 'врачи'], correct: 2 },
+      { spanish: '¡Qué pena!', options: ['Как хорошо!', 'Какая жалость!', 'Как интересно!', 'Как странно!'], correct: 1 }
     ]
   }
 }
