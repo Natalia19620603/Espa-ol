@@ -11010,9 +11010,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '31 de octubre',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-7-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-7-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-7-3'] }
         ]
       },
       {
@@ -21207,6 +21207,76 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Сеньора Монсеррат говорит, что угощает его, и Рауль просит добавить много коньяка, когда узнает, что платит она.', correct: 'La señora Montserrat dice que lo invita ella, y Raúl pide con mucho coñac cuando sabe que la señora paga.' },
       { russian: 'Рауль говорит, что Аристотель — неблагодарная собака, и это не характер, а дурной нрав!', correct: 'Raúl dice que Aristóteles es un perro desagradecido, y que eso no es carácter — ¡es mala leche!' },
       { russian: 'Армандо дает сеньоре Монсеррат свой номер мобильного телефона, чтобы она звонила ему в любое время, днем или ночью, если будет страшно.', correct: 'Armando le da a la señora Montserrat su número de móvil para que lo llame a cualquier hora, de día o de noche, si tiene miedo.' }
+    ]
+  },
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 7: 31 de octubre
+  'ex-9-3-7-1': {
+    id: 'ex-9-3-7-1',
+    type: 'fillblank',
+    title: 'Понимание текста: 31 de octubre',
+    description: 'Заполните пропуски словами и выражениями из списка:\n\nvíspera • anglosajones • brujas • almendras • excusa • recién • pegajosa • puñeteros • encendedor • tropezar • disfraz • fiambres • boniatos • asesinos • panellets',
+    questions: [
+      { sentence: 'Es la _____ del 1 de noviembre, día de Todos los Santos', correct: 'víspera' },
+      { sentence: 'En Cataluña algunos celebran comiendo castañas, _____ y panellets de forma tradicional', correct: 'boniatos' },
+      { sentence: 'Otros lo celebran como en los países _____, vestidos de monstruos y brujas', correct: 'anglosajones' },
+      { sentence: 'En Halloween la gente se viste de monstruos, _____ y máscaras de asesinos o dráculas', correct: 'brujas' },
+      { sentence: 'Pepa ha comprado castañas y _____ en La Boquería para hacer panellets', correct: 'almendras' },
+      { sentence: 'Pepa no tiene ganas de ver a Federico y va a inventarse alguna _____', correct: 'excusa' },
+      { sentence: 'Armando va al aeropuerto a buscar a unos amigos que llegaron _____ de Buenos Aires', correct: 'recién' },
+      { sentence: 'Después de tres horas, Pepa sigue luchando con una masa _____ de almendra y patata', correct: 'pegajosa' },
+      { sentence: 'Pepa exclama: "¡Voy a terminar los _____ panellets!" porque está frustrada', correct: 'puñeteros' },
+      { sentence: 'Cuando se apaga la luz en la escalera, Armando busca un _____ para ver', correct: 'encendedor' },
+      { sentence: 'En el tercer piso, Armando no ve bien y _____ con un bulto en el suelo', correct: 'tropieza' },
+      { sentence: 'El bulto tiene la cara de Chucky — es Raúl con _____ de Halloween', correct: 'disfraz' },
+      { sentence: 'Raúl pregunta si Pepa viene a comer castañas, y le dice que con esos pelos no necesita _____', correct: 'disfraz' },
+      { sentence: 'Raúl dice que no quiere ver muertos porque no le gustan nada los _____', correct: 'fiambres' },
+      { sentence: 'Pepa preparaba _____ en casa cuando llegó Armando a buscarla', correct: 'panellets' }
+    ]
+  },
+  'ex-9-3-7-2': {
+    id: 'ex-9-3-7-2',
+    type: 'fillblank',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Presente, Pretérito Indefinido, Pretérito Perfecto o Imperfecto.\n\nГлагол в скобках дан в инфинитиве - выберите правильную форму!\n\ntrabajar • ser • celebrar • comprar • querer • ir • llegar • buscar • seguir • sonar • apagarse • ver • tropezar • tener • estar',
+    questions: [
+      { sentence: 'Pepa _____ (trabajar) bien hoy porque mucha gente tomaba taxis', correct: 'ha trabajado' },
+      { sentence: 'El 31 de octubre _____ (ser) la víspera del día de Todos los Santos', correct: 'es' },
+      { sentence: 'En Cataluña, algunos _____ (celebrar) la fiesta de modo tradicional comiendo panellets', correct: 'celebran' },
+      { sentence: 'Pepa _____ (comprar) castañas y almendras en La Boquería antes de ir a casa', correct: 'ha comprado' },
+      { sentence: 'Ella no _____ (querer) ver a Federico porque no estaba preparada para hablar con él', correct: 'quería' },
+      { sentence: 'Armando le dijo que _____ (ir) al aeropuerto a buscar a unos amigos de Buenos Aires', correct: 'iba' },
+      { sentence: 'Sus amigos _____ (llegar) recientemente de Buenos Aires', correct: 'llegaron' },
+      { sentence: 'En casa, Pepa _____ (buscar) una receta de panellets en internet', correct: 'buscó' },
+      { sentence: 'Tres horas después, ella _____ (seguir) luchando con la masa pegajosa', correct: 'seguía' },
+      { sentence: 'En ese momento _____ (sonar) el timbre varias veces — era Armando', correct: 'sonó' },
+      { sentence: 'Cuando estaban bajando la escalera, _____ (apagarse) la luz', correct: 'se apagó' },
+      { sentence: 'En el tercer piso, de pronto _____ (verse) sombras en el suelo', correct: 'se vieron' },
+      { sentence: 'Armando _____ (tropezar) con un bulto que era Raúl disfrazado de Chucky', correct: 'tropezó' },
+      { sentence: 'El bulto _____ (tener) la cara de Chucky, el muñeco diabólico', correct: 'tenía' },
+      { sentence: 'Raúl _____ (estar) allí porque quería hacer una broma de Halloween', correct: 'estaba' }
+    ]
+  },
+  'ex-9-3-7-3': {
+    id: 'ex-9-3-7-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Пепа сегодня хорошо поработала, потому что много людей готовятся к этому вечеру и берут такси.', correct: 'Pepa ha trabajado bien hoy porque mucha gente se prepara para esta noche y toman taxis.' },
+      { russian: 'Это особенный вечер — канун первого ноября, дня Всех Святых.', correct: 'Es una noche especial — es la víspera del 1 de noviembre, día de Todos los Santos.' },
+      { russian: 'В Каталонии некоторые отмечают праздник традиционным способом: едят каштаны, батат и панельетс.', correct: 'En Cataluña algunos celebran la fiesta del modo tradicional: se comen castañas, boniatos y panellets.' },
+      { russian: 'Другие отмечают как в англосаксонских странах, то есть как на Хэллоуин, одетые в костюмы монстров, ведьм и маски убийц.', correct: 'Otros lo celebran como en los países anglosajones, o sea como en Halloween, vestidos de monstruos, brujas y máscaras de asesinos.' },
+      { russian: 'Пепа в таких вещах очень традиционна — она купила каштаны и миндаль в Ла Бокерии и хочет пригласить Армандо.', correct: 'Pepa en estas cosas es muy tradicional — ha comprado castañas y almendras en La Boquería y quiere invitar a Armando.' },
+      { russian: 'У нее нет желания видеть Федерико, своего парня, и она собирается придумать какое-нибудь оправдание.', correct: 'No tiene ganas de ver a Federico, su novio, y va a inventarse alguna excusa.' },
+      { russian: 'Армандо говорит, что едет в аэропорт встречать друзей, которые только что прилетели из Буэнос-Айреса.', correct: 'Armando dice que va al aeropuerto a buscar a unos amigos, que llegaron recién de Buenos Aires.' },
+      { russian: 'Пепа собирается есть панельетс и каштаны одна, думая: "Лучше одной, чем в плохой компании".', correct: 'Pepa va a comerse sola los panellets y las castañas pensando: "Mejor sola que mal acompañada".' },
+      { russian: 'Дома она ищет рецепт панельетс в интернете — обычно она покупает их в кондитерской, но сегодня хочет готовить.', correct: 'En casa busca una receta de panellets en internet — siempre los compra en una pastelería, pero hoy tiene ganas de cocinar.' },
+      { russian: 'Три часа спустя Пепа всё ещё борется с липким тестом из миндаля и картофеля, которое никак не получается.', correct: 'Tres horas después, Pepa sigue luchando con una masa pegajosa de almendra y patata que nunca sale bien.' },
+      { russian: 'Звонит дверной звонок несколько раз — это Армандо в пижаме, потому что сеньора Монсеррат снова видела привидения.', correct: 'Suena el timbre varias veces — es Armando en pijama porque la señora Montserrat vio otra vez fantasmas.' },
+      { russian: 'Когда они спускаются по лестнице, гаснет свет, и Пепа ищет кнопку, но она, кажется, не работает.', correct: 'Cuando están bajando la escalera, se apaga la luz y Pepa busca el botón, pero parece que no funciona.' },
+      { russian: 'Армандо говорит, что у него есть зажигалка, и они спускаются два этажа со светом от зажигалки.', correct: 'Armando dice que tiene un encendedor y bajan dos pisos con la luz del encendedor.' },
+      { russian: 'На третьем этаже Армандо не видит что-то на полу и спотыкается о комок, который оказывается Раулем в маске Чаки.', correct: 'En el tercero Armando no ve algo en el suelo y tropieza con un bulto que resulta ser Raúl con la máscara de Chucky.' },
+      { russian: 'Рауль говорит, что не хочет видеть мертвецов, потому что не любит трупы, но Пепа объясняет, что сеньора "напугана до смерти", а не мертва.', correct: 'Raúl dice que no quiere ver muertos porque no le gustan los fiambres, pero Pepa le explica que la señora está muerta de miedo, no muerta.' }
     ]
   }
 }
