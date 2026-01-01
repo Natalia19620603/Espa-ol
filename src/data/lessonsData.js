@@ -11001,9 +11001,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '30 de octubre. 19.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-6-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-6-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-6-3'] }
         ]
       },
       {
@@ -21138,6 +21138,75 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Сеньора Монсеррат платит ему восемь евро в час за то, что он проводит время с Аристотелем.', correct: 'La señora Montserrat le paga ocho euros la hora por estar con Aristóteles.' },
       { russian: 'Рауль с гордостью повторяет, что теперь он выгульщик собак и это профессия с будущим.', correct: 'Raúl repite con orgullo que ahora es paseador de perros y que es una profesión con futuro.' },
       { russian: 'Пока у него только один клиент, но Пепа входит в церковь и садится в конце, потому что не любит похороны.', correct: 'De momento solo tiene un cliente, pero Pepa entra en la iglesia y se sienta al final porque no le gustan los entierros.' }
+    ]
+  },
+  'ex-9-3-6-1': {
+    id: 'ex-9-3-6-1',
+    type: 'fillblank',
+    title: 'Понимание текста: 30 de octubre. 19.00 h.',
+    description: 'Заполните пропуски словами и выражениями из списка:\n\ndeprimido • alma en pena • carajillo • mala leche • lamentos • tener mucho carácter • sonoros • gruñe • tila • desagradecido • fantasmas • valiente • difunto • cansada • barra',
+    questions: [
+      { sentence: 'A las siete de la tarde, Pepa aparca el taxi porque no hay mucho trabajo y está _____', correct: 'cansada' },
+      { sentence: 'Antes de ir a casa, Pepa pasa por el bar de Armando y ve a la señora Montserrat en la _____ tomando una tila', correct: 'barra' },
+      { sentence: 'La señora Montserrat le da las gracias a Pepa con dos besos muy _____', correct: 'sonoros' },
+      { sentence: 'El perrito horrible se pone a dormir sobre el pie de Pepa, y cuando ella se mueve, el perro _____', correct: 'gruñe' },
+      { sentence: 'El perro también parece _____ después de la muerte del señor Ramón', correct: 'deprimido' },
+      { sentence: 'La señora Montserrat dice que en su casa pasan cosas raras porque hay _____', correct: 'fantasmas' },
+      { sentence: 'Ella cree que quizá su marido Ramón está vagando por la casa como un _____', correct: 'alma en pena' },
+      { sentence: 'Cuando aparece Raúl, Aristóteles le clava sus dientes en la pierna y Raúl grita entre _____', correct: 'lamentos' },
+      { sentence: 'Después del ataque de Aristóteles, Raúl pide un _____ de Torres con mucho coñac', correct: 'carajillo' },
+      { sentence: 'La señora Montserrat dice que Aristóteles no es malo, sino que _____, pero Raúl no está de acuerdo', correct: 'tener mucho carácter' },
+      { sentence: 'Raúl dice que Aristóteles es un perro _____ y que tiene _____, no carácter', correct: 'desagradecido • mala leche' },
+      { sentence: 'Armando le da su número de móvil a la señora Montserrat para que lo llame si tiene miedo de los _____', correct: 'fantasmas' },
+      { sentence: 'La señora Montserrat paga sus tilas y el _____ de Raúl antes de irse', correct: 'carajillo' },
+      { sentence: 'La señora Montserrat sale del bar con Aristóteles — es una mujer _____', correct: 'valiente' },
+      { sentence: 'Ella piensa que si el fantasma es su _____ Ramón, no van a tener problemas después de 40 años juntos', correct: 'difunto' }
+    ]
+  },
+  'ex-9-3-6-2': {
+    id: 'ex-9-3-6-2',
+    type: 'fillblank',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Presente, Pretérito Indefinido, Pretérito Perfecto o Imperfecto.\n\nГлагол в скобках дан в инфинитиве - выберите правильную форму!\n\naparcarse • estar • pasar • tomarse • dar • pensar • ponerse • moverse • parecer • decir • tener • oírse • dar • querer • llegar • irse',
+    questions: [
+      { sentence: 'A las siete, Pepa _____ (aparcar) el taxi porque no había mucho trabajo', correct: 'aparcó' },
+      { sentence: 'Antes de ir a casa, ella _____ (pasar) por el bar de Armando como cada día', correct: 'pasó' },
+      { sentence: 'En la barra _____ (estar) la señora Montserrat, que se estaba tomando una tila', correct: 'estaba' },
+      { sentence: 'Cuando Pepa saludó a la señora, ella _____ (pensar): "¿Qué se dice en estos casos?"', correct: 'pensó' },
+      { sentence: 'La señora Montserrat le _____ (dar) las gracias a Pepa con dos besos muy sonoros', correct: 'dio' },
+      { sentence: 'El perrito _____ (ponerse) a dormir sobre el pie de Pepa y gruñía cuando ella se movía', correct: 'se puso' },
+      { sentence: 'También el perro _____ (parecer) deprimido después de la muerte de su dueño', correct: 'parecía' },
+      { sentence: 'La señora Montserrat le _____ (decir) a Pepa que en su casa pasaban cosas muy raras', correct: 'dijo' },
+      { sentence: 'Ella explicó que _____ (haber) ruidos raros y gritos en la casa', correct: 'había' },
+      { sentence: 'Armando _____ (querer) tranquilizarla porque pensaba que era el shock de los primeros días', correct: 'quería' },
+      { sentence: 'En ese momento _____ (oírse) unos gritos terribles: "Uuuuuuh, aaaaah, oooooooh"', correct: 'se oyeron' },
+      { sentence: 'No era un fantasma — en la puerta _____ (estar) Raúl con Aristóteles clavado en su pierna', correct: 'estaba' },
+      { sentence: 'Cuando Raúl por fin _____ (estar) libre de Aristóteles, la señora se tomó una segunda tila', correct: 'estuvo' },
+      { sentence: 'Armando le _____ (dar) su número de móvil para que lo llamara si tenía miedo', correct: 'dio' },
+      { sentence: 'La señora Montserrat les _____ (dar) las gracias a todos, pagó las bebidas y se fue con Aristóteles', correct: 'dio' }
+    ]
+  },
+  'ex-9-3-6-3': {
+    id: 'ex-9-3-6-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'В семь вечера Пепа паркует такси, потому что работы не очень много и она устала.', correct: 'A las siete, Pepa aparca el taxi porque no hay mucho trabajo y está cansada.' },
+      { russian: 'Перед тем как идти домой, она заходит в бар Армандо, где за стойкой сидит сеньора Монсеррат, которая пьет липовый чай.', correct: 'Antes de ir a casa, pasa por el bar de Armando donde en la barra está la señora Montserrat, que se está tomando una tila.' },
+      { russian: 'Пепа здоровается с сеньорой Монсеррат и думает: "Что говорят в таких случаях? Понятия не имею".', correct: 'Pepa saluda a la señora Montserrat y piensa: "¿Qué se dice en estos casos? Ni idea".' },
+      { russian: 'Сеньора Монсеррат благодарит ее двумя очень звучными поцелуями — говорить ничего не нужно, она всё говорит сама.', correct: 'La señora Montserrat le da las gracias con dos besos muy sonoros — no es necesario decir nada: ella lo dice todo.' },
+      { russian: 'Ужасный песик ложится спать на ногу Пепы, и каждый раз, когда она двигается, собака рычит.', correct: 'El perrito horrible se pone a dormir sobre el pie de Pepa, y cada vez que ella se mueve, el perro gruñe.' },
+      { russian: 'Собака тоже выглядит подавленной — что вполне нормально после смерти хозяина!', correct: 'También él parece deprimido — ¡normal después de la muerte del dueño!' },
+      { russian: 'Сеньора Монсеррат рассказывает, что в их доме происходят очень странные вещи — там водятся привидения!', correct: 'La señora Montserrat cuenta que en su casa pasan cosas raras, muy raras — ¡hay fantasmas!' },
+      { russian: 'Она говорит, что есть странные звуки и крики, и возможно ее Рамон бродит по дому как неприкаянная душа.', correct: 'Ella dice que hay ruidos raros, gritos, y quizá su Ramón está vagando por la casa como un alma en pena.' },
+      { russian: 'Армандо хочет успокоить ее, говоря, что это шок и что это нормально в первые дни после смерти мужа.', correct: 'Armando quiere tranquilizarla diciendo que es el shock y que es normal los primeros días después de la muerte del marido.' },
+      { russian: 'В этот момент раздаются ужасные крики, и все подпрыгивают и смотрят в сторону криков.', correct: 'En ese momento se oyen unos gritos terribles, y todos dan un salto y miran hacia los gritos.' },
+      { russian: 'Это не привидение — в дверях стоит Рауль, и Аристотель вцепился ему в ногу своими маленькими зубами.', correct: 'No es un fantasma — en la puerta está Raúl y Aristóteles le clava sus pequeños dientes en la pierna.' },
+      { russian: 'Когда наконец Рауль освобождается от Аристотеля, сеньора Монсеррат выпивает второй липовый чай, а Рауль требует кофе с алкоголем.', correct: 'Cuando por fin Raúl está libre de Aristóteles, la señora Montserrat se toma una segunda tila y Raúl reclama un carajillo.' },
+      { russian: 'Сеньора Монсеррат говорит, что угощает его, и Рауль просит добавить много коньяка, когда узнает, что платит она.', correct: 'La señora Montserrat dice que lo invita ella, y Raúl pide con mucho coñac cuando sabe que la señora paga.' },
+      { russian: 'Рауль говорит, что Аристотель — неблагодарная собака, и это не характер, а дурной нрав!', correct: 'Raúl dice que Aristóteles es un perro desagradecido, y que eso no es carácter — ¡es mala leche!' },
+      { russian: 'Армандо дает сеньоре Монсеррат свой номер мобильного телефона, чтобы она звонила ему в любое время, днем или ночью, если будет страшно.', correct: 'Armando le da a la señora Montserrat su número de móvil para que lo llame a cualquier hora, de día o de noche, si tiene miedo.' }
     ]
   }
 }
