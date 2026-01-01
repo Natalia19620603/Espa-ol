@@ -82,7 +82,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: Литература и культура',
     level: 'intermediate',
-    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -9466,7 +9466,7 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
 
   'lesson-9-2': {
     id: 'lesson-9-2',
-    title: 'Урок 2: Испанские традиции',
+    title: 'Урок 2: El origen de Navidad',
     moduleId: 'module-9',
     videoTabs: [
       {
@@ -11460,6 +11460,55 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
       }
     ],
     exercises: ['ex-9-4-1', 'ex-9-4-2', 'ex-9-4-3', 'ex-9-4-4', 'ex-9-4-5']
+  },
+
+  'lesson-9-5': {
+    id: 'lesson-9-5',
+    title: 'Урок 5: Video psicología',
+    moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'Видео 1',
+        videoUrl: '/video/module-9-lesson-5-video1.mp4'
+      },
+      {
+        tab: 'Видео 2',
+        videoUrl: '/video/module-9-lesson-5-video2.mp4'
+      },
+      {
+        tab: 'Видео 3',
+        videoUrl: '/video/module-9-lesson-5-video3.mp4'
+      }
+    ],
+    vocabulary: [
+      {
+        tab: 'Словарь психологии',
+        words: [
+          { word: 'la psicología', translation: 'психология' },
+          { word: 'el comportamiento', translation: 'поведение' },
+          { word: 'la mente', translation: 'ум, разум' },
+          { word: 'el cerebro', translation: 'мозг' },
+          { word: 'la emoción', translation: 'эмоция, чувство' },
+          { word: 'el pensamiento', translation: 'мысль, мышление' },
+          { word: 'la personalidad', translation: 'личность, характер' },
+          { word: 'el estrés', translation: 'стресс' },
+          { word: 'la ansiedad', translation: 'тревога, беспокойство' },
+          { word: 'la depresión', translation: 'депрессия' },
+          { word: 'la terapia', translation: 'терапия, лечение' },
+          { word: 'el psicólogo', translation: 'психолог' },
+          { word: 'el psiquiatra', translation: 'психиатр' },
+          { word: 'la memoria', translation: 'память' },
+          { word: 'la percepción', translation: 'восприятие' },
+          { word: 'la consciencia', translation: 'сознание' },
+          { word: 'el subconsciente', translation: 'подсознание' },
+          { word: 'la motivación', translation: 'мотивация' },
+          { word: 'la autoestima', translation: 'самооценка' },
+          { word: 'el desarrollo', translation: 'развитие' }
+        ]
+      }
+    ],
+    readingText: [],
+    exercises: []
   }
 }
 
