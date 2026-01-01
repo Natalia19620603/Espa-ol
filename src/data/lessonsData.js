@@ -10955,7 +10955,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-1-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-1-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-1-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-1-3'] }
@@ -10964,7 +10964,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Barcelona. 28 de octubre. 10.30 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-2-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-2-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-2-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-2-3'] }
@@ -10973,7 +10973,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Barcelona. 28 de octubre. 12.30 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-3-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-3-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-3-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-3-3'] }
@@ -10982,7 +10982,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '30 de octubre. Por la mañana.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-4-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-4-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-4-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-4-3'] }
@@ -10991,7 +10991,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '30 de octubre. Por la tarde.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-5-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-5-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-5-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-5-3'] }
@@ -11000,7 +11000,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '30 de octubre. 19.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-6-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-6-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-6-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-6-3'] }
@@ -11009,7 +11009,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '31 de octubre',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-7-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-7-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-7-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-7-3'] }
@@ -11018,7 +11018,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Casa de la señora Montserrat. 23.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-8-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-8-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-8-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-8-3'] }
@@ -11027,7 +11027,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '1 de noviembre. 00.30 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-9-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-9-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-9-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-9-3'] }
@@ -11036,7 +11036,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '1 de noviembre. 10.30 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-10-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-10-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-10-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-10-3'] }
@@ -11045,7 +11045,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '2 de noviembre. 08.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-11-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-11-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-11-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-11-3'] }
@@ -22684,6 +22684,229 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Тем временем Армандо уже достал мобильный телефон и звонил в полицию Мосос.', correct: 'Mientras, Armando había sacado el móvil y estaba llamando a los Mossos.' },
       { russian: 'Рауль пытался выбраться из дыры — у него в руках была старая металлическая коробка, как банковская.', correct: 'Raúl intentaba salir del agujero — tenía en las manos una vieja caja metálica, como las de los bancos.' },
       { russian: 'Пепа подумала, глядя на Ариэля в последний раз: "Какая жалость! А он такой красивый!"', correct: 'Pepa pensó, mirando a Ariel por última vez: «¡Qué pena! ¡Con lo guapo que es...!»' }
+    ]
+  },
+
+  // Словари для глав 1-11
+  'ex-9-3-1-vocab': {
+    id: 'ex-9-3-1-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Barcelona. 28 de octubre. 10.00 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el folleto', options: ['буклет, брошюра', 'газета', 'журнал', 'книга'], correct: 0 },
+      { spanish: 'el crucero', options: ['самолет', 'круиз, круизное судно', 'поезд', 'автобус'], correct: 1 },
+      { spanish: 'la licencia', options: ['билет', 'лицензия', 'паспорт', 'виза'], correct: 1 },
+      { spanish: 'el local', options: ['помещение', 'дом', 'квартира', 'офис'], correct: 0 },
+      { spanish: 'urgentemente', options: ['медленно', 'быстро', 'срочно, незамедлительно', 'тихо'], correct: 2 },
+      { spanish: 'la reforma', options: ['переезд', 'ремонт', 'покупка', 'продажа'], correct: 1 },
+      { spanish: 'llevarse bien', options: ['уезжать', 'носить', 'хорошо ладить', 'забирать'], correct: 2 },
+      { spanish: 'soso', options: ['вкусный', 'сладкий', 'соленый', 'несоленый, пресный, безвкусный'], correct: 3 },
+      { spanish: 'el mono', options: ['комбинезон, обезьяна, симпатичный', 'кошка', 'собака', 'лошадь'], correct: 0 },
+      { spanish: 'el corte', options: ['порез, стрижка', 'удар', 'царапина', 'ожог'], correct: 0 },
+      { spanish: 'liso', options: ['кудрявый', 'волнистый', 'гладкий', 'короткий'], correct: 2 },
+      { spanish: 'ligar', options: ['читать', 'писать', 'флиртовать, связывать', 'говорить'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-2-vocab': {
+    id: 'ex-9-3-2-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Barcelona. 28 de octubre. 10.30 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'divino', options: ['божественный, прекрасный', 'ужасный', 'обычный', 'плохой'], correct: 0 },
+      { spanish: 'el plomo', options: ['золото', 'серебро', 'свинец, зануда', 'медь'], correct: 2 },
+      { spanish: 'la peste', options: ['чума, вонь', 'аромат', 'духи', 'цветок'], correct: 0 },
+      { spanish: 'apestar', options: ['пахнуть хорошо', 'вонять, плохо пахнуть', 'нюхать', 'дышать'], correct: 1 },
+      { spanish: 'distribuir', options: ['собирать', 'распределять, распространять', 'терять', 'находить'], correct: 1 },
+      { spanish: 'el escepticismo', options: ['оптимизм', 'пессимизм', 'скептицизм', 'романтизм'], correct: 2 },
+      { spanish: 'la ambulancia', options: ['полицейская машина', 'такси', 'машина скорой помощи', 'пожарная машина'], correct: 2 },
+      { spanish: 'auténtico', options: ['фальшивый', 'поддельный', 'подлинный, настоящий', 'искусственный'], correct: 2 },
+      { spanish: 'asomarse', options: ['прятаться', 'показываться, высовываться', 'убегать', 'входить'], correct: 1 },
+      { spanish: 'la portera/el portero', options: ['консьерж', 'директор', 'сосед', 'родственник'], correct: 0 },
+      { spanish: 'impaciente', options: ['терпеливый', 'спокойный', 'нетерпеливый; беспокойный', 'радостный'], correct: 2 },
+      { spanish: 'en paz descanse', options: ['добрый день', 'упокой Господь его душу', 'спокойной ночи', 'доброе утро'], correct: 1 },
+      { spanish: 'suspirar', options: ['смеяться', 'плакать', 'кричать', 'вздыхать/вздохнуть'], correct: 3 },
+      { spanish: 'de repente', options: ['медленно', 'внезапно, вдруг', 'постепенно', 'никогда'], correct: 1 }
+    ]
+  },
+
+  'ex-9-3-3-vocab': {
+    id: 'ex-9-3-3-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Barcelona. 28 de octubre. 12.30 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'apetecer', options: ['отказываться', 'желать, хотеть', 'ненавидеть', 'избегать'], correct: 1 },
+      { spanish: 'el cajero automático', options: ['касса', 'банкомат (АТМ)', 'терминал', 'окно'], correct: 1 },
+      { spanish: 'la cuenta corriente', options: ['текущий счет в банке', 'вексель', 'чек', 'квитанция'], correct: 0 },
+      { spanish: 'la plaza', options: ['улица', 'дом', 'место, площадь', 'парк'], correct: 2 },
+      { spanish: 'porteño', options: ['портовый, житель Буэнос-Айреса', 'моряк', 'рыбак', 'капитан'], correct: 0 },
+      { spanish: 'sabio', options: ['глупый', 'мудрый, мудрец', 'молодой', 'старый'], correct: 1 },
+      { spanish: 'el talego', options: ['отель', 'ресторан', 'тюрьма', 'больница'], correct: 2 },
+      { spanish: 'Alcalá Meco', options: ['название города', 'название улицы', 'название тюрьмы', 'название реки'], correct: 2 },
+      { spanish: 'el camello', options: ['торговец цветами', 'верблюд, торговец наркотиками', 'продавец фруктов', 'таксист'], correct: 1 },
+      { spanish: 'las drogas', options: ['лекарства', 'наркотики', 'витамины', 'травы'], correct: 1 },
+      { spanish: 'salvaje', options: ['культурный', 'вежливый', 'дикий, грубый', 'добрый'], correct: 2 },
+      { spanish: 'el enchufe', options: ['выключатель', 'розетка', 'лампочка', 'провод'], correct: 1 },
+      { spanish: 'ser un tarado', options: ['быть умным', 'быть быстрым', 'быть глупым, испорченным', 'быть красивым'], correct: 2 },
+      { spanish: 'el odio', options: ['любовь', 'дружба', 'ненависть', 'радость'], correct: 2 },
+      { spanish: 'palmar', options: ['родиться', 'жить', 'помереть, откинуться', 'спать'], correct: 2 },
+      { spanish: 'el murciélago', options: ['птица', 'летучая мышь', 'бабочка', 'комар'], correct: 1 },
+      { spanish: 'un Pomerania', options: ['шпиц', 'бульдог', 'пудель', 'такса'], correct: 0 }
+    ]
+  },
+
+  'ex-9-3-4-vocab': {
+    id: 'ex-9-3-4-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 30 de octubre. Por la mañana.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el ático', options: ['подвал', 'гараж', 'мансарда', 'балкон'], correct: 2 },
+      { spanish: 'la acera', options: ['дорога', 'тротуар; сторона улицы', 'мост', 'переход'], correct: 1 },
+      { spanish: 'la movida', options: ['покой', 'тишина', 'движуха', 'сон'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-5-vocab': {
+    id: 'ex-9-3-5-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 30 de octubre. Por la tarde.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la barra', options: ['стол', 'барная стойка, батон', 'стул', 'окно'], correct: 1 },
+      { spanish: 'tener mala leche', options: ['быть добрым', 'быть больным', 'иметь дурной характер', 'быть голодным'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-6-vocab': {
+    id: 'ex-9-3-6-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 30 de octubre. 19.00 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la tila', options: ['кофе', 'липовый чай', 'сок', 'вода'], correct: 1 },
+      { spanish: 'sonoro', options: ['тихий', 'беззвучный', 'звучный', 'глухой'], correct: 2 },
+      { spanish: 'gruñir', options: ['петь', 'смеяться', 'ворчать, рычать', 'шептать'], correct: 2 },
+      { spanish: 'deprimido', options: ['счастливый', 'веселый', 'подавленный, расстроенный', 'радостный'], correct: 2 },
+      { spanish: 'el alma en pena', options: ['счастливая душа', 'веселая душа', 'неприкаянная душа', 'добрая душа'], correct: 2 },
+      { spanish: 'el cabrón', options: ['друг', 'товарищ', 'козел (руг.)', 'брат'], correct: 2 },
+      { spanish: 'el lamento', options: ['смех', 'песня', 'плач', 'крик'], correct: 2 },
+      { spanish: 'el carajillo', options: ['чай', 'сок', 'кофе с алкоголем', 'молоко'], correct: 2 },
+      { spanish: 'tener mucho carácter', options: ['быть слабым', 'быть тихим', 'иметь сильный характер', 'быть робким'], correct: 2 },
+      { spanish: 'desagradecido', options: ['благодарный', 'признательный', 'неблагодарный', 'добрый'], correct: 2 },
+      { spanish: 'el funeral', options: ['свадьба', 'крещение', 'похороны', 'день рождения'], correct: 2 },
+      { spanish: 'ser de pura raza', options: ['смешанный', 'обычный', 'чистокровный', 'простой'], correct: 2 },
+      { spanish: 'el entierro', options: ['праздник', 'торжество', 'похороны', 'вечеринка'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-7-vocab': {
+    id: 'ex-9-3-7-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 31 de octubre',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'en vísperas', options: ['после', 'накануне, в преддверии', 'во время', 'вместо'], correct: 1 },
+      { spanish: 'el boniato', options: ['картофель', 'батат, сладкий картофель', 'морковь', 'свекла'], correct: 1 },
+      { spanish: 'anglosajón', options: ['французский', 'испанский', 'англосаксонский', 'итальянский'], correct: 2 },
+      { spanish: 'la bruja', options: ['принцесса', 'королева', 'ведьма, колдунья', 'фея'], correct: 2 },
+      { spanish: 'el asesino', options: ['спаситель', 'защитник', 'убийца', 'герой'], correct: 2 },
+      { spanish: 'las almendras', options: ['орехи грецкие', 'миндальные орехи', 'фундук', 'кешью'], correct: 1 },
+      { spanish: 'la excusa', options: ['правда', 'факт', 'оправдание, отговорка', 'доказательство'], correct: 2 },
+      { spanish: 'recién', options: ['давно', 'всегда', 'недавно, только что', 'никогда'], correct: 2 },
+      { spanish: 'pegajoso', options: ['сухой', 'твердый', 'липкий, клейкий', 'мягкий'], correct: 2 },
+      { spanish: 'el puño', options: ['нога', 'голова', 'кулак, манжета', 'плечо'], correct: 2 },
+      { spanish: 'puñetero', options: ['хороший', 'прекрасный', 'чертов, проклятый', 'милый'], correct: 2 },
+      { spanish: 'el botón', options: ['замок', 'кнопка, пуговица', 'ключ', 'булавка'], correct: 1 },
+      { spanish: 'el encendedor', options: ['спички', 'свеча', 'зажигалка', 'фонарь'], correct: 2 },
+      { spanish: 'tropezar', options: ['прыгать', 'бежать', 'споткнуться', 'ползти'], correct: 2 },
+      { spanish: 'el macho', options: ['самка', 'детеныш', 'самец', 'малыш'], correct: 2 },
+      { spanish: 'el disfraz', options: ['униформа', 'костюм', 'маскарадный костюм', 'халат'], correct: 2 },
+      { spanish: 'el fiambre', options: ['горячее блюдо', 'суп', 'холодная мясная закуска', 'десерт'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-8-vocab': {
+    id: 'ex-9-3-8-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Casa de la señora Montserrat. 23.00 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el moscatel', options: ['вода', 'сок', 'мускат, алкогольный напиток', 'кофе'], correct: 2 },
+      { spanish: 'el suspiro', options: ['крик', 'шепот', 'вздох', 'смех'], correct: 2 },
+      { spanish: 'no estar para', options: ['быть готовым к', 'хотеть', 'быть не в настроении для', 'любить'], correct: 2 },
+      { spanish: 'a medio hacer', options: ['законченный', 'готовый', 'недоделанный', 'новый'], correct: 2 },
+      { spanish: 'las cadenas', options: ['веревки', 'ремни', 'цепи', 'нитки'], correct: 2 },
+      { spanish: 'compartir', options: ['скрывать', 'прятать', 'разделять', 'красть'], correct: 2 },
+      { spanish: 'dar yuyu', options: ['радовать', 'веселить', 'пугать (dar miedo)', 'успокаивать'], correct: 2 },
+      { spanish: 'la pipa', options: ['сигарета', 'сигара', 'курительная трубка', 'кальян'], correct: 2 },
+      { spanish: 'los gemelos', options: ['друзья', 'братья', 'близнецы, запонки', 'соседи'], correct: 2 },
+      { spanish: 'el secuestrador', options: ['спаситель', 'защитник', 'похититель', 'охранник'], correct: 2 },
+      { spanish: 'secuestrar', options: ['спасать', 'защищать', 'похищать, лишать свободы', 'освобождать'], correct: 2 },
+      { spanish: 'agacharse', options: ['прыгать', 'вставать', 'наклоняться, нагибаться', 'ложиться'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-9-vocab': {
+    id: 'ex-9-3-9-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 1 de noviembre. 00.30 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el tocadiscos', options: ['радио', 'проигрыватель дисков', 'телевизор', 'компьютер'], correct: 1 },
+      { spanish: 'el gilipollas', options: ['умник', 'гений', 'придурок, мудак', 'профессор'], correct: 2 },
+      { spanish: 'el mando a distancia', options: ['телефон', 'пульт дистанционного управления', 'клавиатура', 'мышка'], correct: 1 }
+    ]
+  },
+
+  'ex-9-3-10-vocab': {
+    id: 'ex-9-3-10-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 1 de noviembre. 10.30 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la vanguardia', options: ['тыл', 'впереди, в авангарде, название газеты', 'центр', 'конец'], correct: 1 },
+      { spanish: 'valiente', options: ['трусливый', 'храбрый, смелый', 'слабый', 'робкий'], correct: 1 },
+      { spanish: 'arrugado', options: ['гладкий', 'новый', 'мятый', 'чистый'], correct: 2 },
+      { spanish: 'las arrugas', options: ['шрамы', 'царапины', 'морщины, складки', 'пятна'], correct: 2 },
+      { spanish: 'el pelo de punta', options: ['прямые волосы', 'волосы дыбом, торчащие вверх', 'волнистые волосы', 'короткие волосы'], correct: 1 },
+      { spanish: 'tender la mano', options: ['спрятать руку', 'протянуть руку', 'поднять руку', 'опустить руку'], correct: 1 },
+      { spanish: 'vigilar', options: ['спать', 'следить, наблюдать', 'играть', 'работать'], correct: 1 },
+      { spanish: 'cierto', options: ['неправильный', 'точный, точно', 'ложный', 'сомнительный'], correct: 1 },
+      { spanish: 'ridículo', options: ['серьезный', 'важный', 'смешной, нелепый', 'грустный'], correct: 2 }
+    ]
+  },
+
+  'ex-9-3-11-vocab': {
+    id: 'ex-9-3-11-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 2 de noviembre. 08.00 h.',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el ejecutivo', options: ['рабочий', 'управленец, служащий', 'студент', 'учитель'], correct: 1 },
+      { spanish: 'pegar', options: ['гладить', 'целовать', 'приклеивать, бить', 'обнимать'], correct: 2 },
+      { spanish: 'le suena la cara', options: ['лицо не знакомо', 'лицо красивое', 'лицо припоминает', 'лицо новое'], correct: 2 },
+      { spanish: 'el retrovisor', options: ['фара', 'зеркало заднего вида', 'руль', 'педаль'], correct: 1 },
+      { spanish: 'el contador', options: ['кассир', 'продавец', 'счетчик', 'бухгалтер'], correct: 2 },
+      { spanish: 'el cubo', options: ['корзина', 'коробка', 'ведро', 'сумка'], correct: 2 },
+      { spanish: 'el doble', options: ['половина', 'треть', 'дублер, двойник', 'оригинал'], correct: 2 },
+      { spanish: 'ni leches', options: ['много', 'немного', 'ничего!', 'все'], correct: 2 },
+      { spanish: 'la motosierra', options: ['молоток', 'пила', 'бензопила', 'топор'], correct: 2 },
+      { spanish: 'tieso', options: ['мягкий', 'гибкий', 'жесткий, напряженный', 'слабый'], correct: 2 },
+      { spanish: 'terrorífico', options: ['приятный', 'милый', 'ужасающий', 'забавный'], correct: 2 },
+      { spanish: 'pegar un grito', options: ['шептать', 'говорить', 'закричать', 'молчать'], correct: 2 },
+      { spanish: 'aterrador', options: ['успокаивающий', 'приятный', 'ужасающий, жуткий', 'веселый'], correct: 2 },
+      { spanish: 'ferozmente', options: ['нежно', 'тихо', 'яростно, свирепо', 'спокойно'], correct: 2 },
+      { spanish: 'respirar', options: ['говорить', 'кричать', 'дышать, вдыхать', 'петь'], correct: 2 },
+      { spanish: 'desmayarse', options: ['просыпаться', 'вставать', 'падать в обморок', 'смеяться'], correct: 2 },
+      { spanish: 'la ADN', options: ['РНК', 'ДНК', 'белок', 'клетка'], correct: 1 },
+      { spanish: 'interrogar', options: ['отвечать', 'молчать', 'спрашивать, допрашивать', 'кричать'], correct: 2 },
+      { spanish: 'el lío', options: ['порядок', 'ясность', 'неразбериха', 'простота'], correct: 2 },
+      { spanish: 'complicarse', options: ['упрощаться', 'решаться', 'усложняться', 'исчезать'], correct: 2 },
+      { spanish: 'ahuyentar', options: ['привлекать', 'приглашать', 'отпугивать', 'звать'], correct: 2 }
     ]
   },
 
