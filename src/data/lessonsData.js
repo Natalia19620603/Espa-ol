@@ -11037,9 +11037,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '1 de noviembre. 10.30 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-10-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-10-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-10-3'] }
         ]
       },
       {
@@ -21424,6 +21424,196 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'И вдруг она видит это: маленькое устройство на картине.', correct: 'Y de pronto lo ve: un pequeño aparato encima de un cuadro.' },
       { russian: 'Оно действительно очень маленькое — плеер mp3 или что-то похожее.', correct: 'Es realmente muy pequeño — un reproductor de mp3 o algo parecido.' },
       { russian: 'Пепа думает: "Что-то очень маленькое, но звучит очень громко и наверняка работает с пультом дистанционного управления". Кто это сюда поставил?', correct: 'Pepa piensa: "Algo muy pequeño, pero que suena muy alto y que seguramente va con un mando a distancia". ¿Quién ha puesto esto aquí?' }
+    ]
+  },
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 10: 1 de noviembre. 10.30 h.
+  'ex-9-3-10-1': {
+    id: 'ex-9-3-10-1',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: 1 de noviembre. 10.30 h.',
+    description: 'Выберите правильный ответ на вопросы по тексту:',
+    questions: [
+      {
+        question: '¿Qué despierta a Pepa por la mañana?',
+        options: ['El ruido de la televisión', 'El olor de la cafetera', 'El timbre de la puerta', 'La música de Ramón'],
+        correct: 1
+      },
+      {
+        question: '¿Qué ha preparado la señora Montserrat para el desayuno?',
+        options: ['Café y tostadas', 'Cruasanes, pan y La Vanguardia', 'Panellets y castañas', 'Huevos y bacon'],
+        correct: 1
+      },
+      {
+        question: '¿Qué le muestra Pepa a la señora Montserrat?',
+        options: ['Una foto de Ramón', 'El pequeño aparato de música', 'Su teléfono móvil', 'Un disco de Carmina Burana'],
+        correct: 1
+      },
+      {
+        question: '¿Qué le explica Pepa a la señora sobre el aparato?',
+        options: ['Que es de Ramón', 'Que es un montaje para asustarla', 'Que es un regalo', 'Que no funciona'],
+        correct: 1
+      },
+      {
+        question: '¿Cuánto tiempo necesita Pepa para resolver el misterio?',
+        options: ['Una semana', 'Un día', 'Un par de días', 'Un mes'],
+        correct: 2
+      },
+      {
+        question: '¿Quién llega a mitad del desayuno?',
+        options: ['Armando', 'Raúl', 'Ariel, el sobrino', 'Federico'],
+        correct: 2
+      },
+      {
+        question: '¿Cómo es Ariel según la señora Montserrat?',
+        options: ['Muy simpático', 'Muy guapo', 'Muy inteligente', 'Muy trabajador'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo está Pepa cuando ve a Ariel?',
+        options: ['Perfectamente arreglada', 'Con ropa arrugada y pelo de punta', 'Con maquillaje', 'Recién duchada'],
+        correct: 1
+      },
+      {
+        question: '¿Con quién compara Pepa a Ariel?',
+        options: ['Con George Clooney', 'Con Brad Pitt', 'Con Antonio Banderas', 'Con Javier Bardem'],
+        correct: 1
+      },
+      {
+        question: '¿Cuál es la profesión de Ariel?',
+        options: ['Médico', 'Arquitecto', 'Abogado', 'Policía'],
+        correct: 2
+      },
+      {
+        question: '¿Qué quieren los hombres peligrosos?',
+        options: ['El coche de la señora', 'El piso de la tía', 'El dinero de Ramón', 'El perro Aristóteles'],
+        correct: 1
+      },
+      {
+        question: '¿Cuántas veces ha hablado Ariel con esos hombres?',
+        options: ['Una vez', 'Dos veces', 'Tres veces', 'Nunca'],
+        correct: 1
+      },
+      {
+        question: '¿Por qué no quiere irse la señora Montserrat?',
+        options: ['No tiene dinero', 'Ha nacido en esta casa', 'Le gusta el barrio', 'Tiene miedo'],
+        correct: 1
+      },
+      {
+        question: '¿Qué van a hacer Ariel y Pepa?',
+        options: ['Llamar a la policía', 'Esperar y vigilar', 'Mudarse', 'Vender el piso'],
+        correct: 1
+      },
+      {
+        question: '¿Qué le propone Ariel a Pepa?',
+        options: ['Ir al cine', 'Cenar una noche', 'Tomar un café', 'Ir de compras'],
+        correct: 1
+      }
+    ]
+  },
+  'ex-9-3-10-2': {
+    id: 'ex-9-3-10-2',
+    type: 'grammar',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Выберите правильную форму глагола:',
+    questions: [
+      {
+        sentence: 'El olor de la cafetera _____ a Pepa por la mañana.',
+        options: ['despierta', 'despertó', 'ha despertado', 'despertaba'],
+        correct: 0
+      },
+      {
+        sentence: 'La señora Montserrat _____ el desayuno antes de que Pepa se levantara.',
+        options: ['preparaba', 'preparó', 'ha preparado', 'prepara'],
+        correct: 2
+      },
+      {
+        sentence: '−¿_____ bien? −pregunta la señora.',
+        options: ['Dormiste', 'Has dormido', 'Dormías', 'Duermes'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa le _____ el pequeño aparato a la señora.',
+        options: ['enseña', 'enseñó', 'ha enseñado', 'enseñaba'],
+        correct: 0
+      },
+      {
+        sentence: 'La señora Montserrat _____ el aparato sin entender.',
+        options: ['miraba', 'miró', 'mira', 'ha mirado'],
+        correct: 2
+      },
+      {
+        sentence: 'Alguien _____ asustar a la señora con ese aparato.',
+        options: ['quiere', 'quiso', 'ha querido', 'quería'],
+        correct: 0
+      },
+      {
+        sentence: 'A mitad del desayuno, _____ el timbre.',
+        options: ['sonaba', 'ha sonado', 'suena', 'sonó'],
+        correct: 2
+      },
+      {
+        sentence: '−Es mi sobrino que _____ a verme −dice la señora.',
+        options: ['vino', 'viene', 'venía', 'ha venido'],
+        correct: 1
+      },
+      {
+        sentence: 'La señora _____ razón: Ariel es muy guapo.',
+        options: ['tenía', 'tuvo', 'tiene', 'ha tenido'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ ropa arrugada cuando apareció Ariel.',
+        options: ['lleva', 'llevó', 'llevaba', 'ha llevado'],
+        correct: 2
+      },
+      {
+        sentence: 'Ariel le _____ la mano a Pepa en ese momento.',
+        options: ['tiende', 'tendió', 'tendía', 'ha tendido'],
+        correct: 0
+      },
+      {
+        sentence: 'Los tres _____ los misterios de la casa mientras toman café.',
+        options: ['comentaban', 'comentaron', 'han comentado', 'comentan'],
+        correct: 3
+      },
+      {
+        sentence: 'Ariel _____ dos veces con esos hombres peligrosos.',
+        options: ['habló', 'hablaba', 'ha hablado', 'habla'],
+        correct: 2
+      },
+      {
+        sentence: 'La señora Montserrat _____ en esta casa hace muchos años.',
+        options: ['nació', 'nacía', 'ha nacido', 'nace'],
+        correct: 0
+      },
+      {
+        sentence: '−¿_____ una noche de estas? −pregunta Ariel.',
+        options: ['Cenábamos', 'Cenamos', 'Hemos cenado', 'Cenamos'],
+        correct: 1
+      }
+    ]
+  },
+  'ex-9-3-10-3': {
+    id: 'ex-9-3-10-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Запах кофеварки сеньоры Монсеррат будит Пепу утром.', correct: 'El olor de la cafetera de la señora Montserrat despierta a Pepa por la mañana.' },
+      { russian: 'Пепа встает и идет на кухню, где сеньора приготовила завтрак.', correct: 'Pepa se levanta y va a la cocina donde la señora ha preparado el desayuno.' },
+      { russian: 'Идеальный завтрак для праздничного дня: круассаны, хлеб и газета "Ла Вангардия".', correct: 'El desayuno ideal de un día festivo: cruasanes, pan y La Vanguardia.' },
+      { russian: 'Пепа показывает сеньоре маленькое устройство, которое она нашла ночью.', correct: 'Pepa le enseña a la señora el pequeño aparato que encontró por la noche.' },
+      { russian: 'Из этого устройства выходит музыка — "Кармина Бурана", а сеньора смотрит на него не понимая.', correct: 'De este aparato sale la música — los Carmina Burana, y la señora lo mira sin entender.' },
+      { russian: 'Пепа объясняет, что кто-то хочет напугать ее — это постановка, привидений нет.', correct: 'Pepa explica que alguien quiere asustarla — es un montaje, no hay fantasmas.' },
+      { russian: 'Сеньора спрашивает: "Но кто? Почему?", а Пепа говорит, что ей нужна пара дней.', correct: 'La señora pregunta: "¿Pero quién? ¿Por qué?", y Pepa dice que necesita un par de días.' },
+      { russian: 'В середине завтрака звонит звонок — это племянник сеньоры Ариэль, который приходит навестить ее.', correct: 'A mitad del desayuno suena el timbre — es el sobrino de la señora, Ariel, que viene a verla.' },
+      { russian: 'Сеньора Монсеррат была права — он очень красивый, как Брэд Питт.', correct: 'La señora Montserrat tenía razón — es muy guapo, como Brad Pitt.' },
+      { russian: 'Пепа в мятой одежде, с торчащими волосами и не почистила зубы, когда видит его.', correct: 'Pepa lleva ropa arrugada, el pelo de punta y no se ha lavado los dientes cuando lo ve.' },
+      { russian: 'Ариэль протягивает ей руку, а Пепа думает: "А я ужасно выгляжу!"', correct: 'Ariel le tiende la mano y Pepa piensa: "¡Y yo horrible!"' },
+      { russian: 'Втроем они обсуждают тайны дома, а Пепа объясняет Ариэлю то, что знает.', correct: 'Los tres comentan los misterios de la casa y Pepa le explica a Ariel lo que sabe.' },
+      { russian: 'Ариэль — адвокат, и он дважды говорил с теми опасными мужчинами, которые хотят квартиру его тети.', correct: 'Ariel es abogado y ha hablado dos veces con esos hombres peligrosos que quieren el piso de su tía.' },
+      { russian: 'Сеньора Монсеррат не хочет уезжать — она родилась в этом доме!', correct: 'La señora Montserrat no quiere irse — ¡ha nacido en esta casa!' },
+      { russian: 'Ариэль спрашивает Пепу, не поужинать ли им как-нибудь вечером, и она нервничает, думая, какая она смешная, когда ей нравится парень.', correct: 'Ariel le pregunta a Pepa si cenan una noche de estas, y ella se pone nerviosa pensando qué ridícula está cuando le gusta un tío.' }
     ]
   }
 }
