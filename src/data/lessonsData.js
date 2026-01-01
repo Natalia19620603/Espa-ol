@@ -11028,9 +11028,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '1 de noviembre. 00.30 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-9-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-9-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-9-3'] }
         ]
       },
       {
@@ -21320,7 +21320,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Ella _____ (llevar) una vela y estaba vestida de negro', correct: 'llevaba' },
       { sentence: 'La señora _____ (ofrecer) moscatel y panellets a sus vecinos', correct: 'ofreció' },
       { sentence: 'Todos _____ (sentarse) alrededor de la mesa para probar los pastelitos', correct: 'se sentaron' },
-      { sentence: 'La señora dijo que _____ (comprar) los panellets en la pastelería', correct: 'había comprado' },
+      { sentence: 'La señora Montserrat _____ (comprar) los panellets en la pastelería, no los hizo ella', correct: 'compró' },
       { sentence: 'De pronto, _____ (oírse) un ruido raro que parecían cadenas', correct: 'se oyó' },
       { sentence: 'El ruido _____ (parecer) cadenas y Raúl estaba muy nervioso', correct: 'parecía' },
       { sentence: 'A Ramón le _____ (gustar) la música de Carl Orff', correct: 'gustaba' },
@@ -21346,7 +21346,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Сеньора Монсеррат выходит встречать их в коридор с свечой и одета в черное.', correct: 'La señora Montserrat sale a buscarlos al pasillo con una vela y va vestida de negro.' },
       { russian: 'Она предлагает им немного муската и панельетс, говоря, что сегодня день мертвых.', correct: 'Ella les ofrece un poquito de moscatel y unos panellets diciendo que hoy es el día de los muertos.' },
       { russian: 'Со своими соседями сеньора Монсеррат более спокойна и не хочет снова остаться одна.', correct: 'Con sus vecinos, la señora Montserrat está más tranquila y no quiere volver a estar sola.' },
-      { sentence: 'Весь дом в темноте — они садятся вокруг стола и пробуют пирожные.', correct: 'Toda la casa está a oscuras — se sientan alrededor de la mesa y prueban los pastelitos.' },
+      { russian: 'Весь дом в темноте — они садятся вокруг стола и пробуют пирожные.', correct: 'Toda la casa está a oscuras — se sientan alrededor de la mesa y prueban los pastelitos.' },
       { russian: 'Армандо, всегда такой воспитанный, говорит, что панельетс очень вкусные и спрашивает, делает ли их сама сеньора.', correct: 'Armando, siempre tan educado, dice que los panellets están muy ricos y pregunta si los hace ella.' },
       { russian: 'Сеньора отвечает, что купила их в кондитерской, потому что в этом году не в настроении готовить.', correct: 'La señora responde que los ha comprado en la pastelería porque este año no está para cocinar.' },
       { russian: 'Пепа говорит, что они очень вкусные, думая о своих недоделанных панельетс дома.', correct: 'Pepa dice que están muy ricos pensando en sus panellets a medio hacer en casa.' },
@@ -21362,6 +21362,68 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Аристотель находится на третьем этаже с Мигелем и Алонсо, двумя озорными братьями-близнецами семи лет.', correct: 'Aristóteles está en el tercer piso con Miguel y Alonso, dos traviesos hermanos gemelos de siete años.' },
       { russian: 'Близнецы наряжают Аристотеля Бэтменом на Хэллоуин, но через двадцать минут собаке удается убежать от своих похитителей.', correct: 'Los gemelos disfrazan a Aristóteles de Batman para Halloween, pero en veinte minutos el perro consigue escapar de sus secuestradores.' },
       { russian: 'Армандо после первого испуга узнает хвост Аристотеля под плащом Бэтмена, наклоняется и берет собаку на руки.', correct: 'Armando tras el primer susto reconoce la cola de Aristóteles debajo de la capa de Batman, se agacha y coge al perro en brazos.' }
+    ]
+  },
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 9: 1 de noviembre. 00.30 h.
+  'ex-9-3-9-1': {
+    id: 'ex-9-3-9-1',
+    type: 'fillblank',
+    title: 'Понимание текста: 1 de noviembre. 00.30 h.',
+    description: 'Заполните пропуски словами из списка:\n\ntocadiscos • gilipollas • mando a distancia • moscatel • misteriosa • despacho • reproductor • cuadro • nerviosa • hombres • vieja',
+    questions: [
+      { sentence: 'Pepa está un poco _____ porque ha sido una noche muy extraña', correct: 'nerviosa' },
+      { sentence: 'Se levanta, va al salón y se sirve una copita de vino _____', correct: 'moscatel' },
+      { sentence: 'El tema de la música _____ le interesa mucho', correct: 'misteriosa' },
+      { sentence: 'Sin hacer ruido, Pepa entra en el _____ del señor Ramón', correct: 'despacho' },
+      { sentence: 'En el despacho hay un _____, pero no hay ningún disco', correct: 'tocadiscos' },
+      { sentence: 'Pepa se pregunta a sí misma: "¿Qué buscas, _____?"', correct: 'gilipollas' },
+      { sentence: 'De pronto ve un pequeño aparato encima de un _____', correct: 'cuadro' },
+      { sentence: 'Es un _____ de mp3 o algo parecido, muy pequeño', correct: 'reproductor' },
+      { sentence: 'Pepa piensa que seguramente va con un _____', correct: 'mando a distancia' },
+      { sentence: 'Entonces Pepa recuerda lo que dijeron los _____ del taxi: "El problema es la _____"', correct: 'hombres • vieja' }
+    ]
+  },
+  'ex-9-3-9-2': {
+    id: 'ex-9-3-9-2',
+    type: 'fillblank',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Presente, Pretérito Indefinido o Imperfecto.\n\nГлагол в скобках дан в инфинитиве - выберите правильную форму!\n\nestar • dar • poder • levantarse • servirse • interesar • entrar • haber • mirar • sentir • ver • ser • sonar • ir • pensar • poner • recordar',
+    questions: [
+      { sentence: 'Pepa _____ (estar) un poco nerviosa porque fue una noche muy extraña', correct: 'estaba' },
+      { sentence: 'Ella _____ (dar) vueltas en el sofá-cama que le preparó la señora', correct: 'daba' },
+      { sentence: 'No _____ (poder) dormir y decidió levantarse', correct: 'podía' },
+      { sentence: 'Pepa _____ (levantarse) y fue al salón', correct: 'se levantó' },
+      { sentence: 'En el salón _____ (servirse) una copita de vino moscatel', correct: 'se sirvió' },
+      { sentence: 'El tema de la música misteriosa le _____ (interesar) mucho', correct: 'interesaba' },
+      { sentence: 'Sin hacer ruido, Pepa _____ (entrar) en el despacho del señor Ramón', correct: 'entró' },
+      { sentence: 'En el despacho _____ (haber) un tocadiscos, pero no había ningún disco', correct: 'había' },
+      { sentence: 'Pepa _____ (mirar) por toda la habitación buscando algo', correct: 'miró' },
+      { sentence: 'Ella _____ (sentir) que en esa habitación había un misterio que podía explicar', correct: 'sentía' },
+      { sentence: 'De pronto lo _____ (ver): un pequeño aparato encima de un cuadro', correct: 'vio' },
+      { sentence: '_____ (ser) un reproductor de mp3 o algo parecido', correct: 'Era' },
+      { sentence: 'El aparato _____ (sonar) muy alto pero era muy pequeño', correct: 'sonaba' },
+      { sentence: 'Pepa pensó que seguramente _____ (ir) con un mando a distancia', correct: 'iba' },
+      { sentence: 'Entonces ella _____ (pensar) en los hombres del taxi', correct: 'pensó' },
+      { sentence: 'Alguien _____ (poner) ese aparato allí para asustar a la señora', correct: 'puso' },
+      { sentence: 'Pepa _____ (recordar) claramente lo que dijeron: "El problema es la vieja del primero"', correct: 'recordó' }
+    ]
+  },
+  'ex-9-3-9-3': {
+    id: 'ex-9-3-9-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Правда в том, что Пепа немного нервничает — она не верит в привидения, но это была очень странная ночь.', correct: 'La verdad es que Pepa está un poco nerviosa — no cree en fantasmas, pero ha sido una noche muy extraña.' },
+      { russian: 'Она ворочается на диване-кровати, который приготовила для нее сеньора Монсеррат, но не может заснуть.', correct: 'Da vueltas en el sofá-cama que la señora Montserrat le ha preparado, pero no puede dormir.' },
+      { russian: 'Пепа встает, идет в гостиную и наливает себе бокальчик вина мускат.', correct: 'Pepa se levanta, va al salón y se sirve una copita de vino moscatel.' },
+      { russian: 'Тема загадочной музыки ей интересна, поэтому она бесшумно входит в кабинет сеньора Рамона.', correct: 'El tema de la música misteriosa le interesa, por eso entra sin hacer ruido en el despacho del señor Ramón.' },
+      { russian: 'В кабинете есть проигрыватель, но нет никаких дисков.', correct: 'En el despacho hay un tocadiscos, pero no hay ningún disco.' },
+      { russian: 'Она немного осматривает всю комнату, спрашивая себя: "Что ты ищешь, идиотка?"', correct: 'Mira un poco por toda la habitación preguntándose: "¿Qué buscas, gilipollas?"' },
+      { russian: 'Но она чувствует, что в этой комнате есть что-то — тайна, которую она может объяснить.', correct: 'Pero siente que en esa habitación hay algo — un misterio que ella puede explicar.' },
+      { russian: 'И вдруг она видит это: маленькое устройство на картине.', correct: 'Y de pronto lo ve: un pequeño aparato encima de un cuadro.' },
+      { russian: 'Оно действительно очень маленькое — плеер mp3 или что-то похожее.', correct: 'Es realmente muy pequeño — un reproductor de mp3 o algo parecido.' },
+      { russian: 'Пепа думает: "Что-то очень маленькое, но звучит очень громко и наверняка работает с пультом дистанционного управления". Кто это сюда поставил?', correct: 'Pepa piensa: "Algo muy pequeño, pero que suena muy alto y que seguramente va con un mando a distancia". ¿Quién ha puesto esto aquí?' }
     ]
   }
 }
