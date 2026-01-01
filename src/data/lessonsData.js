@@ -11019,9 +11019,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: 'Casa de la señora Montserrat. 23.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-8-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-8-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-8-3'] }
         ]
       },
       {
@@ -21277,6 +21277,91 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Армандо говорит, что у него есть зажигалка, и они спускаются два этажа со светом от зажигалки.', correct: 'Armando dice que tiene un encendedor y bajan dos pisos con la luz del encendedor.' },
       { russian: 'На третьем этаже Армандо не видит что-то на полу и спотыкается о комок, который оказывается Раулем в маске Чаки.', correct: 'En el tercero Armando no ve algo en el suelo y tropieza con un bulto que resulta ser Raúl con la máscara de Chucky.' },
       { russian: 'Рауль говорит, что не хочет видеть мертвецов, потому что не любит трупы, но Пепа объясняет, что сеньора "напугана до смерти", а не мертва.', correct: 'Raúl dice que no quiere ver muertos porque no le gustan los fiambres, pero Pepa le explica que la señora está muerta de miedo, no muerta.' }
+    ]
+  },
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 8: Casa de la señora Montserrat. 23.00 h.
+  'ex-9-3-8-1': {
+    id: 'ex-9-3-8-1',
+    type: 'fillblank',
+    title: 'Понимание текста: Casa de la señora Montserrat. 23.00 h.',
+    description: 'Заполните пропуски словами и выражениями из списка:\n\nmoscatel • suspiro • no estar para • a medio hacer • cadenas • compartir • dar yuyu • pipa • de repente • gemelos • secuestradores • agacharse • encendedores • panellets • oscuras • educado • nervioso • pasma • película de miedo • tranquilizadora',
+    questions: [
+      { sentence: 'La puerta del primer piso está abierta y entran con la luz de los _____', correct: 'encendedores' },
+      { sentence: 'Raúl comenta que con la vela y de negro, la señora Montserrat parece dar un poco de _____', correct: 'yuyu' },
+      { sentence: 'Ella les ofrece un poquito de _____ y unos panellets porque está más tranquila con sus vecinos', correct: 'moscatel' },
+      { sentence: 'La señora dice "¡Ay, mi pobre Ramón! Y además, sin televisión" con un _____', correct: 'suspiro' },
+      { sentence: 'Toda la casa está a _____ y se sientan alrededor de la mesa', correct: 'oscuras' },
+      { sentence: 'Armando siempre tan _____ dice que los panellets están muy ricos', correct: 'educado' },
+      { sentence: 'La señora Montserrat dice que este año _____ cocinar, por eso compró los panellets', correct: 'no estar para' },
+      { sentence: 'Pepa piensa en sus panellets _____ que dejó en casa', correct: 'a medio hacer' },
+      { sentence: 'Raúl se pone _____ cuando oye un ruido raro que parecen cadenas', correct: 'nervioso' },
+      { sentence: 'Raúl dice que los fantasmas llevan _____ como en las películas', correct: 'cadenas' },
+      { sentence: 'La señora Montserrat está contenta de _____ con alguien los misterios de su casa', correct: 'compartir' },
+      { sentence: 'Raúl no quiere llamar a la _____ porque tiene terror a los uniformes', correct: 'pasma' },
+      { sentence: 'Se oye música de Carl Orff que es como de _____ y da un poco de yuyu', correct: 'película de miedo' },
+      { sentence: 'La música de los Carmina Burana _____ a Raúl porque suena siniestra', correct: 'dar yuyu' },
+      { sentence: 'La _____ de Ramón se enciende sola todas las noches desde el día de su muerte', correct: 'pipa' },
+      { sentence: '_____, la música para y vuelve la luz — todos respiran un poco', correct: 'De repente' },
+      { sentence: 'Aristóteles está con Miguel y Alonso, dos traviesos hermanos _____ de siete años', correct: 'gemelos' },
+      { sentence: 'Los gemelos disfrazan a Aristóteles de Batman — el perro consigue escapar de sus _____', correct: 'secuestradores' },
+      { sentence: 'Armando _____ para coger a Aristóteles en brazos después de reconocerlo', correct: 'se agacha' },
+      { sentence: 'Raúl busca una respuesta _____ cuando pregunta si Aristóteles pone la música', correct: 'tranquilizadora' }
+    ]
+  },
+  'ex-9-3-8-2': {
+    id: 'ex-9-3-8-2',
+    type: 'fillblank',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Presente, Pretérito Indefinido, Pretérito Perfecto o Imperfecto.\n\nГлагол в скобках дан в инфинитиве - выберите правильную форму!\n\nestar • entrar • salir • llevar • ofrecer • sentarse • comprar • oírse • parecer • gustar • ponerse • encenderse • parar • volver • poder • vivir • conseguir • escapar • reconocer • agacharse',
+    questions: [
+      { sentence: 'La puerta del primer piso _____ (estar) abierta cuando llegaron', correct: 'estaba' },
+      { sentence: 'Ellos _____ (entrar) con la luz de los encendedores porque no había electricidad', correct: 'entraron' },
+      { sentence: 'La señora Montserrat _____ (salir) a buscarlos al pasillo con una vela', correct: 'salió' },
+      { sentence: 'Ella _____ (llevar) una vela y estaba vestida de negro', correct: 'llevaba' },
+      { sentence: 'La señora _____ (ofrecer) moscatel y panellets a sus vecinos', correct: 'ofreció' },
+      { sentence: 'Todos _____ (sentarse) alrededor de la mesa para probar los pastelitos', correct: 'se sentaron' },
+      { sentence: 'La señora dijo que _____ (comprar) los panellets en la pastelería', correct: 'había comprado' },
+      { sentence: 'De pronto, _____ (oírse) un ruido raro que parecían cadenas', correct: 'se oyó' },
+      { sentence: 'El ruido _____ (parecer) cadenas y Raúl estaba muy nervioso', correct: 'parecía' },
+      { sentence: 'A Ramón le _____ (gustar) la música de Carl Orff', correct: 'gustaba' },
+      { sentence: 'La música _____ (ponerse) sola cada noche en el despacho', correct: 'se ponía' },
+      { sentence: 'La pipa de Ramón _____ (encenderse) sola todas las noches', correct: 'se encendía' },
+      { sentence: 'De repente, la música _____ (parar) y todos respiraron tranquilos', correct: 'paró' },
+      { sentence: 'En ese momento _____ (volver) la luz a toda la casa', correct: 'volvió' },
+      { sentence: 'Pepa le dijo a la señora que _____ (poder) quedarse a dormir esa noche', correct: 'podía' },
+      { sentence: 'Miguel y Alonso _____ (vivir) en el tercer piso — eran hermanos gemelos', correct: 'vivían' },
+      { sentence: 'El perro _____ (conseguir) escapar de los gemelos después de veinte minutos', correct: 'consiguió' },
+      { sentence: 'Aristóteles _____ (escapar) aterrorizado por la escalera disfrazado de Batman', correct: 'escapó' },
+      { sentence: 'Armando _____ (reconocer) la cola de Aristóteles debajo de la capa', correct: 'reconoció' },
+      { sentence: 'Armando _____ (agacharse) para coger al perro en brazos', correct: 'se agachó' }
+    ]
+  },
+  'ex-9-3-8-3': {
+    id: 'ex-9-3-8-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Дверь квартиры на первом этаже открыта, и они входят со светом от зажигалок.', correct: 'La puerta del primer piso está abierta y entran con la luz de los encendedores.' },
+      { russian: 'Сеньора Монсеррат выходит встречать их в коридор с свечой и одета в черное.', correct: 'La señora Montserrat sale a buscarlos al pasillo con una vela y va vestida de negro.' },
+      { russian: 'Она предлагает им немного муската и панельетс, говоря, что сегодня день мертвых.', correct: 'Ella les ofrece un poquito de moscatel y unos panellets diciendo que hoy es el día de los muertos.' },
+      { russian: 'Со своими соседями сеньора Монсеррат более спокойна и не хочет снова остаться одна.', correct: 'Con sus vecinos, la señora Montserrat está más tranquila y no quiere volver a estar sola.' },
+      { sentence: 'Весь дом в темноте — они садятся вокруг стола и пробуют пирожные.', correct: 'Toda la casa está a oscuras — se sientan alrededor de la mesa y prueban los pastelitos.' },
+      { russian: 'Армандо, всегда такой воспитанный, говорит, что панельетс очень вкусные и спрашивает, делает ли их сама сеньора.', correct: 'Armando, siempre tan educado, dice que los panellets están muy ricos y pregunta si los hace ella.' },
+      { russian: 'Сеньора отвечает, что купила их в кондитерской, потому что в этом году не в настроении готовить.', correct: 'La señora responde que los ha comprado en la pastelería porque este año no está para cocinar.' },
+      { russian: 'Пепа говорит, что они очень вкусные, думая о своих недоделанных панельетс дома.', correct: 'Pepa dice que están muy ricos pensando en sus panellets a medio hacer en casa.' },
+      { russian: 'Вдруг слышится странный звук, и нервный Рауль спрашивает, что это такое — похоже на цепи.', correct: 'De pronto se oye un ruido raro y Raúl nervioso pregunta qué es eso — parecen cadenas.' },
+      { russian: 'Рауль говорит, что привидения носят цепи, как в фильмах, но Пепа отвечает, что это машина.', correct: 'Raúl dice que los fantasmas llevan cadenas como en las películas, pero Pepa responde que es un coche.' },
+      { russian: 'Сеньора Монсеррат рада разделить с кем-то тайны своего дома и говорит, что Рауль прав.', correct: 'La señora Montserrat está contenta de compartir con alguien los misterios de su casa y dice que Raúl tiene razón.' },
+      { russian: 'Через пару минут в соседней комнате слышится музыка — это кабинет сеньора Рамона.', correct: 'Un par de minutos después se oye música en la habitación de al lado — es el despacho del señor Ramón.' },
+      { russian: 'Армандо говорит, что это Карл Орф, немецкий композитор, и его самое знаменитое произведение "Кармина Бурана".', correct: 'Armando dice que es Carl Orff, un compositor alemán, y su obra más famosa, los Carmina Burana.' },
+      { russian: 'Рауль добавляет, что это как из фильма ужасов и немного пугает.', correct: 'Raúl añade que es como de película de miedo y da un poco de yuyu.' },
+      { russian: 'Сеньора Монсеррат объясняет, что музыка включается сама каждую ночь, и трубка Рамона тоже зажигается сама.', correct: 'La señora Montserrat explica que la música se pone sola cada noche y la pipa de Ramón también se enciende sola.' },
+      { russian: 'Внезапно музыка останавливается и возвращается свет — все немного дышат спокойнее.', correct: 'De repente la música para y vuelve la luz — todos respiran un poco más tranquilos.' },
+      { russian: 'Сеньора просит Пепу остаться переночевать, потому что ей немного страшно, и Пепа соглашается.', correct: 'La señora le pide a Pepa que se quede a dormir porque tiene un poco de miedo, y Pepa acepta.' },
+      { russian: 'Аристотель находится на третьем этаже с Мигелем и Алонсо, двумя озорными братьями-близнецами семи лет.', correct: 'Aristóteles está en el tercer piso con Miguel y Alonso, dos traviesos hermanos gemelos de siete años.' },
+      { russian: 'Близнецы наряжают Аристотеля Бэтменом на Хэллоуин, но через двадцать минут собаке удается убежать от своих похитителей.', correct: 'Los gemelos disfrazan a Aristóteles de Batman para Halloween, pero en veinte minutos el perro consigue escapar de sus secuestradores.' },
+      { russian: 'Армандо после первого испуга узнает хвост Аристотеля под плащом Бэтмена, наклоняется и берет собаку на руки.', correct: 'Armando tras el primer susto reconoce la cola de Aristóteles debajo de la capa de Batman, se agacha y coge al perro en brazos.' }
     ]
   }
 }
