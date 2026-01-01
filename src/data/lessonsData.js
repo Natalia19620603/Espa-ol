@@ -11522,14 +11522,16 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         words: [
           { word: 'el amor', translation: 'любовь' },
           { word: 'curar', translation: 'лечить, исцелять' },
-          { word: 'sanar', translation: 'излечивать' },
-          { word: 'la herida', translation: 'рана' },
-          { word: 'el dolor', translation: 'боль' },
-          { word: 'la compasión', translation: 'сострадание' },
-          { word: 'el perdón', translation: 'прощение' },
-          { word: 'la empatía', translation: 'эмпатия' },
-          { word: 'la conexión', translation: 'связь, соединение' },
-          { word: 'el bienestar', translation: 'благополучие' }
+          { word: 'el ser humano', translation: 'человеческое существо' },
+          { word: 'desde el punto de vista de', translation: 'с точки зрения' },
+          { word: 'sin condiciones', translation: 'безусловно' },
+          { word: 'gratuito', translation: 'бесплатный, безвозмездный' },
+          { word: 'la velocidad', translation: 'скорость' },
+          { word: 'la herida', translation: 'рана, травма' },
+          { word: 'desarrollar', translation: 'развивать, разрабатывать' },
+          { word: 'la empatía', translation: 'сопереживание' },
+          { word: 'tremendamente', translation: 'чрезвычайно, ужасно' },
+          { word: 'transformarse', translation: 'превращаться' }
         ]
       },
       {
@@ -11580,6 +11582,17 @@ Que cuando llegue el final de nuestra vida digamos como Neruda:
 "Confieso que he vivido"
 
 Que podamos decir «confieso que he vivido la vida» y no que la he visto pasar.`,
+        translation: ``
+      },
+      {
+        tab: 'El amor que cura',
+        content: `El amor que cura
+
+Por eso, el mayor regalo que puede encontrar un ser humano, desde el punto de vista, es encontrarse con otro ser humano que te quiera sin condiciones; que te quiera de forma gratuita; que te quiera no por cómo eres, no por cómo piensas, no por lo que dices, no por lo que haces, sino por quién eres: un ser humano.
+
+Este amor, los griegos le llamaban agape. Este amor es profundamente transformador porque puede sanar a tal velocidad la herida que, en ese momento, esa persona pueda desarrollar algo que es natural y que está deseando salir, que es la empatía.
+
+Tenemos ejemplos; por ejemplo, tenemos al emperador Ashoka. Ashoka fue una persona tremendamente cruel; no creo que fuera una persona muy empática y, sin embargo, se transformó por completo y se convirtió en un ejemplo, de tal manera que una de las organizaciones más importantes del mundo que ayuda a los demás se llama Ashoka.`,
         translation: ``
       },
       {
