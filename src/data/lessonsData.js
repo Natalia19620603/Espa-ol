@@ -11486,32 +11486,146 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
     ],
     vocabulary: [
       {
-        tab: 'Словарь психологии',
+        tab: 'Cambia el pensamiento',
         words: [
-          { word: 'la psicología', translation: 'психология' },
-          { word: 'el comportamiento', translation: 'поведение' },
-          { word: 'la mente', translation: 'ум, разум' },
-          { word: 'el cerebro', translation: 'мозг' },
-          { word: 'la emoción', translation: 'эмоция, чувство' },
           { word: 'el pensamiento', translation: 'мысль, мышление' },
-          { word: 'la personalidad', translation: 'личность, характер' },
-          { word: 'el estrés', translation: 'стресс' },
+          { word: 'cambiar', translation: 'менять, изменять' },
+          { word: 'anclar', translation: 'якорить, закреплять' },
+          { word: 'la creencia', translation: 'убеждение, вера' },
+          { word: 'limitante', translation: 'ограничивающий' },
+          { word: 'la mentalidad', translation: 'менталитет, образ мышления' },
+          { word: 'superar', translation: 'преодолевать' },
+          { word: 'la barrera', translation: 'барьер, препятствие' },
+          { word: 'transformar', translation: 'трансформировать, преобразовывать' },
+          { word: 'el patrón', translation: 'паттерн, шаблон' }
+        ]
+      },
+      {
+        tab: 'Vívela con intensidad',
+        words: [
+          { word: 'vivir', translation: 'жить' },
+          { word: 'la intensidad', translation: 'интенсивность' },
+          { word: 'el momento', translation: 'момент' },
+          { word: 'la pasión', translation: 'страсть' },
+          { word: 'disfrutar', translation: 'наслаждаться' },
+          { word: 'aprovechar', translation: 'использовать, воспользоваться' },
+          { word: 'la experiencia', translation: 'опыт, переживание' },
+          { word: 'pleno', translation: 'полный, наполненный' },
+          { word: 'consciente', translation: 'осознанный' },
+          { word: 'presente', translation: 'настоящее, присутствующий' }
+        ]
+      },
+      {
+        tab: 'El amor cura',
+        words: [
+          { word: 'el amor', translation: 'любовь' },
+          { word: 'curar', translation: 'лечить, исцелять' },
+          { word: 'sanar', translation: 'излечивать' },
+          { word: 'la herida', translation: 'рана' },
+          { word: 'el dolor', translation: 'боль' },
+          { word: 'la compasión', translation: 'сострадание' },
+          { word: 'el perdón', translation: 'прощение' },
+          { word: 'la empatía', translation: 'эмпатия' },
+          { word: 'la conexión', translation: 'связь, соединение' },
+          { word: 'el bienestar', translation: 'благополучие' }
+        ]
+      },
+      {
+        tab: 'Nerviosismo y timidez',
+        words: [
+          { word: 'el nerviosismo', translation: 'нервозность' },
+          { word: 'la timidez', translation: 'застенчивость, робость' },
+          { word: 'reducir', translation: 'уменьшать, снижать' },
           { word: 'la ansiedad', translation: 'тревога, беспокойство' },
-          { word: 'la depresión', translation: 'депрессия' },
-          { word: 'la terapia', translation: 'терапия, лечение' },
-          { word: 'el psicólogo', translation: 'психолог' },
-          { word: 'el psiquiatra', translation: 'психиатр' },
-          { word: 'la memoria', translation: 'память' },
-          { word: 'la percepción', translation: 'восприятие' },
-          { word: 'la consciencia', translation: 'сознание' },
-          { word: 'el subconsciente', translation: 'подсознание' },
-          { word: 'la motivación', translation: 'мотивация' },
-          { word: 'la autoestima', translation: 'самооценка' },
-          { word: 'el desarrollo', translation: 'развитие' }
+          { word: 'la confianza', translation: 'уверенность, доверие' },
+          { word: 'la seguridad', translation: 'безопасность, уверенность' },
+          { word: 'el miedo', translation: 'страх' },
+          { word: 'superar', translation: 'преодолевать' },
+          { word: 'la valentía', translation: 'храбрость' },
+          { word: 'el coraje', translation: 'смелость, мужество' }
         ]
       }
     ],
-    readingText: [],
+    readingText: [
+      {
+        tab: 'Cambia el pensamiento',
+        content: `El poder de cambiar tus pensamientos
+
+Los pensamientos que nos anclan son aquellas creencias limitantes que nos impiden avanzar. A menudo, estos pensamientos se formaron en el pasado y ya no son relevantes para nuestra vida actual.
+
+Para cambiar estos patrones mentales, es importante primero identificarlos. Pregúntate: ¿Qué pensamientos me limitan? ¿De dónde vienen? ¿Son realmente ciertos?
+
+El cambio comienza con la conciencia. Una vez que identificas un pensamiento limitante, puedes trabajar para transformarlo en algo más positivo y constructivo.`,
+        translation: `Сила изменения ваших мыслей
+
+Мысли, которые нас якорят - это ограничивающие убеждения, которые мешают нам двигаться вперед. Часто эти мысли сформировались в прошлом и уже не актуальны для нашей текущей жизни.
+
+Чтобы изменить эти ментальные паттерны, важно сначала их идентифицировать. Спросите себя: Какие мысли меня ограничивают? Откуда они берутся? Действительно ли они правдивы?
+
+Изменение начинается с осознания. Как только вы определите ограничивающую мысль, вы можете работать над тем, чтобы трансформировать ее во что-то более позитивное и конструктивное.`
+      },
+      {
+        tab: 'Vívela con intensidad',
+        content: `Vivir el momento presente
+
+La vida está hecha de momentos, y cada momento es una oportunidad para experimentar plenamente. Vivir con intensidad no significa necesariamente hacer cosas extremas, sino estar completamente presente en lo que estás haciendo.
+
+Cuando comemos, comemos. Cuando hablamos con alguien, realmente escuchamos. Cuando trabajamos, nos concentramos. Esta es la esencia de vivir con intensidad.
+
+Muchas veces perdemos momentos preciosos porque estamos pensando en el pasado o preocupándonos por el futuro. La práctica de la presencia plena nos ayuda a recuperar estos momentos.`,
+        translation: `Жить настоящим моментом
+
+Жизнь состоит из моментов, и каждый момент - это возможность полностью пережить опыт. Жить интенсивно не обязательно означает делать экстремальные вещи, а быть полностью присутствующим в том, что вы делаете.
+
+Когда мы едим, мы едим. Когда разговариваем с кем-то, мы действительно слушаем. Когда работаем, мы концентрируемся. Это и есть суть жизни с интенсивностью.
+
+Часто мы теряем драгоценные моменты, потому что думаем о прошлом или беспокоимся о будущем. Практика осознанности помогает нам вернуть эти моменты.`
+      },
+      {
+        tab: 'El amor cura',
+        content: `El poder sanador del amor
+
+El amor tiene un poder curativo extraordinario. Numerosos estudios científicos han demostrado que las personas que tienen relaciones amorosas saludables se recuperan más rápido de enfermedades y viven más tiempo.
+
+El amor no solo cura el cuerpo, sino también el alma. La compasión, la empatía y el perdón son formas de amor que pueden sanar heridas emocionales profundas.
+
+Ashoka, el emperador indio que se convirtió al budismo, descubrió que el amor y la compasión eran más poderosos que la guerra y la violencia. Esta transformación cambió no solo su vida, sino la historia de toda una región.`,
+        translation: `Целительная сила любви
+
+Любовь обладает необычайной целительной силой. Многочисленные научные исследования показали, что люди, которые имеют здоровые любовные отношения, быстрее восстанавливаются от болезней и живут дольше.
+
+Любовь лечит не только тело, но и душу. Сострадание, эмпатия и прощение - это формы любви, которые могут исцелить глубокие эмоциональные раны.
+
+Ашока, индийский император, который обратился в буддизм, обнаружил, что любовь и сострадание сильнее войны и насилия. Эта трансформация изменила не только его жизнь, но и историю целого региона.`
+      },
+      {
+        tab: 'Nerviosismo y timidez',
+        content: `Superar la timidez y el nerviosismo
+
+El nerviosismo y la timidez son respuestas naturales ante situaciones nuevas o desafiantes. Sin embargo, cuando se vuelven crónicos, pueden limitar nuestras oportunidades y calidad de vida.
+
+La clave para reducir estos sentimientos está en desarrollar la confianza en uno mismo. Esto se logra a través de:
+
+1. Práctica gradual: Exponerse poco a poco a situaciones sociales
+2. Preparación: Estar bien preparado reduce la ansiedad
+3. Técnicas de relajación: La respiración profunda y la meditación ayudan
+4. Pensamientos positivos: Reemplazar pensamientos negativos con afirmaciones positivas
+
+Recuerda que la valentía no es la ausencia de miedo, sino actuar a pesar del miedo.`,
+        translation: `Преодолеть застенчивость и нервозность
+
+Нервозность и застенчивость - это естественные реакции на новые или сложные ситуации. Однако, когда они становятся хроническими, могут ограничить наши возможности и качество жизни.
+
+Ключ к уменьшению этих чувств - развитие уверенности в себе. Этого можно достичь через:
+
+1. Постепенная практика: Понемногу подвергать себя социальным ситуациям
+2. Подготовка: Хорошая подготовка снижает тревогу
+3. Техники релаксации: Глубокое дыхание и медитация помогают
+4. Позитивные мысли: Заменять негативные мысли позитивными утверждениями
+
+Помните, что храбрость - это не отсутствие страха, а действие вопреки страху.`
+      }
+    ],
     exercises: []
   }
 }
