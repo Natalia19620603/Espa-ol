@@ -11054,7 +11054,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '3 de noviembre. Por la mañana.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-12-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-12-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-12-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-12-3'] }
@@ -11063,7 +11063,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: '3 de noviembre. 16.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-13-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-13-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-13-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-13-3'] }
@@ -11072,7 +11072,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Bar de Armando. 3 de noviembre. 19.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-14-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-14-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-14-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-14-3'] }
@@ -11081,7 +11081,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Calle Bonavista. 23.00 h.',
         subtabs: [
-          { name: 'Словарь', exercises: [] },
+          { name: 'Словарь', exercises: ['ex-9-3-15-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-3-15-1'] },
           { name: 'Грамматика', exercises: ['ex-9-3-15-2'] },
           { name: 'Перевод', exercises: ['ex-9-3-15-3'] }
@@ -22680,6 +22680,92 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Тем временем Армандо уже достал мобильный телефон и звонил в полицию Мосос.', correct: 'Mientras, Armando había sacado el móvil y estaba llamando a los Mossos.' },
       { russian: 'Рауль пытался выбраться из дыры — у него в руках была старая металлическая коробка, как банковская.', correct: 'Raúl intentaba salir del agujero — tenía en las manos una vieja caja metálica, como las de los bancos.' },
       { russian: 'Пепа подумала, глядя на Ариэля в последний раз: "Какая жалость! А он такой красивый!"', correct: 'Pepa pensó, mirando a Ariel por última vez: «¡Qué pena! ¡Con lo guapo que es...!»' }
+    ]
+  },
+
+  // Словари для глав 12-15
+  'ex-9-3-12-vocab': {
+    id: 'ex-9-3-12-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 3 de noviembre. Por la mañana',
+    description: 'Ключевые слова из текста',
+    words: [
+      { spanish: 'el carrito de la compra', russian: 'тележка для покупок' },
+      { spanish: 'el disco / el CD', russian: 'диск' },
+      { spanish: 'el ordenador', russian: 'компьютер' },
+      { spanish: 'el portátil', russian: 'ноутбук' },
+      { spanish: 'el plano', russian: 'план, чертеж' },
+      { spanish: 'el arquitecto', russian: 'архитектор' },
+      { spanish: 'señalar', russian: 'отмечать, указывать' },
+      { spanish: 'el hueco del ascensor', russian: 'шахта лифта' },
+      { spanish: 'currar (coloquial)', russian: 'работать (разг.)' },
+      { spanish: 'ganar un duro', russian: 'заработать копейку' },
+      { spanish: 'la propina', russian: 'чаевые' },
+      { spanish: 'el arroz caldoso', russian: 'жидкий рис (суп)' }
+    ]
+  },
+
+  'ex-9-3-13-vocab': {
+    id: 'ex-9-3-13-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: 3 de noviembre. 16.00 h.',
+    description: 'Ключевые слова из текста',
+    words: [
+      { spanish: 'arreglar', russian: 'чинить, ремонтировать' },
+      { spanish: 'oler mal', russian: 'плохо пахнуть (быть подозрительным)' },
+      { spanish: 'el traje gris', russian: 'серый костюм' },
+      { spanish: 'el obrero de la construcción', russian: 'строитель' },
+      { spanish: 'el casco', russian: 'каска' },
+      { spanish: 'la caja metálica', russian: 'металлическая коробка' },
+      { spanish: 'la carta', russian: 'письмо' },
+      { spanish: 'el párking', russian: 'парковка' },
+      { spanish: 'gruñir', russian: 'ворчать, рычать' },
+      { spanish: 'la bisabuela', russian: 'прабабушка' },
+      { spanish: 'el exilio', russian: 'изгнание, эмиграция' },
+      { spanish: 'las joyas', russian: 'драгоценности' }
+    ]
+  },
+
+  'ex-9-3-14-vocab': {
+    id: 'ex-9-3-14-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Bar de Armando. 3 de noviembre. 19.00 h.',
+    description: 'Ключевые слова из текста',
+    words: [
+      { spanish: 'la caña', russian: 'маленькое пиво (стакан пива)' },
+      { spanish: 'las obras', russian: 'строительные работы' },
+      { spanish: 'los industriales', russian: 'промышленники' },
+      { spanish: 'republicano', russian: 'республиканский, республиканец' },
+      { spanish: 'la Guerra Civil', russian: 'Гражданская война' },
+      { spanish: 'el ejército', russian: 'армия' },
+      { spanish: 'a las puertas de', russian: 'у ворот, у дверей' },
+      { spanish: 'huir', russian: 'бежать, убегать' },
+      { spanish: 'pasar la frontera', russian: 'пересечь границу' },
+      { spanish: 'refugiarse', russian: 'укрыться, найти убежище' },
+      { spanish: 'heredar', russian: 'наследовать' }
+    ]
+  },
+
+  'ex-9-3-15-vocab': {
+    id: 'ex-9-3-15-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Calle Bonavista. 23.00 h.',
+    description: 'Ключевые слова из текста',
+    words: [
+      { spanish: 'el cumpleaños', russian: 'день рождения' },
+      { spanish: 'el bocadillo de atún', russian: 'бутерброд с тунцом' },
+      { spanish: 'el mono de trabajo', russian: 'рабочий комбинезон' },
+      { spanish: 'el pico', russian: 'кирка, кайло' },
+      { spanish: 'el trabajo manual', russian: 'ручной труд' },
+      { spanish: 'dar mal rollo (coloquial)', russian: 'вызывать дурное предчувствие (разг.)' },
+      { spanish: 'la rata', russian: 'крыса' },
+      { spanish: 'la linterna', russian: 'фонарик' },
+      { spanish: 'iluminar', russian: 'освещать' },
+      { spanish: 'al cabo de', russian: 'спустя, через' },
+      { spanish: 'el agujero', russian: 'дыра, яма' },
+      { spanish: 'la poli (coloquial)', russian: 'полиция (разг.)' },
+      { spanish: 'los Mossos', russian: 'Мососы (полиция Каталонии)' },
+      { spanish: '¡Qué pena!', russian: 'Какая жалость!' }
     ]
   }
 }
