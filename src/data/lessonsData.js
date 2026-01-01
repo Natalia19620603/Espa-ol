@@ -11489,15 +11489,20 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         tab: 'Cambia el pensamiento',
         words: [
           { word: 'el pensamiento', translation: 'мысль, мышление' },
-          { word: 'cambiar', translation: 'менять, изменять' },
-          { word: 'anclar', translation: 'якорить, закреплять' },
-          { word: 'la creencia', translation: 'убеждение, вера' },
-          { word: 'limitante', translation: 'ограничивающий' },
-          { word: 'la mentalidad', translation: 'менталитет, образ мышления' },
-          { word: 'superar', translation: 'преодолевать' },
-          { word: 'la barrera', translation: 'барьер, препятствие' },
-          { word: 'transformar', translation: 'трансформировать, преобразовывать' },
-          { word: 'el patrón', translation: 'паттерн, шаблон' }
+          { word: 'anclar', translation: 'бросать якорь' },
+          { word: 'la culpa', translation: 'вина, грех' },
+          { word: 'la vergüenza', translation: 'стыд' },
+          { word: 'la anulación', translation: 'аннулирование' },
+          { word: 'en lugar de', translation: 'вместо того, чтобы' },
+          { word: 'resistir', translation: 'сопротивляться, защищаться, обороняться' },
+          { word: 'persistir', translation: 'оставаться, продолжаться' },
+          { word: 'lo que se resiste persiste', translation: 'то что сопротивляется, удерживается' },
+          { word: 'orientar', translation: 'ориентировать, давать направление' },
+          { word: 'qué ocurre', translation: 'Что происходит?' },
+          { word: 'ser consciente de', translation: 'осознавать что-то' },
+          { word: 'el poder', translation: 'власть, сила, мощь' },
+          { word: 'machacar', translation: 'толочь, дробить' },
+          { word: 'gestionar', translation: 'управлять, осуществлять менеджмент чего-л.' }
         ]
       },
       {
@@ -11535,18 +11540,36 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         words: [
           { word: 'el nerviosismo', translation: 'нервозность' },
           { word: 'la timidez', translation: 'застенчивость, робость' },
-          { word: 'reducir', translation: 'уменьшать, снижать' },
-          { word: 'la ansiedad', translation: 'тревога, беспокойство' },
-          { word: 'la confianza', translation: 'уверенность, доверие' },
-          { word: 'la seguridad', translation: 'безопасность, уверенность' },
-          { word: 'el miedo', translation: 'страх' },
-          { word: 'superar', translation: 'преодолевать' },
-          { word: 'la valentía', translation: 'храбрость' },
-          { word: 'el coraje', translation: 'смелость, мужество' }
+          { word: 'el ruido', translation: 'шум, звук' },
+          { word: 'mental', translation: 'мозговой' },
+          { word: 'reducir', translation: 'уменьшать, сокращать' },
+          { word: 'la consecuencia', translation: 'последствие, результат' },
+          { word: 'por sí solo', translation: 'сам по себе' },
+          { word: 'la capacidad', translation: 'способность, возможность' },
+          { word: 'implicar', translation: 'подразумевать, вовлекать' },
+          { word: 'de confianza', translation: 'надежный' },
+          { word: 'contemplar', translation: 'созерцать, рассматривать' },
+          { word: 'contemplativo', translation: 'созерцательный' },
+          { word: 'la difusión', translation: 'распространение' }
         ]
       }
     ],
     readingText: [
+      {
+        tab: 'Cambia el pensamiento que te ancla',
+        content: `Cambia el pensamiento que te ancla
+
+Pero la culpa es una forma de autoagresión y la vergüenza es una forma de auto anulación. Entonces, cuando tú veas un pensamiento de estos, en lugar de decir "voy a seguir pensando como siempre", te paras y dices:
+
+No luches contra el pensamiento, lo que se resiste persiste.
+Cámbialo por otro, di STOP y busca un pensamiento que sea diferente, un pensamiento que de alguna manera oriente tu atención y tu vida en otra dirección.
+
+¿Qué ocurre? Que no somos conscientes del poder del pensamiento.
+"Ah, yo es que me quiero sentir mejor", sí, claro, ¿pero cómo te vas a sentir mejor si te estás machacando?
+
+Piensa de otra manera y te sentirás de forma diferente. Es muy difícil gestionar directamente el sentimiento si no vas o por el pensamiento o por el cuerpo.`,
+        translation: ``
+      },
       {
         tab: 'Nerviosismo y timidez',
         content: `Cómo reducir el nerviosismo y dejar la timidez
