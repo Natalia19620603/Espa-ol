@@ -293,6 +293,12 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
               0.8×
             </button>
             <button
+              className={`${styles.speedButton} ${playbackRate === 0.85 ? styles.active : ''}`}
+              onClick={() => changePlaybackRate(0.85)}
+            >
+              0.85×
+            </button>
+            <button
               className={`${styles.speedButton} ${playbackRate === 1.0 ? styles.active : ''}`}
               onClick={() => changePlaybackRate(1.0)}
             >
