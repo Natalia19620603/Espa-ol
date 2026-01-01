@@ -11046,9 +11046,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '2 de noviembre. 08.00 h.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-11-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-11-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-11-3'] }
         ]
       },
       {
@@ -21518,7 +21518,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       {
         sentence: 'El olor de la cafetera _____ a Pepa por la mañana.',
-        options: ['despierta', 'despertó', 'ha despertado', 'despertaba'],
+        options: ['despertó', 'despertaba', 'ha despertado', 'despierta'],
         correct: 0
       },
       {
@@ -21532,52 +21532,52 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         correct: 1
       },
       {
-        sentence: 'Pepa le _____ el pequeño aparato a la señora.',
-        options: ['enseña', 'enseñó', 'ha enseñado', 'enseñaba'],
+        sentence: 'Pepa le _____ el pequeño aparato a la señora en ese momento.',
+        options: ['enseñó', 'enseñaba', 'ha enseñado', 'enseña'],
         correct: 0
       },
       {
-        sentence: 'La señora Montserrat _____ el aparato sin entender.',
-        options: ['miraba', 'miró', 'mira', 'ha mirado'],
-        correct: 2
+        sentence: 'La señora Montserrat _____ el aparato sin entender qué era.',
+        options: ['miraba', 'miró', 'ha mirado', 'mira'],
+        correct: 1
       },
       {
-        sentence: 'Alguien _____ asustar a la señora con ese aparato.',
-        options: ['quiere', 'quiso', 'ha querido', 'quería'],
+        sentence: 'Pepa explicó que alguien _____ asustar a la señora con ese aparato.',
+        options: ['quería', 'quiso', 'ha querido', 'quiere'],
         correct: 0
       },
       {
-        sentence: 'A mitad del desayuno, _____ el timbre.',
-        options: ['sonaba', 'ha sonado', 'suena', 'sonó'],
-        correct: 2
+        sentence: 'A mitad del desayuno, _____ el timbre de la puerta.',
+        options: ['sonaba', 'sonó', 'ha sonado', 'suena'],
+        correct: 1
       },
       {
-        sentence: '−Es mi sobrino que _____ a verme −dice la señora.',
+        sentence: 'La señora dijo: −Es mi sobrino que _____ a verme.',
         options: ['vino', 'viene', 'venía', 'ha venido'],
         correct: 1
       },
       {
-        sentence: 'La señora _____ razón: Ariel es muy guapo.',
-        options: ['tenía', 'tuvo', 'tiene', 'ha tenido'],
+        sentence: 'La señora _____ razón: Ariel era muy guapo.',
+        options: ['tenía', 'tuvo', 'ha tenido', 'tiene'],
         correct: 0
       },
       {
         sentence: 'Pepa _____ ropa arrugada cuando apareció Ariel.',
-        options: ['lleva', 'llevó', 'llevaba', 'ha llevado'],
-        correct: 2
-      },
-      {
-        sentence: 'Ariel le _____ la mano a Pepa en ese momento.',
-        options: ['tiende', 'tendió', 'tendía', 'ha tendido'],
+        options: ['llevaba', 'llevó', 'ha llevado', 'lleva'],
         correct: 0
       },
       {
-        sentence: 'Los tres _____ los misterios de la casa mientras toman café.',
-        options: ['comentaban', 'comentaron', 'han comentado', 'comentan'],
-        correct: 3
+        sentence: 'Ariel le _____ la mano a Pepa cuando se conocieron.',
+        options: ['tendió', 'tendía', 'ha tendido', 'tiende'],
+        correct: 0
       },
       {
-        sentence: 'Ariel _____ dos veces con esos hombres peligrosos.',
+        sentence: 'Los tres _____ los misterios de la casa mientras tomaban café.',
+        options: ['comentaban', 'comentaron', 'han comentado', 'comentan'],
+        correct: 1
+      },
+      {
+        sentence: 'Ariel _____ dos veces con esos hombres peligrosos antes de ese día.',
         options: ['habló', 'hablaba', 'ha hablado', 'habla'],
         correct: 2
       },
@@ -21587,7 +21587,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         correct: 0
       },
       {
-        sentence: '−¿_____ una noche de estas? −pregunta Ariel.',
+        sentence: '−¿_____ una noche de estas? −preguntó Ariel.',
         options: ['Cenábamos', 'Cenamos', 'Hemos cenado', 'Cenamos'],
         correct: 1
       }
@@ -21599,21 +21599,321 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Перевод: с русского на испанский',
     description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
-      { russian: 'Запах кофеварки сеньоры Монсеррат будит Пепу утром.', correct: 'El olor de la cafetera de la señora Montserrat despierta a Pepa por la mañana.' },
-      { russian: 'Пепа встает и идет на кухню, где сеньора приготовила завтрак.', correct: 'Pepa se levanta y va a la cocina donde la señora ha preparado el desayuno.' },
-      { russian: 'Идеальный завтрак для праздничного дня: круассаны, хлеб и газета "Ла Вангардия".', correct: 'El desayuno ideal de un día festivo: cruasanes, pan y La Vanguardia.' },
-      { russian: 'Пепа показывает сеньоре маленькое устройство, которое она нашла ночью.', correct: 'Pepa le enseña a la señora el pequeño aparato que encontró por la noche.' },
-      { russian: 'Из этого устройства выходит музыка — "Кармина Бурана", а сеньора смотрит на него не понимая.', correct: 'De este aparato sale la música — los Carmina Burana, y la señora lo mira sin entender.' },
-      { russian: 'Пепа объясняет, что кто-то хочет напугать ее — это постановка, привидений нет.', correct: 'Pepa explica que alguien quiere asustarla — es un montaje, no hay fantasmas.' },
-      { russian: 'Сеньора спрашивает: "Но кто? Почему?", а Пепа говорит, что ей нужна пара дней.', correct: 'La señora pregunta: "¿Pero quién? ¿Por qué?", y Pepa dice que necesita un par de días.' },
-      { russian: 'В середине завтрака звонит звонок — это племянник сеньоры Ариэль, который приходит навестить ее.', correct: 'A mitad del desayuno suena el timbre — es el sobrino de la señora, Ariel, que viene a verla.' },
-      { russian: 'Сеньора Монсеррат была права — он очень красивый, как Брэд Питт.', correct: 'La señora Montserrat tenía razón — es muy guapo, como Brad Pitt.' },
-      { russian: 'Пепа в мятой одежде, с торчащими волосами и не почистила зубы, когда видит его.', correct: 'Pepa lleva ropa arrugada, el pelo de punta y no se ha lavado los dientes cuando lo ve.' },
-      { russian: 'Ариэль протягивает ей руку, а Пепа думает: "А я ужасно выгляжу!"', correct: 'Ariel le tiende la mano y Pepa piensa: "¡Y yo horrible!"' },
-      { russian: 'Втроем они обсуждают тайны дома, а Пепа объясняет Ариэлю то, что знает.', correct: 'Los tres comentan los misterios de la casa y Pepa le explica a Ariel lo que sabe.' },
-      { russian: 'Ариэль — адвокат, и он дважды говорил с теми опасными мужчинами, которые хотят квартиру его тети.', correct: 'Ariel es abogado y ha hablado dos veces con esos hombres peligrosos que quieren el piso de su tía.' },
-      { russian: 'Сеньора Монсеррат не хочет уезжать — она родилась в этом доме!', correct: 'La señora Montserrat no quiere irse — ¡ha nacido en esta casa!' },
-      { russian: 'Ариэль спрашивает Пепу, не поужинать ли им как-нибудь вечером, и она нервничает, думая, какая она смешная, когда ей нравится парень.', correct: 'Ariel le pregunta a Pepa si cenan una noche de estas, y ella se pone nerviosa pensando qué ridícula está cuando le gusta un tío.' }
+      { russian: 'Запах кофеварки сеньоры Монсеррат разбудил Пепу утром.', correct: 'El olor de la cafetera de la señora Montserrat despertó a Pepa por la mañana.' },
+      { russian: 'Пепа встала и пошла на кухню, где сеньора приготовила завтрак.', correct: 'Pepa se levantó y fue a la cocina donde la señora había preparado el desayuno.' },
+      { russian: 'Был идеальный завтрак для праздничного дня: круассаны, хлеб и газета "Ла Вангардия".', correct: 'Era el desayuno ideal de un día festivo: cruasanes, pan y La Vanguardia.' },
+      { russian: 'Пепа показала сеньоре маленькое устройство, которое она нашла ночью.', correct: 'Pepa le enseñó a la señora el pequeño aparato que había encontrado por la noche.' },
+      { russian: 'Пепа объяснила, что из этого устройства выходила музыка — "Кармина Бурана".', correct: 'Pepa explicó que de este aparato salía la música — los Carmina Burana.' },
+      { russian: 'Сеньора смотрела на устройство не понимая, что кто-то хотел ее напугать.', correct: 'La señora miraba el aparato sin entender que alguien quería asustarla.' },
+      { russian: 'Пепа сказала сеньоре, что это была постановка и что привидений нет.', correct: 'Pepa le dijo a la señora que era un montaje y que no había fantasmas.' },
+      { russian: 'Сеньора спросила: "Но кто? Почему?", а Пепа ответила, что ей нужна пара дней чтобы выяснить.', correct: 'La señora preguntó: "¿Pero quién? ¿Por qué?", y Pepa respondió que necesitaba un par de días para averiguarlo.' },
+      { russian: 'В середине завтрака зазвонил звонок — это был племянник сеньоры Ариэль, который приехал навестить ее.', correct: 'A mitad del desayuno sonó el timbre — era el sobrino de la señora, Ariel, que había venido a verla.' },
+      { russian: 'Сеньора Монсеррат была права — он был очень красивым, как Брэд Питт.', correct: 'La señora Montserrat tenía razón — era muy guapo, como Brad Pitt.' },
+      { russian: 'Пепа была в мятой одежде, с торчащими волосами и не почистила зубы, когда увидела его.', correct: 'Pepa llevaba ropa arrugada, el pelo de punta y no se había lavado los dientes cuando lo vio.' },
+      { russian: 'Ариэль протянул ей руку, а Пепа подумала: "А я ужасно выгляжу!"', correct: 'Ariel le tendió la mano y Pepa pensó: "¡Y yo horrible!"' },
+      { russian: 'Втроем они обсуждали тайны дома, а Пепа объясняла Ариэлю то, что знала.', correct: 'Los tres comentaban los misterios de la casa y Pepa le explicaba a Ariel lo que sabía.' },
+      { russian: 'Ариэль был адвокатом, и он дважды говорил с теми опасными мужчинами, которые хотели квартиру его тети.', correct: 'Ariel era abogado y había hablado dos veces con esos hombres peligrosos que querían el piso de su tía.' },
+      { russian: 'Сеньора Монсеррат не хотела уезжать, потому что она родилась в этом доме.', correct: 'La señora Montserrat no quería irse porque había nacido en esta casa.' }
+    ]
+  },
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 11: 2 de noviembre. 08.00 h.
+  'ex-9-3-11-1': {
+    id: 'ex-9-3-11-1',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: 2 de noviembre. 08.00 h.',
+    description: 'Выберите правильный ответ на вопросы по тексту:',
+    questions: [
+      {
+        question: '¿Quién coge el taxi en la Diagonal?',
+        options: ['Un estudiante', 'Un ejecutivo estresado', 'Un turista', 'Un médico'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace el ejecutivo mientras va en el taxi?',
+        options: ['Lee el periódico', 'Duerme', 'Habla constantemente por el móvil', 'Mira por la ventana'],
+        correct: 2
+      },
+      {
+        question: '¿Qué música escucha Pepa mientras conduce?',
+        options: ['Rock español', 'El piano de Bebo Valdés', 'Los Carmina Burana', 'Flamenco'],
+        correct: 1
+      },
+      {
+        question: '¿Adónde va el segundo pasajero?',
+        options: ['A la Diagonal', 'A Muntaner', 'A la calle Bonavista en Gracia', 'A la Boquería'],
+        correct: 2
+      },
+      {
+        question: '¿Por qué le suena la cara del segundo pasajero a Pepa?',
+        options: ['Es su vecino', 'Es uno de los hombres que quieren comprar el piso', 'Es su ex novio', 'Lo vio en la televisión'],
+        correct: 1
+      },
+      {
+        question: '¿Qué dice el hombre por teléfono sobre la señora Montserrat?',
+        options: ['Que es muy simpática', 'Que va a preparar el siguiente numerito para la vieja', 'Que quiere invitarla a cenar', 'Que va a ayudarla'],
+        correct: 1
+      },
+      {
+        question: '¿Qué saca el hombre de la maleta negra?',
+        options: ['Dinero y documentos', 'Un bigote, unas gafas y una pipa', 'Un arma', 'Ropa'],
+        correct: 1
+      },
+      {
+        question: '¿Dónde se disfraza el hombre?',
+        options: ['En la calle', 'En el cuarto de los contadores', 'En el ascensor', 'En su casa'],
+        correct: 1
+      },
+      {
+        question: '¿De quién se disfraza el hombre?',
+        options: ['De Armando', 'De Ariel', 'Del señor Ramón', 'De Raúl'],
+        correct: 2
+      },
+      {
+        question: '¿A quién llama Pepa primero cuando descubre todo?',
+        options: ['A la policía', 'A Armando', 'A Raúl', 'A Ariel'],
+        correct: 2
+      },
+      {
+        question: '¿Qué está haciendo Raúl cuando Pepa lo llama?',
+        options: ['Durmiendo', 'Trabajando', 'Tomando el aperitivo en el bar', 'Paseando a Aristóteles'],
+        correct: 2
+      },
+      {
+        question: '¿Qué se pone Pepa en la cabeza para asustar al falso fantasma?',
+        options: ['Una peluca', 'La masa de los panellets', 'Un sombrero', 'Pintura'],
+        correct: 1
+      },
+      {
+        question: '¿Qué encuentra Pepa en el salón de la señora Montserrat?',
+        options: ['La señora llorando', 'El falso señor Ramón hablando tranquilamente con la señora', 'La casa vacía', 'Un robo'],
+        correct: 1
+      },
+      {
+        question: '¿Qué le ofrece la señora Montserrat al falso señor Ramón?',
+        options: ['Panellets', 'Café o té', 'Vino', 'Cerveza'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace el falso señor Ramón cuando Pepa grita?',
+        options: ['Se ríe', 'Huye', 'Cae al suelo', 'Llama a la policía'],
+        correct: 2
+      },
+      {
+        question: '¿Qué le tira la señora Montserrat a Pepa-Chucky?',
+        options: ['Almohadas', 'Platos', 'Libros', 'Zapatos'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace Aristóteles durante el caos?',
+        options: ['Ladra', 'Se esconde', 'Muerde la pierna de Raúl', 'Sale corriendo'],
+        correct: 2
+      },
+      {
+        question: '¿Quiénes más llegan a ver el espectáculo?',
+        options: ['Los vecinos del segundo', 'Los gemelos del tercero', 'La policía primero', 'Nadie más'],
+        correct: 1
+      },
+      {
+        question: '¿Quién llama a la ambulancia y a la policía?',
+        options: ['Pepa', 'Armando', 'Alguien de la calle', 'La señora Montserrat'],
+        correct: 2
+      },
+      {
+        question: '¿Qué le pregunta Loli a Pepa cuando llega?',
+        options: ['Qué pasó', 'Qué se hizo en el pelo', 'Por qué gritó', 'Dónde está Ariel'],
+        correct: 1
+      },
+      {
+        question: '¿Qué dice el médico sobre el falso señor Ramón?',
+        options: ['Que está muy grave', 'Que se ha desmayado, no es grave', 'Que está muerto', 'Que es un fantasma'],
+        correct: 1
+      },
+      {
+        question: '¿Qué profesión piensa Raúl que es mejor que paseador de perros?',
+        options: ['Taxista', 'Cazafantasmas', 'Médico', 'Policía'],
+        correct: 1
+      },
+      {
+        question: '¿Quién aparece en medio del lío?',
+        options: ['Federico', 'Ariel', 'El verdadero señor Ramón', 'Otro policía'],
+        correct: 1
+      },
+      {
+        question: '¿Qué piensa Pepa cuando ve a Ariel?',
+        options: ['Qué alegría', 'Y yo con estos pelos, no me invitará a cenar', 'Que la va a ayudar', 'Que es muy tarde'],
+        correct: 1
+      },
+      {
+        question: '¿Qué les propone Armando al final?',
+        options: ['Ir al cine', 'Ir a su bar a comer asado argentino', 'Ir a la playa', 'Ir a casa de la señora'],
+        correct: 1
+      }
+    ]
+  },
+  'ex-9-3-11-2': {
+    id: 'ex-9-3-11-2',
+    type: 'grammar',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Выберите правильную форму глагола:',
+    questions: [
+      {
+        sentence: 'Un ejecutivo estresado _____ el taxi en la Diagonal.',
+        options: ['cogió', 'cogía', 'ha cogido', 'coge'],
+        correct: 0
+      },
+      {
+        sentence: 'El cliente no _____ ni "hola" ni "buenos días".',
+        options: ['decía', 'dijo', 'ha dicho', 'dice'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ lentamente mientras escuchaba música.',
+        options: ['condujo', 'conducía', 'ha conducido', 'conduce'],
+        correct: 1
+      },
+      {
+        sentence: 'El cliente _____ sin decir nada cuando llegaron.',
+        options: ['pagaba', 'pagó', 'ha pagado', 'paga'],
+        correct: 1
+      },
+      {
+        sentence: 'A pocos metros, un hombre _____ el taxi.',
+        options: ['paraba', 'paró', 'ha parado', 'para'],
+        correct: 1
+      },
+      {
+        sentence: 'La cara del pasajero le _____ a Pepa.',
+        options: ['sonaba', 'sonó', 'ha sonado', 'suena'],
+        correct: 0
+      },
+      {
+        sentence: 'El hombre _____ una llamada y Pepa escuchaba con atención.',
+        options: ['hacía', 'hizo', 'ha hecho', 'hace'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ al pasajero y aparcó en un lugar prohibido.',
+        options: ['dejaba', 'dejó', 'ha dejado', 'deja'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ ruidos en el cuarto de los contadores.',
+        options: ['oía', 'oyó', 'ha oído', 'oye'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ detrás de los cubos de basura.',
+        options: ['se escondía', 'se escondió', 'se ha escondido', 'se esconde'],
+        correct: 1
+      },
+      {
+        sentence: 'De la puerta _____ el doble del señor Ramón.',
+        options: ['salía', 'salió', 'ha salido', 'sale'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ su móvil y llamó a sus amigos.',
+        options: ['buscaba', 'buscó', 'ha buscado', 'busca'],
+        correct: 1
+      },
+      {
+        sentence: 'Raúl _____ en el bar con unos colegas cuando Pepa lo llamó.',
+        options: ['estuvo', 'estaba', 'ha estado', 'está'],
+        correct: 1
+      },
+      {
+        sentence: 'A Pepa se le _____ un plan para asustar al falso fantasma.',
+        options: ['ocurría', 'ocurrió', 'ha ocurrido', 'ocurre'],
+        correct: 1
+      },
+      {
+        sentence: 'Pepa _____ masa de panellets por la cabeza.',
+        options: ['se ponía', 'se puso', 'se ha puesto', 'se pone'],
+        correct: 1
+      },
+      {
+        sentence: 'Lo que le _____ en el salón la dejó helada.',
+        options: ['esperaba', 'esperó', 'ha esperado', 'espera'],
+        correct: 0
+      },
+      {
+        sentence: 'El falso señor Ramón y la señora _____ tranquilamente.',
+        options: ['hablaban', 'hablaron', 'han hablado', 'hablan'],
+        correct: 0
+      },
+      {
+        sentence: 'Pepa _____ en el salón y pegó un grito aterrador.',
+        options: ['entraba', 'entró', 'ha entrado', 'entra'],
+        correct: 1
+      },
+      {
+        sentence: 'El falso señor Ramón _____ al suelo cuando oyó el grito.',
+        options: ['caía', 'cayó', 'ha caído', 'cae'],
+        correct: 1
+      },
+      {
+        sentence: 'Aristóteles _____ ferozmente la pierna de Raúl.',
+        options: ['mordía', 'mordió', 'ha mordido', 'muerde'],
+        correct: 1
+      },
+      {
+        sentence: 'Los gemelos _____ al ver el espectáculo.',
+        options: ['bajaron', 'bajaban', 'han bajado', 'bajan'],
+        correct: 0
+      },
+      {
+        sentence: 'Ya se _____ cerca la sirena de la ambulancia.',
+        options: ['oía', 'oyó', 'ha oído', 'oye'],
+        correct: 0
+      },
+      {
+        sentence: 'El médico le _____ a la señora que su "marido" se había desmayado.',
+        options: ['decía', 'dijo', 'ha dicho', 'dice'],
+        correct: 1
+      },
+      {
+        sentence: 'Ariel _____ en medio del lío y Pepa se tocó la cabeza.',
+        options: ['aparecía', 'apareció', 'ha aparecido', 'aparece'],
+        correct: 1
+      },
+      {
+        sentence: 'Armando les _____ que fueran a su bar a comer asado.',
+        options: ['proponía', 'propuso', 'ha propuesto', 'propone'],
+        correct: 1
+      }
+    ]
+  },
+  'ex-9-3-11-3': {
+    id: 'ex-9-3-11-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Стрессовый управленец, который постоянно говорил по мобильному, взял такси на Диагональ.', correct: 'Un ejecutivo estresado, que hablaba constantemente con el móvil, cogió el taxi en la Diagonal.' },
+      { russian: 'Он не сказал ни "привет", ни "доброе утро" — еще один, кто думает, что такси — это просто машина.', correct: 'No dijo ni "hola" ni "buenos días" — otro que piensa que el taxi es solo un coche.' },
+      { russian: 'Пепа медленно ехала через Эшампле, слушая прекрасное пиано Бебо Вальдеса.', correct: 'Pepa conducía lentamente a través del Ensanche escuchando el piano maravilloso de Bebo Valdés.' },
+      { russian: 'Клиент заплатил не говоря ни слова и вышел с мобильным, прилипшим к уху.', correct: 'El cliente pagó sin decir nada y bajó con el móvil pegado a la oreja.' },
+      { russian: 'Через несколько метров мужчина остановил такси и сказал: "На улицу Бонависта, в Грасию".', correct: 'A pocos metros un hombre paró el taxi y dijo: "A la calle Bonavista, en Gracia".' },
+      { russian: 'Лицо пассажира было Пепе знакомо — это был один из мужчин, которые хотели купить квартиру сеньоры Монсеррат.', correct: 'La cara del pasajero le sonaba a Pepa — era uno de los hombres que querían comprar el piso de la señora Montserrat.' },
+      { russian: 'Мужчина сделал звонок и сказал: "Я еду в Грасию готовить следующий номер для старухи".', correct: 'El hombre hizo una llamada y dijo: "Voy a Gracia a preparar el siguiente numerito para la vieja".' },
+      { russian: 'Пепа наблюдала за мужчиной в зеркале заднего вида — он доставал из чемодана усы, очки и трубку.', correct: 'Pepa observaba al hombre por el retrovisor — sacaba de la maleta un bigote, unas gafas y una pipa.' },
+      { russian: 'Пепа оставила пассажира и припарковалась в запрещенном месте — теперь важнее всего было следовать за мужчиной с чемоданом.', correct: 'Pepa dejó al pasajero y aparcó en un lugar prohibido — ahora lo más importante era seguir al hombre de la maleta.' },
+      { russian: 'Пепа слышала шумы в комнате со счетчиками и спряталась за мусорными баками.', correct: 'Pepa oía ruidos en el cuarto de los contadores y se escondió detrás de los cubos de basura.' },
+      { russian: 'Из маленькой комнаты вышел двойник сеньора Рамона с его очками, белыми усами и трубкой.', correct: 'De la pequeña habitación salió el doble del señor Ramón con sus gafas, su bigote blanco y su pipa.' },
+      { russian: 'Пепа позвонила Раулю и сказала: "Быстро, приезжай к моему дому, к подъезду!"', correct: 'Pepa llamó a Raúl y le dijo: "¡Rápido, ven a mi casa, al portal!"' },
+      { russian: 'Рауль был в баре с друзьями, принимая аперитив — пиво и тапас.', correct: 'Raúl estaba en el bar con unos colegas tomando el aperitivo — unas cañas y unas tapitas.' },
+      { russian: 'Пепе пришла в голову идея — если они хотят пугать, то их тоже напугают.', correct: 'A Pepa se le ocurrió un plan — si quieren sustos, pues los van a tener.' },
+      { russian: 'Она надела на голову тесто от панельетс — с торчащими волосами эффект был ужасающим.', correct: 'Se puso masa de panellets por la cabeza — con el pelo tieso el efecto era terrorífico.' },
+      { russian: 'То, что ждало ее в гостиной, оставило ее ледяной — фальшивый сеньор Рамон и сеньора Монсеррат спокойно разговаривали!', correct: 'Lo que le esperaba en el salón la dejó helada — ¡el falso señor Ramón y la señora Montserrat estaban hablando tranquilamente!' },
+      { russian: 'Когда Пепа вошла в гостиную и издала ужасный крик, фальшивый сеньор Рамон упал на пол.', correct: 'Cuando Pepa entró en el salón y pegó un grito aterrador, el falso señor Ramón cayó al suelo.' },
+      { russian: 'Сеньора Монсеррат начала доставать тарелки из шкафа и бросать их в Пепу-Чаки.', correct: 'La señora Montserrat empezó a sacar platos de un mueble y se los tiraba a la Pepa-Chucky.' },
+      { russian: 'Аристотель яростно укусил ногу Рауля, а близнецы с третьего этажа тоже спустились посмотреть спектакль.', correct: 'Aristóteles mordió ferozmente la pierna de Raúl y los gemelos del tercero también bajaron a ver el espectáculo.' },
+      { russian: 'Уже слышалась близко сирена скорой помощи и полицейской машины — кто-то с улицы вызвал полицию.', correct: 'Ya se oía cerca la sirena de la ambulancia y la de un coche de policía — alguien de la calle había llamado a la policía.' },
+      { russian: 'Врач сказал сеньоре Монсеррат, что ее "муж" упал в обморок, но это не серьезно.', correct: 'El médico le dijo a la señora Montserrat que su "marido" se había desmayado pero que no era grave.' },
+      { russian: 'Рауль думал, что быть охотником за привидениями — лучшая профессия, чем быть выгульщиком собак.', correct: 'Raúl pensaba que ser cazafantasmas era mejor profesión que ser paseador de perros.' },
+      { russian: 'Появился Ариэль, красивый племянник сеньоры, и Пепа подумала: "А я с такими волосами! Теперь точно не пригласит меня поужинать".', correct: 'Apareció Ariel, el sobrino guapo de la señora, y Pepa pensó: "¡Y yo con estos pelos! Ahora seguro que no me invita a cenar".' },
+      { russian: 'Пепа объяснила Ариэлю всю историю — она нашла мужчину, видела как он переодевался на лестнице и следовала за ним.', correct: 'Pepa le explicó toda la historia a Ariel — había encontrado al hombre, lo había visto disfrazarse en la escalera y lo había seguido.' },
+      { russian: 'Армандо предложил им всем прийти в его бар — у него было превосходное аргентинское жаркое на гриле.', correct: 'Armando les propuso a todos que fueran a su bar — tenía un asado argentino buenísimo en la parrilla.' }
     ]
   }
 }
