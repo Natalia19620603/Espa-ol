@@ -480,7 +480,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - Hasta luego. Buenas noches.`,
       translation: 'Первые слова и диалоги\n\n**Диалог 1: На улице**\n\n- Привет. Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Все хорошо, спасибо.\n- Рад слышать. До скорого.\n- Пока.\n\n**Диалог 2: Встреча с другом**\n\n- Привет! Как жизнь?\n- Более или менее хорошо. А ты?\n- Так себе. Большое спасибо, что спросил.\n- Пожалуйста. Как семья?\n- Все хорошо, спасибо.\n\n**Диалог 3: Утром**\n\n- Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Так себе. Пожалуйста, у тебя есть минутка?\n- Да, конечно.\n- Большое спасибо.\n- Пожалуйста.\n\n**Диалог 4: Прощание**\n\n- Добрый день. Как дела?\n- Спасибо, хорошо.\n- Рад слышать. Пока.\n- До скорого. Добрый вечер.'
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx', 'ex-1-1-7-pron-a', 'ex-1-1-8-pron-b', 'ex-1-1-9-pron-c', 'ex-1-1-10-pron-d', 'ex-1-1-11-pron-e', 'ex-1-1-12-tongue-twisters', 'ex-1-1-13-consonants', 'ex-1-1-14-special-consonants', 'ex-1-1-15-ckq']
+    exercises: ['ex-1-1-1', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -11473,7 +11473,7 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
       },
       {
         tab: 'Vívela con intensidad',
-        videoUrl: '/video/Vivela con intensidad.mp4'
+        videoUrl: '/video/Vívela con intensidad.mp4'
       },
       {
         tab: 'El amor cura',
@@ -11548,85 +11548,50 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
     ],
     readingText: [
       {
+        tab: 'Nerviosismo y timidez',
+        content: `Cómo reducir el nerviosismo y dejar la timidez
+
+Por qué se pone especialmente nerviosa esa persona por lo que se está contando a sí misma hay un diálogo interno que es absoluto ruido mental que está diciendo anda que si sale la pregunta que no te sabes Yo te diría que hay varias cosas que sabemos que ayudan a reducir el ese estado de que vamos a llamarlo ruido mental es decir ese nerviosismo como consecuencia ruido mental.
+
+Estrategias mencionadas:
+
+Ejercicio físico:
+En primer lugar es hacer ejercicio físico; el ejercicio físico por sí solo tiene la capacidad de reducir el ruido mental. Ejercicio físico no implica apuntarse a un gimnasio sino moverse más.
+
+Hablar o escribir:
+En segundo lugar poderlo hablar con alguien de confianza, poder hablar el sentir, poder contar el sentir y a veces si no tienes a nadie escribe lo que te preocupa pero en un papel tan pequeño que casi no lo puedas ver porque el cerebro está interpretando que si puedes poner el problema en un tamaño tan pequeño es que el problema no es tan grande.
+
+Estados contemplativos:
+La siguiente cosa que te diría es que se entrenen en una cosa que cada vez tiene más difusión que es todo lo que es los estados contemplativos de la conciencia que no es más o mindfulness.`,
+        translation: ``
+      }
+    ],
+    exercises: [
+      {
         tab: 'Cambia el pensamiento',
-        content: `El poder de cambiar tus pensamientos
-
-Los pensamientos que nos anclan son aquellas creencias limitantes que nos impiden avanzar. A menudo, estos pensamientos se formaron en el pasado y ya no son relevantes para nuestra vida actual.
-
-Para cambiar estos patrones mentales, es importante primero identificarlos. Pregúntate: ¿Qué pensamientos me limitan? ¿De dónde vienen? ¿Son realmente ciertos?
-
-El cambio comienza con la conciencia. Una vez que identificas un pensamiento limitante, puedes trabajar para transformarlo en algo más positivo y constructivo.`,
-        translation: `Сила изменения ваших мыслей
-
-Мысли, которые нас якорят - это ограничивающие убеждения, которые мешают нам двигаться вперед. Часто эти мысли сформировались в прошлом и уже не актуальны для нашей текущей жизни.
-
-Чтобы изменить эти ментальные паттерны, важно сначала их идентифицировать. Спросите себя: Какие мысли меня ограничивают? Откуда они берутся? Действительно ли они правдивы?
-
-Изменение начинается с осознания. Как только вы определите ограничивающую мысль, вы можете работать над тем, чтобы трансформировать ее во что-то более позитивное и конструктивное.`
+        subtabs: [
+          { name: 'Словарь', exercises: [] }
+        ]
       },
       {
         tab: 'Vívela con intensidad',
-        content: `Vivir el momento presente
-
-La vida está hecha de momentos, y cada momento es una oportunidad para experimentar plenamente. Vivir con intensidad no significa necesariamente hacer cosas extremas, sino estar completamente presente en lo que estás haciendo.
-
-Cuando comemos, comemos. Cuando hablamos con alguien, realmente escuchamos. Cuando trabajamos, nos concentramos. Esta es la esencia de vivir con intensidad.
-
-Muchas veces perdemos momentos preciosos porque estamos pensando en el pasado o preocupándonos por el futuro. La práctica de la presencia plena nos ayuda a recuperar estos momentos.`,
-        translation: `Жить настоящим моментом
-
-Жизнь состоит из моментов, и каждый момент - это возможность полностью пережить опыт. Жить интенсивно не обязательно означает делать экстремальные вещи, а быть полностью присутствующим в том, что вы делаете.
-
-Когда мы едим, мы едим. Когда разговариваем с кем-то, мы действительно слушаем. Когда работаем, мы концентрируемся. Это и есть суть жизни с интенсивностью.
-
-Часто мы теряем драгоценные моменты, потому что думаем о прошлом или беспокоимся о будущем. Практика осознанности помогает нам вернуть эти моменты.`
+        subtabs: [
+          { name: 'Словарь', exercises: [] }
+        ]
       },
       {
         tab: 'El amor cura',
-        content: `El poder sanador del amor
-
-El amor tiene un poder curativo extraordinario. Numerosos estudios científicos han demostrado que las personas que tienen relaciones amorosas saludables se recuperan más rápido de enfermedades y viven más tiempo.
-
-El amor no solo cura el cuerpo, sino también el alma. La compasión, la empatía y el perdón son formas de amor que pueden sanar heridas emocionales profundas.
-
-Ashoka, el emperador indio que se convirtió al budismo, descubrió que el amor y la compasión eran más poderosos que la guerra y la violencia. Esta transformación cambió no solo su vida, sino la historia de toda una región.`,
-        translation: `Целительная сила любви
-
-Любовь обладает необычайной целительной силой. Многочисленные научные исследования показали, что люди, которые имеют здоровые любовные отношения, быстрее восстанавливаются от болезней и живут дольше.
-
-Любовь лечит не только тело, но и душу. Сострадание, эмпатия и прощение - это формы любви, которые могут исцелить глубокие эмоциональные раны.
-
-Ашока, индийский император, который обратился в буддизм, обнаружил, что любовь и сострадание сильнее войны и насилия. Эта трансформация изменила не только его жизнь, но и историю целого региона.`
+        subtabs: [
+          { name: 'Словарь', exercises: [] }
+        ]
       },
       {
         tab: 'Nerviosismo y timidez',
-        content: `Superar la timidez y el nerviosismo
-
-El nerviosismo y la timidez son respuestas naturales ante situaciones nuevas o desafiantes. Sin embargo, cuando se vuelven crónicos, pueden limitar nuestras oportunidades y calidad de vida.
-
-La clave para reducir estos sentimientos está en desarrollar la confianza en uno mismo. Esto se logra a través de:
-
-1. Práctica gradual: Exponerse poco a poco a situaciones sociales
-2. Preparación: Estar bien preparado reduce la ansiedad
-3. Técnicas de relajación: La respiración profunda y la meditación ayudan
-4. Pensamientos positivos: Reemplazar pensamientos negativos con afirmaciones positivas
-
-Recuerda que la valentía no es la ausencia de miedo, sino actuar a pesar del miedo.`,
-        translation: `Преодолеть застенчивость и нервозность
-
-Нервозность и застенчивость - это естественные реакции на новые или сложные ситуации. Однако, когда они становятся хроническими, могут ограничить наши возможности и качество жизни.
-
-Ключ к уменьшению этих чувств - развитие уверенности в себе. Этого можно достичь через:
-
-1. Постепенная практика: Понемногу подвергать себя социальным ситуациям
-2. Подготовка: Хорошая подготовка снижает тревогу
-3. Техники релаксации: Глубокое дыхание и медитация помогают
-4. Позитивные мысли: Заменять негативные мысли позитивными утверждениями
-
-Помните, что храбрость - это не отсутствие страха, а действие вопреки страху.`
+        subtabs: [
+          { name: 'Словарь', exercises: [] }
+        ]
       }
-    ],
-    exercises: []
+    ]
   }
 }
 
