@@ -10992,9 +10992,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '30 de octubre. Por la tarde.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-5-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-5-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-5-3'] }
         ]
       },
       {
@@ -21082,6 +21082,62 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мужчины выходят на улице Мунтанер и уходят, не попрощавшись, что Пепу совсем не удивляет.', correct: 'Los hombres bajan en la calle Muntaner y se van sin decir adiós, lo que no sorprende nada a Pepa.' },
       { russian: 'Пепа записывает адрес в свой блокнот, потому что хочет узнать больше об этой затее.', correct: 'Pepa escribe la dirección en su agenda porque quiere saber más sobre esta movida.' },
       { russian: 'Федерико звонит ей и спрашивает, не пообедают ли они вместе, но Пепа не влюблена в него.', correct: 'Federico la llama y le pregunta si comen juntos, pero Pepa no está enamorada de él.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 5: 30 de octubre. Por la tarde.
+  'ex-9-3-5-1': {
+    id: 'ex-9-3-5-1',
+    type: 'fillblank',
+    title: 'Понимание текста: 30 de octubre. Por la tarde.',
+    description: 'Заполните пропуски словами из списка:\n\nfuneral • iglesia • pomerania • paseador de perros • mala leche • pura raza • entierros • orgulloso • clientes • sentarse',
+    questions: [
+      { sentence: 'Por la tarde es el _____ del señor Ramón', correct: 'funeral' },
+      { sentence: 'Hay mucha gente en la _____ de la plaza de la Virreina', correct: 'iglesia' },
+      { sentence: 'El perrito de la señora Montserrat es un _____', correct: 'pomerania' },
+      { sentence: 'La señora Montserrat le da el perro a Raúl para que pasee con él', correct: 'pasee' },
+      { sentence: 'Raúl ahora es _____ y gana ocho euros la hora', correct: 'paseador de perros' },
+      { sentence: 'El perro tiene muy _____ pero es de pura raza', correct: 'mala leche' },
+      { sentence: 'Aristóteles es un perro de _____', correct: 'pura raza' },
+      { sentence: 'Raúl está _____ de su nueva profesión', correct: 'orgulloso' },
+      { sentence: 'De momento Raúl solo tiene un cliente, no tiene varios _____', correct: 'clientes' },
+      { sentence: 'Pepa entra en la iglesia y se _____ al final porque no le gustan los _____', correct: 'sienta' }
+    ]
+  },
+  'ex-9-3-5-2': {
+    id: 'ex-9-3-5-2',
+    type: 'fillblank',
+    title: 'Грамматика: Tiempos verbales',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Presente, Pretérito Indefinido o Imperfecto.\n\nGlагол в скобках дан в инфинитиве - выберите правильную форму!\n\nser • haber • conocer • llegar • pensar • dar • ponerse • ver • pagar • tener',
+    questions: [
+      { sentence: 'Por la tarde _____ (ser) el funeral del señor Ramón', correct: 'fue' },
+      { sentence: 'En la iglesia _____ (haber) mucha gente: familia y vecinos', correct: 'había' },
+      { sentence: 'Pepa _____ (conocer) a muchos de ellos desde hacía años', correct: 'conocía' },
+      { sentence: 'Cuando _____ (llegar) la señora Montserrat, traía al perrito', correct: 'llegó' },
+      { sentence: 'La señora Montserrat _____ (pensar) que el perro era muy inteligente', correct: 'pensaba' },
+      { sentence: 'La señora Montserrat le _____ (dar) el perro a Raúl', correct: 'dio' },
+      { sentence: 'Raúl _____ (ponerse) a pasear con Aristóteles por la plaza', correct: 'se puso' },
+      { sentence: 'Cuando Raúl _____ (ver) a Pepa, le dijo que ganaba ocho euros la hora', correct: 'vio' },
+      { sentence: 'La señora Montserrat le _____ (pagar) ocho euros la hora', correct: 'pagaba' },
+      { sentence: 'De momento Raúl solo _____ (tener) un cliente', correct: 'tenía' }
+    ]
+  },
+  'ex-9-3-5-3': {
+    id: 'ex-9-3-5-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Во второй половине дня проходят похороны сеньора Рамона в церкви на площади Виррейна.', correct: 'Por la tarde es el funeral del señor Ramón en la iglesia de la plaza de la Virreina.' },
+      { russian: 'В церкви много людей — и родственники, и соседи, и Пепа знает многих из них.', correct: 'Hay mucha gente en la iglesia: familia y vecinos, y Pepa conoce a muchos de ellos.' },
+      { russian: 'Приходит сеньора Монсеррат со своей собачкой, которая выглядит как летучая мышь.', correct: 'Llega la señora Montserrat con su perrito, que parece un murciélago.' },
+      { russian: 'Собаку зовут Аристотель, потому что сеньора Монсеррат считает его очень умным.', correct: 'El perro se llama Aristóteles porque la señora Montserrat piensa que es muy inteligente.' },
+      { russian: 'Пепа удивляется, собирается ли собака идти в церковь, но видит, что приходит Рауль.', correct: 'Pepa se pregunta si el perro va a la iglesia, pero ve que llega Raúl.' },
+      { russian: 'Сеньора Монсеррат отдает собаку Раулю, и он начинает гулять с ним по площади.', correct: 'La señora Montserrat le da el perro a Raúl y él se pone a pasear con él por la plaza.' },
+      { russian: 'Рауль объясняет Пепе, что теперь он выгульщик собак и зарабатывает восемь евро в час.', correct: 'Raúl le explica a Pepa que ahora es paseador de perros y gana ocho euros la hora.' },
+      { russian: 'Сеньора Монсеррат платит ему восемь евро в час за то, что он проводит время с Аристотелем.', correct: 'La señora Montserrat le paga ocho euros la hora por estar con Aristóteles.' },
+      { russian: 'Рауль с гордостью повторяет, что теперь он выгульщик собак и это профессия с будущим.', correct: 'Raúl repite con orgullo que ahora es paseador de perros y que es una profesión con futuro.' },
+      { russian: 'Пока у него только один клиент, но Пепа входит в церковь и садится в конце, потому что не любит похороны.', correct: 'De momento solo tiene un cliente, pero Pepa entra en la iglesia y se sienta al final porque no le gustan los entierros.' }
     ]
   }
 }
