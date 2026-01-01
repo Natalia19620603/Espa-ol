@@ -9895,7 +9895,12 @@ Sol Invictus: "Непобедимое солнце". Это не был мест
       },
       {
         tab: 'Calle Bonavista. 23.00 h.',
-        words: []
+        words: [
+          { word: 'el mono', translation: 'комбинезон, обезьяна, симпатичный (прилаг)', audioUrl: null },
+          { word: 'la mierda', translation: 'дерьмо, гадость, мерзость', audioUrl: null },
+          { word: 'dar buen/mal rollo', translation: 'вызывать приятные / неприятные ощущения', audioUrl: null },
+          { word: 'el agujero', translation: 'дыра, отверстие', audioUrl: null }
+        ]
       }
     ],
     audioTabs: [
@@ -10978,9 +10983,9 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         tab: '30 de octubre. Por la mañana.',
         subtabs: [
           { name: 'Словарь', exercises: [] },
-          { name: 'Понимание текста', exercises: [] },
-          { name: 'Грамматика', exercises: [] },
-          { name: 'Перевод', exercises: [] }
+          { name: 'Понимание текста', exercises: ['ex-9-3-4-1'] },
+          { name: 'Грамматика', exercises: ['ex-9-3-4-2'] },
+          { name: 'Перевод', exercises: ['ex-9-3-4-3'] }
         ]
       },
       {
@@ -21006,6 +21011,77 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Рауль грубо шутит над прической Пепы, говоря, что она выглядит так, будто засунула пальцы в розетку.', correct: 'Raúl bromea groseramente sobre el pelo de Pepa, diciendo que parece que ha metido los dedos en un enchufe.' },
       { russian: 'Армандо говорит Раулю, что он идиот, потому что так нельзя говорить молодой женщине.', correct: 'Armando le dice a Raúl que es un tarado porque eso no se le dice a una señorita.' },
       { russian: 'Рауль меняет тему и комментирует, что умер сосед, и Пепа объясняет, что это муж сеньоры Монсеррат.', correct: 'Raúl cambia de tema y comenta que ha muerto un vecino, y Pepa explica que es el marido de la señora Montserrat.' }
+    ]
+  },
+
+  // MÓDULO 9 LECCIÓN 3 - Capítulo 4: 30 de octubre. Por la mañana.
+  'ex-9-3-4-1': {
+    id: 'ex-9-3-4-1',
+    type: 'fillblank',
+    title: 'Понимание текста: 30 de octubre. Por la mañana.',
+    description: 'Заполните пропуски словами из списка:\n\nático • acera • movida • planos • constructora • terraza • alquiler • mafioso • despedirse • pasajeros • agenda • enamorada • levantar la mano • subir • bajar',
+    questions: [
+      { sentence: 'Pepa vive en el _____, en un piso muy pequeño', correct: 'ático' },
+      { sentence: 'Desde la _____ se ve un poquito el mar', correct: 'terraza' },
+      { sentence: 'Hay tres hombres en la calle que miran unos _____', correct: 'planos' },
+      { sentence: 'Una _____ quiere comprar todo el edificio', correct: 'constructora' },
+      { sentence: 'Pepa tiene un contrato de _____ para tres años', correct: 'alquiler' },
+      { sentence: 'Los hombres están en la _____ delante del edificio', correct: 'acera' },
+      { sentence: 'Uno de los hombres es gordito y tiene aspecto de _____', correct: 'mafioso' },
+      { sentence: 'Parece que los hombres se están _____', correct: 'despidiendo' },
+      { sentence: 'Uno de ellos _____ para llamar un taxi', correct: 'levanta la mano' },
+      { sentence: 'Dos hombres _____ al taxi de Pepa', correct: 'suben' },
+      { sentence: 'Pepa clasifica a sus _____ en dos clases', correct: 'pasajeros' },
+      { sentence: 'En la calle Muntaner los hombres _____', correct: 'bajan' },
+      { sentence: 'Pepa escribe la dirección en su _____', correct: 'agenda' },
+      { sentence: 'Pepa quiere saber más sobre esta _____', correct: 'movida' },
+      { sentence: 'Pepa no está _____ de Federico', correct: 'enamorada' }
+    ]
+  },
+  'ex-9-3-4-2': {
+    id: 'ex-9-3-4-2',
+    type: 'fillblank',
+    title: 'Грамматика: Indefinido, Perfecto, Imperfecto e Imperativo',
+    description: 'Заполните пропуски правильной формой глагола. Используйте Pretérito Indefinido, Perfecto, Imperfecto o Imperativo.\n\nGlагол в скобках дан в инфинитиве - выберите правильную форму!\n\nlevantarse • preparar • salir • haber • mirar • saber • vivir • pasar • decir • pensar • ir • volver • querer • subir • bajar',
+    questions: [
+      { sentence: 'Pepa _____ (levantarse) pronto por la mañana', correct: 'se levantó' },
+      { sentence: 'Pepa se _____ (preparar) un café antes de salir', correct: 'preparó' },
+      { sentence: 'Cuando _____ (salir) a la calle, vio a tres hombres', correct: 'salió' },
+      { sentence: 'Frente a la casa _____ (haber) tres hombres con planos', correct: 'había' },
+      { sentence: 'Los hombres _____ (mirar) unos planos del edificio', correct: 'miraban' },
+      { sentence: 'Pepa _____ (saber) que una constructora quería comprar el edificio', correct: 'sabía' },
+      { sentence: 'Pepa _____ (vivir) en el ático desde hacía dos años', correct: 'vivía' },
+      { sentence: 'Ella _____ (pasar) lentamente al lado de los hombres para escuchar', correct: 'pasó' },
+      { sentence: 'Uno de ellos _____ (decir) que el problema era la vieja del primero', correct: 'dijo' },
+      { sentence: '¡_____ (pensar - tú) bien antes de tomar una decisión! - le dice Pepa a sí misma', correct: 'Piensa' },
+      { sentence: 'Pepa _____ (ir) a la plaza del Sol a buscar su taxi', correct: 'fue' },
+      { sentence: 'Después _____ (volver) hacia su calle con el taxi', correct: 'volvió' },
+      { sentence: 'Pepa _____ (querer) saber más sobre esos tipos sospechosos', correct: 'quería' },
+      { sentence: 'Dos de los hombres _____ (subir) al taxi de Pepa', correct: 'subieron' },
+      { sentence: 'Los hombres _____ (bajar) en la calle Muntaner sin decir adiós', correct: 'bajaron' }
+    ]
+  },
+  'ex-9-3-4-3': {
+    id: 'ex-9-3-4-3',
+    type: 'translation',
+    title: 'Перевод: с русского на испанский',
+    description: 'Переведите предложения на испанский язык. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Пепа встает рано, готовит себе кофе и думает о том, как накопить денег для поездки на Карибы.', correct: 'Pepa se levanta pronto, se prepara un café y piensa en cómo ahorrar dinero para irse al Caribe.' },
+      { russian: 'Когда она выходит на улицу, перед домом стоят три человека и рассматривают планы здания.', correct: 'Cuando sale a la calle, hay tres hombres frente a la casa que miran unos planos del edificio.' },
+      { russian: 'Пепа живет в мансарде, в очень маленькой квартире, но с красивой террасой, с которой видно море.', correct: 'Pepa vive en el ático, en un piso muy pequeño, pero con una terraza bonita desde la que se ve el mar.' },
+      { russian: 'Пепа знает, что строительная компания хочет купить все здание целиком для какой-то операции.', correct: 'Pepa sabe que una constructora quiere comprar todo el edificio para alguna operación.' },
+      { russian: 'Она медленно проходит мимо этих людей, чтобы подслушать их разговор о здании.', correct: 'Ella pasa lentamente al lado de estos hombres para escuchar su conversación sobre el edificio.' },
+      { russian: 'Один из них, толстенький с видом мафиози, говорит, что проблема — это старуха с первого этажа.', correct: 'Uno de ellos, gordito y con aspecto de mafioso, dice que el problema es la vieja del primero.' },
+      { russian: 'Пепа идет на площадь Соль и возвращается на свою улицу на такси, чтобы узнать больше.', correct: 'Pepa va a la plaza del Sol y vuelve a su calle en taxi para saber más.' },
+      { russian: 'У Пепы есть договор аренды на три года, и она не хочет покидать свою мансарду.', correct: 'Pepa tiene un contrato de alquiler para tres años y no quiere dejar su ático.' },
+      { russian: 'Когда она медленно проезжает мимо здания на машине, один из мужчин поднимает руку и кричит "Такси!".', correct: 'Cuando pasa lentamente en coche por delante del edificio, uno de los hombres levanta la mano y grita "¡Taxi!".' },
+      { russian: 'Пепа останавливается, и двое мужчин садятся в такси, даже не поздоровавшись.', correct: 'Pepa se para y dos de los hombres suben al taxi sin ni siquiera decir buenos días.' },
+      { russian: 'Пепа классифицирует своих пассажиров на два типа: тех, кто здоровается, и тех, кто не здоровается.', correct: 'Pepa clasifica a sus pasajeros en dos clases: los que dicen buenos días y los que no dicen buenos días.' },
+      { russian: 'Пепа внимательно слушает то, что они говорят, и узнает, что им нужно все здание.', correct: 'Pepa escucha con atención lo que dicen y se entera de que necesitan todo el edificio.' },
+      { russian: 'Мужчины выходят на улице Мунтанер и уходят, не попрощавшись, что Пепу совсем не удивляет.', correct: 'Los hombres bajan en la calle Muntaner y se van sin decir adiós, lo que no sorprende nada a Pepa.' },
+      { russian: 'Пепа записывает адрес в свой блокнот, потому что хочет узнать больше об этой затее.', correct: 'Pepa escribe la dirección en su agenda porque quiere saber más sobre esta movida.' },
+      { russian: 'Федерико звонит ей и спрашивает, не пообедают ли они вместе, но Пепа не влюблена в него.', correct: 'Federico la llama y le pregunta si comen juntos, pero Pepa no está enamorada de él.' }
     ]
   }
 }
