@@ -11506,6 +11506,10 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
       {
         tab: '¿Qué es la microbiota?',
         videoUrl: '/video/¿Qué es la microbiota.mp4'
+      },
+      {
+        tab: 'Potencial y tigre de Bengala',
+        videoUrl: '/video/Potencial y tigre de Bengala.mp4'
       }
     ],
     vocabulary: [
@@ -11608,6 +11612,27 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
           { word: 'los ritmos circadianos', translation: 'циркадные ритмы' },
           { word: 'la difusión', translation: 'распространение' }
         ]
+      },
+      {
+        tab: 'Potencial y tigre de Bengala',
+        words: [
+          { word: 'fabuloso', translation: 'сказочный, невероятный' },
+          { word: 'la potencia', translation: 'мощность, сила' },
+          { word: 'el zarpazo', translation: 'сильный удар' },
+          { word: 'de cuajo', translation: 'с корнем' },
+          { word: 'de longitud', translation: 'в длину' },
+          { word: 'cazar', translation: 'ловить, охотиться' },
+          { word: 'el ciervo', translation: 'олень' },
+          { word: 'fallar', translation: 'не удаваться, провалиться' },
+          { word: 'el error', translation: 'ошибка' },
+          { word: 'la mentalidad', translation: 'склад ума, менталитет' },
+          { word: 'desaparecer', translation: 'исчезать' },
+          { word: 'la excusa', translation: 'оправдание, отговорка' },
+          { word: 'la justificación', translation: 'оправдание, извинение' },
+          { word: 'el título académico', translation: 'диплом' },
+          { word: 'bien amueblado', translation: 'хорошо меблированный, организованный' },
+          { word: 'el resto', translation: 'остальное, остаток' }
+        ]
       }
     ],
     readingText: [
@@ -11701,6 +11726,31 @@ Dr. Mario Alonso Puig: Exactamente. Hay una conexión directa entre lo que comem
 Marina: Fascinante. Muchas gracias Mario por compartir esta información tan valiosa.
 
 Dr. Mario Alonso Puig: Un placer Marina. Gracias a ti.`,
+        translation: ``
+      },
+      {
+        tab: 'Potencial y tigre de Bengala',
+        content: `La Mentalidad del Tigre de Bengala
+
+Inspirado en las palabras de Victor Küppers
+
+Me encanta el ejemplo del tigre de bengala porque es un animal fabuloso en su potencia, su musculatura. Más de 200 kg; de un zarpazo nos arrancaría de cuajo el hombro. Es un animal que puede saltar hasta 9 metros de longitud.
+
+¿Sabéis cuántos intentos tiene que hacer un tigre de bengala para cazar un ciervo? Diez. Falla nueve.
+
+El error y la mentalidad humana
+
+Si los tigres de bengala actuaran como los humanos y respondieran ante los errores como respondemos los humanos, los tigres serían inexistentes, todos habrían desaparecido.
+
+Pero nosotros siempre encontramos excusas y justificaciones de por qué hemos fallado:
+
+"Es que soy demasiado mayor"
+
+"Es que me falta un título académico"
+
+"Es que me falta un conocimiento"
+
+Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto se amuebla solo.`,
         translation: ``
       }
     ],
