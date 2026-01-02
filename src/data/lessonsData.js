@@ -9459,49 +9459,36 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
       {
         tab: 'Capitulo 1 - Fragmento 1',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 1',
-        content: `Cándido deja los periódicos sobre la cama. Se sienta en una silla y bebe rápido su café. Está demasiado caliente, pero a él le gusta así. Busca un cigarrillo en su chaqueta y empieza a fumar.`
+        content: `Cándido deja los periódicos sobre la cama. Se sienta en una silla y bebe rápido su café. Está demasiado caliente, pero a él le gusta así. Busca un cigarrillo en su chaqueta y empieza a fumar.
+
+Hace calor. En Córdoba siempre hace mucho calor en verano y el café caliente le hace encontrarse peor. Cándido mira los periódicos abiertos sobre la cama y se pone muy nervioso. No sabe quién le ha podido enviar ese paquete con los periódicos dentro. ¿Quién le escribe?, ¿qué quiere de él? No lo sabe. Solo esos periódicos de Toledo en un pequeño paquete marrón. Sin carta, sin nada.
+
+La música del bar de abajo entra por la ventana. Vivir encima de un bar es muy difícil, a veces hasta imposible. Pero vivir en la blanca y caliente Córdoba, cerca de la Mezquita, es muy importante para él. Él es un arqueólogo muy bueno, el mejor. Pero no trabaja en una excavación desde hace muchos años. Muchos. Desde aquel día que...`
       },
       {
         tab: 'Capitulo 1 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 2',
-        content: `Hace calor. En Córdoba siempre hace mucho calor en verano y el café caliente le hace encontrarse peor. Cándido mira los periódicos abiertos sobre la cama y se pone muy nervioso. No sabe quién le ha podido enviar ese paquete con los periódicos dentro. ¿Quién le escribe?, ¿qué quiere de él? No lo sabe. Solo esos periódicos de Toledo en un pequeño paquete marrón. Sin carta, sin nada.`
+        content: ``
       },
       {
         tab: 'Capitulo 1 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 3',
-        content: `La música del bar de abajo entra por la ventana. Vivir encima de un bar es muy difícil, a veces hasta imposible. Pero vivir en la blanca y caliente Córdoba, cerca de la Mezquita, es muy importante para él. Él es un arqueólogo muy bueno, el mejor. Pero no trabaja en una excavación desde hace muchos años. Muchos. Desde aquel día que...`
+        content: ``
       },
       {
         tab: 'Capitulo 1 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 4',
-        content: `Ahora está cansado, solo, casi sin dinero. Todo es demasiado difícil desde aquel día negro.
-
-La fea música del bar llega a todas las habitaciones de la casa. Por la ventana Cándido mira, sin ver, el pequeño jardín de su calle. Un hombre espera debajo de un árbol. Llega una mujer joven, morena y muy bonita. Hablan un poco y después se van cogidos de la mano.
-Es día de fiesta y la gente sale a pasear o va al cine.
-
-Cerca del parque, coches y motos pasan rápidos hacia el centro de la ciudad. Hacen mucho ruido, pero Cándido parece no oír nada. Solo fuma su cigarrillo y habla para sí. ¿Qué quiere decir ese paquete con los periódicos dentro? ¿Quién los envía? ¿Para qué?`
+        content: ``
       },
       {
         tab: 'Capitulo 1 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 5',
-        content: `Los periódicos esperan encima de la cama. Conocen la verdad, pero no pueden decirla. Solo se ríen de él.
-
-Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un restaurante... No, en este momento no quiere estar fuera de casa. Va a la cocina y bebe rápido un vaso de agua. Después vuelve a su habitación. Se sienta encima de la cama y empieza a leer los periódicos otra vez.
-
-... en el viejo Palacio de Úbeda... los obreros han encontrado... una sinagoga... no hay otra en Toledo tan bonita y rara como esta... Marisa Martín, una joven arqueóloga, ha encontrado... un pequeño tesoro: tres copas y una llave... La llave... tiene unos dibujos y unas inscripciones... en árabe y hebreo... nadie ha podido entenderlas... Esta llave debe abrirnos la puerta de la verdad..
-
-Cándido está nervioso, muy nervioso. Tiene calor, pero sus manos están frías. Para un arqueólogo no hay nada tan importante como un descubrimiento así.
-
-¡Una nueva sinagoga en Toledo! Además, la llave... Las raras inscripciones de esa llave... Nadie ha podido leerlas y él, Cándido Aguirre, está seguro de poder hacerlo. Sí, claro que sí. Hace mucho tiempo que no trabaja. Pero él es el mejor arqueólogo del país y puede descubrir la verdad de la sinagoga. Él lo sabe y también otras personas lo saben.
-
-Sí, eso es. Ahora Cándido empieza a entender. Alguien le ha enviado ese paquete para hacerle ir a Toledo. Es alguien que debe de conocerlo muy bien: sabe que después de leer los periódicos, Cándido no va a poder olvidar la sinagoga. Sí, solo él, Cándido, puede leer las inscripciones de la llave. Y por eso alguien lo está llamando.
-
-Son las nueve y el sol se pierde detrás de los campos amarillos. En septiembre, los días empiezan a ser más cortos. Muy pronto, el otoño va a volver.`
+        content: ``
       },
       {
         tab: 'Capitulo 1 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 6',
-        content: `«No puedo hacer otra cosa. Debo ir a Toledo - se dice Cándido. Puede ser peligroso volver allí, una trampa quizás, pero debo ir. Leer esa inscripción y saber quién me ha enviado los periódicos... Eso es. Voy a ir. Y voy a tener más suerte esta vez. Salí de la cárcel hace tres meses y ya es hora de empezar a hacer algo. No quiero más días negros.»`
+        content: ``
       }
     ],
     exercises: [
