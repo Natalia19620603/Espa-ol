@@ -11862,6 +11862,16 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'demostrar', translation: 'доказывать, демонстрировать' },
           { word: 'atrapar', translation: 'ловить, поймать' }
         ]
+      },
+      {
+        tab: 'Las emociones curan',
+        words: [
+          { word: 'impacto', translation: 'влияние, воздействие' },
+          { word: 'el torrente sanguíneo', translation: 'кровоток/кровеносная система' },
+          { word: 'el miedo', translation: 'страх, боязнь' },
+          { word: 'el daño', translation: 'ущерб, вред' },
+          { word: 'la implicación', translation: 'соучастие, вовлечение' }
+        ]
       }
     ],
     readingText: [
@@ -11897,6 +11907,13 @@ Entonces pregúntate: ¿cuál es el paso más pequeñito que me atrevo a dar? Y 
 Porque te darás cuenta de una cosa: el mundo real es mucho más benévolo que el mundo mental.
 
 El mundo real te demostrará quién eres de verdad, mientras que el mundo mental te mantendrá atrapado, te mantendrá atrapada, en quien te crees que eres.`,
+        translation: ``
+      },
+      {
+        tab: 'Las emociones curan',
+        content: `Las emociones curan
+
+Las emociones tienen un impacto directo tanto en la salud como la enfermedad, porque la palabra emoción es diferente a la palabra sentimiento. Las emociones son todo procesos corporales. Por ejemplo, cuando una persona está con alguien a quien quiere profundamente, su torrente sanguíneo y su cerebro están llenos de una hormona llamada oxitocina. La oxitocina protege la salud, protege el corazón, potencia el sistema inmune para que no tengamos infecciones o para que sea más difícil que las tengamos y corta radicalmente el eje del estrés. Sin embargo, cuando nosotros estamos experimentando miedo, lo que se libera es cortisol. El cortisol mantenido en cifras altas, que es lo que pasa con estos cuadros donde una persona vive asustada, hacen muchísimo daño en la salud. Entonces, por supuesto que las emociones tienen una implicación directa en la salud y la enfermedad.`,
         translation: ``
       }
     ],
