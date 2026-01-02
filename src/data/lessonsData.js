@@ -82,7 +82,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: Литература и культура',
     level: 'intermediate',
-    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5', 'lesson-9-6'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -11484,26 +11484,6 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         videoUrl: '/video/¿Cómo reduci el nerviosismo y dejar la timidez de lado.mp4'
       },
       {
-        tab: 'Dejar de dudar',
-        videoUrl: '/video/Como dejar de dudar de uno mismo.mp4'
-      },
-      {
-        tab: 'Las emociones curan',
-        videoUrl: '/video/Las emociones curan.mp4'
-      },
-      {
-        tab: 'Creamos nuestras emociones',
-        videoUrl: '/video/Nosotros creamos nuestras emociones.mp4'
-      },
-      {
-        tab: 'Por que te pones malo con el estres',
-        videoUrl: '/video/Por que te pones malo con el estres.mp4'
-      },
-      {
-        tab: 'Abrazos y Oxitocina',
-        videoUrl: '/video/Abrazos y Oxitocina.mp4'
-      },
-      {
         tab: '¿Qué es la microbiota?',
         videoUrl: '/video/¿Qué es la microbiota.mp4'
       },
@@ -11801,6 +11781,48 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
         ]
       }
     ]
+  },
+  'lesson-9-6': {
+    id: 'lesson-9-6',
+    title: 'Урок 6: Video psicología II',
+    moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'Dejar de dudar',
+        videoUrl: '/video/Como dejar de dudar de uno mismo.mp4'
+      },
+      {
+        tab: 'Las emociones curan',
+        videoUrl: '/video/Las emociones curan.mp4'
+      },
+      {
+        tab: 'Creamos nuestras emociones',
+        videoUrl: '/video/Nosotros creamos nuestras emociones.mp4'
+      },
+      {
+        tab: 'Por que te pones malo con el estres',
+        videoUrl: '/video/Por que te pones malo con el estres.mp4'
+      },
+      {
+        tab: 'Abrazos y Oxitocina',
+        videoUrl: '/video/Abrazos y Oxitocina.mp4'
+      }
+    ],
+    vocabulary: [
+      {
+        tab: 'Общий словарь',
+        words: [
+          { word: 'dudar', translation: 'сомневаться' },
+          { word: 'la emoción', translation: 'эмоция' },
+          { word: 'curar', translation: 'лечить, исцелять' },
+          { word: 'el estrés', translation: 'стресс' },
+          { word: 'el abrazo', translation: 'объятие' },
+          { word: 'la oxitocina', translation: 'окситоцин' }
+        ]
+      }
+    ],
+    readingText: [],
+    exercises: []
   }
 }
 
