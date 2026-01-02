@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { lessons, exercises as exercisesData } from '../data/lessonsData'
 import ExerciseComponent from '../components/ExerciseComponent'
 import AudioPlayer from '../components/AudioPlayer'
+import VideoPlayer from '../components/VideoPlayer'
 import PronunciationRecorder from '../components/PronunciationRecorder'
 import styles from './LessonPage.module.css'
 
@@ -627,26 +628,12 @@ function LessonPage() {
 
                     <div className={styles.videoContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
                       {activeContent.videoUrl && !videoError && (
-                        <video
+                        <VideoPlayer
                           key={`${activeVideoTab}-${activeSubtab}`}
-                          controls
-                          className={styles.videoPlayer}
-                          style={{
-                            width: '100%',
-                            height: 'auto',
-                            maxWidth: '100%',
-                            borderRadius: '8px',
-                            display: 'block'
-                          }}
-                          onError={(e) => {
-                            console.error('Ошибка загрузки видео:', activeContent.videoUrl, e)
-                            setVideoError(`Не удалось загрузить видео. Файл может отсутствовать или быть поврежден.`)
-                          }}
-                          onLoadStart={() => setVideoError(null)}
-                        >
-                          <source src={activeContent.videoUrl} type="video/mp4" />
-                          Ваш браузер не поддерживает воспроизведение видео.
-                        </video>
+                          videoUrl={activeContent.videoUrl}
+                          title={currentVideo?.tab || ''}
+                          subtitles={activeContent.subtitles || []}
+                        />
                       )}
                       {activeContent.videoUrl && videoError && (
                         <div style={{
@@ -702,25 +689,11 @@ function LessonPage() {
                 return (
                   <div className={styles.videoContainer} style={{ width: '100%', maxWidth: '800px' }}>
                     {!videoError && (
-                      <video
-                        controls
-                        className={styles.videoPlayer}
-                        style={{
-                          width: '100%',
-                          height: 'auto',
-                          maxWidth: '100%',
-                          borderRadius: '8px',
-                          display: 'block'
-                        }}
-                        onError={(e) => {
-                          console.error('Ошибка загрузки видео:', lesson.videoUrl, e)
-                          setVideoError(`Не удалось загрузить видео. Файл может отсутствовать или быть поврежден.`)
-                        }}
-                        onLoadStart={() => setVideoError(null)}
-                      >
-                        <source src={lesson.videoUrl} type="video/mp4" />
-                        Ваш браузер не поддерживает воспроизведение видео.
-                      </video>
+                      <VideoPlayer
+                        videoUrl={lesson.videoUrl}
+                        title={lesson.title || ''}
+                        subtitles={[]}
+                      />
                     )}
                     {videoError && (
                       <div style={{
