@@ -11494,9 +11494,7 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
       {
         tab: 'Creamos nuestras emociones',
         videoUrl: '/video/Nosotros creamos nuestras emociones.mp4'
-      }
-    ],
-    audioTabs: [
+      },
       {
         tab: 'Por que te pones malo con el estres',
         videoUrl: '/video/Por que te pones malo con el estres.mp4'
@@ -23443,7 +23441,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       },
       {
         question: 'Nosotros ___ (enfocarse) en lo relevante.',
-        options: ['nos enfocamos', 'nos enfoquemos', 'nos hemos enfocado', 'nos enfocamos'],
+        options: ['nos enfocamos', 'nos enfoquemos', 'nos hemos enfocado', 'nos enfocábamos'],
         correct: 0
       },
       {
