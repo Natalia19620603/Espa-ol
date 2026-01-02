@@ -11459,7 +11459,17 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
 Его хлеб с насекомыми содержит 20% муки из мучного червя. Он дорогой, более восьми евро за маленький хлеб, но клиенты быстро заинтересовались. И нас положительно удивило, особенно что касается наших пожилых клиентов. Мы думали, что молодое поколение будет более склонно попробовать что-то новое, но на самом деле именно группа старше 50 лет была наиболее заинтересована. Многие даже попробовали целых мучных червей. Причина более чем достаточная для того, чтобы пекарь продолжал продавать смелые продукты для отважных клиентов.`
       }
     ],
-    exercises: ['ex-9-4-1', 'ex-9-4-2', 'ex-9-4-3', 'ex-9-4-4', 'ex-9-4-5']
+    exercises: [
+      {
+        tab: 'Gusanos',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-4-gusanos-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-4-gusanos-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-4-gusanos-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-4-gusanos-translation'] }
+        ]
+      }
+    ]
   },
 
   'lesson-9-5': {
@@ -16567,77 +16577,116 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Испанское искусство известно во всем мире', correct: 'el arte español es conocido en todo el mundo' }
     ]
   },
-  'ex-9-4-1': {
-    id: 'ex-9-4-1',
-    type: 'reading',
-    title: 'Чтение: Тапас и традиции',
-    description: 'Ответьте на вопросы по тексту',
-    text: 'Las tapas son pequeñas porciones de comida que se sirven en bares españoles. El nombre viene de "tapar" porque se cubría el vaso con pan o jamón. Ir de tapas es un ritual social - los españoles van de bar en bar probando diferentes tapas. Las fiestas españolas son expresiones de identidad y comunidad. Las Fallas de Valencia se queman el 19 de marzo. La Tomatina es una batalla con 150,000 kilos de tomates en Buñol.',
-    questions: [
-      { question: '¿De dónde viene el nombre "tapas"?', options: ['Del verbo tapar', 'De una ciudad', 'De un rey', 'De un plato'], correct: 0 },
-      { question: '¿Qué es ir de tapas?', options: ['Comer en casa', 'Ir de bar en bar', 'Cocinar', 'Bailar'], correct: 1 },
-      { question: '¿Cuándo se queman las Fallas?', options: ['1 de enero', '19 de marzo', '25 de diciembre', '14 de julio'], correct: 1 },
-      { question: '¿Cuántos kilos de tomates se usan en La Tomatina?', options: ['10,000', '50,000', '150,000', '200,000'], correct: 2 }
-    ]
-  },
-  'ex-9-4-2': {
-    id: 'ex-9-4-2',
+  'ex-9-4-gusanos-vocab': {
+    id: 'ex-9-4-gusanos-vocab',
     type: 'vocabulary',
-    title: 'Словарь еды',
-    description: 'Сопоставьте испанские слова с переводом',
+    title: 'Словарь: Gusanos de harina',
+    description: 'Выберите правильный перевод слова. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { spanish: 'la tapa', options: ['закуска', 'ужин', 'завтрак', 'обед'], correct: 0 },
-      { spanish: 'el jamón', options: ['сыр', 'хамон', 'хлеб', 'вино'], correct: 1 },
-      { spanish: 'cocinar', options: ['есть', 'готовить', 'пить', 'танцевать'], correct: 1 },
-      { spanish: 'delicioso', options: ['острый', 'холодный', 'вкусный', 'горячий'], correct: 2 },
-      { spanish: 'la fiesta', options: ['работа', 'праздник', 'дом', 'улица'], correct: 1 },
-      { spanish: 'celebrar', options: ['праздновать', 'работать', 'учиться', 'спать'], correct: 0 },
-      { spanish: 'la tradición', options: ['традиция', 'еда', 'музыка', 'танец'], correct: 0 },
-      { spanish: 'el marisco', options: ['мясо', 'рыба', 'морепродукты', 'овощи'], correct: 2 }
+      { spanish: 'cultivar', options: ['культивировать, выращивать', 'собирать', 'продавать', 'покупать'], correct: 0 },
+      { spanish: 'criar', options: ['кричать', 'воспитывать, растить', 'бежать', 'петь'], correct: 1 },
+      { spanish: 'el gusano', options: ['червяк, гусеница', 'муха', 'бабочка', 'паук'], correct: 0 },
+      { spanish: 'diminuto', options: ['огромный', 'средний', 'крошечный, очень маленький', 'длинный'], correct: 2 },
+      { spanish: 'la proteína', options: ['углевод', 'жир', 'белок, протеин', 'витамин'], correct: 2 },
+      { spanish: 'el grillo', options: ['кузнечик', 'сверчок', 'муравей', 'жук'], correct: 1 },
+      { spanish: 'el saltamonte', options: ['кузнечик', 'сверчок', 'богомол', 'стрекоза'], correct: 0 },
+      { spanish: 'caer en sueño profundo', options: ['проснуться', 'впасть в глубокий сон', 'мечтать', 'зевать'], correct: 1 },
+      { spanish: 'allanar', options: ['строить', 'разрушать', 'выравнивать', 'копать'], correct: 2 },
+      { spanish: 'los gastos', options: ['доходы', 'расходы, затраты', 'долги', 'налоги'], correct: 1 },
+      { spanish: 'automatizar', options: ['автоматизировать', 'упрощать', 'усложнять', 'организовать'], correct: 0 },
+      { spanish: 'reducir', options: ['увеличивать', 'умножать', 'уменьшать, сокращать', 'делить'], correct: 2 },
+      { spanish: 'el trabajo manual', options: ['ручной труд', 'умственный труд', 'легкая работа', 'тяжелая работа'], correct: 0 },
+      { spanish: 'el consumidor', options: ['производитель', 'потребитель, покупатель', 'продавец', 'владелец'], correct: 1 },
+      { spanish: 'en lo que respecta a', options: ['несмотря на', 'вместо', 'что касается', 'кроме'], correct: 2 },
+      { spanish: 'la generación', options: ['поколение, потомство, зарождение', 'старость', 'молодость', 'детство'], correct: 0 },
+      { spanish: 'ser propenso a', options: ['быть против', 'быть склонным к', 'избегать', 'отказываться от'], correct: 1 },
+      { spanish: 'de hecho', options: ['возможно', 'на самом деле, фактически', 'вероятно', 'никогда'], correct: 1 },
+      { spanish: 'atrevido', options: ['трусливый', 'осторожный', 'смелый, отважный', 'равнодушный'], correct: 2 },
+      { spanish: 'audaz', options: ['робкий', 'смелый, отважный', 'слабый', 'сомневающийся'], correct: 1 }
     ]
   },
-  'ex-9-4-3': {
-    id: 'ex-9-4-3',
-    type: 'grammar',
-    title: 'Кухня и традиции',
-    description: 'Выберите правильный ответ',
+  'ex-9-4-gusanos-comprehension': {
+    id: 'ex-9-4-gusanos-comprehension',
+    type: 'multiple-choice',
+    title: 'Понимание текста: Gusanos de harina',
+    description: 'Ответьте на вопросы по тексту. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { sentence: 'La tortilla de ___ es muy popular en España', options: ['tomates', 'patatas', 'arroz', 'pasta'], correct: 1 },
-      { sentence: 'El ___ ibérico es el rey de las tapas', options: ['queso', 'pan', 'jamón', 'vino'], correct: 2 },
-      { sentence: 'Las Fallas se celebran en ___', options: ['Madrid', 'Barcelona', 'Valencia', 'Sevilla'], correct: 2 },
-      { sentence: 'San Fermín se celebra en ___', options: ['Pamplona', 'Granada', 'Málaga', 'Bilbao'], correct: 0 },
-      { sentence: 'La ___ es el tiempo después de comer charlando', options: ['siesta', 'sobremesa', 'fiesta', 'comida'], correct: 1 },
-      { sentence: 'Las ___ son pequeñas porciones de comida', options: ['paellas', 'tortillas', 'tapas', 'gazpachos'], correct: 2 }
+      { question: '¿Dónde se cultiva la proteína del futuro según el texto?', options: ['En dos plantas en el sur de Alemania', 'En el norte de España', 'En Francia', 'En Italia'], correct: 0 },
+      { question: '¿Cómo se llama la granja mencionada?', options: ['Protein Future', 'Sixfeet Suite', 'German Insects', 'Mealworm Farm'], correct: 1 },
+      { question: '¿Cuánto mide aproximadamente el gusano de la harina?', options: ['Más de cinco centímetros', 'Menos de un centímetro', 'Poco más de dos centímetros', 'Diez centímetros'], correct: 2 },
+      { question: '¿Qué porcentaje de la masa del insecto es proteína?', options: ['Hasta el 30%', 'Hasta el 50%', 'Hasta el 70%', 'Hasta el 90%'], correct: 2 },
+      { question: '¿Qué porcentaje de omega 3 tienen los peces?', options: ['2%', '7%', '14%', '20%'], correct: 0 },
+      { question: '¿Qué porcentaje de omega 3 tiene el gusano de la harina?', options: ['2%', '7%', 'Más del 14%', '10%'], correct: 2 },
+      { question: '¿Qué tipos de insectos se crían en la granja?', options: ['Solo gusanos de la harina', 'Gusanos de la harina, grillos y saltamontes', 'Abejas y hormigas', 'Mariposas'], correct: 1 },
+      { question: '¿Qué temperatura constante necesitan los insectos?', options: ['Hasta 20 grados', 'Hasta 30 grados', 'Hasta 40 grados', 'Hasta 50 grados'], correct: 2 },
+      { question: '¿Cuánto tiempo viven los insectos?', options: ['Entre 2 y 3 semanas', 'Entre 4 y 5 semanas', 'Entre 6 y 7 semanas', 'Entre 8 y 10 semanas'], correct: 1 },
+      { question: '¿Qué hacen con los insectos después de que entran en el refrigerador?', options: ['Los venden vivos', 'Los meten en un horno', 'Los liberan', 'Los congelan'], correct: 1 },
+      { question: '¿A quiénes venden los productos?', options: ['Solo a restaurantes', 'A tiendas, restaurantes y consumidores directos', 'Solo a consumidores', 'Solo a tiendas'], correct: 1 },
+      { question: '¿Qué hace la Unión Europea para estas empresas?', options: ['Las prohíbe', 'Allana el camino para que tengan menos gastos', 'Las ignora', 'Las critica'], correct: 1 },
+      { question: '¿Qué están haciendo para reducir costos?', options: ['Contratar más trabajadores', 'Automatizar los procesos', 'Cerrar la granja', 'Subir los precios'], correct: 1 },
+      { question: '¿Quién es Nono Peka Work Airlines?', options: ['Un granjero', 'Un panadero en Núremberg', 'Un vendedor', 'Un chef'], correct: 1 },
+      { question: '¿Qué porcentaje de harina de gusano contiene el pan de insectos?', options: ['10%', '15%', '20%', '25%'], correct: 2 },
+      { question: '¿Cuánto cuesta el pan de insectos?', options: ['Cinco euros', 'Más de ocho euros', 'Tres euros', 'Diez euros'], correct: 1 },
+      { question: '¿Qué grupo de edad mostró más interés en los productos?', options: ['Jóvenes menores de 25 años', 'Entre 30 y 40 años', 'Mayores de 50 años', 'Adolescentes'], correct: 2 },
+      { question: '¿Qué pensaban sobre la generación joven?', options: ['Que no les gustaría', 'Que serían más propensos a probar', 'Que tendrían miedo', 'Que rechazarían el producto'], correct: 1 },
+      { question: '¿Qué probaron muchos clientes mayores?', options: ['Solo el pan', 'Los gusanos de la harina enteros', 'Nada', 'Solo harina'], correct: 1 },
+      { question: '¿Cómo describe el texto a los clientes del panadero?', options: ['Tímidos', 'Conservadores', 'Atrevidos y audaces', 'Desinteresados'], correct: 2 }
     ]
   },
-  'ex-9-4-4': {
-    id: 'ex-9-4-4',
-    type: 'fillblank',
-    title: 'Completar sobre gastronomía',
-    description: 'Complete las frases',
+  'ex-9-4-gusanos-grammar': {
+    id: 'ex-9-4-gusanos-grammar',
+    type: 'multiple-choice',
+    title: 'Грамматика: Gusanos de harina',
+    description: 'Выберите правильную форму глагола. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { sentence: 'Las ___ son típicas de la cocina española', correct: 'tapas' },
-      { sentence: 'El aceite de ___ es muy usado en España', correct: 'oliva' },
-      { sentence: 'La ___ es un plato de arroz típico de Valencia', correct: 'paella' },
-      { sentence: 'Ir de ___ es un ritual social español', correct: 'tapas' },
-      { sentence: 'Las ___ de Valencia se queman cada año', correct: 'Fallas' },
-      { sentence: 'La ___ es una batalla de tomates', correct: 'Tomatina' },
-      { sentence: 'La ___ Santa es una semana de procesiones', correct: 'Semana' },
-      { sentence: 'En Pamplona se celebra San ___', correct: 'Fermín' }
+      { question: 'La empresa ya ___ (cultivar) millones de insectos este año. (Pretérito Perfecto)', options: ['ha cultivado', 'cultivó', 'cultivaba', 'cultive'], correct: 0 },
+      { question: 'Ayer nosotros ___ (probar) el pan con harina de insectos. (Pretérito Indefinido)', options: ['hemos probado', 'probábamos', 'probamos', 'probemos'], correct: 2 },
+      { question: 'Cuando era joven, mi abuelo nunca ___ (comer) insectos. (Pretérito Imperfecto)', options: ['comió', 'ha comido', 'comía', 'coma'], correct: 2 },
+      { question: '___ (Probar, tú) este producto nuevo, es muy nutritivo. (Imperativo Afirmativo)', options: ['Prueba', 'Pruebes', 'Probas', 'Probarás'], correct: 0 },
+      { question: 'No ___ (tener, tú) miedo de probar algo diferente. (Imperativo Negativo)', options: ['tienes', 'tengas', 'ten', 'tener'], correct: 1 },
+      { question: 'Es importante que nosotros ___ (reducir) el consumo de carne. (Presente de Subjuntivo)', options: ['reducimos', 'reducíamos', 'reduzcamos', 'redujéramos'], correct: 2 },
+      { question: 'Los científicos ___ (descubrir) que los insectos son ricos en omega-3. (Pretérito Perfecto)', options: ['descubrieron', 'han descubierto', 'descubrían', 'descubran'], correct: 1 },
+      { question: 'La semana pasada ellos ___ (automatizar) todo el proceso. (Pretérito Indefinido)', options: ['automatizaron', 'han automatizado', 'automatizaban', 'automaticen'], correct: 0 },
+      { question: 'Antes la gente ___ (ser) más conservadora con la comida. (Pretérito Imperfecto)', options: ['fue', 'ha sido', 'era', 'sea'], correct: 2 },
+      { question: '___ (Consumir, vosotros) más proteínas naturales. (Imperativo Afirmativo)', options: ['Consumid', 'Consumís', 'Consumáis', 'Consumiréis'], correct: 0 },
+      { question: 'No ___ (desperdiciar, vosotros) esta oportunidad de probar. (Imperativo Negativo)', options: ['desperdiciáis', 'desperdiciéis', 'desperdiciéis', 'desperdiciárais'], correct: 1 },
+      { question: 'Dudo que los insectos ___ (ser) la única solución. (Presente de Subjuntivo)', options: ['son', 'eran', 'sean', 'fueran'], correct: 2 },
+      { question: 'Este mes la producción ___ (aumentar) significativamente. (Pretérito Perfecto)', options: ['aumentó', 'ha aumentado', 'aumentaba', 'aumente'], correct: 1 },
+      { question: 'En 2020 la empresa ___ (empezar) a vender sus productos. (Pretérito Indefinido)', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0 },
+      { question: 'Mientras los insectos ___ (vivir), necesitan temperaturas constantes. (Pretérito Imperfecto)', options: ['vivieron', 'han vivido', 'vivían', 'vivan'], correct: 2 },
+      { question: '___ (Ser, usted) audaz y pruebe algo nuevo. (Imperativo Afirmativo)', options: ['Es', 'Sea', 'Eres', 'Seas'], correct: 1 },
+      { question: 'No ___ (creer, ustedes) todo lo que dicen los críticos. (Imperativo Negativo)', options: ['creen', 'crean', 'creían', 'creyeran'], correct: 1 },
+      { question: 'Es posible que la UE ___ (aprobar) nuevas regulaciones. (Presente de Subjuntivo)', options: ['aprueba', 'aprobaba', 'apruebe', 'aprobara'], correct: 2 },
+      { question: 'Los consumidores mayores ___ (mostrar) gran interés recientemente. (Pretérito Perfecto)', options: ['mostraron', 'han mostrado', 'mostraban', 'muestren'], correct: 1 },
+      { question: 'Me alegro de que tú ___ (estar) dispuesto a probar. (Presente de Subjuntivo)', options: ['estás', 'estabas', 'estés', 'estuvieras'], correct: 2 }
     ]
   },
-  'ex-9-4-5': {
-    id: 'ex-9-4-5',
-    type: 'writing',
-    title: 'Escribir sobre tradiciones',
-    description: 'Переведите на испанский',
+  'ex-9-4-gusanos-translation': {
+    id: 'ex-9-4-gusanos-translation',
+    type: 'translation',
+    title: 'Перевод: Gusanos de harina',
+    description: 'Переведите предложения с русского на испанский. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
     questions: [
-      { russian: 'Тапас очень вкусные', correct: 'las tapas son muy deliciosas' },
-      { russian: 'Хамон - мое любимое блюдо', correct: 'el jamón es mi plato favorito' },
-      { russian: 'Испанские праздники очень веселые', correct: 'las fiestas españolas son muy divertidas' },
-      { russian: 'Я люблю испанскую кухню', correct: 'me gusta la cocina española' },
-      { russian: 'Паэлья - традиционное блюдо Валенсии', correct: 'la paella es un plato tradicional de valencia' },
-      { russian: 'Ходить на тапас - это социальная традиция', correct: 'ir de tapas es una tradición social' }
+      { russian: 'Мы выращиваем насекомых для будущего.', correct: 'Cultivamos insectos para el futuro.', alternatives: ['Nosotros cultivamos insectos para el futuro.'] },
+      { russian: 'Эти крошечные черви богаты белком.', correct: 'Estos gusanos diminutos son ricos en proteína.', alternatives: ['Estos diminutos gusanos son ricos en proteína.'] },
+      { russian: 'Необходимо уменьшить расходы производства.', correct: 'Es necesario reducir los gastos de producción.', alternatives: ['Hay que reducir los gastos de producción.'] },
+      { russian: 'Компания автоматизирует процессы.', correct: 'La empresa automatiza los procesos.', alternatives: [] },
+      { russian: 'Что касается потребителей, они проявляют интерес.', correct: 'En lo que respecta a los consumidores, muestran interés.', alternatives: [] },
+      { russian: 'Молодое поколение более склонно пробовать новое.', correct: 'La generación joven es más propensa a probar lo nuevo.', alternatives: ['La joven generación es más propensa a probar lo nuevo.'] },
+      { russian: 'На самом деле, насекомые очень питательны.', correct: 'De hecho, los insectos son muy nutritivos.', alternatives: [] },
+      { russian: 'Этот пекарь продает смелые продукты.', correct: 'Este panadero vende productos atrevidos.', alternatives: [] },
+      { russian: 'Нужен отважный клиент, чтобы попробовать это.', correct: 'Se necesita un cliente audaz para probar esto.', alternatives: ['Hace falta un cliente audaz para probar esto.'] },
+      { russian: 'Гриллы и кузнечики также съедобны.', correct: 'Los grillos y saltamontes también son comestibles.', alternatives: ['Los grillos y los saltamontes también son comestibles.'] },
+      { russian: 'Они выравнивают путь для новых предприятий.', correct: 'Allanan el camino para nuevas empresas.', alternatives: ['Ellos allanan el camino para nuevas empresas.'] },
+      { russian: 'Ручной труд все еще необходим.', correct: 'El trabajo manual todavía es necesario.', alternatives: ['El trabajo manual aún es necesario.'] },
+      { russian: 'Температура должна быть постоянной.', correct: 'La temperatura debe ser constante.', alternatives: [] },
+      { russian: 'Эти насекомые впадают в глубокий сон.', correct: 'Estos insectos caen en sueño profundo.', alternatives: ['Estos insectos caen en un sueño profundo.'] },
+      { russian: 'Мы разводим миллионы червей.', correct: 'Criamos millones de gusanos.', alternatives: ['Nosotros criamos millones de gusanos.'] },
+      { russian: 'Жирные кислоты омега-3 важны для здоровья.', correct: 'Los ácidos grasos omega-3 son importantes para la salud.', alternatives: [] },
+      { russian: 'Цены все еще высокие для потребителей.', correct: 'Los precios todavía son altos para los consumidores.', alternatives: ['Los precios aún son altos para los consumidores.'] },
+      { russian: 'Этот хлеб содержит муку из насекомых.', correct: 'Este pan contiene harina de insectos.', alternatives: [] },
+      { russian: 'Пожилые клиенты тоже заинтересованы.', correct: 'Los clientes mayores también están interesados.', alternatives: [] },
+      { russian: 'Европейский союз поддерживает эти инициативы.', correct: 'La Unión Europea apoya estas iniciativas.', alternatives: [] }
     ]
   },
 
