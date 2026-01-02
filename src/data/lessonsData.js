@@ -11849,6 +11849,19 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'la carencia', translation: 'недостаток, нехватка' },
           { word: 'sanar', translation: 'исцелять' }
         ]
+      },
+      {
+        tab: 'Dejar de dudar',
+        words: [
+          { word: 'la capacidad', translation: 'способность, возможность' },
+          { word: 'comprobar', translation: 'Проверять, доказывать' },
+          { word: 'la evidencia', translation: 'доказательство, аргумент' },
+          { word: 'obtener', translation: 'получить, добиться' },
+          { word: 'el paso', translation: 'пешеходный переход, шаг' },
+          { word: 'benévolo', translation: 'доброжелательный, благосклонный' },
+          { word: 'demostrar', translation: 'доказывать, демонстрировать' },
+          { word: 'atrapar', translation: 'ловить, поймать' }
+        ]
       }
     ],
     readingText: [
@@ -11871,6 +11884,19 @@ Y en ese transformar a veces se desvanece. Es decir, tú abrazas al niño herido
 ¿Por qué ocurre la transformación?
 
 Porque se desvanecen sus heridas. En el fondo, esas heridas representan una carencia de amor. Entonces, si tú le das ese amor, la herida por sí sola sana.`,
+        translation: ``
+      },
+      {
+        tab: 'Dejar de dudar',
+        content: `Tu capacidad es mayor de lo que crees
+
+Tu capacidad es muchísimo mayor de lo que crees. La única manera de que lo puedas comprobar es que tengas evidencias, y esas evidencias solo las vas a obtener si te pones en marcha.
+
+Entonces pregúntate: ¿cuál es el paso más pequeñito que me atrevo a dar? Y dalo.
+
+Porque te darás cuenta de una cosa: el mundo real es mucho más benévolo que el mundo mental.
+
+El mundo real te demostrará quién eres de verdad, mientras que el mundo mental te mantendrá atrapado, te mantendrá atrapada, en quien te crees que eres.`,
         translation: ``
       }
     ],
