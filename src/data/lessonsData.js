@@ -11779,6 +11779,15 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { name: 'Грамматика', exercises: ['ex-9-5-microbiota-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-9-5-microbiota-translation'] }
         ]
+      },
+      {
+        tab: 'Potencial y tigre de Bengala',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-5-potencial-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-5-potencial-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-5-potencial-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-5-potencial-translation'] }
+        ]
       }
     ]
   },
@@ -11819,9 +11828,52 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'el abrazo', translation: 'объятие' },
           { word: 'la oxitocina', translation: 'окситоцин' }
         ]
+      },
+      {
+        tab: 'Abrazos y Oxitocina',
+        words: [
+          { word: 'los abrazos', translation: 'объятия' },
+          { word: 'la liberación', translation: 'освобождение, свобода' },
+          { word: 'el impacto', translation: 'влияние, воздействие, эффект' },
+          { word: 'los vínculos', translation: 'связи' },
+          { word: 'la generación', translation: 'поколение, потомство, зарождение, рождение' },
+          { word: 'ser capaz de', translation: 'быть способным на' },
+          { word: 'cortar', translation: 'резать' },
+          { word: 'el eje', translation: 'ось' },
+          { word: 'incuestionable', translation: 'неоспоримый, бесспорный' },
+          { word: 'ser adelantado', translation: 'быть впереди' },
+          { word: 'la profundidad', translation: 'глубина' },
+          { word: 'desvanecer', translation: 'свести на нет, рассеивать' },
+          { word: 'herido', translation: 'раненый, пострадавший' },
+          { word: 'en el fondo', translation: 'по сути' },
+          { word: 'la carencia', translation: 'недостаток, нехватка' },
+          { word: 'sanar', translation: 'исцелять' }
+        ]
       }
     ],
-    readingText: [],
+    readingText: [
+      {
+        tab: 'Abrazos y Oxitocina',
+        content: `Abrazos y la Oxitocina
+
+Los abrazos producen la liberación de oxitocina. La oxitocina es una hormona que tiene un impacto enorme no solo en la generación de vínculos emocionales, sino en la protección del corazón. Es de las pocas hormonas que es capaz de cortar el eje del estrés crónico, el eje del estrés, la liberación constante de cortisol.
+
+A nivel intuitivo esto es extraordinario, pero es que a nivel científico ya es que es incuestionable. Tenemos que ser capaces de abrazar aquello que a veces más nos cuesta abrazar.
+
+La Visión de Jung
+
+Jung, que fue un adelantado en su época, una persona con una visión de tal profundidad, dijo:
+
+"Lo que se resiste, persiste; lo que se abraza, se transforma."
+
+Y en ese transformar a veces se desvanece. Es decir, tú abrazas al niño herido y ese niño se transforma.
+
+¿Por qué ocurre la transformación?
+
+Porque se desvanecen sus heridas. En el fondo, esas heridas representan una carencia de amor. Entonces, si tú le das ese amor, la herida por sí sola sana.`,
+        translation: ``
+      }
+    ],
     exercises: []
   }
 }
@@ -23952,6 +24004,172 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Нам нужно заботиться о том, что мы едим.', correct: 'Hay que cuidar lo que comemos.' },
       { russian: 'Ферментированные продукты помогают микробиоте.', correct: 'Los alimentos fermentados ayudan a la microbiota.' },
       { russian: 'Существует прямая связь между питанием и эмоциями.', correct: 'Hay una conexión directa entre la alimentación y las emociones.' }
+    ]
+  },
+
+  'ex-9-5-potencial-vocab': {
+    id: 'ex-9-5-potencial-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Potencial y tigre de Bengala',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'fabuloso', options: ['обычный', 'сказочный', 'грустный', 'слабый'], correct: 1 },
+      { spanish: 'la potencia', options: ['слабость', 'мощность', 'скорость', 'высота'], correct: 1 },
+      { spanish: 'cazar', options: ['бежать', 'спать', 'охотиться', 'плавать'], correct: 2 },
+      { spanish: 'el ciervo', options: ['тигр', 'кошка', 'олень', 'собака'], correct: 2 },
+      { spanish: 'fallar', options: ['удаваться', 'провалиться', 'побеждать', 'учиться'], correct: 1 },
+      { spanish: 'el error', options: ['успех', 'победа', 'ошибка', 'правда'], correct: 2 },
+      { spanish: 'la mentalidad', options: ['тело', 'душа', 'менталитет', 'болезнь'], correct: 2 },
+      { spanish: 'desaparecer', options: ['появляться', 'исчезать', 'расти', 'падать'], correct: 1 },
+      { spanish: 'la excusa', options: ['правда', 'факт', 'оправдание', 'победа'], correct: 2 },
+      { spanish: 'el título académico', options: ['книга', 'урок', 'диплом', 'экзамен'], correct: 2 }
+    ]
+  },
+
+  'ex-9-5-potencial-comprehension': {
+    id: 'ex-9-5-potencial-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Potencial y tigre de Bengala',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Cuánto pesa un tigre de Bengala?',
+        options: ['100 kg', 'Más de 200 kg', '50 kg', '300 kg'],
+        correct: 1
+      },
+      {
+        question: '¿Cuántos metros puede saltar el tigre?',
+        options: ['5 metros', '7 metros', '9 metros', '12 metros'],
+        correct: 2
+      },
+      {
+        question: '¿Cuántos intentos necesita el tigre para cazar un ciervo?',
+        options: ['Cinco', 'Siete', 'Diez', 'Quince'],
+        correct: 2
+      },
+      {
+        question: '¿Cuántas veces falla el tigre?',
+        options: ['Cinco', 'Siete', 'Nueve', 'Tres'],
+        correct: 2
+      },
+      {
+        question: 'Según el texto, ¿qué pasaría si los tigres actuaran como los humanos?',
+        options: ['Serían más fuertes', 'Serían inexistentes', 'Cazarían mejor', 'Vivirían más'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hacen los humanos cuando fallan?',
+        options: ['Continúan sin problema', 'Encuentran excusas', 'Se alegran', 'No hacen nada'],
+        correct: 1
+      },
+      {
+        question: '¿Cuál es una excusa mencionada en el texto?',
+        options: ['"Soy muy joven"', '"Soy demasiado mayor"', '"Soy muy fuerte"', '"Soy perfecto"'],
+        correct: 1
+      },
+      {
+        question: 'Según el texto, ¿de qué es un tema el éxito?',
+        options: ['De suerte', 'De dinero', 'De mentalidad', 'De edad'],
+        correct: 2
+      },
+      {
+        question: '¿Quién inspiró este ejemplo del tigre?',
+        options: ['Mario Alonso Puig', 'Victor Küppers', 'Pablo Neruda', 'Ashoka'],
+        correct: 1
+      },
+      {
+        question: '¿Qué significa "cuando tienes la mentalidad bien amueblada"?',
+        options: ['Cuando tienes muebles', 'Cuando tu mente está organizada', 'Cuando eres rico', 'Cuando vives bien'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-5-potencial-grammar': {
+    id: 'ex-9-5-potencial-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Potencial y tigre de Bengala',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'El tigre ___ cazar diez veces para conseguir un ciervo.',
+        options: ['tiene que', 'tenía que', 'ha tenido que', 'tendrá que'],
+        correct: 0,
+        explanation: 'Presente porque это общий факт о тиграх'
+      },
+      {
+        sentence: 'Si los tigres ___ como los humanos, desaparecerían.',
+        options: ['actúan', 'actuaran', 'han actuado', 'actuarán'],
+        correct: 1,
+        explanation: 'Imperfecto de subjuntivo в условных предложениях типа II'
+      },
+      {
+        sentence: 'Nosotros siempre ___ excusas cuando fallamos.',
+        options: ['encontramos', 'encontrábamos', 'hemos encontrado', 'encontraremos'],
+        correct: 0,
+        explanation: 'Presente для повторяющихся действий'
+      },
+      {
+        sentence: 'El tigre ___ saltar hasta 9 metros.',
+        options: ['puede', 'podía', 'ha podido', 'podrá'],
+        correct: 0,
+        explanation: 'Presente для постоянной способности'
+      },
+      {
+        sentence: 'Cuando ___ la mentalidad bien amueblada, todo es más fácil.',
+        options: ['tienes', 'tenías', 'has tenido', 'tuviste'],
+        correct: 0,
+        explanation: 'Presente в придаточных времени с cuando'
+      },
+      {
+        sentence: 'Los humanos ___ de sus errores más que los animales.',
+        options: ['se quejan', 'se quejaban', 'se han quejado', 'se quejarán'],
+        correct: 0,
+        explanation: 'Presente для характерной особенности'
+      },
+      {
+        sentence: 'Si yo ___ un tigre, no me rendiría.',
+        options: ['soy', 'fuera', 'he sido', 'seré'],
+        correct: 1,
+        explanation: 'Imperfecto de subjuntivo в условных предложениях'
+      },
+      {
+        sentence: 'El tigre no ___ cuando falla.',
+        options: ['se rinde', 'se rendía', 'se ha rendido', 'se rindió'],
+        correct: 0,
+        explanation: 'Presente для постоянной характеристики'
+      },
+      {
+        sentence: 'Nosotros ___ más excusas que soluciones.',
+        options: ['buscamos', 'buscábamos', 'hemos buscado', 'buscaremos'],
+        correct: 0,
+        explanation: 'Presente для обычного поведения'
+      },
+      {
+        sentence: 'Victor Küppers ___ este ejemplo del tigre.',
+        options: ['usa', 'usaba', 'ha usado', 'usará'],
+        correct: 2,
+        explanation: 'Pretérito perfecto для действия, связанного с настоящим'
+      }
+    ]
+  },
+
+  'ex-9-5-potencial-translation': {
+    id: 'ex-9-5-potencial-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Potencial y tigre de Bengala',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Бенгальский тигр - это невероятное животное.', correct: 'El tigre de Bengala es un animal fabuloso.' },
+      { russian: 'Тигр может прыгнуть на 9 метров в длину.', correct: 'El tigre puede saltar hasta 9 metros de longitud.' },
+      { russian: 'Тигру нужно десять попыток, чтобы поймать оленя.', correct: 'El tigre necesita diez intentos para cazar un ciervo.' },
+      { russian: 'Он терпит неудачу девять раз.', correct: 'Falla nueve veces.' },
+      { russian: 'Люди всегда находят оправдания.', correct: 'Los humanos siempre encuentran excusas.' },
+      { russian: 'Это вопрос менталитета.', correct: 'Es un tema de mentalidad.' },
+      { russian: 'Мы делаем ошибки и учимся на них.', correct: 'Cometemos errores y aprendemos de ellos.' },
+      { russian: 'Тигры не сдаются перед лицом ошибок.', correct: 'Los tigres no se rinden ante los errores.' },
+      { russian: 'Нам не хватает академического диплома.', correct: 'Nos falta un título académico.' },
+      { russian: 'Когда у тебя хорошо организован ум, всё остальное приходит само.', correct: 'Cuando tienes la mentalidad bien amueblada, el resto se amuebla solo.' }
     ]
   }
 }
