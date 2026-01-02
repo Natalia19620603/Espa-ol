@@ -11880,6 +11880,28 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'inevitablemente', translation: 'неизбежно' },
           { word: 'la expresión', translation: 'выражение' }
         ]
+      },
+      {
+        tab: 'Por que te pones malo con el estrés',
+        words: [
+          { word: 'que ocurre', translation: 'Что происходит?' },
+          { word: 'ocurrir', translation: 'происходить' },
+          { word: 'relajarse', translation: 'расслабляться' },
+          { word: 'El nervio vago', translation: 'блуждающий нерв' },
+          { word: 'la recuperación', translation: 'восстановление, выздоровление' },
+          { word: 'estar en alerta', translation: 'быть начеку' },
+          { word: 'constantemente', translation: 'постоянно, непрерывно' },
+          { word: 'percibir', translation: 'воспринимать, ощущать, чувствовать' },
+          { word: 'el peligro', translation: 'опасность, угроза' },
+          { word: 'amenazar', translation: 'угрожать, грозить' },
+          { word: 'pegar', translation: 'бить' },
+          { word: 'ridiculizar', translation: 'высмеивать' },
+          { word: 'la tontería', translation: 'глупость, ерунда' },
+          { word: 'proteger', translation: 'защищать, предохранять' },
+          { word: 'apagarse', translation: 'гаснуть, выключать' },
+          { word: 'estar acatarrado', translation: 'быть простуженным' },
+          { word: 'el depredador', translation: 'хищник' }
+        ]
       }
     ],
     readingText: [
@@ -11933,6 +11955,19 @@ La primera vez que caí en la cuenta realmente de hasta qué punto nosotros crea
 Y cuando vemos a alguien que no tiene unas circunstancias externas favorables y que sin embargo se mueve con entusiasmo, se mueve con ilusión, nos desconcierta pero no indagamos, no indagamos qué raro es, qué rara es.
 
 Cuando tú cambias el mundo cambia, cuando las cosas cambian en tu interior empiezan a cambiar en tu exterior. Más importante que lo que sucede fuera es lo que está sucediendo dentro porque lo que pasa dentro de ti inevitablemente encuentra su expresión fuera de ti.`,
+        translation: ``
+      },
+      {
+        tab: 'Por que te pones malo con el estrés',
+        content: `¿Por qué te pones malo con el estrés?
+
+¿Qué ocurre? Que cuando nosotros nos podemos relajar, cuando nosotros nos podemos tranquilizar, el nervio vago activa todos los sistemas de recuperación. Mientras que si estamos constantemente en alerta, constantemente en situación percibida como peligro, el nervio vago no puede funcionar bien.
+
+Entonces esto, por ejemplo, hace que cuando una persona está en una reunión o está con otro grupo de personas y se siente amenazada, no porque la vayan a pegar, sino porque a lo mejor la pueden ridiculizar o tiene miedo de decir una cosa que digan: "Vaya tontería".
+
+Y entonces en ese momento el sistema parasimpático, que es el que debe protegernos y recuperarnos, se apaga y se activa el sistema nervioso simpático.
+
+Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunión está acatarrado, es más fácil que yo me acatarre, porque cuando el sistema nervioso simpático se activa, no le importa que tú te acatarres o no. Lo que le importa es que no te coma un depredador.`,
         translation: ``
       }
     ],
