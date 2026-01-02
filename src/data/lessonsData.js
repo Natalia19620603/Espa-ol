@@ -9501,6 +9501,59 @@ Son las nueve y el sol se pierde detrás de los campos amarillos. En septiembre,
         tab: 'Capitulo 1 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 6',
         content: `«No puedo hacer otra cosa. Debo ir a Toledo - se dice Cándido. Puede ser peligroso volver allí, una trampa quizás, pero debo ir. Leer esa inscripción y saber quién me ha enviado los periódicos... Eso es. Voy a ir. Y voy a tener más suerte esta vez. Salí de la cárcel hace tres meses y ya es hora de empezar a hacer algo. No quiero más días negros.»`
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 1',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 1',
+        content: `Don Cosme tiene una pequeña tienda en el centro de Toledo, muy cerca de la Plaza Mayor. Allí vende de todo: cigarrillos, gafas de sol, libros, relojes, paraguas y, desde luego, comida. Es un hombre bajo y gordo, muy divertido. Siempre parece estar contento.
+
+Doña Blanca, una mujer alta y muy delgada, de pelo blanco, conoce a ese buen hombre desde hace más de cincuenta años. Todos los días va allí a comprar pan y otras cosas para comer.
+
+A ella le gusta llegar a la tienda muy pronto por la mañana y hablar sin prisa con don Cosme. Los dos son abuelos y siempre se cuentan pequeñas historias, cosas de la familia. Son muy buenos amigos.
+
+Este viernes doña Blanca llega un poco más tarde. Muchas personas esperan para comprar. Don Cosme va y viene muy rápido por toda la tienda. Una mujer compra un poco de pescado y unas naranjas. Otra solo quiere el periódico de hoy y unos cigarrillos...
+
+Por fin, después de esperar un buen cuarto de hora, doña Blanca puede hablar con don Cosme.`
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 2',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 2',
+        content: `— Buenos días, don Cosme. ¿Qué tal está esta mañana? — Hola, doña Blanca. Bien, estoy muy bien. ¿Qué quiere hoy? — Solo quiero algo para la comida. ¿Sabe usted una cosa? Antonio, el hijo de Carlos, mi hijo pequeño, viene hoy a casa. — Ya decía yo que estaba usted muy contenta esta mañana. ¿Y cuánto tiempo va a estar aquí, todo el mes? — ¡No, todo el mes no puede! El lunes debe volver al trabajo. Está en una oficina, sabe?, pero no le gusta mucho. A él le gusta escribir. Y lo hace muy bien. — Sí, ese niño siempre ha sido muy listo. — Bueno, ya tiene veintidós años... — ¿Veintidós? ¿Qué viejos somos! Bueno, y dígame, ¿qué comida le va a hacer hoy a Antonio? — Le gusta mucho mi pollo a la naranja. Así que me va a dar usted un pollo grande, kilo y medio de naranjas y tres kilos de patatas. También queso y el pan. — Bueno, mujer, dígale a Antonio que quiero verlo. Hace mucho tiempo que no viene por aquí. Ese chico se parece mucho a usted, ¿verdad? Desde siempre... — La verdad es que sí. Bueno, don Cosme, me voy. Adiós, hasta mañana. — Adiós. Hasta pronto.`
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 3',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 3',
+        content: ``
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 4',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 4',
+        content: ``
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 5',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 5',
+        content: ``
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 6',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 6',
+        content: ``
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 7',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 7',
+        content: ``
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 8',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 8',
+        content: ``
+      },
+      {
+        tab: 'Capitulo 2 - Fragmento 9',
+        title: 'El misterio de la llave - Capítulo 2, Fragmento 9',
+        content: ``
       }
     ],
     exercises: [
