@@ -11496,6 +11496,20 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         videoUrl: '/video/Nosotros creamos nuestras emociones.mp4'
       }
     ],
+    audioTabs: [
+      {
+        tab: 'Por que te pones malo con el estres',
+        videoUrl: '/video/Por que te pones malo con el estres.mp4'
+      },
+      {
+        tab: 'Abrazos y Oxitocina',
+        videoUrl: '/video/Abrazos y Oxitocina.mp4'
+      },
+      {
+        tab: '¿Qué es la microbiota?',
+        videoUrl: '/video/¿Qué es la microbiota.mp4'
+      }
+    ],
     vocabulary: [
       {
         tab: 'Cambia el pensamiento',
@@ -11630,437 +11644,37 @@ La siguiente cosa que te diría es que se entrenen en una cosa que cada vez tien
       {
         tab: 'Cambia el pensamiento',
         subtabs: [
-          {
-            name: 'Словарь',
-            exercises: [
-              { spanish: 'el pensamiento', options: ['мысль', 'чувство', 'эмоция', 'разум'], correct: 0 },
-              { spanish: 'anclar', options: ['плыть', 'бросать якорь', 'тонуть', 'плавать'], correct: 1 },
-              { spanish: 'la culpa', options: ['вина', 'стыд', 'гордость', 'радость'], correct: 0 },
-              { spanish: 'la vergüenza', options: ['вина', 'стыд', 'гордость', 'страх'], correct: 1 },
-              { spanish: 'luchar', options: ['любить', 'бороться', 'помогать', 'думать'], correct: 1 },
-              { spanish: 'resistir', options: ['сопротивляться', 'помогать', 'любить', 'думать'], correct: 0 },
-              { spanish: 'gestionar', options: ['терять', 'управлять', 'искать', 'видеть'], correct: 1 }
-            ]
-          },
-          {
-            name: 'Понимание текста',
-            exercises: [
-              {
-                question: '¿Qué es la culpa según el texto?',
-                options: ['Una forma de autoagresión', 'Una forma de amor', 'Una forma de pensar', 'Una forma de vivir'],
-                correct: 0
-              },
-              {
-                question: '¿Qué es la vergüenza?',
-                options: ['Una forma de autoagresión', 'Una forma de auto anulación', 'Una forma de pensar', 'Una forma de sentir'],
-                correct: 1
-              },
-              {
-                question: '¿Qué debes hacer cuando ves un pensamiento negativo?',
-                options: ['Luchar contra él', 'Pararte y cambiarlo', 'Seguir pensando igual', 'Olvidarlo'],
-                correct: 1
-              },
-              {
-                question: '¿Qué dice el texto sobre lo que se resiste?',
-                options: ['Se olvida', 'Persiste', 'Desaparece', 'Se transforma'],
-                correct: 1
-              },
-              {
-                question: '¿De qué no somos conscientes?',
-                options: ['Del poder del cuerpo', 'Del poder del pensamiento', 'Del poder del amor', 'Del poder de la música'],
-                correct: 1
-              },
-              {
-                question: '¿Cómo puedes sentirte mejor?',
-                options: ['Machacándote', 'Pensando de otra manera', 'Durmiendo más', 'Comiendo bien'],
-                correct: 1
-              },
-              {
-                question: '¿Qué es difícil gestionar directamente?',
-                options: ['El pensamiento', 'El sentimiento', 'El cuerpo', 'La mente'],
-                correct: 1
-              }
-            ]
-          },
-          {
-            name: 'Грамматика',
-            exercises: [
-              {
-                question: 'La culpa ___ (ser) una forma de autoagresión.',
-                options: ['es', 'son', 'está', 'están'],
-                correct: 0
-              },
-              {
-                question: 'Cuando tú ___ (ver) un pensamiento negativo, te paras.',
-                options: ['ves', 'veas', 'has visto', 'viste'],
-                correct: 1
-              },
-              {
-                question: 'No ___ (luchar) contra el pensamiento.',
-                options: ['luchas', 'luches', 'has luchado', 'luchaste'],
-                correct: 1
-              },
-              {
-                question: 'Nosotros no ___ (ser) conscientes del poder del pensamiento.',
-                options: ['somos', 'estamos', 'hemos sido', 'fuimos'],
-                correct: 0
-              },
-              {
-                question: 'Yo ___ (querer) sentirme mejor.',
-                options: ['quiero', 'quiera', 'he querido', 'quise'],
-                correct: 0
-              },
-              {
-                question: 'Tú te ___ (sentir) de forma diferente si piensas de otra manera.',
-                options: ['sientes', 'sentirás', 'has sentido', 'sentiste'],
-                correct: 1
-              },
-              {
-                question: '___ (Pensar) de otra manera.',
-                options: ['Piensa', 'Pienses', 'Has pensado', 'Pensaste'],
-                correct: 0
-              }
-            ]
-          },
-          {
-            name: 'Перевод с русского',
-            exercises: [
-              { russian: 'Вина - это форма самоагрессии.', spanish: 'La culpa es una forma de autoagresión.' },
-              { russian: 'Когда ты видишь такую мысль, остановись.', spanish: 'Cuando veas un pensamiento de estos, te paras.' },
-              { russian: 'Не борись с мыслью.', spanish: 'No luches contra el pensamiento.' },
-              { russian: 'То, что сопротивляется, сохраняется.', spanish: 'Lo que se resiste persiste.' },
-              { russian: 'Мы не осознаем силу мысли.', spanish: 'No somos conscientes del poder del pensamiento.' },
-              { russian: 'Я хочу чувствовать себя лучше.', spanish: 'Me quiero sentir mejor.' },
-              { russian: 'Думай по-другому, и ты будешь чувствовать себя иначе.', spanish: 'Piensa de otra manera y te sentirás de forma diferente.' }
-            ]
-          }
+          { name: 'Словарь', exercises: ['ex-9-5-cambia-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-5-cambia-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-5-cambia-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-5-cambia-translation'] }
         ]
       },
       {
         tab: 'Vívela con intensidad',
         subtabs: [
-          {
-            name: 'Словарь',
-            exercises: [
-              { spanish: 'la partitura', options: ['партитура, ноты', 'музыка', 'звук', 'песня'], correct: 0 },
-              { spanish: 'la nota', options: ['звук', 'нота', 'музыка', 'песня'], correct: 1 },
-              { spanish: 'el ruido', options: ['музыка', 'тишина', 'шум', 'звук'], correct: 2 },
-              { spanish: 'el silencio', options: ['шум', 'музыка', 'тишина', 'звук'], correct: 2 },
-              { spanish: 'la intensidad', options: ['интенсивность', 'спокойствие', 'тишина', 'музыка'], correct: 0 },
-              { spanish: 'el desafío', options: ['проблема', 'вызов', 'решение', 'ответ'], correct: 1 },
-              { spanish: 'enfocarse', options: ['забывать', 'сосредотачиваться', 'терять', 'искать'], correct: 1 }
-            ]
-          },
-          {
-            name: 'Понимание текста',
-            exercises: [
-              {
-                question: '¿Qué pasaría si todas las notas estuvieran pegadas?',
-                options: ['Tendríamos música', 'Tendríamos ruido', 'Tendríamos silencio', 'No tendríamos nada'],
-                correct: 1
-              },
-              {
-                question: '¿Qué hace que tengamos música?',
-                options: ['Las notas', 'Los espacios de silencio', 'El ruido', 'La partitura'],
-                correct: 1
-              },
-              {
-                question: '¿Cómo debemos vivir la vida según el texto?',
-                options: ['Con calma', 'Con intensidad', 'Con miedo', 'Con tristeza'],
-                correct: 1
-              },
-              {
-                question: '¿En qué debemos enfocarnos?',
-                options: ['En todo', 'En nada', 'En lo relevante', 'En los problemas'],
-                correct: 2
-              },
-              {
-                question: '¿Quién escribió "Confieso que he vivido"?',
-                options: ['Cervantes', 'Neruda', 'García Lorca', 'Machado'],
-                correct: 1
-              },
-              {
-                question: '¿Qué podemos decir al final de nuestra vida?',
-                options: ['Que la hemos visto pasar', 'Que hemos vivido', 'Que hemos trabajado', 'Que hemos sufrido'],
-                correct: 1
-              },
-              {
-                question: '¿Con qué debemos vivir la vida?',
-                options: ['Con dificultades y desafíos', 'Sin problemas', 'Con miedo', 'Con tristeza'],
-                correct: 0
-              }
-            ]
-          },
-          {
-            name: 'Грамматика',
-            exercises: [
-              {
-                question: 'Si todas las notas ___ (estar) pegadas, tendríamos ruido.',
-                options: ['están', 'estuvieran', 'han estado', 'estuvieron'],
-                correct: 1
-              },
-              {
-                question: 'Los espacios ___ (permitir) que haya música.',
-                options: ['permiten', 'permitan', 'han permitido', 'permitieron'],
-                correct: 0
-              },
-              {
-                question: 'Esta vida ___ (ser) una vida para vivirla con intensidad.',
-                options: ['es', 'sea', 'ha sido', 'fue'],
-                correct: 0
-              },
-              {
-                question: 'Nosotros ___ (enfocarse) en lo relevante.',
-                options: ['nos enfocamos', 'nos enfoquemos', 'nos hemos enfocado', 'nos enfocamos'],
-                correct: 0
-              },
-              {
-                question: 'Neruda ___ (decir): "Confieso que he vivido".',
-                options: ['dice', 'diga', 'ha dicho', 'dijo'],
-                correct: 3
-              },
-              {
-                question: 'Nosotros ___ (poder) decir que hemos vivido.',
-                options: ['podemos', 'podamos', 'hemos podido', 'pudimos'],
-                correct: 0
-              },
-              {
-                question: 'Yo ___ (vivir) la vida con intensidad.',
-                options: ['vivo', 'viva', 'he vivido', 'viví'],
-                correct: 0
-              }
-            ]
-          },
-          {
-            name: 'Перевод с русского',
-            exercises: [
-              { russian: 'У нас был бы шум, а не музыка.', spanish: 'Tendríamos ruido, no música.' },
-              { russian: 'Пространства тишины создают музыку.', spanish: 'Los espacios de silencio hacen que tengamos música.' },
-              { russian: 'Эта жизнь - для того, чтобы жить её интенсивно.', spanish: 'Esta vida es una vida para vivirla con intensidad.' },
-              { russian: 'Мы сосредотачиваемся на том, что действительно важно.', spanish: 'Nos enfocamos en lo que realmente es relevante.' },
-              { russian: 'Неруда сказал: "Признаюсь, что я жил".', spanish: 'Neruda dijo: "Confieso que he vivido".' },
-              { russian: 'Мы можем сказать, что прожили жизнь.', spanish: 'Podemos decir que hemos vivido la vida.' },
-              { russian: 'Я не просто видел, как проходит жизнь.', spanish: 'No he visto pasar la vida.' }
-            ]
-          }
+          { name: 'Словарь', exercises: ['ex-9-5-vivela-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-5-vivela-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-5-vivela-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-5-vivela-translation'] }
         ]
       },
       {
         tab: 'El amor cura',
         subtabs: [
-          {
-            name: 'Словарь',
-            exercises: [
-              { spanish: 'el regalo', options: ['подарок', 'проблема', 'решение', 'вопрос'], correct: 0 },
-              { spanish: 'de forma gratuita', options: ['платно', 'бесплатно', 'дорого', 'дёшево'], correct: 1 },
-              { spanish: 'sanar', options: ['болеть', 'исцелять', 'страдать', 'плакать'], correct: 1 },
-              { spanish: 'la herida', options: ['рана', 'боль', 'страх', 'радость'], correct: 0 },
-              { spanish: 'la empatía', options: ['симпатия', 'эмпатия', 'любовь', 'дружба'], correct: 1 },
-              { spanish: 'cruel', options: ['добрый', 'жестокий', 'милый', 'смелый'], correct: 1 },
-              { spanish: 'transformarse', options: ['оставаться', 'преображаться', 'исчезать', 'появляться'], correct: 1 }
-            ]
-          },
-          {
-            name: 'Понимание текста',
-            exercises: [
-              {
-                question: '¿Cuál es el mayor regalo para un ser humano?',
-                options: ['Dinero', 'Encontrar amor incondicional', 'Éxito', 'Salud'],
-                correct: 1
-              },
-              {
-                question: '¿Cómo te quiere ese ser humano especial?',
-                options: ['Por lo que haces', 'Por cómo piensas', 'Sin condiciones', 'Por cómo eres'],
-                correct: 2
-              },
-              {
-                question: '¿Cómo llamaban los griegos a este amor?',
-                options: ['Eros', 'Agape', 'Philia', 'Storge'],
-                correct: 1
-              },
-              {
-                question: '¿Qué puede hacer este amor?',
-                options: ['Destruir', 'Sanar heridas', 'Causar dolor', 'Crear problemas'],
-                correct: 1
-              },
-              {
-                question: '¿Qué puede desarrollar la persona sanada?',
-                options: ['Miedo', 'Empatía', 'Odio', 'Tristeza'],
-                correct: 1
-              },
-              {
-                question: '¿Quién es Ashoka?',
-                options: ['Un poeta', 'Un emperador que se transformó', 'Un músico', 'Un filósofo'],
-                correct: 1
-              },
-              {
-                question: '¿Cómo era Ashoka al principio?',
-                options: ['Amable', 'Cruel', 'Tímido', 'Alegre'],
-                correct: 1
-              }
-            ]
-          },
-          {
-            name: 'Грамматика',
-            exercises: [
-              {
-                question: 'El mayor regalo ___ (ser) encontrar amor incondicional.',
-                options: ['es', 'son', 'está', 'están'],
-                correct: 0
-              },
-              {
-                question: 'Ese ser humano te ___ (querer) sin condiciones.',
-                options: ['quiere', 'quiera', 'ha querido', 'quiso'],
-                correct: 0
-              },
-              {
-                question: 'Los griegos le ___ (llamar) agape.',
-                options: ['llaman', 'llamaban', 'han llamado', 'llamaron'],
-                correct: 1
-              },
-              {
-                question: 'Este amor ___ (poder) sanar la herida.',
-                options: ['puede', 'pueda', 'ha podido', 'pudo'],
-                correct: 0
-              },
-              {
-                question: 'La persona ___ (desarrollar) empatía.',
-                options: ['desarrolla', 'desarrolle', 'ha desarrollado', 'desarrolló'],
-                correct: 0
-              },
-              {
-                question: 'Ashoka ___ (ser) una persona cruel.',
-                options: ['es', 'era', 'fue', 'ha sido'],
-                correct: 2
-              },
-              {
-                question: 'Él se ___ (transformar) por completo.',
-                options: ['transforma', 'transformó', 'ha transformado', 'transformaba'],
-                correct: 1
-              }
-            ]
-          },
-          {
-            name: 'Перевод с русского',
-            exercises: [
-              { russian: 'Величайший подарок - найти безусловную любовь.', spanish: 'El mayor regalo es encontrar amor incondicional.' },
-              { russian: 'Он любит тебя без условий.', spanish: 'Te quiere sin condiciones.' },
-              { russian: 'Греки называли эту любовь "агапе".', spanish: 'Los griegos le llamaban agape.' },
-              { russian: 'Эта любовь может исцелить рану.', spanish: 'Este amor puede sanar la herida.' },
-              { russian: 'Человек может развить эмпатию.', spanish: 'La persona puede desarrollar empatía.' },
-              { russian: 'Ашока был жестоким человеком.', spanish: 'Ashoka fue una persona cruel.' },
-              { russian: 'Он полностью преобразился.', spanish: 'Se transformó por completo.' }
-            ]
-          }
+          { name: 'Словарь', exercises: ['ex-9-5-amor-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-5-amor-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-5-amor-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-5-amor-translation'] }
         ]
       },
       {
         tab: 'Nerviosismo y timidez',
         subtabs: [
-          {
-            name: 'Словарь',
-            exercises: [
-              { spanish: 'el nerviosismo', options: ['спокойствие', 'нервозность', 'радость', 'грусть'], correct: 1 },
-              { spanish: 'la timidez', options: ['смелость', 'застенчивость', 'уверенность', 'гордость'], correct: 1 },
-              { spanish: 'el ruido mental', options: ['тишина', 'мысль', 'ментальный шум', 'идея'], correct: 2 },
-              { spanish: 'el ejercicio físico', options: ['отдых', 'физическое упражнение', 'работа', 'учёба'], correct: 1 },
-              { spanish: 'moverse', options: ['стоять', 'двигаться', 'сидеть', 'спать'], correct: 1 },
-              { spanish: 'la confianza', options: ['недоверие', 'доверие', 'страх', 'сомнение'], correct: 1 },
-              { spanish: 'entrenar', options: ['отдыхать', 'тренировать', 'спать', 'есть'], correct: 1 }
-            ]
-          },
-          {
-            name: 'Понимание текста',
-            exercises: [
-              {
-                question: '¿Por qué se pone nerviosa la persona?',
-                options: ['Por el calor', 'Por el diálogo interno', 'Por el frío', 'Por hambre'],
-                correct: 1
-              },
-              {
-                question: '¿Qué es el nerviosismo según el texto?',
-                options: ['Alegría', 'Ruido mental', 'Tranquilidad', 'Silencio'],
-                correct: 1
-              },
-              {
-                question: '¿Qué ayuda a reducir el ruido mental?',
-                options: ['Dormir', 'El ejercicio físico', 'Comer', 'Ver televisión'],
-                correct: 1
-              },
-              {
-                question: '¿Qué implica hacer ejercicio físico?',
-                options: ['Ir al gimnasio', 'Moverse más', 'Descansar', 'Dormir'],
-                correct: 1
-              },
-              {
-                question: '¿Con quién puedes hablar de tus sentimientos?',
-                options: ['Con cualquiera', 'Con alguien de confianza', 'Con nadie', 'Con extraños'],
-                correct: 1
-              },
-              {
-                question: '¿En qué puedes escribir si no tienes a nadie?',
-                options: ['En un libro grande', 'En un papel pequeño', 'En la computadora', 'En la pared'],
-                correct: 1
-              },
-              {
-                question: '¿Qué son los estados contemplativos?',
-                options: ['Ejercicio', 'Comida', 'Mindfulness', 'Trabajo'],
-                correct: 2
-              }
-            ]
-          },
-          {
-            name: 'Грамматика',
-            exercises: [
-              {
-                question: 'La persona se ___ (poner) nerviosa.',
-                options: ['pone', 'ponga', 'ha puesto', 'puso'],
-                correct: 0
-              },
-              {
-                question: 'El ejercicio físico ___ (ayudar) a reducir el nerviosismo.',
-                options: ['ayuda', 'ayude', 'ha ayudado', 'ayudó'],
-                correct: 0
-              },
-              {
-                question: 'Tú ___ (poder) hablar con alguien de confianza.',
-                options: ['puedes', 'puedas', 'has podido', 'pudiste'],
-                correct: 0
-              },
-              {
-                question: 'Nosotros ___ (escribir) lo que nos preocupa.',
-                options: ['escribimos', 'escribamos', 'hemos escrito', 'escribimos'],
-                correct: 0
-              },
-              {
-                question: 'El cerebro ___ (interpretar) que el problema no es grande.',
-                options: ['interpreta', 'interprete', 'ha interpretado', 'interpretó'],
-                correct: 0
-              },
-              {
-                question: 'Vosotros ___ (entrenar) en estados contemplativos.',
-                options: ['entrenáis', 'entrenéis', 'habéis entrenado', 'entrenasteis'],
-                correct: 0
-              },
-              {
-                question: 'Yo te ___ (decir) que hagas ejercicio.',
-                options: ['digo', 'diga', 'he dicho', 'dije'],
-                correct: 0
-              }
-            ]
-          },
-          {
-            name: 'Перевод с русского',
-            exercises: [
-              { russian: 'Человек нервничает из-за внутреннего диалога.', spanish: 'La persona se pone nerviosa por el diálogo interno.' },
-              { russian: 'Нервозность - это ментальный шум.', spanish: 'El nerviosismo es ruido mental.' },
-              { russian: 'Физические упражнения помогают снизить нервозность.', spanish: 'El ejercicio físico ayuda a reducir el nerviosismo.' },
-              { russian: 'Ты можешь поговорить с кем-то, кому доверяешь.', spanish: 'Puedes hablar con alguien de confianza.' },
-              { russian: 'Напиши то, что тебя беспокоит, на маленьком листке.', spanish: 'Escribe lo que te preocupa en un papel pequeño.' },
-              { russian: 'Мозг интерпретирует, что проблема не большая.', spanish: 'El cerebro interpreta que el problema no es grande.' },
-              { russian: 'Вы тренируетесь в созерцательных состояниях.', spanish: 'Os entrenáis en estados contemplativos.' }
-            ]
-          }
+          { name: 'Словарь', exercises: ['ex-9-5-nerviosismo-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-5-nerviosismo-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-5-nerviosismo-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-5-nerviosismo-translation'] }
         ]
       }
     ]
@@ -23544,6 +23158,492 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'la poli (coloquial)', options: ['больница', 'полиция (разг.)', 'почта', 'политика'], correct: 1 },
       { spanish: 'los Mossos', options: ['таксисты', 'пожарные', 'Мососы (полиция Каталонии)', 'врачи'], correct: 2 },
       { spanish: '¡Qué pena!', options: ['Как хорошо!', 'Какая жалость!', 'Как интересно!', 'Как странно!'], correct: 1 }
+    ]
+  },
+
+  // ============ МОДУЛЬ 9 УРОК 5: Video psicología ============
+
+  // Cambia el pensamiento - Упражнения
+  'ex-9-5-cambia-vocab': {
+    id: 'ex-9-5-cambia-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Cambia el pensamiento',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el pensamiento', options: ['мысль', 'чувство', 'эмоция', 'разум'], correct: 0 },
+      { spanish: 'anclar', options: ['плыть', 'бросать якорь', 'тонуть', 'плавать'], correct: 1 },
+      { spanish: 'la culpa', options: ['вина', 'стыд', 'гордость', 'радость'], correct: 0 },
+      { spanish: 'la vergüenza', options: ['вина', 'стыд', 'гордость', 'страх'], correct: 1 },
+      { spanish: 'luchar', options: ['любить', 'бороться', 'помогать', 'думать'], correct: 1 },
+      { spanish: 'resistir', options: ['сопротивляться', 'помогать', 'любить', 'думать'], correct: 0 },
+      { spanish: 'gestionar', options: ['терять', 'управлять', 'искать', 'видеть'], correct: 1 }
+    ]
+  },
+
+  'ex-9-5-cambia-comprehension': {
+    id: 'ex-9-5-cambia-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Cambia el pensamiento',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Qué es la culpa según el texto?',
+        options: ['Una forma de autoagresión', 'Una forma de amor', 'Una forma de pensar', 'Una forma de vivir'],
+        correct: 0
+      },
+      {
+        question: '¿Qué es la vergüenza?',
+        options: ['Una forma de autoagresión', 'Una forma de auto anulación', 'Una forma de pensar', 'Una forma de sentir'],
+        correct: 1
+      },
+      {
+        question: '¿Qué debes hacer cuando ves un pensamiento negativo?',
+        options: ['Luchar contra él', 'Pararte y cambiarlo', 'Seguir pensando igual', 'Olvidarlo'],
+        correct: 1
+      },
+      {
+        question: '¿Qué dice el texto sobre lo que se resiste?',
+        options: ['Se olvida', 'Persiste', 'Desaparece', 'Se transforma'],
+        correct: 1
+      },
+      {
+        question: '¿De qué no somos conscientes?',
+        options: ['Del poder del cuerpo', 'Del poder del pensamiento', 'Del poder del amor', 'Del poder de la música'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo puedes sentirte mejor?',
+        options: ['Machacándote', 'Pensando de otra manera', 'Durmiendo más', 'Comiendo bien'],
+        correct: 1
+      },
+      {
+        question: '¿Qué es difícil gestionar directamente?',
+        options: ['El pensamiento', 'El sentimiento', 'El cuerpo', 'La mente'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-5-cambia-grammar': {
+    id: 'ex-9-5-cambia-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Cambia el pensamiento',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        question: 'La culpa ___ (ser) una forma de autoagresión.',
+        options: ['es', 'son', 'está', 'están'],
+        correct: 0
+      },
+      {
+        question: 'Cuando tú ___ (ver) un pensamiento negativo, te paras.',
+        options: ['ves', 'veas', 'has visto', 'viste'],
+        correct: 1
+      },
+      {
+        question: 'No ___ (luchar) contra el pensamiento.',
+        options: ['luchas', 'luches', 'has luchado', 'luchaste'],
+        correct: 1
+      },
+      {
+        question: 'Nosotros no ___ (ser) conscientes del poder del pensamiento.',
+        options: ['somos', 'estamos', 'hemos sido', 'fuimos'],
+        correct: 0
+      },
+      {
+        question: 'Yo ___ (querer) sentirme mejor.',
+        options: ['quiero', 'quiera', 'he querido', 'quise'],
+        correct: 0
+      },
+      {
+        question: 'Tú te ___ (sentir) de forma diferente si piensas de otra manera.',
+        options: ['sientes', 'sentirás', 'has sentido', 'sentiste'],
+        correct: 1
+      },
+      {
+        question: '___ (Pensar) de otra manera.',
+        options: ['Piensa', 'Pienses', 'Has pensado', 'Pensaste'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-cambia-translation': {
+    id: 'ex-9-5-cambia-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Cambia el pensamiento',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Вина - это форма самоагрессии.', correct: 'La culpa es una forma de autoagresión.' },
+      { russian: 'Когда ты видишь такую мысль, остановись.', correct: 'Cuando veas un pensamiento de estos, te paras.' },
+      { russian: 'Не борись с мыслью.', correct: 'No luches contra el pensamiento.' },
+      { russian: 'То, что сопротивляется, сохраняется.', correct: 'Lo que se resiste persiste.' },
+      { russian: 'Мы не осознаем силу мысли.', correct: 'No somos conscientes del poder del pensamiento.' },
+      { russian: 'Я хочу чувствовать себя лучше.', correct: 'Me quiero sentir mejor.' },
+      { russian: 'Думай по-другому, и ты будешь чувствовать себя иначе.', correct: 'Piensa de otra manera y te sentirás de forma diferente.' }
+    ]
+  },
+
+  // Vívela con intensidad - Упражнения
+  'ex-9-5-vivela-vocab': {
+    id: 'ex-9-5-vivela-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Vívela con intensidad',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la partitura', options: ['партитура, ноты', 'музыка', 'звук', 'песня'], correct: 0 },
+      { spanish: 'la nota', options: ['звук', 'нота', 'музыка', 'песня'], correct: 1 },
+      { spanish: 'el ruido', options: ['музыка', 'тишина', 'шум', 'звук'], correct: 2 },
+      { spanish: 'el silencio', options: ['шум', 'музыка', 'тишина', 'звук'], correct: 2 },
+      { spanish: 'la intensidad', options: ['интенсивность', 'спокойствие', 'тишина', 'музыка'], correct: 0 },
+      { spanish: 'el desafío', options: ['проблема', 'вызов', 'решение', 'ответ'], correct: 1 },
+      { spanish: 'enfocarse', options: ['забывать', 'сосредотачиваться', 'терять', 'искать'], correct: 1 }
+    ]
+  },
+
+  'ex-9-5-vivela-comprehension': {
+    id: 'ex-9-5-vivela-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Vívela con intensidad',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Qué pasaría si todas las notas estuvieran pegadas?',
+        options: ['Tendríamos música', 'Tendríamos ruido', 'Tendríamos silencio', 'No tendríamos nada'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace que tengamos música?',
+        options: ['Las notas', 'Los espacios de silencio', 'El ruido', 'La partitura'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo debemos vivir la vida según el texto?',
+        options: ['Con calma', 'Con intensidad', 'Con miedo', 'Con tristeza'],
+        correct: 1
+      },
+      {
+        question: '¿En qué debemos enfocarnos?',
+        options: ['En todo', 'En nada', 'En lo relevante', 'En los problemas'],
+        correct: 2
+      },
+      {
+        question: '¿Quién escribió "Confieso que he vivido"?',
+        options: ['Cervantes', 'Neruda', 'García Lorca', 'Machado'],
+        correct: 1
+      },
+      {
+        question: '¿Qué podemos decir al final de nuestra vida?',
+        options: ['Que la hemos visto pasar', 'Que hemos vivido', 'Que hemos trabajado', 'Que hemos sufrido'],
+        correct: 1
+      },
+      {
+        question: '¿Con qué debemos vivir la vida?',
+        options: ['Con dificultades y desafíos', 'Sin problemas', 'Con miedo', 'Con tristeza'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-vivela-grammar': {
+    id: 'ex-9-5-vivela-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Vívela con intensidad',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        question: 'Si todas las notas ___ (estar) pegadas, tendríamos ruido.',
+        options: ['están', 'estuvieran', 'han estado', 'estuvieron'],
+        correct: 1
+      },
+      {
+        question: 'Los espacios ___ (permitir) que haya música.',
+        options: ['permiten', 'permitan', 'han permitido', 'permitieron'],
+        correct: 0
+      },
+      {
+        question: 'Esta vida ___ (ser) una vida para vivirla con intensidad.',
+        options: ['es', 'sea', 'ha sido', 'fue'],
+        correct: 0
+      },
+      {
+        question: 'Nosotros ___ (enfocarse) en lo relevante.',
+        options: ['nos enfocamos', 'nos enfoquemos', 'nos hemos enfocado', 'nos enfocamos'],
+        correct: 0
+      },
+      {
+        question: 'Neruda ___ (decir): "Confieso que he vivido".',
+        options: ['dice', 'diga', 'ha dicho', 'dijo'],
+        correct: 3
+      },
+      {
+        question: 'Nosotros ___ (poder) decir que hemos vivido.',
+        options: ['podemos', 'podamos', 'hemos podido', 'pudimos'],
+        correct: 0
+      },
+      {
+        question: 'Yo ___ (vivir) la vida con intensidad.',
+        options: ['vivo', 'viva', 'he vivido', 'viví'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-vivela-translation': {
+    id: 'ex-9-5-vivela-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Vívela con intensidad',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'У нас был бы шум, а не музыка.', correct: 'Tendríamos ruido, no música.' },
+      { russian: 'Пространства тишины создают музыку.', correct: 'Los espacios de silencio hacen que tengamos música.' },
+      { russian: 'Эта жизнь - для того, чтобы жить её интенсивно.', correct: 'Esta vida es una vida para vivirla con intensidad.' },
+      { russian: 'Мы сосредотачиваемся на том, что действительно важно.', correct: 'Nos enfocamos en lo que realmente es relevante.' },
+      { russian: 'Неруда сказал: "Признаюсь, что я жил".', correct: 'Neruda dijo: "Confieso que he vivido".' },
+      { russian: 'Мы можем сказать, что прожили жизнь.', correct: 'Podemos decir que hemos vivido la vida.' },
+      { russian: 'Я не просто видел, как проходит жизнь.', correct: 'No he visto pasar la vida.' }
+    ]
+  },
+
+  // El amor cura - Упражнения
+  'ex-9-5-amor-vocab': {
+    id: 'ex-9-5-amor-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: El amor cura',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el regalo', options: ['подарок', 'проблема', 'решение', 'вопрос'], correct: 0 },
+      { spanish: 'de forma gratuita', options: ['платно', 'бесплатно', 'дорого', 'дёшево'], correct: 1 },
+      { spanish: 'sanar', options: ['болеть', 'исцелять', 'страдать', 'плакать'], correct: 1 },
+      { spanish: 'la herida', options: ['рана', 'боль', 'страх', 'радость'], correct: 0 },
+      { spanish: 'la empatía', options: ['симпатия', 'эмпатия', 'любовь', 'дружба'], correct: 1 },
+      { spanish: 'cruel', options: ['добрый', 'жестокий', 'милый', 'смелый'], correct: 1 },
+      { spanish: 'transformarse', options: ['оставаться', 'преображаться', 'исчезать', 'появляться'], correct: 1 }
+    ]
+  },
+
+  'ex-9-5-amor-comprehension': {
+    id: 'ex-9-5-amor-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: El amor cura',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Cuál es el mayor regalo para un ser humano?',
+        options: ['Dinero', 'Encontrar amor incondicional', 'Éxito', 'Salud'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo te quiere ese ser humano especial?',
+        options: ['Por lo que haces', 'Por cómo piensas', 'Sin condiciones', 'Por cómo eres'],
+        correct: 2
+      },
+      {
+        question: '¿Cómo llamaban los griegos a este amor?',
+        options: ['Eros', 'Agape', 'Philia', 'Storge'],
+        correct: 1
+      },
+      {
+        question: '¿Qué puede hacer este amor?',
+        options: ['Destruir', 'Sanar heridas', 'Causar dolor', 'Crear problemas'],
+        correct: 1
+      },
+      {
+        question: '¿Qué puede desarrollar la persona sanada?',
+        options: ['Miedo', 'Empatía', 'Odio', 'Tristeza'],
+        correct: 1
+      },
+      {
+        question: '¿Quién es Ashoka?',
+        options: ['Un poeta', 'Un emperador que se transformó', 'Un músico', 'Un filósofo'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo era Ashoka al principio?',
+        options: ['Amable', 'Cruel', 'Tímido', 'Alegre'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-5-amor-grammar': {
+    id: 'ex-9-5-amor-grammar',
+    type: 'grammar',
+    title: 'Грамматика: El amor cura',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        question: 'El mayor regalo ___ (ser) encontrar amor incondicional.',
+        options: ['es', 'son', 'está', 'están'],
+        correct: 0
+      },
+      {
+        question: 'Ese ser humano te ___ (querer) sin condiciones.',
+        options: ['quiere', 'quiera', 'ha querido', 'quiso'],
+        correct: 0
+      },
+      {
+        question: 'Los griegos le ___ (llamar) agape.',
+        options: ['llaman', 'llamaban', 'han llamado', 'llamaron'],
+        correct: 1
+      },
+      {
+        question: 'Este amor ___ (poder) sanar la herida.',
+        options: ['puede', 'pueda', 'ha podido', 'pudo'],
+        correct: 0
+      },
+      {
+        question: 'La persona ___ (desarrollar) empatía.',
+        options: ['desarrolla', 'desarrolle', 'ha desarrollado', 'desarrolló'],
+        correct: 0
+      },
+      {
+        question: 'Ashoka ___ (ser) una persona cruel.',
+        options: ['es', 'era', 'fue', 'ha sido'],
+        correct: 2
+      },
+      {
+        question: 'Él se ___ (transformar) por completo.',
+        options: ['transforma', 'transformó', 'ha transformado', 'transformaba'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-5-amor-translation': {
+    id: 'ex-9-5-amor-translation',
+    type: 'translation',
+    title: 'Перевод с русского: El amor cura',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Величайший подарок - найти безусловную любовь.', correct: 'El mayor regalo es encontrar amor incondicional.' },
+      { russian: 'Он любит тебя без условий.', correct: 'Te quiere sin condiciones.' },
+      { russian: 'Греки называли эту любовь "агапе".', correct: 'Los griegos le llamaban agape.' },
+      { russian: 'Эта любовь может исцелить рану.', correct: 'Este amor puede sanar la herida.' },
+      { russian: 'Человек может развить эмпатию.', correct: 'La persona puede desarrollar empatía.' },
+      { russian: 'Ашока был жестоким человеком.', correct: 'Ashoka fue una persona cruel.' },
+      { russian: 'Он полностью преобразился.', correct: 'Se transformó por completo.' }
+    ]
+  },
+
+  // Nerviosismo y timidez - Упражнения
+  'ex-9-5-nerviosismo-vocab': {
+    id: 'ex-9-5-nerviosismo-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Nerviosismo y timidez',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el nerviosismo', options: ['спокойствие', 'нервозность', 'радость', 'грусть'], correct: 1 },
+      { spanish: 'la timidez', options: ['смелость', 'застенчивость', 'уверенность', 'гордость'], correct: 1 },
+      { spanish: 'el ruido mental', options: ['тишина', 'мысль', 'ментальный шум', 'идея'], correct: 2 },
+      { spanish: 'el ejercicio físico', options: ['отдых', 'физическое упражнение', 'работа', 'учёба'], correct: 1 },
+      { spanish: 'moverse', options: ['стоять', 'двигаться', 'сидеть', 'спать'], correct: 1 },
+      { spanish: 'la confianza', options: ['недоверие', 'доверие', 'страх', 'сомнение'], correct: 1 },
+      { spanish: 'entrenar', options: ['отдыхать', 'тренировать', 'спать', 'есть'], correct: 1 }
+    ]
+  },
+
+  'ex-9-5-nerviosismo-comprehension': {
+    id: 'ex-9-5-nerviosismo-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Nerviosismo y timidez',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Por qué se pone nerviosa la persona?',
+        options: ['Por el calor', 'Por el diálogo interno', 'Por el frío', 'Por hambre'],
+        correct: 1
+      },
+      {
+        question: '¿Qué es el nerviosismo según el texto?',
+        options: ['Alegría', 'Ruido mental', 'Tranquilidad', 'Silencio'],
+        correct: 1
+      },
+      {
+        question: '¿Qué ayuda a reducir el ruido mental?',
+        options: ['Dormir', 'El ejercicio físico', 'Comer', 'Ver televisión'],
+        correct: 1
+      },
+      {
+        question: '¿Qué implica hacer ejercicio físico?',
+        options: ['Ir al gimnasio', 'Moverse más', 'Descansar', 'Dormir'],
+        correct: 1
+      },
+      {
+        question: '¿Con quién puedes hablar de tus sentimientos?',
+        options: ['Con cualquiera', 'Con alguien de confianza', 'Con nadie', 'Con extraños'],
+        correct: 1
+      },
+      {
+        question: '¿En qué puedes escribir si no tienes a nadie?',
+        options: ['En un libro grande', 'En un papel pequeño', 'En la computadora', 'En la pared'],
+        correct: 1
+      },
+      {
+        question: '¿Qué son los estados contemplativos?',
+        options: ['Ejercicio', 'Comida', 'Mindfulness', 'Trabajo'],
+        correct: 2
+      }
+    ]
+  },
+
+  'ex-9-5-nerviosismo-grammar': {
+    id: 'ex-9-5-nerviosismo-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Nerviosismo y timidez',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        question: 'La persona se ___ (poner) nerviosa.',
+        options: ['pone', 'ponga', 'ha puesto', 'puso'],
+        correct: 0
+      },
+      {
+        question: 'El ejercicio físico ___ (ayudar) a reducir el nerviosismo.',
+        options: ['ayuda', 'ayude', 'ha ayudado', 'ayudó'],
+        correct: 0
+      },
+      {
+        question: 'Tú ___ (poder) hablar con alguien de confianza.',
+        options: ['puedes', 'puedas', 'has podido', 'pudiste'],
+        correct: 0
+      },
+      {
+        question: 'Nosotros ___ (escribir) lo que nos preocupa.',
+        options: ['escribimos', 'escribamos', 'hemos escrito', 'escribimos'],
+        correct: 0
+      },
+      {
+        question: 'El cerebro ___ (interpretar) que el problema no es grande.',
+        options: ['interpreta', 'interprete', 'ha interpretado', 'interpretó'],
+        correct: 0
+      },
+      {
+        question: 'Vosotros ___ (entrenar) en estados contemplativos.',
+        options: ['entrenáis', 'entrenéis', 'habéis entrenado', 'entrenasteis'],
+        correct: 0
+      },
+      {
+        question: 'Yo te ___ (decir) que hagas ejercicio.',
+        options: ['digo', 'diga', 'he dicho', 'dije'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-nerviosismo-translation': {
+    id: 'ex-9-5-nerviosismo-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Nerviosismo y timidez',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Человек нервничает из-за внутреннего диалога.', correct: 'La persona se pone nerviosa por el diálogo interno.' },
+      { russian: 'Нервозность - это ментальный шум.', correct: 'El nerviosismo es ruido mental.' },
+      { russian: 'Физические упражнения помогают снизить нервозность.', correct: 'El ejercicio físico ayuda a reducir el nerviosismo.' },
+      { russian: 'Ты можешь поговорить с кем-то, кому доверяешь.', correct: 'Puedes hablar con alguien de confianza.' },
+      { russian: 'Напиши то, что тебя беспокоит, на маленьком листке.', correct: 'Escribe lo que te preocupa en un papel pequeño.' },
+      { russian: 'Мозг интерпретирует, что проблема не большая.', correct: 'El cerebro interpreta que el problema no es grande.' },
+      { russian: 'Вы тренируетесь в созерцательных состояниях.', correct: 'Os entrenáis en estados contemplativos.' }
     ]
   }
 }
