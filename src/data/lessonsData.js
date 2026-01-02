@@ -16607,7 +16607,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
   'ex-9-4-gusanos-comprehension': {
     id: 'ex-9-4-gusanos-comprehension',
-    type: 'multiple-choice',
+    type: 'reading-comprehension',
     title: 'Понимание текста: Gusanos de harina',
     description: 'Ответьте на вопросы по тексту. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
@@ -16635,7 +16635,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
   'ex-9-4-gusanos-grammar': {
     id: 'ex-9-4-gusanos-grammar',
-    type: 'multiple-choice',
+    type: 'grammar',
     title: 'Грамматика: Gusanos de harina',
     description: 'Выберите правильную форму глагола. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
