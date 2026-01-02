@@ -9468,12 +9468,18 @@ La música del bar de abajo entra por la ventana. Vivir encima de un bar es muy 
       {
         tab: 'Capitulo 1 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 2',
-        content: ``
+        content: `Ahora está cansado, solo, casi sin dinero. Todo es demasiado difícil desde aquel día negro.
+
+La fea música del bar llega a todas las habitaciones de la casa. Por la ventana Cándido mira, sin ver, el pequeño jardín de su calle. Un hombre espera debajo de un árbol. Llega una mujer joven, morena y muy bonita. Hablan un poco y después se van cogidos de la mano. Es día de fiesta y la gente sale a pasear o va al cine.
+
+Cerca del parque, coches y motos pasan rápidos hacia el centro de la ciudad. Hacen mucho ruido, pero Cándido parece no oír nada. Solo fuma su cigarrillo y habla para sí. ¿Qué quiere decir ese paquete con los periódicos dentro? ¿Quién los envía? ¿Para qué?`
       },
       {
         tab: 'Capitulo 1 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 3',
-        content: ``
+        content: `Los periódicos esperan encima de la cama. Conocen la verdad, pero no pueden decirla. Solo se ríen de él.
+
+Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un restaurante... No, en este momento no quiere estar fuera de casa. Va a la cocina y bebe rápido un vaso de agua. Después vuelve a su habitación. Se sienta encima de la cama y empieza a leer los periódicos otra vez.`
       },
       {
         tab: 'Capitulo 1 - Fragmento 4',
