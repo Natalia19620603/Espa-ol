@@ -1690,17 +1690,38 @@ function DefinitionsQuestion({ question, onAnswer }) {
 function ContextQuestion({ question, onAnswer }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
+
+  // Сбрасываем состояние при смене вопроса
+  useEffect(() => {
+    setSelectedAnswer(null)
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
+  // Очищаем таймаут при размонтировании
+  useEffect(() => {
+    return () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+    }
+  }, [timeoutId])
 
   const handleAnswerClick = (index) => {
     setSelectedAnswer(index)
     setShowFeedback(true)
 
     // Автоматически переходим к следующему вопросу через 15 секунд
-    setTimeout(() => {
+    const id = setTimeout(() => {
       setShowFeedback(false)
       setSelectedAnswer(null)
       onAnswer(index)
     }, 15000)
+    setTimeoutId(id)
   }
 
   const getButtonClass = (index) => {
@@ -1983,17 +2004,38 @@ function DialoguePracticeQuestion({ question, onAnswer }) {
 function ReadingComprehensionQuestion({ question, onAnswer }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
+
+  // Сбрасываем состояние при смене вопроса
+  useEffect(() => {
+    setSelectedAnswer(null)
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
+  // Очищаем таймаут при размонтировании
+  useEffect(() => {
+    return () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+    }
+  }, [timeoutId])
 
   const handleAnswerClick = (index) => {
     setSelectedAnswer(index)
     setShowFeedback(true)
 
     // Автоматически переходим к следующему вопросу через 15 секунд
-    setTimeout(() => {
+    const id = setTimeout(() => {
       setShowFeedback(false)
       setSelectedAnswer(null)
       onAnswer(index)
     }, 15000)
+    setTimeoutId(id)
   }
 
   const getButtonClass = (index) => {
