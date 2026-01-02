@@ -11819,17 +11819,6 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
     ],
     vocabulary: [
       {
-        tab: 'Общий словарь',
-        words: [
-          { word: 'dudar', translation: 'сомневаться' },
-          { word: 'la emoción', translation: 'эмоция' },
-          { word: 'curar', translation: 'лечить, исцелять' },
-          { word: 'el estrés', translation: 'стресс' },
-          { word: 'el abrazo', translation: 'объятие' },
-          { word: 'la oxitocina', translation: 'окситоцин' }
-        ]
-      },
-      {
         tab: 'Abrazos y Oxitocina',
         words: [
           { word: 'los abrazos', translation: 'объятия' },
@@ -11871,6 +11860,25 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'el miedo', translation: 'страх, боязнь' },
           { word: 'el daño', translation: 'ущерб, вред' },
           { word: 'la implicación', translation: 'соучастие, вовлечение' }
+        ]
+      },
+      {
+        tab: 'Creamos nuestras emociones',
+        words: [
+          { word: 'caer en cuenta', translation: 'понять, заметить' },
+          { word: 'quedarse impactado', translation: 'остаться очень удивленным (произвести сильное впечатление)' },
+          { word: 'operar', translation: 'действовать, оперировать' },
+          { word: 'inconsciente', translation: 'бессознательный, потерявший сознание' },
+          { word: 'la desesperanza, la desesperación', translation: 'отчаяние' },
+          { word: 'la pasión', translation: 'страсть, увлечение' },
+          { word: 'atribuir', translation: 'присуждать, присваивать (кому-либо), приписывать (кому-либо), признавать (за кем-либо)' },
+          { word: 'ocurrir', translation: 'происходить, случаться' },
+          { word: 'las circunstancias', translation: 'обстоятельства, события, ситуация' },
+          { word: 'sin embargo', translation: 'однако, тем не менее' },
+          { word: 'desconcertar', translation: 'смущать, приводить в замешательство' },
+          { word: 'indagar', translation: 'исследовать, расследовать' },
+          { word: 'inevitablemente', translation: 'неизбежно' },
+          { word: 'la expresión', translation: 'выражение' }
         ]
       }
     ],
@@ -11914,6 +11922,17 @@ El mundo real te demostrará quién eres de verdad, mientras que el mundo mental
         content: `Las emociones curan
 
 Las emociones tienen un impacto directo tanto en la salud como la enfermedad, porque la palabra emoción es diferente a la palabra sentimiento. Las emociones son todo procesos corporales. Por ejemplo, cuando una persona está con alguien a quien quiere profundamente, su torrente sanguíneo y su cerebro están llenos de una hormona llamada oxitocina. La oxitocina protege la salud, protege el corazón, potencia el sistema inmune para que no tengamos infecciones o para que sea más difícil que las tengamos y corta radicalmente el eje del estrés. Sin embargo, cuando nosotros estamos experimentando miedo, lo que se libera es cortisol. El cortisol mantenido en cifras altas, que es lo que pasa con estos cuadros donde una persona vive asustada, hacen muchísimo daño en la salud. Entonces, por supuesto que las emociones tienen una implicación directa en la salud y la enfermedad.`,
+        translation: ``
+      },
+      {
+        tab: 'Creamos nuestras emociones',
+        content: `Nosotros creamos nuestros sentimientos
+
+La primera vez que caí en la cuenta realmente de hasta qué punto nosotros creamos nuestras emociones me quedé absolutamente impactado. No nos damos cuenta, opera a nivel inconsciente, pero nosotros creamos nuestra tristeza, nuestra alegría, nuestra desesperanza, nuestra pasión; todo lo creamos y lo atribuimos a lo que ocurre fuera.
+
+Y cuando vemos a alguien que no tiene unas circunstancias externas favorables y que sin embargo se mueve con entusiasmo, se mueve con ilusión, nos desconcierta pero no indagamos, no indagamos qué raro es, qué rara es.
+
+Cuando tú cambias el mundo cambia, cuando las cosas cambian en tu interior empiezan a cambiar en tu exterior. Más importante que lo que sucede fuera es lo que está sucediendo dentro porque lo que pasa dentro de ti inevitablemente encuentra su expresión fuera de ti.`,
         translation: ``
       }
     ],
