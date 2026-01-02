@@ -197,6 +197,11 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
   const handlePreviousQuestion = () => {
     if (currentQuestion > 0) {
+      // Clear any active feedback timeout
+      if (feedbackTimeoutId) {
+        clearTimeout(feedbackTimeoutId)
+        setFeedbackTimeoutId(null)
+      }
       setCurrentQuestion(currentQuestion - 1)
       // Remove the last answer from the answers array
       setAnswers(answers.slice(0, -1))
@@ -209,6 +214,11 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const handleNextQuestion = () => {
     const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
     if (currentQuestion + 1 < totalQuestions) {
+      // Clear any active feedback timeout
+      if (feedbackTimeoutId) {
+        clearTimeout(feedbackTimeoutId)
+        setFeedbackTimeoutId(null)
+      }
       setCurrentQuestion(currentQuestion + 1)
       // Add null answer for skipped question
       setAnswers([...answers, null])
@@ -1698,14 +1708,19 @@ function ContextQuestion({ question, onAnswer }) {
       return styles.optionBtn
     }
 
-    // Показываем правильный ответ зеленым
-    if (index === question.correct) {
+    // Если пользователь выбрал правильный ответ - показываем его зеленым
+    if (index === selectedAnswer && index === question.correct) {
       return `${styles.optionBtn} ${styles.correctAnswer}`
     }
 
-    // Показываем выбранный неправильный ответ красным
+    // Если пользователь выбрал неправильный ответ - показываем его красным
     if (index === selectedAnswer && index !== question.correct) {
       return `${styles.optionBtn} ${styles.wrongAnswer}`
+    }
+
+    // Показываем правильный ответ зеленым только если пользователь ошибся
+    if (index === question.correct && selectedAnswer !== question.correct) {
+      return `${styles.optionBtn} ${styles.correctAnswer}`
     }
 
     return styles.optionBtn
@@ -1986,14 +2001,19 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
       return styles.optionBtn
     }
 
-    // Показываем правильный ответ зеленым
-    if (index === question.correct) {
+    // Если пользователь выбрал правильный ответ - показываем его зеленым
+    if (index === selectedAnswer && index === question.correct) {
       return `${styles.optionBtn} ${styles.correctAnswer}`
     }
 
-    // Показываем выбранный неправильный ответ красным
+    // Если пользователь выбрал неправильный ответ - показываем его красным
     if (index === selectedAnswer && index !== question.correct) {
       return `${styles.optionBtn} ${styles.wrongAnswer}`
+    }
+
+    // Показываем правильный ответ зеленым только если пользователь ошибся
+    if (index === question.correct && selectedAnswer !== question.correct) {
+      return `${styles.optionBtn} ${styles.correctAnswer}`
     }
 
     return styles.optionBtn
