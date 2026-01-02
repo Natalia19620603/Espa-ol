@@ -11577,6 +11577,39 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
           { word: 'contemplativo', translation: 'созерцательный' },
           { word: 'la difusión', translation: 'распространение' }
         ]
+      },
+      {
+        tab: '¿Qué es la microbiota?',
+        words: [
+          { word: 'recibir', translation: 'получать, принимать' },
+          { word: 'enviar', translation: 'послать, отправить' },
+          { word: 'determinado', translation: 'определенный' },
+          { word: 'percibir', translation: 'воспринимать, ощущать, чувствовать' },
+          { word: 'la célula', translation: 'клетка' },
+          { word: 'comunicarse', translation: 'сообщаться' },
+          { word: 'el intestino', translation: 'кишечник' },
+          { word: 'el descubrimiento', translation: 'открытие, находка' },
+          { word: 'estar en conexión', translation: 'быть связанным' },
+          { word: 'el tubo', translation: 'труба, трубка' },
+          { word: 'el sistema inmune', translation: 'иммунная система' },
+          { word: 'la superficie', translation: 'поверхность, площадь' },
+          { word: 'expuesto', translation: 'выставленный' },
+          { word: 'medir', translation: 'мерить, измерять' },
+          { word: 'intestino delgado', translation: 'тонкий кишечник' },
+          { word: 'intestino grueso', translation: 'толстый кишечник' },
+          { word: 'afectar', translation: 'отрицательно воздействовать' },
+          { word: 'el lupus', translation: 'волчанка' },
+          { word: 'por consiguiente', translation: 'следовательно, таким образом' },
+          { word: 'la ansiedad', translation: 'тревога, беспокойство' },
+          { word: 'disminuir', translation: 'уменьшаться, уменьшать' },
+          { word: 'de bajo grado', translation: 'низкого уровня' },
+          { word: 'la fibra', translation: 'клетчатка' },
+          { word: 'las fuerzas del bien', translation: 'силы добра' },
+          { word: 'el nodo', translation: 'узел' },
+          { word: 'absorber', translation: 'поглощать, впитывать' },
+          { word: 'los ritmos circadianos', translation: 'циркадные ритмы' },
+          { word: 'la difusión', translation: 'распространение' }
+        ]
       }
     ],
     readingText: [
@@ -11638,6 +11671,39 @@ En segundo lugar poderlo hablar con alguien de confianza, poder hablar el sentir
 Estados contemplativos:
 La siguiente cosa que te diría es que se entrenen en una cosa que cada vez tiene más difusión que es todo lo que es los estados contemplativos de la conciencia que no es más o mindfulness.`,
         translation: ``
+      },
+      {
+        tab: '¿Qué es la microbiota?',
+        content: `¿Qué es la microbiota?
+
+Marina: Hola. Hoy vamos a hablar sobre el tema que está dando mucho de qué hablar últimamente: La microbiota, y para ello hemos invitado al Doctor Mario Alonso Puig ¿Qué tal Mario?
+
+Dr. Mario Alonso Puig: Hola Marina, muy bien estoy encantado de estar aquí.
+
+Marina: Mario, tú que has estudiado bastante este tema, ¿qué es la microbiota?
+
+Dr. Mario Alonso Puig: Bueno, la microbiota es, de alguna manera, un conjunto de microbios que tenemos en diferentes partes de nuestro cuerpo. Y no solamente tenemos microbios en la piel, en la boca, sino que tenemos muchísimos microbios en el intestino. De hecho, se calcula que tenemos unos cien billones de microbios intestinales. Es decir, hay más microbios que células en tu organismo. Y es muy interesante que lo que pasa en el intestino no se queda en el intestino porque estos microbios están enviando señales al cerebro continuamente.
+
+Marina: ¿Y qué tipo de información le puede enviar la microbiota al cerebro?
+
+Dr. Mario Alonso Puig: Bueno, hay mucha información que puede enviar, pero déjame que te ponga algunos ejemplos: Por ejemplo, la serotonina, esta sustancia que es un neurotransmisor que tiene tanto que ver con nuestro estado de ánimo, con que nos sintamos bien, con que no nos sintamos bien, el 90 % de la serotonina que hay en tu cuerpo está en el intestino. No está en el cerebro. Y tu microbiota tiene la capacidad de influir en cómo se produce, o no, esta serotonina.
+
+Marina: ¿Y qué podemos hacer nosotros para cuidar nuestra microbiota?
+
+Dr. Mario Alonso Puig: Hay varios frentes. Primero es que las situaciones de estrés, las situaciones de tensión, alteran la microbiota. Entonces, la persona no solamente se siente mal emocionalmente, sino que la persona se siente mal físicamente. ¿Por qué? Porque al alterarse la microbiota, aparece lo que se llama una inflamación de bajo grado en el organismo, y esta inflamación de bajo grado tiene que ver con depresión, tiene que ver con ansiedad.
+
+Marina: ¡Qué interesante! ¿Y hay algo más que podamos hacer?
+
+Dr. Mario Alonso Puig: Por supuesto. Hay que cuidar mucho lo que comemos. Los alimentos ricos en fibra, las verduras, las frutas, los alimentos fermentados como el yogur, el kéfir, ayudan a que nuestra microbiota esté equilibrada. Por el contrario, el azúcar, los alimentos muy procesados, dañan nuestra microbiota.
+
+Marina: Entonces, ¿podríamos decir que cuidar nuestra alimentación no solo afecta a nuestro cuerpo sino también a nuestras emociones?
+
+Dr. Mario Alonso Puig: Exactamente. Hay una conexión directa entre lo que comemos y cómo nos sentimos. De hecho, cada vez hay más evidencia científica de que una microbiota sana puede ayudar a prevenir la depresión y la ansiedad.
+
+Marina: Fascinante. Muchas gracias Mario por compartir esta información tan valiosa.
+
+Dr. Mario Alonso Puig: Un placer Marina. Gracias a ti.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -11675,6 +11741,15 @@ La siguiente cosa que te diría es que se entrenen en una cosa que cada vez tien
           { name: 'Понимание текста', exercises: ['ex-9-5-nerviosismo-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-5-nerviosismo-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-9-5-nerviosismo-translation'] }
+        ]
+      },
+      {
+        tab: '¿Qué es la microbiota?',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-5-microbiota-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-5-microbiota-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-5-microbiota-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-5-microbiota-translation'] }
         ]
       }
     ]
@@ -23644,6 +23719,169 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Напиши то, что тебя беспокоит, на маленьком листке.', correct: 'Escribe lo que te preocupa en un papel pequeño.' },
       { russian: 'Мозг интерпретирует, что проблема не большая.', correct: 'El cerebro interpreta que el problema no es grande.' },
       { russian: 'Вы тренируетесь в созерцательных состояниях.', correct: 'Os entrenáis en estados contemplativos.' }
+    ]
+  },
+
+  // Módulo 9 Lección 5 - ¿Qué es la microbiota?
+  'ex-9-5-microbiota-vocab': {
+    id: 'ex-9-5-microbiota-vocab',
+    type: 'vocabulary',
+    title: 'Vocabulario: ¿Qué es la microbiota?',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'conjunto', options: ['набор, совокупность', 'разделение', 'уменьшение', 'увеличение'], correct: 0 },
+      { spanish: 'el microbio', options: ['микроб', 'микроскоп', 'микрофон', 'микроволновка'], correct: 0 },
+      { spanish: 'enviar', options: ['послать, отправить', 'получать', 'искать', 'находить'], correct: 0 },
+      { spanish: 'el estado de ánimo', options: ['настроение', 'состояние здоровья', 'образ жизни', 'положение'], correct: 0 },
+      { spanish: 'la tensión', options: ['напряжение', 'расслабление', 'спокойствие', 'радость'], correct: 0 },
+      { spanish: 'la inflamación', options: ['воспаление', 'заражение', 'лечение', 'профилактика'], correct: 0 },
+      { spanish: 'la evidencia', options: ['очевидность, доказательство', 'сомнение', 'предположение', 'гипотеза'], correct: 0 }
+    ]
+  },
+
+  'ex-9-5-microbiota-comprehension': {
+    id: 'ex-9-5-microbiota-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: ¿Qué es la microbiota?',
+    description: 'Выберите правильный ответ на основе текста',
+    questions: [
+      {
+        question: '¿Qué es la microbiota según el Dr. Mario Alonso Puig?',
+        options: [
+          'Un conjunto de microbios en diferentes partes del cuerpo',
+          'Una enfermedad del intestino',
+          'Un tipo de medicina',
+          'Un órgano del cuerpo humano'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cuántos microbios intestinales tenemos aproximadamente?',
+        options: [
+          'Cien billones',
+          'Mil millones',
+          'Diez millones',
+          'Cien mil'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Dónde está el 90% de la serotonina del cuerpo?',
+        options: [
+          'En el intestino',
+          'En el cerebro',
+          'En el corazón',
+          'En los pulmones'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué alteran las situaciones de estrés?',
+        options: [
+          'La microbiota',
+          'Solo las emociones',
+          'La temperatura corporal',
+          'La memoria'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué alimentos ayudan a la microbiota?',
+        options: [
+          'Verduras, frutas y alimentos fermentados',
+          'Azúcar y alimentos procesados',
+          'Solo carne',
+          'Solo lácteos'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué puede ayudar a prevenir una microbiota sana?',
+        options: [
+          'La depresión y la ansiedad',
+          'Solo los problemas físicos',
+          'Las enfermedades respiratorias',
+          'Los problemas de sueño'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué relación menciona el doctor?',
+        options: [
+          'Entre lo que comemos y cómo nos sentimos',
+          'Entre el ejercicio y el peso',
+          'Entre el sueño y la memoria',
+          'Entre el trabajo y el estrés'
+        ],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-microbiota-grammar': {
+    id: 'ex-9-5-microbiota-grammar',
+    type: 'grammar',
+    title: 'Грамматика: ¿Qué es la microbiota?',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'La microbiota ___ información al cerebro.',
+        options: ['envía', 'envió', 'ha enviado', 'enviará'],
+        correct: 0,
+        explanation: 'Используется presente porque это постоянный факт'
+      },
+      {
+        sentence: 'El doctor ___ mucho sobre este tema.',
+        options: ['ha estudiado', 'estudió', 'estudia', 'estudiará'],
+        correct: 0,
+        explanation: 'Pretérito perfecto для действия, связанного с настоящим'
+      },
+      {
+        sentence: 'Nosotros ___ microbios en diferentes partes del cuerpo.',
+        options: ['tenemos', 'tuvimos', 'hemos tenido', 'tendremos'],
+        correct: 0,
+        explanation: 'Presente для постоянного состояния'
+      },
+      {
+        sentence: 'Las situaciones de estrés ___ la microbiota.',
+        options: ['alteran', 'alteraron', 'han alterado', 'alterarán'],
+        correct: 0,
+        explanation: 'Presente para hechos generales'
+      },
+      {
+        sentence: 'Hoy Marina y el doctor ___ sobre la microbiota.',
+        options: ['han hablado', 'hablan', 'hablaron', 'hablarán'],
+        correct: 0,
+        explanation: 'Pretérito perfecto para acción reciente'
+      },
+      {
+        sentence: 'Los alimentos fermentados ___ a equilibrar la microbiota.',
+        options: ['ayudan', 'ayudaron', 'han ayudado', 'ayudarán'],
+        correct: 0,
+        explanation: 'Presente para afirmaciones generales'
+      },
+      {
+        sentence: 'La evidencia científica ___ cada vez más clara.',
+        options: ['es', 'fue', 'ha sido', 'será'],
+        correct: 0,
+        explanation: 'Presente para describir estado actual'
+      }
+    ]
+  },
+
+  'ex-9-5-microbiota-translation': {
+    id: 'ex-9-5-microbiota-translation',
+    type: 'translation',
+    title: 'Перевод с русского: ¿Qué es la microbiota?',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Микробиота - это совокупность микробов в нашем теле.', correct: 'La microbiota es un conjunto de microbios en nuestro cuerpo.' },
+      { russian: 'У нас есть микробы в кишечнике.', correct: 'Tenemos microbios en el intestino.' },
+      { russian: 'Микробы посылают сигналы в мозг.', correct: 'Los microbios envían señales al cerebro.' },
+      { russian: 'Стресс изменяет микробиоту.', correct: 'El estrés altera la microbiota.' },
+      { russian: 'Нам нужно заботиться о том, что мы едим.', correct: 'Hay que cuidar lo que comemos.' },
+      { russian: 'Ферментированные продукты помогают микробиоте.', correct: 'Los alimentos fermentados ayudan a la microbiota.' },
+      { russian: 'Существует прямая связь между питанием и эмоциями.', correct: 'Hay una conexión directa entre la alimentación y las emociones.' }
     ]
   }
 }
