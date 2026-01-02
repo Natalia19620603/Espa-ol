@@ -11971,7 +11971,53 @@ Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunió
         translation: ``
       }
     ],
-    exercises: []
+    exercises: [
+      {
+        tab: 'Dejar de dudar',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-dudar-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-dudar-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-dudar-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-dudar-translation'] }
+        ]
+      },
+      {
+        tab: 'Las emociones curan',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-emociones-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-emociones-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-emociones-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-emociones-translation'] }
+        ]
+      },
+      {
+        tab: 'Creamos nuestras emociones',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-creamos-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-creamos-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-creamos-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-creamos-translation'] }
+        ]
+      },
+      {
+        tab: 'Por que te pones malo con el estrés',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-estres-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-estres-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-estres-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-estres-translation'] }
+        ]
+      },
+      {
+        tab: 'Abrazos y Oxitocina',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-abrazos-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-abrazos-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-abrazos-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-abrazos-translation'] }
+        ]
+      }
+    ]
   }
 }
 
@@ -24267,6 +24313,841 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Тигры не сдаются перед лицом ошибок.', correct: 'Los tigres no se rinden ante los errores.' },
       { russian: 'Нам не хватает академического диплома.', correct: 'Nos falta un título académico.' },
       { russian: 'Когда у тебя хорошо организован ум, всё остальное приходит само.', correct: 'Cuando tienes la mentalidad bien amueblada, el resto se amuebla solo.' }
+    ]
+  },
+
+  // Урок 9.6 - Dejar de dudar
+  'ex-9-6-dudar-vocab': {
+    id: 'ex-9-6-dudar-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Dejar de dudar',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'la capacidad', options: ['неспособность', 'способность', 'скорость', 'высота'], correct: 1 },
+      { spanish: 'comprobar', options: ['проверять', 'ломать', 'строить', 'думать'], correct: 0 },
+      { spanish: 'la evidencia', options: ['сомнение', 'вопрос', 'доказательство', 'отказ'], correct: 2 },
+      { spanish: 'obtener', options: ['терять', 'получить', 'дарить', 'брать'], correct: 1 },
+      { spanish: 'el paso', options: ['остановка', 'шаг', 'бег', 'полет'], correct: 1 },
+      { spanish: 'benévolo', options: ['злой', 'грустный', 'доброжелательный', 'строгий'], correct: 2 },
+      { spanish: 'demostrar', options: ['скрывать', 'забывать', 'доказывать', 'отрицать'], correct: 2 },
+      { spanish: 'atrapar', options: ['отпускать', 'поймать', 'бежать', 'падать'], correct: 1 },
+      { spanish: 'atreverse', options: ['бояться', 'осмеливаться', 'отказываться', 'сомневаться'], correct: 1 },
+      { spanish: 'en marcha', options: ['остановившись', 'в движении', 'сидя', 'лежа'], correct: 1 }
+    ]
+  },
+
+  'ex-9-6-dudar-comprehension': {
+    id: 'ex-9-6-dudar-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Dejar de dudar',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: 'Según el texto, ¿cómo es tu capacidad?',
+        options: ['Menor de lo que crees', 'Mayor de lo que crees', 'Igual a lo que crees', 'No existe'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo puedes comprobar tu capacidad?',
+        options: ['Pensando mucho', 'Teniendo evidencias', 'Preguntando a otros', 'Esperando'],
+        correct: 1
+      },
+      {
+        question: '¿Cuándo obtendrás evidencias?',
+        options: ['Cuando pienses', 'Si te pones en marcha', 'Cuando duermas', 'Si esperas'],
+        correct: 1
+      },
+      {
+        question: '¿Qué debes preguntarte?',
+        options: ['¿Cuál es el paso más grande?', '¿Cuál es el paso más pequeñito?', '¿Cuándo empiezo?', '¿Por qué no puedo?'],
+        correct: 1
+      },
+      {
+        question: 'Según el texto, ¿cómo es el mundo real?',
+        options: ['Más cruel que el mental', 'Más benévolo que el mental', 'Igual que el mental', 'Peor que el mental'],
+        correct: 1
+      },
+      {
+        question: '¿Qué te demostrará el mundo real?',
+        options: ['Tus errores', 'Tus miedos', 'Quién eres de verdad', 'Tus dudas'],
+        correct: 2
+      },
+      {
+        question: '¿Dónde te mantendrá atrapado el mundo mental?',
+        options: ['En quien eres', 'En quien te crees que eres', 'En tus éxitos', 'En tus amigos'],
+        correct: 1
+      },
+      {
+        question: '¿Qué es lo más pequeñito que debes hacer?',
+        options: ['Pensar', 'Dar un paso', 'Esperar', 'Dudar'],
+        correct: 1
+      },
+      {
+        question: '¿Qué actitud propone el texto?',
+        options: ['Tener miedo', 'Atreverse a dar pasos', 'Quedarse quieto', 'Pensar mucho'],
+        correct: 1
+      },
+      {
+        question: 'La diferencia entre el mundo real y mental es que el real:',
+        options: ['Te engaña', 'Te muestra la verdad', 'Te confunde', 'Te asusta'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-dudar-grammar': {
+    id: 'ex-9-6-dudar-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Dejar de dudar',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'Tu capacidad ___ mucho mayor de lo que crees.',
+        options: ['es', 'era', 'ha sido', 'será'],
+        correct: 0,
+        explanation: 'Presente porque это постоянный факт'
+      },
+      {
+        sentence: 'La única manera es que tú ___ evidencias.',
+        options: ['tienes', 'tengas', 'has tenido', 'tuviste'],
+        correct: 1,
+        explanation: 'Presente de subjuntivo после "es que"'
+      },
+      {
+        sentence: '¡___ el paso más pequeñito!',
+        options: ['Da', 'Das', 'Dando', 'Dar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'El mundo real te ___ quién eres.',
+        options: ['demuestra', 'demostraba', 'ha demostrado', 'demostrará'],
+        correct: 3,
+        explanation: 'Futuro simple для будущего действия'
+      },
+      {
+        sentence: 'No ___ de ti mismo. (dudar)',
+        options: ['duda', 'dudes', 'dudas', 'dudar'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Yo ya ___ en marcha.',
+        options: ['me pongo', 'me he puesto', 'me puse', 'me pondré'],
+        correct: 1,
+        explanation: 'Pretérito perfecto для недавнего действия'
+      },
+      {
+        sentence: 'Nosotros ___ muchas evidencias hasta ahora.',
+        options: ['obtenemos', 'hemos obtenido', 'obtuvimos', 'obtuvisteis'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "hasta ahora"'
+      },
+      {
+        sentence: '¡___ tu capacidad! (comprobar)',
+        options: ['Comprueba', 'Compruebas', 'Comprobando', 'Comprobar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'Ayer yo ___ a dar el primer paso.',
+        options: ['me atrevo', 'me he atrevido', 'me atreví', 'me atreveré'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: 'No ___ miedo de actuar.',
+        options: ['tiene', 'tengas', 'tienes', 'tener'],
+        correct: 1,
+        explanation: 'Imperativo negativo (subjuntivo)'
+      }
+    ]
+  },
+
+  'ex-9-6-dudar-translation': {
+    id: 'ex-9-6-dudar-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Dejar de dudar',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Твои способности больше, чем ты думаешь.', correct: 'Tu capacidad es mayor de lo que crees.' },
+      { russian: 'Ты можешь проверить это, имея доказательства.', correct: 'Puedes comprobarlo teniendo evidencias.' },
+      { russian: 'Какой самый маленький шаг ты осмеливаешься сделать?', correct: '¿Cuál es el paso más pequeñito que te atreves a dar?' },
+      { russian: 'Реальный мир более доброжелателен.', correct: 'El mundo real es más benévolo.' },
+      { russian: 'Действуй и получи доказательства!', correct: '¡Actúa y obtén evidencias!' },
+      { russian: 'Не сомневайся в себе.', correct: 'No dudes de ti mismo.' },
+      { russian: 'Мир покажет тебе, кто ты на самом деле.', correct: 'El mundo te demostrará quién eres de verdad.' },
+      { russian: 'Приведи себя в движение сегодня.', correct: 'Ponte en marcha hoy.' },
+      { russian: 'Я уже сделал первый шаг.', correct: 'Ya he dado el primer paso.' },
+      { russian: 'Докажи свою способность действовать.', correct: 'Demuestra tu capacidad de actuar.' }
+    ]
+  },
+
+  // Las emociones curan exercises
+  'ex-9-6-emociones-vocab': {
+    id: 'ex-9-6-emociones-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Las emociones curan',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'impacto', options: ['движение', 'влияние', 'чувство', 'память'], correct: 1 },
+      { spanish: 'el torrente sanguíneo', options: ['кровоток', 'слеза', 'дыхание', 'пульс'], correct: 0 },
+      { spanish: 'el miedo', options: ['радость', 'страх', 'гнев', 'любовь'], correct: 1 },
+      { spanish: 'el daño', options: ['польза', 'помощь', 'вред', 'забота'], correct: 2 },
+      { spanish: 'la implicación', options: ['отрицание', 'вовлечение', 'отказ', 'изоляция'], correct: 1 },
+      { spanish: 'la salud', options: ['болезнь', 'здоровье', 'усталость', 'слабость'], correct: 1 },
+      { spanish: 'la enfermedad', options: ['здоровье', 'лечение', 'болезнь', 'врач'], correct: 2 },
+      { spanish: 'el sentimiento', options: ['чувство', 'мысль', 'действие', 'слово'], correct: 0 },
+      { spanish: 'proteger', options: ['атаковать', 'защищать', 'бояться', 'избегать'], correct: 1 },
+      { spanish: 'potenciar', options: ['ослаблять', 'усиливать', 'терять', 'забывать'], correct: 1 }
+    ]
+  },
+
+  'ex-9-6-emociones-comprehension': {
+    id: 'ex-9-6-emociones-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Las emociones curan',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Qué impacto tienen las emociones según el texto?',
+        options: ['Solo mental', 'Directo en la salud y enfermedad', 'Ninguno', 'Solo en el cerebro'],
+        correct: 1
+      },
+      {
+        question: '¿Cuál es la diferencia entre emoción y sentimiento?',
+        options: ['No hay diferencia', 'Las emociones son procesos corporales', 'Los sentimientos son físicos', 'Las emociones son mentales'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hormona se libera cuando estamos con alguien que queremos?',
+        options: ['Cortisol', 'Adrenalina', 'Oxitocina', 'Insulina'],
+        correct: 2
+      },
+      {
+        question: '¿Qué efectos tiene la oxitocina?',
+        options: ['Aumenta el estrés', 'Protege la salud y el corazón', 'Debilita el sistema inmune', 'Causa infecciones'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace la oxitocina con el eje del estrés?',
+        options: ['Lo activa', 'Lo corta radicalmente', 'Lo aumenta', 'No lo afecta'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hormona se libera cuando experimentamos miedo?',
+        options: ['Oxitocina', 'Cortisol', 'Serotonina', 'Dopamina'],
+        correct: 1
+      },
+      {
+        question: '¿Qué pasa cuando el cortisol se mantiene en cifras altas?',
+        options: ['Mejora la salud', 'Hace muchísimo daño en la salud', 'No afecta nada', 'Protege el corazón'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo se siente una persona que libera mucho cortisol?',
+        options: ['Tranquila', 'Feliz', 'Asustada', 'Relajada'],
+        correct: 2
+      },
+      {
+        question: '¿Qué potencia la oxitocina?',
+        options: ['El miedo', 'El sistema inmune', 'El estrés', 'Las infecciones'],
+        correct: 1
+      },
+      {
+        question: 'Según el texto, ¿las emociones tienen implicación en la salud?',
+        options: ['No, ninguna', 'Sí, directa', 'Solo indirecta', 'Solo mental'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-emociones-grammar': {
+    id: 'ex-9-6-emociones-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Las emociones curan',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'Las emociones ___ un impacto directo en la salud.',
+        options: ['tienen', 'han tenido', 'tuvieron', 'tendrán'],
+        correct: 0,
+        explanation: 'Presente для постоянного факта'
+      },
+      {
+        sentence: 'Yo ___ con mi familia ayer. (estar)',
+        options: ['estoy', 'he estado', 'estuve', 'estaré'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: '¡___ tu salud! (proteger)',
+        options: ['Protege', 'Proteges', 'Protegiendo', 'Proteger'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'La oxitocina ___ el sistema inmune.',
+        options: ['potencia', 'potenciaba', 'ha potenciado', 'potenciará'],
+        correct: 0,
+        explanation: 'Presente для постоянного действия'
+      },
+      {
+        sentence: 'No ___ miedo constantemente. (tener)',
+        options: ['tiene', 'tengas', 'tienes', 'tener'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Nosotros ___ mucho cortisol esta semana.',
+        options: ['liberamos', 'hemos liberado', 'liberamos', 'liberaremos'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "esta semana"'
+      },
+      {
+        sentence: 'El cortisol ___ daño en la salud si está alto.',
+        options: ['hace', 'hacía', 'ha hecho', 'hará'],
+        correct: 0,
+        explanation: 'Presente para hechos generales'
+      },
+      {
+        sentence: '¡___ esas emociones positivas! (experimentar)',
+        options: ['Experimenta', 'Experimentas', 'Experimentando', 'Experimentar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'Ayer nosotros ___ un momento de miedo.',
+        options: ['experimentamos', 'hemos experimentado', 'experimentamos', 'experimentaremos'],
+        correct: 0,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: 'No ___ cifras altas de cortisol. (mantener)',
+        options: ['mantiene', 'mantengas', 'mantienes', 'mantener'],
+        correct: 1,
+        explanation: 'Imperativo negativo (subjuntivo)'
+      }
+    ]
+  },
+
+  'ex-9-6-emociones-translation': {
+    id: 'ex-9-6-emociones-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Las emociones curan',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Эмоции имеют прямое влияние на здоровье.', correct: 'Las emociones tienen un impacto directo en la salud.' },
+      { russian: 'Окситоцин защищает сердце.', correct: 'La oxitocina protege el corazón.' },
+      { russian: 'Страх освобождает кортизол.', correct: 'El miedo libera cortisol.' },
+      { russian: 'Высокий кортизол причиняет вред здоровью.', correct: 'El cortisol alto hace daño en la salud.' },
+      { russian: 'Окситоцин усиливает иммунную систему.', correct: 'La oxitocina potencia el sistema inmune.' },
+      { russian: 'Эмоции - это телесные процессы.', correct: 'Las emociones son procesos corporales.' },
+      { russian: 'Я испытываю страх каждый день.', correct: 'Experimento miedo cada día.' },
+      { russian: 'Защити свою иммунную систему!', correct: '¡Protege tu sistema inmune!' },
+      { russian: 'Мы были напуганы вчера.', correct: 'Estuvimos asustados ayer.' },
+      { russian: 'Не бойся выражать свои эмоции.', correct: 'No tengas miedo de expresar tus emociones.' }
+    ]
+  },
+
+  // Creamos nuestras emociones exercises
+  'ex-9-6-creamos-vocab': {
+    id: 'ex-9-6-creamos-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Creamos nuestras emociones',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'caer en cuenta', options: ['забыть', 'понять', 'бояться', 'искать'], correct: 1 },
+      { spanish: 'quedarse impactado', options: ['остаться равнодушным', 'остаться очень удивленным', 'уйти', 'спать'], correct: 1 },
+      { spanish: 'operar', options: ['спать', 'действовать', 'бояться', 'забыть'], correct: 1 },
+      { spanish: 'inconsciente', options: ['сознательный', 'бессознательный', 'важный', 'новый'], correct: 1 },
+      { spanish: 'la desesperanza', options: ['надежда', 'радость', 'отчаяние', 'любовь'], correct: 2 },
+      { spanish: 'la pasión', options: ['скука', 'равнодушие', 'страсть', 'грусть'], correct: 2 },
+      { spanish: 'atribuir', options: ['забирать', 'терять', 'приписывать', 'находить'], correct: 2 },
+      { spanish: 'ocurrir', options: ['происходить', 'заканчиваться', 'начинаться', 'исчезать'], correct: 0 },
+      { spanish: 'las circunstancias', options: ['люди', 'обстоятельства', 'дома', 'дороги'], correct: 1 },
+      { spanish: 'sin embargo', options: ['поэтому', 'однако', 'потому что', 'также'], correct: 1 }
+    ]
+  },
+
+  'ex-9-6-creamos-comprehension': {
+    id: 'ex-9-6-creamos-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Nosotros creamos nuestros sentimientos',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Cómo se sintió el autor cuando se dio cuenta de que creamos nuestras emociones?',
+        options: ['Triste', 'Absolutamente impactado', 'Aburrido', 'Asustado'],
+        correct: 1
+      },
+      {
+        question: '¿A qué nivel opera la creación de emociones?',
+        options: ['Consciente', 'Inconsciente', 'Físico', 'Social'],
+        correct: 1
+      },
+      {
+        question: '¿Qué emociones creamos según el texto?',
+        options: ['Solo la tristeza', 'Solo la alegría', 'Todas: tristeza, alegría, desesperanza, pasión', 'Ninguna'],
+        correct: 2
+      },
+      {
+        question: '¿A qué atribuimos nuestras emociones?',
+        options: ['A nosotros mismos', 'A lo que ocurre fuera', 'A nuestros pensamientos', 'A la suerte'],
+        correct: 1
+      },
+      {
+        question: '¿Qué pasa cuando vemos a alguien con circunstancias desfavorables pero entusiasmado?',
+        options: ['Lo entendemos', 'Nos desconcierta', 'No lo notamos', 'Lo criticamos'],
+        correct: 1
+      },
+      {
+        question: 'Según el texto, ¿qué hacemos cuando algo nos desconcierta?',
+        options: ['Indagamos mucho', 'No indagamos', 'Preguntamos', 'Investigamos'],
+        correct: 1
+      },
+      {
+        question: '¿Qué pasa cuando tú cambias?',
+        options: ['Nada', 'El mundo cambia', 'Todo empeora', 'Todo sigue igual'],
+        correct: 1
+      },
+      {
+        question: '¿Qué es más importante según el texto?',
+        options: ['Lo que sucede fuera', 'Lo que está sucediendo dentro', 'La suerte', 'El dinero'],
+        correct: 1
+      },
+      {
+        question: '¿Qué encuentra su expresión fuera de ti?',
+        options: ['Lo que pasa fuera', 'Lo que pasa dentro de ti', 'Tus circunstancias', 'Tu trabajo'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo es el proceso de creación de emociones?',
+        options: ['Consciente y controlado', 'Inconsciente', 'Visible', 'Externo'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-creamos-grammar': {
+    id: 'ex-9-6-creamos-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Creamos nuestras emociones',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'Nosotros ___ nuestras emociones.',
+        options: ['creamos', 'hemos creado', 'creamos', 'crearemos'],
+        correct: 0,
+        explanation: 'Presente для постоянного факта'
+      },
+      {
+        sentence: 'Yo ___ en la cuenta ayer. (caer)',
+        options: ['caigo', 'he caído', 'caí', 'caeré'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: '¡___ a tu interior! (mirar)',
+        options: ['Mira', 'Miras', 'Mirando', 'Mirar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'Esto ___ a nivel inconsciente.',
+        options: ['opera', 'operaba', 'ha operado', 'operará'],
+        correct: 0,
+        explanation: 'Presente для постоянного действия'
+      },
+      {
+        sentence: 'No ___ tus emociones a otros. (atribuir)',
+        options: ['atribuye', 'atribuyas', 'atribuyes', 'atribuir'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Yo ___ absolutamente impactado esta mañana.',
+        options: ['me quedo', 'me he quedado', 'me quedé', 'me quedaré'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "esta mañana"'
+      },
+      {
+        sentence: 'Cuando tú ___, el mundo cambia.',
+        options: ['cambias', 'cambiabas', 'has cambiado', 'cambiarás'],
+        correct: 0,
+        explanation: 'Presente в главном предложении después de "cuando"'
+      },
+      {
+        sentence: '¡___ por qué te sientes así! (indagar)',
+        options: ['Indaga', 'Indagas', 'Indagando', 'Indagar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'Las cosas ___ a cambiar cuando cambias tú.',
+        options: ['empiezan', 'empezaban', 'han empezado', 'empezarán'],
+        correct: 0,
+        explanation: 'Presente para hechos generales'
+      },
+      {
+        sentence: 'No ___ tus emociones a las circunstancias. (atribuir)',
+        options: ['atribuye', 'atribuyas', 'atribuyes', 'atribuir'],
+        correct: 1,
+        explanation: 'Imperativo negativo (subjuntivo)'
+      }
+    ]
+  },
+
+  'ex-9-6-creamos-translation': {
+    id: 'ex-9-6-creamos-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Creamos nuestras emociones',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Мы создаем наши эмоции.', correct: 'Nosotros creamos nuestras emociones.' },
+      { russian: 'Я понял это вчера.', correct: 'Caí en la cuenta ayer.' },
+      { russian: 'Это действует на бессознательном уровне.', correct: 'Esto opera a nivel inconsciente.' },
+      { russian: 'Мы приписываем наши чувства внешним событиям.', correct: 'Atribuimos nuestros sentimientos a lo que ocurre fuera.' },
+      { russian: 'Когда ты меняешься, мир меняется.', correct: 'Cuando tú cambias, el mundo cambia.' },
+      { russian: 'Исследуй свой внутренний мир!', correct: '¡Indaga tu mundo interior!' },
+      { russian: 'Не приписывай свои эмоции обстоятельствам.', correct: 'No atribuyas tus emociones a las circunstancias.' },
+      { russian: 'Это меня очень удивило.', correct: 'Me quedé absolutamente impactado.' },
+      { russian: 'Мы создаем нашу страсть и отчаяние.', correct: 'Creamos nuestra pasión y nuestra desesperanza.' },
+      { russian: 'Важнее то, что происходит внутри.', correct: 'Es más importante lo que está sucediendo dentro.' }
+    ]
+  },
+
+  // Por que te pones malo con el estrés exercises
+  'ex-9-6-estres-vocab': {
+    id: 'ex-9-6-estres-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Por que te pones malo con el estrés',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'que ocurre', options: ['как дела?', 'что происходит?', 'куда идешь?', 'кто там?'], correct: 1 },
+      { spanish: 'relajarse', options: ['напрягаться', 'расслабляться', 'бежать', 'кричать'], correct: 1 },
+      { spanish: 'el nervio vago', options: ['нервный человек', 'блуждающий нерв', 'страх', 'боль'], correct: 1 },
+      { spanish: 'la recuperación', options: ['потеря', 'восстановление', 'болезнь', 'усталость'], correct: 1 },
+      { spanish: 'estar en alerta', options: ['спать', 'быть начеку', 'отдыхать', 'работать'], correct: 1 },
+      { spanish: 'constantemente', options: ['иногда', 'редко', 'постоянно', 'никогда'], correct: 2 },
+      { spanish: 'percibir', options: ['игнорировать', 'забывать', 'воспринимать', 'отрицать'], correct: 2 },
+      { spanish: 'el peligro', options: ['безопасность', 'помощь', 'опасность', 'радость'], correct: 2 },
+      { spanish: 'amenazar', options: ['помогать', 'защищать', 'угрожать', 'любить'], correct: 2 },
+      { spanish: 'estar acatarrado', options: ['быть здоровым', 'быть простуженным', 'быть счастливым', 'быть уставшим'], correct: 1 }
+    ]
+  },
+
+  'ex-9-6-estres-comprehension': {
+    id: 'ex-9-6-estres-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Por que te pones malo con el estrés',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Qué activa el nervio vago cuando nos relajamos?',
+        options: ['El estrés', 'Los sistemas de recuperación', 'El miedo', 'La enfermedad'],
+        correct: 1
+      },
+      {
+        question: '¿Qué pasa si estamos constantemente en alerta?',
+        options: ['El nervio vago funciona mejor', 'El nervio vago no puede funcionar bien', 'Nos relajamos', 'Dormimos mejor'],
+        correct: 1
+      },
+      {
+        question: '¿Cuándo se siente amenazada una persona en una reunión?',
+        options: ['Cuando la van a pegar', 'Cuando la pueden ridiculizar', 'Cuando tiene hambre', 'Cuando está feliz'],
+        correct: 1
+      },
+      {
+        question: '¿Qué sistema debe protegernos y recuperarnos?',
+        options: ['El simpático', 'El parasimpático', 'El digestivo', 'El respiratorio'],
+        correct: 1
+      },
+      {
+        question: '¿Qué pasa con el sistema parasimpático cuando nos sentimos amenazados?',
+        options: ['Se activa', 'Se apaga', 'Funciona mejor', 'Se relaja'],
+        correct: 1
+      },
+      {
+        question: '¿Qué sistema se activa cuando el parasimpático se apaga?',
+        options: ['El digestivo', 'El nervioso simpático', 'El inmune', 'El respiratorio'],
+        correct: 1
+      },
+      {
+        question: '¿Qué es más fácil cuando el sistema simpático está activo?',
+        options: ['Relajarse', 'Acatarrarse', 'Dormir', 'Comer'],
+        correct: 1
+      },
+      {
+        question: '¿Qué le importa al sistema nervioso simpático?',
+        options: ['Que no te acatarres', 'Que no te coma un depredador', 'Que duermas bien', 'Que estés feliz'],
+        correct: 1
+      },
+      {
+        question: '¿Qué tipo de amenaza menciona el texto en las reuniones?',
+        options: ['Física', 'De ridiculización', 'Natural', 'Animal'],
+        correct: 1
+      },
+      {
+        question: '¿Cuándo podemos activar los sistemas de recuperación?',
+        options: ['Cuando estamos estresados', 'Cuando nos podemos relajar', 'Cuando tenemos miedo', 'Cuando estamos en alerta'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-estres-grammar': {
+    id: 'ex-9-6-estres-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Por que te pones malo con el estrés',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'Cuando nosotros nos ___ relajar, el nervio vago activa los sistemas.',
+        options: ['podemos', 'hemos podido', 'pudimos', 'podremos'],
+        correct: 0,
+        explanation: 'Presente в придаточном предложении с "cuando"'
+      },
+      {
+        sentence: 'Ayer yo ___ muy estresado. (estar)',
+        options: ['estoy', 'he estado', 'estuve', 'estaré'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: '¡___ tu cuerpo! (relajar)',
+        options: ['Relaja', 'Relajas', 'Relajando', 'Relajar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'El nervio vago ___ los sistemas de recuperación.',
+        options: ['activa', 'activaba', 'ha activado', 'activará'],
+        correct: 0,
+        explanation: 'Presente для постоянного действия'
+      },
+      {
+        sentence: 'No ___ constantemente en alerta. (estar)',
+        options: ['está', 'estés', 'estás', 'estar'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Yo ___ amenazado muchas veces esta semana.',
+        options: ['me siento', 'me he sentido', 'me sentí', 'me sentiré'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "esta semana"'
+      },
+      {
+        sentence: 'El sistema parasimpático ___ cuando hay estrés.',
+        options: ['se apaga', 'se apagaba', 'se ha apagado', 'se apagará'],
+        correct: 0,
+        explanation: 'Presente для общих фактов'
+      },
+      {
+        sentence: '¡___ el peligro! (percibir)',
+        options: ['Percibe', 'Percibes', 'Percibiendo', 'Percibir'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'Nosotros ___ acatarrados la semana pasada.',
+        options: ['estamos', 'hemos estado', 'estuvimos', 'estaremos'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "la semana pasada"'
+      },
+      {
+        sentence: 'No ___ amenazado por tonterías. (sentirse)',
+        options: ['se siente', 'te sientas', 'te sientes', 'sentirse'],
+        correct: 1,
+        explanation: 'Imperativo negativo (subjuntivo)'
+      }
+    ]
+  },
+
+  'ex-9-6-estres-translation': {
+    id: 'ex-9-6-estres-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Por que te pones malo con el estrés',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Когда мы можем расслабиться, активируются системы восстановления.', correct: 'Cuando nos podemos relajar, se activan los sistemas de recuperación.' },
+      { russian: 'Мы постоянно в состоянии тревоги.', correct: 'Estamos constantemente en alerta.' },
+      { russian: 'Блуждающий нерв не может функционировать хорошо.', correct: 'El nervio vago no puede funcionar bien.' },
+      { russian: 'Я чувствую себя под угрозой на собраниях.', correct: 'Me siento amenazado en las reuniones.' },
+      { russian: 'Парасимпатическая система отключается.', correct: 'El sistema parasimpático se apaga.' },
+      { russian: 'Симпатическая нервная система активируется.', correct: 'El sistema nervioso simpático se activa.' },
+      { russian: 'Расслабься и отдохни!', correct: '¡Relájate y descansa!' },
+      { russian: 'Не воспринимай все как опасность.', correct: 'No percibas todo como peligro.' },
+      { russian: 'Я простудился на прошлой неделе.', correct: 'Me acatarré la semana pasada.' },
+      { russian: 'Ему важнее, чтобы тебя не съел хищник.', correct: 'Le importa más que no te coma un depredador.' }
+    ]
+  },
+
+  // Abrazos y Oxitocina exercises
+  'ex-9-6-abrazos-vocab': {
+    id: 'ex-9-6-abrazos-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Abrazos y Oxitocina',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'los abrazos', options: ['поцелуи', 'объятия', 'слова', 'взгляды'], correct: 1 },
+      { spanish: 'la liberación', options: ['тюрьма', 'освобождение', 'заключение', 'наказание'], correct: 1 },
+      { spanish: 'los vínculos', options: ['разрывы', 'связи', 'потери', 'находки'], correct: 1 },
+      { spanish: 'la generación', options: ['разрушение', 'поколение', 'смерть', 'конец'], correct: 1 },
+      { spanish: 'ser capaz de', options: ['не мочь', 'быть способным на', 'отказываться', 'бояться'], correct: 1 },
+      { spanish: 'cortar', options: ['строить', 'создавать', 'резать', 'рисовать'], correct: 2 },
+      { spanish: 'incuestionable', options: ['сомнительный', 'неважный', 'неоспоримый', 'странный'], correct: 2 },
+      { spanish: 'desvanecer', options: ['появляться', 'создавать', 'рассеивать', 'строить'], correct: 2 },
+      { spanish: 'herido', options: ['здоровый', 'счастливый', 'раненый', 'сильный'], correct: 2 },
+      { spanish: 'sanar', options: ['ранить', 'болеть', 'исцелять', 'страдать'], correct: 2 }
+    ]
+  },
+
+  'ex-9-6-abrazos-comprehension': {
+    id: 'ex-9-6-abrazos-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Abrazos y Oxitocina',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Qué producen los abrazos?',
+        options: ['Cortisol', 'La liberación de oxitocina', 'Miedo', 'Estrés'],
+        correct: 1
+      },
+      {
+        question: '¿Qué impacto tiene la oxitocina?',
+        options: ['Solo emocional', 'Enorme en vínculos emocionales y protección del corazón', 'Solo físico', 'Ninguno'],
+        correct: 1
+      },
+      {
+        question: '¿Qué eje puede cortar la oxitocina?',
+        options: ['El eje del amor', 'El eje del estrés crónico', 'El eje del sueño', 'El eje digestivo'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hormona se libera con el estrés crónico?',
+        options: ['Oxitocina', 'Cortisol', 'Adrenalina', 'Insulina'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo es esto a nivel científico?',
+        options: ['Dudoso', 'Incuestionable', 'Imposible', 'Raro'],
+        correct: 1
+      },
+      {
+        question: '¿Quién fue Jung?',
+        options: ['Un médico', 'Un adelantado en su época', 'Un político', 'Un artista'],
+        correct: 1
+      },
+      {
+        question: 'Según Jung, ¿qué pasa con lo que se resiste?',
+        options: ['Se va', 'Persiste', 'Se transforma', 'Se olvida'],
+        correct: 1
+      },
+      {
+        question: 'Según Jung, ¿qué pasa con lo que se abraza?',
+        options: ['Persiste', 'Se resiste', 'Se transforma', 'Empeora'],
+        correct: 2
+      },
+      {
+        question: '¿Qué representan las heridas en el fondo?',
+        options: ['Fuerza', 'Una carencia de amor', 'Valentía', 'Sabiduría'],
+        correct: 1
+      },
+      {
+        question: '¿Qué pasa cuando das amor a las heridas?',
+        options: ['Empeoran', 'La herida por sí sola sana', 'Nada', 'Duelen más'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-abrazos-grammar': {
+    id: 'ex-9-6-abrazos-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Abrazos y Oxitocina',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'Los abrazos ___ la liberación de oxitocina.',
+        options: ['producen', 'han producido', 'produjeron', 'producirán'],
+        correct: 0,
+        explanation: 'Presente для постоянного факта'
+      },
+      {
+        sentence: 'Yo ___ a mi hijo ayer. (abrazar)',
+        options: ['abrazo', 'he abrazado', 'abracé', 'abrazaré'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: '¡___ tus heridas! (abrazar)',
+        options: ['Abraza', 'Abrazas', 'Abrazando', 'Abrazar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'La oxitocina ___ el corazón.',
+        options: ['protege', 'protegía', 'ha protegido', 'protegerá'],
+        correct: 0,
+        explanation: 'Presente для постоянного действия'
+      },
+      {
+        sentence: 'No ___ el estrés crónico. (tener)',
+        options: ['tiene', 'tengas', 'tienes', 'tener'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Nosotros ___ capaces de transformar nuestras heridas esta semana.',
+        options: ['somos', 'hemos sido', 'fuimos', 'seremos'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "esta semana"'
+      },
+      {
+        sentence: 'Lo que se abraza ___ .',
+        options: ['se transforma', 'se transformaba', 'se ha transformado', 'se transformará'],
+        correct: 0,
+        explanation: 'Presente для общих истин'
+      },
+      {
+        sentence: '¡___ el eje del estrés! (cortar)',
+        options: ['Corta', 'Cortas', 'Cortando', 'Cortar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'La herida ___ cuando recibió amor.',
+        options: ['sana', 'ha sanado', 'sanó', 'sanará'],
+        correct: 2,
+        explanation: 'Pretérito indefinido для завершенного действия'
+      },
+      {
+        sentence: 'No ___ a lo que te duele. (resistirse)',
+        options: ['se resiste', 'te resistas', 'te resistes', 'resistirse'],
+        correct: 1,
+        explanation: 'Imperativo negativo (subjuntivo)'
+      }
+    ]
+  },
+
+  'ex-9-6-abrazos-translation': {
+    id: 'ex-9-6-abrazos-translation',
+    type: 'translation',
+    title: 'Перевод с русского: Abrazos y Oxitocina',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Объятия производят освобождение окситоцина.', correct: 'Los abrazos producen la liberación de oxitocina.' },
+      { russian: 'Окситоцин защищает сердце.', correct: 'La oxitocina protege el corazón.' },
+      { russian: 'Окситоцин может остановить ось стресса.', correct: 'La oxitocina puede cortar el eje del estrés.' },
+      { russian: 'Это неоспоримо на научном уровне.', correct: 'Esto es incuestionable a nivel científico.' },
+      { russian: 'То, чему сопротивляешься, сохраняется.', correct: 'Lo que se resiste, persiste.' },
+      { russian: 'То, что обнимаешь, трансформируется.', correct: 'Lo que se abraza, se transforma.' },
+      { russian: 'Обними раненого ребенка!', correct: '¡Abraza al niño herido!' },
+      { russian: 'Раны представляют недостаток любви.', correct: 'Las heridas representan una carencia de amor.' },
+      { russian: 'Рана сама по себе исцеляется.', correct: 'La herida por sí sola sana.' },
+      { russian: 'Мы способны создавать эмоциональные связи.', correct: 'Somos capaces de generar vínculos emocionales.' }
     ]
   }
 }
