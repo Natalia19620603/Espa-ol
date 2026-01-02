@@ -9455,6 +9455,54 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         audioUrl: '/audio/5 5.mp3'
       }
     ],
+    readingText: [
+      {
+        tab: 'Capitulo 1 - Fragmento 1',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 1',
+        content: `Cándido deja los periódicos sobre la cama. Se sienta en una silla y bebe rápido su café. Está demasiado caliente, pero a él le gusta así. Busca un cigarrillo en su chaqueta y empieza a fumar.`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 2',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 2',
+        content: `Hace calor. En Córdoba siempre hace mucho calor en verano y el café caliente le hace encontrarse peor. Cándido mira los periódicos abiertos sobre la cama y se pone muy nervioso. No sabe quién le ha podido enviar ese paquete con los periódicos dentro. ¿Quién le escribe?, ¿qué quiere de él? No lo sabe. Solo esos periódicos de Toledo en un pequeño paquete marrón. Sin carta, sin nada.`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 3',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 3',
+        content: `La música del bar de abajo entra por la ventana. Vivir encima de un bar es muy difícil, a veces hasta imposible. Pero vivir en la blanca y caliente Córdoba, cerca de la Mezquita, es muy importante para él. Él es un arqueólogo muy bueno, el mejor. Pero no trabaja en una excavación desde hace muchos años. Muchos. Desde aquel día que...`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 4',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 4',
+        content: `Ahora está cansado, solo, casi sin dinero. Todo es demasiado difícil desde aquel día negro.`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 5',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 5',
+        content: `La fea música del bar llega a todas las habitaciones de la casa. Por la ventana Cándido mira, sin ver, el pequeño jardín de su calle. Un hombre espera debajo de un árbol. Llega una mujer joven, morena y muy bonita. Hablan un poco y después se van cogidos de la mano.
+Es día de fiesta y la gente sale a pasear o va al cine.`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 6',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 6',
+        content: `Cerca del parque, coches y motos pasan rápidos hacia el centro de la ciudad. Hacen mucho ruido, pero Cándido parece no oír nada. Solo fuma su cigarrillo y habla para sí. ¿Qué quiere decir ese paquete con los periódicos dentro? ¿Quién los envía? ¿Para qué?`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 7',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 7',
+        content: `Los periódicos esperan encima de la cama. Conocen la verdad, pero no pueden decirla. Solo se ríen de él.`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 8',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 8',
+        content: `Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un restaurante... No, en este momento no quiere estar fuera de casa. Va a la cocina y bebe rápido un vaso de agua. Después vuelve a su habitación. Se sienta encima de la cama y empieza a leer los periódicos otra vez.`
+      },
+      {
+        tab: 'Capitulo 1 - Fragmento 9',
+        title: 'El misterio de la llave - Capítulo 1, Fragmento 9',
+        content: `... en el viejo Palacio de Úbeda... los obreros han encontrado... una sinagoga... no hay otra en Toledo tan bonita y rara como esta... Marisa Martín, una joven arqueóloga, ha encontrado... un pequeño tesoro: tres copas y una llave... La llave... tiene unos dibujos y unas inscripciones... en árabe y hebreo... nadie ha podido entenderlas... Esta llave debe abrirnos la puerta de la verdad..`
+      }
+    ],
     exercises: [
       'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
       'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7',
