@@ -559,7 +559,7 @@ function LessonPage() {
                     <div className={styles.audioContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
                       <AudioPlayer
                         key={activeVideoTab}
-                        audioUrl={currentAudio.audioUrl}
+                        audioUrl={currentAudio.audioUrl || currentAudio.videoUrl}
                         text=""
                         subtitles={currentAudio.subtitles || []}
                       />

@@ -11472,7 +11472,7 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         videoUrl: '/video/CAMBIA el pensamiento que te ancla.mp4'
       },
       {
-        tab: 'Vívela con intensidad',
+        tab: 'Vívela con intensidad (Subjuntivo B1)',
         videoUrl: '/video/Vívela con intensidad.mp4'
       },
       {
@@ -11532,7 +11532,7 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         ]
       },
       {
-        tab: 'Vívela con intensidad',
+        tab: 'Vívela con intensidad (Subjuntivo B1)',
         words: [
           { word: 'vivir', translation: 'жить' },
           { word: 'la intensidad', translation: 'интенсивность' },
@@ -11629,7 +11629,7 @@ Piensa de otra manera y te sentirás de forma diferente. Es muy difícil gestion
         translation: ``
       },
       {
-        tab: 'Vívela con intensidad',
+        tab: 'Vívela con intensidad (Subjuntivo B1)',
         content: `Vívela con intensidad
 
 Y si te das cuenta y ves una partitura, si todas las notas fueran pegadas una detrás de otra, no tendríamos música; tendríamos ruido. Lo que hace que tengamos música es que haya espacios de silencio. Son esos espacios donde no hay ninguna nota los que permiten que, en vez de ruido, haya música.
@@ -11717,7 +11717,7 @@ Dr. Mario Alonso Puig: Un placer Marina. Gracias a ti.`,
         ]
       },
       {
-        tab: 'Vívela con intensidad',
+        tab: 'Vívela con intensidad (Subjuntivo B1)',
         subtabs: [
           { name: 'Словарь', exercises: ['ex-9-5-vivela-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-5-vivela-comprehension'] },
@@ -23311,14 +23311,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         correct: 0
       },
       {
-        question: 'Cuando tú ___ (ver) un pensamiento negativo, te paras.',
-        options: ['ves', 'veas', 'has visto', 'viste'],
-        correct: 1
+        question: 'Cuando tú ___ (ver) un pensamiento negativo, cambia tu actitud.',
+        options: ['ves', 'has visto', 'viste', 'verás'],
+        correct: 0
       },
       {
-        question: 'No ___ (luchar) contra el pensamiento.',
-        options: ['luchas', 'luches', 'has luchado', 'luchaste'],
-        correct: 1
+        question: 'Yo no ___ (luchar) contra los pensamientos negativos.',
+        options: ['lucho', 'he luchado', 'luché', 'lucharé'],
+        correct: 0
       },
       {
         question: 'Nosotros no ___ (ser) conscientes del poder del pensamiento.',
@@ -23327,7 +23327,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       },
       {
         question: 'Yo ___ (querer) sentirme mejor.',
-        options: ['quiero', 'quiera', 'he querido', 'quise'],
+        options: ['quiero', 'he querido', 'quise', 'querré'],
         correct: 0
       },
       {
@@ -23337,7 +23337,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       },
       {
         question: '___ (Pensar) de otra manera.',
-        options: ['Piensa', 'Pienses', 'Has pensado', 'Pensaste'],
+        options: ['Piensa', 'Has pensado', 'Pensaste', 'Pensarás'],
         correct: 0
       }
     ]
