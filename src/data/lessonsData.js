@@ -9474,33 +9474,24 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
       {
         tab: 'Capitulo 1 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 4',
-        content: `Ahora está cansado, solo, casi sin dinero. Todo es demasiado difícil desde aquel día negro.`
+        content: `Ahora está cansado, solo, casi sin dinero. Todo es demasiado difícil desde aquel día negro.
+
+La fea música del bar llega a todas las habitaciones de la casa. Por la ventana Cándido mira, sin ver, el pequeño jardín de su calle. Un hombre espera debajo de un árbol. Llega una mujer joven, morena y muy bonita. Hablan un poco y después se van cogidos de la mano.
+Es día de fiesta y la gente sale a pasear o va al cine.`
       },
       {
         tab: 'Capitulo 1 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 5',
-        content: `La fea música del bar llega a todas las habitaciones de la casa. Por la ventana Cándido mira, sin ver, el pequeño jardín de su calle. Un hombre espera debajo de un árbol. Llega una mujer joven, morena y muy bonita. Hablan un poco y después se van cogidos de la mano.
-Es día de fiesta y la gente sale a pasear o va al cine.`
+        content: `Cerca del parque, coches y motos pasan rápidos hacia el centro de la ciudad. Hacen mucho ruido, pero Cándido parece no oír nada. Solo fuma su cigarrillo y habla para sí. ¿Qué quiere decir ese paquete con los periódicos dentro? ¿Quién los envía? ¿Para qué?
+
+Los periódicos esperan encima de la cama. Conocen la verdad, pero no pueden decirla. Solo se ríen de él.`
       },
       {
         tab: 'Capitulo 1 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 6',
-        content: `Cerca del parque, coches y motos pasan rápidos hacia el centro de la ciudad. Hacen mucho ruido, pero Cándido parece no oír nada. Solo fuma su cigarrillo y habla para sí. ¿Qué quiere decir ese paquete con los periódicos dentro? ¿Quién los envía? ¿Para qué?`
-      },
-      {
-        tab: 'Capitulo 1 - Fragmento 7',
-        title: 'El misterio de la llave - Capítulo 1, Fragmento 7',
-        content: `Los periódicos esperan encima de la cama. Conocen la verdad, pero no pueden decirla. Solo se ríen de él.`
-      },
-      {
-        tab: 'Capitulo 1 - Fragmento 8',
-        title: 'El misterio de la llave - Capítulo 1, Fragmento 8',
-        content: `Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un restaurante... No, en este momento no quiere estar fuera de casa. Va a la cocina y bebe rápido un vaso de agua. Después vuelve a su habitación. Se sienta encima de la cama y empieza a leer los periódicos otra vez.`
-      },
-      {
-        tab: 'Capitulo 1 - Fragmento 9',
-        title: 'El misterio de la llave - Capítulo 1, Fragmento 9',
-        content: `... en el viejo Palacio de Úbeda... los obreros han encontrado... una sinagoga... no hay otra en Toledo tan bonita y rara como esta... Marisa Martín, una joven arqueóloga, ha encontrado... un pequeño tesoro: tres copas y una llave... La llave... tiene unos dibujos y unas inscripciones... en árabe y hebreo... nadie ha podido entenderlas... Esta llave debe abrirnos la puerta de la verdad..`
+        content: `Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un restaurante... No, en este momento no quiere estar fuera de casa. Va a la cocina y bebe rápido un vaso de agua. Después vuelve a su habitación. Se sienta encima de la cama y empieza a leer los periódicos otra vez.
+
+... en el viejo Palacio de Úbeda... los obreros han encontrado... una sinagoga... no hay otra en Toledo tan bonita y rara como esta... Marisa Martín, una joven arqueóloga, ha encontrado... un pequeño tesoro: tres copas y una llave... La llave... tiene unos dibujos y unas inscripciones... en árabe y hebreo... nadie ha podido entenderlas... Esta llave debe abrirnos la puerta de la verdad..`
       }
     ],
     exercises: [
@@ -16687,26 +16678,26 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Грамматика: Gusanos de harina',
     description: 'Выберите правильную форму глагола. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { question: 'La empresa ya ___ (cultivar) millones de insectos este año. (Pretérito Perfecto)', options: ['ha cultivado', 'cultivó', 'cultivaba', 'cultive'], correct: 0 },
-      { question: 'Ayer nosotros ___ (probar) el pan con harina de insectos. (Pretérito Indefinido)', options: ['hemos probado', 'probábamos', 'probamos', 'probemos'], correct: 2 },
-      { question: 'Cuando era joven, mi abuelo nunca ___ (comer) insectos. (Pretérito Imperfecto)', options: ['comió', 'ha comido', 'comía', 'coma'], correct: 2 },
-      { question: '___ (Probar, tú) este producto nuevo, es muy nutritivo. (Imperativo Afirmativo)', options: ['Prueba', 'Pruebes', 'Probas', 'Probarás'], correct: 0 },
-      { question: 'No ___ (tener, tú) miedo de probar algo diferente. (Imperativo Negativo)', options: ['tienes', 'tengas', 'ten', 'tener'], correct: 1 },
-      { question: 'Es importante que nosotros ___ (reducir) el consumo de carne. (Presente de Subjuntivo)', options: ['reducimos', 'reducíamos', 'reduzcamos', 'redujéramos'], correct: 2 },
-      { question: 'Los científicos ___ (descubrir) que los insectos son ricos en omega-3. (Pretérito Perfecto)', options: ['descubrieron', 'han descubierto', 'descubrían', 'descubran'], correct: 1 },
-      { question: 'La semana pasada ellos ___ (automatizar) todo el proceso. (Pretérito Indefinido)', options: ['automatizaron', 'han automatizado', 'automatizaban', 'automaticen'], correct: 0 },
-      { question: 'Antes la gente ___ (ser) más conservadora con la comida. (Pretérito Imperfecto)', options: ['fue', 'ha sido', 'era', 'sea'], correct: 2 },
-      { question: '___ (Consumir, vosotros) más proteínas naturales. (Imperativo Afirmativo)', options: ['Consumid', 'Consumís', 'Consumáis', 'Consumiréis'], correct: 0 },
-      { question: 'No ___ (desperdiciar, vosotros) esta oportunidad de probar. (Imperativo Negativo)', options: ['desperdiciáis', 'desperdiciéis', 'desperdiciéis', 'desperdiciárais'], correct: 1 },
-      { question: 'Dudo que los insectos ___ (ser) la única solución. (Presente de Subjuntivo)', options: ['son', 'eran', 'sean', 'fueran'], correct: 2 },
-      { question: 'Este mes la producción ___ (aumentar) significativamente. (Pretérito Perfecto)', options: ['aumentó', 'ha aumentado', 'aumentaba', 'aumente'], correct: 1 },
-      { question: 'En 2020 la empresa ___ (empezar) a vender sus productos. (Pretérito Indefinido)', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0 },
-      { question: 'Mientras los insectos ___ (vivir), necesitan temperaturas constantes. (Pretérito Imperfecto)', options: ['vivieron', 'han vivido', 'vivían', 'vivan'], correct: 2 },
-      { question: '___ (Ser, usted) audaz y pruebe algo nuevo. (Imperativo Afirmativo)', options: ['Es', 'Sea', 'Eres', 'Seas'], correct: 1 },
-      { question: 'No ___ (creer, ustedes) todo lo que dicen los críticos. (Imperativo Negativo)', options: ['creen', 'crean', 'creían', 'creyeran'], correct: 1 },
-      { question: 'Es posible que la UE ___ (aprobar) nuevas regulaciones. (Presente de Subjuntivo)', options: ['aprueba', 'aprobaba', 'apruebe', 'aprobara'], correct: 2 },
-      { question: 'Los consumidores mayores ___ (mostrar) gran interés recientemente. (Pretérito Perfecto)', options: ['mostraron', 'han mostrado', 'mostraban', 'muestren'], correct: 1 },
-      { question: 'Me alegro de que tú ___ (estar) dispuesto a probar. (Presente de Subjuntivo)', options: ['estás', 'estabas', 'estés', 'estuvieras'], correct: 2 }
+      { question: 'La empresa ya ___ (cultivar) millones de insectos este año.', options: ['ha cultivado', 'cultivó', 'cultivaba', 'cultive'], correct: 0 },
+      { question: 'Ayer nosotros ___ (probar) el pan con harina de insectos.', options: ['hemos probado', 'probábamos', 'probamos', 'probemos'], correct: 2 },
+      { question: 'Cuando era joven, mi abuelo nunca ___ (comer) insectos.', options: ['comió', 'ha comido', 'comía', 'coma'], correct: 2 },
+      { question: '___ (Probar, tú) este producto nuevo, es muy nutritivo.', options: ['Prueba', 'Pruebes', 'Probas', 'Probarás'], correct: 0 },
+      { question: 'No ___ (tener, tú) miedo de probar algo diferente.', options: ['tienes', 'tengas', 'ten', 'tener'], correct: 1 },
+      { question: 'Es importante que nosotros ___ (reducir) el consumo de carne.', options: ['reducimos', 'reducíamos', 'reduzcamos', 'redujéramos'], correct: 2 },
+      { question: 'Los científicos ___ (descubrir) que los insectos son ricos en omega-3.', options: ['descubrieron', 'han descubierto', 'descubrían', 'descubran'], correct: 1 },
+      { question: 'La semana pasada ellos ___ (automatizar) todo el proceso.', options: ['automatizaron', 'han automatizado', 'automatizaban', 'automaticen'], correct: 0 },
+      { question: 'Antes la gente ___ (ser) más conservadora con la comida.', options: ['fue', 'ha sido', 'era', 'sea'], correct: 2 },
+      { question: '___ (Consumir, vosotros) más proteínas naturales.', options: ['Consumid', 'Consumís', 'Consumáis', 'Consumiréis'], correct: 0 },
+      { question: 'No ___ (desperdiciar, vosotros) esta oportunidad de probar.', options: ['desperdiciáis', 'desperdiciéis', 'desperdiciéis', 'desperdiciárais'], correct: 1 },
+      { question: 'Dudo que los insectos ___ (ser) la única solución.', options: ['son', 'eran', 'sean', 'fueran'], correct: 2 },
+      { question: 'Este mes la producción ___ (aumentar) significativamente.', options: ['aumentó', 'ha aumentado', 'aumentaba', 'aumente'], correct: 1 },
+      { question: 'En 2020 la empresa ___ (empezar) a vender sus productos.', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0 },
+      { question: 'Mientras los insectos ___ (vivir), necesitan temperaturas constantes.', options: ['vivieron', 'han vivido', 'vivían', 'vivan'], correct: 2 },
+      { question: '___ (Ser, usted) audaz y pruebe algo nuevo.', options: ['Es', 'Sea', 'Eres', 'Seas'], correct: 1 },
+      { question: 'No ___ (creer, ustedes) todo lo que dicen los críticos.', options: ['creen', 'crean', 'creían', 'creyeran'], correct: 1 },
+      { question: 'Es posible que la UE ___ (aprobar) nuevas regulaciones.', options: ['aprueba', 'aprobaba', 'apruebe', 'aprobara'], correct: 2 },
+      { question: 'Los consumidores mayores ___ (mostrar) gran interés recientemente.', options: ['mostraron', 'han mostrado', 'mostraban', 'muestren'], correct: 1 },
+      { question: 'Me alegro de que tú ___ (estar) dispuesto a probar.', options: ['estás', 'estabas', 'estés', 'estuvieras'], correct: 2 }
     ]
   },
   'ex-9-4-gusanos-translation': {
