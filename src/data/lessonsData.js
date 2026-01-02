@@ -11484,26 +11484,6 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
         videoUrl: '/video/¿Cómo reduci el nerviosismo y dejar la timidez de lado.mp4'
       },
       {
-        tab: 'Dejar de dudar',
-        videoUrl: '/video/Como dejar de dudar de uno mismo.mp4'
-      },
-      {
-        tab: 'Las emociones curan',
-        videoUrl: '/video/Las emociones curan.mp4'
-      },
-      {
-        tab: 'Creamos nuestras emociones',
-        videoUrl: '/video/Nosotros creamos nuestras emociones.mp4'
-      },
-      {
-        tab: 'Por que te pones malo con el estres',
-        videoUrl: '/video/Por que te pones malo con el estres.mp4'
-      },
-      {
-        tab: 'Abrazos y Oxitocina',
-        videoUrl: '/video/Abrazos y Oxitocina.mp4'
-      },
-      {
         tab: '¿Qué es la microbiota?',
         videoUrl: '/video/¿Qué es la microbiota.mp4'
       },
