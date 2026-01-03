@@ -9582,6 +9582,79 @@ Esta tarde Antonio tiene mucha hambre y a las dos ya están comiendo.`
         content: `En su habitación, sentado cerca de la ventana, Antonio está leyendo. Un periódico, después otro. Los lee todos. Han despertado su imaginación.
 Claro que va a escribir algo sobre este misterio. Pero debe saber más, saberlo todo. Y ver la sinagoga. Sí, eso es… Pero va a estar cerrada hasta Navidad. Solo pueden entrar los arqueólogos.
 No puede ser. Antonio no sabe cómo, pero va a entrar en esa sinagoga. ¿Cómo quedarse sin verla? ¿Cómo quedarse sin su historia? Es imposible. Su nuevo libro lo está esperando.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 1',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 1',
+        content: `Cándido sale del hotel. La noche es más negra que nunca. Nadie pasa por las calles tranquilas de Toledo. En el reloj de la plaza son las cuatro. Pero Cándido no podía dormir.
+No puede olvidar las últimas semanas: el paquete con los periódicos… la llave… el calor de Córdoba… las inscripciones… la música del bar… El misterio de la sinagoga azul. Hasta que, por fin, llegó a Toledo para contestar a sus preguntas.
+No va a ser fácil. Él lo sabe. Para empezar, nadie lo llamó. Pero están los periódicos. Alguien los envió. Entonces alguien lo espera. Pero ¿quién? ¿Y dónde? ¿En la sinagoga, quizás?
+Cándido anda muy rápido. El ruido de sus zapatos sobre las piedras de la calle rompe la noche.
+Ya está cerca de la sinagoga. Por fin va a saber quién lo espera allí. Y va a entrar, entrar para leer las inscripciones de la llave.
+Él sí va a poder hacerlo.
+Un pájaro de la noche llega hasta una ventana. Cándido oye el ruido y mira hacia arriba. Por un momento se para. Pero debe seguir su camino. Pasa una plaza y entra en una calle pequeña. Detrás de la última esquina está la sinagoga.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 2',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 2',
+        content: `Cándido está muy nervioso, pero no puede volver atrás.
+Corre hasta llegar a la otra calle. Ya está. Delante de él, el Palacio de Úbeda. Allí no hay nadie más que él.
+Cándido no puede pensar. ¿Qué ocurre? Esperaba encontrar a alguien allí, a la persona de los periódicos. Por un momento no sabe qué hacer: ¿volver al hotel?, ¿tomar otro tren hasta Córdoba?
+No, claro que no. Cándido no sabe si alguien quiere algo de él, pero ahí está la sinagoga azul. Y detrás de su puerta está el misterio importante de verdad, el misterio de las inscripciones. Esa llave de hace ochocientos años puede hacerle olvidar los años de cárcel, los días negros, la mala suerte. Y va a entrar. Cándido saca de su chaqueta una pequeña llave especial. Con ella puede abrir todas las puertas, también esta. Cándido mete la llave y le da varias vueltas. Oye un pequeño ruido y se sonríe.
+Sabe que la puerta se está abriendo.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 3',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 3',
+        content: `Dentro no hay luz. Apenas ve delante de él unas pequeñas escaleras. Busca en su bolso, ha traído una linterna. Con ella en la mano, baja con cuidado y llega a una habitación. Es muy grande, pero solo tiene una mesa y unas sillas en el centro. Hay una puerta abierta. ¿Adónde lleva, a la cocina?
+Quizás. Allí quiere llegar Cándido. Sabe que la sinagoga está debajo de la cocina del palacio. Pero no. Aquello no es la cocina. Es otra habitación un poco más pequeña y estrecha que la primera. En ella hay una escalera para subir al piso alto y otra puerta. Cándido entra por ella y llega a otra habitación. Ya está cerca, está seguro. Encima de una mesa grande ve muchos libros, algunas piedras, y otras cosas de la sinagoga.
+Los arqueólogos deben de usar este sitio para sus trabajos en la excavación. Claro, allí están las tres copas de oro y la llave.
+¡La llave! ¡Delante de él! Ya casi puede cogerla, tenerla en su mano…
+Cándido ha esperado este momento desde hace semanas. Lo ha imaginado miles de veces.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 4',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 4',
+        content: `Bajo la blanca luz de su linterna, las inscripciones de la llave parecen moverse. No, no se mueven. Son todavía palabras muertas. Pero él va a hacerlas vivir. Por fin va a conocer la verdad de la sinagoga, una verdad escondida desde hace años y años.
+Cándido empieza a leer muy bajo: Como mi sinagoga abre la puerta de la verdad, esta llave abre el tesoro de Samuel-Ha-Leví…
+Las primeras palabras están en árabe y es fácil entenderlas. Pero después… Cándido no puede seguir. Debe de ser hebreo o quizás un árabe más antiguo, no lo sabe.
+¡El tesoro de Samuel-Ha-Leví! ¡El tesoro de Samuel-Ha-Leví! –se dice Cándido una y otra vez–. Así que es verdad, en un lugar de Toledo hay un tesoro, pero ¿dónde? Aquí Cándido no puede pensar. Debe llevarse la llave al hotel y allí trabajar con sus libros.
+Pero ahora no. Antes de irse quiere ver la sinagoga.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 5',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 5',
+        content: `Deja la llave encima de la mesa y sale de la habitación. ¡Esa es la cocina del palacio! Una pared y también el suelo están rotos. Allí debajo, al final de esa escalera de piedra… ¡Por fin, la sinagoga azul! ¡Tan bonita como la imaginaba! ¡Mucho más bonita!
+Cándido lo mira todo sin poder moverse: los bancos de piedra, el suelo de tierra roja, las paredes azules…
+Solo después de unos minutos entra nervioso. Va hacia una de estas paredes y pasa sus manos por ella. Está muy fría. Su color es raro, un azul diferente, casi verde. En algunos sitios tiene dibujos de pájaros blancos.
+Cándido casi no lo puede creer. Lleva seis años sin estar en una excavación. Esa sinagoga va a darle suerte. Está seguro. Va a trabajar en la inscripción de la llave hasta encontrar el tesoro de Samuel-Ha-Leví.
+Para ello debe llevarse la llave. Sabe que no debe, pero no puede hacer otra cosa. Nadie le va a dejar trabajar en la sinagoga. Todos saben quién es y dónde ha estado los últimos años. Robar otra vez. Él no quería, pero lo va a hacer para llegar al tesoro.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 6',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 6',
+        content: `Otra vez la escalera de piedra, la cocina. Cándido vuelve a la habitación de los arqueólogos. Encima de la mesa están los libros, las piedras, las copas, pero…
+¡La llave! ¡La llave no está! ¡Alguien la ha robado!
+Cándido mira en el suelo. No está. Entonces oye un ruido y ve a alguien correr hacia afuera, un hombre alto y delgado. Cándido lo sigue hasta la calle.
+Ahora entiende qué ha pasado. No ha cerrado la puerta del palacio después de entrar en él.
+El hombre corre rápido por la noche de Toledo. Cándido va detrás. Ve cómo va hacia la derecha y sube por una calle estrecha. Por fin se para delante de una casa vieja y Cándido se queda en una esquina, escondido en la noche, con la cabeza llena de preguntas.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 7',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 7',
+        content: `Antes de entrar en la casa de su abuela Antonio espera unos minutos. Mira por todos lados: nadie. Se sonríe, por fin ha dejado atrás al hombre de la sinagoga.
+Ya está en casa y tiene la llave. Debe estar tranquilo. Mira otra vez a la calle. No, nada. Nadie lo sigue.
+Pero ¿quién puede ser ese hombre? ¿Cómo imaginar que la puerta de la sinagoga podía estar abierta?
+Antonio entra en el portal y sube lento las escaleras. Piensa en todas esas preguntas imposibles de contestar. Ya en su habitación, se sienta en la cama y mira su reloj. Son las cinco. Todo ha ocurrido muy rápido. Él quería ver la sinagoga para escribir su historia. Pero no la vio. Solo ha robado una llave en una excavación. Él, robar. Y además, lo ha seguido un hombre.
+¡Es demasiado! Está muy nervioso. Antes escribía libros, ahora los vive.`
+      },
+      {
+        tab: 'Capitulo 3 - Fragmento 8',
+        title: 'El misterio de la llave - Capítulo 3, Fragmento 8',
+        content: `Desde la esquina de la calle, Cándido ha visto a Antonio entrar en una casa. Ya sabe dónde encontrarlo, pero esa noche prefiere dejarlo tranquilo. Quiere hacerle creer que está seguro. Además, no sabe si alguien más vive allí.
+Debe prepararse, pensar en cómo hacer, qué decir. No entiende qué ha pasado. Él pensaba encontrar a alguien en la sinagoga, es verdad. Pero creía que ese alguien lo esperaba. No que esa persona iba a robarle la llave.
+Una cosa es segura: mañana va a volver. Mañana va a saber quién le envió los periódicos. Y también dónde está el tesoro de Samuel Ha-Leví.
+Ya está, muy cerca, la llave del misterio.`
       }
     ],
     exercises: [
