@@ -9523,12 +9523,15 @@ Por fin, después de esperar un buen cuarto de hora, doña Blanca puede hablar c
       {
         tab: 'Capitulo 2 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 3',
-        content: ``
+        content: `Doña Blanca sale de la tienda. Llega a la Plaza Mayor y se pierde por las estrechas calles de Toledo. Las casas están muy cerca unas de otras y parecen cerrar las calles por arriba. Allí, los pájaros buscan comida y esperan el otoño para dejar Toledo e ir hacia países más calientes. Hacia otras tierras de inviernos menos fríos y difíciles. Son las doce de la mañana y el sol está muy alto. Los niños juegan en los parques y jardines de la ciudad.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 4',
-        content: ``
+        content: `Una hora más tarde, el tren de Madrid entra en Toledo. Antonio mira por la ventana y ve pasar, ya muy lentos, los anchos campos amarillos. Se prepara para salir. Cierra su libro y se pone de pie. Con el bolso de viaje en una mano y el libro en la otra, espera. Por fin el tren se para en la estación.
+Hay mucha gente en la estación. Todos tienen prisa, pero Antonio no. Sabe que nadie ha venido a esperarlo. Se sienta en un banco. Le gusta mirar a las personas e imaginar cómo son. ¿Qué hacen?, ¿cómo se llaman?, ¿cómo pasan el tiempo?…
+Antonio ve pasar a un hombre bajo y moreno. No es feo, pero tiene un ojo medio cerrado. Lleva un pantalón gris, una camisa azul claro y un sombrero también de ese color. Fuma un cigarrillo y parece buscar nervioso a alguien entre la gente. Antonio empieza a imaginar quién es. Le parece un hombre de ciudad, cansado y gris. Un hombre solo. Seguro que no está casado. Debe de trabajar en un banco, siempre entre números.
+Pronto, Antonio se olvida del hombre y empieza a mirar divertido a dos jóvenes muy bonitas. Una de ellas es alta y tiene un pelo rubio muy largo. Lleva un vestido amarillo. La otra chica es morena, pero también muy alta. Pasan delante de él. Lo miran y sonríen. Después, se pierden entre la gente.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 5',
@@ -9538,22 +9541,43 @@ Por fin, después de esperar un buen cuarto de hora, doña Blanca puede hablar c
       {
         tab: 'Capitulo 2 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 6',
-        content: ``
+        content: `Doña Blanca abre. Por fin ha llegado su querido Antonio, muy alto y delgado. Sí, como ella. Está tan guapo como siempre. Y tan simpático.
+Es verdad. A Antonio le gusta mucho hablar. Quiere mucho a su abuela, la madre de su padre, y pasa bastante tiempo con ella en Toledo.
+Esta tarde Antonio tiene mucha hambre y a las dos ya están comiendo.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 7',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 7',
-        content: ``
+        content: `— Abuela, ¡qué rico está el pollo!
+— ¿Te gusta, hijo? Qué bien. Y ahora, dime, ¿qué tal están tus hermanos?
+— Muy bien, abuela. Carlos está trabajando en el hospital de siempre. Es muy buen médico. Y María está buscando trabajo. Ha dejado el otro. No le gustaba. Ya sabes, no es la primera vez: encuentra algo y después de unos meses se cansa y se va. Claro que esto también me ocurre a mí.
+— Pero ¿qué quieres decir? ¿No estás contento con tu trabajo?
+— No, la verdad, no me gusta demasiado. Estoy todo el día en la oficina y no puedo escribir. No tengo tiempo.
+— Sí, y escribir debe de ser muy interesante, ¿verdad? Cuéntame, chico, ¿qué escribes?
+— Pues… historias de viajes, de misterio…, escribo sobre el mar, sobre… A veces también envío cosas a un periódico. Un poco de todo, abuela.
+— ¡Qué listo, hijo!
+— No, abuela, listo no. Pero con eso me divierto. Ahora, por ejemplo, estoy buscando una historia. Es como un juego. ¿Tú crees que puedo encontrar algo interesante en Toledo? ¿Por qué no me ayudas? Seguro que sabes alguna historia divertida de por aquí. También puedo escribir cosas de ti, ¿quieres?`
       },
       {
         tab: 'Capitulo 2 - Fragmento 8',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 8',
-        content: ``
+        content: `— ¡Escribir sobre mí! ¿Estás tonto o qué? Vamos, vamos. ¡Qué dices! Hay cosas mucho más interesantes que yo en esta ciudad, digo yo; la sinagoga, sin ir más lejos. Claro que tú buscas una historia divertida y eso…
+— ¿La sinagoga? ¿Qué sinagoga?
+— La sinagoga azul. ¿No lo sabes? Los obreros del Ayuntamiento la han descubierto hace poco. Ahora la están estudiando unos arqueólogos.
+— ¡Qué interesante! ¿Y dónde está?
+— Está en el Palacio de Úbeda, cerca del Taller del Moro. Y ¿sabes una cosa? Dentro han encontrado una llave muy grande, con unas inscripciones en árabe y en hebreo. Tú sabes árabe, ¿verdad?
+— Sí, pero solo un poco. Y dime, abuela, ¿los arqueólogos han podido leer ya las inscripciones?
+— No. Uno ha dicho que son muy difíciles. Y, hasta ahora, solo han podido leer las primeras palabras.
+— Sigue, por favor, abuela. ¿Qué más?
+— Nada seguro. Mira, aquí todos hablan mucho. La gente dice que los señores de Úbeda debían de ser judíos. Pero yo no lo creo. También he oído en la tienda de don Cosme que la llave es de un tesoro. Una amiga mía dice que eso dijo también un arqueólogo el otro día. Perro… espera. Para saber más, puedes leer los periódicos de estos últimos dos meses. Están en tu habitación, encima de la mesa. Anda, vete a verlos.
+— Gracias, abuela. Eres la mejor. Creo que ahí tengo una historia para un buen libro.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 9',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 9',
-        content: ``
+        content: `En su habitación, sentado cerca de la ventana, Antonio está leyendo. Un periódico, después otro. Los lee todos. Han despertado su imaginación.
+Claro que va a escribir algo sobre este misterio. Pero debe saber más, saberlo todo. Y ver la sinagoga. Sí, eso es… Pero va a estar cerrada hasta Navidad. Solo pueden entrar los arqueólogos.
+No puede ser. Antonio no sabe cómo, pero va a entrar en esa sinagoga. ¿Cómo quedarse sin verla? ¿Cómo quedarse sin su historia? Es imposible. Su nuevo libro lo está esperando.`
       }
     ],
     exercises: [
