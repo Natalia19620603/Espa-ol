@@ -9871,8 +9871,8 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
     ],
     exercises: [
       'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
-      'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7',
-      'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6',
+      'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7', 'ex-9-1-c2-f8', 'ex-9-1-c2-f9',
+      'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6', 'ex-9-1-c3-f7', 'ex-9-1-c3-f8',
       'ex-9-1-c4-f1', 'ex-9-1-c4-f2', 'ex-9-1-c4-f3', 'ex-9-1-c4-f4', 'ex-9-1-c4-f5', 'ex-9-1-c4-f6', 'ex-9-1-c4-f7', 'ex-9-1-c4-f8',
       'ex-9-1-c5-f1', 'ex-9-1-c5-f2', 'ex-9-1-c5-f3', 'ex-9-1-c5-f4', 'ex-9-1-c5-f5'
     ]
@@ -16323,10 +16323,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 1 - Fragmento 1',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué pasó al principio del fragmento?', type: 'open' },
-      { question: '¿Quién es el personaje principal?', type: 'open' },
-      { question: '¿Dónde ocurre la acción?', type: 'open' }
+      { question: '¿Quién es Cándido y dónde vive?', type: 'open' },
+      { question: '¿Qué recibió Cándido en un paquete?', type: 'open' },
+      { question: '¿Qué hacía Cándido cuando recibió el paquete?', type: 'open' },
+      { question: '¿Por qué está nervioso Cándido?', type: 'open' },
+      { question: '¿Cuál es la profesión de Cándido?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f2': {
@@ -16334,10 +16337,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 1 - Fragmento 2',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué descubrió el personaje?', type: 'open' },
-      { question: '¿Qué hizo después?', type: 'open' },
-      { question: '¿Cómo reaccionó?', type: 'open' }
+      { question: '¿Cómo se siente Cándido ahora?', type: 'open' },
+      { question: '¿Qué ve Cándido por la ventana?', type: 'open' },
+      { question: '¿De dónde viene la música?', type: 'open' },
+      { question: '¿Qué preguntas se hace Cándido?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f3': {
@@ -16345,10 +16350,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 1 - Fragmento 3',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué evento importante ocurrió?', type: 'open' },
-      { question: '¿Quién apareció en la escena?', type: 'open' },
-      { question: '¿Qué dijeron?', type: 'open' }
+      { question: '¿Tiene hambre y sed Cándido?', type: 'open' },
+      { question: '¿Por qué no sale de casa?', type: 'open' },
+      { question: '¿Qué hace Cándido en la cocina?', type: 'open' },
+      { question: '¿Qué hace después de volver a su habitación?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f4': {
@@ -16356,10 +16363,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 1 - Fragmento 4',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué problema surgió?', type: 'open' },
-      { question: '¿Cómo intentaron resolverlo?', type: 'open' },
-      { question: '¿Cuál fue el resultado?', type: 'open' }
+      { question: '¿Qué han encontrado en el Palacio de Úbeda?', type: 'open' },
+      { question: '¿Quién encontró el pequeño tesoro?', type: 'open' },
+      { question: '¿Qué había en el tesoro?', type: 'open' },
+      { question: '¿Qué tiene la llave?', type: 'open' },
+      { question: '¿Alguien ha podido entender las inscripciones?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f5': {
@@ -16367,10 +16377,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 1 - Fragmento 5',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué decisión tomó el personaje?', type: 'open' },
-      { question: '¿Por qué tomó esa decisión?', type: 'open' },
-      { question: '¿Qué consecuencias tuvo?', type: 'open' }
+      { question: '¿Cómo se siente Cándido al leer sobre la sinagoga?', type: 'open' },
+      { question: '¿Está seguro Cándido de poder leer las inscripciones?', type: 'open' },
+      { question: '¿Cuánto tiempo hace que Cándido no trabaja?', type: 'open' },
+      { question: '¿Qué empieza a entender Cándido?', type: 'open' },
+      { question: '¿Quién le envió el paquete según Cándido?', type: 'open' },
+      { question: '¿Qué hora es y qué estación del año llega?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f6': {
@@ -16378,10 +16392,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 1 - Fragmento 6',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Cómo terminó el capítulo?', type: 'open' },
-      { question: '¿Qué misterio quedó sin resolver?', type: 'open' },
-      { question: '¿Qué esperas que pase después?', type: 'open' }
+      { question: '¿Qué decide hacer Cándido?', type: 'open' },
+      { question: '¿Puede ser peligroso volver a Toledo?', type: 'open' },
+      { question: '¿Cuándo salió Cándido de la cárcel?', type: 'open' },
+      { question: '¿Qué espera Cándido de este viaje?', type: 'open' },
+      { question: '¿Qué quiere evitar Cándido?', type: 'open' }
     ]
   },
 
@@ -16391,10 +16408,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 1',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Qué pasó al inicio del capítulo 2?', type: 'open' },
-      { question: '¿Dónde estaban los personajes?', type: 'open' },
-      { question: '¿Qué buscaban?', type: 'open' }
+      { question: '¿Quién es don Cosme y qué hace?', type: 'open' },
+      { question: '¿Dónde está la tienda de don Cosme?', type: 'open' },
+      { question: '¿Quién es doña Blanca?', type: 'open' },
+      { question: '¿Cuánto tiempo hace que se conocen don Cosme y doña Blanca?', type: 'open' },
+      { question: '¿Por qué va doña Blanca a la tienda?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f2': {
@@ -16402,10 +16422,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 2',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Qué encontraron?', type: 'open' },
-      { question: '¿Qué significado tenía?', type: 'open' },
-      { question: '¿Cómo reaccionaron?', type: 'open' }
+      { question: '¿Quién viene a casa de doña Blanca?', type: 'open' },
+      { question: '¿Quién es Antonio?', type: 'open' },
+      { question: '¿Dónde trabaja Antonio?', type: 'open' },
+      { question: '¿Qué le gusta hacer a Antonio?', type: 'open' },
+      { question: '¿Qué comida va a preparar doña Blanca?', type: 'open' },
+      { question: '¿Qué compra doña Blanca en la tienda?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f3': {
@@ -16413,10 +16437,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 3',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Quién llegó inesperadamente?', type: 'open' },
-      { question: '¿Qué información trajo?', type: 'open' },
-      { question: '¿Cambió esto el curso de la historia?', type: 'open' }
+      { question: '¿Adónde va doña Blanca después de salir de la tienda?', type: 'open' },
+      { question: '¿Cómo son las calles de Toledo?', type: 'open' },
+      { question: '¿Qué hora es?', type: 'open' },
+      { question: '¿Qué hacen los pájaros?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f4': {
@@ -16424,10 +16450,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 4',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Qué nuevo misterio apareció?', type: 'open' },
-      { question: '¿Qué pistas encontraron?', type: 'open' },
-      { question: '¿Qué teorías tienen los personajes?', type: 'open' }
+      { question: '¿De dónde llega el tren?', type: 'open' },
+      { question: '¿Qué hace Antonio en la estación?', type: 'open' },
+      { question: '¿Le gusta a Antonio mirar a la gente?', type: 'open' },
+      { question: '¿Qué hombre ve Antonio?', type: 'open' },
+      { question: '¿Qué imagina Antonio sobre este hombre?', type: 'open' },
+      { question: '¿A quiénes mira después Antonio?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f5': {
@@ -16435,10 +16465,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 5',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Qué acción tomaron los personajes?', type: 'open' },
-      { question: '¿Tuvieron éxito?', type: 'open' },
-      { question: '¿Qué obstáculos enfrentaron?', type: 'open' }
+      { question: '¿Dónde está la estación de Toledo?', type: 'open' },
+      { question: '¿Cómo va Antonio a casa de su abuela?', type: 'open' },
+      { question: '¿Dónde está la Plaza de Zocodover?', type: 'open' },
+      { question: '¿Qué hace Antonio en el autobús?', type: 'open' },
+      { question: '¿Por dónde pasa Antonio para llegar a casa de su abuela?', type: 'open' },
+      { question: '¿Dónde vive doña Blanca?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f6': {
@@ -16446,10 +16480,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 6',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Qué revelación importante hubo?', type: 'open' },
-      { question: '¿Cómo afectó esto a los personajes?', type: 'open' },
-      { question: '¿Qué decisiones tomaron?', type: 'open' }
+      { question: '¿Cómo es Antonio físicamente?', type: 'open' },
+      { question: '¿A quién se parece Antonio?', type: 'open' },
+      { question: '¿Le gusta hablar a Antonio?', type: 'open' },
+      { question: '¿Cuándo comen Antonio y su abuela?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f7': {
@@ -16457,10 +16493,46 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 2 - Fragmento 7',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Cómo terminó el capítulo 2?', type: 'open' },
-      { question: '¿Qué conflicto quedó pendiente?', type: 'open' },
-      { question: '¿Qué crees que pasará en el siguiente capítulo?', type: 'open' }
+      { question: '¿Le gusta el pollo a Antonio?', type: 'open' },
+      { question: '¿Qué hacen los hermanos de Antonio?', type: 'open' },
+      { question: '¿Le gusta a Antonio su trabajo en la oficina?', type: 'open' },
+      { question: '¿Qué escribe Antonio?', type: 'open' },
+      { question: '¿Qué busca Antonio en Toledo?', type: 'open' },
+      { question: '¿Qué pide Antonio a su abuela?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f8': {
+    id: 'ex-9-1-c2-f8',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 8',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { question: '¿De qué habla la abuela?', type: 'open' },
+      { question: '¿Qué han descubierto en Toledo?', type: 'open' },
+      { question: '¿Dónde está la sinagoga azul?', type: 'open' },
+      { question: '¿Qué encontraron dentro de la sinagoga?', type: 'open' },
+      { question: '¿Sabe Antonio árabe?', type: 'open' },
+      { question: '¿Han podido leer las inscripciones los arqueólogos?', type: 'open' },
+      { question: '¿Qué dice la gente sobre la llave?', type: 'open' },
+      { question: '¿Dónde puede leer Antonio más información?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c2-f9': {
+    id: 'ex-9-1-c2-f9',
+    type: 'audio-comprehension',
+    title: 'Capítulo 2 - Fragmento 9',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { question: '¿Qué hace Antonio en su habitación?', type: 'open' },
+      { question: '¿Qué han despertado los periódicos?', type: 'open' },
+      { question: '¿Va a escribir Antonio sobre este misterio?', type: 'open' },
+      { question: '¿Hasta cuándo va a estar cerrada la sinagoga?', type: 'open' },
+      { question: '¿Quiénes pueden entrar en la sinagoga?', type: 'open' },
+      { question: '¿Qué decide Antonio?', type: 'open' }
     ]
   },
 
@@ -16470,10 +16542,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 3 - Fragmento 1',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
     questions: [
-      { question: '¿Qué sucedió al comenzar el capítulo 3?', type: 'open' },
-      { question: '¿Cuál era el estado de ánimo de los personajes?', type: 'open' },
-      { question: '¿Qué plan tenían?', type: 'open' }
+      { question: '¿Qué hora es cuando Cándido sale del hotel?', type: 'open' },
+      { question: '¿Cómo es la noche en Toledo?', type: 'open' },
+      { question: '¿Por qué no podía dormir Cándido?', type: 'open' },
+      { question: '¿Qué no puede olvidar Cándido?', type: 'open' },
+      { question: '¿Adónde va Cándido?', type: 'open' },
+      { question: '¿Qué espera hacer en la sinagoga?', type: 'open' }
     ]
   },
   'ex-9-1-c3-f2': {
@@ -16481,10 +16557,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 3 - Fragmento 2',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
     questions: [
-      { question: '¿Qué descubrimiento hicieron?', type: 'open' },
-      { question: '¿Era lo que esperaban?', type: 'open' },
-      { question: '¿Qué hicieron con esta información?', type: 'open' }
+      { question: '¿Está nervioso Cándido?', type: 'open' },
+      { question: '¿Qué ve delante de él?', type: 'open' },
+      { question: '¿Qué esperaba encontrar allí?', type: 'open' },
+      { question: '¿Qué puede hacerle olvidar la llave?', type: 'open' },
+      { question: '¿Qué saca Cándido de su chaqueta?', type: 'open' },
+      { question: '¿Qué hace con la llave especial?', type: 'open' }
     ]
   },
   'ex-9-1-c3-f3': {
@@ -16492,10 +16572,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 3 - Fragmento 3',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
     questions: [
-      { question: '¿Qué personaje nuevo apareció?', type: 'open' },
-      { question: '¿Qué relación tiene con la trama?', type: 'open' },
-      { question: '¿Es aliado o enemigo?', type: 'open' }
+      { question: '¿Hay luz dentro del palacio?', type: 'open' },
+      { question: '¿Qué ha traído Cándido?', type: 'open' },
+      { question: '¿Qué hay en la primera habitación?', type: 'open' },
+      { question: '¿Dónde está la sinagoga según Cándido?', type: 'open' },
+      { question: '¿Qué ve Cándido en la habitación de los arqueólogos?', type: 'open' },
+      { question: '¿Cuánto tiempo ha esperado Cándido este momento?', type: 'open' }
     ]
   },
   'ex-9-1-c3-f4': {
@@ -16503,10 +16587,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 3 - Fragmento 4',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
     questions: [
-      { question: '¿Qué conflicto surgió?', type: 'open' },
-      { question: '¿Cómo intentaron resolverlo?', type: 'open' },
-      { question: '¿Hubo consecuencias?', type: 'open' }
+      { question: '¿Qué empieza a leer Cándido?', type: 'open' },
+      { question: '¿En qué idiomas están las inscripciones?', type: 'open' },
+      { question: '¿Puede Cándido seguir leyendo después del árabe?', type: 'open' },
+      { question: '¿De quién es el tesoro?', type: 'open' },
+      { question: '¿Dónde está el tesoro?', type: 'open' },
+      { question: '¿Qué quiere hacer Cándido antes de irse?', type: 'open' }
     ]
   },
   'ex-9-1-c3-f5': {
@@ -16514,10 +16602,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 3 - Fragmento 5',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
     questions: [
-      { question: '¿Qué giro inesperado ocurrió?', type: 'open' },
-      { question: '¿Cómo cambió la situación?', type: 'open' },
-      { question: '¿Qué opciones tienen ahora?', type: 'open' }
+      { question: '¿Dónde deja Cándido la llave?', type: 'open' },
+      { question: '¿Cómo es la sinagoga azul?', type: 'open' },
+      { question: '¿De qué color son las paredes?', type: 'open' },
+      { question: '¿Qué hay dibujado en las paredes?', type: 'open' },
+      { question: '¿Cuántos años lleva Cándido sin estar en una excavación?', type: 'open' },
+      { question: '¿Por qué decide Cándido llevarse la llave?', type: 'open' },
+      { question: '¿Qué va a hacer otra vez Cándido?', type: 'open' }
     ]
   },
   'ex-9-1-c3-f6': {
@@ -16525,10 +16618,45 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 3 - Fragmento 6',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
     questions: [
-      { question: '¿Cómo concluyó el capítulo 3?', type: 'open' },
-      { question: '¿Se resolvió algún misterio?', type: 'open' },
-      { question: '¿Qué nuevas preguntas surgieron?', type: 'open' }
+      { question: '¿Está la llave encima de la mesa?', type: 'open' },
+      { question: '¿Quién ha robado la llave?', type: 'open' },
+      { question: '¿Qué ve Cándido?', type: 'open' },
+      { question: '¿Qué entiende Cándido?', type: 'open' },
+      { question: '¿Adónde corre el hombre?', type: 'open' },
+      { question: '¿Dónde se para el hombre?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f7': {
+    id: 'ex-9-1-c3-f7',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 7',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
+    questions: [
+      { question: '¿Dónde entra Antonio?', type: 'open' },
+      { question: '¿Ha dejado atrás al hombre de la sinagoga?', type: 'open' },
+      { question: '¿Qué tiene Antonio?', type: 'open' },
+      { question: '¿Quién puede ser ese hombre?', type: 'open' },
+      { question: '¿Qué hora es?', type: 'open' },
+      { question: '¿Vio Antonio la sinagoga?', type: 'open' },
+      { question: '¿Qué ha hecho Antonio?', type: 'open' }
+    ]
+  },
+  'ex-9-1-c3-f8': {
+    id: 'ex-9-1-c3-f8',
+    type: 'audio-comprehension',
+    title: 'Capítulo 3 - Fragmento 8',
+    description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FFF9C4',
+    questions: [
+      { question: '¿Dónde está Cándido?', type: 'open' },
+      { question: '¿Qué ha visto Cándido?', type: 'open' },
+      { question: '¿Qué prefiere hacer esa noche?', type: 'open' },
+      { question: '¿Qué quiere hacerle creer a Antonio?', type: 'open' },
+      { question: '¿Qué pensaba Cándido?', type: 'open' },
+      { question: '¿Qué va a hacer Cándido mañana?', type: 'open' }
     ]
   },
 
