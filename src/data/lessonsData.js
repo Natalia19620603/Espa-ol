@@ -11719,9 +11719,11 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
           { word: 'por consiguiente', translation: 'следовательно, таким образом' },
           { word: 'la ansiedad', translation: 'тревога, беспокойство' },
           { word: 'disminuir', translation: 'уменьшаться, уменьшать' },
+          { word: 'la inflamación', translation: 'воспаление' },
           { word: 'de bajo grado', translation: 'низкого уровня' },
           { word: 'la fibra', translation: 'клетчатка' },
           { word: 'las fuerzas del bien', translation: 'силы добра' },
+          { word: 'intracraneal', translation: 'внутричерепной' },
           { word: 'el nodo', translation: 'узел' },
           { word: 'absorber', translation: 'поглощать, впитывать' },
           { word: 'los ritmos circadianos', translation: 'циркадные ритмы' },
@@ -11812,35 +11814,54 @@ La siguiente cosa que te diría es que se entrenen en una cosa que cada vez tien
       },
       {
         tab: '¿Qué es la microbiota?',
-        content: `¿Qué es la microbiota?
+        content: `Yo creo que nueve de cada diez personas no sabemos lo que es la microbiota. Como experta en la parte digestiva, ¿qué es y cómo funciona?
 
-Marina: Hola. Hoy vamos a hablar sobre el tema que está dando mucho de qué hablar últimamente: La microbiota, y para ello hemos invitado al Doctor Mario Alonso Puig ¿Qué tal Mario?
+Estamos hablando de un organismo vivo que sería como un órgano más en el cuerpo, que está recibiendo información del exterior, que está enviando información al cerebro, que está enviando información a todo el organismo y que está determinando de una manera muy potente nuestra manera de pensar, nuestra manera de percibir la realidad, la manera en la que las células se comunican entre sí.
 
-Dr. Mario Alonso Puig: Hola Marina, muy bien estoy encantado de estar aquí.
+Por ejemplo, ¿cuántas células crees que tenemos? Millones. Aproximadamente 60 trillones, 60 millones de millones de millones. ¿Cuántas bacterias crees que tenemos en el intestino y en las demás? También 10 veces más, 100 veces más de genes que los que tienen las células.
 
-Marina: Mario, tú que has estudiado bastante este tema, ¿qué es la microbiota?
+La microbiota es uno de los grandes descubrimientos que se ha hecho y está en conexión con el **segundo cerebro**, del que llevo hablando muchos años. El segundo cerebro es el tubo digestivo, el cerebro entérico, una serie de neuronas que mantienen la conexión con el sistema inmune.
 
-Dr. Mario Alonso Puig: Bueno, la microbiota es, de alguna manera, un conjunto de microbios que tenemos en diferentes partes de nuestro cuerpo. Y no solamente tenemos microbios en la piel, en la boca, sino que tenemos muchísimos microbios en el intestino. De hecho, se calcula que tenemos unos cien billones de microbios intestinales. Es decir, hay más microbios que células en tu organismo. Y es muy interesante que lo que pasa en el intestino no se queda en el intestino porque estos microbios están enviando señales al cerebro continuamente.
+Por ejemplo, ¿cuál crees tú, Marina, que es la parte del cuerpo que tiene mayor superficie expuesta al exterior? Verdad que te parecería que es la piel, y lo lógico, ¿no? Sí, la piel mide aproximadamente 2 metros cuadrados. ¿Cuánto crees tú que mide el intestino, el intestino delgado, el intestino grueso? Si lo abres, todas las canchas de tenis… se premian las dos canchas de tenis.
 
-Marina: ¿Y qué tipo de información le puede enviar la microbiota al cerebro?
+Por tanto, la parte del organismo que está más expuesta al exterior es el intestino (el tubo digestivo). Y por eso el **80 por ciento** del sistema de defensa del cuerpo está en el tubo digestivo, porque es el sitio desde donde pueden entrar los patógenos, las bacterias, los virus, los tóxicos.
 
-Dr. Mario Alonso Puig: Bueno, hay mucha información que puede enviar, pero déjame que te ponga algunos ejemplos: Por ejemplo, la serotonina, esta sustancia que es un neurotransmisor que tiene tanto que ver con nuestro estado de ánimo, con que nos sintamos bien, con que no nos sintamos bien, el 90 % de la serotonina que hay en tu cuerpo está en el intestino. No está en el cerebro. Y tu microbiota tiene la capacidad de influir en cómo se produce, o no, esta serotonina.
+Entonces, ¿qué ocurre? Que el tubo digestivo, el segundo cerebro, en conexión muy íntima con la microbiota, lo que está haciendo es regular una cantidad de procesos en el organismo que afectan a la salud y afectan a la enfermedad.
 
-Marina: ¿Y qué podemos hacer nosotros para cuidar nuestra microbiota?
+Por ejemplo, hemos oído hablar de enfermedades como la artritis reumatoide, el lupus eritematoso diseminado, o el Alzheimer… enfermedades de muchos tipos. Pues se sabe que pueden tener un origen común. Lo que pasa es que luego cada uno evoluciona de una manera y el origen puede estar en el tubo digestivo. O sea, problemas en la interconexión entre la microbiota.
 
-Dr. Mario Alonso Puig: Hay varios frentes. Primero es que las situaciones de estrés, las situaciones de tensión, alteran la microbiota. Entonces, la persona no solamente se siente mal emocionalmente, sino que la persona se siente mal físicamente. ¿Por qué? Porque al alterarse la microbiota, aparece lo que se llama una inflamación de bajo grado en el organismo, y esta inflamación de bajo grado tiene que ver con depresión, tiene que ver con ansiedad.
+Entiendo que cuidando nuestra alimentación mejoramos la microbiota y, por consiguiente, podemos evitar futuras enfermedades. Una mala adaptación de esa flora, unos problemas en la interconexión entre la microbiota, el tubo digestivo, el cerebro, el sistema cardiovascular pueden estar en el origen de una enfermedad.
 
-Marina: ¡Qué interesante! ¿Y hay algo más que podamos hacer?
+Cuadros como la ansiedad o la depresión, que asolan a tantísimas personas en el mundo, pueden tener parte de su origen en una pobre nutrición. ¿Por qué? Porque la nutrición está afectando directamente a la microbiota.
 
-Dr. Mario Alonso Puig: Por supuesto. Hay que cuidar mucho lo que comemos. Los alimentos ricos en fibra, las verduras, las frutas, los alimentos fermentados como el yogur, el kéfir, ayudan a que nuestra microbiota esté equilibrada. Por el contrario, el azúcar, los alimentos muy procesados, dañan nuestra microbiota.
+Como en películas como *La guerra de las galaxias*, donde están las fuerzas del bien y las fuerzas del mal. Pues también en la microbiota están los **bacteroides**, que son las fuerzas del bien, y los **firmicutes**, que son las fuerzas del mal.
 
-Marina: Entonces, ¿podríamos decir que cuidar nuestra alimentación no solo afecta a nuestro cuerpo sino también a nuestras emociones?
+Dices tú: «¿Por qué está la fuerza del mal?». Porque hacen algunas cosas que no están mal del todo. Entonces, cuando la población de los firmicutes, de las bacterias que son fundamentalmente dañinas, aumenta, la de los bacteroides disminuye, las fuerzas oscuras van ganando, las fuerzas de la luz se van reduciendo y esto produce, por ejemplo, una alteración en lo que se llama las uniones densas en el intestino y empiezan a entrar productos tóxicos que generan lo que se llama la **inflamación crónica de bajo grado**, que está detrás de la mayor parte de las enfermedades.
 
-Dr. Mario Alonso Puig: Exactamente. Hay una conexión directa entre lo que comemos y cómo nos sentimos. De hecho, cada vez hay más evidencia científica de que una microbiota sana puede ayudar a prevenir la depresión y la ansiedad.
+Cuando una persona toma una dieta rica en fibra y pobre en azúcar, entonces ¿qué ocurre? Que las fuerzas luminosas, en la metáfora de *La guerra de las galaxias*, las fuerzas del bien, los bacteroides empiezan a aumentar en su población, los firmicutes bajan y entonces ¿qué ocurre? Que esa inflamación crónica baja, la inflamación del cerebro se reduce en cuadros como la ansiedad, la depresión.
 
-Marina: Fascinante. Muchas gracias Mario por compartir esta información tan valiosa.
+Entonces, a ver si lo he entendido bien: hay enfermedades mentales que tienen su origen en el tubo digestivo y pueden mejorar atacando directamente a este. No, lo bonito es ver que **todo está conectado**. Es decir, que nosotros tendemos a separar las cosas y a estudiarlas como si fueran partes de un reloj y totalmente independientes, y lo que vemos es que está conectado. El pensamiento afecta a los sentimientos, los sentimientos a los procesos hormonales que tienen lugar.
 
-Dr. Mario Alonso Puig: Un placer Marina. Gracias a ti.`,
+Y en lugar de pensar que todo depende del cerebro intracraneal, hoy sabemos que el tubo digestivo, con esa interconexión tan importante que tiene con la microbiota, se convierte en un nodo de información de extraordinario valor.
+
+Qué importante para los niños que tengan algún problema neuronal que las madres sepamos lo que es la microbiota. Sí, y de hecho, por ejemplo, cambios en la nutrición se ha visto que tienen un impacto muy positivo en el autismo, en muchos otros procesos, porque todo está conectado.
+
+O sea, tenemos esta tendencia a ver solo partes y no a ver el todo. Cuando Steve Jobs dio su discurso tan extraordinario en 2005 en la Universidad de Stanford, él hablaba de *connecting the dots*, de conectar los puntos, de que tenemos una tendencia a ver las cosas separadas y que hay belleza, hay verdad en encontrar la unidad entre las cosas.
+
+Que no hubiera imaginado que las bacterias se están comunicando directamente con el cerebro a través de una serie de procesos químicos. Quién diría que las fibras del sistema nervioso vegetativo, compuesto por el simpático y el parasimpático, están mandando información a las bacterias. Es decir, es una cosa verdaderamente extraordinaria que te genera asombro y un sobrecogimiento espectacular, porque te das cuenta de que es un campo infinito.
+
+Y Mario, ¿por qué empezamos ahora a interesarnos más por todo lo relacionado con la microbiota? Hace muchísimos años nadie hablaba de esto. Se consideraba que el tubo digestivo solo servía para absorber los alimentos, que ya está bien, pero hoy en día ya se sabe que hay mucho más que eso, que es una red de comunicación que está formando parte de ese proceso extraordinario que es la mente.
+
+Que la mente no es simplemente información que sucede en el cerebro, que la mente es una red de información que conecta todo, que conecta el cerebro, conecta al corazón, conecta el tubo digestivo y que, de hecho, nos conecta con el exterior.
+
+Por eso, cuando uno se da un paseo por el campo, frente al mar, no simplemente es que sea agradable, es que están sucediendo cosas por dentro. El ser humano es un ser en relación, no solo sus órganos, sus células están en relación, sino que está en relación con todo: con las personas, con la energía que existe, con la luz. Sabemos perfectamente que los ritmos circadianos dependen de la luz solar. Estamos conectados con el exterior. Sabemos que las mareas naturalmente nos influyen. ¿Cómo no nos van a influir?
+
+Pues me parece un campo tan bonito que, claro, uno nunca se puede aburrir si le gusta investigar y explorar esto.
+
+Que la fuerza de la microbiota te acompañe.
+Yo a ti también, Marina. Más os vale.
+
+> El doctor Mario Alonso Puig es especialista en cirugía general y del aparato digestivo, actividad quirúrgica que ejerció durante 26 años. Lleva otros 20 salvando vidas fuera de los quirófanos con su voz tan especial y sus palabras siempre tan acertadas. Le apasiona investigar y seguir formándose para después compartir su sabiduría con una generosidad y humildad digna de una mente experta como es el doctor y gran amigo Mario Alonso Puig.`,
         translation: ``
       },
       {
