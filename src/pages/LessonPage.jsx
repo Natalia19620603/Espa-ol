@@ -425,6 +425,9 @@ function LessonPage() {
                           key={index}
                           className={`${styles.exerciseTab} ${activeReadingTab === index ? styles.activeExerciseTab : ''}`}
                           onClick={() => setActiveReadingTab(index)}
+                          style={{
+                            backgroundColor: tabData.backgroundColor || undefined
+                          }}
                         >
                           {tabData.tab}
                         </button>
@@ -550,7 +553,8 @@ function LessonPage() {
                           style={{
                             flex: '0 0 auto',
                             minWidth: 'fit-content',
-                            whiteSpace: 'nowrap'
+                            whiteSpace: 'nowrap',
+                            backgroundColor: tabData.backgroundColor || undefined
                           }}
                         >
                           {tabData.tab}
@@ -617,7 +621,8 @@ function LessonPage() {
                             style={{
                               flex: '0 0 auto',
                               minWidth: 'fit-content',
-                              whiteSpace: 'nowrap'
+                              whiteSpace: 'nowrap',
+                              backgroundColor: subtabData.backgroundColor || undefined
                             }}
                           >
                             {subtabData.tab}
