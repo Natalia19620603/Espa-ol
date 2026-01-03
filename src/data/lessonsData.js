@@ -11932,8 +11932,7 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
         subtabs: [
           { name: 'Словарь', exercises: ['ex-9-5-microbiota-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-5-microbiota-comprehension'] },
-          { name: 'Грамматика', exercises: ['ex-9-5-microbiota-grammar'] },
-          { name: 'Перевод с русского', exercises: ['ex-9-5-microbiota-translation'] }
+          { name: 'Грамматика', exercises: ['ex-9-5-microbiota-grammar'] }
         ]
       },
       {
@@ -24189,13 +24188,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Vocabulario: ¿Qué es la microbiota?',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'conjunto', options: ['набор, совокупность', 'разделение', 'уменьшение', 'увеличение'], correct: 0 },
-      { spanish: 'el microbio', options: ['микроб', 'микроскоп', 'микрофон', 'микроволновка'], correct: 0 },
-      { spanish: 'enviar', options: ['послать, отправить', 'получать', 'искать', 'находить'], correct: 0 },
-      { spanish: 'el estado de ánimo', options: ['настроение', 'состояние здоровья', 'образ жизни', 'положение'], correct: 0 },
-      { spanish: 'la tensión', options: ['напряжение', 'расслабление', 'спокойствие', 'радость'], correct: 0 },
-      { spanish: 'la inflamación', options: ['воспаление', 'заражение', 'лечение', 'профилактика'], correct: 0 },
-      { spanish: 'la evidencia', options: ['очевидность, доказательство', 'сомнение', 'предположение', 'гипотеза'], correct: 0 }
+      { spanish: 'recibir', options: ['получать, принимать', 'отдавать', 'терять', 'искать'], correct: 0 },
+      { spanish: 'enviar', options: ['послать, отправить', 'получать', 'оставлять', 'терять'], correct: 0 },
+      { spanish: 'percibir', options: ['воспринимать, ощущать', 'забывать', 'отдавать', 'искать'], correct: 0 },
+      { spanish: 'la célula', options: ['клетка', 'молекула', 'атом', 'орган'], correct: 0 },
+      { spanish: 'el intestino', options: ['кишечник', 'желудок', 'печень', 'сердце'], correct: 0 },
+      { spanish: 'el descubrimiento', options: ['открытие, находка', 'потеря', 'забвение', 'закрытие'], correct: 0 },
+      { spanish: 'la superficie', options: ['поверхность, площадь', 'глубина', 'высота', 'ширина'], correct: 0 },
+      { spanish: 'medir', options: ['мерить, измерять', 'строить', 'разрушать', 'красить'], correct: 0 },
+      { spanish: 'afectar', options: ['отрицательно воздействовать', 'помогать', 'улучшать', 'украшать'], correct: 0 },
+      { spanish: 'el lupus', options: ['волчанка', 'грипп', 'простуда', 'аллергия'], correct: 0 },
+      { spanish: 'la ansiedad', options: ['тревога, беспокойство', 'радость', 'спокойствие', 'удовольствие'], correct: 0 },
+      { spanish: 'disminuir', options: ['уменьшаться, уменьшать', 'увеличиваться', 'оставаться', 'появляться'], correct: 0 },
+      { spanish: 'la inflamación', options: ['воспаление', 'заживление', 'лечение', 'профилактика'], correct: 0 },
+      { spanish: 'la fibra', options: ['клетчатка', 'белок', 'жир', 'углевод'], correct: 0 },
+      { spanish: 'absorber', options: ['поглощать, впитывать', 'выделять', 'отталкивать', 'производить'], correct: 0 }
     ]
   },
 
@@ -24206,72 +24213,152 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Выберите правильный ответ на основе текста',
     questions: [
       {
-        question: '¿Qué es la microbiota según el Dr. Mario Alonso Puig?',
+        question: '¿Qué es la microbiota según el texto?',
         options: [
-          'Un conjunto de microbios en diferentes partes del cuerpo',
+          'Un organismo vivo que funciona como un órgano más',
           'Una enfermedad del intestino',
           'Un tipo de medicina',
-          'Un órgano del cuerpo humano'
+          'Una bacteria peligrosa'
         ],
         correct: 0
       },
       {
-        question: '¿Cuántos microbios intestinales tenemos aproximadamente?',
+        question: '¿Cuántas células tenemos aproximadamente?',
         options: [
-          'Cien billones',
-          'Mil millones',
-          'Diez millones',
-          'Cien mil'
+          '60 trillones',
+          '60 millones',
+          '60 mil',
+          '60 billones'
         ],
         correct: 0
       },
       {
-        question: '¿Dónde está el 90% de la serotonina del cuerpo?',
+        question: '¿Qué es el segundo cerebro?',
         options: [
-          'En el intestino',
-          'En el cerebro',
-          'En el corazón',
-          'En los pulmones'
+          'El tubo digestivo',
+          'El corazón',
+          'Los pulmones',
+          'El hígado'
         ],
         correct: 0
       },
       {
-        question: '¿Qué alteran las situaciones de estrés?',
+        question: '¿Cuánto mide aproximadamente la piel?',
         options: [
-          'La microbiota',
-          'Solo las emociones',
-          'La temperatura corporal',
-          'La memoria'
+          '2 metros cuadrados',
+          '5 metros cuadrados',
+          '10 metros cuadrados',
+          '1 metro cuadrado'
         ],
         correct: 0
       },
       {
-        question: '¿Qué alimentos ayudan a la microbiota?',
+        question: '¿Qué porcentaje del sistema de defensa está en el tubo digestivo?',
         options: [
-          'Verduras, frutas y alimentos fermentados',
-          'Azúcar y alimentos procesados',
-          'Solo carne',
-          'Solo lácteos'
+          '80 por ciento',
+          '50 por ciento',
+          '30 por ciento',
+          '90 por ciento'
         ],
         correct: 0
       },
       {
-        question: '¿Qué puede ayudar a prevenir una microbiota sana?',
+        question: '¿Qué enfermedades menciona el texto que pueden tener origen en el tubo digestivo?',
         options: [
-          'La depresión y la ansiedad',
-          'Solo los problemas físicos',
-          'Las enfermedades respiratorias',
-          'Los problemas de sueño'
+          'Artritis reumatoide, lupus, Alzheimer',
+          'Solo gripe y resfriados',
+          'Solo problemas de piel',
+          'Solo enfermedades respiratorias'
         ],
         correct: 0
       },
       {
-        question: '¿Qué relación menciona el doctor?',
+        question: '¿Qué cuadros pueden tener su origen en una pobre nutrición?',
         options: [
-          'Entre lo que comemos y cómo nos sentimos',
-          'Entre el ejercicio y el peso',
-          'Entre el sueño y la memoria',
-          'Entre el trabajo y el estrés'
+          'La ansiedad y la depresión',
+          'Solo problemas físicos',
+          'Solo alergias',
+          'Solo problemas de sueño'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cómo se llaman las fuerzas del bien en la microbiota?',
+        options: [
+          'Bacteroides',
+          'Firmicutes',
+          'Patógenos',
+          'Virus'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cómo se llaman las fuerzas del mal en la microbiota?',
+        options: [
+          'Firmicutes',
+          'Bacteroides',
+          'Proteínas',
+          'Vitaminas'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué produce el desequilibrio de la microbiota?',
+        options: [
+          'Inflamación crónica de bajo grado',
+          'Aumento de energía',
+          'Mejor digestión',
+          'Mayor felicidad'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué tipo de dieta ayuda a las fuerzas del bien?',
+        options: [
+          'Rica en fibra y pobre en azúcar',
+          'Rica en azúcar y pobre en fibra',
+          'Solo proteínas',
+          'Solo grasas'
+        ],
+        correct: 0
+      },
+      {
+        question: 'Según el texto, ¿qué conecta la mente?',
+        options: [
+          'El cerebro, el corazón y el tubo digestivo',
+          'Solo el cerebro',
+          'Solo el corazón',
+          'Solo los músculos'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué impacto tienen los cambios en la nutrición?',
+        options: [
+          'Impacto positivo en el autismo y otros procesos',
+          'Solo afectan al peso',
+          'No tienen ningún impacto',
+          'Solo afectan a la piel'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿De qué habló Steve Jobs en su discurso?',
+        options: [
+          'De conectar los puntos',
+          'De la tecnología',
+          'De los negocios',
+          'De la medicina'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué depende de la luz solar según el texto?',
+        options: [
+          'Los ritmos circadianos',
+          'Solo el color de la piel',
+          'Solo la temperatura corporal',
+          'Solo el estado de ánimo'
         ],
         correct: 0
       }
@@ -24284,64 +24371,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Грамматика: ¿Qué es la microbiota?',
     description: 'Выберите правильную форму глагола',
     questions: [
-      {
-        sentence: 'La microbiota ___ información al cerebro.',
-        options: ['envía', 'envió', 'ha enviado', 'enviará'],
-        correct: 0,
-        explanation: 'Используется presente porque это постоянный факт'
-      },
-      {
-        sentence: 'El doctor ___ mucho sobre este tema.',
-        options: ['ha estudiado', 'estudió', 'estudia', 'estudiará'],
-        correct: 0,
-        explanation: 'Pretérito perfecto для действия, связанного с настоящим'
-      },
-      {
-        sentence: 'Nosotros ___ microbios en diferentes partes del cuerpo.',
-        options: ['tenemos', 'tuvimos', 'hemos tenido', 'tendremos'],
-        correct: 0,
-        explanation: 'Presente для постоянного состояния'
-      },
-      {
-        sentence: 'Las situaciones de estrés ___ la microbiota.',
-        options: ['alteran', 'alteraron', 'han alterado', 'alterarán'],
-        correct: 0,
-        explanation: 'Presente para hechos generales'
-      },
-      {
-        sentence: 'Hoy Marina y el doctor ___ sobre la microbiota.',
-        options: ['han hablado', 'hablan', 'hablaron', 'hablarán'],
-        correct: 0,
-        explanation: 'Pretérito perfecto para acción reciente'
-      },
-      {
-        sentence: 'Los alimentos fermentados ___ a equilibrar la microbiota.',
-        options: ['ayudan', 'ayudaron', 'han ayudado', 'ayudarán'],
-        correct: 0,
-        explanation: 'Presente para afirmaciones generales'
-      },
-      {
-        sentence: 'La evidencia científica ___ cada vez más clara.',
-        options: ['es', 'fue', 'ha sido', 'será'],
-        correct: 0,
-        explanation: 'Presente para describir estado actual'
-      }
-    ]
-  },
-
-  'ex-9-5-microbiota-translation': {
-    id: 'ex-9-5-microbiota-translation',
-    type: 'translation',
-    title: 'Перевод с русского: ¿Qué es la microbiota?',
-    description: 'Переведите фразы с русского на испанский',
-    questions: [
-      { russian: 'Микробиота - это совокупность микробов в нашем теле.', correct: 'La microbiota es un conjunto de microbios en nuestro cuerpo.' },
-      { russian: 'У нас есть микробы в кишечнике.', correct: 'Tenemos microbios en el intestino.' },
-      { russian: 'Микробы посылают сигналы в мозг.', correct: 'Los microbios envían señales al cerebro.' },
-      { russian: 'Стресс изменяет микробиоту.', correct: 'El estrés altera la microbiota.' },
-      { russian: 'Нам нужно заботиться о том, что мы едим.', correct: 'Hay que cuidar lo que comemos.' },
-      { russian: 'Ферментированные продукты помогают микробиоте.', correct: 'Los alimentos fermentados ayudan a la microbiota.' },
-      { russian: 'Существует прямая связь между питанием и эмоциями.', correct: 'Hay una conexión directa entre la alimentación y las emociones.' }
+      { question: 'La microbiota ___ (recibir) información del exterior constantemente.', options: ['recibe', 'recibió', 'ha recibido', 'reciba'], correct: 0 },
+      { question: 'El doctor Mario Alonso Puig ___ (hablar) de este tema durante muchos años.', options: ['ha hablado', 'habla', 'hablaba', 'hable'], correct: 0 },
+      { question: 'La microbiota es uno de los grandes descubrimientos que se ___ (hacer).', options: ['ha hecho', 'hace', 'hizo', 'haga'], correct: 0 },
+      { question: 'Cuando yo ___ (ser) niño, nadie hablaba de la microbiota.', options: ['era', 'fui', 'he sido', 'sea'], correct: 0 },
+      { question: 'Es importante que nosotros ___ (cuidar) nuestra alimentación.', options: ['cuidemos', 'cuidamos', 'cuidábamos', 'hemos cuidado'], correct: 0 },
+      { question: 'Los obreros ___ (descubrir) una sinagoga hace poco.', options: ['han descubierto', 'descubrieron', 'descubren', 'descubrían'], correct: 0 },
+      { question: 'Antes se ___ (considerar) que el tubo digestivo solo servía para absorber alimentos.', options: ['consideraba', 'consideró', 'ha considerado', 'considere'], correct: 0 },
+      { question: 'Es bonito que todo ___ (estar) conectado en el organismo.', options: ['esté', 'está', 'estaba', 'ha estado'], correct: 0 },
+      { question: 'Steve Jobs ___ (dar) su discurso en 2005 en Stanford.', options: ['dio', 'daba', 'ha dado', 'dé'], correct: 0 },
+      { question: 'Los bacteroides ___ (aumentar) cuando tomamos una dieta rica en fibra.', options: ['aumentan', 'aumentaron', 'han aumentado', 'aumenten'], correct: 0 },
+      { question: 'Es necesario que las madres ___ (saber) lo que es la microbiota.', options: ['sepan', 'saben', 'sabían', 'han sabido'], correct: 0 },
+      { question: 'La inflamación crónica ___ (estar) detrás de la mayor parte de las enfermedades.', options: ['está', 'estuvo', 'ha estado', 'estaba'], correct: 0 },
+      { question: 'Cuando una persona ___ (tomar) una dieta pobre en azúcar, los firmicutes bajan.', options: ['toma', 'tomó', 'ha tomado', 'tome'], correct: 0 },
+      { question: 'Se ___ (ver) que cambios en la nutrición tienen impacto positivo en el autismo.', options: ['ha visto', 've', 'vio', 'vea'], correct: 0 },
+      { question: 'Es importante que uno ___ (darse) paseos por el campo.', options: ['se dé', 'se da', 'se daba', 'se ha dado'], correct: 0 }
     ]
   },
 
