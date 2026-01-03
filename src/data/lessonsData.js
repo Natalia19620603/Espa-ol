@@ -9784,6 +9784,89 @@ Los dos hombres se dan la mano. ¿Son ya amigos? Casi no se conocen. Pero los do
 
 –Bueno, chico, primero vamos al restaurante. Debemos cenar algo. Esta noche tenemos mucho trabajo.
 –Sí, es verdad. Voy a llamar por teléfono a mi abuela para decirle que voy a llegar tarde.`
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 1',
+        title: 'El misterio de la llave - Capítulo 5, Fragmento 1',
+        content: `La Casa de los Doce Soles está fuera de la ciudad, más allá de la Puerta Nueva de Bisagra. Es muy grande y vieja, y tan bonita como casi todas las casas de Toledo. Cándido y Antonio llegan a la puerta. Con el plano de la llave esperan encontrar el tesoro de Samuel-Ha-Leví. La tierra del jardín de la primavera está cerca. Entran en la casa. Van de una habitación a otra. En todas ellas miran si en una esquina hay un dibujo del mar. Nada. Habitaciones y habitaciones y nada.
+Después de tres horas, cansados, se sientan en el suelo de una habitación muy pequeña.
+
+–No sé si hay un tesoro en esta casa, pero…
+–¡Qué dices!
+–Digo que hay un tesoro por aquí, quizás; pero que no hay mar, que no hay dibujo de nada.
+–Claro, con el tiempo se puede haber perdido. ¿Qué vamos a hacer entonces?
+–No lo sé. La verdad, pensé que esto iba a ser mucho más fácil. El mar de piedra debe estar por aquí. Pero ¿dónde?, ¿dónde?
+
+Antonio empieza a andar por toda la habitación con su linterna en la mano.
+
+–¡Cándido, mira! ¿Qué es eso?
+–No es posible.
+
+Cándido está cerca del joven. Allí mismo, en el suelo, hay un dibujo muy, muy pequeño. Pero sí, parece un mar, un bonito mar tranquilo.`
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 2',
+        title: 'El misterio de la llave - Capítulo 5, Fragmento 2',
+        content: `Nerviosos como nunca, los dos empiezan a excavar en el piso. Sacan mucha tierra y algunas piedras pequeñas hasta que encuentran algo… No es una piedra. Se paran un momento. Miran al suelo sin hablar. Miran esa cosa sin poder creer que es… Con prisa ahora, pero con cuidado, empiezan otra vez a excavar.
+
+–Aquí está: parece una caja. Sí, y es de oro.
+
+Cándido ya tiene la caja entre sus manos.
+
+–¡Qué fría está! –dice.
+–Ábrela, ábrela –le pide Antonio.
+
+Cándido la abre. Dentro de ella… ¡Monedas amarillas! Monedas de oro, monedas antiguas… ¡Tanto tiempo escondidas!
+
+–¡Por fin lo encontramos, chico, lo encontramos!
+
+Los dos hombres se ríen. Sus voces corren por todas las habitaciones de la Casa de los Doce Soles.
+
+–Después de seis años sin trabajar… descubrir el misterio de la sinagoga azul. No puedo creerlo. El misterio de la llave para ti y para mí. Tú tienes la historia para tu libro, y yo puedo empezar a trabajar, a vivir otra vez.
+–No, Cándido, no vas a poder.
+
+Cándido y Antonio miran hacia la puerta. ¿Quién ha hablado? ¿Qué ocurre? ¿Quién está allí?`
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 3',
+        title: 'El misterio de la llave - Capítulo 5, Fragmento 3',
+        content: `Un policía coge a Cándido del brazo.
+
+–¡Quíteme las manos de encima! –dice éste–. Quiero hablar con el comisario un momento…
+–Déjelo, Pérez –dice Villena–. Y tú, habla, rápido. ¿Qué quieres?
+–¿Qué qué quiero? –contesta Cándido–. Solo saber por qué ha hecho esto. Yo no quería problemas. Quería trabajar, trabajar para vivir, nada más. ¿No lo entiende? No, no lo entiende, claro. ¡Qué tonto he sido! Nadie entendía las inscripciones de la llave, pero yo sí podía. Usted lo sabía muy bien. Y con esta trampa lo he traído hasta el tesoro. ¿Qué va a ganar con este descubrimiento, señor comisario? Un ascenso, ¿verdad? Ha sido muy feo, sí, muy feo. Pero esto no va a quedar así. La gente va a saber cómo es usted.
+
+Florencio Villena no quiere oír más. Cuatro personas entran en la habitación.
+
+–¿Usted? ¡Es usted! –dice Cándido al hombre que va delante–. ¡Usted me envió los periódicos! Y todo es una trampa.
+
+El arqueólogo, nervioso, se pasa las manos por el pelo. Ahora lo entiende todo. Demasiado tarde.
+
+–Usted me hizo venir a Toledo. Usted quería encontrar el tesoro de Samuel-Ha-Leví, pero no sabía cómo. Entonces, pensó que yo podía hacerlo. Y no se equivocó.
+–Pero ¿quiénes, quiénes son? Dímelo, Cándido, por favor. ¿De qué los conoces? –dice Antonio.
+–¿De qué los conozco? ¿Quieres saberlo? Escucha entonces: hace seis años, esos hombres me llevaron a la cárcel… Mira, este es el comisario Villena. Y los otros son tres de sus hombres, ¿verdad?
+–Sí, señor, así es –contesta uno de ellos–. ¿Nos los llevamos ya, comisario? –pregunta después a Villena.`
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 4',
+        title: 'El misterio de la llave - Capítulo 5, Fragmento 4',
+        content: `–¡Ya está bien, Cándido! ¿Qué estás diciendo? ¿Piensas que alguien va a creerte? Todos saben que has estado seis años en la cárcel. Que robaste aquellas piedras. Tú las habías encontrado, quizás; pero no debías quedarte con ellas. Y nadie ha olvidado que mataste a un policía.
+–Fue un accidente, y usted lo sabe tan bien como yo.
+–Lo hiciste y él era mi amigo. Por eso vas a ir a la cárcel otra vez. No vas a ser libre nunca. Acuérdate, Florencio Villena siempre detrás de ti para llevarte a la cárcel. Y escúchame bien: yo no he puesto ninguna trampa, no te he enviado periódicos. Yo he venido a Toledo con unos amigos y te he visto por la calle. Te he seguido porque hacías cosas raras. Eso va a creer la gente.
+
+El arqueólogo sabe que es verdad. Él ha perdido otra vez. La mala suerte hasta el final de sus días. Ya lo decía la inscripción: Búscalo en el frío de tu suerte.
+
+–Vamos –dice un policía–. Nos esperan en Madrid.
+–Y tú, ¿qué haces? –dice el comisario a Antonio–. ¿Lo olvidas todo, o vas a la cárcel con ese?
+
+Antonio mira al comisario y después a Cándido. Triste y asustado piensa que ya tiene un final para su libro, para una historia que solo puede escribir en la cárcel. Piensa que no puede escribir El misterio de la llave y ser libre… ¿Tan alto debe ser el precio de una buena novela?`
+      },
+      {
+        tab: 'Capitulo 5 - Fragmento 5',
+        title: 'El misterio de la llave - Capítulo 5, Fragmento 5',
+        content: `Madrid. Florencio Villena entra por fin en su casa. Encima de la mesa del comisario hay muchas cosas: cartas, un paquete de cigarrillos y periódicos de Toledo. Uno, del lunes 21 de mayo, otro, del miércoles 26 de agosto: dos periódicos como los que envió a Cándido.
+Y el último, con su foto en la primera página y este título: «EL COMISARIO FLORENCIO VILLENA DESCUBRE EL TESORO DE LA SINAGOGA AZUL».
+«Ahora mismo me voy a la cama. Debo dormir –piensa Villena–. Mañana va a ser un día difícil. Nueva comisaría… nuevo trabajo… nueva gente… La suerte me sonríe.»`
       }
     ],
     exercises: [
