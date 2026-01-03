@@ -9160,27 +9160,33 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-1.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-1.mp3',
+            backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-2.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-2.mp3',
+            backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-3.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-3.mp3',
+            backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-4.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-4.mp3',
+            backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-5.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-5.mp3',
+            backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-6.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-6.mp3',
+            backgroundColor: '#E3F2FD'
           }
         ]
       },
@@ -9189,31 +9195,38 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-1.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-1.mp3',
+            backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-2.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-2.mp3',
+            backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-3.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-3.mp3',
+            backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-4.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-4.mp3',
+            backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-5.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-5.mp3',
+            backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-6.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-6.mp3',
+            backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 7',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-7.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-7.mp3',
+            backgroundColor: '#E8F5E9'
           }
         ]
       },
@@ -9222,27 +9235,33 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-1.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-1.mp3',
+            backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-2.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-2.mp3',
+            backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-3.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-3.mp3',
+            backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-4.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-4.mp3',
+            backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-5.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-5.mp3',
+            backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-6.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-6.mp3',
+            backgroundColor: '#FFF9C4'
           }
         ]
       },
@@ -9251,35 +9270,43 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-1.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-1.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-2.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-2.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-3.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-3.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-4.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-4.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-5.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-5.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-6.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-6.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 7',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-7.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-7.mp3',
+            backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 8',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-8.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-8.mp3',
+            backgroundColor: '#FCE4EC'
           }
         ]
       },
@@ -9288,23 +9315,28 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-1.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-1.mp3',
+            backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-2.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-2.mp3',
+            backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-3.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-3.mp3',
+            backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-4.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-4.mp3',
+            backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-5.mp3'
+            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-5.mp3',
+            backgroundColor: '#F3E5F5'
           }
         ]
       }
@@ -9312,153 +9344,190 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
     audioTabs: [
       {
         tab: 'Capitulo 1 - Fragmento 1',
-        audioUrl: '/audio/1 1.mp3'
+        audioUrl: '/audio/1 1.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
         tab: 'Capitulo 1 - Fragmento 2',
-        audioUrl: '/audio/1 2.mp3'
+        audioUrl: '/audio/1 2.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
         tab: 'Capitulo 1 - Fragmento 3',
-        audioUrl: '/audio/1 3.mp3'
+        audioUrl: '/audio/1 3.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
         tab: 'Capitulo 1 - Fragmento 4',
-        audioUrl: '/audio/1 4.mp3'
+        audioUrl: '/audio/1 4.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
         tab: 'Capitulo 1 - Fragmento 5',
-        audioUrl: '/audio/1 5.mp3'
+        audioUrl: '/audio/1 5.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
         tab: 'Capitulo 1 - Fragmento 6',
-        audioUrl: '/audio/1 6.mp3'
+        audioUrl: '/audio/1 6.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
         tab: 'Capitulo 2 - Fragmento 1',
-        audioUrl: '/audio/2 1.mp3'
+        audioUrl: '/audio/2 1.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 2',
-        audioUrl: '/audio/2 2.mp3'
+        audioUrl: '/audio/2 2.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 3',
-        audioUrl: '/audio/2 3.mp3'
+        audioUrl: '/audio/2 3.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 4',
-        audioUrl: '/audio/2 4.mp3'
+        audioUrl: '/audio/2 4.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 5',
-        audioUrl: '/audio/2 5.mp3'
+        audioUrl: '/audio/2 5.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 6',
-        audioUrl: '/audio/2 6.mp3'
+        audioUrl: '/audio/2 6.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 7',
-        audioUrl: '/audio/2 7.mp3'
+        audioUrl: '/audio/2 7.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 8',
-        audioUrl: '/audio/2 8.mp3'
+        audioUrl: '/audio/2 8.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 2 - Fragmento 9',
-        audioUrl: '/audio/2 9.mp3'
+        audioUrl: '/audio/2 9.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
         tab: 'Capitulo 3 - Fragmento 1',
-        audioUrl: '/audio/3 1.mp3'
+        audioUrl: '/audio/3 1.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 2',
-        audioUrl: '/audio/3 2.mp3'
+        audioUrl: '/audio/3 2.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 3',
-        audioUrl: '/audio/3 3.mp3'
+        audioUrl: '/audio/3 3.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 4',
-        audioUrl: '/audio/3 4.mp3'
+        audioUrl: '/audio/3 4.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 5',
-        audioUrl: '/audio/3 5.mp3'
+        audioUrl: '/audio/3 5.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 6',
-        audioUrl: '/audio/3 6.mp3'
+        audioUrl: '/audio/3 6.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 7',
-        audioUrl: '/audio/3 7.mp3'
+        audioUrl: '/audio/3 7.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 3 - Fragmento 8',
-        audioUrl: '/audio/3 8.mp3'
+        audioUrl: '/audio/3 8.mp3',
+        backgroundColor: '#FFF9C4'
       },
       {
         tab: 'Capitulo 4 - Fragmento 1',
-        audioUrl: '/audio/4 1.mp3'
+        audioUrl: '/audio/4 1.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 2',
-        audioUrl: '/audio/4 2.mp3'
+        audioUrl: '/audio/4 2.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 3',
-        audioUrl: '/audio/4 3.mp3'
+        audioUrl: '/audio/4 3.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 4',
-        audioUrl: '/audio/4 4.mp3'
+        audioUrl: '/audio/4 4.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 5',
-        audioUrl: '/audio/4 5.mp3'
+        audioUrl: '/audio/4 5.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 6',
-        audioUrl: '/audio/4 6.mp3'
+        audioUrl: '/audio/4 6.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 7',
-        audioUrl: '/audio/4 7.mp3'
+        audioUrl: '/audio/4 7.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 4 - Fragmento 8',
-        audioUrl: '/audio/4 8.mp3'
+        audioUrl: '/audio/4 8.mp3',
+        backgroundColor: '#FCE4EC'
       },
       {
         tab: 'Capitulo 5 - Fragmento 1',
-        audioUrl: '/audio/5 1.mp3'
+        audioUrl: '/audio/5 1.mp3',
+        backgroundColor: '#F3E5F5'
       },
       {
         tab: 'Capitulo 5 - Fragmento 2',
-        audioUrl: '/audio/5 2.mp3'
+        audioUrl: '/audio/5 2.mp3',
+        backgroundColor: '#F3E5F5'
       },
       {
         tab: 'Capitulo 5 - Fragmento 3',
-        audioUrl: '/audio/5 3.mp3'
+        audioUrl: '/audio/5 3.mp3',
+        backgroundColor: '#F3E5F5'
       },
       {
         tab: 'Capitulo 5 - Fragmento 4',
-        audioUrl: '/audio/5 4.mp3'
+        audioUrl: '/audio/5 4.mp3',
+        backgroundColor: '#F3E5F5'
       },
       {
         tab: 'Capitulo 5 - Fragmento 5',
-        audioUrl: '/audio/5 5.mp3'
+        audioUrl: '/audio/5 5.mp3',
+        backgroundColor: '#F3E5F5'
       }
     ],
     readingText: [
       {
         tab: 'Capitulo 1 - Fragmento 1',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 1',
+        backgroundColor: '#E3F2FD',
         content: `Cándido deja los periódicos sobre la cama. Se sienta en una silla y bebe rápido su café. Está demasiado caliente, pero a él le gusta así. Busca un cigarrillo en su chaqueta y empieza a fumar.
 
 Hace calor. En Córdoba siempre hace mucho calor en verano y el café caliente le hace encontrarse peor. Cándido mira los periódicos abiertos sobre la cama y se pone muy nervioso. No sabe quién le ha podido enviar ese paquete con los periódicos dentro. ¿Quién le escribe?, ¿qué quiere de él? No lo sabe. Solo esos periódicos de Toledo en un pequeño paquete marrón. Sin carta, sin nada.
@@ -9468,6 +9537,7 @@ La música del bar de abajo entra por la ventana. Vivir encima de un bar es muy 
       {
         tab: 'Capitulo 1 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 2',
+        backgroundColor: '#E3F2FD',
         content: `Ahora está cansado, solo, casi sin dinero. Todo es demasiado difícil desde aquel día negro.
 
 La fea música del bar llega a todas las habitaciones de la casa. Por la ventana Cándido mira, sin ver, el pequeño jardín de su calle. Un hombre espera debajo de un árbol. Llega una mujer joven, morena y muy bonita. Hablan un poco y después se van cogidos de la mano. Es día de fiesta y la gente sale a pasear o va al cine.
@@ -9477,6 +9547,7 @@ Cerca del parque, coches y motos pasan rápidos hacia el centro de la ciudad. Ha
       {
         tab: 'Capitulo 1 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 3',
+        backgroundColor: '#E3F2FD',
         content: `Los periódicos esperan encima de la cama. Conocen la verdad, pero no pueden decirla. Solo se ríen de él.
 
 Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un restaurante... No, en este momento no quiere estar fuera de casa. Va a la cocina y bebe rápido un vaso de agua. Después vuelve a su habitación. Se sienta encima de la cama y empieza a leer los periódicos otra vez.`
@@ -9484,11 +9555,13 @@ Cándido tiene hambre y sed, pero está demasiado cansado para salir, buscar un 
       {
         tab: 'Capitulo 1 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 4',
+        backgroundColor: '#E3F2FD',
         content: `«... en el viejo Palacio de Úbeda... los obreros han encontrado... una sinagoga... no hay otra en Toledo tan bonita y rara como esta... Marisa Martin, una joven arqueóloga, ha encontrado... un pequeño tesoro: tres copas y una llave... La llave... tiene unos dibujos y unas inscripciones... en árabe y hebreo... nadie ha podido entenderlas... Esta llave debe abrirnos la puerta de la verdad..»`
       },
       {
         tab: 'Capitulo 1 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 5',
+        backgroundColor: '#E3F2FD',
         content: `Cándido está nervioso, muy nervioso. Tiene calor, pero sus manos están frías. Para un arqueólogo no hay nada tan importante como un descubrimiento así.
 
 ¡Una nueva sinagoga en Toledo! Además, la llave... Las raras inscripciones de esa llave... Nadie ha podido leerlas y él, Cándido Aguirre, está seguro de poder hacerlo. Sí, claro que sí. Hace mucho tiempo que no trabaja. Pero él es el mejor arqueólogo del país y puede descubrir la verdad de la sinagoga. Él lo sabe y también otras personas lo saben.
@@ -9500,11 +9573,13 @@ Son las nueve y el sol se pierde detrás de los campos amarillos. En septiembre,
       {
         tab: 'Capitulo 1 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 1, Fragmento 6',
+        backgroundColor: '#E3F2FD',
         content: `«No puedo hacer otra cosa. Debo ir a Toledo - se dice Cándido. Puede ser peligroso volver allí, una trampa quizás, pero debo ir. Leer esa inscripción y saber quién me ha enviado los periódicos... Eso es. Voy a ir. Y voy a tener más suerte esta vez. Salí de la cárcel hace tres meses y ya es hora de empezar a hacer algo. No quiero más días negros.»`
       },
       {
         tab: 'Capitulo 2 - Fragmento 1',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 1',
+        backgroundColor: '#E8F5E9',
         content: `Don Cosme tiene una pequeña tienda en el centro de Toledo, muy cerca de la Plaza Mayor. Allí vende de todo: cigarrillos, gafas de sol, libros, relojes, paraguas y, desde luego, comida. Es un hombre bajo y gordo, muy divertido. Siempre parece estar contento.
 
 Doña Blanca, una mujer alta y muy delgada, de pelo blanco, conoce a ese buen hombre desde hace más de cincuenta años. Todos los días va allí a comprar pan y otras cosas para comer.
@@ -9518,16 +9593,19 @@ Por fin, después de esperar un buen cuarto de hora, doña Blanca puede hablar c
       {
         tab: 'Capitulo 2 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 2',
+        backgroundColor: '#E8F5E9',
         content: `— Buenos días, don Cosme. ¿Qué tal está esta mañana? — Hola, doña Blanca. Bien, estoy muy bien. ¿Qué quiere hoy? — Solo quiero algo para la comida. ¿Sabe usted una cosa? Antonio, el hijo de Carlos, mi hijo pequeño, viene hoy a casa. — Ya decía yo que estaba usted muy contenta esta mañana. ¿Y cuánto tiempo va a estar aquí, todo el mes? — ¡No, todo el mes no puede! El lunes debe volver al trabajo. Está en una oficina, sabe?, pero no le gusta mucho. A él le gusta escribir. Y lo hace muy bien. — Sí, ese niño siempre ha sido muy listo. — Bueno, ya tiene veintidós años... — ¿Veintidós? ¿Qué viejos somos! Bueno, y dígame, ¿qué comida le va a hacer hoy a Antonio? — Le gusta mucho mi pollo a la naranja. Así que me va a dar usted un pollo grande, kilo y medio de naranjas y tres kilos de patatas. También queso y el pan. — Bueno, mujer, dígale a Antonio que quiero verlo. Hace mucho tiempo que no viene por aquí. Ese chico se parece mucho a usted, ¿verdad? Desde siempre... — La verdad es que sí. Bueno, don Cosme, me voy. Adiós, hasta mañana. — Adiós. Hasta pronto.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 3',
+        backgroundColor: '#E8F5E9',
         content: `Doña Blanca sale de la tienda. Llega a la Plaza Mayor y se pierde por las estrechas calles de Toledo. Las casas están muy cerca unas de otras y parecen cerrar las calles por arriba. Allí, los pájaros buscan comida y esperan el otoño para dejar Toledo e ir hacia países más calientes. Hacia otras tierras de inviernos menos fríos y difíciles. Son las doce de la mañana y el sol está muy alto. Los niños juegan en los parques y jardines de la ciudad.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 4',
+        backgroundColor: '#E8F5E9',
         content: `Una hora más tarde, el tren de Madrid entra en Toledo. Antonio mira por la ventana y ve pasar, ya muy lentos, los anchos campos amarillos. Se prepara para salir. Cierra su libro y se pone de pie. Con el bolso de viaje en una mano y el libro en la otra, espera. Por fin el tren se para en la estación.
 Hay mucha gente en la estación. Todos tienen prisa, pero Antonio no. Sabe que nadie ha venido a esperarlo. Se sienta en un banco. Le gusta mirar a las personas e imaginar cómo son. ¿Qué hacen?, ¿cómo se llaman?, ¿cómo pasan el tiempo?…
 Antonio ve pasar a un hombre bajo y moreno. No es feo, pero tiene un ojo medio cerrado. Lleva un pantalón gris, una camisa azul claro y un sombrero también de ese color. Fuma un cigarrillo y parece buscar nervioso a alguien entre la gente. Antonio empieza a imaginar quién es. Le parece un hombre de ciudad, cansado y gris. Un hombre solo. Seguro que no está casado. Debe de trabajar en un banco, siempre entre números.
@@ -9536,6 +9614,7 @@ Pronto, Antonio se olvida del hombre y empieza a mirar divertido a dos jóvenes 
       {
         tab: 'Capitulo 2 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 5',
+        backgroundColor: '#E8F5E9',
         content: `La estación de Toledo está muy lejos del centro de la ciudad. Para ir a casa de su abuela, debe tomar un autobús hasta la Plaza de Zocodover.
 En el autobús, Antonio no se sienta. Prefiere quedarse de pie y así ver mejor las casas y gentes de Toledo. Siempre le ha parecido una ciudad diferente, mucho más que un sitio bonito.
 El autobús sube por estrechas calles y llega a Zocodover. En esa plaza ancha se encuentran los amigos los días de fiesta. Con el buen tiempo, los bares ponen mesas y sillas fuera, en la calle. A Antonio le gusta mucho sentarse allí. Tomar un vaso de vino y ver pasear a la gente… Pero ahora no puede hacerlo, su abuela lo espera.
@@ -9545,6 +9624,7 @@ Muy cerca de allí, a cincuenta metros más o menos, vive doña Blanca, en una v
       {
         tab: 'Capitulo 2 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 6',
+        backgroundColor: '#E8F5E9',
         content: `Doña Blanca abre. Por fin ha llegado su querido Antonio, muy alto y delgado. Sí, como ella. Está tan guapo como siempre. Y tan simpático.
 Es verdad. A Antonio le gusta mucho hablar. Quiere mucho a su abuela, la madre de su padre, y pasa bastante tiempo con ella en Toledo.
 Esta tarde Antonio tiene mucha hambre y a las dos ya están comiendo.`
@@ -9552,6 +9632,7 @@ Esta tarde Antonio tiene mucha hambre y a las dos ya están comiendo.`
       {
         tab: 'Capitulo 2 - Fragmento 7',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 7',
+        backgroundColor: '#E8F5E9',
         content: `— Abuela, ¡qué rico está el pollo!
 — ¿Te gusta, hijo? Qué bien. Y ahora, dime, ¿qué tal están tus hermanos?
 — Muy bien, abuela. Carlos está trabajando en el hospital de siempre. Es muy buen médico. Y María está buscando trabajo. Ha dejado el otro. No le gustaba. Ya sabes, no es la primera vez: encuentra algo y después de unos meses se cansa y se va. Claro que esto también me ocurre a mí.
@@ -9565,6 +9646,7 @@ Esta tarde Antonio tiene mucha hambre y a las dos ya están comiendo.`
       {
         tab: 'Capitulo 2 - Fragmento 8',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 8',
+        backgroundColor: '#E8F5E9',
         content: `— ¡Escribir sobre mí! ¿Estás tonto o qué? Vamos, vamos. ¡Qué dices! Hay cosas mucho más interesantes que yo en esta ciudad, digo yo; la sinagoga, sin ir más lejos. Claro que tú buscas una historia divertida y eso…
 — ¿La sinagoga? ¿Qué sinagoga?
 — La sinagoga azul. ¿No lo sabes? Los obreros del Ayuntamiento la han descubierto hace poco. Ahora la están estudiando unos arqueólogos.
@@ -9579,6 +9661,7 @@ Esta tarde Antonio tiene mucha hambre y a las dos ya están comiendo.`
       {
         tab: 'Capitulo 2 - Fragmento 9',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 9',
+        backgroundColor: '#E8F5E9',
         content: `En su habitación, sentado cerca de la ventana, Antonio está leyendo. Un periódico, después otro. Los lee todos. Han despertado su imaginación.
 Claro que va a escribir algo sobre este misterio. Pero debe saber más, saberlo todo. Y ver la sinagoga. Sí, eso es… Pero va a estar cerrada hasta Navidad. Solo pueden entrar los arqueólogos.
 No puede ser. Antonio no sabe cómo, pero va a entrar en esa sinagoga. ¿Cómo quedarse sin verla? ¿Cómo quedarse sin su historia? Es imposible. Su nuevo libro lo está esperando.`
@@ -9586,6 +9669,7 @@ No puede ser. Antonio no sabe cómo, pero va a entrar en esa sinagoga. ¿Cómo q
       {
         tab: 'Capitulo 3 - Fragmento 1',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 1',
+        backgroundColor: '#FFF9C4',
         content: `Cándido sale del hotel. La noche es más negra que nunca. Nadie pasa por las calles tranquilas de Toledo. En el reloj de la plaza son las cuatro. Pero Cándido no podía dormir.
 No puede olvidar las últimas semanas: el paquete con los periódicos… la llave… el calor de Córdoba… las inscripciones… la música del bar… El misterio de la sinagoga azul. Hasta que, por fin, llegó a Toledo para contestar a sus preguntas.
 No va a ser fácil. Él lo sabe. Para empezar, nadie lo llamó. Pero están los periódicos. Alguien los envió. Entonces alguien lo espera. Pero ¿quién? ¿Y dónde? ¿En la sinagoga, quizás?
@@ -9597,6 +9681,7 @@ Un pájaro de la noche llega hasta una ventana. Cándido oye el ruido y mira hac
       {
         tab: 'Capitulo 3 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 2',
+        backgroundColor: '#FFF9C4',
         content: `Cándido está muy nervioso, pero no puede volver atrás.
 Corre hasta llegar a la otra calle. Ya está. Delante de él, el Palacio de Úbeda. Allí no hay nadie más que él.
 Cándido no puede pensar. ¿Qué ocurre? Esperaba encontrar a alguien allí, a la persona de los periódicos. Por un momento no sabe qué hacer: ¿volver al hotel?, ¿tomar otro tren hasta Córdoba?
@@ -9606,6 +9691,7 @@ Sabe que la puerta se está abriendo.`
       {
         tab: 'Capitulo 3 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 3',
+        backgroundColor: '#FFF9C4',
         content: `Dentro no hay luz. Apenas ve delante de él unas pequeñas escaleras. Busca en su bolso, ha traído una linterna. Con ella en la mano, baja con cuidado y llega a una habitación. Es muy grande, pero solo tiene una mesa y unas sillas en el centro. Hay una puerta abierta. ¿Adónde lleva, a la cocina?
 Quizás. Allí quiere llegar Cándido. Sabe que la sinagoga está debajo de la cocina del palacio. Pero no. Aquello no es la cocina. Es otra habitación un poco más pequeña y estrecha que la primera. En ella hay una escalera para subir al piso alto y otra puerta. Cándido entra por ella y llega a otra habitación. Ya está cerca, está seguro. Encima de una mesa grande ve muchos libros, algunas piedras, y otras cosas de la sinagoga.
 Los arqueólogos deben de usar este sitio para sus trabajos en la excavación. Claro, allí están las tres copas de oro y la llave.
@@ -9615,6 +9701,7 @@ Cándido ha esperado este momento desde hace semanas. Lo ha imaginado miles de v
       {
         tab: 'Capitulo 3 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 4',
+        backgroundColor: '#FFF9C4',
         content: `Bajo la blanca luz de su linterna, las inscripciones de la llave parecen moverse. No, no se mueven. Son todavía palabras muertas. Pero él va a hacerlas vivir. Por fin va a conocer la verdad de la sinagoga, una verdad escondida desde hace años y años.
 Cándido empieza a leer muy bajo: Como mi sinagoga abre la puerta de la verdad, esta llave abre el tesoro de Samuel-Ha-Leví…
 Las primeras palabras están en árabe y es fácil entenderlas. Pero después… Cándido no puede seguir. Debe de ser hebreo o quizás un árabe más antiguo, no lo sabe.
@@ -9624,6 +9711,7 @@ Pero ahora no. Antes de irse quiere ver la sinagoga.`
       {
         tab: 'Capitulo 3 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 5',
+        backgroundColor: '#FFF9C4',
         content: `Deja la llave encima de la mesa y sale de la habitación. ¡Esa es la cocina del palacio! Una pared y también el suelo están rotos. Allí debajo, al final de esa escalera de piedra… ¡Por fin, la sinagoga azul! ¡Tan bonita como la imaginaba! ¡Mucho más bonita!
 Cándido lo mira todo sin poder moverse: los bancos de piedra, el suelo de tierra roja, las paredes azules…
 Solo después de unos minutos entra nervioso. Va hacia una de estas paredes y pasa sus manos por ella. Está muy fría. Su color es raro, un azul diferente, casi verde. En algunos sitios tiene dibujos de pájaros blancos.
@@ -9633,6 +9721,7 @@ Para ello debe llevarse la llave. Sabe que no debe, pero no puede hacer otra cos
       {
         tab: 'Capitulo 3 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 6',
+        backgroundColor: '#FFF9C4',
         content: `Otra vez la escalera de piedra, la cocina. Cándido vuelve a la habitación de los arqueólogos. Encima de la mesa están los libros, las piedras, las copas, pero…
 ¡La llave! ¡La llave no está! ¡Alguien la ha robado!
 Cándido mira en el suelo. No está. Entonces oye un ruido y ve a alguien correr hacia afuera, un hombre alto y delgado. Cándido lo sigue hasta la calle.
@@ -9642,6 +9731,7 @@ El hombre corre rápido por la noche de Toledo. Cándido va detrás. Ve cómo va
       {
         tab: 'Capitulo 3 - Fragmento 7',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 7',
+        backgroundColor: '#FFF9C4',
         content: `Antes de entrar en la casa de su abuela Antonio espera unos minutos. Mira por todos lados: nadie. Se sonríe, por fin ha dejado atrás al hombre de la sinagoga.
 Ya está en casa y tiene la llave. Debe estar tranquilo. Mira otra vez a la calle. No, nada. Nadie lo sigue.
 Pero ¿quién puede ser ese hombre? ¿Cómo imaginar que la puerta de la sinagoga podía estar abierta?
@@ -9651,6 +9741,7 @@ Antonio entra en el portal y sube lento las escaleras. Piensa en todas esas preg
       {
         tab: 'Capitulo 3 - Fragmento 8',
         title: 'El misterio de la llave - Capítulo 3, Fragmento 8',
+        backgroundColor: '#FFF9C4',
         content: `Desde la esquina de la calle, Cándido ha visto a Antonio entrar en una casa. Ya sabe dónde encontrarlo, pero esa noche prefiere dejarlo tranquilo. Quiere hacerle creer que está seguro. Además, no sabe si alguien más vive allí.
 Debe prepararse, pensar en cómo hacer, qué decir. No entiende qué ha pasado. Él pensaba encontrar a alguien en la sinagoga, es verdad. Pero creía que ese alguien lo esperaba. No que esa persona iba a robarle la llave.
 Una cosa es segura: mañana va a volver. Mañana va a saber quién le envió los periódicos. Y también dónde está el tesoro de Samuel Ha-Leví.
@@ -9659,6 +9750,7 @@ Ya está, muy cerca, la llave del misterio.`
       {
         tab: 'Capitulo 4 - Fragmento 1',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 1',
+        backgroundColor: '#FCE4EC',
         content: `Antonio toma un desayuno rápido con su abuela en la cocina. Parece cansado y muy nervioso.
 –¿Qué te pasa, chico? ¿Algo va mal?
 –No, no, abuela. Estoy pensando en mi libro. No sé muy bien por dónde empezar. Nada más.
@@ -9671,6 +9763,7 @@ Ya está, muy cerca, la llave del misterio.`
       {
         tab: 'Capitulo 4 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 2',
+        backgroundColor: '#FCE4EC',
         content: `Doña Blanca se ríe. Este fin de semana está muy contenta. Le gusta mucho tener a Antonio en su casa. ¡Qué simpático es el chico! En el cuarto de baño piensa que se va a poner guapa. Algo muy bonito para un buen día. No todos los días tiene aquí a Antonio. Doña Blanca mira por la ventana. El otoño está llegando ya y Toledo se prepara para el frío. Pronto va a llover y el día está gris.
 En la calle, un hombre con sombrero parece estar esperando a alguien. Pasea rápido, arriba y abajo. A veces, se para y mira hacia las ventanas del piso. Después, empieza a andar otra vez. Doña Blanca no lo conoce. Se pregunta quién puede ser. ¿Un amigo del portero, quizás? El hombre no es viejo, no es joven. Es muy moreno y bastante bajo, pero desde arriba no puede verlo bien.
 Por fin empieza a llover. El ruido de la lluvia sobre las piedras de la calle entra en la casa y llega hasta la última habitación. A la abuela le gusta mucho la lluvia del otoño. Es tranquila, lenta y buena para el campo. La tierra, cansada de tanto sol, bebe esa agua nueva para olvidarse del verano. Sí, también la ciudad quiere lavar sus calles y jardines con la lluvia de septiembre. Doña Blanca ve cómo el hombre del sombrero corre hasta un portal. "Bueno –se dice ella–, no a todo el mundo le gusta la lluvia tanto como a mí."`
@@ -9678,6 +9771,7 @@ Por fin empieza a llover. El ruido de la lluvia sobre las piedras de la calle en
       {
         tab: 'Capitulo 4 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 3',
+        backgroundColor: '#FCE4EC',
         content: `El joven oye cerrarse la puerta de la casa desde su habitación y vuelve a su trabajo. Ha empezado a leer las inscripciones de la llave, pero son demasiado difíciles para él. Ha estudiado un poco de árabe, pero muy poco. Cree entender algo del tesoro de Samuel-Ha-Leví. También lee un número, pero no sabe qué número es.
 Antonio coge la llave con su mano derecha. Es muy bonita y muy rara. Mira otra vez las imposibles inscripciones y ve en una esquina de la llave unos pequeños dibujos. Unos parecen soles, pero los otros… No sabe qué pueden ser.
 Antonio se encuentra mal. Está enfadado consigo mismo. Estaba prohibido y entró en el palacio. Y además robó. No sabe cómo puedo hacer una cosa así. No, robar la llave no ha estado bien, pero, encima, robar para nada. ¡Es tan tonto!…`
@@ -9685,6 +9779,7 @@ Antonio se encuentra mal. Está enfadado consigo mismo. Estaba prohibido y entr�
       {
         tab: 'Capitulo 4 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 4',
+        backgroundColor: '#FCE4EC',
         content: `Antonio no puede olvidar aquel momento: la puerta abierta, después todas aquellas habitaciones y, por fin, la mesa con las copas y la llave. Mirarla, tenerla en la mano y entonces… aquel hombre. Un hombre entró en la habitación y él cerró la mano.
 Sin pensar en nada. Se está viendo. Cerró la mano con la llave dentro y empezó a correr por todo el palacio. Más tarde, la calle y ese hombre detrás, detrás, detrás…
 ¿Cómo pueden ocurrirle a él esas cosas? ¿Qué va a hacer con la llave? Llevarla allí otra vez, claro. Los arqueólogos no trabajan los fines de semana. Nadie entra en la sinagoga los sábados y domingos. Esa noche él puede dejar la llave en su sitio. Así, nadie va a saber que en este momento la llave está en su mano. Sí, eso es. Tranquilo, tranquilo. Todo va bien.
@@ -9694,6 +9789,7 @@ Lleva un sombrero gris y su chaqueta es también del mismo color. Parece salir d
       {
         tab: 'Capitulo 4 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 5',
+        backgroundColor: '#FCE4EC',
         content: `–¿Qué hace usted aquí?, ¿cómo ha entrado?
 –Vengo a buscar la llave.
 –¿Qué llave?, ¿de qué me está hablando?
@@ -9729,6 +9825,7 @@ La verdad es que el chico no parece peligroso. Cándido empieza a no saber qué 
       {
         tab: 'Capitulo 4 - Fragmento 6',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 6',
+        backgroundColor: '#FCE4EC',
         content: `–Está bien, ¿qué quieres? –dice por fin.
 –Quiero trabajar con usted en la inscripción. Quiero encontrar el tesoro de Samuel-Ha-Leví. Es una buena historia para mi libro. Yo le doy la llave y los dos trabajamos en ella. ¿Qué le parece?
 –¡Anda! ¡El chico escribe! ¡Qué bonito! –se ríe Cándido–. ¿Sabes, chico?, para mí es mejor trabajar solo. No me hagas decirlo más veces. ¡Dame esa llave!
@@ -9752,6 +9849,7 @@ Cándido mira a Antonio. Su ojo izquierdo parece cerrarse un poco más.`
       {
         tab: 'Capitulo 4 - Fragmento 7',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 7',
+        backgroundColor: '#FCE4EC',
         content: `En la habitación de un pequeño hotel, sentados delante de una mesa llena de libros, Antonio y Cándido están trabajando. Casi no hablan. Llevan horas así. Se han olvidado de comer. Solo piensan en leer esas inscripciones. En un lugar de Toledo está el tesoro y lo van a encontrar.
 Cándido abre un libro, luego otros. El hebreo es muy antiguo y difícil, pero empieza a entenderlo. Antonio, muy cerca de él, fuma un cigarrillo. Él no puede hacer gran cosa, pero Cándido va a llegar a la verdad y quiere estar ahí en ese momento.
 Desde hace más de una hora Cándido está con las últimas palabras. Son más difíciles. ¿Imposibles?
@@ -9775,6 +9873,7 @@ Cándido mira hacia la ventana. Está muy raro. Parece encontrarse muy lejos. M�
       {
         tab: 'Capitulo 4 - Fragmento 8',
         title: 'El misterio de la llave - Capítulo 4, Fragmento 8',
+        backgroundColor: '#FCE4EC',
         content: `Antonio está encantado. ¡Qué lejos está de todo, de su trabajo, de la ciudad gris…, hasta de su abuela! Nunca ha conocido a un hombre tan interesante como Cándido. Aquí, a su lado, está viviendo por fin algo importante.
 
 –Gracias, Cándido –le dice–. Gracias por dejarme vivir estos momentos contigo.
@@ -9788,6 +9887,7 @@ Los dos hombres se dan la mano. ¿Son ya amigos? Casi no se conocen. Pero los do
       {
         tab: 'Capitulo 5 - Fragmento 1',
         title: 'El misterio de la llave - Capítulo 5, Fragmento 1',
+        backgroundColor: '#F3E5F5',
         content: `La Casa de los Doce Soles está fuera de la ciudad, más allá de la Puerta Nueva de Bisagra. Es muy grande y vieja, y tan bonita como casi todas las casas de Toledo. Cándido y Antonio llegan a la puerta. Con el plano de la llave esperan encontrar el tesoro de Samuel-Ha-Leví. La tierra del jardín de la primavera está cerca. Entran en la casa. Van de una habitación a otra. En todas ellas miran si en una esquina hay un dibujo del mar. Nada. Habitaciones y habitaciones y nada.
 Después de tres horas, cansados, se sientan en el suelo de una habitación muy pequeña.
 
@@ -9807,6 +9907,7 @@ Cándido está cerca del joven. Allí mismo, en el suelo, hay un dibujo muy, muy
       {
         tab: 'Capitulo 5 - Fragmento 2',
         title: 'El misterio de la llave - Capítulo 5, Fragmento 2',
+        backgroundColor: '#F3E5F5',
         content: `Nerviosos como nunca, los dos empiezan a excavar en el piso. Sacan mucha tierra y algunas piedras pequeñas hasta que encuentran algo… No es una piedra. Se paran un momento. Miran al suelo sin hablar. Miran esa cosa sin poder creer que es… Con prisa ahora, pero con cuidado, empiezan otra vez a excavar.
 
 –Aquí está: parece una caja. Sí, y es de oro.
@@ -9830,6 +9931,7 @@ Cándido y Antonio miran hacia la puerta. ¿Quién ha hablado? ¿Qué ocurre? ¿
       {
         tab: 'Capitulo 5 - Fragmento 3',
         title: 'El misterio de la llave - Capítulo 5, Fragmento 3',
+        backgroundColor: '#F3E5F5',
         content: `Un policía coge a Cándido del brazo.
 
 –¡Quíteme las manos de encima! –dice éste–. Quiero hablar con el comisario un momento…
@@ -9850,6 +9952,7 @@ El arqueólogo, nervioso, se pasa las manos por el pelo. Ahora lo entiende todo.
       {
         tab: 'Capitulo 5 - Fragmento 4',
         title: 'El misterio de la llave - Capítulo 5, Fragmento 4',
+        backgroundColor: '#F3E5F5',
         content: `–¡Ya está bien, Cándido! ¿Qué estás diciendo? ¿Piensas que alguien va a creerte? Todos saben que has estado seis años en la cárcel. Que robaste aquellas piedras. Tú las habías encontrado, quizás; pero no debías quedarte con ellas. Y nadie ha olvidado que mataste a un policía.
 –Fue un accidente, y usted lo sabe tan bien como yo.
 –Lo hiciste y él era mi amigo. Por eso vas a ir a la cárcel otra vez. No vas a ser libre nunca. Acuérdate, Florencio Villena siempre detrás de ti para llevarte a la cárcel. Y escúchame bien: yo no he puesto ninguna trampa, no te he enviado periódicos. Yo he venido a Toledo con unos amigos y te he visto por la calle. Te he seguido porque hacías cosas raras. Eso va a creer la gente.
@@ -9864,6 +9967,7 @@ Antonio mira al comisario y después a Cándido. Triste y asustado piensa que ya
       {
         tab: 'Capitulo 5 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 5, Fragmento 5',
+        backgroundColor: '#F3E5F5',
         content: `Madrid. Florencio Villena entra por fin en su casa. Encima de la mesa del comisario hay muchas cosas: cartas, un paquete de cigarrillos y periódicos de Toledo. Uno, del lunes 21 de mayo, otro, del miércoles 26 de agosto: dos periódicos como los que envió a Cándido.
 Y el último, con su foto en la primera página y este título: «EL COMISARIO FLORENCIO VILLENA DESCUBRE EL TESORO DE LA SINAGOGA AZUL».
 «Ahora mismo me voy a la cama. Debo dormir –piensa Villena–. Mañana va a ser un día difícil. Nueva comisaría… nuevo trabajo… nueva gente… La suerte me sonríe.»`
