@@ -16666,10 +16666,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 1',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué ocurrió al inicio del capítulo 4?', type: 'open' },
-      { question: '¿Dónde se encontraban los personajes?', type: 'open' },
-      { question: '¿Qué objetivo tenían?', type: 'open' }
+      { question: '¿Con quién desayuna Antonio?', type: 'open' },
+      { question: '¿Cómo se ve Antonio?', type: 'open' },
+      { question: '¿Qué le pregunta la abuela?', type: 'open' },
+      { question: '¿En qué está pensando Antonio?', type: 'open' },
+      { question: '¿Qué le gusta a la madre de Antonio?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f2': {
@@ -16677,10 +16680,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 2',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué pista importante encontraron?', type: 'open' },
-      { question: '¿Qué significaba?', type: 'open' },
-      { question: '¿Cómo la interpretaron?', type: 'open' }
+      { question: '¿Cómo se siente doña Blanca este fin de semana?', type: 'open' },
+      { question: '¿Qué mira doña Blanca por la ventana?', type: 'open' },
+      { question: '¿Qué hombre ve doña Blanca en la calle?', type: 'open' },
+      { question: '¿Qué tiempo hace?', type: 'open' },
+      { question: '¿Le gusta la lluvia a doña Blanca?', type: 'open' },
+      { question: '¿Adónde corre el hombre?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f3': {
@@ -16688,10 +16695,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 3',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué desafío enfrentaron?', type: 'open' },
-      { question: '¿Cómo lo superaron?', type: 'open' },
-      { question: '¿Qué aprendieron de la experiencia?', type: 'open' }
+      { question: '¿Qué hace Antonio en su habitación?', type: 'open' },
+      { question: '¿Puede leer Antonio las inscripciones?', type: 'open' },
+      { question: '¿Qué ve Antonio en la llave?', type: 'open' },
+      { question: '¿Cómo se siente Antonio?', type: 'open' },
+      { question: '¿Qué hizo mal Antonio?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f4': {
@@ -16699,10 +16709,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 4',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué personaje reveló un secreto?', type: 'open' },
-      { question: '¿Cuál era el secreto?', type: 'open' },
-      { question: '¿Cómo reaccionaron los demás?', type: 'open' }
+      { question: '¿Qué no puede olvidar Antonio?', type: 'open' },
+      { question: '¿Qué hizo Antonio cuando vio al hombre?', type: 'open' },
+      { question: '¿Qué decide hacer Antonio con la llave?', type: 'open' },
+      { question: '¿Dónde esconde Antonio la llave?', type: 'open' },
+      { question: '¿A quién ve Antonio en la puerta?', type: 'open' },
+      { question: '¿Cómo es el hombre?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f5': {
@@ -16710,10 +16724,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 5',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué evento cambió todo?', type: 'open' },
-      { question: '¿Por qué fue tan importante?', type: 'open' },
-      { question: '¿Qué decisión tuvieron que tomar?', type: 'open' }
+      { question: '¿Qué pregunta Antonio al hombre?', type: 'open' },
+      { question: '¿Qué viene a buscar el hombre?', type: 'open' },
+      { question: '¿Qué amenaza el hombre?', type: 'open' },
+      { question: '¿Quién es el hombre?', type: 'open' },
+      { question: '¿Quién envió los periódicos según Cándido?', type: 'open' },
+      { question: '¿Entendió Antonio la historia de Cándido?', type: 'open' },
+      { question: '¿Es Antonio el hombre de los periódicos?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f6': {
@@ -16721,10 +16740,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 6',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué acción arriesgada tomaron?', type: 'open' },
-      { question: '¿Cuáles eran los riesgos?', type: 'open' },
-      { question: '¿Valió la pena?', type: 'open' }
+      { question: '¿Qué quiere Antonio?', type: 'open' },
+      { question: '¿Qué dice Cándido sobre trabajar solo?', type: 'open' },
+      { question: '¿Qué decide Cándido al final?', type: 'open' },
+      { question: '¿Adónde van a ir?', type: 'open' },
+      { question: '¿Cómo van a ir?', type: 'open' },
+      { question: '¿Qué hace Antonio para sentirse más seguro?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f7': {
@@ -16732,10 +16755,17 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 7',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Qué gran revelación hubo?', type: 'open' },
-      { question: '¿Cambió esto su comprensión de la historia?', type: 'open' },
-      { question: '¿Qué implicaciones tiene?', type: 'open' }
+      { question: '¿Dónde están Antonio y Cándido?', type: 'open' },
+      { question: '¿Cuánto tiempo llevan trabajando?', type: 'open' },
+      { question: '¿Qué idioma es muy difícil?', type: 'open' },
+      { question: '¿Qué dice Cándido cuando termina?', type: 'open' },
+      { question: '¿Qué lee Cándido de la inscripción?', type: 'open' },
+      { question: '¿Qué es Sefarad?', type: 'open' },
+      { question: '¿Dónde está la Casa de los Doce Soles?', type: 'open' },
+      { question: '¿Qué es la llave según la inscripción?', type: 'open' },
+      { question: '¿Quién puede buscar el tesoro?', type: 'open' }
     ]
   },
   'ex-9-1-c4-f8': {
@@ -16743,10 +16773,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 4 - Fragmento 8',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#FCE4EC',
     questions: [
-      { question: '¿Cómo terminó el capítulo 4?', type: 'open' },
-      { question: '¿En qué situación quedaron los personajes?', type: 'open' },
-      { question: '¿Qué esperas del capítulo final?', type: 'open' }
+      { question: '¿Cómo se siente Antonio?', type: 'open' },
+      { question: '¿Qué le dice Antonio a Cándido?', type: 'open' },
+      { question: '¿Por qué está cansado Cándido de estar solo?', type: 'open' },
+      { question: '¿Se dan la mano?', type: 'open' },
+      { question: '¿Qué van a hacer primero?', type: 'open' },
+      { question: '¿A quién va a llamar Antonio?', type: 'open' }
     ]
   },
 
@@ -16756,10 +16790,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 5 - Fragmento 1',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#F3E5F5',
     questions: [
-      { question: '¿Cómo comenzó el capítulo final?', type: 'open' },
-      { question: '¿Cuál era el estado de los personajes?', type: 'open' },
-      { question: '¿Qué debían hacer?', type: 'open' }
+      { question: '¿Dónde está la Casa de los Doce Soles?', type: 'open' },
+      { question: '¿Qué tienen Cándido y Antonio?', type: 'open' },
+      { question: '¿Qué buscan en cada habitación?', type: 'open' },
+      { question: '¿Encuentran algo en las habitaciones?', type: 'open' },
+      { question: '¿Cuánto tiempo pasa?', type: 'open' },
+      { question: '¿Qué encuentra Antonio con la linterna?', type: 'open' }
     ]
   },
   'ex-9-1-c5-f2': {
@@ -16767,10 +16805,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 5 - Fragmento 2',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#F3E5F5',
     questions: [
-      { question: '¿Qué último obstáculo enfrentaron?', type: 'open' },
-      { question: '¿Cómo lo superaron?', type: 'open' },
-      { question: '¿Qué sacrificios tuvieron que hacer?', type: 'open' }
+      { question: '¿Qué hacen Cándido y Antonio en el piso?', type: 'open' },
+      { question: '¿Qué encuentran?', type: 'open' },
+      { question: '¿De qué es la caja?', type: 'open' },
+      { question: '¿Qué hay dentro de la caja?', type: 'open' },
+      { question: '¿Cuánto tiempo estaban escondidas las monedas?', type: 'open' },
+      { question: '¿Quién les dice que Cándido no va a poder trabajar?', type: 'open' }
     ]
   },
   'ex-9-1-c5-f3': {
@@ -16778,10 +16820,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 5 - Fragmento 3',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#F3E5F5',
     questions: [
-      { question: '¿Qué descubrieron sobre la llave?', type: 'open' },
-      { question: '¿Qué abría realmente?', type: 'open' },
-      { question: '¿Era lo que esperaban?', type: 'open' }
+      { question: '¿Quién coge a Cándido del brazo?', type: 'open' },
+      { question: '¿Con quién quiere hablar Cándido?', type: 'open' },
+      { question: '¿Quién es Villena?', type: 'open' },
+      { question: '¿Por qué cree Cándido que esto es una trampa?', type: 'open' },
+      { question: '¿Quién envió los periódicos?', type: 'open' },
+      { question: '¿Quiénes son los otros hombres?', type: 'open' },
+      { question: '¿Cuándo llevaron a Cándido a la cárcel?', type: 'open' }
     ]
   },
   'ex-9-1-c5-f4': {
@@ -16789,10 +16836,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 5 - Fragmento 4',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#F3E5F5',
     questions: [
-      { question: '¿Cómo se resolvió el misterio?', type: 'open' },
-      { question: '¿Todos los personajes quedaron satisfechos?', type: 'open' },
-      { question: '¿Hubo sorpresas finales?', type: 'open' }
+      { question: '¿Qué dice Villena sobre la cárcel de Cándido?', type: 'open' },
+      { question: '¿Qué pasó con un policía?', type: 'open' },
+      { question: '¿Fue un accidente según Cándido?', type: 'open' },
+      { question: '¿Qué dice Villena sobre la trampa?', type: 'open' },
+      { question: '¿Qué va a creer la gente?', type: 'open' },
+      { question: '¿Qué dice la inscripción sobre la suerte?', type: 'open' },
+      { question: '¿Qué piensa Antonio sobre su libro?', type: 'open' }
     ]
   },
   'ex-9-1-c5-f5': {
@@ -16800,10 +16852,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'audio-comprehension',
     title: 'Capítulo 5 - Fragmento 5',
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
+    backgroundColor: '#F3E5F5',
     questions: [
-      { question: '¿Cómo terminó la historia?', type: 'open' },
-      { question: '¿Qué lección aprendieron los personajes?', type: 'open' },
-      { question: '¿Cuál es tu opinión sobre el final?', type: 'open' }
+      { question: '¿Dónde está Villena?', type: 'open' },
+      { question: '¿Qué hay encima de la mesa?', type: 'open' },
+      { question: '¿Qué periódicos están en la mesa?', type: 'open' },
+      { question: '¿Quién realmente envió los periódicos a Cándido?', type: 'open' },
+      { question: '¿Qué título tiene el último periódico?', type: 'open' },
+      { question: '¿Qué va a pasar mañana según Villena?', type: 'open' },
+      { question: '¿Cómo se siente Villena al final?', type: 'open' }
     ]
   },
 
