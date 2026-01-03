@@ -10000,192 +10000,58 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
           { word: 'las entrañas', translation: 'внутренности', audioUrl: null },
           { word: 'desentrañar', translation: 'вникать в суть', audioUrl: null },
           { word: 'fascinante', translation: 'восхитительный, очаровательный', audioUrl: null },
+          { word: 'dar una pista', translation: 'дать подсказку', audioUrl: null },
           { word: 'sagrado', translation: 'святой, священный', audioUrl: null },
           { word: 'la deidad', translation: 'божество', audioUrl: null },
+          { word: 'arrancar', translation: 'трогаться с места, заводить, вырывать', audioUrl: null },
           { word: 'la devoción a', translation: 'набожность, благочестие', audioUrl: null },
           { word: 'invicto', translation: 'непобедимый, непобежденный', audioUrl: null },
           { word: 'la expansión', translation: 'расширение, распространение', audioUrl: null },
+          { word: 'la locura', translation: 'сумасшествие, безумие', audioUrl: null },
+          { word: 'consolidar', translation: 'укреплять (позиции, отношения)', audioUrl: null },
           { word: 'el templo', translation: 'храм, церковь, святилище; буддийский храм', audioUrl: null },
           { word: 'el solsticio', translation: 'солнцестояние', audioUrl: null },
+          { word: 'dar un giro, girar', translation: 'повернуть', audioUrl: null },
+          { word: 'la jugada maestra', translation: 'мастерский ход', audioUrl: null },
+          { word: 'absorber', translation: 'поглощать, впитывать', audioUrl: null },
+          { word: 'interpretar', translation: 'интерпретировать', audioUrl: null },
+          { word: 'reinterpretar', translation: 'переосмысливать', audioUrl: null },
           { word: 'arraigado', translation: 'укоренившийся, закоренелый', audioUrl: null },
+          { word: 'el eco', translation: 'эхо', audioUrl: null },
+          { word: 'revelar', translation: 'раскрывать, разоблачать', audioUrl: null },
+          { word: 'profundo', translation: 'глубокий, серьезный', audioUrl: null },
           { word: 'la transición', translation: 'превращение, изменение, переход', audioUrl: null },
           { word: 'perenne', translation: 'многолетний, вечный', audioUrl: null },
           { word: 'la fusión', translation: 'слияние, объединение', audioUrl: null },
+          { word: 'adaptación', translation: 'адаптация', audioUrl: null },
+          { word: 'el tapiz', translation: 'настенный ковер', audioUrl: null },
+          { word: 'los hilos', translation: 'нитки', audioUrl: null },
+          { word: 'entrelazarse', translation: 'переплетаться', audioUrl: null },
+          { word: 'el lazo', translation: 'бант, лента, связь', audioUrl: null },
+          { word: 'duradero', translation: 'длительный, продолжительный', audioUrl: null },
           { word: 'pagano', translation: 'языческий, язычник', audioUrl: null },
+          { word: 'dar por sentado', translation: 'воспринимать как должное', audioUrl: null },
           { word: 'resonar', translation: 'прозвучать, резонировать, отзываться', audioUrl: null }
         ]
       }
     ],
     readingText: [
       {
-        tab: '1 Navidad',
-        title: 'La Navidad en España: Entre lo Sagrado y lo Pagano',
-        content: `Cuando llega diciembre, España se transforma. Las calles brillan con luces, los villancicos resuenan en cada esquina, y el aroma a turrón y polvorones llena el aire. Pero la Navidad española es mucho más que decoración y dulces. Es un fenómeno fascinante que nos invita a pararse a pensar sobre sus orígenes y significados.
-
-Para desentrañar la verdadera naturaleza de la Navidad, debemos explorar sus entrañas históricas. Muchos no saben que el 25 de diciembre no fue siempre una fecha cristiana. En la antigua Roma, este día se celebraba el "Sol Invictus" - el Sol Invicto - una deidad pagana venerada por su poder perenne de renacer cada año después del solsticio de invierno.
-
-El solsticio de invierno, que ocurre alrededor del 21 de diciembre, marcaba el día más corto del año. Para las culturas paganas, este momento era sagrado. Representaba la transición de la oscuridad a la luz, el triunfo del sol invicto sobre las tinieblas. Los antiguos romanos celebraban las "Saturnales", fiestas llenas de alegría, intercambio de regalos y banquetes.
-
-Con la expansión del cristianismo por el Imperio Romano, la Iglesia necesitaba convertir a los pueblos paganos. En lugar de prohibir sus celebraciones arraigadas, adoptó una estrategia brillante: la fusión. Así, las autoridades cristianas decidieron que el 25 de diciembre sería el día del nacimiento de Cristo, aunque ningún texto bíblico menciona esta fecha exacta.
-
-Esta transición fue gradual pero efectiva. Los templos paganos se convirtieron en iglesias cristianas. Las celebraciones del Sol Invicto se transformaron en la adoración del "Sol de Justicia", como se llamaba a Jesús. La devoción a las antiguas deidades fue reemplazada por la devoción a Cristo y los santos.
-
-En la España moderna, esta fascinante mezcla sigue resonando. La Navidad española combina elementos profundamente cristianos con tradiciones que tienen raíces paganas. El árbol de Navidad, por ejemplo, era originalmente un símbolo pagano germánico que representaba la vida eterna. El intercambio de regalos recuerda tanto a las Saturnales romanas como a la historia cristiana de los Tres Reyes Magos.
-
-La Nochebuena, la noche del 24 de diciembre, es el momento más sagrado para muchas familias españolas. Se reúnen para cenar, asisten a la Misa del Gallo a medianoche, y celebran el nacimiento de Cristo. Pero también cantan villancicos que mezclan lo religioso con lo folklórico, comen turrón cuyas recetas vienen de tradiciones árabes, y decoran sus casas con elementos tanto cristianos como seculares.
-
-Los Reyes Magos, que llegan el 6 de enero, añaden otra capa a esta compleja tradición. Aunque son figuras bíblicas, la manera española de celebrar su llegada - con cabalgatas llenas de música, dulces y magia - tiene más de celebración comunitaria pagana que de ceremonia religiosa estricta.
-
-Al desentrañar todos estos elementos, la Navidad española se revela como una tradición perenne y fascinante. No es puramente cristiana ni puramente pagana, sino una fusión armoniosa que ha sobrevivido siglos. Es un testimonio de cómo las culturas se transforman, se mezclan y crean algo nuevo sin perder completamente sus raíces.
-
-Cada vez que vemos las luces navideñas brillar en diciembre, estamos presenciando ecos de antiguas celebraciones del solsticio. Cada vez que cantamos villancicos, hacemos resonar tradiciones que tienen mil años de antigüedad. La Navidad española, con todas sus contradicciones y belleza, es un recordatorio de que nuestras tradiciones más arraigadas son a menudo el resultado de largas transiciones históricas.
-
-Así que este diciembre, cuando celebres la Navidad, párate a pensar: ¿Qué celebras realmente? ¿El nacimiento de Cristo? ¿El renacimiento del sol? ¿La reunión familiar? Quizás, de manera fascinante, celebras todo esto a la vez.`,
-        translation: `Когда наступает декабрь, Испания преображается. Улицы сияют огнями, рождественские песни звучат на каждом углу, и аромат туррона и польворонес наполняет воздух. Но испанское Рождество - это гораздо больше, чем украшения и сладости. Это восхитительное явление, которое приглашает нас задуматься о его происхождении и значении.
-
-Чтобы вникнуть в суть истинной природы Рождества, мы должны исследовать его исторические внутренности. Многие не знают, что 25 декабря не всегда было христианской датой. В Древнем Риме в этот день отмечали "Sol Invictus" - Непобедимое Солнце - языческое божество, почитаемое за его вечную силу возрождаться каждый год после зимнего солнцестояния.
-
-Зимнее солнцестояние, которое происходит около 21 декабря, отмечало самый короткий день в году. Для языческих культур этот момент был священным. Он представлял переход от тьмы к свету, триумф непобедимого солнца над мраком. Древние римляне праздновали "Сатурналии", праздники, полные радости, обмена подарками и пиршеств.
-
-С распространением христианства по Римской империи Церкви нужно было обращать языческие народы. Вместо того чтобы запретить их укоренившиеся празднования, она приняла блестящую стратегию: слияние. Так, христианские власти решили, что 25 декабря будет днем рождения Христа, хотя никакой библейский текст не упоминает эту точную дату.
-
-Этот переход был постепенным, но эффективным. Языческие храмы превратились в христианские церкви. Празднования Непобедимого Солнца трансформировались в поклонение "Солнцу Справедливости", как называли Иисуса. Набожность к древним божествам была заменена набожностью ко Христу и святым.
-
-В современной Испании это восхитительное смешение продолжает резонировать. Испанское Рождество сочетает глубоко христианские элементы с традициями, имеющими языческие корни. Рождественская ель, например, изначально была языческим германским символом, представляющим вечную жизнь. Обмен подарками напоминает как римские Сатурналии, так и христианскую историю Трех Королей-Волхвов.
-
-Сочельник, ночь 24 декабря, - самый священный момент для многих испанских семей. Они собираются на ужин, посещают Полуночную мессу в полночь и празднуют рождение Христа. Но они также поют рождественские песни, смешивающие религиозное с фольклорным, едят туррон, рецепты которого происходят из арабских традиций, и украшают свои дома как христианскими, так и светскими элементами.
-
-Три Короля, которые прибывают 6 января, добавляют еще один слой к этой сложной традиции. Хотя они являются библейскими фигурами, испанский способ празднования их прибытия - с процессиями, полными музыки, сладостей и волшебства - больше похож на языческое общественное празднование, чем на строгую религиозную церемонию.
-
-Вникнув во все эти элементы, испанское Рождество раскрывается как вечная и восхитительная традиция. Оно не является чисто христианским или чисто языческим, а представляет собой гармоничное слияние, пережившее века. Это свидетельство того, как культуры трансформируются, смешиваются и создают что-то новое, не теряя полностью своих корней.
-
-Каждый раз, когда мы видим, как рождественские огни сияют в декабре, мы видим отголоски древних празднований солнцестояния. Каждый раз, когда мы поем рождественские песни, мы заставляем резонировать традиции, которым тысяча лет. Испанское Рождество, со всеми его противоречиями и красотой, - это напоминание о том, что наши самые укоренившиеся традиции часто являются результатом долгих исторических переходов.
-
-Так что в этом декабре, когда вы будете праздновать Рождество, задумайтесь: что вы на самом деле празднуете? Рождение Христа? Возрождение солнца? Семейное воссоединение? Возможно, восхитительным образом, вы празднуете все это одновременно.`
-      },
-      {
-        tab: '2 Orígenes',
-        title: 'Los Orígenes Fascinantes del 25 de Diciembre',
-        content: `El 25 de diciembre es una fecha que todos conocemos, ¿cierto? Está llena de símbolos, de historias, pero ¿alguna vez nos hemos parado a pensar de dónde viene realmente? Hoy vamos a desentrañar los orígenes de un día que creemos conocer muy bien. Y la sorpresa es que sus raíces son mucho, pero mucho más antiguas y fascinantes de lo que nos imaginamos.
-
-A ver, la pregunta parece de lo más sencilla, pero su respuesta nos va a llevar por un camino increíble. Y les doy una pista desde ahora: la respuesta no está donde la mayoría de la gente la buscaría, o sea, no está en los textos sagrados que asociamos con esta fecha.
-
-Un Viaje al Imperio Romano
-
-Para entender por qué este día se volvió tan importante, tenemos que hacer un viaje en el tiempo, mucho antes del cristianismo. Vámonos a una época en la que el sol no era solo una estrella en el cielo, sino la deidad más poderosa del imperio más grande del mundo antiguo.
-
-Nuestra historia arranca justo ahí, en la antigua Roma. En ese panteón lleno de dioses, había dos deidades del sol muy distintas que competían por la devoción de la gente:
-
-Sol Indiges: El "Sol nativo". Un dios muy antiguo y romano, conectado con la tierra y los ciclos de la agricultura.
-
-Sol Invictus: El "Sol invicto". No era un dios local; venía de Oriente y representaba una fuerza universal, invencible y militarizada. Era la imagen perfecta para un imperio en plena expansión.
-
-La Política Detrás del Sol
-
-Los emperadores romanos vieron en Sol Invictus una forma de unificar un imperio bajo un solo símbolo potentísimo, posicionándose ellos mismos como la encarnación del sol en la tierra. La línea de tiempo es clara:
-
-Vespasiano: Dedica la estatua de Nerón al sol.
-
-Cómodo: Se identifica directamente con el dios.
-
-Heliogábalo: Lleva la devoción a un punto extremo.
-
-Aureliano: En el año 274, establece un culto de estado oficial para Sol Invictus.
-
-Aureliano no solo construyó un templo, sino que creó una de las fiestas más importantes: el Dies Natalis Solis Invicti (el nacimiento del sol invicto). Se celebraba justo después del solsticio de invierno, cuando los días empiezan a ser más largos, simbolizando el renacer de la luz. La fecha elegida fue, precisamente, el 25 de diciembre.
-
-El Giro Espectacular: La Adopción Cristiana
-
-Mientras el cristianismo ganaba seguidores, el culto al sol seguía arraigado. La Iglesia primitiva tomó una decisión estratégica: en lugar de prohibir una fiesta tan popular, decidieron adoptarla y darle un nuevo significado.
-
-La prueba histórica fundamental es la Cronografía del 354. Es la primera vez que vemos por escrito la conexión directa. Justo al lado de las notas sobre los festivales paganos del 25 de diciembre, aparece esta frase:
-
-"Cristo nació en Belén de Judea."
-
-Fue una jugada maestra simbólica. La idea del renacimiento del sol pagano se transformó en el nacimiento de Jesús, "la luz del mundo". Esto facilitó una transición cultural masiva.
-
-Ecos del Pasado en Nuestras Costumbres
-
-Muchas de nuestras tradiciones actuales son reinterpretaciones de aquellas fiestas antiguas:
-
-Intercambio de regalos: Viene de las Saturnales romanas.
-
-Decoración con luces: Celebraba la victoria de la luz sobre la oscuridad.
-
-Banquetes: Un eco directo de las festividades imperiales.
-
-Árboles de hoja perenne: Símbolos de vida adoptados de tradiciones germánicas y romanas.
-
-Conclusión
-
-Nuestras celebraciones no fueron inventadas de la nada; son el resultado de siglos de fusión y adaptación. Son un tapiz donde los hilos de antiguas creencias paganas se entrelazan con las narrativas cristianas para crear algo nuevo y duradero.
-
-Esto nos deja una pregunta: si el 25 de diciembre esconde una historia tan profunda, ¿qué otros ecos del pasado estarán resonando en las tradiciones que damos por sentadas? Quizás la historia está mucho más viva en nuestro presente de lo que solemos pensar.`,
-        translation: `25 декабря - это дата, которую все мы знаем, не так ли? Она полна символов, историй, но задумывались ли мы когда-нибудь о том, откуда она действительно происходит? Сегодня мы будем вникать в суть происхождения дня, который, как мы думаем, очень хорошо знаем. И сюрприз в том, что его корни гораздо, гораздо более древние и восхитительные, чем мы себе представляем.
-
-Давайте посмотрим, вопрос кажется самым простым, но его ответ приведет нас по невероятному пути. И я даю вам подсказку прямо сейчас: ответ находится не там, где большинство людей его искали бы, то есть его нет в священных текстах, которые мы связываем с этой датой.
-
-Путешествие в Римскую империю
-
-Чтобы понять, почему этот день стал таким важным, нам нужно совершить путешествие во времени, задолго до христианства. Давайте отправимся в эпоху, когда солнце было не просто звездой на небе, а самым могущественным божеством величайшей империи древнего мира.
-
-Наша история начинается именно там, в Древнем Риме. В том пантеоне, полном богов, было два очень разных божества солнца, которые соперничали за набожность людей:
-
-Sol Indiges: "Солнце-туземец". Очень древний и римский бог, связанный с землей и циклами сельского хозяйства.
-
-Sol Invictus: "Непобедимое солнце". Это не был местный бог; он пришел с Востока и представлял универсальную, непобедимую и милитаризованную силу. Это был идеальный образ для империи в полном расширении.
-
-Политика за Солнцем
-
-Римские императоры увидели в Sol Invictus способ объединить империю под одним могущественнейшим символом, позиционируя себя как воплощение солнца на земле. Временная линия ясна:
-
-Веспасиан: Посвящает статую Нерона солнцу.
-
-Коммод: Отождествляет себя непосредственно с богом.
-
-Гелиогабал: Доводит набожность до крайности.
-
-Аврелиан: В 274 году устанавливает официальный государственный культ для Sol Invictus.
-
-Аврелиан не только построил храм, но и создал один из самых важных праздников: Dies Natalis Solis Invicti (рождение непобедимого солнца). Он праздновался сразу после зимнего солнцестояния, когда дни начинают становиться длиннее, символизируя возрождение света. Выбранной датой было, точно, 25 декабря.
-
-Впечатляющий поворот: Христианское принятие
-
-Пока христианство набирало последователей, культ солнца оставался укоренившимся. Ранняя Церковь приняла стратегическое решение: вместо того чтобы запретить такой популярный праздник, они решили принять его и придать ему новое значение.
-
-Фундаментальным историческим доказательством является Хронография 354 года. Это первый раз, когда мы видим в письменном виде прямую связь. Прямо рядом с заметками о языческих праздниках 25 декабря появляется эта фраза:
-
-"Христос родился в Вифлееме Иудейском."
-
-Это была символическая мастерская игра. Идея возрождения языческого солнца трансформировалась в рождение Иисуса, "света мира". Это облегчило массивный культурный переход.
-
-Отголоски прошлого в наших обычаях
-
-Многие из наших нынешних традиций являются переосмыслением тех древних праздников:
-
-Обмен подарками: Происходит от римских Сатурналий.
-
-Украшение огнями: Праздновало победу света над тьмой.
-
-Пиршества: Прямой отголосок имперских празднований.
-
-Вечнозеленые деревья: Символы жизни, принятые из германских и римских традиций.
-
-Заключение
-
-Наши празднования не были изобретены из ничего; они являются результатом веков слияния и адаптации. Они представляют собой гобелен, где нити древних языческих верований переплетаются с христианскими повествованиями, чтобы создать что-то новое и долговечное.
-
-Это оставляет нам вопрос: если 25 декабря скрывает такую глубокую историю, какие еще отголоски прошлого резонируют в традициях, которые мы принимаем как должное? Возможно, история гораздо более жива в нашем настоящем, чем мы обычно думаем.`
+        tab: 'El origen de Navidad',
+        title: 'El origen de Navidad',
+        content: `El 25 de diciembre es una fecha que todos conocemos, ¿cierto? Está llena de símbolos, de historias, pero alguna vez nos hemos parado a pensar de dónde viene realmente. Hoy vamos a desentrañar los orígenes de un día que creemos conocer muy bien. Y la sorpresa es que sus raíces son mucho, pero mucho más antiguas y fascinantes de lo que nos imaginamos. A ver, la pregunta parece de lo más sencilla, pero su respuesta nos va a llevar por un camino increíble. Y les doy una pista desde ahora. La respuesta no está donde la mayoría de la gente la buscaría, o sea, no está en los textos sagrados que asociamos con esta fecha. Así como lo oyen, para entender por qué este día se volvió tan importante, tenemos que hacer un viaje en el tiempo, pero mucho antes del cristianismo. Vámonos a una época en la que el sol no era solo una estrella en el cielo, sino la deidad más poderosa del imperio más grande del mundo antiguo. Y bueno, nuestra historia arranca justo ahí en la antigua Roma, en ese panteón lleno de dioses, había dos deidades del sol muy distintas que digamos competían por la devoción de la gente y sobre todo por el favor de los que estaban en el poder. Okay, vamos a desglosar esto. Por un lado teníamos al Sol Indiges, el Sol nativo. Este era un dios muy antiguo, muy romano, superconectado con la Tierra, con los ciclos de la agricultura, pero con el tiempo apareció un culto mucho más fuerte, el de Sol Invictus. El sol invicto. Este ya no era un dios local, ¿eh? Venía de oriente y representaba una fuerza universal, invencible, militarizada. Vamos. La imagen perfecta para un imperio en plena expansión. Y claro, esta nueva deidad solar se convirtió rapidísimo en una herramienta política increíblemente poderosa. Los emperadores romanos, que no eran ningunos improvisados, vieron en Sol Invictus una forma de unificar un imperio superdiverso bajo un solo símbolo potentísimo. Ellos mismos como la encarnación del sol en la tierra. Miren, esta línea de tiempo lo deja todo clarísimo. Todo empieza con Vespasiano, que para borrar la memoria del tirano de Nerón le dedica su estatua al sol. Más tarde, el emperador Cómodo ya se lo toma más personal y se identifica directamente con el dios. La devoción llega a un punto casi de locura con Heliogábalo y finalmente llega el emperador Aureliano y dice, "A ver, vamos a hacer esto oficial." Y en el 274 establece un culto de estado para Sol Invictus, consolidando su poder y el del Dios al mismo tiempo. Y aquí, justo aquí, es donde todo hace clic. Aureliano no solo construyó un templo, sino que creó una de las fiestas más importantes del calendario romano, el Dies Natalis Solis Invicti, o sea, el nacimiento del sol invicto. Se celebraba justo después del solsticio de invierno, que es cuando los días empiezan a ser más largos de nuevo, simbolizando el renacer de la luz. Y la fecha elegida para esta fiesta masiva en todo el imperio fue precisamente el 25 de diciembre. Y aquí es donde la historia da un giro espectacular.
+Mientras el cristianismo iba ganando más y más seguidores, el culto al sol seguía superarraigado en la cultura popular. Así que la Iglesia primitiva tomó una decisión estratégica y brillante. La verdad, en lugar de prohibir una fiesta tan popular, decidieron adoptarla y darle un nuevo significado. Y tenemos la prueba histórica de esta transición. Se trata de la Cronografía del 354. Este es uno de los documentos clave que tenemos porque es la primera vez que vemos por escrito una conexión directa entre la fiesta pagana y la nueva celebración cristiana. Pero lo más fascinante de este documento es el texto exacto. Imaginen esto. Justo al lado de las notas sobre los festivales paganos de esa fecha del 25 de diciembre aparece esta simple frase: "Cristo nació en Belén de Judea." Es literalmente el momento preciso en que la historia registra oficialmente el nacimiento de la Navidad en esa fecha. Es que desde el punto de vista simbólico, la jugada fue maestra. La idea del Renacimiento del Sol pagano se transformó sin problemas en el nacimiento de Jesús, la luz del mundo. Esto le permitió a los nuevos conversos seguir celebrando en una fecha que ya conocían y querían, pero ahora con un significado totalmente nuevo. Fue una forma de facilitar una transición cultural y religiosa masiva. Pero ojo, la historia no termina solo con la fecha. Resulta que muchas de las costumbres que hoy asociamos con la Navidad también tienen sus raíces en estas antiguas celebraciones de invierno. Son costumbres que el cristianismo fue absorbiendo y, claro, reinterpretando. Y esta fusión se ve clarísima en nuestras costumbres. A ver, piénselo. El intercambio de regalos viene directo de las Saturnales romanas. Decorar todo con luces era para celebrar la victoria de la luz sobre la oscuridad. Los banquetes y las grandes comidas son un eco de esas mismas fiestas. Incluso los árboles de hoja perene, que son un símbolo de vida en pleno invierno, fueron adoptados de tradiciones germánicas y romanas.
+Entonces, ¿a qué llegamos con todo esto? ¿Qué nos dice esta increíble historia del 25 de diciembre? Pues nos revela una verdad super profunda sobre cómo se construyen las tradiciones que tanto valoramos. Lejos de haber sido inventadas de la nada, nuestras celebraciones son el resultado de siglos de fusión y de adaptación. Son como un tapiz riquísimo donde los hilos de antiguas creencias paganas se entrelazan con las narrativas cristianas para crear algo completamente nuevo y sobre todo duradero. Y todo esto al final nos deja con una pregunta fascinante. Si el 25 de diciembre esconde una historia tan profunda, ¿qué otros ecos del pasado estarán resonando en las tradiciones que damos por sentadas? Quizás la historia está mucho más viva en nuestro presente de lo que solemos pensar.`
       }
     ],
     exercises: [
       {
-        tab: '1 Navidad',
-        exerciseIds: ['ex-9-2-navidad-1', 'ex-9-2-navidad-2', 'ex-9-2-navidad-3', 'ex-9-2-navidad-4']
+        tab: 'Nivel A2',
+        exerciseIds: ['ex-9-2-a2-bloque-1', 'ex-9-2-a2-bloque-2', 'ex-9-2-a2-bloque-3']
       },
       {
-        tab: '2 Orígenes',
-        exerciseIds: ['ex-9-2-origenes-1', 'ex-9-2-origenes-2', 'ex-9-2-origenes-3', 'ex-9-2-origenes-4']
+        tab: 'В1',
+        exerciseIds: ['ex-9-2-b1-bloque-1', 'ex-9-2-b1-bloque-2', 'ex-9-2-b1-bloque-3']
       }
     ]
   },
@@ -11613,8 +11479,8 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
     moduleId: 'module-9',
     videoTabs: [
       {
-        tab: '1',
-        videoUrl: '/video/module-9-lesson-4-intro.mp4'
+        tab: 'Alimentos con carbohidratos malos',
+        videoUrl: '/video/Alimentos con carbohidratos malos.mp4'
       },
       {
         tab: '2',
@@ -17031,217 +16897,147 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  // Новые упражнения для Navidad (Урок 9.2)
-  'ex-9-2-navidad-1': {
-    id: 'ex-9-2-navidad-1',
-    type: 'vocabulary',
-    title: 'Упражнение 1: Словарь к тексту о Navidad',
-    description: 'Выберите правильный перевод слова (Nivel A2 avanzado)',
-    questions: [
-      { spanish: 'pararse a pensar', options: ['остановиться', 'задуматься', 'подумать быстро', 'забыть'], correct: 1 },
-      { spanish: 'desentrañar', options: ['запутывать', 'вникать в суть', 'терять', 'находить'], correct: 1 },
-      { spanish: 'fascinante', options: ['скучный', 'простой', 'восхитительный', 'страшный'], correct: 2 },
-      { spanish: 'sagrado', options: ['светский', 'святой', 'обычный', 'новый'], correct: 1 },
-      { spanish: 'la deidad', options: ['праздник', 'божество', 'храм', 'священник'], correct: 1 },
-      { spanish: 'invicto', options: ['побежденный', 'слабый', 'непобедимый', 'старый'], correct: 2 },
-      { spanish: 'la expansión', options: ['сокращение', 'остановка', 'расширение', 'закрытие'], correct: 2 },
-      { spanish: 'el templo', options: ['дом', 'магазин', 'храм', 'школа'], correct: 2 },
-      { spanish: 'el solsticio', options: ['праздник', 'месяц', 'солнцестояние', 'год'], correct: 2 },
-      { spanish: 'arraigado', options: ['временный', 'новый', 'укоренившийся', 'слабый'], correct: 2 },
-      { spanish: 'la transición', options: ['постоянство', 'переход', 'начало', 'конец'], correct: 1 },
-      { spanish: 'perenne', options: ['временный', 'короткий', 'вечный', 'быстрый'], correct: 2 },
-      { spanish: 'la fusión', options: ['разделение', 'слияние', 'борьба', 'конфликт'], correct: 1 },
-      { spanish: 'pagano', options: ['христианский', 'языческий', 'современный', 'древний'], correct: 1 },
-      { spanish: 'resonar', options: ['молчать', 'шептать', 'резонировать', 'кричать'], correct: 2 }
+  // Упражнения для Урок 9.2 - El origen de Navidad (shadowing exercises)
+  'ex-9-2-a2-bloque-1': {
+    id: 'ex-9-2-a2-bloque-1',
+    type: 'shadowing',
+    title: 'Nivel A2 - Блок 1: Фразы 1-15',
+    description: 'Слушайте и повторяйте фразы из текста',
+    phrases: [
+      'El 25 de diciembre es una fecha que todos conocemos.',
+      'Está llena de símbolos, de historias.',
+      'Hoy vamos a desentrañar los orígenes.',
+      'Sus raíces son muy antiguas y fascinantes.',
+      'La pregunta parece de lo más sencilla.',
+      'Les doy una pista desde ahora.',
+      'La respuesta no está en los textos sagrados.',
+      'Tenemos que hacer un viaje en el tiempo.',
+      'El sol era la deidad más poderosa.',
+      'Nuestra historia arranca en la antigua Roma.',
+      'Había dos deidades del sol muy distintas.',
+      'Competían por la devoción de la gente.',
+      'Este era un dios muy antiguo, muy romano.',
+      'Venía de oriente y representaba una fuerza universal.',
+      'La imagen perfecta para un imperio en expansión.'
     ]
   },
-  'ex-9-2-navidad-2': {
-    id: 'ex-9-2-navidad-2',
-    type: 'reading',
-    title: 'Упражнение 2: Понимание текста о Navidad',
-    description: 'Ответьте на вопросы по тексту',
-    questions: [
-      { question: '¿Qué se celebraba el 25 de diciembre en la antigua Roma?', options: ['El nacimiento de Cristo', 'El Sol Invictus', 'Las Saturnales', 'El solsticio'], correct: 1 },
-      { question: '¿Cuándo ocurre el solsticio de invierno?', options: ['25 de diciembre', '1 de enero', 'Alrededor del 21 de diciembre', '6 de enero'], correct: 2 },
-      { question: '¿Qué representaba el solsticio para las culturas paganas?', options: ['El fin del año', 'La transición de la oscuridad a la luz', 'El nacimiento del sol', 'El final del invierno'], correct: 1 },
-      { question: '¿Cómo se llamaban las fiestas romanas de diciembre?', options: ['Navidad', 'Saturnales', 'Reyes Magos', 'Sol Invictus'], correct: 1 },
-      { question: '¿Por qué la Iglesia eligió el 25 de diciembre?', options: ['Porque es la fecha real del nacimiento de Cristo', 'Para fusionar tradiciones paganas y cristianas', 'Porque lo dice la Biblia', 'Porque es el solsticio'], correct: 1 },
-      { question: '¿Qué pasó con los templos paganos?', options: ['Fueron destruidos', 'Se convirtieron en iglesias', 'Permanecieron igual', 'Fueron abandonados'], correct: 1 },
-      { question: '¿Cómo llamaban a Jesús en relación con el sol?', options: ['Sol Invictus', 'Sol de Justicia', 'Sol Sagrado', 'Sol Divino'], correct: 1 },
-      { question: '¿Qué simbolizaba originalmente el árbol de Navidad?', options: ['El nacimiento de Cristo', 'La vida eterna (símbolo pagano germánico)', 'La familia', 'El invierno'], correct: 1 },
-      { question: '¿Qué es la Nochebuena?', options: ['El 25 de diciembre', 'La noche del 24 de diciembre', 'El 6 de enero', 'El 31 de diciembre'], correct: 1 },
-      { question: '¿Qué es la Misa del Gallo?', options: ['Una misa por la mañana', 'Una misa a medianoche', 'Una misa por la tarde', 'Una procesión'], correct: 1 },
-      { question: '¿Cuándo llegan los Reyes Magos?', options: ['25 de diciembre', '31 de diciembre', '1 de enero', '6 de enero'], correct: 3 },
-      { question: 'Según el texto, ¿qué tipo de fusión es la Navidad española?', options: ['Solo cristiana', 'Solo pagana', 'Una fusión armoniosa de ambas', 'Moderna y secular'], correct: 2 },
-      { question: '¿De dónde vienen las recetas del turrón?', options: ['Tradiciones romanas', 'Tradiciones árabes', 'Tradiciones germánicas', 'Tradiciones celtas'], correct: 1 },
-      { question: '¿Qué dice el texto sobre las cabalgatas de Reyes?', options: ['Son puramente religiosas', 'Tienen más de celebración comunitaria pagana', 'Son modernas', 'Son aburridas'], correct: 1 },
-      { question: 'Según el texto, ¿qué celebramos en Navidad?', options: ['Solo el nacimiento de Cristo', 'Solo el solsticio', 'Solo la reunión familiar', 'Fascinantemente, todo a la vez'], correct: 3 }
+  'ex-9-2-a2-bloque-2': {
+    id: 'ex-9-2-a2-bloque-2',
+    type: 'shadowing',
+    title: 'Nivel A2 - Блок 2: Фразы 16-30',
+    description: 'Слушайте и повторяйте фразы из текста',
+    phrases: [
+      'Los emperadores vieron una forma de unificar el imperio.',
+      'Se posicionaban como la encarnación del sol.',
+      'Vespasiano dedica la estatua al sol.',
+      'Cómodo se identifica con el dios.',
+      'Heliogábalo lleva la devoción a un punto extremo.',
+      'Aureliano establece un culto de estado oficial.',
+      'Construyó un templo para Sol Invictus.',
+      'Creó una de las fiestas más importantes.',
+      'Se celebraba después del solsticio de invierno.',
+      'Los días empiezan a ser más largos.',
+      'Simbolizando el renacer de la luz.',
+      'La fecha elegida fue el 25 de diciembre.',
+      'El cristianismo ganaba seguidores.',
+      'El culto al sol seguía arraigado.',
+      'La Iglesia tomó una decisión estratégica.'
     ]
   },
-  'ex-9-2-navidad-3': {
-    id: 'ex-9-2-navidad-3',
-    type: 'grammar',
-    title: 'Упражнение 3: Грамматика - Pretérito Indefinido, Imperfecto, Imperativo',
-    description: 'Выберите правильную форму глагола',
-    questions: [
-      { sentence: 'En la antigua Roma se ___ el Sol Invictus', options: ['celebró', 'celebraba', 'celebraban', 'celebrara'], correct: 1 },
-      { sentence: 'La Iglesia ___ que el 25 de diciembre sería el día del nacimiento de Cristo', options: ['decidía', 'decidió', 'decide', 'decidiera'], correct: 1 },
-      { sentence: 'Los antiguos romanos ___ las Saturnales', options: ['celebraron', 'celebraban', 'celebran', 'celebren'], correct: 1 },
-      { sentence: 'Los templos paganos se ___ en iglesias', options: ['convertían', 'convierten', 'convirtieron', 'convertirían'], correct: 2 },
-      { sentence: 'El solsticio ___ la transición de la oscuridad a la luz', options: ['representó', 'representaba', 'representa', 'representara'], correct: 1 },
-      { sentence: 'La expansión del cristianismo ___ gradual pero efectiva', options: ['era', 'fue', 'es', 'sería'], correct: 1 },
-      { sentence: '___ a pensar sobre los orígenes de la Navidad', options: ['Párate', 'Parate', 'Parándote', 'Párese'], correct: 0 },
-      { sentence: 'No ___ que la Navidad tiene raíces paganas', options: ['olvida', 'olvides', 'olvidaras', 'olvidaste'], correct: 1 },
-      { sentence: '___ la verdadera naturaleza de estas tradiciones', options: ['Desentrañad', 'Desentrañáis', 'Desentrañen', 'Desentrañando'], correct: 0 },
-      { sentence: 'Cuando ___ diciembre, España se transformó', options: ['llegaba', 'llega', 'llegó', 'llegara'], correct: 2 },
-      { sentence: 'Las celebraciones ___ lugar en los templos', options: ['tuvieron', 'tenían', 'tienen', 'tendrían'], correct: 1 },
-      { sentence: 'No ___ estas celebraciones arraigadas', options: ['prohibid', 'prohibáis', 'prohibís', 'prohibiendo'], correct: 1 },
-      { sentence: '___ las entrañas históricas de la Navidad', options: ['Explora', 'Explore', 'Explorando', 'Explorad'], correct: 1 },
-      { sentence: 'La fusión ___ armoniosa y perenne', options: ['era', 'fue', 'es', 'sería'], correct: 1 },
-      { sentence: 'No ___ de vista que estas tradiciones tienen mil años', options: ['pierdas', 'pierdes', 'pierde', 'perdieras'], correct: 0 }
+  'ex-9-2-a2-bloque-3': {
+    id: 'ex-9-2-a2-bloque-3',
+    type: 'shadowing',
+    title: 'Nivel A2 - Блок 3: Фразы 31-45',
+    description: 'Слушайте и повторяйте фразы из текста',
+    phrases: [
+      'Decidieron adoptar la fiesta.',
+      'Le dieron un nuevo significado.',
+      'La Cronografía del 354 es un documento clave.',
+      'Es la primera vez que vemos la conexión directa.',
+      'Cristo nació en Belén de Judea.',
+      'Fue una jugada maestra simbólica.',
+      'El renacimiento del sol se transformó.',
+      'Se transformó en el nacimiento de Jesús.',
+      'Jesús es la luz del mundo.',
+      'Facilitó una transición cultural masiva.',
+      'El intercambio de regalos viene de las Saturnales.',
+      'La decoración con luces celebraba la victoria.',
+      'Los banquetes son un eco de las fiestas.',
+      'Los árboles son símbolos de vida.',
+      'Fueron adoptados de tradiciones germánicas.'
     ]
   },
-  'ex-9-2-navidad-4': {
-    id: 'ex-9-2-navidad-4',
-    type: 'writing',
-    title: 'Упражнение 4: Перевод с русского на испанский',
-    description: 'Переведите фразы на испанский',
-    questions: [
-      { russian: 'Рождество - восхитительная традиция', correct: 'la navidad es una tradición fascinante' },
-      { russian: 'Зимнее солнцестояние было священным для языческих культур', correct: 'el solsticio de invierno era sagrado para las culturas paganas' },
-      { russian: 'Древние римляне праздновали Непобедимое Солнце', correct: 'los antiguos romanos celebraban el sol invicto' },
-      { russian: 'Церковь приняла стратегию слияния', correct: 'la iglesia adoptó una estrategia de fusión' },
-      { russian: 'Языческие храмы превратились в церкви', correct: 'los templos paganos se convirtieron en iglesias' },
-      { russian: 'Этот переход был постепенным', correct: 'esta transición fue gradual' },
-      { russian: 'Традиции имеют языческие корни', correct: 'las tradiciones tienen raíces paganas' },
-      { russian: 'Задумайся о происхождении Рождества', correct: 'párate a pensar sobre los orígenes de la navidad' },
-      { russian: 'Нужно вникнуть в суть этой традиции', correct: 'hay que desentrañar esta tradición' },
-      { russian: 'Набожность к божествам была заменена', correct: 'la devoción a las deidades fue reemplazada' },
-      { russian: 'Это восхитительное смешение продолжает резонировать', correct: 'esta fascinante mezcla sigue resonando' },
-      { russian: 'Празднование было укоренившимся', correct: 'la celebración era arraigada' },
-      { russian: 'Расширение христианства было эффективным', correct: 'la expansión del cristianismo fue efectiva' },
-      { russian: 'Символ был вечным', correct: 'el símbolo era perenne' },
-      { russian: 'Не забывай о языческих корнях', correct: 'no olvides las raíces paganas' }
+  'ex-9-2-b1-bloque-1': {
+    id: 'ex-9-2-b1-bloque-1',
+    type: 'shadowing',
+    title: 'В1 - Блок 1: Фразы 1-15',
+    description: 'Слушайте и повторяйте более сложные фразы из текста',
+    phrases: [
+      'Alguna vez nos hemos parado a pensar de dónde viene realmente.',
+      'Hoy vamos a desentrañar los orígenes de un día que creemos conocer muy bien.',
+      'Sus raíces son mucho, pero mucho más antiguas y fascinantes de lo que nos imaginamos.',
+      'La respuesta no está donde la mayoría de la gente la buscaría.',
+      'No está en los textos sagrados que asociamos con esta fecha.',
+      'Tenemos que hacer un viaje en el tiempo, mucho antes del cristianismo.',
+      'El sol no era solo una estrella en el cielo, sino la deidad más poderosa.',
+      'En ese panteón lleno de dioses, había dos deidades del sol muy distintas.',
+      'Competían por la devoción de la gente y sobre todo por el favor de los que estaban en el poder.',
+      'Este era un dios muy antiguo, muy romano, superconectado con la tierra.',
+      'Venía de oriente y representaba una fuerza universal, invencible, militarizada.',
+      'Esta nueva deidad solar se convirtió rapidísimo en una herramienta política increíblemente poderosa.',
+      'Los emperadores romanos vieron en Sol Invictus una forma de unificar un imperio superdiverso.',
+      'Ellos mismos como la encarnación del sol en la tierra.',
+      'Todo empieza con Vespasiano, que para borrar la memoria del tirano de Nerón le dedica su estatua al sol.'
     ]
   },
 
-  // Новые упражнения для текста "Los Orígenes Fascinantes del 25 de Diciembre" (Урок 9.2)
-  'ex-9-2-origenes-1': {
-    id: 'ex-9-2-origenes-1',
-    type: 'vocabulary',
-    title: 'Упражнение 1: Расширенный словарь к тексту об истории 25 декабря',
-    description: 'Выберите правильный перевод сложных фраз и выражений (Nivel A2 avanzado - усложненные контекстные фразы)',
-    questions: [
-      { spanish: 'alguna vez nos hemos parado a pensar de dónde viene realmente esta fecha tan especial', options: ['мы быстро подумали об этом', 'задумывались ли мы когда-нибудь о том, откуда действительно происходит эта столь особенная дата', 'мы забыли об этой дате', 'мы всегда знали происхождение'], correct: 1 },
-      { spanish: 'hoy vamos a desentrañar los orígenes fascinantes de un día que creemos conocer muy bien', options: ['сегодня мы запутаем происхождение', 'сегодня мы будем вникать в суть восхитительного происхождения дня, который, как мы думаем, очень хорошо знаем', 'мы не будем исследовать происхождение', 'мы уже знаем все о происхождении'], correct: 1 },
-      { spanish: 'sus raíces son mucho, pero mucho más antiguas y fascinantes de lo que nos imaginamos', options: ['корни современные и простые', 'его корни гораздо, гораздо более древние и восхитительные, чем мы себе представляем', 'корни новые и понятные', 'корни не имеют значения'], correct: 1 },
-      { spanish: 'la respuesta no está donde la mayoría de la gente la buscaría', options: ['ответ там, где все его ищут', 'ответ находится не там, где большинство людей его искали бы', 'ответ легко найти', 'все знают где ответ'], correct: 1 },
-      { spanish: 'hacer un viaje en el tiempo, mucho antes del cristianismo', options: ['остаться в настоящем времени', 'совершить путешествие во времени, задолго до христианства', 'изучить современность', 'забыть о прошлом'], correct: 1 },
-      { spanish: 'el sol no era solo una estrella en el cielo, sino la deidad más poderosa del imperio', options: ['солнце было простой звездой', 'солнце было не просто звездой на небе, а самым могущественным божеством империи', 'солнце не было важным', 'солнце было новым богом'], correct: 1 },
-      { spanish: 'en ese panteón lleno de dioses, había dos deidades del sol muy distintas', options: ['был только один бог', 'в том пантеоне, полном богов, было два очень разных божества солнца', 'не было богов солнца', 'все боги были одинаковыми'], correct: 1 },
-      { spanish: 'competían por la devoción de la gente en el mundo antiguo', options: ['объединяли людей', 'соперничали за набожность людей в древнем мире', 'игнорировали людей', 'помогали всем людям'], correct: 1 },
-      { spanish: 'un dios muy antiguo y romano, conectado con la tierra y los ciclos de la agricultura', options: ['новый восточный бог', 'очень древний и римский бог, связанный с землей и циклами сельского хозяйства', 'современный бог', 'иностранный бог без корней'], correct: 1 },
-      { spanish: 'representaba una fuerza universal, invencible y militarizada perfecta para un imperio en expansión', options: ['представлял слабую силу', 'представлял универсальную, непобедимую и милитаризованную силу, идеальную для расширяющейся империи', 'был мирным символом', 'не имел значения'], correct: 1 },
-      { spanish: 'vieron en Sol Invictus una forma de unificar un imperio bajo un solo símbolo potentísimo', options: ['видели в нем проблему', 'увидели в Непобедимом Солнце способ объединить империю под одним могущественнейшим символом', 'отвергли этот символ', 'игнорировали эту идею'], correct: 1 },
-      { spanish: 'posicionándose ellos mismos como la encarnación del sol en la tierra', options: ['избегая ассоциаций с солнцем', 'позиционируя себя как воплощение солнца на земле', 'отказываясь от власти', 'скрывая свою роль'], correct: 1 },
-      { spanish: 'creó una de las fiestas más importantes del calendario romano imperial', options: ['отменил все праздники', 'создал один из самых важных праздников римского имперского календаря', 'забыл о праздниках', 'игнорировал традиции'], correct: 1 },
-      { spanish: 'se celebraba justo después del solsticio de invierno, cuando los días empiezan a ser más largos', options: ['праздновался летом', 'праздновался сразу после зимнего солнцестояния, когда дни начинают становиться длиннее', 'не имел связи с солнцестоянием', 'праздновался весной'], correct: 1 },
-      { spanish: 'simbolizando el renacer de la luz después de la oscuridad del invierno', options: ['символизируя тьму', 'символизируя возрождение света после зимней тьмы', 'представляя конец света', 'не имея символического значения'], correct: 1 },
-      { spanish: 'mientras el cristianismo ganaba seguidores, el culto al sol seguía profundamente arraigado', options: ['культ исчез полностью', 'пока христианство набирало последователей, культ солнца оставался глубоко укоренившимся', 'никто не верил в солнце', 'христианство сразу победило'], correct: 1 },
-      { spanish: 'en lugar de prohibir una fiesta tan popular, decidieron adoptarla y darle un nuevo significado', options: ['запретили праздник полностью', 'вместо того чтобы запретить такой популярный праздник, решили принять его и придать ему новое значение', 'создали совершенно новый праздник', 'игнорировали эту традицию'], correct: 1 },
-      { spanish: 'la primera vez que vemos por escrito la conexión directa entre las tradiciones', options: ['последний письменный документ', 'первый раз, когда мы видим в письменном виде прямую связь между традициями', 'устная традиция без записей', 'современный документ'], correct: 1 },
-      { spanish: 'la idea del renacimiento del sol pagano se transformó en el nacimiento de Jesús', options: ['идея исчезла полностью', 'идея возрождения языческого солнца трансформировалась в рождение Иисуса', 'идея осталась неизменной', 'создали новую идею'], correct: 1 },
-      { spanish: 'facilitó una transición cultural masiva entre dos sistemas de creencias', options: ['затруднила культурный обмен', 'облегчила массивный культурный переход между двумя системами верований', 'остановила все изменения', 'разделила культуры навсегда'], correct: 1 },
-      { spanish: 'son el resultado de siglos de fusión y adaptación de creencias antiguas', options: ['появились внезапно', 'являются результатом веков слияния и адаптации древних верований', 'не имеют исторических корней', 'были изобретены недавно'], correct: 1 },
-      { spanish: 'un tapiz donde los hilos de antiguas creencias paganas se entrelazan con las narrativas cristianas', options: ['разделенные традиции', 'гобелен, где нити древних языческих верований переплетаются с христианскими повествованиями', 'простая современная традиция', 'несвязанные элементы'], correct: 1 },
-      { spanish: '¿qué otros ecos del pasado estarán resonando en las tradiciones que damos por sentadas?', options: ['нет отголосков прошлого', 'какие еще отголоски прошлого резонируют в традициях, которые мы принимаем как должное?', 'только новые традиции существуют', 'прошлое не влияет на настоящее'], correct: 1 },
-      { spanish: 'la historia está mucho más viva en nuestro presente de lo que solemos pensar', options: ['история мертва', 'история гораздо более жива в нашем настоящем, чем мы обычно думаем', 'история не важна', 'прошлое полностью забыто'], correct: 1 }
+  'ex-9-2-b1-bloque-2': {
+    id: 'ex-9-2-b1-bloque-2',
+    type: 'shadowing',
+    title: 'В1 - Блок 2: Фразы 16-30',
+    description: 'Слушайте и повторяйте более сложные фразы из текста',
+    phrases: [
+      'Más tarde, el emperador Cómodo ya se lo toma más personal y se identifica directamente con el dios.',
+      'La devoción llega a un punto casi de locura con Heliogábalo.',
+      'Finalmente llega el emperador Aureliano y en el 274 establece un culto de estado para Sol Invictus.',
+      'Consolidando su poder y el del Dios al mismo tiempo.',
+      'Aureliano no solo construyó un templo, sino que creó una de las fiestas más importantes del calendario romano.',
+      'El Dies Natalis Solis Invicti, o sea, el nacimiento del sol invicto.',
+      'Se celebraba justo después del solsticio de invierno, que es cuando los días empiezan a ser más largos de nuevo.',
+      'Simbolizando el renacer de la luz.',
+      'Y la fecha elegida para esta fiesta masiva en todo el imperio fue precisamente el 25 de diciembre.',
+      'Mientras el cristianismo iba ganando más y más seguidores, el culto al sol seguía superarraigado en la cultura popular.',
+      'Así que la Iglesia primitiva tomó una decisión estratégica y brillante.',
+      'En lugar de prohibir una fiesta tan popular, decidieron adoptarla y darle un nuevo significado.',
+      'Y tenemos la prueba histórica de esta transición.',
+      'Se trata de la Cronografía del 354.',
+      'Este es uno de los documentos clave que tenemos porque es la primera vez que vemos por escrito una conexión directa.'
     ]
   },
-  'ex-9-2-origenes-2': {
-    id: 'ex-9-2-origenes-2',
-    type: 'reading',
-    title: 'Упражнение 2: Глубокое понимание текста об истории 25 декабря',
-    description: 'Ответьте на подробные аналитические вопросы по тексту с развернутыми вариантами ответов (A2 avanzado)',
-    questions: [
-      { question: 'Según el texto, ¿dónde NO está la respuesta sobre el verdadero origen del 25 de diciembre como fecha de celebración?', options: ['En los antiguos documentos históricos del Imperio Romano que hablan del culto solar', 'En los textos sagrados cristianos que tradicionalmente asociamos con esta fecha religiosa', 'En la importante Cronografía del año 354 que documenta la conexión histórica', 'En los registros detallados sobre la política religiosa de los emperadores romanos'], correct: 1 },
-      { question: '¿Cuál era la diferencia fundamental entre las dos deidades solares, Sol Indiges y Sol Invictus, que competían en el panteón romano?', options: ['Sol Indiges era una deidad más reciente introducida desde las provincias orientales', 'Sol Indiges era el "Sol nativo", un dios antiguo romano conectado con los ciclos agrícolas, mientras Sol Invictus venía de Oriente y representaba una fuerza universal, invencible y militarizada', 'No existía ninguna diferencia significativa entre estas dos manifestaciones del dios solar', 'Sol Invictus era el dios más antiguo con raíces profundas en la tradición agrícola romana'], correct: 1 },
-      { question: '¿Por qué exactamente Sol Invictus se convirtió en la imagen perfecta y el símbolo ideal para el imperio romano en expansión?', options: ['Era simplemente un dios muy antiguo con tradiciones respetadas por todos', 'Representaba una fuerza universal, invencible y militarizada que simbolizaba perfectamente el poder de un imperio en plena expansión territorial', 'Era exclusivamente un dios local adorado solo en la ciudad de Roma', 'Era un dios pacífico que promovía la armonía entre diferentes pueblos'], correct: 1 },
-      { question: '¿Qué estrategia política implementaron los emperadores romanos con respecto al culto a Sol Invictus para fortalecer su poder?', options: ['Lo prohibieron completamente porque representaba una amenaza para su autoridad', 'Lo ignoraron sistemáticamente prefiriendo otros dioses tradicionales del panteón romano', 'Vieron en él una forma estratégica de unificar todo el vasto imperio bajo un solo símbolo potentísimo, posicionándose ellos mismos como la encarnación divina del sol en la tierra', 'Lo destruyeron y eliminaron todas sus referencias de los registros históricos'], correct: 2 },
-      { question: '¿Qué emperador romano fue el responsable de establecer el culto de estado oficial para Sol Invictus en el año 274 d.C.?', options: ['El emperador Vespasiano, quien dedicó la estatua de Nerón al dios sol', 'El emperador Cómodo, quien se identificó directamente con la deidad solar', 'El emperador Heliogábalo, quien llevó la devoción al sol hasta un punto extremo', 'El emperador Aureliano, quien no solo construyó un templo sino que creó el Dies Natalis Solis Invicti'], correct: 3 },
-      { question: '¿Qué significaba exactamente el Dies Natalis Solis Invicti y en qué momento preciso del año se celebraba esta importante festividad romana?', options: ['Significaba la muerte ritual del sol y se celebraba en enero durante el mes más frío', 'Significaba el nacimiento del sol invicto y se celebraba precisamente el 25 de diciembre, justo después del solsticio de invierno', 'Era un festival de verano que celebraba el día más largo del año', 'Era una celebración primaveral que marcaba el equinoccio y el renacimiento de la naturaleza'], correct: 1 },
-      { question: '¿Por qué era tan importante celebrar esta festividad justo después del solsticio de invierno desde el punto de vista simbólico y astronómico?', options: ['Era simplemente una fecha elegida al azar sin significado astronómico particular', 'Porque a partir de ese momento los días empiezan gradualmente a ser más largos, simbolizando perfectamente el triunfo y el renacer de la luz sobre la oscuridad invernal', 'Porque era el día más corto del año y representaba el punto máximo de oscuridad', 'Porque marcaba el fin definitivo del año en el calendario romano imperial'], correct: 1 },
-      { question: '¿Qué decisión estratégica brillante tomó la Iglesia cristiana primitiva con respecto al arraigado culto pagano al sol?', options: ['Decidió prohibir completamente el culto solar mediante decretos imperiales y persecuciones', 'Optó por ignorar totalmente el culto esperando que desapareciera naturalmente con el tiempo', 'En lugar de prohibir una fiesta tan popular y arraigada entre la población, decidieron adoptarla estratégicamente y darle un nuevo significado cristiano', 'Creó una fecha completamente nueva y diferente para celebrar el nacimiento de Cristo'], correct: 2 },
-      { question: '¿Qué es exactamente la Cronografía del 354 y por qué se considera una prueba histórica fundamental para entender esta transformación cultural?', options: ['Es un libro moderno escrito por historiadores contemporáneos sobre tradiciones antiguas', 'Es la primera vez que vemos documentado por escrito la conexión directa entre los festivales paganos del 25 de diciembre y el nacimiento de Cristo en Belén de Judea', 'Es un calendario antiguo sin ninguna importancia histórica o relevancia para entender las tradiciones', 'Es un texto puramente religioso sin referencias a las tradiciones paganas anteriores'], correct: 1 },
-      { question: '¿Cómo se transformó simbólicamente la antigua idea pagana del renacimiento anual del sol después de la adopción cristiana?', options: ['Se eliminó completamente de todas las prácticas y se olvidó para siempre', 'Se transformó brillantemente en el nacimiento de Jesús, quien era llamado "la luz del mundo", facilitando así una transición cultural masiva', 'Se mantuvo exactamente igual sin ningún cambio en su significado original', 'Se olvidó rápidamente y fue reemplazada por tradiciones completamente nuevas'], correct: 1 },
-      { question: 'Según explica el texto, ¿de dónde proviene históricamente la tradición del intercambio de regalos que practicamos en Navidad?', options: ['Directamente de las narraciones bíblicas sobre el nacimiento de Jesús', 'De las antiguas Saturnales romanas, fiestas llenas de alegría y intercambio de obsequios', 'De tradiciones modernas inventadas en el siglo XX por el comercio', 'De antiguas tradiciones africanas traídas por comerciantes'], correct: 1 },
-      { question: '¿Qué significado simbólico profundo tenía la decoración con luces en las festividades antiguas del solsticio?', options: ['Representaba la oscuridad perpetua y el frío del invierno', 'Celebraba la victoria triunfal de la luz sobre la oscuridad después del día más corto', 'Simbolizaba únicamente el frío intenso del invierno sin otro significado', 'Representaba las estrellas distantes en el cielo nocturno'], correct: 1 },
-      { question: '¿De qué tradiciones culturales específicas fueron adoptados originalmente los árboles de hoja perenne como símbolos de vida?', options: ['De tradiciones puramente cristianas medievales sin raíces paganas', 'De tradiciones germánicas y romanas que veían en ellos símbolos de vida eterna', 'De tradiciones modernas desarrolladas en el siglo XIX', 'De tradiciones asiáticas traídas por comerciantes de la Ruta de la Seda'], correct: 1 },
-      { question: 'Según la conclusión filosófica del texto, ¿cómo se formaron realmente nuestras celebraciones navideñas a lo largo de la historia?', options: ['Fueron inventadas completamente de la nada en un momento específico de la historia', 'Son el resultado complejo de muchos siglos de fusión gradual y adaptación mutua entre antiguas creencias paganas y narrativas cristianas', 'Son tradiciones puramente cristianas sin ninguna influencia de creencias anteriores', 'Son tradiciones puramente paganas que el cristianismo nunca logró modificar'], correct: 1 },
-      { question: '¿Qué pregunta reflexiva y profunda nos plantea el texto al final para estimular nuestro pensamiento crítico?', options: ['¿En qué fecha exacta del calendario debemos celebrar la Navidad?', '¿Qué otros ecos resonantes del pasado estarán presentes en las tradiciones que damos por sentadas sin cuestionarlas?', '¿Quién fue exactamente el inventor original de la celebración de Navidad?', '¿En qué lugar geográfico específico deberíamos celebrar la Navidad?'], correct: 1 },
-      { question: 'Según el mensaje central del texto, ¿qué nos revela la historia del 25 de diciembre sobre la naturaleza de nuestras tradiciones culturales?', options: ['Que las tradiciones son estáticas y nunca cambian a lo largo del tiempo', 'Que la historia está mucho más viva en nuestro presente de lo que solemos pensar, y nuestras tradiciones son un tapiz donde se entrelazan hilos de diferentes épocas y creencias', 'Que el pasado no tiene ninguna relevancia para entender el presente', 'Que todas las tradiciones modernas fueron inventadas recientemente sin conexión histórica'], correct: 1 }
+  'ex-9-2-b1-bloque-3': {
+    id: 'ex-9-2-b1-bloque-3',
+    type: 'shadowing',
+    title: 'В1 - Блок 3: Фразы 31-45',
+    description: 'Слушайте и повторяйте более сложные фразы из текста',
+    phrases: [
+      'Justo al lado de las notas sobre los festivales paganos de esa fecha del 25 de diciembre aparece esta simple frase.',
+      'Cristo nació en Belén de Judea.',
+      'Es literalmente el momento preciso en que la historia registra oficialmente el nacimiento de la Navidad en esa fecha.',
+      'Desde el punto de vista simbólico, la jugada fue maestra.',
+      'La idea del Renacimiento del Sol pagano se transformó sin problemas en el nacimiento de Jesús, la luz del mundo.',
+      'Esto le permitió a los nuevos conversos seguir celebrando en una fecha que ya conocían y querían.',
+      'Fue una forma de facilitar una transición cultural y religiosa masiva.',
+      'Muchas de las costumbres que hoy asociamos con la Navidad también tienen sus raíces en estas antiguas celebraciones de invierno.',
+      'Son costumbres que el cristianismo fue absorbiendo y, claro, reinterpretando.',
+      'El intercambio de regalos viene directo de las Saturnales romanas.',
+      'Decorar todo con luces era para celebrar la victoria de la luz sobre la oscuridad.',
+      'Nuestras celebraciones son el resultado de siglos de fusión y de adaptación.',
+      'Son como un tapiz riquísimo donde los hilos de antiguas creencias paganas se entrelazan con las narrativas cristianas.',
+      '¿Qué otros ecos del pasado estarán resonando en las tradiciones que damos por sentadas?',
+      'Quizás la historia está mucho más viva en nuestro presente de lo que solemos pensar.'
     ]
   },
-  'ex-9-2-origenes-3': {
-    id: 'ex-9-2-origenes-3',
-    type: 'grammar',
-    title: 'Упражнение 3: Грамматика продвинутого уровня - Tiempos verbales y construcciones complejas',
-    description: 'Выберите правильную форму глагола в сложных предложениях (A2 avanzado - frases extendidas)',
-    questions: [
-      { sentence: 'El 25 de diciembre es una fecha que todos nosotros ___ muy bien, aunque pocos realmente entienden su verdadero origen', options: ['conocimos', 'conocemos', 'conoceremos', 'conocíamos'], correct: 1 },
-      { sentence: '¿Alguna vez nos ___ a pensar seriamente de dónde viene realmente esta fecha tan especial que celebramos cada año?', options: ['paramos', 'hemos parado', 'pararemos', 'parábamos'], correct: 1 },
-      { sentence: 'Hoy nosotros ___ a desentrañar profundamente los orígenes fascinantes de este día histórico que creemos conocer tan bien', options: ['fuimos', 'vamos', 'iremos', 'íbamos'], correct: 1 },
-      { sentence: 'La sorpresa es que sus raíces antiguas ___ mucho, pero mucho más antiguas y fascinantes de lo que la mayoría de la gente se imagina', options: ['fueron', 'son', 'serán', 'eran'], correct: 1 },
-      { sentence: 'Para entender por qué este día se volvió tan importante, nosotros ___ que hacer un viaje largo en el tiempo, mucho antes del cristianismo', options: ['tuvimos', 'tenemos', 'tendremos', 'teníamos'], correct: 1 },
-      { sentence: 'En la antigua Roma, en ese vasto panteón lleno de innumerables dioses, ___ dos deidades del sol muy distintas que competían constantemente', options: ['hubo', 'hay', 'habrá', 'había'], correct: 3 },
-      { sentence: 'Estas dos deidades solares tan diferentes ___ intensamente por la devoción de la gente en aquella época del mundo antiguo', options: ['compitieron', 'compiten', 'competirán', 'competían'], correct: 3 },
-      { sentence: 'Los poderosos emperadores romanos ___ en Sol Invictus una forma perfecta de unificar todo su vasto imperio bajo un solo símbolo potentísimo', options: ['veían', 'ven', 'verán', 'vieron'], correct: 3 },
-      { sentence: 'El emperador Aureliano no solo ___ un templo magnífico dedicado al sol, sino que también creó una de las fiestas más importantes del imperio', options: ['construía', 'construye', 'construyó', 'construirá'], correct: 2 },
-      { sentence: 'Esta festividad imperial se ___ justo después del solsticio de invierno cada año, cuando los días empezaban a ser más largos', options: ['celebró', 'celebra', 'celebrará', 'celebraba'], correct: 3 },
-      { sentence: 'Mientras el cristianismo progresivamente ___ más y más seguidores en todo el imperio, el culto tradicional al sol seguía profundamente arraigado', options: ['ganó', 'gana', 'ganará', 'ganaba'], correct: 3 },
-      { sentence: 'La Iglesia cristiana primitiva ___ una decisión estratégica muy importante en ese momento histórico crucial para la expansión de la fe', options: ['tomaba', 'toma', 'tomó', 'tomará'], correct: 2 },
-      { sentence: 'En lugar de intentar prohibir completamente una fiesta tan popular entre la población, las autoridades cristianas ___ adoptarla estratégicamente', options: ['decidían', 'deciden', 'decidieron', 'decidirán'], correct: 2 },
-      { sentence: 'La antigua idea pagana del renacimiento simbólico del sol se ___ brillantemente en el nacimiento de Jesús, "la luz del mundo"', options: ['transformaba', 'transforma', 'transformó', 'transformará'], correct: 2 },
-      { sentence: 'Esta transformación simbólica ___ una transición cultural masiva y profunda entre dos sistemas completamente diferentes de creencias religiosas', options: ['facilitaba', 'facilita', 'facilitó', 'facilitará'], correct: 2 },
-      { sentence: 'Nuestras celebraciones navideñas actuales no ___ inventadas completamente de la nada en un momento específico de la historia', options: ['eran', 'son', 'fueron', 'serán'], correct: 2 },
-      { sentence: 'El intercambio tradicional de regalos que practicamos hoy ___ directamente de las antiguas Saturnales romanas, fiestas llenas de alegría', options: ['vino', 'viene', 'vendrá', 'venía'], correct: 1 },
-      { sentence: 'La decoración festiva con luces brillantes que vemos en diciembre ___ originalmente la victoria simbólica de la luz sobre la oscuridad invernal', options: ['celebró', 'celebra', 'celebrará', 'celebraba'], correct: 3 },
-      { sentence: 'Los árboles de hoja perenne que adornamos cada año ___ adoptados de tradiciones germánicas y romanas como símbolos de vida eterna', options: ['eran', 'son', 'fueron', 'serán'], correct: 2 },
-      { sentence: 'Quizás la historia antigua ___ mucho más viva y presente en nuestro día a día de lo que solemos pensar habitualmente', options: ['estuvo', 'está', 'estará', 'estaba'], correct: 1 },
-      { sentence: 'Si el 25 de diciembre ___ una historia tan profunda y fascinante, ¿qué otros ecos del pasado estarán resonando en nuestras tradiciones?', options: ['escondió', 'esconde', 'esconderá', 'escondía'], correct: 1 }
-    ]
-  },
-  'ex-9-2-origenes-4': {
-    id: 'ex-9-2-origenes-4',
-    type: 'writing',
-    title: 'Упражнение 4: Перевод сложных расширенных фраз с русского на испанский',
-    description: 'Переведите развернутые сложные фразы на испанский (A2 avanzado - frases muy extendidas)',
-    questions: [
-      { russian: 'Двадцать пятое декабря - это особенная дата, которая полна глубоких символов, древних историй и культурных традиций', correct: 'el veinticinco de diciembre es una fecha especial llena de símbolos profundos historias antiguas y tradiciones culturales' },
-      { russian: 'Задумывались ли мы когда-нибудь серьезно о том, откуда действительно происходит эта столь важная дата, которую мы празднуем каждый год?', correct: '¿alguna vez nos hemos parado a pensar seriamente de dónde viene realmente esta fecha tan importante que celebramos cada año?' },
-      { russian: 'Сегодня мы собираемся глубоко вникнуть в суть восхитительного происхождения дня, который, как мы думаем, очень хорошо знаем', correct: 'hoy vamos a desentrañar profundamente los orígenes fascinantes de un día que creemos conocer muy bien' },
-      { russian: 'Сюрприз заключается в том, что его корни гораздо, гораздо более древние и восхитительные, чем мы себе обычно представляем', correct: 'la sorpresa es que sus raíces son mucho pero mucho más antiguas y fascinantes de lo que nos imaginamos' },
-      { russian: 'Ответ находится не там, где большинство людей его искали бы, то есть не в священных текстах, которые мы связываем с этой датой', correct: 'la respuesta no está donde la mayoría de la gente la buscaría o sea no está en los textos sagrados que asociamos con esta fecha' },
-      { russian: 'Чтобы понять, почему этот день стал таким важным, нам нужно совершить путешествие во времени, задолго до христианства', correct: 'para entender por qué este día se volvió tan importante tenemos que hacer un viaje en el tiempo mucho antes del cristianismo' },
-      { russian: 'Солнце было не просто звездой на небе, а самым могущественным божеством величайшей империи древнего мира', correct: 'el sol no era solo una estrella en el cielo sino la deidad más poderosa del imperio más grande del mundo antiguo' },
-      { russian: 'В том пантеоне, полном многочисленных богов, было два очень разных божества солнца, которые постоянно соперничали за набожность людей', correct: 'en ese panteón lleno de dioses había dos deidades del sol muy distintas que competían por la devoción de la gente' },
-      { russian: 'Это был очень древний и римский бог, глубоко связанный с землей и сельскохозяйственными циклами природы', correct: 'era un dios muy antiguo y romano conectado con la tierra y los ciclos de la agricultura' },
-      { russian: 'Он представлял универсальную, непобедимую и милитаризованную силу, которая была идеальным образом для расширяющейся империи', correct: 'representaba una fuerza universal invencible y militarizada que era la imagen perfecta para un imperio en expansión' },
-      { russian: 'Могущественные римские императоры увидели в Непобедимом Солнце способ объединить всю империю под одним могущественнейшим символом', correct: 'los emperadores romanos vieron en sol invictus una forma de unificar el imperio bajo un solo símbolo potentísimo' },
-      { russian: 'Они позиционировали себя как божественное воплощение солнца на земле, укрепляя таким образом свою власть', correct: 'se posicionaban como la encarnación del sol en la tierra fortaleciendo así su poder' },
-      { russian: 'Император Аврелиан в 274 году не только построил великолепный храм, но и установил официальный государственный культ', correct: 'el emperador aureliano en el año doscientos setenta y cuatro no solo construyó un templo sino que estableció un culto de estado oficial' },
-      { russian: 'Праздник отмечался сразу после зимнего солнцестояния, когда дни начинают становиться длиннее, символизируя возрождение света', correct: 'la fiesta se celebraba justo después del solsticio de invierno cuando los días empiezan a ser más largos simbolizando el renacer de la luz' },
-      { russian: 'Пока христианство постепенно набирало все больше и больше последователей по всей империи, древний культ солнца оставался глубоко укоренившимся', correct: 'mientras el cristianismo ganaba más y más seguidores el culto al sol seguía profundamente arraigado' },
-      { russian: 'Ранняя христианская церковь приняла очень важное стратегическое решение в тот критический исторический момент', correct: 'la iglesia cristiana primitiva tomó una decisión estratégica muy importante en ese momento histórico' },
-      { russian: 'Вместо того чтобы запретить такой популярный праздник среди населения, христианские власти решили стратегически принять его', correct: 'en lugar de prohibir una fiesta tan popular entre la población las autoridades cristianas decidieron adoptarla estratégicamente' },
-      { russian: 'Древняя языческая идея символического возрождения солнца блестяще трансформировалась в рождение Иисуса, "света мира"', correct: 'la idea del renacimiento del sol pagano se transformó brillantemente en el nacimiento de jesús la luz del mundo' },
-      { russian: 'Эта символическая трансформация облегчила массивный и глубокий культурный переход между двумя совершенно разными системами верований', correct: 'esta transformación facilitó una transición cultural masiva entre dos sistemas de creencias' },
-      { russian: 'Наши современные празднования не были изобретены из ничего, они являются результатом веков постепенного слияния и адаптации', correct: 'nuestras celebraciones no fueron inventadas de la nada son el resultado de siglos de fusión y adaptación' },
-      { russian: 'Это гобелен, где нити древних языческих верований тесно переплетаются с христианскими повествованиями, создавая что-то новое', correct: 'es un tapiz donde los hilos de antiguas creencias paganas se entrelazan con las narrativas cristianas creando algo nuevo' },
-      { russian: 'Какие еще отголоски прошлого резонируют в традициях, которые мы принимаем как должное, не задумываясь об их происхождении?', correct: '¿qué otros ecos del pasado estarán resonando en las tradiciones que damos por sentadas?' },
-      { russian: 'Возможно, древняя история гораздо более жива и присутствует в нашем повседневном настоящем, чем мы обычно привыкли думать', correct: 'quizás la historia está mucho más viva en nuestro presente de lo que solemos pensar' }
-    ]
-  },
+
 
   // Урок 9.3 - Современная культура
   'ex-9-3-1': {
