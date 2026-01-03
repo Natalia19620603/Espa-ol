@@ -9536,7 +9536,11 @@ Pronto, Antonio se olvida del hombre y empieza a mirar divertido a dos jóvenes 
       {
         tab: 'Capitulo 2 - Fragmento 5',
         title: 'El misterio de la llave - Capítulo 2, Fragmento 5',
-        content: ``
+        content: `La estación de Toledo está muy lejos del centro de la ciudad. Para ir a casa de su abuela, debe tomar un autobús hasta la Plaza de Zocodover.
+En el autobús, Antonio no se sienta. Prefiere quedarse de pie y así ver mejor las casas y gentes de Toledo. Siempre le ha parecido una ciudad diferente, mucho más que un sitio bonito.
+El autobús sube por estrechas calles y llega a Zocodover. En esa plaza ancha se encuentran los amigos los días de fiesta. Con el buen tiempo, los bares ponen mesas y sillas fuera, en la calle. A Antonio le gusta mucho sentarse allí. Tomar un vaso de vino y ver pasear a la gente… Pero ahora no puede hacerlo, su abuela lo espera.
+Antonio anda rápido por la calle del Comercio. Muchas mujeres están en las ventanas, mirando hacia abajo. Antonio está muy contento. Le gusta mucho venir a Toledo. Llega a la Plaza del Ayuntamiento. En una esquina está la Catedral y enfrente, un poco más abajo, el Ayuntamiento. Baja por la Plaza de Santa Isabel.
+Muy cerca de allí, a cincuenta metros más o menos, vive doña Blanca, en una vieja casa. Antonio corre hacia allí y llama a la puerta. Lleva demasiado tiempo sin ver a su abuela.`
       },
       {
         tab: 'Capitulo 2 - Fragmento 6',
