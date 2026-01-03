@@ -9655,6 +9655,135 @@ Antonio entra en el portal y sube lento las escaleras. Piensa en todas esas preg
 Debe prepararse, pensar en cómo hacer, qué decir. No entiende qué ha pasado. Él pensaba encontrar a alguien en la sinagoga, es verdad. Pero creía que ese alguien lo esperaba. No que esa persona iba a robarle la llave.
 Una cosa es segura: mañana va a volver. Mañana va a saber quién le envió los periódicos. Y también dónde está el tesoro de Samuel Ha-Leví.
 Ya está, muy cerca, la llave del misterio.`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 1',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 1',
+        content: `Antonio toma un desayuno rápido con su abuela en la cocina. Parece cansado y muy nervioso.
+–¿Qué te pasa, chico? ¿Algo va mal?
+–No, no, abuela. Estoy pensando en mi libro. No sé muy bien por dónde empezar. Nada más.
+–Por fin, ¿no va a ser sobre la sinagoga? Piénsalo, puede ser muy interesante. A tus padres les gustan mucho todas esas historias de misterio.
+–Sí, es verdad. A mamá sobre todo. Ir al cine con ella siempre es para ver películas de casas viejas y tesoros. A veces va con mi padre, y otras con sus amigas.
+–Hace muy bien. Ahora que es joven debe divertirse. Después una se hace vieja y…
+–¡Qué cosas dices, abuela! ¡Tú estás como una chica de veinte años! Los años no pasan por ti.
+–Vale, vale… Antonio. Ya está bien de hacer el tonto. Déjalo ya. Toma tu café y ponte a escribir. Yo voy a salir.`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 2',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 2',
+        content: `Doña Blanca se ríe. Este fin de semana está muy contenta. Le gusta mucho tener a Antonio en su casa. ¡Qué simpático es el chico! En el cuarto de baño piensa que se va a poner guapa. Algo muy bonito para un buen día. No todos los días tiene aquí a Antonio. Doña Blanca mira por la ventana. El otoño está llegando ya y Toledo se prepara para el frío. Pronto va a llover y el día está gris.
+En la calle, un hombre con sombrero parece estar esperando a alguien. Pasea rápido, arriba y abajo. A veces, se para y mira hacia las ventanas del piso. Después, empieza a andar otra vez. Doña Blanca no lo conoce. Se pregunta quién puede ser. ¿Un amigo del portero, quizás? El hombre no es viejo, no es joven. Es muy moreno y bastante bajo, pero desde arriba no puede verlo bien.
+Por fin empieza a llover. El ruido de la lluvia sobre las piedras de la calle entra en la casa y llega hasta la última habitación. A la abuela le gusta mucho la lluvia del otoño. Es tranquila, lenta y buena para el campo. La tierra, cansada de tanto sol, bebe esa agua nueva para olvidarse del verano. Sí, también la ciudad quiere lavar sus calles y jardines con la lluvia de septiembre. Doña Blanca ve cómo el hombre del sombrero corre hasta un portal. "Bueno –se dice ella–, no a todo el mundo le gusta la lluvia tanto como a mí."`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 3',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 3',
+        content: `El joven oye cerrarse la puerta de la casa desde su habitación y vuelve a su trabajo. Ha empezado a leer las inscripciones de la llave, pero son demasiado difíciles para él. Ha estudiado un poco de árabe, pero muy poco. Cree entender algo del tesoro de Samuel-Ha-Leví. También lee un número, pero no sabe qué número es.
+Antonio coge la llave con su mano derecha. Es muy bonita y muy rara. Mira otra vez las imposibles inscripciones y ve en una esquina de la llave unos pequeños dibujos. Unos parecen soles, pero los otros… No sabe qué pueden ser.
+Antonio se encuentra mal. Está enfadado consigo mismo. Estaba prohibido y entró en el palacio. Y además robó. No sabe cómo puedo hacer una cosa así. No, robar la llave no ha estado bien, pero, encima, robar para nada. ¡Es tan tonto!…`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 4',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 4',
+        content: `Antonio no puede olvidar aquel momento: la puerta abierta, después todas aquellas habitaciones y, por fin, la mesa con las copas y la llave. Mirarla, tenerla en la mano y entonces… aquel hombre. Un hombre entró en la habitación y él cerró la mano.
+Sin pensar en nada. Se está viendo. Cerró la mano con la llave dentro y empezó a correr por todo el palacio. Más tarde, la calle y ese hombre detrás, detrás, detrás…
+¿Cómo pueden ocurrirle a él esas cosas? ¿Qué va a hacer con la llave? Llevarla allí otra vez, claro. Los arqueólogos no trabajan los fines de semana. Nadie entra en la sinagoga los sábados y domingos. Esa noche él puede dejar la llave en su sitio. Así, nadie va a saber que en este momento la llave está en su mano. Sí, eso es. Tranquilo, tranquilo. Todo va bien.
+Ahora es mejor dejar un poco todo eso. Antonio quiere ir a buscar a la abuela. Seguramente la encuentra en la tienda de don Cosme. Deja la llave en la mesa, escondida debajo de unos libros. Sale de su habitación y entonces lo ve. ¡Allí, delante de la puerta, dentro de su casa!
+Lleva un sombrero gris y su chaqueta es también del mismo color. Parece salir de la lluvia de ese día de otoño.`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 5',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 5',
+        content: `–¿Qué hace usted aquí?, ¿cómo ha entrado?
+–Vengo a buscar la llave.
+–¿Qué llave?, ¿de qué me está hablando?
+
+El hombre no contesta. Anda hacia delante y llega muy cerca de Antonio.
+
+–¿Qué hace? –dice éste–. Salga de aquí ahora. Voy a llamar a la policía.
+–Hazlo. A la policía le va a gustar conocerte. Entrar en unas excavaciones por la noche y robar no está muy bien. ¿Nunca te ha dicho eso tu abuela? Creo que en Toledo hay una bonita cárcel. ¿Quieres conocerla?
+
+Antonio se ha quedado como de piedra, sin poder hablar, sin poder moverse.
+
+–Está bien, dígame, ¿qué quiere de mí? –pregunta.
+
+Cándido empieza a reírse demasiado tiempo. De repente se para y anda hacia Antonio.
+
+–Ya está bien, hijo. ¿Tú te crees que soy tonto? Sabes muy bien qué busco. Y sabes quién soy.
+
+Antonio no puede pensar. No le sale una palabra.
+
+–Está bien. Tú ya conoces la historia, pero te la voy a contar otra vez. Sabes que hace un mes llegaron a mi casa unos periódicos. ¿Quién me los envió? ¡Contesta!
+
+Antonio escucha. Cándido le habla de unos periódicos, de la sinagoga, de la llave; le dice que todo eso era una llamada para él, que él puede leer las inscripciones; que los dos lo saben muy bien. Y el joven no entiende nada de nada.
+
+–Tú me enviaste los periódicos. ¿Por qué?
+–Pero ¿qué me está diciendo? Yo no pude enviarle nada. No he conocido la historia de la sinagoga hasta ayer. Además, vivo en Madrid y no sé quién es usted.
+–No te creo. No puede ser.
+
+La verdad es que el chico no parece peligroso. Cándido empieza a no saber qué pensar. Está cansado. Se sienta.
+
+–¿No eres tú el hombre de los periódicos? Pero, entonces, ¿quién me los envió? ¿Quién eres tú?
+–Yo no soy, yo no he enviado nada…`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 6',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 6',
+        content: `–Está bien, ¿qué quieres? –dice por fin.
+–Quiero trabajar con usted en la inscripción. Quiero encontrar el tesoro de Samuel-Ha-Leví. Es una buena historia para mi libro. Yo le doy la llave y los dos trabajamos en ella. ¿Qué le parece?
+–¡Anda! ¡El chico escribe! ¡Qué bonito! –se ríe Cándido–. ¿Sabes, chico?, para mí es mejor trabajar solo. No me hagas decirlo más veces. ¡Dame esa llave!
+
+Pasan largos minutos. Antonio no se mueve.
+
+–Está bien –dice por fin el arqueólogo–. No quiero matarte. No, no quiero matar a nadie. Otra vez no. De acuerdo. ¡Vamos! Empecemos a trabajar. Pero espera… aquí no. Vamos a mi hotel. Allí están mis libros. Sin ellos, no podemos hacer mucho.
+–Llama a un taxi. No vamos a ir a pie con esta lluvia.
+–De acuerdo. Tú no enviaste los periódicos, pero ayer por la noche tú estabas en la sinagoga. ¿Y qué hacías allí a las cuatro y media de la noche? Robar la llave, ¿verdad? Sí, robarla. La tienes aquí. No has salido de casa en todo el día, lo sé. O quizás ¿tu abuela la lleva en el bolso?
+–No. La llave está aquí, la tengo yo.
+–Muy bien, chico. Venga, dámela ya. Tengo mucha prisa. Me has hecho perder mucho tiempo.
+
+Sin saber muy bien por qué, Antonio se encuentra ahora mucho más seguro de sí mismo.
+
+–No, señor –dice tranquilo.
+–Pero ¿qué dices? Escúchame bien, chico, estoy muy cansado y nervioso. Llevo muchas semanas con esto y quiero dejarlo ya. ¡Dame la llave!, rápido. Puedo matarte, ¿sabes? Dámela ya de una vez. ¡Vamos!
+–No, no le doy nada. Puede buscar por toda la casa, pero no va a encontrarla. Además, no tiene tiempo. Mi abuela va a volver dentro de unos minutos. Claro que puede matarnos a los dos. Pero también puede hacer otra cosa…
+
+Cándido mira a Antonio. Su ojo izquierdo parece cerrarse un poco más.`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 7',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 7',
+        content: `En la habitación de un pequeño hotel, sentados delante de una mesa llena de libros, Antonio y Cándido están trabajando. Casi no hablan. Llevan horas así. Se han olvidado de comer. Solo piensan en leer esas inscripciones. En un lugar de Toledo está el tesoro y lo van a encontrar.
+Cándido abre un libro, luego otros. El hebreo es muy antiguo y difícil, pero empieza a entenderlo. Antonio, muy cerca de él, fuma un cigarrillo. Él no puede hacer gran cosa, pero Cándido va a llegar a la verdad y quiere estar ahí en ese momento.
+Desde hace más de una hora Cándido está con las últimas palabras. Son más difíciles. ¿Imposibles?
+–¡Antonio, ya está! ¡Lo tengo!
+Cándido mira entonces al joven y le sonríe.
+–Por fin –dice–, por fin… Conozco el misterio de la llave, el misterio de la sinagoga azul.
+–Lee la inscripción. Léela, por favor.
+–De acuerdo. Pero escucha muy bien. Nunca has oído algo así: Como mi sinagoga abre la puerta de la verdad, esta llave abre el tesoro de Samuel-Ha-Leví. Dentro de los doce soles de Sefarad, en la esquina de la llave, hay un mar de piedra. El agua no se mueve. En ella está la tierra del jardín de la primavera. Búscalo en el frío de tu suerte y solo entonces. Antes no.
+Cándido mira hacia la ventana. Está muy raro. Parece encontrarse muy lejos. Más allá de esa habitación, más allá de la tierra, del tiempo…
+–Bueno, chico, es muy bonito. No sé qué quiere decir, pero es muy bonito.
+–Sí, es difícil de entender, pero no imposible. Mira… «Sefarad» es España para los judíos. Así la llaman desde siempre. Aquí han vivido hasta el año 1492, unas veces tranquilos y seguros con nosotros y con los árabes, otras veces no. Toledo era un centro judío muy importante. Por eso hay aquí un gran número de sinagogas. La inscripción habla de los doce soles de Sefarad y aquí, en esta ciudad, está la Casa de los Doce Soles. ¿No la conoces? La llaman así por los doce soles dibujados en sus paredes. Allí está el tesoro de Samuel-Ha-Leví.
+–¡El tesoro! Nuestro tesoro… en esa casa… Me parece imposible. No puedes imaginar la historia que voy a escribir con todo esto.
+–Primero debemos ir allí, digo yo –sonríe Cándido.
+–Sí, y no va a ser fácil encontrar nuestro tesoro. La casa es muy grande, tiene muchas habitaciones. Podemos estar semanas buscando.
+–No, no lo creo. La llave también dice en qué habitación está. Piensa en la inscripción. Tanto en la llave como en la habitación del tesoro hay un dibujo del mar en una esquina.
+–Ya, ya te entiendo. Entonces la llave es un plano.
+–Sí, así es.
+–Y estos dibujos de la llave son el mar. Ya entiendo…
+–Es fácil. En el suelo de esa habitación, debajo del dibujo del mar, está el tesoro. La inscripción lo llama «la tierra del jardín de la primavera». También dice que solo puede buscar el tesoro alguien con mala suerte. ¿Quizás soy yo esa persona? Vamos a verlo.`
+      },
+      {
+        tab: 'Capitulo 4 - Fragmento 8',
+        title: 'El misterio de la llave - Capítulo 4, Fragmento 8',
+        content: `Antonio está encantado. ¡Qué lejos está de todo, de su trabajo, de la ciudad gris…, hasta de su abuela! Nunca ha conocido a un hombre tan interesante como Cándido. Aquí, a su lado, está viviendo por fin algo importante.
+
+–Gracias, Cándido –le dice–. Gracias por dejarme vivir estos momentos contigo.
+–De nada, Antonio. Creo que estoy cansado de estar solo. Eso es todo.
+
+Los dos hombres se dan la mano. ¿Son ya amigos? Casi no se conocen. Pero los dos quieren saber qué esconde la Casa de los Doce Soles. Y para descubrir el misterio de la llave son ahora como una misma persona.
+
+–Bueno, chico, primero vamos al restaurante. Debemos cenar algo. Esta noche tenemos mucho trabajo.
+–Sí, es verdad. Voy a llamar por teléfono a mi abuela para decirle que voy a llegar tarde.`
       }
     ],
     exercises: [
