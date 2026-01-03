@@ -11934,9 +11934,14 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
       {
         tab: '¿Qué es la microbiota?',
         subtabs: [
-          { name: 'Словарь', exercises: ['ex-9-5-microbiota-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-9-5-microbiota-comprehension'] },
-          { name: 'Грамматика', exercises: ['ex-9-5-microbiota-grammar'] }
+          { name: 'Словарь 1', exercises: ['ex-9-5-microbiota-vocab-1'] },
+          { name: 'Словарь 2', exercises: ['ex-9-5-microbiota-vocab-2'] },
+          { name: 'Понимание текста 1', exercises: ['ex-9-5-microbiota-comprehension-1'] },
+          { name: 'Понимание текста 2', exercises: ['ex-9-5-microbiota-comprehension-2'] },
+          { name: 'Понимание текста 3', exercises: ['ex-9-5-microbiota-comprehension-3'] },
+          { name: 'Грамматика 1', exercises: ['ex-9-5-microbiota-grammar-1'] },
+          { name: 'Грамматика 2', exercises: ['ex-9-5-microbiota-grammar-2'] },
+          { name: 'Грамматика 3', exercises: ['ex-9-5-microbiota-grammar-3'] }
         ]
       },
       {
@@ -24186,34 +24191,58 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
 
   // Módulo 9 Lección 5 - ¿Qué es la microbiota?
-  'ex-9-5-microbiota-vocab': {
-    id: 'ex-9-5-microbiota-vocab',
+  'ex-9-5-microbiota-vocab-1': {
+    id: 'ex-9-5-microbiota-vocab-1',
     type: 'vocabulary',
-    title: 'Vocabulario: ¿Qué es la microbiota?',
+    title: 'Vocabulario 1: ¿Qué es la microbiota?',
     description: 'Выберите правильный перевод слова',
     questions: [
       { spanish: 'recibir', options: ['получать, принимать', 'отдавать', 'терять', 'искать'], correct: 0 },
       { spanish: 'enviar', options: ['послать, отправить', 'получать', 'оставлять', 'терять'], correct: 0 },
+      { spanish: 'determinado', options: ['определенный', 'неопределенный', 'случайный', 'забытый'], correct: 0 },
       { spanish: 'percibir', options: ['воспринимать, ощущать', 'забывать', 'отдавать', 'искать'], correct: 0 },
       { spanish: 'la célula', options: ['клетка', 'молекула', 'атом', 'орган'], correct: 0 },
+      { spanish: 'comunicarse', options: ['сообщаться', 'молчать', 'скрывать', 'забывать'], correct: 0 },
       { spanish: 'el intestino', options: ['кишечник', 'желудок', 'печень', 'сердце'], correct: 0 },
       { spanish: 'el descubrimiento', options: ['открытие, находка', 'потеря', 'забвение', 'закрытие'], correct: 0 },
+      { spanish: 'estar en conexión', options: ['быть связанным', 'быть отдельным', 'быть потерянным', 'быть забытым'], correct: 0 },
+      { spanish: 'el tubo', options: ['труба, трубка', 'шар', 'куб', 'конус'], correct: 0 },
+      { spanish: 'el sistema inmune', options: ['иммунная система', 'нервная система', 'кровеносная система', 'дыхательная система'], correct: 0 },
       { spanish: 'la superficie', options: ['поверхность, площадь', 'глубина', 'высота', 'ширина'], correct: 0 },
+      { spanish: 'expuesto', options: ['выставленный', 'скрытый', 'закрытый', 'защищенный'], correct: 0 },
       { spanish: 'medir', options: ['мерить, измерять', 'строить', 'разрушать', 'красить'], correct: 0 },
-      { spanish: 'afectar', options: ['отрицательно воздействовать', 'помогать', 'улучшать', 'украшать'], correct: 0 },
-      { spanish: 'el lupus', options: ['волчанка', 'грипп', 'простуда', 'аллергия'], correct: 0 },
-      { spanish: 'la ansiedad', options: ['тревога, беспокойство', 'радость', 'спокойствие', 'удовольствие'], correct: 0 },
-      { spanish: 'disminuir', options: ['уменьшаться, уменьшать', 'увеличиваться', 'оставаться', 'появляться'], correct: 0 },
-      { spanish: 'la inflamación', options: ['воспаление', 'заживление', 'лечение', 'профилактика'], correct: 0 },
-      { spanish: 'la fibra', options: ['клетчатка', 'белок', 'жир', 'углевод'], correct: 0 },
-      { spanish: 'absorber', options: ['поглощать, впитывать', 'выделять', 'отталкивать', 'производить'], correct: 0 }
+      { spanish: 'intestino delgado', options: ['тонкий кишечник', 'толстый кишечник', 'желудок', 'пищевод'], correct: 0 }
     ]
   },
 
-  'ex-9-5-microbiota-comprehension': {
-    id: 'ex-9-5-microbiota-comprehension',
+  'ex-9-5-microbiota-vocab-2': {
+    id: 'ex-9-5-microbiota-vocab-2',
+    type: 'vocabulary',
+    title: 'Vocabulario 2: ¿Qué es la microbiota?',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'intestino grueso', options: ['толстый кишечник', 'тонкий кишечник', 'желудок', 'печень'], correct: 0 },
+      { spanish: 'afectar', options: ['отрицательно воздействовать', 'помогать', 'улучшать', 'украшать'], correct: 0 },
+      { spanish: 'el lupus', options: ['волчанка', 'грипп', 'простуда', 'аллергия'], correct: 0 },
+      { spanish: 'por consiguiente', options: ['следовательно, таким образом', 'несмотря на', 'возможно', 'никогда'], correct: 0 },
+      { spanish: 'la ansiedad', options: ['тревога, беспокойство', 'радость', 'спокойствие', 'удовольствие'], correct: 0 },
+      { spanish: 'disminuir', options: ['уменьшаться, уменьшать', 'увеличиваться', 'оставаться', 'появляться'], correct: 0 },
+      { spanish: 'la inflamación', options: ['воспаление', 'заживление', 'лечение', 'профилактика'], correct: 0 },
+      { spanish: 'de bajo grado', options: ['низкого уровня', 'высокого уровня', 'среднего уровня', 'без уровня'], correct: 0 },
+      { spanish: 'la fibra', options: ['клетчатка', 'белок', 'жир', 'углевод'], correct: 0 },
+      { spanish: 'las fuerzas del bien', options: ['силы добра', 'силы зла', 'нейтральные силы', 'слабые силы'], correct: 0 },
+      { spanish: 'intracraneal', options: ['внутричерепной', 'внешний', 'поверхностный', 'периферический'], correct: 0 },
+      { spanish: 'el nodo', options: ['узел', 'точка', 'линия', 'круг'], correct: 0 },
+      { spanish: 'absorber', options: ['поглощать, впитывать', 'выделять', 'отталкивать', 'производить'], correct: 0 },
+      { spanish: 'los ritmos circadianos', options: ['циркадные ритмы', 'музыкальные ритмы', 'танцевальные ритмы', 'сердечные ритмы'], correct: 0 },
+      { spanish: 'la difusión', options: ['распространение', 'сокращение', 'уменьшение', 'исчезновение'], correct: 0 }
+    ]
+  },
+
+  'ex-9-5-microbiota-comprehension-1': {
+    id: 'ex-9-5-microbiota-comprehension-1',
     type: 'reading-comprehension',
-    title: 'Понимание текста: ¿Qué es la microbiota?',
+    title: 'Понимание текста 1: ¿Qué es la microbiota?',
     description: 'Выберите правильный ответ на основе текста',
     questions: [
       {
@@ -24369,10 +24398,328 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  'ex-9-5-microbiota-grammar': {
-    id: 'ex-9-5-microbiota-grammar',
+  'ex-9-5-microbiota-comprehension-2': {
+    id: 'ex-9-5-microbiota-comprehension-2',
+    type: 'reading-comprehension',
+    title: 'Понимание текста 2: ¿Qué es la microbiota?',
+    description: 'Выберите правильный ответ на основе текста',
+    questions: [
+      {
+        question: '¿Qué porcentaje de nuestro sistema de defensa está en el tubo digestivo?',
+        options: [
+          'El 80 por ciento',
+          'El 50 por ciento',
+          'El 30 por ciento',
+          'El 90 por ciento'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué superficie tiene el intestino delgado?',
+        options: [
+          '400 metros cuadrados',
+          '200 metros cuadrados',
+          '100 metros cuadrados',
+          '50 metros cuadrados'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué cantidad de superficie tiene el intestino grueso?',
+        options: [
+          '800 metros cuadrados',
+          '400 metros cuadrados',
+          '200 metros cuadrados',
+          '100 metros cuadrados'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cómo se consideraba antes el tubo digestivo?',
+        options: [
+          'Solo como un órgano para absorber alimentos',
+          'Como el órgano más importante',
+          'Como un segundo cerebro',
+          'Como un sistema de defensa'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué papel juega el tubo digestivo en enfermedades como la artritis reumatoide?',
+        options: [
+          'Puede tener su origen en él',
+          'No tiene ninguna relación',
+          'Solo afecta a la digestión',
+          'Solo afecta al cerebro'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué relación hay entre el tubo digestivo y el cerebro?',
+        options: [
+          'Están en comunicación constante',
+          'No tienen ninguna relación',
+          'Solo se comunican cuando hay problemas',
+          'Solo el cerebro envía información'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué pueden tener su origen en una pobre nutrición según el texto?',
+        options: [
+          'Cuadros de ansiedad y depresión',
+          'Solo problemas digestivos',
+          'Solo alergias',
+          'Solo problemas de memoria'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué hacen las bacterias en el tubo digestivo?',
+        options: [
+          'Se comunican con las células',
+          'Solo digieren alimentos',
+          'Solo causan enfermedades',
+          'No hacen nada importante'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué es la inflamación crónica de bajo grado?',
+        options: [
+          'Está detrás de la mayor parte de las enfermedades',
+          'Es una condición beneficiosa',
+          'Solo afecta al estómago',
+          'Es temporal y sin importancia'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué pasa cuando hay desequilibrio entre bacteroides y firmicutes?',
+        options: [
+          'Se produce inflamación crónica',
+          'Mejora la salud',
+          'No pasa nada',
+          'Solo afecta al peso'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué tipo de bacterias son los bacteroides?',
+        options: [
+          'Las fuerzas del bien',
+          'Las fuerzas del mal',
+          'Bacterias neutrales',
+          'Bacterias dañinas'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué tipo de bacterias son los firmicutes?',
+        options: [
+          'Las fuerzas del mal',
+          'Las fuerzas del bien',
+          'Bacterias beneficiosas',
+          'Bacterias neutrales'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué favorece el aumento de bacteroides?',
+        options: [
+          'Dieta rica en fibra y pobre en azúcar',
+          'Dieta rica en azúcar',
+          'Dieta sin fibra',
+          'Solo ejercicio físico'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué pasa con los firmicutes cuando tomamos dieta pobre en azúcar?',
+        options: [
+          'Bajan o disminuyen',
+          'Aumentan',
+          'Se mantienen igual',
+          'Desaparecen completamente'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué menciona el texto sobre el Alzheimer?',
+        options: [
+          'Puede tener su origen en el tubo digestivo',
+          'No tiene relación con la digestión',
+          'Solo se debe a la genética',
+          'Solo afecta a personas mayores'
+        ],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-microbiota-comprehension-3': {
+    id: 'ex-9-5-microbiota-comprehension-3',
+    type: 'reading-comprehension',
+    title: 'Понимание текста 3: ¿Qué es la microbiota?',
+    description: 'Выберите правильный ответ на основе текста',
+    questions: [
+      {
+        question: '¿Qué conecta según el texto la mente?',
+        options: [
+          'El cerebro, el corazón y el tubo digestivo',
+          'Solo el cerebro',
+          'Solo el corazón',
+          'Solo los músculos'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué impacto tienen los cambios en la nutrición en el autismo?',
+        options: [
+          'Impacto positivo',
+          'Impacto negativo',
+          'Ningún impacto',
+          'Solo impacto temporal'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿De quién habla el texto que dio un discurso?',
+        options: [
+          'Steve Jobs',
+          'Mario Alonso Puig',
+          'Un científico',
+          'Un doctor'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Dónde dio Steve Jobs su discurso?',
+        options: [
+          'En Stanford',
+          'En Harvard',
+          'En MIT',
+          'En Oxford'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿De qué hablaba Steve Jobs en su discurso?',
+        options: [
+          'De conectar los puntos',
+          'De la tecnología',
+          'De los negocios',
+          'De la salud'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué dice el texto sobre el ser humano?',
+        options: [
+          'Es un ser en relación con todo',
+          'Es un ser individual',
+          'Es un ser independiente',
+          'Es un ser aislado'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Con qué está en relación el ser humano según el texto?',
+        options: [
+          'Con las personas, la energía y la luz',
+          'Solo con las personas',
+          'Solo con los alimentos',
+          'Solo con el ambiente'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿De qué dependen los ritmos circadianos?',
+        options: [
+          'De la luz solar',
+          'De la comida',
+          'Del sueño',
+          'Del ejercicio'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué nos influye naturalmente según el texto?',
+        options: [
+          'Las mareas',
+          'Solo el clima',
+          'Solo la temperatura',
+          'Solo la presión atmosférica'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué pasa cuando uno se da un paseo por el campo?',
+        options: [
+          'Están sucediendo cosas por dentro',
+          'Solo es agradable',
+          'No pasa nada especial',
+          'Solo mejora el ánimo'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué están haciendo las células según el texto?',
+        options: [
+          'Están en relación unas con otras',
+          'Funcionan de manera independiente',
+          'Solo absorben nutrientes',
+          'No se comunican'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué dice el texto sobre la investigación de este campo?',
+        options: [
+          'Uno nunca se puede aburrir',
+          'Es aburrido',
+          'Es muy complicado',
+          'No vale la pena'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cuál es la profesión del doctor Mario Alonso Puig?',
+        options: [
+          'Especialista en cirugía general y del aparato digestivo',
+          'Cardiólogo',
+          'Neurólogo',
+          'Psicólogo'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Cuántos años ejerció el doctor la actividad quirúrgica?',
+        options: [
+          '26 años',
+          '20 años',
+          '30 años',
+          '15 años'
+        ],
+        correct: 0
+      },
+      {
+        question: '¿Qué le apasiona al doctor Mario Alonso Puig?',
+        options: [
+          'Investigar y seguir formándose',
+          'Solo operar',
+          'Solo dar conferencias',
+          'Solo escribir libros'
+        ],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-5-microbiota-grammar-1': {
+    id: 'ex-9-5-microbiota-grammar-1',
     type: 'grammar',
-    title: 'Грамматика: ¿Qué es la microbiota?',
+    title: 'Грамматика 1: ¿Qué es la microbiota?',
     description: 'Выберите правильную форму глагола',
     questions: [
       { question: 'La microbiota ___ (recibir) información del exterior constantemente.', options: ['recibe', 'recibió', 'ha recibido', 'reciba'], correct: 0 },
@@ -24390,6 +24737,54 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: 'Cuando una persona ___ (tomar) una dieta pobre en azúcar, los firmicutes bajan.', options: ['toma', 'tomó', 'ha tomado', 'tome'], correct: 0 },
       { question: 'Se ___ (ver) que cambios en la nutrición tienen impacto positivo en el autismo.', options: ['ha visto', 've', 'vio', 'vea'], correct: 0 },
       { question: 'Es importante que uno ___ (darse) paseos por el campo.', options: ['se dé', 'se da', 'se daba', 'se ha dado'], correct: 0 }
+    ]
+  },
+
+  'ex-9-5-microbiota-grammar-2': {
+    id: 'ex-9-5-microbiota-grammar-2',
+    type: 'grammar',
+    title: 'Грамматика 2: ¿Qué es la microbiota?',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { question: 'El tubo digestivo ___ (enviar) señales al cerebro todo el tiempo.', options: ['envía', 'envió', 'ha enviado', 'envíe'], correct: 0 },
+      { question: 'Es fundamental que ___ (percibir) la importancia de la microbiota.', options: ['percibamos', 'percibimos', 'percibíamos', 'hemos percibido'], correct: 0 },
+      { question: 'Las células ___ (comunicarse) entre ellas constantemente.', options: ['se comunican', 'se comunicaron', 'se han comunicado', 'se comuniquen'], correct: 0 },
+      { question: 'Hace unos años se ___ (hacer) este gran descubrimiento.', options: ['hizo', 'hacía', 'ha hecho', 'haga'], correct: 0 },
+      { question: 'Antes los científicos no ___ (saber) la importancia del intestino.', options: ['sabían', 'supieron', 'han sabido', 'sepan'], correct: 0 },
+      { question: 'Es necesario que el sistema inmune ___ (estar) en conexión con el intestino.', options: ['esté', 'está', 'estaba', 'ha estado'], correct: 0 },
+      { question: 'La piel ___ (medir) aproximadamente 2 metros cuadrados.', options: ['mide', 'midió', 'ha medido', 'mida'], correct: 0 },
+      { question: 'El intestino delgado ___ (estar) expuesto a muchos factores.', options: ['está', 'estuvo', 'ha estado', 'esté'], correct: 0 },
+      { question: 'Muchas enfermedades ___ (afectar) al organismo por la inflamación.', options: ['afectan', 'afectaron', 'han afectado', 'afecten'], correct: 0 },
+      { question: 'Es importante que ___ (disminuir) la inflamación crónica.', options: ['disminuya', 'disminuye', 'disminuía', 'ha disminuido'], correct: 0 },
+      { question: 'El lupus ___ (poder) tener su origen en el tubo digestivo.', options: ['puede', 'pudo', 'ha podido', 'pueda'], correct: 0 },
+      { question: 'Por consiguiente, nosotros ___ (deber) cuidar nuestra alimentación.', options: ['debemos', 'debimos', 'hemos debido', 'debamos'], correct: 0 },
+      { question: 'La ansiedad ___ (tener) relación con la nutrición.', options: ['tiene', 'tuvo', 'ha tenido', 'tenga'], correct: 0 },
+      { question: 'Es bueno que ___ (absorber) todos los nutrientes necesarios.', options: ['absorbamos', 'absorbemos', 'absorbíamos', 'hemos absorbido'], correct: 0 },
+      { question: 'Los investigadores ___ (descubrir) recientemente la conexión cerebro-intestino.', options: ['han descubierto', 'descubrieron', 'descubren', 'descubran'], correct: 0 }
+    ]
+  },
+
+  'ex-9-5-microbiota-grammar-3': {
+    id: 'ex-9-5-microbiota-grammar-3',
+    type: 'grammar',
+    title: 'Грамматика 3: ¿Qué es la microbiota?',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { question: 'La fibra ___ (ayudar) a las fuerzas del bien.', options: ['ayuda', 'ayudó', 'ha ayudado', 'ayude'], correct: 0 },
+      { question: 'Es esencial que ___ (conectar) todos los puntos.', options: ['conectemos', 'conectamos', 'conectábamos', 'hemos conectado'], correct: 0 },
+      { question: 'Cuando yo ___ (ir) al campo, me siento mejor.', options: ['voy', 'fui', 'he ido', 'vaya'], correct: 0 },
+      { question: 'Los ritmos circadianos ___ (depender) de la luz solar.', options: ['dependen', 'dependieron', 'han dependido', 'dependan'], correct: 0 },
+      { question: 'La difusión de esta información ___ (ser) muy importante.', options: ['es', 'fue', 'ha sido', 'sea'], correct: 0 },
+      { question: 'Es bueno que el doctor ___ (compartir) su sabiduría.', options: ['comparta', 'comparte', 'compartía', 'ha compartido'], correct: 0 },
+      { question: 'Las mareas nos ___ (influir) naturalmente.', options: ['influyen', 'influyeron', 'han influido', 'influyan'], correct: 0 },
+      { question: 'Antes no se ___ (conocer) la importancia de la microbiota.', options: ['conocía', 'conoció', 'ha conocido', 'conozca'], correct: 0 },
+      { question: 'El doctor ___ (ejercer) la cirugía durante 26 años.', options: ['ejerció', 'ejercía', 'ha ejercido', 'ejerza'], correct: 0 },
+      { question: 'Es importante que ___ (investigar) este campo.', options: ['investiguemos', 'investigamos', 'investigábamos', 'hemos investigado'], correct: 0 },
+      { question: 'El ser humano ___ (estar) en relación con todo.', options: ['está', 'estuvo', 'ha estado', 'esté'], correct: 0 },
+      { question: 'Es necesario que las personas ___ (formarse) sobre este tema.', options: ['se formen', 'se forman', 'se formaban', 'se han formado'], correct: 0 },
+      { question: 'La energía ___ (existir) en nuestro entorno.', options: ['existe', 'existió', 'ha existido', 'exista'], correct: 0 },
+      { question: 'El nodo intracraneal ___ (ser) parte del sistema nervioso.', options: ['es', 'fue', 'ha sido', 'sea'], correct: 0 },
+      { question: 'Es bonito que uno nunca ___ (poder) aburrirse investigando.', options: ['pueda', 'puede', 'podía', 'ha podido'], correct: 0 }
     ]
   },
 
