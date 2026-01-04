@@ -82,7 +82,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: Литература и культура',
     level: 'intermediate',
-    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5', 'lesson-9-6'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5', 'lesson-9-6', 'lesson-9-7'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -12351,6 +12351,102 @@ Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunió
           { name: 'Понимание текста', exercises: ['ex-9-6-abrazos-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-6-abrazos-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-9-6-abrazos-translation'] }
+        ]
+      }
+    ]
+  },
+
+  'lesson-9-7': {
+    id: 'lesson-9-7',
+    title: 'Урок 7: Биология',
+    moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'Mariposas',
+        videoUrl: '/video/¿Cómo se convierten en mariposas las orugas.mp4'
+      },
+      {
+        tab: 'Pez RAPE',
+        videoUrl: '/video/Pez RAPE.mp4'
+      }
+    ],
+    vocabulary: [
+      {
+        tab: 'Mariposas',
+        words: [
+          { word: 'la oruga', translation: 'гусеница' },
+          { word: 'la mariposa', translation: 'бабочка' },
+          { word: 'la metamorfosis', translation: 'метаморфоза, превращение' },
+          { word: 'la crisálida', translation: 'куколка, хризалида' },
+          { word: 'el capullo', translation: 'кокон' },
+          { word: 'transformarse', translation: 'превращаться, трансформироваться' },
+          { word: 'desarrollarse', translation: 'развиваться' },
+          { word: 'las alas', translation: 'крылья' },
+          { word: 'el proceso', translation: 'процесс' },
+          { word: 'la naturaleza', translation: 'природа' }
+        ]
+      },
+      {
+        tab: 'Pez RAPE',
+        words: [
+          { word: 'el rape', translation: 'морской черт (рыба)' },
+          { word: 'el pez', translation: 'рыба' },
+          { word: 'la profundidad', translation: 'глубина' },
+          { word: 'el océano', translation: 'океан' },
+          { word: 'marino', translation: 'морской' },
+          { word: 'el depredador', translation: 'хищник' },
+          { word: 'la criatura', translation: 'существо, создание' },
+          { word: 'extraño', translation: 'странный' },
+          { word: 'la luz', translation: 'свет' },
+          { word: 'brillar', translation: 'блестеть, сиять' }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: 'Mariposas',
+        title: 'La metamorfosis de las mariposas',
+        content: `La transformación de una oruga en mariposa es uno de los procesos más fascinantes de la naturaleza. Este fenómeno, conocido como metamorfosis, representa un cambio completo en la forma y estructura del animal.
+
+El proceso comienza cuando la oruga, después de alimentarse intensamente, encuentra un lugar seguro para formar su crisálida o capullo. Dentro de este refugio, ocurre una transformación asombrosa: el cuerpo de la oruga se descompone casi por completo y se reorganiza para formar la estructura de una mariposa adulta.
+
+Durante semanas, células especiales llamadas células imaginales trabajan para crear las alas, las antenas y todas las estructuras de la mariposa. Cuando finalmente emerge del capullo, la mariposa debe esperar a que sus alas se sequen y fortalezcan antes de poder volar por primera vez.`,
+        translation: `Превращение гусеницы в бабочку - это один из самых захватывающих процессов в природе. Это явление, известное как метаморфоза, представляет собой полное изменение формы и структуры животного.
+
+Процесс начинается, когда гусеница, после интенсивного питания, находит безопасное место для формирования своей куколки или кокона. Внутри этого убежища происходит удивительное превращение: тело гусеницы почти полностью разлагается и реорганизуется, чтобы сформировать структуру взрослой бабочки.
+
+В течение недель специальные клетки, называемые имагинальными клетками, работают над созданием крыльев, усиков и всех структур бабочки. Когда она наконец выходит из кокона, бабочка должна подождать, пока ее крылья высохнут и окрепнут, прежде чем сможет впервые полететь.`
+      },
+      {
+        tab: 'Pez RAPE',
+        title: 'El pez rape: un cazador de las profundidades',
+        content: `El pez rape es una de las criaturas más extrañas del océano. Vive en las profundidades marinas, donde la luz del sol nunca llega. Para sobrevivir en este ambiente oscuro, ha desarrollado características únicas.
+
+Lo más notable del pez rape es su "linterna" biológica: una extensión luminosa que sobresale de su cabeza y brilla en la oscuridad. Esta luz atrae a otros peces curiosos, que se acercan pensando que han encontrado comida, pero en realidad se están acercando al depredador.
+
+El pez rape es un cazador paciente. Permanece inmóvil en el fondo del océano, esperando que sus presas se acerquen lo suficiente. Cuando un pez pequeño se acerca demasiado, el rape abre su enorme boca y lo atrapa en una fracción de segundo.`,
+        translation: `Морской черт - это одно из самых странных существ океана. Он живет в морских глубинах, куда никогда не доходит солнечный свет. Чтобы выжить в этой темной среде, он развил уникальные характеристики.
+
+Самое примечательное в морском черте - это его биологический "фонарь": светящийся отросток, который выступает из его головы и светится в темноте. Этот свет привлекает других любопытных рыб, которые приближаются, думая, что нашли пищу, но на самом деле они приближаются к хищнику.
+
+Морской черт - терпеливый охотник. Он остается неподвижным на дне океана, ожидая, пока его жертвы приблизятся достаточно. Когда маленькая рыба подходит слишком близко, морской черт открывает свою огромную пасть и ловит ее за доли секунды.`
+      }
+    ],
+    exercises: [
+      {
+        tab: 'Mariposas',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-7-mariposas-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-7-mariposas-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-7-mariposas-grammar'] }
+        ]
+      },
+      {
+        tab: 'Pez RAPE',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-7-rape-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-7-rape-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-7-rape-grammar'] }
         ]
       }
     ]
