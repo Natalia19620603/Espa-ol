@@ -355,6 +355,75 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               userAnswer={userAnswer}
             />
           )}
+          {exercise.type === 'audio-comprehension' && (
+            <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+              <div style={{
+                backgroundColor: exercise.backgroundColor || '#f5f5f5',
+                padding: '20px',
+                borderRadius: '8px',
+                marginBottom: '20px'
+              }}>
+                <h3 style={{ marginBottom: '15px', color: '#333' }}>
+                  Вопрос {currentQuestion + 1} из {exercise.questions.length}
+                </h3>
+                <p style={{
+                  fontSize: '18px',
+                  lineHeight: '1.6',
+                  color: '#1976d2',
+                  fontWeight: '500',
+                  marginBottom: '20px'
+                }}>
+                  {exercise.questions[currentQuestion].question}
+                </p>
+                <div style={{
+                  backgroundColor: '#fff',
+                  padding: '15px',
+                  borderRadius: '4px',
+                  border: '1px solid #e0e0e0'
+                }}>
+                  <textarea
+                    placeholder="Напишите ваш ответ здесь..."
+                    style={{
+                      width: '100%',
+                      minHeight: '100px',
+                      padding: '10px',
+                      fontSize: '16px',
+                      border: '1px solid #ccc',
+                      borderRadius: '4px',
+                      resize: 'vertical',
+                      fontFamily: 'inherit'
+                    }}
+                  />
+                </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '20px' }}>
+                <button
+                  onClick={() => setCurrentQuestion(prev => Math.max(0, prev - 1))}
+                  disabled={currentQuestion === 0}
+                  style={{
+                    padding: '10px 20px',
+                    fontSize: '16px',
+                    cursor: currentQuestion === 0 ? 'not-allowed' : 'pointer',
+                    opacity: currentQuestion === 0 ? 0.5 : 1
+                  }}
+                >
+                  ← Назад
+                </button>
+                <button
+                  onClick={() => setCurrentQuestion(prev => Math.min(exercise.questions.length - 1, prev + 1))}
+                  disabled={currentQuestion === exercise.questions.length - 1}
+                  style={{
+                    padding: '10px 20px',
+                    fontSize: '16px',
+                    cursor: currentQuestion === exercise.questions.length - 1 ? 'not-allowed' : 'pointer',
+                    opacity: currentQuestion === exercise.questions.length - 1 ? 0.5 : 1
+                  }}
+                >
+                  Вперёд →
+                </button>
+              </div>
+            </div>
+          )}
           {exercise.type === 'writing' && (
             <WritingQuestion
               question={exercise.questions[currentQuestion]}
