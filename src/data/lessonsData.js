@@ -9974,11 +9974,37 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
       }
     ],
     exercises: [
-      'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
-      'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7', 'ex-9-1-c2-f8', 'ex-9-1-c2-f9',
-      'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6', 'ex-9-1-c3-f7', 'ex-9-1-c3-f8',
-      'ex-9-1-c4-f1', 'ex-9-1-c4-f2', 'ex-9-1-c4-f3', 'ex-9-1-c4-f4', 'ex-9-1-c4-f5', 'ex-9-1-c4-f6', 'ex-9-1-c4-f7', 'ex-9-1-c4-f8',
-      'ex-9-1-c5-f1', 'ex-9-1-c5-f2', 'ex-9-1-c5-f3', 'ex-9-1-c5-f4', 'ex-9-1-c5-f5'
+      {
+        tab: 'Nivel A2',
+        subtabs: [
+          {
+            name: 'Аудио',
+            exercises: [
+              'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
+              'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7', 'ex-9-1-c2-f8', 'ex-9-1-c2-f9',
+              'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6', 'ex-9-1-c3-f7', 'ex-9-1-c3-f8',
+              'ex-9-1-c4-f1', 'ex-9-1-c4-f2', 'ex-9-1-c4-f3', 'ex-9-1-c4-f4', 'ex-9-1-c4-f5', 'ex-9-1-c4-f6', 'ex-9-1-c4-f7', 'ex-9-1-c4-f8',
+              'ex-9-1-c5-f1', 'ex-9-1-c5-f2', 'ex-9-1-c5-f3', 'ex-9-1-c5-f4', 'ex-9-1-c5-f5'
+            ]
+          },
+          {
+            name: 'Перевод',
+            exercises: ['ex-9-1-a2-translation-1', 'ex-9-1-a2-translation-2', 'ex-9-1-a2-translation-3']
+          }
+        ]
+      },
+      {
+        tab: 'В1',
+        subtabs: [
+          {
+            name: 'Грамматика',
+            exercises: [
+              'ex-9-1-b1-grammar-1', 'ex-9-1-b1-grammar-2', 'ex-9-1-b1-grammar-3',
+              'ex-9-1-b1-grammar-4', 'ex-9-1-b1-grammar-5', 'ex-9-1-b1-grammar-6'
+            ]
+          }
+        ]
+      }
     ]
   },
 
@@ -16842,6 +16868,593 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
+  // Translation exercises A2
+  'ex-9-1-a2-translation-1': {
+    id: 'ex-9-1-a2-translation-1',
+    type: 'translation',
+    title: 'Перевод A2 - Блок 1',
+    description: 'Переведите предложения с русского на испанский',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'Я живу в большом городе', spanish: 'Yo vivo en una ciudad grande' },
+      { russian: 'Моя семья очень дружная', spanish: 'Mi familia es muy unida' },
+      { russian: 'Каждое утро я пью кофе', spanish: 'Cada mañana bebo café' },
+      { russian: 'Мне нравится читать книги', spanish: 'Me gusta leer libros' },
+      { russian: 'Вчера я купил новую машину', spanish: 'Ayer compré un coche nuevo' },
+      { russian: 'Мои друзья живут далеко', spanish: 'Mis amigos viven lejos' },
+      { russian: 'Завтра будет хорошая погода', spanish: 'Mañana hará buen tiempo' },
+      { russian: 'Я хочу поехать в Испанию', spanish: 'Quiero ir a España' },
+      { russian: 'Она работает в больнице', spanish: 'Ella trabaja en el hospital' },
+      { russian: 'Мы учим испанский язык', spanish: 'Nosotros aprendemos español' },
+      { russian: 'Он любит играть в футбол', spanish: 'A él le gusta jugar al fútbol' },
+      { russian: 'У меня есть две кошки', spanish: 'Tengo dos gatos' },
+      { russian: 'Мой брат живет в Мадриде', spanish: 'Mi hermano vive en Madrid' },
+      { russian: 'Я встаю в семь утра', spanish: 'Me levanto a las siete de la mañana' },
+      { russian: 'Они ходят в кино каждую неделю', spanish: 'Ellos van al cine cada semana' }
+    ]
+  },
+
+  'ex-9-1-a2-translation-2': {
+    id: 'ex-9-1-a2-translation-2',
+    type: 'translation',
+    title: 'Перевод A2 - Блок 2',
+    description: 'Переведите предложения с русского на испанский',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'В моей комнате есть окно', spanish: 'En mi habitación hay una ventana' },
+      { russian: 'Я иду в магазин', spanish: 'Voy a la tienda' },
+      { russian: 'Ты знаешь, где библиотека?', spanish: '¿Sabes dónde está la biblioteca?' },
+      { russian: 'Мы ужинаем в восемь вечера', spanish: 'Cenamos a las ocho de la noche' },
+      { russian: 'Я хочу выучить французский', spanish: 'Quiero aprender francés' },
+      { russian: 'Сколько это стоит?', spanish: '¿Cuánto cuesta esto?' },
+      { russian: 'Он говорит по-английски', spanish: 'Él habla inglés' },
+      { russian: 'Мой день рождения в июне', spanish: 'Mi cumpleaños es en junio' },
+      { russian: 'Я плохо себя чувствую', spanish: 'Me siento mal' },
+      { russian: 'Можно мне стакан воды?', spanish: '¿Me puede dar un vaso de agua?' },
+      { russian: 'Мы приехали два дня назад', spanish: 'Llegamos hace dos días' },
+      { russian: 'Где находится ближайшая аптека?', spanish: '¿Dónde está la farmacia más cercana?' },
+      { russian: 'Я жду автобус', spanish: 'Estoy esperando el autobús' },
+      { russian: 'Ты свободен сегодня вечером?', spanish: '¿Estás libre esta noche?' },
+      { russian: 'Мне нужна помощь', spanish: 'Necesito ayuda' }
+    ]
+  },
+
+  'ex-9-1-a2-translation-3': {
+    id: 'ex-9-1-a2-translation-3',
+    type: 'translation',
+    title: 'Перевод A2 - Блок 3',
+    description: 'Переведите предложения с русского на испанский',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'Погода сегодня отличная', spanish: 'El tiempo está estupendo hoy' },
+      { russian: 'Я предпочитаю чай кофе', spanish: 'Prefiero el té al café' },
+      { russian: 'Она очень красивая девушка', spanish: 'Ella es una chica muy guapa' },
+      { russian: 'Я не понимаю этот вопрос', spanish: 'No entiendo esta pregunta' },
+      { russian: 'Мы должны уйти сейчас', spanish: 'Tenemos que irnos ahora' },
+      { russian: 'Он работает каждый день', spanish: 'Él trabaja todos los días' },
+      { russian: 'Я родился в России', spanish: 'Nací en Rusia' },
+      { russian: 'Ты можешь мне помочь?', spanish: '¿Puedes ayudarme?' },
+      { russian: 'Мне холодно', spanish: 'Tengo frío' },
+      { russian: 'Он готовит очень вкусно', spanish: 'Él cocina muy rico' },
+      { russian: 'Я изучаю медицину', spanish: 'Estudio medicina' },
+      { russian: 'У нее голубые глаза', spanish: 'Ella tiene los ojos azules' },
+      { russian: 'Я живу один', spanish: 'Vivo solo' },
+      { russian: 'Мы встретились в парке', spanish: 'Nos encontramos en el parque' },
+      { russian: 'Это очень интересно', spanish: 'Es muy interesante' }
+    ]
+  },
+
+  // Grammar exercises B1
+  'ex-9-1-b1-grammar-1': {
+    id: 'ex-9-1-b1-grammar-1',
+    type: 'grammar',
+    title: 'Грамматика B1 - Pretérito Perfecto',
+    description: 'Выберите правильную форму глагола в Pretérito Perfecto',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Yo ___ tres veces a España',
+        options: ['he ido', 'ha ido', 'hemos ido', 'han ido'],
+        correct: 0
+      },
+      {
+        sentence: 'Ellos nunca ___ paella',
+        options: ['he comido', 'has comido', 'ha comido', 'han comido'],
+        correct: 3
+      },
+      {
+        sentence: '¿Tú ___ la nueva película de Almodóvar?',
+        options: ['he visto', 'has visto', 'ha visto', 'hemos visto'],
+        correct: 1
+      },
+      {
+        sentence: 'Nosotros ___ mucho este año',
+        options: ['he estudiado', 'has estudiado', 'ha estudiado', 'hemos estudiado'],
+        correct: 3
+      },
+      {
+        sentence: 'María ___ su tesis esta semana',
+        options: ['he terminado', 'has terminado', 'ha terminado', 'han terminado'],
+        correct: 2
+      },
+      {
+        sentence: '¿Vosotros ___ alguna vez flamenco?',
+        options: ['habéis bailado', 'hemos bailado', 'han bailado', 'ha bailado'],
+        correct: 0
+      },
+      {
+        sentence: 'Yo todavía no ___ ese libro',
+        options: ['he leído', 'has leído', 'ha leído', 'han leído'],
+        correct: 0
+      },
+      {
+        sentence: 'Mis padres ___ una casa nueva',
+        options: ['he comprado', 'has comprado', 'ha comprado', 'han comprado'],
+        correct: 3
+      },
+      {
+        sentence: 'Este mes ___ mucho calor',
+        options: ['he hecho', 'has hecho', 'ha hecho', 'hemos hecho'],
+        correct: 2
+      },
+      {
+        sentence: '¿Tú ___ tus deberes hoy?',
+        options: ['he hecho', 'has hecho', 'ha hecho', 'han hecho'],
+        correct: 1
+      },
+      {
+        sentence: 'Nosotros ___ en este restaurante antes',
+        options: ['he estado', 'has estado', 'ha estado', 'hemos estado'],
+        correct: 3
+      },
+      {
+        sentence: 'Ellas ___ al museo esta mañana',
+        options: ['he ido', 'has ido', 'ha ido', 'han ido'],
+        correct: 3
+      },
+      {
+        sentence: '¿Vosotros ___ las llaves?',
+        options: ['habéis perdido', 'hemos perdido', 'han perdido', 'ha perdido'],
+        correct: 0
+      },
+      {
+        sentence: 'Yo ___ dos cafés esta mañana',
+        options: ['he tomado', 'has tomado', 'ha tomado', 'han tomado'],
+        correct: 0
+      },
+      {
+        sentence: 'El profesor ___ la lección muy bien',
+        options: ['he explicado', 'has explicado', 'ha explicado', 'hemos explicado'],
+        correct: 2
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-2': {
+    id: 'ex-9-1-b1-grammar-2',
+    type: 'grammar',
+    title: 'Грамматика B1 - Pretérito Indefinido',
+    description: 'Выберите правильную форму глагола в Pretérito Indefinido',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Ayer yo ___ al cine',
+        options: ['fui', 'fue', 'fuiste', 'fueron'],
+        correct: 0
+      },
+      {
+        sentence: 'Ellos ___ la casa el año pasado',
+        options: ['compré', 'compraste', 'compró', 'compraron'],
+        correct: 3
+      },
+      {
+        sentence: '¿Tú ___ con ella anoche?',
+        options: ['hablé', 'hablaste', 'habló', 'hablaron'],
+        correct: 1
+      },
+      {
+        sentence: 'Nosotros ___ en 1995',
+        options: ['nací', 'naciste', 'nació', 'nacimos'],
+        correct: 3
+      },
+      {
+        sentence: 'Mi hermano ___ a Madrid en 2010',
+        options: ['me mudé', 'te mudaste', 'se mudó', 'nos mudamos'],
+        correct: 2
+      },
+      {
+        sentence: 'Vosotros ___ la película ayer',
+        options: ['visteis', 'vimos', 'vieron', 'vio'],
+        correct: 0
+      },
+      {
+        sentence: 'Yo ___ todo el día',
+        options: ['trabajé', 'trabajaste', 'trabajó', 'trabajaron'],
+        correct: 0
+      },
+      {
+        sentence: 'Ellas ___ a las ocho',
+        options: ['llegué', 'llegaste', 'llegó', 'llegaron'],
+        correct: 3
+      },
+      {
+        sentence: '¿Qué ___ tú el domingo pasado?',
+        options: ['hice', 'hiciste', 'hizo', 'hicieron'],
+        correct: 1
+      },
+      {
+        sentence: 'Nosotros no ___ nada ayer',
+        options: ['comí', 'comiste', 'comió', 'comimos'],
+        correct: 3
+      },
+      {
+        sentence: 'Carlos ___ un email importante',
+        options: ['escribí', 'escribiste', 'escribió', 'escribieron'],
+        correct: 2
+      },
+      {
+        sentence: '¿Vosotros ___ el tren?',
+        options: ['perdisteis', 'perdimos', 'perdieron', 'perdió'],
+        correct: 0
+      },
+      {
+        sentence: 'Yo ___ en ese hotel',
+        options: ['dormí', 'dormiste', 'durmió', 'durmieron'],
+        correct: 0
+      },
+      {
+        sentence: 'Tú ___ muy tarde anoche',
+        options: ['volví', 'volviste', 'volvió', 'volvieron'],
+        correct: 1
+      },
+      {
+        sentence: 'Mis abuelos ___ en 1950',
+        options: ['me casé', 'te casaste', 'se casó', 'se casaron'],
+        correct: 3
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-3': {
+    id: 'ex-9-1-b1-grammar-3',
+    type: 'grammar',
+    title: 'Грамматика B1 - Pretérito Imperfecto',
+    description: 'Выберите правильную форму глагола в Pretérito Imperfecto',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Cuando yo ___ niño, jugaba mucho',
+        options: ['era', 'eras', 'éramos', 'eran'],
+        correct: 0
+      },
+      {
+        sentence: 'Ellos ___ todos los días',
+        options: ['estudiaba', 'estudiabas', 'estudiaba', 'estudiaban'],
+        correct: 3
+      },
+      {
+        sentence: 'Tú siempre ___ a tu abuela',
+        options: ['visitaba', 'visitabas', 'visitábamos', 'visitaban'],
+        correct: 1
+      },
+      {
+        sentence: 'Nosotros ___ en ese restaurante a menudo',
+        options: ['comía', 'comías', 'comíamos', 'comían'],
+        correct: 2
+      },
+      {
+        sentence: 'Mi padre ___ ingeniero',
+        options: ['era', 'eras', 'éramos', 'eran'],
+        correct: 0
+      },
+      {
+        sentence: 'Vosotros ___ mucho de jóvenes',
+        options: ['viajabais', 'viajábamos', 'viajaban', 'viajaba'],
+        correct: 0
+      },
+      {
+        sentence: 'Yo ___ la televisión cada noche',
+        options: ['veía', 'veías', 'veíamos', 'veían'],
+        correct: 0
+      },
+      {
+        sentence: 'Ellas ___ español en la universidad',
+        options: ['enseñaba', 'enseñabas', 'enseñaba', 'enseñaban'],
+        correct: 3
+      },
+      {
+        sentence: '¿Qué ___ tú antes de mudarte?',
+        options: ['hacía', 'hacías', 'hacíamos', 'hacían'],
+        correct: 1
+      },
+      {
+        sentence: 'Nosotros ___ al parque los domingos',
+        options: ['iba', 'ibas', 'íbamos', 'iban'],
+        correct: 2
+      },
+      {
+        sentence: 'La casa ___ muy grande',
+        options: ['era', 'eras', 'éramos', 'eran'],
+        correct: 0
+      },
+      {
+        sentence: 'Vosotros ___ en Barcelona',
+        options: ['vivíais', 'vivíamos', 'vivían', 'vivía'],
+        correct: 0
+      },
+      {
+        sentence: 'Yo no ___ nada de español',
+        options: ['sabía', 'sabías', 'sabíamos', 'sabían'],
+        correct: 0
+      },
+      {
+        sentence: 'Tú ___ muy feliz entonces',
+        options: ['era', 'eras', 'éramos', 'eran'],
+        correct: 1
+      },
+      {
+        sentence: 'Mis hermanos ___ fútbol cada tarde',
+        options: ['jugaba', 'jugabas', 'jugábamos', 'jugaban'],
+        correct: 3
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-4': {
+    id: 'ex-9-1-b1-grammar-4',
+    type: 'grammar',
+    title: 'Грамматика B1 - Presente de Subjuntivo',
+    description: 'Выберите правильную форму глагола в Presente de Subjuntivo',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Espero que tú ___ bien',
+        options: ['estás', 'estés', 'esté', 'estén'],
+        correct: 1
+      },
+      {
+        sentence: 'Es importante que nosotros ___ temprano',
+        options: ['llegamos', 'lleguemos', 'lleguen', 'llegue'],
+        correct: 1
+      },
+      {
+        sentence: 'Quiero que ellos ___ la verdad',
+        options: ['saben', 'sepan', 'sepa', 'sepamos'],
+        correct: 1
+      },
+      {
+        sentence: 'Dudo que María ___ a la fiesta',
+        options: ['viene', 'venga', 'vengas', 'vengamos'],
+        correct: 1
+      },
+      {
+        sentence: 'No creo que ___ mañana',
+        options: ['llueve', 'llueva', 'lluevas', 'lluevan'],
+        correct: 1
+      },
+      {
+        sentence: 'Es necesario que vosotros ___ más',
+        options: ['estudiáis', 'estudiéis', 'estudien', 'estudie'],
+        correct: 1
+      },
+      {
+        sentence: 'Ojalá que yo ___ el examen',
+        options: ['apruebo', 'apruebe', 'apruebes', 'aprueben'],
+        correct: 1
+      },
+      {
+        sentence: 'Me alegro de que tú ___ aquí',
+        options: ['estás', 'estés', 'esté', 'estén'],
+        correct: 1
+      },
+      {
+        sentence: 'Es probable que ellos ___ tarde',
+        options: ['llegan', 'lleguen', 'llegue', 'lleguemos'],
+        correct: 1
+      },
+      {
+        sentence: 'Prefiero que nosotros ___ en casa',
+        options: ['comemos', 'comamos', 'coman', 'coma'],
+        correct: 1
+      },
+      {
+        sentence: 'No pienso que ___ fácil',
+        options: ['es', 'sea', 'seas', 'sean'],
+        correct: 1
+      },
+      {
+        sentence: 'Espero que vosotros ___ bien',
+        options: ['dormís', 'durmáis', 'duerman', 'duerma'],
+        correct: 1
+      },
+      {
+        sentence: 'Es posible que yo ___ mañana',
+        options: ['voy', 'vaya', 'vayas', 'vayan'],
+        correct: 1
+      },
+      {
+        sentence: 'Quiero que tú me ___ la verdad',
+        options: ['dices', 'digas', 'diga', 'digan'],
+        correct: 1
+      },
+      {
+        sentence: 'Es mejor que ellos ___ ahora',
+        options: ['salen', 'salgan', 'salga', 'salgamos'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-5': {
+    id: 'ex-9-1-b1-grammar-5',
+    type: 'grammar',
+    title: 'Грамматика B1 - Imperativo Afirmativo',
+    description: 'Выберите правильную форму утвердительного повелительного наклонения',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: '¡___ (tú) tus deberes!',
+        options: ['Haces', 'Haz', 'Hace', 'Hacer'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (vosotros) la verdad!',
+        options: ['Decís', 'Decid', 'Diga', 'Decir'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (usted) aquí, por favor!',
+        options: ['Viene', 'Ven', 'Venga', 'Venir'],
+        correct: 2
+      },
+      {
+        sentence: '¡___ (tú) más despacio!',
+        options: ['Hablas', 'Habla', 'Hable', 'Hablar'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (vosotros) las ventanas!',
+        options: ['Abrís', 'Abrid', 'Abran', 'Abrir'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (ustedes) atención!',
+        options: ['Ponen', 'Poned', 'Pongan', 'Poner'],
+        correct: 2
+      },
+      {
+        sentence: '¡___ (tú) aquí!',
+        options: ['Vienes', 'Ven', 'Venga', 'Venir'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (vosotros) buenos!',
+        options: ['Sois', 'Sed', 'Sean', 'Ser'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (usted) paciencia!',
+        options: ['Tiene', 'Ten', 'Tenga', 'Tener'],
+        correct: 2
+      },
+      {
+        sentence: '¡___ (tú) a la derecha!',
+        options: ['Giras', 'Gira', 'Gire', 'Girar'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (vosotros) el libro!',
+        options: ['Leéis', 'Leed', 'Lean', 'Leer'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (ustedes) silencio!',
+        options: ['Guardan', 'Guardad', 'Guarden', 'Guardar'],
+        correct: 2
+      },
+      {
+        sentence: '¡___ (tú) cuidado!',
+        options: ['Tienes', 'Ten', 'Tenga', 'Tener'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (vosotros) temprano!',
+        options: ['Salís', 'Salid', 'Salgan', 'Salir'],
+        correct: 1
+      },
+      {
+        sentence: '¡___ (usted) la puerta!',
+        options: ['Cierra', 'Cierre', 'Cerrad', 'Cerrar'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-6': {
+    id: 'ex-9-1-b1-grammar-6',
+    type: 'grammar',
+    title: 'Грамматика B1 - Imperativo Negativo',
+    description: 'Выберите правильную форму отрицательного повелительного наклонения',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: '¡No ___ (tú) tanto!',
+        options: ['comes', 'comas', 'coma', 'comer'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (vosotros) aquí!',
+        options: ['fumáis', 'fuméis', 'fumen', 'fumar'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (usted) tarde!',
+        options: ['llega', 'llegues', 'llegue', 'llegar'],
+        correct: 2
+      },
+      {
+        sentence: '¡No ___ (tú) eso!',
+        options: ['haces', 'hagas', 'haga', 'hacer'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (vosotros) la puerta!',
+        options: ['cerráis', 'cerréis', 'cierren', 'cerrar'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (ustedes) ruido!',
+        options: ['hacen', 'hagáis', 'hagan', 'hacer'],
+        correct: 2
+      },
+      {
+        sentence: '¡No ___ (tú) miedo!',
+        options: ['tienes', 'tengas', 'tenga', 'tener'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (vosotros) nerviosos!',
+        options: ['estáis', 'estéis', 'estén', 'estar'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (usted) eso!',
+        options: ['dice', 'digas', 'diga', 'decir'],
+        correct: 2
+      },
+      {
+        sentence: '¡No ___ (tú) tan rápido!',
+        options: ['conduces', 'conduzcas', 'conduzca', 'conducir'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (vosotros) ahora!',
+        options: ['salís', 'salgáis', 'salgan', 'salir'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (ustedes) impacientes!',
+        options: ['son', 'seáis', 'sean', 'ser'],
+        correct: 2
+      },
+      {
+        sentence: '¡No ___ (tú) a nadie!',
+        options: ['molestas', 'molestes', 'moleste', 'molestar'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (vosotros) tonterías!',
+        options: ['decís', 'digáis', 'digan', 'decir'],
+        correct: 1
+      },
+      {
+        sentence: '¡No ___ (usted) preocupado!',
+        options: ['está', 'estés', 'esté', 'estar'],
+        correct: 2
+      }
+    ]
+  },
+
   // Урок 9.2 - Испанские традиции
   'ex-9-2-1': {
     id: 'ex-9-2-1',
@@ -17042,6 +17655,296 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Идея возрождения солнца трансформировалась в рождение Иисуса', correct: 'la idea del renacimiento del sol se transformó en el nacimiento de jesús' },
       { russian: 'Это облегчило массивный культурный переход между двумя системами верований', correct: 'esto facilitó una transición cultural masiva entre dos sistemas de creencias' },
       { russian: 'Наши празднования являются результатом веков слияния и адаптации', correct: 'nuestras celebraciones son el resultado de siglos de fusión y adaptación' }
+    ]
+  },
+
+  // Additional A2 exercises
+  'ex-9-2-a2-1-2': {
+    id: 'ex-9-2-a2-1-2',
+    type: 'vocabulary',
+    title: 'A2 - Блок 1: Словарь (часть 2)',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el templo', options: ['дом', 'храм', 'дворец', 'площадь'], correct: 1 },
+      { spanish: 'el solsticio', options: ['солнце', 'солнцестояние', 'луна', 'звезда'], correct: 1 },
+      { spanish: 'la jugada maestra', options: ['ошибка', 'мастерский ход', 'игра', 'начало'], correct: 1 },
+      { spanish: 'interpretar', options: ['игнорировать', 'интерпретировать', 'отменять', 'забывать'], correct: 1 },
+      { spanish: 'reinterpretar', options: ['повторить', 'удалить', 'переосмыслить', 'запретить'], correct: 2 },
+      { spanish: 'el tapiz', options: ['стена', 'настенный ковер', 'картина', 'скульптура'], correct: 1 },
+      { spanish: 'los hilos', options: ['веревки', 'нитки', 'шнуры', 'проволока'], correct: 1 },
+      { spanish: 'entrelazarse', options: ['разделяться', 'отдаляться', 'переплетаться', 'терять'], correct: 2 },
+      { spanish: 'el lazo', options: ['разрыв', 'связь', 'конец', 'начало'], correct: 1 },
+      { spanish: 'duradero', options: ['короткий', 'длительный', 'слабый', 'новый'], correct: 1 },
+      { spanish: 'pagano', options: ['христианский', 'языческий', 'современный', 'святой'], correct: 1 },
+      { spanish: 'dar por sentado', options: ['отрицать', 'воспринимать как должное', 'искать', 'терять'], correct: 1 },
+      { spanish: 'resonar', options: ['молчать', 'шептать', 'резонировать', 'говорить'], correct: 2 },
+      { spanish: 'el eco', options: ['тишина', 'крик', 'эхо', 'голос'], correct: 2 },
+      { spanish: 'revelar', options: ['скрывать', 'раскрывать', 'забывать', 'терять'], correct: 1 }
+    ]
+  },
+
+  'ex-9-2-a2-1-3': {
+    id: 'ex-9-2-a2-1-3',
+    type: 'vocabulary',
+    title: 'A2 - Блок 1: Словарь (часть 3)',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'profundo', options: ['мелкий', 'поверхностный', 'глубокий', 'узкий'], correct: 2 },
+      { spanish: 'la transición', options: ['остановка', 'переход', 'начало', 'конец'], correct: 1 },
+      { spanish: 'perenne', options: ['временный', 'короткий', 'вечный', 'быстрый'], correct: 2 },
+      { spanish: 'la fusión', options: ['разделение', 'слияние', 'борьба', 'конфликт'], correct: 1 },
+      { spanish: 'la adaptación', options: ['отказ', 'сопротивление', 'адаптация', 'изменение'], correct: 2 },
+      { spanish: 'las entrañas', options: ['поверхность', 'внутренности', 'внешность', 'край'], correct: 1 },
+      { spanish: 'la devoción', options: ['безразличие', 'набожность', 'злость', 'страх'], correct: 1 },
+      { spanish: 'la expansión', options: ['сокращение', 'остановка', 'расширение', 'падение'], correct: 2 },
+      { spanish: 'nacer', options: ['умирать', 'рождаться', 'расти', 'стареть'], correct: 1 },
+      { spanish: 'surgir', options: ['исчезать', 'падать', 'возникать', 'терять'], correct: 2 },
+      { spanish: 'adoptar', options: ['отвергать', 'принимать', 'терять', 'забывать'], correct: 1 },
+      { spanish: 'prohibir', options: ['разрешать', 'запрещать', 'советовать', 'предлагать'], correct: 1 },
+      { spanish: 'celebrar', options: ['игнорировать', 'забывать', 'праздновать', 'терять'], correct: 2 },
+      { spanish: 'simbolizar', options: ['скрывать', 'терять', 'символизировать', 'забывать'], correct: 2 },
+      { spanish: 'transformar', options: ['сохранять', 'оставлять', 'трансформировать', 'терять'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-a2-2-2': {
+    id: 'ex-9-2-a2-2-2',
+    type: 'reading',
+    title: 'A2 - Блок 2: Понимание текста (часть 2)',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      { question: '¿Cuál es la pregunta principal del texto?', options: ['¿Cómo celebrar Navidad?', '¿De dónde viene el 25 de diciembre?', '¿Dónde celebrar?', '¿Quién celebra?'], correct: 1 },
+      { question: '¿Qué tipo de texto es?', options: ['Ficción', 'Poesía', 'Texto informativo-histórico', 'Receta'], correct: 2 },
+      { question: 'Según el texto, ¿el cristianismo inventó la fecha del 25 de diciembre?', options: ['Sí', 'No', 'No se menciona', 'Parcialmente'], correct: 1 },
+      { question: '¿Qué papel jugaron los emperadores romanos?', options: ['Prohibieron el culto al sol', 'Promovieron el culto al sol', 'Ignoraron el culto al sol', 'Destruyeron templos'], correct: 1 },
+      { question: '¿Qué representa el número 274 en el texto?', options: ['Año de la Navidad', 'Año del culto oficial a Sol Invictus', 'Año del solsticio', 'Año de la Cronografía'], correct: 1 },
+      { question: '¿Qué significa que el sol "renacía"?', options: ['Moría', 'Los días comenzaban a ser más largos', 'Hacía más calor', 'Era verano'], correct: 1 },
+      { question: '¿Qué hizo la Iglesia primitiva con la fiesta pagana?', options: ['La prohibió', 'La ignoró', 'La adoptó y transformó', 'La destruyó'], correct: 2 },
+      { question: '¿Qué documento histórico menciona el texto?', options: ['La Biblia', 'El Corán', 'La Cronografía del 354', 'Los Evangelios'], correct: 2 },
+      { question: '¿Qué simboliza la luz en las celebraciones navideñas?', options: ['La oscuridad', 'La victoria de la luz sobre la oscuridad', 'El fuego', 'Las velas'], correct: 1 },
+      { question: '¿De qué cultura vienen las Saturnales?', options: ['Griega', 'Egipcia', 'Romana', 'Germánica'], correct: 2 },
+      { question: '¿Qué tipo de árboles se mencionan en las tradiciones?', options: ['De hojas caducas', 'De hoja perenne', 'Frutales', 'Palmeras'], correct: 1 },
+      { question: 'Según el texto, ¿las tradiciones navideñas son puras?', options: ['Sí', 'No, son mezcla de tradiciones', 'Solo cristianas', 'Solo paganas'], correct: 1 },
+      { question: '¿Cuál es el tono del texto?', options: ['Triste', 'Enojado', 'Informativo e interesante', 'Aburrido'], correct: 2 },
+      { question: '¿Qué pregunta hace el texto al final?', options: ['¿Dónde celebrar?', '¿Qué otros ecos del pasado hay?', '¿Cuándo celebrar?', '¿Cómo celebrar?'], correct: 1 },
+      { question: 'El texto sugiere que la historia es:', options: ['Muerta', 'Aburrida', 'Más viva de lo que pensamos', 'Inventada'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-a2-2-3': {
+    id: 'ex-9-2-a2-2-3',
+    type: 'reading',
+    title: 'A2 - Блок 2: Понимание текста (часть 3)',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      { question: '¿En qué civilización antigua se centra principalmente el texto?', options: ['Grecia', 'Egipto', 'Roma', 'China'], correct: 2 },
+      { question: '¿Qué nombre tenía el sol nativo de Roma?', options: ['Sol Invictus', 'Sol Indiges', 'Sol Romano', 'Apollo'], correct: 1 },
+      { question: '¿Qué emperador se mencionó que llevó la devoción al extremo?', options: ['Julio César', 'Augusto', 'Heliogábalo', 'Nerón'], correct: 2 },
+      { question: '¿Qué construyó Aureliano para Sol Invictus?', options: ['Un palacio', 'Un templo', 'Una estatua', 'Una ciudad'], correct: 1 },
+      { question: '¿Cuándo ocurre el solsticio de invierno?', options: ['En verano', 'En primavera', 'Cerca del 21 de diciembre', 'En otoño'], correct: 2 },
+      { question: '¿Por qué era importante el solsticio?', options: ['Era el día más corto', 'Marcaba el renacimiento de la luz', 'Era fiesta nacional', 'No era importante'], correct: 1 },
+      { question: '¿Qué religión estaba ganando seguidores en el imperio?', options: ['El judaísmo', 'El islamismo', 'El cristianismo', 'El budismo'], correct: 2 },
+      { question: '¿Por qué la Iglesia no prohibió la fiesta del sol?', options: ['No podía', 'Era muy popular', 'No sabía de ella', 'No le importaba'], correct: 1 },
+      { question: '¿Qué transformación simbólica menciona el texto?', options: ['Sol en luna', 'Renacimiento del sol en nacimiento de Jesús', 'Día en noche', 'Verano en invierno'], correct: 1 },
+      { question: '¿Qué tipo de transición facilitó esta transformación?', options: ['Política', 'Cultural', 'Económica', 'Militar'], correct: 1 },
+      { question: '¿Qué tradición romana involucra regalos?', options: ['Las Lupercales', 'Las Saturnales', 'Las Bacanales', 'Las Vestales'], correct: 1 },
+      { question: '¿Qué simbolizan las decoraciones con luces?', options: ['El fuego', 'Las estrellas', 'La victoria de la luz', 'El sol'], correct: 2 },
+      { question: '¿De dónde vienen los árboles de hoja perenne en las tradiciones?', options: ['África', 'Asia', 'Tradiciones germánicas y romanas', 'América'], correct: 2 },
+      { question: 'El texto sugiere que nuestras tradiciones son:', options: ['Inventadas recientemente', 'Solo cristianas', 'Resultado de fusión de culturas', 'Solo paganas'], correct: 2 },
+      { question: '¿Cuál es la idea principal del texto?', options: ['La Navidad es mala', 'Las tradiciones tienen raíces antiguas y complejas', 'Roma es importante', 'El sol es importante'], correct: 1 }
+    ]
+  },
+
+  'ex-9-2-a2-3-2': {
+    id: 'ex-9-2-a2-3-2',
+    type: 'grammar',
+    title: 'A2 - Блок 3: Грамматика (часть 2)',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'Los romanos ___ al sol como una deidad', options: ['adoraban', 'adoraron', 'adoran', 'adorarán'], correct: 0 },
+      { sentence: 'Heliogábalo ___ su devoción al extremo', options: ['llevaba', 'llevó', 'lleva', 'llevará'], correct: 1 },
+      { sentence: 'El culto al sol ___ muy arraigado', options: ['estaba', 'estuvo', 'está', 'estará'], correct: 0 },
+      { sentence: 'La luz ___ a renacer después del solsticio', options: ['empezaba', 'empezó', 'empieza', 'empezará'], correct: 2 },
+      { sentence: 'El cristianismo ___ cada vez más popular', options: ['hacía', 'hizo', 'hace', 'se hacía'], correct: 3 },
+      { sentence: 'La estrategia de la Iglesia ___ muy inteligente', options: ['era', 'fue', 'es', 'será'], correct: 1 },
+      { sentence: 'Ellos no ___ prohibir la fiesta', options: ['querían', 'quisieron', 'quieren', 'querrán'], correct: 1 },
+      { sentence: 'Las tradiciones se ___ durante siglos', options: ['mezclaban', 'mezclaron', 'mezclan', 'mezclarán'], correct: 1 },
+      { sentence: 'El documento del 354 ___ la conexión', options: ['mostraba', 'mostró', 'muestra', 'mostrará'], correct: 1 },
+      { sentence: 'Los símbolos paganos ___ con significados cristianos', options: ['reinterpretaban', 'reinterpretaron', 'reinterpretan', 'reinterpretarán'], correct: 1 },
+      { sentence: 'Las Saturnales ___ regalos y celebraciones', options: ['incluían', 'incluyeron', 'incluyen', 'incluirán'], correct: 0 },
+      { sentence: 'Los árboles de hoja perenne ___ vida eterna', options: ['simbolizaban', 'simbolizaron', 'simbolizan', 'simbolizarán'], correct: 2 },
+      { sentence: 'Esta fusión cultural ___ natural y gradual', options: ['era', 'fue', 'es', 'será'], correct: 1 },
+      { sentence: 'Hoy nosotros ___ tradiciones milenarias sin saberlo', options: ['practicábamos', 'practicamos', 'practicamos', 'practicaremos'], correct: 1 },
+      { sentence: 'El pasado ___ presente en nuestras celebraciones', options: ['seguía', 'siguió', 'sigue', 'seguirá'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-a2-3-3': {
+    id: 'ex-9-2-a2-3-3',
+    type: 'grammar',
+    title: 'A2 - Блок 3: Грамматика (часть 3)',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      { sentence: 'En la antigua Roma, el sol ___ poder y vida', options: ['representaba', 'representó', 'representa', 'representará'], correct: 0 },
+      { sentence: 'Los emperadores ___ templos para el sol', options: ['construían', 'construyeron', 'construyen', 'construirán'], correct: 1 },
+      { sentence: 'La gente ___ fiestas después del solsticio', options: ['celebraba', 'celebró', 'celebra', 'celebrará'], correct: 0 },
+      { sentence: 'El 25 de diciembre ___ una fecha pagana', options: ['era', 'fue', 'es', 'será'], correct: 0 },
+      { sentence: 'La Iglesia ___ adoptar esta fecha', options: ['decidía', 'decidió', 'decide', 'decidirá'], correct: 1 },
+      { sentence: 'Esta decisión ___ muy estratégica', options: ['era', 'fue', 'es', 'será'], correct: 1 },
+      { sentence: 'Las dos culturas se ___ durante siglos', options: ['entrelazaban', 'entrelazaron', 'entrelazan', 'entrelazarán'], correct: 1 },
+      { sentence: 'Los romanos ___ regalos en las Saturnales', options: ['intercambiaban', 'intercambiaron', 'intercambian', 'intercambiarán'], correct: 0 },
+      { sentence: 'Las luces ___ la victoria sobre la oscuridad', options: ['significaban', 'significaron', 'significan', 'significarán'], correct: 2 },
+      { sentence: 'Nosotros ___ tradiciones sin conocer su origen', options: ['practicábamos', 'practicamos', 'practicamos', 'practicaremos'], correct: 1 },
+      { sentence: 'El texto nos ___ sobre la historia oculta', options: ['revelaba', 'reveló', 'revela', 'revelará'], correct: 2 },
+      { sentence: 'Las raíces de la Navidad ___ muy antiguas', options: ['eran', 'fueron', 'son', 'serán'], correct: 2 },
+      { sentence: 'Esta información ___ fascinante', options: ['era', 'fue', 'es', 'será'], correct: 2 },
+      { sentence: 'Ahora nosotros ___ mejor el origen de la fecha', options: ['entendíamos', 'entendimos', 'entendemos', 'entenderemos'], correct: 2 },
+      { sentence: 'La historia nos ___ que todo tiene un origen', options: ['enseñaba', 'enseñó', 'enseña', 'enseñará'], correct: 2 }
+    ]
+  },
+
+  // Additional B1 exercises
+  'ex-9-2-b1-1-2': {
+    id: 'ex-9-2-b1-1-2',
+    type: 'vocabulary',
+    title: 'В1 - Блок 1: Расширенный словарь (часть 2)',
+    description: 'Выберите правильный перевод сложных выражений',
+    questions: [
+      { spanish: 'competir por', options: ['избегать', 'соперничать за', 'терять', 'находить'], correct: 1 },
+      { spanish: 'posicionarse como', options: ['отказываться', 'позиционировать себя как', 'прятаться', 'терять'], correct: 1 },
+      { spanish: 'encarnación', options: ['смерть', 'рождение', 'воплощение', 'конец'], correct: 2 },
+      { spanish: 'renacer', options: ['умирать', 'возрождаться', 'стареть', 'слабеть'], correct: 1 },
+      { spanish: 'sistema de creencias', options: ['закон', 'правило', 'система верований', 'традиция'], correct: 2 },
+      { spanish: 'narrativa', options: ['тишина', 'повествование', 'молчание', 'забвение'], correct: 1 },
+      { spanish: 'sincretismo', options: ['разделение', 'конфликт', 'синкретизм', 'война'], correct: 2 },
+      { spanish: 'universal', options: ['местный', 'временный', 'универсальный', 'слабый'], correct: 2 },
+      { spanish: 'militarizado', options: ['мирный', 'милитаризованный', 'слабый', 'старый'], correct: 1 },
+      { spanish: 'unificar', options: ['разделять', 'объединять', 'терять', 'находить'], correct: 1 },
+      { spanish: 'estratégico', options: ['случайный', 'стратегический', 'глупый', 'слабый'], correct: 1 },
+      { spanish: 'facilitar', options: ['мешать', 'затруднять', 'облегчать', 'терять'], correct: 2 },
+      { spanish: 'transición cultural', options: ['война', 'конфликт', 'культурный переход', 'революция'], correct: 2 },
+      { spanish: 'dato curioso', options: ['скучный факт', 'любопытный факт', 'ложь', 'тайна'], correct: 1 },
+      { spanish: 'vigente', options: ['устаревший', 'старый', 'действующий', 'мертвый'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-b1-1-3': {
+    id: 'ex-9-2-b1-1-3',
+    type: 'vocabulary',
+    title: 'В1 - Блок 1: Расширенный словарь (часть 3)',
+    description: 'Выберите правильный перевод сложных выражений',
+    questions: [
+      { spanish: 'raíces ancestrales', options: ['новые корни', 'древние корни', 'слабые корни', 'ложные корни'], correct: 1 },
+      { spanish: 'identidad cultural', options: ['потеря', 'культурная идентичность', 'конфликт', 'война'], correct: 1 },
+      { spanish: 'herencia cultural', options: ['потеря', 'конфликт', 'культурное наследие', 'разрушение'], correct: 2 },
+      { spanish: 'transmitir', options: ['терять', 'скрывать', 'передавать', 'забывать'], correct: 2 },
+      { spanish: 'pervivir', options: ['умирать', 'сохраняться', 'исчезать', 'терять'], correct: 1 },
+      { spanish: 'culto religioso', options: ['запрет', 'религиозный культ', 'война', 'мир'], correct: 1 },
+      { spanish: 'festividad', options: ['день обычный', 'праздник', 'будни', 'работа'], correct: 1 },
+      { spanish: 'conmemorar', options: ['забывать', 'игнорировать', 'отмечать', 'терять'], correct: 2 },
+      { spanish: 'rito', options: ['запрет', 'обряд', 'закон', 'правило'], correct: 1 },
+      { spanish: 'vínculo', options: ['разрыв', 'связь', 'конец', 'начало'], correct: 1 },
+      { spanish: 'trascender', options: ['останавливаться', 'падать', 'выходить за пределы', 'терять'], correct: 2 },
+      { spanish: 'contexto histórico', options: ['вымысел', 'легенда', 'исторический контекст', 'миф'], correct: 2 },
+      { spanish: 'influencia', options: ['безразличие', 'игнорирование', 'влияние', 'отказ'], correct: 2 },
+      { spanish: 'asimilar', options: ['отвергать', 'терять', 'усваивать', 'забывать'], correct: 2 },
+      { spanish: 'coexistir', options: ['бороться', 'воевать', 'сосуществовать', 'разделяться'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-b1-2-2': {
+    id: 'ex-9-2-b1-2-2',
+    type: 'reading',
+    title: 'В1 - Блок 2: Глубокое понимание (часть 2)',
+    description: 'Ответьте на аналитические вопросы по тексту',
+    questions: [
+      { question: '¿Cuál es el propósito principal del texto?', options: ['Entretener', 'Revelar orígenes históricos de tradiciones', 'Criticar la Navidad', 'Promover el paganismo'], correct: 1 },
+      { question: '¿Qué técnica narrativa usa el texto al principio?', options: ['Una orden', 'Una afirmación', 'Una pregunta retórica', 'Una exclamación'], correct: 2 },
+      { question: '¿Por qué el texto menciona que la respuesta no está en textos sagrados?', options: ['Para negar la religión', 'Para mostrar orígenes no religiosos', 'Para criticar', 'Sin razón'], correct: 1 },
+      { question: '¿Qué relación existía entre política y religión en Roma?', options: ['Estaban separadas', 'Estaban fusionadas', 'No había relación', 'Se odiaban'], correct: 1 },
+      { question: '¿Por qué Sol Invictus era útil para el imperio en expansión?', options: ['Era antiguo', 'Era débil', 'Simbolizaba poder universal', 'Era pacífico'], correct: 2 },
+      { question: '¿Qué fenómeno astronómico es clave en el texto?', options: ['Eclipse', 'Luna llena', 'Solsticio de invierno', 'Equinoccio'], correct: 2 },
+      { question: '¿Qué significaba para los antiguos que los días se alargaran?', options: ['Nada especial', 'El fin del mundo', 'Triunfo de la luz sobre oscuridad', 'Inicio del verano'], correct: 2 },
+      { question: '¿Cuál fue la estrategia de la Iglesia primitiva?', options: ['Destruir tradiciones', 'Ignorar tradiciones', 'Sincretismo: adoptar y transformar', 'Crear todo de nuevo'], correct: 2 },
+      { question: '¿Qué es sincretismo cultural según el contexto?', options: ['Rechazo total', 'Fusión de tradiciones diferentes', 'Invención nueva', 'Destrucción'], correct: 1 },
+      { question: '¿Por qué la fecha del 25 de diciembre era conveniente?', options: ['Era verano', 'Coincidía con fiesta popular existente', 'Era arbitraria', 'No era conveniente'], correct: 1 },
+      { question: '¿Qué demuestra el intercambio de regalos según el texto?', options: ['Invención moderna', 'Continuidad de costumbres antiguas', 'Tradición solo cristiana', 'Moda reciente'], correct: 1 },
+      { question: '¿Qué papel juegan las luces en la simbología?', options: ['Decoración simple', 'Símbolo profundo de victoria de luz', 'Sin significado', 'Moda moderna'], correct: 1 },
+      { question: '¿Cómo describe el texto nuestras celebraciones?', options: ['Inventadas', 'Falsas', 'Resultado de siglos de fusión', 'Sin historia'], correct: 2 },
+      { question: '¿Qué tono tiene la conclusión del texto?', options: ['Triste', 'Enojado', 'Reflexivo e invitador', 'Aburrido'], correct: 2 },
+      { question: '¿Qué invita a hacer el texto al final?', options: ['Dejar de celebrar', 'Reflexionar sobre otras tradiciones', 'Olvidar el pasado', 'Inventar nuevas fiestas'], correct: 1 }
+    ]
+  },
+
+  'ex-9-2-b1-2-3': {
+    id: 'ex-9-2-b1-2-3',
+    type: 'reading',
+    title: 'В1 - Блок 2: Глубокое понимание (часть 3)',
+    description: 'Ответьте на аналитические вопросы по тексту',
+    questions: [
+      { question: '¿Qué tipo de fuentes menciona el texto?', options: ['Solo religiosas', 'Solo modernas', 'Históricas como la Cronografía del 354', 'Ninguna'], correct: 2 },
+      { question: '¿Qué importancia tiene el año 274 d.C.?', options: ['Nacimiento de Jesús', 'Establecimiento del culto oficial a Sol Invictus', 'Caída de Roma', 'Invención del calendario'], correct: 1 },
+      { question: '¿Cómo caracteriza el texto a Sol Indiges?', options: ['Universal', 'Local y agrícola', 'Militarizado', 'Moderno'], correct: 1 },
+      { question: '¿Qué diferencia a Sol Invictus de Sol Indiges?', options: ['El nombre', 'Sol Invictus era universal y militarizado', 'La edad', 'El color'], correct: 1 },
+      { question: '¿Qué emperador es descrito como extremo en su devoción?', options: ['Aureliano', 'Vespasiano', 'Heliogábalo', 'Julio César'], correct: 2 },
+      { question: '¿Qué construyó Aureliano además de establecer el culto?', options: ['Una ciudad', 'Un templo', 'Un palacio', 'Una estatua'], correct: 1 },
+      { question: '¿Qué significa "Dies Natalis Solis Invicti"?', options: ['Muerte del sol', 'Día del nacimiento del sol invicto', 'Fiesta de verano', 'Día del emperador'], correct: 1 },
+      { question: '¿Por qué el solsticio de invierno era simbólicamente importante?', options: ['Era el día más frío', 'Marcaba el momento más oscuro antes del renacimiento de la luz', 'Era vacación', 'No era importante'], correct: 1 },
+      { question: '¿Qué problema enfrentaba la Iglesia primitiva?', options: ['Falta de seguidores', 'Competencia con cultos populares arraigados', 'Falta de dinero', 'Nada'], correct: 1 },
+      { question: '¿Qué hizo la Iglesia en lugar de combatir las tradiciones?', options: ['Rendirse', 'Adoptarlas y darles nuevo significado', 'Ignorarlas', 'Destruirlas'], correct: 1 },
+      { question: '¿Qué transformación simbólica central menciona el texto?', options: ['Luna en sol', 'Sol en luna', 'Renacimiento del sol en nacimiento de Cristo', 'Día en noche'], correct: 2 },
+      { question: '¿Qué festividad romana contribuyó al intercambio de regalos?', options: ['Lupercales', 'Saturnales', 'Bacanales', 'Vestales'], correct: 1 },
+      { question: '¿De qué tradiciones vienen los árboles de hoja perenne?', options: ['Solo cristianas', 'Solo romanas', 'Germánicas y romanas', 'Solo modernas'], correct: 2 },
+      { question: '¿Qué concepto resume mejor el proceso descrito?', options: ['Invención', 'Destrucción', 'Sincretismo cultural', 'Revolución'], correct: 2 },
+      { question: '¿Cuál es el mensaje principal del texto?', options: ['La Navidad es falsa', 'Las tradiciones son puras', 'La historia vive en nuestras tradiciones', 'Debemos olvidar el pasado'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-b1-3-2': {
+    id: 'ex-9-2-b1-3-2',
+    type: 'writing',
+    title: 'В1 - Блок 3: Перевод с русского (часть 2)',
+    description: 'Переведите сложные фразы на испанский',
+    questions: [
+      { russian: 'Римляне видели в солнце не просто звезду, а божество', correct: 'los romanos veían en el sol no solo una estrella sino una deidad' },
+      { russian: 'Было два божества солнца, которые соперничали за преданность людей', correct: 'había dos deidades del sol que competían por la devoción de la gente' },
+      { russian: 'Сол Индигес был местным и аграрным', correct: 'sol indiges era local y agrícola' },
+      { russian: 'Сол Инвиктус представлял универсальную и непобедимую силу', correct: 'sol invictus representaba una fuerza universal e invencible' },
+      { russian: 'Императоры позиционировали себя как воплощение солнца', correct: 'los emperadores se posicionaban como la encarnación del sol' },
+      { russian: 'Аврелиан построил храм и создал важную фестиваль', correct: 'aureliano construyó un templo y creó una fiesta importante' },
+      { russian: 'День рождения непобедимого солнца отмечался после солнцестояния', correct: 'el día del nacimiento del sol invicto se celebraba después del solsticio' },
+      { russian: 'Солнцестояние символизировало возрождение света', correct: 'el solsticio simbolizaba el renacimiento de la luz' },
+      { russian: 'Дни начинали становиться длиннее', correct: 'los días empezaban a ser más largos' },
+      { russian: 'Культ солнца был глубоко укоренен в культуре', correct: 'el culto al sol estaba profundamente arraigado en la cultura' },
+      { russian: 'Христианство набирало все больше последователей', correct: 'el cristianismo ganaba cada vez más seguidores' },
+      { russian: 'Церковь приняла стратегическое решение', correct: 'la iglesia tomó una decisión estratégica' },
+      { russian: 'Вместо запрета они решили принять праздник', correct: 'en lugar de prohibir decidieron adoptar la fiesta' },
+      { russian: 'Эта трансформация облегчила культурный переход', correct: 'esta transformación facilitó la transición cultural' },
+      { russian: 'Традиции переплетаются, создавая богатый гобелен', correct: 'las tradiciones se entrelazan creando un rico tapiz' }
+    ]
+  },
+
+  'ex-9-2-b1-3-3': {
+    id: 'ex-9-2-b1-3-3',
+    type: 'writing',
+    title: 'В1 - Блок 3: Перевод с русского (часть 3)',
+    description: 'Переведите сложные фразы на испанский',
+    questions: [
+      { russian: 'Хронография 354 года - первый документ, связывающий обе традиции', correct: 'la cronografía del 354 es el primer documento que conecta ambas tradiciones' },
+      { russian: 'Идея возрождения солнца превратилась в рождение Христа', correct: 'la idea del renacimiento del sol se transformó en el nacimiento de cristo' },
+      { russian: 'Это облегчило массовый культурный переход между системами верований', correct: 'esto facilitó una transición cultural masiva entre sistemas de creencias' },
+      { russian: 'Языческие символы переосмыслились с христианским значением', correct: 'los símbolos paganos se reinterpretaron con significado cristiano' },
+      { russian: 'Обмен подарками происходит от римских Сатурналий', correct: 'el intercambio de regalos viene de las saturnales romanas' },
+      { russian: 'Украшение огнями символизирует победу света над тьмой', correct: 'la decoración con luces simboliza la victoria de la luz sobre la oscuridad' },
+      { russian: 'Вечнозеленые деревья происходят из германских и римских традиций', correct: 'los árboles de hoja perenne vienen de tradiciones germánicas y romanas' },
+      { russian: 'Наши празднования - результат веков слияния', correct: 'nuestras celebraciones son el resultado de siglos de fusión' },
+      { russian: 'Это сплетение языческих и христианских верований', correct: 'es un entrelazamiento de creencias paganas y cristianas' },
+      { russian: 'История живее, чем мы думаем', correct: 'la historia está más viva de lo que pensamos' },
+      { russian: 'Мы воспринимаем традиции как должное', correct: 'damos por sentado las tradiciones' },
+      { russian: 'Какие еще отголоски прошлого звучат в наших традициях?', correct: '¿qué otros ecos del pasado resuenan en nuestras tradiciones?' },
+      { russian: 'Культурное наследие передается через поколения', correct: 'la herencia cultural se transmite a través de las generaciones' },
+      { russian: 'Древние обряды продолжают жить в современных праздниках', correct: 'los antiguos ritos perviven en las festividades modernas' },
+      { russian: 'Это увлекательное путешествие в историю наших традиций', correct: 'es un viaje fascinante a la historia de nuestras tradiciones' }
     ]
   },
 
