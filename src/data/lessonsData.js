@@ -11531,28 +11531,31 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
     ],
     vocabulary: [
       {
-        tab: 'Словарь еды',
+        tab: 'Alimentos con carbohidratos malos',
         words: [
-          { word: 'la gastronomía', translation: 'гастрономия, кулинария' },
-          { word: 'la receta', translation: 'рецепт' },
-          { word: 'el ingrediente', translation: 'ингредиент' },
-          { word: 'cocinar', translation: 'готовить' },
-          { word: 'freír', translation: 'жарить' },
-          { word: 'hervir', translation: 'варить, кипятить' },
-          { word: 'asar', translation: 'запекать' },
-          { word: 'el plato', translation: 'блюдо' },
-          { word: 'la tapa', translation: 'тапа, закуска' },
-          { word: 'la paella', translation: 'паэлья' },
-          { word: 'el jamón', translation: 'хамон, ветчина' },
-          { word: 'el chorizo', translation: 'чоризо, колбаса' },
-          { word: 'la tortilla', translation: 'тортилья, омлет' },
-          { word: 'el aceite de oliva', translation: 'оливковое масло' },
-          { word: 'el ajo', translation: 'чеснок' },
-          { word: 'el marisco', translation: 'морепродукты' },
-          { word: 'el vino', translation: 'вино' },
-          { word: 'delicioso', translation: 'вкусный' },
-          { word: 'sabroso', translation: 'вкусный, смачный' },
-          { word: 'picante', translation: 'острый' }
+          { word: 'definir', translation: 'определять, формулировать' },
+          { word: 'la definición', translation: 'определение, характеристика' },
+          { word: 'adoptar', translation: 'принимать, усыновлять' },
+          { word: 'listar', translation: 'заносить в список, перечислять' },
+          { word: 'sota, caballo y rey', translation: 'В испанских картах это три основные фигуры каждой масти: Sota: Номер 10. Caballo: Номер 11. Rey: Номер 12 - метафора предсказуемого' },
+          { word: 'los macronutrientes', translation: 'макронутриенты' },
+          { word: 'nutrir', translation: 'питать, наполнять' },
+          { word: 'esencial', translation: 'главный, основной, существенный' },
+          { word: 'absorber', translation: 'поглощать, впитывать' },
+          { word: 'el índice glucémico', translation: 'гликемический индекс' },
+          { word: 'retirar', translation: 'забирать, убирать' },
+          { word: 'nocivo', translation: 'вредный, вредоносный' },
+          { word: 'paulatinamente', translation: 'постепенно, поэтапно' },
+          { word: 'gradual', translation: 'постепенный' },
+          { word: 'la cebada', translation: 'ячмень' },
+          { word: 'curado', translation: 'вяленый' },
+          { word: 'la fibra', translation: 'клетчатка' },
+          { word: 'el intestino', translation: 'кишка, кишечник' },
+          { word: 'inducir', translation: 'заставлять, побуждать, вызывать' },
+          { word: 'los cereales', translation: 'злаки, хлопья' },
+          { word: 'dar la vuelta', translation: 'перевернуть' },
+          { word: 'punto pelota', translation: 'жирная точка' },
+          { word: 'comerse a bocado', translation: 'съесть кусая' }
         ]
       },
       {
@@ -11601,144 +11604,20 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
     ],
     readingText: [
       {
-        tab: '1 Tapas',
-        title: 'Las Tapas: Pequeñas Delicias de España',
-        content: `Las tapas son mucho más que simples aperitivos. Son una parte fundamental de la cultura española, una tradición que convierte el acto de comer en una experiencia social única.
+        tab: 'Alimentos con carbohidratos malos',
+        title: 'Alimentos con carbohidratos malos',
+        content: `En este vídeo vamos a hablar de los alimentos que tienen más carbohidratos malos o que llamamos malos. Aunque en la práctica, como les voy a explicar, no existen ni los carbohidratos buenos ni los malos, aunque es una definición que todos hemos adoptado, no solamente a las personas que de una manera u otra incidimos sobre la alimentación, sino a nivel de toda la población. Con lo cual, en primer lugar, creo que es de justicia explicarle qué son los carbohidratos, porque decimos que unos alimentos tienen carbohidratos buenos y otros carbohidratos malos. Y lógicamente para finalizar, un listado de alimentos con carbohidratos buenos y otro listado con alimentos de carbohidratos malos, como les explico en este vídeo.
 
-¿Qué son las tapas?
+Miren, los carbohidratos no son más que uno de los tres macronutrientes esenciales. Todos los alimentos, todos, todos, todos pueden ser básicamente de tres tipos. grasas, proteínas o carbohidratos, o sea, sota, caballo y rey, como las cartas, pues eso, son fundamentales, están en la naturaleza. Todos los alimentos tienen un nivel mayor o superior, ya sea de grasas, de proteínas o de carbohidratos. Por lo tanto, uno diría, "Oye, entonces, ¿por qué decimos que hay alimentos con carbohidratos buenos y carbohidratos malos?"
 
-Una tapa es una pequeña porción de comida que se sirve en los bares españoles, generalmente para acompañar una bebida. El nombre viene de "tapar" - cubrir - porque originalmente se colocaba una rebanada de pan o jamón sobre el vaso para proteger la bebida de moscas e insectos.
+Pues básicamente esto es una forma quizás no del todo correcta, pero es la que hemos adoptado en general para definir qué carbohidratos se absorben más rápido y qué carbohidratos se absorben más lentos. y llamamos carbohidratos malos aquellos que se absorben de forma muy rápida y carbohidratos buenos aquellos que se absorben de forma muy lenta. Al revés, que lo que podría parecer óptimo, pues así. ¿Por qué? Porque miren, cuando un carbohidrato se absorbe muy rápido, es decir, que en muy poquito espacio de tiempo pasa del intestino donde estaba formando parte del alimento que nos hemos comido a sangre, como se absorbe muy rápido, provoca que nuestro organismo tenga que producir mucha cantidad de insulina para ese carbohidrato, esos azúcares y guardarlos porque es nocivo que haya y azúcar dando vueltas por la sangre y el cuerpo no es tonto dice, eh, quito parado, esto voy a quitarlo del medio que me molesta. Por lo tanto, a esos alimentos que provocan esas subidas de azúcar en sangre rápidas, les llamamos carbohidratos malos. En cambio, esos alimentos que tienen carbohidratos, que se absorben, sí, pero muy poquito a poco, que le dan tiempo al cuerpo adaptarse a que los niveles de azúcar van subiendo paulatinamente y que, por lo tanto, no inducen a que nuestro organismo produzca tanta insulina para retirarlo, porque no hace falta retirar de forma urgente el azúcar, porque un poquito de azúcar en sangre tiene que haber. Pues a esto les llamamos carbohidratos buenos. Ya está. Punto. Sencillo. No tiene más. Es que es muy básico. Teniendo esto claro, tienen clarísima el 99% de la nutrición.
 
-El origen de las tapas
+llamamos, ya es un término más moderno, eh, alimentos con índice glucémico alto, aquellos que tienen carbohidratos que se absorben muy rápido y alimentos con índice glucémico bajo aquellos que tienen carbohidratos que se absorben muy lentamente. Son carbohidratos buenos, como les decía antes. Por lo tanto, y pasando ya al listado, alimentos con carbohidratos buenos, es decir, alimentos que se van que nos van a dar subidas de azúcares muy lentas porque se absorben muy lentamente, la absorción se da muy poquito a poco. Pues aquí tenemos, por ejemplo, los cereales, especialmente si son integrales, arroz, trigo, cebada, avena, todos si son integrales se absorben muy poco a poco. Los que denominamos pseudo cereales como la quinoa, el amaranto, etcétera, las legumbres, los frutos secos y los lácteos a más curados, los quesos, por ejemplo, mejor. Los lácteos tienen también azúcares buenos, pero si hablamos de quesos, por ejemplo, los quesos que tengan mayor curación, los quesos más viejos. Y luego está el mundo de las frutas. Dentro de las frutas, que merecen un capítulo aparte, hablaremos de frutas con carbohidratos buenos a la siguientes. Los arándanos, los kiwis, las manzanas, el aguacate, la granada, la fresa, la naranja y la guayaba. Estos tienen azúcares, sí, pero de absorción muy lenta. Estos son, digamos, los las frutas que más estarían indicadas para personas que tienen problemas de azúcar, que tienen, por ejemplo, diabetes.
 
-Existen varias leyendas sobre el origen de las tapas. Una de las más famosas cuenta que el rey Alfonso X "El Sabio" en el siglo XIII ordenó que en los mesones de Castilla se sirviera comida con el vino para evitar que los viajeros se emborracharan con el estómago vacío.
+Y alimentos con azúcares malos, alimentos que deberemos descartar, pues miren, todos los que lleven azúcares añadidos. Y ya lo hemos comentado en varios vídeos, por ley esto ustedes lo tienen que o o se tiene que exponer en todos los alimentos que vayan a comprar. Ustedes se cogen un alimento, le dan la vuelta en el envase y tiene que aparecer un cuadrito de color blanco donde te pone hidratos de carbono y justo debajo hay una línea un poquito desplazada hacia la derecha que pone azúcares añadidos. A más cantidad de azúcares añadidos que ustedes vean en la etiqueta de cualquier alimento, me da igual el que sea y la lata del color que sea, a más peor, tan sencillo como eso. Es decir, a más a nivel de azúcares añadidos, más carbohidratos malos. Punto pelota.
 
-Otra historia popular habla del rey Alfonso XIII, quien durante una visita a Cádiz en el siglo XX, pidió un vino. El camarero, preocupado por la arena de la playa que volaba con el viento, cubrió el vaso con una loncha de jamón. Al rey le gustó tanto la idea que pidió "otra tapa igual".
-
-Tipos de tapas
-
-Las tapas varían enormemente de región a región:
-
-**En Andalucía**: Muchos bares aún sirven tapas gratis con cada bebida. Puedes encontrar pescaíto frito, aceitunas, jamón ibérico.
-
-**En el País Vasco**: Las "pintxos" (pinchos) son obras de arte culinarias. Pequeñas creaciones gourmet presentadas sobre rebanadas de pan.
-
-**En Madrid**: La tortilla de patatas es la reina de las tapas. Cada bar presume de tener la mejor receta.
-
-**En Galicia**: Pulpo a la gallega, percebes, navajas - los mariscos son protagonistas.
-
-La cultura del tapeo
-
-Ir de tapas, o "tapear", es un ritual social. No se trata solo de comer, sino de socializar. Los españoles no se quedan en un solo bar - van de un lugar a otro, probando diferentes tapas en cada sitio. Esto se llama "ir de tapas" o "hacer la ronda de tapas".
-
-Una tarde típica de tapeo:
-
-1. Quedas con amigos alrededor de las 20:00 (los españoles cenan tarde)
-2. Empiezas en un bar conocido por sus croquetas
-3. Tomas una caña (cerveza pequeña) y compartes unas croquetas
-4. Después de 20-30 minutos, vas al siguiente bar
-5. Allí pruebas las gambas al ajillo con un vino
-6. Continúas así durante 2-3 horas, visitando 4-5 bares diferentes
-
-Las tapas más populares
-
-**Jamón ibérico**: El rey de las tapas. Lonchas finas de jamón curado de cerdo ibérico.
-
-**Tortilla de patatas**: Omelet español con patatas y cebolla.
-
-**Croquetas**: Bolitas fritas con bechamel y diversos rellenos (jamón, bacalao, setas).
-
-**Patatas bravas**: Patatas fritas con salsa picante.
-
-**Gambas al ajillo**: Gambas salteadas con ajo y aceite de oliva.
-
-**Pan con tomate**: Pan tostado frotado con tomate, ajo y aceite de oliva (típico de Cataluña).
-
-**Pulpo a la gallega**: Pulpo cocido con pimentón y aceite de oliva.
-
-**Boquerones en vinagre**: Anchoas marinadas.
-
-La sobremesa
-
-Después del tapeo viene la sobremesa - otro concepto muy español. Es el tiempo que pasas en la mesa después de comer, charlando, riendo, tomando café o una copa. No hay prisa. La vida social es más importante que el reloj.
-
-Las tapas en el mundo
-
-El concepto de tapas ha conquistado el mundo. Desde Nueva York hasta Tokio, los "tapas bars" son populares. Pero ninguna experiencia se compara con ir de tapas en España - el ambiente, la gente, la autenticidad.
-
-¿Por qué son importantes las tapas?
-
-Las tapas representan la filosofía de vida española: disfrutar del momento, la compañía, la conversación. No se trata de comer rápido y seguir con tu día. Se trata de vivir, de saborear, de conectar con otros.
-
-En un mundo que va cada vez más rápido, las tapas nos recuerdan que a veces lo mejor es ir despacio, compartir, disfrutar de las pequeñas cosas. Porque al final, las mejores experiencias de la vida son como las tapas: pequeñas, pero llenas de sabor.`,
-        translation: `Тапас - это гораздо больше, чем просто закуски. Они являются фундаментальной частью испанской культуры, традицией, которая превращает акт еды в уникальный социальный опыт.
-
-Что такое тапас?
-
-Тапа - это небольшая порция еды, которую подают в испанских барах, обычно для сопровождения напитка. Название происходит от "tapar" - покрывать - потому что изначально на стакан клали ломтик хлеба или хамона, чтобы защитить напиток от мух и насекомых.
-
-Происхождение тапас
-
-Существует несколько легенд о происхождении тапас. Одна из самых известных рассказывает, что король Альфонсо X "Мудрый" в XIII веке приказал, чтобы в тавернах Кастилии подавали еду с вином, чтобы путешественники не напивались на голодный желудок.
-
-Другая популярная история рассказывает о короле Альфонсо XIII, который во время визита в Кадис в XX веке попросил вино. Официант, обеспокоенный песком с пляжа, который развевался ветром, накрыл стакан ломтиком хамона. Королю так понравилась идея, что он попросил "otra tapa igual" - еще такую же крышку.
-
-Виды тапас
-
-Тапас сильно различаются от региона к региону:
-
-**В Андалусии**: Многие бары до сих пор подают тапас бесплатно с каждым напитком. Вы можете найти жареную рыбку, оливки, иберийский хамон.
-
-**В Стране Басков**: "Pintxos" (пинчос) - это кулинарные произведения искусства. Маленькие гурманские творения, представленные на ломтиках хлеба.
-
-**В Мадриде**: Тортилья де патата - королева тапас. Каждый бар гордится тем, что у него лучший рецепт.
-
-**В Галисии**: Осьминог по-галисийски, морские желуди, морские бритвы - морепродукты являются главными героями.
-
-Культура тапео
-
-Ходить на тапас, или "tapear" - это социальный ритуал. Дело не только в еде, но и в общении. Испанцы не остаются в одном баре - они переходят с места на место, пробуя разные тапас в каждом заведении. Это называется "ir de tapas" или "hacer la ronda de tapas".
-
-Типичный вечер тапео:
-
-1. Встречаешься с друзьями около 20:00 (испанцы ужинают поздно)
-2. Начинаешь в баре, известном своими крокетами
-3. Берешь "caña" (маленькое пиво) и делишься крокетами
-4. Через 20-30 минут идешь в следующий бар
-5. Там пробуешь креветки с чесноком с вином
-6. Продолжаешь так 2-3 часа, посещая 4-5 разных баров
-
-Самые популярные тапас
-
-**Хамон иберико**: Король тапас. Тонкие ломтики вяленого хамона из иберийской свинины.
-
-**Тортилья де патата**: Испанский омлет с картофелем и луком.
-
-**Крокеты**: Жареные шарики с бешамелем и различными начинками (хамон, треска, грибы).
-
-**Патата бравас**: Жареный картофель с острым соусом.
-
-**Креветки с чесноком**: Креветки, обжаренные с чесноком и оливковым маслом.
-
-**Хлеб с помидором**: Поджаренный хлеб, натертый помидором, чесноком и оливковым маслом (типично для Каталонии).
-
-**Осьминог по-галисийски**: Вареный осьминог с паприкой и оливковым маслом.
-
-**Анчоусы в уксусе**: Маринованные анчоусы.
-
-Собремеса
-
-После тапео наступает собремеса - еще одна очень испанская концепция. Это время, которое вы проводите за столом после еды, болтая, смеясь, выпивая кофе или бокал. Нет спешки. Социальная жизнь важнее часов.
-
-Тапас в мире
-
-Концепция тапас покорила мир. От Нью-Йорка до Токио "tapas bars" популярны. Но никакой опыт не сравнится с походом на тапас в Испании - атмосфера, люди, аутентичность.
-
-Почему тапас важны?
-
-Тапас представляют испанскую философию жизни: наслаждаться моментом, компанией, беседой. Дело не в том, чтобы быстро поесть и продолжить свой день. Дело в том, чтобы жить, смаковать, общаться с другими.
-
-В мире, который движется все быстрее, тапас напоминают нам, что иногда лучше всего идти медленно, делиться, наслаждаться маленькими вещами. Потому что в конце концов, лучшие жизненные впечатления - как тапас: маленькие, но полные вкуса.`
+Luego tenemos, que no lo suelen poner, los eh las frutas, pero en zumo, todo zumo de frutas. Me da igual que se lo compren en el supermercado, que se lo hagan ustedes en casa. El mismo zumo de naranja. La naranja no es lo mismo comérsela a bocado que comérsela en zumo. Si ustedes se la comen o se la beben, perdón, en zumo, es un alimento con carbohidratos malos, con carbohidratos de rápida absorción. En cambio, si ustedes se comen la naranja a bocado, pues esos carbohidratos que tienen se absorben más lentamente y por tanto decimos que la naranja tiene carbohidratos buenos. Eso es lo que ocurre con los zumos. ¿Por qué? Porque cuando haces el zumo rompes la fibra vegetal y en estás liberando, estás ayudando a que los azúcares salgan al exterior y que nuestro organismo los absorba de manera mucho más rápida, haciendo que sea, por lo tanto, con la denominación anterior que les he dado, carbohidratos malos. Y como siempre también comentamos, el alcohol. Miren qué sencillo. Todo primero, azúcares añadidos, me da igual el alimento que sea. Punto. Zumos, alcohol y los refrescos azucarados. ¿De acuerdo? Pues nada más, muchísimas gracias y nos vemos en la siguiente. Cuídense mucho. Ciao.`,
+        translation: ``
       },
       {
         tab: '2 Fiestas',
