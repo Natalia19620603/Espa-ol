@@ -10000,7 +10000,9 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
             name: 'Грамматика',
             exercises: [
               'ex-9-1-b1-grammar-1', 'ex-9-1-b1-grammar-2', 'ex-9-1-b1-grammar-3',
-              'ex-9-1-b1-grammar-4', 'ex-9-1-b1-grammar-5', 'ex-9-1-b1-grammar-6'
+              'ex-9-1-b1-grammar-4', 'ex-9-1-b1-grammar-5', 'ex-9-1-b1-grammar-6',
+              'ex-9-1-b1-grammar-7', 'ex-9-1-b1-grammar-8', 'ex-9-1-b1-grammar-9',
+              'ex-9-1-b1-grammar-10', 'ex-9-1-b1-grammar-11', 'ex-9-1-b1-grammar-12'
             ]
           }
         ]
@@ -10076,7 +10078,8 @@ Entonces, ¿a qué llegamos con todo esto? ¿Qué nos dice esta increíble histo
         subtabs: [
           { name: 'Блок 1: Словарь', exercises: ['ex-9-2-a2-1-1', 'ex-9-2-a2-1-2', 'ex-9-2-a2-1-3'] },
           { name: 'Блок 2: Чтение', exercises: ['ex-9-2-a2-2-1', 'ex-9-2-a2-2-2', 'ex-9-2-a2-2-3'] },
-          { name: 'Блок 3: Грамматика', exercises: ['ex-9-2-a2-3-1', 'ex-9-2-a2-3-2', 'ex-9-2-a2-3-3'] }
+          { name: 'Блок 3: Грамматика', exercises: ['ex-9-2-a2-3-1', 'ex-9-2-a2-3-2', 'ex-9-2-a2-3-3'] },
+          { name: 'Блок 4: Перевод', exercises: ['ex-9-2-a2-4-1', 'ex-9-2-a2-4-2', 'ex-9-2-a2-4-3'] }
         ]
       },
       {
@@ -10084,7 +10087,8 @@ Entonces, ¿a qué llegamos con todo esto? ¿Qué nos dice esta increíble histo
         subtabs: [
           { name: 'Блок 1: Словарь', exercises: ['ex-9-2-b1-1-1', 'ex-9-2-b1-1-2', 'ex-9-2-b1-1-3'] },
           { name: 'Блок 2: Чтение', exercises: ['ex-9-2-b1-2-1', 'ex-9-2-b1-2-2', 'ex-9-2-b1-2-3'] },
-          { name: 'Блок 3: Письмо', exercises: ['ex-9-2-b1-3-1', 'ex-9-2-b1-3-2', 'ex-9-2-b1-3-3'] }
+          { name: 'Блок 3: Письмо', exercises: ['ex-9-2-b1-3-1', 'ex-9-2-b1-3-2', 'ex-9-2-b1-3-3'] },
+          { name: 'Блок 4: Грамматика', exercises: ['ex-9-2-b1-4-1', 'ex-9-2-b1-4-2', 'ex-9-2-b1-4-3'] }
         ]
       }
     ]
@@ -17455,6 +17459,516 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
+  'ex-9-1-b1-grammar-7': {
+    id: 'ex-9-1-b1-grammar-7',
+    type: 'grammar',
+    title: 'Грамматика B1 - Pronombres',
+    description: 'Выберите правильное местоимение',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Cándido ___ pregunta si el paquete es importante',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 1
+      },
+      {
+        sentence: 'El comisario ___ explicó todo a Cándido',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido quiere abrir el paquete pero no ___ abre',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 2
+      },
+      {
+        sentence: 'Los periódicos ___ envió alguien misterioso',
+        options: ['le', 'se', 'los', 'las'],
+        correct: 2
+      },
+      {
+        sentence: 'A Cándido ___ gusta investigar',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 0
+      },
+      {
+        sentence: 'El tesoro ___ encontró Villena en Toledo',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 2
+      },
+      {
+        sentence: 'Cándido ___ siente nervioso',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena ___ dijo la verdad a Cándido',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 0
+      },
+      {
+        sentence: 'La música ___ escucha desde la calle',
+        options: ['le', 'se', 'la', 'lo'],
+        correct: 1
+      },
+      {
+        sentence: 'El libro ___ leyó Cándido anoche',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 2
+      },
+      {
+        sentence: 'Las cartas ___ recibió Cándido eran misteriosas',
+        options: ['le', 'se', 'los', 'las'],
+        correct: 3
+      },
+      {
+        sentence: 'A ellos ___ interesa el caso',
+        options: ['les', 'se', 'los', 'las'],
+        correct: 0
+      },
+      {
+        sentence: 'La sinagoga ___ descubrió el comisario',
+        options: ['le', 'se', 'la', 'lo'],
+        correct: 2
+      },
+      {
+        sentence: 'Cándido ___ acuerda del periódico',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 1
+      },
+      {
+        sentence: 'El misterio ___ resolvió al final',
+        options: ['le', 'se', 'lo', 'la'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-8': {
+    id: 'ex-9-1-b1-grammar-8',
+    type: 'grammar',
+    title: 'Грамматика B1 - Oraciones de relativo',
+    description: 'Выберите правильное относительное местоимение',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'El paquete ___ recibió Cándido era misterioso',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: 'Toledo es la ciudad ___ encontraron el tesoro',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 2
+      },
+      {
+        sentence: 'El comisario ___ investigó el caso se llama Villena',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: 'La sinagoga en ___ estaba el tesoro era muy antigua',
+        options: ['que', 'la que', 'quien', 'cuando'],
+        correct: 1
+      },
+      {
+        sentence: 'Los periódicos ___ leyó Cándido eran del año pasado',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: 'El momento ___ todo cambió fue muy importante',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 3
+      },
+      {
+        sentence: 'La persona ___ envió los periódicos sigue siendo un misterio',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: 'Madrid es la ciudad ___ vive Villena',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 2
+      },
+      {
+        sentence: 'El día ___ encontraron el tesoro fue memorable',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 3
+      },
+      {
+        sentence: 'La mesa sobre ___ estaban las cartas es de madera',
+        options: ['que', 'la que', 'quien', 'cuando'],
+        correct: 1
+      },
+      {
+        sentence: 'Las pistas ___ siguió Cándido eran confusas',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: 'El año ___ pasó todo esto fue inolvidable',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 3
+      },
+      {
+        sentence: 'La razón por ___ Cándido investigaba no estaba clara',
+        options: ['que', 'la que', 'quien', 'cuando'],
+        correct: 1
+      },
+      {
+        sentence: 'El lugar en ___ se encontraron era secreto',
+        options: ['que', 'el que', 'quien', 'cuando'],
+        correct: 1
+      },
+      {
+        sentence: 'Todo lo ___ descubrieron era sorprendente',
+        options: ['que', 'quien', 'donde', 'cuando'],
+        correct: 0
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-9': {
+    id: 'ex-9-1-b1-grammar-9',
+    type: 'grammar',
+    title: 'Грамматика B1 - Perífrasis verbales',
+    description: 'Выберите правильную глагольную перифразу',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Cándido ___ leer el periódico cuando sonó el teléfono',
+        options: ['estuvo a punto de', 'estaba a punto de', 'está a punto de', 'estará a punto de'],
+        correct: 1
+      },
+      {
+        sentence: 'El comisario ___ investigar el caso desde hace meses',
+        options: ['lleva', 'llevar', 'llevó', 'llevaba'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido ___ resolver el misterio pronto',
+        options: ['va a', 'ir a', 'fue a', 'iba a'],
+        correct: 0
+      },
+      {
+        sentence: 'Villena ___ descubrir algo importante',
+        options: ['acabo de', 'acabó de', 'acaba de', 'acababa de'],
+        correct: 2
+      },
+      {
+        sentence: 'Ellos ___ trabajar en el caso toda la noche',
+        options: ['siguieron', 'seguir', 'siguen', 'sigue'],
+        correct: 0
+      },
+      {
+        sentence: 'El tesoro ___ encontrarse en cualquier momento',
+        options: ['puede', 'poder', 'pudo', 'podía'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido ___ entender las pistas cuando llegó Villena',
+        options: ['empezó a', 'empezar a', 'empieza a', 'empezará a'],
+        correct: 0
+      },
+      {
+        sentence: 'La investigación ___ complicarse cada vez más',
+        options: ['volvió a', 'volver a', 'vuelve a', 'volverá a'],
+        correct: 2
+      },
+      {
+        sentence: 'Villena ___ buscar el tesoro durante años',
+        options: ['dejó de', 'dejar de', 'deja de', 'dejaba de'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido ___ recibir paquetes misteriosos',
+        options: ['volvió a', 'volver a', 'vuelve a', 'volverá a'],
+        correct: 0
+      },
+      {
+        sentence: 'El comisario ___ explicar todo al final',
+        options: ['terminó de', 'terminar de', 'termina de', 'terminaba de'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido ___ trabajar en el artículo ahora',
+        options: ['poner a', 'se pone a', 'se puso a', 'se ponía a'],
+        correct: 1
+      },
+      {
+        sentence: 'La historia ___ tener sentido poco a poco',
+        options: ['echó a', 'echar a', 'echa a', 'empieza a'],
+        correct: 3
+      },
+      {
+        sentence: 'Villena ___ dormir después de resolver el caso',
+        options: ['ir a', 'va a', 'fue a', 'iba a'],
+        correct: 1
+      },
+      {
+        sentence: 'Todos ___ celebrar el éxito al final',
+        options: ['romper a', 'rompieron a', 'rompen a', 'rompían a'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-10': {
+    id: 'ex-9-1-b1-grammar-10',
+    type: 'grammar',
+    title: 'Грамматика B1 - Estilo indirecto',
+    description: 'Преобразуйте прямую речь в косвенную',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Villena: "He descubierto el tesoro" → Villena dijo que ___',
+        options: ['ha descubierto el tesoro', 'había descubierto el tesoro', 'descubrió el tesoro', 'descubriría el tesoro'],
+        correct: 1
+      },
+      {
+        sentence: 'Cándido: "Estoy nervioso" → Cándido dijo que ___',
+        options: ['está nervioso', 'estaba nervioso', 'estuvo nervioso', 'estaría nervioso'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena: "Iré a Madrid mañana" → Villena dijo que ___',
+        options: ['irá a Madrid', 'fue a Madrid', 'iría a Madrid', 'va a Madrid'],
+        correct: 2
+      },
+      {
+        sentence: 'Cándido: "¿Quién envió los periódicos?" → Cándido preguntó ___',
+        options: ['quién envió los periódicos', 'quién había enviado los periódicos', 'quién enviará los periódicos', 'quién enviaría los periódicos'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena: "No puedo explicarlo ahora" → Villena dijo que ___',
+        options: ['no puede explicarlo', 'no podía explicarlo', 'no pudo explicarlo', 'no podrá explicarlo'],
+        correct: 1
+      },
+      {
+        sentence: 'Cándido: "Recibí un paquete extraño" → Cándido dijo que ___',
+        options: ['recibió un paquete extraño', 'recibía un paquete extraño', 'había recibido un paquete extraño', 'recibiría un paquete extraño'],
+        correct: 2
+      },
+      {
+        sentence: 'Villena: "El tesoro está en Toledo" → Villena dijo que ___',
+        options: ['el tesoro está en Toledo', 'el tesoro estaba en Toledo', 'el tesoro estuvo en Toledo', 'el tesoro estaría en Toledo'],
+        correct: 1
+      },
+      {
+        sentence: 'Cándido: "Voy a investigar" → Cándido dijo que ___',
+        options: ['va a investigar', 'fue a investigar', 'iba a investigar', 'irá a investigar'],
+        correct: 2
+      },
+      {
+        sentence: 'Villena: "He trabajado mucho" → Villena dijo que ___',
+        options: ['ha trabajado mucho', 'había trabajado mucho', 'trabajó mucho', 'trabajaría mucho'],
+        correct: 1
+      },
+      {
+        sentence: 'Cándido: "¿Dónde encontraste esto?" → Cándido preguntó ___',
+        options: ['dónde encontró esto', 'dónde encuentra esto', 'dónde había encontrado esto', 'dónde encontraría esto'],
+        correct: 2
+      },
+      {
+        sentence: 'Villena: "Puedes confiar en mí" → Villena dijo que ___',
+        options: ['puedes confiar en él', 'podías confiar en él', 'puede confiar en él', 'podía confiar en él'],
+        correct: 3
+      },
+      {
+        sentence: 'Cándido: "Ayer leí el periódico" → Cándido dijo que ___',
+        options: ['ayer leyó el periódico', 'el día anterior leyó el periódico', 'el día anterior había leído el periódico', 'ayer había leído el periódico'],
+        correct: 2
+      },
+      {
+        sentence: 'Villena: "Mañana resolveremos el caso" → Villena dijo que ___',
+        options: ['mañana resolverán el caso', 'al día siguiente resolverían el caso', 'al día siguiente resolverán el caso', 'mañana resolverían el caso'],
+        correct: 1
+      },
+      {
+        sentence: 'Cándido: "No entiendo nada" → Cándido dijo que ___',
+        options: ['no entiende nada', 'no entendía nada', 'no entendió nada', 'no entendería nada'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena: "Ya sé quién es el culpable" → Villena dijo que ___',
+        options: ['ya sabe quién es el culpable', 'ya sabía quién era el culpable', 'ya supo quién fue el culpable', 'ya sabría quién sería el culpable'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-11': {
+    id: 'ex-9-1-b1-grammar-11',
+    type: 'grammar',
+    title: 'Грамматика B1 - Preposiciones',
+    description: 'Выберите правильный предлог',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Cándido piensa ___ el misterio todo el tiempo',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 0
+      },
+      {
+        sentence: 'El comisario llegó ___ Madrid ayer',
+        options: ['en', 'a', 'de', 'por'],
+        correct: 1
+      },
+      {
+        sentence: 'El tesoro está ___ la sinagoga',
+        options: ['en', 'a', 'de', 'por'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido se enamoró ___ el misterio',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena trabaja ___ comisario',
+        options: ['en', 'de', 'a', 'como'],
+        correct: 3
+      },
+      {
+        sentence: 'El paquete es ___ Cándido',
+        options: ['en', 'de', 'a', 'para'],
+        correct: 3
+      },
+      {
+        sentence: 'Cándido confía ___ Villena',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 0
+      },
+      {
+        sentence: 'El periódico es ___ Toledo',
+        options: ['en', 'de', 'a', 'por'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena sueña ___ resolver el caso',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 3
+      },
+      {
+        sentence: 'Cándido se dedica ___ investigar',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 2
+      },
+      {
+        sentence: 'El comisario viaja ___ tren',
+        options: ['en', 'de', 'a', 'por'],
+        correct: 0
+      },
+      {
+        sentence: 'Cándido se alegra ___ las noticias',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 1
+      },
+      {
+        sentence: 'Villena insiste ___ continuar',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 0
+      },
+      {
+        sentence: 'El tesoro pertenece ___ España',
+        options: ['en', 'de', 'a', 'con'],
+        correct: 2
+      },
+      {
+        sentence: 'Cándido se preocupa ___ el resultado',
+        options: ['en', 'de', 'a', 'por'],
+        correct: 3
+      }
+    ]
+  },
+
+  'ex-9-1-b1-grammar-12': {
+    id: 'ex-9-1-b1-grammar-12',
+    type: 'grammar',
+    title: 'Грамматика B1 - Conectores',
+    description: 'Выберите правильный соединительный элемент',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Cándido estaba nervioso, ___ abrió el paquete',
+        options: ['sin embargo', 'por eso', 'aunque', 'porque'],
+        correct: 1
+      },
+      {
+        sentence: '___ el misterio era difícil, Villena no se rindió',
+        options: ['Aunque', 'Por eso', 'Sin embargo', 'Porque'],
+        correct: 0
+      },
+      {
+        sentence: 'Encontraron el tesoro. ___, todos estaban felices',
+        options: ['Aunque', 'Por eso', 'Sin embargo', 'Porque'],
+        correct: 1
+      },
+      {
+        sentence: 'El caso era complejo. ___, lograron resolverlo',
+        options: ['Aunque', 'Por eso', 'Sin embargo', 'Porque'],
+        correct: 2
+      },
+      {
+        sentence: 'Cándido investigaba ___ quería saber la verdad',
+        options: ['aunque', 'por eso', 'sin embargo', 'porque'],
+        correct: 3
+      },
+      {
+        sentence: '___ todo, el misterio se resolvió',
+        options: ['A pesar de', 'Por', 'Sin', 'Con'],
+        correct: 0
+      },
+      {
+        sentence: 'Villena era inteligente, ___ resolvió el caso rápido',
+        options: ['aunque', 'por tanto', 'sin embargo', 'porque'],
+        correct: 1
+      },
+      {
+        sentence: '___ que llegó a Madrid, Villena empezó a trabajar',
+        options: ['Aunque', 'En cuanto', 'Sin embargo', 'Por eso'],
+        correct: 1
+      },
+      {
+        sentence: 'El tesoro estaba escondido, ___ lo encontraron',
+        options: ['aunque', 'por eso', 'no obstante', 'porque'],
+        correct: 2
+      },
+      {
+        sentence: '___ Cándido era periodista, ___ investigaba mucho',
+        options: ['Como / por eso', 'Aunque / sin embargo', 'Porque / aunque', 'Si / entonces'],
+        correct: 0
+      },
+      {
+        sentence: 'Villena tenía experiencia. ___, el caso era difícil',
+        options: ['Por eso', 'Aunque', 'No obstante', 'Porque'],
+        correct: 2
+      },
+      {
+        sentence: '___ que lo intentes, no es fácil',
+        options: ['Aunque', 'Por más', 'Sin embargo', 'Por eso'],
+        correct: 1
+      },
+      {
+        sentence: 'Encontraron pistas, ___ siguieron investigando',
+        options: ['aunque', 'por eso', 'sin embargo', 'porque'],
+        correct: 1
+      },
+      {
+        sentence: '___ las dificultades, continuaron',
+        options: ['A pesar de', 'Por', 'Sin', 'Con'],
+        correct: 0
+      },
+      {
+        sentence: 'El caso se cerró, ___ surgieron nuevas preguntas',
+        options: ['aunque', 'por eso', 'pero', 'porque'],
+        correct: 2
+      }
+    ]
+  },
+
   // Урок 9.2 - Испанские традиции
   'ex-9-2-1': {
     id: 'ex-9-2-1',
@@ -17945,6 +18459,338 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Культурное наследие передается через поколения', correct: 'la herencia cultural se transmite a través de las generaciones' },
       { russian: 'Древние обряды продолжают жить в современных праздниках', correct: 'los antiguos ritos perviven en las festividades modernas' },
       { russian: 'Это увлекательное путешествие в историю наших традиций', correct: 'es un viaje fascinante a la historia de nuestras tradiciones' }
+    ]
+  },
+
+  // A2 Translation exercises
+  'ex-9-2-a2-4-1': {
+    id: 'ex-9-2-a2-4-1',
+    type: 'translation',
+    title: 'A2 - Блок 4: Перевод (часть 1)',
+    description: 'Переведите предложения с русского на испанский',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'Двадцать пятое декабря - известная дата', spanish: 'El veinticinco de diciembre es una fecha conocida' },
+      { russian: 'Солнце было важным богом', spanish: 'El sol era un dios importante' },
+      { russian: 'Римляне праздновали день рождения солнца', spanish: 'Los romanos celebraban el nacimiento del sol' },
+      { russian: 'Церковь приняла этот праздник', spanish: 'La iglesia adoptó esta fiesta' },
+      { russian: 'Эта традиция очень древняя', spanish: 'Esta tradición es muy antigua' },
+      { russian: 'Император построил храм солнцу', spanish: 'El emperador construyó un templo al sol' },
+      { russian: 'Праздник отмечался зимой', spanish: 'La fiesta se celebraba en invierno' },
+      { russian: 'Дни становятся длиннее', spanish: 'Los días se hacen más largos' },
+      { russian: 'Свет побеждает тьму', spanish: 'La luz vence la oscuridad' },
+      { russian: 'Мы обмениваемся подарками', spanish: 'Intercambiamos regalos' },
+      { russian: 'Это символ жизни', spanish: 'Es un símbolo de vida' },
+      { russian: 'Традиции смешиваются', spanish: 'Las tradiciones se mezclan' },
+      { russian: 'История очень интересная', spanish: 'La historia es muy interesante' },
+      { russian: 'Праздник стал христианским', spanish: 'La fiesta se volvió cristiana' },
+      { russian: 'Рим был великой империей', spanish: 'Roma era un gran imperio' }
+    ]
+  },
+
+  'ex-9-2-a2-4-2': {
+    id: 'ex-9-2-a2-4-2',
+    type: 'translation',
+    title: 'A2 - Блок 4: Перевод (часть 2)',
+    description: 'Переведите предложения с русского на испанский',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'У них были разные боги', spanish: 'Ellos tenían diferentes dioses' },
+      { russian: 'Культ солнца был популярным', spanish: 'El culto al sol era popular' },
+      { russian: 'Люди украшали дома', spanish: 'La gente decoraba las casas' },
+      { russian: 'Зима - темное время года', spanish: 'El invierno es una época oscura' },
+      { russian: 'Солнцестояние - важный день', spanish: 'El solsticio es un día importante' },
+      { russian: 'Христианство распространялось', spanish: 'El cristianismo se expandía' },
+      { russian: 'Они создали новый смысл', spanish: 'Crearon un nuevo significado' },
+      { russian: 'Документ сохранился', spanish: 'El documento se conservó' },
+      { russian: 'Традиция продолжается', spanish: 'La tradición continúa' },
+      { russian: 'Мы отмечаем этот день', spanish: 'Celebramos este día' },
+      { russian: 'Император решил официализировать культ', spanish: 'El emperador decidió oficializar el culto' },
+      { russian: 'Дерево символизирует вечную жизнь', spanish: 'El árbol simboliza la vida eterna' },
+      { russian: 'Огни украшают улицы', spanish: 'Las luces decoran las calles' },
+      { russian: 'История повторяется', spanish: 'La historia se repite' },
+      { russian: 'Мы любим этот праздник', spanish: 'Nos gusta esta fiesta' }
+    ]
+  },
+
+  'ex-9-2-a2-4-3': {
+    id: 'ex-9-2-a2-4-3',
+    type: 'translation',
+    title: 'A2 - Блок 4: Перевод (часть 3)',
+    description: 'Переведите предложения с русского на испанский',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'Празднование началось в Риме', spanish: 'La celebración empezó en Roma' },
+      { russian: 'Солнце возрождается каждую зиму', spanish: 'El sol renace cada invierno' },
+      { russian: 'Они поклонялись природе', spanish: 'Adoraban la naturaleza' },
+      { russian: 'Церковь была мудрой', spanish: 'La iglesia fue sabia' },
+      { russian: 'Эта дата имеет глубокое значение', spanish: 'Esta fecha tiene un significado profundo' },
+      { russian: 'Люди готовили большие пиры', spanish: 'La gente preparaba grandes banquetes' },
+      { russian: 'Символы изменили смысл', spanish: 'Los símbolos cambiaron de significado' },
+      { russian: 'Империя была огромной', spanish: 'El imperio era enorme' },
+      { russian: 'Традиции объединяют нас', spanish: 'Las tradiciones nos unen' },
+      { russian: 'Мы празднуем вместе', spanish: 'Celebramos juntos' },
+      { russian: 'Храм был величественным', spanish: 'El templo era majestuoso' },
+      { russian: 'Культура развивалась', spanish: 'La cultura se desarrollaba' },
+      { russian: 'Прошлое живет в настоящем', spanish: 'El pasado vive en el presente' },
+      { russian: 'Это наше наследие', spanish: 'Es nuestra herencia' },
+      { russian: 'История учит нас', spanish: 'La historia nos enseña' }
+    ]
+  },
+
+  // B1 Grammar exercises
+  'ex-9-2-b1-4-1': {
+    id: 'ex-9-2-b1-4-1',
+    type: 'grammar',
+    title: 'B1 - Блок 4: Грамматика - Tiempos verbales',
+    description: 'Выберите правильное время глагола',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Cuando los romanos ___ al sol, no sabían que esta tradición cambiaría',
+        options: ['adoraban', 'adoraron', 'adoran', 'han adorado'],
+        correct: 0
+      },
+      {
+        sentence: 'En el año 274, el emperador Aureliano ___ el culto oficial',
+        options: ['establecía', 'estableció', 'ha establecido', 'establece'],
+        correct: 1
+      },
+      {
+        sentence: 'La Iglesia primitiva ___ una decisión muy estratégica',
+        options: ['tomaba', 'tomó', 'ha tomado', 'toma'],
+        correct: 1
+      },
+      {
+        sentence: 'Mientras el cristianismo ___, el culto al sol seguía fuerte',
+        options: ['crecía', 'creció', 'ha crecido', 'crece'],
+        correct: 0
+      },
+      {
+        sentence: 'Desde entonces, nosotros ___ celebrando esta fecha',
+        options: ['seguíamos', 'seguimos', 'hemos seguido', 'seguiremos'],
+        correct: 2
+      },
+      {
+        sentence: 'Los emperadores ___ en Sol Invictus un símbolo perfecto',
+        options: ['veían', 'vieron', 'han visto', 'ven'],
+        correct: 1
+      },
+      {
+        sentence: 'Es posible que la tradición ___ de culturas antiguas',
+        options: ['viene', 'venga', 'venía', 'vino'],
+        correct: 1
+      },
+      {
+        sentence: 'Aunque el cristianismo ___ la fiesta, mantuvo muchos elementos',
+        options: ['adoptaba', 'adoptó', 'adopte', 'adopta'],
+        correct: 1
+      },
+      {
+        sentence: 'Cuando ___ el solsticio, empezaba la celebración',
+        options: ['llega', 'llegaba', 'llegó', 'llegue'],
+        correct: 1
+      },
+      {
+        sentence: 'Si los romanos no ___ este culto, nuestra tradición sería diferente',
+        options: ['tenían', 'tuvieron', 'hubieran tenido', 'tienen'],
+        correct: 2
+      },
+      {
+        sentence: 'Es importante que ___ el origen de nuestras tradiciones',
+        options: ['conocemos', 'conocíamos', 'conozcamos', 'conoceremos'],
+        correct: 2
+      },
+      {
+        sentence: 'Antes de que el cristianismo ___, ya existía esta fiesta',
+        options: ['llegaba', 'llegó', 'llegara', 'llega'],
+        correct: 2
+      },
+      {
+        sentence: 'La Cronografía del 354 ___ escrita hace muchos siglos',
+        options: ['era', 'fue', 'ha sido', 'es'],
+        correct: 1
+      },
+      {
+        sentence: 'Dudo que los romanos ___ que su fiesta duraría tanto',
+        options: ['sabían', 'supieran', 'saben', 'han sabido'],
+        correct: 1
+      },
+      {
+        sentence: 'Para cuando llegó el siglo IV, el culto ya se ___ establecido',
+        options: ['ha', 'había', 'hubo', 'hay'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-2-b1-4-2': {
+    id: 'ex-9-2-b1-4-2',
+    type: 'grammar',
+    title: 'B1 - Блок 4: Грамматика - Subjuntivo y condicional',
+    description: 'Выберите правильную форму subjuntivo или condicional',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: 'Es fascinante que esta tradición ___ tantos siglos',
+        options: ['tiene', 'tenga', 'tendría', 'tenía'],
+        correct: 1
+      },
+      {
+        sentence: 'Los romanos querían que todos ___ al sol',
+        options: ['adoraban', 'adoren', 'adoraran', 'adorarían'],
+        correct: 2
+      },
+      {
+        sentence: 'Si supiéramos más sobre el pasado, ___ mejor el presente',
+        options: ['entendemos', 'entenderíamos', 'entendamos', 'entendiéramos'],
+        correct: 1
+      },
+      {
+        sentence: 'No creo que los paganos ___ que su fiesta se volvería cristiana',
+        options: ['imaginaban', 'imaginaran', 'imaginen', 'imaginarían'],
+        correct: 1
+      },
+      {
+        sentence: 'Era necesario que la Iglesia ___ una solución',
+        options: ['encontraba', 'encontrara', 'encuentre', 'encontraría'],
+        correct: 1
+      },
+      {
+        sentence: 'Me sorprende que nosotros no ___ antes sobre este origen',
+        options: ['sabíamos', 'supiéramos', 'sepamos', 'sabríamos'],
+        correct: 1
+      },
+      {
+        sentence: 'Ojalá ___ más documentos históricos de aquella época',
+        options: ['existían', 'existieran', 'existan', 'existirían'],
+        correct: 1
+      },
+      {
+        sentence: 'Si los romanos no hubieran adorado al sol, hoy ___ tradiciones diferentes',
+        options: ['tenemos', 'tengamos', 'tendríamos', 'tuviéramos'],
+        correct: 2
+      },
+      {
+        sentence: 'Es probable que muchas culturas ___ fiestas similares',
+        options: ['tenían', 'tuvieran', 'tengan', 'tendrían'],
+        correct: 2
+      },
+      {
+        sentence: 'Dudaba que la fusión cultural ___ tan completa',
+        options: ['era', 'fuera', 'sea', 'sería'],
+        correct: 1
+      },
+      {
+        sentence: 'Aunque el origen ___ pagano, la celebración es ahora cristiana',
+        options: ['era', 'fuera', 'sea', 'es'],
+        correct: 2
+      },
+      {
+        sentence: 'Me gustaría que todos ___ la verdadera historia',
+        options: ['conocían', 'conocieran', 'conozcan', 'conocerían'],
+        correct: 1
+      },
+      {
+        sentence: 'No pensaba que esta tradición ___ raíces tan profundas',
+        options: ['tenía', 'tuviera', 'tenga', 'tendría'],
+        correct: 1
+      },
+      {
+        sentence: 'Si la Iglesia no hubiera sido inteligente, ___ muchos conflictos',
+        options: ['había', 'hubiera habido', 'haya', 'habría'],
+        correct: 3
+      },
+      {
+        sentence: 'Espero que este conocimiento nos ___ a valorar nuestras tradiciones',
+        options: ['ayuda', 'ayude', 'ayudara', 'ayudaría'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-2-b1-4-3': {
+    id: 'ex-9-2-b1-4-3',
+    type: 'grammar',
+    title: 'B1 - Блок 4: Грамматика - Construcciones complejas',
+    description: 'Выберите правильную грамматическую конструкцию',
+    backgroundColor: '#FFF3E0',
+    questions: [
+      {
+        sentence: '___ de prohibir la fiesta, la Iglesia la adoptó',
+        options: ['A pesar', 'En lugar', 'Antes', 'Después'],
+        correct: 1
+      },
+      {
+        sentence: 'El culto al sol era popular ___ de la llegada del cristianismo',
+        options: ['antes', 'después', 'durante', 'mientras'],
+        correct: 0
+      },
+      {
+        sentence: '___ que el solsticio ocurría, empezaban las celebraciones',
+        options: ['Cuando', 'Aunque', 'Si', 'Porque'],
+        correct: 0
+      },
+      {
+        sentence: 'La tradición perduró ___ los cambios religiosos',
+        options: ['a pesar de', 'porque', 'si', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: '___ sabemos hoy, muchas tradiciones tienen orígenes paganos',
+        options: ['Como', 'Cuándo', 'Aunque', 'Si'],
+        correct: 0
+      },
+      {
+        sentence: 'Los romanos celebraban el solsticio ___ marcaba el renacimiento del sol',
+        options: ['porque', 'aunque', 'si', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: '___ más investigamos, más conexiones encontramos',
+        options: ['Cuanto', 'Cuando', 'Como', 'Aunque'],
+        correct: 0
+      },
+      {
+        sentence: 'La fecha se eligió ___ ya era importante para los romanos',
+        options: ['porque', 'aunque', 'si', 'cuando'],
+        correct: 0
+      },
+      {
+        sentence: '___ el origen sea pagano, la celebración actual es cristiana',
+        options: ['Cuando', 'Si', 'Aunque', 'Porque'],
+        correct: 2
+      },
+      {
+        sentence: 'Las tradiciones evolucionan ___ el tiempo',
+        options: ['con', 'en', 'de', 'por'],
+        correct: 0
+      },
+      {
+        sentence: '___ la fusión cultural, surgió una nueva tradición',
+        options: ['Gracias a', 'A pesar de', 'Sin', 'Antes de'],
+        correct: 0
+      },
+      {
+        sentence: 'El documento fue escrito ___ siglo IV',
+        options: ['en el', 'al', 'del', 'por el'],
+        correct: 0
+      },
+      {
+        sentence: '___ podemos ver, el pasado influye en el presente',
+        options: ['Como', 'Cuando', 'Si', 'Aunque'],
+        correct: 0
+      },
+      {
+        sentence: 'La Iglesia actuó ___ sabiduría',
+        options: ['con', 'en', 'de', 'por'],
+        correct: 0
+      },
+      {
+        sentence: '___ esta historia, entendemos mejor nuestras tradiciones',
+        options: ['Conociendo', 'Conocer', 'Conozco', 'Conocía'],
+        correct: 0
+      }
     ]
   },
 
