@@ -9989,7 +9989,28 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
           },
           {
             name: 'Перевод',
-            exercises: ['ex-9-1-a2-translation-1', 'ex-9-1-a2-translation-2', 'ex-9-1-a2-translation-3']
+            subtabs: [
+              {
+                name: 'Capítulo 1',
+                exercises: ['ex-9-1-a2-trans-c1']
+              },
+              {
+                name: 'Capítulo 2',
+                exercises: ['ex-9-1-a2-trans-c2']
+              },
+              {
+                name: 'Capítulo 3',
+                exercises: ['ex-9-1-a2-trans-c3']
+              },
+              {
+                name: 'Capítulo 4',
+                exercises: ['ex-9-1-a2-trans-c4']
+              },
+              {
+                name: 'Capítulo 5',
+                exercises: ['ex-9-1-a2-trans-c5']
+              }
+            ]
           }
         ]
       },
@@ -9998,11 +10019,27 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
         subtabs: [
           {
             name: 'Грамматика',
-            exercises: [
-              'ex-9-1-b1-grammar-1', 'ex-9-1-b1-grammar-2', 'ex-9-1-b1-grammar-3',
-              'ex-9-1-b1-grammar-4', 'ex-9-1-b1-grammar-5', 'ex-9-1-b1-grammar-6',
-              'ex-9-1-b1-grammar-7', 'ex-9-1-b1-grammar-8', 'ex-9-1-b1-grammar-9',
-              'ex-9-1-b1-grammar-10', 'ex-9-1-b1-grammar-11', 'ex-9-1-b1-grammar-12'
+            subtabs: [
+              {
+                name: 'Capítulo 1',
+                exercises: ['ex-9-1-b1-gram-c1']
+              },
+              {
+                name: 'Capítulo 2',
+                exercises: ['ex-9-1-b1-gram-c2']
+              },
+              {
+                name: 'Capítulo 3',
+                exercises: ['ex-9-1-b1-gram-c3']
+              },
+              {
+                name: 'Capítulo 4',
+                exercises: ['ex-9-1-b1-gram-c4']
+              },
+              {
+                name: 'Capítulo 5',
+                exercises: ['ex-9-1-b1-gram-c5']
+              }
             ]
           }
         ]
@@ -16847,1103 +16884,632 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  // Translation exercises A2
-  'ex-9-1-a2-translation-1': {
-    id: 'ex-9-1-a2-translation-1',
+  // Translation exercises A2 - По капитулам
+  'ex-9-1-a2-trans-c1': {
+    id: 'ex-9-1-a2-trans-c1',
     type: 'translation',
-    title: 'Перевод A2 - Блок 1',
-    description: 'Переведите предложения с русского на испанский',
+    title: 'Перевод - Capítulo 1',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 1)',
+    backgroundColor: '#E3F2FD',
+    questions: [
+      { russian: 'Он оставляет газеты на кровати', spanish: 'Él deja los periódicos sobre la cama' },
+      { russian: 'Он садится на стул и быстро пьет кофе', spanish: 'Se sienta en una silla y bebe rápido su café' },
+      { russian: 'В Кордобе всегда очень жарко летом', spanish: 'En Córdoba siempre hace mucho calor en verano' },
+      { russian: 'Он не знает, кто послал ему этот пакет', spanish: 'No sabe quién le ha podido enviar ese paquete' },
+      { russian: 'Он очень хороший археолог, лучший', spanish: 'Él es un arqueólogo muy bueno, el mejor' },
+      { russian: 'Но он не работает на раскопках уже много лет', spanish: 'Pero no trabaja en una excavación desde hace muchos años' },
+      { russian: 'Рабочие нашли синагогу в старом дворце', spanish: 'Los obreros han encontrado una sinagoga en el viejo Palacio' },
+      { russian: 'Молодой археолог нашла маленькое сокровище', spanish: 'Una joven arqueóloga ha encontrado un pequeño tesoro' },
+      { russian: 'Ключ имеет рисунки и надписи', spanish: 'La llave tiene unos dibujos y unas inscripciones' },
+      { russian: 'Никто не смог их понять', spanish: 'Nadie ha podido entenderlas' },
+      { russian: 'Для археолога нет ничего важнее такого открытия', spanish: 'Para un arqueólogo no hay nada tan importante como un descubrimiento así' },
+      { russian: 'Он уверен, что сможет это прочитать', spanish: 'Está seguro de poder hacerlo' },
+      { russian: 'Кто-то послал ему этот пакет', spanish: 'Alguien le ha enviado ese paquete' },
+      { russian: 'Я должен поехать в Толедо', spanish: 'Debo ir a Toledo' },
+      { russian: 'Это может быть опасно', spanish: 'Puede ser peligroso' }
+    ]
+  },
+
+  'ex-9-1-a2-trans-c2': {
+    id: 'ex-9-1-a2-trans-c2',
+    type: 'translation',
+    title: 'Перевод - Capítulo 2',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 2)',
     backgroundColor: '#E8F5E9',
     questions: [
-      { russian: 'Я живу в большом городе', spanish: 'Yo vivo en una ciudad grande' },
-      { russian: 'Моя семья очень дружная', spanish: 'Mi familia es muy unida' },
-      { russian: 'Каждое утро я пью кофе', spanish: 'Cada mañana bebo café' },
-      { russian: 'Мне нравится читать книги', spanish: 'Me gusta leer libros' },
-      { russian: 'Вчера я купил новую машину', spanish: 'Ayer compré un coche nuevo' },
-      { russian: 'Мои друзья живут далеко', spanish: 'Mis amigos viven lejos' },
-      { russian: 'Завтра будет хорошая погода', spanish: 'Mañana hará buen tiempo' },
-      { russian: 'Я хочу поехать в Испанию', spanish: 'Quiero ir a España' },
-      { russian: 'Она работает в больнице', spanish: 'Ella trabaja en el hospital' },
-      { russian: 'Мы учим испанский язык', spanish: 'Nosotros aprendemos español' },
-      { russian: 'Он любит играть в футбол', spanish: 'A él le gusta jugar al fútbol' },
-      { russian: 'У меня есть две кошки', spanish: 'Tengo dos gatos' },
-      { russian: 'Мой брат живет в Мадриде', spanish: 'Mi hermano vive en Madrid' },
-      { russian: 'Я встаю в семь утра', spanish: 'Me levanto a las siete de la mañana' },
-      { russian: 'Они ходят в кино каждую неделю', spanish: 'Ellos van al cine cada semana' }
+      { russian: 'У него маленький магазин в центре Толедо', spanish: 'Tiene una pequeña tienda en el centro de Toledo' },
+      { russian: 'Там он продает все', spanish: 'Allí vende de todo' },
+      { russian: 'Он всегда кажется довольным', spanish: 'Siempre parece estar contento' },
+      { russian: 'Она знает этого хорошего человека уже более пятидесяти лет', spanish: 'Conoce a ese buen hombre desde hace más de cincuenta años' },
+      { russian: 'Каждый день она ходит туда покупать хлеб', spanish: 'Todos los días va allí a comprar pan' },
+      { russian: 'Ей нравится приходить в магазин рано утром', spanish: 'A ella le gusta llegar a la tienda muy pronto por la mañana' },
+      { russian: 'Они очень хорошие друзья', spanish: 'Son muy buenos amigos' },
+      { russian: 'Сегодня утром она очень довольна', spanish: 'Esta mañana está muy contenta' },
+      { russian: 'Мой внук приезжает сегодня домой', spanish: 'Mi nieto viene hoy a casa' },
+      { russian: 'Ему очень нравится писать', spanish: 'A él le gusta mucho escribir' },
+      { russian: 'Поезд из Мадрида прибывает в Толедо', spanish: 'El tren de Madrid entra en Toledo' },
+      { russian: 'Он готовится выйти', spanish: 'Se prepara para salir' },
+      { russian: 'Ему нравится смотреть на людей', spanish: 'Le gusta mirar a las personas' },
+      { russian: 'Он всегда был очень умным', spanish: 'Ese niño siempre ha sido muy listo' },
+      { russian: 'Рабочие обнаружили ее недавно', spanish: 'Los obreros la han descubierto hace poco' }
     ]
   },
 
-  'ex-9-1-a2-translation-2': {
-    id: 'ex-9-1-a2-translation-2',
+  'ex-9-1-a2-trans-c3': {
+    id: 'ex-9-1-a2-trans-c3',
     type: 'translation',
-    title: 'Перевод A2 - Блок 2',
-    description: 'Переведите предложения с русского на испанский',
+    title: 'Перевод - Capítulo 3',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 3)',
+    backgroundColor: '#FFF9C4',
+    questions: [
+      { russian: 'Он смотрит на раскопки с улицы', spanish: 'Mira las excavaciones desde la calle' },
+      { russian: 'Там работают много людей', spanish: 'Allí trabajan muchas personas' },
+      { russian: 'Он хочет увидеть ключ', spanish: 'Quiere ver la llave' },
+      { russian: 'Он ждет до четырех утра', spanish: 'Espera hasta las cuatro de la mañana' },
+      { russian: 'Все спят в этот час', spanish: 'Todos duermen a esta hora' },
+      { russian: 'Он входит в синагогу', spanish: 'Entra en la sinagoga' },
+      { russian: 'Он ищет ключ фонариком', spanish: 'Busca la llave con su linterna' },
+      { russian: 'Он находит его в маленьком ящике', spanish: 'Lo encuentra en una pequeña caja' },
+      { russian: 'Он берет ключ и убегает', spanish: 'Coge la llave y sale corriendo' },
+      { russian: 'На следующий день он в доме у бабушки', spanish: 'Al día siguiente está en casa de su abuela' },
+      { russian: 'Вдруг дверь открывается', spanish: 'De repente, la puerta se abre' },
+      { russian: 'Входит незнакомец', spanish: 'Entra un desconocido' },
+      { russian: 'У него пистолет в руке', spanish: 'Tiene una pistola en la mano' },
+      { russian: 'Отдай мне ключ', spanish: 'Dame la llave' },
+      { russian: 'Я могу убить тебя', spanish: 'Puedo matarte' }
+    ]
+  },
+
+  'ex-9-1-a2-trans-c4': {
+    id: 'ex-9-1-a2-trans-c4',
+    type: 'translation',
+    title: 'Перевод - Capítulo 4',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 4)',
+    backgroundColor: '#FCE4EC',
+    questions: [
+      { russian: 'Я хочу работать с вами над надписью', spanish: 'Quiero trabajar con usted en la inscripción' },
+      { russian: 'Я даю вам ключ', spanish: 'Yo le doy la llave' },
+      { russian: 'Мы оба работаем над ней', spanish: 'Los dos trabajamos en ella' },
+      { russian: 'Для меня лучше работать одному', spanish: 'Para mí es mejor trabajar solo' },
+      { russian: 'Они сидят за столом, полным книг', spanish: 'Están sentados delante de una mesa llena de libros' },
+      { russian: 'Они почти не разговаривают', spanish: 'Casi no hablan' },
+      { russian: 'Они так уже несколько часов', spanish: 'Llevan horas así' },
+      { russian: 'Они забыли поесть', spanish: 'Se han olvidado de comer' },
+      { russian: 'У меня есть! У меня получилось!', spanish: '¡Lo tengo!' },
+      { russian: 'Я знаю тайну ключа', spanish: 'Conozco el misterio de la llave' },
+      { russian: 'Прочитай надпись', spanish: 'Lee la inscripción' },
+      { russian: 'Там находится сокровище', spanish: 'Allí está el tesoro' },
+      { russian: 'Это не будет легко', spanish: 'No va a ser fácil' },
+      { russian: 'У дома много комнат', spanish: 'La casa tiene muchas habitaciones' },
+      { russian: 'Сегодня вечером у нас много работы', spanish: 'Esta noche tenemos mucho trabajo' }
+    ]
+  },
+
+  'ex-9-1-a2-trans-c5': {
+    id: 'ex-9-1-a2-trans-c5',
+    type: 'translation',
+    title: 'Перевод - Capítulo 5',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 5)',
+    backgroundColor: '#F3E5F5',
+    questions: [
+      { russian: 'Дом находится за городом', spanish: 'La casa está fuera de la ciudad' },
+      { russian: 'Они приходят к двери', spanish: 'Llegan a la puerta' },
+      { russian: 'Они идут из одной комнаты в другую', spanish: 'Van de una habitación a otra' },
+      { russian: 'После трех часов они устали', spanish: 'Después de tres horas, están cansados' },
+      { russian: 'Они садятся на пол маленькой комнаты', spanish: 'Se sientan en el suelo de una habitación pequeña' },
+      { russian: 'Смотри! Что это?', spanish: '¡Mira! ¿Qué es eso?' },
+      { russian: 'Там на полу очень маленький рисунок', spanish: 'Allí en el suelo hay un dibujo muy pequeño' },
+      { russian: 'Это похоже на море', spanish: 'Parece un mar' },
+      { russian: 'Они начинают копать в полу', spanish: 'Empiezan a excavar en el piso' },
+      { russian: 'Это похоже на ящик', spanish: 'Parece una caja' },
+      { russian: 'Это золотой ящик', spanish: 'Es de oro' },
+      { russian: 'Внутри золотые монеты', spanish: 'Dentro hay monedas de oro' },
+      { russian: 'Мы его нашли!', spanish: '¡Lo encontramos!' },
+      { russian: 'Кто говорил? Кто там?', spanish: '¿Quién ha hablado? ¿Quién está allí?' },
+      { russian: 'Полицейский берет его за руку', spanish: 'Un policía lo coge del brazo' }
+    ]
+  },
+
+  // Grammar exercises B1 - По капитулам
+  'ex-9-1-b1-gram-c1': {
+    id: 'ex-9-1-b1-gram-c1',
+    type: 'grammar',
+    title: 'Грамматика - Capítulo 1',
+    description: 'Выберите правильный вариант (на основе Capítulo 1)',
+    backgroundColor: '#E3F2FD',
+    questions: [
+      {
+        sentence: 'Cándido ___ los periódicos sobre la cama',
+        options: ['deja', 'dejan', 'dejó', 'dejaba'],
+        correct: 0,
+        explanation: 'Используется presente для описания действия'
+      },
+      {
+        sentence: 'No sabe quién le ___ ese paquete',
+        options: ['envía', 'ha enviado', 'envió', 'enviaba'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto - действие в недавнем прошлом с результатом в настоящем'
+      },
+      {
+        sentence: 'Él ___ un arqueólogo muy bueno',
+        options: ['es', 'está', 'ser', 'siendo'],
+        correct: 0,
+        explanation: 'Ser для постоянных характеристик'
+      },
+      {
+        sentence: 'No trabaja en una excavación ___ hace muchos años',
+        options: ['por', 'para', 'desde', 'hace'],
+        correct: 2,
+        explanation: 'Desde hace + tiempo para выражения длительности'
+      },
+      {
+        sentence: 'Los obreros ___ una sinagoga en el viejo Palacio',
+        options: ['encuentran', 'han encontrado', 'encontraron', 'encontraban'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto - недавнее открытие'
+      },
+      {
+        sentence: 'Nadie ___ entender las inscripciones',
+        options: ['puede', 'ha podido', 'pudo', 'podía'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto - до настоящего момента никто не смог'
+      },
+      {
+        sentence: '___ arqueólogo no hay nada tan importante',
+        options: ['Por un', 'Para un', 'A un', 'De un'],
+        correct: 1,
+        explanation: 'Para выражает точку зрения, перспективу'
+      },
+      {
+        sentence: 'Está seguro ___ poder hacerlo',
+        options: ['de', 'en', 'a', 'con'],
+        correct: 0,
+        explanation: 'Estar seguro de + infinitivo'
+      },
+      {
+        sentence: 'Alguien le ___ ese paquete',
+        options: ['envía', 'ha enviado', 'envió', 'enviaba'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto - действие с результатом в настоящем'
+      },
+      {
+        sentence: 'Cándido ___ muy nervioso',
+        options: ['es', 'está', 'ser', 'siendo'],
+        correct: 1,
+        explanation: 'Estar для временного состояния'
+      },
+      {
+        sentence: 'En Córdoba siempre ___ mucho calor en verano',
+        options: ['hace', 'hay', 'está', 'es'],
+        correct: 0,
+        explanation: 'Hacer для погоды (hace calor)'
+      },
+      {
+        sentence: 'Yo ___ ir a Toledo',
+        options: ['debo', 'tengo', 'necesito', 'puedo'],
+        correct: 0,
+        explanation: 'Deber выражает обязанность, долг'
+      },
+      {
+        sentence: '___ ser peligroso volver allí',
+        options: ['Puede', 'Podría', 'Puedo', 'Pudiera'],
+        correct: 0,
+        explanation: 'Puede ser - может быть'
+      },
+      {
+        sentence: 'Cándido empieza ___ entender',
+        options: ['de', 'a', 'en', 'por'],
+        correct: 1,
+        explanation: 'Empezar a + infinitivo'
+      },
+      {
+        sentence: 'Son las nueve y el sol se pierde ___ los campos',
+        options: ['detrás de', 'detrás', 'tras de', 'atrás'],
+        correct: 0,
+        explanation: 'Detrás de - за (чем-то)'
+      }
+    ]
+  },
+
+  'ex-9-1-b1-gram-c2': {
+    id: 'ex-9-1-b1-gram-c2',
+    type: 'grammar',
+    title: 'Грамматика - Capítulo 2',
+    description: 'Выберите правильный вариант (на основе Capítulo 2)',
     backgroundColor: '#E8F5E9',
     questions: [
-      { russian: 'В моей комнате есть окно', spanish: 'En mi habitación hay una ventana' },
-      { russian: 'Я иду в магазин', spanish: 'Voy a la tienda' },
-      { russian: 'Ты знаешь, где библиотека?', spanish: '¿Sabes dónde está la biblioteca?' },
-      { russian: 'Мы ужинаем в восемь вечера', spanish: 'Cenamos a las ocho de la noche' },
-      { russian: 'Я хочу выучить французский', spanish: 'Quiero aprender francés' },
-      { russian: 'Сколько это стоит?', spanish: '¿Cuánto cuesta esto?' },
-      { russian: 'Он говорит по-английски', spanish: 'Él habla inglés' },
-      { russian: 'Мой день рождения в июне', spanish: 'Mi cumpleaños es en junio' },
-      { russian: 'Я плохо себя чувствую', spanish: 'Me siento mal' },
-      { russian: 'Можно мне стакан воды?', spanish: '¿Me puede dar un vaso de agua?' },
-      { russian: 'Мы приехали два дня назад', spanish: 'Llegamos hace dos días' },
-      { russian: 'Где находится ближайшая аптека?', spanish: '¿Dónde está la farmacia más cercana?' },
-      { russian: 'Я жду автобус', spanish: 'Estoy esperando el autobús' },
-      { russian: 'Ты свободен сегодня вечером?', spanish: '¿Estás libre esta noche?' },
-      { russian: 'Мне нужна помощь', spanish: 'Necesito ayuda' }
-    ]
-  },
-
-  'ex-9-1-a2-translation-3': {
-    id: 'ex-9-1-a2-translation-3',
-    type: 'translation',
-    title: 'Перевод A2 - Блок 3',
-    description: 'Переведите предложения с русского на испанский',
-    backgroundColor: '#E8F5E9',
-    questions: [
-      { russian: 'Погода сегодня отличная', spanish: 'El tiempo está estupendo hoy' },
-      { russian: 'Я предпочитаю чай кофе', spanish: 'Prefiero el té al café' },
-      { russian: 'Она очень красивая девушка', spanish: 'Ella es una chica muy guapa' },
-      { russian: 'Я не понимаю этот вопрос', spanish: 'No entiendo esta pregunta' },
-      { russian: 'Мы должны уйти сейчас', spanish: 'Tenemos que irnos ahora' },
-      { russian: 'Он работает каждый день', spanish: 'Él trabaja todos los días' },
-      { russian: 'Я родился в России', spanish: 'Nací en Rusia' },
-      { russian: 'Ты можешь мне помочь?', spanish: '¿Puedes ayudarme?' },
-      { russian: 'Мне холодно', spanish: 'Tengo frío' },
-      { russian: 'Он готовит очень вкусно', spanish: 'Él cocina muy rico' },
-      { russian: 'Я изучаю медицину', spanish: 'Estudio medicina' },
-      { russian: 'У нее голубые глаза', spanish: 'Ella tiene los ojos azules' },
-      { russian: 'Я живу один', spanish: 'Vivo solo' },
-      { russian: 'Мы встретились в парке', spanish: 'Nos encontramos en el parque' },
-      { russian: 'Это очень интересно', spanish: 'Es muy interesante' }
-    ]
-  },
-
-  // Grammar exercises B1
-  'ex-9-1-b1-grammar-1': {
-    id: 'ex-9-1-b1-grammar-1',
-    type: 'grammar',
-    title: 'Грамматика B1 - Pretérito Perfecto',
-    description: 'Выберите правильную форму глагола в Pretérito Perfecto',
-    backgroundColor: '#FFF3E0',
-    questions: [
       {
-        sentence: 'Yo ___ tres veces a España',
-        options: ['he ido', 'ha ido', 'hemos ido', 'han ido'],
-        correct: 0
+        sentence: 'Don Cosme ___ una pequeña tienda',
+        options: ['tiene', 'hay', 'está', 'es'],
+        correct: 0,
+        explanation: 'Tener для выражения владения'
       },
       {
-        sentence: 'Ellos nunca ___ paella',
-        options: ['he comido', 'has comido', 'ha comido', 'han comido'],
-        correct: 3
+        sentence: 'A ella le ___ llegar a la tienda temprano',
+        options: ['gusta', 'gustan', 'gustas', 'gusto'],
+        correct: 0,
+        explanation: 'Gustar + infinitivo (единственное число)'
       },
       {
-        sentence: '¿Tú ___ la nueva película de Almodóvar?',
-        options: ['he visto', 'has visto', 'ha visto', 'hemos visto'],
-        correct: 1
+        sentence: 'Conoce a ese hombre ___ hace más de cincuenta años',
+        options: ['por', 'para', 'desde', 'hace'],
+        correct: 2,
+        explanation: 'Desde hace + tiempo'
       },
       {
-        sentence: 'Nosotros ___ mucho este año',
-        options: ['he estudiado', 'has estudiado', 'ha estudiado', 'hemos estudiado'],
-        correct: 3
+        sentence: 'Todos los días ___ allí a comprar pan',
+        options: ['va', 'vaya', 'fue', 'iba'],
+        correct: 0,
+        explanation: 'Presente для привычных действий'
       },
       {
-        sentence: 'María ___ su tesis esta semana',
-        options: ['he terminado', 'has terminado', 'ha terminado', 'han terminado'],
-        correct: 2
+        sentence: '___ muy buenos amigos',
+        options: ['Son', 'Están', 'Ser', 'Siendo'],
+        correct: 0,
+        explanation: 'Ser для постоянных характеристик'
       },
       {
-        sentence: '¿Vosotros ___ alguna vez flamenco?',
-        options: ['habéis bailado', 'hemos bailado', 'han bailado', 'ha bailado'],
-        correct: 0
+        sentence: 'A él le ___ mucho escribir',
+        options: ['gusta', 'gustan', 'gustas', 'gusto'],
+        correct: 0,
+        explanation: 'Gustar + infinitivo'
       },
       {
-        sentence: 'Yo todavía no ___ ese libro',
-        options: ['he leído', 'has leído', 'ha leído', 'han leído'],
-        correct: 0
+        sentence: 'El tren de Madrid ___ en Toledo',
+        options: ['entra', 'entre', 'entró', 'entraba'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: 'Mis padres ___ una casa nueva',
-        options: ['he comprado', 'has comprado', 'ha comprado', 'han comprado'],
-        correct: 3
+        sentence: 'Se prepara ___ salir',
+        options: ['por', 'para', 'a', 'de'],
+        correct: 1,
+        explanation: 'Prepararse para + infinitivo'
       },
       {
-        sentence: 'Este mes ___ mucho calor',
-        options: ['he hecho', 'has hecho', 'ha hecho', 'hemos hecho'],
-        correct: 2
+        sentence: 'Le gusta ___ a las personas',
+        options: ['mirar', 'mirando', 'mira', 'mire'],
+        correct: 0,
+        explanation: 'Gustar + infinitivo'
       },
       {
-        sentence: '¿Tú ___ tus deberes hoy?',
-        options: ['he hecho', 'has hecho', 'ha hecho', 'han hecho'],
-        correct: 1
+        sentence: 'Ese niño siempre ___ muy listo',
+        options: ['es', 'ha sido', 'fue', 'era'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto con "siempre" - experiencia'
       },
       {
-        sentence: 'Nosotros ___ en este restaurante antes',
-        options: ['he estado', 'has estado', 'ha estado', 'hemos estado'],
-        correct: 3
+        sentence: 'Los obreros la ___ hace poco',
+        options: ['descubren', 'han descubierto', 'descubrieron', 'descubrían'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto - hace poco (недавнее прошлое)'
       },
       {
-        sentence: 'Ellas ___ al museo esta mañana',
-        options: ['he ido', 'has ido', 'ha ido', 'han ido'],
-        correct: 3
+        sentence: 'Antonio ___ hoy a casa',
+        options: ['viene', 'venga', 'vino', 'venía'],
+        correct: 0,
+        explanation: 'Presente para будущих запланированных действий'
       },
       {
-        sentence: '¿Vosotros ___ las llaves?',
-        options: ['habéis perdido', 'hemos perdido', 'han perdido', 'ha perdido'],
-        correct: 0
+        sentence: '¿Qué ___ esta mañana?',
+        options: ['quiere', 'quieres', 'quiera', 'querría'],
+        correct: 0,
+        explanation: 'Presente - вежливый вопрос в магазине'
       },
       {
-        sentence: 'Yo ___ dos cafés esta mañana',
-        options: ['he tomado', 'has tomado', 'ha tomado', 'han tomado'],
-        correct: 0
+        sentence: 'Muchas personas ___ para comprar',
+        options: ['esperan', 'esperen', 'esperaron', 'esperaban'],
+        correct: 0,
+        explanation: 'Presente - текущее действие'
       },
       {
-        sentence: 'El profesor ___ la lección muy bien',
-        options: ['he explicado', 'has explicado', 'ha explicado', 'hemos explicado'],
-        correct: 2
+        sentence: '___ mucho tiempo que no viene por aquí',
+        options: ['Hace', 'Hay', 'Es', 'Está'],
+        correct: 0,
+        explanation: 'Hace + tiempo + que - выражение длительности'
       }
     ]
   },
 
-  'ex-9-1-b1-grammar-2': {
-    id: 'ex-9-1-b1-grammar-2',
+  'ex-9-1-b1-gram-c3': {
+    id: 'ex-9-1-b1-gram-c3',
     type: 'grammar',
-    title: 'Грамматика B1 - Pretérito Indefinido',
-    description: 'Выберите правильную форму глагола в Pretérito Indefinido',
-    backgroundColor: '#FFF3E0',
+    title: 'Грамматика - Capítulo 3',
+    description: 'Выберите правильный вариант (на основе Capítulo 3)',
+    backgroundColor: '#FFF9C4',
     questions: [
       {
-        sentence: 'Ayer yo ___ al cine',
-        options: ['fui', 'fue', 'fuiste', 'fueron'],
-        correct: 0
+        sentence: 'Antonio ___ ver la llave',
+        options: ['quiere', 'quiera', 'quiso', 'quería'],
+        correct: 0,
+        explanation: 'Presente - текущее желание'
       },
       {
-        sentence: 'Ellos ___ la casa el año pasado',
-        options: ['compré', 'compraste', 'compró', 'compraron'],
-        correct: 3
+        sentence: '___ hasta las cuatro de la mañana',
+        options: ['Espera', 'Espere', 'Esperó', 'Esperaba'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: '¿Tú ___ con ella anoche?',
-        options: ['hablé', 'hablaste', 'habló', 'hablaron'],
-        correct: 1
+        sentence: 'Todos ___ a esta hora',
+        options: ['duermen', 'duerman', 'durmieron', 'dormían'],
+        correct: 0,
+        explanation: 'Presente - общее утверждение'
       },
       {
-        sentence: 'Nosotros ___ en 1995',
-        options: ['nací', 'naciste', 'nació', 'nacimos'],
-        correct: 3
+        sentence: 'Antonio ___ en la sinagoga',
+        options: ['entra', 'entre', 'entró', 'entraba'],
+        correct: 0,
+        explanation: 'Presente narrativo для живого повествования'
       },
       {
-        sentence: 'Mi hermano ___ a Madrid en 2010',
-        options: ['me mudé', 'te mudaste', 'se mudó', 'nos mudamos'],
-        correct: 2
+        sentence: '___ la llave con su linterna',
+        options: ['Busca', 'Busque', 'Buscó', 'Buscaba'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: 'Vosotros ___ la película ayer',
-        options: ['visteis', 'vimos', 'vieron', 'vio'],
-        correct: 0
+        sentence: 'La ___ en una pequeña caja',
+        options: ['encuentra', 'encontró', 'ha encontrado', 'encontraba'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: 'Yo ___ todo el día',
-        options: ['trabajé', 'trabajaste', 'trabajó', 'trabajaron'],
-        correct: 0
+        sentence: '___ la llave y sale corriendo',
+        options: ['Coge', 'Coja', 'Cogió', 'Cogía'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: 'Ellas ___ a las ocho',
-        options: ['llegué', 'llegaste', 'llegó', 'llegaron'],
-        correct: 3
+        sentence: 'Al día siguiente ___ en casa de su abuela',
+        options: ['está', 'estuvo', 'ha estado', 'estaba'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: '¿Qué ___ tú el domingo pasado?',
-        options: ['hice', 'hiciste', 'hizo', 'hicieron'],
-        correct: 1
+        sentence: 'De repente, la puerta ___',
+        options: ['se abre', 'se abrió', 'se ha abierto', 'se abría'],
+        correct: 0,
+        explanation: 'Verbo reflexivo en presente narrativo'
       },
       {
-        sentence: 'Nosotros no ___ nada ayer',
-        options: ['comí', 'comiste', 'comió', 'comimos'],
-        correct: 3
+        sentence: '___ un desconocido',
+        options: ['Entra', 'Entre', 'Entró', 'Entraba'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: 'Carlos ___ un email importante',
-        options: ['escribí', 'escribiste', 'escribió', 'escribieron'],
-        correct: 2
+        sentence: 'Tiene una pistola ___ la mano',
+        options: ['en', 'a', 'con', 'por'],
+        correct: 0,
+        explanation: 'En la mano - в руке'
       },
       {
-        sentence: '¿Vosotros ___ el tren?',
-        options: ['perdisteis', 'perdimos', 'perdieron', 'perdió'],
-        correct: 0
+        sentence: '___ la llave',
+        options: ['Dame', 'Dime', 'Dáme', 'Da me'],
+        correct: 0,
+        explanation: 'Imperativo + местоимение дополнения'
       },
       {
-        sentence: 'Yo ___ en ese hotel',
-        options: ['dormí', 'dormiste', 'durmió', 'durmieron'],
-        correct: 0
+        sentence: 'Yo ___ matarte',
+        options: ['puedo', 'puede', 'podría', 'pudiera'],
+        correct: 0,
+        explanation: 'Poder в presente - угроза'
       },
       {
-        sentence: 'Tú ___ muy tarde anoche',
-        options: ['volví', 'volviste', 'volvió', 'volvieron'],
-        correct: 1
+        sentence: 'Antonio no ___ hablar',
+        options: ['puede', 'pueda', 'pudo', 'podía'],
+        correct: 0,
+        explanation: 'Presente - не может говорить'
       },
       {
-        sentence: 'Mis abuelos ___ en 1950',
-        options: ['me casé', 'te casaste', 'se casó', 'se casaron'],
-        correct: 3
+        sentence: 'Cándido empieza ___',
+        options: ['a reírse', 'reírse', 'de reírse', 'en reírse'],
+        correct: 0,
+        explanation: 'Empezar a + infinitivo reflexivo'
       }
     ]
   },
 
-  'ex-9-1-b1-grammar-3': {
-    id: 'ex-9-1-b1-grammar-3',
+  'ex-9-1-b1-gram-c4': {
+    id: 'ex-9-1-b1-gram-c4',
     type: 'grammar',
-    title: 'Грамматика B1 - Pretérito Imperfecto',
-    description: 'Выберите правильную форму глагола в Pretérito Imperfecto',
-    backgroundColor: '#FFF3E0',
+    title: 'Грамматика - Capítulo 4',
+    description: 'Выберите правильный вариант (на основе Capítulo 4)',
+    backgroundColor: '#FCE4EC',
     questions: [
       {
-        sentence: 'Cuando yo ___ niño, jugaba mucho',
-        options: ['era', 'eras', 'éramos', 'eran'],
-        correct: 0
+        sentence: 'Quiero trabajar con usted ___ la inscripción',
+        options: ['en', 'a', 'con', 'por'],
+        correct: 0,
+        explanation: 'Trabajar en - работать над'
       },
       {
-        sentence: 'Ellos ___ todos los días',
-        options: ['estudiaba', 'estudiabas', 'estudiaba', 'estudiaban'],
-        correct: 3
+        sentence: 'Los dos ___ en ella',
+        options: ['trabajamos', 'trabajáis', 'trabajan', 'trabajando'],
+        correct: 0,
+        explanation: 'Presente - предложение'
       },
       {
-        sentence: 'Tú siempre ___ a tu abuela',
-        options: ['visitaba', 'visitabas', 'visitábamos', 'visitaban'],
-        correct: 1
+        sentence: '___ mejor trabajar solo',
+        options: ['Es', 'Está', 'Ser', 'Siendo'],
+        correct: 0,
+        explanation: 'Es + adjetivo + infinitivo'
       },
       {
-        sentence: 'Nosotros ___ en ese restaurante a menudo',
-        options: ['comía', 'comías', 'comíamos', 'comían'],
-        correct: 2
+        sentence: 'Están ___ delante de una mesa',
+        options: ['sentados', 'sentando', 'sentándose', 'sentarse'],
+        correct: 0,
+        explanation: 'Estar + participio - результативное состояние'
       },
       {
-        sentence: 'Mi padre ___ ingeniero',
-        options: ['era', 'eras', 'éramos', 'eran'],
-        correct: 0
+        sentence: '___ casi no hablan',
+        options: ['Llevan', 'Tienen', 'Están', 'Son'],
+        correct: 0,
+        explanation: 'Llevar + gerundio (подразумевается)'
       },
       {
-        sentence: 'Vosotros ___ mucho de jóvenes',
-        options: ['viajabais', 'viajábamos', 'viajaban', 'viajaba'],
-        correct: 0
+        sentence: 'Llevan horas ___',
+        options: ['así', 'entonces', 'ahora', 'aquí'],
+        correct: 0,
+        explanation: 'Llevar + tiempo + así'
       },
       {
-        sentence: 'Yo ___ la televisión cada noche',
-        options: ['veía', 'veías', 'veíamos', 'veían'],
-        correct: 0
+        sentence: 'Se ___ de comer',
+        options: ['han olvidado', 'han olvido', 'olvidaron', 'olvidaban'],
+        correct: 0,
+        explanation: 'Pretérito Perfecto del verbo reflexivo'
       },
       {
-        sentence: 'Ellas ___ español en la universidad',
-        options: ['enseñaba', 'enseñabas', 'enseñaba', 'enseñaban'],
-        correct: 3
+        sentence: 'Cándido está ___ las últimas palabras',
+        options: ['con', 'en', 'a', 'por'],
+        correct: 1,
+        explanation: 'Estar en - находиться на (этапе)'
       },
       {
-        sentence: '¿Qué ___ tú antes de mudarte?',
-        options: ['hacía', 'hacías', 'hacíamos', 'hacían'],
-        correct: 1
+        sentence: '¡___ tengo!',
+        options: ['Lo', 'La', 'Le', 'Les'],
+        correct: 0,
+        explanation: 'Pronombre de objeto directo - lo (eso/это)'
       },
       {
-        sentence: 'Nosotros ___ al parque los domingos',
-        options: ['iba', 'ibas', 'íbamos', 'iban'],
-        correct: 2
+        sentence: 'Conozco el misterio ___ la llave',
+        options: ['de', 'a', 'en', 'con'],
+        correct: 0,
+        explanation: 'De для выражения принадлежности'
       },
       {
-        sentence: 'La casa ___ muy grande',
-        options: ['era', 'eras', 'éramos', 'eran'],
-        correct: 0
+        sentence: '¿Qué ___ decir?',
+        options: ['quiere', 'quier', 'quiera', 'querría'],
+        correct: 0,
+        explanation: 'Presente - что означает'
       },
       {
-        sentence: 'Vosotros ___ en Barcelona',
-        options: ['vivíais', 'vivíamos', 'vivían', 'vivía'],
-        correct: 0
+        sentence: 'No ___ fácil encontrar el tesoro',
+        options: ['va a ser', 'es', 'será', 'sería'],
+        correct: 0,
+        explanation: 'Ir a + infinitivo - ближайшее будущее'
       },
       {
-        sentence: 'Yo no ___ nada de español',
-        options: ['sabía', 'sabías', 'sabíamos', 'sabían'],
-        correct: 0
+        sentence: 'La casa ___ muchas habitaciones',
+        options: ['tiene', 'hay', 'está', 'es'],
+        correct: 0,
+        explanation: 'Tener для владения/наличия'
       },
       {
-        sentence: 'Tú ___ muy feliz entonces',
-        options: ['era', 'eras', 'éramos', 'eran'],
-        correct: 1
+        sentence: 'Esta noche ___ mucho trabajo',
+        options: ['tenemos', 'tenéis', 'tienen', 'teniendo'],
+        correct: 0,
+        explanation: 'Tener trabajo - иметь работу'
       },
       {
-        sentence: 'Mis hermanos ___ fútbol cada tarde',
-        options: ['jugaba', 'jugabas', 'jugábamos', 'jugaban'],
-        correct: 3
+        sentence: 'Debemos ___ allí',
+        options: ['ir', 'yendo', 'vamos', 'vayamos'],
+        correct: 0,
+        explanation: 'Deber + infinitivo'
       }
     ]
   },
 
-  'ex-9-1-b1-grammar-4': {
-    id: 'ex-9-1-b1-grammar-4',
+  'ex-9-1-b1-gram-c5': {
+    id: 'ex-9-1-b1-gram-c5',
     type: 'grammar',
-    title: 'Грамматика B1 - Presente de Subjuntivo',
-    description: 'Выберите правильную форму глагола в Presente de Subjuntivo',
-    backgroundColor: '#FFF3E0',
+    title: 'Грамматика - Capítulo 5',
+    description: 'Выберите правильный вариант (на основе Capítulo 5)',
+    backgroundColor: '#F3E5F5',
     questions: [
       {
-        sentence: 'Espero que tú ___ bien',
-        options: ['estás', 'estés', 'esté', 'estén'],
-        correct: 1
+        sentence: 'La casa ___ fuera de la ciudad',
+        options: ['está', 'es', 'hay', 'tiene'],
+        correct: 0,
+        explanation: 'Estar для местоположения'
       },
       {
-        sentence: 'Es importante que nosotros ___ temprano',
-        options: ['llegamos', 'lleguemos', 'lleguen', 'llegue'],
-        correct: 1
+        sentence: '___ a la puerta',
+        options: ['Llegan', 'Lleguen', 'Llegaron', 'Llegaban'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       },
       {
-        sentence: 'Quiero que ellos ___ la verdad',
-        options: ['saben', 'sepan', 'sepa', 'sepamos'],
-        correct: 1
+        sentence: 'Van ___ una habitación a otra',
+        options: ['de', 'desde', 'por', 'a'],
+        correct: 0,
+        explanation: 'De... a... - от... к...'
       },
       {
-        sentence: 'Dudo que María ___ a la fiesta',
-        options: ['viene', 'venga', 'vengas', 'vengamos'],
-        correct: 1
+        sentence: 'Después de tres horas, ___ cansados',
+        options: ['están', 'son', 'hay', 'tienen'],
+        correct: 0,
+        explanation: 'Estar + adjetivo для временного состояния'
       },
       {
-        sentence: 'No creo que ___ mañana',
-        options: ['llueve', 'llueva', 'lluevas', 'lluevan'],
-        correct: 1
+        sentence: 'Se ___ en el suelo',
+        options: ['sientan', 'sienten', 'sentaron', 'sentaban'],
+        correct: 0,
+        explanation: 'Sentarse - садиться (presente)'
       },
       {
-        sentence: 'Es necesario que vosotros ___ más',
-        options: ['estudiáis', 'estudiéis', 'estudien', 'estudie'],
-        correct: 1
+        sentence: '¡Mira! ¿Qué ___ eso?',
+        options: ['es', 'está', 'hay', 'tiene'],
+        correct: 0,
+        explanation: 'Ser для определения, идентификации'
       },
       {
-        sentence: 'Ojalá que yo ___ el examen',
-        options: ['apruebo', 'apruebe', 'apruebes', 'aprueben'],
-        correct: 1
+        sentence: 'Allí ___ un dibujo muy pequeño',
+        options: ['hay', 'es', 'está', 'tiene'],
+        correct: 0,
+        explanation: 'Hay для существования'
       },
       {
-        sentence: 'Me alegro de que tú ___ aquí',
-        options: ['estás', 'estés', 'esté', 'estén'],
-        correct: 1
+        sentence: '___ un mar',
+        options: ['Parece', 'Parezca', 'Pareció', 'Parecía'],
+        correct: 0,
+        explanation: 'Parecer в presente'
       },
       {
-        sentence: 'Es probable que ellos ___ tarde',
-        options: ['llegan', 'lleguen', 'llegue', 'lleguemos'],
-        correct: 1
+        sentence: '___ a excavar en el piso',
+        options: ['Empiezan', 'Empiecen', 'Empezaron', 'Empezaban'],
+        correct: 0,
+        explanation: 'Empezar a + infinitivo (presente narrativo)'
       },
       {
-        sentence: 'Prefiero que nosotros ___ en casa',
-        options: ['comemos', 'comamos', 'coman', 'coma'],
-        correct: 1
+        sentence: '___ de oro',
+        options: ['Es', 'Está', 'Hay', 'Tiene'],
+        correct: 0,
+        explanation: 'Ser de - быть из (материал)'
       },
       {
-        sentence: 'No pienso que ___ fácil',
-        options: ['es', 'sea', 'seas', 'sean'],
-        correct: 1
+        sentence: 'Dentro ___ monedas de oro',
+        options: ['hay', 'es', 'está', 'tiene'],
+        correct: 0,
+        explanation: 'Hay для существования'
       },
       {
-        sentence: 'Espero que vosotros ___ bien',
-        options: ['dormís', 'durmáis', 'duerman', 'duerma'],
-        correct: 1
+        sentence: '¡___ encontramos!',
+        options: ['Lo', 'La', 'Le', 'Les'],
+        correct: 0,
+        explanation: 'Pronombre de objeto directo - lo (tesoro)'
       },
       {
-        sentence: 'Es posible que yo ___ mañana',
-        options: ['voy', 'vaya', 'vayas', 'vayan'],
-        correct: 1
+        sentence: '¿Quién ___ hablado?',
+        options: ['ha', 'has', 'he', 'han'],
+        correct: 0,
+        explanation: 'Pretérito Perfecto - кто говорил?'
       },
       {
-        sentence: 'Quiero que tú me ___ la verdad',
-        options: ['dices', 'digas', 'diga', 'digan'],
-        correct: 1
+        sentence: '¿Quién ___ allí?',
+        options: ['está', 'es', 'hay', 'tiene'],
+        correct: 0,
+        explanation: 'Estar для местоположения'
       },
       {
-        sentence: 'Es mejor que ellos ___ ahora',
-        options: ['salen', 'salgan', 'salga', 'salgamos'],
-        correct: 1
+        sentence: 'Un policía lo ___ del brazo',
+        options: ['coge', 'coja', 'cogió', 'cogía'],
+        correct: 0,
+        explanation: 'Presente narrativo'
       }
     ]
   },
-
-  'ex-9-1-b1-grammar-5': {
-    id: 'ex-9-1-b1-grammar-5',
-    type: 'grammar',
-    title: 'Грамматика B1 - Imperativo Afirmativo',
-    description: 'Выберите правильную форму утвердительного повелительного наклонения',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: '¡___ (tú) tus deberes!',
-        options: ['Haces', 'Haz', 'Hace', 'Hacer'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (vosotros) la verdad!',
-        options: ['Decís', 'Decid', 'Diga', 'Decir'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (usted) aquí, por favor!',
-        options: ['Viene', 'Ven', 'Venga', 'Venir'],
-        correct: 2
-      },
-      {
-        sentence: '¡___ (tú) más despacio!',
-        options: ['Hablas', 'Habla', 'Hable', 'Hablar'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (vosotros) las ventanas!',
-        options: ['Abrís', 'Abrid', 'Abran', 'Abrir'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (ustedes) atención!',
-        options: ['Ponen', 'Poned', 'Pongan', 'Poner'],
-        correct: 2
-      },
-      {
-        sentence: '¡___ (tú) aquí!',
-        options: ['Vienes', 'Ven', 'Venga', 'Venir'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (vosotros) buenos!',
-        options: ['Sois', 'Sed', 'Sean', 'Ser'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (usted) paciencia!',
-        options: ['Tiene', 'Ten', 'Tenga', 'Tener'],
-        correct: 2
-      },
-      {
-        sentence: '¡___ (tú) a la derecha!',
-        options: ['Giras', 'Gira', 'Gire', 'Girar'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (vosotros) el libro!',
-        options: ['Leéis', 'Leed', 'Lean', 'Leer'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (ustedes) silencio!',
-        options: ['Guardan', 'Guardad', 'Guarden', 'Guardar'],
-        correct: 2
-      },
-      {
-        sentence: '¡___ (tú) cuidado!',
-        options: ['Tienes', 'Ten', 'Tenga', 'Tener'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (vosotros) temprano!',
-        options: ['Salís', 'Salid', 'Salgan', 'Salir'],
-        correct: 1
-      },
-      {
-        sentence: '¡___ (usted) la puerta!',
-        options: ['Cierra', 'Cierre', 'Cerrad', 'Cerrar'],
-        correct: 1
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-6': {
-    id: 'ex-9-1-b1-grammar-6',
-    type: 'grammar',
-    title: 'Грамматика B1 - Imperativo Negativo',
-    description: 'Выберите правильную форму отрицательного повелительного наклонения',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: '¡No ___ (tú) tanto!',
-        options: ['comes', 'comas', 'coma', 'comer'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (vosotros) aquí!',
-        options: ['fumáis', 'fuméis', 'fumen', 'fumar'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (usted) tarde!',
-        options: ['llega', 'llegues', 'llegue', 'llegar'],
-        correct: 2
-      },
-      {
-        sentence: '¡No ___ (tú) eso!',
-        options: ['haces', 'hagas', 'haga', 'hacer'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (vosotros) la puerta!',
-        options: ['cerráis', 'cerréis', 'cierren', 'cerrar'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (ustedes) ruido!',
-        options: ['hacen', 'hagáis', 'hagan', 'hacer'],
-        correct: 2
-      },
-      {
-        sentence: '¡No ___ (tú) miedo!',
-        options: ['tienes', 'tengas', 'tenga', 'tener'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (vosotros) nerviosos!',
-        options: ['estáis', 'estéis', 'estén', 'estar'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (usted) eso!',
-        options: ['dice', 'digas', 'diga', 'decir'],
-        correct: 2
-      },
-      {
-        sentence: '¡No ___ (tú) tan rápido!',
-        options: ['conduces', 'conduzcas', 'conduzca', 'conducir'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (vosotros) ahora!',
-        options: ['salís', 'salgáis', 'salgan', 'salir'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (ustedes) impacientes!',
-        options: ['son', 'seáis', 'sean', 'ser'],
-        correct: 2
-      },
-      {
-        sentence: '¡No ___ (tú) a nadie!',
-        options: ['molestas', 'molestes', 'moleste', 'molestar'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (vosotros) tonterías!',
-        options: ['decís', 'digáis', 'digan', 'decir'],
-        correct: 1
-      },
-      {
-        sentence: '¡No ___ (usted) preocupado!',
-        options: ['está', 'estés', 'esté', 'estar'],
-        correct: 2
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-7': {
-    id: 'ex-9-1-b1-grammar-7',
-    type: 'grammar',
-    title: 'Грамматика B1 - Pronombres',
-    description: 'Выберите правильное местоимение',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: 'Cándido ___ pregunta si el paquete es importante',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 1
-      },
-      {
-        sentence: 'El comisario ___ explicó todo a Cándido',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido quiere abrir el paquete pero no ___ abre',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 2
-      },
-      {
-        sentence: 'Los periódicos ___ envió alguien misterioso',
-        options: ['le', 'se', 'los', 'las'],
-        correct: 2
-      },
-      {
-        sentence: 'A Cándido ___ gusta investigar',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 0
-      },
-      {
-        sentence: 'El tesoro ___ encontró Villena en Toledo',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 2
-      },
-      {
-        sentence: 'Cándido ___ siente nervioso',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena ___ dijo la verdad a Cándido',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 0
-      },
-      {
-        sentence: 'La música ___ escucha desde la calle',
-        options: ['le', 'se', 'la', 'lo'],
-        correct: 1
-      },
-      {
-        sentence: 'El libro ___ leyó Cándido anoche',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 2
-      },
-      {
-        sentence: 'Las cartas ___ recibió Cándido eran misteriosas',
-        options: ['le', 'se', 'los', 'las'],
-        correct: 3
-      },
-      {
-        sentence: 'A ellos ___ interesa el caso',
-        options: ['les', 'se', 'los', 'las'],
-        correct: 0
-      },
-      {
-        sentence: 'La sinagoga ___ descubrió el comisario',
-        options: ['le', 'se', 'la', 'lo'],
-        correct: 2
-      },
-      {
-        sentence: 'Cándido ___ acuerda del periódico',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 1
-      },
-      {
-        sentence: 'El misterio ___ resolvió al final',
-        options: ['le', 'se', 'lo', 'la'],
-        correct: 1
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-8': {
-    id: 'ex-9-1-b1-grammar-8',
-    type: 'grammar',
-    title: 'Грамматика B1 - Oraciones de relativo',
-    description: 'Выберите правильное относительное местоимение',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: 'El paquete ___ recibió Cándido era misterioso',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 0
-      },
-      {
-        sentence: 'Toledo es la ciudad ___ encontraron el tesoro',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 2
-      },
-      {
-        sentence: 'El comisario ___ investigó el caso se llama Villena',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 0
-      },
-      {
-        sentence: 'La sinagoga en ___ estaba el tesoro era muy antigua',
-        options: ['que', 'la que', 'quien', 'cuando'],
-        correct: 1
-      },
-      {
-        sentence: 'Los periódicos ___ leyó Cándido eran del año pasado',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 0
-      },
-      {
-        sentence: 'El momento ___ todo cambió fue muy importante',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 3
-      },
-      {
-        sentence: 'La persona ___ envió los periódicos sigue siendo un misterio',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 0
-      },
-      {
-        sentence: 'Madrid es la ciudad ___ vive Villena',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 2
-      },
-      {
-        sentence: 'El día ___ encontraron el tesoro fue memorable',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 3
-      },
-      {
-        sentence: 'La mesa sobre ___ estaban las cartas es de madera',
-        options: ['que', 'la que', 'quien', 'cuando'],
-        correct: 1
-      },
-      {
-        sentence: 'Las pistas ___ siguió Cándido eran confusas',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 0
-      },
-      {
-        sentence: 'El año ___ pasó todo esto fue inolvidable',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 3
-      },
-      {
-        sentence: 'La razón por ___ Cándido investigaba no estaba clara',
-        options: ['que', 'la que', 'quien', 'cuando'],
-        correct: 1
-      },
-      {
-        sentence: 'El lugar en ___ se encontraron era secreto',
-        options: ['que', 'el que', 'quien', 'cuando'],
-        correct: 1
-      },
-      {
-        sentence: 'Todo lo ___ descubrieron era sorprendente',
-        options: ['que', 'quien', 'donde', 'cuando'],
-        correct: 0
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-9': {
-    id: 'ex-9-1-b1-grammar-9',
-    type: 'grammar',
-    title: 'Грамматика B1 - Perífrasis verbales',
-    description: 'Выберите правильную глагольную перифразу',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: 'Cándido ___ leer el periódico cuando sonó el teléfono',
-        options: ['estuvo a punto de', 'estaba a punto de', 'está a punto de', 'estará a punto de'],
-        correct: 1
-      },
-      {
-        sentence: 'El comisario ___ investigar el caso desde hace meses',
-        options: ['lleva', 'llevar', 'llevó', 'llevaba'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido ___ resolver el misterio pronto',
-        options: ['va a', 'ir a', 'fue a', 'iba a'],
-        correct: 0
-      },
-      {
-        sentence: 'Villena ___ descubrir algo importante',
-        options: ['acabo de', 'acabó de', 'acaba de', 'acababa de'],
-        correct: 2
-      },
-      {
-        sentence: 'Ellos ___ trabajar en el caso toda la noche',
-        options: ['siguieron', 'seguir', 'siguen', 'sigue'],
-        correct: 0
-      },
-      {
-        sentence: 'El tesoro ___ encontrarse en cualquier momento',
-        options: ['puede', 'poder', 'pudo', 'podía'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido ___ entender las pistas cuando llegó Villena',
-        options: ['empezó a', 'empezar a', 'empieza a', 'empezará a'],
-        correct: 0
-      },
-      {
-        sentence: 'La investigación ___ complicarse cada vez más',
-        options: ['volvió a', 'volver a', 'vuelve a', 'volverá a'],
-        correct: 2
-      },
-      {
-        sentence: 'Villena ___ buscar el tesoro durante años',
-        options: ['dejó de', 'dejar de', 'deja de', 'dejaba de'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido ___ recibir paquetes misteriosos',
-        options: ['volvió a', 'volver a', 'vuelve a', 'volverá a'],
-        correct: 0
-      },
-      {
-        sentence: 'El comisario ___ explicar todo al final',
-        options: ['terminó de', 'terminar de', 'termina de', 'terminaba de'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido ___ trabajar en el artículo ahora',
-        options: ['poner a', 'se pone a', 'se puso a', 'se ponía a'],
-        correct: 1
-      },
-      {
-        sentence: 'La historia ___ tener sentido poco a poco',
-        options: ['echó a', 'echar a', 'echa a', 'empieza a'],
-        correct: 3
-      },
-      {
-        sentence: 'Villena ___ dormir después de resolver el caso',
-        options: ['ir a', 'va a', 'fue a', 'iba a'],
-        correct: 1
-      },
-      {
-        sentence: 'Todos ___ celebrar el éxito al final',
-        options: ['romper a', 'rompieron a', 'rompen a', 'rompían a'],
-        correct: 1
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-10': {
-    id: 'ex-9-1-b1-grammar-10',
-    type: 'grammar',
-    title: 'Грамматика B1 - Estilo indirecto',
-    description: 'Преобразуйте прямую речь в косвенную',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: 'Villena: "He descubierto el tesoro" → Villena dijo que ___',
-        options: ['ha descubierto el tesoro', 'había descubierto el tesoro', 'descubrió el tesoro', 'descubriría el tesoro'],
-        correct: 1
-      },
-      {
-        sentence: 'Cándido: "Estoy nervioso" → Cándido dijo que ___',
-        options: ['está nervioso', 'estaba nervioso', 'estuvo nervioso', 'estaría nervioso'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena: "Iré a Madrid mañana" → Villena dijo que ___',
-        options: ['irá a Madrid', 'fue a Madrid', 'iría a Madrid', 'va a Madrid'],
-        correct: 2
-      },
-      {
-        sentence: 'Cándido: "¿Quién envió los periódicos?" → Cándido preguntó ___',
-        options: ['quién envió los periódicos', 'quién había enviado los periódicos', 'quién enviará los periódicos', 'quién enviaría los periódicos'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena: "No puedo explicarlo ahora" → Villena dijo que ___',
-        options: ['no puede explicarlo', 'no podía explicarlo', 'no pudo explicarlo', 'no podrá explicarlo'],
-        correct: 1
-      },
-      {
-        sentence: 'Cándido: "Recibí un paquete extraño" → Cándido dijo que ___',
-        options: ['recibió un paquete extraño', 'recibía un paquete extraño', 'había recibido un paquete extraño', 'recibiría un paquete extraño'],
-        correct: 2
-      },
-      {
-        sentence: 'Villena: "El tesoro está en Toledo" → Villena dijo que ___',
-        options: ['el tesoro está en Toledo', 'el tesoro estaba en Toledo', 'el tesoro estuvo en Toledo', 'el tesoro estaría en Toledo'],
-        correct: 1
-      },
-      {
-        sentence: 'Cándido: "Voy a investigar" → Cándido dijo que ___',
-        options: ['va a investigar', 'fue a investigar', 'iba a investigar', 'irá a investigar'],
-        correct: 2
-      },
-      {
-        sentence: 'Villena: "He trabajado mucho" → Villena dijo que ___',
-        options: ['ha trabajado mucho', 'había trabajado mucho', 'trabajó mucho', 'trabajaría mucho'],
-        correct: 1
-      },
-      {
-        sentence: 'Cándido: "¿Dónde encontraste esto?" → Cándido preguntó ___',
-        options: ['dónde encontró esto', 'dónde encuentra esto', 'dónde había encontrado esto', 'dónde encontraría esto'],
-        correct: 2
-      },
-      {
-        sentence: 'Villena: "Puedes confiar en mí" → Villena dijo que ___',
-        options: ['puedes confiar en él', 'podías confiar en él', 'puede confiar en él', 'podía confiar en él'],
-        correct: 3
-      },
-      {
-        sentence: 'Cándido: "Ayer leí el periódico" → Cándido dijo que ___',
-        options: ['ayer leyó el periódico', 'el día anterior leyó el periódico', 'el día anterior había leído el periódico', 'ayer había leído el periódico'],
-        correct: 2
-      },
-      {
-        sentence: 'Villena: "Mañana resolveremos el caso" → Villena dijo que ___',
-        options: ['mañana resolverán el caso', 'al día siguiente resolverían el caso', 'al día siguiente resolverán el caso', 'mañana resolverían el caso'],
-        correct: 1
-      },
-      {
-        sentence: 'Cándido: "No entiendo nada" → Cándido dijo que ___',
-        options: ['no entiende nada', 'no entendía nada', 'no entendió nada', 'no entendería nada'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena: "Ya sé quién es el culpable" → Villena dijo que ___',
-        options: ['ya sabe quién es el culpable', 'ya sabía quién era el culpable', 'ya supo quién fue el culpable', 'ya sabría quién sería el culpable'],
-        correct: 1
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-11': {
-    id: 'ex-9-1-b1-grammar-11',
-    type: 'grammar',
-    title: 'Грамматика B1 - Preposiciones',
-    description: 'Выберите правильный предлог',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: 'Cándido piensa ___ el misterio todo el tiempo',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 0
-      },
-      {
-        sentence: 'El comisario llegó ___ Madrid ayer',
-        options: ['en', 'a', 'de', 'por'],
-        correct: 1
-      },
-      {
-        sentence: 'El tesoro está ___ la sinagoga',
-        options: ['en', 'a', 'de', 'por'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido se enamoró ___ el misterio',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena trabaja ___ comisario',
-        options: ['en', 'de', 'a', 'como'],
-        correct: 3
-      },
-      {
-        sentence: 'El paquete es ___ Cándido',
-        options: ['en', 'de', 'a', 'para'],
-        correct: 3
-      },
-      {
-        sentence: 'Cándido confía ___ Villena',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 0
-      },
-      {
-        sentence: 'El periódico es ___ Toledo',
-        options: ['en', 'de', 'a', 'por'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena sueña ___ resolver el caso',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 3
-      },
-      {
-        sentence: 'Cándido se dedica ___ investigar',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 2
-      },
-      {
-        sentence: 'El comisario viaja ___ tren',
-        options: ['en', 'de', 'a', 'por'],
-        correct: 0
-      },
-      {
-        sentence: 'Cándido se alegra ___ las noticias',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 1
-      },
-      {
-        sentence: 'Villena insiste ___ continuar',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 0
-      },
-      {
-        sentence: 'El tesoro pertenece ___ España',
-        options: ['en', 'de', 'a', 'con'],
-        correct: 2
-      },
-      {
-        sentence: 'Cándido se preocupa ___ el resultado',
-        options: ['en', 'de', 'a', 'por'],
-        correct: 3
-      }
-    ]
-  },
-
-  'ex-9-1-b1-grammar-12': {
-    id: 'ex-9-1-b1-grammar-12',
-    type: 'grammar',
-    title: 'Грамматика B1 - Conectores',
-    description: 'Выберите правильный соединительный элемент',
-    backgroundColor: '#FFF3E0',
-    questions: [
-      {
-        sentence: 'Cándido estaba nervioso, ___ abrió el paquete',
-        options: ['sin embargo', 'por eso', 'aunque', 'porque'],
-        correct: 1
-      },
-      {
-        sentence: '___ el misterio era difícil, Villena no se rindió',
-        options: ['Aunque', 'Por eso', 'Sin embargo', 'Porque'],
-        correct: 0
-      },
-      {
-        sentence: 'Encontraron el tesoro. ___, todos estaban felices',
-        options: ['Aunque', 'Por eso', 'Sin embargo', 'Porque'],
-        correct: 1
-      },
-      {
-        sentence: 'El caso era complejo. ___, lograron resolverlo',
-        options: ['Aunque', 'Por eso', 'Sin embargo', 'Porque'],
-        correct: 2
-      },
-      {
-        sentence: 'Cándido investigaba ___ quería saber la verdad',
-        options: ['aunque', 'por eso', 'sin embargo', 'porque'],
-        correct: 3
-      },
-      {
-        sentence: '___ todo, el misterio se resolvió',
-        options: ['A pesar de', 'Por', 'Sin', 'Con'],
-        correct: 0
-      },
-      {
-        sentence: 'Villena era inteligente, ___ resolvió el caso rápido',
-        options: ['aunque', 'por tanto', 'sin embargo', 'porque'],
-        correct: 1
-      },
-      {
-        sentence: '___ que llegó a Madrid, Villena empezó a trabajar',
-        options: ['Aunque', 'En cuanto', 'Sin embargo', 'Por eso'],
-        correct: 1
-      },
-      {
-        sentence: 'El tesoro estaba escondido, ___ lo encontraron',
-        options: ['aunque', 'por eso', 'no obstante', 'porque'],
-        correct: 2
-      },
-      {
-        sentence: '___ Cándido era periodista, ___ investigaba mucho',
-        options: ['Como / por eso', 'Aunque / sin embargo', 'Porque / aunque', 'Si / entonces'],
-        correct: 0
-      },
-      {
-        sentence: 'Villena tenía experiencia. ___, el caso era difícil',
-        options: ['Por eso', 'Aunque', 'No obstante', 'Porque'],
-        correct: 2
-      },
-      {
-        sentence: '___ que lo intentes, no es fácil',
-        options: ['Aunque', 'Por más', 'Sin embargo', 'Por eso'],
-        correct: 1
-      },
-      {
-        sentence: 'Encontraron pistas, ___ siguieron investigando',
-        options: ['aunque', 'por eso', 'sin embargo', 'porque'],
-        correct: 1
-      },
-      {
-        sentence: '___ las dificultades, continuaron',
-        options: ['A pesar de', 'Por', 'Sin', 'Con'],
-        correct: 0
-      },
-      {
-        sentence: 'El caso se cerró, ___ surgieron nuevas preguntas',
-        options: ['aunque', 'por eso', 'pero', 'porque'],
-        correct: 2
-      }
-    ]
-  },
-
   // Урок 9.2 - Испанские традиции
   'ex-9-2-1': {
     id: 'ex-9-2-1',
