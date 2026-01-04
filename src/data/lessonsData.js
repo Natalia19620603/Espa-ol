@@ -10047,11 +10047,19 @@ Entonces, ¿a qué llegamos con todo esto? ¿Qué nos dice esta increíble histo
     exercises: [
       {
         tab: 'Nivel A2',
-        exerciseIds: ['ex-9-2-a2-bloque-1', 'ex-9-2-a2-bloque-2', 'ex-9-2-a2-bloque-3']
+        subtabs: [
+          { name: 'Блок 1: Словарь', exercises: ['ex-9-2-a2-1-1', 'ex-9-2-a2-1-2', 'ex-9-2-a2-1-3'] },
+          { name: 'Блок 2: Чтение', exercises: ['ex-9-2-a2-2-1', 'ex-9-2-a2-2-2', 'ex-9-2-a2-2-3'] },
+          { name: 'Блок 3: Грамматика', exercises: ['ex-9-2-a2-3-1', 'ex-9-2-a2-3-2', 'ex-9-2-a2-3-3'] }
+        ]
       },
       {
         tab: 'В1',
-        exerciseIds: ['ex-9-2-b1-bloque-1', 'ex-9-2-b1-bloque-2', 'ex-9-2-b1-bloque-3']
+        subtabs: [
+          { name: 'Блок 1: Словарь', exercises: ['ex-9-2-b1-1-1', 'ex-9-2-b1-1-2', 'ex-9-2-b1-1-3'] },
+          { name: 'Блок 2: Чтение', exercises: ['ex-9-2-b1-2-1', 'ex-9-2-b1-2-2', 'ex-9-2-b1-2-3'] },
+          { name: 'Блок 3: Письмо', exercises: ['ex-9-2-b1-3-1', 'ex-9-2-b1-3-2', 'ex-9-2-b1-3-3'] }
+        ]
       }
     ]
   },
@@ -16898,8 +16906,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
 
   // Упражнения для Урок 9.2 - El origen de Navidad
-  'ex-9-2-a2-bloque-1': {
-    id: 'ex-9-2-a2-bloque-1',
+  'ex-9-2-a2-1-1': {
+    id: 'ex-9-2-a2-1-1',
     type: 'vocabulary',
     title: 'A2 - Блок 1: Словарь',
     description: 'Выберите правильный перевод слова',
@@ -16921,8 +16929,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'el eco', options: ['тишина', 'шум', 'эхо', 'музыка'], correct: 2 }
     ]
   },
-  'ex-9-2-a2-bloque-2': {
-    id: 'ex-9-2-a2-bloque-2',
+  'ex-9-2-a2-2-1': {
+    id: 'ex-9-2-a2-2-1',
     type: 'reading',
     title: 'A2 - Блок 2: Понимание текста',
     description: 'Ответьте на вопросы по тексту',
@@ -16944,8 +16952,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: 'Según el texto, ¿de qué son resultado nuestras celebraciones?', options: ['De invenciones modernas', 'De siglos de fusión y adaptación', 'Solo de tradiciones cristianas', 'Solo de tradiciones paganas'], correct: 1 }
     ]
   },
-  'ex-9-2-a2-bloque-3': {
-    id: 'ex-9-2-a2-bloque-3',
+  'ex-9-2-a2-3-1': {
+    id: 'ex-9-2-a2-3-1',
     type: 'grammar',
     title: 'A2 - Блок 3: Грамматика',
     description: 'Выберите правильную форму глагола',
@@ -16967,8 +16975,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Nuestras celebraciones no ___ inventadas de la nada', options: ['eran', 'fueron', 'son', 'serán'], correct: 1 }
     ]
   },
-  'ex-9-2-b1-bloque-1': {
-    id: 'ex-9-2-b1-bloque-1',
+  'ex-9-2-b1-1-1': {
+    id: 'ex-9-2-b1-1-1',
     type: 'vocabulary',
     title: 'В1 - Блок 1: Расширенный словарь',
     description: 'Выберите правильный перевод сложных выражений',
@@ -16990,8 +16998,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'interpretar', options: ['игнорировать', 'забывать', 'интерпретировать', 'отвергать'], correct: 2 }
     ]
   },
-  'ex-9-2-b1-bloque-2': {
-    id: 'ex-9-2-b1-bloque-2',
+  'ex-9-2-b1-2-1': {
+    id: 'ex-9-2-b1-2-1',
     type: 'reading',
     title: 'В1 - Блок 2: Глубокое понимание текста',
     description: 'Ответьте на аналитические вопросы по тексту',
@@ -17013,8 +17021,8 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: '¿Qué pregunta final plantea el texto?', options: ['¿Cuándo celebrar?', '¿Qué otros ecos del pasado resuenan en nuestras tradiciones?', '¿Dónde celebrar?', '¿Quién inventó la Navidad?'], correct: 1 }
     ]
   },
-  'ex-9-2-b1-bloque-3': {
-    id: 'ex-9-2-b1-bloque-3',
+  'ex-9-2-b1-3-1': {
+    id: 'ex-9-2-b1-3-1',
     type: 'writing',
     title: 'В1 - Блок 3: Перевод с русского',
     description: 'Переведите сложные фразы на испанский',
