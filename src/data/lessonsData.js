@@ -27452,5 +27452,301 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Рана сама по себе исцеляется.', correct: 'La herida por sí sola sana.' },
       { russian: 'Мы способны создавать эмоциональные связи.', correct: 'Somos capaces de generar vínculos emocionales.' }
     ]
+  },
+
+  // Урок 9.7 - Mariposas exercises
+  'ex-9-7-mariposas-vocab': {
+    id: 'ex-9-7-mariposas-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Mariposas',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'la oruga', options: ['бабочка', 'гусеница', 'муха', 'пчела'], correct: 1 },
+      { spanish: 'la mariposa', options: ['муха', 'комар', 'бабочка', 'стрекоза'], correct: 2 },
+      { spanish: 'la metamorfosis', options: ['рождение', 'смерть', 'метаморфоза', 'сон'], correct: 2 },
+      { spanish: 'la crisálida', options: ['яйцо', 'гусеница', 'куколка', 'цветок'], correct: 2 },
+      { spanish: 'el capullo', options: ['кокон', 'гнездо', 'паутина', 'лист'], correct: 0 },
+      { spanish: 'transformarse', options: ['умирать', 'спать', 'превращаться', 'летать'], correct: 2 },
+      { spanish: 'desarrollarse', options: ['разрушаться', 'развиваться', 'исчезать', 'появляться'], correct: 1 },
+      { spanish: 'las alas', options: ['ноги', 'крылья', 'усики', 'глаза'], correct: 1 },
+      { spanish: 'el proceso', options: ['результат', 'начало', 'процесс', 'конец'], correct: 2 },
+      { spanish: 'la naturaleza', options: ['город', 'дом', 'природа', 'лес'], correct: 2 }
+    ]
+  },
+
+  'ex-9-7-mariposas-comprehension': {
+    id: 'ex-9-7-mariposas-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: La metamorfosis de las mariposas',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Cómo se llama el proceso de transformación de la oruga?',
+        options: ['Evolución', 'Metamorfosis', 'Desarrollo', 'Crecimiento'],
+        correct: 1
+      },
+      {
+        question: '¿Qué hace la oruga antes de formar su crisálida?',
+        options: ['Vuela', 'Se alimenta intensamente', 'Duerme', 'Canta'],
+        correct: 1
+      },
+      {
+        question: '¿Dónde forma la oruga su capullo?',
+        options: ['En el agua', 'En el aire', 'En un lugar seguro', 'En cualquier sitio'],
+        correct: 2
+      },
+      {
+        question: '¿Qué pasa con el cuerpo de la oruga dentro del capullo?',
+        options: ['Crece más grande', 'Se descompone y se reorganiza', 'No cambia', 'Se divide en dos'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo se llaman las células especiales que crean la mariposa?',
+        options: ['Células imaginales', 'Células madre', 'Células voladoras', 'Células mágicas'],
+        correct: 0
+      },
+      {
+        question: '¿Qué crean las células imaginales?',
+        options: ['Solo las alas', 'Las alas, antenas y todas las estructuras', 'Solo el color', 'Solo los ojos'],
+        correct: 1
+      },
+      {
+        question: '¿Cuánto tiempo tarda el proceso dentro del capullo?',
+        options: ['Días', 'Semanas', 'Meses', 'Años'],
+        correct: 1
+      },
+      {
+        question: '¿Qué debe hacer la mariposa después de salir del capullo?',
+        options: ['Comer inmediatamente', 'Esperar a que sus alas se sequen', 'Volar de inmediato', 'Dormir'],
+        correct: 1
+      },
+      {
+        question: 'Según el texto, ¿qué representa la metamorfosis?',
+        options: ['Un cambio pequeño', 'Un cambio completo', 'Una enfermedad', 'Un error'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo describe el texto la transformación?',
+        options: ['Normal', 'Aburrida', 'Asombrosa', 'Rápida'],
+        correct: 2
+      }
+    ]
+  },
+
+  'ex-9-7-mariposas-grammar': {
+    id: 'ex-9-7-mariposas-grammar',
+    type: 'grammar',
+    title: 'Грамматика: La metamorfosis de las mariposas',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'La transformación ___ uno de los procesos más fascinantes.',
+        options: ['es', 'está', 'sea', 'esté'],
+        correct: 0,
+        explanation: 'Используется ser для определения характеристики'
+      },
+      {
+        sentence: 'El proceso ___ cuando la oruga encuentra un lugar seguro.',
+        options: ['comienza', 'comenzaba', 'comenzó', 'comenzará'],
+        correct: 0,
+        explanation: 'Presente для описания общего процесса'
+      },
+      {
+        sentence: 'Después de ___ intensamente, la oruga forma su capullo.',
+        options: ['alimenta', 'alimentar', 'alimentarse', 'alimentándose'],
+        correct: 2,
+        explanation: 'Инфинитив возвратного глагола после предлога de'
+      },
+      {
+        sentence: 'Dentro del capullo ___ una transformación asombrosa.',
+        options: ['ocurre', 'ocurren', 'ocurra', 'ocurran'],
+        correct: 0,
+        explanation: 'Presente indicativo, единственное число (una transformación)'
+      },
+      {
+        sentence: 'El cuerpo se ___ casi por completo.',
+        options: ['descompone', 'descomponen', 'descomponga', 'descompongan'],
+        correct: 0,
+        explanation: 'Presente возвратного глагола в 3-м лице единственного числа'
+      },
+      {
+        sentence: 'Las células ___ para crear las alas.',
+        options: ['trabaja', 'trabajan', 'trabaje', 'trabajen'],
+        correct: 1,
+        explanation: 'Presente indicativo множественного числа (las células)'
+      },
+      {
+        sentence: 'Cuando finalmente ___ del capullo, la mariposa espera.',
+        options: ['emerge', 'emergen', 'emerja', 'emerjan'],
+        correct: 0,
+        explanation: 'Presente indicativo (cuando + presente)'
+      },
+      {
+        sentence: 'La mariposa debe ___ a que sus alas se sequen.',
+        options: ['espera', 'esperando', 'esperar', 'esperó'],
+        correct: 2,
+        explanation: 'Инфинитив после deber'
+      },
+      {
+        sentence: 'Antes de poder ___ por primera vez, las alas deben secarse.',
+        options: ['vuela', 'volar', 'volando', 'voló'],
+        correct: 1,
+        explanation: 'Инфинитив после poder'
+      },
+      {
+        sentence: 'Este fenómeno ___ como metamorfosis.',
+        options: ['conoce', 'se conoce', 'conoces', 'conocen'],
+        correct: 1,
+        explanation: 'Возвратная форма для пассивного значения'
+      }
+    ]
+  },
+
+  // Урок 9.7 - Pez RAPE exercises
+  'ex-9-7-rape-vocab': {
+    id: 'ex-9-7-rape-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Pez RAPE',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'el rape', options: ['акула', 'дельфин', 'морской черт', 'кит'], correct: 2 },
+      { spanish: 'el pez', options: ['птица', 'рыба', 'змея', 'краб'], correct: 1 },
+      { spanish: 'la profundidad', options: ['поверхность', 'берег', 'глубина', 'волна'], correct: 2 },
+      { spanish: 'el océano', options: ['река', 'озеро', 'океан', 'ручей'], correct: 2 },
+      { spanish: 'marino', options: ['горный', 'лесной', 'морской', 'пустынный'], correct: 2 },
+      { spanish: 'el depredador', options: ['жертва', 'друг', 'хищник', 'товарищ'], correct: 2 },
+      { spanish: 'la criatura', options: ['растение', 'камень', 'существо', 'воздух'], correct: 2 },
+      { spanish: 'extraño', options: ['обычный', 'нормальный', 'странный', 'красивый'], correct: 2 },
+      { spanish: 'la luz', options: ['темнота', 'тень', 'свет', 'ночь'], correct: 2 },
+      { spanish: 'brillar', options: ['гаснуть', 'темнеть', 'блестеть', 'исчезать'], correct: 2 }
+    ]
+  },
+
+  'ex-9-7-rape-comprehension': {
+    id: 'ex-9-7-rape-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: El pez rape',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Dónde vive el pez rape?',
+        options: ['En la superficie', 'En las profundidades marinas', 'En ríos', 'En lagos'],
+        correct: 1
+      },
+      {
+        question: '¿Llega la luz del sol a donde vive el pez rape?',
+        options: ['Sí, siempre', 'A veces', 'Nunca', 'Solo en verano'],
+        correct: 2
+      },
+      {
+        question: '¿Qué ha desarrollado el pez rape para sobrevivir?',
+        options: ['Características normales', 'Características únicas', 'Nada especial', 'Patas'],
+        correct: 1
+      },
+      {
+        question: '¿Qué es lo más notable del pez rape?',
+        options: ['Su tamaño', 'Su color', 'Su linterna biológica', 'Sus dientes'],
+        correct: 2
+      },
+      {
+        question: '¿De dónde sale la luz del pez rape?',
+        options: ['De su cola', 'De una extensión en su cabeza', 'De sus ojos', 'De sus aletas'],
+        correct: 1
+      },
+      {
+        question: '¿Para qué usa el pez rape su luz?',
+        options: ['Para ver', 'Para atraer presas', 'Para jugar', 'Para nadar'],
+        correct: 1
+      },
+      {
+        question: '¿Qué piensan los peces pequeños cuando ven la luz?',
+        options: ['Que es peligro', 'Que han encontrado comida', 'Que deben huir', 'Que es de día'],
+        correct: 1
+      },
+      {
+        question: '¿Cómo es el pez rape como cazador?',
+        options: ['Rápido', 'Impaciente', 'Paciente', 'Nervioso'],
+        correct: 2
+      },
+      {
+        question: '¿Dónde espera el pez rape a sus presas?',
+        options: ['Nadando activamente', 'En la superficie', 'Inmóvil en el fondo', 'Flotando'],
+        correct: 2
+      },
+      {
+        question: '¿Qué pasa cuando una presa se acerca demasiado?',
+        options: ['El rape huye', 'El rape la atrapa rápidamente', 'No pasa nada', 'El rape se esconde'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-7-rape-grammar': {
+    id: 'ex-9-7-rape-grammar',
+    type: 'grammar',
+    title: 'Грамматика: El pez rape',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'El pez rape ___ una de las criaturas más extrañas.',
+        options: ['es', 'está', 'sea', 'esté'],
+        correct: 0,
+        explanation: 'Используется ser для определения характеристики'
+      },
+      {
+        sentence: 'Él ___ en las profundidades marinas.',
+        options: ['vive', 'viva', 'vivía', 'vivirá'],
+        correct: 0,
+        explanation: 'Presente indicativo для постоянного факта'
+      },
+      {
+        sentence: 'La luz del sol nunca ___ allí.',
+        options: ['llega', 'llegue', 'llegaba', 'llegará'],
+        correct: 0,
+        explanation: 'Presente indicativo с наречием nunca'
+      },
+      {
+        sentence: 'Para ___ en este ambiente, ha desarrollado características únicas.',
+        options: ['sobrevive', 'sobrevivir', 'sobreviviendo', 'sobrevivió'],
+        correct: 1,
+        explanation: 'Инфинитив после предлога para'
+      },
+      {
+        sentence: 'El pez rape ___ características únicas.',
+        options: ['ha desarrollado', 'desarrolla', 'desarrolló', 'desarrollará'],
+        correct: 0,
+        explanation: 'Pretérito perfecto для результата в настоящем'
+      },
+      {
+        sentence: 'Una extensión que ___ de su cabeza brilla.',
+        options: ['sobresale', 'sobresalen', 'sobresalga', 'sobresalgan'],
+        correct: 0,
+        explanation: 'Presente indicativo в относительном предложении (una extensión)'
+      },
+      {
+        sentence: 'Esta luz ___ a otros peces.',
+        options: ['atrae', 'atraen', 'atraiga', 'atraigan'],
+        correct: 0,
+        explanation: 'Presente indicativo единственного числа (esta luz)'
+      },
+      {
+        sentence: 'Los peces se acercan ___ que han encontrado comida.',
+        options: ['pienso', 'pensando', 'pensar', 'pensado'],
+        correct: 1,
+        explanation: 'Герундий для одновременного действия'
+      },
+      {
+        sentence: 'El rape ___ inmóvil esperando.',
+        options: ['permanece', 'permanecen', 'permanezca', 'permanezcan'],
+        correct: 0,
+        explanation: 'Presente indicativo (el rape - единственное число)'
+      },
+      {
+        sentence: 'Cuando un pez ___ demasiado, el rape lo atrapa.',
+        options: ['acerca', 'se acerca', 'acerque', 'se acerque'],
+        correct: 1,
+        explanation: 'Возвратный глагол в presente после cuando'
+      }
+    ]
   }
 }
