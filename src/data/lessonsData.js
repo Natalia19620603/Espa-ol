@@ -12426,16 +12426,39 @@ Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunió
       {
         tab: 'Pez RAPE',
         words: [
-          { word: 'el rape', translation: 'морской черт (рыба)' },
-          { word: 'el pez', translation: 'рыба' },
-          { word: 'la profundidad', translation: 'глубина' },
-          { word: 'el océano', translation: 'океан' },
-          { word: 'marino', translation: 'морской' },
-          { word: 'el depredador', translation: 'хищник' },
-          { word: 'la criatura', translation: 'существо, создание' },
-          { word: 'extraño', translation: 'странный' },
-          { word: 'la luz', translation: 'свет' },
-          { word: 'brillar', translation: 'блестеть, сиять' }
+          { word: 'la oscuridad', translation: 'темнота' },
+          { word: 'la sentencia', translation: 'приговор, решение' },
+          { word: 'a 3000 m de profundidad', translation: 'на глубине 3000 м' },
+          { word: 'la presión', translation: 'давление, напор' },
+          { word: 'de acero', translation: 'из стали' },
+          { word: 'arrugado', translation: 'мятый' },
+          { word: 'la existencia', translation: 'существование, наличие' },
+          { word: 'el vacío', translation: 'пустота, вакуум' },
+          { word: 'eterno', translation: 'вечный, бесконечный' },
+          { word: 'denso', translation: 'густой, плотный' },
+          { word: 'sólido', translation: 'твердый, основательный' },
+          { word: 'vagar', translation: 'бродить, скитаться' },
+          { word: 'la entidad', translation: 'организация, учреждение' },
+          { word: 'el abismo', translation: 'пропасть, бездна' },
+          { word: 'la fusión', translation: 'слияние, объединение' },
+          { word: 'el leviatán', translation: 'левиафан, чудо-юдо' },
+          { word: 'la ofrenda', translation: 'приношение, подношение' },
+          { word: 'hostil', translation: 'враждебный, недружелюбный' },
+          { word: 'el estómago', translation: 'желудок, живот' },
+          { word: 'digerir', translation: 'переваривать еду' },
+          { word: 'las herramientas', translation: 'инструменты, средства' },
+          { word: 'la urgencia', translation: 'скорая помощь' },
+          { word: 'la bomba de relojería', translation: 'бомба с часовым механизмом' },
+          { word: 'la disolución', translation: 'растворение' },
+          { word: 'el rastro', translation: 'след, отпечаток' },
+          { word: 'el cortejo', translation: 'ухаживание' },
+          { word: 'el ancla', translation: 'якорь' },
+          { word: 'el ser', translation: 'существо, создание' },
+          { word: 'fundirse', translation: 'сливаться' },
+          { word: 'la soldadura', translation: 'сварка' },
+          { word: 'las aletas', translation: 'ласты, плавники' },
+          { word: 'el sistema circulatorio', translation: 'система кровообращения' },
+          { word: 'compartir', translation: 'разделять' }
         ]
       }
     ],
@@ -12456,17 +12479,15 @@ Durante semanas, células especiales llamadas células imaginales trabajan para 
       },
       {
         tab: 'Pez RAPE',
-        title: 'El pez rape: un cazador de las profundidades',
-        content: `El pez rape es una de las criaturas más extrañas del océano. Vive en las profundidades marinas, donde la luz del sol nunca llega. Para sobrevivir en este ambiente oscuro, ha desarrollado características únicas.
+        title: 'El pez rape: amor en el abismo',
+        content: `En el cero absoluto de la oscuridad, la soledad no es un estado emocional, es una sentencia matemática. Estamos a 3.000 metros de profundidad, donde la presión es capaz de convertir un submarino de acero en una lata de refresco arrugada. Aquí, en la zona de medianoche, la existencia es un vacío eterno, una negrura tan densa que se siente sólida contra la piel. Y en este desierto de agua helada vagan dos entidades destinadas a protagonizar la historia de amor más terrorífica y absoluta de la naturaleza. Olvida todo lo que sabes sobre el romance humano. Olvida las cenas, las promesas vacías y la distancia entre dos cuerpos. Lo que ocurre en el abismo no es una relación, es una fusión nuclear biológica. La hembra del pez rape es un leviatán, una reina de pesadilla coronada con una estrella de luz bioluminiscente. Flota como un planeta solitario, una deidad ciega esperando una ofrenda. Y la ofrenda existe, es el macho. Pero él no es un igual, es una fracción minúscula de su tamaño, un peregrino diminuto en un universo hostil. Nace sin estómago para digerir, sin herramientas para cazar. Ha nacido con una única misión grabada en su código genético con la urgencia de una bomba de relojería: encontrarla a ella o dejar de existir.
 
-Lo más notable del pez rape es su "linterna" biológica: una extensión luminosa que sobresale de su cabeza y brilla en la oscuridad. Esta luz atrae a otros peces curiosos, que se acercan pensando que han encontrado comida, pero en realidad se están acercando al depredador.
+Él no busca alimento, él busca su propia disolución. Guiado por un rastro químico, un perfume fantasma en la inmensidad del océano, la localiza. Y entonces comienza el ritual. No hay cortejo, no hay danza. Él se acerca y la muerde. Pero esto no es un ataque, es un anclaje. Es el inicio de una alquimia prohibida en la superficie. En el momento en que su boca toca la piel de la matriarca, ocurre el milagro grotesco. Una enzima comienza a disolver la barrera entre los dos seres. La boca de él se funde con la piel de ella. No es una metáfora, es una soldadura de carne viva. Lo que sigue es el sacrificio definitivo. Poco a poco los órganos del macho comienzan a fallar, no por enfermedad, sino por diseño. Sus ojos se atrofian y desaparecen. Ya no necesita ver porque ella es su visión. Sus aletas se disuelven. Ya no necesita nadar porque ella es su motor. Su intestino se desintegra. Finalmente, sus sistemas circulatorios se conectan. La sangre de ella comienza a fluir por las venas de él, dos corazones latiendo con el mismo fluido vital. El límite entre el yo y el nosotros se borra para siempre. Él deja de ser un individuo. Se convierte en una extensión de ella, un apéndice vivo, respirando a través de los pulmones de su amada, alimentándose de los nutrientes de su torrente sanguíneo. Ha entregado su identidad, su forma, su libertad y su rostro a cambio de la eternidad genética. Se ha convertido literalmente en parte de su cuerpo.
 
-El pez rape es un cazador paciente. Permanece inmóvil en el fondo del océano, esperando que sus presas se acerquen lo suficiente. Cuando un pez pequeño se acerca demasiado, el rape abre su enorme boca y lo atrapa en una fracción de segundo.`,
-        translation: `Морской черт - это одно из самых странных существ океана. Он живет в морских глубинах, куда никогда не доходит солнечный свет. Чтобы выжить в этой темной среде, он развил уникальные характеристики.
+Nosotros en nuestra arrogancia hablamos de buscar a nuestra media naranja, de querer ser uno con la persona amada. Son solo palabras bonitas, poesía barata. El pez rape nos enseña la verdad brutal de ese deseo. Porque en la oscuridad del abismo el amor no es compañía, es integración total. Es la voluntad de desaparecer para que la vida continúe. Ella lleva ahora la carga de dos vidas. Él se ha convertido en el recurso esencial, el guardián silencioso de la futura generación, fundido para siempre en el costado de su diosa monstruosa.
 
-Самое примечательное в морском черте - это его биологический "фонарь": светящийся отросток, который выступает из его головы и светится в темноте. Этот свет привлекает других любопытных рыб, которые приближаются, думая, что нашли пищу, но на самом деле они приближаются к хищнику.
-
-Морской черт - терпеливый охотник. Он остается неподвижным на дне океана, ожидая, пока его жертвы приблизятся достаточно. Когда маленькая рыба подходит слишком близко, морской черт открывает свою огромную пасть и ловит ее за доли секунды.`
+Es parasitismo. Es la forma más pura y aterradora de devoción hasta que la muerte y solo la muerte desintegre la carne que ahora comparten.`,
+        translation: ``
       }
     ],
     exercises: [
