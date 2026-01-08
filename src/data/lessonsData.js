@@ -11799,6 +11799,15 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
     ],
     exercises: [
       {
+        tab: 'Carbohidratos',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-4-carbohidratos-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-4-carbohidratos-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-4-carbohidratos-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-4-carbohidratos-translation'] }
+        ]
+      },
+      {
         tab: 'Gusanos',
         subtabs: [
           { name: 'Словарь', exercises: ['ex-9-4-gusanos-vocab'] },
@@ -18422,6 +18431,118 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Футбол - национальная страсть', correct: 'el fútbol es una pasión nacional' },
       { russian: 'Саграда Фамилия очень впечатляет', correct: 'la sagrada familia es muy impresionante' },
       { russian: 'Испанское искусство известно во всем мире', correct: 'el arte español es conocido en todo el mundo' }
+    ]
+  },
+  'ex-9-4-carbohidratos-vocab': {
+    id: 'ex-9-4-carbohidratos-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Alimentos con carbohidratos malos',
+    description: 'Выберите правильный перевод слова. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
+    questions: [
+      { spanish: 'definir', options: ['определять, формулировать', 'удалять', 'добавлять', 'изменять'], correct: 0 },
+      { spanish: 'la definición', options: ['решение', 'определение, характеристика', 'действие', 'результат'], correct: 1 },
+      { spanish: 'adoptar', options: ['отвергать', 'игнорировать', 'принимать, усыновлять', 'забывать'], correct: 2 },
+      { spanish: 'listar', options: ['удалять', 'заносить в список, перечислять', 'скрывать', 'находить'], correct: 1 },
+      { spanish: 'los macronutrientes', options: ['витамины', 'минералы', 'макронутриенты', 'микроэлементы'], correct: 2 },
+      { spanish: 'nutrir', options: ['питать, наполнять', 'голодать', 'сушить', 'замораживать'], correct: 0 },
+      { spanish: 'esencial', options: ['второстепенный', 'ненужный', 'главный, основной, существенный', 'редкий'], correct: 2 },
+      { spanish: 'absorber', options: ['выделять', 'отражать', 'поглощать, впитывать', 'разрушать'], correct: 2 },
+      { spanish: 'el índice glucémico', options: ['индекс массы тела', 'уровень холестерина', 'гликемический индекс', 'давление крови'], correct: 2 },
+      { spanish: 'retirar', options: ['добавлять', 'забирать, убирать', 'смешивать', 'нагревать'], correct: 1 },
+      { spanish: 'nocivo', options: ['полезный', 'нейтральный', 'вредный, вредоносный', 'питательный'], correct: 2 },
+      { spanish: 'paulatinamente', options: ['быстро', 'внезапно', 'постепенно, поэтапно', 'резко'], correct: 2 },
+      { spanish: 'gradual', options: ['внезапный', 'быстрый', 'постепенный', 'немедленный'], correct: 2 },
+      { spanish: 'la cebada', options: ['пшеница', 'рожь', 'ячмень', 'овес'], correct: 2 },
+      { spanish: 'curado', options: ['свежий', 'вареный', 'вяленый', 'жареный'], correct: 2 },
+      { spanish: 'la fibra', options: ['жир', 'белок', 'клетчатка', 'сахар'], correct: 2 },
+      { spanish: 'el intestino', options: ['желудок', 'печень', 'кишка, кишечник', 'сердце'], correct: 2 },
+      { spanish: 'inducir', options: ['предотвращать', 'останавливать', 'заставлять, побуждать, вызывать', 'избегать'], correct: 2 },
+      { spanish: 'los cereales', options: ['фрукты', 'овощи', 'злаки, хлопья', 'орехи'], correct: 2 },
+      { spanish: 'dar la vuelta', options: ['двигаться вперед', 'останавливаться', 'перевернуть', 'бросить'], correct: 2 }
+    ]
+  },
+  'ex-9-4-carbohidratos-comprehension': {
+    id: 'ex-9-4-carbohidratos-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Alimentos con carbohidratos malos',
+    description: 'Ответьте на вопросы по тексту. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
+    questions: [
+      { question: '¿Existen realmente los carbohidratos buenos y malos según el experto?', options: ['Sí, existen científicamente', 'No existen en la práctica', 'Solo los malos existen', 'Solo los buenos existen'], correct: 1 },
+      { question: '¿Cuántos macronutrientes esenciales hay?', options: ['Dos', 'Tres', 'Cuatro', 'Cinco'], correct: 1 },
+      { question: '¿Cuáles son los tres macronutrientes?', options: ['Vitaminas, minerales y proteínas', 'Grasas, proteínas y carbohidratos', 'Agua, sal y azúcar', 'Fibra, grasa y proteína'], correct: 1 },
+      { question: '¿Por qué llamamos "malos" a algunos carbohidratos?', options: ['Porque son tóxicos', 'Porque se absorben muy rápido', 'Porque no tienen valor nutritivo', 'Porque son artificiales'], correct: 1 },
+      { question: '¿Por qué llamamos "buenos" a algunos carbohidratos?', options: ['Porque son naturales', 'Porque se absorben muy lentamente', 'Porque tienen más vitaminas', 'Porque son más baratos'], correct: 1 },
+      { question: '¿Qué ocurre cuando un carbohidrato se absorbe muy rápido?', options: ['El cuerpo produce poca insulina', 'El cuerpo no reacciona', 'El cuerpo produce mucha insulina', 'El cuerpo elimina el alimento'], correct: 2 },
+      { question: '¿Qué término más moderno se usa para carbohidratos que se absorben rápido?', options: ['Alimentos con alto índice glucémico', 'Alimentos procesados', 'Alimentos artificiales', 'Alimentos tóxicos'], correct: 0 },
+      { question: '¿Los cereales integrales son carbohidratos buenos o malos?', options: ['Malos', 'Buenos', 'Neutros', 'Depende de la persona'], correct: 1 },
+      { question: '¿Qué son el amaranto y la quinoa?', options: ['Cereales', 'Pseudo cereales', 'Legumbres', 'Frutos secos'], correct: 1 },
+      { question: '¿Los lácteos tienen azúcares buenos o malos?', options: ['Malos', 'Buenos', 'No tienen azúcares', 'Depende del tipo'], correct: 1 },
+      { question: '¿Qué tipo de queso es mejor?', options: ['Fresco', 'Más curado, más viejo', 'No importa', 'Sin curar'], correct: 1 },
+      { question: '¿Qué frutas menciona como buenas para personas con diabetes?', options: ['Plátano y uvas', 'Arándanos, kiwis, manzanas y fresas', 'Todas las frutas', 'Ninguna fruta'], correct: 1 },
+      { question: '¿Qué debemos evitar en los alimentos?', options: ['Grasas naturales', 'Proteínas', 'Azúcares añadidos', 'Agua'], correct: 2 },
+      { question: '¿Dónde podemos ver los azúcares añadidos?', options: ['En el color del envase', 'En un cuadrito blanco en el envase', 'En el precio', 'No se puede ver'], correct: 1 },
+      { question: '¿Los zumos de frutas son carbohidratos buenos o malos?', options: ['Buenos', 'Malos', 'Neutros', 'No tienen carbohidratos'], correct: 1 },
+      { question: '¿Por qué los zumos son diferentes de comer la fruta entera?', options: ['Tienen menos vitaminas', 'Rompen la fibra vegetal', 'Están fríos', 'Tienen más calorías'], correct: 1 },
+      { question: '¿Comer una naranja a bocado es mejor que en zumo?', options: ['No, es igual', 'Sí, es mejor', 'Peor', 'Depende del día'], correct: 1 },
+      { question: '¿El alcohol entra en la categoría de carbohidratos malos?', options: ['No', 'Sí', 'Solo vino', 'Solo cerveza'], correct: 1 },
+      { question: '¿Los refrescos azucarados son buenos o malos?', options: ['Buenos', 'Malos', 'Neutros', 'Depende de la marca'], correct: 1 },
+      { question: '¿Cuánto porcentaje de la nutrición entendemos según el experto?', options: ['50%', '75%', '99%', '100%'], correct: 2 }
+    ]
+  },
+  'ex-9-4-carbohidratos-grammar': {
+    id: 'ex-9-4-carbohidratos-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Alimentos con carbohidratos malos',
+    description: 'Выберите правильную форму глагола. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
+    questions: [
+      { question: 'En este video vamos a ___ (hablar) de los carbohidratos.', options: ['hablar', 'hablamos', 'hablando', 'hable'], correct: 0 },
+      { question: 'Todos los alimentos ___ (poder) ser grasas, proteínas o carbohidratos.', options: ['pueden', 'podían', 'pudieron', 'puedan'], correct: 0 },
+      { question: 'Es importante que nosotros ___ (entender) qué son los carbohidratos.', options: ['entendemos', 'entendíamos', 'entendamos', 'entendiéramos'], correct: 2 },
+      { question: 'Los carbohidratos ___ (ser) uno de los tres macronutrientes esenciales.', options: ['son', 'están', 'sean', 'estén'], correct: 0 },
+      { question: 'Cuando un carbohidrato se ___ (absorber) muy rápido, es malo.', options: ['absorbe', 'absorba', 'absorbía', 'absorbió'], correct: 0 },
+      { question: 'El cuerpo ___ (tener) que producir mucha insulina.', options: ['tiene', 'tenga', 'tenía', 'tuvo'], correct: 0 },
+      { question: 'Es necesario que los niveles de azúcar ___ (subir) paulatinamente.', options: ['suben', 'subían', 'suban', 'subieron'], correct: 2 },
+      { question: 'Los cereales integrales se ___ (absorber) muy poco a poco.', options: ['absorben', 'absorbían', 'absorbieron', 'absorban'], correct: 0 },
+      { question: 'Recomiendo que ustedes ___ (evitar) los azúcares añadidos.', options: ['evitan', 'evitaban', 'eviten', 'evitaron'], correct: 2 },
+      { question: 'Los expertos ___ (haber) adoptado esta definición.', options: ['han', 'habían', 'hayan', 'hubieran'], correct: 0 },
+      { question: 'No ___ (comer, tú) alimentos con alto índice glucémico.', options: ['comes', 'comas', 'comías', 'comiste'], correct: 1 },
+      { question: 'Es mejor que tú ___ (consumir) frutas enteras.', options: ['consumes', 'consumías', 'consumas', 'consumiste'], correct: 2 },
+      { question: 'Los zumos ___ (romper) la fibra vegetal.', options: ['rompen', 'rompían', 'rompan', 'rompieron'], correct: 0 },
+      { question: '___ (Leer, ustedes) las etiquetas de los alimentos.', options: ['Leen', 'Lean', 'Leían', 'Leyeron'], correct: 1 },
+      { question: 'Dudo que los refrescos ___ (ser) saludables.', options: ['son', 'eran', 'sean', 'fueran'], correct: 2 },
+      { question: 'El organismo ___ (producir) insulina para retirar el azúcar.', options: ['produce', 'producía', 'produzca', 'produjo'], correct: 0 },
+      { question: 'Es posible que algunos alimentos ___ (tener) azúcares ocultos.', options: ['tienen', 'tenían', 'tengan', 'tuvieran'], correct: 2 },
+      { question: 'Los quesos más curados ___ (ser) mejores opciones.', options: ['son', 'están', 'sean', 'estén'], correct: 0 },
+      { question: 'No ___ (beber, vosotros) zumos procesados.', options: ['bebéis', 'bebáis', 'bebíais', 'bebisteis'], correct: 1 },
+      { question: 'Espero que este video les ___ (ayudar) a entender mejor.', options: ['ayuda', 'ayudaba', 'ayude', 'ayudara'], correct: 2 }
+    ]
+  },
+  'ex-9-4-carbohidratos-translation': {
+    id: 'ex-9-4-carbohidratos-translation',
+    type: 'translation',
+    title: 'Перевод: Alimentos con carbohidratos malos',
+    description: 'Переведите предложения с русского на испанский. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Углеводы - это один из трех макронутриентов.', correct: 'Los carbohidratos son uno de los tres macronutrientes.', alternatives: [] },
+      { russian: 'Все продукты могут быть жирами, белками или углеводами.', correct: 'Todos los alimentos pueden ser grasas, proteínas o carbohidratos.', alternatives: [] },
+      { russian: 'Мы называем плохими углеводами те, которые быстро усваиваются.', correct: 'Llamamos carbohidratos malos aquellos que se absorben rápido.', alternatives: ['Llamamos carbohidratos malos a aquellos que se absorben rápido.'] },
+      { russian: 'Хорошие углеводы усваиваются постепенно.', correct: 'Los carbohidratos buenos se absorben paulatinamente.', alternatives: ['Los carbohidratos buenos se absorben gradualmente.'] },
+      { russian: 'Организм должен производить много инсулина.', correct: 'El organismo tiene que producir mucha insulina.', alternatives: ['El organismo debe producir mucha insulina.'] },
+      { russian: 'Важно избегать добавленных сахаров.', correct: 'Es importante evitar los azúcares añadidos.', alternatives: [] },
+      { russian: 'Цельнозерновые крупы полезны для здоровья.', correct: 'Los cereales integrales son buenos para la salud.', alternatives: ['Los cereales integrales son saludables.'] },
+      { russian: 'Необходимо читать этикетки продуктов.', correct: 'Es necesario leer las etiquetas de los alimentos.', alternatives: ['Hay que leer las etiquetas de los alimentos.'] },
+      { russian: 'Фруктовые соки содержат плохие углеводы.', correct: 'Los zumos de frutas contienen carbohidratos malos.', alternatives: [] },
+      { russian: 'Лучше есть фрукты целиком.', correct: 'Es mejor comer las frutas enteras.', alternatives: [] },
+      { russian: 'Клетчатка важна для кишечника.', correct: 'La fibra es importante para el intestino.', alternatives: [] },
+      { russian: 'Сахар в крови не должен подниматься быстро.', correct: 'El azúcar en sangre no debe subir rápido.', alternatives: ['El azúcar en la sangre no debe subir rápido.'] },
+      { russian: 'Гликемический индекс измеряет скорость усвоения.', correct: 'El índice glucémico mide la velocidad de absorción.', alternatives: [] },
+      { russian: 'Бобовые имеют хорошие углеводы.', correct: 'Las legumbres tienen carbohidratos buenos.', alternatives: [] },
+      { russian: 'Сладкие газированные напитки вредны.', correct: 'Los refrescos azucarados son nocivos.', alternatives: ['Los refrescos azucarados son dañinos.'] },
+      { russian: 'Выдержанные сыры - лучший выбор.', correct: 'Los quesos curados son la mejor opción.', alternatives: ['Los quesos curados son mejor opción.'] },
+      { russian: 'Ячмень - это полезная крупа.', correct: 'La cebada es un cereal saludable.', alternatives: ['La cebada es un cereal beneficioso.'] },
+      { russian: 'Нужно питать организм правильно.', correct: 'Hay que nutrir el organismo correctamente.', alternatives: ['Es necesario nutrir el organismo correctamente.'] },
+      { russian: 'Киноа - это псевдозлак.', correct: 'La quinoa es un pseudocereal.', alternatives: [] },
+      { russian: 'Алкоголь также содержит плохие углеводы.', correct: 'El alcohol también contiene carbohidratos malos.', alternatives: [] }
     ]
   },
   'ex-9-4-gusanos-vocab': {
