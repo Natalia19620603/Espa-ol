@@ -16435,11 +16435,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Quién es don Cosme y qué hace?', type: 'open' },
-      { question: '¿Dónde está la tienda de don Cosme?', type: 'open' },
-      { question: '¿Quién es doña Blanca?', type: 'open' },
-      { question: '¿Cuánto tiempo hace que se conocen don Cosme y doña Blanca?', type: 'open' },
-      { question: '¿Por qué va doña Blanca a la tienda?', type: 'open' }
+      { question: '¿Quién es don Cosme? Describe su apariencia física y su carácter.', type: 'open' },
+      { question: 'Describe detalladamente dónde está la tienda de don Cosme y qué vende allí.', type: 'open' },
+      { question: '¿Quién es doña Blanca? Menciona su apariencia física.', type: 'open' },
+      { question: 'Explica cuánto tiempo hace que se conocen don Cosme y doña Blanca y cómo es su relación.', type: 'open' },
+      { question: '¿Qué hace doña Blanca cada día? ¿Por qué le gusta llegar a la tienda muy pronto por la mañana?', type: 'open' },
+      { question: 'Describe la situación en la tienda este viernes cuando llega doña Blanca.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f2': {
@@ -16449,12 +16450,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Quién viene a casa de doña Blanca?', type: 'open' },
-      { question: '¿Quién es Antonio?', type: 'open' },
-      { question: '¿Dónde trabaja Antonio?', type: 'open' },
-      { question: '¿Qué le gusta hacer a Antonio?', type: 'open' },
-      { question: '¿Qué comida va a preparar doña Blanca?', type: 'open' },
-      { question: '¿Qué compra doña Blanca en la tienda?', type: 'open' }
+      { question: 'Explica quién viene a casa de doña Blanca hoy y por qué está ella tan contenta.', type: 'open' },
+      { question: '¿Quién es Antonio y cuál es su relación con doña Blanca?', type: 'open' },
+      { question: 'Describe dónde trabaja Antonio y si le gusta su trabajo.', type: 'open' },
+      { question: '¿Qué le gusta realmente hacer a Antonio? ¿Cómo lo hace según don Cosme?', type: 'open' },
+      { question: 'Explica qué comida especial va a preparar doña Blanca y por qué.', type: 'open' },
+      { question: 'Menciona detalladamente todo lo que compra doña Blanca en la tienda.', type: 'open' },
+      { question: 'Según don Cosme, ¿a quién se parece Antonio desde siempre?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f3': {
@@ -16464,10 +16466,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Adónde va doña Blanca después de salir de la tienda?', type: 'open' },
-      { question: '¿Cómo son las calles de Toledo?', type: 'open' },
-      { question: '¿Qué hora es?', type: 'open' },
-      { question: '¿Qué hacen los pájaros?', type: 'open' }
+      { question: 'Describe el camino de doña Blanca después de salir de la tienda.', type: 'open' },
+      { question: 'Explica cómo son las calles de Toledo según el texto.', type: 'open' },
+      { question: '¿Qué hora es aproximadamente y cómo describe el autor el ambiente de la mañana?', type: 'open' },
+      { question: 'Describe qué hacen los pájaros y qué atmósfera crean en Toledo.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f4': {
@@ -16477,12 +16479,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿De dónde llega el tren?', type: 'open' },
-      { question: '¿Qué hace Antonio en la estación?', type: 'open' },
-      { question: '¿Le gusta a Antonio mirar a la gente?', type: 'open' },
-      { question: '¿Qué hombre ve Antonio?', type: 'open' },
-      { question: '¿Qué imagina Antonio sobre este hombre?', type: 'open' },
-      { question: '¿A quiénes mira después Antonio?', type: 'open' }
+      { question: 'Explica de dónde llega el tren y dónde llega.', type: 'open' },
+      { question: 'Describe qué hace Antonio mientras espera en la estación.', type: 'open' },
+      { question: 'Explica por qué le gusta a Antonio mirar a las personas.', type: 'open' },
+      { question: 'Describe detalladamente al hombre misterioso que ve Antonio. ¿Cómo es su apariencia?', type: 'open' },
+      { question: '¿Qué imagina Antonio sobre la historia de este hombre? Menciona detalles.', type: 'open' },
+      { question: 'Después del hombre misterioso, ¿a quiénes más mira Antonio? Describe estas personas.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f5': {
@@ -16492,12 +16494,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Dónde está la estación de Toledo?', type: 'open' },
-      { question: '¿Cómo va Antonio a casa de su abuela?', type: 'open' },
-      { question: '¿Dónde está la Plaza de Zocodover?', type: 'open' },
-      { question: '¿Qué hace Antonio en el autobús?', type: 'open' },
-      { question: '¿Por dónde pasa Antonio para llegar a casa de su abuela?', type: 'open' },
-      { question: '¿Dónde vive doña Blanca?', type: 'open' }
+      { question: 'Explica dónde está situada la estación de Toledo en relación con el centro de la ciudad.', type: 'open' },
+      { question: 'Describe cómo va Antonio desde la estación hasta casa de su abuela.', type: 'open' },
+      { question: '¿Dónde está la Plaza de Zocodover y qué importancia tiene?', type: 'open' },
+      { question: 'Explica qué hace Antonio en el autobús mientras va a casa de su abuela.', type: 'open' },
+      { question: 'Describe por qué calles pasa Antonio para llegar a casa de su abuela.', type: 'open' },
+      { question: 'Explica dónde vive doña Blanca exactamente.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f6': {
