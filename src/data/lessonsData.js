@@ -12421,15 +12421,33 @@ Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunió
         tab: 'Mariposas',
         words: [
           { word: 'la oruga', translation: 'гусеница' },
+          { word: 'milagroso', translation: 'чудесный, чудодейственный' },
+          { word: 'la polilla', translation: 'мотылек, моль' },
           { word: 'la mariposa', translation: 'бабочка' },
-          { word: 'la metamorfosis', translation: 'метаморфоза, превращение' },
-          { word: 'la crisálida', translation: 'куколка, хризалида' },
-          { word: 'el capullo', translation: 'кокон' },
-          { word: 'transformarse', translation: 'превращаться, трансформироваться' },
-          { word: 'desarrollarse', translation: 'развиваться' },
-          { word: 'las alas', translation: 'крылья' },
-          { word: 'el proceso', translation: 'процесс' },
-          { word: 'la naturaleza', translation: 'природа' }
+          { word: 'de vanguardia', translation: 'передовой' },
+          { word: 'el capullo', translation: 'кокон, бутон, придурок' },
+          { word: 'la radiografía', translation: 'рентгеновский снимок' },
+          { word: 'la espina', translation: 'шип, колючка, позвоночник' },
+          { word: 'revelar', translation: 'раскрывать, разоблачать, проявлять' },
+          { word: 'el intestino', translation: 'кишка, кишечник' },
+          { word: 'conseguir', translation: 'достигать, добиваться' },
+          { word: 'estallar', translation: 'взрываться, лопаться' },
+          { word: 'el depredador', translation: 'хищник' },
+          { word: 'equiparse', translation: 'оборудоваться, оснащаться' },
+          { word: 'camuflarse', translation: 'маскировать(ся), камуфлировать' },
+          { word: 'el pincho', translation: 'колючка' },
+          { word: 'la provisión', translation: 'запас' },
+          { word: 'llevar a cabo', translation: 'проводить, осуществлять' },
+          { word: 'desencadenarse', translation: 'разразиться, развязаться' },
+          { word: 'la pupa', translation: 'куколка насекомого' },
+          { word: 'el hada', translation: 'фея, волшебница' },
+          { word: 'madrina', translation: 'крестная мать' },
+          { word: 'espeso', translation: 'густой, плотный' },
+          { word: 'repugnante', translation: 'отвратительный, противный' },
+          { word: 'eventualmente', translation: 'в конце концов, в итоге' },
+          { word: 'emerger', translation: 'появляться, возникать' },
+          { word: 'la criatura', translation: 'существо, создание' },
+          { word: 'las mandíbulas', translation: 'скулы, челюсти' }
         ]
       },
       {
@@ -12475,11 +12493,17 @@ Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunió
       {
         tab: 'Mariposas',
         title: 'La metamorfosis de las mariposas',
-        content: `La transformación de una oruga en mariposa es uno de los procesos más fascinantes de la naturaleza. Este fenómeno, conocido como metamorfosis, representa un cambio completo en la forma y estructura del animal.
+        content: `Hay 180.000 especies conocidas de la increíble oruga y todas comparten los secretos de la milagrosa metamorfosis ya sea para transformarse en una magnífica polilla o en una hermosa mariposa. En el Museo de Historia Natural de Florida el doctor Andrei Sourakov está utilizando tecnología de vanguardia para mirar dentro de un capullo de oruga y ver cómo se transforman.
 
-El proceso comienza cuando la oruga, después de alimentarse intensamente, encuentra un lugar seguro para formar su crisálida o capullo. Dentro de este refugio, ocurre una transformación asombrosa: el cuerpo de la oruga se descompone casi por completo y se reorganiza para formar la estructura de una mariposa adulta.
+Este es un escaneo de una oruga, básicamente es una radiografía. Podemos ver sus órganos internos así como su forma exterior, espina y piernas. Los músculos están en rojo, las vías respiratorias y los vasos sanguíneos en blanco y los órganos se ven en azul. Las imágenes revelan algo asombroso: dentro del capullo gran parte del cuerpo de la oruga es un estómago muy grande. El intestino ocupa la mayor parte de la oruga. Y eso es lo que ves dentro. La razón de esto es porque el único objetivo de una oruga es obtener la energía que necesita para transformarse. Y eso significa comer sin parar. En solo unas semanas estas orugas pueden aumentar su masa 10.000 veces. Eso es como un hombre comiendo tanto que se hincharía hasta el tamaño de cuatro estatuas de la Libertad. Quieren ser una máquina de comer perfecta y lo consiguen.
 
-Durante semanas, células especiales llamadas células imaginales trabajan para crear las alas, las antenas y todas las estructuras de la mariposa. Cuando finalmente emerge del capullo, la mariposa debe esperar a que sus alas se sequen y fortalezcan antes de poder volar por primera vez.`,
+El problema es que comer hasta el punto de estallar convierte a este insecto gordo en un aperitivo soñado para los depredadores. Por lo tanto, para mantenerse con vida el tiempo suficiente para comer lo necesario, la mayoría de las orugas están equipadas con defensas como su increíble capacidad de camuflarse. Además tienen cientos de pinchos afilados y venenosos, comen intencionalmente plantas tóxicas que hacen que todo su cuerpo sea venenoso y anuncian el peligro con marcas coloridas.
+
+Cuando la oruga llega al punto que su provisión de grasa es suficiente para llevar a cabo la metamorfosis se desencadena un mecanismo que le hace perder su piel. Por debajo hay una pupa suave que se endurece muy rápidamente en 24 horas. Luego dentro de esa etapa de pupa se desarrolla y se convierte en adulto. Ahora escondida dentro de la pupa la oruga sabe que va a la fiesta de las mariposas, pero lamentablemente no hay hada madrina para ayudarla.
+
+Las radiografías de la pupa muestran que aquí es donde el cuento de hadas de la mariposa toma un giro desagradable. Dentro de la pupa la oruga se come a sí misma. Enzimas únicas disuelven sus propios tejidos: los órganos, la piel, incluso su propio cerebro se digieren y se convierten en una especie de sopa de oruga. Pero esta sopa es espesa, las masas agrupadas sobreviven y aquí es donde pasa de ser repugnante a maravillosa. Dentro de una estructura llamada disco imaginal el ADN apaga los genes de la oruga y enciende los genes de las mariposas. Utilizando la sopa de oruga rica en proteínas como materiales de construcción, los discos crean células que milagrosamente toman forma de patas de mariposa, ojos, cerebro y alas. A medida que los órganos empiezan a crecer y a ser modelados, eventualmente el insecto adulto está listo para emerger.
+
+El cambio de imagen completo lleva entre dos y cuatro semanas. Luego de la pupa sale una criatura totalmente diferente. Las mandíbulas con las que masticaba la oruga son ahora un tubo largo y sin dientes para chupar néctar. Su vientre graso se ha convertido en un torso delgado con músculos poderosos y rápidos listos para volar. Y por supuesto ahora cuenta con unas alas inconfundibles y maravillosas. Solo necesita un príncipe.`,
         translation: `Превращение гусеницы в бабочку - это один из самых захватывающих процессов в природе. Это явление, известное как метаморфоза, представляет собой полное изменение формы и структуры животного.
 
 Процесс начинается, когда гусеница, после интенсивного питания, находит безопасное место для формирования своей куколки или кокона. Внутри этого убежища происходит удивительное превращение: тело гусеницы почти полностью разлагается и реорганизуется, чтобы сформировать структуру взрослой бабочки.
