@@ -16345,11 +16345,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Quién es Cándido y dónde vive?', type: 'open' },
-      { question: '¿Qué recibió Cándido en un paquete?', type: 'open' },
-      { question: '¿Qué hacía Cándido cuando recibió el paquete?', type: 'open' },
-      { question: '¿Por qué está nervioso Cándido?', type: 'open' },
-      { question: '¿Cuál es la profesión de Cándido?', type: 'open' }
+      { question: '¿Quién es el protagonista de esta historia y dónde vive? Descríbelo detalladamente.', type: 'open' },
+      { question: '¿Qué recibió Cándido en un paquete y cómo reaccionó al verlo?', type: 'open' },
+      { question: 'Describe el café que bebe Cándido y por qué empieza a fumar.', type: 'open' },
+      { question: '¿Qué problema tiene vivir encima de un bar? ¿Por qué Cándido vive allí de todas formas?', type: 'open' },
+      { question: 'Explica por qué está nervioso Cándido cuando lee los periódicos.', type: 'open' },
+      { question: '¿Cuál es la profesión de Cándido y cuál es su situación laboral ahora?', type: 'open' },
+      { question: 'Describe qué tipo de arqueólogo es Cándido según el texto.', type: 'open' }
     ]
   },
   'ex-9-1-c1-f2': {
@@ -16359,10 +16361,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Cómo se siente Cándido ahora?', type: 'open' },
-      { question: '¿Qué ve Cándido por la ventana?', type: 'open' },
-      { question: '¿De dónde viene la música?', type: 'open' },
-      { question: '¿Qué preguntas se hace Cándido?', type: 'open' }
+      { question: '¿Cómo se siente Cándido ahora y por qué? Menciona su estado emocional y económico.', type: 'open' },
+      { question: 'Describe detalladamente qué ve Cándido por la ventana. ¿Qué personas ve y qué hacen?', type: 'open' },
+      { question: 'Explica de dónde viene la música y cómo afecta a Cándido.', type: 'open' },
+      { question: '¿Qué preguntas se hace Cándido sobre el paquete con los periódicos?', type: 'open' },
+      { question: 'Describe el día y lo que hace la gente en la calle mientras Cándido observa.', type: 'open' }
     ]
   },
   'ex-9-1-c1-f3': {
@@ -16372,10 +16375,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Tiene hambre y sed Cándido?', type: 'open' },
-      { question: '¿Por qué no sale de casa?', type: 'open' },
-      { question: '¿Qué hace Cándido en la cocina?', type: 'open' },
-      { question: '¿Qué hace después de volver a su habitación?', type: 'open' }
+      { question: '¿Cómo se siente Cándido físicamente? Menciona si tiene hambre, sed y cansancio.', type: 'open' },
+      { question: 'Explica por qué Cándido no quiere salir de casa en este momento.', type: 'open' },
+      { question: 'Describe qué hace Cándido en la cocina y por qué.', type: 'open' },
+      { question: '¿Qué hace Cándido después de volver a su habitación con los periódicos?', type: 'open' },
+      { question: 'Explica cómo se comportan los periódicos según la imaginación del autor.', type: 'open' }
     ]
   },
   'ex-9-1-c1-f4': {
@@ -16385,11 +16389,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué han encontrado en el Palacio de Úbeda?', type: 'open' },
-      { question: '¿Quién encontró el pequeño tesoro?', type: 'open' },
-      { question: '¿Qué había en el tesoro?', type: 'open' },
-      { question: '¿Qué tiene la llave?', type: 'open' },
-      { question: '¿Alguien ha podido entender las inscripciones?', type: 'open' }
+      { question: 'Describe detalladamente qué han encontrado los obreros en el viejo Palacio de Úbeda.', type: 'open' },
+      { question: '¿Quién es Marisa Martín y qué descubrimiento importante hizo?', type: 'open' },
+      { question: 'Explica qué objetos específicos había en el pequeño tesoro que encontró.', type: 'open' },
+      { question: 'Describe las características especiales de la llave. ¿Qué tiene dibujado?', type: 'open' },
+      { question: '¿En qué idiomas están escritas las inscripciones de la llave?', type: 'open' },
+      { question: 'Explica por qué las inscripciones son un misterio. ¿Alguien ha podido entenderlas?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f5': {
@@ -16399,12 +16404,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Cómo se siente Cándido al leer sobre la sinagoga?', type: 'open' },
-      { question: '¿Está seguro Cándido de poder leer las inscripciones?', type: 'open' },
-      { question: '¿Cuánto tiempo hace que Cándido no trabaja?', type: 'open' },
-      { question: '¿Qué empieza a entender Cándido?', type: 'open' },
-      { question: '¿Quién le envió el paquete según Cándido?', type: 'open' },
-      { question: '¿Qué hora es y qué estación del año llega?', type: 'open' }
+      { question: 'Describe cómo se siente Cándido físicamente al leer sobre la sinagoga (menciona sus manos, su temperatura).', type: 'open' },
+      { question: 'Explica por qué este descubrimiento es tan importante para un arqueólogo como Cándido.', type: 'open' },
+      { question: '¿Está seguro Cándido de poder leer las inscripciones? ¿Por qué?', type: 'open' },
+      { question: 'Menciona cuánto tiempo hace que Cándido no trabaja como arqueólogo.', type: 'open' },
+      { question: 'Explica qué empieza a entender Cándido sobre quién le envió el paquete y por qué.', type: 'open' },
+      { question: '¿Qué hora es al final del fragmento y qué estación del año está llegando?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f6': {
@@ -16414,11 +16419,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué decide hacer Cándido?', type: 'open' },
-      { question: '¿Puede ser peligroso volver a Toledo?', type: 'open' },
-      { question: '¿Cuándo salió Cándido de la cárcel?', type: 'open' },
-      { question: '¿Qué espera Cándido de este viaje?', type: 'open' },
-      { question: '¿Qué quiere evitar Cándido?', type: 'open' }
+      { question: 'Explica detalladamente qué decide hacer Cándido y por qué no puede hacer otra cosa.', type: 'open' },
+      { question: '¿Por qué puede ser peligroso para Cándido volver a Toledo? Menciona la palabra "trampa".', type: 'open' },
+      { question: 'Menciona cuándo salió Cándido de la cárcel y cómo se siente al respecto.', type: 'open' },
+      { question: '¿Qué objetivos tiene Cándido para este viaje a Toledo? (menciona la inscripción y descubrir quién envió los periódicos)', type: 'open' },
+      { question: 'Explica qué espera Cándido sobre su suerte y qué quiere evitar.', type: 'open' }
     ]
   },
 
