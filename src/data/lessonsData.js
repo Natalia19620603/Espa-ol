@@ -9977,96 +9977,33 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
       {
         tab: 'Nivel A2',
         subtabs: [
-          {
-            name: 'Аудио',
-            exercises: [
-              'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
-              'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7', 'ex-9-1-c2-f8', 'ex-9-1-c2-f9',
-              'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6', 'ex-9-1-c3-f7', 'ex-9-1-c3-f8',
-              'ex-9-1-c4-f1', 'ex-9-1-c4-f2', 'ex-9-1-c4-f3', 'ex-9-1-c4-f4', 'ex-9-1-c4-f5', 'ex-9-1-c4-f6', 'ex-9-1-c4-f7', 'ex-9-1-c4-f8',
-              'ex-9-1-c5-f1', 'ex-9-1-c5-f2', 'ex-9-1-c5-f3', 'ex-9-1-c5-f4', 'ex-9-1-c5-f5'
-            ]
-          },
-          {
-            name: 'Перевод',
-            subtabs: [
-              {
-                name: 'Capítulo 1',
-                exercises: ['ex-9-1-a2-trans-c1']
-              },
-              {
-                name: 'Capítulo 2',
-                exercises: ['ex-9-1-a2-trans-c2']
-              },
-              {
-                name: 'Capítulo 3',
-                exercises: ['ex-9-1-a2-trans-c3']
-              },
-              {
-                name: 'Capítulo 4',
-                exercises: ['ex-9-1-a2-trans-c4']
-              },
-              {
-                name: 'Capítulo 5',
-                exercises: ['ex-9-1-a2-trans-c5']
-              }
-            ]
-          }
+          { name: 'Аудио', exercises: [
+            'ex-9-1-c1-f1', 'ex-9-1-c1-f2', 'ex-9-1-c1-f3', 'ex-9-1-c1-f4', 'ex-9-1-c1-f5', 'ex-9-1-c1-f6',
+            'ex-9-1-c2-f1', 'ex-9-1-c2-f2', 'ex-9-1-c2-f3', 'ex-9-1-c2-f4', 'ex-9-1-c2-f5', 'ex-9-1-c2-f6', 'ex-9-1-c2-f7', 'ex-9-1-c2-f8', 'ex-9-1-c2-f9',
+            'ex-9-1-c3-f1', 'ex-9-1-c3-f2', 'ex-9-1-c3-f3', 'ex-9-1-c3-f4', 'ex-9-1-c3-f5', 'ex-9-1-c3-f6', 'ex-9-1-c3-f7', 'ex-9-1-c3-f8',
+            'ex-9-1-c4-f1', 'ex-9-1-c4-f2', 'ex-9-1-c4-f3', 'ex-9-1-c4-f4', 'ex-9-1-c4-f5', 'ex-9-1-c4-f6', 'ex-9-1-c4-f7', 'ex-9-1-c4-f8',
+            'ex-9-1-c5-f1', 'ex-9-1-c5-f2', 'ex-9-1-c5-f3', 'ex-9-1-c5-f4', 'ex-9-1-c5-f5'
+          ]},
+          { name: 'Перевод Capítulo 1', exercises: ['ex-9-1-a2-trans-c1'] },
+          { name: 'Перевод Capítulo 2', exercises: ['ex-9-1-a2-trans-c2'] },
+          { name: 'Перевод Capítulo 3', exercises: ['ex-9-1-a2-trans-c3'] },
+          { name: 'Перевод Capítulo 4', exercises: ['ex-9-1-a2-trans-c4'] },
+          { name: 'Перевод Capítulo 5', exercises: ['ex-9-1-a2-trans-c5'] }
         ]
       },
       {
         tab: 'В1',
         subtabs: [
-          {
-            name: 'Грамматика',
-            subtabs: [
-              {
-                name: 'Capítulo 1',
-                exercises: ['ex-9-1-b1-gram-c1']
-              },
-              {
-                name: 'Capítulo 2',
-                exercises: ['ex-9-1-b1-gram-c2']
-              },
-              {
-                name: 'Capítulo 3',
-                exercises: ['ex-9-1-b1-gram-c3']
-              },
-              {
-                name: 'Capítulo 4',
-                exercises: ['ex-9-1-b1-gram-c4']
-              },
-              {
-                name: 'Capítulo 5',
-                exercises: ['ex-9-1-b1-gram-c5']
-              }
-            ]
-          },
-          {
-            name: 'Перевод',
-            subtabs: [
-              {
-                name: 'Capítulo 1',
-                exercises: ['ex-9-1-b1-trans-c1']
-              },
-              {
-                name: 'Capítulo 2',
-                exercises: ['ex-9-1-b1-trans-c2']
-              },
-              {
-                name: 'Capítulo 3',
-                exercises: ['ex-9-1-b1-trans-c3']
-              },
-              {
-                name: 'Capítulo 4',
-                exercises: ['ex-9-1-b1-trans-c4']
-              },
-              {
-                name: 'Capítulo 5',
-                exercises: ['ex-9-1-b1-trans-c5']
-              }
-            ]
-          }
+          { name: 'Грамматика Capítulo 1', exercises: ['ex-9-1-b1-gram-c1'] },
+          { name: 'Грамматика Capítulo 2', exercises: ['ex-9-1-b1-gram-c2'] },
+          { name: 'Грамматика Capítulo 3', exercises: ['ex-9-1-b1-gram-c3'] },
+          { name: 'Грамматика Capítulo 4', exercises: ['ex-9-1-b1-gram-c4'] },
+          { name: 'Грамматика Capítulo 5', exercises: ['ex-9-1-b1-gram-c5'] },
+          { name: 'Перевод Capítulo 1', exercises: ['ex-9-1-b1-trans-c1'] },
+          { name: 'Перевод Capítulo 2', exercises: ['ex-9-1-b1-trans-c2'] },
+          { name: 'Перевод Capítulo 3', exercises: ['ex-9-1-b1-trans-c3'] },
+          { name: 'Перевод Capítulo 4', exercises: ['ex-9-1-b1-trans-c4'] },
+          { name: 'Перевод Capítulo 5', exercises: ['ex-9-1-b1-trans-c5'] }
         ]
       }
     ]
@@ -12558,19 +12495,21 @@ Es parasitismo. Es la forma más pura y aterradora de devoción hasta que la mue
     ],
     exercises: [
       {
-        tab: 'Mariposas',
+        tab: 'Nivel A2',
         subtabs: [
-          { name: 'Словарь', exercises: ['ex-9-7-mariposas-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-9-7-mariposas-comprehension'] },
-          { name: 'Грамматика', exercises: ['ex-9-7-mariposas-grammar'] }
+          { name: 'Словарь', exercises: ['ex-9-7-a2-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-7-a2-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-7-a2-grammar'] },
+          { name: 'Перевод', exercises: ['ex-9-7-a2-translation'] }
         ]
       },
       {
-        tab: 'Pez RAPE',
+        tab: 'В1',
         subtabs: [
-          { name: 'Словарь', exercises: ['ex-9-7-rape-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-9-7-rape-comprehension'] },
-          { name: 'Грамматика', exercises: ['ex-9-7-rape-grammar'] }
+          { name: 'Словарь', exercises: ['ex-9-7-b1-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-7-b1-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-7-b1-grammar'] },
+          { name: 'Перевод', exercises: ['ex-9-7-b1-translation'] }
         ]
       }
     ]
