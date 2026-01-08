@@ -16345,11 +16345,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Quién es Cándido y dónde vive?', type: 'open' },
-      { question: '¿Qué recibió Cándido en un paquete?', type: 'open' },
-      { question: '¿Qué hacía Cándido cuando recibió el paquete?', type: 'open' },
-      { question: '¿Por qué está nervioso Cándido?', type: 'open' },
-      { question: '¿Cuál es la profesión de Cándido?', type: 'open' }
+      { question: '¿Quién es el protagonista de esta historia y dónde vive? Descríbelo detalladamente.', type: 'open' },
+      { question: '¿Qué recibió Cándido en un paquete y cómo reaccionó al verlo?', type: 'open' },
+      { question: 'Describe el café que bebe Cándido y por qué empieza a fumar.', type: 'open' },
+      { question: '¿Qué problema tiene vivir encima de un bar? ¿Por qué Cándido vive allí de todas formas?', type: 'open' },
+      { question: 'Explica por qué está nervioso Cándido cuando lee los periódicos.', type: 'open' },
+      { question: '¿Cuál es la profesión de Cándido y cuál es su situación laboral ahora?', type: 'open' },
+      { question: 'Describe qué tipo de arqueólogo es Cándido según el texto.', type: 'open' }
     ]
   },
   'ex-9-1-c1-f2': {
@@ -16359,10 +16361,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Cómo se siente Cándido ahora?', type: 'open' },
-      { question: '¿Qué ve Cándido por la ventana?', type: 'open' },
-      { question: '¿De dónde viene la música?', type: 'open' },
-      { question: '¿Qué preguntas se hace Cándido?', type: 'open' }
+      { question: '¿Cómo se siente Cándido ahora y por qué? Menciona su estado emocional y económico.', type: 'open' },
+      { question: 'Describe detalladamente qué ve Cándido por la ventana. ¿Qué personas ve y qué hacen?', type: 'open' },
+      { question: 'Explica de dónde viene la música y cómo afecta a Cándido.', type: 'open' },
+      { question: '¿Qué preguntas se hace Cándido sobre el paquete con los periódicos?', type: 'open' },
+      { question: 'Describe el día y lo que hace la gente en la calle mientras Cándido observa.', type: 'open' }
     ]
   },
   'ex-9-1-c1-f3': {
@@ -16372,10 +16375,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Tiene hambre y sed Cándido?', type: 'open' },
-      { question: '¿Por qué no sale de casa?', type: 'open' },
-      { question: '¿Qué hace Cándido en la cocina?', type: 'open' },
-      { question: '¿Qué hace después de volver a su habitación?', type: 'open' }
+      { question: '¿Cómo se siente Cándido físicamente? Menciona si tiene hambre, sed y cansancio.', type: 'open' },
+      { question: 'Explica por qué Cándido no quiere salir de casa en este momento.', type: 'open' },
+      { question: 'Describe qué hace Cándido en la cocina y por qué.', type: 'open' },
+      { question: '¿Qué hace Cándido después de volver a su habitación con los periódicos?', type: 'open' },
+      { question: 'Explica cómo se comportan los periódicos según la imaginación del autor.', type: 'open' }
     ]
   },
   'ex-9-1-c1-f4': {
@@ -16385,11 +16389,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué han encontrado en el Palacio de Úbeda?', type: 'open' },
-      { question: '¿Quién encontró el pequeño tesoro?', type: 'open' },
-      { question: '¿Qué había en el tesoro?', type: 'open' },
-      { question: '¿Qué tiene la llave?', type: 'open' },
-      { question: '¿Alguien ha podido entender las inscripciones?', type: 'open' }
+      { question: 'Describe detalladamente qué han encontrado los obreros en el viejo Palacio de Úbeda.', type: 'open' },
+      { question: '¿Quién es Marisa Martín y qué descubrimiento importante hizo?', type: 'open' },
+      { question: 'Explica qué objetos específicos había en el pequeño tesoro que encontró.', type: 'open' },
+      { question: 'Describe las características especiales de la llave. ¿Qué tiene dibujado?', type: 'open' },
+      { question: '¿En qué idiomas están escritas las inscripciones de la llave?', type: 'open' },
+      { question: 'Explica por qué las inscripciones son un misterio. ¿Alguien ha podido entenderlas?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f5': {
@@ -16399,12 +16404,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Cómo se siente Cándido al leer sobre la sinagoga?', type: 'open' },
-      { question: '¿Está seguro Cándido de poder leer las inscripciones?', type: 'open' },
-      { question: '¿Cuánto tiempo hace que Cándido no trabaja?', type: 'open' },
-      { question: '¿Qué empieza a entender Cándido?', type: 'open' },
-      { question: '¿Quién le envió el paquete según Cándido?', type: 'open' },
-      { question: '¿Qué hora es y qué estación del año llega?', type: 'open' }
+      { question: 'Describe cómo se siente Cándido físicamente al leer sobre la sinagoga (menciona sus manos, su temperatura).', type: 'open' },
+      { question: 'Explica por qué este descubrimiento es tan importante para un arqueólogo como Cándido.', type: 'open' },
+      { question: '¿Está seguro Cándido de poder leer las inscripciones? ¿Por qué?', type: 'open' },
+      { question: 'Menciona cuánto tiempo hace que Cándido no trabaja como arqueólogo.', type: 'open' },
+      { question: 'Explica qué empieza a entender Cándido sobre quién le envió el paquete y por qué.', type: 'open' },
+      { question: '¿Qué hora es al final del fragmento y qué estación del año está llegando?', type: 'open' }
     ]
   },
   'ex-9-1-c1-f6': {
@@ -16414,11 +16419,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E3F2FD',
     questions: [
-      { question: '¿Qué decide hacer Cándido?', type: 'open' },
-      { question: '¿Puede ser peligroso volver a Toledo?', type: 'open' },
-      { question: '¿Cuándo salió Cándido de la cárcel?', type: 'open' },
-      { question: '¿Qué espera Cándido de este viaje?', type: 'open' },
-      { question: '¿Qué quiere evitar Cándido?', type: 'open' }
+      { question: 'Explica detalladamente qué decide hacer Cándido y por qué no puede hacer otra cosa.', type: 'open' },
+      { question: '¿Por qué puede ser peligroso para Cándido volver a Toledo? Menciona la palabra "trampa".', type: 'open' },
+      { question: 'Menciona cuándo salió Cándido de la cárcel y cómo se siente al respecto.', type: 'open' },
+      { question: '¿Qué objetivos tiene Cándido para este viaje a Toledo? (menciona la inscripción y descubrir quién envió los periódicos)', type: 'open' },
+      { question: 'Explica qué espera Cándido sobre su suerte y qué quiere evitar.', type: 'open' }
     ]
   },
 
@@ -16430,11 +16435,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Quién es don Cosme y qué hace?', type: 'open' },
-      { question: '¿Dónde está la tienda de don Cosme?', type: 'open' },
-      { question: '¿Quién es doña Blanca?', type: 'open' },
-      { question: '¿Cuánto tiempo hace que se conocen don Cosme y doña Blanca?', type: 'open' },
-      { question: '¿Por qué va doña Blanca a la tienda?', type: 'open' }
+      { question: '¿Quién es don Cosme? Describe su apariencia física y su carácter.', type: 'open' },
+      { question: 'Describe detalladamente dónde está la tienda de don Cosme y qué vende allí.', type: 'open' },
+      { question: '¿Quién es doña Blanca? Menciona su apariencia física.', type: 'open' },
+      { question: 'Explica cuánto tiempo hace que se conocen don Cosme y doña Blanca y cómo es su relación.', type: 'open' },
+      { question: '¿Qué hace doña Blanca cada día? ¿Por qué le gusta llegar a la tienda muy pronto por la mañana?', type: 'open' },
+      { question: 'Describe la situación en la tienda este viernes cuando llega doña Blanca.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f2': {
@@ -16444,12 +16450,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Quién viene a casa de doña Blanca?', type: 'open' },
-      { question: '¿Quién es Antonio?', type: 'open' },
-      { question: '¿Dónde trabaja Antonio?', type: 'open' },
-      { question: '¿Qué le gusta hacer a Antonio?', type: 'open' },
-      { question: '¿Qué comida va a preparar doña Blanca?', type: 'open' },
-      { question: '¿Qué compra doña Blanca en la tienda?', type: 'open' }
+      { question: 'Explica quién viene a casa de doña Blanca hoy y por qué está ella tan contenta.', type: 'open' },
+      { question: '¿Quién es Antonio y cuál es su relación con doña Blanca?', type: 'open' },
+      { question: 'Describe dónde trabaja Antonio y si le gusta su trabajo.', type: 'open' },
+      { question: '¿Qué le gusta realmente hacer a Antonio? ¿Cómo lo hace según don Cosme?', type: 'open' },
+      { question: 'Explica qué comida especial va a preparar doña Blanca y por qué.', type: 'open' },
+      { question: 'Menciona detalladamente todo lo que compra doña Blanca en la tienda.', type: 'open' },
+      { question: 'Según don Cosme, ¿a quién se parece Antonio desde siempre?', type: 'open' }
     ]
   },
   'ex-9-1-c2-f3': {
@@ -16459,10 +16466,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Adónde va doña Blanca después de salir de la tienda?', type: 'open' },
-      { question: '¿Cómo son las calles de Toledo?', type: 'open' },
-      { question: '¿Qué hora es?', type: 'open' },
-      { question: '¿Qué hacen los pájaros?', type: 'open' }
+      { question: 'Describe el camino de doña Blanca después de salir de la tienda.', type: 'open' },
+      { question: 'Explica cómo son las calles de Toledo según el texto.', type: 'open' },
+      { question: '¿Qué hora es aproximadamente y cómo describe el autor el ambiente de la mañana?', type: 'open' },
+      { question: 'Describe qué hacen los pájaros y qué atmósfera crean en Toledo.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f4': {
@@ -16472,12 +16479,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿De dónde llega el tren?', type: 'open' },
-      { question: '¿Qué hace Antonio en la estación?', type: 'open' },
-      { question: '¿Le gusta a Antonio mirar a la gente?', type: 'open' },
-      { question: '¿Qué hombre ve Antonio?', type: 'open' },
-      { question: '¿Qué imagina Antonio sobre este hombre?', type: 'open' },
-      { question: '¿A quiénes mira después Antonio?', type: 'open' }
+      { question: 'Explica de dónde llega el tren y dónde llega.', type: 'open' },
+      { question: 'Describe qué hace Antonio mientras espera en la estación.', type: 'open' },
+      { question: 'Explica por qué le gusta a Antonio mirar a las personas.', type: 'open' },
+      { question: 'Describe detalladamente al hombre misterioso que ve Antonio. ¿Cómo es su apariencia?', type: 'open' },
+      { question: '¿Qué imagina Antonio sobre la historia de este hombre? Menciona detalles.', type: 'open' },
+      { question: 'Después del hombre misterioso, ¿a quiénes más mira Antonio? Describe estas personas.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f5': {
@@ -16487,12 +16494,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Послушайте аудио и ответьте на вопросы для пересказа',
     backgroundColor: '#E8F5E9',
     questions: [
-      { question: '¿Dónde está la estación de Toledo?', type: 'open' },
-      { question: '¿Cómo va Antonio a casa de su abuela?', type: 'open' },
-      { question: '¿Dónde está la Plaza de Zocodover?', type: 'open' },
-      { question: '¿Qué hace Antonio en el autobús?', type: 'open' },
-      { question: '¿Por dónde pasa Antonio para llegar a casa de su abuela?', type: 'open' },
-      { question: '¿Dónde vive doña Blanca?', type: 'open' }
+      { question: 'Explica dónde está situada la estación de Toledo en relación con el centro de la ciudad.', type: 'open' },
+      { question: 'Describe cómo va Antonio desde la estación hasta casa de su abuela.', type: 'open' },
+      { question: '¿Dónde está la Plaza de Zocodover y qué importancia tiene?', type: 'open' },
+      { question: 'Explica qué hace Antonio en el autobús mientras va a casa de su abuela.', type: 'open' },
+      { question: 'Describe por qué calles pasa Antonio para llegar a casa de su abuela.', type: 'open' },
+      { question: 'Explica dónde vive doña Blanca exactamente.', type: 'open' }
     ]
   },
   'ex-9-1-c2-f6': {

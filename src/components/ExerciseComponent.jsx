@@ -404,23 +404,45 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
                     padding: '10px 20px',
                     fontSize: '16px',
                     cursor: currentQuestion === 0 ? 'not-allowed' : 'pointer',
-                    opacity: currentQuestion === 0 ? 0.5 : 1
+                    opacity: currentQuestion === 0 ? 0.5 : 1,
+                    backgroundColor: '#f5f5f5',
+                    border: '1px solid #ccc',
+                    borderRadius: '4px'
                   }}
                 >
                   ← Назад
                 </button>
-                <button
-                  onClick={() => setCurrentQuestion(prev => Math.min(exercise.questions.length - 1, prev + 1))}
-                  disabled={currentQuestion === exercise.questions.length - 1}
-                  style={{
-                    padding: '10px 20px',
-                    fontSize: '16px',
-                    cursor: currentQuestion === exercise.questions.length - 1 ? 'not-allowed' : 'pointer',
-                    opacity: currentQuestion === exercise.questions.length - 1 ? 0.5 : 1
-                  }}
-                >
-                  Вперёд →
-                </button>
+                {currentQuestion < exercise.questions.length - 1 ? (
+                  <button
+                    onClick={() => setCurrentQuestion(prev => prev + 1)}
+                    style={{
+                      padding: '10px 20px',
+                      fontSize: '16px',
+                      cursor: 'pointer',
+                      backgroundColor: '#1976d2',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '4px'
+                    }}
+                  >
+                    Вперёд →
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => onComplete()}
+                    style={{
+                      padding: '10px 20px',
+                      fontSize: '16px',
+                      cursor: 'pointer',
+                      backgroundColor: '#4CAF50',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '4px'
+                    }}
+                  >
+                    Завершить
+                  </button>
+                )}
               </div>
             </div>
           )}
