@@ -10041,6 +10041,31 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
                 exercises: ['ex-9-1-b1-gram-c5']
               }
             ]
+          },
+          {
+            name: 'Перевод',
+            subtabs: [
+              {
+                name: 'Capítulo 1',
+                exercises: ['ex-9-1-b1-trans-c1']
+              },
+              {
+                name: 'Capítulo 2',
+                exercises: ['ex-9-1-b1-trans-c2']
+              },
+              {
+                name: 'Capítulo 3',
+                exercises: ['ex-9-1-b1-trans-c3']
+              },
+              {
+                name: 'Capítulo 4',
+                exercises: ['ex-9-1-b1-trans-c4']
+              },
+              {
+                name: 'Capítulo 5',
+                exercises: ['ex-9-1-b1-trans-c5']
+              }
+            ]
           }
         ]
       }
@@ -17571,6 +17596,133 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       }
     ]
   },
+
+  // Translation exercises B1 - По капитулам
+  'ex-9-1-b1-trans-c1': {
+    id: 'ex-9-1-b1-trans-c1',
+    type: 'translation',
+    title: 'Перевод - Capítulo 1 (B1)',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 1, уровень B1)',
+    backgroundColor: '#E3F2FD',
+    questions: [
+      { russian: 'Каждое утро Кандидо оставляет газеты на кровати, не успев их прочитать', spanish: 'Cada mañana, Cándido deja los periódicos sobre la cama sin haberlos leído' },
+      { russian: 'После того как он сел на стул, он начал быстро пить свой кофе', spanish: 'Después de sentarse en una silla, empezó a beber rápidamente su café' },
+      { russian: 'Хотя в Кордобе всегда очень жарко летом, он любит жить там', spanish: 'Aunque en Córdoba siempre hace mucho calor en verano, le encanta vivir allí' },
+      { russian: 'Он понятия не имел, кто мог послать ему этот загадочный пакет', spanish: 'No tenía ni idea de quién podría haberle enviado ese misterioso paquete' },
+      { russian: 'Несмотря на то что он был лучшим археологом, он больше не работал на раскопках', spanish: 'A pesar de ser el mejor arqueólogo, ya no trabajaba en excavaciones' },
+      { russian: 'Прошло уже много лет с тех пор, как он последний раз участвовал в раскопках', spanish: 'Habían pasado muchos años desde que participó por última vez en una excavación' },
+      { russian: 'Когда рабочие обнаружили синагогу, они немедленно связались с археологами', spanish: 'Cuando los obreros descubrieron la sinagoga, contactaron inmediatamente con los arqueólogos' },
+      { russian: 'Молодая археолог была удивлена, найдя такое необычное сокровище', spanish: 'La joven arqueóloga se sorprendió al encontrar un tesoro tan peculiar' },
+      { russian: 'Ключ, который она нашла, содержал странные рисунки и непонятные надписи', spanish: 'La llave que encontró contenía dibujos extraños e inscripciones incomprensibles' },
+      { russian: 'Никто из присутствующих археологов не смог расшифровать эти надписи', spanish: 'Ninguno de los arqueólogos presentes pudo descifrar estas inscripciones' },
+      { russian: 'Для такого опытного археолога, как он, не было ничего более волнующего', spanish: 'Para un arqueólogo tan experimentado como él, no había nada más emocionante' },
+      { russian: 'Он был абсолютно уверен в том, что сможет прочитать древние символы', spanish: 'Estaba completamente seguro de que podría leer los símbolos antiguos' },
+      { russian: 'Должно быть, кто-то специально отправил ему этот пакет', spanish: 'Alguien debió de enviarle ese paquete intencionadamente' },
+      { russian: 'Ему необходимо было как можно скорее отправиться в Толедо', spanish: 'Necesitaba ir a Toledo lo antes posible' },
+      { russian: 'Он понимал, что это путешествие может оказаться опасным', spanish: 'Comprendía que este viaje podría resultar peligroso' }
+    ]
+  },
+
+  'ex-9-1-b1-trans-c2': {
+    id: 'ex-9-1-b1-trans-c2',
+    type: 'translation',
+    title: 'Перевод - Capítulo 2 (B1)',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 2, уровень B1)',
+    backgroundColor: '#E8F5E9',
+    questions: [
+      { russian: 'Уже более сорока лет он владел маленьким магазином в самом центре Толедо', spanish: 'Desde hacía más de cuarenta años tenía una pequeña tienda en pleno centro de Toledo' },
+      { russian: 'В его магазине можно было найти абсолютно все, что угодно', spanish: 'En su tienda se podía encontrar absolutamente de todo' },
+      { russian: 'Несмотря на трудности жизни, он всегда выглядел довольным и счастливым', spanish: 'A pesar de las dificultades de la vida, siempre parecía estar contento y feliz' },
+      { russian: 'Она дружила с этим добрым человеком уже более полувека', spanish: 'Había sido amiga de ese buen hombre durante más de medio siglo' },
+      { russian: 'Каждое утро она приходила в магазин, чтобы купить свежий хлеб', spanish: 'Cada mañana acudía a la tienda para comprar pan fresco' },
+      { russian: 'Ей очень нравилось приходить туда рано утром, когда улицы еще пустые', spanish: 'Le encantaba llegar allí muy temprano por la mañana, cuando las calles aún estaban vacías' },
+      { russian: 'За долгие годы они стали не просто знакомыми, а настоящими друзьями', spanish: 'A lo largo de los años se habían convertido no solo en conocidos, sino en verdaderos amigos' },
+      { russian: 'В то утро она была необычайно довольна и радостна', spanish: 'Aquella mañana estaba extraordinariamente contenta y alegre' },
+      { russian: 'Она с нетерпением ждала приезда внука, который должен был прибыть сегодня', spanish: 'Esperaba con impaciencia la llegada de su nieto, que debía llegar hoy' },
+      { russian: 'С детства ему всегда очень нравилось писать истории и рассказы', spanish: 'Desde niño siempre le había gustado mucho escribir historias y relatos' },
+      { russian: 'Когда поезд из Мадрида прибыл в Толедо, было уже около полудня', spanish: 'Cuando el tren de Madrid llegó a Toledo, ya eran casi las doce del mediodía' },
+      { russian: 'Перед тем как выйти, он взял свой рюкзак и приготовился к встрече', spanish: 'Antes de salir, cogió su mochila y se preparó para el encuentro' },
+      { russian: 'Он всегда любил наблюдать за людьми и изучать их поведение', spanish: 'Siempre le había gustado observar a las personas y estudiar su comportamiento' },
+      { russian: 'Бабушка всегда говорила, что этот мальчик был чрезвычайно умным', spanish: 'La abuela siempre decía que ese niño había sido extraordinariamente listo' },
+      { russian: 'Совсем недавно рабочие случайно обнаружили древнюю синагогу', spanish: 'Hacía muy poco que los obreros habían descubierto accidentalmente la antigua sinagoga' }
+    ]
+  },
+
+  'ex-9-1-b1-trans-c3': {
+    id: 'ex-9-1-b1-trans-c3',
+    type: 'translation',
+    title: 'Перевод - Capítulo 3 (B1)',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 3, уровень B1)',
+    backgroundColor: '#FFF9C4',
+    questions: [
+      { russian: 'Стоя на улице, он долго наблюдал за раскопками, которые проводились внутри', spanish: 'De pie en la calle, observaba durante largo rato las excavaciones que se llevaban a cabo en el interior' },
+      { russian: 'На месте раскопок работало множество археологов и рабочих', spanish: 'En el lugar de las excavaciones trabajaban numerosos arqueólogos y obreros' },
+      { russian: 'Его единственным желанием было увидеть тот загадочный ключ собственными глазами', spanish: 'Su único deseo era ver aquella misteriosa llave con sus propios ojos' },
+      { russian: 'Он решил ждать до четырех часов утра, когда все уже будут спать', spanish: 'Decidió esperar hasta las cuatro de la madrugada, cuando todos ya estarían durmiendo' },
+      { russian: 'В этот поздний час никого не было на улицах старого города', spanish: 'A esa hora tardía no había nadie en las calles de la ciudad vieja' },
+      { russian: 'Осторожно войдя в синагогу, он начал искать ключ в темноте', spanish: 'Entrando con cuidado en la sinagoga, empezó a buscar la llave en la oscuridad' },
+      { russian: 'С помощью фонарика он методично обыскивал каждый угол помещения', spanish: 'Con ayuda de la linterna, registraba metódicamente cada rincón del recinto' },
+      { russian: 'Наконец он обнаружил его в маленькой деревянной коробке', spanish: 'Por fin lo descubrió en una pequeña caja de madera' },
+      { russian: 'Схватив ключ, он поспешно выбежал, стараясь не издавать шума', spanish: 'Cogiendo la llave, salió corriendo apresuradamente, intentando no hacer ruido' },
+      { russian: 'На следующее утро он уже находился в доме своей бабушки', spanish: 'A la mañana siguiente ya se encontraba en casa de su abuela' },
+      { russian: 'Внезапно дверь распахнулась, и в комнату ворвался незнакомый человек', spanish: 'De repente, la puerta se abrió bruscamente y un hombre desconocido irrumpió en la habitación' },
+      { russian: 'Незнакомец вошел, держа в руке пистолет и угрожающе смотря на них', spanish: 'El desconocido entró sosteniendo una pistola en la mano y mirándoles amenazadoramente' },
+      { russian: 'Его голос был холодным, когда он потребовал отдать ему ключ', spanish: 'Su voz era fría cuando exigió que le entregaran la llave' },
+      { russian: 'Если ты не отдашь мне ключ немедленно, тебе придется пожалеть об этом', spanish: 'Si no me das la llave inmediatamente, tendrás que arrepentirte' },
+      { russian: 'Он понимал, что этот человек вполне способен на насилие', spanish: 'Comprendía que este hombre era perfectamente capaz de ejercer violencia' }
+    ]
+  },
+
+  'ex-9-1-b1-trans-c4': {
+    id: 'ex-9-1-b1-trans-c4',
+    type: 'translation',
+    title: 'Перевод - Capítulo 4 (B1)',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 4, уровень B1)',
+    backgroundColor: '#FCE4EC',
+    questions: [
+      { russian: 'Он настаивал на том, чтобы они работали вместе над расшифровкой надписи', spanish: 'Insistía en que trabajaran juntos en el desciframiento de la inscripción' },
+      { russian: 'Он пообещал отдать ключ при условии, что они станут партнерами', spanish: 'Prometió entregar la llave con la condición de que se convirtieran en socios' },
+      { russian: 'Они оба могли бы извлечь пользу из совместной работы над проектом', spanish: 'Ambos podrían beneficiarse del trabajo conjunto en el proyecto' },
+      { russian: 'Однако Кандидо всегда предпочитал работать в одиночестве, без помощников', spanish: 'Sin embargo, Cándido siempre había preferido trabajar en solitario, sin ayudantes' },
+      { russian: 'Они сидели перед столом, который был полностью завален древними книгами', spanish: 'Estaban sentados frente a una mesa que estaba completamente cubierta de libros antiguos' },
+      { russian: 'Между ними практически не было разговоров, только сосредоточенное молчание', spanish: 'Entre ellos apenas había conversación, solo un silencio concentrado' },
+      { russian: 'Они провели в таком состоянии уже несколько часов подряд', spanish: 'Llevaban ya varias horas seguidas en ese estado' },
+      { russian: 'Они были настолько поглощены работой, что даже забыли поесть', spanish: 'Estaban tan absortos en el trabajo que hasta se habían olvidado de comer' },
+      { russian: 'Внезапно Кандидо вскочил с криком, что он наконец-то нашел решение', spanish: 'De repente, Cándido se levantó de un salto gritando que por fin había encontrado la solución' },
+      { russian: 'После многих часов изучения он наконец раскрыл тайну ключа', spanish: 'Tras muchas horas de estudio, finalmente había desvelado el misterio de la llave' },
+      { russian: 'Антонио попросил его прочитать вслух то, что было написано в надписи', spanish: 'Antonio le pidió que leyera en voz alta lo que estaba escrito en la inscripción' },
+      { russian: 'Согласно надписи, сокровище находилось в заброшенном доме за городом', spanish: 'Según la inscripción, el tesoro se encontraba en una casa abandonada a las afueras' },
+      { russian: 'Они прекрасно понимали, что найти его будет непросто', spanish: 'Comprendían perfectamente que encontrarlo no iba a ser nada fácil' },
+      { russian: 'Старый дом имел множество комнат, и нужно было обыскать каждую из них', spanish: 'La vieja casa tenía multitud de habitaciones y habría que registrar cada una de ellas' },
+      { russian: 'Той ночью у них предстояло много работы, которую нужно было выполнить', spanish: 'Aquella noche tenían por delante mucho trabajo que realizar' }
+    ]
+  },
+
+  'ex-9-1-b1-trans-c5': {
+    id: 'ex-9-1-b1-trans-c5',
+    type: 'translation',
+    title: 'Перевод - Capítulo 5 (B1)',
+    description: 'Переведите предложения с русского на испанский (на основе Capítulo 5, уровень B1)',
+    backgroundColor: '#F3E5F5',
+    questions: [
+      { russian: 'Заброшенный дом располагался далеко за пределами города, в уединенном месте', spanish: 'La casa abandonada se encontraba muy lejos de la ciudad, en un lugar apartado' },
+      { russian: 'Когда они наконец добрались до входной двери, уже стемнело', spanish: 'Cuando por fin llegaron a la puerta principal, ya había oscurecido' },
+      { russian: 'Они начали методично обыскивать одну комнату за другой', spanish: 'Empezaron a registrar metódicamente una habitación tras otra' },
+      { russian: 'После трех часов непрерывных поисков они были совершенно измотаны', spanish: 'Después de tres horas de búsqueda continua, estaban completamente exhaustos' },
+      { russian: 'Решив немного отдохнуть, они присели на пол маленькой комнаты', spanish: 'Decidiendo descansar un poco, se sentaron en el suelo de una habitación pequeña' },
+      { russian: 'Антонио вдруг заметил что-то необычное и воскликнул с удивлением', spanish: 'Antonio de repente notó algo inusual y exclamó con sorpresa' },
+      { russian: 'На полу едва различимый рисунок привлек его внимание', spanish: 'En el suelo, un dibujo apenas visible captó su atención' },
+      { russian: 'По форме и деталям он напоминал морские волны', spanish: 'Por la forma y los detalles, recordaba las olas del mar' },
+      { russian: 'Они немедленно принялись осторожно копать в том месте пола', spanish: 'Inmediatamente se pusieron a excavar con cuidado en ese lugar del suelo' },
+      { russian: 'Через некоторое время их инструменты наткнулись на что-то твердое', spanish: 'Al cabo de un rato, sus herramientas tropezaron con algo duro' },
+      { russian: 'То, что они откопали, оказалось сундуком из чистого золота', spanish: 'Lo que desenterraron resultó ser un cofre de oro puro' },
+      { russian: 'Открыв сундук, они обнаружили внутри множество древних золотых монет', spanish: 'Al abrir el cofre, descubrieron en el interior multitud de monedas de oro antiguas' },
+      { russian: 'Они были на грани триумфа, когда услышали чей-то голос в темноте', spanish: 'Estaban al borde del triunfo cuando oyeron la voz de alguien en la oscuridad' },
+      { russian: 'Кандидо в панике спросил, кто осмелился прервать их открытие', spanish: 'Cándido preguntó presa del pánico quién se había atrevido a interrumpir su descubrimiento' },
+      { russian: 'Полицейский схватил его за руку и объявил, что он арестован', spanish: 'Un policía lo agarró del brazo y anunció que quedaba arrestado' }
+    ]
+  },
+
   // Урок 9.2 - Испанские традиции
   'ex-9-2-1': {
     id: 'ex-9-2-1',
