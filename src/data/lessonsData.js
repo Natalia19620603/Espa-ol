@@ -12184,7 +12184,9 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { name: 'Понимание текста 3', exercises: ['ex-9-5-microbiota-comprehension-3'] },
           { name: 'Грамматика 1', exercises: ['ex-9-5-microbiota-grammar-1'] },
           { name: 'Грамматика 2', exercises: ['ex-9-5-microbiota-grammar-2'] },
-          { name: 'Грамматика 3', exercises: ['ex-9-5-microbiota-grammar-3'] }
+          { name: 'Грамматика 3', exercises: ['ex-9-5-microbiota-grammar-3'] },
+          { name: 'Перевод с русского 1', exercises: ['ex-9-5-microbiota-translation-1'] },
+          { name: 'Перевод с русского 2', exercises: ['ex-9-5-microbiota-translation-2'] }
         ]
       },
       {
@@ -12529,11 +12531,17 @@ Cuando la oruga llega al punto que su provisión de grasa es suficiente para lle
 Las radiografías de la pupa muestran que aquí es donde el cuento de hadas de la mariposa toma un giro desagradable. Dentro de la pupa la oruga se come a sí misma. Enzimas únicas disuelven sus propios tejidos: los órganos, la piel, incluso su propio cerebro se digieren y se convierten en una especie de sopa de oruga. Pero esta sopa es espesa, las masas agrupadas sobreviven y aquí es donde pasa de ser repugnante a maravillosa. Dentro de una estructura llamada disco imaginal el ADN apaga los genes de la oruga y enciende los genes de las mariposas. Utilizando la sopa de oruga rica en proteínas como materiales de construcción, los discos crean células que milagrosamente toman forma de patas de mariposa, ojos, cerebro y alas. A medida que los órganos empiezan a crecer y a ser modelados, eventualmente el insecto adulto está listo para emerger.
 
 El cambio de imagen completo lleva entre dos y cuatro semanas. Luego de la pupa sale una criatura totalmente diferente. Las mandíbulas con las que masticaba la oruga son ahora un tubo largo y sin dientes para chupar néctar. Su vientre graso se ha convertido en un torso delgado con músculos poderosos y rápidos listos para volar. Y por supuesto ahora cuenta con unas alas inconfundibles y maravillosas. Solo necesita un príncipe.`,
-        translation: `Превращение гусеницы в бабочку - это один из самых захватывающих процессов в природе. Это явление, известное как метаморфоза, представляет собой полное изменение формы и структуры животного.
+        translation: `Существует 180 000 известных видов удивительной гусеницы, и все они разделяют секреты чудесной метаморфозы, будь то превращение в великолепную моль или прекрасную бабочку. В Музее естественной истории Флориды доктор Андрей Сураков использует передовые технологии, чтобы заглянуть внутрь кокона гусеницы и увидеть, как они трансформируются.
 
-Процесс начинается, когда гусеница, после интенсивного питания, находит безопасное место для формирования своей куколки или кокона. Внутри этого убежища происходит удивительное превращение: тело гусеницы почти полностью разлагается и реорганизуется, чтобы сформировать структуру взрослой бабочки.
+Это сканирование гусеницы, в основном это рентгеновский снимок. Мы можем видеть ее внутренние органы, а также ее внешнюю форму, шипы и ноги. Мышцы показаны красным, дыхательные пути и кровеносные сосуды белым, а органы видны синим. Изображения раскрывают нечто удивительное: внутри кокона большая часть тела гусеницы — это очень большой желудок. Кишечник занимает большую часть гусеницы. И это то, что вы видите внутри. Причина этого в том, что единственная цель гусеницы — получить энергию, необходимую для трансформации. А это означает есть без остановки. Всего за несколько недель эти гусеницы могут увеличить свою массу в 10 000 раз. Это как если бы человек ел так много, что раздулся бы до размера четырех статуй Свободы. Они хотят быть идеальной машиной для еды, и им это удается.
 
-В течение недель специальные клетки, называемые имагинальными клетками, работают над созданием крыльев, усиков и всех структур бабочки. Когда она наконец выходит из кокона, бабочка должна подождать, пока ее крылья высохнут и окрепнут, прежде чем сможет впервые полететь.`
+Проблема в том, что еда до точки разрыва превращает это толстое насекомое в идеальную закуску для хищников. Поэтому, чтобы остаться в живых достаточно долго, чтобы съесть необходимое, большинство гусениц оснащены защитными механизмами, такими как их невероятная способность камуфлироваться. Кроме того, у них есть сотни острых ядовитых шипов, они намеренно едят токсичные растения, которые делают все их тело ядовитым, и предупреждают об опасности яркими метками.
+
+Когда гусеница достигает точки, когда ее запас жира достаточен для осуществления метаморфозы, запускается механизм, который заставляет ее сбросить кожу. Под ней находится мягкая куколка, которая очень быстро затвердевает за 24 часа. Затем внутри этой стадии куколки она развивается и превращается во взрослую особь. Теперь, спрятавшись внутри куколки, гусеница знает, что идет на бал бабочек, но, к сожалению, нет феи-крестной, чтобы ей помочь.
+
+Рентгеновские снимки куколки показывают, что именно здесь сказка о бабочке принимает неприятный поворот. Внутри куколки гусеница поедает саму себя. Уникальные ферменты растворяют ее собственные ткани: органы, кожу, даже собственный мозг переваривается и превращается в своего рода суп из гусеницы. Но этот суп густой, сгруппированные массы выживают, и именно здесь он переходит от отвратительного к чудесному. Внутри структуры, называемой имагинальным диском, ДНК отключает гены гусеницы и включает гены бабочки. Используя богатый белками суп из гусеницы в качестве строительного материала, диски создают клетки, которые чудесным образом принимают форму лапок бабочки, глаз, мозга и крыльев. По мере того как органы начинают расти и формироваться, в конечном итоге взрослое насекомое готово к выходу.
+
+Полное преобразование занимает от двух до четырех недель. Затем из куколки выходит совершенно другое существо. Челюсти, которыми жевала гусеница, теперь представляют собой длинную беззубую трубку для высасывания нектара. Ее толстое брюшко превратилось в стройное туловище с мощными быстрыми мышцами, готовыми к полету. И, конечно же, теперь у нее есть безошибочно узнаваемые и прекрасные крылья. Ей нужен только принц.`
       },
       {
         tab: 'Pez RAPE',
@@ -26775,6 +26783,54 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { question: 'La energía ___ (existir) en nuestro entorno.', options: ['existe', 'existió', 'ha existido', 'exista'], correct: 0 },
       { question: 'El nodo intracraneal ___ (ser) parte del sistema nervioso.', options: ['es', 'fue', 'ha sido', 'sea'], correct: 0 },
       { question: 'Es bonito que uno nunca ___ (poder) aburrirse investigando.', options: ['pueda', 'puede', 'podía', 'ha podido'], correct: 0 }
+    ]
+  },
+
+  'ex-9-5-microbiota-translation-1': {
+    id: 'ex-9-5-microbiota-translation-1',
+    type: 'translation',
+    title: 'Перевод 1: ¿Qué es la microbiota? (B1)',
+    description: 'Переведите предложения с русского на испанский (уровень B1)',
+    questions: [
+      { russian: 'Девять из десяти человек не знают, что такое микробиота', spanish: 'Nueve de cada diez personas no sabemos lo que es la microbiota' },
+      { russian: 'Мы говорим об живом организме, который был бы как еще один орган в теле', spanish: 'Estamos hablando de un organismo vivo que sería como un órgano más en el cuerpo' },
+      { russian: 'Этот орган получает информацию извне и отправляет информацию в мозг', spanish: 'Este órgano está recibiendo información del exterior y está enviando información al cerebro' },
+      { russian: 'Микробиота очень сильно определяет наш способ мышления и восприятия реальности', spanish: 'La microbiota está determinando de una manera muy potente nuestra manera de pensar y percibir la realidad' },
+      { russian: 'В кишечнике у нас примерно в десять раз больше бактерий, чем клеток в теле', spanish: 'En el intestino tenemos aproximadamente diez veces más bacterias que células en el cuerpo' },
+      { russian: 'Микробиота - это одно из величайших открытий, которое было сделано', spanish: 'La microbiota es uno de los grandes descubrimientos que se ha hecho' },
+      { russian: 'Она связана со вторым мозгом, о котором я говорю уже много лет', spanish: 'Está en conexión con el segundo cerebro, del que llevo hablando muchos años' },
+      { russian: 'Второй мозг - это пищеварительная трубка, энтеральный мозг', spanish: 'El segundo cerebro es el tubo digestivo, el cerebro entérico' },
+      { russian: 'Какая часть тела, по-твоему, имеет наибольшую поверхность, подверженную воздействию внешней среды?', spanish: '¿Cuál crees tú que es la parte del cuerpo que tiene mayor superficie expuesta al exterior?' },
+      { russian: 'Кожа измеряет приблизительно два квадратных метра', spanish: 'La piel mide aproximadamente dos metros cuadrados' },
+      { russian: 'Если развернуть кишечник, он занимает площадь двух теннисных кортов', spanish: 'Si se abre el intestino, ocupa dos canchas de tenis' },
+      { russian: 'Восемьдесят процентов защитной системы организма находится в пищеварительной трубке', spanish: 'El ochenta por ciento del sistema de defensa del cuerpo está en el tubo digestivo' },
+      { russian: 'Это место, откуда могут проникнуть патогены, бактерии и вирусы', spanish: 'Es el sitio desde donde pueden entrar los patógenos, las bacterias y los virus' },
+      { russian: 'Второй мозг, в тесной связи с микробиотой, регулирует множество процессов в организме', spanish: 'El segundo cerebro, en conexión muy íntima con la microbiota, regula una cantidad de procesos en el organismo' },
+      { russian: 'Эти процессы влияют как на здоровье, так и на болезнь', spanish: 'Estos procesos afectan tanto a la salud como a la enfermedad' }
+    ]
+  },
+
+  'ex-9-5-microbiota-translation-2': {
+    id: 'ex-9-5-microbiota-translation-2',
+    type: 'translation',
+    title: 'Перевод 2: ¿Qué es la microbiota? (B1)',
+    description: 'Переведите предложения с русского на испанский (уровень B1)',
+    questions: [
+      { russian: 'Мы слышали о заболеваниях, таких как ревматоидный артрит или системная красная волчанка', spanish: 'Hemos oído hablar de enfermedades como la artritis reumatoide o el lupus eritematoso diseminado' },
+      { russian: 'Известно, что они могут иметь общее происхождение в пищеварительной трубке', spanish: 'Se sabe que pueden tener un origen común en el tubo digestivo' },
+      { russian: 'Заботясь о нашем питании, мы улучшаем микробиоту и, следовательно, можем избежать будущих заболеваний', spanish: 'Cuidando nuestra alimentación mejoramos la microbiota y, por consiguiente, podemos evitar futuras enfermedades' },
+      { russian: 'Такие состояния, как тревога или депрессия, могут иметь часть своего происхождения в плохом питании', spanish: 'Cuadros como la ansiedad o la depresión pueden tener parte de su origen en una pobre nutrición' },
+      { russian: 'В микробиоте есть бактероиды, которые являются силами добра', spanish: 'En la microbiota están los bacteroides, que son las fuerzas del bien' },
+      { russian: 'Также есть фирмикуты, которые являются силами зла', spanish: 'También están los firmicutes, que son las fuerzas del mal' },
+      { russian: 'Когда популяция вредных бактерий увеличивается, темные силы начинают побеждать', spanish: 'Cuando la población de las bacterias dañinas aumenta, las fuerzas oscuras van ganando' },
+      { russian: 'Это производит так называемое хроническое воспаление низкой степени', spanish: 'Esto produce lo que se llama la inflamación crónica de bajo grado' },
+      { russian: 'Когда человек принимает диету, богатую клетчаткой и бедную сахаром, силы добра увеличиваются', spanish: 'Cuando una persona toma una dieta rica en fibra y pobre en azúcar, las fuerzas del bien aumentan' },
+      { russian: 'Прекрасно видеть, что все связано друг с другом', spanish: 'Lo bonito es ver que todo está conectado' },
+      { russian: 'Мы склонны разделять вещи и изучать их, как если бы они были совершенно независимыми частями часов', spanish: 'Tendemos a separar las cosas y a estudiarlas como si fueran partes de un reloj y totalmente independientes' },
+      { russian: 'Пищеварительная трубка с ее важнейшим взаимодействием с микробиотой становится узлом информации необычайной ценности', spanish: 'El tubo digestivo, con esa interconexión tan importante que tiene con la microbiota, se convierte en un nodo de información de extraordinario valor' },
+      { russian: 'Изменения в питании, как было установлено, оказывают очень положительное влияние на аутизм', spanish: 'Cambios en la nutrición se ha visto que tienen un impacto muy positivo en el autismo' },
+      { russian: 'Бактерии напрямую сообщаются с мозгом через ряд химических процессов', spanish: 'Las bacterias se están comunicando directamente con el cerebro a través de una serie de procesos químicos' },
+      { russian: 'Циркадные ритмы зависят от солнечного света, мы связаны с внешним миром', spanish: 'Los ritmos circadianos dependen de la luz solar, estamos conectados con el exterior' }
     ]
   },
 
