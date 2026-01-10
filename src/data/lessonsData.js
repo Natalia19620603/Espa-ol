@@ -2241,6 +2241,10 @@ Objeto + está + preposición + del/de la + lugar.
       {
         tab: 'Числительные',
         exercises: ['ex-1-5-numbers-1', 'ex-1-5-numbers-2']
+      },
+      {
+        tab: 'Правильные глаголы',
+        exercises: ['ex-1-5-verbs-1', 'ex-1-5-verbs-2']
       }
     ]
   },
@@ -13592,6 +13596,54 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'Pago ___ (100) euros.', correct: 'cien' },
       { sentence: 'Tengo ___ (11) amigos.', correct: 'once' },
       { sentence: 'Ahora son las ___ (16).', correct: 'dieciséis' }
+    ]
+  },
+
+  'ex-1-5-verbs-1': {
+    id: 'ex-1-5-verbs-1',
+    type: 'grammar',
+    title: 'Спряжение правильных глаголов',
+    description: 'Выберите правильную форму глагола в настоящем времени',
+    questions: [
+      { sentence: 'Yo ___ (hablar) español.', options: ['hablo', 'hablas', 'habla', 'hablan'], correct: 0 },
+      { sentence: 'Tú ___ (comer) en el restaurante.', options: ['como', 'comes', 'come', 'comen'], correct: 1 },
+      { sentence: 'Ella ___ (vivir) en Madrid.', options: ['vivo', 'vives', 'vive', 'viven'], correct: 2 },
+      { sentence: 'Nosotros ___ (estudiar) español.', options: ['estudio', 'estudias', 'estudia', 'estudiamos'], correct: 3 },
+      { sentence: 'Ellos ___ (leer) libros.', options: ['leo', 'lees', 'lee', 'leen'], correct: 3 },
+      { sentence: 'Yo ___ (escribir) una carta.', options: ['escribo', 'escribes', 'escribe', 'escriben'], correct: 0 },
+      { sentence: 'Tú ___ (tomar) café.', options: ['tomo', 'tomas', 'toma', 'toman'], correct: 1 },
+      { sentence: 'Él ___ (aprender) inglés.', options: ['aprendo', 'aprendes', 'aprende', 'aprenden'], correct: 2 },
+      { sentence: 'Nosotros ___ (abrir) la puerta.', options: ['abro', 'abres', 'abre', 'abrimos'], correct: 3 },
+      { sentence: 'Ellas ___ (escuchar) música.', options: ['escucho', 'escuchas', 'escucha', 'escuchan'], correct: 3 },
+      { sentence: 'Vosotros ___ (comprender) el problema.', options: ['comprendéis', 'comprendo', 'comprende', 'comprenden'], correct: 0 },
+      { sentence: 'Yo ___ (recibir) mensajes.', options: ['recibo', 'recibes', 'recibe', 'reciben'], correct: 0 },
+      { sentence: 'Tú ___ (preguntar) por el precio.', options: ['pregunto', 'preguntas', 'pregunta', 'preguntan'], correct: 1 },
+      { sentence: 'Él ___ (beber) agua.', options: ['bebo', 'bebes', 'bebe', 'beben'], correct: 2 },
+      { sentence: 'Nosotros ___ (viajar) en tren.', options: ['viajo', 'viajas', 'viaja', 'viajamos'], correct: 3 }
+    ]
+  },
+
+  'ex-1-5-verbs-2': {
+    id: 'ex-1-5-verbs-2',
+    type: 'fillblank',
+    title: 'Правильные глаголы - заполните пропуски',
+    description: 'Напишите правильную форму глагола',
+    questions: [
+      { sentence: 'Yo ___ (hablar) con mi amigo.', correct: 'hablo' },
+      { sentence: 'Tú ___ (comer) en casa.', correct: 'comes' },
+      { sentence: 'Ella ___ (vivir) en Barcelona.', correct: 'vive' },
+      { sentence: 'Nosotros ___ (estudiar) en la universidad.', correct: 'estudiamos' },
+      { sentence: 'Ellos ___ (leer) el periódico.', correct: 'leen' },
+      { sentence: 'Yo ___ (escribir) un mensaje.', correct: 'escribo' },
+      { sentence: 'Tú ___ (tomar) el metro.', correct: 'tomas' },
+      { sentence: 'Él ___ (aprender) español.', correct: 'aprende' },
+      { sentence: 'Nosotros ___ (abrir) las ventanas.', correct: 'abrimos' },
+      { sentence: 'Ellas ___ (escuchar) la radio.', correct: 'escuchan' },
+      { sentence: 'Vosotros ___ (comprender) la lección.', correct: 'comprendéis' },
+      { sentence: 'Yo ___ (recibir) cartas.', correct: 'recibo' },
+      { sentence: 'Tú ___ (llamar) por teléfono.', correct: 'llamas' },
+      { sentence: 'Él ___ (beber) café.', correct: 'bebe' },
+      { sentence: 'Nosotros ___ (viajar) mucho.', correct: 'viajamos' }
     ]
   },
 
