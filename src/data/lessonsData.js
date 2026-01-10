@@ -2236,15 +2236,15 @@ Objeto + está + preposición + del/de la + lugar.
     exercises: [
       {
         tab: 'Предлоги',
-        exercises: ['ex-1-5-prepositions-1', 'ex-1-5-prepositions-2']
+        exerciseIds: ['ex-1-5-prepositions-1', 'ex-1-5-prepositions-2']
       },
       {
         tab: 'Числительные',
-        exercises: ['ex-1-5-numbers-1', 'ex-1-5-numbers-2']
+        exerciseIds: ['ex-1-5-numbers-1', 'ex-1-5-numbers-2']
       },
       {
         tab: 'Правильные глаголы',
-        exercises: ['ex-1-5-verbs-1', 'ex-1-5-verbs-2']
+        exerciseIds: ['ex-1-5-verbs-1', 'ex-1-5-verbs-2']
       }
     ]
   },
