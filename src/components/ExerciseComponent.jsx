@@ -2231,14 +2231,9 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
       }
 
       if (showAnswerOption) {
-        // Если включена опция показа ответа, просто отмечаем как отправленное
+        // Если включена опция показа ответа, показываем правильный ответ после нажатия "Ответить"
         setSubmitted(true)
-        if (isCorrect) {
-          // Если ответ правильный, автоматически переходим к следующему вопросу
-          onAnswer(input)
-          setInput('')
-          setSubmitted(false)
-        }
+        setShowCorrectAnswer(true)
       } else {
         // Обычное поведение (без опции показа ответа)
         if (!isCorrect) {
@@ -2265,10 +2260,6 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
     setShowFeedback(false)
     onAnswer(input)
     setInput('')
-  }
-
-  const handleShowAnswer = () => {
-    setShowCorrectAnswer(true)
   }
 
   const handleProceed = () => {
@@ -2313,13 +2304,6 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
         <p className={styles.correctAnswerText}>
           Правильный ответ: {question.spanish || question.correct}
         </p>
-      )}
-      {showAnswerOption && submitted && !showCorrectAnswer && (
-        <div className={styles.showAnswerContainer}>
-          <button onClick={handleShowAnswer} className={styles.showAnswerBtn}>
-            Показать правильный ответ
-          </button>
-        </div>
       )}
       {showAnswerOption && submitted && showCorrectAnswer && (
         <div className={styles.answerDisplayContainer}>
