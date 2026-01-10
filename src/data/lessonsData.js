@@ -12517,6 +12517,15 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { name: 'Грамматика', exercises: ['ex-9-6-enfermedades-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-9-6-enfermedades-translation'] }
         ]
+      },
+      {
+        tab: 'DIOS Existe y La CIENCIA Lo Sabe',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-dios-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-dios-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-dios-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-dios-translation'] }
+        ]
       }
     ]
   },
@@ -28250,6 +28259,209 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Тяжелая болезнь изменила его жизнь.', correct: 'La enfermedad grave cambió su vida.' },
       { russian: 'Стресс — это настойчивый враг нашего здоровья.', correct: 'El estrés es un enemigo persistente de nuestra salud.' },
       { russian: 'Мы предрасположены к онкологии.', correct: 'Estamos predispuestos al cáncer.' }
+    ]
+  },
+
+  // Урок 9.6 - DIOS Existe y La CIENCIA Lo Sabe exercises
+  'ex-9-6-dios-vocab': {
+    id: 'ex-9-6-dios-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: DIOS Existe y La CIENCIA Lo Sabe',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'la consciencia', options: ['тело', 'сознание, осознанность', 'чувство', 'мысль'], correct: 1 },
+      { spanish: 'las vivencias', options: ['воспоминания', 'переживания', 'мечты', 'планы'], correct: 1 },
+      { spanish: 'persistir', options: ['исчезать', 'оставаться, продолжаться', 'начинать', 'заканчивать'], correct: 1 },
+      { spanish: 'holístico', options: ['частичный', 'всеобъемлющий, целостный', 'простой', 'сложный'], correct: 1 },
+      { spanish: 'el holograma', options: ['фотография', 'голограмма', 'картина', 'рисунок'], correct: 1 },
+      { spanish: 'la fracción', options: ['целое', 'фрагмент', 'часть', 'все'], correct: 1 },
+      { spanish: 'la propiedad', options: ['бедность', 'собственность, свойство', 'долг', 'аренда'], correct: 1 },
+      { spanish: 'la omnipresencia', options: ['отсутствие', 'вездесущность', 'редкость', 'слабость'], correct: 1 },
+      { spanish: 'la eternidad', options: ['мгновение', 'час', 'вечность', 'минута'], correct: 2 },
+      { spanish: 'El Todopoderoso', options: ['Слабый', 'Всемогущий', 'Обычный', 'Простой'], correct: 1 },
+      { spanish: 'plasmar', options: ['разрушать', 'воплощать в жизнь', 'забывать', 'терять'], correct: 1 }
+    ]
+  },
+
+  'ex-9-6-dios-comprehension': {
+    id: 'ex-9-6-dios-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: DIOS Existe y La CIENCIA Lo Sabe',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Qué podemos demostrar científicamente hoy según el texto?',
+        options: ['La inexistencia de Dios', 'La existencia de una consciencia primera', 'Que no hay diseñador inteligente', 'Que el universo no tiene origen'],
+        correct: 1
+      },
+      {
+        question: '¿Cuántos millones de años hace que ocurrió el Big Bang?',
+        options: ['4.000 millones', '10.000 millones', '13.780 millones', '20.000 millones'],
+        correct: 2
+      },
+      {
+        question: '¿Cuándo apareció la vida en nuestro planeta?',
+        options: ['Hace 1.000 millones de años', 'Hace 2.000 millones de años', 'Hace 4.000 millones de años', 'Hace 5.000 millones de años'],
+        correct: 2
+      },
+      {
+        question: '¿Qué nombres se mencionan para la consciencia primera?',
+        options: ['Solo Dios', 'Dios, Jehová, Alá, Tao, registro akáshico, Brahman', 'Solo Alá', 'Solo Jehová'],
+        correct: 1
+      },
+      {
+        question: 'Según el texto, ¿qué es el principio de todas las religiones?',
+        options: ['El amor', 'Una consciencia primera', 'La fe', 'La esperanza'],
+        correct: 1
+      },
+      {
+        question: '¿Qué propiedad tiene el holograma según el texto?',
+        options: ['Es frágil', 'Cada fracción contiene el todo', 'No tiene propiedades', 'Se rompe fácilmente'],
+        correct: 1
+      },
+      {
+        question: '¿Qué características tiene la consciencia primera?',
+        options: ['Limitada y temporal', 'Omnipresencia y eternidad', 'Débil y pasajera', 'Pequeña y efímera'],
+        correct: 1
+      },
+      {
+        question: '¿Qué intervino en la aparición de vida?',
+        options: ['Solo la casualidad', 'El Big Bang y una inteligencia primera', 'Solo procesos químicos', 'Solo la evolución'],
+        correct: 1
+      },
+      {
+        question: '¿Qué tipo de enfoque se menciona en el concepto holístico?',
+        options: ['Parcial', 'Completo y de conjunto', 'Fragmentado', 'Dividido'],
+        correct: 1
+      },
+      {
+        question: '¿Qué debe hacer la consciencia primera según el texto?',
+        options: ['Descansar', 'Plasmar su existencia', 'Desaparecer', 'Dormir'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-dios-grammar': {
+    id: 'ex-9-6-dios-grammar',
+    type: 'grammar',
+    title: 'Грамматика: DIOS Existe y La CIENCIA Lo Sabe',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'Hoy ___ demostrar científicamente la existencia de Dios. (nosotros - poder)',
+        options: ['podemos', 'hemos podido', 'pudimos', 'podíamos'],
+        correct: 0,
+        explanation: 'Presente для общего утверждения'
+      },
+      {
+        sentence: 'La vida ___ en nuestro planeta hace 4.000 millones de años. (aparecer)',
+        options: ['aparece', 'ha aparecido', 'apareció', 'aparecía'],
+        correct: 2,
+        explanation: 'Pretérito indefinido для конкретного события в прошлом'
+      },
+      {
+        sentence: 'Esta mañana el científico ___ sobre la consciencia primera. (hablar)',
+        options: ['habla', 'ha hablado', 'habló', 'hablaba'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "esta mañana"'
+      },
+      {
+        sentence: 'La fracción del holograma siempre ___ el todo. (contener)',
+        options: ['contiene', 'ha contenido', 'contuvo', 'contenía'],
+        correct: 0,
+        explanation: 'Presente для постоянного факта'
+      },
+      {
+        sentence: 'Antiguamente, los filósofos ___ sobre la eternidad. (reflexionar)',
+        options: ['reflexionan', 'han reflexionado', 'reflexionaron', 'reflexionaban'],
+        correct: 3,
+        explanation: 'Pretérito imperfecto для регулярного действия в прошлом'
+      },
+      {
+        sentence: '___ estas ideas en tu vida diaria. (tú - plasmar)',
+        options: ['Plasma', 'Plasmas', 'Plasmando', 'Plasmar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo для tú'
+      },
+      {
+        sentence: 'No ___ en la omnipresencia divina. (tú - dudar)',
+        options: ['duda', 'dudes', 'dudas', 'dudar'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'El Big Bang ___ hace 13.780 millones de años. (ocurrir)',
+        options: ['ocurre', 'ha ocurrido', 'ocurrió', 'ocurría'],
+        correct: 2,
+        explanation: 'Pretérito indefinido для конкретного события'
+      },
+      {
+        sentence: '___ sobre la naturaleza holística del universo. (ustedes - meditar)',
+        options: ['Meditan', 'Mediten', 'Meditad', 'Meditar'],
+        correct: 1,
+        explanation: 'Imperativo afirmativo для ustedes'
+      },
+      {
+        sentence: 'Últimamente nosotros ___ mucho sobre estas vivencias. (pensar)',
+        options: ['pensamos', 'hemos pensado', 'pensamos', 'pensábamos'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "últimamente"'
+      },
+      {
+        sentence: 'Cuando era niño, ___ en la eternidad del alma. (yo - creer)',
+        options: ['creo', 'he creído', 'creí', 'creía'],
+        correct: 3,
+        explanation: 'Pretérito imperfecto для состояния в прошлом'
+      },
+      {
+        sentence: 'El concepto holístico ___ desde hace siglos. (persistir)',
+        options: ['persiste', 'ha persistido', 'persistió', 'persistía'],
+        correct: 0,
+        explanation: 'Presente для продолжающегося состояния'
+      },
+      {
+        sentence: 'Ayer ___ un documental sobre la consciencia universal. (nosotros - ver)',
+        options: ['vemos', 'hemos visto', 'vimos', 'veíamos'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: 'Nunca ___ la omnipresencia divina de esta manera. (yo - entender)',
+        options: ['entiendo', 'he entendido', 'entendí', 'entendía'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "nunca"'
+      },
+      {
+        sentence: '___ el significado profundo de estas propiedades. (usted - comprender)',
+        options: ['Comprende', 'Comprenda', 'Comprendes', 'Comprender'],
+        correct: 1,
+        explanation: 'Imperativo afirmativo para usted'
+      }
+    ]
+  },
+
+  'ex-9-6-dios-translation': {
+    id: 'ex-9-6-dios-translation',
+    type: 'translation',
+    title: 'Перевод с русского: DIOS Existe y La CIENCIA Lo Sabe',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Сегодня мы можем доказать существование первичного сознания.', correct: 'Hoy podemos demostrar la existencia de una consciencia primera.' },
+      { russian: 'Большой взрыв произошел 13.780 миллионов лет назад.', correct: 'El Big Bang ocurrió hace 13.780 millones de años.' },
+      { russian: 'Жизнь появилась на нашей планете 4.000 миллионов лет назад.', correct: 'La vida apareció en nuestro planeta hace 4.000 millones de años.' },
+      { russian: 'Это основа всех религий.', correct: 'Es el principio de todas las religiones.' },
+      { russian: 'Мы называем его Богом, другие зовут Иеговой или Аллахом.', correct: 'Nosotros le llamamos Dios, otros lo llaman Jehová o Alá.' },
+      { russian: 'Существует первичное сознание, которое создало вселенную.', correct: 'Hay una consciencia primera que hizo el universo.' },
+      { russian: 'Голограмма имеет удивительное свойство.', correct: 'El holograma tiene una propiedad asombrosa.' },
+      { russian: 'Каждый фрагмент содержит целое.', correct: 'Cada fracción contiene el todo.' },
+      { russian: 'Вездесущность и вечность — божественные характеристики.', correct: 'La omnipresencia y la eternidad son características divinas.' },
+      { russian: 'Всемогущий создал этот целостный мир.', correct: 'El Todopoderoso creó este mundo holístico.' },
+      { russian: 'Переживания продолжают оставаться в нашем сознании.', correct: 'Las vivencias persisten en nuestra consciencia.' },
+      { russian: 'Наука и религия говорят об одном и том же.', correct: 'La ciencia y la religión hablan de lo mismo.' },
+      { russian: 'Воплоти эти идеи в своей жизни.', correct: 'Plasma estas ideas en tu vida.' },
+      { russian: 'Целостный подход включает всё.', correct: 'El enfoque holístico incluye todo.' },
+      { russian: 'Вечность не имеет начала и конца.', correct: 'La eternidad no tiene principio ni fin.' }
     ]
   },
 
