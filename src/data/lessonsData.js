@@ -28351,158 +28351,154 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
 
   'ex-9-6-dios-comprehension': {
     id: 'ex-9-6-dios-comprehension',
-    type: 'reading-comprehension',
-    title: 'Понимание текста: DIOS Existe y La CIENCIA Lo Sabe',
-    description: 'Ответьте на вопросы по тексту',
+    type: 'writing',
+    title: 'Análisis profundo del texto: DIOS Existe y La CIENCIA Lo Sabe',
+    description: 'Escribe tu análisis basado en el texto y consulta la respuesta',
+    showAnswerOption: true,
     questions: [
       {
-        question: '¿Qué podemos demostrar científicamente hoy según el texto?',
-        options: ['La inexistencia de Dios', 'La existencia de una consciencia primera', 'Que no hay diseñador inteligente', 'Que el universo no tiene origen'],
-        correct: 1
+        question: '¿Qué afirma el autor sobre la demostración científica de una "conciencia primera"?',
+        correct: 'El autor afirma que hoy podemos demostrar científicamente la existencia de una conciencia primera, de una inteligencia primera, de un diseñador inteligente. Es el principio de todas las religiones.'
       },
       {
-        question: '¿Cuántos millones de años hace que ocurrió el Big Bang?',
-        options: ['4.000 millones', '10.000 millones', '13.780 millones', '20.000 millones'],
-        correct: 2
+        question: '¿Cuáles son algunos de los nombres que las distintas religiones dan a esta conciencia?',
+        correct: 'Dios, Jehová, Alá, Tao, registro akáshico, Brahman - diferentes nombres para la misma conciencia primera.'
       },
       {
-        question: '¿Cuándo apareció la vida en nuestro planeta?',
-        options: ['Hace 1.000 millones de años', 'Hace 2.000 millones de años', 'Hace 4.000 millones de años', 'Hace 5.000 millones de años'],
-        correct: 2
+        question: '¿Hace cuántos años ocurrió el Big Bang y cuándo apareció la vida según el texto?',
+        correct: 'El Big Bang ocurrió hace 13.780 millones de años. La vida apareció en nuestro planeta hace 4.000 millones de años.'
       },
       {
-        question: '¿Qué nombres se mencionan para la consciencia primera?',
-        options: ['Solo Dios', 'Dios, Jehová, Alá, Tao, registro akáshico, Brahman', 'Solo Alá', 'Solo Jehová'],
-        correct: 1
+        question: '¿Cuál es la diferencia fundamental entre la conciencia local y la no local?',
+        correct: 'La conciencia local es propia de la actividad de las neuronas y desaparece con la muerte. La conciencia no local sale fuera del cerebro después de la muerte y persiste.'
       },
       {
-        question: 'Según el texto, ¿qué es el principio de todas las religiones?',
-        options: ['El amor', 'Una consciencia primera', 'La fe', 'La esperanza'],
-        correct: 1
+        question: '¿Qué tipo de vivencias explican la existencia de la conciencia no local?',
+        correct: 'Las experiencias cercanas a la muerte (ECM) explican la existencia de la conciencia no local, ya que los enfermos cuentan vivencias que persisten después de que la actividad neuronal desaparece.'
       },
       {
-        question: '¿Qué propiedad tiene el holograma según el texto?',
-        options: ['Es frágil', 'Cada fracción contiene el todo', 'No tiene propiedades', 'Se rompe fácilmente'],
-        correct: 1
+        question: '¿De qué concepto matemático deriva el término "holístico" y quién lo describió?',
+        correct: 'Holístico deriva del término fractal, un concepto matemático descrito por Mandelbrot, matemático de la Universidad de Yale.'
       },
       {
-        question: '¿Qué características tiene la consciencia primera?',
-        options: ['Limitada y temporal', 'Omnipresencia y eternidad', 'Débil y pasajera', 'Pequeña y efímera'],
-        correct: 1
+        question: '¿Cómo define el autor un fractal en relación con el "todo"?',
+        correct: 'Un fractal es cuando el todo está formado por múltiples partes que tienen la misma forma, el mismo diseño, pero son más pequeñas. Fractal viene de fraccionario - son fracciones que tienen las propiedades del todo.'
       },
       {
-        question: '¿Qué intervino en la aparición de vida?',
-        options: ['Solo la casualidad', 'El Big Bang y una inteligencia primera', 'Solo procesos químicos', 'Solo la evolución'],
-        correct: 1
+        question: '¿Cuáles son las cuatro propiedades principales de la conciencia primera mencionadas?',
+        correct: 'Omnipresencia (está en todas partes), eternidad, omnisciencia (lo sabe todo), y omnipotencia (lo puede todo).'
       },
       {
-        question: '¿Qué tipo de enfoque se menciona en el concepto holístico?',
-        options: ['Parcial', 'Completo y de conjunto', 'Fragmentado', 'Dividido'],
-        correct: 1
+        question: '¿Qué ejemplo se da para ilustrar la "omnisciencia" en los seres humanos?',
+        correct: 'La intuición es la expresión de la omnisciencia: saber lo que va a pasar, es expresión de nuestra supraconciencia.'
       },
       {
-        question: '¿Qué debe hacer la consciencia primera según el texto?',
-        options: ['Descansar', 'Plasmar su existencia', 'Desaparecer', 'Dormir'],
-        correct: 1
+        question: '¿Cómo se manifiesta la "omnipotencia" a través del arte?',
+        correct: 'La creatividad manifiesta la omnipotencia: toda obra de arte es crear de la nada, surge de la nada. Es obra del artista, expresión de su supraconciencia.'
+      },
+      {
+        question: '¿Qué se dice sobre la obra de arte y la supraconciencia del artista?',
+        correct: 'La obra de arte es la expresión de la supraconciencia del artista que se manifiesta con un lenguaje artístico: la pintura, la escultura, la música.'
+      },
+      {
+        question: '¿Cuál fue la famosa respuesta de Giacomo Puccini sobre su capacidad de componer óperas?',
+        correct: 'Puccini dijo: "Yo soy el obrero del Todopoderoso" - reconociendo que no era él quien creaba, sino que era un instrumento de la conciencia divina.'
+      },
+      {
+        question: '¿Cómo recibe Puccini la música según su testimonio?',
+        correct: 'Según Puccini, es la conciencia primera a través de su supraconciencia la que le da nota por nota, campo por campo en el pentagrama para que transmita a la humanidad la belleza de sus obras.'
+      },
+      {
+        question: '¿Qué otros compositores famosos compartían la visión de Puccini sobre la inspiración?',
+        correct: 'Brahms, Grieg, Strauss, Mozart, Beethoven y Händel compartían esta visión sobre la inspiración divina.'
+      },
+      {
+        question: '¿Cuál es la conclusión común de los músicos entrevistados por Arthur M. Abell?',
+        correct: 'Todos llegaron a la misma conclusión: que existe una conciencia interior, expresión de la conciencia primera en cada uno de nosotros, que se manifiesta al inspirarse y poder componer grandes obras.'
       }
     ]
   },
 
   'ex-9-6-dios-grammar': {
     id: 'ex-9-6-dios-grammar',
-    type: 'grammar',
-    title: 'Грамматика: DIOS Existe y La CIENCIA Lo Sabe',
-    description: 'Выберите правильную форму глагола',
+    type: 'fillblank',
+    title: 'Práctica de verbos (Contextual): DIOS Existe y La CIENCIA Lo Sabe',
+    description: 'Completa las frases con la forma correcta del verbo',
     questions: [
       {
-        sentence: 'Hoy ___ demostrar científicamente la existencia de Dios. (nosotros - poder)',
-        options: ['podemos', 'hemos podido', 'pudimos', 'podíamos'],
-        correct: 0,
-        explanation: 'Presente для общего утверждения'
+        sentence: 'Ayer el doctor _____ (explicar) sus investigaciones sobre las ECM.',
+        correct: 'explicó',
+        alternatives: []
       },
       {
-        sentence: 'La vida ___ en nuestro planeta hace 4.000 millones de años. (aparecer)',
-        options: ['aparece', 'ha aparecido', 'apareció', 'aparecía'],
-        correct: 2,
-        explanation: 'Pretérito indefinido для конкретного события в прошлом'
+        sentence: 'Siempre que Mozart _____ (componer), sentía una conexión divina.',
+        correct: 'componía',
+        alternatives: []
       },
       {
-        sentence: 'Esta mañana el científico ___ sobre la consciencia primera. (hablar)',
-        options: ['habla', 'ha hablado', 'habló', 'hablaba'],
-        correct: 1,
-        explanation: 'Pretérito perfecto с "esta mañana"'
+        sentence: 'Este año los científicos _____ (demostrar) nuevas teorías sobre la mente.',
+        correct: 'han demostrado',
+        alternatives: []
       },
       {
-        sentence: 'La fracción del holograma siempre ___ el todo. (contener)',
-        options: ['contiene', 'ha contenido', 'contuvo', 'contenía'],
-        correct: 0,
-        explanation: 'Presente для постоянного факта'
+        sentence: 'Es necesario que nosotros _____ (escuchar) nuestra voz interior.',
+        correct: 'escuchemos',
+        alternatives: []
       },
       {
-        sentence: 'Antiguamente, los filósofos ___ sobre la eternidad. (reflexionar)',
-        options: ['reflexionan', 'han reflexionado', 'reflexionaron', 'reflexionaban'],
-        correct: 3,
-        explanation: 'Pretérito imperfecto для регулярного действия в прошлом'
+        sentence: '¡_____ (Escribir, tú) tus sueños en un cuaderno cada mañana!',
+        correct: 'Escribe',
+        alternatives: []
       },
       {
-        sentence: '___ estas ideas en tu vida diaria. (tú - plasmar)',
-        options: ['Plasma', 'Plasmas', 'Plasmando', 'Plasmar'],
-        correct: 0,
-        explanation: 'Imperativo afirmativo для tú'
+        sentence: 'No _____ (olvidar, tú) que la vida es un regalo precioso.',
+        correct: 'olvides',
+        alternatives: []
       },
       {
-        sentence: 'No ___ en la omnipresencia divina. (tú - dudar)',
-        options: ['duda', 'dudes', 'dudas', 'dudar'],
-        correct: 1,
-        explanation: 'Imperativo negativo требует subjuntivo'
+        sentence: 'Cuando yo _____ (ser) pequeño, no entendía el concepto de infinito.',
+        correct: 'era',
+        alternatives: []
       },
       {
-        sentence: 'El Big Bang ___ hace 13.780 millones de años. (ocurrir)',
-        options: ['ocurre', 'ha ocurrido', 'ocurrió', 'ocurría'],
-        correct: 2,
-        explanation: 'Pretérito indefinido для конкретного события'
+        sentence: 'Espero que la humanidad _____ (llegar) a una conclusión sobre el alma.',
+        correct: 'llegue',
+        alternatives: []
       },
       {
-        sentence: '___ sobre la naturaleza holística del universo. (ustedes - meditar)',
-        options: ['Meditan', 'Mediten', 'Meditad', 'Meditar'],
-        correct: 1,
-        explanation: 'Imperativo afirmativo для ustedes'
+        sentence: 'Puccini _____ (crear) obras maestras que todavía nos emocionan.',
+        correct: 'creó',
+        alternatives: []
       },
       {
-        sentence: 'Últimamente nosotros ___ mucho sobre estas vivencias. (pensar)',
-        options: ['pensamos', 'hemos pensado', 'pensamos', 'pensábamos'],
-        correct: 1,
-        explanation: 'Pretérito perfecto с "últimamente"'
+        sentence: 'Me sorprende que la conciencia _____ (poder) salir del cuerpo.',
+        correct: 'pueda',
+        alternatives: []
       },
       {
-        sentence: 'Cuando era niño, ___ en la eternidad del alma. (yo - creer)',
-        options: ['creo', 'he creído', 'creí', 'creía'],
-        correct: 3,
-        explanation: 'Pretérito imperfecto для состояния в прошлом'
+        sentence: 'Hoy yo _____ (leer) un libro fascinante sobre fractales.',
+        correct: 'he leído',
+        alternatives: ['leí']
       },
       {
-        sentence: 'El concepto holístico ___ desde hace siglos. (persistir)',
-        options: ['persiste', 'ha persistido', 'persistió', 'persistía'],
-        correct: 0,
-        explanation: 'Presente для продолжающегося состояния'
+        sentence: '¡_____ (Mirar, vosotros) las estrellas y reflexionad sobre la eternidad!',
+        correct: 'Mirad',
+        alternatives: []
       },
       {
-        sentence: 'Ayer ___ un documental sobre la consciencia universal. (nosotros - ver)',
-        options: ['vemos', 'hemos visto', 'vimos', 'veíamos'],
-        correct: 2,
-        explanation: 'Pretérito indefinido с "ayer"'
+        sentence: 'Si tú _____ (tener) una intuición, deberías seguirla.',
+        correct: 'tienes',
+        alternatives: ['tuvieras', 'tuvieses']
       },
       {
-        sentence: 'Nunca ___ la omnipresencia divina de esta manera. (yo - entender)',
-        options: ['entiendo', 'he entendido', 'entendí', 'entendía'],
-        correct: 1,
-        explanation: 'Pretérito perfecto с "nunca"'
+        sentence: 'Antes los músicos _____ (creer) que eran simples obreros de Dios.',
+        correct: 'creían',
+        alternatives: []
       },
       {
-        sentence: '___ el significado profundo de estas propiedades. (usted - comprender)',
-        options: ['Comprende', 'Comprenda', 'Comprendes', 'Comprender'],
-        correct: 1,
-        explanation: 'Imperativo afirmativo para usted'
+        sentence: 'Es una pena que no _____ (haber) más estudios sobre la conciencia no local.',
+        correct: 'haya',
+        alternatives: []
       }
     ]
   },
