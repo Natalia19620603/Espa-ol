@@ -2244,7 +2244,7 @@ Objeto + está + preposición + del/de la + lugar.
       },
       {
         tab: 'Правильные глаголы',
-        exerciseIds: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
+        exerciseIds: ['ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms', 'ex-2-1-4']
       }
     ]
   },
@@ -12225,6 +12225,10 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
       {
         tab: 'La causa principal de las enfermedades',
         videoUrl: '/video/La causa principal de las enfermedades Sans Segarra.mp4'
+      },
+      {
+        tab: 'Dios existe y la ciencia lo sabe',
+        videoUrl: '/video/Dios existe y la ciencia lo sabe Sans Segarra.mp4'
       }
     ],
     vocabulary: [
@@ -13648,57 +13652,6 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   },
 
   // Упражнения модуля 2
-  'ex-2-1-1': {
-    id: 'ex-2-1-1',
-    type: 'grammar',
-    title: 'Спряжение -AR глаголов',
-    description: 'Выберите правильную форму глагола',
-    questions: [
-      { sentence: 'Yo ___ (hablar) español', options: ['hablo', 'hablas', 'habla', 'hablan'], correct: 0 },
-      { sentence: 'Tú ___ (estudiar) mucho', options: ['estudio', 'estudias', 'estudia', 'estudian'], correct: 1 },
-      { sentence: 'Ella ___ (trabajar) aquí', options: ['trabajo', 'trabajas', 'trabaja', 'trabajamos'], correct: 2 },
-      { sentence: 'Nosotros ___ (caminar) en el parque', options: ['camino', 'caminas', 'camina', 'caminamos'], correct: 3 },
-      { sentence: 'Ellos ___ (bailar) salsa', options: ['bailo', 'bailas', 'baila', 'bailan'], correct: 3 }
-    ]
-  },
-  'ex-2-1-2': {
-    id: 'ex-2-1-2',
-    type: 'vocabulary',
-    title: 'Глаголы действия',
-    description: 'Сопоставьте глагол с переводом',
-    questions: [
-      { spanish: 'hablar', options: ['работать', 'говорить', 'учиться', 'готовить'], correct: 1 },
-      { spanish: 'cocinar', options: ['танцевать', 'петь', 'готовить', 'покупать'], correct: 2 },
-      { spanish: 'bailar', options: ['танцевать', 'гулять', 'работать', 'слушать'], correct: 0 },
-      { spanish: 'comprar', options: ['готовить', 'покупать', 'продавать', 'учиться'], correct: 1 }
-    ]
-  },
-  'ex-2-1-3': {
-    id: 'ex-2-1-3',
-    type: 'reading',
-    title: 'Чтение: Диалоги в городе',
-    description: 'Прочитайте текст и ответьте на вопросы',
-    text: 'Диалог en la ciudad: Juan: ¡Hola! Yo soy Juan. ¿Y tú? Ana: Me llamo Ana. Soy joven y alegre. Juan: ¡Mucho gusto! La ciudad es grande. Ana: Sí, es grande y bonita. Ahora estoy en la calle. Juan: Yo estoy en casa. || Diálogo sobre ubicación: Felipe: Buenos días, señora. ¿Cómo se llama usted? Doña Clara: Me llamo Doña Clara. Soy rica. Felipe: Encantado. Yo soy Felipe, soy estudiante. Soy de Rusia. Doña Clara: Qué interesante... ¿De dónde es su hermano? Felipe: Mi hermano es de China. Él es ingeniero y está casado. || Diálogo sobre estados: Pedro: ¡Hola! ¿Cómo estás? Marta: Estoy regular. Mi mano está fría y tengo veinticinco años. Pedro: ¡Qué lástima! ¿Estás enferma? Marta: No, no estoy enferma, estoy triste. Soy soltera. ¿Y tú? Pedro: Yo soy policía. Soy alto y delgado. Ahora voy a la escuela con mi amigo Carlos. Marta: ¿Es fácil la escuela? Pedro: Es difícil, pero es interesante. Estamos contentos. Marta: Mi hermano está en la playa. El sol es caliente.',
-    questions: [
-      { question: '¿Cómo se llama el chico en el primer diálogo?', options: ['Pedro', 'Felipe', 'Juan', 'Carlos'], correct: 2 },
-      { question: '¿Cómo es Ana?', options: ['Triste y vieja', 'Joven y alegre', 'Rica y alta', 'Enferma y regular'], correct: 1 },
-      { question: '¿Cómo es la ciudad según Juan?', options: ['Pequeña', 'Antigua', 'Grande', 'Fría'], correct: 2 },
-      { question: '¿Dónde está Ana ahora?', options: ['En casa', 'En el museo', 'En la calle', 'En la playa'], correct: 2 },
-      { question: '¿Dónde está Juan?', options: ['En la calle', 'En casa', 'En la escuela', 'En el museo'], correct: 1 },
-      { question: '¿Cómo se llama la señora rica?', options: ['Ana', 'Marta', 'Doña Clara', 'No dice'], correct: 2 },
-      { question: '¿De dónde es Felipe?', options: ['De China', 'De Rusia', 'De España', 'De Perú'], correct: 1 },
-      { question: '¿Qué es Felipe?', options: ['Ingeniero', 'Estudiante', 'Policía', 'Profesor'], correct: 1 },
-      { question: '¿De dónde es el hermano de Felipe?', options: ['De Rusia', 'De España', 'De China', 'De Italia'], correct: 2 },
-      { question: '¿Qué es el hermano de Felipe?', options: ['Estudiante', 'Policía', 'Ingeniero', 'Profesor'], correct: 2 },
-      { question: '¿Cuántos años tiene Marta?', options: ['Veinte años', 'Veinticinco años', 'Treinta años', 'Dieciocho años'], correct: 1 },
-      { question: '¿Qué es Pedro?', options: ['Estudiante', 'Ingeniero', 'Policía', 'Médico'], correct: 2 },
-      { question: '¿Cómo es Pedro?', options: ['Bajo y gordo', 'Alto y delgado', 'Joven y alegre', 'Viejo y triste'], correct: 1 },
-      { question: '¿Adónde va Pedro?', options: ['Al museo', 'A la playa', 'A la escuela', 'A casa'], correct: 2 },
-      { question: '¿Cómo es la escuela según Pedro?', options: ['Fácil pero aburrida', 'Difícil pero interesante', 'Grande y bonita', 'Pequeña y antigua'], correct: 1 },
-      { question: '¿Dónde está el hermano de Marta?', options: ['En casa', 'En la escuela', 'En el museo', 'En la playa'], correct: 3 },
-      { question: '¿Cómo es el sol según Marta?', options: ['Frío', 'Caliente', 'Grande', 'Pequeño'], correct: 1 }
-    ]
-  },
   'ex-2-1-4': {
     id: 'ex-2-1-4',
     type: 'writing',
@@ -19689,24 +19642,24 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     showCorrectAnswer: true,
     highlightErrors: true,
     questions: [
-      { verb: 'hablar', tense: 'Presente', pronoun: 'yo', options: ['hablas', 'hablo', 'habla', 'hablamos'], correct: 1 },
-      { verb: 'hablar', tense: 'Presente', pronoun: 'tú', options: ['hablo', 'habla', 'hablas', 'hablan'], correct: 2 },
-      { verb: 'hablar', tense: 'Presente', pronoun: 'él', options: ['habla', 'hablo', 'hablan', 'habláis'], correct: 0 },
-      { verb: 'hablar', tense: 'Presente', pronoun: 'nosotros', options: ['hablan', 'habláis', 'hablamos', 'habla'], correct: 2 },
-      { verb: 'hablar', tense: 'Presente', pronoun: 'ellos', options: ['hablan', 'habla', 'hablamos', 'habláis'], correct: 0 },
-      { verb: 'llamar', tense: 'Presente', pronoun: 'yo', options: ['llama', 'llamo', 'llamas', 'llamamos'], correct: 1 },
-      { verb: 'llamar', tense: 'Presente', pronoun: 'ella', options: ['llaman', 'llamo', 'llama', 'llamas'], correct: 2 },
-      { verb: 'llamar', tense: 'Presente', pronoun: 'vosotros', options: ['llamáis', 'llaman', 'llamamos', 'llama'], correct: 0 },
-      { verb: 'preguntar', tense: 'Presente', pronoun: 'tú', options: ['pregunto', 'pregunta', 'preguntas', 'preguntan'], correct: 2 },
-      { verb: 'preguntar', tense: 'Presente', pronoun: 'nosotros', options: ['preguntamos', 'preguntan', 'pregunta', 'preguntáis'], correct: 0 },
-      { verb: 'preguntar', tense: 'Presente', pronoun: 'ellas', options: ['pregunta', 'preguntamos', 'preguntan', 'pregunto'], correct: 2 },
-      { verb: 'escuchar', tense: 'Presente', pronoun: 'yo', options: ['escuchas', 'escucha', 'escucho', 'escuchan'], correct: 2 },
-      { verb: 'escuchar', tense: 'Presente', pronoun: 'usted', options: ['escucha', 'escucho', 'escuchas', 'escuchan'], correct: 0 },
-      { verb: 'escuchar', tense: 'Presente', pronoun: 'nosotras', options: ['escuchamos', 'escuchan', 'escucha', 'escucho'], correct: 0 },
-      { verb: 'tomar', tense: 'Presente', pronoun: 'yo', options: ['tomas', 'toma', 'tomo', 'toman'], correct: 2 },
-      { verb: 'tomar', tense: 'Presente', pronoun: 'tú', options: ['tomo', 'tomas', 'toma', 'tomamos'], correct: 1 },
-      { verb: 'tomar', tense: 'Presente', pronoun: 'él', options: ['tomo', 'tomas', 'toma', 'tomamos'], correct: 2 },
-      { verb: 'tomar', tense: 'Presente', pronoun: 'ellos', options: ['toman', 'toma', 'tomamos', 'tomo'], correct: 0 }
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'yo', options: ['estudias', 'estudio', 'estudia', 'estudiamos'], correct: 1 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'tú', options: ['estudio', 'estudia', 'estudias', 'estudian'], correct: 2 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'él', options: ['estudia', 'estudio', 'estudian', 'estudiáis'], correct: 0 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'nosotros', options: ['estudian', 'estudiáis', 'estudiamos', 'estudia'], correct: 2 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'ellos', options: ['estudian', 'estudia', 'estudiamos', 'estudiáis'], correct: 0 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'yo', options: ['trabaja', 'trabajo', 'trabajas', 'trabajamos'], correct: 1 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'ella', options: ['trabajan', 'trabajo', 'trabaja', 'trabajas'], correct: 2 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'vosotros', options: ['trabajáis', 'trabajan', 'trabajamos', 'trabaja'], correct: 0 },
+      { verb: 'bailar', tense: 'Presente', pronoun: 'tú', options: ['bailo', 'baila', 'bailas', 'bailan'], correct: 2 },
+      { verb: 'bailar', tense: 'Presente', pronoun: 'nosotros', options: ['bailamos', 'bailan', 'baila', 'bailáis'], correct: 0 },
+      { verb: 'bailar', tense: 'Presente', pronoun: 'ellas', options: ['baila', 'bailamos', 'bailan', 'bailo'], correct: 2 },
+      { verb: 'viajar', tense: 'Presente', pronoun: 'yo', options: ['viajas', 'viaja', 'viajo', 'viajan'], correct: 2 },
+      { verb: 'viajar', tense: 'Presente', pronoun: 'usted', options: ['viaja', 'viajo', 'viajas', 'viajan'], correct: 0 },
+      { verb: 'viajar', tense: 'Presente', pronoun: 'nosotras', options: ['viajamos', 'viajan', 'viaja', 'viajo'], correct: 0 },
+      { verb: 'cocinar', tense: 'Presente', pronoun: 'yo', options: ['cocinas', 'cocina', 'cocino', 'cocinan'], correct: 2 },
+      { verb: 'cocinar', tense: 'Presente', pronoun: 'tú', options: ['cocino', 'cocinas', 'cocina', 'cocinamos'], correct: 1 },
+      { verb: 'cocinar', tense: 'Presente', pronoun: 'él', options: ['cocino', 'cocinas', 'cocina', 'cocinamos'], correct: 2 },
+      { verb: 'cocinar', tense: 'Presente', pronoun: 'ellos', options: ['cocinan', 'cocina', 'cocinamos', 'cocino'], correct: 0 }
     ]
   },
 
