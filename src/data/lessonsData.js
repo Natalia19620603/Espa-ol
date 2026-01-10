@@ -2235,10 +2235,6 @@ Objeto + está + preposición + del/de la + lugar.
     },
     exercises: [
       {
-        tab: 'Правильные глаголы',
-        exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
-      },
-      {
         tab: 'Предлоги',
         exercises: ['ex-1-5-prepositions-1', 'ex-1-5-prepositions-2']
       },
@@ -12325,7 +12321,12 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'la angustia', translation: 'тоска, печаль, беспокойство' },
           { word: 'padecer', translation: 'страдать от болезни' },
           { word: 'desencadenante', translation: 'вызывающий, провоцирующий' },
-          { word: 'predispuesto', translation: 'предрасположенный' }
+          { word: 'predispuesto', translation: 'предрасположенный' },
+          { word: 'la mente', translation: 'ум, разум' },
+          { word: 'el ego', translation: 'эго' },
+          { word: 'el hipotálamo', translation: 'гипоталамус' },
+          { word: 'la hipófisis', translation: 'гипофиз' },
+          { word: 'el cortisol', translation: 'кортизол' }
         ]
       }
     ],
@@ -28002,7 +28003,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'la angustia', options: ['радость', 'спокойствие', 'тоска, беспокойство', 'счастье'], correct: 2 },
       { spanish: 'padecer', options: ['радоваться', 'веселиться', 'страдать от болезни', 'выздоравливать'], correct: 2 },
       { spanish: 'desencadenante', options: ['успокаивающий', 'лечащий', 'вызывающий, провоцирующий', 'предотвращающий'], correct: 2 },
-      { spanish: 'predispuesto', options: ['защищенный', 'здоровый', 'предрасположенный', 'излеченный'], correct: 2 }
+      { spanish: 'predispuesto', options: ['защищенный', 'здоровый', 'предрасположенный', 'излеченный'], correct: 2 },
+      { spanish: 'la mente', options: ['тело', 'душа', 'ум, разум', 'сердце'], correct: 2 },
+      { spanish: 'el ego', options: ['альтруизм', 'скромность', 'эго', 'доброта'], correct: 2 },
+      { spanish: 'el hipotálamo', options: ['желудок', 'кишечник', 'гипоталамус', 'сердце'], correct: 2 },
+      { spanish: 'la hipófisis', options: ['щитовидная железа', 'поджелудочная', 'гипофиз', 'селезенка'], correct: 2 },
+      { spanish: 'el cortisol', options: ['инсулин', 'адреналин', 'кортизол', 'окситоцин'], correct: 2 }
     ]
   },
 
@@ -28061,6 +28067,31 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         question: '¿Qué tipo de medicina menciona el cirujano?',
         options: ['Alternativa', 'Convencional y método científico', 'Tradicional china', 'Homeopática'],
         correct: 1
+      },
+      {
+        question: '¿Qué libera las suprarrenales?',
+        options: ['Insulina', 'Cortisol y catecolaminas', 'Melatonina', 'Dopamina'],
+        correct: 1
+      },
+      {
+        question: '¿Qué son la adrenalina y noradrenalina?',
+        options: ['Vitaminas', 'Catecolaminas', 'Antibióticos', 'Proteínas'],
+        correct: 1
+      },
+      {
+        question: '¿Para qué son necesarias las catecolaminas?',
+        options: ['Para dormir', 'Para la respuesta neuroendocrina a la agresión', 'Para la digestión', 'Para crecer'],
+        correct: 1
+      },
+      {
+        question: '¿Qué determina el ego en nuestra sociedad?',
+        options: ['La felicidad', 'El amor', 'El estrés y la dinámica vital', 'La salud'],
+        correct: 2
+      },
+      {
+        question: '¿Cuántos años forman los residentes en cirugía con el cirujano?',
+        options: ['3 años', '4 años', '5 años', '6 años'],
+        correct: 2
       }
     ]
   },
@@ -28072,64 +28103,94 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Выберите правильную форму глагола',
     questions: [
       {
-        sentence: 'El estrés ___ muchos trastornos.',
-        options: ['provoca', 'provocaba', 'ha provocado', 'provocará'],
-        correct: 0,
-        explanation: 'Presente для общих фактов'
-      },
-      {
-        sentence: 'No ___ tanto estrés. (tener)',
-        options: ['tiene', 'tengas', 'tienes', 'tener'],
+        sentence: 'Esta mañana el cirujano ___ a tres personas. (operar)',
+        options: ['opera', 'ha operado', 'operó', 'operaba'],
         correct: 1,
-        explanation: 'Imperativo negativo требует subjuntivo'
+        explanation: 'Pretérito perfecto с "esta mañana"'
       },
       {
-        sentence: 'Yo ___ de muchas enfermedades en mi vida.',
-        options: ['padezco', 'he padecido', 'padecí', 'padeceré'],
-        correct: 1,
-        explanation: 'Pretérito perfecto для опыта в жизни'
-      },
-      {
-        sentence: 'El hipotálamo ___ sobre la hipófisis.',
-        options: ['actúa', 'actuaba', 'ha actuado', 'actuará'],
-        correct: 0,
-        explanation: 'Presente для постоянных процессов'
-      },
-      {
-        sentence: '¡___ tu sistema inmunitario! (proteger)',
-        options: ['Protege', 'Proteges', 'Protegiendo', 'Proteger'],
-        correct: 0,
-        explanation: 'Imperativo afirmativo tú'
-      },
-      {
-        sentence: 'El cortisol ___ trastornos graves ayer.',
-        options: ['provoca', 'ha provocado', 'provocó', 'provocará'],
+        sentence: 'Ayer yo ___ un ataque de estrés muy fuerte. (tener)',
+        options: ['tengo', 'he tenido', 'tuve', 'tenía'],
         correct: 2,
         explanation: 'Pretérito indefinido с "ayer"'
       },
       {
-        sentence: 'Nosotros ___ predispuestos a enfermedades esta semana.',
-        options: ['estamos', 'hemos estado', 'estuvimos', 'estaremos'],
+        sentence: 'Cuando era niño, no ___ tanta angustia como ahora. (sentir)',
+        options: ['siento', 'he sentido', 'sentí', 'sentía'],
+        correct: 3,
+        explanation: 'Pretérito imperfecto для регулярного действия в прошлом'
+      },
+      {
+        sentence: 'No ___ tan estresado, por favor. (tú - estar)',
+        options: ['estás', 'estés', 'estar', 'estarás'],
         correct: 1,
-        explanation: 'Pretérito perfecto с "esta semana"'
+        explanation: 'Imperativo negativo требует subjuntivo'
       },
       {
-        sentence: 'No ___ en estrés continuo. (vivir)',
-        options: ['vive', 'vivas', 'vives', 'vivir'],
+        sentence: '___ este informe sobre el cortisol. (usted - leer)',
+        options: ['Lee', 'Lea', 'Lees', 'Leer'],
         correct: 1,
-        explanation: 'Imperativo negativo (subjuntivo)'
+        explanation: 'Imperativo afirmativo para usted'
       },
       {
-        sentence: 'Las suprarrenales ___ cortisol cuando hay estrés.',
-        options: ['liberan', 'liberaban', 'han liberado', 'liberarán'],
-        correct: 0,
-        explanation: 'Presente для обычных процессов'
+        sentence: 'La semana pasada nosotros ___ a la clínica convencional. (ir)',
+        options: ['vamos', 'hemos ido', 'fuimos', 'íbamos'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "la semana pasada"'
       },
       {
-        sentence: '¡___ tu ego! (controlar)',
-        options: ['Controla', 'Controlas', 'Controlando', 'Controlar'],
+        sentence: 'Últimamente ___ mucho insomnio. (yo - padecer)',
+        options: ['padezco', 'he padecido', 'padecí', 'padecía'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "últimamente"'
+      },
+      {
+        sentence: 'Antes, la gente ___ con menos presión social. (vivir)',
+        options: ['vive', 'ha vivido', 'vivió', 'vivía'],
+        correct: 3,
+        explanation: 'Pretérito imperfecto с "antes"'
+      },
+      {
+        sentence: '___ mejor sus emociones. (ustedes - gestionar)',
+        options: ['Gestionan', 'Gestionen', 'Gestionad', 'Gestionar'],
+        correct: 1,
+        explanation: 'Imperativo afirmativo para ustedes'
+      },
+      {
+        sentence: 'El año pasado ___ un congreso sobre el ego. (haber)',
+        options: ['hay', 'ha habido', 'hubo', 'había'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "el año pasado"'
+      },
+      {
+        sentence: '___ tu sistema inmunitario. (tú - cuidar)',
+        options: ['Cuida', 'Cuidas', 'Cuidando', 'Cuidar'],
         correct: 0,
-        explanation: 'Imperativo afirmativo tú'
+        explanation: 'Imperativo afirmativo para tú'
+      },
+      {
+        sentence: 'Cuando el médico entró, el paciente ___ muy nervioso. (estar)',
+        options: ['está', 'ha estado', 'estuvo', 'estaba'],
+        correct: 3,
+        explanation: 'Pretérito imperfecto para состояния в момент другого действия'
+      },
+      {
+        sentence: 'Nunca ___ un trastorno tan grave. (nosotros - ver)',
+        options: ['vemos', 'hemos visto', 'vimos', 'veíamos'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "nunca"'
+      },
+      {
+        sentence: 'No ___ tanta adrenalina innecesariamente. (tú - liberar)',
+        options: ['libera', 'liberes', 'liberas', 'liberar'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Ayer el hipotálamo ___ un estímulo negativo. (recibir)',
+        options: ['recibe', 'ha recibido', 'recibió', 'recibía'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
       }
     ]
   },
@@ -28140,16 +28201,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Перевод с русского: La causa principal de las enfermedades',
     description: 'Переведите фразы с русского на испанский',
     questions: [
-      { russian: 'Основная причина - это ум и эго.', correct: 'La causa fundamental es la mente y el ego.' },
-      { russian: 'Упорный стресс вызывает стимуляцию гипоталамуса.', correct: 'El estrés persistente condiciona un estímulo del hipotálamo.' },
-      { russian: 'Надпочечники выделяют кортизол.', correct: 'Las suprarrenales liberan cortisol.' },
-      { russian: 'Кортизол вызывает нарушения сердца.', correct: 'El cortisol provoca trastornos del corazón.' },
-      { russian: 'Стресс вызывает бессонницу и тоску.', correct: 'El estrés condiciona insomnio y angustia.' },
-      { russian: 'Одна минута интенсивного стресса снижает иммунную систему.', correct: 'Un minuto de estrés intenso provoca una caída del sistema inmunitario.' },
-      { russian: 'Мы предрасположены страдать от инфекций.', correct: 'Estamos predispuestos a padecer infecciones.' },
-      { russian: 'Хирург работает с научным методом.', correct: 'El cirujano trabaja con el método científico.' },
-      { russian: 'Эго и стресс - провоцирующие факторы.', correct: 'El ego y el estrés son factores desencadenantes.' },
-      { russian: 'Более 90% заболеваний связаны с эго.', correct: 'Más del 90% de las enfermedades están relacionadas con el ego.' }
+      { russian: 'Постоянный стресс вызывает серьезные нарушения в организме.', correct: 'El estrés persistente provoca trastornos graves en el organismo.' },
+      { russian: 'Хирург сказал, что пациент предрасположен к инфекциям.', correct: 'El cirujano dijo que el paciente está predispuesto a las infecciones.' },
+      { russian: 'Надпочечники начали выделять кортизол из-за беспокойства.', correct: 'Las suprarrenales empezaron a liberar cortisol por la angustia.' },
+      { russian: 'Обычно традиционная медицина использует научный метод.', correct: 'Normalmente la medicina convencional usa el método científico.' },
+      { russian: 'Эго является провоцирующим фактором многих болезней.', correct: 'El ego es un factor desencadenante de muchas enfermedades.' },
+      { russian: 'Он страдает от потери памяти из-за высокого уровня стресса.', correct: 'Padece pérdida de memoria por el alto nivel de estrés.' },
+      { russian: 'Это серьезная ситуация, которая требует внимания.', correct: 'Esta es una situación seria que requiere atención.' },
+      { russian: 'Изначально факторы казались генетическими.', correct: 'A priori los factores parecían genéticos.' },
+      { russian: 'Постоянное беспокойство мешает обучению.', correct: 'La angustia persistente dificulta el aprendizaje.' },
+      { russian: 'Врачи обнаружили нарушение в ритме сердца.', correct: 'Los médicos descubrieron un trastorno en el ritmo del corazón.' },
+      { russian: 'Не страдай из-за этого пустяка.', correct: 'No padezcas por esta tontería.' },
+      { russian: 'Хирурги закончили операцию час назад.', correct: 'Los cirujanos terminaron la operación hace una hora.' },
+      { russian: 'Тяжелая болезнь изменила его жизнь.', correct: 'La enfermedad grave cambió su vida.' },
+      { russian: 'Стресс — это настойчивый враг нашего здоровья.', correct: 'El estrés es un enemigo persistente de nuestra salud.' },
+      { russian: 'Мы предрасположены к онкологии.', correct: 'Estamos predispuestos al cáncer.' }
     ]
   },
 
