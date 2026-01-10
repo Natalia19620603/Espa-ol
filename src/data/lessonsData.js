@@ -28265,21 +28265,87 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // Урок 9.6 - DIOS Existe y La CIENCIA Lo Sabe exercises
   'ex-9-6-dios-vocab': {
     id: 'ex-9-6-dios-vocab',
-    type: 'vocabulary',
+    type: 'fillblank',
     title: 'Словарь: DIOS Existe y La CIENCIA Lo Sabe',
-    description: 'Выберите правильный перевод',
+    description: `Usa estas palabras para completar:
+
+fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, propiedad, creatividad, vivencias, eternidad, consciencia, intuición, fractal, omnipresencia`,
     questions: [
-      { spanish: 'la consciencia', options: ['тело', 'сознание, осознанность', 'чувство', 'мысль'], correct: 1 },
-      { spanish: 'las vivencias', options: ['воспоминания', 'переживания', 'мечты', 'планы'], correct: 1 },
-      { spanish: 'persistir', options: ['исчезать', 'оставаться, продолжаться', 'начинать', 'заканчивать'], correct: 1 },
-      { spanish: 'holístico', options: ['частичный', 'всеобъемлющий, целостный', 'простой', 'сложный'], correct: 1 },
-      { spanish: 'el holograma', options: ['фотография', 'голограмма', 'картина', 'рисунок'], correct: 1 },
-      { spanish: 'la fracción', options: ['целое', 'фрагмент', 'часть', 'все'], correct: 1 },
-      { spanish: 'la propiedad', options: ['бедность', 'собственность, свойство', 'долг', 'аренда'], correct: 1 },
-      { spanish: 'la omnipresencia', options: ['отсутствие', 'вездесущность', 'редкость', 'слабость'], correct: 1 },
-      { spanish: 'la eternidad', options: ['мгновение', 'час', 'вечность', 'минута'], correct: 2 },
-      { spanish: 'El Todopoderoso', options: ['Слабый', 'Всемогущий', 'Обычный', 'Простой'], correct: 1 },
-      { spanish: 'plasmar', options: ['разрушать', 'воплощать в жизнь', 'забывать', 'терять'], correct: 1 }
+      {
+        sentence: 'El músico intentó _____ su emoción en la partitura.',
+        correct: 'plasmar',
+        alternatives: []
+      },
+      {
+        sentence: 'La _____ es lo que nos permite darnos cuenta de nuestra existencia.',
+        correct: 'consciencia',
+        alternatives: []
+      },
+      {
+        sentence: 'Nuestras _____ pasadas definen cómo vemos el mundo hoy.',
+        correct: 'vivencias',
+        alternatives: []
+      },
+      {
+        sentence: 'Aunque el cuerpo muera, algunos creen que el alma puede _____.',
+        correct: 'persistir',
+        alternatives: []
+      },
+      {
+        sentence: 'Necesitamos un enfoque _____ para entender la salud mental y física.',
+        correct: 'holístico',
+        alternatives: []
+      },
+      {
+        sentence: 'El universo funciona como un gran _____ donde todo está conectado.',
+        correct: 'holograma',
+        alternatives: []
+      },
+      {
+        sentence: 'Cada _____ de un fractal repite el patrón del todo.',
+        correct: 'fracción',
+        alternatives: []
+      },
+      {
+        sentence: 'La _____ de saberlo todo se llama omnisciencia.',
+        correct: 'propiedad',
+        alternatives: []
+      },
+      {
+        sentence: 'Dios posee la _____: está en todas partes al mismo tiempo.',
+        correct: 'omnipresencia',
+        alternatives: []
+      },
+      {
+        sentence: 'El concepto de la _____ asusta a quienes temen el paso del tiempo.',
+        correct: 'eternidad',
+        alternatives: []
+      },
+      {
+        sentence: 'Puccini decía que trabajaba para el _____.',
+        correct: 'todopoderoso',
+        alternatives: []
+      },
+      {
+        sentence: 'La _____ es la voz interior que nos guía sin lógica aparente.',
+        correct: 'intuición',
+        alternatives: []
+      },
+      {
+        sentence: 'La _____ humana es capaz de crear belleza de la nada.',
+        correct: 'creatividad',
+        alternatives: []
+      },
+      {
+        sentence: 'Un _____ es una figura geométrica cuya estructura se repite a diferentes escalas.',
+        correct: 'fractal',
+        alternatives: []
+      },
+      {
+        sentence: 'La _____ no local sugiere que nuestra mente no está limitada al cerebro.',
+        correct: 'conciencia',
+        alternatives: []
+      }
     ]
   },
 
