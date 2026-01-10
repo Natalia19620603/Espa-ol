@@ -12336,6 +12336,22 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'la hipófisis', translation: 'гипофиз' },
           { word: 'el cortisol', translation: 'кортизол' }
         ]
+      },
+      {
+        tab: 'DIOS Existe y La CIENCIA Lo Sabe',
+        words: [
+          { word: 'la consciencia', translation: 'сознание, осознанность' },
+          { word: 'las vivencias', translation: 'переживания' },
+          { word: 'persistir', translation: 'оставаться, продолжаться' },
+          { word: 'holístico', translation: 'всеобъемлющий, комплексный, целостный' },
+          { word: 'el holograma', translation: 'голограмма' },
+          { word: 'la fracción', translation: 'фрагмент' },
+          { word: 'la propiedad', translation: 'собственность, свойство' },
+          { word: 'la omnipresencia', translation: 'вездесущность' },
+          { word: 'la eternidad', translation: 'вечность' },
+          { word: 'El Todopoderoso', translation: 'Всемогущий' },
+          { word: 'plasmar', translation: 'воплощать в жизнь' }
+        ]
       }
     ],
     readingText: [
@@ -12431,6 +12447,19 @@ Y una depresión importantísima sobre nuestro sistema inmunitario, tanto el cel
 Está demostrado que un minuto de estrés intenso provoca una caída del sistema inmunitario que dura 6 horas, lo que nos predispone entonces —la persona estresada— a padecer infecciones, enfermedades autoinmunes y cáncer.
 
 Fíjense bien que le he dicho las causas que condicionan las enfermedades más frecuentes que determinan la mortalidad en nuestra civilización. Por lo tanto, hoy día podemos decir que más del 90% de las enfermedades —uno de los factores, hay enfermedades multifactoriales que intervienen varios factores— pero uno de los factores desencadenantes importantísimos es el ego y el estrés que condiciona este ego en nuestra dinámica vital.`,
+        translation: ``
+      },
+      {
+        tab: 'DIOS Existe y La CIENCIA Lo Sabe',
+        content: `DIOS Existe y La CIENCIA Lo Sabe
+
+Hoy podemos demostrar científicamente la existencia de una conciencia primera, de una inteligencia primera, de un diseñador inteligente. Es el principio de todas las religiones. Nosotros le llamamos Dios, otros se llaman Jehová, Alá, Tao, registro akáshico, Brahman… llámele como quiera. Hay una conciencia primera que es la que hizo el universo. El Big Bang hace pues 13.780 millones de años intervino la aparición de vida en nuestro planeta hace 4.000 millones de años.
+
+Y en segundo lugar, yo demostramos por lo que nos cuentan estos enfermos que tenemos una conciencia no local. Tenemos una conciencia local que es propia de la actividad de las neuronas, que desaparece con la muerte. Al morir la neurona la actividad intelectiva desaparece. Es lo que a mí me extrañaba de estos. Pero estos enfermos cuentan una serie de vivencias porque persiste otra conciencia que es no local, es decir, que sale fuera del cerebro de la persona después de la muerte, que persiste y que nos explica todos estos fenómenos de experiencias cercanas a la muerte. Y que esta conciencia es holística respecto a la conciencia primera que le dicho.
+
+Holística deriva del término fractal, que es un término matemático descrito por Mandelbrot, matemático de la Universidad de Yale, que nos dice que el todo —la conciencia primera, el holograma total— está formado por múltiples partes que tienen la misma forma, el mismo diseño, pero son más pequeñas. Fractal viene de fraccionario, son fracciones, pero tiene sus propiedades. ¿Y cuáles son de la conciencia primera? Omnipresencia, eternidad, omnisciencia —lo sabe todo—. Recuerden la intuición: la intuición es saber lo que va a pasar, es expresión de nuestra supraconciencia. Y la omnipotencia: lo puede todo. Recuerden la creatividad: toda obra de arte es crear del nada, surge del nada. Es obra del artista, es la expresión de la supraconciencia del artista que se manifiesta o lo expresa con un lenguaje artístico: la pintura, la escultura, la música.
+
+Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera como La Bohème o Madame Butterfly. ¿Sabes cuál fue la respuesta de él? Dice: "Yo soy el obrero del Todopoderoso". Es la conciencia primera a través de mi supraconciencia que me da nota por nota, campo por campo en el pentagrama para que transmita a la humanidad la belleza de la Madame Butterfly o La Bohème. Y esto lo dijo Brahms, Grieg, Strauss, Giacomo Puccini, Mozart, Beethoven, Händel. Hay un libro precioso de un periodista norteamericano que es "Inspiración y composición", escrito por Arthur M. Abell, un periodista que entrevistó a todos estos grandes músicos que han dejado, han plasmado una música extraordinaria, expresión total de su supraconciencia. Y todos ellos llegan a la misma conclusión: qué es esta conciencia interior, expresión de la conciencia primera en cada uno de nosotros que se manifiesta al inspirarse y poder componer una obra como es la Novena Sinfonía o un concierto de Mozart.`,
         translation: ``
       }
     ],
