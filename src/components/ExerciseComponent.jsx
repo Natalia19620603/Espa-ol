@@ -627,6 +627,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               onAnswer={handleAnswer}
               exerciseId={exercise.id}
               currentQuestionIndex={currentQuestion}
+              showAnswerOption={exercise.showAnswerOption}
             />
           )}
           {exercise.type === 'multi-part' && (
@@ -2176,15 +2177,19 @@ function ReadingComprehensionQuestion({ question, onAnswer }) {
   )
 }
 
-function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIndex = 0 }) {
+function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIndex = 0, showAnswerOption = false }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
+  const [submitted, setSubmitted] = useState(false)
+  const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
 
   // Сбросить состояние при изменении вопроса
   useEffect(() => {
     setInput('')
     setShowFeedback(false)
+    setSubmitted(false)
+    setShowCorrectAnswer(false)
     if (timeoutId) {
       clearTimeout(timeoutId)
       setTimeoutId(null)
@@ -2213,7 +2218,9 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
     e.preventDefault()
     if (input.trim()) {
       const normalizedInput = normalizeAnswer(input)
-      const normalizedCorrect = normalizeAnswer(question.correct)
+      // Support both 'spanish' and 'correct' field names
+      const correctAnswer = question.spanish || question.correct
+      const normalizedCorrect = normalizeAnswer(correctAnswer)
 
       // Проверяем основной ответ
       let isCorrect = normalizedInput === normalizedCorrect
@@ -2223,17 +2230,29 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
         isCorrect = question.alternatives.some(alt => normalizeAnswer(alt) === normalizedInput)
       }
 
-      if (!isCorrect) {
-        setShowFeedback(true)
-        const id = setTimeout(() => {
-          setShowFeedback(false)
+      if (showAnswerOption) {
+        // Если включена опция показа ответа, просто отмечаем как отправленное
+        setSubmitted(true)
+        if (isCorrect) {
+          // Если ответ правильный, автоматически переходим к следующему вопросу
           onAnswer(input)
           setInput('')
-        }, 15000)
-        setTimeoutId(id)
+          setSubmitted(false)
+        }
       } else {
-        onAnswer(input)
-        setInput('')
+        // Обычное поведение (без опции показа ответа)
+        if (!isCorrect) {
+          setShowFeedback(true)
+          const id = setTimeout(() => {
+            setShowFeedback(false)
+            onAnswer(input)
+            setInput('')
+          }, 15000)
+          setTimeoutId(id)
+        } else {
+          onAnswer(input)
+          setInput('')
+        }
       }
     }
   }
@@ -2246,6 +2265,17 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
     setShowFeedback(false)
     onAnswer(input)
     setInput('')
+  }
+
+  const handleShowAnswer = () => {
+    setShowCorrectAnswer(true)
+  }
+
+  const handleProceed = () => {
+    onAnswer(input)
+    setInput('')
+    setSubmitted(false)
+    setShowCorrectAnswer(false)
   }
 
   // Определяем текст для заголовка в зависимости от ID упражнения и номера вопроса
@@ -2273,16 +2303,33 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
           className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder="Введите перевод на испанском"
           autoFocus
-          disabled={showFeedback}
+          disabled={showFeedback || submitted}
         />
-        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback || submitted}>
           Ответить
         </button>
       </form>
       {showFeedback && (
         <p className={styles.correctAnswerText}>
-          Правильный ответ: {question.correct}
+          Правильный ответ: {question.spanish || question.correct}
         </p>
+      )}
+      {showAnswerOption && submitted && !showCorrectAnswer && (
+        <div className={styles.showAnswerContainer}>
+          <button onClick={handleShowAnswer} className={styles.showAnswerBtn}>
+            Показать правильный ответ
+          </button>
+        </div>
+      )}
+      {showAnswerOption && submitted && showCorrectAnswer && (
+        <div className={styles.answerDisplayContainer}>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.spanish || question.correct}
+          </p>
+          <button onClick={handleProceed} className={styles.proceedBtn}>
+            Продолжить
+          </button>
+        </div>
       )}
     </div>
   )
