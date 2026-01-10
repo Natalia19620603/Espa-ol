@@ -12221,6 +12221,10 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
       {
         tab: 'Abrazos y Oxitocina',
         videoUrl: '/video/Abrazos y Oxitocina.mp4'
+      },
+      {
+        tab: 'La causa principal de las enfermedades',
+        videoUrl: '/video/La causa principal de las enfermedades Sans Segarra.mp4'
       }
     ],
     vocabulary: [
@@ -12308,6 +12312,21 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
           { word: 'estar acatarrado', translation: 'быть простуженным' },
           { word: 'el depredador', translation: 'хищник' }
         ]
+      },
+      {
+        tab: 'La causa principal de las enfermedades',
+        words: [
+          { word: 'grave, serio', translation: 'тяжелый, серьезный' },
+          { word: 'el cirujano', translation: 'хирург' },
+          { word: 'convencional', translation: 'обычный, традиционный' },
+          { word: 'persistente', translation: 'упорный, настойчивый' },
+          { word: 'los suprarrenales', translation: 'надпочечники' },
+          { word: 'el trastorno', translation: 'расстройство, нарушение' },
+          { word: 'la angustia', translation: 'тоска, печаль, беспокойство' },
+          { word: 'padecer', translation: 'страдать от болезни' },
+          { word: 'desencadenante', translation: 'вызывающий, провоцирующий' },
+          { word: 'predispuesto', translation: 'предрасположенный' }
+        ]
       }
     ],
     readingText: [
@@ -12375,6 +12394,35 @@ Y entonces en ese momento el sistema parasimpático, que es el que debe proteger
 
 Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunión está acatarrado, es más fácil que yo me acatarre, porque cuando el sistema nervioso simpático se activa, no le importa que tú te acatarres o no. Lo que le importa es que no te coma un depredador.`,
         translation: ``
+      },
+      {
+        tab: 'La causa principal de las enfermedades',
+        content: `Las enfermedades del siglo XXI
+
+Le quería preguntar cuál es la causa de las enfermedades del siglo XXI. Miren, la causa de las enfermedades actualmente —y le habla un cirujano, cirujano se mueve fundamentalmente, yo me muevo con el método científico, con la medicina convencional totalmente, es lo que enseño a mis estudiantes de medicina y a los residentes que durante 5 años están en el servicio mío para formarles en cirugía general digestiva—.
+
+La causa fundamental es la mente y la causa fundamental de nuestra sociedad actual es el ego y el estrés que condiciona el ego con la dinámica vital que determina este ego.
+
+Y hoy sabemos cómo actúa el estrés. El estrés persistente en que vive el ser humano condiciona un estímulo del hipotálamo. El hipotálamo actúa sobre la hipófisis y la hipófisis, a través del ACTH (hormona adrenocorticotropa), actúa sobre las suprarrenales que le empiezan a liberar cortisol y catecolaminas: adrenalina y noradrenalina. Estas son necesarias para la respuesta neuroendocrina a la agresión, pero comportan un consumo energético tremendo para el organismo. Entonces, una vez han hecho su función, desaparecen. Pero la persona que está en estrés continuo, continuamente está liberando cortisol y catecolaminas.
+
+Y la persistencia del cortisol y catecolaminas provocan:
+
+Trastornos del corazón, del ritmo.
+
+Trastornos de la tensión arterial (hipertensión).
+
+Trastornos del metabolismo del colesterol.
+
+Trastornos digestivos.
+
+A nivel cerebral condicionan insomnio, angustia, pérdida de memoria, dificultad en el aprendizaje y en la capacidad de gestionar las emociones.
+
+Y una depresión importantísima sobre nuestro sistema inmunitario, tanto el celular como el humoral.
+
+Está demostrado que un minuto de estrés intenso provoca una caída del sistema inmunitario que dura 6 horas, lo que nos predispone entonces —la persona estresada— a padecer infecciones, enfermedades autoinmunes y cáncer.
+
+Fíjense bien que le he dicho las causas que condicionan las enfermedades más frecuentes que determinan la mortalidad en nuestra civilización. Por lo tanto, hoy día podemos decir que más del 90% de las enfermedades —uno de los factores, hay enfermedades multifactoriales que intervienen varios factores— pero uno de los factores desencadenantes importantísimos es el ego y el estrés que condiciona este ego en nuestra dinámica vital.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -12421,6 +12469,15 @@ Aunque te parezca mentira, en ese momento, si uno de los miembros de esa reunió
           { name: 'Понимание текста', exercises: ['ex-9-6-abrazos-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-6-abrazos-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-9-6-abrazos-translation'] }
+        ]
+      },
+      {
+        tab: 'La causa principal de las enfermedades',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-6-enfermedades-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-6-enfermedades-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-6-enfermedades-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-9-6-enfermedades-translation'] }
         ]
       }
     ]
@@ -27926,6 +27983,173 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Окситоцин может остановить ось стресса.', correct: 'La oxitocina puede cortar el eje del estrés.' },
       { russian: 'Это неоспоримо на научном уровне.', correct: 'Esto es incuestionable a nivel científico.' },
       { russian: 'То, чему сопротивляешься, сохраняется.', correct: 'Lo que se resiste, persiste.' }
+    ]
+  },
+
+  // La causa principal de las enfermedades exercises
+  'ex-9-6-enfermedades-vocab': {
+    id: 'ex-9-6-enfermedades-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: La causa principal de las enfermedades',
+    description: 'Выберите правильный перевод',
+    questions: [
+      { spanish: 'grave, serio', options: ['легкий', 'тяжелый, серьезный', 'простой', 'веселый'], correct: 1 },
+      { spanish: 'el cirujano', options: ['терапевт', 'хирург', 'медсестра', 'пациент'], correct: 1 },
+      { spanish: 'convencional', options: ['необычный', 'странный', 'обычный, традиционный', 'современный'], correct: 2 },
+      { spanish: 'persistente', options: ['слабый', 'временный', 'упорный, настойчивый', 'случайный'], correct: 2 },
+      { spanish: 'los suprarrenales', options: ['почки', 'легкие', 'надпочечники', 'печень'], correct: 2 },
+      { spanish: 'el trastorno', options: ['здоровье', 'сила', 'расстройство, нарушение', 'энергия'], correct: 2 },
+      { spanish: 'la angustia', options: ['радость', 'спокойствие', 'тоска, беспокойство', 'счастье'], correct: 2 },
+      { spanish: 'padecer', options: ['радоваться', 'веселиться', 'страдать от болезни', 'выздоравливать'], correct: 2 },
+      { spanish: 'desencadenante', options: ['успокаивающий', 'лечащий', 'вызывающий, провоцирующий', 'предотвращающий'], correct: 2 },
+      { spanish: 'predispuesto', options: ['защищенный', 'здоровый', 'предрасположенный', 'излеченный'], correct: 2 }
+    ]
+  },
+
+  'ex-9-6-enfermedades-comprehension': {
+    id: 'ex-9-6-enfermedades-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: La causa principal de las enfermedades',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        question: '¿Cuál es la causa fundamental de las enfermedades según el texto?',
+        options: ['Los virus', 'La mente y el ego', 'La genética', 'La alimentación'],
+        correct: 1
+      },
+      {
+        question: '¿Qué libera el hipotálamo bajo estrés?',
+        options: ['Oxitocina', 'Cortisol y catecolaminas', 'Insulina', 'Melatonina'],
+        correct: 1
+      },
+      {
+        question: '¿Qué trastornos provoca la persistencia del cortisol?',
+        options: ['Solo digestivos', 'Solo cardíacos', 'Cardíacos, digestivos, cerebrales e inmunitarios', 'Solo cerebrales'],
+        correct: 2
+      },
+      {
+        question: '¿Cuánto dura la caída del sistema inmunitario después de un minuto de estrés intenso?',
+        options: ['1 hora', '3 horas', '6 horas', '12 horas'],
+        correct: 2
+      },
+      {
+        question: '¿A qué nos predispone el estrés?',
+        options: ['A la felicidad', 'A infecciones, enfermedades autoinmunes y cáncer', 'A la longevidad', 'A la fuerza física'],
+        correct: 1
+      },
+      {
+        question: '¿Qué porcentaje de enfermedades están relacionadas con el ego y el estrés?',
+        options: ['50%', '70%', 'Más del 90%', '100%'],
+        correct: 2
+      },
+      {
+        question: '¿Qué es el ACTH?',
+        options: ['Una vitamina', 'Una hormona adrenocorticotropa', 'Un tipo de estrés', 'Un medicamento'],
+        correct: 1
+      },
+      {
+        question: '¿Qué actúa sobre las suprarrenales?',
+        options: ['El estómago', 'La hipófisis a través del ACTH', 'El corazón', 'Los pulmones'],
+        correct: 1
+      },
+      {
+        question: '¿Qué condicionan el cortisol y las catecolaminas a nivel cerebral?',
+        options: ['Mejor memoria', 'Insomnio, angustia, pérdida de memoria', 'Mayor inteligencia', 'Mejor concentración'],
+        correct: 1
+      },
+      {
+        question: '¿Qué tipo de medicina menciona el cirujano?',
+        options: ['Alternativa', 'Convencional y método científico', 'Tradicional china', 'Homeopática'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-9-6-enfermedades-grammar': {
+    id: 'ex-9-6-enfermedades-grammar',
+    type: 'grammar',
+    title: 'Грамматика: La causa principal de las enfermedades',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        sentence: 'El estrés ___ muchos trastornos.',
+        options: ['provoca', 'provocaba', 'ha provocado', 'provocará'],
+        correct: 0,
+        explanation: 'Presente для общих фактов'
+      },
+      {
+        sentence: 'No ___ tanto estrés. (tener)',
+        options: ['tiene', 'tengas', 'tienes', 'tener'],
+        correct: 1,
+        explanation: 'Imperativo negativo требует subjuntivo'
+      },
+      {
+        sentence: 'Yo ___ de muchas enfermedades en mi vida.',
+        options: ['padezco', 'he padecido', 'padecí', 'padeceré'],
+        correct: 1,
+        explanation: 'Pretérito perfecto для опыта в жизни'
+      },
+      {
+        sentence: 'El hipotálamo ___ sobre la hipófisis.',
+        options: ['actúa', 'actuaba', 'ha actuado', 'actuará'],
+        correct: 0,
+        explanation: 'Presente для постоянных процессов'
+      },
+      {
+        sentence: '¡___ tu sistema inmunitario! (proteger)',
+        options: ['Protege', 'Proteges', 'Protegiendo', 'Proteger'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      },
+      {
+        sentence: 'El cortisol ___ trastornos graves ayer.',
+        options: ['provoca', 'ha provocado', 'provocó', 'provocará'],
+        correct: 2,
+        explanation: 'Pretérito indefinido с "ayer"'
+      },
+      {
+        sentence: 'Nosotros ___ predispuestos a enfermedades esta semana.',
+        options: ['estamos', 'hemos estado', 'estuvimos', 'estaremos'],
+        correct: 1,
+        explanation: 'Pretérito perfecto с "esta semana"'
+      },
+      {
+        sentence: 'No ___ en estrés continuo. (vivir)',
+        options: ['vive', 'vivas', 'vives', 'vivir'],
+        correct: 1,
+        explanation: 'Imperativo negativo (subjuntivo)'
+      },
+      {
+        sentence: 'Las suprarrenales ___ cortisol cuando hay estrés.',
+        options: ['liberan', 'liberaban', 'han liberado', 'liberarán'],
+        correct: 0,
+        explanation: 'Presente для обычных процессов'
+      },
+      {
+        sentence: '¡___ tu ego! (controlar)',
+        options: ['Controla', 'Controlas', 'Controlando', 'Controlar'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú'
+      }
+    ]
+  },
+
+  'ex-9-6-enfermedades-translation': {
+    id: 'ex-9-6-enfermedades-translation',
+    type: 'translation',
+    title: 'Перевод с русского: La causa principal de las enfermedades',
+    description: 'Переведите фразы с русского на испанский',
+    questions: [
+      { russian: 'Основная причина - это ум и эго.', correct: 'La causa fundamental es la mente y el ego.' },
+      { russian: 'Упорный стресс вызывает стимуляцию гипоталамуса.', correct: 'El estrés persistente condiciona un estímulo del hipotálamo.' },
+      { russian: 'Надпочечники выделяют кортизол.', correct: 'Las suprarrenales liberan cortisol.' },
+      { russian: 'Кортизол вызывает нарушения сердца.', correct: 'El cortisol provoca trastornos del corazón.' },
+      { russian: 'Стресс вызывает бессонницу и тоску.', correct: 'El estrés condiciona insomnio y angustia.' },
+      { russian: 'Одна минута интенсивного стресса снижает иммунную систему.', correct: 'Un minuto de estrés intenso provoca una caída del sistema inmunitario.' },
+      { russian: 'Мы предрасположены страдать от инфекций.', correct: 'Estamos predispuestos a padecer infecciones.' },
+      { russian: 'Хирург работает с научным методом.', correct: 'El cirujano trabaja con el método científico.' },
+      { russian: 'Эго и стресс - провоцирующие факторы.', correct: 'El ego y el estrés son factores desencadenantes.' },
+      { russian: 'Более 90% заболеваний связаны с эго.', correct: 'Más del 90% de las enfermedades están relacionadas con el ego.' }
     ]
   },
 
