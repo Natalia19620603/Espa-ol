@@ -2244,7 +2244,7 @@ Objeto + está + preposición + del/de la + lugar.
       },
       {
         tab: 'Правильные глаголы',
-        exerciseIds: ['ex-1-5-verbs-1', 'ex-1-5-verbs-2']
+        exerciseIds: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
       }
     ]
   },
