@@ -2233,7 +2233,20 @@ Objeto + está + preposición + del/de la + lugar.
 — Да, у меня два брата. Одному пятнадцать лет, а другому двадцать.
 — Как хорошо!`
     },
-    exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
+    exercises: [
+      {
+        tab: 'Правильные глаголы',
+        exercises: ['ex-2-1-1', 'ex-2-1-2', 'ex-2-1-3', 'ex-2-1-4', 'ex-2-1-5', 'ex-2-1-6-conj', 'ex-2-1-7-err', 'ex-2-2-1', 'ex-2-2-2', 'ex-2-2-4', 'ex-2-1-8-transform', 'ex-2-1-9-verbforms']
+      },
+      {
+        tab: 'Предлоги',
+        exercises: ['ex-1-5-prepositions-1', 'ex-1-5-prepositions-2']
+      },
+      {
+        tab: 'Числительные',
+        exercises: ['ex-1-5-numbers-1', 'ex-1-5-numbers-2']
+      }
+    ]
   },
 
   // МОДУЛЬ 2: Настоящее время
@@ -13423,6 +13436,104 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'país → ___', options: ['paíss', 'países', 'paiss', 'países'], correct: 3 },
       { sentence: 'problema → ___', options: ['problemas', 'problemases', 'problemes', 'problemses'], correct: 0 },
       { sentence: 'el lunes → ___', options: ['los luneses', 'los luns', 'los lunes', 'las lunes'], correct: 2 }
+    ]
+  },
+
+  // Упражнения урока 1-5: Предлоги
+  'ex-1-5-prepositions-1': {
+    id: 'ex-1-5-prepositions-1',
+    type: 'writing',
+    title: 'Переведите фразы с предлогами',
+    description: 'Переведите на испанский, используя правильные предлоги',
+    showAnswer: true,
+    questions: [
+      { russian: 'Я иду в школу.', correct: 'Yo voy a la escuela' },
+      { russian: 'Мы едем в ресторан.', correct: 'Nosotros vamos al restaurante' },
+      { russian: 'Он живет в Мадриде.', correct: 'Él vive en Madrid' },
+      { russian: 'Книга на столе.', correct: 'El libro está en la mesa' },
+      { russian: 'Я приехал из музея.', correct: 'Yo vengo del museo' },
+      { russian: 'Она приходит с пляжа.', correct: 'Ella viene de la playa' },
+      { russian: 'Я пью кофе с молоком.', correct: 'Yo tomo café con leche' },
+      { russian: 'Мы идем в кино с друзьями.', correct: 'Nosotros vamos al cine con amigos' },
+      { russian: 'Я говорю по телефону.', correct: 'Yo hablo por teléfono' },
+      { russian: 'Этот подарок для тебя.', correct: 'Este regalo es para ti' },
+      { russian: 'Я живу без проблем.', correct: 'Yo vivo sin problemas' },
+      { russian: 'Карандаш рядом с книгой.', correct: 'El lápiz está al lado del libro' },
+      { russian: 'Дом справа от школы.', correct: 'La casa está a la derecha de la escuela' },
+      { russian: 'Машина слева от отеля.', correct: 'El coche está a la izquierda del hotel' },
+      { russian: 'Мы путешествуем на поезде.', correct: 'Nosotros viajamos en tren' }
+    ]
+  },
+  'ex-1-5-prepositions-2': {
+    id: 'ex-1-5-prepositions-2',
+    type: 'fillblank',
+    title: 'Заполните пропуски предлогами',
+    description: 'Вставьте правильный предлог (a, de, en, con, por, para, sin)',
+    questions: [
+      { sentence: 'Voy ___ la playa.', correct: 'a' },
+      { sentence: 'Vengo ___ la casa.', correct: 'de' },
+      { sentence: 'Estoy ___ el hotel.', correct: 'en' },
+      { sentence: 'Tomo café ___ azúcar.', correct: 'sin' },
+      { sentence: 'Hablo ___ teléfono.', correct: 'por' },
+      { sentence: 'Este libro es ___ mi hermano.', correct: 'para' },
+      { sentence: 'Voy ___ cine ___ mis amigos.', correct: 'al con' },
+      { sentence: 'Salgo ___ museo.', correct: 'del' },
+      { sentence: 'Vivo ___ Madrid.', correct: 'en' },
+      { sentence: 'Viajo ___ tren.', correct: 'en' },
+      { sentence: 'El lápiz está ___ la mesa.', correct: 'en' },
+      { sentence: 'Voy ___ restaurante.', correct: 'al' },
+      { sentence: 'La casa ___ mi hermano es grande.', correct: 'de' },
+      { sentence: 'Tomo el sol ___ la playa.', correct: 'en' },
+      { sentence: 'Estudio ___ el examen.', correct: 'para' }
+    ]
+  },
+
+  // Упражнения урока 1-5: Числительные
+  'ex-1-5-numbers-1': {
+    id: 'ex-1-5-numbers-1',
+    type: 'writing',
+    title: 'Переведите фразы с числительными',
+    description: 'Переведите на испанский, используя числительные',
+    showAnswer: true,
+    questions: [
+      { russian: 'У меня двадцать пять лет.', correct: 'Tengo veinticinco años' },
+      { russian: 'Мой брат имеет тридцать лет.', correct: 'Mi hermano tiene treinta años' },
+      { russian: 'В классе пятнадцать студентов.', correct: 'En la clase hay quince estudiantes' },
+      { russian: 'Книга стоит двенадцать евро.', correct: 'El libro cuesta doce euros' },
+      { russian: 'Я читаю сорок страниц.', correct: 'Yo leo cuarenta páginas' },
+      { russian: 'У нас семь книг.', correct: 'Nosotros tenemos siete libros' },
+      { russian: 'Ей пятьдесят лет.', correct: 'Ella tiene cincuenta años' },
+      { russian: 'Дом номер шестьдесят три.', correct: 'La casa número sesenta y tres' },
+      { russian: 'Я пью три чашки кофе.', correct: 'Yo tomo tres tazas de café' },
+      { russian: 'Мы живем на восьмом этаже.', correct: 'Nosotros vivimos en el piso ocho' },
+      { russian: 'Моему отцу семьдесят лет.', correct: 'Mi padre tiene setenta años' },
+      { russian: 'В ресторане девяносто мест.', correct: 'En el restaurante hay noventa plazas' },
+      { russian: 'Я плачу сто евро.', correct: 'Yo pago cien euros' },
+      { russian: 'У меня одиннадцать друзей.', correct: 'Tengo once amigos' },
+      { russian: 'Сейчас шестнадцать часов.', correct: 'Ahora son las dieciséis' }
+    ]
+  },
+  'ex-1-5-numbers-2': {
+    id: 'ex-1-5-numbers-2',
+    type: 'fillblank',
+    title: 'Заполните пропуски числительными',
+    description: 'Напишите числительное словами',
+    questions: [
+      { sentence: 'Tengo ___ (25) años.', correct: 'veinticinco' },
+      { sentence: 'Mi hermana tiene ___ (30) años.', correct: 'treinta' },
+      { sentence: 'Hay ___ (15) estudiantes en la clase.', correct: 'quince' },
+      { sentence: 'El libro cuesta ___ (12) euros.', correct: 'doce' },
+      { sentence: 'Leo ___ (40) páginas.', correct: 'cuarenta' },
+      { sentence: 'Tenemos ___ (7) libros.', correct: 'siete' },
+      { sentence: 'Mi padre tiene ___ (50) años.', correct: 'cincuenta' },
+      { sentence: 'La casa número ___ (63).', correct: 'sesenta y tres' },
+      { sentence: 'Tomo ___ (3) tazas de café.', correct: 'tres' },
+      { sentence: 'Vivo en el piso ___ (8).', correct: 'ocho' },
+      { sentence: 'Mi abuelo tiene ___ (70) años.', correct: 'setenta' },
+      { sentence: 'En el restaurante hay ___ (90) plazas.', correct: 'noventa' },
+      { sentence: 'Pago ___ (100) euros.', correct: 'cien' },
+      { sentence: 'Tengo ___ (11) amigos.', correct: 'once' },
+      { sentence: 'Ahora son las ___ (16).', correct: 'dieciséis' }
     ]
   },
 
