@@ -8441,7 +8441,7 @@ Un abrazo muy fuerte de Paula.`,
     exercises: [
       { tab: 'Словарь', exerciseIds: ['ex-7-1-vocab'] },
       { tab: 'Понимание текста', exerciseIds: ['ex-7-1-comprehension'] },
-      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4'] },
+      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4', 'ex-7-1-grammar-5', 'ex-7-1-grammar-6'] },
       { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] }
     ]
   },
@@ -16343,7 +16343,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-grammar-1': {
     id: 'ex-7-1-grammar-1',
     type: 'fillblank',
-    title: 'Упражнение 1: Presente de subjuntivo',
+    title: '① Presente de subjuntivo',
     description: 'Поставьте глаголы в соответствующую форму presente de subjuntivo',
     questions: [
       {
@@ -16402,7 +16402,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-grammar-2a': {
     id: 'ex-7-1-grammar-2a',
     type: 'fillblank',
-    title: 'Упражнение 2a: Transformación (infinitivo → subjuntivo)',
+    title: '② Transformación (infinitivo → subjuntivo)',
     description: 'Измените предложения по образцу. Образец: Me alegro de poder descansar → Me alegro de que Antonio pueda descansar',
     questions: [
       {
@@ -16451,7 +16451,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-grammar-2b': {
     id: 'ex-7-1-grammar-2b',
     type: 'fillblank',
-    title: 'Упражнение 2b: Transformación (subjuntivo → infinitivo)',
+    title: '③ Transformación (subjuntivo → infinitivo)',
     description: 'Измените предложения по образцу. Образец: Dudo que llegues a tiempo → Dudo llegar a tiempo',
     questions: [
       {
@@ -16500,7 +16500,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-grammar-3': {
     id: 'ex-7-1-grammar-3',
     type: 'fillblank',
-    title: 'Упражнение 3: Subjuntivo vs Indicativo',
+    title: '④ Subjuntivo vs Indicativo',
     description: 'Поставьте глаголы в соответствующую форму modo subjuntivo или modo indicativo',
     questions: [
       {
@@ -16519,19 +16519,19 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
         alternatives: ['juegue']
       },
       {
-        sentence: 'Estamos seguros de que vosotros ya _____ (leer) esta novela.',
+        sentence: 'Estamos seguros de que vosotros ya _____ (leer) esta novela y nos la _____ (recomendar).',
         correct: 'habéis leído',
-        alternatives: ['leísteis']
+        alternatives: ['recomendaréis', 'recomendáis']
       },
       {
-        sentence: 'No creo que ellos _____ (negarse) a venir conmigo a la exposición.',
+        sentence: 'No creo que ellos _____ (negarse) a venir conmigo a la exposición y me _____ (acompañar).',
         correct: 'se nieguen',
-        alternatives: []
+        alternatives: ['acompañen']
       },
       {
-        sentence: 'No dudamos que vosotros _____ (devolvernos) la deuda el viernes.',
+        sentence: 'No dudamos que vosotros _____ (devolvernos) la deuda el viernes y _____ (cumplir) vuestra promesa.',
         correct: 'nos devolveréis',
-        alternatives: ['nos devolvéis']
+        alternatives: ['cumpliréis', 'cumplís']
       },
       {
         sentence: 'Te repito que _____ (acercársele) a Lola y _____ (pedirle) perdón.',
@@ -16559,7 +16559,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-grammar-4': {
     id: 'ex-7-1-grammar-4',
     type: 'translation',
-    title: 'Упражнение 4: Traducción al español',
+    title: '⑤ Traducción al español',
     description: 'Переведите предложения на испанский язык, используя presente de subjuntivo где необходимо',
     questions: [
       {
@@ -16611,6 +16611,174 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
         russian: 'Секретарша повторяет, чтобы все вышли из комнаты и не мешали ей работать.',
         spanish: 'La secretaria repite que todos salgan de la habitación y no le molesten trabajar.',
         alternatives: ['repite que salgan', 'que no la molesten', 'y no le impidan trabajar']
+      }
+    ]
+  },
+
+  'ex-7-1-grammar-5': {
+    id: 'ex-7-1-grammar-5',
+    type: 'fillblank',
+    title: '⑥ Práctica de presente de subjuntivo',
+    description: 'Поставьте глаголы в правильную форму presente de subjuntivo или indicativo',
+    questions: [
+      {
+        sentence: 'Quiero que tú _____ (viajar) a España este verano.',
+        correct: 'viajes',
+        alternatives: []
+      },
+      {
+        sentence: 'Es importante que nosotros _____ (descansar) después del trabajo.',
+        correct: 'descansemos',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que él _____ (ir) al cine con sus amigos mañana.',
+        correct: 'vaya',
+        alternatives: []
+      },
+      {
+        sentence: 'Dudo que ellos _____ (tener) tiempo libre este fin de semana.',
+        correct: 'tengan',
+        alternatives: []
+      },
+      {
+        sentence: 'No creo que la película _____ (empezar) a las ocho.',
+        correct: 'empiece',
+        alternatives: []
+      },
+      {
+        sentence: 'Me alegro de que vosotros _____ (poder) venir a la exposición.',
+        correct: 'podáis',
+        alternatives: []
+      },
+      {
+        sentence: 'Es necesario que los estudiantes _____ (hacer) los ejercicios en casa.',
+        correct: 'hagan',
+        alternatives: []
+      },
+      {
+        sentence: 'Te aconsejo que _____ (ver) esta obra de teatro, es increíble.',
+        correct: 'veas',
+        alternatives: []
+      },
+      {
+        sentence: 'No pienso que el tren _____ (salir) tarde hoy.',
+        correct: 'salga',
+        alternatives: []
+      },
+      {
+        sentence: 'Mis padres quieren que yo _____ (estudiar) música en el conservatorio.',
+        correct: 'estudie',
+        alternatives: []
+      },
+      {
+        sentence: 'Es probable que _____ (llover) mañana, necesitas llevar paraguas.',
+        correct: 'llueva',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que tú _____ (divertirse) en la fiesta esta noche.',
+        correct: 'te diviertas',
+        alternatives: []
+      },
+      {
+        sentence: 'Dudo que el vuelo _____ (estar) cancelado por mal tiempo.',
+        correct: 'esté',
+        alternatives: []
+      },
+      {
+        sentence: 'Es bueno que nosotros _____ (practicar) deportes regularmente.',
+        correct: 'practiquemos',
+        alternatives: []
+      },
+      {
+        sentence: 'No creo que ellos _____ (saber) tocar la guitarra tan bien.',
+        correct: 'sepan',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-grammar-6': {
+    id: 'ex-7-1-grammar-6',
+    type: 'fillblank',
+    title: '⑦ Más práctica de presente de subjuntivo',
+    description: 'Поставьте глаголы в правильную форму presente de subjuntivo или indicativo',
+    questions: [
+      {
+        sentence: 'El médico recomienda que tú _____ (guardar) cama y no _____ (salir) de casa.',
+        correct: 'guardes',
+        alternatives: ['salgas']
+      },
+      {
+        sentence: 'Es necesario que vosotros _____ (facturar) el equipaje antes del embarque.',
+        correct: 'facturéis',
+        alternatives: []
+      },
+      {
+        sentence: 'Prefiero que nosotros _____ (ir) al teatro en taxi, no a pie.',
+        correct: 'vayamos',
+        alternatives: []
+      },
+      {
+        sentence: 'No estoy seguro de que la azafata _____ (hablar) ruso.',
+        correct: 'hable',
+        alternatives: []
+      },
+      {
+        sentence: 'Te pido que _____ (comprar) las entradas para el concierto con antelación.',
+        correct: 'compres',
+        alternatives: []
+      },
+      {
+        sentence: 'Dudo que en el frigorífico _____ (haber) suficiente comida para todos.',
+        correct: 'haya',
+        alternatives: []
+      },
+      {
+        sentence: 'Es importante que tú _____ (reservar) una habitación en el hotel antes de viajar.',
+        correct: 'reserves',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que el espectáculo _____ (gustar) a todos los espectadores.',
+        correct: 'guste',
+        alternatives: []
+      },
+      {
+        sentence: 'No creo que el director de orquesta _____ (venir) a la fiesta después del concierto.',
+        correct: 'venga',
+        alternatives: []
+      },
+      {
+        sentence: 'Quiero que mi hijo _____ (aprender) a tocar el piano desde pequeño.',
+        correct: 'aprenda',
+        alternatives: []
+      },
+      {
+        sentence: 'Es probable que nosotros _____ (tener) que pagar el exceso de peso en el aeropuerto.',
+        correct: 'tengamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Te aconsejo que _____ (leer) este libro, la lectura es muy interesante.',
+        correct: 'leas',
+        alternatives: []
+      },
+      {
+        sentence: 'No pienso que ellos _____ (saber) dónde está la taquilla del teatro.',
+        correct: 'sepan',
+        alternatives: []
+      },
+      {
+        sentence: 'Mis amigos me piden que _____ (traer) la guitarra a la escapada al campo.',
+        correct: 'traiga',
+        alternatives: []
+      },
+      {
+        sentence: 'Es necesario que vosotros _____ (pasar) el control de pasaportes antes del embarque.',
+        correct: 'paséis',
+        alternatives: []
       }
     ]
   },
