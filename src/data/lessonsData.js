@@ -12523,7 +12523,64 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { word: 'literalmente', translation: 'буквально, дословно' },
           { word: 'colapsarse', translation: 'схлопываться, складываться' },
           { word: 'derritir', translation: 'таять, растопить' },
-          { word: 'el entorno', translation: 'окружение, среда' }
+          { word: 'el entorno', translation: 'окружение, среда' },
+          { word: 'creer', translation: 'верить' },
+          { word: 'escribir', translation: 'писать' },
+          { word: 'habitar', translation: 'обитать' },
+          { word: 'llegar', translation: 'доходить, прибывать' },
+          { word: 'la luz solar', translation: 'солнечный свет' },
+          { word: 'blando', translation: 'мягкий' },
+          { word: 'agresivo', translation: 'агрессивный' },
+          { word: 'dañar', translation: 'нарушать, повреждать' },
+          { word: 'el hogar', translation: 'дом' },
+          { word: 'la estructura', translation: 'структура' },
+          { word: 'sentir', translation: 'чувствовать' },
+          { word: 'el soporte', translation: 'поддержка' },
+          { word: 'derritirse', translation: 'таять' },
+          { word: 'convertirse en', translation: 'превращаться в' },
+          { word: 'la masa', translation: 'масса' },
+          { word: 'informe', translation: 'бесформенный' },
+          { word: 'el esqueleto', translation: 'скелет' },
+          { word: 'permitir', translation: 'позволять' },
+          { word: 'sobrevivir', translation: 'выживать' },
+          { word: 'morir', translation: 'умирать' },
+          { word: 'gracioso', translation: 'забавный' },
+          { word: 'triste', translation: 'грустный' },
+          { word: 'la foto', translation: 'фотография' },
+          { word: 'instantáneamente', translation: 'мгновенно' },
+          { word: 'la red', translation: 'сеть' },
+          { word: 'mundial', translation: 'мировой' },
+          { word: 'en realidad', translation: 'на самом деле' },
+          { word: 'tranquilamente', translation: 'спокойно' },
+          { word: 'la columna de agua', translation: 'толща воды' },
+          { word: 'ahorrar', translation: 'экономить' },
+          { word: 'la energía', translation: 'энергия' },
+          { word: 'interno', translation: 'внутренний' },
+          { word: 'brusco', translation: 'резкий' },
+          { word: 'el cambio', translation: 'изменение' },
+          { word: 'las condiciones', translation: 'условия' },
+          { word: 'el tejido', translation: 'ткань' },
+          { word: 'dañarse', translation: 'повреждаться' },
+          { word: 'la carne', translation: 'плоть' },
+          { word: 'la manera', translation: 'способ' },
+          { word: 'el peso', translation: 'вес' },
+          { word: 'el océano', translation: 'океан' },
+          { word: 'mortal', translation: 'смертельный' },
+          { word: 'la trampa', translation: 'ловушка' },
+          { word: 'único', translation: 'уникальный' },
+          { word: 'el representante', translation: 'представитель' },
+          { word: 'la fauna', translation: 'фауна' },
+          { word: 'cuidadosamente', translation: 'внимательно' },
+          { word: 'la muestra', translation: 'образец' },
+          { word: 'necesario', translation: 'необходимый' },
+          { word: 'el aparato', translation: 'аппарат' },
+          { word: 'rápido', translation: 'быстрый' },
+          { word: 'inmediatamente', translation: 'немедленно' },
+          { word: 'debido a', translation: 'из-за' },
+          { word: 'la piel', translation: 'кожа' },
+          { word: 'adaptarse', translation: 'адаптироваться' },
+          { word: 'encontrar', translation: 'находить' },
+          { word: 'el fondo', translation: 'дно' }
         ]
       }
     ],
@@ -16616,7 +16673,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       {
         sentence: 'Estamos seguros de que vosotros ya _____ (leer) esta novela y nos la _____ (recomendar).',
         correct: 'habéis leído',
-        alternatives: ['recomendaréis', 'recomendáis']
+        alternatives: ['recomendaréis']
       },
       {
         sentence: 'No creo que ellos _____ (negarse) a venir conmigo a la exposición y me _____ (acompañar).',
@@ -16626,7 +16683,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       {
         sentence: 'No dudamos que vosotros _____ (devolvernos) la deuda el viernes y _____ (cumplir) vuestra promesa.',
         correct: 'nos devolveréis',
-        alternatives: ['cumpliréis', 'cumplís']
+        alternatives: ['cumpliréis']
       },
       {
         sentence: 'Te repito que _____ (acercársele) a Lola y _____ (pedirle) perdón.',
@@ -29855,64 +29912,64 @@ reencarnarse, resto, intervenir, conclusión, grado, estímulo, externo, mascota
     showAnswerOption: true,
     questions: [
       {
-        russian: 'В 2014 году в Кембридже состоялась важная встреча.',
-        spanish: 'En 2014 en Cambridge se hizo una reunión importante'
+        russian: 'В 2014 году в знаменитом университете Кембридж состоялась очень важная научная встреча.',
+        spanish: 'En 2014 en la famosa universidad de Cambridge se hizo una reunión científica muy importante'
       },
       {
-        russian: 'Стивен Хокинг участвовал в этой конференции.',
-        spanish: 'Stephen Hawking intervino en esa conferencia'
+        russian: 'Знаменитый физик Стивен Хокинг принимал активное участие в этой международной конференции.',
+        spanish: 'El famoso físico Stephen Hawking participó activamente en esa conferencia internacional'
       },
       {
-        russian: 'Они пришли к выводу, что у каждого живого существа есть сознание.',
-        spanish: 'Llegaron a la conclusión de que todo ser vivo tiene conciencia'
+        russian: 'Ученые пришли к удивительному выводу, что абсолютно у каждого живого существа есть своё собственное сознание.',
+        spanish: 'Los científicos llegaron a la sorprendente conclusión de que absolutamente todo ser vivo tiene su propia conciencia'
       },
       {
-        russian: 'То, что меняется, это степень сознания.',
-        spanish: 'Lo que cambia es el grado de la conciencia'
+        russian: 'То единственное, что меняется между разными видами, это степень развития их сознания.',
+        spanish: 'Lo único que cambia entre las diferentes especies es el grado de desarrollo de su conciencia'
       },
       {
-        russian: 'Растение реагирует на солнце и может повернуться.',
-        spanish: 'Una planta reacciona ante el sol y puede girarse'
+        russian: 'Даже обычное растение способно активно реагировать на солнечный свет и puede постепенно повернуться в его сторону.',
+        spanish: 'Incluso una planta común es capaz de reaccionar activamente ante la luz solar y puede girarse gradualmente hacia ella'
       },
       {
-        russian: 'Музыка влияет на растения, это доказано.',
-        spanish: 'La música influye en las plantas, está demostrado'
+        russian: 'Классическая музыка положительно влияет на рост и развитие растений, это научно доказано многими исследованиями.',
+        spanish: 'La música clásica influye positivamente en el crecimiento y desarrollo de las plantas, esto está científicamente demostrado por muchos estudios'
       },
       {
-        russian: 'Собака имеет сознание трех уровней.',
-        spanish: 'Un perro tiene una conciencia de tres niveles'
+        russian: 'Домашняя собака, например, имеет довольно развитое сознание, которое включает три основных уровня.',
+        spanish: 'Un perro doméstico, por ejemplo, tiene una conciencia bastante desarrollada que incluye tres niveles fundamentales'
       },
       {
-        russian: 'У нее есть эмоции, способность к обучению и память.',
-        spanish: 'Tiene emociones, capacidad de aprendizaje y memoria'
+        russian: 'У неё есть настоящие эмоции, удивительная способность к быстрому обучению и долгосрочная память.',
+        spanish: 'Tiene emociones reales, una capacidad asombrosa para el aprendizaje rápido y memoria a largo plazo'
       },
       {
-        russian: 'Мы обладаем максимальным сознанием и самосознанием.',
-        spanish: 'Nosotros tenemos la máxima conciencia y autoconciencia'
+        russian: 'Мы, люди, обладаем самым высоким уровнем максимального сознания и развитым самосознанием среди всех живых существ.',
+        spanish: 'Nosotros, los humanos, poseemos el nivel más alto de conciencia máxima y autoconciencia desarrollada entre todos los seres vivos'
       },
       {
-        russian: 'Самосознание как зеркало позволяет нам видеть, этичны ли наши решения.',
-        spanish: 'La autoconciencia como un espejo nos permite ver si nuestras decisiones son éticas'
+        russian: 'Наше самосознание работает как внутреннее зеркало, которое позволяет нам критически оценивать и видеть, насколько этичны и правильны наши повседневные решения и поступки.',
+        spanish: 'Nuestra autoconciencia funciona como un espejo interno que nos permite evaluar críticamente y ver qué tan éticas y correctas son nuestras decisiones y acciones cotidianas'
       },
       {
-        russian: 'Есть разные степени сознания.',
-        spanish: 'Hay grados distintos de conciencia'
+        russian: 'В природе существуют самые разные степени и уровни развития сознания у различных организмов.',
+        spanish: 'En la naturaleza existen los más diversos grados y niveles de desarrollo de conciencia en diferentes organismos'
       },
       {
-        russian: 'Человек может перевоплотиться в ситуацию с более низким сознанием.',
-        spanish: 'Una persona puede reencarnarse en una situación de conciencia más baja'
+        russian: 'Согласно некоторым теориям, человек, который нуждается в особом духовном развитии, может перевоплотиться в новую жизненную ситуацию с более низким уровнем сознания.',
+        spanish: 'Según algunas teorías, una persona que necesita un desarrollo espiritual particular puede reencarnarse en una nueva situación vital con un nivel más bajo de conciencia'
       },
       {
-        russian: 'Алан Кардек удостоверяет эти концепции.',
-        spanish: 'Allan Kardec certifica estos conceptos'
+        russian: 'Известный французский педагог и основатель спиритизма Алан Кардек официально удостоверяет и подтверждает эти духовные концепции в своих трудах.',
+        spanish: 'El conocido pedagogo francés y fundador del espiritismo Allan Kardec certifica y confirma oficialmente estos conceptos espirituales en sus obras'
       },
       {
-        russian: 'Я не являюсь авторитетом, чтобы говорить об этом.',
-        spanish: 'No soy autoridad para decir esto'
+        russian: 'Я повторяю, что не являюсь признанным авторитетом или экспертом в этой области, чтобы категорично говорить об этих сложных вопросах.',
+        spanish: 'Repito que no soy una autoridad reconocida ni un experto en este campo para hablar categóricamente sobre estas cuestiones complejas'
       },
       {
-        russian: 'Я не ясновидящий и не медиум.',
-        spanish: 'Ni soy vidente ni soy médium'
+        russian: 'Я уже говорил вам, что я не обладаю способностями ясновидящего и не являюсь профессиональным медиумом.',
+        spanish: 'Ya les he dicho que no poseo las capacidades de un vidente ni soy un médium profesional'
       }
     ]
   },
@@ -30222,6 +30279,66 @@ reencarnarse, resto, intervenir, conclusión, grado, estímulo, externo, mascota
       {
         russian: 'Каждое существо идеально для своей среды обитания.',
         spanish: 'Cada criatura es perfecta para su entorno'
+      },
+      {
+        russian: 'Вы глубоко ошибаетесь (estar equivocado), если верите (creer) всему, что пишут (escribir) об этом существе (criatura) в интернете.',
+        spanish: 'Estáis profundamente equivocados si creéis todo lo que escriben sobre esta criatura en internet'
+      },
+      {
+        russian: 'Это удивительное глубоководное существо (criatura) обитает (habitar) там, куда никогда не доходит (llegar) солнечный свет.',
+        spanish: 'Esta sorprendente criatura de las profundidades habita donde nunca llega la luz solar'
+      },
+      {
+        russian: 'Его мягкое тело идеально приспособлено (estar adaptado) к экстремально агрессивной окружающей среде (entorno).',
+        spanish: 'Su cuerpo blando está perfectamente adaptado al entorno extremadamente agresivo'
+      },
+      {
+        russian: 'Пожалуйста, не извлекай (sacar) рыбу из её дома, чтобы не нарушить (dañar) её биологическую структуру.',
+        spanish: 'Por favor, no saques al pez de su hogar para no dañar su estructura biológica'
+      },
+      {
+        russian: 'Давление (presión) в этой зоне в сто двадцать раз выше, чем то, которое мы чувствуем (sentir) на поверхности (superficie).',
+        spanish: 'La presión en esta zona es ciento veinte veces mayor que la que sentimos en la superficie'
+      },
+      {
+        russian: 'Без поддержки воды тело рыбы буквально (literalmente) тает (derritirse) и превращается в бесформенную массу.',
+        spanish: 'Sin el soporte del agua el cuerpo del pez literalmente se derrite y se convierte en una masa informe'
+      },
+      {
+        russian: 'У рыбы нет твердого (sólido) скелета, что позволяет (permitir) ей выживать (sobrevivir) там, где другие бы погибли.',
+        spanish: 'El pez no tiene esqueleto sólido, lo que le permite sobrevivir donde otros morirían'
+      },
+      {
+        russian: 'Эта забавная, но грустная фотография мгновенно завирусилась (viralizarse) во всех мировых сетях.',
+        spanish: 'Esta foto graciosa pero triste se viralizó instantáneamente en todas las redes mundiales'
+      },
+      {
+        russian: 'На самом деле он спокойно плавает (flotar) в толще воды, экономя (ahorrar) свою внутреннюю энергию.',
+        spanish: 'En realidad flota tranquilamente en la columna de agua, ahorrando su energía interna'
+      },
+      {
+        russian: 'При резком изменении условий ткани рыбы моментально схлопываются (colapsarse) и повреждаются (dañarse).',
+        spanish: 'Con un cambio brusco de condiciones los tejidos del pez se colapsan instantáneamente y se dañan'
+      },
+      {
+        russian: 'Желеобразная (gelatinoso) плоть — это единственный способ выжить под огромным весом океана.',
+        spanish: 'La carne gelatinosa es la única manera de sobrevivir bajo el enorme peso del océano'
+      },
+      {
+        russian: 'Поверхность (superficie) моря является смертельной ловушкой для этого уникального представителя фауны.',
+        spanish: 'La superficie del mar es una trampa mortal para este representante único de la fauna'
+      },
+      {
+        russian: 'Внимательно извлеките (extraer) все необходимые образцы из этого глубоководного аппарата.',
+        spanish: 'Extraigan cuidadosamente todas las muestras necesarias de este aparato de profundidad'
+      },
+      {
+        russian: 'Если его вытащить (sacar) слишком быстро, его тело немедленно схлопнется (colapsar) из-за перепада.',
+        spanish: 'Si lo sacan demasiado rápido, su cuerpo colapsará inmediatamente debido al cambio'
+      },
+      {
+        russian: 'Текстура (textura) его кожи адаптируется к условиям, которые мы находим (encontrar) на дне океана.',
+        spanish: 'La textura de su piel se adapta a las condiciones que encontramos en el fondo del océano'
       }
     ]
   }
