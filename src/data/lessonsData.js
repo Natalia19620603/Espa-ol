@@ -10694,7 +10694,7 @@ de Buenos Aires.
 −Ah, qué bien, qué bien… −contesta Pepa. Va a comerse sola los panellets y las castañas. «Mejor sola que mal acompañada<sup>33</sup>», piensa para justificarse. Después de la cerveza se va a casa dando un paseo.
 En casa, busca una receta de panellets en internet. Siempre los compra en una pastelería, pero hoy, excepcionalmente, tiene ganas de cocinar. Y no parece tan difícil.
 
-<img src="/images/Captura de pantalla 2025-12-31 145143.png" alt="Receta de panellets" style="max-width: 100%; height: auto; margin: 20px 0;" />
+<img src="/images/panellets-recipe.png" alt="Receta de panellets" style="max-width: 100%; height: auto; margin: 20px 0;" />
 
 Tres horas después, Pepa sigue luchando con una masa pegajosa de almendra y patata. Y unas bolitas que nunca salen redondas.
 
