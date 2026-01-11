@@ -8441,7 +8441,7 @@ Un abrazo muy fuerte de Paula.`,
     exercises: [
       { tab: 'Словарь', exerciseIds: ['ex-7-1-vocab'] },
       { tab: 'Понимание текста', exerciseIds: ['ex-7-1-comprehension'] },
-      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar'] },
+      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4'] },
       { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] }
     ]
   },
@@ -16340,86 +16340,277 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
     ]
   },
 
-  'ex-7-1-grammar': {
-    id: 'ex-7-1-grammar',
+  'ex-7-1-grammar-1': {
+    id: 'ex-7-1-grammar-1',
     type: 'fillblank',
-    title: 'Práctica de subjuntivo (Contextual): Досуг и развлечения',
-    description: 'Completa las frases con la forma correcta del subjuntivo',
+    title: 'Упражнение 1: Presente de subjuntivo',
+    description: 'Поставьте глаголы в соответствующую форму presente de subjuntivo',
     questions: [
       {
-        sentence: 'Quiero que tú _____ (venir) al cine conmigo esta noche.',
-        correct: 'vengas',
+        sentence: 'Mamá se aflige de que su hija _____ (perder) tanto tiempo hablando por teléfono con su novio.',
+        correct: 'pierda',
         alternatives: []
       },
       {
-        sentence: 'Espero que nosotros _____ (poder) viajar este verano.',
-        correct: 'podamos',
-        alternatives: []
+        sentence: 'El jefe exige que nosotros _____ (ir) a la conferencia y _____ (ser) puntuales.',
+        correct: 'vayamos',
+        alternatives: ['seamos']
       },
       {
-        sentence: 'Es importante que ellos _____ (descansar) después del trabajo.',
-        correct: 'descansen',
-        alternatives: []
-      },
-      {
-        sentence: 'Dudo que María _____ (tener) tiempo libre hoy.',
-        correct: 'tenga',
-        alternatives: []
-      },
-      {
-        sentence: 'Me alegro de que te _____ (gustar) bailar salsa.',
-        correct: 'guste',
-        alternatives: []
-      },
-      {
-        sentence: 'Ojalá _____ (hacer) buen tiempo para pasear.',
+        sentence: 'No creemos que mañana _____ (hacer) buen tiempo, por eso dudamos que _____ (poder, vosotros) disfrutar del sol y del mar.',
         correct: 'haga',
-        alternatives: []
+        alternatives: ['podáis']
       },
       {
-        sentence: 'Es necesario que nosotros _____ (practicar) más deporte.',
-        correct: 'practiquemos',
-        alternatives: []
-      },
-      {
-        sentence: 'No creo que ellos _____ (ir) al concierto mañana.',
-        correct: 'vayan',
-        alternatives: []
-      },
-      {
-        sentence: 'Te recomiendo que _____ (leer) este libro interesante.',
-        correct: 'leas',
-        alternatives: []
-      },
-      {
-        sentence: 'Es posible que yo _____ (pintar) un cuadro este fin de semana.',
-        correct: 'pinte',
-        alternatives: []
-      },
-      {
-        sentence: 'Prefiero que ustedes _____ (jugar) al fútbol en el parque.',
-        correct: 'jueguen',
-        alternatives: []
-      },
-      {
-        sentence: 'Espero que ella _____ (saber) cantar bien.',
+        sentence: '¿Por qué no crees que Pablo _____ (saber) bailar tango?',
         correct: 'sepa',
         alternatives: []
       },
       {
-        sentence: 'Es probable que nosotros _____ (divertirse) en la fiesta.',
-        correct: 'nos divirtamos',
+        sentence: 'La abuela nos ruega que _____ (venir, nosotros) a verla este fin de semana y le _____ (traer, nosotros) fotos de nuestra boda.',
+        correct: 'vengamos',
+        alternatives: ['traigamos']
+      },
+      {
+        sentence: 'Necesito que alguien me _____ (despertar) a las siete, temo que mi despertador no _____ (sonar).',
+        correct: 'despierte',
+        alternatives: ['suene']
+      },
+      {
+        sentence: 'Siento que usted _____ (estar) mal, pero sin embargo no pienso que el médico le _____ (dar) de baja.',
+        correct: 'esté',
+        alternatives: ['dé']
+      },
+      {
+        sentence: 'Don Alfonso se indigna de que en el consultorio _____ (haber) tanta gente a esta hora.',
+        correct: 'haya',
         alternatives: []
       },
       {
-        sentence: 'Necesito que tú _____ (estar) listo para salir a las ocho.',
+        sentence: 'Si no estáis seguros de que vuestro amigo _____ (conocer) Madrid, ¿por qué le pedís que él os _____ (acompañar)?',
+        correct: 'conozca',
+        alternatives: ['acompañe']
+      },
+      {
+        sentence: 'Me alegro de que _____ (estar, tú) conmigo y de que tú te _____ (sentirse) mejor.',
         correct: 'estés',
+        alternatives: ['sientas']
+      }
+    ]
+  },
+
+  'ex-7-1-grammar-2a': {
+    id: 'ex-7-1-grammar-2a',
+    type: 'fillblank',
+    title: 'Упражнение 2a: Transformación (infinitivo → subjuntivo)',
+    description: 'Измените предложения по образцу. Образец: Me alegro de poder descansar → Me alegro de que Antonio pueda descansar',
+    questions: [
+      {
+        sentence: 'Prefiero quedarme en casa hoy. → Prefiero que vosotros _____ (quedarse) en casa hoy.',
+        correct: 'os quedéis',
+        alternatives: ['quedéis']
+      },
+      {
+        sentence: 'No quiero conducir el coche cinco horas. → No quiero que mi sobrino _____ (conducir) el coche cinco horas.',
+        correct: 'conduzca',
         alternatives: []
       },
       {
-        sentence: 'Me sorprende que a ti no te _____ (gustar) nadar en el mar.',
-        correct: 'guste',
+        sentence: 'Carmen está contenta de asistir a las clases de yoga. → Carmen está contenta de que su hijo _____ (asistir) a las clases de yoga.',
+        correct: 'asista',
         alternatives: []
+      },
+      {
+        sentence: 'Dudáis vencer a este equipo. → Dudáis que nosotros _____ (vencer) a este equipo.',
+        correct: 'venzamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Luis siente no poder acompañarles a ustedes. → Luis siente que yo no _____ (poder) acompañarles a ustedes.',
+        correct: 'pueda',
+        alternatives: []
+      },
+      {
+        sentence: 'Nos alegramos de celebrar mañana el triunfo de nuestra selección. → Nos alegramos de que ellos _____ (celebrar) mañana el triunfo de nuestra selección.',
+        correct: 'celebren',
+        alternatives: []
+      },
+      {
+        sentence: 'No estoy segura de entender la explicación de Jorge. → No estoy segura de que ellos _____ (entender) la explicación de Jorge.',
+        correct: 'entiendan',
+        alternatives: []
+      },
+      {
+        sentence: 'Ellos temen perder el tren. → Ellos temen que yo _____ (perder) el tren.',
+        correct: 'pierda',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-grammar-2b': {
+    id: 'ex-7-1-grammar-2b',
+    type: 'fillblank',
+    title: 'Упражнение 2b: Transformación (subjuntivo → infinitivo)',
+    description: 'Измените предложения по образцу. Образец: Dudo que llegues a tiempo → Dudo llegar a tiempo',
+    questions: [
+      {
+        sentence: 'Me alegro de que tengas tantos amigos. → Me alegro de _____ (tener) tantos amigos.',
+        correct: 'tener',
+        alternatives: []
+      },
+      {
+        sentence: 'Él teme que nos perdamos en el camino sin mapa. → Él teme _____ (perderse) en el camino sin mapa.',
+        correct: 'perderse',
+        alternatives: []
+      },
+      {
+        sentence: 'Sentimos que usted no tome parte en el concurso. → Sentimos no _____ (tomar) parte en el concurso.',
+        correct: 'tomar',
+        alternatives: []
+      },
+      {
+        sentence: 'Dudas que tu amigo gane la apuesta. → Dudas _____ (ganar) la apuesta.',
+        correct: 'ganar',
+        alternatives: []
+      },
+      {
+        sentence: 'Ellos sueñan con que sus hijos vayan de vacaciones a España este verano. → Ellos sueñan con _____ (ir) de vacaciones a España este verano.',
+        correct: 'ir',
+        alternatives: []
+      },
+      {
+        sentence: 'Ella no está segura de que yo sepa preparar paella valenciana. → Ella no está segura de _____ (saber) preparar paella valenciana.',
+        correct: 'saber',
+        alternatives: []
+      },
+      {
+        sentence: 'Los amigos se preocupan de que no tengas ninguna noticia de él. → Los amigos se preocupan de no _____ (tener) ninguna noticia de él.',
+        correct: 'tener',
+        alternatives: []
+      },
+      {
+        sentence: 'No queremos que tú se lo digas a nuestros socios. → No queremos _____ (decir) se lo a nuestros socios.',
+        correct: 'decir',
+        alternatives: ['decírselo']
+      }
+    ]
+  },
+
+  'ex-7-1-grammar-3': {
+    id: 'ex-7-1-grammar-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Subjuntivo vs Indicativo',
+    description: 'Поставьте глаголы в соответствующую форму modo subjuntivo или modo indicativo',
+    questions: [
+      {
+        sentence: 'Juan escribe que _____ (disfrutar) del mar y del paisaje, y _____ (divertirse) bien en la costa.',
+        correct: 'disfruta',
+        alternatives: ['se divierte']
+      },
+      {
+        sentence: 'El médico dice que yo _____ (guardar) cama dos días y _____ (estar) a dieta.',
+        correct: 'guarde',
+        alternatives: ['esté']
+      },
+      {
+        sentence: 'La madre grita que su hijo _____ (tener) cuidado y no _____ (jugar) cerca del camino.',
+        correct: 'tenga',
+        alternatives: ['juegue']
+      },
+      {
+        sentence: 'Estamos seguros de que vosotros ya _____ (leer) esta novela.',
+        correct: 'habéis leído',
+        alternatives: ['leísteis']
+      },
+      {
+        sentence: 'No creo que ellos _____ (negarse) a venir conmigo a la exposición.',
+        correct: 'se nieguen',
+        alternatives: []
+      },
+      {
+        sentence: 'No dudamos que vosotros _____ (devolvernos) la deuda el viernes.',
+        correct: 'nos devolveréis',
+        alternatives: ['nos devolvéis']
+      },
+      {
+        sentence: 'Te repito que _____ (acercársele) a Lola y _____ (pedirle) perdón.',
+        correct: 'te acerques',
+        alternatives: ['le pidas']
+      },
+      {
+        sentence: 'El tío nos escribe que _____ (ir, nosotros) al campo, que _____ (pasar) unos días en su casa y que él _____ (contarnos) unas cosas interesantes.',
+        correct: 'vayamos',
+        alternatives: ['pasemos', 'nos contará']
+      },
+      {
+        sentence: 'Pienso que la abuela _____ (sentirse) mejor, pero no pienso que ella _____ (venir) a vernos el sábado.',
+        correct: 'se siente',
+        alternatives: ['venga']
+      },
+      {
+        sentence: 'La maestra no está segura de que los alumnos _____ (hacer) esta tarea difícil y dice que los padres _____ (ayudarlos) a sus hijos.',
+        correct: 'hagan',
+        alternatives: ['ayuden']
+      }
+    ]
+  },
+
+  'ex-7-1-grammar-4': {
+    id: 'ex-7-1-grammar-4',
+    type: 'translation',
+    title: 'Упражнение 4: Traducción al español',
+    description: 'Переведите предложения на испанский язык, используя presente de subjuntivo где необходимо',
+    questions: [
+      {
+        russian: 'Родители удивляются, что я уже хорошо говорю по-испански. Они не сомневаются, что я смогу им переводить во время поездки по Мексике.',
+        spanish: 'Los padres se sorprenden de que yo ya hable bien español. No dudan que podré traducirles durante el viaje por México.',
+        alternatives: ['Los padres se sorprenden de que hable bien español', 'No dudan de que yo pueda traducirles']
+      },
+      {
+        russian: 'Бабушка говорит, чтобы мы прочитали ей рецепт или принесли очки.',
+        spanish: 'La abuela dice que le leamos la receta o le traigamos las gafas.',
+        alternatives: ['La abuela dice que leamos la receta', 'dice que traigamos las gafas']
+      },
+      {
+        russian: 'Я рада, что я снова дома, что ты сегодня придешь ко мне, и мы вместе обсудим наши планы на лето.',
+        spanish: 'Me alegro de estar de nuevo en casa, de que vengas hoy a verme y de que discutamos juntos nuestros planes para el verano.',
+        alternatives: ['Me alegro de que estoy en casa', 'de que tú vengas']
+      },
+      {
+        russian: 'Они сожалеют, что не могут поехать со всеми на экскурсию в Кордову, и просят нас привезти им оттуда какой-нибудь сувенир.',
+        spanish: 'Sienten no poder ir con todos a la excursión a Córdoba y nos piden que les traigamos de allí algún recuerdo.',
+        alternatives: ['Lamentan no poder ir', 'piden que traigamos algún recuerdo']
+      },
+      {
+        russian: 'Марта мне пишет, что ее сын не умеет играть на гитаре, и чтобы я его этому научил.',
+        spanish: 'Marta me escribe que su hijo no sabe tocar la guitarra y que yo le enseñe.',
+        alternatives: ['Marta escribe que su hijo no sabe tocar', 'y que le enseñe a tocarla']
+      },
+      {
+        russian: 'Друзья сомневаются, что Петр хороший художник, и не советуют нам идти на его выставку.',
+        spanish: 'Los amigos dudan que Pedro sea un buen pintor y no nos aconsejan ir a su exposición.',
+        alternatives: ['dudan de que Pedro sea', 'no aconsejan que vayamos']
+      },
+      {
+        russian: 'Полицейский останавливает машину, приказывает всем выйти из машины и предъявить документы.',
+        spanish: 'El policía para el coche, ordena que todos salgan del coche y presenten los documentos.',
+        alternatives: ['manda que salgan', 'ordena a todos salir']
+      },
+      {
+        russian: 'Я думаю, что Луис сможет приготовить паэлью, но не уверена, что она вам понравится.',
+        spanish: 'Pienso que Luis podrá preparar la paella, pero no estoy segura de que os guste.',
+        alternatives: ['Creo que Luis puede preparar', 'no estoy segura de que les guste']
+      },
+      {
+        russian: 'Врач мне советует вести здоровый образ жизни, работать меньше, гулять перед сном.',
+        spanish: 'El médico me aconseja que lleve una vida sana, que trabaje menos, que pasee antes de dormir.',
+        alternatives: ['aconseja llevar una vida sana', 'trabajar menos', 'pasear antes de acostarme']
+      },
+      {
+        russian: 'Секретарша повторяет, чтобы все вышли из комнаты и не мешали ей работать.',
+        spanish: 'La secretaria repite que todos salgan de la habitación y no le molesten trabajar.',
+        alternatives: ['repite que salgan', 'que no la molesten', 'y no le impidan trabajar']
       }
     ]
   },
