@@ -66,10 +66,10 @@ export const modules = {
   },
   'module-7': {
     id: 'module-7',
-    title: 'Модуль 7: Сослагательное наклонение',
+    title: 'Модуль 7: Досуг и развлечения',
     level: 'intermediate',
-    lessons: ['lesson-7-1', 'lesson-7-2', 'lesson-7-3'],
-    description: 'Subjuntivo presente: желания, сомнения, эмоции'
+    lessons: ['lesson-7-1'],
+    description: 'Modo subjuntivo: досуг, развлечения, свободное время'
   },
   'module-8': {
     id: 'module-8',
@@ -8104,25 +8104,28 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
     exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
   },
 
-  // МОДУЛЬ 7: Сослагательное наклонение (B1)
+  // МОДУЛЬ 7: Досуг и развлечения (B1)
   'lesson-7-1': {
     id: 'lesson-7-1',
-    title: 'Урок 1: Presente de subjuntivo - образование',
+    title: 'Урок 1: ДОСУГ. РАЗВЛЕЧЕНИЯ. Modo subjuntivo',
     moduleId: 'module-7',
     grammar: {
-      title: 'Presente de subjuntivo (Настоящее время сослагательного наклонения)',
+      title: 'Modo subjuntivo',
       content: `
-# Presente de subjuntivo - Образование
+# Modo subjuntivo
 
-Subjuntivo (сослагательное наклонение) выражает субъективность: желания, сомнения, эмоции, неуверенность.
+В испанском языке существует 4 наклонения:
 
-## Образование:
+1. **Modo indicativo** - изъявительное (факты, реальность)
+2. **Modo subjuntivo** - сослагательное (желания, сомнения, эмоции)
+3. **Modo imperativo** - повелительное (приказы, просьбы)
+4. **Modo condicional** - условное (возможности, гипотезы)
 
-**1. Берем форму YO настоящего времени (indicativo)**
-**2. Убираем -O**
-**3. Добавляем "противоположные" окончания:**
+**Modo subjuntivo** выражает субъективность: действия нереальные, желательные, сомнительные, возможные.
 
-### Глаголы на -AR → окончания -ER/-IR:
+## Presente de subjuntivo - Образование
+
+### Глаголы на -AR:
 
 | Лицо | HABLAR | Окончание |
 |------|--------|-----------|
@@ -8133,7 +8136,7 @@ Subjuntivo (сослагательное наклонение) выражает 
 | vosotros/as | habléis | -éis |
 | ellos/ellas/ustedes | hablen | -en |
 
-### Глаголы на -ER/-IR → окончания -AR:
+### Глаголы на -ER/-IR:
 
 | Лицо | COMER | VIVIR | Окончание |
 |------|-------|-------|-----------|
@@ -8144,449 +8147,105 @@ Subjuntivo (сослагательное наклонение) выражает 
 | vosotros/as | comáis | viváis | -áis |
 | ellos/ellas/ustedes | coman | vivan | -an |
 
-## Неправильные глаголы (от формы YO):
+## Правило образования:
 
-**Изменения в корне сохраняются:**
+**Глаголы -AR меняют окончания на -ER/-IR, и наоборот!**
 
-| Infinitivo | YO (indicativo) | Subjuntivo |
-|------------|-----------------|------------|
-| tener | tengo | tenga, tengas, tenga... |
-| venir | vengo | venga, vengas, venga... |
-| hacer | hago | haga, hagas, haga... |
-| decir | digo | diga, digas, diga... |
-| conocer | conozco | conozca, conozcas, conozca... |
-| poner | pongo | ponga, pongas, ponga... |
-| salir | salgo | salga, salgas, salga... |
-| traer | traigo | traiga, traigas, traiga... |
+Примеры:
+- hablar → hable, hables, hable...
+- comer → coma, comas, coma...
+- vivir → viva, vivas, viva...
 
-**Полностью неправильные:**
+## Употребление subjuntivo:
 
-| Infinitivo | Subjuntivo |
-|------------|------------|
-| ser | sea, seas, sea, seamos, seáis, sean |
-| estar | esté, estés, esté, estemos, estéis, estén |
-| ir | vaya, vayas, vaya, vayamos, vayáis, vayan |
-| haber | haya, hayas, haya, hayamos, hayáis, hayan |
-| saber | sepa, sepas, sepa, sepamos, sepáis, sepan |
-| dar | dé, des, dé, demos, deis, den |
-
-**Глаголы с изменением гласной (e→ie, o→ue):**
-
-| Infinitivo | Subjuntivo |
-|------------|------------|
-| querer | quiera, quieras, quiera, queramos, queráis, quieran |
-| pensar | piense, pienses, piense, pensemos, penséis, piensen |
-| poder | pueda, puedas, pueda, podamos, podáis, puedan |
-| dormir | duerma, duermas, duerma, durmamos, durmáis, duerman |
-
-## Правило памяти:
-
-**AR ↔ ER/IR меняются местами!**
-- hablar (AR) → habl**e** (как ER)
-- comer (ER) → com**a** (как AR)
-- vivir (IR) → viv**a** (как AR)
+1. **Желания**: Quiero que vengas (Я хочу, чтобы ты пришёл)
+2. **Сомнения**: Dudo que sea verdad (Сомневаюсь, что это правда)
+3. **Эмоции**: Me alegro de que estés aquí (Рад, что ты здесь)
+4. **Безличные выражения**: Es importante que estudies (Важно, чтобы ты учился)
+5. **Цель**: Te llamo para que sepas (Звоню, чтобы ты знал)
       `,
       examples: [
-        { spanish: 'Yo hablo (indicativo) → que yo hable (subjuntivo)', translation: 'Я говорю → чтобы я говорил' },
-        { spanish: 'Tú comes → que tú comas', translation: 'Ты ешь → чтобы ты ел' },
-        { spanish: 'Él tiene → que él tenga', translation: 'У него есть → чтобы у него было' },
-        { spanish: 'Nosotros somos → que seamos', translation: 'Мы есть → чтобы мы были' }
+        { spanish: 'Quiero que juegues conmigo', translation: 'Я хочу, чтобы ты поиграл со мной' },
+        { spanish: 'Espero que te diviertas', translation: 'Надеюсь, ты развлечёшься' },
+        { spanish: 'Es importante que descansemos', translation: 'Важно, чтобы мы отдохнули' },
+        { spanish: 'Dudo que tenga tiempo libre', translation: 'Сомневаюсь, что у меня будет свободное время' }
       ]
     },
     vocabulary: [
-      { word: 'deseo', translation: 'желание', audioUrl: null },
-      { word: 'duda', translation: 'сомнение', audioUrl: null },
-      { word: 'emoción', translation: 'эмоция', audioUrl: null },
-      { word: 'ojalá', translation: 'хоть бы, если бы', audioUrl: null },
-      { word: 'tal vez', translation: 'может быть', audioUrl: null },
-      { word: 'quizás', translation: 'возможно', audioUrl: null },
-      { word: 'esperar', translation: 'надеяться', audioUrl: null },
-      { word: 'querer', translation: 'хотеть', audioUrl: null },
-      { word: 'necesitar', translation: 'нуждаться', audioUrl: null },
-      { word: 'preferir', translation: 'предпочитать', audioUrl: null },
-      { word: 'sugerir', translation: 'предлагать', audioUrl: null },
-      { word: 'recomendar', translation: 'рекомендовать', audioUrl: null },
-      { word: 'aconsejar', translation: 'советовать', audioUrl: null },
-      { word: 'pedir', translation: 'просить', audioUrl: null }
+      { word: 'ocio', translation: 'досуг', audioUrl: null },
+      { word: 'tiempo libre', translation: 'свободное время', audioUrl: null },
+      { word: 'entretenimiento', translation: 'развлечение', audioUrl: null },
+      { word: 'diversión', translation: 'веселье', audioUrl: null },
+      { word: 'pasatiempo', translation: 'хобби, времяпрепровождение', audioUrl: null },
+      { word: 'afición', translation: 'увлечение', audioUrl: null },
+      { word: 'jugar', translation: 'играть', audioUrl: null },
+      { word: 'divertirse', translation: 'развлекаться', audioUrl: null },
+      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+      { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
+      { word: 'pasear', translation: 'гулять', audioUrl: null },
+      { word: 'practicar deportes', translation: 'заниматься спортом', audioUrl: null },
+      { word: 'leer', translation: 'читать', audioUrl: null },
+      { word: 'ver películas', translation: 'смотреть фильмы', audioUrl: null },
+      { word: 'escuchar música', translation: 'слушать музыку', audioUrl: null },
+      { word: 'salir con amigos', translation: 'встречаться с друзьями', audioUrl: null },
+      { word: 'ir al cine', translation: 'ходить в кино', audioUrl: null },
+      { word: 'ir al teatro', translation: 'ходить в театр', audioUrl: null },
+      { word: 'hacer deporte', translation: 'заниматься спортом', audioUrl: null },
+      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
+      { word: 'pintar', translation: 'рисовать', audioUrl: null },
+      { word: 'bailar', translation: 'танцевать', audioUrl: null },
+      { word: 'cantar', translation: 'петь', audioUrl: null },
+      { word: 'nadar', translation: 'плавать', audioUrl: null },
+      { word: 'montar en bicicleta', translation: 'кататься на велосипеде', audioUrl: null },
+      { word: 'correr', translation: 'бегать', audioUrl: null },
+      { word: 'caminar', translation: 'ходить пешком', audioUrl: null },
+      { word: 'cocinar', translation: 'готовить', audioUrl: null },
+      { word: 'tocar un instrumento', translation: 'играть на инструменте', audioUrl: null },
+      { word: 'fotografiar', translation: 'фотографировать', audioUrl: null }
     ],
     readingText: {
-      title: 'Aprendiendo el subjuntivo',
-      content: `El subjuntivo es uno de los aspectos más difíciles del español para los estudiantes extranjeros. Muchos dicen: "Espero que no sea tan complicado" - ¡y ya están usando el subjuntivo sin darse cuenta!
+      title: 'El tiempo libre en España',
+      content: `¿Qué hacen los españoles en su tiempo libre? Esta pregunta tiene muchas respuestas, porque España es un país donde la gente sabe disfrutar del ocio.
 
-El subjuntivo no es un tiempo verbal, sino un modo. Mientras que el indicativo expresa hechos y certezas, el subjuntivo expresa la subjetividad: deseos, dudas, emociones, posibilidades. Es la diferencia entre el mundo real y el mundo de nuestros pensamientos y sentimientos.
+Una de las actividades favoritas es salir con amigos. Los españoles son muy sociales y les encanta quedar para tomar algo. No es raro que los amigos se reúnan en un bar o una terraza para charlar durante horas. Espero que entiendas esta parte importante de la cultura española: el tiempo con amigos es sagrado.
 
-Veamos algunos ejemplos básicos. Cuando dices "Quiero que vengas a mi fiesta", estás usando el subjuntivo ("vengas") porque expresas un deseo. No es un hecho - la persona todavía no ha venido. Compara con "Sé que vienes a mi fiesta" (indicativo) - aquí es un hecho, una certeza.
+El deporte también es muy popular. Muchas personas practican deportes como el fútbol, el tenis, el baloncesto o el ciclismo. Es importante que hagas ejercicio regularmente para mantenerte sano. Los españoles también adoran ir a la playa, especialmente en verano. Allí pueden nadar, tomar el sol y relajarse.
 
-Otro ejemplo: "Espero que haga buen tiempo mañana". Aquí usamos "haga" (subjuntivo de hacer) porque es una esperanza, no una certeza. El tiempo no está en nuestro control. Si dijéramos "Sé que hará buen tiempo" (futuro indicativo), estaríamos muy seguros.
+La cultura es otra parte esencial del ocio español. A los españoles les gusta ir al cine, al teatro o a conciertos. En las ciudades grandes, es común que haya muchos eventos culturales cada fin de semana. Dudo que encuentres una ciudad española sin museos interesantes o galerías de arte.
 
-Las expresiones con "ojalá" siempre llevan subjuntivo. "Ojalá" viene del árabe "law sha Allah" (si Dios quiere). Por ejemplo: "Ojalá apruebe el examen", "Ojalá llueva pronto", "Ojalá tengas un buen día". Son todos deseos.
+Las aficiones también ocupan el tiempo libre de muchos españoles. Algunos pintan, otros tocan instrumentos musicales, y hay quienes prefieren leer. Es necesario que tengas un pasatiempo que te apasione. Esto te ayuda a desconectar del trabajo y del estrés diario.
 
-Cuando expresamos dudas, también usamos subjuntivo: "Dudo que él sepa la respuesta", "No creo que ella venga", "Es posible que llueva". La duda y la incertidumbre son el territorio del subjuntivo.
+Viajar es otra actividad muy popular. Aunque España tiene muchos lugares hermosos para visitar, a los españoles también les encanta conocer otros países. Es probable que muchas familias viajen durante las vacaciones de verano o en Semana Santa.
 
-Las emociones también requieren subjuntivo: "Me alegro de que estés aquí", "Siento que te sientas mal", "Me sorprende que no sepas esto". Nuestras emociones sobre algo son subjetivas, no hechos objetivos.
+En casa, la gente disfruta de actividades más tranquilas. Ver películas o series, escuchar música, cocinar platos especiales o simplemente descansar son formas comunes de pasar el tiempo libre. Quiero que sepas que los españoles valoran mucho estos momentos de relajación.
 
-Para formar el subjuntivo presente, recuerda esta regla sencilla: los verbos -AR toman las terminaciones de -ER/-IR, y viceversa. Es como si los verbos "intercambiaran ropa". HABLAR (AR) se viste como los verbos ER: hable, hables, hable. COMER (ER) se viste como los verbos AR: coma, comas, coma.
+Los fines de semana son especiales. Es típico que las familias se reúnan para comer juntas el domingo. Después de comer, muchos dan un paseo o van al parque. Me alegro de que esta tradición siga siendo importante en la sociedad española moderna.
 
-Los irregulares siguen el patrón de la primera persona del presente indicativo. Si dices "Yo tengo", el subjuntivo será "que yo tenga". Si dices "Yo hago", será "que yo haga". Hay algunas excepciones totalmente irregulares como SER (sea), ESTAR (esté), IR (vaya), SABER (sepa), pero son pocas.
+En conclusión, el tiempo libre en España es variado y rico. Ojalá tengas la oportunidad de experimentar estas costumbres algún día. Te recomiendo que pruebes diferentes actividades cuando visites España. ¡Seguro que te diviertes!`,
+      translation: `Что делают испанцы в свободное время? На этот вопрос есть много ответов, потому что Испания - страна, где люди умеют наслаждаться досугом.
 
-¿Es difícil? Sí. ¿Es imposible? No. Con práctica y exposición constante, el subjuntivo se vuelve natural. Los hispanohablantes lo usan automáticamente desde niños. Tú también puedes. Solo necesitas que practiques mucho, que leas ejemplos, que escuches español auténtico y que no tengas miedo de cometer errores.
+Одно из любимых занятий - встречаться с друзьями. Испанцы очень общительны и любят встречаться, чтобы что-нибудь выпить. Нередко друзья собираются в баре или на террасе, чтобы часами болтать. Надеюсь, ты понимаешь эту важную часть испанской культуры: время с друзьями священно.
 
-Espero que este texto te ayude a entender mejor el subjuntivo. Ojalá sigas estudiando con entusiasmo. Es importante que no te desanimes. Dudo que sea fácil, pero estoy seguro de que puedes aprenderlo. ¡Que tengas éxito en tu aprendizaje!`,
-      translation: `Subjuntivo - один из самых сложных аспектов испанского для иностранных студентов. Многие говорят: "Надеюсь, это не так сложно" - и уже используют subjuntivo, даже не осознавая этого!
+Спорт также очень популярен. Многие люди занимаются такими видами спорта, как футбол, теннис, баскетбол или велоспорт. Важно регулярно заниматься спортом, чтобы оставаться здоровым. Испанцы также обожают ходить на пляж, особенно летом. Там они могут плавать, загорать и расслабляться.
 
-Subjuntivo - это не время глагола, а наклонение. В то время как изъявительное наклонение выражает факты и уверенность, subjuntivo выражает субъективность: желания, сомнения, эмоции, возможности. Это разница между реальным миром и миром наших мыслей и чувств.
+Культура - ещё одна важная часть испанского досуга. Испанцы любят ходить в кино, театр или на концерты. В больших городах обычно много культурных мероприятий каждые выходные. Сомневаюсь, что ты найдёшь испанский город без интересных музеев или художественных галерей.
 
-Давайте рассмотрим несколько базовых примеров. Когда вы говорите "Quiero que vengas a mi fiesta" (Я хочу, чтобы ты пришёл на мою вечеринку), вы используете subjuntivo ("vengas"), потому что выражаете желание. Это не факт - человек ещё не пришёл. Сравните с "Sé que vienes a mi fiesta" (Я знаю, что ты придёшь на мою вечеринку) - здесь это факт, уверенность.
+Хобби также занимают свободное время многих испанцев. Одни рисуют, другие играют на музыкальных инструментах, а есть те, кто предпочитает читать. Необходимо, чтобы у тебя было хобби, которым ты увлечён. Это помогает отключиться от работы и повседневного стресса.
 
-Другой пример: "Espero que haga buen tiempo mañana" (Надеюсь, завтра будет хорошая погода). Здесь мы используем "haga" (subjuntivo от hacer), потому что это надежда, а не уверенность. Погода не в нашем контроле. Если бы мы сказали "Sé que hará buen tiempo" (Я знаю, что будет хорошая погода), мы были бы очень уверены.
+Путешествия - ещё одно очень популярное занятие. Хотя в Испании много красивых мест для посещения, испанцы также любят знакомиться с другими странами. Вероятно, многие семьи путешествуют во время летних каникул или на Страстной неделе.
 
-Выражения с "ojalá" всегда требуют subjuntivo. "Ojalá" происходит от арабского "law sha Allah" (если Бог захочет). Например: "Ojalá apruebe el examen" (Хоть бы я сдал экзамен), "Ojalá llueva pronto" (Хоть бы скорее пошёл дождь), "Ojalá tengas un buen día" (Желаю тебе хорошего дня). Все это желания.
+Дома люди наслаждаются более спокойными занятиями. Смотреть фильмы или сериалы, слушать музыку, готовить особые блюда или просто отдыхать - обычные способы проводить свободное время. Хочу, чтобы ты знал, что испанцы очень ценят эти моменты расслабления.
 
-Когда мы выражаем сомнения, мы также используем subjuntivo: "Dudo que él sepa la respuesta" (Сомневаюсь, что он знает ответ), "No creo que ella venga" (Не думаю, что она придёт), "Es posible que llueva" (Возможно, пойдёт дождь). Сомнение и неуверенность - территория subjuntivo.
+Выходные особенные. Типично, что семьи собираются вместе, чтобы пообедать в воскресенье. После обеда многие гуляют или идут в парк. Рад, что эта традиция остаётся важной в современном испанском обществе.
 
-Эмоции также требуют subjuntivo: "Me alegro de que estés aquí" (Я рад, что ты здесь), "Siento que te sientas mal" (Сожалею, что ты плохо себя чувствуешь), "Me sorprende que no sepas esto" (Меня удивляет, что ты этого не знаешь). Наши эмоции о чём-то субъективны, а не объективные факты.
-
-Чтобы образовать presente de subjuntivo, запомните это простое правило: глаголы -AR берут окончания -ER/-IR, и наоборот. Как будто глаголы "обмениваются одеждой". HABLAR (AR) одевается как глаголы ER: hable, hables, hable. COMER (ER) одевается как глаголы AR: coma, comas, coma.
-
-Неправильные глаголы следуют образцу первого лица настоящего времени. Если вы говорите "Yo tengo", subjuntivo будет "que yo tenga". Если говорите "Yo hago", будет "que yo haga". Есть несколько полностью неправильных исключений, как SER (sea), ESTAR (esté), IR (vaya), SABER (sepa), но их немного.
-
-Это сложно? Да. Это невозможно? Нет. С практикой и постоянным воздействием subjuntivo становится естественным. Носители испанского языка используют его автоматически с детства. Вы тоже можете. Вам просто нужно много практиковаться, читать примеры, слушать аутентичный испанский и не бояться ошибок.
-
-Надеюсь, этот текст поможет вам лучше понять subjuntivo. Хоть бы вы продолжали учиться с энтузиазмом. Важно, чтобы вы не падали духом. Сомневаюсь, что это легко, но я уверен, что вы можете это выучить. Желаю вам успехов в обучении!`
+В заключение, свободное время в Испании разнообразно и насыщенно. Хоть бы у тебя была возможность испытать эти обычаи когда-нибудь. Рекомендую попробовать разные занятия, когда будешь посещать Испанию. Точно развлечёшься!`
     },
-    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5']
-  },
-
-  'lesson-7-2': {
-    id: 'lesson-7-2',
-    title: 'Урок 2: Употребление subjuntivo - желания и эмоции',
-    moduleId: 'module-7',
-    grammar: {
-      title: 'Когда использовать Subjuntivo',
-      content: `
-# Употребление Subjuntivo
-
-## 1. ЖЕЛАНИЯ и ПРОСЬБЫ (QUE + subjuntivo):
-
-**Querer que** (хотеть, чтобы):
-- **Quiero que** vengas - Я хочу, чтобы ты пришел
-- **Queremos que** estudies - Мы хотим, чтобы ты учился
-
-**Esperar que** (надеяться, что):
-- **Espero que** te guste - Надеюсь, тебе понравится
-- **Esperamos que** haga buen tiempo - Надеемся, будет хорошая погода
-
-**Necesitar que** (нуждаться, чтобы):
-- **Necesito que** me ayudes - Мне нужно, чтобы ты мне помог
-
-**Preferir que** (предпочитать, чтобы):
-- **Prefiero que** vengas temprano - Я предпочитаю, чтобы ты пришел рано
-
-## 2. ЭМОЦИИ и ЧУВСТВА:
-
-**Me alegro de que** (я рад, что):
-- **Me alegro de que** estés aquí - Я рад, что ты здесь
-
-**Siento que** (сожалею, что):
-- **Siento que** no puedas venir - Сожалею, что ты не можешь прийти
-
-**Me sorprende que** (меня удивляет, что):
-- **Me sorprende que** no lo sepas - Меня удивляет, что ты это не знаешь
-
-**Tengo miedo de que** (боюсь, что):
-- **Tengo miedo de que** llueva - Боюсь, что пойдет дождь
-
-**Me molesta que** (меня раздражает, что):
-- **Me molesta que** llegues tarde - Меня раздражает, что ты опаздываешь
-
-## 3. СОМНЕНИЯ и ОТРИЦАНИЕ:
-
-**Dudar que** (сомневаться, что):
-- **Dudo que** venga - Сомневаюсь, что он придет
-
-**No creer que** (не верить, что):
-- **No creo que** sea verdad - Не верю, что это правда
-
-**No estar seguro de que** (не быть уверенным, что):
-- **No estoy seguro de que** funcione - Не уверен, что это сработает
-
-**No pensar que** (не думать, что):
-- **No pienso que** tengas razón - Не думаю, что ты прав
-
-⚠️ НО: "Creo que" (indicativo), "Pienso que" (indicativo) - уверенность
-
-## 4. OJALÁ (если бы, хоть бы):
-
-**Ojalá** всегда требует subjuntivo:
-- **Ojalá** llueva - Хоть бы пошел дождь
-- **Ojalá** tengas suerte - Хоть бы тебе повезло
-- **Ojalá** sea verdad - Если бы это было правдой
-
-## 5. БЕЗЛИЧНЫЕ ВЫРАЖЕНИЯ:
-
-**Es importante que** (важно, чтобы):
-- **Es importante que** estudies - Важно, чтобы ты учился
-
-**Es necesario que** (необходимо, чтобы):
-- **Es necesario que** vengas - Необходимо, чтобы ты пришел
-
-**Es posible que** (возможно, что):
-- **Es posible que** llueva - Возможно, пойдет дождь
-
-**Es probable que** (вероятно, что):
-- **Es probable que** llegue tarde - Вероятно, он опоздает
-
-**Es bueno/malo que** (хорошо/плохо, что):
-- **Es bueno que** practiques - Хорошо, что ты практикуешь
-
-**Es una pena que** (жаль, что):
-- **Es una pena que** no puedas venir - Жаль, что ты не можешь прийти
-
-## Структура предложения:
-
-**[Главное предложение] + QUE + [subjuntivo]**
-
-- Quiero + que + tú vengas
-- Espero + que + llueva
-- Me alegro de + que + estés aquí
-
-⚠️ **ВАЖНО:** Если подлежащее одно, используем инфинитив:
-- **Quiero venir** (я хочу прийти - один субъект)
-- **Quiero que vengas** (я хочу, чтобы ТЫ пришел - два субъекта)
-      `,
-      examples: [
-        { spanish: 'Quiero que estudies más', translation: 'Я хочу, чтобы ты учился больше' },
-        { spanish: 'Me alegro de que estés bien', translation: 'Я рад, что ты в порядке' },
-        { spanish: 'Dudo que venga mañana', translation: 'Сомневаюсь, что он придет завтра' },
-        { spanish: 'Ojalá haga buen tiempo', translation: 'Хоть бы была хорошая погода' }
-      ]
-    },
-    vocabulary: [
-      { word: 'alegrarse', translation: 'радоваться', audioUrl: null },
-      { word: 'sentir', translation: 'сожалеть, чувствовать', audioUrl: null },
-      { word: 'sorprender', translation: 'удивлять', audioUrl: null },
-      { word: 'molestar', translation: 'раздражать', audioUrl: null },
-      { word: 'temer', translation: 'бояться', audioUrl: null },
-      { word: 'dudar', translation: 'сомневаться', audioUrl: null },
-      { word: 'creer', translation: 'верить', audioUrl: null },
-      { word: 'importante', translation: 'важный', audioUrl: null },
-      { word: 'necesario', translation: 'необходимый', audioUrl: null },
-      { word: 'posible', translation: 'возможный', audioUrl: null },
-      { word: 'probable', translation: 'вероятный', audioUrl: null },
-      { word: 'pena', translation: 'жалость', audioUrl: null },
-      { word: 'verdad', translation: 'правда', audioUrl: null },
-      { word: 'razón', translation: 'причина, правота', audioUrl: null }
-    ],
-    readingText: {
-      title: 'Carta a un amigo',
-      content: `Querido Miguel:
-
-¿Cómo estás? Espero que estés bien y que tu familia también esté bien. Hace mucho tiempo que no nos vemos y te echo de menos.
-
-Te escribo porque quiero que sepas que voy a viajar a Madrid el mes que viene. ¡Tengo tantas ganas de verte! Espero que tengas tiempo libre para que podamos encontrarnos. Sería genial que pudiéramos pasar un fin de semana juntos como en los viejos tiempos.
-
-Me alegro mucho de que hayas conseguido ese nuevo trabajo del que me hablaste. Es importante que estés contento con lo que haces. Espero que tus compañeros sean agradables y que el jefe te trate bien. Ojalá tengas mucho éxito en tu nueva posición.
-
-Sobre mi vida, bueno, hay cambios. Es posible que me mude a otra ciudad pronto. Mi empresa quiere que trabaje en la oficina de Barcelona. No estoy seguro de que sea una buena idea dejar Madrid, pero es una gran oportunidad profesional. Temo que sea difícil adaptarme a una nueva ciudad, pero espero que todo salga bien.
-
-También tengo noticias sobre Laura. ¿Te acuerdas de ella? Pues resulta que está comprometida. Me sorprende que se case tan joven - solo tiene 25 años. Pero me alegro de que haya encontrado a alguien que la haga feliz. Espero que me inviten a la boda. Sería una pena que no pudiéramos estar allí para celebrarlo con ella.
-
-Sobre mis estudios de español, sigo practicando. Mi profesor quiere que lea más en español y que escriba composiciones cada semana. Es necesario que practique la gramática, especialmente el subjuntivo. ¡Es tan difícil! Dudo que algún día lo domine completamente, pero es importante que siga intentándolo.
-
-¿Y tú? ¿Qué tal tu curso de inglés? Espero que hayas progresado mucho. Es fundamental que practiques hablando, no solo estudiando gramática. Te recomiendo que veas series en inglés con subtítulos. Es una forma excelente de aprender.
-
-Bueno, Miguel, espero que esta carta te encuentre bien. Es posible que vaya a Madrid entre el 15 y el 20 de marzo. Ojalá podamos vernos entonces. Por favor, escríbeme pronto. Necesito que me confirmes si estarás libre esas fechas.
-
-Te mando un abrazo fuerte. Espero que tengamos noticias pronto y que nos veamos dentro de poco.
-
-Tu amigo,
-Carlos
-
-P.D.: Es probable que lleve a mi novia Ana. Espero que no te importe que ella venga también. Estoy seguro de que te caerá muy bien.`,
-      translation: `Дорогой Мигель!
-
-Как дела? Надеюсь, у тебя все хорошо и твоя семья тоже в порядке. Прошло много времени с тех пор, как мы виделись, и я скучаю по тебе.
-
-Пишу тебе, потому что хочу, чтобы ты знал, что собираюсь поехать в Мадрид в следующем месяце. Так хочу тебя увидеть! Надеюсь, у тебя будет свободное время, чтобы мы смогли встретиться. Было бы здорово, если бы мы смогли провести выходные вместе, как в старые времена.
-
-Я очень рад, что ты получил ту новую работу, о которой мне рассказывал. Важно, чтобы ты был доволен тем, что делаешь. Надеюсь, что твои коллеги приятные и что начальник хорошо к тебе относится. Хоть бы у тебя был большой успех на новой должности.
-
-Что касается моей жизни, ну, есть изменения. Возможно, я скоро переезжу в другой город. Моя компания хочет, чтобы я работал в барселонском офисе. Я не уверен, что покидать Мадрид - хорошая идея, но это большая профессиональная возможность. Боюсь, что будет трудно адаптироваться к новому городу, но надеюсь, что все получится хорошо.
-
-У меня также есть новости о Лауре. Помнишь её? Оказывается, она помолвлена. Меня удивляет, что она выходит замуж так молодо - ей всего 25 лет. Но я рад, что она нашла кого-то, кто делает её счастливой. Надеюсь, что меня пригласят на свадьбу. Было бы жаль, если бы мы не смогли быть там, чтобы отпраздновать это с ней.
-
-Что касается моих занятий испанским, я продолжаю практиковаться. Мой учитель хочет, чтобы я больше читал на испанском и писал сочинения каждую неделю. Необходимо, чтобы я практиковал грамматику, особенно subjuntivo. Это так сложно! Сомневаюсь, что когда-нибудь полностью освою его, но важно продолжать пытаться.
-
-А ты? Как твой курс английского? Надеюсь, ты много продвинулся. Очень важно практиковаться в разговоре, а не только изучать грамматику. Рекомендую тебе смотреть сериалы на английском с субтитрами. Это отличный способ учиться.
-
-Ну, Мигель, надеюсь, это письмо застанет тебя в добром здравии. Возможно, я буду в Мадриде между 15 и 20 марта. Хоть бы мы смогли увидеться тогда. Пожалуйста, напиши мне поскорее. Мне нужно, чтобы ты подтвердил, будешь ли ты свободен в эти даты.
-
-Посылаю тебе крепкое объятие. Надеюсь, у нас скоро будут новости и что мы увидимся в ближайшее время.
-
-Твой друг,
-Карлос
-
-P.S.: Вероятно, я возьму с собой мою девушку Ану. Надеюсь, ты не будешь против, что она тоже придёт. Уверен, она тебе очень понравится.`
-    },
-    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
-  },
-
-  'lesson-7-3': {
-    id: 'lesson-7-3',
-    title: 'Урок 3: Subjuntivo в придаточных предложениях',
-    moduleId: 'module-7',
-    grammar: {
-      title: 'Subjuntivo в разных типах придаточных предложений',
-      content: `
-# Subjuntivo в придаточных предложениях
-
-## 1. ВРЕМЕННЫЕ КОНСТРУКЦИИ (cuando, hasta que, antes de que):
-
-### CUANDO:
-- **Futuro**: Cuando **vengas**, hablaremos (Когда ты придешь, мы поговорим) - **subjuntivo**
-- **Presente/pasado**: Cuando **vienes**, hablamos (Когда ты приходишь, мы говорим) - indicativo
-- **Pasado**: Cuando **viniste**, hablamos (Когда ты пришел, мы поговорили) - indicativo
-
-### HASTA QUE (пока не):
-- Esperaré **hasta que llegues** - Подожду, пока ты не придешь
-
-### ANTES DE QUE (перед тем как):
-- Llámame **antes de que salgas** - Позвони мне перед тем как выйдешь
-- ⚠️ Всегда subjuntivo!
-
-### EN CUANTO / TAN PRONTO COMO (как только):
-- **En cuanto termine**, te llamo - Как только закончу, позвоню
-
-## 2. ЦЕЛЬ (para que, a fin de que):
-
-**PARA QUE** (чтобы, для того чтобы):
-- Te lo explico **para que entiendas** - Объясняю тебе, чтобы ты понял
-- Hablo despacio **para que me comprendas** - Говорю медленно, чтобы ты меня понял
-
-⚠️ **Один субъект** = PARA + infinitivo:
-- Estudio **para aprender** (я учусь, чтобы выучить)
-- Trabajo **para ganar dinero** (я работаю, чтобы заработать)
-
-## 3. УСЛОВИЕ (con tal de que, siempre que, a menos que):
-
-**CON TAL DE QUE** (при условии что):
-- Iré **con tal de que vengas** tú también - Пойду при условии, что ты тоже придешь
-
-**SIEMPRE QUE** (при условии что):
-- Te ayudo **siempre que me lo pidas** - Помогу тебе, если ты попросишь
-
-**A MENOS QUE** (если только не):
-- Iremos **a menos que llueva** - Пойдем, если только не будет дождя
-
-**SIN QUE** (без того чтобы):
-- Salió **sin que nadie lo viera** - Вышел, чтобы никто не видел
-
-## 4. УСТУПКА (aunque):
-
-**AUNQUE** + subjuntivo (даже если - неизвестно):
-- **Aunque llueva**, iré - Даже если будет дождь, пойду (не знаем, будет ли)
-
-**AUNQUE** + indicativo (хотя - факт):
-- **Aunque llueve**, iré - Хотя идет дождь, пойду (идет сейчас)
-
-## 5. НЕОПРЕДЕЛЕННОЕ / НЕСУЩЕСТВУЮЩЕЕ:
-
-### Busco... / Necesito... (ищу/нужен):
-- **Busco una casa que tenga jardín** - Ищу дом, у которого есть сад (не знаю, существует ли)
-- Tengo una casa que **tiene** jardín - У меня есть дом с садом (indicativo - конкретный)
-
-### No hay nadie que... (нет никого, кто):
-- **No hay nadie que sepa** la respuesta - Нет никого, кто знает ответ
-
-### ¿Hay alguien que...? (есть кто-то, кто?):
-- **¿Hay alguien que hable** ruso? - Есть кто-то, кто говорит по-русски?
-
-## 6. БЕЗЛИЧНЫЕ КОНСТРУКЦИИ:
-
-**Sea como sea** - Как бы то ни было
-**Pase lo que pase** - Что бы ни случилось
-**Diga lo que diga** - Что бы он ни говорил
-**Cueste lo que cueste** - Чего бы это ни стоило
-
-## Схема выбора:
-
-**¿Факт или субъективность?**
-- Факт, уверенность, привычка → **INDICATIVO**
-- Желание, сомнение, эмоция, будущее → **SUBJUNTIVO**
-
-**¿Определенное или неопределенное?**
-- Конкретное, существующее → **INDICATIVO**
-- Неопределенное, несуществующее → **SUBJUNTIVO**
-      `,
-      examples: [
-        { spanish: 'Cuando vengas, hablaremos', translation: 'Когда ты придешь, мы поговорим' },
-        { spanish: 'Te llamo para que sepas la verdad', translation: 'Звоню тебе, чтобы ты знал правду' },
-        { spanish: 'Busco un libro que explique el subjuntivo', translation: 'Ищу книгу, которая объясняет subjuntivo' },
-        { spanish: 'Aunque llueva, iremos al parque', translation: 'Даже если будет дождь, пойдем в парк' }
-      ]
-    },
-    vocabulary: [
-      { word: 'cuando', translation: 'когда', audioUrl: null },
-      { word: 'hasta que', translation: 'пока не', audioUrl: null },
-      { word: 'antes de que', translation: 'перед тем как', audioUrl: null },
-      { word: 'para que', translation: 'чтобы', audioUrl: null },
-      { word: 'aunque', translation: 'хотя, даже если', audioUrl: null },
-      { word: 'con tal de que', translation: 'при условии что', audioUrl: null },
-      { word: 'a menos que', translation: 'если только не', audioUrl: null },
-      { word: 'sin que', translation: 'без того чтобы', audioUrl: null },
-      { word: 'en cuanto', translation: 'как только', audioUrl: null },
-      { word: 'tan pronto como', translation: 'как только', audioUrl: null },
-      { word: 'buscar', translation: 'искать', audioUrl: null },
-      { word: 'encontrar', translation: 'находить', audioUrl: null },
-      { word: 'existir', translation: 'существовать', audioUrl: null },
-      { word: 'haber', translation: 'иметься', audioUrl: null }
-    ],
-    readingText: {
-      title: 'El Camino de Santiago',
-      content: `El Camino de Santiago es una de las rutas de peregrinación más famosas del mundo. Miles de personas lo recorren cada año, ya sea por motivos religiosos, espirituales o simplemente por la aventura. Aunque cada peregrino tiene sus propias razones, todos comparten una experiencia única.
-
-Muchos peregrinos buscan una experiencia que les cambie la vida. Buscan algo que no pueden encontrar en su rutina diaria. Algunos buscan respuestas a preguntas importantes: "¿Qué quiero hacer con mi vida?", "¿Soy feliz?", "¿Qué es realmente importante para mí?" El Camino ofrece tiempo y espacio para reflexionar sobre estas cuestiones.
-
-Antes de que empieces el Camino, es importante que prepares bien. Necesitas entrenar físicamente para que tu cuerpo aguante las largas caminatas. También es necesario que lleves solo lo esencial en tu mochila. Un consejo: pase lo que pase, no lleves más de 10 kilos. Muchos principiantes cometen el error de llevar demasiadas cosas, y luego tienen que enviarlas a casa porque no pueden cargar tanto peso.
-
-El Camino tiene varias rutas. La más popular es el Camino Francés, que empieza en los Pirineos y termina en Santiago de Compostela. Dura aproximadamente 30-35 días. Aunque hay otras rutas más cortas, muchos peregrinos prefieren hacer el Camino completo para que la experiencia sea más profunda.
-
-En el Camino conocerás personas de todo el mundo. No hay nadie que no tenga una historia interesante que contar. Conocerás a gente que camina para superar una pérdida, otros que buscan dirección en su vida, algunos que quieren probar sus límites físicos, y muchos que simplemente quieren desconectar del estrés moderno.
-
-Los albergues para peregrinos (llamados "albergues") son lugares especiales donde puedes descansar. Son económicos, simples, pero llenos de camaradería. Aunque no son lujosos, ofrecen todo lo que necesitas: una cama, una ducha y, lo más importante, compañía de otros peregrinos. Por la noche, todos comparten historias del día. Es común que hagas amigos que duren toda la vida.
-
-En cuanto llegues a Santiago, sentirás una mezcla de emociones. Alegría por haberlo logrado, tristeza porque la aventura termina, gratitud por la experiencia. La tradición dice que cuando llegues a la catedral, debes abrazar la estatua del apóstol Santiago. Muchos peregrinos lloran en este momento - es el final de un viaje que los ha transformado.
-
-Pero el verdadero Camino no termina en Santiago. Como dicen los peregrinos experimentados: "El Camino no acaba cuando llegas a Santiago, sino cuando Santiago llega a ti". Los cambios que experimentes en el Camino te acompañarán para siempre.
-
-Si estás pensando en hacer el Camino, mi consejo es: hazlo. No importa que no estés en perfecta forma física. No importa que no sepas exactamente por qué quieres ir. No importa que tengas dudas. Muchos peregrinos empiezan el Camino con dudas y preguntas, y lo terminan con paz y claridad.
-
-Ojalá algún día puedas experimentar el Camino de Santiago. Es posible que sea la experiencia más transformadora de tu vida. Y cuando vuelvas, espero que compartas tu historia con otros, para que más personas se animen a hacer este viaje increíble.
-
-Como dicen en español: "Ultreia!" (¡Adelante!) - el saludo tradicional entre peregrinos del Camino de Santiago.`,
-      translation: `Путь Святого Иакова - один из самых знаменитых паломнических маршрутов в мире. Тысячи людей проходят его каждый год, будь то по религиозным, духовным причинам или просто ради приключения. Хотя у каждого паломника свои причины, все они разделяют уникальный опыт.
-
-Многие паломники ищут опыт, который изменит их жизнь. Они ищут что-то, что не могут найти в своей повседневной рутине. Некоторые ищут ответы на важные вопросы: "Что я хочу делать со своей жизнью?", "Счастлив ли я?", "Что действительно важно для меня?" Путь предлагает время и пространство для размышлений об этих вопросах.
-
-Прежде чем вы начнёте Путь, важно хорошо подготовиться. Вам нужно тренироваться физически, чтобы ваше тело выдержало длинные прогулки. Также необходимо, чтобы вы брали с собой только самое необходимое в рюкзаке. Совет: что бы ни случилось, не берите более 10 килограммов. Многие новички совершают ошибку, беря слишком много вещей, а потом им приходится отправлять их домой, потому что не могут нести такой вес.
-
-Путь имеет несколько маршрутов. Самый популярный - Французский путь, который начинается в Пиренеях и заканчивается в Сантьяго-де-Компостела. Он длится примерно 30-35 дней. Хотя есть и более короткие маршруты, многие паломники предпочитают пройти Путь полностью, чтобы опыт был более глубоким.
-
-На Пути вы познакомитесь с людьми со всего мира. Нет никого, у кого не было бы интересной истории. Вы встретите людей, которые идут, чтобы преодолеть потерю, других, которые ищут направление в жизни, некоторых, кто хочет проверить свои физические пределы, и многих, кто просто хочет отключиться от современного стресса.
-
-Паломнические приюты (называемые "альберге") - особенные места, где можно отдохнуть. Они экономичны, просты, но полны товарищества. Хотя они не роскошны, они предлагают всё, что вам нужно: кровать, душ и, что самое важное, компанию других паломников. Вечером все делятся историями дня. Часто вы заводите друзей на всю жизнь.
-
-Как только вы прибудете в Сантьяго, вы почувствуете смесь эмоций. Радость от того, что добились этого, грусть от того, что приключение заканчивается, благодарность за опыт. Традиция гласит, что когда вы приедете в собор, вы должны обнять статую апостола Святого Иакова. Многие паломники плачут в этот момент - это конец путешествия, которое их преобразило.
-
-Но настоящий Путь не заканчивается в Сантьяго. Как говорят опытные паломники: "Путь не заканчивается, когда вы приезжаете в Сантьяго, а когда Сантьяго приходит к вам". Изменения, которые вы испытаете на Пути, будут сопровождать вас навсегда.
-
-Если вы думаете о том, чтобы пройти Путь, мой совет: сделайте это. Неважно, что вы не в идеальной физической форме. Неважно, что вы точно не знаете, почему хотите идти. Неважно, что у вас есть сомнения. Многие паломники начинают Путь с сомнениями и вопросами, а заканчивают с миром и ясностью.
-
-Хоть бы когда-нибудь вы смогли испытать Путь Святого Иакова. Возможно, это будет самый преобразующий опыт вашей жизни. И когда вернётесь, надеюсь, вы поделитесь своей историей с другими, чтобы больше людей решились на это невероятное путешествие.
-
-Как говорят по-испански: "Ultreia!" (Вперёд!) - традиционное приветствие среди паломников Пути Святого Иакова.`
-    },
-    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3', 'ex-7-3-4', 'ex-7-3-5']
+    exercises: [
+      { tab: 'Словарь', exerciseIds: ['ex-7-1-vocab'] },
+      { tab: 'Понимание текста', exerciseIds: ['ex-7-1-comprehension'] },
+      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar'] },
+      { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] }
+    ]
   },
 
   // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
@@ -16326,190 +15985,303 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  // МОДУЛЬ 7: Subjuntivo
-  'ex-7-1-1': {
-    id: 'ex-7-1-1',
-    type: 'grammar',
-    title: 'Образование subjuntivo - AR глаголы',
-    description: 'Выберите правильную форму subjuntivo',
-    questions: [
-      { sentence: 'Quiero que tú ___ (hablar) español', options: ['hablas', 'hables', 'hable', 'hablen'], correct: 1 },
-      { sentence: 'Es importante que nosotros ___ (estudiar)', options: ['estudiamos', 'estudien', 'estudiemos', 'estudie'], correct: 2 },
-      { sentence: 'Espero que ella ___ (trabajar) aquí', options: ['trabaja', 'trabaje', 'trabajas', 'trabajen'], correct: 1 },
-      { sentence: 'Necesito que ellos ___ (ayudar)', options: ['ayudan', 'ayude', 'ayudes', 'ayuden'], correct: 3 }
-    ]
-  },
-  'ex-7-1-2': {
-    id: 'ex-7-1-2',
-    type: 'grammar',
-    title: 'Образование subjuntivo - ER/IR глаголы',
-    description: 'Выберите правильную форму',
-    questions: [
-      { sentence: 'Quiero que tú ___ (comer) verduras', options: ['comes', 'comas', 'coma', 'coman'], correct: 1 },
-      { sentence: 'Espero que él ___ (vivir) feliz', options: ['vive', 'viva', 'vivas', 'vivan'], correct: 1 },
-      { sentence: 'Es necesario que nosotros ___ (escribir)', options: ['escribimos', 'escriban', 'escribamos', 'escriba'], correct: 2 },
-      { sentence: 'Dudo que ellos ___ (aprender) rápido', options: ['aprenden', 'aprenda', 'aprendan', 'aprendas'], correct: 2 }
-    ]
-  },
-  'ex-7-1-3': {
-    id: 'ex-7-1-3',
-    type: 'grammar',
-    title: 'Неправильные формы subjuntivo',
-    description: 'Выберите правильную неправильную форму',
-    questions: [
-      { sentence: 'Quiero que tú ___ (ser) feliz', options: ['eres', 'seas', 'sea', 'sean'], correct: 1 },
-      { sentence: 'Espero que él ___ (estar) bien', options: ['está', 'esté', 'estés', 'estén'], correct: 1 },
-      { sentence: 'Dudo que ellos ___ (ir) mañana', options: ['van', 'vaya', 'vayas', 'vayan'], correct: 3 },
-      { sentence: 'Es importante que tú ___ (saber) esto', options: ['sabes', 'sepas', 'sepa', 'sepan'], correct: 1 },
-      { sentence: 'Necesito que ella ___ (hacer) la tarea', options: ['hace', 'haga', 'hagas', 'hagan'], correct: 1 }
-    ]
-  },
-  'ex-7-1-4': {
-    id: 'ex-7-1-4',
+  // МОДУЛЬ 7: Досуг и развлечения (B1)
+  'ex-7-1-vocab': {
+    id: 'ex-7-1-vocab',
     type: 'fillblank',
-    title: 'Completar con subjuntivo',
-    description: 'Вставьте правильную форму subjuntivo',
+    title: 'Словарь: Досуг и развлечения',
+    description: `Usa estas palabras para completar:
+
+ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar, viajar, leer, pintar, cocinar, relajarse, pasatiempo`,
     questions: [
-      { sentence: 'Quiero que tú _____ (venir) a mi fiesta', verb: 'venir', correct: 'vengas' },
-      { sentence: 'Espero que _____ (haber) comida', verb: 'haber', correct: 'haya' },
-      { sentence: 'Es necesario que nosotros _____ (tener) paciencia', verb: 'tener', correct: 'tengamos' },
-      { sentence: 'Dudo que él _____ (poder) hacerlo', verb: 'poder', correct: 'pueda' }
-    ]
-  },
-  'ex-7-1-5': {
-    id: 'ex-7-1-5',
-    type: 'writing',
-    title: 'Traducción subjuntivo',
-    description: 'Переведите используя subjuntivo',
-    questions: [
-      { russian: 'Я хочу, чтобы ты пришел', correct: 'quiero que vengas' },
-      { russian: 'Надеюсь, что он знает', correct: 'espero que sepa' },
-      { russian: 'Важно, чтобы мы учились', correct: 'es importante que estudiemos' },
-      { russian: 'Сомневаюсь, что они придут', correct: 'dudo que vengan' }
+      {
+        sentence: 'En mi _____ me gusta ir al cine.',
+        correct: 'tiempo libre',
+        alternatives: ['ocio']
+      },
+      {
+        sentence: 'Mi afición favorita es _____ novelas.',
+        correct: 'leer',
+        alternatives: []
+      },
+      {
+        sentence: 'Los fines de semana me encanta _____ por el parque.',
+        correct: 'pasear',
+        alternatives: []
+      },
+      {
+        sentence: 'Es importante _____ después de trabajar.',
+        correct: 'descansar',
+        alternatives: ['relajarse']
+      },
+      {
+        sentence: 'Me gusta _____ en la playa durante el verano.',
+        correct: 'nadar',
+        alternatives: []
+      },
+      {
+        sentence: 'Mi _____ favorito es la fotografía.',
+        correct: 'pasatiempo',
+        alternatives: []
+      },
+      {
+        sentence: 'Los niños quieren _____ al fútbol en el jardín.',
+        correct: 'jugar',
+        alternatives: []
+      },
+      {
+        sentence: 'Ella sabe _____ muy bien el flamenco.',
+        correct: 'bailar',
+        alternatives: []
+      },
+      {
+        sentence: 'Me encanta _____ a diferentes países.',
+        correct: 'viajar',
+        alternatives: []
+      },
+      {
+        sentence: 'Necesito _____ un poco para reducir el estrés.',
+        correct: 'relajarse',
+        alternatives: ['descansar']
+      },
+      {
+        sentence: 'En la fiesta todos quieren _____ y bailar.',
+        correct: 'cantar',
+        alternatives: []
+      },
+      {
+        sentence: 'Mi hermano estudia arte porque le gusta _____.',
+        correct: 'pintar',
+        alternatives: []
+      },
+      {
+        sentence: 'El _____ es muy importante para la salud mental.',
+        correct: 'ocio',
+        alternatives: ['tiempo libre']
+      },
+      {
+        sentence: 'Me encanta _____ platos nuevos los domingos.',
+        correct: 'cocinar',
+        alternatives: []
+      },
+      {
+        sentence: 'Los jóvenes quieren _____ en la discoteca.',
+        correct: 'divertirse',
+        alternatives: []
+      }
     ]
   },
 
-  'ex-7-2-1': {
-    id: 'ex-7-2-1',
-    type: 'grammar',
-    title: 'Желания с subjuntivo',
-    description: 'Выберите правильную форму после querer/esperar',
-    questions: [
-      { sentence: 'Quiero que tú ___ (estudiar) más', options: ['estudias', 'estudies', 'estudie', 'estudien'], correct: 1 },
-      { sentence: 'Espero que ___ (llover) mañana', options: ['llueve', 'llueva', 'lluevas', 'lluevan'], correct: 1 },
-      { sentence: 'Necesitamos que ellos nos ___ (ayudar)', options: ['ayudan', 'ayude', 'ayudes', 'ayuden'], correct: 3 },
-      { sentence: 'Prefiero que tú ___ (venir) temprano', options: ['vienes', 'vengas', 'venga', 'vengan'], correct: 1 }
-    ]
-  },
-  'ex-7-2-2': {
-    id: 'ex-7-2-2',
-    type: 'grammar',
-    title: 'Эмоции с subjuntivo',
-    description: 'Выберите subjuntivo после выражений эмоций',
-    questions: [
-      { sentence: 'Me alegro de que tú ___ (estar) aquí', options: ['estás', 'estés', 'esté', 'estén'], correct: 1 },
-      { sentence: 'Siento que ella no ___ (poder) venir', options: ['puede', 'pueda', 'puedas', 'puedan'], correct: 1 },
-      { sentence: 'Me sorprende que ellos no lo ___ (saber)', options: ['saben', 'sepa', 'sepas', 'sepan'], correct: 3 },
-      { sentence: 'Tengo miedo de que ___ (llover)', options: ['llueve', 'llueva', 'lluevas', 'lluevan'], correct: 1 }
-    ]
-  },
-  'ex-7-2-3': {
-    id: 'ex-7-2-3',
-    type: 'grammar',
-    title: 'Ojalá с subjuntivo',
-    description: 'Выберите форму после ojalá',
-    questions: [
-      { sentence: 'Ojalá ___ (hacer) buen tiempo', options: ['hace', 'haga', 'hagas', 'hagan'], correct: 1 },
-      { sentence: 'Ojalá tú ___ (tener) suerte', options: ['tienes', 'tengas', 'tenga', 'tengan'], correct: 1 },
-      { sentence: 'Ojalá ellos ___ (venir) a la fiesta', options: ['vienen', 'venga', 'vengas', 'vengan'], correct: 3 },
-      { sentence: 'Ojalá ___ (ser) verdad', options: ['es', 'sea', 'seas', 'sean'], correct: 1 }
-    ]
-  },
-  'ex-7-2-4': {
-    id: 'ex-7-2-4',
-    type: 'reading',
-    title: 'Чтение: Carta a un amigo',
-    description: 'Ответьте на вопросы о письме',
-    text: 'Espero que estés bien. Quiero que sepas que voy a Madrid. Me alegro de que hayas conseguido trabajo. Es posible que me mude a Barcelona. Dudo que sea fácil. Espero que me inviten a la boda de Laura.',
-    questions: [
-      { question: 'Куда поедет автор?', options: ['В Барселону', 'В Мадрид', 'В Валенсию', 'В Севилью'], correct: 1 },
-      { question: 'Что автор думает о переезде?', options: ['Уверен', 'Сомневается', 'Не хочет', 'Рад'], correct: 1 },
-      { question: 'О чьей свадьбе говорится?', options: ['Мигеля', 'Карлоса', 'Лауры', 'Аны'], correct: 2 },
-      { question: 'Что получил Мигель?', options: ['Письмо', 'Работу', 'Машину', 'Квартиру'], correct: 1 }
-    ]
-  },
-  'ex-7-2-5': {
-    id: 'ex-7-2-5',
+  'ex-7-1-comprehension': {
+    id: 'ex-7-1-comprehension',
     type: 'writing',
-    title: 'Желания и эмоции',
-    description: 'Переведите используя subjuntivo',
+    title: 'Análisis profundo del texto: El tiempo libre en España',
+    description: 'Escribe tu análisis basado en el texto y consulta la respuesta',
+    showAnswerOption: true,
     questions: [
-      { russian: 'Я рад, что ты здесь', correct: 'me alegro de que estés aquí' },
-      { russian: 'Хоть бы шел дождь', correct: 'ojalá llueva' },
-      { russian: 'Сожалею, что ты не можешь прийти', correct: 'siento que no puedas venir' },
-      { russian: 'Важно, чтобы ты знал', correct: 'es importante que sepas' }
+      {
+        question: '¿Qué dice el texto sobre la importancia de los amigos en la cultura española?',
+        correct: 'El texto afirma que los españoles son muy sociales y que el tiempo con amigos es sagrado. Una actividad favorita es quedar en bares o terrazas para charlar durante horas, lo que demuestra que la socialización es una parte fundamental del ocio español.'
+      },
+      {
+        question: '¿Por qué el deporte es importante según el texto?',
+        correct: 'El texto menciona que es importante hacer ejercicio regularmente para mantenerse sano. Además, muchos españoles practican deportes como fútbol, tenis, baloncesto o ciclismo, y adoran ir a la playa para nadar y relajarse.'
+      },
+      {
+        question: '¿Qué papel juega la cultura en el tiempo libre de los españoles?',
+        correct: 'La cultura es una parte esencial del ocio español. A los españoles les gusta ir al cine, al teatro o a conciertos. En las ciudades grandes hay muchos eventos culturales cada fin de semana, y es difícil encontrar una ciudad sin museos o galerías de arte interesantes.'
+      },
+      {
+        question: '¿Por qué son importantes las aficiones o pasatiempos?',
+        correct: 'El texto explica que es necesario tener un pasatiempo que te apasione porque ayuda a desconectar del trabajo y del estrés diario. Algunos españoles pintan, otros tocan instrumentos musicales, y hay quienes prefieren leer.'
+      },
+      {
+        question: '¿Qué relación tienen los españoles con los viajes?',
+        correct: 'Viajar es una actividad muy popular. Aunque España tiene muchos lugares hermosos para visitar, a los españoles también les encanta conocer otros países. Muchas familias viajan durante las vacaciones de verano o en Semana Santa.'
+      },
+      {
+        question: '¿Qué actividades tranquilas disfrutan los españoles en casa?',
+        correct: 'En casa, la gente disfruta viendo películas o series, escuchando música, cocinando platos especiales o simplemente descansando. El texto enfatiza que los españoles valoran mucho estos momentos de relajación.'
+      },
+      {
+        question: '¿Qué tradición familiar menciona el texto sobre los fines de semana?',
+        correct: 'Es típico que las familias se reúnan para comer juntas el domingo. Después de comer, muchos dan un paseo o van al parque. Esta tradición sigue siendo importante en la sociedad española moderna.'
+      },
+      {
+        question: '¿Cómo describe el texto el tiempo libre en España en general?',
+        correct: 'El texto concluye que el tiempo libre en España es variado y rico. Sugiere que cuando uno visite España, debería probar diferentes actividades para experimentar estas costumbres.'
+      },
+      {
+        question: '¿Qué ejemplos de deportes menciona el texto?',
+        correct: 'El texto menciona el fútbol, el tenis, el baloncesto y el ciclismo como deportes populares que practican los españoles.'
+      },
+      {
+        question: '¿Por qué el texto usa el subjuntivo en varias frases?',
+        correct: 'El texto usa el subjuntivo para expresar deseos, esperanzas y recomendaciones. Por ejemplo, "Espero que entiendas", "Es importante que hagas ejercicio", "Ojalá tengas la oportunidad", "Te recomiendo que pruebes". Esto demuestra el uso natural del subjuntivo en español.'
+      },
+      {
+        question: '¿Qué actividades menciona el texto relacionadas con el arte?',
+        correct: 'El texto menciona pintar como afición, visitar museos y galerías de arte, ir al teatro y asistir a conciertos como actividades culturales relacionadas con el arte.'
+      },
+      {
+        question: '¿Qué sugiere el texto sobre el equilibrio entre trabajo y ocio?',
+        correct: 'El texto sugiere que el ocio es esencial para desconectar del trabajo y del estrés diario. Tener pasatiempos y tiempo para relajarse es necesario para mantener la salud mental y el bienestar.'
+      },
+      {
+        question: '¿Cómo caracteriza el texto a España como país?',
+        correct: 'El texto caracteriza a España como un país donde la gente sabe disfrutar del ocio, valorando tanto las actividades sociales como las culturales, deportivas y de relajación.'
+      },
+      {
+        question: '¿Qué mensaje transmite el texto al lector?',
+        correct: 'El texto transmite un mensaje positivo invitando al lector a experimentar las costumbres españolas de ocio, probar diferentes actividades y disfrutar del tiempo libre de manera variada y enriquecedora.'
+      },
+      {
+        question: '¿Por qué el autor menciona que España tiene "muchos lugares hermosos"?',
+        correct: 'El autor menciona esto para explicar que aunque España ofrece muchas opciones de turismo interno, los españoles también disfrutan viajar al extranjero, mostrando su amor por los viajes en general.'
+      }
     ]
   },
 
-  'ex-7-3-1': {
-    id: 'ex-7-3-1',
-    type: 'grammar',
-    title: 'CUANDO с subjuntivo',
-    description: 'Выберите правильную форму после cuando',
+  'ex-7-1-grammar': {
+    id: 'ex-7-1-grammar',
+    type: 'fillblank',
+    title: 'Práctica de subjuntivo (Contextual): Досуг и развлечения',
+    description: 'Completa las frases con la forma correcta del subjuntivo',
     questions: [
-      { sentence: 'Cuando ___ (llegar-futuro), hablaremos', options: ['llegas', 'llegues', 'llegue', 'lleguen'], correct: 1 },
-      { sentence: 'Cuando ___ (venir-presente habitual), comemos', options: ['vienes', 'vengas', 'venga', 'vengan'], correct: 0 },
-      { sentence: 'Cuando ___ (tener-futuro) tiempo, te llamo', options: ['tienes', 'tengas', 'tenga', 'tengan'], correct: 2 },
-      { sentence: 'Cuando ___ (ser-pasado) niño, jugaba', options: ['fue', 'era', 'sea', 'fuera'], correct: 1 }
+      {
+        sentence: 'Quiero que tú _____ (venir) al cine conmigo esta noche.',
+        correct: 'vengas',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que nosotros _____ (poder) viajar este verano.',
+        correct: 'podamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Es importante que ellos _____ (descansar) después del trabajo.',
+        correct: 'descansen',
+        alternatives: []
+      },
+      {
+        sentence: 'Dudo que María _____ (tener) tiempo libre hoy.',
+        correct: 'tenga',
+        alternatives: []
+      },
+      {
+        sentence: 'Me alegro de que te _____ (gustar) bailar salsa.',
+        correct: 'guste',
+        alternatives: []
+      },
+      {
+        sentence: 'Ojalá _____ (hacer) buen tiempo para pasear.',
+        correct: 'haga',
+        alternatives: []
+      },
+      {
+        sentence: 'Es necesario que nosotros _____ (practicar) más deporte.',
+        correct: 'practiquemos',
+        alternatives: []
+      },
+      {
+        sentence: 'No creo que ellos _____ (ir) al concierto mañana.',
+        correct: 'vayan',
+        alternatives: []
+      },
+      {
+        sentence: 'Te recomiendo que _____ (leer) este libro interesante.',
+        correct: 'leas',
+        alternatives: []
+      },
+      {
+        sentence: 'Es posible que yo _____ (pintar) un cuadro este fin de semana.',
+        correct: 'pinte',
+        alternatives: []
+      },
+      {
+        sentence: 'Prefiero que ustedes _____ (jugar) al fútbol en el parque.',
+        correct: 'jueguen',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que ella _____ (saber) cantar bien.',
+        correct: 'sepa',
+        alternatives: []
+      },
+      {
+        sentence: 'Es probable que nosotros _____ (divertirse) en la fiesta.',
+        correct: 'nos divirtamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Necesito que tú _____ (estar) listo para salir a las ocho.',
+        correct: 'estés',
+        alternatives: []
+      },
+      {
+        sentence: 'Me sorprende que a ti no te _____ (gustar) nadar en el mar.',
+        correct: 'guste',
+        alternatives: []
+      }
     ]
   },
-  'ex-7-3-2': {
-    id: 'ex-7-3-2',
-    type: 'grammar',
-    title: 'PARA QUE с subjuntivo',
-    description: 'Выберите форму после para que',
+
+  'ex-7-1-translation': {
+    id: 'ex-7-1-translation',
+    type: 'translation',
+    title: 'Перевод: Досуг и развлечения',
+    description: 'Переведите предложения с русского на испанский',
     questions: [
-      { sentence: 'Te lo explico para que ___ (entender)', options: ['entiendes', 'entiendas', 'entienda', 'entiendan'], correct: 1 },
-      { sentence: 'Hablo despacio para que me ___ (comprender)', options: ['comprendes', 'comprendas', 'comprenda', 'comprendan'], correct: 1 },
-      { sentence: 'Trabajo para que mi familia ___ (vivir) bien', options: ['vive', 'viva', 'vivas', 'vivan'], correct: 3 },
-      { sentence: 'Te llamo para que ___ (saber) la verdad', options: ['sabes', 'sepas', 'sepa', 'sepan'], correct: 1 }
-    ]
-  },
-  'ex-7-3-3': {
-    id: 'ex-7-3-3',
-    type: 'grammar',
-    title: 'Busco... с subjuntivo',
-    description: 'Неопределенное vs определенное',
-    questions: [
-      { sentence: 'Busco una casa que ___ jardín (неопределенное)', options: ['tiene', 'tenga', 'tengas', 'tengan'], correct: 1 },
-      { sentence: 'Tengo una casa que ___ jardín (определенное)', options: ['tiene', 'tenga', 'tengas', 'tengan'], correct: 0 },
-      { sentence: 'No hay nadie que ___ la respuesta', options: ['sabe', 'sepa', 'sepas', 'sepan'], correct: 1 },
-      { sentence: '¿Hay alguien que ___ ruso?', options: ['habla', 'hable', 'hablas', 'hablen'], correct: 1 }
-    ]
-  },
-  'ex-7-3-4': {
-    id: 'ex-7-3-4',
-    type: 'reading',
-    title: 'Чтение: El Camino de Santiago',
-    description: 'Ответьте на вопросы о Пути',
-    text: 'El Camino de Santiago es famoso. Antes de que empieces, prepara bien. Aunque hay rutas cortas, muchos prefieren el Camino completo. No hay nadie que no tenga historia. En cuanto llegues a Santiago, sentirás emociones. Ojalá algún día puedas hacerlo.',
-    questions: [
-      { question: 'Что нужно сделать перед началом?', options: ['Купить билет', 'Подготовиться', 'Позвонить', 'Написать'], correct: 1 },
-      { question: 'Какой путь предпочитают многие?', options: ['Короткий', 'Средний', 'Полный', 'Быстрый'], correct: 2 },
-      { question: 'Что почувствуешь в Сантьяго?', options: ['Усталость', 'Эмоции', 'Голод', 'Холод'], correct: 1 },
-      { question: 'Что говорится о паломниках?', options: ['Все молодые', 'Все старые', 'У всех есть история', 'Все испанцы'], correct: 2 }
-    ]
-  },
-  'ex-7-3-5': {
-    id: 'ex-7-3-5',
-    type: 'writing',
-    title: 'Придаточные предложения',
-    description: 'Переведите используя subjuntivo',
-    questions: [
-      { russian: 'Когда ты придешь, поговорим', correct: 'cuando vengas hablaremos' },
-      { russian: 'Хоть бы ты мог прийти', correct: 'ojalá puedas venir' },
-      { russian: 'Ищу книгу, которая объясняет это', correct: 'busco un libro que explique esto' },
-      { russian: 'Даже если будет дождь, пойдем', correct: 'aunque llueva iremos' }
+      {
+        russian: 'В свободное время я люблю читать',
+        spanish: 'en mi tiempo libre me gusta leer',
+        alternatives: ['en el tiempo libre me gusta leer']
+      },
+      {
+        russian: 'Мы хотим поехать на пляж',
+        spanish: 'queremos ir a la playa',
+        alternatives: []
+      },
+      {
+        russian: 'Важно отдыхать после работы',
+        spanish: 'es importante descansar después del trabajo',
+        alternatives: ['es importante descansar después de trabajar']
+      },
+      {
+        russian: 'Он любит играть в футбол',
+        spanish: 'le gusta jugar al fútbol',
+        alternatives: ['a él le gusta jugar al fútbol']
+      },
+      {
+        russian: 'Моё хобби - рисование',
+        spanish: 'mi pasatiempo es pintar',
+        alternatives: ['mi afición es pintar', 'mi hobby es pintar']
+      },
+      {
+        russian: 'Она умеет хорошо танцевать',
+        spanish: 'ella sabe bailar bien',
+        alternatives: ['sabe bailar bien']
+      },
+      {
+        russian: 'Мы идём гулять в парк',
+        spanish: 'vamos a pasear al parque',
+        alternatives: ['vamos a pasear en el parque']
+      },
+      {
+        russian: 'Я хочу, чтобы ты развлекался',
+        spanish: 'quiero que te diviertas',
+        alternatives: []
+      },
+      {
+        russian: 'Надеюсь, у тебя есть свободное время',
+        spanish: 'espero que tengas tiempo libre',
+        alternatives: []
+      },
+      {
+        russian: 'Досуг важен для здоровья',
+        spanish: 'el ocio es importante para la salud',
+        alternatives: []
+      }
     ]
   },
 
