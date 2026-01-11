@@ -8319,18 +8319,20 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
     },
     vocabulary: [
       { word: 'ocio', translation: 'досуг', audioUrl: null },
+      { word: 'pasatiempo', translation: 'хобби, времяпрепровождение', audioUrl: null },
       { word: 'tiempo libre', translation: 'свободное время', audioUrl: null },
       { word: 'entretenimiento', translation: 'развлечение', audioUrl: null },
       { word: 'diversión', translation: 'веселье', audioUrl: null },
-      { word: 'pasatiempo', translation: 'хобби, времяпрепровождение', audioUrl: null },
       { word: 'afición', translation: 'увлечение', audioUrl: null },
       { word: 'jugar', translation: 'играть', audioUrl: null },
       { word: 'divertirse', translation: 'развлекаться', audioUrl: null },
+      { word: 'entretenerse', translation: 'развлекаться', audioUrl: null },
       { word: 'descansar', translation: 'отдыхать', audioUrl: null },
       { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
       { word: 'pasear', translation: 'гулять', audioUrl: null },
       { word: 'practicar deportes', translation: 'заниматься спортом', audioUrl: null },
       { word: 'leer', translation: 'читать', audioUrl: null },
+      { word: 'lectura', translation: 'чтение', audioUrl: null },
       { word: 'ver películas', translation: 'смотреть фильмы', audioUrl: null },
       { word: 'escuchar música', translation: 'слушать музыку', audioUrl: null },
       { word: 'salir con amigos', translation: 'встречаться с друзьями', audioUrl: null },
@@ -8339,6 +8341,7 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
       { word: 'hacer deporte', translation: 'заниматься спортом', audioUrl: null },
       { word: 'viajar', translation: 'путешествовать', audioUrl: null },
       { word: 'pintar', translation: 'рисовать', audioUrl: null },
+      { word: 'pintura', translation: 'живопись', audioUrl: null },
       { word: 'bailar', translation: 'танцевать', audioUrl: null },
       { word: 'cantar', translation: 'петь', audioUrl: null },
       { word: 'nadar', translation: 'плавать', audioUrl: null },
@@ -8347,44 +8350,93 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
       { word: 'caminar', translation: 'ходить пешком', audioUrl: null },
       { word: 'cocinar', translation: 'готовить', audioUrl: null },
       { word: 'tocar un instrumento', translation: 'играть на инструменте', audioUrl: null },
-      { word: 'fotografiar', translation: 'фотографировать', audioUrl: null }
+      { word: 'fotografiar', translation: 'фотографировать', audioUrl: null },
+      { word: 'admirar', translation: 'восхищаться', audioUrl: null },
+      { word: 'satisfacer', translation: 'удовлетворять', audioUrl: null },
+      { word: 'hábito', translation: 'привычка', audioUrl: null },
+      { word: 'costumbre', translation: 'обычай', audioUrl: null },
+      { word: 'exposición', translation: 'выставка', audioUrl: null },
+      { word: 'escapada', translation: 'выезд на природу, короткая поездка', audioUrl: null },
+      { word: 'mascota', translation: 'домашний питомец', audioUrl: null },
+      { word: 'jardinería', translation: 'садоводство', audioUrl: null },
+      { word: 'bricolaje', translation: 'рукоделие, работа по дому', audioUrl: null },
+      { word: 'arte', translation: 'искусство', audioUrl: null },
+      { word: 'pesca', translation: 'рыбалка', audioUrl: null },
+      // Cine y Teatro
+      { word: 'opción', translation: 'выбор', audioUrl: null },
+      { word: 'pantalla', translation: 'экран', audioUrl: null },
+      { word: 'vídeo', translation: 'видеофильм', audioUrl: null },
+      { word: 'telenovela', translation: 'сериал', audioUrl: null },
+      { word: 'director de cine', translation: 'режиссер', audioUrl: null },
+      { word: 'guión', translation: 'сценарий', audioUrl: null },
+      { word: 'guionista', translation: 'сценарист', audioUrl: null },
+      { word: 'obra', translation: 'произведение', audioUrl: null },
+      { word: 'estreno', translation: 'премьера', audioUrl: null },
+      { word: 'estrenar', translation: 'давать премьеру, выпускать в прокат', audioUrl: null },
+      { word: 'película de dibujos animados', translation: 'мультфильм', audioUrl: null },
+      { word: 'cartelera', translation: 'афиша', audioUrl: null },
+      { word: 'patio de butacas', translation: 'партер', audioUrl: null },
+      { word: 'platea', translation: 'партер', audioUrl: null },
+      { word: 'palco', translation: 'ложа', audioUrl: null },
+      { word: 'fila', translation: 'ряд', audioUrl: null },
+      { word: 'protagonista', translation: 'главный герой', audioUrl: null },
+      { word: 'papel', translation: 'роль', audioUrl: null },
+      { word: 'interpretar', translation: 'исполнять роль', audioUrl: null },
+      { word: 'espectáculo', translation: 'спектакль, шоу', audioUrl: null },
+      { word: 'ensayar', translation: 'репетировать', audioUrl: null },
+      { word: 'ensayo', translation: 'репетиция', audioUrl: null },
+      { word: 'debutar', translation: 'дебютировать', audioUrl: null },
+      { word: 'aplaudir', translation: 'аплодировать', audioUrl: null },
+      { word: 'espectador', translation: 'зритель', audioUrl: null },
+      { word: 'rodar', translation: 'снимать фильм', audioUrl: null },
+      { word: 'filmar', translation: 'снимать фильм', audioUrl: null },
+      { word: 'telón', translation: 'занавес', audioUrl: null },
+      { word: 'escena', translation: 'сцена', audioUrl: null },
+      // Música
+      { word: 'director de orquesta', translation: 'дирижер', audioUrl: null },
+      { word: 'ópera', translation: 'опера', audioUrl: null },
+      { word: 'zarzuela', translation: 'сарсуэла', audioUrl: null },
+      { word: 'musical', translation: 'мюзикл', audioUrl: null },
+      { word: 'coro', translation: 'хор', audioUrl: null },
+      { word: 'banda', translation: 'музыкальная группа', audioUrl: null },
+      { word: 'gira', translation: 'гастроли', audioUrl: null }
     ],
     readingText: {
-      title: 'El tiempo libre en España',
-      content: `¿Qué hacen los españoles en su tiempo libre? Esta pregunta tiene muchas respuestas, porque España es un país donde la gente sabe disfrutar del ocio.
+      title: 'Carta de Paula',
+      content: `Madrid, 6 de febrero
 
-Una de las actividades favoritas es salir con amigos. Los españoles son muy sociales y les encanta quedar para tomar algo. No es raro que los amigos se reúnan en un bar o una terraza para charlar durante horas. Espero que entiendas esta parte importante de la cultura española: el tiempo con amigos es sagrado.
+Querida Luisa:
 
-El deporte también es muy popular. Muchas personas practican deportes como el fútbol, el tenis, el baloncesto o el ciclismo. Es importante que hagas ejercicio regularmente para mantenerte sano. Los españoles también adoran ir a la playa, especialmente en verano. Allí pueden nadar, tomar el sol y relajarse.
+Este fin de semana, como era puente, y me he quedado sola, he decidido aprovechar el tiempo al máximo. El viernes me fui al cine, el sábado al teatro y el domingo al fútbol. ¡Imagínate, yo al fútbol! Te lo voy a contar porque ha sido alucinante lo que me ha pasado.
 
-La cultura es otra parte esencial del ocio español. A los españoles les gusta ir al cine, al teatro o a conciertos. En las ciudades grandes, es común que haya muchos eventos culturales cada fin de semana. Dudo que encuentres una ciudad española sin museos interesantes o galerías de arte.
+El viernes fui a la sesión de las doce de la Filmoteca. Echaban una de Hitchcock, que nunca me ha gustado pero decidí ir, no sé por qué. Me senté en la última fila de butacas y me puse a comer palomitas. La película era en versión original subtitulada, en inglés, y en la pantalla se veía al protagonista de la película besando a la chica.
 
-Las aficiones también ocupan el tiempo libre de muchos españoles. Algunos pintan, otros tocan instrumentos musicales, y hay quienes prefieren leer. Es necesario que tengas un pasatiempo que te apasione. Esto te ayuda a desconectar del trabajo y del estrés diario.
+De pronto apareció un tipo con una linterna enorme. Entonces me di cuenta de que estaba sola, y no sabes el miedo que pasé. El tipo, que en realidad era un acomodador, se acercó, me alumbró, ¡y me dijo que tenía que marcharme porque era la única espectadora de la sala! Me llevó a la taquilla y me devolvieron el dinero. Empezaba bien el fin de semana.
 
-Viajar es otra actividad muy popular. Aunque España tiene muchos lugares hermosos para visitar, a los españoles también les encanta conocer otros países. Es probable que muchas familias viajen durante las vacaciones de verano o en Semana Santa.
+El sábado me pasé todo el día pensando qué hacer, y al final decidí ir al teatro. Pensando en lo del viernes, me fui a ver una obra de teatro que acaban de estrenar, esa que anuncian por todas partes. Compré una entrada de platea, y me presenté en el teatro media hora antes de la función. Había mucha gente, ¡qué bien! Bueno, pues a mitad del primer acto, el telón se cayó sobre el público. Al principio, todos creíamos que era un efecto dramático, pero cuando llegaron los de la ambulancia, empezó el jaleo, aquello parecía una película de los hermanos Marx. Fue muy divertido, pero el resultado fue que acabamos en la calle y no nos devolvieron el dinero ni nada. ¡Qué cara!
 
-En casa, la gente disfruta de actividades más tranquilas. Ver películas o series, escuchar música, cocinar platos especiales o simplemente descansar son formas comunes de pasar el tiempo libre. Quiero que sepas que los españoles valoran mucho estos momentos de relajación.
+Y bueno, qué te puedo contar del domingo. A mí nunca me ha gustado el fútbol, pero me dije: «¿por qué no?», un día es un día. ¡Menuda idea! Además, que es carísimo. Compré una entrada para un partido de primera división, ni me acuerdo de qué equipos jugaban. Cuando entré, en el campo no había ningún jugador, pero las gradas estaban llenísimas de gente. Estaba muy excitada, la verdad. Tanto que, cuando salieron los jugadores al campo, me puse a gritar como una loca. El partido empezó súper puntual, pero a los diez minutos yo ya estaba tan aburrida que me fui. No vuelvo más.
 
-Los fines de semana son especiales. Es típico que las familias se reúnan para comer juntas el domingo. Después de comer, muchos dan un paseo o van al parque. Me alegro de que esta tradición siga siendo importante en la sociedad española moderna.
+Pero, ¿sabes lo mejor? A la salida, no te puedes imaginar a quién encontré, ahí sí que empezó mi verdadero fin de semana, ¡y todavía dura!
 
-En conclusión, el tiempo libre en España es variado y rico. Ojalá tengas la oportunidad de experimentar estas costumbres algún día. Te recomiendo que pruebes diferentes actividades cuando visites España. ¡Seguro que te diviertes!`,
-      translation: `Что делают испанцы в свободное время? На этот вопрос есть много ответов, потому что Испания - страна, где люди умеют наслаждаться досугом.
+Un abrazo muy fuerte de Paula.`,
+      translation: `Мадрид, 6 февраля
 
-Одно из любимых занятий - встречаться с друзьями. Испанцы очень общительны и любят встречаться, чтобы что-нибудь выпить. Нередко друзья собираются в баре или на террасе, чтобы часами болтать. Надеюсь, ты понимаешь эту важную часть испанской культуры: время с друзьями священно.
+Дорогая Луиза!
 
-Спорт также очень популярен. Многие люди занимаются такими видами спорта, как футбол, теннис, баскетбол или велоспорт. Важно регулярно заниматься спортом, чтобы оставаться здоровым. Испанцы также обожают ходить на пляж, особенно летом. Там они могут плавать, загорать и расслабляться.
+В эти выходные, так как был длинный уикенд, и я осталась одна, я решила максимально использовать время. В пятницу я пошла в кино, в субботу в театр, а в воскресенье на футбол. Представь себе, я на футболе! Расскажу тебе, потому что со мной произошли невероятные вещи.
 
-Культура - ещё одна важная часть испанского досуга. Испанцы любят ходить в кино, театр или на концерты. В больших городах обычно много культурных мероприятий каждые выходные. Сомневаюсь, что ты найдёшь испанский город без интересных музеев или художественных галерей.
+В пятницу я пошла на сеанс в двенадцать часов в Фильмотеку. Показывали фильм Хичкока, который мне никогда не нравился, но я решила пойти, сама не знаю почему. Я села в последнем ряду партера и начала есть попкорн. Фильм был в оригинале с субтитрами, на английском, и на экране был виден главный герой фильма, целующий девушку.
 
-Хобби также занимают свободное время многих испанцев. Одни рисуют, другие играют на музыкальных инструментах, а есть те, кто предпочитает читать. Необходимо, чтобы у тебя было хобби, которым ты увлечён. Это помогает отключиться от работы и повседневного стресса.
+Вдруг появился какой-то тип с огромным фонарём. Тут я поняла, что была одна, и ты не представляешь, как я испугалась. Этот тип, который на самом деле был билетёром, подошёл, посветил на меня фонарём, и сказал мне, что я должна уйти, потому что я единственный зритель в зале! Он отвёл меня к кассе, и мне вернули деньги. Выходные начались хорошо.
 
-Путешествия - ещё одно очень популярное занятие. Хотя в Испании много красивых мест для посещения, испанцы также любят знакомиться с другими странами. Вероятно, многие семьи путешествуют во время летних каникул или на Страстной неделе.
+В субботу я весь день думала, что делать, и в конце концов решила пойти в театр. Вспоминая пятницу, я пошла посмотреть спектакль, который только что дали премьеру, тот, который рекламируют везде. Я купила билет в партер и пришла в театр за полчаса до представления. Было много народу, как здорово! Ну, так вот, посреди первого акта занавес упал на публику. Сначала все мы думали, что это драматический эффект, но когда приехала скорая помощь, началась суматоха, это было похоже на фильм братьев Маркс. Было очень весело, но в результате мы оказались на улице, и нам не вернули деньги - ничего. Какое нахальство!
 
-Дома люди наслаждаются более спокойными занятиями. Смотреть фильмы или сериалы, слушать музыку, готовить особые блюда или просто отдыхать - обычные способы проводить свободное время. Хочу, чтобы ты знал, что испанцы очень ценят эти моменты расслабления.
+Ну, а что я могу рассказать о воскресенье. Мне никогда не нравился футбол, но я сказала себе: "почему бы и нет?", один раз - не страшно. Ну и идея! К тому же, это очень дорого. Я купила билет на матч первого дивизиона, даже не помню, какие команды играли. Когда я зашла, на поле не было ни одного игрока, но трибуны были переполнены людьми. Я была очень взволнована, честно говоря. Настолько, что когда игроки вышли на поле, я начала кричать как сумасшедшая. Матч начался очень пунктуально, но через десять минут мне уже было так скучно, что я ушла. Больше не вернусь.
 
-Выходные особенные. Типично, что семьи собираются вместе, чтобы пообедать в воскресенье. После обеда многие гуляют или идут в парк. Рад, что эта традиция остаётся важной в современном испанском обществе.
+Но знаешь, что самое лучшее? На выходе, ты не представляешь, кого я встретила, вот тогда-то и начались мои настоящие выходные, и они всё ещё продолжаются!
 
-В заключение, свободное время в Испании разнообразно и насыщенно. Хоть бы у тебя была возможность испытать эти обычаи когда-нибудь. Рекомендую попробовать разные занятия, когда будешь посещать Испанию. Точно развлечёшься!`
+Крепко обнимаю, Паула.`
     },
     exercises: [
       { tab: 'Словарь', exerciseIds: ['ex-7-1-vocab'] },
@@ -16221,69 +16273,69 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-comprehension': {
     id: 'ex-7-1-comprehension',
     type: 'writing',
-    title: 'Análisis profundo del texto: El tiempo libre en España',
+    title: 'Análisis profundo del texto: Carta de Paula',
     description: 'Escribe tu análisis basado en el texto y consulta la respuesta',
     showAnswerOption: true,
     questions: [
       {
-        question: '¿Qué dice el texto sobre la importancia de los amigos en la cultura española?',
-        correct: 'El texto afirma que los españoles son muy sociales y que el tiempo con amigos es sagrado. Una actividad favorita es quedar en bares o terrazas para charlar durante horas, lo que demuestra que la socialización es una parte fundamental del ocio español.'
+        question: '¿Por qué Paula decidió aprovechar el tiempo al máximo este fin de semana?',
+        correct: 'Porque era puente (un fin de semana largo) y se había quedado sola. Por eso decidió hacer muchas actividades diferentes: el viernes fue al cine, el sábado al teatro y el domingo al fútbol.'
       },
       {
-        question: '¿Por qué el deporte es importante según el texto?',
-        correct: 'El texto menciona que es importante hacer ejercicio regularmente para mantenerse sano. Además, muchos españoles practican deportes como fútbol, tenis, baloncesto o ciclismo, y adoran ir a la playa para nadar y relajarse.'
+        question: '¿Qué le pasó a Paula en el cine el viernes?',
+        correct: 'Paula fue a ver una película de Hitchcock en la Filmoteca. Se sentó en la última fila de butacas y empezó a comer palomitas. De pronto apareció un acomodador con una linterna que le dijo que tenía que marcharse porque era la única espectadora de la sala. Le devolvieron el dinero.'
       },
       {
-        question: '¿Qué papel juega la cultura en el tiempo libre de los españoles?',
-        correct: 'La cultura es una parte esencial del ocio español. A los españoles les gusta ir al cine, al teatro o a conciertos. En las ciudades grandes hay muchos eventos culturales cada fin de semana, y es difícil encontrar una ciudad sin museos o galerías de arte interesantes.'
+        question: '¿Qué película vio Paula y en qué idioma era?',
+        correct: 'Paula vio una película de Hitchcock. La película era en versión original subtitulada en inglés. En la pantalla se veía al protagonista besando a la chica.'
       },
       {
-        question: '¿Por qué son importantes las aficiones o pasatiempos?',
-        correct: 'El texto explica que es necesario tener un pasatiempo que te apasione porque ayuda a desconectar del trabajo y del estrés diario. Algunos españoles pintan, otros tocan instrumentos musicales, y hay quienes prefieren leer.'
+        question: '¿Qué incidente ocurrió en el teatro el sábado?',
+        correct: 'Paula fue a ver una obra de teatro que acababan de estrenar. A mitad del primer acto, el telón se cayó sobre el público. Al principio todos creían que era un efecto dramático, pero luego llegó la ambulancia. Fue como una película de los hermanos Marx. Al final no les devolvieron el dinero.'
       },
       {
-        question: '¿Qué relación tienen los españoles con los viajes?',
-        correct: 'Viajar es una actividad muy popular. Aunque España tiene muchos lugares hermosos para visitar, a los españoles también les encanta conocer otros países. Muchas familias viajan durante las vacaciones de verano o en Semana Santa.'
+        question: '¿Por qué Paula compró una entrada de platea y llegó media hora antes?',
+        correct: 'Paula compró una entrada de platea para ver la obra de teatro que anunciaban por todas partes. Llegó media hora antes de la función porque quería asegurarse de que habría público, recordando lo que le había pasado el viernes en el cine cuando se quedó sola.'
       },
       {
-        question: '¿Qué actividades tranquilas disfrutan los españoles en casa?',
-        correct: 'En casa, la gente disfruta viendo películas o series, escuchando música, cocinando platos especiales o simplemente descansando. El texto enfatiza que los españoles valoran mucho estos momentos de relajación.'
+        question: '¿Por qué Paula fue al fútbol el domingo si nunca le ha gustado?',
+        correct: 'Paula se dijo "¿por qué no?", un día es un día. Aunque nunca le ha gustado el fútbol, decidió probarlo como una nueva experiencia. Sin embargo, menciona que fue una "menuda idea" porque además es carísimo.'
       },
       {
-        question: '¿Qué tradición familiar menciona el texto sobre los fines de semana?',
-        correct: 'Es típico que las familias se reúnan para comer juntas el domingo. Después de comer, muchos dan un paseo o van al parque. Esta tradición sigue siendo importante en la sociedad española moderna.'
+        question: '¿Cómo reaccionó Paula durante el partido de fútbol?',
+        correct: 'Cuando entró, las gradas estaban llenísimas de gente y Paula estaba muy excitada. Cuando salieron los jugadores al campo, se puso a gritar como una loca. Sin embargo, a los diez minutos ya estaba tan aburrida que se fue y dice que no volverá más.'
       },
       {
-        question: '¿Cómo describe el texto el tiempo libre en España en general?',
-        correct: 'El texto concluye que el tiempo libre en España es variado y rico. Sugiere que cuando uno visite España, debería probar diferentes actividades para experimentar estas costumbres.'
+        question: '¿Qué fue lo mejor del fin de semana según Paula?',
+        correct: 'Paula dice que lo mejor fue lo que pasó a la salida del partido de fútbol. Encontró a alguien (no dice quién) y ahí sí que empezó su verdadero fin de semana, ¡y todavía dura! Esto sugiere que conoció a alguien especial.'
       },
       {
-        question: '¿Qué ejemplos de deportes menciona el texto?',
-        correct: 'El texto menciona el fútbol, el tenis, el baloncesto y el ciclismo como deportes populares que practican los españoles.'
+        question: '¿Qué tono tiene la carta de Paula?',
+        correct: 'La carta tiene un tono humorístico, desenfadado y divertido. Paula cuenta sus desventuras con ironía y sentido del humor. Usa expresiones coloquiales como "¡imagínate!", "¡qué cara!", "menuda idea", y termina con un suspenso romántico sobre a quién encontró.'
       },
       {
-        question: '¿Por qué el texto usa el subjuntivo en varias frases?',
-        correct: 'El texto usa el subjuntivo para expresar deseos, esperanzas y recomendaciones. Por ejemplo, "Espero que entiendas", "Es importante que hagas ejercicio", "Ojalá tengas la oportunidad", "Te recomiendo que pruebes". Esto demuestra el uso natural del subjuntivo en español.'
+        question: '¿Qué expresiones coloquiales usa Paula en su carta?',
+        correct: 'Paula usa varias expresiones coloquiales como "alucinante" (increíble), "¡qué bien!", "¡qué cara!" (qué desfachatez), "menuda idea" (qué mala idea), "empezó el jaleo" (empezó el lío/problema), "me puse a gritar como una loca", "no vuelvo más".'
       },
       {
-        question: '¿Qué actividades menciona el texto relacionadas con el arte?',
-        correct: 'El texto menciona pintar como afición, visitar museos y galerías de arte, ir al teatro y asistir a conciertos como actividades culturales relacionadas con el arte.'
+        question: '¿Cómo describe Paula la situación en el teatro cuando cayó el telón?',
+        correct: 'Paula dice que al principio todos creían que era un efecto dramático del espectáculo. Pero cuando llegaron los de la ambulancia, empezó el jaleo y aquello parecía una película de los hermanos Marx. Aunque fue muy divertido, ella se sintió indignada porque no les devolvieron el dinero.'
       },
       {
-        question: '¿Qué sugiere el texto sobre el equilibrio entre trabajo y ocio?',
-        correct: 'El texto sugiere que el ocio es esencial para desconectar del trabajo y del estrés diario. Tener pasatiempos y tiempo para relajarse es necesario para mantener la salud mental y el bienestar.'
+        question: '¿Qué detalles específicos menciona Paula sobre el cine?',
+        correct: 'Paula menciona que fue a la sesión de las doce de la Filmoteca, que echaban (proyectaban) una película de Hitchcock, que se sentó en la última fila de butacas, que comió palomitas, y que la película era en versión original subtitulada en inglés.'
       },
       {
-        question: '¿Cómo caracteriza el texto a España como país?',
-        correct: 'El texto caracteriza a España como un país donde la gente sabe disfrutar del ocio, valorando tanto las actividades sociales como las culturales, deportivas y de relajación.'
+        question: '¿Por qué Paula dice "Empezaba bien el fin de semana" con ironía?',
+        correct: 'Paula usa esta expresión con ironía porque su experiencia en el cine fue un desastre: tuvo que irse porque era la única espectadora. Es una forma humorística de decir que el fin de semana empezó mal, aunque ella intenta verlo con humor.'
       },
       {
-        question: '¿Qué mensaje transmite el texto al lector?',
-        correct: 'El texto transmite un mensaje positivo invitando al lector a experimentar las costumbres españolas de ocio, probar diferentes actividades y disfrutar del tiempo libre de manera variada y enriquecedora.'
+        question: '¿Qué contraste hay entre las expectativas de Paula y la realidad?',
+        correct: 'Hay un fuerte contraste: Paula decidió aprovechar el tiempo al máximo con actividades culturales y deportivas, pero todas terminaron en situaciones cómicas y desastrosas. En el cine la echaron por estar sola, en el teatro cayó el telón, y en el fútbol se aburrió. Sin embargo, el verdadero fin de semana comenzó con un encuentro inesperado.'
       },
       {
-        question: '¿Por qué el autor menciona que España tiene "muchos lugares hermosos"?',
-        correct: 'El autor menciona esto para explicar que aunque España ofrece muchas opciones de turismo interno, los españoles también disfrutan viajar al extranjero, mostrando su amor por los viajes en general.'
+        question: '¿A quién escribe Paula y qué relación tienen?',
+        correct: 'Paula escribe a su querida amiga Luisa. Por el tono íntimo y confiado de la carta, se puede ver que son amigas cercanas. Paula le cuenta todo con detalle, incluyendo sus sentimientos y usa expresiones como "no sabes el miedo que pasé", "no te puedes imaginar", lo que muestra confianza y cercanía.'
       }
     ]
   },
