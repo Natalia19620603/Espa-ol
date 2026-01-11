@@ -16505,13 +16505,13 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       },
       {
         sentence: 'El jefe exige que nosotros _____ (ir) a la conferencia y _____ (ser) puntuales.',
-        correct: 'vayamos',
-        alternatives: ['seamos']
+        correct: 'vayamos, seamos',
+        alternatives: []
       },
       {
         sentence: 'No creemos que mañana _____ (hacer) buen tiempo, por eso dudamos que _____ (poder, vosotros) disfrutar del sol y del mar.',
-        correct: 'haga',
-        alternatives: ['podáis']
+        correct: 'haga, podáis',
+        alternatives: []
       },
       {
         sentence: '¿Por qué no crees que Pablo _____ (saber) bailar tango?',
@@ -16520,18 +16520,18 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       },
       {
         sentence: 'La abuela nos ruega que _____ (venir, nosotros) a verla este fin de semana y le _____ (traer, nosotros) fotos de nuestra boda.',
-        correct: 'vengamos',
-        alternatives: ['traigamos']
+        correct: 'vengamos, traigamos',
+        alternatives: []
       },
       {
         sentence: 'Necesito que alguien me _____ (despertar) a las siete, temo que mi despertador no _____ (sonar).',
-        correct: 'despierte',
-        alternatives: ['suene']
+        correct: 'despierte, suene',
+        alternatives: []
       },
       {
         sentence: 'Siento que usted _____ (estar) mal, pero sin embargo no pienso que el médico le _____ (dar) de baja.',
-        correct: 'esté',
-        alternatives: ['dé']
+        correct: 'esté, dé',
+        alternatives: []
       },
       {
         sentence: 'Don Alfonso se indigna de que en el consultorio _____ (haber) tanta gente a esta hora.',
@@ -16540,13 +16540,13 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       },
       {
         sentence: 'Si no estáis seguros de que vuestro amigo _____ (conocer) Madrid, ¿por qué le pedís que él os _____ (acompañar)?',
-        correct: 'conozca',
-        alternatives: ['acompañe']
+        correct: 'conozca, acompañe',
+        alternatives: []
       },
       {
         sentence: 'Me alegro de que _____ (estar, tú) conmigo y de que tú te _____ (sentirse) mejor.',
-        correct: 'estés',
-        alternatives: ['sientas']
+        correct: 'estés, sientas',
+        alternatives: []
       }
     ]
   },
@@ -16560,7 +16560,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       {
         sentence: 'Prefiero quedarme en casa hoy. → Prefiero que vosotros _____ (quedarse) en casa hoy.',
         correct: 'os quedéis',
-        alternatives: ['quedéis']
+        alternatives: []
       },
       {
         sentence: 'No quiero conducir el coche cinco horas. → No quiero que mi sobrino _____ (conducir) el coche cinco horas.',
@@ -16657,53 +16657,53 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
     questions: [
       {
         sentence: 'Juan escribe que _____ (disfrutar) del mar y del paisaje, y _____ (divertirse) bien en la costa.',
-        correct: 'disfruta',
-        alternatives: ['se divierte']
+        correct: 'disfruta, se divierte',
+        alternatives: []
       },
       {
         sentence: 'El médico dice que yo _____ (guardar) cama dos días y _____ (estar) a dieta.',
-        correct: 'guarde',
-        alternatives: ['esté']
+        correct: 'guarde, esté',
+        alternatives: []
       },
       {
         sentence: 'La madre grita que su hijo _____ (tener) cuidado y no _____ (jugar) cerca del camino.',
-        correct: 'tenga',
-        alternatives: ['juegue']
+        correct: 'tenga, juegue',
+        alternatives: []
       },
       {
         sentence: 'Estamos seguros de que vosotros ya _____ (leer) esta novela y nos la _____ (recomendar).',
-        correct: 'habéis leído',
-        alternatives: ['recomendaréis']
+        correct: 'habéis leído, recomendaréis',
+        alternatives: []
       },
       {
         sentence: 'No creo que ellos _____ (negarse) a venir conmigo a la exposición y me _____ (acompañar).',
-        correct: 'se nieguen',
-        alternatives: ['acompañen']
+        correct: 'se nieguen, acompañen',
+        alternatives: []
       },
       {
         sentence: 'No dudamos que vosotros _____ (devolvernos) la deuda el viernes y _____ (cumplir) vuestra promesa.',
-        correct: 'nos devolveréis',
-        alternatives: ['cumpliréis']
+        correct: 'nos devolveréis, cumpliréis',
+        alternatives: []
       },
       {
         sentence: 'Te repito que _____ (acercársele) a Lola y _____ (pedirle) perdón.',
-        correct: 'te acerques',
-        alternatives: ['le pidas']
+        correct: 'te acerques, le pidas',
+        alternatives: []
       },
       {
         sentence: 'El tío nos escribe que _____ (ir, nosotros) al campo, que _____ (pasar) unos días en su casa y que él _____ (contarnos) unas cosas interesantes.',
-        correct: 'vayamos',
-        alternatives: ['pasemos', 'nos contará']
+        correct: 'vayamos, pasemos, nos contará',
+        alternatives: []
       },
       {
         sentence: 'Pienso que la abuela _____ (sentirse) mejor, pero no pienso que ella _____ (venir) a vernos el sábado.',
-        correct: 'se siente',
-        alternatives: ['venga']
+        correct: 'se siente, venga',
+        alternatives: []
       },
       {
         sentence: 'La maestra no está segura de que los alumnos _____ (hacer) esta tarea difícil y dice que los padres _____ (ayudarlos) a sus hijos.',
-        correct: 'hagan',
-        alternatives: ['ayuden']
+        correct: 'hagan, ayuden',
+        alternatives: []
       }
     ]
   },
@@ -16859,8 +16859,8 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
     questions: [
       {
         sentence: 'El médico recomienda que tú _____ (guardar) cama y no _____ (salir) de casa.',
-        correct: 'guardes',
-        alternatives: ['salgas']
+        correct: 'guardes, salgas',
+        alternatives: []
       },
       {
         sentence: 'Es necesario que vosotros _____ (facturar) el equipaje antes del embarque.',
