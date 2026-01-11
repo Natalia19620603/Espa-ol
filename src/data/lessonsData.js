@@ -12403,6 +12403,10 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
       {
         tab: 'Los animales y plantas tienen conciencia',
         videoUrl: '/video/Los animales y plantas tienen conciencia.mp4'
+      },
+      {
+        tab: 'El pez mas feo del mundo',
+        videoUrl: '/video/El pez mas feo del mundo.mp4'
       }
     ],
     vocabulary: [
@@ -12497,6 +12501,30 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { word: 'el vidente', translation: 'ясновидящий' },
           { word: 'el medium', translation: 'медиум' }
         ]
+      },
+      {
+        tab: 'El pez mas feo del mundo',
+        words: [
+          { word: 'estar equivocado', translation: 'заблуждаться, ошибаться' },
+          { word: 'la gota', translation: 'капля, подагра' },
+          { word: 'la criatura', translation: 'создание, существо' },
+          { word: 'viralizarse', translation: 'завируситься' },
+          { word: 'tras', translation: 'после, сзади (кого-то)' },
+          { word: 'sacar', translation: 'извлекать, вынимать' },
+          { word: 'gelatinoso', translation: 'желеобразный' },
+          { word: 'la profundidad', translation: 'глубина' },
+          { word: 'la presión', translation: 'давление, напор' },
+          { word: 'la superficie', translation: 'поверхность, площадь' },
+          { word: 'estar adaptado', translation: 'быть приспособленным' },
+          { word: 'sólido', translation: 'твердый, основательный' },
+          { word: 'la textura', translation: 'текстура' },
+          { word: 'flotar', translation: 'плавать, держаться на воде' },
+          { word: 'extraer', translation: 'добывать, извлекать' },
+          { word: 'literalmente', translation: 'буквально, дословно' },
+          { word: 'colapsarse', translation: 'схлопываться, складываться' },
+          { word: 'derritir', translation: 'таять, растопить' },
+          { word: 'el entorno', translation: 'окружение, среда' }
+        ]
       }
     ],
     readingText: [
@@ -12555,6 +12583,12 @@ Es decir, que hay grados distintos. O sea, una persona que necesita una evoluci�
 
 Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dicho que ni soy vidente ni soy médium ni tengo experiencia en estas cosas.`,
         translation: ``
+      },
+      {
+        tab: 'El pez mas feo del mundo',
+        title: 'El pez gota: belleza bajo presión',
+        content: `Si piensas que este animal es feo, estás muy equivocado. Al pez gota se le conoce como la criatura más fea del mundo. Su imagen se viralizó tras ser sacado del agua, mostrando una especie de masa gelatinosa y triste. Pero lo que nadie te cuenta es que ese no es su aspecto natural. Este pez vive a más de 1000 m de profundidad, donde la presión es hasta 120 veces mayor que en la superficie. Su cuerpo está perfectamente adaptado a ese entorno. No tiene esqueleto sólido y su carne es gelatinosa, pero a esa presión, esa textura, es lo que le permite flotar sin esfuerzo. El problema es que al ser extraído tan rápido, su cuerpo se deforma. Fuera del agua literalmente colapsa. Así que esa cara derretida que ves no es más que el resultado de un cuerpo adaptado a un entorno que no es el nuestro.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -12583,6 +12617,15 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
           { name: 'Понимание текста', exercises: ['ex-9-7-animales-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-7-animales-grammar'] },
           { name: 'Перевод', exercises: ['ex-9-7-animales-translation'] }
+        ]
+      },
+      {
+        tab: 'El pez mas feo del mundo',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-7-pezfeo-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-7-pezfeo-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-7-pezfeo-grammar'] },
+          { name: 'Перевод', exercises: ['ex-9-7-pezfeo-translation'] }
         ]
       }
     ]
@@ -29870,6 +29913,315 @@ reencarnarse, resto, intervenir, conclusión, grado, estímulo, externo, mascota
       {
         russian: 'Я не ясновидящий и не медиум.',
         spanish: 'Ni soy vidente ni soy médium'
+      }
+    ]
+  },
+
+  // Урок 9.7 - El pez mas feo del mundo exercises
+  'ex-9-7-pezfeo-vocab': {
+    id: 'ex-9-7-pezfeo-vocab',
+    type: 'vocabulary',
+    title: 'Vocabulario: Selección Léxica',
+    description: 'Elige la respuesta correcta',
+    questions: [
+      {
+        question: '¿Cómo se dice "заблуждаться"?',
+        options: ['Estar sólido', 'Estar equivocado', 'Estar adaptado'],
+        correct: 1
+      },
+      {
+        question: 'La palabra para "существо" es...',
+        options: ['La criatura', 'La textura', 'La superficie'],
+        correct: 0
+      },
+      {
+        question: '"Viralizarse" significa...',
+        options: ['Hacerse famoso en internet', 'Enfermarse', 'Vivir en el agua'],
+        correct: 0
+      },
+      {
+        question: '¿Qué significa "sacar"?',
+        options: ['Таять', 'Плавать', 'Извлекать'],
+        correct: 2
+      },
+      {
+        question: 'El antónimo de "profundidad" es...',
+        options: ['Superficie', 'Presión', 'Entorno'],
+        correct: 0
+      },
+      {
+        question: 'Un cuerpo "sólido" es...',
+        options: ['Газообразный', 'Твердый', 'Жидкий'],
+        correct: 1
+      },
+      {
+        question: 'Cuando un tejido biológico se destruye por la presión, se dice que...',
+        options: ['Se adapta', 'Se derrite', 'Se colapsa'],
+        correct: 2
+      },
+      {
+        question: '¿Qué le pasa al hielo con el calor?',
+        options: ['Se extrae', 'Se derrite', 'Se flota'],
+        correct: 1
+      },
+      {
+        question: 'La "textura" es...',
+        options: ['La forma de la piel', 'El color de los ojos', 'La dieta del animal'],
+        correct: 0
+      },
+      {
+        question: '"Extraer" es sinónimo de...',
+        options: ['Meter', 'Sacar con esfuerzo', 'Esconder'],
+        correct: 1
+      },
+      {
+        question: '"Literalmente" implica...',
+        options: ['Una metáfora', 'Exactamente lo dicho', 'Una mentira'],
+        correct: 1
+      },
+      {
+        question: 'El "entorno" se refiere a...',
+        options: ['La familia', 'El hábitat/medio', 'El pasado'],
+        correct: 1
+      },
+      {
+        question: '"Flotar" es...',
+        options: ['Mantenerse sobre el agua', 'Hundirse', 'Caminar'],
+        correct: 0
+      },
+      {
+        question: 'Si algo es "gelatinoso", es...',
+        options: ['Duro como roca', 'Blando como gelatina', 'Invisible'],
+        correct: 1
+      },
+      {
+        question: '"Tras" en este contexto significa...',
+        options: ['Antes de', 'Durante', 'Después de'],
+        correct: 2
+      }
+    ]
+  },
+
+  'ex-9-7-pezfeo-comprehension': {
+    id: 'ex-9-7-pezfeo-comprehension',
+    type: 'writing',
+    title: 'Análisis profundo del texto: El pez mas feo del mundo',
+    description: 'Escribe tu análisis basado en el texto y consulta la respuesta',
+    showAnswerOption: true,
+    questions: [
+      {
+        question: '¿Qué error cometen las personas al juzgar al pez gota?',
+        correct: 'Las personas están equivocadas al pensar que el pez gota es feo, porque lo juzgan por su apariencia fuera del agua, que no es su aspecto natural.'
+      },
+      {
+        question: '¿Cómo se le conoce al pez gota y por qué?',
+        correct: 'Se le conoce como la criatura más fea del mundo porque su imagen se viralizó mostrando una masa gelatinosa y triste tras ser sacado del agua.'
+      },
+      {
+        question: '¿A qué profundidad vive el pez gota?',
+        correct: 'El pez gota vive a más de 1000 metros de profundidad.'
+      },
+      {
+        question: '¿Cómo es la presión en el hábitat natural del pez gota comparada con la superficie?',
+        correct: 'La presión en su hábitat es hasta 120 veces mayor que en la superficie.'
+      },
+      {
+        question: '¿Cómo está adaptado el cuerpo del pez gota a su entorno?',
+        correct: 'Su cuerpo está perfectamente adaptado: no tiene esqueleto sólido y su carne es gelatinosa, lo que le permite flotar sin esfuerzo a esa presión.'
+      },
+      {
+        question: '¿Por qué la textura gelatinosa es una ventaja para el pez gota?',
+        correct: 'A la presión de su hábitat, esa textura gelatinosa es lo que le permite flotar sin esfuerzo, siendo una adaptación perfecta.'
+      },
+      {
+        question: '¿Qué problema enfrenta el pez gota cuando es extraído del agua?',
+        correct: 'Al ser extraído tan rápido, su cuerpo se deforma porque literalmente colapsa fuera del agua.'
+      },
+      {
+        question: '¿Cuál es la verdad sobre la "cara derretida" del pez gota?',
+        correct: 'Esa cara derretida no es más que el resultado de un cuerpo adaptado a un entorno que no es el nuestro. Es la deformación causada por el cambio de presión.'
+      },
+      {
+        question: '¿Qué lección nos enseña el texto sobre juzgar a otros seres vivos?',
+        correct: 'El texto nos enseña que no debemos juzgar a los seres vivos fuera de su entorno natural, ya que lo que parece "feo" es en realidad una adaptación perfecta a su hábitat.'
+      },
+      {
+        question: '¿Por qué el aspecto del pez gota fuera del agua no refleja su verdadera naturaleza?',
+        correct: 'Porque su cuerpo está diseñado para vivir bajo presiones extremas, y fuera de ese entorno su estructura gelatinosa colapsa, mostrando una apariencia que no corresponde a su forma natural.'
+      },
+      {
+        question: '¿Qué significa que el pez gota "no tiene esqueleto sólido"?',
+        correct: 'Significa que su estructura corporal es flexible y gelatinosa en lugar de tener huesos rígidos, lo cual es una adaptación a las altas presiones de las profundidades.'
+      },
+      {
+        question: '¿Cómo se viralizó la imagen del pez gota?',
+        correct: 'Su imagen se viralizó en internet tras ser sacado del agua, mostrando una apariencia gelatinosa y triste que lo hizo famoso como el animal más feo del mundo.'
+      },
+      {
+        question: '¿Qué contraste presenta el texto entre la percepción y la realidad?',
+        correct: 'El contraste entre cómo se ve el pez gota fuera del agua (feo, derretido) versus su verdadera apariencia y función en su hábitat natural (perfectamente adaptado y funcional).'
+      },
+      {
+        question: '¿Por qué es importante el entorno para entender al pez gota?',
+        correct: 'Porque su entorno de alta presión es esencial para mantener su forma y función. Fuera de ese entorno, pierde su estructura natural y se deforma.'
+      },
+      {
+        question: '¿Qué mensaje central transmite el texto sobre la adaptación biológica?',
+        correct: 'Que cada ser vivo está perfectamente adaptado a su entorno específico, y lo que parece extraño o feo en nuestro mundo puede ser perfecto en el suyo.'
+      }
+    ]
+  },
+
+  'ex-9-7-pezfeo-grammar': {
+    id: 'ex-9-7-pezfeo-grammar',
+    type: 'fillblank',
+    title: 'Práctica de verbos (Contextual): El pez mas feo del mundo',
+    description: 'Completa las frases con la forma correcta del verbo',
+    questions: [
+      {
+        sentence: 'Si tú _____ (pensar) que este animal es feo, estás equivocado.',
+        correct: 'piensas',
+        alternatives: []
+      },
+      {
+        sentence: 'Su imagen se _____ (viralizarse) tras ser sacado del agua.',
+        correct: 'viralizó',
+        alternatives: ['ha viralizado']
+      },
+      {
+        sentence: 'Este pez _____ (vivir) a más de 1000 metros de profundidad.',
+        correct: 'vive',
+        alternatives: []
+      },
+      {
+        sentence: 'Su cuerpo _____ (estar) perfectamente adaptado a ese entorno.',
+        correct: 'está',
+        alternatives: []
+      },
+      {
+        sentence: 'Es importante que nosotros _____ (comprender) las adaptaciones de los animales.',
+        correct: 'comprendamos',
+        alternatives: []
+      },
+      {
+        sentence: '¡No _____ (juzgar, tú) a los animales por su apariencia fuera del agua!',
+        correct: 'juzgues',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando yo _____ (ver) la foto del pez gota, pensé que era muy extraño.',
+        correct: 'vi',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que la gente _____ (aprender) sobre la biología marina.',
+        correct: 'aprenda',
+        alternatives: []
+      },
+      {
+        sentence: 'Los científicos _____ (descubrir) que el pez gota colapsa fuera del agua.',
+        correct: 'descubrieron',
+        alternatives: ['han descubierto']
+      },
+      {
+        sentence: 'Me sorprende que su cuerpo _____ (poder) soportar tanta presión.',
+        correct: 'pueda',
+        alternatives: []
+      },
+      {
+        sentence: 'Antes la gente no _____ (saber) que el pez gota tenía esa apariencia solo fuera del agua.',
+        correct: 'sabía',
+        alternatives: []
+      },
+      {
+        sentence: '¡_____ (Investigar, vosotros) sobre las criaturas de las profundidades!',
+        correct: 'Investigad',
+        alternatives: []
+      },
+      {
+        sentence: 'Es una pena que muchos animales _____ (sufrir) cuando son extraídos de su hábitat.',
+        correct: 'sufran',
+        alternatives: []
+      },
+      {
+        sentence: 'El pez gota _____ (tener) una textura gelatinosa en las profundidades.',
+        correct: 'tiene',
+        alternatives: []
+      },
+      {
+        sentence: 'Si nosotros _____ (vivir) en las profundidades, también necesitaríamos adaptaciones.',
+        correct: 'viviéramos',
+        alternatives: ['viviésemos']
+      }
+    ]
+  },
+
+  'ex-9-7-pezfeo-translation': {
+    id: 'ex-9-7-pezfeo-translation',
+    type: 'translation',
+    title: 'Перевод A2-B1: El pez mas feo del mundo',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если ты думаешь, что это животное уродливое, ты ошибаешься.',
+        spanish: 'Si piensas que este animal es feo, estás equivocado'
+      },
+      {
+        russian: 'Рыбу-каплю называют самым уродливым существом в мире.',
+        spanish: 'Al pez gota se le conoce como la criatura más fea del mundo'
+      },
+      {
+        russian: 'Его изображение стало вирусным после извлечения из воды.',
+        spanish: 'Su imagen se viralizó tras ser sacado del agua'
+      },
+      {
+        russian: 'Это не его естественный вид.',
+        spanish: 'Ese no es su aspecto natural'
+      },
+      {
+        russian: 'Эта рыба живет на глубине более 1000 метров.',
+        spanish: 'Este pez vive a más de 1000 metros de profundidad'
+      },
+      {
+        russian: 'Давление в 120 раз больше, чем на поверхности.',
+        spanish: 'La presión es 120 veces mayor que en la superficie'
+      },
+      {
+        russian: 'Его тело идеально адаптировано к этой среде.',
+        spanish: 'Su cuerpo está perfectamente adaptado a ese entorno'
+      },
+      {
+        russian: 'У него нет твердого скелета.',
+        spanish: 'No tiene esqueleto sólido'
+      },
+      {
+        russian: 'Его плоть желеобразная.',
+        spanish: 'Su carne es gelatinosa'
+      },
+      {
+        russian: 'Эта текстура позволяет ему плавать без усилий.',
+        spanish: 'Esa textura le permite flotar sin esfuerzo'
+      },
+      {
+        russian: 'При быстром извлечении его тело деформируется.',
+        spanish: 'Al ser extraído rápido, su cuerpo se deforma'
+      },
+      {
+        russian: 'Вне воды он буквально разрушается.',
+        spanish: 'Fuera del agua literalmente colapsa'
+      },
+      {
+        russian: 'Это результат адаптации к другой среде.',
+        spanish: 'Es el resultado de un cuerpo adaptado a otro entorno'
+      },
+      {
+        russian: 'Не судите животных по их внешности вне воды.',
+        spanish: 'No juzgues a los animales por su apariencia fuera del agua'
+      },
+      {
+        russian: 'Каждое существо идеально для своей среды обитания.',
+        spanish: 'Cada criatura es perfecta para su entorno'
       }
     ]
   }
