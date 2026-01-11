@@ -12399,6 +12399,10 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
       {
         tab: 'Pez RAPE',
         videoUrl: '/video/Pez RAPE.mp4'
+      },
+      {
+        tab: 'Los animales y plantas tienen conciencia',
+        videoUrl: '/video/Los animales y plantas tienen conciencia.mp4'
       }
     ],
     vocabulary: [
@@ -12472,6 +12476,27 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { word: 'el sistema circulatorio', translation: 'система кровообращения' },
           { word: 'compartir', translation: 'разделять' }
         ]
+      },
+      {
+        tab: 'Los animales y plantas tienen conciencia',
+        words: [
+          { word: 'reencarnarse', translation: 'перевоплощаться' },
+          { word: 'el resto', translation: 'остальное, остаток' },
+          { word: 'intervenir en', translation: 'участвовать в чем-то, вмешиваться' },
+          { word: 'la conclusión', translation: 'вывод, заключение' },
+          { word: 'el grado', translation: 'степень, градус' },
+          { word: 'el estímulo', translation: 'стимул' },
+          { word: 'externo', translation: 'внешний, наружный' },
+          { word: 'la mascota', translation: 'питомец' },
+          { word: 'el nivel', translation: 'уровень, высота' },
+          { word: 'la capacidad', translation: 'способность, возможность, вместимость' },
+          { word: 'la decisión', translation: 'решение' },
+          { word: 'la evolución', translation: 'эволюция, развитие' },
+          { word: 'certificar', translation: 'удостоверять' },
+          { word: 'la autoridad', translation: 'власть, право, авторитет' },
+          { word: 'el vidente', translation: 'ясновидящий' },
+          { word: 'el medium', translation: 'медиум' }
+        ]
       }
     ],
     readingText: [
@@ -12512,6 +12537,24 @@ Nosotros en nuestra arrogancia hablamos de buscar a nuestra media naranja, de qu
 
 Es parasitismo. Es la forma más pura y aterradora de devoción hasta que la muerte y solo la muerte desintegre la carne que ahora comparten.`,
         translation: ``
+      },
+      {
+        tab: 'Los animales y plantas tienen conciencia',
+        title: 'Reencarnación y conciencia en los seres vivos',
+        content: `Entiendo que son, o sea, personas humanas que se reencarnan en personas humanas. ¿O podría haber una reencarnación de personas en el resto de seres vivos?
+
+Mire, en 2014 en Cambridge se hizo una importante reunión en la que intervino, por ejemplo, Stephen Hawking. Llegaron a la conclusión de que todo ser vivo tiene conciencia. Todo ser vivo. Lo que cambia es el grado de la conciencia.
+
+Una planta tiene conciencia. Usted lo ha visto: reacciona ante el sol, por ejemplo, puede girarse, buscar... Es decir, tiene respuesta a estímulos externos. La música influye en las plantas, está demostrado.
+
+Un perro, si usted tiene una mascota, tiene tres aspectos de conciencia, una conciencia de tres niveles. Él tiene emociones: cuando le ve se pone contento, cuando ve a su dueño. Tiene capacidad de aprendizaje y tiene memoria. Usted le puede enseñar cosas y se acuerda.
+
+Y nosotros tenemos la máxima conciencia. Nosotros tenemos conciencia y tenemos autoconciencia. La autoconciencia como un espejo que nos permite ver si nuestras decisiones y actos son éticos o no lo son.
+
+Es decir, que hay grados distintos. O sea, una persona que necesita una evolución determinada puede reencarnarse en una situación de conciencia más baja. Personas expertas en esto, como es Allan Kardec, lo certifican.
+
+Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dicho que ni soy vidente ni soy médium ni tengo experiencia en estas cosas.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -12531,6 +12574,15 @@ Es parasitismo. Es la forma más pura y aterradora de devoción hasta que la mue
           { name: 'Понимание текста', exercises: ['ex-9-7-rape-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-7-rape-grammar'] },
           { name: 'Перевод', exercises: ['ex-9-7-rape-translation'] }
+        ]
+      },
+      {
+        tab: 'Los animales y plantas tienen conciencia',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-7-animales-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-7-animales-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-7-animales-grammar'] },
+          { name: 'Перевод', exercises: ['ex-9-7-animales-translation'] }
         ]
       }
     ]
@@ -29502,6 +29554,322 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       {
         russian: 'Морской черт развил уникальные способности выживания.',
         spanish: 'El pez rape ha desarrollado capacidades únicas de supervivencia'
+      }
+    ]
+  },
+
+  // Урок 9.7 - Los animales y plantas tienen conciencia exercises
+  'ex-9-7-animales-vocab': {
+    id: 'ex-9-7-animales-vocab',
+    type: 'fillblank',
+    title: 'Словарь: Los animales y plantas tienen conciencia',
+    description: `Usa estas palabras para completar:
+
+reencarnarse, resto, intervenir, conclusión, grado, estímulo, externo, mascota, nivel, capacidad, decisión, evolución, certificar, autoridad, vidente, médium`,
+    questions: [
+      {
+        sentence: 'Algunas religiones creen que las almas pueden _____ en otros seres.',
+        correct: 'reencarnarse',
+        alternatives: []
+      },
+      {
+        sentence: 'El _____ de los seres vivos también tiene conciencia según los científicos.',
+        correct: 'resto',
+        alternatives: []
+      },
+      {
+        sentence: 'Stephen Hawking decidió _____ en la reunión de Cambridge en 2014.',
+        correct: 'intervenir',
+        alternatives: []
+      },
+      {
+        sentence: 'Los científicos llegaron a la _____ de que todo ser vivo tiene conciencia.',
+        correct: 'conclusión',
+        alternatives: []
+      },
+      {
+        sentence: 'Lo que cambia entre los seres vivos es el _____ de conciencia.',
+        correct: 'grado',
+        alternatives: []
+      },
+      {
+        sentence: 'Las plantas reaccionan ante _____ externos como la luz del sol.',
+        correct: 'estímulos',
+        alternatives: []
+      },
+      {
+        sentence: 'La música es un _____ que influye en las plantas.',
+        correct: 'estímulo',
+        alternatives: []
+      },
+      {
+        sentence: 'Un perro es una _____ que tiene emociones y memoria.',
+        correct: 'mascota',
+        alternatives: []
+      },
+      {
+        sentence: 'Los perros tienen conciencia de tres _____, según el texto.',
+        correct: 'niveles',
+        alternatives: []
+      },
+      {
+        sentence: 'Los animales tienen _____ de aprendizaje y memoria.',
+        correct: 'capacidad',
+        alternatives: []
+      },
+      {
+        sentence: 'La autoconciencia nos permite evaluar si nuestras _____ son éticas.',
+        correct: 'decisiones',
+        alternatives: []
+      },
+      {
+        sentence: 'Una persona puede necesitar una _____ determinada en su camino espiritual.',
+        correct: 'evolución',
+        alternatives: []
+      },
+      {
+        sentence: 'Allan Kardec puede _____ estos conceptos sobre la reencarnación.',
+        correct: 'certificar',
+        alternatives: []
+      },
+      {
+        sentence: 'El autor no se considera una _____ en estos temas espirituales.',
+        correct: 'autoridad',
+        alternatives: []
+      },
+      {
+        sentence: 'Un _____ es una persona que puede ver el futuro o el pasado.',
+        correct: 'vidente',
+        alternatives: []
+      },
+      {
+        sentence: 'Un _____ es una persona que se comunica con los espíritus.',
+        correct: 'médium',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-9-7-animales-comprehension': {
+    id: 'ex-9-7-animales-comprehension',
+    type: 'writing',
+    title: 'Análisis profundo del texto: Los animales y plantas tienen conciencia',
+    description: 'Escribe tu análisis basado en el texto y consulta la respuesta',
+    showAnswerOption: true,
+    questions: [
+      {
+        question: '¿Qué pregunta inicial se plantea sobre la reencarnación?',
+        correct: 'Se pregunta si las personas humanas solo se reencarnan en personas humanas, o si podría haber reencarnación de personas en el resto de seres vivos.'
+      },
+      {
+        question: '¿Qué reunión importante se menciona y quién participó en ella?',
+        correct: 'En 2014 en Cambridge se hizo una importante reunión en la que intervino Stephen Hawking.'
+      },
+      {
+        question: '¿A qué conclusión llegaron en la reunión de Cambridge?',
+        correct: 'Llegaron a la conclusión de que todo ser vivo tiene conciencia. Lo que cambia es el grado de la conciencia.'
+      },
+      {
+        question: '¿Cómo demuestra una planta que tiene conciencia?',
+        correct: 'Una planta reacciona ante el sol, puede girarse y buscar. Tiene respuesta a estímulos externos. La música influye en las plantas.'
+      },
+      {
+        question: '¿Cuántos niveles de conciencia tiene un perro según el texto?',
+        correct: 'Un perro tiene tres aspectos de conciencia, una conciencia de tres niveles.'
+      },
+      {
+        question: '¿Cuáles son los tres aspectos de conciencia que tiene un perro?',
+        correct: 'Tiene emociones (se pone contento cuando ve a su dueño), tiene capacidad de aprendizaje y tiene memoria.'
+      },
+      {
+        question: '¿Qué tipo de conciencia tenemos los seres humanos?',
+        correct: 'Nosotros tenemos la máxima conciencia. Tenemos conciencia y autoconciencia.'
+      },
+      {
+        question: '¿Qué es la autoconciencia según el texto?',
+        correct: 'La autoconciencia es como un espejo que nos permite ver si nuestras decisiones y actos son éticos o no lo son.'
+      },
+      {
+        question: '¿Qué posibilidad se plantea sobre la reencarnación según los grados de conciencia?',
+        correct: 'Una persona que necesita una evolución determinada puede reencarnarse en una situación de conciencia más baja.'
+      },
+      {
+        question: '¿Quién certifica la posibilidad de reencarnación en diferentes niveles de conciencia?',
+        correct: 'Personas expertas en esto, como Allan Kardec, lo certifican.'
+      },
+      {
+        question: '¿Por qué el autor dice que no es autoridad para hablar de estos temas?',
+        correct: 'Porque no es vidente, no es médium y no tiene experiencia en estas cosas.'
+      },
+      {
+        question: '¿Qué evidencia se menciona sobre la influencia en las plantas?',
+        correct: 'Está demostrado que la música influye en las plantas.'
+      },
+      {
+        question: '¿Qué diferencia hay entre conciencia y autoconciencia?',
+        correct: 'La conciencia es la capacidad de responder a estímulos, tener emociones y memoria. La autoconciencia es la capacidad de reflexionar sobre nuestras propias decisiones y actos desde un punto de vista ético.'
+      },
+      {
+        question: '¿Qué ejemplo se da de las emociones en los perros?',
+        correct: 'Cuando el perro ve a su dueño, se pone contento. Es una muestra de que tiene emociones.'
+      },
+      {
+        question: '¿Qué implica que existan diferentes grados de conciencia en los seres vivos?',
+        correct: 'Implica que todos los seres vivos están conectados en una escala de conciencia, desde las plantas con respuestas básicas hasta los humanos con autoconciencia, y que la evolución espiritual puede moverse entre estos niveles.'
+      }
+    ]
+  },
+
+  'ex-9-7-animales-grammar': {
+    id: 'ex-9-7-animales-grammar',
+    type: 'fillblank',
+    title: 'Práctica de verbos (Contextual): Los animales y plantas tienen conciencia',
+    description: 'Completa las frases con la forma correcta del verbo',
+    questions: [
+      {
+        sentence: 'En 2014 en Cambridge _____ (hacerse) una reunión importante sobre la conciencia.',
+        correct: 'se hizo',
+        alternatives: []
+      },
+      {
+        sentence: 'Stephen Hawking _____ (intervenir) en aquella conferencia científica.',
+        correct: 'intervino',
+        alternatives: []
+      },
+      {
+        sentence: 'Los científicos _____ (llegar) a una conclusión revolucionaria sobre los seres vivos.',
+        correct: 'llegaron',
+        alternatives: ['han llegado']
+      },
+      {
+        sentence: 'Es importante que nosotros _____ (comprender) que todo ser vivo tiene conciencia.',
+        correct: 'comprendamos',
+        alternatives: []
+      },
+      {
+        sentence: '¡_____ (Observar, tú) cómo las plantas reaccionan ante el sol!',
+        correct: 'Observa',
+        alternatives: []
+      },
+      {
+        sentence: 'No _____ (olvidar, tú) que los animales tienen emociones y memoria.',
+        correct: 'olvides',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando yo _____ (ser) niño, mi perro siempre se ponía contento al verme.',
+        correct: 'era',
+        alternatives: []
+      },
+      {
+        sentence: 'Espero que la gente _____ (empezar) a respetar más a los animales.',
+        correct: 'empiece',
+        alternatives: []
+      },
+      {
+        sentence: 'Allan Kardec _____ (certificar) estos conceptos sobre la reencarnación.',
+        correct: 'certificó',
+        alternatives: ['ha certificado']
+      },
+      {
+        sentence: 'Me sorprende que las plantas _____ (poder) reaccionar a la música.',
+        correct: 'puedan',
+        alternatives: []
+      },
+      {
+        sentence: 'Este año los científicos _____ (demostrar) que la música influye en las plantas.',
+        correct: 'han demostrado',
+        alternatives: []
+      },
+      {
+        sentence: '¡_____ (Tratar, vosotros) a vuestras mascotas con respeto y amor!',
+        correct: 'Tratad',
+        alternatives: []
+      },
+      {
+        sentence: 'Antes la gente no _____ (creer) que los animales tuvieran conciencia.',
+        correct: 'creía',
+        alternatives: []
+      },
+      {
+        sentence: 'Es una pena que muchas personas no _____ (reconocer) la conciencia animal.',
+        correct: 'reconozcan',
+        alternatives: []
+      },
+      {
+        sentence: 'Si tú _____ (tener) una mascota, comprenderías mejor este concepto.',
+        correct: 'tienes',
+        alternatives: ['tuvieras', 'tuvieses']
+      }
+    ]
+  },
+
+  'ex-9-7-animales-translation': {
+    id: 'ex-9-7-animales-translation',
+    type: 'translation',
+    title: 'Перевод A2-B1: Los animales y plantas tienen conciencia',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'В 2014 году в Кембридже состоялась важная встреча.',
+        spanish: 'En 2014 en Cambridge se hizo una reunión importante'
+      },
+      {
+        russian: 'Стивен Хокинг участвовал в этой конференции.',
+        spanish: 'Stephen Hawking intervino en esa conferencia'
+      },
+      {
+        russian: 'Они пришли к выводу, что у каждого живого существа есть сознание.',
+        spanish: 'Llegaron a la conclusión de que todo ser vivo tiene conciencia'
+      },
+      {
+        russian: 'То, что меняется, это степень сознания.',
+        spanish: 'Lo que cambia es el grado de la conciencia'
+      },
+      {
+        russian: 'Растение реагирует на солнце и может повернуться.',
+        spanish: 'Una planta reacciona ante el sol y puede girarse'
+      },
+      {
+        russian: 'Музыка влияет на растения, это доказано.',
+        spanish: 'La música influye en las plantas, está demostrado'
+      },
+      {
+        russian: 'Собака имеет сознание трех уровней.',
+        spanish: 'Un perro tiene una conciencia de tres niveles'
+      },
+      {
+        russian: 'У нее есть эмоции, способность к обучению и память.',
+        spanish: 'Tiene emociones, capacidad de aprendizaje y memoria'
+      },
+      {
+        russian: 'Мы обладаем максимальным сознанием и самосознанием.',
+        spanish: 'Nosotros tenemos la máxima conciencia y autoconciencia'
+      },
+      {
+        russian: 'Самосознание как зеркало позволяет нам видеть, этичны ли наши решения.',
+        spanish: 'La autoconciencia como un espejo nos permite ver si nuestras decisiones son éticas'
+      },
+      {
+        russian: 'Есть разные степени сознания.',
+        spanish: 'Hay grados distintos de conciencia'
+      },
+      {
+        russian: 'Человек может перевоплотиться в ситуацию с более низким сознанием.',
+        spanish: 'Una persona puede reencarnarse en una situación de conciencia más baja'
+      },
+      {
+        russian: 'Алан Кардек удостоверяет эти концепции.',
+        spanish: 'Allan Kardec certifica estos conceptos'
+      },
+      {
+        russian: 'Я не являюсь авторитетом, чтобы говорить об этом.',
+        spanish: 'No soy autoridad para decir esto'
+      },
+      {
+        russian: 'Я не ясновидящий и не медиум.',
+        spanish: 'Ni soy vidente ni soy médium'
       }
     ]
   }
