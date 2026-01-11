@@ -8156,6 +8156,84 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
 - comer → coma, comas, coma...
 - vivir → viva, vivas, viva...
 
+## Образование PRESENTE DE SUBJUNTIVO неправильных глаголов
+
+Для того чтобы проще запомнить спряжение «неправильных» глаголов в Presente de Subjuntivo, важно запомнить одно **золотое правило**:
+
+### 🔑 Золотое правило:
+**Почти все отклоняющиеся глаголы строятся от формы «Yo» (я) в обычном настоящем времени (Presente de Indicativo).**
+
+### 1. Глаголы с изменением гласной в корне (Сапожок 👢)
+
+У этих глаголов корень меняется везде, **кроме форм nosotros и vosotros** (как бы рисуя форму сапога в таблице).
+
+| Группа | Изменение | Пример (Subjuntivo) | Особенность |
+|--------|-----------|---------------------|-------------|
+| 1a / 1b | e → ie / o → ue | cerrar → cierre / probar → pruebe | В nos/vos корень обычный: **cerremos, probemos** |
+| 2 | e → i | servir → sirva | Буква **i** сохраняется во всех лицах: **sirvamos** |
+| 3 / 4 | Смешанные | preferir → prefiera / dormir → duerma | ⚠️ В nos/vos происходит замена на одну букву: **prefiramos, durmamos** |
+
+**Примеры глаголов:**
+- **cerrar (e→ie):** cierre, cierres, cierre, cerremos, cerréis, cierren
+- **probar (o→ue):** pruebe, pruebes, pruebe, probemos, probéis, prueben
+- **servir (e→i):** sirva, sirvas, sirva, sirvamos, sirváis, sirvan
+- **preferir (e→ie/i):** prefiera, prefieras, prefiera, **prefiramos**, prefiráis, prefieran
+- **dormir (o→ue/u):** duerma, duermas, duerma, **durmamos**, durmáis, duerman
+
+### 2. Глаголы на -ecer, -ucir и другие (Группа на «ZCA» 📝)
+
+Если в форме «Yo» в обычном времени появляется **zc**, она переходит во все лица Subjuntivo.
+
+**Формула:** yo agradezco → agradezc- + окончания
+
+| Глагол | Yo (Indicativo) | Presente de Subjuntivo |
+|--------|-----------------|------------------------|
+| agradecer (благодарить) | agradezco | agradezca, agradezcas, agradezca, agradezcamos, agradezcáis, agradezcan |
+| producir (производить) | produzco | produzca, produzcas, produzca, produzcamos, produzcáis, produzcan |
+| conocer (знать) | conozco | conozca, conozcas, conozca, conozcamos, conozcáis, conozcan |
+| ofrecer (предлагать) | ofrezco | ofrezca, ofrezcas, ofrezca, ofrezcamos, ofrezcáis, ofrezcan |
+
+### 3. Глаголы на -uir (Группа на «Y» ✏️)
+
+Буква **y** появляется во всех лицах **без исключения**.
+
+**Формула:** yo influyo → influy- + окончания
+
+| Глагол | Yo (Indicativo) | Presente de Subjuntivo |
+|--------|-----------------|------------------------|
+| influir (влиять) | influyo | influya, influyas, influya, influyamos, influyáis, influyan |
+| construir (строить) | construyo | construya, construyas, construya, construyamos, construyáis, construyan |
+| incluir (включать) | incluyo | incluya, incluyas, incluya, incluyamos, incluyáis, incluyan |
+
+### 4. Глаголы индивидуального спряжения (Метод «Yo» 🎯)
+
+Просто возьмите форму «Я» в настоящем времени, уберите окончание **-o** и добавьте окончания Subjuntivo.
+
+| Глагол | Форма «Yo» (обычная) | Корень для Subjuntivo | Примеры |
+|--------|----------------------|----------------------|---------|
+| caber (вмещаться) | quepo | quep- | quepa, quepas, quepa, quepamos, quepáis, quepan |
+| salir (выходить) | salgo | salg- | salga, salgas, salga, salgamos, salgáis, salgan |
+| traer (приносить) | traigo | traig- | traiga, traigas, traiga, traigamos, traigáis, traigan |
+| decir (говорить) | digo | dig- | diga, digas, diga, digamos, digáis, digan |
+| hacer (делать) | hago | hag- | haga, hagas, haga, hagamos, hagáis, hagan |
+| tener (иметь) | tengo | teng- | tenga, tengas, tenga, tengamos, tengáis, tengan |
+| venir (приходить) | vengo | veng- | venga, vengas, venga, vengamos, vengáis, vengan |
+| poner (класть) | pongo | pong- | ponga, pongas, ponga, pongamos, pongáis, pongan |
+| valer (стоить) | valgo | valg- | valga, valgas, valga, valgamos, valgáis, valgan |
+
+### 5. Полностью неправильные глаголы (Исключения ⚠️)
+
+Эти глаголы нужно просто выучить:
+
+| Глагол | Presente de Subjuntivo |
+|--------|------------------------|
+| **ser** (быть) | sea, seas, sea, seamos, seáis, sean |
+| **estar** (находиться) | esté, estés, esté, estemos, estéis, estén |
+| **ir** (идти) | vaya, vayas, vaya, vayamos, vayáis, vayan |
+| **haber** (иметься) | haya, hayas, haya, hayamos, hayáis, hayan |
+| **saber** (знать) | sepa, sepas, sepa, sepamos, sepáis, sepan |
+| **dar** (давать) | dé, des, dé, demos, deis, den |
+
 ## Употребление subjuntivo:
 
 1. **Желания**: Quiero que vengas (Я хочу, чтобы ты пришёл)
