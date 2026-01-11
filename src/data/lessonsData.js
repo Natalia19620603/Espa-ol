@@ -8163,6 +8163,74 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
 3. **Эмоции**: Me alegro de que estés aquí (Рад, что ты здесь)
 4. **Безличные выражения**: Es importante que estudies (Важно, чтобы ты учился)
 5. **Цель**: Te llamo para que sepas (Звоню, чтобы ты знал)
+
+## Употребление сослагательного наклонения в придаточных дополнительных предложениях
+
+В придаточных дополнительных предложениях, вводимых союзом **que** (чтобы/что), может употребляться **modo indicativo** и **modo subjuntivo**.
+
+**Modo subjuntivo** употребляется, когда глагол главного предложения выражает:
+
+### 1. Волеизъявление (Voluntad)
+
+- **Querer** — хотеть
+  - *Quiero que vengas* — Я хочу, чтобы ты пришёл
+- **Desear** — желать
+  - *Deseo que seas feliz* — Желаю, чтобы ты был счастлив
+- **Pedir** — просить
+  - *Te pido que me ayudes* — Прошу тебя, помоги мне
+- **Rogar (o > ue)** — умолять, просить
+  - *Te ruego que me perdones* — Умоляю, прости меня
+- **Exigir** — требовать
+  - *Exijo que vengas ahora* — Требую, чтобы ты пришёл сейчас
+- **Necesitar** — нуждаться / быть необходимым
+  - *Necesito que me escuches* — Мне нужно, чтобы ты меня выслушал
+- **Insistir en** — настаивать на
+  - *Insisto en que hables con él* — Настаиваю, чтобы ты поговорил с ним
+- **Soñar con** — мечтать о
+  - *Sueño con que vuelvas* — Мечтаю, чтобы ты вернулся
+
+### 2. Глаголы приказа и запрета (Mandato y Prohibición)
+
+- **Mandar** — приказывать
+  - *El jefe manda que trabajemos* — Начальник приказывает, чтобы мы работали
+- **Ordenar** — приказывать / приводить в порядок
+  - *Ordeno que salgas* — Приказываю, чтобы ты вышел
+- **Prohibir** — запрещать
+  - *Prohíbo que fumes aquí* — Запрещаю курить здесь
+- **Permitir** — разрешать
+  - *No permito que grites* — Не разрешаю, чтобы ты кричал
+
+### 3. Глаголы совета и рекомендации (Consejo y recomendación)
+
+- **Aconsejar** — советовать
+  - *Te aconsejo que estudies* — Советую тебе учиться
+- **Recomendar (e > ie)** — рекомендовать
+  - *Recomiendo que leas este libro* — Рекомендую прочитать эту книгу
+- **Proponer** — предлагать
+  - *Propongo que vayamos al cine* — Предлагаю пойти в кино
+- **Advertir (e > ie)** — предупреждать
+  - *Te advierto que tengas cuidado* — Предупреждаю, будь осторожен
+
+### 4. Глаголы передачи информации (Comunicación)
+
+Когда эти глаголы выражают **просьбу или приказ** (а не просто передают факт), после союза **que** также используется **Subjuntivo**.
+
+- **Decir** — сказать
+  - *Te digo que vengas* — Говорю тебе, приди (приказ)
+  - ⚠️ *Digo que vienes* — Говорю, что ты придёшь (факт - indicativo)
+- **Escribir** — написать
+  - *Te escribo que me llames* — Пишу тебе, позвони мне
+- **Gritar** — крикнуть
+  - *Le grito que se calle* — Кричу ему, чтобы замолчал
+- **Repetir** — повторить
+  - *Repito que llegues a tiempo* — Повторяю, приди вовремя
+
+### ⚠️ Важно помнить:
+
+**Структура:** [Главное предложение] + **QUE** + [Subjuntivo]
+
+- Если подлежащее одно → используем инфинитив: *Quiero venir* (Я хочу прийти)
+- Если подлежащие разные → используем subjuntivo: *Quiero que vengas* (Я хочу, чтобы ТЫ пришёл)
       `,
       examples: [
         { spanish: 'Quiero que juegues conmigo', translation: 'Я хочу, чтобы ты поиграл со мной' },
