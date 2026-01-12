@@ -4439,10 +4439,14 @@ María: Muy bien, gracias.
     id: 'ex-2-1-7-err',
     type: 'error-correction',
     title: 'Исправьте ошибки',
-    description: 'Выберите правильный ответ',
+    description: 'Найдите и исправьте ошибку в каждом предложении',
     questions: [
       { sentence: 'Yo estudias español', correct: 'yo estudio español' },
-      { sentence: 'Ella trabajan en Madrid', correct: 'ella trabaja en madrid' }
+      { sentence: 'Ella trabajan en Madrid', correct: 'ella trabaja en madrid' },
+      { sentence: 'Nosotros habla inglés', correct: 'nosotros hablamos inglés' },
+      { sentence: 'Tú trabajan en una escuela', correct: 'tú trabajas en una escuela' },
+      { sentence: 'Ellos camina en el parque', correct: 'ellos caminan en el parque' },
+      { sentence: 'María y yo estudia mucho', correct: 'maría y yo estudiamos mucho' }
     ]
   },
 
