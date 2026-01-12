@@ -8340,92 +8340,119 @@ La sociedad será más diversa y conectada globalmente. Viajar será más fácil
       ]
     },
     vocabulary: [
-      { word: 'ocio', translation: 'досуг', audioUrl: null },
-      { word: 'pasatiempo', translation: 'хобби, времяпрепровождение', audioUrl: null },
-      { word: 'tiempo libre', translation: 'свободное время', audioUrl: null },
-      { word: 'entretenimiento', translation: 'развлечение', audioUrl: null },
-      { word: 'diversión', translation: 'веселье', audioUrl: null },
-      { word: 'afición', translation: 'увлечение', audioUrl: null },
-      { word: 'jugar', translation: 'играть', audioUrl: null },
-      { word: 'divertirse', translation: 'развлекаться', audioUrl: null },
-      { word: 'entretenerse', translation: 'развлекаться', audioUrl: null },
-      { word: 'descansar', translation: 'отдыхать', audioUrl: null },
-      { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
-      { word: 'pasear', translation: 'гулять', audioUrl: null },
-      { word: 'practicar deportes', translation: 'заниматься спортом', audioUrl: null },
-      { word: 'leer', translation: 'читать', audioUrl: null },
-      { word: 'lectura', translation: 'чтение', audioUrl: null },
-      { word: 'ver películas', translation: 'смотреть фильмы', audioUrl: null },
-      { word: 'escuchar música', translation: 'слушать музыку', audioUrl: null },
-      { word: 'salir con amigos', translation: 'встречаться с друзьями', audioUrl: null },
-      { word: 'ir al cine', translation: 'ходить в кино', audioUrl: null },
-      { word: 'ir al teatro', translation: 'ходить в театр', audioUrl: null },
-      { word: 'hacer deporte', translation: 'заниматься спортом', audioUrl: null },
-      { word: 'viajar', translation: 'путешествовать', audioUrl: null },
-      { word: 'pintar', translation: 'рисовать', audioUrl: null },
-      { word: 'pintura', translation: 'живопись', audioUrl: null },
-      { word: 'bailar', translation: 'танцевать', audioUrl: null },
-      { word: 'cantar', translation: 'петь', audioUrl: null },
-      { word: 'nadar', translation: 'плавать', audioUrl: null },
-      { word: 'montar en bicicleta', translation: 'кататься на велосипеде', audioUrl: null },
-      { word: 'correr', translation: 'бегать', audioUrl: null },
-      { word: 'caminar', translation: 'ходить пешком', audioUrl: null },
-      { word: 'cocinar', translation: 'готовить', audioUrl: null },
-      { word: 'tocar un instrumento', translation: 'играть на инструменте', audioUrl: null },
-      { word: 'fotografiar', translation: 'фотографировать', audioUrl: null },
-      { word: 'admirar', translation: 'восхищаться', audioUrl: null },
-      { word: 'satisfacer', translation: 'удовлетворять', audioUrl: null },
-      { word: 'hábito', translation: 'привычка', audioUrl: null },
-      { word: 'costumbre', translation: 'обычай', audioUrl: null },
-      { word: 'exposición', translation: 'выставка', audioUrl: null },
-      { word: 'escapada', translation: 'выезд на природу, короткая поездка', audioUrl: null },
-      { word: 'mascota', translation: 'домашний питомец', audioUrl: null },
-      { word: 'jardinería', translation: 'садоводство', audioUrl: null },
-      { word: 'bricolaje', translation: 'рукоделие, работа по дому', audioUrl: null },
-      { word: 'arte', translation: 'искусство', audioUrl: null },
-      { word: 'pesca', translation: 'рыбалка', audioUrl: null },
-      // Cine y Teatro
-      { word: 'opción', translation: 'выбор', audioUrl: null },
-      { word: 'pantalla', translation: 'экран', audioUrl: null },
-      { word: 'vídeo', translation: 'видеофильм', audioUrl: null },
-      { word: 'telenovela', translation: 'сериал', audioUrl: null },
-      { word: 'director de cine', translation: 'режиссер', audioUrl: null },
-      { word: 'guión', translation: 'сценарий', audioUrl: null },
-      { word: 'guionista', translation: 'сценарист', audioUrl: null },
-      { word: 'obra', translation: 'произведение', audioUrl: null },
-      { word: 'estreno', translation: 'премьера', audioUrl: null },
-      { word: 'estrenar', translation: 'давать премьеру, выпускать в прокат', audioUrl: null },
-      { word: 'película de dibujos animados', translation: 'мультфильм', audioUrl: null },
-      { word: 'cartelera', translation: 'афиша', audioUrl: null },
-      { word: 'patio de butacas', translation: 'партер', audioUrl: null },
-      { word: 'platea', translation: 'партер', audioUrl: null },
-      { word: 'palco', translation: 'ложа', audioUrl: null },
-      { word: 'fila', translation: 'ряд', audioUrl: null },
-      { word: 'protagonista', translation: 'главный герой', audioUrl: null },
-      { word: 'papel', translation: 'роль', audioUrl: null },
-      { word: 'interpretar', translation: 'исполнять роль', audioUrl: null },
-      { word: 'espectáculo', translation: 'спектакль, шоу', audioUrl: null },
-      { word: 'ensayar', translation: 'репетировать', audioUrl: null },
-      { word: 'ensayo', translation: 'репетиция', audioUrl: null },
-      { word: 'debutar', translation: 'дебютировать', audioUrl: null },
-      { word: 'aplaudir', translation: 'аплодировать', audioUrl: null },
-      { word: 'espectador', translation: 'зритель', audioUrl: null },
-      { word: 'rodar', translation: 'снимать фильм', audioUrl: null },
-      { word: 'filmar', translation: 'снимать фильм', audioUrl: null },
-      { word: 'telón', translation: 'занавес', audioUrl: null },
-      { word: 'escena', translation: 'сцена', audioUrl: null },
-      // Música
-      { word: 'director de orquesta', translation: 'дирижер', audioUrl: null },
-      { word: 'ópera', translation: 'опера', audioUrl: null },
-      { word: 'zarzuela', translation: 'сарсуэла', audioUrl: null },
-      { word: 'musical', translation: 'мюзикл', audioUrl: null },
-      { word: 'coro', translation: 'хор', audioUrl: null },
-      { word: 'banda', translation: 'музыкальная группа', audioUrl: null },
-      { word: 'gira', translation: 'гастроли', audioUrl: null }
+      {
+        tab: 'Основной',
+        words: [
+          { word: 'ocio', translation: 'досуг', audioUrl: null },
+          { word: 'pasatiempo', translation: 'хобби, времяпрепровождение', audioUrl: null },
+          { word: 'tiempo libre', translation: 'свободное время', audioUrl: null },
+          { word: 'entretenimiento', translation: 'развлечение', audioUrl: null },
+          { word: 'diversión', translation: 'веселье', audioUrl: null },
+          { word: 'afición', translation: 'увлечение', audioUrl: null },
+          { word: 'jugar', translation: 'играть', audioUrl: null },
+          { word: 'divertirse', translation: 'развлекаться', audioUrl: null },
+          { word: 'entretenerse', translation: 'развлекаться', audioUrl: null },
+          { word: 'descansar', translation: 'отдыхать', audioUrl: null },
+          { word: 'relajarse', translation: 'расслабляться', audioUrl: null },
+          { word: 'pasear', translation: 'гулять', audioUrl: null },
+          { word: 'practicar deportes', translation: 'заниматься спортом', audioUrl: null },
+          { word: 'leer', translation: 'читать', audioUrl: null },
+          { word: 'lectura', translation: 'чтение', audioUrl: null },
+          { word: 'ver películas', translation: 'смотреть фильмы', audioUrl: null },
+          { word: 'escuchar música', translation: 'слушать музыку', audioUrl: null },
+          { word: 'salir con amigos', translation: 'встречаться с друзьями', audioUrl: null },
+          { word: 'ir al cine', translation: 'ходить в кино', audioUrl: null },
+          { word: 'ir al teatro', translation: 'ходить в театр', audioUrl: null },
+          { word: 'hacer deporte', translation: 'заниматься спортом', audioUrl: null },
+          { word: 'viajar', translation: 'путешествовать', audioUrl: null },
+          { word: 'pintar', translation: 'рисовать', audioUrl: null },
+          { word: 'pintura', translation: 'живопись', audioUrl: null },
+          { word: 'bailar', translation: 'танцевать', audioUrl: null },
+          { word: 'cantar', translation: 'петь', audioUrl: null },
+          { word: 'nadar', translation: 'плавать', audioUrl: null },
+          { word: 'montar en bicicleta', translation: 'кататься на велосипеде', audioUrl: null },
+          { word: 'correr', translation: 'бегать', audioUrl: null },
+          { word: 'caminar', translation: 'ходить пешком', audioUrl: null },
+          { word: 'cocinar', translation: 'готовить', audioUrl: null },
+          { word: 'tocar un instrumento', translation: 'играть на инструменте', audioUrl: null },
+          { word: 'fotografiar', translation: 'фотографировать', audioUrl: null },
+          { word: 'admirar', translation: 'восхищаться', audioUrl: null },
+          { word: 'satisfacer', translation: 'удовлетворять', audioUrl: null },
+          { word: 'hábito', translation: 'привычка', audioUrl: null },
+          { word: 'costumbre', translation: 'обычай', audioUrl: null },
+          { word: 'exposición', translation: 'выставка', audioUrl: null },
+          { word: 'escapada', translation: 'выезд на природу, короткая поездка', audioUrl: null },
+          { word: 'mascota', translation: 'домашний питомец', audioUrl: null },
+          { word: 'jardinería', translation: 'садоводство', audioUrl: null },
+          { word: 'bricolaje', translation: 'рукоделие, работа по дому', audioUrl: null },
+          { word: 'arte', translation: 'искусство', audioUrl: null },
+          { word: 'pesca', translation: 'рыбалка', audioUrl: null },
+          // Cine y Teatro
+          { word: 'opción', translation: 'выбор', audioUrl: null },
+          { word: 'pantalla', translation: 'экран', audioUrl: null },
+          { word: 'vídeo', translation: 'видеофильм', audioUrl: null },
+          { word: 'telenovela', translation: 'сериал', audioUrl: null },
+          { word: 'director de cine', translation: 'режиссер', audioUrl: null },
+          { word: 'guión', translation: 'сценарий', audioUrl: null },
+          { word: 'guionista', translation: 'сценарист', audioUrl: null },
+          { word: 'obra', translation: 'произведение', audioUrl: null },
+          { word: 'estreno', translation: 'премьера', audioUrl: null },
+          { word: 'estrenar', translation: 'давать премьеру, выпускать в прокат', audioUrl: null },
+          { word: 'película de dibujos animados', translation: 'мультфильм', audioUrl: null },
+          { word: 'cartelera', translation: 'афиша', audioUrl: null },
+          { word: 'patio de butacas', translation: 'партер', audioUrl: null },
+          { word: 'platea', translation: 'партер', audioUrl: null },
+          { word: 'palco', translation: 'ложа', audioUrl: null },
+          { word: 'fila', translation: 'ряд', audioUrl: null },
+          { word: 'protagonista', translation: 'главный герой', audioUrl: null },
+          { word: 'papel', translation: 'роль', audioUrl: null },
+          { word: 'interpretar', translation: 'исполнять роль', audioUrl: null },
+          { word: 'espectáculo', translation: 'спектакль, шоу', audioUrl: null },
+          { word: 'ensayar', translation: 'репетировать', audioUrl: null },
+          { word: 'ensayo', translation: 'репетиция', audioUrl: null },
+          { word: 'debutar', translation: 'дебютировать', audioUrl: null },
+          { word: 'aplaudir', translation: 'аплодировать', audioUrl: null },
+          { word: 'espectador', translation: 'зритель', audioUrl: null },
+          { word: 'rodar', translation: 'снимать фильм', audioUrl: null },
+          { word: 'filmar', translation: 'снимать фильм', audioUrl: null },
+          { word: 'telón', translation: 'занавес', audioUrl: null },
+          { word: 'escena', translation: 'сцена', audioUrl: null },
+          // Música
+          { word: 'director de orquesta', translation: 'дирижер', audioUrl: null },
+          { word: 'ópera', translation: 'опера', audioUrl: null },
+          { word: 'zarzuela', translation: 'сарсуэла', audioUrl: null },
+          { word: 'musical', translation: 'мюзикл', audioUrl: null },
+          { word: 'coro', translation: 'хор', audioUrl: null },
+          { word: 'banda', translation: 'музыкальная группа', audioUrl: null },
+          { word: 'gira', translation: 'гастроли', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'OCIO en MADRID',
+        words: [
+          { word: 'la opción', translation: 'выбор, вариант', audioUrl: null },
+          { word: 'disfrutar', translation: 'наслаждаться, пользоваться', audioUrl: null },
+          { word: 'explorar', translation: 'исследовать, разведывать', audioUrl: null },
+          { word: 'el rincón', translation: 'внутренний угол', audioUrl: null },
+          { word: 'el escenario', translation: 'сцена, место действия', audioUrl: null },
+          { word: 'cautivador', translation: 'очаровательный, пленительный, захватывающий', audioUrl: null },
+          { word: 'emblemático', translation: 'символический', audioUrl: null },
+          { word: 'acoger', translation: 'радушно принимать, встречать', audioUrl: null },
+          { word: 'la repercusión', translation: 'Отклик, резонанс', audioUrl: null },
+          { word: 'reflejarse', translation: 'отражаться', audioUrl: null },
+          { word: 'el pitido', translation: 'свист', audioUrl: null },
+          { word: 'la bruja', translation: 'ведьма, колдунья', audioUrl: null },
+          { word: 'embrujo', translation: 'чары, колдовство', audioUrl: null },
+          { word: 'el tablado', translation: 'доски, подмостки, эшафот, сцена', audioUrl: null },
+          { word: 'renovar', translation: 'обновлять', audioUrl: null }
+        ]
+      }
     ],
-    readingText: {
-      title: 'Carta de Paula',
-      content: `Madrid, 6 de febrero
+    readingText: [
+      {
+        tab: 'Carta de Paula',
+        title: 'Carta de Paula',
+        content: `Madrid, 6 de febrero
 
 Querida Luisa:
 
@@ -8442,7 +8469,7 @@ Y bueno, qué te puedo contar del domingo. A mí nunca me ha gustado el fútbol,
 Pero, ¿sabes lo mejor? A la salida, no te puedes imaginar a quién encontré, ahí sí que empezó mi verdadero fin de semana, ¡y todavía dura!
 
 Un abrazo muy fuerte de Paula.`,
-      translation: `Мадрид, 6 февраля
+        translation: `Мадрид, 6 февраля
 
 Дорогая Луиза!
 
@@ -8459,12 +8486,44 @@ Un abrazo muy fuerte de Paula.`,
 Но знаешь, что самое лучшее? На выходе, ты не представляешь, кого я встретила, вот тогда-то и начались мои настоящие выходные, и они всё ещё продолжаются!
 
 Крепко обнимаю, Паула.`
-    },
+      },
+      {
+        tab: 'OCIO en MADRID',
+        title: 'OCIO en MADRID',
+        content: `Para los amantes de la música, el deporte o la cultura, para los que disfrutan de la gastronomía y el buen ambiente tanto de noche como de día, para los niños y los mayores, para los que llegan por primera vez o para los que nunca se cansan de venir a Madrid, siempre es la opción perfecta para disfrutar con una inagotable oferta de ocio.
+
+El visitante podrá explorar cada rincón de la ciudad y vivir una experiencia completa de lunes a domingo. Hay lugares a dónde ir, es decir, una ciudad hecha para el turista. No importa el día, no importa la hora ni tampoco la estación del año para la cual siempre tengo una razón para venir.
+
+Con un centenar de teatros, la capital es uno de los grandes escenarios de España. En Madrid se encuentran los mejores musicales del mundo, cautivadores espectáculos que sorprenderán al espectador por su calidad técnica y visual.
+
+En lugares emblemáticos como el Teatro Real, la Zarzuela o los teatros de la Gran Vía acogen además las principales representaciones del panorama escénico nacional.
+
+El carácter y la creatividad de la sociedad española se ven reflejados en el entusiasmo de la ciudad por el flamenco y el fútbol. El Real Madrid, uno de los equipos con mayor repercusión mundial, juega cada semana en una de las principales arterias de la ciudad, la Castellana. Tras el pitido final, el público podrá disfrutar del embrujo del flamenco en alguno de los míticos tablados de Madrid.
+
+Hemos visto musicales, puede ser el teatro a recorrer, Santiago Bernabéu. También hay óperas para ir, para mina sea bastante artística.
+
+En los últimos años Madrid ha renovado su propuesta para el turismo de compras. En el corazón de la ciudad se encuentra la Anilla de Oro, un kilómetro cuadrado con las mejores firmas de moda y joyería en pleno barrio de Salamanca. A poca distancia de allí, las calles de Fuencarral, Gran Vía a los centros comerciales de la región concentra en numerosas tiendas con diseños de vanguardia y de la modernidad.
+
+A la historia Madrid ofrece al visitante la opción de perderse por los castizos mercados como el Rastro, el Mercado de Motores o el de las Ranas y rememorar así el comercio clásico de nuestros antepasados encontrando en ellos objetos inimaginables.
+
+El Rastro tiene una energía especial que es la energía de Madrid que también es una avenida. Madrid nunca descansa y su propuesta nocturna es una de las mejores de Europa. Zonas como Malasaña, La Latina o el Barrio de las Letras proponen una forma animada y divertida de acabar el día.
+
+Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y acoge multitud de planes que se adaptan a todas las edades y a todos los públicos. Una acogedora oferta de ocio para que el visitante se sienta en Madrid como en casa.`,
+        translation: null
+      }
+    ],
+    audioTabs: [
+      {
+        tab: 'OCIO en MADRID',
+        videoUrl: '/audio/OCIO en MADRID.mp4'
+      }
+    ],
     exercises: [
       { tab: 'Словарь', exerciseIds: ['ex-7-1-vocab'] },
       { tab: 'Понимание текста', exerciseIds: ['ex-7-1-comprehension'] },
       { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4', 'ex-7-1-grammar-5', 'ex-7-1-grammar-6'] },
-      { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] }
+      { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] },
+      { tab: 'OCIO en MADRID', exerciseIds: ['ex-7-1-ocio-vocab', 'ex-7-1-ocio-comprehension', 'ex-7-1-ocio-grammar', 'ex-7-1-ocio-translation'] }
     ]
   },
 
@@ -17012,6 +17071,163 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
         russian: 'Досуг важен для здоровья',
         spanish: 'el ocio es importante para la salud',
         alternatives: []
+      }
+    ]
+  },
+
+  // OCIO en MADRID упражнения
+  'ex-7-1-ocio-vocab': {
+    id: 'ex-7-1-ocio-vocab',
+    type: 'vocabulary',
+    title: 'Запоминание слов: OCIO en MADRID',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la opción', options: ['выбор, вариант', 'обязательство', 'операция', 'оппозиция'], correct: 0 },
+      { spanish: 'disfrutar', options: ['разочароваться', 'распространять', 'наслаждаться, пользоваться', 'дистанцироваться'], correct: 2 },
+      { spanish: 'explorar', options: ['эксплуатировать', 'исследовать, разведывать', 'экспортировать', 'объяснять'], correct: 1 },
+      { spanish: 'el rincón', options: ['река', 'внутренний угол', 'риск', 'богатство'], correct: 1 },
+      { spanish: 'el escenario', options: ['эскалатор', 'сцена, место действия', 'скандал', 'школа'], correct: 1 },
+      { spanish: 'cautivador', options: ['осторожный', 'очаровательный, пленительный, захватывающий', 'каверзный', 'капризный'], correct: 1 },
+      { spanish: 'emblemático', options: ['эмоциональный', 'символический', 'проблематичный', 'систематический'], correct: 1 },
+      { spanish: 'acoger', options: ['соглашаться', 'радушно принимать, встречать', 'накапливать', 'ускорять'], correct: 1 },
+      { spanish: 'la repercusión', options: ['репетиция', 'отклик, резонанс', 'репрессия', 'репутация'], correct: 1 },
+      { spanish: 'reflejarse', options: ['отдыхать', 'отражаться', 'размышлять', 'отвергать'], correct: 1 },
+      { spanish: 'el pitido', options: ['питание', 'свист', 'пистолет', 'пирог'], correct: 1 },
+      { spanish: 'embrujo', options: ['объятие', 'чары, колдовство', 'смущение', 'эмбарго'], correct: 1 },
+      { spanish: 'el tablado', options: ['таблица', 'доски, подмостки, эшафот, сцена', 'таблетка', 'стол'], correct: 1 },
+      { spanish: 'renovar', options: ['арендовать', 'отказываться', 'обновлять', 'обновить имя'], correct: 2 },
+      { spanish: 'cautivador', options: ['пленительный', 'осторожный', 'спорный', 'культурный'], correct: 0 }
+    ]
+  },
+
+  'ex-7-1-ocio-comprehension': {
+    id: 'ex-7-1-ocio-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: OCIO en MADRID',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      { question: '¿Para quién es Madrid la opción perfecta?', options: ['Solo para amantes de la música', 'Para todos los públicos y edades', 'Solo para turistas', 'Solo para españoles'], correct: 1 },
+      { question: '¿Cuántos días a la semana puede el visitante explorar Madrid?', options: ['Solo fines de semana', 'De lunes a viernes', 'De lunes a domingo', 'Solo los domingos'], correct: 2 },
+      { question: '¿Cuántos teatros aproximadamente tiene la capital?', options: ['Cincuenta', 'Un centenar', 'Doscientos', 'Treinta'], correct: 1 },
+      { question: '¿Qué encuentran en Madrid según el texto?', options: ['Los mejores restaurantes del mundo', 'Los mejores musicales del mundo', 'Los mejores hoteles', 'Las mejores playas'], correct: 1 },
+      { question: '¿Qué teatros emblemáticos se mencionan?', options: ['Teatro Nacional y Gran Teatro', 'Teatro Real, la Zarzuela y teatros de la Gran Vía', 'Teatro Español y Lope de Vega', 'Solo el Teatro Real'], correct: 1 },
+      { question: '¿Qué deportes se refleja el entusiasmo de la ciudad?', options: ['Baloncesto y tenis', 'Fútbol y flamenco', 'Solo fútbol', 'Atletismo'], correct: 1 },
+      { question: '¿Qué equipo de fútbol se menciona?', options: ['Barcelona', 'Atlético de Madrid', 'Real Madrid', 'Valencia'], correct: 2 },
+      { question: '¿Dónde juega el equipo mencionado?', options: ['En la Gran Vía', 'En la Castellana', 'En el Retiro', 'En Sol'], correct: 1 },
+      { question: '¿Qué pueden disfrutar después del partido?', options: ['Un concierto', 'El embrujo del flamenco', 'Una cena', 'Una exposición'], correct: 1 },
+      { question: '¿Qué ha renovado Madrid en los últimos años?', options: ['Su sistema de transporte', 'Su propuesta para el turismo de compras', 'Sus museos', 'Sus parques'], correct: 1 },
+      { question: '¿Cómo se llama la zona de compras mencionada?', options: ['El Círculo de Oro', 'La Anilla de Oro', 'El Anillo Dorado', 'La Zona Dorada'], correct: 1 },
+      { question: '¿Dónde se encuentra la Anilla de Oro?', options: ['En Malasaña', 'En el barrio de Salamanca', 'En La Latina', 'En el centro'], correct: 1 },
+      { question: '¿Qué mercados castizos se mencionan?', options: ['San Miguel y San Antón', 'El Rastro, el Mercado de Motores y el de las Ranas', 'Solo El Rastro', 'Mercado Central'], correct: 1 },
+      { question: '¿Qué zonas tienen propuesta nocturna?', options: ['Solo Malasaña', 'Malasaña, La Latina y el Barrio de las Letras', 'Solo La Latina', 'El Retiro'], correct: 1 },
+      { question: '¿Cómo se describe la oferta de ocio de Madrid?', options: ['Limitada', 'Acogedora e inagotable', 'Cara', 'Aburrida'], correct: 1 }
+    ]
+  },
+
+  'ex-7-1-ocio-grammar': {
+    id: 'ex-7-1-ocio-grammar',
+    type: 'subjunctive',
+    title: 'Грамматика: Presente de Subjuntivo (OCIO)',
+    description: 'Выберите правильную форму глагола в presente de subjuntivo',
+    questions: [
+      { sentence: 'Espero que tú ___ (disfrutar) del ocio en Madrid', options: ['disfrutas', 'disfrutes', 'disfrutarás', 'disfrutabas'], correct: 1 },
+      { sentence: 'Quiero que nosotros ___ (explorar) cada rincón de la ciudad', options: ['exploramos', 'exploremos', 'exploraremos', 'explorábamos'], correct: 1 },
+      { sentence: 'Es importante que los visitantes ___ (conocer) los teatros emblemáticos', options: ['conocen', 'conozcan', 'conocerán', 'conocían'], correct: 1 },
+      { sentence: 'Recomiendo que ustedes ___ (ir) al Real Madrid', options: ['van', 'vayan', 'irán', 'iban'], correct: 1 },
+      { sentence: 'Deseo que Madrid ___ (acoger) a todos los turistas', options: ['acoge', 'acoja', 'acogerá', 'acogía'], correct: 1 },
+      { sentence: 'Es necesario que tú ___ (renovar) tu visión de la ciudad', options: ['renuevas', 'renueves', 'renovarás', 'renovabas'], correct: 1 },
+      { sentence: 'Espero que el espectáculo te ___ (cautivar)', options: ['cautiva', 'cautive', 'cautivará', 'cautivaba'], correct: 1 },
+      { sentence: 'Quiero que la música ___ (reflejarse) en tu alma', options: ['se refleja', 'se refleje', 'se reflejará', 'se reflejaba'], correct: 1 },
+      { sentence: 'Es bueno que nosotros ___ (disfrutar) del embrujo del flamenco', options: ['disfrutamos', 'disfrutemos', 'disfrutaremos', 'disfrutábamos'], correct: 1 },
+      { sentence: 'Recomiendo que ellos ___ (visitar) el Rastro', options: ['visitan', 'visiten', 'visitarán', 'visitaban'], correct: 1 },
+      { sentence: 'Es importante que tú ___ (explorar) la Anilla de Oro', options: ['exploras', 'explores', 'explorarás', 'explorabas'], correct: 1 },
+      { sentence: 'Deseo que vosotros ___ (descubrir) los tablados de Madrid', options: ['descubrís', 'descubráis', 'descubriréis', 'descubríais'], correct: 1 },
+      { sentence: 'Espero que la ciudad ___ (tener) una gran repercusión en ti', options: ['tiene', 'tenga', 'tendrá', 'tenía'], correct: 1 },
+      { sentence: 'Quiero que ustedes ___ (ver) los mejores musicales', options: ['ven', 'vean', 'verán', 'veían'], correct: 1 },
+      { sentence: 'Es necesario que nosotros ___ (sentirse) como en casa', options: ['nos sentimos', 'nos sintamos', 'nos sentiremos', 'nos sentíamos'], correct: 1 }
+    ]
+  },
+
+  'ex-7-1-ocio-translation': {
+    id: 'ex-7-1-ocio-translation',
+    type: 'translation',
+    title: 'Перевод: OCIO en MADRID (Subjuntivo)',
+    description: 'Переведите предложения с русского на испанский, используя presente de subjuntivo',
+    questions: [
+      {
+        russian: 'Я хочу, чтобы ты исследовал каждый уголок города',
+        spanish: 'quiero que explores cada rincón de la ciudad',
+        alternatives: ['quiero que tú explores cada rincón de la ciudad']
+      },
+      {
+        russian: 'Надеюсь, что ты насладишься зрелищем',
+        spanish: 'espero que disfrutes del espectáculo',
+        alternatives: ['espero que tú disfrutes del espectáculo']
+      },
+      {
+        russian: 'Важно, чтобы посетители знали эмблематические места',
+        spanish: 'es importante que los visitantes conozcan los lugares emblemáticos',
+        alternatives: []
+      },
+      {
+        russian: 'Рекомендую, чтобы вы пошли на фламенко',
+        spanish: 'recomiendo que vayáis al flamenco',
+        alternatives: ['recomiendo que ustedes vayan al flamenco']
+      },
+      {
+        russian: 'Желаю, чтобы Мадрид радушно принял тебя',
+        spanish: 'deseo que madrid te acoja',
+        alternatives: ['deseo que madrid acoja a ti']
+      },
+      {
+        russian: 'Необходимо, чтобы ты обновил свой выбор развлечений',
+        spanish: 'es necesario que renueves tu opción de ocio',
+        alternatives: ['es necesario que tú renueves tu opción de ocio']
+      },
+      {
+        russian: 'Хочу, чтобы шоу пленило тебя',
+        spanish: 'quiero que el espectáculo te cautive',
+        alternatives: []
+      },
+      {
+        russian: 'Надеюсь, энтузиазм отразится в твоих глазах',
+        spanish: 'espero que el entusiasmo se refleje en tus ojos',
+        alternatives: []
+      },
+      {
+        russian: 'Важно, чтобы мы исследовали сцену города',
+        spanish: 'es importante que exploremos el escenario de la ciudad',
+        alternatives: ['es importante que nosotros exploremos el escenario de la ciudad']
+      },
+      {
+        russian: 'Рекомендую, чтобы они посетили подмостки Мадрида',
+        spanish: 'recomiendo que visiten los tablados de madrid',
+        alternatives: ['recomiendo que ellos visiten los tablados de madrid']
+      },
+      {
+        russian: 'Желаю, чтобы город имел большой резонанс для тебя',
+        spanish: 'deseo que la ciudad tenga gran repercusión para ti',
+        alternatives: []
+      },
+      {
+        russian: 'Хочу, чтобы вы увидели лучшие мюзиклы',
+        spanish: 'quiero que veáis los mejores musicales',
+        alternatives: ['quiero que ustedes vean los mejores musicales']
+      },
+      {
+        russian: 'Надеюсь, свист финала будет волнующим',
+        spanish: 'espero que el pitido final sea emocionante',
+        alternatives: []
+      },
+      {
+        russian: 'Необходимо, чтобы мы чувствовали себя как дома',
+        spanish: 'es necesario que nos sintamos como en casa',
+        alternatives: ['es necesario que nosotros nos sintamos como en casa']
+      },
+      {
+        russian: 'Желаю, чтобы чары города очаровали тебя',
+        spanish: 'deseo que el embrujo de la ciudad te encante',
+        alternatives: ['deseo que el embrujo de la ciudad encante a ti']
       }
     ]
   },
