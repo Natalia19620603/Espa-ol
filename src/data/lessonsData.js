@@ -7643,7 +7643,7 @@ Ana: Yo también. Será un viaje inolvidable.
         audioUrl: null
       }
     ],
-    audioTabs: [
+    videoTabs: [
       {
         tab: 'Conversación en el ascensor',
         videoUrl: '/video/Conversación en el ascensor.mp4'
