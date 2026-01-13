@@ -29,7 +29,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [userAnswer, setUserAnswer] = useState(null)
   const [feedbackTimeoutId, setFeedbackTimeoutId] = useState(null)
 
-  // Перемешиваем опции для каждого вопроса один раз при загрузке
+  // Перемешиваем опции для каждого вопроса при загрузке и после каждого ответа
   const shuffledQuestions = useMemo(() => {
     if (!exercise || !exercise.questions) return []
 
@@ -54,7 +54,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         correct: newCorrectIndex
       }
     })
-  }, [exercise])
+  }, [exercise, answers.length])
 
   if (!exercise) return null
 
