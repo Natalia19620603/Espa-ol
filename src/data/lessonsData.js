@@ -17126,7 +17126,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
 
   'ex-7-1-ocio-grammar': {
     id: 'ex-7-1-ocio-grammar',
-    type: 'subjunctive',
+    type: 'grammar',
     title: 'Грамматика: Presente de Subjuntivo (OCIO)',
     description: 'Выберите правильную форму глагола в presente de subjuntivo',
     questions: [
@@ -29343,25 +29343,25 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
   // Урок 9.7 - Mariposas exercises
   'ex-9-7-mariposas-vocab': {
     id: 'ex-9-7-mariposas-vocab',
-    type: 'vocabulary',
-    title: 'Словарь: Mariposas',
-    description: 'Выберите правильный перевод',
+    type: 'fillblank',
+    title: 'Словарь: Контекстные упражнения Mariposas',
+    description: 'Заполните пропуски подходящим словом',
     questions: [
-      { spanish: 'la oruga', options: ['бабочка', 'гусеница', 'муха', 'пчела'], correct: 1 },
-      { spanish: 'la mariposa', options: ['муха', 'комар', 'бабочка', 'стрекоза'], correct: 2 },
-      { spanish: 'la metamorfosis', options: ['рождение', 'смерть', 'метаморфоза', 'сон'], correct: 2 },
-      { spanish: 'el capullo', options: ['кокон', 'гнездо', 'паутина', 'лист'], correct: 0 },
-      { spanish: 'la pupa', options: ['яйцо', 'гусеница', 'куколка', 'цветок'], correct: 2 },
-      { spanish: 'emerger', options: ['умирать', 'спать', 'появляться', 'летать'], correct: 2 },
-      { spanish: 'las mandíbulas', options: ['челюсти', 'крылья', 'усики', 'глаза'], correct: 0 },
-      { spanish: 'de vanguardia', options: ['старый', 'передовой', 'простой', 'сложный'], correct: 1 },
-      { spanish: 'revelar', options: ['скрывать', 'раскрывать', 'терять', 'находить'], correct: 1 },
-      { spanish: 'el intestino', options: ['сердце', 'кишечник', 'мозг', 'печень'], correct: 1 },
-      { spanish: 'el depredador', options: ['жертва', 'друг', 'хищник', 'товарищ'], correct: 2 },
-      { spanish: 'camuflarse', options: ['убегать', 'маскироваться', 'нападать', 'прятаться'], correct: 1 },
-      { spanish: 'la criatura', options: ['растение', 'камень', 'существо', 'воздух'], correct: 2 },
-      { spanish: 'espeso', options: ['жидкий', 'густой', 'прозрачный', 'легкий'], correct: 1 },
-      { spanish: 'repugnante', options: ['красивый', 'приятный', 'отвратительный', 'интересный'], correct: 2 }
+      { sentence: 'El proceso de metamorfosis es verdaderamente ___', blank: 'milagroso', options: ['milagroso', 'peligroso', 'rápido', 'simple'], correct: 0 },
+      { sentence: 'La oruga puede transformarse en una mariposa o en una ___', blank: 'polilla', options: ['mosca', 'polilla', 'abeja', 'avispa'], correct: 1 },
+      { sentence: 'El doctor usa tecnología ___ para estudiar las orugas', blank: 'de vanguardia', options: ['antigua', 'simple', 'de vanguardia', 'tradicional'], correct: 2 },
+      { sentence: 'Con la ___ podemos ver dentro del capullo', blank: 'radiografía', options: ['linterna', 'radiografía', 'cámara', 'lupa'], correct: 1 },
+      { sentence: 'Algunas orugas tienen ___ venenosas para defenderse', blank: 'espinas', options: ['plumas', 'garras', 'espinas', 'dientes'], correct: 2 },
+      { sentence: 'Las imágenes ___ los secretos de la metamorfosis', blank: 'revelan', options: ['revelan', 'ocultan', 'esconden', 'pierden'], correct: 0 },
+      { sentence: 'El ___ ocupa la mayor parte del cuerpo de la oruga', blank: 'intestino', options: ['corazón', 'cerebro', 'intestino', 'hígado'], correct: 2 },
+      { sentence: 'Las orugas ___ aumentar su masa 10.000 veces', blank: 'consiguen', options: ['intentan', 'consiguen', 'evitan', 'pierden'], correct: 1 },
+      { sentence: 'Cuando la mariposa emerge, sus alas pueden ___ de color', blank: 'estallar', options: ['desaparecer', 'estallar', 'romperse', 'caerse'], correct: 1 },
+      { sentence: 'Las orugas tienen que protegerse de los ___', blank: 'depredadores', options: ['amigos', 'depredadores', 'plantas', 'flores'], correct: 1 },
+      { sentence: 'Las orugas se ___ con defensas naturales', blank: 'equipan', options: ['equipan', 'desnudan', 'debilitan', 'abandonan'], correct: 0 },
+      { sentence: 'Muchas orugas pueden ___ adoptando el color del ambiente', blank: 'camuflarse', options: ['brillar', 'camuflarse', 'gritar', 'saltar'], correct: 1 },
+      { sentence: 'La naturaleza ___ procesos increíbles de transformación', blank: 'lleva a cabo', options: ['destruye', 'lleva a cabo', 'olvida', 'abandona'], correct: 1 },
+      { sentence: 'La metamorfosis se ___ hace millones de años', blank: 'desencadenó', options: ['terminó', 'perdió', 'desencadenó', 'prohibió'], correct: 2 },
+      { sentence: 'El líquido dentro del capullo es ___ y ___, luego ___ la criatura con sus ___', blank: 'espeso, repugnante, emerge, mandíbulas', options: ['espeso, repugnante, emerge, mandíbulas', 'claro, hermoso, duerme, pétalos', 'líquido, suave, muere, esquinas', 'seco, duro, desaparece, tornillos'], correct: 0 }
     ]
   },
 
@@ -29371,250 +29371,70 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     title: 'Понимание текста: Mariposas',
     description: 'Ответьте на вопросы по тексту',
     questions: [
-      {
-        question: '¿Cuántas especies conocidas de oruga existen?',
-        options: ['18.000', '180.000', '1.800.000', '18 millones'],
-        correct: 1
-      },
-      {
-        question: '¿En qué se pueden transformar las orugas?',
-        options: ['Solo en mariposas', 'Solo en polillas', 'En polillas o mariposas', 'En pájaros'],
-        correct: 2
-      },
-      {
-        question: '¿Qué tecnología utiliza el doctor Sourakov?',
-        options: ['Microscopio', 'Telescopio', 'Radiografía y escaneo', 'Cámara normal'],
-        correct: 2
-      },
-      {
-        question: '¿Dónde trabaja el doctor Sourakov?',
-        options: ['Universidad de Harvard', 'Museo de Historia Natural de Florida', 'NASA', 'Instituto de Biología'],
-        correct: 1
-      },
-      {
-        question: '¿Cuánto tiempo dura la transformación completa?',
-        options: ['Entre 1 y 2 semanas', 'Entre 2 y 4 semanas', 'Entre 4 y 6 semanas', 'Un mes exacto'],
-        correct: 1
-      },
-      {
-        question: '¿Qué pasa con las mandíbulas de la oruga después de la metamorfosis?',
-        options: ['Desaparecen', 'Se hacen más grandes', 'Se convierten en un tubo largo para chupar néctar', 'Se vuelven más fuertes'],
-        correct: 2
-      },
-      {
-        question: '¿Cómo cambia el cuerpo de la oruga?',
-        options: ['Solo cambia el color', 'El vientre graso se vuelve delgado con músculos', 'Solo crecen las alas', 'No cambia mucho'],
-        correct: 1
-      },
-      {
-        question: '¿Qué necesita la mariposa después de salir del capullo?',
-        options: ['Comer inmediatamente', 'Volar de inmediato', 'Un príncipe', 'Dormir'],
-        correct: 2
-      },
-      {
-        question: '¿Cuántas veces pueden aumentar su masa las orugas?',
-        options: ['100 veces', '1.000 veces', '10.000 veces', '100.000 veces'],
-        correct: 2
-      },
-      {
-        question: '¿Qué órgano ocupa la mayor parte del cuerpo de la oruga?',
-        options: ['El corazón', 'El cerebro', 'El intestino', 'Los pulmones'],
-        correct: 2
-      },
-      {
-        question: '¿Qué mecanismos de defensa tienen las orugas?',
-        options: ['Solo camuflaje', 'Camuflaje, pinchos venenosos y comer plantas tóxicas', 'Solo velocidad', 'Solo esconderse'],
-        correct: 1
-      },
-      {
-        question: '¿Qué pasa dentro del capullo?',
-        options: ['La oruga duerme', 'La oruga come', 'Transformación completa', 'Nada especial'],
-        correct: 2
-      },
-      {
-        question: '¿Qué tipo de criatura sale del capullo?',
-        options: ['La misma oruga', 'Una criatura totalmente diferente', 'Una oruga más grande', 'Un pájaro'],
-        correct: 1
-      },
-      {
-        question: '¿Qué se usa para ver dentro del capullo?',
-        options: ['Microscopio simple', 'Radiografía', 'Lupa', 'Nada'],
-        correct: 1
-      },
-      {
-        question: '¿Para qué sirve el tubo largo de la mariposa?',
-        options: ['Para respirar', 'Para chupar néctar', 'Para defenderse', 'Para comunicarse'],
-        correct: 1
-      }
+      { question: '¿Cuántas especies conocidas de oruga existen?', options: ['18.000', '180.000', '1.800.000', '18 millones'], correct: 1 },
+      { question: '¿En qué se pueden transformar las orugas?', options: ['Solo en mariposas', 'Solo en polillas', 'En polillas o mariposas', 'En pájaros'], correct: 2 },
+      { question: '¿Qué tecnología utiliza el doctor Sourakov?', options: ['Microscopio', 'Telescopio', 'Radiografía y escaneo', 'Cámara normal'], correct: 2 },
+      { question: '¿Dónde trabaja el doctor Sourakov?', options: ['Universidad de Harvard', 'Museo de Historia Natural de Florida', 'NASA', 'Instituto de Biología'], correct: 1 },
+      { question: '¿Cuánto tiempo dura la transformación completa?', options: ['Entre 4 y 6 semanas', 'Entre 2 y 4 semanas', 'Entre 1 y 2 semanas', 'Un mes exacto'], correct: 1 },
+      { question: '¿Qué pasa con las mandíbulas de la oruga después de la metamorfosis?', options: ['Se convierten en un tubo largo para chupar néctar', 'Desaparecen', 'Se hacen más grandes', 'Se vuelven más fuertes'], correct: 0 },
+      { question: '¿Cómo cambia el cuerpo de la oruga?', options: ['Solo cambia el color', 'El vientre graso se vuelve delgado con músculos', 'Solo crecen las alas', 'No cambia mucho'], correct: 1 },
+      { question: '¿Qué necesita la mariposa después de salir del capullo?', options: ['Comer inmediatamente', 'Volar de inmediato', 'Dormir', 'Un príncipe'], correct: 3 },
+      { question: '¿Cuántas veces pueden aumentar su masa las orugas?', options: ['10.000 veces', '100 veces', '1.000 veces', '100.000 veces'], correct: 0 },
+      { question: '¿Qué órgano ocupa la mayor parte del cuerpo de la oruga?', options: ['El corazón', 'El cerebro', 'El intestino', 'Los pulmones'], correct: 2 },
+      { question: '¿Qué mecanismos de defensa tienen las orugas?', options: ['Solo camuflaje', 'Camuflaje, pinchos venenosos y comer plantas tóxicas', 'Solo velocidad', 'Solo esconderse'], correct: 1 },
+      { question: '¿Qué pasa dentro del capullo?', options: ['La oruga duerme', 'La oruga come', 'Nada especial', 'Transformación completa'], correct: 3 },
+      { question: '¿Qué tipo de criatura sale del capullo?', options: ['La misma oruga', 'Una criatura totalmente diferente', 'Una oruga más grande', 'Un pájaro'], correct: 1 },
+      { question: '¿Qué se usa para ver dentro del capullo?', options: ['Microscopio simple', 'Radiografía', 'Lupa', 'Nada'], correct: 1 },
+      { question: '¿Para qué sirve el tubo largo de la mariposa?', options: ['Para chupar néctar', 'Para respirar', 'Para defenderse', 'Para comunicarse'], correct: 0 }
     ]
   },
 
   'ex-9-7-mariposas-grammar': {
     id: 'ex-9-7-mariposas-grammar',
     type: 'grammar',
-    title: 'Грамматика A2: Mariposas',
-    description: 'Выберите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, imperativo)',
+    title: 'Грамматика: Времена и наклонения Mariposas',
+    description: 'Выберите правильную форму глагола',
     questions: [
-      {
-        sentence: 'Las orugas ___ (comer) sin parar antes de formar el capullo.',
-        options: ['comieron', 'comían', 'han comido', 'comerán'],
-        correct: 1,
-        explanation: 'Imperfecto para acción habitual en el pasado'
-      },
-      {
-        sentence: 'La metamorfosis ___ (desencadenarse) hace millones de años.',
-        options: ['se desencadenó', 'se desencadenaba', 'se ha desencadenado', 'se desencadena'],
-        correct: 0,
-        explanation: 'Pretérito indefinido para acción completa en pasado específico'
-      },
-      {
-        sentence: 'El doctor Sourakov ___ (utilizar) tecnología de vanguardia en sus estudios.',
-        options: ['utilizó', 'utilizaba', 'ha utilizado', 'utiliza'],
-        correct: 2,
-        explanation: 'Pretérito perfecto para acción reciente con resultado en el presente'
-      },
-      {
-        sentence: '¡___ (observar, tú) las alas de la mariposa!',
-        options: ['Observa', 'Observes', 'Observaba', 'Observó'],
-        correct: 0,
-        explanation: 'Imperativo afirmativo segunda persona singular'
-      },
-      {
-        sentence: 'No ___ (tocar, vosotros) el capullo durante la transformación.',
-        options: ['tocáis', 'toquéis', 'tocabais', 'tocasteis'],
-        correct: 1,
-        explanation: 'Imperativo negativo usa subjuntivo presente'
-      },
-      {
-        sentence: 'Dentro del capullo, la oruga ___ (transformarse) completamente.',
-        options: ['se transformó', 'se transformaba', 'se ha transformado', 'se transforma'],
-        correct: 0,
-        explanation: 'Pretérito indefinido para proceso completo'
-      },
-      {
-        sentence: 'Cuando era joven, el científico ___ (estudiar) las mariposas todos los días.',
-        options: ['estudió', 'estudiaba', 'ha estudiado', 'estudia'],
-        correct: 1,
-        explanation: 'Imperfecto para acciones habituales en el pasado'
-      },
-      {
-        sentence: '¡___ (proteger, nosotros) estas especies maravillosas!',
-        options: ['Protegemos', 'Protejamos', 'Protegíamos', 'Protegimos'],
-        correct: 1,
-        explanation: 'Imperativo afirmativo primera persona plural usa subjuntivo'
-      },
-      {
-        sentence: 'Las imágenes ___ (revelar) los secretos de la metamorfosis.',
-        options: ['revelaron', 'revelaban', 'han revelado', 'revelan'],
-        correct: 2,
-        explanation: 'Pretérito perfecto para descubrimiento reciente'
-      },
-      {
-        sentence: 'Hace años, los científicos no ___ (saber) cómo funcionaba este proceso.',
-        options: ['supieron', 'sabían', 'han sabido', 'saben'],
-        correct: 1,
-        explanation: 'Imperfecto para estado en el pasado'
-      },
-      {
-        sentence: '¡No ___ (molestar, tú) a las orugas durante su transformación!',
-        options: ['molestas', 'molestes', 'molestabas', 'molestaste'],
-        correct: 1,
-        explanation: 'Imperativo negativo segunda persona singular'
-      },
-      {
-        sentence: 'La oruga ___ (equiparse) con defensas antes de la metamorfosis.',
-        options: ['se equipó', 'se equipaba', 'se ha equipado', 'se equipa'],
-        correct: 0,
-        explanation: 'Pretérito indefinido para acción completa en el pasado'
-      },
-      {
-        sentence: 'El cambio ___ (llevar) entre dos y cuatro semanas.',
-        options: ['llevó', 'llevaba', 'ha llevado', 'lleva'],
-        correct: 3,
-        explanation: 'Presente para verdad general'
-      },
-      {
-        sentence: '¡___ (observar, vosotros) este proceso increíble!',
-        options: ['Observáis', 'Observad', 'Observabais', 'Observasteis'],
-        correct: 1,
-        explanation: 'Imperativo afirmativo segunda persona plural'
-      },
-      {
-        sentence: 'La mariposa ___ (emerger) del capullo y esperó a que sus alas se secaran.',
-        options: ['emergió', 'emergía', 'ha emergido', 'emerge'],
-        correct: 0,
-        explanation: 'Pretérito indefinido en narración secuencial'
-      }
+      { sentence: 'Las orugas ___ (comer) sin parar antes de formar el capullo', options: ['comían', 'comieron', 'han comido', 'comerán'], correct: 0, explanation: 'Pretérito imperfecto: действие повторялось в прошлом, описание привычки (antes de formar)' },
+      { sentence: 'La metamorfosis se ___ (desencadenar) hace millones de años', options: ['desencadenó', 'desencadenaba', 'ha desencadenado', 'desencadena'], correct: 0, explanation: 'Pretérito indefinido: завершенное действие в конкретный момент прошлого (hace millones de años)' },
+      { sentence: 'El doctor Sourakov ___ (utilizar) tecnología de vanguardia recientemente', options: ['utilizó', 'ha utilizado', 'utilizaba', 'utiliza'], correct: 1, explanation: 'Pretérito perfecto: действие в недавнем прошлом с результатом в настоящем (recientemente)' },
+      { sentence: 'Es importante que las orugas ___ (protegerse) de los depredadores', options: ['se protejan', 'se protegen', 'se protegían', 'se protegieron'], correct: 0, explanation: 'Presente de subjuntivo: после выражения важности "es importante que"' },
+      { sentence: 'Cuando la oruga ___ (estar) en el capullo, ocurre la transformación', options: ['está', 'estuvo', 'ha estado', 'estaba'], correct: 0, explanation: 'Presente de indicativo: общая истина, факт природы' },
+      { sentence: 'El científico quiere que nosotros ___ (observar) el proceso', options: ['observemos', 'observamos', 'observábamos', 'observamos'], correct: 0, explanation: 'Presente de subjuntivo: после глагола желания "quiere que"' },
+      { sentence: 'Las mandíbulas se ___ (convertir) en un tubo para chupar néctar', options: ['convierten', 'convirtieron', 'han convertido', 'convertían'], correct: 0, explanation: 'Presente de indicativo: описание общего процесса, как это происходит обычно' },
+      { sentence: 'Ayer ___ (ver, nosotros) la mariposa emerger del capullo', options: ['vimos', 'veíamos', 'hemos visto', 'vemos'], correct: 0, explanation: 'Pretérito indefinido: завершенное действие в конкретный момент (ayer)' },
+      { sentence: 'Es milagroso que la criatura ___ (poder) transformarse completamente', options: ['pueda', 'puede', 'podía', 'pudo'], correct: 0, explanation: 'Presente de subjuntivo: после выражения эмоции "es milagroso que"' },
+      { sentence: 'Mientras la oruga ___ (comer), aumentaba su masa', options: ['comía', 'comió', 'ha comido', 'come'], correct: 0, explanation: 'Pretérito imperfecto: одновременное действие в прошлом (mientras)' },
+      { sentence: 'No creo que el proceso ___ (llevar) solo una semana', options: ['lleve', 'lleva', 'llevaba', 'llevó'], correct: 0, explanation: 'Presente de subjuntivo: после отрицательного мнения "no creo que"' },
+      { sentence: 'Las imágenes ___ (revelar) secretos que no conocíamos', options: ['han revelado', 'revelaron', 'revelaban', 'revelan'], correct: 0, explanation: 'Pretérito perfecto: недавнее открытие с актуальным результатом' },
+      { sentence: 'El intestino ___ (ocupar) la mayor parte del cuerpo de la oruga', options: ['ocupa', 'ocupó', 'ha ocupado', 'ocupaba'], correct: 0, explanation: 'Presente de indicativo: постоянный факт, описание характеристики' },
+      { sentence: 'Espero que tú ___ (conseguir) ver la metamorfosis', options: ['consigas', 'consigues', 'conseguías', 'conseguiste'], correct: 0, explanation: 'Presente de subjuntivo: после глагола надежды "espero que"' },
+      { sentence: 'La criatura ___ (emerger) del capullo cuando sus alas estuvieron listas', options: ['emergió', 'emergía', 'ha emergido', 'emerge'], correct: 0, explanation: 'Pretérito indefinido: завершенное действие, последовательность событий в прошлом (cuando estuvieron listas)' }
     ]
   },
 
   'ex-9-7-mariposas-translation': {
     id: 'ex-9-7-mariposas-translation',
     type: 'translation',
-    title: 'Перевод A2: Mariposas',
+    title: 'Перевод: Развернутые фразы Mariposas',
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      {
-        russian: 'Гусеница ест без остановки, чтобы накопить энергию.',
-        spanish: 'La oruga come sin parar para acumular energía'
-      },
-      {
-        russian: 'Метаморфоз - один из самых удивительных процессов в природе.',
-        spanish: 'La metamorfosis es uno de los procesos más asombrosos de la naturaleza'
-      },
-      {
-        russian: 'Внутри кокона происходит полная трансформация.',
-        spanish: 'Dentro del capullo ocurre una transformación completa'
-      },
-      {
-        russian: 'Бабочке нужно подождать, пока высохнут ее крылья.',
-        spanish: 'La mariposa necesita esperar a que se sequen sus alas'
-      },
-      {
-        russian: 'Этот вид может маскироваться от хищников.',
-        spanish: 'Esta especie puede camuflarse de los depredadores'
-      },
-      {
-        russian: 'Ученый использует передовые технологии для изучения гусениц.',
-        spanish: 'El científico utiliza tecnología de vanguardia para estudiar las orugas'
-      },
-      {
-        russian: 'Существует 180.000 известных видов гусениц.',
-        spanish: 'Existen 180.000 especies conocidas de orugas'
-      },
-      {
-        russian: 'Изображения раскрывают секреты удивительной метаморфозы.',
-        spanish: 'Las imágenes revelan los secretos de la metamorfosis asombrosa'
-      },
-      {
-        russian: 'Челюсти превращаются в длинную трубку для питья нектара.',
-        spanish: 'Las mandíbulas se convierten en un tubo largo para chupar néctar'
-      },
-      {
-        russian: 'Толстое брюшко становится стройным торсом с мощными мышцами.',
-        spanish: 'El vientre graso se convierte en un torso delgado con músculos poderosos'
-      },
-      {
-        russian: 'Гусеница может увеличить свою массу в 10.000 раз.',
-        spanish: 'La oruga puede aumentar su masa 10.000 veces'
-      },
-      {
-        russian: 'Кишечник занимает большую часть тела гусеницы.',
-        spanish: 'El intestino ocupa la mayor parte del cuerpo de la oruga'
-      },
-      {
-        russian: 'У гусениц есть ядовитые шипы для защиты.',
-        spanish: 'Las orugas tienen pinchos venenosos para defenderse'
-      },
-      {
-        russian: 'Полная трансформация занимает от двух до четырех недель.',
-        spanish: 'La transformación completa lleva entre dos y cuatro semanas'
-      },
-      {
-        russian: 'Из куколки выходит совершенно другое существо.',
-        spanish: 'De la pupa sale una criatura totalmente diferente'
-      }
+      { russian: 'Процесс метаморфозы поистине чудесен, потому что гусеница полностью трансформируется в бабочку или мотылька внутри кокона', spanish: 'El proceso de metamorfosis es verdaderamente milagroso porque la oruga se transforma completamente en una mariposa o polilla dentro del capullo' },
+      { russian: 'Доктор использует передовые технологии, такие как рентген и сканирование, чтобы увидеть, что происходит внутри кокона во время трансформации', spanish: 'El doctor utiliza tecnología de vanguardia como la radiografía y el escaneo para ver qué ocurre dentro del capullo durante la transformación' },
+      { russian: 'Некоторые гусеницы имеют ядовитые шипы для защиты от хищников и могут маскироваться, принимая цвет окружающей среды', spanish: 'Algunas orugas tienen espinas venenosas para protegerse de los depredadores y pueden camuflarse adoptando el color del ambiente' },
+      { russian: 'Изображения раскрывают удивительные секреты метаморфозы, показывая, как челюсти превращаются в длинную трубку для высасывания нектара', spanish: 'Las imágenes revelan los secretos asombrosos de la metamorfosis, mostrando cómo las mandíbulas se convierten en un tubo largo para chupar néctar' },
+      { russian: 'Кишечник занимает большую часть тела гусеницы, и она может увеличить свою массу в десять тысяч раз, поедая растения без остановки', spanish: 'El intestino ocupa la mayor parte del cuerpo de la oruga y puede aumentar su masa diez mil veces comiendo plantas sin parar' },
+      { russian: 'Гусеницы снабжены естественными защитными механизмами и осуществляют невероятные процессы трансформации, которые начались миллионы лет назад', spanish: 'Las orugas se equipan con mecanismos de defensa naturales y llevan a cabo procesos increíbles de transformación que se desencadenaron hace millones de años' },
+      { russian: 'Жидкость внутри кокона густая и отвратительная, но затем из нее появляется прекрасное существо с мощными челюстями и крыльями', spanish: 'El líquido dentro del capullo es espeso y repugnante, pero luego emerge de él una criatura hermosa con mandíbulas poderosas y alas' },
+      { russian: 'Существует сто восемьдесят тысяч известных видов гусениц, и каждая может превратиться либо в бабочку, либо в мотылька', spanish: 'Existen ciento ochenta mil especies conocidas de orugas y cada una puede transformarse en una mariposa o en una polilla' },
+      { russian: 'Полная трансформация занимает от двух до четырех недель, в течение которых толстое брюшко становится стройным торсом с мощными мышцами для полета', spanish: 'La transformación completa lleva entre dos y cuatro semanas durante las cuales el vientre graso se convierte en un torso delgado con músculos poderosos para volar' },
+      { russian: 'Доктор Сураков работает в Музее естественной истории Флориды и использует передовые методы, чтобы показать этот чудесный процесс', spanish: 'El doctor Sourakov trabaja en el Museo de Historia Natural de Florida y utiliza métodos de vanguardia para mostrar este proceso milagroso' },
+      { russian: 'Бабочке нужно дождаться, когда высохнут ее крылья после того, как она выйдет из кокона, прежде чем она сможет полететь', spanish: 'La mariposa necesita esperar a que se sequen sus alas después de salir del capullo antes de poder volar' },
+      { russian: 'Некоторые гусеницы питаются токсичными растениями, чтобы стать несъедобными для хищников и успешно защититься от опасности', spanish: 'Algunas orugas comen plantas tóxicas para volverse no comestibles para los depredadores y defenderse con éxito del peligro' },
+      { russian: 'Технология рентгеновского сканирования позволяет ученым увидеть, как происходит полная перестройка тела внутри кокона', spanish: 'La tecnología de escaneo por radiografía permite a los científicos ver cómo ocurre la reestructuración completa del cuerpo dentro del capullo' },
+      { russian: 'Из куколки выходит совершенно другое существо, которое больше не ест растения, а питается нектаром цветов через свою длинную трубку', spanish: 'De la pupa sale una criatura totalmente diferente que ya no come plantas sino que se alimenta del néctar de las flores a través de su tubo largo' },
+      { russian: 'Этот чудесный процесс эволюции, который природа осуществляет уже миллионы лет, продолжает удивлять ученых своей сложностью и совершенством', spanish: 'Este proceso milagroso de evolución que la naturaleza lleva a cabo desde hace millones de años sigue asombrando a los científicos por su complejidad y perfección' }
     ]
   },
 
