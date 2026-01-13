@@ -7606,6 +7606,44 @@ Ana: Yo también. Será un viaje inolvidable.
 Ана: Я тоже. Это будет незабываемая поездка.`,
         translation: null,
         audioUrl: null
+      },
+      {
+        title: 'Diálogo en el Ascensor',
+        content: `— Hace frío.
+— Hace mucho frío.
+— Y la lluvia. Llueve mucho.
+— Y nieva. Y lo peor. El viento.
+— ¡Uy!, el vientoooooo. No me gusta nada cuando hace viento.
+— Ya…
+— Ya…
+— No como en Andalucía. En Andalucía hace mucho calor.
+— Y no llueve nunca.
+— Pero la lluvia es buena.
+— Sí, para el campo.
+— ¿Para el campo, verdad? Mucha gente trabaja en el campo y…
+— Este ascensor es muy lento, ¿no?
+— ¿Tienes novio?`,
+        translation: `— Холодно.
+— Очень холодно.
+— И дождь. Льет сильно.
+— И снег. И хуже всего. Ветер.
+— Ой, вееетер. Мне совсем не нравится, когда ветрено.
+— Да…
+— Да…
+— Не то что в Андалусии. В Андалусии очень жарко.
+— И никогда не идет дождь.
+— Но дождь полезен.
+— Да, для полей.
+— Для полей, правда? Много людей работает в полях и…
+— Этот лифт очень медленный, не так ли?
+— У тебя есть парень?`,
+        audioUrl: null
+      }
+    ],
+    audioTabs: [
+      {
+        title: 'Conversación en el ascensor',
+        audioUrl: 'Conversación en el ascensor.mp4'
       }
     ],
     exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11']
