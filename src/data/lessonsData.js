@@ -7464,8 +7464,9 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
         ]
       }
     ],
-    readingTabs: [
+    readingText: [
       {
+        tab: 'Текст',
         title: 'Текст',
         content: `Mi viaje a Barcelona fue toda una aventura. Todo comenzó en el aeropuerto de Moscú. Llegué temprano para facturar mi equipaje - tenía dos maletas grandes y una bolsa de mano. En el mostrador de facturación, la empleada me preguntó si quería asiento de pasillo o de ventana. Elegí ventana porque me gusta ver las nubes.
 
@@ -7508,6 +7509,7 @@ Llegué a Sevilla exactamente a la hora prevista. Pasaré aquí tres días y lue
         audioUrl: null
       },
       {
+        tab: '3 Диалога',
         title: '3 Диалога',
         content: `**Diálogo 1: En el aeropuerto (retraso del vuelo)**
 
@@ -7608,6 +7610,7 @@ Ana: Yo también. Será un viaje inolvidable.
         audioUrl: null
       },
       {
+        tab: 'Diálogo en el Ascensor',
         title: 'Diálogo en el Ascensor',
         content: `— Hace frío.
 — Hace mucho frío.
@@ -7643,7 +7646,7 @@ Ana: Yo también. Será un viaje inolvidable.
     audioTabs: [
       {
         tab: 'Conversación en el ascensor',
-        videoUrl: '/audio/Conversación en el ascensor.mp4'
+        videoUrl: '/video/Conversación en el ascensor.mp4'
       }
     ],
     exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11']
