@@ -7642,8 +7642,8 @@ Ana: Yo también. Será un viaje inolvidable.
     ],
     audioTabs: [
       {
-        title: 'Conversación en el ascensor',
-        audioUrl: 'Conversación en el ascensor.mp4'
+        tab: 'Conversación en el ascensor',
+        videoUrl: '/audio/Conversación en el ascensor.mp4'
       }
     ],
     exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11']
