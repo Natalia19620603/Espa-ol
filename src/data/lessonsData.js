@@ -30603,7 +30603,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     type: 'fillblank',
     title: 'Словарь: Контекстные упражнения',
     description: 'Заполните пропуски подходящим словом',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'oscuro', 'brillante', 'luminoso'], correct: 1 },
