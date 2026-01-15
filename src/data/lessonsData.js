@@ -12823,16 +12823,33 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
       {
         tab: 'ВИДЕО',
         words: [
-          { word: 'la luz', translation: 'свет' },
-          { word: 'la onda', translation: 'волна' },
+          { word: 'está oscuro', translation: 'темно' },
+          { word: 'acercarse', translation: 'приблизиться, подойти' },
+          { word: 'compuesto', translation: 'состоящий' },
+          { word: 'la unidad', translation: 'единица' },
+          { word: 'peculiar', translation: 'особенный' },
           { word: 'la partícula', translation: 'частица' },
-          { word: 'la velocidad', translation: 'скорость' },
-          { word: 'el fotón', translation: 'фотон' },
-          { word: 'brillar', translation: 'сиять, светить' },
-          { word: 'reflejar', translation: 'отражать' },
-          { word: 'la energía', translation: 'энергия' },
-          { word: 'el espectro', translation: 'спектр' },
-          { word: 'visible', translation: 'видимый' }
+          { word: 'la onda', translation: 'волна, волнение, рябь (на воде)' },
+          { word: 'la materia', translation: 'материя' },
+          { word: 'atravesar', translation: 'пересекать, переходить' },
+          { word: 'transparente', translation: 'прозрачный, очевидный' },
+          { word: 'iluminar', translation: 'освещать, светить' },
+          { word: 'cierto', translation: 'точный, точно, определенный' },
+          { word: 'el rumbo', translation: 'курс, направление' },
+          { word: 'opaco', translation: 'непрозрачный, матовый' },
+          { word: 'parcialmente', translation: 'частично' },
+          { word: 'la cera', translation: 'воск, парафин' },
+          { word: 'el vidrio', translation: 'стекло' },
+          { word: 'esmerilado', translation: 'матовый' },
+          { word: 'el cohete', translation: 'ракета' },
+          { word: 'el obstáculo', translation: 'препятствие, помеха' },
+          { word: 'ser capaz de', translation: 'быть способным на' },
+          { word: 'la reflexión', translation: 'отражение, соображение' },
+          { word: 'el frasco', translation: 'флакон, пузырек' },
+          { word: 'refractar', translation: 'преломлять' },
+          { word: 'bioluminiscente', translation: 'биолюминистцентный' },
+          { word: 'emitir', translation: 'выпускать, издавать' },
+          { word: 'débil', translation: 'слабый' }
         ]
       }
     ],
@@ -12840,7 +12857,27 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
       {
         tab: 'ВИДЕО',
         title: '¿Qué es la luz?',
-        content: ``,
+        content: `Y está oscuro aquí y no logro... los esperen. Hola, seguro se preguntan cómo viviríamos sin la luz, ¿verdad? Así que vamos, hoy les voy a hablar sobre la luz. Acérquense.
+
+La luz es un tipo de energía compuesta de fotones. Los fotones son las unidades más pequeñas de la luz. Ahora se preguntarán cómo viaja la luz. Bueno, la luz es peculiar porque actúa como una partícula y como una onda y se comporta distinto con diferentes tipos de materia.
+
+Si la luz toca un objeto y lo atraviesa, ese objeto entonces se conoce como transparente. Hagamos algo: tomen un vaso de agua y luego ilumínenlo. ¿Ven cómo la luz lo atraviesa? Bueno, esto demuestra que el agua es transparente.
+
+Hay ciertos objetos que la luz no puede atravesar, por lo que cambia su rumbo después de tocar el objeto. Estos objetos se conocen como opacos, tales como la madera, el teléfono móvil que usan en este momento y ustedes mismos. Sí, los humanos también son opacos.
+
+Algunos objetos permiten que la luz los atraviese parcialmente y se conocen como objetos translúcidos, tales como el plástico, papel de cera y vidrio esmerilado.
+
+¿Y saben qué es lo más rápido del universo? No, no se trata de un cohete. Bien, es la luz. En el vacío, donde no hay obstáculos, la luz es capaz de viajar a más de 300 mil kilómetros por segundo.
+
+Ahora, la distancia entre el Sol y la Tierra es de 149 millones de kilómetros y solo toma 8 minutos para que la luz llegue a la Tierra. Es una velocidad increíble, ¿verdad?
+
+Cuando la luz viaja a través de otros objetos, su velocidad baja y a veces se dobla. Este doblez en la luz se conoce como reflexión. Tomen un frasco lleno de agua y pongan un lápiz en él. Ahora miren con cuidado: ven, un lápiz parece doblado. No, no, el lápiz no está realmente doblado. Los rayos de luz simplemente están refractados. Eso hace parecer que el lápiz está doblado.
+
+¿Sabían que los humanos son bioluminiscentes? Eso significa que pueden emitir luz, pero su luz es mil veces más débil de lo que el ojo humano puede registrar.
+
+La luz tarda aproximadamente 1.2 segundos en llegar a la Tierra desde la Luna.
+
+Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto para aprender más datos divertidos. Este soy yo no alejándome... sí, yo mismo me callé a mí sí.`,
         translation: ``
       }
     ],
@@ -30562,6 +30599,91 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         russian: 'Текстура (textura) его кожи адаптируется к условиям, которые мы находим (encontrar) на дне океана.',
         spanish: 'La textura de su piel se adapta a las condiciones que encontramos en el fondo del océano'
+      }
+    ]
+  },
+  'ex-9-8-video-vocab': {
+    id: 'ex-9-8-video-vocab',
+    type: 'fill-in-blanks',
+    title: 'Словарь: Заполните пропуски',
+    description: 'Выберите правильное слово из банка слов',
+    wordBank: [
+      'acérquense',
+      'atraviesa',
+      'compuesta',
+      'iluminen',
+      'materia',
+      'obstáculos',
+      'onda',
+      'opacos',
+      'oscuro',
+      'parcialmente',
+      'partícula',
+      'peculiar',
+      'rumbo',
+      'transparente',
+      'unidades'
+    ],
+    questions: [
+      {
+        spanish: 'No veo nada porque aquí está ___.',
+        correctAnswer: 'oscuro'
+      },
+      {
+        spanish: 'Por favor, niños, ___ para escuchar mejor.',
+        correctAnswer: 'acérquense'
+      },
+      {
+        spanish: 'La luz está ___ de fotones.',
+        correctAnswer: 'compuesta'
+      },
+      {
+        spanish: 'Los fotones son las ___ más pequeñas.',
+        correctAnswer: 'unidades'
+      },
+      {
+        spanish: 'La luz es ___ porque tiene dos naturalezas.',
+        correctAnswer: 'peculiar'
+      },
+      {
+        spanish: 'La luz actúa como una ___ diminuta.',
+        correctAnswer: 'partícula'
+      },
+      {
+        spanish: 'Pero también se comporta como una ___.',
+        correctAnswer: 'onda'
+      },
+      {
+        spanish: 'La luz interactúa con diferentes tipos de ___.',
+        correctAnswer: 'materia'
+      },
+      {
+        spanish: 'Si la luz ___ el objeto, es transparente.',
+        correctAnswer: 'atraviesa'
+      },
+      {
+        spanish: 'El agua de ese vaso es ___.',
+        correctAnswer: 'transparente'
+      },
+      {
+        spanish: 'Por favor, ___ la habitación con esa lámpara.',
+        correctAnswer: 'iluminen'
+      },
+      {
+        spanish: 'Si el objeto es opaco, la luz cambia su ___.',
+        correctAnswer: 'rumbo'
+      },
+      {
+        spanish: 'Los humanos no somos transparentes, somos ___.',
+        correctAnswer: 'opacos'
+      },
+      {
+        spanish: 'Los objetos translúcidos dejan pasar la luz ___.',
+        correctAnswer: 'parcialmente'
+      },
+      {
+        spanish: 'En el vacío no hay ___ que frenen la luz.',
+        correctAnswer: 'obstáculos'
       }
     ]
   }
