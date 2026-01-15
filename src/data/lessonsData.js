@@ -8556,7 +8556,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     videoTabs: [
       {
         tab: 'OCIO en MADRID',
-        videoUrl: '/audio/OCIO en MADRID.mp4'
+        videoUrl: '/video/OCIO en MADRID.mp4'
       }
     ],
     exercises: [
