@@ -12815,13 +12815,13 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
     moduleId: 'module-9',
     videoTabs: [
       {
-        tab: 'ВИДЕО',
+        tab: 'Que es la luz',
         videoUrl: '/video/Que es la luz.mp4'
       }
     ],
     vocabulary: [
       {
-        tab: 'ВИДЕО',
+        tab: 'Que es la luz',
         words: [
           { word: 'está oscuro', translation: 'темно' },
           { word: 'acercarse', translation: 'приблизиться, подойти' },
@@ -12855,7 +12855,7 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
     ],
     readingText: [
       {
-        tab: 'ВИДЕО',
+        tab: 'Que es la luz',
         title: '¿Qué es la luz?',
         content: `Y está oscuro aquí y no logro... los esperen. Hola, seguro se preguntan cómo viviríamos sin la luz, ¿verdad? Así que vamos, hoy les voy a hablar sobre la luz. Acérquense.
 
@@ -12882,15 +12882,11 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
       }
     ],
     exercises: [
-      {
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-9-8-video-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-9-8-video-comprehension'] },
-          { name: 'Грамматика', exercises: ['ex-9-8-video-grammar'] },
-          { name: 'Presente de Subjuntivo', exercises: ['ex-9-8-video-subjuntivo'] },
-          { name: 'Перевод', exercises: ['ex-9-8-video-translation'] }
-        ]
-      }
+      { tab: 'Словарь', exerciseIds: ['ex-9-8-video-vocab'] },
+      { tab: 'Понимание текста', exerciseIds: ['ex-9-8-video-comprehension'] },
+      { tab: 'Грамматика', exerciseIds: ['ex-9-8-video-grammar'] },
+      { tab: 'Presente de Subjuntivo', exerciseIds: ['ex-9-8-video-subjuntivo'] },
+      { tab: 'Перевод', exerciseIds: ['ex-9-8-video-translation'] }
     ]
   }
 }
