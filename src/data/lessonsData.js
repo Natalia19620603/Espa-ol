@@ -12883,7 +12883,6 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
     ],
     exercises: [
       {
-        tab: 'ВИДЕО',
         subtabs: [
           { name: 'Словарь', exercises: ['ex-9-8-video-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-8-video-comprehension'] },
@@ -30608,7 +30607,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     type: 'fillblank',
     title: 'Словарь: Контекстные упражнения',
     description: 'Заполните пропуски подходящим словом',
-    showAnswerOption: true,
+    showCorrectAnswer: true,
+    highlightErrors: true,
     questions: [
       { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'oscuro', 'brillante', 'luminoso'], correct: 1 },
       { sentence: 'Por favor, niños, ______ para escuchar mejor esta explicación.', blank: 'acérquense', options: ['aléjense', 'acérquense', 'siéntense', 'levántense'], correct: 1 },
