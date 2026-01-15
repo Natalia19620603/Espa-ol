@@ -268,7 +268,7 @@ function LessonPage() {
             className={`${styles.tab} ${activeTab === 'video' ? styles.activeTab : ''}`}
             onClick={() => setActiveTab('video')}
           >
-            🎬 АУДИО
+            🎬 {lesson.videoTabs || lesson.videoUrl ? 'ВИДЕО' : 'АУДИО'}
           </button>
         )}
         {lesson.dialogues && lesson.dialogues.length > 0 && (
@@ -509,7 +509,7 @@ function LessonPage() {
 
         {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.audioUrl || lesson.audioTabs) && (
           <div className={styles.videoSection}>
-            <h2 className={styles.sectionTitle}>АУДИО</h2>
+            <h2 className={styles.sectionTitle}>{lesson.videoTabs || lesson.videoUrl ? 'ВИДЕО' : 'АУДИО'}</h2>
             {!canPlayMP4 && (
               <div style={{
                 padding: '15px',
