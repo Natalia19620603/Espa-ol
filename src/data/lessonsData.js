@@ -12888,6 +12888,7 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
           { name: 'Словарь', exercises: ['ex-9-8-video-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-8-video-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-8-video-grammar'] },
+          { name: 'Presente de Subjuntivo', exercises: ['ex-9-8-video-subjuntivo'] },
           { name: 'Перевод', exercises: ['ex-9-8-video-translation'] }
         ]
       }
@@ -30604,87 +30605,126 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
   },
   'ex-9-8-video-vocab': {
     id: 'ex-9-8-video-vocab',
-    type: 'fill-in-blanks',
-    title: 'Словарь: Заполните пропуски',
-    description: 'Выберите правильное слово из банка слов',
-    wordBank: [
-      'acérquense',
-      'atraviesa',
-      'compuesta',
-      'iluminen',
-      'materia',
-      'obstáculos',
-      'onda',
-      'opacos',
-      'oscuro',
-      'parcialmente',
-      'partícula',
-      'peculiar',
-      'rumbo',
-      'transparente',
-      'unidades'
-    ],
+    type: 'fillblank',
+    title: 'Словарь: Контекстные упражнения',
+    description: 'Заполните пропуски подходящим словом',
+    showAnswerOption: true,
     questions: [
-      {
-        spanish: 'No veo nada porque aquí está ___.',
-        correctAnswer: 'oscuro'
-      },
-      {
-        spanish: 'Por favor, niños, ___ para escuchar mejor.',
-        correctAnswer: 'acérquense'
-      },
-      {
-        spanish: 'La luz está ___ de fotones.',
-        correctAnswer: 'compuesta'
-      },
-      {
-        spanish: 'Los fotones son las ___ más pequeñas.',
-        correctAnswer: 'unidades'
-      },
-      {
-        spanish: 'La luz es ___ porque tiene dos naturalezas.',
-        correctAnswer: 'peculiar'
-      },
-      {
-        spanish: 'La luz actúa como una ___ diminuta.',
-        correctAnswer: 'partícula'
-      },
-      {
-        spanish: 'Pero también se comporta como una ___.',
-        correctAnswer: 'onda'
-      },
-      {
-        spanish: 'La luz interactúa con diferentes tipos de ___.',
-        correctAnswer: 'materia'
-      },
-      {
-        spanish: 'Si la luz ___ el objeto, es transparente.',
-        correctAnswer: 'atraviesa'
-      },
-      {
-        spanish: 'El agua de ese vaso es ___.',
-        correctAnswer: 'transparente'
-      },
-      {
-        spanish: 'Por favor, ___ la habitación con esa lámpara.',
-        correctAnswer: 'iluminen'
-      },
-      {
-        spanish: 'Si el objeto es opaco, la luz cambia su ___.',
-        correctAnswer: 'rumbo'
-      },
-      {
-        spanish: 'Los humanos no somos transparentes, somos ___.',
-        correctAnswer: 'opacos'
-      },
-      {
-        spanish: 'Los objetos translúcidos dejan pasar la luz ___.',
-        correctAnswer: 'parcialmente'
-      },
-      {
-        spanish: 'En el vacío no hay ___ que frenen la luz.',
-        correctAnswer: 'obstáculos'
-      }
+      { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'oscuro', 'brillante', 'luminoso'], correct: 1 },
+      { sentence: 'Por favor, niños, ______ para escuchar mejor esta explicación.', blank: 'acérquense', options: ['aléjense', 'acérquense', 'siéntense', 'levántense'], correct: 1 },
+      { sentence: 'La luz es una forma de energía ______ de pequeñas partículas llamadas fotones.', blank: 'compuesta', options: ['separada', 'compuesta', 'dividida', 'rota'], correct: 1 },
+      { sentence: 'Los fotones son las ______ más pequeñas de luz que existen.', blank: 'unidades', options: ['partes', 'unidades', 'piezas', 'fragmentos'], correct: 1 },
+      { sentence: 'La luz es ______ porque actúa tanto como partícula como onda.', blank: 'peculiar', options: ['normal', 'peculiar', 'simple', 'común'], correct: 1 },
+      { sentence: 'La luz se comporta como una ______ diminuta cuando viaja.', blank: 'partícula', options: ['onda', 'partícula', 'energía', 'fuerza'], correct: 1 },
+      { sentence: 'Al mismo tiempo, la luz también se comporta como una ______.', blank: 'onda', options: ['partícula', 'onda', 'corriente', 'bola'], correct: 1 },
+      { sentence: 'La luz interactúa de manera diferente con distintos tipos de ______.', blank: 'materia', options: ['luz', 'materia', 'energía', 'aire'], correct: 1 },
+      { sentence: 'Si la luz ______ un objeto completamente, ese objeto es transparente.', blank: 'atraviesa', options: ['bloquea', 'atraviesa', 'refleja', 'absorbe'], correct: 1 },
+      { sentence: 'El agua y el vidrio son ejemplos de materiales ______.', blank: 'transparentes', options: ['opacos', 'transparentes', 'sólidos', 'duros'], correct: 1 },
+      { sentence: 'Por favor, ______ la habitación con esa lámpara para ver mejor.', blank: 'iluminen', options: ['oscurezcan', 'iluminen', 'cierren', 'abran'], correct: 1 },
+      { sentence: 'Si el objeto es opaco, la luz cambia su ______ después de tocarlo.', blank: 'rumbo', options: ['color', 'rumbo', 'forma', 'tamaño'], correct: 1 },
+      { sentence: 'Los humanos y la madera son materiales ______.', blank: 'opacos', options: ['transparentes', 'opacos', 'claros', 'brillantes'], correct: 1 },
+      { sentence: 'Los objetos translúcidos dejan pasar la luz ______.', blank: 'parcialmente', options: ['completamente', 'parcialmente', 'nunca', 'siempre'], correct: 1 },
+      { sentence: 'En el vacío no hay ______ que reduzcan la velocidad de la luz.', blank: 'obstáculos', options: ['ayudas', 'obstáculos', 'luces', 'colores'], correct: 1 }
+    ]
+  },
+
+  'ex-9-8-video-comprehension': {
+    id: 'ex-9-8-video-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Физика света',
+    description: 'Ответьте на вопросы по тексту',
+    showAnswerOption: true,
+    questions: [
+      { question: '¿De qué está compuesta la luz?', options: ['De átomos', 'De fotones', 'De electrones', 'De neutrones'], correct: 1 },
+      { question: '¿Qué son los fotones?', options: ['Las unidades más grandes de luz', 'Las unidades más pequeñas de luz', 'Un tipo de color', 'Una forma de calor'], correct: 1 },
+      { question: '¿Por qué es peculiar la luz?', options: ['Porque es muy rápida', 'Porque actúa como partícula y como onda', 'Porque tiene muchos colores', 'Porque es invisible'], correct: 1 },
+      { question: '¿Qué tipo de objeto permite que la luz lo atraviese completamente?', options: ['Opaco', 'Translúcido', 'Transparente', 'Sólido'], correct: 2 },
+      { question: '¿Qué ejemplo de objeto transparente menciona el texto?', options: ['La madera', 'El agua', 'El teléfono móvil', 'El papel'], correct: 1 },
+      { question: '¿Qué característica tienen los objetos opacos?', options: ['La luz los atraviesa', 'La luz no puede atravesarlos', 'Son transparentes', 'Son líquidos'], correct: 1 },
+      { question: 'Según el texto, ¿los humanos son opacos o transparentes?', options: ['Transparentes', 'Translúcidos', 'Opacos', 'Ninguno'], correct: 2 },
+      { question: '¿Qué ejemplos de objetos translúcidos menciona el texto?', options: ['Madera y metal', 'Plástico, papel de cera y vidrio esmerilado', 'Agua y aire', 'Piedra y arena'], correct: 1 },
+      { question: '¿Qué es lo más rápido del universo?', options: ['Un cohete', 'Un avión', 'La luz', 'El sonido'], correct: 2 },
+      { question: '¿A qué velocidad viaja la luz en el vacío?', options: ['100 mil km por segundo', 'Más de 300 mil km por segundo', '500 mil km por segundo', '1 millón de km por segundo'], correct: 1 },
+      { question: '¿Cuánto tiempo tarda la luz en llegar del Sol a la Tierra?', options: ['1 minuto', '5 minutos', '8 minutos', '15 minutos'], correct: 2 },
+      { question: '¿Qué sucede cuando la luz viaja a través de otros objetos?', options: ['Se acelera', 'Su velocidad baja y a veces se dobla', 'Desaparece', 'Cambia de color'], correct: 1 },
+      { question: '¿Cómo se llama el doblez en la luz?', options: ['Reflexión', 'Refracción', 'Absorción', 'Difracción'], correct: 1 },
+      { question: '¿Qué característica especial tienen los humanos según el texto?', options: ['Son transparentes', 'Son bioluminiscentes', 'No reflejan luz', 'Absorben toda la luz'], correct: 1 },
+      { question: '¿Cuánto tiempo tarda la luz en llegar de la Luna a la Tierra?', options: ['0.5 segundos', '1.2 segundos', '2 minutos', '5 minutos'], correct: 1 }
+    ]
+  },
+
+  'ex-9-8-video-grammar': {
+    id: 'ex-9-8-video-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Времена и наклонения',
+    description: 'Выберите правильную форму глагола',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Hoy nosotros (aprender) ______ sobre las propiedades de la luz.', options: ['aprendemos', 'aprendimos', 'hemos aprendido', 'aprendíamos'], correct: 2, explanation: 'Hemos aprendido (Pretérito perfecto - acción hoy con resultado en el presente)' },
+      { sentence: 'Ayer el profesor (explicar) ______ la teoría de la refracción durante toda la clase.', options: ['explica', 'explicó', 'explicaba', 'ha explicado'], correct: 1, explanation: 'Explicó (Pretérito indefinido - acción completa en tiempo específico del pasado)' },
+      { sentence: 'Cuando yo era pequeño, (pensar) ______ que la luz viajaba instantáneamente.', options: ['pienso', 'pensé', 'pensaba', 'he pensado'], correct: 2, explanation: 'Pensaba (Pretérito imperfecto - estado mental habitual en el pasado)' },
+      { sentence: '(Mirar, tú) ______ esta demostración del prisma, es fascinante.', options: ['miras', 'mira', 'mires', 'miraste'], correct: 1, explanation: 'Mira (Imperativo afirmativo segunda persona singular)' },
+      { sentence: 'No (tocar, tú) ______ el láser directamente con los ojos.', options: ['tocas', 'toques', 'toca', 'tocarás'], correct: 1, explanation: 'Toques (Presente de subjuntivo - imperativo negativo)' },
+      { sentence: 'Es importante que la luz (atravesar) ______ el material para que podamos verlo.', options: ['atraviesa', 'atraviese', 'atravesó', 'atravesaba'], correct: 1, explanation: 'Atraviese (Presente de subjuntivo - expresión de importancia con "es importante que")' },
+      { sentence: 'En el laboratorio de física (nosotros, realizar) ______ muchos experimentos el año pasado.', options: ['realizamos', 'realizábamos', 'hemos realizado', 'realizaremos'], correct: 0, explanation: 'Realizamos (Pretérito indefinido - acción completa en tiempo específico)' },
+      { sentence: 'Antes de la clase, los estudiantes ya (preparar) ______ todos los materiales.', options: ['preparan', 'prepararon', 'habían preparado', 'prepararán'], correct: 2, explanation: 'Habían preparado (Pluscuamperfecto - acción anterior a otra en el pasado)' },
+      { sentence: '(Esperar, vosotros) ______ a que se oscurezca la habitación para ver mejor el efecto.', options: ['esperáis', 'esperad', 'esperéis', 'esperasteis'], correct: 1, explanation: 'Esperad (Imperativo afirmativo segunda persona plural)' },
+      { sentence: 'Dudo que la luz (poder) ______ atravesar este material tan denso.', options: ['puede', 'pueda', 'pudo', 'podía'], correct: 1, explanation: 'Pueda (Presente de subjuntivo - expresión de duda con "dudo que")' },
+      { sentence: 'Mientras el profesor (hablar) ______, los estudiantes tomaban notas sobre la reflexión.', options: ['habla', 'habló', 'hablaba', 'ha hablado'], correct: 2, explanation: 'Hablaba (Pretérito imperfecto - acción en curso mientras otra ocurría)' },
+      { sentence: 'Esta mañana (yo, descubrir) ______ que los humanos son bioluminiscentes.', options: ['descubrí', 'descubría', 'he descubierto', 'descubro'], correct: 2, explanation: 'He descubierto (Pretérito perfecto - acción hoy con conexión al presente)' },
+      { sentence: 'No (creer, vosotros) ______ que todo esto es magia, es pura física.', options: ['creéis', 'creáis', 'creed', 'creyerais'], correct: 1, explanation: 'Creáis (Presente de subjuntivo - imperativo negativo segunda persona plural)' },
+      { sentence: 'Te recomiendo que (iluminar, tú) ______ bien el experimento para observar los detalles.', options: ['iluminas', 'ilumines', 'iluminarás', 'iluminabas'], correct: 1, explanation: 'Ilumines (Presente de subjuntivo - después de verbo de recomendación)' },
+      { sentence: 'El científico (demostrar) ______ la refracción usando un vaso de agua y un lápiz.', options: ['demuestra', 'demostró', 'demostraba', 'ha demostrado'], correct: 1, explanation: 'Demostró (Pretérito indefinido - acción completa en el pasado)' }
+    ]
+  },
+
+  'ex-9-8-video-subjuntivo': {
+    id: 'ex-9-8-video-subjuntivo',
+    type: 'grammar',
+    title: 'Грамматика: Presente de Subjuntivo',
+    description: 'Выберите правильную форму глагола в presente de subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Es necesario que nosotros (comprender) ______ la naturaleza dual de la luz.', options: ['comprendemos', 'comprendamos', 'comprendimos', 'comprendíamos'], correct: 1, explanation: 'Comprendamos (Presente de subjuntivo - después de "es necesario que")' },
+      { sentence: 'Espero que la luz (reflejar) ______ correctamente en esta superficie.', options: ['refleja', 'refleje', 'reflejó', 'reflejaba'], correct: 1, explanation: 'Refleje (Presente de subjuntivo - después de verbo de esperanza "espero que")' },
+      { sentence: 'No creo que los fotones (ser) ______ visibles a simple vista.', options: ['son', 'sean', 'fueron', 'eran'], correct: 1, explanation: 'Sean (Presente de subjuntivo - después de negación de creencia "no creo que")' },
+      { sentence: 'Quiero que tú (observar) ______ cómo la luz atraviesa el agua.', options: ['observas', 'observes', 'observaste', 'observabas'], correct: 1, explanation: 'Observes (Presente de subjuntivo - después de verbo de voluntad "quiero que")' },
+      { sentence: 'Es probable que la velocidad de la luz (disminuir) ______ en materiales densos.', options: ['disminuye', 'disminuya', 'disminuyó', 'disminuía'], correct: 1, explanation: 'Disminuya (Presente de subjuntivo - expresión de probabilidad)' },
+      { sentence: 'Me sorprende que los humanos (emitir) ______ luz, aunque sea muy débil.', options: ['emiten', 'emitan', 'emitieron', 'emitían'], correct: 1, explanation: 'Emitan (Presente de subjuntivo - después de expresión de emoción)' },
+      { sentence: 'Para que el experimento (funcionar) ______, necesitamos oscurecer la habitación.', options: ['funciona', 'funcione', 'funcionó', 'funcionaba'], correct: 1, explanation: 'Funcione (Presente de subjuntivo - expresión de finalidad con "para que")' },
+      { sentence: 'Dudo que este material (permitir) ______ el paso de la luz completamente.', options: ['permite', 'permita', 'permitió', 'permitía'], correct: 1, explanation: 'Permita (Presente de subjuntivo - expresión de duda)' },
+      { sentence: 'Es importante que los estudiantes (entender) ______ la diferencia entre reflexión y refracción.', options: ['entienden', 'entiendan', 'entendieron', 'entendían'], correct: 1, explanation: 'Entiendan (Presente de subjuntivo - después de "es importante que")' },
+      { sentence: 'No pienso que la luz (tardar) ______ tanto en llegar desde el Sol.', options: ['tarda', 'tarde', 'tardó', 'tardaba'], correct: 1, explanation: 'Tarde (Presente de subjuntivo - después de negación "no pienso que")' },
+      { sentence: 'Ojalá que nosotros (poder) ______ ver los fotones directamente algún día.', options: ['podemos', 'podamos', 'pudimos', 'podíamos'], correct: 1, explanation: 'Podamos (Presente de subjuntivo - después de "ojalá que" expresando deseo)' },
+      { sentence: 'Es una pena que no (haber) ______ suficiente luz para realizar el experimento ahora.', options: ['hay', 'haya', 'hubo', 'había'], correct: 1, explanation: 'Haya (Presente de subjuntivo - expresión de sentimiento)' },
+      { sentence: 'Aunque la luz (viajar) ______ muy rápido, todavía tarda tiempo en llegar de las estrellas.', options: ['viaja', 'viaje', 'viajó', 'viajaba'], correct: 1, explanation: 'Viaje (Presente de subjuntivo - después de "aunque" con concesión)' },
+      { sentence: 'Te pido que (iluminar, tú) ______ este objeto desde diferentes ángulos.', options: ['iluminas', 'ilumines', 'iluminaste', 'iluminabas'], correct: 1, explanation: 'Ilumines (Presente de subjuntivo - después de verbo de petición)' },
+      { sentence: 'No es cierto que todos los objetos (refractar) ______ la luz de la misma manera.', options: ['refractan', 'refracten', 'refractaron', 'refractaban'], correct: 1, explanation: 'Refracten (Presente de subjuntivo - después de negación "no es cierto que")' }
+    ]
+  },
+
+  'ex-9-8-video-translation': {
+    id: 'ex-9-8-video-translation',
+    type: 'translation',
+    title: 'Перевод: Развернутые фразы',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Свет - это вид энергии, состоящий из фотонов, которые являются самыми маленькими единицами света.', spanish: 'La luz es un tipo de energía compuesta de fotones, que son las unidades más pequeñas de la luz.' },
+      { russian: 'Свет особенный, потому что он действует как частица и как волна одновременно.', spanish: 'La luz es peculiar porque actúa como una partícula y como una onda al mismo tiempo.' },
+      { russian: 'Если свет касается объекта и проходит через него, этот объект называется прозрачным.', spanish: 'Si la luz toca un objeto y lo atraviesa, ese objeto se conoce como transparente.' },
+      { russian: 'Есть определенные объекты, которые свет не может пройти, поэтому он меняет свое направление после касания объекта.', spanish: 'Hay ciertos objetos que la luz no puede atravesar, por lo que cambia su rumbo después de tocarlos.' },
+      { russian: 'Некоторые объекты позволяют свету проходить через них частично и называются полупрозрачными.', spanish: 'Algunos objetos permiten que la luz los atraviese parcialmente y se conocen como translúcidos.' },
+      { russian: 'В вакууме, где нет препятствий, свет способен путешествовать со скоростью более 300 тысяч километров в секунду.', spanish: 'En el vacío, donde no hay obstáculos, la luz es capaz de viajar a más de 300 mil kilómetros por segundo.' },
+      { russian: 'Расстояние между Солнцем и Землей составляет 149 миллионов километров, и свету требуется всего 8 минут, чтобы достичь Земли.', spanish: 'La distancia entre el Sol y la Tierra es de 149 millones de kilómetros y solo toma 8 minutos para que la luz llegue a la Tierra.' },
+      { russian: 'Когда свет проходит через другие объекты, его скорость снижается, и иногда он искривляется.', spanish: 'Cuando la luz viaja a través de otros objetos, su velocidad baja y a veces se dobla.' },
+      { russian: 'Это искривление света называется преломлением, и мы можем наблюдать его, когда помещаем карандаш в стакан с водой.', spanish: 'Este doblez en la luz se conoce como refracción y podemos observarlo cuando ponemos un lápiz en un vaso de agua.' },
+      { russian: 'Лучи света просто преломляются, что заставляет карандаш казаться согнутым.', spanish: 'Los rayos de luz simplemente están refractados, lo que hace parecer que el lápiz está doblado.' },
+      { russian: 'Люди являются биолюминесцентными, что означает, что они могут излучать свет.', spanish: 'Los humanos son bioluminiscentes, lo que significa que pueden emitir luz.' },
+      { russian: 'Однако их свет в тысячу раз слабее того, что человеческий глаз может зарегистрировать.', spanish: 'Sin embargo, su luz es mil veces más débil de lo que el ojo humano puede registrar.' },
+      { russian: 'Свету требуется приблизительно 1,2 секунды, чтобы достичь Земли с Луны.', spanish: 'La luz tarda aproximadamente 1.2 segundos en llegar a la Tierra desde la Luna.' },
+      { russian: 'Приблизьтесь (acercarse), чтобы лучше увидеть, как свет взаимодействует с разными типами материи.', spanish: 'Acérquense para ver mejor cómo la luz interactúa con diferentes tipos de materia.' },
+      { russian: 'Осветите (iluminar) комнату этой лампой, чтобы мы могли провести эксперимент с преломлением.', spanish: 'Iluminen la habitación con esa lámpara para que podamos realizar el experimento de refracción.' }
     ]
   }
 }
