@@ -82,7 +82,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: Литература и культура',
     level: 'intermediate',
-    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5', 'lesson-9-6', 'lesson-9-7'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5', 'lesson-9-6', 'lesson-9-7', 'lesson-9-8'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -12805,6 +12805,53 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
           { name: 'Понимание текста', exercises: ['ex-9-7-pezfeo-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-7-pezfeo-grammar'] },
           { name: 'Перевод', exercises: ['ex-9-7-pezfeo-translation'] }
+        ]
+      }
+    ]
+  },
+  'lesson-9-8': {
+    id: 'lesson-9-8',
+    title: 'Урок 8: Физика',
+    moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'ВИДЕО',
+        videoUrl: '/video/Que es la luz.mp4'
+      }
+    ],
+    vocabulary: [
+      {
+        tab: 'ВИДЕО',
+        words: [
+          { word: 'la luz', translation: 'свет' },
+          { word: 'la onda', translation: 'волна' },
+          { word: 'la partícula', translation: 'частица' },
+          { word: 'la velocidad', translation: 'скорость' },
+          { word: 'el fotón', translation: 'фотон' },
+          { word: 'brillar', translation: 'сиять, светить' },
+          { word: 'reflejar', translation: 'отражать' },
+          { word: 'la energía', translation: 'энергия' },
+          { word: 'el espectro', translation: 'спектр' },
+          { word: 'visible', translation: 'видимый' }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: 'ВИДЕО',
+        title: '¿Qué es la luz?',
+        content: ``,
+        translation: ``
+      }
+    ],
+    exercises: [
+      {
+        tab: 'ВИДЕО',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-9-8-video-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-9-8-video-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-9-8-video-grammar'] },
+          { name: 'Перевод', exercises: ['ex-9-8-video-translation'] }
         ]
       }
     ]
