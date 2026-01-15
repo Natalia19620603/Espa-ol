@@ -29767,7 +29767,7 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     title: 'Словарь: Los animales y plantas tienen conciencia',
     description: `Usa estas palabras para completar:
 
-reencarnarse, resto, intervenir, conclusión, grado, estímulo, externo, mascota, nivel, capacidad, decisión, evolución, certificar, autoridad, vidente, médium`,
+médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decisión, certificar, vidente, mascota, intervenir, externo, reencarnarse, conclusión`,
     questions: [
       {
         sentence: 'Algunas religiones creen que las almas pueden _____ en otros seres.',
