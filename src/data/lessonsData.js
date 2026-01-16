@@ -7942,6 +7942,12 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
     id: 'lesson-6-3',
     title: 'Урок 3: Pretérito Imperfecto (Прошедшее несовершенное)',
     moduleId: 'module-6',
+    videoTabs: [
+      {
+        tab: 'Tiempos pasados antes del viaje',
+        videoUrl: '/video/Tiempos pasados antes del viaje.mp4'
+      }
+    ],
     grammar: {
       title: 'Pretérito Imperfecto (Прошедшее несовершенное)',
       content: `
@@ -8134,7 +8140,7 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
 
 Те дни уже не вернутся, но воспоминания остаются. И когда я закрываю глаза, я всё ещё могу чувствовать летнее солнце на своём лице, слышать смех детей на площади и чувствовать запах еды моей бабушки, готовящейся на кухне.`
     },
-    exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
+    exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5', 'ex-6-3-6', 'ex-6-3-7']
   },
 
   // МОДУЛЬ 7: Досуг и развлечения (B1)
@@ -16643,6 +16649,114 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Я всегда хотел стать врачом', correct: 'Yo siempre quería ser médico' },
       { russian: 'Раньше здесь был парк', correct: 'Antes aquí había un parque' },
       { russian: 'Когда была хорошая погода, мы гуляли', correct: 'Cuando hacía buen tiempo, paseábamos' }
+    ]
+  },
+
+  'ex-6-3-6': {
+    id: 'ex-6-3-6',
+    type: 'fillblank',
+    title: 'Pretérito Imperfecto - Поставьте инфинитивы в правильную форму',
+    description: 'Поставьте глаголы в скобках в форму Pretérito Imperfecto',
+    questions: [
+      {
+        sentence: 'Cada vez que (viajar, nosotros) _____ a Madrid (reservar, nosotros) _____ el mismo hotel.',
+        correct: 'viajábamos|reservábamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (ser, yo) _____ niño (gustarme) _____ mucho comer chocolate.',
+        correct: 'era|me gustaba',
+        alternatives: []
+      },
+      {
+        sentence: 'A veces (venir, él) _____ a vernos, nos (traer) _____ flores.',
+        correct: 'venía|traía',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (estudiar, vosotros) _____ en la universidad, (comer) _____ en una cafetería.',
+        correct: 'estudiabais|comíais',
+        alternatives: []
+      },
+      {
+        sentence: 'Por las mañanas Juan (dar) _____ un paseo por el parque en bicicleta.',
+        correct: 'daba',
+        alternatives: []
+      },
+      {
+        sentence: 'Cada vez que (vernos, él) _____, nos (preguntar) _____ por nuestros padres.',
+        correct: 'nos veía|preguntaba',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (tener, yo) _____ diez años, a menudo (ir) _____ a descansar al campo.',
+        correct: 'tenía|iba',
+        alternatives: []
+      },
+      {
+        sentence: '¿Qué (leer, vosotros) _____ cuando (ser) _____ pequeños?',
+        correct: 'leíais|erais',
+        alternatives: []
+      },
+      {
+        sentence: 'De vez en cuando (encontrarse, nosotros) _____ con nuestros amigos y (almorzar, nosotros) _____ en el restaurante chino.',
+        correct: 'nos encontrábamos|almorzábamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (vivir, tú) _____ solo a menudo (ponerse, tú) _____ triste.',
+        correct: 'vivías|te ponías',
+        alternatives: []
+      },
+      {
+        sentence: 'Todos los días mi abuela (preparar) _____ el desayuno y (despertar) _____ a los niños.',
+        correct: 'preparaba|despertaba',
+        alternatives: []
+      },
+      {
+        sentence: 'Antes nosotros (salir) _____ a correr cada mañana y (sentirse) _____ muy bien.',
+        correct: 'salíamos|nos sentíamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (llover) _____, los niños (jugar) _____ dentro de la casa.',
+        correct: 'llovía|jugaban',
+        alternatives: []
+      },
+      {
+        sentence: 'Mi padre siempre (decir) _____ que (querer) _____ viajar por el mundo.',
+        correct: 'decía|quería',
+        alternatives: []
+      },
+      {
+        sentence: 'En verano, cuando (hacer) _____ calor, (ir, nosotros) _____ a la piscina.',
+        correct: 'hacía|íbamos',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-6-3-7': {
+    id: 'ex-6-3-7',
+    type: 'writing',
+    title: 'Pretérito Imperfecto - Перевод сложных предложений',
+    description: 'Переведите сложные предложения на испанский, используя Pretérito Imperfecto',
+    questions: [
+      { russian: 'Когда мои дети учились в школе, они ходили в школу пешком, потому что у нас не было машины', correct: 'Cuando mis hijos estudiaban en la escuela, iban a la escuela a pie porque no teníamos coche' },
+      { russian: 'Когда я была маленькой, мы с мамой часто гуляли в этом парке', correct: 'Cuando yo era pequeña, mi madre y yo paseábamos a menudo en este parque' },
+      { russian: 'Летом вы каждый день вставали рано, пили кофе и шли на пляж', correct: 'En verano vosotros os levantabais temprano cada día, bebíais café e ibais a la playa' },
+      { russian: 'Сестра Марии была очень красивой и хотела стать актрисой', correct: 'La hermana de María era muy hermosa y quería ser actriz' },
+      { russian: 'Мне очень нравился этот магазин, я всегда здесь что-нибудь покупала', correct: 'Me gustaba mucho esta tienda, siempre compraba algo aquí' },
+      { russian: 'Когда он лгал, мы всегда об этом знали, потому что он краснел', correct: 'Cuando él mentía, siempre lo sabíamos porque se ponía rojo' },
+      { russian: 'Ты часто над ним смеялась, а потом сожалела об этом', correct: 'Tú te reías de él a menudo y luego te arrepentías de ello' },
+      { russian: 'Каждый раз, когда он приглашал ее в кино или театр, она благодарила его за приглашение, но отказывалась идти с ним', correct: 'Cada vez que él la invitaba al cine o al teatro, ella le agradecía la invitación pero se negaba a ir con él' },
+      { russian: 'Иногда я просыпался на рассвете и больше не мог заснуть, потому что думал о тебе', correct: 'A veces me despertaba al amanecer y ya no podía dormir porque pensaba en ti' },
+      { russian: 'По вечерам, когда шел дождь, мы читали или смотрели телевизор', correct: 'Por las tardes, cuando llovía, leíamos o veíamos la televisión' },
+      { russian: 'В детстве мой дед рассказывал мне интересные истории, и я слушал их с большим вниманием', correct: 'De niño mi abuelo me contaba historias interesantes y yo las escuchaba con mucha atención' },
+      { russian: 'Каждое воскресенье мы собирались всей семьей, обедали вместе и разговаривали о жизни', correct: 'Cada domingo nos reuníamos toda la familia, comíamos juntos y hablábamos de la vida' },
+      { russian: 'Раньше она носила очки и длинные волосы, а сейчас совсем другая', correct: 'Antes ella llevaba gafas y pelo largo, y ahora es completamente diferente' },
+      { russian: 'Когда мы жили в деревне, каждое утро слышали пение птиц и дышали свежим воздухом', correct: 'Cuando vivíamos en el pueblo, cada mañana oíamos el canto de los pájaros y respirábamos aire fresco' },
+      { russian: 'Мой учитель всегда говорил, что учиться никогда не поздно, и повторял это каждый урок', correct: 'Mi profesor siempre decía que nunca es tarde para aprender y lo repetía cada clase' }
     ]
   },
 
