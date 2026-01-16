@@ -7874,164 +7874,66 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
 
   'lesson-6-2': {
     id: 'lesson-6-2',
-    title: 'Урок 2: Планы и намерения',
+    title: 'Урок 2: Местоимение MISMO',
     moduleId: 'module-6',
     grammar: {
-      title: 'IR + A + инфинитив vs Futuro simple',
+      title: 'Местоимение MISMO (сам / тот же самый)',
       content: `
-# IR + A + infinitivo (Ближайшее будущее)
+# Местоимение MISMO (сам / тот же самый)
 
-## Образование:
-**IR (настоящее время) + A + инфинитив**
+Слово **mismo** меняется по родам и числам (**mismo**, **misma**, **mismos**, **mismas**). Его перевод зависит от того, где оно стоит в предложении.
 
-| Лицо | IR | Пример |
-|------|----|--------|
-| yo | voy | voy a estudiar |
-| tú | vas | vas a comer |
-| él/ella/usted | va | va a viajar |
-| nosotros/as | vamos | vamos a salir |
-| vosotros/as | vais | vais a trabajar |
-| ellos/ellas/ustedes | van | van a vivir |
+---
 
-## Употребление IR + A + инфинитив:
+## 1. После существительного или местоимения = «САМ»
 
-1. **Ближайшие планы:**
-   - **Voy a comer** ahora (Я сейчас буду есть)
-   - Esta tarde **vamos a ver** una película (Сегодня вечером мы посмотрим фильм)
+Используется для подчеркивания того, что действие совершено самостоятельно.
 
-2. **Намерения:**
-   - **Voy a estudiar** medicina (Я буду изучать медицину)
-   - **Van a casarse** el año que viene (Они поженятся в следующем году)
+**Примеры:**
+- **Yo misma** aprendí... — Я сама научилась...
+- **José mismo** me lo dijo. — Хосе сам мне это сказал.
+- **Nosotros mismos** lo haremos. — Мы сами это сделаем.
 
-3. **Очевидное будущее:**
-   - ¡Cuidado! **Vas a caer** (Осторожно! Ты упадешь)
-   - Mira esas nubes - **va a llover** (Посмотри на эти тучи - будет дождь)
+---
 
-## Разница: IR + A vs Futuro simple
+## 2. Перед существительным (с артиклем) = «ТОТ ЖЕ САМЫЙ»
 
-**IR + A + infinitivo:**
-- Более разговорное
-- Ближайшее будущее
-- Четкие планы и намерения
-- **Voy a comprar** un coche (Я собираюсь купить машину)
+Всегда используется с определенным артиклем (**el**, **la**, **los**, **las**). Указывает на идентичность объекта.
 
-**Futuro simple:**
-- Более формальное
-- Отдаленное будущее
-- Предсказания
-- **Compraré** un coche algún día (Я куплю машину когда-нибудь)
+| Испанский | Перевод |
+|-----------|---------|
+| **el mismo libro** | та же самая книга |
+| **la misma casa** | тот же самый дом |
+| **los mismos planes** | те же самые планы |
 
-## Выражение намерений и желаний:
+**Пример:**
+- Vive en **la misma casa**. — Он живет в том же самом доме.
 
-**PENSAR + инфинитив** (думать, планировать):
-- **Pienso** viajar a Italia (Я планирую поехать в Италию)
+---
 
-**QUERER + инфинитив** (хотеть):
-- **Quiero** aprender español (Я хочу выучить испанский)
+## 3. После наречий (усиление) = «ЖЕ / ИМЕННО»
 
-**ESPERAR + инфинитив** (надеяться):
-- **Espero** conseguir un buen trabajo (Я надеюсь получить хорошую работу)
+Если **mismo** стоит после слов, обозначающих время или место, оно работает как усилительная частица.
 
-**TENER LA INTENCIÓN DE + инфинитив** (иметь намерение):
-- **Tengo la intención de** mudarme (Я намереваюсь переехать)
+- **Ahora mismo** — прямо сейчас, сейчас же
+- **Hoy mismo** — сегодня же (не откладывая)
+- **Aquí mismo** — прямо здесь, здесь же
+- **Mañana mismo** — завтра же
 
-**DESEAR + инфинитив** (желать):
-- **Deseo** mejorar mi vida (Я желаю улучшить свою жизнь)
+---
 
-## Вопросы о планах:
+## Короткая шпаргалка для запоминания:
 
-- **¿Qué vas a hacer...?** - Что ты собираешься делать...?
-- **¿Qué harás...?** - Что ты будешь делать...?
-- **¿Tienes planes para...?** - У тебя есть планы на...?
-- **¿Qué piensas hacer...?** - Что ты думаешь делать...?
+✓ **Yo mismo** → Я сам (акцент на лице)
+✓ **El mismo libro** → Та же книга (акцент на объекте)
+✓ **Ahora mismo** → Прямо сейчас (акцент на времени)
       `,
       examples: [
-        { spanish: 'Voy a estudiar esta noche', translation: 'Я буду учиться сегодня вечером' },
-        { spanish: '¿Qué vas a hacer mañana?', translation: 'Что ты будешь делать завтра?' },
-        { spanish: 'Pienso mudarme a Barcelona', translation: 'Я планирую переехать в Барселону' },
-        { spanish: 'Espero conseguir un buen trabajo', translation: 'Я надеюсь получить хорошую работу' }
+        { spanish: 'Yo misma lo hice', translation: 'Я сама это сделала' },
+        { spanish: 'El mismo libro que leí ayer', translation: 'Та же самая книга, которую я читал вчера' },
+        { spanish: 'Ven aquí mismo', translation: 'Иди прямо сюда' },
+        { spanish: 'Lo haré hoy mismo', translation: 'Я это сделаю сегодня же' }
       ]
-    },
-    vocabulary: [
-      { word: 'proyecto', translation: 'проект', audioUrl: null },
-      { word: 'objetivo', translation: 'цель, задача', audioUrl: null },
-      { word: 'intención', translation: 'намерение', audioUrl: null },
-      { word: 'propósito', translation: 'цель, намерение', audioUrl: null },
-      { word: 'decisión', translation: 'решение', audioUrl: null },
-      { word: 'carrera', translation: 'карьера', audioUrl: null },
-      { word: 'éxito', translation: 'успех', audioUrl: null },
-      { word: 'fracaso', translation: 'неудача', audioUrl: null },
-      { word: 'oportunidad', translation: 'возможность', audioUrl: null },
-      { word: 'desafío', translation: 'вызов, проблема', audioUrl: null },
-      { word: 'mudanza', translation: 'переезд', audioUrl: null },
-      { word: 'cambio', translation: 'изменение', audioUrl: null },
-      { word: 'empezar', translation: 'начинать', audioUrl: null },
-      { word: 'terminar', translation: 'заканчивать', audioUrl: null }
-    ],
-    readingText: {
-      title: '¿Qué vamos a hacer este fin de semana?',
-      content: `Es jueves por la noche y mis amigos y yo estamos planeando el fin de semana. Todos tenemos ideas diferentes sobre qué vamos a hacer.
-
-María dice: "Yo voy a quedarme en casa el sábado por la mañana. Tengo que limpiar mi apartamento porque está muy desordenado. Después, por la tarde, voy a ir de compras. Necesito ropa nueva para mi entrevista de trabajo del lunes. Espero encontrar algo bonito y profesional en las rebajas."
-
-Carlos tiene otros planes: "Yo pienso ir a la playa el sábado si hace buen tiempo. El pronóstico dice que va a hacer sol y 28 grados. Voy a salir temprano, sobre las ocho de la mañana, para evitar el tráfico. ¿Alguien quiere venir conmigo? Va a ser un día perfecto para nadar y tomar el sol."
-
-"Yo no puedo", dice Laura. "El sábado voy a ayudar a mi hermano con su mudanza. Se va a mudar a un apartamento nuevo y necesita ayuda con los muebles. Vamos a empezar a las nueve y probablemente terminaremos por la tarde. Va a ser un día agotador, pero mi hermano me va a invitar a cenar después como agradecimiento."
-
-Miguel interrumpe: "¿Y qué vamos a hacer el sábado por la noche? Pienso organizar una cena en mi casa. Voy a cocinar mi especialidad - paella valenciana. ¿Os apetece venir? Vamos a ser unos ocho personas. Va a ser muy divertido."
-
-"¡Me encantaría!" responde María. "Pero primero tengo que terminar mis compras. ¿A qué hora va a ser la cena?"
-
-"Vamos a empezar sobre las nueve", dice Miguel. "Así todos tendrán tiempo de hacer sus cosas durante el día. Voy a comprar los ingredientes el sábado por la mañana en el mercado. Necesito arroz, mariscos, pollo, verduras... Va a ser una paella auténtica."
-
-Laura pregunta: "¿Necesitas ayuda para cocinar? Puedo llegar temprano si quieres. Voy a terminar con la mudanza sobre las seis."
-
-"Sería genial", dice Miguel. "Vamos a preparar todo juntos. También voy a hacer una sangría. Va a ser una cena memorable."
-
-Carlos añade: "Yo voy a traer el postre. Pasaré por la mejor pastelería de la ciudad. Voy a comprar una tarta de chocolate. ¿Os parece bien?"
-
-"Perfecto", dice Miguel. "¿Y el domingo? ¿Qué vamos a hacer?"
-
-"El domingo por la mañana voy a dormir hasta tarde", dice Laura riendo. "Después de la mudanza del sábado voy a estar agotada. No pienso levantarme antes de las once."
-
-María sugiere: "¿Qué tal si vamos a almorzar juntos el domingo? Conozco un restaurante nuevo que quiero probar. Dicen que van a abrir un buffet los domingos. Vamos a poder comer todo lo que queramos por un precio fijo."
-
-"Buena idea", dice Carlos. "Después del almuerzo podríamos ir al cine. Van a estrenar una película nueva que quiero ver. Tengo la intención de ver todas las películas nominadas a los Oscar este año."
-
-Miguel concluye: "Entonces está decidido. El sábado cada uno va a hacer sus cosas durante el día, por la noche vamos a cenar en mi casa, y el domingo vamos a almorzar juntos y luego iremos al cine. Va a ser un fin de semana fantástico."
-
-Todos estamos de acuerdo. Ya tenemos planes para el fin de semana. Ahora solo queda esperar a que llegue el sábado. Va a ser genial pasar tiempo juntos.`,
-      translation: `Сейчас вечер четверга, и мы с друзьями планируем выходные. У всех разные идеи о том, что мы будем делать.
-
-Мария говорит: "Я собираюсь остаться дома в субботу утром. Мне нужно убрать квартиру, потому что она очень неопрятная. Потом, во второй половине дня, я пойду за покупками. Мне нужна новая одежда для собеседования в понедельник. Надеюсь найти что-то красивое и профессиональное на распродаже."
-
-У Карлоса другие планы: "Я думаю поехать на пляж в субботу, если будет хорошая погода. Прогноз говорит, что будет солнечно и 28 градусов. Я выеду рано, около восьми утра, чтобы избежать пробок. Кто-нибудь хочет поехать со мной? Это будет идеальный день для плавания и загорания."
-
-"Я не могу", говорит Лаура. "В субботу я буду помогать брату с переездом. Он переезжает в новую квартиру и ему нужна помощь с мебелью. Мы начнём в девять и, вероятно, закончим во второй половине дня. Это будет изнурительный день, но брат пригласит меня на ужин потом в знак благодарности."
-
-Мигель прерывает: "А что мы будем делать в субботу вечером? Я думаю организовать ужин у себя дома. Я приготовлю свою фирменное блюдо - валенсийскую паэлью. Хотите прийти? Нас будет человек восемь. Будет очень весело."
-
-"С удовольствием!" отвечает Мария. "Но сначала мне нужно закончить покупки. Во сколько будет ужин?"
-
-"Начнём около девяти", говорит Мигель. "Так у всех будет время сделать свои дела в течение дня. Я куплю ингредиенты в субботу утром на рынке. Мне нужен рис, морепродукты, курица, овощи... Это будет настоящая паэлья."
-
-Лаура спрашивает: "Тебе нужна помощь с готовкой? Я могу прийти пораньше, если хочешь. Я закончу с переездом около шести."
-
-"Было бы здорово", говорит Мигель. "Мы приготовим всё вместе. Я также сделаю сангрию. Это будет незабываемый ужин."
-
-Карлос добавляет: "Я принесу десерт. Зайду в лучшую кондитерскую города. Я куплю шоколадный торт. Вам подходит?"
-
-"Отлично", говорит Мигель. "А в воскресенье? Что мы будем делать?"
-
-"В воскресенье утром я буду спать допоздна", говорит Лаура, смеясь. "После субботнего переезда я буду измотана. Не собираюсь вставать раньше одиннадцати."
-
-Мария предлагает: "Как насчёт того, чтобы пообедать вместе в воскресенье? Я знаю новый ресторан, который хочу попробовать. Говорят, что они открывают буфет по воскресеньям. Мы сможем есть всё, что захотим, за фиксированную цену."
-
-"Хорошая идея", говорит Карлос. "После обеда мы могли бы пойти в кино. Они показывают новый фильм, который я хочу посмотреть. Я намереваюсь посмотреть все фильмы, номинированные на Оскар в этом году."
-
-Мигель заключает: "Тогда решено. В субботу каждый будет заниматься своими делами в течение дня, вечером мы поужинаем у меня дома, а в воскресенье пообедаем вместе, а затем пойдём в кино. Это будут фантастические выходные."
-
-Мы все согласны. Теперь у нас есть планы на выходные. Осталось только дождаться субботы. Будет здорово провести время вместе.`
     },
     exercises: ['ex-6-2-1', 'ex-6-2-2', 'ex-6-2-3', 'ex-6-2-4', 'ex-6-2-5']
   },
