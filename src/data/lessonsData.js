@@ -4518,6 +4518,10 @@ María: ¡Vamos!`,
       {
         tab: 'Gustar y Tener',
         videoUrl: '/video/Gustar y Tener.mp4'
+      },
+      {
+        tab: 'Gustar datos personales',
+        videoUrl: '/video/Gustar datos personales.mp4'
       }
     ],
     grammar: {
