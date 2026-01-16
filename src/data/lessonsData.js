@@ -7686,6 +7686,12 @@ Ana: Yo también. Será un viaje inolvidable.
     id: 'lesson-6-1',
     title: 'Урок 1: Pretérito Indefinido (Прошедшее законченное время) - ГРАММАТИКА',
     moduleId: 'module-6',
+    videoTabs: [
+      {
+        tab: 'De compras comida',
+        videoUrl: '/video/De compras comida.mp4'
+      }
+    ],
     grammar: {
       title: 'Pretérito Indefinido (Прошедшее законченное время)',
       content: `
