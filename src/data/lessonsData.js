@@ -59,10 +59,10 @@ export const modules = {
   },
   'module-6': {
     id: 'module-6',
-    title: 'Модуль 6: Будущее время',
+    title: 'Модуль 6: ПО МАГАЗИНАМ. ПОКУПКИ. Pretérito indefinido (простое прошедшее время). Неопределенное местоимение mismo. Pretérito imperfecto de indicativo (простое прошедшее время несовершенного вида изъявительного наклонения)',
     level: 'elementary',
     lessons: ['lesson-6-1', 'lesson-6-2', 'lesson-6-3'],
-    description: 'Планы, намерения, предсказания'
+    description: 'Прошедшее время, покупки, магазины'
   },
   'module-7': {
     id: 'module-7',
@@ -7681,136 +7681,174 @@ Ana: Yo también. Será un viaje inolvidable.
     exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-18', 'ex-5-3-4', 'ex-5-3-5', 'ex-5-3-6', 'ex-5-3-7', 'ex-5-3-8', 'ex-5-3-9', 'ex-5-3-10', 'ex-5-3-11', 'ex-5-3-12', 'ex-5-3-13', 'ex-5-3-14', 'ex-5-3-15', 'ex-5-3-16', 'ex-5-3-17', 'ex-5-3-3']
   },
 
-  // МОДУЛЬ 6: Будущее время (A2)
+  // МОДУЛЬ 6: По магазинам. Покупки. Pretérito indefinido
   'lesson-6-1': {
     id: 'lesson-6-1',
-    title: 'Урок 1: Futuro simple',
+    title: 'Урок 1: Pretérito Indefinido (Прошедшее законченное время) - ГРАММАТИКА',
     moduleId: 'module-6',
     grammar: {
-      title: 'Futuro simple (Простое будущее время)',
+      title: 'Pretérito Indefinido (Прошедшее законченное время)',
       content: `
-# Futuro simple
+# Pretérito Indefinido (Прошедшее законченное время)
 
-## Образование:
-**Инфинитив + окончания**
+Используется для действий, которые завершились в прошлом и не связаны с настоящим.
 
-| Лицо | Окончание | Hablar | Comer | Vivir |
-|------|-----------|--------|-------|-------|
-| yo | -é | hablaré | comeré | viviré |
-| tú | -ás | hablarás | comerás | vivirás |
-| él/ella/usted | -á | hablará | comerá | vivirá |
-| nosotros/as | -emos | hablaremos | comeremos | viviremos |
-| vosotros/as | -éis | hablaréis | comeréis | viviréis |
-| ellos/ellas/ustedes | -án | hablarán | comerán | vivirán |
+**Маркеры:** ayer (вчера), anoche (вчера вечером), el año pasado (в прошлом году), hace dos días (2 дня назад).
 
-## Неправильные основы (те же, что в condicional):
+---
 
-| Инфинитив | Основа | Пример |
-|-----------|--------|--------|
-| hacer | har- | haré, harás, hará... |
-| decir | dir- | diré, dirás, dirá... |
-| poder | podr- | podré, podrás, podrá... |
-| poner | pondr- | pondré, pondrás, pondrá... |
-| salir | saldr- | saldré, saldrás, saldrá... |
-| tener | tendr- | tendré, tendrás, tendrá... |
-| venir | vendr- | vendré, vendrás, vendrá... |
-| saber | sabr- | sabré, sabrás, sabrá... |
-| querer | querr- | querré, querrás, querrá... |
-| haber | habr- | habré, habrás, habrá... |
+## 1. Правильные глаголы (Окончания)
 
-## Употребление:
+Заметьте, что у -ER и -IR окончания одинаковые.
 
-1. **Предсказания о будущем:**
-   - Mañana **lloverá** (Завтра будет дождь)
-   - El año que viene **viajaré** a España (В следующем году я поеду в Испанию)
+| Лицо | I (-AR) hablar | II / III (-ER / -IR) aprender / abrir |
+|------|----------------|---------------------------------------|
+| Yo | -é (hablé) | -í (aprendí) |
+| Tú | -aste | -iste |
+| Él/Ella | -ó (habló) | -ió (aprendió) |
+| Nosotros | -amos | -imos |
+| Vosotros | -asteis | -isteis |
+| Ellos/Ellas | -aron | -ieron |
 
-2. **Планы и намерения:**
-   - **Estudiaré** medicina (Я буду изучать медицину)
-   - **Nos mudaremos** a Barcelona (Мы переедем в Барселону)
+---
 
-3. **Предположения о настоящем:**
-   - **Serán** las tres (Наверное, три часа)
-   - **Estará** en casa (Он, должно быть, дома)
+## 2. Глаголы с изменениями в корне
 
-## Слова-маркеры:
+Вместо того чтобы учить номера групп, запомните два главных правила:
 
-- **mañana** (завтра)
-- **pasado mañana** (послезавтра)
-- **la semana que viene / próxima** (на следующей неделе)
-- **el mes que viene / próximo** (в следующем месяце)
-- **el año que viene / próximo** (в следующем году)
-- **en el futuro** (в будущем)
-- **dentro de...** (через...) - dentro de dos días (через два дня)
-- **pronto** (скоро)
+### А. Изменение гласной (только для глаголов на -IR)
 
-## IR + A + инфинитив (альтернатива):
+Происходит только в 3-м лице (он/она и они).
 
-Для ближайшего будущего часто используется конструкция IR + A + инфинитив:
-- **Voy a estudiar** (Я буду учиться)
-- **Vas a viajar** (Ты поедешь)
-- **Van a comer** (Они будут есть)
+**E → I:**
+- **pedir** → pidió, pidieron
+- **sentir** → sintió, sintieron
 
-Futuro simple более формально и используется для более отдаленного будущего.
+**O → U:**
+- **dormir** → durmió, durmieron
+- **morir** → murió, murieron
+
+### Б. Замена "I" на "Y" (между гласными)
+
+Если корень заканчивается на гласную, в 3-м лице буква i меняется на y.
+
+- **Leer** → leyó, leyeron
+- **Oír** → oyó, oyeron
+- **Concluir** → concluyó, concluyeron
+
+---
+
+## 3. "Особая группа" (Неправильные глаголы)
+
+У этих глаголов свои основы, но общие окончания (без ударений!).
+
+**Окончания для всей группы:** -e, -iste, -o, -imos, -isteis, -ieron*
+
+*(Если основа на j, то в форме "они" окончание -eron).
+
+| Глагол | Основа | Пример (Yo / Él / Ellos) |
+|--------|--------|---------------------------|
+| Tener | tuv- | tuve, tuvo, tuvieron |
+| Estar | estuv- | estuve, estuvo, estuvieron |
+| Poder | pud- | pude, pudo, pudieron |
+| Saber | sup- | supe, supo, supieron |
+| Hacer | hic- | hice, hizo (c→z), hicieron |
+| Querer | quis- | quise, quiso, quisieron |
+| Venir | vin- | vine, vino, vinieron |
+| Decir | dij- | dije, dijo, dijeron |
+| Traer | traj- | traje, trajo, trajeron |
+| Traducir | traduj- | traduje, tradujo, tradujeron |
+
+---
+
+## 4. Абсолютные исключения (Нужно выучить)
+
+**Ir (идти) / Ser (быть):**
+- fui, fuiste, fue, fuimos, fuisteis, fueron
+- (формы совпадают)
+
+**Dar (давать):**
+- di, diste, dio, dimos, disteis, dieron
+
+**Ver (видеть):**
+- vi, viste, vio, vimos, visteis, vieron
+- (как правильный, но без ударений)
+
+---
+
+## 5. Орфографические ловушки (Только в форме YO)
+
+Чтобы сохранить звук, меняется буква перед окончанием -é:
+
+- **-gar → -gué:** pagar → **pagué**
+- **-car → -qué:** explicar → **expliqué**
+- **-zar → -cé:** empezar → **empecé**
+
+---
+
+## Примеры употребления:
+
+1. **Ayer compré un vestido nuevo** (Вчера я купил новое платье)
+2. **Anoche comí en un restaurante** (Вчера вечером я поужинал в ресторане)
+3. **El año pasado viajé a España** (В прошлом году я ездил в Испанию)
+4. **Hace dos días vi a mi amigo** (2 дня назад я видел своего друга)
       `,
       examples: [
-        { spanish: 'Mañana iré al médico', translation: 'Завтра я пойду к врачу' },
-        { spanish: 'El próximo año estudiaré en España', translation: 'В следующем году я буду учиться в Испании' },
-        { spanish: 'Haremos un viaje a Italia', translation: 'Мы совершим поездку в Италию' },
-        { spanish: '¿Qué harás este fin de semana?', translation: 'Что ты будешь делать в эти выходные?' }
+        { spanish: 'Ayer compré una camisa nueva', translation: 'Вчера я купил новую рубашку' },
+        { spanish: 'Anoche salimos a cenar', translation: 'Вчера вечером мы вышли поужинать' },
+        { spanish: '¿Qué hiciste el fin de semana pasado?', translation: 'Что ты делал в прошлые выходные?' },
+        { spanish: 'El año pasado fui a Madrid', translation: 'В прошлом году я ездил в Мадрид' },
+        { spanish: 'Hace dos días empecé un nuevo trabajo', translation: '2 дня назад я начал новую работу' }
       ]
     },
     vocabulary: [
-      { word: 'mañana', translation: 'завтра', audioUrl: null },
-      { word: 'pasado mañana', translation: 'послезавтра', audioUrl: null },
-      { word: 'próximo/a', translation: 'следующий/ая', audioUrl: null },
-      { word: 'futuro', translation: 'будущее', audioUrl: null },
-      { word: 'plan', translation: 'план', audioUrl: null },
-      { word: 'sueño', translation: 'мечта', audioUrl: null },
-      { word: 'meta', translation: 'цель', audioUrl: null },
-      { word: 'esperar', translation: 'ждать, надеяться', audioUrl: null },
-      { word: 'lograr', translation: 'достигать', audioUrl: null },
-      { word: 'conseguir', translation: 'получать, добиваться', audioUrl: null },
-      { word: 'cambiar', translation: 'менять', audioUrl: null },
-      { word: 'mejorar', translation: 'улучшать', audioUrl: null },
-      { word: 'realizar', translation: 'осуществлять', audioUrl: null },
-      { word: 'cumplir', translation: 'выполнять, исполняться', audioUrl: null }
+      { word: 'tienda', translation: 'магазин', audioUrl: null },
+      { word: 'centro comercial', translation: 'торговый центр', audioUrl: null },
+      { word: 'comprar', translation: 'покупать', audioUrl: null },
+      { word: 'vender', translation: 'продавать', audioUrl: null },
+      { word: 'precio', translation: 'цена', audioUrl: null },
+      { word: 'descuento', translation: 'скидка', audioUrl: null },
+      { word: 'rebaja', translation: 'распродажа', audioUrl: null },
+      { word: 'pagar', translation: 'платить', audioUrl: null },
+      { word: 'cliente', translation: 'клиент', audioUrl: null },
+      { word: 'vendedor/a', translation: 'продавец', audioUrl: null },
+      { word: 'probarse', translation: 'примерять', audioUrl: null },
+      { word: 'talla', translation: 'размер (одежды)', audioUrl: null },
+      { word: 'número', translation: 'размер (обуви)', audioUrl: null },
+      { word: 'caro/a', translation: 'дорогой/ая', audioUrl: null },
+      { word: 'barato/a', translation: 'дешевый/ая', audioUrl: null },
+      { word: 'ayer', translation: 'вчера', audioUrl: null },
+      { word: 'anoche', translation: 'вчера вечером', audioUrl: null },
+      { word: 'el año pasado', translation: 'в прошлом году', audioUrl: null }
     ],
     readingText: {
-      title: 'Mis planes para el futuro',
-      content: `Me llamo Andrea y tengo 22 años. Acabo de terminar la universidad y ahora estoy pensando en mis planes para el futuro. Tengo muchos sueños y metas que quiero cumplir.
+      title: 'Un día de compras',
+      content: `El sábado pasado fui de compras al centro comercial con mi hermana Laura. Salimos de casa a las diez de la mañana y llegamos al centro en media hora.
 
-El mes que viene empezaré a trabajar en una empresa de marketing digital en Madrid. Será mi primer trabajo profesional y estoy muy emocionada, aunque también un poco nerviosa. Trabajaré como asistente de marketing, pero espero que con el tiempo podré ascender a puestos más altos. Aprenderé mucho sobre redes sociales, publicidad digital y estrategias de contenido.
+Primero, entramos en una tienda de ropa. Laura se probó varios vestidos, pero no le gustó ninguno. Yo encontré una chaqueta negra muy bonita. El vendedor me explicó que había un descuento del 30%. ¡Qué suerte! Pagué solo 50 euros por la chaqueta.
 
-Este trabajo me permitirá independizarme económicamente. Dentro de tres meses me mudaré a mi propio apartamento. Ahora vivo con mis padres, pero llegó el momento de tener mi propio espacio. Será un apartamento pequeño en el barrio de Malasaña, cerca de mi oficina. No tendré que tomar el metro - podré ir andando en quince minutos.
+Después, fuimos a una zapatería. Laura buscó unos zapatos elegantes para una boda. Vio unos zapatos rojos perfectos, pero eran muy caros - costaban 120 euros. El vendedor le ofreció otro par similar por 80 euros. Al final, Laura compró esos zapatos.
 
-En cuanto al dinero, ahorraré una parte de mi salario cada mes. Tengo un plan: dentro de dos años tendré suficiente dinero para viajar por Sudamérica durante tres meses. Siempre he soñado con conocer Argentina, Chile, Perú y Colombia. Visitaré Machu Picchu, bailaré tango en Buenos Aires, exploraré la Patagonia y haré senderismo en los Andes. Será el viaje de mi vida.
+A las dos, tuvimos hambre y decidimos comer algo. Comimos pizza en un restaurante italiano del centro comercial. La pizza estuvo deliciosa y no fue cara.
 
-Después de ese viaje, volveré a España y buscaré nuevas oportunidades profesionales. Tal vez haré un máster en marketing internacional, o quizás me mudaré a Barcelona para trabajar allí. También pienso aprender portugués - será muy útil si quiero trabajar con clientes latinoamericanos.
+Por la tarde, visitamos una librería. Yo compré dos libros que quería leer hace tiempo. Laura compró una revista de moda. También entramos en una perfumería donde mi hermana probó varios perfumes, pero no compró nada.
 
-En cinco años me veo como gerente de marketing en una empresa importante. Hablaré inglés, español y portugués con fluidez. Habré viajado por muchos países y tendré experiencia internacional. Quizás incluso viviré en otro país - me encantaría trabajar unos años en Londres o Berlín.
+Antes de irnos, paramos en un supermercado. Compramos algunos productos para casa: leche, pan, frutas y verduras. Yo pagué con tarjeta, pero Laura pagó en efectivo.
 
-En el plano personal, no tengo prisa por casarme o tener hijos. Primero quiero enfocarme en mi carrera y en realizarme profesionalmente. Pero quien sabe - tal vez en diez años estaré casada y tendré una familia. Lo que sí sé es que no dejaré de viajar y aprender cosas nuevas.
+Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85 euros en total y Laura gastó 95 euros. Llegamos cansadas pero contentas con nuestras compras.`,
+      translation: `В прошлую субботу я ходила за покупками в торговый центр с моей сестрой Лаурой. Мы вышли из дома в десять утра и добрались до центра за полчаса.
 
-También tengo planes más pequeños pero importantes. Haré ejercicio regularmente - iré al gimnasio tres veces por semana. Leeré al menos un libro al mes. Mantendré el contacto con mis amigos de la universidad aunque todos estaremos ocupados con nuestros trabajos. Visitaré a mis padres los domingos y seguiré siendo una buena hija.
+Сначала мы зашли в магазин одежды. Лаура примерила несколько платьев, но ей не понравилось ни одно. Я нашла очень красивую черную куртку. Продавец объяснил мне, что была скидка 30%. Какая удача! Я заплатила всего 50 евро за куртку.
 
-El futuro me da un poco de miedo, pero sobre todo me emociona. Sé que habrá desafíos y momentos difíciles, pero confío en que podré superarlos. Trabajaré duro, aprenderé de mis errores y nunca dejaré de perseguir mis sueños. El futuro está lleno de posibilidades y estoy lista para aprovech arlas.`,
-      translation: `Меня зовут Андреа и мне 22 года. Я только что закончила университет и сейчас думаю о своих планах на будущее. У меня много мечт и целей, которые я хочу осуществить.
+Потом мы пошли в обувной магазин. Лаура искала элегантные туфли на свадьбу. Она увидела идеальные красные туфли, но они были очень дорогими - стоили 120 евро. Продавец предложил ей другую похожую пару за 80 евро. В конце концов, Лаура купила эти туфли.
 
-В следующем месяце я начну работать в компании цифрового маркетинга в Мадриде. Это будет моя первая профессиональная работа, и я очень взволнована, хотя также немного нервничаю. Я буду работать ассистентом по маркетингу, но надеюсь, что со временем смогу подняться на более высокие должности. Я многому научусь о социальных сетях, цифровой рекламе и контент-стратегиях.
+В два часа мы проголодались и решили что-нибудь съесть. Мы поели пиццу в итальянском ресторане торгового центра. Пицца была очень вкусной и не дорогой.
 
-Эта работа позволит мне стать финансово независимой. Через три месяца я переезжу в свою собственную квартиру. Сейчас я живу с родителями, но пришло время иметь своё собственное пространство. Это будет маленькая квартира в районе Маласанья, рядом с моим офисом. Мне не придётся ездить на метро - я смогу дойти пешком за пятнадцать минут.
+Во второй половине дня мы посетили книжный магазин. Я купила две книги, которые давно хотела прочитать. Лаура купила модный журнал. Мы также зашли в парфюмерию, где моя сестра попробовала несколько духов, но ничего не купила.
 
-Что касается денег, я буду откладывать часть зарплаты каждый месяц. У меня есть план: через два года у меня будет достаточно денег, чтобы путешествовать по Южной Америке три месяца. Я всегда мечтала познакомиться с Аргентиной, Чили, Перу и Колумбией. Я посещу Мачу-Пикчу, станцую танго в Буэнос-Айресе, исследую Патагонию и пойду в поход в Анды. Это будет путешествие моей жизни.
+Перед тем как уйти, мы зашли в супермаркет. Купили несколько продуктов для дома: молоко, хлеб, фрукты и овощи. Я заплатила картой, а Лаура наличными.
 
-После этого путешествия я вернусь в Испанию и буду искать новые профессиональные возможности. Возможно, я получу степень магистра в международном маркетинге, или, может быть, переезжу в Барселону работать там. Я также думаю выучить португальский - это будет очень полезно, если я захочу работать с латиноамериканскими клиентами.
-
-Через пять лет я вижу себя менеджером по маркетингу в важной компании. Я буду свободно говорить по-английски, по-испански и по-португальски. Я объездю много стран и буду иметь международный опыт. Возможно, я даже буду жить в другой стране - мне бы очень хотелось поработать несколько лет в Лондоне или Берлине.
-
-В личном плане я не спешу выходить замуж или иметь детей. Сначала я хочу сосредоточиться на карьере и профессиональной реализации. Но кто знает - может быть, через десять лет я буду замужем и у меня будет семья. То, что я точно знаю, это то, что я не перестану путешествовать и узнавать что-то новое.
-
-У меня также есть более мелкие, но важные планы. Я буду регулярно заниматься спортом - буду ходить в спортзал три раза в неделю. Я буду читать хотя бы одну книгу в месяц. Я буду поддерживать контакт с друзьями из университета, хотя все мы будем заняты своей работой. Я буду навещать родителей по воскресеньям и продолжу быть хорошей дочерью.
-
-Будущее меня немного пугает, но прежде всего волнует. Я знаю, что будут трудности и сложные моменты, но я уверена, что смогу их преодолеть. Я буду усердно работать, учиться на своих ошибках и никогда не перестану преследовать свои мечты. Будущее полно возможностей, и я готова их использовать.`
+Мы вернулись домой в шесть вечера. Это был очень продуктивный день. Я потратила в общей сложности 85 евро, а Лаура 95 евро. Мы приехали уставшими, но довольными нашими покупками.`
     },
     exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
   },
