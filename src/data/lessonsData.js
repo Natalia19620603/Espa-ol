@@ -7940,188 +7940,199 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
 
   'lesson-6-3': {
     id: 'lesson-6-3',
-    title: 'Урок 3: Предсказания и прогнозы',
+    title: 'Урок 3: Pretérito Imperfecto (Прошедшее несовершенное)',
     moduleId: 'module-6',
     grammar: {
-      title: 'Futuro для предположений',
+      title: 'Pretérito Imperfecto (Прошедшее несовершенное)',
       content: `
-# Futuro для предположений о настоящем и будущем
+# Pretérito Imperfecto (Прошедшее несовершенное)
 
-## Предположения о настоящем:
+Это время описывает **процессы**, **привычки** и **фон** в прошлом. Оно отвечает на вопрос: **«Что делал?»**, а не **«Что сделал?»**.
 
-Futuro simple часто используется для предположений о том, что происходит СЕЙЧАС:
+---
 
-**¿Qué hora es?** - Который час?
-- **Serán** las tres (Наверное, три часа)
+## 1. Когда использовать (Маркеры)
 
-**¿Dónde está Juan?** - Где Хуан?
-- **Estará** en casa (Он, должно быть, дома)
+Используйте Imperfecto, если действие было **регулярным** или **длительным**:
 
-**¿Quién llamó?** - Кто звонил?
-- **Será** mi madre (Это, наверное, моя мама)
+- **Todos los días / cada semana** — каждый день / каждую неделю
+- **Generalmente / a menudo** — обычно / часто
+- **Mientras** — пока, в то время как (длительное действие)
+- **Antes** — раньше (раньше я курил, а теперь нет)
 
-**¿Cuántos años tiene?** - Сколько ему лет?
-- **Tendrá** unos 30 años (Ему, должно быть, около 30)
+---
 
-## Структура:
+## 2. Спряжение (Окончания)
 
-**Futuro simple = "наверное", "должно быть", "вероятно"**
+Здесь всего **два типа окончаний**. У глаголов на **-ER** и **-IR** они снова абсолютно одинаковы.
 
-- **Habrá** mucha gente (Наверное, много людей)
-- **Costará** caro (Это, должно быть, дорого стоит)
-- **Sabrá** la respuesta (Он, должно быть, знает ответ)
+| Лицо | I (-AR) **entrar** | II / III (-ER / -IR) **comer / vivir** |
+|------|--------------------|-----------------------------------------|
+| **Yo** | entr**aba** | com**ía** / viv**ía** |
+| **Tú** | entr**abas** | com**ías** / viv**ías** |
+| **Él/Ella** | entr**aba** | com**ía** / viv**ía** |
+| **Nosotros** | entr**ábamos** ⚠️ | com**íamos** / viv**íamos** |
+| **Vosotros** | entr**abais** | com**íais** / viv**íais** |
+| **Ellos/Ellas** | entr**aban** | com**ían** / viv**ían** |
 
-## Предсказания о будущем:
+**⚠️ Важно:**
+- В форме **Nosotros** у глаголов на **-AR** всегда ставится ударение: **hablámos**, **cantámos**.
+- У глаголов на **-ER/-IR** ударение **(í)** стоит во всех формах.
 
-**Основанные на фактах:**
-- Según el pronóstico, mañana **lloverá** (По прогнозу, завтра будет дождь)
-- Con esta política económica, la inflación **aumentará** (С этой экономической политикой инфляция вырастет)
+---
 
-**Предсказания-мнения:**
-- En 20 años **habrá** coches voladores (Через 20 лет будут летающие машины)
-- La tecnología **cambiará** nuestras vidas (Технология изменит наши жизни)
-- **Viviremos** más tiempo gracias a la medicina (Мы будем жить дольше благодаря медицине)
+## 3. Всего 3 исключения (Это всё!)
 
-## Вероятность (PROBABLEMENTE, SEGURAMENTE, POSIBLEMENTE):
+В этом времени нет "групповых" отклонений. Вам нужно выучить **только эти три глагола**:
 
-**PROBABLEMENTE + futuro** (вероятно):
-- **Probablemente** lloverá mañana
-- **Probablemente** no vendrá
+| Глагол | Формы |
+|--------|-------|
+| **SER** (быть) | era, eras, era, éramos, erais, eran |
+| **IR** (идти) | iba, ibas, iba, íbamos, ibais, iban |
+| **VER** (видеть) | veía, veías, veía, veíamos, veíais, veían |
 
-**SEGURAMENTE + futuro** (наверняка):
-- **Seguramente** aprobará el examen
-- **Seguramente** llegará tarde
+---
 
-**POSIBLEMENTE + subjuntivo** (возможно):
-- **Posiblemente** venga (Возможно, он придет)
+## Сравнение для понимания:
 
-**QUIZÁ(S) / TAL VEZ + futuro/subjuntivo** (может быть):
-- **Quizás** viajaré a España
-- **Tal vez** llueva
+✅ **Indefinido:** Ayer **comí** una manzana.
+   → Вчера я **съел** яблоко (один раз, результат).
 
-## Условные предложения (SI + presente, futuro):
+✅ **Imperfecto:** De niño **comía** muchas manzanas.
+   → В детстве я **ел** много яблок (привычка, процесс).
 
-- **Si** tengo tiempo, **iré** al cine (Если у меня будет время, я пойду в кино)
-- **Si** estudias, **aprobarás** (Если ты будешь учиться, ты сдашь)
-- **Si** hace buen tiempo, **iremos** a la playa (Если будет хорошая погода, мы пойдем на пляж)
+---
 
-## Выражения будущего:
+## Главные упрощения:
 
-- **En el futuro** (в будущем)
-- **Dentro de X años** (через X лет)
-- **En X años** (через X лет)
-- **Para el año 2050** (к 2050 году)
-- **Tarde o temprano** (рано или поздно)
-- **Con el tiempo** (со временем)
-- **A largo plazo** (в долгосрочной перспективе)
+✅ Забудьте про группы отклоняющихся глаголов — в Imperfecto их нет.
+   - Глагол **dormir** будет **dormía**, а **pedir** — **pedía** (корень не меняется).
+
+✅ Формы **Yo** и **Él/Ella** всегда совпадают (**yo hablaba** — **él hablaba**).
+   - Контекст подскажет, о ком речь.
+
+---
+
+## Примеры использования:
+
+**Привычки в прошлом:**
+- **Antes** fumaba, pero ahora no fumo. (Раньше я курил, но теперь не курю)
+- De niño **jugaba** al fútbol todos los días. (В детстве я играл в футбол каждый день)
+
+**Описание фона:**
+- **Hacía** sol y **hacía** calor. (Было солнечно и жарко)
+- La casa **era** grande y **tenía** un jardín bonito. (Дом был большой и у него был красивый сад)
+
+**Длительные действия:**
+- **Mientras** yo estudiaba, mi hermano veía la tele. (Пока я учился, мой брат смотрел телевизор)
       `,
       examples: [
-        { spanish: '¿Dónde está María? - Estará en casa', translation: 'Где Мария? - Она, должно быть, дома' },
-        { spanish: 'Según el pronóstico, mañana lloverá', translation: 'По прогнозу, завтра будет дождь' },
-        { spanish: 'Si estudias, aprobarás el examen', translation: 'Если ты будешь учиться, ты сдашь экзамен' },
-        { spanish: 'En el futuro viviremos más años', translation: 'В будущем мы будем жить дольше' }
+        { spanish: 'De niño jugaba al fútbol todos los días', translation: 'В детстве я играл в футбол каждый день' },
+        { spanish: 'Antes vivía en Madrid', translation: 'Раньше я жил в Мадриде' },
+        { spanish: 'Mientras estudiaba, escuchaba música', translation: 'Пока я учился, я слушал музыку' },
+        { spanish: 'La casa era grande y tenía un jardín', translation: 'Дом был большой и у него был сад' }
       ]
     },
     vocabulary: [
-      { word: 'predicción', translation: 'предсказание', audioUrl: null },
-      { word: 'pronóstico', translation: 'прогноз', audioUrl: null },
-      { word: 'probable', translation: 'вероятный', audioUrl: null },
-      { word: 'posible', translation: 'возможный', audioUrl: null },
-      { word: 'seguro', translation: 'уверенный, точный', audioUrl: null },
-      { word: 'tecnología', translation: 'технология', audioUrl: null },
-      { word: 'ciencia', translation: 'наука', audioUrl: null },
-      { word: 'avance', translation: 'прогресс, достижение', audioUrl: null },
-      { word: 'desarrollo', translation: 'развитие', audioUrl: null },
-      { word: 'innovación', translation: 'инновация', audioUrl: null },
-      { word: 'clima', translation: 'климат', audioUrl: null },
-      { word: 'medio ambiente', translation: 'окружающая среда', audioUrl: null },
-      { word: 'cambio climático', translation: 'изменение климата', audioUrl: null },
-      { word: 'sociedad', translation: 'общество', audioUrl: null }
+      { word: 'antes', translation: 'раньше', audioUrl: null },
+      { word: 'de niño/a', translation: 'в детстве', audioUrl: null },
+      { word: 'de joven', translation: 'в молодости', audioUrl: null },
+      { word: 'mientras', translation: 'пока, в то время как', audioUrl: null },
+      { word: 'todos los días', translation: 'каждый день', audioUrl: null },
+      { word: 'cada semana', translation: 'каждую неделю', audioUrl: null },
+      { word: 'generalmente', translation: 'обычно', audioUrl: null },
+      { word: 'a menudo', translation: 'часто', audioUrl: null },
+      { word: 'siempre', translation: 'всегда', audioUrl: null },
+      { word: 'nunca', translation: 'никогда', audioUrl: null },
+      { word: 'soler', translation: 'иметь обыкновение (делать что-то)', audioUrl: null },
+      { word: 'costumbre', translation: 'привычка, обычай', audioUrl: null },
+      { word: 'recuerdo', translation: 'воспоминание', audioUrl: null },
+      { word: 'infancia', translation: 'детство', audioUrl: null }
     ],
     readingText: {
-      title: 'El mundo en 2050',
-      content: `¿Cómo será el mundo en 2050? Los expertos hacen muchas predicciones sobre cómo viviremos dentro de 25 años. Algunas son optimistas, otras preocupantes. Veamos qué cambios probablemente veremos.
+      title: 'Mi infancia en el pueblo',
+      content: `Cuando yo **era** niña, **vivía** en un pequeño pueblo en el sur de España. La vida allí **era** muy diferente a la vida en la ciudad. Todo **era** más tranquilo, más simple.
 
-**Tecnología y vida diaria**
+**La casa y el barrio**
 
-La tecnología cambiará radicalmente nuestra vida cotidiana. Según los expertos, la inteligencia artificial estará presente en todos los aspectos de nuestra vida. Tendremos asistentes virtuales mucho más avanzados que los actuales. Estos asistentes sabrán nuestras preferencias, anticiparán nuestras necesidades y nos ayudarán a tomar decisiones.
+Nuestra casa **era** pequeña pero acogedora. **Tenía** un jardín grande donde mi abuela **cultivaba** tomates, pimientos y flores. Todos los días, después de la escuela, yo **ayudaba** a mi abuela en el jardín. Ella me **enseñaba** los nombres de todas las plantas.
 
-Los coches autónomos serán la norma. No necesitaremos conducir - el coche nos llevará a donde queramos mientras nosotros trabajamos, leemos o descansamos. Probablemente tampoco tendremos que comprar coches. Simplemente llamaremos a un vehículo cuando lo necesitemos.
+En verano, cuando **hacía** mucho calor, mi hermano y yo **jugábamos** bajo los árboles. A veces **construíamos** pequeñas casas con ramas y piedras. Mi madre siempre nos **llamaba** cuando **era** hora de comer, pero nosotros nunca **queríamos** entrar.
 
-En nuestras casas, todo estará conectado a internet. La nevera sabrá qué alimentos faltan y los pedirá automáticamente. Las luces, la calefacción y los electrodomésticos se ajustarán solos según nuestras rutinas. Viviremos en casas inteligentes que casi pensarán por sí mismas.
+**La escuela**
 
-**Trabajo y educación**
+Todos los días **iba** a la escuela caminando. El camino **duraba** unos veinte minutos. A menudo **iba** con mis amigos del barrio. Nosotros **hablábamos** y **reíamos** todo el camino.
 
-La forma en que trabajamos cambiará completamente. Muchas profesiones que existen hoy desaparecerán, reemplazadas por robots e inteligencia artificial. Pero también surgirán nuevos trabajos que ahora ni siquiera podemos imaginar.
+Mi profesora **se llamaba** Señora Carmen. Ella **era** muy amable pero estricta. **Llevaba** siempre vestidos de flores y **tenía** el pelo blanco. Todos los estudiantes la **respetaban** mucho.
 
-El trabajo remoto será completamente normal. Muchas personas no tendrán una oficina fija - trabajarán desde casa, desde cafeterías o mientras viajan. Las reuniones se harán en realidad virtual, donde parecerá que todos están en la misma sala aunque estén en países diferentes.
+En clase, nosotros **estudiábamos** matemáticas, lengua e historia. Yo **prefería** la lectura - me **encantaba** cuando la profesora nos **leía** cuentos. **Era** mi momento favorito del día.
 
-La educación también será muy diferente. Probablemente las universidades tradicionales perderán importancia. Estudiaremos online, a nuestro propio ritmo, con programas personalizados según nuestros intereses y habilidades. La realidad virtual nos permitirá hacer prácticas en entornos simulados antes de trabajar en situaciones reales.
+**Las tardes**
 
-**Salud y medicina**
+Después de la escuela, generalmente **hacía** mis deberes rápido porque **quería** salir a jugar. Todos los niños del barrio nos **reuníamos** en la plaza. Allí **jugábamos** al fútbol, a las escondidas, o simplemente **hablábamos**.
 
-La medicina tendrá avances increíbles. Según los científicos, viviremos más años - la esperanza de vida llegará a los 90 o 100 años en muchos países. Algunas enfermedades que hoy son mortales se curarán fácilmente.
+Mientras nosotros **jugábamos**, nuestros padres **trabajaban** o **descansaban** en casa. Mi padre **trabajaba** en el campo y siempre **llegaba** a casa cansado. Mi madre **preparaba** la cena - siempre **cocinaba** comidas deliciosas.
 
-Tendremos medicina personalizada. Los doctores analizarán nuestro ADN y sabrán exactamente qué tratamientos funcionarán mejor para cada persona. Los sensores que llevaremos en el cuerpo monitorearán constantemente nuestra salud y detectarán problemas antes de que aparezcan síntomas.
+**Los fines de semana**
 
-Posiblemente habrá órganos artificiales para reemplazar los que fallen. Quizás incluso podremos imprimir órganos en 3D usando nuestras propias células. Esto resolverá el problema de la falta de donantes.
+Los domingos **eran** especiales. Toda la familia **iba** a la iglesia por la mañana. Después, **comíamos** juntos en casa de mis abuelos. Mi abuela **preparaba** paella o cocido. Todos nosotros - tíos, primos, abuelos - **nos sentábamos** alrededor de una gran mesa.
 
-**Medio ambiente y energía**
+Por la tarde, a menudo **íbamos** al río. El agua **estaba** fría pero cristalina. Mi hermano y mis primos **nadaban** mientras yo **prefería** buscar piedras bonitas en la orilla. A veces **veíamos** peces pequeños en el agua.
 
-Esta es el área más preocupante. Si no hacemos cambios ahora, el cambio climático empeorará. Las temperaturas subirán, habrá más sequías e inundaciones, y muchas especies se extinguirán.
+**Las tradiciones**
 
-Pero también hay esperanza. Probablemente usaremos energías renovables de forma masiva. Los paneles solares serán mucho más eficientes y baratos. Tal vez tengamos fusión nuclear, una fuente de energía limpia y prácticamente ilimitada.
+En mi pueblo **había** muchas tradiciones. En verano, todos los años **celebrábamos** las fiestas del pueblo. Durante una semana entera, **había** música, bailes y comida en las calles. Los niños **corríamos** por todas partes, **comíamos** churros y algodón de azúcar.
 
-Los coches eléctricos reemplazarán completamente a los de gasolina. Las ciudades tendrán menos contaminación y el aire será más limpio. Posiblemente cultivaremos comida en edificios verticales dentro de las ciudades, usando menos agua y tierra.
+En Navidad, toda la familia **se reunía** en casa de mis abuelos. **Cantábamos** villancicos, **comíamos** turrón y polvorones. A medianoche, **abríamos** los regalos. Yo siempre **pedía** muñecas o libros.
 
-**Población y sociedad**
+**Los cambios**
 
-La población mundial llegará a unos 9.000 millones de personas. La mayoría vivirá en ciudades - habrá megaciudades de 30 o 40 millones de habitantes. Estas ciudades tendrán que ser muy eficientes en el uso de recursos.
+Con el tiempo, las cosas **iban** cambiando. Algunos vecinos **se mudaban** a la ciudad para buscar trabajo. Los niños del barrio **crecían** y **cambiaban**. Pero en mi memoria, todo siempre **permanece** igual - el pueblo tranquilo, el jardín de mi abuela, los juegos en la plaza.
 
-La sociedad será más diversa y conectada globalmente. Viajar será más fácil y barato. Quizás tengamos vuelos supersónicos que crucen el Atlántico en dos horas. Algunos predicen que habrá colonias en Marte, aunque probablemente serán muy pequeñas.
+Ahora vivo en una gran ciudad. La vida aquí es muy diferente. A veces extraño aquellos días cuando todo **era** más simple, cuando **tenía** tiempo para todo, cuando **conocía** a todos los vecinos por su nombre.
 
-¿Se cumplirán estas predicciones? Nadie lo sabe con certeza. El futuro dependerá de las decisiones que tomemos hoy. Pero una cosa es segura: el mundo de 2050 será muy diferente al de hoy.`,
-      translation: `Каким будет мир в 2050 году? Эксперты делают много предсказаний о том, как мы будем жить через 25 лет. Некоторые оптимистичны, другие вызывают беспокойство. Давайте посмотрим, какие изменения мы, вероятно, увидим.
+Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los ojos, todavía puedo sentir el sol del verano en mi cara, oír las risas de los niños en la plaza, y oler la comida de mi abuela cocinándose en la cocina.`,
+      translation: `Когда я была ребенком, я жила в маленькой деревне на юге Испании. Жизнь там была совсем другой, чем жизнь в городе. Всё было спокойнее, проще.
 
-**Технологии и повседневная жизнь**
+**Дом и район**
 
-Технологии радикально изменят нашу повседневную жизнь. По мнению экспертов, искусственный интеллект будет присутствовать во всех аспектах нашей жизни. У нас будут виртуальные ассистенты гораздо более продвинутые, чем нынешние. Эти ассистенты будут знать наши предпочтения, предугадывать наши потребности и помогать нам принимать решения.
+Наш дом был маленьким, но уютным. У него был большой сад, где моя бабушка выращивала помидоры, перцы и цветы. Каждый день после школы я помогала бабушке в саду. Она учила меня названиям всех растений.
 
-Беспилотные автомобили станут нормой. Нам не нужно будет водить - машина отвезёт нас куда угодно, пока мы работаем, читаем или отдыхаем. Вероятно, нам также не придётся покупать автомобили. Мы просто вызовем транспортное средство, когда нам нужно.
+Летом, когда было очень жарко, мы с братом играли под деревьями. Иногда мы строили маленькие домики из веток и камней. Моя мама всегда звала нас, когда было время обедать, но мы никогда не хотели заходить.
 
-В наших домах всё будет подключено к интернету. Холодильник будет знать, каких продуктов не хватает, и закажет их автоматически. Свет, отопление и бытовая техника будут настраиваться сами в соответствии с нашим распорядком. Мы будем жить в умных домах, которые почти будут думать сами.
+**Школа**
 
-**Работа и образование**
+Каждый день я ходила в школу пешком. Дорога занимала около двадцати минут. Часто я шла с друзьями из района. Мы разговаривали и смеялись всю дорогу.
 
-То, как мы работаем, полностью изменится. Многие профессии, которые существуют сегодня, исчезнут, замененные роботами и искусственным интеллектом. Но также появятся новые работы, которые мы сейчас даже не можем представить.
+Мою учительницу звали сеньора Кармен. Она была очень доброй, но строгой. Она всегда носила цветочные платья и у неё были белые волосы. Все ученики очень её уважали.
 
-Удалённая работа станет совершенно нормальной. У многих людей не будет фиксированного офиса - они будут работать из дома, из кафе или во время путешествий. Встречи будут проходить в виртуальной реальности, где будет казаться, что все находятся в одной комнате, хотя они находятся в разных странах.
+В классе мы изучали математику, язык и историю. Я предпочитала чтение - мне нравилось, когда учительница читала нам рассказы. Это был мой любимый момент дня.
 
-Образование тоже будет очень отличаться. Вероятно, традиционные университеты потеряют значимость. Мы будем учиться онлайн, в своём собственном темпе, с персонализированными программами в соответствии с нашими интересами и способностями. Виртуальная реальность позволит нам практиковаться в смоделированных средах до работы в реальных ситуациях.
+**После обеда**
 
-**Здоровье и медицина**
+После школы я обычно быстро делала домашнее задание, потому что хотела пойти играть. Все дети из района собирались на площади. Там мы играли в футбол, в прятки, или просто разговаривали.
 
-В медицине будут невероятные достижения. По мнению учёных, мы будем жить дольше - продолжительность жизни достигнет 90 или 100 лет во многих странах. Некоторые болезни, которые сегодня смертельны, будут легко излечиваться.
+Пока мы играли, наши родители работали или отдыхали дома. Мой отец работал в поле и всегда приходил домой уставшим. Моя мама готовила ужин - она всегда готовила вкусные блюда.
 
-У нас будет персонализированная медицина. Врачи будут анализировать нашу ДНК и будут точно знать, какие методы лечения будут работать лучше для каждого человека. Датчики, которые мы будем носить на теле, будут постоянно контролировать наше здоровье и обнаруживать проблемы до появления симптомов.
+**Выходные**
 
-Возможно, будут искусственные органы для замены тех, которые откажут. Возможно, мы даже сможем печатать органы на 3D-принтере, используя наши собственные клетки. Это решит проблему нехватки доноров.
+Воскресенья были особенными. Вся семья ходила в церковь утром. Потом мы вместе обедали в доме моих бабушки и дедушки. Моя бабушка готовила паэлью или тушеное мясо. Все мы - дяди, тёти, кузены, дедушка и бабушка - садились за большой стол.
 
-**Окружающая среда и энергия**
+Днём мы часто ходили к реке. Вода была холодной, но кристально чистой. Мой брат и кузены плавали, а я предпочитала искать красивые камешки на берегу. Иногда мы видели маленьких рыбок в воде.
 
-Это самая тревожная область. Если мы не внесём изменения сейчас, изменение климата ухудшится. Температуры поднимутся, будет больше засух и наводнений, и многие виды вымрут.
+**Традиции**
 
-Но есть и надежда. Вероятно, мы будем массово использовать возобновляемые источники энергии. Солнечные панели будут намного эффективнее и дешевле. Возможно, у нас будет термоядерный синтез, чистый и практически неограниченный источник энергии.
+В моей деревне было много традиций. Летом каждый год мы праздновали деревенские праздники. Целую неделю на улицах была музыка, танцы и еда. Дети бегали повсюду, ели чуррос и сахарную вату.
 
-Электромобили полностью заменят бензиновые. В городах будет меньше загрязнения, а воздух станет чище. Возможно, мы будем выращивать еду в вертикальных зданиях внутри городов, используя меньше воды и земли.
+На Рождество вся семья собиралась в доме моих бабушки и дедушки. Мы пели рождественские песни, ели туррон и польворонес. В полночь мы открывали подарки. Я всегда просила кукол или книги.
 
-**Население и общество**
+**Перемены**
 
-Мировое население достигнет около 9 миллиардов человек. Большинство будет жить в городах - будут мегаполисы с 30 или 40 миллионами жителей. Эти города должны будут быть очень эффективны в использовании ресурсов.
+Со временем всё менялось. Некоторые соседи переезжали в город в поисках работы. Дети из района росли и менялись. Но в моей памяти всё всегда остаётся прежним - спокойная деревня, сад моей бабушки, игры на площади.
 
-Общество будет более разнообразным и глобально связанным. Путешествовать будет проще и дешевле. Возможно, у нас будут сверхзвуковые рейсы, которые пересекут Атлантику за два часа. Некоторые предсказывают, что будут колонии на Марсе, хотя, вероятно, они будут очень маленькими.
+Сейчас я живу в большом городе. Жизнь здесь очень отличается. Иногда я скучаю по тем дням, когда всё было проще, когда у меня было время на всё, когда я знала всех соседей по имени.
 
-Сбудутся ли эти предсказания? Никто не знает наверняка. Будущее будет зависеть от решений, которые мы примем сегодня. Но одно точно: мир 2050 года будет очень отличаться от сегодняшнего.`
+Те дни уже не вернутся, но воспоминания остаются. И когда я закрываю глаза, я всё ещё могу чувствовать летнее солнце на своём лице, слышать смех детей на площади и чувствовать запах еды моей бабушки, готовящейся на кухне.`
     },
     exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5']
   },
@@ -16522,82 +16533,116 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-6-2-5': {
     id: 'ex-6-2-5',
     type: 'writing',
-    title: 'MISMO - Перевод на испанский',
-    description: 'Переведите предложения на испанский, используя MISMO',
+    title: 'MISMO - Усложненный перевод на испанский',
+    description: 'Переведите сложные предложения на испанский, используя разные значения MISMO',
     questions: [
-      { russian: 'Я сам это сделал', correct: 'Yo mismo lo hice' },
-      { russian: 'Она живет в том же доме', correct: 'Ella vive en la misma casa' },
-      { russian: 'Приди прямо сейчас', correct: 'Ven ahora mismo' },
-      { russian: 'Мы сами готовим', correct: 'Nosotros mismos cocinamos' },
-      { russian: 'Он читает ту же книгу', correct: 'Él lee el mismo libro' },
-      { russian: 'Я это сделаю сегодня же', correct: 'Lo haré hoy mismo' },
-      { russian: 'Она сама написала письмо', correct: 'Ella misma escribió la carta' },
-      { russian: 'Мы учимся в той же школе', correct: 'Estudiamos en la misma escuela' },
-      { russian: 'Оставайся прямо здесь', correct: 'Quédate aquí mismo' },
-      { russian: 'Они сами приняли решение', correct: 'Ellos mismos tomaron la decisión' }
+      { russian: 'Дети сами приготовили ужин и накрыли на стол', correct: 'Los niños mismos prepararon la cena y pusieron la mesa' },
+      { russian: 'Мы сегодня же им позвоним и пригласим их на конкурс', correct: 'Les llamaremos hoy mismo y los invitaremos al concurso' },
+      { russian: 'Они приехали в Мадрид вчера и в тот же день выехали в Барселону', correct: 'Llegaron a Madrid ayer y el mismo día salieron para Barcelona' },
+      { russian: 'Мой муж продолжает работать в том же банке', correct: 'Mi marido sigue trabajando en el mismo banco' },
+      { russian: 'Я сама отвезу детей в школу и там же их подожду', correct: 'Yo misma llevaré a los niños a la escuela y allí mismo los esperaré' },
+      { russian: 'Она сама испекла торт и завтра же принесет его на праздник', correct: 'Ella misma hizo el pastel y mañana mismo lo traerá a la fiesta' },
+      { russian: 'Студенты сами организовали встречу в том же кафе, где были в прошлый раз', correct: 'Los estudiantes mismos organizaron el encuentro en el mismo café donde estuvieron la última vez' },
+      { russian: 'Директор прямо сейчас подпишет документы и отправит их тем же курьером', correct: 'El director firmará los documentos ahora mismo y los enviará con el mismo mensajero' },
+      { russian: 'Мы вернулись в тот же отель, где останавливались в прошлом году, и там же забронировали те же номера', correct: 'Volvimos al mismo hotel donde nos alojamos el año pasado y allí mismo reservamos las mismas habitaciones' },
+      { russian: 'Преподаватель сам проверит работы сегодня же и объявит результаты', correct: 'El profesor mismo revisará los trabajos hoy mismo y anunciará los resultados' },
+      { russian: 'Я сама приготовлю обед, накрою на стол и прямо здесь встречу гостей', correct: 'Yo misma prepararé el almuerzo, pondré la mesa y aquí mismo recibiré a los invitados' },
+      { russian: 'Они купили ту же машину, что и их соседи, и в том же автосалоне', correct: 'Compraron el mismo coche que sus vecinos y en el mismo concesionario' },
+      { russian: 'Врач сама проведет операцию завтра же в той же больнице', correct: 'La doctora misma realizará la operación mañana mismo en el mismo hospital' },
+      { russian: 'Дети сами убрали комнату, вымыли посуду и прямо сейчас делают домашнее задание', correct: 'Los niños mismos ordenaron la habitación, lavaron los platos y ahora mismo están haciendo la tarea' },
+      { russian: 'Мой брат работает в той же компании, живет в том же районе и ходит в тот же спортзал', correct: 'Mi hermano trabaja en la misma empresa, vive en el mismo barrio y va al mismo gimnasio' }
     ]
   },
 
   'ex-6-3-1': {
     id: 'ex-6-3-1',
     type: 'grammar',
-    title: 'Futuro для предположений',
-    description: 'Используйте futuro для предположения о настоящем',
+    title: 'Pretérito Imperfecto - Спряжение глаголов',
+    description: 'Выберите правильную форму глагола в Imperfecto',
     questions: [
-      { sentence: '¿Qué hora es? - ___ las tres (наверное)', options: ['Son', 'Eran', 'Serán', 'Fueron'], correct: 2 },
-      { sentence: '¿Dónde está Juan? - ___ en casa (должно быть)', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
-      { sentence: '¿Cuántos años tiene? - ___ 30 años (около)', options: ['Tiene', 'Tenía', 'Tendrá', 'Tuvo'], correct: 2 },
-      { sentence: '¿Quién es? - ___ mi madre (наверное)', options: ['Es', 'Era', 'Será', 'Fue'], correct: 2 }
+      { sentence: 'De niño yo ___ (jugar) al fútbol todos los días', options: ['jugaba', 'jugué', 'juego', 'jugaré'], correct: 0 },
+      { sentence: 'Antes nosotros ___ (vivir) en Madrid', options: ['vivimos', 'vivíamos', 'vivimos', 'viviremos'], correct: 1 },
+      { sentence: 'Tú ___ (estudiar) mucho cuando eras joven', options: ['estudias', 'estudiaste', 'estudiabas', 'estudiarás'], correct: 2 },
+      { sentence: 'Ellos ___ (comer) en ese restaurante cada semana', options: ['comen', 'comieron', 'comían', 'comerán'], correct: 2 },
+      { sentence: 'Mi abuela ___ (cocinar) muy bien', options: ['cocinó', 'cocinaba', 'cocina', 'cocinará'], correct: 1 },
+      { sentence: 'Vosotros ___ (trabajar) en esa empresa antes', options: ['trabajáis', 'trabajasteis', 'trabajabais', 'trabajaréis'], correct: 2 },
+      { sentence: 'Yo ___ (leer) muchos libros en mi juventud', options: ['leí', 'leía', 'leo', 'leeré'], correct: 1 },
+      { sentence: 'Ella ___ (escribir) cartas a su familia', options: ['escribió', 'escribía', 'escribe', 'escribirá'], correct: 1 },
+      { sentence: 'Nosotras ___ (bailar) salsa los fines de semana', options: ['bailamos', 'bailábamos', 'bailamos', 'bailaremos'], correct: 1 },
+      { sentence: 'Ustedes ___ (hablar) español perfectamente', options: ['hablan', 'hablaron', 'hablaban', 'hablarán'], correct: 2 }
     ]
   },
   'ex-6-3-2': {
     id: 'ex-6-3-2',
-    type: 'vocabulary',
-    title: 'Будущее и технологии',
-    description: 'Выберите правильный перевод',
+    type: 'grammar',
+    title: 'Pretérito Imperfecto - Исключения (SER, IR, VER)',
+    description: 'Выберите правильную форму неправильных глаголов',
     questions: [
-      { spanish: 'predicción', options: ['предложение', 'предсказание', 'предположение', 'предпочтение'], correct: 1 },
-      { spanish: 'tecnología', options: ['техника', 'технология', 'текстиль', 'тема'], correct: 1 },
-      { spanish: 'desarrollo', options: ['развитие', 'развлечение', 'раздел', 'разделение'], correct: 0 },
-      { spanish: 'clima', options: ['климат', 'клиент', 'клинка', 'клиника'], correct: 0 },
-      { spanish: 'medio ambiente', options: ['средний возраст', 'окружающая среда', 'полдень', 'середина'], correct: 1 }
+      { sentence: 'Cuando yo ___ (ser) niña, vivía en el pueblo', options: ['fui', 'era', 'soy', 'seré'], correct: 1 },
+      { sentence: 'Nosotros ___ (ir) a la playa todos los veranos', options: ['fuimos', 'vamos', 'íbamos', 'iremos'], correct: 2 },
+      { sentence: 'Tú ___ (ver) mucha televisión antes', options: ['viste', 'ves', 'veías', 'verás'], correct: 2 },
+      { sentence: 'La casa ___ (ser) muy grande', options: ['fue', 'es', 'era', 'será'], correct: 2 },
+      { sentence: 'Ellos ___ (ir) al cine cada domingo', options: ['fueron', 'van', 'iban', 'irán'], correct: 2 },
+      { sentence: 'Vosotros ___ (ver) a vuestros abuelos a menudo', options: ['visteis', 'veis', 'veíais', 'veréis'], correct: 2 },
+      { sentence: 'Mi profesor ___ (ser) muy estricto', options: ['fue', 'es', 'era', 'será'], correct: 2 },
+      { sentence: 'Yo ___ (ir) a la escuela caminando', options: ['fui', 'voy', 'iba', 'iré'], correct: 2 },
+      { sentence: 'Nosotras ___ (ver) muchas películas en el cine', options: ['vimos', 'vemos', 'veíamos', 'veremos'], correct: 2 },
+      { sentence: 'Ustedes ___ (ser) muy buenos estudiantes', options: ['fueron', 'son', 'eran', 'serán'], correct: 2 }
     ]
   },
   'ex-6-3-3': {
     id: 'ex-6-3-3',
     type: 'grammar',
-    title: 'SI + presente, futuro',
-    description: 'Выберите правильную форму в условном предложении',
+    title: 'Indefinido vs Imperfecto',
+    description: 'Выберите правильное время (завершенное действие или процесс)',
     questions: [
-      { sentence: 'Si tengo tiempo, ___ al cine', options: ['voy', 'fui', 'iré', 'iría'], correct: 2 },
-      { sentence: 'Si estudias, ___ el examen', options: ['apruebas', 'aprobaste', 'aprobarás', 'aprobarías'], correct: 2 },
-      { sentence: 'Si hace buen tiempo, ___ a la playa', options: ['vamos', 'fuimos', 'iremos', 'iríamos'], correct: 2 },
-      { sentence: 'Si ella viene, ___ muy contentos', options: ['estamos', 'estuvimos', 'estaremos', 'estaríamos'], correct: 2 }
+      { sentence: 'Ayer ___ (ir) al cine', options: ['fui', 'iba'], correct: 0 },
+      { sentence: 'Todos los días ___ (ir) al cine', options: ['fui', 'iba'], correct: 1 },
+      { sentence: 'Cuando ___ (ser) niño, jugaba mucho', options: ['fui', 'era'], correct: 1 },
+      { sentence: 'El año pasado ___ (vivir) en París', options: ['viví', 'vivía'], correct: 0 },
+      { sentence: 'Antes ___ (vivir) en París', options: ['viví', 'vivía'], correct: 1 },
+      { sentence: 'Mientras yo ___ (estudiar), él vio la tele', options: ['estudié', 'estudiaba'], correct: 1 },
+      { sentence: 'Ayer ___ (comer) paella', options: ['comí', 'comía'], correct: 0 },
+      { sentence: 'De joven ___ (comer) mucha paella', options: ['comí', 'comía'], correct: 1 },
+      { sentence: 'El lunes ___ (hablar) con el director', options: ['hablé', 'hablaba'], correct: 0 },
+      { sentence: 'Cada lunes ___ (hablar) con el director', options: ['hablé', 'hablaba'], correct: 1 }
     ]
   },
   'ex-6-3-4': {
     id: 'ex-6-3-4',
     type: 'reading',
-    title: 'Чтение: El mundo en 2050',
-    description: 'Ответьте на вопросы о предсказаниях',
-    text: 'En 2050 la tecnología cambiará nuestra vida. Tendremos coches autónomos. Viviremos más años gracias a la medicina. Los coches eléctricos reemplazarán a los de gasolina. La población llegará a 9.000 millones.',
+    title: 'Чтение: Mi infancia en el pueblo',
+    description: 'Ответьте на вопросы о тексте',
+    text: 'Cuando yo era niña, vivía en un pequeño pueblo. Nuestra casa tenía un jardín grande donde mi abuela cultivaba tomates. Todos los días iba a la escuela caminando con mis amigos. Mi profesora se llamaba Señora Carmen y era muy amable. Los domingos toda la familia iba a casa de mis abuelos y comíamos juntos.',
     questions: [
-      { question: 'Что изменит нашу жизнь?', options: ['Погода', 'Технология', 'Политика', 'Экономика'], correct: 1 },
-      { question: 'Какие машины будут?', options: ['Автономные', 'Быстрые', 'Большие', 'Маленькие'], correct: 0 },
-      { question: 'Какие машины заменят бензиновые?', options: ['Гибридные', 'Электрические', 'Дизельные', 'Водородные'], correct: 1 },
-      { question: 'Сколько будет население?', options: ['8 млрд', '9 млрд', '10 млрд', '11 млрд'], correct: 1 }
+      { question: 'Где жила девочка?', options: ['В городе', 'В деревне', 'У моря', 'В горах'], correct: 1 },
+      { question: 'Что выращивала бабушка?', options: ['Цветы', 'Картофель', 'Помидоры', 'Морковь'], correct: 2 },
+      { question: 'Как девочка ходила в школу?', options: ['На автобусе', 'Пешком', 'На велосипеде', 'На машине'], correct: 1 },
+      { question: 'Как звали учительницу?', options: ['Señora María', 'Señora Carmen', 'Señora Ana', 'Señora Isabel'], correct: 1 },
+      { question: 'Что семья делала по воскресеньям?', options: ['Ходила в церковь', 'Ходила на пляж', 'Ела вместе у бабушки', 'Ходила в кино'], correct: 2 }
     ]
   },
   'ex-6-3-5': {
     id: 'ex-6-3-5',
     type: 'writing',
-    title: 'Предсказания',
-    description: 'Переведите предсказания на испанский',
+    title: 'Pretérito Imperfecto - Перевод на испанский',
+    description: 'Переведите предложения на испанский, используя Imperfecto',
     questions: [
-      { russian: 'Завтра будет дождь', correct: 'mañana lloverá' },
-      { russian: 'Мы будем жить дольше', correct: 'viviremos más tiempo' },
-      { russian: 'Технология изменит мир', correct: 'la tecnología cambiará el mundo' },
-      { russian: 'Если ты учишься, ты сдашь экзамен', correct: 'si estudias aprobarás el examen' }
+      { russian: 'В детстве я играл в футбол каждый день', correct: 'De niño jugaba al fútbol todos los días' },
+      { russian: 'Раньше мы жили в Мадриде', correct: 'Antes vivíamos en Madrid' },
+      { russian: 'Она всегда готовила очень вкусно', correct: 'Ella siempre cocinaba muy rico' },
+      { russian: 'Они ходили в кино каждое воскресенье', correct: 'Ellos iban al cine cada domingo' },
+      { russian: 'Моя бабушка была очень доброй', correct: 'Mi abuela era muy amable' },
+      { russian: 'Пока я учился, мой брат смотрел телевизор', correct: 'Mientras yo estudiaba, mi hermano veía la televisión' },
+      { russian: 'Каждое лето мы ездили к морю', correct: 'Cada verano íbamos al mar' },
+      { russian: 'В молодости он много читал', correct: 'De joven leía mucho' },
+      { russian: 'Дом был маленький, но уютный', correct: 'La casa era pequeña pero acogedora' },
+      { russian: 'Мы часто встречались на площади', correct: 'Nos encontrábamos a menudo en la plaza' },
+      { russian: 'Она работала в той же компании', correct: 'Ella trabajaba en la misma empresa' },
+      { russian: 'Обычно они обедали в два часа', correct: 'Generalmente comían a las dos' },
+      { russian: 'Я всегда хотел стать врачом', correct: 'Yo siempre quería ser médico' },
+      { russian: 'Раньше здесь был парк', correct: 'Antes aquí había un parque' },
+      { russian: 'Когда была хорошая погода, мы гуляли', correct: 'Cuando hacía buen tiempo, paseábamos' }
     ]
   },
 
