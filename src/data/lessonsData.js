@@ -1,4 +1,5 @@
 // Структура курса по уровням (по аналогии с российской школьной программой)
+// Updated: 2026-01-16 - Fixed transformation exercises
 export const courseLevels = [
   {
     id: 'beginner',
