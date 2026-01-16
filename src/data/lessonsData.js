@@ -2577,6 +2577,12 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
     id: 'lesson-2-2',
     title: 'Урок 2 Указательные местоимения и наречия. Притяжательные местоимения . Черты характера. Описание внешности',
     moduleId: 'module-2',
+    videoTabs: [
+      {
+        tab: 'Estar Viaje',
+        videoUrl: '/video/Estar Viaje.mp4'
+      }
+    ],
     grammar: {
       title: 'Указательные местоимения и наречия. Притяжательные местоимения',
       intro: `# Грамматика урока
