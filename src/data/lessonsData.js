@@ -16450,64 +16450,91 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   'ex-6-2-1': {
     id: 'ex-6-2-1',
     type: 'grammar',
-    title: 'IR + A + инфинитив',
-    description: 'Выберите правильную форму IR',
+    title: 'MISMO - Согласование по роду и числу',
+    description: 'Выберите правильную форму MISMO',
     questions: [
-      { sentence: 'Yo ___ a estudiar esta noche', options: ['voy', 'vas', 'va', 'vamos'], correct: 0 },
-      { sentence: 'Tú ___ a comer paella', options: ['voy', 'vas', 'va', 'van'], correct: 1 },
-      { sentence: 'Nosotros ___ a viajar mañana', options: ['voy', 'vas', 'va', 'vamos'], correct: 3 },
-      { sentence: 'Ellos ___ a trabajar aquí', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
-      { sentence: '¿Qué ___ a hacer tú?', options: ['voy', 'vas', 'va', 'van'], correct: 1 }
+      { sentence: 'Yo ___ lo hice', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 0 },
+      { sentence: 'Ella ___ habló con él', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 1 },
+      { sentence: 'Nosotros ___ cocinamos la cena', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 2 },
+      { sentence: 'Las hermanas ___ limpiaron la casa', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 3 },
+      { sentence: 'El profesor ___ llegó tarde', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 0 },
+      { sentence: 'La directora ___ visitó la escuela', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 1 },
+      { sentence: 'Los estudiantes ___ escribieron el informe', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 2 },
+      { sentence: 'Ustedes ___ pueden decidir', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 2 },
+      { sentence: 'Mi madre ___ preparó el desayuno', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 1 },
+      { sentence: 'Tú ___ debes hacerlo', options: ['mismo', 'misma', 'mismos', 'mismas'], correct: 0 }
     ]
   },
   'ex-6-2-2': {
     id: 'ex-6-2-2',
-    type: 'vocabulary',
-    title: 'Планы и намерения',
-    description: 'Выберите правильный перевод',
+    type: 'grammar',
+    title: 'MISMO - "Тот же самый" (el/la/los/las mismo/a/os/as)',
+    description: 'Выберите правильный вариант с артиклем и формой MISMO',
     questions: [
-      { spanish: 'proyecto', options: ['проблема', 'проект', 'процесс', 'продукт'], correct: 1 },
-      { spanish: 'objetivo', options: ['объект', 'цель', 'причина', 'результат'], correct: 1 },
-      { spanish: 'intención', options: ['внимание', 'намерение', 'интерес', 'инвенция'], correct: 1 },
-      { spanish: 'éxito', options: ['выход', 'успех', 'вход', 'экзамен'], correct: 1 },
-      { spanish: 'carrera', options: ['карета', 'карьера', 'каре', 'корзина'], correct: 1 }
+      { sentence: 'Vivo en ___ casa que tú', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 1 },
+      { sentence: 'Leemos ___ libro', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 0 },
+      { sentence: 'Compraron ___ zapatos', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 2 },
+      { sentence: 'Visitamos ___ ciudades', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 3 },
+      { sentence: 'Trabajo en ___ oficina', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 1 },
+      { sentence: 'Tenemos ___ profesor', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 0 },
+      { sentence: 'Estudian en ___ universidad', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 1 },
+      { sentence: 'Comemos en ___ restaurante', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 0 },
+      { sentence: 'Tienen ___ problemas', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 2 },
+      { sentence: 'Hablan ___ idioma', options: ['el mismo', 'la misma', 'los mismos', 'las mismas'], correct: 0 }
     ]
   },
   'ex-6-2-3': {
     id: 'ex-6-2-3',
     type: 'grammar',
-    title: 'Выражение намерений',
-    description: 'Выберите правильный глагол намерения',
+    title: 'MISMO - Усиление (ahora mismo, hoy mismo, aquí mismo)',
+    description: 'Выберите правильный вариант с наречием + MISMO',
     questions: [
-      { sentence: '___ mudarme a Barcelona (планирую)', options: ['Pienso', 'Quiero', 'Espero', 'Deseo'], correct: 0 },
-      { sentence: '___ aprender español (хочу)', options: ['Pienso', 'Quiero', 'Espero', 'Tengo'], correct: 1 },
-      { sentence: '___ conseguir un buen trabajo (надеюсь)', options: ['Pienso', 'Quiero', 'Espero', 'Deseo'], correct: 2 },
-      { sentence: '___ la intención de viajar (имею намерение)', options: ['Pienso', 'Quiero', 'Espero', 'Tengo'], correct: 3 }
+      { sentence: 'Voy a salir ___', options: ['ahora mismo', 'ahora misma', 'ahora mismos', 'ahora mismas'], correct: 0 },
+      { sentence: 'Lo haré ___', options: ['hoy mismo', 'hoy misma', 'hoy mismos', 'hoy mismas'], correct: 0 },
+      { sentence: 'Ven ___', options: ['aquí mismo', 'aquí misma', 'aquí mismos', 'aquí mismas'], correct: 0 },
+      { sentence: 'Llegó ___', options: ['ayer mismo', 'ayer misma', 'ayer mismos', 'ayer mismas'], correct: 0 },
+      { sentence: 'Voy a llamarlo ___', options: ['mañana mismo', 'mañana misma', 'mañana mismos', 'mañana mismas'], correct: 0 },
+      { sentence: 'Vimos la iglesia ___', options: ['allí mismo', 'allí misma', 'allí mismos', 'allí mismas'], correct: 0 },
+      { sentence: 'Empezamos ___', options: ['ahora mismo', 'ahora misma', 'ahora mismos', 'ahora mismas'], correct: 0 },
+      { sentence: 'Lo terminé ___', options: ['ayer mismo', 'ayer misma', 'ayer mismos', 'ayer mismas'], correct: 0 },
+      { sentence: 'Quédate ___', options: ['aquí mismo', 'aquí misma', 'aquí mismos', 'aquí mismas'], correct: 0 },
+      { sentence: 'Vamos a viajar ___', options: ['mañana mismo', 'mañana misma', 'mañana mismos', 'mañana mismas'], correct: 0 }
     ]
   },
   'ex-6-2-4': {
     id: 'ex-6-2-4',
-    type: 'reading',
-    title: 'Чтение: Планы на выходные',
-    description: 'Ответьте на вопросы',
-    text: 'Es jueves y estamos planeando el fin de semana. María va a quedarse en casa el sábado. Carlos piensa ir a la playa. Laura va a ayudar con una mudanza. Miguel va a organizar una cena. Vamos a comer paella.',
+    type: 'grammar',
+    title: 'MISMO - Определите значение',
+    description: 'Определите, какое значение имеет MISMO в предложении',
     questions: [
-      { question: 'Что будет делать Мария в субботу?', options: ['Поедет на пляж', 'Останется дома', 'Поможет с переездом', 'Организует ужин'], correct: 1 },
-      { question: 'Куда планирует пойти Карлос?', options: ['В кино', 'На пляж', 'В ресторан', 'Домой'], correct: 1 },
-      { question: 'Чем займется Лаура?', options: ['Шопингом', 'Готовкой', 'Переездом', 'Уборкой'], correct: 2 },
-      { question: 'Что приготовит Мигель?', options: ['Пиццу', 'Пасту', 'Паэлью', 'Салат'], correct: 2 }
+      { sentence: 'Yo misma lo hice', options: ['сама (акцент на лице)', 'тот же самый', 'усиление времени/места'], correct: 0 },
+      { sentence: 'Vive en la misma casa', options: ['сам', 'тот же самый дом', 'усиление'], correct: 1 },
+      { sentence: 'Ven aquí mismo', options: ['сам', 'тот же самый', 'прямо здесь (усиление)'], correct: 2 },
+      { sentence: 'Nosotros mismos cocinamos', options: ['мы сами (акцент на лице)', 'те же самые', 'усиление'], correct: 0 },
+      { sentence: 'El mismo libro que ayer', options: ['сам', 'та же самая книга', 'усиление'], correct: 1 },
+      { sentence: 'Lo haré hoy mismo', options: ['сам', 'тот же самый', 'сегодня же (усиление)'], correct: 2 },
+      { sentence: 'Ella misma habló', options: ['она сама (акцент на лице)', 'та же самая', 'усиление'], correct: 0 },
+      { sentence: 'Los mismos estudiantes', options: ['сами', 'те же самые студенты', 'усиление'], correct: 1 },
+      { sentence: 'Llegó ayer mismo', options: ['сам', 'тот же самый', 'вчера же (усиление)'], correct: 2 },
+      { sentence: 'El profesor mismo lo dijo', options: ['сам учитель (акцент на лице)', 'тот же самый', 'усиление'], correct: 0 }
     ]
   },
   'ex-6-2-5': {
     id: 'ex-6-2-5',
     type: 'writing',
-    title: 'IR + A',
-    description: 'Переведите используя IR + A',
+    title: 'MISMO - Перевод на испанский',
+    description: 'Переведите предложения на испанский, используя MISMO',
     questions: [
-      { russian: 'Я собираюсь учиться', correct: 'voy a estudiar' },
-      { russian: 'Мы собираемся поехать на пляж', correct: 'vamos a ir a la playa' },
-      { russian: 'Она собирается готовить', correct: 'va a cocinar' },
-      { russian: 'Что ты собираешься делать?', correct: 'qué vas a hacer' }
+      { russian: 'Я сам это сделал', correct: 'Yo mismo lo hice' },
+      { russian: 'Она живет в том же доме', correct: 'Ella vive en la misma casa' },
+      { russian: 'Приди прямо сейчас', correct: 'Ven ahora mismo' },
+      { russian: 'Мы сами готовим', correct: 'Nosotros mismos cocinamos' },
+      { russian: 'Он читает ту же книгу', correct: 'Él lee el mismo libro' },
+      { russian: 'Я это сделаю сегодня же', correct: 'Lo haré hoy mismo' },
+      { russian: 'Она сама написала письмо', correct: 'Ella misma escribió la carta' },
+      { russian: 'Мы учимся в той же школе', correct: 'Estudiamos en la misma escuela' },
+      { russian: 'Оставайся прямо здесь', correct: 'Quédate aquí mismo' },
+      { russian: 'Они сами приняли решение', correct: 'Ellos mismos tomaron la decisión' }
     ]
   },
 
