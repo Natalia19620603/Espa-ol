@@ -459,6 +459,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               question={exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
               onSkipFeedback={handleSkipFeedback}
+              showAnswerOption={exercise.showAnswerOption}
             />
           )}
           {exercise.type === 'ser-estar' && (
@@ -1187,15 +1188,19 @@ function WritingQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
   )
 }
 
-function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
+function FillBlankQuestion({ question, onAnswer, onSkipFeedback, showAnswerOption = false }) {
   const [input, setInput] = useState('')
   const [showFeedback, setShowFeedback] = useState(false)
   const [timeoutId, setTimeoutId] = useState(null)
+  const [submitted, setSubmitted] = useState(false)
+  const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
 
   // Сбросить состояние при изменении вопроса
   useEffect(() => {
     setInput('')
     setShowFeedback(false)
+    setSubmitted(false)
+    setShowCorrectAnswer(false)
     if (timeoutId) {
       clearTimeout(timeoutId)
       setTimeoutId(null)
@@ -1206,17 +1211,25 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
     e.preventDefault()
     if (input.trim()) {
       const isCorrect = input.toLowerCase().trim() === question.correct?.toLowerCase().trim()
-      if (!isCorrect) {
-        setShowFeedback(true)
-        const id = setTimeout(() => {
-          setShowFeedback(false)
+
+      if (showAnswerOption) {
+        // Если включена опция показа ответа, показываем правильный ответ после нажатия "Ответить"
+        setSubmitted(true)
+        setShowCorrectAnswer(true)
+      } else {
+        // Обычное поведение (без опции показа ответа)
+        if (!isCorrect) {
+          setShowFeedback(true)
+          const id = setTimeout(() => {
+            setShowFeedback(false)
+            setInput('')
+            onAnswer(input)
+          }, 15000)
+          setTimeoutId(id)
+        } else {
           setInput('')
           onAnswer(input)
-        }, 15000)
-        setTimeoutId(id)
-      } else {
-        setInput('')
-        onAnswer(input)
+        }
       }
     }
   }
@@ -1232,6 +1245,13 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
     onAnswer(currentInput)
   }
 
+  const handleProceed = () => {
+    onAnswer(input)
+    setInput('')
+    setSubmitted(false)
+    setShowCorrectAnswer(false)
+  }
+
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence}</h3>
@@ -1244,9 +1264,9 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
           className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
           placeholder={question.verb ? "Введите правильную форму глагола" : "Введите ответ"}
           autoFocus
-          disabled={showFeedback}
+          disabled={showFeedback || submitted}
         />
-        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback || submitted}>
           Ответить
         </button>
       </form>
@@ -1254,6 +1274,16 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback }) {
         <p className={styles.correctAnswerText}>
           Правильный ответ: {question.correct}
         </p>
+      )}
+      {showAnswerOption && submitted && showCorrectAnswer && (
+        <div className={styles.answerDisplayContainer}>
+          <p className={styles.correctAnswerText}>
+            Правильный ответ: {question.correct}
+          </p>
+          <button onClick={handleProceed} className={styles.proceedBtn}>
+            Продолжить
+          </button>
+        </div>
       )}
     </div>
   )
