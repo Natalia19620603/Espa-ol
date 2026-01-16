@@ -16409,68 +16409,120 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  // МОДУЛЬ 6: Будущее время
+  // МОДУЛЬ 6: По магазинам. Покупки. Pretérito indefinido
   'ex-6-1-1': {
     id: 'ex-6-1-1',
-    type: 'grammar',
-    title: 'Futuro simple - правильные глаголы',
-    description: 'Выберите правильную форму будущего времени',
+    type: 'transformation',
+    title: 'Преобразование предложений с pretérito indefinido',
+    description: 'Преобразуйте предложения, меняя сказуемое по образцу',
     questions: [
-      { sentence: 'Mañana yo ___ (estudiar) para el examen', options: ['estudiaré', 'estudiarás', 'estudiará', 'estudiarán'], correct: 0 },
-      { sentence: 'Tú ___ (comer) paella en España', options: ['comeré', 'comerás', 'comerá', 'comeremos'], correct: 1 },
-      { sentence: 'Nosotros ___ (vivir) en Barcelona', options: ['viviré', 'vivirás', 'vivirá', 'viviremos'], correct: 3 },
-      { sentence: 'Ellos ___ (viajar) a Italia', options: ['viajaré', 'viajarás', 'viajará', 'viajarán'], correct: 3 },
-      { sentence: 'Ella ___ (hablar) español perfectamente', options: ['hablaré', 'hablarás', 'hablará', 'hablarán'], correct: 2 }
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'levantarse', correct: '¿A qué hora te levantaste ayer? — Me levanté a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'salir del cine', correct: '¿A qué hora saliste del cine ayer? — Salí del cine a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'tener la cita', correct: '¿A qué hora tuviste la cita ayer? — Tuve la cita a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'llegar a la estación', correct: '¿A qué hora llegaste a la estación ayer? — Llegué a la estación a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'sentirse peor', correct: '¿A qué hora te sentiste peor ayer? — Me sentí peor a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'ver a Luis', correct: '¿A qué hora viste a Luis ayer? — Vi a Luis a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'empezar a estudiar', correct: '¿A qué hora empezaste a estudiar ayer? — Empecé a estudiar a las 9' },
+      { original: '¿A qué hora te despertaste ayer?', answer: 'Me desperté a las 9', prompt: 'volver a casa', correct: '¿A qué hora volviste a casa ayer? — Volví a casa a las 9' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'jugar al fútbol', correct: '¿Jugasteis al fútbol anoche? — Sí, jugamos al fútbol anoche' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'traducir el artículo', correct: '¿Tradujisteis el artículo anoche? — Sí, traducimos el artículo anoche' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'venir a tiempo', correct: '¿Vinisteis a tiempo anoche? — Sí, vinimos a tiempo anoche' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'trabajar', correct: '¿Trabajasteis anoche? — Sí, trabajamos anoche' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'darse un paseo', correct: '¿Os disteis un paseo anoche? — Sí, nos dimos un paseo anoche' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'estar en el teatro', correct: '¿Estuvisteis en el teatro anoche? — Sí, estuvimos en el teatro anoche' },
+      { original: '¿Os bañasteis en el mar anoche?', answer: 'Sí, nos bañamos anoche', prompt: 'saber el horario', correct: '¿Supisteis el horario anoche? — Sí, supimos el horario anoche' }
     ]
   },
   'ex-6-1-2': {
     id: 'ex-6-1-2',
-    type: 'grammar',
-    title: 'Futuro simple - неправильные глаголы',
-    description: 'Выберите правильную неправильную форму',
+    type: 'fillblank',
+    title: 'Pretérito indefinido - постановка глаголов',
+    description: 'Поставьте глаголы в соответствующую форму pretérito indefinido',
     questions: [
-      { sentence: 'Yo ___ (hacer) la tarea mañana', options: ['haceré', 'haré', 'hacré', 'haciré'], correct: 1 },
-      { sentence: 'Tú ___ (tener) que estudiar', options: ['tendrás', 'tenerás', 'tenirás', 'tenarás'], correct: 0 },
-      { sentence: 'Nosotros ___ (poder) ir al cine', options: ['poderemos', 'podremos', 'poderamos', 'podiremos'], correct: 1 },
-      { sentence: 'Ellos ___ (venir) a la fiesta', options: ['venirán', 'venerán', 'vendrán', 'venarán'], correct: 2 },
-      { sentence: '¿___ (saber-tú) la respuesta?', options: ['saberás', 'sabrás', 'sabirás', 'sabarás'], correct: 1 }
+      { sentence: 'Mis padres me _____ (llamar) ayer por teléfono', verb: 'llamar', correct: 'llamaron' },
+      { sentence: 'El tren _____ (salir) anoche con retraso', verb: 'salir', correct: 'salió' },
+      { sentence: 'El verano pasado _____ (llover) mucho', verb: 'llover', correct: 'llovió' },
+      { sentence: 'La semana pasada _____ (estar, nosotros) en Valencia', verb: 'estar', correct: 'estuvimos' },
+      { sentence: 'Anteayer Juan _____ (dormir) más de diez horas', verb: 'dormir', correct: 'durmió' },
+      { sentence: 'Anoche _____ (ver, nosotros) una película que no nos _____ (gustar)', verb: 'ver / gustar', correct: 'vimos / gustó' },
+      { sentence: 'Ayer Carmen _____ (ponerse) el vestido rojo e _____ (ir) a la cita', verb: 'ponerse / ir', correct: 'se puso / fue' },
+      { sentence: 'Pedro no _____ (poder) venir a vernos la semana pasada', verb: 'poder', correct: 'pudo' },
+      { sentence: 'Ustedes ayer no nos _____ (decir) el nombre del guía', verb: 'decir', correct: 'dijeron' },
+      { sentence: 'El domingo pasado los niños _____ (preferir) quedarse en casa', verb: 'preferir', correct: 'prefirieron' },
+      { sentence: 'Hace tres días yo _____ (comprar) un libro interesante', verb: 'comprar', correct: 'compré' },
+      { sentence: 'La semana pasada ellos _____ (hacer) un viaje a Barcelona', verb: 'hacer', correct: 'hicieron' },
+      { sentence: 'Anoche tú _____ (comer) en un restaurante italiano', verb: 'comer', correct: 'comiste' },
+      { sentence: 'El mes pasado nosotros _____ (mudarse) a un apartamento nuevo', verb: 'mudarse', correct: 'nos mudamos' },
+      { sentence: 'Ayer vosotros _____ (traer) las fotos de las vacaciones', verb: 'traer', correct: 'trajisteis' }
     ]
   },
   'ex-6-1-3': {
     id: 'ex-6-1-3',
-    type: 'vocabulary',
-    title: 'Expresiones de futuro',
-    description: 'Выберите правильный перевод',
+    type: 'transformation',
+    title: 'Изменение предложений по образцу',
+    description: 'Измените предложения из настоящего в прошедшее время',
     questions: [
-      { spanish: 'mañana', options: ['вчера', 'завтра', 'сегодня', 'сейчас'], correct: 1 },
-      { spanish: 'pasado mañana', options: ['позавчера', 'послезавтра', 'вчера', 'завтра'], correct: 1 },
-      { spanish: 'la semana que viene', options: ['на прошлой неделе', 'на следующей неделе', 'на этой неделе', 'каждую неделю'], correct: 1 },
-      { spanish: 'dentro de dos días', options: ['два дня назад', 'через два дня', 'два дня', 'в течение двух дней'], correct: 1 },
-      { spanish: 'pronto', options: ['поздно', 'рано', 'скоро', 'медленно'], correct: 2 }
+      { present: 'Todos los días me levanto a las 7', past_marker: 'Ayer', correct: 'Ayer me levanté a las 7 también' },
+      { present: 'Hoy no tengo apetito', past_marker: 'Ayer tampoco', correct: 'Ayer tampoco tuve apetito' },
+      { present: 'Ellos siempre ríen de mí', past_marker: 'Anteayer', correct: 'Anteayer rieron de mí' },
+      { present: 'Este mes llueve mucho', past_marker: 'El mes pasado', correct: 'El mes pasado llovió mucho' },
+      { present: 'Todos los sábados Enrique me trae flores y cenamos en este restaurante', past_marker: 'Anoche', correct: 'Anoche Enrique me trajo flores y cenamos en este restaurante' },
+      { present: 'Cada mes pago el alquiler', past_marker: 'El mes pasado', correct: 'El mes pasado pagué el alquiler' },
+      { present: 'Todos los días Ud. viene tarde a la oficina', past_marker: 'Hace dos días', correct: 'Hace dos días Ud. vino tarde a la oficina' },
+      { present: 'Este año hay muchos turistas en España', past_marker: 'El año pasado', correct: 'El año pasado hubo muchos turistas en España' },
+      { present: 'Vosotros nunca hacéis caso de mis palabras', past_marker: 'Ayer tampoco', correct: 'Ayer tampoco hicisteis caso de mis palabras' },
+      { present: 'Hoy no es mi día', past_marker: 'Ayer', correct: 'Ayer no fue mi día' },
+      { present: 'Cada semana Felipe y yo vamos al cine y vemos una película nueva', past_marker: 'La semana pasada', correct: 'La semana pasada Felipe y yo fuimos al cine y vimos una película nueva' },
+      { present: 'Cada día salgo de casa a las 8', past_marker: 'Ayer', correct: 'Ayer salí de casa a las 8' },
+      { present: 'Todos los domingos duermo hasta las 11', past_marker: 'El domingo pasado', correct: 'El domingo pasado dormí hasta las 11' },
+      { present: 'Siempre me siento bien después del ejercicio', past_marker: 'Ayer', correct: 'Ayer me sentí bien después del ejercicio' },
+      { present: 'Cada viernes compro comida para el fin de semana', past_marker: 'El viernes pasado', correct: 'El viernes pasado compré comida para el fin de semana' }
     ]
   },
   'ex-6-1-4': {
     id: 'ex-6-1-4',
-    type: 'fillblank',
-    title: 'Планы на будущее',
-    description: 'Вставьте правильную форму futuro',
+    type: 'transformation',
+    title: 'Ответы на вопросы в pretérito indefinido',
+    description: 'Ответьте на вопросы по образцу, используя указанный маркер времени',
     questions: [
-      { sentence: 'El año que viene _____ (viajar) a España', verb: 'viajar', correct: 'viajaré' },
-      { sentence: 'Nosotros _____ (estudiar) medicina', verb: 'estudiar', correct: 'estudiaremos' },
-      { sentence: 'Ellos _____ (hacer) un proyecto', verb: 'hacer', correct: 'harán' },
-      { sentence: '¿Qué _____ (hacer-tú) mañana?', verb: 'hacer', correct: 'harás' }
+      { question: '¿Has visto a Carmen?', time_marker: 'ayer', correct: 'Sí, la vi ayer' },
+      { question: '¿Has descubierto el secreto?', time_marker: 'la semana pasada', correct: 'Sí, descubrí el secreto la semana pasada' },
+      { question: '¿Ha traducido Ud. las cartas?', time_marker: 'ayer', correct: 'Sí, traduje las cartas ayer' },
+      { question: '¿Habéis traído vuestras fotos?', time_marker: 'anteayer', correct: 'Sí, trajimos nuestras fotos anteayer' },
+      { question: '¿Has hecho la maleta?', time_marker: 'anoche', correct: 'Sí, hice la maleta anoche' },
+      { question: '¿Te lo ha dicho Alicia?', time_marker: 'hace tres días', correct: 'Sí, me lo dijo hace tres días' },
+      { question: '¿Han pedido ayuda tus hermanos?', time_marker: 'hace poco', correct: 'Sí, pidieron ayuda hace poco' },
+      { question: '¿Has devuelto la deuda?', time_marker: 'el mes pasado', correct: 'Sí, devolví la deuda el mes pasado' },
+      { question: '¿Se ha sentido mejor la abuela?', time_marker: 'anoche', correct: 'Sí, se sintió mejor anoche' },
+      { question: '¿Ha leído el jefe nuestra carta?', time_marker: 'anteayer', correct: 'Sí, leyó nuestra carta anteayer' },
+      { question: '¿Han sabido los estudiantes el horario?', time_marker: 'ayer', correct: 'Sí, supieron el horario ayer' },
+      { question: '¿Has escrito el informe?', time_marker: 'la semana pasada', correct: 'Sí, escribí el informe la semana pasada' },
+      { question: '¿Ha llegado el paquete?', time_marker: 'hace dos días', correct: 'Sí, llegó hace dos días' },
+      { question: '¿Habéis comprado el regalo?', time_marker: 'ayer', correct: 'Sí, compramos el regalo ayer' },
+      { question: '¿Has conocido a sus padres?', time_marker: 'el año pasado', correct: 'Sí, conocí a sus padres el año pasado' }
     ]
   },
   'ex-6-1-5': {
     id: 'ex-6-1-5',
     type: 'writing',
-    title: 'Futuro simple',
-    description: 'Переведите на испанский (futuro simple)',
+    title: 'Перевод на испанский - pretérito indefinido',
+    description: 'Переведите предложения на испанский, используя pretérito indefinido',
     questions: [
-      { russian: 'Завтра я буду учиться', correct: 'mañana estudiaré' },
-      { russian: 'Мы поедем в Испанию', correct: 'iremos a España' },
-      { russian: 'Она будет жить в Мадриде', correct: 'vivirá en Madrid' },
-      { russian: 'Они сделают работу', correct: 'harán el trabajo' }
+      { russian: 'В прошлом году я два раза ездил в Италию и во Францию, эти страны мне очень понравились', correct: 'El año pasado fui dos veces a Italia y a Francia, estos países me gustaron mucho' },
+      { russian: 'Три дня назад Кармен почувствовала себя плохо и не пришла к нам в гости', correct: 'Hace tres días Carmen se sintió mal y no vino a visitarnos' },
+      { russian: 'На прошлой неделе мы были в Лондоне', correct: 'La semana pasada estuvimos en Londres' },
+      { russian: 'Вчера была хорошая погода, и мы смогли погулять по улицам города и посмотрели некоторые достопримечательности', correct: 'Ayer hizo buen tiempo y pudimos pasear por las calles de la ciudad y vimos algunos lugares de interés' },
+      { russian: 'В пятницу мой начальник предложил мне пообедать в итальянском ресторане', correct: 'El viernes mi jefe me propuso almorzar en un restaurante italiano' },
+      { russian: 'Прошлым летом Антонио познакомился с Розой, влюбился в нее, а недавно он на ней женился', correct: 'El verano pasado Antonio conoció a Rosa, se enamoró de ella y hace poco se casó con ella' },
+      { russian: 'Пять дней назад мой друг попросил меня перевести несколько документов на немецкий язык, и я ему их перевел', correct: 'Hace cinco días mi amigo me pidió traducir varios documentos al alemán y se los traduje' },
+      { russian: 'В воскресенье дети проснулись в 9 часов утра, но не захотели сразу вставать', correct: 'El domingo los niños se despertaron a las 9 de la mañana pero no quisieron levantarse enseguida' },
+      { russian: 'Позавчера Хуан заснул в 2 часа ночи, утром не услышал будильник и опоздал на поезд', correct: 'Anteayer Juan se durmió a las 2 de la madrugada, por la mañana no oyó el despertador y perdió el tren' },
+      { russian: 'Вчера нам сказали результаты экзамена, и мы расстроились', correct: 'Ayer nos dijeron los resultados del examen y nos pusimos tristes' },
+      { russian: 'В прошлом месяце я купил новую машину и продал старую', correct: 'El mes pasado compré un coche nuevo y vendí el viejo' },
+      { russian: 'Анна вчера пришла домой поздно, поужинала и сразу легла спать', correct: 'Ana ayer llegó a casa tarde, cenó y se acostó enseguida' },
+      { russian: 'Неделю назад мы начали изучать новую тему, но еще не закончили ее', correct: 'Hace una semana empezamos a estudiar un tema nuevo pero todavía no lo terminamos' },
+      { russian: 'Позавчера они пошли в театр и посмотрели новый спектакль', correct: 'Anteayer ellos fueron al teatro y vieron una obra nueva' },
+      { russian: 'В субботу я встретил своего старого друга на улице, и мы поговорили полчаса', correct: 'El sábado encontré a mi viejo amigo en la calle y hablamos media hora' }
     ]
   },
 
