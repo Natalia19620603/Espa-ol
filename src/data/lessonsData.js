@@ -7699,6 +7699,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Indefinido Celular',
         videoUrl: '/video/Indefinido Celular.mp4'
+      },
+      {
+        tab: 'Que pasó cocinando',
+        videoUrl: '/video/Que pasó cocinando.mp4'
       }
     ],
     grammar: {
