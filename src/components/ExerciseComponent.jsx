@@ -456,7 +456,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           )}
           {exercise.type === 'fillblank' && (
             <FillBlankQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
               onSkipFeedback={handleSkipFeedback}
               showAnswerOption={exercise.showAnswerOption}
