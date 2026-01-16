@@ -1,4 +1,5 @@
 // Структура курса по уровням (по аналогии с российской школьной программой)
+// Updated: 2026-01-16 - Fixed transformation exercises
 export const courseLevels = [
   {
     id: 'beginner',
@@ -7690,6 +7691,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'De compras comida',
         videoUrl: '/video/De compras comida.mp4'
+      },
+      {
+        tab: 'De compras ropa',
+        videoUrl: '/video/De compras ropa.mp4'
       }
     ],
     grammar: {
