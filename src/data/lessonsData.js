@@ -7412,6 +7412,12 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
     id: 'lesson-5-2',
     title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
+    videoTabs: [
+      {
+        tab: 'TIEMPO y GUSTAR',
+        videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
+      }
+    ],
     vocabulary: [
       {
         tab: 'Существительные',
