@@ -1194,6 +1194,7 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback, showAnswerOptio
   const [timeoutId, setTimeoutId] = useState(null)
   const [submitted, setSubmitted] = useState(false)
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
+  const [userAnswer, setUserAnswer] = useState(null)
 
   // Сбросить состояние при изменении вопроса
   useEffect(() => {
@@ -1201,11 +1202,15 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback, showAnswerOptio
     setShowFeedback(false)
     setSubmitted(false)
     setShowCorrectAnswer(false)
+    setUserAnswer(null)
     if (timeoutId) {
       clearTimeout(timeoutId)
       setTimeoutId(null)
     }
   }, [question])
+
+  // Если у вопроса есть options, то это multiple choice
+  const isMultipleChoice = question.options && Array.isArray(question.options)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -1234,6 +1239,30 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback, showAnswerOptio
     }
   }
 
+  const handleOptionClick = (index) => {
+    const isCorrect = index === question.correct
+    setUserAnswer(index)
+
+    if (showAnswerOption) {
+      // Показываем правильный ответ сразу
+      setShowCorrectAnswer(true)
+    } else {
+      // Обычное поведение: показываем ответ только если неправильно
+      if (!isCorrect) {
+        setShowCorrectAnswer(true)
+        const id = setTimeout(() => {
+          setShowCorrectAnswer(false)
+          setUserAnswer(null)
+          onAnswer(index)
+        }, 15000)
+        setTimeoutId(id)
+      } else {
+        onAnswer(index)
+        setUserAnswer(null)
+      }
+    }
+  }
+
   const handleSkip = () => {
     if (timeoutId) {
       clearTimeout(timeoutId)
@@ -1246,12 +1275,61 @@ function FillBlankQuestion({ question, onAnswer, onSkipFeedback, showAnswerOptio
   }
 
   const handleProceed = () => {
-    onAnswer(input)
-    setInput('')
-    setSubmitted(false)
-    setShowCorrectAnswer(false)
+    if (isMultipleChoice) {
+      onAnswer(userAnswer)
+      setUserAnswer(null)
+      setShowCorrectAnswer(false)
+    } else {
+      onAnswer(input)
+      setInput('')
+      setSubmitted(false)
+      setShowCorrectAnswer(false)
+    }
   }
 
+  // Рендер для multiple choice
+  if (isMultipleChoice) {
+    return (
+      <div className={styles.question}>
+        <h3 className={styles.questionText}>{question.sentence}</h3>
+        {question.verb && <p className={styles.hint}>Глагол: {question.verb}</p>}
+        <div className={styles.options}>
+          {question.options.map((option, index) => {
+            const isUserAnswer = userAnswer === index
+            const isCorrectAnswer = question.correct === index
+            const showFeedbackHighlight = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+            return (
+              <button
+                key={index}
+                onClick={() => !showCorrectAnswer && handleOptionClick(index)}
+                className={`${styles.optionBtn} ${showFeedbackHighlight ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+                disabled={showCorrectAnswer}
+              >
+                {option}
+                {showFeedbackHighlight && isCorrectAnswer && ' ✓'}
+                {showFeedbackHighlight && isUserAnswer && !isCorrectAnswer && ' ✗'}
+              </button>
+            )
+          })}
+        </div>
+        {showCorrectAnswer && (
+          <div className={styles.answerDisplayContainer}>
+            <p className={styles.correctAnswerText}>
+              Правильный ответ: {question.options[question.correct]}
+            </p>
+            {showAnswerOption && (
+              <button onClick={handleProceed} className={styles.proceedBtn}>
+                Продолжить
+              </button>
+            )}
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  // Рендер для text input
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence}</h3>

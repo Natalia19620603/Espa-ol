@@ -7412,6 +7412,12 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
     id: 'lesson-5-2',
     title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
+    videoTabs: [
+      {
+        tab: 'TIEMPO y GUSTAR',
+        videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
+      }
+    ],
     vocabulary: [
       {
         tab: 'Существительные',
@@ -14125,7 +14131,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Ir a + Lugar/Actividad',
     description: 'Completa las frases usando la forma correcta del verbo IR y la preposición A. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ al gimnasio después del trabajo.', correct: 'voy' },
@@ -14146,7 +14152,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Ir de + Actividad / Ir en + Medio de transporte',
     description: 'Completa las frases usando la forma correcta del verbo IR y la preposición necesaria (DE o EN). Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Nosotros _____ en bicicleta por el campo.', correct: 'vamos' },
@@ -14227,7 +14233,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Поставьте глагол TENER в соответствующую форму',
     description: 'Заполните пропуски правильной формой глагола TENER. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ mucha hambre ahora.', correct: 'tengo' },
@@ -14269,7 +14275,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Поставьте глагол OÍR в соответствующую форму',
     description: 'Заполните пропуски правильной формой глагола OÍR в настоящем времени. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ la radio todas las mañanas.', correct: 'oigo' },
@@ -14300,7 +14306,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Глагол IR в различных контекстах',
     description: 'Заполните пропуски правильной формой глагола IR. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ a la escuela cada día.', correct: 'voy' },
@@ -14326,7 +14332,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'IR с предлогами A, DE, EN',
     description: 'Заполните пропуски формой IR и нужной конструкцией. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ al bar a tomar café.', correct: 'voy' },
@@ -14352,7 +14358,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Конструкция IR + A + инфинитив',
     description: 'Заполните пропуски формой IR для выражения будущего намерения. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ a descansar un poco.', correct: 'voy' },
@@ -14378,7 +14384,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Спряжение глагола TENER',
     description: 'Заполните пропуски правильной формой глагола TENER. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ un libro nuevo.', correct: 'tengo' },
@@ -14404,7 +14410,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Выражения с глаголом TENER',
     description: 'Заполните пропуски формой TENER с выражениями возраста, голода, жажды. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ veinte años.', correct: 'tengo' },
@@ -14430,7 +14436,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Глагол OÍR в различных ситуациях',
     description: 'Заполните пропуски правильной формой глагола OÍR. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ música en casa.', correct: 'oigo' },
@@ -14456,7 +14462,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     type: 'fillblank',
     title: 'Смешанные упражнения IR, TENER, OÍR',
     description: 'Заполните пропуски правильной формой глагола IR, TENER или OÍR. Внимание: ударения и знаки препинания считаются ошибкой',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     highlightErrors: true,
     questions: [
       { sentence: 'Yo _____ a la oficina y _____ música.', correct: 'voy, oigo' },
@@ -29471,7 +29477,7 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     type: 'fillblank',
     title: 'Словарь: Контекстные упражнения Mariposas',
     description: 'Заполните пропуски подходящим словом',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     questions: [
       { sentence: 'El Dr. Sourakov utiliza microscopios ______ para observar el interior del capullo.', blank: 'de vanguardia', options: ['antiguos', 'de vanguardia', 'simples', 'rotos'], correct: 1 },
       { sentence: 'Gracias a una ______, podemos ver los órganos internos sin dañar al insecto.', blank: 'radiografía', options: ['fotografía', 'radiografía', 'linterna', 'cámara'], correct: 1 },
@@ -29852,7 +29858,7 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     description: `Usa estas palabras para completar:
 
 médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decisión, certificar, vidente, mascota, intervenir, externo, reencarnarse, conclusión`,
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     questions: [
       {
         sentence: 'Algunas religiones creen que las almas pueden _____ en otros seres.',
@@ -30608,7 +30614,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     type: 'fillblank',
     title: 'Словарь: Контекстные упражнения',
     description: 'Заполните пропуски подходящим словом',
-    showCorrectAnswer: true,
+    showAnswerOption: true,
     questions: [
       { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'oscuro', 'brillante', 'luminoso'], correct: 1 },
       { sentence: 'Por favor, niños, ______ para escuchar mejor esta explicación.', blank: 'acérquense', options: ['aléjense', 'acérquense', 'siéntense', 'levántense'], correct: 1 },
