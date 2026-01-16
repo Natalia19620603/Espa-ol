@@ -29471,7 +29471,7 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     type: 'fillblank',
     title: 'Словарь: Контекстные упражнения Mariposas',
     description: 'Заполните пропуски подходящим словом',
-    showAnswerOption: true,
+    showCorrectAnswer: true,
     questions: [
       { sentence: 'El Dr. Sourakov utiliza microscopios ______ para observar el interior del capullo.', blank: 'de vanguardia', options: ['antiguos', 'de vanguardia', 'simples', 'rotos'], correct: 1 },
       { sentence: 'Gracias a una ______, podemos ver los órganos internos sin dañar al insecto.', blank: 'radiografía', options: ['fotografía', 'radiografía', 'linterna', 'cámara'], correct: 1 },
@@ -29852,6 +29852,7 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     description: `Usa estas palabras para completar:
 
 médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decisión, certificar, vidente, mascota, intervenir, externo, reencarnarse, conclusión`,
+    showCorrectAnswer: true,
     questions: [
       {
         sentence: 'Algunas religiones creen que las almas pueden _____ en otros seres.',
@@ -30607,7 +30608,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     type: 'fillblank',
     title: 'Словарь: Контекстные упражнения',
     description: 'Заполните пропуски подходящим словом',
-    showAnswerOption: true,
+    showCorrectAnswer: true,
     questions: [
       { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'oscuro', 'brillante', 'luminoso'], correct: 1 },
       { sentence: 'Por favor, niños, ______ para escuchar mejor esta explicación.', blank: 'acérquense', options: ['aléjense', 'acérquense', 'siéntense', 'levántense'], correct: 1 },
