@@ -11,13 +11,13 @@ export const courseLevels = [
     id: 'elementary',
     name: 'Базовый уровень (A2)',
     description: 'Развитие базовых навыков',
-    modules: ['module-6', 'module-7']
+    modules: ['module-6', 'module-7', 'module-8']
   },
   {
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-8', 'module-17']
+    modules: ['module-11', 'module-17']
   }
 ]
 
@@ -81,10 +81,10 @@ export const modules = {
   },
   'module-8': {
     id: 'module-8',
-    title: 'Модуль 8: Условные предложения (45 слов)',
-    level: 'intermediate',
+    title: 'Модуль 8: ОТПУСК. ВИДЫ ТУРИЗМА. Условные предложения I типа. Modo potencial (condicional). Potencial simple (будущее в прошедшем/простое условное время). Concordancia de los tiempos (согласование времен изъявительного наклонения). Перевод прямой речи в косвенную (45 слов)',
+    level: 'elementary',
     lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3'],
-    description: 'Условное наклонение, гипотетические ситуации'
+    description: 'Условные предложения I типа, Potencial simple, согласование времен, косвенная речь'
   },
   'module-17': {
     id: 'module-17',
@@ -9126,78 +9126,111 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 
   'lesson-8-1': {
     id: 'lesson-8-1',
-    title: 'Урок 1: Реальные условия (Tipo 1)',
+    title: 'Урок 1: Условные предложения I типа. Modo potencial (condicional)',
     moduleId: 'module-8',
     grammar: {
-      title: 'Условные предложения первого типа (Condicionales reales)',
-      content: `
-# Условные предложения Tipo 1 (Реальные условия)
+      title: 'Условные предложения I типа (Реальное условие)',
+      intro: `Главная сложность здесь для русскоговорящих — это запрет на будущее время после «если».
 
-Используются для описания **реальных**, **возможных** ситуаций в настоящем или будущем.
+Условные предложения I типа используются для ситуаций, которые реальны или вполне возможны.`,
+      sections: [
+        {
+          id: 'main-rule',
+          title: 'Главное правило: Забудь про Future после "Si"',
+          content: `В русском языке мы говорим: «Если завтра **придет** (будущее)...».
 
-## Структура:
+В испанском после союза **si** (если) для будущего времени **никогда не используется Futuro**. Вместо него мы ставим **Presente**.
 
-**Si + PRESENTE, FUTURO / IMPERATIVO / PRESENTE**
+**Важно:** Это касается только придаточного предложения после **si**. В главном предложении можно использовать Futuro.`
+        },
+        {
+          id: 'future-case',
+          title: '1. Будущее время (Самый частый случай)',
+          content: `**Схема:** Si + Presente, Futuro (или Presente / Повелительное наклонение)
 
-### Формула 1: Si + presente, futuro
+**Пример:**
+- **Si mañana Paco vuelve tarde, no cenará.**
+- Если завтра Пако **вернется** поздно, он не будет ужинать.
 
-| Условие (si + presente) | Результат (futuro) |
-|-------------------------|---------------------|
-| Si **llueve** | **llevaré** paraguas |
-| Si **estudias** | **aprobarás** el examen |
-| Si **tengo** tiempo | te **llamaré** |
+*(В испанском: «Если возвращается», в русском: «Если вернется»)*
 
-**Примеры:**
-- Si **hace** buen tiempo, **iremos** a la playa (Если будет хорошая погода, пойдем на пляж)
-- Si **llegas** tarde, te **esperaré** (Если опоздаешь, я подожду)
-- Si **necesitas** ayuda, me **dirás** (Если нужна помощь, скажешь мне)
+**Еще примеры:**
+- **Si hace buen tiempo, iremos a la playa.**
+  - Если будет хорошая погода, пойдем на пляж.
 
-### Формула 2: Si + presente, imperativo
+- **Si llegas tarde, te esperaré.**
+  - Если опоздаешь, я подожду.
 
-| Условие | Команда |
-|---------|---------|
-| Si **tienes** frío | **cierra** la ventana |
-| Si **estás** cansado | **descansa** |
+- **Si necesitas ayuda, me dirás.**
+  - Если нужна помощь, скажешь мне.`
+        },
+        {
+          id: 'present-case',
+          title: '2. Настоящее время (Привычки)',
+          content: `**Схема:** Si + Presente, Presente
 
-**Примеры:**
-- Si **ves** a María, **dile** que la llamo (Если увидишь Марию, скажи ей, что позвоню)
-- Si **quieres** café, **prepáralo** (Если хочешь кофе, приготовь)
+**Пример:**
+- **Si Paco vuelve tarde, cena solo.**
+- Если Пако возвращается поздно, он ужинает один (обычно так происходит).
 
-### Формула 3: Si + presente, presente
+**Еще примеры:**
+- **Si como mucho, engordo.**
+  - Если ем много, толстею.
 
-Для **универсальных истин**, **привычек**, **общих правил**:
+- **Si no duermo bien, estoy cansado.**
+  - Если плохо сплю, я устаю.
 
-**Примеры:**
-- Si **calientas** el agua a 100°, **hierve** (Если нагреваешь воду до 100°, она кипит)
-- Si **como** mucho, **engordo** (Если ем много, толстею)
-- Si no **duermo** bien, **estoy** cansado (Если плохо сплю, я устаю)
+- **Si calientas el agua a 100°, hierve.**
+  - Если нагреваешь воду до 100°, она кипит.`
+        },
+        {
+          id: 'past-case',
+          title: '3. Прошедшее время (То, что уже случилось или случалось)',
+          content: `**Схема:** Si + Прошедшее, Прошедшее
 
-## ¡IMPORTANTE!
+**Пример с Imperfecto (регулярная привычка в прошлом):**
+- **Si Paco volvía tarde, cenaba solo.**
+- Если Пако возвращался поздно, он ужинал один.
 
-⚠️ **НИКОГДА не используйте futuro после SI:**
+**Пример с Pretérito Perfecto:**
+- **Si Paco ya ha vuelto, no cenará solo.**
+- Если Пако уже вернулся (к этому моменту), он не будет ужинать один.
+
+**Еще примеры:**
+- **Si estudiaba mucho, aprobaba los exámenes.**
+  - Если я много учился, я сдавал экзамены.
+
+- **Si ya has terminado, podemos salir.**
+  - Если ты уже закончил, мы можем выйти.`
+        },
+        {
+          id: 'summary',
+          title: 'Резюме',
+          content: `**Основное правило условных предложений I типа:**
+
+❌ **НИКОГДА** не используй Futuro после **Si**:
 - ❌ Si **llegaré** tarde... (НЕПРАВИЛЬНО)
-- ✓ Si **llego** tarde... (ПРАВИЛЬНО)
+- ✅ Si **llego** tarde... (ПРАВИЛЬНО)
 
-⚠️ **Порядок можно менять:**
+**Возможные комбинации:**
+
+| После Si | В главном предложении | Когда используется |
+|----------|----------------------|-------------------|
+| Presente | Futuro | Будущее (реальное условие) |
+| Presente | Presente | Привычки, общие правила |
+| Presente | Imperativo | Команды, просьбы |
+| Прошедшее | Прошедшее | Прошлые события |
+
+**Порядок можно менять:**
 - Si llueve, me quedo en casa = Me quedo en casa si llueve
 - Si estudias, aprobarás = Aprobarás si estudias
 
-## Другие союзы (не только SI):
-
-Эти же правила работают с другими условными союзами:
-
-| Союз | Значение | Пример |
-|------|----------|--------|
-| **cuando** | когда | Cuando **termine**, te llamo |
-| **en cuanto** | как только | En cuanto **llegues**, empezamos |
-| **mientras** | пока | Mientras **esté** aquí, ayudo |
-| **hasta que** | пока не | Hasta que **vuelvas**, espero |`,
-      examples: [
-        { spanish: 'Si estudias mucho, aprobarás el examen', russian: 'Если будешь много учиться, сдашь экзамен' },
-        { spanish: 'Si hace sol mañana, iremos a la playa', russian: 'Если завтра будет солнечно, пойдем на пляж' },
-        { spanish: 'Llámame si necesitas ayuda', russian: 'Позвони мне, если нужна помощь' },
-        { spanish: 'Si ves a Juan, dile que lo busco', russian: 'Если увидишь Хуана, скажи, что ищу его' },
-        { spanish: 'Si el agua hierve, apaga el fuego', russian: 'Если вода закипит, выключи огонь' }
+**Примеры со всеми случаями:**
+1. **Будущее:** Si mañana llueve, llevaré paraguas.
+2. **Привычка:** Si llueve, siempre llevo paraguas.
+3. **Команда:** Si llueve, lleva paraguas.
+4. **Прошлое:** Si llovía, llevaba paraguas.`
+        }
       ]
     },
     vocabulary: [
