@@ -9334,6 +9334,12 @@ Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabaj
     id: 'lesson-8-2',
     title: 'Урок 2: Condicional Simple (Условное время)',
     moduleId: 'module-8',
+    videoTabs: [
+      {
+        tab: 'Me gustaría',
+        videoUrl: '/video/Me gustaría.mp4'
+      }
+    ],
     grammar: {
       title: 'Condicional Simple (Условное время)',
       sections: [
