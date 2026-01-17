@@ -8010,7 +8010,17 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
       { word: 'me va bien / mal', translation: 'мне идет / не идет', audioUrl: null },
       { word: 'me sienta bien / mal', translation: 'на мне сидит хорошо/плохо', audioUrl: null },
       { word: 'me aprieta', translation: 'мне жмет', audioUrl: null },
-      { word: 'me llevo … esta falda', translation: 'я беру (покупаю) … эту юбку', audioUrl: null }
+      { word: 'me llevo … esta falda', translation: 'я беру (покупаю) … эту юбку', audioUrl: null },
+      { word: 'tocar algo', translation: 'трогать, дотрагиваться до чего-либо, прикасаться', audioUrl: null },
+      { word: 'tocar (el piano, el violín)', translation: 'играть (на фортепиано, скрипке)', audioUrl: null },
+      { word: 'tocar a la puerta', translation: 'стучать, звонить в дверь', audioUrl: null },
+      { word: 'tocar a alguien', translation: 'касаться кого-либо / выпадать (на чью-либо долю)', audioUrl: null },
+      { word: 'tocar (el tema)', translation: 'коснуться, затронуть (тему)', audioUrl: null },
+      { word: 'llevar algo', translation: 'относить / отвозить / носить что-то', audioUrl: null },
+      { word: 'llevar algún tiempo', translation: 'проводить время, делая что-то', audioUrl: null },
+      { word: 'llevar a cabo', translation: 'осуществлять / доводить до конца', audioUrl: null },
+      { word: 'llevarse', translation: 'уносить / увозить с собой / иметь при себе', audioUrl: null },
+      { word: 'llevarse bien/mal', translation: 'ладить /не ладить', audioUrl: null }
     ],
     exercises: ['ex-6-2-1', 'ex-6-2-2', 'ex-6-2-3', 'ex-6-2-4', 'ex-6-2-5']
   },
