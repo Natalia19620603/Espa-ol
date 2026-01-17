@@ -8706,6 +8706,12 @@ Al + инфинитив + подлежащее инфинитива, [основ
     id: 'lesson-11-1',
     title: 'Урок 1: ДОСУГ. РАЗВЛЕЧЕНИЯ. Modo subjuntivo',
     moduleId: 'module-11',
+    videoTabs: [
+      {
+        tab: 'Presente de Subjuntivo',
+        videoUrl: '/video/Presente de subjuntivo nueva inquilina.mp4'
+      }
+    ],
     grammar: {
       title: 'Modo subjuntivo',
       intro: `В испанском языке существует 4 наклонения:
@@ -9326,186 +9332,68 @@ Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabaj
 
   'lesson-8-2': {
     id: 'lesson-8-2',
-    title: 'Урок 2: Нереальные условия (Tipo 2)',
+    title: 'Урок 2: Condicional Simple (Условное время)',
     moduleId: 'module-8',
     grammar: {
-      title: 'Условные предложения второго типа (Condicionales irreales)',
-      content: `
-# Условные предложения Tipo 2 (Нереальные/маловероятные условия)
+      title: 'Condicional Simple (Условное время)',
+      sections: [
+        {
+          id: 'образование',
+          title: '1. Образование',
+          content: `Берем глагол (инфинитив) и добавляем окончания: **-ía, -ías, -ía, -íamos, -íais, -ían**.
 
-Используются для описания **гипотетических**, **нереальных** или **маловероятных** ситуаций в **настоящем** или **будущем**.
+**Hablar-ía** (Я бы поговорил)
 
-## Структура:
+**Comer-ía** (Я бы поел)
 
-**Si + IMPERFECTO DE SUBJUNTIVO, CONDICIONAL SIMPLE**
+**Vivir-ía** (Я бы пожил)
 
-## Imperfecto de subjuntivo - образование:
+**Исключения:** Те же самые, что в будущем времени (Futuro Simple). Корень меняется, но окончания остаются теми же:
 
-**Основа: 3 лицо множественного числа Pretérito indefinido**
+- Tener → **tendr-ía**
+- Hacer → **har-ía**
+- Decir → **dir-ía**
+- Poder → **podr-ía**
+- Querer → **querr-ía**`
+        },
+        {
+          id: 'употребление',
+          title: '2. Когда использовать?',
+          content: `**А) Вежливость и желания (Бы)**
 
-**Ellos hablar-ON → habla- + окончания**
-**Ellos comier-ON → comie- + окончания**
+Самый частый случай. Мы выражаем мечты или вежливые просьбы.
 
-| Лицо | Окончания | Hablar | Comer | Vivir |
-|------|-----------|--------|-------|-------|
-| yo | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
-| tú | -ras / -ses | hablaras / hablases | comieras / comieses | vivieras / vivieses |
-| él/ella | -ra / -se | hablara / hablase | comiera / comiese | viviera / viviese |
-| nosotros | -ramos / -semos | habláramos / hablásemos | comiéramos / comiésemos | viviéramos / viviésemos |
-| vosotros | -rais / -seis | hablarais / hablaseis | comierais | comieseis | vivierais / vivieseis |
-| ellos | -ran / -sen | hablaran / hablasen | comieran / comiesen | vivieran / viviesen |
+- ¿**Podrías** abrir la ventana? (Ты бы мог открыть окно?)
+- Me **gustaría** viajar a España. (Мне бы хотелось поехать в Испанию).
 
-**В современном испанском обе формы (-ra и -se) равнозначны, но форма на -RA более распространена.**
+**Б) Будущее в прошлом (Согласование времен)**
 
-### Неправильные глаголы:
+Если мы в прошлом сказали, что что-то «сделаем», то это «сделаем» превращается в Condicional.
 
-Основа берется от **pretérito indefinido (ellos)**:
+- Dijo que **vendría**. (Он сказал, что придет).
 
-| Infinitivo | Ellos (indefinido) | Imperfecto subjuntivo |
-|------------|--------------------|-----------------------|
-| ser / ir | fueron | fuera, fueras, fuera... |
-| tener | tuvieron | tuviera, tuvieras... |
-| poder | pudieron | pudiera, pudieras... |
-| hacer | hicieron | hiciera, hicieras... |
-| decir | dijeron | dijera, dijeras... |
-| estar | estuvieron | estuviera, estuvieras... |
-| saber | supieron | supiera, supieras... |
-| querer | quisieron | quisiera, quisieras... |
-| venir | vinieron | viniera, vinieras... |
-| poner | pusieron | pusiera, pusieras... |
+*Сравни:* «Dice que **vendrá**» (Говорит, что придет — настоящее + будущее).
 
-## Condicional simple - повторение:
+*Сравни:* «Dijo que **vendría**» (Сказал, что придет — прошлое + condicional).
 
-**Infinitivo + окончания: -ía, -ías, -ía, -íamos, -íais, -ían**
+**В) Предположение о прошлом**
 
-## Uso:
+Когда мы гадаем, сколько было времени или что происходило в прошлом.
 
-### 1. Ситуации противоречащие реальности СЕЙЧАС:
+- ¿Qué hora era? — **Serían** las diez. (Сколько было времени? — Было, наверное, часов десять).`
+        },
+        {
+          id: 'косвенная-речь',
+          title: '3. Условные предложения (Косвенная речь)',
+          content: `Если мы пересказываем чье-то условие из прошлого, то времена сдвигаются:
 
-- **Si tuviera dinero, viajaría por el mundo** (Если бы у меня были деньги, я бы путешествовал - но их нет)
-- **Si fuera rica, no trabajaría** (Если бы я была богатой, не работала бы - но я не богата)
-- **Si viviera en España, hablaría español mejor** (Если бы я жил в Испании, говорил бы лучше по-испански - но я не живу)
+**Прямая речь:** «Si tengo dinero, **iré**» (Если будут деньги, пойду).
 
-### 2. Маловероятные ситуации в будущем:
-
-- **Si me tocara la lotería, compraría una casa** (Если бы я выиграл в лотерею, купил бы дом - маловероятно)
-- **Si encontrara un tesoro, sería millonario** (Если бы нашел сокровище, был бы миллионером)
-
-### 3. Вежливые просьбы и советы:
-
-- **Si pudieras ayudarme, te lo agradecería** (Если бы ты мог помочь, был бы благодарен - вежливая просьба)
-- **¿Qué harías tú en mi lugar?** (Что бы ты сделал на моем месте?)
-
-## ¡CUIDADO!
-
-❌ **Si tendría dinero, viajaría** (НЕПРАВИЛЬНО - condicional после si)
-✓ **Si tuviera dinero, viajaría** (ПРАВИЛЬНО - imperfecto subjuntivo после si)
-
-## Разница Type 1 vs Type 2:
-
-| Type 1 (реальное) | Type 2 (нереальное) |
-|-------------------|---------------------|
-| Si **tengo** dinero, **compraré** un coche | Si **tuviera** dinero, **compraría** un coche |
-| (Если будут деньги - возможно) | (Если бы были - но их нет) |
-| Si **hace** sol, **iremos** | Si **hiciera** sol, **iríamos** |
-| (Если будет солнечно - возможно) | (Если бы было - но нет) |
-
-## Примеры в контексте:
-
-**¿Qué harías si...?** (Что бы ты сделал, если бы...?)
-
-- Si **tuviera** un millón de euros, **viajaría** por todo el mundo
-- Si **pudiera** hablar con cualquier persona, **elegiría** a mi abuelo
-- Si **fuera** presidente, **cambiaría** muchas leyes
-- Si **supiera** tocar la guitarra, **formaría** una banda
-- Si **viviera** 200 años, **aprendería** todos los idiomas del mundo`,
-      examples: [
-        { spanish: 'Si tuviera más tiempo, aprendería a tocar piano', russian: 'Если бы у меня было больше времени, я бы научился играть на пианино' },
-        { spanish: 'Si fuera rico, viajaría por todo el mundo', russian: 'Если бы я был богатым, путешествовал бы по всему миру' },
-        { spanish: '¿Qué harías si ganaras la lotería?', russian: 'Что бы ты сделал, если бы выиграл в лотерею?' },
-        { spanish: 'Si pudiera volar, iría a visitarte cada día', russian: 'Если бы я мог летать, навещал бы тебя каждый день' },
-        { spanish: 'Si viviera en España, hablaría español perfectamente', russian: 'Если бы я жил в Испании, говорил бы по-испански идеально' }
+**Косвенная речь:** Dijo que si **tenía** (Imperfecto) dinero, **iría** (Condicional).`
+        }
       ]
     },
-    vocabulary: [
-      { word: 'soñar', translation: 'мечтать', audioUrl: null },
-      { word: 'desear', translation: 'желать', audioUrl: null },
-      { word: 'imaginar', translation: 'воображать', audioUrl: null },
-      { word: 'suponer', translation: 'предполагать', audioUrl: null },
-      { word: 'la hipótesis', translation: 'гипотеза', audioUrl: null },
-      { word: 'irreal', translation: 'нереальный', audioUrl: null },
-      { word: 'imposible', translation: 'невозможный', audioUrl: null },
-      { word: 'improbable', translation: 'маловероятный', audioUrl: null },
-      { word: 'el sueño', translation: 'мечта', audioUrl: null },
-      { word: 'la fantasía', translation: 'фантазия', audioUrl: null },
-      { word: 'ideal', translation: 'идеальный', audioUrl: null },
-      { word: 'perfecto', translation: 'совершенный', audioUrl: null },
-      { word: 'ganar la lotería', translation: 'выиграть в лотерею', audioUrl: null },
-      { word: 'cambiar el mundo', translation: 'изменить мир', audioUrl: null },
-      { word: 'en mi lugar', translation: 'на моем месте', audioUrl: null }
-    ],
-    readingText: {
-      title: 'Si yo fuera...',
-      content: `Un grupo de amigos está sentado en una cafetería hablando sobre sus sueños y fantasías. La pregunta del día es: "Si pudieras ser otra persona por un día, ¿quién serías?"
-
-Ana empieza: "Si **pudiera** ser alguien por un día, **sería** una astronauta. Si **fuera** astronauta, **viajaría** al espacio y **vería** la Tierra desde arriba. Si **estuviera** en el espacio, **flotaría** en gravedad cero. ¡**Sería** increíble! Si **tuviera** esa oportunidad, **tomaría** mil fotos para mostrarles a todos".
-
-Carlos responde: "Eso está bien, pero si yo **pudiera** elegir, **sería** un músico famoso. Si **fuera** músico, **tocaría** en estadios llenos de gente. Si **tuviera** ese talento, **compondría** canciones que llegaran al corazón de millones de personas. Y si **ganara** mucho dinero con la música, **ayudaría** a jóvenes artistas a empezar sus carreras".
-
-Laura tiene otra idea: "Si yo **pudiera** ser alguien, **elegiría** ser una científica que descubre la cura para enfermedades graves. Si **encontrara** esa cura, **salvaría** millones de vidas. Si **tuviera** ese poder, **dedicaría** toda mi vida a la investigación. Nada me **haría** más feliz que ayudar a la humanidad de esa manera".
-
-Miguel es más práctico: "Mis sueños son más simples. Si **tuviera** mucho dinero, no **trabajaría** tanto. Si no **necesitara** trabajar, **pasaría** más tiempo con mi familia. Si **pudiera**, **viajaría** con ellos por el mundo. Si **viviera** sin preocupaciones económicas, **sería** mucho más feliz".
-
-Sofía dice: "Yo tengo una pregunta diferente: ¿Qué **harían** si pudieran volver al pasado? Si yo **pudiera** viajar en el tiempo, **volvería** a mi infancia. Si **fuera** niña otra vez, **jugaría** más y me **preocuparía** menos. Si **supiera** entonces lo que sé ahora, **disfrutaría** más de cada momento".
-
-David añade: "Si yo **pudiera** cambiar algo del pasado, **estudiaría** más en la universidad. Si **hubiera** estudiado más, ahora **tendría** un mejor trabajo. Pero bueno, si **me arrepintiera** de todo, no **viviría** el presente. Si **pasara** todo el tiempo pensando en el pasado, **perdería** el hoy".
-
-Ana pregunta: "¿Y qué **harían** si tuvieran un superpoder? Si yo **tuviera** un superpoder, **elegiría** poder volar. Si **pudiera** volar, **iría** a visitar a todos mis amigos cuando quisiera. Si **volara**, nunca más **estaría** atrapada en el tráfico".
-
-Carlos ríe: "Si yo **tuviera** un superpoder, **sería** la invisibilidad. Si **fuera** invisible, **podría** entrar gratis a todos los conciertos. Aunque si lo **pensara** bien, eso no sería muy ético. Si **hiciera** eso, básicamente **estaría** robando".
-
-Laura dice: "Mi superpoder sería leer mentes. Si **pudiera** leer mentes, **sabría** lo que realmente piensan las personas. Aunque si **tuviera** ese poder, quizás **descubriría** cosas que preferiría no saber. Si **supiera** todos los secretos de la gente, probablemente **sería** muy incómodo".
-
-Miguel propone otra pregunta: "Si **pudieran** vivir en cualquier época histórica, ¿cuál **elegirían**? Si yo **pudiera**, **viviría** en el Renacimiento. Si **estuviera** en esa época, **conocería** a Leonardo da Vinci y Miguel Ángel. Si **viviera** entonces, **vería** cómo se creaban esas obras maestras".
-
-Sofía responde: "Yo prefiero el futuro. Si **pudiera** ver el futuro, **viajaría** 100 años adelante. Si **estuviera** en 2125, **vería** qué tecnología existe. Si el mundo **fuera** mejor entonces, **sería** muy esperanzador. Pero si **fuera** peor, preferiría no saberlo".
-
-David reflexiona: "¿Saben qué? Si yo **pudiera** cambiar algo, **cambiaría** el sistema educativo. Si la educación **fuera** diferente, los niños **aprenderían** más felices. Si las escuelas **enseñaran** habilidades prácticas, los jóvenes **estarían** mejor preparados para la vida. Si los maestros **ganaran** más dinero, **tendríamos** mejores profesionales educando a nuestros hijos".
-
-Ana concluye: "Todas estas son fantasías bonitas. Pero si **pensara** en lo que realmente importa, **diría** que si **tuviera** salud, **tendría** todo. Si mi familia **estuviera** bien, yo **estaría** feliz. Si **pudiera** elegir entre riqueza y salud, **elegiría** salud sin dudar. Porque si **estás** sano, **puedes** conseguir todo lo demás. Pero si **pierdes** la salud, todo lo demás **pierde** sentido".
-
-Todos asienten. Al final, si **pudieran** tener cualquier cosa, **elegirían** las mismas cosas simples: salud, amor, tiempo con seres queridos y paz. Las grandes fantasías son divertidas para imaginar, pero la verdadera felicidad está en las cosas simples que ya tienen.`,
-      translation: `Группа друзей сидит в кафе и говорит о мечтах и фантазиях. Вопрос дня: "Если бы ты мог быть кем-то другим на один день, кем бы ты был?"
-
-Ана начинает: "Если бы я могла быть кем-то на один день, я была бы астронавтом. Если бы я была астронавтом, я бы полетела в космос и увидела Землю сверху. Если бы я была в космосе, я бы плавала в невесомости. Это было бы невероятно! Если бы у меня была такая возможность, я бы сделала тысячу фотографий, чтобы показать всем".
-
-Карлос отвечает: "Это хорошо, но если бы я мог выбирать, я был бы знаменитым музыкантом. Если бы я был музыкантом, я бы играл на стадионах, полных людей. Если бы у меня был такой талант, я бы сочинял песни, которые доходили бы до сердец миллионов людей. А если бы я зарабатывал много денег музыкой, я бы помогал молодым артистам начать свою карьеру".
-
-У Лауры другая идея: "Если бы я могла быть кем-то, я бы выбрала быть учёным, который открывает лекарство от серьёзных болезней. Если бы я нашла это лекарство, я бы спасла миллионы жизней. Если бы у меня была такая сила, я бы посвятила всю свою жизнь исследованиям. Ничто не сделало бы меня счастливее, чем помочь человечеству таким образом".
-
-Мигель более практичен: "Мои мечты проще. Если бы у меня было много денег, я бы не работал так много. Если бы мне не нужно было работать, я бы проводил больше времени с семьёй. Если бы я мог, я бы путешествовал с ними по миру. Если бы я жил без финансовых забот, я был бы гораздо счастливее".
-
-София говорит: "У меня другой вопрос: что бы вы сделали, если бы могли вернуться в прошлое? Если бы я могла путешествовать во времени, я бы вернулась в детство. Если бы я снова была ребёнком, я бы больше играла и меньше волновалась. Если бы я тогда знала то, что знаю сейчас, я бы больше наслаждалась каждым моментом".
-
-Давид добавляет: "Если бы я мог изменить что-то в прошлом, я бы больше учился в университете. Если бы я больше учился, у меня сейчас была бы лучшая работа. Но хорошо, если бы я сожалел обо всём, я бы не жил настоящим. Если бы я всё время думал о прошлом, я бы потерял сегодня".
-
-Ана спрашивает: "А что бы вы сделали, если бы у вас была суперсила? Если бы у меня была суперсила, я бы выбрала способность летать. Если бы я могла летать, я бы навещала всех моих друзей, когда захочу. Если бы я летала, я бы никогда больше не застревала в пробках".
-
-Карлос смеётся: "Если бы у меня была суперсила, это была бы невидимость. Если бы я был невидимым, я мог бы входить бесплатно на все концерты. Хотя если бы я хорошо подумал, это было бы не очень этично. Если бы я делал это, я бы в основном воровал".
-
-Лаура говорит: "Моя суперсила была бы читать мысли. Если бы я могла читать мысли, я бы знала, что на самом деле думают люди. Хотя если бы у меня была такая сила, возможно я бы узнала вещи, которые предпочла бы не знать. Если бы я знала все секреты людей, вероятно было бы очень неловко".
-
-Мигель предлагает другой вопрос: "Если бы вы могли жить в любую историческую эпоху, какую бы выбрали? Если бы я мог, я бы жил в эпоху Возрождения. Если бы я был в ту эпоху, я бы познакомился с Леонардо да Винчи и Микеланджело. Если бы я жил тогда, я бы видел, как создавались эти шедевры".
-
-София отвечает: "Я предпочитаю будущее. Если бы я могла увидеть будущее, я бы путешествовала на 100 лет вперёд. Если бы я была в 2125 году, я бы увидела, какие существуют технологии. Если бы мир был лучше тогда, это было бы очень обнадёживающим. Но если бы он был хуже, я предпочла бы не знать".
-
-Давид размышляет: "Знаете что? Если бы я мог что-то изменить, я бы изменил систему образования. Если бы образование было другим, дети бы учились более счастливо. Если бы школы учили практическим навыкам, молодёжь была бы лучше подготовлена к жизни. Если бы учителя зарабатывали больше денег, у нас были бы лучшие профессионалы, обучающие наших детей".
-
-Ана заключает: "Всё это красивые фантазии. Но если бы я думала о том, что действительно важно, я бы сказала, что если бы у меня было здоровье, у меня было бы всё. Если бы моя семья была в порядке, я была бы счастлива. Если бы я могла выбирать между богатством и здоровьем, я бы выбрала здоровье без сомнений. Потому что если ты здоров, ты можешь получить всё остальное. Но если ты потеряешь здоровье, всё остальное теряет смысл".
-
-Все кивают. В конце концов, если бы они могли иметь что угодно, они бы выбрали те же простые вещи: здоровье, любовь, время с близкими и мир. Большие фантазии интересно представлять, но настоящее счастье в простых вещах, которые у них уже есть.`
-    },
-    exercises: ['ex-8-2-1', 'ex-8-2-2', 'ex-8-2-3', 'ex-8-2-4', 'ex-8-2-5']
+    exercises: ['ex-8-2-1', 'ex-8-2-2']
   },
 
   'lesson-8-3': {
@@ -19291,28 +19179,48 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   // Урок 8.2 - Нереальные условия
   'ex-8-2-1': {
     id: 'ex-8-2-1',
-    type: 'grammar',
-    title: 'Imperfecto de subjuntivo',
-    description: 'Выберите правильную форму imperfecto subjuntivo',
+    type: 'fillblank',
+    title: 'Упражнение 1: Condicional Simple',
+    description: 'Поставьте глаголы в соответствующую форму Condicional simple и переведите на русский язык',
     questions: [
-      { sentence: 'Si yo ___ (tener) dinero, viajaría', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 2 },
-      { sentence: 'Si tú ___ (ser) rico, ¿qué harías?', options: ['eres', 'seas', 'fueras', 'serías'], correct: 2 },
-      { sentence: 'Si nosotros ___ (poder) volar, iríamos al espacio', options: ['podemos', 'podamos', 'pudiéramos', 'podríamos'], correct: 2 },
-      { sentence: 'Si ellos ___ (vivir) aquí, nos veríamos más', options: ['viven', 'vivan', 'vivieran', 'vivirían'], correct: 2 },
-      { sentence: 'Si ella ___ (estudiar) más, aprobaría', options: ['estudia', 'estudie', 'estudiara', 'estudiaría'], correct: 2 }
+      { sentence: 'Ahora (gustarme) ___ ir a Japón para probar platos exóticos.', correct: 'me gustaría' },
+      { sentence: 'Alicia nos dijo que ustedes (venir) ___ el lunes y (traernos) ___ las fotos.', correct: 'vendrían traerían' },
+      { sentence: 'Yo te (explicar) ___ como se hace paella, pero yo misma no lo sé.', correct: 'explicaría' },
+      { sentence: 'Tú prometiste que después de la reunión (pasar) ___ por mi casa y nosotros (discutir) ___ el menú para la fiesta.', correct: 'pasarías discutiríamos' },
+      { sentence: 'Cuando mi abuela se casó por primera vez (tener, ella) ___ 16 años.', correct: 'tendría' },
+      { sentence: 'Le (decir) ___ a usted el número de mi pasaporte pero no lo recuerdo.', correct: 'diría' },
+      { sentence: 'Juan pensaba que tú (negarse) ___ a venir con nosotros de excursión.', correct: 'te negarías' },
+      { sentence: 'En los años noventa Pedro (ganar) ___ muchísimo, porque ellos compraron un chalé en la costa y un coche de lujo.', correct: 'ganaría' },
+      { sentence: '(Acompañaros, nosotros) ___ con mucho gusto al aeropuerto, pero no tenemos coche, vamos a llamar un taxi.', correct: 'os acompañaríamos' },
+      { sentence: 'Durante la guerra (vivir, ellos) ___ en Panamá.', correct: 'vivirían' },
+      { sentence: 'Victor soñaba con ir a Sierra Nevada el próximo enero donde él (esquiar) ___ y (poder) ___ probar el jerez.', correct: 'esquiaría podría' },
+      { sentence: '(Hacer, ellos) ___ un viaje a América Latina pero no disponen de tanto dinero.', correct: 'harían' },
+      { sentence: 'Cuando entré en la habitación ellos (hablar) ___ de mí, porque callaron en seguida.', correct: 'hablarían' },
+      { sentence: 'Ahora (ver, yo) ___ mi programa favorito por la tele, pero tengo que irme.', correct: 'vería' },
+      { sentence: 'Antonio no quiso cenar, no (tener, él) ___ apetito o (estar, él) ___ muy cansado.', correct: 'tendría estaría' }
     ]
   },
   'ex-8-2-2': {
     id: 'ex-8-2-2',
-    type: 'grammar',
-    title: 'Tipo 1 vs Tipo 2',
-    description: 'Elija el tipo correcto según el contexto',
+    type: 'writing',
+    title: 'Упражнение 2: Перевод на испанский',
+    description: 'Переведите на испанский язык',
     questions: [
-      { sentence: 'Si ___ (tener-yo) tiempo mañana, te llamo (REAL)', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 0 },
-      { sentence: 'Si ___ (tener-yo) un millón, viajaría (IRREAL)', options: ['tengo', 'tenga', 'tuviera', 'tendría'], correct: 2 },
-      { sentence: 'Si ___ (estudiar-tú), aprobarás (REAL)', options: ['estudias', 'estudies', 'estudiaras', 'estudiarías'], correct: 0 },
-      { sentence: 'Si ___ (estudiar-tú) medicina, serías doctor (IRREAL)', options: ['estudias', 'estudies', 'estudiaras', 'estudiarías'], correct: 2 },
-      { sentence: 'Si ___ (llover) mañana, no iré (REAL)', options: ['llueve', 'llueva', 'lloviera', 'llovería'], correct: 0 }
+      { russian: 'Ты сказал, что не сможешь встретить меня в аэропорту, так как будешь занят.', correct: 'dijiste que no podrías recogerme en el aeropuerto porque estarías ocupado' },
+      { russian: 'Они пообещали, что принесут нам фотографии после своего путешествия по Европе.', correct: 'prometieron que nos traerían las fotos después de su viaje por europa' },
+      { russian: 'Я бы поехала с тобой, но не могу, у меня сейчас очень много работы. Я сожалею.', correct: 'iría contigo pero no puedo tengo mucho trabajo ahora lo siento' },
+      { russian: 'Мы поняли, что если племянники проведут у нас выходные, мы не сможем подготовиться к празднику.', correct: 'entendimos que si los sobrinos pasaran el fin de semana con nosotros no podríamos prepararnos para la fiesta' },
+      { russian: 'Когда я был маленьким, мой дядя, должно быть, работал на кондитерской фабрике, потому что он всегда приносил мне конфеты или пирожные.', correct: 'cuando era pequeño mi tío trabajaría en una fábrica de dulces porque siempre me traía caramelos o pasteles' },
+      { russian: 'Этот ресторан новый? — Я бы этого не сказал, его построили давно, но он очень хороший.', correct: 'este restaurante es nuevo no diría eso lo construyeron hace tiempo pero es muy bueno' },
+      { russian: 'Родители подумали, что если дочка будет чувствовать себя лучше, в воскресенье они вместе пойдут в зоопарк.', correct: 'los padres pensaron que si la hija se sintiera mejor el domingo irían juntos al zoo' },
+      { russian: 'Начальник сказал, что если он опоздает на самолет, то поедет на поезде.', correct: 'el jefe dijo que si perdiera el avión iría en tren' },
+      { russian: 'Мы знали, что всю следующую неделю будет холодно, и будет идти дождь.', correct: 'sabíamos que toda la semana siguiente haría frío y llovería' },
+      { russian: 'Я бы попробовала этот салат, но он с кальмарами, а я их не люблю.', correct: 'probaría esta ensalada pero tiene calamares y no me gustan' },
+      { russian: 'Вы, наверное, тоже носили короткие юбки и широкие брюки, когда учились в университете?', correct: 'usted también llevaría faldas cortas y pantalones anchos cuando estudiaba en la universidad' },
+      { russian: 'Хуан сказал, что не будет завтракать, потому что опоздает на работу.', correct: 'juan dijo que no desayunaría porque llegaría tarde al trabajo' },
+      { russian: 'Мы не знаем, что выбрать на десерт. Что бы Вы нам посоветовали?', correct: 'no sabemos qué elegir de postre qué nos aconsejaría' },
+      { russian: 'Тетя Эстер жила в Бельгии и приезжала к нам в гости на поезде, вероятно, она боялась летать на самолете.', correct: 'la tía ester vivía en bélgica y nos visitaba en tren probablemente tendría miedo de volar en avión' },
+      { russian: 'Официант нас предупредил, что паэлья будет готова через 30 минут.', correct: 'el camarero nos avisó que la paella estaría lista en 30 minutos' }
     ]
   },
   'ex-8-2-3': {
