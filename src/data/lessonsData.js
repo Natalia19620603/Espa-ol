@@ -9138,7 +9138,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 
   'lesson-8-1': {
     id: 'lesson-8-1',
-    title: 'Урок 1: Условные предложения I типа. Modo potencial (condicional)',
+    title: 'Урок 1: Условные предложения I типа',
     moduleId: 'module-8',
     grammar: {
       title: 'Условные предложения I типа (Реальное условие)',
@@ -9404,225 +9404,65 @@ Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabaj
 
   'lesson-8-3': {
     id: 'lesson-8-3',
-    title: 'Урок 3: Условия в прошлом (Tipo 3)',
+    title: 'Урок 3: Concordancia de los tiempos (согласование времен изъявительного наклонения). Перевод прямой речи в косвенную',
     moduleId: 'module-8',
     grammar: {
-      title: 'Условные предложения третьего типа (Condicionales pasados)',
+      title: 'Согласование времен (Concordancia de tiempos)',
       content: `
-# Условные предложения Tipo 3 (Нереальные условия в прошлом)
+# Согласование времен (Concordancia de tiempos)
 
-Используются для описания **нереальных ситуаций в прошлом** - того, что **НЕ произошло**, но **могло бы** произойти при других обстоятельствах.
+## Правило 1: Если "вводное слово" в Настоящем (Dice)
 
-## Структура:
-
-**Si + PLUSCUAMPERFECTO DE SUBJUNTIVO, CONDICIONAL COMPUESTO**
-
-## Pluscuamperfecto de subjuntivo - образование:
-
-**Imperfecto de subjuntivo глагола HABER + participio pasado**
-
-| Лицо | Haber (imp. subj.) | + participio | Пример |
-|------|-------------------|--------------|---------|
-| yo | hubiera / hubiese | hablado/comido/vivido | hubiera hablado |
-| tú | hubieras / hubieses | hablado/comido/vivido | hubieras comido |
-| él/ella | hubiera / hubiese | hablado/comido/vivido | hubiera vivido |
-| nosotros | hubiéramos / hubiésemos | hablado/comido/vivido | hubiéramos estado |
-| vosotros | hubierais / hubieseis | hablado/comido/vivido | hubierais ido |
-| ellos | hubieran / hubiesen | hablado/comido/vivido | hubieran sido |
-
-## Condicional compuesto (perfecto) - образование:
-
-**Condicional simple глагола HABER + participio pasado**
-
-| Лицо | Haber (condicional) | + participio |
-|------|---------------------|--------------|
-| yo | habría | hablado/comido/vivido |
-| tú | habrías | hablado/comido/vivido |
-| él/ella | habría | hablado/comido/vivido |
-| nosotros | habríamos | hablado/comido/vivido |
-| vosotros | habríais | hablado/comido/vivido |
-| ellos | habrían | hablado/comido/vivido |
-
-## Uso - Сожаления и упущенные возможности:
-
-### Формула:
-**Si + hubiera/hubiese + participio, habría + participio**
+Если человек говорит прямо сейчас (Dice) или только что сказал (Ha dicho), в придаточном предложении время **НЕ меняется**. Все остается как в оригинале.
 
 **Примеры:**
 
-- **Si hubiera estudiado, habría aprobado**
-  (Если бы я учился, я бы сдал - но не учился и не сдал)
+- Dice: "Vivo aquí" → Dice que **vive** allí. (Настоящее остается настоящим).
+- Dice: "Iré mañana" → Dice que **irá** mañana. (Будущее остается будущим).
 
-- **Si hubieras venido, te habrías divertido**
-  (Если бы ты пришел, повеселился бы - но не пришел)
+## Правило 2: Если "вводное слово" в Прошедшем (Dijo / Decía)
 
-- **Si hubiera sabido, habría ido**
-  (Если бы знал, пошел бы - но не знал и не пошел)
+Если мы пересказываем слова из прошлого, срабатывает "эффект сдвига". Мы как бы делаем шаг назад во времени.
 
-- **Si hubiéramos salido antes, habríamos llegado a tiempo**
-  (Если бы вышли раньше, прибыли бы вовремя - но опоздали)
+### Таблица сдвига времён:
 
-## Сравнение всех трех типов:
+| Время в прямой речи (Что сказали) | Время в косвенной речи (Как пересказываем) |
+|-----------------------------------|-------------------------------------------|
+| Presente (сделаю сейчас) | Imperfecto (делал тогда) |
+| Pretérito Perfecto / Indefinido (сделал) | Pluscuamperfecto (сделал ДО того момента) |
+| Futuro Simple (сделаю потом) | Condicional Simple (сделал БЫ / будущее в прошлом) |
+| Imperfecto / Pluscuamperfecto | НЕ МЕНЯЮТСЯ |
 
-| Тип | Формула | Значение | Пример |
-|-----|---------|----------|--------|
-| **Tipo 1** | Si + presente, futuro | Реально, возможно | Si **estudias**, **aprobarás** |
-| **Tipo 2** | Si + imp. subj., condicional | Нереально сейчас | Si **estudiaras**, **aprobarías** |
-| **Tipo 3** | Si + plucp. subj., cond. compuesto | Нереально в прошлом | Si **hubieras estudiado**, **habrías aprobado** |
+## 3. Изменение слов-указателей
 
-## Mismo ejemplo en los tres tipos:
+Когда мы переносим действие в прошлое, слова "сегодня" или "здесь" теряют смысл, их нужно заменить:
 
-**Тема: экзамен**
+| Прямая речь | Косвенная речь |
+|-------------|----------------|
+| Hoy (сегодня) | Aquel día (в тот день) |
+| Ayer (вчера) | El día anterior (накануне) |
+| Mañana (завтра) | Al día siguiente (на следующий день) |
+| Ahora (сейчас) | Entonces (тогда) |
+| Aquí (здесь) | Allí (там) |
+| Este (этот) | Aquel (тот) |
 
-1. **Si estudias, aprobarás** - Если будешь учиться, сдашь (возможно, экзамен еще не был)
-2. **Si estudiaras, aprobarías** - Если бы ты учился, сдал бы (но ты не учишься)
-3. **Si hubieras estudiado, habrías aprobado** - Если бы ты учился, сдал бы (но не учился и провалил)
+## Примеры с исправлениями (План прошедшего):
 
-## Вариации Tipo 3:
+1. Ana dijo: "Ahora vivo aquí" → Ana dijo que **entonces vivía allí**.
+   (Сдвиг: Настоящее → Прошедшее).
 
-### 1. Смешанные условия (Mixed conditionals):
+2. Ana dijo: "Hoy he visto a Lola" → Ana dijo que **aquel día había visto** a Lola.
+   (Сдвиг: Только что → Давно).
 
-**Прошлое условие → Настоящий результат:**
-
-- **Si hubiera estudiado medicina, ahora sería doctor**
-  (Если бы я изучал медицину, сейчас был бы врачом)
-
-- **Si no hubiera fumado tanto, ahora estaría más sano**
-  (Если бы не курил так много, сейчас был бы здоровее)
-
-### 2. Выражение упрека (reproches):
-
-- **Si me hubieras escuchado, no estarías en problemas**
-  (Если бы ты меня послушал, не был бы в беде)
-
-- **Si hubieras llegado a tiempo, habrías visto el comienzo**
-  (Если бы пришел вовремя, увидел бы начало)
-
-### 3. Con "de + infinitivo" (неформальная замена):
-
-В разговорном испанском вместо pluscuamperfecto de subjuntivo часто используют **de + haber + participio**:
-
-- **De haberlo sabido, habría venido** = Si lo hubiera sabido, habría venido
-- **De tener dinero, lo habría comprado** = Si hubiera tenido dinero, lo habría comprado
-
-## Otros marcadores condicionales:
-
-| Выражение | Значение | Пример |
-|-----------|----------|--------|
-| **Como si** | как будто | Habla como si **supiera** todo |
-| **Aunque** | хотя | Aunque **lloviera**, iría |
-| **En caso de que** | в случае если | En caso de que **venga**, avísame |
-| **A no ser que** | если только не | No iré a no ser que **vengas** |
-
-## ¡ERRORES COMUNES!
-
-❌ Si **hubiera tenido**, **tendría** dinero (смешивание времен неправильно)
-✓ Si **hubiera tenido** dinero, lo **habría comprado** (оба в прошлом)
-✓ Si **hubiera estudiado** medicina, **sería** doctor (прошлое→настоящее, OK)
-
-❌ Si **habría sabido**, habría venido (condicional после si)
-✓ Si **hubiera sabido**, habría venido (pluscuamperfecto subjuntivo после si)`,
+3. Ana dijo: "Mañana volveré" → Ana dijo que **al día siguiente volvería**.
+   (Сдвиг: Будущее → Условное).`,
       examples: [
-        { spanish: 'Si hubiera estudiado más, habría aprobado el examen', russian: 'Если бы я больше учился, сдал бы экзамен' },
-        { spanish: 'Si hubieras venido, te habrías divertido mucho', russian: 'Если бы ты пришел, очень повеселился бы' },
-        { spanish: 'Si hubiera sabido, no habría dicho nada', russian: 'Если бы знал, ничего бы не сказал' },
-        { spanish: 'Si hubiéramos salido antes, habríamos llegado a tiempo', russian: 'Если бы вышли раньше, прибыли бы вовремя' },
-        { spanish: 'De haberlo sabido, habría actuado diferente', russian: 'Знай я это, поступил бы иначе' }
+        { spanish: 'Dice que vive allí', russian: 'Он говорит, что живет там' },
+        { spanish: 'Dice que irá mañana', russian: 'Он говорит, что пойдет завтра' },
+        { spanish: 'Ana dijo que entonces vivía allí', russian: 'Анна сказала, что тогда жила там' },
+        { spanish: 'Ana dijo que aquel día había visto a Lola', russian: 'Анна сказала, что в тот день видела Лолу' },
+        { spanish: 'Ana dijo que al día siguiente volvería', russian: 'Анна сказала, что на следующий день вернется' }
       ]
-    },
-    vocabulary: [
-      { word: 'arrepentirse', translation: 'сожалеть, раскаиваться', audioUrl: null },
-      { word: 'lamentar', translation: 'сожалеть', audioUrl: null },
-      { word: 'el arrepentimiento', translation: 'сожаление, раскаяние', audioUrl: null },
-      { word: 'la oportunidad perdida', translation: 'упущенная возможность', audioUrl: null },
-      { word: 'el error', translation: 'ошибка', audioUrl: null },
-      { word: 'la equivocación', translation: 'заблуждение, ошибка', audioUrl: null },
-      { word: 'darse cuenta', translation: 'осознать, понять', audioUrl: null },
-      { word: 'culpar', translation: 'винить', audioUrl: null },
-      { word: 'la culpa', translation: 'вина', audioUrl: null },
-      { word: 'perdonar', translation: 'прощать', audioUrl: null },
-      { word: 'el perdón', translation: 'прощение', audioUrl: null },
-      { word: 'la lección', translation: 'урок (в переносном смысле)', audioUrl: null },
-      { word: 'aprender de los errores', translation: 'учиться на ошибках', audioUrl: null },
-      { word: 'si hubiera sabido', translation: 'если бы я знал', audioUrl: null },
-      { word: 'debería haber', translation: 'должен был бы', audioUrl: null }
-    ],
-    readingText: {
-      title: 'Arrepentimientos y lecciones',
-      content: `Roberto tiene 65 años y está sentado en el parque, reflexionando sobre su vida. Como todos, tiene algunos arrepentimientos sobre decisiones que tomó - o que no tomó - en el pasado.
-
-"Si **hubiera estudiado** ingeniería como quería mi padre, **habría tenido** una carrera más estable", piensa. "Pero si **hubiera hecho** eso, nunca **habría descubierto** mi pasión por el arte. Si no **hubiera ido** a esa escuela de arte, no **habría conocido** a mi esposa Elena. Y si no la **hubiera conocido**, no **habría tenido** a mis tres hijos maravillosos. Así que, pensándolo bien, ¿fue realmente un error?"
-
-Roberto recuerda cuando tenía 25 años. "Si **hubiera aceptado** ese trabajo en Nueva York, **habría ganado** mucho dinero. Si **hubiera vivido** allí, **habría tenido** una vida completamente diferente. Pero si me **hubiera mudado**, **habría estado** lejos de mi familia. Si **hubiera elegido** el dinero sobre la familia, ¿**habría sido** más feliz? Lo dudo".
-
-Piensa en su hija mayor, Carmen. "Si le **hubiera dedicado** más tiempo cuando era niña, nuestra relación **sería** mejor ahora. Si no **hubiera trabajado** tanto, **habría visto** más de su infancia. Si **hubiera estado** presente en esos momentos importantes, quizás ahora **hablaríamos** más. Ese es un arrepentimiento que llevo conmigo".
-
-Su hijo Pablo tuvo problemas en la adolescencia. "Si **hubiera sido** más estricto con él, quizás no **habría tenido** esos problemas con las drogas. Pero si **hubiera sido** demasiado estricto, tal vez **habría sido** peor. Si **hubiera sabido** qué hacer, lo **habría hecho**. Pero nadie te enseña a ser padre perfecto. Si alguien me **hubiera dado** un manual, **habría sido** útil", piensa con ironía.
-
-Roberto recuerda una oportunidad de negocio. "Un amigo me propuso invertir en una empresa que ahora vale millones. Si **hubiera invertido** ese dinero, **sería** millonario. Si **hubiera tenido** el valor de arriesgar, mi vida **sería** muy diferente. Pero si **hubiera perdido** ese dinero, mi familia **habría sufrido**. Tomé la decisión segura. Si pudiera volver atrás, ¿**cambiaría** esa decisión? Probablemente no".
-
-Piensa en su salud. "Si **hubiera dejado** de fumar antes, **estaría** más sano ahora. Si **hubiera hecho** más ejercicio, no **tendría** estos problemas de corazón. Si **hubiera cuidado** mejor mi salud, **habría tenido** más energía para jugar con mis nietos. Ese es otro arrepentimiento real".
-
-Pero Roberto también piensa en las buenas decisiones. "Si no **hubiera arriesgado** todo para abrir mi propia galería de arte, **habría trabajado** para otros toda mi vida. Si no **hubiera seguido** mi pasión, **habría sido** infeliz. Si **hubiera escuchado** a la gente que decía que el arte no da dinero, nunca **habría tenido** la satisfación de vivir de lo que amo".
-
-Recuerda un momento crucial. "Si no **hubiera perdonado** a Elena cuando tuvimos esa gran pelea hace 30 años, **habríamos divorciado**. Si **hubiera dejado** que el orgullo ganara, **habría perdido** al amor de mi vida. Si no **hubiera aprendido** que el perdón es más importante que tener razón, **estaría** solo ahora".
-
-Su nieta Lucía se le acerca. Tiene 18 años y está llena de dudas sobre su futuro. "Abuelo, tengo miedo de tomar las decisiones equivocadas. ¿Y si elijo mal? ¿Y si **pierdo** oportunidades? ¿Y si me **arrepiento** después?"
-
-Roberto sonríe. "Lucía, si **hubiera sabido** todo cuando era joven, quizás **habría evitado** algunos errores. Pero si no **hubiera cometido** esos errores, no **habría aprendido** las lecciones más importantes de mi vida. Si **hubiera tenido** miedo de equivocarme, nunca **habría hecho** nada".
-
-"Si **hubiera esperado** a estar completamente seguro de cada decisión, **habría perdido** todas las oportunidades. Si no **hubiera arriesgado**, nunca **habría ganado**. Si **hubiera vivido** mi vida tratando de evitar errores, **habría evitado** también los mejores momentos".
-
-"Algunos arrepentimientos son inevitables. Si **hubiera podido** ver el futuro, **habría hecho** algunas cosas diferentes. Pero la vida no funciona así. Si todos **pudiéramos** ver el futuro, no **tendríamos** que tomar decisiones, y las decisiones son lo que nos hace humanos".
-
-Lucía escucha atentamente. Roberto continúa: "Si me **preguntaras** cuál es la lección más importante, te **diría** esto: Si **hubieras vivido** sin arriesgar nada, **habrías vivido**, pero no realmente. Si **tuvieras** la oportunidad de elegir entre una vida segura pero aburrida y una vida con riesgos pero llena de experiencias, ¿qué **elegirías**?"
-
-"Los grandes arrepentimientos de la vida no son por las cosas que hiciste mal, sino por las cosas que nunca intentaste. Si **hubiera sido** más valiente, **habría intentado** más cosas. Si no **hubiera tenido** miedo, **habría viajado** más, **habría conocido** más gente, **habría probado** más experiencias".
-
-"Pero también hay que ser sabio. Si **hubiera sido** completamente temerario, **habría arruinado** mi vida. El truco es encontrar el equilibrio. Si **hubiera sabido** eso a los 18, me **habría ahorrado** algunas preocupaciones".
-
-Lucía abraza a su abuelo. "Gracias, abuelo. Si no **hubiera hablado** contigo hoy, **habría seguido** con miedo. Ahora entiendo que los errores son parte de aprender".
-
-Roberto sonríe. Si alguien le **hubiera dicho** hace 40 años que sus arrepentimientos se **convertirían** en sabiduría, no lo **habría creído**. Pero así funciona la vida. Los errores del pasado son las lecciones del presente.
-
-Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo de equivocarte. Ten miedo de no intentar".`,
-      translation: `Роберто 65 лет, и он сидит в парке, размышляя о своей жизни. Как у всех, у него есть некоторые сожаления о решениях, которые он принял - или не принял - в прошлом.
-
-"Если бы я изучал инженерное дело, как хотел мой отец, у меня была бы более стабильная карьера", думает он. "Но если бы я сделал это, я бы никогда не открыл свою страсть к искусству. Если бы я не пошёл в ту художественную школу, я бы не встретил мою жену Елену. А если бы я её не встретил, у меня не было бы трёх замечательных детей. Так что, если подумать, было ли это действительно ошибкой?"
-
-Роберто вспоминает, когда ему было 25 лет. "Если бы я принял ту работу в Нью-Йорке, я бы заработал много денег. Если бы я жил там, у меня была бы совершенно другая жизнь. Но если бы я переехал, я был бы далеко от семьи. Если бы я выбрал деньги вместо семьи, был бы я счастливее? Сомневаюсь".
-
-Он думает о своей старшей дочери Кармен. "Если бы я посвятил ей больше времени, когда она была ребёнком, наши отношения были бы лучше сейчас. Если бы я не работал так много, я бы видел больше её детства. Если бы я присутствовал в те важные моменты, возможно сейчас мы бы больше разговаривали. Это сожаление, которое я ношу с собой".
-
-У его сына Пабло были проблемы в подростковом возрасте. "Если бы я был более строгим с ним, возможно у него не было бы тех проблем с наркотиками. Но если бы я был слишком строгим, может быть было бы хуже. Если бы я знал, что делать, я бы это сделал. Но никто не учит быть идеальным отцом. Если бы кто-то дал мне инструкцию, это было бы полезно", думает он с иронией.
-
-Роберто вспоминает деловую возможность. "Друг предложил мне инвестировать в компанию, которая сейчас стоит миллионы. Если бы я вложил те деньги, я был бы миллионером. Если бы у меня была смелость рискнуть, моя жизнь была бы очень другой. Но если бы я потерял те деньги, моя семья бы пострадала. Я принял безопасное решение. Если бы я мог вернуться назад, изменил бы я то решение? Вероятно, нет".
-
-Он думает о здоровье. "Если бы я бросил курить раньше, я был бы здоровее сейчас. Если бы я больше занимался спортом, у меня не было бы этих проблем с сердцем. Если бы я лучше заботился о здоровье, у меня было бы больше энергии играть с внуками. Это ещё одно реальное сожаление".
-
-Но Роберто также думает о хороших решениях. "Если бы я не рискнул всем, чтобы открыть свою собственную художественную галерею, я бы всю жизнь работал на других. Если бы я не последовал своей страсти, я был бы несчастен. Если бы я слушал людей, которые говорили, что искусство не приносит денег, я бы никогда не имел удовлетворения жить тем, что люблю".
-
-Он вспоминает решающий момент. "Если бы я не простил Елену, когда у нас была та большая ссора 30 лет назад, мы бы развелись. Если бы я позволил гордости победить, я бы потерял любовь всей моей жизни. Если бы я не научился, что прощение важнее, чем быть правым, я был бы один сейчас".
-
-Его внучка Люсия подходит к нему. Ей 18 лет, и она полна сомнений о будущем. "Дедушка, я боюсь принять неправильные решения. Что если я выберу неправильно? Что если я упущу возможности? Что если потом пожалею?"
-
-Роберто улыбается. "Люсия, если бы я знал всё, когда был молодым, возможно я бы избежал некоторых ошибок. Но если бы я не совершил тех ошибок, я бы не выучил самые важные уроки в моей жизни. Если бы я боялся ошибиться, я бы никогда ничего не сделал".
-
-"Если бы я ждал полной уверенности в каждом решении, я бы потерял все возможности. Если бы я не рисковал, я бы никогда не выиграл. Если бы я прожил жизнь, пытаясь избежать ошибок, я бы избежал также и лучших моментов".
-
-"Некоторые сожаления неизбежны. Если бы я мог видеть будущее, я бы сделал некоторые вещи по-другому. Но жизнь так не работает. Если бы все мы могли видеть будущее, нам не нужно было бы принимать решения, а решения - это то, что делает нас людьми".
-
-Люсия внимательно слушает. Роберто продолжает: "Если бы ты спросила меня, какой самый важный урок, я бы сказал вот что: Если бы ты прожила, не рискуя ничем, ты бы прожила, но не по-настоящему. Если бы у тебя был выбор между безопасной, но скучной жизнью и жизнью с рисками, но полной опыта, что бы ты выбрала?"
-
-"Большие сожаления в жизни - это не то, что ты сделал неправильно, а то, что ты никогда не пытался. Если бы я был смелее, я бы попробовал больше вещей. Если бы я не боялся, я бы больше путешествовал, познакомился с большим количеством людей, попробовал больше опыта".
-
-"Но также нужно быть мудрым. Если бы я был совершенно безрассудным, я бы разрушил свою жизнь. Хитрость в том, чтобы найти баланс. Если бы я знал это в 18, я бы избавил себя от некоторых беспокойств".
-
-Люсия обнимает дедушку. "Спасибо, дедушка. Если бы я не поговорила с тобой сегодня, я бы продолжала бояться. Теперь я понимаю, что ошибки - часть обучения".
-
-Роберто улыбается. Если бы кто-то сказал ему 40 лет назад, что его сожаления превратятся в мудрость, он бы не поверил. Но так работает жизнь. Ошибки прошлого - уроки настоящего.
-
-И если бы он мог дать совет своему молодому я, это было бы: "Не бойся ошибиться. Бойся не попробовать".`
     },
     exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
   },
