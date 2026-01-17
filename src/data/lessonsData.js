@@ -69,7 +69,7 @@ export const modules = {
     id: 'module-7',
     title: 'Модуль 7: ПРИЯТНОГО АППЕТИТА. Календарь. Сравнительная характеристика употребления indefinido / imperfecto. Конструкция al + инфинитив. Pretérito pluscuamperfecto de indicativo (предпрошедшее время изъявительного наклонения)',
     level: 'elementary',
-    lessons: ['lesson-7-1'],
+    lessons: ['lesson-7-1', 'lesson-7-2'],
     description: 'Календарь, сравнение Indefinido/Imperfecto, конструкция al + инфинитив'
   },
   'module-11': {
@@ -8423,7 +8423,72 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
 **Когда день рождения твоего деда?**
 — День рождения моего деда первого апреля.`
     },
-    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5']
+    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5', 'ex-7-1-6', 'ex-7-1-7']
+  },
+
+  'lesson-7-2': {
+    id: 'lesson-7-2',
+    title: 'Урок 2: Конструкция Al + Infinitivo',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Конструкция "Al + Infinitivo"',
+      intro: `Конструкция "Al + Infinitivo" — очень удобный и короткий способ сказать "когда..." или использовать деепричастие.`,
+      sections: [
+        {
+          id: 'variant-a',
+          title: 'Вариант А: Одно подлежащее (Тот же человек)',
+          content: `Если действие в обеих частях предложения делает один и тот же человек.
+
+**Пример:**
+- **Al bajar del coche, Juan nos saludó.**
+- Перевод: *Выходя из машины, Хуан поздоровался* (или: *Когда Хуан вышел из машины, он поздоровался*).
+
+**Структура:**
+\`\`\`
+Al + инфинитив, [основное действие]
+\`\`\`
+
+**Еще примеры:**
+- **Al entrar en casa, me quité los zapatos.** — Войдя в дом, я снял обувь.
+- **Al ver la película, lloré mucho.** — Когда я посмотрел фильм, я много плакал.
+- **Al terminar el trabajo, salimos a cenar.** — Закончив работу, мы вышли поужинать.`
+        },
+        {
+          id: 'variant-b',
+          title: 'Вариант Б: Разные подлежащие (Разные люди)',
+          content: `Если у инфинитива есть своё подлежащее (оно ставится сразу после него). В этом случае переводим только через "когда".
+
+**Пример:**
+- **Al llegar el tren, los pasajeros subieron.**
+- Перевод: *Когда поезд пришел, пассажиры зашли.*
+
+(Здесь «пришел поезд», а «зашли пассажиры» — два разных субъекта)
+
+**Структура:**
+\`\`\`
+Al + инфинитив + подлежащее инфинитива, [основное действие]
+\`\`\`
+
+**Еще примеры:**
+- **Al salir el sol, los pájaros comenzaron a cantar.** — Когда взошло солнце, птицы начали петь.
+- **Al terminar la clase, los estudiantes salieron corriendo.** — Когда урок закончился, студенты выбежали.
+- **Al sonar el despertador, me desperté.** — Когда зазвонил будильник, я проснулся.`
+        },
+        {
+          id: 'resumen',
+          title: 'Резюме',
+          content: `**Al + Infinitivo** используется для:
+1. Замены конструкций с "cuando" (когда)
+2. Выражения одновременных или последовательных действий
+3. Более краткого и элегантного стиля речи
+
+**Важно:**
+- Если подлежащее одно → **Al + инфинитив**
+- Если подлежащие разные → **Al + инфинитив + подлежащее**`
+        }
+      ]
+    },
+    exercises: ['ex-7-2-1', 'ex-7-2-2']
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
@@ -17310,6 +17375,312 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         sentence: 'En verano (hacer) _____ mucho calor y (ir, nosotros) _____ a la playa.',
         correct: 'hacía, íbamos',
         alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-6': {
+    id: 'ex-7-1-6',
+    type: 'fillblank',
+    title: 'Indefinido o Imperfecto - Практика смешанных времен',
+    description: 'Поставьте глаголы в соответствующую форму indefinido или imperfecto',
+    questions: [
+      {
+        sentence: 'De 8 a 15 de junio nosotros (estar) _____ en Valencia.',
+        correct: 'estuvimos',
+        alternatives: []
+      },
+      {
+        sentence: 'Todas las tardes los empleados (almorzar) _____ en la misma cafetería.',
+        correct: 'almorzaban',
+        alternatives: []
+      },
+      {
+        sentence: 'En 2008 vosotros (ir) _____ de vacaciones a Málaga.',
+        correct: 'fuisteis',
+        alternatives: []
+      },
+      {
+        sentence: 'Ayer supimos que Miguel (ser) _____ de Cuba.',
+        correct: 'era',
+        alternatives: []
+      },
+      {
+        sentence: 'Ellos no (poder) _____ venir anoche porque (trabajar) _____.',
+        correct: 'pudieron, trabajaban',
+        alternatives: []
+      },
+      {
+        sentence: 'Hace unos días (ver, yo) _____ esta película y no me (gustar) _____.',
+        correct: 'vi, gustó',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando yo (entrar) _____ en el cuarto, mi esposa (dormir) _____ en el sofá y los niños (comer) _____ fresas.',
+        correct: 'entré, dormía, comían',
+        alternatives: []
+      },
+      {
+        sentence: 'El 3 de mayo Inés (salir) _____ de casa, (tomar) _____ un taxi y (irse) _____ para siempre.',
+        correct: 'salió, tomó, se fue',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (ser, yo) _____ pequeño a menudo (jugar) _____ al fútbol con mi padre.',
+        correct: 'era, jugaba',
+        alternatives: []
+      },
+      {
+        sentence: 'Mientras Juan (reservar) _____ billetes por Internet, Marta (hacer) _____ la maleta.',
+        correct: 'reservaba, hacía',
+        alternatives: []
+      },
+      {
+        sentence: 'El año pasado (conocer, nosotros) _____ a muchas personas interesantes.',
+        correct: 'conocimos',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (ser) _____ joven, mi abuelo (trabajar) _____ en el campo.',
+        correct: 'era, trabajaba',
+        alternatives: []
+      },
+      {
+        sentence: 'Ayer (llover) _____ todo el día y no (poder, nosotros) _____ salir.',
+        correct: 'llovió, pudimos',
+        alternatives: []
+      },
+      {
+        sentence: 'De repente (aparecer) _____ un hombre que (llevar) _____ un sombrero negro.',
+        correct: 'apareció, llevaba',
+        alternatives: []
+      },
+      {
+        sentence: 'Cada domingo mis padres (ir) _____ a misa y luego (comer) _____ en casa de la abuela.',
+        correct: 'iban, comían',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-7': {
+    id: 'ex-7-1-7',
+    type: 'writing',
+    title: 'Indefinido/Imperfecto - Перевод на испанский',
+    description: 'Переведите на испанский язык, используя Pretérito Indefinido и Imperfecto',
+    questions: [
+      {
+        russian: 'Вчера была суббота, я отказался идти с женой в торговый центр, потому что знал, что по выходным там много народа',
+        correct: 'Ayer era sábado, me negué a ir con mi esposa al centro comercial porque sabía que los fines de semana había mucha gente allí'
+      },
+      {
+        russian: 'Было 5 часов утра, когда зазвонил телефон и разбудил нас',
+        correct: 'Eran las cinco de la mañana cuando sonó el teléfono y nos despertó'
+      },
+      {
+        russian: 'Недавно Лола мне сказала, что ее двоюродный брат хочет жениться на Кармен',
+        correct: 'Recientemente Lola me dijo que su primo quería casarse con Carmen'
+      },
+      {
+        russian: 'Когда Даниэль учился в Германии, родители звонили ему каждую неделю по вторникам и пятницам',
+        correct: 'Cuando Daniel estudiaba en Alemania, sus padres le llamaban cada semana los martes y viernes'
+      },
+      {
+        russian: 'Я не пришел вчера на нашу встречу, потому что жена была занята, и мне самому пришлось заехать в школу и привезти дочку домой',
+        correct: 'No vine ayer a nuestra reunión porque mi esposa estaba ocupada y yo mismo tuve que pasar por la escuela y llevar a mi hija a casa'
+      },
+      {
+        russian: 'Пока ты мерила костюмы и платья, я прочел все газеты',
+        correct: 'Mientras tú te probabas trajes y vestidos, yo leí todos los periódicos'
+      },
+      {
+        russian: 'Вчера вечером мы спросили у консьержки, где находится торговый центр «Меридиан» и в котором часу он начинает работать',
+        correct: 'Ayer por la noche preguntamos a la conserje dónde estaba el centro comercial Meridian y a qué hora empezaba a trabajar'
+      },
+      {
+        russian: '14 мая я вспомнил, что у Рикардо день рождения, написал ему письмо по электронной почте и пожелал ему здоровья, любви, удачи и много денег. Он поблагодарил меня за письмо',
+        correct: 'El 14 de mayo recordé que Ricardo tenía cumpleaños, le escribí una carta por correo electrónico y le deseé salud, amor, suerte y mucho dinero. Él me agradeció la carta'
+      },
+      {
+        russian: 'Позавчера мой младший брат принес домой кота с улицы, мы ему дали немного сыра, но он его не съел. А вчера вечером кот умер. Мой брат плакал всю ночь',
+        correct: 'Anteayer mi hermano menor trajo a casa un gato de la calle, le dimos un poco de queso pero no lo comió. Y ayer por la noche el gato murió. Mi hermano lloró toda la noche'
+      },
+      {
+        russian: 'Когда мы с Энрике сидели в баре, пили вино и смотрели футбол, вошел Андрес и поздоровался с нами по-русски',
+        correct: 'Cuando Enrique y yo estábamos sentados en el bar, bebíamos vino y veíamos el fútbol, entró Andrés y nos saludó en ruso'
+      },
+      {
+        russian: 'В детстве я каждый день ходил в парк и кормил белок',
+        correct: 'De niño iba cada día al parque y daba de comer a las ardillas'
+      },
+      {
+        russian: 'Когда начался дождь, мы бежали домой и промокли до нитки',
+        correct: 'Cuando empezó la lluvia, corrimos a casa y nos mojamos hasta los huesos'
+      },
+      {
+        russian: 'Она всегда улыбалась, когда видела меня',
+        correct: 'Ella siempre sonreía cuando me veía'
+      },
+      {
+        russian: 'Вчера я встретил старого друга, мы пошли в кафе и проговорили три часа',
+        correct: 'Ayer encontré a un viejo amigo, fuimos a una cafetería y hablamos durante tres horas'
+      },
+      {
+        russian: 'Когда я был маленьким, моя бабушка часто рассказывала мне сказки перед сном',
+        correct: 'Cuando era pequeño, mi abuela a menudo me contaba cuentos antes de dormir'
+      }
+    ]
+  },
+
+  'ex-7-2-1': {
+    id: 'ex-7-2-1',
+    type: 'transformation',
+    title: 'Al + Infinitivo - Трансформация предложений',
+    description: 'Измените предложения по образцу: Cuando escucho esta música, me pongo triste → Al escuchar esta música, me pongo triste',
+    questions: [
+      {
+        sentence: 'Cuando la maestra entra, los alumnos se levantan y la saludan.',
+        correct: 'Al entrar la maestra, los alumnos se levantan y la saludan.',
+        translation: 'Когда учительница входит, ученики встают и здороваются с ней.'
+      },
+      {
+        sentence: 'Cuando Isabel ha preparado la cena, nos ha llamado.',
+        correct: 'Al preparar la cena Isabel, nos ha llamado.',
+        translation: 'Когда Изабель приготовила ужин, она нас позвала.'
+      },
+      {
+        sentence: 'Cuando el tío vio las fotos, recordó el verano del año 1998.',
+        correct: 'Al ver las fotos, el tío recordó el verano del año 1998.',
+        translation: 'Когда дядя увидел фотографии, он вспомнил лето 1998 года.'
+      },
+      {
+        sentence: 'Cuando me despido de Ana, la abrazo.',
+        correct: 'Al despedirme de Ana, la abrazo.',
+        translation: 'Когда я прощаюсь с Аной, я её обнимаю.'
+      },
+      {
+        sentence: 'Cuando José salió del bar, nadie le hizo caso.',
+        correct: 'Al salir José del bar, nadie le hizo caso.',
+        translation: 'Когда Хосе вышел из бара, никто на него не обратил внимания.'
+      },
+      {
+        sentence: 'Cuando me senté a la mesa, mi esposa me trajo el almuerzo.',
+        correct: 'Al sentarme a la mesa, mi esposa me trajo el almuerzo.',
+        translation: 'Когда я сел за стол, моя жена принесла мне обед.'
+      },
+      {
+        sentence: 'Cuando llegamos a casa, nos quitamos los zapatos.',
+        correct: 'Al llegar a casa, nos quitamos los zapatos.',
+        translation: 'Когда мы приходим домой, мы снимаем обувь.'
+      },
+      {
+        sentence: 'Cuando el niño oyó la noticia, empezó a llorar.',
+        correct: 'Al oír la noticia, el niño empezó a llorar.',
+        translation: 'Когда мальчик услышал новость, он начал плакать.'
+      },
+      {
+        sentence: 'Cuando salió el sol, los pájaros comenzaron a cantar.',
+        correct: 'Al salir el sol, los pájaros comenzaron a cantar.',
+        translation: 'Когда взошло солнце, птицы начали петь.'
+      },
+      {
+        sentence: 'Cuando terminé el libro, lo devolví a la biblioteca.',
+        correct: 'Al terminar el libro, lo devolví a la biblioteca.',
+        translation: 'Когда я закончил книгу, я вернул её в библиотеку.'
+      },
+      {
+        sentence: 'Cuando Ana abrió la puerta, vio a sus padres.',
+        correct: 'Al abrir la puerta, Ana vio a sus padres.',
+        translation: 'Когда Ана открыла дверь, она увидела своих родителей.'
+      },
+      {
+        sentence: 'Cuando llegó el tren, todos subieron rápidamente.',
+        correct: 'Al llegar el tren, todos subieron rápidamente.',
+        translation: 'Когда прибыл поезд, все быстро зашли.'
+      },
+      {
+        sentence: 'Cuando me levanto por la mañana, siempre desayuno café.',
+        correct: 'Al levantarme por la mañana, siempre desayuno café.',
+        translation: 'Когда я встаю утром, я всегда завтракаю кофе.'
+      },
+      {
+        sentence: 'Cuando María terminó de estudiar, fue al cine.',
+        correct: 'Al terminar de estudiar, María fue al cine.',
+        translation: 'Когда Мария закончила учиться, она пошла в кино.'
+      },
+      {
+        sentence: 'Cuando sonó el teléfono, todos se callaron.',
+        correct: 'Al sonar el teléfono, todos se callaron.',
+        translation: 'Когда зазвонил телефон, все замолчали.'
+      }
+    ]
+  },
+
+  'ex-7-2-2': {
+    id: 'ex-7-2-2',
+    type: 'writing',
+    title: 'Al + Infinitivo - Перевод на испанский',
+    description: 'Переведите на испанский язык, используя конструкцию al + инфинитив',
+    questions: [
+      {
+        russian: 'Когда я входил в дом, я всегда здоровался с консьержкой',
+        correct: 'Al entrar en casa, siempre saludaba a la conserje'
+      },
+      {
+        russian: 'Услышав такую грустную историю, все захотели помочь нам',
+        correct: 'Al oír una historia tan triste, todos quisieron ayudarnos'
+      },
+      {
+        russian: 'Когда родители уезжали в отпуск, за их котом присматривала соседка',
+        correct: 'Al irse los padres de vacaciones, la vecina cuidaba de su gato'
+      },
+      {
+        russian: 'Когда я с тобой познакомился, ты мне очень понравилась',
+        correct: 'Al conocerte, me gustaste mucho'
+      },
+      {
+        russian: 'Позавтракав, мы вышли из дома, сели в машину, и Хорхе отвез нас в аэропорт',
+        correct: 'Al desayunar, salimos de casa, nos subimos al coche y Jorge nos llevó al aeropuerto'
+      },
+      {
+        russian: 'Когда он увидел мою сестру в первый раз, сразу в нее влюбился',
+        correct: 'Al ver a mi hermana por primera vez, se enamoró de ella en seguida'
+      },
+      {
+        russian: 'Когда туристы прощались с гидом, они поблагодарили его за интереснейшую экскурсию',
+        correct: 'Al despedirse del guía, los turistas le agradecieron la excursión interesantísima'
+      },
+      {
+        russian: 'Почему ты не целуешь меня, когда приходишь с работы?',
+        correct: '¿Por qué no me besas al venir del trabajo?'
+      },
+      {
+        russian: 'Когда они поженились, родители подарили им машину',
+        correct: 'Al casarse, los padres les regalaron un coche'
+      },
+      {
+        russian: 'Когда вы (vosotros) построили новый дом, вы продали свою квартиру',
+        correct: 'Al construir la casa nueva, vendisteis vuestro piso'
+      },
+      {
+        russian: 'Когда я открыл окно, в комнату влетела птица',
+        correct: 'Al abrir la ventana, un pájaro entró volando en la habitación'
+      },
+      {
+        russian: 'Проснувшись, она сразу вспомнила о своем дне рождения',
+        correct: 'Al despertarse, ella recordó en seguida su cumpleaños'
+      },
+      {
+        russian: 'Когда закончился урок, студенты выбежали из класса',
+        correct: 'Al terminar la clase, los estudiantes salieron corriendo del aula'
+      },
+      {
+        russian: 'Когда я был ребенком, я всегда радовался, видя снег',
+        correct: 'Al ser niño, siempre me alegraba al ver la nieve'
+      },
+      {
+        russian: 'Получив письмо, он сразу его прочитал',
+        correct: 'Al recibir la carta, la leyó en seguida'
       }
     ]
   },
