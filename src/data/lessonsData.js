@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-7', 'module-8', 'module-9']
+    modules: ['module-11', 'module-8', 'module-17']
   }
 ]
 
@@ -25,65 +25,65 @@ export const courseLevels = [
 export const modules = {
   'module-1': {
     id: 'module-1',
-    title: 'Модуль 1: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ',
+    title: 'Модуль 1: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ (365 слов)',
     level: 'beginner',
     lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4', 'lesson-1-5'],
     description: 'Алфавит, приветствия, базовая лексика, грамматические основы'
   },
   'module-2': {
     id: 'module-2',
-    title: 'Модуль 2: Черты характера. Описание внешности. Семья и родственники',
+    title: 'Модуль 2: Черты характера. Описание внешности. Семья и родственники (235 слов)',
     level: 'beginner',
     lessons: ['lesson-2-1', 'lesson-2-2', 'lesson-2-3'],
     description: 'Настоящее время правильных глаголов'
   },
   'module-3': {
     id: 'module-3',
-    title: 'Модуль 3: МОЙ ДОМ, АРЕНДА ПОМЕЩЕНИЯ, ЗАВТРАК',
+    title: 'Модуль 3: МОЙ ДОМ, АРЕНДА ПОМЕЩЕНИЯ, ЗАВТРАК (289 слов)',
     level: 'beginner',
     lessons: ['lesson-3-1', 'lesson-3-2', 'lesson-3-3', 'lesson-3-4'],
     description: 'Лексика о семье, работе, хобби'
   },
   'module-4': {
     id: 'module-4',
-    title: 'Модуль 4: Повседневные занятия. Город. Городской транспорт',
+    title: 'Модуль 4: Повседневные занятия. Город. Городской транспорт (321 слово)',
     level: 'beginner',
     lessons: ['lesson-4-1', 'lesson-4-2', 'lesson-4-3', 'lesson-4-4'],
     description: 'Обозначение часового времени. Возвратные глаголы. Герундий. Повседневная рутина. Числительные, Наречия, Город, Городской транспорт, Степени сравнения прилагательных, Причастия, Pretérito Perfecto Compuesto'
   },
   'module-5': {
     id: 'module-5',
-    title: 'Модуль 5: Путешествия и места',
+    title: 'Модуль 5: Путешествия и места (88 слов)',
     level: 'beginner',
     lessons: ['lesson-5-1', 'lesson-5-2', 'lesson-5-3'],
     description: 'Лексика путешествий, направления, транспорт'
   },
   'module-6': {
     id: 'module-6',
-    title: 'Модуль 6: ПО МАГАЗИНАМ. ПОКУПКИ. Pretérito indefinido (простое прошедшее время). Неопределенное местоимение mismo. Pretérito imperfecto de indicativo (простое прошедшее время несовершенного вида изъявительного наклонения)',
+    title: 'Модуль 6: ПО МАГАЗИНАМ. ПОКУПКИ. Pretérito indefinido (простое прошедшее время). Неопределенное местоимение mismo. Pretérito imperfecto de indicativo (простое прошедшее время несовершенного вида изъявительного наклонения) (169 слов)',
     level: 'elementary',
     lessons: ['lesson-6-1', 'lesson-6-2', 'lesson-6-3'],
     description: 'Прошедшее время, покупки, магазины'
   },
-  'module-7': {
-    id: 'module-7',
-    title: 'Модуль 7: Досуг и развлечения',
+  'module-11': {
+    id: 'module-11',
+    title: 'Модуль 11: Досуг и развлечения (95 слов)',
     level: 'intermediate',
-    lessons: ['lesson-7-1'],
+    lessons: ['lesson-11-1'],
     description: 'Modo subjuntivo: досуг, развлечения, свободное время'
   },
   'module-8': {
     id: 'module-8',
-    title: 'Модуль 8: Условные предложения',
+    title: 'Модуль 8: Условные предложения (45 слов)',
     level: 'intermediate',
     lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3'],
     description: 'Условное наклонение, гипотетические ситуации'
   },
-  'module-9': {
-    id: 'module-9',
-    title: 'Модуль 9: Литература и культура',
+  'module-17': {
+    id: 'module-17',
+    title: 'Модуль 17: Литература и культура (1068 слов)',
     level: 'intermediate',
-    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3', 'lesson-9-4', 'lesson-9-5', 'lesson-9-6', 'lesson-9-7', 'lesson-9-8'],
+    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -8282,11 +8282,11 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5', 'ex-6-3-6', 'ex-6-3-7']
   },
 
-  // МОДУЛЬ 7: Досуг и развлечения (B1)
-  'lesson-7-1': {
-    id: 'lesson-7-1',
+  // МОДУЛЬ 11: Досуг и развлечения (B1)
+  'lesson-11-1': {
+    id: 'lesson-11-1',
     title: 'Урок 1: ДОСУГ. РАЗВЛЕЧЕНИЯ. Modo subjuntivo',
-    moduleId: 'module-7',
+    moduleId: 'module-11',
     grammar: {
       title: 'Modo subjuntivo',
       intro: `В испанском языке существует 4 наклонения:
@@ -9283,42 +9283,42 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
 
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
-  'lesson-9-1': {
-    id: 'lesson-9-1',
+  'lesson-17-1': {
+    id: 'lesson-17-1',
     title: 'Урок 1: El misterio de la llave',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Capítulo 1',
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-1.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 1/fragmento-1.mp3',
             backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-2.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 1/fragmento-2.mp3',
             backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-3.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 1/fragmento-3.mp3',
             backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-4.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 1/fragmento-4.mp3',
             backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-5.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 1/fragmento-5.mp3',
             backgroundColor: '#E3F2FD'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 1/fragmento-6.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 1/fragmento-6.mp3',
             backgroundColor: '#E3F2FD'
           }
         ]
@@ -9328,37 +9328,37 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-1.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-1.mp3',
             backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-2.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-2.mp3',
             backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-3.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-3.mp3',
             backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-4.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-4.mp3',
             backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-5.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-5.mp3',
             backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-6.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-6.mp3',
             backgroundColor: '#E8F5E9'
           },
           {
             tab: 'Fragmento 7',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 2/fragmento-7.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 2/fragmento-7.mp3',
             backgroundColor: '#E8F5E9'
           }
         ]
@@ -9368,32 +9368,32 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-1.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 3/fragmento-1.mp3',
             backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-2.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 3/fragmento-2.mp3',
             backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-3.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 3/fragmento-3.mp3',
             backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-4.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 3/fragmento-4.mp3',
             backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-5.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 3/fragmento-5.mp3',
             backgroundColor: '#FFF9C4'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 3/fragmento-6.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 3/fragmento-6.mp3',
             backgroundColor: '#FFF9C4'
           }
         ]
@@ -9403,42 +9403,42 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-1.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-1.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-2.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-2.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-3.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-3.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-4.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-4.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-5.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-5.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 6',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-6.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-6.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 7',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-7.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-7.mp3',
             backgroundColor: '#FCE4EC'
           },
           {
             tab: 'Fragmento 8',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 4/fragmento-8.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 4/fragmento-8.mp3',
             backgroundColor: '#FCE4EC'
           }
         ]
@@ -9448,27 +9448,27 @@ Y si **pudiera** dar un consejo a su yo joven, **sería** este: "No tengas miedo
         subtabs: [
           {
             tab: 'Fragmento 1',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-1.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 5/fragmento-1.mp3',
             backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 2',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-2.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 5/fragmento-2.mp3',
             backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 3',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-3.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 5/fragmento-3.mp3',
             backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 4',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-4.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 5/fragmento-4.mp3',
             backgroundColor: '#F3E5F5'
           },
           {
             tab: 'Fragmento 5',
-            videoUrl: '/audio/Módulo 9 Урок 1/Capítulo 5/fragmento-5.mp3',
+            videoUrl: '/audio/Módulo 17 Урок 1/Capítulo 5/fragmento-5.mp3',
             backgroundColor: '#F3E5F5'
           }
         ]
@@ -10142,10 +10142,10 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
     ]
   },
 
-  'lesson-9-2': {
-    id: 'lesson-9-2',
+  'lesson-17-2': {
+    id: 'lesson-17-2',
     title: 'Урок 2: El origen de Navidad',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Модуль 9 Урок 2',
@@ -10226,10 +10226,10 @@ Entonces, ¿a qué llegamos con todo esto? ¿Qué nos dice esta increíble histo
     ]
   },
 
-  'lesson-9-3': {
-    id: 'lesson-9-3',
+  'lesson-17-3': {
+    id: 'lesson-17-3',
     title: 'Урок 3: Fantasmas en la escalera',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     vocabulary: [
       {
         tab: 'Barcelona. 28 de octubre. 10.00 h.',
@@ -11643,10 +11643,10 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       }
     ]
   },
-  'lesson-9-4': {
-    id: 'lesson-9-4',
+  'lesson-17-4': {
+    id: 'lesson-17-4',
     title: 'Урок 4: Испанская кухня и традиции',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Alimentos con carbohidratos malos',
@@ -11654,7 +11654,7 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       },
       {
         tab: '2',
-        videoUrl: '/video/module-9-lesson-4-cocina.mp4'
+        videoUrl: '/video/module-17-lesson-4-cocina.mp4'
       },
       {
         tab: '3',
@@ -11914,10 +11914,10 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
     ]
   },
 
-  'lesson-9-5': {
-    id: 'lesson-9-5',
+  'lesson-17-5': {
+    id: 'lesson-17-5',
     title: 'Урок 5: Video psicología',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Cambia el pensamiento',
@@ -12317,10 +12317,10 @@ Es un tema de mentalidad. Cuando tienes la mentalidad bien amueblada, el resto s
       }
     ]
   },
-  'lesson-9-6': {
-    id: 'lesson-9-6',
+  'lesson-17-6': {
+    id: 'lesson-17-6',
     title: 'Урок 6: Video psicología II',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Dejar de dudar',
@@ -12650,10 +12650,10 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
     ]
   },
 
-  'lesson-9-7': {
-    id: 'lesson-9-7',
+  'lesson-17-7': {
+    id: 'lesson-17-7',
     title: 'Урок 7: Биология',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Mariposas',
@@ -12950,10 +12950,10 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
       }
     ]
   },
-  'lesson-9-8': {
-    id: 'lesson-9-8',
+  'lesson-17-8': {
+    id: 'lesson-17-8',
     title: 'Урок 8: Физика',
-    moduleId: 'module-9',
+    moduleId: 'module-17',
     videoTabs: [
       {
         tab: 'Que es la luz',
