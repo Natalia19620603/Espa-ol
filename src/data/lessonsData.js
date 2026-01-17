@@ -69,8 +69,8 @@ export const modules = {
     id: 'module-7',
     title: 'Модуль 7: ПРИЯТНОГО АППЕТИТА. Календарь. Сравнительная характеристика употребления indefinido / imperfecto. Конструкция al + инфинитив. Pretérito pluscuamperfecto de indicativo (предпрошедшее время изъявительного наклонения)',
     level: 'elementary',
-    lessons: ['lesson-7-1', 'lesson-7-2'],
-    description: 'Календарь, сравнение Indefinido/Imperfecto, конструкция al + инфинитив'
+    lessons: ['lesson-7-1', 'lesson-7-2', 'lesson-7-3'],
+    description: 'Календарь, сравнение Indefinido/Imperfecto, конструкция al + инфинитив, Pretérito Pluscuamperfecto'
   },
   'module-11': {
     id: 'module-11',
@@ -8441,7 +8441,44 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       { word: 'quedar + сущ., прил., прич.', translation: 'оставаться / оказаться (каким, в каком-то состоянии)', audioUrl: null },
       { word: 'quedar en', translation: 'договориться', audioUrl: null },
       { word: 'quedar(se)', translation: 'оставаться где-то', audioUrl: null },
-      { word: 'quedar(se) con', translation: 'взять / забрать с собой', audioUrl: null }
+      { word: 'quedar(se) con', translation: 'взять / забрать с собой', audioUrl: null },
+      { word: 'tostada f', translation: 'тост', audioUrl: null },
+      { word: 'galleta f', translation: 'печенье', audioUrl: null },
+      { word: 'magdalena f', translation: 'кекс', audioUrl: null },
+      { word: 'mermelada f', translation: 'джем', audioUrl: null },
+      { word: 'miel f', translation: 'мед', audioUrl: null },
+      { word: 'bollería f', translation: 'выпечка', audioUrl: null },
+      { word: 'huevos fritos', translation: 'яичница (досл: жареные яйца)', audioUrl: null },
+      { word: 'huevo duro', translation: 'яйцо, сваренное вкрутую', audioUrl: null },
+      { word: 'huevo pasado por agua', translation: 'яйцо, сваренное всмятку', audioUrl: null },
+      { word: 'huevos revueltos', translation: 'омлет', audioUrl: null },
+      { word: 'bocadillo m', translation: 'бутерброд', audioUrl: null },
+      { word: 'bocadillo de queso m', translation: 'бутерброд с сыром', audioUrl: null },
+      { word: 'bocadillo de salchichón m', translation: 'бутерброд с колбасой', audioUrl: null },
+      { word: 'bocadillo de jamón m', translation: 'бутерброд с ветчиной', audioUrl: null },
+      { word: 'zumo de toronja', translation: 'грейпфрутовый сок', audioUrl: null },
+      { word: 'té m / infusión f', translation: 'чай', audioUrl: null },
+      { word: 'cacao m', translation: 'какао', audioUrl: null },
+      { word: 'yogur m', translation: 'йогурт', audioUrl: null },
+      { word: 'beber', translation: 'пить', audioUrl: null },
+      { word: 'bebida f', translation: 'питье', audioUrl: null },
+      { word: 'merendar (1а)', translation: 'полдничать', audioUrl: null },
+      { word: 'merienda f', translation: 'полдник', audioUrl: null },
+      { word: 'barra f', translation: 'барная стойка', audioUrl: null },
+      { word: 'ración f', translation: 'порция', audioUrl: null },
+      { word: 'sopa f', translation: 'суп', audioUrl: null },
+      { word: 'guarnición f', translation: 'гарнир', audioUrl: null },
+      { word: 'botella f', translation: 'бутылка', audioUrl: null },
+      { word: 'jarro m', translation: 'кувшин', audioUrl: null },
+      { word: 'jarra f', translation: 'кружка', audioUrl: null },
+      { word: '¡Buen provecho!', translation: 'Приятного аппетита!', audioUrl: null },
+      { word: 'menú del día', translation: 'комплексный обед или бизнес-ланч', audioUrl: null },
+      { word: 'comer a la carta', translation: 'пообедать тем, что есть в меню (не комплексный обед)', audioUrl: null },
+      { word: 'hacer el pedido', translation: 'сделать заказ', audioUrl: null },
+      { word: 'de entremés', translation: 'на закуску', audioUrl: null },
+      { word: 'de primer plato', translation: 'на первое', audioUrl: null },
+      { word: 'de segundo plato', translation: 'на второе', audioUrl: null },
+      { word: 'de postre', translation: 'на десерт', audioUrl: null }
     ],
     grammar: {
       title: 'Конструкция "Al + Infinitivo"',
@@ -8502,6 +8539,91 @@ Al + инфинитив + подлежащее инфинитива, [основ
       ]
     },
     exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
+  },
+
+  'lesson-7-3': {
+    id: 'lesson-7-3',
+    title: 'Урок 3: Pretérito Pluscuamperfecto (Предпрошедшее время)',
+    moduleId: 'module-7',
+    grammar: {
+      title: 'Pretérito Pluscuamperfecto (Предпрошедшее время)',
+      intro: `Это «прошлое в прошлом». Мы используем его, когда рассказываем о чем-то в прошлом, но хотим упомянуть событие, которое случилось еще раньше.`,
+      sections: [
+        {
+          id: 'formation',
+          title: '1. Как образуется?',
+          content: `Вспомогательный глагол **haber** (в форме Imperfecto) + **Participio** (причастие).
+
+| Лицо | Haber (Imperfecto) | Participio (Смысловой глагол) |
+|------|----|----|
+| Yo | había | hablado |
+| Tú | habías | comido |
+| Él/Ella/Vd. | había | vivido |
+| Nosotros | habíamos | hecho (искл.) |
+| Vosotros | habíais | escrito (искл.) |
+| Ellos/Ellas/Vds. | habían | visto (искл.) |
+
+**Важно:** Глагол **haber** и причастие — это неразрывная пара. Между ними нельзя ставить другие слова (даже **no** или местоимения).
+
+**Примеры:**
+- **No había comido** — Я не ел (раньше)
+- **Ya habían salido** — Они уже ушли (к тому моменту)`
+        },
+        {
+          id: 'usage',
+          title: '2. Когда использовать?',
+          content: `Когда у вас есть две точки в прошлом, и одна из них — «самая старая».
+
+**Пример с платьем:**
+- София **надела** (Indefinido) платье, которое муж **привез** (Pluscuamperfecto) раньше.
+- **Sofía se puso el vestido que le había traído su marido.**
+
+**Пример с собакой:**
+- Ей **подарили** (Indefinido) собаку, о которой она долго **мечтала** (Pluscuamperfecto) до этого момента.
+- **Le regalaron el perro con el que había soñado.**
+
+**С предлогом "a" или "para":**
+- Когда к какому-то часу в прошлом всё уже было готово.
+- **Ayer para las diez ya habíamos discutido este asunto.** — Вчера к 10 часам мы уже закончили обсуждение.`
+        },
+        {
+          id: 'examples',
+          title: '3. Примеры использования',
+          content: `**Схема: Действие 1 (более раннее) → Действие 2 (более позднее)**
+
+1. **Cuando llegué a casa, mi madre ya había preparado la cena.**
+   - Когда я пришел домой, мама уже приготовила ужин.
+   - (Сначала приготовила, потом я пришел)
+
+2. **No pude ver la película porque ya la había visto.**
+   - Я не смог посмотреть фильм, потому что уже видел его.
+   - (Сначала видел, потом не смог посмотреть снова)
+
+3. **El tren ya había salido cuando llegamos a la estación.**
+   - Поезд уже ушел, когда мы приехали на станцию.
+   - (Сначала поезд ушел, потом мы приехали)
+
+4. **María no fue a la fiesta porque no la habían invitado.**
+   - Мария не пошла на вечеринку, потому что её не пригласили.
+   - (Сначала не пригласили, потом не пошла)`
+        },
+        {
+          id: 'summary',
+          title: 'Резюме',
+          content: `**Pretérito Pluscuamperfecto** = **había/habías/había/habíamos/habíais/habían** + **Participio**
+
+**Используется для:**
+1. Действий, которые произошли РАНЬШЕ других действий в прошлом
+2. С временными указателями: **ya** (уже), **todavía no** (еще не), **antes** (раньше)
+3. В придаточных предложениях с **que** для описания предшествующего действия
+
+**Важно помнить:**
+- Это время показывает, что одно действие в прошлом было **раньше** другого
+- Между **haber** и **participio** ничего не ставится`
+        }
+      ]
+    },
+    exercises: ['ex-7-3-1', 'ex-7-3-2']
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
@@ -17916,6 +18038,176 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       {
         russian: 'Она взяла красное платье, потому что оно ей очень понравилось',
         correct: 'Se quedó con el vestido rojo porque le gustó mucho'
+      }
+    ]
+  },
+
+  // Упражнения для Модуля 7 Урока 3
+  'ex-7-3-1': {
+    id: 'ex-7-3-1',
+    type: 'fillblank',
+    title: 'Pretérito Pluscuamperfecto - Постановка глаголов в форму',
+    description: 'Поставьте глаголы в соответствующую форму pluscuamperfecto de indicativo и переведите на русский язык',
+    questions: [
+      {
+        sentence: 'Ayer, cuando volví a casa, Teresa ya (poner) la mesa.',
+        correct: 'había puesto',
+        translation: 'Вчера, когда я вернулся домой, Тереза уже накрыла на стол.'
+      },
+      {
+        sentence: 'El domingo no compraste pan para el desayuno porque la panadería todavía no (abrirse).',
+        correct: 'se había abierto',
+        translation: 'В воскресенье ты не купил хлеб на завтрак, потому что булочная еще не открылась.'
+      },
+      {
+        sentence: 'Estábamos seguros de que tu tío (ver) todo el mundo.',
+        correct: 'había visto',
+        translation: 'Мы были уверены, что твой дядя видел весь мир.'
+      },
+      {
+        sentence: 'Para los 20 años Mario (escribir) muchas poesías y (componer) una ópera.',
+        correct: 'había escrito, había compuesto',
+        alternatives: ['había compuesto, había escrito'],
+        translation: 'К 20 годам Марио написал много стихов и сочинил оперу.'
+      },
+      {
+        sentence: 'Alquilamos el piso que (ver, nosotros) en las fotos en la agencia inmobiliaria.',
+        correct: 'habíamos visto',
+        translation: 'Мы сняли квартиру, которую видели на фотографиях в агентстве недвижимости.'
+      },
+      {
+        sentence: 'El jefe estaba descontento porque (hacer, yo) mal la traducción del documento.',
+        correct: 'había hecho',
+        translation: 'Шеф был недоволен, потому что я плохо сделал перевод документа.'
+      },
+      {
+        sentence: 'Anoche me puse el traje que (comprar, yo) en Roma.',
+        correct: 'había comprado',
+        translation: 'Вчера вечером я надел костюм, который купил в Риме.'
+      },
+      {
+        sentence: 'Algunos pasajeros perdieron el tren porque no (poder, ellos) llegar a tiempo por el atasco en la carretera.',
+        correct: 'habían podido',
+        translation: 'Некоторые пассажиры опоздали на поезд, потому что не смогли приехать вовремя из-за пробки на дороге.'
+      },
+      {
+        sentence: 'Los padres no pudieron leer la carta de Juan porque Marta (romperla).',
+        correct: 'la había roto',
+        translation: 'Родители не смогли прочитать письмо от Хуана, потому что Марта его порвала.'
+      },
+      {
+        sentence: 'Hace poco supimos que tú todavía no (devolverle) su maleta a Antonio.',
+        correct: 'le habías devuelto',
+        translation: 'Недавно мы узнали, что ты еще не вернул Антонио его чемодан.'
+      },
+      {
+        sentence: 'Cuando llegué al cine, la película ya (empezar).',
+        correct: 'había empezado',
+        translation: 'Когда я пришел в кинотеатр, фильм уже начался.'
+      },
+      {
+        sentence: 'No reconocí a María porque (cambiar, ella) mucho.',
+        correct: 'había cambiado',
+        translation: 'Я не узнал Марию, потому что она сильно изменилась.'
+      },
+      {
+        sentence: 'Para las ocho de la tarde ya (terminar, nosotros) todo el trabajo.',
+        correct: 'habíamos terminado',
+        translation: 'К восьми вечера мы уже закончили всю работу.'
+      },
+      {
+        sentence: 'El profesor se enfadó porque los estudiantes no (preparar) la tarea.',
+        correct: 'habían preparado',
+        translation: 'Профессор рассердился, потому что студенты не подготовили домашнее задание.'
+      },
+      {
+        sentence: 'Me di cuenta de que (olvidar, yo) las llaves en casa.',
+        correct: 'había olvidado',
+        translation: 'Я понял, что забыл ключи дома.'
+      }
+    ]
+  },
+
+  'ex-7-3-2': {
+    id: 'ex-7-3-2',
+    type: 'translation',
+    title: 'Pretérito Pluscuamperfecto - Перевод на испанский',
+    description: 'Переведите на испанский язык, используя Pretérito Pluscuamperfecto',
+    questions: [
+      {
+        russian: 'Три дня назад он купил новый компьютер, о котором мечтал.',
+        correct: 'Hace tres días compró el ordenador nuevo con el que había soñado.',
+        alternatives: ['Hace tres días él compró el ordenador nuevo con el que había soñado.']
+      },
+      {
+        russian: 'На конгресс приехало больше журналистов, чем мы пригласили.',
+        correct: 'Al congreso llegaron más periodistas de los que habíamos invitado.',
+        alternatives: ['Llegaron más periodistas al congreso de los que habíamos invitado.']
+      },
+      {
+        russian: 'Позавчера София встретила свою подругу, с которой она отдыхала зимой.',
+        correct: 'Anteayer Sofía encontró a su amiga con la que había descansado en invierno.',
+        alternatives: ['Anteayer Sofía se encontró con su amiga con la que había descansado en invierno.']
+      },
+      {
+        russian: 'Недавно все узнали, что сын президента компании женился на знаменитой теннисистке.',
+        correct: 'Hace poco todos supieron que el hijo del presidente de la compañía se había casado con una tenista famosa.',
+        alternatives: ['Recientemente todos supieron que el hijo del presidente de la compañía se había casado con una tenista famosa.']
+      },
+      {
+        russian: 'К 5 годам мой внук научился плавать, а в 17 лет стал чемпионом страны.',
+        correct: 'Para los 5 años mi nieto había aprendido a nadar y a los 17 años se hizo campeón del país.',
+        alternatives: ['A los 5 años mi nieto había aprendido a nadar y a los 17 años se convirtió en campeón del país.']
+      },
+      {
+        russian: 'Хосе пригласил поужинать девушку, с которой познакомился в Интернете.',
+        correct: 'José invitó a cenar a la chica con la que había conocido en Internet.',
+        alternatives: ['José invitó a cenar a la chica que había conocido en Internet.']
+      },
+      {
+        russian: 'Мы не поехали за город и остались дома, потому что наш сын заболел.',
+        correct: 'No fuimos al campo y nos quedamos en casa porque nuestro hijo se había puesto enfermo.',
+        alternatives: ['No fuimos al campo y nos quedamos en casa porque nuestro hijo había enfermado.']
+      },
+      {
+        russian: 'В прошлую пятницу она принесла фотографии, которые сделала, путешествуя по Аргентине, и нам их показала.',
+        correct: 'El viernes pasado trajo las fotos que había hecho viajando por Argentina y nos las mostró.',
+        alternatives: ['El viernes pasado ella trajo las fotos que había sacado viajando por Argentina y nos las enseñó.']
+      },
+      {
+        russian: 'Две недели назад нам сказали, что сосед с третьего этажа умер.',
+        correct: 'Hace dos semanas nos dijeron que el vecino del tercer piso había muerto.',
+        alternatives: ['Hace dos semanas nos dijeron que había muerto el vecino del tercer piso.']
+      },
+      {
+        russian: 'Вчера вечером они посмотрели фильм, который ты им привез из Бразилии.',
+        correct: 'Anoche vieron la película que les habías traído de Brasil.',
+        alternatives: ['Ayer por la noche vieron la película que tú les habías traído de Brasil.']
+      },
+      {
+        russian: 'Я не мог открыть дверь, потому что потерял ключ.',
+        correct: 'No pude abrir la puerta porque había perdido la llave.',
+        alternatives: ['No podía abrir la puerta porque había perdido la llave.']
+      },
+      {
+        russian: 'Мы приехали в аэропорт, но самолет уже улетел.',
+        correct: 'Llegamos al aeropuerto pero el avión ya había despegado.',
+        alternatives: ['Llegamos al aeropuerto pero el avión ya se había ido.']
+      },
+      {
+        russian: 'Она была счастлива, потому что наконец получила работу, о которой мечтала.',
+        correct: 'Estaba feliz porque por fin había conseguido el trabajo con el que había soñado.',
+        alternatives: ['Ella estaba feliz porque finalmente había obtenido el trabajo con el que había soñado.']
+      },
+      {
+        russian: 'К тому времени как мы пришли, они уже поели.',
+        correct: 'Para cuando llegamos, ellos ya habían comido.',
+        alternatives: ['Cuando nosotros llegamos, ellos ya habían comido.']
+      },
+      {
+        russian: 'Я никогда не видел такого красивого города, который мы посетили прошлым летом.',
+        correct: 'Nunca había visto una ciudad tan bonita como la que visitamos el verano pasado.',
+        alternatives: ['Nunca había visto una ciudad tan hermosa como la que visitamos el verano pasado.']
       }
     ]
   },
