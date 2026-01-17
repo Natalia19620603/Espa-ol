@@ -9464,6 +9464,23 @@ Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabaj
         { spanish: 'Ana dijo que al día siguiente volvería', russian: 'Анна сказала, что на следующий день вернется' }
       ]
     },
+    vocabulary: [
+      { word: 'ir', translation: 'идти, ехать, плыть, лететь', audioUrl: null },
+      { word: 'irse', translation: 'уходить, уезжать', audioUrl: null },
+      { word: 'venir', translation: 'приходить, приезжать', audioUrl: null },
+      { word: 'llegar', translation: 'приезжать, прибывать', audioUrl: null },
+      { word: 'salir', translation: 'выходить', audioUrl: null },
+      { word: 'entrar', translation: 'входить', audioUrl: null },
+      { word: 'dirigirse', translation: 'направляться', audioUrl: null },
+      { word: 'andar', translation: 'ходить пешком', audioUrl: null },
+      { word: 'pasar', translation: 'проходить', audioUrl: null },
+      { word: 'pasar por', translation: 'заходить, заезжать куда-либо', audioUrl: null },
+      { word: 'recorrer', translation: 'обходить, объезжать', audioUrl: null },
+      { word: 'avanzar', translation: 'продвигаться вперед', audioUrl: null },
+      { word: 'cruzar', translation: 'пересекать, переходить', audioUrl: null },
+      { word: 'volver', translation: 'возвращаться', audioUrl: null },
+      { word: 'dar una vuelta', translation: 'прогуляться', audioUrl: null }
+    ],
     exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
   },
 
@@ -19111,66 +19128,92 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   // Урок 8.3 - Условия в прошлом
   'ex-8-3-1': {
     id: 'ex-8-3-1',
-    type: 'grammar',
-    title: 'Pluscuamperfecto de subjuntivo',
-    description: 'Выберите правильную форму',
+    type: 'fillblank',
+    title: 'Согласование времен: Dice que...',
+    description: 'Преобразуйте прямую речь в косвенную (настоящее время)',
     questions: [
-      { sentence: 'Si ___ (estudiar-yo), habría aprobado', options: ['estudié', 'estudie', 'hubiera estudiado', 'habría estudiado'], correct: 2 },
-      { sentence: 'Si ___ (venir-tú), te habrías divertido', options: ['viniste', 'vengas', 'hubieras venido', 'habrías venido'], correct: 2 },
-      { sentence: 'Si ___ (saber-yo), habría ido', options: ['supe', 'sepa', 'hubiera sabido', 'habría sabido'], correct: 2 },
-      { sentence: 'Si ___ (salir-nosotros) antes, habríamos llegado', options: ['salimos', 'salgamos', 'hubiéramos salido', 'habríamos salido'], correct: 2 },
-      { sentence: 'Si ellos ___ (llamar), habría contestado', options: ['llamaron', 'llamen', 'hubieran llamado', 'habrían llamado'], correct: 2 }
+      { sentence: 'Pedro dice: "Vivo en Madrid" → Pedro dice que ___ en Madrid', correct: 'vive' },
+      { sentence: 'María dice: "Iré mañana" → María dice que ___ mañana', correct: 'irá' },
+      { sentence: 'Ana dice: "Estoy cansada" → Ana dice que ___ cansada', correct: 'está' },
+      { sentence: 'Juan dice: "He comido bien" → Juan dice que ___ bien', correct: 'ha comido' },
+      { sentence: 'Ellos dicen: "Queremos ir" → Ellos dicen que ___ ir', correct: 'quieren' },
+      { sentence: 'Mi madre dice: "Haré la compra" → Mi madre dice que ___ la compra', correct: 'hará' },
+      { sentence: 'Carlos dice: "Trabajo aquí" → Carlos dice que ___ allí', correct: 'trabaja' },
+      { sentence: 'Rosa dice: "Tengo tiempo" → Rosa dice que ___ tiempo', correct: 'tiene' },
+      { sentence: 'Tú dices: "Saldré pronto" → Tú dices que ___ pronto', correct: 'saldrás' },
+      { sentence: 'Nosotros decimos: "Vamos al cine" → Nosotros decimos que ___ al cine', correct: 'vamos' },
+      { sentence: 'Luisa dice: "Estudiaré más" → Luisa dice que ___ más', correct: 'estudiará' },
+      { sentence: 'Ellos dicen: "Volvemos tarde" → Ellos dicen que ___ tarde', correct: 'vuelven' },
+      { sentence: 'Pablo dice: "Puedo ayudar" → Pablo dice que ___ ayudar', correct: 'puede' },
+      { sentence: 'Ana dice: "Me gusta bailar" → Ana dice que ___ bailar', correct: 'le gusta' },
+      { sentence: 'El profesor dice: "Daré clase" → El profesor dice que ___ clase', correct: 'dará' }
     ]
   },
   'ex-8-3-2': {
     id: 'ex-8-3-2',
-    type: 'grammar',
-    title: 'Tres tipos de condicionales',
-    description: 'Identifique el tipo correcto',
+    type: 'fillblank',
+    title: 'Согласование времен: Dijo que...',
+    description: 'Преобразуйте прямую речь в косвенную (прошедшее время)',
     questions: [
-      { sentence: 'Si estudias, aprobarás', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 0 },
-      { sentence: 'Si estudiaras, aprobarías', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 1 },
-      { sentence: 'Si hubieras estudiado, habrías aprobado', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 2 },
-      { sentence: 'Si tengo tiempo, te llamo', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 0 },
-      { sentence: 'Si hubiera sabido, habría venido', options: ['Tipo 1 (real)', 'Tipo 2 (irreal presente)', 'Tipo 3 (irreal pasado)'], correct: 2 }
+      { sentence: 'Pedro dijo: "Vivo en Madrid" → Pedro dijo que ___ en Madrid', correct: 'vivía' },
+      { sentence: 'María dijo: "Iré mañana" → María dijo que al día siguiente ___ ', correct: 'iría' },
+      { sentence: 'Ana dijo: "Estoy cansada" → Ana dijo que ___ cansada', correct: 'estaba' },
+      { sentence: 'Juan dijo: "He comido bien" → Juan dijo que ___ bien', correct: 'había comido' },
+      { sentence: 'Ellos dijeron: "Queremos ir" → Ellos dijeron que ___ ir', correct: 'querían' },
+      { sentence: 'Mi madre dijo: "Haré la compra" → Mi madre dijo que ___ la compra', correct: 'haría' },
+      { sentence: 'Carlos dijo: "Trabajo aquí" → Carlos dijo que ___ allí', correct: 'trabajaba' },
+      { sentence: 'Rosa dijo: "Tengo tiempo" → Rosa dijo que ___ tiempo', correct: 'tenía' },
+      { sentence: 'Tú dijiste: "Saldré pronto" → Tú dijiste que ___ pronto', correct: 'saldrías' },
+      { sentence: 'Nosotros dijimos: "Vamos al cine" → Nosotros dijimos que ___ al cine', correct: 'íbamos' },
+      { sentence: 'Luisa dijo: "Estudiaré más" → Luisa dijo que ___ más', correct: 'estudiaría' },
+      { sentence: 'Ellos dijeron: "Volvemos tarde" → Ellos dijeron que ___ tarde', correct: 'volvían' },
+      { sentence: 'Pablo dijo: "Puedo ayudar" → Pablo dijo que ___ ayudar', correct: 'podía' },
+      { sentence: 'Ana dijo: "Hoy he visto a Lola" → Ana dijo que aquel día ___ a Lola', correct: 'había visto' },
+      { sentence: 'El profesor dijo: "Daré clase" → El profesor dijo que ___ clase', correct: 'daría' }
     ]
   },
   'ex-8-3-3': {
     id: 'ex-8-3-3',
-    type: 'fillblank',
-    title: 'Completar condicionales pasados',
-    description: 'Complete con la forma correcta',
+    type: 'writing',
+    title: 'Перевод с испанского на русский',
+    description: 'Переведите предложения на русский язык',
     questions: [
-      { sentence: 'Si hubiera estudiado más, (yo-aprobar) ___ ', correct: 'habría aprobado' },
-      { sentence: 'Si hubieras venido, (tú-divertirse) ___ ', correct: 'te habrías divertido' },
-      { sentence: 'Si hubiera sabido, no (yo-decir) ___ nada', correct: 'habría dicho' },
-      { sentence: 'Si hubiéramos salido antes, (nosotros-llegar) ___ a tiempo', correct: 'habríamos llegado' },
-      { sentence: 'Si me hubieran invitado, (yo-ir) ___ ', correct: 'habría ido' }
+      { spanish: '¿Vienes a vernos el domingo?', correct: 'ты придешь навестить нас в воскресенье' },
+      { spanish: 'Hemos recorrido toda la ciudad pero no hemos encontrado ninguna tienda de regalos y recuerdos', correct: 'мы обошли весь город но не нашли ни одного магазина подарков и сувениров' },
+      { spanish: 'Si pasáis por nuestra casa mañana conoceréis a la novia de Juan', correct: 'если вы зайдете к нам домой завтра познакомитесь с девушкой хуана' },
+      { spanish: 'El coche avanzó unos metros y se paró', correct: 'машина продвинулась на несколько метров и остановилась' },
+      { spanish: 'Si tú te vas, tampoco me quedaré aquí', correct: 'если ты уходишь я тоже не останусь здесь' },
+      { spanish: 'Ayer mis amigos perdieron el último autobús, y anduvieron dos horas y llegaron al hotel a las dos de la madrugada', correct: 'вчера мои друзья упустили последний автобус и шли пешком два часа и прибыли в отель в два часа ночи' },
+      { spanish: 'Me gusta dar una vuelta por el parque antes de acostarme', correct: 'мне нравится прогуляться по парку перед сном' },
+      { spanish: 'No sabíamos a qué hora volverías y nos sentamos a la mesa a cenar sin ti', correct: 'мы не знали во сколько ты вернешься и сели за стол ужинать без тебя' },
+      { spanish: 'Hay que tener mucho cuidado cruzando la calle', correct: 'нужно быть очень осторожным переходя улицу' },
+      { spanish: 'Al entrar en la oficina el jefe en seguida se dirigió hacia mi mesa', correct: 'войдя в офис начальник сразу направился к моему столу' }
     ]
   },
   'ex-8-3-4': {
     id: 'ex-8-3-4',
-    type: 'reading',
-    title: 'Чтение: Arrepentimientos',
-    description: 'Ответьте на вопросы',
-    text: 'Roberto reflexiona: "Si hubiera estudiado ingeniería, habría tenido una carrera estable. Pero si hubiera hecho eso, nunca habría conocido a Elena. Si le hubiera dedicado más tiempo a mi hija, nuestra relación sería mejor ahora. Si hubiera dejado de fumar antes, estaría más sano".',
+    type: 'writing',
+    title: 'Перевод с русского на испанский (1)',
+    description: 'Переведите предложения на испанский язык',
     questions: [
-      { question: 'Что было бы, если бы Роберто учился на инженера?', options: ['Был бы богат', 'Имел бы стабильную карьеру', 'Жил бы в Нью-Йорке', 'Был бы несчастлив'], correct: 1 },
-      { question: 'Что было бы, если бы выбрал инженерию?', options: ['Не встретил бы Елену', 'Был бы богаче', 'Жил бы лучше', 'Работал бы меньше'], correct: 0 },
-      { question: 'О чем сожалеет с дочерью?', options: ['Не дал денег', 'Не дал времени', 'Был строгим', 'Уехал'], correct: 1 },
-      { question: 'Какое сожаление о здоровье?', options: ['Мало спал', 'Плохо ел', 'Не бросил курить раньше', 'Не занимался спортом'], correct: 2 }
+      { russian: 'Мария сказала, что уже купила новое платье, а завтра собирается купить туфли и сумку', correct: 'maría dijo que ya había comprado un vestido nuevo y que al día siguiente iba a comprar zapatos y un bolso' },
+      { russian: 'Мы объяснили официанту, что заказывали суп, а не салат', correct: 'explicamos al camarero que habíamos pedido sopa y no ensalada' },
+      { russian: 'Мой друг, когда возвращался из поездок, всегда рассказывал, какие города он посетил, и какие отели ему понравились', correct: 'mi amigo cuando volvía de viajes siempre contaba qué ciudades había visitado y qué hoteles le habían gustado' },
+      { russian: 'Мы подумали, что если у нас останется время, мы обсудим этот вопрос завтра на собрании', correct: 'pensamos que si nos quedaba tiempo discutiríamos esta cuestión al día siguiente en la reunión' },
+      { russian: 'Хосе спросил, где я была в отпуске прошлым летом, и куда я хочу поехать в следующем году', correct: 'josé preguntó dónde había estado de vacaciones el verano pasado y adónde quería ir el año siguiente' },
+      { russian: 'Нам объяснили, что запрещено заходить в ресторан с собаками', correct: 'nos explicaron que estaba prohibido entrar en el restaurante con perros' },
+      { russian: 'Мой муж сообщил, что он уже купил билеты в агентстве, но что в следующем году он закажет билеты через Интернет', correct: 'mi marido comunicó que ya había comprado billetes en la agencia pero que el año siguiente pediría billetes por internet' },
+      { russian: 'Официант говорит клиенту, что обслужит его через минуту', correct: 'el camarero dice al cliente que lo atenderá en un minuto' }
     ]
   },
   'ex-8-3-5': {
     id: 'ex-8-3-5',
     type: 'writing',
-    title: 'Условия третьего типа',
-    description: 'Переведите на испанский',
+    title: 'Перевод с русского на испанский (2)',
+    description: 'Переведите предложения на испанский язык',
     questions: [
-      { russian: 'Если бы я учился, сдал бы экзамен', correct: 'si hubiera estudiado habría aprobado' },
-      { russian: 'Если бы ты пришел, повеселился бы', correct: 'si hubieras venido te habrías divertido' },
-      { russian: 'Если бы я знал, не сказал бы ничего', correct: 'si hubiera sabido no habría dicho nada' },
-      { russian: 'Если бы мы вышли раньше, успели бы', correct: 'si hubiéramos salido antes habríamos llegado a tiempo' }
+      { russian: 'Врач объяснил, что если Андрей хочет чувствовать себя лучше, ему надо бросить курить и начать заниматься спортом', correct: 'el médico explicó que si andrés quería sentirse mejor tenía que dejar de fumar y empezar a hacer deporte' },
+      { russian: 'Я хотел бы знать, почему Алисия ко мне так плохо относится и не хочет оставить меня в покое', correct: 'me gustaría saber por qué alicia me trata tan mal y no quiere dejarme en paz' }
     ]
   },
 
