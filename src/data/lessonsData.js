@@ -8304,6 +8304,12 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     id: 'lesson-7-1',
     title: 'Урок 1: Календарь. Сравнительная характеристика употребления indefinido / imperfecto',
     moduleId: 'module-7',
+    videoTabs: [
+      {
+        tab: 'Meses y fiestas',
+        videoUrl: '/video/Месяцы даты 24.mp4'
+      }
+    ],
     vocabulary: [
       { word: 'el año tiene 4 estaciones', translation: 'В году 4 времени года', audioUrl: null },
       { word: 'el invierno', translation: 'зима', audioUrl: null },
