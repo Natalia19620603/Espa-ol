@@ -8478,7 +8478,32 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       { word: 'de entremés', translation: 'на закуску', audioUrl: null },
       { word: 'de primer plato', translation: 'на первое', audioUrl: null },
       { word: 'de segundo plato', translation: 'на второе', audioUrl: null },
-      { word: 'de postre', translation: 'на десерт', audioUrl: null }
+      { word: 'de postre', translation: 'на десерт', audioUrl: null },
+      { word: 'mantel m', translation: 'скатерть', audioUrl: null },
+      { word: 'servilleta f', translation: 'салфетка', audioUrl: null },
+      { word: 'cubierto m', translation: 'столовый прибор', audioUrl: null },
+      { word: 'cuchillo m', translation: 'нож', audioUrl: null },
+      { word: 'tenedor m', translation: 'вилка', audioUrl: null },
+      { word: 'cuchara f', translation: 'ложка', audioUrl: null },
+      { word: 'plato m', translation: 'тарелка', audioUrl: null },
+      { word: 'copa m', translation: 'рюмка', audioUrl: null },
+      { word: 'vaso m', translation: 'стакан', audioUrl: null },
+      { word: 'taza f', translation: 'чашка', audioUrl: null },
+      { word: 'platillo m', translation: 'блюдце', audioUrl: null },
+      { word: 'palito de dientes', translation: 'зубочистка', audioUrl: null },
+      { word: 'pimienta f', translation: 'перец', audioUrl: null },
+      { word: 'vinagre m', translation: 'уксус', audioUrl: null },
+      { word: 'cazuela f', translation: 'кастрюля', audioUrl: null },
+      { word: 'sartén f', translation: 'сковорода', audioUrl: null },
+      { word: 'rallador m', translation: 'терка', audioUrl: null },
+      { word: 'pelar', translation: 'почистить', audioUrl: null },
+      { word: 'cortar', translation: 'нарезать', audioUrl: null },
+      { word: 'mezclar', translation: 'смешать', audioUrl: null },
+      { word: 'añadir', translation: 'добавить', audioUrl: null },
+      { word: 'batir', translation: 'взбить', audioUrl: null },
+      { word: 'calentar (1a)', translation: 'подогреть', audioUrl: null },
+      { word: 'enfriar', translation: 'остудить', audioUrl: null },
+      { word: 'rellenar', translation: 'фаршировать /начинять', audioUrl: null }
     ],
     grammar: {
       title: 'Конструкция "Al + Infinitivo"',
@@ -8545,6 +8570,50 @@ Al + инфинитив + подлежащее инфинитива, [основ
     id: 'lesson-7-3',
     title: 'Урок 3: Pretérito Pluscuamperfecto (Предпрошедшее время)',
     moduleId: 'module-7',
+    vocabulary: [
+      { word: 'ensalada mixta', translation: 'салат из помидоров, салатных листьев и репчатого лука', audioUrl: null },
+      { word: 'mejillones a la marinera', translation: 'мидии в специальном соусе', audioUrl: null },
+      { word: 'gazpacho', translation: 'гаспачо (холодный томатный суп)', audioUrl: null },
+      { word: 'ensaladilla rusa', translation: 'салат оливье', audioUrl: null },
+      { word: 'sopa de ajo', translation: 'чесночный суп', audioUrl: null },
+      { word: 'sopa de verduras', translation: 'овощной суп', audioUrl: null },
+      { word: 'sopa de mariscos', translation: 'суп из морепродуктов', audioUrl: null },
+      { word: 'judías verdes con jamón', translation: 'зеленая фасоль с ветчиной', audioUrl: null },
+      { word: 'espárragos blancos', translation: 'белая спаржа', audioUrl: null },
+      { word: 'macarrones con almejas', translation: 'макароны с мидиями', audioUrl: null },
+      { word: 'paella f', translation: 'паэлья', audioUrl: null },
+      { word: 'cocido m', translation: 'жаркое', audioUrl: null },
+      { word: 'chuleta de ternera', translation: 'отбивная из говядины', audioUrl: null },
+      { word: 'chuleta de cordero', translation: 'отбивная из баранины', audioUrl: null },
+      { word: 'chuleta de cerdo', translation: 'отбивная из свинины', audioUrl: null },
+      { word: 'pollo asado', translation: 'жареный цыпленок', audioUrl: null },
+      { word: 'merluza con arroz', translation: 'хек с рисом', audioUrl: null },
+      { word: 'trucha con patata frita', translation: 'форель с жареной картошкой', audioUrl: null },
+      { word: 'helado m', translation: 'мороженое', audioUrl: null },
+      { word: 'flan m', translation: 'флан', audioUrl: null },
+      { word: 'fruta f', translation: 'фрукты', audioUrl: null },
+      { word: 'arroz con leche', translation: 'рис с молоком', audioUrl: null },
+      { word: 'tarta f', translation: 'кусок торта', audioUrl: null },
+      { word: 'cocer (1b) — cocido', translation: 'готовить (еду), варить — отварной', audioUrl: null },
+      { word: 'freír (2) — frito', translation: 'жарить (в масле) — жареный', audioUrl: null },
+      { word: 'asar — asado', translation: 'жарить (на углях) — жареный', audioUrl: null },
+      { word: 'guisar — guisado', translation: 'тушить — тушеный', audioUrl: null },
+      { word: 'hervir (3) — hervido', translation: 'кипятить — кипяченый', audioUrl: null },
+      { word: 'sabor m', translation: 'вкус', audioUrl: null },
+      { word: 'sabor a fresa', translation: 'вкус клубники', audioUrl: null },
+      { word: 'olor m', translation: 'запах', audioUrl: null },
+      { word: 'olor a canela', translation: 'запах корицы', audioUrl: null },
+      { word: 'oler (1b)', translation: 'пахнуть', audioUrl: null },
+      { word: 'rico / sabroso / delicioso', translation: 'вкусный', audioUrl: null },
+      { word: 'dulce', translation: 'сладкий', audioUrl: null },
+      { word: 'salado', translation: 'соленый', audioUrl: null },
+      { word: 'amargo', translation: 'горький', audioUrl: null },
+      { word: 'agrio', translation: 'кислый', audioUrl: null },
+      { word: 'soso', translation: 'пресный', audioUrl: null },
+      { word: 'caliente', translation: 'горячий', audioUrl: null },
+      { word: 'frío', translation: 'холодный', audioUrl: null },
+      { word: 'vegetariano', translation: 'вегетарианский', audioUrl: null }
+    ],
     grammar: {
       title: 'Pretérito Pluscuamperfecto (Предпрошедшее время)',
       intro: `Это «прошлое в прошлом». Мы используем его, когда рассказываем о чем-то в прошлом, но хотим упомянуть событие, которое случилось еще раньше.`,
@@ -8623,7 +8692,7 @@ Al + инфинитив + подлежащее инфинитива, [основ
         }
       ]
     },
-    exercises: ['ex-7-3-1', 'ex-7-3-2']
+    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3']
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
@@ -18208,6 +18277,90 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
         russian: 'Я никогда не видел такого красивого города, который мы посетили прошлым летом.',
         correct: 'Nunca había visto una ciudad tan bonita como la que visitamos el verano pasado.',
         alternatives: ['Nunca había visto una ciudad tan hermosa como la que visitamos el verano pasado.']
+      }
+    ]
+  },
+
+  'ex-7-3-3': {
+    id: 'ex-7-3-3',
+    type: 'translation',
+    title: 'Ресторан и еда - Перевод на испанский',
+    description: 'Переведите предложения на испанский язык',
+    questions: [
+      {
+        russian: 'Уже половина третьего. Пора обедать.',
+        correct: 'Ya son las dos y media. Es hora de comer.',
+        alternatives: ['Ya es la una y media. Es hora de almorzar.']
+      },
+      {
+        russian: 'Вчера вечером мы захотели поужинать более основательно и пошли в ресторан. Там нам подали очень вкусное жареное мясо.',
+        correct: 'Anoche quisimos cenar más fuerte y fuimos a un restaurante. Allí nos sirvieron carne asada muy rica.',
+        alternatives: ['Ayer por la noche quisimos cenar más sustancioso y fuimos al restaurante. Allí nos sirvieron carne asada muy sabrosa.']
+      },
+      {
+        russian: 'Как тебе новый гриль-бар? — Мы с женой были там вчера, я заплатил много денег, но нам не понравилось.',
+        correct: '¿Qué te parece el nuevo grill-bar? — Mi mujer y yo estuvimos allí ayer, pagué mucho dinero pero no nos gustó.',
+        alternatives: ['¿Cómo te parece el nuevo grill-bar? — Estuvimos allí ayer con mi esposa, pagué mucho dinero pero no nos gustó.']
+      },
+      {
+        russian: 'Есть свободные столики или надо немного подождать?',
+        correct: '¿Hay mesas libres o hay que esperar un poco?',
+        alternatives: ['¿Hay mesas disponibles o tenemos que esperar un poco?']
+      },
+      {
+        russian: 'Вчера на первое они выбрали суп, на второе заказали отбивную из баранины, а на десерт предпочли мороженое.',
+        correct: 'Ayer de primer plato eligieron sopa, de segundo pidieron chuleta de cordero y de postre prefirieron helado.',
+        alternatives: ['Ayer de primero escogieron sopa, de segundo ordenaron chuleta de cordero y de postre prefirieron helado.']
+      },
+      {
+        russian: 'Комплексный обед включает два блюда, десерт и напитки. За кофе отдельная плата.',
+        correct: 'El menú del día incluye dos platos, postre y bebidas. El café se paga aparte.',
+        alternatives: ['El menú del día incluye dos platos, postre y bebidas. Por el café se paga separadamente.']
+      },
+      {
+        russian: 'Официант нам посоветовал заказать кувшин красного домашнего вина, оно оказалось превосходным.',
+        correct: 'El camarero nos aconsejó pedir una jarra de vino tinto de la casa, resultó excelente.',
+        alternatives: ['El camarero nos recomendó pedir una jarra de vino tinto casero, resultó ser excelente.']
+      },
+      {
+        russian: 'Я купил хлеб, ветчину, сыр и фрукты, предлагаю поужинать сегодня дома. — Ничего не имею против.',
+        correct: 'Compré pan, jamón, queso y frutas, propongo cenar hoy en casa. — No tengo nada en contra.',
+        alternatives: ['He comprado pan, jamón, queso y fruta, propongo cenar hoy en casa. — No me opongo.']
+      },
+      {
+        russian: 'В этом ресторане подают отличную паэлью и свежие морепродукты.',
+        correct: 'En este restaurante sirven paella excelente y mariscos frescos.',
+        alternatives: ['En este restaurante sirven una paella excelente y mariscos frescos.']
+      },
+      {
+        russian: 'На завтрак я обычно ем тосты с джемом и пью кофе с молоком.',
+        correct: 'Para el desayuno normalmente como tostadas con mermelada y bebo café con leche.',
+        alternatives: ['De desayuno suelo comer tostadas con mermelada y tomar café con leche.']
+      },
+      {
+        russian: 'Официант принес нам меню, и мы начали выбирать блюда.',
+        correct: 'El camarero nos trajo el menú y empezamos a elegir los platos.',
+        alternatives: ['El camarero nos trajo la carta y comenzamos a escoger los platos.']
+      },
+      {
+        russian: 'Этот суп слишком соленый, а десерт очень сладкий.',
+        correct: 'Esta sopa está demasiado salada y el postre está muy dulce.',
+        alternatives: ['Esta sopa es demasiado salada y el postre es muy dulce.']
+      },
+      {
+        russian: 'Мне нравится запах свежего хлеба и вкус домашней еды.',
+        correct: 'Me gusta el olor del pan fresco y el sabor de la comida casera.',
+        alternatives: ['Me gusta el olor a pan fresco y el sabor de la comida hecha en casa.']
+      },
+      {
+        russian: 'В меню есть вегетарианские блюда? — Да, у нас есть салаты и овощной суп.',
+        correct: '¿Hay platos vegetarianos en el menú? — Sí, tenemos ensaladas y sopa de verduras.',
+        alternatives: ['¿Hay platos vegetarianos en la carta? — Sí, tenemos ensaladas y sopa de verduras.']
+      },
+      {
+        russian: 'Положите, пожалуйста, на стол скатерть, тарелки, вилки, ножи и салфетки.',
+        correct: 'Pongan, por favor, en la mesa el mantel, los platos, los tenedores, los cuchillos y las servilletas.',
+        alternatives: ['Ponga, por favor, en la mesa el mantel, los platos, los tenedores, los cuchillos y las servilletas.']
       }
     ]
   },
