@@ -11,7 +11,7 @@ export const courseLevels = [
     id: 'elementary',
     name: 'Базовый уровень (A2)',
     description: 'Развитие базовых навыков',
-    modules: ['module-6']
+    modules: ['module-6', 'module-7']
   },
   {
     id: 'intermediate',
@@ -64,6 +64,13 @@ export const modules = {
     level: 'elementary',
     lessons: ['lesson-6-1', 'lesson-6-2', 'lesson-6-3'],
     description: 'Прошедшее время, покупки, магазины'
+  },
+  'module-7': {
+    id: 'module-7',
+    title: 'Модуль 7: ПРИЯТНОГО АППЕТИТА. Календарь. Сравнительная характеристика употребления indefinido / imperfecto. Конструкция al + инфинитив. Pretérito pluscuamperfecto de indicativo (предпрошедшее время изъявительного наклонения)',
+    level: 'elementary',
+    lessons: ['lesson-7-1'],
+    description: 'Календарь, сравнение Indefinido/Imperfecto, конструкция al + инфинитив'
   },
   'module-11': {
     id: 'module-11',
@@ -8290,6 +8297,133 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
 Те дни уже не вернутся, но воспоминания остаются. И когда я закрываю глаза, я всё ещё могу чувствовать летнее солнце на своём лице, слышать смех детей на площади и чувствовать запах еды моей бабушки, готовящейся на кухне.`
     },
     exercises: ['ex-6-3-1', 'ex-6-3-2', 'ex-6-3-3', 'ex-6-3-4', 'ex-6-3-5', 'ex-6-3-6', 'ex-6-3-7']
+  },
+
+  // МОДУЛЬ 7: ПРИЯТНОГО АППЕТИТА
+  'lesson-7-1': {
+    id: 'lesson-7-1',
+    title: 'Урок 1: Календарь. Сравнительная характеристика употребления indefinido / imperfecto',
+    moduleId: 'module-7',
+    vocabulary: [
+      { word: 'el año tiene 4 estaciones', translation: 'В году 4 времени года', audioUrl: null },
+      { word: 'el invierno', translation: 'зима', audioUrl: null },
+      { word: 'la primavera', translation: 'весна', audioUrl: null },
+      { word: 'el verano', translation: 'лето', audioUrl: null },
+      { word: 'el otoño', translation: 'осень', audioUrl: null },
+      { word: 'el año tiene 12 meses', translation: 'В году 12 месяцев', audioUrl: null },
+      { word: 'enero', translation: 'январь', audioUrl: null },
+      { word: 'febrero', translation: 'февраль', audioUrl: null },
+      { word: 'marzo', translation: 'март', audioUrl: null },
+      { word: 'abril', translation: 'апрель', audioUrl: null },
+      { word: 'mayo', translation: 'май', audioUrl: null },
+      { word: 'junio', translation: 'июнь', audioUrl: null },
+      { word: 'julio', translation: 'июль', audioUrl: null },
+      { word: 'agosto', translation: 'август', audioUrl: null },
+      { word: 'septiembre', translation: 'сентябрь', audioUrl: null },
+      { word: 'octubre', translation: 'октябрь', audioUrl: null },
+      { word: 'noviembre', translation: 'ноябрь', audioUrl: null },
+      { word: 'diciembre', translation: 'декабрь', audioUrl: null },
+      { word: 'los días de la semana son', translation: 'Дни недели', audioUrl: null },
+      { word: 'lunes', translation: 'понедельник', audioUrl: null },
+      { word: 'martes', translation: 'вторник', audioUrl: null },
+      { word: 'miércoles', translation: 'среда', audioUrl: null },
+      { word: 'jueves', translation: 'четверг', audioUrl: null },
+      { word: 'viernes', translation: 'пятница', audioUrl: null },
+      { word: 'sábado', translation: 'суббота', audioUrl: null },
+      { word: 'domingo', translation: 'воскресенье', audioUrl: null },
+      { word: 'el fin de semana', translation: 'Конец недели, или выходные', audioUrl: null }
+    ],
+    grammar: {
+      title: 'Сравнительная характеристика употребления Pretérito Indefinido / Imperfecto',
+      sections: [
+        {
+          id: 'indefinido',
+          title: '1. Pretérito Indefinido (¿Qué pasó?)',
+          content: `**Se usa para acciones terminadas, con un principio y un fin claros. Es el tiempo de la "narración".**
+
+**Acciones en un momento concreto:** (Ayer, el año pasado, en 1990)
+- **Ejemplo:** El 12 de octubre de 1492 Colón descubrió América.
+
+**Sucesión de acciones** (lista de eventos):
+- **Ejemplo:** Ayer me levanté, me duché y salí de casa.
+
+**Acciones repetidas un número específico de veces:** (Dos veces, tres veces, mucho tiempo)
+- **Ejemplo:** Jorge me llamó cinco veces. Estuve enferma dos semanas.
+
+**Palabras clave:** Ayer, anteayer, el mes pasado, hace dos años, de repente.`
+        },
+        {
+          id: 'imperfecto',
+          title: '2. Pretérito Imperfecto (¿Cómo era? ¿Qué pasaba?)',
+          content: `**Se usa para describir el escenario, la rutina o acciones sin un final definido. Es el tiempo del "decorado".**
+
+**Descripción de personas, cosas o estados:**
+- **Ejemplo:** Ana era delgada y tenía muchos amigos.
+
+**Acciones habituales o rutinas** (siempre lo hacías):
+- **Ejemplo:** De vez en cuando nos veíamos y él me preguntaba por ti.
+
+**Acciones simultáneas** (dos cosas a la vez):
+- **Ejemplo:** Mientras Elena preparaba la cena, la familia veía la tele.
+
+**La hora y la edad en el pasado:**
+- **Ejemplo:** Eran las siete cuando me desperté. (Tenía 5 años...)
+
+**Estilo indirecto** (pasar de presente a pasado):
+- **Ejemplo:** Dijo: "Ellos descansan" → Dijo que ellos descansaban.
+
+**Palabras clave:** Antes, todos los días, siempre, mientras, a menudo, generalmente.`
+        },
+        {
+          id: 'comparacion',
+          title: 'Cuadro Comparativo: La "Foto" vs. la "Película"',
+          content: `| **Pretérito Indefinido (La Acción)** | **Pretérito Imperfecto (El Escenario)** |
+|---------------------------------------|----------------------------------------|
+| ¿Qué pasó? (Hecho puntual) | ¿Cómo era? (Descripción) |
+| Interrumpe una acción | Es la acción que estaba en curso |
+| Enfocado en el final de la acción | Enfocado en el proceso o rutina |
+| **Ayer comí pizza** | **Antes siempre comía pizza** |`
+        }
+      ]
+    },
+    readingText: {
+      title: 'Упражнения на употребление',
+      content: `**¿Qué fecha es hoy?**
+— Hoy es dos de enero.
+
+**¿Qué día de la semana es hoy?**
+— Hoy es lunes.
+
+**¿En qué mes estamos?**
+— Estamos en enero.
+
+**¿En qué estación del año estamos?**
+— Estamos en invierno.
+
+**¿Cuándo es tu (su) cumpleaños?**
+— Mi cumpleaños es el veintiuno de marzo.
+
+**¿Cuándo es el cumpleaños de tu abuelo?**
+— El cumpleaños de mi abuelo es el primero de abril.`,
+      translation: `**Какое сегодня число?**
+— Сегодня 2 января.
+
+**Какой сегодня день недели?**
+— Сегодня понедельник.
+
+**Какой сейчас месяц?**
+— Сейчас январь.
+
+**Какое сейчас время года?**
+— Сейчас зима.
+
+**Когда у тебя (Вас) день рождения?**
+— Мой день рождения 21 марта.
+
+**Когда день рождения твоего деда?**
+— День рождения моего деда первого апреля.`
+    },
+    exercises: ['ex-7-1-1', 'ex-7-1-2', 'ex-7-1-3', 'ex-7-1-4', 'ex-7-1-5']
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
@@ -16909,7 +17043,278 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
-  // МОДУЛЬ 7: Досуг и развлечения (B1)
+  // МОДУЛЬ 7: ПРИЯТНОГО АППЕТИТА - Упражнения
+  'ex-7-1-1': {
+    id: 'ex-7-1-1',
+    type: 'fillblank',
+    title: 'Календарь - Времена года и месяцы',
+    description: 'Дополните предложения правильными словами',
+    questions: [
+      {
+        sentence: 'Enero es el primer mes de _____.',
+        correct: 'el año',
+        alternatives: []
+      },
+      {
+        sentence: 'El año tiene cuatro _____: primavera, verano, otoño e invierno.',
+        correct: 'estaciones',
+        alternatives: []
+      },
+      {
+        sentence: 'Diciembre, enero y febrero son meses de _____.',
+        correct: 'invierno',
+        alternatives: []
+      },
+      {
+        sentence: 'Marzo, abril y mayo son meses de _____.',
+        correct: 'primavera',
+        alternatives: []
+      },
+      {
+        sentence: 'Junio, julio y agosto son meses de _____.',
+        correct: 'verano',
+        alternatives: []
+      },
+      {
+        sentence: 'Septiembre, octubre y noviembre son meses de _____.',
+        correct: 'otoño',
+        alternatives: []
+      },
+      {
+        sentence: 'El año tiene _____ meses.',
+        correct: 'doce',
+        alternatives: ['12']
+      },
+      {
+        sentence: 'La semana tiene siete _____.',
+        correct: 'días',
+        alternatives: []
+      },
+      {
+        sentence: 'Sábado y domingo forman el _____ de semana.',
+        correct: 'fin',
+        alternatives: []
+      },
+      {
+        sentence: 'Lunes es el primer día de la _____.',
+        correct: 'semana',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-2': {
+    id: 'ex-7-1-2',
+    type: 'fillblank',
+    title: 'Диалоги о датах',
+    description: 'Дополните диалоги правильными ответами',
+    questions: [
+      {
+        sentence: '¿Qué día de la semana es hoy? — Hoy es _____.',
+        correct: 'lunes',
+        alternatives: ['martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
+      },
+      {
+        sentence: '¿En qué mes estamos? — Estamos en _____.',
+        correct: 'enero',
+        alternatives: ['febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+      },
+      {
+        sentence: '¿En qué estación del año estamos? — Estamos en _____.',
+        correct: 'invierno',
+        alternatives: ['primavera', 'verano', 'otoño']
+      },
+      {
+        sentence: '¿Qué fecha es hoy? — Hoy es _____ de enero.',
+        correct: 'dos',
+        alternatives: ['tres', 'cuatro', 'cinco', 'diez', 'veinte']
+      },
+      {
+        sentence: '¿Cuándo es tu cumpleaños? — Mi cumpleaños es el veintiuno de _____.',
+        correct: 'marzo',
+        alternatives: ['enero', 'febrero', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+      }
+    ]
+  },
+
+  'ex-7-1-3': {
+    id: 'ex-7-1-3',
+    type: 'fillblank',
+    title: 'Pretérito Indefinido vs Imperfecto - Выбор времени',
+    description: 'Выберите правильное время (Indefinido или Imperfecto)',
+    questions: [
+      {
+        sentence: 'Ayer (comer, yo) _____ pizza.',
+        correct: 'comí',
+        alternatives: []
+      },
+      {
+        sentence: 'Antes siempre (comer, yo) _____ pizza.',
+        correct: 'comía',
+        alternatives: []
+      },
+      {
+        sentence: 'El 12 de octubre de 1492 Colón (descubrir) _____ América.',
+        correct: 'descubrió',
+        alternatives: []
+      },
+      {
+        sentence: 'Ana (ser) _____ delgada y (tener) _____ muchos amigos.',
+        correct: 'era, tenía',
+        alternatives: []
+      },
+      {
+        sentence: 'Ayer me (levantar) _____, me (duchar) _____ y (salir) _____ de casa.',
+        correct: 'levanté, duché, salí',
+        alternatives: []
+      },
+      {
+        sentence: 'Mientras Elena (preparar) _____ la cena, la familia (ver) _____ la tele.',
+        correct: 'preparaba, veía',
+        alternatives: []
+      },
+      {
+        sentence: 'Jorge me (llamar) _____ cinco veces.',
+        correct: 'llamó',
+        alternatives: []
+      },
+      {
+        sentence: '(Ser) _____ las siete cuando me (despertar) _____.',
+        correct: 'Eran, desperté',
+        alternatives: []
+      },
+      {
+        sentence: 'De vez en cuando nos (ver, nosotros) _____ y él me (preguntar) _____ por ti.',
+        correct: 'veíamos, preguntaba',
+        alternatives: []
+      },
+      {
+        sentence: '(Estar, yo) _____ enferma dos semanas.',
+        correct: 'Estuve',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-4': {
+    id: 'ex-7-1-4',
+    type: 'fillblank',
+    title: 'Pretérito Indefinido - Acciones puntuales',
+    description: 'Поставьте глаголы в Pretérito Indefinido',
+    questions: [
+      {
+        sentence: 'Ayer (ir, yo) _____ al cine.',
+        correct: 'fui',
+        alternatives: []
+      },
+      {
+        sentence: 'El mes pasado (viajar, nosotros) _____ a Madrid.',
+        correct: 'viajamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Hace dos años (comprar, ellos) _____ una casa nueva.',
+        correct: 'compraron',
+        alternatives: []
+      },
+      {
+        sentence: 'Anteayer (llegar, tú) _____ tarde a la reunión.',
+        correct: 'llegaste',
+        alternatives: []
+      },
+      {
+        sentence: 'De repente (empezar) _____ a llover.',
+        correct: 'empezó',
+        alternatives: []
+      },
+      {
+        sentence: 'En 1992 los Juegos Olímpicos (ser) _____ en Barcelona.',
+        correct: 'fueron',
+        alternatives: []
+      },
+      {
+        sentence: 'La semana pasada (estudiar, yo) _____ mucho para el examen.',
+        correct: 'estudié',
+        alternatives: []
+      },
+      {
+        sentence: 'Ayer por la mañana (desayunar, nosotros) _____ café con tostadas.',
+        correct: 'desayunamos',
+        alternatives: []
+      },
+      {
+        sentence: 'El domingo pasado (visitar, ellos) _____ a sus abuelos.',
+        correct: 'visitaron',
+        alternatives: []
+      },
+      {
+        sentence: 'Hace tres días (terminar, yo) _____ de leer ese libro.',
+        correct: 'terminé',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-5': {
+    id: 'ex-7-1-5',
+    type: 'fillblank',
+    title: 'Pretérito Imperfecto - Descripciones y rutinas',
+    description: 'Поставьте глаголы в Pretérito Imperfecto',
+    questions: [
+      {
+        sentence: 'Antes (vivir, yo) _____ en el campo.',
+        correct: 'vivía',
+        alternatives: []
+      },
+      {
+        sentence: 'Todos los días (ir, nosotros) _____ a la escuela a pie.',
+        correct: 'íbamos',
+        alternatives: []
+      },
+      {
+        sentence: 'Siempre (estudiar, tú) _____ por la noche.',
+        correct: 'estudiabas',
+        alternatives: []
+      },
+      {
+        sentence: 'A menudo (visitar, ellos) _____ a sus tíos.',
+        correct: 'visitaban',
+        alternatives: []
+      },
+      {
+        sentence: 'Mientras (leer, yo) _____, mi hermano (jugar) _____ al fútbol.',
+        correct: 'leía, jugaba',
+        alternatives: []
+      },
+      {
+        sentence: 'Generalmente (desayunar, nosotros) _____ a las ocho.',
+        correct: 'desayunábamos',
+        alternatives: []
+      },
+      {
+        sentence: 'De niño (ser, yo) _____ muy tímido.',
+        correct: 'era',
+        alternatives: []
+      },
+      {
+        sentence: 'Cuando (tener, yo) _____ cinco años, (vivir) _____ en Barcelona.',
+        correct: 'tenía, vivía',
+        alternatives: []
+      },
+      {
+        sentence: 'Mi abuela siempre (preparar) _____ comidas deliciosas.',
+        correct: 'preparaba',
+        alternatives: []
+      },
+      {
+        sentence: 'En verano (hacer) _____ mucho calor y (ir, nosotros) _____ a la playa.',
+        correct: 'hacía, íbamos',
+        alternatives: []
+      }
+    ]
+  },
+
+  // МОДУЛЬ 11: Досуг и развлечения (B1)
   'ex-7-1-vocab': {
     id: 'ex-7-1-vocab',
     type: 'fillblank',
