@@ -127,7 +127,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
       }
 
       // Text input types (need string comparison)
-      if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation', 'translation'].includes(exercise.type)) {
+      if (['writing', 'fillblank', 'transformation', 'error-correction', 'word-formation', 'translation', 'translation-to-russian'].includes(exercise.type)) {
         const normalizedAnswer = userAnswer?.toLowerCase().trim()
         const normalizedCorrect = question.correct?.toLowerCase().trim()
 
@@ -629,6 +629,12 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               exerciseId={exercise.id}
               currentQuestionIndex={currentQuestion}
               showAnswerOption={exercise.showAnswerOption}
+            />
+          )}
+          {exercise.type === 'translation-to-russian' && (
+            <TranslationToRussianQuestion
+              question={exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
             />
           )}
           {exercise.type === 'multi-part' && (
@@ -1581,7 +1587,7 @@ function TransformationQuestion({ question, onAnswer }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Трансформируйте предложение:</h3>
-      <p className={styles.sentenceToTransform}>{question.russian}</p>
+      <p className={styles.sentenceToTransform}>{question.sentence}</p>
       <form onSubmit={handleSubmit} className={styles.writingForm}>
         <input
           type="text"
@@ -2422,6 +2428,76 @@ function TranslationQuestion({ question, onAnswer, exerciseId, currentQuestionIn
             Продолжить
           </button>
         </div>
+      )}
+    </div>
+  )
+}
+
+function TranslationToRussianQuestion({ question, onAnswer }) {
+  const [input, setInput] = useState('')
+  const [showFeedback, setShowFeedback] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null)
+
+  // Сбросить состояние при изменении вопроса
+  useEffect(() => {
+    setInput('')
+    setShowFeedback(false)
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+      setTimeoutId(null)
+    }
+  }, [question])
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (input.trim()) {
+      const normalizedInput = input.toLowerCase().trim()
+      const normalizedCorrect = question.correct?.toLowerCase().trim()
+
+      let isCorrect = normalizedInput === normalizedCorrect
+
+      // Проверяем альтернативные ответы, если они есть
+      if (!isCorrect && question.alternatives && Array.isArray(question.alternatives)) {
+        isCorrect = question.alternatives.some(alt => normalizedInput === alt?.toLowerCase().trim())
+      }
+
+      if (!isCorrect) {
+        setShowFeedback(true)
+        const id = setTimeout(() => {
+          setShowFeedback(false)
+          onAnswer(input)
+          setInput('')
+        }, 15000)
+        setTimeoutId(id)
+      } else {
+        onAnswer(input)
+        setInput('')
+      }
+    }
+  }
+
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>Переведите на русский:</h3>
+      <p className={styles.sentenceToTransform}>{question.spanish}</p>
+      <form onSubmit={handleSubmit} className={styles.writingForm}>
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className={`${styles.writingInput} ${showFeedback ? styles.wrongAnswer : ''}`}
+          placeholder="Введите перевод на русском"
+          autoFocus
+          disabled={showFeedback}
+        />
+        <button type="submit" className={styles.submitBtn} disabled={showFeedback}>
+          Ответить
+        </button>
+      </form>
+      {showFeedback && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.correct}
+        </p>
       )}
     </div>
   )
