@@ -8428,8 +8428,21 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
 
   'lesson-7-2': {
     id: 'lesson-7-2',
-    title: 'Урок 2: Конструкция Al + Infinitivo',
+    title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
     moduleId: 'module-7',
+    vocabulary: [
+      { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
+      { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
+      { word: 'dejar de + inf.', translation: 'переставать / прекращать делать что-то', audioUrl: null },
+      { word: 'dejar + inf.', translation: 'позволить / не препятствовать делать что-то', audioUrl: null },
+      { word: 'dejar caer', translation: 'уронить', audioUrl: null },
+      { word: 'dejar en paz', translation: 'оставить в покое', audioUrl: null },
+      { word: 'quedar', translation: 'оставаться (что-либо у кого-либо)', audioUrl: null },
+      { word: 'quedar + сущ., прил., прич.', translation: 'оставаться / оказаться (каким, в каком-то состоянии)', audioUrl: null },
+      { word: 'quedar en', translation: 'договориться', audioUrl: null },
+      { word: 'quedar(se)', translation: 'оставаться где-то', audioUrl: null },
+      { word: 'quedar(se) con', translation: 'взять / забрать с собой', audioUrl: null }
+    ],
     grammar: {
       title: 'Конструкция "Al + Infinitivo"',
       intro: `Конструкция "Al + Infinitivo" — очень удобный и короткий способ сказать "когда..." или использовать деепричастие.`,
@@ -8488,7 +8501,7 @@ Al + инфинитив + подлежащее инфинитива, [основ
         }
       ]
     },
-    exercises: ['ex-7-2-1', 'ex-7-2-2']
+    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
@@ -17681,6 +17694,228 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       {
         russian: 'Получив письмо, он сразу его прочитал',
         correct: 'Al recibir la carta, la leyó en seguida'
+      }
+    ]
+  },
+
+  'ex-7-2-3': {
+    id: 'ex-7-2-3',
+    type: 'translation-to-russian',
+    title: 'Dejar / Quedar(se) - Перевод на русский',
+    description: 'Переведите предложения на русский язык',
+    questions: [
+      {
+        spanish: 'Ayer nos quedamos en casa porque llovía.',
+        correct: 'Вчера мы остались дома, потому что шел дождь.'
+      },
+      {
+        spanish: 'No debes dejar al abuelo solo en casa porque está enfermo.',
+        correct: 'Ты не должен оставлять дедушку одного дома, потому что он болен.'
+      },
+      {
+        spanish: 'No me llevaba el pasaporte y no me dejaron entrar en el club deportivo.',
+        correct: 'У меня не было с собой паспорта, и мне не разрешили войти в спортивный клуб.'
+      },
+      {
+        spanish: 'Nos quedan tres días para el examen.',
+        correct: 'У нас осталось три дня до экзамена.'
+      },
+      {
+        spanish: 'Quedaron en ir a la exposición el fin de semana.',
+        correct: 'Они договорились пойти на выставку в выходные.'
+      },
+      {
+        spanish: 'El viernes pasado dejé caer mi móvil y éste se rompió.',
+        correct: 'В прошлую пятницу я уронил свой мобильный телефон, и он сломался.'
+      },
+      {
+        spanish: '¿Queda usted con esta bufanda? — Sí, porque me gusta el color y va bien con mi abrigo.',
+        correct: 'Вы берете этот шарф? — Да, потому что мне нравится цвет, и он хорошо подходит к моему пальто.'
+      },
+      {
+        spanish: 'Hace dos horas traduje los documentos y los dejé sobre la mesa del jefe.',
+        correct: 'Два часа назад я перевел документы и оставил их на столе начальника.'
+      },
+      {
+        spanish: 'Me parece que mi novia ha quedado contenta con mi regalo.',
+        correct: 'Мне кажется, что моя девушка осталась довольна моим подарком.'
+      },
+      {
+        spanish: 'Debes dejar de reír de él, ¿no ves que está enamorado locamente de ti?',
+        correct: 'Ты должен перестать смеяться над ним, разве ты не видишь, что он безумно влюблен в тебя?'
+      },
+      {
+        spanish: 'Los niños se quedaron jugando en el parque hasta las seis.',
+        correct: 'Дети остались играть в парке до шести.'
+      },
+      {
+        spanish: 'Mi hermano dejó de fumar hace un año.',
+        correct: 'Мой брат бросил курить год назад.'
+      },
+      {
+        spanish: 'Quedamos en vernos el martes a las cinco.',
+        correct: 'Мы договорились увидеться во вторник в пять.'
+      },
+      {
+        spanish: 'La profesora no nos dejó salir antes de terminar el ejercicio.',
+        correct: 'Учительница не разрешила нам выйти, пока мы не закончили упражнение.'
+      },
+      {
+        spanish: 'Me quedé sorprendido cuando vi el resultado.',
+        correct: 'Я был удивлен, когда увидел результат.'
+      }
+    ]
+  },
+
+  'ex-7-2-4': {
+    id: 'ex-7-2-4',
+    type: 'fillblank',
+    title: 'Dejar / Quedar(se) - Выбор глагола',
+    description: 'Выберите подходящий по смыслу глагол dejar или quedar(se) и поставьте его в соответствующую форму',
+    questions: [
+      {
+        sentence: 'Ayer no quise _____ a los niños solos en casa y preferí _____ con ellos.',
+        correct: 'dejar, quedarme',
+        alternatives: []
+      },
+      {
+        sentence: 'Carmencita no me _____ hacer nada, siempre me pregunta algo, no me _____ en paz.',
+        correct: 'deja, deja',
+        alternatives: []
+      },
+      {
+        sentence: 'Hace 5 años Pedro _____ su familia y se fue a trabajar a Colombia.',
+        correct: 'dejó',
+        alternatives: []
+      },
+      {
+        sentence: 'Después de hablar contigo Antonio _____ triste y no _____ de pensar en tus palabras.',
+        correct: 'quedó, dejó',
+        alternatives: []
+      },
+      {
+        sentence: '¿A qué hora _____ en veros mañana?',
+        correct: 'quedasteis',
+        alternatives: ['quedaron']
+      },
+      {
+        sentence: 'Para la salida del tren _____ diez minutos.',
+        correct: 'quedan',
+        alternatives: []
+      },
+      {
+        sentence: 'La madre no les _____ salir a los niños porque hace mucho frío y está nevando.',
+        correct: 'deja',
+        alternatives: []
+      },
+      {
+        sentence: 'Nosotros _____ en encontrarnos en el café a las tres.',
+        correct: 'quedamos',
+        alternatives: []
+      },
+      {
+        sentence: 'El médico le recomendó que _____ de comer dulces.',
+        correct: 'dejara',
+        alternatives: ['dejase']
+      },
+      {
+        sentence: '¿Cuánto dinero te _____?',
+        correct: 'queda',
+        alternatives: []
+      },
+      {
+        sentence: 'Mis padres no me _____ ir a la fiesta porque tenía que estudiar.',
+        correct: 'dejaron',
+        alternatives: []
+      },
+      {
+        sentence: 'Después del accidente, el coche _____ completamente destruido.',
+        correct: 'quedó',
+        alternatives: []
+      },
+      {
+        sentence: '¿Por qué no _____ de hablar y me escuchas?',
+        correct: 'dejas',
+        alternatives: []
+      },
+      {
+        sentence: 'Me _____ con este vestido porque me gusta mucho.',
+        correct: 'quedo',
+        alternatives: []
+      },
+      {
+        sentence: 'El profesor _____ los libros en la biblioteca antes de irse.',
+        correct: 'dejó',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-2-5': {
+    id: 'ex-7-2-5',
+    type: 'writing',
+    title: 'Dejar / Quedar(se) - Перевод на испанский',
+    description: 'Переведите на испанский язык, используя глаголы dejar или quedar(se)',
+    questions: [
+      {
+        russian: 'Вы так громко разговариваете, вы всем мешаете и не даете мне заснуть',
+        correct: 'Habláis tan alto, molestáis a todos y no me dejáis dormir'
+      },
+      {
+        russian: 'Услышав шум, мы удивились, потому что знали, что в доме никого не было',
+        correct: 'Al oír el ruido, nos quedamos sorprendidos porque sabíamos que no había nadie en la casa'
+      },
+      {
+        russian: 'Я беру эти перчатки, потому что они подходят к моим сапогам',
+        correct: 'Me quedo con estos guantes porque van bien con mis botas'
+      },
+      {
+        russian: 'Мы не будем договариваться с ними о встрече, потому что они отказываются обсуждать с нами этот вопрос',
+        correct: 'No vamos a quedar con ellos porque se niegan a discutir este asunto con nosotros'
+      },
+      {
+        russian: 'Ты должен перестать просить новый мобильный телефон. Неужели ты не знаешь, что у нас осталось мало денег?',
+        correct: 'Debes dejar de pedir un móvil nuevo. ¿Acaso no sabes que nos queda poco dinero?'
+      },
+      {
+        russian: 'Нельзя ей разрешать готовить: она роняет посуду',
+        correct: 'No hay que dejarla cocinar: deja caer la vajilla'
+      },
+      {
+        russian: 'Мы переводили весь день и очень устали. Я понимаю, что у нас осталось еще три статьи и только два дня, но предлагаю оставить работу на завтра',
+        correct: 'Tradujimos todo el día y estamos muy cansados. Entiendo que nos quedan todavía tres artículos y solo dos días, pero propongo dejar el trabajo para mañana'
+      },
+      {
+        russian: 'Когда родители ушли, дети остались одни дома',
+        correct: 'Cuando los padres se fueron, los niños se quedaron solos en casa'
+      },
+      {
+        russian: 'Я оставил ключи на столе в прихожей',
+        correct: 'Dejé las llaves en la mesa del recibidor'
+      },
+      {
+        russian: 'Мы договорились встретиться у входа в музей',
+        correct: 'Quedamos en encontrarnos en la entrada del museo'
+      },
+      {
+        russian: 'Перестань меня беспокоить, оставь меня в покое!',
+        correct: '¡Deja de molestarme, déjame en paz!'
+      },
+      {
+        russian: 'После разговора с директором он остался очень доволен',
+        correct: 'Después de hablar con el director quedó muy contento'
+      },
+      {
+        russian: 'У меня осталось только пять евро до конца месяца',
+        correct: 'Me quedan solo cinco euros hasta fin de mes'
+      },
+      {
+        russian: 'Врач не разрешил ему курить и пить алкоголь',
+        correct: 'El médico no le dejó fumar ni beber alcohol'
+      },
+      {
+        russian: 'Она взяла красное платье, потому что оно ей очень понравилось',
+        correct: 'Se quedó con el vestido rojo porque le gustó mucho'
       }
     ]
   },
