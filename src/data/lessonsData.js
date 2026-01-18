@@ -9568,7 +9568,222 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'pago adelantado', translation: 'предоплата', audioUrl: null },
       { word: 'hora de salida', translation: 'расчетный час', audioUrl: null }
     ],
-    exercises: ['ex-8-2-1', 'ex-8-2-2']
+    readingText: {
+      title: 'Diálogos',
+      dialogs: [
+        {
+          title: 'Diálogo 1: Reservando un hotel',
+          content: `**Laura:** Buenos días, **quisiera** reservar una habitación para dos personas.
+
+**Recepcionista:** Buenos días. ¿Para cuántas noches?
+
+**Laura:** **Me gustaría** quedarme una semana. ¿Tienen **habitación doble** disponible?
+
+**Recepcionista:** Sí, tenemos varias opciones. **Podríamos** ofrecerle una habitación estándar o una **suite**.
+
+**Laura:** ¿Cuál **sería** la diferencia de precio?
+
+**Recepcionista:** La suite **costaría** 150 euros por noche, mientras que la habitación doble estándar **saldría** a 90 euros.
+
+**Laura:** Mmm... Creo que **preferiría** la habitación estándar. ¿El **desayuno incluido**?
+
+**Recepcionista:** Sí, el desayuno está incluido. También tenemos **WiFi** y **acceso gratuito a Internet** en todas las habitaciones.
+
+**Laura:** Perfecto. ¿**Sería** posible tener una **cama extra** en la habitación? Viajo con mi hijo pequeño.
+
+**Recepcionista:** Claro que sí. **Podríamos** añadir una cama extra sin cargo adicional.
+
+**Laura:** Excelente. ¿Tienen **servicio de habitaciones**?
+
+**Recepcionista:** Sí, el **servicio de habitaciones** está disponible de 7 de la mañana a 11 de la noche. También tenemos **tintorería** y **lavandería**.
+
+**Laura:** ¿Y la **calefacción**? Hace mucho frío afuera.
+
+**Recepcionista:** Por supuesto, todas nuestras habitaciones tienen calefacción central y **televisión por satélite**.
+
+**Laura:** Me parece bien. ¿Cuál es la **hora de salida**?
+
+**Recepcionista:** La hora de salida es a las 12 del mediodía. Si necesita quedarse más tiempo, **podría** solicitar un late check-out.
+
+**Laura:** ¿Hay **pago adelantado**?
+
+**Recepcionista:** **Preferíamos** recibir un depósito del 30% para confirmar la reserva.
+
+**Laura:** Entiendo. ¿Aceptan **cambio de divisa**?
+
+**Recepcionista:** Sí, en la **recepción** puede cambiar divisas. También hay un cajero automático en el vestíbulo.
+
+**Laura:** Perfecto. Entonces **confirmaría** la reserva ahora mismo. ¿Necesitan algún documento?
+
+**Recepcionista:** Sí, **necesitaría** su pasaporte o documento de identidad. También **le pediría** una tarjeta de crédito para el depósito.
+
+**Laura:** Aquí tiene mi pasaporte y mi tarjeta. ¿Hay algún servicio adicional que **debería** conocer?
+
+**Recepcionista:** Tenemos un **portero** disponible 24 horas para ayudarle con el equipaje. La **camarera** hace la **limpieza** de las habitaciones cada mañana.
+
+**Laura:** Excelente servicio. **Me encantaría** alojarme aquí.
+
+**Recepcionista:** Muchas gracias. Su reserva está confirmada. **Le desearía** una estancia muy agradable en nuestro hotel.`,
+          translation: `**Лаура:** Доброе утро, я хотела бы забронировать номер на двоих.
+
+**Администратор:** Доброе утро. На сколько ночей?
+
+**Лаура:** Мне бы хотелось остановиться на неделю. У вас есть двухместный номер?
+
+**Администратор:** Да, у нас есть несколько вариантов. Мы могли бы предложить вам стандартный номер или люкс.
+
+**Лаура:** Какова была бы разница в цене?
+
+**Администратор:** Люкс стоил бы 150 евро за ночь, в то время как стандартный двухместный номер обошелся бы в 90 евро.
+
+**Лаура:** Ммм... Думаю, я предпочла бы стандартный номер. Завтрак включен?
+
+**Администратор:** Да, завтрак включен. Также у нас есть WiFi и бесплатный доступ в интернет во всех номерах.
+
+**Лаура:** Отлично. Было бы возможно иметь дополнительную кровать в номере? Я путешествую с маленьким сыном.
+
+**Администратор:** Конечно. Мы могли бы добавить дополнительную кровать без дополнительной платы.
+
+**Лаура:** Замечательно. У вас есть обслуживание номеров?
+
+**Администратор:** Да, обслуживание номеров доступно с 7 утра до 11 вечера. Также у нас есть химчистка и прачечная.
+
+**Лаура:** А отопление? На улице очень холодно.
+
+**Администратор:** Конечно, во всех наших номерах есть центральное отопление и спутниковое телевидение.
+
+**Лаура:** Мне кажется хорошо. Какой расчетный час?
+
+**Администратор:** Расчетный час в 12 дня. Если вам нужно остаться дольше, вы могли бы запросить поздний выезд.
+
+**Лаура:** Есть ли предоплата?
+
+**Администратор:** Мы предпочли бы получить депозит в размере 30% для подтверждения бронирования.
+
+**Лаура:** Понятно. Вы принимаете обмен валюты?
+
+**Администратор:** Да, на стойке регистрации можно обменять валюту. Также в вестибюле есть банкомат.
+
+**Лаура:** Отлично. Тогда я бы подтвердила бронирование прямо сейчас. Вам нужны какие-либо документы?
+
+**Администратор:** Да, мне понадобился бы ваш паспорт или удостоверение личности. Также я попросила бы кредитную карту для депозита.
+
+**Лаура:** Вот мой паспорт и моя карта. Есть ли какие-то дополнительные услуги, о которых мне следовало бы знать?
+
+**Администратор:** У нас есть портье, доступный 24 часа, чтобы помочь вам с багажом. Горничная делает уборку номеров каждое утро.
+
+**Лаура:** Отличный сервис. Мне бы очень понравилось остановиться здесь.
+
+**Администратор:** Большое спасибо. Ваше бронирование подтверждено. Я пожелала бы вам очень приятного пребывания в нашем отеле.`
+        },
+        {
+          title: 'Diálogo 2: Buscando alojamiento',
+          content: `**Pedro:** Hola María, estoy buscando un lugar para **alojarme** durante mis vacaciones. ¿**Podrías** recomendarme algo?
+
+**María:** Claro, Pedro. ¿Qué tipo de **alojamiento** prefieres?
+
+**Pedro:** No lo sé... **Me gustaría** algo económico pero cómodo. ¿Qué me **aconsejarías**?
+
+**María:** Pues, **yo diría** que un **hostal** **sería** perfecto para ti. Es más barato que un hotel pero ofrece servicios básicos.
+
+**Pedro:** ¿Cuánto **costaría** aproximadamente?
+
+**María:** Un hostal **te saldría** entre 30 y 50 euros por noche. Si **quisieras** algo aún más barato, **podrías** considerar una **pensión** o un **camping**.
+
+**Pedro:** Mmm, el camping no me convence. Prefiero tener un techo. ¿Qué hay de las **residencias**?
+
+**María:** Una **residencia** **sería** buena opción si vas a quedarte mucho tiempo. **Te permitiría** tener más espacio y privacidad.
+
+**Pedro:** Interesante. ¿Y cuál **sería** la diferencia entre una **habitación individual** y una **habitación doble**?
+
+**María:** La individual es para una persona, **costaría** unos 40 euros. La doble **sería** para dos personas y **valdría** unos 60 euros.
+
+**Pedro:** Viajo solo, así que una individual me **vendría** bien. ¿**Debería** buscar un lugar con **desayuno incluido**?
+
+**María:** Yo lo **haría**. **Te ahorraría** tiempo y dinero por las mañanas. Además, muchos lugares ofrecen desayuno buffet.
+
+**Pedro:** Buen punto. ¿Qué otros servicios **debería** buscar?
+
+**María:** **Yo buscaría** un lugar con **WiFi** y **acceso gratuito a Internet**. También **sería** útil tener **calefacción** si vas en invierno.
+
+**Pedro:** Tienes razón. ¿Y qué hay del **servicio de habitaciones**?
+
+**María:** En un hostal o pensión normalmente no hay servicio de habitaciones, pero **tendrías** una **camarera** que hace la **limpieza** diaria.
+
+**Pedro:** Entiendo. ¿**Necesitaría** hacer **pago adelantado**?
+
+**María:** Generalmente sí. La mayoría de los lugares **te pedirían** al menos un 20% de adelanto para confirmar la reserva.
+
+**Pedro:** ¿Y si necesito **tintorería** o **lavandería**?
+
+**María:** Algunos hostales tienen estos servicios, pero **te cobrarían** extra. **Sería** mejor preguntar antes de reservar.
+
+**Pedro:** Buena idea. ¿Cómo **podría** encontrar el mejor lugar?
+
+**María:** Yo **te recomendaría** buscar en internet. **Podrías** leer reseñas y comparar precios. También **deberías** verificar la **hora de salida** para planificar mejor.
+
+**Pedro:** Excelente consejo. ¿Algo más que **debería** saber?
+
+**María:** Sí, **yo verificaría** si el lugar tiene un **recepcionista** disponible 24 horas. **Te facilitaría** mucho las cosas si llegas tarde.
+
+**Pedro:** Muy útil. Creo que empezaré a buscar hostales con estas características. **Me ayudarías** mucho con esto.
+
+**María:** Con mucho gusto. Si encuentras algo que te gusta, **yo revisaría** bien todas las condiciones antes de pagar.`,
+          translation: `**Педро:** Привет, Мария, я ищу место, чтобы остановиться во время отпуска. Ты могла бы порекомендовать что-то?
+
+**Мария:** Конечно, Педро. Какой тип размещения ты предпочитаешь?
+
+**Педро:** Не знаю... Мне бы хотелось что-то экономичное, но удобное. Что бы ты посоветовала?
+
+**Мария:** Ну, я бы сказала, что дешевый пансион был бы идеален для тебя. Он дешевле отеля, но предлагает базовые услуги.
+
+**Педро:** Сколько бы это стоило приблизительно?
+
+**Мария:** Пансион обошелся бы тебе в 30-50 евро за ночь. Если бы ты хотел что-то еще дешевле, ты мог бы рассмотреть гостиницу или кемпинг.
+
+**Педро:** Ммм, кемпинг меня не убеждает. Я предпочитаю иметь крышу над головой. Как насчет общежитий?
+
+**Мария:** Общежитие было бы хорошим вариантом, если ты собираешься остаться надолго. Оно позволило бы тебе иметь больше пространства и приватности.
+
+**Педро:** Интересно. А какова была бы разница между одноместным и двухместным номером?
+
+**Мария:** Одноместный для одного человека, стоил бы около 40 евро. Двухместный был бы для двух человек и стоил бы около 60 евро.
+
+**Педро:** Я путешествую один, так что одноместный мне подошел бы. Мне следовало бы искать место с включенным завтраком?
+
+**Мария:** Я бы так сделала. Это сэкономило бы тебе время и деньги по утрам. Кроме того, многие места предлагают завтрак-буфет.
+
+**Педро:** Хороший момент. Какие другие услуги мне следовало бы искать?
+
+**Мария:** Я бы искала место с WiFi и бесплатным доступом в интернет. Также было бы полезно иметь отопление, если едешь зимой.
+
+**Педро:** Ты права. А как насчет обслуживания номеров?
+
+**Мария:** В пансионе или гостинице обычно нет обслуживания номеров, но у тебя была бы горничная, которая делает ежедневную уборку.
+
+**Педро:** Понятно. Мне понадобилось бы делать предоплату?
+
+**Мария:** Обычно да. Большинство мест попросили бы тебя хотя бы 20% предоплаты для подтверждения бронирования.
+
+**Педро:** А если мне нужна химчистка или прачечная?
+
+**Мария:** В некоторых пансионах есть эти услуги, но с тебя взяли бы дополнительную плату. Было бы лучше спросить перед бронированием.
+
+**Педро:** Хорошая идея. Как я мог бы найти лучшее место?
+
+**Мария:** Я бы порекомендовала тебе искать в интернете. Ты мог бы прочитать отзывы и сравнить цены. Также тебе следовало бы проверить расчетный час для лучшего планирования.
+
+**Педро:** Отличный совет. Что-то еще, что мне следовало бы знать?
+
+**Мария:** Да, я бы проверила, есть ли в месте администратор, доступный 24 часа. Это очень облегчило бы тебе жизнь, если приедешь поздно.
+
+**Педро:** Очень полезно. Думаю, я начну искать пансионы с этими характеристиками. Ты бы очень помогла мне с этим.
+
+**Мария:** С большим удовольствием. Если найдешь что-то, что тебе нравится, я бы хорошо проверила все условия перед оплатой.`
+        }
+      ]
+    },
+    exercises: ['ex-8-2-1', 'ex-8-2-2', 'ex-8-2-6', 'ex-8-2-7']
   },
 
   'lesson-8-3': {
@@ -9685,7 +9900,354 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'seguro a terceros sin franquicia', translation: 'страхование гражданской ответственности без франшизы', audioUrl: null },
       { word: 'carnet de conducir', translation: 'водительское  удостоверение', audioUrl: null }
     ],
-    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4']
+    readingText: {
+      title: 'Diálogos',
+      dialogs: [
+        {
+          title: 'Diálogo 1: Alquilando un coche',
+          content: `**Cliente:** Buenos días, **quisiera** alquilar un **vehículo** para el fin de semana.
+
+**Empleado:** Buenos días. ¿Qué tipo de **turismo** prefiere? ¿Un coche normal o un **todoterreno**?
+
+**Cliente:** Mi amigo **dijo** que **necesitaría** un jeep porque **iríamos** a las montañas.
+
+**Cliente:** Así es. Él me **comentó** que el camino **sería** difícil y que **necesitaríamos** un 4x4.
+
+**Empleado:** Perfecto. Tenemos varios modelos disponibles. ¿Ya sabe cuántos días lo necesita?
+
+**Cliente:** Mi amigo **dijo** que lo **alquilaríamos** por tres días. **Salíamos** el viernes y **volveríamos** el domingo.
+
+**Empleado:** Entiendo. ¿Qué **tarifa** le interesa? Tenemos tarifa diaria, semanal o con kilometraje ilimitado.
+
+**Cliente:** Él me **aseguró** que **recorreríamos** unos 500 kilómetros. ¿Qué me **recomendaría**?
+
+**Empleado:** **Yo diría** que la tarifa con kilometraje ilimitado **sería** mejor para ustedes. **Les saldría** más económica.
+
+**Cliente:** Perfecto. ¿El **depósito** viene lleno de **gasolina** o de **diesel**?
+
+**Empleado:** Este modelo usa diesel. Se lo **entregaríamos** con el **depósito** lleno y usted lo **devolvería** igual.
+
+**Cliente:** ¿Y si hay alguna **avería** durante el viaje?
+
+**Empleado:** **Le daríamos** un número de emergencia. Si **tuviera** algún problema con el **motor**, las **ruedas** o los **frenos**, nos llamaría inmediatamente.
+
+**Cliente:** ¿Qué pasa si hay un **pinchazo** en el **neumático**?
+
+**Empleado:** En el **maletero** hay una rueda de repuesto. Pero si **prefiriera**, también **podríamos** enviar asistencia en carretera.
+
+**Cliente:** Excelente. Mi amigo me **preguntó** si **tendríamos** que pagar **peaje** en la **autopista**.
+
+**Empleado:** Sí, algunas autopistas tienen peaje. **Yo calcularía** unos 30 euros adicionales para su ruta.
+
+**Cliente:** Entendido. ¿El **seguro incluye** todos los daños?
+
+**Empleado:** Sí, tenemos **seguro a terceros sin franquicia**. Si **chocara** o **atropellara** a alguien, estaría cubierto.
+
+**Cliente:** ¿Y los **faros** y las **luces**?
+
+**Empleado:** Todo está incluido. Solo debe verificar que todas las **luces** funcionen antes de **salir**.
+
+**Cliente:** ¿Necesito algún documento especial?
+
+**Empleado:** Solo su **carnet de conducir** y una tarjeta de crédito para el depósito. También **le pediríamos** su pasaporte.
+
+**Cliente:** Perfecto. Una última pregunta: ¿qué **velocidad** máxima tiene este **todoterreno**?
+
+**Empleado:** Puede **llegar** hasta 180 km/h, pero **yo no adelantaría** a esa velocidad. Es peligroso.
+
+**Cliente:** Tiene razón. No queremos que nos **impongan la multa**.
+
+**Empleado:** Exacto. También hay muchos **semáforos** y zonas de velocidad limitada. **Yo respetaría** siempre las señales.
+
+**Cliente:** Por supuesto. ¿Hay **aparcamiento** cerca de donde vamos?
+
+**Empleado:** Sí, en esa zona hay varios aparcamientos públicos. **Yo buscaría** uno cerca de su hotel.
+
+**Cliente:** Excelente. ¿Dónde puedo encontrar una **gasolinera** si necesito más combustible?
+
+**Empleado:** Hay varias en la ruta. **Le indicaría** las más cercanas en el mapa.
+
+**Cliente:** Perfecto. ¿Y el **aceite**? ¿Debo verificar el nivel?
+
+**Empleado:** Nosotros lo verificamos antes de entregar el coche. Pero si **hiciera** un **recorrido** muy largo, **sería** bueno revisarlo.
+
+**Cliente:** Entiendo. Mi amigo me **dijo** que **tendríamos** cuidado con el **volante** en las curvas.
+
+**Empleado:** Sí, especialmente en montaña. **Yo conduciría** despacio y con precaución.
+
+**Cliente:** Perfecto. ¿Cuándo **podría** recoger el vehículo?
+
+**Empleado:** **Podría** pasar mañana a las 9 de la mañana. El coche **estaría** listo y limpio.
+
+**Cliente:** Excelente. Entonces nos vemos mañana. Espero que no haya ningún **accidente**.
+
+**Empleado:** Nosotros también. **Le desearíamos** un viaje seguro y agradable.`,
+          translation: `**Клиент:** Доброе утро, я хотел бы арендовать транспортное средство на выходные.
+
+**Сотрудник:** Доброе утро. Какой тип легкового автомобиля вы предпочитаете? Обычную машину или внедорожник?
+
+**Клиент:** Мой друг сказал, что нам понадобится джип, потому что мы поедем в горы.
+
+**Клиент:** Так и есть. Он мне сказал, что дорога будет трудной и что нам понадобится 4x4.
+
+**Сотрудник:** Отлично. У нас есть несколько доступных моделей. Вы уже знаете, на сколько дней вам нужна машина?
+
+**Клиент:** Мой друг сказал, что мы арендуем ее на три дня. Мы выезжаем в пятницу и вернемся в воскресенье.
+
+**Сотрудник:** Понятно. Какой тариф вас интересует? У нас есть суточный, недельный или с неограниченным пробегом.
+
+**Клиент:** Он меня уверил, что мы проедем около 500 километров. Что бы вы порекомендовали?
+
+**Сотрудник:** Я бы сказал, что тариф с неограниченным пробегом был бы лучше для вас. Вам бы это обошлось дешевле.
+
+**Клиент:** Отлично. Бак заправлен бензином или дизелем?
+
+**Сотрудник:** Эта модель использует дизель. Мы передадим вам ее с полным баком, и вы вернете ее так же.
+
+**Клиент:** А если будет какая-то поломка во время поездки?
+
+**Сотрудник:** Мы дадим вам номер экстренной службы. Если у вас будет какая-то проблема с двигателем, колесами или тормозами, вы позвоните нам немедленно.
+
+**Клиент:** Что будет, если будет прокол шины?
+
+**Сотрудник:** В багажнике есть запасное колесо. Но если вы предпочитаете, мы также могли бы отправить дорожную помощь.
+
+**Клиент:** Отлично. Мой друг спросил меня, придется ли нам платить дорожную пошлину на автомагистрали.
+
+**Сотрудник:** Да, некоторые автомагистрали имеют пошлину. Я бы рассчитал около 30 евро дополнительно для вашего маршрута.
+
+**Клиент:** Понятно. Страховка включает все повреждения?
+
+**Сотрудник:** Да, у нас есть страхование гражданской ответственности без франшизы. Если вы столкнетесь или совершите наезд на кого-то, вы будете покрыты.
+
+**Клиент:** А фары и габаритные огни?
+
+**Сотрудник:** Все включено. Вам нужно только проверить, что все огни работают перед выездом.
+
+**Клиент:** Мне нужен какой-то специальный документ?
+
+**Сотрудник:** Только ваше водительское удостоверение и кредитная карта для депозита. Также мы попросили бы ваш паспорт.
+
+**Клиент:** Отлично. Последний вопрос: какова максимальная скорость этого внедорожника?
+
+**Сотрудник:** Он может достичь до 180 км/ч, но я бы не совершал обгон на такой скорости. Это опасно.
+
+**Клиент:** Вы правы. Мы не хотим, чтобы нам выписали штраф.
+
+**Сотрудник:** Точно. Также много светофоров и зон с ограниченной скоростью. Я бы всегда соблюдал знаки.
+
+**Клиент:** Конечно. Есть ли парковка рядом с тем местом, куда мы едем?
+
+**Сотрудник:** Да, в той зоне есть несколько общественных парковок. Я бы поискал одну рядом с вашим отелем.
+
+**Клиент:** Отлично. Где я могу найти бензозаправочную станцию, если мне понадобится больше топлива?
+
+**Сотрудник:** На маршруте их несколько. Я бы указал вам ближайшие на карте.
+
+**Клиент:** Отлично. А масло? Мне нужно проверить уровень?
+
+**Сотрудник:** Мы проверяем его перед передачей машины. Но если вы совершите очень длинный пробег, было бы хорошо проверить его.
+
+**Клиент:** Понятно. Мой друг сказал мне, что нам следует быть осторожными с рулем на поворотах.
+
+**Сотрудник:** Да, особенно в горах. Я бы ехал медленно и осторожно.
+
+**Клиент:** Отлично. Когда я мог бы забрать машину?
+
+**Сотрудник:** Вы могли бы прийти завтра в 9 утра. Машина была бы готова и чиста.
+
+**Клиент:** Отлично. Тогда увидимся завтра. Надеюсь, не будет никакой аварии.
+
+**Сотрудник:** Мы тоже. Мы пожелали бы вам безопасного и приятного путешествия.`
+        },
+        {
+          title: 'Diálogo 2: Contando sobre un viaje',
+          content: `**Ana:** ¡Hola Roberto! ¿Cómo estuvo tu viaje por España?
+
+**Roberto:** ¡Fue increíble! Te **conté** que **iría** en coche, ¿verdad?
+
+**Ana:** Sí, me **dijiste** que **alquilarías** un **turismo** en Madrid. ¿Cómo fue la experiencia?
+
+**Roberto:** Antes de **salir**, mi amigo me **dijo** que **tendría** que **pasar** por varias **gasolineras** porque el viaje **sería** largo.
+
+**Ana:** ¿Y fue así?
+
+**Roberto:** Sí, él tenía razón. Me **comentó** que **llenaría** el **depósito** tres veces durante el **recorrido**.
+
+**Ana:** ¿Cuántos kilómetros **hiciste**?
+
+**Roberto:** **Recorrí** unos 800 kilómetros. Mi GPS me **dijo** que **avanzaría** por la **autopista** principal, pero decidí **cruzar** por carreteras secundarias.
+
+**Ana:** ¿Tuviste que pagar **peaje**?
+
+**Roberto:** Sí, el empleado de la agencia me **había dicho** que **pagaría** unos 40 euros en total. Al final **pagué** exactamente eso.
+
+**Ana:** ¿El coche funcionó bien?
+
+**Roberto:** Al principio sí, pero a mitad de camino **tuve** un **pinchazo**. ¡No sabía qué hacer!
+
+**Ana:** ¡Qué mal! ¿Y qué pasó?
+
+**Roberto:** **Llamé** al servicio de asistencia. Me **dijeron** que **llegarían** en 30 minutos y **cambiarían** el **neumático**.
+
+**Ana:** ¿**Llegaron** a tiempo?
+
+**Roberto:** Sí, me **prometieron** que **vendrían** rápido y cumplieron. Me **explicaron** que la **rueda** de repuesto **estaba** en el **maletero**.
+
+**Ana:** ¿Tuviste otros problemas?
+
+**Roberto:** Cuando **llegué** a Barcelona, las **luces** del coche no funcionaban bien. **Pensé** que **tendría** que **ir** a un mecánico.
+
+**Ana:** ¿Y fuiste?
+
+**Roberto:** No hizo falta. En el hotel, el **portero** me **dijo** que solo **necesitaría** cambiar una bombilla de los **faros**. Él mismo me **ayudó**.
+
+**Ana:** ¡Qué amable! ¿Visitaste muchos lugares?
+
+**Roberto:** Sí, **me dirigí** a Valencia primero. Mis amigos me **habían dicho** que **vería** playas hermosas y **pasaría** por el centro histórico.
+
+**Ana:** ¿Y fue verdad?
+
+**Roberto:** Totalmente. Me **recomendaron** que **daría una vuelta** por el casco antiguo y lo hice. ¡Fue precioso!
+
+**Ana:** ¿Después a dónde **fuiste**?
+
+**Roberto:** Desde Valencia, **entré** en Barcelona. Antes de **partir**, unos turistas me **dijeron** que **encontraría** mucho tráfico y que **debería** buscar un buen **aparcamiento**.
+
+**Ana:** ¿Era cierto?
+
+**Roberto:** ¡Muy cierto! **Busqué** aparcamiento durante una hora. El GPS me **indicó** que **habría** uno cerca de La Sagrada Familia, pero **estaba** lleno.
+
+**Ana:** ¿Al final dónde **aparcaste**?
+
+**Roberto:** Un policía me **dijo** que **podría** aparcar en un parking subterráneo. Me **advirtió** que no **aparcara** en la calle porque me **impondrían la multa**.
+
+**Ana:** Buen consejo. ¿Respetaste las normas de **velocidad**?
+
+**Roberto:** Siempre. En la **autopista**, el límite me **parecía** razonable. No quería que me **multaran** ni que **tuviera** un **accidente**.
+
+**Ana:** Muy prudente. ¿Viste muchos **semáforos** en las ciudades?
+
+**Roberto:** Muchísimos. En Madrid especialmente. Me **habían advertido** que **sería** difícil conducir allí, y tenían razón.
+
+**Ana:** ¿**Adelantaste** a muchos coches?
+
+**Roberto:** Solo cuando era seguro. Una vez, otro conductor **adelantó** muy rápido y casi **choca** conmigo. ¡Fue aterrador!
+
+**Ana:** ¡Qué peligro! ¿Y el **motor** del coche funcionó bien todo el tiempo?
+
+**Roberto:** Sí, excepto una vez que **pensé** que **habría** una **avería**. El coche hacía un ruido extraño.
+
+**Ana:** ¿Qué hiciste?
+
+**Roberto:** **Me detuve** en una **gasolinera** y el empleado me **dijo** que solo **necesitaba** más **aceite**. Me **explicó** que lo **agregaría** y el problema **se resolvería**.
+
+**Ana:** ¿Y funcionó?
+
+**Roberto:** Perfectamente. Él me **aseguró** que el **motor** **estaría** bien después de eso, y así fue.
+
+**Ana:** ¿Devolviste el coche sin problemas?
+
+**Roberto:** Sí, me **dijeron** que lo **devolvería** con el **depósito** lleno y lo hice. El empleado **verificó** que no **hubiera** daños en la **matrícula**, el **volante** ni los **frenos**.
+
+**Ana:** ¿Te gustaría **volver** a hacer un viaje así?
+
+**Roberto:** ¡Claro! De hecho, mis amigos ya me **preguntaron** si **volvería** el próximo año. Les **dije** que sí, que **iría** sin dudarlo.`,
+          translation: `**Ана:** Привет, Роберто! Как прошла твоя поездка по Испании?
+
+**Роберто:** Это было невероятно! Я рассказывал тебе, что поеду на машине, верно?
+
+**Ана:** Да, ты сказал мне, что арендуешь легковой автомобиль в Мадриде. Как был опыт?
+
+**Роберто:** Перед выездом мой друг сказал мне, что мне придется заезжать на несколько бензозаправочных станций, потому что поездка будет долгой.
+
+**Ана:** И так было?
+
+**Роберто:** Да, он был прав. Он сказал мне, что я заправлю бак три раза во время пробега.
+
+**Ана:** Сколько километров ты проехал?
+
+**Роберто:** Я проехал около 800 километров. Мой GPS сказал мне, что я буду продвигаться по главной автомагистрали, но я решил пересечь по второстепенным дорогам.
+
+**Ана:** Тебе пришлось платить дорожную пошлину?
+
+**Роберто:** Да, сотрудник агентства мне сказал, что я заплачу около 40 евро в общей сложности. В конце концов я заплатил именно это.
+
+**Ана:** Машина работала хорошо?
+
+**Роберто:** Сначала да, но на полпути у меня был прокол. Я не знал, что делать!
+
+**Ана:** Как плохо! И что случилось?
+
+**Роберто:** Я позвонил в службу помощи. Они сказали мне, что приедут через 30 минут и поменяют шину.
+
+**Ана:** Они приехали вовремя?
+
+**Роберто:** Да, они пообещали мне, что приедут быстро, и выполнили. Они объяснили мне, что запасное колесо было в багажнике.
+
+**Ана:** У тебя были другие проблемы?
+
+**Роберто:** Когда я приехал в Барселону, габаритные огни машины не работали хорошо. Я подумал, что мне придется идти к механику.
+
+**Ана:** И ты пошел?
+
+**Роберто:** Не понадобилось. В отеле портье сказал мне, что мне только понадобится заменить лампочку фар. Он сам мне помог.
+
+**Ана:** Как мило! Ты посетил много мест?
+
+**Роберто:** Да, я направился сначала в Валенсию. Мои друзья сказали мне, что я увижу красивые пляжи и пройду через исторический центр.
+
+**Ана:** И это была правда?
+
+**Роберто:** Полностью. Они порекомендовали мне, что я прогуляюсь по старому городу, и я так и сделал. Это было прекрасно!
+
+**Ана:** Потом куда ты поехал?
+
+**Роберто:** Из Валенсии я въехал в Барселону. Перед отправлением несколько туристов сказали мне, что я найду много трафика и что мне следует искать хорошую парковку.
+
+**Ана:** Это была правда?
+
+**Роберто:** Очень правда! Я искал парковку в течение часа. GPS указал мне, что будет одна рядом с Саграда Фамилия, но она была заполнена.
+
+**Ана:** В конце концов, где ты припарковался?
+
+**Роберто:** Полицейский сказал мне, что я мог бы припарковаться на подземной парковке. Он предупредил меня, что не следует парковаться на улице, потому что мне выпишут штраф.
+
+**Ана:** Хороший совет. Ты соблюдал нормы скорости?
+
+**Роберто:** Всегда. На автомагистрали предел казался мне разумным. Я не хотел, чтобы меня оштрафовали или чтобы у меня была авария.
+
+**Ана:** Очень осмотрительно. Ты видел много светофоров в городах?
+
+**Роберто:** Очень много. Особенно в Мадриде. Меня предупреждали, что будет трудно ездить там, и они были правы.
+
+**Ана:** Ты совершал много обгонов?
+
+**Роберто:** Только когда это было безопасно. Однажды другой водитель обогнал очень быстро и почти столкнулся со мной. Это было ужасно!
+
+**Ана:** Какая опасность! А двигатель машины работал хорошо все время?
+
+**Роберто:** Да, за исключением одного раза, когда я подумал, что будет поломка. Машина издавала странный звук.
+
+**Ана:** Что ты сделал?
+
+**Роберто:** Я остановился на бензозаправочной станции, и сотрудник сказал мне, что мне только нужно было больше масла. Он объяснил мне, что он добавит его, и проблема решится.
+
+**Ана:** И это сработало?
+
+**Роберто:** Идеально. Он уверил меня, что двигатель будет в порядке после этого, и так и было.
+
+**Ана:** Ты вернул машину без проблем?
+
+**Роберто:** Да, мне сказали, что я верну ее с полным баком, и я так сделал. Сотрудник проверил, что не было повреждений на номерном знаке, руле или тормозах.
+
+**Ана:** Ты бы хотел вернуться и совершить такую поездку снова?
+
+**Роберто:** Конечно! На самом деле, мои друзья уже спросили меня, вернусь ли я в следующем году. Я сказал им, что да, что поеду без сомнений.`
+        }
+      ]
+    },
+    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5', 'ex-8-3-6']
   },
 
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -19375,6 +19937,54 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
     ]
   },
 
+  'ex-8-2-6': {
+    id: 'ex-8-2-6',
+    type: 'fillblank',
+    title: 'Упражнение 6: Фразы с лексикой урока',
+    description: 'Дополните фразы, используя слова из словаря урока',
+    questions: [
+      { sentence: 'Voy a reservar una ___ (двухместный номер) en el hotel para mis padres.', correct: 'habitación doble' },
+      { sentence: 'En esta ___ (пансион) el ___ (завтрак включен) en el precio.', correct: 'pensión desayuno incluido' },
+      { sentence: 'Necesito una ___ (дополнительная кровать) porque viajo con mi hijo pequeño.', correct: 'cama extra' },
+      { sentence: 'El ___ (портье) nos ayudó con las maletas cuando llegamos al hotel.', correct: 'portero' },
+      { sentence: 'La ___ (горничная) hace la ___ (уборка) de las habitaciones cada mañana.', correct: 'camarera limpieza' },
+      { sentence: 'Este hotel tiene ___ (спутниковое телевидение) y ___ (бесплатный доступ в интернет).', correct: 'televisión por satélite acceso gratuito a Internet' },
+      { sentence: 'En invierno es importante que todas las habitaciones tengan ___ (отопление).', correct: 'calefacción' },
+      { sentence: 'El ___ (обмен валюты) está disponible en la ___ (служба приема гостей).', correct: 'cambio de divisa recepción' },
+      { sentence: 'Si necesitas lavar tu ropa, hay una ___ (прачечная) en el hotel.', correct: 'lavandería' },
+      { sentence: 'Prefiero ___ (устроиться в гостинице) en un ___ (дешевый пансион) porque es más económico.', correct: 'alojarme hostal' },
+      { sentence: 'El ___ (обслуживание номеров) está disponible las 24 horas del día.', correct: 'servicio de habitaciones' },
+      { sentence: 'Para confirmar la reserva, necesitamos un ___ (предоплата) del 30%.', correct: 'pago adelantado' },
+      { sentence: 'La ___ (расчетный час) es a las 12 del mediodía.', correct: 'hora de salida' },
+      { sentence: 'Este hotel tiene una ___ (химчистка) muy buena para trajes y vestidos.', correct: 'tintorería' },
+      { sentence: 'Quisiera reservar una ___ (номер-люкс) con vista al mar para nuestra luna de miel.', correct: 'suite' }
+    ]
+  },
+
+  'ex-8-2-7': {
+    id: 'ex-8-2-7',
+    type: 'writing',
+    title: 'Упражнение 7: Перевод с русского на испанский',
+    description: 'Переведите фразы на испанский язык, используя слова из словаря урока',
+    questions: [
+      { russian: 'Мне бы хотелось забронировать двухместный номер с включенным завтраком.', correct: 'me gustaría reservar una habitación doble con desayuno incluido' },
+      { russian: 'В этом пансионе есть бесплатный доступ в интернет и спутниковое телевидение.', correct: 'en esta pensión hay acceso gratuito a internet y televisión por satélite' },
+      { russian: 'Портье помог нам с багажом, а горничная сделала уборку номера.', correct: 'el portero nos ayudó con el equipaje y la camarera hizo la limpieza de la habitación' },
+      { russian: 'Нам нужна дополнительная кровать, потому что мы путешествуем с ребенком.', correct: 'necesitamos una cama extra porque viajamos con un niño' },
+      { russian: 'Расчетный час в этом отеле в 12 часов дня.', correct: 'la hora de salida en este hotel es a las 12 del mediodía' },
+      { russian: 'Я хотел бы остановиться в кемпинге, но моя жена предпочитает номер-люкс.', correct: 'me gustaría alojarme en un camping pero mi esposa prefiere una suite' },
+      { russian: 'В отеле есть обслуживание номеров, прачечная и химчистка.', correct: 'en el hotel hay servicio de habitaciones lavandería y tintorería' },
+      { russian: 'Мы могли бы забронировать одноместный номер с отоплением и WiFi.', correct: 'podríamos reservar una habitación individual con calefacción y wifi' },
+      { russian: 'Администратор на стойке регистрации поможет вам с обменом валюты.', correct: 'el recepcionista en la recepción le ayudará con el cambio de divisa' },
+      { russian: 'Для подтверждения бронирования нужна предоплата 50%.', correct: 'para confirmar la reserva se necesita un pago adelantado del 50' },
+      { russian: 'Я бы предпочел остановиться в дешевом пансионе, а не в дорогом отеле.', correct: 'preferiría alojarme en un hostal que en un hotel caro' },
+      { russian: 'В этом общежитии есть все удобства: отопление, интернет и прачечная.', correct: 'en esta residencia hay todas las comodidades calefacción internet y lavandería' },
+      { russian: 'Горничная сказала, что уборка будет завтра утром.', correct: 'la camarera dijo que la limpieza sería mañana por la mañana' },
+      { russian: 'Мы хотели бы номер с дополнительной кроватью и спутниковым телевидением.', correct: 'quisiéramos una habitación con cama extra y televisión por satélite' },
+      { russian: 'Портье посоветовал нам воспользоваться услугами химчистки отеля.', correct: 'el portero nos aconsejó usar los servicios de la tintorería del hotel' }
+    ]
+  },
+
   // Урок 8.3 - Условия в прошлом
   'ex-8-3-1': {
     id: 'ex-8-3-1',
@@ -19456,6 +20066,54 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       { russian: 'Официант говорит клиенту, что обслужит его через минуту', correct: 'el camarero dice al cliente que lo atenderá en un minuto' },
       { russian: 'Врач объяснил, что если Андрей хочет чувствовать себя лучше, ему надо бросить курить и начать заниматься спортом', correct: 'el médico explicó que si andrés quería sentirse mejor tenía que dejar de fumar y empezar a hacer deporte' },
       { russian: 'Я хотел бы знать, почему Алисия ко мне так плохо относится и не хочет оставить меня в покое', correct: 'me gustaría saber por qué alicia me trata tan mal y no quiere dejarme en paz' }
+    ]
+  },
+
+  'ex-8-3-5': {
+    id: 'ex-8-3-5',
+    type: 'fillblank',
+    title: 'Упражнение 5: Фразы с лексикой урока',
+    description: 'Дополните фразы, используя слова из словаря урока',
+    questions: [
+      { sentence: 'Voy a ___ (арендовать) un ___ (легковой автомобиль) para el viaje por la costa.', correct: 'alquilar turismo' },
+      { sentence: 'Necesitamos un ___ (джип) porque vamos a las montañas y el camino es difícil.', correct: 'todoterreno' },
+      { sentence: 'La ___ (тариф) del alquiler incluye seguro y kilometraje ilimitado.', correct: 'tarifa' },
+      { sentence: 'Antes de salir, debo llenar el ___ (бак) de ___ (бензин) en la ___ (бензозаправочная станция).', correct: 'depósito gasolina gasolinera' },
+      { sentence: 'Durante el viaje, tuvimos un ___ (прокол) en el ___ (шина) y tuvimos que cambiar la ___ (колесо).', correct: 'pinchazo neumático rueda' },
+      { sentence: 'El ___ (багажник) del coche es muy grande, cabe todo el equipaje.', correct: 'maletero' },
+      { sentence: 'Por la noche, es importante encender los ___ (фара) y las ___ (габаритные огни).', correct: 'faros luces' },
+      { sentence: 'El ___ (двигатель) hace un ruido extraño, creo que necesita más ___ (масло).', correct: 'motor aceite' },
+      { sentence: 'En la ___ (автомагистраль) hay que pagar ___ (дорожная пошлина) en algunas secciones.', correct: 'autopista peaje' },
+      { sentence: 'Casi tuvimos un ___ (авария) porque otro coche no respetó el ___ (светофор).', correct: 'accidente semáforo' },
+      { sentence: 'Es peligroso ___ (совершить обгон) a alta ___ (скорость) en la carretera.', correct: 'adelantar velocidad' },
+      { sentence: 'Si no respetas las señales, te pueden ___ (выписать штраф).', correct: 'imponer la multa' },
+      { sentence: 'Necesito buscar un ___ (парковка) cerca del hotel.', correct: 'aparcamiento' },
+      { sentence: 'El ___ (страховка включает) daños a terceros sin franquicia.', correct: 'seguro incluye' },
+      { sentence: 'Para conducir en España necesitas tu ___ (водительское удостоверение).', correct: 'carnet de conducir' }
+    ]
+  },
+
+  'ex-8-3-6': {
+    id: 'ex-8-3-6',
+    type: 'writing',
+    title: 'Упражнение 6: Перевод с русского на испанский',
+    description: 'Переведите фразы на испанский язык, используя слова из словаря урока',
+    questions: [
+      { russian: 'Мы арендовали джип, потому что собирались ехать в горы.', correct: 'alquilamos un todoterreno porque íbamos a ir a las montañas' },
+      { russian: 'Какой тариф вы предпочитаете: с ограниченным или неограниченным пробегом?', correct: 'qué tarifa prefiere con recorrido limitado o ilimitado' },
+      { russian: 'Мне нужно заправить бак бензином на бензозаправочной станции.', correct: 'necesito llenar el depósito de gasolina en la gasolinera' },
+      { russian: 'У нас был прокол шины, и мы поменяли колесо на обочине дороги.', correct: 'tuvimos un pinchazo en el neumático y cambiamos la rueda al lado de la carretera' },
+      { russian: 'В багажнике есть запасное колесо и инструменты.', correct: 'en el maletero hay una rueda de repuesto y herramientas' },
+      { russian: 'Двигатель работает хорошо, но нужно проверить уровень масла.', correct: 'el motor funciona bien pero hay que revisar el nivel de aceite' },
+      { russian: 'На автомагистрали мы заплатили дорожную пошлину 40 евро.', correct: 'en la autopista pagamos un peaje de 40 euros' },
+      { russian: 'Водитель совершил обгон на большой скорости и чуть не столкнулся с нами.', correct: 'el conductor adelantó a alta velocidad y casi chocó con nosotros' },
+      { russian: 'Если не остановишься на красный светофор, тебе выпишут штраф.', correct: 'si no te detienes en el semáforo rojo te impondrán la multa' },
+      { russian: 'Я ищу парковку рядом с центром города.', correct: 'busco un aparcamiento cerca del centro de la ciudad' },
+      { russian: 'Страховка включает все повреждения и страхование гражданской ответственности.', correct: 'el seguro incluye todos los daños y seguro a terceros' },
+      { russian: 'Чтобы водить машину, нужно иметь водительское удостоверение.', correct: 'para conducir un coche hay que tener carnet de conducir' },
+      { russian: 'Мы ехали по автомагистрали и видели много светофоров в городах.', correct: 'íbamos por la autopista y vimos muchos semáforos en las ciudades' },
+      { russian: 'Фары не работают, нужно их починить перед поездкой.', correct: 'los faros no funcionan hay que repararlos antes del viaje' },
+      { russian: 'Если будет авария, позвони в службу помощи немедленно.', correct: 'si hay un accidente llama al servicio de asistencia inmediatamente' }
     ]
   },
 
