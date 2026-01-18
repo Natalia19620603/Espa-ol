@@ -90,7 +90,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: СПОРТ. Voz pasiva (страдательный залог). Acusativo con infinitivo. Инфинитивные конструкции',
     level: 'elementary',
-    lessons: ['lesson-9-1', 'lesson-9-2'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
     description: 'Страдательный залог (Voz Pasiva), конструкции с SE, Acusativo con infinitivo'
   },
   'module-17': {
@@ -10441,6 +10441,115 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     },
     vocabulary: [],
     exercises: ['ex-9-2-1', 'ex-9-2-2', 'ex-9-2-3', 'ex-9-2-4', 'ex-9-2-5']
+  },
+
+  'lesson-9-3': {
+    id: 'lesson-9-3',
+    title: 'Урок 3: Основные инфинитивные конструкции (Перифразы)',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Основные инфинитивные конструкции (Перифразы)',
+      intro: `Инфинитивные конструкции (перифразы) — это устойчивые сочетания глаголов с инфинитивом, которые выражают различные аспекты действия: начало, продолжение, окончание, повтор, долженствование и другие.`,
+      sections: [
+        {
+          id: 'future-intention',
+          title: '1. Будущее время и намерение',
+          content: `## 1. Будущее время и намерение
+
+**ir a + infinitivo** — собираться что-то сделать (ближайшее будущее)
+
+Эта конструкция выражает намерение или план на ближайшее будущее.
+
+**Примеры:**
+- Hoy vamos a celebrar el triunfo. (Сегодня мы отпразднуем победу).
+- ¿Vas a participar? (Ты собираешься участвовать?).
+- Mañana voy a visitar a mis abuelos. (Завтра я собираюсь навестить бабушку и дедушку).`
+        },
+        {
+          id: 'start-action',
+          title: '2. Начало действия',
+          content: `## 2. Начало действия
+
+| Конструкция | Значение | Нюанс |
+|-------------|----------|-------|
+| **empezar a + inf** | начинать | Обычное начало процесса |
+| **ponerse a + inf** | приниматься за... | Энергичное или внезапное начало работы |
+| **echarse a + inf** | разразиться... | Только для эмоций: llorar (плакать), reír (смеяться) |
+| **echar a + inf** | броситься... | Начало движения: correr (бежать), andar (идти) |
+
+**Примеры:**
+- Empecé a estudiar a las 8. (Я начал учиться в 8).
+- Se puso a trabajar inmediatamente. (Он сразу принялся за работу).
+- Se echó a llorar. (Она расплакалась).
+- El coche echó a andar. (Машина тронулась).`
+        },
+        {
+          id: 'finish-action',
+          title: '3. Завершение действия',
+          content: `## 3. Завершение действия
+
+**terminar de + inf** — закончить процесс
+- ¿Cuándo termináis de trabajar? (Когда вы заканчиваете работать?).
+
+**dejar de + inf** — перестать что-то делать (бросить привычку)
+- Dejó de practicar deporte. (Она бросила заниматься спортом).
+
+**acabar de + inf** — только что что-то сделать
+- Acabo de firmar esto. (Я только что это подписал).
+
+**Важно:** Конструкция **acabar de** используется в основном в Presente или Imperfecto.`
+        },
+        {
+          id: 'repetition-habit',
+          title: '4. Повтор и привычка',
+          content: `## 4. Повтор и привычка
+
+**soler + inf** — иметь обыкновение (обычно я делаю так...)
+- Solemos cenar en casa. (Мы обычно ужинаем дома).
+- Suelo levantarme temprano. (Я обычно встаю рано).
+
+**volver a + inf** — снова/еще раз что-то сделать
+- Vuelvo a leer tu carta. (Я перечитываю твое письмо).
+- Volvió a llamarme. (Он снова мне позвонил).`
+        },
+        {
+          id: 'obligation',
+          title: '5. Долженствование (Нужно/Должен)',
+          content: `## 5. Долженствование (Нужно/Должен)
+
+**hay que + inf** — нужно (безлично, «нужно вообще всем»)
+- Hay que vivir hoy. (Надо жить сегодня).
+- Hay que estudiar mucho. (Нужно много учиться).
+
+**tener que + inf** — должен (личная обязанность, обстоятельства)
+- Tendrás que hacer cola. (Тебе придется стоять в очереди).
+- Tengo que ir al médico. (Мне нужно идти к врачу).
+
+**deber + inf** — должен (моральный долг, совет)
+- Debemos respetar a los mayores. (Мы должны уважать старших).
+- Debes descansar más. (Тебе следует больше отдыхать).
+
+**necesitar + inf** — испытывать потребность
+- Necesito comprobar datos. (Мне нужно проверить данные).
+- Necesitamos hablar. (Нам нужно поговорить).`
+        },
+        {
+          id: 'causative',
+          title: '6. Воздействие на другого человека',
+          content: `## 6. Воздействие на другого человека
+
+**dejar + inf** — позволять/давать
+- No me dejan entrar. (Меня не пускают / не дают войти).
+- Déjame ayudarte. (Позволь мне помочь тебе).
+
+**hacer + inf** — заставлять (или быть причиной действия)
+- ¿Por qué me haces mentir? (Почему ты заставляешь меня лгать?).
+- El profesor nos hizo repetir el ejercicio. (Учитель заставил нас повторить упражнение).`
+        }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5', 'ex-9-3-6']
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -20841,6 +20950,152 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       { russian: 'Они наблюдали, как дети плавали в бассейне.', correct: 'observaban a los niños nadar en la piscina' },
       { russian: 'Я чувствовал, как холодный ветер дул в лицо.', correct: 'sentía al viento frío soplar en la cara' },
       { russian: 'Вы слышали, как кричала та женщина?', correct: 'oísteis a aquella mujer gritar' }
+    ]
+  },
+
+  // ============ УРОК 9-3: ИНФИНИТИВНЫЕ КОНСТРУКЦИИ (ПЕРИФРАЗЫ) ============
+
+  'ex-9-3-1': {
+    id: 'ex-9-3-1',
+    type: 'grammar',
+    title: 'Упражнение 1: Выбор правильной конструкции',
+    description: 'Выберите правильную инфинитивную конструкцию для каждого предложения',
+    questions: [
+      { question: 'Mañana ___ a visitar a mis abuelos.', options: ['voy', 'suelo', 'debo', 'tengo'], correct: 0 },
+      { question: 'Ella ___ a llorar cuando vio la película triste.', options: ['se echó', 'empezó', 'se puso', 'dejó'], correct: 0 },
+      { question: '___ que respetar las normas de tráfico.', options: ['Hay', 'Tener', 'Deber', 'Necesitar'], correct: 0 },
+      { question: 'Los niños ___ a jugar en el parque todos los días.', options: ['suelen', 'van', 'deben', 'tienen que'], correct: 0 },
+      { question: '___ de fumar hace dos años.', options: ['Dejé', 'Terminé', 'Acabé', 'Volví'], correct: 0 },
+      { question: '___ a estudiar para el examen de mañana.', options: ['Tengo que', 'Hay que', 'Suelo', 'Vuelvo'], correct: 0 },
+      { question: 'El bebé ___ a llorar en medio de la noche.', options: ['se echó', 'empezó', 'se puso', 'volvió'], correct: 0 },
+      { question: '___ llamarte pero estaba ocupado.', options: ['Volví a', 'Iba a', 'Debía', 'Solía'], correct: 1 },
+      { question: 'No me ___ salir hasta que termine mi tarea.', options: ['dejan', 'hacen', 'ponen', 'echan'], correct: 0 },
+      { question: '___ de leer este libro, es muy interesante.', options: ['Acabo', 'Termino', 'Dejo', 'Vuelvo'], correct: 0 },
+      { question: 'Mi hermano ___ levantarse a las 6 de la mañana.', options: ['suele', 'va a', 'tiene que', 'debe'], correct: 0 },
+      { question: 'El profesor nos ___ repetir el ejercicio.', options: ['hizo', 'dejó', 'puso', 'echó'], correct: 0 },
+      { question: '___ descansar más, trabajas demasiado.', options: ['Debes', 'Tienes que', 'Hay que', 'Sueles'], correct: 0 },
+      { question: 'Se ___ a trabajar en cuanto llegó.', options: ['puso', 'echó', 'empezó', 'volvió'], correct: 0 },
+      { question: '¿Cuándo ___ de estudiar? Ya es muy tarde.', options: ['terminas', 'dejas', 'acabas', 'vuelves'], correct: 0 }
+    ]
+  },
+
+  'ex-9-3-2': {
+    id: 'ex-9-3-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Заполните пропуски',
+    description: 'Вставьте правильную инфинитивную конструкцию',
+    questions: [
+      { sentence: 'Esta noche ___ (ir a) cenar en un restaurante italiano.', correct: 'vamos a' },
+      { sentence: 'Mi padre ___ (dejar de) fumar hace cinco años.', correct: 'dejó de' },
+      { sentence: '___ (acabar de) llegar de Madrid y estoy muy cansado.', correct: 'acabo de' },
+      { sentence: 'Nosotros ___ (soler) ir al cine los viernes.', correct: 'solemos' },
+      { sentence: '___ (hay que) estudiar mucho para aprobar este examen.', correct: 'hay que' },
+      { sentence: 'Los niños ___ (ponerse a) gritar cuando vieron el payaso.', correct: 'se pusieron a' },
+      { sentence: 'Mañana ___ (tener que) levantarme temprano.', correct: 'tengo que' },
+      { sentence: 'El bebé ___ (echarse a) llorar sin motivo aparente.', correct: 'se echó a' },
+      { sentence: 'No me ___ (dejar) salir porque no he terminado mis deberes.', correct: 'dejan' },
+      { sentence: '___ (volver a) leer el libro porque me gustó mucho.', correct: 'volví a' },
+      { sentence: 'Tú ___ (deber) respetar a tus profesores.', correct: 'debes' },
+      { sentence: 'El profesor nos ___ (hacer) escribir una composición.', correct: 'hizo' },
+      { sentence: 'Yo ___ (empezar a) trabajar a las 8 de la mañana.', correct: 'empiezo a' },
+      { sentence: '___ (necesitar) comprar comida para la cena.', correct: 'necesito' },
+      { sentence: '¿Cuándo ___ (terminar de) hacer tus deberes?', correct: 'terminas de' }
+    ]
+  },
+
+  'ex-9-3-3': {
+    id: 'ex-9-3-3',
+    type: 'error-correction',
+    title: 'Упражнение 3: Исправьте ошибки',
+    description: 'Найдите и исправьте ошибку в использовании инфинитивных конструкций',
+    questions: [
+      { sentence: 'Mañana voy visitar a mis abuelos.', correct: 'mañana voy a visitar a mis abuelos' },
+      { sentence: 'Ella dejó fumar hace dos años.', correct: 'ella dejó de fumar hace dos años' },
+      { sentence: 'Acabo llegar de Madrid.', correct: 'acabo de llegar de madrid' },
+      { sentence: 'Nosotros solemos a ir al cine.', correct: 'nosotros solemos ir al cine' },
+      { sentence: 'Hay que a estudiar mucho.', correct: 'hay que estudiar mucho' },
+      { sentence: 'Los niños pusieron a gritar.', correct: 'los niños se pusieron a gritar' },
+      { sentence: 'Tengo que a levantarme temprano.', correct: 'tengo que levantarme temprano' },
+      { sentence: 'El bebé echó llorar.', correct: 'el bebé se echó a llorar' },
+      { sentence: 'No me dejan a salir.', correct: 'no me dejan salir' },
+      { sentence: 'Volví leer el libro.', correct: 'volví a leer el libro' },
+      { sentence: 'Tú debes a respetar a tus profesores.', correct: 'tú debes respetar a tus profesores' },
+      { sentence: 'El profesor nos hizo a escribir.', correct: 'el profesor nos hizo escribir' },
+      { sentence: 'Empiezo trabajar a las 8.', correct: 'empiezo a trabajar a las 8' },
+      { sentence: 'Necesito de comprar comida.', correct: 'necesito comprar comida' },
+      { sentence: 'Termino a hacer mis deberes.', correct: 'termino de hacer mis deberes' }
+    ]
+  },
+
+  'ex-9-3-4': {
+    id: 'ex-9-3-4',
+    type: 'transformation',
+    title: 'Упражнение 4: Трансформация предложений',
+    description: 'Замените выделенные части предложений инфинитивными конструкциями',
+    questions: [
+      { sentence: 'Es necesario estudiar mucho. (hay que)', correct: 'hay que estudiar mucho' },
+      { sentence: 'Es mi costumbre levantarme a las 7. (soler)', correct: 'suelo levantarme a las 7' },
+      { sentence: 'Hace un momento terminé el libro. (acabar de)', correct: 'acabo de terminar el libro' },
+      { sentence: 'Mañana visitaré a mis padres. (ir a)', correct: 'mañana voy a visitar a mis padres' },
+      { sentence: 'Ya no fumo. (dejar de)', correct: 'dejé de fumar' },
+      { sentence: 'Es mi obligación trabajar hoy. (tener que)', correct: 'tengo que trabajar hoy' },
+      { sentence: 'De repente comenzó a llorar. (echarse a)', correct: 'se echó a llorar' },
+      { sentence: 'Lo hice otra vez. (volver a)', correct: 'volví a hacerlo' },
+      { sentence: 'Es mi deber ayudarte. (deber)', correct: 'debo ayudarte' },
+      { sentence: 'Me permiten entrar. (dejar)', correct: 'me dejan entrar' },
+      { sentence: 'Me obligan a estudiar. (hacer)', correct: 'me hacen estudiar' },
+      { sentence: 'Comenzó a trabajar inmediatamente. (ponerse a)', correct: 'se puso a trabajar inmediatamente' },
+      { sentence: 'Siento la necesidad de descansar. (necesitar)', correct: 'necesito descansar' },
+      { sentence: 'Acabo el trabajo a las 6. (terminar de)', correct: 'termino de trabajar a las 6' },
+      { sentence: 'Comienzo las clases a las 9. (empezar a)', correct: 'empiezo a dar clases a las 9' }
+    ]
+  },
+
+  'ex-9-3-5': {
+    id: 'ex-9-3-5',
+    type: 'translation-to-russian',
+    title: 'Упражнение 5: Переведите на русский язык',
+    description: 'Переведите предложения с испанского на русский, обращая внимание на инфинитивные конструкции',
+    questions: [
+      { spanish: 'La madre no le deja al niño comer mucho chocolate.', correct: 'мать не позволяет ребенку есть много шоколада' },
+      { spanish: 'Los padres siempre me hacen tomar leche caliente antes de acostarme.', correct: 'родители всегда заставляют меня пить горячее молоко перед сном' },
+      { spanish: 'El guía acaba de decir que dentro de una hora él nos esperará a la salida del museo.', correct: 'гид только что сказал что через час он будет ждать нас на выходе из музея' },
+      { spanish: '¿Por qué vuelves a llamarme si ya lo hemos discutido todo?', correct: 'почему ты снова звонишь мне если мы уже все обсудили' },
+      { spanish: 'Ayer vi a los reporteros acercarse a nuestra casa y decidí no abrirles la puerta.', correct: 'вчера я видел как репортеры приближались к нашему дому и решил не открывать им дверь' },
+      { spanish: 'Juan tiene mal aspecto, debe dejar de fumar y empezar a practicar algún deporte.', correct: 'хуан плохо выглядит он должен бросить курить и начать заниматься каким нибудь спортом' },
+      { spanish: '¿Por qué no se pone Ana a trabajar? Le queda muy poco tiempo, el jefe necesita firmar estos documentos dentro de media hora.', correct: 'почему ана не принимается за работу у нее осталось очень мало времени шеф должен подписать эти документы через полчаса' },
+      { spanish: 'Noté a la niña marearse y tuve que parar el coche.', correct: 'я заметил что девочке стало плохо и мне пришлось остановить машину' },
+      { spanish: 'No me gustan los viajes organizados, suelo alquilar un todoterreno y recorrer los lugares interesantes solo.', correct: 'мне не нравятся организованные поездки я обычно арендую внедорожник и объезжаю интересные места один' },
+      { spanish: 'Para no tener problemas con la policía en el camino hay que respetar las normas de circulación.', correct: 'чтобы не иметь проблем с полицией в дороге нужно соблюдать правила дорожного движения' },
+      { spanish: 'Oímos el reloj dar las diez y nos pusimos a despedirnos de los Fuentes.', correct: 'мы услышали как часы пробили десять и принялись прощаться с фуэнтес' },
+      { spanish: 'Al escuchar la historia de Juan, María se echó a reír.', correct: 'услышав историю хуана мария расхохоталась' },
+      { spanish: 'Voy a terminar de estudiar esta semana.', correct: 'я собираюсь закончить учиться на этой неделе' },
+      { spanish: 'Mi hermano suele despertarse muy temprano.', correct: 'мой брат обычно просыпается очень рано' },
+      { spanish: 'No necesitas hacer eso ahora.', correct: 'тебе не нужно делать это сейчас' }
+    ]
+  },
+
+  'ex-9-3-6': {
+    id: 'ex-9-3-6',
+    type: 'writing',
+    title: 'Упражнение 6: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский, используя инфинитивные конструкции',
+    questions: [
+      { russian: 'Я видел, как вы бросились бежать, когда заметили собаку.', correct: 'vi echaros a correr cuando notasteis al perro' },
+      { russian: 'Мне только что сказали, что этот столик забронирован и нам придется сесть за другой.', correct: 'me acaban de decir que esta mesa está reservada y tendremos que sentarnos en otra' },
+      { russian: 'В выходные надо будет приготовить паэлью: мои дети ее очень любят.', correct: 'el fin de semana habrá que preparar paella mis hijos la adoran' },
+      { russian: 'Если ты перестанешь изучать языки, тебя не отправят в командировку в Швейцарию.', correct: 'si dejas de estudiar idiomas no te enviarán de viaje de negocios a suiza' },
+      { russian: 'Я вижу, как много ты работаешь, тебе надо отдохнуть.', correct: 'veo cuánto trabajas necesitas descansar' },
+      { russian: 'Когда Филипп начинает рассказывать о своих приключениях, он всех смешит.', correct: 'cuando felipe empieza a contar sobre sus aventuras hace reír a todos' },
+      { russian: 'Обычно мы проводим лето за городом, а осенью, когда дети начинают учиться, мы возвращаемся в город.', correct: 'solemos pasar el verano en el campo y en otoño cuando los niños empiezan a estudiar volvemos a la ciudad' },
+      { russian: 'Ты только что выпил сок и опять хочешь пить? Странно.', correct: 'acabas de beber zumo y vuelves a tener sed extraño' },
+      { russian: 'Что вы собираетесь делать сегодня вечером? — Мы должны снова встретиться с архитектором и обсудить с ним мебель для нашей новой квартиры.', correct: 'qué vais a hacer esta noche tenemos que volver a reunirnos con el arquitecto y discutir con él los muebles para nuestro piso nuevo' },
+      { russian: 'Два часа назад Хуан позвонил мне из больницы и сообщил, что наша тетя только что скончалась. Я расплакалась.', correct: 'hace dos horas juan me llamó del hospital y me comunicó que nuestra tía acababa de fallecer me eché a llorar' },
+      { russian: 'Завтра я собираюсь пойти в кино.', correct: 'mañana voy a ir al cine' },
+      { russian: 'Мы должны закончить работу сегодня.', correct: 'tenemos que terminar el trabajo hoy' },
+      { russian: 'Она бросила курить в прошлом году.', correct: 'ella dejó de fumar el año pasado' },
+      { russian: 'Я обычно завтракаю в 8 утра.', correct: 'suelo desayunar a las 8 de la mañana' },
+      { russian: 'Учитель заставил нас повторить упражнение.', correct: 'el profesor nos hizo repetir el ejercicio' }
     ]
   },
 
