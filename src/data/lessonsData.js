@@ -83,7 +83,7 @@ export const modules = {
     id: 'module-8',
     title: 'Модуль 8: ОТПУСК. ВИДЫ ТУРИЗМА. Условные предложения I типа. Modo potencial (condicional). Potencial simple (будущее в прошедшем/простое условное время). Concordancia de los tiempos (согласование времен изъявительного наклонения). Перевод прямой речи в косвенную (45 слов)',
     level: 'elementary',
-    lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3'],
+    lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3', 'lesson-8-4'],
     description: 'Условные предложения I типа, Potencial simple, согласование времен, косвенная речь'
   },
   'module-17': {
@@ -10250,6 +10250,35 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5', 'ex-8-3-6']
   },
 
+  'lesson-8-4': {
+    id: 'lesson-8-4',
+    title: 'Урок 4: Упражнения на повторение (Модули 6, 7, 8)',
+    moduleId: 'module-8',
+    grammar: {
+      title: 'Повторение пройденного материала',
+      intro: `# Повторение материала модулей 6, 7, 8
+
+Этот урок посвящен закреплению грамматики и лексики из модулей 6, 7 и 8:
+
+## Грамматика для повторения:
+- **Indefinido vs Imperfecto** (прошедшие времена)
+- **Condicional Simple** (условное время)
+- **Concordancia de tiempos** (согласование времен)
+- **Discurso indirecto** (косвенная речь)
+- **Предлоги** испанского языка
+
+## Лексика для повторения:
+- Еда и рестораны
+- Путешествия и туризм
+- Отели и размещение
+- Транспорт и аренда автомобилей
+- Покупки и одежда`,
+      sections: []
+    },
+    vocabulary: [],
+    exercises: ['ex-8-4-1', 'ex-8-4-2', 'ex-8-4-3', 'ex-8-4-4', 'ex-8-4-5', 'ex-8-4-6', 'ex-8-4-7', 'ex-8-4-8', 'ex-8-4-9', 'ex-8-4-10', 'ex-8-4-11', 'ex-8-4-12']
+  },
+
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   'lesson-17-1': {
@@ -20114,6 +20143,344 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       { russian: 'Мы ехали по автомагистрали и видели много светофоров в городах.', correct: 'íbamos por la autopista y vimos muchos semáforos en las ciudades' },
       { russian: 'Фары не работают, нужно их починить перед поездкой.', correct: 'los faros no funcionan hay que repararlos antes del viaje' },
       { russian: 'Если будет авария, позвони в службу помощи немедленно.', correct: 'si hay un accidente llama al servicio de asistencia inmediatamente' }
+    ]
+  },
+
+  // Урок 8.4 - Упражнения на повторение
+  'ex-8-4-1': {
+    id: 'ex-8-4-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Indefinido или Imperfecto',
+    description: 'Поставьте глаголы в соответствующую форму Indefinido или Imperfecto',
+    questions: [
+      { sentence: 'Hace quince días nosotros (estar) ___ en Valencia.', correct: 'estuvimos' },
+      { sentence: 'El mes pasado vosotros (ir) ___ de vacaciones a Málaga.', correct: 'fuisteis' },
+      { sentence: 'Cuando (ser, yo) ___ pequeño a menudo (jugar) ___ al fútbol.', correct: 'era jugaba' },
+      { sentence: 'Luis (leer) ___ tranquilamente en el sofá, cuando (sonar) ___ el teléfono.', correct: 'leía sonó' },
+      { sentence: 'Durante las vacaciones todas las noches (ver, nosotros) ___ alguna película y (acostarse) ___ a la una o a las dos de la madrugada.', correct: 'veíamos nos acostábamos' },
+      { sentence: 'El mes pasado Juan (telefonear) ___ a Carmen 20 veces.', correct: 'telefoneó' },
+      { sentence: 'Ayer ellos no (poder) ___ venir porque (trabajar) ___.', correct: 'pudieron trabajaban' },
+      { sentence: 'Anteayer cuando Isabel (volver) ___ a casa, ella (encontrar) ___ a mi hermano y (discutir, ellos) ___ el futuro veraneo.', correct: 'volvió encontró discutieron' },
+      { sentence: 'Anteayer los niños (dormir) ___ más de diez horas.', correct: 'durmieron' },
+      { sentence: 'El lunes yo (despertarse) ___ a las 6:30 y (andar) ___ media hora por el parque, el martes no (querer) ___ levantarme tan temprano.', correct: 'me desperté anduve quise' },
+      { sentence: 'Anoche nosotros (ir) ___ al cine pero la película no (gustarnos) ___.', correct: 'fuimos nos gustó' },
+      { sentence: 'El miércoles (llover) ___ toda la noche. Pero el jueves (hacer) ___ buen tiempo.', correct: 'llovió hizo' },
+      { sentence: 'La semana pasada mis padres no (irse) ___ al campo, porque la abuela (sentirse) ___ mal.', correct: 'se fueron se sentía' },
+      { sentence: 'Mientras Marta (elegir) ___ platos, el camarero (servirle) ___ el aperitivo.', correct: 'elegía le servía' },
+      { sentence: '(Haber) ___ niebla en Londres, cuando el avión (aterrizar) ___ en el aeropuerto.', correct: 'había aterrizó' }
+    ]
+  },
+
+  'ex-8-4-2': {
+    id: 'ex-8-4-2',
+    type: 'writing',
+    title: 'Упражнение 2: Косвенная речь',
+    description: 'Трансформируйте прямую речь в косвенную',
+    questions: [
+      { russian: '"Si tengo tiempo mañana, pasaré por el banco." → Pablo nos aseguró que…', correct: 'pablo nos aseguró que si tenía tiempo al día siguiente pasaría por el banco' },
+      { russian: '"¿Quieren ustedes ir de vacaciones a un país exótico?" → La operadora nos preguntó…', correct: 'la operadora nos preguntó si queríamos ir de vacaciones a un país exótico' },
+      { russian: '"Ayer llegaron muchos turistas y ahora en el hotel no hay habitaciones libres." → El recepcionista explicó que…', correct: 'el recepcionista explicó que el día anterior habían llegado muchos turistas y que entonces en el hotel no había habitaciones libres' },
+      { russian: '"¿Por qué nuestro vuelo sale con tanto retraso y cuándo anunciarán el embarque al avión?" → Los pasajeros querían saber…', correct: 'los pasajeros querían saber por qué su vuelo salía con tanto retraso y cuándo anunciarían el embarque al avión' },
+      { russian: '"Estuvimos en Grecia cinco veces y este año iremos a Grecia también porque nos gusta este país." → Los Muñoz comunicaron que…', correct: 'los muñoz comunicaron que habían estado en grecia cinco veces y que aquel año irían a grecia también porque les gustaba ese país' },
+      { russian: '"¿Habéis agradecido a vuestro tío su regalo?" → La madre nos preguntó…', correct: 'la madre nos preguntó si habíamos agradecido a nuestro tío su regalo' },
+      { russian: '"Soy de España pero este año he trabajado en Berlín." → El periodista informó de que…', correct: 'el periodista informó de que era de españa pero que aquel año había trabajado en berlín' },
+      { russian: '"Cuando vivíamos en Cuba teníamos que trabajar mucho." → A veces el abuelo nos contaba que…', correct: 'a veces el abuelo nos contaba que cuando vivían en cuba tenían que trabajar mucho' },
+      { russian: '"Estuve en Moscú dos veces pero conozco poco la ciudad y si me acompañas te estaré muy agradecida." → Lola me dijo que…', correct: 'lola me dijo que había estado en moscú dos veces pero que conocía poco la ciudad y que si la acompañaba le estaría muy agradecida' },
+      { russian: '"¿Qué os apetece tomar de aperitivo?" → Miguel preguntó…', correct: 'miguel preguntó qué nos apetecía tomar de aperitivo' },
+      { russian: '"He reservado una mesa para cuatro personas a las 20:00." → Elena dijo que…', correct: 'elena dijo que había reservado una mesa para cuatro personas a las 20 00' },
+      { russian: '"Mañana viajaremos a Barcelona y visitaremos la Sagrada Familia." → Nos dijeron que…', correct: 'nos dijeron que al día siguiente viajarían a barcelona y visitarían la sagrada familia' },
+      { russian: '"¿Dónde has comprado este vestido tan bonito?" → Mi amiga me preguntó…', correct: 'mi amiga me preguntó dónde había comprado ese vestido tan bonito' },
+      { russian: '"No puedo ayudarte porque tengo mucho trabajo hoy." → Carlos me explicó que…', correct: 'carlos me explicó que no podía ayudarme porque tenía mucho trabajo aquel día' },
+      { russian: '"¿Queréis venir con nosotros al teatro el sábado?" → Ellos nos preguntaron…', correct: 'ellos nos preguntaron si queríamos ir con ellos al teatro el sábado' }
+    ]
+  },
+
+  'ex-8-4-3': {
+    id: 'ex-8-4-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Предлоги',
+    description: 'Вставьте необходимые предлоги',
+    questions: [
+      { sentence: 'Mi hermana se dedica ___ dar clases ___ matemáticas ___ el colegio.', correct: 'a de en' },
+      { sentence: 'Felipe decía ___ vez ___ cuando que soñaba ___ ser médico pero estudiaba ___ la facultad ___ Derecho.', correct: 'de en con en de' },
+      { sentence: 'Quedamos ___ encontrarnos ___ día siguiente ___ el mostrador ___ facturación y allí les agradeceríamos ___ su ayuda y nos despediríamos ___ ellos.', correct: 'en al en de por de' },
+      { sentence: '¿Por qué te niegas ___ acompañarme ___ el centro comercial?', correct: 'a al' },
+      { sentence: 'Raúl vio ___ primera vez ___ Teresa ___ el concierto y ___ seguida se enamoró ___ ella y no deja ___ pensar ___ ella.', correct: 'por a en en de de en' },
+      { sentence: 'Voy ___ compras, ¿qué necesitas ___ preparar gazpacho? — Un litro ___ aceite y un kilo ___ tomates.', correct: 'de para de de' },
+      { sentence: 'Me gusta esta blusa ___ seda ___ rayas azules y blancas ___ manga larga. Me quedo ___ ella.', correct: 'de a de con' },
+      { sentence: 'Su hijo mismo aprendió ___ leer ___ los cinco años y la abuela le enseñó ___ tocar ___ el piano.', correct: 'a a a - (vacío)' },
+      { sentence: 'La familia ___ los domingos ___ veces iba ___ almorzar ___ el restaurante "Gula" donde habitualmente pedían ___ primer plato sopa ___ ajo y ___ segundo chuletas ___ ternera.', correct: 'los a a a de de de de' },
+      { sentence: 'Hoy estamos ___ 25 ___ junio, mañana vendrá ___ vernos nuestra tía ___ América, debemos dejar ___ divertirnos y empezar ___ prepararnos ___ su visita.', correct: 'a de a de de a para' },
+      { sentence: 'Ayer fui ___ médico porque me dolía ___ cabeza y me recetó unas pastillas ___ el dolor.', correct: 'al la para' },
+      { sentence: 'Mis abuelos viven ___ las afueras ___ la ciudad y vamos ___ visitarlos todos los fines ___ semana.', correct: 'en de a de' },
+      { sentence: 'El tren ___ Madrid sale ___ las 15:30 ___ el andén número 5.', correct: 'a a desde' },
+      { sentence: 'Quedé ___ mis amigos ___ las 8 ___ la noche ___ ir ___ cine.', correct: 'con a de para al' },
+      { sentence: 'Mi hermano se interesa mucho ___ la historia y piensa especializarse ___ historia medieval.', correct: 'por en' }
+    ]
+  },
+
+  'ex-8-4-4': {
+    id: 'ex-8-4-4',
+    type: 'writing',
+    title: 'Упражнение 4: Перевод на испанский',
+    description: 'Переведите на испанский язык',
+    questions: [
+      { russian: 'Прошлой весной мы ездили в круиз, о котором мечтали несколько лет. Нам так понравилось! Это была незабываемая поездка.', correct: 'la primavera pasada fuimos de crucero con el que habíamos soñado varios años nos gustó tanto fue un viaje inolvidable' },
+      { russian: 'Начальник спросил, почему я не сделал перевод и не написал статью. Я объяснил ему, что всю неделю был очень занят.', correct: 'el jefe preguntó por qué no había hecho la traducción y no había escrito el artículo le expliqué que toda la semana había estado muy ocupado' },
+      { russian: 'На прошлой неделе мы были в Риме. Погода была плохая, лил дождь, и мы не смогли пройтись по улицам города, и видели некоторые достопримечательности только из окна автобуса.', correct: 'la semana pasada estuvimos en roma el tiempo era malo llovía y no pudimos pasear por las calles de la ciudad y vimos algunos lugares de interés solo desde la ventana del autobús' },
+      { russian: 'Недавно я узнала, что ты уезжаешь за границу и вернешься через год. Неужели ты оставишь свою семью на целый год?', correct: 'hace poco supe que te vas al extranjero y volverás dentro de un año de verdad vas a dejar a tu familia durante un año entero' },
+      { russian: 'Ночью Анна почувствовала себя плохо, потому что весь день провела на пляже, и нам пришлось вызвать врача.', correct: 'por la noche ana se sintió mal porque había pasado todo el día en la playa y tuvimos que llamar al médico' },
+      { russian: 'Мы подумали, что если завтра в посольстве будет много народа, мы потеряем время и не сможем подать документы на визу.', correct: 'pensamos que si al día siguiente en la embajada había mucha gente perderíamos tiempo y no podríamos entregar los documentos para el visado' },
+      { russian: 'Вчера мой сосед женился. Гости веселились всю ночь: пели, танцевали, играли на гитаре. Я заснул только в 5 утра.', correct: 'ayer mi vecino se casó los invitados se divertían toda la noche cantaban bailaban tocaban la guitarra me dormí solo a las 5 de la mañana' },
+      { russian: 'Дорогая, где бы ты хотела отметить свой день рождения? — Ты не помнишь, что месяц назад ты мне обещал, что ты арендуешь яхту, и мы отправимся в Ниццу?', correct: 'cariño dónde te gustaría celebrar tu cumpleaños no recuerdas que hace un mes me prometiste que alquilarías un yate y iríamos a niza' },
+      { russian: 'К 30-ти годам он объездил всю Европу, побывал на всех роскошных курортах, а вчера он сказал, что мечтает отправиться в Австралию.', correct: 'a los 30 años había recorrido toda europa había estado en todos los balnearios lujosos y ayer dijo que soñaba con ir a australia' },
+      { russian: 'Летисия спросила, в котором часу завтра придут гости, и добавила, что она собирается приготовить отбивные из баранины и надо будет купить сухого красного вина.', correct: 'leticia preguntó a qué hora llegarían los invitados al día siguiente y añadió que iba a preparar chuletas de cordero y habría que comprar vino tinto seco' },
+      { russian: 'Когда мы были в Испании, каждый день ходили на пляж и загорали. Вечерами гуляли по набережной и ужинали в ресторанах.', correct: 'cuando estábamos en españa cada día íbamos a la playa y tomábamos el sol por las tardes paseábamos por el paseo marítimo y cenábamos en restaurantes' },
+      { russian: 'Официант сказал, что паэлья будет готова через 20 минут, и спросил, что мы хотим выпить.', correct: 'el camarero dijo que la paella estaría lista en 20 minutos y preguntó qué queríamos beber' },
+      { russian: 'В прошлом месяце я купила новое платье и туфли на каблуках. Они мне очень понравились, но были дорогие.', correct: 'el mes pasado compré un vestido nuevo y zapatos de tacón me gustaron mucho pero eran caros' },
+      { russian: 'Мой друг спросил, не хочу ли я поехать с ним в горы. Я ответил, что с удовольствием.', correct: 'mi amigo preguntó si quería ir con él a las montañas respondí que con mucho gusto' },
+      { russian: 'Вчера весь день шел снег, и мы не могли выйти из дома. Сидели дома и смотрели фильмы.', correct: 'ayer nevaba todo el día y no podíamos salir de casa nos quedamos en casa y vimos películas' }
+    ]
+  },
+
+  'ex-8-4-5': {
+    id: 'ex-8-4-5',
+    type: 'reading-comprehension',
+    title: 'Упражнение 5: Чтение - Путешествие в Нью-Йорк',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    text: `Paloma viaja a Nueva York
+
+Nunca olvidaré cómo empezó mi viaje a Nueva York. Llegué al aeropuerto de Barajas y facturé mi equipaje. Estaba haciendo mis últimas compras mientras esperaba para embarcar, cuando, de repente, me di cuenta de que había perdido mi tarjeta de embarque.
+
+Todo el mundo estaba entrando en el avión y yo no podía embarcar. Creía que me quedaba en tierra. De repente, por el altavoz oí mi nombre solicitando que me presentara en el mostrador de Iberia. Una niña había encontrado mi tarjeta junto a la puerta del servicio.
+
+Por fin, ya en avión, comenzó mi viaje de ocho horas atravesando el océano. Al llegar al aeropuerto, en Nueva York, todos los pasajeros fuimos a recoger nuestro equipaje.
+
+Poco a poco mis compañeros de viaje iban desapareciendo, hasta que me encontré yo sola con una única maleta, que no era mía, girando sobre la cinta de equipaje.
+
+Yo no sabía qué hacer. Me dirigía hacia el puesto de policía cuando, de repente, vi a un señor que corría con mi maleta en la mano. Me explicó que se había llevado mi maleta por error, ya que se parecía bastante a la suya. No pude contener mi alegría y lo abracé.
+
+El resto del viaje fue fantástico. Disfruté de unos días maravillosos en Nueva York.`,
+    questions: [
+      { question: '¿Adónde viajó Paloma?', type: 'open' },
+      { question: '¿Qué hacía Paloma cuando se dio cuenta de que había perdido su tarjeta de embarque?', type: 'open' },
+      { question: '¿Qué pensaba Paloma cuando todo el mundo estaba entrando en el avión?', type: 'open' },
+      { question: '¿Cómo encontró Paloma su tarjeta de embarque?', type: 'open' },
+      { question: '¿Quién había encontrado la tarjeta de embarque de Paloma?', type: 'open' },
+      { question: '¿Dónde había encontrado la niña la tarjeta de Paloma?', type: 'open' },
+      { question: '¿Cuánto tiempo duró el vuelo de Paloma?', type: 'open' },
+      { question: '¿Qué hicieron todos los pasajeros al llegar al aeropuerto de Nueva York?', type: 'open' },
+      { question: '¿Qué vio Paloma girando sobre la cinta de equipaje?', type: 'open' },
+      { question: '¿Era suya la maleta que giraba sobre la cinta?', type: 'open' },
+      { question: '¿Adónde se dirigía Paloma cuando no encontraba su maleta?', type: 'open' },
+      { question: '¿Qué vio de repente Paloma?', type: 'open' },
+      { question: '¿Por qué el señor se había llevado la maleta de Paloma?', type: 'open' },
+      { question: '¿Cómo reaccionó Paloma cuando el señor le devolvió su maleta?', type: 'open' },
+      { question: '¿Cómo fue el resto del viaje de Paloma en Nueva York?', type: 'open' }
+    ]
+  },
+
+  'ex-8-4-6': {
+    id: 'ex-8-4-6',
+    type: 'reading-comprehension',
+    title: 'Упражнение 6: Рецепт - Борщ московский',
+    description: 'Прочитайте рецепт и ответьте на вопросы',
+    text: `Борщ московский
+
+**Ингредиенты на 6 человек:**
+- говядина на кости 800 г
+- капуста 200-300 г
+- свекла 2-3 шт.
+- морковь 2 шт.
+- лук репчатый 3 шт.
+- сливочное масло 1 ст. л.
+- лавровый лист 3-4 шт.
+- перец горошком 5-6 шт.
+- зелень укропа и петрушки
+- сметана 6 ст. л.
+
+**Способ приготовления:**
+1. Мясо положить в кастрюлю и залить 3 л холодной воды, довести до кипения, снять пену.
+2. Положить в кастрюлю 1 очищенную морковь, 1 очищенную луковицу, черный перец горошком и варить при слабом кипении до готовности (30-40 минут).
+3. Нашинковать свеклу, 1 морковь и 1 луковицу и обжарить на сковороде со сливочным маслом.
+4. Вынуть из бульона мясо и овощи. Опустить в бульон тушеные овощи и нашинкованную капусту.
+5. Мясо нарезать и выложить в борщ. Добавить лавровый лист и варить 20 минут.
+6. Разлить суп по тарелкам, заправить сметаной, посыпать свежей зеленью и подать к столу.`,
+    questions: [
+      { question: '¿Para cuántas personas es esta receta de borsh?', type: 'open' },
+      { question: '¿Cuántos gramos de carne de vaca necesitamos?', type: 'open' },
+      { question: '¿Cuántos litros de agua debemos usar?', type: 'open' },
+      { question: '¿Qué debemos hacer después de que el agua empiece a hervir?', type: 'open' },
+      { question: '¿Qué verduras ponemos en la cazuela en el segundo paso?', type: 'open' },
+      { question: '¿Cuánto tiempo debemos cocinar el caldo?', type: 'open' },
+      { question: '¿Qué verduras debemos picar y freír en la sartén?', type: 'open' },
+      { question: '¿Con qué freímos las verduras?', type: 'open' },
+      { question: '¿Qué debemos hacer con la carne y las verduras del caldo antes de añadir las verduras fritas?', type: 'open' },
+      { question: '¿Qué más añadimos al caldo junto con las verduras fritas?', type: 'open' },
+      { question: '¿Qué hacemos con la carne cocida?', type: 'open' },
+      { question: '¿Qué especias añadimos al borsh?', type: 'open' },
+      { question: '¿Cuántos minutos más debemos cocinar el borsh después de añadir la carne?', type: 'open' },
+      { question: '¿Con qué aderezamos el borsh antes de servir?', type: 'open' },
+      { question: '¿Qué ponemos encima del borsh antes de servirlo?', type: 'open' }
+    ]
+  },
+
+  'ex-8-4-7': {
+    id: 'ex-8-4-7',
+    type: 'reading-comprehension',
+    title: 'Упражнение 7: Чтение - ¿Te apetece ir de compras?',
+    description: 'Прочитайте текст и ответьте на вопросы',
+    text: `¿Te apetece ir de compras?
+
+Para algunas personas el ir de compras es un placer, mientras que para otras se convierte en un auténtico suplicio. ¿Se encuentra usted entre alguna de ellas? Cuatro ciudadanos nos han contestado a esta pregunta.
+
+**Natalia, 19 años, soltera.**
+Natalia vive con su madre en Barcelona y confiesa que le encanta la moda. Todas las semanas se da un paseo por sus tiendas preferidas y reconoce gastarse bastante dinero en ropa. Se define como una compradora compulsiva. "Veo las revistas de moda y las sigo. Entre los amigos no hablamos mucho de moda. Yo creo que a mí me gusta más que a la mayoría".
+
+**Juan, 31 años, casado.**
+Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamiento racional. "Trabajo de comercial, y la imagen es muy importante". A la hora de comprar, Juan no compra mucho, sólo lo que necesita. Aprovecha las rebajas. "Si necesito unos vaqueros, puedo recorrer cinco tiendas hasta encontrar lo que quiero".
+
+**Ana, 39 años, casada.**
+"Me gusta mucho ir de compras, pero depende de quién vaya. Cada vez que lo intento con mis hijos es una auténtica pesadilla. Tampoco me gusta ir con mi marido, porque siempre tiene prisa y todo le parece un poco caro. Prefiero ir con mis amigas o sola".
+
+**Alberto, 59 años, casado.**
+"La verdad es que no me gusta demasiado ir de compras. Suelo hacer una compra en primavera y otra en otoño". Alberto prefiere ir a las tiendas donde lo conocen. Atiende a los consejos de su mujer y rara vez va a comprar solo. Las marcas, asegura, ni le interesan en absoluto y se fija sobre todo en la calidad.`,
+    questions: [
+      { question: '¿Con qué frecuencia suele ir Natalia de compras?', type: 'open' },
+      { question: '¿Cuánto gasta en ropa?', type: 'open' },
+      { question: '¿Qué tipo de compradora se considera a sí misma? ¿Por qué?', type: 'open' },
+      { question: '¿Cómo se define Juan a sí mismo como comprador? ¿Por qué?', type: 'open' },
+      { question: '¿Cuándo suele ir de compras Juan?', type: 'open' },
+      { question: '¿Es un comprador paciente? ¿Por qué?', type: 'open' },
+      { question: '¿Por qué no le gusta a Ana ir de compras con sus hijos ni con su marido?', type: 'open' },
+      { question: '¿Le gusta a Alberto ir de compras?', type: 'open' },
+      { question: '¿En qué época del año suele comprar Alberto?', type: 'open' },
+      { question: '¿Qué busca Alberto en la ropa que compra?', type: 'open' },
+      { question: '¿Qué tipo de comprador/a se considera usted a sí mismo/a?', type: 'open' },
+      { question: '¿Le gusta a usted ir de compras solo/a o acompañado/a?', type: 'open' },
+      { question: '¿Con qué frecuencia suele usted ir de compras?', type: 'open' },
+      { question: '¿Aprovecha usted las rebajas? ¿Sigue usted la moda?', type: 'open' },
+      { question: '¿Tiene usted tiendas preferidas para comprar ropa?', type: 'open' }
+    ]
+  },
+
+  'ex-8-4-8': {
+    id: 'ex-8-4-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: Modo Subjuntivo (Повторение)',
+    description: 'Поставьте глаголы в соответствующую форму Subjuntivo',
+    questions: [
+      { sentence: 'Espero que vosotros (poder) ___ venir a mi fiesta de cumpleaños.', correct: 'podáis' },
+      { sentence: 'Es importante que tú (estudiar) ___ mucho para el examen.', correct: 'estudies' },
+      { sentence: 'Dudo que ellos (llegar) ___ a tiempo al aeropuerto.', correct: 'lleguen' },
+      { sentence: 'Me alegro de que tú (estar) ___ bien de salud.', correct: 'estés' },
+      { sentence: 'Es necesario que nosotros (reservar) ___ la mesa con anticipación.', correct: 'reservemos' },
+      { sentence: 'Quiero que vosotros (venir) ___ conmigo al teatro el sábado.', correct: 'vengáis' },
+      { sentence: 'No creo que María (saber) ___ hablar japonés.', correct: 'sepa' },
+      { sentence: 'Es probable que mañana (llover) ___ todo el día.', correct: 'llueva' },
+      { sentence: 'Te recomiendo que (probar, tú) ___ la paella valenciana, es deliciosa.', correct: 'pruebes' },
+      { sentence: 'Es una pena que Juan no (poder) ___ acompañarnos de vacaciones.', correct: 'pueda' },
+      { sentence: 'Ojalá que nosotros (tener) ___ buen tiempo durante el viaje.', correct: 'tengamos' },
+      { sentence: 'El profesor insiste en que los alumnos (hacer) ___ todos los ejercicios.', correct: 'hagan' },
+      { sentence: 'No es cierto que yo (ser) ___ perezoso, trabajo mucho.', correct: 'sea' },
+      { sentence: 'Cuando (volver, tú) ___ de tu viaje, cuéntame todo sobre él.', correct: 'vuelvas' },
+      { sentence: 'Antes de que (salir, nosotros) ___, debemos apagar todas las luces.', correct: 'salgamos' }
+    ]
+  },
+
+  'ex-8-4-9': {
+    id: 'ex-8-4-9',
+    type: 'fillblank',
+    title: 'Упражнение 9: Condicional Simple в разных контекстах',
+    description: 'Поставьте глаголы в форму Condicional Simple',
+    questions: [
+      { sentence: '¿(Poder, tú) ___ ayudarme con este problema de matemáticas?', correct: 'podrías' },
+      { sentence: 'Me (gustar) ___ viajar por toda América Latina.', correct: 'gustaría' },
+      { sentence: 'El camarero dijo que nos (traer) ___ la cuenta en seguida.', correct: 'traería' },
+      { sentence: 'Nosotros (ir) ___ al cine contigo, pero tenemos que trabajar.', correct: 'iríamos' },
+      { sentence: 'En tu lugar, yo (hablar) ___ con el jefe sobre este problema.', correct: 'hablaría' },
+      { sentence: 'Cuando mi abuela era joven, (tener) ___ unos 20 años cuando se casó.', correct: 'tendría' },
+      { sentence: 'Los niños (ser) ___ muy felices si tuvieran un perro.', correct: 'serían' },
+      { sentence: '¿(Querer, vosotros) ___ tomar algo de aperitivo?', correct: 'querríais' },
+      { sentence: 'Mi madre prometió que (hacer) ___ mi plato favorito para la cena.', correct: 'haría' },
+      { sentence: 'En aquella época, él (vivir) ___ en París, porque tenía acento francés.', correct: 'viviría' },
+      { sentence: '¿(Saber, tú) ___ decirme dónde está la estación de metro más cercana?', correct: 'sabrías' },
+      { sentence: 'Yo (pedir) ___ el gazpacho como primer plato si estuviera en el menú.', correct: 'pediría' },
+      { sentence: 'El médico nos explicó que la operación (durar) ___ unas tres horas.', correct: 'duraría' },
+      { sentence: 'Sin dinero, nosotros no (poder) ___ realizar este proyecto.', correct: 'podríamos' },
+      { sentence: '¿Qué (decir, usted) ___ si le ofrecieran un trabajo en el extranjero?', correct: 'diría' }
+    ]
+  },
+
+  'ex-8-4-10': {
+    id: 'ex-8-4-10',
+    type: 'writing',
+    title: 'Упражнение 10: Лексика еды и ресторанов (Модуль 6)',
+    description: 'Переведите фразы на испанский, используя лексику еды и ресторанов',
+    questions: [
+      { russian: 'Я хотел бы заказать паэлью на первое и жареную рыбу на второе.', correct: 'me gustaría pedir paella de primer plato y pescado frito de segundo' },
+      { russian: 'Официант принес меню и спросил, что мы хотим выпить в качестве аперитива.', correct: 'el camarero trajo la carta y preguntó qué queríamos beber de aperitivo' },
+      { russian: 'На десерт мы попробовали каталонский крем, который был очень вкусный.', correct: 'de postre probamos crema catalana que estaba muy rica' },
+      { russian: 'Счет, пожалуйста! Мы заплатим кредитной картой.', correct: 'la cuenta por favor pagaremos con tarjeta de crédito' },
+      { russian: 'Вчера мы ужинали в ресторане морепродуктов и заказали креветки и кальмары.', correct: 'ayer cenamos en un restaurante de mariscos y pedimos gambas y calamares' },
+      { russian: 'Я не люблю острую еду, предпочитаю блюда с мягким вкусом.', correct: 'no me gusta la comida picante prefiero platos de sabor suave' },
+      { russian: 'Повар рекомендует попробовать фирменное блюдо ресторана.', correct: 'el cocinero recomienda probar el plato estrella del restaurante' },
+      { russian: 'Можно мне стакан воды без газа и немного хлеба?', correct: 'me puede traer un vaso de agua sin gas y un poco de pan' },
+      { russian: 'Мне бы хотелось зарезервировать столик на четверых на завтра в 20:00.', correct: 'me gustaría reservar una mesa para cuatro personas para mañana a las 20 00' },
+      { russian: 'Эта закуска с хамоном и сыром манчего очень вкусная.', correct: 'este entrante con jamón y queso manchego está muy rico' },
+      { russian: 'Вино было отличным, оно хорошо сочеталось с мясом.', correct: 'el vino era excelente combinaba bien con la carne' },
+      { russian: 'Мы оставили официанту хорошие чаевые, потому что обслуживание было превосходным.', correct: 'dejamos al camarero una buena propina porque el servicio fue excelente' },
+      { russian: 'Я на диете, поэтому закажу только салат и овощной суп.', correct: 'estoy a dieta por eso pediré solo ensalada y sopa de verduras' },
+      { russian: 'Гарнир из жареного картофеля и овощей идеально дополняет стейк.', correct: 'la guarnición de patatas fritas y verduras complementa perfectamente el bistec' },
+      { russian: 'Не могли бы вы порекомендовать хорошее красное вино к этому блюду?', correct: 'podría recomendarnos un buen vino tinto para este plato' }
+    ]
+  },
+
+  'ex-8-4-11': {
+    id: 'ex-8-4-11',
+    type: 'writing',
+    title: 'Упражнение 11: Лексика путешествий (Модуль 8)',
+    description: 'Переведите фразы на испанский, используя лексику путешествий',
+    questions: [
+      { russian: 'Мы забронировали круиз по Средиземному морю на две недели.', correct: 'reservamos un crucero por el mediterráneo para dos semanas' },
+      { russian: 'В аэропорту мы зарегистрировали багаж и прошли паспортный контроль.', correct: 'en el aeropuerto facturamos el equipaje y pasamos el control de pasaportes' },
+      { russian: 'Посадка на рейс в Барселону начнется через 15 минут у выхода номер 5.', correct: 'el embarque al vuelo a barcelona comenzará en 15 minutos en la puerta número 5' },
+      { russian: 'Я предпочитаю путешествовать с рюкзаком, потому что это удобнее.', correct: 'prefiero viajar con mochila porque es más cómodo' },
+      { russian: 'На горнолыжном курорте мы катались на лыжах и поднимались на подъемнике.', correct: 'en la estación de esquí esquiamos y subimos en el remonte' },
+      { russian: 'Пешим туризмом занимаются те, кто любит природу и активный отдых.', correct: 'el senderismo lo practican los que aman la naturaleza y el ocio activo' },
+      { russian: 'Туристический оператор предложил нам экзотическое направление в Азию.', correct: 'el operador turístico nos ofreció un destino exótico en asia' },
+      { russian: 'Мы купили сувениры для семьи в местном магазине на острове.', correct: 'compramos recuerdos para la familia en una tienda local en la isla' },
+      { russian: 'Маршрут включает посещение нескольких достопримечательностей и музеев.', correct: 'el itinerario incluye la visita de varios lugares de interés y museos' },
+      { russian: 'Курортник загорал на пляже и купался в море каждый день.', correct: 'el veraneante tomaba el sol en la playa y se bañaba en el mar cada día' },
+      { russian: 'Нам понравился пейзаж с горами и озером на заднем плане.', correct: 'nos gustó el paisaje con montañas y lago al fondo' },
+      { russian: 'Переводчик помог нам общаться с местными жителями.', correct: 'el intérprete nos ayudó a comunicarnos con los habitantes locales' },
+      { russian: 'Мы провели отпуск на необитаемом острове, это было незабываемо.', correct: 'pasamos las vacaciones en una isla deshabitada fue inolvidable' },
+      { russian: 'Свадебное путешествие в Италию было романтичным и прекрасным.', correct: 'el viaje de novios a italia fue romántico y maravilloso' },
+      { russian: 'Деловая поездка в Германию заняла всего три дня.', correct: 'el viaje de negocios a alemania duró solo tres días' }
+    ]
+  },
+
+  'ex-8-4-12': {
+    id: 'ex-8-4-12',
+    type: 'fillblank',
+    title: 'Упражнение 12: Комплексное упражнение на все времена',
+    description: 'Поставьте глаголы в правильную форму (Presente, Indefinido, Imperfecto, Futuro, Condicional, Subjuntivo)',
+    questions: [
+      { sentence: 'Ayer nosotros (ir) ___ al museo y (ver) ___ una exposición muy interesante.', correct: 'fuimos vimos' },
+      { sentence: 'Cuando yo (ser) ___ pequeño, siempre (pasar) ___ las vacaciones en casa de mis abuelos.', correct: 'era pasaba' },
+      { sentence: 'Espero que vosotros (disfrutar) ___ mucho de vuestro viaje a España.', correct: 'disfrutéis' },
+      { sentence: 'Si mañana (hacer) ___ buen tiempo, (nosotros, ir) ___ a la playa.', correct: 'hace iremos' },
+      { sentence: 'Me (gustar) ___ aprender a tocar el piano, pero no tengo tiempo.', correct: 'gustaría' },
+      { sentence: 'El profesor quiere que los estudiantes (entregar) ___ los trabajos antes del viernes.', correct: 'entreguen' },
+      { sentence: 'María nos dijo que (venir) ___ a la fiesta con su novio.', correct: 'vendría' },
+      { sentence: 'Mientras yo (cocinar) ___, mi marido (poner) ___ la mesa.', correct: 'cocinaba ponía' },
+      { sentence: 'No creo que ellos (tener) ___ razón en esta situación.', correct: 'tengan' },
+      { sentence: 'El año que viene nosotros (mudarse) ___ a una casa más grande.', correct: 'nos mudaremos' },
+      { sentence: 'Es importante que tú (llegar) ___ puntual a la reunión.', correct: 'llegues' },
+      { sentence: 'Anoche (yo, dormir) ___ muy mal porque (hacer) ___ mucho calor.', correct: 'dormí hacía' },
+      { sentence: '¿Qué (hacer, tú) ___ si te tocara la lotería?', correct: 'harías' },
+      { sentence: 'Cuando (terminar, yo) ___ la universidad, (buscar) ___ trabajo en el extranjero.', correct: 'termine buscaré' },
+      { sentence: 'Los niños (jugar) ___ en el parque cuando (empezar) ___ a llover.', correct: 'jugaban empezó' }
     ]
   },
 
