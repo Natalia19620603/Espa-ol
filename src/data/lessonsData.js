@@ -10440,7 +10440,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       ]
     },
     vocabulary: [],
-    exercises: []
+    exercises: ['ex-9-2-1', 'ex-9-2-2', 'ex-9-2-3', 'ex-9-2-4', 'ex-9-2-5']
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -20722,7 +20722,129 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     ]
   },
 
-  // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
+  // ============ УРОК 9-2: ACUSATIVO CON INFINITIVO ============
+
+  'ex-9-2-1': {
+    id: 'ex-9-2-1',
+    type: 'grammar',
+    title: 'Упражнение 1: Выбор правильной конструкции',
+    description: 'Выберите правильный вариант с конструкцией Acusativo con Infinitivo',
+    questions: [
+      { question: 'Vi ___ a mi hermano ___ el parque.', options: ['cruzar', 'que cruza', 'cruzando', 'cruza'], correct: 0 },
+      { question: 'Oí ___ a los niños ___ en el jardín.', options: ['que juegan', 'jugar', 'jugando', 'juega'], correct: 1 },
+      { question: 'Observamos ___ al gato ___ por la ventana.', options: ['saltar', 'que salta', 'saltando', 'salta'], correct: 0 },
+      { question: 'Sentí ___ a alguien ___ la puerta.', options: ['que abre', 'abriendo', 'abrir', 'abre'], correct: 2 },
+      { question: 'Escuché ___ a María ___ una canción.', options: ['cantar', 'que canta', 'cantando', 'canta'], correct: 0 },
+      { question: 'Noté ___ al profesor ___ al aula.', options: ['que entra', 'entrando', 'entrar', 'entra'], correct: 2 },
+      { question: 'Vimos ___ a los pájaros ___ en el cielo.', options: ['volar', 'que vuelan', 'volando', 'vuelan'], correct: 0 },
+      { question: 'Oímos ___ al bebé ___ toda la noche.', options: ['que llora', 'llorando', 'llorar', 'llora'], correct: 2 },
+      { question: 'Miraba ___ a los estudiantes ___ el examen.', options: ['hacer', 'que hacen', 'haciendo', 'hacen'], correct: 0 },
+      { question: 'Sentimos ___ la tierra ___ durante el terremoto.', options: ['temblar', 'que tiembla', 'temblando', 'tiembla'], correct: 0 },
+      { question: 'Vi ___ a tu padre ___ el periódico.', options: ['que lee', 'leer', 'leyendo', 'lee'], correct: 1 },
+      { question: 'Oí ___ al perro ___ en la calle.', options: ['ladrar', 'que ladra', 'ladrando', 'ladra'], correct: 0 },
+      { question: 'Observé ___ a las flores ___ en primavera.', options: ['que crecen', 'crecer', 'creciendo', 'crecen'], correct: 1 },
+      { question: 'Escuchamos ___ a la orquesta ___ una sinfonía.', options: ['tocar', 'que toca', 'tocando', 'toca'], correct: 0 },
+      { question: 'Noté ___ a mi hermana ___ rápidamente.', options: ['que corre', 'corriendo', 'correr', 'corre'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-2': {
+    id: 'ex-9-2-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Заполните пропуски',
+    description: 'Вставьте правильную форму глагола в конструкцию Acusativo con Infinitivo',
+    questions: [
+      { sentence: 'Vi a Juan ___ (caminar) por la calle.', correct: 'caminar' },
+      { sentence: 'Oímos ___ (cantar) a los pájaros en el bosque.', correct: 'cantar' },
+      { sentence: 'Observé a los niños ___ (jugar) en el parque.', correct: 'jugar' },
+      { sentence: 'Sentí a alguien ___ (tocar) mi hombro.', correct: 'tocar' },
+      { sentence: 'Escuché ___ (llover) toda la noche.', correct: 'llover' },
+      { sentence: 'Noté a mi gato ___ (dormir) en el sofá.', correct: 'dormir' },
+      { sentence: 'Vimos a María ___ (bailar) en la fiesta.', correct: 'bailar' },
+      { sentence: 'Oí a mi madre ___ (llamar) desde la cocina.', correct: 'llamar' },
+      { sentence: 'Miraba a los estudiantes ___ (escribir) sus exámenes.', correct: 'escribir' },
+      { sentence: 'Sentimos ___ (temblar) el edificio durante el terremoto.', correct: 'temblar' },
+      { sentence: 'Vi a tu hermano ___ (correr) hacia la estación.', correct: 'correr' },
+      { sentence: 'Oímos a los vecinos ___ (discutir) anoche.', correct: 'discutir' },
+      { sentence: 'Observé a las hojas ___ (caer) de los árboles.', correct: 'caer' },
+      { sentence: 'Escuché a alguien ___ (gritar) en la calle.', correct: 'gritar' },
+      { sentence: 'Noté a los estudiantes ___ (salir) del aula rápidamente.', correct: 'salir' }
+    ]
+  },
+
+  'ex-9-2-3': {
+    id: 'ex-9-2-3',
+    type: 'error-correction',
+    title: 'Упражнение 3: Исправьте ошибки',
+    description: 'Найдите и исправьте ошибку в предложениях с конструкцией Acusativo con Infinitivo',
+    questions: [
+      { sentence: 'Vi a mi hermano que cruza la calle.', correct: 'vi a mi hermano cruzar la calle' },
+      { sentence: 'Oí los niños jugando en el jardín.', correct: 'oí a los niños jugar en el jardín' },
+      { sentence: 'Observamos el gato saltando por la ventana.', correct: 'observamos al gato saltar por la ventana' },
+      { sentence: 'Sentí alguien que abre la puerta.', correct: 'sentí a alguien abrir la puerta' },
+      { sentence: 'Escuché a María que canta una canción.', correct: 'escuché a maría cantar una canción' },
+      { sentence: 'Noté el profesor entrando al aula.', correct: 'noté al profesor entrar al aula' },
+      { sentence: 'Vimos los pájaros que vuelan en el cielo.', correct: 'vimos a los pájaros volar en el cielo' },
+      { sentence: 'Oímos el bebé que llora toda la noche.', correct: 'oímos al bebé llorar toda la noche' },
+      { sentence: 'Miraba a los estudiantes haciendo el examen.', correct: 'miraba a los estudiantes hacer el examen' },
+      { sentence: 'Sentimos la tierra que tiembla.', correct: 'sentimos la tierra temblar' },
+      { sentence: 'Vi tu padre leyendo el periódico.', correct: 'vi a tu padre leer el periódico' },
+      { sentence: 'Oí el perro que ladra en la calle.', correct: 'oí al perro ladrar en la calle' },
+      { sentence: 'Observé las flores creciendo en primavera.', correct: 'observé a las flores crecer en primavera' },
+      { sentence: 'Escuchamos la orquesta que toca una sinfonía.', correct: 'escuchamos a la orquesta tocar una sinfonía' },
+      { sentence: 'Noté mi hermana que corre rápidamente.', correct: 'noté a mi hermana correr rápidamente' }
+    ]
+  },
+
+  'ex-9-2-4': {
+    id: 'ex-9-2-4',
+    type: 'transformation',
+    title: 'Упражнение 4: Составьте из двух фраз одно предложение',
+    description: 'Объедините два предложения в одно, используя конструкцию Acusativo con Infinitivo, как в образце: Vi a las mujeres con trajes nacionales. Ellas bailaban flamenco en la plaza. → Vi a las mujeres de trajes nacionales bailar flamenco en la plaza.',
+    questions: [
+      { sentence: 'El guarda observaba a los pasajeros. Ellos bajaban del tren.', correct: 'el guarda observaba a los pasajeros bajar del tren' },
+      { sentence: 'Detrás de mí corría un muchacho. No lo vi.', correct: 'no vi a un muchacho correr detrás de mí' },
+      { sentence: 'Por las tardes la nieta tocaba el piano. La abuela estaba escuchándola.', correct: 'por las tardes la abuela escuchaba a la nieta tocar el piano' },
+      { sentence: 'Noté a un tipo muy raro. El salía de mi apartamento.', correct: 'noté a un tipo muy raro salir de mi apartamento' },
+      { sentence: 'Por la ventana vi a Juan. El daba vueltas alrededor de mi casa.', correct: 'por la ventana vi a juan dar vueltas alrededor de mi casa' },
+      { sentence: 'Mi madre miraba a los pájaros. Ellos volaban sobre el jardín.', correct: 'mi madre miraba a los pájaros volar sobre el jardín' },
+      { sentence: 'Oímos a nuestros vecinos. Ellos discutían fuertemente.', correct: 'oímos a nuestros vecinos discutir fuertemente' },
+      { sentence: 'El profesor observó a los estudiantes. Ellos hacían trampas en el examen.', correct: 'el profesor observó a los estudiantes hacer trampas en el examen' },
+      { sentence: 'Sentí a mi perro. Él temblaba de miedo durante la tormenta.', correct: 'sentí a mi perro temblar de miedo durante la tormenta' },
+      { sentence: 'Vi a mi hermana. Ella cruzaba la calle corriendo.', correct: 'vi a mi hermana cruzar la calle corriendo' },
+      { sentence: 'Escuchamos a María. Ella cantaba en la ducha.', correct: 'escuchamos a maría cantar en la ducha' },
+      { sentence: 'Noté a un hombre extraño. Él me seguía por la calle.', correct: 'noté a un hombre extraño seguirme por la calle' },
+      { sentence: 'Observé a las hojas. Ellas caían lentamente de los árboles.', correct: 'observé a las hojas caer lentamente de los árboles' },
+      { sentence: 'Oí a alguien. La persona gritaba pidiendo ayuda.', correct: 'oí a alguien gritar pidiendo ayuda' },
+      { sentence: 'Vimos a los niños. Ellos jugaban al fútbol en el parque.', correct: 'vimos a los niños jugar al fútbol en el parque' }
+    ]
+  },
+
+  'ex-9-2-5': {
+    id: 'ex-9-2-5',
+    type: 'writing',
+    title: 'Упражнение 5: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский, используя конструкцию Acusativo con Infinitivo',
+    questions: [
+      { russian: 'Я не заметила, как ты вошел в кабинет.', correct: 'no noté entrar en el despacho' },
+      { russian: 'Все почувствовали, что весна приближается.', correct: 'todos sintieron acercarse la primavera' },
+      { russian: 'Мы любили слушать, как дедушка рассказывал о своих путешествиях по Африке.', correct: 'nos encantaba escuchar al abuelo contar sobre sus viajes por áfrica' },
+      { russian: 'Родители смотрели, как их дети играли в футбол.', correct: 'los padres miraban a sus hijos jugar al fútbol' },
+      { russian: 'Ты не слышал, как соседи шумели всю ночь.', correct: 'no oíste a los vecinos hacer ruido toda la noche' },
+      { russian: 'Я видел, как птицы улетали на юг.', correct: 'vi a los pájaros volar hacia el sur' },
+      { russian: 'Мы слышали, как кто-то плакал в соседней комнате.', correct: 'oímos a alguien llorar en la habitación de al lado' },
+      { russian: 'Она наблюдала, как солнце садилось за горизонт.', correct: 'ella observaba al sol ponerse por el horizonte' },
+      { russian: 'Он почувствовал, как его сердце билось быстрее.', correct: 'sintió a su corazón latir más rápido' },
+      { russian: 'Вы видели, как танцевала испанка фламенко?', correct: 'visteis a la española bailar flamenco' },
+      { russian: 'Я слушал, как пела моя сестра в душе.', correct: 'escuchaba a mi hermana cantar en la ducha' },
+      { russian: 'Мы заметили, как кошка прыгала с дерева.', correct: 'notamos a la gata saltar del árbol' },
+      { russian: 'Они наблюдали, как дети плавали в бассейне.', correct: 'observaban a los niños nadar en la piscina' },
+      { russian: 'Я чувствовал, как холодный ветер дул в лицо.', correct: 'sentía al viento frío soplar en la cara' },
+      { russian: 'Вы слышали, как кричала та женщина?', correct: 'oísteis a aquella mujer gritar' }
+    ]
+  },
+
+  // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   // Урок 9.1 - Испанская литература
   // Capítulo 1
