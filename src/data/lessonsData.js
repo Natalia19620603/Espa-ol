@@ -90,7 +90,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: СПОРТ. Voz pasiva (страдательный залог). Acusativo con infinitivo. Инфинитивные конструкции',
     level: 'elementary',
-    lessons: ['lesson-9-1'],
+    lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
     description: 'Страдательный залог (Voz Pasiva), конструкции с SE, Acusativo con infinitivo'
   },
   'module-17': {
@@ -495,7 +495,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - Hasta luego. Buenas noches.`,
       translation: 'Первые слова и диалоги\n\n**Диалог 1: На улице**\n\n- Привет. Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Все хорошо, спасибо.\n- Рад слышать. До скорого.\n- Пока.\n\n**Диалог 2: Встреча с другом**\n\n- Привет! Как жизнь?\n- Более или менее хорошо. А ты?\n- Так себе. Большое спасибо, что спросил.\n- Пожалуйста. Как семья?\n- Все хорошо, спасибо.\n\n**Диалог 3: Утром**\n\n- Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Так себе. Пожалуйста, у тебя есть минутка?\n- Да, конечно.\n- Большое спасибо.\n- Пожалуйста.\n\n**Диалог 4: Прощание**\n\n- Добрый день. Как дела?\n- Спасибо, хорошо.\n- Рад слышать. Пока.\n- До скорого. Добрый вечер.'
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -10374,7 +10374,185 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5', 'ex-9-1-6', 'ex-9-1-7']
   },
 
-  // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
+  'lesson-9-2': {
+    id: 'lesson-9-2',
+    title: 'Урок 2: Конструкция Acusativo con Infinitivo',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Конструкция Acusativo con Infinitivo',
+      intro: `Эта конструкция используется после глаголов восприятия (видеть, слышать, чувствовать). Она позволяет кратко выразить действие, которое совершает кто-то другой.`,
+      sections: [
+        {
+          id: 'main-verbs',
+          title: '1. Основные глаголы',
+          content: `## 1. Основные глаголы
+
+**Ver (видеть) / Mirar (смотреть) / Observar (наблюдать)**
+**Oír (слышать) / Escuchar (слушать)**
+**Sentir (чувствовать) / Notar (замечать)**
+
+Эти глаголы восприятия используются в конструкции Acusativo con Infinitivo для описания действий, которые мы видим, слышим или чувствуем.`
+        },
+        {
+          id: 'structure',
+          title: '2. Как строится предложение',
+          content: `## 2. Как строится предложение
+
+Вместо длинного придаточного предложения мы используем простую схему:
+
+**Глагол восприятия + Дополнение (кто?) + Инфинитив (что делает?)**
+
+| Испанский вариант | Дословный перевод | Красивый перевод (рус) |
+|-------------------|-------------------|------------------------|
+| Oigo acercarse un coche. | Слышу приближаться машину. | Я слышу, как приближается машина. |
+| Te hemos visto cruzar la calle. | Тебя мы видели переходить улицу. | Мы видели, как ты переходил улицу. |
+| Sintió a alguien tocarla. | Почувствовала кого-то трогать её. | Она почувствовала, как кто-то коснулся её. |`
+        },
+        {
+          id: 'important-rules',
+          title: '3. Важные правила',
+          content: `## 3. Важные правила
+
+**Предлог "a":**
+Если мы видим/слышим одушевленное лицо (человека или любимое животное), перед ним обязательно ставится предлог **a**.
+
+*Пример:* Veo a Juan correr. (Вижу, как Хуан бежит).
+
+**Местоимения:**
+Если «тот, кого мы видим» выражен местоимением (меня, тебя, его), оно ставится перед основным глаголом.
+
+*Пример:* Te vi bailar. (Я видел, как ты танцевал).
+
+**Порядок слов:**
+Инфинитив может стоять как до, так и после доминирующего существительного (зависит от того, на чем мы делаем акцент).
+
+*Пример:* Oigo cantar a las aves = Oigo a las aves cantar.`
+        },
+        {
+          id: 'why-useful',
+          title: 'Почему это удобно?',
+          content: `## Почему это удобно?
+
+Эта конструкция делает вашу речь более динамичной и «испанской». Вместо сложного предложения с союзом **que** (например: *Veo que tú cruzas la calle*), вы используете лаконичное: *Te veo cruzar la calle*.
+
+Это придает языку естественность и экономит слова, что особенно ценится в разговорной речи.`
+        }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-9-2-1', 'ex-9-2-2', 'ex-9-2-3', 'ex-9-2-4', 'ex-9-2-5']
+  },
+
+  'lesson-9-3': {
+    id: 'lesson-9-3',
+    title: 'Урок 3: Основные инфинитивные конструкции (Перифразы)',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Основные инфинитивные конструкции (Перифразы)',
+      intro: `Инфинитивные конструкции (перифразы) — это устойчивые сочетания глаголов с инфинитивом, которые выражают различные аспекты действия: начало, продолжение, окончание, повтор, долженствование и другие.`,
+      sections: [
+        {
+          id: 'future-intention',
+          title: '1. Будущее время и намерение',
+          content: `## 1. Будущее время и намерение
+
+**ir a + infinitivo** — собираться что-то сделать (ближайшее будущее)
+
+Эта конструкция выражает намерение или план на ближайшее будущее.
+
+**Примеры:**
+- Hoy vamos a celebrar el triunfo. (Сегодня мы отпразднуем победу).
+- ¿Vas a participar? (Ты собираешься участвовать?).
+- Mañana voy a visitar a mis abuelos. (Завтра я собираюсь навестить бабушку и дедушку).`
+        },
+        {
+          id: 'start-action',
+          title: '2. Начало действия',
+          content: `## 2. Начало действия
+
+| Конструкция | Значение | Нюанс |
+|-------------|----------|-------|
+| **empezar a + inf** | начинать | Обычное начало процесса |
+| **ponerse a + inf** | приниматься за... | Энергичное или внезапное начало работы |
+| **echarse a + inf** | разразиться... | Только для эмоций: llorar (плакать), reír (смеяться) |
+| **echar a + inf** | броситься... | Начало движения: correr (бежать), andar (идти) |
+
+**Примеры:**
+- Empecé a estudiar a las 8. (Я начал учиться в 8).
+- Se puso a trabajar inmediatamente. (Он сразу принялся за работу).
+- Se echó a llorar. (Она расплакалась).
+- El coche echó a andar. (Машина тронулась).`
+        },
+        {
+          id: 'finish-action',
+          title: '3. Завершение действия',
+          content: `## 3. Завершение действия
+
+**terminar de + inf** — закончить процесс
+- ¿Cuándo termináis de trabajar? (Когда вы заканчиваете работать?).
+
+**dejar de + inf** — перестать что-то делать (бросить привычку)
+- Dejó de practicar deporte. (Она бросила заниматься спортом).
+
+**acabar de + inf** — только что что-то сделать
+- Acabo de firmar esto. (Я только что это подписал).
+
+**Важно:** Конструкция **acabar de** используется в основном в Presente или Imperfecto.`
+        },
+        {
+          id: 'repetition-habit',
+          title: '4. Повтор и привычка',
+          content: `## 4. Повтор и привычка
+
+**soler + inf** — иметь обыкновение (обычно я делаю так...)
+- Solemos cenar en casa. (Мы обычно ужинаем дома).
+- Suelo levantarme temprano. (Я обычно встаю рано).
+
+**volver a + inf** — снова/еще раз что-то сделать
+- Vuelvo a leer tu carta. (Я перечитываю твое письмо).
+- Volvió a llamarme. (Он снова мне позвонил).`
+        },
+        {
+          id: 'obligation',
+          title: '5. Долженствование (Нужно/Должен)',
+          content: `## 5. Долженствование (Нужно/Должен)
+
+**hay que + inf** — нужно (безлично, «нужно вообще всем»)
+- Hay que vivir hoy. (Надо жить сегодня).
+- Hay que estudiar mucho. (Нужно много учиться).
+
+**tener que + inf** — должен (личная обязанность, обстоятельства)
+- Tendrás que hacer cola. (Тебе придется стоять в очереди).
+- Tengo que ir al médico. (Мне нужно идти к врачу).
+
+**deber + inf** — должен (моральный долг, совет)
+- Debemos respetar a los mayores. (Мы должны уважать старших).
+- Debes descansar más. (Тебе следует больше отдыхать).
+
+**necesitar + inf** — испытывать потребность
+- Necesito comprobar datos. (Мне нужно проверить данные).
+- Necesitamos hablar. (Нам нужно поговорить).`
+        },
+        {
+          id: 'causative',
+          title: '6. Воздействие на другого человека',
+          content: `## 6. Воздействие на другого человека
+
+**dejar + inf** — позволять/давать
+- No me dejan entrar. (Меня не пускают / не дают войти).
+- Déjame ayudarte. (Позволь мне помочь тебе).
+
+**hacer + inf** — заставлять (или быть причиной действия)
+- ¿Por qué me haces mentir? (Почему ты заставляешь меня лгать?).
+- El profesor nos hizo repetir el ejercicio. (Учитель заставил нас повторить упражнение).`
+        }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5', 'ex-9-3-6']
+  },
+
+  // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   'lesson-17-1': {
     id: 'lesson-17-1',
@@ -14174,107 +14352,8 @@ export const exercises = {
       { word: 'adiós', options: ['[адиос]', '[адиос]', '[адьос]', '[адьёс]'], correct: 0 }
     ]
   },
-  'ex-1-1-3': {
-    id: 'ex-1-1-3',
-    type: 'reading',
-    title: 'Чтение',
-    description: 'Прочитайте диалог и ответьте на вопросы',
-    audio: '/audio/lesson-1-1-reading.mp3',
-    text: `
-Pedro: ¡Hola! Buenos días. ¿Qué tal?
-Ana: Bien, gracias. ¿Y tú?
-Pedro: Todo va bien. ¿Qué tal la familia?
-Ana: Más o menos bien, gracias. Mi madre está enferma, pero no es grave.
-Pedro: Lo siento mucho. Me alegro de que no sea grave.
-Ana: Gracias por preguntar. ¿Y tu familia?
-Pedro: Todos están bien, gracias. Mi hermano vive en Madrid ahora.
-Ana: ¡Qué bien! ¿Le gusta Madrid?
-Pedro: Sí, le encanta. Trabaja en una empresa española.
-Ana: Perfecto. Bueno, tengo que irme.
-Pedro: Claro. ¡Hasta luego!
-Ana: ¡Adiós! Que tengas un buen día.
-Pedro: Igualmente. Muchas gracias.
-    `,
-    questions: [
-      {
-        question: 'Кто приветствует первым?',
-        options: ['Ана', 'Педро', 'Оба', 'Никто'],
-        correct: 1
-      },
-      {
-        question: 'Какое время суток?',
-        options: ['Утро', 'День', 'Вечер', 'Ночь'],
-        correct: 0
-      },
-      {
-        question: 'Как дела у семьи Аны?',
-        options: ['Очень хорошо', 'Более или менее хорошо', 'Плохо', 'Отлично'],
-        correct: 1
-      },
-      {
-        question: 'Кто болен?',
-        options: ['Мать Аны', 'Отец Педро', 'Брат Педро', 'Ана'],
-        correct: 0
-      },
-      {
-        question: 'Насколько серьезна болезнь?',
-        options: ['Очень серьезно', 'Не серьезно', 'Критически', 'Неизвестно'],
-        correct: 1
-      },
-      {
-        question: 'Где сейчас живет брат Педро?',
-        options: ['В Барселоне', 'В Мадриде', 'В Валенсии', 'В Севилье'],
-        correct: 1
-      },
-      {
-        question: 'Как брат Педро относится к Мадриду?',
-        options: ['Не нравится', 'Так себе', 'Нравится', 'Очень нравится'],
-        correct: 3
-      },
-      {
-        question: 'Где работает брат Педро?',
-        options: ['В русской компании', 'В испанской компании', 'В банке', 'В школе'],
-        correct: 1
-      },
-      {
-        question: 'Кто должен уйти?',
-        options: ['Педро', 'Ана', 'Оба', 'Никто'],
-        correct: 1
-      },
-      {
-        question: 'Как Педро прощается?',
-        options: ['Adiós', 'Hasta luego', 'Buenos días', 'Buenas noches'],
-        correct: 1
-      },
-      {
-        question: 'Что Ана желает Педро?',
-        options: ['Спокойной ночи', 'Хорошего дня', 'Удачи', 'Ничего не желает'],
-        correct: 1
-      },
-      {
-        question: 'Что отвечает Педро на пожелание Аны?',
-        options: ['De nada', 'Gracias', 'Igualmente', 'Perdón'],
-        correct: 2
-      },
-      {
-        question: 'Сколько раз упоминается слово "gracias" в диалоге?',
-        options: ['Один раз', 'Два раза', 'Три раза', 'Четыре раза'],
-        correct: 3
-      },
-      {
-        question: 'Кто первым спрашивает о семье?',
-        options: ['Ана', 'Педро', 'Никто', 'Оба одновременно'],
-        correct: 1
-      },
-      {
-        question: 'Какое общее настроение диалога?',
-        options: ['Грустное', 'Дружелюбное', 'Формальное', 'Напряженное'],
-        correct: 1
-      }
-    ]
-  },
-  'ex-1-1-4': {
-    id: 'ex-1-1-4',
+  'ex-1-1-2': {
+    id: 'ex-1-1-2',
     type: 'writing',
     title: 'Письмо',
     description: 'Переведите на испанский',
@@ -20752,7 +20831,275 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     ]
   },
 
-  // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
+  // ============ УРОК 9-2: ACUSATIVO CON INFINITIVO ============
+
+  'ex-9-2-1': {
+    id: 'ex-9-2-1',
+    type: 'grammar',
+    title: 'Упражнение 1: Выбор правильной конструкции',
+    description: 'Выберите правильный вариант с конструкцией Acusativo con Infinitivo',
+    questions: [
+      { question: 'Vi ___ a mi hermano ___ el parque.', options: ['cruzar', 'que cruza', 'cruzando', 'cruza'], correct: 0 },
+      { question: 'Oí ___ a los niños ___ en el jardín.', options: ['que juegan', 'jugar', 'jugando', 'juega'], correct: 1 },
+      { question: 'Observamos ___ al gato ___ por la ventana.', options: ['saltar', 'que salta', 'saltando', 'salta'], correct: 0 },
+      { question: 'Sentí ___ a alguien ___ la puerta.', options: ['que abre', 'abriendo', 'abrir', 'abre'], correct: 2 },
+      { question: 'Escuché ___ a María ___ una canción.', options: ['cantar', 'que canta', 'cantando', 'canta'], correct: 0 },
+      { question: 'Noté ___ al profesor ___ al aula.', options: ['que entra', 'entrando', 'entrar', 'entra'], correct: 2 },
+      { question: 'Vimos ___ a los pájaros ___ en el cielo.', options: ['volar', 'que vuelan', 'volando', 'vuelan'], correct: 0 },
+      { question: 'Oímos ___ al bebé ___ toda la noche.', options: ['que llora', 'llorando', 'llorar', 'llora'], correct: 2 },
+      { question: 'Miraba ___ a los estudiantes ___ el examen.', options: ['hacer', 'que hacen', 'haciendo', 'hacen'], correct: 0 },
+      { question: 'Sentimos ___ la tierra ___ durante el terremoto.', options: ['temblar', 'que tiembla', 'temblando', 'tiembla'], correct: 0 },
+      { question: 'Vi ___ a tu padre ___ el periódico.', options: ['que lee', 'leer', 'leyendo', 'lee'], correct: 1 },
+      { question: 'Oí ___ al perro ___ en la calle.', options: ['ladrar', 'que ladra', 'ladrando', 'ladra'], correct: 0 },
+      { question: 'Observé ___ a las flores ___ en primavera.', options: ['que crecen', 'crecer', 'creciendo', 'crecen'], correct: 1 },
+      { question: 'Escuchamos ___ a la orquesta ___ una sinfonía.', options: ['tocar', 'que toca', 'tocando', 'toca'], correct: 0 },
+      { question: 'Noté ___ a mi hermana ___ rápidamente.', options: ['que corre', 'corriendo', 'correr', 'corre'], correct: 2 }
+    ]
+  },
+
+  'ex-9-2-2': {
+    id: 'ex-9-2-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Заполните пропуски',
+    description: 'Вставьте правильную форму глагола в конструкцию Acusativo con Infinitivo',
+    questions: [
+      { sentence: 'Vi a Juan ___ (caminar) por la calle.', correct: 'caminar' },
+      { sentence: 'Oímos ___ (cantar) a los pájaros en el bosque.', correct: 'cantar' },
+      { sentence: 'Observé a los niños ___ (jugar) en el parque.', correct: 'jugar' },
+      { sentence: 'Sentí a alguien ___ (tocar) mi hombro.', correct: 'tocar' },
+      { sentence: 'Escuché ___ (llover) toda la noche.', correct: 'llover' },
+      { sentence: 'Noté a mi gato ___ (dormir) en el sofá.', correct: 'dormir' },
+      { sentence: 'Vimos a María ___ (bailar) en la fiesta.', correct: 'bailar' },
+      { sentence: 'Oí a mi madre ___ (llamar) desde la cocina.', correct: 'llamar' },
+      { sentence: 'Miraba a los estudiantes ___ (escribir) sus exámenes.', correct: 'escribir' },
+      { sentence: 'Sentimos ___ (temblar) el edificio durante el terremoto.', correct: 'temblar' },
+      { sentence: 'Vi a tu hermano ___ (correr) hacia la estación.', correct: 'correr' },
+      { sentence: 'Oímos a los vecinos ___ (discutir) anoche.', correct: 'discutir' },
+      { sentence: 'Observé a las hojas ___ (caer) de los árboles.', correct: 'caer' },
+      { sentence: 'Escuché a alguien ___ (gritar) en la calle.', correct: 'gritar' },
+      { sentence: 'Noté a los estudiantes ___ (salir) del aula rápidamente.', correct: 'salir' }
+    ]
+  },
+
+  'ex-9-2-3': {
+    id: 'ex-9-2-3',
+    type: 'error-correction',
+    title: 'Упражнение 3: Исправьте ошибки',
+    description: 'Найдите и исправьте ошибку в предложениях с конструкцией Acusativo con Infinitivo',
+    questions: [
+      { sentence: 'Vi a mi hermano que cruza la calle.', correct: 'vi a mi hermano cruzar la calle' },
+      { sentence: 'Oí los niños jugando en el jardín.', correct: 'oí a los niños jugar en el jardín' },
+      { sentence: 'Observamos el gato saltando por la ventana.', correct: 'observamos al gato saltar por la ventana' },
+      { sentence: 'Sentí alguien que abre la puerta.', correct: 'sentí a alguien abrir la puerta' },
+      { sentence: 'Escuché a María que canta una canción.', correct: 'escuché a maría cantar una canción' },
+      { sentence: 'Noté el profesor entrando al aula.', correct: 'noté al profesor entrar al aula' },
+      { sentence: 'Vimos los pájaros que vuelan en el cielo.', correct: 'vimos a los pájaros volar en el cielo' },
+      { sentence: 'Oímos el bebé que llora toda la noche.', correct: 'oímos al bebé llorar toda la noche' },
+      { sentence: 'Miraba a los estudiantes haciendo el examen.', correct: 'miraba a los estudiantes hacer el examen' },
+      { sentence: 'Sentimos la tierra que tiembla.', correct: 'sentimos la tierra temblar' },
+      { sentence: 'Vi tu padre leyendo el periódico.', correct: 'vi a tu padre leer el periódico' },
+      { sentence: 'Oí el perro que ladra en la calle.', correct: 'oí al perro ladrar en la calle' },
+      { sentence: 'Observé las flores creciendo en primavera.', correct: 'observé a las flores crecer en primavera' },
+      { sentence: 'Escuchamos la orquesta que toca una sinfonía.', correct: 'escuchamos a la orquesta tocar una sinfonía' },
+      { sentence: 'Noté mi hermana que corre rápidamente.', correct: 'noté a mi hermana correr rápidamente' }
+    ]
+  },
+
+  'ex-9-2-4': {
+    id: 'ex-9-2-4',
+    type: 'transformation',
+    title: 'Упражнение 4: Составьте из двух фраз одно предложение',
+    description: 'Объедините два предложения в одно, используя конструкцию Acusativo con Infinitivo, как в образце: Vi a las mujeres con trajes nacionales. Ellas bailaban flamenco en la plaza. → Vi a las mujeres de trajes nacionales bailar flamenco en la plaza.',
+    questions: [
+      { sentence: 'El guarda observaba a los pasajeros. Ellos bajaban del tren.', correct: 'el guarda observaba a los pasajeros bajar del tren' },
+      { sentence: 'Detrás de mí corría un muchacho. No lo vi.', correct: 'no vi a un muchacho correr detrás de mí' },
+      { sentence: 'Por las tardes la nieta tocaba el piano. La abuela estaba escuchándola.', correct: 'por las tardes la abuela escuchaba a la nieta tocar el piano' },
+      { sentence: 'Noté a un tipo muy raro. El salía de mi apartamento.', correct: 'noté a un tipo muy raro salir de mi apartamento' },
+      { sentence: 'Por la ventana vi a Juan. El daba vueltas alrededor de mi casa.', correct: 'por la ventana vi a juan dar vueltas alrededor de mi casa' },
+      { sentence: 'Mi madre miraba a los pájaros. Ellos volaban sobre el jardín.', correct: 'mi madre miraba a los pájaros volar sobre el jardín' },
+      { sentence: 'Oímos a nuestros vecinos. Ellos discutían fuertemente.', correct: 'oímos a nuestros vecinos discutir fuertemente' },
+      { sentence: 'El profesor observó a los estudiantes. Ellos hacían trampas en el examen.', correct: 'el profesor observó a los estudiantes hacer trampas en el examen' },
+      { sentence: 'Sentí a mi perro. Él temblaba de miedo durante la tormenta.', correct: 'sentí a mi perro temblar de miedo durante la tormenta' },
+      { sentence: 'Vi a mi hermana. Ella cruzaba la calle corriendo.', correct: 'vi a mi hermana cruzar la calle corriendo' },
+      { sentence: 'Escuchamos a María. Ella cantaba en la ducha.', correct: 'escuchamos a maría cantar en la ducha' },
+      { sentence: 'Noté a un hombre extraño. Él me seguía por la calle.', correct: 'noté a un hombre extraño seguirme por la calle' },
+      { sentence: 'Observé a las hojas. Ellas caían lentamente de los árboles.', correct: 'observé a las hojas caer lentamente de los árboles' },
+      { sentence: 'Oí a alguien. La persona gritaba pidiendo ayuda.', correct: 'oí a alguien gritar pidiendo ayuda' },
+      { sentence: 'Vimos a los niños. Ellos jugaban al fútbol en el parque.', correct: 'vimos a los niños jugar al fútbol en el parque' }
+    ]
+  },
+
+  'ex-9-2-5': {
+    id: 'ex-9-2-5',
+    type: 'writing',
+    title: 'Упражнение 5: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский, используя конструкцию Acusativo con Infinitivo',
+    questions: [
+      { russian: 'Я не заметила, как ты вошел в кабинет.', correct: 'no noté entrar en el despacho' },
+      { russian: 'Все почувствовали, что весна приближается.', correct: 'todos sintieron acercarse la primavera' },
+      { russian: 'Мы любили слушать, как дедушка рассказывал о своих путешествиях по Африке.', correct: 'nos encantaba escuchar al abuelo contar sobre sus viajes por áfrica' },
+      { russian: 'Родители смотрели, как их дети играли в футбол.', correct: 'los padres miraban a sus hijos jugar al fútbol' },
+      { russian: 'Ты не слышал, как соседи шумели всю ночь.', correct: 'no oíste a los vecinos hacer ruido toda la noche' },
+      { russian: 'Я видел, как птицы улетали на юг.', correct: 'vi a los pájaros volar hacia el sur' },
+      { russian: 'Мы слышали, как кто-то плакал в соседней комнате.', correct: 'oímos a alguien llorar en la habitación de al lado' },
+      { russian: 'Она наблюдала, как солнце садилось за горизонт.', correct: 'ella observaba al sol ponerse por el horizonte' },
+      { russian: 'Он почувствовал, как его сердце билось быстрее.', correct: 'sintió a su corazón latir más rápido' },
+      { russian: 'Вы видели, как танцевала испанка фламенко?', correct: 'visteis a la española bailar flamenco' },
+      { russian: 'Я слушал, как пела моя сестра в душе.', correct: 'escuchaba a mi hermana cantar en la ducha' },
+      { russian: 'Мы заметили, как кошка прыгала с дерева.', correct: 'notamos a la gata saltar del árbol' },
+      { russian: 'Они наблюдали, как дети плавали в бассейне.', correct: 'observaban a los niños nadar en la piscina' },
+      { russian: 'Я чувствовал, как холодный ветер дул в лицо.', correct: 'sentía al viento frío soplar en la cara' },
+      { russian: 'Вы слышали, как кричала та женщина?', correct: 'oísteis a aquella mujer gritar' }
+    ]
+  },
+
+  // ============ УРОК 9-3: ИНФИНИТИВНЫЕ КОНСТРУКЦИИ (ПЕРИФРАЗЫ) ============
+
+  'ex-9-3-1': {
+    id: 'ex-9-3-1',
+    type: 'grammar',
+    title: 'Упражнение 1: Выбор правильной конструкции',
+    description: 'Выберите правильную инфинитивную конструкцию для каждого предложения',
+    questions: [
+      { question: 'Mañana ___ a visitar a mis abuelos.', options: ['voy', 'suelo', 'debo', 'tengo'], correct: 0 },
+      { question: 'Ella ___ a llorar cuando vio la película triste.', options: ['se echó', 'empezó', 'se puso', 'dejó'], correct: 0 },
+      { question: '___ que respetar las normas de tráfico.', options: ['Hay', 'Tener', 'Deber', 'Necesitar'], correct: 0 },
+      { question: 'Los niños ___ a jugar en el parque todos los días.', options: ['suelen', 'van', 'deben', 'tienen que'], correct: 0 },
+      { question: '___ de fumar hace dos años.', options: ['Dejé', 'Terminé', 'Acabé', 'Volví'], correct: 0 },
+      { question: '___ a estudiar para el examen de mañana.', options: ['Tengo que', 'Hay que', 'Suelo', 'Vuelvo'], correct: 0 },
+      { question: 'El bebé ___ a llorar en medio de la noche.', options: ['se echó', 'empezó', 'se puso', 'volvió'], correct: 0 },
+      { question: '___ llamarte pero estaba ocupado.', options: ['Volví a', 'Iba a', 'Debía', 'Solía'], correct: 1 },
+      { question: 'No me ___ salir hasta que termine mi tarea.', options: ['dejan', 'hacen', 'ponen', 'echan'], correct: 0 },
+      { question: '___ de leer este libro, es muy interesante.', options: ['Acabo', 'Termino', 'Dejo', 'Vuelvo'], correct: 0 },
+      { question: 'Mi hermano ___ levantarse a las 6 de la mañana.', options: ['suele', 'va a', 'tiene que', 'debe'], correct: 0 },
+      { question: 'El profesor nos ___ repetir el ejercicio.', options: ['hizo', 'dejó', 'puso', 'echó'], correct: 0 },
+      { question: '___ descansar más, trabajas demasiado.', options: ['Debes', 'Tienes que', 'Hay que', 'Sueles'], correct: 0 },
+      { question: 'Se ___ a trabajar en cuanto llegó.', options: ['puso', 'echó', 'empezó', 'volvió'], correct: 0 },
+      { question: '¿Cuándo ___ de estudiar? Ya es muy tarde.', options: ['terminas', 'dejas', 'acabas', 'vuelves'], correct: 0 }
+    ]
+  },
+
+  'ex-9-3-2': {
+    id: 'ex-9-3-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Заполните пропуски',
+    description: 'Вставьте правильную инфинитивную конструкцию',
+    questions: [
+      { sentence: 'Esta noche ___ (ir a) cenar en un restaurante italiano.', correct: 'vamos a' },
+      { sentence: 'Mi padre ___ (dejar de) fumar hace cinco años.', correct: 'dejó de' },
+      { sentence: '___ (acabar de) llegar de Madrid y estoy muy cansado.', correct: 'acabo de' },
+      { sentence: 'Nosotros ___ (soler) ir al cine los viernes.', correct: 'solemos' },
+      { sentence: '___ (hay que) estudiar mucho para aprobar este examen.', correct: 'hay que' },
+      { sentence: 'Los niños ___ (ponerse a) gritar cuando vieron el payaso.', correct: 'se pusieron a' },
+      { sentence: 'Mañana ___ (tener que) levantarme temprano.', correct: 'tengo que' },
+      { sentence: 'El bebé ___ (echarse a) llorar sin motivo aparente.', correct: 'se echó a' },
+      { sentence: 'No me ___ (dejar) salir porque no he terminado mis deberes.', correct: 'dejan' },
+      { sentence: '___ (volver a) leer el libro porque me gustó mucho.', correct: 'volví a' },
+      { sentence: 'Tú ___ (deber) respetar a tus profesores.', correct: 'debes' },
+      { sentence: 'El profesor nos ___ (hacer) escribir una composición.', correct: 'hizo' },
+      { sentence: 'Yo ___ (empezar a) trabajar a las 8 de la mañana.', correct: 'empiezo a' },
+      { sentence: '___ (necesitar) comprar comida para la cena.', correct: 'necesito' },
+      { sentence: '¿Cuándo ___ (terminar de) hacer tus deberes?', correct: 'terminas de' }
+    ]
+  },
+
+  'ex-9-3-3': {
+    id: 'ex-9-3-3',
+    type: 'error-correction',
+    title: 'Упражнение 3: Исправьте ошибки',
+    description: 'Найдите и исправьте ошибку в использовании инфинитивных конструкций',
+    questions: [
+      { sentence: 'Mañana voy visitar a mis abuelos.', correct: 'mañana voy a visitar a mis abuelos' },
+      { sentence: 'Ella dejó fumar hace dos años.', correct: 'ella dejó de fumar hace dos años' },
+      { sentence: 'Acabo llegar de Madrid.', correct: 'acabo de llegar de madrid' },
+      { sentence: 'Nosotros solemos a ir al cine.', correct: 'nosotros solemos ir al cine' },
+      { sentence: 'Hay que a estudiar mucho.', correct: 'hay que estudiar mucho' },
+      { sentence: 'Los niños pusieron a gritar.', correct: 'los niños se pusieron a gritar' },
+      { sentence: 'Tengo que a levantarme temprano.', correct: 'tengo que levantarme temprano' },
+      { sentence: 'El bebé echó llorar.', correct: 'el bebé se echó a llorar' },
+      { sentence: 'No me dejan a salir.', correct: 'no me dejan salir' },
+      { sentence: 'Volví leer el libro.', correct: 'volví a leer el libro' },
+      { sentence: 'Tú debes a respetar a tus profesores.', correct: 'tú debes respetar a tus profesores' },
+      { sentence: 'El profesor nos hizo a escribir.', correct: 'el profesor nos hizo escribir' },
+      { sentence: 'Empiezo trabajar a las 8.', correct: 'empiezo a trabajar a las 8' },
+      { sentence: 'Necesito de comprar comida.', correct: 'necesito comprar comida' },
+      { sentence: 'Termino a hacer mis deberes.', correct: 'termino de hacer mis deberes' }
+    ]
+  },
+
+  'ex-9-3-4': {
+    id: 'ex-9-3-4',
+    type: 'transformation',
+    title: 'Упражнение 4: Трансформация предложений',
+    description: 'Замените выделенные части предложений инфинитивными конструкциями',
+    questions: [
+      { sentence: 'Es necesario estudiar mucho. (hay que)', correct: 'hay que estudiar mucho' },
+      { sentence: 'Es mi costumbre levantarme a las 7. (soler)', correct: 'suelo levantarme a las 7' },
+      { sentence: 'Hace un momento terminé el libro. (acabar de)', correct: 'acabo de terminar el libro' },
+      { sentence: 'Mañana visitaré a mis padres. (ir a)', correct: 'mañana voy a visitar a mis padres' },
+      { sentence: 'Ya no fumo. (dejar de)', correct: 'dejé de fumar' },
+      { sentence: 'Es mi obligación trabajar hoy. (tener que)', correct: 'tengo que trabajar hoy' },
+      { sentence: 'De repente comenzó a llorar. (echarse a)', correct: 'se echó a llorar' },
+      { sentence: 'Lo hice otra vez. (volver a)', correct: 'volví a hacerlo' },
+      { sentence: 'Es mi deber ayudarte. (deber)', correct: 'debo ayudarte' },
+      { sentence: 'Me permiten entrar. (dejar)', correct: 'me dejan entrar' },
+      { sentence: 'Me obligan a estudiar. (hacer)', correct: 'me hacen estudiar' },
+      { sentence: 'Comenzó a trabajar inmediatamente. (ponerse a)', correct: 'se puso a trabajar inmediatamente' },
+      { sentence: 'Siento la necesidad de descansar. (necesitar)', correct: 'necesito descansar' },
+      { sentence: 'Acabo el trabajo a las 6. (terminar de)', correct: 'termino de trabajar a las 6' },
+      { sentence: 'Comienzo las clases a las 9. (empezar a)', correct: 'empiezo a dar clases a las 9' }
+    ]
+  },
+
+  'ex-9-3-5': {
+    id: 'ex-9-3-5',
+    type: 'translation-to-russian',
+    title: 'Упражнение 5: Переведите на русский язык',
+    description: 'Переведите предложения с испанского на русский, обращая внимание на инфинитивные конструкции',
+    questions: [
+      { spanish: 'La madre no le deja al niño comer mucho chocolate.', correct: 'мать не позволяет ребенку есть много шоколада' },
+      { spanish: 'Los padres siempre me hacen tomar leche caliente antes de acostarme.', correct: 'родители всегда заставляют меня пить горячее молоко перед сном' },
+      { spanish: 'El guía acaba de decir que dentro de una hora él nos esperará a la salida del museo.', correct: 'гид только что сказал что через час он будет ждать нас на выходе из музея' },
+      { spanish: '¿Por qué vuelves a llamarme si ya lo hemos discutido todo?', correct: 'почему ты снова звонишь мне если мы уже все обсудили' },
+      { spanish: 'Ayer vi a los reporteros acercarse a nuestra casa y decidí no abrirles la puerta.', correct: 'вчера я видел как репортеры приближались к нашему дому и решил не открывать им дверь' },
+      { spanish: 'Juan tiene mal aspecto, debe dejar de fumar y empezar a practicar algún deporte.', correct: 'хуан плохо выглядит он должен бросить курить и начать заниматься каким нибудь спортом' },
+      { spanish: '¿Por qué no se pone Ana a trabajar? Le queda muy poco tiempo, el jefe necesita firmar estos documentos dentro de media hora.', correct: 'почему ана не принимается за работу у нее осталось очень мало времени шеф должен подписать эти документы через полчаса' },
+      { spanish: 'Noté a la niña marearse y tuve que parar el coche.', correct: 'я заметил что девочке стало плохо и мне пришлось остановить машину' },
+      { spanish: 'No me gustan los viajes organizados, suelo alquilar un todoterreno y recorrer los lugares interesantes solo.', correct: 'мне не нравятся организованные поездки я обычно арендую внедорожник и объезжаю интересные места один' },
+      { spanish: 'Para no tener problemas con la policía en el camino hay que respetar las normas de circulación.', correct: 'чтобы не иметь проблем с полицией в дороге нужно соблюдать правила дорожного движения' },
+      { spanish: 'Oímos el reloj dar las diez y nos pusimos a despedirnos de los Fuentes.', correct: 'мы услышали как часы пробили десять и принялись прощаться с фуэнтес' },
+      { spanish: 'Al escuchar la historia de Juan, María se echó a reír.', correct: 'услышав историю хуана мария расхохоталась' },
+      { spanish: 'Voy a terminar de estudiar esta semana.', correct: 'я собираюсь закончить учиться на этой неделе' },
+      { spanish: 'Mi hermano suele despertarse muy temprano.', correct: 'мой брат обычно просыпается очень рано' },
+      { spanish: 'No necesitas hacer eso ahora.', correct: 'тебе не нужно делать это сейчас' }
+    ]
+  },
+
+  'ex-9-3-6': {
+    id: 'ex-9-3-6',
+    type: 'writing',
+    title: 'Упражнение 6: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский, используя инфинитивные конструкции',
+    questions: [
+      { russian: 'Я видел, как вы бросились бежать, когда заметили собаку.', correct: 'vi echaros a correr cuando notasteis al perro' },
+      { russian: 'Мне только что сказали, что этот столик забронирован и нам придется сесть за другой.', correct: 'me acaban de decir que esta mesa está reservada y tendremos que sentarnos en otra' },
+      { russian: 'В выходные надо будет приготовить паэлью: мои дети ее очень любят.', correct: 'el fin de semana habrá que preparar paella mis hijos la adoran' },
+      { russian: 'Если ты перестанешь изучать языки, тебя не отправят в командировку в Швейцарию.', correct: 'si dejas de estudiar idiomas no te enviarán de viaje de negocios a suiza' },
+      { russian: 'Я вижу, как много ты работаешь, тебе надо отдохнуть.', correct: 'veo cuánto trabajas necesitas descansar' },
+      { russian: 'Когда Филипп начинает рассказывать о своих приключениях, он всех смешит.', correct: 'cuando felipe empieza a contar sobre sus aventuras hace reír a todos' },
+      { russian: 'Обычно мы проводим лето за городом, а осенью, когда дети начинают учиться, мы возвращаемся в город.', correct: 'solemos pasar el verano en el campo y en otoño cuando los niños empiezan a estudiar volvemos a la ciudad' },
+      { russian: 'Ты только что выпил сок и опять хочешь пить? Странно.', correct: 'acabas de beber zumo y vuelves a tener sed extraño' },
+      { russian: 'Что вы собираетесь делать сегодня вечером? — Мы должны снова встретиться с архитектором и обсудить с ним мебель для нашей новой квартиры.', correct: 'qué vais a hacer esta noche tenemos que volver a reunirnos con el arquitecto y discutir con él los muebles para nuestro piso nuevo' },
+      { russian: 'Два часа назад Хуан позвонил мне из больницы и сообщил, что наша тетя только что скончалась. Я расплакалась.', correct: 'hace dos horas juan me llamó del hospital y me comunicó que nuestra tía acababa de fallecer me eché a llorar' },
+      { russian: 'Завтра я собираюсь пойти в кино.', correct: 'mañana voy a ir al cine' },
+      { russian: 'Мы должны закончить работу сегодня.', correct: 'tenemos que terminar el trabajo hoy' },
+      { russian: 'Она бросила курить в прошлом году.', correct: 'ella dejó de fumar el año pasado' },
+      { russian: 'Я обычно завтракаю в 8 утра.', correct: 'suelo desayunar a las 8 de la mañana' },
+      { russian: 'Учитель заставил нас повторить упражнение.', correct: 'el profesor nos hizo repetir el ejercicio' }
+    ]
+  },
+
+  // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   // Урок 9.1 - Испанская литература
   // Capítulo 1
@@ -23175,8 +23522,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
 
 // ===== ИНТЕГРИРОВАННЫЕ УПРАЖНЕНИЯ В УРОКИ =====
 
-  'ex-1-1-5-syn': {
-    id: 'ex-1-1-5-syn',
+  'ex-1-1-3': {
+    id: 'ex-1-1-3',
     type: 'synonyms',
     title: 'Синонимы приветствий',
     description: 'Выберите правильный ответ',
@@ -23199,8 +23546,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     ]
   },
 
-  'ex-1-1-6-ctx': {
-    id: 'ex-1-1-6-ctx',
+  'ex-1-1-4': {
+    id: 'ex-1-1-4',
     type: 'context',
     title: 'Приветствия в контексте',
     description: 'Выберите подходящее приветствие или фразу для каждой ситуации. Обратите внимание на время суток и контекст общения.',
