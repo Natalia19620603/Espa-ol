@@ -9481,7 +9481,7 @@ Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabaj
       { word: 'volver', translation: 'возвращаться', audioUrl: null },
       { word: 'dar una vuelta', translation: 'прогуляться', audioUrl: null }
     ],
-    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5']
+    exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4']
   },
 
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -19178,22 +19178,22 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
     title: 'Перевод с испанского на русский',
     description: 'Переведите предложения на русский язык',
     questions: [
-      { spanish: '¿Vienes a vernos el domingo?', correct: 'ты придешь навестить нас в воскресенье' },
-      { spanish: 'Hemos recorrido toda la ciudad pero no hemos encontrado ninguna tienda de regalos y recuerdos', correct: 'мы обошли весь город но не нашли ни одного магазина подарков и сувениров' },
-      { spanish: 'Si pasáis por nuestra casa mañana conoceréis a la novia de Juan', correct: 'если вы зайдете к нам домой завтра познакомитесь с девушкой хуана' },
-      { spanish: 'El coche avanzó unos metros y se paró', correct: 'машина продвинулась на несколько метров и остановилась' },
-      { spanish: 'Si tú te vas, tampoco me quedaré aquí', correct: 'если ты уходишь я тоже не останусь здесь' },
-      { spanish: 'Ayer mis amigos perdieron el último autobús, y anduvieron dos horas y llegaron al hotel a las dos de la madrugada', correct: 'вчера мои друзья упустили последний автобус и шли пешком два часа и прибыли в отель в два часа ночи' },
-      { spanish: 'Me gusta dar una vuelta por el parque antes de acostarme', correct: 'мне нравится прогуляться по парку перед сном' },
-      { spanish: 'No sabíamos a qué hora volverías y nos sentamos a la mesa a cenar sin ti', correct: 'мы не знали во сколько ты вернешься и сели за стол ужинать без тебя' },
-      { spanish: 'Hay que tener mucho cuidado cruzando la calle', correct: 'нужно быть очень осторожным переходя улицу' },
-      { spanish: 'Al entrar en la oficina el jefe en seguida se dirigió hacia mi mesa', correct: 'войдя в офис начальник сразу направился к моему столу' }
+      { question: '¿Vienes a vernos el domingo?', correct: 'ты придешь навестить нас в воскресенье' },
+      { question: 'Hemos recorrido toda la ciudad pero no hemos encontrado ninguna tienda de regalos y recuerdos', correct: 'мы обошли весь город но не нашли ни одного магазина подарков и сувениров' },
+      { question: 'Si pasáis por nuestra casa mañana conoceréis a la novia de Juan', correct: 'если вы зайдете к нам домой завтра познакомитесь с девушкой хуана' },
+      { question: 'El coche avanzó unos metros y se paró', correct: 'машина продвинулась на несколько метров и остановилась' },
+      { question: 'Si tú te vas, tampoco me quedaré aquí', correct: 'если ты уходишь я тоже не останусь здесь' },
+      { question: 'Ayer mis amigos perdieron el último autobús, y anduvieron dos horas y llegaron al hotel a las dos de la madrugada', correct: 'вчера мои друзья упустили последний автобус и шли пешком два часа и прибыли в отель в два часа ночи' },
+      { question: 'Me gusta dar una vuelta por el parque antes de acostarme', correct: 'мне нравится прогуляться по парку перед сном' },
+      { question: 'No sabíamos a qué hora volverías y nos sentamos a la mesa a cenar sin ti', correct: 'мы не знали во сколько ты вернешься и сели за стол ужинать без тебя' },
+      { question: 'Hay que tener mucho cuidado cruzando la calle', correct: 'нужно быть очень осторожным переходя улицу' },
+      { question: 'Al entrar en la oficina el jefe en seguida se dirigió hacia mi mesa', correct: 'войдя в офис начальник сразу направился к моему столу' }
     ]
   },
   'ex-8-3-4': {
     id: 'ex-8-3-4',
     type: 'writing',
-    title: 'Перевод с русского на испанский (1)',
+    title: 'Перевод с русского на испанский: Сложные предложения с согласованием времен',
     description: 'Переведите предложения на испанский язык',
     questions: [
       { russian: 'Мария сказала, что уже купила новое платье, а завтра собирается купить туфли и сумку', correct: 'maría dijo que ya había comprado un vestido nuevo y que al día siguiente iba a comprar zapatos y un bolso' },
@@ -19203,15 +19203,7 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       { russian: 'Хосе спросил, где я была в отпуске прошлым летом, и куда я хочу поехать в следующем году', correct: 'josé preguntó dónde había estado de vacaciones el verano pasado y adónde quería ir el año siguiente' },
       { russian: 'Нам объяснили, что запрещено заходить в ресторан с собаками', correct: 'nos explicaron que estaba prohibido entrar en el restaurante con perros' },
       { russian: 'Мой муж сообщил, что он уже купил билеты в агентстве, но что в следующем году он закажет билеты через Интернет', correct: 'mi marido comunicó que ya había comprado billetes en la agencia pero que el año siguiente pediría billetes por internet' },
-      { russian: 'Официант говорит клиенту, что обслужит его через минуту', correct: 'el camarero dice al cliente que lo atenderá en un minuto' }
-    ]
-  },
-  'ex-8-3-5': {
-    id: 'ex-8-3-5',
-    type: 'writing',
-    title: 'Перевод с русского на испанский (2)',
-    description: 'Переведите предложения на испанский язык',
-    questions: [
+      { russian: 'Официант говорит клиенту, что обслужит его через минуту', correct: 'el camarero dice al cliente que lo atenderá en un minuto' },
       { russian: 'Врач объяснил, что если Андрей хочет чувствовать себя лучше, ему надо бросить курить и начать заниматься спортом', correct: 'el médico explicó que si andrés quería sentirse mejor tenía que dejar de fumar y empezar a hacer deporte' },
       { russian: 'Я хотел бы знать, почему Алисия ко мне так плохо относится и не хочет оставить меня в покое', correct: 'me gustaría saber por qué alicia me trata tan mal y no quiere dejarme en paz' }
     ]
