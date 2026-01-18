@@ -9128,7 +9128,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     exercises: [
       { tab: 'Словарь', exerciseIds: ['ex-7-1-vocab'] },
       { tab: 'Понимание текста', exerciseIds: ['ex-7-1-comprehension'] },
-      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4', 'ex-7-1-grammar-5', 'ex-7-1-grammar-6'] },
+      { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4', 'ex-7-1-grammar-5', 'ex-7-1-grammar-6', 'ex-8-4-8'] },
       { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] },
       { tab: 'OCIO en MADRID', exerciseIds: ['ex-7-1-ocio-vocab', 'ex-7-1-ocio-comprehension', 'ex-7-1-ocio-grammar', 'ex-7-1-ocio-translation'] }
     ]
@@ -9293,12 +9293,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'remonte m', translation: 'подъемник', audioUrl: null },
       { word: 'pista f', translation: '(зд.) трасса', audioUrl: null }
     ],
-    readingText: {
-      title: 'Diálogos',
-      dialogs: [
-        {
-          title: 'Diálogo 1: Планируя отпуск',
-          content: `**Carlos:** Ana, ¿ya pensaste adónde irás de vacaciones este verano?
+    readingText: [
+      {
+        tab: 'Diálogo 1',
+        title: 'Diálogo 1: Планируя отпуск',
+        content: `**Carlos:** Ana, ¿ya pensaste adónde irás de vacaciones este verano?
 
 **Ana:** Todavía no lo sé. Si **consigo** más días libres, **viajaré** al extranjero. Siempre he querido hacer un viaje exótico.
 
@@ -9333,7 +9332,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Carlos:** Si **tenemos** tiempo, también podríamos hacer un poco de **senderismo** en las montañas. Si el clima **permite**, **veremos** paisajes increíbles.
 
 **Ana:** Me parece excelente. Si **planeamos** bien, **lograremos** hacer todo lo que queremos.`,
-          translation: `**Карлос:** Ана, ты уже подумала, куда поедешь в отпуск этим летом?
+        translation: `**Карлос:** Ана, ты уже подумала, куда поедешь в отпуск этим летом?
 
 **Ана:** Ещё не знаю. Если я получу больше выходных дней, поеду за границу. Я всегда хотела совершить экзотическое путешествие.
 
@@ -9368,10 +9367,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Карлос:** Если у нас будет время, мы также могли бы немного походить по горам. Если климат позволит, увидим невероятные пейзажи.
 
 **Ана:** Мне кажется отлично. Если хорошо спланируем, добьёмся сделать всё, что хотим.`
-        },
-        {
-          title: 'Diálogo 2: En la agencia de viajes',
-          content: `**Agente:** Buenos días. ¿En qué puedo ayudarle?
+      },
+      {
+        tab: 'Diálogo 2',
+        title: 'Diálogo 2: En la agencia de viajes',
+        content: `**Agente:** Buenos días. ¿En qué puedo ayudarle?
 
 **Cliente:** Buenos días. Estoy buscando un paquete de viaje para mis vacaciones. Si **encuentro** algo bueno, **lo reservaré** hoy mismo.
 
@@ -9418,7 +9418,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Agente:** Excelente. Si **necesita** más información mientras tanto, **puede** llamarme a este número. Si **tiene** alguna duda, **estaré** encantado de ayudarle.
 
 **Cliente:** Muchas gracias por su ayuda. Si todo **sale** bien, ¡nos vemos esta tarde!`,
-          translation: `**Агент:** Доброе утро. Чем могу вам помочь?
+        translation: `**Агент:** Доброе утро. Чем могу вам помочь?
 
 **Клиент:** Доброе утро. Я ищу туристический пакет для своего отпуска. Если найду что-то хорошее, забронирую сегодня же.
 
@@ -9465,9 +9465,8 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Агент:** Отлично. Если понадобится больше информации тем временем, можете позвонить мне по этому номеру. Если будут какие-либо вопросы, буду рад помочь.
 
 **Клиент:** Большое спасибо за помощь. Если всё пройдёт хорошо, увидимся сегодня вечером!`
-        }
-      ]
-    },
+      }
+    ],
     exercises: ['ex-8-1-1', 'ex-8-1-2', 'ex-8-1-3', 'ex-8-1-4', 'ex-8-1-5', 'ex-8-1-6', 'ex-8-1-7']
   },
 
@@ -9568,12 +9567,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'pago adelantado', translation: 'предоплата', audioUrl: null },
       { word: 'hora de salida', translation: 'расчетный час', audioUrl: null }
     ],
-    readingText: {
-      title: 'Diálogos',
-      dialogs: [
-        {
-          title: 'Diálogo 1: Reservando un hotel',
-          content: `**Laura:** Buenos días, **quisiera** reservar una habitación para dos personas.
+    readingText: [
+      {
+        tab: 'Diálogo 1',
+        title: 'Diálogo 1: Reservando un hotel',
+        content: `**Laura:** Buenos días, **quisiera** reservar una habitación para dos personas.
 
 **Recepcionista:** Buenos días. ¿Para cuántas noches?
 
@@ -9624,7 +9622,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Laura:** Excelente servicio. **Me encantaría** alojarme aquí.
 
 **Recepcionista:** Muchas gracias. Su reserva está confirmada. **Le desearía** una estancia muy agradable en nuestro hotel.`,
-          translation: `**Лаура:** Доброе утро, я хотела бы забронировать номер на двоих.
+        translation: `**Лаура:** Доброе утро, я хотела бы забронировать номер на двоих.
 
 **Администратор:** Доброе утро. На сколько ночей?
 
@@ -9675,10 +9673,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Лаура:** Отличный сервис. Мне бы очень понравилось остановиться здесь.
 
 **Администратор:** Большое спасибо. Ваше бронирование подтверждено. Я пожелала бы вам очень приятного пребывания в нашем отеле.`
-        },
-        {
-          title: 'Diálogo 2: Buscando alojamiento',
-          content: `**Pedro:** Hola María, estoy buscando un lugar para **alojarme** durante mis vacaciones. ¿**Podrías** recomendarme algo?
+      },
+      {
+        tab: 'Diálogo 2',
+        title: 'Diálogo 2: Buscando alojamiento',
+        content: `**Pedro:** Hola María, estoy buscando un lugar para **alojarme** durante mis vacaciones. ¿**Podrías** recomendarme algo?
 
 **María:** Claro, Pedro. ¿Qué tipo de **alojamiento** prefieres?
 
@@ -9729,7 +9728,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Pedro:** Muy útil. Creo que empezaré a buscar hostales con estas características. **Me ayudarías** mucho con esto.
 
 **María:** Con mucho gusto. Si encuentras algo que te gusta, **yo revisaría** bien todas las condiciones antes de pagar.`,
-          translation: `**Педро:** Привет, Мария, я ищу место, чтобы остановиться во время отпуска. Ты могла бы порекомендовать что-то?
+        translation: `**Педро:** Привет, Мария, я ищу место, чтобы остановиться во время отпуска. Ты могла бы порекомендовать что-то?
 
 **Мария:** Конечно, Педро. Какой тип размещения ты предпочитаешь?
 
@@ -9780,9 +9779,8 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Педро:** Очень полезно. Думаю, я начну искать пансионы с этими характеристиками. Ты бы очень помогла мне с этим.
 
 **Мария:** С большим удовольствием. Если найдешь что-то, что тебе нравится, я бы хорошо проверила все условия перед оплатой.`
-        }
-      ]
-    },
+      }
+    ],
     exercises: ['ex-8-2-1', 'ex-8-2-2', 'ex-8-2-6', 'ex-8-2-7']
   },
 
@@ -9900,11 +9898,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'seguro a terceros sin franquicia', translation: 'страхование гражданской ответственности без франшизы', audioUrl: null },
       { word: 'carnet de conducir', translation: 'водительское  удостоверение', audioUrl: null }
     ],
-    readingText: {
-      title: 'Diálogos',
-      dialogs: [
-        {
-          title: 'Diálogo 1: Alquilando un coche',
+    readingText: [
+      {
+        tab: 'Diálogo 1',
+        title: 'Diálogo 1: Alquilando un coche',
           content: `**Cliente:** Buenos días, **quisiera** alquilar un **vehículo** para el fin de semana.
 
 **Empleado:** Buenos días. ¿Qué tipo de **turismo** prefiere? ¿Un coche normal o un **todoterreno**?
@@ -10059,9 +10056,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Клиент:** Отлично. Тогда увидимся завтра. Надеюсь, не будет никакой аварии.
 
 **Сотрудник:** Мы тоже. Мы пожелали бы вам безопасного и приятного путешествия.`
-        },
-        {
-          title: 'Diálogo 2: Contando sobre un viaje',
+      },
+      {
+        tab: 'Diálogo 2',
+        title: 'Diálogo 2: Contando sobre un viaje',
           content: `**Ana:** ¡Hola Roberto! ¿Cómo estuvo tu viaje por España?
 
 **Roberto:** ¡Fue increíble! Te **conté** que **iría** en coche, ¿verdad?
@@ -10244,9 +10242,8 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 **Ана:** Ты бы хотел вернуться и совершить такую поездку снова?
 
 **Роберто:** Конечно! На самом деле, мои друзья уже спросили меня, вернусь ли я в следующем году. Я сказал им, что да, что поеду без сомнений.`
-        }
-      ]
-    },
+      }
+    ],
     exercises: ['ex-8-3-1', 'ex-8-3-2', 'ex-8-3-3', 'ex-8-3-4', 'ex-8-3-5', 'ex-8-3-6']
   },
 
@@ -10276,7 +10273,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       sections: []
     },
     vocabulary: [],
-    exercises: ['ex-8-4-1', 'ex-8-4-2', 'ex-8-4-3', 'ex-8-4-4', 'ex-8-4-5', 'ex-8-4-6', 'ex-8-4-7', 'ex-8-4-8', 'ex-8-4-9', 'ex-8-4-10', 'ex-8-4-11', 'ex-8-4-12']
+    exercises: ['ex-8-4-1', 'ex-8-4-2', 'ex-8-4-3', 'ex-8-4-4', 'ex-8-4-5', 'ex-8-4-6', 'ex-8-4-7', 'ex-8-4-9', 'ex-8-4-10', 'ex-8-4-11', 'ex-8-4-12']
   },
 
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
