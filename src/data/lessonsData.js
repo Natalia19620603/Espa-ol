@@ -90,7 +90,7 @@ export const modules = {
     id: 'module-9',
     title: 'Модуль 9: СПОРТ. Voz pasiva (страдательный залог). Acusativo con infinitivo. Инфинитивные конструкции',
     level: 'elementary',
-    lessons: ['lesson-9-1'],
+    lessons: ['lesson-9-1', 'lesson-9-2'],
     description: 'Страдательный залог (Voz Pasiva), конструкции с SE, Acusativo con infinitivo'
   },
   'module-17': {
@@ -495,7 +495,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - Hasta luego. Buenas noches.`,
       translation: 'Первые слова и диалоги\n\n**Диалог 1: На улице**\n\n- Привет. Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Все хорошо, спасибо.\n- Рад слышать. До скорого.\n- Пока.\n\n**Диалог 2: Встреча с другом**\n\n- Привет! Как жизнь?\n- Более или менее хорошо. А ты?\n- Так себе. Большое спасибо, что спросил.\n- Пожалуйста. Как семья?\n- Все хорошо, спасибо.\n\n**Диалог 3: Утром**\n\n- Доброе утро. Как дела?\n- Спасибо, хорошо. А ты?\n- Так себе. Пожалуйста, у тебя есть минутка?\n- Да, конечно.\n- Большое спасибо.\n- Пожалуйста.\n\n**Диалог 4: Прощание**\n\n- Добрый день. Как дела?\n- Спасибо, хорошо.\n- Рад слышать. Пока.\n- До скорого. Добрый вечер.'
     },
-    exercises: ['ex-1-1-1', 'ex-1-1-3', 'ex-1-1-4', 'ex-1-1-5-syn', 'ex-1-1-6-ctx']
+    exercises: ['ex-1-1-1', 'ex-1-1-2', 'ex-1-1-3', 'ex-1-1-4']
   },
   'lesson-1-2': {
     id: 'lesson-1-2',
@@ -10374,7 +10374,76 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5', 'ex-9-1-6', 'ex-9-1-7']
   },
 
-  // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
+  'lesson-9-2': {
+    id: 'lesson-9-2',
+    title: 'Урок 2: Конструкция Acusativo con Infinitivo',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Конструкция Acusativo con Infinitivo',
+      intro: `Эта конструкция используется после глаголов восприятия (видеть, слышать, чувствовать). Она позволяет кратко выразить действие, которое совершает кто-то другой.`,
+      sections: [
+        {
+          id: 'main-verbs',
+          title: '1. Основные глаголы',
+          content: `## 1. Основные глаголы
+
+**Ver (видеть) / Mirar (смотреть) / Observar (наблюдать)**
+**Oír (слышать) / Escuchar (слушать)**
+**Sentir (чувствовать) / Notar (замечать)**
+
+Эти глаголы восприятия используются в конструкции Acusativo con Infinitivo для описания действий, которые мы видим, слышим или чувствуем.`
+        },
+        {
+          id: 'structure',
+          title: '2. Как строится предложение',
+          content: `## 2. Как строится предложение
+
+Вместо длинного придаточного предложения мы используем простую схему:
+
+**Глагол восприятия + Дополнение (кто?) + Инфинитив (что делает?)**
+
+| Испанский вариант | Дословный перевод | Красивый перевод (рус) |
+|-------------------|-------------------|------------------------|
+| Oigo acercarse un coche. | Слышу приближаться машину. | Я слышу, как приближается машина. |
+| Te hemos visto cruzar la calle. | Тебя мы видели переходить улицу. | Мы видели, как ты переходил улицу. |
+| Sintió a alguien tocarla. | Почувствовала кого-то трогать её. | Она почувствовала, как кто-то коснулся её. |`
+        },
+        {
+          id: 'important-rules',
+          title: '3. Важные правила',
+          content: `## 3. Важные правила
+
+**Предлог "a":**
+Если мы видим/слышим одушевленное лицо (человека или любимое животное), перед ним обязательно ставится предлог **a**.
+
+*Пример:* Veo a Juan correr. (Вижу, как Хуан бежит).
+
+**Местоимения:**
+Если «тот, кого мы видим» выражен местоимением (меня, тебя, его), оно ставится перед основным глаголом.
+
+*Пример:* Te vi bailar. (Я видел, как ты танцевал).
+
+**Порядок слов:**
+Инфинитив может стоять как до, так и после доминирующего существительного (зависит от того, на чем мы делаем акцент).
+
+*Пример:* Oigo cantar a las aves = Oigo a las aves cantar.`
+        },
+        {
+          id: 'why-useful',
+          title: 'Почему это удобно?',
+          content: `## Почему это удобно?
+
+Эта конструкция делает вашу речь более динамичной и «испанской». Вместо сложного предложения с союзом **que** (например: *Veo que tú cruzas la calle*), вы используете лаконичное: *Te veo cruzar la calle*.
+
+Это придает языку естественность и экономит слова, что особенно ценится в разговорной речи.`
+        }
+      ]
+    },
+    vocabulary: [],
+    exercises: []
+  },
+
+  // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
 
   'lesson-17-1': {
     id: 'lesson-17-1',
@@ -14174,107 +14243,8 @@ export const exercises = {
       { word: 'adiós', options: ['[адиос]', '[адиос]', '[адьос]', '[адьёс]'], correct: 0 }
     ]
   },
-  'ex-1-1-3': {
-    id: 'ex-1-1-3',
-    type: 'reading',
-    title: 'Чтение',
-    description: 'Прочитайте диалог и ответьте на вопросы',
-    audio: '/audio/lesson-1-1-reading.mp3',
-    text: `
-Pedro: ¡Hola! Buenos días. ¿Qué tal?
-Ana: Bien, gracias. ¿Y tú?
-Pedro: Todo va bien. ¿Qué tal la familia?
-Ana: Más o menos bien, gracias. Mi madre está enferma, pero no es grave.
-Pedro: Lo siento mucho. Me alegro de que no sea grave.
-Ana: Gracias por preguntar. ¿Y tu familia?
-Pedro: Todos están bien, gracias. Mi hermano vive en Madrid ahora.
-Ana: ¡Qué bien! ¿Le gusta Madrid?
-Pedro: Sí, le encanta. Trabaja en una empresa española.
-Ana: Perfecto. Bueno, tengo que irme.
-Pedro: Claro. ¡Hasta luego!
-Ana: ¡Adiós! Que tengas un buen día.
-Pedro: Igualmente. Muchas gracias.
-    `,
-    questions: [
-      {
-        question: 'Кто приветствует первым?',
-        options: ['Ана', 'Педро', 'Оба', 'Никто'],
-        correct: 1
-      },
-      {
-        question: 'Какое время суток?',
-        options: ['Утро', 'День', 'Вечер', 'Ночь'],
-        correct: 0
-      },
-      {
-        question: 'Как дела у семьи Аны?',
-        options: ['Очень хорошо', 'Более или менее хорошо', 'Плохо', 'Отлично'],
-        correct: 1
-      },
-      {
-        question: 'Кто болен?',
-        options: ['Мать Аны', 'Отец Педро', 'Брат Педро', 'Ана'],
-        correct: 0
-      },
-      {
-        question: 'Насколько серьезна болезнь?',
-        options: ['Очень серьезно', 'Не серьезно', 'Критически', 'Неизвестно'],
-        correct: 1
-      },
-      {
-        question: 'Где сейчас живет брат Педро?',
-        options: ['В Барселоне', 'В Мадриде', 'В Валенсии', 'В Севилье'],
-        correct: 1
-      },
-      {
-        question: 'Как брат Педро относится к Мадриду?',
-        options: ['Не нравится', 'Так себе', 'Нравится', 'Очень нравится'],
-        correct: 3
-      },
-      {
-        question: 'Где работает брат Педро?',
-        options: ['В русской компании', 'В испанской компании', 'В банке', 'В школе'],
-        correct: 1
-      },
-      {
-        question: 'Кто должен уйти?',
-        options: ['Педро', 'Ана', 'Оба', 'Никто'],
-        correct: 1
-      },
-      {
-        question: 'Как Педро прощается?',
-        options: ['Adiós', 'Hasta luego', 'Buenos días', 'Buenas noches'],
-        correct: 1
-      },
-      {
-        question: 'Что Ана желает Педро?',
-        options: ['Спокойной ночи', 'Хорошего дня', 'Удачи', 'Ничего не желает'],
-        correct: 1
-      },
-      {
-        question: 'Что отвечает Педро на пожелание Аны?',
-        options: ['De nada', 'Gracias', 'Igualmente', 'Perdón'],
-        correct: 2
-      },
-      {
-        question: 'Сколько раз упоминается слово "gracias" в диалоге?',
-        options: ['Один раз', 'Два раза', 'Три раза', 'Четыре раза'],
-        correct: 3
-      },
-      {
-        question: 'Кто первым спрашивает о семье?',
-        options: ['Ана', 'Педро', 'Никто', 'Оба одновременно'],
-        correct: 1
-      },
-      {
-        question: 'Какое общее настроение диалога?',
-        options: ['Грустное', 'Дружелюбное', 'Формальное', 'Напряженное'],
-        correct: 1
-      }
-    ]
-  },
-  'ex-1-1-4': {
-    id: 'ex-1-1-4',
+  'ex-1-1-2': {
+    id: 'ex-1-1-2',
     type: 'writing',
     title: 'Письмо',
     description: 'Переведите на испанский',
@@ -23175,8 +23145,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
 
 // ===== ИНТЕГРИРОВАННЫЕ УПРАЖНЕНИЯ В УРОКИ =====
 
-  'ex-1-1-5-syn': {
-    id: 'ex-1-1-5-syn',
+  'ex-1-1-3': {
+    id: 'ex-1-1-3',
     type: 'synonyms',
     title: 'Синонимы приветствий',
     description: 'Выберите правильный ответ',
@@ -23199,8 +23169,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     ]
   },
 
-  'ex-1-1-6-ctx': {
-    id: 'ex-1-1-6-ctx',
+  'ex-1-1-4': {
+    id: 'ex-1-1-4',
     type: 'context',
     title: 'Приветствия в контексте',
     description: 'Выберите подходящее приветствие или фразу для каждой ситуации. Обратите внимание на время суток и контекст общения.',
