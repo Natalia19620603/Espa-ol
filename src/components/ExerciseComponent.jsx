@@ -357,6 +357,25 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           )}
           {exercise.type === 'audio-comprehension' && (
             <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+              {exercise.text && (
+                <div style={{
+                  backgroundColor: exercise.backgroundColor || '#f5f5f5',
+                  padding: '20px',
+                  borderRadius: '8px',
+                  marginBottom: '20px',
+                  maxHeight: '400px',
+                  overflowY: 'auto'
+                }}>
+                  <div style={{
+                    fontSize: '16px',
+                    lineHeight: '1.8',
+                    color: '#333',
+                    whiteSpace: 'pre-wrap'
+                  }}>
+                    {exercise.text}
+                  </div>
+                </div>
+              )}
               <div style={{
                 backgroundColor: exercise.backgroundColor || '#f5f5f5',
                 padding: '20px',
