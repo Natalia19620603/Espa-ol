@@ -10280,7 +10280,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       sections: []
     },
     vocabulary: [],
-    exercises: ['ex-8-4-1', 'ex-8-4-2', 'ex-8-4-3', 'ex-8-4-4', 'ex-8-4-5', 'ex-8-4-6', 'ex-8-4-7', 'ex-8-4-9', 'ex-8-4-10', 'ex-8-4-11', 'ex-8-4-12']
+    exercises: ['ex-8-4-1', 'ex-8-4-2', 'ex-8-4-3', 'ex-8-4-4', 'ex-8-4-5', 'ex-8-4-6', 'ex-8-4-7', 'ex-8-4-8', 'ex-8-4-9', 'ex-8-4-10', 'ex-8-4-11', 'ex-8-4-12']
   },
 
   // ============ МОДУЛЬ 9: СПОРТ. VOZ PASIVA (СТРАДАТЕЛЬНЫЙ ЗАЛОГ) ============
@@ -20340,9 +20340,10 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
 
   'ex-8-4-5': {
     id: 'ex-8-4-5',
-    type: 'reading-comprehension',
+    type: 'audio-comprehension',
     title: 'Упражнение 5: Чтение - Путешествие в Нью-Йорк',
     description: 'Прочитайте текст и ответьте на вопросы',
+    backgroundColor: '#E3F2FD',
     text: `Paloma viaja a Nueva York
 
 Nunca olvidaré cómo empezó mi viaje a Nueva York. Llegué al aeropuerto de Barajas y facturé mi equipaje. Estaba haciendo mis últimas compras mientras esperaba para embarcar, cuando, de repente, me di cuenta de que había perdido mi tarjeta de embarque.
@@ -20377,9 +20378,10 @@ El resto del viaje fue fantástico. Disfruté de unos días maravillosos en Nuev
 
   'ex-8-4-6': {
     id: 'ex-8-4-6',
-    type: 'reading-comprehension',
+    type: 'audio-comprehension',
     title: 'Упражнение 6: Рецепт - Борщ московский',
     description: 'Прочитайте рецепт и ответьте на вопросы',
+    backgroundColor: '#E8F5E9',
     text: `Борщ московский
 
 **Ингредиенты на 6 человек:**
@@ -20422,9 +20424,10 @@ El resto del viaje fue fantástico. Disfruté de unos días maravillosos en Nuev
 
   'ex-8-4-7': {
     id: 'ex-8-4-7',
-    type: 'reading-comprehension',
+    type: 'audio-comprehension',
     title: 'Упражнение 7: Чтение - ¿Te apetece ir de compras?',
     description: 'Прочитайте текст и ответьте на вопросы',
+    backgroundColor: '#FFF9C4',
     text: `¿Te apetece ir de compras?
 
 Para algunas personas el ir de compras es un placer, mientras que para otras se convierte en un auténtico suplicio. ¿Se encuentra usted entre alguna de ellas? Cuatro ciudadanos nos han contestado a esta pregunta.
@@ -20587,21 +20590,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Упражнение 1: Трансформация в пассив (15 фраз)',
     description: 'Измените предложения по образцу: Anita ha preparado la tortilla → La tortilla ha sido preparada por Anita',
     questions: [
-      { active: 'Anita ha preparado la tortilla.', passive: 'La tortilla ha sido preparada por Anita.' },
-      { active: 'Carlos tradujo la carta.', passive: 'La carta fue traducida por Carlos.' },
-      { active: 'El doctor Sánchez ha hecho esta operación.', passive: 'Esta operación ha sido hecha por el doctor Sánchez.' },
-      { active: 'En verano mis amigos alquilarán una casa de campo.', passive: 'En verano una casa de campo será alquilada por mis amigos.' },
-      { active: 'El gato rompió el florero.', passive: 'El florero fue roto por el gato.' },
-      { active: 'Los hijos pondrán la mesa.', passive: 'La mesa será puesta por los hijos.' },
-      { active: 'La secretaria ha contado este chiste por la mañana.', passive: 'Este chiste ha sido contado por la secretaria por la mañana.' },
-      { active: 'Colón descubrió América en el año 1492.', passive: 'América fue descubierta por Colón en el año 1492.' },
-      { active: 'Cervantes escribió la novela Don Quijote en el año 1615.', passive: 'La novela Don Quijote fue escrita por Cervantes en el año 1615.' },
-      { active: 'Ayer nosotros pusimos en orden todos los documentos.', passive: 'Ayer todos los documentos fueron puestos en orden por nosotros.' },
-      { active: 'Tú has elegido estos zapatos rojos de tacón para mí.', passive: 'Estos zapatos rojos de tacón han sido elegidos por ti para mí.' },
-      { active: 'El entrenador preparó al equipo para el campeonato.', passive: 'El equipo fue preparado por el entrenador para el campeonato.' },
-      { active: 'Los periodistas entrevistarán al jugador mañana.', passive: 'El jugador será entrevistado por los periodistas mañana.' },
-      { active: 'El árbitro ha cancelado el partido.', passive: 'El partido ha sido cancelado por el árbitro.' },
-      { active: 'Los aficionados comprarán las entradas esta semana.', passive: 'Las entradas serán compradas por los aficionados esta semana.' }
+      { sentence: 'Anita ha preparado la tortilla.', correct: 'la tortilla ha sido preparada por anita' },
+      { sentence: 'Carlos tradujo la carta.', correct: 'la carta fue traducida por carlos' },
+      { sentence: 'El doctor Sánchez ha hecho esta operación.', correct: 'esta operación ha sido hecha por el doctor sánchez' },
+      { sentence: 'En verano mis amigos alquilarán una casa de campo.', correct: 'en verano una casa de campo será alquilada por mis amigos' },
+      { sentence: 'El gato rompió el florero.', correct: 'el florero fue roto por el gato' },
+      { sentence: 'Los hijos pondrán la mesa.', correct: 'la mesa será puesta por los hijos' },
+      { sentence: 'La secretaria ha contado este chiste por la mañana.', correct: 'este chiste ha sido contado por la secretaria por la mañana' },
+      { sentence: 'Colón descubrió América en el año 1492.', correct: 'américa fue descubierta por colón en el año 1492' },
+      { sentence: 'Cervantes escribió la novela Don Quijote en el año 1615.', correct: 'la novela don quijote fue escrita por cervantes en el año 1615' },
+      { sentence: 'Ayer nosotros pusimos en orden todos los documentos.', correct: 'ayer todos los documentos fueron puestos en orden por nosotros' },
+      { sentence: 'Tú has elegido estos zapatos rojos de tacón para mí.', correct: 'estos zapatos rojos de tacón han sido elegidos por ti para mí' },
+      { sentence: 'El entrenador preparó al equipo para el campeonato.', correct: 'el equipo fue preparado por el entrenador para el campeonato' },
+      { sentence: 'Los periodistas entrevistarán al jugador mañana.', correct: 'el jugador será entrevistado por los periodistas mañana' },
+      { sentence: 'El árbitro ha cancelado el partido.', correct: 'el partido ha sido cancelado por el árbitro' },
+      { sentence: 'Los aficionados comprarán las entradas esta semana.', correct: 'las entradas serán compradas por los aficionados esta semana' }
     ]
   },
 
