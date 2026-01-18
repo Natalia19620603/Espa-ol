@@ -9294,71 +9294,181 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'pista f', translation: '(зд.) трасса', audioUrl: null }
     ],
     readingText: {
-      title: 'Planes para el futuro',
-      content: `María está en su último año de universidad y piensa mucho en su futuro. Tiene muchos planes, pero también muchas dudas. "Si **consigo** el trabajo en Barcelona, **me mudaré** allí inmediatamente", piensa. "Pero si no me **aceptan**, **buscaré** otras opciones en Madrid o Valencia".
+      title: 'Diálogos',
+      dialogs: [
+        {
+          title: 'Diálogo 1: Планируя отпуск',
+          content: `**Carlos:** Ana, ¿ya pensaste adónde irás de vacaciones este verano?
 
-Su mejor amiga Laura le da consejos: "Si **quieres** ese trabajo, **prepara** bien la entrevista. Si **estudias** sobre la empresa, **causarás** buena impresión. Y si no **funciona**, no **te preocupes**: siempre hay otras oportunidades".
+**Ana:** Todavía no lo sé. Si **consigo** más días libres, **viajaré** al extranjero. Siempre he querido hacer un viaje exótico.
 
-María sabe que tiene razón. "Si **trabajo** duro, **tendré** éxito", se repite a sí misma. "Y si las cosas no **salen** como planeo, **aprenderé** de la experiencia".
+**Carlos:** ¿Qué tipo de turismo te gusta más?
 
-Mientras tanto, María también piensa en su vida personal. "Si **me mudo** a Barcelona, **estaré** lejos de mi familia", reflexiona. "Pero si **me quedo** aquí, quizás **pierda** esta gran oportunidad profesional".
+**Ana:** Me encanta el **senderismo**. Si **voy** a las **montañas**, **haré** rutas por los **paisajes** más bonitos. ¿Y tú?
 
-Su madre le dice: "Hija, si **tomas** esta decisión, te **apoyaremos** completamente. Si **necesitas** volver a casa, siempre **tendrás** un lugar aquí. Y si **decides** quedarte en Barcelona, **iremos** a visitarte seguido".
+**Carlos:** Yo prefiero el **esquí**. Si **nieva** bien este invierno, **iré** a una **estación de esquí** en los Alpes. Si **encuentro** buenas ofertas, **reservaré** un hotel cerca de las **pistas**.
 
-El día de la entrevista llega. María está nerviosa. "Si **respondo** bien las preguntas, **tengo** posibilidades", piensa. "Si me **olvido** de algo, **será** terrible". Pero cuando entra en la oficina, se siente más tranquila.
+**Ana:** ¡Qué interesante! Yo también pensaba en algo diferente. Si mi jefe me **concede** dos semanas de vacaciones, **realizaré** mi sueño: un **crucero** por el Mediterráneo.
 
-El entrevistador es amable. "Si **tiene** alguna pregunta, **hágala** sin problema", le dice. María pregunta sobre el puesto, las responsabilidades, las oportunidades de crecimiento. La entrevista va muy bien.
+**Carlos:** ¡Suena genial! ¿Ya tienes el **itinerario**?
 
-Después de la entrevista, María llama a Laura: "¡Creo que fue bien! Si me **llaman** la próxima semana, **significa** que estoy en la segunda fase. Si no me **contactan**, **sabré** que no me eligieron".
+**Ana:** Todavía no. Si **reservo** el crucero, **pasaré** por varias **islas**. Si el tiempo **está** bueno, **visitaré** playas y **balnearios**.
 
-Pasan tres días. María revisa su correo constantemente. "Si **llega** un email hoy, **lo abriré** inmediatamente", piensa. "Si no **recibo** noticias esta semana, **llamaré** para preguntar".
+**Carlos:** Si **quieres** un viaje de **aventura**, deberías ir a acampar. Si **llevas** tu **tienda de campaña** y tu **mochila**, podrás ir a cualquier lugar.
 
-El viernes por la tarde, su teléfono suena. Es un número de Barcelona. "Hola María, si **todavía está** interesada en el puesto, **nos gustaría** invitarla a una segunda entrevista".
+**Ana:** No sé... Si **voy** sola al **campamento**, me sentiré aburrida. Además, prefiero la comodidad.
 
-¡Sí! María está emocionada. "Si **voy** a la segunda entrevista, **daré** lo mejor de mí", decide. "Y si **me ofrecen** el trabajo, **lo aceptaré** sin dudarlo".
+**Carlos:** Entonces un **viaje de placer** es perfecto para ti. Si **te alojas** en buenos hoteles, **descansarás** muy bien.
 
-Laura la felicita: "¡Sabía que lo **conseguirías**! Si **sigues** así, **llegarás** muy lejos. Y cuando **empieces** el trabajo, **celebraremos** juntas".
+**Ana:** Tienes razón. Si **ahorro** suficiente dinero este mes, **compraré** los billetes pronto. Si **logro** viajar en julio, **evitaré** las multitudes de agosto.
 
-Ahora María tiene que prepararse para la segunda entrevista. "Si **estudio** más sobre la empresa, **estaré** mejor preparada", piensa. "Si **practico** mis respuestas, **me sentiré** más segura. Y si **soy** yo misma, **será** suficiente".
+**Carlos:** Muy buena idea. Y si **necesitas** ayuda con el **itinerario**, yo te ayudo. Tengo experiencia como **viajero**.
 
-Su padre también le da un consejo: "Hija, si **crees** en ti misma, los demás también **creerán** en ti. Si **vas** con confianza, **transmitirás** profesionalismo. Y recuerda: si esta oportunidad no **funciona**, **habrá** otras".
+**Ana:** ¡Perfecto! Si me **ayudas** a planear, **compraré** algunos **recuerdos** para ti del viaje.
 
-La noche antes de la segunda entrevista, María reflexiona: "Si **duermo** bien esta noche, **estaré** descansada mañana. Si **me levanto** temprano, **tendré** tiempo para prepararme bien. Y si **todo sale** bien, mañana a esta hora quizás **tendré** un nuevo trabajo".
+**Carlos:** ¡Trato hecho! Y si **apruebo** mi examen final, **me uniré** a ti en el viaje.
 
-Mañana sabrá el resultado. Pero una cosa es segura: si María **sigue** trabajando duro y **cree** en sí misma, **tendrá** éxito en cualquier camino que elija.`,
-      translation: `Мария на последнем курсе университета и много думает о будущем. У неё много планов, но также много сомнений. "Если я получу работу в Барселоне, я переезжу туда немедленно", думает она. "Но если меня не примут, буду искать другие варианты в Мадриде или Валенсии".
+**Ana:** ¿En serio? Si **vienes** conmigo, será mucho más divertido. Podríamos hacer un **viaje de aventura** juntos.
 
-Её лучшая подруга Лаура даёт ей советы: "Если ты хочешь эту работу, хорошо подготовься к собеседованию. Если ты изучишь информацию о компании, произведёшь хорошее впечатление. А если не получится, не волнуйся: всегда есть другие возможности".
+**Carlos:** Si **tenemos** tiempo, también podríamos hacer un poco de **senderismo** en las montañas. Si el clima **permite**, **veremos** paisajes increíbles.
 
-Мария знает, что она права. "Если я буду усердно работать, у меня будет успех", повторяет она себе. "А если всё пойдёт не по плану, я научусь на этом опыте".
+**Ana:** Me parece excelente. Si **planeamos** bien, **lograremos** hacer todo lo que queremos.`,
+          translation: `**Карлос:** Ана, ты уже подумала, куда поедешь в отпуск этим летом?
 
-Тем временем Мария также думает о личной жизни. "Если я переезжу в Барселону, буду далеко от семьи", размышляет она. "Но если останусь здесь, возможно упущу эту большую профессиональную возможность".
+**Ана:** Ещё не знаю. Если я получу больше выходных дней, поеду за границу. Я всегда хотела совершить экзотическое путешествие.
 
-Её мать говорит ей: "Дочка, если ты примешь это решение, мы полностью тебя поддержим. Если тебе нужно будет вернуться домой, у тебя всегда будет место здесь. А если решишь остаться в Барселоне, мы будем приезжать в гости часто".
+**Карлос:** Какой вид туризма тебе нравится больше?
 
-Наступает день собеседования. Мария нервничает. "Если я хорошо отвечу на вопросы, у меня есть шансы", думает она. "Если что-то забуду, будет ужасно". Но когда она входит в офис, чувствует себя спокойнее.
+**Ана:** Мне очень нравится пеший туризм. Если я поеду в горы, буду ходить по маршрутам через самые красивые пейзажи. А ты?
 
-Интервьюер приветливый. "Если у вас есть какой-либо вопрос, задавайте без проблем", говорит он ей. Мария спрашивает о должности, обязанностях, возможностях роста. Собеседование проходит очень хорошо.
+**Карлос:** Я предпочитаю лыжи. Если хорошо будет снег этой зимой, поеду на горнолыжный курорт в Альпы. Если найду хорошие предложения, забронирую отель рядом с трассами.
 
-После собеседования Мария звонит Лауре: "Думаю, всё прошло хорошо! Если мне позвонят на следующей неделе, значит я во второй фазе. Если не свяжутся, буду знать, что меня не выбрали".
+**Ана:** Как интересно! Я тоже думала о чём-то другом. Если мой начальник предоставит мне две недели отпуска, осуществлю свою мечту: круиз по Средиземному морю.
 
-Проходит три дня. Мария постоянно проверяет почту. "Если придёт письмо сегодня, открою его немедленно", думает она. "Если не получу новостей на этой неделе, позвоню, чтобы узнать".
+**Карлос:** Звучит здорово! У тебя уже есть маршрут?
 
-В пятницу вечером звонит телефон. Это номер из Барселоны. "Здравствуйте, Мария, если вы всё ещё заинтересованы в должности, мы бы хотели пригласить вас на второе собеседование".
+**Ана:** Пока нет. Если забронирую круиз, буду проезжать через несколько островов. Если погода будет хорошая, посещу пляжи и курорты.
 
-Да! Мария в восторге. "Если пойду на второе собеседование, сделаю всё возможное", решает она. "А если мне предложат работу, приму без колебаний".
+**Карлос:** Если хочешь приключенческое путешествие, тебе стоит поехать в кемпинг. Если возьмёшь свою палатку и рюкзак, сможешь поехать куда угодно.
 
-Лаура её поздравляет: "Я знала, что ты справишься! Если продолжишь в том же духе, зайдёшь далеко. А когда начнёшь работу, отпразднуем вместе".
+**Ана:** Не знаю... Если поеду одна в лагерь, буду скучать. К тому же, я предпочитаю комфорт.
 
-Теперь Марии нужно готовиться ко второму собеседованию. "Если изучу больше информации о компании, буду лучше подготовлена", думает она. "Если попрактикуюсь в ответах, буду чувствовать себя увереннее. А если буду сама собой, этого будет достаточно".
+**Карлос:** Тогда развлекательная поездка идеально тебе подходит. Если остановишься в хороших отелях, очень хорошо отдохнёшь.
 
-Её отец также даёт ей совет: "Дочка, если ты веришь в себя, другие тоже поверят в тебя. Если пойдёшь с уверенностью, будешь излучать профессионализм. И помни: если эта возможность не сработает, будут другие".
+**Ана:** Ты прав. Если накоплю достаточно денег в этом месяце, куплю билеты скоро. Если мне удастся поехать в июле, избегу толп августа.
 
-Ночью перед вторым собеседованием Мария размышляет: "Если хорошо высплюсь сегодня, завтра буду отдохнувшей. Если встану рано, будет время хорошо подготовиться. А если всё пройдёт хорошо, завтра в это время возможно у меня будет новая работа".
+**Карлос:** Очень хорошая идея. И если нужна помощь с маршрутом, я помогу тебе. У меня есть опыт как путешественника.
 
-Завтра она узнает результат. Но одно точно: если Мария продолжит усердно работать и верить в себя, она добьётся успеха на любом пути, который выберет.`
+**Ана:** Отлично! Если поможешь мне спланировать, куплю тебе несколько сувениров из поездки.
+
+**Карлос:** Договорились! И если сдам свой выпускной экзамен, присоединюсь к тебе в поездке.
+
+**Ана:** Серьёзно? Если поедешь со мной, будет гораздо веселее. Мы могли бы вместе совершить приключенческое путешествие.
+
+**Карлос:** Если у нас будет время, мы также могли бы немного походить по горам. Если климат позволит, увидим невероятные пейзажи.
+
+**Ана:** Мне кажется отлично. Если хорошо спланируем, добьёмся сделать всё, что хотим.`
+        },
+        {
+          title: 'Diálogo 2: En la agencia de viajes',
+          content: `**Agente:** Buenos días. ¿En qué puedo ayudarle?
+
+**Cliente:** Buenos días. Estoy buscando un paquete de viaje para mis vacaciones. Si **encuentro** algo bueno, **lo reservaré** hoy mismo.
+
+**Agente:** Perfecto. ¿Qué tipo de viaje le interesa?
+
+**Cliente:** Me gustaría ir a un lugar exótico. Si el precio **es** razonable, **elegiré** un destino en el extranjero.
+
+**Agente:** Tenemos varias opciones. Si le **gustan** las playas, tenemos ofertas a islas tropicales. Si prefiere la **aventura**, tenemos paquetes de **senderismo** en la Patagonia.
+
+**Cliente:** La aventura suena bien. ¿Qué incluye el paquete?
+
+**Agente:** Si **reserva** el paquete completo, incluye vuelos, **alojamiento** en campamentos, guías, y todo el equipo necesario como **mochilas** y **tiendas de campaña**.
+
+**Cliente:** ¿Y si prefiero algo más cómodo? No soy muy fanático de dormir en tiendas.
+
+**Agente:** Entiendo. Si **quiere** comodidad, puedo ofrecerle un **crucero** por el Caribe. Si **viaja** en crucero, **visitará** varias islas y **verá** paisajes espectaculares desde el barco.
+
+**Cliente:** ¿El crucero tiene **intérprete**? Mi español es básico.
+
+**Agente:** Sí, todos nuestros cruceros tienen intérpretes. Si **necesita** traducción, siempre **habrá** alguien disponible.
+
+**Cliente:** Excelente. ¿Y qué pasa con el **itinerario**?
+
+**Agente:** Si **elige** el crucero de 10 días, **recorrerá** 6 islas diferentes. Si el clima **permite**, también **podrá** hacer excursiones de **senderismo** en algunas islas.
+
+**Cliente:** ¿Hay descuentos si viajo con mi esposa? Pensamos hacer nuestro **viaje de novios**.
+
+**Agente:** ¡Felicitaciones! Sí, si **reservan** juntos, **obtendrán** un 20% de descuento. Si **pagan** antes del viernes, **recibirán** un upgrade gratuito a cabina superior.
+
+**Cliente:** ¡Qué bien! ¿Y si queremos comprar **recuerdos** durante el viaje?
+
+**Agente:** Si **bajan** del barco en cada puerto, **encontrarán** muchas tiendas locales. Si **compran** artesanías, **conseguirán** recuerdos únicos.
+
+**Cliente:** Perfecto. Una última pregunta: ¿qué pasa si necesitamos cancelar?
+
+**Agente:** Si **cancelan** con más de 30 días de anticipación, **recibirán** un reembolso del 90%. Si **cancelan** después, solo **recuperarán** el 50%.
+
+**Cliente:** Entendido. Creo que voy a hablar con mi esposa. Si ella **está** de acuerdo, **volveré** esta tarde para reservar.
+
+**Agente:** Perfecto. Si **deciden** reservar hoy, **puedo** garantizar estos precios. Si **esperan** hasta mañana, los precios **podrían** cambiar.
+
+**Cliente:** Entonces vendré en dos horas. Si **logramos** decidir rápido, **reservaremos** hoy mismo.
+
+**Agente:** Excelente. Si **necesita** más información mientras tanto, **puede** llamarme a este número. Si **tiene** alguna duda, **estaré** encantado de ayudarle.
+
+**Cliente:** Muchas gracias por su ayuda. Si todo **sale** bien, ¡nos vemos esta tarde!`,
+          translation: `**Агент:** Доброе утро. Чем могу вам помочь?
+
+**Клиент:** Доброе утро. Я ищу туристический пакет для своего отпуска. Если найду что-то хорошее, забронирую сегодня же.
+
+**Агент:** Отлично. Какой вид путешествия вас интересует?
+
+**Клиент:** Мне бы хотелось поехать в экзотическое место. Если цена будет разумной, выберу направление за границу.
+
+**Агент:** У нас есть несколько вариантов. Если вам нравятся пляжи, у нас есть предложения на тропические острова. Если предпочитаете приключения, у нас есть пакеты пешего туризма в Патагонии.
+
+**Клиент:** Приключение звучит хорошо. Что включает пакет?
+
+**Агент:** Если забронируете полный пакет, включены перелёты, размещение в лагерях, гиды и всё необходимое снаряжение, такое как рюкзаки и палатки.
+
+**Клиент:** А если я предпочитаю что-то более комфортное? Я не большой фанат ночёвок в палатках.
+
+**Агент:** Понимаю. Если хотите комфорт, могу предложить вам круиз по Карибам. Если будете путешествовать на круизе, посетите несколько островов и увидите захватывающие пейзажи с корабля.
+
+**Клиент:** На круизе есть переводчик? Мой испанский базовый.
+
+**Агент:** Да, на всех наших круизах есть переводчики. Если нужен перевод, всегда будет кто-то доступен.
+
+**Клиент:** Отлично. А как насчёт маршрута?
+
+**Агент:** Если выберете 10-дневный круиз, объедете 6 разных островов. Если климат позволит, также сможете совершить экскурсии пешего туризма на некоторых островах.
+
+**Клиент:** Есть ли скидки, если я поеду с женой? Мы думаем совершить наше свадебное путешествие.
+
+**Агент:** Поздравляю! Да, если забронируете вместе, получите скидку 20%. Если оплатите до пятницы, получите бесплатное обновление до каюты высшего класса.
+
+**Клиент:** Как хорошо! А если мы захотим купить сувениры во время поездки?
+
+**Агент:** Если сойдёте с корабля в каждом порту, найдёте много местных магазинов. Если купите изделия ручной работы, получите уникальные сувениры.
+
+**Клиент:** Отлично. Последний вопрос: что будет, если нам нужно отменить?
+
+**Агент:** Если отмените более чем за 30 дней, получите возврат 90%. Если отмените позже, вернёте только 50%.
+
+**Клиент:** Понятно. Думаю, я поговорю с женой. Если она будет согласна, вернусь сегодня вечером, чтобы забронировать.
+
+**Агент:** Отлично. Если решите забронировать сегодня, могу гарантировать эти цены. Если подождёте до завтра, цены могут измениться.
+
+**Клиент:** Тогда приду через два часа. Если нам удастся быстро решить, забронируем сегодня же.
+
+**Агент:** Отлично. Если понадобится больше информации тем временем, можете позвонить мне по этому номеру. Если будут какие-либо вопросы, буду рад помочь.
+
+**Клиент:** Большое спасибо за помощь. Если всё пройдёт хорошо, увидимся сегодня вечером!`
+        }
+      ]
     },
-    exercises: ['ex-8-1-1', 'ex-8-1-2', 'ex-8-1-3', 'ex-8-1-4', 'ex-8-1-5']
+    exercises: ['ex-8-1-1', 'ex-8-1-2', 'ex-8-1-3', 'ex-8-1-4', 'ex-8-1-5', 'ex-8-1-6', 'ex-8-1-7']
   },
 
   'lesson-8-2': {
@@ -19130,6 +19240,52 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
       { russian: 'Если ты придешь, поговорим', correct: 'si vienes hablaremos' },
       { russian: 'Если увидишь Анну, передай привет', correct: 'si ves a ana dale recuerdos' },
       { russian: 'Если буду свободен, позвоню', correct: 'si estoy libre llamaré' }
+    ]
+  },
+  'ex-8-1-6': {
+    id: 'ex-8-1-6',
+    type: 'fillblank',
+    title: 'Практика лексики урока: 15 фраз',
+    description: 'Вставьте правильное слово из словаря урока',
+    questions: [
+      { sentence: 'Si apruebo el examen, mi profesor me ___ (предоставит) vacaciones extras.', correct: 'concederá' },
+      { sentence: 'Si vamos al ___ (курорт), podremos descansar muy bien.', correct: 'balneario' },
+      { sentence: 'Si conseguimos días libres, ___ (будем проводить лето) en la costa.', correct: 'veranearemos' },
+      { sentence: 'Si viajo al extranjero, compraré muchos ___ (сувениры).', correct: 'recuerdos' },
+      { sentence: 'Si hago un viaje de ___ (приключение), llevaré mi mochila grande.', correct: 'aventura' },
+      { sentence: 'Si vamos de camping, necesitaremos una ___ (палатка).', correct: 'tienda de campaña' },
+      { sentence: 'Si viajo en ___ (круиз), visitaré muchas islas.', correct: 'crucero' },
+      { sentence: 'Si voy a la ___ (гора), haré senderismo.', correct: 'montaña' },
+      { sentence: 'Si visito una isla ___ (необитаемый), será una gran aventura.', correct: 'deshabitada' },
+      { sentence: 'Si planificamos bien el ___ (маршрут), veremos todos los lugares importantes.', correct: 'itinerario' },
+      { sentence: 'Si nieva mucho, iremos a la ___ (горнолыжный курорт).', correct: 'estación de esquí' },
+      { sentence: 'Si practicas mucho, ___ (добьёшься) ser un buen esquiador.', correct: 'lograrás' },
+      { sentence: 'Si trabajas duro, ___ (достигнешь) tus objetivos.', correct: 'conseguirás' },
+      { sentence: 'Si estudias, ___ (сдашь) todos los exámenes.', correct: 'aprobarás' },
+      { sentence: 'Si el ___ (пейзаж) es bonito, tomaré muchas fotos.', correct: 'paisaje' }
+    ]
+  },
+  'ex-8-1-7': {
+    id: 'ex-8-1-7',
+    type: 'writing',
+    title: 'Перевод с русского на испанский: Лексика урока',
+    description: 'Переведите фразы на испанский, используя слова из словаря урока',
+    questions: [
+      { russian: 'Если я поеду на курорт, буду отдыхать на пляже', correct: 'si voy al balneario descansaré en la playa' },
+      { russian: 'Если мы поедем в горы, увидим красивые пейзажи', correct: 'si vamos a las montañas veremos paisajes bonitos' },
+      { russian: 'Если он получит отпуск, совершит путешествие за границу', correct: 'si consigue vacaciones hará un viaje al extranjero' },
+      { russian: 'Если ты купишь рюкзак, сможешь путешествовать', correct: 'si compras una mochila podrás viajar' },
+      { russian: 'Если они поедут на круизе, посетят много островов', correct: 'si viajan en crucero visitarán muchas islas' },
+      { russian: 'Если я сдам экзамен, поеду в приключенческое путешествие', correct: 'si apruebo el examen iré de viaje de aventura' },
+      { russian: 'Если вы возьмёте палатку, сможете ночевать в лесу', correct: 'si lleváis tienda de campaña podréis dormir en el bosque' },
+      { russian: 'Если будет хорошая погода, пойдём в поход', correct: 'si hace buen tiempo iremos de senderismo' },
+      { russian: 'Если найдём хороший маршрут, поедем в горы', correct: 'si encontramos un buen itinerario iremos a las montañas' },
+      { russian: 'Если она добьётся своей цели, будет очень счастлива', correct: 'si logra su objetivo estará muy feliz' },
+      { russian: 'Если зимой будет снег, поедем на горнолыжный курорт', correct: 'si nieva en invierno iremos a la estación de esquí' },
+      { russian: 'Если мы поедем за границу, купим экзотические сувениры', correct: 'si vamos al extranjero compraremos recuerdos exóticos' },
+      { russian: 'Если ты будешь проводить лето на побережье, встретишь много отдыхающих', correct: 'si veraneas en la costa conocerás a muchos veraneantes' },
+      { russian: 'Если они осуществят свой план, посетят необитаемый остров', correct: 'si realizan su plan visitarán una isla deshabitada' },
+      { russian: 'Если я провалю экзамен, не получу отпуск', correct: 'si suspendo el examen no conseguiré vacaciones' }
     ]
   },
 
