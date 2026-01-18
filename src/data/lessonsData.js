@@ -11,7 +11,7 @@ export const courseLevels = [
     id: 'elementary',
     name: 'Базовый уровень (A2)',
     description: 'Развитие базовых навыков',
-    modules: ['module-6', 'module-7', 'module-8']
+    modules: ['module-6', 'module-7', 'module-8', 'module-9']
   },
   {
     id: 'intermediate',
@@ -85,6 +85,13 @@ export const modules = {
     level: 'elementary',
     lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3', 'lesson-8-4'],
     description: 'Условные предложения I типа, Potencial simple, согласование времен, косвенная речь'
+  },
+  'module-9': {
+    id: 'module-9',
+    title: 'Модуль 9: СПОРТ. Voz pasiva (страдательный залог). Acusativo con infinitivo. Инфинитивные конструкции',
+    level: 'elementary',
+    lessons: ['lesson-9-1'],
+    description: 'Страдательный залог (Voz Pasiva), конструкции с SE, Acusativo con infinitivo'
   },
   'module-17': {
     id: 'module-17',
@@ -10274,6 +10281,97 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     },
     vocabulary: [],
     exercises: ['ex-8-4-1', 'ex-8-4-2', 'ex-8-4-3', 'ex-8-4-4', 'ex-8-4-5', 'ex-8-4-6', 'ex-8-4-7', 'ex-8-4-9', 'ex-8-4-10', 'ex-8-4-11', 'ex-8-4-12']
+  },
+
+  // ============ МОДУЛЬ 9: СПОРТ. VOZ PASIVA (СТРАДАТЕЛЬНЫЙ ЗАЛОГ) ============
+
+  'lesson-9-1': {
+    id: 'lesson-9-1',
+    title: 'Урок 1: Страдательный залог (Voz Pasiva)',
+    moduleId: 'module-9',
+    grammar: {
+      title: 'Страдательный залог (Voz Pasiva)',
+      intro: `В испанском языке есть два способа сказать, что действие совершается над предметом.`,
+      sections: [
+        {
+          id: 'passive-with-ser',
+          title: '1. Пассивная форма с глаголом SER (Классическая)',
+          content: `## 1. Пассивная форма с глаголом SER (Классическая)
+
+Используется, когда нам важно, кто совершил действие.
+
+**Формула:** Подлежащее + SER (в любом времени) + Participio + por + Автор действия
+
+| Время | Пример | Перевод |
+|-------|--------|---------|
+| Presente | El libro es leído por el alumno. | Книга читается учеником. |
+| Indefinido | Las recetas fueron escritas por el doctor. | Рецепты были выписаны врачом. |
+| Perfecto | La carta ha sido enviada. | Письмо было отправлено. |
+
+**Важно:** Причастие (Participio) всегда согласуется в роде и числе с подлежащим:
+
+- El documento ha sido traducido (он).
+- La carta ha sido traducida (она).
+- Las cartas han sido traducidas (они).`
+        },
+        {
+          id: 'passive-with-se',
+          title: '2. Пассивная форма с SE (Pasiva Refleja)',
+          content: `## 2. Пассивная форма с SE (Pasiva Refleja)
+
+Это самый популярный вариант в разговорной и письменной речи. Используется, когда автор действия не важен или неизвестен.
+
+**Формула:** SE + Глагол в 3 лице (ед. или мн. число)
+
+**Примеры:**
+- Se alquila este apartamento. (Эта квартира сдается).
+- Se venden coches. (Продаются машины — глагол во мн. ч., так как машин много).
+- Se prohíbe fumar. (Курить запрещено).
+
+**Согласование:**
+- Если предмет один — глагол в ед. числе
+- Если предметов много — во множественном
+
+**Примеры согласования:**
+- Se vende la casa. (Продается дом - ед.ч.)
+- Se venden las casas. (Продаются дома - мн.ч.)`
+        },
+        {
+          id: 'usage-notes',
+          title: 'Важные замечания',
+          content: `## Важные замечания
+
+**Причастие в форме с SER:**
+Ведет себя как прилагательное (меняет окончание на -o/-a/-os/-as).
+
+**Употребление SE:**
+Важно помнить, что если предмет один — глагол в ед. числе, если предметов много — во множественном.
+- Se vende la casa.
+- Se venden las casas.
+
+**Естественность:**
+В испанском языке фраза "Группу туристов будет встречать гид" звучит лучше в активном залоге, но для официального объявления форма "El grupo será recibido" абсолютно правильна.`
+        }
+      ]
+    },
+    vocabulary: [
+      { spanish: 'el deporte', russian: 'спорт', example: 'El deporte es muy importante para la salud' },
+      { spanish: 'el partido', russian: 'матч', example: 'El partido fue ganado por nuestro equipo' },
+      { spanish: 'el equipo', russian: 'команда', example: 'El equipo fue entrenado por el mejor coach' },
+      { spanish: 'el jugador', russian: 'игрок', example: 'El jugador fue fichado por el club' },
+      { spanish: 'el entrenador', russian: 'тренер', example: 'El entrenador fue contratado ayer' },
+      { spanish: 'el estadio', russian: 'стадион', example: 'El estadio fue construido en 2020' },
+      { spanish: 'el campeonato', russian: 'чемпионат', example: 'El campeonato será organizado en España' },
+      { spanish: 'la medalla', russian: 'медаль', example: 'La medalla fue ganada por el atleta' },
+      { spanish: 'el récord', russian: 'рекорд', example: 'El récord fue batido ayer' },
+      { spanish: 'la competencia', russian: 'соревнование', example: 'La competencia es organizada cada año' },
+      { spanish: 'ganar', russian: 'выигрывать, побеждать', example: 'El partido fue ganado por nosotros' },
+      { spanish: 'perder', russian: 'проигрывать', example: 'El partido fue perdido por ellos' },
+      { spanish: 'entrenar', russian: 'тренировать', example: 'Los jugadores son entrenados cada día' },
+      { spanish: 'fichar', russian: 'подписывать (контракт)', example: 'El jugador fue fichado por el Real Madrid' },
+      { spanish: 'batir un récord', russian: 'побить рекорд', example: 'El récord fue batido en los Juegos Olímpicos' }
+    ],
+    exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5', 'ex-9-1-6', 'ex-9-1-7']
   },
 
   // ============ МОДУЛЬ 9: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -20478,6 +20576,176 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       { sentence: '¿Qué (hacer, tú) ___ si te tocara la lotería?', correct: 'harías' },
       { sentence: 'Cuando (terminar, yo) ___ la universidad, (buscar) ___ trabajo en el extranjero.', correct: 'termine buscaré' },
       { sentence: 'Los niños (jugar) ___ en el parque cuando (empezar) ___ a llover.', correct: 'jugaban empezó' }
+    ]
+  },
+
+  // ============ УПРАЖНЕНИЯ МОДУЛЬ 9 УРОК 1: VOZ PASIVA ============
+
+  'ex-9-1-1': {
+    id: 'ex-9-1-1',
+    type: 'transformation',
+    title: 'Упражнение 1: Трансформация в пассив (15 фраз)',
+    description: 'Измените предложения по образцу: Anita ha preparado la tortilla → La tortilla ha sido preparada por Anita',
+    questions: [
+      { active: 'Anita ha preparado la tortilla.', passive: 'La tortilla ha sido preparada por Anita.' },
+      { active: 'Carlos tradujo la carta.', passive: 'La carta fue traducida por Carlos.' },
+      { active: 'El doctor Sánchez ha hecho esta operación.', passive: 'Esta operación ha sido hecha por el doctor Sánchez.' },
+      { active: 'En verano mis amigos alquilarán una casa de campo.', passive: 'En verano una casa de campo será alquilada por mis amigos.' },
+      { active: 'El gato rompió el florero.', passive: 'El florero fue roto por el gato.' },
+      { active: 'Los hijos pondrán la mesa.', passive: 'La mesa será puesta por los hijos.' },
+      { active: 'La secretaria ha contado este chiste por la mañana.', passive: 'Este chiste ha sido contado por la secretaria por la mañana.' },
+      { active: 'Colón descubrió América en el año 1492.', passive: 'América fue descubierta por Colón en el año 1492.' },
+      { active: 'Cervantes escribió la novela Don Quijote en el año 1615.', passive: 'La novela Don Quijote fue escrita por Cervantes en el año 1615.' },
+      { active: 'Ayer nosotros pusimos en orden todos los documentos.', passive: 'Ayer todos los documentos fueron puestos en orden por nosotros.' },
+      { active: 'Tú has elegido estos zapatos rojos de tacón para mí.', passive: 'Estos zapatos rojos de tacón han sido elegidos por ti para mí.' },
+      { active: 'El entrenador preparó al equipo para el campeonato.', passive: 'El equipo fue preparado por el entrenador para el campeonato.' },
+      { active: 'Los periodistas entrevistarán al jugador mañana.', passive: 'El jugador será entrevistado por los periodistas mañana.' },
+      { active: 'El árbitro ha cancelado el partido.', passive: 'El partido ha sido cancelado por el árbitro.' },
+      { active: 'Los aficionados comprarán las entradas esta semana.', passive: 'Las entradas serán compradas por los aficionados esta semana.' }
+    ]
+  },
+
+  'ex-9-1-2': {
+    id: 'ex-9-1-2',
+    type: 'writing',
+    title: 'Упражнение 2: Перевод на испанский (15 фраз)',
+    description: 'Переведите на испанский язык',
+    questions: [
+      { russian: 'Этот дом был построен моим дедом в прошлом веке.', correct: 'esta casa fue construida por mi abuelo en el siglo pasado' },
+      { russian: 'Когда был написан роман «Война и мир»?', correct: 'cuándo fue escrita la novela guerra y paz' },
+      { russian: 'Банки в Испании закрываются в час дня.', correct: 'los bancos se cierran a la una en españa' },
+      { russian: 'Как читается это слово по-английски?', correct: 'cómo se lee esta palabra en inglés' },
+      { russian: 'Наша квартира была сдана в аренду на этой неделе.', correct: 'nuestro apartamento fue alquilado esta semana' },
+      { russian: 'Счет будет оплачен соседями через три дня.', correct: 'la cuenta será pagada por los vecinos dentro de tres días' },
+      { russian: 'Здесь курить запрещается.', correct: 'aquí se prohíbe fumar' },
+      { russian: 'Ужин в ресторане отеля подается с 19 до 22.', correct: 'la cena se sirve de 19 a 22 en el restaurante del hotel' },
+      { russian: 'Заказ был сделан клиентами 15 минут назад.', correct: 'el pedido fue hecho por los clientes hace 15 minutos' },
+      { russian: 'Новый район строится очень быстро.', correct: 'el nuevo barrio se construye muy rápido' },
+      { russian: 'Антонио не знал, как переводится это слово и не смог ответить на вопрос.', correct: 'antonio no sabía cómo se traduce esta palabra y no pudo responder a la pregunta' },
+      { russian: 'Вчера мой брат был оштрафован полицейским, потому что нарушил правила дорожного движения.', correct: 'ayer mi hermano fue multado por el policía porque violó las normas de tráfico' },
+      { russian: 'Матч был выигран нашей командой со счетом 3:1.', correct: 'el partido fue ganado por nuestro equipo con resultado 3 a 1' },
+      { russian: 'Рекорд был побит молодым спортсменом на прошлой неделе.', correct: 'el récord fue batido por el joven deportista la semana pasada' },
+      { russian: 'Билеты на финал продаются онлайн.', correct: 'las entradas para la final se venden en línea' }
+    ]
+  },
+
+  'ex-9-1-3': {
+    id: 'ex-9-1-3',
+    type: 'grammar',
+    title: 'Упражнение 3: Выбор правильной формы пассива (15 фраз)',
+    description: 'Выберите правильную форму пассивного залога',
+    questions: [
+      { sentence: 'El libro ___ por el autor famoso', options: ['es escrito', 'se escribe', 'fue escrito', 'ha sido escrito'], correct: 2 },
+      { sentence: 'Las casas ___ rápidamente en este barrio', options: ['son construidas', 'se construyen', 'fueron construidas', 'serán construidas'], correct: 1 },
+      { sentence: 'La carta ___ ayer por la mañana', options: ['es enviada', 'se envía', 'fue enviada', 'será enviada'], correct: 2 },
+      { sentence: 'Aquí ___ coches de segunda mano', options: ['son vendidos', 'se venden', 'fueron vendidos', 'han sido vendidos'], correct: 1 },
+      { sentence: 'El partido ___ por el equipo español el año pasado', options: ['es ganado', 'se gana', 'fue ganado', 'será ganado'], correct: 2 },
+      { sentence: 'En este restaurante ___ platos vegetarianos', options: ['son servidos', 'se sirven', 'fueron servidos', 'serán servidos'], correct: 1 },
+      { sentence: 'La novela Don Quijote ___ en el siglo XVII', options: ['es escrita', 'se escribe', 'fue escrita', 'será escrita'], correct: 2 },
+      { sentence: 'En España ___ español y catalán', options: ['son hablados', 'se hablan', 'fueron hablados', 'han sido hablados'], correct: 1 },
+      { sentence: 'El nuevo estadio ___ el próximo año', options: ['es construido', 'se construye', 'fue construido', 'será construido'], correct: 3 },
+      { sentence: 'Las medallas ___ por los mejores atletas', options: ['son ganadas', 'se ganan', 'fueron ganadas', 'han sido ganadas'], correct: 3 },
+      { sentence: 'En esta tienda ___ ropa de marca', options: ['es vendida', 'se vende', 'fue vendida', 'será vendida'], correct: 1 },
+      { sentence: 'El campeonato ___ por la federación internacional', options: ['es organizado', 'se organiza', 'fue organizado', 'será organizado'], correct: 3 },
+      { sentence: 'Aquí no ___ fumar', options: ['es permitido', 'se permite', 'fue permitido', 'será permitido'], correct: 1 },
+      { sentence: 'La película ___ por un director español', options: ['es dirigida', 'se dirige', 'fue dirigida', 'será dirigida'], correct: 2 },
+      { sentence: 'Los documentos ___ mañana por la tarde', options: ['son firmados', 'se firman', 'fueron firmados', 'serán firmados'], correct: 3 }
+    ]
+  },
+
+  'ex-9-1-4': {
+    id: 'ex-9-1-4',
+    type: 'fillblank',
+    title: 'Упражнение 4: Пассив с SER - согласование причастия (15 фраз)',
+    description: 'Вставьте правильную форму причастия (согласуйте по роду и числу)',
+    questions: [
+      { sentence: 'El partido fue (ganar) ___ por nuestro equipo', correct: 'ganado' },
+      { sentence: 'La medalla fue (entregar) ___ por el presidente', correct: 'entregada' },
+      { sentence: 'Los jugadores fueron (fichar) ___ por el club', correct: 'fichados' },
+      { sentence: 'Las casas fueron (construir) ___ el año pasado', correct: 'construidas' },
+      { sentence: 'El libro ha sido (escribir) ___ por un autor famoso', correct: 'escrito' },
+      { sentence: 'La carta ha sido (enviar) ___ esta mañana', correct: 'enviada' },
+      { sentence: 'Los documentos han sido (traducir) ___ al español', correct: 'traducidos' },
+      { sentence: 'Las fotos han sido (hacer) ___ por un fotógrafo profesional', correct: 'hechas' },
+      { sentence: 'El récord fue (batir) ___ en los Juegos Olímpicos', correct: 'batido' },
+      { sentence: 'La competencia será (organizar) ___ en Madrid', correct: 'organizada' },
+      { sentence: 'Los entrenamientos serán (realizar) ___ cada día', correct: 'realizados' },
+      { sentence: 'Las entradas serán (vender) ___ en línea', correct: 'vendidas' },
+      { sentence: 'El estadio fue (abrir) ___ en 2020', correct: 'abierto' },
+      { sentence: 'La puerta ha sido (cerrar) ___ con llave', correct: 'cerrada' },
+      { sentence: 'Los premios fueron (dar) ___ a los ganadores', correct: 'dados' }
+    ]
+  },
+
+  'ex-9-1-5': {
+    id: 'ex-9-1-5',
+    type: 'fillblank',
+    title: 'Упражнение 5: Пассив с SE - согласование глагола (15 фраз)',
+    description: 'Вставьте правильную форму глагола (ед. или мн. число)',
+    questions: [
+      { sentence: 'En España se (hablar) ___ español', correct: 'habla' },
+      { sentence: 'En esta tienda se (vender) ___ coches usados', correct: 'venden' },
+      { sentence: 'Aquí se (alquilar) ___ apartamentos', correct: 'alquilan' },
+      { sentence: 'En este restaurante se (servir) ___ comida italiana', correct: 'sirve' },
+      { sentence: 'Se (buscar) ___ empleados para la oficina', correct: 'buscan' },
+      { sentence: 'En la biblioteca se (prohibir) ___ hacer ruido', correct: 'prohíbe' },
+      { sentence: 'Se (necesitar) ___ más tiempo para terminar el proyecto', correct: 'necesita' },
+      { sentence: 'En el estadio se (vender) ___ entradas para el partido', correct: 'venden' },
+      { sentence: 'Se (organizar) ___ competencias deportivas cada año', correct: 'organizan' },
+      { sentence: 'En este club se (entrenar) ___ a jóvenes futbolistas', correct: 'entrena' },
+      { sentence: 'Se (batir) ___ récords cada temporada', correct: 'baten' },
+      { sentence: 'En la tienda se (aceptar) ___ tarjetas de crédito', correct: 'aceptan' },
+      { sentence: 'Se (construir) ___ un nuevo estadio en la ciudad', correct: 'construye' },
+      { sentence: 'Se (cerrar) ___ las tiendas los domingos', correct: 'cierran' },
+      { sentence: 'Se (abrir) ___ el museo a las 10 de la mañana', correct: 'abre' }
+    ]
+  },
+
+  'ex-9-1-6': {
+    id: 'ex-9-1-6',
+    type: 'grammar',
+    title: 'Упражнение 6: Выбор между SER и SE (15 фраз)',
+    description: 'Выберите правильную конструкцию пассива (с SER или с SE)',
+    questions: [
+      { sentence: 'El libro ___ por García Márquez', options: ['se escribió', 'fue escrito', 'es escrito', 'se escribe'], correct: 1 },
+      { sentence: 'En esta calle ___ muchos apartamentos', options: ['son alquilados', 'se alquilan', 'fueron alquilados', 'se alquiló'], correct: 1 },
+      { sentence: 'La carta ___ por mi secretaria ayer', options: ['se envió', 'fue enviada', 'es enviada', 'se envían'], correct: 1 },
+      { sentence: 'Aquí no ___ fumar', options: ['es permitido', 'se permite', 'fue permitido', 'se permitió'], correct: 1 },
+      { sentence: 'El partido ___ por el Real Madrid', options: ['se ganó', 'fue ganado', 'es ganado', 'se ganan'], correct: 1 },
+      { sentence: 'En España ___ muchos idiomas', options: ['son hablados', 'se hablan', 'fueron hablados', 'se habló'], correct: 1 },
+      { sentence: 'Este cuadro ___ por Picasso', options: ['se pintó', 'fue pintado', 'es pintado', 'se pintan'], correct: 1 },
+      { sentence: 'En este restaurante ___ platos vegetarianos', options: ['son servidos', 'se sirven', 'fueron servidos', 'se sirvió'], correct: 1 },
+      { sentence: 'La novela ___ en el siglo XIX', options: ['se escribió', 'fue escrita', 'es escrita', 'se escriben'], correct: 1 },
+      { sentence: 'Aquí ___ bicicletas de segunda mano', options: ['son vendidas', 'se venden', 'fueron vendidas', 'se vendió'], correct: 1 },
+      { sentence: 'El récord ___ por el atleta español', options: ['se batió', 'fue batido', 'es batido', 'se baten'], correct: 1 },
+      { sentence: 'En esta tienda ___ ropa de marca', options: ['es vendida', 'se vende', 'fue vendida', 'se vendieron'], correct: 1 },
+      { sentence: 'Los documentos ___ por el director', options: ['se firmaron', 'fueron firmados', 'son firmados', 'se firma'], correct: 1 },
+      { sentence: 'En la biblioteca ___ muchos libros interesantes', options: ['son encontrados', 'se encuentran', 'fueron encontrados', 'se encontró'], correct: 1 },
+      { sentence: 'La competencia ___ por la federación', options: ['se organizó', 'fue organizada', 'es organizada', 'se organizan'], correct: 1 }
+    ]
+  },
+
+  'ex-9-1-7': {
+    id: 'ex-9-1-7',
+    type: 'fillblank',
+    title: 'Упражнение 7: Смешанное упражнение на оба вида пассива (15 фраз)',
+    description: 'Переведите предложения, используя пассив с SER или с SE',
+    questions: [
+      { sentence: 'Эта книга была написана в 19 веке', correct: 'este libro fue escrito en el siglo xix' },
+      { sentence: 'В Испании говорят на испанском', correct: 'en españa se habla español' },
+      { sentence: 'Дом был построен моим отцом', correct: 'la casa fue construida por mi padre' },
+      { sentence: 'Здесь продаются машины', correct: 'aquí se venden coches' },
+      { sentence: 'Матч был выигран нашей командой', correct: 'el partido fue ganado por nuestro equipo' },
+      { sentence: 'Курить запрещено', correct: 'se prohíbe fumar' },
+      { sentence: 'Письмо было отправлено вчера', correct: 'la carta fue enviada ayer' },
+      { sentence: 'Здесь сдается квартира', correct: 'aquí se alquila un apartamento' },
+      { sentence: 'Рекорд был побит спортсменом', correct: 'el récord fue batido por el deportista' },
+      { sentence: 'В этом ресторане готовят паэлью', correct: 'en este restaurante se prepara paella' },
+      { sentence: 'Картина была нарисована художником', correct: 'el cuadro fue pintado por el artista' },
+      { sentence: 'Билеты продаются онлайн', correct: 'las entradas se venden en línea' },
+      { sentence: 'Здание было открыто в 2020 году', correct: 'el edificio fue abierto en 2020' },
+      { sentence: 'В библиотеке не разговаривают', correct: 'en la biblioteca no se habla' },
+      { sentence: 'Документы были подписаны директором', correct: 'los documentos fueron firmados por el director' }
     ]
   },
 
