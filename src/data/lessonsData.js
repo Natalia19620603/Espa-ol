@@ -8721,6 +8721,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'Presente de Subjuntivo',
         videoUrl: '/video/Presente de subjuntivo nueva inquilina.mp4'
+      },
+      {
+        tab: 'Subjuntivo viaje',
+        videoUrl: '/video/Subjuntivo_viaje_m11c1.mp4'
       }
     ],
     grammar: {
@@ -9799,6 +9803,12 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-8-3',
     title: 'Урок 3: Concordancia de los tiempos (согласование времен изъявительного наклонения). Перевод прямой речи в косвенную',
     moduleId: 'module-8',
+    videoTabs: [
+      {
+        tab: 'Nieve y escobillas',
+        videoUrl: '/video/Nieve Escobillas m8c3.mp4'
+      }
+    ],
     grammar: {
       title: 'Согласование времен (Concordancia de tiempos)',
       content: `
