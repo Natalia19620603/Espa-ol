@@ -10272,6 +10272,12 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-8-4',
     title: 'Урок 4: Упражнения на повторение (Модули 6, 7, 8)',
     moduleId: 'module-8',
+    videoTabs: [
+      {
+        tab: 'Viaje a Egipto',
+        videoUrl: '/video/Viajes Egipto.mp4'
+      }
+    ],
     grammar: {
       title: 'Повторение пройденного материала',
       intro: `# Повторение материала модулей 6, 7, 8
