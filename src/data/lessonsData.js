@@ -8719,6 +8719,14 @@ Al + инфинитив + подлежащее инфинитива, [основ
     moduleId: 'module-11',
     videoTabs: [
       {
+        tab: 'OCIO en MADRID',
+        videoUrl: '/video/OCIO en MADRID.mp4'
+      },
+      {
+        tab: 'Presente de Subjuntivo Visitas',
+        videoUrl: '/video/Presente de Subjuntivo Visitas.mp4'
+      },
+      {
         tab: 'Presente de Subjuntivo',
         videoUrl: '/video/Presente de subjuntivo nueva inquilina.mp4'
       },
