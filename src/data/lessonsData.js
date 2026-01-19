@@ -1715,6 +1715,10 @@ Objeto + está + preposición + del/de la + lugar.
       {
         tab: '2',
         videoUrl: '/video/A1-U2-clase4-Ej.7.mp4'
+      },
+      {
+        tab: '3',
+        videoUrl: '/video/Verbos M1C5.mp4'
       }
     ],
     grammar: {
