@@ -8713,7 +8713,7 @@ Al + инфинитив + подлежащее инфинитива, [основ
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
-  // Cache-bust: 2026-01-20 19:45 - Restructured videoTabs with IDs
+  // Cache-bust: 2026-01-20 20:15 - Removed duplicate videoTabs section
   'lesson-11-1': {
     id: 'lesson-11-1',
     title: 'Урок 1: ДОСУГ. РАЗВЛЕЧЕНИЯ. Modo subjuntivo',
@@ -9141,16 +9141,6 @@ El Rastro tiene una energía especial que es la energía de Madrid que también 
 
 Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y acoge multitud de planes que se adaptan a todas las edades y a todos los públicos. Una acogedora oferta de ocio para que el visitante se sienta en Madrid como en casa.`,
         translation: null
-      }
-    ],
-    videoTabs: [
-      {
-        tab: 'OCIO en MADRID',
-        videoUrl: '/video/OCIO en MADRID.mp4'
-      },
-      {
-        tab: 'Presente de Subjuntivo Visitas',
-        videoUrl: '/video/Presente de Subjuntivo Visitas.mp4'
       }
     ],
     exercises: [
