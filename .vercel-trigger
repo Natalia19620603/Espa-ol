@@ -1,3 +1,4 @@
 # Deployment trigger
-# Auto deploy: Tue Jan 20 08:03:54 UTC 2026
-# PR #438: 🔧 Force rebuild: Module 11 Lesson 1 - Clear Vercel cache
+# CACHE BUSTER: Reordered video tabs to force new hash
+# Timestamp: Mon Jan 20 15:50:00 UTC 2026
+# Changed video order and tab labels in lesson-11-1

@@ -8713,27 +8713,27 @@ Al + инфинитив + подлежащее инфинитива, [основ
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
-  // Updated: 2026-01-20 - All 4 video tabs configured
+  // Cache-bust: 2026-01-20 15:50 - All 4 videos must appear
   'lesson-11-1': {
     id: 'lesson-11-1',
     title: 'Урок 1: ДОСУГ. РАЗВЛЕЧЕНИЯ. Modo subjuntivo',
     moduleId: 'module-11',
     videoTabs: [
       {
-        tab: 'OCIO en MADRID',
-        videoUrl: '/video/OCIO en MADRID.mp4'
-      },
-      {
-        tab: 'Presente de Subjuntivo Visitas',
-        videoUrl: '/video/Presente de Subjuntivo Visitas.mp4'
-      },
-      {
         tab: 'Presente de Subjuntivo',
         videoUrl: '/video/Presente de subjuntivo nueva inquilina.mp4'
       },
       {
-        tab: 'Subjuntivo viaje',
+        tab: 'Subjuntivo - Viaje',
         videoUrl: '/video/Subjuntivo_viaje_m11c1.mp4'
+      },
+      {
+        tab: 'OCIO en MADRID',
+        videoUrl: '/video/OCIO en MADRID.mp4'
+      },
+      {
+        tab: 'Presente de Subjuntivo - Visitas',
+        videoUrl: '/video/Presente de Subjuntivo Visitas.mp4'
       }
     ],
     grammar: {
