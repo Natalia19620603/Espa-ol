@@ -33300,98 +33300,98 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
   'ex-9-7-rape-grammar': {
     id: 'ex-9-7-rape-grammar',
     type: 'grammar',
-    title: 'Грамматика A2: Pez RAPE',
-    description: 'Выберите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, imperativo)',
+    title: 'Грамматика B1: Pez RAPE',
+    description: 'Выберите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, imperativo, presente de subjuntivo)',
     questions: [
       {
-        sentence: 'El pez rape ___ (vivir) en las profundidades marinas desde siempre.',
-        options: ['vivió', 'vivía', 'ha vivido', 'vive'],
-        correct: 3,
-        explanation: 'Presente para verdad general'
-      },
-      {
-        sentence: 'La luz del sol nunca ___ (llegar) a esas profundidades.',
-        options: ['llegó', 'llegaba', 'ha llegado', 'llega'],
-        correct: 3,
-        explanation: 'Presente para verdad general con "nunca"'
-      },
-      {
-        sentence: 'El pez rape ___ (desarrollar) su linterna biológica a lo largo de millones de años.',
-        options: ['desarrolló', 'desarrollaba', 'ha desarrollado', 'desarrolla'],
+        sentence: 'Es increíble que esta especie ___ (sobrevivir) en condiciones tan extremas durante millones de años.',
+        options: ['sobrevivió', 'sobrevivía', 'haya sobrevivido', 'sobrevive'],
         correct: 2,
-        explanation: 'Pretérito perfecto para proceso con resultado actual'
+        explanation: 'Presente de subjuntivo después de "es increíble que" (valoración) - usa pretérito perfecto de subjuntivo'
       },
       {
-        sentence: '¡___ (observar, tú) la increíble adaptación de este pez!',
-        options: ['Observa', 'Observes', 'Observaba', 'Observó'],
+        sentence: 'Cuando los científicos ___ (descubrir) al pez rape por primera vez, no podían creer lo que veían.',
+        options: ['descubrieron', 'descubrían', 'han descubierto', 'descubren'],
         correct: 0,
-        explanation: 'Imperativo afirmativo segunda persona singular'
+        explanation: 'Pretérito indefinido con "cuando" en narración pasada completa'
       },
       {
-        sentence: 'No ___ (acercarse, vosotros) demasiado a ese depredador.',
-        options: ['os acercáis', 'os acerquéis', 'os acercabais', 'os acercasteis'],
+        sentence: 'El macho ___ (buscar) a la hembra durante días mientras vagaba en la oscuridad absoluta.',
+        options: ['buscó', 'buscaba', 'ha buscado', 'busca'],
         correct: 1,
-        explanation: 'Imperativo negativo usa subjuntivo'
+        explanation: 'Imperfecto para acción en progreso en el pasado (acción de fondo)'
       },
       {
-        sentence: 'Cuando el macho ___ (encontrar) a la hembra, se fusionó con ella.',
-        options: ['encuentra', 'encontró', 'encontraba', 'ha encontrado'],
+        sentence: '¡No ___ (olvidar, tú) que el amor en el abismo es muy diferente al amor humano!',
+        options: ['olvidas', 'olvides', 'olvidabas', 'olvidaste'],
         correct: 1,
-        explanation: 'Pretérito indefinido en narración pasada con "cuando"'
+        explanation: 'Imperativo negativo segunda persona usa presente de subjuntivo'
       },
       {
-        sentence: 'Antes, los científicos no ___ (conocer) este tipo de parasitismo.',
-        options: ['conocieron', 'conocían', 'han conocido', 'conocen'],
-        correct: 1,
-        explanation: 'Imperfecto para estado en el pasado'
-      },
-      {
-        sentence: '¡___ (estudiar, nosotros) las adaptaciones de los animales marinos!',
-        options: ['Estudiamos', 'Estudiemos', 'Estudiábamos', 'Estudiamos'],
-        correct: 1,
-        explanation: 'Imperativo afirmativo primera persona plural'
-      },
-      {
-        sentence: 'La hembra ___ (esperar) pacientemente en el fondo cuando llegó la presa.',
-        options: ['esperó', 'esperaba', 'ha esperado', 'espera'],
-        correct: 1,
-        explanation: 'Imperfecto para acción en progreso interrumpida'
-      },
-      {
-        sentence: 'Los peces pequeños ___ (pensar) que encontraron comida.',
-        options: ['pensaron', 'pensaban', 'han pensado', 'piensan'],
-        correct: 0,
-        explanation: 'Pretérito indefinido para acción completa'
-      },
-      {
-        sentence: '¡No ___ (subestimar, tú) la paciencia de este cazador!',
-        options: ['subestimas', 'subestimes', 'subestimabas', 'subestimaste'],
-        correct: 1,
-        explanation: 'Imperativo negativo segunda persona'
-      },
-      {
-        sentence: 'Esta especie ___ (sobrevivir) en condiciones extremas durante millones de años.',
-        options: ['sobrevivió', 'sobrevivía', 'ha sobrevivido', 'sobrevive'],
+        sentence: 'Es necesario que los investigadores ___ (continuar) estudiando estas criaturas misteriosas.',
+        options: ['continuaron', 'continuaban', 'continúen', 'continúan'],
         correct: 2,
-        explanation: 'Pretérito perfecto para proceso con resultado actual'
+        explanation: 'Presente de subjuntivo después de "es necesario que" (necesidad)'
       },
       {
-        sentence: 'Cuando era joven, el biólogo ___ (estudiar) los peces de las profundidades.',
-        options: ['estudió', 'estudiaba', 'ha estudiado', 'estudia'],
+        sentence: 'Después de que el macho ___ (morder) a la hembra, comenzó la fusión biológica.',
+        options: ['mordió', 'mordía', 'ha mordido', 'muerde'],
+        correct: 0,
+        explanation: 'Pretérito indefinido después de "después de que" en narración pasada'
+      },
+      {
+        sentence: 'Aunque nos ___ (parecer) cruel, esta estrategia ha permitido la supervivencia de la especie.',
+        options: ['pareció', 'parecía', 'parezca', 'parece'],
+        correct: 2,
+        explanation: 'Presente de subjuntivo con "aunque" para expresar concesión (valoración subjetiva)'
+      },
+      {
+        sentence: 'Los órganos del macho se ___ (atrofiar) gradualmente hasta que desaparecieron por completo.',
+        options: ['atrofiaron', 'atrofiaban', 'han atrofiado', 'atrofian'],
         correct: 1,
-        explanation: 'Imperfecto para acción habitual en el pasado'
+        explanation: 'Imperfecto para proceso gradual en el pasado'
       },
       {
-        sentence: '¡___ (proteger, vosotros) las especies marinas!',
-        options: ['Protegéis', 'Proteged', 'Protegíais', 'Protegisteis'],
+        sentence: '¡___ (imaginar, vosotros) la vida en las profundidades del océano!',
+        options: ['Imagináis', 'Imaginad', 'Imaginabais', 'Imaginasteis'],
         correct: 1,
         explanation: 'Imperativo afirmativo segunda persona plural'
       },
       {
-        sentence: 'La relación ___ (durar) hasta que la muerte los separó.',
-        options: ['duró', 'duraba', 'ha durado', 'dura'],
+        sentence: 'Dudo que alguna otra especie ___ (desarrollar) una adaptación tan extrema como esta.',
+        options: ['desarrolló', 'desarrollaba', 'haya desarrollado', 'desarrolla'],
+        correct: 2,
+        explanation: 'Presente de subjuntivo (pretérito perfecto) después de "dudo que" (duda)'
+      },
+      {
+        sentence: 'Antes de que los científicos ___ (investigar) las profundidades, nadie imaginaba tal forma de vida.',
+        options: ['investigaron', 'investigaban', 'investigaran', 'investigan'],
+        correct: 2,
+        explanation: 'Imperfecto de subjuntivo después de "antes de que" en contexto pasado'
+      },
+      {
+        sentence: 'La hembra siempre ___ (permanecer) inmóvil en el mismo lugar durante horas, esperando a su presa.',
+        options: ['permaneció', 'permanecía', 'ha permanecido', 'permanece'],
+        correct: 1,
+        explanation: 'Imperfecto para acción habitual y repetida en el pasado'
+      },
+      {
+        sentence: '¡___ (reflexionar, nosotros) sobre las maravillas de la naturaleza!',
+        options: ['Reflexionamos', 'Reflexionemos', 'Reflexionábamos', 'Reflexionamos'],
+        correct: 1,
+        explanation: 'Imperativo afirmativo primera persona plural (subjuntivo presente)'
+      },
+      {
+        sentence: 'Es imposible que este proceso de fusión ___ (ocurrir) por casualidad.',
+        options: ['ocurrió', 'ocurría', 'ocurra', 'ocurre'],
+        correct: 2,
+        explanation: 'Presente de subjuntivo después de "es imposible que" (imposibilidad)'
+      },
+      {
+        sentence: 'Cuando la expedición ___ (fotografiar) al pez rape en su hábitat, todo el mundo científico quedó impactado.',
+        options: ['fotografió', 'fotografiaba', 'ha fotografiado', 'fotografía'],
         correct: 0,
-        explanation: 'Pretérito indefinido para acción completa en el pasado'
+        explanation: 'Pretérito indefinido con "cuando" para acción completa en el pasado'
       }
     ]
   },
