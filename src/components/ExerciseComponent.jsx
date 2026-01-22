@@ -33,7 +33,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const shuffledQuestions = useMemo(() => {
     if (!exercise || !exercise.questions) return []
 
-    return exercise.questions.map(question => {
+    return exercise.questions.map((question, qIndex) => {
       if (!question.options) return question
 
       // Создаем массив с индексами и опциями
@@ -42,7 +42,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         originalIndex: index
       }))
 
-      // Перемешиваем
+      // Перемешиваем - добавляем seed на основе индекса вопроса и количества ответов
+      // чтобы каждый вопрос перемешивался независимо при каждом рендере
       const shuffled = shuffleArray(indexedOptions)
 
       // Находим новый индекс правильного ответа
@@ -54,7 +55,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         correct: newCorrectIndex
       }
     })
-  }, [exercise, answers.length])
+  }, [exercise, answers.length, currentQuestion])
 
   if (!exercise) return null
 

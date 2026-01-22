@@ -14277,7 +14277,8 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
           { name: 'Словарь', exercises: ['ex-9-7-rape-vocab'] },
           { name: 'Понимание текста', exercises: ['ex-9-7-rape-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-7-rape-grammar'] },
-          { name: 'Перевод', exercises: ['ex-9-7-rape-translation'] }
+          { name: 'Перевод', exercises: ['ex-9-7-rape-translation'] },
+          { name: 'B1', exercises: ['ex-9-7-rape-translation-b1'] }
         ]
       },
       {
@@ -33461,6 +33462,76 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       {
         russian: 'Морской черт развил уникальные способности выживания.',
         spanish: 'El pez rape ha desarrollado capacidades únicas de supervivencia'
+      }
+    ]
+  },
+
+  'ex-9-7-rape-translation-b1': {
+    id: 'ex-9-7-rape-translation-b1',
+    type: 'translation',
+    title: 'Перевод B1: Pez RAPE - Presente de Subjuntivo, Indefinido, Imperfecto, Pretérito Perfecto',
+    description: 'Переведите предложения с русского на испанский, используя правильные времена глаголов',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Невероятно, что морской черт выжил в таких экстремальных условиях на протяжении миллионов лет.',
+        spanish: 'Es increíble que el pez rape haya sobrevivido en condiciones tan extremas durante millones de años'
+      },
+      {
+        russian: 'Когда ученые впервые обнаружили эту рыбу, они не могли поверить в то, что видели.',
+        spanish: 'Cuando los científicos descubrieron este pez por primera vez, no podían creer lo que veían'
+      },
+      {
+        russian: 'Самец искал самку в абсолютной темноте, полагаясь только на химические сигналы.',
+        spanish: 'El macho buscaba a la hembra en la oscuridad absoluta, confiando solo en señales químicas'
+      },
+      {
+        russian: 'Важно, чтобы мы понимали, насколько уникальна эта биологическая стратегия выживания.',
+        spanish: 'Es importante que comprendamos lo única que es esta estrategia biológica de supervivencia'
+      },
+      {
+        russian: 'В тот момент, когда самец нашел самку, началась его трансформация в паразита.',
+        spanish: 'En el momento en que el macho encontró a la hembra, comenzó su transformación en parásito'
+      },
+      {
+        russian: 'Маловероятно, что какой-либо другой вид развил такую экстремальную форму симбиоза.',
+        spanish: 'Es poco probable que ninguna otra especie haya desarrollado una forma tan extrema de simbiosis'
+      },
+      {
+        russian: 'Самка морского черта всегда оставалась неподвижной на дне океана, ожидая, когда добыча приблизится к её свету.',
+        spanish: 'La hembra del pez rape siempre permanecía inmóvil en el fondo del océano, esperando a que la presa se acercara a su luz'
+      },
+      {
+        russian: 'Необходимо, чтобы исследователи продолжали изучать эти загадочные существа глубин.',
+        spanish: 'Es necesario que los investigadores sigan estudiando estas criaturas misteriosas de las profundidades'
+      },
+      {
+        russian: 'После того как самец укусил самку, его органы постепенно атрофировались и исчезли навсегда.',
+        spanish: 'Después de que el macho mordió a la hembra, sus órganos gradualmente se atrofiaron y desaparecieron para siempre'
+      },
+      {
+        russian: 'Хотя это кажется жестоким, такая стратегия позволила виду процветать в самых суровых условиях планеты.',
+        spanish: 'Aunque parezca cruel, esta estrategia ha permitido que la especie prospere en las condiciones más duras del planeta'
+      },
+      {
+        russian: 'Невозможно, чтобы такая сложная адаптация возникла случайно - это результат миллионов лет эволюции.',
+        spanish: 'Es imposible que una adaptación tan compleja surgiera por casualidad - es el resultado de millones de años de evolución'
+      },
+      {
+        russian: 'До того как ученые исследовали глубины океана, никто не представлял себе существование таких созданий.',
+        spanish: 'Antes de que los científicos investigaran las profundidades del océano, nadie imaginaba la existencia de tales criaturas'
+      },
+      {
+        russian: 'Самец морского черта родился без желудка, потому что ему предназначено было стать частью самки.',
+        spanish: 'El macho del pez rape nació sin estómago porque estaba destinado a convertirse en parte de la hembra'
+      },
+      {
+        russian: 'Удивительно, что в условиях такого давления и темноты жизнь не только существует, но и процветает.',
+        spanish: 'Es sorprendente que en condiciones de tanta presión y oscuridad la vida no solo exista, sino que prospere'
+      },
+      {
+        russian: 'Когда исследовательская экспедиция впервые сфотографировала морского черта в его естественной среде обитания, весь научный мир был потрясен.',
+        spanish: 'Cuando la expedición de investigación fotografió por primera vez al pez rape en su hábitat natural, todo el mundo científico quedó impactado'
       }
     ]
   },
