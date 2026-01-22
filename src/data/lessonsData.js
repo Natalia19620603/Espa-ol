@@ -11499,8 +11499,12 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
     moduleId: 'module-17',
     videoTabs: [
       {
-        tab: 'Модуль 9 Урок 2',
+        tab: 'Navidad Sol',
         videoUrl: '/video/Navidad Sol.mp4'
+      },
+      {
+        tab: 'Doce uvas M17 C2',
+        videoUrl: '/video/Doce uvas M17 C2.mp4'
       }
     ],
     vocabulary: [
@@ -13293,6 +13297,10 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
       {
         tab: 'Potencial y tigre de Bengala',
         videoUrl: '/video/Potencial y tigre de Bengala.mp4'
+      },
+      {
+        tab: 'Las palabras sanan y enferman',
+        videoUrl: '/video/Las palabras sanan y enferman M17C5.mp4'
       }
     ],
     vocabulary: [
