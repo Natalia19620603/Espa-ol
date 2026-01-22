@@ -30157,18 +30157,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Barcelona. 28 de octubre. 10.00 h.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el folleto', options: ['буклет, брошюра', 'газета', 'журнал', 'книга'], correct: 0 },
-      { spanish: 'el crucero', options: ['самолет', 'круиз, круизное судно', 'поезд', 'автобус'], correct: 1 },
+      { spanish: 'el folleto', options: ['газета', 'журнал', 'буклет, брошюра', 'книга'], correct: 2 },
+      { spanish: 'el crucero', options: ['самолет', 'поезд', 'автобус', 'круиз, круизное судно'], correct: 3 },
       { spanish: 'la licencia', options: ['билет', 'лицензия', 'паспорт', 'виза'], correct: 1 },
       { spanish: 'el local', options: ['помещение', 'дом', 'квартира', 'офис'], correct: 0 },
-      { spanish: 'urgentemente', options: ['медленно', 'быстро', 'срочно, незамедлительно', 'тихо'], correct: 2 },
-      { spanish: 'la reforma', options: ['переезд', 'ремонт', 'покупка', 'продажа'], correct: 1 },
+      { spanish: 'urgentemente', options: ['срочно, незамедлительно', 'медленно', 'быстро', 'тихо'], correct: 0 },
+      { spanish: 'la reforma', options: ['переезд', 'покупка', 'продажа', 'ремонт'], correct: 3 },
       { spanish: 'llevarse bien', options: ['уезжать', 'носить', 'хорошо ладить', 'забирать'], correct: 2 },
-      { spanish: 'soso', options: ['вкусный', 'сладкий', 'соленый', 'несоленый, пресный, безвкусный'], correct: 3 },
-      { spanish: 'el mono', options: ['комбинезон, обезьяна, симпатичный', 'кошка', 'собака', 'лошадь'], correct: 0 },
-      { spanish: 'el corte', options: ['порез, стрижка', 'удар', 'царапина', 'ожог'], correct: 0 },
-      { spanish: 'liso', options: ['кудрявый', 'волнистый', 'гладкий', 'короткий'], correct: 2 },
-      { spanish: 'ligar', options: ['читать', 'писать', 'флиртовать, связывать', 'говорить'], correct: 2 }
+      { spanish: 'soso', options: ['вкусный', 'несоленый, пресный, безвкусный', 'сладкий', 'соленый'], correct: 1 },
+      { spanish: 'el mono', options: ['кошка', 'собака', 'комбинезон, обезьяна, симпатичный', 'лошадь'], correct: 2 },
+      { spanish: 'el corte', options: ['удар', 'порез, стрижка', 'царапина', 'ожог'], correct: 1 },
+      { spanish: 'liso', options: ['кудрявый', 'волнистый', 'короткий', 'гладкий'], correct: 3 },
+      { spanish: 'ligar', options: ['флиртовать, связывать', 'читать', 'писать', 'говорить'], correct: 0 }
     ]
   },
 
@@ -30178,18 +30178,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Barcelona. 28 de octubre. 10.30 h.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'divino', options: ['божественный, прекрасный', 'ужасный', 'обычный', 'плохой'], correct: 0 },
-      { spanish: 'el plomo', options: ['золото', 'серебро', 'свинец, зануда', 'медь'], correct: 2 },
-      { spanish: 'la peste', options: ['чума, вонь', 'аромат', 'духи', 'цветок'], correct: 0 },
-      { spanish: 'apestar', options: ['пахнуть хорошо', 'вонять, плохо пахнуть', 'нюхать', 'дышать'], correct: 1 },
-      { spanish: 'distribuir', options: ['собирать', 'распределять, распространять', 'терять', 'находить'], correct: 1 },
-      { spanish: 'el escepticismo', options: ['оптимизм', 'пессимизм', 'скептицизм', 'романтизм'], correct: 2 },
-      { spanish: 'la ambulancia', options: ['полицейская машина', 'такси', 'машина скорой помощи', 'пожарная машина'], correct: 2 },
-      { spanish: 'auténtico', options: ['фальшивый', 'поддельный', 'подлинный, настоящий', 'искусственный'], correct: 2 },
+      { spanish: 'divino', options: ['ужасный', 'обычный', 'плохой', 'божественный, прекрасный'], correct: 3 },
+      { spanish: 'el plomo', options: ['золото', 'серебро', 'медь', 'свинец, зануда'], correct: 3 },
+      { spanish: 'la peste', options: ['аромат', 'духи', 'чума, вонь', 'цветок'], correct: 2 },
+      { spanish: 'apestar', options: ['пахнуть хорошо', 'нюхать', 'вонять, плохо пахнуть', 'дышать'], correct: 2 },
+      { spanish: 'distribuir', options: ['распределять, распространять', 'собирать', 'терять', 'находить'], correct: 0 },
+      { spanish: 'el escepticismo', options: ['скептицизм', 'оптимизм', 'пессимизм', 'романтизм'], correct: 0 },
+      { spanish: 'la ambulancia', options: ['полицейская машина', 'машина скорой помощи', 'такси', 'пожарная машина'], correct: 1 },
+      { spanish: 'auténtico', options: ['фальшивый', 'подлинный, настоящий', 'поддельный', 'искусственный'], correct: 1 },
       { spanish: 'asomarse', options: ['прятаться', 'показываться, высовываться', 'убегать', 'входить'], correct: 1 },
       { spanish: 'la portera/el portero', options: ['консьерж', 'директор', 'сосед', 'родственник'], correct: 0 },
       { spanish: 'impaciente', options: ['терпеливый', 'спокойный', 'нетерпеливый; беспокойный', 'радостный'], correct: 2 },
-      { spanish: 'en paz descanse', options: ['добрый день', 'упокой Господь его душу', 'спокойной ночи', 'доброе утро'], correct: 1 },
+      { spanish: 'en paz descanse', options: ['упокой Господь его душу', 'добрый день', 'спокойной ночи', 'доброе утро'], correct: 0 },
       { spanish: 'suspirar', options: ['смеяться', 'плакать', 'кричать', 'вздыхать/вздохнуть'], correct: 3 },
       { spanish: 'de repente', options: ['медленно', 'внезапно, вдруг', 'постепенно', 'никогда'], correct: 1 }
     ]
@@ -30201,23 +30201,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Barcelona. 28 de octubre. 12.30 h.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'apetecer', options: ['отказываться', 'желать, хотеть', 'ненавидеть', 'избегать'], correct: 1 },
-      { spanish: 'el cajero automático', options: ['касса', 'банкомат (АТМ)', 'терминал', 'окно'], correct: 1 },
+      { spanish: 'apetecer', options: ['отказываться', 'ненавидеть', 'желать, хотеть', 'избегать'], correct: 2 },
+      { spanish: 'el cajero automático', options: ['банкомат (АТМ)', 'касса', 'терминал', 'окно'], correct: 0 },
       { spanish: 'la cuenta corriente', options: ['текущий счет в банке', 'вексель', 'чек', 'квитанция'], correct: 0 },
-      { spanish: 'la plaza', options: ['улица', 'дом', 'место, площадь', 'парк'], correct: 2 },
-      { spanish: 'porteño', options: ['портовый, житель Буэнос-Айреса', 'моряк', 'рыбак', 'капитан'], correct: 0 },
-      { spanish: 'sabio', options: ['глупый', 'мудрый, мудрец', 'молодой', 'старый'], correct: 1 },
-      { spanish: 'el talego', options: ['отель', 'ресторан', 'тюрьма', 'больница'], correct: 2 },
-      { spanish: 'Alcalá Meco', options: ['название города', 'название улицы', 'название тюрьмы', 'название реки'], correct: 2 },
-      { spanish: 'el camello', options: ['торговец цветами', 'верблюд, торговец наркотиками', 'продавец фруктов', 'таксист'], correct: 1 },
-      { spanish: 'las drogas', options: ['лекарства', 'наркотики', 'витамины', 'травы'], correct: 1 },
-      { spanish: 'salvaje', options: ['культурный', 'вежливый', 'дикий, грубый', 'добрый'], correct: 2 },
-      { spanish: 'el enchufe', options: ['выключатель', 'розетка', 'лампочка', 'провод'], correct: 1 },
-      { spanish: 'ser un tarado', options: ['быть умным', 'быть быстрым', 'быть глупым, испорченным', 'быть красивым'], correct: 2 },
+      { spanish: 'la plaza', options: ['улица', 'место, площадь', 'дом', 'парк'], correct: 1 },
+      { spanish: 'porteño', options: ['моряк', 'рыбак', 'портовый, житель Буэнос-Айреса', 'капитан'], correct: 2 },
+      { spanish: 'sabio', options: ['глупый', 'молодой', 'старый', 'мудрый, мудрец'], correct: 3 },
+      { spanish: 'el talego', options: ['отель', 'ресторан', 'больница', 'тюрьма'], correct: 3 },
+      { spanish: 'Alcalá Meco', options: ['название города', 'название тюрьмы', 'название улицы', 'название реки'], correct: 1 },
+      { spanish: 'el camello', options: ['верблюд, торговец наркотиками', 'торговец цветами', 'продавец фруктов', 'таксист'], correct: 0 },
+      { spanish: 'las drogas', options: ['лекарства', 'витамины', 'травы', 'наркотики'], correct: 3 },
+      { spanish: 'salvaje', options: ['культурный', 'вежливый', 'добрый', 'дикий, грубый'], correct: 3 },
+      { spanish: 'el enchufe', options: ['выключатель', 'лампочка', 'розетка', 'провод'], correct: 2 },
+      { spanish: 'ser un tarado', options: ['быть глупым, испорченным', 'быть умным', 'быть быстрым', 'быть красивым'], correct: 0 },
       { spanish: 'el odio', options: ['любовь', 'дружба', 'ненависть', 'радость'], correct: 2 },
-      { spanish: 'palmar', options: ['родиться', 'жить', 'помереть, откинуться', 'спать'], correct: 2 },
+      { spanish: 'palmar', options: ['помереть, откинуться', 'родиться', 'жить', 'спать'], correct: 0 },
       { spanish: 'el murciélago', options: ['птица', 'летучая мышь', 'бабочка', 'комар'], correct: 1 },
-      { spanish: 'un Pomerania', options: ['шпиц', 'бульдог', 'пудель', 'такса'], correct: 0 }
+      { spanish: 'un Pomerania', options: ['бульдог', 'шпиц', 'пудель', 'такса'], correct: 1 }
     ]
   },
 
@@ -30227,9 +30227,9 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: 30 de octubre. Por la mañana.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el ático', options: ['подвал', 'гараж', 'мансарда', 'балкон'], correct: 2 },
-      { spanish: 'la acera', options: ['дорога', 'тротуар; сторона улицы', 'мост', 'переход'], correct: 1 },
-      { spanish: 'la movida', options: ['покой', 'тишина', 'движуха', 'сон'], correct: 2 }
+      { spanish: 'el ático', options: ['мансарда', 'подвал', 'гараж', 'балкон'], correct: 0 },
+      { spanish: 'la acera', options: ['дорога', 'мост', 'тротуар; сторона улицы', 'переход'], correct: 2 },
+      { spanish: 'la movida', options: ['покой', 'движуха', 'тишина', 'сон'], correct: 1 }
     ]
   },
 
@@ -30240,7 +30240,7 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный перевод слова',
     questions: [
       { spanish: 'la barra', options: ['стол', 'барная стойка, батон', 'стул', 'окно'], correct: 1 },
-      { spanish: 'tener mala leche', options: ['быть добрым', 'быть больным', 'иметь дурной характер', 'быть голодным'], correct: 2 }
+      { spanish: 'tener mala leche', options: ['иметь дурной характер', 'быть добрым', 'быть больным', 'быть голодным'], correct: 0 }
     ]
   },
 
@@ -30252,17 +30252,17 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       { spanish: 'la tila', options: ['кофе', 'липовый чай', 'сок', 'вода'], correct: 1 },
       { spanish: 'sonoro', options: ['тихий', 'беззвучный', 'звучный', 'глухой'], correct: 2 },
-      { spanish: 'gruñir', options: ['петь', 'смеяться', 'ворчать, рычать', 'шептать'], correct: 2 },
+      { spanish: 'gruñir', options: ['петь', 'ворчать, рычать', 'смеяться', 'шептать'], correct: 1 },
       { spanish: 'deprimido', options: ['счастливый', 'веселый', 'подавленный, расстроенный', 'радостный'], correct: 2 },
-      { spanish: 'el alma en pena', options: ['счастливая душа', 'веселая душа', 'неприкаянная душа', 'добрая душа'], correct: 2 },
-      { spanish: 'el cabrón', options: ['друг', 'товарищ', 'козел (руг.)', 'брат'], correct: 2 },
+      { spanish: 'el alma en pena', options: ['счастливая душа', 'веселая душа', 'добрая душа', 'неприкаянная душа'], correct: 3 },
+      { spanish: 'el cabrón', options: ['козел (руг.)', 'друг', 'товарищ', 'брат'], correct: 0 },
       { spanish: 'el lamento', options: ['смех', 'песня', 'плач', 'крик'], correct: 2 },
-      { spanish: 'el carajillo', options: ['чай', 'сок', 'кофе с алкоголем', 'молоко'], correct: 2 },
-      { spanish: 'tener mucho carácter', options: ['быть слабым', 'быть тихим', 'иметь сильный характер', 'быть робким'], correct: 2 },
-      { spanish: 'desagradecido', options: ['благодарный', 'признательный', 'неблагодарный', 'добрый'], correct: 2 },
-      { spanish: 'el funeral', options: ['свадьба', 'крещение', 'похороны', 'день рождения'], correct: 2 },
-      { spanish: 'ser de pura raza', options: ['смешанный', 'обычный', 'чистокровный', 'простой'], correct: 2 },
-      { spanish: 'el entierro', options: ['праздник', 'торжество', 'похороны', 'вечеринка'], correct: 2 }
+      { spanish: 'el carajillo', options: ['чай', 'сок', 'молоко', 'кофе с алкоголем'], correct: 3 },
+      { spanish: 'tener mucho carácter', options: ['иметь сильный характер', 'быть слабым', 'быть тихим', 'быть робким'], correct: 0 },
+      { spanish: 'desagradecido', options: ['благодарный', 'признательный', 'добрый', 'неблагодарный'], correct: 3 },
+      { spanish: 'el funeral', options: ['похороны', 'свадьба', 'крещение', 'день рождения'], correct: 0 },
+      { spanish: 'ser de pura raza', options: ['чистокровный', 'смешанный', 'обычный', 'простой'], correct: 0 },
+      { spanish: 'el entierro', options: ['праздник', 'похороны', 'торжество', 'вечеринка'], correct: 1 }
     ]
   },
 
@@ -30272,23 +30272,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: 31 de octubre',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'en vísperas', options: ['после', 'накануне, в преддверии', 'во время', 'вместо'], correct: 1 },
+      { spanish: 'en vísperas', options: ['после', 'во время', 'вместо', 'накануне, в преддверии'], correct: 3 },
       { spanish: 'el boniato', options: ['картофель', 'батат, сладкий картофель', 'морковь', 'свекла'], correct: 1 },
-      { spanish: 'anglosajón', options: ['французский', 'испанский', 'англосаксонский', 'итальянский'], correct: 2 },
-      { spanish: 'la bruja', options: ['принцесса', 'королева', 'ведьма, колдунья', 'фея'], correct: 2 },
-      { spanish: 'el asesino', options: ['спаситель', 'защитник', 'убийца', 'герой'], correct: 2 },
-      { spanish: 'las almendras', options: ['орехи грецкие', 'миндальные орехи', 'фундук', 'кешью'], correct: 1 },
-      { spanish: 'la excusa', options: ['правда', 'факт', 'оправдание, отговорка', 'доказательство'], correct: 2 },
+      { spanish: 'anglosajón', options: ['англосаксонский', 'французский', 'испанский', 'итальянский'], correct: 0 },
+      { spanish: 'la bruja', options: ['принцесса', 'королева', 'фея', 'ведьма, колдунья'], correct: 3 },
+      { spanish: 'el asesino', options: ['спаситель', 'убийца', 'защитник', 'герой'], correct: 1 },
+      { spanish: 'las almendras', options: ['орехи грецкие', 'фундук', 'миндальные орехи', 'кешью'], correct: 2 },
+      { spanish: 'la excusa', options: ['правда', 'факт', 'доказательство', 'оправдание, отговорка'], correct: 3 },
       { spanish: 'recién', options: ['давно', 'всегда', 'недавно, только что', 'никогда'], correct: 2 },
-      { spanish: 'pegajoso', options: ['сухой', 'твердый', 'липкий, клейкий', 'мягкий'], correct: 2 },
+      { spanish: 'pegajoso', options: ['сухой', 'липкий, клейкий', 'твердый', 'мягкий'], correct: 1 },
       { spanish: 'el puño', options: ['нога', 'голова', 'кулак, манжета', 'плечо'], correct: 2 },
       { spanish: 'puñetero', options: ['хороший', 'прекрасный', 'чертов, проклятый', 'милый'], correct: 2 },
-      { spanish: 'el botón', options: ['замок', 'кнопка, пуговица', 'ключ', 'булавка'], correct: 1 },
-      { spanish: 'el encendedor', options: ['спички', 'свеча', 'зажигалка', 'фонарь'], correct: 2 },
-      { spanish: 'tropezar', options: ['прыгать', 'бежать', 'споткнуться', 'ползти'], correct: 2 },
-      { spanish: 'el macho', options: ['самка', 'детеныш', 'самец', 'малыш'], correct: 2 },
-      { spanish: 'el disfraz', options: ['униформа', 'костюм', 'маскарадный костюм', 'халат'], correct: 2 },
-      { spanish: 'el fiambre', options: ['горячее блюдо', 'суп', 'холодная мясная закуска', 'десерт'], correct: 2 }
+      { spanish: 'el botón', options: ['замок', 'ключ', 'булавка', 'кнопка, пуговица'], correct: 3 },
+      { spanish: 'el encendedor', options: ['зажигалка', 'спички', 'свеча', 'фонарь'], correct: 0 },
+      { spanish: 'tropezar', options: ['споткнуться', 'прыгать', 'бежать', 'ползти'], correct: 0 },
+      { spanish: 'el macho', options: ['самец', 'самка', 'детеныш', 'малыш'], correct: 0 },
+      { spanish: 'el disfraz', options: ['униформа', 'маскарадный костюм', 'костюм', 'халат'], correct: 1 },
+      { spanish: 'el fiambre', options: ['холодная мясная закуска', 'горячее блюдо', 'суп', 'десерт'], correct: 0 }
     ]
   },
 
@@ -30298,18 +30298,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Casa de la señora Montserrat. 23.00 h.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el moscatel', options: ['вода', 'сок', 'мускат, алкогольный напиток', 'кофе'], correct: 2 },
+      { spanish: 'el moscatel', options: ['мускат, алкогольный напиток', 'вода', 'сок', 'кофе'], correct: 0 },
       { spanish: 'el suspiro', options: ['крик', 'шепот', 'вздох', 'смех'], correct: 2 },
-      { spanish: 'no estar para', options: ['быть готовым к', 'хотеть', 'быть не в настроении для', 'любить'], correct: 2 },
-      { spanish: 'a medio hacer', options: ['законченный', 'готовый', 'недоделанный', 'новый'], correct: 2 },
-      { spanish: 'las cadenas', options: ['веревки', 'ремни', 'цепи', 'нитки'], correct: 2 },
-      { spanish: 'compartir', options: ['скрывать', 'прятать', 'разделять', 'красть'], correct: 2 },
+      { spanish: 'no estar para', options: ['быть готовым к', 'хотеть', 'любить', 'быть не в настроении для'], correct: 3 },
+      { spanish: 'a medio hacer', options: ['законченный', 'недоделанный', 'готовый', 'новый'], correct: 1 },
+      { spanish: 'las cadenas', options: ['веревки', 'цепи', 'ремни', 'нитки'], correct: 1 },
+      { spanish: 'compartir', options: ['разделять', 'скрывать', 'прятать', 'красть'], correct: 0 },
       { spanish: 'dar yuyu', options: ['радовать', 'веселить', 'пугать (dar miedo)', 'успокаивать'], correct: 2 },
-      { spanish: 'la pipa', options: ['сигарета', 'сигара', 'курительная трубка', 'кальян'], correct: 2 },
-      { spanish: 'los gemelos', options: ['друзья', 'братья', 'близнецы, запонки', 'соседи'], correct: 2 },
+      { spanish: 'la pipa', options: ['курительная трубка', 'сигарета', 'сигара', 'кальян'], correct: 0 },
+      { spanish: 'los gemelos', options: ['друзья', 'близнецы, запонки', 'братья', 'соседи'], correct: 1 },
       { spanish: 'el secuestrador', options: ['спаситель', 'защитник', 'похититель', 'охранник'], correct: 2 },
-      { spanish: 'secuestrar', options: ['спасать', 'защищать', 'похищать, лишать свободы', 'освобождать'], correct: 2 },
-      { spanish: 'agacharse', options: ['прыгать', 'вставать', 'наклоняться, нагибаться', 'ложиться'], correct: 2 }
+      { spanish: 'secuestrar', options: ['спасать', 'защищать', 'освобождать', 'похищать, лишать свободы'], correct: 3 },
+      { spanish: 'agacharse', options: ['прыгать', 'вставать', 'ложиться', 'наклоняться, нагибаться'], correct: 3 }
     ]
   },
 
@@ -30321,7 +30321,7 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       { spanish: 'el tocadiscos', options: ['радио', 'проигрыватель дисков', 'телевизор', 'компьютер'], correct: 1 },
       { spanish: 'el gilipollas', options: ['умник', 'гений', 'придурок, мудак', 'профессор'], correct: 2 },
-      { spanish: 'el mando a distancia', options: ['телефон', 'пульт дистанционного управления', 'клавиатура', 'мышка'], correct: 1 }
+      { spanish: 'el mando a distancia', options: ['пульт дистанционного управления', 'телефон', 'клавиатура', 'мышка'], correct: 0 }
     ]
   },
 
@@ -30331,14 +30331,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: 1 de noviembre. 10.30 h.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'la vanguardia', options: ['тыл', 'впереди, в авангарде, название газеты', 'центр', 'конец'], correct: 1 },
-      { spanish: 'valiente', options: ['трусливый', 'храбрый, смелый', 'слабый', 'робкий'], correct: 1 },
-      { spanish: 'arrugado', options: ['гладкий', 'новый', 'мятый', 'чистый'], correct: 2 },
-      { spanish: 'las arrugas', options: ['шрамы', 'царапины', 'морщины, складки', 'пятна'], correct: 2 },
-      { spanish: 'el pelo de punta', options: ['прямые волосы', 'волосы дыбом, торчащие вверх', 'волнистые волосы', 'короткие волосы'], correct: 1 },
+      { spanish: 'la vanguardia', options: ['впереди, в авангарде, название газеты', 'тыл', 'центр', 'конец'], correct: 0 },
+      { spanish: 'valiente', options: ['трусливый', 'слабый', 'робкий', 'храбрый, смелый'], correct: 3 },
+      { spanish: 'arrugado', options: ['гладкий', 'новый', 'чистый', 'мятый'], correct: 3 },
+      { spanish: 'las arrugas', options: ['морщины, складки', 'шрамы', 'царапины', 'пятна'], correct: 0 },
+      { spanish: 'el pelo de punta', options: ['прямые волосы', 'волнистые волосы', 'волосы дыбом, торчащие вверх', 'короткие волосы'], correct: 2 },
       { spanish: 'tender la mano', options: ['спрятать руку', 'протянуть руку', 'поднять руку', 'опустить руку'], correct: 1 },
       { spanish: 'vigilar', options: ['спать', 'следить, наблюдать', 'играть', 'работать'], correct: 1 },
-      { spanish: 'cierto', options: ['неправильный', 'точный, точно', 'ложный', 'сомнительный'], correct: 1 },
+      { spanish: 'cierto', options: ['точный, точно', 'неправильный', 'ложный', 'сомнительный'], correct: 0 },
       { spanish: 'ridículo', options: ['серьезный', 'важный', 'смешной, нелепый', 'грустный'], correct: 2 }
     ]
   },
@@ -30350,26 +30350,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный перевод слова',
     questions: [
       { spanish: 'el ejecutivo', options: ['рабочий', 'управленец, служащий', 'студент', 'учитель'], correct: 1 },
-      { spanish: 'pegar', options: ['гладить', 'целовать', 'приклеивать, бить', 'обнимать'], correct: 2 },
+      { spanish: 'pegar', options: ['гладить', 'целовать', 'обнимать', 'приклеивать, бить'], correct: 3 },
       { spanish: 'le suena la cara', options: ['лицо не знакомо', 'лицо красивое', 'лицо припоминает', 'лицо новое'], correct: 2 },
       { spanish: 'el retrovisor', options: ['фара', 'зеркало заднего вида', 'руль', 'педаль'], correct: 1 },
       { spanish: 'el contador', options: ['кассир', 'продавец', 'счетчик', 'бухгалтер'], correct: 2 },
-      { spanish: 'el cubo', options: ['корзина', 'коробка', 'ведро', 'сумка'], correct: 2 },
+      { spanish: 'el cubo', options: ['корзина', 'ведро', 'коробка', 'сумка'], correct: 1 },
       { spanish: 'el doble', options: ['половина', 'треть', 'дублер, двойник', 'оригинал'], correct: 2 },
-      { spanish: 'ni leches', options: ['много', 'немного', 'ничего!', 'все'], correct: 2 },
-      { spanish: 'la motosierra', options: ['молоток', 'пила', 'бензопила', 'топор'], correct: 2 },
-      { spanish: 'tieso', options: ['мягкий', 'гибкий', 'жесткий, напряженный', 'слабый'], correct: 2 },
-      { spanish: 'terrorífico', options: ['приятный', 'милый', 'ужасающий', 'забавный'], correct: 2 },
-      { spanish: 'pegar un grito', options: ['шептать', 'говорить', 'закричать', 'молчать'], correct: 2 },
+      { spanish: 'ni leches', options: ['ничего!', 'много', 'немного', 'все'], correct: 0 },
+      { spanish: 'la motosierra', options: ['молоток', 'пила', 'топор', 'бензопила'], correct: 3 },
+      { spanish: 'tieso', options: ['мягкий', 'гибкий', 'слабый', 'жесткий, напряженный'], correct: 3 },
+      { spanish: 'terrorífico', options: ['ужасающий', 'приятный', 'милый', 'забавный'], correct: 0 },
+      { spanish: 'pegar un grito', options: ['шептать', 'закричать', 'говорить', 'молчать'], correct: 1 },
       { spanish: 'aterrador', options: ['успокаивающий', 'приятный', 'ужасающий, жуткий', 'веселый'], correct: 2 },
       { spanish: 'ferozmente', options: ['нежно', 'тихо', 'яростно, свирепо', 'спокойно'], correct: 2 },
-      { spanish: 'respirar', options: ['говорить', 'кричать', 'дышать, вдыхать', 'петь'], correct: 2 },
-      { spanish: 'desmayarse', options: ['просыпаться', 'вставать', 'падать в обморок', 'смеяться'], correct: 2 },
-      { spanish: 'la ADN', options: ['РНК', 'ДНК', 'белок', 'клетка'], correct: 1 },
-      { spanish: 'interrogar', options: ['отвечать', 'молчать', 'спрашивать, допрашивать', 'кричать'], correct: 2 },
-      { spanish: 'el lío', options: ['порядок', 'ясность', 'неразбериха', 'простота'], correct: 2 },
-      { spanish: 'complicarse', options: ['упрощаться', 'решаться', 'усложняться', 'исчезать'], correct: 2 },
-      { spanish: 'ahuyentar', options: ['привлекать', 'приглашать', 'отпугивать', 'звать'], correct: 2 }
+      { spanish: 'respirar', options: ['дышать, вдыхать', 'говорить', 'кричать', 'петь'], correct: 0 },
+      { spanish: 'desmayarse', options: ['падать в обморок', 'просыпаться', 'вставать', 'смеяться'], correct: 0 },
+      { spanish: 'la ADN', options: ['ДНК', 'РНК', 'белок', 'клетка'], correct: 0 },
+      { spanish: 'interrogar', options: ['отвечать', 'молчать', 'кричать', 'спрашивать, допрашивать'], correct: 3 },
+      { spanish: 'el lío', options: ['порядок', 'неразбериха', 'ясность', 'простота'], correct: 1 },
+      { spanish: 'complicarse', options: ['упрощаться', 'решаться', 'исчезать', 'усложняться'], correct: 3 },
+      { spanish: 'ahuyentar', options: ['отпугивать', 'привлекать', 'приглашать', 'звать'], correct: 0 }
     ]
   },
 
@@ -30380,18 +30380,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: 3 de noviembre. Por la mañana',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el carrito de la compra', options: ['тележка для покупок', 'корзина для белья', 'детская коляска', 'багажная тележка'], correct: 0 },
+      { spanish: 'el carrito de la compra', options: ['корзина для белья', 'детская коляска', 'багажная тележка', 'тележка для покупок'], correct: 3 },
       { spanish: 'el disco / el CD', options: ['пластинка', 'диск', 'радио', 'кассета'], correct: 1 },
-      { spanish: 'el ordenador', options: ['телефон', 'планшет', 'компьютер', 'калькулятор'], correct: 2 },
+      { spanish: 'el ordenador', options: ['телефон', 'планшет', 'калькулятор', 'компьютер'], correct: 3 },
       { spanish: 'el portátil', options: ['планшет', 'телефон', 'ноутбук', 'монитор'], correct: 2 },
-      { spanish: 'el plano', options: ['самолет', 'план, чертеж', 'карта', 'схема метро'], correct: 1 },
+      { spanish: 'el plano', options: ['план, чертеж', 'самолет', 'карта', 'схема метро'], correct: 0 },
       { spanish: 'el arquitecto', options: ['инженер', 'строитель', 'архитектор', 'дизайнер'], correct: 2 },
-      { spanish: 'señalar', options: ['подписывать', 'отмечать, указывать', 'смотреть', 'писать'], correct: 1 },
-      { spanish: 'el hueco del ascensor', options: ['кабина лифта', 'дверь лифта', 'шахта лифта', 'кнопка лифта'], correct: 2 },
-      { spanish: 'currar (coloquial)', options: ['бегать', 'учиться', 'есть', 'работать (разг.)'], correct: 3 },
-      { spanish: 'ganar un duro', options: ['выиграть приз', 'найти монету', 'заработать копейку', 'потратить деньги'], correct: 2 },
+      { spanish: 'señalar', options: ['подписывать', 'смотреть', 'отмечать, указывать', 'писать'], correct: 2 },
+      { spanish: 'el hueco del ascensor', options: ['шахта лифта', 'кабина лифта', 'дверь лифта', 'кнопка лифта'], correct: 0 },
+      { spanish: 'currar (coloquial)', options: ['работать (разг.)', 'бегать', 'учиться', 'есть'], correct: 0 },
+      { spanish: 'ganar un duro', options: ['выиграть приз', 'заработать копейку', 'найти монету', 'потратить деньги'], correct: 1 },
       { spanish: 'la propina', options: ['подарок', 'чаевые', 'зарплата', 'премия'], correct: 1 },
-      { spanish: 'el arroz caldoso', options: ['жареный рис', 'жидкий рис (суп)', 'вареный рис', 'рисовая каша'], correct: 1 }
+      { spanish: 'el arroz caldoso', options: ['жареный рис', 'вареный рис', 'рисовая каша', 'жидкий рис (суп)'], correct: 3 }
     ]
   },
 
@@ -30403,16 +30403,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       { spanish: 'arreglar', options: ['покупать', 'продавать', 'чинить, ремонтировать', 'строить'], correct: 2 },
       { spanish: 'oler mal', options: ['плохо выглядеть', 'плохо слышать', 'плохо пахнуть (быть подозрительным)', 'плохо говорить'], correct: 2 },
-      { spanish: 'el traje gris', options: ['серая рубашка', 'серые брюки', 'серый костюм', 'серое пальто'], correct: 2 },
-      { spanish: 'el obrero de la construcción', options: ['архитектор', 'инженер', 'строитель', 'прораб'], correct: 2 },
-      { spanish: 'el casco', options: ['шлем', 'каска', 'шапка', 'кепка'], correct: 1 },
+      { spanish: 'el traje gris', options: ['серая рубашка', 'серый костюм', 'серые брюки', 'серое пальто'], correct: 1 },
+      { spanish: 'el obrero de la construcción', options: ['архитектор', 'инженер', 'прораб', 'строитель'], correct: 3 },
+      { spanish: 'el casco', options: ['каска', 'шлем', 'шапка', 'кепка'], correct: 0 },
       { spanish: 'la caja metálica', options: ['металлический ящик', 'металлическая коробка', 'железная дверь', 'стальной сейф'], correct: 1 },
-      { spanish: 'la carta', options: ['меню', 'открытка', 'письмо', 'документ'], correct: 2 },
-      { spanish: 'el párking', options: ['парк', 'парковка', 'гараж', 'стоянка такси'], correct: 1 },
+      { spanish: 'la carta', options: ['письмо', 'меню', 'открытка', 'документ'], correct: 0 },
+      { spanish: 'el párking', options: ['парк', 'гараж', 'стоянка такси', 'парковка'], correct: 3 },
       { spanish: 'gruñir', options: ['кричать', 'шептать', 'ворчать, рычать', 'смеяться'], correct: 2 },
-      { spanish: 'la bisabuela', options: ['бабушка', 'прабабушка', 'тетя', 'двоюродная бабушка'], correct: 1 },
-      { spanish: 'el exilio', options: ['путешествие', 'переезд', 'изгнание, эмиграция', 'командировка'], correct: 2 },
-      { spanish: 'las joyas', options: ['украшения', 'драгоценности', 'бриллианты', 'золото'], correct: 1 }
+      { spanish: 'la bisabuela', options: ['бабушка', 'тетя', 'двоюродная бабушка', 'прабабушка'], correct: 3 },
+      { spanish: 'el exilio', options: ['путешествие', 'изгнание, эмиграция', 'переезд', 'командировка'], correct: 1 },
+      { spanish: 'las joyas', options: ['драгоценности', 'украшения', 'бриллианты', 'золото'], correct: 0 }
     ]
   },
 
@@ -30422,15 +30422,15 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Bar de Armando. 3 de noviembre. 19.00 h.',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'la caña', options: ['бутылка пива', 'маленькое пиво (стакан пива)', 'вино', 'виски'], correct: 1 },
+      { spanish: 'la caña', options: ['маленькое пиво (стакан пива)', 'бутылка пива', 'вино', 'виски'], correct: 0 },
       { spanish: 'las obras', options: ['работы', 'строительные работы', 'ремонт', 'стройка'], correct: 1 },
       { spanish: 'los industriales', options: ['рабочие', 'фабриканты', 'промышленники', 'бизнесмены'], correct: 2 },
-      { spanish: 'republicano', options: ['демократический', 'либеральный', 'республиканский, республиканец', 'социалистический'], correct: 2 },
+      { spanish: 'republicano', options: ['демократический', 'либеральный', 'социалистический', 'республиканский, республиканец'], correct: 3 },
       { spanish: 'la Guerra Civil', options: ['Первая мировая война', 'Вторая мировая война', 'Гражданская война', 'Война за независимость'], correct: 2 },
       { spanish: 'el ejército', options: ['флот', 'армия', 'полиция', 'гвардия'], correct: 1 },
-      { spanish: 'a las puertas de', options: ['за дверью', 'у ворот, у дверей', 'перед домом', 'на улице'], correct: 1 },
-      { spanish: 'huir', options: ['идти', 'бегать', 'бежать, убегать', 'летать'], correct: 2 },
-      { spanish: 'pasar la frontera', options: ['переехать страну', 'пересечь границу', 'покинуть город', 'сменить адрес'], correct: 1 },
+      { spanish: 'a las puertas de', options: ['за дверью', 'перед домом', 'у ворот, у дверей', 'на улице'], correct: 2 },
+      { spanish: 'huir', options: ['бежать, убегать', 'идти', 'бегать', 'летать'], correct: 0 },
+      { spanish: 'pasar la frontera', options: ['пересечь границу', 'переехать страну', 'покинуть город', 'сменить адрес'], correct: 0 },
       { spanish: 'refugiarse', options: ['переехать', 'укрыться, найти убежище', 'спрятаться', 'эмигрировать'], correct: 1 },
       { spanish: 'heredar', options: ['покупать', 'продавать', 'дарить', 'наследовать'], correct: 3 }
     ]
@@ -30443,18 +30443,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный перевод слова',
     questions: [
       { spanish: 'el cumpleaños', options: ['праздник', 'день рождения', 'годовщина', 'именины'], correct: 1 },
-      { spanish: 'el bocadillo de atún', options: ['бутерброд с ветчиной', 'бутерброд с тунцом', 'сэндвич с сыром', 'хот-дог'], correct: 1 },
-      { spanish: 'el mono de trabajo', options: ['рабочая куртка', 'рабочие брюки', 'рабочий комбинезон', 'спецодежда'], correct: 2 },
-      { spanish: 'el pico', options: ['лопата', 'молоток', 'кирка, кайло', 'топор'], correct: 2 },
+      { spanish: 'el bocadillo de atún', options: ['бутерброд с ветчиной', 'сэндвич с сыром', 'бутерброд с тунцом', 'хот-дог'], correct: 2 },
+      { spanish: 'el mono de trabajo', options: ['рабочая куртка', 'рабочий комбинезон', 'рабочие брюки', 'спецодежда'], correct: 1 },
+      { spanish: 'el pico', options: ['лопата', 'молоток', 'топор', 'кирка, кайло'], correct: 3 },
       { spanish: 'el trabajo manual', options: ['домашняя работа', 'умственный труд', 'ручной труд', 'офисная работа'], correct: 2 },
-      { spanish: 'dar mal rollo (coloquial)', options: ['плохо выглядеть', 'плохо себя чувствовать', 'вызывать дурное предчувствие (разг.)', 'быть в плохом настроении'], correct: 2 },
-      { spanish: 'la rata', options: ['мышь', 'крыса', 'хомяк', 'кролик'], correct: 1 },
-      { spanish: 'la linterna', options: ['лампа', 'свеча', 'фонарик', 'прожектор'], correct: 2 },
+      { spanish: 'dar mal rollo (coloquial)', options: ['вызывать дурное предчувствие (разг.)', 'плохо выглядеть', 'плохо себя чувствовать', 'быть в плохом настроении'], correct: 0 },
+      { spanish: 'la rata', options: ['крыса', 'мышь', 'хомяк', 'кролик'], correct: 0 },
+      { spanish: 'la linterna', options: ['фонарик', 'лампа', 'свеча', 'прожектор'], correct: 0 },
       { spanish: 'iluminar', options: ['зажигать', 'тушить', 'освещать', 'светить'], correct: 2 },
-      { spanish: 'al cabo de', options: ['в конце', 'сначала', 'спустя, через', 'во время'], correct: 2 },
-      { spanish: 'el agujero', options: ['яма', 'дыра, яма', 'канава', 'ров'], correct: 1 },
+      { spanish: 'al cabo de', options: ['в конце', 'сначала', 'во время', 'спустя, через'], correct: 3 },
+      { spanish: 'el agujero', options: ['яма', 'канава', 'ров', 'дыра, яма'], correct: 3 },
       { spanish: 'la poli (coloquial)', options: ['больница', 'полиция (разг.)', 'почта', 'политика'], correct: 1 },
-      { spanish: 'los Mossos', options: ['таксисты', 'пожарные', 'Мососы (полиция Каталонии)', 'врачи'], correct: 2 },
+      { spanish: 'los Mossos', options: ['Мососы (полиция Каталонии)', 'таксисты', 'пожарные', 'врачи'], correct: 0 },
       { spanish: '¡Qué pena!', options: ['Как хорошо!', 'Какая жалость!', 'Как интересно!', 'Как странно!'], correct: 1 }
     ]
   },
