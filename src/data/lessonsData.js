@@ -97,7 +97,7 @@ export const modules = {
     id: 'module-10',
     title: 'Модуль 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ. Modo imperativo afirmativo, Modo imperativo negativo',
     level: 'elementary',
-    lessons: ['lesson-10-1', 'lesson-10-2'],
+    lessons: ['lesson-10-1', 'lesson-10-2', 'lesson-10-3'],
     description: 'Повелительное наклонение (утвердительная и отрицательная форма), лексика здоровья и визита к врачу'
   },
   'module-17': {
@@ -11116,9 +11116,204 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'preocuparse', translation: 'беспокоиться' },
       { word: 'cuidarse', translation: 'заботиться о себе' },
       { word: 'portarse', translation: 'вести себя' },
-      { word: 'relajarse', translation: 'расслабляться' }
+      { word: 'relajarse', translation: 'расслабляться' },
+      { word: 'echar algo', translation: 'выбросить / положить / насыпать / налить что-либо' },
+      { word: 'echar a alguien', translation: 'выгнать / уволить кого-либо' },
+      { word: 'echarse', translation: 'прилечь' },
+      { word: 'echar a + inf.', translation: 'начать (с глаголами движения)' },
+      { word: 'echarse a + inf.', translation: 'начать (с глаголами, которые выражают эмоции)' },
+      { word: 'echar de menos a alguien', translation: 'скучать по кому-либо' },
+      { word: 'echarse a perder', translation: 'испортиться / протухнуть' }
     ],
-    exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4']
+    exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
+  },
+
+  'lesson-10-3': {
+    id: 'lesson-10-3',
+    title: 'Урок 3: Imperativo Negativo (Отрицательная форма повелительного наклонения)',
+    moduleId: 'module-10',
+    grammar: {
+      title: 'Imperativo Negativo (Отрицательная форма повелительного наклонения)',
+      intro: `Отрицательная форма (Imperativo Negativo) — это, пожалуй, самая логичная часть испанского повелительного наклонения, потому что она полностью совпадает с формами Subjuntivo.
+
+**Главное правило:** здесь нет деления на «особые» формы для tú и vosotros. Все лица подчиняются одной логике — «противоположное окончание».`,
+      sections: [
+        {
+          id: 'formation',
+          title: '1. Как образуются формы',
+          content: `## 1. Как образуются формы
+
+Мы берем основу формы **Yo** (настоящего времени) и добавляем **противоположные окончания**:
+- Для глаголов на **-AR** → окончания с буквой **E**
+- Для глаголов на **-ER / -IR** → окончания с буквой **A**
+
+### Таблица окончаний
+
+| Лицо | -AR (hablar) | -ER / -IR (comer/subir) |
+|------|--------------|-------------------------|
+| **tú** | no habl**es** | no com**as** |
+| **usted** | no habl**e** | no com**a** |
+| **nosotros** | no habl**emos** | no com**amos** |
+| **vosotros** | no habl**éis** | no com**áis** |
+| **ustedes** | no habl**en** | no com**an** |
+
+**Примеры:**
+- ¡No hables tan rápido! (Не говори так быстро!)
+- ¡No coman en clase! (Не ешьте в классе!)
+- ¡No escribáis en el libro! (Не пишите в книге!)`
+        },
+        {
+          id: 'important-nuances',
+          title: '2. Важные нюансы для Vosotros и Nosotros',
+          content: `## 2. Важные нюансы для Vosotros и Nosotros
+
+В отрицании **нет потери букв** (-s или -d), как это было в утверждении. Но есть **чередование гласных в корне**:
+
+### Группа 3 и 4 (sentir, dormir):
+В формах **nosotros** и **vosotros** корень меняется на **i** и **u**.
+
+| Глагол | Nosotros | Vosotros |
+|--------|----------|----------|
+| sentir | no **sint**amos | no **sint**áis |
+| dormir | no **durm**amos | no **durm**áis |
+
+**Примеры:**
+- ¡No sintáis miedo! (Не бойтесь!)
+- ¡No durmamos hasta tarde! (Давайте не спать до поздна!)
+
+### Группа 1 (pensar, volver):
+В формах **nosotros** и **vosotros** корень **не меняется**.
+
+| Глагол | Nosotros | Vosotros |
+|--------|----------|----------|
+| pensar | no pens**emos** | no pens**éis** |
+| volver | no volv**amos** | no volv**áis** |
+
+**Примеры:**
+- ¡No penséis en eso! (Не думайте об этом!)
+- ¡No volvamos tarde! (Давайте не вернемся поздно!)`
+        },
+        {
+          id: 'pronouns',
+          title: '3. Местоимения (Главное отличие!)',
+          content: `## 3. Местоимения (Главное отличие!)
+
+В отрицании всё наоборот: **местоимения никогда не приклеиваются в конце**. Они **всегда стоят перед глаголом отдельно**.
+
+### Схема:
+**No + (кому) + (что) + Глагол**
+
+### Пример с глаголом sentarse (садиться) и decirlo (сказать это):
+
+| Лицо | Отрицание (возвратный) | Отрицание (с дополнением) |
+|------|------------------------|---------------------------|
+| **tú** | no **te** sientes | no **lo** digas |
+| **usted** | no **se** siente | no **lo** diga |
+| **nosotros** | no **nos** sentemos | no **lo** digamos |
+| **vosotros** | no **os** sentéis | no **lo** digáis |
+| **ustedes** | no **se** sienten | no **lo** digan |
+
+**Примеры:**
+- ¡No te levantes tarde! (Не вставай поздно!)
+- ¡No se preocupe! (Не беспокойтесь!)
+- ¡No lo hagas! (Не делай этого!)
+- ¡No me lo digas! (Не говори мне это!)
+- ¡No se lo des! (Не давай ему это!)`
+        },
+        {
+          id: 'exceptions',
+          title: '4. Исключения (Те же, что в Subjuntivo)',
+          content: `## 4. Исключения (Те же, что в Subjuntivo)
+
+Так как это формы Subjuntivo, исключения здесь стандартные:
+
+| Инфинитив | tú | usted | nosotros | vosotros | ustedes |
+|-----------|-----|-------|----------|----------|---------|
+| **ser** | no seas | no sea | no seamos | no seáis | no sean |
+| **ir** | no vayas | no vaya | no vayamos | no vayáis | no vayan |
+| **dar** | no des | no dé | no demos | no deis | no den |
+| **saber** | no sepas | no sepa | no sepamos | no sepáis | no sepan |
+| **estar** | no estés | no esté | no estemos | no estéis | no estén |
+
+**Примеры:**
+- ¡No seas tonto! (Не будь глупым!)
+- ¡No vayan allí! (Не ходите туда!)
+- ¡No dé su opinión ahora! (Не давайте своё мнение сейчас!)
+- ¡No estés triste! (Не грусти!)
+- ¡No sepáis la verdad todavía! (Не узнавайте правду пока!)`
+        },
+        {
+          id: 'comparison',
+          title: '5. Сравнение Afirmativo и Negativo',
+          content: `## 5. Сравнение Afirmativo и Negativo
+
+| Форма | Утверждение (Afirmativo) | Отрицание (Negativo) |
+|-------|--------------------------|----------------------|
+| **tú** | ¡Habla! | ¡No hables! |
+| **tú + возвр.** | ¡Levántate! | ¡No te levantes! |
+| **tú + доп.** | ¡Dilo! | ¡No lo digas! |
+| **usted** | ¡Hable! | ¡No hable! |
+| **vosotros** | ¡Hablad! | ¡No habléis! |
+| **vosotros + возвр.** | ¡Levantaos! | ¡No os levantéis! |
+| **nosotros** | ¡Hablemos! | ¡No hablemos! |
+| **ustedes** | ¡Hablen! | ¡No hablen! |
+
+**Ключевые отличия:**
+1. **tú и vosotros** — в отрицании используют формы Subjuntivo
+2. **Местоимения** — в отрицании всегда стоят ПЕРЕД глаголом
+3. **Без потери букв** — в формах vosotros и nosotros нет упрощений`
+        },
+        {
+          id: 'usage-examples',
+          title: '6. Примеры использования',
+          content: `## 6. Примеры использования Imperativo Negativo
+
+### В медицинском контексте:
+- ¡No coma alimentos grasos! (Не ешьте жирную пищу!)
+- ¡No fume! (Не курите!)
+- ¡No beba alcohol! (Не пейте алкоголь!)
+- ¡No se preocupe! (Не беспокойтесь!)
+- ¡No tome este medicamento! (Не принимайте это лекарство!)
+
+### В повседневной жизни:
+- ¡No llegues tarde! (Не опаздывай!)
+- ¡No hagas ruido! (Не шуми!)
+- ¡No te olvides de mí! (Не забывай обо мне!)
+- ¡No me llames por la noche! (Не звони мне ночью!)
+- ¡No lo hagas! (Не делай этого!)
+
+### Советы и предупреждения:
+- ¡No vayas allí solo! (Не ходи туда один!)
+- ¡No hables con extraños! (Не разговаривай с незнакомцами!)
+- ¡No toquéis eso! (Не трогайте это!)
+- ¡No nos mintáis! (Не врите нам!)
+- ¡No se lo digas a nadie! (Не говори это никому!)`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'prohibir', translation: 'запрещать' },
+      { word: 'evitar', translation: 'избегать' },
+      { word: 'impedir', translation: 'препятствовать' },
+      { word: 'advertir', translation: 'предупреждать' },
+      { word: 'no hacer caso', translation: 'не обращать внимания' },
+      { word: 'no tocar', translation: 'не трогать' },
+      { word: 'no molestar', translation: 'не беспокоить' },
+      { word: 'no interrumpir', translation: 'не перебивать' },
+      { word: 'no olvidar', translation: 'не забывать' },
+      { word: 'no preocuparse', translation: 'не беспокоиться' },
+      { word: 'jamás', translation: 'никогда' },
+      { word: 'nunca', translation: 'никогда' },
+      { word: 'ni...ni', translation: 'ни...ни' },
+      { word: 'tampoco', translation: 'тоже не' },
+      { word: 'nadie', translation: 'никто' },
+      { word: 'nada', translation: 'ничто' },
+      { word: 'ninguno', translation: 'никакой' },
+      { word: 'la prohibición', translation: 'запрет' },
+      { word: 'la advertencia', translation: 'предупреждение' },
+      { word: 'el peligro', translation: 'опасность' }
+    ],
+    exercises: []
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -35633,6 +35828,24 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Одевайся быстрее, мы опаздываем.', correct: 'Vístete más rápido, llegamos tarde.', alternatives: ['Vístete más rápido, vamos tarde.'] },
       { russian: 'Ложитесь (vosotros) спать рано, завтра рано вставать.', correct: 'Acostaos temprano, mañana hay que levantarse temprano.', alternatives: ['Acostaos pronto, mañana hay que madrugar.'] },
       { russian: 'Успокойтесь (usted) и объясните, что случилось.', correct: 'Cálmese y explique qué ha pasado.', alternatives: ['Cálmese y explique lo que ha pasado.'] }
+    ]
+  },
+
+  'ex-10-2-5': {
+    id: 'ex-10-2-5',
+    type: 'translation-to-russian',
+    title: 'Упражнение 5: Переведите на русский язык',
+    description: 'Переведите предложения с глаголом echar на русский язык',
+    showAnswerOption: true,
+    questions: [
+      { spanish: 'Está prohibido echar papeles en el suelo.', correct: 'Запрещено выбрасывать бумаги на пол.', alternatives: ['Запрещено бросать бумаги на пол.', 'Запрещено кидать бумаги на пол.'] },
+      { spanish: 'Si echas más sal la sopa estará salada.', correct: 'Если добавишь больше соли, суп будет соленым.', alternatives: ['Если насыплешь больше соли, суп будет соленым.', 'Если положишь больше соли, суп будет соленым.'] },
+      { spanish: 'Échame un poco de leche en el café.', correct: 'Налей мне немного молока в кофе.', alternatives: ['Добавь мне немного молока в кофе.'] },
+      { spanish: 'Si no pagamos el alquiler a tiempo, nos echarán a la calle.', correct: 'Если не заплатим за квартиру вовремя, нас выгонят на улицу.', alternatives: ['Если не заплатим аренду вовремя, нас выгонят на улицу.', 'Если не оплатим аренду вовремя, нас выгонят на улицу.'] },
+      { spanish: 'Si te sientes mal, échate en el diván y yo te serviré té.', correct: 'Если чувствуешь себя плохо, приляг на диван, и я подам тебе чай.', alternatives: ['Если плохо себя чувствуешь, ложись на диван, и я принесу тебе чай.'] },
+      { spanish: 'Cuando el padre se va de viaje de negocios los hijos le echan mucho de menos.', correct: 'Когда отец уезжает в командировку, дети очень по нему скучают.', alternatives: ['Когда отец едет в деловую поездку, дети сильно по нему скучают.'] },
+      { spanish: 'Si no pones la carne en el frigorífico se echará a perder.', correct: 'Если не положишь мясо в холодильник, оно испортится.', alternatives: ['Если не поставишь мясо в холодильник, оно протухнет.'] },
+      { spanish: 'Al ver romper el balón Pepito se echó a llorar y sus compañeros echaron a correr.', correct: 'Увидев, как лопнул мяч, Пепито начал плакать, а его товарищи побежали.', alternatives: ['Когда лопнул мяч, Пепито заплакал, а его друзья побежали.', 'Увидев, что мяч лопнул, Пепито расплакался, а его товарищи бросились бежать.'] }
     ]
   }
 }
