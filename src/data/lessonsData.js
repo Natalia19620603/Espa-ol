@@ -11118,7 +11118,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'portarse', translation: 'вести себя' },
       { word: 'relajarse', translation: 'расслабляться' }
     ],
-    exercises: ['ex-10-2-1']
+    exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4']
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -35089,7 +35089,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-1-part-a',
         type: 'transformation',
         title: 'Часть a) tú — vosotros',
-        description: 'Образуйте формы повелительного наклонения для tú и vosotros',
+        description: '📝 Образец: Hablar (tú) → Habla. Hablar (vosotros) → Hablad.',
         questions: [
           { sentence: 'Fumar menos (tú)', correct: 'Fuma menos' },
           { sentence: 'Fumar menos (vosotros)', correct: 'Fumad menos' },
@@ -35127,7 +35127,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-1-part-b',
         type: 'transformation',
         title: 'Часть b) usted — ustedes — nosotros',
-        description: 'Образуйте формы повелительного наклонения для usted, ustedes и nosotros',
+        description: '📝 Образец: Comer (usted) → Coma. Comer (ustedes) → Coman. Comer (nosotros) → Comamos.',
         questions: [
           { sentence: 'Descansar más (usted)', correct: 'Descanse más' },
           { sentence: 'Descansar más (ustedes)', correct: 'Descansen más' },
@@ -35190,7 +35190,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-2-part-a',
         type: 'transformation',
         title: 'Часть a) tú → usted',
-        description: 'Образец: Abre la puerta. → Abra usted la puerta.',
+        description: '📝 Образец: Abre la puerta. → Abra usted la puerta.',
         questions: [
           { sentence: 'Lee el fax.', correct: 'Lea usted el fax.' },
           { sentence: 'Rompe la carta.', correct: 'Rompa usted la carta.' },
@@ -35217,7 +35217,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-2-part-b',
         type: 'transformation',
         title: 'Часть b) vosotros → nosotros',
-        description: 'Образец: Abrid la puerta. → Abramos la puerta.',
+        description: '📝 Образец: Abrid la puerta. → Abramos la puerta.',
         questions: [
           { sentence: 'Leed el fax.', correct: 'Leamos el fax.' },
           { sentence: 'Romped la carta.', correct: 'Rompamos la carta.' },
@@ -35276,7 +35276,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-1',
         type: 'transformation',
         title: 'Модуль 1: Знакомство, профессии, страны',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Hablar español (tú) → ¡Habla español!',
         questions: [
           { sentence: 'Decir tu nombre (tú)', correct: '¡Di tu nombre!' },
           { sentence: 'Hablar español (vosotros)', correct: '¡Hablad español!' },
@@ -35299,7 +35299,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-2',
         type: 'transformation',
         title: 'Модуль 2: Характер, внешность, семья',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Ser amable (tú) → ¡Sé amable!',
         questions: [
           { sentence: 'Describir a tu familia (tú)', correct: '¡Describe a tu familia!' },
           { sentence: 'Ser simpático (vosotros)', correct: '¡Sed simpáticos!' },
@@ -35322,7 +35322,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-3',
         type: 'transformation',
         title: 'Модуль 3: Дом, аренда, завтрак',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Limpiar la casa (usted) → ¡Limpie la casa!',
         questions: [
           { sentence: 'Alquilar un apartamento (tú)', correct: '¡Alquila un apartamento!' },
           { sentence: 'Buscar una casa (vosotros)', correct: '¡Buscad una casa!' },
@@ -35345,7 +35345,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-4',
         type: 'transformation',
         title: 'Модуль 4: Повседневная жизнь, город, транспорт',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Tomar el autobús (tú) → ¡Toma el autobús!',
         questions: [
           { sentence: 'Levantarse temprano (tú)', correct: '¡Levántate temprano!' },
           { sentence: 'Ducharse por la mañana (vosotros)', correct: '¡Duchaos por la mañana!' },
@@ -35368,7 +35368,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-5',
         type: 'transformation',
         title: 'Модуль 5: Путешествия, погода, Futuro Simple',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Viajar más (nosotros) → ¡Viajemos más!',
         questions: [
           { sentence: 'Viajar más (tú)', correct: '¡Viaja más!' },
           { sentence: 'Hacer las maletas (vosotros)', correct: '¡Haced las maletas!' },
@@ -35391,7 +35391,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-6',
         type: 'transformation',
         title: 'Модуль 6: Покупки, магазины, Pretérito Indefinido',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Comprar ropa (vosotros) → ¡Comprad ropa!',
         questions: [
           { sentence: 'Ir de compras (tú)', correct: '¡Ve de compras!' },
           { sentence: 'Comprar ropa nueva (vosotros)', correct: '¡Comprad ropa nueva!' },
@@ -35414,7 +35414,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-7',
         type: 'transformation',
         title: 'Модуль 7: Еда, календарь, Pretérito Imperfecto',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Comer verduras (ustedes) → ¡Coman verduras!',
         questions: [
           { sentence: 'Comer frutas y verduras (tú)', correct: '¡Come frutas y verduras!' },
           { sentence: 'Preparar la cena (vosotros)', correct: '¡Preparad la cena!' },
@@ -35437,7 +35437,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-8',
         type: 'transformation',
         title: 'Модуль 8: Отпуск, туризм, Potencial Simple',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Descansar bien (usted) → ¡Descanse bien!',
         questions: [
           { sentence: 'Descansar más (tú)', correct: '¡Descansa más!' },
           { sentence: 'Relajarse en las vacaciones (vosotros)', correct: '¡Relajaos en las vacaciones!' },
@@ -35460,7 +35460,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         id: 'ex-10-1-4-part-9',
         type: 'transformation',
         title: 'Модуль 9: Спорт, Voz Pasiva, инфинитивные конструкции',
-        description: 'Используйте формы повелительного наклонения',
+        description: '📝 Образец: Hacer deporte (nosotros) → ¡Hagamos deporte!',
         questions: [
           { sentence: 'Hacer deporte (tú)', correct: '¡Haz deporte!' },
           { sentence: 'Entrenar regularmente (vosotros)', correct: '¡Entrenad regularmente!' },
@@ -35519,6 +35519,120 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Preparar (vosotros) + os', correct: '¡Preparaos!', translation: 'Готовьтесь!' },
       { sentence: 'Poner (tú) + te + lo', correct: '¡Póntelo!', translation: 'Надень это!' },
       { sentence: 'Quitar (tú) + te + lo', correct: '¡Quítatelo!', translation: 'Сними это!' }
+    ]
+  },
+
+  'ex-10-2-2': {
+    id: 'ex-10-2-2',
+    type: 'multi-part',
+    title: 'Упражнение 2: Измените предложения по образцу',
+    description: 'Преобразуйте предложения в форму императива для указанных местоимений',
+    showAnswerOption: true,
+    parts: [
+      {
+        id: 'ex-10-2-2-part-a',
+        type: 'transformation',
+        title: 'Возвратные глаголы',
+        description: '📝 Образец: Quiero lavarme (tú, usted). → Lávate. Lávese.',
+        questions: [
+          { sentence: 'Necesito despertarme a las siete (tú, usted). →', correct: 'Despiértate. Despiértese.' },
+          { sentence: 'Tenemos que acostarnos ahora mismo (vosotros, ustedes). →', correct: 'Acostaos. Acuéstense.' },
+          { sentence: 'Necesito dormirme en seguida (tú, usted). →', correct: 'Duérmete. Duérmase.' },
+          { sentence: 'Vamos a divertirnos hasta la madrugada (vosotros, nosotros). →', correct: 'Divertíos. Divirtámonos.' },
+          { sentence: 'Quiero apuntarme a las clases de esquí (tú, usted). →', correct: 'Apúntate. Apúntese.' },
+          { sentence: 'Voy a vestirme elegante (tú, usted). →', correct: 'Vístete. Vístase.' },
+          { sentence: 'Queremos irnos de aquí (vosotros, ustedes, nosotros). →', correct: 'Idos. Váyanse. Vayámonos.' },
+          { sentence: 'Debo despedirme de los socios (tú, usted). →', correct: 'Despídete. Despídase.' },
+          { sentence: 'Podemos dirigirnos a Juan, es muy listo (vosotros, nosotros). →', correct: 'Dirigíos. Dirijámonos.' },
+          { sentence: 'Queremos encontrarnos con nuestros amigos (nosotros, ustedes). →', correct: 'Encontrémonos. Encuéntrense.' },
+          { sentence: 'Necesito levantarme temprano (tú, usted). →', correct: 'Levántate. Levántese.' },
+          { sentence: 'Voy a sentarme aquí (tú, usted). →', correct: 'Siéntate. Siéntese.' },
+          { sentence: 'Quiero quedarme en casa (tú, usted). →', correct: 'Quédate. Quédese.' },
+          { sentence: 'Necesitamos ducharnos antes de salir (vosotros, nosotros). →', correct: 'Duchaos. Duchémonos.' },
+          { sentence: 'Quiero prepararme para la fiesta (tú, usted). →', correct: 'Prepárate. Prepárese.' }
+        ]
+      }
+    ]
+  },
+
+  'ex-10-2-3': {
+    id: 'ex-10-2-3',
+    type: 'multi-part',
+    title: 'Упражнение 3: Imperativo с местоимениями-дополнениями',
+    description: 'Образуйте форму imperativo afirmativo и замените подчеркнутые слова соответствующими формами местоимений-дополнений',
+    showAnswerOption: true,
+    parts: [
+      {
+        id: 'ex-10-2-3-part-a',
+        type: 'transformation',
+        title: 'Часть a) Прямые дополнения',
+        description: '📝 Образец: Quiero vender mi coche (tú, usted). → Véndelo. Véndalo.',
+        questions: [
+          { sentence: 'Voy a decir la verdad (tú, usted). →', correct: 'Dila. Dígala.' },
+          { sentence: 'Necesito escribir un artículo (tú, usted). →', correct: 'Escríbelo. Escríbalo.' },
+          { sentence: 'Tenemos que atender a los turistas (vosotros, ustedes). →', correct: 'Atendedlos. Atiéndanlos.' },
+          { sentence: 'Debemos hacer unas preguntas (vosotros, ustedes). →', correct: 'Hacedlas. Háganlas.' },
+          { sentence: 'Voy a poner la mesa (tú, usted). →', correct: 'Ponla. Póngala.' },
+          { sentence: 'Necesitamos despertar a los hijos (nosotros, ustedes). →', correct: 'Despertémoslos. Despiértenlos.' },
+          { sentence: 'Quiero conocer a la novia (tú, usted). →', correct: 'Conócela. Conózcala.' },
+          { sentence: 'Debemos construir aquí un puente (nosotros, vosotros). →', correct: 'Construyámoslo. Construidlo.' },
+          { sentence: 'Quiero buscar un hotel de lujo en la costa (tú, usted). →', correct: 'Búscalo. Búsquelo.' },
+          { sentence: 'Queremos cerrar las ventanas (nosotros, ustedes). →', correct: 'Cerrémoslas. Ciérrenlas.' },
+          { sentence: 'Voy a comprar los zapatos (tú, usted). →', correct: 'Cómpralos. Cómprelos.' },
+          { sentence: 'Necesito leer el libro (tú, usted). →', correct: 'Léelo. Léalo.' },
+          { sentence: 'Quiero ver la película (tú, usted). →', correct: 'Vela. Véala.' },
+          { sentence: 'Tenemos que terminar el trabajo (vosotros, nosotros). →', correct: 'Terminadlo. Terminémoslo.' },
+          { sentence: 'Voy a traer el pasaporte (tú, usted). →', correct: 'Tráelo. Tráigalo.' }
+        ]
+      },
+      {
+        id: 'ex-10-2-3-part-b',
+        type: 'transformation',
+        title: 'Часть b) Косвенные дополнения',
+        description: '📝 Образец: Quiero venderle mi coche a Juan (tú, usted). → Véndeselo. Véndaselo.',
+        questions: [
+          { sentence: 'Tenemos que devolverle la deuda al vecino (vosotros, ustedes). →', correct: 'Devolvédsela. Devuélvansela.' },
+          { sentence: 'Quiero traerles flores a las chicas (tú, usted). →', correct: 'Tráeselas. Tráigaselas.' },
+          { sentence: 'Voy a ponerme el vestido azul (tú, usted). →', correct: 'Póntelo. Póngaselo.' },
+          { sentence: 'Necesito decirles a mis amigos que estoy mal (tú, usted). →', correct: 'Díselo. Dígaselo.' },
+          { sentence: 'Queremos hacerle unas preguntas al recepcionista (nosotros, vosotros). →', correct: 'Hagámoselas. Hacédselas.' },
+          { sentence: 'Necesito probarme los zapatos negros (tú, usted). →', correct: 'Pruébatelos. Pruébeselos.' },
+          { sentence: 'Vamos a dedicarles la victoria a los padres (vosotros, ustedes). →', correct: 'Dedicádsela. Dedíquensela.' },
+          { sentence: 'Tengo que abrirle la puerta al médico (tú, usted). →', correct: 'Ábrele. Ábrale.' },
+          { sentence: 'Queremos ofrecerles un viaje exótico a ellos (vosotros, ustedes). →', correct: 'Ofrecédselo. Ofrézcansel.' },
+          { sentence: 'Vamos a contarles nuestras aventuras a los amigos (nosotros, ustedes). →', correct: 'Contémoselas. Cuéntenselas.' },
+          { sentence: 'Voy a darle el regalo a mi madre (tú, usted). →', correct: 'Dáselo. Déselo.' },
+          { sentence: 'Quiero mostrarles las fotos a mis padres (tú, usted). →', correct: 'Muéstraselas. Muéstreselas.' },
+          { sentence: 'Necesito enviarle el mensaje a Juan (tú, usted). →', correct: 'Envíaselo. Envíeselo.' },
+          { sentence: 'Vamos a comprarles los boletos a los niños (vosotros, nosotros). →', correct: 'Comprádselos. Comprémoselos.' },
+          { sentence: 'Quiero explicarle el problema al jefe (tú, usted). →', correct: 'Explícaselo. Explíqueselo.' }
+        ]
+      }
+    ]
+  },
+
+  'ex-10-2-4': {
+    id: 'ex-10-2-4',
+    type: 'translation',
+    title: 'Упражнение 4: Переведите на испанский язык',
+    description: 'Переведите предложения, используя imperativo afirmativo с местоимениями',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Вставай пораньше, делай зарядку по утрам и будешь чувствовать себя лучше.', correct: 'Levántate temprano, haz ejercicio por las mañanas y te sentirás mejor.', alternatives: ['Levántate más temprano, haz ejercicios por las mañanas y te sentirás mejor.'] },
+      { russian: 'Дети, просыпайтесь, умывайтесь и садитесь за стол.', correct: 'Niños, despertaos, lavaos y sentaos a la mesa.', alternatives: ['Niños, despertaos, lavaos y sentaos en la mesa.'] },
+      { russian: 'Позвоните и поблагодарите медсестру (usted) сегодня же.', correct: 'Llame y agradezca a la enfermera hoy mismo.', alternatives: ['Llame y dé las gracias a la enfermera hoy mismo.'] },
+      { russian: 'Следуй всем советам врача: поезжай в санаторий и отдохни.', correct: 'Sigue todos los consejos del médico: ve al sanatorio y descansa.', alternatives: ['Sigue todos los consejos del médico: vete al sanatorio y descansa.'] },
+      { russian: 'Посмотрите (ustedes) эту программу по телевизору и потом скажите мне свое мнение.', correct: 'Vean este programa por televisión y luego díganme su opinión.', alternatives: ['Vean este programa en la televisión y después díganme su opinión.'] },
+      { russian: 'Найди свой шарф, надень его и выходи на улицу, там холодно.', correct: 'Encuentra tu bufanda, póntela y sal a la calle, hace frío.', alternatives: ['Busca tu bufanda, póntela y sal a la calle, hace frío.'] },
+      { russian: 'Вспомните нашу поездку в деревню и улыбнитесь (usted).', correct: 'Recuerde nuestro viaje al pueblo y sonría.', alternatives: ['Recuerde nuestro viaje a la aldea y sonría.'] },
+      { russian: 'Женитесь и будьте счастливы (vosotros).', correct: 'Casaos y sed felices.', alternatives: ['Casaos y estad felices.'] },
+      { russian: 'Мне надо принять лекарство. Принесите мне его (usted).', correct: 'Necesito tomar la medicina. Tráigamela.', alternatives: ['Tengo que tomar el medicamento. Tráigamelo.'] },
+      { russian: 'Больше гуляйте, занимайтесь спортом и бросайте курить (ustedes).', correct: 'Paseen más, hagan deporte y dejen de fumar.', alternatives: ['Caminen más, hagan deporte y dejen de fumar.'] },
+      { russian: 'Умойся холодной водой и почувствуешь себя лучше.', correct: 'Lávate con agua fría y te sentirás mejor.', alternatives: [] },
+      { russian: 'Садитесь (ustedes), пожалуйста, и расскажите нам о вашей поездке.', correct: 'Siéntense, por favor, y cuéntennos sobre su viaje.', alternatives: ['Siéntense, por favor, y cuéntennos de su viaje.'] },
+      { russian: 'Одевайся быстрее, мы опаздываем.', correct: 'Vístete más rápido, llegamos tarde.', alternatives: ['Vístete más rápido, vamos tarde.'] },
+      { russian: 'Ложитесь (vosotros) спать рано, завтра рано вставать.', correct: 'Acostaos temprano, mañana hay que levantarse temprano.', alternatives: ['Acostaos pronto, mañana hay que madrugar.'] },
+      { russian: 'Успокойтесь (usted) и объясните, что случилось.', correct: 'Cálmese y explique qué ha pasado.', alternatives: ['Cálmese y explique lo que ha pasado.'] }
     ]
   }
 }
