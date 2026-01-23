@@ -97,7 +97,7 @@ export const modules = {
     id: 'module-10',
     title: 'Модуль 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ. Modo imperativo afirmativo, Modo imperativo negativo',
     level: 'elementary',
-    lessons: ['lesson-10-1'],
+    lessons: ['lesson-10-1', 'lesson-10-2'],
     description: 'Повелительное наклонение (утвердительная и отрицательная форма), лексика здоровья и визита к врачу'
   },
   'module-17': {
@@ -10903,7 +10903,223 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { spanish: 'radiografía f', russian: 'рентген', example: 'El doctor pidió una radiografía' },
       { spanish: 'tratamiento m', russian: 'лечение', example: 'El tratamiento durará dos semanas' }
     ],
-    exercises: ['ex-10-1-1', 'ex-10-1-2', 'ex-10-1-3']
+    exercises: ['ex-10-1-1', 'ex-10-1-2', 'ex-10-1-3', 'ex-10-1-4']
+  },
+
+  'lesson-10-2': {
+    id: 'lesson-10-2',
+    title: 'Урок 2: Местоимения в Imperativo Afirmativo',
+    moduleId: 'module-10',
+    grammar: {
+      title: 'Местоимения в Imperativo Afirmativo',
+      intro: `Главное правило: в утвердительной форме повелительного наклонения все местоимения (возвратные nos, te, se и дополнения lo, la, le) «приклеиваются» к глаголу в конце.`,
+      sections: [
+        {
+          id: 'phonetic-simplification',
+          title: '1. Фонетическое упрощение (Магия исчезающих букв)',
+          content: `## 1. Фонетическое упрощение (Магия исчезающих букв)
+
+Когда мы добавляем возвратные местоимения к формам **Nosotros** и **Vosotros**, последняя буква глагола исчезает, чтобы слово было легче выговорить:
+
+### У формы Nosotros (мы) исчезает буква -s:
+
+| Глагол | + Местоимение | = Imperativo |
+|--------|---------------|--------------|
+| Lavemos | + nos | **¡Lavémonos!** (Умоемся!) |
+| Acostemos | + nos | **¡Acostémonos!** (Давайте ляжем спать!) |
+| Sentemos | + nos | **¡Sentémonos!** (Давайте сядем!) |
+| Levantemos | + nos | **¡Levantémonos!** (Давайте встанем!) |
+
+**Примеры в предложениях:**
+- ¡Lavémonos las manos antes de comer! (Давайте помоем руки перед едой!)
+- ¡Acostémonos temprano hoy! (Давайте ляжем спать рано сегодня!)
+- ¡Sentémonos aquí! (Давайте сядем здесь!)
+
+### У формы Vosotros (вы) исчезает буква -d:
+
+| Глагол | + Местоимение | = Imperativo |
+|--------|---------------|--------------|
+| Lavad | + os | **¡Lavaos!** (Умойтесь!) |
+| Sentad | + os | **¡Sentaos!** (Садитесь!) |
+| Levantad | + os | **¡Levantaos!** (Вставайте!) |
+| Calláis | + os | **¡Callaos!** (Замолчите!) |
+
+**Примеры в предложениях:**
+- ¡Lavaos las manos! (Помойте руки!)
+- ¡Sentaos en el sofá! (Садитесь на диван!)
+- ¡Levantaos temprano! (Вставайте рано!)
+
+### **Исключение:** Глагол irse (уходить)
+
+Буква **-d** сохраняется: **¡Idos!** (Уходите!)
+
+- ¡Idos de aquí! (Уходите отсюда!)
+- ¡Idos a casa! (Уходите домой!)`
+        },
+        {
+          id: 'graphic-accent',
+          title: '2. Графическое ударение (Тильда)',
+          content: `## 2. Графическое ударение (Тильда)
+
+Когда слово становится длиннее из-за приклеенного местоимения, нам часто нужно поставить знак ударения (акцент), чтобы сохранить оригинальное звучание глагола.
+
+### Правило постановки тильды:
+
+Если после присоединения местоимения ударение падает на третий слог от конца или дальше, нужно поставить тильду.
+
+| Глагол | Слогов | + Местоимение | Результат | Тильда? |
+|--------|--------|---------------|-----------|---------|
+| Di | 1 | + lo | **Dilo** | НЕТ (2 слога) |
+| Diga | 2 | + lo | **Dígalo** | ДА (3 слога, ударение на -Dí-) |
+| Dame | 2 | + lo | **Dámelo** | ДА (3 слога, ударение на -Dá-) |
+| Compra | 2 | + lo | **Cómpralo** | ДА (3 слога, ударение на -Cóm-) |
+| Escribe | 3 | + lo | **Escríbelo** | ДА (4 слога, ударение на -crí-) |
+| Trae | 1 | + me + lo | **Tráemelo** | ДА (3 слога, ударение на -Trá-) |
+
+**Примеры:**
+- ¡**Dilo**! (Скажи это!) - 2 слога, тильда не нужна
+- ¡**Dígalo**! (Скажите это!) - 3 слога, нужна тильда
+- ¡**Cómpralo**! (Купи это!) - 3 слога, нужна тильда
+- ¡**Escríbelo**! (Напиши это!) - 4 слога, нужна тильда
+- ¡**Dámelo**! (Дай мне это!) - 3 слога, нужна тильда
+- ¡**Tráemelo**! (Принеси мне это!) - 4 слога, нужна тильда`
+        },
+        {
+          id: 'summary-table',
+          title: '3. Сводная таблица (Примеры)',
+          content: `## 3. Сводная таблица (Примеры)
+
+### Возвратные глаголы (lavarse - мыться):
+
+| Лицо | Imperativo | С местоимением | Перевод |
+|------|-----------|----------------|---------|
+| **Tú** | Lava | **¡Lávate!** | Умойся! |
+| **Vosotros** | Lavad | **¡Lavaos!** (без -d) | Умойтесь! |
+| **Usted** | Lave | **¡Lávese!** | Умойтесь! (вежл.) |
+| **Ustedes** | Laven | **¡Lávense!** | Умойтесь! (вежл. мн.ч.) |
+| **Nosotros** | Lavemos | **¡Lavémonos!** (без -s) | Давайте умоемся! |
+
+### Глагол с дополнением (decirlo - сказать это):
+
+| Лицо | Imperativo | С местоимением | Перевод |
+|------|-----------|----------------|---------|
+| **Tú** | Di | **¡Dilo!** | Скажи это! |
+| **Vosotros** | Decid | **¡Decidlo!** | Скажите это! |
+| **Usted** | Diga | **¡Dígalo!** | Скажите это! (вежл.) |
+| **Ustedes** | Digan | **¡Díganlo!** | Скажите это! (вежл. мн.ч.) |
+| **Nosotros** | Digamos | **¡Digámoslo!** | Давайте скажем это! |
+
+**Важно:** В форме Nosotros буква **-s** выпадает только перед местоимением **nos**. Если мы добавляем **lo, la, los, las**, буква **-s** остается на месте:
+- ¡Digámoslo! (Скажем это!) - **-s** остается
+- ¡Comprémoslo! (Купим это!) - **-s** остается
+- ¡Levantémonos! (Давайте встанем!) - **-s** исчезает перед **nos**`
+        },
+        {
+          id: 'two-pronouns',
+          title: '4. Порядок, если местоимений два',
+          content: `## 4. Порядок, если местоимений два
+
+Если у вас и **дополнение** (что?), и **косвенное дополнение** (кому?), они оба пишутся слитно в конце. Сначала идет «кому», потом «что».
+
+### Формула: Глагол + (кому) + (что)
+
+| Глагол | Кому | Что | Результат | Перевод |
+|--------|------|-----|-----------|---------|
+| Da | me | lo | **¡Dámelo!** | Дай мне это! |
+| Trae | me | la | **¡Tráemela!** | Принеси мне её! |
+| Compra | te | lo | **¡Cómpratelo!** | Купи себе это! |
+| Explica | nos | lo | **¡Explícanoslo!** | Объясни нам это! |
+| Envía | les | las | **¡Envíaselas!** | Отправь им их! |
+
+**Примеры в предложениях:**
+- ¡**Dámelo** ahora! (Дай мне это сейчас!)
+- ¡**Tráemelo** mañana! (Принеси мне это завтра!)
+- ¡**Cómpratelo**! Te va a gustar. (Купи себе это! Тебе понравится.)
+- ¡**Envíaselo** por correo! (Отправь ему это по почте!)
+- ¡**Explícanoslo** otra vez! (Объясни нам это ещё раз!)
+
+### Особенность: Замена le/les на se
+
+Когда **le** или **les** стоит перед **lo/la/los/las**, они заменяются на **se** для благозвучия:
+
+| Неправильно | Правильно | Перевод |
+|-------------|-----------|---------|
+| ~~Dále + lo~~ | **¡Dáselo!** | Дай ему это! |
+| ~~Dále + la~~ | **¡Dásela!** | Дай ему её! |
+| ~~Dáles + lo~~ | **¡Dáselo!** | Дай им это! |
+| ~~Explicále + lo~~ | **¡Explícaselo!** | Объясни ему это! |
+
+**Примеры:**
+- ¡**Dáselo** a Juan! (Дай это Хуану!)
+- ¡**Explícaselo** bien! (Объясни ему это хорошо!)
+- ¡**Cómpraselo**! (Купи ему это!)`
+        },
+        {
+          id: 'practice-examples',
+          title: '5. Практические примеры',
+          content: `## 5. Практические примеры
+
+### Возвратные глаголы:
+- **Levantarse** (вставать):
+  - ¡Levántate! (Вставай!)
+  - ¡Levantaos! (Вставайте!)
+  - ¡Levántese! (Вставайте - вежл.)
+  - ¡Levántense! (Вставайте - вежл. мн.ч.)
+  - ¡Levantémonos! (Давайте встанем!)
+
+- **Ducharse** (принимать душ):
+  - ¡Dúchate rápido! (Прими душ быстро!)
+  - ¡Duchaos antes de salir! (Примите душ перед выходом!)
+
+- **Vestirse** (одеваться):
+  - ¡Vístete elegante! (Оденься элегантно!)
+  - ¡Vístanse formal! (Оденьтесь формально!)
+
+### Глаголы с прямым дополнением:
+- **Hacer** (делать):
+  - ¡Hazlo ahora! (Сделай это сейчас!)
+  - ¡Háganlo bien! (Сделайте это хорошо!)
+
+- **Comprar** (покупать):
+  - ¡Cómpralo! (Купи это!)
+  - ¡Compradlo juntos! (Купите это вместе!)
+
+- **Escribir** (писать):
+  - ¡Escríbelo aquí! (Напиши это здесь!)
+  - ¡Escríbanlo claramente! (Напишите это чётко!)
+
+### С двумя местоимениями:
+- ¡Dámelo! (Дай мне это!)
+- ¡Tráemelo! (Принеси мне это!)
+- ¡Dáselo a él! (Дай ему это!)
+- ¡Envíanoslo! (Отправь нам это!)
+- ¡Explícaselo! (Объясни ему это!)`
+        }
+      ]
+    },
+    vocabulary: [
+      { spanish: 'levantarse', russian: 'вставать', example: '¡Levántate temprano!' },
+      { spanish: 'lavarse', russian: 'мыться, умываться', example: '¡Lávate las manos!' },
+      { spanish: 'ducharse', russian: 'принимать душ', example: '¡Dúchate antes de salir!' },
+      { spanish: 'vestirse', russian: 'одеваться', example: '¡Vístete rápido!' },
+      { spanish: 'peinarse', russian: 'причесываться', example: '¡Péinate bien!' },
+      { spanish: 'afeitarse', russian: 'бриться', example: '¡Aféitate antes de la reunión!' },
+      { spanish: 'maquillarse', russian: 'краситься, наносить макияж', example: '¡Maquíllate para la fiesta!' },
+      { spanish: 'acostarse', russian: 'ложиться спать', example: '¡Acuéstate temprano!' },
+      { spanish: 'sentarse', russian: 'садиться', example: '¡Siéntate aquí!' },
+      { spanish: 'calmarse', russian: 'успокаиваться', example: '¡Cálmate, por favor!' },
+      { spanish: 'prepararse', russian: 'готовиться', example: '¡Prepárate para el examen!' },
+      { spanish: 'ponerse', russian: 'надевать (одежду)', example: '¡Ponte el abrigo!' },
+      { spanish: 'quitarse', russian: 'снимать (одежду)', example: '¡Quítate los zapatos!' },
+      { spanish: 'irse', russian: 'уходить, уезжать', example: '¡Vete de aquí!' },
+      { spanish: 'quedarse', russian: 'оставаться', example: '¡Quédate conmigo!' },
+      { spanish: 'despertarse', russian: 'просыпаться', example: '¡Despiértate!' },
+      { spanish: 'preocuparse', russian: 'беспокоиться', example: '¡No te preocupes!' },
+      { spanish: 'cuidarse', russian: 'заботиться о себе', example: '¡Cuídate mucho!' },
+      { spanish: 'portarse', russian: 'вести себя', example: '¡Pórtate bien!' },
+      { spanish: 'relajarse', russian: 'расслабляться', example: '¡Relájate un poco!' }
+    ],
+    exercises: []
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -34989,6 +35205,197 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { original: 'Sabed esta regla.', transformed: 'Sabe esta regla.', explanation: 'vosotros → tú' },
       { original: 'Di algo agradable.', transformed: 'Decid algo agradable.', explanation: 'tú → vosotros' },
       { original: 'Huyan de aquí.', transformed: 'Huya de aquí.', explanation: 'ustedes → usted' }
+    ]
+  }
+  ,
+
+  'ex-10-1-4': {
+    id: 'ex-10-1-4',
+    type: 'imperativo-practice',
+    title: 'Упражнение 4: Практика Imperativo Afirmativo с изученной лексикой',
+    description: 'Используйте формы повелительного наклонения с лексикой из модулей 1-9',
+    showAnswerOption: true,
+    parts: [
+      {
+        partTitle: 'Модуль 1: Знакомство, профессии, страны',
+        questions: [
+          { instruction: 'Decir tu nombre (tú)', answer: '¡Di tu nombre!', translation: 'Скажи свое имя!' },
+          { instruction: 'Hablar español (vosotros)', answer: '¡Hablad español!', translation: 'Говорите по-испански!' },
+          { instruction: 'Escribir su apellido (usted)', answer: '¡Escriba su apellido!', translation: 'Напишите вашу фамилию!' },
+          { instruction: 'Estudiar las profesiones (nosotros)', answer: '¡Estudiemos las profesiones!', translation: 'Давайте изучим профессии!' },
+          { instruction: 'Presentarse a los compañeros (tú)', answer: '¡Preséntate a los compañeros!', translation: 'Представься одноклассникам!' },
+          { instruction: 'Llamarse correctamente (ustedes)', answer: '¡Llámense correctamente!', translation: 'Представляйтесь правильно!' },
+          { instruction: 'Ser amable (tú)', answer: '¡Sé amable!', translation: 'Будь любезным!' },
+          { instruction: 'Venir a clase (vosotros)', answer: '¡Venid a clase!', translation: 'Приходите на занятие!' },
+          { instruction: 'Aprender el alfabeto (usted)', answer: '¡Aprenda el alfabeto!', translation: 'Выучите алфавит!' },
+          { instruction: 'Pronunciar bien (nosotros)', answer: '¡Pronunciemos bien!', translation: 'Давайте произносим правильно!' },
+          { instruction: 'Repetir las palabras (tú)', answer: '¡Repite las palabras!', translation: 'Повтори слова!' },
+          { instruction: 'Conocer a los estudiantes (vosotros)', answer: '¡Conoced a los estudiantes!', translation: 'Познакомьтесь со студентами!' },
+          { instruction: 'Saludar en español (ustedes)', answer: '¡Saluden en español!', translation: 'Здоровайтесь по-испански!' },
+          { instruction: 'Practicar la pronunciación (nosotros)', answer: '¡Practiquemos la pronunciación!', translation: 'Давайте практикуем произношение!' },
+          { instruction: 'Trabajar como profesor (usted)', answer: '¡Trabaje como profesor!', translation: 'Работайте преподавателем!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 2: Характер, внешность, семья',
+        questions: [
+          { instruction: 'Describir a tu familia (tú)', answer: '¡Describe a tu familia!', translation: 'Опиши свою семью!' },
+          { instruction: 'Ser simpático (vosotros)', answer: '¡Sed simpáticos!', translation: 'Будьте симпатичными!' },
+          { instruction: 'Tener paciencia (usted)', answer: '¡Tenga paciencia!', translation: 'Имейте терпение!' },
+          { instruction: 'Ayudar a los padres (nosotros)', answer: '¡Ayudemos a los padres!', translation: 'Давайте поможем родителям!' },
+          { instruction: 'Visitar a los abuelos (tú)', answer: '¡Visita a los abuelos!', translation: 'Навести бабушку и дедушку!' },
+          { instruction: 'Respetar a los mayores (vosotros)', answer: '¡Respetad a los mayores!', translation: 'Уважайте старших!' },
+          { instruction: 'Cuidar a los hermanos (ustedes)', answer: '¡Cuiden a los hermanos!', translation: 'Заботьтесь о братьях и сестрах!' },
+          { instruction: 'Ser generoso (tú)', answer: '¡Sé generoso!', translation: 'Будь щедрым!' },
+          { instruction: 'Parecer contento (usted)', answer: '¡Parezca contento!', translation: 'Выглядите довольным!' },
+          { instruction: 'Llamar a los padres (nosotros)', answer: '¡Llamemos a los padres!', translation: 'Давайте позвоним родителям!' },
+          { instruction: 'Querer a tu familia (tú)', answer: '¡Quiere a tu familia!', translation: 'Люби свою семью!' },
+          { instruction: 'Estar orgulloso de la familia (vosotros)', answer: '¡Estad orgullosos de la familia!', translation: 'Гордитесь семьёй!' },
+          { instruction: 'Presentar a los parientes (usted)', answer: '¡Presente a los parientes!', translation: 'Представьте родственников!' },
+          { instruction: 'Recordar los nombres (ustedes)', answer: '¡Recuerden los nombres!', translation: 'Помните имена!' },
+          { instruction: 'Formar una familia (nosotros)', answer: '¡Formemos una familia!', translation: 'Давайте создадим семью!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 3: Дом, аренда, завтрак',
+        questions: [
+          { instruction: 'Alquilar un apartamento (tú)', answer: '¡Alquila un apartamento!', translation: 'Сними квартиру!' },
+          { instruction: 'Buscar una casa (vosotros)', answer: '¡Buscad una casa!', translation: 'Ищите дом!' },
+          { instruction: 'Limpiar la habitación (usted)', answer: '¡Limpie la habitación!', translation: 'Уберите комнату!' },
+          { instruction: 'Cocinar el desayuno (nosotros)', answer: '¡Cocinemos el desayuno!', translation: 'Давайте приготовим завтрак!' },
+          { instruction: 'Preparar el café (tú)', answer: '¡Prepara el café!', translation: 'Приготовь кофе!' },
+          { instruction: 'Poner la mesa (vosotros)', answer: '¡Poned la mesa!', translation: 'Накройте стол!' },
+          { instruction: 'Desayunar juntos (ustedes)', answer: '¡Desayunen juntos!', translation: 'Завтракайте вместе!' },
+          { instruction: 'Vivir en el centro (tú)', answer: '¡Vive en el centro!', translation: 'Живи в центре!' },
+          { instruction: 'Abrir las ventanas (usted)', answer: '¡Abra las ventanas!', translation: 'Откройте окна!' },
+          { instruction: 'Cerrar la puerta (nosotros)', answer: '¡Cerremos la puerta!', translation: 'Давайте закроем дверь!' },
+          { instruction: 'Comprar muebles (vosotros)', answer: '¡Comprad muebles!', translation: 'Купите мебель!' },
+          { instruction: 'Amueblar el piso (tú)', answer: '¡Amuebla el piso!', translation: 'Обставь квартиру!' },
+          { instruction: 'Elegir la habitación (ustedes)', answer: '¡Elijan la habitación!', translation: 'Выберите комнату!' },
+          { instruction: 'Mudarse pronto (usted)', answer: '¡Múdese pronto!', translation: 'Переезжайте скоро!' },
+          { instruction: 'Arreglar la cocina (nosotros)', answer: '¡Arreglemos la cocina!', translation: 'Давайте отремонтируем кухню!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 4: Повседневная жизнь, город, транспорт',
+        questions: [
+          { instruction: 'Levantarse temprano (tú)', answer: '¡Levántate temprano!', translation: 'Вставай рано!' },
+          { instruction: 'Ducharse por la mañana (vosotros)', answer: '¡Duchaos por la mañana!', translation: 'Принимайте душ утром!' },
+          { instruction: 'Vestirse rápido (usted)', answer: '¡Vístase rápido!', translation: 'Одевайтесь быстро!' },
+          { instruction: 'Ir al trabajo (nosotros)', answer: '¡Vayamos al trabajo!', translation: 'Давайте пойдём на работу!' },
+          { instruction: 'Tomar el autobús (tú)', answer: '¡Toma el autobús!', translation: 'Садись на автобус!' },
+          { instruction: 'Coger el metro (vosotros)', answer: '¡Coged el metro!', translation: 'Садитесь на метро!' },
+          { instruction: 'Cruzar la calle (ustedes)', answer: '¡Crucen la calle!', translation: 'Переходите улицу!' },
+          { instruction: 'Caminar por el parque (tú)', answer: '¡Camina por el parque!', translation: 'Гуляй по парку!' },
+          { instruction: 'Hacer ejercicio (usted)', answer: '¡Haga ejercicio!', translation: 'Делайте зарядку!' },
+          { instruction: 'Acostarse a tiempo (nosotros)', answer: '¡Acostémonos a tiempo!', translation: 'Давайте ляжем спать вовремя!' },
+          { instruction: 'Comprar el billete (vosotros)', answer: '¡Comprad el billete!', translation: 'Купите билет!' },
+          { instruction: 'Esperar el tren (tú)', answer: '¡Espera el tren!', translation: 'Жди поезд!' },
+          { instruction: 'Bajar en la próxima parada (ustedes)', answer: '¡Bajen en la próxima parada!', translation: 'Выходите на следующей остановке!' },
+          { instruction: 'Dar un paseo (usted)', answer: '¡Dé un paseo!', translation: 'Прогуляйтесь!' },
+          { instruction: 'Visitar el museo (nosotros)', answer: '¡Visitemos el museo!', translation: 'Давайте посетим музей!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 5: Путешествия, погода, Futuro Simple',
+        questions: [
+          { instruction: 'Viajar más (tú)', answer: '¡Viaja más!', translation: 'Путешествуй больше!' },
+          { instruction: 'Hacer las maletas (vosotros)', answer: '¡Haced las maletas!', translation: 'Собирайте чемоданы!' },
+          { instruction: 'Reservar un hotel (usted)', answer: '¡Reserve un hotel!', translation: 'Забронируйте отель!' },
+          { instruction: 'Conocer otros países (nosotros)', answer: '¡Conozcamos otros países!', translation: 'Давайте познакомимся с другими странами!' },
+          { instruction: 'Llevar el pasaporte (tú)', answer: '¡Lleva el pasaporte!', translation: 'Возьми паспорт!' },
+          { instruction: 'Sacar fotos (vosotros)', answer: '¡Sacad fotos!', translation: 'Делайте фотографии!' },
+          { instruction: 'Ver los monumentos (ustedes)', answer: '¡Vean los monumentos!', translation: 'Посмотрите памятники!' },
+          { instruction: 'Disfrutar del viaje (tú)', answer: '¡Disfruta del viaje!', translation: 'Наслаждайся путешествием!' },
+          { instruction: 'Probar la comida local (usted)', answer: '¡Pruebe la comida local!', translation: 'Попробуйте местную еду!' },
+          { instruction: 'Explorar la ciudad (nosotros)', answer: '¡Exploremos la ciudad!', translation: 'Давайте исследуем город!' },
+          { instruction: 'Comprar recuerdos (vosotros)', answer: '¡Comprad recuerdos!', translation: 'Купите сувениры!' },
+          { instruction: 'Ir a la playa (tú)', answer: '¡Ve a la playa!', translation: 'Иди на пляж!' },
+          { instruction: 'Nadar en el mar (ustedes)', answer: '¡Naden en el mar!', translation: 'Плавайте в море!' },
+          { instruction: 'Descansar bien (usted)', answer: '¡Descanse bien!', translation: 'Отдыхайте хорошо!' },
+          { instruction: 'Volver pronto (nosotros)', answer: '¡Volvamos pronto!', translation: 'Давайте вернёмся скоро!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 6: Покупки, магазины, Pretérito Indefinido',
+        questions: [
+          { instruction: 'Ir de compras (tú)', answer: '¡Ve de compras!', translation: 'Иди за покупками!' },
+          { instruction: 'Comprar ropa nueva (vosotros)', answer: '¡Comprad ropa nueva!', translation: 'Купите новую одежду!' },
+          { instruction: 'Probarse este vestido (usted)', answer: '¡Pruébese este vestido!', translation: 'Примерьте это платье!' },
+          { instruction: 'Pagar en efectivo (nosotros)', answer: '¡Paguemos en efectivo!', translation: 'Давайте заплатим наличными!' },
+          { instruction: 'Elegir los zapatos (tú)', answer: '¡Elige los zapatos!', translation: 'Выбери туфли!' },
+          { instruction: 'Preguntar el precio (vosotros)', answer: '¡Preguntad el precio!', translation: 'Спросите цену!' },
+          { instruction: 'Buscar las rebajas (ustedes)', answer: '¡Busquen las rebajas!', translation: 'Ищите распродажи!' },
+          { instruction: 'Gastar menos dinero (tú)', answer: '¡Gasta menos dinero!', translation: 'Трать меньше денег!' },
+          { instruction: 'Ahorrar para el futuro (usted)', answer: '¡Ahorre para el futuro!', translation: 'Откладывайте на будущее!' },
+          { instruction: 'Vender la ropa vieja (nosotros)', answer: '¡Vendamos la ropa vieja!', translation: 'Давайте продадим старую одежду!' },
+          { instruction: 'Llevar la bolsa (vosotros)', answer: '¡Llevad la bolsa!', translation: 'Несите сумку!' },
+          { instruction: 'Devolver el producto (tú)', answer: '¡Devuelve el producto!', translation: 'Верни товар!' },
+          { instruction: 'Cambiar la talla (ustedes)', answer: '¡Cambien la talla!', translation: 'Поменяйте размер!' },
+          { instruction: 'Guardar el recibo (usted)', answer: '¡Guarde el recibo!', translation: 'Сохраните чек!' },
+          { instruction: 'Mirar los escaparates (nosotros)', answer: '¡Miremos los escaparates!', translation: 'Давайте посмотрим витрины!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 7: Еда, календарь, Pretérito Imperfecto',
+        questions: [
+          { instruction: 'Comer frutas y verduras (tú)', answer: '¡Come frutas y verduras!', translation: 'Ешь фрукты и овощи!' },
+          { instruction: 'Preparar la cena (vosotros)', answer: '¡Preparad la cena!', translation: 'Приготовьте ужин!' },
+          { instruction: 'Cocinar la paella (usted)', answer: '¡Cocine la paella!', translation: 'Приготовьте паэлью!' },
+          { instruction: 'Probar este plato (nosotros)', answer: '¡Probemos este plato!', translation: 'Давайте попробуем это блюдо!' },
+          { instruction: 'Beber agua (tú)', answer: '¡Bebe agua!', translation: 'Пей воду!' },
+          { instruction: 'Tomar el postre (vosotros)', answer: '¡Tomad el postre!', translation: 'Возьмите десерт!' },
+          { instruction: 'Pedir la cuenta (ustedes)', answer: '¡Pidan la cuenta!', translation: 'Попросите счёт!' },
+          { instruction: 'Dejar propina (tú)', answer: '¡Deja propina!', translation: 'Оставь чаевые!' },
+          { instruction: 'Reservar una mesa (usted)', answer: '¡Reserve una mesa!', translation: 'Забронируйте столик!' },
+          { instruction: 'Elegir el restaurante (nosotros)', answer: '¡Elijamos el restaurante!', translation: 'Давайте выберем ресторан!' },
+          { instruction: 'Invitar a los amigos (vosotros)', answer: '¡Invitad a los amigos!', translation: 'Пригласите друзей!' },
+          { instruction: 'Servir el vino (tú)', answer: '¡Sirve el vino!', translation: 'Подай вино!' },
+          { instruction: 'Calentar la comida (ustedes)', answer: '¡Calienten la comida!', translation: 'Разогрейте еду!' },
+          { instruction: 'Añadir sal (usted)', answer: '¡Añada sal!', translation: 'Добавьте соль!' },
+          { instruction: 'Cenar temprano (nosotros)', answer: '¡Cenemos temprano!', translation: 'Давайте поужинаем рано!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 8: Отпуск, туризм, Potencial Simple',
+        questions: [
+          { instruction: 'Descansar más (tú)', answer: '¡Descansa más!', translation: 'Отдыхай больше!' },
+          { instruction: 'Relajarse en las vacaciones (vosotros)', answer: '¡Relajaos en las vacaciones!', translation: 'Расслабьтесь в отпуске!' },
+          { instruction: 'Alquilar un coche (usted)', answer: '¡Alquile un coche!', translation: 'Арендуйте машину!' },
+          { instruction: 'Visitar lugares turísticos (nosotros)', answer: '¡Visitemos lugares turísticos!', translation: 'Давайте посетим туристические места!' },
+          { instruction: 'Hacer turismo (tú)', answer: '¡Haz turismo!', translation: 'Занимайся туризмом!' },
+          { instruction: 'Recorrer el país (vosotros)', answer: '¡Recorred el país!', translation: 'Объездите страну!' },
+          { instruction: 'Planear el itinerario (ustedes)', answer: '¡Planeen el itinerario!', translation: 'Спланируйте маршрут!' },
+          { instruction: 'Llevar la cámara (tú)', answer: '¡Lleva la cámara!', translation: 'Возьми камеру!' },
+          { instruction: 'Conducir con cuidado (usted)', answer: '¡Conduzca con cuidado!', translation: 'Ведите машину осторожно!' },
+          { instruction: 'Aprovechar el tiempo (nosotros)', answer: '¡Aprovechemos el tiempo!', translation: 'Давайте используем время!' },
+          { instruction: 'Dormir bien (vosotros)', answer: '¡Dormid bien!', translation: 'Спите хорошо!' },
+          { instruction: 'Salir temprano (tú)', answer: '¡Sal temprano!', translation: 'Выходи рано!' },
+          { instruction: 'Llegar a tiempo (ustedes)', answer: '¡Lleguen a tiempo!', translation: 'Приезжайте вовремя!' },
+          { instruction: 'Disfrutar del paisaje (usted)', answer: '¡Disfrute del paisaje!', translation: 'Наслаждайтесь пейзажем!' },
+          { instruction: 'Recordar estos momentos (nosotros)', answer: '¡Recordemos estos momentos!', translation: 'Давайте запомним эти моменты!' }
+        ]
+      },
+      {
+        partTitle: 'Модуль 9: Спорт, Voz Pasiva, инфинитивные конструкции',
+        questions: [
+          { instruction: 'Hacer deporte (tú)', answer: '¡Haz deporte!', translation: 'Занимайся спортом!' },
+          { instruction: 'Entrenar regularmente (vosotros)', answer: '¡Entrenad regularmente!', translation: 'Тренируйтесь регулярно!' },
+          { instruction: 'Participar en competiciones (usted)', answer: '¡Participe en competiciones!', translation: 'Участвуйте в соревнованиях!' },
+          { instruction: 'Ganar el partido (nosotros)', answer: '¡Ganemos el partido!', translation: 'Давайте выиграем матч!' },
+          { instruction: 'Jugar al fútbol (tú)', answer: '¡Juega al fútbol!', translation: 'Играй в футбол!' },
+          { instruction: 'Correr más rápido (vosotros)', answer: '¡Corred más rápido!', translation: 'Бегайте быстрее!' },
+          { instruction: 'Nadar en la piscina (ustedes)', answer: '¡Naden en la piscina!', translation: 'Плавайте в бассейне!' },
+          { instruction: 'Marcar un gol (tú)', answer: '¡Marca un gol!', translation: 'Забей гол!' },
+          { instruction: 'Apoyar al equipo (usted)', answer: '¡Apoye al equipo!', translation: 'Поддерживайте команду!' },
+          { instruction: 'Celebrar la victoria (nosotros)', answer: '¡Celebremos la victoria!', translation: 'Давайте отпразднуем победу!' },
+          { instruction: 'Practicar atletismo (vosotros)', answer: '¡Practicad atletismo!', translation: 'Занимайтесь лёгкой атлетикой!' },
+          { instruction: 'Ser deportista (tú)', answer: '¡Sé deportista!', translation: 'Будь спортсменом!' },
+          { instruction: 'Batir el récord (ustedes)', answer: '¡Batan el récord!', translation: 'Побейте рекорд!' },
+          { instruction: 'Seguir entrenando (usted)', answer: '¡Siga entrenando!', translation: 'Продолжайте тренироваться!' },
+          { instruction: 'Mejorar los resultados (nosotros)', answer: '¡Mejoremos los resultados!', translation: 'Давайте улучшим результаты!' }
+        ]
+      }
     ]
   }
 }
