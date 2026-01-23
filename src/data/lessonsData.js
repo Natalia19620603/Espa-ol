@@ -53,7 +53,7 @@ export const modules = {
   },
   'module-5': {
     id: 'module-5',
-    title: 'Модуль 5: Путешествия и места (88 слов)',
+    title: 'Модуль 5: Путешествия. Погода. Futuro Simple (88 слов)',
     level: 'beginner',
     lessons: ['lesson-5-1', 'lesson-5-2', 'lesson-5-3'],
     description: 'Лексика путешествий, направления, транспорт'
@@ -9148,7 +9148,8 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { tab: 'Понимание текста', exerciseIds: ['ex-7-1-comprehension'] },
       { tab: 'Грамматика', exerciseIds: ['ex-7-1-grammar-1', 'ex-7-1-grammar-2a', 'ex-7-1-grammar-2b', 'ex-7-1-grammar-3', 'ex-7-1-grammar-4', 'ex-7-1-grammar-5', 'ex-7-1-grammar-6', 'ex-8-4-8'] },
       { tab: 'Перевод', exerciseIds: ['ex-7-1-translation'] },
-      { tab: 'OCIO en MADRID', exerciseIds: ['ex-7-1-ocio-vocab', 'ex-7-1-ocio-comprehension', 'ex-7-1-ocio-grammar', 'ex-7-1-ocio-translation'] }
+      { tab: 'OCIO en MADRID', exerciseIds: ['ex-7-1-ocio-fillblank', 'ex-7-1-ocio-vocab', 'ex-7-1-ocio-comprehension', 'ex-7-1-ocio-grammar', 'ex-7-1-ocio-translation'] },
+      { tab: 'Перевод: Досуг и развлечения B1', exerciseIds: ['ex-7-1-ocio-translation-b1'] }
     ]
   },
 
@@ -11494,12 +11495,16 @@ Y el último, con su foto en la primera página y este título: «EL COMISARIO F
 
   'lesson-17-2': {
     id: 'lesson-17-2',
-    title: 'Урок 2: El origen de Navidad',
+    title: 'Урок 2: Navidad y Noche Vieja',
     moduleId: 'module-17',
     videoTabs: [
       {
-        tab: 'Модуль 9 Урок 2',
+        tab: 'Navidad Sol',
         videoUrl: '/video/Navidad Sol.mp4'
+      },
+      {
+        tab: 'Doce uvas M17 C2',
+        videoUrl: '/video/Doce uvas M17 C2.mp4'
       }
     ],
     vocabulary: [
@@ -13292,6 +13297,10 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
       {
         tab: 'Potencial y tigre de Bengala',
         videoUrl: '/video/Potencial y tigre de Bengala.mp4'
+      },
+      {
+        tab: 'Las palabras sanan y enferman',
+        videoUrl: '/video/Las palabras sanan y enferman M17C5.mp4'
       }
     ],
     vocabulary: [
@@ -19864,6 +19873,93 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   },
 
   // OCIO en MADRID упражнения
+  'ex-7-1-ocio-fillblank': {
+    id: 'ex-7-1-ocio-fillblank',
+    type: 'fillblank',
+    title: 'Заполните пропуски: OCIO en MADRID',
+    description: `Используйте эти слова для заполнения пропусков:
+
+disfrutar, explorar, escenario, repercusión, cautivador, emblemático, acoger, reflejarse, embrujo, tablado, renovar, opción, rincón, pitido, inagotable`,
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Madrid es la ___ perfecta para todos los públicos.',
+        correct: 'opción',
+        alternatives: []
+      },
+      {
+        sentence: 'Los turistas pueden ___ de una oferta inagotable de ocio.',
+        correct: 'disfrutar',
+        alternatives: []
+      },
+      {
+        sentence: 'El visitante podrá ___ cada ___ de la ciudad.',
+        correct: 'explorar cada rincón',
+        alternatives: ['explorar', 'rincón']
+      },
+      {
+        sentence: 'Madrid es uno de los grandes ___ de España.',
+        correct: 'escenarios',
+        alternatives: ['escenario']
+      },
+      {
+        sentence: 'Los musicales son espectáculos ___ que sorprenderán al visitante.',
+        correct: 'cautivadores',
+        alternatives: ['cautivador']
+      },
+      {
+        sentence: 'El Teatro Real es uno de los lugares ___ de Madrid.',
+        correct: 'emblemáticos',
+        alternatives: ['emblemático']
+      },
+      {
+        sentence: 'Los teatros ___ las principales representaciones del panorama escénico.',
+        correct: 'acogen',
+        alternatives: ['acoger']
+      },
+      {
+        sentence: 'El Real Madrid es uno de los equipos con mayor ___ mundial.',
+        correct: 'repercusión',
+        alternatives: []
+      },
+      {
+        sentence: 'El carácter de la sociedad se ___ en el entusiasmo por el flamenco.',
+        correct: 'refleja',
+        alternatives: ['reflejarse']
+      },
+      {
+        sentence: 'Tras el ___ final, el público puede disfrutar del ___ del flamenco.',
+        correct: 'pitido final, embrujo',
+        alternatives: ['pitido', 'embrujo']
+      },
+      {
+        sentence: 'Pueden disfrutar del embrujo del flamenco en los míticos ___ de Madrid.',
+        correct: 'tablados',
+        alternatives: ['tablado']
+      },
+      {
+        sentence: 'Madrid ha ___ su propuesta para el turismo de compras.',
+        correct: 'renovado',
+        alternatives: ['renovar']
+      },
+      {
+        sentence: 'Madrid ofrece una oferta ___ de planes y actividades.',
+        correct: 'inagotable',
+        alternatives: []
+      },
+      {
+        sentence: 'La ciudad transforma sus calles y acoge multitud de planes.',
+        correct: 'acoge',
+        alternatives: ['acoger']
+      },
+      {
+        sentence: 'Madrid ofrece al visitante la ___ de perderse por los mercados.',
+        correct: 'opción',
+        alternatives: []
+      }
+    ]
+  },
+
   'ex-7-1-ocio-vocab': {
     id: 'ex-7-1-ocio-vocab',
     type: 'vocabulary',
@@ -19939,83 +20035,154 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-ocio-translation': {
     id: 'ex-7-1-ocio-translation',
     type: 'translation',
-    title: 'Перевод: OCIO en MADRID (Subjuntivo)',
-    description: 'Переведите предложения с русского на испанский, используя presente de subjuntivo',
+    title: 'Перевод B1: OCIO en MADRID (Subjuntivo)',
+    description: 'Переведите развернутые предложения с русского на испанский, используя presente de subjuntivo',
+    showAnswerOption: true,
     questions: [
       {
-        russian: 'Я хочу, чтобы ты исследовал каждый уголок города',
-        spanish: 'quiero que explores cada rincón de la ciudad',
-        alternatives: ['quiero que tú explores cada rincón de la ciudad']
-      },
-      {
-        russian: 'Надеюсь, что ты насладишься зрелищем',
-        spanish: 'espero que disfrutes del espectáculo',
-        alternatives: ['espero que tú disfrutes del espectáculo']
-      },
-      {
-        russian: 'Важно, чтобы посетители знали эмблематические места',
-        spanish: 'es importante que los visitantes conozcan los lugares emblemáticos',
+        russian: 'Я настаиваю на том, чтобы ты исследовал каждый уголок города и насладился его неисчерпаемым предложением развлечений',
+        spanish: 'insisto en que explores cada rincón de la ciudad y disfrutes de su inagotable oferta de ocio',
         alternatives: []
       },
       {
-        russian: 'Рекомендую, чтобы вы пошли на фламенко',
-        spanish: 'recomiendo que vayáis al flamenco',
-        alternatives: ['recomiendo que ustedes vayan al flamenco']
-      },
-      {
-        russian: 'Желаю, чтобы Мадрид радушно принял тебя',
-        spanish: 'deseo que madrid te acoja',
-        alternatives: ['deseo que madrid acoja a ti']
-      },
-      {
-        russian: 'Необходимо, чтобы ты обновил свой выбор развлечений',
-        spanish: 'es necesario que renueves tu opción de ocio',
-        alternatives: ['es necesario que tú renueves tu opción de ocio']
-      },
-      {
-        russian: 'Хочу, чтобы шоу пленило тебя',
-        spanish: 'quiero que el espectáculo te cautive',
+        russian: 'Надеюсь, что когда ты посетишь захватывающее зрелище в одном из эмблематических театров, оно полностью пленит твое внимание',
+        spanish: 'espero que cuando visites el espectáculo cautivador en uno de los teatros emblemáticos, cautive completamente tu atención',
         alternatives: []
       },
       {
-        russian: 'Надеюсь, энтузиазм отразится в твоих глазах',
-        spanish: 'espero que el entusiasmo se refleje en tus ojos',
+        russian: 'Важно, чтобы все посетители знали эмблематические места Мадрида и радушно принимали атмосферу города',
+        spanish: 'es importante que todos los visitantes conozcan los lugares emblemáticos de madrid y acojan la atmósfera de la ciudad',
         alternatives: []
       },
       {
-        russian: 'Важно, чтобы мы исследовали сцену города',
-        spanish: 'es importante que exploremos el escenario de la ciudad',
-        alternatives: ['es importante que nosotros exploremos el escenario de la ciudad']
-      },
-      {
-        russian: 'Рекомендую, чтобы они посетили подмостки Мадрида',
-        spanish: 'recomiendo que visiten los tablados de madrid',
-        alternatives: ['recomiendo que ellos visiten los tablados de madrid']
-      },
-      {
-        russian: 'Желаю, чтобы город имел большой резонанс для тебя',
-        spanish: 'deseo que la ciudad tenga gran repercusión para ti',
+        russian: 'Рекомендую, чтобы после финального свистка футбольного матча вы пошли насладиться чарами фламенко на одном из мифических подмостков',
+        spanish: 'recomiendo que después del pitido final del partido de fútbol vayáis a disfrutar del embrujo del flamenco en uno de los míticos tablados',
         alternatives: []
       },
       {
-        russian: 'Хочу, чтобы вы увидели лучшие мюзиклы',
-        spanish: 'quiero que veáis los mejores musicales',
-        alternatives: ['quiero que ustedes vean los mejores musicales']
-      },
-      {
-        russian: 'Надеюсь, свист финала будет волнующим',
-        spanish: 'espero que el pitido final sea emocionante',
+        russian: 'Желаю, чтобы Мадрид радушно принял тебя и отразил в твоих воспоминаниях весь свой энтузиазм и креативность',
+        spanish: 'deseo que madrid te acoja y refleje en tus recuerdos todo su entusiasmo y creatividad',
         alternatives: []
       },
       {
-        russian: 'Необходимо, чтобы мы чувствовали себя как дома',
-        spanish: 'es necesario que nos sintamos como en casa',
-        alternatives: ['es necesario que nosotros nos sintamos como en casa']
+        russian: 'Необходимо, чтобы ты обновил свое представление о городе и изучил его предложение для шопинг-туризма в Золотом Кольце',
+        spanish: 'es necesario que renueves tu visión de la ciudad y explores su propuesta para el turismo de compras en la anilla de oro',
+        alternatives: []
       },
       {
-        russian: 'Желаю, чтобы чары города очаровали тебя',
-        spanish: 'deseo que el embrujo de la ciudad te encante',
-        alternatives: ['deseo que el embrujo de la ciudad encante a ti']
+        russian: 'Хочу, чтобы захватывающее шоу лучших мировых мюзиклов пленило тебя своим техническим и визуальным качеством',
+        spanish: 'quiero que el espectáculo cautivador de los mejores musicales del mundo te cautive por su calidad técnica y visual',
+        alternatives: []
+      },
+      {
+        russian: 'Сомневаюсь, что найдется другой город в Европе, который предлагает такое же разнообразие развлечений для всех возрастов',
+        spanish: 'dudo que haya otra ciudad en europa que ofrezca la misma variedad de ocio para todas las edades',
+        alternatives: []
+      },
+      {
+        russian: 'Важно, чтобы мы исследовали театральную сцену города и посетили представления на Гран Виа',
+        spanish: 'es importante que exploremos el escenario teatral de la ciudad y visitemos las representaciones en la gran vía',
+        alternatives: []
+      },
+      {
+        russian: 'Предлагаю, чтобы мы окунулись в атмосферу традиционных рынков как Растро и вспомнили классическую торговлю наших предков',
+        spanish: 'propongo que nos sumerjamos en la atmósfera de los mercados tradicionales como el rastro y rememoremos el comercio clásico de nuestros antepasados',
+        alternatives: []
+      },
+      {
+        russian: 'Желаю, чтобы город произвел на тебя большое впечатление своей мировой известностью и культурным резонансом',
+        spanish: 'deseo que la ciudad tenga gran impacto en ti por su repercusión mundial y resonancia cultural',
+        alternatives: []
+      },
+      {
+        russian: 'Маловероятно, что вы успеете увидеть все лучшие мюзиклы столетия театров за одну поездку',
+        spanish: 'es poco probable que tengáis tiempo para ver todos los mejores musicales del centenar de teatros en un solo viaje',
+        alternatives: []
+      },
+      {
+        russian: 'Надеюсь, что после финального свистка вы сможете насладиться ночным предложением в таких зонах как Маласанья и Ла Латина',
+        spanish: 'espero que después del pitido final podáis disfrutar de la propuesta nocturna en zonas como malasaña y la latina',
+        alternatives: []
+      },
+      {
+        russian: 'Необходимо, чтобы все посетители чувствовали себя как дома в этом гостеприимном городе с его живой и веселой атмосферой',
+        spanish: 'es necesario que todos los visitantes se sientan como en casa en esta ciudad acogedora con su ambiente animado y divertido',
+        alternatives: []
+      },
+      {
+        russian: 'Мечтаю о том, чтобы чары и колдовство фламенко в Мадриде очаровали тебя и остались в твоей памяти навсегда',
+        spanish: 'sueño con que el embrujo y la magia del flamenco en madrid te encanten y permanezcan en tu memoria para siempre',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-7-1-ocio-translation-b1': {
+    id: 'ex-7-1-ocio-translation-b1',
+    type: 'translation',
+    title: 'Перевод B1: Досуг и развлечения (Presente de Subjuntivo)',
+    description: 'Переведите развернутые предложения с русского на испанский, используя presente de subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Сомневаюсь, что в какой-либо другой европейской столице существует такое же разнообразие культурных мероприятий',
+        spanish: 'dudo que en cualquier otra capital europea exista la misma variedad de eventos culturales'
+      },
+      {
+        russian: 'Необходимо, чтобы туристы исследовали не только центр города, но и его периферийные районы с аутентичной атмосферой',
+        spanish: 'es necesario que los turistas exploren no solo el centro de la ciudad sino también sus barrios periféricos con atmósfera auténtica'
+      },
+      {
+        russian: 'Предлагаю, чтобы мы посвятили целый день изучению театральной сцены и посетили как минимум три разных представления',
+        spanish: 'propongo que dediquemos un día entero a explorar el escenario teatral y visitemos al menos tres representaciones diferentes'
+      },
+      {
+        russian: 'Маловероятно, что найдется человек, которому не понравится энергичная и живая атмосфера мадридских ночных районов',
+        spanish: 'es poco probable que haya una persona a quien no le guste la atmósfera enérgica y animada de los barrios nocturnos madrileños'
+      },
+      {
+        russian: 'Рекомендую, чтобы вы попробовали сочетать культурный туризм с гастрономическим и насладились местной кухней в традиционных тавернах',
+        spanish: 'recomiendo que combináis el turismo cultural con el gastronómico y disfrutéis de la cocina local en las tabernas tradicionales'
+      },
+      {
+        russian: 'Хочу, чтобы каждый посетитель почувствовал тот самый испанский дух, который отражается в страсти к фламенко и футболу',
+        spanish: 'quiero que cada visitante sienta ese espíritu español que se refleja en la pasión por el flamenco y el fútbol'
+      },
+      {
+        russian: 'Важно, чтобы город продолжал обновлять свое культурное предложение и привлекать художников со всего мира',
+        spanish: 'es importante que la ciudad siga renovando su oferta cultural y atraiga a artistas de todo el mundo'
+      },
+      {
+        russian: 'Не думаю, что за один уикенд возможно охватить все разнообразие развлечений, которые предлагает столица',
+        spanish: 'no creo que sea posible abarcar en un fin de semana toda la variedad de ocio que ofrece la capital'
+      },
+      {
+        russian: 'Советую, чтобы вы забронировали билеты на самые популярные мюзиклы заранее, так как они всегда распродаются',
+        spanish: 'aconsejo que reservéis las entradas para los musicales más populares con antelación ya que siempre se agotan'
+      },
+      {
+        russian: 'Желаю, чтобы ваше путешествие стало незабываемым опытом и вы открыли для себя скрытые жемчужины города',
+        spanish: 'deseo que vuestro viaje sea una experiencia inolvidable y descubráis las joyas ocultas de la ciudad'
+      },
+      {
+        russian: 'Маловероятно, что вам наскучит в городе, который никогда не спит и всегда предлагает что-то новое',
+        spanish: 'es poco probable que os aburráis en una ciudad que nunca duerme y siempre ofrece algo nuevo'
+      },
+      {
+        russian: 'Настаиваю на том, чтобы вы посетили традиционные рынки в воскресенье утром и ощутили подлинную атмосферу местной жизни',
+        spanish: 'insisto en que visitéis los mercados tradicionales el domingo por la mañana y sintáis la atmósfera auténtica de la vida local'
+      },
+      {
+        russian: 'Надеюсь, что культурное предложение столицы превзойдет все ваши ожидания и оставит неизгладимый след в памяти',
+        spanish: 'espero que la oferta cultural de la capital supere todas vuestras expectativas y deje una huella imborrable en la memoria'
+      },
+      {
+        russian: 'Сомневаюсь, что существует другой город с такой же мировой известностью в области театрального искусства и музыки',
+        spanish: 'dudo que exista otra ciudad con la misma repercusión mundial en el ámbito del arte teatral y la música'
+      },
+      {
+        russian: 'Необходимо, чтобы все туристы уважали местные традиции и вносили свой вклад в сохранение культурного наследия',
+        spanish: 'es necesario que todos los turistas respeten las tradiciones locales y contribuyan a la preservación del patrimonio cultural'
       }
     ]
   },
