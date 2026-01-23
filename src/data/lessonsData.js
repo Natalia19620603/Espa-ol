@@ -11313,7 +11313,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'la advertencia', translation: 'предупреждение' },
       { word: 'el peligro', translation: 'опасность' }
     ],
-    exercises: []
+    exercises: ['ex-10-3-1', 'ex-10-3-2', 'ex-10-3-3', 'ex-10-3-4', 'ex-10-3-5']
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -15360,13 +15360,14 @@ export const exercises = {
     questions: [
       { pattern: 'Tú eres economista.', result: 'Carmen y tú sois economistas.', question: 'Преобразуйте предложение с Carmen y tú', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
       { pattern: 'Luis es joven.', result: 'Luis y Andrés son jóvenes.', question: 'Преобразуйте предложение с Luis y Andrés', options: ['Luis y Andrés es joven.', 'Luis y Andrés son jóvenes.', 'Luis y Andrés sois jóvenes.', 'Luis y Andrés somos jóvenes.'], correct: 1 },
-      { pattern: 'Tú estás casado.', result: 'Nosotros estamos casados.', question: 'Преобразуйте предложение с Nosotros', options: ['Nosotros estás casado.', 'Nosotros estamos casados.', 'Nosotros están casados.', 'Nosotros estoy casado.'], correct: 1 },
       { pattern: 'María y yo somos españolas.', result: 'César y Susana son españoles.', question: 'Преобразуйте предложение с César y Susana', options: ['César y Susana somos españolas.', 'César y Susana son españoles.', 'César y Susana sois españoles.', 'César y Susana es español.'], correct: 1 },
       { pattern: 'Ellas son de Madrid.', result: 'Vosotros sois de Madrid.', question: 'Преобразуйте предложение с Vosotros', options: ['Vosotros son de Madrid.', 'Vosotros sois de Madrid.', 'Vosotros somos de Madrid.', 'Vosotros es de Madrid.'], correct: 1 },
       { pattern: 'Los amigos están en la playa.', result: 'Enrique está en la playa.', question: 'Преобразуйте предложение с Enrique', options: ['Enrique están en la playa.', 'Enrique está en la playa.', 'Enrique estamos en la playa.', 'Enrique estoy en la playa.'], correct: 1 },
       { pattern: 'Luisa y tú estáis enfermos.', result: 'Luisa está enferma.', question: 'Преобразуйте предложение с Luisa', options: ['Luisa estáis enfermos.', 'Luisa está enferma.', 'Luisa estamos enfermas.', 'Luisa están enferma.'], correct: 1 },
       { pattern: 'Clara y yo somos felices.', result: 'Ustedes son felices.', question: 'Преобразуйте предложение с Ustedes', options: ['Ustedes somos felices.', 'Ustedes son felices.', 'Ustedes sois felices.', 'Ustedes es feliz.'], correct: 1 },
-      { pattern: 'Vosotros estáis guapos.', result: 'Nosotras estamos guapas.', question: 'Преобразуйте предложение с Nosotras', options: ['Nosotras estáis guapos.', 'Nosotras estamos guapas.', 'Nosotras están guapas.', 'Nosotras estoy guapa.'], correct: 1 }
+      { pattern: 'Él es alto.', result: 'Pedro y María son altos.', question: 'Преобразуйте предложение с Pedro y María', options: ['Pedro y María es alto.', 'Pedro y María son altos.', 'Pedro y María sois altos.', 'Pedro y María somos altos.'], correct: 1 },
+      { pattern: 'Ella está contenta.', result: 'Tú y ella estáis contentos.', question: 'Преобразуйте предложение с Tú y ella', options: ['Tú y ella está contenta.', 'Tú y ella estáis contentos.', 'Tú y ella están contentos.', 'Tú y ella estamos contentos.'], correct: 1 },
+      { pattern: 'Él es inteligente.', result: 'Ellas son inteligentes.', question: 'Преобразуйте предложение с Ellas', options: ['Ellas es inteligente.', 'Ellas son inteligentes.', 'Ellas sois inteligentes.', 'Ellas somos inteligentes.'], correct: 1 }
     ]
   },
   'ex-1-3-2': {
@@ -35850,6 +35851,224 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { spanish: 'Cuando el padre se va de viaje de negocios los hijos le echan mucho de menos.', correct: 'Когда отец уезжает в командировку, дети очень по нему скучают.', alternatives: ['Когда отец едет в деловую поездку, дети сильно по нему скучают.'] },
       { spanish: 'Si no pones la carne en el frigorífico se echará a perder.', correct: 'Если не положишь мясо в холодильник, оно испортится.', alternatives: ['Если не поставишь мясо в холодильник, оно протухнет.'] },
       { spanish: 'Al ver romper el balón Pepito se echó a llorar y sus compañeros echaron a correr.', correct: 'Увидев, как лопнул мяч, Пепито начал плакать, а его товарищи побежали.', alternatives: ['Когда лопнул мяч, Пепито заплакал, а его друзья побежали.', 'Увидев, что мяч лопнул, Пепито расплакался, а его товарищи бросились бежать.'] }
+    ]
+  },
+
+  'ex-10-3-1': {
+    id: 'ex-10-3-1',
+    type: 'multi-part',
+    title: 'Упражнение 1: Образуйте формы imperativo negativo',
+    description: 'Образуйте формы imperativo negativo для всех лиц',
+    showAnswerOption: true,
+    parts: [
+      {
+        id: 'ex-10-3-1-part-a',
+        type: 'transformation',
+        title: 'Часть a) tú — vosotros',
+        description: 'Образуйте отрицательные формы для tú и vosotros',
+        questions: [
+          { infinitive: 'No fumar aquí.', correct: 'No fumes aquí. No fuméis aquí.' },
+          { infinitive: 'No leer acostado.', correct: 'No leas acostado. No leáis acostados.' },
+          { infinitive: 'No estar triste.', correct: 'No estés triste. No estéis tristes.' },
+          { infinitive: 'No pensar en nada.', correct: 'No pienses en nada. No penséis en nada.' },
+          { infinitive: 'No seguir bailando.', correct: 'No sigas bailando. No sigáis bailando.' },
+          { infinitive: 'No dormir sentado.', correct: 'No duermas sentado. No durmáis sentados.' },
+          { infinitive: 'No ser pesimista.', correct: 'No seas pesimista. No seáis pesimistas.' },
+          { infinitive: 'No dar las gracias.', correct: 'No des las gracias. No deis las gracias.' },
+          { infinitive: 'No tomar esta medicina.', correct: 'No tomes esta medicina. No toméis esta medicina.' },
+          { infinitive: 'No subir la escalera a pie.', correct: 'No subas la escalera a pie. No subáis la escalera a pie.' },
+          { infinitive: 'No tener miedo.', correct: 'No tengas miedo. No tengáis miedo.' },
+          { infinitive: 'No ir al consultorio.', correct: 'No vayas al consultorio. No vayáis al consultorio.' },
+          { infinitive: 'No salir sin bufanda.', correct: 'No salgas sin bufanda. No salgáis sin bufanda.' },
+          { infinitive: 'No decir nada.', correct: 'No digas nada. No digáis nada.' },
+          { infinitive: 'No traducir el texto.', correct: 'No traduzcas el texto. No traduzcáis el texto.' },
+          { infinitive: 'No volver tarde.', correct: 'No vuelvas tarde. No volváis tarde.' }
+        ]
+      },
+      {
+        id: 'ex-10-3-1-part-b',
+        type: 'transformation',
+        title: 'Часть b) usted — ustedes',
+        description: 'Образуйте отрицательные формы для usted и ustedes',
+        questions: [
+          { infinitive: 'No fumar aquí.', correct: 'No fume aquí. No fumen aquí.' },
+          { infinitive: 'No leer acostado.', correct: 'No lea acostado. No lean acostados.' },
+          { infinitive: 'No estar triste.', correct: 'No esté triste. No estén tristes.' },
+          { infinitive: 'No pensar en nada.', correct: 'No piense en nada. No piensen en nada.' },
+          { infinitive: 'No seguir bailando.', correct: 'No siga bailando. No sigan bailando.' },
+          { infinitive: 'No dormir sentado.', correct: 'No duerma sentado. No duerman sentados.' },
+          { infinitive: 'No ser pesimista.', correct: 'No sea pesimista. No sean pesimistas.' },
+          { infinitive: 'No dar las gracias.', correct: 'No dé las gracias. No den las gracias.' },
+          { infinitive: 'No tomar esta medicina.', correct: 'No tome esta medicina. No tomen esta medicina.' },
+          { infinitive: 'No subir la escalera a pie.', correct: 'No suba la escalera a pie. No suban la escalera a pie.' },
+          { infinitive: 'No tener miedo.', correct: 'No tenga miedo. No tengan miedo.' },
+          { infinitive: 'No ir al consultorio.', correct: 'No vaya al consultorio. No vayan al consultorio.' },
+          { infinitive: 'No salir sin bufanda.', correct: 'No salga sin bufanda. No salgan sin bufanda.' },
+          { infinitive: 'No decir nada.', correct: 'No diga nada. No digan nada.' },
+          { infinitive: 'No traducir el texto.', correct: 'No traduzca el texto. No traduzcan el texto.' },
+          { infinitive: 'No volver tarde.', correct: 'No vuelva tarde. No vuelvan tarde.' }
+        ]
+      },
+      {
+        id: 'ex-10-3-1-part-c',
+        type: 'transformation',
+        title: 'Часть c) nosotros',
+        description: 'Образуйте отрицательные формы для nosotros',
+        questions: [
+          { infinitive: 'No fumar aquí.', correct: 'No fumemos aquí.' },
+          { infinitive: 'No leer acostado.', correct: 'No leamos acostados.' },
+          { infinitive: 'No estar triste.', correct: 'No estemos tristes.' },
+          { infinitive: 'No pensar en nada.', correct: 'No pensemos en nada.' },
+          { infinitive: 'No seguir bailando.', correct: 'No sigamos bailando.' },
+          { infinitive: 'No dormir sentado.', correct: 'No durmamos sentados.' },
+          { infinitive: 'No ser pesimista.', correct: 'No seamos pesimistas.' },
+          { infinitive: 'No dar las gracias.', correct: 'No demos las gracias.' },
+          { infinitive: 'No tomar esta medicina.', correct: 'No tomemos esta medicina.' },
+          { infinitive: 'No subir la escalera a pie.', correct: 'No subamos la escalera a pie.' },
+          { infinitive: 'No tener miedo.', correct: 'No tengamos miedo.' },
+          { infinitive: 'No ir al consultorio.', correct: 'No vayamos al consultorio.' },
+          { infinitive: 'No salir sin bufanda.', correct: 'No salgamos sin bufanda.' },
+          { infinitive: 'No decir nada.', correct: 'No digamos nada.' },
+          { infinitive: 'No traducir el texto.', correct: 'No traduzcamos el texto.' },
+          { infinitive: 'No volver tarde.', correct: 'No volvamos tarde.' }
+        ]
+      }
+    ]
+  },
+
+  'ex-10-3-2': {
+    id: 'ex-10-3-2',
+    type: 'transformation',
+    title: 'Упражнение 2: Измените форму imperativo afirmativo на imperativo negativo',
+    description: 'Преобразуйте утвердительные формы в отрицательные',
+    showAnswerOption: true,
+    questions: [
+      { affirmative: 'Haz este análisis.', correct: 'No hagas este análisis.' },
+      { affirmative: 'Ponga las cosas aquí.', correct: 'No ponga las cosas aquí.' },
+      { affirmative: 'Está en casa.', correct: 'No estés en casa.' },
+      { affirmative: 'Dormid con la ventana abierta.', correct: 'No durmáis con la ventana abierta.' },
+      { affirmative: 'Id al médico.', correct: 'No vayáis al médico.' },
+      { affirmative: 'Sigan estos consejos.', correct: 'No sigan estos consejos.' },
+      { affirmative: 'Dé esta medicina al niño.', correct: 'No dé esta medicina al niño.' },
+      { affirmative: 'Traduce este documento.', correct: 'No traduzcas este documento.' },
+      { affirmative: 'Vestíos de prisa.', correct: 'No os vistáis de prisa.' },
+      { affirmative: 'Quédense en casa.', correct: 'No se queden en casa.' },
+      { affirmative: 'Despídete de nosotros.', correct: 'No te despidas de nosotros.' },
+      { affirmative: 'Dormíos en seguida.', correct: 'No os durmáis en seguida.' },
+      { affirmative: 'Dímelo.', correct: 'No me lo digas.' },
+      { affirmative: 'Póngase estos zapatos.', correct: 'No se ponga estos zapatos.' },
+      { affirmative: 'Dame tu número de teléfono.', correct: 'No me des tu número de teléfono.' },
+      { affirmative: 'Pedidle ayuda.', correct: 'No le pidáis ayuda.' }
+    ]
+  },
+
+  'ex-10-3-3': {
+    id: 'ex-10-3-3',
+    type: 'transformation',
+    title: 'Упражнение 3: Измените форму imperativo negativo на imperativo afirmativo',
+    description: 'Преобразуйте отрицательные формы в утвердительные',
+    showAnswerOption: true,
+    questions: [
+      { negative: 'No te duches con agua fría.', correct: 'Dúchate con agua fría.' },
+      { negative: 'No les compre usted helado a los niños.', correct: 'Cómpreles usted helado a los niños.' },
+      { negative: 'No me des consejos.', correct: 'Dame consejos.' },
+      { negative: 'No le hagamos preguntas al profesor.', correct: 'Hagámosle preguntas al profesor.' },
+      { negative: 'No me lo digas.', correct: 'Dímelo.' },
+      { negative: 'No seas prudente.', correct: 'Sé prudente.' },
+      { negative: 'No os vayáis sin mí.', correct: 'Idos sin mí.' },
+      { negative: 'No sepas el horario.', correct: 'Sabe el horario.' },
+      { negative: 'No les ofrezcáis cerveza.', correct: 'Ofrecedles cerveza.' },
+      { negative: 'No estés en el bar después de las once.', correct: 'Está en el bar después de las once.' },
+      { negative: 'No os durmáis temprano.', correct: 'Dormíos temprano.' },
+      { negative: 'No te pruebes estos zapatos.', correct: 'Pruébate estos zapatos.' },
+      { negative: 'No traduzcas este fragmento.', correct: 'Traduce este fragmento.' },
+      { negative: 'No nos los traiga usted.', correct: 'Tráiganoslos usted.' },
+      { negative: 'No os vistáis de blanco.', correct: 'Vestíos de blanco.' },
+      { negative: 'No veas este partido de fútbol.', correct: 'Ve este partido de fútbol.' }
+    ]
+  },
+
+  'ex-10-3-4': {
+    id: 'ex-10-3-4',
+    type: 'multi-part',
+    title: 'Упражнение 4: Измените предложения по образцу',
+    description: 'Преобразуйте предложения в формы императива',
+    showAnswerOption: true,
+    parts: [
+      {
+        id: 'ex-10-3-4-part-a',
+        type: 'transformation',
+        title: 'Часть a) tú, usted',
+        description: '📝 Образец: No puedo quejarme. → No te quejes. No se queje usted.',
+        questions: [
+          { source: 'No quiero preocuparme.', correct: 'No te preocupes. No se preocupe usted.' },
+          { source: 'No puedo esperarte.', correct: 'No me esperes. No me espere usted.' },
+          { source: 'No puedo recoger los pasajes.', correct: 'No recojas los pasajes. No recoja usted los pasajes.' },
+          { source: 'No quiero quitarme el abrigo.', correct: 'No te quites el abrigo. No se quite usted el abrigo.' },
+          { source: 'No puedo encender la luz.', correct: 'No enciendas la luz. No encienda usted la luz.' },
+          { source: 'No puedo ofrecerle dinero a Jorge.', correct: 'No le ofrezcas dinero a Jorge. No le ofrezca usted dinero a Jorge.' },
+          { source: 'No quiero elegir este seguro.', correct: 'No elijas este seguro. No elija usted este seguro.' },
+          { source: 'No quiero acostarme tan temprano.', correct: 'No te acuestes tan temprano. No se acueste usted tan temprano.' },
+          { source: 'No puedo traducir este párrafo.', correct: 'No traduzcas este párrafo. No traduzca usted este párrafo.' },
+          { source: 'No quiero sentarme aquí.', correct: 'No te sientes aquí. No se siente usted aquí.' },
+          { source: 'No me gusta oír esta música.', correct: 'No oigas esta música. No oiga usted esta música.' },
+          { source: 'No me gusta daros consejos.', correct: 'No nos des consejos. No nos dé usted consejos.' },
+          { source: 'No quiero irme de compras.', correct: 'No te vayas de compras. No se vaya usted de compras.' },
+          { source: 'No puedo ponerme este sombrero.', correct: 'No te pongas este sombrero. No se ponga usted este sombrero.' },
+          { source: 'No quiero traerte malas noticias.', correct: 'No me traigas malas noticias. No me traiga usted malas noticias.' },
+          { source: 'Temo conducir este coche.', correct: 'No conduzcas este coche. No conduzca usted este coche.' }
+        ]
+      },
+      {
+        id: 'ex-10-3-4-part-b',
+        type: 'transformation',
+        title: 'Часть b) vosotros, ustedes',
+        description: '📝 Образец: No podemos quejarnos. → No os quejéis. No se quejen ustedes.',
+        questions: [
+          { source: 'No queremos preocuparnos.', correct: 'No os preocupéis. No se preocupen ustedes.' },
+          { source: 'No podemos esperarte.', correct: 'No me esperéis. No me esperen ustedes.' },
+          { source: 'No podemos recoger los pasajes.', correct: 'No recojáis los pasajes. No recojan ustedes los pasajes.' },
+          { source: 'No queremos quitarnos abrigos.', correct: 'No os quitéis abrigos. No se quiten ustedes abrigos.' },
+          { source: 'No podemos encender la luz.', correct: 'No encendáis la luz. No enciendan ustedes la luz.' },
+          { source: 'No podemos ofrecerle dinero a Jorge.', correct: 'No le ofrezcáis dinero a Jorge. No le ofrezcan ustedes dinero a Jorge.' },
+          { source: 'No queremos elegir este seguro.', correct: 'No elijáis este seguro. No elijan ustedes este seguro.' },
+          { source: 'No queremos acostarnos tan temprano.', correct: 'No os acostéis tan temprano. No se acuesten ustedes tan temprano.' },
+          { source: 'No podemos traducir este párrafo.', correct: 'No traduzcáis este párrafo. No traduzcan ustedes este párrafo.' },
+          { source: 'No queremos sentarnos aquí.', correct: 'No os sentéis aquí. No se sienten ustedes aquí.' },
+          { source: 'No nos gusta oír esta música.', correct: 'No oigáis esta música. No oigan ustedes esta música.' },
+          { source: 'No nos gusta daros consejos.', correct: 'No nos deis consejos. No nos den ustedes consejos.' },
+          { source: 'No queremos irnos de compras.', correct: 'No os vayáis de compras. No se vayan ustedes de compras.' },
+          { source: 'No podemos ponernos este sombrero.', correct: 'No os pongáis este sombrero. No se pongan ustedes este sombrero.' },
+          { source: 'No queremos traerte malas noticias.', correct: 'No me traigáis malas noticias. No me traigan ustedes malas noticias.' },
+          { source: 'Tememos conducir este coche.', correct: 'No conduzcáis este coche. No conduzcan ustedes este coche.' }
+        ]
+      }
+    ]
+  },
+
+  'ex-10-3-5': {
+    id: 'ex-10-3-5',
+    type: 'translation',
+    title: 'Упражнение 5: Переведите на испанский язык',
+    description: 'Переведите предложения с imperativo negativo на испанский язык',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Не делай ничего сейчас, ложись спать, тебе надо отдохнуть.', correct: 'No hagas nada ahora, acuéstate, necesitas descansar.', alternatives: ['No hagas nada ahora, acuéstate a dormir, necesitas descansar.', 'No hagas nada ahora, vete a la cama, necesitas descansar.'] },
+      { russian: 'Не принимайте это лекарство, сначала сходите к врачу (usted).', correct: 'No tome esta medicina, primero vaya al médico.', alternatives: ['No tome este medicamento, vaya primero al médico.', 'No tome esta medicina, primero vaya usted al médico.'] },
+      { russian: 'Не кладите сюда свои вещи, отнесите их в комнату (vosotros).', correct: 'No pongáis aquí vuestras cosas, llevadlas a la habitación.', alternatives: ['No dejéis aquí vuestras cosas, llevadlas a la habitación.', 'No pongáis vuestras cosas aquí, llevadlas al cuarto.'] },
+      { russian: 'Не заказывайте этот салат, закажите на первое чесночный суп (ustedes).', correct: 'No pidan esta ensalada, pidan de primero sopa de ajo.', alternatives: ['No pidan esta ensalada, pidan como primer plato sopa de ajo.', 'No pidáis esta ensalada, pedid de primero sopa de ajo.'] },
+      { russian: 'Я скучаю по своей семье. — Не скучай, не сиди дома одна, прогуляйся по городу, познакомься с соседями, развлекись.', correct: 'Echo de menos a mi familia. — No la eches de menos, no te quedes en casa sola, pasea por la ciudad, conoce a los vecinos, diviértete.', alternatives: ['Extraño a mi familia. — No la eches de menos, no te quedes sola en casa, pasea por la ciudad, conoce a tus vecinos, diviértete.'] },
+      { russian: 'Начальник знает испанский, не переводите ему этот документ (usted).', correct: 'El jefe sabe español, no le traduzca este documento.', alternatives: ['El jefe conoce el español, no le traduzca usted este documento.', 'El director sabe español, no le traduzca este documento.'] },
+      { russian: 'Не смотрите этот фильм, не теряйте время, он скучный (vosotros). Одевайтесь и пойдемте в парк гулять.', correct: 'No veáis esta película, no perdáis el tiempo, es aburrida. Vestíos y vamos al parque a pasear.', alternatives: ['No miréis esta película, no perdáis tiempo, es aburrida. Vestíos y vayamos al parque a pasear.', 'No veáis este film, no perdáis el tiempo, es aburrido. Vestíos y vayamos a pasear al parque.'] },
+      { russian: 'Не надевай пальто, надень пиджак, на улице тепло.', correct: 'No te pongas el abrigo, ponte la chaqueta, hace calor en la calle.', alternatives: ['No te pongas el abrigo, ponte el saco, en la calle hace calor.', 'No te pongas abrigo, ponte chaqueta, hace calor afuera.'] },
+      { russian: 'Дети! Не играйте здесь, не шумите, не будите дедушку (vosotros).', correct: '¡Niños! No juguéis aquí, no hagáis ruido, no despertéis al abuelo.', alternatives: ['¡Niños! No juguéis aquí, no os hagáis ruido, no despertéis a vuestro abuelo.', 'Niños, no juguéis aquí, no hagáis ruido, no despertéis al abuelito.'] },
+      { russian: 'Не говорите мне ничего о нем (ustedes). Оставьте меня в покое!', correct: 'No me digan nada de él. ¡Déjenme en paz!', alternatives: ['No me digan nada sobre él. ¡Déjenme en paz!', 'No me digan nada acerca de él. Déjenme tranquilo.'] },
+      { russian: 'Если ты себя плохо чувствуешь, не делай сегодня зарядку и не катайся на лыжах. Ложись, отдыхай, не думай о делах.', correct: 'Si te sientes mal, no hagas gimnasia hoy y no esquíes. Acuéstate, descansa, no pienses en los asuntos.', alternatives: ['Si no te sientes bien, no hagas ejercicio hoy y no esquíes. Acuéstate, descansa, no pienses en el trabajo.', 'Si te encuentras mal, no hagas ejercicios hoy y no vayas a esquiar. Túmbate, descansa, no pienses en las cosas.'] },
+      { russian: 'Не выходите (ustedes) из поезда на станции, сидите в вагоне.', correct: 'No salgan del tren en la estación, quédense en el vagón.', alternatives: ['No bajen del tren en la estación, siéntense en el vagón.', 'No salgan ustedes del tren en la estación, quédense sentados en el vagón.'] },
+      { russian: 'Чтобы быть в хорошей форме, не работай по ночам, не кури, не пей алкоголь.', correct: 'Para estar en buena forma, no trabajes por las noches, no fumes, no bebas alcohol.', alternatives: ['Para estar en forma, no trabajes de noche, no fumes, no tomes alcohol.', 'Para mantenerte en forma, no trabajes por la noche, no fumes, no bebas alcohol.'] },
+      { russian: 'Не переводите этот текст, прослушайте его два раза и потом нам его перескажите (vosotros).', correct: 'No traduzcáis este texto, escuchadlo dos veces y después contádnoslo.', alternatives: ['No traduzcáis este texto, escuchadlo dos veces y luego narradlo a nosotros.', 'No traduzcáis el texto, escuchadlo dos veces y después nos lo contáis.'] },
+      { russian: 'Не давай сейчас лекарство ребенку, потому что он только что заснул.', correct: 'No le des ahora medicina al niño, porque acaba de dormirse.', alternatives: ['No des ahora medicina al niño, porque se acaba de dormir.', 'No le des ahora el medicamento al niño, porque se ha dormido hace poco.'] },
+      { russian: 'Не ищите и не доставайте свои кредитные карточки, не платите ни за что: фирма все оплатила (ustedes).', correct: 'No busquen y no saquen sus tarjetas de crédito, no paguen por nada: la empresa ha pagado todo.', alternatives: ['No busquen ni saquen sus tarjetas de crédito, no paguen nada: la compañía lo ha pagado todo.', 'No busquen y no saquen vuestras tarjetas de crédito, no paguéis por nada: la empresa lo ha pagado todo.'] }
     ]
   }
 }
