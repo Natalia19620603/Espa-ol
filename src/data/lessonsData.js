@@ -10882,15 +10882,58 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     },
     vocabulary: [
       { word: 'la salud', translation: 'здоровье' },
-      { word: 'la enfermedad', translation: 'болезнь' },
-      { word: 'el médico', translation: 'врач' },
-      { word: 'el paciente', translation: 'пациент' },
-      { word: 'el consultorio', translation: 'кабинет врача' },
-      { word: 'la cita', translation: 'прием (у врача)' },
+      { word: 'la asistencia médica', translation: 'медицинская помощь' },
+      { word: 'la enfermedad', translation: 'болезнь / заболевание' },
+      { word: 'la queja', translation: 'жалоба' },
+      { word: 'quejarse de', translation: 'жаловаться на' },
+      { word: 'el malestar', translation: 'недомогание' },
+      { word: 'el bienestar', translation: 'хорошее самочувствие' },
+      { word: 'sano', translation: 'здоровый' },
       { word: 'el síntoma', translation: 'симптом' },
       { word: 'el dolor', translation: 'боль' },
-      { word: 'la fiebre', translation: 'температура, лихорадка' },
+      { word: 'doler', translation: 'болеть (о чем-либо)' },
+      { word: 'estar resfriado', translation: 'быть простуженным' },
+      { word: 'estar constipado', translation: 'быть простуженным (с насморком)' },
+      { word: 'estar agotado', translation: 'испытывать упадок сил' },
+      { word: 'estar desmayado', translation: 'быть в обмороке / потерять сознание' },
+      { word: 'la fiebre', translation: 'жар / повышенная температура' },
+      { word: 'el escalofrío', translation: 'озноб' },
+      { word: 'el mareo', translation: 'головокружение / тошнота' },
       { word: 'la tos', translation: 'кашель' },
+      { word: 'toser', translation: 'кашлять' },
+      { word: 'estornudar', translation: 'чихать' },
+      { word: 'vomitar', translation: 'вырвать / тошнить' },
+      { word: 'el picor', translation: 'зуд / жжение' },
+      { word: 'la quemadura', translation: 'ожог' },
+      { word: 'la hemorragia', translation: 'кровотечение' },
+      { word: 'la tensión arterial (alta/baja)', translation: 'артериальное давление (повышенное / пониженное)' },
+      { word: 'la herida', translation: 'рана' },
+      { word: 'el insomnio', translation: 'бессонница' },
+      { word: 'el médico de guardia', translation: 'дежурный врач' },
+      { word: 'el consultorio médico', translation: 'поликлиника' },
+      { word: 'llamar urgencias', translation: 'вызвать скорую помощь' },
+      { word: 'la ambulancia', translation: 'машина скорой помощи' },
+      { word: 'la póliza', translation: 'полис (страховой)' },
+      { word: 'la cabeza', translation: 'голова' },
+      { word: 'el oído', translation: 'ухо' },
+      { word: 'la garganta', translation: 'горло' },
+      { word: 'el cuello', translation: 'шея' },
+      { word: 'el hombro', translation: 'плечо' },
+      { word: 'el brazo', translation: 'рука (от плеча)' },
+      { word: 'la mano', translation: 'рука (кисть)' },
+      { word: 'la pierna', translation: 'нога' },
+      { word: 'el pie', translation: 'стопа' },
+      { word: 'la espalda', translation: 'спина' },
+      { word: 'el pecho', translation: 'грудь' },
+      { word: 'el corazón', translation: 'сердце' },
+      { word: 'el estómago', translation: 'желудок' },
+      { word: 'el hígado', translation: 'печень' },
+      { word: 'el codo', translation: 'локоть' },
+      { word: 'la muela', translation: 'коренной зуб' },
+      { word: 'el diente', translation: 'зуб' },
+      { word: 'el médico', translation: 'врач' },
+      { word: 'el paciente', translation: 'пациент' },
+      { word: 'la cita', translation: 'прием (у врача)' },
       { word: 'el resfriado', translation: 'простуда' },
       { word: 'la gripe', translation: 'грипп' },
       { word: 'la receta', translation: 'рецепт' },
@@ -10902,7 +10945,35 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'la radiografía', translation: 'рентген' },
       { word: 'el tratamiento', translation: 'лечение' }
     ],
-    exercises: ['ex-10-1-1', 'ex-10-1-2', 'ex-10-1-3', 'ex-10-1-4']
+    reading: {
+      title: 'Diálogo: Llamada a urgencias',
+      content: `— Urgencias Médicas "SaludTotal", ¿dígame?
+
+— ¡Hola! Por favor, necesito que manden a un médico. Mi marido ha tenido un accidente doméstico.
+
+— Cálmese, por favor. ¿Es usted socia de nuestra clínica? Deme su número de tarjeta sanitaria.
+
+— Sí, el número es 4483100-B.
+
+— Muy bien. ¿Qué ha pasado exactamente? ¿Qué síntomas presenta el paciente?
+
+— Se ha caído en la cocina. Tiene una herida profunda en el brazo y pierde mucha sangre. También dice que está mareado y creo que tiene la tensión muy baja.
+
+— ¿Ha perdido el conocimiento en algún momento?
+
+— No, pero le cuesta hablar y está muy pálido.
+
+— Entiendo. Dígame el nombre de su marido, su dirección exacta y un número de contacto.
+
+— Se llama Ricardo Galdós. Estamos en la Avenida de América, número quince, cuarto C. Mi teléfono es el 600123456.
+
+— He tomado nota. Mantenga la calma. Le mando una ambulancia ahora mismo, llegará en unos diez minutos. Mientras tanto, presione la herida con un paño limpio.
+
+— Muchas gracias. ¡Dese prisa, por favor!
+
+— No se preocupe, ya están en camino. Adiós.`
+    },
+    exercises: ['ex-10-1-1', 'ex-10-1-2', 'ex-10-1-3', 'ex-10-1-4', 'ex-10-1-5']
   },
 
   'lesson-10-2': {
@@ -35678,6 +35749,116 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
           { sentence: 'Seguir entrenando (usted)', correct: '¡Siga entrenando!' },
           { sentence: 'Mejorar los resultados (nosotros)', correct: '¡Mejoremos los resultados!' }
         ]
+      }
+    ]
+  },
+
+  'ex-10-1-5': {
+    id: 'ex-10-1-5',
+    type: 'reading-comprehension',
+    title: 'Упражнение 5: Comprensión del diálogo',
+    description: 'Responda a las preguntas sobre el diálogo',
+    showAnswerOption: true,
+    questions: [
+      {
+        question: '¿A qué servicio llama la mujer?',
+        options: [
+          'A la policía',
+          'A urgencias médicas',
+          'A los bomberos',
+          'Al hospital general'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿Qué le ha pasado al marido de la mujer?',
+        options: [
+          'Ha tenido un accidente de tráfico',
+          'Se ha caído en el baño',
+          'Ha tenido un accidente doméstico',
+          'Se ha quemado en la cocina'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Cuál es el número de tarjeta sanitaria de la mujer?',
+        options: [
+          '4483100-A',
+          '4483100-B',
+          '4483100-C',
+          '4483100-D'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿Dónde se ha caído el paciente?',
+        options: [
+          'En el baño',
+          'En el salón',
+          'En la cocina',
+          'En el dormitorio'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Qué síntoma presenta el paciente además de la herida?',
+        options: [
+          'Dolor de cabeza',
+          'Está mareado',
+          'Tiene fiebre',
+          'Está inconsciente'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿Ha perdido el conocimiento el paciente?',
+        options: [
+          'Sí, varias veces',
+          'Sí, una vez',
+          'No, pero está muy pálido',
+          'No se sabe'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Cómo se llama el paciente?',
+        options: [
+          'Ricardo Galdón',
+          'Ricardo Galdós',
+          'Ricardo Galdés',
+          'Ricardo Galdáns'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿En qué calle vive la familia?',
+        options: [
+          'Calle de América',
+          'Plaza de América',
+          'Avenida de América',
+          'Paseo de América'
+        ],
+        correct: 2
+      },
+      {
+        question: '¿Cuánto tiempo tardará en llegar la ambulancia?',
+        options: [
+          'Cinco minutos',
+          'Diez minutos',
+          'Quince minutos',
+          'Veinte minutos'
+        ],
+        correct: 1
+      },
+      {
+        question: '¿Qué debe hacer la mujer mientras llega la ambulancia?',
+        options: [
+          'Darle agua al paciente',
+          'Presionar la herida con un paño limpio',
+          'Llevar al paciente al hospital',
+          'Llamar a otro médico'
+        ],
+        correct: 1
       }
     ]
   },
