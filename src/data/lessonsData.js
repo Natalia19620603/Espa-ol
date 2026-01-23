@@ -11,7 +11,7 @@ export const courseLevels = [
     id: 'elementary',
     name: 'Базовый уровень (A2)',
     description: 'Развитие базовых навыков',
-    modules: ['module-6', 'module-7', 'module-8', 'module-9']
+    modules: ['module-6', 'module-7', 'module-8', 'module-9', 'module-10']
   },
   {
     id: 'intermediate',
@@ -92,6 +92,13 @@ export const modules = {
     level: 'elementary',
     lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
     description: 'Страдательный залог (Voz Pasiva), конструкции с SE, Acusativo con infinitivo'
+  },
+  'module-10': {
+    id: 'module-10',
+    title: 'Модуль 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ. Modo imperativo afirmativo, Modo imperativo negativo',
+    level: 'elementary',
+    lessons: ['lesson-10-1'],
+    description: 'Повелительное наклонение (утвердительная и отрицательная форма), лексика здоровья и визита к врачу'
   },
   'module-17': {
     id: 'module-17',
@@ -9811,6 +9818,14 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Nieve y escobillas',
         videoUrl: '/video/Nieve Escobillas m8c3.mp4'
+      },
+      {
+        tab: 'Viajes Egipto',
+        videoUrl: '/video/Viajes Egipto M8C3.mp4'
+      },
+      {
+        tab: 'Ojo del Inca',
+        videoUrl: '/video/Ojo del Inca M8C3.mp4'
       }
     ],
     grammar: {
@@ -10630,6 +10645,265 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { spanish: 'apostar (1b)', russian: 'делать ставки / заключать пари', example: 'No me gusta apostar dinero en deportes' }
     ],
     exercises: ['ex-9-3-1', 'ex-9-3-2', 'ex-9-3-3', 'ex-9-3-4', 'ex-9-3-5', 'ex-9-3-6']
+  },
+
+  // ============ МОДУЛЬ 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ ============
+
+  'lesson-10-1': {
+    id: 'lesson-10-1',
+    title: 'Урок 1: Imperativo Afirmativo (Повелительное наклонение)',
+    moduleId: 'module-10',
+    grammar: {
+      title: 'Imperativo Afirmativo (Утвердительная форма повелительного наклонения)',
+      intro: `Повелительное наклонение (Modo Imperativo) используется для выражения приказов, просьб, советов и инструкций. В испанском языке существует две формы: утвердительная (afirmativo) и отрицательная (negativo).`,
+      sections: [
+        {
+          id: 'simple-forms',
+          title: '1. Простые формы для Tú и Vosotros',
+          content: `## 1. Простые формы для Tú и Vosotros
+
+### Для Tú (ты)
+Форма императива для **tú** образуется от основы глагола без окончания **-s** формы 2-го лица единственного числа настоящего времени.
+
+**Правило:** Возьмите форму 3-го лица единственного числа Presente de Indicativo (он/она).
+
+| Инфинитив | Presente (él/ella) | Imperativo (tú) | Перевод |
+|-----------|-------------------|-----------------|---------|
+| hablar | habla | **¡Habla!** | Говори! |
+| comer | come | **¡Come!** | Ешь! |
+| escribir | escribe | **¡Escribe!** | Пиши! |
+
+**Примеры:**
+- ¡Habla más despacio! (Говори медленнее!)
+- ¡Come las verduras! (Ешь овощи!)
+- ¡Escribe la carta! (Напиши письмо!)
+
+### Для Vosotros (вы - неформально)
+Форма императива для **vosotros** образуется заменой **-r** инфинитива на **-d**.
+
+| Инфинитив | Imperativo (vosotros) | Перевод |
+|-----------|----------------------|---------|
+| hablar | **¡Hablad!** | Говорите! |
+| comer | **¡Comed!** | Ешьте! |
+| escribir | **¡Escribid!** | Пишите! |
+
+**Примеры:**
+- ¡Hablad con el profesor! (Поговорите с преподавателем!)
+- ¡Comed en la mesa! (Ешьте за столом!)
+- ¡Escribid los ejercicios! (Напишите упражнения!)`
+        },
+        {
+          id: 'irregular-tu',
+          title: '2. Неправильные глаголы для Tú (8 исключений)',
+          content: `## 2. Неправильные глаголы для Tú (8 исключений)
+
+Существует **8 глаголов** с неправильными формами императива для **tú**:
+
+| Инфинитив | Imperativo (tú) | Перевод |
+|-----------|-----------------|---------|
+| **decir** | **di** | скажи |
+| **hacer** | **haz** | сделай |
+| **ir** | **ve** | иди |
+| **poner** | **pon** | положи |
+| **salir** | **sal** | выйди |
+| **ser** | **sé** | будь |
+| **tener** | **ten** | имей/держи |
+| **venir** | **ven** | приди |
+
+**Примеры в предложениях:**
+- ¡**Di** la verdad! (Скажи правду!)
+- ¡**Haz** tu tarea! (Сделай домашнее задание!)
+- ¡**Ve** a la tienda! (Иди в магазин!)
+- ¡**Pon** el libro en la mesa! (Положи книгу на стол!)
+- ¡**Sal** de aquí! (Выйди отсюда!)
+- ¡**Sé** bueno! (Будь хорошим!)
+- ¡**Ten** paciencia! (Имей терпение!)
+- ¡**Ven** conmigo! (Пойдем со мной!)
+
+**Важно:** Для **vosotros** эти глаголы образуют императив по общему правилу:
+- decir → decid
+- hacer → haced
+- ir → id
+- poner → poned
+- salir → salid
+- ser → sed
+- tener → tened
+- venir → venid`
+        },
+        {
+          id: 'polite-forms',
+          title: '3. Вежливые формы (Usted, Ustedes, Nosotros)',
+          content: `## 3. Вежливые формы (Usted, Ustedes, Nosotros)
+
+Для образования императива **usted**, **ustedes** и **nosotros** используется форма **Presente de Subjuntivo**.
+
+### Правило образования:
+1. Берем форму 1-го лица единственного числа настоящего времени (yo)
+2. Убираем окончание **-o**
+3. Добавляем противоположные окончания:
+   - Глаголы на **-ar**: добавляем **-e, -en, -emos**
+   - Глаголы на **-er/-ir**: добавляем **-a, -an, -amos**
+
+| Инфинитив | Yo (Presente) | Usted | Ustedes | Nosotros |
+|-----------|---------------|-------|---------|----------|
+| hablar | hablo | **hable** | **hablen** | **hablemos** |
+| comer | como | **coma** | **coman** | **comamos** |
+| escribir | escribo | **escriba** | **escriban** | **escribamos** |
+
+**Примеры:**
+- ¡**Hable** más despacio, por favor! (Говорите медленнее, пожалуйста!)
+- ¡**Hablen** en español! (Говорите по-испански!)
+- ¡**Hablemos** del problema! (Давайте поговорим о проблеме!)
+- ¡**Coma** estas frutas! (Ешьте эти фрукты!)
+- ¡**Escriba** su nombre aquí! (Напишите ваше имя здесь!)
+
+### Форма Nosotros (Давайте...)
+Форма **nosotros** выражает предложение совместного действия:
+- ¡Comamos juntos! (Давайте поедим вместе!)
+- ¡Escribamos una carta! (Давайте напишем письмо!)
+- ¡Vayamos al cine! (Давайте пойдем в кино!)`
+        },
+        {
+          id: 'main-exceptions',
+          title: '4. Основные исключения в вежливых формах',
+          content: `## 4. Основные исключения в вежливых формах
+
+Некоторые глаголы имеют **неправильные основы** для образования императива Usted/Ustedes/Nosotros:
+
+| Инфинитив | Yo (Presente) | Usted | Ustedes | Nosotros | Перевод |
+|-----------|---------------|-------|---------|----------|---------|
+| **ser** | soy | **sea** | **sean** | **seamos** | быть |
+| **ir** | voy | **vaya** | **vayan** | **vayamos** | идти |
+| **dar** | doy | **dé** | **den** | **demos** | давать |
+| **saber** | sé | **sepa** | **sepan** | **sepamos** | знать |
+| **estar** | estoy | **esté** | **estén** | **estemos** | находиться |
+
+**Примеры:**
+- ¡**Sea** puntual! (Будьте пунктуальным!)
+- ¡**Vaya** al médico! (Идите к врачу!)
+- ¡**Dé** su opinión! (Дайте ваше мнение!)
+- ¡**Sepa** que estamos aquí! (Знайте, что мы здесь!)
+- ¡**Esté** tranquilo! (Будьте спокойны!)
+
+**Особенность глагола DAR:**
+В форме **usted** глагол **dar** пишется с ударением (**dé**), чтобы отличать его от предлога **de** (из, от).`
+        },
+        {
+          id: 'orthographic-changes',
+          title: '5. Орфографические изменения',
+          content: `## 5. Орфографические изменения
+
+При образовании императива некоторые глаголы меняют написание для сохранения звучания:
+
+### Глаголы на -GAR → -GUE
+Чтобы сохранить звук [g], перед **e** добавляется **u**.
+
+| Инфинитив | Usted | Ustedes | Nosotros |
+|-----------|-------|---------|----------|
+| llegar (приходить) | **llegue** | **lleguen** | **lleguemos** |
+| pagar (платить) | **pague** | **paguen** | **paguemos** |
+| jugar (играть) | **juegue** | **jueguen** | **juguemos** |
+
+**Примеры:**
+- ¡**Llegue** temprano! (Приходите рано!)
+- ¡**Pague** en caja! (Платите в кассе!)
+
+### Глаголы на -CAR → -QUE
+Чтобы сохранить звук [k], **c** меняется на **qu** перед **e**.
+
+| Инфинитив | Usted | Ustedes | Nosotros |
+|-----------|-------|---------|----------|
+| buscar (искать) | **busque** | **busquen** | **busquemos** |
+| sacar (вынимать) | **saque** | **saquen** | **saquemos** |
+| explicar (объяснять) | **explique** | **expliquen** | **expliquemos** |
+
+**Примеры:**
+- ¡**Busque** la información! (Ищите информацию!)
+- ¡**Explique** el tema! (Объясните тему!)
+
+### Глаголы на -ZAR → -CE
+Буква **z** меняется на **c** перед **e**.
+
+| Инфинитив | Usted | Ustedes | Nosotros |
+|-----------|-------|---------|----------|
+| empezar (начинать) | **empiece** | **empiecen** | **empecemos** |
+| almorzar (обедать) | **almuerce** | **almuercen** | **almorcemos** |
+| comenzar (начинать) | **comience** | **comiencen** | **comencemos** |
+
+**Примеры:**
+- ¡**Empiece** ahora! (Начинайте сейчас!)
+- ¡**Almuerce** con nosotros! (Пообедайте с нами!)
+
+### Глаголы на -GER/-GIR → -JA/-JO
+Чтобы сохранить звук [х], **g** меняется на **j** перед **a/o**.
+
+| Инфинитив | Usted | Ustedes | Nosotros |
+|-----------|-------|---------|----------|
+| proteger (защищать) | **proteja** | **protejan** | **protejamos** |
+| escoger (выбирать) | **escoja** | **escojan** | **escojamos** |
+| dirigir (направлять) | **dirija** | **dirijan** | **dirijamos** |
+| elegir (выбирать) | **elija** | **elijan** | **elijamos** |
+
+**Примеры:**
+- ¡**Proteja** el medio ambiente! (Защищайте окружающую среду!)
+- ¡**Escoja** el color! (Выберите цвет!)
+- ¡**Dirija** la palabra! (Обратитесь с речью!)`
+        },
+        {
+          id: 'usage-examples',
+          title: '6. Примеры использования',
+          content: `## 6. Примеры использования Imperativo Afirmativo
+
+### В медицинском контексте (Визит к врачу):
+- ¡**Abra** la boca! (Откройте рот!)
+- ¡**Respire** profundo! (Дышите глубоко!)
+- ¡**Tome** esta medicina tres veces al día! (Принимайте это лекарство три раза в день!)
+- ¡**Descanse** mucho! (Много отдыхайте!)
+- ¡**Beba** mucha agua! (Пейте много воды!)
+
+### В повседневной жизни:
+- ¡**Come** sano! (Питайся правильно!)
+- ¡**Haz** ejercicio! (Делай зарядку!)
+- ¡**Ten** cuidado! (Будь осторожен!)
+- ¡**Ven** aquí! (Иди сюда!)
+- ¡**Di** la verdad! (Скажи правду!)
+
+### Вежливые просьбы:
+- ¡**Pase**, por favor! (Проходите, пожалуйста!)
+- ¡**Siéntese** aquí! (Садитесь здесь!)
+- ¡**Espere** un momento! (Подождите момент!)
+- ¡**Dígame** su nombre! (Скажите мне ваше имя!)
+
+### Совместные действия (Nosotros):
+- ¡**Vayamos** al médico! (Давайте пойдем к врачу!)
+- ¡**Comamos** juntos! (Давайте поедим вместе!)
+- ¡**Hablemos** de esto! (Давайте поговорим об этом!)`
+        }
+      ]
+    },
+    vocabulary: [
+      { spanish: 'salud f', russian: 'здоровье', example: 'La salud es lo más importante' },
+      { spanish: 'enfermedad f', russian: 'болезнь', example: 'Tiene una enfermedad grave' },
+      { spanish: 'médico m', russian: 'врач', example: 'El médico me recetó estas pastillas' },
+      { spanish: 'paciente m/f', russian: 'пациент', example: 'El paciente está en la sala de espera' },
+      { spanish: 'consultorio m', russian: 'кабинет врача', example: 'El consultorio está en el segundo piso' },
+      { spanish: 'cita f', russian: 'прием (у врача)', example: 'Tengo cita con el doctor a las tres' },
+      { spanish: 'síntoma m', russian: 'симптом', example: '¿Qué síntomas tiene?' },
+      { spanish: 'dolor m', russian: 'боль', example: 'Tengo un dolor de cabeza terrible' },
+      { spanish: 'fiebre f', russian: 'температура, лихорадка', example: 'Tiene fiebre alta' },
+      { spanish: 'tos f', russian: 'кашель', example: 'La tos no me deja dormir' },
+      { spanish: 'resfriado m', russian: 'простуда', example: 'Tengo un resfriado' },
+      { spanish: 'gripe f', russian: 'грипп', example: 'La gripe es contagiosa' },
+      { spanish: 'receta f', russian: 'рецепт', example: 'El médico me dio una receta' },
+      { spanish: 'medicina f', russian: 'лекарство', example: 'Tome esta medicina tres veces al día' },
+      { spanish: 'pastilla f', russian: 'таблетка', example: 'Tome dos pastillas cada ocho horas' },
+      { spanish: 'jarabe m', russian: 'сироп', example: 'El jarabe es para la tos' },
+      { spanish: 'inyección f', russian: 'укол', example: 'Necesita una inyección' },
+      { spanish: 'análisis m', russian: 'анализ', example: 'Voy a hacerme un análisis de sangre' },
+      { spanish: 'radiografía f', russian: 'рентген', example: 'El doctor pidió una radiografía' },
+      { spanish: 'tratamiento m', russian: 'лечение', example: 'El tratamiento durará dos semanas' }
+    ],
+    exercises: ['ex-10-1-1', 'ex-10-1-2', 'ex-10-1-3']
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
@@ -34584,6 +34858,137 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Свету требуется приблизительно 1,2 секунды, чтобы достичь Земли с Луны.', spanish: 'La luz tarda aproximadamente 1.2 segundos en llegar a la Tierra desde la Luna.' },
       { russian: 'Приблизьтесь (acercarse), чтобы лучше увидеть, как свет взаимодействует с разными типами материи.', spanish: 'Acérquense para ver mejor cómo la luz interactúa con diferentes tipos de materia.' },
       { russian: 'Осветите (iluminar) комнату этой лампой, чтобы мы могли провести эксперимент с преломлением.', spanish: 'Iluminen la habitación con esa lámpara para que podamos realizar el experimento de refracción.' }
+    ]
+  },
+
+  // ============ МОДУЛЬ 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ ============
+
+  'ex-10-1-1': {
+    id: 'ex-10-1-1',
+    type: 'transformation',
+    title: 'Упражнение 1: Образуйте формы imperativo afirmativo',
+    description: 'Образуйте формы повелительного наклонения от данных инфинитивов',
+    showAnswerOption: true,
+    parts: [
+      {
+        partTitle: 'a) tú — vosotros',
+        questions: [
+          { infinitive: 'Fumar menos', tu: 'Fuma menos', vosotros: 'Fumad menos' },
+          { infinitive: 'Pasear antes de acostarse', tu: 'Pasea antes de acostarte', vosotros: 'Pasead antes de acostaros' },
+          { infinitive: 'Leer este artículo', tu: 'Lee este artículo', vosotros: 'Leed este artículo' },
+          { infinitive: 'Abrir la ventana', tu: 'Abre la ventana', vosotros: 'Abrid la ventana' },
+          { infinitive: 'Dormir ocho horas al día', tu: 'Duerme ocho horas al día', vosotros: 'Dormid ocho horas al día' },
+          { infinitive: 'Seguir las recomendaciones del médico', tu: 'Sigue las recomendaciones del médico', vosotros: 'Seguid las recomendaciones del médico' },
+          { infinitive: 'Pensar en mis palabras', tu: 'Piensa en mis palabras', vosotros: 'Pensad en mis palabras' },
+          { infinitive: 'Hacer una sorpresa', tu: 'Haz una sorpresa', vosotros: 'Haced una sorpresa' },
+          { infinitive: 'Venir a vernos', tu: 'Ven a vernos', vosotros: 'Venid a vernos' },
+          { infinitive: 'Decir la verdad', tu: 'Di la verdad', vosotros: 'Decid la verdad' },
+          { infinitive: 'Jugar al ajedrez', tu: 'Juega al ajedrez', vosotros: 'Jugad al ajedrez' },
+          { infinitive: 'Salir a la calle', tu: 'Sal a la calle', vosotros: 'Salid a la calle' },
+          { infinitive: 'Tener cuidado', tu: 'Ten cuidado', vosotros: 'Tened cuidado' },
+          { infinitive: 'Aparcar el coche aquí', tu: 'Aparca el coche aquí', vosotros: 'Aparcad el coche aquí' },
+          { infinitive: 'Almorzar en el colegio', tu: 'Almuerza en el colegio', vosotros: 'Almorzad en el colegio' }
+        ]
+      },
+      {
+        partTitle: 'b) usted — ustedes — nosotros',
+        questions: [
+          { infinitive: 'Descansar más', usted: 'Descanse más', ustedes: 'Descansen más', nosotros: 'Descansemos más' },
+          { infinitive: 'Comer fruta y verdura', usted: 'Coma fruta y verdura', ustedes: 'Coman fruta y verdura', nosotros: 'Comamos fruta y verdura' },
+          { infinitive: 'Practicar deporte', usted: 'Practique deporte', ustedes: 'Practiquen deporte', nosotros: 'Practiquemos deporte' },
+          { infinitive: 'Discutir el contrato con los socios', usted: 'Discuta el contrato con los socios', ustedes: 'Discutan el contrato con los socios', nosotros: 'Discutamos el contrato con los socios' },
+          { infinitive: 'Agradecer al amigo su ayuda', usted: 'Agradezca al amigo su ayuda', ustedes: 'Agradezcan al amigo su ayuda', nosotros: 'Agradezcamos al amigo su ayuda' },
+          { infinitive: 'Traer el seguro médico', usted: 'Traiga el seguro médico', ustedes: 'Traigan el seguro médico', nosotros: 'Traigamos el seguro médico' },
+          { infinitive: 'Cerrar la ventana', usted: 'Cierre la ventana', ustedes: 'Cierren la ventana', nosotros: 'Cerremos la ventana' },
+          { infinitive: 'Empezar a cenar sin ellos', usted: 'Empiece a cenar sin ellos', ustedes: 'Empiecen a cenar sin ellos', nosotros: 'Empecemos a cenar sin ellos' },
+          { infinitive: 'Contar lo que ha pasado', usted: 'Cuente lo que ha pasado', ustedes: 'Cuenten lo que ha pasado', nosotros: 'Contemos lo que ha pasado' },
+          { infinitive: 'Sonreír al fotógrafo', usted: 'Sonría al fotógrafo', ustedes: 'Sonrían al fotógrafo', nosotros: 'Sonriamos al fotógrafo' },
+          { infinitive: 'Elegir otro vino', usted: 'Elija otro vino', ustedes: 'Elijan otro vino', nosotros: 'Elijamos otro vino' },
+          { infinitive: 'Dar una vuelta por la ciudad', usted: 'Dé una vuelta por la ciudad', ustedes: 'Den una vuelta por la ciudad', nosotros: 'Demos una vuelta por la ciudad' },
+          { infinitive: 'Ir a la oficina a pie', usted: 'Vaya a la oficina a pie', ustedes: 'Vayan a la oficina a pie', nosotros: 'Vayamos a la oficina a pie' },
+          { infinitive: 'Ser optimista', usted: 'Sea optimista', ustedes: 'Sean optimistas', nosotros: 'Seamos optimistas' },
+          { infinitive: 'Apagar la luz', usted: 'Apague la luz', ustedes: 'Apaguen la luz', nosotros: 'Apaguemos la luz' }
+        ]
+      }
+    ]
+  },
+
+  'ex-10-1-2': {
+    id: 'ex-10-1-2',
+    type: 'transformation',
+    title: 'Упражнение 2: Измените предложения по образцу',
+    description: 'Преобразуйте предложения из одной формы повелительного наклонения в другую',
+    showAnswerOption: true,
+    parts: [
+      {
+        partTitle: 'a) tú → usted (Образец: Abre la puerta. → Abra usted la puerta.)',
+        questions: [
+          { original: 'Lee el fax.', transformed: 'Lea usted el fax.' },
+          { original: 'Rompe la carta.', transformed: 'Rompa usted la carta.' },
+          { original: 'Piensa en tus padres.', transformed: 'Piense usted en sus padres.' },
+          { original: 'Atiende al cliente.', transformed: 'Atienda usted al cliente.' },
+          { original: 'Divierte a la señorita.', transformed: 'Divierta usted a la señorita.' },
+          { original: 'Traduce esta poesía.', transformed: 'Traduzca usted esta poesía.' },
+          { original: 'Haz caso de mis palabras.', transformed: 'Haga usted caso de mis palabras.' },
+          { original: 'Ven a ver las competiciones.', transformed: 'Venga usted a ver las competiciones.' },
+          { original: 'Sé fuerte.', transformed: 'Sea usted fuerte.' },
+          { original: 'Ve la nueva película que ha traído Juan.', transformed: 'Vea usted la nueva película que ha traído Juan.' },
+          { original: 'Ve a la biblioteca y busca este libro.', transformed: 'Vaya usted a la biblioteca y busque este libro.' },
+          { original: 'Ríe con nosotros.', transformed: 'Ría usted con nosotros.' },
+          { original: 'Trae pan y leche para el desayuno.', transformed: 'Traiga usted pan y leche para el desayuno.' },
+          { original: 'Di tu nombre y apellido a la secretaria.', transformed: 'Diga usted su nombre y apellido a la secretaria.' },
+          { original: 'Oye a Carmen cantar.', transformed: 'Oiga usted a Carmen cantar.' },
+          { original: 'Paga la cuenta.', transformed: 'Pague usted la cuenta.' },
+          { original: 'Cruza la carretera con cuidado.', transformed: 'Cruce usted la carretera con cuidado.' },
+          { original: 'Sigue entrenándote.', transformed: 'Siga usted entrenándose.' },
+          { original: 'Coge un taxi.', transformed: 'Coja usted un taxi.' }
+        ]
+      },
+      {
+        partTitle: 'b) vosotros → nosotros (Образец: Abrid la puerta. → Abramos la puerta.)',
+        questions: [
+          { original: 'Leed el fax.', transformed: 'Leamos el fax.' },
+          { original: 'Romped la carta.', transformed: 'Rompamos la carta.' },
+          { original: 'Pensad en vuestros padres.', transformed: 'Pensemos en nuestros padres.' },
+          { original: 'Atended al cliente.', transformed: 'Atendamos al cliente.' },
+          { original: 'Divertid a la señorita.', transformed: 'Divirtamos a la señorita.' },
+          { original: 'Traducid esta poesía.', transformed: 'Traduzcamos esta poesía.' },
+          { original: 'Haced caso de mis palabras.', transformed: 'Hagamos caso de mis palabras.' },
+          { original: 'Venid a ver las competiciones.', transformed: 'Vengamos a ver las competiciones.' },
+          { original: 'Sed fuertes.', transformed: 'Seamos fuertes.' },
+          { original: 'Ved la nueva película que ha traído Juan.', transformed: 'Veamos la nueva película que ha traído Juan.' },
+          { original: 'Id a la biblioteca y buscad este libro.', transformed: 'Vayamos a la biblioteca y busquemos este libro.' },
+          { original: 'Sonreíd despidiéndoos de Miguel.', transformed: 'Sonriamos despidiéndonos de Miguel.' },
+          { original: 'Traed pan y leche para el desayuno.', transformed: 'Traigamos pan y leche para el desayuno.' },
+          { original: 'Decid vuestros nombres y apellidos a la secretaria.', transformed: 'Digamos nuestros nombres y apellidos a la secretaria.' },
+          { original: 'Oíd a Carmen cantar.', transformed: 'Oigamos a Carmen cantar.' },
+          { original: 'Pagad la cuenta.', transformed: 'Paguemos la cuenta.' },
+          { original: 'Cruzad la carretera con cuidado.', transformed: 'Crucemos la carretera con cuidado.' },
+          { original: 'Seguid entrenándoos.', transformed: 'Sigamos entrenándonos.' },
+          { original: 'Coged un taxi.', transformed: 'Cojamos un taxi.' }
+        ]
+      }
+    ]
+  },
+
+  'ex-10-1-3': {
+    id: 'ex-10-1-3',
+    type: 'transformation',
+    title: 'Упражнение 3: Замените формы единственного числа формами множественного числа, и наоборот',
+    description: 'Измените число формы повелительного наклонения на противоположное',
+    showAnswerOption: true,
+    questions: [
+      { original: 'Tened prisa.', transformed: 'Ten prisa.', explanation: 'vosotros → tú' },
+      { original: 'Da una vuelta antes de acostarte.', transformed: 'Dad una vuelta antes de acostaros.', explanation: 'tú → vosotros' },
+      { original: 'Sea usted prudente conduciendo el coche.', transformed: 'Sean ustedes prudentes conduciendo el coche.', explanation: 'usted → ustedes' },
+      { original: 'Hagan cola para entrar en el museo.', transformed: 'Haga cola para entrar en el museo.', explanation: 'ustedes → usted' },
+      { original: 'Id en avión, es más cómodo.', transformed: 'Ve en avión, es más cómodo.', explanation: 'vosotros → tú' },
+      { original: 'Recuerda mi dirección.', transformed: 'Recordad mi dirección.', explanation: 'tú → vosotros' },
+      { original: 'Despierte usted a los niños.', transformed: 'Despierten ustedes a los niños.', explanation: 'usted → ustedes' },
+      { original: 'Seguid participando en las competiciones de vela.', transformed: 'Sigue participando en las competiciones de vela.', explanation: 'vosotros → tú' },
+      { original: 'Sabed esta regla.', transformed: 'Sabe esta regla.', explanation: 'vosotros → tú' },
+      { original: 'Di algo agradable.', transformed: 'Decid algo agradable.', explanation: 'tú → vosotros' },
+      { original: 'Huyan de aquí.', transformed: 'Huya de aquí.', explanation: 'ustedes → usted' }
     ]
   }
 }
