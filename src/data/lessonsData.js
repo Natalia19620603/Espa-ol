@@ -1414,11 +1414,7 @@ Objeto + está + preposición + del/de la + lugar.
     exercises: [
       {
         tab: 'SER y ESTAR',
-        exerciseIds: ['ex-1-3-1', 'ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3']
-      },
-      {
-        tab: 'Предлоги Места',
-        exerciseIds: ['ex-1-3-6', 'ex-1-3-7', 'ex-1-3-8']
+        exerciseIds: ['ex-1-3-1']
       }
     ]
   },
@@ -15429,16 +15425,16 @@ export const exercises = {
     title: 'Упражнение на спряжение и согласование',
     description: 'Выбери фразу с глаголом и прилагательным в правильной форме',
     questions: [
-      { pattern: 'Tú eres economista.', result: 'Carmen y tú sois economistas.', sentence: 'Carmen y tú sois economistas.', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
-      { pattern: 'Luis es joven.', result: 'Luis y Andrés son jóvenes.', sentence: 'Luis y Andrés son jóvenes.', options: ['Luis y Andrés es joven.', 'Luis y Andrés son jóvenes.', 'Luis y Andrés sois jóvenes.', 'Luis y Andrés somos jóvenes.'], correct: 1 },
-      { pattern: 'María y yo somos españolas.', result: 'César y Susana son españoles.', sentence: 'César y Susana son españoles.', options: ['César y Susana somos españolas.', 'César y Susana son españoles.', 'César y Susana sois españoles.', 'César y Susana es español.'], correct: 1 },
-      { pattern: 'Ellas son de Madrid.', result: 'Vosotros sois de Madrid.', sentence: 'Vosotros sois de Madrid.', options: ['Vosotros son de Madrid.', 'Vosotros sois de Madrid.', 'Vosotros somos de Madrid.', 'Vosotros es de Madrid.'], correct: 1 },
-      { pattern: 'Los amigos están en la playa.', result: 'Enrique está en la playa.', sentence: 'Enrique está en la playa.', options: ['Enrique están en la playa.', 'Enrique está en la playa.', 'Enrique estamos en la playa.', 'Enrique estoy en la playa.'], correct: 1 },
-      { pattern: 'Luisa y tú estáis enfermos.', result: 'Luisa está enferma.', sentence: 'Luisa está enferma.', options: ['Luisa estáis enfermos.', 'Luisa está enferma.', 'Luisa estamos enfermas.', 'Luisa están enferma.'], correct: 1 },
-      { pattern: 'Clara y yo somos felices.', result: 'Ustedes son felices.', sentence: 'Ustedes son felices.', options: ['Ustedes somos felices.', 'Ustedes son felices.', 'Ustedes sois felices.', 'Ustedes es feliz.'], correct: 1 },
-      { pattern: 'Él es alto.', result: 'Pedro y María son altos.', sentence: 'Pedro y María son altos.', options: ['Pedro y María es alto.', 'Pedro y María son altos.', 'Pedro y María sois altos.', 'Pedro y María somos altos.'], correct: 1 },
-      { pattern: 'Ella está contenta.', result: 'Tú y ella estáis contentos.', sentence: 'Tú y ella estáis contentos.', options: ['Tú y ella está contenta.', 'Tú y ella estáis contentos.', 'Tú y ella están contentos.', 'Tú y ella estamos contentos.'], correct: 1 },
-      { pattern: 'Él es inteligente.', result: 'Ellas son inteligentes.', sentence: 'Ellas son inteligentes.', options: ['Ellas es inteligente.', 'Ellas son inteligentes.', 'Ellas sois inteligentes.', 'Ellas somos inteligentes.'], correct: 1 }
+      { sentence: 'Carmen y tú sois economistas.', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
+      { sentence: 'Luis y Andrés son jóvenes.', options: ['Luis y Andrés es joven.', 'Luis y Andrés son jóvenes.', 'Luis y Andrés sois jóvenes.', 'Luis y Andrés somos jóvenes.'], correct: 1 },
+      { sentence: 'César y Susana son españoles.', options: ['César y Susana somos españolas.', 'César y Susana son españoles.', 'César y Susana sois españoles.', 'César y Susana es español.'], correct: 1 },
+      { sentence: 'Vosotros sois de Madrid.', options: ['Vosotros son de Madrid.', 'Vosotros sois de Madrid.', 'Vosotros somos de Madrid.', 'Vosotros es de Madrid.'], correct: 1 },
+      { sentence: 'Enrique está en la playa.', options: ['Enrique están en la playa.', 'Enrique está en la playa.', 'Enrique estamos en la playa.', 'Enrique estoy en la playa.'], correct: 1 },
+      { sentence: 'Luisa está enferma.', options: ['Luisa estáis enfermos.', 'Luisa está enferma.', 'Luisa estamos enfermas.', 'Luisa están enferma.'], correct: 1 },
+      { sentence: 'Ustedes son felices.', options: ['Ustedes somos felices.', 'Ustedes son felices.', 'Ustedes sois felices.', 'Ustedes es feliz.'], correct: 1 },
+      { sentence: 'Pedro y María son altos.', options: ['Pedro y María es alto.', 'Pedro y María son altos.', 'Pedro y María sois altos.', 'Pedro y María somos altos.'], correct: 1 },
+      { sentence: 'Tú y ella estáis contentos.', options: ['Tú y ella está contenta.', 'Tú y ella estáis contentos.', 'Tú y ella están contentos.', 'Tú y ella estamos contentos.'], correct: 1 },
+      { sentence: 'Ellas son inteligentes.', options: ['Ellas es inteligente.', 'Ellas son inteligentes.', 'Ellas sois inteligentes.', 'Ellas somos inteligentes.'], correct: 1 }
     ]
   },
   'ex-1-3-2': {
