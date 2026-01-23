@@ -15358,7 +15358,6 @@ export const exercises = {
     title: 'Упражнение на спряжение и согласование',
     description: 'Выбери фразу с глаголом и прилагательным в правильной форме',
     questions: [
-      { pattern: 'Yo soy rusa.', result: 'María y yo somos rusas.', question: 'Преобразуйте предложение с María y yo', options: ['María y yo soy rusa.', 'María y yo somos rusas.', 'María y yo son rusas.', 'María y yo eres rusas.'], correct: 1 },
       { pattern: 'Tú eres economista.', result: 'Carmen y tú sois economistas.', question: 'Преобразуйте предложение с Carmen y tú', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
       { pattern: 'Luis es joven.', result: 'Luis y Andrés son jóvenes.', question: 'Преобразуйте предложение с Luis y Andrés', options: ['Luis y Andrés es joven.', 'Luis y Andrés son jóvenes.', 'Luis y Andrés sois jóvenes.', 'Luis y Andrés somos jóvenes.'], correct: 1 },
       { pattern: 'Tú estás casado.', result: 'Nosotros estamos casados.', question: 'Преобразуйте предложение с Nosotros', options: ['Nosotros estás casado.', 'Nosotros estamos casados.', 'Nosotros están casados.', 'Nosotros estoy casado.'], correct: 1 },
@@ -15924,7 +15923,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Вставьте правильный предлог после глагола',
     questions: [
       { sentence: 'Pregunto ___ el precio.', correct: 'por', alternatives: [] },
-      { sentence: 'Voy ___ la casa.', correct: 'a', alternatives: [] },
+      { sentence: 'Voy ___ casa.', correct: 'a', alternatives: [] },
       { sentence: 'Vengo ___ la escuela.', correct: 'de', alternatives: [] },
       { sentence: 'Hablo ___ mis amigos.', correct: 'con', alternatives: [] },
       { sentence: 'Escribo una carta ___ mi hermana.', correct: 'a', alternatives: ['para'] },
@@ -29115,20 +29114,25 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
   },
   'ex-1-3-6': {
     id: 'ex-1-3-6',
-    type: 'grammar',
+    type: 'fillblank',
     title: 'Предлоги места - Часть 1',
-    description: 'Выберите правильный предлог места для каждого предложения',
+    description: 'Вставьте правильный предлог (перевод предлога указан в скобках)',
     questions: [
-      { sentence: 'El libro está ________ la mesa.', options: ['encima de', 'debajo de', 'entre', 'detrás de'], correct: 0 },
-      { sentence: 'El gato está ________ la silla.', options: ['debajo de', 'encima de', 'delante de', 'entre'], correct: 0 },
-      { sentence: 'La casa está ________ la escuela.', options: ['al lado de', 'debajo de', 'encima de', 'en'], correct: 0 },
-      { sentence: 'El cuadro está ________ la pared.', options: ['en', 'debajo de', 'al lado de', 'entre'], correct: 0 },
-      { sentence: 'La lámpara está ________ la mesita.', options: ['a la derecha de', 'debajo de', 'entre', 'detrás de'], correct: 0 },
-      { sentence: 'El niño está ________ la puerta.', options: ['delante de', 'debajo de', 'encima de', 'a la izquierda de'], correct: 0 },
-      { sentence: 'La silla está ________ la ventana.', options: ['detrás de', 'encima de', 'debajo de', 'entre'], correct: 0 },
-      { sentence: 'El jardín está ________ dos casas.', options: ['entre', 'encima de', 'debajo de', 'delante de'], correct: 0 },
-      { sentence: 'El perro está ________ el árbol.', options: ['a la izquierda de', 'encima de', 'debajo de', 'en'], correct: 0 },
-      { sentence: 'La escuela está ________ el museo.', options: ['detrás de', 'debajo de', 'encima de', 'en'], correct: 0 }
+      { sentence: 'El libro está ___ la mesa. (на)', correct: 'encima de', alternatives: ['sobre'] },
+      { sentence: 'El museo está ___ la casa. (в)', correct: 'en', alternatives: [] },
+      { sentence: 'Voy ___ la playa. (на/к)', correct: 'a', alternatives: [] },
+      { sentence: 'El café está ___ del museo. (рядом)', correct: 'al lado', alternatives: ['cerca'] },
+      { sentence: 'Mi hermano está ___ casa. (дома)', correct: 'en', alternatives: [] },
+      { sentence: 'La madre está ___ la ciudad. (в)', correct: 'en', alternatives: [] },
+      { sentence: 'El coche está ___ la calle. (на)', correct: 'en', alternatives: [] },
+      { sentence: 'Vengo ___ Madrid. (из)', correct: 'de', alternatives: [] },
+      { sentence: 'El libro es ___ mi padre. (для/мой отец)', correct: 'de', alternatives: ['para'] },
+      { sentence: 'Hablo ___ mi amigo. (с)', correct: 'con', alternatives: [] },
+      { sentence: 'El día es bueno ___ la playa. (для)', correct: 'para', alternatives: [] },
+      { sentence: 'El hermano está ___ la hermana. (рядом с)', correct: 'al lado de', alternatives: ['cerca de'] },
+      { sentence: 'Estoy ___ España. (в)', correct: 'en', alternatives: [] },
+      { sentence: 'La chica está ___ el chico. (с)', correct: 'con', alternatives: [] },
+      { sentence: 'La casa está ___ dos calles. (между)', correct: 'entre', alternatives: [] }
     ]
   },
   'ex-1-3-7': {
