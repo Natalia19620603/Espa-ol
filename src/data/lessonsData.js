@@ -1414,7 +1414,11 @@ Objeto + está + preposición + del/de la + lugar.
     exercises: [
       {
         tab: 'SER y ESTAR',
-        exerciseIds: ['ex-1-3-1']
+        exerciseIds: ['ex-1-3-2', 'ex-1-3-4', 'ex-1-3-5', 'ex-1-3-3']
+      },
+      {
+        tab: 'Предлоги Места',
+        exerciseIds: ['ex-1-3-6', 'ex-1-3-7', 'ex-1-3-8']
       }
     ]
   },
@@ -11190,7 +11194,32 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'echar a + inf.', translation: 'начать (с глаголами движения)' },
       { word: 'echarse a + inf.', translation: 'начать (с глаголами, которые выражают эмоции)' },
       { word: 'echar de menos a alguien', translation: 'скучать по кому-либо' },
-      { word: 'echarse a perder', translation: 'испортиться / протухнуть' }
+      { word: 'echarse a perder', translation: 'испортиться / протухнуть' },
+      { word: 'pedir hora', translation: 'записаться на прием' },
+      { word: 'atender al paciente', translation: 'принять пациента' },
+      { word: 'examinar al paciente', translation: 'осмотреть пациента' },
+      { word: 'auscultar los pulmones', translation: 'прослушать легкие' },
+      { word: 'tomar la tensión', translation: 'измерить давление' },
+      { word: 'hacer un análisis de sangre', translation: 'сделать анализ крови' },
+      { word: 'hacer un análisis de orina', translation: 'сделать анализ мочи' },
+      { word: 'radiografía', translation: 'рентген' },
+      { word: 'revisión', translation: 'обследование' },
+      { word: 'investigación ultrasónica', translation: 'ультразвуковое исследование' },
+      { word: 'diagnosticar', translation: 'поставить диагноз' },
+      { word: 'tratamiento', translation: 'лечение' },
+      { word: 'recetar', translation: 'выписать рецепт' },
+      { word: 'receta', translation: 'рецепт' },
+      { word: 'prescribir', translation: 'прописать' },
+      { word: 'hospitalizar', translation: 'госпитализировать' },
+      { word: 'operar', translation: 'прооперировать' },
+      { word: 'UCI — unidad de cuidados intensivos', translation: 'отделение реанимации' },
+      { word: 'guardar cama', translation: 'соблюдать постельный режим' },
+      { word: 'estar a dieta', translation: 'соблюдать диету' },
+      { word: 'tomar medicamentos', translation: 'принимать лекарства' },
+      { word: 'dar de baja', translation: 'выписать больничный лист' },
+      { word: 'dar de alta', translation: 'закрыть больничный лист' },
+      { word: 'recuperar la salud', translation: 'выздороветь, поправиться' },
+      { word: 'curarse', translation: 'вылечиться' }
     ],
     exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
   },
@@ -11378,7 +11407,22 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'ninguno', translation: 'никакой' },
       { word: 'la prohibición', translation: 'запрет' },
       { word: 'la advertencia', translation: 'предупреждение' },
-      { word: 'el peligro', translation: 'опасность' }
+      { word: 'el peligro', translation: 'опасность' },
+      { word: 'pastilla / comprimido', translation: 'таблетка' },
+      { word: 'pastilla contra fiebre', translation: 'жаропонижающее' },
+      { word: 'analgésicos', translation: 'обезболивающее' },
+      { word: 'pastilla contra diarrea', translation: 'таблетка от диареи' },
+      { word: 'pastilla contra insomnio', translation: 'таблетка от бессонницы' },
+      { word: 'gotas', translation: 'капли' },
+      { word: 'gotas contra rinitis', translation: 'капли от насморка' },
+      { word: 'jarabe', translation: 'микстура' },
+      { word: 'jarabe contra tos', translation: 'микстура от кашля' },
+      { word: 'crema', translation: 'мазь' },
+      { word: 'crema para quemadura', translation: 'мазь от ожогов' },
+      { word: 'supositorio', translation: 'свеча' },
+      { word: 'inhalador', translation: 'ингалятор' },
+      { word: 'venda', translation: 'бинт' },
+      { word: 'tirita', translation: 'пластырь' }
     ],
     exercises: ['ex-10-3-1', 'ex-10-3-2', 'ex-10-3-3', 'ex-10-3-4', 'ex-10-3-5']
   },
