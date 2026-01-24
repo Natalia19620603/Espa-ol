@@ -10945,7 +10945,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'la radiografía', translation: 'рентген' },
       { word: 'el tratamiento', translation: 'лечение' }
     ],
-    reading: {
+    readingText: {
       title: 'Diálogo: Llamada a urgencias',
       content: `— Urgencias Médicas "SaludTotal", ¿dígame?
 
@@ -11168,26 +11168,6 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       ]
     },
     vocabulary: [
-      { word: 'levantarse', translation: 'вставать' },
-      { word: 'lavarse', translation: 'мыться, умываться' },
-      { word: 'ducharse', translation: 'принимать душ' },
-      { word: 'vestirse', translation: 'одеваться' },
-      { word: 'peinarse', translation: 'причесываться' },
-      { word: 'afeitarse', translation: 'бриться' },
-      { word: 'maquillarse', translation: 'краситься, наносить макияж' },
-      { word: 'acostarse', translation: 'ложиться спать' },
-      { word: 'sentarse', translation: 'садиться' },
-      { word: 'calmarse', translation: 'успокаиваться' },
-      { word: 'prepararse', translation: 'готовиться' },
-      { word: 'ponerse', translation: 'надевать (одежду)' },
-      { word: 'quitarse', translation: 'снимать (одежду)' },
-      { word: 'irse', translation: 'уходить, уезжать' },
-      { word: 'quedarse', translation: 'оставаться' },
-      { word: 'despertarse', translation: 'просыпаться' },
-      { word: 'preocuparse', translation: 'беспокоиться' },
-      { word: 'cuidarse', translation: 'заботиться о себе' },
-      { word: 'portarse', translation: 'вести себя' },
-      { word: 'relajarse', translation: 'расслабляться' },
       { word: 'echar algo', translation: 'выбросить / положить / насыпать / налить что-либо' },
       { word: 'echar a alguien', translation: 'выгнать / уволить кого-либо' },
       { word: 'echarse', translation: 'прилечь' },
@@ -11221,6 +11201,44 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'recuperar la salud', translation: 'выздороветь, поправиться' },
       { word: 'curarse', translation: 'вылечиться' }
     ],
+    readingText: {
+      title: 'Diálogo: En la consulta del médico',
+      content: `— Buenos días, doctor. Me encuentro muy mal desde hace tres días.
+
+— Siéntese, por favor. Cuénteme qué le pasa exactamente.
+
+— Tengo fiebre alta, me duele la garganta y no puedo dejar de toser.
+
+— Déjeme examinarle. Abra la boca, por favor. Sí, tiene la garganta muy roja. Ahora voy a auscultar los pulmones. Respire profundo... Muy bien. Tiene una infección respiratoria.
+
+— ¿Es grave, doctor?
+
+— No se preocupe, no es grave. Le voy a recetar un antibiótico y un jarabe para la tos. Aquí está la receta. Tómela y vaya a la farmacia.
+
+— ¿Cómo debo tomar el antibiótico?
+
+— Tómelo tres veces al día después de las comidas. Es muy importante que complete el tratamiento. No deje de tomarlo aunque se sienta mejor.
+
+— ¿Y el jarabe?
+
+— El jarabe, tómeselo dos veces al día, por la mañana y por la noche. Aquí tiene las instrucciones, léalas con atención.
+
+— ¿Puedo ir a trabajar?
+
+— No, descanse en casa durante una semana. Le voy a dar la baja médica. Fírmela aquí, por favor.
+
+— ¿Tengo que volver para otra consulta?
+
+— Sí, pida hora para dentro de una semana. Si los síntomas empeoran, llámeme inmediatamente.
+
+— Muchas gracias, doctor. ¿Algo más que deba hacer?
+
+— Sí, beba mucha agua, coma alimentos ligeros y guarde cama. Cuídese mucho.
+
+— De acuerdo. Hasta pronto.
+
+— Hasta pronto. ¡Que se mejore!`
+    },
     exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
   },
 
@@ -11424,6 +11442,52 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'venda', translation: 'бинт' },
       { word: 'tirita', translation: 'пластырь' }
     ],
+    readingText: {
+      title: 'Diálogo: Recomendaciones médicas',
+      content: `— Doctor, me han hecho los análisis. ¿Qué resultados tengo?
+
+— Siéntese, por favor. Los resultados muestran que tiene el colesterol muy alto y la tensión arterial también está elevada.
+
+— ¿Es peligroso?
+
+— Puede serlo si no cambia sus hábitos. Voy a darle unas recomendaciones muy importantes. Escúcheme con atención.
+
+— Dígame, doctor. Estoy dispuesto a hacer lo que sea necesario.
+
+— Primero, no fume más. El tabaco es muy malo para su salud cardiovascular.
+
+— Pero doctor, solo fumo cinco cigarrillos al día...
+
+— No importa. No fume ni un solo cigarrillo. Es fundamental. Segundo, no beba alcohol. Nada de vino, cerveza ni licores.
+
+— ¿Ni siquiera una copa de vino en las comidas?
+
+— No, ni siquiera eso. Tercero, no coma alimentos grasos. Nada de frituras, embutidos ni comida rápida.
+
+— ¿Y qué puedo comer entonces?
+
+— Coma verduras, frutas, pescado y carne magra. Pero no se preocupe, le voy a dar una lista detallada. Cuarto, no añada sal a las comidas.
+
+— ¿Nada de sal?
+
+— Exacto. Y quinto, no se quede sentado todo el día. Haga ejercicio moderado todos los días. Camine al menos treinta minutos.
+
+— ¿Algo más que no deba hacer?
+
+— Sí, no se estrese. Evite situaciones de tensión. Y no olvide tomar la medicación que le voy a recetar.
+
+— ¿Tendré que tomar pastillas?
+
+— Sí, pero no las tome con el estómago vacío. Tómelas después del desayuno. Y no deje de tomarlas aunque se sienta bien.
+
+— ¿Cuándo tengo que volver?
+
+— Dentro de un mes. Y no falte a la cita. Es muy importante controlar su evolución.
+
+— De acuerdo, doctor. Seguiré todas sus indicaciones.
+
+— Muy bien. Cuídese mucho y no tenga miedo de llamarme si tiene alguna duda.`
+    },
     exercises: ['ex-10-3-1', 'ex-10-3-2', 'ex-10-3-3', 'ex-10-3-4', 'ex-10-3-5']
   },
 
