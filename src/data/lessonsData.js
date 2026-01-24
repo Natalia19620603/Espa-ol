@@ -10946,32 +10946,24 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'el tratamiento', translation: 'лечение' }
     ],
     readingText: {
-      title: 'Diálogo: Llamada a urgencias',
-      content: `— Urgencias Médicas "SaludTotal", ¿dígame?
+      title: 'ЧТЕНИЕ: En la consulta del médico',
+      content: `Médico. — ¿De qué se queja usted?
+Paciente. — Ayer me caí y hoy me duele mucho la pierna y la cabeza, también tengo mareos.
+Médico. —¿Ha tomado algunas medicinas?
+Paciente. — Sí, un analgésico pero no hay efecto.
+Médico. — Vamos a ver. ¿Le duele aquí?
+Paciente. — Sí, mucho.
+Médico. — La pierna está hinchada. Hay que hacer la radiografía para diagnosticar si hay o no una fractura, si hay necesidad de enyesar la pierna o no. ¿Tiene fiebre?
+Paciente. — Creo que no.
+Médico. — Voy a tomar su tensión arterial... Está un poco alta.
+Paciente. —¿Es grave?
+Médico. — No, no tiene por qué preocuparse. Aquí tiene el volante para hacer una radiografía. La enfermera lo acompañará.
 
-— ¡Hola! Por favor, necesito que manden a un médico. Mi marido ha tenido un accidente doméstico.
-
-— Cálmese, por favor. ¿Es usted socia de nuestra clínica? Deme su número de tarjeta sanitaria.
-
-— Sí, el número es 4483100-B.
-
-— Muy bien. ¿Qué ha pasado exactamente? ¿Qué síntomas presenta el paciente?
-
-— Se ha caído en la cocina. Tiene una herida profunda en el brazo y pierde mucha sangre. También dice que está mareado y creo que tiene la tensión muy baja.
-
-— ¿Ha perdido el conocimiento en algún momento?
-
-— No, pero le cuesta hablar y está muy pálido.
-
-— Entiendo. Dígame el nombre de su marido, su dirección exacta y un número de contacto.
-
-— Se llama Ricardo Galdós. Estamos en la Avenida de América, número quince, cuarto C. Mi teléfono es el 600123456.
-
-— He tomado nota. Mantenga la calma. Le mando una ambulancia ahora mismo, llegará en unos diez minutos. Mientras tanto, presione la herida con un paño limpio.
-
-— Muchas gracias. ¡Dese prisa, por favor!
-
-— No se preocupe, ya están en camino. Adiós.`
+**Словарь:**
+hinchado — опухший
+fractura f — перелом
+enyesar — наложить гипс
+volante m — зд. направление`
     },
     exercises: ['ex-10-1-1', 'ex-10-1-2', 'ex-10-1-3', 'ex-10-1-4', 'ex-10-1-5']
   },
@@ -11202,42 +11194,37 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'curarse', translation: 'вылечиться' }
     ],
     readingText: {
-      title: 'Diálogo: En la consulta del médico',
-      content: `— Buenos días, doctor. Me encuentro muy mal desde hace tres días.
+      title: 'ЧТЕНИЕ: En el consultorio médico',
+      content: `**Diálogo 1: Запись на прием**
 
-— Siéntese, por favor. Cuénteme qué le pasa exactamente.
+– Consultorio "Sanfís", buenos días.
+– Buenos días. Quiero pedir hora para hoy.
+– Su nombre, por favor.
+– Javier Aguirre.
+– ¿Le conviene a las once en punto, señor Aguirre?
+– Sí, como no. ¡Hasta pronto!
 
-— Tengo fiebre alta, me duele la garganta y no puedo dejar de toser.
+**Словарь:**
+convenir — подходить
 
-— Déjeme examinarle. Abra la boca, por favor. Sí, tiene la garganta muy roja. Ahora voy a auscultar los pulmones. Respire profundo... Muy bien. Tiene una infección respiratoria.
+**Diálogo 2: На приеме у врача**
 
-— ¿Es grave, doctor?
-
-— No se preocupe, no es grave. Le voy a recetar un antibiótico y un jarabe para la tos. Aquí está la receta. Tómela y vaya a la farmacia.
-
-— ¿Cómo debo tomar el antibiótico?
-
-— Tómelo tres veces al día después de las comidas. Es muy importante que complete el tratamiento. No deje de tomarlo aunque se sienta mejor.
-
-— ¿Y el jarabe?
-
-— El jarabe, tómeselo dos veces al día, por la mañana y por la noche. Aquí tiene las instrucciones, léalas con atención.
-
-— ¿Puedo ir a trabajar?
-
-— No, descanse en casa durante una semana. Le voy a dar la baja médica. Fírmela aquí, por favor.
-
-— ¿Tengo que volver para otra consulta?
-
-— Sí, pida hora para dentro de una semana. Si los síntomas empeoran, llámeme inmediatamente.
-
-— Muchas gracias, doctor. ¿Algo más que deba hacer?
-
-— Sí, beba mucha agua, coma alimentos ligeros y guarde cama. Cuídese mucho.
-
-— De acuerdo. Hasta pronto.
-
-— Hasta pronto. ¡Que se mejore!`
+– Buenos días. Pase, por favor. Siéntese aquí. ¿De qué se queja usted?
+– No me encuentro bien, me duele el estómago, sobre todo después de comer. Tengo escalofríos. Anoche vomité.
+– ¿Tiene fiebre?
+– No, no tengo fiebre, pero mareos, sí.
+– ¿Y cómo se siente por la noche?
+– Pues regular, a veces me dan ataques. Ahora estoy mareado un poco. ¿Es algo grave?
+– Vamos a ver. Échese aquí. Primero lo voy a examinar y tomar la tensión. Súbase la manga de la camisa y deme su brazo izquierdo.
+– Doctor, ¿qué tengo?
+– No se preocupe, no es nada grave. Serán los nervios. ¿Trabaja mucho?
+– Últimamente, sí.
+– Trate de trabajar menos. No trabaje los domingos, relájese, lleve una vida más sana: no fume, no beba alcohol.
+– Y... ¿qué tratamiento me recomienda usted?
+– Por el momento, no le recomendaría un tratamiento especial. Si es posible, duerma la siesta de vez en cuando, salga a dar un paseo antes de acostarse. Sin embargo, por si acaso, haga una radiografía y análisis de sangre y orina.
+– ¿Tengo que seguir alguna dieta?
+– Sí, por supuesto. No tome grasas ni comidas fuertes. Le voy a recetar unas pastillas para la digestión y un jarabe para los vómitos. Tiene que tomar una cucharada de jarabe con cada comida. Ahora la enfermera le hará una inyección para quitar el mareo. Le daré de baja para dos días. Venga con los resultados de los análisis dentro de dos días. ¿De acuerdo?
+– Muchas gracias, doctor. Seguiré sus indicaciones sin falta.`
     },
     exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
   },
