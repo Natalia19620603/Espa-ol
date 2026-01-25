@@ -97,7 +97,7 @@ export const modules = {
     id: 'module-10',
     title: 'Модуль 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ. Modo imperativo afirmativo, Modo imperativo negativo',
     level: 'elementary',
-    lessons: ['lesson-10-1', 'lesson-10-2', 'lesson-10-3'],
+    lessons: ['lesson-10-1', 'lesson-10-2', 'lesson-10-3', 'lesson-10-4'],
     description: 'Повелительное наклонение (утвердительная и отрицательная форма), лексика здоровья и визита к врачу'
   },
   'module-17': {
@@ -8769,6 +8769,11 @@ Al + инфинитив + подлежащее инфинитива, [основ
         id: 'video-valor-integridad',
         tab: 'El valor de la integridad',
         videoUrl: '/video/El valor de la integridad.mp4'
+      },
+      {
+        id: 'video-suerte-siempre-hay',
+        tab: 'Suerte siempre hay',
+        videoUrl: '/video/Suerte siempre hay.mp4'
       }
     ],
     grammar: {
@@ -11520,6 +11525,167 @@ convenir — подходить
 — Muy bien. Cuídese mucho y no tenga miedo de llamarme si tiene alguna duda.`
     },
     exercises: ['ex-10-3-1', 'ex-10-3-2', 'ex-10-3-3', 'ex-10-3-4', 'ex-10-3-5']
+  },
+
+  'lesson-10-4': {
+    id: 'lesson-10-4',
+    title: 'Урок 4: Повторение Модулей 9, 10',
+    moduleId: 'module-10',
+    grammar: {
+      title: 'Повторение: Спорт, Здоровье и Императив',
+      intro: `В этом уроке мы повторим ключевые темы модулей 9 и 10:
+- **Модуль 9:** Спорт, Voz pasiva (страдательный залог), Acusativo con infinitivo
+- **Модуль 10:** Здоровье и визит к врачу, Modo imperativo (повелительное наклонение)`,
+      sections: [
+        {
+          id: 'review-module-9',
+          title: 'Повторение Модуля 9: Спорт',
+          content: `## Ключевые темы Модуля 9
+
+### 1. Лексика спорта
+- Виды спорта и спортивные термины
+- Спортивные соревнования и чемпионаты
+- Победа, поражение, ничья
+
+### 2. Voz pasiva (Страдательный залог)
+
+**Формула:** SER (в нужном времени) + PARTICIPIO
+
+**Примеры:**
+- El partido **fue ganado** por nuestro equipo. (Матч был выигран нашей командой)
+- Los récords **son batidos** cada año. (Рекорды бьются каждый год)
+
+### 3. Pasiva con SE (Пассивная форма с SE)
+
+**Формула:** SE + Глагол в 3 лице
+
+**Примеры:**
+- **Se organizan** competiciones deportivas. (Организуются спортивные соревнования)
+- **Se celebra** el campeonato en Madrid. (Чемпионат празднуется в Мадриде)
+
+### 4. Acusativo con Infinitivo
+
+Конструкция для выражения восприятия:
+- **Ver** + объект + infinitivo: Vi **al jugador marcar** un gol
+- **Oír** + объект + infinitivo: Oí **al entrenador gritar**
+- **Sentir** + объект + infinitivo: Sentí **vibrar el estadio**`
+        },
+        {
+          id: 'review-module-10',
+          title: 'Повторение Модуля 10: Здоровье и Императив',
+          content: `## Ключевые темы Модуля 10
+
+### 1. Лексика здоровья и визита к врачу
+- Части тела и симптомы
+- Медицинские термины
+- Рецепты и лечение
+
+### 2. Imperativo Afirmativo (Утвердительная форма)
+
+**Для TÚ (глаголы -AR, -ER, -IR):**
+- hablar → **habla**
+- comer → **come**
+- escribir → **escribe**
+
+**Неправильные формы TÚ:**
+- hacer → **haz**
+- poner → **pon**
+- salir → **sal**
+- venir → **ven**
+- tener → **ten**
+- decir → **di**
+- ir → **ve**
+- ser → **sé**
+
+**Примеры:**
+- ¡**Toma** esta medicina! (Прини эту медицину!)
+- ¡**Descansa** bien! (Отдыхай хорошо!)
+
+### 3. Imperativo Negativo (Отрицательная форма)
+
+Используется **Subjuntivo** для всех лиц:
+
+**Для TÚ:**
+- hablar → no **hables**
+- comer → no **comas**
+- escribir → no **escribas**
+
+**Примеры:**
+- ¡No **fumes**! (Не кури!)
+- ¡No **comas** mucho azúcar! (Не ешь много сахара!)
+- ¡No **te preocupes**! (Не волнуйся!)
+
+### 4. Местоимения с императивом
+
+**Утверждение:** Местоимение приклеивается к концу
+- Dí**melo** (Скажи мне это)
+- Levánta**te** (Вставай)
+
+**Отрицание:** Местоимение стоит перед глаголом
+- No **me lo** digas (Не говори мне это)
+- No **te** levantes (Не вставай)`
+        },
+        {
+          id: 'practice-exercises',
+          title: 'Практические упражнения',
+          content: `## Практика
+
+### Упражнение 1: Страдательный залог
+Переведите на испанский, используя voz pasiva:
+1. Матч был выигран вчера.
+2. Рекорд был побит спортсменом.
+3. Соревнования организуются каждый год.
+
+### Упражнение 2: Императив
+Дайте совет врача (используйте imperativo):
+1. (tomar) esta medicina
+2. (no fumar)
+3. (descansar) bien
+4. (no comer) mucho azúcar
+5. (hacer) ejercicio
+
+### Упражнение 3: Комбинированное
+Составьте диалог между тренером и спортсменом, используя:
+- Императив (советы тренера)
+- Лексику спорта
+- Советы о здоровье`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'repasar', translation: 'повторять' },
+      { word: 'revisar', translation: 'проверять, пересматривать' },
+      { word: 'recordar', translation: 'вспоминать, помнить' },
+      { word: 'practicar', translation: 'практиковать' },
+      { word: 'el resumen', translation: 'резюме, краткое изложение' },
+      { word: 'la revisión', translation: 'повторение, проверка' },
+      { word: 'el repaso', translation: 'повторение' },
+      { word: 'combinar', translation: 'комбинировать, сочетать' }
+    ],
+    readingText: {
+      title: 'Una vida sana y deportiva',
+      content: `Martín es un deportista profesional. Cada día se entrena durante varias horas, pero también cuida mucho su salud. Su entrenador siempre le dice: "¡Descansa bien!", "¡Come alimentos saludables!" y "¡No te olvides de beber mucha agua!".
+
+Ayer Martín fue al médico para un chequeo rutinario. El doctor le examinó y le dijo: "Estás en excelente forma física. Pero recuerda: no hagas ejercicio excesivo sin descansar. El cuerpo necesita tiempo para recuperarse".
+
+El mes pasado, Martín participó en un campeonato importante. El partido fue ganado por su equipo con un resultado de 3-1. Los aficionados celebraron la victoria en el estadio. Se organizó una fiesta después del partido donde todos los jugadores fueron felicitados por sus familias.
+
+Ahora Martín se prepara para el próximo campeonato. Su rutina diaria incluye:
+- Entrenamiento físico por la mañana
+- Comidas saludables y balanceadas
+- Descanso adecuado
+- Visitas regulares al médico
+
+Su médico le dio estos consejos:
+- "¡Toma vitaminas!"
+- "¡No descuides el descanso!"
+- "¡Escucha a tu cuerpo!"
+- "¡No ignores el dolor!"
+
+Martín sigue todos estos consejos porque sabe que para ser un buen deportista, necesita estar sano. Como dice su entrenador: "Un atleta sano es un atleta exitoso".`,
+      translation: 'Здоровая и спортивная жизнь. Мартин - профессиональный спортсмен. Каждый день он тренируется несколько часов, но также очень заботится о своем здоровье...'
+    },
+    exercises: ['ex-10-4-1', 'ex-10-4-2', 'ex-10-4-3', 'ex-10-4-4', 'ex-10-4-5']
   },
 
   // ============ МОДУЛЬ 17: ЛИТЕРАТУРА И КУЛЬТУРА (B1) ============
