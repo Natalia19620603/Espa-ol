@@ -7732,6 +7732,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'La hierba es azul',
         videoUrl: '/video/La hierba es azul.mp4'
+      },
+      {
+        tab: 'Viaje a Colombia M6C1',
+        videoUrl: '/Viaje a Colombia M6C1.mp4'
       }
     ],
     grammar: {
@@ -8062,6 +8066,10 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
       {
         tab: 'Tiempos pasados antes del viaje',
         videoUrl: '/video/Tiempos pasados antes del viaje.mp4'
+      },
+      {
+        tab: 'Por el camino M6C3',
+        videoUrl: '/video/Por el camino M6C3.mp4'
       }
     ],
     grammar: {
@@ -13882,6 +13890,10 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Los gusanos de harina',
         videoUrl: '/video/Los gusanos de harina ya son alimento oficial en Europa.mp4'
+      },
+      {
+        tab: 'Estafa piramidal',
+        videoUrl: '/video/Estafa piramidal.mp4'
       }
     ],
     vocabulary: [
