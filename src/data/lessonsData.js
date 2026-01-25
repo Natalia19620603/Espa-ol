@@ -36567,7 +36567,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-10-4-1': {
     id: 'ex-10-4-1',
-    type: 'verb-conjugation',
+    type: 'transformation',
     title: 'Упражнение 1: Поставьте глаголы в соответствующую форму',
     description: 'Поставьте глаголы из скобок в правильную форму',
     showAnswerOption: true,
@@ -36645,7 +36645,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-10-4-4': {
     id: 'ex-10-4-4',
-    type: 'preposition-fill',
+    type: 'fillblank',
     title: 'Упражнение 4: Вставьте необходимые предлоги',
     description: 'Заполните пропуски правильными предлогами',
     showAnswerOption: true,
@@ -36670,26 +36670,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-10-4-5': {
     id: 'ex-10-4-5',
-    type: 'translation-to-spanish',
+    type: 'translation',
     title: 'Упражнение 5: Переведите на испанский язык',
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Абонемент в бассейн сейчас продается с большой скидкой. Думаю, стоит купить его и ходить всей семьей по воскресеньям в бассейн.', correct: 'El abono a la piscina ahora se vende con un gran descuento. Creo que vale la pena comprarlo e ir toda la familia los domingos a la piscina.', alternatives: ['La suscripción a la piscina se vende ahora con gran descuento. Pienso que merece la pena comprarlo e ir con toda la familia a la piscina los domingos.'] },
-      { russian: 'К тому же у меня болит спина, а плавание в этом случае очень полезно.', correct: 'Además me duele la espalda, y la natación en este caso es muy útil.', alternatives: ['Además tengo dolor de espalda, y nadar en este caso es muy beneficioso.'] },
-      { russian: 'Знаешь, в прошлые выходные наша команда снова выиграла. После матча все наши болельщики принялись поздравлять нас с победой.', correct: '¿Sabes? el fin de semana pasado nuestro equipo volvió a ganar. Después del partido todos nuestros aficionados empezaron a felicitarnos por la victoria.', alternatives: ['Sabes, el pasado fin de semana nuestro equipo ganó otra vez. Tras el partido todos nuestros hinchas se pusieron a felicitarnos por el triunfo.'] },
-      { russian: 'Долго не давали нам уйти с поля.', correct: 'No nos dejaban salir del campo durante mucho tiempo.', alternatives: ['No nos permitían irnos del campo por mucho tiempo.'] },
-      { russian: 'Сотрудница спортивного клуба объяснила, что у них есть два теннисных корта, но их следует бронировать заранее.', correct: 'La empleada del club deportivo explicó que tienen dos canchas de tenis, pero hay que reservarlas con anticipación.', alternatives: ['La trabajadora del club deportivo nos explicó que ellos tienen dos pistas de tenis, pero se deben reservar con antelación.'] },
-      { russian: 'Доктор, последние несколько дней у меня очень болит голова, и я плохо сплю по ночам.', correct: 'Doctor, los últimos días me duele mucho la cabeza y duermo mal por las noches.', alternatives: ['Doctor, estos últimos días tengo mucho dolor de cabeza y no duermo bien por la noche.'] },
-      { russian: 'У Вас есть температура, озноб, тошнота? — Нет, ничего такого.', correct: '¿Tiene fiebre, escalofríos, náuseas? — No, nada de eso.', alternatives: ['¿Tiene usted temperatura, frío, náusea? — No, nada de eso.'] },
-      { russian: 'Не волнуйтесь, я думаю, это переутомление. Постарайтесь меньше работать, больше отдыхайте, гуляйте на свежем воздухе.', correct: 'No se preocupe, creo que es agotamiento. Intente trabajar menos, descanse más, pasee al aire libre.', alternatives: ['No se preocupe, pienso que es cansancio excesivo. Trate de trabajar menos, descanse más, camine al aire libre.'] },
-      { russian: 'Я дам Вам бюллетень на три дня и выпишу лекарство. Вот рецепт.', correct: 'Le daré una baja por tres días y le recetaré un medicamento. Aquí tiene la receta.', alternatives: ['Le voy a dar un parte médico por tres días y le voy a recetar medicina. Aquí está la receta.'] },
-      { russian: 'Вчера я упал, а сегодня у меня опухла рука и очень сильно болит.', correct: 'Ayer me caí y hoy se me ha hinchado el brazo y me duele muchísimo.', alternatives: ['Ayer caí y hoy tengo el brazo hinchado y me duele mucho.'] },
-      { russian: 'Я принял обезболивающее, но оно не помогло.', correct: 'Tomé un analgésico pero no me ayudó.', alternatives: ['Me tomé un calmante pero no funcionó.', 'Tomé un medicamento para el dolor pero no sirvió.'] },
-      { russian: 'Тебе надо сделать снимок, это может быть перелом, и запишись на прием к врачу.', correct: 'Necesitas hacerte una radiografía, puede ser una fractura, y pide cita al médico.', alternatives: ['Tienes que hacer una radiografía, puede ser rotura, y pide hora al médico.'] },
-      { russian: 'Наша команда тренируется каждый день, чтобы выиграть чемпионат.', correct: 'Nuestro equipo entrena todos los días para ganar el campeonato.', alternatives: ['Nuestro equipo se entrena cada día para ganar el campeonato.'] },
-      { russian: 'Тренер сказал: "Не сдавайтесь! Продолжайте бороться до конца!"', correct: 'El entrenador dijo: "¡No os rindáis! ¡Seguid luchando hasta el final!"', alternatives: ['El entrenador dijo: "¡No se rindan! ¡Continúen peleando hasta el final!"'] },
-      { russian: 'Чтобы быть здоровым, ешь правильно, делай зарядку и высыпайся.', correct: 'Para estar sano, come bien, haz ejercicio y duerme lo suficiente.', alternatives: ['Para ser saludable, come correctamente, haz gimnasia y descansa bien.'] }
+      { russian: 'Абонемент в бассейн сейчас продается с большой скидкой. Думаю, стоит купить его и ходить всей семьей по воскресеньям в бассейн.', correct: 'El abono a la piscina ahora se vende con un gran descuento. Creo que vale la pena comprarlo e ir toda la familia los domingos a la piscina.' },
+      { russian: 'К тому же у меня болит спина, а плавание в этом случае очень полезно.', correct: 'Además me duele la espalda, y la natación en este caso es muy útil.' },
+      { russian: 'Знаешь, в прошлые выходные наша команда снова выиграла. После матча все наши болельщики принялись поздравлять нас с победой.', correct: '¿Sabes? el fin de semana pasado nuestro equipo volvió a ganar. Después del partido todos nuestros aficionados empezaron a felicitarnos por la victoria.' },
+      { russian: 'Долго не давали нам уйти с поля.', correct: 'No nos dejaban salir del campo durante mucho tiempo.' },
+      { russian: 'Сотрудница спортивного клуба объяснила, что у них есть два теннисных корта, но их следует бронировать заранее.', correct: 'La empleada del club deportivo explicó que tienen dos canchas de tenis, pero hay que reservarlas con anticipación.' },
+      { russian: 'Доктор, последние несколько дней у меня очень болит голова, и я плохо сплю по ночам.', correct: 'Doctor, los últimos días me duele mucho la cabeza y duermo mal por las noches.' },
+      { russian: 'У Вас есть температура, озноб, тошнота? — Нет, ничего такого.', correct: '¿Tiene fiebre, escalofríos, náuseas? — No, nada de eso.' },
+      { russian: 'Не волнуйтесь, я думаю, это переутомление. Постарайтесь меньше работать, больше отдыхайте, гуляйте на свежем воздухе.', correct: 'No se preocupe, creo que es agotamiento. Intente trabajar menos, descanse más, pasee al aire libre.' },
+      { russian: 'Я дам Вам бюллетень на три дня и выпишу лекарство. Вот рецепт.', correct: 'Le daré una baja por tres días y le recetaré un medicamento. Aquí tiene la receta.' },
+      { russian: 'Вчера я упал, а сегодня у меня опухла рука и очень сильно болит.', correct: 'Ayer me caí y hoy se me ha hinchado el brazo y me duele muchísimo.' },
+      { russian: 'Я принял обезболивающее, но оно не помогло.', correct: 'Tomé un analgésico pero no me ayudó.' },
+      { russian: 'Тебе надо сделать снимок, это может быть перелом, и запишись на прием к врачу.', correct: 'Necesitas hacerte una radiografía, puede ser una fractura, y pide cita al médico.' },
+      { russian: 'Наша команда тренируется каждый день, чтобы выиграть чемпионат.', correct: 'Nuestro equipo entrena todos los días para ganar el campeonato.' },
+      { russian: 'Тренер сказал: "Не сдавайтесь! Продолжайте бороться до конца!"', correct: 'El entrenador dijo: "¡No os rindáis! ¡Seguid luchando hasta el final!"' },
+      { russian: 'Чтобы быть здоровым, ешь правильно, делай зарядку и высыпайся.', correct: 'Para estar sano, come bien, haz ejercicio y duerme lo suficiente.' }
     ]
   }
 }
