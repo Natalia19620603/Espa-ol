@@ -8599,7 +8599,14 @@ Al + инфинитив + подлежащее инфинитива, [основ
         }
       ]
     },
-    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5']
+    exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5'],
+    videoTabs: [
+      {
+        id: 'video-restaurante-cocina-cerrada',
+        tab: 'En el restaurante con cocina cerrada',
+        videoUrl: '/video/En el restaurante con cocina cerrada.mp4'
+      }
+    ]
   },
 
   'lesson-7-3': {
@@ -36555,6 +36562,134 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Не переводите этот текст, прослушайте его два раза и потом нам его перескажите (vosotros).', correct: 'No traduzcáis este texto, escuchadlo dos veces y después contádnoslo.', alternatives: ['No traduzcáis este texto, escuchadlo dos veces y luego narradlo a nosotros.', 'No traduzcáis el texto, escuchadlo dos veces y después nos lo contáis.'] },
       { russian: 'Не давай сейчас лекарство ребенку, потому что он только что заснул.', correct: 'No le des ahora medicina al niño, porque acaba de dormirse.', alternatives: ['No des ahora medicina al niño, porque se acaba de dormir.', 'No le des ahora el medicamento al niño, porque se ha dormido hace poco.'] },
       { russian: 'Не ищите и не доставайте свои кредитные карточки, не платите ни за что: фирма все оплатила (ustedes).', correct: 'No busquen y no saquen sus tarjetas de crédito, no paguen por nada: la empresa ha pagado todo.', alternatives: ['No busquen ni saquen sus tarjetas de crédito, no paguen nada: la compañía lo ha pagado todo.', 'No busquen y no saquen vuestras tarjetas de crédito, no paguéis por nada: la empresa lo ha pagado todo.'] }
+    ]
+  },
+
+  'ex-10-4-1': {
+    id: 'ex-10-4-1',
+    type: 'verb-conjugation',
+    title: 'Упражнение 1: Поставьте глаголы в соответствующую форму',
+    description: 'Поставьте глаголы из скобок в правильную форму',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Anoche Andrés no (caber) en el último autobús y (tener que ir, él) a pie.', correct: 'Anoche Andrés no cupo en el último autobús y tuvo que ir a pie.' },
+      { sentence: '(Andar, él) dos horas pero (traer, él) la medicina a tiempo.', correct: 'Anduvo dos horas pero trajo la medicina a tiempo.' },
+      { sentence: 'Esta mañana (leer, nosotros) en un periódico que pronto en nuestra ciudad (construir, ellos) un nuevo club deportivo.', correct: 'Esta mañana leímos en un periódico que pronto en nuestra ciudad construirán un nuevo club deportivo.' },
+      { sentence: 'Si yo (poder), (apuntarse, yo) en él.', correct: 'Si yo puedo, me apunto en él.' },
+      { sentence: 'Cuando (ser, yo) niño (empezar, yo) a practicar artes marciales y casi todas mis victorias (dedicárselas, yo) a mi entrenador porque él (descubrir) mi talento.', correct: 'Cuando era niño empecé a practicar artes marciales y casi todas mis victorias se las dediqué a mi entrenador porque él descubrió mi talento.' },
+      { sentence: 'Alguien (tocar) a la puerta. ¡Niños, (irse) a ver quién (ser) y (abrir, vosotros) la puerta!', correct: 'Alguien toca a la puerta. ¡Niños, id a ver quién es y abrid la puerta!' },
+      { sentence: '¡No (dejar, vosotros) entrar a desconocidos!', correct: '¡No dejéis entrar a desconocidos!' },
+      { sentence: '¡Señor director, (atender) a las cuentas! ¡No (distraerse, Ud.) y (colgar) el teléfono!', correct: '¡Señor director, atienda a las cuentas! ¡No se distraiga y cuelgue el teléfono!' },
+      { sentence: 'Si no (pagar, nosotros) la cuenta hoy mismo, no (recibir, nosotros) el pedido a tiempo.', correct: 'Si no pagamos la cuenta hoy mismo, no recibiremos el pedido a tiempo.' },
+      { sentence: 'Cuando (ser, yo) pequeño, siempre (descansar, nosotros) en casa de mi abuela.', correct: 'Cuando era pequeño, siempre descansábamos en casa de mi abuela.' },
+      { sentence: '(Soler + cenar, nosotros) al aire libre.', correct: 'Solíamos cenar al aire libre.' },
+      { sentence: '¡Señores, no (irse), (sentarse) aquí! El jefe (acabar) de llamar y él (decir) que (venir) dentro de 10 minutos.', correct: '¡Señores, no se vayan, siéntense aquí! El jefe acaba de llamar y él dijo que viene dentro de 10 minutos.' },
+      { sentence: 'Hace una semana yo (explicarles) que para los 20 años ya (descubrir) el secreto de la vida.', correct: 'Hace una semana yo les expliqué que para los 20 años ya había descubierto el secreto de la vida.' },
+      { sentence: '(Tratar, ustedes) de trabajar menos, no (trabajar, ustedes) los domingos, (relajarse, ustedes), (llevar, ustedes) una vida más sana.', correct: 'Traten de trabajar menos, no trabajen los domingos, relájense, lleven una vida más sana.' },
+      { sentence: 'No (fumar, ustedes), no (beber, ustedes) alcohol.', correct: 'No fumen, no beban alcohol.' },
+      { sentence: '¡Niños, (tener) cuidado! ¡No (acercarse, vosotros) al balcón!', correct: '¡Niños, tened cuidado! ¡No os acerquéis al balcón!' },
+      { sentence: 'Si (caer, vosotros), (hacerse, vosotros) daño. ¡Mejor (irse) a vuestra habitación y (divertirse) allí!', correct: 'Si caéis, os haréis daño. ¡Mejor idos a vuestra habitación y divertíos allí!' },
+      { sentence: 'Anteayer (saber, yo) casualmente que mi amigo nuevo (ser) un ciclista muy bueno, que ya (participar, él) en muchas competiciones y (acabar) de ganar una medalla de oro.', correct: 'Anteayer supe casualmente que mi amigo nuevo era un ciclista muy bueno, que ya había participado en muchas competiciones y acababa de ganar una medalla de oro.' }
+    ]
+  },
+
+  'ex-10-4-2': {
+    id: 'ex-10-4-2',
+    type: 'transformation',
+    title: 'Упражнение 2: Измените фразы по образцу',
+    description: 'Образец: Quiero comprar flores a mi abuela (tú). → Cómpraselas. No se las compres.',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Tenemos que pedir dinero a los padres (vosotros).', correct: 'Pedídselo. No se lo pidáis.' },
+      { sentence: 'Quiero ponerme los zapatos de tacón alto (tú).', correct: 'Póntelos. No te los pongas.' },
+      { sentence: 'Voy a pagarte tus servicios (usted).', correct: 'Páguemelos. No me los pague.' },
+      { sentence: 'Queremos hacer una pregunta al entrenador (ustedes).', correct: 'Hágansela. No se la hagan.' },
+      { sentence: 'Queremos conseguir éxitos en el karate (nosotros).', correct: 'Consigámoslos. No los consigamos.' },
+      { sentence: 'Debo decirle a Lola nuestra decisión (tú).', correct: 'Dísela. No se la digas.' },
+      { sentence: 'Tengo que explicar esta regla a los estudiantes (usted).', correct: 'Explíquesela. No se la explique.' },
+      { sentence: 'Queremos elegir un regalo a la tía (vosotros).', correct: 'Elegídselo. No se lo elijáis.' },
+      { sentence: 'Vamos a ponernos los esquís (nosotros).', correct: 'Pongámonoslos. No nos los pongamos.' },
+      { sentence: 'Quiero ir al cine y ver una película (tú).', correct: 'Ve y vela. No vayas y no la veas.' },
+      { sentence: 'Necesito enviar un mensaje a mi hermano (usted).', correct: 'Envíeselo. No se lo envíe.' },
+      { sentence: 'Voy a preparar la cena para los invitados (tú).', correct: 'Prepárásela. No se la prepares.' },
+      { sentence: 'Quiero comprar estos medicamentos en la farmacia (usted).', correct: 'Cómprelos. No los compre.' },
+      { sentence: 'Tenemos que reservar una cancha de tenis (vosotros).', correct: 'Reservadla. No la reservéis.' },
+      { sentence: 'Debo llevar al niño al médico (tú).', correct: 'Llévalo. No lo lleves.' }
+    ]
+  },
+
+  'ex-10-4-3': {
+    id: 'ex-10-4-3',
+    type: 'transformation',
+    title: 'Упражнение 3: Замените утвердительную форму повелительного наклонения на отрицательную',
+    description: 'Переведите команды из утвердительной формы в отрицательную',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Haz este análisis.', correct: 'No hagas este análisis.' },
+      { sentence: 'Saque este diente.', correct: 'No saque este diente.' },
+      { sentence: 'Di algo.', correct: 'No digas nada.' },
+      { sentence: 'Ponga las cosas aquí.', correct: 'No ponga las cosas aquí.' },
+      { sentence: 'Está en casa.', correct: 'No estés en casa.' },
+      { sentence: 'Dormid con la ventana abierta.', correct: 'No durmáis con la ventana abierta.' },
+      { sentence: 'Ve al médico.', correct: 'No vayas al médico.' },
+      { sentence: 'Veamos juntos este partido.', correct: 'No veamos juntos este partido.' },
+      { sentence: 'Sigan estos consejos.', correct: 'No sigan estos consejos.' },
+      { sentence: 'Dé esta medicina al niño.', correct: 'No dé esta medicina al niño.' },
+      { sentence: 'Toma estas vitaminas.', correct: 'No tomes estas vitaminas.' },
+      { sentence: 'Haced ejercicio todos los días.', correct: 'No hagáis ejercicio todos los días.' },
+      { sentence: 'Sal a correr por la mañana.', correct: 'No salgas a correr por la mañana.' },
+      { sentence: 'Practiquen deportes.', correct: 'No practiquen deportes.' },
+      { sentence: 'Apúntate al gimnasio.', correct: 'No te apuntes al gimnasio.' }
+    ]
+  },
+
+  'ex-10-4-4': {
+    id: 'ex-10-4-4',
+    type: 'preposition-fill',
+    title: 'Упражнение 4: Вставьте необходимые предлоги',
+    description: 'Заполните пропуски правильными предлогами',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Doña Carmela … los 65 años decidió … aprender … esquiar.', correct: 'Doña Carmela a los 65 años decidió aprender a esquiar.' },
+      { sentence: 'Acabamos … apuntarnos … el tenis, vamos … practicarlo … el aire libre dos veces … la semana.', correct: 'Acabamos de apuntarnos al tenis, vamos a practicarlo al aire libre dos veces a la semana.' },
+      { sentence: 'Oí … el niño contar los días que quedan … regresar … el campo … la ciudad.', correct: 'Oí al niño contar los días que quedan para regresar del campo a la ciudad.' },
+      { sentence: 'Te propongo … ir … ver … la exposición … vez … dormir … la siesta.', correct: 'Te propongo ir a ver la exposición en vez de dormir la siesta.' },
+      { sentence: 'Si el perro se queda solo … casa, empieza … echar … menos … sus dueños.', correct: 'Si el perro se queda solo en casa, empieza a echar de menos a sus dueños.' },
+      { sentence: 'Ponte … prepararte … el examen. — Déjame … paz, … favor.', correct: 'Ponte a prepararte para el examen. — Déjame en paz, por favor.' },
+      { sentence: 'Debes agradecer … Carmen … su regalo y no te niegues … aceptarlo.', correct: 'Debes agradecer a Carmen su regalo y no te niegues a aceptarlo.' },
+      { sentence: 'No puedo dejar … pensar … mi casa, ... mis amigos. Sueño … volver … verlos.', correct: 'No puedo dejar de pensar en mi casa, en mis amigos. Sueño con volver a verlos.' },
+      { sentence: 'Juan … repente se levantó y echó … correr … la calle … hacer caso … la gente ni … los coches.', correct: 'Juan de repente se levantó y echó a correr por la calle sin hacer caso de la gente ni de los coches.' },
+      { sentence: 'Ayer Ricardo se fue … despedirse … nadie porque tú habías vuelto … reírte … él.', correct: 'Ayer Ricardo se fue sin despedirse de nadie porque tú habías vuelto a reírte de él.' },
+      { sentence: 'El médico me aconsejó … hacer ejercicio … mejorar mi salud.', correct: 'El médico me aconsejó hacer ejercicio para mejorar mi salud.' },
+      { sentence: 'Los jugadores están … entrenar … el partido … mañana.', correct: 'Los jugadores están entrenando para el partido de mañana.' },
+      { sentence: '… las 8 … la mañana voy … correr … el parque.', correct: 'A las 8 de la mañana voy a correr al parque.' },
+      { sentence: 'Me apunté … un curso … natación … aprender … nadar mejor.', correct: 'Me apunté a un curso de natación para aprender a nadar mejor.' },
+      { sentence: 'El equipo se prepara … ganar el campeonato … trabajar duro … los entrenamientos.', correct: 'El equipo se prepara para ganar el campeonato trabajando duro en los entrenamientos.' }
+    ]
+  },
+
+  'ex-10-4-5': {
+    id: 'ex-10-4-5',
+    type: 'translation-to-spanish',
+    title: 'Упражнение 5: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Абонемент в бассейн сейчас продается с большой скидкой. Думаю, стоит купить его и ходить всей семьей по воскресеньям в бассейн.', correct: 'El abono a la piscina ahora se vende con un gran descuento. Creo que vale la pena comprarlo e ir toda la familia los domingos a la piscina.', alternatives: ['La suscripción a la piscina se vende ahora con gran descuento. Pienso que merece la pena comprarlo e ir con toda la familia a la piscina los domingos.'] },
+      { russian: 'К тому же у меня болит спина, а плавание в этом случае очень полезно.', correct: 'Además me duele la espalda, y la natación en este caso es muy útil.', alternatives: ['Además tengo dolor de espalda, y nadar en este caso es muy beneficioso.'] },
+      { russian: 'Знаешь, в прошлые выходные наша команда снова выиграла. После матча все наши болельщики принялись поздравлять нас с победой.', correct: '¿Sabes? el fin de semana pasado nuestro equipo volvió a ganar. Después del partido todos nuestros aficionados empezaron a felicitarnos por la victoria.', alternatives: ['Sabes, el pasado fin de semana nuestro equipo ganó otra vez. Tras el partido todos nuestros hinchas se pusieron a felicitarnos por el triunfo.'] },
+      { russian: 'Долго не давали нам уйти с поля.', correct: 'No nos dejaban salir del campo durante mucho tiempo.', alternatives: ['No nos permitían irnos del campo por mucho tiempo.'] },
+      { russian: 'Сотрудница спортивного клуба объяснила, что у них есть два теннисных корта, но их следует бронировать заранее.', correct: 'La empleada del club deportivo explicó que tienen dos canchas de tenis, pero hay que reservarlas con anticipación.', alternatives: ['La trabajadora del club deportivo nos explicó que ellos tienen dos pistas de tenis, pero se deben reservar con antelación.'] },
+      { russian: 'Доктор, последние несколько дней у меня очень болит голова, и я плохо сплю по ночам.', correct: 'Doctor, los últimos días me duele mucho la cabeza y duermo mal por las noches.', alternatives: ['Doctor, estos últimos días tengo mucho dolor de cabeza y no duermo bien por la noche.'] },
+      { russian: 'У Вас есть температура, озноб, тошнота? — Нет, ничего такого.', correct: '¿Tiene fiebre, escalofríos, náuseas? — No, nada de eso.', alternatives: ['¿Tiene usted temperatura, frío, náusea? — No, nada de eso.'] },
+      { russian: 'Не волнуйтесь, я думаю, это переутомление. Постарайтесь меньше работать, больше отдыхайте, гуляйте на свежем воздухе.', correct: 'No se preocupe, creo que es agotamiento. Intente trabajar menos, descanse más, pasee al aire libre.', alternatives: ['No se preocupe, pienso que es cansancio excesivo. Trate de trabajar menos, descanse más, camine al aire libre.'] },
+      { russian: 'Я дам Вам бюллетень на три дня и выпишу лекарство. Вот рецепт.', correct: 'Le daré una baja por tres días y le recetaré un medicamento. Aquí tiene la receta.', alternatives: ['Le voy a dar un parte médico por tres días y le voy a recetar medicina. Aquí está la receta.'] },
+      { russian: 'Вчера я упал, а сегодня у меня опухла рука и очень сильно болит.', correct: 'Ayer me caí y hoy se me ha hinchado el brazo y me duele muchísimo.', alternatives: ['Ayer caí y hoy tengo el brazo hinchado y me duele mucho.'] },
+      { russian: 'Я принял обезболивающее, но оно не помогло.', correct: 'Tomé un analgésico pero no me ayudó.', alternatives: ['Me tomé un calmante pero no funcionó.', 'Tomé un medicamento para el dolor pero no sirvió.'] },
+      { russian: 'Тебе надо сделать снимок, это может быть перелом, и запишись на прием к врачу.', correct: 'Necesitas hacerte una radiografía, puede ser una fractura, y pide cita al médico.', alternatives: ['Tienes que hacer una radiografía, puede ser rotura, y pide hora al médico.'] },
+      { russian: 'Наша команда тренируется каждый день, чтобы выиграть чемпионат.', correct: 'Nuestro equipo entrena todos los días para ganar el campeonato.', alternatives: ['Nuestro equipo se entrena cada día para ganar el campeonato.'] },
+      { russian: 'Тренер сказал: "Не сдавайтесь! Продолжайте бороться до конца!"', correct: 'El entrenador dijo: "¡No os rindáis! ¡Seguid luchando hasta el final!"', alternatives: ['El entrenador dijo: "¡No se rindan! ¡Continúen peleando hasta el final!"'] },
+      { russian: 'Чтобы быть здоровым, ешь правильно, делай зарядку и высыпайся.', correct: 'Para estar sano, come bien, haz ejercicio y duerme lo suficiente.', alternatives: ['Para ser saludable, come correctamente, haz gimnasia y descansa bien.'] }
     ]
   }
 }
