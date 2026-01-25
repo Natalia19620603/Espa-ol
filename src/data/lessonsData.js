@@ -8749,6 +8749,11 @@ Al + инфинитив + подлежащее инфинитива, [основ
         id: 'video-subjuntivo-viaje',
         tab: 'Subjuntivo Viaje',
         videoUrl: '/video/Subjuntivo_viaje_m11c1.mp4'
+      },
+      {
+        id: 'video-valor-integridad',
+        tab: 'El valor de la integridad',
+        videoUrl: '/video/El valor de la integridad.mp4'
       }
     ],
     grammar: {
@@ -10656,6 +10661,13 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-10-1',
     title: 'Урок 1: Imperativo Afirmativo (Повелительное наклонение)',
     moduleId: 'module-10',
+    videoTabs: [
+      {
+        id: 'video-estas-resfriado',
+        tab: 'Estas resfriado',
+        videoUrl: '/video/Estas resfriado M10 C1.mp4'
+      }
+    ],
     grammar: {
       title: 'Imperativo Afirmativo (Утвердительная форма повелительного наклонения)',
       intro: `Повелительное наклонение (Modo Imperativo) используется для выражения приказов, просьб, советов и инструкций. В испанском языке существует две формы: утвердительная (afirmativo) и отрицательная (negativo).`,
@@ -13864,11 +13876,11 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
         videoUrl: '/video/Alimentos con carbohidratos malos.mp4'
       },
       {
-        tab: '2',
-        videoUrl: '/video/module-17-lesson-4-cocina.mp4'
+        tab: 'Que comer en Toledo',
+        videoUrl: '/video/Que comer en Toledo 17c4.mp4'
       },
       {
-        tab: '3',
+        tab: 'Los gusanos de harina',
         videoUrl: '/video/Los gusanos de harina ya son alimento oficial en Europa.mp4'
       }
     ],
