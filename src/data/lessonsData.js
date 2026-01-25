@@ -8733,6 +8733,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'Subjuntivo viaje',
         videoUrl: '/video/Subjuntivo_viaje_m11c1.mp4'
+      },
+      {
+        tab: 'Suerte siempre hay',
+        videoUrl: '/video/Suerte siempre hay.mp4'
       }
     ],
     grammar: {
