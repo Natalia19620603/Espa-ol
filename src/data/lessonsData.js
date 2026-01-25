@@ -7728,6 +7728,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Que pasó cocinando',
         videoUrl: '/video/Que pasó cocinando.mp4'
+      },
+      {
+        tab: 'La hierba es azul',
+        videoUrl: '/video/La hierba es azul.mp4'
       }
     ],
     grammar: {
@@ -11233,6 +11237,12 @@ convenir — подходить
     id: 'lesson-10-3',
     title: 'Урок 3: Imperativo Negativo (Отрицательная форма повелительного наклонения)',
     moduleId: 'module-10',
+    videoTabs: [
+      {
+        tab: 'Nunca digas no puedo',
+        videoUrl: '/video/Nunca digas no puedo.mp4'
+      }
+    ],
     grammar: {
       title: 'Imperativo Negativo (Отрицательная форма повелительного наклонения)',
       intro: `Отрицательная форма (Imperativo Negativo) — это, пожалуй, самая логичная часть испанского повелительного наклонения, потому что она полностью совпадает с формами Subjuntivo.
