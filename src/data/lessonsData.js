@@ -8728,7 +8728,14 @@ Al + инфинитив + подлежащее инфинитива, [основ
         }
       ]
     },
-    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3']
+    exercises: ['ex-7-3-1', 'ex-7-3-2', 'ex-7-3-3'],
+    videoTabs: [
+      {
+        id: 'video-restaurante-m7c3',
+        tab: 'En el restaurante',
+        videoUrl: '/video/En el restaurante M7C3.mp4'
+      }
+    ]
   },
 
   // МОДУЛЬ 11: Досуг и развлечения (B1)
@@ -10444,7 +10451,14 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'fichar', translation: 'подписывать контракт' },
       { word: 'batir un récord', translation: 'побить рекорд' }
     ],
-    exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5', 'ex-9-1-6', 'ex-9-1-7']
+    exercises: ['ex-9-1-1', 'ex-9-1-2', 'ex-9-1-3', 'ex-9-1-4', 'ex-9-1-5', 'ex-9-1-6', 'ex-9-1-7'],
+    videoTabs: [
+      {
+        id: 'video-yoga-m9c1',
+        tab: 'Yoga',
+        videoUrl: '/video/Yoga M9C1.mp4'
+      }
+    ]
   },
 
   'lesson-9-2': {
