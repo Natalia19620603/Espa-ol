@@ -8606,6 +8606,12 @@ Al + инфинитив + подлежащее инфинитива, [основ
     id: 'lesson-7-3',
     title: 'Урок 3: Pretérito Pluscuamperfecto (Предпрошедшее время)',
     moduleId: 'module-7',
+    videoTabs: [
+      {
+        tab: 'En el restaurante M7C3',
+        videoUrl: '/video/En el restaurante M7C3.mp4'
+      }
+    ],
     vocabulary: [
       { word: 'ensalada mixta', translation: 'салат из помидоров, салатных листьев и репчатого лука', audioUrl: null },
       { word: 'mejillones a la marinera', translation: 'мидии в специальном соусе', audioUrl: null },
@@ -10345,6 +10351,12 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-9-1',
     title: 'Урок 1: Страдательный залог (Voz Pasiva)',
     moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'Yoga M9C1',
+        videoUrl: '/video/Yoga M9C1.mp4'
+      }
+    ],
     grammar: {
       title: 'Страдательный залог (Voz Pasiva)',
       intro: `В испанском языке есть два способа сказать, что действие совершается над предметом.`,
