@@ -15797,6 +15797,16 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
         id: 'video-sentido-vida',
         tab: 'El sentido de la vida',
         videoUrl: 'https://www.youtube.com/watch?v=VH85r4625nk'
+      },
+      {
+        id: 'video-rey-sabio',
+        tab: 'El Rey, el Sabio y el Ajedrez',
+        videoUrl: '/video/El Rey, el Sabio y el Ajedrez.mp4'
+      },
+      {
+        id: 'video-por-que-venimos',
+        tab: 'Por qué venimos aquí',
+        videoUrl: '/video/Por que venimos aquí.mp4'
       }
     ],
     readingText: {
