@@ -1,7 +1,30 @@
 import { useState, useRef, useEffect } from 'react'
 import styles from './VideoPlayer.module.css'
 
+// Функция для определения типа видео и получения embed URL для YouTube
+function getVideoInfo(url) {
+  // Проверка на YouTube URL
+  const youtubeRegex = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/
+  const match = url.match(youtubeRegex)
+
+  if (match) {
+    const videoId = match[1]
+    return {
+      type: 'youtube',
+      embedUrl: `https://www.youtube.com/embed/${videoId}`,
+      originalUrl: url
+    }
+  }
+
+  return {
+    type: 'local',
+    embedUrl: url,
+    originalUrl: url
+  }
+}
+
 function VideoPlayer({ videoUrl, title, subtitles = [] }) {
+  const videoInfo = getVideoInfo(videoUrl)
   const [isPlaying, setIsPlaying] = useState(false)
   const [currentTime, setCurrentTime] = useState(0)
   const [duration, setDuration] = useState(0)
@@ -203,6 +226,30 @@ function VideoPlayer({ videoUrl, title, subtitles = [] }) {
     return `${minutes}:${seconds.toString().padStart(2, '0')}`
   }
 
+  // Если это YouTube видео, рендерим iframe
+  if (videoInfo.type === 'youtube') {
+    return (
+      <div className={styles.videoPlayerContainer}>
+        {title && <h3 className={styles.videoTitle}>{title}</h3>}
+        <div className={styles.videoWrapper}>
+          <iframe
+            src={videoInfo.embedUrl}
+            className={styles.video}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            style={{
+              width: '100%',
+              height: '100%',
+              aspectRatio: '16/9'
+            }}
+          />
+        </div>
+      </div>
+    )
+  }
+
+  // Для локальных видео используем стандартный video элемент с контролами
   return (
     <div className={styles.videoPlayerContainer}>
       {title && <h3 className={styles.videoTitle}>{title}</h3>}
