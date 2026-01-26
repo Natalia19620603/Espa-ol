@@ -104,7 +104,7 @@ export const modules = {
     id: 'module-17',
     title: 'Модуль 17: Литература и культура (1068 слов)',
     level: 'intermediate',
-    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8'],
+    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -15776,6 +15776,74 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
       { tab: 'Presente de Subjuntivo', exerciseIds: ['ex-9-8-video-subjuntivo'] },
       { tab: 'Перевод', exerciseIds: ['ex-9-8-video-translation'] }
     ]
+  },
+
+  'lesson-17-9': {
+    id: 'lesson-17-9',
+    title: 'Урок 9: Sabiduría - El sentido de la vida',
+    moduleId: 'module-17',
+    videoTabs: [
+      {
+        id: 'video-sentido-vida',
+        tab: 'El sentido de la vida',
+        videoUrl: 'https://www.youtube.com/watch?v=VH85r4625nk'
+      }
+    ],
+    readingText: {
+      title: 'El sentido de la vida',
+      content: `Eh, me gustaría saber su opinión o si ha llegado una conclusión eh acerca del sentido de la vida. Es decir, usted decía antes que nacemos, cogemos un traje, vivimos y después lo devolvemos. Me gustaría saber si tiene una conclusión o una opinión acerca de para qué vivimos.
+
+Es una pregunta muy buena porque uno después de lo que cuentan estos enfermos dicen, "Oye, pero yo porque nazco me quedo siempre en el otro lado y vivo tranquilo." Es de una lógica aplastante lo que usted dice. Yo no sé si ustedes conocen o han leído algo de Teilhard de Chardin. ¿Han oído hablar Teilhard de Chardin? Fue un jesuita muy evolucionado por sus ideas. Casi lo lo lo expulsaron lo querían expulsar de la iglesia. Lo desterraron, querían excomulgarlo, no dejaron publicar sus obras. Él estudió, era un teólogo muy importante, estudió la evolución del ser humano como jesuita y sus principios no van contra los principios de la Iglesia. Él lo expresa muy bien. ¿Cuál es la finalidad de nuestra vida? ¿Por qué venimos aquí?
+
+Venimos aquí para descubrir el ser, no el tener o el hacer. El ser es nuestra supraconciencia.
+
+El hacer o el tener es propio de nuestro ego, nuestra identidad materialista y la finalidad de la vida, como dice Teilhard de Chardin, es empezar en el punto alfa lleno de impurezas propias del ego, irlas eliminando hasta llegar al punto omega, que es la santidad, la budeidad o iluminación en las filosofías orientales. Esta es la finalidad de nuestra vida. Es decir, es un juego que nos han hecho. Nos ponen dentro nuestra auténtica identidad que es divina, dentro de un cuerpo que nos engaña. Y nuestra finalidad es precisamente descubrir la identidad auténtica nuestra que está tapada, está oculta por el ego. Esta es nuestra finalidad y les puedo asegurar que cuando ustedes descubren su supraconciencia pueden llegar a ser tan felices como son los que están viviendo una experiencia cercana a la muerte en otra dimensión.
+
+Vivir, contactar con la supraconciencia proporciona una felicidad, como les he dicho antes, inmensa, comparable a la que manifiestan los pacientes en la experiencia del gran muerte.`,
+      translation: 'Смысл жизни. Философская лекция о смысле жизни, концепции Тейяра де Шардена о пути от точки Альфа к точке Омега, о различии между "быть", "иметь" и "делать", и о поиске подлинной идентичности через сверхсознание.'
+    },
+    vocabulary: [
+      { word: 'el sentido', translation: 'смысл' },
+      { word: 'la sabiduría', translation: 'мудрость' },
+      { word: 'la conclusión', translation: 'вывод, заключение' },
+      { word: 'nacer', translation: 'рождаться' },
+      { word: 'el traje', translation: 'костюм' },
+      { word: 'devolver', translation: 'возвращать' },
+      { word: 'aplastante', translation: 'сокрушительный, неоспоримый' },
+      { word: 'el jesuita', translation: 'иезуит' },
+      { word: 'evolucionado', translation: 'развитый, продвинутый' },
+      { word: 'expulsar', translation: 'изгонять' },
+      { word: 'desterrar', translation: 'ссылать, изгонять' },
+      { word: 'excomulgar', translation: 'отлучать от церкви' },
+      { word: 'el teólogo', translation: 'теолог, богослов' },
+      { word: 'la finalidad', translation: 'цель, назначение' },
+      { word: 'el ser', translation: 'существо, бытие' },
+      { word: 'el tener', translation: 'обладание, иметь' },
+      { word: 'el hacer', translation: 'действие, делать' },
+      { word: 'la supraconciencia', translation: 'сверхсознание' },
+      { word: 'el ego', translation: 'эго' },
+      { word: 'materialista', translation: 'материалистический' },
+      { word: 'el punto alfa', translation: 'точка альфа (начало)' },
+      { word: 'la impureza', translation: 'нечистота, недостаток' },
+      { word: 'eliminar', translation: 'устранять, избавляться' },
+      { word: 'el punto omega', translation: 'точка омега (конец)' },
+      { word: 'la santidad', translation: 'святость' },
+      { word: 'la budeidad', translation: 'состояние Будды' },
+      { word: 'la iluminación', translation: 'просветление' },
+      { word: 'oriental', translation: 'восточный' },
+      { word: 'auténtico', translation: 'подлинный, настоящий' },
+      { word: 'divino', translation: 'божественный' },
+      { word: 'engañar', translation: 'обманывать' },
+      { word: 'descubrir', translation: 'открывать, обнаруживать' },
+      { word: 'tapar', translation: 'скрывать, закрывать' },
+      { word: 'oculto', translation: 'скрытый' },
+      { word: 'asegurar', translation: 'уверять, заверять' },
+      { word: 'proporcionar', translation: 'предоставлять, давать' },
+      { word: 'inmensa', translation: 'огромная, безмерная' },
+      { word: 'comparable', translation: 'сравнимая' },
+      { word: 'manifestar', translation: 'проявлять, выражать' }
+    ],
+    exercises: ['ex-17-9-1']
   }
 }
 
@@ -37235,6 +37303,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Мне грустно, что ты уезжаешь.', correct: 'Me entristece que te vayas.' },
       { russian: 'Невозможно, чтобы они уже закончили работу.', correct: 'Es imposible que ya hayan terminado el trabajo.' },
       { russian: 'Естественно, что дети устали после экскурсии.', correct: 'Es natural que los niños estén cansados después de la excursión.' }
+    ]
+  },
+
+  'ex-17-9-1': {
+    id: 'ex-17-9-1',
+    type: 'audio-comprehension',
+    title: 'Упражнение 1: Понимание видео - El sentido de la vida',
+    description: 'Ответьте на вопросы по содержанию видео',
+    backgroundColor: '#E3F2FD',
+    questions: [
+      { question: '¿Cuál es la pregunta principal que se hace en el video?', type: 'open' },
+      { question: '¿Quién fue Teilhard de Chardin y cuál era su profesión?', type: 'open' },
+      { question: '¿Por qué Teilhard de Chardin tuvo problemas con la Iglesia?', type: 'open' },
+      { question: 'Según el video, ¿cuál es la diferencia entre el "ser", el "tener" y el "hacer"?', type: 'open' },
+      { question: '¿Qué es la supraconciencia según el video?', type: 'open' },
+      { question: '¿Qué significa el "punto alfa" en la filosofía de Teilhard de Chardin?', type: 'open' },
+      { question: '¿Qué significa el "punto omega"?', type: 'open' },
+      { question: 'Según el video, ¿cuál es la finalidad de nuestra vida?', type: 'open' },
+      { question: '¿Qué relación hace el video entre la supraconciencia y la felicidad?', type: 'open' },
+      { question: '¿Qué comparación se hace con las experiencias cercanas a la muerte?', type: 'open' }
     ]
   }
 }
