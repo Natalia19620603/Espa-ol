@@ -76,7 +76,7 @@ export const modules = {
     id: 'module-11',
     title: 'Модуль 11: Досуг и развлечения (95 слов)',
     level: 'intermediate',
-    lessons: ['lesson-11-1'],
+    lessons: ['lesson-11-1', 'lesson-11-2'],
     description: 'Modo subjuntivo: досуг, развлечения, свободное время'
   },
   'module-8': {
@@ -9194,6 +9194,326 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { tab: 'OCIO en MADRID', exerciseIds: ['ex-7-1-ocio-fillblank', 'ex-7-1-ocio-vocab', 'ex-7-1-ocio-comprehension', 'ex-7-1-ocio-grammar', 'ex-7-1-ocio-translation'] },
       { tab: 'Перевод: Досуг и развлечения B1', exerciseIds: ['ex-7-1-ocio-translation-b1'] }
     ]
+  },
+
+  'lesson-11-2': {
+    id: 'lesson-11-2',
+    title: 'Урок 2: Глаголы, требующие Subjuntivo',
+    moduleId: 'module-11',
+    grammar: {
+      title: 'Глаголы и конструкции, требующие Subjuntivo',
+      intro: `Subjuntivo используется после определённых глаголов и выражений, которые передают субъективное отношение к действию:
+- Волеизъявление (voluntad)
+- Чувства и эмоции (sentimientos y emociones)
+- Сомнение (duda)
+- Оценка информации (valoración)`,
+      sections: [
+        {
+          id: 'voluntad',
+          title: '1. Глаголы волеизъявления (Voluntad)',
+          content: `## Глаголы волеизъявления требуют Subjuntivo
+
+Эти глаголы выражают желание, приказ, просьбу, совет, чтобы кто-то другой что-то сделал.
+
+### Основные глаголы:
+
+**Приказывать, требовать:**
+- **mandar** - приказывать
+- **ordenar** - приказывать
+- **exigir** - требовать
+
+**Предлагать, советовать:**
+- **proponer** - предлагать
+- **aconsejar** - советовать
+- **recomendar** - рекомендовать
+
+**Просить, настаивать:**
+- **pedir** - просить
+- **insistir en** - настаивать на
+- **rogar** (1b) - умолять
+
+**Желать:**
+- **desear** - желать
+- **querer** - хотеть
+- **soñar con** - мечтать о
+
+**Разрешать, запрещать:**
+- **permitir** - разрешать
+- **prohibir** - запрещать
+
+**Другие важные глаголы:**
+- **decir** (cuando = mandar) - сказать (когда = приказать)
+- **escribir** - написать
+- **gritar** - кричать
+- **repetir** - повторить
+- **advertir** (3) - предупредить
+
+### Примеры:
+
+- Mi madre **quiere que** yo **estudie** más. (Моя мама хочет, чтобы я учился больше)
+- El médico **recomienda que** (tú) **descanses**. (Врач рекомендует, чтобы ты отдыхал)
+- Te **pido que** me **ayudes**. (Прошу тебя, помоги мне)
+- **Prohiben que** (nosotros) **fumemos** aquí. (Запрещают, чтобы мы курили здесь)
+
+### Безличные конструкции:
+
+- **es necesario que** - необходимо, чтобы
+- **es preciso que** - необходимо, чтобы
+- **hace falta que** - надо, чтобы
+- **es deseable que** - желательно, чтобы
+- **es preferible que** - предпочтительно, чтобы
+
+**Примеры:**
+- **Es necesario que** (tú) **vengas** a tiempo. (Необходимо, чтобы ты пришёл вовремя)
+- **Hace falta que** (nosotros) **trabajemos** más. (Надо, чтобы мы работали больше)`
+        },
+        {
+          id: 'emociones',
+          title: '2. Чувства и эмоции (Sentimientos y emociones)',
+          content: `## Глаголы чувств и эмоций требуют Subjuntivo
+
+Когда мы выражаем эмоциональную реакцию на действие другого человека.
+
+### Глаголы эмоций:
+
+**Радость:**
+- **alegrarse de** - радоваться
+- **estar contento de** - быть довольным
+
+**Грусть, сожаление:**
+- **afligirse de** - расстраиваться
+- **sentir** / **lamentar** - сожалеть
+- **tener lástima de** - жалеть
+
+**Удивление:**
+- **asombrarse de** - удивляться
+- **extrañarse de** - удивляться
+- **sorprenderse de** - удивляться
+
+**Страх:**
+- **temer** - бояться
+- **tener miedo de** - бояться
+- **asustarse de** - пугаться
+
+**Гнев, возмущение:**
+- **indignarse de** - возмущаться
+- **enfadarse de** - сердиться
+
+**Беспокойство:**
+- **preocuparse de** - волноваться
+
+**Терпение, ненависть:**
+- **soportar** - терпеть
+- **aguantar** - выносить
+- **odiar** - ненавидеть
+
+**Недовольство:**
+- **estar descontento de** - быть недовольным
+
+### Примеры:
+
+- **Me alegro de que** (tú) **estés** bien. (Я рад, что ты в порядке)
+- **Siento que** (él) **no pueda** venir. (Сожалею, что он не может прийти)
+- **Me sorprende que** (ellos) **no sepan** esto. (Меня удивляет, что они этого не знают)
+- **Temo que** (nosotros) **lleguemos** tarde. (Боюсь, что мы опоздаем)
+
+### Безличные конструкции с эмоциями:
+
+- **es (una) lástima que** - жаль, что
+- **es una pena que** - печально, что
+- **es ridículo que** - смешно, что
+- **es sorprendente que** - удивительно, что
+- **es extraño que** - странно, что
+- **es agradable que** - приятно, что
+- **es desagradable que** - неприятно, что
+- **es insoportable que** - невыносимо, что
+
+**Примеры:**
+- **Es una lástima que** (tú) **no vengas**. (Жаль, что ты не придёшь)
+- **Es extraño que** (él) **no llame**. (Странно, что он не звонит)`
+        },
+        {
+          id: 'duda',
+          title: '3. Сомнение и неуверенность (Duda)',
+          content: `## Глаголы сомнения требуют Subjuntivo
+
+Выражают неуверенность, сомнение в реальности действия.
+
+### Глаголы сомнения:
+
+- **dudar** - сомневаться
+- **no creer** - не верить
+- **no pensar** - не думать
+- **no estar seguro de** - не быть уверенным
+- **no imaginarse** - не представлять себе
+
+### Примеры:
+
+- **Dudo que** (él) **venga**. (Сомневаюсь, что он придёт)
+- **No creo que** (tú) **tengas** razón. (Не верю, что ты прав)
+- **No pienso que** (nosotros) **podamos** hacerlo. (Не думаю, что мы сможем это сделать)
+
+### Безличные конструкции сомнения:
+
+**Возможность:**
+- **es posible que** - возможно, что
+- **es imposible que** - невозможно, чтобы
+- **es probable que** - вероятно, что
+
+**Сомнительность:**
+- **es dudoso que** - сомнительно, что/чтобы
+- **parece mentira** - невероятно, чтобы
+
+**Отрицание очевидности:**
+- **no es evidente que** - неочевидно, что
+- **no es verdad que** - неправда, что
+- **no es cierto que** - вряд ли, что
+- **no es exacto que** - неточно, что
+- **no significa que** - не означает, что
+- **no parece que** - не кажется, что
+- **no es que** - дело не в том, что
+
+### Примеры:
+
+- **Es posible que** (ellos) **lleguen** tarde. (Возможно, они опоздают)
+- **No es verdad que** (yo) **sea** egoísta. (Неправда, что я эгоист)
+- **Parece mentira que** (tú) **no sepas** esto. (Невероятно, что ты этого не знаешь)
+
+**⚠️ ВАЖНО:**
+Если используется утвердительная форма (creer, pensar, es verdad), то идёт **Indicativo**:
+- Creo que (él) **viene**. (Я думаю, что он придёт - Indicativo)
+- No creo que (él) **venga**. (Не думаю, что он придёт - Subjuntivo)`
+        },
+        {
+          id: 'valoracion',
+          title: '4. Оценка информации (Valoración)',
+          content: `## Безличные конструкции оценки требуют Subjuntivo
+
+Выражают субъективную оценку ситуации.
+
+### Конструкции оценки:
+
+**Логичность, естественность:**
+- **es lógico que** - логично, что
+- **es natural que** - естественно, что
+
+**Важность:**
+- **es importante que** - важно, чтобы
+
+**Хорошо/плохо:**
+- **está bien/mal que** - хорошо/плохо, что
+- **es bueno/malo que** - хорошо/плохо, что
+- **es mejor/peor que** - лучше/хуже, чтобы
+
+**Любопытство:**
+- **es curioso que** - любопытно, что
+
+### Примеры:
+
+- **Es lógico que** (tú) **estés** cansado. (Логично, что ты устал)
+- **Es importante que** (nosotros) **llegemos** a tiempo. (Важно, чтобы мы пришли вовремя)
+- **Es mejor que** (vosotros) **os quedéis** en casa. (Лучше, чтобы вы остались дома)
+- **Es natural que** (él) **se sienta** así. (Естественно, что он так себя чувствует)
+- **Es curioso que** (ellos) **no sepan** nada. (Любопытно, что они ничего не знают)`
+        },
+        {
+          id: 'negacion',
+          title: '5. Глаголы отказа (Negación)',
+          content: `## Глаголы отказа и отрицания
+
+### NEGARSE A + Infinitivo
+**Отказаться что-либо делать**
+
+- **¿Por qué te niegas a aprovechar tal oportunidad?**
+  Почему ты отказываешься воспользоваться таким шансом?
+
+### NEGAR
+**Отрицать / отказать в чём-либо**
+
+- **Nadie niega la maestría de este bailarín.**
+  Никто не отрицает мастерство этого танцовщика.
+
+- **No les niegues tu apoyo, lo necesitan.**
+  Не отказывай им в поддержке, она им необходима.
+
+### RENUNCIAR A
+**Отказаться (от того, чем владел, что планировал)**
+
+- **renunciar a su idea (proyecto, pretensiones, costumbre…)**
+
+- **Charo renunció a las clases de tenis por el dolor de espalda.**
+  Чаро отказалась от занятий теннисом из-за боли в спине.
+
+### REHUSAR
+**Отказаться (от того, что предлагают) / отклонить**
+
+- **Me veo obligada a rehusar su invitación. Lo siento.**
+  Я вынуждена отказаться от их приглашения. Сожалею.
+
+### RECHAZAR
+**Отказаться (от того, что предлагают) / отвергнуть**
+
+- **María rechazó el regalo de su primo porque estaba ofendida de él.**
+  Мария отказалась от подарка (отвергла подарок) своего двоюродного брата,
+  потому что обижена на него.
+
+### DENEGAR
+**Отказать в чём-либо / оставить без удовлетворения**
+
+- **Le denegaron el visado sin explicar la razón.**
+  Ему отказали в визе без объяснения причины.`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'mandar', translation: 'приказывать' },
+      { word: 'ordenar', translation: 'приказывать' },
+      { word: 'exigir', translation: 'требовать' },
+      { word: 'proponer', translation: 'предлагать' },
+      { word: 'aconsejar', translation: 'советовать' },
+      { word: 'recomendar', translation: 'рекомендовать' },
+      { word: 'insistir en', translation: 'настаивать на' },
+      { word: 'pedir', translation: 'просить' },
+      { word: 'necesitar', translation: 'быть необходимым' },
+      { word: 'rogar', translation: 'умолять' },
+      { word: 'desear', translation: 'желать' },
+      { word: 'querer', translation: 'хотеть' },
+      { word: 'soñar con', translation: 'мечтать о' },
+      { word: 'permitir', translation: 'разрешить' },
+      { word: 'prohibir', translation: 'запретить' },
+      { word: 'decir', translation: 'сказать чтобы' },
+      { word: 'escribir', translation: 'написать' },
+      { word: 'gritar', translation: 'крикнуть' },
+      { word: 'repetir', translation: 'повторить' },
+      { word: 'advertir', translation: 'предупредить' },
+      { word: 'alegrarse de', translation: 'радоваться' },
+      { word: 'afligirse de', translation: 'расстраиваться' },
+      { word: 'sentir', translation: 'сожалеть' },
+      { word: 'lamentar', translation: 'сожалеть' },
+      { word: 'tener lástima de', translation: 'жалеть' },
+      { word: 'asombrarse de', translation: 'удивляться' },
+      { word: 'extrañarse de', translation: 'удивляться' },
+      { word: 'sorprenderse de', translation: 'удивляться' },
+      { word: 'temer', translation: 'бояться' },
+      { word: 'tener miedo de', translation: 'бояться' },
+      { word: 'asustarse de', translation: 'пугаться' },
+      { word: 'indignarse de', translation: 'возмущаться' },
+      { word: 'enfadarse de', translation: 'сердиться' },
+      { word: 'preocuparse de', translation: 'волноваться' },
+      { word: 'soportar', translation: 'терпеть' },
+      { word: 'aguantar', translation: 'выносить' },
+      { word: 'odiar', translation: 'ненавидеть' },
+      { word: 'estar contento de', translation: 'быть довольным' },
+      { word: 'estar descontento de', translation: 'быть недовольным' },
+      { word: 'dudar', translation: 'сомневаться' },
+      { word: 'negarse a', translation: 'отказаться' },
+      { word: 'negar', translation: 'отрицать / отказать' },
+      { word: 'renunciar a', translation: 'отказаться от' },
+      { word: 'rehusar', translation: 'отклонить' },
+      { word: 'rechazar', translation: 'отвергнуть' },
+      { word: 'denegar', translation: 'отказать' }
+    ],
+    exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5']
   },
 
   // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
@@ -36690,6 +37010,131 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Наша команда тренируется каждый день, чтобы выиграть чемпионат.', correct: 'Nuestro equipo entrena todos los días para ganar el campeonato.' },
       { russian: 'Тренер сказал: "Не сдавайтесь! Продолжайте бороться до конца!"', correct: 'El entrenador dijo: "¡No os rindáis! ¡Seguid luchando hasta el final!"' },
       { russian: 'Чтобы быть здоровым, ешь правильно, делай зарядку и высыпайся.', correct: 'Para estar sano, come bien, haz ejercicio y duerme lo suficiente.' }
+    ]
+  },
+
+  'ex-11-2-1': {
+    id: 'ex-11-2-1',
+    type: 'fillblank',
+    title: 'Упражнение 1: Глаголы волеизъявления',
+    description: 'Поставьте глагол в правильную форму Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Mi madre quiere que yo _____ (estudiar) más.', correct: 'estudie' },
+      { sentence: 'El médico recomienda que tú _____ (descansar).', correct: 'descanses' },
+      { sentence: 'Te pido que me _____ (ayudar).', correct: 'ayudes' },
+      { sentence: 'Prohiben que nosotros _____ (fumar) aquí.', correct: 'fumemos' },
+      { sentence: 'Es necesario que vosotros _____ (venir) a tiempo.', correct: 'vengáis' },
+      { sentence: 'Hace falta que ellos _____ (trabajar) más.', correct: 'trabajen' },
+      { sentence: 'El jefe ordena que todos _____ (llegar) temprano.', correct: 'lleguen' },
+      { sentence: 'Te aconsejo que _____ (hablar) con él.', correct: 'hables' },
+      { sentence: 'Insisten en que nosotros _____ (quedarse) aquí.', correct: 'nos quedemos' },
+      { sentence: 'Mis padres me permiten que _____ (salir) el sábado.', correct: 'salga' },
+      { sentence: 'Es preferible que tú _____ (ir) solo.', correct: 'vayas' },
+      { sentence: 'El profesor exige que los alumnos _____ (hacer) la tarea.', correct: 'hagan' },
+      { sentence: 'Le ruego que me _____ (perdonar).', correct: 'perdone' },
+      { sentence: 'Deseo que vosotros _____ (ser) felices.', correct: 'seáis' },
+      { sentence: 'Es deseable que ellos _____ (participar) en el proyecto.', correct: 'participen' }
+    ]
+  },
+
+  'ex-11-2-2': {
+    id: 'ex-11-2-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Чувства и эмоции',
+    description: 'Поставьте глагол в правильную форму Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Me alegro de que tú _____ (estar) bien.', correct: 'estés' },
+      { sentence: 'Siento que él no _____ (poder) venir.', correct: 'pueda' },
+      { sentence: 'Me sorprende que ellos no _____ (saber) esto.', correct: 'sepan' },
+      { sentence: 'Temo que nosotros _____ (llegar) tarde.', correct: 'lleguemos' },
+      { sentence: 'Es una lástima que tú no _____ (venir).', correct: 'vengas' },
+      { sentence: 'Es extraño que él no _____ (llamar).', correct: 'llame' },
+      { sentence: 'Me preocupa que vosotros _____ (trabajar) tanto.', correct: 'trabajéis' },
+      { sentence: 'Odio que me _____ (mentir).', correct: 'mientan' },
+      { sentence: 'Es ridículo que ellos no _____ (entender) esto.', correct: 'entiendan' },
+      { sentence: 'Estoy contento de que todo _____ (salir) bien.', correct: 'salga' },
+      { sentence: 'Es insoportable que tú siempre _____ (quejarse).', correct: 'te quejes' },
+      { sentence: 'Me asombra que vosotros _____ (ser) tan ingenuos.', correct: 'seáis' },
+      { sentence: 'Es agradable que ella nos _____ (visitar).', correct: 'visite' },
+      { sentence: 'Tengo miedo de que _____ (pasar) algo malo.', correct: 'pase' },
+      { sentence: 'Es sorprendente que ellos no _____ (hablar) español.', correct: 'hablen' }
+    ]
+  },
+
+  'ex-11-2-3': {
+    id: 'ex-11-2-3',
+    type: 'fillblank',
+    title: 'Упражнение 3: Сомнение и неуверенность',
+    description: 'Поставьте глагол в правильную форму Subjuntivo или Indicativo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Dudo que él _____ (venir).', correct: 'venga' },
+      { sentence: 'No creo que tú _____ (tener) razón.', correct: 'tengas' },
+      { sentence: 'Creo que él _____ (venir) mañana.', correct: 'viene' },
+      { sentence: 'Es posible que ellos _____ (llegar) tarde.', correct: 'lleguen' },
+      { sentence: 'No es verdad que yo _____ (ser) egoísta.', correct: 'sea' },
+      { sentence: 'Es probable que _____ (llover) mañana.', correct: 'llueva' },
+      { sentence: 'No pienso que nosotros _____ (poder) hacerlo.', correct: 'podamos' },
+      { sentence: 'Pienso que nosotros _____ (poder) hacerlo.', correct: 'podemos' },
+      { sentence: 'Es dudoso que vosotros _____ (terminar) a tiempo.', correct: 'terminéis' },
+      { sentence: 'No parece que él _____ (estar) enfermo.', correct: 'esté' },
+      { sentence: 'Es imposible que ellos _____ (saber) la verdad.', correct: 'sepan' },
+      { sentence: 'No es cierto que ella _____ (vivir) aquí.', correct: 'viva' },
+      { sentence: 'Parece mentira que tú no lo _____ (conocer).', correct: 'conozcas' },
+      { sentence: 'No estoy seguro de que _____ (funcionar).', correct: 'funcione' },
+      { sentence: 'No significa que yo _____ (estar) de acuerdo.', correct: 'esté' }
+    ]
+  },
+
+  'ex-11-2-4': {
+    id: 'ex-11-2-4',
+    type: 'grammar',
+    title: 'Упражнение 4: Выберите правильную форму',
+    description: 'Выберите Subjuntivo или Indicativo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Es importante que tú ... a tiempo.', options: ['llegas', 'llegues'], correct: 1 },
+      { sentence: 'Es lógico que él ... cansado.', options: ['está', 'esté'], correct: 1 },
+      { sentence: 'Es mejor que nosotros ... en casa.', options: ['nos quedamos', 'nos quedemos'], correct: 1 },
+      { sentence: 'Es natural que ella ... así.', options: ['se siente', 'se sienta'], correct: 1 },
+      { sentence: 'Está bien que vosotros ... la verdad.', options: ['decís', 'digáis'], correct: 1 },
+      { sentence: 'Es bueno que ellos ... deporte.', options: ['hacen', 'hagan'], correct: 1 },
+      { sentence: 'Es malo que tú ... tanto.', options: ['fumas', 'fumes'], correct: 1 },
+      { sentence: 'Es peor que ella no nos ... .', options: ['ayuda', 'ayude'], correct: 1 },
+      { sentence: 'Es curioso que no ... nada.', options: ['saben', 'sepan'], correct: 1 },
+      { sentence: 'Es verdad que él ... en Madrid.', options: ['vive', 'viva'], correct: 0 },
+      { sentence: 'No es verdad que yo ... egoísta.', options: ['soy', 'sea'], correct: 1 },
+      { sentence: 'Es evidente que ella ... razón.', options: ['tiene', 'tenga'], correct: 0 },
+      { sentence: 'No es evidente que ... fácil.', options: ['es', 'sea'], correct: 1 },
+      { sentence: 'Creo que ... tarde.', options: ['es', 'sea'], correct: 0 },
+      { sentence: 'No creo que ... tarde.', options: ['es', 'sea'], correct: 1 }
+    ]
+  },
+
+  'ex-11-2-5': {
+    id: 'ex-11-2-5',
+    type: 'translation',
+    title: 'Упражнение 5: Переведите на испанский язык',
+    description: 'Переведите предложения, используя Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Я хочу, чтобы ты пришёл завтра.', correct: 'Quiero que vengas mañana.' },
+      { russian: 'Мама просит, чтобы я помог ей.', correct: 'Mamá pide que la ayude.' },
+      { russian: 'Врач рекомендует, чтобы вы отдыхали.', correct: 'El médico recomienda que descansen.' },
+      { russian: 'Я рад, что ты здесь.', correct: 'Me alegro de que estés aquí.' },
+      { russian: 'Жаль, что он не может прийти.', correct: 'Es una lástima que no pueda venir.' },
+      { russian: 'Странно, что она не звонит.', correct: 'Es extraño que no llame.' },
+      { russian: 'Я сомневаюсь, что они придут.', correct: 'Dudo que vengan.' },
+      { russian: 'Не думаю, что это правда.', correct: 'No creo que sea verdad.' },
+      { russian: 'Возможно, завтра будет дождь.', correct: 'Es posible que mañana llueva.' },
+      { russian: 'Важно, чтобы мы закончили вовремя.', correct: 'Es importante que terminemos a tiempo.' },
+      { russian: 'Лучше, чтобы ты остался дома.', correct: 'Es mejor que te quedes en casa.' },
+      { russian: 'Естественно, что он устал.', correct: 'Es natural que esté cansado.' },
+      { russian: 'Запрещают, чтобы мы курили здесь.', correct: 'Prohiben que fumemos aquí.' },
+      { russian: 'Необходимо, чтобы вы пришли вовремя.', correct: 'Es necesario que vengan a tiempo.' },
+      { russian: 'Мне не нравится, что ты так поступаешь.', correct: 'No me gusta que actúes así.' }
     ]
   }
 }
