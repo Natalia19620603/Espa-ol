@@ -9513,7 +9513,7 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'rechazar', translation: 'отвергнуть' },
       { word: 'denegar', translation: 'отказать' }
     ],
-    exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5']
+    exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5', 'ex-11-2-6', 'ex-11-2-7', 'ex-11-2-8', 'ex-11-2-9']
   },
 
   // ============ МОДУЛЬ 8: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ (B1) ============
@@ -37135,6 +37135,106 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Запрещают, чтобы мы курили здесь.', correct: 'Prohiben que fumemos aquí.' },
       { russian: 'Необходимо, чтобы вы пришли вовремя.', correct: 'Es necesario que vengan a tiempo.' },
       { russian: 'Мне не нравится, что ты так поступаешь.', correct: 'No me gusta que actúes así.' }
+    ]
+  },
+
+  'ex-11-2-6': {
+    id: 'ex-11-2-6',
+    type: 'transformation',
+    title: 'Упражнение 6: Замените придаточные дополнительные предложения на придаточные подлежащные',
+    description: 'Образец: Me alegro de que Carlos se sienta mejor. → Me alegra que Carlos se sienta mejor.',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Temo que María se pierda, si va allí sola.', correct: 'Me teme que María se pierda, si va allí sola.' },
+      { sentence: 'Siento que no puedas venir.', correct: 'Me siente que no puedas venir.' },
+      { sentence: '¿Te asombras de que me vaya?', correct: '¿Te asombra que me vaya?' },
+      { sentence: 'Nos sorprendemos de que en el parque haya poca gente hoy.', correct: 'Nos sorprende que en el parque haya poca gente hoy.' },
+      { sentence: 'Necesitáis que ellos renuncien a su plan.', correct: 'Os hace falta que ellos renuncien a su plan.' },
+      { sentence: 'Elisa se preocupa de que el abrigo no quepa en la maleta.', correct: 'A Elisa le preocupa que el abrigo no quepa en la maleta.' },
+      { sentence: 'Me enfado de que no pidas que te ayude.', correct: 'Me enfada que no pidas que te ayude.' },
+      { sentence: 'Dudamos que eso sea toda la verdad.', correct: 'Nos es dudoso que eso sea toda la verdad.' },
+      { sentence: 'Los padres se indignan de que el hijo no quiera estudiar.', correct: 'A los padres les indigna que el hijo no quiera estudiar.' },
+      { sentence: 'Nos sorprendemos de que tú no sepas tocar ningún instrumento musical.', correct: 'Nos sorprende que tú no sepas tocar ningún instrumento musical.' },
+      { sentence: 'Me alegro de que hayas aprobado el examen.', correct: 'Me alegra que hayas aprobado el examen.' },
+      { sentence: 'Te preocupas de que lleguen tarde.', correct: 'Te preocupa que lleguen tarde.' },
+      { sentence: 'Nos alegramos de que todo salga bien.', correct: 'Nos alegra que todo salga bien.' },
+      { sentence: 'Se sorprenden de que no sepamos la noticia.', correct: 'Les sorprende que no sepamos la noticia.' },
+      { sentence: 'Me asombro de que él no venga.', correct: 'Me asombra que él no venga.' }
+    ]
+  },
+
+  'ex-11-2-7': {
+    id: 'ex-11-2-7',
+    type: 'transformation',
+    title: 'Упражнение 7: Составьте сложноподчиненные предложения',
+    description: 'Образец: Carlos estudia bien. → No es evidente que Carlos estudie bien. / Alegra que Carlos estudie bien. / Es lógico que Carlos estudie bien.',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Mis amigos irán de vacaciones a Italia. (сомнение)', correct: 'No es evidente que mis amigos vayan de vacaciones a Italia.' },
+      { sentence: 'Ninguno de ellos conoce esta calle. (эмоция)', correct: 'Me sorprende que ninguno de ellos conozca esta calle.' },
+      { sentence: 'Pedro se siente mejor. (оценка)', correct: 'Es bueno que Pedro se sienta mejor.' },
+      { sentence: 'Ellos se apuntarán a las clases de yoga. (сомнение)', correct: 'Es dudoso que ellos se apunten a las clases de yoga.' },
+      { sentence: 'Él prefiere vivir solo. (оценка)', correct: 'Es lógico que él prefiera vivir solo.' },
+      { sentence: 'Juan traerá su libro nuevo. (эмоция)', correct: 'Me alegra que Juan traiga su libro nuevo.' },
+      { sentence: 'Mi amiga no querrá probarse este traje. (сомнение)', correct: 'Es posible que mi amiga no quiera probarse este traje.' },
+      { sentence: 'El médico le dará de baja. (оценка)', correct: 'Es necesario que el médico le dé de baja.' },
+      { sentence: 'Ella siempre dice lo que piensa. (эмоция)', correct: 'Me gusta que ella siempre diga lo que piensa.' },
+      { sentence: 'A tu novio no le gustará tu sombrero nuevo. (сомнение)', correct: 'Es probable que a tu novio no le guste tu sombrero nuevo.' },
+      { sentence: 'Marta viene a la fiesta. (эмоция)', correct: 'Me alegro de que Marta venga a la fiesta.' },
+      { sentence: 'Ellos saben la verdad. (сомнение)', correct: 'Dudo que ellos sepan la verdad.' },
+      { sentence: 'Tú trabajas mucho. (оценка)', correct: 'Es importante que tú trabajes mucho.' },
+      { sentence: 'Vosotros llegáis tarde. (эмоция)', correct: 'Me preocupa que vosotros lleguéis tarde.' },
+      { sentence: 'Ella puede ayudarnos. (сомнение)', correct: 'No es seguro que ella pueda ayudarnos.' }
+    ]
+  },
+
+  'ex-11-2-8': {
+    id: 'ex-11-2-8',
+    type: 'fillblank',
+    title: 'Упражнение 8: Поставьте глаголы в соответствующую форму modo subjuntivo или modo indicativo',
+    description: 'Поставьте глагол в правильную форму',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Es extraño que vosotros no _____ (hacer) nada para ganar la apuesta.', correct: 'hagáis' },
+      { sentence: 'No es verdad que ellos lo _____ (saber) todo.', correct: 'sepan' },
+      { sentence: 'A la madre no le preocupa que su hijo no _____ (llamar) al consultorio.', correct: 'llame' },
+      { sentence: 'A la madre no le preocupa que su hijo no _____ (pedir) hora para mañana.', correct: 'pida' },
+      { sentence: 'Nos alegra que José y Ana _____ (casarse) pronto.', correct: 'se casen' },
+      { sentence: 'No dudamos que ellos _____ (ser) felices.', correct: 'serán' },
+      { sentence: 'Es evidente que Juan _____ (quererla) mucho.', correct: 'la quiere' },
+      { sentence: 'Es lógico que ellos _____ (tener) sueño todas las mañanas.', correct: 'tengan' },
+      { sentence: 'Siempre _____ (acostarse, ellos) muy tarde.', correct: 'se acuestan' },
+      { sentence: 'Es verdad que yo _____ (conocer) muy bien a Jorge.', correct: 'conozco' },
+      { sentence: 'No es natural que él _____ (comportarse) de esa manera.', correct: 'se comporte' },
+      { sentence: 'Es lástima que no _____ (verse, nosotros) este verano.', correct: 'nos veamos' },
+      { sentence: 'Me da rabia que _____ (tener, tú) que trabajar tanto.', correct: 'tengas' },
+      { sentence: 'Me da rabia que no _____ (poder, tú) ir de vacaciones.', correct: 'puedas' },
+      { sentence: 'Parece que el médico le _____ (dar) de alta.', correct: 'da' }
+    ]
+  },
+
+  'ex-11-2-9': {
+    id: 'ex-11-2-9',
+    type: 'translation',
+    title: 'Упражнение 9: Переведите на испанский язык',
+    description: 'Переведите предложения на испанский, используя Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Жаль, что этим летом мы не увидимся.', correct: 'Es una lástima que este verano no nos veamos.' },
+      { russian: 'Хорошо, что ты уже все знаешь.', correct: 'Es bueno que ya lo sepas todo.' },
+      { russian: 'Мне не нравится, что ты все время смеешься надо мной.', correct: 'No me gusta que te rías de mí todo el tiempo.' },
+      { russian: 'Неправда, что этот фильм интересный.', correct: 'No es verdad que esta película sea interesante.' },
+      { russian: 'Тебя возмущает, что продавец не может помочь тебе выбрать лыжи.', correct: 'Te indigna que el vendedor no pueda ayudarte a elegir los esquís.' },
+      { russian: 'Очевидно, что эта сумка подходит к твоим новым туфлям.', correct: 'Es evidente que este bolso va bien con tus zapatos nuevos.' },
+      { russian: 'Маловероятно, что он захочет сыграть со мной в теннис.', correct: 'Es poco probable que él quiera jugar al tenis conmigo.' },
+      { russian: 'Туристов удивляет, что в этом магазине нет сувениров.', correct: 'A los turistas les sorprende que en esta tienda no haya recuerdos.' },
+      { russian: 'Нам приятно, что персонал гостиницы такой внимательный.', correct: 'Nos es agradable que el personal del hotel sea tan atento.' },
+      { russian: 'Вас беспокоит, что ваш сын не занимается спортом.', correct: 'Les preocupa que su hijo no practique deporte.' },
+      { russian: 'Важно, чтобы вы пришли вовремя.', correct: 'Es importante que vengan a tiempo.' },
+      { russian: 'Странно, что она не отвечает на звонки.', correct: 'Es extraño que ella no conteste las llamadas.' },
+      { russian: 'Мне грустно, что ты уезжаешь.', correct: 'Me entristece que te vayas.' },
+      { russian: 'Невозможно, чтобы они уже закончили работу.', correct: 'Es imposible que ya hayan terminado el trabajo.' },
+      { russian: 'Естественно, что дети устали после экскурсии.', correct: 'Es natural que los niños estén cansados después de la excursión.' }
     ]
   }
 }
