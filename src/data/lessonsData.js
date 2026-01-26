@@ -7736,6 +7736,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Viaje a Colombia M6C1',
         videoUrl: '/Viaje a Colombia M6C1.mp4'
+      },
+      {
+        tab: 'Buena suerte, mala suerte',
+        videoUrl: '/video/Buena suerte, mala suerte_ Quién sabe.mp4'
       }
     ],
     grammar: {
@@ -9512,6 +9516,12 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'rehusar', translation: 'отклонить' },
       { word: 'rechazar', translation: 'отвергнуть' },
       { word: 'denegar', translation: 'отказать' }
+    ],
+    videoTabs: [
+      {
+        tab: 'Venta de acciones',
+        videoUrl: '/video/Venta de acciones M11C2.mp4'
+      }
     ],
     exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5', 'ex-11-2-6', 'ex-11-2-7', 'ex-11-2-8', 'ex-11-2-9']
   },
