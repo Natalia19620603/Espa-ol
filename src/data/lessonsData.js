@@ -6823,6 +6823,12 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
     id: 'lesson-4-4',
     title: 'Урок 4: Причастие. Pretérito Perfecto Compuesto',
     moduleId: 'module-4',
+    videoTabs: [
+      {
+        tab: 'La empresa es como una familia',
+        videoUrl: '/video/La empresa es como una familia M4C4.mp4'
+      }
+    ],
     grammar: {
       title: 'Причастие. Pretérito Perfecto Compuesto',
       intro: `В этом уроке мы изучим причастие (participio) и сложное прошедшее время Pretérito Perfecto Compuesto.`,
@@ -7740,6 +7746,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Buena suerte, mala suerte',
         videoUrl: '/video/Buena suerte, mala suerte_ Quién sabe.mp4'
+      },
+      {
+        tab: '10 puertas',
+        videoUrl: '/video/10 puertas.mp4'
       }
     ],
     grammar: {
@@ -8470,6 +8480,12 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     id: 'lesson-7-2',
     title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
     moduleId: 'module-7',
+    videoTabs: [
+      {
+        tab: 'Por qué se grita tanto',
+        videoUrl: '/video/Por qué se grita tanto.mp4'
+      }
+    ],
     vocabulary: [
       { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
       { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
@@ -11030,6 +11046,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-estas-resfriado',
         tab: 'Estas resfriado',
         videoUrl: '/video/Estas resfriado M10 C1.mp4'
+      },
+      {
+        id: 'video-mi-marido-ronca',
+        tab: 'Mi marido ronca',
+        videoUrl: '/video/Mi marido ronca.mp4'
       }
     ],
     grammar: {
@@ -15807,6 +15828,11 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
         id: 'video-por-que-venimos',
         tab: 'Por qué venimos aquí',
         videoUrl: '/video/Por que venimos aquí.mp4'
+      },
+      {
+        id: 'video-accidente-decision',
+        tab: 'Eres un accidente o una decisión de Dios',
+        videoUrl: '/video/Eres un accidente o una decisión de Dios.mp4'
       }
     ],
     readingText: {
