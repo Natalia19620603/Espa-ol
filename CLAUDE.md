@@ -25,34 +25,41 @@ npm run preview   # Preview production build locally
 │   ├── App.jsx               # Main router (9 routes)
 │   ├── App.css / index.css   # Global styles
 │   ├── components/           # Reusable components
-│   │   ├── ExerciseComponent.jsx    # Exercise runner (core component)
+│   │   ├── ExerciseComponent.jsx    # Exercise runner (~90KB, core component)
 │   │   ├── AudioPlayer.jsx          # Audio playback with controls
-│   │   ├── VideoPlayer.jsx          # Video player
-│   │   ├── PronunciationRecorder.jsx
-│   │   └── ErrorBoundary.jsx        # Error handling
-│   ├── pages/                # Page components
+│   │   ├── VideoPlayer.jsx          # Video player (~11KB)
+│   │   ├── PronunciationRecorder.jsx # Recording for pronunciation (~9KB)
+│   │   └── ErrorBoundary.jsx        # Error handling (class component)
+│   ├── pages/                # Page components (each has .module.css)
 │   │   ├── HomePage.jsx
 │   │   ├── LoginPage.jsx
 │   │   ├── RegisterPage.jsx
 │   │   ├── CoursesPage.jsx          # Course dashboard
 │   │   ├── ModulePage.jsx           # Module lessons list
-│   │   ├── LessonPage.jsx           # Main lesson content view
-│   │   ├── ListeningPage.jsx
+│   │   ├── LessonPage.jsx           # Main lesson content view (~45KB)
+│   │   ├── ListeningPage.jsx        # Listening exercises (~13KB)
 │   │   ├── ProfilePage.jsx
 │   │   └── DebugPage.jsx
 │   ├── data/
-│   │   └── lessonsData.js    # ALL course content (~2.5MB, 37K lines)
+│   │   └── lessonsData.js    # ALL course content (~2.5MB, ~37K lines)
 │   └── assets/
 ├── public/
-│   ├── audio/                # Audio files for lessons
+│   ├── audio/                # Audio files (includes nested module subdirs)
 │   ├── images/               # Images
-│   └── video/                # Video files
+│   └── video/                # Video files (100+ MP4s)
 ├── .github/workflows/
 │   └── vercel-auto-deploy.yml  # CI/CD pipeline
+├── Tooling (root):
+│   ├── analyze_correct_answers.py   # Exercise answer distribution analysis
+│   ├── analyze_detailed.py          # Detailed exercise analysis
+│   ├── fix_correct_answers.py       # Fix answer distribution issues
+│   ├── correct_answers_analysis_report.md
+│   └── exercises_with_patterns.csv
 └── Configuration:
     ├── package.json
     ├── vite.config.js
-    └── vercel.json
+    ├── vercel.json
+    └── .vercel-trigger         # Auto-updated by CI/CD for deployment
 ```
 
 ## Application Routes
@@ -75,13 +82,14 @@ npm run preview   # Preview production build locally
 
 ```
 courseLevels (A1, A2, B1)
-  └── modules (12 modules)
-       └── lessons (27+ lessons)
+  └── modules (12 modules, IDs: module-1 through module-11 + module-17)
+       └── lessons (47 lessons)
             ├── grammar: { title, intro, sections }
             ├── vocabulary: { tabs: [{ title, words }] }
             ├── readingText: { text, translation }
             ├── exercises: ['ex-1-1-1', ...]
-            └── videos: [{ title, url, description }]
+            ├── videos: [{ title, url, description }]
+            └── (725 exercises total across all lessons)
 ```
 
 ### Key Exports from `lessonsData.js`
@@ -187,9 +195,11 @@ exercises: {
 
 | File | Purpose | Size |
 |------|---------|------|
-| `src/data/lessonsData.js` | All course content | ~2.5MB |
-| `src/components/ExerciseComponent.jsx` | Exercise runner | ~100KB |
-| `src/pages/LessonPage.jsx` | Lesson display | Large |
+| `src/data/lessonsData.js` | All course content | ~2.5MB, ~37K lines |
+| `src/components/ExerciseComponent.jsx` | Exercise runner | ~90KB |
+| `src/pages/LessonPage.jsx` | Lesson display | ~45KB |
+| `src/pages/ListeningPage.jsx` | Listening exercises | ~13KB |
+| `src/components/VideoPlayer.jsx` | Video player | ~11KB |
 
 ## Known Considerations
 
@@ -199,9 +209,14 @@ exercises: {
 - When editing, use search to find specific lesson/exercise IDs
 
 ### Exercise Design
-- Analysis tools available: `analyze_correct_answers.py`, `fix_correct_answers.py`
-- Some exercises have answer distribution issues (documented in `correct_answers_analysis_report.md`)
+- Analysis tools available: `analyze_correct_answers.py`, `analyze_detailed.py`, `fix_correct_answers.py`
+- Analysis output: `correct_answers_analysis_report.md`, `exercises_with_patterns.csv`
+- Some exercises have answer distribution issues (documented in the report)
 - When adding exercises, vary correct answer positions
+
+### Module ID Gaps
+- Module IDs are not sequential: module-1 through module-11 exist, then module-17
+- Module IDs 12-16 are unused — do not assume sequential numbering
 
 ### No Backend
 - All auth is simulated via localStorage
