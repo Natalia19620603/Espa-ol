@@ -7934,9 +7934,11 @@ Ana: Yo también. Será un viaje inolvidable.
       { word: 'violeta (f)', translation: 'фиалка / фиолетовый', audioUrl: null },
       { word: 'lila (f)', translation: 'сирень / сиреневый', audioUrl: null }
     ],
-    readingText: {
-      title: 'Un día de compras',
-      content: `El sábado pasado fui de compras al centro comercial con mi hermana Laura. Salimos de casa a las diez de la mañana y llegamos al centro en media hora.
+    readingText: [
+      {
+        tab: 'Un día de compras',
+        title: 'Un día de compras',
+        content: `El sábado pasado fui de compras al centro comercial con mi hermana Laura. Salimos de casa a las diez de la mañana y llegamos al centro en media hora.
 
 Primero, entramos en una tienda de ropa. Laura se probó varios vestidos, pero no le gustó ninguno. Yo encontré una chaqueta negra muy bonita. El vendedor me explicó que había un descuento del 30%. ¡Qué suerte! Pagué solo 50 euros por la chaqueta.
 
@@ -7949,7 +7951,7 @@ Por la tarde, visitamos una librería. Yo compré dos libros que quería leer ha
 Antes de irnos, paramos en un supermercado. Compramos algunos productos para casa: leche, pan, frutas y verduras. Yo pagué con tarjeta, pero Laura pagó en efectivo.
 
 Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85 euros en total y Laura gastó 95 euros. Llegamos cansadas pero contentas con nuestras compras.`,
-      translation: `В прошлую субботу я ходила за покупками в торговый центр с моей сестрой Лаурой. Мы вышли из дома в десять утра и добрались до центра за полчаса.
+        translation: `В прошлую субботу я ходила за покупками в торговый центр с моей сестрой Лаурой. Мы вышли из дома в десять утра и добрались до центра за полчаса.
 
 Сначала мы зашли в магазин одежды. Лаура примерила несколько платьев, но ей не понравилось ни одно. Я нашла очень красивую черную куртку. Продавец объяснил мне, что была скидка 30%. Какая удача! Я заплатила всего 50 евро за куртку.
 
@@ -7962,7 +7964,36 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
 Перед тем как уйти, мы зашли в супермаркет. Купили несколько продуктов для дома: молоко, хлеб, фрукты и овощи. Я заплатила картой, а Лаура наличными.
 
 Мы вернулись домой в шесть вечера. Это был очень продуктивный день. Я потратила в общей сложности 85 евро, а Лаура 95 евро. Мы приехали уставшими, но довольными нашими покупками.`
-    },
+      },
+      {
+        tab: 'La hierba es azul',
+        title: 'La hierba es azul',
+        content: `El burro le dijo al tigre: "La hierba es azul". El tigre le respondió: "No, la hierba es verde". La conversación subió de tono y los dos decidieron ir a ver al León, el Rey de la jungla, para que él decidiera.
+
+El burro empezó a gritar: "¡Su Majestad! ¿Es cierto que la hierba es azul?". Y el Rey respondió: "Sí, la hierba es azul". El burro continuó y dijo: "Ese tigre no está de acuerdo conmigo y me molesta; por favor, castíguele". Y el Rey declaró: "El tigre será castigado con cinco años de silencio".
+
+El burro salió corriendo contento por su victoria. El tigre aceptó su castigo, pero antes de irse le preguntó al León: "Su Majestad, ¿por qué me ha castigado? La hierba es verde". El León le respondió: "Ya sé que la hierba es verde". El tigre preguntó de nuevo: "Entonces, ¿por qué me castiga?".
+
+El León respondió: "Tu castigo no tiene nada que ver con el color de la hierba. El castigo es porque no tolero que un animal valiente e inteligente como tú pierda tiempo discutiendo con un burro y, además, venga a molestarme con estos temas sin importancia".
+
+Moraleja: La peor pérdida de tiempo es discutir con el tonto al que no le importa la verdad. No pierdas tu tiempo con ellos.`,
+        translation: null
+      },
+      {
+        tab: '10 puertas',
+        title: '10 puertas',
+        content: `Escucha esta:
+
+Un hombre entró en una habitación con decenas de puertas. Cada puerta prometía algo distinto: amor, fama, paz, poder, dinero, salud. Y una voz resonó y le dijo: "Puedes abrir la que quieras, pero cuando elijas no podrás volver atrás".
+
+Y ahí el hombre pensó: "M, ¿y si elijo mal?". Entonces se sentó a pensar. Pasaron horas, días, semanas, meses, años. No abrió ninguna puerta. La voz volvió y susurró: "El tiempo ha terminado".
+
+El hombre, sorprendido, enfadado, gritó: "Pero no he elegido". Y la voz respondió: "Sí, elegiste. Elegiste el miedo". Y las puertas desaparecieron. Y lo único que quedó fue el arrepentimiento.
+
+La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida te cierra una puerta.`,
+        translation: null
+      }
+    ],
     exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
   },
 
@@ -15827,11 +15858,6 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
         id: 'video-rey-sabio',
         tab: 'El Rey, el Sabio y el Ajedrez',
         videoUrl: '/video/El Rey, el Sabio y el Ajedrez.mp4'
-      },
-      {
-        id: 'video-por-que-venimos',
-        tab: 'Por qué venimos aquí',
-        videoUrl: '/video/Por que venimos aquí.mp4'
       },
       {
         id: 'video-accidente-decision',
