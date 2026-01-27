@@ -5013,6 +5013,10 @@ María: ¡Vamos!`,
             videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 4.mp4'
           }
         ]
+      },
+      {
+        tab: 'Le gusta la sopa',
+        videoUrl: '/video/Le gusta  la sopa M3C4.mp4'
       }
     ],
     grammar: {
