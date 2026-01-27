@@ -1434,6 +1434,10 @@ Objeto + está + preposición + del/de la + lugar.
       {
         tab: 'Видео 2',
         videoUrl: '/video/Profesiones. Nivel A1 M1 4.mp4'
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        videoUrl: '/video/plan de expulsion de inmigrantes M1C4.mp4'
       }
     ],
     grammar: {
@@ -2590,9 +2594,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       'ex-2-2-tener-conjugation-new',
       'ex-2-2-oir-conjugation-new',
       'ex-2-2-tener-expressions',
-      'ex-2-2-ir-infinitive-new',
       'ex-2-2-ir-prepositions-new',
-      'ex-2-2-tener-que',
       'ex-2-2-mixed-verbs',
       'ex-2-2-tener-fillblank',
       'ex-2-2-vocab-expressions',
@@ -3289,10 +3291,6 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: 'УПРАЖНЕНИЯ 1',
         exerciseIds: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
-      },
-      {
-        tab: 'УПРАЖНЕНИЯ 2',
-        exerciseIds: ['ex-2-2-4', 'ex-2-2-5', 'ex-2-2-6', 'ex-2-2-7', 'ex-2-2-8', 'ex-2-2-9', 'ex-2-2-10', 'ex-2-2-11', 'ex-2-2-12', 'ex-2-2-13', 'ex-2-2-14', 'ex-2-2-15']
       }
     ]
   },
@@ -26200,14 +26198,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильное наречие места (ESTE=aquí, ESE=ahí, AQUEL=allí)',
     showCorrectAnswer: true,
     questions: [
-      { sentence: '___ está mi casa (ESTE - близко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
-      { sentence: 'Mi familia vive ___ (ESTE - близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
-      { sentence: '___ vive mi abuela (AQUEL - далеко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 2 },
-      { sentence: 'Mis abuelos viven ___ (AQUEL - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: '___ está mi casa (близко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
+      { sentence: 'Mi familia vive ___ (близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: '___ vive mi abuela (далеко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 2 },
+      { sentence: 'Mis abuelos viven ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
       { sentence: 'Este libro está ___ (близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
       { sentence: 'Ese coche está ___ (на расстоянии)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
       { sentence: 'Aquel edificio está ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
-      { sentence: '¿Está tu padre ___ ? (ESE - там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: '¿Está tu padre ___ ? (там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
       { sentence: 'Esos hermanos viven ___ (на расстоянии)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
       { sentence: 'Aquellos primos están ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 }
     ]
