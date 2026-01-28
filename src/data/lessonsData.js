@@ -16792,21 +16792,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Verdadero o Falso - Plan de expulsión de inmigrantes',
     description: 'Lee el texto y decide si las frases son verdaderas (V) o falsas (F)',
     questions: [
-      { text: 'El plan es echar a todos los inmigrantes sin excepciones.', options: ['Verdadero', 'Falso'], correct: 1 },
-      { text: 'Quieren que se queden los inmigrantes que cuidan de los ancianos.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los camareros deben irse del país.', options: ['Verdadero', 'Falso'], correct: 1 },
-      { text: 'Una persona menciona que tiene un restaurante.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los que trabajan en hostelería deben quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los que trabajan en el campo deben irse.', options: ['Verdadero', 'Falso'], correct: 1 },
-      { text: 'Mencionan que si no hay inmigrantes que cotizan, nadie pagará las pensiones.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los abogados, médicos y maestros deben irse.', options: ['Verdadero', 'Falso'], correct: 1 },
-      { text: 'Los futbolistas pueden quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los jeques árabes deben irse según el plan.', options: ['Verdadero', 'Falso'], correct: 1 },
-      { text: 'Mencionan a los trabajadores de la construcción.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los que trabajan en B se quedan porque les pagan menos.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Los profesores de bachata deben quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
-      { text: 'Al final, el plan implica echar a casi todos los inmigrantes.', options: ['Verdadero', 'Falso'], correct: 1 },
-      { text: 'El texto muestra la contradicción entre querer echar a los inmigrantes pero necesitarlos.', options: ['Verdadero', 'Falso'], correct: 0 }
+      { question: 'El plan es echar a todos los inmigrantes sin excepciones.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Quieren que se queden los inmigrantes que cuidan de los ancianos.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los camareros deben irse del país.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Una persona menciona que tiene un restaurante.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los que trabajan en hostelería deben quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los que trabajan en el campo deben irse.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Mencionan que si no hay inmigrantes que cotizan, nadie pagará las pensiones.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los abogados, médicos y maestros deben irse.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Los futbolistas pueden quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los jeques árabes deben irse según el plan.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Mencionan a los trabajadores de la construcción.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los que trabajan en B se quedan porque les pagan menos.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los profesores de bachata deben quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Al final, el plan implica echar a casi todos los inmigrantes.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El texto muestra la contradicción entre querer echar a los inmigrantes pero necesitarlos.', options: ['Verdadero', 'Falso'], correct: 0 }
     ]
   },
   'ex-1-4-inm-2': {
@@ -19607,7 +19607,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-6-1-7': {
     id: 'ex-6-1-7',
-    type: 'fill',
+    type: 'fillblank',
     title: 'Vocabulario: Completa los espacios',
     description: 'Banco de palabras: burro, hierba, responder, conversación, decidir, rey, jungla, gritar, cierto, continuar, acuerdo, molestar, castigar, silencio, contento',
     questions: [
@@ -19631,7 +19631,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-6-1-8': {
     id: 'ex-6-1-8',
-    type: 'fill',
+    type: 'fillblank',
     title: 'Comprensión: Preguntas de la historia',
     description: 'Completa las respuestas sobre la historia "La hierba es azul"',
     questions: [
