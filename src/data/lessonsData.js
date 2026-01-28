@@ -1597,10 +1597,27 @@ Objeto + está + preposición + del/de la + lugar.
           { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null },
         ]
       },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        words: [
+          { word: 'aportar', translation: 'вносить вклад', audioUrl: null },
+          { word: 'cuidar', translation: 'заботиться, ухаживать', audioUrl: null },
+          { word: 'el anciano', translation: 'старик, старец', audioUrl: null },
+          { word: 'fuera', translation: 'вон, снаружи', audioUrl: null },
+          { word: 'la hostelería', translation: 'гостиничное дело', audioUrl: null },
+          { word: 'mencionar', translation: 'упоминать, отмечать', audioUrl: null },
+          { word: 'cotizar', translation: 'платить налоги', audioUrl: null },
+          { word: 'el jeque', translation: 'шейх', audioUrl: null },
+          { word: 'trabajar en B', translation: 'работающие в "черную" "серую"', audioUrl: null },
+          { word: 'la bachata', translation: 'бачата', audioUrl: null },
+        ]
+      },
     ],
-    readingText: {
-      title: 'Diálogos - Профессии и национальности',
-      content: `**Диалог 1: В кафе**
+    readingTabs: [
+      {
+        tab: 'Diálogos - Профессии',
+        title: 'Diálogos - Профессии и национальности',
+        content: `**Диалог 1: В кафе**
 
 — Hola, buenos días. ¿Cómo te llamas?
 — Me llamo Elena. Soy de Rusia, soy rusa. ¿Y tú?
@@ -1645,7 +1662,7 @@ Objeto + está + preposición + del/de la + lugar.
 — No, es médico. Es alto y guapo.
 — ¿Y tu hermana?
 — Mi hermana es profesora. Es joven y alegre.`,
-      translation: `**Диалог 1: В кафе**
+        translation: `**Диалог 1: В кафе**
 
 — Привет, доброе утро. Как тебя зовут?
 — Меня зовут Елена. Я из России, я русская. А ты?
@@ -1708,9 +1725,43 @@ Objeto + está + preposición + del/de la + lugar.
 **Papá:** Pues… ¿En la mesita?
 **Mamá:** Mmm… No, no está.
 **Papá:** Ah, mira tus gafas están debajo del sillón.
-**Mamá:** Oh, gracias. Y el ordenador está al lado de la librería.`
-    },
-    exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
+**Mamá:** Oh, gracias. Y el ordenador está al lado de la librería.`,
+        audioUrl: null
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        title: 'Plan de expulsión de inmigrantes',
+        content: `...concretar cuanto antes el plan de expulsión de los inmigrantes. Eso que hay demasiados extranjeros, hombre, y que no aportan nada. Sí, sí. Que se vayan, que se vayan a su país. De acuerdo. Entonces, el plan es echarlos a todos. A todos, a todos. A todos. Bueno, espérate. A la chica que cuida a mis padres, la colombiana, ¿no? Que a ver qué hago.
+
+Ahí va Osar. Es verdad, me pasa lo mismo con los míos. Es decir, los inmigrantes que cuidan de los ancianos que se queden. Esos que se queden, pero todos los demás fuera. Y los camareros es que tengo un restaurante y claro, si se van me quedo sin personal. Y los que trabajan en la hostelería que se queden, que se queden también, pero todos los demás fuera, fuera, fuera, fuera. Yo dejaría también a los que trabajan en el campo, ¿eh?
+
+Es que eso ni se menciona, trabajan en el campo que se queden y se queden. Eso que se queden. Trabajan en el campo y que se queden además la mano la que te lo va pidiendo. Que se queden. Eso que se queden. Perfecto. Di que sí. Di que sí. Pero yo dejaría los que cotizan, ¿no? Sí. Si no, ¿quién va a pagar las pensiones? Los que cotizan que se queden. Se queden. Pero todos los demás, todos los demás fuera fuera. Fuera.
+
+Y abogados médicos y maestros. Que se queden. Eso es que se queden los otros, los que no tienen para comprarse una casa. Fuera. Y los futbolistas esos que se queden, que se queden, pero todos los demás fuera. ¿Los jeques árabes? No, hombre, no. Eso no. Está feo. ¿Y lo de la construcción?
+
+Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. Todos fuera, todos, todos, todos, menos los que cuidan a los mayores, los que cotizan, los que trabajan en hostelería, los que están en la construcción, los futbolistas, los que trabajan en B y así les pagamos menos, los que trabajan en el campo, los que montan restaurantes baratos con comida que está muy rica, los profesores de bachata. Perdone. Esto significa que no va a echar a nadie, ¿no? ¿Te has dado cuenta tú también?`,
+        translation: `...конкретизировать как можно скорее план депортации иммигрантов. Говорят, что слишком много иностранцев, и они ничего не вносят. Да, да. Пусть уезжают, пусть едут в свою страну. Договорились. Итак, план - выгнать их всех. Всех, всех. Всех. Ну подожди. А как быть с девушкой, которая ухаживает за моими родителями, колумбийкой, да? Что мне с ней делать.
+
+Вот это да. Это правда, у меня та же проблема с моими. То есть, иммигранты, которые ухаживают за стариками, пусть остаются. Эти пусть остаются, но все остальные - вон. А официанты - у меня есть ресторан, и если они уедут, я останусь без персонала. И те, кто работают в гостиничном бизнесе, пусть остаются, пусть остаются тоже, но все остальные - вон, вон, вон, вон. Я бы ещё оставил тех, кто работает в поле, да?
+
+Это само собой разумеется, работающие в поле пусть остаются и остаются. Да, пусть остаются. Работающие в поле, и пусть остаются, тем более рабочая сила такая нужная. Пусть остаются. Да, пусть остаются. Отлично. Согласен. Согласен. Но я бы ещё оставил тех, кто платит налоги, да? Да. А иначе, кто будет платить пенсии? Те, кто платят налоги, пусть остаются. Остаются. Но все остальные, все остальные - вон, вон. Вон.
+
+А адвокаты, врачи и учителя. Пусть остаются. Да, пусть остаются. Другие, те, у кого нет денег на покупку дома. Вон. А футболисты, эти пусть остаются, пусть остаются, но все остальные - вон. А арабские шейхи? Нет, нет. Это нехорошо. А что со строительством?
+
+И как я говорил, у нас уже готов наш план по иммиграции. Все вон, все, все, все, кроме тех, кто ухаживает за пожилыми, тех, кто платит налоги, тех, кто работает в гостиничном бизнесе, тех, кто в строительстве, футболистов, тех, кто работает в "чёрную", чтобы мы им платили меньше, тех, кто работает в поле, тех, кто открывает недорогие рестораны с очень вкусной едой, учителей бачаты. Простите. Это означает, что вы никого не выгоните, не так ли? Ты тоже это заметил?`,
+        audioUrl: null
+      }
+    ],
+    exercises: [
+      {
+        tab: 'Profesiones y Nacionalidades',
+        exerciseIds: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        exerciseIds: ['ex-1-4-inm-1', 'ex-1-4-inm-2', 'ex-1-4-inm-3', 'ex-1-4-inm-4']
+      }
+    ]
   },
 
   'lesson-1-5': {
@@ -7870,67 +7921,103 @@ Ana: Yo también. Será un viaje inolvidable.
       ]
     },
     vocabulary: [
-      { word: 'tienda', translation: 'магазин', audioUrl: null },
-      { word: 'centro comercial', translation: 'торговый центр', audioUrl: null },
-      { word: 'comprar', translation: 'покупать', audioUrl: null },
-      { word: 'vender', translation: 'продавать', audioUrl: null },
-      { word: 'precio', translation: 'цена', audioUrl: null },
-      { word: 'descuento', translation: 'скидка', audioUrl: null },
-      { word: 'rebaja', translation: 'распродажа', audioUrl: null },
-      { word: 'pagar', translation: 'платить', audioUrl: null },
-      { word: 'cliente', translation: 'клиент', audioUrl: null },
-      { word: 'vendedor/a', translation: 'продавец', audioUrl: null },
-      { word: 'probarse', translation: 'примерять', audioUrl: null },
-      { word: 'talla', translation: 'размер (одежды)', audioUrl: null },
-      { word: 'número', translation: 'размер (обуви)', audioUrl: null },
-      { word: 'caro/a', translation: 'дорогой/ая', audioUrl: null },
-      { word: 'barato/a', translation: 'дешевый/ая', audioUrl: null },
-      { word: 'ayer', translation: 'вчера', audioUrl: null },
-      { word: 'anoche', translation: 'вчера вечером', audioUrl: null },
-      { word: 'el año pasado', translation: 'в прошлом году', audioUrl: null },
-      { word: 'ropa (f)', translation: 'одежда', audioUrl: null },
-      { word: 'calzado (m)', translation: 'обувь', audioUrl: null },
-      { word: 'blusa (f)', translation: 'блузка', audioUrl: null },
-      { word: 'falda (f)', translation: 'юбка', audioUrl: null },
-      { word: 'vestido (m)', translation: 'платье', audioUrl: null },
-      { word: 'traje (m)', translation: 'костюм', audioUrl: null },
-      { word: 'pantalón (m)', translation: 'брюки', audioUrl: null },
-      { word: 'vaqueros (m pl)', translation: 'джинсы', audioUrl: null },
-      { word: 'chaqueta (f)', translation: 'пиджак/кофта', audioUrl: null },
-      { word: 'jersey (m)', translation: 'свитер', audioUrl: null },
-      { word: 'camisa (f)', translation: 'сорочка / рубашка', audioUrl: null },
-      { word: 'camiseta (f)', translation: 'футболка', audioUrl: null },
-      { word: 'calcetines (m pl)', translation: 'носки', audioUrl: null },
-      { word: 'medias (f pl)', translation: 'чулки', audioUrl: null },
-      { word: 'pantys (m pl)', translation: 'колготы', audioUrl: null },
-      { word: 'bañador (m)', translation: 'купальник', audioUrl: null },
-      { word: 'pijama (m)', translation: 'пижама', audioUrl: null },
-      { word: 'bufanda (f)', translation: 'шарф', audioUrl: null },
-      { word: 'abrigo (m)', translation: 'пальто', audioUrl: null },
-      { word: 'gabardina (f)', translation: 'плащ', audioUrl: null },
-      { word: 'cazadora (f)', translation: 'куртка', audioUrl: null },
-      { word: 'sombrero (m)', translation: 'шляпа', audioUrl: null },
-      { word: 'corbata (f)', translation: 'галстук', audioUrl: null },
-      { word: 'guantes (m pl)', translation: 'перчатки', audioUrl: null },
-      { word: 'zapatos (m pl)', translation: 'туфли', audioUrl: null },
-      { word: 'botas (f pl)', translation: 'сапоги', audioUrl: null },
-      { word: 'zapatillas (f pl)', translation: 'тапки', audioUrl: null },
-      { word: 'sandalias (f pl)', translation: 'босоножки', audioUrl: null },
-      { word: 'color (m)', translation: 'цвет', audioUrl: null },
-      { word: 'blanco', translation: 'белый', audioUrl: null },
-      { word: 'negro', translation: 'черный', audioUrl: null },
-      { word: 'rojo', translation: 'красный', audioUrl: null },
-      { word: 'verde', translation: 'зеленый', audioUrl: null },
-      { word: 'azul', translation: 'синий', audioUrl: null },
-      { word: 'amarillo', translation: 'желтый', audioUrl: null },
-      { word: 'gris', translation: 'серый', audioUrl: null },
-      { word: 'marrón', translation: 'коричневый', audioUrl: null },
-      { word: 'rosa (f)', translation: 'роза / розовый', audioUrl: null },
-      { word: 'granate (m)', translation: 'гранат (камень) / бордовый', audioUrl: null },
-      { word: 'oliva (f)', translation: 'оливка / оливковый', audioUrl: null },
-      { word: 'naranja (f)', translation: 'апельсин / оранжевый', audioUrl: null },
-      { word: 'violeta (f)', translation: 'фиалка / фиолетовый', audioUrl: null },
-      { word: 'lila (f)', translation: 'сирень / сиреневый', audioUrl: null }
+      {
+        tab: 'De compras',
+        words: [
+          { word: 'tienda', translation: 'магазин', audioUrl: null },
+          { word: 'centro comercial', translation: 'торговый центр', audioUrl: null },
+          { word: 'comprar', translation: 'покупать', audioUrl: null },
+          { word: 'vender', translation: 'продавать', audioUrl: null },
+          { word: 'precio', translation: 'цена', audioUrl: null },
+          { word: 'descuento', translation: 'скидка', audioUrl: null },
+          { word: 'rebaja', translation: 'распродажа', audioUrl: null },
+          { word: 'pagar', translation: 'платить', audioUrl: null },
+          { word: 'cliente', translation: 'клиент', audioUrl: null },
+          { word: 'vendedor/a', translation: 'продавец', audioUrl: null },
+          { word: 'probarse', translation: 'примерять', audioUrl: null },
+          { word: 'talla', translation: 'размер (одежды)', audioUrl: null },
+          { word: 'número', translation: 'размер (обуви)', audioUrl: null },
+          { word: 'caro/a', translation: 'дорогой/ая', audioUrl: null },
+          { word: 'barato/a', translation: 'дешевый/ая', audioUrl: null },
+          { word: 'ayer', translation: 'вчера', audioUrl: null },
+          { word: 'anoche', translation: 'вчера вечером', audioUrl: null },
+          { word: 'el año pasado', translation: 'в прошлом году', audioUrl: null },
+          { word: 'ropa (f)', translation: 'одежда', audioUrl: null },
+          { word: 'calzado (m)', translation: 'обувь', audioUrl: null },
+          { word: 'blusa (f)', translation: 'блузка', audioUrl: null },
+          { word: 'falda (f)', translation: 'юбка', audioUrl: null },
+          { word: 'vestido (m)', translation: 'платье', audioUrl: null },
+          { word: 'traje (m)', translation: 'костюм', audioUrl: null },
+          { word: 'pantalón (m)', translation: 'брюки', audioUrl: null },
+          { word: 'vaqueros (m pl)', translation: 'джинсы', audioUrl: null },
+          { word: 'chaqueta (f)', translation: 'пиджак/кофта', audioUrl: null },
+          { word: 'jersey (m)', translation: 'свитер', audioUrl: null },
+          { word: 'camisa (f)', translation: 'сорочка / рубашка', audioUrl: null },
+          { word: 'camiseta (f)', translation: 'футболка', audioUrl: null },
+          { word: 'calcetines (m pl)', translation: 'носки', audioUrl: null },
+          { word: 'medias (f pl)', translation: 'чулки', audioUrl: null },
+          { word: 'pantys (m pl)', translation: 'колготы', audioUrl: null },
+          { word: 'bañador (m)', translation: 'купальник', audioUrl: null },
+          { word: 'pijama (m)', translation: 'пижама', audioUrl: null },
+          { word: 'bufanda (f)', translation: 'шарф', audioUrl: null },
+          { word: 'abrigo (m)', translation: 'пальто', audioUrl: null },
+          { word: 'gabardina (f)', translation: 'плащ', audioUrl: null },
+          { word: 'cazadora (f)', translation: 'куртка', audioUrl: null },
+          { word: 'sombrero (m)', translation: 'шляпа', audioUrl: null },
+          { word: 'corbata (f)', translation: 'галстук', audioUrl: null },
+          { word: 'guantes (m pl)', translation: 'перчатки', audioUrl: null },
+          { word: 'zapatos (m pl)', translation: 'туфли', audioUrl: null },
+          { word: 'botas (f pl)', translation: 'сапоги', audioUrl: null },
+          { word: 'zapatillas (f pl)', translation: 'тапки', audioUrl: null },
+          { word: 'sandalias (f pl)', translation: 'босоножки', audioUrl: null },
+          { word: 'color (m)', translation: 'цвет', audioUrl: null },
+          { word: 'blanco', translation: 'белый', audioUrl: null },
+          { word: 'negro', translation: 'черный', audioUrl: null },
+          { word: 'rojo', translation: 'красный', audioUrl: null },
+          { word: 'verde', translation: 'зеленый', audioUrl: null },
+          { word: 'azul', translation: 'синий', audioUrl: null },
+          { word: 'amarillo', translation: 'желтый', audioUrl: null },
+          { word: 'gris', translation: 'серый', audioUrl: null },
+          { word: 'marrón', translation: 'коричневый', audioUrl: null },
+          { word: 'rosa (f)', translation: 'роза / розовый', audioUrl: null },
+          { word: 'granate (m)', translation: 'гранат (камень) / бордовый', audioUrl: null },
+          { word: 'oliva (f)', translation: 'оливка / оливковый', audioUrl: null },
+          { word: 'naranja (f)', translation: 'апельсин / оранжевый', audioUrl: null },
+          { word: 'violeta (f)', translation: 'фиалка / фиолетовый', audioUrl: null },
+          { word: 'lila (f)', translation: 'сирень / сиреневый', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'La hierba es azul',
+        words: [
+          { word: 'el burro', translation: 'осел', audioUrl: null },
+          { word: 'la hierba', translation: 'трава', audioUrl: null },
+          { word: 'responder', translation: 'отвечать/ответить', audioUrl: null },
+          { word: 'la conversación', translation: 'беседа, разговор', audioUrl: null },
+          { word: 'subir de tono', translation: 'на повышенных тонах', audioUrl: null },
+          { word: 'decidir', translation: 'решать, принимать решение', audioUrl: null },
+          { word: 'el rey', translation: 'король, царь', audioUrl: null },
+          { word: 'la jungla', translation: 'джунгли', audioUrl: null },
+          { word: 'empezar', translation: 'начинать', audioUrl: null },
+          { word: 'gritar', translation: 'кричать, орать', audioUrl: null },
+          { word: 'la majestad', translation: 'величество', audioUrl: null },
+          { word: 'es cierto', translation: 'Это правда', audioUrl: null },
+          { word: 'continuar', translation: 'продолжать', audioUrl: null },
+          { word: 'no estar de acuerdo con', translation: 'не быть согласным с', audioUrl: null },
+          { word: 'molestar', translation: 'мешать, беспокоить', audioUrl: null },
+          { word: 'castigar', translation: 'наказывать', audioUrl: null },
+          { word: 'el silencio', translation: 'молчание, тишина', audioUrl: null },
+          { word: 'contento', translation: 'довольный, радостный', audioUrl: null },
+          { word: 'aceptar', translation: 'принимать, соглашаться', audioUrl: null },
+          { word: 'no tener nada que ver', translation: 'не иметь никакого отношения', audioUrl: null },
+          { word: 'tolerar', translation: 'терпеть, выносить', audioUrl: null },
+          { word: 'valiente', translation: 'храбрый, смелый', audioUrl: null },
+          { word: 'perder', translation: 'терять, проигрывать', audioUrl: null },
+          { word: 'el tonto', translation: 'дурак, глупец', audioUrl: null },
+          { word: 'tener razón', translation: 'быть правым, иметь смысл', audioUrl: null },
+          { word: 'el resentimiento', translation: 'обида, досада', audioUrl: null }
+        ]
+      }
     ],
     readingText: [
       {
@@ -7992,7 +8079,20 @@ La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida 
         translation: null
       }
     ],
-    exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5', 'ex-6-1-6']
+    exercises: [
+      {
+        tab: 'De compras',
+        exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
+      },
+      {
+        tab: '10 puertas',
+        exercises: ['ex-6-1-6']
+      },
+      {
+        tab: 'La hierba es azul',
+        exercises: ['ex-6-1-7', 'ex-6-1-8', 'ex-6-1-9', 'ex-6-1-10']
+      }
+    ]
   },
 
   'lesson-6-2': {
@@ -16685,6 +16785,100 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     ]
   },
 
+  // Упражнения для вкладки "Plan de expulsión de inmigrantes"
+  'ex-1-4-inm-1': {
+    id: 'ex-1-4-inm-1',
+    type: 'truefalse',
+    title: 'Verdadero o Falso - Plan de expulsión de inmigrantes',
+    description: 'Lee el texto y decide si las frases son verdaderas (V) o falsas (F)',
+    questions: [
+      { statement: 'El plan es echar a todos los inmigrantes sin excepciones.', correct: false },
+      { statement: 'Quieren que se queden los inmigrantes que cuidan de los ancianos.', correct: true },
+      { statement: 'Los camareros deben irse del país.', correct: false },
+      { statement: 'Una persona menciona que tiene un restaurante.', correct: true },
+      { statement: 'Los que trabajan en hostelería deben quedarse.', correct: true },
+      { statement: 'Los que trabajan en el campo deben irse.', correct: false },
+      { statement: 'Mencionan que si no hay inmigrantes que cotizan, nadie pagará las pensiones.', correct: true },
+      { statement: 'Los abogados, médicos y maestros deben irse.', correct: false },
+      { statement: 'Los futbolistas pueden quedarse.', correct: true },
+      { statement: 'Los jeques árabes deben irse según el plan.', correct: false },
+      { statement: 'Mencionan a los trabajadores de la construcción.', correct: true },
+      { statement: 'Los que trabajan en B se quedan porque les pagan menos.', correct: true },
+      { statement: 'Los profesores de bachata deben quedarse.', correct: true },
+      { statement: 'Al final, el plan implica echar a casi todos los inmigrantes.', correct: false },
+      { statement: 'El texto muestra la contradicción entre querer echar a los inmigrantes pero necesitarlos.', correct: true }
+    ]
+  },
+  'ex-1-4-inm-2': {
+    id: 'ex-1-4-inm-2',
+    type: 'fillblank',
+    title: 'Vocabulario - Plan de expulsión de inmigrantes',
+    description: 'Completa las frases con las palabras del vocabulario (aportar, cuidar, anciano, fuera, hostelería, mencionar, cotizar, jeque, trabajar en B, bachata)',
+    questions: [
+      { sentence: 'Los inmigrantes no _____ nada, dicen algunas personas.', correct: 'aportan', alternatives: [] },
+      { sentence: 'La chica colombiana _____ a mis padres.', correct: 'cuida', alternatives: [] },
+      { sentence: 'Los inmigrantes que cuidan de los _____ que se queden.', correct: 'ancianos', alternatives: [] },
+      { sentence: 'Todos los demás _____, _____, _____.', correct: 'fuera', alternatives: [] },
+      { sentence: 'Los que trabajan en la _____ que se queden también.', correct: 'hostelería', alternatives: [] },
+      { sentence: 'Eso ni se _____, trabajan en el campo.', correct: 'menciona', alternatives: [] },
+      { sentence: 'Los que _____ que se queden, si no, ¿quién va a pagar las pensiones?', correct: 'cotizan', alternatives: [] },
+      { sentence: '¿Los _____ árabes? No, hombre, no.', correct: 'jeques', alternatives: [] },
+      { sentence: 'Los que _____ y así les pagamos menos.', correct: 'trabajan en B', alternatives: [] },
+      { sentence: 'Los profesores de _____ pueden quedarse.', correct: 'bachata', alternatives: [] },
+      { sentence: 'Mi madre es muy mayor, necesita que alguien la _____.', correct: 'cuide', alternatives: [] },
+      { sentence: 'El _____ vive solo en su casa.', correct: 'anciano', alternatives: [] },
+      { sentence: 'Los trabajadores que no _____ no tienen derechos sociales.', correct: 'cotizan', alternatives: [] },
+      { sentence: 'En la reunión no van a _____ ese tema.', correct: 'mencionar', alternatives: [] },
+      { sentence: 'Los inmigrantes _____ mucho a la economía del país.', correct: 'aportan', alternatives: [] }
+    ]
+  },
+  'ex-1-4-inm-3': {
+    id: 'ex-1-4-inm-3',
+    type: 'grammar',
+    title: 'Gramática - Repaso Módulo 1 (Lecciones 1-4)',
+    description: 'Elige la opción correcta (SER/ESTAR, artículos, concordancia, etc.)',
+    questions: [
+      { sentence: 'Los inmigrantes que _____ a los ancianos pueden quedarse.', options: ['cuida', 'cuidan', 'cuidas', 'cuidamos'], correct: 1 },
+      { sentence: 'Ella _____ colombiana y trabaja en mi casa.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Mi restaurante _____ sin personal si se van los camareros.', options: ['es', 'está', 'son', 'están'], correct: 1 },
+      { sentence: '_____ trabajadores del campo son muy importantes.', options: ['El', 'La', 'Los', 'Las'], correct: 2 },
+      { sentence: 'Tengo _____ restaurante en la ciudad.', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: 'Los que _____ de España son españoles.', options: ['es', 'son', 'está', 'están'], correct: 1 },
+      { sentence: '¿Quién va a pagar _____ pensiones?', options: ['el', 'la', 'los', 'las'], correct: 3 },
+      { sentence: 'Los abogados, médicos y maestros _____ profesionales importantes.', options: ['es', 'son', 'está', 'están'], correct: 1 },
+      { sentence: 'Los futbolistas _____ muy famosos.', options: ['es', 'son', 'está', 'están'], correct: 1 },
+      { sentence: 'Este plan sobre inmigración _____ muy contradictorio.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Los jeques árabes tienen _____ casas caras.', options: ['el', 'la', 'unos', 'unas'], correct: 3 },
+      { sentence: 'La construcción _____ un sector importante.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Nosotros _____ ocupados en la hostelería.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 1 },
+      { sentence: '_____ comida de los restaurantes baratos es muy rica.', options: ['El', 'La', 'Los', 'Las'], correct: 1 },
+      { sentence: 'Los profesores de bachata _____ latinos.', options: ['es', 'son', 'está', 'están'], correct: 1 }
+    ]
+  },
+  'ex-1-4-inm-4': {
+    id: 'ex-1-4-inm-4',
+    type: 'translation',
+    title: 'Traducción - Plan de expulsión de inmigrantes',
+    description: 'Traduce las frases del ruso al español. IMPORTANTE: No olvides los acentos (á, é, í, ó, ú) y el punto final.',
+    questions: [
+      { russian: 'Слишком много иностранцев.', correct: 'Hay demasiados extranjeros.' },
+      { russian: 'Они ничего не вносят.', correct: 'No aportan nada.', alternatives: ['Ellos no aportan nada.'] },
+      { russian: 'Пусть едут в свою страну.', correct: 'Que se vayan a su país.' },
+      { russian: 'План - выгнать их всех.', correct: 'El plan es echarlos a todos.' },
+      { russian: 'Девушка ухаживает за моими родителями.', correct: 'La chica cuida a mis padres.' },
+      { russian: 'У меня есть ресторан.', correct: 'Tengo un restaurante.' },
+      { russian: 'Я остаюсь без персонала.', correct: 'Me quedo sin personal.' },
+      { russian: 'Те, кто работают в поле, пусть остаются.', correct: 'Los que trabajan en el campo que se queden.' },
+      { russian: 'Кто будет платить пенсии?', correct: '¿Quién va a pagar las pensiones?' },
+      { russian: 'Те, кто платят налоги, остаются.', correct: 'Los que cotizan se quedan.' },
+      { russian: 'Врачи и учителя остаются.', correct: 'Los médicos y maestros se quedan.', alternatives: ['Médicos y maestros se quedan.'] },
+      { russian: 'Футболисты могут остаться.', correct: 'Los futbolistas pueden quedarse.' },
+      { russian: 'Это некрасиво.', correct: 'Está feo.', alternatives: ['Eso está feo.'] },
+      { russian: 'У нас готов план.', correct: 'Tenemos preparado el plan.', alternatives: ['Tenemos el plan preparado.'] },
+      { russian: 'Это означает, что вы никого не выгоните.', correct: 'Esto significa que no va a echar a nadie.', alternatives: ['Significa que no van a echar a nadie.'] }
+    ]
+  },
+
   // Упражнения урока 1-5: Предлоги
   'ex-1-5-prepositions-1': {
     id: 'ex-1-5-prepositions-1',
@@ -19408,6 +19602,101 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Мне очень жаль, что он потратил столько лет своей жизни, просто сидя на полу и ничего не делая.', correct: 'Lamento mucho que haya pasado tantos años de su vida simplemente sentado en el suelo sin hacer nada.' },
       { russian: 'Как только он вошел в комнату, он почувствовал, как его охватывает глубокое раскаяние.', correct: 'En cuanto entró en la habitación, sintió cómo le invadía un profundo arrepentimiento.' },
       { russian: 'Возможно, если бы он не боялся, он бы уже открыл одну из тех дверей давным-давно.', correct: 'Quizás, si no hubiera tenido miedo, ya habría abierto una de esas puertas hace mucho tiempo.' }
+    ]
+  },
+
+  'ex-6-1-7': {
+    id: 'ex-6-1-7',
+    type: 'fill',
+    title: 'Vocabulario: Completa los espacios',
+    description: 'Banco de palabras: burro, hierba, responder, conversación, decidir, rey, jungla, gritar, cierto, continuar, acuerdo, molestar, castigar, silencio, contento',
+    questions: [
+      { sentence: 'El ___ dijo que la hierba es azul', correct: 'burro' },
+      { sentence: 'El tigre ___ que la hierba es verde', correct: 'respondió' },
+      { sentence: 'La ___ subió de tono entre los dos animales', correct: 'conversación' },
+      { sentence: 'Decidieron ir a ver al ___ de la jungla', correct: 'rey' },
+      { sentence: 'El león es el rey de la ___', correct: 'jungla' },
+      { sentence: 'El burro empezó a ___: "¡Su majestad!"', correct: 'gritar' },
+      { sentence: '¿Es ___ que la hierba es azul?', correct: 'cierto' },
+      { sentence: 'El tigre ___ diciendo que la hierba es verde', correct: 'continuó' },
+      { sentence: 'El tigre no está de ___ conmigo', correct: 'acuerdo' },
+      { sentence: 'Por favor, ___ al tigre', correct: 'castigue' },
+      { sentence: 'El tigre fue castigado con cinco años de ___', correct: 'silencio' },
+      { sentence: 'El burro se fue ___ con su victoria', correct: 'contento' },
+      { sentence: 'No tolero que me ___', correct: 'molesten' },
+      { sentence: 'Perdiste el tiempo al ___ con un tonto', correct: 'discutir' },
+      { sentence: 'Muchas personas viven en el resentimiento en vez de ___ ser felices', correct: 'decidir' }
+    ]
+  },
+
+  'ex-6-1-8': {
+    id: 'ex-6-1-8',
+    type: 'fill',
+    title: 'Comprensión: Preguntas de la historia',
+    description: 'Completa las respuestas sobre la historia "La hierba es azul"',
+    questions: [
+      { sentence: '¿De qué color dice el burro que es la hierba? ___', correct: 'azul' },
+      { sentence: '¿Quién es el rey de la jungla? El ___', correct: 'león' },
+      { sentence: 'Van a ver al león para que él ___', correct: 'decida' },
+      { sentence: '¿Qué pide el burro para el tigre? Que lo ___', correct: 'castigue' },
+      { sentence: '¿Cuántos años de silencio recibió el tigre? ___', correct: 'cinco' },
+      { sentence: '¿Cómo se sentía el burro al final? ___', correct: 'contento' },
+      { sentence: '¿El tigre aceptó el castigo? Sí, lo ___', correct: 'aceptó' },
+      { sentence: '¿Sabía el león que la hierba es verde? Sí, lo ___', correct: 'sabía' },
+      { sentence: 'El león castigó al tigre por perder el ___', correct: 'tiempo' },
+      { sentence: 'El león dice que el tigre es valiente e ___', correct: 'inteligente' },
+      { sentence: '¿Con quién no se debe discutir? Con un ___', correct: 'tonto' },
+      { sentence: 'Al tonto no le importa la ___', correct: 'verdad' },
+      { sentence: 'Muchas personas están ciegas por culpa del ___', correct: 'resentimiento' },
+      { sentence: 'El castigo no tiene nada que ___ con el color de la hierba', correct: 'ver' }
+    ]
+  },
+
+  'ex-6-1-9': {
+    id: 'ex-6-1-9',
+    type: 'writing',
+    title: 'Traducción: Frases cortas A1-A2',
+    description: 'Переведите предложения на испанский',
+    questions: [
+      { russian: 'Осел сказал тигру: «Трава синяя».', correct: 'El burro dijo al tigre: "La hierba es azul".' },
+      { russian: 'Тигр ответил: «Нет, трава зеленая».', correct: 'El tigre respondió: "No, la hierba es verde".' },
+      { russian: 'Разговор пошел на повышенных тонах.', correct: 'La conversación subió de tono.' },
+      { russian: 'Они решили пойти к королю джунглей.', correct: 'Decidieron ir a ver al rey de la jungla.' },
+      { russian: '¿Es cierto que la hierba es azul?', correct: 'Это правда, что трава синяя?' },
+      { russian: 'Тигр не согласен со мной.', correct: 'El tigre no está de acuerdo conmigo.' },
+      { russian: 'Пожалуйста, накажите его.', correct: 'Por favor, castíguelo.' },
+      { russian: 'Тигр будет наказан пятью годами молчания.', correct: 'El tigre será castigado con cinco años de silencio.' },
+      { russian: 'Осел ушел довольный своей победой.', correct: 'El burro se fue contento con su victoria.' },
+      { russian: 'Тигр принял свое наказание.', correct: 'El tigre aceptó su castigo.' },
+      { russian: 'Почему вы меня наказали?', correct: '¿Por qué me castigó?' },
+      { russian: 'El castigo no tiene nada que ver con el color.', correct: 'Наказание не имеет никакого отношения к цвету.' },
+      { russian: 'Я не терплю, когда ты теряешь время.', correct: 'No tolero que pierdas el tiempo.' },
+      { russian: 'Un animal valiente e inteligente como tú.', correct: 'Храброе и умное животное, как ты.' },
+      { russian: 'Худшая потеря времени — это спорить с глупцом.', correct: 'La peor pérdida de tiempo es discutir con un tonto.' }
+    ]
+  },
+
+  'ex-6-1-10': {
+    id: 'ex-6-1-10',
+    type: 'writing',
+    title: 'Traducción Avanzada B1: Estructuras complejas',
+    description: 'Переведите предложения на испанский',
+    questions: [
+      { russian: 'Я сомневаюсь, что трава синяя, хотя осел на этом настаивает.', correct: 'Dudo que la hierba sea azul, aunque el burro insista en ello.' },
+      { russian: 'Тигр очень расстроился, когда лев его наказал ни за что.', correct: 'El tigre se molestó mucho cuando el león lo castigó sin razón.' },
+      { russian: 'В последнее время я понял, что не стоит спорить с глупцами.', correct: 'Últimamente he comprendido que no vale la pena discutir con tontos.' },
+      { russian: 'Не трать свое время на пустые разговоры, лучше займись делом.', correct: 'No pierdas tu tiempo en conversaciones vacías, mejor dedícate al trabajo.' },
+      { russian: 'Лев приказал, чтобы тигр молчал пять лет.', correct: 'El león ordenó que el tigre guardara silencio durante cinco años.' },
+      { russian: 'Когда они пришли к королю, осел начал громко кричать.', correct: 'Cuando llegaron al rey, el burro empezó a gritar fuerte.' },
+      { russian: 'Я еще никогда не видел такого упрямого животного, как этот осел.', correct: 'Nunca he visto un animal tan terco como este burro.' },
+      { russian: 'Nunca discutas sobre cosas que son obvias.', correct: 'Послушай меня: никогда не спорь о вещах, которые очевидны.' },
+      { russian: 'Осел хотел, чтобы лев наказал тигра немедленно.', correct: 'El burro quería que el león castigara al tigre inmediatamente.' },
+      { russian: 'На этой неделе тигр выучил важный урок о терпении.', correct: 'Esta semana el tigre aprendió una lección importante sobre la paciencia.' },
+      { russian: 'Лев не хотел, чтобы его беспокоили по пустякам.', correct: 'El león no quería que lo molestaran por tonterías.' },
+      { russian: 'Тигр спросил льва, почему тот принял такое несправедливое решение.', correct: 'El tigre preguntó al león por qué había tomado una decisión tan injusta.' },
+      { russian: 'Vete de aquí y no vuelvas hasta que aprendas a callar.', correct: 'Уходи отсюда и не возвращайся, пока не научишься молчать.' },
+      { russian: 'Трудно поверить, что león sabía la verdad desde el principio.', correct: 'Трудно поверить, что лев знал правду с самого начала.' },
+      { russian: 'Если ты встретишь осла, no intentes convencerlo de lo contrario.', correct: 'Если ты встретишь осла, не пытайся убедить его в обратном.' }
     ]
   },
 
