@@ -7992,7 +7992,7 @@ La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida 
         translation: null
       }
     ],
-    exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
+    exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5', 'ex-6-1-6']
   },
 
   'lesson-6-2': {
@@ -19390,6 +19390,24 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Неделю назад мы начали изучать новую тему, но еще не закончили ее', correct: 'Hace una semana empezamos a estudiar un tema nuevo pero todavía no lo terminamos' },
       { russian: 'Позавчера они пошли в театр и посмотрели новый спектакль', correct: 'Anteayer ellos fueron al teatro y vieron una obra nueva' },
       { russian: 'В субботу я встретил своего старого друга на улице, и мы поговорили полчаса', correct: 'El sábado encontré a mi viejo amigo en la calle y hablamos media hora' }
+    ]
+  },
+  'ex-6-1-6': {
+    id: 'ex-6-1-6',
+    type: 'writing',
+    title: '10 puertas',
+    description: 'Переведите предложения на испанский',
+    questions: [
+      { russian: 'Мужчина вошел в темную комнату, совершенно не представляя, какая судьба его там ожидает.', correct: 'El hombre entró en la habitación oscura sin tener ni idea de qué destino le esperaba allí.' },
+      { russian: 'В течение последних десятилетий он постоянно размышлял о том, какой выбор был бы наиболее правильным.', correct: 'Durante las últimas décadas había estado reflexionando constantemente sobre cuál sería la elección más correcta.' },
+      { russian: 'Несмотря на свои сомнения, выбери ту дверь, которая кажется тебе наиболее честной (tú).', correct: 'A pesar de tus dudas, elige la puerta que te parezca más honesta.' },
+      { russian: 'Я крайне сомневаюсь в том, что он наберется смелости и выберет дверь, за которой нет страха.', correct: 'Dudo mucho que se atreva y elija la puerta tras la cual no hay miedo.' },
+      { russian: 'Голос решительно заверил его, что как только выбор будет сделан, пути назад уже не будет.', correct: 'La voz le aseguró con determinación que una vez tomada la decisión, no habría vuelta atrás.' },
+      { russian: 'К сожалению, прошло слишком много времени, а он так и не нашел в себе сил принять решение.', correct: 'Desafortunadamente, pasó demasiado tiempo y él no encontró fuerzas para tomar una decisión.' },
+      { russian: 'Ни в коем случае не позволяй своему страху закрывать двери перед новыми возможностями! (tú)', correct: '¡De ninguna manera permitas que tu miedo cierre las puertas ante nuevas oportunidades!' },
+      { russian: 'Мне очень жаль, что он потратил столько лет своей жизни, просто сидя на полу и ничего не делая.', correct: 'Lamento mucho que haya pasado tantos años de su vida simplemente sentado en el suelo sin hacer nada.' },
+      { russian: 'Как только он вошел в комнату, он почувствовал, как его охватывает глубокое раскаяние.', correct: 'En cuanto entró en la habitación, sintió cómo le invadía un profundo arrepentimiento.' },
+      { russian: 'Возможно, если бы он не боялся, он бы уже открыл одну из тех дверей давным-давно.', correct: 'Quizás, si no hubiera tenido miedo, ya habría abierto una de esas puertas hace mucho tiempo.' }
     ]
   },
 
