@@ -1434,6 +1434,10 @@ Objeto + está + preposición + del/de la + lugar.
       {
         tab: 'Видео 2',
         videoUrl: '/video/Profesiones. Nivel A1 M1 4.mp4'
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        videoUrl: '/video/plan de expulsion de inmigrantes M1C4.mp4'
       }
     ],
     grammar: {
@@ -2641,9 +2645,7 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       'ex-2-2-tener-conjugation-new',
       'ex-2-2-oir-conjugation-new',
       'ex-2-2-tener-expressions',
-      'ex-2-2-ir-infinitive-new',
       'ex-2-2-ir-prepositions-new',
-      'ex-2-2-tener-que',
       'ex-2-2-mixed-verbs',
       'ex-2-2-tener-fillblank',
       'ex-2-2-vocab-expressions',
@@ -3340,10 +3342,6 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: 'УПРАЖНЕНИЯ 1',
         exerciseIds: ['ex-3-1-demonstrativos', 'ex-3-1-posesivos-mi-tu-su', 'ex-3-1-posesivos-nuestro', 'ex-3-1-demonstrativos-sust', 'ex-3-1-posesivos-pronombres', 'ex-3-1-neutros', 'ex-3-1-adverbios-lugar', 'ex-3-1-su-aclaracion', 'ex-3-1-combinado', 'ex-3-1-16']
-      },
-      {
-        tab: 'УПРАЖНЕНИЯ 2',
-        exerciseIds: ['ex-2-2-4', 'ex-2-2-5', 'ex-2-2-6', 'ex-2-2-7', 'ex-2-2-8', 'ex-2-2-9', 'ex-2-2-10', 'ex-2-2-11', 'ex-2-2-12', 'ex-2-2-13', 'ex-2-2-14', 'ex-2-2-15']
       }
     ]
   },
@@ -5064,6 +5062,10 @@ María: ¡Vamos!`,
             videoUrl: '/audio/Модуль 3 Урок 4/Gustar/Gustar 4.mp4'
           }
         ]
+      },
+      {
+        tab: 'Le gusta la sopa',
+        videoUrl: '/video/Le gusta  la sopa M3C4.mp4'
       }
     ],
     grammar: {
@@ -6874,6 +6876,12 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
     id: 'lesson-4-4',
     title: 'Урок 4: Причастие. Pretérito Perfecto Compuesto',
     moduleId: 'module-4',
+    videoTabs: [
+      {
+        tab: 'La empresa es como una familia',
+        videoUrl: '/video/La empresa es como una familia M4C4.mp4'
+      }
+    ],
     grammar: {
       title: 'Причастие. Pretérito Perfecto Compuesto',
       intro: `В этом уроке мы изучим причастие (participio) и сложное прошедшее время Pretérito Perfecto Compuesto.`,
@@ -7787,6 +7795,14 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Viaje a Colombia M6C1',
         videoUrl: '/Viaje a Colombia M6C1.mp4'
+      },
+      {
+        tab: 'Buena suerte, mala suerte',
+        videoUrl: '/video/Buena suerte, mala suerte_ Quién sabe.mp4'
+      },
+      {
+        tab: '10 puertas',
+        videoUrl: '/video/10 puertas.mp4'
       }
     ],
     grammar: {
@@ -8003,9 +8019,11 @@ Ana: Yo también. Será un viaje inolvidable.
         ]
       }
     ],
-    readingText: {
-      title: 'Un día de compras',
-      content: `El sábado pasado fui de compras al centro comercial con mi hermana Laura. Salimos de casa a las diez de la mañana y llegamos al centro en media hora.
+    readingText: [
+      {
+        tab: 'Un día de compras',
+        title: 'Un día de compras',
+        content: `El sábado pasado fui de compras al centro comercial con mi hermana Laura. Salimos de casa a las diez de la mañana y llegamos al centro en media hora.
 
 Primero, entramos en una tienda de ropa. Laura se probó varios vestidos, pero no le gustó ninguno. Yo encontré una chaqueta negra muy bonita. El vendedor me explicó que había un descuento del 30%. ¡Qué suerte! Pagué solo 50 euros por la chaqueta.
 
@@ -8018,7 +8036,7 @@ Por la tarde, visitamos una librería. Yo compré dos libros que quería leer ha
 Antes de irnos, paramos en un supermercado. Compramos algunos productos para casa: leche, pan, frutas y verduras. Yo pagué con tarjeta, pero Laura pagó en efectivo.
 
 Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85 euros en total y Laura gastó 95 euros. Llegamos cansadas pero contentas con nuestras compras.`,
-      translation: `В прошлую субботу я ходила за покупками в торговый центр с моей сестрой Лаурой. Мы вышли из дома в десять утра и добрались до центра за полчаса.
+        translation: `В прошлую субботу я ходила за покупками в торговый центр с моей сестрой Лаурой. Мы вышли из дома в десять утра и добрались до центра за полчаса.
 
 Сначала мы зашли в магазин одежды. Лаура примерила несколько платьев, но ей не понравилось ни одно. Я нашла очень красивую черную куртку. Продавец объяснил мне, что была скидка 30%. Какая удача! Я заплатила всего 50 евро за куртку.
 
@@ -8031,7 +8049,36 @@ Volvimos a casa a las seis de la tarde. Fue un día muy productivo. Yo gasté 85
 Перед тем как уйти, мы зашли в супермаркет. Купили несколько продуктов для дома: молоко, хлеб, фрукты и овощи. Я заплатила картой, а Лаура наличными.
 
 Мы вернулись домой в шесть вечера. Это был очень продуктивный день. Я потратила в общей сложности 85 евро, а Лаура 95 евро. Мы приехали уставшими, но довольными нашими покупками.`
-    },
+      },
+      {
+        tab: 'La hierba es azul',
+        title: 'La hierba es azul',
+        content: `El burro le dijo al tigre: "La hierba es azul". El tigre le respondió: "No, la hierba es verde". La conversación subió de tono y los dos decidieron ir a ver al León, el Rey de la jungla, para que él decidiera.
+
+El burro empezó a gritar: "¡Su Majestad! ¿Es cierto que la hierba es azul?". Y el Rey respondió: "Sí, la hierba es azul". El burro continuó y dijo: "Ese tigre no está de acuerdo conmigo y me molesta; por favor, castíguele". Y el Rey declaró: "El tigre será castigado con cinco años de silencio".
+
+El burro salió corriendo contento por su victoria. El tigre aceptó su castigo, pero antes de irse le preguntó al León: "Su Majestad, ¿por qué me ha castigado? La hierba es verde". El León le respondió: "Ya sé que la hierba es verde". El tigre preguntó de nuevo: "Entonces, ¿por qué me castiga?".
+
+El León respondió: "Tu castigo no tiene nada que ver con el color de la hierba. El castigo es porque no tolero que un animal valiente e inteligente como tú pierda tiempo discutiendo con un burro y, además, venga a molestarme con estos temas sin importancia".
+
+Moraleja: La peor pérdida de tiempo es discutir con el tonto al que no le importa la verdad. No pierdas tu tiempo con ellos.`,
+        translation: null
+      },
+      {
+        tab: '10 puertas',
+        title: '10 puertas',
+        content: `Escucha esta:
+
+Un hombre entró en una habitación con decenas de puertas. Cada puerta prometía algo distinto: amor, fama, paz, poder, dinero, salud. Y una voz resonó y le dijo: "Puedes abrir la que quieras, pero cuando elijas no podrás volver atrás".
+
+Y ahí el hombre pensó: "M, ¿y si elijo mal?". Entonces se sentó a pensar. Pasaron horas, días, semanas, meses, años. No abrió ninguna puerta. La voz volvió y susurró: "El tiempo ha terminado".
+
+El hombre, sorprendido, enfadado, gritó: "Pero no he elegido". Y la voz respondió: "Sí, elegiste. Elegiste el miedo". Y las puertas desaparecieron. Y lo único que quedó fue el arrepentimiento.
+
+La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida te cierra una puerta.`,
+        translation: null
+      }
+    ],
     exercises: [
       {
         tab: 'De compras',
@@ -8566,6 +8613,12 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     id: 'lesson-7-2',
     title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
     moduleId: 'module-7',
+    videoTabs: [
+      {
+        tab: 'Por qué se grita tanto',
+        videoUrl: '/video/Por qué se grita tanto.mp4'
+      }
+    ],
     vocabulary: [
       { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
       { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
@@ -9612,6 +9665,12 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       { word: 'rehusar', translation: 'отклонить' },
       { word: 'rechazar', translation: 'отвергнуть' },
       { word: 'denegar', translation: 'отказать' }
+    ],
+    videoTabs: [
+      {
+        tab: 'Venta de acciones',
+        videoUrl: '/video/Venta de acciones M11C2.mp4'
+      }
     ],
     exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5', 'ex-11-2-6', 'ex-11-2-7', 'ex-11-2-8', 'ex-11-2-9']
   },
@@ -11120,6 +11179,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-estas-resfriado',
         tab: 'Estas resfriado',
         videoUrl: '/video/Estas resfriado M10 C1.mp4'
+      },
+      {
+        id: 'video-mi-marido-ronca',
+        tab: 'Mi marido ronca',
+        videoUrl: '/video/Mi marido ronca.mp4'
       }
     ],
     grammar: {
@@ -15887,6 +15951,16 @@ Así que, amiguitos, el nuevo ilumine sus ideas el día de hoy. Regresen pronto 
         id: 'video-sentido-vida',
         tab: 'El sentido de la vida',
         videoUrl: 'https://www.youtube.com/watch?v=VH85r4625nk'
+      },
+      {
+        id: 'video-rey-sabio',
+        tab: 'El Rey, el Sabio y el Ajedrez',
+        videoUrl: '/video/El Rey, el Sabio y el Ajedrez.mp4'
+      },
+      {
+        id: 'video-accidente-decision',
+        tab: 'Eres un accidente o una decisión de Dios',
+        videoUrl: '/video/Eres un accidente o una decisión de Dios.mp4'
       }
     ],
     readingText: {
@@ -26431,14 +26505,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильное наречие места (ESTE=aquí, ESE=ahí, AQUEL=allí)',
     showCorrectAnswer: true,
     questions: [
-      { sentence: '___ está mi casa (ESTE - близко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
-      { sentence: 'Mi familia vive ___ (ESTE - близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
-      { sentence: '___ vive mi abuela (AQUEL - далеко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 2 },
-      { sentence: 'Mis abuelos viven ___ (AQUEL - далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
+      { sentence: '___ está mi casa (близко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 0 },
+      { sentence: 'Mi familia vive ___ (близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
+      { sentence: '___ vive mi abuela (далеко)', options: ['Aquí', 'Ahí', 'Allí'], correct: 2 },
+      { sentence: 'Mis abuelos viven ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
       { sentence: 'Este libro está ___ (близко)', options: ['aquí', 'ahí', 'allí'], correct: 0 },
       { sentence: 'Ese coche está ___ (на расстоянии)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
       { sentence: 'Aquel edificio está ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 },
-      { sentence: '¿Está tu padre ___ ? (ESE - там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
+      { sentence: '¿Está tu padre ___ ? (там)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
       { sentence: 'Esos hermanos viven ___ (на расстоянии)', options: ['aquí', 'ahí', 'allí'], correct: 1 },
       { sentence: 'Aquellos primos están ___ (далеко)', options: ['aquí', 'ahí', 'allí'], correct: 2 }
     ]
