@@ -8082,15 +8082,15 @@ La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida 
     exercises: [
       {
         tab: 'De compras',
-        exercises: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
+        exerciseIds: ['ex-6-1-1', 'ex-6-1-2', 'ex-6-1-3', 'ex-6-1-4', 'ex-6-1-5']
       },
       {
         tab: '10 puertas',
-        exercises: ['ex-6-1-6']
+        exerciseIds: ['ex-6-1-6']
       },
       {
         tab: 'La hierba es azul',
-        exercises: ['ex-6-1-7', 'ex-6-1-8', 'ex-6-1-9', 'ex-6-1-10']
+        exerciseIds: ['ex-6-1-7', 'ex-6-1-8', 'ex-6-1-9', 'ex-6-1-10']
       }
     ]
   },
@@ -16788,25 +16788,25 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // Упражнения для вкладки "Plan de expulsión de inmigrantes"
   'ex-1-4-inm-1': {
     id: 'ex-1-4-inm-1',
-    type: 'truefalse',
+    type: 'grammar',
     title: 'Verdadero o Falso - Plan de expulsión de inmigrantes',
     description: 'Lee el texto y decide si las frases son verdaderas (V) o falsas (F)',
     questions: [
-      { statement: 'El plan es echar a todos los inmigrantes sin excepciones.', correct: false },
-      { statement: 'Quieren que se queden los inmigrantes que cuidan de los ancianos.', correct: true },
-      { statement: 'Los camareros deben irse del país.', correct: false },
-      { statement: 'Una persona menciona que tiene un restaurante.', correct: true },
-      { statement: 'Los que trabajan en hostelería deben quedarse.', correct: true },
-      { statement: 'Los que trabajan en el campo deben irse.', correct: false },
-      { statement: 'Mencionan que si no hay inmigrantes que cotizan, nadie pagará las pensiones.', correct: true },
-      { statement: 'Los abogados, médicos y maestros deben irse.', correct: false },
-      { statement: 'Los futbolistas pueden quedarse.', correct: true },
-      { statement: 'Los jeques árabes deben irse según el plan.', correct: false },
-      { statement: 'Mencionan a los trabajadores de la construcción.', correct: true },
-      { statement: 'Los que trabajan en B se quedan porque les pagan menos.', correct: true },
-      { statement: 'Los profesores de bachata deben quedarse.', correct: true },
-      { statement: 'Al final, el plan implica echar a casi todos los inmigrantes.', correct: false },
-      { statement: 'El texto muestra la contradicción entre querer echar a los inmigrantes pero necesitarlos.', correct: true }
+      { text: 'El plan es echar a todos los inmigrantes sin excepciones.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { text: 'Quieren que se queden los inmigrantes que cuidan de los ancianos.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los camareros deben irse del país.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { text: 'Una persona menciona que tiene un restaurante.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los que trabajan en hostelería deben quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los que trabajan en el campo deben irse.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { text: 'Mencionan que si no hay inmigrantes que cotizan, nadie pagará las pensiones.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los abogados, médicos y maestros deben irse.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { text: 'Los futbolistas pueden quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los jeques árabes deben irse según el plan.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { text: 'Mencionan a los trabajadores de la construcción.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los que trabajan en B se quedan porque les pagan menos.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Los profesores de bachata deben quedarse.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { text: 'Al final, el plan implica echar a casi todos los inmigrantes.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { text: 'El texto muestra la contradicción entre querer echar a los inmigrantes pero necesitarlos.', options: ['Verdadero', 'Falso'], correct: 0 }
     ]
   },
   'ex-1-4-inm-2': {
