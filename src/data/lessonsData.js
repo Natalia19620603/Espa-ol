@@ -1593,10 +1593,27 @@ Objeto + está + preposición + del/de la + lugar.
           { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null },
         ]
       },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        words: [
+          { word: 'aportar', translation: 'вносить вклад', audioUrl: null },
+          { word: 'cuidar', translation: 'заботиться, ухаживать', audioUrl: null },
+          { word: 'el anciano', translation: 'старик, старец', audioUrl: null },
+          { word: 'fuera', translation: 'вон, снаружи', audioUrl: null },
+          { word: 'la hostelería', translation: 'гостиничное дело', audioUrl: null },
+          { word: 'mencionar', translation: 'упоминать, отмечать', audioUrl: null },
+          { word: 'cotizar', translation: 'платить налоги', audioUrl: null },
+          { word: 'el jeque', translation: 'шейх', audioUrl: null },
+          { word: 'trabajar en B', translation: 'работающие в "черную" "серую"', audioUrl: null },
+          { word: 'la bachata', translation: 'бачата', audioUrl: null },
+        ]
+      },
     ],
-    readingText: {
-      title: 'Diálogos - Профессии и национальности',
-      content: `**Диалог 1: В кафе**
+    readingTabs: [
+      {
+        tab: 'Diálogos - Профессии',
+        title: 'Diálogos - Профессии и национальности',
+        content: `**Диалог 1: В кафе**
 
 — Hola, buenos días. ¿Cómo te llamas?
 — Me llamo Elena. Soy de Rusia, soy rusa. ¿Y tú?
@@ -1641,7 +1658,7 @@ Objeto + está + preposición + del/de la + lugar.
 — No, es médico. Es alto y guapo.
 — ¿Y tu hermana?
 — Mi hermana es profesora. Es joven y alegre.`,
-      translation: `**Диалог 1: В кафе**
+        translation: `**Диалог 1: В кафе**
 
 — Привет, доброе утро. Как тебя зовут?
 — Меня зовут Елена. Я из России, я русская. А ты?
@@ -1704,9 +1721,43 @@ Objeto + está + preposición + del/de la + lugar.
 **Papá:** Pues… ¿En la mesita?
 **Mamá:** Mmm… No, no está.
 **Papá:** Ah, mira tus gafas están debajo del sillón.
-**Mamá:** Oh, gracias. Y el ordenador está al lado de la librería.`
-    },
-    exercises: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
+**Mamá:** Oh, gracias. Y el ordenador está al lado de la librería.`,
+        audioUrl: null
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        title: 'Plan de expulsión de inmigrantes',
+        content: `...concretar cuanto antes el plan de expulsión de los inmigrantes. Eso que hay demasiados extranjeros, hombre, y que no aportan nada. Sí, sí. Que se vayan, que se vayan a su país. De acuerdo. Entonces, el plan es echarlos a todos. A todos, a todos. A todos. Bueno, espérate. A la chica que cuida a mis padres, la colombiana, ¿no? Que a ver qué hago.
+
+Ahí va Osar. Es verdad, me pasa lo mismo con los míos. Es decir, los inmigrantes que cuidan de los ancianos que se queden. Esos que se queden, pero todos los demás fuera. Y los camareros es que tengo un restaurante y claro, si se van me quedo sin personal. Y los que trabajan en la hostelería que se queden, que se queden también, pero todos los demás fuera, fuera, fuera, fuera. Yo dejaría también a los que trabajan en el campo, ¿eh?
+
+Es que eso ni se menciona, trabajan en el campo que se queden y se queden. Eso que se queden. Trabajan en el campo y que se queden además la mano la que te lo va pidiendo. Que se queden. Eso que se queden. Perfecto. Di que sí. Di que sí. Pero yo dejaría los que cotizan, ¿no? Sí. Si no, ¿quién va a pagar las pensiones? Los que cotizan que se queden. Se queden. Pero todos los demás, todos los demás fuera fuera. Fuera.
+
+Y abogados médicos y maestros. Que se queden. Eso es que se queden los otros, los que no tienen para comprarse una casa. Fuera. Y los futbolistas esos que se queden, que se queden, pero todos los demás fuera. ¿Los jeques árabes? No, hombre, no. Eso no. Está feo. ¿Y lo de la construcción?
+
+Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. Todos fuera, todos, todos, todos, menos los que cuidan a los mayores, los que cotizan, los que trabajan en hostelería, los que están en la construcción, los futbolistas, los que trabajan en B y así les pagamos menos, los que trabajan en el campo, los que montan restaurantes baratos con comida que está muy rica, los profesores de bachata. Perdone. Esto significa que no va a echar a nadie, ¿no? ¿Te has dado cuenta tú también?`,
+        translation: `...конкретизировать как можно скорее план депортации иммигрантов. Говорят, что слишком много иностранцев, и они ничего не вносят. Да, да. Пусть уезжают, пусть едут в свою страну. Договорились. Итак, план - выгнать их всех. Всех, всех. Всех. Ну подожди. А как быть с девушкой, которая ухаживает за моими родителями, колумбийкой, да? Что мне с ней делать.
+
+Вот это да. Это правда, у меня та же проблема с моими. То есть, иммигранты, которые ухаживают за стариками, пусть остаются. Эти пусть остаются, но все остальные - вон. А официанты - у меня есть ресторан, и если они уедут, я останусь без персонала. И те, кто работают в гостиничном бизнесе, пусть остаются, пусть остаются тоже, но все остальные - вон, вон, вон, вон. Я бы ещё оставил тех, кто работает в поле, да?
+
+Это само собой разумеется, работающие в поле пусть остаются и остаются. Да, пусть остаются. Работающие в поле, и пусть остаются, тем более рабочая сила такая нужная. Пусть остаются. Да, пусть остаются. Отлично. Согласен. Согласен. Но я бы ещё оставил тех, кто платит налоги, да? Да. А иначе, кто будет платить пенсии? Те, кто платят налоги, пусть остаются. Остаются. Но все остальные, все остальные - вон, вон. Вон.
+
+А адвокаты, врачи и учителя. Пусть остаются. Да, пусть остаются. Другие, те, у кого нет денег на покупку дома. Вон. А футболисты, эти пусть остаются, пусть остаются, но все остальные - вон. А арабские шейхи? Нет, нет. Это нехорошо. А что со строительством?
+
+И как я говорил, у нас уже готов наш план по иммиграции. Все вон, все, все, все, кроме тех, кто ухаживает за пожилыми, тех, кто платит налоги, тех, кто работает в гостиничном бизнесе, тех, кто в строительстве, футболистов, тех, кто работает в "чёрную", чтобы мы им платили меньше, тех, кто работает в поле, тех, кто открывает недорогие рестораны с очень вкусной едой, учителей бачаты. Простите. Это означает, что вы никого не выгоните, не так ли? Ты тоже это заметил?`,
+        audioUrl: null
+      }
+    ],
+    exercises: [
+      {
+        tab: 'Profesiones y Nacionalidades',
+        exerciseIds: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        exerciseIds: ['ex-1-4-inm-1', 'ex-1-4-inm-2', 'ex-1-4-inm-3', 'ex-1-4-inm-4']
+      }
+    ]
   },
 
   'lesson-1-5': {
@@ -16657,6 +16708,100 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { sentence: 'país → ___', options: ['paíss', 'países', 'paiss', 'países'], correct: 3 },
       { sentence: 'problema → ___', options: ['problemas', 'problemases', 'problemes', 'problemses'], correct: 0 },
       { sentence: 'el lunes → ___', options: ['los luneses', 'los luns', 'los lunes', 'las lunes'], correct: 2 }
+    ]
+  },
+
+  // Упражнения для вкладки "Plan de expulsión de inmigrantes"
+  'ex-1-4-inm-1': {
+    id: 'ex-1-4-inm-1',
+    type: 'truefalse',
+    title: 'Verdadero o Falso - Plan de expulsión de inmigrantes',
+    description: 'Lee el texto y decide si las frases son verdaderas (V) o falsas (F)',
+    questions: [
+      { statement: 'El plan es echar a todos los inmigrantes sin excepciones.', correct: false },
+      { statement: 'Quieren que se queden los inmigrantes que cuidan de los ancianos.', correct: true },
+      { statement: 'Los camareros deben irse del país.', correct: false },
+      { statement: 'Una persona menciona que tiene un restaurante.', correct: true },
+      { statement: 'Los que trabajan en hostelería deben quedarse.', correct: true },
+      { statement: 'Los que trabajan en el campo deben irse.', correct: false },
+      { statement: 'Mencionan que si no hay inmigrantes que cotizan, nadie pagará las pensiones.', correct: true },
+      { statement: 'Los abogados, médicos y maestros deben irse.', correct: false },
+      { statement: 'Los futbolistas pueden quedarse.', correct: true },
+      { statement: 'Los jeques árabes deben irse según el plan.', correct: false },
+      { statement: 'Mencionan a los trabajadores de la construcción.', correct: true },
+      { statement: 'Los que trabajan en B se quedan porque les pagan menos.', correct: true },
+      { statement: 'Los profesores de bachata deben quedarse.', correct: true },
+      { statement: 'Al final, el plan implica echar a casi todos los inmigrantes.', correct: false },
+      { statement: 'El texto muestra la contradicción entre querer echar a los inmigrantes pero necesitarlos.', correct: true }
+    ]
+  },
+  'ex-1-4-inm-2': {
+    id: 'ex-1-4-inm-2',
+    type: 'fillblank',
+    title: 'Vocabulario - Plan de expulsión de inmigrantes',
+    description: 'Completa las frases con las palabras del vocabulario (aportar, cuidar, anciano, fuera, hostelería, mencionar, cotizar, jeque, trabajar en B, bachata)',
+    questions: [
+      { sentence: 'Los inmigrantes no _____ nada, dicen algunas personas.', correct: 'aportan', alternatives: [] },
+      { sentence: 'La chica colombiana _____ a mis padres.', correct: 'cuida', alternatives: [] },
+      { sentence: 'Los inmigrantes que cuidan de los _____ que se queden.', correct: 'ancianos', alternatives: [] },
+      { sentence: 'Todos los demás _____, _____, _____.', correct: 'fuera', alternatives: [] },
+      { sentence: 'Los que trabajan en la _____ que se queden también.', correct: 'hostelería', alternatives: [] },
+      { sentence: 'Eso ni se _____, trabajan en el campo.', correct: 'menciona', alternatives: [] },
+      { sentence: 'Los que _____ que se queden, si no, ¿quién va a pagar las pensiones?', correct: 'cotizan', alternatives: [] },
+      { sentence: '¿Los _____ árabes? No, hombre, no.', correct: 'jeques', alternatives: [] },
+      { sentence: 'Los que _____ y así les pagamos menos.', correct: 'trabajan en B', alternatives: [] },
+      { sentence: 'Los profesores de _____ pueden quedarse.', correct: 'bachata', alternatives: [] },
+      { sentence: 'Mi madre es muy mayor, necesita que alguien la _____.', correct: 'cuide', alternatives: [] },
+      { sentence: 'El _____ vive solo en su casa.', correct: 'anciano', alternatives: [] },
+      { sentence: 'Los trabajadores que no _____ no tienen derechos sociales.', correct: 'cotizan', alternatives: [] },
+      { sentence: 'En la reunión no van a _____ ese tema.', correct: 'mencionar', alternatives: [] },
+      { sentence: 'Los inmigrantes _____ mucho a la economía del país.', correct: 'aportan', alternatives: [] }
+    ]
+  },
+  'ex-1-4-inm-3': {
+    id: 'ex-1-4-inm-3',
+    type: 'grammar',
+    title: 'Gramática - Repaso Módulo 1 (Lecciones 1-4)',
+    description: 'Elige la opción correcta (SER/ESTAR, artículos, concordancia, etc.)',
+    questions: [
+      { sentence: 'Los inmigrantes que _____ a los ancianos pueden quedarse.', options: ['cuida', 'cuidan', 'cuidas', 'cuidamos'], correct: 1 },
+      { sentence: 'Ella _____ colombiana y trabaja en mi casa.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Mi restaurante _____ sin personal si se van los camareros.', options: ['es', 'está', 'son', 'están'], correct: 1 },
+      { sentence: '_____ trabajadores del campo son muy importantes.', options: ['El', 'La', 'Los', 'Las'], correct: 2 },
+      { sentence: 'Tengo _____ restaurante en la ciudad.', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: 'Los que _____ de España son españoles.', options: ['es', 'son', 'está', 'están'], correct: 1 },
+      { sentence: '¿Quién va a pagar _____ pensiones?', options: ['el', 'la', 'los', 'las'], correct: 3 },
+      { sentence: 'Los abogados, médicos y maestros _____ profesionales importantes.', options: ['es', 'son', 'está', 'están'], correct: 1 },
+      { sentence: 'Los futbolistas _____ muy famosos.', options: ['es', 'son', 'está', 'están'], correct: 1 },
+      { sentence: 'Este plan sobre inmigración _____ muy contradictorio.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Los jeques árabes tienen _____ casas caras.', options: ['el', 'la', 'unos', 'unas'], correct: 3 },
+      { sentence: 'La construcción _____ un sector importante.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'Nosotros _____ ocupados en la hostelería.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 1 },
+      { sentence: '_____ comida de los restaurantes baratos es muy rica.', options: ['El', 'La', 'Los', 'Las'], correct: 1 },
+      { sentence: 'Los profesores de bachata _____ latinos.', options: ['es', 'son', 'está', 'están'], correct: 1 }
+    ]
+  },
+  'ex-1-4-inm-4': {
+    id: 'ex-1-4-inm-4',
+    type: 'translation',
+    title: 'Traducción - Plan de expulsión de inmigrantes',
+    description: 'Traduce las frases del ruso al español. IMPORTANTE: No olvides los acentos (á, é, í, ó, ú) y el punto final.',
+    questions: [
+      { russian: 'Слишком много иностранцев.', correct: 'Hay demasiados extranjeros.' },
+      { russian: 'Они ничего не вносят.', correct: 'No aportan nada.', alternatives: ['Ellos no aportan nada.'] },
+      { russian: 'Пусть едут в свою страну.', correct: 'Que se vayan a su país.' },
+      { russian: 'План - выгнать их всех.', correct: 'El plan es echarlos a todos.' },
+      { russian: 'Девушка ухаживает за моими родителями.', correct: 'La chica cuida a mis padres.' },
+      { russian: 'У меня есть ресторан.', correct: 'Tengo un restaurante.' },
+      { russian: 'Я остаюсь без персонала.', correct: 'Me quedo sin personal.' },
+      { russian: 'Те, кто работают в поле, пусть остаются.', correct: 'Los que trabajan en el campo que se queden.' },
+      { russian: 'Кто будет платить пенсии?', correct: '¿Quién va a pagar las pensiones?' },
+      { russian: 'Те, кто платят налоги, остаются.', correct: 'Los que cotizan se quedan.' },
+      { russian: 'Врачи и учителя остаются.', correct: 'Los médicos y maestros se quedan.', alternatives: ['Médicos y maestros se quedan.'] },
+      { russian: 'Футболисты могут остаться.', correct: 'Los futbolistas pueden quedarse.' },
+      { russian: 'Это некрасиво.', correct: 'Está feo.', alternatives: ['Eso está feo.'] },
+      { russian: 'У нас готов план.', correct: 'Tenemos preparado el plan.', alternatives: ['Tenemos el plan preparado.'] },
+      { russian: 'Это означает, что вы никого не выгоните.', correct: 'Esto significa que no va a echar a nadie.', alternatives: ['Significa que no van a echar a nadie.'] }
     ]
   },
 
