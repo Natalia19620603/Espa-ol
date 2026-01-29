@@ -104,7 +104,7 @@ export const modules = {
     id: 'module-17',
     title: 'Модуль 17: Литература и культура (1068 слов)',
     level: 'intermediate',
-    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9'],
+    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -5066,6 +5066,10 @@ María: ¡Vamos!`,
       {
         tab: 'Le gusta la sopa',
         videoUrl: '/video/Le gusta  la sopa M3C4.mp4'
+      },
+      {
+        tab: 'Champiñones por inhalación',
+        videoUrl: '/video/Champiñones por inhalación M3C4.mp4'
       }
     ],
     grammar: {
@@ -11198,6 +11202,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-mi-marido-ronca',
         tab: 'Mi marido ronca',
         videoUrl: '/video/Mi marido ronca.mp4'
+      },
+      {
+        id: 'video-visita-medica',
+        tab: 'Visita médica',
+        videoUrl: '/video/Visita medica M10 C1.mp4'
       }
     ],
     grammar: {
@@ -16038,6 +16047,23 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
       { word: 'manifestar', translation: 'проявлять, выражать' }
     ],
     exercises: ['ex-17-9-1']
+  },
+
+  // ============ МОДУЛЬ 17 УРОК 10: HUMOR ============
+
+  'lesson-17-10': {
+    id: 'lesson-17-10',
+    title: 'Урок 10: Humor',
+    moduleId: 'module-17',
+    videoTabs: [
+      {
+        id: 'video-chiste-remedio',
+        tab: 'El chiste el remedio',
+        videoUrl: '/video/El chiste el remedio 33.mp4'
+      }
+    ],
+    vocabulary: [],
+    exercises: []
   }
 }
 
