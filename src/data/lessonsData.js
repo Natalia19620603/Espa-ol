@@ -8485,6 +8485,10 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'Meses y fiestas',
         videoUrl: '/video/Месяцы даты 24.mp4'
+      },
+      {
+        tab: 'El refrigerador',
+        videoUrl: '/video/El refrigerador M7C1.mp4'
       }
     ],
     vocabulary: [
@@ -11048,6 +11052,12 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-9-3',
     title: 'Урок 3: Основные инфинитивные конструкции (Перифразы)',
     moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'Deportes y traumas',
+        videoUrl: '/video/Deportes y traumas M9C3.mp4'
+      }
+    ],
     grammar: {
       title: 'Основные инфинитивные конструкции (Перифразы)',
       intro: `Инфинитивные конструкции (перифразы) — это устойчивые сочетания глаголов с инфинитивом, которые выражают различные аспекты действия: начало, продолжение, окончание, повтор, долженствование и другие.`,
@@ -11506,6 +11516,12 @@ volante m — зд. направление`
     id: 'lesson-10-2',
     title: 'Урок 2: Местоимения в Imperativo Afirmativo',
     moduleId: 'module-10',
+    videoTabs: [
+      {
+        tab: 'Llevo a mi abuela al dentista',
+        videoUrl: '/video/Llevo a mi abuela al dentista M10C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Местоимения в Imperativo Afirmativo',
       intro: `Главное правило: в утвердительной форме повелительного наклонения все местоимения (возвратные nos, te, se и дополнения lo, la, le) «приклеиваются» к глаголу в конце.`,
