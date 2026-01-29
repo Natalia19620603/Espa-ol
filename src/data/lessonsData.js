@@ -16053,7 +16053,7 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
 
   'lesson-17-10': {
     id: 'lesson-17-10',
-    title: 'Урок 10: Humor',
+    title: 'Урок 10: Humor - El chiste como remedio',
     moduleId: 'module-17',
     videoTabs: [
       {
@@ -16062,7 +16062,18 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
         videoUrl: '/video/El chiste el remedio 33.mp4'
       }
     ],
-    vocabulary: [],
+    vocabulary: [
+      { word: 'el chiste', translation: 'шутка, анекдот' },
+      { word: 'el remedio', translation: 'лекарство, средство' },
+      { word: 'el humor', translation: 'юмор' },
+      { word: 'reír', translation: 'смеяться' },
+      { word: 'la risa', translation: 'смех' },
+      { word: 'gracioso', translation: 'смешной, забавный' },
+      { word: 'divertido', translation: 'весёлый, забавный' },
+      { word: 'bromear', translation: 'шутить' },
+      { word: 'la broma', translation: 'шутка, розыгрыш' },
+      { word: 'chistoso', translation: 'смешной, остроумный' }
+    ],
     exercises: []
   }
 }
