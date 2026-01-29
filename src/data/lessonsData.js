@@ -8488,7 +8488,7 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       },
       {
         tab: 'El refrigerador',
-        videoUrl: '/video/El refrigerador M7C1.mp4'
+        videoUrl: '/video/El refrigerador  M7C1.mp4'
       }
     ],
     vocabulary: [
@@ -11056,6 +11056,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Deportes y traumas',
         videoUrl: '/video/Deportes y traumas M9C3.mp4'
+      },
+      {
+        tab: 'Perífrasis verbales',
+        videoUrl: '/video/12 PERÍFRASIS VERBALES M9C3.mp4'
       }
     ],
     grammar: {
