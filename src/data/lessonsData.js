@@ -1613,7 +1613,7 @@ Objeto + está + preposición + del/de la + lugar.
         ]
       },
     ],
-    readingTabs: [
+    readingText: [
       {
         tab: 'Diálogos - Профессии',
         title: 'Diálogos - Профессии и национальности',
