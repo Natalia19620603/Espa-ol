@@ -7200,8 +7200,8 @@ Jefe: Excelente trabajo, Ana. ¿Has preparado la presentación para la reunión?
 Ana: Todavía no la he terminado del todo, pero ya tengo hechas la mayoría de las diapositivas. Esta tarde voy a terminarla.
 Jefe: Muy bien. Por cierto, ¿has visto a Carlos hoy? He intentado llamarlo pero no ha contestado.
 Ana: No, no lo he visto. Creo que hoy ha ido al dentista. Me ha enviado un mensaje esta mañana.
-Jefe: Ah, vale. Cuando vuelva, dile que venga a mi despacho, por favor.
-Ana: Por supuesto, se lo diré en cuanto lo vea.
+Jefe: Ah, vale. Cuando vuelve, dile que tiene que venir a mi despacho, por favor.
+Ana: Por supuesto, se lo voy a decir cuando lo veo.
 
 **Diálogo 2: Entre amigos**
 
@@ -7232,12 +7232,12 @@ Madre: Vale, pero ahora tienes que terminar los deberes. ¿Juan, has recogido tu
 Juan: Sí, mamá. Ya la he recogido y he puesto la ropa sucia en el cesto.
 Madre: Muy bien. ¿Y habéis preparado las mochilas para mañana?
 Juan: Yo sí. He metido todos los libros y los cuadernos que necesito.
-Laura: Yo las prepararé después de terminar los deberes.
+Laura: Yo las voy a preparar después de terminar los deberes.
 Padre: Por cierto, ¿habéis visto mis llaves del coche? No las encuentro.
 Juan: Yo las he visto en la mesa de la cocina esta mañana.
 Padre: Gracias, voy a mirar allí. ¿Y habéis dado de comer al perro?
 Laura: Sí, papá. Ya le he dado de comer y le he puesto agua fresca.
-Madre: Muy bien, chicos. Cuando terminéis todo, vamos a cenar. He preparado vuestra comida favorita.
+Madre: Muy bien, chicos. Después de terminar todo, vamos a cenar. He preparado vuestra comida favorita.
 Juan y Laura: ¡Qué bien! Gracias, mamá.`,
         translation: `**Диалог 1: В офисе**
 
@@ -7249,8 +7249,8 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Ана: Я ещё не закончила её полностью, но уже сделала большинство слайдов. Сегодня днём я её закончу.
 Начальник: Очень хорошо. Кстати, ты видела Карлоса сегодня? Я пытался ему позвонить, но он не ответил.
 Ана: Нет, я его не видела. Думаю, что сегодня он пошёл к стоматологу. Он прислал мне сообщение сегодня утром.
-Начальник: А, понятно. Когда он вернётся, скажи ему, чтобы зашёл ко мне в кабинет, пожалуйста.
-Ана: Конечно, я скажу ему, как только его увижу.
+Начальник: А, понятно. Когда он возвращается, скажи ему, что он должен прийти ко мне в кабинет, пожалуйста.
+Ана: Конечно, я ему скажу, когда его увижу.
 
 **Диалог 2: Между друзьями**
 
@@ -7281,12 +7281,12 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Хуан: Да, мама. Я уже убрал её и положил грязную одежду в корзину.
 Мама: Очень хорошо. А вы приготовили рюкзаки на завтра?
 Хуан: Я да. Я положил все книги и тетради, которые мне нужны.
-Лаура: Я приготовлю их после того, как закончу домашнее задание.
+Лаура: Я собираюсь их приготовить после того, как закончу домашнее задание.
 Папа: Кстати, вы видели мои ключи от машины? Я не могу их найти.
 Хуан: Я видел их на кухонном столе сегодня утром.
 Папа: Спасибо, пойду посмотрю там. А вы покормили собаку?
 Лаура: Да, папа. Я уже покормила её и налила ей свежей воды.
-Мама: Очень хорошо, дети. Когда закончите всё, мы поужинаем. Я приготовила ваше любимое блюдо.
+Мама: Очень хорошо, дети. После того как закончите всё, идём ужинать. Я приготовила ваше любимое блюдо.
 Хуан и Лаура: Как здорово! Спасибо, мама.`
       },
       {
