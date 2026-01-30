@@ -7136,6 +7136,24 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
           { word: 'envuelto', translation: 'завернутый' },
           { word: 'propuesto', translation: 'предложенный' }
         ]
+      },
+      {
+        tab: 'Así se trata la migraña',
+        words: [
+          { word: 'encontrarse', translation: 'чувствовать себя, находиться' },
+          { word: 'administrar la medicación', translation: 'вводить лекарство' },
+          { word: 'indicar', translation: 'указывать, назначать' },
+          { word: 'quitar', translation: 'снимать, убирать' },
+          { word: 'la migraña', translation: 'мигрень' },
+          { word: 'las convulsiones', translation: 'судороги' },
+          { word: 'el fallo', translation: 'недостаточность, сбой' },
+          { word: 'hepático', translation: 'печёночный' },
+          { word: 'curar', translation: 'лечить, вылечивать' },
+          { word: 'la neumonía', translation: 'пневмония' },
+          { word: 'tratar', translation: 'лечить, обращаться' },
+          { word: 'la embolia', translation: 'эмболия' },
+          { word: 'insoportable', translation: 'невыносимый' }
+        ]
       }
     ],
     readingText: [
@@ -7270,9 +7288,75 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Лаура: Да, папа. Я уже покормила её и налила ей свежей воды.
 Мама: Очень хорошо, дети. Когда закончите всё, мы поужинаем. Я приготовила ваше любимое блюдо.
 Хуан и Лаура: Как здорово! Спасибо, мама.`
+      },
+      {
+        tab: '🏥 Así se trata la migraña',
+        title: 'Así se trata la migraña',
+        content: `**Doctor:** ¿Cómo se encuentra hoy el paciente de la migraña insoportable?
+
+**Enfermera:** Bueno, pues eh le hemos administrado la medicación que usted nos indicó eh metacloradona.
+
+**Doctor:** Muy bien. Y le ha quitado la migraña, supongo.
+
+**Enfermera:** Sí, le ha quitado la migraña, pero le ha causado convulsiones.
+
+**Doctor:** ¿Y no le habéis dado fenotaleidol?
+
+**Enfermera:** Sí, lo hemos hecho. Le quitó las convulsiones, pero ha producido un fallo hepático.
+
+**Doctor:** Eso se trata con citofloratina.
+
+**Enfermera:** Sí, también lo hemos hecho. Le curó el fallo hepático, pero ha producido una neumonía.
+
+**Doctor:** Hay que darle blastometa sana.
+
+**Enfermera:** Exacto, lo hemos hecho ya. Le curó la neumonía, pero le ha causado un infarto.
+
+**Doctor:** El infarto se trata con Cicloramo Mox.
+
+**Enfermera:** Sí, también lo hemos hecho. Le detuvo el infarto, pero lo ha causado una embolia.
+
+**Doctor:** ¿Y no le habéis dado oxitronadol?
+
+**Enfermera:** Sí, también lo hemos hecho. Le curó la embolia, pero le ha producido una migraña insoportable.
+
+**Doctor:** Doctor, ¿qué es lo que traía cuando entró en el hospital?
+
+**Enfermera:** El paciente, sí. Pues una revista debajo del brazo para su madre. Ah.`,
+        translation: `**Доктор:** Как сегодня себя чувствует пациент с невыносимой мигренью?
+
+**Медсестра:** Ну, мы ему ввели лекарство, которое вы нам указали, метаклорадону.
+
+**Доктор:** Очень хорошо. И это сняло мигрень, полагаю.
+
+**Медсестра:** Да, это сняло мигрень, но вызвало судороги.
+
+**Доктор:** А вы не давали ему феноталейдол?
+
+**Медсестра:** Да, мы это сделали. Это сняло судороги, но вызвало печёночную недостаточность.
+
+**Доктор:** Это лечится цитофлоратиной.
+
+**Медсестра:** Да, мы тоже это сделали. Это вылечило печёночную недостаточность, но вызвало пневмонию.
+
+**Доктор:** Нужно дать ему бластомета сана.
+
+**Медсестра:** Именно, мы уже это сделали. Это вылечило пневмонию, но вызвало инфаркт.
+
+**Доктор:** Инфаркт лечится Циклорамо Мокс.
+
+**Медсестра:** Да, мы тоже это сделали. Это остановило инфаркт, но вызвало эмболию.
+
+**Доктор:** А вы не давали ему окситронадол?
+
+**Медсестра:** Да, мы тоже это сделали. Это вылечило эмболию, но вызвало невыносимую мигрень.
+
+**Доктор:** Доктор, что он принёс, когда поступил в больницу?
+
+**Медсестра:** Пациент, да. Ну, журнал под мышкой для своей мамы. Ах.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18']
+    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20', 'ex-4-4-21', 'ex-4-4-22']
   },
 
   // МОДУЛЬ 5: Путешествия и места (A1)
@@ -18558,6 +18642,107 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Ты уже сделал домашнее задание?', correct: '¿Ya has hecho los deberes?' },
       { russian: 'Я помогал папе в саду.', correct: 'He estado ayudando a papá en el jardín' },
       { russian: 'Я положил все книги и тетради.', correct: 'He metido todos los libros y los cuadernos' }
+    ]
+  },
+
+  // Así se trata la migraña - упражнения
+  'ex-4-4-19': {
+    id: 'ex-4-4-19',
+    type: 'vocabulary',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 19: Подстановка слов',
+    description: 'Выберите правильное слово для заполнения пропуска',
+    questions: [
+      { sentence: '¿Cómo se ___ hoy el paciente?', options: ['encuentra', 'trata', 'cura', 'quita'], correct: 0, explanation: 'Encontrarse - чувствовать себя' },
+      { sentence: 'Le hemos administrado la ___ que usted indicó.', options: ['embolia', 'neumonía', 'medicación', 'convulsión'], correct: 2, explanation: 'La medicación - лекарство' },
+      { sentence: 'El médico ___ el tratamiento adecuado.', options: ['quita', 'indica', 'encuentra', 'produce'], correct: 1, explanation: 'Indicar - назначать, указывать' },
+      { sentence: 'Esta medicina le ha ___ la migraña.', options: ['curado', 'quitado', 'tratado', 'indicado'], correct: 1, explanation: 'Quitar - снять, убрать' },
+      { sentence: 'El paciente sufre de una ___ muy fuerte.', options: ['fallo', 'migraña', 'embolia', 'medicación'], correct: 1, explanation: 'La migraña - мигрень' },
+      { sentence: 'La medicación le ha causado ___.', options: ['migrañas', 'convulsiones', 'tratamientos', 'indicaciones'], correct: 1, explanation: 'Las convulsiones - судороги' },
+      { sentence: 'El paciente tiene un ___ hepático.', options: ['dolor', 'fallo', 'tratamiento', 'síntoma'], correct: 1, explanation: 'El fallo - недостаточность, сбой' },
+      { sentence: 'Los problemas ___ afectan al hígado.', options: ['insoportables', 'hepáticos', 'respiratorios', 'cardíacos'], correct: 1, explanation: 'Hepático - печёночный' },
+      { sentence: 'El médico va a ___ la enfermedad.', options: ['producir', 'causar', 'curar', 'sufrir'], correct: 2, explanation: 'Curar - вылечивать' },
+      { sentence: 'La ___ es una infección de los pulmones.', options: ['migraña', 'embolia', 'neumonía', 'convulsión'], correct: 2, explanation: 'La neumonía - пневмония' },
+      { sentence: 'Este tipo de enfermedad se ___ con antibióticos.', options: ['quita', 'indica', 'trata', 'encuentra'], correct: 2, explanation: 'Tratar - лечить' },
+      { sentence: 'El paciente ha sufrido una ___ cerebral.', options: ['neumonía', 'convulsión', 'migraña', 'embolia'], correct: 3, explanation: 'La embolia - эмболия' },
+      { sentence: 'El dolor era ___, no podía soportarlo.', options: ['hepático', 'insoportable', 'medicinal', 'tratado'], correct: 1, explanation: 'Insoportable - невыносимый' },
+      { sentence: 'Hay que ___ la medicación inmediatamente.', options: ['administrar', 'sufrir', 'producir', 'causar'], correct: 0, explanation: 'Administrar - вводить (лекарство)' },
+      { sentence: 'El tratamiento ha ___ efectos secundarios.', options: ['curado', 'quitado', 'producido', 'encontrado'], correct: 2, explanation: 'Producir - вызывать, производить' }
+    ]
+  },
+
+  'ex-4-4-20': {
+    id: 'ex-4-4-20',
+    type: 'reading',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 20: Понимание текста',
+    description: 'Выберите правильный ответ на основе текста "Así se trata la migraña"',
+    questions: [
+      { sentence: '¿Qué tenía el paciente cuando llegó al hospital?', options: ['Un infarto', 'Una migraña insoportable', 'Una neumonía', 'Convulsiones'], correct: 1, explanation: 'Пациент поступил с невыносимой мигренью' },
+      { sentence: '¿Qué medicamento le administraron primero?', options: ['Fenotaleidol', 'Citofloratina', 'Metacloradona', 'Oxitronadol'], correct: 2, explanation: 'Первым дали метаклорадону' },
+      { sentence: '¿Qué efecto secundario causó la metacloradona?', options: ['Neumonía', 'Embolia', 'Convulsiones', 'Fallo hepático'], correct: 2, explanation: 'Метаклорадона вызвала судороги' },
+      { sentence: '¿Con qué se trata el fallo hepático según el doctor?', options: ['Fenotaleidol', 'Blastometa sana', 'Citofloratina', 'Cicloramo Mox'], correct: 2, explanation: 'Печёночную недостаточность лечат цитофлоратиной' },
+      { sentence: '¿Qué causó la citofloratina?', options: ['Un infarto', 'Una embolia', 'Una neumonía', 'Convulsiones'], correct: 2, explanation: 'Цитофлоратина вызвала пневмонию' },
+      { sentence: '¿Con qué medicamento se trata la neumonía?', options: ['Oxitronadol', 'Blastometa sana', 'Cicloramo Mox', 'Fenotaleidol'], correct: 1, explanation: 'Пневмонию лечат бластомета сана' },
+      { sentence: '¿Qué problema causó la blastometa sana?', options: ['Migraña', 'Neumonía', 'Infarto', 'Embolia'], correct: 2, explanation: 'Бластомета сана вызвала инфаркт' },
+      { sentence: '¿Con qué se trata el infarto?', options: ['Citofloratina', 'Oxitronadol', 'Cicloramo Mox', 'Metacloradona'], correct: 2, explanation: 'Инфаркт лечится Циклорамо Мокс' },
+      { sentence: '¿Qué causó el Cicloramo Mox?', options: ['Convulsiones', 'Una embolia', 'Fallo hepático', 'Neumonía'], correct: 1, explanation: 'Циклорамо Мокс вызвал эмболию' },
+      { sentence: '¿Qué efecto tuvo el oxitronadol?', options: ['Curó la embolia pero causó migraña', 'Curó la migraña pero causó embolia', 'Curó el infarto pero causó neumonía', 'Curó la neumonía pero causó convulsiones'], correct: 0, explanation: 'Окситронадол вылечил эмболию, но вызвал мигрень' },
+      { sentence: '¿Cuántos medicamentos diferentes le administraron al paciente?', options: ['Cuatro', 'Cinco', 'Seis', 'Siete'], correct: 2, explanation: 'Шесть разных лекарств' },
+      { sentence: '¿Cuál era el estado final del paciente?', options: ['Tenía un infarto', 'Tenía neumonía', 'Tenía una migraña insoportable', 'Estaba curado'], correct: 2, explanation: 'В итоге у пациента снова была невыносимая мигрень' },
+      { sentence: '¿Qué traía el paciente cuando entró en el hospital?', options: ['Flores para el médico', 'Una revista para su madre', 'Medicamentos', 'Documentos'], correct: 1, explanation: 'Пациент принёс журнал для своей мамы' },
+      { sentence: '¿Cuál es la ironía del diálogo?', options: ['El médico no sabe curar', 'El paciente termina con la misma enfermedad inicial', 'Los medicamentos son muy caros', 'El hospital está cerrado'], correct: 1, explanation: 'Ирония в том, что пациент закончил с той же болезнью, с которой начал' },
+      { sentence: '¿Quién habla con el doctor sobre el paciente?', options: ['Otro médico', 'El paciente mismo', 'La enfermera', 'Un familiar'], correct: 2, explanation: 'Медсестра разговаривает с доктором' }
+    ]
+  },
+
+  'ex-4-4-21': {
+    id: 'ex-4-4-21',
+    type: 'grammar',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 21: Pretérito Perfecto',
+    description: 'Выберите правильную форму Pretérito Perfecto',
+    questions: [
+      { sentence: 'Le ___ (administrar, nosotros) la medicación.', options: ['hemos administrado', 'habéis administrado', 'han administrado', 'he administrado'], correct: 0, explanation: 'Nosotros → hemos administrado' },
+      { sentence: 'La medicina le ___ (quitar) la migraña.', options: ['has quitado', 'ha quitado', 'hemos quitado', 'he quitado'], correct: 1, explanation: 'Ella/él → ha quitado' },
+      { sentence: 'El tratamiento ___ (causar) convulsiones.', options: ['he causado', 'has causado', 'ha causado', 'hemos causado'], correct: 2, explanation: 'El tratamiento → ha causado' },
+      { sentence: '¿No le ___ (dar, vosotros) fenotaleidol?', options: ['has dado', 'habéis dado', 'hemos dado', 'han dado'], correct: 1, explanation: 'Vosotros → habéis dado' },
+      { sentence: 'Sí, lo ___ (hacer, nosotros).', options: ['he hecho', 'has hecho', 'hemos hecho', 'habéis hecho'], correct: 2, explanation: 'Nosotros → hemos hecho' },
+      { sentence: 'La medicina ___ (producir) un fallo hepático.', options: ['he producido', 'has producido', 'ha producido', 'hemos producido'], correct: 2, explanation: 'La medicina → ha producido' },
+      { sentence: 'El medicamento le ___ (curar) la neumonía.', options: ['ha curado', 'he curado', 'has curado', 'hemos curado'], correct: 0, explanation: 'El medicamento → ha curado' },
+      { sentence: 'Ya lo ___ (hacer, nosotros).', options: ['he hecho', 'hemos hecho', 'habéis hecho', 'han hecho'], correct: 1, explanation: 'Nosotros → hemos hecho' },
+      { sentence: 'El paciente ___ (sufrir) muchos efectos secundarios.', options: ['he sufrido', 'has sufrido', 'ha sufrido', 'hemos sufrido'], correct: 2, explanation: 'El paciente → ha sufrido' },
+      { sentence: 'Los médicos ___ (intentar) todo.', options: ['he intentado', 'ha intentado', 'hemos intentado', 'han intentado'], correct: 3, explanation: 'Los médicos → han intentado' },
+      { sentence: 'Yo nunca ___ (ver) algo así.', options: ['he visto', 'has visto', 'ha visto', 'hemos visto'], correct: 0, explanation: 'Yo → he visto' },
+      { sentence: 'Tú ___ (escribir) el informe médico.', options: ['he escrito', 'has escrito', 'ha escrito', 'hemos escrito'], correct: 1, explanation: 'Tú → has escrito' },
+      { sentence: 'Nosotros ___ (poner) la inyección.', options: ['he puesto', 'has puesto', 'ha puesto', 'hemos puesto'], correct: 3, explanation: 'Nosotros → hemos puesto' },
+      { sentence: 'El doctor ___ (decir) la verdad.', options: ['he dicho', 'has dicho', 'ha dicho', 'hemos dicho'], correct: 2, explanation: 'El doctor → ha dicho' },
+      { sentence: 'Los enfermeros ___ (hacer) su trabajo.', options: ['he hecho', 'ha hecho', 'hemos hecho', 'han hecho'], correct: 3, explanation: 'Los enfermeros → han hecho' }
+    ]
+  },
+
+  'ex-4-4-22': {
+    id: 'ex-4-4-22',
+    type: 'translation',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 22: Перевод с русского на испанский',
+    description: 'Переведите предложения, используя грамматику Модуля 4',
+    questions: [
+      { russian: 'Как сегодня себя чувствует пациент?', answer: '¿Cómo se encuentra hoy el paciente?', hint: 'encontrarse' },
+      { russian: 'Мы ввели ему лекарство.', answer: 'Le hemos administrado la medicación.', hint: 'administrar, Pretérito Perfecto' },
+      { russian: 'Врач указал правильное лечение.', answer: 'El médico ha indicado el tratamiento correcto.', hint: 'indicar, Pretérito Perfecto' },
+      { russian: 'Это сняло у него мигрень.', answer: 'Le ha quitado la migraña.', hint: 'quitar, Pretérito Perfecto' },
+      { russian: 'Лекарство вызвало судороги.', answer: 'La medicación ha causado convulsiones.', hint: 'causar, Pretérito Perfecto' },
+      { russian: 'Пациент страдает от печёночной недостаточности.', answer: 'El paciente sufre de un fallo hepático.', hint: 'sufrir de' },
+      { russian: 'Врач вылечил пневмонию.', answer: 'El médico ha curado la neumonía.', hint: 'curar, Pretérito Perfecto' },
+      { russian: 'Это лечится антибиотиками.', answer: 'Eso se trata con antibióticos.', hint: 'tratarse con' },
+      { russian: 'У пациента была эмболия.', answer: 'El paciente ha tenido una embolia.', hint: 'tener, Pretérito Perfecto' },
+      { russian: 'Боль была невыносимой.', answer: 'El dolor era insoportable.', hint: 'ser, Imperfecto' },
+      { russian: 'Медсёстры уже сделали всё возможное.', answer: 'Las enfermeras ya han hecho todo lo posible.', hint: 'hacer, Pretérito Perfecto, participio irregular' },
+      { russian: 'Вы дали ему все лекарства?', answer: '¿Le habéis dado todos los medicamentos?', hint: 'dar, Pretérito Perfecto' },
+      { russian: 'Сегодня утром я видел врача.', answer: 'Esta mañana he visto al médico.', hint: 'ver, Pretérito Perfecto, participio irregular' },
+      { russian: 'Они написали медицинский отчёт.', answer: 'Han escrito el informe médico.', hint: 'escribir, Pretérito Perfecto, participio irregular' },
+      { russian: 'Пациент вернулся в больницу.', answer: 'El paciente ha vuelto al hospital.', hint: 'volver, Pretérito Perfecto, participio irregular' }
     ]
   },
 
