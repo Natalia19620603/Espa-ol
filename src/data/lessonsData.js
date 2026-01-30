@@ -10964,6 +10964,13 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-9-2',
     title: 'Урок 2: Конструкция Acusativo con Infinitivo',
     moduleId: 'module-9',
+    videoTabs: [
+      {
+        id: 'video-objetos-deporte',
+        tab: 'Objetos de deporte',
+        videoUrl: '/video/Objetos de deporte M9C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Конструкция Acusativo con Infinitivo',
       intro: `Эта конструкция используется после глаголов восприятия (видеть, слышать, чувствовать). Она позволяет кратко выразить действие, которое совершает кто-то другой.`,
@@ -16060,6 +16067,16 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
         id: 'video-chiste-remedio',
         tab: 'El chiste el remedio',
         videoUrl: '/video/El chiste el remedio 33.mp4'
+      },
+      {
+        id: 'video-colon-llego',
+        tab: 'Colon llego a colar',
+        videoUrl: '/video/Colon llego a colar M17C10.mp4'
+      },
+      {
+        id: 'video-migrana',
+        tab: 'Asi se trata la migrana',
+        videoUrl: '/video/Asi se trata la migrana M17C10.mp4'
       }
     ],
     vocabulary: [
