@@ -83,7 +83,7 @@ export const modules = {
     id: 'module-12',
     title: 'Модуль 12: ОБРАЗОВАНИЕ. Imperfecto de subjuntivo. Придаточные предложения времени и цели',
     level: 'intermediate',
-    lessons: ['lesson-12-1'],
+    lessons: ['lesson-12-1', 'lesson-12-2'],
     description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
   },
   'module-8': {
@@ -16640,6 +16640,232 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
         ]
       }
     ],
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 2 - SUBJUNTIVO В ПРИДАТОЧНЫХ ВРЕМЕНИ
+  // =============================================
+
+  'lesson-12-2': {
+    id: 'lesson-12-2',
+    title: 'Урок 2: Употребление сослагательного наклонения в придаточных предложениях времени (de tiempo)',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Subjuntivo в придаточных предложениях времени',
+      intro: `**Subjuntivo в придаточных предложениях времени** — это важная тема, которая позволяет правильно выражать временные отношения между действиями в испанском языке.
+
+Выбор между **Indicativo** и **Subjuntivo** в таких предложениях зависит от того, произошло ли действие уже (реальный факт) или оно только планируется (ещё не совершилось).`,
+      sections: [
+        {
+          id: 'союзы-времени',
+          title: '1. Основные союзы времени',
+          content: `## Временные союзы
+
+В испанском языке существует ряд союзов, которые вводят придаточные предложения времени:
+
+| Союз | Перевод |
+|------|---------|
+| **cuando** | когда |
+| **hasta que** | до тех пор пока не |
+| **después de que** | после того как |
+| **en cuanto / apenas** | как только, едва |
+| **mientras (que)** | в то время как, пока |
+| **antes de que** | до того как / прежде чем |
+
+⚠️ **Важно:** После союза **antes de que** всегда используется **Subjuntivo**, независимо от времени действия!`
+        },
+        {
+          id: 'выбор-наклонения',
+          title: '2. Выбор наклонения: Indicativo vs Subjuntivo',
+          content: `## Главное правило
+
+Выбор между Indicativo и Subjuntivo зависит от того, **произошло ли действие уже** или оно **только планируется**.
+
+| Наклонение | Когда используется | Пример |
+|------------|-------------------|--------|
+| **Indicativo** | Прошлое или привычное настоящее (реальные факты) | *Cuando tengo tiempo, voy al cine.* (Обычно, когда у меня есть время, я хожу в кино) |
+| **Subjuntivo** | Будущее (действие ещё не совершилось) | *Cuando esté en Madrid, visitaré el Prado.* (Когда я буду в Мадриде, я посещу Прадо) |
+
+### Сравнение на примерах:
+
+**Indicativo (реальный факт / привычка):**
+- *Cuando **llego** a casa, siempre ceno.* — Когда я прихожу домой, я всегда ужинаю. (привычка)
+- *Cuando **llegué** a casa, cené.* — Когда я пришёл домой, я поужинал. (прошлое)
+
+**Subjuntivo (будущее действие):**
+- *Cuando **llegue** a casa, cenaré.* — Когда я приду домой, я поужинаю. (ещё не пришёл)
+- *Te llamaré cuando **termine** el trabajo.* — Я позвоню тебе, когда закончу работу. (ещё не закончил)`
+        },
+        {
+          id: 'antes-de-que',
+          title: '3. Союз ANTES DE QUE (всегда с Subjuntivo)',
+          content: `## Особый случай: antes de que
+
+После союза **antes de que** (до того как, прежде чем) **всегда** используется **Subjuntivo**, независимо от того, относится ли действие к прошлому, настоящему или будущему.
+
+### Примеры:
+
+| Время | Пример | Перевод |
+|-------|--------|---------|
+| Настоящее | *Siempre me despierto antes de que **suene** el despertador.* | Я всегда просыпаюсь до того, как прозвенит будильник. |
+| Прошлое | *Me desperté antes de que **sonara** el despertador.* | Я проснулся до того, как прозвенел будильник. |
+| Будущее | *Llegaré antes de que **empiece** la película.* | Я приеду до того, как начнётся фильм. |
+
+### Почему всегда Subjuntivo?
+
+Действие после **antes de que** по определению **ещё не произошло** к моменту основного действия — оно находится "в будущем" относительно него. Поэтому оно всегда воспринимается как нереализованное.
+
+⚠️ **Запомните:** antes de que = всегда Subjuntivo!`
+        },
+        {
+          id: 'hasta-que',
+          title: '4. Союз HASTA QUE (до тех пор пока не)',
+          content: `## Употребление hasta que
+
+Союз **hasta que** (до тех пор пока не) следует общему правилу:
+
+### С Indicativo (реальный факт):
+- *Trabajé hasta que **terminé**.* — Я работал, пока не закончил. (уже закончил)
+- *Siempre trabajo hasta que **termino**.* — Я всегда работаю, пока не заканчиваю. (привычка)
+
+### С Subjuntivo (будущее действие):
+- *Trabajaré hasta que **termine**.* — Я буду работать, пока не закончу. (ещё не закончил)
+- *Esperaré hasta que **llegues**.* — Я буду ждать, пока ты не придёшь. (ещё не пришёл)
+
+### Примеры в контексте:
+
+| Ситуация | Пример |
+|----------|--------|
+| Прошлое (факт) | *No me fui hasta que **llegó** Juan.* — Я не ушёл, пока не пришёл Хуан. |
+| Будущее (план) | *No me iré hasta que **llegue** Juan.* — Я не уйду, пока не придёт Хуан. |`
+        },
+        {
+          id: 'cuando-en-cuanto',
+          title: '5. Союзы CUANDO и EN CUANTO / APENAS',
+          content: `## Cuando (когда)
+
+### С Indicativo:
+- *Cuando **era** niño, jugaba mucho.* — Когда я был ребёнком, я много играл. (прошлое)
+- *Cuando **tengo** hambre, como.* — Когда я голоден, я ем. (привычка)
+
+### С Subjuntivo:
+- *Cuando **sea** mayor, viajaré.* — Когда я стану взрослым, я буду путешествовать. (будущее)
+- *Te lo diré cuando **pueda**.* — Я скажу тебе, когда смогу. (ещё не могу)
+
+## En cuanto / Apenas (как только, едва)
+
+Эти союзы также следуют общему правилу:
+
+### С Indicativo (прошлое):
+- *En cuanto **llegó**, empezó a trabajar.* — Как только он пришёл, он начал работать.
+- *Apenas **lo vi**, lo reconocí.* — Едва я его увидел, я его узнал.
+
+### С Subjuntivo (будущее):
+- *En cuanto **llegue**, empezará a trabajar.* — Как только он придёт, он начнёт работать.
+- *Te llamaré en cuanto **sepa** algo.* — Я позвоню тебе, как только что-то узнаю.`
+        },
+        {
+          id: 'mientras-despues',
+          title: '6. Союзы MIENTRAS и DESPUÉS DE QUE',
+          content: `## Mientras (que) — пока, в то время как
+
+### С Indicativo (одновременные действия — факт):
+- *Mientras **estudiaba**, escuchaba música.* — Пока я учился, я слушал музыку. (прошлое)
+- *Mientras **trabajo**, no puedo hablar.* — Пока я работаю, я не могу разговаривать. (настоящее)
+
+### С Subjuntivo (будущее или условие):
+- *Mientras **estés** aquí, estarás a salvo.* — Пока ты будешь здесь, ты будешь в безопасности. (будущее)
+- *Mientras **viva**, te ayudaré.* — Пока я буду жив, я буду тебе помогать. (неопределённое будущее)
+
+## Después de que — после того как
+
+### С Indicativo (прошлое):
+- *Después de que **llegó**, cenamos.* — После того как он пришёл, мы поужинали.
+- *Después de que **terminé**, me fui.* — После того как я закончил, я ушёл.
+
+### С Subjuntivo (будущее):
+- *Después de que **llegue**, cenaremos.* — После того как он придёт, мы поужинаем.
+- *Saldré después de que **termine** la reunión.* — Я выйду после того, как закончится собрание.`
+        },
+        {
+          id: 'косвенный-вопрос',
+          title: '7. Когда "cuando" — это не время (Косвенный вопрос)',
+          content: `## Различие: союз cuando vs вопросительное слово cuándo
+
+Нужно различать **союз cuando** (когда) и **вопросительное слово cuándo** (что именно? когда именно?).
+
+### Придаточное времени (союз cuando)
+
+Отвечает на вопрос **«Когда?»** в значении временного обстоятельства. Используем правило Indicativo/Subjuntivo.
+
+**Пример:**
+*La sala estará llena cuando **empiece** el espectáculo.*
+— Зал будет полон, когда начнётся шоу.
+
+*(Зал наполнится когда? — когда начнется шоу → будущее → Subjuntivo)*
+
+### Косвенный вопрос (вопросительное cuándo)
+
+Отвечает на вопрос **«Что? / О чём?»** — это дополнение, а не обстоятельство времени. Здесь используется **Indicativo** (обычно будущее время).
+
+**Пример:**
+*No sé cuándo **empezará** el espectáculo.*
+— Я не знаю, когда начнётся шоу.
+
+*(Я не знаю чего? — когда именно начнётся шоу → косвенный вопрос → Indicativo)*
+
+### Сравнение:
+
+| Тип | Пример | Наклонение |
+|-----|--------|------------|
+| Придаточное времени | *Te llamaré cuando **llegue**.* | Subjuntivo |
+| Косвенный вопрос | *No sé cuándo **llegará**.* | Indicativo |
+| Придаточное времени | *Vendré cuando **pueda**.* | Subjuntivo |
+| Косвенный вопрос | *Dime cuándo **podrás** venir.* | Indicativo |`
+        },
+        {
+          id: 'резюме',
+          title: '8. Резюме: выбор наклонения',
+          content: `## Краткая схема выбора наклонения
+
+### Общее правило для временных союзов:
+
+| Ситуация | Наклонение | Пример |
+|----------|------------|--------|
+| **Прошлое** (факт произошёл) | Indicativo | *Cuando llegué, cené.* |
+| **Привычка** (регулярное действие) | Indicativo | *Cuando llego, ceno.* |
+| **Будущее** (действие не произошло) | Subjuntivo | *Cuando llegue, cenaré.* |
+
+### Исключение:
+
+| Союз | Правило |
+|------|---------|
+| **antes de que** | Всегда Subjuntivo |
+
+### Косвенные вопросы (cuándo с ударением):
+
+Всегда **Indicativo**, независимо от времени.
+
+### Запомните формулу:
+
+Реальность (прошлое/привычка) → Indicativo
+Нереализованность (будущее) → Subjuntivo
+Antes de que → Всегда Subjuntivo
+Косвенный вопрос (cuándo) → Всегда Indicativo`
+        }
+      ],
+      examples: [
+        { spanish: 'Cuando llegue a casa, te llamaré', translation: 'Когда я приду домой, я тебе позвоню' },
+        { spanish: 'Esperaré hasta que termines', translation: 'Я подожду, пока ты не закончишь' },
+        { spanish: 'Siempre me despierto antes de que suene el despertador', translation: 'Я всегда просыпаюсь до того, как прозвенит будильник' },
+        { spanish: 'Te lo diré en cuanto lo sepa', translation: 'Я скажу тебе, как только узнаю' },
+        { spanish: 'Mientras estés aquí, estarás seguro', translation: 'Пока ты здесь, ты в безопасности' },
+        { spanish: 'Después de que llegue Juan, empezaremos', translation: 'После того как придёт Хуан, мы начнём' },
+        { spanish: 'No sé cuándo vendrá', translation: 'Я не знаю, когда он придёт' },
+        { spanish: 'Cuando era niño, jugaba mucho', translation: 'Когда я был ребёнком, я много играл' }
+      ]
+    },
+    vocabulary: [],
     exercises: []
   }
 }
