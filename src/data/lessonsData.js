@@ -6884,6 +6884,10 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'La empresa es como una familia',
         videoUrl: '/video/La empresa es como una familia M4C4.mp4'
+      },
+      {
+        tab: 'Así se trata la migraña',
+        videoUrl: '/video/Asi se trata la migraña M4C4.mp4'
       }
     ],
     grammar: {
