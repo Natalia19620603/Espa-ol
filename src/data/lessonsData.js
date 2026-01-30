@@ -7356,7 +7356,10 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 **Медсестра:** Пациент, да. Ну, журнал под мышкой для своей мамы. Ах.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18', 'ex-4-4-19', 'ex-4-4-20', 'ex-4-4-21', 'ex-4-4-22']
+    exercises: [
+      { tab: 'Pretérito Perfecto', exerciseIds: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18'] },
+      { tab: 'Así se trata la migraña', exerciseIds: ['ex-4-4-19', 'ex-4-4-20', 'ex-4-4-21', 'ex-4-4-22'] }
+    ]
   },
 
   // МОДУЛЬ 5: Путешествия и места (A1)
@@ -18653,21 +18656,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 19: Подстановка слов',
     description: 'Выберите правильное слово для заполнения пропуска',
     questions: [
-      { sentence: '¿Cómo se ___ hoy el paciente?', options: ['encuentra', 'trata', 'cura', 'quita'], correct: 0, explanation: 'Encontrarse - чувствовать себя' },
-      { sentence: 'Le hemos administrado la ___ que usted indicó.', options: ['embolia', 'neumonía', 'medicación', 'convulsión'], correct: 2, explanation: 'La medicación - лекарство' },
-      { sentence: 'El médico ___ el tratamiento adecuado.', options: ['quita', 'indica', 'encuentra', 'produce'], correct: 1, explanation: 'Indicar - назначать, указывать' },
-      { sentence: 'Esta medicina le ha ___ la migraña.', options: ['curado', 'quitado', 'tratado', 'indicado'], correct: 1, explanation: 'Quitar - снять, убрать' },
-      { sentence: 'El paciente sufre de una ___ muy fuerte.', options: ['fallo', 'migraña', 'embolia', 'medicación'], correct: 1, explanation: 'La migraña - мигрень' },
-      { sentence: 'La medicación le ha causado ___.', options: ['migrañas', 'convulsiones', 'tratamientos', 'indicaciones'], correct: 1, explanation: 'Las convulsiones - судороги' },
-      { sentence: 'El paciente tiene un ___ hepático.', options: ['dolor', 'fallo', 'tratamiento', 'síntoma'], correct: 1, explanation: 'El fallo - недостаточность, сбой' },
-      { sentence: 'Los problemas ___ afectan al hígado.', options: ['insoportables', 'hepáticos', 'respiratorios', 'cardíacos'], correct: 1, explanation: 'Hepático - печёночный' },
-      { sentence: 'El médico va a ___ la enfermedad.', options: ['producir', 'causar', 'curar', 'sufrir'], correct: 2, explanation: 'Curar - вылечивать' },
-      { sentence: 'La ___ es una infección de los pulmones.', options: ['migraña', 'embolia', 'neumonía', 'convulsión'], correct: 2, explanation: 'La neumonía - пневмония' },
-      { sentence: 'Este tipo de enfermedad se ___ con antibióticos.', options: ['quita', 'indica', 'trata', 'encuentra'], correct: 2, explanation: 'Tratar - лечить' },
-      { sentence: 'El paciente ha sufrido una ___ cerebral.', options: ['neumonía', 'convulsión', 'migraña', 'embolia'], correct: 3, explanation: 'La embolia - эмболия' },
-      { sentence: 'El dolor era ___, no podía soportarlo.', options: ['hepático', 'insoportable', 'medicinal', 'tratado'], correct: 1, explanation: 'Insoportable - невыносимый' },
-      { sentence: 'Hay que ___ la medicación inmediatamente.', options: ['administrar', 'sufrir', 'producir', 'causar'], correct: 0, explanation: 'Administrar - вводить (лекарство)' },
-      { sentence: 'El tratamiento ha ___ efectos secundarios.', options: ['curado', 'quitado', 'producido', 'encontrado'], correct: 2, explanation: 'Producir - вызывать, производить' }
+      { spanish: '¿Cómo se ___ hoy el paciente?', options: ['encuentra', 'trata', 'cura', 'quita'], correct: 0, explanation: 'Encontrarse - чувствовать себя' },
+      { spanish: 'Le hemos administrado la ___ que usted indicó.', options: ['embolia', 'neumonía', 'medicación', 'convulsión'], correct: 2, explanation: 'La medicación - лекарство' },
+      { spanish: 'El médico ___ el tratamiento adecuado.', options: ['quita', 'indica', 'encuentra', 'produce'], correct: 1, explanation: 'Indicar - назначать, указывать' },
+      { spanish: 'Esta medicina le ha ___ la migraña.', options: ['curado', 'quitado', 'tratado', 'indicado'], correct: 1, explanation: 'Quitar - снять, убрать' },
+      { spanish: 'El paciente sufre de una ___ muy fuerte.', options: ['fallo', 'migraña', 'embolia', 'medicación'], correct: 1, explanation: 'La migraña - мигрень' },
+      { spanish: 'La medicación le ha causado ___.', options: ['migrañas', 'convulsiones', 'tratamientos', 'indicaciones'], correct: 1, explanation: 'Las convulsiones - судороги' },
+      { spanish: 'El paciente tiene un ___ hepático.', options: ['dolor', 'fallo', 'tratamiento', 'síntoma'], correct: 1, explanation: 'El fallo - недостаточность, сбой' },
+      { spanish: 'Los problemas ___ afectan al hígado.', options: ['insoportables', 'hepáticos', 'respiratorios', 'cardíacos'], correct: 1, explanation: 'Hepático - печёночный' },
+      { spanish: 'El médico va a ___ la enfermedad.', options: ['producir', 'causar', 'curar', 'sufrir'], correct: 2, explanation: 'Curar - вылечивать' },
+      { spanish: 'La ___ es una infección de los pulmones.', options: ['migraña', 'embolia', 'neumonía', 'convulsión'], correct: 2, explanation: 'La neumonía - пневмония' },
+      { spanish: 'Este tipo de enfermedad se ___ con antibióticos.', options: ['quita', 'indica', 'trata', 'encuentra'], correct: 2, explanation: 'Tratar - лечить' },
+      { spanish: 'El paciente ha sufrido una ___ cerebral.', options: ['neumonía', 'convulsión', 'migraña', 'embolia'], correct: 3, explanation: 'La embolia - эмболия' },
+      { spanish: 'El dolor era ___, no podía soportarlo.', options: ['hepático', 'insoportable', 'medicinal', 'tratado'], correct: 1, explanation: 'Insoportable - невыносимый' },
+      { spanish: 'Hay que ___ la medicación inmediatamente.', options: ['administrar', 'sufrir', 'producir', 'causar'], correct: 0, explanation: 'Administrar - вводить (лекарство)' },
+      { spanish: 'El tratamiento ha ___ efectos secundarios.', options: ['curado', 'quitado', 'producido', 'encontrado'], correct: 2, explanation: 'Producir - вызывать, производить' }
     ]
   },
 
@@ -18678,21 +18681,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 20: Понимание текста',
     description: 'Выберите правильный ответ на основе текста "Así se trata la migraña"',
     questions: [
-      { sentence: '¿Qué tenía el paciente cuando llegó al hospital?', options: ['Un infarto', 'Una migraña insoportable', 'Una neumonía', 'Convulsiones'], correct: 1, explanation: 'Пациент поступил с невыносимой мигренью' },
-      { sentence: '¿Qué medicamento le administraron primero?', options: ['Fenotaleidol', 'Citofloratina', 'Metacloradona', 'Oxitronadol'], correct: 2, explanation: 'Первым дали метаклорадону' },
-      { sentence: '¿Qué efecto secundario causó la metacloradona?', options: ['Neumonía', 'Embolia', 'Convulsiones', 'Fallo hepático'], correct: 2, explanation: 'Метаклорадона вызвала судороги' },
-      { sentence: '¿Con qué se trata el fallo hepático según el doctor?', options: ['Fenotaleidol', 'Blastometa sana', 'Citofloratina', 'Cicloramo Mox'], correct: 2, explanation: 'Печёночную недостаточность лечат цитофлоратиной' },
-      { sentence: '¿Qué causó la citofloratina?', options: ['Un infarto', 'Una embolia', 'Una neumonía', 'Convulsiones'], correct: 2, explanation: 'Цитофлоратина вызвала пневмонию' },
-      { sentence: '¿Con qué medicamento se trata la neumonía?', options: ['Oxitronadol', 'Blastometa sana', 'Cicloramo Mox', 'Fenotaleidol'], correct: 1, explanation: 'Пневмонию лечат бластомета сана' },
-      { sentence: '¿Qué problema causó la blastometa sana?', options: ['Migraña', 'Neumonía', 'Infarto', 'Embolia'], correct: 2, explanation: 'Бластомета сана вызвала инфаркт' },
-      { sentence: '¿Con qué se trata el infarto?', options: ['Citofloratina', 'Oxitronadol', 'Cicloramo Mox', 'Metacloradona'], correct: 2, explanation: 'Инфаркт лечится Циклорамо Мокс' },
-      { sentence: '¿Qué causó el Cicloramo Mox?', options: ['Convulsiones', 'Una embolia', 'Fallo hepático', 'Neumonía'], correct: 1, explanation: 'Циклорамо Мокс вызвал эмболию' },
-      { sentence: '¿Qué efecto tuvo el oxitronadol?', options: ['Curó la embolia pero causó migraña', 'Curó la migraña pero causó embolia', 'Curó el infarto pero causó neumonía', 'Curó la neumonía pero causó convulsiones'], correct: 0, explanation: 'Окситронадол вылечил эмболию, но вызвал мигрень' },
-      { sentence: '¿Cuántos medicamentos diferentes le administraron al paciente?', options: ['Cuatro', 'Cinco', 'Seis', 'Siete'], correct: 2, explanation: 'Шесть разных лекарств' },
-      { sentence: '¿Cuál era el estado final del paciente?', options: ['Tenía un infarto', 'Tenía neumonía', 'Tenía una migraña insoportable', 'Estaba curado'], correct: 2, explanation: 'В итоге у пациента снова была невыносимая мигрень' },
-      { sentence: '¿Qué traía el paciente cuando entró en el hospital?', options: ['Flores para el médico', 'Una revista para su madre', 'Medicamentos', 'Documentos'], correct: 1, explanation: 'Пациент принёс журнал для своей мамы' },
-      { sentence: '¿Cuál es la ironía del diálogo?', options: ['El médico no sabe curar', 'El paciente termina con la misma enfermedad inicial', 'Los medicamentos son muy caros', 'El hospital está cerrado'], correct: 1, explanation: 'Ирония в том, что пациент закончил с той же болезнью, с которой начал' },
-      { sentence: '¿Quién habla con el doctor sobre el paciente?', options: ['Otro médico', 'El paciente mismo', 'La enfermera', 'Un familiar'], correct: 2, explanation: 'Медсестра разговаривает с доктором' }
+      { question: '¿Qué tenía el paciente cuando llegó al hospital?', options: ['Un infarto', 'Una migraña insoportable', 'Una neumonía', 'Convulsiones'], correct: 1, explanation: 'Пациент поступил с невыносимой мигренью' },
+      { question: '¿Qué medicamento le administraron primero?', options: ['Fenotaleidol', 'Citofloratina', 'Metacloradona', 'Oxitronadol'], correct: 2, explanation: 'Первым дали метаклорадону' },
+      { question: '¿Qué efecto secundario causó la metacloradona?', options: ['Neumonía', 'Embolia', 'Convulsiones', 'Fallo hepático'], correct: 2, explanation: 'Метаклорадона вызвала судороги' },
+      { question: '¿Con qué se trata el fallo hepático según el doctor?', options: ['Fenotaleidol', 'Blastometa sana', 'Citofloratina', 'Cicloramo Mox'], correct: 2, explanation: 'Печёночную недостаточность лечат цитофлоратиной' },
+      { question: '¿Qué causó la citofloratina?', options: ['Un infarto', 'Una embolia', 'Una neumonía', 'Convulsiones'], correct: 2, explanation: 'Цитофлоратина вызвала пневмонию' },
+      { question: '¿Con qué medicamento se trata la neumonía?', options: ['Oxitronadol', 'Blastometa sana', 'Cicloramo Mox', 'Fenotaleidol'], correct: 1, explanation: 'Пневмонию лечат бластомета сана' },
+      { question: '¿Qué problema causó la blastometa sana?', options: ['Migraña', 'Neumonía', 'Infarto', 'Embolia'], correct: 2, explanation: 'Бластомета сана вызвала инфаркт' },
+      { question: '¿Con qué se trata el infarto?', options: ['Citofloratina', 'Oxitronadol', 'Cicloramo Mox', 'Metacloradona'], correct: 2, explanation: 'Инфаркт лечится Циклорамо Мокс' },
+      { question: '¿Qué causó el Cicloramo Mox?', options: ['Convulsiones', 'Una embolia', 'Fallo hepático', 'Neumonía'], correct: 1, explanation: 'Циклорамо Мокс вызвал эмболию' },
+      { question: '¿Qué efecto tuvo el oxitronadol?', options: ['Curó la embolia pero causó migraña', 'Curó la migraña pero causó embolia', 'Curó el infarto pero causó neumonía', 'Curó la neumonía pero causó convulsiones'], correct: 0, explanation: 'Окситронадол вылечил эмболию, но вызвал мигрень' },
+      { question: '¿Cuántos medicamentos diferentes le administraron al paciente?', options: ['Cuatro', 'Cinco', 'Seis', 'Siete'], correct: 2, explanation: 'Шесть разных лекарств' },
+      { question: '¿Cuál era el estado final del paciente?', options: ['Tenía un infarto', 'Tenía neumonía', 'Tenía una migraña insoportable', 'Estaba curado'], correct: 2, explanation: 'В итоге у пациента снова была невыносимая мигрень' },
+      { question: '¿Qué traía el paciente cuando entró en el hospital?', options: ['Flores para el médico', 'Una revista para su madre', 'Medicamentos', 'Documentos'], correct: 1, explanation: 'Пациент принёс журнал для своей мамы' },
+      { question: '¿Cuál es la ironía del diálogo?', options: ['El médico no sabe curar', 'El paciente termina con la misma enfermedad inicial', 'Los medicamentos son muy caros', 'El hospital está cerrado'], correct: 1, explanation: 'Ирония в том, что пациент закончил с той же болезнью, с которой начал' },
+      { question: '¿Quién habla con el doctor sobre el paciente?', options: ['Otro médico', 'El paciente mismo', 'La enfermera', 'Un familiar'], correct: 2, explanation: 'Медсестра разговаривает с доктором' }
     ]
   },
 
