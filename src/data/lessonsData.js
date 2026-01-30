@@ -7141,7 +7141,7 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
         tab: 'Así se trata la migraña',
         words: [
           { word: 'encontrarse', translation: 'чувствовать себя, находиться' },
-          { word: 'administrar la medicación', translation: 'вводить лекарство' },
+          { word: 'administrar la medicación', translation: 'прописывать лекарства' },
           { word: 'indicar', translation: 'указывать, назначать' },
           { word: 'quitar', translation: 'снимать, убирать' },
           { word: 'la migraña', translation: 'мигрень' },
@@ -18669,7 +18669,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { spanish: 'Este tipo de enfermedad se ___ con antibióticos.', options: ['quita', 'indica', 'trata', 'encuentra'], correct: 2, explanation: 'Tratar - лечить' },
       { spanish: 'El paciente ha sufrido una ___ cerebral.', options: ['neumonía', 'convulsión', 'migraña', 'embolia'], correct: 3, explanation: 'La embolia - эмболия' },
       { spanish: 'El dolor era ___, no podía soportarlo.', options: ['hepático', 'insoportable', 'medicinal', 'tratado'], correct: 1, explanation: 'Insoportable - невыносимый' },
-      { spanish: 'Hay que ___ la medicación inmediatamente.', options: ['administrar', 'sufrir', 'producir', 'causar'], correct: 0, explanation: 'Administrar - вводить (лекарство)' },
+      { spanish: 'Hay que ___ la medicación inmediatamente.', options: ['administrar', 'sufrir', 'producir', 'causar'], correct: 0, explanation: 'Administrar - прописывать (лекарства)' },
       { spanish: 'El tratamiento ha ___ efectos secundarios.', options: ['curado', 'quitado', 'producido', 'encontrado'], correct: 2, explanation: 'Producir - вызывать, производить' }
     ]
   },
@@ -18731,21 +18731,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 22: Перевод с русского на испанский',
     description: 'Переведите предложения, используя грамматику Модуля 4',
     questions: [
-      { russian: 'Как сегодня себя чувствует пациент?', answer: '¿Cómo se encuentra hoy el paciente?', hint: 'encontrarse' },
-      { russian: 'Мы ввели ему лекарство.', answer: 'Le hemos administrado la medicación.', hint: 'administrar, Pretérito Perfecto' },
-      { russian: 'Врач указал правильное лечение.', answer: 'El médico ha indicado el tratamiento correcto.', hint: 'indicar, Pretérito Perfecto' },
-      { russian: 'Это сняло у него мигрень.', answer: 'Le ha quitado la migraña.', hint: 'quitar, Pretérito Perfecto' },
-      { russian: 'Лекарство вызвало судороги.', answer: 'La medicación ha causado convulsiones.', hint: 'causar, Pretérito Perfecto' },
-      { russian: 'Пациент страдает от печёночной недостаточности.', answer: 'El paciente sufre de un fallo hepático.', hint: 'sufrir de' },
-      { russian: 'Врач вылечил пневмонию.', answer: 'El médico ha curado la neumonía.', hint: 'curar, Pretérito Perfecto' },
-      { russian: 'Это лечится антибиотиками.', answer: 'Eso se trata con antibióticos.', hint: 'tratarse con' },
-      { russian: 'У пациента была эмболия.', answer: 'El paciente ha tenido una embolia.', hint: 'tener, Pretérito Perfecto' },
-      { russian: 'Боль была невыносимой.', answer: 'El dolor era insoportable.', hint: 'ser, Imperfecto' },
-      { russian: 'Медсёстры уже сделали всё возможное.', answer: 'Las enfermeras ya han hecho todo lo posible.', hint: 'hacer, Pretérito Perfecto, participio irregular' },
-      { russian: 'Вы дали ему все лекарства?', answer: '¿Le habéis dado todos los medicamentos?', hint: 'dar, Pretérito Perfecto' },
-      { russian: 'Сегодня утром я видел врача.', answer: 'Esta mañana he visto al médico.', hint: 'ver, Pretérito Perfecto, participio irregular' },
-      { russian: 'Они написали медицинский отчёт.', answer: 'Han escrito el informe médico.', hint: 'escribir, Pretérito Perfecto, participio irregular' },
-      { russian: 'Пациент вернулся в больницу.', answer: 'El paciente ha vuelto al hospital.', hint: 'volver, Pretérito Perfecto, participio irregular' }
+      { russian: 'Как сегодня себя чувствует пациент?', correct: '¿Cómo se encuentra hoy el paciente?', hint: 'encontrarse' },
+      { russian: 'Мы ввели ему лекарство.', correct: 'Le hemos administrado la medicación.', hint: 'administrar, Pretérito Perfecto' },
+      { russian: 'Врач указал правильное лечение.', correct: 'El médico ha indicado el tratamiento correcto.', hint: 'indicar, Pretérito Perfecto' },
+      { russian: 'Это сняло у него мигрень.', correct: 'Le ha quitado la migraña.', hint: 'quitar, Pretérito Perfecto' },
+      { russian: 'Лекарство вызвало судороги.', correct: 'La medicación ha causado convulsiones.', hint: 'causar, Pretérito Perfecto' },
+      { russian: 'Пациент страдает от печёночной недостаточности.', correct: 'El paciente sufre de un fallo hepático.', hint: 'sufrir de' },
+      { russian: 'Врач вылечил пневмонию.', correct: 'El médico ha curado la neumonía.', hint: 'curar, Pretérito Perfecto' },
+      { russian: 'Это лечится антибиотиками.', correct: 'Eso se trata con antibióticos.', hint: 'tratarse con' },
+      { russian: 'У пациента была эмболия.', correct: 'El paciente ha tenido una embolia.', hint: 'tener, Pretérito Perfecto' },
+      { russian: 'Боль была невыносимой.', correct: 'El dolor era insoportable.', hint: 'ser, Imperfecto' },
+      { russian: 'Медсёстры уже сделали всё возможное.', correct: 'Las enfermeras ya han hecho todo lo posible.', hint: 'hacer, Pretérito Perfecto, participio irregular' },
+      { russian: 'Вы дали ему все лекарства?', correct: '¿Le habéis dado todos los medicamentos?', hint: 'dar, Pretérito Perfecto' },
+      { russian: 'Сегодня утром я видел врача.', correct: 'Esta mañana he visto al médico.', hint: 'ver, Pretérito Perfecto, participio irregular' },
+      { russian: 'Они написали медицинский отчёт.', correct: 'Han escrito el informe médico.', hint: 'escribir, Pretérito Perfecto, participio irregular' },
+      { russian: 'Пациент вернулся в больницу.', correct: 'El paciente ha vuelto al hospital.', hint: 'volver, Pretérito Perfecto, participio irregular' }
     ]
   },
 
