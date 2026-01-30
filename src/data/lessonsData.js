@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-17']
+    modules: ['module-11', 'module-12', 'module-17']
   }
 ]
 
@@ -78,6 +78,13 @@ export const modules = {
     level: 'intermediate',
     lessons: ['lesson-11-1', 'lesson-11-2'],
     description: 'Modo subjuntivo: досуг, развлечения, свободное время'
+  },
+  'module-12': {
+    id: 'module-12',
+    title: 'Модуль 12: ОБРАЗОВАНИЕ. Imperfecto de subjuntivo. Придаточные предложения времени и цели',
+    level: 'intermediate',
+    lessons: ['lesson-12-1'],
+    description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
   },
   'module-8': {
     id: 'module-8',
@@ -16212,6 +16219,360 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
       { word: 'el caballo', translation: 'лошадь' },
       { word: 'escapar', translation: 'сбежать, убежать' },
       { word: 'quien sabe', translation: 'кто знает' }
+    ],
+    exercises: []
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: ОБРАЗОВАНИЕ
+  // =============================================
+
+  'lesson-12-1': {
+    id: 'lesson-12-1',
+    title: 'Урок 1: Imperfecto de Subjuntivo (простое прошедшее время сослагательного наклонения)',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Imperfecto de Subjuntivo: Правила и употребление',
+      intro: `**Imperfecto de Subjuntivo** (Pretérito Imperfecto de Subjuntivo) — это простое прошедшее время сослагательного наклонения, которое используется для выражения нереальных, желательных или гипотетических действий в прошлом.
+
+Это время необходимо для согласования времён в сложных предложениях, когда главный глагол стоит в прошедшем времени или в условном наклонении.`,
+      sections: [
+        {
+          id: 'образование',
+          title: '1. Образование Imperfecto de Subjuntivo',
+          content: `## Правило образования
+
+Форма **Imperfecto de Subjuntivo** образуется от основы **3-го лица множественного числа (ellos)** в **Pretérito Indefinido**.
+
+**Алгоритм:**
+1. Возьмите форму **ellos** в Pretérito Indefinido
+2. Отбросьте окончание **-ron**
+3. Добавьте специфические суффиксы
+
+### Два варианта окончаний
+
+Существует **два равноправных варианта** окончаний. Формы на **-ra** универсальны и более распространены, формы на **-se** встречаются реже (чаще в литературе или в Испании).
+
+| Лицо | Окончания (вариант 1) | Окончания (вариант 2) |
+|------|----------------------|----------------------|
+| yo | **-ra** | **-se** |
+| tú | **-ras** | **-ses** |
+| él/ella/usted | **-ra** | **-se** |
+| nosotros/as | **-ramos** ⚠️ | **-semos** ⚠️ |
+| vosotros/as | **-rais** | **-seis** |
+| ellos/ellas/ustedes | **-ran** | **-sen** |
+
+⚠️ **Важно:** В формах **nosotros** ударение падает на гласную **перед** суффиксом (пишется с акцентом): habláramos, comiésemos`
+        },
+        {
+          id: 'примеры-спряжения',
+          title: '2. Примеры спряжения правильных глаголов',
+          content: `### TRABAJAR (работать)
+Pretérito Indefinido: ellos trabaja**ron** → основа: **trabaja-**
+
+| Лицо | Вариант -RA | Вариант -SE |
+|------|-------------|-------------|
+| yo | trabajara | trabajase |
+| tú | trabajaras | trabajases |
+| él/ella | trabajara | trabajase |
+| nosotros | trabajáramos | trabajásemos |
+| vosotros | trabajarais | trabajaseis |
+| ellos | trabajaran | trabajasen |
+
+### COMER (есть)
+Pretérito Indefinido: ellos comie**ron** → основа: **comie-**
+
+| Лицо | Вариант -RA | Вариант -SE |
+|------|-------------|-------------|
+| yo | comiera | comiese |
+| tú | comieras | comieses |
+| él/ella | comiera | comiese |
+| nosotros | comiéramos | comiésemos |
+| vosotros | comierais | comieseis |
+| ellos | comieran | comiesen |
+
+### VIVIR (жить)
+Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
+
+| Лицо | Вариант -RA | Вариант -SE |
+|------|-------------|-------------|
+| yo | viviera | viviese |
+| tú | vivieras | vivieses |
+| él/ella | viviera | viviese |
+| nosotros | viviéramos | viviésemos |
+| vosotros | vivierais | vivieseis |
+| ellos | vivieran | viviesen |`
+        },
+        {
+          id: 'неправильные-глаголы',
+          title: '3. Неправильные глаголы',
+          content: `Поскольку Imperfecto de Subjuntivo образуется от формы **Pretérito Indefinido**, все неправильности этого времени сохраняются.
+
+### Примеры неправильных глаголов:
+
+| Глагол | Indefinido (ellos) | Imperfecto Subj. |
+|--------|-------------------|------------------|
+| **decir** (говорить) | dijeron | dijera / dijese |
+| **hacer** (делать) | hicieron | hiciera / hiciese |
+| **tener** (иметь) | tuvieron | tuviera / tuviese |
+| **estar** (быть) | estuvieron | estuviera / estuviese |
+| **poder** (мочь) | pudieron | pudiera / pudiese |
+| **poner** (класть) | pusieron | pusiera / pusiese |
+| **saber** (знать) | supieron | supiera / supiese |
+| **querer** (хотеть) | quisieron | quisiera / quisiese |
+| **venir** (приходить) | vinieron | viniera / viniese |
+| **ir / ser** | fueron | fuera / fuese |
+| **dar** (давать) | dieron | diera / diese |
+| **dormir** (спать) | durmieron | durmiera / durmiese |
+| **pedir** (просить) | pidieron | pidiera / pidiese |
+| **leer** (читать) | leyeron | leyera / leyese |
+| **traer** (приносить) | trajeron | trajera / trajese |
+
+**⚠️ Обратите внимание:** Глаголы **ir** (идти) и **ser** (быть) имеют одинаковую форму в Pretérito Indefinido, поэтому и в Imperfecto de Subjuntivo они совпадают: **fuera / fuese**`
+        },
+        {
+          id: 'согласование-времен',
+          title: '4. Согласование времён (Concordancia de tiempos)',
+          content: `## Схема согласования времён
+
+**Imperfecto de Subjuntivo** используется в придаточном предложении, когда глагол в главном предложении:
+
+1. Требует **Subjuntivo** (выражает желание, сомнение, эмоции и т.д.)
+2. Стоит в одном из следующих времён:
+   - **Pretérito Indefinido** (я засомневался)
+   - **Pretérito Imperfecto** (я сомневался)
+   - **Potencial Simple / Condicional** (я сомневался бы)
+
+### Таблица согласования:
+
+| Главное предложение | Придаточное предложение |
+|---------------------|------------------------|
+| Pretérito Indefinido | |
+| Pretérito Imperfecto | + **Imperfecto de Subjuntivo** |
+| Potencial Simple | |
+
+### Сравнение с Presente de Subjuntivo:
+
+| Главное предложение | Придаточное |
+|---------------------|-------------|
+| Presente / Futuro / Perfecto | + **Presente de Subjuntivo** |
+| Pasado / Condicional | + **Imperfecto de Subjuntivo** |`
+        },
+        {
+          id: 'примеры-согласования',
+          title: '5. Примеры согласования времён',
+          content: `### Пример с глаголом DUDAR (сомневаться)
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| **Dudo** (Presente) | que Juan **trabaje** | Сомневаюсь, что Хуан работает |
+| **Dudé** (Indefinido) | que Juan **trabajara** | Я засомневался, что Хуан работает |
+| **Dudaba** (Imperfecto) | que Juan **trabajara** | Я сомневался, что Хуан работает |
+| **Dudaría** (Condicional) | que Juan **trabajara** | Я сомневался бы, что Хуан работает |
+
+### Пример с глаголом QUERER (хотеть)
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| **Quiero** | que **vengas** | Хочу, чтобы ты пришёл |
+| **Quería** | que **vinieras** | Я хотел, чтобы ты пришёл |
+| **Querría** | que **vinieras** | Я хотел бы, чтобы ты пришёл |
+
+### Полный пример:
+
+**Yo dudé / dudaba / dudaría que Juan trabajara en la comisaría.**
+
+*Я засомневался / сомневался / сомневался бы, что Хуан работает (работал) в полицейском участке.*
+
+⚠️ **Важно:** Imperfecto de Subjuntivo выражает действие, **одновременное или будущее** по отношению к моменту в прошлом.`
+        },
+        {
+          id: 'употребление-контексты',
+          title: '6. Основные контексты употребления',
+          content: `## Когда используется Imperfecto de Subjuntivo
+
+### 1. После глаголов желания, просьбы, совета в прошлом:
+- *Quería que me **ayudaras*** — Я хотел, чтобы ты мне помог
+- *Le pedí que **viniera*** — Я попросил его прийти
+- *Me aconsejó que **estudiara** más* — Он посоветовал мне больше учиться
+
+### 2. После глаголов эмоций в прошлом:
+- *Me alegré de que **aprobaras*** — Я обрадовался, что ты сдал
+- *Sentía que no **estuvieras** allí* — Мне было жаль, что тебя там не было
+- *Temía que **lloviera*** — Я боялся, что пойдёт дождь
+
+### 3. После глаголов сомнения и отрицания в прошлом:
+- *Dudaba que **supiera** la verdad* — Я сомневался, что он знает правду
+- *No creía que **fuera** posible* — Я не верил, что это возможно
+
+### 4. После безличных выражений в прошлом:
+- *Era importante que **estudiaras*** — Было важно, чтобы ты учился
+- *Era necesario que **llegáramos** a tiempo* — Было необходимо, чтобы мы пришли вовремя
+
+### 5. В условных предложениях II типа (нереальное условие):
+- *Si **tuviera** dinero, viajaría* — Если бы у меня были деньги, я бы путешествовал
+- *Si **pudiera**, te ayudaría* — Если бы я мог, я бы тебе помог`
+        },
+        {
+          id: 'condicionales',
+          title: '7. Условные предложения II типа',
+          content: `## Структура нереального условия в настоящем
+
+**Si + Imperfecto de Subjuntivo, Condicional Simple**
+
+Эта конструкция выражает **нереальное, гипотетическое условие** в настоящем или будущем.
+
+### Примеры:
+
+| Условие (si + Imp. Subj.) | Результат (Condicional) | Перевод |
+|---------------------------|------------------------|---------|
+| Si **tuviera** tiempo | **leería** más | Если бы у меня было время, я бы больше читал |
+| Si **supiera** español | **viajaría** a España | Если бы я знал испанский, я бы поехал в Испанию |
+| Si **fuera** rico | **compraría** una casa | Если бы я был богат, я бы купил дом |
+| Si no **lloviera** | **saldríamos** a pasear | Если бы не шёл дождь, мы бы вышли погулять |
+
+### Важные замечания:
+
+⚠️ **Порядок частей можно менять:**
+- *Si tuviera tiempo, leería más* = *Leería más si tuviera tiempo*
+
+⚠️ **Оба варианта (-ra / -se) возможны:**
+- *Si tuviera...* = *Si tuviese...*
+
+⚠️ **В разговорной речи Condicional иногда заменяется на Imperfecto de Subjuntivo:**
+- *Si tuviera dinero, me comprara un coche* (разговорное)
+- *Si tuviera dinero, me compraría un coche* (стандартное)`
+        },
+        {
+          id: 'ojala',
+          title: '8. Конструкция ¡Ojalá + Imperfecto de Subjuntivo!',
+          content: `## Выражение нереального желания
+
+Восклицание **¡Ojalá!** (Хотя бы! Если бы!) с **Imperfecto de Subjuntivo** выражает желание, которое **маловероятно или невозможно** осуществить.
+
+### Сравнение:
+
+| Конструкция | Значение | Пример |
+|-------------|----------|--------|
+| ¡Ojalá + **Presente Subj.**! | Реальное желание | *¡Ojalá **venga**!* — Хоть бы он пришёл! (возможно) |
+| ¡Ojalá + **Imperfecto Subj.**! | Нереальное желание | *¡Ojalá **viniera**!* — Если бы он пришёл! (маловероятно) |
+
+### Примеры:
+- *¡Ojalá **tuviera** más tiempo!* — Если бы у меня было больше времени!
+- *¡Ojalá **pudiera** volar!* — Если бы я мог летать!
+- *¡Ojalá **estuvieras** aquí!* — Если бы ты был здесь!
+- *¡Ojalá **hiciera** buen tiempo!* — Если бы была хорошая погода!`
+        },
+        {
+          id: 'como-si',
+          title: '9. Конструкция COMO SI (как будто)',
+          content: `## Como si + Imperfecto de Subjuntivo
+
+После выражения **como si** (как будто, как если бы) **всегда** используется **Imperfecto de Subjuntivo**, независимо от времени главного глагола.
+
+### Примеры:
+
+| Главный глагол | Пример | Перевод |
+|----------------|--------|---------|
+| Presente | *Habla como si **supiera** todo* | Он говорит, как будто всё знает |
+| Pasado | *Hablaba como si **supiera** todo* | Он говорил, как будто всё знает |
+| Futuro | *Hablará como si **supiera** todo* | Он будет говорить, как будто всё знает |
+
+### Другие примеры:
+- *Actúa como si **fuera** el jefe* — Он ведёт себя, как будто он начальник
+- *Me miró como si no me **conociera*** — Он посмотрел на меня, как будто меня не знает
+- *Gasta dinero como si **fuera** millonario* — Он тратит деньги, как будто он миллионер
+- *Se comporta como si **tuviera** veinte años* — Она ведёт себя так, будто ей двадцать лет`
+        }
+      ],
+      examples: [
+        { spanish: 'Quería que me ayudaras', translation: 'Я хотел, чтобы ты мне помог' },
+        { spanish: 'Dudaba que supiera la verdad', translation: 'Я сомневался, что он знает правду' },
+        { spanish: 'Si tuviera tiempo, leería más', translation: 'Если бы у меня было время, я бы больше читал' },
+        { spanish: '¡Ojalá estuvieras aquí!', translation: 'Если бы ты был здесь!' },
+        { spanish: 'Habla como si supiera todo', translation: 'Он говорит, как будто всё знает' },
+        { spanish: 'Era importante que estudiaras', translation: 'Было важно, чтобы ты учился' },
+        { spanish: 'Le pedí que viniera temprano', translation: 'Я попросил его прийти рано' },
+        { spanish: 'No creía que fuera posible', translation: 'Я не верил, что это возможно' }
+      ]
+    },
+    vocabulary: [
+      {
+        tab: 'Образование',
+        words: [
+          { word: 'la educación', translation: 'образование', audioUrl: null },
+          { word: 'la enseñanza', translation: 'обучение, преподавание', audioUrl: null },
+          { word: 'el aprendizaje', translation: 'обучение (процесс)', audioUrl: null },
+          { word: 'el colegio', translation: 'школа', audioUrl: null },
+          { word: 'la escuela', translation: 'школа', audioUrl: null },
+          { word: 'el instituto', translation: 'институт, старшая школа', audioUrl: null },
+          { word: 'la universidad', translation: 'университет', audioUrl: null },
+          { word: 'la facultad', translation: 'факультет', audioUrl: null },
+          { word: 'el curso', translation: 'курс', audioUrl: null },
+          { word: 'la asignatura', translation: 'предмет (учебный)', audioUrl: null },
+          { word: 'la materia', translation: 'предмет, дисциплина', audioUrl: null },
+          { word: 'la clase', translation: 'занятие, урок', audioUrl: null },
+          { word: 'la lección', translation: 'урок', audioUrl: null },
+          { word: 'el aula', translation: 'аудитория, класс', audioUrl: null },
+          { word: 'el alumno / la alumna', translation: 'ученик / ученица', audioUrl: null },
+          { word: 'el estudiante', translation: 'студент', audioUrl: null },
+          { word: 'el profesor / la profesora', translation: 'преподаватель', audioUrl: null },
+          { word: 'el maestro / la maestra', translation: 'учитель', audioUrl: null },
+          { word: 'el director / la directora', translation: 'директор', audioUrl: null },
+          { word: 'el decano', translation: 'декан', audioUrl: null },
+          { word: 'el rector', translation: 'ректор', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Учебный процесс',
+        words: [
+          { word: 'estudiar', translation: 'учиться, изучать', audioUrl: null },
+          { word: 'aprender', translation: 'учить, изучать', audioUrl: null },
+          { word: 'enseñar', translation: 'преподавать, учить', audioUrl: null },
+          { word: 'explicar', translation: 'объяснять', audioUrl: null },
+          { word: 'entender', translation: 'понимать', audioUrl: null },
+          { word: 'comprender', translation: 'понимать', audioUrl: null },
+          { word: 'memorizar', translation: 'запоминать', audioUrl: null },
+          { word: 'repasar', translation: 'повторять', audioUrl: null },
+          { word: 'practicar', translation: 'практиковать', audioUrl: null },
+          { word: 'investigar', translation: 'исследовать', audioUrl: null },
+          { word: 'aprobar', translation: 'сдать (экзамен)', audioUrl: null },
+          { word: 'suspender', translation: 'провалить (экзамен)', audioUrl: null },
+          { word: 'graduarse', translation: 'окончить (учебное заведение)', audioUrl: null },
+          { word: 'matricularse', translation: 'записаться, поступить', audioUrl: null },
+          { word: 'el examen', translation: 'экзамен', audioUrl: null },
+          { word: 'la prueba', translation: 'контрольная, тест', audioUrl: null },
+          { word: 'el trabajo', translation: 'работа (письменная)', audioUrl: null },
+          { word: 'los deberes', translation: 'домашнее задание', audioUrl: null },
+          { word: 'la tarea', translation: 'задание', audioUrl: null },
+          { word: 'la nota', translation: 'оценка', audioUrl: null },
+          { word: 'el título', translation: 'диплом, звание', audioUrl: null },
+          { word: 'la beca', translation: 'стипендия', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Школьные принадлежности',
+        words: [
+          { word: 'el libro', translation: 'книга', audioUrl: null },
+          { word: 'el cuaderno', translation: 'тетрадь', audioUrl: null },
+          { word: 'el bolígrafo', translation: 'ручка', audioUrl: null },
+          { word: 'el lápiz', translation: 'карандаш', audioUrl: null },
+          { word: 'la goma', translation: 'ластик', audioUrl: null },
+          { word: 'la regla', translation: 'линейка', audioUrl: null },
+          { word: 'el sacapuntas', translation: 'точилка', audioUrl: null },
+          { word: 'las tijeras', translation: 'ножницы', audioUrl: null },
+          { word: 'el pegamento', translation: 'клей', audioUrl: null },
+          { word: 'la mochila', translation: 'рюкзак', audioUrl: null },
+          { word: 'el estuche', translation: 'пенал', audioUrl: null },
+          { word: 'la pizarra', translation: 'доска', audioUrl: null },
+          { word: 'la tiza', translation: 'мел', audioUrl: null },
+          { word: 'el rotulador', translation: 'маркер', audioUrl: null },
+          { word: 'el ordenador', translation: 'компьютер', audioUrl: null },
+          { word: 'el portátil', translation: 'ноутбук', audioUrl: null },
+          { word: 'la tableta', translation: 'планшет', audioUrl: null },
+          { word: 'el diccionario', translation: 'словарь', audioUrl: null }
+        ]
+      }
     ],
     exercises: []
   }
