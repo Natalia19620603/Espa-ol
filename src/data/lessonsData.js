@@ -16572,6 +16572,72 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
           { word: 'la tableta', translation: 'планшет', audioUrl: null },
           { word: 'el diccionario', translation: 'словарь', audioUrl: null }
         ]
+      },
+      {
+        tab: 'Глагол faltar и falta',
+        words: [
+          { word: 'faltar algo', translation: 'недоставать чего-л.', audioUrl: null },
+          { word: 'faltar a (la reunión, clase)', translation: 'отсутствовать на (собрании, уроке)', audioUrl: null },
+          { word: 'faltar (1 mes, 2 días) para…', translation: 'оставаться (1 месяц, 2 дня) до…', audioUrl: null },
+          { word: 'faltar a (su palabra, su promesa)', translation: 'не сдержать (своё слово, своё обещание)', audioUrl: null },
+          { word: 'faltar a alguien', translation: 'обзывать / оскорблять кого-л.', audioUrl: null },
+          { word: '¡No faltaba más!', translation: 'Ещё чего не хватало!', audioUrl: null },
+          { word: 'la falta', translation: 'ошибка', audioUrl: null },
+          { word: 'sin falta', translation: 'обязательно, непременно', audioUrl: null },
+          { word: 'hace falta', translation: 'необходимо', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Слово título',
+        words: [
+          { word: 'el título (del libro, del artículo)', translation: 'название (книги, статьи)', audioUrl: null },
+          { word: 'el título de licenciado', translation: 'степень бакалавра', audioUrl: null },
+          { word: 'el título de campeón', translation: 'звание чемпиона', audioUrl: null },
+          { word: 'el título de nobleza', translation: 'дворянский титул', audioUrl: null },
+          { word: 'el título de la Constitución', translation: 'раздел Конституции', audioUrl: null },
+          { word: 'los títulos de valor', translation: 'ценные бумаги / облигации', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Система образования',
+        words: [
+          { word: 'la enseñanza primaria', translation: 'начальное образование', audioUrl: null },
+          { word: 'la enseñanza secundaria', translation: 'среднее образование', audioUrl: null },
+          { word: 'la enseñanza superior', translation: 'высшее образование', audioUrl: null },
+          { word: 'la formación profesional', translation: 'специальное/профессиональное образование', audioUrl: null },
+          { word: 'los estudios', translation: 'учёба', audioUrl: null },
+          { word: 'estudiar la carrera / cursar estudios', translation: 'учиться в ВУЗе', audioUrl: null },
+          { word: 'la conferencia', translation: 'лекция', audioUrl: null },
+          { word: 'la carrera universitaria', translation: 'высшее образование / специальность', audioUrl: null },
+          { word: 'la prueba de acceso', translation: 'вступительный экзамен', audioUrl: null },
+          { word: 'la disciplina', translation: 'предмет / дисциплина', audioUrl: null },
+          { word: 'la materia optativa', translation: 'факультатив / предмет по выбору', audioUrl: null },
+          { word: 'los apuntes', translation: 'конспект', audioUrl: null },
+          { word: 'asistir a', translation: 'посещать / присутствовать на', audioUrl: null },
+          { word: 'examinarse de', translation: 'сдавать экзамен по', audioUrl: null },
+          { word: 'la chuleta', translation: 'шпаргалка', audioUrl: null },
+          { word: 'repetir el curso', translation: 'остаться на второй год', audioUrl: null },
+          { word: 'ingresar en', translation: 'поступить в', audioUrl: null },
+          { word: 'el centro docente', translation: 'учебное заведение', audioUrl: null },
+          { word: 'la calificación', translation: 'оценка', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Оценки и степени',
+        words: [
+          { word: 'sacar sobresaliente', translation: 'получить отлично', audioUrl: null },
+          { word: 'sacar notable', translation: 'получить хорошо', audioUrl: null },
+          { word: 'sacar aprobado', translation: 'получить удовлетворительно', audioUrl: null },
+          { word: 'sacar suspenso', translation: 'получить неудовлетворительно', audioUrl: null },
+          { word: 'la matrícula de honor', translation: 'высший балл / диплом с отличием', audioUrl: null },
+          { word: 'la ciencia', translation: 'наука', audioUrl: null },
+          { word: 'la investigación', translation: 'исследование', audioUrl: null },
+          { word: 'la tesis', translation: 'курсовая работа / диплом / диссертация', audioUrl: null },
+          { word: 'el bachillerato', translation: 'старшие классы средней школы', audioUrl: null },
+          { word: 'la licenciatura', translation: 'бакалавриат', audioUrl: null },
+          { word: 'el máster', translation: 'магистратура', audioUrl: null },
+          { word: 'el postgrado', translation: 'аспирантура', audioUrl: null }
+        ]
       }
     ],
     exercises: []
