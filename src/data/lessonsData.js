@@ -104,7 +104,7 @@ export const modules = {
     id: 'module-17',
     title: 'Модуль 17: Литература и культура (1068 слов)',
     level: 'intermediate',
-    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10'],
+    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10', 'lesson-17-11'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -16090,6 +16090,31 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
       { word: 'bromear', translation: 'шутить' },
       { word: 'la broma', translation: 'шутка, розыгрыш' },
       { word: 'chistoso', translation: 'смешной, остроумный' }
+    ],
+    exercises: []
+  },
+  'lesson-17-11': {
+    id: 'lesson-17-11',
+    title: 'Урок 11: Fábulas - Buena suerte, mala suerte',
+    moduleId: 'module-17',
+    videoTabs: [
+      {
+        id: 'video-buena-mala-suerte',
+        tab: 'Buena suerte, mala suerte',
+        videoUrl: '/video/Buena suerte mala suerte.mp4'
+      }
+    ],
+    vocabulary: [
+      { word: 'la fábula', translation: 'басня' },
+      { word: 'la suerte', translation: 'удача, судьба' },
+      { word: 'buena suerte', translation: 'удача, везение' },
+      { word: 'mala suerte', translation: 'неудача, невезение' },
+      { word: 'el destino', translation: 'судьба' },
+      { word: 'la moraleja', translation: 'мораль (басни)' },
+      { word: 'el campesino', translation: 'крестьянин' },
+      { word: 'el caballo', translation: 'лошадь' },
+      { word: 'escapar', translation: 'сбежать, убежать' },
+      { word: 'quien sabe', translation: 'кто знает' }
     ],
     exercises: []
   }
