@@ -17089,7 +17089,7 @@ Antes de que → Всегда Subjuntivo
       ]
     },
     vocabulary: [],
-    exercises: []
+    exercises: ['ex-12-3-1', 'ex-12-3-2', 'ex-12-3-3']
   }
 }
 
@@ -40568,6 +40568,367 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: 'Учитель сказал, что мы пойдем на экскурсию, когда все сдадут экзамен.',
         spanish: 'el profesor dijo que iríamos de excursión cuando todos aprobaran el examen',
         alternatives: ['el maestro dijo que haríamos una excursión cuando todos pasaran el examen']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12, УРОК 3: Упражнения на придаточные цели (de fin)
+  // =============================================
+
+  'ex-12-3-1': {
+    id: 'ex-12-3-1',
+    type: 'subjunctive',
+    title: 'Поставьте глагол в правильную форму Subjuntivo',
+    description: 'Поставьте глагол в скобках в нужную форму сослагательного наклонения (Presente или Imperfecto de Subjuntivo).',
+    questions: [
+      {
+        text: 'Dilo en voz alta para que todos ___ (oír, a ti).',
+        options: ['te oigan', 'te oyen', 'te oirán', 'te oyeron'],
+        correct: 0,
+        explanation: 'После "para que" используется Subjuntivo. "Oír" в Presente de Subjuntivo: oigan. Местоимение "te" ставится перед глаголом.'
+      },
+      {
+        text: '¿Qué tengo que hacer para que tú ___ (creerme)?',
+        options: ['me creas', 'me crees', 'me creerás', 'me creías'],
+        correct: 0,
+        explanation: 'После "para que" используется Presente de Subjuntivo: creas. Местоимение "me" ставится перед глаголом.'
+      },
+      {
+        text: 'Hay que llamar al médico urgentemente a fin de que ___ (examinar, él) al paciente.',
+        options: ['examine', 'examina', 'examinará', 'examinó'],
+        correct: 0,
+        explanation: 'После "a fin de que" всегда Subjuntivo. Presente de Subjuntivo от "examinar": examine.'
+      },
+      {
+        text: 'Invitasteis al señor López para que nosotros ___ (poder) hablar con él en español.',
+        options: ['pudiéramos', 'podemos', 'podíamos', 'podremos'],
+        correct: 0,
+        explanation: 'Главный глагол в прошедшем времени (invitasteis), поэтому используется Imperfecto de Subjuntivo: pudiéramos.'
+      },
+      {
+        text: 'Te traje este libro para que ___ (leerlo y decirme, tú) tu opinión.',
+        options: ['lo leyeras y me dijeras', 'lo lees y me dices', 'lo leerás y me dirás', 'lo leías y me decías'],
+        correct: 0,
+        explanation: 'Главный глагол "traje" в прошедшем времени, поэтому Imperfecto de Subjuntivo: leyeras, dijeras.'
+      },
+      {
+        text: 'Llámala a fin de que ella no ___ (preocuparse).',
+        options: ['se preocupe', 'se preocupa', 'se preocupará', 'se preocupó'],
+        correct: 0,
+        explanation: 'После "a fin de que" используется Subjuntivo. Imperativo "llámala" указывает на настоящее/будущее, поэтому Presente de Subjuntivo.'
+      },
+      {
+        text: 'Te compré este traje para que ___ (ponérselo, tú) el día de la fiesta.',
+        options: ['te lo pusieras', 'te lo pones', 'te lo pondrás', 'te lo ponías'],
+        correct: 0,
+        explanation: 'Главный глагол "compré" в прошедшем времени, поэтому Imperfecto de Subjuntivo: pusieras.'
+      },
+      {
+        text: 'Le he ofrecido a la vecina una pastilla contra insomnio para que ella ___ (tranquilizarse y dormir) bien.',
+        options: ['se tranquilice y duerma', 'se tranquiliza y duerme', 'se tranquilizará y dormirá', 'se tranquilizó y durmió'],
+        correct: 0,
+        explanation: 'Главный глагол "he ofrecido" в Pretérito Perfecto, поэтому используется Presente de Subjuntivo.'
+      },
+      {
+        text: 'Se lo dije a usted para que ___ (saber) de qué se trataba.',
+        options: ['supiera', 'sabe', 'sabrá', 'sabía'],
+        correct: 0,
+        explanation: 'Главный глагол "dije" в прошедшем времени, поэтому Imperfecto de Subjuntivo: supiera.'
+      },
+      {
+        text: 'José me ha enviado un artículo sobre China para que ___ (traducírselo, yo).',
+        options: ['se lo traduzca', 'se lo traduzco', 'se lo traduciré', 'se lo traducía'],
+        correct: 0,
+        explanation: 'Главный глагол "ha enviado" в Pretérito Perfecto, поэтому Presente de Subjuntivo: traduzca.'
+      },
+      {
+        text: 'Te doy este dinero para que ___ (comprarse, tú) algo bonito.',
+        options: ['te compres', 'te compras', 'te comprarás', 'te comprabas'],
+        correct: 0,
+        explanation: 'Главный глагол "doy" в настоящем времени, поэтому Presente de Subjuntivo: compres.'
+      },
+      {
+        text: 'Abrí las ventanas para que ___ (entrar) aire fresco.',
+        options: ['entrara', 'entra', 'entrará', 'entraba'],
+        correct: 0,
+        explanation: 'Главный глагол "abrí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: entrara.'
+      },
+      {
+        text: 'El profesor explica la lección despacio para que los alumnos ___ (entender) todo.',
+        options: ['entiendan', 'entienden', 'entenderán', 'entendían'],
+        correct: 0,
+        explanation: 'Главный глагол "explica" в настоящем времени, поэтому Presente de Subjuntivo: entiendan.'
+      },
+      {
+        text: 'Le escribí una carta a fin de que ___ (conocer, él) mi opinión.',
+        options: ['conociera', 'conoce', 'conocerá', 'conocía'],
+        correct: 0,
+        explanation: 'Главный глагол "escribí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: conociera.'
+      },
+      {
+        text: 'Hablo más alto para que todos ___ (poder) oírme.',
+        options: ['puedan', 'pueden', 'podrán', 'podían'],
+        correct: 0,
+        explanation: 'Главный глагол "hablo" в настоящем времени, поэтому Presente de Subjuntivo: puedan.'
+      }
+    ]
+  },
+
+  'ex-12-3-2': {
+    id: 'ex-12-3-2',
+    type: 'translation',
+    title: 'Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя конструкции para + Infinitivo или para que + Subjuntivo.',
+    questions: [
+      {
+        russian: 'Я тебя приглашаю на концерт, чтобы ты насладилась прекрасной музыкой.',
+        spanish: 'te invito al concierto para que disfrutes de la música maravillosa',
+        alternatives: ['te invito al concierto para que goces de la música preciosa', 'te invito al concierto para que disfrutes de la bella música']
+      },
+      {
+        russian: 'Врач рекомендует тебе это лекарство, чтобы тебя не укачало во время полёта.',
+        spanish: 'el médico te recomienda este medicamento para que no te marees durante el vuelo',
+        alternatives: ['el doctor te recomienda esta medicina para que no te marees durante el vuelo']
+      },
+      {
+        russian: 'Мы собирались провести каникулы в Испании, чтобы купаться в море, загорать и изучать испанский язык.',
+        spanish: 'íbamos a pasar las vacaciones en españa para bañarnos en el mar, tomar el sol y estudiar español',
+        alternatives: ['pensábamos pasar las vacaciones en españa para nadar en el mar, broncearnos y aprender español']
+      },
+      {
+        russian: 'Я достала мясо из холодильника, чтобы приготовить жаркое, и чтобы мы поужинали сегодня дома.',
+        spanish: 'saqué la carne de la nevera para preparar un asado y para que cenáramos hoy en casa',
+        alternatives: ['saqué la carne del frigorífico para hacer un asado y para que cenáramos hoy en casa']
+      },
+      {
+        russian: 'Ты должен поговорить с ним и всё ему объяснить, чтобы он перестал на тебя обижаться.',
+        spanish: 'debes hablar con él y explicarle todo para que deje de estar ofendido contigo',
+        alternatives: ['tienes que hablar con él y explicárselo todo para que deje de enfadarse contigo']
+      },
+      {
+        russian: 'Дайте ребёнку игрушки, чтобы он играл и не мешал нам разговаривать.',
+        spanish: 'den al niño los juguetes para que juegue y no nos moleste hablar',
+        alternatives: ['denle los juguetes al niño para que juegue y no nos interrumpa']
+      },
+      {
+        russian: 'Я принёс этот фильм, чтобы посмотреть его в субботу.',
+        spanish: 'he traído esta película para verla el sábado',
+        alternatives: ['traje esta película para verla el sábado']
+      },
+      {
+        russian: 'Я принёс этот фильм, чтобы вы посмотрели его.',
+        spanish: 'he traído esta película para que ustedes la vean',
+        alternatives: ['traje esta película para que la vieran']
+      },
+      {
+        russian: 'Кармен купила это платье, чтобы надеть его на праздник.',
+        spanish: 'carmen compró este vestido para ponérselo en la fiesta',
+        alternatives: ['carmen se compró este vestido para llevarlo a la fiesta']
+      },
+      {
+        russian: 'Кармен купила это платье, чтобы я его надела на праздник.',
+        spanish: 'carmen compró este vestido para que me lo pusiera en la fiesta',
+        alternatives: ['carmen compró este vestido para que yo me lo pusiera en la fiesta']
+      },
+      {
+        russian: 'Филипп учится и одновременно работает, чтобы чувствовать себя независимым.',
+        spanish: 'felipe estudia y a la vez trabaja para sentirse independiente',
+        alternatives: ['felipe estudia y al mismo tiempo trabaja para sentirse independiente']
+      },
+      {
+        russian: 'Филипп учится и одновременно работает, чтобы родители были довольны.',
+        spanish: 'felipe estudia y a la vez trabaja para que sus padres estén contentos',
+        alternatives: ['felipe estudia y al mismo tiempo trabaja para que sus padres estén satisfechos']
+      },
+      {
+        russian: 'Мы придём к тебе сегодня вечером, чтобы помочь выполнить задание.',
+        spanish: 'vendremos a tu casa esta noche para ayudarte a hacer la tarea',
+        alternatives: ['iremos a verte esta noche para ayudarte con el trabajo']
+      },
+      {
+        russian: 'Мы придём к тебе сегодня вечером, чтобы ты нам помог выполнить задание.',
+        spanish: 'vendremos a tu casa esta noche para que nos ayudes a hacer la tarea',
+        alternatives: ['iremos a verte esta noche para que nos ayudes con el trabajo']
+      },
+      {
+        russian: 'Позвони маме, чтобы она не волновалась.',
+        spanish: 'llama a mamá para que no se preocupe',
+        alternatives: ['llama a tu madre para que no se inquiete']
+      }
+    ]
+  },
+
+  'ex-12-3-3': {
+    id: 'ex-12-3-3',
+    type: 'vocabulary',
+    title: 'Многозначное слово TÍTULO: переведите на русский язык',
+    description: 'Переведите предложения на русский язык, обращая внимание на разные значения слова "título" (звание, титул, название, заголовок, ценные бумаги).',
+    questions: [
+      {
+        text: 'Hace poco nuestro equipo ganó el título de campeón.',
+        options: [
+          'Недавно наша команда завоевала звание чемпиона.',
+          'Недавно наша команда выиграла книгу чемпиона.',
+          'Недавно наша команда получила документ чемпиона.',
+          'Недавно наша команда нашла имя чемпиона.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "звание, титул" — título de campeón = звание чемпиона.'
+      },
+      {
+        text: 'No recuerdo el título de la novela que me has recomendado.',
+        options: [
+          'Я не помню название романа, который ты мне порекомендовал.',
+          'Я не помню звание романа, который ты мне порекомендовал.',
+          'Я не помню автора романа, который ты мне порекомендовал.',
+          'Я не помню цену романа, который ты мне порекомендовал.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" — título de la novela = название романа.'
+      },
+      {
+        text: 'En nuestro país los títulos de nobleza no se reconocen.',
+        options: [
+          'В нашей стране дворянские титулы не признаются.',
+          'В нашей стране названия дворянства не признаются.',
+          'В нашей стране дворянские книги не признаются.',
+          'В нашей стране дворянские документы не признаются.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "титул" — títulos de nobleza = дворянские титулы.'
+      },
+      {
+        text: 'En la Constitución Española de 1978 el título primero está dedicado a los derechos y deberes fundamentales.',
+        options: [
+          'В Конституции Испании 1978 года раздел первый посвящён основным правам и обязанностям.',
+          'В Конституции Испании 1978 года название первое посвящено основным правам и обязанностям.',
+          'В Конституции Испании 1978 года титул первый посвящён основным правам и обязанностям.',
+          'В Конституции Испании 1978 года звание первое посвящено основным правам и обязанностям.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "раздел, глава" (в документах) — título primero = первый раздел.'
+      },
+      {
+        text: 'Quiero cambiar mis títulos de valor por el dinero efectivo.',
+        options: [
+          'Я хочу обменять мои ценные бумаги на наличные деньги.',
+          'Я хочу обменять мои названия ценностей на наличные деньги.',
+          'Я хочу обменять мои титулы ценности на наличные деньги.',
+          'Я хочу обменять мои звания ценности на наличные деньги.'
+        ],
+        correct: 0,
+        explanation: 'Títulos de valor = ценные бумаги (финансовый термин).'
+      },
+      {
+        text: 'Ha obtenido el título de doctor en medicina.',
+        options: [
+          'Он получил звание доктора медицины.',
+          'Он получил название доктора медицины.',
+          'Он получил книгу доктора медицины.',
+          'Он получил ценные бумаги доктора медицины.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "учёная степень, звание" — título de doctor = звание доктора.'
+      },
+      {
+        text: 'El título del artículo no refleja su contenido.',
+        options: [
+          'Заголовок статьи не отражает её содержание.',
+          'Звание статьи не отражает её содержание.',
+          'Титул статьи не отражает её содержание.',
+          'Документ статьи не отражает её содержание.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "заголовок" — título del artículo = заголовок статьи.'
+      },
+      {
+        text: 'La empresa emitió nuevos títulos en la bolsa.',
+        options: [
+          'Компания выпустила новые ценные бумаги на бирже.',
+          'Компания выпустила новые названия на бирже.',
+          'Компания выпустила новые звания на бирже.',
+          'Компания выпустила новые заголовки на бирже.'
+        ],
+        correct: 0,
+        explanation: 'Títulos (в финансовом контексте) = ценные бумаги, акции.'
+      },
+      {
+        text: 'Los títulos nobiliarios fueron abolidos después de la revolución.',
+        options: [
+          'Дворянские титулы были отменены после революции.',
+          'Дворянские названия были отменены после революции.',
+          'Дворянские звания были отменены после революции.',
+          'Дворянские документы были отменены после революции.'
+        ],
+        correct: 0,
+        explanation: 'Títulos nobiliarios = дворянские титулы.'
+      },
+      {
+        text: '¿Cuál es el título de la película que viste ayer?',
+        options: [
+          'Какое название фильма, который ты вчера смотрел?',
+          'Какое звание фильма, который ты вчера смотрел?',
+          'Какой титул фильма, который ты вчера смотрел?',
+          'Какой документ фильма, который ты вчера смотрел?'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" — título de la película = название фильма.'
+      },
+      {
+        text: 'El rey concedió el título de conde a su consejero.',
+        options: [
+          'Король пожаловал титул графа своему советнику.',
+          'Король пожаловал название графа своему советнику.',
+          'Король пожаловал звание графа своему советнику.',
+          'Король пожаловал документ графа своему советнику.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "титул" — título de conde = титул графа.'
+      },
+      {
+        text: 'Necesito tu título universitario para completar el expediente.',
+        options: [
+          'Мне нужен твой университетский диплом, чтобы завершить дело.',
+          'Мне нужно твоё университетское название, чтобы завершить дело.',
+          'Мне нужен твой университетский титул, чтобы завершить дело.',
+          'Мне нужны твои университетские ценные бумаги, чтобы завершить дело.'
+        ],
+        correct: 0,
+        explanation: 'Título universitario = университетский диплом.'
+      },
+      {
+        text: 'El libro tiene un título muy largo y difícil de recordar.',
+        options: [
+          'У книги очень длинное и трудное для запоминания название.',
+          'У книги очень длинное и трудное для запоминания звание.',
+          'У книги очень длинный и трудный для запоминания титул.',
+          'У книги очень длинный и трудный для запоминания документ.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" книги.'
+      },
+      {
+        text: 'A título personal, creo que es una mala decisión.',
+        options: [
+          'Лично я считаю, что это плохое решение.',
+          'По названию я считаю, что это плохое решение.',
+          'По званию я считаю, что это плохое решение.',
+          'По документу я считаю, что это плохое решение.'
+        ],
+        correct: 0,
+        explanation: 'A título personal — устойчивое выражение, означающее "лично, от себя лично".'
+      },
+      {
+        text: 'Los inversores prefieren títulos de renta fija.',
+        options: [
+          'Инвесторы предпочитают облигации с фиксированным доходом.',
+          'Инвесторы предпочитают названия с фиксированным доходом.',
+          'Инвесторы предпочитают звания с фиксированным доходом.',
+          'Инвесторы предпочитают титулы с фиксированным доходом.'
+        ],
+        correct: 0,
+        explanation: 'Títulos de renta fija = облигации, ценные бумаги с фиксированным доходом.'
       }
     ]
   }
