@@ -16652,6 +16652,7 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
         ]
       }
     ],
+    exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5']
   },
 
   // =============================================
@@ -38666,6 +38667,805 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { question: 'Según el video, ¿cuál es la finalidad de nuestra vida?', type: 'open' },
       { question: '¿Qué relación hace el video entre la supraconciencia y la felicidad?', type: 'open' },
       { question: '¿Qué comparación se hace con las experiencias cercanas a la muerte?', type: 'open' }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 1 - УПРАЖНЕНИЯ
+  // =============================================
+
+  'ex-12-1-1': {
+    id: 'ex-12-1-1',
+    type: 'subjunctive',
+    title: 'Поставьте глаголы в Imperfecto de Subjuntivo',
+    description: 'Поставьте глаголы в скобках в соответствующую форму Imperfecto de Subjuntivo',
+    questions: [
+      {
+        text: 'Elena quiso que yo (esperarla).',
+        options: ['la esperara', 'la esperaba', 'la esperé', 'la espero'],
+        correct: 0,
+        explanation: 'После глагола quiso (прошедшее время) в придаточном используется Imperfecto de Subjuntivo: la esperara.'
+      },
+      {
+        text: 'Era necesario que (leer, tú) esta novela.',
+        options: ['leías', 'leas', 'leyeras', 'leíste'],
+        correct: 2,
+        explanation: 'После безличного выражения "era necesario que" требуется Imperfecto de Subjuntivo: leyeras.'
+      },
+      {
+        text: 'Nos asustamos de que ellos (llegar) tarde y no (traer) la medicina a tiempo.',
+        options: ['llegaron / trajeron', 'llegaran / trajeran', 'llegan / traen', 'lleguen / traigan'],
+        correct: 1,
+        explanation: 'После глагола эмоции в прошедшем времени используется Imperfecto de Subjuntivo: llegaran, trajeran.'
+      },
+      {
+        text: 'Le pediste a Gabriel que no (mentirnos) sino (decirnos) la verdad.',
+        options: ['nos mintiera / nos dijera', 'nos mentía / nos decía', 'nos mienta / nos diga', 'nos mintió / nos dijo'],
+        correct: 0,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: nos mintiera, nos dijera.'
+      },
+      {
+        text: 'Era deseable que alguien (quedarse) en casa y (poner) orden.',
+        options: ['se quedaba / ponía', 'se quede / ponga', 'se quedara / pusiera', 'se quedó / puso'],
+        correct: 2,
+        explanation: 'После безличного выражения "era deseable que" требуется Imperfecto de Subjuntivo: se quedara, pusiera.'
+      },
+      {
+        text: 'Mis amigos dudaban que yo (conducir) bien el coche e insistieron en que (ir, nosotros) en autobús.',
+        options: ['conducía / íbamos', 'conduzca / vayamos', 'condujera / fuéramos', 'conduje / fuimos'],
+        correct: 2,
+        explanation: 'После глаголов сомнения и настояния в прошедшем времени используется Imperfecto de Subjuntivo: condujera, fuéramos.'
+      },
+      {
+        text: 'La camarera nos propuso que (elegir, nosotros) platos combinados.',
+        options: ['elegimos', 'elijamos', 'eligiéramos', 'elegíamos'],
+        correct: 2,
+        explanation: 'После глагола предложения в прошедшем времени используется Imperfecto de Subjuntivo: eligiéramos.'
+      },
+      {
+        text: 'Nos indignaba que el jefe (rechazar) todos nuestros proyectos.',
+        options: ['rechaza', 'rechazara', 'rechazó', 'rechace'],
+        correct: 1,
+        explanation: 'После глагола эмоции в Imperfecto требуется Imperfecto de Subjuntivo: rechazara.'
+      },
+      {
+        text: 'Era sorprendente que el niño (saber) tocar con maestría tres instrumentos musicales.',
+        options: ['sabía', 'sabe', 'supiera', 'supo'],
+        correct: 2,
+        explanation: 'После безличного выражения "era sorprendente que" требуется Imperfecto de Subjuntivo: supiera.'
+      },
+      {
+        text: 'Los amigos os desearon que (divertirse) bien en la fiesta.',
+        options: ['os divertíais', 'os divirtierais', 'os divertís', 'os divirtáis'],
+        correct: 1,
+        explanation: 'После глагола пожелания в прошедшем времени используется Imperfecto de Subjuntivo: os divirtierais.'
+      },
+      {
+        text: 'No me imaginaba que tú (ponerse) zapatos de tacón para ir de excursión a las montañas.',
+        options: ['te ponías', 'te pusieras', 'te pones', 'te pongas'],
+        correct: 1,
+        explanation: 'После "no me imaginaba que" требуется Imperfecto de Subjuntivo: te pusieras.'
+      },
+      {
+        text: 'No era cierto que ellos (venir) a tiempo.',
+        options: ['venían', 'vienen', 'vinieran', 'vinieron'],
+        correct: 2,
+        explanation: 'После отрицательного безличного выражения "no era cierto que" требуется Imperfecto de Subjuntivo: vinieran.'
+      },
+      {
+        text: 'La madre me rogó que yo (pedir) hora para el viernes.',
+        options: ['pedía', 'pida', 'pidiera', 'pedí'],
+        correct: 2,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: pidiera.'
+      },
+      {
+        text: 'Nos preocupábamos de que nuestro hijo no (querer) estudiar y tampoco (tener) ganas de practicar algún deporte.',
+        options: ['quería / tenía', 'quiera / tenga', 'quisiera / tuviera', 'quiso / tuvo'],
+        correct: 2,
+        explanation: 'После глагола эмоции в Imperfecto требуется Imperfecto de Subjuntivo: quisiera, tuviera.'
+      },
+      {
+        text: 'Fue una lástima que vosotros no (poder) asistir al estreno.',
+        options: ['podíais', 'podéis', 'pudierais', 'pudisteis'],
+        correct: 2,
+        explanation: 'После "fue una lástima que" требуется Imperfecto de Subjuntivo: pudierais.'
+      }
+    ]
+  },
+
+  'ex-12-1-2': {
+    id: 'ex-12-1-2',
+    type: 'subjunctive',
+    title: 'Прямая речь → Косвенная речь',
+    description: 'Трансформируйте предложения из прямой речи в косвенную',
+    questions: [
+      {
+        text: 'La madre me rogó: "Conduce con mucho cuidado porque hay mucha niebla."',
+        options: [
+          'La madre me rogó que condujera con mucho cuidado porque había mucha niebla.',
+          'La madre me rogó que conduzca con mucho cuidado porque hay mucha niebla.',
+          'La madre me rogó que conducía con mucho cuidado porque había mucha niebla.',
+          'La madre me rogó que conduciría con mucho cuidado porque habría mucha niebla.'
+        ],
+        correct: 0,
+        explanation: 'При переводе в косвенную речь после глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo.'
+      },
+      {
+        text: 'La dependienta aconsejó: "Señora, pruébese esta chaqueta de lino, está de moda."',
+        options: [
+          'La dependienta aconsejó que la señora se pruebe esta chaqueta de lino.',
+          'La dependienta aconsejó a la señora que se probara aquella chaqueta de lino porque estaba de moda.',
+          'La dependienta aconsejó que la señora se probaba aquella chaqueta de lino.',
+          'La dependienta aconsejó que la señora se probaría aquella chaqueta de lino.'
+        ],
+        correct: 1,
+        explanation: 'Глагол совета в прошедшем времени требует Imperfecto de Subjuntivo в косвенной речи.'
+      },
+      {
+        text: 'Los padres ordenaron: "¡Hijos, almorzad hoy en casa porque la abuela ha preparado fabada para todos!"',
+        options: [
+          'Los padres ordenaron que los hijos almorzaran en casa porque la abuela había preparado fabada para todos.',
+          'Los padres ordenaron que los hijos almuercen en casa.',
+          'Los padres ordenaron que los hijos almorzaban en casa.',
+          'Los padres ordenaron que los hijos almorzarían en casa.'
+        ],
+        correct: 0,
+        explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: almorzaran.'
+      },
+      {
+        text: 'El recepcionista nos repitió: "Señores, paguen, por favor, la suma indicada antes de las doce de la tarde."',
+        options: [
+          'El recepcionista nos repitió que pagáramos la suma indicada antes de las doce de la tarde.',
+          'El recepcionista nos repitió que paguemos la suma indicada.',
+          'El recepcionista nos repitió que pagamos la suma indicada.',
+          'El recepcionista nos repitió que pagaríamos la suma indicada.'
+        ],
+        correct: 0,
+        explanation: 'При переводе императива в косвенную речь после глагола в прошедшем времени используется Imperfecto de Subjuntivo.'
+      },
+      {
+        text: 'La abuela me pidió: "Ve a la cocina y tráeme un vaso de agua."',
+        options: [
+          'La abuela me pidió que vaya a la cocina y le traiga un vaso de agua.',
+          'La abuela me pidió que fuera a la cocina y le trajera un vaso de agua.',
+          'La abuela me pidió que iba a la cocina y le traía un vaso de agua.',
+          'La abuela me pidió que iría a la cocina y le traería un vaso de agua.'
+        ],
+        correct: 1,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: fuera, trajera.'
+      },
+      {
+        text: 'Los amigos me escribieron: "Ten paciencia, no te enfades con tu tía."',
+        options: [
+          'Los amigos me escribieron que tenga paciencia y no me enfade con mi tía.',
+          'Los amigos me escribieron que tuviera paciencia y no me enfadara con mi tía.',
+          'Los amigos me escribieron que tenía paciencia y no me enfadaba con mi tía.',
+          'Los amigos me escribieron que tendría paciencia y no me enfadaría con mi tía.'
+        ],
+        correct: 1,
+        explanation: 'При переводе императива в косвенную речь требуется Imperfecto de Subjuntivo: tuviera, enfadara.'
+      },
+      {
+        text: 'El director nos advirtió: "Vengan media hora antes de la reunión."',
+        options: [
+          'El director nos advirtió que vengamos media hora antes de la reunión.',
+          'El director nos advirtió que viniéramos media hora antes de la reunión.',
+          'El director nos advirtió que veníamos media hora antes de la reunión.',
+          'El director nos advirtió que vendríamos media hora antes de la reunión.'
+        ],
+        correct: 1,
+        explanation: 'После глагола предупреждения в прошедшем времени используется Imperfecto de Subjuntivo: viniéramos.'
+      },
+      {
+        text: 'Ana le propuso a su hijo: "Ve alguna película de dibujos animados mientras yo preparo la cena."',
+        options: [
+          'Ana le propuso a su hijo que vea alguna película de dibujos animados.',
+          'Ana le propuso a su hijo que fuera a ver alguna película de dibujos animados mientras ella preparaba la cena.',
+          'Ana le propuso a su hijo que iba a ver alguna película de dibujos animados.',
+          'Ana le propuso a su hijo que iría a ver alguna película de dibujos animados.'
+        ],
+        correct: 1,
+        explanation: 'Глагол предложения в прошедшем времени требует Imperfecto de Subjuntivo в придаточном.'
+      },
+      {
+        text: 'El policía nos gritó: "¡Deténganse y presenten sus pasaportes!"',
+        options: [
+          'El policía nos gritó que nos detengamos y presentemos nuestros pasaportes.',
+          'El policía nos gritó que nos detuviéramos y presentáramos nuestros pasaportes.',
+          'El policía nos gritó que nos deteníamos y presentábamos nuestros pasaportes.',
+          'El policía nos gritó que nos detendríamos y presentaríamos nuestros pasaportes.'
+        ],
+        correct: 1,
+        explanation: 'При переводе императива в косвенную речь после глагола в прошедшем времени используется Imperfecto de Subjuntivo.'
+      },
+      {
+        text: 'El profesor insistía: "Apagad los móviles, traducid el texto sin consultar el diccionario."',
+        options: [
+          'El profesor insistía en que apaguemos los móviles y traduzcamos el texto.',
+          'El profesor insistía en que apagáramos los móviles y tradujéramos el texto sin consultar el diccionario.',
+          'El profesor insistía en que apagábamos los móviles y traducíamos el texto.',
+          'El profesor insistía en que apagaríamos los móviles y traduciríamos el texto.'
+        ],
+        correct: 1,
+        explanation: 'После глагола настояния в Imperfecto требуется Imperfecto de Subjuntivo: apagáramos, tradujéramos.'
+      },
+      {
+        text: 'Mi jefe me dijo: "Termina el informe antes de las cinco."',
+        options: [
+          'Mi jefe me dijo que termine el informe antes de las cinco.',
+          'Mi jefe me dijo que terminara el informe antes de las cinco.',
+          'Mi jefe me dijo que terminaba el informe antes de las cinco.',
+          'Mi jefe me dijo que terminaría el informe antes de las cinco.'
+        ],
+        correct: 1,
+        explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: terminara.'
+      },
+      {
+        text: 'El médico recomendó: "Descanse más y evite el estrés."',
+        options: [
+          'El médico recomendó que descanse más y evite el estrés.',
+          'El médico recomendó que descansara más y evitara el estrés.',
+          'El médico recomendó que descansaba más y evitaba el estrés.',
+          'El médico recomendó que descansaría más y evitaría el estrés.'
+        ],
+        correct: 1,
+        explanation: 'После глагола рекомендации в прошедшем времени используется Imperfecto de Subjuntivo: descansara, evitara.'
+      },
+      {
+        text: 'La profesora nos pidió: "Escribid vuestros nombres en la hoja."',
+        options: [
+          'La profesora nos pidió que escribamos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribiéramos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribíamos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribiríamos nuestros nombres en la hoja.'
+        ],
+        correct: 1,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: escribiéramos.'
+      },
+      {
+        text: 'El entrenador ordenó: "Corred cinco vueltas al campo."',
+        options: [
+          'El entrenador ordenó que corramos cinco vueltas al campo.',
+          'El entrenador ordenó que corriéramos cinco vueltas al campo.',
+          'El entrenador ordenó que corríamos cinco vueltas al campo.',
+          'El entrenador ordenó que correríamos cinco vueltas al campo.'
+        ],
+        correct: 1,
+        explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: corriéramos.'
+      },
+      {
+        text: 'Mi madre me sugirió: "Llama a tu hermano y pídele perdón."',
+        options: [
+          'Mi madre me sugirió que llame a mi hermano y le pida perdón.',
+          'Mi madre me sugirió que llamara a mi hermano y le pidiera perdón.',
+          'Mi madre me sugirió que llamaba a mi hermano y le pedía perdón.',
+          'Mi madre me sugirió que llamaría a mi hermano y le pediría perdón.'
+        ],
+        correct: 1,
+        explanation: 'После глагола предложения в прошедшем времени используется Imperfecto de Subjuntivo: llamara, pidiera.'
+      }
+    ]
+  },
+
+  'ex-12-1-3': {
+    id: 'ex-12-1-3',
+    type: 'subjunctive',
+    title: 'Простые предложения → Придаточные дополнительные',
+    description: 'Замените простые предложения на придаточные дополнительные. Глагол главного предложения должен выражать сомнение или эмоции.',
+    questions: [
+      {
+        text: 'Practico la natación. → Juan no creyó que yo...',
+        options: [
+          'practico la natación.',
+          'practicaba la natación.',
+          'practicara la natación.',
+          'practique la natación.'
+        ],
+        correct: 2,
+        explanation: 'После "no creyó que" требуется Imperfecto de Subjuntivo: practicara.'
+      },
+      {
+        text: 'Queremos ir a África. → Mis padres se sorprendieron de que nosotros...',
+        options: [
+          'queremos ir a África.',
+          'queríamos ir a África.',
+          'quisiéramos ir a África.',
+          'queramos ir a África.'
+        ],
+        correct: 2,
+        explanation: 'После "se sorprendieron de que" требуется Imperfecto de Subjuntivo: quisiéramos.'
+      },
+      {
+        text: 'Petra y tú sabéis bailar flamenco. → Me alegré de que Petra y tú...',
+        options: [
+          'sabéis bailar flamenco.',
+          'sabíais bailar flamenco.',
+          'supierais bailar flamenco.',
+          'sepáis bailar flamenco.'
+        ],
+        correct: 2,
+        explanation: 'После "me alegré de que" требуется Imperfecto de Subjuntivo: supierais.'
+      },
+      {
+        text: 'Me duele la cabeza y no tengo apetito. → A mi madre le preocupaba que a mí...',
+        options: [
+          'me duele la cabeza y no tengo apetito.',
+          'me dolía la cabeza y no tenía apetito.',
+          'me doliera la cabeza y no tuviera apetito.',
+          'me duela la cabeza y no tenga apetito.'
+        ],
+        correct: 2,
+        explanation: 'После "le preocupaba que" требуется Imperfecto de Subjuntivo: doliera, tuviera.'
+      },
+      {
+        text: 'En la playa no hay gente. → Nos extrañó que en la playa no...',
+        options: [
+          'hay gente.',
+          'había gente.',
+          'hubiera gente.',
+          'haya gente.'
+        ],
+        correct: 2,
+        explanation: 'После "nos extrañó que" требуется Imperfecto de Subjuntivo: hubiera.'
+      },
+      {
+        text: 'Duermes poco y trabajas mucho. → El médico temía que tú...',
+        options: [
+          'duermes poco y trabajas mucho.',
+          'dormías poco y trabajabas mucho.',
+          'durmieras poco y trabajaras mucho.',
+          'duermas poco y trabajes mucho.'
+        ],
+        correct: 2,
+        explanation: 'После "temía que" требуется Imperfecto de Subjuntivo: durmieras, trabajaras.'
+      },
+      {
+        text: 'Se niegan a continuar el trabajo. → El jefe no comprendía que ellos...',
+        options: [
+          'se niegan a continuar el trabajo.',
+          'se negaban a continuar el trabajo.',
+          'se negaran a continuar el trabajo.',
+          'se nieguen a continuar el trabajo.'
+        ],
+        correct: 2,
+        explanation: 'После "no comprendía que" требуется Imperfecto de Subjuntivo: se negaran.'
+      },
+      {
+        text: 'Elena hace ejercicios de español todos los días. → A su profesora le encantaba que Elena...',
+        options: [
+          'hace ejercicios de español todos los días.',
+          'hacía ejercicios de español todos los días.',
+          'hiciera ejercicios de español todos los días.',
+          'haga ejercicios de español todos los días.'
+        ],
+        correct: 2,
+        explanation: 'После "le encantaba que" требуется Imperfecto de Subjuntivo: hiciera.'
+      },
+      {
+        text: 'Ellos están aquí muy a gusto. → Dudábamos que ellos...',
+        options: [
+          'están aquí muy a gusto.',
+          'estaban aquí muy a gusto.',
+          'estuvieran aquí muy a gusto.',
+          'estén aquí muy a gusto.'
+        ],
+        correct: 2,
+        explanation: 'После "dudábamos que" требуется Imperfecto de Subjuntivo: estuvieran.'
+      },
+      {
+        text: 'Su hijo siempre le miente. → A la madre le dolía que su hijo siempre le...',
+        options: [
+          'miente.',
+          'mentía.',
+          'mintiera.',
+          'mienta.'
+        ],
+        correct: 2,
+        explanation: 'После "le dolía que" требуется Imperfecto de Subjuntivo: mintiera.'
+      },
+      {
+        text: 'Mario no conduce el coche. → Nos sorprendió que Mario no...',
+        options: [
+          'conduce el coche.',
+          'conducía el coche.',
+          'condujera el coche.',
+          'conduzca el coche.'
+        ],
+        correct: 2,
+        explanation: 'После "nos sorprendió que" требуется Imperfecto de Subjuntivo: condujera.'
+      },
+      {
+        text: 'Viven en el extranjero. → A sus padres les entristecía que ellos...',
+        options: [
+          'viven en el extranjero.',
+          'vivían en el extranjero.',
+          'vivieran en el extranjero.',
+          'vivan en el extranjero.'
+        ],
+        correct: 2,
+        explanation: 'После "les entristecía que" требуется Imperfecto de Subjuntivo: vivieran.'
+      },
+      {
+        text: 'No tenemos tiempo libre. → El profesor lamentaba que nosotros no...',
+        options: [
+          'tenemos tiempo libre.',
+          'teníamos tiempo libre.',
+          'tuviéramos tiempo libre.',
+          'tengamos tiempo libre.'
+        ],
+        correct: 2,
+        explanation: 'После "lamentaba que" требуется Imperfecto de Subjuntivo: tuviéramos.'
+      },
+      {
+        text: 'Siempre llego tarde. → Mi jefe se quejaba de que yo siempre...',
+        options: [
+          'llego tarde.',
+          'llegaba tarde.',
+          'llegara tarde.',
+          'llegue tarde.'
+        ],
+        correct: 2,
+        explanation: 'После "se quejaba de que" требуется Imperfecto de Subjuntivo: llegara.'
+      },
+      {
+        text: 'No saben la verdad. → Era mejor que ellos no...',
+        options: [
+          'saben la verdad.',
+          'sabían la verdad.',
+          'supieran la verdad.',
+          'sepan la verdad.'
+        ],
+        correct: 2,
+        explanation: 'После "era mejor que" требуется Imperfecto de Subjuntivo: supieran.'
+      }
+    ]
+  },
+
+  'ex-12-1-4': {
+    id: 'ex-12-1-4',
+    type: 'subjunctive',
+    title: 'Закончите предложения (Ahora / Antes)',
+    description: 'Закончите предложения, используя Imperfecto de Subjuntivo для выражения прошлого.',
+    questions: [
+      {
+        text: 'Ahora me gusta que mis amigos vengan a casa sin avisarme. Antes no soportaba que mis amigos...',
+        options: [
+          'vengan a casa sin avisarme.',
+          'vienen a casa sin avisarme.',
+          'vinieran a casa sin avisarme.',
+          'venían a casa sin avisarme.'
+        ],
+        correct: 2,
+        explanation: 'После "no soportaba que" требуется Imperfecto de Subjuntivo: vinieran.'
+      },
+      {
+        text: 'Ahora me da igual que la gente hable mal de mí. Antes no podía aguantar que la gente...',
+        options: [
+          'hable mal de mí.',
+          'habla mal de mí.',
+          'hablara mal de mí.',
+          'hablaba mal de mí.'
+        ],
+        correct: 2,
+        explanation: 'После "no podía aguantar que" требуется Imperfecto de Subjuntivo: hablara.'
+      },
+      {
+        text: 'Ahora no me importa que mi novio no vista con elegancia. Antes me parecía intolerable que mi novio no...',
+        options: [
+          'vista con elegancia.',
+          'viste con elegancia.',
+          'vistiera con elegancia.',
+          'vestía con elegancia.'
+        ],
+        correct: 2,
+        explanation: 'После "me parecía intolerable que" требуется Imperfecto de Subjuntivo: vistiera.'
+      },
+      {
+        text: 'Ahora me deja indiferente que mis amigos no sean puntuales. Antes me indignaba que mis amigos no...',
+        options: [
+          'sean puntuales.',
+          'son puntuales.',
+          'fueran puntuales.',
+          'eran puntuales.'
+        ],
+        correct: 2,
+        explanation: 'После "me indignaba que" требуется Imperfecto de Subjuntivo: fueran.'
+      },
+      {
+        text: 'Ahora no me importa que me hagan cantar al público. Antes me daba vergüenza que...',
+        options: [
+          'me hagan cantar al público.',
+          'me hacen cantar al público.',
+          'me hicieran cantar al público.',
+          'me hacían cantar al público.'
+        ],
+        correct: 2,
+        explanation: 'После "me daba vergüenza que" требуется Imperfecto de Subjuntivo: hicieran.'
+      },
+      {
+        text: 'Ahora me da risa que mi marido me dedique poesías. Antes me encantaba que mi marido me...',
+        options: [
+          'dedique poesías.',
+          'dedica poesías.',
+          'dedicara poesías.',
+          'dedicaba poesías.'
+        ],
+        correct: 2,
+        explanation: 'После "me encantaba que" требуется Imperfecto de Subjuntivo: dedicara.'
+      },
+      {
+        text: 'Ahora no me importa que ellos no me feliciten con mi cumpleaños. Antes me daba pena que ellos no me...',
+        options: [
+          'feliciten con mi cumpleaños.',
+          'felicitan con mi cumpleaños.',
+          'felicitaran con mi cumpleaños.',
+          'felicitaban con mi cumpleaños.'
+        ],
+        correct: 2,
+        explanation: 'После "me daba pena que" требуется Imperfecto de Subjuntivo: felicitaran.'
+      },
+      {
+        text: 'Ahora me sorprende que tú no me pidas consejos. Antes no aguantaba que tú me...',
+        options: [
+          'pidas consejos.',
+          'pides consejos.',
+          'pidieras consejos.',
+          'pedías consejos.'
+        ],
+        correct: 2,
+        explanation: 'После "no aguantaba que" требуется Imperfecto de Subjuntivo: pidieras.'
+      },
+      {
+        text: 'Ahora me alegra que mi hermana tenga una familia numerosa. Antes me molestaba que mi hermana...',
+        options: [
+          'tenga una familia numerosa.',
+          'tiene una familia numerosa.',
+          'tuviera una familia numerosa.',
+          'tenía una familia numerosa.'
+        ],
+        correct: 2,
+        explanation: 'После "me molestaba que" требуется Imperfecto de Subjuntivo: tuviera.'
+      },
+      {
+        text: 'Ahora no me preocupa que nuestro vecino me mienta. Antes me enfadaba que nuestro vecino me...',
+        options: [
+          'mienta.',
+          'miente.',
+          'mintiera.',
+          'mentía.'
+        ],
+        correct: 2,
+        explanation: 'После "me enfadaba que" требуется Imperfecto de Subjuntivo: mintiera.'
+      },
+      {
+        text: 'Ahora acepto que mi hijo sea diferente. Antes me costaba aceptar que mi hijo...',
+        options: [
+          'sea diferente.',
+          'es diferente.',
+          'fuera diferente.',
+          'era diferente.'
+        ],
+        correct: 2,
+        explanation: 'После "me costaba aceptar que" требуется Imperfecto de Subjuntivo: fuera.'
+      },
+      {
+        text: 'Ahora me parece bien que trabajen desde casa. Antes me parecía mal que...',
+        options: [
+          'trabajen desde casa.',
+          'trabajan desde casa.',
+          'trabajaran desde casa.',
+          'trabajaban desde casa.'
+        ],
+        correct: 2,
+        explanation: 'После "me parecía mal que" требуется Imperfecto de Subjuntivo: trabajaran.'
+      },
+      {
+        text: 'Ahora no me molesta que llegues tarde. Antes me irritaba que...',
+        options: [
+          'llegues tarde.',
+          'llegas tarde.',
+          'llegaras tarde.',
+          'llegabas tarde.'
+        ],
+        correct: 2,
+        explanation: 'После "me irritaba que" требуется Imperfecto de Subjuntivo: llegaras.'
+      },
+      {
+        text: 'Ahora me da igual que no me inviten. Antes me ofendía que no me...',
+        options: [
+          'inviten.',
+          'invitan.',
+          'invitaran.',
+          'invitaban.'
+        ],
+        correct: 2,
+        explanation: 'После "me ofendía que" требуется Imperfecto de Subjuntivo: invitaran.'
+      },
+      {
+        text: 'Ahora entiendo que necesites tiempo. Antes no comprendía que...',
+        options: [
+          'necesites tiempo.',
+          'necesitas tiempo.',
+          'necesitaras tiempo.',
+          'necesitabas tiempo.'
+        ],
+        correct: 2,
+        explanation: 'После "no comprendía que" требуется Imperfecto de Subjuntivo: necesitaras.'
+      }
+    ]
+  },
+
+  'ex-12-1-5': {
+    id: 'ex-12-1-5',
+    type: 'subjunctive',
+    title: 'Перевод на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя Imperfecto de Subjuntivo.',
+    questions: [
+      {
+        text: 'Мама не хотела, чтобы мой брат мне помогал делать уроки, она настаивала, чтобы я сам выполнял все задания.',
+        options: [
+          'Mi madre no quería que mi hermano me ayudara a hacer los deberes, insistía en que yo mismo hiciera todas las tareas.',
+          'Mi madre no quería que mi hermano me ayude a hacer los deberes, insistía en que yo mismo haga todas las tareas.',
+          'Mi madre no quería que mi hermano me ayudaba a hacer los deberes, insistía en que yo mismo hacía todas las tareas.',
+          'Mi madre no quiere que mi hermano me ayude a hacer los deberes, insiste en que yo mismo haga todas las tareas.'
+        ],
+        correct: 0,
+        explanation: 'После глаголов "no quería que" и "insistía en que" требуется Imperfecto de Subjuntivo: ayudara, hiciera.'
+      },
+      {
+        text: 'Директор сказал, что он ждет важного клиента, и чтобы секретарь принесла ему все необходимые документы.',
+        options: [
+          'El director dijo que esperaba a un cliente importante y que la secretaria le trajera todos los documentos necesarios.',
+          'El director dijo que esperaba a un cliente importante y que la secretaria le traiga todos los documentos necesarios.',
+          'El director dijo que espera a un cliente importante y que la secretaria le traiga todos los documentos necesarios.',
+          'El director dice que espera a un cliente importante y que la secretaria le traiga todos los documentos necesarios.'
+        ],
+        correct: 0,
+        explanation: 'Косвенная речь после "dijo que" требует согласования времен: esperaba (Imperfecto), trajera (Imperfecto de Subjuntivo).'
+      },
+      {
+        text: 'Врач запретил мне ехать на море, и посоветовал находиться поменьше на солнце.',
+        options: [
+          'El médico me prohibió que fuera al mar y me aconsejó que estuviera menos tiempo al sol.',
+          'El médico me prohibió que vaya al mar y me aconsejó que esté menos tiempo al sol.',
+          'El médico me prohíbe que vaya al mar y me aconseja que esté menos tiempo al sol.',
+          'El médico me prohibió ir al mar y me aconsejó estar menos tiempo al sol.'
+        ],
+        correct: 0,
+        explanation: 'После глаголов "prohibió que" и "aconsejó que" требуется Imperfecto de Subjuntivo: fuera, estuviera.'
+      },
+      {
+        text: 'Было странно, что Теодоро знает о нашем секрете, ведь я просила тебя ничего ему не говорить.',
+        options: [
+          'Era extraño que Teodoro supiera de nuestro secreto, pues yo te había pedido que no le dijeras nada.',
+          'Era extraño que Teodoro sepa de nuestro secreto, pues yo te había pedido que no le digas nada.',
+          'Es extraño que Teodoro sepa de nuestro secreto, pues yo te he pedido que no le digas nada.',
+          'Era extraño que Teodoro sabía de nuestro secreto, pues yo te había pedido que no le decías nada.'
+        ],
+        correct: 0,
+        explanation: 'После "era extraño que" и "había pedido que" требуется Imperfecto de Subjuntivo: supiera, dijeras.'
+      },
+      {
+        text: 'Донье Исабель было приятно, что внуки проводят с ней каникулы, и не хотят уезжать домой.',
+        options: [
+          'A doña Isabel le agradaba que los nietos pasaran las vacaciones con ella y no quisieran irse a casa.',
+          'A doña Isabel le agradaba que los nietos pasen las vacaciones con ella y no quieran irse a casa.',
+          'A doña Isabel le agrada que los nietos pasen las vacaciones con ella y no quieran irse a casa.',
+          'A doña Isabel le agradaba que los nietos pasaban las vacaciones con ella y no querían irse a casa.'
+        ],
+        correct: 0,
+        explanation: 'После "le agradaba que" требуется Imperfecto de Subjuntivo: pasaran, quisieran.'
+      },
+      {
+        text: 'Начальник возмутился, что Карлос все время опаздывает на работу, и приказал его уволить.',
+        options: [
+          'El jefe se indignó de que Carlos siempre llegara tarde al trabajo y ordenó que lo despidieran.',
+          'El jefe se indignó de que Carlos siempre llegue tarde al trabajo y ordenó que lo despidan.',
+          'El jefe se indigna de que Carlos siempre llegue tarde al trabajo y ordena que lo despidan.',
+          'El jefe se indignó de que Carlos siempre llegaba tarde al trabajo y ordenó que lo despedían.'
+        ],
+        correct: 0,
+        explanation: 'После "se indignó de que" и "ordenó que" требуется Imperfecto de Subjuntivo: llegara, despidieran.'
+      },
+      {
+        text: 'Они обрадовались, что их любимый актер будет исполнять главную роль в спектакле.',
+        options: [
+          'Se alegraron de que su actor favorito fuera a interpretar el papel principal en el espectáculo.',
+          'Se alegraron de que su actor favorito vaya a interpretar el papel principal en el espectáculo.',
+          'Se alegran de que su actor favorito vaya a interpretar el papel principal en el espectáculo.',
+          'Se alegraron de que su actor favorito iba a interpretar el papel principal en el espectáculo.'
+        ],
+        correct: 0,
+        explanation: 'После "se alegraron de que" требуется Imperfecto de Subjuntivo: fuera a interpretar.'
+      },
+      {
+        text: 'Я боялась, что Анна обидится, если я не приглашу ее на выставку.',
+        options: [
+          'Temía que Ana se ofendiera si no la invitara a la exposición.',
+          'Temía que Ana se ofenda si no la invite a la exposición.',
+          'Temo que Ana se ofenda si no la invito a la exposición.',
+          'Temía que Ana se ofendía si no la invitaba a la exposición.'
+        ],
+        correct: 0,
+        explanation: 'После "temía que" требуется Imperfecto de Subjuntivo: se ofendiera, invitara.'
+      },
+      {
+        text: 'Мы не сомневались, что нашим друзьям понравится идея поехать на выходные в горы, но не были уверены, что они смогут справиться с трудностями путешествия.',
+        options: [
+          'No dudábamos de que a nuestros amigos les gustara la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que pudieran superar las dificultades del viaje.',
+          'No dudábamos de que a nuestros amigos les guste la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que puedan superar las dificultades del viaje.',
+          'No dudamos de que a nuestros amigos les guste la idea de ir a las montañas el fin de semana, pero no estamos seguros de que puedan superar las dificultades del viaje.',
+          'No dudábamos de que a nuestros amigos les gustaba la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que podían superar las dificultades del viaje.'
+        ],
+        correct: 0,
+        explanation: 'После "no dudábamos de que" и "no estábamos seguros de que" требуется Imperfecto de Subjuntivo: gustara, pudieran.'
+      },
+      {
+        text: 'Всех удивляло, что все праздничные дни он скучал и не знал, чем заняться. Жаль, что он не умеет весело проводить время.',
+        options: [
+          'A todos les sorprendía que durante todos los días festivos él se aburriera y no supiera qué hacer. Es una lástima que no sepa divertirse.',
+          'A todos les sorprendía que durante todos los días festivos él se aburre y no sabe qué hacer. Es una lástima que no sepa divertirse.',
+          'A todos les sorprende que durante todos los días festivos él se aburra y no sepa qué hacer. Es una lástima que no sepa divertirse.',
+          'A todos les sorprendía que durante todos los días festivos él se aburría y no sabía qué hacer. Es una lástima que no sabe divertirse.'
+        ],
+        correct: 0,
+        explanation: 'После "les sorprendía que" требуется Imperfecto de Subjuntivo: se aburriera, supiera.'
+      },
+      {
+        text: 'Мне было грустно, что ты не мог прийти на мой день рождения.',
+        options: [
+          'Me entristecía que no pudieras venir a mi cumpleaños.',
+          'Me entristecía que no puedes venir a mi cumpleaños.',
+          'Me entristece que no puedas venir a mi cumpleaños.',
+          'Me entristecía que no podías venir a mi cumpleaños.'
+        ],
+        correct: 0,
+        explanation: 'После "me entristecía que" требуется Imperfecto de Subjuntivo: pudieras.'
+      },
+      {
+        text: 'Учитель попросил, чтобы ученики не разговаривали во время урока.',
+        options: [
+          'El profesor pidió que los alumnos no hablaran durante la clase.',
+          'El profesor pidió que los alumnos no hablen durante la clase.',
+          'El profesor pide que los alumnos no hablen durante la clase.',
+          'El profesor pidió que los alumnos no hablaban durante la clase.'
+        ],
+        correct: 0,
+        explanation: 'После "pidió que" требуется Imperfecto de Subjuntivo: hablaran.'
+      },
+      {
+        text: 'Было необходимо, чтобы все присутствовали на собрании.',
+        options: [
+          'Era necesario que todos asistieran a la reunión.',
+          'Era necesario que todos asistan a la reunión.',
+          'Es necesario que todos asistan a la reunión.',
+          'Era necesario que todos asistían a la reunión.'
+        ],
+        correct: 0,
+        explanation: 'После "era necesario que" требуется Imperfecto de Subjuntivo: asistieran.'
+      },
+      {
+        text: 'Родители не разрешали, чтобы дети смотрели телевизор допоздна.',
+        options: [
+          'Los padres no permitían que los niños vieran la televisión hasta tarde.',
+          'Los padres no permitían que los niños vean la televisión hasta tarde.',
+          'Los padres no permiten que los niños vean la televisión hasta tarde.',
+          'Los padres no permitían que los niños veían la televisión hasta tarde.'
+        ],
+        correct: 0,
+        explanation: 'После "no permitían que" требуется Imperfecto de Subjuntivo: vieran.'
+      },
+      {
+        text: 'Мы хотели, чтобы он сказал нам правду.',
+        options: [
+          'Queríamos que nos dijera la verdad.',
+          'Queríamos que nos diga la verdad.',
+          'Queremos que nos diga la verdad.',
+          'Queríamos que nos decía la verdad.'
+        ],
+        correct: 0,
+        explanation: 'После "queríamos que" требуется Imperfecto de Subjuntivo: dijera.'
+      }
     ]
   }
 }
