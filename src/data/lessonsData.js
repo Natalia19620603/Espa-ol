@@ -16652,7 +16652,7 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
         ]
       }
     ],
-    exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5']
+    exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5', 'ex-12-1-translation']
   },
 
   // =============================================
@@ -39465,6 +39465,118 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         ],
         correct: 0,
         explanation: 'После "queríamos que" требуется Imperfecto de Subjuntivo: dijera.'
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 1 - ФРАЗЫ ДЛЯ ПЕРЕВОДА
+  // =============================================
+  'ex-12-1-translation': {
+    id: 'ex-12-1-translation',
+    type: 'translation',
+    title: 'Фразы для перевода: Imperfecto de Subjuntivo',
+    description: 'Переведите фразы с русского на испанский, используя Imperfecto de Subjuntivo',
+    questions: [
+      {
+        russian: 'Я хотел, чтобы ты мне помог.',
+        spanish: 'quería que me ayudaras',
+        alternatives: ['yo quería que me ayudaras', 'quería que me ayudases']
+      },
+      {
+        russian: 'Было важно, чтобы он пришёл вовремя.',
+        spanish: 'era importante que él llegara a tiempo',
+        alternatives: ['era importante que llegara a tiempo', 'era importante que él llegase a tiempo']
+      },
+      {
+        russian: 'Мама попросила, чтобы я купил хлеб.',
+        spanish: 'mamá me pidió que comprara pan',
+        alternatives: ['mi madre me pidió que comprara pan', 'mamá me pidió que comprase pan']
+      },
+      {
+        russian: 'Они сомневались, что мы знаем правду.',
+        spanish: 'dudaban que supiéramos la verdad',
+        alternatives: ['ellos dudaban que supiéramos la verdad', 'dudaban que supiésemos la verdad']
+      },
+      {
+        russian: 'Учитель хотел, чтобы ученики слушали внимательно.',
+        spanish: 'el profesor quería que los alumnos escucharan con atención',
+        alternatives: ['el maestro quería que los alumnos escucharan atentamente', 'el profesor quería que los estudiantes escucharan con atención']
+      },
+      {
+        russian: 'Если бы у меня было время, я бы больше читал.',
+        spanish: 'si tuviera tiempo, leería más',
+        alternatives: ['si tuviese tiempo, leería más']
+      },
+      {
+        russian: 'Если бы я знал испанский, я бы поехал в Испанию.',
+        spanish: 'si supiera español, viajaría a españa',
+        alternatives: ['si supiese español, viajaría a españa', 'si supiera español, iría a españa']
+      },
+      {
+        russian: 'Если бы я мог, я бы тебе помог.',
+        spanish: 'si pudiera, te ayudaría',
+        alternatives: ['si pudiese, te ayudaría']
+      },
+      {
+        russian: 'Если бы у меня было больше времени!',
+        spanish: '¡ojalá tuviera más tiempo!',
+        alternatives: ['¡ojalá tuviese más tiempo!']
+      },
+      {
+        russian: 'Если бы ты был здесь!',
+        spanish: '¡ojalá estuvieras aquí!',
+        alternatives: ['¡ojalá estuvieses aquí!']
+      },
+      {
+        russian: 'Он говорит, как будто всё знает.',
+        spanish: 'habla como si supiera todo',
+        alternatives: ['él habla como si supiera todo', 'habla como si lo supiera todo']
+      },
+      {
+        russian: 'Она ведёт себя, как будто она начальник.',
+        spanish: 'se comporta como si fuera la jefa',
+        alternatives: ['ella se comporta como si fuera la jefa', 'actúa como si fuera la jefa']
+      },
+      {
+        russian: 'Мне было жаль, что ты не смог прийти.',
+        spanish: 'sentía que no pudieras venir',
+        alternatives: ['me daba pena que no pudieras venir', 'lamentaba que no pudieras venir']
+      },
+      {
+        russian: 'Было необходимо, чтобы все учились.',
+        spanish: 'era necesario que todos estudiaran',
+        alternatives: ['era necesario que todos estudiasen']
+      },
+      {
+        russian: 'Я боялся, что пойдёт дождь.',
+        spanish: 'temía que lloviera',
+        alternatives: ['tenía miedo de que lloviera', 'temía que lloviese']
+      },
+      {
+        russian: 'Родители не разрешали, чтобы дети играли допоздна.',
+        spanish: 'los padres no permitían que los niños jugaran hasta tarde',
+        alternatives: ['los padres no dejaban que los niños jugaran hasta tarde']
+      },
+      {
+        russian: 'Врач посоветовал, чтобы я больше отдыхал.',
+        spanish: 'el médico me aconsejó que descansara más',
+        alternatives: ['el doctor me aconsejó que descansara más', 'el médico me recomendó que descansara más']
+      },
+      {
+        russian: 'Было странно, что он не знал ответ.',
+        spanish: 'era extraño que no supiera la respuesta',
+        alternatives: ['era raro que no supiera la respuesta', 'era extraño que él no supiera la respuesta']
+      },
+      {
+        russian: 'Мы хотели, чтобы вы нас навестили.',
+        spanish: 'queríamos que nos visitarais',
+        alternatives: ['queríamos que nos visitaran', 'queríamos que vosotros nos visitarais']
+      },
+      {
+        russian: 'Она попросила, чтобы я её подождал.',
+        spanish: 'me pidió que la esperara',
+        alternatives: ['ella me pidió que la esperara', 'me pidió que la esperase']
       }
     ]
   }
