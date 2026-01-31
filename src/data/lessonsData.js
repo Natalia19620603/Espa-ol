@@ -16652,7 +16652,7 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
         ]
       }
     ],
-    exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5', 'ex-12-1-translation']
+    exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5', 'ex-12-1-6', 'ex-12-1-translation']
   },
 
   // =============================================
@@ -39350,6 +39350,118 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: 'Всех удивляло, что все праздничные дни он скучал и не знал, чем заняться. Жаль, что он не умеет весело проводить время.',
         spanish: 'a todos les sorprendía que durante todos los días festivos él se aburriera y no supiera qué hacer. es una lástima que no sepa divertirse',
         alternatives: ['a todos les sorprendía que durante todos los días festivos él se aburriese y no supiese qué hacer. es una lástima que no sepa divertirse']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 1 - ГЛАГОЛ FALTAR
+  // =============================================
+  'ex-12-1-6': {
+    id: 'ex-12-1-6',
+    type: 'translation',
+    title: 'Перевод: Глагол faltar и выражение falta',
+    description: 'Переведите предложения на испанский язык, используя глагол faltar и выражение falta.',
+    questions: [
+      {
+        russian: 'Осталось две недели до экзамена, поэтому я не могу пропускать занятия.',
+        spanish: 'faltan dos semanas para el examen, por eso no puedo faltar a las clases',
+        alternatives: ['quedan dos semanas para el examen, por eso no puedo faltar a clase']
+      },
+      {
+        russian: 'Мы не были уверены, что он сдержит своё обещание.',
+        spanish: 'no estábamos seguros de que cumpliera su promesa',
+        alternatives: ['no estábamos seguros de que él cumpliera su promesa', 'no estábamos seguros de que cumpliese su promesa']
+      },
+      {
+        russian: 'Она отказалась от нашего приглашения, потому что ты ей нагрубил. Тебе надо попросить у неё прощения. — Ещё чего не хватало!',
+        spanish: 'rechazó nuestra invitación porque le fuiste grosero. tienes que pedirle perdón. — ¡no faltaba más!',
+        alternatives: ['ella rechazó nuestra invitación porque fuiste grosero con ella. debes pedirle perdón. — ¡lo que faltaba!']
+      },
+      {
+        russian: 'Странно, что в их проекте столько ошибок.',
+        spanish: 'es extraño que haya tantos errores en su proyecto',
+        alternatives: ['es raro que haya tantos errores en su proyecto', 'es extraño que su proyecto tenga tantos errores']
+      },
+      {
+        russian: 'Всё готово. Остаётся только накрыть на стол.',
+        spanish: 'todo está listo. solo falta poner la mesa',
+        alternatives: ['todo está preparado. solo queda poner la mesa', 'ya está todo. solo falta poner la mesa']
+      },
+      {
+        russian: 'Здесь не хватает двух стульев и одного прибора.',
+        spanish: 'aquí faltan dos sillas y un cubierto',
+        alternatives: ['aquí hacen falta dos sillas y un cubierto']
+      },
+      {
+        russian: 'Обязательно попробуйте паэлью, когда будете в Валенсии.',
+        spanish: 'no dejen de probar la paella cuando estén en valencia',
+        alternatives: ['tienen que probar la paella cuando estén en valencia', 'asegúrense de probar la paella cuando estén en valencia']
+      },
+      {
+        russian: 'Почему тебя не было вчера на репетиции?',
+        spanish: '¿por qué faltaste ayer al ensayo?',
+        alternatives: ['¿por qué no viniste ayer al ensayo?', '¿por qué no estuviste ayer en el ensayo?']
+      },
+      {
+        russian: 'В номере грязно. Надо, чтобы горничная сделала уборку, прежде чем вернутся гости.',
+        spanish: 'la habitación está sucia. hace falta que la camarera limpie antes de que vuelvan los huéspedes',
+        alternatives: ['el cuarto está sucio. es necesario que la camarera limpie antes de que regresen los huéspedes']
+      },
+      {
+        russian: 'Ему не хватает терпения.',
+        spanish: 'le falta paciencia',
+        alternatives: ['a él le falta paciencia', 'carece de paciencia']
+      },
+      {
+        russian: 'Сколько километров осталось до Мадрида?',
+        spanish: '¿cuántos kilómetros faltan para madrid?',
+        alternatives: ['¿cuántos kilómetros quedan para llegar a madrid?']
+      },
+      {
+        russian: 'Мне не хватает времени, чтобы закончить эту работу.',
+        spanish: 'me falta tiempo para terminar este trabajo',
+        alternatives: ['no me alcanza el tiempo para terminar este trabajo', 'no tengo suficiente tiempo para terminar este trabajo']
+      },
+      {
+        russian: 'До отправления поезда осталось пять минут.',
+        spanish: 'faltan cinco minutos para la salida del tren',
+        alternatives: ['quedan cinco minutos para que salga el tren']
+      },
+      {
+        russian: 'Ей очень не хватает семьи, когда она в командировке.',
+        spanish: 'echa mucho de menos a su familia cuando está de viaje de negocios',
+        alternatives: ['le falta mucho su familia cuando está en viaje de trabajo', 'extraña mucho a su familia cuando está de viaje de negocios']
+      },
+      {
+        russian: 'В этом тексте не хватает нескольких страниц.',
+        spanish: 'a este texto le faltan varias páginas',
+        alternatives: ['en este texto faltan algunas páginas', 'a este texto le faltan algunas páginas']
+      },
+      {
+        russian: 'Ты опять опоздал! Только этого не хватало!',
+        spanish: '¡has llegado tarde otra vez! ¡solo faltaba eso!',
+        alternatives: ['¡otra vez has llegado tarde! ¡lo que faltaba!', '¡llegas tarde de nuevo! ¡no faltaba más!']
+      },
+      {
+        russian: 'Мне не хватает слов, чтобы выразить свою благодарность.',
+        spanish: 'me faltan palabras para expresar mi agradecimiento',
+        alternatives: ['no encuentro palabras para expresar mi gratitud', 'me faltan palabras para expresar mi gratitud']
+      },
+      {
+        russian: 'Осталось мало времени. Нам нужно торопиться.',
+        spanish: 'falta poco tiempo. tenemos que darnos prisa',
+        alternatives: ['queda poco tiempo. debemos apresurarnos', 'no queda mucho tiempo. hay que darse prisa']
+      },
+      {
+        russian: 'Для этого блюда не хватает соли и перца.',
+        spanish: 'a este plato le falta sal y pimienta',
+        alternatives: ['a este plato le faltan sal y pimienta', 'este plato necesita más sal y pimienta']
+      },
+      {
+        russian: 'Она никогда не пропускает занятия по испанскому.',
+        spanish: 'ella nunca falta a las clases de español',
+        alternatives: ['nunca falta a clase de español', 'ella jamás falta a las clases de español']
       }
     ]
   },
