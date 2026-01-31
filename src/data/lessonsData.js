@@ -16878,7 +16878,42 @@ Antes de que → Всегда Subjuntivo
         { spanish: 'Cuando era niño, jugaba mucho', translation: 'Когда я был ребёнком, я много играл' }
       ]
     },
-    vocabulary: [],
+    readingText: {
+      title: 'La escuela de ayer',
+      text: `¿Cómo era la escuela a mediados del siglo pasado en España?
+
+En las aulas había más de cincuenta alumnos. Los materiales eran comunes, y los métodos de aprendizaje eran la repetición y el canto. Como había alumnos de distintas edades en la clase, los mayores ayudaban al maestro en la enseñanza.
+
+En las paredes del aula colgaban carteles de lectura junto con mapas y carteles de Historia Sagrada que representaban escenas de la Biblia. Detrás de la mesa del maestro había una pizarra y encima un crucifijo, un retrato del Jefe de Estado y las oraciones que los niños entonaban diariamente.
+
+Para escribir se empleaban los tinteros. Los pupitres tenían espacio para el tintero y la pluma. Se daba mucha importancia a la caligrafía, los niños tenían que escribir bonito. Muchas veces, los niños no asistían a la escuela porque tenían que ayudar a sus padres en el campo o en el mercado. Las escuelas se diferenciaban por sexos, por lo que los niños y las niñas no compartían aulas. Pocas mujeres estudiaban.
+
+En España existe el refrán "Pasas más hambre que un maestro". Los maestros ganaban muy poco dinero, sin embargo tenían un gran prestigio social. La disciplina era muy estricta, si el alumno no sabía algo o se portaba mal, se permitían los castigos corporales.`,
+      translation: `Какой была школа в середине прошлого века в Испании?
+
+В классах было более пятидесяти учеников. Материалы были общими, а методами обучения были повторение и хоровое пение. Поскольку в классе были ученики разного возраста, старшие помогали учителю в обучении.
+
+На стенах класса висели плакаты для чтения вместе с картами и плакатами по Священной истории, изображавшими сцены из Библии. За столом учителя была доска, а над ней — распятие, портрет главы государства и молитвы, которые дети ежедневно произносили нараспев.
+
+Для письма использовались чернильницы. В партах было место для чернильницы и пера. Большое значение придавалось каллиграфии, дети должны были писать красиво. Часто дети не посещали школу, потому что должны были помогать родителям в поле или на рынке. Школы разделялись по полу, поэтому мальчики и девочки не занимались вместе. Мало женщин училось.
+
+В Испании существует поговорка «Голодаешь больше, чем учитель». Учителя зарабатывали очень мало денег, однако имели большой социальный престиж. Дисциплина была очень строгой, если ученик чего-то не знал или плохо себя вёл, разрешались телесные наказания.`
+    },
+    vocabulary: [
+      { word: 'el canto', translation: 'зд. повторение хором' },
+      { word: 'colgar (1b)', translation: 'вешать' },
+      { word: 'el cartel', translation: 'плакат' },
+      { word: 'la pizarra', translation: 'доска' },
+      { word: 'el crucifijo', translation: 'распятие' },
+      { word: 'la oración', translation: 'молитва' },
+      { word: 'entonar', translation: 'зд. произносить нараспев' },
+      { word: 'el tintero', translation: 'чернильница' },
+      { word: 'el pupitre', translation: 'парта' },
+      { word: 'compartir', translation: 'зд. совместно участвовать' },
+      { word: 'el refrán', translation: 'поговорка' },
+      { word: 'estricto', translation: 'строгий' },
+      { word: 'el castigo corporal', translation: 'телесное наказание' }
+    ],
     exercises: ['ex-12-2-1', 'ex-12-2-2', 'ex-12-2-3', 'ex-12-2-4', 'ex-12-2-5']
   },
 
