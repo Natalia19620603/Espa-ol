@@ -39297,174 +39297,59 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-12-1-5': {
     id: 'ex-12-1-5',
-    type: 'subjunctive',
+    type: 'translation',
     title: 'Перевод на испанский язык',
     description: 'Переведите предложения на испанский язык, используя Imperfecto de Subjuntivo.',
     questions: [
       {
-        text: 'Мама не хотела, чтобы мой брат мне помогал делать уроки, она настаивала, чтобы я сам выполнял все задания.',
-        options: [
-          'Mi madre no quería que mi hermano me ayudara a hacer los deberes, insistía en que yo mismo hiciera todas las tareas.',
-          'Mi madre no quería que mi hermano me ayude a hacer los deberes, insistía en que yo mismo haga todas las tareas.',
-          'Mi madre no quería que mi hermano me ayudaba a hacer los deberes, insistía en que yo mismo hacía todas las tareas.',
-          'Mi madre no quiere que mi hermano me ayude a hacer los deberes, insiste en que yo mismo haga todas las tareas.'
-        ],
-        correct: 0,
-        explanation: 'После глаголов "no quería que" и "insistía en que" требуется Imperfecto de Subjuntivo: ayudara, hiciera.'
+        russian: 'Мама не хотела, чтобы мой брат мне помогал делать уроки, она настаивала, чтобы я сам выполнял все задания.',
+        spanish: 'mi madre no quería que mi hermano me ayudara a hacer los deberes, insistía en que yo mismo hiciera todas las tareas',
+        alternatives: ['mamá no quería que mi hermano me ayudara a hacer los deberes, insistía en que yo mismo hiciera todas las tareas', 'mi madre no quería que mi hermano me ayudase a hacer los deberes, insistía en que yo mismo hiciese todas las tareas']
       },
       {
-        text: 'Директор сказал, что он ждет важного клиента, и чтобы секретарь принесла ему все необходимые документы.',
-        options: [
-          'El director dijo que esperaba a un cliente importante y que la secretaria le trajera todos los documentos necesarios.',
-          'El director dijo que esperaba a un cliente importante y que la secretaria le traiga todos los documentos necesarios.',
-          'El director dijo que espera a un cliente importante y que la secretaria le traiga todos los documentos necesarios.',
-          'El director dice que espera a un cliente importante y que la secretaria le traiga todos los documentos necesarios.'
-        ],
-        correct: 0,
-        explanation: 'Косвенная речь после "dijo que" требует согласования времен: esperaba (Imperfecto), trajera (Imperfecto de Subjuntivo).'
+        russian: 'Директор сказал, что он ждет важного клиента, и чтобы секретарь принесла ему все необходимые документы.',
+        spanish: 'el director dijo que esperaba a un cliente importante y que la secretaria le trajera todos los documentos necesarios',
+        alternatives: ['el director dijo que esperaba un cliente importante y que la secretaria le trajese todos los documentos necesarios']
       },
       {
-        text: 'Врач запретил мне ехать на море, и посоветовал находиться поменьше на солнце.',
-        options: [
-          'El médico me prohibió que fuera al mar y me aconsejó que estuviera menos tiempo al sol.',
-          'El médico me prohibió que vaya al mar y me aconsejó que esté menos tiempo al sol.',
-          'El médico me prohíbe que vaya al mar y me aconseja que esté menos tiempo al sol.',
-          'El médico me prohibió ir al mar y me aconsejó estar menos tiempo al sol.'
-        ],
-        correct: 0,
-        explanation: 'После глаголов "prohibió que" и "aconsejó que" требуется Imperfecto de Subjuntivo: fuera, estuviera.'
+        russian: 'Врач запретил мне ехать на море, и посоветовал находиться поменьше на солнце.',
+        spanish: 'el médico me prohibió que fuera al mar y me aconsejó que estuviera menos tiempo al sol',
+        alternatives: ['el médico me prohibió que fuese al mar y me aconsejó que estuviese menos tiempo al sol', 'el doctor me prohibió que fuera al mar y me aconsejó que estuviera menos tiempo al sol']
       },
       {
-        text: 'Было странно, что Теодоро знает о нашем секрете, ведь я просила тебя ничего ему не говорить.',
-        options: [
-          'Era extraño que Teodoro supiera de nuestro secreto, pues yo te había pedido que no le dijeras nada.',
-          'Era extraño que Teodoro sepa de nuestro secreto, pues yo te había pedido que no le digas nada.',
-          'Es extraño que Teodoro sepa de nuestro secreto, pues yo te he pedido que no le digas nada.',
-          'Era extraño que Teodoro sabía de nuestro secreto, pues yo te había pedido que no le decías nada.'
-        ],
-        correct: 0,
-        explanation: 'После "era extraño que" и "había pedido que" требуется Imperfecto de Subjuntivo: supiera, dijeras.'
+        russian: 'Было странно, что Теодоро знает о нашем секрете, ведь я просила тебя ничего ему не говорить.',
+        spanish: 'era extraño que teodoro supiera de nuestro secreto, pues yo te había pedido que no le dijeras nada',
+        alternatives: ['era raro que teodoro supiera de nuestro secreto, pues yo te había pedido que no le dijeras nada', 'era extraño que teodoro supiese de nuestro secreto, pues yo te había pedido que no le dijeses nada']
       },
       {
-        text: 'Донье Исабель было приятно, что внуки проводят с ней каникулы, и не хотят уезжать домой.',
-        options: [
-          'A doña Isabel le agradaba que los nietos pasaran las vacaciones con ella y no quisieran irse a casa.',
-          'A doña Isabel le agradaba que los nietos pasen las vacaciones con ella y no quieran irse a casa.',
-          'A doña Isabel le agrada que los nietos pasen las vacaciones con ella y no quieran irse a casa.',
-          'A doña Isabel le agradaba que los nietos pasaban las vacaciones con ella y no querían irse a casa.'
-        ],
-        correct: 0,
-        explanation: 'После "le agradaba que" требуется Imperfecto de Subjuntivo: pasaran, quisieran.'
+        russian: 'Донье Исабель было приятно, что внуки проводят с ней каникулы, и не хотят уезжать домой.',
+        spanish: 'a doña isabel le agradaba que los nietos pasaran las vacaciones con ella y no quisieran irse a casa',
+        alternatives: ['a doña isabel le gustaba que los nietos pasaran las vacaciones con ella y no quisieran irse a casa', 'a doña isabel le agradaba que los nietos pasasen las vacaciones con ella y no quisiesen irse a casa']
       },
       {
-        text: 'Начальник возмутился, что Карлос все время опаздывает на работу, и приказал его уволить.',
-        options: [
-          'El jefe se indignó de que Carlos siempre llegara tarde al trabajo y ordenó que lo despidieran.',
-          'El jefe se indignó de que Carlos siempre llegue tarde al trabajo y ordenó que lo despidan.',
-          'El jefe se indigna de que Carlos siempre llegue tarde al trabajo y ordena que lo despidan.',
-          'El jefe se indignó de que Carlos siempre llegaba tarde al trabajo y ordenó que lo despedían.'
-        ],
-        correct: 0,
-        explanation: 'После "se indignó de que" и "ordenó que" требуется Imperfecto de Subjuntivo: llegara, despidieran.'
+        russian: 'Начальник возмутился, что Карлос все время опаздывает на работу, и приказал его уволить.',
+        spanish: 'el jefe se indignó de que carlos siempre llegara tarde al trabajo y ordenó que lo despidieran',
+        alternatives: ['el jefe se indignó de que carlos siempre llegase tarde al trabajo y ordenó que lo despidiesen', 'el director se indignó de que carlos siempre llegara tarde al trabajo y ordenó que lo despidieran']
       },
       {
-        text: 'Они обрадовались, что их любимый актер будет исполнять главную роль в спектакле.',
-        options: [
-          'Se alegraron de que su actor favorito fuera a interpretar el papel principal en el espectáculo.',
-          'Se alegraron de que su actor favorito vaya a interpretar el papel principal en el espectáculo.',
-          'Se alegran de que su actor favorito vaya a interpretar el papel principal en el espectáculo.',
-          'Se alegraron de que su actor favorito iba a interpretar el papel principal en el espectáculo.'
-        ],
-        correct: 0,
-        explanation: 'После "se alegraron de que" требуется Imperfecto de Subjuntivo: fuera a interpretar.'
+        russian: 'Они обрадовались, что их любимый актер будет исполнять главную роль в спектакле.',
+        spanish: 'se alegraron de que su actor favorito fuera a interpretar el papel principal en el espectáculo',
+        alternatives: ['se alegraron de que su actor favorito fuese a interpretar el papel principal en el espectáculo', 'ellos se alegraron de que su actor favorito fuera a interpretar el papel principal en el espectáculo']
       },
       {
-        text: 'Я боялась, что Анна обидится, если я не приглашу ее на выставку.',
-        options: [
-          'Temía que Ana se ofendiera si no la invitara a la exposición.',
-          'Temía que Ana se ofenda si no la invite a la exposición.',
-          'Temo que Ana se ofenda si no la invito a la exposición.',
-          'Temía que Ana se ofendía si no la invitaba a la exposición.'
-        ],
-        correct: 0,
-        explanation: 'После "temía que" требуется Imperfecto de Subjuntivo: se ofendiera, invitara.'
+        russian: 'Я боялась, что Анна обидится, если я не приглашу ее на выставку.',
+        spanish: 'temía que ana se ofendiera si no la invitara a la exposición',
+        alternatives: ['yo temía que ana se ofendiera si no la invitara a la exposición', 'temía que ana se ofendiese si no la invitase a la exposición']
       },
       {
-        text: 'Мы не сомневались, что нашим друзьям понравится идея поехать на выходные в горы, но не были уверены, что они смогут справиться с трудностями путешествия.',
-        options: [
-          'No dudábamos de que a nuestros amigos les gustara la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que pudieran superar las dificultades del viaje.',
-          'No dudábamos de que a nuestros amigos les guste la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que puedan superar las dificultades del viaje.',
-          'No dudamos de que a nuestros amigos les guste la idea de ir a las montañas el fin de semana, pero no estamos seguros de que puedan superar las dificultades del viaje.',
-          'No dudábamos de que a nuestros amigos les gustaba la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que podían superar las dificultades del viaje.'
-        ],
-        correct: 0,
-        explanation: 'После "no dudábamos de que" и "no estábamos seguros de que" требуется Imperfecto de Subjuntivo: gustara, pudieran.'
+        russian: 'Мы не сомневались, что нашим друзьям понравится идея поехать на выходные в горы, но не были уверены, что они смогут справиться с трудностями путешествия.',
+        spanish: 'no dudábamos de que a nuestros amigos les gustara la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que pudieran superar las dificultades del viaje',
+        alternatives: ['no dudábamos de que a nuestros amigos les gustase la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que pudiesen superar las dificultades del viaje']
       },
       {
-        text: 'Всех удивляло, что все праздничные дни он скучал и не знал, чем заняться. Жаль, что он не умеет весело проводить время.',
-        options: [
-          'A todos les sorprendía que durante todos los días festivos él se aburriera y no supiera qué hacer. Es una lástima que no sepa divertirse.',
-          'A todos les sorprendía que durante todos los días festivos él se aburre y no sabe qué hacer. Es una lástima que no sepa divertirse.',
-          'A todos les sorprende que durante todos los días festivos él se aburra y no sepa qué hacer. Es una lástima que no sepa divertirse.',
-          'A todos les sorprendía que durante todos los días festivos él se aburría y no sabía qué hacer. Es una lástima que no sabe divertirse.'
-        ],
-        correct: 0,
-        explanation: 'После "les sorprendía que" требуется Imperfecto de Subjuntivo: se aburriera, supiera.'
-      },
-      {
-        text: 'Мне было грустно, что ты не мог прийти на мой день рождения.',
-        options: [
-          'Me entristecía que no pudieras venir a mi cumpleaños.',
-          'Me entristecía que no puedes venir a mi cumpleaños.',
-          'Me entristece que no puedas venir a mi cumpleaños.',
-          'Me entristecía que no podías venir a mi cumpleaños.'
-        ],
-        correct: 0,
-        explanation: 'После "me entristecía que" требуется Imperfecto de Subjuntivo: pudieras.'
-      },
-      {
-        text: 'Учитель попросил, чтобы ученики не разговаривали во время урока.',
-        options: [
-          'El profesor pidió que los alumnos no hablaran durante la clase.',
-          'El profesor pidió que los alumnos no hablen durante la clase.',
-          'El profesor pide que los alumnos no hablen durante la clase.',
-          'El profesor pidió que los alumnos no hablaban durante la clase.'
-        ],
-        correct: 0,
-        explanation: 'После "pidió que" требуется Imperfecto de Subjuntivo: hablaran.'
-      },
-      {
-        text: 'Было необходимо, чтобы все присутствовали на собрании.',
-        options: [
-          'Era necesario que todos asistieran a la reunión.',
-          'Era necesario que todos asistan a la reunión.',
-          'Es necesario que todos asistan a la reunión.',
-          'Era necesario que todos asistían a la reunión.'
-        ],
-        correct: 0,
-        explanation: 'После "era necesario que" требуется Imperfecto de Subjuntivo: asistieran.'
-      },
-      {
-        text: 'Родители не разрешали, чтобы дети смотрели телевизор допоздна.',
-        options: [
-          'Los padres no permitían que los niños vieran la televisión hasta tarde.',
-          'Los padres no permitían que los niños vean la televisión hasta tarde.',
-          'Los padres no permiten que los niños vean la televisión hasta tarde.',
-          'Los padres no permitían que los niños veían la televisión hasta tarde.'
-        ],
-        correct: 0,
-        explanation: 'После "no permitían que" требуется Imperfecto de Subjuntivo: vieran.'
-      },
-      {
-        text: 'Мы хотели, чтобы он сказал нам правду.',
-        options: [
-          'Queríamos que nos dijera la verdad.',
-          'Queríamos que nos diga la verdad.',
-          'Queremos que nos diga la verdad.',
-          'Queríamos que nos decía la verdad.'
-        ],
-        correct: 0,
-        explanation: 'После "queríamos que" требуется Imperfecto de Subjuntivo: dijera.'
+        russian: 'Всех удивляло, что все праздничные дни он скучал и не знал, чем заняться. Жаль, что он не умеет весело проводить время.',
+        spanish: 'a todos les sorprendía que durante todos los días festivos él se aburriera y no supiera qué hacer. es una lástima que no sepa divertirse',
+        alternatives: ['a todos les sorprendía que durante todos los días festivos él se aburriese y no supiese qué hacer. es una lástima que no sepa divertirse']
       }
     ]
   },
