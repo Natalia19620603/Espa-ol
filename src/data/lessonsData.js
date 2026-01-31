@@ -2667,6 +2667,18 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       {
         tab: 'Estar Viaje',
         videoUrl: '/video/Estar Viaje.mp4'
+      },
+      {
+        tab: 'Descripcion fisica completa',
+        videoUrl: '/video/Descripcion fisica completa M2C2.mp4'
+      },
+      {
+        tab: 'Descripción Física tener llevar',
+        videoUrl: '/video/Descripción Física tener llevar M2C2.mp4'
+      },
+      {
+        tab: 'Chico simpatico',
+        videoUrl: '/video/Chico simpatico M2C2.mp4'
       }
     ],
     grammar: {
