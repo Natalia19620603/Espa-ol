@@ -83,7 +83,7 @@ export const modules = {
     id: 'module-12',
     title: 'Модуль 12: ОБРАЗОВАНИЕ. Imperfecto de subjuntivo. Придаточные предложения времени и цели',
     level: 'intermediate',
-    lessons: ['lesson-12-1', 'lesson-12-2'],
+    lessons: ['lesson-12-1', 'lesson-12-2', 'lesson-12-3'],
     description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
   },
   'module-8': {
@@ -16878,8 +16878,253 @@ Antes de que → Всегда Subjuntivo
         { spanish: 'Cuando era niño, jugaba mucho', translation: 'Когда я был ребёнком, я много играл' }
       ]
     },
-    vocabulary: [],
+    readingText: {
+      title: 'La escuela de ayer',
+      text: `¿Cómo era la escuela a mediados del siglo pasado en España?
+
+En las aulas había más de cincuenta alumnos. Los materiales eran comunes, y los métodos de aprendizaje eran la repetición y el canto. Como había alumnos de distintas edades en la clase, los mayores ayudaban al maestro en la enseñanza.
+
+En las paredes del aula colgaban carteles de lectura junto con mapas y carteles de Historia Sagrada que representaban escenas de la Biblia. Detrás de la mesa del maestro había una pizarra y encima un crucifijo, un retrato del Jefe de Estado y las oraciones que los niños entonaban diariamente.
+
+Para escribir se empleaban los tinteros. Los pupitres tenían espacio para el tintero y la pluma. Se daba mucha importancia a la caligrafía, los niños tenían que escribir bonito. Muchas veces, los niños no asistían a la escuela porque tenían que ayudar a sus padres en el campo o en el mercado. Las escuelas se diferenciaban por sexos, por lo que los niños y las niñas no compartían aulas. Pocas mujeres estudiaban.
+
+En España existe el refrán "Pasas más hambre que un maestro". Los maestros ganaban muy poco dinero, sin embargo tenían un gran prestigio social. La disciplina era muy estricta, si el alumno no sabía algo o se portaba mal, se permitían los castigos corporales.`,
+      translation: `Какой была школа в середине прошлого века в Испании?
+
+В классах было более пятидесяти учеников. Материалы были общими, а методами обучения были повторение и хоровое пение. Поскольку в классе были ученики разного возраста, старшие помогали учителю в обучении.
+
+На стенах класса висели плакаты для чтения вместе с картами и плакатами по Священной истории, изображавшими сцены из Библии. За столом учителя была доска, а над ней — распятие, портрет главы государства и молитвы, которые дети ежедневно произносили нараспев.
+
+Для письма использовались чернильницы. В партах было место для чернильницы и пера. Большое значение придавалось каллиграфии, дети должны были писать красиво. Часто дети не посещали школу, потому что должны были помогать родителям в поле или на рынке. Школы разделялись по полу, поэтому мальчики и девочки не занимались вместе. Мало женщин училось.
+
+В Испании существует поговорка «Голодаешь больше, чем учитель». Учителя зарабатывали очень мало денег, однако имели большой социальный престиж. Дисциплина была очень строгой, если ученик чего-то не знал или плохо себя вёл, разрешались телесные наказания.`
+    },
+    vocabulary: [
+      { word: 'el canto', translation: 'зд. повторение хором' },
+      { word: 'colgar (1b)', translation: 'вешать' },
+      { word: 'el cartel', translation: 'плакат' },
+      { word: 'la pizarra', translation: 'доска' },
+      { word: 'el crucifijo', translation: 'распятие' },
+      { word: 'la oración', translation: 'молитва' },
+      { word: 'entonar', translation: 'зд. произносить нараспев' },
+      { word: 'el tintero', translation: 'чернильница' },
+      { word: 'el pupitre', translation: 'парта' },
+      { word: 'compartir', translation: 'зд. совместно участвовать' },
+      { word: 'el refrán', translation: 'поговорка' },
+      { word: 'estricto', translation: 'строгий' },
+      { word: 'el castigo corporal', translation: 'телесное наказание' }
+    ],
     exercises: ['ex-12-2-1', 'ex-12-2-2', 'ex-12-2-3', 'ex-12-2-4', 'ex-12-2-5']
+  },
+
+  // =============================================
+  // МОДУЛЬ 12, УРОК 3: Придаточные предложения цели (de fin)
+  // =============================================
+
+  'lesson-12-3': {
+    id: 'lesson-12-3',
+    title: 'Урок 3: Употребление сослагательного наклонения в придаточных предложениях цели (de fin)',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Subjuntivo в придаточных предложениях цели (Oraciones de Fin)',
+      intro: `**Придаточные предложения цели (Oraciones de Fin)** — это конструкции, которые отвечают на вопрос «для чего?», «с какой целью?».
+
+В испанском языке выбор между инфинитивом и сослагательным наклонением в таких предложениях зависит от того, совпадает ли подлежащее в главной и придаточной частях.`,
+      sections: [
+        {
+          id: 'союзы-цели',
+          title: '1. Основные союзы цели',
+          content: `## Союзы, вводящие придаточные цели
+
+В испанском языке существует несколько союзов, которые вводят придаточные предложения цели:
+
+| Союз | Перевод | Стиль |
+|------|---------|-------|
+| **para que** | для того чтобы | нейтральный |
+| **a fin de que** | с тем чтобы | более официальный |
+
+### Примеры:
+- *Te lo explico **para que** entiendas.* — Я тебе это объясняю, чтобы ты понял.
+- *Hemos preparado este informe **a fin de que** todos puedan analizarlo.* — Мы подготовили этот отчёт, чтобы все могли его проанализировать.`
+        },
+        {
+          id: 'главное-правило',
+          title: '2. Главное правило: Одно лицо или разные?',
+          content: `## Выбор между Infinitivo и Subjuntivo
+
+Ключевой принцип: выбор между инфинитивом и сослагательным наклонением зависит от того, **совпадает ли подлежащее** в обеих частях предложения.
+
+### Схема выбора:
+
+| Ситуация | Конструкция |
+|----------|-------------|
+| Субъект 1 = Субъект 2 | **para + Infinitivo** |
+| Субъект 1 ≠ Субъект 2 | **para que + Subjuntivo** |
+
+⚠️ **Важно:** Это правило логично — если действие совершает один и тот же человек, нет необходимости вводить придаточное предложение с другим подлежащим.`
+        },
+        {
+          id: 'одно-лицо',
+          title: '3. Одно и то же лицо (para + Infinitivo)',
+          content: `## Когда действует одно лицо
+
+Если **один и тот же человек** является подлежащим и в главном, и в придаточном предложении, используется конструкция **para + Infinitivo**.
+
+### Примеры:
+
+| Испанский | Русский | Анализ |
+|-----------|---------|--------|
+| *He traído su tesis **para corregir** las faltas.* | Я принёс его диссертацию, чтобы исправить ошибки. | Я принёс → Я буду исправлять |
+| *Estudio español **para trabajar** en España.* | Я учу испанский, чтобы работать в Испании. | Я учу → Я буду работать |
+| *He venido **para ayudarte**.* | Я пришёл, чтобы тебе помочь. | Я пришёл → Я помогу |
+| *Ahorro dinero **para comprar** un coche.* | Я коплю деньги, чтобы купить машину. | Я коплю → Я куплю |
+
+### Важно:
+В этих примерах **одно и то же лицо** совершает оба действия, поэтому используется простой инфинитив после **para**.`
+        },
+        {
+          id: 'разные-лица',
+          title: '4. Разные лица (para que + Subjuntivo)',
+          content: `## Когда действуют разные лица
+
+Если мы хотим, чтобы **действие совершил кто-то другой**, используется союз **para que + Subjuntivo**.
+
+### Примеры:
+
+| Испанский | Русский | Анализ |
+|-----------|---------|--------|
+| *He traído mi tesis **para que usted la corrija**.* | Я принёс мою диссертацию, чтобы Вы её исправили. | Я принёс → Вы исправите |
+| *Te explico esto **para que entiendas**.* | Я объясняю тебе это, чтобы ты понял. | Я объясняю → Ты поймёшь |
+| *Le doy dinero **para que compre** pan.* | Я даю ему деньги, чтобы он купил хлеб. | Я даю → Он купит |
+| *Abrí la ventana **para que entrara** aire fresco.* | Я открыл окно, чтобы вошёл свежий воздух. | Я открыл → Воздух войдёт |
+
+### Обратите внимание:
+В этих примерах **разные лица** совершают действия в главной и придаточной частях, поэтому необходим **Subjuntivo**.`
+        },
+        {
+          id: 'сравнение',
+          title: '5. Сравнение конструкций',
+          content: `## Наглядное сравнение
+
+### Один и тот же субъект (para + Infinitivo):
+
+| Пример | Перевод |
+|--------|---------|
+| *He traído su tesis **para corregir** las faltas.* | Я принёс его диссертацию, чтобы (я сам) исправить ошибки. |
+| *Trabajo mucho **para ganar** dinero.* | Я много работаю, чтобы (я сам) зарабатывать деньги. |
+| *Voy al gimnasio **para estar** en forma.* | Я хожу в спортзал, чтобы (я сам) быть в форме. |
+
+### Разные субъекты (para que + Subjuntivo):
+
+| Пример | Перевод |
+|--------|---------|
+| *He traído mi tesis **para que usted la corrija**.* | Я принёс мою диссертацию, чтобы Вы её исправили. |
+| *Trabajo mucho **para que mis hijos tengan** todo.* | Я много работаю, чтобы мои дети имели всё. |
+| *Voy al gimnasio **para que el médico esté** contento.* | Я хожу в спортзал, чтобы врач был доволен. |
+
+### Ключевое различие:
+- **para corregir** = я сам буду исправлять
+- **para que usted corrija** = Вы будете исправлять`
+        },
+        {
+          id: 'a-fin-de-que',
+          title: '6. Союз A FIN DE QUE (официальный стиль)',
+          content: `## Употребление a fin de que
+
+Союз **a fin de que** имеет то же значение, что и **para que**, но используется в более **официальном, формальном** стиле.
+
+### Примеры:
+
+| С para que (нейтрально) | С a fin de que (официально) |
+|-------------------------|------------------------------|
+| *Te lo digo para que lo sepas.* | *Se lo comunico a fin de que lo sepa.* |
+| *Работаю, чтобы ты знал.* | *Сообщаю Вам, чтобы Вы знали.* |
+
+### Контексты употребления a fin de que:
+- Официальные документы
+- Деловая переписка
+- Юридические тексты
+- Академический стиль
+
+### Примеры в официальном контексте:
+- *Se ha convocado esta reunión **a fin de que** todos los miembros puedan expresar su opinión.* — Это собрание созвано, чтобы все члены могли высказать своё мнение.
+- *Le enviamos este documento **a fin de que** lo revise antes de la firma.* — Мы отправляем Вам этот документ, чтобы Вы его просмотрели перед подписанием.`
+        },
+        {
+          id: 'согласование-времен',
+          title: '7. Согласование времён в придаточных цели',
+          content: `## Выбор времени Subjuntivo
+
+Время сослагательного наклонения в придаточном цели зависит от времени глагола в главном предложении.
+
+### Схема согласования:
+
+| Главное предложение | Придаточное (para que + ...) |
+|---------------------|------------------------------|
+| Presente / Futuro / Perfecto | **Presente de Subjuntivo** |
+| Pasado (Indefinido, Imperfecto) | **Imperfecto de Subjuntivo** |
+
+### Примеры с Presente de Subjuntivo:
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| *Te **llamo*** | *para que **vengas*** | Я тебе звоню, чтобы ты пришёл |
+| *Te **llamaré*** | *para que **vengas*** | Я тебе позвоню, чтобы ты пришёл |
+| *Te **he llamado*** | *para que **vengas*** | Я тебе позвонил, чтобы ты пришёл |
+
+### Примеры с Imperfecto de Subjuntivo:
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| *Te **llamé*** | *para que **vinieras*** | Я тебе позвонил, чтобы ты пришёл |
+| *Te **llamaba*** | *para que **vinieras*** | Я тебе звонил, чтобы ты пришёл |`
+        },
+        {
+          id: 'резюме',
+          title: '8. Резюме: схема выбора',
+          content: `## Краткая схема выбора конструкции
+
+### Алгоритм:
+
+\`\`\`
+Шаг 1: Определите, кто совершает действие в придаточном предложении
+
+        Субъект 1 = Субъект 2?
+              │
+        ┌─────┴─────┐
+        │           │
+       ДА          НЕТ
+        │           │
+        ▼           ▼
+  para + Inf    para que + Subj
+\`\`\`
+
+### Формула:
+
+| Ситуация | Конструкция | Пример |
+|----------|-------------|--------|
+| **Одно лицо** | para + Infinitivo | *Estudio para aprender.* (Я учусь, чтобы научиться) |
+| **Разные лица** | para que + Subjuntivo | *Estudio para que tú descanses.* (Я учусь, чтобы ты отдыхал) |
+
+### Запомните:
+- **para + Infinitivo** = одно действующее лицо
+- **para que + Subjuntivo** = разные действующие лица
+- **a fin de que** = официальный синоним para que`
+        }
+      ],
+      examples: [
+        { spanish: 'He traído su tesis para corregir las faltas', translation: 'Я принёс его диссертацию, чтобы исправить ошибки (я сам)' },
+        { spanish: 'He traído mi tesis para que usted la corrija', translation: 'Я принёс мою диссертацию, чтобы Вы её исправили' },
+        { spanish: 'Estudio español para trabajar en España', translation: 'Я учу испанский, чтобы работать в Испании' },
+        { spanish: 'Te explico esto para que entiendas', translation: 'Я объясняю тебе это, чтобы ты понял' },
+        { spanish: 'Trabajo mucho para que mis hijos tengan todo', translation: 'Я много работаю, чтобы мои дети имели всё' },
+        { spanish: 'Abrí la ventana para que entrara aire fresco', translation: 'Я открыл окно, чтобы вошёл свежий воздух' },
+        { spanish: 'Le doy dinero para que compre pan', translation: 'Я даю ему деньги, чтобы он купил хлеб' },
+        { spanish: 'Se lo comunico a fin de que lo sepa', translation: 'Сообщаю Вам это, чтобы Вы знали' }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-12-3-1', 'ex-12-3-2', 'ex-12-3-3']
   }
 }
 
@@ -40358,6 +40603,367 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: 'Учитель сказал, что мы пойдем на экскурсию, когда все сдадут экзамен.',
         spanish: 'el profesor dijo que iríamos de excursión cuando todos aprobaran el examen',
         alternatives: ['el maestro dijo que haríamos una excursión cuando todos pasaran el examen']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12, УРОК 3: Упражнения на придаточные цели (de fin)
+  // =============================================
+
+  'ex-12-3-1': {
+    id: 'ex-12-3-1',
+    type: 'subjunctive',
+    title: 'Поставьте глагол в правильную форму Subjuntivo',
+    description: 'Поставьте глагол в скобках в нужную форму сослагательного наклонения (Presente или Imperfecto de Subjuntivo).',
+    questions: [
+      {
+        text: 'Dilo en voz alta para que todos ___ (oír, a ti).',
+        options: ['te oigan', 'te oyen', 'te oirán', 'te oyeron'],
+        correct: 0,
+        explanation: 'После "para que" используется Subjuntivo. "Oír" в Presente de Subjuntivo: oigan. Местоимение "te" ставится перед глаголом.'
+      },
+      {
+        text: '¿Qué tengo que hacer para que tú ___ (creerme)?',
+        options: ['me creas', 'me crees', 'me creerás', 'me creías'],
+        correct: 0,
+        explanation: 'После "para que" используется Presente de Subjuntivo: creas. Местоимение "me" ставится перед глаголом.'
+      },
+      {
+        text: 'Hay que llamar al médico urgentemente a fin de que ___ (examinar, él) al paciente.',
+        options: ['examine', 'examina', 'examinará', 'examinó'],
+        correct: 0,
+        explanation: 'После "a fin de que" всегда Subjuntivo. Presente de Subjuntivo от "examinar": examine.'
+      },
+      {
+        text: 'Invitasteis al señor López para que nosotros ___ (poder) hablar con él en español.',
+        options: ['pudiéramos', 'podemos', 'podíamos', 'podremos'],
+        correct: 0,
+        explanation: 'Главный глагол в прошедшем времени (invitasteis), поэтому используется Imperfecto de Subjuntivo: pudiéramos.'
+      },
+      {
+        text: 'Te traje este libro para que ___ (leerlo y decirme, tú) tu opinión.',
+        options: ['lo leyeras y me dijeras', 'lo lees y me dices', 'lo leerás y me dirás', 'lo leías y me decías'],
+        correct: 0,
+        explanation: 'Главный глагол "traje" в прошедшем времени, поэтому Imperfecto de Subjuntivo: leyeras, dijeras.'
+      },
+      {
+        text: 'Llámala a fin de que ella no ___ (preocuparse).',
+        options: ['se preocupe', 'se preocupa', 'se preocupará', 'se preocupó'],
+        correct: 0,
+        explanation: 'После "a fin de que" используется Subjuntivo. Imperativo "llámala" указывает на настоящее/будущее, поэтому Presente de Subjuntivo.'
+      },
+      {
+        text: 'Te compré este traje para que ___ (ponérselo, tú) el día de la fiesta.',
+        options: ['te lo pusieras', 'te lo pones', 'te lo pondrás', 'te lo ponías'],
+        correct: 0,
+        explanation: 'Главный глагол "compré" в прошедшем времени, поэтому Imperfecto de Subjuntivo: pusieras.'
+      },
+      {
+        text: 'Le he ofrecido a la vecina una pastilla contra insomnio para que ella ___ (tranquilizarse y dormir) bien.',
+        options: ['se tranquilice y duerma', 'se tranquiliza y duerme', 'se tranquilizará y dormirá', 'se tranquilizó y durmió'],
+        correct: 0,
+        explanation: 'Главный глагол "he ofrecido" в Pretérito Perfecto, поэтому используется Presente de Subjuntivo.'
+      },
+      {
+        text: 'Se lo dije a usted para que ___ (saber) de qué se trataba.',
+        options: ['supiera', 'sabe', 'sabrá', 'sabía'],
+        correct: 0,
+        explanation: 'Главный глагол "dije" в прошедшем времени, поэтому Imperfecto de Subjuntivo: supiera.'
+      },
+      {
+        text: 'José me ha enviado un artículo sobre China para que ___ (traducírselo, yo).',
+        options: ['se lo traduzca', 'se lo traduzco', 'se lo traduciré', 'se lo traducía'],
+        correct: 0,
+        explanation: 'Главный глагол "ha enviado" в Pretérito Perfecto, поэтому Presente de Subjuntivo: traduzca.'
+      },
+      {
+        text: 'Te doy este dinero para que ___ (comprarse, tú) algo bonito.',
+        options: ['te compres', 'te compras', 'te comprarás', 'te comprabas'],
+        correct: 0,
+        explanation: 'Главный глагол "doy" в настоящем времени, поэтому Presente de Subjuntivo: compres.'
+      },
+      {
+        text: 'Abrí las ventanas para que ___ (entrar) aire fresco.',
+        options: ['entrara', 'entra', 'entrará', 'entraba'],
+        correct: 0,
+        explanation: 'Главный глагол "abrí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: entrara.'
+      },
+      {
+        text: 'El profesor explica la lección despacio para que los alumnos ___ (entender) todo.',
+        options: ['entiendan', 'entienden', 'entenderán', 'entendían'],
+        correct: 0,
+        explanation: 'Главный глагол "explica" в настоящем времени, поэтому Presente de Subjuntivo: entiendan.'
+      },
+      {
+        text: 'Le escribí una carta a fin de que ___ (conocer, él) mi opinión.',
+        options: ['conociera', 'conoce', 'conocerá', 'conocía'],
+        correct: 0,
+        explanation: 'Главный глагол "escribí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: conociera.'
+      },
+      {
+        text: 'Hablo más alto para que todos ___ (poder) oírme.',
+        options: ['puedan', 'pueden', 'podrán', 'podían'],
+        correct: 0,
+        explanation: 'Главный глагол "hablo" в настоящем времени, поэтому Presente de Subjuntivo: puedan.'
+      }
+    ]
+  },
+
+  'ex-12-3-2': {
+    id: 'ex-12-3-2',
+    type: 'translation',
+    title: 'Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя конструкции para + Infinitivo или para que + Subjuntivo.',
+    questions: [
+      {
+        russian: 'Я тебя приглашаю на концерт, чтобы ты насладилась прекрасной музыкой.',
+        spanish: 'te invito al concierto para que disfrutes de la música maravillosa',
+        alternatives: ['te invito al concierto para que goces de la música preciosa', 'te invito al concierto para que disfrutes de la bella música']
+      },
+      {
+        russian: 'Врач рекомендует тебе это лекарство, чтобы тебя не укачало во время полёта.',
+        spanish: 'el médico te recomienda este medicamento para que no te marees durante el vuelo',
+        alternatives: ['el doctor te recomienda esta medicina para que no te marees durante el vuelo']
+      },
+      {
+        russian: 'Мы собирались провести каникулы в Испании, чтобы купаться в море, загорать и изучать испанский язык.',
+        spanish: 'íbamos a pasar las vacaciones en españa para bañarnos en el mar, tomar el sol y estudiar español',
+        alternatives: ['pensábamos pasar las vacaciones en españa para nadar en el mar, broncearnos y aprender español']
+      },
+      {
+        russian: 'Я достала мясо из холодильника, чтобы приготовить жаркое, и чтобы мы поужинали сегодня дома.',
+        spanish: 'saqué la carne de la nevera para preparar un asado y para que cenáramos hoy en casa',
+        alternatives: ['saqué la carne del frigorífico para hacer un asado y para que cenáramos hoy en casa']
+      },
+      {
+        russian: 'Ты должен поговорить с ним и всё ему объяснить, чтобы он перестал на тебя обижаться.',
+        spanish: 'debes hablar con él y explicarle todo para que deje de estar ofendido contigo',
+        alternatives: ['tienes que hablar con él y explicárselo todo para que deje de enfadarse contigo']
+      },
+      {
+        russian: 'Дайте ребёнку игрушки, чтобы он играл и не мешал нам разговаривать.',
+        spanish: 'den al niño los juguetes para que juegue y no nos moleste hablar',
+        alternatives: ['denle los juguetes al niño para que juegue y no nos interrumpa']
+      },
+      {
+        russian: 'Я принёс этот фильм, чтобы посмотреть его в субботу.',
+        spanish: 'he traído esta película para verla el sábado',
+        alternatives: ['traje esta película para verla el sábado']
+      },
+      {
+        russian: 'Я принёс этот фильм, чтобы вы посмотрели его.',
+        spanish: 'he traído esta película para que ustedes la vean',
+        alternatives: ['traje esta película para que la vieran']
+      },
+      {
+        russian: 'Кармен купила это платье, чтобы надеть его на праздник.',
+        spanish: 'carmen compró este vestido para ponérselo en la fiesta',
+        alternatives: ['carmen se compró este vestido para llevarlo a la fiesta']
+      },
+      {
+        russian: 'Кармен купила это платье, чтобы я его надела на праздник.',
+        spanish: 'carmen compró este vestido para que me lo pusiera en la fiesta',
+        alternatives: ['carmen compró este vestido para que yo me lo pusiera en la fiesta']
+      },
+      {
+        russian: 'Филипп учится и одновременно работает, чтобы чувствовать себя независимым.',
+        spanish: 'felipe estudia y a la vez trabaja para sentirse independiente',
+        alternatives: ['felipe estudia y al mismo tiempo trabaja para sentirse independiente']
+      },
+      {
+        russian: 'Филипп учится и одновременно работает, чтобы родители были довольны.',
+        spanish: 'felipe estudia y a la vez trabaja para que sus padres estén contentos',
+        alternatives: ['felipe estudia y al mismo tiempo trabaja para que sus padres estén satisfechos']
+      },
+      {
+        russian: 'Мы придём к тебе сегодня вечером, чтобы помочь выполнить задание.',
+        spanish: 'vendremos a tu casa esta noche para ayudarte a hacer la tarea',
+        alternatives: ['iremos a verte esta noche para ayudarte con el trabajo']
+      },
+      {
+        russian: 'Мы придём к тебе сегодня вечером, чтобы ты нам помог выполнить задание.',
+        spanish: 'vendremos a tu casa esta noche para que nos ayudes a hacer la tarea',
+        alternatives: ['iremos a verte esta noche para que nos ayudes con el trabajo']
+      },
+      {
+        russian: 'Позвони маме, чтобы она не волновалась.',
+        spanish: 'llama a mamá para que no se preocupe',
+        alternatives: ['llama a tu madre para que no se inquiete']
+      }
+    ]
+  },
+
+  'ex-12-3-3': {
+    id: 'ex-12-3-3',
+    type: 'vocabulary',
+    title: 'Многозначное слово TÍTULO: переведите на русский язык',
+    description: 'Переведите предложения на русский язык, обращая внимание на разные значения слова "título" (звание, титул, название, заголовок, ценные бумаги).',
+    questions: [
+      {
+        text: 'Hace poco nuestro equipo ganó el título de campeón.',
+        options: [
+          'Недавно наша команда завоевала звание чемпиона.',
+          'Недавно наша команда выиграла книгу чемпиона.',
+          'Недавно наша команда получила документ чемпиона.',
+          'Недавно наша команда нашла имя чемпиона.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "звание, титул" — título de campeón = звание чемпиона.'
+      },
+      {
+        text: 'No recuerdo el título de la novela que me has recomendado.',
+        options: [
+          'Я не помню название романа, который ты мне порекомендовал.',
+          'Я не помню звание романа, который ты мне порекомендовал.',
+          'Я не помню автора романа, который ты мне порекомендовал.',
+          'Я не помню цену романа, который ты мне порекомендовал.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" — título de la novela = название романа.'
+      },
+      {
+        text: 'En nuestro país los títulos de nobleza no se reconocen.',
+        options: [
+          'В нашей стране дворянские титулы не признаются.',
+          'В нашей стране названия дворянства не признаются.',
+          'В нашей стране дворянские книги не признаются.',
+          'В нашей стране дворянские документы не признаются.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "титул" — títulos de nobleza = дворянские титулы.'
+      },
+      {
+        text: 'En la Constitución Española de 1978 el título primero está dedicado a los derechos y deberes fundamentales.',
+        options: [
+          'В Конституции Испании 1978 года раздел первый посвящён основным правам и обязанностям.',
+          'В Конституции Испании 1978 года название первое посвящено основным правам и обязанностям.',
+          'В Конституции Испании 1978 года титул первый посвящён основным правам и обязанностям.',
+          'В Конституции Испании 1978 года звание первое посвящено основным правам и обязанностям.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "раздел, глава" (в документах) — título primero = первый раздел.'
+      },
+      {
+        text: 'Quiero cambiar mis títulos de valor por el dinero efectivo.',
+        options: [
+          'Я хочу обменять мои ценные бумаги на наличные деньги.',
+          'Я хочу обменять мои названия ценностей на наличные деньги.',
+          'Я хочу обменять мои титулы ценности на наличные деньги.',
+          'Я хочу обменять мои звания ценности на наличные деньги.'
+        ],
+        correct: 0,
+        explanation: 'Títulos de valor = ценные бумаги (финансовый термин).'
+      },
+      {
+        text: 'Ha obtenido el título de doctor en medicina.',
+        options: [
+          'Он получил звание доктора медицины.',
+          'Он получил название доктора медицины.',
+          'Он получил книгу доктора медицины.',
+          'Он получил ценные бумаги доктора медицины.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "учёная степень, звание" — título de doctor = звание доктора.'
+      },
+      {
+        text: 'El título del artículo no refleja su contenido.',
+        options: [
+          'Заголовок статьи не отражает её содержание.',
+          'Звание статьи не отражает её содержание.',
+          'Титул статьи не отражает её содержание.',
+          'Документ статьи не отражает её содержание.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "заголовок" — título del artículo = заголовок статьи.'
+      },
+      {
+        text: 'La empresa emitió nuevos títulos en la bolsa.',
+        options: [
+          'Компания выпустила новые ценные бумаги на бирже.',
+          'Компания выпустила новые названия на бирже.',
+          'Компания выпустила новые звания на бирже.',
+          'Компания выпустила новые заголовки на бирже.'
+        ],
+        correct: 0,
+        explanation: 'Títulos (в финансовом контексте) = ценные бумаги, акции.'
+      },
+      {
+        text: 'Los títulos nobiliarios fueron abolidos después de la revolución.',
+        options: [
+          'Дворянские титулы были отменены после революции.',
+          'Дворянские названия были отменены после революции.',
+          'Дворянские звания были отменены после революции.',
+          'Дворянские документы были отменены после революции.'
+        ],
+        correct: 0,
+        explanation: 'Títulos nobiliarios = дворянские титулы.'
+      },
+      {
+        text: '¿Cuál es el título de la película que viste ayer?',
+        options: [
+          'Какое название фильма, который ты вчера смотрел?',
+          'Какое звание фильма, который ты вчера смотрел?',
+          'Какой титул фильма, который ты вчера смотрел?',
+          'Какой документ фильма, который ты вчера смотрел?'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" — título de la película = название фильма.'
+      },
+      {
+        text: 'El rey concedió el título de conde a su consejero.',
+        options: [
+          'Король пожаловал титул графа своему советнику.',
+          'Король пожаловал название графа своему советнику.',
+          'Король пожаловал звание графа своему советнику.',
+          'Король пожаловал документ графа своему советнику.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "титул" — título de conde = титул графа.'
+      },
+      {
+        text: 'Necesito tu título universitario para completar el expediente.',
+        options: [
+          'Мне нужен твой университетский диплом, чтобы завершить дело.',
+          'Мне нужно твоё университетское название, чтобы завершить дело.',
+          'Мне нужен твой университетский титул, чтобы завершить дело.',
+          'Мне нужны твои университетские ценные бумаги, чтобы завершить дело.'
+        ],
+        correct: 0,
+        explanation: 'Título universitario = университетский диплом.'
+      },
+      {
+        text: 'El libro tiene un título muy largo y difícil de recordar.',
+        options: [
+          'У книги очень длинное и трудное для запоминания название.',
+          'У книги очень длинное и трудное для запоминания звание.',
+          'У книги очень длинный и трудный для запоминания титул.',
+          'У книги очень длинный и трудный для запоминания документ.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" книги.'
+      },
+      {
+        text: 'A título personal, creo que es una mala decisión.',
+        options: [
+          'Лично я считаю, что это плохое решение.',
+          'По названию я считаю, что это плохое решение.',
+          'По званию я считаю, что это плохое решение.',
+          'По документу я считаю, что это плохое решение.'
+        ],
+        correct: 0,
+        explanation: 'A título personal — устойчивое выражение, означающее "лично, от себя лично".'
+      },
+      {
+        text: 'Los inversores prefieren títulos de renta fija.',
+        options: [
+          'Инвесторы предпочитают облигации с фиксированным доходом.',
+          'Инвесторы предпочитают названия с фиксированным доходом.',
+          'Инвесторы предпочитают звания с фиксированным доходом.',
+          'Инвесторы предпочитают титулы с фиксированным доходом.'
+        ],
+        correct: 0,
+        explanation: 'Títulos de renta fija = облигации, ценные бумаги с фиксированным доходом.'
       }
     ]
   }
