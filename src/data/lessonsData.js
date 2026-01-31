@@ -16879,7 +16879,7 @@ Antes de que → Всегда Subjuntivo
       ]
     },
     vocabulary: [],
-    exercises: []
+    exercises: ['ex-12-2-1', 'ex-12-2-2', 'ex-12-2-3', 'ex-12-2-4', 'ex-12-2-5']
   }
 }
 
@@ -39462,6 +39462,790 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: 'Она попросила, чтобы я её подождал.',
         spanish: 'me pidió que la esperara',
         alternatives: ['ella me pidió que la esperara', 'me pidió que la esperase']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 2 - УПРАЖНЕНИЯ
+  // =============================================
+
+  'ex-12-2-1': {
+    id: 'ex-12-2-1',
+    type: 'subjunctive',
+    title: 'Трансформация предложений с временными союзами',
+    description: 'Измените предложения по образцу, добавив указанный союз и трансформировав в прошедшее время. Образец: Te diré la verdad y me comprenderás. (En cuanto…) → En cuanto yo te diga la verdad, me comprenderás. → Yo estaba seguro de que en cuanto te dijera la verdad, me comprenderías.',
+    questions: [
+      {
+        text: 'Todos vendrán y discutiremos el programa. (Antes de que…) → Трансформируйте в будущее и прошедшее:',
+        options: [
+          'Antes de que todos vengan, discutiremos el programa. → Pensé que antes de que todos vinieran, discutiríamos el programa.',
+          'Antes de que todos vienen, discutimos el programa. → Pensé que antes de que todos venían, discutíamos el programa.',
+          'Antes que todos vendrán, discutiremos el programa. → Pensé que antes todos vendrían, discutiríamos el programa.',
+          'Antes de que todos vengan, discutimos el programa. → Pensé que antes de que todos vengan, discutiríamos el programa.'
+        ],
+        correct: 0,
+        explanation: 'После "antes de que" всегда используется Subjuntivo: vengan (Presente), vinieran (Imperfecto).'
+      },
+      {
+        text: 'Traduciréis el artículo y nos lo leeréis. (Después de que…) → Трансформируйте:',
+        options: [
+          'Después de que traduzcáis el artículo, nos lo leeréis. → Esperaba que después de que tradujerais el artículo, nos lo leyerais.',
+          'Después de que traducís el artículo, nos lo leéis. → Esperaba que después de que traducíais el artículo, nos lo leíais.',
+          'Después de que traduciréis el artículo, nos lo leeréis. → Esperaba que después de que traduciríais el artículo, nos lo leeríais.',
+          'Después que traducís el artículo, nos lo leéis. → Esperaba que después traducíais el artículo, nos lo leíais.'
+        ],
+        correct: 0,
+        explanation: 'После "después de que" в будущем используется Subjuntivo: traduzcáis, tradujerais.'
+      },
+      {
+        text: 'Estaremos en el teatro y los hijos cenarán y se acostarán. (Mientras…) → Трансформируйте:',
+        options: [
+          'Mientras estemos en el teatro, los hijos cenarán y se acostarán. → Sabía que mientras estuviéramos en el teatro, los hijos cenarían y se acostarían.',
+          'Mientras estamos en el teatro, los hijos cenan y se acuestan. → Sabía que mientras estábamos en el teatro, los hijos cenaban y se acostaban.',
+          'Mientras estaremos en el teatro, los hijos cenarán y se acostarán. → Sabía que mientras estaríamos en el teatro, los hijos cenarían y se acostarían.',
+          'Mientras que estamos en el teatro, los hijos cenan. → Sabía que mientras estábamos, los hijos cenaban.'
+        ],
+        correct: 0,
+        explanation: 'После "mientras" для будущего действия используется Subjuntivo: estemos, estuviéramos.'
+      },
+      {
+        text: 'Nuestros amigos tendrán tiempo y nos veremos. (Cuando…) → Трансформируйте:',
+        options: [
+          'Cuando nuestros amigos tengan tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tuvieran tiempo, nos veríamos.',
+          'Cuando nuestros amigos tienen tiempo, nos vemos. → Estaba seguro de que cuando nuestros amigos tenían tiempo, nos veíamos.',
+          'Cuando nuestros amigos tendrán tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tendrían tiempo, nos veríamos.',
+          'Cuando nuestros amigos tienen tiempo, nos veremos. → Estaba seguro de que cuando tengan tiempo, nos veríamos.'
+        ],
+        correct: 0,
+        explanation: 'После "cuando" для будущего используется Subjuntivo: tengan, tuvieran.'
+      },
+      {
+        text: 'Te concederán las vacaciones e iremos a descansar. (En cuanto…) → Трансформируйте:',
+        options: [
+          'En cuanto te concedan las vacaciones, iremos a descansar. → Esperaba que en cuanto te concedieran las vacaciones, iríamos a descansar.',
+          'En cuanto te conceden las vacaciones, vamos a descansar. → Esperaba que en cuanto te concedían las vacaciones, íbamos a descansar.',
+          'En cuanto te concederán las vacaciones, iremos a descansar. → Esperaba que en cuanto te concederían las vacaciones, iríamos a descansar.',
+          'En cuanto te dan las vacaciones, vamos. → Esperaba que en cuanto te daban las vacaciones, íbamos.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Subjuntivo для будущего: concedan, concedieran.'
+      },
+      {
+        text: 'Nos pondremos a comer palomitas durante la ópera y el acomodador nos echará de la sala. (Apenas…) → Трансформируйте:',
+        options: [
+          'Apenas nos pongamos a comer palomitas, el acomodador nos echará de la sala. → Sabía que apenas nos pusiéramos a comer palomitas, el acomodador nos echaría de la sala.',
+          'Apenas nos ponemos a comer palomitas, el acomodador nos echa de la sala. → Sabía que apenas nos poníamos a comer palomitas, el acomodador nos echaba de la sala.',
+          'Apenas nos pondremos a comer palomitas, el acomodador nos echará. → Sabía que apenas nos pondríamos a comer palomitas, el acomodador nos echaría.',
+          'Apenas comemos palomitas, nos echan. → Sabía que apenas comíamos, nos echaban.'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + Subjuntivo для будущего: pongamos, pusiéramos.'
+      },
+      {
+        text: 'Tocaré a la puerta y tú me la abrirás. (Hasta que…) → Трансформируйте:',
+        options: [
+          'Tocaré a la puerta hasta que me la abras. → Pensé que tocaría a la puerta hasta que me la abrieras.',
+          'Toco a la puerta hasta que me la abres. → Pensé que tocaba a la puerta hasta que me la abrías.',
+          'Tocaré a la puerta hasta que me la abrirás. → Pensé que tocaría a la puerta hasta que me la abrirías.',
+          'Toco hasta que abres. → Pensé que tocaba hasta que abrías.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Subjuntivo для будущего: abras, abrieras.'
+      },
+      {
+        text: 'Terminaremos de ensayar y vendrá el público. (Antes de que…) → Трансформируйте:',
+        options: [
+          'Terminaremos de ensayar antes de que venga el público. → Esperaba que termináramos de ensayar antes de que viniera el público.',
+          'Terminamos de ensayar antes de que viene el público. → Esperaba que terminábamos de ensayar antes de que venía el público.',
+          'Terminaremos de ensayar antes que vendrá el público. → Esperaba que terminaríamos antes que vendría el público.',
+          'Terminamos antes de que viene. → Esperaba que terminábamos antes de que venía.'
+        ],
+        correct: 0,
+        explanation: '"Antes de que" siempre con Subjuntivo: venga, viniera.'
+      },
+      {
+        text: 'Darán ustedes un paseo y disfrutarán de las cosas hermosas de su ciudad. (Cuando…) → Трансформируйте:',
+        options: [
+          'Cuando den ustedes un paseo, disfrutarán de las cosas hermosas. → Pensaba que cuando dieran ustedes un paseo, disfrutarían de las cosas hermosas.',
+          'Cuando dan ustedes un paseo, disfrutan de las cosas hermosas. → Pensaba que cuando daban ustedes un paseo, disfrutaban de las cosas hermosas.',
+          'Cuando darán ustedes un paseo, disfrutarán. → Pensaba que cuando darían un paseo, disfrutarían.',
+          'Cuando dan un paseo, disfrutan. → Pensaba que cuando daban, disfrutaban.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Subjuntivo para el futuro: den, dieran.'
+      },
+      {
+        text: 'La orquesta tocará el vals y yo bailaré contigo. (Mientras…) → Трансформируйте:',
+        options: [
+          'Mientras la orquesta toque el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocara el vals, yo bailaría contigo.',
+          'Mientras la orquesta toca el vals, yo bailo contigo. → Soñaba con que mientras la orquesta tocaba el vals, yo bailaba contigo.',
+          'Mientras la orquesta tocará el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocaría el vals, yo bailaría contigo.',
+          'Mientras toca, bailo. → Soñaba con que mientras tocaba, bailaba.'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + Subjuntivo para el futuro: toque, tocara.'
+      },
+      {
+        text: 'Llegaremos al aeropuerto y facturaremos el equipaje. (En cuanto…) → Трансформируйте:',
+        options: [
+          'En cuanto lleguemos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegáramos al aeropuerto, facturaríamos el equipaje.',
+          'En cuanto llegamos al aeropuerto, facturamos el equipaje. → Pensé que en cuanto llegábamos al aeropuerto, facturábamos el equipaje.',
+          'En cuanto llegaremos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegaríamos, facturaríamos.',
+          'En cuanto llegamos, facturamos. → Pensé que en cuanto llegábamos, facturábamos.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Subjuntivo para el futuro: lleguemos, llegáramos.'
+      },
+      {
+        text: 'Saldrá el sol y empezaremos la excursión. (Apenas…) → Трансформируйте:',
+        options: [
+          'Apenas salga el sol, empezaremos la excursión. → Esperábamos que apenas saliera el sol, empezaríamos la excursión.',
+          'Apenas sale el sol, empezamos la excursión. → Esperábamos que apenas salía el sol, empezábamos la excursión.',
+          'Apenas saldrá el sol, empezaremos la excursión. → Esperábamos que apenas saldría el sol, empezaríamos la excursión.',
+          'Apenas sale, empezamos. → Esperábamos que apenas salía, empezábamos.'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + Subjuntivo para el futuro: salga, saliera.'
+      },
+      {
+        text: 'Terminaré el trabajo y te llamaré. (Después de que…) → Трансформируйте:',
+        options: [
+          'Después de que termine el trabajo, te llamaré. → Prometí que después de que terminara el trabajo, te llamaría.',
+          'Después de que termino el trabajo, te llamo. → Prometí que después de que terminaba el trabajo, te llamaba.',
+          'Después de que terminaré el trabajo, te llamaré. → Prometí que después de que terminaría el trabajo, te llamaría.',
+          'Después termino, te llamo. → Prometí que después terminaba, te llamaba.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Subjuntivo para el futuro: termine, terminara.'
+      },
+      {
+        text: 'Los niños se dormirán y podremos hablar tranquilamente. (Cuando…) → Трансформируйте:',
+        options: [
+          'Cuando los niños se duerman, podremos hablar tranquilamente. → Esperaba que cuando los niños se durmieran, podríamos hablar tranquilamente.',
+          'Cuando los niños se duermen, podemos hablar tranquilamente. → Esperaba que cuando los niños se dormían, podíamos hablar tranquilamente.',
+          'Cuando los niños se dormirán, podremos hablar. → Esperaba que cuando los niños se dormirían, podríamos hablar.',
+          'Cuando duermen, podemos hablar. → Esperaba que cuando dormían, podíamos hablar.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Subjuntivo para el futuro: se duerman, se durmieran.'
+      },
+      {
+        text: 'Recibirás la carta y me contestarás. (Hasta que…) → Трансформируйте:',
+        options: [
+          'Esperaré hasta que recibas la carta y me contestes. → Decidí esperar hasta que recibieras la carta y me contestaras.',
+          'Espero hasta que recibes la carta y me contestas. → Decidí esperar hasta que recibías la carta y me contestabas.',
+          'Esperaré hasta que recibirás la carta y me contestarás. → Decidí esperar hasta que recibirías la carta y me contestarías.',
+          'Espero hasta que recibes y contestas. → Decidí esperar hasta que recibías y contestabas.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Subjuntivo para el futuro: recibas/contestes, recibieras/contestaras.'
+      }
+    ]
+  },
+
+  'ex-12-2-2': {
+    id: 'ex-12-2-2',
+    type: 'subjunctive',
+    title: 'Поставьте предложения в будущее время',
+    description: 'Трансформируйте предложения из прошедшего времени в будущее. Образец: Dormí hasta que sonó el despertador. → Dormiré hasta que suene el despertador.',
+    questions: [
+      {
+        text: 'Después de que ellos vinieron, nos pusimos a discutir nuestro proyecto. → Поставьте в будущее:',
+        options: [
+          'Después de que ellos vengan, nos pondremos a discutir nuestro proyecto.',
+          'Después de que ellos vienen, nos ponemos a discutir nuestro proyecto.',
+          'Después de que ellos vendrán, nos pondremos a discutir nuestro proyecto.',
+          'Después de que ellos han venido, nos hemos puesto a discutir nuestro proyecto.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Presente de Subjuntivo para el futuro: vengan.'
+      },
+      {
+        text: 'Mientras Jorge veía el fútbol, yo hacía la cena. → Поставьте в будущее:',
+        options: [
+          'Mientras Jorge vea el fútbol, yo haré la cena.',
+          'Mientras Jorge ve el fútbol, yo hago la cena.',
+          'Mientras Jorge verá el fútbol, yo haré la cena.',
+          'Mientras Jorge ha visto el fútbol, yo he hecho la cena.'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + Presente de Subjuntivo para el futuro: vea.'
+      },
+      {
+        text: 'Estuve trabajando en la biblioteca hasta que la cerraron. → Поставьте в будущее:',
+        options: [
+          'Estaré trabajando en la biblioteca hasta que la cierren.',
+          'Estoy trabajando en la biblioteca hasta que la cierran.',
+          'Estaré trabajando en la biblioteca hasta que la cerrarán.',
+          'He estado trabajando en la biblioteca hasta que la han cerrado.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: cierren.'
+      },
+      {
+        text: 'En cuanto tradujimos el artículo, se lo trajimos al redactor. → Поставьте в будущее:',
+        options: [
+          'En cuanto traduzcamos el artículo, se lo traeremos al redactor.',
+          'En cuanto traducimos el artículo, se lo traemos al redactor.',
+          'En cuanto traduciremos el artículo, se lo traeremos al redactor.',
+          'En cuanto hemos traducido el artículo, se lo hemos traído al redactor.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: traduzcamos.'
+      },
+      {
+        text: 'Cuando Raúl lo supo, se enfadó contigo. → Поставьте в будущее:',
+        options: [
+          'Cuando Raúl lo sepa, se enfadará contigo.',
+          'Cuando Raúl lo sabe, se enfada contigo.',
+          'Cuando Raúl lo sabrá, se enfadará contigo.',
+          'Cuando Raúl lo ha sabido, se ha enfadado contigo.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Presente de Subjuntivo para el futuro: sepa.'
+      },
+      {
+        text: 'Después de que te hospitalizaron e hicieron la operación, te sentiste mejor. → Поставьте в будущее:',
+        options: [
+          'Después de que te hospitalicen y te hagan la operación, te sentirás mejor.',
+          'Después de que te hospitalizan y te hacen la operación, te sientes mejor.',
+          'Después de que te hospitalizarán y te harán la operación, te sentirás mejor.',
+          'Después de que te han hospitalizado y te han hecho la operación, te has sentido mejor.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Presente de Subjuntivo: hospitalicen, hagan.'
+      },
+      {
+        text: 'Los niños se negaron a acostarse hasta que se fueron todos los invitados. → Поставьте в будущее:',
+        options: [
+          'Los niños se negarán a acostarse hasta que se vayan todos los invitados.',
+          'Los niños se niegan a acostarse hasta que se van todos los invitados.',
+          'Los niños se negarán a acostarse hasta que se irán todos los invitados.',
+          'Los niños se han negado a acostarse hasta que se han ido todos los invitados.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: se vayan.'
+      },
+      {
+        text: 'En cuanto ganaste la partida, te felicitamos. → Поставьте в будущее:',
+        options: [
+          'En cuanto ganes la partida, te felicitaremos.',
+          'En cuanto ganas la partida, te felicitamos.',
+          'En cuanto ganarás la partida, te felicitaremos.',
+          'En cuanto has ganado la partida, te hemos felicitado.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: ganes.'
+      },
+      {
+        text: 'Después de que Susi cruzó la plaza, vio el monumento a Lope de Vega. → Поставьте в будущее:',
+        options: [
+          'Después de que Susi cruce la plaza, verá el monumento a Lope de Vega.',
+          'Después de que Susi cruza la plaza, ve el monumento a Lope de Vega.',
+          'Después de que Susi cruzará la plaza, verá el monumento a Lope de Vega.',
+          'Después de que Susi ha cruzado la plaza, ha visto el monumento a Lope de Vega.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Presente de Subjuntivo para el futuro: cruce.'
+      },
+      {
+        text: 'Me entrené hasta que logré buenos resultados. → Поставьте в будущее:',
+        options: [
+          'Me entrenaré hasta que logre buenos resultados.',
+          'Me entreno hasta que logro buenos resultados.',
+          'Me entrenaré hasta que lograré buenos resultados.',
+          'Me he entrenado hasta que he logrado buenos resultados.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: logre.'
+      },
+      {
+        text: 'Cuando terminé el libro, lo devolví a la biblioteca. → Поставьте в будущее:',
+        options: [
+          'Cuando termine el libro, lo devolveré a la biblioteca.',
+          'Cuando termino el libro, lo devuelvo a la biblioteca.',
+          'Cuando terminaré el libro, lo devolveré a la biblioteca.',
+          'Cuando he terminado el libro, lo he devuelto a la biblioteca.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Presente de Subjuntivo para el futuro: termine.'
+      },
+      {
+        text: 'Apenas llegaron los músicos, empezó el concierto. → Поставьте в будущее:',
+        options: [
+          'Apenas lleguen los músicos, empezará el concierto.',
+          'Apenas llegan los músicos, empieza el concierto.',
+          'Apenas llegarán los músicos, empezará el concierto.',
+          'Apenas han llegado los músicos, ha empezado el concierto.'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + Presente de Subjuntivo para el futuro: lleguen.'
+      },
+      {
+        text: 'Mientras los padres trabajaban, los abuelos cuidaban a los niños. → Поставьте в будущее:',
+        options: [
+          'Mientras los padres trabajen, los abuelos cuidarán a los niños.',
+          'Mientras los padres trabajan, los abuelos cuidan a los niños.',
+          'Mientras los padres trabajarán, los abuelos cuidarán a los niños.',
+          'Mientras los padres han trabajado, los abuelos han cuidado a los niños.'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + Presente de Subjuntivo para el futuro: trabajen.'
+      },
+      {
+        text: 'Antes de que empezó la película, compramos palomitas. → Поставьте в будущее:',
+        options: [
+          'Antes de que empiece la película, compraremos palomitas.',
+          'Antes de que empieza la película, compramos palomitas.',
+          'Antes de que empezará la película, compraremos palomitas.',
+          'Antes de que ha empezado la película, hemos comprado palomitas.'
+        ],
+        correct: 0,
+        explanation: '"Antes de que" siempre con Subjuntivo: empiece.'
+      },
+      {
+        text: 'Salió de casa en cuanto dejó de llover. → Поставьте в будущее:',
+        options: [
+          'Saldrá de casa en cuanto deje de llover.',
+          'Sale de casa en cuanto deja de llover.',
+          'Saldrá de casa en cuanto dejará de llover.',
+          'Ha salido de casa en cuanto ha dejado de llover.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: deje.'
+      }
+    ]
+  },
+
+  'ex-12-2-3': {
+    id: 'ex-12-2-3',
+    type: 'subjunctive',
+    title: 'Выберите Subjuntivo или Indicativo',
+    description: 'Поставьте глаголы в соответствующую форму modo subjuntivo или modo indicativo.',
+    questions: [
+      {
+        text: 'Nos iremos a España en cuanto (recibir, nosotros) el visado.',
+        options: [
+          'recibamos',
+          'recibimos',
+          'recibiremos',
+          'recibíamos'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + futuro requiere Presente de Subjuntivo: recibamos.'
+      },
+      {
+        text: 'Se lo diré todo a María después de que (volver, ella) a casa.',
+        options: [
+          'vuelva',
+          'vuelve',
+          'volverá',
+          'volvía'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + futuro requiere Presente de Subjuntivo: vuelva.'
+      },
+      {
+        text: 'No podemos enviarles el documento hasta que el jefe (firmarlo).',
+        options: [
+          'lo firme',
+          'lo firma',
+          'lo firmará',
+          'lo firmaba'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: lo firme.'
+      },
+      {
+        text: 'No saldremos a la calle mientras (llover).',
+        options: [
+          'llueva',
+          'llueve',
+          'lloverá',
+          'llovía'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + futuro requiere Presente de Subjuntivo: llueva.'
+      },
+      {
+        text: 'No puedo trabajar cuando (molestarme).',
+        options: [
+          'me molestan',
+          'me molesten',
+          'me molestarán',
+          'me molestaban'
+        ],
+        correct: 0,
+        explanation: '"Cuando" con acción habitual usa Indicativo: me molestan.'
+      },
+      {
+        text: 'Ella te perdonará apenas (tú, explicárselo) todo.',
+        options: [
+          'se lo expliques',
+          'se lo explicas',
+          'se lo explicarás',
+          'se lo explicabas'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + futuro requiere Presente de Subjuntivo: se lo expliques.'
+      },
+      {
+        text: 'Al público le interesa cuándo el teatro (estrenar) el nuevo musical.',
+        options: [
+          'estrenará',
+          'estrene',
+          'estrena',
+          'estrenaba'
+        ],
+        correct: 0,
+        explanation: '"Cuándo" en pregunta indirecta usa Indicativo: estrenará.'
+      },
+      {
+        text: 'La asistenta limpiará la casa y preparará la comida hasta que Margarita (salir) del hospital.',
+        options: [
+          'salga',
+          'sale',
+          'saldrá',
+          'salía'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: salga.'
+      },
+      {
+        text: 'En cuanto (saber, ellos) la fecha de su llegada, te la comunicarán.',
+        options: [
+          'sepan',
+          'saben',
+          'sabrán',
+          'sabían'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + futuro requiere Presente de Subjuntivo: sepan.'
+      },
+      {
+        text: 'Debemos llamarlo antes de que él (irse) de viaje de negocios.',
+        options: [
+          'se vaya',
+          'se va',
+          'se irá',
+          'se iba'
+        ],
+        correct: 0,
+        explanation: '"Antes de que" siempre requiere Subjuntivo: se vaya.'
+      },
+      {
+        text: 'Yo siempre visitaba el museo de El Prado cuando (llegar) a España.',
+        options: [
+          'llegaba',
+          'llegue',
+          'llegara',
+          'llegaré'
+        ],
+        correct: 0,
+        explanation: '"Cuando" con acción habitual en el pasado usa Indicativo: llegaba.'
+      },
+      {
+        text: 'Les has preguntado cuándo los actores (ensayar) el espectáculo.',
+        options: [
+          'ensayarán',
+          'ensayen',
+          'ensayan',
+          'ensayaban'
+        ],
+        correct: 0,
+        explanation: '"Cuándo" en pregunta indirecta usa Indicativo: ensayarán.'
+      },
+      {
+        text: 'Te esperaré aquí hasta que (terminar, tú) de trabajar.',
+        options: [
+          'termines',
+          'terminas',
+          'terminarás',
+          'terminabas'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: termines.'
+      },
+      {
+        text: 'Cuando (ser, yo) pequeño, jugaba mucho en el parque.',
+        options: [
+          'era',
+          'sea',
+          'fuera',
+          'seré'
+        ],
+        correct: 0,
+        explanation: '"Cuando" con acción pasada usa Indicativo: era.'
+      },
+      {
+        text: 'Apenas (llegar, nosotros) a la estación, saldrá el tren.',
+        options: [
+          'lleguemos',
+          'llegamos',
+          'llegaremos',
+          'llegábamos'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + futuro requiere Presente de Subjuntivo: lleguemos.'
+      }
+    ]
+  },
+
+  'ex-12-2-4': {
+    id: 'ex-12-2-4',
+    type: 'subjunctive',
+    title: 'Трансформация: Pablo pensó que...',
+    description: 'Начните предложения со слов «Pablo pensó que…» и сделайте соответствующие трансформации (согласование времён).',
+    questions: [
+      {
+        text: 'Nos iremos a España en cuanto recibamos el visado. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que nos iríamos a España en cuanto recibiéramos el visado.',
+          'Pablo pensó que nos vamos a España en cuanto recibamos el visado.',
+          'Pablo pensó que nos iremos a España en cuanto recibamos el visado.',
+          'Pablo pensó que nos fuimos a España en cuanto recibimos el visado.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: iremos → iríamos, recibamos → recibiéramos.'
+      },
+      {
+        text: 'Se lo diré todo a María después de que vuelva a casa. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que se lo diría todo a María después de que volviera a casa.',
+          'Pablo pensó que se lo dice todo a María después de que vuelve a casa.',
+          'Pablo pensó que se lo diré todo a María después de que vuelva a casa.',
+          'Pablo pensó que se lo dijo todo a María después de que volvió a casa.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: diré → diría, vuelva → volviera.'
+      },
+      {
+        text: 'No podemos enviarles el documento hasta que el jefe lo firme. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que no podían enviarles el documento hasta que el jefe lo firmara.',
+          'Pablo pensó que no pueden enviarles el documento hasta que el jefe lo firme.',
+          'Pablo pensó que no podremos enviarles el documento hasta que el jefe lo firme.',
+          'Pablo pensó que no pudieron enviarles el documento hasta que el jefe lo firmó.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: podemos → podían, firme → firmara.'
+      },
+      {
+        text: 'No saldremos a la calle mientras llueva. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que no saldríamos a la calle mientras lloviera.',
+          'Pablo pensó que no salimos a la calle mientras llueve.',
+          'Pablo pensó que no saldremos a la calle mientras llueva.',
+          'Pablo pensó que no salimos a la calle mientras llovía.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: saldremos → saldríamos, llueva → lloviera.'
+      },
+      {
+        text: 'Ella te perdonará apenas se lo expliques todo. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que ella te perdonaría apenas se lo explicaras todo.',
+          'Pablo pensó que ella te perdona apenas se lo explicas todo.',
+          'Pablo pensó que ella te perdonará apenas se lo expliques todo.',
+          'Pablo pensó que ella te perdonó apenas se lo explicaste todo.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: perdonará → perdonaría, expliques → explicaras.'
+      },
+      {
+        text: 'La asistenta limpiará la casa hasta que Margarita salga del hospital. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que la asistenta limpiaría la casa hasta que Margarita saliera del hospital.',
+          'Pablo pensó que la asistenta limpia la casa hasta que Margarita sale del hospital.',
+          'Pablo pensó que la asistenta limpiará la casa hasta que Margarita salga del hospital.',
+          'Pablo pensó que la asistenta limpió la casa hasta que Margarita salió del hospital.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: limpiará → limpiaría, salga → saliera.'
+      },
+      {
+        text: 'En cuanto sepan la fecha, te la comunicarán. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que en cuanto supieran la fecha, te la comunicarían.',
+          'Pablo pensó que en cuanto saben la fecha, te la comunican.',
+          'Pablo pensó que en cuanto sepan la fecha, te la comunicarán.',
+          'Pablo pensó que en cuanto supieron la fecha, te la comunicaron.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: sepan → supieran, comunicarán → comunicarían.'
+      },
+      {
+        text: 'Debemos llamarlo antes de que se vaya de viaje. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que debían llamarlo antes de que se fuera de viaje.',
+          'Pablo pensó que deben llamarlo antes de que se vaya de viaje.',
+          'Pablo pensó que debemos llamarlo antes de que se vaya de viaje.',
+          'Pablo pensó que debieron llamarlo antes de que se fue de viaje.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: debemos → debían, vaya → fuera.'
+      },
+      {
+        text: 'Te esperaré aquí hasta que termines de trabajar. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que te esperaría aquí hasta que terminaras de trabajar.',
+          'Pablo pensó que te espera aquí hasta que terminas de trabajar.',
+          'Pablo pensó que te esperaré aquí hasta que termines de trabajar.',
+          'Pablo pensó que te esperó aquí hasta que terminaste de trabajar.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: esperaré → esperaría, termines → terminaras.'
+      },
+      {
+        text: 'Apenas lleguemos a la estación, saldrá el tren. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que apenas llegáramos a la estación, saldría el tren.',
+          'Pablo pensó que apenas llegamos a la estación, sale el tren.',
+          'Pablo pensó que apenas lleguemos a la estación, saldrá el tren.',
+          'Pablo pensó que apenas llegamos a la estación, salió el tren.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: lleguemos → llegáramos, saldrá → saldría.'
+      },
+      {
+        text: 'Cuando los niños se duerman, podremos hablar tranquilamente. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que cuando los niños se durmieran, podrían hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se duermen, pueden hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se duerman, podremos hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se durmieron, pudieron hablar tranquilamente.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: se duerman → se durmieran, podremos → podrían.'
+      },
+      {
+        text: 'Mientras estemos en el teatro, los hijos cenarán en casa. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que mientras estuvieran en el teatro, los hijos cenarían en casa.',
+          'Pablo pensó que mientras están en el teatro, los hijos cenan en casa.',
+          'Pablo pensó que mientras estemos en el teatro, los hijos cenarán en casa.',
+          'Pablo pensó que mientras estuvieron en el teatro, los hijos cenaron en casa.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: estemos → estuvieran, cenarán → cenarían.'
+      },
+      {
+        text: 'Después de que traduzcamos el artículo, se lo traeremos al redactor. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que después de que tradujeran el artículo, se lo traerían al redactor.',
+          'Pablo pensó que después de que traducen el artículo, se lo traen al redactor.',
+          'Pablo pensó que después de que traduzcamos el artículo, se lo traeremos al redactor.',
+          'Pablo pensó que después de que tradujeron el artículo, se lo trajeron al redactor.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: traduzcamos → tradujeran, traeremos → traerían.'
+      },
+      {
+        text: 'Cuando Raúl lo sepa, se enfadará contigo. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que cuando Raúl lo supiera, se enfadaría contigo.',
+          'Pablo pensó que cuando Raúl lo sabe, se enfada contigo.',
+          'Pablo pensó que cuando Raúl lo sepa, se enfadará contigo.',
+          'Pablo pensó que cuando Raúl lo supo, se enfadó contigo.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: sepa → supiera, enfadará → enfadaría.'
+      },
+      {
+        text: 'Terminaremos de ensayar antes de que venga el público. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que terminarían de ensayar antes de que viniera el público.',
+          'Pablo pensó que terminan de ensayar antes de que viene el público.',
+          'Pablo pensó que terminaremos de ensayar antes de que venga el público.',
+          'Pablo pensó que terminaron de ensayar antes de que vino el público.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: terminaremos → terminarían, venga → viniera.'
+      }
+    ]
+  },
+
+  'ex-12-2-5': {
+    id: 'ex-12-2-5',
+    type: 'translation',
+    title: 'Перевод на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя временные союзы и правильные формы глаголов.',
+    questions: [
+      {
+        russian: 'Зрители будут аплодировать до тех пор, пока ты не выйдешь на сцену. Режиссер знал, что зрители будут аплодировать до тех пор, пока ты не выйдешь на сцену.',
+        spanish: 'los espectadores aplaudirán hasta que salgas al escenario. el director sabía que los espectadores aplaudirían hasta que salieras al escenario',
+        alternatives: ['el público aplaudirá hasta que salgas al escenario. el director sabía que el público aplaudiría hasta que salieras al escenario']
+      },
+      {
+        russian: 'Как только я узнаю, где она живет, я её навещу. Я пообещал, что как только узнаю, где она живет, её навещу.',
+        spanish: 'en cuanto sepa dónde vive, la visitaré. prometí que en cuanto supiera dónde vivía, la visitaría',
+        alternatives: ['apenas sepa dónde vive, la visitaré. prometí que apenas supiera dónde vivía, la visitaría']
+      },
+      {
+        russian: 'Надо будет вернуть им долг, пока они не уехали. Он подумал, что надо будет вернуть им долг, пока они не уехали.',
+        spanish: 'habrá que devolverles la deuda antes de que se vayan. pensó que habría que devolverles la deuda antes de que se fueran',
+        alternatives: ['hay que devolverles la deuda antes de que se vayan. pensó que había que devolverles la deuda antes de que se fueran']
+      },
+      {
+        russian: 'Секретарь не знала, когда приедет директор, и сказала, что как только она это узнает, сразу нам сообщит.',
+        spanish: 'la secretaria no sabía cuándo llegaría el director, y dijo que en cuanto lo supiera, nos lo comunicaría enseguida',
+        alternatives: ['la secretaria no sabía cuándo vendría el director, y dijo que en cuanto lo supiera, nos avisaría enseguida']
+      },
+      {
+        russian: 'До того, как Мариса вышла замуж, она жила в пригороде небольшого города.',
+        spanish: 'antes de que marisa se casara, vivía en las afueras de una pequeña ciudad',
+        alternatives: ['antes de casarse, marisa vivía en las afueras de una pequeña ciudad', 'antes de que marisa se casase, vivía en un suburbio de una pequeña ciudad']
+      },
+      {
+        russian: 'Как только мы приедем в аэропорт и сдадим вещи в багаж, до посадки у нас еще будет полно времени, чтобы купить подарки и сувениры.',
+        spanish: 'en cuanto lleguemos al aeropuerto y facturemos el equipaje, todavía tendremos mucho tiempo antes del embarque para comprar regalos y recuerdos',
+        alternatives: ['apenas lleguemos al aeropuerto y facturemos las maletas, aún tendremos mucho tiempo antes del embarque para comprar regalos y souvenirs']
+      },
+      {
+        russian: 'Пепита спросила, когда мы пойдем на пляж. Мать ответила, что когда будет тепло и вода в море прогреется до +23°.',
+        spanish: 'pepita preguntó cuándo iríamos a la playa. la madre contestó que cuando hiciera calor y el agua del mar se calentara hasta 23 grados',
+        alternatives: ['pepita preguntó cuándo íbamos a ir a la playa. la madre respondió que cuando hiciera calor y el agua del mar llegara a 23 grados']
+      },
+      {
+        russian: 'Я была уверена, что Хосе будет возмущаться, как только узнает, сколько стоят туфли, которые я купила.',
+        spanish: 'estaba segura de que josé se indignaría en cuanto supiera cuánto costaban los zapatos que había comprado',
+        alternatives: ['yo estaba segura de que josé se enfadaría en cuanto supiera cuánto costaban los zapatos que yo había comprado']
+      },
+      {
+        russian: 'До тех пор пока Вы не сдадите анализ крови, врач не сможет поставить Вам диагноз и назначить лечение.',
+        spanish: 'hasta que usted no se haga el análisis de sangre, el médico no podrá hacerle el diagnóstico ni prescribirle el tratamiento',
+        alternatives: ['mientras no se haga el análisis de sangre, el médico no podrá diagnosticarle ni recetarle el tratamiento']
+      },
+      {
+        russian: 'Нам надо уйти до того, как часы пробьют 12. (Мы ушли до того, как часы пробили 12.)',
+        spanish: 'tenemos que irnos antes de que el reloj dé las doce. nos fuimos antes de que el reloj diera las doce',
+        alternatives: ['debemos irnos antes de que den las doce. nos fuimos antes de que dieran las doce']
+      },
+      {
+        russian: 'Пока он будет читать книгу, я приготовлю ужин.',
+        spanish: 'mientras él lea el libro, yo prepararé la cena',
+        alternatives: ['mientras él esté leyendo el libro, yo haré la cena']
+      },
+      {
+        russian: 'Мы подождем здесь, пока не перестанет дождь.',
+        spanish: 'esperaremos aquí hasta que deje de llover',
+        alternatives: ['esperaremos aquí hasta que pare de llover', 'vamos a esperar aquí hasta que deje de llover']
+      },
+      {
+        russian: 'После того как закончится спектакль, мы пойдем в ресторан.',
+        spanish: 'después de que termine el espectáculo, iremos al restaurante',
+        alternatives: ['después de que acabe la función, iremos al restaurante', 'cuando termine el espectáculo, iremos al restaurante']
+      },
+      {
+        russian: 'Я позвоню тебе, как только приеду домой.',
+        spanish: 'te llamaré en cuanto llegue a casa',
+        alternatives: ['te llamaré apenas llegue a casa', 'te telefonearé en cuanto llegue a casa']
+      },
+      {
+        russian: 'Учитель сказал, что мы пойдем на экскурсию, когда все сдадут экзамен.',
+        spanish: 'el profesor dijo que iríamos de excursión cuando todos aprobaran el examen',
+        alternatives: ['el maestro dijo que haríamos una excursión cuando todos pasaran el examen']
       }
     ]
   }
