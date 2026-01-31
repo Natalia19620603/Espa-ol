@@ -83,7 +83,7 @@ export const modules = {
     id: 'module-12',
     title: 'Модуль 12: ОБРАЗОВАНИЕ. Imperfecto de subjuntivo. Придаточные предложения времени и цели',
     level: 'intermediate',
-    lessons: ['lesson-12-1', 'lesson-12-2', 'lesson-12-3'],
+    lessons: ['lesson-12-1', 'lesson-12-2', 'lesson-12-3', 'lesson-12-4'],
     description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
   },
   'module-8': {
@@ -17157,6 +17157,30 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
     },
     vocabulary: [],
     exercises: ['ex-12-3-1', 'ex-12-3-2', 'ex-12-3-3']
+  },
+  'lesson-12-4': {
+    id: 'lesson-12-4',
+    title: 'Урок 4: Повторение Модуль 11 и 12',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Повторение: Subjuntivo в придаточных предложениях времени, цели и дополнительных',
+      intro: 'Этот урок посвящён повторению и закреплению материала Модулей 11 и 12: употребление Presente de Subjuntivo и Imperfecto de Subjuntivo в различных типах придаточных предложений.',
+      sections: [
+        {
+          id: 'resumen-subjuntivo',
+          title: 'Краткое резюме употребления Subjuntivo',
+          content: '## Основные случаи употребления Subjuntivo\n\n### 1. Придаточные дополнительные (Oraciones Sustantivas)\n- После глаголов эмоций: *alegrarse de que, sorprenderse de que, temer que...*\n- После глаголов волеизъявления: *querer que, pedir que, aconsejar que...*\n- После глаголов сомнения и отрицания: *dudar que, no creer que, no estar seguro de que...*\n- После безличных выражений: *es importante que, es probable que, es mejor que...*\n\n### 2. Придаточные времени (Oraciones de Tiempo)\n- **Indicativo** — для привычных или прошедших действий\n- **Subjuntivo** — для будущих действий (после cuando, antes de que, hasta que, después de que...)\n\n### 3. Придаточные цели (Oraciones de Fin)\n- **para + Infinitivo** — одно действующее лицо\n- **para que + Subjuntivo** — разные действующие лица\n\n### 4. Согласование времён\n| Главное предложение | Придаточное |\n|---------------------|-------------|\n| Presente / Futuro / Perfecto | Presente de Subjuntivo |\n| Pasado (Indefinido, Imperfecto) | Imperfecto de Subjuntivo |'
+        }
+      ],
+      examples: [
+        { spanish: 'Me alegro de que vengas', translation: 'Я рад, что ты придёшь' },
+        { spanish: 'No creo que sea verdad', translation: 'Не думаю, что это правда' },
+        { spanish: 'Cuando llegues, llámame', translation: 'Когда приедешь, позвони мне' },
+        { spanish: 'Te lo dije para que lo supieras', translation: 'Я тебе это сказал, чтобы ты знал' }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-12-4-1', 'ex-12-4-2', 'ex-12-4-3']
   }
 }
 
@@ -40996,6 +41020,526 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         ],
         correct: 0,
         explanation: 'Títulos de renta fija = облигации, ценные бумаги с фиксированным доходом.'
+      }
+    ]
+  },
+  // Урок 12.4 - Повторение Модуль 11 и 12
+  'ex-12-4-1': {
+    id: 'ex-12-4-1',
+    type: 'grammar',
+    title: 'Поставьте глаголы в соответствующую форму',
+    description: 'Выберите правильную форму глагола в скобках (Presente de Subjuntivo или Imperfecto de Subjuntivo).',
+    questions: [
+      {
+        sentence: 'Los padres se alegran de que su hijo (hablar) bien el español, pero no estoy segura de que él (saber) hacer el test de control.',
+        options: [
+          'hable, sepa',
+          'habla, sabe',
+          'hablara, supiera',
+          'hablaba, sabía'
+        ],
+        correct: 0,
+        explanation: 'Se alegran (presente) + Presente de Subjuntivo. No estoy segura (presente) + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Nos sorprendemos de que ellos (ir) de vacaciones al mismo lugar todos los años y no (querer) cambiar sus costumbres.',
+        options: [
+          'vayan, quieran',
+          'van, quieren',
+          'fueran, quisieran',
+          'iban, querían'
+        ],
+        correct: 0,
+        explanation: 'Nos sorprendemos (presente) + Presente de Subjuntivo para ambos verbos.'
+      },
+      {
+        sentence: 'Te aconsejé que (ver) primero la cartelera antes de que (invitar) a Sofía a salir contigo.',
+        options: [
+          'vieras, invitaras',
+          'veas, invites',
+          'ves, invitas',
+          'veías, invitabas'
+        ],
+        correct: 0,
+        explanation: 'Aconsejé (pretérito) + Imperfecto de Subjuntivo. Antes de que siempre requiere Subjuntivo.'
+      },
+      {
+        sentence: '¿Por qué siempre insistes en que (seguir) la carrera? — No me imagino que (encontrar) un empleo bien pagado sin diploma.',
+        options: [
+          'siga, encuentres',
+          'sigo, encuentras',
+          'siguiera, encontraras',
+          'seguía, encontrabas'
+        ],
+        correct: 0,
+        explanation: 'Insistes (presente) + Presente de Subjuntivo. No me imagino (presente) + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'No es cierto que la ópera y el ballet (atraer) menos audiencia y es poco probable que (sacar) entradas para el estreno.',
+        options: [
+          'atraigan, saquemos',
+          'atraen, sacamos',
+          'atrajeran, sacáramos',
+          'atraían, sacábamos'
+        ],
+        correct: 0,
+        explanation: 'No es cierto que + Presente de Subjuntivo. Es poco probable que + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Cuando (graduarse) de la universidad me iré a trabajar al extranjero para que nadie (decir) que vivo a cuenta de mi padre.',
+        options: [
+          'me gradúe, diga',
+          'me gradúo, dice',
+          'me graduara, dijera',
+          'me graduaba, decía'
+        ],
+        correct: 0,
+        explanation: 'Cuando + acción futura requiere Presente de Subjuntivo. Para que + Subjuntivo (diferentes sujetos).'
+      },
+      {
+        sentence: 'Durante la conferencia el profesor dijo que (ser) un tema difícil y que (escuchar, nosotros) con atención porque después de que (terminar) el curso todos (tener) que examinarnos.',
+        options: [
+          'era, escucháramos, terminara, tendríamos',
+          'es, escuchemos, termine, tendremos',
+          'fue, escuchamos, terminó, tuvimos',
+          'sea, escuchemos, termine, tengamos'
+        ],
+        correct: 0,
+        explanation: 'Dijo (pretérito) + Imperfecto (era) para estilo indirecto. Escucháramos (Imperfecto de Subjuntivo después de dijo que). Después de que + Subjuntivo para acción futura.'
+      },
+      {
+        sentence: 'La abuela no dudaba que yo (alquilar) a mi sobrino el piso y (pagar) todos sus gastos hasta que él (hacer) el máster.',
+        options: [
+          'alquilaría, pagaría, hiciera',
+          'alquilo, pago, hace',
+          'alquilara, pagara, haga',
+          'alquilé, pagué, hizo'
+        ],
+        correct: 0,
+        explanation: 'No dudaba (pasado) + Condicional (certeza). Hasta que + Imperfecto de Subjuntivo (acción futura en el pasado).'
+      },
+      {
+        sentence: 'No nos gustó que en el club (haber) mucha gente y mucho jaleo por eso nos fuimos antes que (terminar) el concierto.',
+        options: [
+          'hubiera, terminara',
+          'hay, termina',
+          'haya, termine',
+          'había, terminaba'
+        ],
+        correct: 0,
+        explanation: 'No nos gustó (pretérito) + Imperfecto de Subjuntivo. Antes (de) que siempre + Subjuntivo.'
+      },
+      {
+        sentence: 'No creo que (valer) la pena visitar esta exposición, es mejor que (hacer, nosotros) una escapada a algún lugar romántico.',
+        options: [
+          'valga, hagamos',
+          'vale, hacemos',
+          'valiera, hiciéramos',
+          'valía, hacíamos'
+        ],
+        correct: 0,
+        explanation: 'No creo que + Presente de Subjuntivo. Es mejor que + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Me pidieron que (traducir) el artículo antes de que (publicarse) en la revista.',
+        options: [
+          'tradujera, se publicara',
+          'traduzca, se publique',
+          'traduzco, se publica',
+          'traducía, se publicaba'
+        ],
+        correct: 0,
+        explanation: 'Pidieron (pretérito) + Imperfecto de Subjuntivo. Antes de que siempre + Subjuntivo.'
+      },
+      {
+        sentence: 'Esperaba que tú (poder) ayudarme con el proyecto aunque (estar) muy ocupado.',
+        options: [
+          'pudieras, estuvieras',
+          'puedas, estés',
+          'puedes, estás',
+          'podías, estabas'
+        ],
+        correct: 0,
+        explanation: 'Esperaba (pretérito imperfecto) + Imperfecto de Subjuntivo. Aunque + Subjuntivo (concesión hipotética).'
+      },
+      {
+        sentence: 'Es importante que los estudiantes (asistir) a todas las clases para que (aprobar) los exámenes.',
+        options: [
+          'asistan, aprueben',
+          'asisten, aprueban',
+          'asistieran, aprobaran',
+          'asistían, aprobaban'
+        ],
+        correct: 0,
+        explanation: 'Es importante que + Presente de Subjuntivo. Para que + Presente de Subjuntivo (diferentes sujetos).'
+      },
+      {
+        sentence: 'Queríamos que el profesor nos (explicar) la lección otra vez hasta que todos (entender).',
+        options: [
+          'explicara, entendieran',
+          'explique, entiendan',
+          'explica, entienden',
+          'explicaba, entendían'
+        ],
+        correct: 0,
+        explanation: 'Queríamos (pretérito imperfecto) + Imperfecto de Subjuntivo. Hasta que + Subjuntivo para acción futura.'
+      },
+      {
+        sentence: 'Dudo que María (venir) a la fiesta aunque la (invitar, nosotros) personalmente.',
+        options: [
+          'venga, invitemos',
+          'viene, invitamos',
+          'viniera, invitáramos',
+          'venía, invitábamos'
+        ],
+        correct: 0,
+        explanation: 'Dudo (presente) + Presente de Subjuntivo. Aunque + Subjuntivo (concesión hipotética).'
+      }
+    ]
+  },
+  'ex-12-4-2': {
+    id: 'ex-12-4-2',
+    type: 'grammar',
+    title: 'Вставьте необходимые предлоги',
+    description: 'Заполните пропуски правильными предлогами.',
+    questions: [
+      {
+        sentence: 'Tengo tantas ganas ___ ir ___ el concierto ___ el grupo alemán que está ___ gira ___ nuestra ciudad.',
+        options: [
+          'de, a, de, de, por',
+          'a, al, del, en, en',
+          'para, en, de, a, a',
+          'de, al, del, de, en'
+        ],
+        correct: 0,
+        explanation: 'Tener ganas DE + infinitivo. Ir A (destino). Concierto DE (pertenencia). Estar DE gira. Gira POR (lugar).'
+      },
+      {
+        sentence: 'Tendrás que renunciar ___ tu idea, debes prepararte ___ la Prueba ___ Acceso ___ la Universidad.',
+        options: [
+          'a, para, de, a',
+          'de, a, de, en',
+          'a, por, a, de',
+          'de, para, del, a'
+        ],
+        correct: 0,
+        explanation: 'Renunciar A algo. Prepararse PARA algo. Prueba DE Acceso A la Universidad.'
+      },
+      {
+        sentence: 'Te propongo ___ alquilar un barquito ___ dar una vuelta ___ el lago y disfrutar ___ la naturaleza.',
+        options: [
+          '(sin preposición), para, por, de',
+          'de, por, en, con',
+          'a, a, en, de',
+          'que, para, al, la'
+        ],
+        correct: 0,
+        explanation: 'Proponer + infinitivo (sin preposición). PARA + infinitivo (finalidad). Vuelta POR (lugar). Disfrutar DE algo.'
+      },
+      {
+        sentence: 'Estoy seguro ___ que ___ esta época ___ el año el campo está precioso.',
+        options: [
+          'de, en, de',
+          'en, a, del',
+          'de, por, de',
+          'a, en, de'
+        ],
+        correct: 0,
+        explanation: 'Estar seguro DE que. EN esta época. Época DE + sustantivo.'
+      },
+      {
+        sentence: 'Es importante convencer ___ vuestro hijo ___ que tiene que estudiar ___ buscarse un lugar ___ la vida.',
+        options: [
+          'a, de, para, en',
+          'de, a, por, de',
+          'a, en, a, a',
+          '(sin prep.), que, para, de'
+        ],
+        correct: 0,
+        explanation: 'Convencer A alguien DE algo. Estudiar PARA + infinitivo. Lugar EN la vida.'
+      },
+      {
+        sentence: 'Si él no hace ningún esfuerzo y se niega ___ estudiar, el sistema ___ enseñanza no va ___ poder hacer nada ___ él.',
+        options: [
+          'a, de, a, por',
+          'de, a, a, para',
+          'a, de, de, con',
+          'en, de, por, a'
+        ],
+        correct: 0,
+        explanation: 'Negarse A + infinitivo. Sistema DE enseñanza. Ir A + infinitivo. Hacer algo POR alguien.'
+      },
+      {
+        sentence: 'Bolonia da mucha importancia ___ las prácticas profesionales ___ el plan ___ estudios.',
+        options: [
+          'a, en, de',
+          'de, del, de',
+          'a, al, del',
+          'para, en, a'
+        ],
+        correct: 0,
+        explanation: 'Dar importancia A algo. EN el plan. Plan DE estudios.'
+      },
+      {
+        sentence: 'El gasto total ___ los hogares españoles ___ recreación y cultura está ___ debajo ___ la media ___ la Unión Europea.',
+        options: [
+          'de, en, por, de, de',
+          'en, de, a, de, en',
+          'de, para, por, a, de',
+          'a, en, en, de, a'
+        ],
+        correct: 0,
+        explanation: 'Gasto DE los hogares. Gasto EN recreación. Por debajo DE. Media DE algo.'
+      },
+      {
+        sentence: '___ hecho los españoles dedican su tiempo libre ___ el hogar ___ ver la televisión, navegar ___ Internet.',
+        options: [
+          'De, en, a, por',
+          'En, a, de, en',
+          'De, al, para, a',
+          'Por, en, a, de'
+        ],
+        correct: 0,
+        explanation: 'DE hecho (expresión). Dedicar tiempo EN el hogar. Dedicar tiempo A + infinitivo. Navegar POR Internet.'
+      },
+      {
+        sentence: 'Decidí ___ el fin y ___ el cabo comprar una entrada ___ platea, y me presenté ___ el teatro.',
+        options: [
+          'al, al, de, en',
+          'a, a, para, a',
+          'en, en, de, al',
+          'por, por, a, en'
+        ],
+        correct: 0,
+        explanation: 'AL fin y AL cabo (expresión). Entrada DE platea. Presentarse EN el teatro.'
+      },
+      {
+        sentence: 'Mercedes no faltó ___ su promesa ___ acompañar ___ Javier ___ ver el partido ___ fútbol ___ el estadio.',
+        options: [
+          'a, de, a, a, de, en',
+          'de, a, (sin prep.), para, del, al',
+          'a, de, a, para, de, al',
+          'en, de, a, a, de, en'
+        ],
+        correct: 0,
+        explanation: 'Faltar A una promesa. Promesa DE + infinitivo. Acompañar A alguien. A ver (finalidad). Partido DE fútbol. EN el estadio.'
+      },
+      {
+        sentence: '___ los diez minutos ya estaba tan aburrida que se fue ___ mitad ___ el primer período.',
+        options: [
+          'A, a, de',
+          'En, en, del',
+          'De, a, de',
+          'Por, en, del'
+        ],
+        correct: 0,
+        explanation: 'A los diez minutos (expresión temporal). A mitad DE algo.'
+      },
+      {
+        sentence: 'El estudiante se dedicó ___ prepararse ___ los exámenes finales ___ todo el mes ___ mayo.',
+        options: [
+          'a, para, durante, de',
+          'de, a, por, en',
+          'a, por, en, de',
+          'en, para, a, del'
+        ],
+        correct: 0,
+        explanation: 'Dedicarse A + infinitivo. Prepararse PARA algo. DURANTE todo el mes. Mes DE mayo.'
+      },
+      {
+        sentence: 'Insistió ___ que fuéramos ___ él ___ la conferencia ___ literatura española.',
+        options: [
+          'en, con, a, de',
+          'a, a, para, sobre',
+          'en, por, en, de',
+          'de, con, a, sobre'
+        ],
+        correct: 0,
+        explanation: 'Insistir EN que. Ir CON alguien. Ir A un lugar. Conferencia DE (tema).'
+      },
+      {
+        sentence: 'Sueño ___ viajar ___ Sudamérica ___ conocer las culturas indígenas ___ primera mano.',
+        options: [
+          'con, a, para, de',
+          'de, por, a, en',
+          'con, por, para, a',
+          'en, a, por, de'
+        ],
+        correct: 0,
+        explanation: 'Soñar CON + infinitivo. Viajar A (destino). PARA + infinitivo (finalidad). DE primera mano (expresión).'
+      }
+    ]
+  },
+  'ex-12-4-3': {
+    id: 'ex-12-4-3',
+    type: 'grammar',
+    title: 'Переведите на испанский язык',
+    description: 'Выберите правильный перевод предложения на испанский язык.',
+    questions: [
+      {
+        sentence: 'Нас удивляет, что он все выходные скучает и не знает, чем заняться. Мы советовали ему сходить на выставку или на экскурсию.',
+        options: [
+          'Nos sorprende que él se aburra todos los fines de semana y no sepa qué hacer. Le aconsejamos que fuera a una exposición o a una excursión.',
+          'Nos sorprendemos que él se aburre todos los fines de semana y no sabe qué hacer. Le aconsejábamos ir a una exposición.',
+          'Nos sorprende que él se aburría todo el fin de semana y no sabía qué hacer. Le aconsejamos que va a la exposición.',
+          'Estamos sorprendidos que él aburre todos los fines de semana. Le aconsejábamos que fue a la exposición.'
+        ],
+        correct: 0,
+        explanation: 'Nos sorprende que + Subjuntivo. Le aconsejamos (pretérito) que + Imperfecto de Subjuntivo.'
+      },
+      {
+        sentence: 'Две недели назад Марисоль принесла тебе две статьи об образовании в Боливии, чтобы ты их перевёл с испанского языка на английский.',
+        options: [
+          'Hace dos semanas Marisol te trajo dos artículos sobre la educación en Bolivia para que los tradujeras del español al inglés.',
+          'Dos semanas antes Marisol te ha traído dos artículos de la educación en Bolivia para que los traduces del español al inglés.',
+          'Hace dos semanas Marisol te traía dos artículos sobre la educación en Bolivia para traducirlos del español al inglés.',
+          'Antes de dos semanas Marisol te trajo dos artículos de educación en Bolivia para que los traducías del español a inglés.'
+        ],
+        correct: 0,
+        explanation: 'Hace dos semanas + Pretérito indefinido. Para que + Imperfecto de Subjuntivo (diferentes sujetos, pasado).'
+      },
+      {
+        sentence: 'Она просила тебя, чтобы ты написал ей, когда их опубликуют.',
+        options: [
+          'Te pidió que le escribieras cuando los publicaran.',
+          'Ella te pedía que le escribas cuando los publiquen.',
+          'Te ha pedido que le escribes cuando los publican.',
+          'Ella pidió que le escribe cuando los publicarán.'
+        ],
+        correct: 0,
+        explanation: 'Pidió (pretérito) + Imperfecto de Subjuntivo. Cuando + acción futura en pasado = Imperfecto de Subjuntivo.'
+      },
+      {
+        sentence: 'До тех пор, пока Вы им не позвоните и не обсудите договор, они будут присылать по электронной почте свои предложения.',
+        options: [
+          'Hasta que usted no les llame y no discuta el contrato, ellos seguirán enviando sus propuestas por correo electrónico.',
+          'Hasta que usted les llama y discute el contrato, ellos siguen enviando sus propuestas por el correo electrónico.',
+          'Hasta usted no les llamará y no discutirá el contrato, ellos enviarán sus propuestas por correo electrónico.',
+          'Hasta que usted no llamaba y no discutía el contrato, ellos enviaban sus propuestas por correo electrónico.'
+        ],
+        correct: 0,
+        explanation: 'Hasta que + Presente de Subjuntivo para acción futura. Seguirán + gerundio (futuro continuo).'
+      },
+      {
+        sentence: 'Жаль, что Вы не прислушиваетесь к моим советам.',
+        options: [
+          'Es una lástima que usted no haga caso de mis consejos.',
+          'Es lástima que usted no hace caso a mis consejos.',
+          'Lástima que usted no hacía caso de mis consejos.',
+          'Es una pena que usted no haciendo caso a mis consejos.'
+        ],
+        correct: 0,
+        explanation: 'Es una lástima que + Presente de Subjuntivo. Hacer caso DE algo.'
+      },
+      {
+        sentence: 'Никто не сомневался, что Луис успешно сдаст экзамены и поступит в университет.',
+        options: [
+          'Nadie dudaba que Luis aprobaría los exámenes con éxito e ingresaría en la universidad.',
+          'Nadie dudó que Luis apruebe los exámenes con éxito e ingrese en la universidad.',
+          'Ninguno dudaba que Luis aprobara los exámenes con éxito e ingresara en la universidad.',
+          'Nadie no dudaba que Luis aprobó los exámenes e ingresó en la universidad.'
+        ],
+        correct: 0,
+        explanation: 'No dudar que + Indicativo (certeza). Después de pasado = Condicional para expresar futuro en el pasado.'
+      },
+      {
+        sentence: 'Родители не были уверены, что биология — это его призвание.',
+        options: [
+          'Los padres no estaban seguros de que la biología fuera su vocación.',
+          'Los padres no fueron seguros que la biología es su vocación.',
+          'Los padres no estaban seguros de que la biología era su vocación.',
+          'Los padres no eran seguros que la biología fue su vocación.'
+        ],
+        correct: 0,
+        explanation: 'No estar seguro de que + Subjuntivo. Imperfecto en principal + Imperfecto de Subjuntivo.'
+      },
+      {
+        sentence: 'Боюсь, что мне придётся брать такси, потому что, когда закончится концерт, будет слишком поздно.',
+        options: [
+          'Me temo que tendré que coger un taxi, porque cuando termine el concierto, será demasiado tarde.',
+          'Tengo miedo que tomo un taxi, porque cuando termina el concierto, es demasiado tarde.',
+          'Temo que tengo que coger taxi, porque cuando el concierto termina, será muy tarde.',
+          'Me temo que tengo que tomar el taxi, porque cuando terminará el concierto, es demasiado tarde.'
+        ],
+        correct: 0,
+        explanation: 'Me temo que + Indicativo (futuro). Cuando + acción futura = Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Ты можешь уйти до того, как концерт закончится.',
+        options: [
+          'Puedes irte antes de que termine el concierto.',
+          'Puedes irte antes de que el concierto termina.',
+          'Puedes ir antes que el concierto terminará.',
+          'Puedes irte antes el concierto terminar.'
+        ],
+        correct: 0,
+        explanation: 'Antes de que siempre + Subjuntivo, independientemente del tiempo del verbo principal.'
+      },
+      {
+        sentence: 'Вчера во время прогулки мне было стыдно, что вы так мало знаете об истории родного города.',
+        options: [
+          'Ayer durante el paseo me daba vergüenza que supierais tan poco sobre la historia de vuestra ciudad natal.',
+          'Ayer durante el paseo tenía vergüenza que sabéis tan poco de la historia de su ciudad natal.',
+          'Ayer durante paseo me dio vergüenza que sabíais tan poco sobre la historia de ciudad natal.',
+          'Ayer en el paseo era vergonzoso que ustedes saben poco de la historia de la ciudad natal.'
+        ],
+        correct: 0,
+        explanation: 'Me daba vergüenza que + Imperfecto de Subjuntivo (pasado). Ciudad natal = родной город.'
+      },
+      {
+        sentence: 'Вы не можете ответить на вопросы своего чилийского друга.',
+        options: [
+          'No podéis contestar a las preguntas de vuestro amigo chileno.',
+          'No pueden responder las preguntas de su amigo de Chile.',
+          'No podían contestar a las preguntas del amigo chileno.',
+          'No pudisteis responder a preguntas de vuestro amigo chileno.'
+        ],
+        correct: 0,
+        explanation: 'Contestar A las preguntas. Vuestro amigo = ваш друг (vosotros).'
+      },
+      {
+        sentence: 'Система обучения в этом университете разработана так, чтобы студенты имели возможность получать и выполнять задания по интернету.',
+        options: [
+          'El sistema de enseñanza en esta universidad está diseñado de tal manera que los estudiantes tengan la posibilidad de recibir y hacer los deberes por Internet.',
+          'El sistema de la enseñanza de esta universidad está diseñada así que los estudiantes tienen posibilidad de recibir y hacer deberes en Internet.',
+          'El sistema de enseñanza en este universidad se diseñó para que los estudiantes tuvieran posibilidad recibir y cumplir tareas por Internet.',
+          'El sistema de la educación está diseñada de tal manera para estudiantes tienen la posibilidad de recibir tareas por el Internet.'
+        ],
+        correct: 0,
+        explanation: 'De tal manera que + Subjuntivo (finalidad). Tener la posibilidad DE + infinitivo. Por Internet.'
+      },
+      {
+        sentence: 'Недавно мы прочитали, что в Испании большинство молодых людей живёт с родителями до тех пор, пока не женятся.',
+        options: [
+          'Hace poco leímos que en España la mayoría de los jóvenes vive con los padres hasta que se casen.',
+          'Recientemente leemos que en España la mayoría de jóvenes viven con sus padres hasta que se casan.',
+          'Hace poco hemos leído que en España mayoría de los jóvenes vivía con padres hasta casarse.',
+          'Recientemente leíamos que en España la mayoría de los jóvenes vivían con los padres hasta que se casaban.'
+        ],
+        correct: 0,
+        explanation: 'Hace poco + Pretérito indefinido. Hasta que + Subjuntivo (acción futura/hipotética).'
+      },
+      {
+        sentence: 'Преподаватель не настаивал на том, чтобы студенты прослушали этот диалог, потому что сомневался, что они его поймут.',
+        options: [
+          'El profesor no insistía en que los estudiantes escucharan este diálogo porque dudaba que lo entendieran.',
+          'El profesor no insistió que los estudiantes escuchen este diálogo porque dudó que lo entienden.',
+          'El profesor no ha insistido en que los estudiantes escuchen el diálogo porque ha dudado que lo entiendan.',
+          'El profesor no insistía que los estudiantes escucharon este diálogo porque dudaba que lo entenderán.'
+        ],
+        correct: 0,
+        explanation: 'Insistir EN que + Subjuntivo. Imperfecto + Imperfecto de Subjuntivo. Dudar que + Subjuntivo.'
+      },
+      {
+        sentence: 'Здорово, что эта рок-группа приезжает в наш город на гастроли! Как только я узнаю, когда приедут музыканты, я вам позвоню, чтобы вы заранее заказали билеты.',
+        options: [
+          '¡Qué bien que este grupo de rock venga a nuestra ciudad de gira! En cuanto sepa cuándo lleguen los músicos, os llamaré para que reservéis las entradas con antelación.',
+          '¡Es genial que este grupo de rock viene a nuestra ciudad a gira! Cuando sé cuándo llegan los músicos, os llamo para que reserváis las entradas.',
+          '¡Está bien que este grupo de rock vendrá a nuestra ciudad de gira! Cuando sabré cuándo llegarán los músicos, les llamaré para que reservan entradas.',
+          '¡Qué bueno que este grupo viene en nuestra ciudad para gira! En cuanto supe cuándo llegaron músicos, os llamé que reservéis entradas con antelación.'
+        ],
+        correct: 0,
+        explanation: 'Qué bien que + Subjuntivo. En cuanto + Subjuntivo (acción futura). Para que + Subjuntivo.'
       }
     ]
   }
