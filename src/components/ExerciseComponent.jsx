@@ -1789,10 +1789,11 @@ function AgreementQuestion({ question, onAnswer }) {
 }
 
 function SubjunctiveQuestion({ question, onAnswer }) {
+  const questionText = question.text || question.sentence
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>{question.sentence}</h3>
-      <p className={styles.hint}>💡 {question.hint}</p>
+      {questionText && <h3 className={styles.questionText}>{questionText}</h3>}
+      {question.hint && <p className={styles.hint}>💡 {question.hint}</p>}
       <div className={styles.options}>
         {question.options.map((option, index) => (
           <button
