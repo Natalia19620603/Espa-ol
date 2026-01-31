@@ -16880,7 +16880,7 @@ Antes de que → Всегда Subjuntivo
     },
     readingText: {
       title: 'La escuela de ayer',
-      text: `¿Cómo era la escuela a mediados del siglo pasado en España?
+      content: `¿Cómo era la escuela a mediados del siglo pasado en España?
 
 En las aulas había más de cincuenta alumnos. Los materiales eran comunes, y los métodos de aprendizaje eran la repetición y el canto. Como había alumnos de distintas edades en la clase, los mayores ayudaban al maestro en la enseñanza.
 
@@ -16888,7 +16888,23 @@ En las paredes del aula colgaban carteles de lectura junto con mapas y carteles 
 
 Para escribir se empleaban los tinteros. Los pupitres tenían espacio para el tintero y la pluma. Se daba mucha importancia a la caligrafía, los niños tenían que escribir bonito. Muchas veces, los niños no asistían a la escuela porque tenían que ayudar a sus padres en el campo o en el mercado. Las escuelas se diferenciaban por sexos, por lo que los niños y las niñas no compartían aulas. Pocas mujeres estudiaban.
 
-En España existe el refrán "Pasas más hambre que un maestro". Los maestros ganaban muy poco dinero, sin embargo tenían un gran prestigio social. La disciplina era muy estricta, si el alumno no sabía algo o se portaba mal, se permitían los castigos corporales.`,
+En España existe el refrán "Pasas más hambre que un maestro". Los maestros ganaban muy poco dinero, sin embargo tenían un gran prestigio social. La disciplina era muy estricta, si el alumno no sabía algo o se portaba mal, se permitían los castigos corporales.
+
+---
+
+**Ответьте на вопросы по тексту:**
+
+1. ¿Cuántos alumnos había en un aula al mismo tiempo? ¿Eran alumnos de la misma edad y de ambos sexos?
+2. ¿Por qué los alumnos mayores ayudaban al maestro en la enseñanza?
+3. ¿Qué métodos de aprendizaje se utilizaban en la escuela?
+4. ¿Era importante el papel de la religión en la enseñanza?
+5. ¿Cómo estaban decoradas las aulas?
+6. ¿Por qué los alumnos frecuentemente faltaban a las clases?
+7. ¿Qué objetos ya no se utilizan en la escuela moderna?
+8. ¿Qué quiere decir el refrán "Pasas más hambre que un maestro"?
+9. ¿En qué casos se permitían los castigos corporales?
+10. ¿Por qué la profesión de maestro era de mucho prestigio?
+11. ¿En qué se diferencia la escuela de hoy de la de ayer?`,
       translation: `Какой была школа в середине прошлого века в Испании?
 
 В классах было более пятидесяти учеников. Материалы были общими, а методами обучения были повторение и хоровое пение. Поскольку в классе были ученики разного возраста, старшие помогали учителю в обучении.
@@ -16897,7 +16913,23 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
 
 Для письма использовались чернильницы. В партах было место для чернильницы и пера. Большое значение придавалось каллиграфии, дети должны были писать красиво. Часто дети не посещали школу, потому что должны были помогать родителям в поле или на рынке. Школы разделялись по полу, поэтому мальчики и девочки не занимались вместе. Мало женщин училось.
 
-В Испании существует поговорка «Голодаешь больше, чем учитель». Учителя зарабатывали очень мало денег, однако имели большой социальный престиж. Дисциплина была очень строгой, если ученик чего-то не знал или плохо себя вёл, разрешались телесные наказания.`
+В Испании существует поговорка «Голодаешь больше, чем учитель». Учителя зарабатывали очень мало денег, однако имели большой социальный престиж. Дисциплина была очень строгой, если ученик чего-то не знал или плохо себя вёл, разрешались телесные наказания.
+
+---
+
+**Ответьте на вопросы по тексту:**
+
+1. Сколько учеников было в классе одновременно? Были ли это ученики одного возраста и обоих полов?
+2. Почему старшие ученики помогали учителю в обучении?
+3. Какие методы обучения использовались в школе?
+4. Была ли важна роль религии в обучении?
+5. Как были украшены классы?
+6. Почему ученики часто пропускали занятия?
+7. Какие предметы уже не используются в современной школе?
+8. Что означает поговорка «Голодаешь больше, чем учитель»?
+9. В каких случаях допускались телесные наказания?
+10. Почему профессия учителя была очень престижной?
+11. Чем отличается сегодняшняя школа от вчерашней?`
     },
     vocabulary: [
       { word: 'el canto', translation: 'зд. повторение хором' },
@@ -40796,12 +40828,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-12-3-3': {
     id: 'ex-12-3-3',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Многозначное слово TÍTULO: переведите на русский язык',
     description: 'Переведите предложения на русский язык, обращая внимание на разные значения слова "título" (звание, титул, название, заголовок, ценные бумаги).',
     questions: [
       {
-        text: 'Hace poco nuestro equipo ganó el título de campeón.',
+        sentence: 'Hace poco nuestro equipo ganó el título de campeón.',
         options: [
           'Недавно наша команда завоевала звание чемпиона.',
           'Недавно наша команда выиграла книгу чемпиона.',
@@ -40812,7 +40844,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "звание, титул" — título de campeón = звание чемпиона.'
       },
       {
-        text: 'No recuerdo el título de la novela que me has recomendado.',
+        sentence: 'No recuerdo el título de la novela que me has recomendado.',
         options: [
           'Я не помню название романа, который ты мне порекомендовал.',
           'Я не помню звание романа, который ты мне порекомендовал.',
@@ -40823,7 +40855,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "название" — título de la novela = название романа.'
       },
       {
-        text: 'En nuestro país los títulos de nobleza no se reconocen.',
+        sentence: 'En nuestro país los títulos de nobleza no se reconocen.',
         options: [
           'В нашей стране дворянские титулы не признаются.',
           'В нашей стране названия дворянства не признаются.',
@@ -40834,7 +40866,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "титул" — títulos de nobleza = дворянские титулы.'
       },
       {
-        text: 'En la Constitución Española de 1978 el título primero está dedicado a los derechos y deberes fundamentales.',
+        sentence: 'En la Constitución Española de 1978 el título primero está dedicado a los derechos y deberes fundamentales.',
         options: [
           'В Конституции Испании 1978 года раздел первый посвящён основным правам и обязанностям.',
           'В Конституции Испании 1978 года название первое посвящено основным правам и обязанностям.',
@@ -40845,7 +40877,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "раздел, глава" (в документах) — título primero = первый раздел.'
       },
       {
-        text: 'Quiero cambiar mis títulos de valor por el dinero efectivo.',
+        sentence: 'Quiero cambiar mis títulos de valor por el dinero efectivo.',
         options: [
           'Я хочу обменять мои ценные бумаги на наличные деньги.',
           'Я хочу обменять мои названия ценностей на наличные деньги.',
@@ -40856,7 +40888,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Títulos de valor = ценные бумаги (финансовый термин).'
       },
       {
-        text: 'Ha obtenido el título de doctor en medicina.',
+        sentence: 'Ha obtenido el título de doctor en medicina.',
         options: [
           'Он получил звание доктора медицины.',
           'Он получил название доктора медицины.',
@@ -40867,7 +40899,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "учёная степень, звание" — título de doctor = звание доктора.'
       },
       {
-        text: 'El título del artículo no refleja su contenido.',
+        sentence: 'El título del artículo no refleja su contenido.',
         options: [
           'Заголовок статьи не отражает её содержание.',
           'Звание статьи не отражает её содержание.',
@@ -40878,7 +40910,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "заголовок" — título del artículo = заголовок статьи.'
       },
       {
-        text: 'La empresa emitió nuevos títulos en la bolsa.',
+        sentence: 'La empresa emitió nuevos títulos en la bolsa.',
         options: [
           'Компания выпустила новые ценные бумаги на бирже.',
           'Компания выпустила новые названия на бирже.',
@@ -40889,7 +40921,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Títulos (в финансовом контексте) = ценные бумаги, акции.'
       },
       {
-        text: 'Los títulos nobiliarios fueron abolidos después de la revolución.',
+        sentence: 'Los títulos nobiliarios fueron abolidos después de la revolución.',
         options: [
           'Дворянские титулы были отменены после революции.',
           'Дворянские названия были отменены после революции.',
@@ -40900,7 +40932,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Títulos nobiliarios = дворянские титулы.'
       },
       {
-        text: '¿Cuál es el título de la película que viste ayer?',
+        sentence: '¿Cuál es el título de la película que viste ayer?',
         options: [
           'Какое название фильма, который ты вчера смотрел?',
           'Какое звание фильма, который ты вчера смотрел?',
@@ -40911,7 +40943,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "название" — título de la película = название фильма.'
       },
       {
-        text: 'El rey concedió el título de conde a su consejero.',
+        sentence: 'El rey concedió el título de conde a su consejero.',
         options: [
           'Король пожаловал титул графа своему советнику.',
           'Король пожаловал название графа своему советнику.',
@@ -40922,7 +40954,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "титул" — título de conde = титул графа.'
       },
       {
-        text: 'Necesito tu título universitario para completar el expediente.',
+        sentence: 'Necesito tu título universitario para completar el expediente.',
         options: [
           'Мне нужен твой университетский диплом, чтобы завершить дело.',
           'Мне нужно твоё университетское название, чтобы завершить дело.',
@@ -40933,7 +40965,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título universitario = университетский диплом.'
       },
       {
-        text: 'El libro tiene un título muy largo y difícil de recordar.',
+        sentence: 'El libro tiene un título muy largo y difícil de recordar.',
         options: [
           'У книги очень длинное и трудное для запоминания название.',
           'У книги очень длинное и трудное для запоминания звание.',
@@ -40944,7 +40976,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'Título в значении "название" книги.'
       },
       {
-        text: 'A título personal, creo que es una mala decisión.',
+        sentence: 'A título personal, creo que es una mala decisión.',
         options: [
           'Лично я считаю, что это плохое решение.',
           'По названию я считаю, что это плохое решение.',
@@ -40955,7 +40987,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         explanation: 'A título personal — устойчивое выражение, означающее "лично, от себя лично".'
       },
       {
-        text: 'Los inversores prefieren títulos de renta fija.',
+        sentence: 'Los inversores prefieren títulos de renta fija.',
         options: [
           'Инвесторы предпочитают облигации с фиксированным доходом.',
           'Инвесторы предпочитают названия с фиксированным доходом.',
