@@ -15761,6 +15761,10 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
       {
         tab: 'El pez mas feo del mundo',
         videoUrl: '/video/El pez mas feo del mundo.mp4'
+      },
+      {
+        tab: 'Cordyceps',
+        videoUrl: '/video/El cordyceps M17C7.mp4'
       }
     ],
     vocabulary: [
@@ -15936,6 +15940,29 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { word: 'encontrar', translation: 'находить' },
           { word: 'el fondo', translation: 'дно' }
         ]
+      },
+      {
+        tab: 'Cordyceps',
+        words: [
+          { word: 'el hongo / la seta / el champiñón', translation: 'гриб' },
+          { word: 'apoderarse de', translation: 'завладеть, захватить' },
+          { word: 'la ciencia ficción', translation: 'научная фантастика' },
+          { word: 'hormiga carpintera', translation: 'муравей листорез' },
+          { word: 'el huésped', translation: 'гость, носитель' },
+          { word: 'espeluznante', translation: 'ужасающий, жуткий' },
+          { word: 'disparar', translation: 'стрелять, выстрелить' },
+          { word: 'las esporas', translation: 'споры' },
+          { word: 'controlar', translation: 'контролировать, управлять' },
+          { word: 'obligar a alguien a hacer algo', translation: 'заставлять кого-то делать что-то' },
+          { word: 'trepar', translation: 'взбираться, карабкаться' },
+          { word: 'brotar', translation: 'прорастать, проявляться' },
+          { word: 'la variedad', translation: 'разнообразие, разновидность' },
+          { word: 'el equilibrio', translation: 'равновесие, баланс' },
+          { word: 'la especie', translation: 'вид' },
+          { word: 'liberar', translation: 'освободить, выпустить' },
+          { word: 'observar', translation: 'наблюдать, рассматривать' },
+          { word: 'medir', translation: 'быть ростом' }
+        ]
       }
     ],
     readingText: [
@@ -16000,6 +16027,18 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
         title: 'El pez gota: belleza bajo presión',
         content: `Si piensas que este animal es feo, estás muy equivocado. Al pez gota se le conoce como la criatura más fea del mundo. Su imagen se viralizó tras ser sacado del agua, mostrando una especie de masa gelatinosa y triste. Pero lo que nadie te cuenta es que ese no es su aspecto natural. Este pez vive a más de 1000 m de profundidad, donde la presión es hasta 120 veces mayor que en la superficie. Su cuerpo está perfectamente adaptado a ese entorno. No tiene esqueleto sólido y su carne es gelatinosa, pero a esa presión, esa textura, es lo que le permite flotar sin esfuerzo. El problema es que al ser extraído tan rápido, su cuerpo se deforma. Fuera del agua literalmente colapsa. Así que esa cara derretida que ves no es más que el resultado de un cuerpo adaptado a un entorno que no es el nuestro.`,
         translation: ``
+      },
+      {
+        tab: 'Cordyceps',
+        title: 'El hongo zombie: cordyceps',
+        content: `Imagina un organismo que literalmente puede apoderarse de tu mente, obligarte a abandonar tu hogar y finalmente usar tu cabeza como plataforma para su propia supervivencia.
+
+Suena a ciencia ficción, ¿verdad? En las selvas tropicales, esto es el pan de cada día, cortesía del hongo oiocorticeps unilateralis, también conocido como el hongo zombie. Una espora invisible cae sobre una hormiga carpintera. El hongo no la mata de inmediato, no. Primero toma el control.
+
+El cordiceps inunda el cuerpo de la hormiga con compuestos químicos que viajan hasta su cerebro. Pero aquí viene la parte espeluznante. No controla los músculos a través del cerebro, sino que crece a través del cuerpo, rodeando y controlando los músculos desde fuera, creando una marioneta biológica. El hongo le da una orden final a su huésped, escalar. La hormiga, ahora un zombie, trepa por un tallo hasta alcanzar una altura y temperatura perfectas, generalmente a 25 cm del suelo. Una vez allí, el cordiceps fuerza la hormiga a morder fuertemente la parte inferior de una hoja o rama, anclándola a su destino final. Inmovilizada y muerta, la hormiga se convierte en una fábrica de esporas. Un tallo fúngico llamado estroma brota de su cabeza como una antena. Desde esta altura, el hongo libera miles de esporas infecciosas.
+
+Las esporas flotan buscando a su próxima víctima, asegurando el ciclo de vida de uno de los parásitos más aterradores del planeta. Un recordatorio brutal de que en la naturaleza a veces la supervivencia de uno significa el control total y la destrucción de otro.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -16038,6 +16077,15 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
           { name: 'Понимание текста', exercises: ['ex-9-7-pezfeo-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-7-pezfeo-grammar'] },
           { name: 'Перевод', exercises: ['ex-9-7-pezfeo-translation'] }
+        ]
+      },
+      {
+        tab: 'Cordyceps',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-7-cordyceps-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-7-cordyceps-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-17-7-cordyceps-grammar'] },
+          { name: 'Перевод', exercises: ['ex-17-7-cordyceps-translation'] }
         ]
       }
     ]
@@ -37604,6 +37652,153 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       }
     ]
   },
+
+  // Cordyceps exercises - Module 17 Lesson 7
+  'ex-17-7-cordyceps-vocab': {
+    id: 'ex-17-7-cordyceps-vocab',
+    type: 'fillblank',
+    title: 'Словарь B1: Cordyceps - Заучивание словаря',
+    description: 'Заполните пропуски подходящим словом из банка слов',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'El ______ zombie puede controlar el cerebro de las hormigas.', blank: 'hongo', options: ['árbol', 'hongo', 'pez', 'pájaro'], correct: 1 },
+      { sentence: 'La historia parece sacada de una película de ______.', blank: 'ciencia ficción', options: ['amor', 'ciencia ficción', 'comedia', 'acción'], correct: 1 },
+      { sentence: 'El parásito logra ______ la mente de su víctima.', blank: 'apoderarse de', options: ['olvidarse de', 'apoderarse de', 'alejarse de', 'reírse de'], correct: 1 },
+      { sentence: 'La ______ carpintera es el huésped favorito del cordyceps.', blank: 'hormiga', options: ['abeja', 'araña', 'hormiga', 'mosca'], correct: 2 },
+      { sentence: 'El insecto infectado se convierte en ______ del hongo.', blank: 'huésped', options: ['enemigo', 'amigo', 'huésped', 'competidor'], correct: 2 },
+      { sentence: 'La manera en que el hongo controla a la hormiga es ______.', blank: 'espeluznante', options: ['divertida', 'espeluznante', 'aburrida', 'simple'], correct: 1 },
+      { sentence: 'El hongo libera miles de ______ infecciosas desde la cabeza del insecto.', blank: 'esporas', options: ['flores', 'esporas', 'semillas', 'hojas'], correct: 1 },
+      { sentence: 'El parásito logra ______ los movimientos de la hormiga.', blank: 'controlar', options: ['ignorar', 'controlar', 'perder', 'olvidar'], correct: 1 },
+      { sentence: 'El hongo puede ______ a su huésped a abandonar su hogar.', blank: 'obligar', options: ['invitar', 'pedir', 'obligar', 'sugerir'], correct: 2 },
+      { sentence: 'La hormiga zombie debe ______ por un tallo hasta cierta altura.', blank: 'trepar', options: ['nadar', 'volar', 'trepar', 'correr'], correct: 2 },
+      { sentence: 'De la cabeza de la hormiga muerta ______ un tallo fúngico.', blank: 'brota', options: ['desaparece', 'brota', 'cae', 'huye'], correct: 1 },
+      { sentence: 'Existe una gran ______ de hongos parásitos en las selvas tropicales.', blank: 'variedad', options: ['escasez', 'variedad', 'falta', 'ausencia'], correct: 1 },
+      { sentence: 'Los parásitos mantienen el ______ del ecosistema controlando poblaciones.', blank: 'equilibrio', options: ['caos', 'desorden', 'equilibrio', 'problema'], correct: 2 },
+      { sentence: 'Esta ______ de hongo solo infecta a ciertos tipos de hormigas.', blank: 'especie', options: ['especie', 'persona', 'cosa', 'idea'], correct: 0 },
+      { sentence: 'El hongo ______ sus esporas para infectar a nuevas víctimas.', blank: 'libera', options: ['esconde', 'libera', 'guarda', 'destruye'], correct: 1 }
+    ]
+  },
+
+  'ex-17-7-cordyceps-comprehension': {
+    id: 'ex-17-7-cordyceps-comprehension',
+    type: 'truefalse',
+    title: 'Понимание текста B1: Cordyceps - Правда или ложь',
+    description: 'Определите, соответствует ли утверждение тексту',
+    showAnswerOption: true,
+    questions: [
+      { statement: 'El cordyceps puede literalmente apoderarse de la mente de las hormigas.', isTrue: true, explanation: 'Según el texto, el hongo puede "apoderarse de tu mente".' },
+      { statement: 'El hongo zombie es común en los desiertos áridos.', isTrue: false, explanation: 'El texto dice que ocurre "en las selvas tropicales".' },
+      { statement: 'El hongo mata a la hormiga inmediatamente después de infectarla.', isTrue: false, explanation: 'El texto dice: "El hongo no la mata de inmediato, no. Primero toma el control."' },
+      { statement: 'El cordyceps controla los músculos de la hormiga a través del cerebro.', isTrue: false, explanation: 'El texto explica que "No controla los músculos a través del cerebro, sino que crece a través del cuerpo".' },
+      { statement: 'El hongo crea una especie de marioneta biológica con la hormiga.', isTrue: true, explanation: 'El texto menciona que el hongo crea "una marioneta biológica".' },
+      { statement: 'La hormiga infectada trepa a una altura de aproximadamente 25 cm del suelo.', isTrue: true, explanation: 'El texto indica que alcanza "generalmente a 25 cm del suelo".' },
+      { statement: 'El cordyceps obliga a la hormiga a morder una piedra.', isTrue: false, explanation: 'El texto dice que muerde "la parte inferior de una hoja o rama".' },
+      { statement: 'De la cabeza de la hormiga muerta brota un tallo llamado estroma.', isTrue: true, explanation: 'El texto menciona: "Un tallo fúngico llamado estroma brota de su cabeza".' },
+      { statement: 'El hongo libera cientos de esporas infecciosas.', isTrue: false, explanation: 'El texto dice que libera "miles de esporas infecciosas".' },
+      { statement: 'Las esporas buscan nuevas víctimas para continuar el ciclo de vida.', isTrue: true, explanation: 'El texto indica: "Las esporas flotan buscando a su próxima víctima".' },
+      { statement: 'El cordyceps es uno de los parásitos más amigables del planeta.', isTrue: false, explanation: 'El texto lo describe como "uno de los parásitos más aterradores del planeta".' },
+      { statement: 'El nombre científico del hongo zombie es oiocorticeps unilateralis.', isTrue: true, explanation: 'El texto menciona este nombre científico.' },
+      { statement: 'La supervivencia del hongo requiere la destrucción total de la hormiga.', isTrue: true, explanation: 'El texto concluye que "la supervivencia de uno significa el control total y la destrucción de otro".' },
+      { statement: 'El proceso de infección ocurre durante el invierno.', isTrue: false, explanation: 'El texto no menciona la estación; solo habla de selvas tropicales.' },
+      { statement: 'El cordyceps usa compuestos químicos para invadir el cuerpo de la hormiga.', isTrue: true, explanation: 'El texto dice que "inunda el cuerpo de la hormiga con compuestos químicos".' }
+    ]
+  },
+
+  'ex-17-7-cordyceps-grammar': {
+    id: 'ex-17-7-cordyceps-grammar',
+    type: 'fillblank',
+    title: 'Грамматика B1: Cordyceps - Pretérito perfecto, indefinido, presente de subjuntivo',
+    description: 'Заполните пропуски правильной формой глагола',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Los científicos ______ (descubrir) este hongo hace muchos años.', blank: 'descubrieron', options: ['han descubierto', 'descubrieron', 'descubran', 'descubrían'], correct: 1 },
+      { sentence: 'Hoy ______ (publicar, ellos) un nuevo estudio sobre el cordyceps.', blank: 'han publicado', options: ['publicaron', 'han publicado', 'publiquen', 'publicaban'], correct: 1 },
+      { sentence: 'Es importante que los investigadores ______ (observar) el comportamiento del hongo.', blank: 'observen', options: ['observan', 'observaron', 'observen', 'han observado'], correct: 2 },
+      { sentence: 'La hormiga ______ (trepar) hasta la altura perfecta antes de morir.', blank: 'trepó', options: ['ha trepado', 'trepó', 'trepe', 'trepaba'], correct: 1 },
+      { sentence: 'Nunca ______ (ver, yo) un documental tan impresionante sobre parásitos.', blank: 'he visto', options: ['vi', 'he visto', 'vea', 'veía'], correct: 1 },
+      { sentence: 'Es posible que el hongo ______ (liberar) sus esporas esta noche.', blank: 'libere', options: ['libera', 'liberó', 'libere', 'ha liberado'], correct: 2 },
+      { sentence: 'El año pasado los biólogos ______ (encontrar) nuevas especies de cordyceps.', blank: 'encontraron', options: ['han encontrado', 'encontraron', 'encuentren', 'encontraban'], correct: 1 },
+      { sentence: 'Es necesario que el público ______ (conocer) estos fenómenos naturales.', blank: 'conozca', options: ['conoce', 'conoció', 'conozca', 'ha conocido'], correct: 2 },
+      { sentence: 'Esta semana ______ (morir) varias hormigas en el experimento.', blank: 'han muerto', options: ['murieron', 'han muerto', 'mueran', 'morían'], correct: 1 },
+      { sentence: 'No creo que este hongo ______ (ser) peligroso para los humanos.', blank: 'sea', options: ['es', 'fue', 'sea', 'ha sido'], correct: 2 },
+      { sentence: 'Los investigadores ______ (analizar) el genoma del cordyceps en 2015.', blank: 'analizaron', options: ['han analizado', 'analizaron', 'analicen', 'analizaban'], correct: 1 },
+      { sentence: 'Dudo que la hormiga ______ (poder) escapar una vez infectada.', blank: 'pueda', options: ['puede', 'pudo', 'pueda', 'ha podido'], correct: 2 },
+      { sentence: 'Últimamente ______ (aumentar) el interés por los hongos parásitos.', blank: 'ha aumentado', options: ['aumentó', 'ha aumentado', 'aumente', 'aumentaba'], correct: 1 },
+      { sentence: 'El hongo ______ (controlar) a la hormiga durante varios días antes de matarla.', blank: 'controló', options: ['ha controlado', 'controló', 'controle', 'controlaba'], correct: 1 },
+      { sentence: 'Espero que los científicos ______ (descubrir) pronto una cura.', blank: 'descubran', options: ['descubren', 'descubrieron', 'descubran', 'han descubierto'], correct: 2 }
+    ]
+  },
+
+  'ex-17-7-cordyceps-translation': {
+    id: 'ex-17-7-cordyceps-translation',
+    type: 'translation',
+    title: 'Перевод B1: Cordyceps - Pretérito perfecto, indefinido, presente de subjuntivo',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Ученые открыли (descubrir) этот гриб в тропических лесах.',
+        spanish: 'Los científicos descubrieron este hongo en las selvas tropicales'
+      },
+      {
+        russian: 'В этом году мы прочитали (leer) много статей о кордицепсе.',
+        spanish: 'Este año hemos leído muchos artículos sobre el cordyceps'
+      },
+      {
+        russian: 'Важно, чтобы люди знали (conocer) об этом паразите.',
+        spanish: 'Es importante que la gente conozca este parásito'
+      },
+      {
+        russian: 'Муравей залез (trepar) на стебель и укусил лист.',
+        spanish: 'La hormiga trepó por el tallo y mordió la hoja'
+      },
+      {
+        russian: 'Сегодня я посмотрел (ver) документальный фильм о грибе-зомби.',
+        spanish: 'Hoy he visto un documental sobre el hongo zombie'
+      },
+      {
+        russian: 'Сомневаюсь, что гриб сможет (poder) заразить человека.',
+        spanish: 'Dudo que el hongo pueda infectar a un humano'
+      },
+      {
+        russian: 'Гриб захватил (apoderarse de) контроль над муравьём.',
+        spanish: 'El hongo se apoderó del control de la hormiga'
+      },
+      {
+        russian: 'Необходимо, чтобы исследователи продолжали (continuar) изучение.',
+        spanish: 'Es necesario que los investigadores continúen el estudio'
+      },
+      {
+        russian: 'На прошлой неделе биологи опубликовали (publicar) новые результаты.',
+        spanish: 'La semana pasada los biólogos publicaron nuevos resultados'
+      },
+      {
+        russian: 'Не думаю, что этот вид существует (existir) в нашем климате.',
+        spanish: 'No creo que esta especie exista en nuestro clima'
+      },
+      {
+        russian: 'Споры распространились (esparcirse) по всему лесу.',
+        spanish: 'Las esporas se esparcieron por todo el bosque'
+      },
+      {
+        russian: 'Надеюсь, что учёные найдут (encontrar) новые виды грибов.',
+        spanish: 'Espero que los científicos encuentren nuevas especies de hongos'
+      },
+      {
+        russian: 'Этим утром гриб освободил (liberar) тысячи спор.',
+        spanish: 'Esta mañana el hongo ha liberado miles de esporas'
+      },
+      {
+        russian: 'Маловероятно, что муравей выживет (sobrevivir) после заражения.',
+        spanish: 'Es poco probable que la hormiga sobreviva después de la infección'
+      },
+      {
+        russian: 'Природа создала (crear) удивительный и ужасающий механизм.',
+        spanish: 'La naturaleza creó un mecanismo asombroso y aterrador'
+      }
+    ]
+  },
+
   'ex-9-8-video-vocab': {
     id: 'ex-9-8-video-vocab',
     type: 'fillblank',
