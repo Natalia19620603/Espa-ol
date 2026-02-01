@@ -7652,6 +7652,10 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
       {
         tab: 'TIEMPO y GUSTAR',
         videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
+      },
+      {
+        tab: 'Clima estaciones calor frio',
+        videoUrl: '/video/Clima estaciones calor frio Audio M5C2.mp4'
       }
     ],
     vocabulary: [
@@ -37681,26 +37685,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-7-cordyceps-comprehension': {
     id: 'ex-17-7-cordyceps-comprehension',
-    type: 'truefalse',
+    type: 'reading-comprehension',
     title: 'Понимание текста B1: Cordyceps - Правда или ложь',
-    description: 'Определите, соответствует ли утверждение тексту',
+    description: 'Определите, соответствует ли утверждение тексту (Verdadero = Правда, Falso = Ложь)',
     showAnswerOption: true,
     questions: [
-      { statement: 'El cordyceps puede literalmente apoderarse de la mente de las hormigas.', isTrue: true, explanation: 'Según el texto, el hongo puede "apoderarse de tu mente".' },
-      { statement: 'El hongo zombie es común en los desiertos áridos.', isTrue: false, explanation: 'El texto dice que ocurre "en las selvas tropicales".' },
-      { statement: 'El hongo mata a la hormiga inmediatamente después de infectarla.', isTrue: false, explanation: 'El texto dice: "El hongo no la mata de inmediato, no. Primero toma el control."' },
-      { statement: 'El cordyceps controla los músculos de la hormiga a través del cerebro.', isTrue: false, explanation: 'El texto explica que "No controla los músculos a través del cerebro, sino que crece a través del cuerpo".' },
-      { statement: 'El hongo crea una especie de marioneta biológica con la hormiga.', isTrue: true, explanation: 'El texto menciona que el hongo crea "una marioneta biológica".' },
-      { statement: 'La hormiga infectada trepa a una altura de aproximadamente 25 cm del suelo.', isTrue: true, explanation: 'El texto indica que alcanza "generalmente a 25 cm del suelo".' },
-      { statement: 'El cordyceps obliga a la hormiga a morder una piedra.', isTrue: false, explanation: 'El texto dice que muerde "la parte inferior de una hoja o rama".' },
-      { statement: 'De la cabeza de la hormiga muerta brota un tallo llamado estroma.', isTrue: true, explanation: 'El texto menciona: "Un tallo fúngico llamado estroma brota de su cabeza".' },
-      { statement: 'El hongo libera cientos de esporas infecciosas.', isTrue: false, explanation: 'El texto dice que libera "miles de esporas infecciosas".' },
-      { statement: 'Las esporas buscan nuevas víctimas para continuar el ciclo de vida.', isTrue: true, explanation: 'El texto indica: "Las esporas flotan buscando a su próxima víctima".' },
-      { statement: 'El cordyceps es uno de los parásitos más amigables del planeta.', isTrue: false, explanation: 'El texto lo describe como "uno de los parásitos más aterradores del planeta".' },
-      { statement: 'El nombre científico del hongo zombie es oiocorticeps unilateralis.', isTrue: true, explanation: 'El texto menciona este nombre científico.' },
-      { statement: 'La supervivencia del hongo requiere la destrucción total de la hormiga.', isTrue: true, explanation: 'El texto concluye que "la supervivencia de uno significa el control total y la destrucción de otro".' },
-      { statement: 'El proceso de infección ocurre durante el invierno.', isTrue: false, explanation: 'El texto no menciona la estación; solo habla de selvas tropicales.' },
-      { statement: 'El cordyceps usa compuestos químicos para invadir el cuerpo de la hormiga.', isTrue: true, explanation: 'El texto dice que "inunda el cuerpo de la hormiga con compuestos químicos".' }
+      { question: 'El cordyceps puede literalmente apoderarse de la mente de las hormigas.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El hongo zombie es común en los desiertos áridos.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El hongo mata a la hormiga inmediatamente después de infectarla.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El cordyceps controla los músculos de la hormiga a través del cerebro.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El hongo crea una especie de marioneta biológica con la hormiga.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'La hormiga infectada trepa a una altura de aproximadamente 25 cm del suelo.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El cordyceps obliga a la hormiga a morder una piedra.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'De la cabeza de la hormiga muerta brota un tallo llamado estroma.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El hongo libera cientos de esporas infecciosas.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Las esporas buscan nuevas víctimas para continuar el ciclo de vida.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El cordyceps es uno de los parásitos más amigables del planeta.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El nombre científico del hongo zombie es oiocorticeps unilateralis.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'La supervivencia del hongo requiere la destrucción total de la hormiga.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El proceso de infección ocurre durante el invierno.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El cordyceps usa compuestos químicos para invadir el cuerpo de la hormiga.', options: ['Verdadero', 'Falso'], correct: 0 }
     ]
   },
 
