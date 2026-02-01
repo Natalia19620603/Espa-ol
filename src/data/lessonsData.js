@@ -7652,6 +7652,10 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
       {
         tab: 'TIEMPO y GUSTAR',
         videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
+      },
+      {
+        tab: 'Clima estaciones calor frio',
+        videoUrl: '/video/Clima estaciones calor frio Audio M5C2.mp4'
       }
     ],
     vocabulary: [
