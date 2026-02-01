@@ -5664,6 +5664,14 @@ María: ¡Vamos!`,
       {
         tab: '4',
         videoUrl: '/video/Модуль 4 Урок 1 - Рутина Евы.mp4'
+      },
+      {
+        tab: 'La rutina fin de semana',
+        videoUrl: '/video/La rutina M4C1 fin de semana.mp4'
+      },
+      {
+        tab: 'La rutina p1',
+        videoUrl: '/video/La rutina M4C1 p1.mp4'
       }
     ],
     grammar: {
