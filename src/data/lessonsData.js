@@ -3412,7 +3412,8 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
         videoUrl: '/video/Ejercicio 9. Audio 6 (A1U2Cl2).mp4'
       },
       {
-        tab: '11'
+        tab: '11',
+        videoUrl: '/video/La familia en español M2C3.mp4'
       }
     ],
     grammar: {
@@ -6923,6 +6924,10 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'Vicicleto',
         videoUrl: '/video/Vicicleto M4C4.mp4'
+      },
+      {
+        tab: 'La rutina de Marcos',
+        videoUrl: '/La rutina de Marcos M4C4.mp4'
       }
     ],
     grammar: {
@@ -7933,6 +7938,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: '10 puertas',
         videoUrl: '/video/10 puertas.mp4'
+      },
+      {
+        tab: 'Qué hiciste ayer',
+        videoUrl: '/Qué hiciste ayer M6C1.mp4'
       }
     ],
     grammar: {
@@ -11666,6 +11675,10 @@ volante m — зд. направление`
       {
         tab: 'Llevo a mi abuela al dentista',
         videoUrl: '/video/Llevo a mi abuela al dentista M10C2.mp4'
+      },
+      {
+        tab: 'Una intervención peligrosa',
+        videoUrl: '/Una intervencion peligrosa M10C2.mp4'
       }
     ],
     grammar: {
