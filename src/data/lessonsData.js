@@ -16668,6 +16668,13 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
         ]
       }
     ],
+    videos: [
+      {
+        title: 'Imperfecto de subjuntivo',
+        url: 'Imperfecto de subjuntivo M12C1.mp4',
+        description: 'Видеоурок об Imperfecto de Subjuntivo — простое прошедшее время сослагательного наклонения'
+      }
+    ],
     exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5', 'ex-12-1-6', 'ex-12-1-translation']
   },
 
