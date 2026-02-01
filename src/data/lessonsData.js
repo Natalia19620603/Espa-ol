@@ -4622,6 +4622,10 @@ María: ¡Vamos!`,
       {
         tab: 'Gustar datos personales',
         videoUrl: '/video/Gustar datos personales.mp4'
+      },
+      {
+        tab: 'Cita a ciegas en el restaurante',
+        videoUrl: '/video/Cita a ciegas en el restaurante M3C3.mp4'
       }
     ],
     grammar: {
@@ -6907,6 +6911,18 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'Así se trata la migraña',
         videoUrl: '/video/Asi se trata la migraña M4C4.mp4'
+      },
+      {
+        tab: 'Sorpresa PP',
+        videoUrl: '/video/Sorpresa PP M4C4.mp4'
+      },
+      {
+        tab: 'Qué has hecho',
+        videoUrl: '/video/Qué has hecho M4C4.mp4'
+      },
+      {
+        tab: 'Vicicleto',
+        videoUrl: '/video/Vicicleto M4C4.mp4'
       }
     ],
     grammar: {
@@ -22916,58 +22932,59 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-translation': {
     id: 'ex-7-1-translation',
     type: 'translation',
-    title: 'Перевод: Досуг и развлечения',
-    description: 'Переведите предложения с русского на испанский',
+    title: 'Перевод: Досуг и развлечения (Presente de Subjuntivo)',
+    description: 'Переведите предложения с русского на испанский, используя Presente de Subjuntivo',
+    showAnswerOption: true,
     questions: [
       {
-        russian: 'В свободное время я люблю читать',
-        spanish: 'en mi tiempo libre me gusta leer',
-        alternatives: ['en el tiempo libre me gusta leer']
+        russian: 'Я хочу, чтобы ты читал больше книг',
+        spanish: 'quiero que leas más libros',
+        alternatives: ['yo quiero que leas más libros']
       },
       {
-        russian: 'Мы хотим поехать на пляж',
-        spanish: 'queremos ir a la playa',
-        alternatives: []
+        russian: 'Надеюсь, что мы поедем на пляж',
+        spanish: 'espero que vayamos a la playa',
+        alternatives: ['yo espero que vayamos a la playa']
       },
       {
-        russian: 'Важно отдыхать после работы',
-        spanish: 'es importante descansar después del trabajo',
-        alternatives: ['es importante descansar después de trabajar']
+        russian: 'Важно, чтобы ты отдыхал после работы',
+        spanish: 'es importante que descanses después del trabajo',
+        alternatives: ['es importante que descanses después de trabajar']
       },
       {
-        russian: 'Он любит играть в футбол',
-        spanish: 'le gusta jugar al fútbol',
-        alternatives: ['a él le gusta jugar al fútbol']
+        russian: 'Хочу, чтобы он играл в футбол с нами',
+        spanish: 'quiero que él juegue al fútbol con nosotros',
+        alternatives: ['quiero que juegue al fútbol con nosotros']
       },
       {
-        russian: 'Моё хобби - рисование',
-        spanish: 'mi pasatiempo es pintar',
-        alternatives: ['mi afición es pintar', 'mi hobby es pintar']
+        russian: 'Мне нравится, что ты рисуешь',
+        spanish: 'me gusta que pintes',
+        alternatives: ['me gusta que tú pintes']
       },
       {
-        russian: 'Она умеет хорошо танцевать',
-        spanish: 'ella sabe bailar bien',
-        alternatives: ['sabe bailar bien']
+        russian: 'Я рад, что она умеет танцевать',
+        spanish: 'me alegro de que ella sepa bailar',
+        alternatives: ['me alegro de que sepa bailar']
       },
       {
-        russian: 'Мы идём гулять в парк',
-        spanish: 'vamos a pasear al parque',
-        alternatives: ['vamos a pasear en el parque']
+        russian: 'Предлагаю, чтобы мы пошли гулять в парк',
+        spanish: 'propongo que vayamos a pasear al parque',
+        alternatives: ['propongo que vayamos a pasear por el parque']
       },
       {
         russian: 'Я хочу, чтобы ты развлекался',
         spanish: 'quiero que te diviertas',
-        alternatives: []
+        alternatives: ['yo quiero que te diviertas']
       },
       {
         russian: 'Надеюсь, у тебя есть свободное время',
         spanish: 'espero que tengas tiempo libre',
-        alternatives: []
+        alternatives: ['yo espero que tengas tiempo libre']
       },
       {
-        russian: 'Досуг важен для здоровья',
-        spanish: 'el ocio es importante para la salud',
-        alternatives: []
+        russian: 'Важно, чтобы досуг был частью нашей жизни',
+        spanish: 'es importante que el ocio sea parte de nuestra vida',
+        alternatives: ['es importante que el ocio forme parte de nuestra vida']
       }
     ]
   },
