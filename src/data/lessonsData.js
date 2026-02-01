@@ -6936,6 +6936,10 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'La rutina de Marcos',
         videoUrl: '/La rutina de Marcos M4C4.mp4'
+      },
+      {
+        tab: 'Por Madrid',
+        videoUrl: '/video/Por Madrid M4C4.mp4'
       }
     ],
     grammar: {
@@ -7890,7 +7894,7 @@ Ana: Yo también. Será un viaje inolvidable.
     videoTabs: [
       {
         tab: 'TIEMPO y GUSTAR',
-        videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
+        videoUrl: '/video/TIEMPO y GUSTAR.mp4'
       },
       {
         tab: 'Clima estaciones calor frio',
