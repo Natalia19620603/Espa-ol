@@ -7656,16 +7656,6 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
     id: 'lesson-5-2',
     title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
-    videoTabs: [
-      {
-        tab: 'TIEMPO y GUSTAR',
-        videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
-      },
-      {
-        tab: 'Clima estaciones calor frio',
-        videoUrl: '/video/Clima estaciones calor frio Audio M5C2.mp4'
-      }
-    ],
     vocabulary: [
       {
         tab: 'Существительные',
@@ -7898,6 +7888,14 @@ Ana: Yo también. Será un viaje inolvidable.
       }
     ],
     videoTabs: [
+      {
+        tab: 'TIEMPO y GUSTAR',
+        videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
+      },
+      {
+        tab: 'Clima estaciones calor frio',
+        videoUrl: '/video/Clima estaciones calor frio Audio M5C2.mp4'
+      },
       {
         tab: 'Conversación en el ascensor',
         videoUrl: '/video/Conversación en el ascensor.mp4'
