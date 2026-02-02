@@ -12022,6 +12022,16 @@ convenir — подходить
     id: 'lesson-10-4',
     title: 'Урок 4: Повторение Модулей 9, 10',
     moduleId: 'module-10',
+    videoTabs: [
+      {
+        tab: 'Imperativo prepara una tortilla',
+        videoUrl: '/video/Imperativo prepara una tortilla de patatas M10C4.mp4'
+      },
+      {
+        tab: 'Cita en el dentista',
+        videoUrl: '/video/Cita en el dentista М10С4.mp4'
+      }
+    ],
     grammar: {
       title: 'Повторение: Спорт, Здоровье и Императив',
       intro: `В этом уроке мы повторим ключевые темы модулей 9 и 10:
