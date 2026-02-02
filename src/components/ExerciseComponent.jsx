@@ -552,14 +552,18 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           )}
           {exercise.type === 'subjunctive' && (
             <SubjunctiveQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {exercise.type === 'conditional' && (
             <ConditionalQuestion
-              question={exercise.questions[currentQuestion]}
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
               onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
             />
           )}
           {/* Vocabulary Exercise Types */}
@@ -1788,42 +1792,74 @@ function AgreementQuestion({ question, onAnswer }) {
   )
 }
 
-function SubjunctiveQuestion({ question, onAnswer }) {
+function SubjunctiveQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
+  const questionText = question.text || question.sentence
   return (
     <div className={styles.question}>
-      <h3 className={styles.questionText}>{question.sentence}</h3>
-      <p className={styles.hint}>💡 {question.hint}</p>
+      {questionText && <h3 className={styles.questionText}>{questionText}</h3>}
+      {question.hint && <p className={styles.hint}>💡 {question.hint}</p>}
       <div className={styles.options}>
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
-          >
-            {option}
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
       </div>
+      {showCorrectAnswer && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
+      )}
+      {question.explanation && !showCorrectAnswer && (
+        <p className={styles.hint} style={{ marginTop: '10px', opacity: 0 }}>.</p>
+      )}
     </div>
   )
 }
 
-function ConditionalQuestion({ question, onAnswer }) {
+function ConditionalQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>Выберите правильную форму для условного предложения:</h3>
       <p className={styles.conditionalSentence}>{question.sentence}</p>
       <div className={styles.options}>
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={styles.optionBtn}
-          >
-            {option}
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
       </div>
+      {showCorrectAnswer && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
+      )}
     </div>
   )
 }

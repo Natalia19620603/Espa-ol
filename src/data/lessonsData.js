@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-17']
+    modules: ['module-11', 'module-12', 'module-17']
   }
 ]
 
@@ -79,6 +79,13 @@ export const modules = {
     lessons: ['lesson-11-1', 'lesson-11-2'],
     description: 'Modo subjuntivo: досуг, развлечения, свободное время'
   },
+  'module-12': {
+    id: 'module-12',
+    title: 'Модуль 12: ОБРАЗОВАНИЕ. Imperfecto de subjuntivo. Придаточные предложения времени и цели',
+    level: 'intermediate',
+    lessons: ['lesson-12-1', 'lesson-12-2', 'lesson-12-3', 'lesson-12-4'],
+    description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
+  },
   'module-8': {
     id: 'module-8',
     title: 'Модуль 8: ОТПУСК. ВИДЫ ТУРИЗМА. Условные предложения I типа. Modo potencial (condicional). Potencial simple (будущее в прошедшем/простое условное время). Concordancia de los tiempos (согласование времен изъявительного наклонения). Перевод прямой речи в косвенную (45 слов)',
@@ -104,7 +111,7 @@ export const modules = {
     id: 'module-17',
     title: 'Модуль 17: Литература и культура (1068 слов)',
     level: 'intermediate',
-    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9'],
+    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10', 'lesson-17-11'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -1613,7 +1620,7 @@ Objeto + está + preposición + del/de la + lugar.
         ]
       },
     ],
-    readingTabs: [
+    readingText: [
       {
         tab: 'Diálogos - Профессии',
         title: 'Diálogos - Профессии и национальности',
@@ -2660,6 +2667,18 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       {
         tab: 'Estar Viaje',
         videoUrl: '/video/Estar Viaje.mp4'
+      },
+      {
+        tab: 'Descripcion fisica completa',
+        videoUrl: '/video/Descripcion fisica completa M2C2.mp4'
+      },
+      {
+        tab: 'Descripción Física tener llevar',
+        videoUrl: '/video/Descripción Física tener llevar M2C2.mp4'
+      },
+      {
+        tab: 'Chico simpatico',
+        videoUrl: '/video/Chico simpatico M2C2.mp4'
       }
     ],
     grammar: {
@@ -3393,7 +3412,8 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
         videoUrl: '/video/Ejercicio 9. Audio 6 (A1U2Cl2).mp4'
       },
       {
-        tab: '11'
+        tab: '11',
+        videoUrl: '/video/La familia en español M2C3.mp4'
       }
     ],
     grammar: {
@@ -4603,6 +4623,10 @@ María: ¡Vamos!`,
       {
         tab: 'Gustar datos personales',
         videoUrl: '/video/Gustar datos personales.mp4'
+      },
+      {
+        tab: 'Cita a ciegas en el restaurante',
+        videoUrl: '/video/Cita a ciegas en el restaurante M3C3.mp4'
       }
     ],
     grammar: {
@@ -5066,6 +5090,10 @@ María: ¡Vamos!`,
       {
         tab: 'Le gusta la sopa',
         videoUrl: '/video/Le gusta  la sopa M3C4.mp4'
+      },
+      {
+        tab: 'Champiñones por inhalación',
+        videoUrl: '/video/Champiñones por inhalación M3C4.mp4'
       }
     ],
     grammar: {
@@ -5636,6 +5664,14 @@ María: ¡Vamos!`,
       {
         tab: '4',
         videoUrl: '/video/Модуль 4 Урок 1 - Рутина Евы.mp4'
+      },
+      {
+        tab: 'La rutina fin de semana',
+        videoUrl: '/video/La rutina M4C1 fin de semana.mp4'
+      },
+      {
+        tab: 'La rutina p1',
+        videoUrl: '/video/La rutina M4C1 p1.mp4'
       }
     ],
     grammar: {
@@ -6880,6 +6916,30 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'La empresa es como una familia',
         videoUrl: '/video/La empresa es como una familia M4C4.mp4'
+      },
+      {
+        tab: 'Así se trata la migraña',
+        videoUrl: '/video/Asi se trata la migraña M4C4.mp4'
+      },
+      {
+        tab: 'Sorpresa PP',
+        videoUrl: '/video/Sorpresa PP M4C4.mp4'
+      },
+      {
+        tab: 'Qué has hecho',
+        videoUrl: '/video/Qué has hecho M4C4.mp4'
+      },
+      {
+        tab: 'Vicicleto',
+        videoUrl: '/video/Vicicleto M4C4.mp4'
+      },
+      {
+        tab: 'La rutina de Marcos',
+        videoUrl: '/La rutina de Marcos M4C4.mp4'
+      },
+      {
+        tab: 'Por Madrid',
+        videoUrl: '/video/Por Madrid M4C4.mp4'
       }
     ],
     grammar: {
@@ -7128,6 +7188,24 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
           { word: 'envuelto', translation: 'завернутый' },
           { word: 'propuesto', translation: 'предложенный' }
         ]
+      },
+      {
+        tab: 'Así se trata la migraña',
+        words: [
+          { word: 'encontrarse', translation: 'чувствовать себя, находиться' },
+          { word: 'administrar la medicación', translation: 'прописывать лекарства' },
+          { word: 'indicar', translation: 'указывать, назначать' },
+          { word: 'quitar', translation: 'снимать, убирать' },
+          { word: 'la migraña', translation: 'мигрень' },
+          { word: 'las convulsiones', translation: 'судороги' },
+          { word: 'el fallo', translation: 'недостаточность, сбой' },
+          { word: 'hepático', translation: 'печёночный' },
+          { word: 'curar', translation: 'лечить, вылечивать' },
+          { word: 'la neumonía', translation: 'пневмония' },
+          { word: 'tratar', translation: 'лечить, обращаться' },
+          { word: 'la embolia', translation: 'эмболия' },
+          { word: 'insoportable', translation: 'невыносимый' }
+        ]
       }
     ],
     readingText: [
@@ -7174,8 +7252,8 @@ Jefe: Excelente trabajo, Ana. ¿Has preparado la presentación para la reunión?
 Ana: Todavía no la he terminado del todo, pero ya tengo hechas la mayoría de las diapositivas. Esta tarde voy a terminarla.
 Jefe: Muy bien. Por cierto, ¿has visto a Carlos hoy? He intentado llamarlo pero no ha contestado.
 Ana: No, no lo he visto. Creo que hoy ha ido al dentista. Me ha enviado un mensaje esta mañana.
-Jefe: Ah, vale. Cuando vuelva, dile que venga a mi despacho, por favor.
-Ana: Por supuesto, se lo diré en cuanto lo vea.
+Jefe: Ah, vale. Cuando vuelve, dile que tiene que venir a mi despacho, por favor.
+Ana: Por supuesto, se lo voy a decir cuando lo veo.
 
 **Diálogo 2: Entre amigos**
 
@@ -7206,12 +7284,12 @@ Madre: Vale, pero ahora tienes que terminar los deberes. ¿Juan, has recogido tu
 Juan: Sí, mamá. Ya la he recogido y he puesto la ropa sucia en el cesto.
 Madre: Muy bien. ¿Y habéis preparado las mochilas para mañana?
 Juan: Yo sí. He metido todos los libros y los cuadernos que necesito.
-Laura: Yo las prepararé después de terminar los deberes.
+Laura: Yo las voy a preparar después de terminar los deberes.
 Padre: Por cierto, ¿habéis visto mis llaves del coche? No las encuentro.
 Juan: Yo las he visto en la mesa de la cocina esta mañana.
 Padre: Gracias, voy a mirar allí. ¿Y habéis dado de comer al perro?
 Laura: Sí, papá. Ya le he dado de comer y le he puesto agua fresca.
-Madre: Muy bien, chicos. Cuando terminéis todo, vamos a cenar. He preparado vuestra comida favorita.
+Madre: Muy bien, chicos. Después de terminar todo, vamos a cenar. He preparado vuestra comida favorita.
 Juan y Laura: ¡Qué bien! Gracias, mamá.`,
         translation: `**Диалог 1: В офисе**
 
@@ -7223,8 +7301,8 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Ана: Я ещё не закончила её полностью, но уже сделала большинство слайдов. Сегодня днём я её закончу.
 Начальник: Очень хорошо. Кстати, ты видела Карлоса сегодня? Я пытался ему позвонить, но он не ответил.
 Ана: Нет, я его не видела. Думаю, что сегодня он пошёл к стоматологу. Он прислал мне сообщение сегодня утром.
-Начальник: А, понятно. Когда он вернётся, скажи ему, чтобы зашёл ко мне в кабинет, пожалуйста.
-Ана: Конечно, я скажу ему, как только его увижу.
+Начальник: А, понятно. Когда он возвращается, скажи ему, что он должен прийти ко мне в кабинет, пожалуйста.
+Ана: Конечно, я ему скажу, когда его увижу.
 
 **Диалог 2: Между друзьями**
 
@@ -7255,16 +7333,85 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
 Хуан: Да, мама. Я уже убрал её и положил грязную одежду в корзину.
 Мама: Очень хорошо. А вы приготовили рюкзаки на завтра?
 Хуан: Я да. Я положил все книги и тетради, которые мне нужны.
-Лаура: Я приготовлю их после того, как закончу домашнее задание.
+Лаура: Я собираюсь их приготовить после того, как закончу домашнее задание.
 Папа: Кстати, вы видели мои ключи от машины? Я не могу их найти.
 Хуан: Я видел их на кухонном столе сегодня утром.
 Папа: Спасибо, пойду посмотрю там. А вы покормили собаку?
 Лаура: Да, папа. Я уже покормила её и налила ей свежей воды.
-Мама: Очень хорошо, дети. Когда закончите всё, мы поужинаем. Я приготовила ваше любимое блюдо.
+Мама: Очень хорошо, дети. После того как закончите всё, идём ужинать. Я приготовила ваше любимое блюдо.
 Хуан и Лаура: Как здорово! Спасибо, мама.`
+      },
+      {
+        tab: '🏥 Así se trata la migraña',
+        title: 'Así se trata la migraña',
+        content: `**Doctor:** ¿Cómo se encuentra hoy el paciente de la migraña insoportable?
+
+**Enfermera:** Bueno, pues eh le hemos administrado la medicación que usted nos indicó eh metacloradona.
+
+**Doctor:** Muy bien. Y le ha quitado la migraña, supongo.
+
+**Enfermera:** Sí, le ha quitado la migraña, pero le ha causado convulsiones.
+
+**Doctor:** ¿Y no le habéis dado fenotaleidol?
+
+**Enfermera:** Sí, lo hemos hecho. Le quitó las convulsiones, pero ha producido un fallo hepático.
+
+**Doctor:** Eso se trata con citofloratina.
+
+**Enfermera:** Sí, también lo hemos hecho. Le curó el fallo hepático, pero ha producido una neumonía.
+
+**Doctor:** Hay que darle blastometa sana.
+
+**Enfermera:** Exacto, lo hemos hecho ya. Le curó la neumonía, pero le ha causado un infarto.
+
+**Doctor:** El infarto se trata con Cicloramo Mox.
+
+**Enfermera:** Sí, también lo hemos hecho. Le detuvo el infarto, pero lo ha causado una embolia.
+
+**Doctor:** ¿Y no le habéis dado oxitronadol?
+
+**Enfermera:** Sí, también lo hemos hecho. Le curó la embolia, pero le ha producido una migraña insoportable.
+
+**Doctor:** Doctor, ¿qué es lo que traía cuando entró en el hospital?
+
+**Enfermera:** El paciente, sí. Pues una revista debajo del brazo para su madre. Ah.`,
+        translation: `**Доктор:** Как сегодня себя чувствует пациент с невыносимой мигренью?
+
+**Медсестра:** Ну, мы ему ввели лекарство, которое вы нам указали, метаклорадону.
+
+**Доктор:** Очень хорошо. И это сняло мигрень, полагаю.
+
+**Медсестра:** Да, это сняло мигрень, но вызвало судороги.
+
+**Доктор:** А вы не давали ему феноталейдол?
+
+**Медсестра:** Да, мы это сделали. Это сняло судороги, но вызвало печёночную недостаточность.
+
+**Доктор:** Это лечится цитофлоратиной.
+
+**Медсестра:** Да, мы тоже это сделали. Это вылечило печёночную недостаточность, но вызвало пневмонию.
+
+**Доктор:** Нужно дать ему бластомета сана.
+
+**Медсестра:** Именно, мы уже это сделали. Это вылечило пневмонию, но вызвало инфаркт.
+
+**Доктор:** Инфаркт лечится Циклорамо Мокс.
+
+**Медсестра:** Да, мы тоже это сделали. Это остановило инфаркт, но вызвало эмболию.
+
+**Доктор:** А вы не давали ему окситронадол?
+
+**Медсестра:** Да, мы тоже это сделали. Это вылечило эмболию, но вызвало невыносимую мигрень.
+
+**Доктор:** Доктор, что он принёс, когда поступил в больницу?
+
+**Медсестра:** Пациент, да. Ну, журнал под мышкой для своей мамы. Ах.`
       }
     ],
-    exercises: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18']
+    exercises: [
+      { tab: 'Pretérito Perfecto', exerciseIds: ['ex-4-4-1', 'ex-4-4-2', 'ex-4-4-3', 'ex-4-4-4', 'ex-4-4-5', 'ex-4-4-6', 'ex-4-4-7', 'ex-4-4-8', 'ex-4-4-9', 'ex-4-4-10', 'ex-4-4-11', 'ex-4-4-12', 'ex-4-4-13', 'ex-4-4-14', 'ex-4-4-15', 'ex-4-4-16', 'ex-4-4-17', 'ex-4-4-18'] },
+      { tab: 'Así se trata la migraña', exerciseIds: ['ex-4-4-19', 'ex-4-4-20', 'ex-4-4-21', 'ex-4-4-22'] }
+    ]
   },
 
   // МОДУЛЬ 5: Путешествия и места (A1)
@@ -7513,12 +7660,6 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
     id: 'lesson-5-2',
     title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
-    videoTabs: [
-      {
-        tab: 'TIEMPO y GUSTAR',
-        videoUrl: '/video/Модуль 5 урок 2 Видео TIEMPO y GUSTAR.mp4'
-      }
-    ],
     vocabulary: [
       {
         tab: 'Существительные',
@@ -7752,6 +7893,14 @@ Ana: Yo también. Será un viaje inolvidable.
     ],
     videoTabs: [
       {
+        tab: 'TIEMPO y GUSTAR',
+        videoUrl: '/video/TIEMPO y GUSTAR.mp4'
+      },
+      {
+        tab: 'Clima estaciones calor frio',
+        videoUrl: '/video/Clima estaciones calor frio Audio M5C2.mp4'
+      },
+      {
         tab: 'Conversación en el ascensor',
         videoUrl: '/video/Conversación en el ascensor.mp4'
       }
@@ -7803,6 +7952,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: '10 puertas',
         videoUrl: '/video/10 puertas.mp4'
+      },
+      {
+        tab: 'Qué hiciste ayer',
+        videoUrl: '/Qué hiciste ayer M6C1.mp4'
       }
     ],
     grammar: {
@@ -8485,6 +8638,10 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'Meses y fiestas',
         videoUrl: '/video/Месяцы даты 24.mp4'
+      },
+      {
+        tab: 'El refrigerador',
+        videoUrl: '/video/El refrigerador  M7C1.mp4'
       }
     ],
     vocabulary: [
@@ -10956,6 +11113,13 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-9-2',
     title: 'Урок 2: Конструкция Acusativo con Infinitivo',
     moduleId: 'module-9',
+    videoTabs: [
+      {
+        id: 'video-objetos-deporte',
+        tab: 'Objetos de deporte',
+        videoUrl: '/video/Objetos de deporte M9C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Конструкция Acusativo con Infinitivo',
       intro: `Эта конструкция используется после глаголов восприятия (видеть, слышать, чувствовать). Она позволяет кратко выразить действие, которое совершает кто-то другой.`,
@@ -11048,6 +11212,16 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     id: 'lesson-9-3',
     title: 'Урок 3: Основные инфинитивные конструкции (Перифразы)',
     moduleId: 'module-9',
+    videoTabs: [
+      {
+        tab: 'Deportes y traumas',
+        videoUrl: '/video/Deportes y traumas M9C3.mp4'
+      },
+      {
+        tab: 'Perífrasis verbales',
+        videoUrl: '/video/12 PERÍFRASIS VERBALES M9C3.mp4'
+      }
+    ],
     grammar: {
       title: 'Основные инфинитивные конструкции (Перифразы)',
       intro: `Инфинитивные конструкции (перифразы) — это устойчивые сочетания глаголов с инфинитивом, которые выражают различные аспекты действия: начало, продолжение, окончание, повтор, долженствование и другие.`,
@@ -11184,6 +11358,11 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-mi-marido-ronca',
         tab: 'Mi marido ronca',
         videoUrl: '/video/Mi marido ronca.mp4'
+      },
+      {
+        id: 'video-visita-medica',
+        tab: 'Visita médica',
+        videoUrl: '/video/Visita medica M10 C1.mp4'
       }
     ],
     grammar: {
@@ -11506,6 +11685,16 @@ volante m — зд. направление`
     id: 'lesson-10-2',
     title: 'Урок 2: Местоимения в Imperativo Afirmativo',
     moduleId: 'module-10',
+    videoTabs: [
+      {
+        tab: 'Llevo a mi abuela al dentista',
+        videoUrl: '/video/Llevo a mi abuela al dentista M10C2.mp4'
+      },
+      {
+        tab: 'Una intervención peligrosa',
+        videoUrl: '/Una intervencion peligrosa M10C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Местоимения в Imperativo Afirmativo',
       intro: `Главное правило: в утвердительной форме повелительного наклонения все местоимения (возвратные nos, te, se и дополнения lo, la, le) «приклеиваются» к глаголу в конце.`,
@@ -12186,6 +12375,12 @@ Su médico le dio estos consejos:
 Martín sigue todos estos consejos porque sabe que para ser un buen deportista, necesita estar sano. Como dice su entrenador: "Un atleta sano es un atleta exitoso".`,
       translation: 'Здоровая и спортивная жизнь. Мартин - профессиональный спортсмен. Каждый день он тренируется несколько часов, но также очень заботится о своем здоровье...'
     },
+    videoTabs: [
+      {
+        tab: 'Cita en el dentista',
+        videoUrl: '/video/Cita en el dentista М10С4.mp4'
+      }
+    ],
     exercises: ['ex-10-4-1', 'ex-10-4-2', 'ex-10-4-3', 'ex-10-4-4', 'ex-10-4-5']
   },
 
@@ -15590,6 +15785,10 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
       {
         tab: 'El pez mas feo del mundo',
         videoUrl: '/video/El pez mas feo del mundo.mp4'
+      },
+      {
+        tab: 'Cordyceps',
+        videoUrl: '/video/El cordyceps M17C7.mp4'
       }
     ],
     vocabulary: [
@@ -15765,6 +15964,29 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { word: 'encontrar', translation: 'находить' },
           { word: 'el fondo', translation: 'дно' }
         ]
+      },
+      {
+        tab: 'Cordyceps',
+        words: [
+          { word: 'el hongo / la seta / el champiñón', translation: 'гриб' },
+          { word: 'apoderarse de', translation: 'завладеть, захватить' },
+          { word: 'la ciencia ficción', translation: 'научная фантастика' },
+          { word: 'hormiga carpintera', translation: 'муравей листорез' },
+          { word: 'el huésped', translation: 'гость, носитель' },
+          { word: 'espeluznante', translation: 'ужасающий, жуткий' },
+          { word: 'disparar', translation: 'стрелять, выстрелить' },
+          { word: 'las esporas', translation: 'споры' },
+          { word: 'controlar', translation: 'контролировать, управлять' },
+          { word: 'obligar a alguien a hacer algo', translation: 'заставлять кого-то делать что-то' },
+          { word: 'trepar', translation: 'взбираться, карабкаться' },
+          { word: 'brotar', translation: 'прорастать, проявляться' },
+          { word: 'la variedad', translation: 'разнообразие, разновидность' },
+          { word: 'el equilibrio', translation: 'равновесие, баланс' },
+          { word: 'la especie', translation: 'вид' },
+          { word: 'liberar', translation: 'освободить, выпустить' },
+          { word: 'observar', translation: 'наблюдать, рассматривать' },
+          { word: 'medir', translation: 'быть ростом' }
+        ]
       }
     ],
     readingText: [
@@ -15829,6 +16051,18 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
         title: 'El pez gota: belleza bajo presión',
         content: `Si piensas que este animal es feo, estás muy equivocado. Al pez gota se le conoce como la criatura más fea del mundo. Su imagen se viralizó tras ser sacado del agua, mostrando una especie de masa gelatinosa y triste. Pero lo que nadie te cuenta es que ese no es su aspecto natural. Este pez vive a más de 1000 m de profundidad, donde la presión es hasta 120 veces mayor que en la superficie. Su cuerpo está perfectamente adaptado a ese entorno. No tiene esqueleto sólido y su carne es gelatinosa, pero a esa presión, esa textura, es lo que le permite flotar sin esfuerzo. El problema es que al ser extraído tan rápido, su cuerpo se deforma. Fuera del agua literalmente colapsa. Así que esa cara derretida que ves no es más que el resultado de un cuerpo adaptado a un entorno que no es el nuestro.`,
         translation: ``
+      },
+      {
+        tab: 'Cordyceps',
+        title: 'El hongo zombie: cordyceps',
+        content: `Imagina un organismo que literalmente puede apoderarse de tu mente, obligarte a abandonar tu hogar y finalmente usar tu cabeza como plataforma para su propia supervivencia.
+
+Suena a ciencia ficción, ¿verdad? En las selvas tropicales, esto es el pan de cada día, cortesía del hongo oiocorticeps unilateralis, también conocido como el hongo zombie. Una espora invisible cae sobre una hormiga carpintera. El hongo no la mata de inmediato, no. Primero toma el control.
+
+El cordiceps inunda el cuerpo de la hormiga con compuestos químicos que viajan hasta su cerebro. Pero aquí viene la parte espeluznante. No controla los músculos a través del cerebro, sino que crece a través del cuerpo, rodeando y controlando los músculos desde fuera, creando una marioneta biológica. El hongo le da una orden final a su huésped, escalar. La hormiga, ahora un zombie, trepa por un tallo hasta alcanzar una altura y temperatura perfectas, generalmente a 25 cm del suelo. Una vez allí, el cordiceps fuerza la hormiga a morder fuertemente la parte inferior de una hoja o rama, anclándola a su destino final. Inmovilizada y muerta, la hormiga se convierte en una fábrica de esporas. Un tallo fúngico llamado estroma brota de su cabeza como una antena. Desde esta altura, el hongo libera miles de esporas infecciosas.
+
+Las esporas flotan buscando a su próxima víctima, asegurando el ciclo de vida de uno de los parásitos más aterradores del planeta. Un recordatorio brutal de que en la naturaleza a veces la supervivencia de uno significa el control total y la destrucción de otro.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -15867,6 +16101,15 @@ Yo repito que no soy autoridad para decir esto porque yo no tengo, ya les he dic
           { name: 'Понимание текста', exercises: ['ex-9-7-pezfeo-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-7-pezfeo-grammar'] },
           { name: 'Перевод', exercises: ['ex-9-7-pezfeo-translation'] }
+        ]
+      },
+      {
+        tab: 'Cordyceps',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-7-cordyceps-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-7-cordyceps-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-17-7-cordyceps-grammar'] },
+          { name: 'Перевод', exercises: ['ex-17-7-cordyceps-translation'] }
         ]
       }
     ]
@@ -16028,6 +16271,1024 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
       { word: 'manifestar', translation: 'проявлять, выражать' }
     ],
     exercises: ['ex-17-9-1']
+  },
+
+  // ============ МОДУЛЬ 17 УРОК 10: HUMOR ============
+
+  'lesson-17-10': {
+    id: 'lesson-17-10',
+    title: 'Урок 10: Humor - El chiste como remedio',
+    moduleId: 'module-17',
+    videoTabs: [
+      {
+        id: 'video-chiste-remedio',
+        tab: 'El chiste el remedio',
+        videoUrl: '/video/El chiste el remedio 33.mp4'
+      },
+      {
+        id: 'video-colon-llego',
+        tab: 'Colon llego a colar',
+        videoUrl: '/video/Colon llego a colar M17C10.mp4'
+      },
+      {
+        id: 'video-migrana',
+        tab: 'Asi se trata la migrana',
+        videoUrl: '/video/Asi se trata la migrana M17C10.mp4'
+      }
+    ],
+    vocabulary: [
+      { word: 'el chiste', translation: 'шутка, анекдот' },
+      { word: 'el remedio', translation: 'лекарство, средство' },
+      { word: 'el humor', translation: 'юмор' },
+      { word: 'reír', translation: 'смеяться' },
+      { word: 'la risa', translation: 'смех' },
+      { word: 'gracioso', translation: 'смешной, забавный' },
+      { word: 'divertido', translation: 'весёлый, забавный' },
+      { word: 'bromear', translation: 'шутить' },
+      { word: 'la broma', translation: 'шутка, розыгрыш' },
+      { word: 'chistoso', translation: 'смешной, остроумный' }
+    ],
+    exercises: []
+  },
+  'lesson-17-11': {
+    id: 'lesson-17-11',
+    title: 'Урок 11: Fábulas - Buena suerte, mala suerte',
+    moduleId: 'module-17',
+    videoTabs: [
+      {
+        id: 'video-buena-mala-suerte',
+        tab: 'Buena suerte, mala suerte',
+        videoUrl: '/video/Buena suerte mala suerte.mp4'
+      }
+    ],
+    vocabulary: [
+      { word: 'la fábula', translation: 'басня' },
+      { word: 'la suerte', translation: 'удача, судьба' },
+      { word: 'buena suerte', translation: 'удача, везение' },
+      { word: 'mala suerte', translation: 'неудача, невезение' },
+      { word: 'el destino', translation: 'судьба' },
+      { word: 'la moraleja', translation: 'мораль (басни)' },
+      { word: 'el campesino', translation: 'крестьянин' },
+      { word: 'el caballo', translation: 'лошадь' },
+      { word: 'escapar', translation: 'сбежать, убежать' },
+      { word: 'quien sabe', translation: 'кто знает' }
+    ],
+    exercises: []
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: ОБРАЗОВАНИЕ
+  // =============================================
+
+  'lesson-12-1': {
+    id: 'lesson-12-1',
+    title: 'Урок 1: Imperfecto de Subjuntivo (простое прошедшее время сослагательного наклонения)',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Imperfecto de Subjuntivo: Правила и употребление',
+      intro: `**Imperfecto de Subjuntivo** (Pretérito Imperfecto de Subjuntivo) — это простое прошедшее время сослагательного наклонения, которое используется для выражения нереальных, желательных или гипотетических действий в прошлом.
+
+Это время необходимо для согласования времён в сложных предложениях, когда главный глагол стоит в прошедшем времени или в условном наклонении.`,
+      sections: [
+        {
+          id: 'образование',
+          title: '1. Образование Imperfecto de Subjuntivo',
+          content: `## Правило образования
+
+Форма **Imperfecto de Subjuntivo** образуется от основы **3-го лица множественного числа (ellos)** в **Pretérito Indefinido**.
+
+**Алгоритм:**
+1. Возьмите форму **ellos** в Pretérito Indefinido
+2. Отбросьте окончание **-ron**
+3. Добавьте специфические суффиксы
+
+### Два варианта окончаний
+
+Существует **два равноправных варианта** окончаний. Формы на **-ra** универсальны и более распространены, формы на **-se** встречаются реже (чаще в литературе или в Испании).
+
+| Лицо | Окончания (вариант 1) | Окончания (вариант 2) |
+|------|----------------------|----------------------|
+| yo | **-ra** | **-se** |
+| tú | **-ras** | **-ses** |
+| él/ella/usted | **-ra** | **-se** |
+| nosotros/as | **-ramos** ⚠️ | **-semos** ⚠️ |
+| vosotros/as | **-rais** | **-seis** |
+| ellos/ellas/ustedes | **-ran** | **-sen** |
+
+⚠️ **Важно:** В формах **nosotros** ударение падает на гласную **перед** суффиксом (пишется с акцентом): habláramos, comiésemos`
+        },
+        {
+          id: 'примеры-спряжения',
+          title: '2. Примеры спряжения правильных глаголов',
+          content: `### TRABAJAR (работать)
+Pretérito Indefinido: ellos trabaja**ron** → основа: **trabaja-**
+
+| Лицо | Вариант -RA | Вариант -SE |
+|------|-------------|-------------|
+| yo | trabajara | trabajase |
+| tú | trabajaras | trabajases |
+| él/ella | trabajara | trabajase |
+| nosotros | trabajáramos | trabajásemos |
+| vosotros | trabajarais | trabajaseis |
+| ellos | trabajaran | trabajasen |
+
+### COMER (есть)
+Pretérito Indefinido: ellos comie**ron** → основа: **comie-**
+
+| Лицо | Вариант -RA | Вариант -SE |
+|------|-------------|-------------|
+| yo | comiera | comiese |
+| tú | comieras | comieses |
+| él/ella | comiera | comiese |
+| nosotros | comiéramos | comiésemos |
+| vosotros | comierais | comieseis |
+| ellos | comieran | comiesen |
+
+### VIVIR (жить)
+Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
+
+| Лицо | Вариант -RA | Вариант -SE |
+|------|-------------|-------------|
+| yo | viviera | viviese |
+| tú | vivieras | vivieses |
+| él/ella | viviera | viviese |
+| nosotros | viviéramos | viviésemos |
+| vosotros | vivierais | vivieseis |
+| ellos | vivieran | viviesen |`
+        },
+        {
+          id: 'неправильные-глаголы',
+          title: '3. Неправильные глаголы',
+          content: `Поскольку Imperfecto de Subjuntivo образуется от формы **Pretérito Indefinido**, все неправильности этого времени сохраняются.
+
+### Примеры неправильных глаголов:
+
+| Глагол | Indefinido (ellos) | Imperfecto Subj. |
+|--------|-------------------|------------------|
+| **decir** (говорить) | dijeron | dijera / dijese |
+| **hacer** (делать) | hicieron | hiciera / hiciese |
+| **tener** (иметь) | tuvieron | tuviera / tuviese |
+| **estar** (быть) | estuvieron | estuviera / estuviese |
+| **poder** (мочь) | pudieron | pudiera / pudiese |
+| **poner** (класть) | pusieron | pusiera / pusiese |
+| **saber** (знать) | supieron | supiera / supiese |
+| **querer** (хотеть) | quisieron | quisiera / quisiese |
+| **venir** (приходить) | vinieron | viniera / viniese |
+| **ir / ser** | fueron | fuera / fuese |
+| **dar** (давать) | dieron | diera / diese |
+| **dormir** (спать) | durmieron | durmiera / durmiese |
+| **pedir** (просить) | pidieron | pidiera / pidiese |
+| **leer** (читать) | leyeron | leyera / leyese |
+| **traer** (приносить) | trajeron | trajera / trajese |
+
+**⚠️ Обратите внимание:** Глаголы **ir** (идти) и **ser** (быть) имеют одинаковую форму в Pretérito Indefinido, поэтому и в Imperfecto de Subjuntivo они совпадают: **fuera / fuese**`
+        },
+        {
+          id: 'согласование-времен',
+          title: '4. Согласование времён (Concordancia de tiempos)',
+          content: `## Схема согласования времён
+
+**Imperfecto de Subjuntivo** используется в придаточном предложении, когда глагол в главном предложении:
+
+1. Требует **Subjuntivo** (выражает желание, сомнение, эмоции и т.д.)
+2. Стоит в одном из следующих времён:
+   - **Pretérito Indefinido** (я засомневался)
+   - **Pretérito Imperfecto** (я сомневался)
+   - **Potencial Simple / Condicional** (я сомневался бы)
+
+### Таблица согласования:
+
+| Главное предложение | Придаточное предложение |
+|---------------------|------------------------|
+| Pretérito Indefinido | |
+| Pretérito Imperfecto | + **Imperfecto de Subjuntivo** |
+| Potencial Simple | |
+
+### Сравнение с Presente de Subjuntivo:
+
+| Главное предложение | Придаточное |
+|---------------------|-------------|
+| Presente / Futuro / Perfecto | + **Presente de Subjuntivo** |
+| Pasado / Condicional | + **Imperfecto de Subjuntivo** |`
+        },
+        {
+          id: 'примеры-согласования',
+          title: '5. Примеры согласования времён',
+          content: `### Пример с глаголом DUDAR (сомневаться)
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| **Dudo** (Presente) | que Juan **trabaje** | Сомневаюсь, что Хуан работает |
+| **Dudé** (Indefinido) | que Juan **trabajara** | Я засомневался, что Хуан работает |
+| **Dudaba** (Imperfecto) | que Juan **trabajara** | Я сомневался, что Хуан работает |
+| **Dudaría** (Condicional) | que Juan **trabajara** | Я сомневался бы, что Хуан работает |
+
+### Пример с глаголом QUERER (хотеть)
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| **Quiero** | que **vengas** | Хочу, чтобы ты пришёл |
+| **Quería** | que **vinieras** | Я хотел, чтобы ты пришёл |
+| **Querría** | que **vinieras** | Я хотел бы, чтобы ты пришёл |
+
+### Полный пример:
+
+**Yo dudé / dudaba / dudaría que Juan trabajara en la comisaría.**
+
+*Я засомневался / сомневался / сомневался бы, что Хуан работает (работал) в полицейском участке.*
+
+⚠️ **Важно:** Imperfecto de Subjuntivo выражает действие, **одновременное или будущее** по отношению к моменту в прошлом.`
+        },
+        {
+          id: 'употребление-контексты',
+          title: '6. Основные контексты употребления',
+          content: `## Когда используется Imperfecto de Subjuntivo
+
+### 1. После глаголов желания, просьбы, совета в прошлом:
+- *Quería que me **ayudaras*** — Я хотел, чтобы ты мне помог
+- *Le pedí que **viniera*** — Я попросил его прийти
+- *Me aconsejó que **estudiara** más* — Он посоветовал мне больше учиться
+
+### 2. После глаголов эмоций в прошлом:
+- *Me alegré de que **aprobaras*** — Я обрадовался, что ты сдал
+- *Sentía que no **estuvieras** allí* — Мне было жаль, что тебя там не было
+- *Temía que **lloviera*** — Я боялся, что пойдёт дождь
+
+### 3. После глаголов сомнения и отрицания в прошлом:
+- *Dudaba que **supiera** la verdad* — Я сомневался, что он знает правду
+- *No creía que **fuera** posible* — Я не верил, что это возможно
+
+### 4. После безличных выражений в прошлом:
+- *Era importante que **estudiaras*** — Было важно, чтобы ты учился
+- *Era necesario que **llegáramos** a tiempo* — Было необходимо, чтобы мы пришли вовремя
+
+### 5. В условных предложениях II типа (нереальное условие):
+- *Si **tuviera** dinero, viajaría* — Если бы у меня были деньги, я бы путешествовал
+- *Si **pudiera**, te ayudaría* — Если бы я мог, я бы тебе помог`
+        },
+        {
+          id: 'condicionales',
+          title: '7. Условные предложения II типа',
+          content: `## Структура нереального условия в настоящем
+
+**Si + Imperfecto de Subjuntivo, Condicional Simple**
+
+Эта конструкция выражает **нереальное, гипотетическое условие** в настоящем или будущем.
+
+### Примеры:
+
+| Условие (si + Imp. Subj.) | Результат (Condicional) | Перевод |
+|---------------------------|------------------------|---------|
+| Si **tuviera** tiempo | **leería** más | Если бы у меня было время, я бы больше читал |
+| Si **supiera** español | **viajaría** a España | Если бы я знал испанский, я бы поехал в Испанию |
+| Si **fuera** rico | **compraría** una casa | Если бы я был богат, я бы купил дом |
+| Si no **lloviera** | **saldríamos** a pasear | Если бы не шёл дождь, мы бы вышли погулять |
+
+### Важные замечания:
+
+⚠️ **Порядок частей можно менять:**
+- *Si tuviera tiempo, leería más* = *Leería más si tuviera tiempo*
+
+⚠️ **Оба варианта (-ra / -se) возможны:**
+- *Si tuviera...* = *Si tuviese...*
+
+⚠️ **В разговорной речи Condicional иногда заменяется на Imperfecto de Subjuntivo:**
+- *Si tuviera dinero, me comprara un coche* (разговорное)
+- *Si tuviera dinero, me compraría un coche* (стандартное)`
+        },
+        {
+          id: 'ojala',
+          title: '8. Конструкция ¡Ojalá + Imperfecto de Subjuntivo!',
+          content: `## Выражение нереального желания
+
+Восклицание **¡Ojalá!** (Хотя бы! Если бы!) с **Imperfecto de Subjuntivo** выражает желание, которое **маловероятно или невозможно** осуществить.
+
+### Сравнение:
+
+| Конструкция | Значение | Пример |
+|-------------|----------|--------|
+| ¡Ojalá + **Presente Subj.**! | Реальное желание | *¡Ojalá **venga**!* — Хоть бы он пришёл! (возможно) |
+| ¡Ojalá + **Imperfecto Subj.**! | Нереальное желание | *¡Ojalá **viniera**!* — Если бы он пришёл! (маловероятно) |
+
+### Примеры:
+- *¡Ojalá **tuviera** más tiempo!* — Если бы у меня было больше времени!
+- *¡Ojalá **pudiera** volar!* — Если бы я мог летать!
+- *¡Ojalá **estuvieras** aquí!* — Если бы ты был здесь!
+- *¡Ojalá **hiciera** buen tiempo!* — Если бы была хорошая погода!`
+        },
+        {
+          id: 'como-si',
+          title: '9. Конструкция COMO SI (как будто)',
+          content: `## Como si + Imperfecto de Subjuntivo
+
+После выражения **como si** (как будто, как если бы) **всегда** используется **Imperfecto de Subjuntivo**, независимо от времени главного глагола.
+
+### Примеры:
+
+| Главный глагол | Пример | Перевод |
+|----------------|--------|---------|
+| Presente | *Habla como si **supiera** todo* | Он говорит, как будто всё знает |
+| Pasado | *Hablaba como si **supiera** todo* | Он говорил, как будто всё знает |
+| Futuro | *Hablará como si **supiera** todo* | Он будет говорить, как будто всё знает |
+
+### Другие примеры:
+- *Actúa como si **fuera** el jefe* — Он ведёт себя, как будто он начальник
+- *Me miró como si no me **conociera*** — Он посмотрел на меня, как будто меня не знает
+- *Gasta dinero como si **fuera** millonario* — Он тратит деньги, как будто он миллионер
+- *Se comporta como si **tuviera** veinte años* — Она ведёт себя так, будто ей двадцать лет`
+        }
+      ],
+      examples: [
+        { spanish: 'Quería que me ayudaras', translation: 'Я хотел, чтобы ты мне помог' },
+        { spanish: 'Dudaba que supiera la verdad', translation: 'Я сомневался, что он знает правду' },
+        { spanish: 'Si tuviera tiempo, leería más', translation: 'Если бы у меня было время, я бы больше читал' },
+        { spanish: '¡Ojalá estuvieras aquí!', translation: 'Если бы ты был здесь!' },
+        { spanish: 'Habla como si supiera todo', translation: 'Он говорит, как будто всё знает' },
+        { spanish: 'Era importante que estudiaras', translation: 'Было важно, чтобы ты учился' },
+        { spanish: 'Le pedí que viniera temprano', translation: 'Я попросил его прийти рано' },
+        { spanish: 'No creía que fuera posible', translation: 'Я не верил, что это возможно' }
+      ]
+    },
+    vocabulary: [
+      {
+        tab: 'Образование',
+        words: [
+          { word: 'la educación', translation: 'образование', audioUrl: null },
+          { word: 'la enseñanza', translation: 'обучение, преподавание', audioUrl: null },
+          { word: 'el aprendizaje', translation: 'обучение (процесс)', audioUrl: null },
+          { word: 'el colegio', translation: 'школа', audioUrl: null },
+          { word: 'la escuela', translation: 'школа', audioUrl: null },
+          { word: 'el instituto', translation: 'институт, старшая школа', audioUrl: null },
+          { word: 'la universidad', translation: 'университет', audioUrl: null },
+          { word: 'la facultad', translation: 'факультет', audioUrl: null },
+          { word: 'el curso', translation: 'курс', audioUrl: null },
+          { word: 'la asignatura', translation: 'предмет (учебный)', audioUrl: null },
+          { word: 'la materia', translation: 'предмет, дисциплина', audioUrl: null },
+          { word: 'la clase', translation: 'занятие, урок', audioUrl: null },
+          { word: 'la lección', translation: 'урок', audioUrl: null },
+          { word: 'el aula', translation: 'аудитория, класс', audioUrl: null },
+          { word: 'el alumno / la alumna', translation: 'ученик / ученица', audioUrl: null },
+          { word: 'el estudiante', translation: 'студент', audioUrl: null },
+          { word: 'el profesor / la profesora', translation: 'преподаватель', audioUrl: null },
+          { word: 'el maestro / la maestra', translation: 'учитель', audioUrl: null },
+          { word: 'el director / la directora', translation: 'директор', audioUrl: null },
+          { word: 'el decano', translation: 'декан', audioUrl: null },
+          { word: 'el rector', translation: 'ректор', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Учебный процесс',
+        words: [
+          { word: 'estudiar', translation: 'учиться, изучать', audioUrl: null },
+          { word: 'aprender', translation: 'учить, изучать', audioUrl: null },
+          { word: 'enseñar', translation: 'преподавать, учить', audioUrl: null },
+          { word: 'explicar', translation: 'объяснять', audioUrl: null },
+          { word: 'entender', translation: 'понимать', audioUrl: null },
+          { word: 'comprender', translation: 'понимать', audioUrl: null },
+          { word: 'memorizar', translation: 'запоминать', audioUrl: null },
+          { word: 'repasar', translation: 'повторять', audioUrl: null },
+          { word: 'practicar', translation: 'практиковать', audioUrl: null },
+          { word: 'investigar', translation: 'исследовать', audioUrl: null },
+          { word: 'aprobar', translation: 'сдать (экзамен)', audioUrl: null },
+          { word: 'suspender', translation: 'провалить (экзамен)', audioUrl: null },
+          { word: 'graduarse', translation: 'окончить (учебное заведение)', audioUrl: null },
+          { word: 'matricularse', translation: 'записаться, поступить', audioUrl: null },
+          { word: 'el examen', translation: 'экзамен', audioUrl: null },
+          { word: 'la prueba', translation: 'контрольная, тест', audioUrl: null },
+          { word: 'el trabajo', translation: 'работа (письменная)', audioUrl: null },
+          { word: 'los deberes', translation: 'домашнее задание', audioUrl: null },
+          { word: 'la tarea', translation: 'задание', audioUrl: null },
+          { word: 'la nota', translation: 'оценка', audioUrl: null },
+          { word: 'el título', translation: 'диплом, звание', audioUrl: null },
+          { word: 'la beca', translation: 'стипендия', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Школьные принадлежности',
+        words: [
+          { word: 'el libro', translation: 'книга', audioUrl: null },
+          { word: 'el cuaderno', translation: 'тетрадь', audioUrl: null },
+          { word: 'el bolígrafo', translation: 'ручка', audioUrl: null },
+          { word: 'el lápiz', translation: 'карандаш', audioUrl: null },
+          { word: 'la goma', translation: 'ластик', audioUrl: null },
+          { word: 'la regla', translation: 'линейка', audioUrl: null },
+          { word: 'el sacapuntas', translation: 'точилка', audioUrl: null },
+          { word: 'las tijeras', translation: 'ножницы', audioUrl: null },
+          { word: 'el pegamento', translation: 'клей', audioUrl: null },
+          { word: 'la mochila', translation: 'рюкзак', audioUrl: null },
+          { word: 'el estuche', translation: 'пенал', audioUrl: null },
+          { word: 'la pizarra', translation: 'доска', audioUrl: null },
+          { word: 'la tiza', translation: 'мел', audioUrl: null },
+          { word: 'el rotulador', translation: 'маркер', audioUrl: null },
+          { word: 'el ordenador', translation: 'компьютер', audioUrl: null },
+          { word: 'el portátil', translation: 'ноутбук', audioUrl: null },
+          { word: 'la tableta', translation: 'планшет', audioUrl: null },
+          { word: 'el diccionario', translation: 'словарь', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Глагол faltar и falta',
+        words: [
+          { word: 'faltar algo', translation: 'недоставать чего-л.', audioUrl: null },
+          { word: 'faltar a (la reunión, clase)', translation: 'отсутствовать на (собрании, уроке)', audioUrl: null },
+          { word: 'faltar (1 mes, 2 días) para…', translation: 'оставаться (1 месяц, 2 дня) до…', audioUrl: null },
+          { word: 'faltar a (su palabra, su promesa)', translation: 'не сдержать (своё слово, своё обещание)', audioUrl: null },
+          { word: 'faltar a alguien', translation: 'обзывать / оскорблять кого-л.', audioUrl: null },
+          { word: '¡No faltaba más!', translation: 'Ещё чего не хватало!', audioUrl: null },
+          { word: 'la falta', translation: 'ошибка', audioUrl: null },
+          { word: 'sin falta', translation: 'обязательно, непременно', audioUrl: null },
+          { word: 'hace falta', translation: 'необходимо', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Слово título',
+        words: [
+          { word: 'el título (del libro, del artículo)', translation: 'название (книги, статьи)', audioUrl: null },
+          { word: 'el título de licenciado', translation: 'степень бакалавра', audioUrl: null },
+          { word: 'el título de campeón', translation: 'звание чемпиона', audioUrl: null },
+          { word: 'el título de nobleza', translation: 'дворянский титул', audioUrl: null },
+          { word: 'el título de la Constitución', translation: 'раздел Конституции', audioUrl: null },
+          { word: 'los títulos de valor', translation: 'ценные бумаги / облигации', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Система образования',
+        words: [
+          { word: 'la enseñanza primaria', translation: 'начальное образование', audioUrl: null },
+          { word: 'la enseñanza secundaria', translation: 'среднее образование', audioUrl: null },
+          { word: 'la enseñanza superior', translation: 'высшее образование', audioUrl: null },
+          { word: 'la formación profesional', translation: 'специальное/профессиональное образование', audioUrl: null },
+          { word: 'los estudios', translation: 'учёба', audioUrl: null },
+          { word: 'estudiar la carrera / cursar estudios', translation: 'учиться в ВУЗе', audioUrl: null },
+          { word: 'la conferencia', translation: 'лекция', audioUrl: null },
+          { word: 'la carrera universitaria', translation: 'высшее образование / специальность', audioUrl: null },
+          { word: 'la prueba de acceso', translation: 'вступительный экзамен', audioUrl: null },
+          { word: 'la disciplina', translation: 'предмет / дисциплина', audioUrl: null },
+          { word: 'la materia optativa', translation: 'факультатив / предмет по выбору', audioUrl: null },
+          { word: 'los apuntes', translation: 'конспект', audioUrl: null },
+          { word: 'asistir a', translation: 'посещать / присутствовать на', audioUrl: null },
+          { word: 'examinarse de', translation: 'сдавать экзамен по', audioUrl: null },
+          { word: 'la chuleta', translation: 'шпаргалка', audioUrl: null },
+          { word: 'repetir el curso', translation: 'остаться на второй год', audioUrl: null },
+          { word: 'ingresar en', translation: 'поступить в', audioUrl: null },
+          { word: 'el centro docente', translation: 'учебное заведение', audioUrl: null },
+          { word: 'la calificación', translation: 'оценка', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Оценки и степени',
+        words: [
+          { word: 'sacar sobresaliente', translation: 'получить отлично', audioUrl: null },
+          { word: 'sacar notable', translation: 'получить хорошо', audioUrl: null },
+          { word: 'sacar aprobado', translation: 'получить удовлетворительно', audioUrl: null },
+          { word: 'sacar suspenso', translation: 'получить неудовлетворительно', audioUrl: null },
+          { word: 'la matrícula de honor', translation: 'высший балл / диплом с отличием', audioUrl: null },
+          { word: 'la ciencia', translation: 'наука', audioUrl: null },
+          { word: 'la investigación', translation: 'исследование', audioUrl: null },
+          { word: 'la tesis', translation: 'курсовая работа / диплом / диссертация', audioUrl: null },
+          { word: 'el bachillerato', translation: 'старшие классы средней школы', audioUrl: null },
+          { word: 'la licenciatura', translation: 'бакалавриат', audioUrl: null },
+          { word: 'el máster', translation: 'магистратура', audioUrl: null },
+          { word: 'el postgrado', translation: 'аспирантура', audioUrl: null }
+        ]
+      }
+    ],
+    videos: [
+      {
+        title: 'Imperfecto de subjuntivo',
+        url: 'Imperfecto de subjuntivo M12C1.mp4',
+        description: 'Видеоурок об Imperfecto de Subjuntivo — простое прошедшее время сослагательного наклонения'
+      }
+    ],
+    exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5', 'ex-12-1-6', 'ex-12-1-translation']
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 2 - SUBJUNTIVO В ПРИДАТОЧНЫХ ВРЕМЕНИ
+  // =============================================
+
+  'lesson-12-2': {
+    id: 'lesson-12-2',
+    title: 'Урок 2: Употребление сослагательного наклонения в придаточных предложениях времени (de tiempo)',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Subjuntivo в придаточных предложениях времени',
+      intro: `**Subjuntivo в придаточных предложениях времени** — это важная тема, которая позволяет правильно выражать временные отношения между действиями в испанском языке.
+
+Выбор между **Indicativo** и **Subjuntivo** в таких предложениях зависит от того, произошло ли действие уже (реальный факт) или оно только планируется (ещё не совершилось).`,
+      sections: [
+        {
+          id: 'союзы-времени',
+          title: '1. Основные союзы времени',
+          content: `## Временные союзы
+
+В испанском языке существует ряд союзов, которые вводят придаточные предложения времени:
+
+| Союз | Перевод |
+|------|---------|
+| **cuando** | когда |
+| **hasta que** | до тех пор пока не |
+| **después de que** | после того как |
+| **en cuanto / apenas** | как только, едва |
+| **mientras (que)** | в то время как, пока |
+| **antes de que** | до того как / прежде чем |
+
+⚠️ **Важно:** После союза **antes de que** всегда используется **Subjuntivo**, независимо от времени действия!`
+        },
+        {
+          id: 'выбор-наклонения',
+          title: '2. Выбор наклонения: Indicativo vs Subjuntivo',
+          content: `## Главное правило
+
+Выбор между Indicativo и Subjuntivo зависит от того, **произошло ли действие уже** или оно **только планируется**.
+
+| Наклонение | Когда используется | Пример |
+|------------|-------------------|--------|
+| **Indicativo** | Прошлое или привычное настоящее (реальные факты) | *Cuando tengo tiempo, voy al cine.* (Обычно, когда у меня есть время, я хожу в кино) |
+| **Subjuntivo** | Будущее (действие ещё не совершилось) | *Cuando esté en Madrid, visitaré el Prado.* (Когда я буду в Мадриде, я посещу Прадо) |
+
+### Сравнение на примерах:
+
+**Indicativo (реальный факт / привычка):**
+- *Cuando **llego** a casa, siempre ceno.* — Когда я прихожу домой, я всегда ужинаю. (привычка)
+- *Cuando **llegué** a casa, cené.* — Когда я пришёл домой, я поужинал. (прошлое)
+
+**Subjuntivo (будущее действие):**
+- *Cuando **llegue** a casa, cenaré.* — Когда я приду домой, я поужинаю. (ещё не пришёл)
+- *Te llamaré cuando **termine** el trabajo.* — Я позвоню тебе, когда закончу работу. (ещё не закончил)`
+        },
+        {
+          id: 'antes-de-que',
+          title: '3. Союз ANTES DE QUE (всегда с Subjuntivo)',
+          content: `## Особый случай: antes de que
+
+После союза **antes de que** (до того как, прежде чем) **всегда** используется **Subjuntivo**, независимо от того, относится ли действие к прошлому, настоящему или будущему.
+
+### Примеры:
+
+| Время | Пример | Перевод |
+|-------|--------|---------|
+| Настоящее | *Siempre me despierto antes de que **suene** el despertador.* | Я всегда просыпаюсь до того, как прозвенит будильник. |
+| Прошлое | *Me desperté antes de que **sonara** el despertador.* | Я проснулся до того, как прозвенел будильник. |
+| Будущее | *Llegaré antes de que **empiece** la película.* | Я приеду до того, как начнётся фильм. |
+
+### Почему всегда Subjuntivo?
+
+Действие после **antes de que** по определению **ещё не произошло** к моменту основного действия — оно находится "в будущем" относительно него. Поэтому оно всегда воспринимается как нереализованное.
+
+⚠️ **Запомните:** antes de que = всегда Subjuntivo!`
+        },
+        {
+          id: 'hasta-que',
+          title: '4. Союз HASTA QUE (до тех пор пока не)',
+          content: `## Употребление hasta que
+
+Союз **hasta que** (до тех пор пока не) следует общему правилу:
+
+### С Indicativo (реальный факт):
+- *Trabajé hasta que **terminé**.* — Я работал, пока не закончил. (уже закончил)
+- *Siempre trabajo hasta que **termino**.* — Я всегда работаю, пока не заканчиваю. (привычка)
+
+### С Subjuntivo (будущее действие):
+- *Trabajaré hasta que **termine**.* — Я буду работать, пока не закончу. (ещё не закончил)
+- *Esperaré hasta que **llegues**.* — Я буду ждать, пока ты не придёшь. (ещё не пришёл)
+
+### Примеры в контексте:
+
+| Ситуация | Пример |
+|----------|--------|
+| Прошлое (факт) | *No me fui hasta que **llegó** Juan.* — Я не ушёл, пока не пришёл Хуан. |
+| Будущее (план) | *No me iré hasta que **llegue** Juan.* — Я не уйду, пока не придёт Хуан. |`
+        },
+        {
+          id: 'cuando-en-cuanto',
+          title: '5. Союзы CUANDO и EN CUANTO / APENAS',
+          content: `## Cuando (когда)
+
+### С Indicativo:
+- *Cuando **era** niño, jugaba mucho.* — Когда я был ребёнком, я много играл. (прошлое)
+- *Cuando **tengo** hambre, como.* — Когда я голоден, я ем. (привычка)
+
+### С Subjuntivo:
+- *Cuando **sea** mayor, viajaré.* — Когда я стану взрослым, я буду путешествовать. (будущее)
+- *Te lo diré cuando **pueda**.* — Я скажу тебе, когда смогу. (ещё не могу)
+
+## En cuanto / Apenas (как только, едва)
+
+Эти союзы также следуют общему правилу:
+
+### С Indicativo (прошлое):
+- *En cuanto **llegó**, empezó a trabajar.* — Как только он пришёл, он начал работать.
+- *Apenas **lo vi**, lo reconocí.* — Едва я его увидел, я его узнал.
+
+### С Subjuntivo (будущее):
+- *En cuanto **llegue**, empezará a trabajar.* — Как только он придёт, он начнёт работать.
+- *Te llamaré en cuanto **sepa** algo.* — Я позвоню тебе, как только что-то узнаю.`
+        },
+        {
+          id: 'mientras-despues',
+          title: '6. Союзы MIENTRAS и DESPUÉS DE QUE',
+          content: `## Mientras (que) — пока, в то время как
+
+### С Indicativo (одновременные действия — факт):
+- *Mientras **estudiaba**, escuchaba música.* — Пока я учился, я слушал музыку. (прошлое)
+- *Mientras **trabajo**, no puedo hablar.* — Пока я работаю, я не могу разговаривать. (настоящее)
+
+### С Subjuntivo (будущее или условие):
+- *Mientras **estés** aquí, estarás a salvo.* — Пока ты будешь здесь, ты будешь в безопасности. (будущее)
+- *Mientras **viva**, te ayudaré.* — Пока я буду жив, я буду тебе помогать. (неопределённое будущее)
+
+## Después de que — после того как
+
+### С Indicativo (прошлое):
+- *Después de que **llegó**, cenamos.* — После того как он пришёл, мы поужинали.
+- *Después de que **terminé**, me fui.* — После того как я закончил, я ушёл.
+
+### С Subjuntivo (будущее):
+- *Después de que **llegue**, cenaremos.* — После того как он придёт, мы поужинаем.
+- *Saldré después de que **termine** la reunión.* — Я выйду после того, как закончится собрание.`
+        },
+        {
+          id: 'косвенный-вопрос',
+          title: '7. Когда "cuando" — это не время (Косвенный вопрос)',
+          content: `## Различие: союз cuando vs вопросительное слово cuándo
+
+Нужно различать **союз cuando** (когда) и **вопросительное слово cuándo** (что именно? когда именно?).
+
+### Придаточное времени (союз cuando)
+
+Отвечает на вопрос **«Когда?»** в значении временного обстоятельства. Используем правило Indicativo/Subjuntivo.
+
+**Пример:**
+*La sala estará llena cuando **empiece** el espectáculo.*
+— Зал будет полон, когда начнётся шоу.
+
+*(Зал наполнится когда? — когда начнется шоу → будущее → Subjuntivo)*
+
+### Косвенный вопрос (вопросительное cuándo)
+
+Отвечает на вопрос **«Что? / О чём?»** — это дополнение, а не обстоятельство времени. Здесь используется **Indicativo** (обычно будущее время).
+
+**Пример:**
+*No sé cuándo **empezará** el espectáculo.*
+— Я не знаю, когда начнётся шоу.
+
+*(Я не знаю чего? — когда именно начнётся шоу → косвенный вопрос → Indicativo)*
+
+### Сравнение:
+
+| Тип | Пример | Наклонение |
+|-----|--------|------------|
+| Придаточное времени | *Te llamaré cuando **llegue**.* | Subjuntivo |
+| Косвенный вопрос | *No sé cuándo **llegará**.* | Indicativo |
+| Придаточное времени | *Vendré cuando **pueda**.* | Subjuntivo |
+| Косвенный вопрос | *Dime cuándo **podrás** venir.* | Indicativo |`
+        },
+        {
+          id: 'резюме',
+          title: '8. Резюме: выбор наклонения',
+          content: `## Краткая схема выбора наклонения
+
+### Общее правило для временных союзов:
+
+| Ситуация | Наклонение | Пример |
+|----------|------------|--------|
+| **Прошлое** (факт произошёл) | Indicativo | *Cuando llegué, cené.* |
+| **Привычка** (регулярное действие) | Indicativo | *Cuando llego, ceno.* |
+| **Будущее** (действие не произошло) | Subjuntivo | *Cuando llegue, cenaré.* |
+
+### Исключение:
+
+| Союз | Правило |
+|------|---------|
+| **antes de que** | Всегда Subjuntivo |
+
+### Косвенные вопросы (cuándo с ударением):
+
+Всегда **Indicativo**, независимо от времени.
+
+### Запомните формулу:
+
+Реальность (прошлое/привычка) → Indicativo
+Нереализованность (будущее) → Subjuntivo
+Antes de que → Всегда Subjuntivo
+Косвенный вопрос (cuándo) → Всегда Indicativo`
+        }
+      ],
+      examples: [
+        { spanish: 'Cuando llegue a casa, te llamaré', translation: 'Когда я приду домой, я тебе позвоню' },
+        { spanish: 'Esperaré hasta que termines', translation: 'Я подожду, пока ты не закончишь' },
+        { spanish: 'Siempre me despierto antes de que suene el despertador', translation: 'Я всегда просыпаюсь до того, как прозвенит будильник' },
+        { spanish: 'Te lo diré en cuanto lo sepa', translation: 'Я скажу тебе, как только узнаю' },
+        { spanish: 'Mientras estés aquí, estarás seguro', translation: 'Пока ты здесь, ты в безопасности' },
+        { spanish: 'Después de que llegue Juan, empezaremos', translation: 'После того как придёт Хуан, мы начнём' },
+        { spanish: 'No sé cuándo vendrá', translation: 'Я не знаю, когда он придёт' },
+        { spanish: 'Cuando era niño, jugaba mucho', translation: 'Когда я был ребёнком, я много играл' }
+      ]
+    },
+    readingText: {
+      title: 'La escuela de ayer',
+      content: `¿Cómo era la escuela a mediados del siglo pasado en España?
+
+En las aulas había más de cincuenta alumnos. Los materiales eran comunes, y los métodos de aprendizaje eran la repetición y el canto. Como había alumnos de distintas edades en la clase, los mayores ayudaban al maestro en la enseñanza.
+
+En las paredes del aula colgaban carteles de lectura junto con mapas y carteles de Historia Sagrada que representaban escenas de la Biblia. Detrás de la mesa del maestro había una pizarra y encima un crucifijo, un retrato del Jefe de Estado y las oraciones que los niños entonaban diariamente.
+
+Para escribir se empleaban los tinteros. Los pupitres tenían espacio para el tintero y la pluma. Se daba mucha importancia a la caligrafía, los niños tenían que escribir bonito. Muchas veces, los niños no asistían a la escuela porque tenían que ayudar a sus padres en el campo o en el mercado. Las escuelas se diferenciaban por sexos, por lo que los niños y las niñas no compartían aulas. Pocas mujeres estudiaban.
+
+En España existe el refrán "Pasas más hambre que un maestro". Los maestros ganaban muy poco dinero, sin embargo tenían un gran prestigio social. La disciplina era muy estricta, si el alumno no sabía algo o se portaba mal, se permitían los castigos corporales.
+
+---
+
+**Ответьте на вопросы по тексту:**
+
+1. ¿Cuántos alumnos había en un aula al mismo tiempo? ¿Eran alumnos de la misma edad y de ambos sexos?
+2. ¿Por qué los alumnos mayores ayudaban al maestro en la enseñanza?
+3. ¿Qué métodos de aprendizaje se utilizaban en la escuela?
+4. ¿Era importante el papel de la religión en la enseñanza?
+5. ¿Cómo estaban decoradas las aulas?
+6. ¿Por qué los alumnos frecuentemente faltaban a las clases?
+7. ¿Qué objetos ya no se utilizan en la escuela moderna?
+8. ¿Qué quiere decir el refrán "Pasas más hambre que un maestro"?
+9. ¿En qué casos se permitían los castigos corporales?
+10. ¿Por qué la profesión de maestro era de mucho prestigio?
+11. ¿En qué se diferencia la escuela de hoy de la de ayer?`,
+      translation: `Какой была школа в середине прошлого века в Испании?
+
+В классах было более пятидесяти учеников. Материалы были общими, а методами обучения были повторение и хоровое пение. Поскольку в классе были ученики разного возраста, старшие помогали учителю в обучении.
+
+На стенах класса висели плакаты для чтения вместе с картами и плакатами по Священной истории, изображавшими сцены из Библии. За столом учителя была доска, а над ней — распятие, портрет главы государства и молитвы, которые дети ежедневно произносили нараспев.
+
+Для письма использовались чернильницы. В партах было место для чернильницы и пера. Большое значение придавалось каллиграфии, дети должны были писать красиво. Часто дети не посещали школу, потому что должны были помогать родителям в поле или на рынке. Школы разделялись по полу, поэтому мальчики и девочки не занимались вместе. Мало женщин училось.
+
+В Испании существует поговорка «Голодаешь больше, чем учитель». Учителя зарабатывали очень мало денег, однако имели большой социальный престиж. Дисциплина была очень строгой, если ученик чего-то не знал или плохо себя вёл, разрешались телесные наказания.
+
+---
+
+**Ответьте на вопросы по тексту:**
+
+1. Сколько учеников было в классе одновременно? Были ли это ученики одного возраста и обоих полов?
+2. Почему старшие ученики помогали учителю в обучении?
+3. Какие методы обучения использовались в школе?
+4. Была ли важна роль религии в обучении?
+5. Как были украшены классы?
+6. Почему ученики часто пропускали занятия?
+7. Какие предметы уже не используются в современной школе?
+8. Что означает поговорка «Голодаешь больше, чем учитель»?
+9. В каких случаях допускались телесные наказания?
+10. Почему профессия учителя была очень престижной?
+11. Чем отличается сегодняшняя школа от вчерашней?`
+    },
+    vocabulary: [
+      { word: 'el canto', translation: 'зд. повторение хором' },
+      { word: 'colgar (1b)', translation: 'вешать' },
+      { word: 'el cartel', translation: 'плакат' },
+      { word: 'la pizarra', translation: 'доска' },
+      { word: 'el crucifijo', translation: 'распятие' },
+      { word: 'la oración', translation: 'молитва' },
+      { word: 'entonar', translation: 'зд. произносить нараспев' },
+      { word: 'el tintero', translation: 'чернильница' },
+      { word: 'el pupitre', translation: 'парта' },
+      { word: 'compartir', translation: 'зд. совместно участвовать' },
+      { word: 'el refrán', translation: 'поговорка' },
+      { word: 'estricto', translation: 'строгий' },
+      { word: 'el castigo corporal', translation: 'телесное наказание' }
+    ],
+    exercises: ['ex-12-2-1', 'ex-12-2-2', 'ex-12-2-3', 'ex-12-2-4', 'ex-12-2-5']
+  },
+
+  // =============================================
+  // МОДУЛЬ 12, УРОК 3: Придаточные предложения цели (de fin)
+  // =============================================
+
+  'lesson-12-3': {
+    id: 'lesson-12-3',
+    title: 'Урок 3: Употребление сослагательного наклонения в придаточных предложениях цели (de fin)',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Subjuntivo в придаточных предложениях цели (Oraciones de Fin)',
+      intro: `**Придаточные предложения цели (Oraciones de Fin)** — это конструкции, которые отвечают на вопрос «для чего?», «с какой целью?».
+
+В испанском языке выбор между инфинитивом и сослагательным наклонением в таких предложениях зависит от того, совпадает ли подлежащее в главной и придаточной частях.`,
+      sections: [
+        {
+          id: 'союзы-цели',
+          title: '1. Основные союзы цели',
+          content: `## Союзы, вводящие придаточные цели
+
+В испанском языке существует несколько союзов, которые вводят придаточные предложения цели:
+
+| Союз | Перевод | Стиль |
+|------|---------|-------|
+| **para que** | для того чтобы | нейтральный |
+| **a fin de que** | с тем чтобы | более официальный |
+
+### Примеры:
+- *Te lo explico **para que** entiendas.* — Я тебе это объясняю, чтобы ты понял.
+- *Hemos preparado este informe **a fin de que** todos puedan analizarlo.* — Мы подготовили этот отчёт, чтобы все могли его проанализировать.`
+        },
+        {
+          id: 'главное-правило',
+          title: '2. Главное правило: Одно лицо или разные?',
+          content: `## Выбор между Infinitivo и Subjuntivo
+
+Ключевой принцип: выбор между инфинитивом и сослагательным наклонением зависит от того, **совпадает ли подлежащее** в обеих частях предложения.
+
+### Схема выбора:
+
+| Ситуация | Конструкция |
+|----------|-------------|
+| Субъект 1 = Субъект 2 | **para + Infinitivo** |
+| Субъект 1 ≠ Субъект 2 | **para que + Subjuntivo** |
+
+⚠️ **Важно:** Это правило логично — если действие совершает один и тот же человек, нет необходимости вводить придаточное предложение с другим подлежащим.`
+        },
+        {
+          id: 'одно-лицо',
+          title: '3. Одно и то же лицо (para + Infinitivo)',
+          content: `## Когда действует одно лицо
+
+Если **один и тот же человек** является подлежащим и в главном, и в придаточном предложении, используется конструкция **para + Infinitivo**.
+
+### Примеры:
+
+| Испанский | Русский | Анализ |
+|-----------|---------|--------|
+| *He traído su tesis **para corregir** las faltas.* | Я принёс его диссертацию, чтобы исправить ошибки. | Я принёс → Я буду исправлять |
+| *Estudio español **para trabajar** en España.* | Я учу испанский, чтобы работать в Испании. | Я учу → Я буду работать |
+| *He venido **para ayudarte**.* | Я пришёл, чтобы тебе помочь. | Я пришёл → Я помогу |
+| *Ahorro dinero **para comprar** un coche.* | Я коплю деньги, чтобы купить машину. | Я коплю → Я куплю |
+
+### Важно:
+В этих примерах **одно и то же лицо** совершает оба действия, поэтому используется простой инфинитив после **para**.`
+        },
+        {
+          id: 'разные-лица',
+          title: '4. Разные лица (para que + Subjuntivo)',
+          content: `## Когда действуют разные лица
+
+Если мы хотим, чтобы **действие совершил кто-то другой**, используется союз **para que + Subjuntivo**.
+
+### Примеры:
+
+| Испанский | Русский | Анализ |
+|-----------|---------|--------|
+| *He traído mi tesis **para que usted la corrija**.* | Я принёс мою диссертацию, чтобы Вы её исправили. | Я принёс → Вы исправите |
+| *Te explico esto **para que entiendas**.* | Я объясняю тебе это, чтобы ты понял. | Я объясняю → Ты поймёшь |
+| *Le doy dinero **para que compre** pan.* | Я даю ему деньги, чтобы он купил хлеб. | Я даю → Он купит |
+| *Abrí la ventana **para que entrara** aire fresco.* | Я открыл окно, чтобы вошёл свежий воздух. | Я открыл → Воздух войдёт |
+
+### Обратите внимание:
+В этих примерах **разные лица** совершают действия в главной и придаточной частях, поэтому необходим **Subjuntivo**.`
+        },
+        {
+          id: 'сравнение',
+          title: '5. Сравнение конструкций',
+          content: `## Наглядное сравнение
+
+### Один и тот же субъект (para + Infinitivo):
+
+| Пример | Перевод |
+|--------|---------|
+| *He traído su tesis **para corregir** las faltas.* | Я принёс его диссертацию, чтобы (я сам) исправить ошибки. |
+| *Trabajo mucho **para ganar** dinero.* | Я много работаю, чтобы (я сам) зарабатывать деньги. |
+| *Voy al gimnasio **para estar** en forma.* | Я хожу в спортзал, чтобы (я сам) быть в форме. |
+
+### Разные субъекты (para que + Subjuntivo):
+
+| Пример | Перевод |
+|--------|---------|
+| *He traído mi tesis **para que usted la corrija**.* | Я принёс мою диссертацию, чтобы Вы её исправили. |
+| *Trabajo mucho **para que mis hijos tengan** todo.* | Я много работаю, чтобы мои дети имели всё. |
+| *Voy al gimnasio **para que el médico esté** contento.* | Я хожу в спортзал, чтобы врач был доволен. |
+
+### Ключевое различие:
+- **para corregir** = я сам буду исправлять
+- **para que usted corrija** = Вы будете исправлять`
+        },
+        {
+          id: 'a-fin-de-que',
+          title: '6. Союз A FIN DE QUE (официальный стиль)',
+          content: `## Употребление a fin de que
+
+Союз **a fin de que** имеет то же значение, что и **para que**, но используется в более **официальном, формальном** стиле.
+
+### Примеры:
+
+| С para que (нейтрально) | С a fin de que (официально) |
+|-------------------------|------------------------------|
+| *Te lo digo para que lo sepas.* | *Se lo comunico a fin de que lo sepa.* |
+| *Работаю, чтобы ты знал.* | *Сообщаю Вам, чтобы Вы знали.* |
+
+### Контексты употребления a fin de que:
+- Официальные документы
+- Деловая переписка
+- Юридические тексты
+- Академический стиль
+
+### Примеры в официальном контексте:
+- *Se ha convocado esta reunión **a fin de que** todos los miembros puedan expresar su opinión.* — Это собрание созвано, чтобы все члены могли высказать своё мнение.
+- *Le enviamos este documento **a fin de que** lo revise antes de la firma.* — Мы отправляем Вам этот документ, чтобы Вы его просмотрели перед подписанием.`
+        },
+        {
+          id: 'согласование-времен',
+          title: '7. Согласование времён в придаточных цели',
+          content: `## Выбор времени Subjuntivo
+
+Время сослагательного наклонения в придаточном цели зависит от времени глагола в главном предложении.
+
+### Схема согласования:
+
+| Главное предложение | Придаточное (para que + ...) |
+|---------------------|------------------------------|
+| Presente / Futuro / Perfecto | **Presente de Subjuntivo** |
+| Pasado (Indefinido, Imperfecto) | **Imperfecto de Subjuntivo** |
+
+### Примеры с Presente de Subjuntivo:
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| *Te **llamo*** | *para que **vengas*** | Я тебе звоню, чтобы ты пришёл |
+| *Te **llamaré*** | *para que **vengas*** | Я тебе позвоню, чтобы ты пришёл |
+| *Te **he llamado*** | *para que **vengas*** | Я тебе позвонил, чтобы ты пришёл |
+
+### Примеры с Imperfecto de Subjuntivo:
+
+| Главное | Придаточное | Перевод |
+|---------|-------------|---------|
+| *Te **llamé*** | *para que **vinieras*** | Я тебе позвонил, чтобы ты пришёл |
+| *Te **llamaba*** | *para que **vinieras*** | Я тебе звонил, чтобы ты пришёл |`
+        },
+        {
+          id: 'резюме',
+          title: '8. Резюме: схема выбора',
+          content: `## Краткая схема выбора конструкции
+
+### Алгоритм:
+
+\`\`\`
+Шаг 1: Определите, кто совершает действие в придаточном предложении
+
+        Субъект 1 = Субъект 2?
+              │
+        ┌─────┴─────┐
+        │           │
+       ДА          НЕТ
+        │           │
+        ▼           ▼
+  para + Inf    para que + Subj
+\`\`\`
+
+### Формула:
+
+| Ситуация | Конструкция | Пример |
+|----------|-------------|--------|
+| **Одно лицо** | para + Infinitivo | *Estudio para aprender.* (Я учусь, чтобы научиться) |
+| **Разные лица** | para que + Subjuntivo | *Estudio para que tú descanses.* (Я учусь, чтобы ты отдыхал) |
+
+### Запомните:
+- **para + Infinitivo** = одно действующее лицо
+- **para que + Subjuntivo** = разные действующие лица
+- **a fin de que** = официальный синоним para que`
+        }
+      ],
+      examples: [
+        { spanish: 'He traído su tesis para corregir las faltas', translation: 'Я принёс его диссертацию, чтобы исправить ошибки (я сам)' },
+        { spanish: 'He traído mi tesis para que usted la corrija', translation: 'Я принёс мою диссертацию, чтобы Вы её исправили' },
+        { spanish: 'Estudio español para trabajar en España', translation: 'Я учу испанский, чтобы работать в Испании' },
+        { spanish: 'Te explico esto para que entiendas', translation: 'Я объясняю тебе это, чтобы ты понял' },
+        { spanish: 'Trabajo mucho para que mis hijos tengan todo', translation: 'Я много работаю, чтобы мои дети имели всё' },
+        { spanish: 'Abrí la ventana para que entrara aire fresco', translation: 'Я открыл окно, чтобы вошёл свежий воздух' },
+        { spanish: 'Le doy dinero para que compre pan', translation: 'Я даю ему деньги, чтобы он купил хлеб' },
+        { spanish: 'Se lo comunico a fin de que lo sepa', translation: 'Сообщаю Вам это, чтобы Вы знали' }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-12-3-1', 'ex-12-3-2', 'ex-12-3-3']
+  },
+  'lesson-12-4': {
+    id: 'lesson-12-4',
+    title: 'Урок 4: Повторение Модуль 11 и 12',
+    moduleId: 'module-12',
+    grammar: {
+      title: 'Повторение: Subjuntivo в придаточных предложениях времени, цели и дополнительных',
+      intro: 'Этот урок посвящён повторению и закреплению материала Модулей 11 и 12: употребление Presente de Subjuntivo и Imperfecto de Subjuntivo в различных типах придаточных предложений.',
+      sections: [
+        {
+          id: 'resumen-subjuntivo',
+          title: 'Краткое резюме употребления Subjuntivo',
+          content: '## Основные случаи употребления Subjuntivo\n\n### 1. Придаточные дополнительные (Oraciones Sustantivas)\n- После глаголов эмоций: *alegrarse de que, sorprenderse de que, temer que...*\n- После глаголов волеизъявления: *querer que, pedir que, aconsejar que...*\n- После глаголов сомнения и отрицания: *dudar que, no creer que, no estar seguro de que...*\n- После безличных выражений: *es importante que, es probable que, es mejor que...*\n\n### 2. Придаточные времени (Oraciones de Tiempo)\n- **Indicativo** — для привычных или прошедших действий\n- **Subjuntivo** — для будущих действий (после cuando, antes de que, hasta que, después de que...)\n\n### 3. Придаточные цели (Oraciones de Fin)\n- **para + Infinitivo** — одно действующее лицо\n- **para que + Subjuntivo** — разные действующие лица\n\n### 4. Согласование времён\n| Главное предложение | Придаточное |\n|---------------------|-------------|\n| Presente / Futuro / Perfecto | Presente de Subjuntivo |\n| Pasado (Indefinido, Imperfecto) | Imperfecto de Subjuntivo |'
+        }
+      ],
+      examples: [
+        { spanish: 'Me alegro de que vengas', translation: 'Я рад, что ты придёшь' },
+        { spanish: 'No creo que sea verdad', translation: 'Не думаю, что это правда' },
+        { spanish: 'Cuando llegues, llámame', translation: 'Когда приедешь, позвони мне' },
+        { spanish: 'Te lo dije para que lo supieras', translation: 'Я тебе это сказал, чтобы ты знал' }
+      ]
+    },
+    vocabulary: [],
+    exercises: ['ex-12-4-1', 'ex-12-4-2', 'ex-12-4-3']
   }
 }
 
@@ -18459,6 +19720,107 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
       { russian: 'Ты уже сделал домашнее задание?', correct: '¿Ya has hecho los deberes?' },
       { russian: 'Я помогал папе в саду.', correct: 'He estado ayudando a papá en el jardín' },
       { russian: 'Я положил все книги и тетради.', correct: 'He metido todos los libros y los cuadernos' }
+    ]
+  },
+
+  // Así se trata la migraña - упражнения
+  'ex-4-4-19': {
+    id: 'ex-4-4-19',
+    type: 'vocabulary',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 19: Подстановка слов',
+    description: 'Выберите правильное слово для заполнения пропуска',
+    questions: [
+      { spanish: '¿Cómo se ___ hoy el paciente?', options: ['encuentra', 'trata', 'cura', 'quita'], correct: 0, explanation: 'Encontrarse - чувствовать себя' },
+      { spanish: 'Le hemos administrado la ___ que usted indicó.', options: ['embolia', 'neumonía', 'medicación', 'convulsión'], correct: 2, explanation: 'La medicación - лекарство' },
+      { spanish: 'El médico ___ el tratamiento adecuado.', options: ['quita', 'indica', 'encuentra', 'produce'], correct: 1, explanation: 'Indicar - назначать, указывать' },
+      { spanish: 'Esta medicina le ha ___ la migraña.', options: ['curado', 'quitado', 'tratado', 'indicado'], correct: 1, explanation: 'Quitar - снять, убрать' },
+      { spanish: 'El paciente sufre de una ___ muy fuerte.', options: ['fallo', 'migraña', 'embolia', 'medicación'], correct: 1, explanation: 'La migraña - мигрень' },
+      { spanish: 'La medicación le ha causado ___.', options: ['migrañas', 'convulsiones', 'tratamientos', 'indicaciones'], correct: 1, explanation: 'Las convulsiones - судороги' },
+      { spanish: 'El paciente tiene un ___ hepático.', options: ['dolor', 'fallo', 'tratamiento', 'síntoma'], correct: 1, explanation: 'El fallo - недостаточность, сбой' },
+      { spanish: 'Los problemas ___ afectan al hígado.', options: ['insoportables', 'hepáticos', 'respiratorios', 'cardíacos'], correct: 1, explanation: 'Hepático - печёночный' },
+      { spanish: 'El médico va a ___ la enfermedad.', options: ['producir', 'causar', 'curar', 'sufrir'], correct: 2, explanation: 'Curar - вылечивать' },
+      { spanish: 'La ___ es una infección de los pulmones.', options: ['migraña', 'embolia', 'neumonía', 'convulsión'], correct: 2, explanation: 'La neumonía - пневмония' },
+      { spanish: 'Este tipo de enfermedad se ___ con antibióticos.', options: ['quita', 'indica', 'trata', 'encuentra'], correct: 2, explanation: 'Tratar - лечить' },
+      { spanish: 'El paciente ha sufrido una ___ cerebral.', options: ['neumonía', 'convulsión', 'migraña', 'embolia'], correct: 3, explanation: 'La embolia - эмболия' },
+      { spanish: 'El dolor era ___, no podía soportarlo.', options: ['hepático', 'insoportable', 'medicinal', 'tratado'], correct: 1, explanation: 'Insoportable - невыносимый' },
+      { spanish: 'Hay que ___ la medicación inmediatamente.', options: ['administrar', 'sufrir', 'producir', 'causar'], correct: 0, explanation: 'Administrar - прописывать (лекарства)' },
+      { spanish: 'El tratamiento ha ___ efectos secundarios.', options: ['curado', 'quitado', 'producido', 'encontrado'], correct: 2, explanation: 'Producir - вызывать, производить' }
+    ]
+  },
+
+  'ex-4-4-20': {
+    id: 'ex-4-4-20',
+    type: 'reading',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 20: Понимание текста',
+    description: 'Выберите правильный ответ на основе текста "Así se trata la migraña"',
+    questions: [
+      { question: '¿Qué tenía el paciente cuando llegó al hospital?', options: ['Un infarto', 'Una migraña insoportable', 'Una neumonía', 'Convulsiones'], correct: 1, explanation: 'Пациент поступил с невыносимой мигренью' },
+      { question: '¿Qué medicamento le administraron primero?', options: ['Fenotaleidol', 'Citofloratina', 'Metacloradona', 'Oxitronadol'], correct: 2, explanation: 'Первым дали метаклорадону' },
+      { question: '¿Qué efecto secundario causó la metacloradona?', options: ['Neumonía', 'Embolia', 'Convulsiones', 'Fallo hepático'], correct: 2, explanation: 'Метаклорадона вызвала судороги' },
+      { question: '¿Con qué se trata el fallo hepático según el doctor?', options: ['Fenotaleidol', 'Blastometa sana', 'Citofloratina', 'Cicloramo Mox'], correct: 2, explanation: 'Печёночную недостаточность лечат цитофлоратиной' },
+      { question: '¿Qué causó la citofloratina?', options: ['Un infarto', 'Una embolia', 'Una neumonía', 'Convulsiones'], correct: 2, explanation: 'Цитофлоратина вызвала пневмонию' },
+      { question: '¿Con qué medicamento se trata la neumonía?', options: ['Oxitronadol', 'Blastometa sana', 'Cicloramo Mox', 'Fenotaleidol'], correct: 1, explanation: 'Пневмонию лечат бластомета сана' },
+      { question: '¿Qué problema causó la blastometa sana?', options: ['Migraña', 'Neumonía', 'Infarto', 'Embolia'], correct: 2, explanation: 'Бластомета сана вызвала инфаркт' },
+      { question: '¿Con qué se trata el infarto?', options: ['Citofloratina', 'Oxitronadol', 'Cicloramo Mox', 'Metacloradona'], correct: 2, explanation: 'Инфаркт лечится Циклорамо Мокс' },
+      { question: '¿Qué causó el Cicloramo Mox?', options: ['Convulsiones', 'Una embolia', 'Fallo hepático', 'Neumonía'], correct: 1, explanation: 'Циклорамо Мокс вызвал эмболию' },
+      { question: '¿Qué efecto tuvo el oxitronadol?', options: ['Curó la embolia pero causó migraña', 'Curó la migraña pero causó embolia', 'Curó el infarto pero causó neumonía', 'Curó la neumonía pero causó convulsiones'], correct: 0, explanation: 'Окситронадол вылечил эмболию, но вызвал мигрень' },
+      { question: '¿Cuántos medicamentos diferentes le administraron al paciente?', options: ['Cuatro', 'Cinco', 'Seis', 'Siete'], correct: 2, explanation: 'Шесть разных лекарств' },
+      { question: '¿Cuál era el estado final del paciente?', options: ['Tenía un infarto', 'Tenía neumonía', 'Tenía una migraña insoportable', 'Estaba curado'], correct: 2, explanation: 'В итоге у пациента снова была невыносимая мигрень' },
+      { question: '¿Qué traía el paciente cuando entró en el hospital?', options: ['Flores para el médico', 'Una revista para su madre', 'Medicamentos', 'Documentos'], correct: 1, explanation: 'Пациент принёс журнал для своей мамы' },
+      { question: '¿Cuál es la ironía del diálogo?', options: ['El médico no sabe curar', 'El paciente termina con la misma enfermedad inicial', 'Los medicamentos son muy caros', 'El hospital está cerrado'], correct: 1, explanation: 'Ирония в том, что пациент закончил с той же болезнью, с которой начал' },
+      { question: '¿Quién habla con el doctor sobre el paciente?', options: ['Otro médico', 'El paciente mismo', 'La enfermera', 'Un familiar'], correct: 2, explanation: 'Медсестра разговаривает с доктором' }
+    ]
+  },
+
+  'ex-4-4-21': {
+    id: 'ex-4-4-21',
+    type: 'grammar',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 21: Pretérito Perfecto',
+    description: 'Выберите правильную форму Pretérito Perfecto',
+    questions: [
+      { sentence: 'Le ___ (administrar, nosotros) la medicación.', options: ['hemos administrado', 'habéis administrado', 'han administrado', 'he administrado'], correct: 0, explanation: 'Nosotros → hemos administrado' },
+      { sentence: 'La medicina le ___ (quitar) la migraña.', options: ['has quitado', 'ha quitado', 'hemos quitado', 'he quitado'], correct: 1, explanation: 'Ella/él → ha quitado' },
+      { sentence: 'El tratamiento ___ (causar) convulsiones.', options: ['he causado', 'has causado', 'ha causado', 'hemos causado'], correct: 2, explanation: 'El tratamiento → ha causado' },
+      { sentence: '¿No le ___ (dar, vosotros) fenotaleidol?', options: ['has dado', 'habéis dado', 'hemos dado', 'han dado'], correct: 1, explanation: 'Vosotros → habéis dado' },
+      { sentence: 'Sí, lo ___ (hacer, nosotros).', options: ['he hecho', 'has hecho', 'hemos hecho', 'habéis hecho'], correct: 2, explanation: 'Nosotros → hemos hecho' },
+      { sentence: 'La medicina ___ (producir) un fallo hepático.', options: ['he producido', 'has producido', 'ha producido', 'hemos producido'], correct: 2, explanation: 'La medicina → ha producido' },
+      { sentence: 'El medicamento le ___ (curar) la neumonía.', options: ['ha curado', 'he curado', 'has curado', 'hemos curado'], correct: 0, explanation: 'El medicamento → ha curado' },
+      { sentence: 'Ya lo ___ (hacer, nosotros).', options: ['he hecho', 'hemos hecho', 'habéis hecho', 'han hecho'], correct: 1, explanation: 'Nosotros → hemos hecho' },
+      { sentence: 'El paciente ___ (sufrir) muchos efectos secundarios.', options: ['he sufrido', 'has sufrido', 'ha sufrido', 'hemos sufrido'], correct: 2, explanation: 'El paciente → ha sufrido' },
+      { sentence: 'Los médicos ___ (intentar) todo.', options: ['he intentado', 'ha intentado', 'hemos intentado', 'han intentado'], correct: 3, explanation: 'Los médicos → han intentado' },
+      { sentence: 'Yo nunca ___ (ver) algo así.', options: ['he visto', 'has visto', 'ha visto', 'hemos visto'], correct: 0, explanation: 'Yo → he visto' },
+      { sentence: 'Tú ___ (escribir) el informe médico.', options: ['he escrito', 'has escrito', 'ha escrito', 'hemos escrito'], correct: 1, explanation: 'Tú → has escrito' },
+      { sentence: 'Nosotros ___ (poner) la inyección.', options: ['he puesto', 'has puesto', 'ha puesto', 'hemos puesto'], correct: 3, explanation: 'Nosotros → hemos puesto' },
+      { sentence: 'El doctor ___ (decir) la verdad.', options: ['he dicho', 'has dicho', 'ha dicho', 'hemos dicho'], correct: 2, explanation: 'El doctor → ha dicho' },
+      { sentence: 'Los enfermeros ___ (hacer) su trabajo.', options: ['he hecho', 'ha hecho', 'hemos hecho', 'han hecho'], correct: 3, explanation: 'Los enfermeros → han hecho' }
+    ]
+  },
+
+  'ex-4-4-22': {
+    id: 'ex-4-4-22',
+    type: 'translation',
+    tab: 'Así se trata la migraña',
+    title: 'Упражнение 22: Перевод с русского на испанский',
+    description: 'Переведите предложения, используя грамматику Модуля 4',
+    questions: [
+      { russian: 'Как сегодня себя чувствует пациент?', correct: '¿Cómo se encuentra hoy el paciente?', hint: 'encontrarse' },
+      { russian: 'Мы ввели ему лекарство.', correct: 'Le hemos administrado la medicación.', hint: 'administrar, Pretérito Perfecto' },
+      { russian: 'Врач указал правильное лечение.', correct: 'El médico ha indicado el tratamiento correcto.', hint: 'indicar, Pretérito Perfecto' },
+      { russian: 'Это сняло у него мигрень.', correct: 'Le ha quitado la migraña.', hint: 'quitar, Pretérito Perfecto' },
+      { russian: 'Лекарство вызвало судороги.', correct: 'La medicación ha causado convulsiones.', hint: 'causar, Pretérito Perfecto' },
+      { russian: 'Пациент страдает от печёночной недостаточности.', correct: 'El paciente sufre de un fallo hepático.', hint: 'sufrir de' },
+      { russian: 'Врач вылечил пневмонию.', correct: 'El médico ha curado la neumonía.', hint: 'curar, Pretérito Perfecto' },
+      { russian: 'Это лечится антибиотиками.', correct: 'Eso se trata con antibióticos.', hint: 'tratarse con' },
+      { russian: 'У пациента была эмболия.', correct: 'El paciente ha tenido una embolia.', hint: 'tener, Pretérito Perfecto' },
+      { russian: 'Боль была невыносимой.', correct: 'El dolor era insoportable.', hint: 'ser, Imperfecto' },
+      { russian: 'Медсёстры уже сделали всё возможное.', correct: 'Las enfermeras ya han hecho todo lo posible.', hint: 'hacer, Pretérito Perfecto, participio irregular' },
+      { russian: 'Вы дали ему все лекарства?', correct: '¿Le habéis dado todos los medicamentos?', hint: 'dar, Pretérito Perfecto' },
+      { russian: 'Сегодня утром я видел врача.', correct: 'Esta mañana he visto al médico.', hint: 'ver, Pretérito Perfecto, participio irregular' },
+      { russian: 'Они написали медицинский отчёт.', correct: 'Han escrito el informe médico.', hint: 'escribir, Pretérito Perfecto, participio irregular' },
+      { russian: 'Пациент вернулся в больницу.', correct: 'El paciente ha vuelto al hospital.', hint: 'volver, Pretérito Perfecto, participio irregular' }
     ]
   },
 
@@ -21662,58 +23024,59 @@ ocio, tiempo libre, divertirse, descansar, pasear, jugar, bailar, cantar, nadar,
   'ex-7-1-translation': {
     id: 'ex-7-1-translation',
     type: 'translation',
-    title: 'Перевод: Досуг и развлечения',
-    description: 'Переведите предложения с русского на испанский',
+    title: 'Перевод: Досуг и развлечения (Presente de Subjuntivo)',
+    description: 'Переведите предложения с русского на испанский, используя Presente de Subjuntivo',
+    showAnswerOption: true,
     questions: [
       {
-        russian: 'В свободное время я люблю читать',
-        spanish: 'en mi tiempo libre me gusta leer',
-        alternatives: ['en el tiempo libre me gusta leer']
+        russian: 'Я хочу, чтобы ты читал больше книг',
+        spanish: 'quiero que leas más libros',
+        alternatives: ['yo quiero que leas más libros']
       },
       {
-        russian: 'Мы хотим поехать на пляж',
-        spanish: 'queremos ir a la playa',
-        alternatives: []
+        russian: 'Надеюсь, что мы поедем на пляж',
+        spanish: 'espero que vayamos a la playa',
+        alternatives: ['yo espero que vayamos a la playa']
       },
       {
-        russian: 'Важно отдыхать после работы',
-        spanish: 'es importante descansar después del trabajo',
-        alternatives: ['es importante descansar después de trabajar']
+        russian: 'Важно, чтобы ты отдыхал после работы',
+        spanish: 'es importante que descanses después del trabajo',
+        alternatives: ['es importante que descanses después de trabajar']
       },
       {
-        russian: 'Он любит играть в футбол',
-        spanish: 'le gusta jugar al fútbol',
-        alternatives: ['a él le gusta jugar al fútbol']
+        russian: 'Хочу, чтобы он играл в футбол с нами',
+        spanish: 'quiero que él juegue al fútbol con nosotros',
+        alternatives: ['quiero que juegue al fútbol con nosotros']
       },
       {
-        russian: 'Моё хобби - рисование',
-        spanish: 'mi pasatiempo es pintar',
-        alternatives: ['mi afición es pintar', 'mi hobby es pintar']
+        russian: 'Мне нравится, что ты рисуешь',
+        spanish: 'me gusta que pintes',
+        alternatives: ['me gusta que tú pintes']
       },
       {
-        russian: 'Она умеет хорошо танцевать',
-        spanish: 'ella sabe bailar bien',
-        alternatives: ['sabe bailar bien']
+        russian: 'Я рад, что она умеет танцевать',
+        spanish: 'me alegro de que ella sepa bailar',
+        alternatives: ['me alegro de que sepa bailar']
       },
       {
-        russian: 'Мы идём гулять в парк',
-        spanish: 'vamos a pasear al parque',
-        alternatives: ['vamos a pasear en el parque']
+        russian: 'Предлагаю, чтобы мы пошли гулять в парк',
+        spanish: 'propongo que vayamos a pasear al parque',
+        alternatives: ['propongo que vayamos a pasear por el parque']
       },
       {
         russian: 'Я хочу, чтобы ты развлекался',
         spanish: 'quiero que te diviertas',
-        alternatives: []
+        alternatives: ['yo quiero que te diviertas']
       },
       {
         russian: 'Надеюсь, у тебя есть свободное время',
         spanish: 'espero que tengas tiempo libre',
-        alternatives: []
+        alternatives: ['yo espero que tengas tiempo libre']
       },
       {
-        russian: 'Досуг важен для здоровья',
-        spanish: 'el ocio es importante para la salud',
-        alternatives: []
+        russian: 'Важно, чтобы досуг был частью нашей жизни',
+        spanish: 'es importante que el ocio sea parte de nuestra vida',
+        alternatives: ['es importante que el ocio forme parte de nuestra vida']
       }
     ]
   },
@@ -36313,6 +37676,153 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       }
     ]
   },
+
+  // Cordyceps exercises - Module 17 Lesson 7
+  'ex-17-7-cordyceps-vocab': {
+    id: 'ex-17-7-cordyceps-vocab',
+    type: 'fillblank',
+    title: 'Словарь B1: Cordyceps - Заучивание словаря',
+    description: 'Заполните пропуски подходящим словом из банка слов',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'El ______ zombie puede controlar el cerebro de las hormigas.', blank: 'hongo', options: ['árbol', 'hongo', 'pez', 'pájaro'], correct: 1 },
+      { sentence: 'La historia parece sacada de una película de ______.', blank: 'ciencia ficción', options: ['amor', 'ciencia ficción', 'comedia', 'acción'], correct: 1 },
+      { sentence: 'El parásito logra ______ la mente de su víctima.', blank: 'apoderarse de', options: ['olvidarse de', 'apoderarse de', 'alejarse de', 'reírse de'], correct: 1 },
+      { sentence: 'La ______ carpintera es el huésped favorito del cordyceps.', blank: 'hormiga', options: ['abeja', 'araña', 'hormiga', 'mosca'], correct: 2 },
+      { sentence: 'El insecto infectado se convierte en ______ del hongo.', blank: 'huésped', options: ['enemigo', 'amigo', 'huésped', 'competidor'], correct: 2 },
+      { sentence: 'La manera en que el hongo controla a la hormiga es ______.', blank: 'espeluznante', options: ['divertida', 'espeluznante', 'aburrida', 'simple'], correct: 1 },
+      { sentence: 'El hongo libera miles de ______ infecciosas desde la cabeza del insecto.', blank: 'esporas', options: ['flores', 'esporas', 'semillas', 'hojas'], correct: 1 },
+      { sentence: 'El parásito logra ______ los movimientos de la hormiga.', blank: 'controlar', options: ['ignorar', 'controlar', 'perder', 'olvidar'], correct: 1 },
+      { sentence: 'El hongo puede ______ a su huésped a abandonar su hogar.', blank: 'obligar', options: ['invitar', 'pedir', 'obligar', 'sugerir'], correct: 2 },
+      { sentence: 'La hormiga zombie debe ______ por un tallo hasta cierta altura.', blank: 'trepar', options: ['nadar', 'volar', 'trepar', 'correr'], correct: 2 },
+      { sentence: 'De la cabeza de la hormiga muerta ______ un tallo fúngico.', blank: 'brota', options: ['desaparece', 'brota', 'cae', 'huye'], correct: 1 },
+      { sentence: 'Existe una gran ______ de hongos parásitos en las selvas tropicales.', blank: 'variedad', options: ['escasez', 'variedad', 'falta', 'ausencia'], correct: 1 },
+      { sentence: 'Los parásitos mantienen el ______ del ecosistema controlando poblaciones.', blank: 'equilibrio', options: ['caos', 'desorden', 'equilibrio', 'problema'], correct: 2 },
+      { sentence: 'Esta ______ de hongo solo infecta a ciertos tipos de hormigas.', blank: 'especie', options: ['especie', 'persona', 'cosa', 'idea'], correct: 0 },
+      { sentence: 'El hongo ______ sus esporas para infectar a nuevas víctimas.', blank: 'libera', options: ['esconde', 'libera', 'guarda', 'destruye'], correct: 1 }
+    ]
+  },
+
+  'ex-17-7-cordyceps-comprehension': {
+    id: 'ex-17-7-cordyceps-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста B1: Cordyceps - Правда или ложь',
+    description: 'Определите, соответствует ли утверждение тексту (Verdadero = Правда, Falso = Ложь)',
+    showAnswerOption: true,
+    questions: [
+      { question: 'El cordyceps puede literalmente apoderarse de la mente de las hormigas.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El hongo zombie es común en los desiertos áridos.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El hongo mata a la hormiga inmediatamente después de infectarla.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El cordyceps controla los músculos de la hormiga a través del cerebro.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El hongo crea una especie de marioneta biológica con la hormiga.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'La hormiga infectada trepa a una altura de aproximadamente 25 cm del suelo.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El cordyceps obliga a la hormiga a morder una piedra.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'De la cabeza de la hormiga muerta brota un tallo llamado estroma.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El hongo libera cientos de esporas infecciosas.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Las esporas buscan nuevas víctimas para continuar el ciclo de vida.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El cordyceps es uno de los parásitos más amigables del planeta.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El nombre científico del hongo zombie es oiocorticeps unilateralis.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'La supervivencia del hongo requiere la destrucción total de la hormiga.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El proceso de infección ocurre durante el invierno.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El cordyceps usa compuestos químicos para invadir el cuerpo de la hormiga.', options: ['Verdadero', 'Falso'], correct: 0 }
+    ]
+  },
+
+  'ex-17-7-cordyceps-grammar': {
+    id: 'ex-17-7-cordyceps-grammar',
+    type: 'fillblank',
+    title: 'Грамматика B1: Cordyceps - Pretérito perfecto, indefinido, presente de subjuntivo',
+    description: 'Заполните пропуски правильной формой глагола',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Los científicos ______ (descubrir) este hongo hace muchos años.', blank: 'descubrieron', options: ['han descubierto', 'descubrieron', 'descubran', 'descubrían'], correct: 1 },
+      { sentence: 'Hoy ______ (publicar, ellos) un nuevo estudio sobre el cordyceps.', blank: 'han publicado', options: ['publicaron', 'han publicado', 'publiquen', 'publicaban'], correct: 1 },
+      { sentence: 'Es importante que los investigadores ______ (observar) el comportamiento del hongo.', blank: 'observen', options: ['observan', 'observaron', 'observen', 'han observado'], correct: 2 },
+      { sentence: 'La hormiga ______ (trepar) hasta la altura perfecta antes de morir.', blank: 'trepó', options: ['ha trepado', 'trepó', 'trepe', 'trepaba'], correct: 1 },
+      { sentence: 'Nunca ______ (ver, yo) un documental tan impresionante sobre parásitos.', blank: 'he visto', options: ['vi', 'he visto', 'vea', 'veía'], correct: 1 },
+      { sentence: 'Es posible que el hongo ______ (liberar) sus esporas esta noche.', blank: 'libere', options: ['libera', 'liberó', 'libere', 'ha liberado'], correct: 2 },
+      { sentence: 'El año pasado los biólogos ______ (encontrar) nuevas especies de cordyceps.', blank: 'encontraron', options: ['han encontrado', 'encontraron', 'encuentren', 'encontraban'], correct: 1 },
+      { sentence: 'Es necesario que el público ______ (conocer) estos fenómenos naturales.', blank: 'conozca', options: ['conoce', 'conoció', 'conozca', 'ha conocido'], correct: 2 },
+      { sentence: 'Esta semana ______ (morir) varias hormigas en el experimento.', blank: 'han muerto', options: ['murieron', 'han muerto', 'mueran', 'morían'], correct: 1 },
+      { sentence: 'No creo que este hongo ______ (ser) peligroso para los humanos.', blank: 'sea', options: ['es', 'fue', 'sea', 'ha sido'], correct: 2 },
+      { sentence: 'Los investigadores ______ (analizar) el genoma del cordyceps en 2015.', blank: 'analizaron', options: ['han analizado', 'analizaron', 'analicen', 'analizaban'], correct: 1 },
+      { sentence: 'Dudo que la hormiga ______ (poder) escapar una vez infectada.', blank: 'pueda', options: ['puede', 'pudo', 'pueda', 'ha podido'], correct: 2 },
+      { sentence: 'Últimamente ______ (aumentar) el interés por los hongos parásitos.', blank: 'ha aumentado', options: ['aumentó', 'ha aumentado', 'aumente', 'aumentaba'], correct: 1 },
+      { sentence: 'El hongo ______ (controlar) a la hormiga durante varios días antes de matarla.', blank: 'controló', options: ['ha controlado', 'controló', 'controle', 'controlaba'], correct: 1 },
+      { sentence: 'Espero que los científicos ______ (descubrir) pronto una cura.', blank: 'descubran', options: ['descubren', 'descubrieron', 'descubran', 'han descubierto'], correct: 2 }
+    ]
+  },
+
+  'ex-17-7-cordyceps-translation': {
+    id: 'ex-17-7-cordyceps-translation',
+    type: 'translation',
+    title: 'Перевод B1: Cordyceps - Pretérito perfecto, indefinido, presente de subjuntivo',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Ученые открыли (descubrir) этот гриб в тропических лесах.',
+        spanish: 'Los científicos descubrieron este hongo en las selvas tropicales'
+      },
+      {
+        russian: 'В этом году мы прочитали (leer) много статей о кордицепсе.',
+        spanish: 'Este año hemos leído muchos artículos sobre el cordyceps'
+      },
+      {
+        russian: 'Важно, чтобы люди знали (conocer) об этом паразите.',
+        spanish: 'Es importante que la gente conozca este parásito'
+      },
+      {
+        russian: 'Муравей залез (trepar) на стебель и укусил лист.',
+        spanish: 'La hormiga trepó por el tallo y mordió la hoja'
+      },
+      {
+        russian: 'Сегодня я посмотрел (ver) документальный фильм о грибе-зомби.',
+        spanish: 'Hoy he visto un documental sobre el hongo zombie'
+      },
+      {
+        russian: 'Сомневаюсь, что гриб сможет (poder) заразить человека.',
+        spanish: 'Dudo que el hongo pueda infectar a un humano'
+      },
+      {
+        russian: 'Гриб захватил (apoderarse de) контроль над муравьём.',
+        spanish: 'El hongo se apoderó del control de la hormiga'
+      },
+      {
+        russian: 'Необходимо, чтобы исследователи продолжали (continuar) изучение.',
+        spanish: 'Es necesario que los investigadores continúen el estudio'
+      },
+      {
+        russian: 'На прошлой неделе биологи опубликовали (publicar) новые результаты.',
+        spanish: 'La semana pasada los biólogos publicaron nuevos resultados'
+      },
+      {
+        russian: 'Не думаю, что этот вид существует (existir) в нашем климате.',
+        spanish: 'No creo que esta especie exista en nuestro clima'
+      },
+      {
+        russian: 'Споры распространились (esparcirse) по всему лесу.',
+        spanish: 'Las esporas se esparcieron por todo el bosque'
+      },
+      {
+        russian: 'Надеюсь, что учёные найдут (encontrar) новые виды грибов.',
+        spanish: 'Espero que los científicos encuentren nuevas especies de hongos'
+      },
+      {
+        russian: 'Этим утром гриб освободил (liberar) тысячи спор.',
+        spanish: 'Esta mañana el hongo ha liberado miles de esporas'
+      },
+      {
+        russian: 'Маловероятно, что муравей выживет (sobrevivir) после заражения.',
+        spanish: 'Es poco probable que la hormiga sobreviva después de la infección'
+      },
+      {
+        russian: 'Природа создала (crear) удивительный и ужасающий механизм.',
+        spanish: 'La naturaleza creó un mecanismo asombroso y aterrador'
+      }
+    ]
+  },
+
   'ex-9-8-video-vocab': {
     id: 'ex-9-8-video-vocab',
     type: 'fillblank',
@@ -37714,6 +39224,2579 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { question: 'Según el video, ¿cuál es la finalidad de nuestra vida?', type: 'open' },
       { question: '¿Qué relación hace el video entre la supraconciencia y la felicidad?', type: 'open' },
       { question: '¿Qué comparación se hace con las experiencias cercanas a la muerte?', type: 'open' }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 1 - УПРАЖНЕНИЯ
+  // =============================================
+
+  'ex-12-1-1': {
+    id: 'ex-12-1-1',
+    type: 'subjunctive',
+    title: 'Поставьте глаголы в Imperfecto de Subjuntivo',
+    description: 'Поставьте глаголы в скобках в соответствующую форму Imperfecto de Subjuntivo',
+    questions: [
+      {
+        text: 'Elena quiso que yo (esperarla).',
+        options: ['la esperara', 'la esperaba', 'la esperé', 'la espero'],
+        correct: 0,
+        explanation: 'После глагола quiso (прошедшее время) в придаточном используется Imperfecto de Subjuntivo: la esperara.'
+      },
+      {
+        text: 'Era necesario que (leer, tú) esta novela.',
+        options: ['leías', 'leas', 'leyeras', 'leíste'],
+        correct: 2,
+        explanation: 'После безличного выражения "era necesario que" требуется Imperfecto de Subjuntivo: leyeras.'
+      },
+      {
+        text: 'Nos asustamos de que ellos (llegar) tarde y no (traer) la medicina a tiempo.',
+        options: ['llegaron / trajeron', 'llegaran / trajeran', 'llegan / traen', 'lleguen / traigan'],
+        correct: 1,
+        explanation: 'После глагола эмоции в прошедшем времени используется Imperfecto de Subjuntivo: llegaran, trajeran.'
+      },
+      {
+        text: 'Le pediste a Gabriel que no (mentirnos) sino (decirnos) la verdad.',
+        options: ['nos mintiera / nos dijera', 'nos mentía / nos decía', 'nos mienta / nos diga', 'nos mintió / nos dijo'],
+        correct: 0,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: nos mintiera, nos dijera.'
+      },
+      {
+        text: 'Era deseable que alguien (quedarse) en casa y (poner) orden.',
+        options: ['se quedaba / ponía', 'se quede / ponga', 'se quedara / pusiera', 'se quedó / puso'],
+        correct: 2,
+        explanation: 'После безличного выражения "era deseable que" требуется Imperfecto de Subjuntivo: se quedara, pusiera.'
+      },
+      {
+        text: 'Mis amigos dudaban que yo (conducir) bien el coche e insistieron en que (ir, nosotros) en autobús.',
+        options: ['conducía / íbamos', 'conduzca / vayamos', 'condujera / fuéramos', 'conduje / fuimos'],
+        correct: 2,
+        explanation: 'После глаголов сомнения и настояния в прошедшем времени используется Imperfecto de Subjuntivo: condujera, fuéramos.'
+      },
+      {
+        text: 'La camarera nos propuso que (elegir, nosotros) platos combinados.',
+        options: ['elegimos', 'elijamos', 'eligiéramos', 'elegíamos'],
+        correct: 2,
+        explanation: 'После глагола предложения в прошедшем времени используется Imperfecto de Subjuntivo: eligiéramos.'
+      },
+      {
+        text: 'Nos indignaba que el jefe (rechazar) todos nuestros proyectos.',
+        options: ['rechaza', 'rechazara', 'rechazó', 'rechace'],
+        correct: 1,
+        explanation: 'После глагола эмоции в Imperfecto требуется Imperfecto de Subjuntivo: rechazara.'
+      },
+      {
+        text: 'Era sorprendente que el niño (saber) tocar con maestría tres instrumentos musicales.',
+        options: ['sabía', 'sabe', 'supiera', 'supo'],
+        correct: 2,
+        explanation: 'После безличного выражения "era sorprendente que" требуется Imperfecto de Subjuntivo: supiera.'
+      },
+      {
+        text: 'Los amigos os desearon que (divertirse) bien en la fiesta.',
+        options: ['os divertíais', 'os divirtierais', 'os divertís', 'os divirtáis'],
+        correct: 1,
+        explanation: 'После глагола пожелания в прошедшем времени используется Imperfecto de Subjuntivo: os divirtierais.'
+      },
+      {
+        text: 'No me imaginaba que tú (ponerse) zapatos de tacón para ir de excursión a las montañas.',
+        options: ['te ponías', 'te pusieras', 'te pones', 'te pongas'],
+        correct: 1,
+        explanation: 'После "no me imaginaba que" требуется Imperfecto de Subjuntivo: te pusieras.'
+      },
+      {
+        text: 'No era cierto que ellos (venir) a tiempo.',
+        options: ['venían', 'vienen', 'vinieran', 'vinieron'],
+        correct: 2,
+        explanation: 'После отрицательного безличного выражения "no era cierto que" требуется Imperfecto de Subjuntivo: vinieran.'
+      },
+      {
+        text: 'La madre me rogó que yo (pedir) hora para el viernes.',
+        options: ['pedía', 'pida', 'pidiera', 'pedí'],
+        correct: 2,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: pidiera.'
+      },
+      {
+        text: 'Nos preocupábamos de que nuestro hijo no (querer) estudiar y tampoco (tener) ganas de practicar algún deporte.',
+        options: ['quería / tenía', 'quiera / tenga', 'quisiera / tuviera', 'quiso / tuvo'],
+        correct: 2,
+        explanation: 'После глагола эмоции в Imperfecto требуется Imperfecto de Subjuntivo: quisiera, tuviera.'
+      },
+      {
+        text: 'Fue una lástima que vosotros no (poder) asistir al estreno.',
+        options: ['podíais', 'podéis', 'pudierais', 'pudisteis'],
+        correct: 2,
+        explanation: 'После "fue una lástima que" требуется Imperfecto de Subjuntivo: pudierais.'
+      }
+    ]
+  },
+
+  'ex-12-1-2': {
+    id: 'ex-12-1-2',
+    type: 'subjunctive',
+    title: 'Прямая речь → Косвенная речь',
+    description: 'Трансформируйте предложения из прямой речи в косвенную',
+    questions: [
+      {
+        text: 'La madre me rogó: "Conduce con mucho cuidado porque hay mucha niebla."',
+        options: [
+          'La madre me rogó que condujera con mucho cuidado porque había mucha niebla.',
+          'La madre me rogó que conduzca con mucho cuidado porque hay mucha niebla.',
+          'La madre me rogó que conducía con mucho cuidado porque había mucha niebla.',
+          'La madre me rogó que conduciría con mucho cuidado porque habría mucha niebla.'
+        ],
+        correct: 0,
+        explanation: 'При переводе в косвенную речь после глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo.'
+      },
+      {
+        text: 'La dependienta aconsejó: "Señora, pruébese esta chaqueta de lino, está de moda."',
+        options: [
+          'La dependienta aconsejó que la señora se pruebe esta chaqueta de lino.',
+          'La dependienta aconsejó a la señora que se probara aquella chaqueta de lino porque estaba de moda.',
+          'La dependienta aconsejó que la señora se probaba aquella chaqueta de lino.',
+          'La dependienta aconsejó que la señora se probaría aquella chaqueta de lino.'
+        ],
+        correct: 1,
+        explanation: 'Глагол совета в прошедшем времени требует Imperfecto de Subjuntivo в косвенной речи.'
+      },
+      {
+        text: 'Los padres ordenaron: "¡Hijos, almorzad hoy en casa porque la abuela ha preparado fabada para todos!"',
+        options: [
+          'Los padres ordenaron que los hijos almorzaran en casa porque la abuela había preparado fabada para todos.',
+          'Los padres ordenaron que los hijos almuercen en casa.',
+          'Los padres ordenaron que los hijos almorzaban en casa.',
+          'Los padres ordenaron que los hijos almorzarían en casa.'
+        ],
+        correct: 0,
+        explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: almorzaran.'
+      },
+      {
+        text: 'El recepcionista nos repitió: "Señores, paguen, por favor, la suma indicada antes de las doce de la tarde."',
+        options: [
+          'El recepcionista nos repitió que pagáramos la suma indicada antes de las doce de la tarde.',
+          'El recepcionista nos repitió que paguemos la suma indicada.',
+          'El recepcionista nos repitió que pagamos la suma indicada.',
+          'El recepcionista nos repitió que pagaríamos la suma indicada.'
+        ],
+        correct: 0,
+        explanation: 'При переводе императива в косвенную речь после глагола в прошедшем времени используется Imperfecto de Subjuntivo.'
+      },
+      {
+        text: 'La abuela me pidió: "Ve a la cocina y tráeme un vaso de agua."',
+        options: [
+          'La abuela me pidió que vaya a la cocina y le traiga un vaso de agua.',
+          'La abuela me pidió que fuera a la cocina y le trajera un vaso de agua.',
+          'La abuela me pidió que iba a la cocina y le traía un vaso de agua.',
+          'La abuela me pidió que iría a la cocina y le traería un vaso de agua.'
+        ],
+        correct: 1,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: fuera, trajera.'
+      },
+      {
+        text: 'Los amigos me escribieron: "Ten paciencia, no te enfades con tu tía."',
+        options: [
+          'Los amigos me escribieron que tenga paciencia y no me enfade con mi tía.',
+          'Los amigos me escribieron que tuviera paciencia y no me enfadara con mi tía.',
+          'Los amigos me escribieron que tenía paciencia y no me enfadaba con mi tía.',
+          'Los amigos me escribieron que tendría paciencia y no me enfadaría con mi tía.'
+        ],
+        correct: 1,
+        explanation: 'При переводе императива в косвенную речь требуется Imperfecto de Subjuntivo: tuviera, enfadara.'
+      },
+      {
+        text: 'El director nos advirtió: "Vengan media hora antes de la reunión."',
+        options: [
+          'El director nos advirtió que vengamos media hora antes de la reunión.',
+          'El director nos advirtió que viniéramos media hora antes de la reunión.',
+          'El director nos advirtió que veníamos media hora antes de la reunión.',
+          'El director nos advirtió que vendríamos media hora antes de la reunión.'
+        ],
+        correct: 1,
+        explanation: 'После глагола предупреждения в прошедшем времени используется Imperfecto de Subjuntivo: viniéramos.'
+      },
+      {
+        text: 'Ana le propuso a su hijo: "Ve alguna película de dibujos animados mientras yo preparo la cena."',
+        options: [
+          'Ana le propuso a su hijo que vea alguna película de dibujos animados.',
+          'Ana le propuso a su hijo que fuera a ver alguna película de dibujos animados mientras ella preparaba la cena.',
+          'Ana le propuso a su hijo que iba a ver alguna película de dibujos animados.',
+          'Ana le propuso a su hijo que iría a ver alguna película de dibujos animados.'
+        ],
+        correct: 1,
+        explanation: 'Глагол предложения в прошедшем времени требует Imperfecto de Subjuntivo в придаточном.'
+      },
+      {
+        text: 'El policía nos gritó: "¡Deténganse y presenten sus pasaportes!"',
+        options: [
+          'El policía nos gritó que nos detengamos y presentemos nuestros pasaportes.',
+          'El policía nos gritó que nos detuviéramos y presentáramos nuestros pasaportes.',
+          'El policía nos gritó que nos deteníamos y presentábamos nuestros pasaportes.',
+          'El policía nos gritó que nos detendríamos y presentaríamos nuestros pasaportes.'
+        ],
+        correct: 1,
+        explanation: 'При переводе императива в косвенную речь после глагола в прошедшем времени используется Imperfecto de Subjuntivo.'
+      },
+      {
+        text: 'El profesor insistía: "Apagad los móviles, traducid el texto sin consultar el diccionario."',
+        options: [
+          'El profesor insistía en que apaguemos los móviles y traduzcamos el texto.',
+          'El profesor insistía en que apagáramos los móviles y tradujéramos el texto sin consultar el diccionario.',
+          'El profesor insistía en que apagábamos los móviles y traducíamos el texto.',
+          'El profesor insistía en que apagaríamos los móviles y traduciríamos el texto.'
+        ],
+        correct: 1,
+        explanation: 'После глагола настояния в Imperfecto требуется Imperfecto de Subjuntivo: apagáramos, tradujéramos.'
+      },
+      {
+        text: 'Mi jefe me dijo: "Termina el informe antes de las cinco."',
+        options: [
+          'Mi jefe me dijo que termine el informe antes de las cinco.',
+          'Mi jefe me dijo que terminara el informe antes de las cinco.',
+          'Mi jefe me dijo que terminaba el informe antes de las cinco.',
+          'Mi jefe me dijo que terminaría el informe antes de las cinco.'
+        ],
+        correct: 1,
+        explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: terminara.'
+      },
+      {
+        text: 'El médico recomendó: "Descanse más y evite el estrés."',
+        options: [
+          'El médico recomendó que descanse más y evite el estrés.',
+          'El médico recomendó que descansara más y evitara el estrés.',
+          'El médico recomendó que descansaba más y evitaba el estrés.',
+          'El médico recomendó que descansaría más y evitaría el estrés.'
+        ],
+        correct: 1,
+        explanation: 'После глагола рекомендации в прошедшем времени используется Imperfecto de Subjuntivo: descansara, evitara.'
+      },
+      {
+        text: 'La profesora nos pidió: "Escribid vuestros nombres en la hoja."',
+        options: [
+          'La profesora nos pidió que escribamos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribiéramos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribíamos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribiríamos nuestros nombres en la hoja.'
+        ],
+        correct: 1,
+        explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: escribiéramos.'
+      },
+      {
+        text: 'El entrenador ordenó: "Corred cinco vueltas al campo."',
+        options: [
+          'El entrenador ordenó que corramos cinco vueltas al campo.',
+          'El entrenador ordenó que corriéramos cinco vueltas al campo.',
+          'El entrenador ordenó que corríamos cinco vueltas al campo.',
+          'El entrenador ordenó que correríamos cinco vueltas al campo.'
+        ],
+        correct: 1,
+        explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: corriéramos.'
+      },
+      {
+        text: 'Mi madre me sugirió: "Llama a tu hermano y pídele perdón."',
+        options: [
+          'Mi madre me sugirió que llame a mi hermano y le pida perdón.',
+          'Mi madre me sugirió que llamara a mi hermano y le pidiera perdón.',
+          'Mi madre me sugirió que llamaba a mi hermano y le pedía perdón.',
+          'Mi madre me sugirió que llamaría a mi hermano y le pediría perdón.'
+        ],
+        correct: 1,
+        explanation: 'После глагола предложения в прошедшем времени используется Imperfecto de Subjuntivo: llamara, pidiera.'
+      }
+    ]
+  },
+
+  'ex-12-1-3': {
+    id: 'ex-12-1-3',
+    type: 'subjunctive',
+    title: 'Простые предложения → Придаточные дополнительные',
+    description: 'Замените простые предложения на придаточные дополнительные. Глагол главного предложения должен выражать сомнение или эмоции.',
+    questions: [
+      {
+        text: 'Practico la natación. → Juan no creyó que yo...',
+        options: [
+          'practico la natación.',
+          'practicaba la natación.',
+          'practicara la natación.',
+          'practique la natación.'
+        ],
+        correct: 2,
+        explanation: 'После "no creyó que" требуется Imperfecto de Subjuntivo: practicara.'
+      },
+      {
+        text: 'Queremos ir a África. → Mis padres se sorprendieron de que nosotros...',
+        options: [
+          'queremos ir a África.',
+          'queríamos ir a África.',
+          'quisiéramos ir a África.',
+          'queramos ir a África.'
+        ],
+        correct: 2,
+        explanation: 'После "se sorprendieron de que" требуется Imperfecto de Subjuntivo: quisiéramos.'
+      },
+      {
+        text: 'Petra y tú sabéis bailar flamenco. → Me alegré de que Petra y tú...',
+        options: [
+          'sabéis bailar flamenco.',
+          'sabíais bailar flamenco.',
+          'supierais bailar flamenco.',
+          'sepáis bailar flamenco.'
+        ],
+        correct: 2,
+        explanation: 'После "me alegré de que" требуется Imperfecto de Subjuntivo: supierais.'
+      },
+      {
+        text: 'Me duele la cabeza y no tengo apetito. → A mi madre le preocupaba que a mí...',
+        options: [
+          'me duele la cabeza y no tengo apetito.',
+          'me dolía la cabeza y no tenía apetito.',
+          'me doliera la cabeza y no tuviera apetito.',
+          'me duela la cabeza y no tenga apetito.'
+        ],
+        correct: 2,
+        explanation: 'После "le preocupaba que" требуется Imperfecto de Subjuntivo: doliera, tuviera.'
+      },
+      {
+        text: 'En la playa no hay gente. → Nos extrañó que en la playa no...',
+        options: [
+          'hay gente.',
+          'había gente.',
+          'hubiera gente.',
+          'haya gente.'
+        ],
+        correct: 2,
+        explanation: 'После "nos extrañó que" требуется Imperfecto de Subjuntivo: hubiera.'
+      },
+      {
+        text: 'Duermes poco y trabajas mucho. → El médico temía que tú...',
+        options: [
+          'duermes poco y trabajas mucho.',
+          'dormías poco y trabajabas mucho.',
+          'durmieras poco y trabajaras mucho.',
+          'duermas poco y trabajes mucho.'
+        ],
+        correct: 2,
+        explanation: 'После "temía que" требуется Imperfecto de Subjuntivo: durmieras, trabajaras.'
+      },
+      {
+        text: 'Se niegan a continuar el trabajo. → El jefe no comprendía que ellos...',
+        options: [
+          'se niegan a continuar el trabajo.',
+          'se negaban a continuar el trabajo.',
+          'se negaran a continuar el trabajo.',
+          'se nieguen a continuar el trabajo.'
+        ],
+        correct: 2,
+        explanation: 'После "no comprendía que" требуется Imperfecto de Subjuntivo: se negaran.'
+      },
+      {
+        text: 'Elena hace ejercicios de español todos los días. → A su profesora le encantaba que Elena...',
+        options: [
+          'hace ejercicios de español todos los días.',
+          'hacía ejercicios de español todos los días.',
+          'hiciera ejercicios de español todos los días.',
+          'haga ejercicios de español todos los días.'
+        ],
+        correct: 2,
+        explanation: 'После "le encantaba que" требуется Imperfecto de Subjuntivo: hiciera.'
+      },
+      {
+        text: 'Ellos están aquí muy a gusto. → Dudábamos que ellos...',
+        options: [
+          'están aquí muy a gusto.',
+          'estaban aquí muy a gusto.',
+          'estuvieran aquí muy a gusto.',
+          'estén aquí muy a gusto.'
+        ],
+        correct: 2,
+        explanation: 'После "dudábamos que" требуется Imperfecto de Subjuntivo: estuvieran.'
+      },
+      {
+        text: 'Su hijo siempre le miente. → A la madre le dolía que su hijo siempre le...',
+        options: [
+          'miente.',
+          'mentía.',
+          'mintiera.',
+          'mienta.'
+        ],
+        correct: 2,
+        explanation: 'После "le dolía que" требуется Imperfecto de Subjuntivo: mintiera.'
+      },
+      {
+        text: 'Mario no conduce el coche. → Nos sorprendió que Mario no...',
+        options: [
+          'conduce el coche.',
+          'conducía el coche.',
+          'condujera el coche.',
+          'conduzca el coche.'
+        ],
+        correct: 2,
+        explanation: 'После "nos sorprendió que" требуется Imperfecto de Subjuntivo: condujera.'
+      },
+      {
+        text: 'Viven en el extranjero. → A sus padres les entristecía que ellos...',
+        options: [
+          'viven en el extranjero.',
+          'vivían en el extranjero.',
+          'vivieran en el extranjero.',
+          'vivan en el extranjero.'
+        ],
+        correct: 2,
+        explanation: 'После "les entristecía que" требуется Imperfecto de Subjuntivo: vivieran.'
+      },
+      {
+        text: 'No tenemos tiempo libre. → El profesor lamentaba que nosotros no...',
+        options: [
+          'tenemos tiempo libre.',
+          'teníamos tiempo libre.',
+          'tuviéramos tiempo libre.',
+          'tengamos tiempo libre.'
+        ],
+        correct: 2,
+        explanation: 'После "lamentaba que" требуется Imperfecto de Subjuntivo: tuviéramos.'
+      },
+      {
+        text: 'Siempre llego tarde. → Mi jefe se quejaba de que yo siempre...',
+        options: [
+          'llego tarde.',
+          'llegaba tarde.',
+          'llegara tarde.',
+          'llegue tarde.'
+        ],
+        correct: 2,
+        explanation: 'После "se quejaba de que" требуется Imperfecto de Subjuntivo: llegara.'
+      },
+      {
+        text: 'No saben la verdad. → Era mejor que ellos no...',
+        options: [
+          'saben la verdad.',
+          'sabían la verdad.',
+          'supieran la verdad.',
+          'sepan la verdad.'
+        ],
+        correct: 2,
+        explanation: 'После "era mejor que" требуется Imperfecto de Subjuntivo: supieran.'
+      }
+    ]
+  },
+
+  'ex-12-1-4': {
+    id: 'ex-12-1-4',
+    type: 'subjunctive',
+    title: 'Закончите предложения (Ahora / Antes)',
+    description: 'Закончите предложения, используя Imperfecto de Subjuntivo для выражения прошлого.',
+    questions: [
+      {
+        text: 'Ahora me gusta que mis amigos vengan a casa sin avisarme. Antes no soportaba que mis amigos...',
+        options: [
+          'vengan a casa sin avisarme.',
+          'vienen a casa sin avisarme.',
+          'vinieran a casa sin avisarme.',
+          'venían a casa sin avisarme.'
+        ],
+        correct: 2,
+        explanation: 'После "no soportaba que" требуется Imperfecto de Subjuntivo: vinieran.'
+      },
+      {
+        text: 'Ahora me da igual que la gente hable mal de mí. Antes no podía aguantar que la gente...',
+        options: [
+          'hable mal de mí.',
+          'habla mal de mí.',
+          'hablara mal de mí.',
+          'hablaba mal de mí.'
+        ],
+        correct: 2,
+        explanation: 'После "no podía aguantar que" требуется Imperfecto de Subjuntivo: hablara.'
+      },
+      {
+        text: 'Ahora no me importa que mi novio no vista con elegancia. Antes me parecía intolerable que mi novio no...',
+        options: [
+          'vista con elegancia.',
+          'viste con elegancia.',
+          'vistiera con elegancia.',
+          'vestía con elegancia.'
+        ],
+        correct: 2,
+        explanation: 'После "me parecía intolerable que" требуется Imperfecto de Subjuntivo: vistiera.'
+      },
+      {
+        text: 'Ahora me deja indiferente que mis amigos no sean puntuales. Antes me indignaba que mis amigos no...',
+        options: [
+          'sean puntuales.',
+          'son puntuales.',
+          'fueran puntuales.',
+          'eran puntuales.'
+        ],
+        correct: 2,
+        explanation: 'После "me indignaba que" требуется Imperfecto de Subjuntivo: fueran.'
+      },
+      {
+        text: 'Ahora no me importa que me hagan cantar al público. Antes me daba vergüenza que...',
+        options: [
+          'me hagan cantar al público.',
+          'me hacen cantar al público.',
+          'me hicieran cantar al público.',
+          'me hacían cantar al público.'
+        ],
+        correct: 2,
+        explanation: 'После "me daba vergüenza que" требуется Imperfecto de Subjuntivo: hicieran.'
+      },
+      {
+        text: 'Ahora me da risa que mi marido me dedique poesías. Antes me encantaba que mi marido me...',
+        options: [
+          'dedique poesías.',
+          'dedica poesías.',
+          'dedicara poesías.',
+          'dedicaba poesías.'
+        ],
+        correct: 2,
+        explanation: 'После "me encantaba que" требуется Imperfecto de Subjuntivo: dedicara.'
+      },
+      {
+        text: 'Ahora no me importa que ellos no me feliciten con mi cumpleaños. Antes me daba pena que ellos no me...',
+        options: [
+          'feliciten con mi cumpleaños.',
+          'felicitan con mi cumpleaños.',
+          'felicitaran con mi cumpleaños.',
+          'felicitaban con mi cumpleaños.'
+        ],
+        correct: 2,
+        explanation: 'После "me daba pena que" требуется Imperfecto de Subjuntivo: felicitaran.'
+      },
+      {
+        text: 'Ahora me sorprende que tú no me pidas consejos. Antes no aguantaba que tú me...',
+        options: [
+          'pidas consejos.',
+          'pides consejos.',
+          'pidieras consejos.',
+          'pedías consejos.'
+        ],
+        correct: 2,
+        explanation: 'После "no aguantaba que" требуется Imperfecto de Subjuntivo: pidieras.'
+      },
+      {
+        text: 'Ahora me alegra que mi hermana tenga una familia numerosa. Antes me molestaba que mi hermana...',
+        options: [
+          'tenga una familia numerosa.',
+          'tiene una familia numerosa.',
+          'tuviera una familia numerosa.',
+          'tenía una familia numerosa.'
+        ],
+        correct: 2,
+        explanation: 'После "me molestaba que" требуется Imperfecto de Subjuntivo: tuviera.'
+      },
+      {
+        text: 'Ahora no me preocupa que nuestro vecino me mienta. Antes me enfadaba que nuestro vecino me...',
+        options: [
+          'mienta.',
+          'miente.',
+          'mintiera.',
+          'mentía.'
+        ],
+        correct: 2,
+        explanation: 'После "me enfadaba que" требуется Imperfecto de Subjuntivo: mintiera.'
+      },
+      {
+        text: 'Ahora acepto que mi hijo sea diferente. Antes me costaba aceptar que mi hijo...',
+        options: [
+          'sea diferente.',
+          'es diferente.',
+          'fuera diferente.',
+          'era diferente.'
+        ],
+        correct: 2,
+        explanation: 'После "me costaba aceptar que" требуется Imperfecto de Subjuntivo: fuera.'
+      },
+      {
+        text: 'Ahora me parece bien que trabajen desde casa. Antes me parecía mal que...',
+        options: [
+          'trabajen desde casa.',
+          'trabajan desde casa.',
+          'trabajaran desde casa.',
+          'trabajaban desde casa.'
+        ],
+        correct: 2,
+        explanation: 'После "me parecía mal que" требуется Imperfecto de Subjuntivo: trabajaran.'
+      },
+      {
+        text: 'Ahora no me molesta que llegues tarde. Antes me irritaba que...',
+        options: [
+          'llegues tarde.',
+          'llegas tarde.',
+          'llegaras tarde.',
+          'llegabas tarde.'
+        ],
+        correct: 2,
+        explanation: 'После "me irritaba que" требуется Imperfecto de Subjuntivo: llegaras.'
+      },
+      {
+        text: 'Ahora me da igual que no me inviten. Antes me ofendía que no me...',
+        options: [
+          'inviten.',
+          'invitan.',
+          'invitaran.',
+          'invitaban.'
+        ],
+        correct: 2,
+        explanation: 'После "me ofendía que" требуется Imperfecto de Subjuntivo: invitaran.'
+      },
+      {
+        text: 'Ahora entiendo que necesites tiempo. Antes no comprendía que...',
+        options: [
+          'necesites tiempo.',
+          'necesitas tiempo.',
+          'necesitaras tiempo.',
+          'necesitabas tiempo.'
+        ],
+        correct: 2,
+        explanation: 'После "no comprendía que" требуется Imperfecto de Subjuntivo: necesitaras.'
+      }
+    ]
+  },
+
+  'ex-12-1-5': {
+    id: 'ex-12-1-5',
+    type: 'translation',
+    title: 'Перевод на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя Imperfecto de Subjuntivo.',
+    questions: [
+      {
+        russian: 'Мама не хотела, чтобы мой брат мне помогал делать уроки, она настаивала, чтобы я сам выполнял все задания.',
+        spanish: 'mi madre no quería que mi hermano me ayudara a hacer los deberes, insistía en que yo mismo hiciera todas las tareas',
+        alternatives: ['mamá no quería que mi hermano me ayudara a hacer los deberes, insistía en que yo mismo hiciera todas las tareas', 'mi madre no quería que mi hermano me ayudase a hacer los deberes, insistía en que yo mismo hiciese todas las tareas']
+      },
+      {
+        russian: 'Директор сказал, что он ждет важного клиента, и чтобы секретарь принесла ему все необходимые документы.',
+        spanish: 'el director dijo que esperaba a un cliente importante y que la secretaria le trajera todos los documentos necesarios',
+        alternatives: ['el director dijo que esperaba un cliente importante y que la secretaria le trajese todos los documentos necesarios']
+      },
+      {
+        russian: 'Врач запретил мне ехать на море, и посоветовал находиться поменьше на солнце.',
+        spanish: 'el médico me prohibió que fuera al mar y me aconsejó que estuviera menos tiempo al sol',
+        alternatives: ['el médico me prohibió que fuese al mar y me aconsejó que estuviese menos tiempo al sol', 'el doctor me prohibió que fuera al mar y me aconsejó que estuviera menos tiempo al sol']
+      },
+      {
+        russian: 'Было странно, что Теодоро знает о нашем секрете, ведь я просила тебя ничего ему не говорить.',
+        spanish: 'era extraño que teodoro supiera de nuestro secreto, pues yo te había pedido que no le dijeras nada',
+        alternatives: ['era raro que teodoro supiera de nuestro secreto, pues yo te había pedido que no le dijeras nada', 'era extraño que teodoro supiese de nuestro secreto, pues yo te había pedido que no le dijeses nada']
+      },
+      {
+        russian: 'Донье Исабель было приятно, что внуки проводят с ней каникулы, и не хотят уезжать домой.',
+        spanish: 'a doña isabel le agradaba que los nietos pasaran las vacaciones con ella y no quisieran irse a casa',
+        alternatives: ['a doña isabel le gustaba que los nietos pasaran las vacaciones con ella y no quisieran irse a casa', 'a doña isabel le agradaba que los nietos pasasen las vacaciones con ella y no quisiesen irse a casa']
+      },
+      {
+        russian: 'Начальник возмутился, что Карлос все время опаздывает на работу, и приказал его уволить.',
+        spanish: 'el jefe se indignó de que carlos siempre llegara tarde al trabajo y ordenó que lo despidieran',
+        alternatives: ['el jefe se indignó de que carlos siempre llegase tarde al trabajo y ordenó que lo despidiesen', 'el director se indignó de que carlos siempre llegara tarde al trabajo y ordenó que lo despidieran']
+      },
+      {
+        russian: 'Они обрадовались, что их любимый актер будет исполнять главную роль в спектакле.',
+        spanish: 'se alegraron de que su actor favorito fuera a interpretar el papel principal en el espectáculo',
+        alternatives: ['se alegraron de que su actor favorito fuese a interpretar el papel principal en el espectáculo', 'ellos se alegraron de que su actor favorito fuera a interpretar el papel principal en el espectáculo']
+      },
+      {
+        russian: 'Я боялась, что Анна обидится, если я не приглашу ее на выставку.',
+        spanish: 'temía que ana se ofendiera si no la invitara a la exposición',
+        alternatives: ['yo temía que ana se ofendiera si no la invitara a la exposición', 'temía que ana se ofendiese si no la invitase a la exposición']
+      },
+      {
+        russian: 'Мы не сомневались, что нашим друзьям понравится идея поехать на выходные в горы, но не были уверены, что они смогут справиться с трудностями путешествия.',
+        spanish: 'no dudábamos de que a nuestros amigos les gustara la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que pudieran superar las dificultades del viaje',
+        alternatives: ['no dudábamos de que a nuestros amigos les gustase la idea de ir a las montañas el fin de semana, pero no estábamos seguros de que pudiesen superar las dificultades del viaje']
+      },
+      {
+        russian: 'Всех удивляло, что все праздничные дни он скучал и не знал, чем заняться. Жаль, что он не умеет весело проводить время.',
+        spanish: 'a todos les sorprendía que durante todos los días festivos él se aburriera y no supiera qué hacer. es una lástima que no sepa divertirse',
+        alternatives: ['a todos les sorprendía que durante todos los días festivos él se aburriese y no supiese qué hacer. es una lástima que no sepa divertirse']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 1 - ГЛАГОЛ FALTAR
+  // =============================================
+  'ex-12-1-6': {
+    id: 'ex-12-1-6',
+    type: 'translation',
+    title: 'Перевод: Глагол faltar и выражение falta',
+    description: 'Переведите предложения на испанский язык, используя глагол faltar и выражение falta.',
+    questions: [
+      {
+        russian: 'Осталось две недели до экзамена, поэтому я не могу пропускать занятия.',
+        spanish: 'faltan dos semanas para el examen, por eso no puedo faltar a las clases',
+        alternatives: ['quedan dos semanas para el examen, por eso no puedo faltar a clase']
+      },
+      {
+        russian: 'Мы не были уверены, что он сдержит своё обещание.',
+        spanish: 'no estábamos seguros de que cumpliera su promesa',
+        alternatives: ['no estábamos seguros de que él cumpliera su promesa', 'no estábamos seguros de que cumpliese su promesa']
+      },
+      {
+        russian: 'Она отказалась от нашего приглашения, потому что ты ей нагрубил. Тебе надо попросить у неё прощения. — Ещё чего не хватало!',
+        spanish: 'rechazó nuestra invitación porque le fuiste grosero. tienes que pedirle perdón. — ¡no faltaba más!',
+        alternatives: ['ella rechazó nuestra invitación porque fuiste grosero con ella. debes pedirle perdón. — ¡lo que faltaba!']
+      },
+      {
+        russian: 'Странно, что в их проекте столько ошибок.',
+        spanish: 'es extraño que haya tantos errores en su proyecto',
+        alternatives: ['es raro que haya tantos errores en su proyecto', 'es extraño que su proyecto tenga tantos errores']
+      },
+      {
+        russian: 'Всё готово. Остаётся только накрыть на стол.',
+        spanish: 'todo está listo. solo falta poner la mesa',
+        alternatives: ['todo está preparado. solo queda poner la mesa', 'ya está todo. solo falta poner la mesa']
+      },
+      {
+        russian: 'Здесь не хватает двух стульев и одного прибора.',
+        spanish: 'aquí faltan dos sillas y un cubierto',
+        alternatives: ['aquí hacen falta dos sillas y un cubierto']
+      },
+      {
+        russian: 'Обязательно попробуйте паэлью, когда будете в Валенсии.',
+        spanish: 'no dejen de probar la paella cuando estén en valencia',
+        alternatives: ['tienen que probar la paella cuando estén en valencia', 'asegúrense de probar la paella cuando estén en valencia']
+      },
+      {
+        russian: 'Почему тебя не было вчера на репетиции?',
+        spanish: '¿por qué faltaste ayer al ensayo?',
+        alternatives: ['¿por qué no viniste ayer al ensayo?', '¿por qué no estuviste ayer en el ensayo?']
+      },
+      {
+        russian: 'В номере грязно. Надо, чтобы горничная сделала уборку, прежде чем вернутся гости.',
+        spanish: 'la habitación está sucia. hace falta que la camarera limpie antes de que vuelvan los huéspedes',
+        alternatives: ['el cuarto está sucio. es necesario que la camarera limpie antes de que regresen los huéspedes']
+      },
+      {
+        russian: 'Ему не хватает терпения.',
+        spanish: 'le falta paciencia',
+        alternatives: ['a él le falta paciencia', 'carece de paciencia']
+      },
+      {
+        russian: 'Сколько километров осталось до Мадрида?',
+        spanish: '¿cuántos kilómetros faltan para madrid?',
+        alternatives: ['¿cuántos kilómetros quedan para llegar a madrid?']
+      },
+      {
+        russian: 'Мне не хватает времени, чтобы закончить эту работу.',
+        spanish: 'me falta tiempo para terminar este trabajo',
+        alternatives: ['no me alcanza el tiempo para terminar este trabajo', 'no tengo suficiente tiempo para terminar este trabajo']
+      },
+      {
+        russian: 'До отправления поезда осталось пять минут.',
+        spanish: 'faltan cinco minutos para la salida del tren',
+        alternatives: ['quedan cinco minutos para que salga el tren']
+      },
+      {
+        russian: 'Ей очень не хватает семьи, когда она в командировке.',
+        spanish: 'echa mucho de menos a su familia cuando está de viaje de negocios',
+        alternatives: ['le falta mucho su familia cuando está en viaje de trabajo', 'extraña mucho a su familia cuando está de viaje de negocios']
+      },
+      {
+        russian: 'В этом тексте не хватает нескольких страниц.',
+        spanish: 'a este texto le faltan varias páginas',
+        alternatives: ['en este texto faltan algunas páginas', 'a este texto le faltan algunas páginas']
+      },
+      {
+        russian: 'Ты опять опоздал! Только этого не хватало!',
+        spanish: '¡has llegado tarde otra vez! ¡solo faltaba eso!',
+        alternatives: ['¡otra vez has llegado tarde! ¡lo que faltaba!', '¡llegas tarde de nuevo! ¡no faltaba más!']
+      },
+      {
+        russian: 'Мне не хватает слов, чтобы выразить свою благодарность.',
+        spanish: 'me faltan palabras para expresar mi agradecimiento',
+        alternatives: ['no encuentro palabras para expresar mi gratitud', 'me faltan palabras para expresar mi gratitud']
+      },
+      {
+        russian: 'Осталось мало времени. Нам нужно торопиться.',
+        spanish: 'falta poco tiempo. tenemos que darnos prisa',
+        alternatives: ['queda poco tiempo. debemos apresurarnos', 'no queda mucho tiempo. hay que darse prisa']
+      },
+      {
+        russian: 'Для этого блюда не хватает соли и перца.',
+        spanish: 'a este plato le falta sal y pimienta',
+        alternatives: ['a este plato le faltan sal y pimienta', 'este plato necesita más sal y pimienta']
+      },
+      {
+        russian: 'Она никогда не пропускает занятия по испанскому.',
+        spanish: 'ella nunca falta a las clases de español',
+        alternatives: ['nunca falta a clase de español', 'ella jamás falta a las clases de español']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 1 - ФРАЗЫ ДЛЯ ПЕРЕВОДА
+  // =============================================
+  'ex-12-1-translation': {
+    id: 'ex-12-1-translation',
+    type: 'translation',
+    title: 'Фразы для перевода: Imperfecto de Subjuntivo',
+    description: 'Переведите фразы с русского на испанский, используя Imperfecto de Subjuntivo',
+    questions: [
+      {
+        russian: 'Я хотел, чтобы ты мне помог.',
+        spanish: 'quería que me ayudaras',
+        alternatives: ['yo quería que me ayudaras', 'quería que me ayudases']
+      },
+      {
+        russian: 'Было важно, чтобы он пришёл вовремя.',
+        spanish: 'era importante que él llegara a tiempo',
+        alternatives: ['era importante que llegara a tiempo', 'era importante que él llegase a tiempo']
+      },
+      {
+        russian: 'Мама попросила, чтобы я купил хлеб.',
+        spanish: 'mamá me pidió que comprara pan',
+        alternatives: ['mi madre me pidió que comprara pan', 'mamá me pidió que comprase pan']
+      },
+      {
+        russian: 'Они сомневались, что мы знаем правду.',
+        spanish: 'dudaban que supiéramos la verdad',
+        alternatives: ['ellos dudaban que supiéramos la verdad', 'dudaban que supiésemos la verdad']
+      },
+      {
+        russian: 'Учитель хотел, чтобы ученики слушали внимательно.',
+        spanish: 'el profesor quería que los alumnos escucharan con atención',
+        alternatives: ['el maestro quería que los alumnos escucharan atentamente', 'el profesor quería que los estudiantes escucharan con atención']
+      },
+      {
+        russian: 'Если бы у меня было время, я бы больше читал.',
+        spanish: 'si tuviera tiempo, leería más',
+        alternatives: ['si tuviese tiempo, leería más']
+      },
+      {
+        russian: 'Если бы я знал испанский, я бы поехал в Испанию.',
+        spanish: 'si supiera español, viajaría a españa',
+        alternatives: ['si supiese español, viajaría a españa', 'si supiera español, iría a españa']
+      },
+      {
+        russian: 'Если бы я мог, я бы тебе помог.',
+        spanish: 'si pudiera, te ayudaría',
+        alternatives: ['si pudiese, te ayudaría']
+      },
+      {
+        russian: 'Если бы у меня было больше времени!',
+        spanish: '¡ojalá tuviera más tiempo!',
+        alternatives: ['¡ojalá tuviese más tiempo!']
+      },
+      {
+        russian: 'Если бы ты был здесь!',
+        spanish: '¡ojalá estuvieras aquí!',
+        alternatives: ['¡ojalá estuvieses aquí!']
+      },
+      {
+        russian: 'Он говорит, как будто всё знает.',
+        spanish: 'habla como si supiera todo',
+        alternatives: ['él habla como si supiera todo', 'habla como si lo supiera todo']
+      },
+      {
+        russian: 'Она ведёт себя, как будто она начальник.',
+        spanish: 'se comporta como si fuera la jefa',
+        alternatives: ['ella se comporta como si fuera la jefa', 'actúa como si fuera la jefa']
+      },
+      {
+        russian: 'Мне было жаль, что ты не смог прийти.',
+        spanish: 'sentía que no pudieras venir',
+        alternatives: ['me daba pena que no pudieras venir', 'lamentaba que no pudieras venir']
+      },
+      {
+        russian: 'Было необходимо, чтобы все учились.',
+        spanish: 'era necesario que todos estudiaran',
+        alternatives: ['era necesario que todos estudiasen']
+      },
+      {
+        russian: 'Я боялся, что пойдёт дождь.',
+        spanish: 'temía que lloviera',
+        alternatives: ['tenía miedo de que lloviera', 'temía que lloviese']
+      },
+      {
+        russian: 'Родители не разрешали, чтобы дети играли допоздна.',
+        spanish: 'los padres no permitían que los niños jugaran hasta tarde',
+        alternatives: ['los padres no dejaban que los niños jugaran hasta tarde']
+      },
+      {
+        russian: 'Врач посоветовал, чтобы я больше отдыхал.',
+        spanish: 'el médico me aconsejó que descansara más',
+        alternatives: ['el doctor me aconsejó que descansara más', 'el médico me recomendó que descansara más']
+      },
+      {
+        russian: 'Было странно, что он не знал ответ.',
+        spanish: 'era extraño que no supiera la respuesta',
+        alternatives: ['era raro que no supiera la respuesta', 'era extraño que él no supiera la respuesta']
+      },
+      {
+        russian: 'Мы хотели, чтобы вы нас навестили.',
+        spanish: 'queríamos que nos visitarais',
+        alternatives: ['queríamos que nos visitaran', 'queríamos que vosotros nos visitarais']
+      },
+      {
+        russian: 'Она попросила, чтобы я её подождал.',
+        spanish: 'me pidió que la esperara',
+        alternatives: ['ella me pidió que la esperara', 'me pidió que la esperase']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12: УРОК 2 - УПРАЖНЕНИЯ
+  // =============================================
+
+  'ex-12-2-1': {
+    id: 'ex-12-2-1',
+    type: 'subjunctive',
+    title: 'Трансформация предложений с временными союзами',
+    description: 'Измените предложения по образцу, добавив указанный союз и трансформировав в прошедшее время. Образец: Te diré la verdad y me comprenderás. (En cuanto…) → En cuanto yo te diga la verdad, me comprenderás. → Yo estaba seguro de que en cuanto te dijera la verdad, me comprenderías.',
+    questions: [
+      {
+        text: 'Todos vendrán y discutiremos el programa. (Antes de que…) → Трансформируйте в будущее и прошедшее:',
+        options: [
+          'Antes de que todos vengan, discutiremos el programa. → Pensé que antes de que todos vinieran, discutiríamos el programa.',
+          'Antes de que todos vienen, discutimos el programa. → Pensé que antes de que todos venían, discutíamos el programa.',
+          'Antes que todos vendrán, discutiremos el programa. → Pensé que antes todos vendrían, discutiríamos el programa.',
+          'Antes de que todos vengan, discutimos el programa. → Pensé que antes de que todos vengan, discutiríamos el programa.'
+        ],
+        correct: 0,
+        explanation: 'После "antes de que" всегда используется Subjuntivo: vengan (Presente), vinieran (Imperfecto).'
+      },
+      {
+        text: 'Traduciréis el artículo y nos lo leeréis. (Después de que…) → Трансформируйте:',
+        options: [
+          'Después de que traduzcáis el artículo, nos lo leeréis. → Esperaba que después de que tradujerais el artículo, nos lo leyerais.',
+          'Después de que traducís el artículo, nos lo leéis. → Esperaba que después de que traducíais el artículo, nos lo leíais.',
+          'Después de que traduciréis el artículo, nos lo leeréis. → Esperaba que después de que traduciríais el artículo, nos lo leeríais.',
+          'Después que traducís el artículo, nos lo leéis. → Esperaba que después traducíais el artículo, nos lo leíais.'
+        ],
+        correct: 0,
+        explanation: 'После "después de que" в будущем используется Subjuntivo: traduzcáis, tradujerais.'
+      },
+      {
+        text: 'Estaremos en el teatro y los hijos cenarán y se acostarán. (Mientras…) → Трансформируйте:',
+        options: [
+          'Mientras estemos en el teatro, los hijos cenarán y se acostarán. → Sabía que mientras estuviéramos en el teatro, los hijos cenarían y se acostarían.',
+          'Mientras estamos en el teatro, los hijos cenan y se acuestan. → Sabía que mientras estábamos en el teatro, los hijos cenaban y se acostaban.',
+          'Mientras estaremos en el teatro, los hijos cenarán y se acostarán. → Sabía que mientras estaríamos en el teatro, los hijos cenarían y se acostarían.',
+          'Mientras que estamos en el teatro, los hijos cenan. → Sabía que mientras estábamos, los hijos cenaban.'
+        ],
+        correct: 0,
+        explanation: 'После "mientras" для будущего действия используется Subjuntivo: estemos, estuviéramos.'
+      },
+      {
+        text: 'Nuestros amigos tendrán tiempo y nos veremos. (Cuando…) → Трансформируйте:',
+        options: [
+          'Cuando nuestros amigos tengan tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tuvieran tiempo, nos veríamos.',
+          'Cuando nuestros amigos tienen tiempo, nos vemos. → Estaba seguro de que cuando nuestros amigos tenían tiempo, nos veíamos.',
+          'Cuando nuestros amigos tendrán tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tendrían tiempo, nos veríamos.',
+          'Cuando nuestros amigos tienen tiempo, nos veremos. → Estaba seguro de que cuando tengan tiempo, nos veríamos.'
+        ],
+        correct: 0,
+        explanation: 'После "cuando" для будущего используется Subjuntivo: tengan, tuvieran.'
+      },
+      {
+        text: 'Te concederán las vacaciones e iremos a descansar. (En cuanto…) → Трансформируйте:',
+        options: [
+          'En cuanto te concedan las vacaciones, iremos a descansar. → Esperaba que en cuanto te concedieran las vacaciones, iríamos a descansar.',
+          'En cuanto te conceden las vacaciones, vamos a descansar. → Esperaba que en cuanto te concedían las vacaciones, íbamos a descansar.',
+          'En cuanto te concederán las vacaciones, iremos a descansar. → Esperaba que en cuanto te concederían las vacaciones, iríamos a descansar.',
+          'En cuanto te dan las vacaciones, vamos. → Esperaba que en cuanto te daban las vacaciones, íbamos.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Subjuntivo для будущего: concedan, concedieran.'
+      },
+      {
+        text: 'Nos pondremos a comer palomitas durante la ópera y el acomodador nos echará de la sala. (Apenas…) → Трансформируйте:',
+        options: [
+          'Apenas nos pongamos a comer palomitas, el acomodador nos echará de la sala. → Sabía que apenas nos pusiéramos a comer palomitas, el acomodador nos echaría de la sala.',
+          'Apenas nos ponemos a comer palomitas, el acomodador nos echa de la sala. → Sabía que apenas nos poníamos a comer palomitas, el acomodador nos echaba de la sala.',
+          'Apenas nos pondremos a comer palomitas, el acomodador nos echará. → Sabía que apenas nos pondríamos a comer palomitas, el acomodador nos echaría.',
+          'Apenas comemos palomitas, nos echan. → Sabía que apenas comíamos, nos echaban.'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + Subjuntivo для будущего: pongamos, pusiéramos.'
+      },
+      {
+        text: 'Tocaré a la puerta y tú me la abrirás. (Hasta que…) → Трансформируйте:',
+        options: [
+          'Tocaré a la puerta hasta que me la abras. → Pensé que tocaría a la puerta hasta que me la abrieras.',
+          'Toco a la puerta hasta que me la abres. → Pensé que tocaba a la puerta hasta que me la abrías.',
+          'Tocaré a la puerta hasta que me la abrirás. → Pensé que tocaría a la puerta hasta que me la abrirías.',
+          'Toco hasta que abres. → Pensé que tocaba hasta que abrías.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Subjuntivo для будущего: abras, abrieras.'
+      },
+      {
+        text: 'Terminaremos de ensayar y vendrá el público. (Antes de que…) → Трансформируйте:',
+        options: [
+          'Terminaremos de ensayar antes de que venga el público. → Esperaba que termináramos de ensayar antes de que viniera el público.',
+          'Terminamos de ensayar antes de que viene el público. → Esperaba que terminábamos de ensayar antes de que venía el público.',
+          'Terminaremos de ensayar antes que vendrá el público. → Esperaba que terminaríamos antes que vendría el público.',
+          'Terminamos antes de que viene. → Esperaba que terminábamos antes de que venía.'
+        ],
+        correct: 0,
+        explanation: '"Antes de que" siempre con Subjuntivo: venga, viniera.'
+      },
+      {
+        text: 'Darán ustedes un paseo y disfrutarán de las cosas hermosas de su ciudad. (Cuando…) → Трансформируйте:',
+        options: [
+          'Cuando den ustedes un paseo, disfrutarán de las cosas hermosas. → Pensaba que cuando dieran ustedes un paseo, disfrutarían de las cosas hermosas.',
+          'Cuando dan ustedes un paseo, disfrutan de las cosas hermosas. → Pensaba que cuando daban ustedes un paseo, disfrutaban de las cosas hermosas.',
+          'Cuando darán ustedes un paseo, disfrutarán. → Pensaba que cuando darían un paseo, disfrutarían.',
+          'Cuando dan un paseo, disfrutan. → Pensaba que cuando daban, disfrutaban.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Subjuntivo para el futuro: den, dieran.'
+      },
+      {
+        text: 'La orquesta tocará el vals y yo bailaré contigo. (Mientras…) → Трансформируйте:',
+        options: [
+          'Mientras la orquesta toque el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocara el vals, yo bailaría contigo.',
+          'Mientras la orquesta toca el vals, yo bailo contigo. → Soñaba con que mientras la orquesta tocaba el vals, yo bailaba contigo.',
+          'Mientras la orquesta tocará el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocaría el vals, yo bailaría contigo.',
+          'Mientras toca, bailo. → Soñaba con que mientras tocaba, bailaba.'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + Subjuntivo para el futuro: toque, tocara.'
+      },
+      {
+        text: 'Llegaremos al aeropuerto y facturaremos el equipaje. (En cuanto…) → Трансформируйте:',
+        options: [
+          'En cuanto lleguemos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegáramos al aeropuerto, facturaríamos el equipaje.',
+          'En cuanto llegamos al aeropuerto, facturamos el equipaje. → Pensé que en cuanto llegábamos al aeropuerto, facturábamos el equipaje.',
+          'En cuanto llegaremos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegaríamos, facturaríamos.',
+          'En cuanto llegamos, facturamos. → Pensé que en cuanto llegábamos, facturábamos.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Subjuntivo para el futuro: lleguemos, llegáramos.'
+      },
+      {
+        text: 'Saldrá el sol y empezaremos la excursión. (Apenas…) → Трансформируйте:',
+        options: [
+          'Apenas salga el sol, empezaremos la excursión. → Esperábamos que apenas saliera el sol, empezaríamos la excursión.',
+          'Apenas sale el sol, empezamos la excursión. → Esperábamos que apenas salía el sol, empezábamos la excursión.',
+          'Apenas saldrá el sol, empezaremos la excursión. → Esperábamos que apenas saldría el sol, empezaríamos la excursión.',
+          'Apenas sale, empezamos. → Esperábamos que apenas salía, empezábamos.'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + Subjuntivo para el futuro: salga, saliera.'
+      },
+      {
+        text: 'Terminaré el trabajo y te llamaré. (Después de que…) → Трансформируйте:',
+        options: [
+          'Después de que termine el trabajo, te llamaré. → Prometí que después de que terminara el trabajo, te llamaría.',
+          'Después de que termino el trabajo, te llamo. → Prometí que después de que terminaba el trabajo, te llamaba.',
+          'Después de que terminaré el trabajo, te llamaré. → Prometí que después de que terminaría el trabajo, te llamaría.',
+          'Después termino, te llamo. → Prometí que después terminaba, te llamaba.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Subjuntivo para el futuro: termine, terminara.'
+      },
+      {
+        text: 'Los niños se dormirán y podremos hablar tranquilamente. (Cuando…) → Трансформируйте:',
+        options: [
+          'Cuando los niños se duerman, podremos hablar tranquilamente. → Esperaba que cuando los niños se durmieran, podríamos hablar tranquilamente.',
+          'Cuando los niños se duermen, podemos hablar tranquilamente. → Esperaba que cuando los niños se dormían, podíamos hablar tranquilamente.',
+          'Cuando los niños se dormirán, podremos hablar. → Esperaba que cuando los niños se dormirían, podríamos hablar.',
+          'Cuando duermen, podemos hablar. → Esperaba que cuando dormían, podíamos hablar.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Subjuntivo para el futuro: se duerman, se durmieran.'
+      },
+      {
+        text: 'Recibirás la carta y me contestarás. (Hasta que…) → Трансформируйте:',
+        options: [
+          'Esperaré hasta que recibas la carta y me contestes. → Decidí esperar hasta que recibieras la carta y me contestaras.',
+          'Espero hasta que recibes la carta y me contestas. → Decidí esperar hasta que recibías la carta y me contestabas.',
+          'Esperaré hasta que recibirás la carta y me contestarás. → Decidí esperar hasta que recibirías la carta y me contestarías.',
+          'Espero hasta que recibes y contestas. → Decidí esperar hasta que recibías y contestabas.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Subjuntivo para el futuro: recibas/contestes, recibieras/contestaras.'
+      }
+    ]
+  },
+
+  'ex-12-2-2': {
+    id: 'ex-12-2-2',
+    type: 'subjunctive',
+    title: 'Поставьте предложения в будущее время',
+    description: 'Трансформируйте предложения из прошедшего времени в будущее. Образец: Dormí hasta que sonó el despertador. → Dormiré hasta que suene el despertador.',
+    questions: [
+      {
+        text: 'Después de que ellos vinieron, nos pusimos a discutir nuestro proyecto. → Поставьте в будущее:',
+        options: [
+          'Después de que ellos vengan, nos pondremos a discutir nuestro proyecto.',
+          'Después de que ellos vienen, nos ponemos a discutir nuestro proyecto.',
+          'Después de que ellos vendrán, nos pondremos a discutir nuestro proyecto.',
+          'Después de que ellos han venido, nos hemos puesto a discutir nuestro proyecto.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Presente de Subjuntivo para el futuro: vengan.'
+      },
+      {
+        text: 'Mientras Jorge veía el fútbol, yo hacía la cena. → Поставьте в будущее:',
+        options: [
+          'Mientras Jorge vea el fútbol, yo haré la cena.',
+          'Mientras Jorge ve el fútbol, yo hago la cena.',
+          'Mientras Jorge verá el fútbol, yo haré la cena.',
+          'Mientras Jorge ha visto el fútbol, yo he hecho la cena.'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + Presente de Subjuntivo para el futuro: vea.'
+      },
+      {
+        text: 'Estuve trabajando en la biblioteca hasta que la cerraron. → Поставьте в будущее:',
+        options: [
+          'Estaré trabajando en la biblioteca hasta que la cierren.',
+          'Estoy trabajando en la biblioteca hasta que la cierran.',
+          'Estaré trabajando en la biblioteca hasta que la cerrarán.',
+          'He estado trabajando en la biblioteca hasta que la han cerrado.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: cierren.'
+      },
+      {
+        text: 'En cuanto tradujimos el artículo, se lo trajimos al redactor. → Поставьте в будущее:',
+        options: [
+          'En cuanto traduzcamos el artículo, se lo traeremos al redactor.',
+          'En cuanto traducimos el artículo, se lo traemos al redactor.',
+          'En cuanto traduciremos el artículo, se lo traeremos al redactor.',
+          'En cuanto hemos traducido el artículo, se lo hemos traído al redactor.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: traduzcamos.'
+      },
+      {
+        text: 'Cuando Raúl lo supo, se enfadó contigo. → Поставьте в будущее:',
+        options: [
+          'Cuando Raúl lo sepa, se enfadará contigo.',
+          'Cuando Raúl lo sabe, se enfada contigo.',
+          'Cuando Raúl lo sabrá, se enfadará contigo.',
+          'Cuando Raúl lo ha sabido, se ha enfadado contigo.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Presente de Subjuntivo para el futuro: sepa.'
+      },
+      {
+        text: 'Después de que te hospitalizaron e hicieron la operación, te sentiste mejor. → Поставьте в будущее:',
+        options: [
+          'Después de que te hospitalicen y te hagan la operación, te sentirás mejor.',
+          'Después de que te hospitalizan y te hacen la operación, te sientes mejor.',
+          'Después de que te hospitalizarán y te harán la operación, te sentirás mejor.',
+          'Después de que te han hospitalizado y te han hecho la operación, te has sentido mejor.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Presente de Subjuntivo: hospitalicen, hagan.'
+      },
+      {
+        text: 'Los niños se negaron a acostarse hasta que se fueron todos los invitados. → Поставьте в будущее:',
+        options: [
+          'Los niños se negarán a acostarse hasta que se vayan todos los invitados.',
+          'Los niños se niegan a acostarse hasta que se van todos los invitados.',
+          'Los niños se negarán a acostarse hasta que se irán todos los invitados.',
+          'Los niños se han negado a acostarse hasta que se han ido todos los invitados.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: se vayan.'
+      },
+      {
+        text: 'En cuanto ganaste la partida, te felicitamos. → Поставьте в будущее:',
+        options: [
+          'En cuanto ganes la partida, te felicitaremos.',
+          'En cuanto ganas la partida, te felicitamos.',
+          'En cuanto ganarás la partida, te felicitaremos.',
+          'En cuanto has ganado la partida, te hemos felicitado.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: ganes.'
+      },
+      {
+        text: 'Después de que Susi cruzó la plaza, vio el monumento a Lope de Vega. → Поставьте в будущее:',
+        options: [
+          'Después de que Susi cruce la plaza, verá el monumento a Lope de Vega.',
+          'Después de que Susi cruza la plaza, ve el monumento a Lope de Vega.',
+          'Después de que Susi cruzará la plaza, verá el monumento a Lope de Vega.',
+          'Después de que Susi ha cruzado la plaza, ha visto el monumento a Lope de Vega.'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + Presente de Subjuntivo para el futuro: cruce.'
+      },
+      {
+        text: 'Me entrené hasta que logré buenos resultados. → Поставьте в будущее:',
+        options: [
+          'Me entrenaré hasta que logre buenos resultados.',
+          'Me entreno hasta que logro buenos resultados.',
+          'Me entrenaré hasta que lograré buenos resultados.',
+          'Me he entrenado hasta que he logrado buenos resultados.'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: logre.'
+      },
+      {
+        text: 'Cuando terminé el libro, lo devolví a la biblioteca. → Поставьте в будущее:',
+        options: [
+          'Cuando termine el libro, lo devolveré a la biblioteca.',
+          'Cuando termino el libro, lo devuelvo a la biblioteca.',
+          'Cuando terminaré el libro, lo devolveré a la biblioteca.',
+          'Cuando he terminado el libro, lo he devuelto a la biblioteca.'
+        ],
+        correct: 0,
+        explanation: '"Cuando" + Presente de Subjuntivo para el futuro: termine.'
+      },
+      {
+        text: 'Apenas llegaron los músicos, empezó el concierto. → Поставьте в будущее:',
+        options: [
+          'Apenas lleguen los músicos, empezará el concierto.',
+          'Apenas llegan los músicos, empieza el concierto.',
+          'Apenas llegarán los músicos, empezará el concierto.',
+          'Apenas han llegado los músicos, ha empezado el concierto.'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + Presente de Subjuntivo para el futuro: lleguen.'
+      },
+      {
+        text: 'Mientras los padres trabajaban, los abuelos cuidaban a los niños. → Поставьте в будущее:',
+        options: [
+          'Mientras los padres trabajen, los abuelos cuidarán a los niños.',
+          'Mientras los padres trabajan, los abuelos cuidan a los niños.',
+          'Mientras los padres trabajarán, los abuelos cuidarán a los niños.',
+          'Mientras los padres han trabajado, los abuelos han cuidado a los niños.'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + Presente de Subjuntivo para el futuro: trabajen.'
+      },
+      {
+        text: 'Antes de que empezó la película, compramos palomitas. → Поставьте в будущее:',
+        options: [
+          'Antes de que empiece la película, compraremos palomitas.',
+          'Antes de que empieza la película, compramos palomitas.',
+          'Antes de que empezará la película, compraremos palomitas.',
+          'Antes de que ha empezado la película, hemos comprado palomitas.'
+        ],
+        correct: 0,
+        explanation: '"Antes de que" siempre con Subjuntivo: empiece.'
+      },
+      {
+        text: 'Salió de casa en cuanto dejó de llover. → Поставьте в будущее:',
+        options: [
+          'Saldrá de casa en cuanto deje de llover.',
+          'Sale de casa en cuanto deja de llover.',
+          'Saldrá de casa en cuanto dejará de llover.',
+          'Ha salido de casa en cuanto ha dejado de llover.'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: deje.'
+      }
+    ]
+  },
+
+  'ex-12-2-3': {
+    id: 'ex-12-2-3',
+    type: 'subjunctive',
+    title: 'Выберите Subjuntivo или Indicativo',
+    description: 'Поставьте глаголы в соответствующую форму modo subjuntivo или modo indicativo.',
+    questions: [
+      {
+        text: 'Nos iremos a España en cuanto (recibir, nosotros) el visado.',
+        options: [
+          'recibamos',
+          'recibimos',
+          'recibiremos',
+          'recibíamos'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + futuro requiere Presente de Subjuntivo: recibamos.'
+      },
+      {
+        text: 'Se lo diré todo a María después de que (volver, ella) a casa.',
+        options: [
+          'vuelva',
+          'vuelve',
+          'volverá',
+          'volvía'
+        ],
+        correct: 0,
+        explanation: '"Después de que" + futuro requiere Presente de Subjuntivo: vuelva.'
+      },
+      {
+        text: 'No podemos enviarles el documento hasta que el jefe (firmarlo).',
+        options: [
+          'lo firme',
+          'lo firma',
+          'lo firmará',
+          'lo firmaba'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: lo firme.'
+      },
+      {
+        text: 'No saldremos a la calle mientras (llover).',
+        options: [
+          'llueva',
+          'llueve',
+          'lloverá',
+          'llovía'
+        ],
+        correct: 0,
+        explanation: '"Mientras" + futuro requiere Presente de Subjuntivo: llueva.'
+      },
+      {
+        text: 'No puedo trabajar cuando (molestarme).',
+        options: [
+          'me molestan',
+          'me molesten',
+          'me molestarán',
+          'me molestaban'
+        ],
+        correct: 0,
+        explanation: '"Cuando" con acción habitual usa Indicativo: me molestan.'
+      },
+      {
+        text: 'Ella te perdonará apenas (tú, explicárselo) todo.',
+        options: [
+          'se lo expliques',
+          'se lo explicas',
+          'se lo explicarás',
+          'se lo explicabas'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + futuro requiere Presente de Subjuntivo: se lo expliques.'
+      },
+      {
+        text: 'Al público le interesa cuándo el teatro (estrenar) el nuevo musical.',
+        options: [
+          'estrenará',
+          'estrene',
+          'estrena',
+          'estrenaba'
+        ],
+        correct: 0,
+        explanation: '"Cuándo" en pregunta indirecta usa Indicativo: estrenará.'
+      },
+      {
+        text: 'La asistenta limpiará la casa y preparará la comida hasta que Margarita (salir) del hospital.',
+        options: [
+          'salga',
+          'sale',
+          'saldrá',
+          'salía'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: salga.'
+      },
+      {
+        text: 'En cuanto (saber, ellos) la fecha de su llegada, te la comunicarán.',
+        options: [
+          'sepan',
+          'saben',
+          'sabrán',
+          'sabían'
+        ],
+        correct: 0,
+        explanation: '"En cuanto" + futuro requiere Presente de Subjuntivo: sepan.'
+      },
+      {
+        text: 'Debemos llamarlo antes de que él (irse) de viaje de negocios.',
+        options: [
+          'se vaya',
+          'se va',
+          'se irá',
+          'se iba'
+        ],
+        correct: 0,
+        explanation: '"Antes de que" siempre requiere Subjuntivo: se vaya.'
+      },
+      {
+        text: 'Yo siempre visitaba el museo de El Prado cuando (llegar) a España.',
+        options: [
+          'llegaba',
+          'llegue',
+          'llegara',
+          'llegaré'
+        ],
+        correct: 0,
+        explanation: '"Cuando" con acción habitual en el pasado usa Indicativo: llegaba.'
+      },
+      {
+        text: 'Les has preguntado cuándo los actores (ensayar) el espectáculo.',
+        options: [
+          'ensayarán',
+          'ensayen',
+          'ensayan',
+          'ensayaban'
+        ],
+        correct: 0,
+        explanation: '"Cuándo" en pregunta indirecta usa Indicativo: ensayarán.'
+      },
+      {
+        text: 'Te esperaré aquí hasta que (terminar, tú) de trabajar.',
+        options: [
+          'termines',
+          'terminas',
+          'terminarás',
+          'terminabas'
+        ],
+        correct: 0,
+        explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: termines.'
+      },
+      {
+        text: 'Cuando (ser, yo) pequeño, jugaba mucho en el parque.',
+        options: [
+          'era',
+          'sea',
+          'fuera',
+          'seré'
+        ],
+        correct: 0,
+        explanation: '"Cuando" con acción pasada usa Indicativo: era.'
+      },
+      {
+        text: 'Apenas (llegar, nosotros) a la estación, saldrá el tren.',
+        options: [
+          'lleguemos',
+          'llegamos',
+          'llegaremos',
+          'llegábamos'
+        ],
+        correct: 0,
+        explanation: '"Apenas" + futuro requiere Presente de Subjuntivo: lleguemos.'
+      }
+    ]
+  },
+
+  'ex-12-2-4': {
+    id: 'ex-12-2-4',
+    type: 'subjunctive',
+    title: 'Трансформация: Pablo pensó que...',
+    description: 'Начните предложения со слов «Pablo pensó que…» и сделайте соответствующие трансформации (согласование времён).',
+    questions: [
+      {
+        text: 'Nos iremos a España en cuanto recibamos el visado. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que nos iríamos a España en cuanto recibiéramos el visado.',
+          'Pablo pensó que nos vamos a España en cuanto recibamos el visado.',
+          'Pablo pensó que nos iremos a España en cuanto recibamos el visado.',
+          'Pablo pensó que nos fuimos a España en cuanto recibimos el visado.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: iremos → iríamos, recibamos → recibiéramos.'
+      },
+      {
+        text: 'Se lo diré todo a María después de que vuelva a casa. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que se lo diría todo a María después de que volviera a casa.',
+          'Pablo pensó que se lo dice todo a María después de que vuelve a casa.',
+          'Pablo pensó que se lo diré todo a María después de que vuelva a casa.',
+          'Pablo pensó que se lo dijo todo a María después de que volvió a casa.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: diré → diría, vuelva → volviera.'
+      },
+      {
+        text: 'No podemos enviarles el documento hasta que el jefe lo firme. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que no podían enviarles el documento hasta que el jefe lo firmara.',
+          'Pablo pensó que no pueden enviarles el documento hasta que el jefe lo firme.',
+          'Pablo pensó que no podremos enviarles el documento hasta que el jefe lo firme.',
+          'Pablo pensó que no pudieron enviarles el documento hasta que el jefe lo firmó.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: podemos → podían, firme → firmara.'
+      },
+      {
+        text: 'No saldremos a la calle mientras llueva. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que no saldríamos a la calle mientras lloviera.',
+          'Pablo pensó que no salimos a la calle mientras llueve.',
+          'Pablo pensó que no saldremos a la calle mientras llueva.',
+          'Pablo pensó que no salimos a la calle mientras llovía.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: saldremos → saldríamos, llueva → lloviera.'
+      },
+      {
+        text: 'Ella te perdonará apenas se lo expliques todo. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que ella te perdonaría apenas se lo explicaras todo.',
+          'Pablo pensó que ella te perdona apenas se lo explicas todo.',
+          'Pablo pensó que ella te perdonará apenas se lo expliques todo.',
+          'Pablo pensó que ella te perdonó apenas se lo explicaste todo.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: perdonará → perdonaría, expliques → explicaras.'
+      },
+      {
+        text: 'La asistenta limpiará la casa hasta que Margarita salga del hospital. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que la asistenta limpiaría la casa hasta que Margarita saliera del hospital.',
+          'Pablo pensó que la asistenta limpia la casa hasta que Margarita sale del hospital.',
+          'Pablo pensó que la asistenta limpiará la casa hasta que Margarita salga del hospital.',
+          'Pablo pensó que la asistenta limpió la casa hasta que Margarita salió del hospital.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: limpiará → limpiaría, salga → saliera.'
+      },
+      {
+        text: 'En cuanto sepan la fecha, te la comunicarán. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que en cuanto supieran la fecha, te la comunicarían.',
+          'Pablo pensó que en cuanto saben la fecha, te la comunican.',
+          'Pablo pensó que en cuanto sepan la fecha, te la comunicarán.',
+          'Pablo pensó que en cuanto supieron la fecha, te la comunicaron.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: sepan → supieran, comunicarán → comunicarían.'
+      },
+      {
+        text: 'Debemos llamarlo antes de que se vaya de viaje. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que debían llamarlo antes de que se fuera de viaje.',
+          'Pablo pensó que deben llamarlo antes de que se vaya de viaje.',
+          'Pablo pensó que debemos llamarlo antes de que se vaya de viaje.',
+          'Pablo pensó que debieron llamarlo antes de que se fue de viaje.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: debemos → debían, vaya → fuera.'
+      },
+      {
+        text: 'Te esperaré aquí hasta que termines de trabajar. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que te esperaría aquí hasta que terminaras de trabajar.',
+          'Pablo pensó que te espera aquí hasta que terminas de trabajar.',
+          'Pablo pensó que te esperaré aquí hasta que termines de trabajar.',
+          'Pablo pensó que te esperó aquí hasta que terminaste de trabajar.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: esperaré → esperaría, termines → terminaras.'
+      },
+      {
+        text: 'Apenas lleguemos a la estación, saldrá el tren. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que apenas llegáramos a la estación, saldría el tren.',
+          'Pablo pensó que apenas llegamos a la estación, sale el tren.',
+          'Pablo pensó que apenas lleguemos a la estación, saldrá el tren.',
+          'Pablo pensó que apenas llegamos a la estación, salió el tren.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: lleguemos → llegáramos, saldrá → saldría.'
+      },
+      {
+        text: 'Cuando los niños se duerman, podremos hablar tranquilamente. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que cuando los niños se durmieran, podrían hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se duermen, pueden hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se duerman, podremos hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se durmieron, pudieron hablar tranquilamente.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: se duerman → se durmieran, podremos → podrían.'
+      },
+      {
+        text: 'Mientras estemos en el teatro, los hijos cenarán en casa. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que mientras estuvieran en el teatro, los hijos cenarían en casa.',
+          'Pablo pensó que mientras están en el teatro, los hijos cenan en casa.',
+          'Pablo pensó que mientras estemos en el teatro, los hijos cenarán en casa.',
+          'Pablo pensó que mientras estuvieron en el teatro, los hijos cenaron en casa.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: estemos → estuvieran, cenarán → cenarían.'
+      },
+      {
+        text: 'Después de que traduzcamos el artículo, se lo traeremos al redactor. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que después de que tradujeran el artículo, se lo traerían al redactor.',
+          'Pablo pensó que después de que traducen el artículo, se lo traen al redactor.',
+          'Pablo pensó que después de que traduzcamos el artículo, se lo traeremos al redactor.',
+          'Pablo pensó que después de que tradujeron el artículo, se lo trajeron al redactor.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: traduzcamos → tradujeran, traeremos → traerían.'
+      },
+      {
+        text: 'Cuando Raúl lo sepa, se enfadará contigo. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que cuando Raúl lo supiera, se enfadaría contigo.',
+          'Pablo pensó que cuando Raúl lo sabe, se enfada contigo.',
+          'Pablo pensó que cuando Raúl lo sepa, se enfadará contigo.',
+          'Pablo pensó que cuando Raúl lo supo, se enfadó contigo.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: sepa → supiera, enfadará → enfadaría.'
+      },
+      {
+        text: 'Terminaremos de ensayar antes de que venga el público. → Pablo pensó que...',
+        options: [
+          'Pablo pensó que terminarían de ensayar antes de que viniera el público.',
+          'Pablo pensó que terminan de ensayar antes de que viene el público.',
+          'Pablo pensó que terminaremos de ensayar antes de que venga el público.',
+          'Pablo pensó que terminaron de ensayar antes de que vino el público.'
+        ],
+        correct: 0,
+        explanation: 'Согласование времён: terminaremos → terminarían, venga → viniera.'
+      }
+    ]
+  },
+
+  'ex-12-2-5': {
+    id: 'ex-12-2-5',
+    type: 'translation',
+    title: 'Перевод на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя временные союзы и правильные формы глаголов.',
+    questions: [
+      {
+        russian: 'Зрители будут аплодировать до тех пор, пока ты не выйдешь на сцену. Режиссер знал, что зрители будут аплодировать до тех пор, пока ты не выйдешь на сцену.',
+        spanish: 'los espectadores aplaudirán hasta que salgas al escenario. el director sabía que los espectadores aplaudirían hasta que salieras al escenario',
+        alternatives: ['el público aplaudirá hasta que salgas al escenario. el director sabía que el público aplaudiría hasta que salieras al escenario']
+      },
+      {
+        russian: 'Как только я узнаю, где она живет, я её навещу. Я пообещал, что как только узнаю, где она живет, её навещу.',
+        spanish: 'en cuanto sepa dónde vive, la visitaré. prometí que en cuanto supiera dónde vivía, la visitaría',
+        alternatives: ['apenas sepa dónde vive, la visitaré. prometí que apenas supiera dónde vivía, la visitaría']
+      },
+      {
+        russian: 'Надо будет вернуть им долг, пока они не уехали. Он подумал, что надо будет вернуть им долг, пока они не уехали.',
+        spanish: 'habrá que devolverles la deuda antes de que se vayan. pensó que habría que devolverles la deuda antes de que se fueran',
+        alternatives: ['hay que devolverles la deuda antes de que se vayan. pensó que había que devolverles la deuda antes de que se fueran']
+      },
+      {
+        russian: 'Секретарь не знала, когда приедет директор, и сказала, что как только она это узнает, сразу нам сообщит.',
+        spanish: 'la secretaria no sabía cuándo llegaría el director, y dijo que en cuanto lo supiera, nos lo comunicaría enseguida',
+        alternatives: ['la secretaria no sabía cuándo vendría el director, y dijo que en cuanto lo supiera, nos avisaría enseguida']
+      },
+      {
+        russian: 'До того, как Мариса вышла замуж, она жила в пригороде небольшого города.',
+        spanish: 'antes de que marisa se casara, vivía en las afueras de una pequeña ciudad',
+        alternatives: ['antes de casarse, marisa vivía en las afueras de una pequeña ciudad', 'antes de que marisa se casase, vivía en un suburbio de una pequeña ciudad']
+      },
+      {
+        russian: 'Как только мы приедем в аэропорт и сдадим вещи в багаж, до посадки у нас еще будет полно времени, чтобы купить подарки и сувениры.',
+        spanish: 'en cuanto lleguemos al aeropuerto y facturemos el equipaje, todavía tendremos mucho tiempo antes del embarque para comprar regalos y recuerdos',
+        alternatives: ['apenas lleguemos al aeropuerto y facturemos las maletas, aún tendremos mucho tiempo antes del embarque para comprar regalos y souvenirs']
+      },
+      {
+        russian: 'Пепита спросила, когда мы пойдем на пляж. Мать ответила, что когда будет тепло и вода в море прогреется до +23°.',
+        spanish: 'pepita preguntó cuándo iríamos a la playa. la madre contestó que cuando hiciera calor y el agua del mar se calentara hasta 23 grados',
+        alternatives: ['pepita preguntó cuándo íbamos a ir a la playa. la madre respondió que cuando hiciera calor y el agua del mar llegara a 23 grados']
+      },
+      {
+        russian: 'Я была уверена, что Хосе будет возмущаться, как только узнает, сколько стоят туфли, которые я купила.',
+        spanish: 'estaba segura de que josé se indignaría en cuanto supiera cuánto costaban los zapatos que había comprado',
+        alternatives: ['yo estaba segura de que josé se enfadaría en cuanto supiera cuánto costaban los zapatos que yo había comprado']
+      },
+      {
+        russian: 'До тех пор пока Вы не сдадите анализ крови, врач не сможет поставить Вам диагноз и назначить лечение.',
+        spanish: 'hasta que usted no se haga el análisis de sangre, el médico no podrá hacerle el diagnóstico ni prescribirle el tratamiento',
+        alternatives: ['mientras no se haga el análisis de sangre, el médico no podrá diagnosticarle ni recetarle el tratamiento']
+      },
+      {
+        russian: 'Нам надо уйти до того, как часы пробьют 12. (Мы ушли до того, как часы пробили 12.)',
+        spanish: 'tenemos que irnos antes de que el reloj dé las doce. nos fuimos antes de que el reloj diera las doce',
+        alternatives: ['debemos irnos antes de que den las doce. nos fuimos antes de que dieran las doce']
+      },
+      {
+        russian: 'Пока он будет читать книгу, я приготовлю ужин.',
+        spanish: 'mientras él lea el libro, yo prepararé la cena',
+        alternatives: ['mientras él esté leyendo el libro, yo haré la cena']
+      },
+      {
+        russian: 'Мы подождем здесь, пока не перестанет дождь.',
+        spanish: 'esperaremos aquí hasta que deje de llover',
+        alternatives: ['esperaremos aquí hasta que pare de llover', 'vamos a esperar aquí hasta que deje de llover']
+      },
+      {
+        russian: 'После того как закончится спектакль, мы пойдем в ресторан.',
+        spanish: 'después de que termine el espectáculo, iremos al restaurante',
+        alternatives: ['después de que acabe la función, iremos al restaurante', 'cuando termine el espectáculo, iremos al restaurante']
+      },
+      {
+        russian: 'Я позвоню тебе, как только приеду домой.',
+        spanish: 'te llamaré en cuanto llegue a casa',
+        alternatives: ['te llamaré apenas llegue a casa', 'te telefonearé en cuanto llegue a casa']
+      },
+      {
+        russian: 'Учитель сказал, что мы пойдем на экскурсию, когда все сдадут экзамен.',
+        spanish: 'el profesor dijo que iríamos de excursión cuando todos aprobaran el examen',
+        alternatives: ['el maestro dijo que haríamos una excursión cuando todos pasaran el examen']
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 12, УРОК 3: Упражнения на придаточные цели (de fin)
+  // =============================================
+
+  'ex-12-3-1': {
+    id: 'ex-12-3-1',
+    type: 'subjunctive',
+    title: 'Поставьте глагол в правильную форму Subjuntivo',
+    description: 'Поставьте глагол в скобках в нужную форму сослагательного наклонения (Presente или Imperfecto de Subjuntivo).',
+    questions: [
+      {
+        text: 'Dilo en voz alta para que todos ___ (oír, a ti).',
+        options: ['te oigan', 'te oyen', 'te oirán', 'te oyeron'],
+        correct: 0,
+        explanation: 'После "para que" используется Subjuntivo. "Oír" в Presente de Subjuntivo: oigan. Местоимение "te" ставится перед глаголом.'
+      },
+      {
+        text: '¿Qué tengo que hacer para que tú ___ (creerme)?',
+        options: ['me creas', 'me crees', 'me creerás', 'me creías'],
+        correct: 0,
+        explanation: 'После "para que" используется Presente de Subjuntivo: creas. Местоимение "me" ставится перед глаголом.'
+      },
+      {
+        text: 'Hay que llamar al médico urgentemente a fin de que ___ (examinar, él) al paciente.',
+        options: ['examine', 'examina', 'examinará', 'examinó'],
+        correct: 0,
+        explanation: 'После "a fin de que" всегда Subjuntivo. Presente de Subjuntivo от "examinar": examine.'
+      },
+      {
+        text: 'Invitasteis al señor López para que nosotros ___ (poder) hablar con él en español.',
+        options: ['pudiéramos', 'podemos', 'podíamos', 'podremos'],
+        correct: 0,
+        explanation: 'Главный глагол в прошедшем времени (invitasteis), поэтому используется Imperfecto de Subjuntivo: pudiéramos.'
+      },
+      {
+        text: 'Te traje este libro para que ___ (leerlo y decirme, tú) tu opinión.',
+        options: ['lo leyeras y me dijeras', 'lo lees y me dices', 'lo leerás y me dirás', 'lo leías y me decías'],
+        correct: 0,
+        explanation: 'Главный глагол "traje" в прошедшем времени, поэтому Imperfecto de Subjuntivo: leyeras, dijeras.'
+      },
+      {
+        text: 'Llámala a fin de que ella no ___ (preocuparse).',
+        options: ['se preocupe', 'se preocupa', 'se preocupará', 'se preocupó'],
+        correct: 0,
+        explanation: 'После "a fin de que" используется Subjuntivo. Imperativo "llámala" указывает на настоящее/будущее, поэтому Presente de Subjuntivo.'
+      },
+      {
+        text: 'Te compré este traje para que ___ (ponérselo, tú) el día de la fiesta.',
+        options: ['te lo pusieras', 'te lo pones', 'te lo pondrás', 'te lo ponías'],
+        correct: 0,
+        explanation: 'Главный глагол "compré" в прошедшем времени, поэтому Imperfecto de Subjuntivo: pusieras.'
+      },
+      {
+        text: 'Le he ofrecido a la vecina una pastilla contra insomnio para que ella ___ (tranquilizarse y dormir) bien.',
+        options: ['se tranquilice y duerma', 'se tranquiliza y duerme', 'se tranquilizará y dormirá', 'se tranquilizó y durmió'],
+        correct: 0,
+        explanation: 'Главный глагол "he ofrecido" в Pretérito Perfecto, поэтому используется Presente de Subjuntivo.'
+      },
+      {
+        text: 'Se lo dije a usted para que ___ (saber) de qué se trataba.',
+        options: ['supiera', 'sabe', 'sabrá', 'sabía'],
+        correct: 0,
+        explanation: 'Главный глагол "dije" в прошедшем времени, поэтому Imperfecto de Subjuntivo: supiera.'
+      },
+      {
+        text: 'José me ha enviado un artículo sobre China para que ___ (traducírselo, yo).',
+        options: ['se lo traduzca', 'se lo traduzco', 'se lo traduciré', 'se lo traducía'],
+        correct: 0,
+        explanation: 'Главный глагол "ha enviado" в Pretérito Perfecto, поэтому Presente de Subjuntivo: traduzca.'
+      },
+      {
+        text: 'Te doy este dinero para que ___ (comprarse, tú) algo bonito.',
+        options: ['te compres', 'te compras', 'te comprarás', 'te comprabas'],
+        correct: 0,
+        explanation: 'Главный глагол "doy" в настоящем времени, поэтому Presente de Subjuntivo: compres.'
+      },
+      {
+        text: 'Abrí las ventanas para que ___ (entrar) aire fresco.',
+        options: ['entrara', 'entra', 'entrará', 'entraba'],
+        correct: 0,
+        explanation: 'Главный глагол "abrí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: entrara.'
+      },
+      {
+        text: 'El profesor explica la lección despacio para que los alumnos ___ (entender) todo.',
+        options: ['entiendan', 'entienden', 'entenderán', 'entendían'],
+        correct: 0,
+        explanation: 'Главный глагол "explica" в настоящем времени, поэтому Presente de Subjuntivo: entiendan.'
+      },
+      {
+        text: 'Le escribí una carta a fin de que ___ (conocer, él) mi opinión.',
+        options: ['conociera', 'conoce', 'conocerá', 'conocía'],
+        correct: 0,
+        explanation: 'Главный глагол "escribí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: conociera.'
+      },
+      {
+        text: 'Hablo más alto para que todos ___ (poder) oírme.',
+        options: ['puedan', 'pueden', 'podrán', 'podían'],
+        correct: 0,
+        explanation: 'Главный глагол "hablo" в настоящем времени, поэтому Presente de Subjuntivo: puedan.'
+      }
+    ]
+  },
+
+  'ex-12-3-2': {
+    id: 'ex-12-3-2',
+    type: 'translation',
+    title: 'Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя конструкции para + Infinitivo или para que + Subjuntivo.',
+    questions: [
+      {
+        russian: 'Я тебя приглашаю на концерт, чтобы ты насладилась прекрасной музыкой.',
+        spanish: 'te invito al concierto para que disfrutes de la música maravillosa',
+        alternatives: ['te invito al concierto para que goces de la música preciosa', 'te invito al concierto para que disfrutes de la bella música']
+      },
+      {
+        russian: 'Врач рекомендует тебе это лекарство, чтобы тебя не укачало во время полёта.',
+        spanish: 'el médico te recomienda este medicamento para que no te marees durante el vuelo',
+        alternatives: ['el doctor te recomienda esta medicina para que no te marees durante el vuelo']
+      },
+      {
+        russian: 'Мы собирались провести каникулы в Испании, чтобы купаться в море, загорать и изучать испанский язык.',
+        spanish: 'íbamos a pasar las vacaciones en españa para bañarnos en el mar, tomar el sol y estudiar español',
+        alternatives: ['pensábamos pasar las vacaciones en españa para nadar en el mar, broncearnos y aprender español']
+      },
+      {
+        russian: 'Я достала мясо из холодильника, чтобы приготовить жаркое, и чтобы мы поужинали сегодня дома.',
+        spanish: 'saqué la carne de la nevera para preparar un asado y para que cenáramos hoy en casa',
+        alternatives: ['saqué la carne del frigorífico para hacer un asado y para que cenáramos hoy en casa']
+      },
+      {
+        russian: 'Ты должен поговорить с ним и всё ему объяснить, чтобы он перестал на тебя обижаться.',
+        spanish: 'debes hablar con él y explicarle todo para que deje de estar ofendido contigo',
+        alternatives: ['tienes que hablar con él y explicárselo todo para que deje de enfadarse contigo']
+      },
+      {
+        russian: 'Дайте ребёнку игрушки, чтобы он играл и не мешал нам разговаривать.',
+        spanish: 'den al niño los juguetes para que juegue y no nos moleste hablar',
+        alternatives: ['denle los juguetes al niño para que juegue y no nos interrumpa']
+      },
+      {
+        russian: 'Я принёс этот фильм, чтобы посмотреть его в субботу.',
+        spanish: 'he traído esta película para verla el sábado',
+        alternatives: ['traje esta película para verla el sábado']
+      },
+      {
+        russian: 'Я принёс этот фильм, чтобы вы посмотрели его.',
+        spanish: 'he traído esta película para que ustedes la vean',
+        alternatives: ['traje esta película para que la vieran']
+      },
+      {
+        russian: 'Кармен купила это платье, чтобы надеть его на праздник.',
+        spanish: 'carmen compró este vestido para ponérselo en la fiesta',
+        alternatives: ['carmen se compró este vestido para llevarlo a la fiesta']
+      },
+      {
+        russian: 'Кармен купила это платье, чтобы я его надела на праздник.',
+        spanish: 'carmen compró este vestido para que me lo pusiera en la fiesta',
+        alternatives: ['carmen compró este vestido para que yo me lo pusiera en la fiesta']
+      },
+      {
+        russian: 'Филипп учится и одновременно работает, чтобы чувствовать себя независимым.',
+        spanish: 'felipe estudia y a la vez trabaja para sentirse independiente',
+        alternatives: ['felipe estudia y al mismo tiempo trabaja para sentirse independiente']
+      },
+      {
+        russian: 'Филипп учится и одновременно работает, чтобы родители были довольны.',
+        spanish: 'felipe estudia y a la vez trabaja para que sus padres estén contentos',
+        alternatives: ['felipe estudia y al mismo tiempo trabaja para que sus padres estén satisfechos']
+      },
+      {
+        russian: 'Мы придём к тебе сегодня вечером, чтобы помочь выполнить задание.',
+        spanish: 'vendremos a tu casa esta noche para ayudarte a hacer la tarea',
+        alternatives: ['iremos a verte esta noche para ayudarte con el trabajo']
+      },
+      {
+        russian: 'Мы придём к тебе сегодня вечером, чтобы ты нам помог выполнить задание.',
+        spanish: 'vendremos a tu casa esta noche para que nos ayudes a hacer la tarea',
+        alternatives: ['iremos a verte esta noche para que nos ayudes con el trabajo']
+      },
+      {
+        russian: 'Позвони маме, чтобы она не волновалась.',
+        spanish: 'llama a mamá para que no se preocupe',
+        alternatives: ['llama a tu madre para que no se inquiete']
+      }
+    ]
+  },
+
+  'ex-12-3-3': {
+    id: 'ex-12-3-3',
+    type: 'grammar',
+    title: 'Многозначное слово TÍTULO: переведите на русский язык',
+    description: 'Переведите предложения на русский язык, обращая внимание на разные значения слова "título" (звание, титул, название, заголовок, ценные бумаги).',
+    questions: [
+      {
+        sentence: 'Hace poco nuestro equipo ganó el título de campeón.',
+        options: [
+          'Недавно наша команда завоевала звание чемпиона.',
+          'Недавно наша команда выиграла книгу чемпиона.',
+          'Недавно наша команда получила документ чемпиона.',
+          'Недавно наша команда нашла имя чемпиона.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "звание, титул" — título de campeón = звание чемпиона.'
+      },
+      {
+        sentence: 'No recuerdo el título de la novela que me has recomendado.',
+        options: [
+          'Я не помню название романа, который ты мне порекомендовал.',
+          'Я не помню звание романа, который ты мне порекомендовал.',
+          'Я не помню автора романа, который ты мне порекомендовал.',
+          'Я не помню цену романа, который ты мне порекомендовал.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" — título de la novela = название романа.'
+      },
+      {
+        sentence: 'En nuestro país los títulos de nobleza no se reconocen.',
+        options: [
+          'В нашей стране дворянские титулы не признаются.',
+          'В нашей стране названия дворянства не признаются.',
+          'В нашей стране дворянские книги не признаются.',
+          'В нашей стране дворянские документы не признаются.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "титул" — títulos de nobleza = дворянские титулы.'
+      },
+      {
+        sentence: 'En la Constitución Española de 1978 el título primero está dedicado a los derechos y deberes fundamentales.',
+        options: [
+          'В Конституции Испании 1978 года раздел первый посвящён основным правам и обязанностям.',
+          'В Конституции Испании 1978 года название первое посвящено основным правам и обязанностям.',
+          'В Конституции Испании 1978 года титул первый посвящён основным правам и обязанностям.',
+          'В Конституции Испании 1978 года звание первое посвящено основным правам и обязанностям.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "раздел, глава" (в документах) — título primero = первый раздел.'
+      },
+      {
+        sentence: 'Quiero cambiar mis títulos de valor por el dinero efectivo.',
+        options: [
+          'Я хочу обменять мои ценные бумаги на наличные деньги.',
+          'Я хочу обменять мои названия ценностей на наличные деньги.',
+          'Я хочу обменять мои титулы ценности на наличные деньги.',
+          'Я хочу обменять мои звания ценности на наличные деньги.'
+        ],
+        correct: 0,
+        explanation: 'Títulos de valor = ценные бумаги (финансовый термин).'
+      },
+      {
+        sentence: 'Ha obtenido el título de doctor en medicina.',
+        options: [
+          'Он получил звание доктора медицины.',
+          'Он получил название доктора медицины.',
+          'Он получил книгу доктора медицины.',
+          'Он получил ценные бумаги доктора медицины.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "учёная степень, звание" — título de doctor = звание доктора.'
+      },
+      {
+        sentence: 'El título del artículo no refleja su contenido.',
+        options: [
+          'Заголовок статьи не отражает её содержание.',
+          'Звание статьи не отражает её содержание.',
+          'Титул статьи не отражает её содержание.',
+          'Документ статьи не отражает её содержание.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "заголовок" — título del artículo = заголовок статьи.'
+      },
+      {
+        sentence: 'La empresa emitió nuevos títulos en la bolsa.',
+        options: [
+          'Компания выпустила новые ценные бумаги на бирже.',
+          'Компания выпустила новые названия на бирже.',
+          'Компания выпустила новые звания на бирже.',
+          'Компания выпустила новые заголовки на бирже.'
+        ],
+        correct: 0,
+        explanation: 'Títulos (в финансовом контексте) = ценные бумаги, акции.'
+      },
+      {
+        sentence: 'Los títulos nobiliarios fueron abolidos después de la revolución.',
+        options: [
+          'Дворянские титулы были отменены после революции.',
+          'Дворянские названия были отменены после революции.',
+          'Дворянские звания были отменены после революции.',
+          'Дворянские документы были отменены после революции.'
+        ],
+        correct: 0,
+        explanation: 'Títulos nobiliarios = дворянские титулы.'
+      },
+      {
+        sentence: '¿Cuál es el título de la película que viste ayer?',
+        options: [
+          'Какое название фильма, который ты вчера смотрел?',
+          'Какое звание фильма, который ты вчера смотрел?',
+          'Какой титул фильма, который ты вчера смотрел?',
+          'Какой документ фильма, который ты вчера смотрел?'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" — título de la película = название фильма.'
+      },
+      {
+        sentence: 'El rey concedió el título de conde a su consejero.',
+        options: [
+          'Король пожаловал титул графа своему советнику.',
+          'Король пожаловал название графа своему советнику.',
+          'Король пожаловал звание графа своему советнику.',
+          'Король пожаловал документ графа своему советнику.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "титул" — título de conde = титул графа.'
+      },
+      {
+        sentence: 'Necesito tu título universitario para completar el expediente.',
+        options: [
+          'Мне нужен твой университетский диплом, чтобы завершить дело.',
+          'Мне нужно твоё университетское название, чтобы завершить дело.',
+          'Мне нужен твой университетский титул, чтобы завершить дело.',
+          'Мне нужны твои университетские ценные бумаги, чтобы завершить дело.'
+        ],
+        correct: 0,
+        explanation: 'Título universitario = университетский диплом.'
+      },
+      {
+        sentence: 'El libro tiene un título muy largo y difícil de recordar.',
+        options: [
+          'У книги очень длинное и трудное для запоминания название.',
+          'У книги очень длинное и трудное для запоминания звание.',
+          'У книги очень длинный и трудный для запоминания титул.',
+          'У книги очень длинный и трудный для запоминания документ.'
+        ],
+        correct: 0,
+        explanation: 'Título в значении "название" книги.'
+      },
+      {
+        sentence: 'A título personal, creo que es una mala decisión.',
+        options: [
+          'Лично я считаю, что это плохое решение.',
+          'По названию я считаю, что это плохое решение.',
+          'По званию я считаю, что это плохое решение.',
+          'По документу я считаю, что это плохое решение.'
+        ],
+        correct: 0,
+        explanation: 'A título personal — устойчивое выражение, означающее "лично, от себя лично".'
+      },
+      {
+        sentence: 'Los inversores prefieren títulos de renta fija.',
+        options: [
+          'Инвесторы предпочитают облигации с фиксированным доходом.',
+          'Инвесторы предпочитают названия с фиксированным доходом.',
+          'Инвесторы предпочитают звания с фиксированным доходом.',
+          'Инвесторы предпочитают титулы с фиксированным доходом.'
+        ],
+        correct: 0,
+        explanation: 'Títulos de renta fija = облигации, ценные бумаги с фиксированным доходом.'
+      }
+    ]
+  },
+  // Урок 12.4 - Повторение Модуль 11 и 12
+  'ex-12-4-1': {
+    id: 'ex-12-4-1',
+    type: 'grammar',
+    title: 'Поставьте глаголы в соответствующую форму',
+    description: 'Выберите правильную форму глагола в скобках (Presente de Subjuntivo или Imperfecto de Subjuntivo).',
+    questions: [
+      {
+        sentence: 'Los padres se alegran de que su hijo (hablar) bien el español, pero no estoy segura de que él (saber) hacer el test de control.',
+        options: [
+          'hable, sepa',
+          'habla, sabe',
+          'hablara, supiera',
+          'hablaba, sabía'
+        ],
+        correct: 0,
+        explanation: 'Se alegran (presente) + Presente de Subjuntivo. No estoy segura (presente) + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Nos sorprendemos de que ellos (ir) de vacaciones al mismo lugar todos los años y no (querer) cambiar sus costumbres.',
+        options: [
+          'vayan, quieran',
+          'van, quieren',
+          'fueran, quisieran',
+          'iban, querían'
+        ],
+        correct: 0,
+        explanation: 'Nos sorprendemos (presente) + Presente de Subjuntivo para ambos verbos.'
+      },
+      {
+        sentence: 'Te aconsejé que (ver) primero la cartelera antes de que (invitar) a Sofía a salir contigo.',
+        options: [
+          'vieras, invitaras',
+          'veas, invites',
+          'ves, invitas',
+          'veías, invitabas'
+        ],
+        correct: 0,
+        explanation: 'Aconsejé (pretérito) + Imperfecto de Subjuntivo. Antes de que siempre requiere Subjuntivo.'
+      },
+      {
+        sentence: '¿Por qué siempre insistes en que (seguir) la carrera? — No me imagino que (encontrar) un empleo bien pagado sin diploma.',
+        options: [
+          'siga, encuentres',
+          'sigo, encuentras',
+          'siguiera, encontraras',
+          'seguía, encontrabas'
+        ],
+        correct: 0,
+        explanation: 'Insistes (presente) + Presente de Subjuntivo. No me imagino (presente) + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'No es cierto que la ópera y el ballet (atraer) menos audiencia y es poco probable que (sacar) entradas para el estreno.',
+        options: [
+          'atraigan, saquemos',
+          'atraen, sacamos',
+          'atrajeran, sacáramos',
+          'atraían, sacábamos'
+        ],
+        correct: 0,
+        explanation: 'No es cierto que + Presente de Subjuntivo. Es poco probable que + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Cuando (graduarse) de la universidad me iré a trabajar al extranjero para que nadie (decir) que vivo a cuenta de mi padre.',
+        options: [
+          'me gradúe, diga',
+          'me gradúo, dice',
+          'me graduara, dijera',
+          'me graduaba, decía'
+        ],
+        correct: 0,
+        explanation: 'Cuando + acción futura requiere Presente de Subjuntivo. Para que + Subjuntivo (diferentes sujetos).'
+      },
+      {
+        sentence: 'Durante la conferencia el profesor dijo que (ser) un tema difícil y que (escuchar, nosotros) con atención porque después de que (terminar) el curso todos (tener) que examinarnos.',
+        options: [
+          'era, escucháramos, terminara, tendríamos',
+          'es, escuchemos, termine, tendremos',
+          'fue, escuchamos, terminó, tuvimos',
+          'sea, escuchemos, termine, tengamos'
+        ],
+        correct: 0,
+        explanation: 'Dijo (pretérito) + Imperfecto (era) para estilo indirecto. Escucháramos (Imperfecto de Subjuntivo después de dijo que). Después de que + Subjuntivo para acción futura.'
+      },
+      {
+        sentence: 'La abuela no dudaba que yo (alquilar) a mi sobrino el piso y (pagar) todos sus gastos hasta que él (hacer) el máster.',
+        options: [
+          'alquilaría, pagaría, hiciera',
+          'alquilo, pago, hace',
+          'alquilara, pagara, haga',
+          'alquilé, pagué, hizo'
+        ],
+        correct: 0,
+        explanation: 'No dudaba (pasado) + Condicional (certeza). Hasta que + Imperfecto de Subjuntivo (acción futura en el pasado).'
+      },
+      {
+        sentence: 'No nos gustó que en el club (haber) mucha gente y mucho jaleo por eso nos fuimos antes que (terminar) el concierto.',
+        options: [
+          'hubiera, terminara',
+          'hay, termina',
+          'haya, termine',
+          'había, terminaba'
+        ],
+        correct: 0,
+        explanation: 'No nos gustó (pretérito) + Imperfecto de Subjuntivo. Antes (de) que siempre + Subjuntivo.'
+      },
+      {
+        sentence: 'No creo que (valer) la pena visitar esta exposición, es mejor que (hacer, nosotros) una escapada a algún lugar romántico.',
+        options: [
+          'valga, hagamos',
+          'vale, hacemos',
+          'valiera, hiciéramos',
+          'valía, hacíamos'
+        ],
+        correct: 0,
+        explanation: 'No creo que + Presente de Subjuntivo. Es mejor que + Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Me pidieron que (traducir) el artículo antes de que (publicarse) en la revista.',
+        options: [
+          'tradujera, se publicara',
+          'traduzca, se publique',
+          'traduzco, se publica',
+          'traducía, se publicaba'
+        ],
+        correct: 0,
+        explanation: 'Pidieron (pretérito) + Imperfecto de Subjuntivo. Antes de que siempre + Subjuntivo.'
+      },
+      {
+        sentence: 'Esperaba que tú (poder) ayudarme con el proyecto aunque (estar) muy ocupado.',
+        options: [
+          'pudieras, estuvieras',
+          'puedas, estés',
+          'puedes, estás',
+          'podías, estabas'
+        ],
+        correct: 0,
+        explanation: 'Esperaba (pretérito imperfecto) + Imperfecto de Subjuntivo. Aunque + Subjuntivo (concesión hipotética).'
+      },
+      {
+        sentence: 'Es importante que los estudiantes (asistir) a todas las clases para que (aprobar) los exámenes.',
+        options: [
+          'asistan, aprueben',
+          'asisten, aprueban',
+          'asistieran, aprobaran',
+          'asistían, aprobaban'
+        ],
+        correct: 0,
+        explanation: 'Es importante que + Presente de Subjuntivo. Para que + Presente de Subjuntivo (diferentes sujetos).'
+      },
+      {
+        sentence: 'Queríamos que el profesor nos (explicar) la lección otra vez hasta que todos (entender).',
+        options: [
+          'explicara, entendieran',
+          'explique, entiendan',
+          'explica, entienden',
+          'explicaba, entendían'
+        ],
+        correct: 0,
+        explanation: 'Queríamos (pretérito imperfecto) + Imperfecto de Subjuntivo. Hasta que + Subjuntivo para acción futura.'
+      },
+      {
+        sentence: 'Dudo que María (venir) a la fiesta aunque la (invitar, nosotros) personalmente.',
+        options: [
+          'venga, invitemos',
+          'viene, invitamos',
+          'viniera, invitáramos',
+          'venía, invitábamos'
+        ],
+        correct: 0,
+        explanation: 'Dudo (presente) + Presente de Subjuntivo. Aunque + Subjuntivo (concesión hipotética).'
+      }
+    ]
+  },
+  'ex-12-4-2': {
+    id: 'ex-12-4-2',
+    type: 'grammar',
+    title: 'Вставьте необходимые предлоги',
+    description: 'Заполните пропуски правильными предлогами.',
+    questions: [
+      {
+        sentence: 'Tengo tantas ganas ___ ir ___ el concierto ___ el grupo alemán que está ___ gira ___ nuestra ciudad.',
+        options: [
+          'de, a, de, de, por',
+          'a, al, del, en, en',
+          'para, en, de, a, a',
+          'de, al, del, de, en'
+        ],
+        correct: 0,
+        explanation: 'Tener ganas DE + infinitivo. Ir A (destino). Concierto DE (pertenencia). Estar DE gira. Gira POR (lugar).'
+      },
+      {
+        sentence: 'Tendrás que renunciar ___ tu idea, debes prepararte ___ la Prueba ___ Acceso ___ la Universidad.',
+        options: [
+          'a, para, de, a',
+          'de, a, de, en',
+          'a, por, a, de',
+          'de, para, del, a'
+        ],
+        correct: 0,
+        explanation: 'Renunciar A algo. Prepararse PARA algo. Prueba DE Acceso A la Universidad.'
+      },
+      {
+        sentence: 'Te propongo ___ alquilar un barquito ___ dar una vuelta ___ el lago y disfrutar ___ la naturaleza.',
+        options: [
+          '(sin preposición), para, por, de',
+          'de, por, en, con',
+          'a, a, en, de',
+          'que, para, al, la'
+        ],
+        correct: 0,
+        explanation: 'Proponer + infinitivo (sin preposición). PARA + infinitivo (finalidad). Vuelta POR (lugar). Disfrutar DE algo.'
+      },
+      {
+        sentence: 'Estoy seguro ___ que ___ esta época ___ el año el campo está precioso.',
+        options: [
+          'de, en, de',
+          'en, a, del',
+          'de, por, de',
+          'a, en, de'
+        ],
+        correct: 0,
+        explanation: 'Estar seguro DE que. EN esta época. Época DE + sustantivo.'
+      },
+      {
+        sentence: 'Es importante convencer ___ vuestro hijo ___ que tiene que estudiar ___ buscarse un lugar ___ la vida.',
+        options: [
+          'a, de, para, en',
+          'de, a, por, de',
+          'a, en, a, a',
+          '(sin prep.), que, para, de'
+        ],
+        correct: 0,
+        explanation: 'Convencer A alguien DE algo. Estudiar PARA + infinitivo. Lugar EN la vida.'
+      },
+      {
+        sentence: 'Si él no hace ningún esfuerzo y se niega ___ estudiar, el sistema ___ enseñanza no va ___ poder hacer nada ___ él.',
+        options: [
+          'a, de, a, por',
+          'de, a, a, para',
+          'a, de, de, con',
+          'en, de, por, a'
+        ],
+        correct: 0,
+        explanation: 'Negarse A + infinitivo. Sistema DE enseñanza. Ir A + infinitivo. Hacer algo POR alguien.'
+      },
+      {
+        sentence: 'Bolonia da mucha importancia ___ las prácticas profesionales ___ el plan ___ estudios.',
+        options: [
+          'a, en, de',
+          'de, del, de',
+          'a, al, del',
+          'para, en, a'
+        ],
+        correct: 0,
+        explanation: 'Dar importancia A algo. EN el plan. Plan DE estudios.'
+      },
+      {
+        sentence: 'El gasto total ___ los hogares españoles ___ recreación y cultura está ___ debajo ___ la media ___ la Unión Europea.',
+        options: [
+          'de, en, por, de, de',
+          'en, de, a, de, en',
+          'de, para, por, a, de',
+          'a, en, en, de, a'
+        ],
+        correct: 0,
+        explanation: 'Gasto DE los hogares. Gasto EN recreación. Por debajo DE. Media DE algo.'
+      },
+      {
+        sentence: '___ hecho los españoles dedican su tiempo libre ___ el hogar ___ ver la televisión, navegar ___ Internet.',
+        options: [
+          'De, en, a, por',
+          'En, a, de, en',
+          'De, al, para, a',
+          'Por, en, a, de'
+        ],
+        correct: 0,
+        explanation: 'DE hecho (expresión). Dedicar tiempo EN el hogar. Dedicar tiempo A + infinitivo. Navegar POR Internet.'
+      },
+      {
+        sentence: 'Decidí ___ el fin y ___ el cabo comprar una entrada ___ platea, y me presenté ___ el teatro.',
+        options: [
+          'al, al, de, en',
+          'a, a, para, a',
+          'en, en, de, al',
+          'por, por, a, en'
+        ],
+        correct: 0,
+        explanation: 'AL fin y AL cabo (expresión). Entrada DE platea. Presentarse EN el teatro.'
+      },
+      {
+        sentence: 'Mercedes no faltó ___ su promesa ___ acompañar ___ Javier ___ ver el partido ___ fútbol ___ el estadio.',
+        options: [
+          'a, de, a, a, de, en',
+          'de, a, (sin prep.), para, del, al',
+          'a, de, a, para, de, al',
+          'en, de, a, a, de, en'
+        ],
+        correct: 0,
+        explanation: 'Faltar A una promesa. Promesa DE + infinitivo. Acompañar A alguien. A ver (finalidad). Partido DE fútbol. EN el estadio.'
+      },
+      {
+        sentence: '___ los diez minutos ya estaba tan aburrida que se fue ___ mitad ___ el primer período.',
+        options: [
+          'A, a, de',
+          'En, en, del',
+          'De, a, de',
+          'Por, en, del'
+        ],
+        correct: 0,
+        explanation: 'A los diez minutos (expresión temporal). A mitad DE algo.'
+      },
+      {
+        sentence: 'El estudiante se dedicó ___ prepararse ___ los exámenes finales ___ todo el mes ___ mayo.',
+        options: [
+          'a, para, durante, de',
+          'de, a, por, en',
+          'a, por, en, de',
+          'en, para, a, del'
+        ],
+        correct: 0,
+        explanation: 'Dedicarse A + infinitivo. Prepararse PARA algo. DURANTE todo el mes. Mes DE mayo.'
+      },
+      {
+        sentence: 'Insistió ___ que fuéramos ___ él ___ la conferencia ___ literatura española.',
+        options: [
+          'en, con, a, de',
+          'a, a, para, sobre',
+          'en, por, en, de',
+          'de, con, a, sobre'
+        ],
+        correct: 0,
+        explanation: 'Insistir EN que. Ir CON alguien. Ir A un lugar. Conferencia DE (tema).'
+      },
+      {
+        sentence: 'Sueño ___ viajar ___ Sudamérica ___ conocer las culturas indígenas ___ primera mano.',
+        options: [
+          'con, a, para, de',
+          'de, por, a, en',
+          'con, por, para, a',
+          'en, a, por, de'
+        ],
+        correct: 0,
+        explanation: 'Soñar CON + infinitivo. Viajar A (destino). PARA + infinitivo (finalidad). DE primera mano (expresión).'
+      }
+    ]
+  },
+  'ex-12-4-3': {
+    id: 'ex-12-4-3',
+    type: 'grammar',
+    title: 'Переведите на испанский язык',
+    description: 'Выберите правильный перевод предложения на испанский язык.',
+    questions: [
+      {
+        sentence: 'Нас удивляет, что он все выходные скучает и не знает, чем заняться. Мы советовали ему сходить на выставку или на экскурсию.',
+        options: [
+          'Nos sorprende que él se aburra todos los fines de semana y no sepa qué hacer. Le aconsejamos que fuera a una exposición o a una excursión.',
+          'Nos sorprendemos que él se aburre todos los fines de semana y no sabe qué hacer. Le aconsejábamos ir a una exposición.',
+          'Nos sorprende que él se aburría todo el fin de semana y no sabía qué hacer. Le aconsejamos que va a la exposición.',
+          'Estamos sorprendidos que él aburre todos los fines de semana. Le aconsejábamos que fue a la exposición.'
+        ],
+        correct: 0,
+        explanation: 'Nos sorprende que + Subjuntivo. Le aconsejamos (pretérito) que + Imperfecto de Subjuntivo.'
+      },
+      {
+        sentence: 'Две недели назад Марисоль принесла тебе две статьи об образовании в Боливии, чтобы ты их перевёл с испанского языка на английский.',
+        options: [
+          'Hace dos semanas Marisol te trajo dos artículos sobre la educación en Bolivia para que los tradujeras del español al inglés.',
+          'Dos semanas antes Marisol te ha traído dos artículos de la educación en Bolivia para que los traduces del español al inglés.',
+          'Hace dos semanas Marisol te traía dos artículos sobre la educación en Bolivia para traducirlos del español al inglés.',
+          'Antes de dos semanas Marisol te trajo dos artículos de educación en Bolivia para que los traducías del español a inglés.'
+        ],
+        correct: 0,
+        explanation: 'Hace dos semanas + Pretérito indefinido. Para que + Imperfecto de Subjuntivo (diferentes sujetos, pasado).'
+      },
+      {
+        sentence: 'Она просила тебя, чтобы ты написал ей, когда их опубликуют.',
+        options: [
+          'Te pidió que le escribieras cuando los publicaran.',
+          'Ella te pedía que le escribas cuando los publiquen.',
+          'Te ha pedido que le escribes cuando los publican.',
+          'Ella pidió que le escribe cuando los publicarán.'
+        ],
+        correct: 0,
+        explanation: 'Pidió (pretérito) + Imperfecto de Subjuntivo. Cuando + acción futura en pasado = Imperfecto de Subjuntivo.'
+      },
+      {
+        sentence: 'До тех пор, пока Вы им не позвоните и не обсудите договор, они будут присылать по электронной почте свои предложения.',
+        options: [
+          'Hasta que usted no les llame y no discuta el contrato, ellos seguirán enviando sus propuestas por correo electrónico.',
+          'Hasta que usted les llama y discute el contrato, ellos siguen enviando sus propuestas por el correo electrónico.',
+          'Hasta usted no les llamará y no discutirá el contrato, ellos enviarán sus propuestas por correo electrónico.',
+          'Hasta que usted no llamaba y no discutía el contrato, ellos enviaban sus propuestas por correo electrónico.'
+        ],
+        correct: 0,
+        explanation: 'Hasta que + Presente de Subjuntivo para acción futura. Seguirán + gerundio (futuro continuo).'
+      },
+      {
+        sentence: 'Жаль, что Вы не прислушиваетесь к моим советам.',
+        options: [
+          'Es una lástima que usted no haga caso de mis consejos.',
+          'Es lástima que usted no hace caso a mis consejos.',
+          'Lástima que usted no hacía caso de mis consejos.',
+          'Es una pena que usted no haciendo caso a mis consejos.'
+        ],
+        correct: 0,
+        explanation: 'Es una lástima que + Presente de Subjuntivo. Hacer caso DE algo.'
+      },
+      {
+        sentence: 'Никто не сомневался, что Луис успешно сдаст экзамены и поступит в университет.',
+        options: [
+          'Nadie dudaba que Luis aprobaría los exámenes con éxito e ingresaría en la universidad.',
+          'Nadie dudó que Luis apruebe los exámenes con éxito e ingrese en la universidad.',
+          'Ninguno dudaba que Luis aprobara los exámenes con éxito e ingresara en la universidad.',
+          'Nadie no dudaba que Luis aprobó los exámenes e ingresó en la universidad.'
+        ],
+        correct: 0,
+        explanation: 'No dudar que + Indicativo (certeza). Después de pasado = Condicional para expresar futuro en el pasado.'
+      },
+      {
+        sentence: 'Родители не были уверены, что биология — это его призвание.',
+        options: [
+          'Los padres no estaban seguros de que la biología fuera su vocación.',
+          'Los padres no fueron seguros que la biología es su vocación.',
+          'Los padres no estaban seguros de que la biología era su vocación.',
+          'Los padres no eran seguros que la biología fue su vocación.'
+        ],
+        correct: 0,
+        explanation: 'No estar seguro de que + Subjuntivo. Imperfecto en principal + Imperfecto de Subjuntivo.'
+      },
+      {
+        sentence: 'Боюсь, что мне придётся брать такси, потому что, когда закончится концерт, будет слишком поздно.',
+        options: [
+          'Me temo que tendré que coger un taxi, porque cuando termine el concierto, será demasiado tarde.',
+          'Tengo miedo que tomo un taxi, porque cuando termina el concierto, es demasiado tarde.',
+          'Temo que tengo que coger taxi, porque cuando el concierto termina, será muy tarde.',
+          'Me temo que tengo que tomar el taxi, porque cuando terminará el concierto, es demasiado tarde.'
+        ],
+        correct: 0,
+        explanation: 'Me temo que + Indicativo (futuro). Cuando + acción futura = Presente de Subjuntivo.'
+      },
+      {
+        sentence: 'Ты можешь уйти до того, как концерт закончится.',
+        options: [
+          'Puedes irte antes de que termine el concierto.',
+          'Puedes irte antes de que el concierto termina.',
+          'Puedes ir antes que el concierto terminará.',
+          'Puedes irte antes el concierto terminar.'
+        ],
+        correct: 0,
+        explanation: 'Antes de que siempre + Subjuntivo, independientemente del tiempo del verbo principal.'
+      },
+      {
+        sentence: 'Вчера во время прогулки мне было стыдно, что вы так мало знаете об истории родного города.',
+        options: [
+          'Ayer durante el paseo me daba vergüenza que supierais tan poco sobre la historia de vuestra ciudad natal.',
+          'Ayer durante el paseo tenía vergüenza que sabéis tan poco de la historia de su ciudad natal.',
+          'Ayer durante paseo me dio vergüenza que sabíais tan poco sobre la historia de ciudad natal.',
+          'Ayer en el paseo era vergonzoso que ustedes saben poco de la historia de la ciudad natal.'
+        ],
+        correct: 0,
+        explanation: 'Me daba vergüenza que + Imperfecto de Subjuntivo (pasado). Ciudad natal = родной город.'
+      },
+      {
+        sentence: 'Вы не можете ответить на вопросы своего чилийского друга.',
+        options: [
+          'No podéis contestar a las preguntas de vuestro amigo chileno.',
+          'No pueden responder las preguntas de su amigo de Chile.',
+          'No podían contestar a las preguntas del amigo chileno.',
+          'No pudisteis responder a preguntas de vuestro amigo chileno.'
+        ],
+        correct: 0,
+        explanation: 'Contestar A las preguntas. Vuestro amigo = ваш друг (vosotros).'
+      },
+      {
+        sentence: 'Система обучения в этом университете разработана так, чтобы студенты имели возможность получать и выполнять задания по интернету.',
+        options: [
+          'El sistema de enseñanza en esta universidad está diseñado de tal manera que los estudiantes tengan la posibilidad de recibir y hacer los deberes por Internet.',
+          'El sistema de la enseñanza de esta universidad está diseñada así que los estudiantes tienen posibilidad de recibir y hacer deberes en Internet.',
+          'El sistema de enseñanza en este universidad se diseñó para que los estudiantes tuvieran posibilidad recibir y cumplir tareas por Internet.',
+          'El sistema de la educación está diseñada de tal manera para estudiantes tienen la posibilidad de recibir tareas por el Internet.'
+        ],
+        correct: 0,
+        explanation: 'De tal manera que + Subjuntivo (finalidad). Tener la posibilidad DE + infinitivo. Por Internet.'
+      },
+      {
+        sentence: 'Недавно мы прочитали, что в Испании большинство молодых людей живёт с родителями до тех пор, пока не женятся.',
+        options: [
+          'Hace poco leímos que en España la mayoría de los jóvenes vive con los padres hasta que se casen.',
+          'Recientemente leemos que en España la mayoría de jóvenes viven con sus padres hasta que se casan.',
+          'Hace poco hemos leído que en España mayoría de los jóvenes vivía con padres hasta casarse.',
+          'Recientemente leíamos que en España la mayoría de los jóvenes vivían con los padres hasta que se casaban.'
+        ],
+        correct: 0,
+        explanation: 'Hace poco + Pretérito indefinido. Hasta que + Subjuntivo (acción futura/hipotética).'
+      },
+      {
+        sentence: 'Преподаватель не настаивал на том, чтобы студенты прослушали этот диалог, потому что сомневался, что они его поймут.',
+        options: [
+          'El profesor no insistía en que los estudiantes escucharan este diálogo porque dudaba que lo entendieran.',
+          'El profesor no insistió que los estudiantes escuchen este diálogo porque dudó que lo entienden.',
+          'El profesor no ha insistido en que los estudiantes escuchen el diálogo porque ha dudado que lo entiendan.',
+          'El profesor no insistía que los estudiantes escucharon este diálogo porque dudaba que lo entenderán.'
+        ],
+        correct: 0,
+        explanation: 'Insistir EN que + Subjuntivo. Imperfecto + Imperfecto de Subjuntivo. Dudar que + Subjuntivo.'
+      },
+      {
+        sentence: 'Здорово, что эта рок-группа приезжает в наш город на гастроли! Как только я узнаю, когда приедут музыканты, я вам позвоню, чтобы вы заранее заказали билеты.',
+        options: [
+          '¡Qué bien que este grupo de rock venga a nuestra ciudad de gira! En cuanto sepa cuándo lleguen los músicos, os llamaré para que reservéis las entradas con antelación.',
+          '¡Es genial que este grupo de rock viene a nuestra ciudad a gira! Cuando sé cuándo llegan los músicos, os llamo para que reserváis las entradas.',
+          '¡Está bien que este grupo de rock vendrá a nuestra ciudad de gira! Cuando sabré cuándo llegarán los músicos, les llamaré para que reservan entradas.',
+          '¡Qué bueno que este grupo viene en nuestra ciudad para gira! En cuanto supe cuándo llegaron músicos, os llamé que reservéis entradas con antelación.'
+        ],
+        correct: 0,
+        explanation: 'Qué bien que + Subjuntivo. En cuanto + Subjuntivo (acción futura). Para que + Subjuntivo.'
+      }
     ]
   }
 }
