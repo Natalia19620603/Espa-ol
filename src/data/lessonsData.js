@@ -2346,6 +2346,10 @@ Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. T
       {
         tab: '1',
         videoUrl: '/video/A1-U3-Cl1.1-Ej.14.mp4'
+      },
+      {
+        tab: 'A Granada',
+        videoUrl: '/video/A Granada M2C1.mp4'
       }
     ],
     grammar: {
@@ -5672,6 +5676,10 @@ María: ¡Vamos!`,
       {
         tab: 'La rutina p1',
         videoUrl: '/video/La rutina M4C1 p1.mp4'
+      },
+      {
+        tab: 'Qué hacen madrileños el fin de semana',
+        videoUrl: '/video/Que hacen madrileños el fin de semana M4C1.mp4'
       }
     ],
     grammar: {
@@ -7419,6 +7427,12 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
     id: 'lesson-5-1',
     title: 'Урок 1: ПУТЕШЕСТВИЕ НА САМОЛЕТЕ, ПОЕЗДЕ. Futuro Simple (будущее время)',
     moduleId: 'module-5',
+    videoTabs: [
+      {
+        tab: 'En la estación de tren',
+        videoUrl: '/video/En la estación de tren M5C1.mp4'
+      }
+    ],
     grammar: {
       title: 'Futuro Simple, неопределенные и отрицательные местоимения',
       content: `
