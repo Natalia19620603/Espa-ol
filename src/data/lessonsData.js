@@ -14865,6 +14865,36 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
           { word: 'audaz', translation: 'смелый, отважный' },
           { word: 'la razón', translation: 'смысл, причина' }
         ]
+      },
+      {
+        tab: 'Estafa piramidal',
+        words: [
+          { word: 'renovar', translation: 'обновлять' },
+          { word: 'la convicción', translation: 'убеждение, убежденность' },
+          { word: 'engañar', translation: 'обманывать, изменять' },
+          { word: 'la clave', translation: 'ключевой момент, главное, ключ, код' },
+          { word: 'la estafa', translation: 'мошенничество, афера' },
+          { word: 'generar', translation: 'создавать, производить' },
+          { word: 'el reporte', translation: 'отчет' },
+          { word: 'reducir', translation: 'уменьшать, сокращать' },
+          { word: 'la investigación', translation: 'исследование, расследование' },
+          { word: 'el lujo', translation: 'роскошь, пышность, великолепие' },
+          { word: 'la evidencia', translation: 'доказательство, аргумент' },
+          { word: 'agilizar', translation: 'облегчать, упрощать' },
+          { word: 'incontrolable', translation: 'неконтролируемый' },
+          { word: 'revertir', translation: 'возвращаться к прежнему состоянию' },
+          { word: 'consumir', translation: 'потреблять, расходовать' },
+          { word: 'el cogote', translation: 'затылок' },
+          { word: 'involuntario', translation: 'невольный, непроизвольный' },
+          { word: 'los procesados', translation: 'переработанные' },
+          { word: 'lácteos', translation: 'молочные продукты' },
+          { word: 'los granos', translation: 'бобы, прыщи' },
+          { word: 'la ingesta', translation: 'потребление' },
+          { word: 'ingerir', translation: 'глотать, принимать' },
+          { word: 'la obesidad', translation: 'ожирение' },
+          { word: 'reivindicar', translation: 'претендовать, отстаивать' },
+          { word: 'evitar', translation: 'предотвращать, избегать' }
+        ]
       }
     ],
     readingText: [
@@ -15023,6 +15053,36 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
 Некоторые насекомые идеально подходят для этических промышленных ферм, такие как мучной червь или сверчок. В настоящее время мы автоматизируем наши процессы, чтобы сократить большую часть необходимого ручного труда. Это способ сократить расходы, который также поможет снизить цены для потребителей. Но что насчет тех, кто не может представить себе, что ест насекомое в своей тарелке с салатом или пастой? Они могут пойти к Ноно Пека Уорк Эйрлайнс, пекарю в Нюрнберге, который специализируется на специальных ингредиентах, таких как спельта или, ну, насекомые.
 
 Его хлеб с насекомыми содержит 20% муки из мучного червя. Он дорогой, более восьми евро за маленький хлеб, но клиенты быстро заинтересовались. И нас положительно удивило, особенно что касается наших пожилых клиентов. Мы думали, что молодое поколение будет более склонно попробовать что-то новое, но на самом деле именно группа старше 50 лет была наиболее заинтересована. Многие даже попробовали целых мучных червей. Причина более чем достаточная для того, чтобы пекарь продолжал продавать смелые продукты для отважных клиентов.`
+      },
+      {
+        tab: 'Estafa piramidal',
+        title: 'Estafa piramidal',
+        content: `Vamos a ver pirámide. Vamos a hablar de la pirámide que se dio vuelta. Ah, la pirámide que se dio vuelta. Muchas de estas cosas que vamos a hablar ahora la hemos dicho en este programa hace mucho tiempo y vamos a renovar ahora, pero ya con la convicción científica de que esto hay que darlo vuelta.
+
+Qué fácil. Es más fácil engañar a la gente que convencerla de que han sido engañados. Y nosotros fuimos engañados. Gente, población, médicos, todos los que estamos en el mundo de la salud en los eh años 50, 60, 70, cuando se dice que es necesario comer más hidrato de carbono y menos grasa, porque las grasas engorden ya lo vamos a ver, pero esto me parece que es la clave. Si yo le digo a una gente, ¿usted puede comer huevo frito hecho en grasa de cerdo?
+
+Ah, no, dice, no puede ser, pero siente lo comíamos. Claro. Dice, "¿Qué pasó?" Bueno, nos engañaron y no hace falta una dosis más de convicción a través de esto. Avanzamos.
+
+A ver, eh, en 1977 se produce esto que yo le llamo la gran estafa piramidal, en donde en la base de la alimentación ponen hidrato de carbono, que no son nutrientes esenciales. Esa es una discusión muy interesante del punto de vista científico. Y luego va subiendo arriba y mira dónde está la carne, los queso, los huevos, en la parte muy arriba. Y obviamente esta imagen es la que logró hacer que esta pirámide generara estos cuerpos y esto es lo que nosotros necesitamos cambiar. Desde 1977 en donde pasó esto. Vamos a ver si lo podemos ver bien. Ponemos la siguiente.
+
+A ver si dale play. Este es una un informe, no sé si lo vamos a poder verla ahí, pero bueno, es un informe de la CBS en el video de la CBS donde informan que eh el reporte original del comité ese que habían hecho en el Senado recomienda que hay que reducir el riesgo de ataque cardíaco, hay que disminuir la ingesta de colesterol al equivalente de un huevo el día. Eso año 77. Sale un médico Olsen, que era un uno de los que estaba en el comité y le dice, "Señor senador, pedí en mi reporte y pido de nuevo más investigaciones sobre el problema antes que hacer anuncio, o sea, antes de decir que la grasa era mala y que los hidratos eran buenos, investíguemos un poco más."
+
+¿Qué le dijo senador político? Mg se llamaba. Los senadores no tienen el lujo que el investigador científico tiene de esperar hasta que se encuentre toda la evidencia. Claro, total no importa. Era más clarito el lobby imposible, no importaba. Lo que necesitaban era agilizar la venta de hidrato de carbono a través de las grandes producciones de exceso que tenía. Vamos con la siguiente.
+
+Ahí está. Entonces, en el 77 nos dijeron, este, eso soy yo. Es esencial que cambie su dieta. Sí. Coma menos grasa y más cereales, más pan y más pasta. Yo no le hice caso. La grasa no sirve. ¿Esto qué generó en todo este año? Una epidemia de obesidad y diabetes incontrolable en el mundo. No lo podemos controlar. Algo hemos hecho mal en el año 2025 esencial que continúe con su dieta baja en grasa, rica en cereales, pan y pastas. Pero ya el paciente obviamente sufrió la epidemia y seguimos con lo mismo. O sea, hay un punto en el cual nosotros necesitamos entender el punto de vista científico que algo hemos hecho mal y que hay que revertirlo. Y esto, el diagnóstico no puede ser más claro. Pone la siguiente.
+
+El lo que pasó acá, chicos, a la otra. Ahí está. Este es un viejo gráfico. Yo siempre lo pongo. ¿Por qué? Porque a mí me parece que es lo más claro de todos. Lagui. Eh, antes del año 77 se consumía más grasa y menos hidratos y estábamos solamente con un 25 30% de sobrepeso de obesidad y casi la diabetes no existía. ¿Qué comíamos? Mira, acá es carne, huevo. La gente desayunaba huevo frito, hecho en gras cerdo. Eh, yo no usted tampoco conocimos la leche descremada. Venían con el cogote, ¿no? Venía la leche y traía el cogote una así de crema. No había, no había queso descremado, no había nada de eso. Dejamos de comer grasa y empezamos a comer hidrato por la corrupción de de esta de esta parte. Mira lo que pasó con el sobrepeso y la obesidad en 40 años, 70%. Mirada diabetes se multiplicó por siete. Digo, si este es el resultado de este experimento, el experimento fue un fracaso. Tema que no se equivocaron, sino que les pagaron.
+
+¿Qué es lo que se está planteando ahora? Sí, hemos fracasado, hemos dado, hemos hecho mala praxis, hemos tenido la culpa involuntaria. Porque nos dijeron que había que hacer eso y nosotros lo aplicamos hasta que nos dimos cuenta cuando salió publicado que les habían pagado para hacer esto. Entonces, lo que lo que se está proponiendo hoy, che no inventemos nada, no hay nada nuevo, no es una dieta nueva, no es una cosa rara volver acá es así decir. Claro, por supuesto. Es tan simple como eso. Es volver a comer como antes. Encime más rico. Lagui. Mira el el charito que estás haciendo Cachito, que no va a comer agua. Bueno, pero si está dentro de eso y si eso se ha comido siempre. Esto ha sido nuestro problema. Acá está y todos los ultraprocesados y las porquerías estas. Vamos con la siguiente. A ver.
+
+Bueno, y acá viene lo que yo le llamo la reevolución o la revolución nueva de la de la nutrición. Esta es la lo que hicieron. Introdujeron la nueva nueva pirámide. Nueva pirámide. Ahí está invertida. Claro. Y ahora te la explico. Vamos con la siguiente. A ver, mira, la nueva pirámide tiene tres partes. Una parte obviamente invertida en donde la primera están las proteínas, lácteos y grasas. ¿Se acuerdas cuando decíamos que los lácteos tienen que ser enteros cremados? Porque eso era ahora sí los vegetales y frutas acá y abajo miquita granos integrales. Estaba en la base de la pirámide antes. Al revés.
+
+Entonces acá tiene eh todo. Miren lo que ponen la carne chuletón. Leche entera, la los huevos, mira, un salmón han puesto ahí. Manteca, salmón, carne y y pollo. Pollo, eh, cerdo, obviamente, todo. Mira, manteca, ¿dónde está? Manteca. Es brócoli allá. Claro. Y acá se acopla la parte de lo que son los vegetales, este, y las frutas. Y recién al final abajo están los granos. Esta es la nueva pirámide sobre la cual nosotros venimos insistiendo hace tanto tiempo, no en esta forma como lo hicieron ellos, pero de que la base de la pirámide, ponerme la siguiente, tenía que ir por otro lado. Acá la tenés más en grande, ¿ve? Ve cómo se ven claritos los vegetales y allá todo lo que son la  proteína, aumento de proteína, se dice que hay que aumentar proteína, la cantidad de grasa, grasas buenas.
+
+Claro, yo ahora a partir de ahora vamos a empezar en cada programa a desglosar por por puntos para mostrarles bien cómo es esto. Es una presentación general. Ponedme la siguiente. Esta es entonces la del 77, la que decimos que es la estafa y mira cuando nosotros la dimos vuelta nada más. Mírala, mírala. Está dada vuelta nada más. Dada vuelta. Entonces digo, es tan importante esto para creo que es el avance o o la posición más importante que ha tenido la medicina en los últimos en los últimos 50 años. ¿Por qué? 49 años. Ah, 49 años. Sí. Es volver a comer como comimos antes, sin ningún invento, sin dietas de moda. La dieta de moda fue esta. En definitiva, ponerme la siguiente que ya vamos terminando.
+
+En esta está bueno. Acá está. Si alguien quiere conocer esto, hay una página ahí realfood.gov con corta porque es de Estados Unidos. Una página hermosa que está explicada bien ahí. Nosotros en el show vamos a ir este explicándola cada viernes. Avanzadme otro más que es el Bueno. Ah, esto quería decir. Sí. Estas guías son del 2015 2020 y ya ahí decían que no limita la ingesta de grasa en la dieta para la obesidad. 2015 20 hace 10 años. Entonces, no era, no es de Trump. Esto ya viene de antes. Y la última. A ver, ¿puedes engañar a todo el mundo algún tiempo? Puedes engañar a algunos todo el tiempo, pero no puedes engañar a todo el mundo todo el tiempo. Lincoln, esto es lo que ha pasado y por suerte la medicina hoy reivindica una forma de comer que nos va a evitar mucho costo y muchas enfermedades. Gracias, doc. Si te gusta el verano.`,
+        translation: ''
       }
     ],
     exercises: [
@@ -15042,6 +15102,15 @@ Su pan de insectos contiene un 20% de harina de gusano de la harina. Es caro, m�
           { name: 'Понимание текста', exercises: ['ex-9-4-gusanos-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-9-4-gusanos-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-9-4-gusanos-translation'] }
+        ]
+      },
+      {
+        tab: 'Estafa piramidal',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-4-estafa-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-4-estafa-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-17-4-estafa-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-17-4-estafa-translation'] }
         ]
       }
     ]
@@ -26995,6 +27064,105 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       { russian: 'Этот хлеб содержит муку из насекомых.', correct: 'Este pan contiene harina de insectos.', alternatives: [] },
       { russian: 'Пожилые клиенты тоже заинтересованы.', correct: 'Los clientes mayores también están interesados.', alternatives: [] },
       { russian: 'Европейский союз поддерживает эти инициативы.', correct: 'La Unión Europea apoya estas iniciativas.', alternatives: [] }
+    ]
+  },
+
+  // ============ MÓDULO 17 УРОК 4: ESTAFA PIRAMIDAL ============
+
+  'ex-17-4-estafa-vocab': {
+    id: 'ex-17-4-estafa-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Estafa piramidal',
+    description: 'Заполните пропуски, выбрав правильное слово из банка слов.',
+    wordBank: ['renovar', 'convicción', 'engañar', 'clave', 'estafa', 'generar', 'reporte', 'reducir', 'investigación', 'lujo', 'evidencia', 'agilizar', 'incontrolable', 'revertir', 'consumir'],
+    questions: [
+      { text: 'Necesitamos ___ nuestras ideas sobre la nutrición.', correct: 'renovar', translation: 'Нам нужно обновить наши идеи о питании.' },
+      { text: 'Tengo la ___ de que nos han mentido sobre la alimentación.', correct: 'convicción', translation: 'У меня есть убеждение, что нам врали о питании.' },
+      { text: 'Es más fácil ___ a la gente que convencerla de que fue engañada.', correct: 'engañar', translation: 'Легче обмануть людей, чем убедить их, что их обманули.' },
+      { text: 'Este punto me parece que es la ___ del problema.', correct: 'clave', translation: 'Этот момент мне кажется ключом к проблеме.' },
+      { text: 'En 1977 se produjo la gran ___ piramidal de la alimentación.', correct: 'estafa', translation: 'В 1977 году произошла великая пирамидальная афера в питании.' },
+      { text: 'Esta pirámide logró ___ epidemias de obesidad y diabetes.', correct: 'generar', translation: 'Эта пирамида смогла создать эпидемии ожирения и диабета.' },
+      { text: 'El médico pidió en su ___ más investigaciones.', correct: 'reporte', translation: 'Врач попросил в своем отчете больше исследований.' },
+      { text: 'Querían ___ la ingesta de colesterol a un huevo al día.', correct: 'reducir', translation: 'Они хотели уменьшить потребление холестерина до одного яйца в день.' },
+      { text: 'Se necesitaba más ___ antes de hacer recomendaciones.', correct: 'investigación', translation: 'Нужно было больше исследований, прежде чем давать рекомендации.' },
+      { text: 'Los senadores no tienen el ___ de esperar la evidencia científica.', correct: 'lujo', translation: 'Сенаторы не имеют роскоши ждать научных доказательств.' },
+      { text: 'Hay que esperar hasta encontrar toda la ___.', correct: 'evidencia', translation: 'Нужно подождать, пока найдутся все доказательства.' },
+      { text: 'Necesitaban ___ la venta de carbohidratos.', correct: 'agilizar', translation: 'Им нужно было ускорить продажу углеводов.' },
+      { text: 'La epidemia de diabetes se volvió ___.', correct: 'incontrolable', translation: 'Эпидемия диабета стала неконтролируемой.' },
+      { text: 'Tenemos que ___ estos cambios y volver a comer como antes.', correct: 'revertir', translation: 'Мы должны отменить эти изменения и вернуться к тому, как питались раньше.' },
+      { text: 'Antes del 77 la gente solía ___ más grasa y menos carbohidratos.', correct: 'consumir', translation: 'До 77 года люди обычно потребляли больше жиров и меньше углеводов.' }
+    ]
+  },
+
+  'ex-17-4-estafa-comprehension': {
+    id: 'ex-17-4-estafa-comprehension',
+    type: 'comprehension',
+    title: 'Comprensión: Estafa piramidal',
+    description: 'Responda las preguntas sobre el texto.',
+    questions: [
+      { text: '¿Qué pasó en 1977 según el texto?', options: ['Se inventó una nueva dieta saludable', 'Se creó la pirámide alimentaria con carbohidratos en la base', 'Se prohibieron las grasas', 'Se descubrió la cura para la diabetes'], correct: 1 },
+      { text: '¿Qué pedía el médico Olsen antes de hacer el anuncio?', options: ['Más dinero para su investigación', 'Más investigaciones sobre el problema', 'Que se prohibieran los huevos', 'Que se aumentara el consumo de carbohidratos'], correct: 1 },
+      { text: '¿Qué respuesta dio el senador político a la petición del médico?', options: ['Que esperarían más tiempo', 'Que los senadores no tienen el lujo de esperar toda la evidencia', 'Que cancelarían el proyecto', 'Que harían más estudios'], correct: 1 },
+      { text: '¿Qué epidemia generó el cambio en la alimentación según el texto?', options: ['Una epidemia de gripe', 'Una epidemia de obesidad y diabetes', 'Una epidemia de alergias', 'Una epidemia de anemia'], correct: 1 },
+      { text: '¿Cómo era la alimentación antes del año 77?', options: ['Se comían más carbohidratos', 'Se consumía más grasa y menos carbohidratos', 'No se comían huevos', 'Solo se bebía leche descremada'], correct: 1 },
+      { text: '¿Qué porcentaje de sobrepeso había antes del año 77?', options: ['70%', '50%', '25-30%', '10%'], correct: 2 },
+      { text: '¿Cuántas veces se multiplicó la diabetes según el gráfico?', options: ['Por dos', 'Por cinco', 'Por siete', 'Por diez'], correct: 2 },
+      { text: '¿Qué propone la nueva pirámide invertida?', options: ['Más carbohidratos en la base', 'Proteínas, lácteos y grasas en la parte superior', 'Eliminar todos los granos', 'Comer solo vegetales'], correct: 1 },
+      { text: '¿Dónde están los granos en la nueva pirámide?', options: ['En la base', 'En el medio', 'En la parte de abajo, pero poquitos', 'No hay granos'], correct: 2 },
+      { text: '¿Por qué dice el texto que fue una "estafa"?', options: ['Porque los alimentos eran falsos', 'Porque les pagaron para promocionar los carbohidratos', 'Porque la pirámide no existía', 'Porque los médicos no sabían nada'], correct: 1 },
+      { text: '¿Qué tipo de leche conocía la gente antes?', options: ['Leche descremada', 'Leche entera con crema', 'Leche de almendras', 'Leche en polvo'], correct: 1 },
+      { text: '¿Qué frase de Lincoln se menciona al final?', options: ['La libertad es poder', 'Puedes engañar a todo el mundo algún tiempo', 'La democracia es el gobierno del pueblo', 'Unidos permaneceremos'], correct: 1 },
+      { text: '¿Qué significa "dar la vuelta" a la pirámide?', options: ['Destruirla completamente', 'Invertirla, poner arriba lo que estaba abajo', 'Hacerla más grande', 'Cambiar los colores'], correct: 1 },
+      { text: '¿De qué año son las guías que ya decían que no hay que limitar las grasas?', options: ['1977', '2000', '2015-2020', '2025'], correct: 2 },
+      { text: '¿Cuál es la conclusión principal del texto?', options: ['Hay que inventar nuevas dietas', 'Hay que volver a comer como comíamos antes', 'Hay que eliminar toda la grasa', 'Hay que comer solo vegetales'], correct: 1 }
+    ]
+  },
+
+  'ex-17-4-estafa-grammar': {
+    id: 'ex-17-4-estafa-grammar',
+    type: 'grammar',
+    title: 'Gramática: Tiempos verbales',
+    description: 'Complete las frases con la forma correcta del verbo (Pretérito Perfecto, Indefinido, Imperfecto o Presente de Subjuntivo).',
+    questions: [
+      { text: 'Nosotros (ser/engañar - Indefinido pasivo) ___ engañados por la industria alimentaria.', options: ['fuimos', 'hemos sido', 'éramos', 'seamos'], correct: 0, explanation: 'Pretérito Indefinido pasivo: fuimos engañados (acción completada en el pasado).' },
+      { text: 'Antes del 77 la gente (desayunar - Imperfecto) ___ huevo frito.', options: ['desayunaba', 'desayunó', 'ha desayunado', 'desayune'], correct: 0, explanation: 'Imperfecto: desayunaba (hábito en el pasado).' },
+      { text: 'Este año (producirse - Pretérito Perfecto) ___ cambios importantes en la nutrición.', options: ['se han producido', 'se produjeron', 'se producían', 'se produzcan'], correct: 0, explanation: 'Pretérito Perfecto: se han producido (conexión con el presente).' },
+      { text: 'Es necesario que nosotros (cambiar - Subjuntivo) ___ nuestra dieta.', options: ['cambiemos', 'cambiamos', 'cambiábamos', 'cambiamos'], correct: 0, explanation: 'Presente de Subjuntivo después de "es necesario que".' },
+      { text: 'En 1977 (decir - Indefinido) ___ que había que comer menos grasa.', options: ['dijeron', 'decían', 'han dicho', 'digan'], correct: 0, explanation: 'Pretérito Indefinido: dijeron (acción puntual en el pasado).' },
+      { text: 'Cuando yo era niño, no (existir - Imperfecto) ___ leche descremada.', options: ['existía', 'existió', 'ha existido', 'exista'], correct: 0, explanation: 'Imperfecto: existía (descripción del pasado).' },
+      { text: 'Los científicos ya (demostrar - Pretérito Perfecto) ___ que las grasas no son malas.', options: ['han demostrado', 'demostraron', 'demostraban', 'demuestren'], correct: 0, explanation: 'Pretérito Perfecto: han demostrado (resultado presente).' },
+      { text: 'Es importante que la medicina (reivindicar - Subjuntivo) ___ la verdad.', options: ['reivindique', 'reivindica', 'reivindicaba', 'reivindicó'], correct: 0, explanation: 'Presente de Subjuntivo después de "es importante que".' },
+      { text: 'Antes la leche (venir - Imperfecto) ___ con crema encima.', options: ['venía', 'vino', 'ha venido', 'venga'], correct: 0, explanation: 'Imperfecto: venía (descripción habitual del pasado).' },
+      { text: 'La epidemia de diabetes (multiplicarse - Indefinido) ___ por siete.', options: ['se multiplicó', 'se multiplicaba', 'se ha multiplicado', 'se multiplique'], correct: 0, explanation: 'Pretérito Indefinido: se multiplicó (hecho histórico concreto).' },
+      { text: 'Espero que este programa nos (ayudar - Subjuntivo) ___ a entender.', options: ['ayude', 'ayuda', 'ayudaba', 'ayudó'], correct: 0, explanation: 'Presente de Subjuntivo después de "espero que".' },
+      { text: 'Esta semana (renovar - Pretérito Perfecto) ___ nuestros conocimientos.', options: ['hemos renovado', 'renovamos', 'renovábamos', 'renovemos'], correct: 0, explanation: 'Pretérito Perfecto: hemos renovado (esta semana = período que incluye el presente).' },
+      { text: 'Los senadores no (querer - Imperfecto) ___ esperar más investigaciones.', options: ['querían', 'quisieron', 'han querido', 'quieran'], correct: 0, explanation: 'Imperfecto: querían (actitud en el pasado).' },
+      { text: 'Dudo que el experimento (ser - Subjuntivo) ___ un éxito.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
+      { text: 'Ayer (leer - Indefinido) ___ un artículo sobre la pirámide alimentaria.', options: ['leí', 'leía', 'he leído', 'lea'], correct: 0, explanation: 'Pretérito Indefinido: leí (acción completada ayer).' }
+    ]
+  },
+
+  'ex-17-4-estafa-translation': {
+    id: 'ex-17-4-estafa-translation',
+    type: 'translation',
+    title: 'Перевод: Estafa piramidal',
+    description: 'Переведите предложения с русского на испанский. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос. ВАЖНО: Отсутствие знака ударения (á, é, í, ó, ú) и точки в конце предложения считается ошибкой!',
+    questions: [
+      { russian: 'Нам нужно обновить наши убеждения о питании, потому что нас обманули.', correct: 'Necesitamos renovar nuestras convicciones sobre la alimentación porque nos engañaron.', alternatives: ['Tenemos que renovar nuestras convicciones sobre la alimentación porque nos engañaron.'] },
+      { russian: 'В 1977 году произошло мошенничество, которое изменило то, как мы едим.', correct: 'En 1977 se produjo una estafa que cambió la forma en que comemos.', alternatives: ['En el año 1977 se produjo una estafa que cambió cómo comemos.'] },
+      { russian: 'Сенаторы не имели роскоши ждать научных доказательств перед принятием решения.', correct: 'Los senadores no tenían el lujo de esperar la evidencia científica antes de tomar la decisión.', alternatives: ['Los senadores no tenían el lujo de esperar las evidencias científicas antes de decidir.'] },
+      { russian: 'Нужно было провести больше исследований, прежде чем рекомендовать есть меньше жиров.', correct: 'Había que hacer más investigaciones antes de recomendar comer menos grasas.', alternatives: ['Se necesitaba hacer más investigaciones antes de recomendar comer menos grasas.'] },
+      { russian: 'Раньше люди завтракали яичницей, приготовленной на свином жире, и не болели диабетом.', correct: 'Antes la gente desayunaba huevo frito hecho en grasa de cerdo y no tenía diabetes.', alternatives: ['Antes las personas desayunaban huevo frito hecho en grasa de cerdo y no padecían diabetes.'] },
+      { russian: 'Эпидемия ожирения стала неконтролируемой после того, как изменили пищевую пирамиду.', correct: 'La epidemia de obesidad se volvió incontrolable después de que cambiaron la pirámide alimentaria.', alternatives: ['La epidemia de obesidad se hizo incontrolable después de cambiar la pirámide alimentaria.'] },
+      { russian: 'Необходимо, чтобы мы вернулись к тому, как питались наши бабушки и дедушки.', correct: 'Es necesario que volvamos a comer como comían nuestros abuelos.', alternatives: ['Es necesario que regresemos a comer como comían nuestros abuelos.'] },
+      { russian: 'Молочные продукты должны быть цельными, а не обезжиренными, как нам говорили.', correct: 'Los lácteos deben ser enteros, no descremados, como nos decían.', alternatives: ['Los productos lácteos tienen que ser enteros, no descremados, como nos decían.'] },
+      { russian: 'Сомневаюсь, что новые диеты лучше того, что ели раньше.', correct: 'Dudo que las nuevas dietas sean mejores que lo que se comía antes.', alternatives: ['Dudo que las dietas nuevas sean mejores que lo que comían antes.'] },
+      { russian: 'Им заплатили, чтобы они сказали, что жиры вредны для здоровья.', correct: 'Les pagaron para que dijeran que las grasas eran malas para la salud.', alternatives: ['Les pagaron para decir que las grasas eran malas para la salud.'] },
+      { russian: 'Новая перевернутая пирамида ставит белки и жиры наверху.', correct: 'La nueva pirámide invertida pone las proteínas y las grasas arriba.', alternatives: ['La pirámide nueva invertida coloca las proteínas y las grasas en la parte de arriba.'] },
+      { russian: 'До 1977 года показатели ожирения составляли всего 25-30 процентов населения.', correct: 'Antes de 1977 las tasas de obesidad eran solo del 25-30 por ciento de la población.', alternatives: ['Antes del 77 los índices de obesidad eran solo del 25-30 por ciento de la población.'] },
+      { russian: 'Важно, чтобы медицина признала ошибки, допущенные в прошлом.', correct: 'Es importante que la medicina reconozca los errores cometidos en el pasado.', alternatives: ['Es importante que la medicina admita los errores que se cometieron en el pasado.'] },
+      { russian: 'Эксперимент с низким содержанием жиров был полным провалом для здоровья населения.', correct: 'El experimento bajo en grasas fue un fracaso total para la salud de la población.', alternatives: ['El experimento con bajo contenido en grasas fue un completo fracaso para la salud de la población.'] },
+      { russian: 'К счастью, сегодняшняя медицина отстаивает здоровый образ питания.', correct: 'Por suerte, la medicina de hoy reivindica una forma de comer saludable.', alternatives: ['Afortunadamente, la medicina actual reivindica una manera de comer saludable.'] }
     ]
   },
 
