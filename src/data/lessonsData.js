@@ -11904,73 +11904,84 @@ volante m — зд. направление`
         }
       ]
     },
-    vocabulary: {
-      tabs: [
-        {
-          title: 'En el consultorio médico',
-          words: [
-            { word: 'echar algo', translation: 'выбросить / положить / насыпать / налить что-либо' },
-            { word: 'echar a alguien', translation: 'выгнать / уволить кого-либо' },
-            { word: 'echarse', translation: 'прилечь' },
-            { word: 'echar a + inf.', translation: 'начать (с глаголами движения)' },
-            { word: 'echarse a + inf.', translation: 'начать (с глаголами, которые выражают эмоции)' },
-            { word: 'echar de menos a alguien', translation: 'скучать по кому-либо' },
-            { word: 'echarse a perder', translation: 'испортиться / протухнуть' },
-            { word: 'pedir hora', translation: 'записаться на прием' },
-            { word: 'atender al paciente', translation: 'принять пациента' },
-            { word: 'examinar al paciente', translation: 'осмотреть пациента' },
-            { word: 'auscultar los pulmones', translation: 'прослушать легкие' },
-            { word: 'tomar la tensión', translation: 'измерить давление' },
-            { word: 'hacer un análisis de sangre', translation: 'сделать анализ крови' },
-            { word: 'hacer un análisis de orina', translation: 'сделать анализ мочи' },
-            { word: 'radiografía', translation: 'рентген' },
-            { word: 'revisión', translation: 'обследование' },
-            { word: 'investigación ultrasónica', translation: 'ультразвуковое исследование' },
-            { word: 'diagnosticar', translation: 'поставить диагноз' },
-            { word: 'tratamiento', translation: 'лечение' },
-            { word: 'recetar', translation: 'выписать рецепт' },
-            { word: 'receta', translation: 'рецепт' },
-            { word: 'prescribir', translation: 'прописать' },
-            { word: 'hospitalizar', translation: 'госпитализировать' },
-            { word: 'operar', translation: 'прооперировать' },
-            { word: 'UCI — unidad de cuidados intensivos', translation: 'отделение реанимации' },
-            { word: 'guardar cama', translation: 'соблюдать постельный режим' },
-            { word: 'estar a dieta', translation: 'соблюдать диету' },
-            { word: 'tomar medicamentos', translation: 'принимать лекарства' },
-            { word: 'dar de baja', translation: 'выписать больничный лист' },
-            { word: 'dar de alta', translation: 'закрыть больничный лист' },
-            { word: 'recuperar la salud', translation: 'выздороветь, поправиться' },
-            { word: 'curarse', translation: 'вылечиться' }
-          ]
-        },
-        {
-          title: 'Llevo a mi abuela al dentista',
-          words: [
-            { word: 'el tratamiento', translation: 'лечение' },
-            { word: 'escatimar', translation: 'экономить, скупиться' },
-            { word: 'fijo', translation: 'фиксированный, постоянный' },
-            { word: 'el maxilar', translation: 'челюсть' },
-            { word: 'masticar', translation: 'жевать' },
-            { word: 'picar', translation: 'кусать; покалывать; клевать' },
-            { word: 'temblar', translation: 'дрожать' },
-            { word: 'empastar', translation: 'пломбировать' },
-            { word: 'el empaste', translation: 'пломба' },
-            { word: 'la muela', translation: 'коренной зуб' },
-            { word: 'sacar / extraer la muela', translation: 'удалить зуб' },
-            { word: 'la caries', translation: 'кариес' },
-            { word: 'la encía', translation: 'десна' },
-            { word: 'la anestesia', translation: 'анестезия, наркоз' },
-            { word: 'anestesiar', translation: 'обезболить' },
-            { word: 'postizo', translation: 'искусственный, вставной' }
-          ]
-        }
-      ]
-    },
-    readingText: {
-      tabs: [
-        {
-          title: 'En el consultorio médico',
-          content: `**Diálogo 1: Запись на прием**
+    vocabulary: [
+      {
+        tab: 'En el consultorio médico',
+        words: [
+          { word: 'echar algo', translation: 'выбросить / положить / насыпать / налить что-либо' },
+          { word: 'echar a alguien', translation: 'выгнать / уволить кого-либо' },
+          { word: 'echarse', translation: 'прилечь' },
+          { word: 'echar a + inf.', translation: 'начать (с глаголами движения)' },
+          { word: 'echarse a + inf.', translation: 'начать (с глаголами, которые выражают эмоции)' },
+          { word: 'echar de menos a alguien', translation: 'скучать по кому-либо' },
+          { word: 'echarse a perder', translation: 'испортиться / протухнуть' },
+          { word: 'pedir hora', translation: 'записаться на прием' },
+          { word: 'atender al paciente', translation: 'принять пациента' },
+          { word: 'examinar al paciente', translation: 'осмотреть пациента' },
+          { word: 'auscultar los pulmones', translation: 'прослушать легкие' },
+          { word: 'tomar la tensión', translation: 'измерить давление' },
+          { word: 'hacer un análisis de sangre', translation: 'сделать анализ крови' },
+          { word: 'hacer un análisis de orina', translation: 'сделать анализ мочи' },
+          { word: 'radiografía', translation: 'рентген' },
+          { word: 'revisión', translation: 'обследование' },
+          { word: 'investigación ultrasónica', translation: 'ультразвуковое исследование' },
+          { word: 'diagnosticar', translation: 'поставить диагноз' },
+          { word: 'tratamiento', translation: 'лечение' },
+          { word: 'recetar', translation: 'выписать рецепт' },
+          { word: 'receta', translation: 'рецепт' },
+          { word: 'prescribir', translation: 'прописать' },
+          { word: 'hospitalizar', translation: 'госпитализировать' },
+          { word: 'operar', translation: 'прооперировать' },
+          { word: 'UCI — unidad de cuidados intensivos', translation: 'отделение реанимации' },
+          { word: 'guardar cama', translation: 'соблюдать постельный режим' },
+          { word: 'estar a dieta', translation: 'соблюдать диету' },
+          { word: 'tomar medicamentos', translation: 'принимать лекарства' },
+          { word: 'dar de baja', translation: 'выписать больничный лист' },
+          { word: 'dar de alta', translation: 'закрыть больничный лист' },
+          { word: 'recuperar la salud', translation: 'выздороветь, поправиться' },
+          { word: 'curarse', translation: 'вылечиться' }
+        ]
+      },
+      {
+        tab: 'Llevo a mi abuela al dentista',
+        words: [
+          { word: 'el tratamiento', translation: 'лечение, обращение' },
+          { word: 'escatimar', translation: 'скупиться, жалеть' },
+          { word: 'fijo', translation: 'постоянный, неизменный' },
+          { word: 'el maxilar', translation: 'челюсть' },
+          { word: 'masticar', translation: 'жевать, разжевывать' },
+          { word: 'rellenar', translation: 'заполнять, фаршировать' },
+          { word: 'matar moscas a cañonazos', translation: 'из пушки по воробьям' },
+          { word: 'vamos al merme', translation: 'уменьшать, ужаривать, упаривать' },
+          { word: 'mermar', translation: 'уменьшать, сокращать' },
+          { word: 'de cuchara', translation: 'жидкие блюда' },
+          { word: 'inhalar', translation: 'вдыхать; вдохнуть (мед.)' },
+          { word: 'de adorno', translation: 'декоративный' },
+          { word: 'la pajita', translation: 'соломинка, трубочка' },
+          { word: 'chuparse los dedos', translation: 'пальчики оближешь' },
+          { word: 'los hervores', translation: 'клокотание, бурление' },
+          { word: 'el tomillo', translation: 'чабрец, тимьян' },
+          { word: 'el vaho', translation: 'пар, испарение' },
+          { word: 'el humo', translation: 'дым, пар' },
+          { word: 'picar', translation: 'кусать; покалывать; клевать' },
+          { word: 'temblar', translation: 'дрожать' },
+          { word: 'empastar', translation: 'пломбировать' },
+          { word: 'el empaste', translation: 'пломба' },
+          { word: 'la muela', translation: 'коренной зуб' },
+          { word: 'sacar / extraer la muela', translation: 'удалить зуб' },
+          { word: 'la caries', translation: 'кариес' },
+          { word: 'la encía', translation: 'десна' },
+          { word: 'la anestesia', translation: 'анестезия, наркоз' },
+          { word: 'anestesiar', translation: 'обезболить' },
+          { word: 'postizo', translation: 'искусственный, вставной' }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: 'En el consultorio médico',
+        title: 'En el consultorio médico',
+        content: `**Diálogo 1: Запись на прием**
 
 – Consultorio "Sanfís", buenos días.
 – Buenos días. Quiero pedir hora para hoy.
@@ -12000,53 +12011,45 @@ convenir — подходить
 – ¿Tengo que seguir alguna dieta?
 – Sí, por supuesto. No tome grasas ni comidas fuertes. Le voy a recetar unas pastillas para la digestión y un jarabe para los vómitos. Tiene que tomar una cucharada de jarabe con cada comida. Ahora la enfermera le hará una inyección para quitar el mareo. Le daré de baja para dos días. Venga con los resultados de los análisis dentro de dos días. ¿De acuerdo?
 – Muchas gracias, doctor. Seguiré sus indicaciones sin falta.`
-        },
-        {
-          title: 'Llevo a mi abuela al dentista',
-          content: `**Diálogo: En el dentista (comedia de José Mota)**
+      },
+      {
+        tab: 'Llevo a mi abuela al dentista',
+        title: 'Llevo a mi abuela al dentista',
+        content: `**Diálogo: En el dentista (comedia de José Mota)**
 
-Abuela: Hola, buenos días. Mire, es que no hemos escatimado en el tratamiento. Queremos que le ponga unos dientes fijos arriba y unos dientes fijos abajo, que pueda morder, que pueda masticar, que no le piquen…
+Doctor: Y estamos a falta, pues, de que usted decida qué tipo de tratamiento, qué tipo de prótesis desea para su abuela.
 
-Nieto: Sí, que no le tiemblen ni nada.
+Nieto: Pues lo mejor. Ahí no quiero escatimar, cueste lo que cueste.
 
-Abuela: Ni nada, vamos.
+Doctor: Hoy en día tenemos manyas opciones. Tenemos la posibilidad de poner dientes fijos tanto en el maxilar superior como en el maxilar inferior, y podría hacer una vida totalmente normal: masticar, comer bocadillos, comer un chuletón...
 
-Dentista: Muy bien, que no le tiemblen. Pues nada, siéntese aquí, señora. Abra la boca.
+Nieto: Ah, a mí me parece perfecto, es lo que venimos buscando. Pero, ¿me podría decir más o menos el precio? Sobre todo para poder rellenarle el cheque.
 
-Abuela: Me da mucho miedo.
+Doctor: Estamos hablando de unos 25.000 €.
 
-Dentista: No, si no le voy a hacer nada... le voy a mirar sólo.
+Nieto: Mi abuela no es de bocadillos. Porque bocadillo, bocadillo... no es. Es más bien de cuchara. Está moviéndose en el mundo del garbanzo, la alubia. A ver si vamos a matar moscas a cañonazos... ¿Cuál es la opción inmediatamente inferior?
 
-Abuela: Pero que me pone muy nerviosa.
+Doctor: Hombre, la siguiente opción sería llevar una prótesis de quitar y poner; pero para que no se le movieran los dientes de abajo, se le podrían colocar dos implantes que le darían mucha más estabilidad funcional. Y ya, pues, estaríamos hablando del orden de los 3.000 €.
 
-Dentista: Qué le voy a poner nerviosa, señora. A ver, abra usted la boca. Bueno, aquí no hay nada. No hay nada, no hay nada que empastar, aquí no hay dientes. Aquí, ¿tiene muelas?
+Nieto: Caldos. Ella viene a ser de caldos. Beber es lo que le gusta más que comer, realmente. Vamos al merme.
 
-Nieto: ¿Muelas? Ella no tiene ni maxilares. Se los quitaron en Cuba.
+Doctor: Pues... ¿unas prótesis completas de toda la vida, no? Y nos moveríamos en los 1.000 €.
 
-Dentista: ¿Y qué hace esta señora con toda esta encía aquí? Si es una persona sin maxilares, ¿cómo le vamos a poner unos dientes fijos?
+Nieto: ¿Quiere que le diga dónde de verdad disfruta ella? Tomando raciones por inhalación, y eso su puro en placer vivo. Los dientes mayormente van a estar de adorno. Denme otra opción.
 
-Nieto: Pues fijándolos.
+Doctor: Bueno, pues... realmente, si los dientes van a ser de adorno, yo creo que una excelente opción sería... imagínese, unos dientes de "drácula". No va a poder masticar como con unas prótesis convencionales, pero tienen una prestancia... y estaríamos hablando de 1 euro.
 
-Dentista: ¿Fijándolos? ¿A qué? A ver, dígame. ¿Qué es lo último que le han puesto a esta señora en la boca?
+Nieto: ¿Y me puede dar otra opción por saber?
 
-Nieto: Una croqueta.
+Doctor: Hombre, la última opción sería una pajita.
 
-Dentista: Hablo de dentadura.
+Nieto: Me está ofendiendo, doctor. Yo cuando he entrado aquí he dicho que quería lo mejor.
 
-Nieto: Entonces nada.
+Doctor: ¿Y entonces qué le ponemos?
 
-Dentista: ¿No le han puesto nada nunca? Mire, lo único que le puedo ofrecer es una dentadura postiza.
-
-Abuela: Eso ya lo tengo.
-
-Dentista: Ya, ¿y dónde está?
-
-Abuela: Es que me da mucho asco.
-
-Nieto: Nos pasa a todos.`
-        }
-      ]
-    },
+Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que le tengo una comida preparada que se va a chupar los dedos: hervores de hoja de tomillo y bocadillo de humo. De postre, vaho de flan. ¡Yeah!`
+      }
+    ],
     exerciseTabs: [
       {
         tab: 'En el consultorio médico',
@@ -38914,26 +38917,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
   'ex-10-2-6': {
     id: 'ex-10-2-6',
     type: 'fillblank',
-    title: 'Vocabulario: Llevo a mi abuela al dentista',
-    description: 'Заполните пропуски подходящими словами из банка слов',
+    title: 'Comprensión: Llevo a mi abuela al dentista',
+    description: 'Заполните пропуски подходящими словами из банка слов по тексту диалога',
     showAnswerOption: true,
-    wordBank: ['tratamiento', 'escatimar', 'fijo', 'maxilar', 'masticar', 'picar', 'temblar', 'empastar', 'empaste', 'muela', 'extraer', 'caries', 'encía', 'anestesia', 'postizo'],
+    wordBank: ['escatimar', 'tratamiento', 'prótesis', 'maxilar', 'masticar', 'rellenar', 'cuchara', 'merme', 'adorno', 'pajita', 'chupar', 'hervores', 'tomillo', 'humo', 'vaho'],
     questions: [
-      { sentence: 'No hemos ___ en el tratamiento dental, queremos lo mejor para la abuela.', correct: 'escatimado', alternatives: ['escatimar'] },
-      { sentence: 'El dentista le va a poner unos dientes ___ arriba y abajo para que pueda comer bien.', correct: 'fijos', alternatives: ['fijo'] },
-      { sentence: 'Después de la operación, el paciente no podía ___ alimentos sólidos durante varios días.', correct: 'masticar', alternatives: [] },
-      { sentence: 'Si comes muchos dulces, te van a ___ los dientes y tendrás problemas.', correct: 'picar', alternatives: [] },
-      { sentence: 'Cuando el dentista sacó el torno, a la abuela le empezaron a ___ las manos de miedo.', correct: 'temblar', alternatives: [] },
-      { sentence: 'El doctor tuvo que ___ la muela porque tenía una caries muy profunda.', correct: 'empastar', alternatives: [] },
-      { sentence: 'El ___ que me pusieron la semana pasada ya se ha caído y tengo que volver al dentista.', correct: 'empaste', alternatives: [] },
-      { sentence: 'Me duele mucho la ___ del juicio y creo que me la van a tener que sacar.', correct: 'muela', alternatives: [] },
-      { sentence: 'El cirujano tuvo que ___ la muela dañada porque no se podía salvar con un empaste.', correct: 'extraer', alternatives: ['sacar'] },
-      { sentence: 'La ___ es una enfermedad dental muy común causada por bacterias y azúcar.', correct: 'caries', alternatives: [] },
-      { sentence: 'Después de la limpieza dental, me sangró un poco la ___ pero el dentista dijo que era normal.', correct: 'encía', alternatives: [] },
-      { sentence: 'Antes de extraer la muela, el dentista aplicó ___ local para que no sintiera dolor.', correct: 'anestesia', alternatives: [] },
-      { sentence: 'Como la abuela no tiene dientes naturales, el dentista le ofreció una dentadura ___.', correct: 'postiza', alternatives: ['postizo'] },
-      { sentence: 'El ___ completo incluye tres visitas al dentista y la fabricación de la prótesis dental.', correct: 'tratamiento', alternatives: [] },
-      { sentence: 'Le quitaron el ___ superior cuando era joven y por eso no puede ponerse dientes fijos.', correct: 'maxilar', alternatives: [] }
+      { sentence: 'El nieto dice que no quiere ___ en el tratamiento, cueste lo que cueste.', correct: 'escatimar', alternatives: [] },
+      { sentence: 'El doctor pregunta qué tipo de ___ desea para su abuela.', correct: 'prótesis', alternatives: ['tratamiento'] },
+      { sentence: 'Con dientes fijos se puede ___, comer bocadillos y comer un chuletón.', correct: 'masticar', alternatives: [] },
+      { sentence: 'El nieto quiere ___ el cheque para pagar el tratamiento.', correct: 'rellenar', alternatives: [] },
+      { sentence: 'El nieto dice que su abuela es más bien de ___, no de bocadillos.', correct: 'cuchara', alternatives: [] },
+      { sentence: 'El nieto usa la expresión "matar moscas a cañonazos" y pide ir al ___.', correct: 'merme', alternatives: [] },
+      { sentence: 'Según el nieto, los dientes de su abuela van a estar mayormente de ___.', correct: 'adorno', alternatives: [] },
+      { sentence: 'La última opción que ofrece el doctor es una ___.', correct: 'pajita', alternatives: [] },
+      { sentence: 'El nieto dice que la comida que le tiene preparada se va a ___ los dedos.', correct: 'chupar', alternatives: [] },
+      { sentence: 'La comida preparada incluye ___ de hoja de tomillo.', correct: 'hervores', alternatives: [] },
+      { sentence: 'Los hervores son de hoja de ___.', correct: 'tomillo', alternatives: [] },
+      { sentence: 'El bocadillo que el nieto le tiene preparado es de ___.', correct: 'humo', alternatives: [] },
+      { sentence: 'De postre, el nieto le va a dar ___ de flan.', correct: 'vaho', alternatives: [] },
+      { sentence: 'Los dientes fijos se ponen tanto en el ___ superior como en el inferior.', correct: 'maxilar', alternatives: [] },
+      { sentence: 'El ___ más caro cuesta unos 25.000 euros.', correct: 'tratamiento', alternatives: [] }
     ]
   },
 
@@ -38944,21 +38947,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Responda a las preguntas sobre el texto del diálogo en el dentista',
     showAnswerOption: true,
     questions: [
-      { question: '¿Qué tipo de tratamiento dental quiere la familia para la abuela?', options: ['Una limpieza dental simple', 'Unos dientes fijos arriba y abajo', 'Una dentadura postiza barata', 'Solo un empaste'], correct: 1 },
-      { question: '¿Qué significa que la familia "no ha escatimado en el tratamiento"?', options: ['Que han gastado muy poco dinero', 'Que no han querido invertir en el tratamiento', 'Que están dispuestos a pagar lo que sea necesario', 'Que prefieren tratamientos alternativos'], correct: 2 },
-      { question: '¿Cómo se siente la abuela cuando se sienta en la silla del dentista?', options: ['Muy tranquila y relajada', 'Indiferente y aburrida', 'Nerviosa y asustada', 'Enfadada y molesta'], correct: 2 },
-      { question: '¿Qué descubre el dentista cuando examina la boca de la abuela?', options: ['Que tiene muchas caries', 'Que tiene los dientes muy sanos', 'Que no tiene dientes ni muelas', 'Que necesita varios empastes'], correct: 2 },
-      { question: '¿Dónde le quitaron los maxilares a la abuela según el nieto?', options: ['En España', 'En México', 'En Cuba', 'En Argentina'], correct: 2 },
-      { question: '¿Por qué es imposible ponerle dientes fijos a la abuela?', options: ['Porque son muy caros', 'Porque ella no quiere', 'Porque no tiene maxilares donde fijarlos', 'Porque el dentista no sabe hacerlo'], correct: 2 },
-      { question: '¿Qué solución ofrece el dentista a la abuela?', options: ['Una operación de implantes', 'Una dentadura postiza', 'Un tratamiento con láser', 'Nada, dice que no puede ayudarla'], correct: 1 },
-      { question: '¿Por qué la abuela rechaza la dentadura postiza?', options: ['Porque ya tiene una pero le da asco', 'Porque es muy cara', 'Porque prefiere no tener dientes', 'Porque el nieto no quiere'], correct: 0 },
-      { question: '¿Qué responde el nieto cuando el dentista pregunta qué fue lo último que le pusieron en la boca a la abuela?', options: ['Un empaste', 'Una corona', 'Una croqueta', 'Un caramelo'], correct: 2 },
-      { question: '¿Cómo reacciona el nieto cuando la abuela dice que la dentadura postiza le da asco?', options: ['Se enfada con ella', 'Dice que a todos les pasa lo mismo', 'La convence de usarla', 'Se va del consultorio'], correct: 1 },
-      { question: '¿Qué tono tiene el diálogo entre los personajes?', options: ['Dramático y serio', 'Cómico y absurdo', 'Triste y melancólico', 'Técnico y profesional'], correct: 1 },
-      { question: '¿Cuántos personajes participan en el diálogo?', options: ['Dos', 'Tres', 'Cuatro', 'Cinco'], correct: 1 },
-      { question: '¿Qué quiere decir el nieto con "Pues fijándolos" cuando el dentista pregunta cómo poner dientes fijos?', options: ['Una respuesta técnica correcta', 'Una broma absurda que muestra que no entiende el problema', 'Una solución innovadora', 'Una queja al dentista'], correct: 1 },
-      { question: '¿Qué tipo de comedia representa este diálogo?', options: ['Comedia romántica', 'Comedia de situación con humor absurdo', 'Comedia musical', 'Comedia de acción'], correct: 1 },
-      { question: '¿Cuál es el problema principal que impide realizar el tratamiento deseado?', options: ['La falta de dinero', 'El miedo de la abuela', 'La ausencia de maxilares y dientes', 'La incompetencia del dentista'], correct: 2 }
+      { question: '¿Qué dice el nieto al principio sobre el tratamiento?', options: ['Que quiere el más barato', 'Que quiere lo mejor, sin escatimar', 'Que no quiere ningún tratamiento', 'Que prefiere esperar'], correct: 1 },
+      { question: '¿Cuánto cuesta la opción más cara de dientes fijos?', options: ['1.000 €', '3.000 €', '25.000 €', '1 €'], correct: 2 },
+      { question: '¿Qué puede hacer una persona con dientes fijos según el doctor?', options: ['Solo comer sopas', 'Masticar, comer bocadillos y chuletón', 'Solo beber líquidos', 'Nada especial'], correct: 1 },
+      { question: '¿Por qué el nieto dice que su abuela no es de bocadillos?', options: ['Porque es alérgica al pan', 'Porque prefiere comida de cuchara como garbanzos', 'Porque no le gustan', 'Porque son muy caros'], correct: 1 },
+      { question: '¿Qué significa la expresión "matar moscas a cañonazos"?', options: ['Cazar insectos', 'Usar medios excesivos para algo simple', 'Una técnica dental', 'Un tipo de comida'], correct: 1 },
+      { question: '¿Cuánto cuesta la prótesis de quitar y poner con dos implantes?', options: ['25.000 €', '3.000 €', '1.000 €', '1 €'], correct: 1 },
+      { question: '¿Qué significa "vamos al merme"?', options: ['Vamos al hospital', 'Vamos a reducir, a lo mínimo', 'Vamos a comer', 'Vamos al dentista'], correct: 1 },
+      { question: '¿Qué le gusta más a la abuela según el nieto?', options: ['Comer bocadillos', 'Beber más que comer', 'Masticar carne', 'Comer dulces'], correct: 1 },
+      { question: '¿Qué opción de 1 euro ofrece el doctor?', options: ['Una pajita', 'Dientes de drácula', 'Nada', 'Una prótesis completa'], correct: 1 },
+      { question: '¿Cuál es la última opción que menciona el doctor?', options: ['Dientes de drácula', 'Una prótesis', 'Una pajita', 'Implantes'], correct: 2 },
+      { question: '¿Cómo reacciona el nieto cuando el doctor menciona la pajita?', options: ['Acepta la opción', 'Se siente ofendido', 'Se ríe', 'Se va del consultorio'], correct: 1 },
+      { question: '¿Qué decide pedir el nieto al final?', options: ['La pajita', 'Los dientes de drácula con la capa', 'Los dientes fijos de 25.000 €', 'La prótesis de 3.000 €'], correct: 1 },
+      { question: '¿Qué comida absurda le tiene preparada el nieto a su abuela?', options: ['Un chuletón', 'Bocadillos', 'Hervores de tomillo y bocadillo de humo', 'Sopa de verduras'], correct: 2 },
+      { question: '¿Qué es el postre que menciona el nieto?', options: ['Flan normal', 'Vaho de flan', 'Helado', 'Tarta'], correct: 1 },
+      { question: '¿Qué tono tiene este diálogo?', options: ['Serio y dramático', 'Cómico y absurdo', 'Triste', 'Técnico'], correct: 1 }
     ]
   },
 
@@ -38982,7 +38985,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Espero que el tratamiento no ___ muy doloroso para mi abuela.', options: ['es', 'fue', 'sea', 'ha sido'], correct: 2 },
       { sentence: 'Esta mañana ___ al dentista para una revisión rutinaria.', options: ['fui', 'he ido', 'vaya', 'iba'], correct: 1 },
       { sentence: 'El doctor quiere que yo ___ los dientes tres veces al día.', options: ['cepillo', 'cepillé', 'cepille', 'he cepillado'], correct: 2 },
-      { sentence: 'En Cuba le ___ los maxilares hace muchos años, según cuenta el nieto.', options: ['han quitado', 'quitaron', 'quiten', 'quitaban'], correct: 1 },
+      { sentence: 'En Cuba le ___ los molares hace muchos años, según cuenta el nieto.', options: ['han quitado', 'quitaron', 'quiten', 'quitaban'], correct: 1 },
       { sentence: 'Ojalá que la dentadura postiza no le ___ tanto asco a la abuela.', options: ['da', 'dio', 'dé', 'ha dado'], correct: 2 }
     ]
   },
@@ -39007,7 +39010,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'У меня болит десна после вчерашней чистки зубов.', correct: 'Me duele la encía después de la limpieza dental de ayer.', alternatives: ['Me duele la encía después de la limpieza de ayer.'] },
       { russian: 'Надеюсь, что лечение не будет очень болезненным.', correct: 'Espero que el tratamiento no sea muy doloroso.', alternatives: ['Ojalá que el tratamiento no sea muy doloroso.'] },
       { russian: 'Когда стоматолог достал бормашину, у меня задрожали руки.', correct: 'Cuando el dentista sacó el torno, me empezaron a temblar las manos.', alternatives: ['Cuando el dentista sacó el taladro, me temblaron las manos.'] },
-      { russian: 'Как мы поставим ей постоянные зубы, если у неё нет челюстей?', correct: '¿Cómo le vamos a poner dientes fijos si no tiene maxilares?', alternatives: ['¿Cómo le pondremos dientes fijos si no tiene maxilares?'] },
+      { russian: 'Как мы поставим ей постоянные зубы, если у неё нет коренных зубов?', correct: '¿Cómo le vamos a poner dientes fijos si no tiene molares?', alternatives: ['¿Cómo le pondremos dientes fijos si no tiene molares?'] },
       { russian: 'Пломба, которую мне поставили неделю назад, уже выпала.', correct: 'El empaste que me pusieron hace una semana ya se ha caído.', alternatives: ['El empaste que me pusieron la semana pasada ya se cayó.'] }
     ]
   },
