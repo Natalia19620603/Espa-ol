@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-12', 'module-17']
+    modules: ['module-11', 'module-12', 'module-13', 'module-17']
   }
 ]
 
@@ -85,6 +85,13 @@ export const modules = {
     level: 'intermediate',
     lessons: ['lesson-12-1', 'lesson-12-2', 'lesson-12-3', 'lesson-12-4'],
     description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
+  },
+  'module-13': {
+    id: 'module-13',
+    title: 'Модуль 13: УСТРОЙСТВО НА РАБОТУ. Subjuntivo в определительных, уступительных и простых предложениях',
+    level: 'intermediate',
+    lessons: ['lesson-13-1'],
+    description: 'Употребление сослагательного наклонения в определительных предложениях (relativas), уступительных предложениях (concesivas) и простых предложениях (oraciones independientes)'
   },
   'module-8': {
     id: 'module-8',
@@ -17469,6 +17476,177 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
     },
     vocabulary: [],
     exercises: ['ex-12-4-1', 'ex-12-4-2', 'ex-12-4-3']
+  },
+
+  // Модуль 13: УСТРОЙСТВО НА РАБОТУ
+  'lesson-13-1': {
+    id: 'lesson-13-1',
+    title: 'Урок 1: Употребление сослагательного наклонения в определительных предложениях (relativas)',
+    moduleId: 'module-13',
+    grammar: {
+      title: 'Сослагательное наклонение в определительных предложениях (Relativas)',
+      intro: `Выбор между **Indicativo** и **Subjuntivo** в придаточном определительном предложении зависит от того, насколько реален или знаком нам объект, о котором идёт речь.
+
+**Ключевой принцип:**
+- Если объект **конкретный, известный, реальный** → **Indicativo**
+- Если объект **неизвестный, гипотетический, разыскиваемый** → **Subjuntivo**`,
+      sections: [
+        {
+          id: 'realidad-vs-indefinido',
+          title: '1. Реальность vs. Неопределённость',
+          content: `## 1. Реальность vs. Неопределённость
+
+### Indicativo — конкретный, известный объект
+Используется, когда говорящий знает о существовании объекта или уже имеет его в виду.
+
+### Subjuntivo — неизвестный, гипотетический объект
+Используется, когда объект ещё не найден, не существует или только разыскивается.
+
+| Indicativo (Факт) | Subjuntivo (Поиск/Желание) |
+|-------------------|----------------------------|
+| Busco **al** médico **que ha hecho** la operación. | Busco **a un** médico **que haga** la operación. |
+| *Ищу (того самого) врача, который сделал операцию.* | *Ищу (какого-нибудь) врача, который (бы) сделал операцию.* |
+| Conozco a una chica **que habla** cinco idiomas. | Busco a una chica **que hable** cinco idiomas. |
+| *Знаю девушку, которая говорит на пяти языках.* | *Ищу девушку, которая говорила бы на пяти языках.* |
+| Tengo un coche **que consume** poco. | Quiero un coche **que consuma** poco. |
+| *У меня есть машина, которая потребляет мало.* | *Хочу машину, которая потребляла бы мало.* |
+
+### Обратите внимание на артикль!
+- **al / el / la** + Indicativo → конкретный объект
+- **a un / una** + Subjuntivo → любой подходящий объект`
+        },
+        {
+          id: 'negacion-indefinidos',
+          title: '2. Отрицание и неопределённые местоимения',
+          content: `## 2. Отрицание и неопределённые местоимения
+
+Если главное предложение утверждает, что такого объекта **не существует**, или ставит под сомнение его наличие, **всегда используется Subjuntivo**.
+
+### После отрицаний (nadie, ninguno, no hay...):
+
+| Испанский | Русский |
+|-----------|---------|
+| No conozco a **nadie** que **sepa** arreglar esto. | Я не знаю никого, кто умел бы это чинить. |
+| No hay **nada** que me **guste** aquí. | Здесь нет ничего, что бы мне нравилось. |
+| No existe **ningún** país que **tenga** ese sistema. | Не существует ни одной страны, которая имела бы такую систему. |
+| No tengo **ningún** amigo que **viva** en Madrid. | У меня нет ни одного друга, который жил бы в Мадриде. |
+
+### В вопросах о существовании (¿alguien...?, ¿hay...?):
+
+| Испанский | Русский |
+|-----------|---------|
+| ¿Conoces a **alguien** que **pueda** ayudarnos? | Знаешь кого-нибудь, кто мог бы нам помочь? |
+| ¿Hay **algo** que te **interese**? | Есть что-нибудь, что тебя интересует? |
+| ¿Existe **algún** lugar que **sea** más barato? | Есть ли какое-нибудь место, которое было бы дешевле? |
+
+**Важно:** В вопросах Subjuntivo выражает сомнение в существовании объекта.`
+        },
+        {
+          id: 'expresiones-fijas',
+          title: '3. Устойчивые выражения и пословицы',
+          content: `## 3. Устойчивые выражения и пословицы
+
+Многие испанские пословицы и устойчивые выражения строятся по этому принципу:
+
+| Испанский | Русский |
+|-----------|---------|
+| No hay mal que por bien no **venga**. | Нет худа без добра. |
+| No hay rosa sin espinas que la **acompañen**. | Нет розы без шипов. |
+| No es oro todo lo que **reluzca**. | Не всё то золото, что блестит. |
+| Quien mucho **abarque**, poco **aprieta**. | За двумя зайцами погонишься — ни одного не поймаешь. |
+| Donde fueres, haz lo que **vieres**. | В чужой монастырь со своим уставом не ходят. |
+
+### Выражения с "sea como sea", "pase lo que pase":
+
+| Испанский | Русский |
+|-----------|---------|
+| **Sea como sea**, lo conseguiré. | Как бы то ни было, я этого добьюсь. |
+| **Pase lo que pase**, estaré contigo. | Что бы ни случилось, я буду с тобой. |
+| **Digan lo que digan**, no cambiaré de opinión. | Что бы ни говорили, я не изменю своего мнения. |`
+        },
+        {
+          id: 'contexto-laboral',
+          title: '4. Примеры в контексте трудоустройства',
+          content: `## 4. Примеры в контексте трудоустройства
+
+### Indicativo — конкретные факты:
+- Tengo un trabajo **que me permite** viajar mucho.
+  *(У меня есть работа, которая позволяет мне много путешествовать.)*
+- Conozco a una empresa **que busca** programadores.
+  *(Знаю компанию, которая ищет программистов.)*
+- He encontrado un puesto **que corresponde** a mi perfil.
+  *(Я нашёл должность, которая соответствует моему профилю.)*
+
+### Subjuntivo — поиск, желание:
+- Busco un trabajo **que me permita** viajar mucho.
+  *(Ищу работу, которая позволила бы мне много путешествовать.)*
+- Necesito una empresa **que ofrezca** buen salario.
+  *(Мне нужна компания, которая предлагала бы хорошую зарплату.)*
+- Quiero un puesto **que corresponda** a mi formación.
+  *(Хочу должность, которая соответствовала бы моему образованию.)*
+
+### Отрицание в контексте работы:
+- No hay **ninguna** oferta **que me interese**.
+  *(Нет ни одного предложения, которое меня интересовало бы.)*
+- No conozco a **nadie** que **trabaje** en esa empresa.
+  *(Не знаю никого, кто работал бы в той компании.)*`
+        },
+        {
+          id: 'resumen-reglas',
+          title: '5. Сводка правил',
+          content: `## 5. Сводка правил
+
+| Ситуация | Наклонение | Пример |
+|----------|------------|--------|
+| Объект известен, реален | **Indicativo** | Tengo un jefe **que es** muy amable. |
+| Объект ищется, желаем | **Subjuntivo** | Quiero un jefe **que sea** amable. |
+| Отрицание существования | **Subjuntivo** | No hay nadie **que sepa** esto. |
+| Вопрос о существовании | **Subjuntivo** | ¿Hay alguien **que pueda** ayudar? |
+| Пословицы (общие истины) | **Subjuntivo** | No hay mal **que** por bien no **venga**. |
+
+### Маркеры для Subjuntivo в относительных предложениях:
+- **buscar** (искать)
+- **necesitar** (нуждаться)
+- **querer** (хотеть)
+- **no hay** / **no existe** (нет / не существует)
+- **nadie** / **nada** / **ninguno** (никто / ничто / никакой)
+- **¿hay...?** / **¿conoces...?** (есть ли...? / знаешь ли...?)`
+        }
+      ]
+    },
+    vocabulary: [
+      {
+        tab: 'Устройство на работу',
+        words: [
+          { word: 'el puesto de trabajo', translation: 'рабочее место, должность' },
+          { word: 'la oferta de empleo', translation: 'предложение о работе, вакансия' },
+          { word: 'el currículum (vitae)', translation: 'резюме' },
+          { word: 'la entrevista de trabajo', translation: 'собеседование' },
+          { word: 'el candidato / la candidata', translation: 'кандидат / кандидатка' },
+          { word: 'el solicitante', translation: 'соискатель' },
+          { word: 'solicitar un puesto', translation: 'подавать заявку на должность' },
+          { word: 'contratar', translation: 'нанимать, принимать на работу' },
+          { word: 'el contrato', translation: 'контракт, договор' },
+          { word: 'el sueldo / el salario', translation: 'зарплата' },
+          { word: 'la nómina', translation: 'платёжная ведомость' },
+          { word: 'el jefe / la jefa', translation: 'начальник / начальница' },
+          { word: 'el empleado / la empleada', translation: 'сотрудник / сотрудница' },
+          { word: 'la experiencia laboral', translation: 'опыт работы' },
+          { word: 'la formación', translation: 'образование, подготовка' },
+          { word: 'las cualificaciones', translation: 'квалификация' },
+          { word: 'los requisitos', translation: 'требования' },
+          { word: 'despedir', translation: 'увольнять' },
+          { word: 'dimitir', translation: 'уволиться (по собственному желанию)' },
+          { word: 'estar en paro', translation: 'быть безработным' },
+          { word: 'la jornada completa', translation: 'полный рабочий день' },
+          { word: 'la media jornada', translation: 'неполный рабочий день' },
+          { word: 'el horario flexible', translation: 'гибкий график' },
+          { word: 'las vacaciones pagadas', translation: 'оплачиваемый отпуск' }
+        ]
+      }
+    ],
+    readingText: [],
+    exercises: ['ex-13-1-1', 'ex-13-1-2', 'ex-13-1-3']
   }
 }
 
@@ -42177,6 +42355,77 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         correct: 0,
         explanation: 'Qué bien que + Subjuntivo. En cuanto + Subjuntivo (acción futura). Para que + Subjuntivo.'
       }
+    ]
+  },
+
+  // Модуль 13 Урок 1: Subjuntivo в определительных предложениях
+  'ex-13-1-1': {
+    id: 'ex-13-1-1',
+    type: 'grammar',
+    title: 'Indicativo o Subjuntivo en oraciones relativas',
+    description: 'Выберите правильную форму глагола: Indicativo или Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Busco un trabajo que me ___ viajar. (permitir)', options: ['permite', 'permita', 'permitía', 'permitirá'], correct: 1, explanation: 'Subjuntivo porque se busca algo hipotético, no concreto.' },
+      { sentence: 'Tengo un amigo que ___ español perfectamente. (hablar)', options: ['hable', 'habla', 'hablara', 'hablará'], correct: 1, explanation: 'Indicativo porque es un amigo concreto y real.' },
+      { sentence: 'No hay nadie que ___ resolver este problema. (poder)', options: ['puede', 'pueda', 'podía', 'podrá'], correct: 1, explanation: 'Subjuntivo después de "no hay nadie que".' },
+      { sentence: '¿Conoces a alguien que ___ francés? (saber)', options: ['sabe', 'sepa', 'sabía', 'sabrá'], correct: 1, explanation: 'Subjuntivo en preguntas sobre existencia dudosa.' },
+      { sentence: 'Necesito una secretaria que ___ inglés y alemán. (dominar)', options: ['domina', 'domine', 'dominaba', 'dominará'], correct: 1, explanation: 'Subjuntivo porque se busca a alguien no específico.' },
+      { sentence: 'Conozco a una empresa que ___ buenos salarios. (ofrecer)', options: ['ofrezca', 'ofrece', 'ofreciera', 'ofrecerá'], correct: 1, explanation: 'Indicativo porque es una empresa conocida y real.' },
+      { sentence: 'No existe ningún país que ___ perfecto. (ser)', options: ['es', 'sea', 'era', 'será'], correct: 1, explanation: 'Subjuntivo después de "no existe ningún... que".' },
+      { sentence: 'Quiero un jefe que ___ comprensivo. (ser)', options: ['es', 'sea', 'era', 'será'], correct: 1, explanation: 'Subjuntivo porque expresa un deseo de algo no real todavía.' },
+      { sentence: 'He encontrado el libro que ___ para mi investigación. (necesitar)', options: ['necesite', 'necesito', 'necesitaba', 'necesitaré'], correct: 1, explanation: 'Indicativo porque el libro ya está encontrado, es real.' },
+      { sentence: 'Buscamos empleados que ___ experiencia en ventas. (tener)', options: ['tienen', 'tengan', 'tenían', 'tendrán'], correct: 1, explanation: 'Subjuntivo porque se buscan candidatos no específicos.' },
+      { sentence: 'No hay nada que me ___ en esta tienda. (gustar)', options: ['gusta', 'guste', 'gustaba', 'gustará'], correct: 1, explanation: 'Subjuntivo después de "no hay nada que".' },
+      { sentence: 'Tenemos una oficina que ___ muy céntrica. (estar)', options: ['esté', 'está', 'estuviera', 'estará'], correct: 1, explanation: 'Indicativo porque la oficina existe y es conocida.' },
+      { sentence: '¿Hay algún restaurante que ___ comida mexicana por aquí? (servir)', options: ['sirve', 'sirva', 'servía', 'servirá'], correct: 1, explanation: 'Subjuntivo porque se pregunta si existe tal restaurante.' },
+      { sentence: 'Ella tiene un novio que la ___ mucho. (querer)', options: ['quiera', 'quiere', 'quisiera', 'querrá'], correct: 1, explanation: 'Indicativo porque el novio es real y concreto.' },
+      { sentence: 'Buscan a alguien que ___ dispuesto a trabajar los fines de semana. (estar)', options: ['está', 'esté', 'estaba', 'estará'], correct: 1, explanation: 'Subjuntivo porque se busca a alguien no específico.' }
+    ]
+  },
+
+  'ex-13-1-2': {
+    id: 'ex-13-1-2',
+    type: 'fillblank',
+    title: 'Complete las oraciones relativas',
+    description: 'Впишите глагол в правильной форме (Indicativo или Subjuntivo)',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Necesito un ordenador que ___ más rápido. (funcionar)', correct: 'funcione', alternatives: [] },
+      { sentence: 'Tengo un ordenador que ___ muy bien. (funcionar)', correct: 'funciona', alternatives: [] },
+      { sentence: 'No conozco a nadie que ___ tanto como él. (trabajar)', correct: 'trabaje', alternatives: [] },
+      { sentence: 'Conozco a una persona que ___ en esa empresa. (trabajar)', correct: 'trabaja', alternatives: [] },
+      { sentence: 'Quiero un piso que ___ cerca del centro. (estar)', correct: 'esté', alternatives: [] },
+      { sentence: 'Vivo en un piso que ___ cerca del centro. (estar)', correct: 'está', alternatives: [] },
+      { sentence: '¿Hay alguien que ___ ayudarme? (poder)', correct: 'pueda', alternatives: [] },
+      { sentence: 'Aquí hay una persona que ___ ayudarte. (poder)', correct: 'puede', alternatives: [] },
+      { sentence: 'Buscamos un candidato que ___ tres idiomas. (hablar)', correct: 'hable', alternatives: [] },
+      { sentence: 'Hemos contratado a un candidato que ___ cuatro idiomas. (hablar)', correct: 'habla', alternatives: [] },
+      { sentence: 'No existe ninguna solución que ___ perfecta. (ser)', correct: 'sea', alternatives: [] },
+      { sentence: 'Esta es la solución que ___ mejor. (funcionar)', correct: 'funciona', alternatives: [] },
+      { sentence: 'Necesitan empleados que ___ experiencia internacional. (tener)', correct: 'tengan', alternatives: [] },
+      { sentence: 'Tienen empleados que ___ mucha experiencia. (tener)', correct: 'tienen', alternatives: [] },
+      { sentence: 'No hay nadie que ___ la respuesta. (saber)', correct: 'sepa', alternatives: [] }
+    ]
+  },
+
+  'ex-13-1-3': {
+    id: 'ex-13-1-3',
+    type: 'translation',
+    title: 'Traduzca al español',
+    description: 'Переведите предложения на испанский язык, используя Indicativo или Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Ищу работу, которая позволила бы мне путешествовать.', correct: 'Busco un trabajo que me permita viajar.', alternatives: ['Busco un empleo que me permita viajar.'] },
+      { russian: 'У меня есть работа, которая позволяет мне путешествовать.', correct: 'Tengo un trabajo que me permite viajar.', alternatives: ['Tengo un empleo que me permite viajar.'] },
+      { russian: 'Мне нужен сотрудник, который говорил бы по-английски.', correct: 'Necesito un empleado que hable inglés.', alternatives: ['Necesito un trabajador que hable inglés.'] },
+      { russian: 'Я не знаю никого, кто работал бы в этой компании.', correct: 'No conozco a nadie que trabaje en esta empresa.', alternatives: ['No conozco a nadie que trabaje en esa empresa.'] },
+      { russian: 'Знаешь кого-нибудь, кто мог бы мне помочь?', correct: '¿Conoces a alguien que pueda ayudarme?', alternatives: ['¿Conoces a alguien que me pueda ayudar?'] },
+      { russian: 'Нет ничего, что меня интересовало бы здесь.', correct: 'No hay nada que me interese aquí.', alternatives: ['Aquí no hay nada que me interese.'] },
+      { russian: 'Хочу начальника, который был бы понимающим.', correct: 'Quiero un jefe que sea comprensivo.', alternatives: ['Quiero un jefe que sea comprensible.'] },
+      { russian: 'У меня есть начальник, который очень понимающий.', correct: 'Tengo un jefe que es muy comprensivo.', alternatives: [] },
+      { russian: 'Ищем квартиру, которая была бы недалеко от метро.', correct: 'Buscamos un piso que esté cerca del metro.', alternatives: ['Buscamos un apartamento que esté cerca del metro.'] },
+      { russian: 'Не существует ни одной страны, которая была бы идеальной.', correct: 'No existe ningún país que sea perfecto.', alternatives: ['No hay ningún país que sea perfecto.'] }
     ]
   }
 }
