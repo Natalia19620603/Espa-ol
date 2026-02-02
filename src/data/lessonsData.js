@@ -90,7 +90,7 @@ export const modules = {
     id: 'module-13',
     title: 'Модуль 13: УСТРОЙСТВО НА РАБОТУ. Subjuntivo в определительных, уступительных и простых предложениях',
     level: 'intermediate',
-    lessons: ['lesson-13-1'],
+    lessons: ['lesson-13-1', 'lesson-13-2'],
     description: 'Употребление сослагательного наклонения в определительных предложениях (relativas), уступительных предложениях (concesivas) и простых предложениях (oraciones independientes)'
   },
   'module-8': {
@@ -17647,6 +17647,140 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
     ],
     readingText: [],
     exercises: ['ex-13-1-1', 'ex-13-1-2', 'ex-13-1-3', 'ex-13-1-4', 'ex-13-1-5', 'ex-13-1-6']
+  },
+
+  'lesson-13-2': {
+    id: 'lesson-13-2',
+    title: 'Урок 2: Сослагательное наклонение в уступительных предложениях (Concesivas)',
+    moduleId: 'module-13',
+    grammar: {
+      title: 'Сослагательное наклонение в уступительных предложениях (Concesivas)',
+      intro: `В уступительных предложениях выбор наклонения часто зависит не от реальности факта, а от того, **насколько этот факт важен для говорящего**.
+
+Основной союз — **aunque** (хотя / даже если). Выбор между Indicativo и Subjuntivo зависит от того, сообщаете ли вы новый факт или говорите о чём-то гипотетическом/неважном.`,
+      sections: [
+        {
+          id: 'indicativo-vs-subjuntivo',
+          title: '1. Indicativo vs. Subjuntivo',
+          content: `## 1. Indicativo vs. Subjuntivo
+
+| Наклонение | Когда используется | Пример |
+|------------|-------------------|--------|
+| **Indicativo** | Реальный факт, о котором мы сообщаем как о новости или подтверждённой истине | Aunque **llueve**, voy a pasear. *(Хотя сейчас идёт дождь — и это факт — я иду гулять)* |
+| **Subjuntivo** | Гипотеза («даже если») или известный факт, который нам не важен («пусть даже так») | Aunque **llueva**, iré a pasear. *(Даже если пойдёт дождь / Пусть себе идёт — мне всё равно, я пойду)* |
+
+### Ключевое различие:
+- **Indicativo** = «Я сообщаю тебе факт, и несмотря на него...»
+- **Subjuntivo** = «Мне всё равно, будет это или нет / Пусть даже так...»`
+        },
+        {
+          id: 'ejemplos-comparacion',
+          title: '2. Примеры для сравнения',
+          content: `## 2. Примеры для сравнения
+
+### Настоящее/Прошлое (Факт) — Indicativo:
+
+| Испанский | Русский |
+|-----------|---------|
+| Ana no me escucha aunque se lo **pido**. | Анна не слушает, хотя я прошу *(констатирую факт)*. |
+| A pesar de que **vivía** cerca, llegaba tarde. | Несмотря на то, что жил близко *(факт из прошлого)*, он опаздывал. |
+| Aunque **está** cansado, sigue trabajando. | Хотя он устал *(факт)*, он продолжает работать. |
+
+### Будущее/Предположение (Гипотеза) — Subjuntivo:
+
+| Испанский | Русский |
+|-----------|---------|
+| Ana no me escuchará aunque se lo **pida**. | Анна не послушает, даже если я попрошу *(действие ещё не совершено)*. |
+| A pesar de que **viva** cerca, llegará tarde. | Даже если он будет жить близко, он всё равно будет опаздывать. |
+| Aunque **esté** cansado, seguirá trabajando. | Даже если он устанет / Пусть даже устанет, он продолжит работать. |`
+        },
+        {
+          id: 'por-mas-por-muy',
+          title: '3. Конструкции с «как бы ни...»',
+          content: `## 3. Конструкции с «как бы ни...»
+
+В выражениях, подчёркивающих интенсивность, **Subjuntivo** подчёркивает неопределённость или готовность к любому исходу.
+
+### Por más / Por mucho / Por muy + Subjuntivo:
+
+| Испанский | Русский |
+|-----------|---------|
+| **Por muy caro que sea**, lo compraré. | Каким бы дорогим он ни был, я его куплю. |
+| **Por mucho que digas**, no te creerán. | Сколько бы ты ни говорил, тебе не поверят. |
+| **Por más que lo intente**, no lo conseguirá. | Сколько бы он ни пытался, у него не получится. |
+| **Por muy lejos que vivas**, te visitaré. | Как бы далеко ты ни жил, я тебя навещу. |
+
+### Важно! Indicativo для уже свершившегося:
+Если мы говорим о том, что **уже произошло** и результат известен, используется **Indicativo**:
+
+| Испанский | Русский |
+|-----------|---------|
+| **Por mucho que la convencí**, todo fue en vano. | Сколько я её ни убеждал *(и я действительно это делал)*, всё было зря. |
+| **Por muy nerviosa que estaba**, Lola aprobó el examen. | Как бы она ни нервничала *(и она нервничала)*, Лола сдала экзамен. |`
+        },
+        {
+          id: 'cualquiera',
+          title: '4. Местоимение Cualquiera',
+          content: `## 4. Местоимение Cualquiera
+
+С местоимением **cualquiera** (какой бы ни, кто бы ни) в уступительном значении традиционно используется **Subjuntivo**:
+
+| Испанский | Русский |
+|-----------|---------|
+| **Cualquiera que sea** su decisión, la aceptaremos. | Каким бы ни было его решение, мы его примем. |
+| **Cualquiera que fuera** su propuesta, la aceptaban. | Каким бы ни было *(тогда)* его предложение, его принимали. |
+| **Cualquiera que diga**, no le creas. | Что бы он ни говорил, не верь ему. |
+| **Quienquiera que seas**, bienvenido. | Кем бы ты ни был, добро пожаловать. |
+| **Dondequiera que vayas**, te encontraré. | Куда бы ты ни пошёл, я тебя найду. |`
+        },
+        {
+          id: 'resumen-concesivas',
+          title: '5. Сводка правил',
+          content: `## 5. Сводка правил
+
+| Ситуация | Наклонение | Союзы/Конструкции |
+|----------|------------|-------------------|
+| Реальный факт (новость) | **Indicativo** | aunque, a pesar de que, si bien |
+| Гипотеза / Неважный факт | **Subjuntivo** | aunque, a pesar de que, aun cuando |
+| «Как бы ни...» (гипотеза) | **Subjuntivo** | por muy... que, por mucho que, por más que |
+| «Как бы ни...» (факт в прошлом) | **Indicativo** | por muy... que, por mucho que |
+| «Какой бы ни...» | **Subjuntivo** | cualquiera que, quienquiera que, dondequiera que |
+
+### Маркеры для выбора наклонения:
+- **Indicativo**: сообщаю факт, констатирую, информирую
+- **Subjuntivo**: мне всё равно, даже если, пусть даже, гипотеза, будущее`
+        }
+      ]
+    },
+    vocabulary: [
+      {
+        tab: 'Уступительные конструкции',
+        words: [
+          { word: 'aunque', translation: 'хотя, даже если' },
+          { word: 'a pesar de que', translation: 'несмотря на то, что' },
+          { word: 'aun cuando', translation: 'даже когда, хотя' },
+          { word: 'si bien', translation: 'хотя, если и' },
+          { word: 'por muy... que', translation: 'как бы ни...' },
+          { word: 'por mucho que', translation: 'сколько бы ни...' },
+          { word: 'por más que', translation: 'сколько бы ни...' },
+          { word: 'cualquiera que', translation: 'какой бы ни' },
+          { word: 'quienquiera que', translation: 'кто бы ни' },
+          { word: 'dondequiera que', translation: 'куда бы ни, где бы ни' },
+          { word: 'comoquiera que', translation: 'как бы ни' },
+          { word: 'cuandoquiera que', translation: 'когда бы ни' },
+          { word: 'matricularse', translation: 'записаться, поступить (в учебное заведение)' },
+          { word: 'la facultad', translation: 'факультет' },
+          { word: 'el abogado', translation: 'адвокат, юрист' },
+          { word: 'estar en contra', translation: 'быть против' },
+          { word: 'memorizar', translation: 'запоминать, заучивать' },
+          { word: 'el aprendizaje', translation: 'обучение, изучение' },
+          { word: 'aprobar el examen', translation: 'сдать экзамен' },
+          { word: 'suspender el examen', translation: 'провалить экзамен' }
+        ]
+      }
+    ],
+    readingText: [],
+    exercises: ['ex-13-2-1', 'ex-13-2-2', 'ex-13-2-3']
   }
 }
 
@@ -42616,6 +42750,197 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Есть кто-нибудь, кто мог бы мне объяснить это правило?', correct: '¿Hay alguien que pueda explicarme esta regla?', alternatives: ['¿Hay alguien que me pueda explicar esta regla?'] },
       { russian: 'Профессор, который ведёт этот курс, очень требовательный.', correct: 'El profesor que imparte este curso es muy exigente.', alternatives: ['El profesor que da este curso es muy exigente.'] },
       { russian: 'Хотим найти квартиру, из которой был бы виден парк.', correct: 'Queremos encontrar un piso desde el que se vea el parque.', alternatives: ['Queremos encontrar un apartamento desde el cual se vea el parque.'] }
+    ]
+  },
+
+  // Модуль 13 Урок 2: Уступительные предложения (Concesivas)
+  'ex-13-2-1': {
+    id: 'ex-13-2-1',
+    type: 'analysis',
+    title: 'Переведите на русский язык',
+    description: 'Переведите предложения и определите, почему используется Indicativo или Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      {
+        spanish: 'Me matriculé en la facultad de Ciencias Naturales aunque mis padres soñaban con verme abogado.',
+        translation: 'Я поступил на факультет естественных наук, хотя мои родители мечтали видеть меня адвокатом.',
+        options: ['Indicativo — реальный факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — отрицание'],
+        correct: 0
+      },
+      {
+        spanish: 'Me matricularé en la facultad de Ciencias Naturales aunque mis padres estén en contra.',
+        translation: 'Я поступлю на факультет естественных наук, даже если мои родители будут против.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважно', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'María no quiso ayudarme aunque se lo pedía.',
+        translation: 'Мария не захотела мне помочь, хотя я её просил.',
+        options: ['Indicativo — реальный факт (я действительно просил)', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'María no querrá ayudarme aunque se lo pida.',
+        translation: 'Мария не захочет мне помочь, даже если я её попрошу.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотетическое действие в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'A pesar de que ayer discutimos dos horas este problema en la reunión, no encontramos la solución.',
+        translation: 'Несмотря на то, что вчера мы два часа обсуждали эту проблему на собрании, мы не нашли решения.',
+        options: ['Indicativo — реальный факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'A pesar de que discutamos este problema dos horas, no encontraremos la solución.',
+        translation: 'Даже если мы будем обсуждать эту проблему два часа, мы не найдём решения.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Por mucho que memorizo las palabras, no tengo éxitos en el aprendizaje del chino.',
+        translation: 'Сколько бы я ни заучивал слова, у меня нет успехов в изучении китайского.',
+        options: ['Indicativo — констатирую реальный факт', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'Por mucho que memorice las palabras, no tendré éxitos en el aprendizaje del chino.',
+        translation: 'Сколько бы я ни заучивал слова, у меня не будет успехов в изучении китайского.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Por muy nerviosa que estaba, Lola se concentró y logró aprobar el examen.',
+        translation: 'Как бы она ни нервничала (и она нервничала), Лола сосредоточилась и смогла сдать экзамен.',
+        options: ['Indicativo — свершившийся факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'Por muy nerviosa que esté, Lola se concentrará y aprobará el examen.',
+        translation: 'Как бы она ни нервничала, Лола сосредоточится и сдаст экзамен.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважность', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Aunque hace frío, los niños quieren ir al parque.',
+        translation: 'Хотя холодно, дети хотят пойти в парк.',
+        options: ['Indicativo — констатирую факт (сейчас холодно)', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'Aunque haga frío, iremos al parque.',
+        translation: 'Даже если будет холодно, мы пойдём в парк.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважность', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Cualquiera que sea tu decisión, te apoyaré.',
+        translation: 'Каким бы ни было твоё решение, я тебя поддержу.',
+        options: ['Indicativo — факт', 'Subjuntivo — неопределённость (cualquiera que)', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Por más que intenté convencerla, no lo conseguí.',
+        translation: 'Сколько бы я ни пытался её убедить, у меня не получилось.',
+        options: ['Indicativo — свершившийся факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'Por más que lo intentes, no lo conseguirás.',
+        translation: 'Сколько бы ты ни пытался, у тебя не получится.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Aunque estoy cansado, terminaré el trabajo hoy.',
+        translation: 'Хотя я устал, я закончу работу сегодня.',
+        options: ['Indicativo — констатирую факт (я устал)', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'Aunque esté cansado, terminaré el trabajo hoy.',
+        translation: 'Даже если я устану / Пусть даже устану, я закончу работу сегодня.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважность', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'A pesar de que trabajaba mucho, no ganaba suficiente dinero.',
+        translation: 'Несмотря на то, что он много работал, он не зарабатывал достаточно денег.',
+        options: ['Indicativo — факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 0
+      },
+      {
+        spanish: 'A pesar de que trabaje mucho, no ganará suficiente dinero.',
+        translation: 'Даже если он будет много работать, он не заработает достаточно денег.',
+        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Quienquiera que seas, no puedes entrar sin permiso.',
+        translation: 'Кем бы ты ни был, ты не можешь войти без разрешения.',
+        options: ['Indicativo — факт', 'Subjuntivo — неопределённость (quienquiera que)', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-13-2-2': {
+    id: 'ex-13-2-2',
+    type: 'fillblank',
+    title: 'Поставьте глаголы в Indicativo или Subjuntivo',
+    description: 'Впишите глагол в правильной форме и переведите на русский',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Aunque ___ frío, iremos a pasear. (hacer)', correct: 'haga', alternatives: [], explanation: 'Subjuntivo — гипотеза в будущем (даже если будет холодно)' },
+      { sentence: 'Aunque Pablo nunca ___ en Francia, habla el francés muy bien. (estar)', correct: 'ha estado', alternatives: ['estuvo'], explanation: 'Indicativo — констатирую факт (он действительно не был)' },
+      { sentence: 'No les compres helados a los niños, aunque ellos te lo ___. (rogar)', correct: 'rueguen', alternatives: [], explanation: 'Subjuntivo — гипотеза (даже если попросят)' },
+      { sentence: 'Aunque nunca ___ a tu hermana, la reconocí enseguida por la foto. (ver)', correct: 'había visto', alternatives: ['vi'], explanation: 'Indicativo — факт в прошлом (я действительно не видел)' },
+      { sentence: 'Por muy cansada que ___, le leeré un cuento a mi hijo para que se duerma. (estar, yo)', correct: 'esté', alternatives: [], explanation: 'Subjuntivo — неважность (как бы ни устала)' },
+      { sentence: 'Compraré este vestido aunque ___ pasado de moda. (estar)', correct: 'esté', alternatives: [], explanation: 'Subjuntivo — неважность (пусть даже вышло из моды)' },
+      { sentence: 'A pesar de que ___ enfermo, no quiso quedarse en casa. (ponerse)', correct: 'se puso', alternatives: ['se había puesto'], explanation: 'Indicativo — факт в прошлом (он действительно заболел)' },
+      { sentence: 'Por muy lejos que ___, no olvidarás nunca lo que ayer ocurrió aquí. (irse, tú)', correct: 'te vayas', alternatives: [], explanation: 'Subjuntivo — гипотеза (как бы далеко ни уехал)' },
+      { sentence: 'A pesar de que ___ algo del accidente, no se lo digáis a nadie. (saber, vosotros)', correct: 'sepáis', alternatives: [], explanation: 'Subjuntivo — неважность (даже если знаете)' },
+      { sentence: 'Por mucho que ___, siempre te falta dinero. (ganar, tú)', correct: 'ganas', alternatives: ['ganes'], explanation: 'Indicativo — констатирую факт (ты действительно зарабатываешь)' },
+      { sentence: 'Aunque ___ llueve, saldré a correr. (no importar)', correct: 'llueva', alternatives: [], explanation: 'Subjuntivo — неважность (пусть даже идёт дождь)' },
+      { sentence: 'Aunque ___ muy temprano, ya hay mucho tráfico. (ser)', correct: 'es', alternatives: [], explanation: 'Indicativo — констатирую факт (сейчас рано)' },
+      { sentence: 'Por más que lo ___, no entiendo este problema. (estudiar, yo)', correct: 'estudio', alternatives: ['estudie'], explanation: 'Indicativo — констатирую факт (я действительно изучаю) / Subjuntivo если гипотеза' },
+      { sentence: 'Cualquiera que ___ el resultado, lo aceptaremos. (ser)', correct: 'sea', alternatives: [], explanation: 'Subjuntivo — неопределённость (cualquiera que)' },
+      { sentence: 'Aunque me ___ mucho dinero, no compraré ese coche. (ofrecer, ellos)', correct: 'ofrezcan', alternatives: [], explanation: 'Subjuntivo — гипотеза (даже если предложат)' },
+      { sentence: 'A pesar de que ___ toda la noche, no terminó el proyecto. (trabajar, él)', correct: 'trabajó', alternatives: ['había trabajado'], explanation: 'Indicativo — факт в прошлом (он действительно работал)' },
+      { sentence: 'Por muy difícil que ___ el examen, lo aprobaré. (ser)', correct: 'sea', alternatives: [], explanation: 'Subjuntivo — неважность (каким бы трудным ни был)' },
+      { sentence: 'Dondequiera que ___, te encontraré. (esconderse, tú)', correct: 'te escondas', alternatives: [], explanation: 'Subjuntivo — неопределённость (dondequiera que)' },
+      { sentence: 'Aunque no me ___, iré a la fiesta. (invitar, ellos)', correct: 'inviten', alternatives: [], explanation: 'Subjuntivo — гипотеза (даже если не пригласят)' },
+      { sentence: 'Por mucho que ___ ayer, hoy me siento bien. (doler, a mí)', correct: 'me dolió', alternatives: ['me dolía'], explanation: 'Indicativo — факт в прошлом (вчера действительно болело)' }
+    ]
+  },
+
+  'ex-13-2-3': {
+    id: 'ex-13-2-3',
+    type: 'translation',
+    title: 'Переведите на испанский язык',
+    description: 'Переведите предложения, используя Indicativo или Subjuntivo в уступительных конструкциях',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Хотя на улице холодно, ребёнок не хочет надевать пальто.', correct: 'Aunque hace frío, el niño no quiere ponerse el abrigo.', alternatives: ['Aunque hace frío fuera, el niño no quiere ponerse el abrigo.'] },
+      { russian: 'Каким бы длинным и трудным ни был путь, ты должен пройти его до конца.', correct: 'Por muy largo y difícil que sea el camino, tienes que recorrerlo hasta el final.', alternatives: ['Por muy largo y difícil que sea el camino, debes recorrerlo hasta el final.'] },
+      { russian: 'Даже если будет поздно, позвони мне.', correct: 'Aunque sea tarde, llámame.', alternatives: ['Aunque sea tarde, llámame por teléfono.'] },
+      { russian: 'Несмотря на то, что я провела целый день в торговом центре, я не выбрала подарок маме.', correct: 'A pesar de que pasé todo el día en el centro comercial, no elegí un regalo para mi madre.', alternatives: ['Aunque pasé todo el día en el centro comercial, no elegí un regalo para mi madre.'] },
+      { russian: 'Даже если ты и прав, ты не должен так разговаривать с сотрудниками.', correct: 'Aunque tengas razón, no debes hablar así con los empleados.', alternatives: ['Aunque tengas razón, no deberías hablar así con los empleados.'] },
+      { russian: 'Как бы плохо он ни учился, его не выгонят, потому что он сын декана.', correct: 'Por muy mal que estudie, no lo expulsarán porque es hijo del decano.', alternatives: ['Por muy mal que estudie, no le echarán porque es hijo del decano.'] },
+      { russian: 'Думаю, что сеньор Альварес не придёт, хотя я его об этом просил.', correct: 'Creo que el señor Álvarez no vendrá aunque se lo pedí.', alternatives: ['Pienso que el señor Álvarez no vendrá aunque se lo pedí.'] },
+      { russian: 'Думаю, что сеньор Альварес не придёт, даже если я его попрошу.', correct: 'Creo que el señor Álvarez no vendrá aunque se lo pida.', alternatives: ['Pienso que el señor Álvarez no vendrá aunque se lo pida.'] },
+      { russian: 'Несмотря на то, что Елена мало ест и занимается спортом, она не может похудеть.', correct: 'A pesar de que Elena come poco y hace deporte, no puede adelgazar.', alternatives: ['Aunque Elena come poco y hace deporte, no puede adelgazar.'] },
+      { russian: 'Даже если ты закончишь магистратуру и получишь диплом с отличием, я не уверена, что ты сразу найдёшь хорошую работу.', correct: 'Aunque termines el máster y obtengas el diploma con matrícula de honor, no estoy segura de que encuentres un buen trabajo enseguida.', alternatives: ['Aunque acabes el máster y saques el diploma con matrícula de honor, no estoy segura de que encuentres un buen trabajo enseguida.'] },
+      { russian: 'Каким бы он ни был эгоистом, он на такое не способен.', correct: 'Por muy egoísta que sea, no es capaz de hacer algo así.', alternatives: ['Por muy egoísta que sea, él no es capaz de eso.'] },
+      { russian: 'Хотя он ложился спать поздно, он всегда просыпался в семь утра.', correct: 'Aunque se acostaba tarde, siempre se despertaba a las siete de la mañana.', alternatives: ['Aunque se acostaba tarde, siempre se levantaba a las siete.'] },
+      { russian: 'Вы прекрасно говорите по-испански, несмотря на то, что учили его всего три месяца.', correct: 'Habláis español perfectamente a pesar de que lo habéis estudiado solo tres meses.', alternatives: ['Habláis español muy bien aunque lo habéis estudiado solo tres meses.'] },
+      { russian: 'Каким бы абсурдным тебе ни казалось его предложение, не отказывайся от него.', correct: 'Por muy absurda que te parezca su propuesta, no la rechaces.', alternatives: ['Por muy absurdo que te parezca su ofrecimiento, no lo rechaces.'] },
+      { russian: 'Анна сказала, что не пойдёт с Антонио в театр, даже если он купит самые дорогие билеты на премьеру мюзикла.', correct: 'Ana dijo que no iría al teatro con Antonio aunque él comprara las entradas más caras para el estreno del musical.', alternatives: ['Ana dijo que no iría al teatro con Antonio aunque comprase las entradas más caras para el estreno del musical.'] },
+      { russian: 'Какими бы ни были их условия, нам придётся их принять.', correct: 'Cualesquiera que sean sus condiciones, tendremos que aceptarlas.', alternatives: ['Sean cuales sean sus condiciones, tendremos que aceptarlas.'] },
+      { russian: 'Хотя шёл дождь, мы решили пойти на прогулку.', correct: 'Aunque llovía, decidimos ir a pasear.', alternatives: ['Aunque estaba lloviendo, decidimos salir a pasear.'] },
+      { russian: 'Даже если пойдёт дождь, мы пойдём на прогулку.', correct: 'Aunque llueva, iremos a pasear.', alternatives: ['Aunque llueva, saldremos a pasear.'] },
+      { russian: 'Сколько бы он ни извинялся, я его не прощу.', correct: 'Por mucho que se disculpe, no lo perdonaré.', alternatives: ['Por más que se disculpe, no lo perdonaré.'] },
+      { russian: 'Кто бы ни позвонил, скажи, что меня нет дома.', correct: 'Quienquiera que llame, di que no estoy en casa.', alternatives: ['Quienquiera que llame, dile que no estoy.'] }
     ]
   }
 }
