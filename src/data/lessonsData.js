@@ -38946,6 +38946,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     title: 'Comprensión: Llevo a mi abuela al dentista',
     description: 'Responda a las preguntas sobre el texto del diálogo en el dentista',
     showAnswerOption: true,
+    wordBank: ['escatimar', 'tratamiento', 'prótesis', 'maxilar', 'masticar', 'bocadillo', 'cuchara', 'merme', 'implantes', 'adorno', 'drácula', 'pajita', 'capa', 'hervores', 'tomillo', 'humo', 'vaho', 'flan'],
     questions: [
       { question: '¿Qué dice el nieto al principio sobre el tratamiento?', options: ['Que quiere el más barato', 'Que quiere lo mejor, sin escatimar', 'Que no quiere ningún tratamiento', 'Que prefiere esperar'], correct: 1 },
       { question: '¿Cuánto cuesta la opción más cara de dientes fijos?', options: ['1.000 €', '3.000 €', '25.000 €', '1 €'], correct: 2 },
@@ -38967,26 +38968,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-10-2-8': {
     id: 'ex-10-2-8',
-    type: 'grammar',
+    type: 'fillblank',
     title: 'Gramática: Pretérito Perfecto, Indefinido y Presente de Subjuntivo',
-    description: 'Elija la forma verbal correcta para completar las oraciones',
+    description: 'Впишите правильную форму глагола (Pretérito Perfecto, Indefinido или Presente de Subjuntivo)',
     showAnswerOption: true,
     questions: [
-      { sentence: 'No hemos ___ en el tratamiento porque queremos lo mejor.', options: ['escatimado', 'escatimamos', 'escatimábamos', 'escatimaremos'], correct: 0 },
-      { sentence: 'El dentista quiere que la abuela ___ la boca para examinarla.', options: ['abre', 'abrió', 'abra', 'ha abierto'], correct: 2 },
-      { sentence: 'Ayer el médico me ___ que tenía caries en dos muelas.', options: ['ha dicho', 'dijo', 'diga', 'decía'], correct: 1 },
-      { sentence: 'Es importante que usted ___ al dentista cada seis meses.', options: ['va', 'fue', 'vaya', 'ha ido'], correct: 2 },
-      { sentence: 'La semana pasada me ___ una muela del juicio muy dolorosa.', options: ['han sacado', 'sacaron', 'saquen', 'sacaban'], correct: 1 },
-      { sentence: 'El dentista recomienda que no ___ alimentos muy fríos después del tratamiento.', options: ['comes', 'comiste', 'comas', 'has comido'], correct: 2 },
-      { sentence: 'Nunca ___ una experiencia tan cómica en el dentista como la de hoy.', options: ['tuve', 'he tenido', 'tenga', 'tenía'], correct: 1 },
-      { sentence: 'Cuando era niño, siempre me ___ ir al dentista porque tenía miedo.', options: ['ha asustado', 'asustó', 'asuste', 'asustaba'], correct: 3 },
-      { sentence: 'Es necesario que el paciente ___ tranquilo durante la intervención.', options: ['está', 'estuvo', 'esté', 'ha estado'], correct: 2 },
-      { sentence: 'El mes pasado el dentista me ___ tres empastes en una sola visita.', options: ['ha puesto', 'puso', 'ponga', 'ponía'], correct: 1 },
-      { sentence: 'Espero que el tratamiento no ___ muy doloroso para mi abuela.', options: ['es', 'fue', 'sea', 'ha sido'], correct: 2 },
-      { sentence: 'Esta mañana ___ al dentista para una revisión rutinaria.', options: ['fui', 'he ido', 'vaya', 'iba'], correct: 1 },
-      { sentence: 'El doctor quiere que yo ___ los dientes tres veces al día.', options: ['cepillo', 'cepillé', 'cepille', 'he cepillado'], correct: 2 },
-      { sentence: 'En Cuba le ___ los molares hace muchos años, según cuenta el nieto.', options: ['han quitado', 'quitaron', 'quiten', 'quitaban'], correct: 1 },
-      { sentence: 'Ojalá que la dentadura postiza no le ___ tanto asco a la abuela.', options: ['da', 'dio', 'dé', 'ha dado'], correct: 2 }
+      { sentence: 'No hemos ___ en el tratamiento porque queremos lo mejor. (escatimar)', correct: 'escatimado', alternatives: [] },
+      { sentence: 'El dentista quiere que la abuela ___ la boca para examinarla. (abrir)', correct: 'abra', alternatives: [] },
+      { sentence: 'Ayer el médico me ___ que tenía caries en dos muelas. (decir)', correct: 'dijo', alternatives: [] },
+      { sentence: 'Es importante que usted ___ al dentista cada seis meses. (ir)', correct: 'vaya', alternatives: [] },
+      { sentence: 'La semana pasada me ___ una muela del juicio muy dolorosa. (sacar)', correct: 'sacaron', alternatives: [] },
+      { sentence: 'El dentista recomienda que no ___ alimentos muy fríos después del tratamiento. (comer)', correct: 'comas', alternatives: ['coma'] },
+      { sentence: 'Nunca ___ una experiencia tan cómica en el dentista como la de hoy. (tener)', correct: 'he tenido', alternatives: [] },
+      { sentence: 'Cuando era niño, siempre me ___ ir al dentista porque tenía miedo. (asustar)', correct: 'asustaba', alternatives: [] },
+      { sentence: 'Es necesario que el paciente ___ tranquilo durante la intervención. (estar)', correct: 'esté', alternatives: [] },
+      { sentence: 'El mes pasado el dentista me ___ tres empastes en una sola visita. (poner)', correct: 'puso', alternatives: [] },
+      { sentence: 'Espero que el tratamiento no ___ muy doloroso para mi abuela. (ser)', correct: 'sea', alternatives: [] },
+      { sentence: 'Esta mañana ___ al dentista para una revisión rutinaria. (ir)', correct: 'he ido', alternatives: [] },
+      { sentence: 'El doctor quiere que yo ___ los dientes tres veces al día. (cepillar)', correct: 'cepille', alternatives: [] },
+      { sentence: 'En Cuba le ___ los molares hace muchos años, según cuenta el nieto. (quitar)', correct: 'quitaron', alternatives: [] },
+      { sentence: 'Ojalá que la dentadura postiza no le ___ tanto asco a la abuela. (dar)', correct: 'dé', alternatives: [] }
     ]
   },
 
