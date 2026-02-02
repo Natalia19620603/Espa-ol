@@ -17646,7 +17646,7 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
       }
     ],
     readingText: [],
-    exercises: ['ex-13-1-1', 'ex-13-1-2', 'ex-13-1-3']
+    exercises: ['ex-13-1-1', 'ex-13-1-2', 'ex-13-1-3', 'ex-13-1-4', 'ex-13-1-5', 'ex-13-1-6']
   }
 }
 
@@ -42426,6 +42426,196 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'У меня есть начальник, который очень понимающий.', correct: 'Tengo un jefe que es muy comprensivo.', alternatives: [] },
       { russian: 'Ищем квартиру, которая была бы недалеко от метро.', correct: 'Buscamos un piso que esté cerca del metro.', alternatives: ['Buscamos un apartamento que esté cerca del metro.'] },
       { russian: 'Не существует ни одной страны, которая была бы идеальной.', correct: 'No existe ningún país que sea perfecto.', alternatives: ['No hay ningún país que sea perfecto.'] }
+    ]
+  },
+
+  'ex-13-1-4': {
+    id: 'ex-13-1-4',
+    type: 'analysis',
+    title: 'Переведите и объясните употребление Indicativo/Subjuntivo',
+    description: 'Переведите предложения на русский язык и выберите правильное объяснение употребления наклонения',
+    showAnswerOption: true,
+    questions: [
+      {
+        spanish: 'Busco la bufanda que me ha regalado Juan.',
+        translation: 'Ищу шарф, который мне подарил Хуан.',
+        options: ['Indicativo — конкретный шарф, который существует', 'Subjuntivo — любой подходящий шарф', 'Indicativo — будущее действие', 'Subjuntivo — отрицание'],
+        correct: 0
+      },
+      {
+        spanish: 'Busco una bufanda que vaya bien con el abrigo amarillo.',
+        translation: 'Ищу (какой-нибудь) шарф, который подошёл бы к жёлтому пальто.',
+        options: ['Indicativo — конкретный предмет', 'Subjuntivo — неопределённый предмет, который ищется', 'Indicativo — прошедшее действие', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Sofía es la estudiante del quinto que os traducirá la carta.',
+        translation: 'София — студентка пятого курса, которая переведёт вам письмо.',
+        options: ['Subjuntivo — неизвестный человек', 'Indicativo — конкретный известный человек', 'Subjuntivo — желание', 'Indicativo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Necesitamos a alguien que nos traduzca la carta.',
+        translation: 'Нам нужен кто-то, кто перевёл бы нам письмо.',
+        options: ['Indicativo — известный человек', 'Subjuntivo — ищем неизвестного человека', 'Indicativo — факт', 'Subjuntivo — прошлое'],
+        correct: 1
+      },
+      {
+        spanish: 'Aquel puente hicimos una escapada con los muchachos a quienes habíamos conocido en el concierto.',
+        translation: 'В тот выходной мы совершили вылазку с ребятами, с которыми познакомились на концерте.',
+        options: ['Subjuntivo — гипотетические люди', 'Indicativo — конкретные люди, которых уже знаем', 'Subjuntivo — желание', 'Indicativo — будущее'],
+        correct: 1
+      },
+      {
+        spanish: 'Entre nuestros amigos no había a quienes les gustara aquella idea absurda.',
+        translation: 'Среди наших друзей не было тех, кому понравилась бы та абсурдная идея.',
+        options: ['Indicativo — конкретные люди', 'Subjuntivo — отрицание существования (no había)', 'Indicativo — прошлое', 'Subjuntivo — будущее'],
+        correct: 1
+      },
+      {
+        spanish: 'Me pondré la blusa que compré ayer.',
+        translation: 'Я надену блузку, которую купила вчера.',
+        options: ['Subjuntivo — неопределённая блузка', 'Indicativo — конкретная блузка, которая существует', 'Subjuntivo — желание', 'Indicativo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Me pondré la blusa que me aconsejes.',
+        translation: 'Я надену блузку, которую ты мне посоветуешь.',
+        options: ['Indicativo — известный совет', 'Subjuntivo — ещё неизвестно, какую посоветуют', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Ellos vivían en un apartamento cuyas ventanas daban al patio.',
+        translation: 'Они жили в квартире, окна которой выходили во двор.',
+        options: ['Subjuntivo — гипотетическая квартира', 'Indicativo — реальная квартира, где они жили', 'Subjuntivo — желание', 'Indicativo — будущее'],
+        correct: 1
+      },
+      {
+        spanish: 'Querían vivir en un apartamento cuyas ventanas dieran al parque.',
+        translation: 'Они хотели жить в квартире, окна которой выходили бы в парк.',
+        options: ['Indicativo — реальная квартира', 'Subjuntivo — желаемая, гипотетическая квартира', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'El aula donde se celebra la reunión está en el tercer piso.',
+        translation: 'Аудитория, где проходит собрание, находится на третьем этаже.',
+        options: ['Subjuntivo — неизвестное место', 'Indicativo — конкретная известная аудитория', 'Subjuntivo — желание', 'Indicativo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Buscamos un aula donde podamos celebrar la reunión.',
+        translation: 'Мы ищем аудиторию, где могли бы провести собрание.',
+        options: ['Indicativo — известная аудитория', 'Subjuntivo — ищем подходящее место', 'Indicativo — факт', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'En mi mesa encontrarás un libro dentro del cual están dos billetes de 100 euros.',
+        translation: 'На моём столе найдёшь книгу, внутри которой лежат две купюры по 100 евро.',
+        options: ['Subjuntivo — гипотетическая книга', 'Indicativo — конкретная книга, которая существует', 'Subjuntivo — поиск', 'Indicativo — желание'],
+        correct: 1
+      },
+      {
+        spanish: 'No voy a alquilar una casa enfrente de la cual haya una fábrica.',
+        translation: 'Я не собираюсь снимать дом, напротив которого была бы фабрика.',
+        options: ['Indicativo — конкретный дом', 'Subjuntivo — гипотетический дом (отрицание намерения)', 'Indicativo — прошлое', 'Subjuntivo — факт'],
+        correct: 1
+      },
+      {
+        spanish: 'Los que no aprueben el examen en junio podrán examinarse en septiembre.',
+        translation: 'Те, кто не сдаст экзамен в июне, смогут сдать его в сентябре.',
+        options: ['Indicativo — известные люди', 'Subjuntivo — неизвестно, кто именно не сдаст', 'Indicativo — факт', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'Los que han asistido a todas mis conferencias no deben presentarse al examen.',
+        translation: 'Те, кто посетил все мои лекции, не должны являться на экзамен.',
+        options: ['Subjuntivo — неизвестные люди', 'Indicativo — конкретные люди, о которых известно', 'Subjuntivo — желание', 'Indicativo — поиск'],
+        correct: 1
+      },
+      {
+        spanish: 'Quien llegue primero, recibirá el premio.',
+        translation: 'Кто придёт первым, получит приз.',
+        options: ['Indicativo — известный человек', 'Subjuntivo — неизвестно, кто придёт первым', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 1
+      },
+      {
+        spanish: 'El profesor que me enseñó español era muy exigente.',
+        translation: 'Преподаватель, который учил меня испанскому, был очень требовательным.',
+        options: ['Subjuntivo — гипотетический преподаватель', 'Indicativo — конкретный преподаватель из прошлого', 'Subjuntivo — желание', 'Indicativo — поиск'],
+        correct: 1
+      },
+      {
+        spanish: 'Necesito un profesor que me enseñe español.',
+        translation: 'Мне нужен преподаватель, который учил бы меня испанскому.',
+        options: ['Indicativo — известный преподаватель', 'Subjuntivo — ищу подходящего преподавателя', 'Indicativo — факт', 'Subjuntivo — прошлое'],
+        correct: 1
+      },
+      {
+        spanish: 'No hay nadie que pueda resolver este problema.',
+        translation: 'Нет никого, кто мог бы решить эту проблему.',
+        options: ['Indicativo — конкретный человек', 'Subjuntivo — отрицание существования', 'Indicativo — прошлое', 'Subjuntivo — будущее'],
+        correct: 1
+      }
+    ]
+  },
+
+  'ex-13-1-5': {
+    id: 'ex-13-1-5',
+    type: 'fillblank',
+    title: 'Поставьте глаголы в Indicativo или Subjuntivo',
+    description: 'Впишите глагол в правильной форме и объясните свой выбор',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Tenéis un amigo que ___ tres idiomas. (hablar)', correct: 'habla', alternatives: [], explanation: 'Indicativo — конкретный друг, который существует' },
+      { sentence: 'Busco zapatos que ___ bien con mi bolso. (ir)', correct: 'vayan', alternatives: [], explanation: 'Subjuntivo — ищу неопределённые туфли' },
+      { sentence: 'No había tren que ___ por la tarde. (salir)', correct: 'saliera', alternatives: ['saliese'], explanation: 'Subjuntivo — отрицание (no había)' },
+      { sentence: 'Vamos al café "Sol" donde ___ platos típicos españoles. (servir, ellos)', correct: 'sirven', alternatives: [], explanation: 'Indicativo — конкретное известное кафе' },
+      { sentence: 'No hay ningún programa de la primera cadena que me ___. (gustar)', correct: 'guste', alternatives: [], explanation: 'Subjuntivo — отрицание (no hay ningún)' },
+      { sentence: 'Quería ir a Cuba con alguien que ___ hablar español. (saber)', correct: 'supiera', alternatives: ['supiese'], explanation: 'Subjuntivo — искал неизвестного человека' },
+      { sentence: '¿Has encontrado ya las llaves que ___ la semana pasada? (perder, tú)', correct: 'perdiste', alternatives: [], explanation: 'Indicativo — конкретные ключи, которые потерял' },
+      { sentence: 'Anteayer leí el libro que tú me ___. (aconsejar)', correct: 'aconsejaste', alternatives: [], explanation: 'Indicativo — конкретная книга, которую посоветовали' },
+      { sentence: 'Toma el autobús №15 que te ___ al puerto. (llevar)', correct: 'llevará', alternatives: ['lleva'], explanation: 'Indicativo — конкретный автобус с известным маршрутом' },
+      { sentence: 'Queremos descansar en un hotel que ___ cerca de la playa. (estar)', correct: 'esté', alternatives: [], explanation: 'Subjuntivo — ищем подходящий отель' },
+      { sentence: 'Te mandaré mañana mismo todas las medicinas que me ___. (encargar, tú)', correct: 'has encargado', alternatives: ['encargaste'], explanation: 'Indicativo — конкретные лекарства, которые заказали' },
+      { sentence: 'Los alumnos que ___ mal, suspenderán la asignatura. (estudiar)', correct: 'estudien', alternatives: [], explanation: 'Subjuntivo — неизвестно, кто именно будет плохо учиться' },
+      { sentence: 'Los que ___ detrás, casi no podrán ver ni oír a los actores. (estar)', correct: 'estén', alternatives: [], explanation: 'Subjuntivo — неизвестно, кто будет сзади' },
+      { sentence: 'Quiero ir lejos de aquí donde nadie me ___. (conocer)', correct: 'conozca', alternatives: [], explanation: 'Subjuntivo — гипотетическое место' },
+      { sentence: 'Te visitaremos el día que mi hijo no ___ clases. (tener)', correct: 'tenga', alternatives: [], explanation: 'Subjuntivo — неизвестно, какой это будет день' },
+      { sentence: 'Haré lo que ___. (poder, yo)', correct: 'pueda', alternatives: [], explanation: 'Subjuntivo — неопределённое действие в будущем' },
+      { sentence: 'Mi amigo suspendió el examen para el cual ___ tanto. (prepararse, él)', correct: 'se había preparado', alternatives: ['se preparó'], explanation: 'Indicativo — конкретный экзамен, к которому готовился' },
+      { sentence: 'Las universidades cuyos estudiantes ___ compaginar estudios y trabajo serán más competitivas. (poder)', correct: 'puedan', alternatives: [], explanation: 'Subjuntivo — гипотетические университеты' },
+      { sentence: 'El médico que me ___ es muy bueno. (atender)', correct: 'atiende', alternatives: [], explanation: 'Indicativo — конкретный врач' },
+      { sentence: 'Necesito un médico que me ___ urgentemente. (atender)', correct: 'atienda', alternatives: [], explanation: 'Subjuntivo — ищу любого подходящего врача' }
+    ]
+  },
+
+  'ex-13-1-6': {
+    id: 'ex-13-1-6',
+    type: 'translation',
+    title: 'Переведите на испанский язык',
+    description: 'Переведите предложения, используя Indicativo или Subjuntivo в зависимости от контекста',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Я не знаю никого, кто готовит паэлью так же хорошо, как Лусия.', correct: 'No conozco a nadie que cocine la paella tan bien como Lucía.', alternatives: ['No conozco a nadie que prepare la paella tan bien como Lucía.'] },
+      { russian: 'Донья София искала преподавателя музыки, который научил бы её играть на фортепиано.', correct: 'Doña Sofía buscaba un profesor de música que le enseñara a tocar el piano.', alternatives: ['Doña Sofía buscaba un profesor de música que le enseñase a tocar el piano.'] },
+      { russian: 'Вчера мы посмотрели фильм, о котором ты мне говорил.', correct: 'Ayer vimos la película de la que me hablaste.', alternatives: ['Ayer vimos la película de la que me habías hablado.'] },
+      { russian: 'Хочу встретить человека, который бы меня понимал.', correct: 'Quiero conocer a una persona que me comprenda.', alternatives: ['Quiero encontrar a alguien que me entienda.'] },
+      { russian: 'В прошлом году они продали дом, в котором прожили много лет.', correct: 'El año pasado vendieron la casa en la que habían vivido muchos años.', alternatives: ['El año pasado vendieron la casa donde habían vivido muchos años.'] },
+      { russian: 'Мне надо было поговорить с кем-то, кто знает, что произошло.', correct: 'Necesitaba hablar con alguien que supiera lo que había pasado.', alternatives: ['Tenía que hablar con alguien que supiera lo que había ocurrido.'] },
+      { russian: 'Вам нужен чемодан, в который поместились бы вещи и книги.', correct: 'Necesitan una maleta en la que quepan la ropa y los libros.', alternatives: ['Necesitan una maleta donde quepan las cosas y los libros.'] },
+      { russian: 'Надень костюм, который мы купили в Париже.', correct: 'Ponte el traje que compramos en París.', alternatives: ['Ponte el traje que hemos comprado en París.'] },
+      { russian: 'Тебе надо найти кого-то, кто хорошо знает испанскую грамматику и исправил бы ошибки в твоей статье.', correct: 'Tienes que encontrar a alguien que conozca bien la gramática española y corrija los errores en tu artículo.', alternatives: ['Necesitas encontrar a alguien que sepa bien la gramática española y corrija los errores de tu artículo.'] },
+      { russian: 'Я хочу сделать тебе подарок, который ты запомнишь на всю жизнь.', correct: 'Quiero hacerte un regalo que recuerdes toda la vida.', alternatives: ['Quiero darte un regalo que recuerdes para siempre.'] },
+      { russian: 'У нас есть друзья, которые живут в Барселоне.', correct: 'Tenemos amigos que viven en Barcelona.', alternatives: ['Tenemos unos amigos que viven en Barcelona.'] },
+      { russian: 'Нам нужны друзья, которые помогли бы нам с переездом.', correct: 'Necesitamos amigos que nos ayuden con la mudanza.', alternatives: ['Necesitamos amigos que nos echen una mano con la mudanza.'] },
+      { russian: 'Она вышла замуж за мужчину, которого любила всю жизнь.', correct: 'Se casó con el hombre al que había amado toda la vida.', alternatives: ['Se casó con el hombre que había amado toda su vida.'] },
+      { russian: 'Она хочет выйти замуж за мужчину, который её уважал бы.', correct: 'Quiere casarse con un hombre que la respete.', alternatives: ['Ella quiere casarse con un hombre que la respete.'] },
+      { russian: 'Нет ни одной книги, которая могла бы объяснить это.', correct: 'No hay ningún libro que pueda explicar esto.', alternatives: ['No existe ningún libro que pueda explicar esto.'] },
+      { russian: 'Я прочитал книгу, которая объясняет эту тему очень хорошо.', correct: 'He leído un libro que explica este tema muy bien.', alternatives: ['Leí un libro que explica este tema muy bien.'] },
+      { russian: 'Ищем секретаря, который владел бы тремя языками.', correct: 'Buscamos un secretario que domine tres idiomas.', alternatives: ['Buscamos una secretaria que domine tres idiomas.'] },
+      { russian: 'Есть кто-нибудь, кто мог бы мне объяснить это правило?', correct: '¿Hay alguien que pueda explicarme esta regla?', alternatives: ['¿Hay alguien que me pueda explicar esta regla?'] },
+      { russian: 'Профессор, который ведёт этот курс, очень требовательный.', correct: 'El profesor que imparte este curso es muy exigente.', alternatives: ['El profesor que da este curso es muy exigente.'] },
+      { russian: 'Хотим найти квартиру, из которой был бы виден парк.', correct: 'Queremos encontrar un piso desde el que se vea el parque.', alternatives: ['Queremos encontrar un apartamento desde el cual se vea el parque.'] }
     ]
   }
 }
