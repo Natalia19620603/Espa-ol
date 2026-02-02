@@ -1788,6 +1788,10 @@ Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. T
       {
         tab: '3',
         videoUrl: '/video/Verbos M1C5.mp4'
+      },
+      {
+        tab: 'Entrevista datos personales',
+        videoUrl: '/video/Intrevista datos personales audio M1C5.mp4'
       }
     ],
     grammar: {
@@ -7431,6 +7435,10 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
       {
         tab: 'En la estación de tren',
         videoUrl: '/video/En la estación de tren M5C1.mp4'
+      },
+      {
+        tab: 'Un viaje en avión',
+        videoUrl: '/video/Un viaje en avión M5C1.mp4'
       }
     ],
     grammar: {
