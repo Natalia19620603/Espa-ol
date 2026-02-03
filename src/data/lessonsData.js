@@ -17643,6 +17643,34 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
           { word: 'el horario flexible', translation: 'гибкий график' },
           { word: 'las vacaciones pagadas', translation: 'оплачиваемый отпуск' }
         ]
+      },
+      {
+        tab: 'Бизнес-лексика',
+        words: [
+          { word: 'la oficina de empleo', translation: 'служба занятости' },
+          { word: 'la empresa', translation: 'предприятие' },
+          { word: 'la compañía', translation: 'компания' },
+          { word: 'la sucursal', translation: 'филиал / дочернее предприятие' },
+          { word: 'la sociedad', translation: 'общество' },
+          { word: 'S.A. (sociedad anónima)', translation: 'акционерное общество' },
+          { word: 'PYME (la pequeña y mediana empresa)', translation: 'предприятие малого и среднего бизнеса' },
+          { word: 'la directiva', translation: 'руководство / администрация' },
+          { word: 'presentar una solicitud', translation: 'подать заявление' },
+          { word: 'la entrevista', translation: 'собеседование' },
+          { word: 'colocarse', translation: 'устроиться (на работу)' },
+          { word: 'la incorporación', translation: 'включение в штат' },
+          { word: 'la experiencia laboral', translation: 'опыт работы' },
+          { word: 'la especialidad', translation: 'специальность / стаж' },
+          { word: 'las relaciones públicas', translation: 'связь с общественностью' },
+          { word: 'los recursos humanos / el departamento de personal', translation: 'отдел кадров' },
+          { word: 'el jefe de personal', translation: 'начальник отдела кадров' },
+          { word: 'contratar', translation: 'нанять / заключать договор' },
+          { word: 'el contrato temporal', translation: 'срочный / временный договор' },
+          { word: 'cobrar', translation: 'получать (зарплату)' },
+          { word: 'ganar', translation: 'зарабатывать' },
+          { word: 'el salario / el sueldo', translation: 'оклад / заработная плата' },
+          { word: 'la remuneración', translation: 'гонорар / вознаграждение' }
+        ]
       }
     ],
     readingText: [],
@@ -17780,6 +17808,42 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
           { word: 'reclamar', translation: 'требовать / предъявлять претензии' },
           { word: 'requerir', translation: 'требовать / нуждаться в чем-либо (e→ie)' },
           { word: 'demandar', translation: 'требовать / делать запрос (как правило, экономического характера)' }
+        ]
+      },
+      {
+        tab: 'Трудовые отношения',
+        words: [
+          { word: 'la jornada de trabajo', translation: 'график работы / рабочий день (продолжительность)' },
+          { word: 'el trabajo extra (extraordinario)', translation: 'сверхурочная работа' },
+          { word: 'la plantilla', translation: 'штат' },
+          { word: 'la promoción', translation: 'продвижение по службе' },
+          { word: 'promover', translation: 'продвигать по службе (o→ue)' },
+          { word: 'la huelga', translation: 'забастовка' },
+          { word: 'el desempleo / el paro', translation: 'безработица' },
+          { word: 'el desempleado / el parado / el desocupado', translation: 'безработный' },
+          { word: 'despedir', translation: 'увольнять' },
+          { word: 'el despido', translation: 'увольнение' },
+          { word: 'el cese', translation: 'увольнение / сокращение' },
+          { word: 'CV (curriculum vitae)', translation: 'резюме' },
+          { word: 'el expediente', translation: 'досье / личное дело' },
+          { word: 'la referencia', translation: 'рекомендация' },
+          { word: 'el requisito', translation: 'требование' },
+          { word: 'la función', translation: 'функция / обязанность' },
+          { word: 'el empleador', translation: 'работодатель' },
+          { word: 'el empleado', translation: 'служащий' },
+          { word: 'el trabajador', translation: 'работник' },
+          { word: 'el empresario', translation: 'предприниматель' },
+          { word: 'el gerente', translation: 'менеджер' },
+          { word: 'el ejecutivo', translation: 'управленец' },
+          { word: 'el obrero', translation: 'рабочий' },
+          { word: 'el peón', translation: 'наёмный рабочий' },
+          { word: 'el puesto', translation: 'место (работы)' },
+          { word: 'el puesto de trabajo fijo', translation: 'постоянное место работы' },
+          { word: 'el cargo', translation: 'должность' },
+          { word: 'la vacante', translation: 'вакансия' },
+          { word: 'encargarse de', translation: 'заниматься / брать на себя обязанности' },
+          { word: 'la jubilación', translation: 'пенсия' },
+          { word: 'jubilarse', translation: 'уходить на пенсию' }
         ]
       }
     ],
