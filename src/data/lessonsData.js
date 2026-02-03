@@ -17671,6 +17671,27 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
           { word: 'el salario / el sueldo', translation: 'оклад / заработная плата' },
           { word: 'la remuneración', translation: 'гонорар / вознаграждение' }
         ]
+      },
+      {
+        tab: 'Лексика из текстов',
+        words: [
+          { word: 'similar', translation: 'аналогичный' },
+          { word: 'la disponibilidad', translation: 'готовность' },
+          { word: 'inmediato', translation: 'незамедлительный' },
+          { word: 'el convenio', translation: 'соглашение' },
+          { word: 'la retribución', translation: 'премия' },
+          { word: 'a cargo de', translation: 'за счёт' },
+          { word: 'enviar', translation: 'посылать' },
+          { word: 'reciente', translation: 'недавний / свежий / новый' },
+          { word: 'el Apartado de Correos', translation: 'абонентский ящик' },
+          { word: 'las comisiones', translation: 'бонус / вознаграждение' },
+          { word: 'el ambiente', translation: 'атмосфера / обстановка' },
+          { word: 'valorar', translation: 'ценить' },
+          { word: 'el don', translation: 'дар / способность' },
+          { word: 'el asesoramiento', translation: 'консультирование' },
+          { word: 'la gestión', translation: 'деятельность' },
+          { word: 'la capacidad', translation: 'умение / способность' }
+        ]
       }
     ],
     readingText: [
@@ -18134,7 +18155,115 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
         ]
       }
     ],
-    readingText: [],
+    readingText: [
+      {
+        tab: 'Modelo de CV Europeo',
+        title: 'Modelo de Currículum Vitae (CV) Europeo',
+        content: `## Modelo de Currículum Vitae (CV) Europeo
+
+### 1. Información personal (Личная информация)
+
+| Campo | Descripción |
+|-------|-------------|
+| **1.a. Nombre y apellidos** | Имя и фамилия |
+| **1.b. Dirección** | Адрес проживания |
+| **1.c. Teléfono** | Контактный телефон |
+| **1.d. Correo electrónico** | Электронная почта |
+
+---
+
+### 2. Formación académica (Образование)
+
+*В современном испанском чаще говорят «Formación académica», чем «Educación y formación».*
+
+| Campo | Descripción |
+|-------|-------------|
+| **2.a. Fechas (desde – hasta)** | Даты (с... по...) |
+| **2.b. Centro educativo / Institución** | Учебное заведение |
+| **2.c. Especialidad / Asignaturas principales** | Основные дисциплины или специализация |
+| **2.d. Titulación obtenida** | Полученная квалификация/степень |
+
+---
+
+### 3. Experiencia laboral (Опыт работы)
+
+| Campo | Descripción |
+|-------|-------------|
+| **3.a. Fechas (periodo)** | Период работы |
+| **3.b. Empresa y ubicación** | Название компании и её местонахождение |
+| **3.c. Sector** | Сфера деятельности компании |
+| **3.d. Puesto / Cargo** | Занимаемая должность |
+| **3.e. Funciones y responsabilidades** | Основные обязанности и достижения |
+
+---
+
+### 4. Competencias personales (Личные навыки и компетенции)
+
+*Слово «Aptitudes» всё ещё используется, но современный HR-стандарт — «Competencias».*
+
+| Campo | Descripción |
+|-------|-------------|
+| **4.a. Lengua materna** | Родной язык |
+| **4.b. Otros idiomas** | Другие языки (с указанием уровня по шкале CEFR, например, B2, C1) |
+| **4.c. Competencias artísticas** | Творческие навыки (дизайн, музыка, письмо) |
+| **4.d. Habilidades sociales (Soft Skills)** | Навыки общения, работа в мультикультурной среде, командная работа |
+| **4.e. Capacidades organizativas / Gestión** | Организаторские способности (управление проектами, людьми, бюджетами) |
+| **4.f. Competencias técnicas / Digitales** | Технические навыки (владение программами, специфическим оборудованием) |
+| **4.g. Permiso de conducir** | Водительское удостоверение |`,
+        translation: `## Образец европейского резюме (CV)
+
+### 1. Личная информация
+
+| Поле | Описание |
+|------|----------|
+| **1.a. Имя и фамилия** | Nombre y apellidos |
+| **1.b. Адрес** | Dirección |
+| **1.c. Телефон** | Teléfono |
+| **1.d. Электронная почта** | Correo electrónico |
+
+---
+
+### 2. Образование
+
+*В современном испанском чаще используют «Formación académica», чем «Educación y formación».*
+
+| Поле | Описание |
+|------|----------|
+| **2.a. Даты (с... по...)** | Fechas (desde – hasta) |
+| **2.b. Учебное заведение** | Centro educativo / Institución |
+| **2.c. Специализация / Основные дисциплины** | Especialidad / Asignaturas principales |
+| **2.d. Полученная квалификация** | Titulación obtenida |
+
+---
+
+### 3. Опыт работы
+
+| Поле | Описание |
+|------|----------|
+| **3.a. Период работы** | Fechas (periodo) |
+| **3.b. Компания и местонахождение** | Empresa y ubicación |
+| **3.c. Сфера деятельности** | Sector |
+| **3.d. Должность** | Puesto / Cargo |
+| **3.e. Обязанности и достижения** | Funciones y responsabilidades |
+
+---
+
+### 4. Личные навыки и компетенции
+
+*Слово «Aptitudes» всё ещё используется, но современный HR-стандарт — «Competencias».*
+
+| Поле | Описание |
+|------|----------|
+| **4.a. Родной язык** | Lengua materna |
+| **4.b. Другие языки** | Otros idiomas (уровень по CEFR: B2, C1 и т.д.) |
+| **4.c. Творческие навыки** | Competencias artísticas |
+| **4.d. Soft Skills** | Habilidades sociales |
+| **4.e. Организаторские способности** | Capacidades organizativas / Gestión |
+| **4.f. Технические навыки** | Competencias técnicas / Digitales |
+| **4.g. Водительское удостоверение** | Permiso de conducir |`,
+        audioUrl: null
+      }
+    ],
     exercises: ['ex-13-3-1', 'ex-13-3-2']
   }
 }
