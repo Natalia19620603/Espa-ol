@@ -416,18 +416,22 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
                   />
                 </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '20px' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginTop: '20px' }}>
                 <button
                   onClick={() => setCurrentQuestion(prev => Math.max(0, prev - 1))}
                   disabled={currentQuestion === 0}
                   style={{
-                    padding: '10px 20px',
-                    fontSize: '16px',
+                    padding: '14px 28px',
+                    fontSize: '18px',
+                    fontWeight: 'bold',
                     cursor: currentQuestion === 0 ? 'not-allowed' : 'pointer',
                     opacity: currentQuestion === 0 ? 0.5 : 1,
-                    backgroundColor: '#f5f5f5',
-                    border: '1px solid #ccc',
-                    borderRadius: '4px'
+                    backgroundColor: '#FFC107',
+                    color: '#000',
+                    border: 'none',
+                    borderRadius: '8px',
+                    boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                    minWidth: '120px'
                   }}
                 >
                   ← Назад
@@ -436,13 +440,16 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
                   <button
                     onClick={() => setCurrentQuestion(prev => prev + 1)}
                     style={{
-                      padding: '10px 20px',
-                      fontSize: '16px',
+                      padding: '14px 28px',
+                      fontSize: '18px',
+                      fontWeight: 'bold',
                       cursor: 'pointer',
-                      backgroundColor: '#1976d2',
+                      backgroundColor: '#4CAF50',
                       color: 'white',
                       border: 'none',
-                      borderRadius: '4px'
+                      borderRadius: '8px',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                      minWidth: '120px'
                     }}
                   >
                     Вперёд →
@@ -451,13 +458,16 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
                   <button
                     onClick={() => onComplete()}
                     style={{
-                      padding: '10px 20px',
-                      fontSize: '16px',
+                      padding: '14px 28px',
+                      fontSize: '18px',
+                      fontWeight: 'bold',
                       cursor: 'pointer',
                       backgroundColor: '#4CAF50',
                       color: 'white',
                       border: 'none',
-                      borderRadius: '4px'
+                      borderRadius: '8px',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                      minWidth: '120px'
                     }}
                   >
                     Завершить

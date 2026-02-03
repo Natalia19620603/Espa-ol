@@ -18272,108 +18272,76 @@ No puedo decir que tenga amigos, aunque es cierto que mantengo cierta vida socia
       {
         tab: 'Modelo de CV Europeo',
         title: 'Modelo de Currículum Vitae (CV) Europeo',
-        content: `## Modelo de Currículum Vitae (CV) Europeo
+        content: `MODELO DE CURRÍCULUM VITAE (CV) EUROPEO
 
-### 1. Información personal (Личная информация)
+1. INFORMACIÓN PERSONAL
 
-| Campo | Descripción |
-|-------|-------------|
-| **1.a. Nombre y apellidos** | Имя и фамилия |
-| **1.b. Dirección** | Адрес проживания |
-| **1.c. Teléfono** | Контактный телефон |
-| **1.d. Correo electrónico** | Электронная почта |
+1.a. Nombre y apellidos
+1.b. Dirección
+1.c. Teléfono
+1.d. Correo electrónico
 
----
+2. FORMACIÓN ACADÉMICA
 
-### 2. Formación académica (Образование)
+2.a. Fechas (desde – hasta)
+2.b. Centro educativo / Institución
+2.c. Especialidad / Asignaturas principales
+2.d. Titulación obtenida
 
-*В современном испанском чаще говорят «Formación académica», чем «Educación y formación».*
+3. EXPERIENCIA LABORAL
 
-| Campo | Descripción |
-|-------|-------------|
-| **2.a. Fechas (desde – hasta)** | Даты (с... по...) |
-| **2.b. Centro educativo / Institución** | Учебное заведение |
-| **2.c. Especialidad / Asignaturas principales** | Основные дисциплины или специализация |
-| **2.d. Titulación obtenida** | Полученная квалификация/степень |
+3.a. Fechas (periodo)
+3.b. Empresa y ubicación
+3.c. Sector
+3.d. Puesto / Cargo
+3.e. Funciones y responsabilidades
 
----
+4. COMPETENCIAS PERSONALES
 
-### 3. Experiencia laboral (Опыт работы)
+4.a. Lengua materna
+4.b. Otros idiomas
+4.c. Competencias artísticas
+4.d. Habilidades sociales (Soft Skills)
+4.e. Capacidades organizativas / Gestión
+4.f. Competencias técnicas / Digitales
+4.g. Permiso de conducir`,
+        translation: `ОБРАЗЕЦ ЕВРОПЕЙСКОГО РЕЗЮМЕ (CV)
 
-| Campo | Descripción |
-|-------|-------------|
-| **3.a. Fechas (periodo)** | Период работы |
-| **3.b. Empresa y ubicación** | Название компании и её местонахождение |
-| **3.c. Sector** | Сфера деятельности компании |
-| **3.d. Puesto / Cargo** | Занимаемая должность |
-| **3.e. Funciones y responsabilidades** | Основные обязанности и достижения |
+1. ЛИЧНАЯ ИНФОРМАЦИЯ
 
----
+1.a. Имя и фамилия (Nombre y apellidos)
+1.b. Адрес проживания (Dirección)
+1.c. Контактный телефон (Teléfono)
+1.d. Электронная почта (Correo electrónico)
 
-### 4. Competencias personales (Личные навыки и компетенции)
+2. ОБРАЗОВАНИЕ (Formación académica)
 
-*Слово «Aptitudes» всё ещё используется, но современный HR-стандарт — «Competencias».*
+В современном испанском чаще говорят «Formación académica», чем «Educación y formación».
 
-| Campo | Descripción |
-|-------|-------------|
-| **4.a. Lengua materna** | Родной язык |
-| **4.b. Otros idiomas** | Другие языки (с указанием уровня по шкале CEFR, например, B2, C1) |
-| **4.c. Competencias artísticas** | Творческие навыки (дизайн, музыка, письмо) |
-| **4.d. Habilidades sociales (Soft Skills)** | Навыки общения, работа в мультикультурной среде, командная работа |
-| **4.e. Capacidades organizativas / Gestión** | Организаторские способности (управление проектами, людьми, бюджетами) |
-| **4.f. Competencias técnicas / Digitales** | Технические навыки (владение программами, специфическим оборудованием) |
-| **4.g. Permiso de conducir** | Водительское удостоверение |`,
-        translation: `## Образец европейского резюме (CV)
+2.a. Даты — с... по... (Fechas desde – hasta)
+2.b. Учебное заведение (Centro educativo / Institución)
+2.c. Основные дисциплины или специализация (Especialidad / Asignaturas principales)
+2.d. Полученная квалификация/степень (Titulación obtenida)
 
-### 1. Личная информация
+3. ОПЫТ РАБОТЫ (Experiencia laboral)
 
-| Поле | Описание |
-|------|----------|
-| **1.a. Имя и фамилия** | Nombre y apellidos |
-| **1.b. Адрес** | Dirección |
-| **1.c. Телефон** | Teléfono |
-| **1.d. Электронная почта** | Correo electrónico |
+3.a. Период работы (Fechas / periodo)
+3.b. Название компании и её местонахождение (Empresa y ubicación)
+3.c. Сфера деятельности компании (Sector)
+3.d. Занимаемая должность (Puesto / Cargo)
+3.e. Основные обязанности и достижения (Funciones y responsabilidades)
 
----
+4. ЛИЧНЫЕ НАВЫКИ И КОМПЕТЕНЦИИ (Competencias personales)
 
-### 2. Образование
+Слово «Aptitudes» всё ещё используется, но современный HR-стандарт — «Competencias».
 
-*В современном испанском чаще используют «Formación académica», чем «Educación y formación».*
-
-| Поле | Описание |
-|------|----------|
-| **2.a. Даты (с... по...)** | Fechas (desde – hasta) |
-| **2.b. Учебное заведение** | Centro educativo / Institución |
-| **2.c. Специализация / Основные дисциплины** | Especialidad / Asignaturas principales |
-| **2.d. Полученная квалификация** | Titulación obtenida |
-
----
-
-### 3. Опыт работы
-
-| Поле | Описание |
-|------|----------|
-| **3.a. Период работы** | Fechas (periodo) |
-| **3.b. Компания и местонахождение** | Empresa y ubicación |
-| **3.c. Сфера деятельности** | Sector |
-| **3.d. Должность** | Puesto / Cargo |
-| **3.e. Обязанности и достижения** | Funciones y responsabilidades |
-
----
-
-### 4. Личные навыки и компетенции
-
-*Слово «Aptitudes» всё ещё используется, но современный HR-стандарт — «Competencias».*
-
-| Поле | Описание |
-|------|----------|
-| **4.a. Родной язык** | Lengua materna |
-| **4.b. Другие языки** | Otros idiomas (уровень по CEFR: B2, C1 и т.д.) |
-| **4.c. Творческие навыки** | Competencias artísticas |
-| **4.d. Soft Skills** | Habilidades sociales |
-| **4.e. Организаторские способности** | Capacidades organizativas / Gestión |
-| **4.f. Технические навыки** | Competencias técnicas / Digitales |
-| **4.g. Водительское удостоверение** | Permiso de conducir |`,
+4.a. Родной язык (Lengua materna)
+4.b. Другие языки — с указанием уровня по шкале CEFR, например, B2, C1 (Otros idiomas)
+4.c. Творческие навыки — дизайн, музыка, письмо (Competencias artísticas)
+4.d. Навыки общения, работа в мультикультурной среде, командная работа (Habilidades sociales / Soft Skills)
+4.e. Организаторские способности — управление проектами, людьми, бюджетами (Capacidades organizativas / Gestión)
+4.f. Технические навыки — владение программами, специфическим оборудованием (Competencias técnicas / Digitales)
+4.g. Водительское удостоверение (Permiso de conducir)`,
         audioUrl: null
       },
       {
