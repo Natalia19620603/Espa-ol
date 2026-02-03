@@ -17991,9 +17991,122 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
           { word: 'la jubilación', translation: 'пенсия' },
           { word: 'jubilarse', translation: 'уходить на пенсию' }
         ]
+      },
+      {
+        tab: 'Frustrada',
+        words: [
+          { word: 'frustrarse', translation: 'терпеть неудачу' },
+          { word: 'textualmente', translation: 'буквально' },
+          { word: 'descender (1a)', translation: 'снижаться' },
+          { word: 'el agorero', translation: 'предсказатель' },
+          { word: 'el sindicato', translation: 'профсоюз' },
+          { word: 'diversos', translation: 'различные (= varios, diferentes)' },
+          { word: 'incidir', translation: 'влиять (= influir)' },
+          { word: 'el avance', translation: 'продвижение вперёд / прогресс' },
+          { word: 'el traje sastre', translation: 'английский костюм (женский)' },
+          { word: 'discreto', translation: 'неприметный' },
+          { word: 'cuestionar', translation: 'поставить под вопрос' },
+          { word: 'sobrio', translation: 'скромный / выдержанный (о стиле)' },
+          { word: 'amén de', translation: 'кроме того' },
+          { word: 'comportarse', translation: 'вести себя' },
+          { word: 'el tobillo', translation: 'щиколотка' },
+          { word: 'apasionante', translation: 'захватывающий' },
+          { word: 'la trayectoria', translation: 'жизненный путь / карьера' },
+          { word: 'nombrar', translation: 'назначить' },
+          { word: 'el/la amante', translation: 'любовник / любовница' },
+          { word: 'la circunstancia', translation: 'обстоятельство' },
+          { word: 'mantener', translation: 'поддерживать' },
+          { word: 'comprobar (1b)', translation: 'удостовериться' }
+        ]
       }
     ],
-    readingText: [],
+    readingText: [
+      {
+        tab: 'Frustrada',
+        title: 'Frustrada (Por Lucía Etxebarría)',
+        content: `## Frustrada
+
+El informe Harvard-Yale, publicado en 1987 por los sociólogos Bennet y Bloom y basado en el modelo paramétrico de análisis de diferentes grupos de población, dice textualmente:
+
+> "A los treinta años las mujeres solteras con estudios universitarios tienen un 20% de posibilidades de casarse, a los 35 este porcentaje ha descendido al 5% y a los cuarenta al 1,7%. Las mujeres con educación universitaria que anteponen los estudios y la vida profesional al matrimonio, encontrarán serias dificultades para casarse."
+
+Ya dicen los agoreros que a los treinta años es más fácil que me caiga una bomba encima que un hombre.
+
+Yo tengo treinta años y estoy tan cansada que me cuesta trabajo empujar la pesada puerta de entrada de mi casa…
+
+Las fábricas de la revolución industrial trabajaban con jornadas de hasta doce horas. Desde entonces la reducción de jornada ha sido uno de los principales objetivos de los sindicatos. Diversos estudios de psicología industrial publicados por la universidad de Yale han demostrado que una jornada de trabajo superior a las ocho horas diarias incide negativamente en la salud física y psíquica. Pero a pesar de los avances sociales y los cambios notables respecto a las condiciones laborales yo llego a trabajar entre doce y catorce horas diarias, tanto como los más explotados obreros del siglo XIX…
+
+Cuando llego a mi apartamento lo primero que hago es quitarme el traje de chaqueta gris y colgarlo cuidadosamente en el armario.
+
+El informe *Dress for Success* de John T. Molloy publicado en 1977, recomienda a las ejecutivas el uso de un traje sastre en la oficina:
+
+> "Las mujeres que llevan ropa discreta tienen un 150% más de probabilidades de sentirse tratadas como ejecutivas, y un 30% menos de probabilidades de que los hombres cuestionen su autoridad".
+
+Me gustan los trajes sastre, también, porque resultan prácticos. Mis trajes son de la mejor calidad: Loewe, Armani y Ángel Schelesser. Tengo tres: gris, azul marino y negro. Colores sobrios para una imagen sobria.
+
+En la oficina no debo olvidar que, amén del modo en que visto, debo controlar cómo me comporto:
+
+> "Debe usted controlar la postura de las piernas. Un hombre puede sentarse de cualquier manera que se le ocurra: piernas separadas o con un tobillo sobre la rodilla de la otra pierna o, con las piernas cruzadas. Las mujeres deben tener más cuidado en el ambiente profesional, para evitar que la visibilidad de las piernas distraiga a otros".
+
+**Palabras que me defienden.**
+
+Equilibrio tecnológico. Correo electrónico. Memoria Ram. Balances. Presupuestos. Informes por triplicado. Curvas de campana. Capital riesgo. Mínimo amortizable. Comité de dirección. Plan de crecimiento. Inyección de capital. Versión alfa. Fase beta. Proyectos. Equipos. Multimedia. Liderazgo.
+
+**Mi vida no es muy apasionante.**
+
+Mi trayectoria fue meteórica. Acabé la carrera con excelentes notas y empecé a trabajar a los 22 años. A los 28 me nombraron directora financiera y mi foto salió en la sección de negocios de *El País*…
+
+Treinta años. Diez millones de pesetas al año. Un BMW. Un apartamento conceptual en propiedad. Ninguna perspectiva de casarme o tener hijos. Nadie que me quiera de manera especial.
+
+He tenido cuatro amantes, ninguno de ellos fijo ni particularmente memorable. Sé bien que no son muchos, si tenemos en cuenta mi edad. No ha sido una cuestión de moral. Ha sido, quizás, una cuestión de circunstancias.
+
+No puedo decir que tenga amigos, aunque es cierto que mantengo cierta vida social. A veces voy a cenas de negocios o salgo con colegas de trabajo. También asisto periódicamente a reuniones de antiguos alumnos en las que compruebo cómo los chicos de mi clase se han convertido en señores calvos con barriga y las chicas en madres de familia, como se veía venir…
+
+---
+*Por Lucía Etxebarría, "Amor, curiosidad, prozac y dudas"*`,
+        translation: `## Разочарованная
+
+Отчёт Гарвард-Йель, опубликованный в 1987 году социологами Беннетом и Блумом и основанный на параметрической модели анализа различных групп населения, гласит буквально:
+
+> «В тридцать лет у незамужних женщин с высшим образованием есть 20% шансов выйти замуж, к 35 годам этот процент снижается до 5%, а к сорока — до 1,7%. Женщины с университетским образованием, которые ставят учёбу и профессиональную жизнь выше брака, столкнутся с серьёзными трудностями при вступлении в брак».
+
+Предсказатели уже говорят, что в тридцать лет вероятнее, что на меня упадёт бомба, чем мужчина.
+
+Мне тридцать лет, и я так устала, что мне тяжело толкать тяжёлую входную дверь своего дома…
+
+Фабрики промышленной революции работали с рабочим днём до двенадцати часов. С тех пор сокращение рабочего дня было одной из главных целей профсоюзов. Различные исследования по индустриальной психологии, опубликованные Йельским университетом, показали, что рабочий день более восьми часов негативно влияет на физическое и психическое здоровье. Но несмотря на социальные достижения и заметные изменения условий труда, я работаю от двенадцати до четырнадцати часов в день, столько же, сколько самые эксплуатируемые рабочие XIX века…
+
+Когда я прихожу в свою квартиру, первое, что делаю — снимаю серый костюм и аккуратно вешаю его в шкаф.
+
+Отчёт *Dress for Success* Джона Т. Моллоя, опубликованный в 1977 году, рекомендует женщинам-руководителям носить деловой костюм в офисе:
+
+> «Женщины, которые носят неброскую одежду, на 150% чаще чувствуют, что к ним относятся как к руководителям, и на 30% реже мужчины ставят под сомнение их авторитет».
+
+Мне тоже нравятся деловые костюмы, потому что они практичны. Мои костюмы лучшего качества: Loewe, Armani и Ángel Schelesser. У меня их три: серый, тёмно-синий и чёрный. Сдержанные цвета для сдержанного образа.
+
+В офисе я не должна забывать, что помимо того, как я одеваюсь, я должна контролировать своё поведение:
+
+> «Вы должны контролировать положение ног. Мужчина может сидеть как ему вздумается: ноги расставлены, или щиколотка на колене другой ноги, или ноги скрещены. Женщины должны быть осторожнее в профессиональной среде, чтобы видимость ног не отвлекала других».
+
+**Слова, которые меня защищают.**
+
+Технологический баланс. Электронная почта. Оперативная память. Балансы. Бюджеты. Отчёты в трёх экземплярах. Кривые Гаусса. Венчурный капитал. Минимальная амортизация. Совет директоров. План роста. Вливание капитала. Альфа-версия. Бета-фаза. Проекты. Команды. Мультимедиа. Лидерство.
+
+**Моя жизнь не очень захватывающая.**
+
+Моя карьера была стремительной. Я закончила университет с отличными оценками и начала работать в 22 года. В 28 меня назначили финансовым директором, и моё фото появилось в бизнес-разделе *El País*…
+
+Тридцать лет. Десять миллионов песет в год. BMW. Концептуальная квартира в собственности. Никаких перспектив выйти замуж или иметь детей. Никого, кто бы меня особенно любил.
+
+У меня было четыре любовника, ни один из них не был постоянным или особенно запоминающимся. Я знаю, что это немного, учитывая мой возраст. Это не было вопросом морали. Это был, возможно, вопрос обстоятельств.
+
+Не могу сказать, что у меня есть друзья, хотя у меня есть определённая социальная жизнь. Иногда я хожу на деловые ужины или выхожу с коллегами. Я также периодически посещаю встречи выпускников, на которых убеждаюсь, что мальчики из моего класса превратились в лысых господ с животиками, а девочки — в домохозяек, как и следовало ожидать…
+
+---
+*Лусия Эчебаррия, «Любовь, любопытство, прозак и сомнения»*`,
+        audioUrl: null
+      }
+    ],
     exercises: ['ex-13-2-1', 'ex-13-2-2', 'ex-13-2-3', 'ex-13-2-4']
   },
 
