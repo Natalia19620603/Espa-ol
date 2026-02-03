@@ -17673,7 +17673,132 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
         ]
       }
     ],
-    readingText: [],
+    readingText: [
+      {
+        tab: 'ТЕКСТ 1: Relaciones Públicas',
+        title: 'Importante cadena hotelera busca Relaciones Públicas (PR)',
+        content: `**Importante cadena hotelera busca Relaciones Públicas (PR)**
+
+**Requisitos:**
+• Edad: a partir de 30 años.
+• Formación: Grado universitario o formación superior equivalente.
+• Experiencia demostrable en el sector, en un puesto de características similares.
+• Disponibilidad para viajar.
+• Idiomas: Nivel avanzado de inglés y dominio de otra lengua de la UE (distinta del español).
+
+**Ofrecemos:**
+• Incorporación inmediata.
+• Contrato indefinido con salario según convenio más incentivos.
+• Formación continua a cargo de la empresa.
+• Plan de carrera y posibilidad de promoción interna.
+
+**Interesados:** Enviar CV con fotografía reciente al Apartado de Correos...`,
+        translation: `**Крупная сеть отелей ищет специалиста по связям с общественностью (PR)**
+
+**Требования:**
+• Возраст: от 30 лет.
+• Образование: Университетский диплом или эквивалентное высшее образование.
+• Подтверждённый опыт работы в данной сфере на аналогичной должности.
+• Готовность к командировкам.
+• Языки: Продвинутый уровень английского и владение другим языком ЕС (кроме испанского).
+
+**Мы предлагаем:**
+• Немедленное трудоустройство.
+• Бессрочный контракт с зарплатой по коллективному договору плюс бонусы.
+• Постоянное обучение за счёт компании.
+• Карьерный план и возможность внутреннего продвижения.
+
+**Заинтересованным:** Отправить резюме с недавней фотографией на почтовый ящик...`,
+        audioUrl: null
+      },
+      {
+        tab: 'ТЕКСТ 2: Comerciales',
+        title: 'Sector Ventas — Ofertas de trabajo',
+        content: `**Universal Systems, empresa líder en su sector perteneciente a un grupo multinacional, busca Comerciales.**
+
+**Ofrecemos:**
+• Alta en la Seguridad Social (RGSS).
+• Salario fijo garantizado más atractivas comisiones.
+• Cartera de clientes propia.
+• Formación continua a cargo de la empresa.
+• Excelente ambiente de trabajo.
+• Posibilidades reales de promoción.
+
+**Requisitos:**
+• Perfil dinámico con clara vocación comercial.
+• Capacidad de trabajo en equipo.
+• Experiencia previa en ventas (muy valorable).
+• Buena presencia y don de gentes.
+• Vehículo propio.
+
+**Interesados:** Llamar al tel.: 91 758 99 30.
+
+---
+
+**Adecco selecciona Comercial de Punto de Venta para importante empresa de telecomunicaciones.**
+
+**Funciones:**
+• Venta y comercialización de productos y servicios de telefonía.
+• Atención al cliente y asesoramiento personalizado.
+• Cumplimiento de objetivos individuales y grupales.
+• Gestión administrativa y control de stock (tienda).
+
+**Requisitos:**
+• Dinamismo y excelentes habilidades comunicativas.
+• Proactividad, capacidad de organización y planificación.
+• Disponibilidad horaria.
+
+**Ofrecemos:**
+• Incorporación inmediata con formación previa a cargo de la empresa.
+• Contrato temporal inicial con posibilidad real de pasar a plantilla.
+• Salario: 7,69 € bruto/hora + incentivos por objetivos.
+• Jornada laboral de 39 horas semanales.
+
+**Interesados:** Enviar CV con foto reciente al e-mail...`,
+        translation: `**Universal Systems, компания-лидер в своём секторе, входящая в международную группу, ищет торговых представителей.**
+
+**Мы предлагаем:**
+• Регистрация в системе социального страхования (RGSS).
+• Гарантированный фиксированный оклад плюс привлекательные комиссионные.
+• Собственная клиентская база.
+• Постоянное обучение за счёт компании.
+• Отличная рабочая атмосфера.
+• Реальные возможности карьерного роста.
+
+**Требования:**
+• Динамичный профиль с явной склонностью к продажам.
+• Способность работать в команде.
+• Предыдущий опыт в продажах (высоко ценится).
+• Приятная внешность и умение общаться с людьми.
+• Собственный автомобиль.
+
+**Заинтересованным:** Звонить по тел.: 91 758 99 30.
+
+---
+
+**Adecco проводит отбор продавцов-консультантов в торговую точку для крупной телекоммуникационной компании.**
+
+**Обязанности:**
+• Продажа и продвижение продуктов и услуг телефонной связи.
+• Обслуживание клиентов и персонализированное консультирование.
+• Выполнение индивидуальных и групповых планов.
+• Административное управление и контроль запасов (магазин).
+
+**Требования:**
+• Энергичность и отличные коммуникативные навыки.
+• Проактивность, способность к организации и планированию.
+• Гибкий график.
+
+**Мы предлагаем:**
+• Немедленное трудоустройство с предварительным обучением за счёт компании.
+• Первоначальный временный контракт с реальной возможностью перехода в штат.
+• Зарплата: 7,69 € брутто/час + бонусы за выполнение целей.
+• Рабочая неделя 39 часов.
+
+**Заинтересованным:** Отправить резюме с недавней фотографией на e-mail...`,
+        audioUrl: null
+      }
+    ],
     exercises: ['ex-13-1-1', 'ex-13-1-2', 'ex-13-1-3', 'ex-13-1-4', 'ex-13-1-5', 'ex-13-1-6']
   },
 
