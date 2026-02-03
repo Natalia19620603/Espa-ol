@@ -675,6 +675,14 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
               onComplete={onComplete}
             />
           )}
+          {exercise.type === 'analysis' && (
+            <AnalysisQuestion
+              question={shuffledQuestions.length > 0 ? shuffledQuestions[currentQuestion] : exercise.questions[currentQuestion]}
+              onAnswer={handleAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              userAnswer={userAnswer}
+            />
+          )}
         </div>
 
         {exercise.type !== 'external' && exercise.type !== 'multi-part' && (
@@ -1019,6 +1027,45 @@ function GrammarQuestion({ question, onAnswer, showCorrectAnswer, userAnswer, on
   return (
     <div className={styles.question}>
       <h3 className={styles.questionText}>{question.sentence || question.question}</h3>
+      <div className={styles.options}>
+        {question.options.map((option, index) => {
+          const isUserAnswer = userAnswer === index
+          const isCorrectAnswer = question.correct === index
+          const showFeedback = showCorrectAnswer && (isUserAnswer || isCorrectAnswer)
+
+          return (
+            <button
+              key={index}
+              onClick={() => !showCorrectAnswer && onAnswer(index)}
+              className={`${styles.optionBtn} ${showFeedback ? (isCorrectAnswer ? styles.correctAnswer : styles.wrongAnswer) : ''}`}
+              disabled={showCorrectAnswer}
+            >
+              {option}
+              {showFeedback && isCorrectAnswer && ' ✓'}
+              {showFeedback && isUserAnswer && !isCorrectAnswer && ' ✗'}
+            </button>
+          )
+        })}
+      </div>
+      {showCorrectAnswer && (
+        <p className={styles.correctAnswerText}>
+          Правильный ответ: {question.options[question.correct]}
+        </p>
+      )}
+    </div>
+  )
+}
+
+function AnalysisQuestion({ question, onAnswer, showCorrectAnswer, userAnswer }) {
+  return (
+    <div className={styles.question}>
+      <h3 className={styles.questionText}>{question.spanish}</h3>
+      {question.translation && (
+        <p className={styles.hint} style={{ marginBottom: '15px', fontStyle: 'italic', color: '#666' }}>
+          Перевод: {question.translation}
+        </p>
+      )}
+      <p style={{ marginBottom: '10px', fontWeight: '500' }}>Выберите правильное объяснение:</p>
       <div className={styles.options}>
         {question.options.map((option, index) => {
           const isUserAnswer = userAnswer === index

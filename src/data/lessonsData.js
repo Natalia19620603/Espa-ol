@@ -90,7 +90,7 @@ export const modules = {
     id: 'module-13',
     title: 'Модуль 13: УСТРОЙСТВО НА РАБОТУ. Subjuntivo в определительных, уступительных и простых предложениях',
     level: 'intermediate',
-    lessons: ['lesson-13-1', 'lesson-13-2'],
+    lessons: ['lesson-13-1', 'lesson-13-2', 'lesson-13-3'],
     description: 'Употребление сослагательного наклонения в определительных предложениях (relativas), уступительных предложениях (concesivas) и простых предложениях (oraciones independientes)'
   },
   'module-8': {
@@ -17775,12 +17775,178 @@ En España existe el refrán "Pasas más hambre que un maestro". Los maestros ga
           { word: 'memorizar', translation: 'запоминать, заучивать' },
           { word: 'el aprendizaje', translation: 'обучение, изучение' },
           { word: 'aprobar el examen', translation: 'сдать экзамен' },
-          { word: 'suspender el examen', translation: 'провалить экзамен' }
+          { word: 'suspender el examen', translation: 'провалить экзамен' },
+          { word: 'exigir', translation: 'требовать / добиваться от кого-либо' },
+          { word: 'reclamar', translation: 'требовать / предъявлять претензии' },
+          { word: 'requerir', translation: 'требовать / нуждаться в чем-либо (e→ie)' },
+          { word: 'demandar', translation: 'требовать / делать запрос (как правило, экономического характера)' }
         ]
       }
     ],
     readingText: [],
-    exercises: ['ex-13-2-1', 'ex-13-2-2', 'ex-13-2-3']
+    exercises: ['ex-13-2-1', 'ex-13-2-2', 'ex-13-2-3', 'ex-13-2-4']
+  },
+
+  'lesson-13-3': {
+    id: 'lesson-13-3',
+    title: 'Урок 3: Сослагательное наклонение в независимых предложениях',
+    moduleId: 'module-13',
+    grammar: {
+      title: 'Сослагательное наклонение в независимых предложениях',
+      intro: `В простых (независимых) предложениях Subjuntivo используется для выражения **пожеланий**, **команд через третье лицо** или **сомнений**.
+
+В отличие от сложных предложений, здесь нет главного предложения с глаголом воли или эмоции — Subjuntivo выступает самостоятельно.`,
+      sections: [
+        {
+          id: 'deseo-orden',
+          title: '1. Выражение желания или приказа',
+          content: `## 1. Выражение желания или приказа
+
+### ¡Que...! (Пусть... / Чтобы...)
+
+Используется для передачи приказа или пожелания через третье лицо:
+
+| Испанский | Русский |
+|-----------|---------|
+| **¡Que pasen!** | Пусть проходят! |
+| **¡Que tengas un buen día!** | Хорошего тебе дня! |
+| **¡Que te vaya bien!** | Удачи тебе! (Пусть тебе повезёт!) |
+| **¡Que lo pases bien!** | Хорошо провести время! |
+| **¡Que descanse!** | Пусть отдыхает! |
+
+### ¡Ojalá (que)...! (Хоть бы... / Дай бог...)
+
+Выражает сильное желание:
+
+| Испанский | Русский |
+|-----------|---------|
+| **¡Ojalá esté abierto!** | Хоть бы было открыто! |
+| **¡Ojalá no llueva!** | Хоть бы не было дождя! |
+| **¡Ojalá vengan a tiempo!** | Хоть бы они пришли вовремя! |
+| **¡Ojalá pueda venir!** | Хоть бы он смог прийти! |
+| **¡Ojalá todo salga bien!** | Дай бог, чтобы всё прошло хорошо! |
+
+### Лозунги (без союза que)
+
+Союз **que** часто опускается:
+
+| Испанский | Русский |
+|-----------|---------|
+| **¡Viva el Rey!** | Да здравствует король! |
+| **¡Viva España!** | Да здравствует Испания! |
+| **¡Muera la dictadura!** | Долой диктатуру! |
+| **¡Dios te bendiga!** | Да благословит тебя Бог! |`
+        },
+        {
+          id: 'duda-quizas',
+          title: '2. Выражение сомнения (Может быть)',
+          content: `## 2. Выражение сомнения (Может быть)
+
+Слова **quizá(s)**, **tal vez**, **posiblemente**, **probablemente** могут требовать разного наклонения в зависимости от степени уверенности говорящего:
+
+| Наклонение | Степень уверенности | Пример |
+|------------|---------------------|--------|
+| **Indicativo** | Почти уверен (более 50%) | Quizás **tienes** razón. *(Может, ты и прав — скорее всего, так и есть)* |
+| **Subjuntivo** | Сильное сомнение (менее 50%) | Quizás **tengas** razón. *(Может быть, ты и прав — но я сомневаюсь)* |
+
+### Примеры:
+
+| Indicativo (уверенность) | Subjuntivo (сомнение) |
+|--------------------------|----------------------|
+| Tal vez **está** en casa. *(Наверное, он дома)* | Tal vez **esté** en casa. *(Может быть, он дома)* |
+| Quizás **viene** mañana. *(Возможно, придёт завтра)* | Quizás **venga** mañana. *(Может, придёт завтра)* |
+| Probablemente **lo sabe**. *(Вероятно, он знает)* | Probablemente **lo sepa**. *(Возможно, он знает)* |
+| Posiblemente **tienen** razón. *(Возможно, они правы)* | Posiblemente **tengan** razón. *(Может, они правы)* |`
+        },
+        {
+          id: 'posicion-palabra',
+          title: '3. Важно: позиция вводного слова',
+          content: `## 3. Важно: позиция вводного слова
+
+### Правило:
+Если вводное слово (**quizás**, **tal vez** и т.д.) стоит **после глагола**, всегда используется только **Indicativo**:
+
+| Испанский | Русский |
+|-----------|---------|
+| Luis llegará tarde, **tal vez**. | Луис придёт поздно, возможно. |
+| Lo sabe, **quizás**. | Он знает, может быть. |
+| Están en casa, **probablemente**. | Они дома, вероятно. |
+
+### Сравните:
+
+| Вводное слово в начале | Вводное слово в конце |
+|------------------------|----------------------|
+| **Quizás venga** mañana. *(Subjuntivo возможен)* | Vendrá mañana, **quizás**. *(Только Indicativo)* |
+| **Tal vez esté** enfermo. *(Subjuntivo возможен)* | Está enfermo, **tal vez**. *(Только Indicativo)* |`
+        },
+        {
+          id: 'acaso',
+          title: '4. Конструкции с Acaso',
+          content: `## 4. Конструкции с Acaso
+
+Слово **acaso** (разве, неужели, может быть) также требует выбора наклонения:
+
+| Ситуация | Наклонение | Пример |
+|----------|------------|--------|
+| Риторический вопрос (ожидаем «нет») | **Indicativo** | ¿Acaso **crees** que soy tonto? *(Ты что, думаешь, я дурак?)* |
+| Реальное сомнение | **Subjuntivo** | Acaso **venga** mañana. *(Может, придёт завтра)* |
+
+### Примеры:
+
+| Испанский | Русский |
+|-----------|---------|
+| ¿Acaso no lo **sabes**? | Разве ты не знаешь? |
+| Si acaso **viniera**... | Если вдруг он придёт... |
+| Acaso **tenga** razón. | Может быть, он прав. |`
+        },
+        {
+          id: 'resumen-independientes',
+          title: '5. Сводка правил',
+          content: `## 5. Сводка правил
+
+| Конструкция | Наклонение | Значение |
+|-------------|------------|----------|
+| **¡Que + Subjuntivo!** | Subjuntivo | Пусть... / Чтобы... (приказ/пожелание) |
+| **¡Ojalá (que) + Subjuntivo!** | Subjuntivo | Хоть бы... / Дай бог... |
+| **Quizás / Tal vez + глагол** | Indicativo или Subjuntivo | Зависит от степени уверенности |
+| **Глагол + quizás / tal vez** | Только Indicativo | Вводное слово в постпозиции |
+| **Лозунги (¡Viva...!)** | Subjuntivo | Да здравствует... |
+
+### Маркеры для выбора:
+- **Subjuntivo**: сомнение, неуверенность, желание, приказ через третье лицо
+- **Indicativo**: уверенность, констатация факта, вводное слово после глагола`
+        }
+      ]
+    },
+    vocabulary: [
+      {
+        tab: 'Независимые предложения',
+        words: [
+          { spanish: 'ojalá', russian: 'хоть бы, дай бог' },
+          { spanish: 'quizá(s)', russian: 'может быть, возможно' },
+          { spanish: 'tal vez', russian: 'может быть, возможно' },
+          { spanish: 'probablemente', russian: 'вероятно' },
+          { spanish: 'posiblemente', russian: 'возможно' },
+          { spanish: 'acaso', russian: 'разве, неужели, может быть' },
+          { spanish: 'que', russian: 'пусть, чтобы (союз)' },
+          { spanish: '¡Viva!', russian: 'Да здравствует!' },
+          { spanish: 'bendecir', russian: 'благословлять' },
+          { spanish: 'pasar', russian: 'проходить, проводить (время)' },
+          { spanish: 'descansar', russian: 'отдыхать' },
+          { spanish: 'la razón', russian: 'правота, причина' },
+          { spanish: 'tener razón', russian: 'быть правым' },
+          { spanish: 'llegar tarde', russian: 'опаздывать' },
+          { spanish: 'ponerse (el abrigo)', russian: 'надевать (пальто)' },
+          { spanish: 'entender', russian: 'понимать' },
+          { spanish: 'el proyecto', russian: 'проект' },
+          { spanish: 'ingresar en', russian: 'поступить в (университет)' },
+          { spanish: 'la universidad', russian: 'университет' },
+          { spanish: 'el aula', russian: 'аудитория' }
+        ]
+      }
+    ],
+    readingText: [],
+    exercises: ['ex-13-3-1', 'ex-13-3-2']
   }
 }
 
@@ -42941,6 +43107,84 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Даже если пойдёт дождь, мы пойдём на прогулку.', correct: 'Aunque llueva, iremos a pasear.', alternatives: ['Aunque llueva, saldremos a pasear.'] },
       { russian: 'Сколько бы он ни извинялся, я его не прощу.', correct: 'Por mucho que se disculpe, no lo perdonaré.', alternatives: ['Por más que se disculpe, no lo perdonaré.'] },
       { russian: 'Кто бы ни позвонил, скажи, что меня нет дома.', correct: 'Quienquiera que llame, di que no estoy en casa.', alternatives: ['Quienquiera que llame, dile que no estoy.'] }
+    ]
+  },
+
+  // Модуль 13 Урок 2 - Упражнение на глаголы "требовать"
+  'ex-13-2-4': {
+    id: 'ex-13-2-4',
+    type: 'fillblank',
+    title: 'Глаголы со значением «требовать»: exigir, reclamar, requerir, demandar',
+    description: 'Заполните пропуски подходящим глаголом в правильной форме. Обратите внимание на различия в значениях: exigir (требовать от кого-либо), reclamar (предъявлять претензии), requerir (нуждаться в), demandar (требовать официально/юридически)',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'El jefe ___ puntualidad a todos los empleados. (требует от всех сотрудников)', correct: 'exige', alternatives: [], explanation: 'exigir — требовать от кого-либо (начальник требует от сотрудников)' },
+      { sentence: 'Los trabajadores ___ mejores condiciones laborales. (предъявляют требования)', correct: 'reclaman', alternatives: [], explanation: 'reclamar — требовать, предъявлять претензии (рабочие требуют улучшения условий)' },
+      { sentence: 'Este proyecto ___ mucha dedicación y tiempo. (нуждается в)', correct: 'requiere', alternatives: [], explanation: 'requerir — требовать, нуждаться в чём-либо (проект требует посвящённости)' },
+      { sentence: 'La empresa ___ una compensación económica por los daños. (требует официально)', correct: 'demanda', alternatives: [], explanation: 'demandar — требовать официально, юридически (компания требует компенсацию)' },
+      { sentence: 'El profesor ___ que los estudiantes entreguen los trabajos a tiempo. (требует от студентов)', correct: 'exige', alternatives: [], explanation: 'exigir — требовать от кого-либо выполнения' },
+      { sentence: 'Los clientes ___ la devolución del dinero por el producto defectuoso. (требуют вернуть)', correct: 'reclaman', alternatives: ['demandan'], explanation: 'reclamar — требовать возврата, предъявлять претензии' },
+      { sentence: 'Aprender un idioma ___ práctica constante. (требует, нуждается в)', correct: 'requiere', alternatives: [], explanation: 'requerir — требовать, нуждаться в чём-либо' },
+      { sentence: 'El sindicato ___ un aumento de salario del 10%. (требует, предъявляет требование)', correct: 'reclama', alternatives: ['demanda'], explanation: 'reclamar/demandar — требовать (профсоюз требует повышения зарплаты)' },
+      { sentence: 'La situación ___ medidas urgentes. (требует, нуждается в)', correct: 'requiere', alternatives: ['demanda'], explanation: 'requerir/demandar — требовать (ситуация требует срочных мер)' },
+      { sentence: 'Los padres ___ respeto de sus hijos. (требуют от детей)', correct: 'exigen', alternatives: [], explanation: 'exigir — требовать от кого-либо (родители требуют от детей)' },
+      { sentence: 'El abogado ___ justicia para su cliente. (требует, добивается)', correct: 'reclama', alternatives: ['demanda', 'exige'], explanation: 'reclamar/demandar — требовать справедливости (адвокат требует справедливости)' },
+      { sentence: 'Este puesto de trabajo ___ experiencia previa de al menos tres años. (требует, нуждается в)', correct: 'requiere', alternatives: ['exige'], explanation: 'requerir/exigir — требовать (должность требует опыта)' },
+      { sentence: 'La víctima ___ una indemnización por los daños sufridos. (требует компенсацию)', correct: 'demanda', alternatives: ['reclama'], explanation: 'demandar/reclamar — требовать компенсацию (юридически)' },
+      { sentence: 'El entrenador ___ máximo esfuerzo de los jugadores. (требует от игроков)', correct: 'exige', alternatives: [], explanation: 'exigir — требовать от кого-либо (тренер требует от игроков)' },
+      { sentence: 'La construcción de este edificio ___ materiales especiales. (нуждается в)', correct: 'requiere', alternatives: [], explanation: 'requerir — требовать, нуждаться в чём-либо (строительство требует материалов)' }
+    ]
+  },
+
+  // Модуль 13 Урок 3 - Упражнение 1
+  'ex-13-3-1': {
+    id: 'ex-13-3-1',
+    type: 'fillblank',
+    title: 'Поставьте глаголы в presente de subjuntivo',
+    description: 'Поставьте глаголы в скобках в presente de subjuntivo и переведите предложения на русский язык',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Elena se siente mal, que ___ en casa. (quedarse)', correct: 'se quede', alternatives: [], explanation: 'Пусть останется дома. (Que + Subjuntivo для приказа/пожелания)' },
+      { sentence: '¡Que todos ___ la verdad! (saber)', correct: 'sepan', alternatives: [], explanation: 'Пусть все знают правду! (Que + Subjuntivo для пожелания)' },
+      { sentence: 'Tal vez no ___ a mi sobrino. (conocer, usted)', correct: 'conozca', alternatives: [], explanation: 'Может быть, вы не знаете моего племянника. (Tal vez + Subjuntivo при сомнении)' },
+      { sentence: 'Quizás ella no ___ oírte. (querer)', correct: 'quiera', alternatives: [], explanation: 'Может быть, она не хочет тебя слушать. (Quizás + Subjuntivo при сомнении)' },
+      { sentence: 'Ojalá no ___ el avión. (perder, él)', correct: 'pierda', alternatives: [], explanation: 'Хоть бы он не опоздал на самолёт. (Ojalá + Subjuntivo для пожелания)' },
+      { sentence: '¡Que ___ un buen viaje! (tener, ustedes)', correct: 'tengan', alternatives: [], explanation: 'Хорошей вам поездки! (Que + Subjuntivo для пожелания)' },
+      { sentence: 'Quizás ___ mañana. (llover)', correct: 'llueva', alternatives: [], explanation: 'Может быть, завтра пойдёт дождь. (Quizás + Subjuntivo)' },
+      { sentence: '¡Ojalá ___ el examen! (aprobar, tú)', correct: 'apruebes', alternatives: [], explanation: 'Хоть бы ты сдал экзамен! (Ojalá + Subjuntivo)' },
+      { sentence: 'Tal vez no ___ tiempo. (tener, ellos)', correct: 'tengan', alternatives: [], explanation: 'Может быть, у них нет времени. (Tal vez + Subjuntivo)' },
+      { sentence: '¡Que ___ bien! (dormir, vosotros)', correct: 'durmáis', alternatives: [], explanation: 'Спокойной ночи! (букв. Пусть хорошо спите!) (Que + Subjuntivo)' },
+      { sentence: 'Posiblemente no ___ venir. (poder, él)', correct: 'pueda', alternatives: [], explanation: 'Возможно, он не сможет прийти. (Posiblemente + Subjuntivo)' },
+      { sentence: '¡Ojalá todo ___ bien! (salir)', correct: 'salga', alternatives: [], explanation: 'Хоть бы всё прошло хорошо! (Ojalá + Subjuntivo)' },
+      { sentence: 'Quizás ___ razón. (tener, tú)', correct: 'tengas', alternatives: [], explanation: 'Может быть, ты прав. (Quizás + Subjuntivo при сомнении)' },
+      { sentence: '¡Que ___ pronto! (recuperarse, ella)', correct: 'se recupere', alternatives: [], explanation: 'Пусть она скорее выздоравливает! (Que + Subjuntivo)' },
+      { sentence: 'Probablemente no ___ la respuesta. (saber, ellos)', correct: 'sepan', alternatives: [], explanation: 'Вероятно, они не знают ответа. (Probablemente + Subjuntivo)' }
+    ]
+  },
+
+  // Модуль 13 Урок 3 - Упражнение 2
+  'ex-13-3-2': {
+    id: 'ex-13-3-2',
+    type: 'translation',
+    title: 'Переведите на испанский язык',
+    description: 'Переведите предложения, используя конструкции с Subjuntivo в независимых предложениях',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Хоть бы родители были сейчас дома.', correct: '¡Ojalá los padres estén ahora en casa!', alternatives: ['¡Ojalá mis padres estén en casa ahora!'] },
+      { russian: 'Пусть он наденет пальто, на улице холодно.', correct: 'Que se ponga el abrigo, hace frío fuera.', alternatives: ['Que él se ponga el abrigo, hace frío afuera.'] },
+      { russian: 'Возможно, он не понимает то, что я ему говорю.', correct: 'Quizás no entienda lo que le digo.', alternatives: ['Tal vez no entienda lo que le digo.', 'Posiblemente no entienda lo que le digo.'] },
+      { russian: 'Может быть, они еще ничего не знают о нашем проекте.', correct: 'Quizás todavía no sepan nada de nuestro proyecto.', alternatives: ['Tal vez aún no sepan nada de nuestro proyecto.'] },
+      { russian: 'Хоть бы они пришли вовремя и принесли деньги.', correct: '¡Ojalá vengan a tiempo y traigan el dinero!', alternatives: ['¡Ojalá lleguen a tiempo y traigan el dinero!'] },
+      { russian: 'Хоть бы мой брат на следующий год поступил в университет.', correct: '¡Ojalá mi hermano ingrese en la universidad el año que viene!', alternatives: ['¡Ojalá mi hermano entre en la universidad el próximo año!'] },
+      { russian: 'Может быть, он студент, и возможно, он учится в другом ВУЗе.', correct: 'Quizás sea estudiante y posiblemente estudie en otra universidad.', alternatives: ['Tal vez sea estudiante y quizás estudie en otra universidad.'] },
+      { russian: 'Пусть все выйдут из аудитории.', correct: '¡Que todos salgan del aula!', alternatives: ['¡Que salgan todos del aula!'] },
+      { russian: 'Если все придут, может быть я вам объясню грамматику этого урока еще раз.', correct: 'Si todos vienen, quizás les explique la gramática de esta lección otra vez.', alternatives: ['Si todos vienen, tal vez os explique la gramática de esta lección otra vez.'] },
+      { russian: 'Пусть Хорхе переводит статью, а Мигель исправляет ошибки.', correct: 'Que Jorge traduzca el artículo y Miguel corrija los errores.', alternatives: ['Que traduzca Jorge el artículo y que Miguel corrija los errores.'] },
+      { russian: 'Хоть бы не было дождя завтра!', correct: '¡Ojalá no llueva mañana!', alternatives: ['¡Ojalá mañana no llueva!'] },
+      { russian: 'Может быть, она уже знает эту новость.', correct: 'Quizás ya sepa esta noticia.', alternatives: ['Tal vez ya sepa esta noticia.'] },
+      { russian: 'Пусть войдут следующие кандидаты.', correct: '¡Que pasen los siguientes candidatos!', alternatives: ['¡Que entren los siguientes candidatos!'] },
+      { russian: 'Хоть бы у нас было больше времени!', correct: '¡Ojalá tengamos más tiempo!', alternatives: ['¡Ojalá tuviéramos más tiempo!'] },
+      { russian: 'Возможно, они не хотят с нами разговаривать.', correct: 'Posiblemente no quieran hablar con nosotros.', alternatives: ['Quizás no quieran hablar con nosotros.', 'Tal vez no quieran hablar con nosotros.'] }
     ]
   }
 }
