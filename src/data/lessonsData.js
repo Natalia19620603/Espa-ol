@@ -18245,26 +18245,26 @@ No puedo decir que tenga amigos, aunque es cierto que mantengo cierta vida socia
       {
         tab: 'Независимые предложения',
         words: [
-          { spanish: 'ojalá', russian: 'хоть бы, дай бог' },
-          { spanish: 'quizá(s)', russian: 'может быть, возможно' },
-          { spanish: 'tal vez', russian: 'может быть, возможно' },
-          { spanish: 'probablemente', russian: 'вероятно' },
-          { spanish: 'posiblemente', russian: 'возможно' },
-          { spanish: 'acaso', russian: 'разве, неужели, может быть' },
-          { spanish: 'que', russian: 'пусть, чтобы (союз)' },
-          { spanish: '¡Viva!', russian: 'Да здравствует!' },
-          { spanish: 'bendecir', russian: 'благословлять' },
-          { spanish: 'pasar', russian: 'проходить, проводить (время)' },
-          { spanish: 'descansar', russian: 'отдыхать' },
-          { spanish: 'la razón', russian: 'правота, причина' },
-          { spanish: 'tener razón', russian: 'быть правым' },
-          { spanish: 'llegar tarde', russian: 'опаздывать' },
-          { spanish: 'ponerse (el abrigo)', russian: 'надевать (пальто)' },
-          { spanish: 'entender', russian: 'понимать' },
-          { spanish: 'el proyecto', russian: 'проект' },
-          { spanish: 'ingresar en', russian: 'поступить в (университет)' },
-          { spanish: 'la universidad', russian: 'университет' },
-          { spanish: 'el aula', russian: 'аудитория' }
+          { word: 'ojalá', translation: 'хоть бы, дай бог' },
+          { word: 'quizá(s)', translation: 'может быть, возможно' },
+          { word: 'tal vez', translation: 'может быть, возможно' },
+          { word: 'probablemente', translation: 'вероятно' },
+          { word: 'posiblemente', translation: 'возможно' },
+          { word: 'acaso', translation: 'разве, неужели, может быть' },
+          { word: 'que', translation: 'пусть, чтобы (союз)' },
+          { word: '¡Viva!', translation: 'Да здравствует!' },
+          { word: 'bendecir', translation: 'благословлять' },
+          { word: 'pasar', translation: 'проходить, проводить (время)' },
+          { word: 'descansar', translation: 'отдыхать' },
+          { word: 'la razón', translation: 'правота, причина' },
+          { word: 'tener razón', translation: 'быть правым' },
+          { word: 'llegar tarde', translation: 'опаздывать' },
+          { word: 'ponerse (el abrigo)', translation: 'надевать (пальто)' },
+          { word: 'entender', translation: 'понимать' },
+          { word: 'el proyecto', translation: 'проект' },
+          { word: 'ingresar en', translation: 'поступить в (университет)' },
+          { word: 'la universidad', translation: 'университет' },
+          { word: 'el aula', translation: 'аудитория' }
         ]
       }
     ],
@@ -18347,106 +18347,78 @@ No puedo decir que tenga amigos, aunque es cierto que mantengo cierta vida socia
       {
         tab: 'Ejemplo de CV',
         title: 'Ejemplo de Currículum Vitae: Sergio Ramírez García',
-        content: `## Sergio Ramírez García
+        content: `SERGIO RAMÍREZ GARCÍA
 
-**Perfil Profesional:** Especialista en Dirección de Empresas con sólida experiencia internacional en el sector farmacéutico. Bilingüe en inglés y con gran capacidad de gestión de cuentas clave.
+Perfil Profesional: Especialista en Dirección de Empresas con sólida experiencia internacional en el sector farmacéutico. Bilingüe en inglés y con gran capacidad de gestión de cuentas clave.
 
----
+FORMACIÓN ACADÉMICA
 
-### Formación Académica
+2003 – 2009: Máster en Dirección y Administración de Empresas (ADE). Universidad Autónoma de Barcelona (UAB).
+2007 – 2008: Prácticas profesionales (6 meses). PSA International, Hamburgo (Alemania). Área: Gestión y Marketing.
+1997 – 2003: Bachillerato. Colegio de los Jesuitas, Barcelona.
 
-| Período | Descripción |
-|---------|-------------|
-| **2003 – 2009** | Máster en Dirección y Administración de Empresas (ADE). Universidad Autónoma de Barcelona (UAB). |
-| **2007 – 2008** | Prácticas profesionales (6 meses). PSA International, Hamburgo (Alemania). Área: Gestión y Marketing. |
-| **1997 – 2003** | Bachillerato. Colegio de los Jesuitas, Barcelona. |
+EXPERIENCIA PROFESIONAL
 
----
+2011 – 2013: Area Manager
+PSA Internacional (División Farmacéutica)
+- Gestión integral de ventas y distribución de cuentas clave.
+- Relación directa con clientes y reporte periódico a la central en Alemania.
 
-### Experiencia Profesional
+2009 – 2011: Asistente del Director Comercial
+PSA Internacional
+- Apoyo en la coordinación del departamento de ventas y desarrollo de mercado.
 
-**2011 – 2013: Area Manager**
-*PSA Internacional (División Farmacéutica)*
-• Gestión integral de ventas y distribución de cuentas clave.
-• Relación directa con clientes y reporte periódico a la central en Alemania.
+IDIOMAS
 
-**2009 – 2011: Asistente del Director Comercial**
-*PSA Internacional*
-• Apoyo en la coordinación del departamento de ventas y desarrollo de mercado.
+Castellano: Nativo.
+Inglés: Nivel C1 (Avanzado). Formación bilingüe (residencia en Liverpool 1992-1997).
+Alemán: Nivel B1 (Intermedio).
 
----
-
-### Idiomas
-
-| Idioma | Nivel |
-|--------|-------|
-| **Castellano** | Nativo |
-| **Inglés** | Nivel C1 (Avanzado). Formación bilingüe (residencia en Liverpool 1992-1997). |
-| **Alemán** | Nivel B1 (Intermedio) |
-
----
-
-### Competencias Digitales
+COMPETENCIAS DIGITALES
 
 Dominio de software contable, gestión de bases de datos y herramientas de ofimática (Tratamiento de textos, Excel).
 
----
+OTROS DATOS DE INTERÉS
 
-### Otros Datos de Interés
+Carné de conducir: Categoría B.
+Actividades: Monitor de campamentos deportivos (Equipo de fútbol Pompas).
+Intereses: Colaborador habitual en la revista Barrio (artículos de costumbres) y miembro del coro Averroes desde hace 10 años.`,
+        translation: `СЕРХИО РАМИРЕС ГАРСИЯ
 
-• **Carné de conducir:** Categoría B.
-• **Actividades:** Monitor de campamentos deportivos (Equipo de fútbol Pompas).
-• **Intereses:** Colaborador habitual en la revista *Barrio* (artículos de costumbres) y miembro del coro Averroes desde hace 10 años.`,
-        translation: `## Серхио Рамирес Гарсия
+Профессиональный профиль: Специалист по управлению предприятиями с солидным международным опытом в фармацевтическом секторе. Двуязычный (английский) с высокими навыками управления ключевыми клиентами.
 
-**Профессиональный профиль:** Специалист по управлению предприятиями с солидным международным опытом в фармацевтическом секторе. Двуязычный (английский) с высокими навыками управления ключевыми клиентами.
+ОБРАЗОВАНИЕ
 
----
+2003 – 2009: Магистратура по управлению и администрированию предприятий (ADE). Автономный университет Барселоны (UAB).
+2007 – 2008: Профессиональная практика (6 месяцев). PSA International, Гамбург (Германия). Направление: Управление и маркетинг.
+1997 – 2003: Бакалавриат. Колледж иезуитов, Барселона.
 
-### Образование
+ПРОФЕССИОНАЛЬНЫЙ ОПЫТ
 
-| Период | Описание |
-|--------|----------|
-| **2003 – 2009** | Магистратура по управлению и администрированию предприятий (ADE). Автономный университет Барселоны (UAB). |
-| **2007 – 2008** | Профессиональная практика (6 месяцев). PSA International, Гамбург (Германия). Направление: Управление и маркетинг. |
-| **1997 – 2003** | Бакалавриат. Колледж иезуитов, Барселона. |
+2011 – 2013: Региональный менеджер
+PSA Internacional (Фармацевтическое подразделение)
+- Комплексное управление продажами и дистрибуцией ключевых клиентов.
+- Прямое взаимодействие с клиентами и периодическая отчётность в головной офис в Германии.
 
----
+2009 – 2011: Ассистент коммерческого директора
+PSA Internacional
+- Поддержка в координации отдела продаж и развитии рынка.
 
-### Профессиональный опыт
+ЯЗЫКИ
 
-**2011 – 2013: Региональный менеджер**
-*PSA Internacional (Фармацевтическое подразделение)*
-• Комплексное управление продажами и дистрибуцией ключевых клиентов.
-• Прямое взаимодействие с клиентами и периодическая отчётность в головной офис в Германии.
+Испанский: Родной.
+Английский: Уровень C1 (Продвинутый). Двуязычное образование (проживание в Ливерпуле 1992-1997).
+Немецкий: Уровень B1 (Средний).
 
-**2009 – 2011: Ассистент коммерческого директора**
-*PSA Internacional*
-• Поддержка в координации отдела продаж и развитии рынка.
-
----
-
-### Языки
-
-| Язык | Уровень |
-|------|---------|
-| **Испанский** | Родной |
-| **Английский** | Уровень C1 (Продвинутый). Двуязычное образование (проживание в Ливерпуле 1992-1997). |
-| **Немецкий** | Уровень B1 (Средний) |
-
----
-
-### Цифровые компетенции
+ЦИФРОВЫЕ КОМПЕТЕНЦИИ
 
 Владение бухгалтерским программным обеспечением, управление базами данных и офисными инструментами (текстовые редакторы, Excel).
 
----
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
 
-### Дополнительная информация
-
-• **Водительское удостоверение:** Категория B.
-• **Деятельность:** Инструктор спортивных лагерей (Футбольная команда Pompas).
-• **Интересы:** Постоянный автор журнала *Barrio* (статьи о традициях) и участник хора Averroes на протяжении 10 лет.`,
+Водительское удостоверение: Категория B.
+Деятельность: Инструктор спортивных лагерей (Футбольная команда Pompas).
+Интересы: Постоянный автор журнала Barrio (статьи о традициях) и участник хора Averroes на протяжении 10 лет.`,
         audioUrl: null
       }
     ],
