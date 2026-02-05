@@ -6590,6 +6590,18 @@ Luis: Perdón por no ayudar.
 Ana: No se preocupe. ¡Adiós!`
       }
     ],
+    videos: [
+      {
+        title: 'Esta es Barcelona',
+        url: '/video/Esta es Barcelona. M4C2.mp4',
+        description: 'Видео о Барселоне'
+      },
+      {
+        title: 'En mi barrio hay',
+        url: '/video/En mi barrio hay M4C2.mp4',
+        description: 'Видео о районе'
+      }
+    ],
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
   },
 
