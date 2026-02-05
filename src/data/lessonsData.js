@@ -4233,6 +4233,10 @@ María: ¡Vamos!`,
       {
         tab: '4',
         videoUrl: '/audio/A1-U4-clase2-ej.2.mp4'
+      },
+      {
+        tab: 'Casa, chalets entrevista',
+        videoUrl: '/video/Casa, chalets entrevista M3C2.mp4'
       }
     ],
     grammar: {
@@ -6259,6 +6263,12 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
     id: 'lesson-4-2',
     title: 'Урок 2: ГОРОД. Наречия, Числительные и Глаголы',
     moduleId: 'module-4',
+    videoTabs: [
+      {
+        tab: 'Ciudades grandes y pequeñas',
+        videoUrl: '/video/Ciudades grandes y pequñas M4C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Наречия, Числительные и Глаголы',
       intro: `В этом уроке мы изучим наречия (как они образуются и сравниваются), количественные и порядковые числительные (от 100 до 1 000 000), а также различия между важными глаголами обучения и предложения.`,
@@ -7951,6 +7961,12 @@ Ana: Yo también. Será un viaje inolvidable.
     id: 'lesson-5-3',
     title: 'Урок 3: Упражнения на повторение модулей 1-5',
     moduleId: 'module-5',
+    videoTabs: [
+      {
+        tab: 'Conversación en la cafetería vacaciones',
+        videoUrl: '/video/Conversasión en la cafetería vacaciones M5C3.mp4'
+      }
+    ],
     exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-18', 'ex-5-3-4', 'ex-5-3-5', 'ex-5-3-6', 'ex-5-3-7', 'ex-5-3-8', 'ex-5-3-9', 'ex-5-3-10', 'ex-5-3-11', 'ex-5-3-12', 'ex-5-3-13', 'ex-5-3-14', 'ex-5-3-15', 'ex-5-3-16', 'ex-5-3-17', 'ex-5-3-3']
   },
 
@@ -8681,6 +8697,10 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'El refrigerador',
         videoUrl: '/video/El refrigerador  M7C1.mp4'
+      },
+      {
+        tab: 'Comemos fuera',
+        videoUrl: '/video/Comemos fuera M7C1.mp4'
       }
     ],
     vocabulary: [
