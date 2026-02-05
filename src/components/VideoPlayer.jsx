@@ -3,6 +3,9 @@ import styles from './VideoPlayer.module.css'
 
 // Функция для определения типа видео и получения embed URL для YouTube
 function getVideoInfo(url) {
+  if (!url) {
+    return { type: 'local', embedUrl: '', originalUrl: '' }
+  }
   // Проверка на YouTube URL
   const youtubeRegex = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/
   const match = url.match(youtubeRegex)

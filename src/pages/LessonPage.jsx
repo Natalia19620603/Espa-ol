@@ -263,12 +263,12 @@ function LessonPage() {
             📖 Чтение
           </button>
         )}
-        {(lesson.videoUrl || lesson.videoTabs || lesson.audioUrl || lesson.audioTabs) && (
+        {(lesson.videoUrl || lesson.videoTabs || lesson.videos || lesson.audioUrl || lesson.audioTabs) && (
           <button
             className={`${styles.tab} ${activeTab === 'video' ? styles.activeTab : ''}`}
             onClick={() => setActiveTab('video')}
           >
-            🎬 {lesson.videoTabs || lesson.videoUrl ? 'ВИДЕО' : 'АУДИО'}
+            🎬 {lesson.videoTabs || lesson.videoUrl || lesson.videos ? 'ВИДЕО' : 'АУДИО'}
           </button>
         )}
         {lesson.dialogues && lesson.dialogues.length > 0 && (
@@ -507,9 +507,9 @@ function LessonPage() {
           </div>
         )}
 
-        {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.audioUrl || lesson.audioTabs) && (
+        {activeTab === 'video' && (lesson.videoUrl || lesson.videoTabs || lesson.videos || lesson.audioUrl || lesson.audioTabs) && (
           <div className={styles.videoSection}>
-            <h2 className={styles.sectionTitle}>{lesson.videoTabs || lesson.videoUrl ? 'ВИДЕО' : 'АУДИО'}</h2>
+            <h2 className={styles.sectionTitle}>{lesson.videoTabs || lesson.videoUrl || lesson.videos ? 'ВИДЕО' : 'АУДИО'}</h2>
             {!canPlayMP4 && (
               <div style={{
                 padding: '15px',
@@ -738,6 +738,51 @@ function LessonPage() {
                         </div>
                       </div>
                     )}
+                  </div>
+                )
+              } else if (Array.isArray(lesson.videos) && lesson.videos.length > 0) {
+                // Render videos from videos array format (title, url, description)
+                return (
+                  <div>
+                    {lesson.videos.length > 1 && (
+                      <div className={styles.exerciseTabs} style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '8px',
+                        overflowX: 'auto',
+                        maxWidth: '100%'
+                      }}>
+                        {lesson.videos.map((video, index) => (
+                          <button
+                            key={index}
+                            className={`${styles.exerciseTab} ${activeVideoTab === index ? styles.activeExerciseTab : ''}`}
+                            onClick={() => setActiveVideoTab(index)}
+                            style={{
+                              flex: '0 0 auto',
+                              minWidth: 'fit-content',
+                              whiteSpace: 'nowrap'
+                            }}
+                          >
+                            {video.title || `Видео ${index + 1}`}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                    <div className={styles.videoContainer} style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
+                      {lesson.videos[activeVideoTab]?.url && !videoError && (
+                        <VideoPlayer
+                          key={activeVideoTab}
+                          videoUrl={lesson.videos[activeVideoTab].url}
+                          title={lesson.videos[activeVideoTab].title || ''}
+                          subtitles={[]}
+                        />
+                      )}
+                      {lesson.videos[activeVideoTab]?.description && (
+                        <p style={{ color: '#666', fontSize: '14px', marginTop: '10px' }}>
+                          {lesson.videos[activeVideoTab].description}
+                        </p>
+                      )}
+                    </div>
                   </div>
                 )
               } else if (lesson.audioUrl) {
