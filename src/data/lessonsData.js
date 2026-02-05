@@ -6590,16 +6590,14 @@ Luis: Perdón por no ayudar.
 Ana: No se preocupe. ¡Adiós!`
       }
     ],
-    videos: [
+    videoTabs: [
       {
-        title: 'Esta es Barcelona',
-        url: '/video/Esta es Barcelona. M4C2.mp4',
-        description: 'Видео о Барселоне'
+        tab: 'Esta es Barcelona',
+        videoUrl: '/video/Esta es Barcelona. M4C2.mp4'
       },
       {
-        title: 'En mi barrio hay',
-        url: '/video/En mi barrio hay M4C2.mp4',
-        description: 'Видео о районе'
+        tab: 'En mi barrio hay',
+        videoUrl: '/video/En mi barrio hay M4C2.mp4'
       }
     ],
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
@@ -16952,11 +16950,10 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
         ]
       }
     ],
-    videos: [
+    videoTabs: [
       {
-        title: 'Imperfecto de subjuntivo',
-        url: 'Imperfecto de subjuntivo M12C1.mp4',
-        description: 'Видеоурок об Imperfecto de Subjuntivo — простое прошедшее время сослагательного наклонения'
+        tab: 'Imperfecto de subjuntivo',
+        videoUrl: '/video/Imperfecto de subjuntivo M12C1.mp4'
       }
     ],
     exercises: ['ex-12-1-1', 'ex-12-1-2', 'ex-12-1-3', 'ex-12-1-4', 'ex-12-1-5', 'ex-12-1-6', 'ex-12-1-translation']
