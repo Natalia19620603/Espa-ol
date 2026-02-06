@@ -8769,6 +8769,18 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'Pedir en el restaurante 1,2 postre',
         videoUrl: '/video/Pedir en el restaurante 1,2 postre M7C1.mp4'
+      },
+      {
+        tab: 'Qué pedimos en el restaurante',
+        videoUrl: '/video/Que pedimos en el restaurante M7C1.mp4'
+      },
+      {
+        tab: 'Paseo por Madrid',
+        videoUrl: '/video/PASEO POR MADRID M7C1.mp4'
+      },
+      {
+        tab: 'Viajando por España',
+        videoUrl: '/video/Viajando por España M7C1.mp4'
       }
     ],
     vocabulary: [
