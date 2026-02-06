@@ -8051,6 +8051,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Qué hiciste ayer',
         videoUrl: '/Qué hiciste ayer M6C1.mp4'
+      },
+      {
+        tab: 'El fin de semana pasado visité Madrid',
+        videoUrl: '/video/EL FIN DE SEMANA PASADO VISITÉ MADRID M6C1.mp4'
       }
     ],
     grammar: {
@@ -8749,6 +8753,22 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'Comemos fuera',
         videoUrl: '/video/Comemos fuera M7C1.mp4'
+      },
+      {
+        tab: 'Comer en un restaurante',
+        videoUrl: '/video/Comer en un restaurante M7C1.mp4'
+      },
+      {
+        tab: 'Diálogo cómico en el restaurante',
+        videoUrl: '/video/Dialogo cómico en el restaurante M7C1.mp4'
+      },
+      {
+        tab: 'En el restaurante 2 chicas',
+        videoUrl: '/video/En el restaurante 2 chicas M7C1.mp4'
+      },
+      {
+        tab: 'Pedir en el restaurante 1,2 postre',
+        videoUrl: '/video/Pedir en el restaurante 1,2 postre M7C1.mp4'
       }
     ],
     vocabulary: [
