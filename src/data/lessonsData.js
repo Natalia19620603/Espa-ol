@@ -1104,6 +1104,10 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       {
         tab: '9',
         videoUrl: '/Comprensión auditiva, ej.7 (A1U1Cl1).mp4'
+      },
+      {
+        tab: 'Presentación',
+        videoUrl: '/video/Presentación M1C3.mp4'
       }
     ],
     grammar: {
@@ -2694,6 +2698,10 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       {
         tab: 'Chico simpatico',
         videoUrl: '/video/Chico simpatico M2C2.mp4'
+      },
+      {
+        tab: 'Describir caracter',
+        videoUrl: '/video/Describir caracter M2C2.mp4'
       }
     ],
     grammar: {
@@ -5695,6 +5703,10 @@ María: ¡Vamos!`,
       {
         tab: 'Qué hacen madrileños el fin de semana',
         videoUrl: '/video/Que hacen madrileños el fin de semana M4C1.mp4'
+      },
+      {
+        tab: 'Estar más gerundio casa',
+        videoUrl: '/video/Estar mas gerundio casa M4C1.mp4'
       }
     ],
     grammar: {
