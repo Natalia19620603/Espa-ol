@@ -12627,12 +12627,6 @@ Su médico le dio estos consejos:
 Martín sigue todos estos consejos porque sabe que para ser un buen deportista, necesita estar sano. Como dice su entrenador: "Un atleta sano es un atleta exitoso".`,
       translation: 'Здоровая и спортивная жизнь. Мартин - профессиональный спортсмен. Каждый день он тренируется несколько часов, но также очень заботится о своем здоровье...'
     },
-    videoTabs: [
-      {
-        tab: 'Cita en el dentista',
-        videoUrl: '/video/Cita en el dentista М10С4.mp4'
-      }
-    ],
     exercises: ['ex-10-4-1', 'ex-10-4-2', 'ex-10-4-3', 'ex-10-4-4', 'ex-10-4-5']
   },
 
