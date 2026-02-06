@@ -6618,6 +6618,14 @@ Ana: No se preocupe. ¡Adiós!`
       {
         tab: 'Ciudades grandes y pequeñas',
         videoUrl: '/video/Ciudades grandes y pequñas M4C2.mp4'
+      },
+      {
+        tab: 'Granada',
+        videoUrl: '/video/Granada M4C2.mp4'
+      },
+      {
+        tab: 'Paseo por la ciudad mi barrio',
+        videoUrl: '/video/Paseo por la ciudad mi barrio M4C2.mp4'
       }
     ],
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
@@ -6627,6 +6635,12 @@ Ana: No se preocupe. ¡Adiós!`
     id: 'lesson-4-3',
     title: 'Урок 3: ГОРОДСКОЙ ТРАНСПОРТ. Степени сравнения прилагательных. Предложные формы местоимений-дополнений',
     moduleId: 'module-4',
+    videoTabs: [
+      {
+        tab: 'Mas mejor comparativos',
+        videoUrl: '/video/Mas mejor comparativos M4C3.mp4'
+      }
+    ],
     grammar: {
       title: 'Степени сравнения прилагательных. Предложные формы местоимений-дополнений',
       intro: `В этом уроке мы изучим степени сравнения прилагательных, предложные формы местоимений.`,
