@@ -8465,6 +8465,14 @@ La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida 
       {
         tab: 'Por el camino M6C3',
         videoUrl: '/video/Por el camino M6C3.mp4'
+      },
+      {
+        tab: 'Antes y ahora',
+        videoUrl: '/video/Antes y ahora M6C3.mp4'
+      },
+      {
+        tab: 'Cuando era pequeña',
+        videoUrl: '/video/Cuando era pequeña M6C3.mp4'
       }
     ],
     grammar: {
