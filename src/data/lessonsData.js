@@ -6639,6 +6639,14 @@ Ana: No se preocupe. ¡Adiós!`
       {
         tab: 'Mas mejor comparativos',
         videoUrl: '/video/Mas mejor comparativos M4C3.mp4'
+      },
+      {
+        tab: 'Transporte Barcelona',
+        videoUrl: '/video/Transporte Barcelona M4C3.mp4'
+      },
+      {
+        tab: 'Transporte Madrid',
+        videoUrl: '/video/Transporte Madrid M4C3.mp4'
       }
     ],
     grammar: {
@@ -7989,6 +7997,14 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Conversación en la cafetería vacaciones',
         videoUrl: '/video/Conversasión en la cafetería vacaciones M5C3.mp4'
+      },
+      {
+        tab: 'Reserva del Parador',
+        videoUrl: '/video/Reserva del Parador M5C3.mp4'
+      },
+      {
+        tab: 'Reserva en el Parador 2',
+        videoUrl: '/video/RESERVA EN EL PARADOR 2 M5C3.mp4'
       }
     ],
     exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-18', 'ex-5-3-4', 'ex-5-3-5', 'ex-5-3-6', 'ex-5-3-7', 'ex-5-3-8', 'ex-5-3-9', 'ex-5-3-10', 'ex-5-3-11', 'ex-5-3-12', 'ex-5-3-13', 'ex-5-3-14', 'ex-5-3-15', 'ex-5-3-16', 'ex-5-3-17', 'ex-5-3-3']
