@@ -8051,6 +8051,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Qué hiciste ayer',
         videoUrl: '/Qué hiciste ayer M6C1.mp4'
+      },
+      {
+        tab: 'El fin de semana pasado visité Madrid',
+        videoUrl: '/video/EL FIN DE SEMANA PASADO VISITÉ MADRID M6C1.mp4'
       }
     ],
     grammar: {
@@ -8465,6 +8469,14 @@ La moraleja es que la indecisión es una decisión. Cada vez que dudas, la vida 
       {
         tab: 'Por el camino M6C3',
         videoUrl: '/video/Por el camino M6C3.mp4'
+      },
+      {
+        tab: 'Antes y ahora',
+        videoUrl: '/video/Antes y ahora M6C3.mp4'
+      },
+      {
+        tab: 'Cuando era pequeña',
+        videoUrl: '/video/Cuando era pequeña M6C3.mp4'
       }
     ],
     grammar: {
@@ -8741,6 +8753,34 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'Comemos fuera',
         videoUrl: '/video/Comemos fuera M7C1.mp4'
+      },
+      {
+        tab: 'Comer en un restaurante',
+        videoUrl: '/video/Comer en un restaurante M7C1.mp4'
+      },
+      {
+        tab: 'Diálogo cómico en el restaurante',
+        videoUrl: '/video/Dialogo cómico en el restaurante M7C1.mp4'
+      },
+      {
+        tab: 'En el restaurante 2 chicas',
+        videoUrl: '/video/En el restaurante 2 chicas M7C1.mp4'
+      },
+      {
+        tab: 'Pedir en el restaurante 1,2 postre',
+        videoUrl: '/video/Pedir en el restaurante 1,2 postre M7C1.mp4'
+      },
+      {
+        tab: 'Qué pedimos en el restaurante',
+        videoUrl: '/video/Que pedimos en el restaurante M7C1.mp4'
+      },
+      {
+        tab: 'Paseo por Madrid',
+        videoUrl: '/video/PASEO POR MADRID M7C1.mp4'
+      },
+      {
+        tab: 'Viajando por España',
+        videoUrl: '/video/Viajando por España M7C1.mp4'
       }
     ],
     vocabulary: [
@@ -9190,6 +9230,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
         id: 'video-suerte-siempre-hay',
         tab: 'Suerte siempre hay',
         videoUrl: '/video/Suerte siempre hay.mp4'
+      },
+      {
+        tab: 'Un hotel que sea céntrico',
+        videoUrl: '/video/Un hotel que sea céntrico M11 C1.mp4'
       }
     ],
     grammar: {
@@ -10597,6 +10641,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Ojo del Inca',
         videoUrl: '/video/Ojo del Inca M8C3.mp4'
+      },
+      {
+        tab: 'Practicamos imperfecto en la playa',
+        videoUrl: '/video/Practicamos imperfecto en la playa M8C3.mp4'
       }
     ],
     grammar: {
@@ -11066,6 +11114,14 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Viaje a Egipto',
         videoUrl: '/video/Viajes Egipto.mp4'
+      },
+      {
+        tab: 'Receta imperativo',
+        videoUrl: '/video/Receta imperativo M10C4.mp4'
+      },
+      {
+        tab: 'Un día en el parque',
+        videoUrl: '/video/Un día en el parque M8C4.mp4'
       }
     ],
     grammar: {
@@ -12148,6 +12204,10 @@ Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que
       {
         tab: 'Nunca digas no puedo',
         videoUrl: '/video/Nunca digas no puedo.mp4'
+      },
+      {
+        tab: 'Te encuentras bien',
+        videoUrl: '/video/Te encuentras bien M10C3.mp4'
       }
     ],
     grammar: {
@@ -12407,6 +12467,10 @@ Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que
       {
         tab: 'Cita en el dentista',
         videoUrl: '/video/Cita en el dentista М10С4.mp4'
+      },
+      {
+        tab: 'Receta imperativo',
+        videoUrl: '/video/Receta imperativo M10C4.mp4'
       }
     ],
     grammar: {
