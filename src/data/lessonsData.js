@@ -6263,12 +6263,6 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
     id: 'lesson-4-2',
     title: 'Урок 2: ГОРОД. Наречия, Числительные и Глаголы',
     moduleId: 'module-4',
-    videoTabs: [
-      {
-        tab: 'Ciudades grandes y pequeñas',
-        videoUrl: '/video/Ciudades grandes y pequñas M4C2.mp4'
-      }
-    ],
     grammar: {
       title: 'Наречия, Числительные и Глаголы',
       intro: `В этом уроке мы изучим наречия (как они образуются и сравниваются), количественные и порядковые числительные (от 100 до 1 000 000), а также различия между важными глаголами обучения и предложения.`,
@@ -6608,6 +6602,10 @@ Ana: No se preocupe. ¡Adiós!`
       {
         tab: 'En mi barrio hay',
         videoUrl: '/video/En mi barrio hay M4C2.mp4'
+      },
+      {
+        tab: 'Ciudades grandes y pequeñas',
+        videoUrl: '/video/Ciudades grandes y pequñas M4C2.mp4'
       }
     ],
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
