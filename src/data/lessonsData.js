@@ -8909,12 +8909,6 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     id: 'lesson-7-2',
     title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
     moduleId: 'module-7',
-    videoTabs: [
-      {
-        tab: 'Por qué se grita tanto',
-        videoUrl: '/video/Por qué se grita tanto.mp4'
-      }
-    ],
     vocabulary: [
       { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
       { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
@@ -9051,7 +9045,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
     exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5'],
     videoTabs: [
       {
-        id: 'video-restaurante-cocina-cerrada',
+        tab: 'Por qué se grita tanto',
+        videoUrl: '/video/Por qué se grita tanto.mp4'
+      },
+      {
         tab: 'En el restaurante con cocina cerrada',
         videoUrl: '/video/En el restaurante con cocina cerrada.mp4'
       }
@@ -12627,12 +12624,6 @@ Su médico le dio estos consejos:
 Martín sigue todos estos consejos porque sabe que para ser un buen deportista, necesita estar sano. Como dice su entrenador: "Un atleta sano es un atleta exitoso".`,
       translation: 'Здоровая и спортивная жизнь. Мартин - профессиональный спортсмен. Каждый день он тренируется несколько часов, но также очень заботится о своем здоровье...'
     },
-    videoTabs: [
-      {
-        tab: 'Cita en el dentista',
-        videoUrl: '/video/Cita en el dentista М10С4.mp4'
-      }
-    ],
     exercises: ['ex-10-4-1', 'ex-10-4-2', 'ex-10-4-3', 'ex-10-4-4', 'ex-10-4-5']
   },
 
