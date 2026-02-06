@@ -9230,6 +9230,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
         id: 'video-suerte-siempre-hay',
         tab: 'Suerte siempre hay',
         videoUrl: '/video/Suerte siempre hay.mp4'
+      },
+      {
+        tab: 'Un hotel que sea céntrico',
+        videoUrl: '/video/Un hotel que sea céntrico M11 C1.mp4'
       }
     ],
     grammar: {
@@ -10637,6 +10641,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Ojo del Inca',
         videoUrl: '/video/Ojo del Inca M8C3.mp4'
+      },
+      {
+        tab: 'Practicamos imperfecto en la playa',
+        videoUrl: '/video/Practicamos imperfecto en la playa M8C3.mp4'
       }
     ],
     grammar: {
@@ -11106,6 +11114,14 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Viaje a Egipto',
         videoUrl: '/video/Viajes Egipto.mp4'
+      },
+      {
+        tab: 'Receta imperativo',
+        videoUrl: '/video/Receta imperativo M10C4.mp4'
+      },
+      {
+        tab: 'Un día en el parque',
+        videoUrl: '/video/Un día en el parque M8C4.mp4'
       }
     ],
     grammar: {
@@ -12188,6 +12204,10 @@ Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que
       {
         tab: 'Nunca digas no puedo',
         videoUrl: '/video/Nunca digas no puedo.mp4'
+      },
+      {
+        tab: 'Te encuentras bien',
+        videoUrl: '/video/Te encuentras bien M10C3.mp4'
       }
     ],
     grammar: {
@@ -12447,6 +12467,10 @@ Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que
       {
         tab: 'Cita en el dentista',
         videoUrl: '/video/Cita en el dentista М10С4.mp4'
+      },
+      {
+        tab: 'Receta imperativo',
+        videoUrl: '/video/Receta imperativo M10C4.mp4'
       }
     ],
     grammar: {
