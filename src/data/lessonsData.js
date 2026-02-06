@@ -8909,12 +8909,6 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     id: 'lesson-7-2',
     title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
     moduleId: 'module-7',
-    videoTabs: [
-      {
-        tab: 'Por qué se grita tanto',
-        videoUrl: '/video/Por qué se grita tanto.mp4'
-      }
-    ],
     vocabulary: [
       { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
       { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
@@ -9051,7 +9045,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
     exercises: ['ex-7-2-1', 'ex-7-2-2', 'ex-7-2-3', 'ex-7-2-4', 'ex-7-2-5'],
     videoTabs: [
       {
-        id: 'video-restaurante-cocina-cerrada',
+        tab: 'Por qué se grita tanto',
+        videoUrl: '/video/Por qué se grita tanto.mp4'
+      },
+      {
         tab: 'En el restaurante con cocina cerrada',
         videoUrl: '/video/En el restaurante con cocina cerrada.mp4'
       }
