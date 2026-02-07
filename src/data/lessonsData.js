@@ -15120,6 +15120,35 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
           { word: 'reivindicar', translation: 'претендовать, отстаивать' },
           { word: 'evitar', translation: 'предотвращать, избегать' }
         ]
+      },
+      {
+        tab: 'Por qué el salmón es gris',
+        words: [
+          { word: 'el rubor', translation: 'румянец' },
+          { word: 'la intervención', translation: 'вмешательство, интервенция' },
+          { word: 'estético', translation: 'эстетичный' },
+          { word: 'la realeza', translation: 'королевский' },
+          { word: 'fresco', translation: 'свежий, прохладный' },
+          { word: 'celular', translation: 'клеточный, сотовый' },
+          { word: 'la célula', translation: 'клетка (биол.)' },
+          { word: 'despojar', translation: 'лишать, отнимать' },
+          { word: 'plateado', translation: 'серебристый' },
+          { word: 'la alcantarilla', translation: 'канализация' },
+          { word: 'brutalmente', translation: 'жестоко' },
+          { word: 'salvaje', translation: 'дикий, грубый' },
+          { word: 'sudar la gota gorda', translation: 'потеть толстыми каплей пота' },
+          { word: 'asilado', translation: 'в убежище' },
+          { word: 'el asilo', translation: 'приют, дом престарелых' },
+          { word: 'el lienzo', translation: 'полотно, холст' },
+          { word: 'la masilla', translation: 'замазка' },
+          { word: 'pantone de colores', translation: 'палитра цветов' },
+          { word: 'los pellets', translation: 'гранулы' },
+          { word: 'la vanidad', translation: 'тщеславие, самодовольство' },
+          { word: 'el sedentarismo', translation: 'малоподвижный образ жизни' },
+          { word: 'las estrías', translation: 'растяжки, бороздки' },
+          { word: 'el tinte', translation: 'краска' },
+          { word: 'francamente', translation: 'откровенно говоря' }
+        ]
       }
     ],
     readingText: [
@@ -15308,6 +15337,18 @@ Claro, yo ahora a partir de ahora vamos a empezar en cada programa a desglosar p
 
 En esta está bueno. Acá está. Si alguien quiere conocer esto, hay una página ahí realfood.gov con corta porque es de Estados Unidos. Una página hermosa que está explicada bien ahí. Nosotros en el show vamos a ir este explicándola cada viernes. Avanzadme otro más que es el Bueno. Ah, esto quería decir. Sí. Estas guías son del 2015 2020 y ya ahí decían que no limita la ingesta de grasa en la dieta para la obesidad. 2015 20 hace 10 años. Entonces, no era, no es de Trump. Esto ya viene de antes. Y la última. A ver, ¿puedes engañar a todo el mundo algún tiempo? Puedes engañar a algunos todo el tiempo, pero no puedes engañar a todo el mundo todo el tiempo. Lincoln, esto es lo que ha pasado y por suerte la medicina hoy reivindica una forma de comer que nos va a evitar mucho costo y muchas enfermedades. Gracias, doc. Si te gusta el verano.`,
         translation: ''
+      },
+      {
+        tab: 'Por qué el salmón es gris',
+        title: 'Por qué el salmón es gris',
+        content: `Cariño, por favor, ¿a quién pretendes engañar con ese rubor? Ese tono rosa atardecer no engaña a un ojo experto. Eso no es genética, eso es intervención estética agresiva. Mírate, te venden en la vitrina sobre hielo picado como si fueras la realeza de los mares, luciendo ese color vibrante que grita soy saludable, soy fresco, soy premium, pero tú y yo sabemos la verdad. Mi vida, todo eso es maquillaje. Es un filtro de Instagram aplicado a nivel celular. Es una estafa visual de proporciones épicas. Si te quitáramos ese fundación industrial si te despojáramos de tus accesorios químicos, serías gris. Y no hablo de un plateado elegante y sofisticado, hablo de un gris triste, un gris de oficina burocrática en un día nublado, un gris rata de alcantarilla que haría llorar a cualquier diseñador de interiores.
+
+Vamos a ser brutalmente honestos. Tu belleza es de farmacia. No naciste así, te fabricaron así. En la naturaleza, tus primos salvajes, los verdaderos top models del océano, se ganan ese color coral intenso sudando la gota gorda, cazando krill y camarones, absorbiendo hasta real bajo la luz del sol. Ellos tienen ese glow porque viven la vida. Tú vives asilado en una piscina que es básicamente un estudio de grabación de bajo presupuesto, sin espacio para nadar, sin ver un solo camarón en tu vida. Eres pálido por definición. Tu carne es un lienzo en blanco, una hoja de papel aburrida que la industria decidió colorear porque seamos realistas, nadie pagaría una fortuna por un filete que parece masilla para ventanas. El horror estético sería insoportable.
+
+Entonces, ¿qué hacen tus estilistas corporativos? Te medican el color, te dan pastillas, te alimentan con una carta de color pantone. El granjero no elige tu dieta basándose en nutrientes, la elige basándose en un catálogo de pinturas. ¿Qué tono quiere para esta temporada? Salmón 2024, rosa Barbie, naranja atómico? Esos pellets que te lanzan comida, son tu kit de contorno y corrección. Estás ingiriendo tintes sintéticos para que tu carne fingida parezca lo que nunca fue. Es como si alguien se comiera un lápiz labial esperando que sus mejillas se pongan rojas desde adentro. Es la definición absoluta de la vanidad forzada.
+
+Lo más escandaloso es que el consumidor, ese pobre espectador inocente, cree que está comprando salud, cree que está llevando a su mesa un pedazo de naturaleza virgen, cuando en realidad está sirviendo una ilusión óptica. Está masticando una mentira bien diseñada. Eres el equivalente gastronómico del relleno de labios mal puesto. Se ve grande, se ve llamativo, pero en el fondo todos sabemos que algo no encaja, que la textura es sospechosa, que la promesa es falsa. Esa grasa blanca que te cruza no es marmoleado de alta costura, es la evidencia de tu sedentarismo. Son las estrías de alguien que nunca corrió una maratón. Así que no me vengas con esa actitud de soy un superalimento, eres un producto de diseño, eres gris, mi amor. Asúmelo. Sin tu dosis diaria de colorante serías invisible en el mostrador. La próxima vez que alguien te elija pensando que eres la opción fresca, ojalá supieran que no están pagando por pescado, están pagando por el tinte más caro del mundo. Todo es una fachada. Todo es una ilusión estética y francamente el tono se te está corriendo.`,
+        translation: ''
       }
     ],
     exercises: [
@@ -15336,6 +15377,15 @@ En esta está bueno. Acá está. Si alguien quiere conocer esto, hay una página
           { name: 'Понимание текста', exercises: ['ex-17-4-estafa-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-17-4-estafa-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-17-4-estafa-translation'] }
+        ]
+      },
+      {
+        tab: 'Por qué el salmón es gris',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-4-salmon-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-4-salmon-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-17-4-salmon-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-17-4-salmon-translation'] }
         ]
       }
     ]
@@ -28333,6 +28383,102 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       { russian: 'Важно, чтобы медицина признала ошибки, допущенные в прошлом.', correct: 'Es importante que la medicina reconozca los errores cometidos en el pasado.', alternatives: ['Es importante que la medicina admita los errores que se cometieron en el pasado.'] },
       { russian: 'Эксперимент с низким содержанием жиров был полным провалом для здоровья населения.', correct: 'El experimento bajo en grasas fue un fracaso total para la salud de la población.', alternatives: ['El experimento con bajo contenido en grasas fue un completo fracaso para la salud de la población.'] },
       { russian: 'К счастью, сегодняшняя медицина отстаивает здоровый образ питания.', correct: 'Por suerte, la medicina de hoy reivindica una forma de comer saludable.', alternatives: ['Afortunadamente, la medicina actual reivindica una manera de comer saludable.'] }
+    ]
+  },
+
+  'ex-17-4-salmon-vocab': {
+    id: 'ex-17-4-salmon-vocab',
+    type: 'fillblank',
+    title: 'Словарь: Por qué el salmón es gris',
+    description: 'Вставьте пропущенное слово в предложение.',
+    questions: [
+      { sentence: 'Ese tono rosa no engaña a un ojo experto — eso es ___ (вмешательство) estética agresiva.', correct: 'intervención', alternatives: [] },
+      { sentence: 'Te venden en la vitrina como si fueras la ___ (королевский) de los mares.', correct: 'realeza', alternatives: [] },
+      { sentence: 'Tu color vibrante grita: soy saludable, soy ___ (свежий), soy premium.', correct: 'fresco', alternatives: [] },
+      { sentence: 'Es un filtro de Instagram aplicado a nivel ___ (клеточный).', correct: 'celular', alternatives: [] },
+      { sentence: 'Si te ___ (лишать) de tus accesorios químicos, serías gris.', correct: 'despojáramos', alternatives: ['despojaran'] },
+      { sentence: 'No hablo de un ___ (серебристый) elegante y sofisticado.', correct: 'plateado', alternatives: [] },
+      { sentence: 'Hablo de un gris rata de ___ (канализация) que haría llorar.', correct: 'alcantarilla', alternatives: [] },
+      { sentence: 'Vamos a ser ___ (жестоко) honestos: tu belleza es de farmacia.', correct: 'brutalmente', alternatives: [] },
+      { sentence: 'Tus primos ___ (дикий) se ganan ese color coral cazando krill.', correct: 'salvajes', alternatives: ['salvaje'] },
+      { sentence: 'Ellos se ganan su color ___ (потеть толстыми каплями пота), cazando camarones.', correct: 'sudando la gota gorda', alternatives: [] },
+      { sentence: 'Tú vives ___ (в убежище) en una piscina sin espacio para nadar.', correct: 'asilado', alternatives: [] },
+      { sentence: 'Tu carne es un ___ (полотно) en blanco, una hoja de papel aburrida.', correct: 'lienzo', alternatives: [] },
+      { sentence: 'Nadie pagaría una fortuna por un filete que parece ___ (замазка) para ventanas.', correct: 'masilla', alternatives: [] },
+      { sentence: 'Esos ___ (гранулы) que te lanzan como comida son tu kit de corrección.', correct: 'pellets', alternatives: [] },
+      { sentence: 'Todo es una ilusión estética y ___ (откровенно говоря) el tono se te está corriendo.', correct: 'francamente', alternatives: [] }
+    ]
+  },
+
+  'ex-17-4-salmon-comprehension': {
+    id: 'ex-17-4-salmon-comprehension',
+    type: 'reading-comprehension',
+    title: 'Comprensión: Por qué el salmón es gris',
+    description: 'Responda las preguntas sobre el texto.',
+    questions: [
+      { question: '¿De qué color es realmente el salmón de granja según el texto?', options: ['Rosa intenso', 'Naranja brillante', 'Gris', 'Plateado elegante'], correct: 2 },
+      { question: '¿Por qué el texto compara el color del salmón con un "filtro de Instagram"?', options: ['Porque es natural', 'Porque es un color artificial aplicado a nivel celular', 'Porque es muy bonito', 'Porque cambia cada día'], correct: 1 },
+      { question: '¿Cómo obtienen su color los salmones salvajes?', options: ['Con colorantes artificiales', 'Cazando krill y camarones bajo la luz del sol', 'Con pastillas de color', 'Con una dieta especial de granja'], correct: 1 },
+      { question: '¿Qué significa "tu belleza es de farmacia" en el contexto del texto?', options: ['Que el salmón es medicinal', 'Que el color es artificial, no natural', 'Que se vende en farmacias', 'Que es saludable'], correct: 1 },
+      { question: '¿Cómo vive el salmón de granja según el texto?', options: ['Libre en el océano', 'En una piscina sin espacio, sin ver camarones', 'En un acuario elegante', 'En un río natural'], correct: 1 },
+      { question: '¿Con qué compara el texto la carne del salmón sin colorante?', options: ['Con un cuadro de arte', 'Con un lienzo en blanco y masilla para ventanas', 'Con un filete premium', 'Con una obra maestra'], correct: 1 },
+      { question: '¿Qué usa el granjero para elegir la dieta del salmón?', options: ['Un manual de nutrición', 'Un catálogo de pinturas con tonos de color', 'Consejos de veterinarios', 'Ingredientes naturales'], correct: 1 },
+      { question: '¿Qué son los "pellets" según el texto?', options: ['Vitaminas naturales', 'Comida con tintes sintéticos para colorear la carne', 'Medicamentos', 'Alimento orgánico'], correct: 1 },
+      { question: '¿Con qué compara el texto al salmón como producto gastronómico?', options: ['Con un plato gourmet', 'Con el relleno de labios mal puesto', 'Con una obra de arte', 'Con un postre premium'], correct: 1 },
+      { question: '¿Qué cree el consumidor inocente que está comprando?', options: ['Un producto artificial', 'Un pedazo de naturaleza virgen y salud', 'Pescado barato', 'Comida procesada'], correct: 1 },
+      { question: '¿Qué representa la grasa blanca del salmón según el texto?', options: ['Alta calidad', 'Marmoleado de alta costura', 'Evidencia de sedentarismo', 'Nutrientes esenciales'], correct: 2 },
+      { question: '¿Qué pasaría si al salmón le quitaran el colorante?', options: ['Seguiría siendo rosa', 'Sería invisible en el mostrador', 'Se volvería más saludable', 'Tendría mejor sabor'], correct: 1 },
+      { question: '¿Qué tono usa el texto para hablar del salmón?', options: ['Científico y neutral', 'Irónico y sarcástico', 'Triste y melancólico', 'Alegre y optimista'], correct: 1 },
+      { question: '¿Qué significa "la vanidad forzada" en el contexto?', options: ['El orgullo natural del salmón', 'La apariencia artificial impuesta por la industria', 'La belleza del océano', 'El precio alto del pescado'], correct: 1 },
+      { question: '¿Cuál es el mensaje principal del texto?', options: ['El salmón de granja es mejor que el salvaje', 'El color del salmón de granja es una ilusión artificial por la que pagamos un precio premium', 'Hay que comer más salmón', 'Los colorantes son saludables'], correct: 1 }
+    ]
+  },
+
+  'ex-17-4-salmon-grammar': {
+    id: 'ex-17-4-salmon-grammar',
+    type: 'grammar',
+    title: 'Gramática: Tiempos verbales — Salmón',
+    description: 'Complete las frases con la forma correcta del verbo (Pretérito Perfecto, Indefinido, Imperfecto o Presente de Subjuntivo).',
+    questions: [
+      { sentence: 'La industria (decidir - Indefinido) ___ colorear la carne del salmón hace años.', options: ['decidió', 'ha decidido', 'decidía', 'decida'], correct: 0, explanation: 'Pretérito Indefinido: decidió (acción puntual en el pasado).' },
+      { sentence: 'Antes los salmones salvajes (nadar - Imperfecto) ___ libremente en el océano.', options: ['nadaban', 'nadaron', 'han nadado', 'naden'], correct: 0, explanation: 'Imperfecto: nadaban (descripción habitual del pasado).' },
+      { sentence: 'Este año los consumidores (descubrir - Pretérito Perfecto) ___ la verdad sobre el color del salmón.', options: ['han descubierto', 'descubrieron', 'descubrían', 'descubran'], correct: 0, explanation: 'Pretérito Perfecto: han descubierto (conexión con el presente).' },
+      { sentence: 'Es escandaloso que el consumidor (creer - Subjuntivo) ___ que está comprando salud.', options: ['crea', 'cree', 'creía', 'creyó'], correct: 0, explanation: 'Presente de Subjuntivo después de "es escandaloso que".' },
+      { sentence: 'Los granjeros siempre (alimentar - Imperfecto) ___ a los salmones con pellets de colores.', options: ['alimentaban', 'alimentaron', 'han alimentado', 'alimenten'], correct: 0, explanation: 'Imperfecto: alimentaban (hábito repetido en el pasado).' },
+      { sentence: 'La semana pasada (publicarse - Indefinido) ___ un artículo sobre los colorantes del salmón.', options: ['se publicó', 'se ha publicado', 'se publicaba', 'se publique'], correct: 0, explanation: 'Pretérito Indefinido: se publicó (acción puntual, la semana pasada).' },
+      { sentence: 'Últimamente (aumentar - Pretérito Perfecto) ___ las críticas contra la industria del salmón.', options: ['han aumentado', 'aumentaron', 'aumentaban', 'aumenten'], correct: 0, explanation: 'Pretérito Perfecto: han aumentado (últimamente = conexión con el presente).' },
+      { sentence: 'No creo que el salmón de granja (ser - Subjuntivo) ___ tan saludable como dicen.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "no creo que".' },
+      { sentence: 'Cuando era niño, mi madre (comprar - Imperfecto) ___ salmón pensando que era natural.', options: ['compraba', 'compró', 'ha comprado', 'compre'], correct: 0, explanation: 'Imperfecto: compraba (hábito pasado con "cuando era niño").' },
+      { sentence: 'Ayer (enterarse - Indefinido) ___ de que los salmones de granja son grises sin colorantes.', options: ['me enteré', 'me he enterado', 'me enteraba', 'me entere'], correct: 0, explanation: 'Pretérito Indefinido: me enteré (ayer = momento puntual).' },
+      { sentence: 'Es una lástima que la gente no (saber - Subjuntivo) ___ lo que realmente come.', options: ['sepa', 'sabe', 'sabía', 'supo'], correct: 0, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
+      { sentence: 'Hasta ahora nadie (quejarse - Pretérito Perfecto) ___ del color artificial del salmón.', options: ['se ha quejado', 'se quejó', 'se quejaba', 'se queje'], correct: 0, explanation: 'Pretérito Perfecto: se ha quejado (hasta ahora = conexión con el presente).' },
+      { sentence: 'En los años 80, la acuicultura (empezar - Indefinido) ___ a usar colorantes masivamente.', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0, explanation: 'Pretérito Indefinido: empezó (en los años 80 = momento específico).' },
+      { sentence: 'Dudo que los consumidores (dejar - Subjuntivo) ___ de comprar salmón por el colorante.', options: ['dejen', 'dejan', 'dejaban', 'dejaron'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
+      { sentence: 'Antes la gente (confiar - Imperfecto) ___ ciegamente en lo que le vendían.', options: ['confiaba', 'confió', 'ha confiado', 'confíe'], correct: 0, explanation: 'Imperfecto: confiaba (hábito/estado en el pasado).' }
+    ]
+  },
+
+  'ex-17-4-salmon-translation': {
+    id: 'ex-17-4-salmon-translation',
+    type: 'translation',
+    title: 'Перевод: Por qué el salmón es gris',
+    description: 'Переведите предложения с русского на испанский, используя Pretérito Perfecto, Indefinido, Imperfecto и Presente de Subjuntivo.',
+    questions: [
+      { russian: 'Этот румянец не обманывает опытный глаз — это агрессивное эстетическое вмешательство.', correct: 'Ese rubor no engaña a un ojo experto — eso es intervención estética agresiva.', alternatives: ['Este rubor no engaña a un ojo experto — es una intervención estética agresiva.'] },
+      { russian: 'Промышленность решила окрашивать мясо лосося, потому что никто не заплатил бы за серое филе.', correct: 'La industria decidió colorear la carne del salmón porque nadie pagaría por un filete gris.', alternatives: ['La industria decidió teñir la carne del salmón porque nadie pagaría por un filete gris.'] },
+      { russian: 'Раньше дикие лососи добывали свой цвет, охотясь на креветок под солнцем.', correct: 'Antes los salmones salvajes obtenían su color cazando camarones bajo el sol.', alternatives: ['Antes los salmones salvajes conseguían su color cazando camarones bajo la luz del sol.'] },
+      { russian: 'В последние годы потребители узнали правду об искусственном цвете лосося.', correct: 'En los últimos años los consumidores han descubierto la verdad sobre el color artificial del salmón.', alternatives: ['En los últimos años los consumidores han conocido la verdad sobre el color artificial del salmón.'] },
+      { russian: 'Сомневаюсь, что фермерский лосось будет таким же полезным, как дикий.', correct: 'Dudo que el salmón de granja sea tan saludable como el salvaje.', alternatives: ['Dudo que el salmón de granja sea tan sano como el salvaje.'] },
+      { russian: 'Фермер выбирал диету лосося не по питательности, а по каталогу красок.', correct: 'El granjero elegía la dieta del salmón no por los nutrientes, sino por un catálogo de pinturas.', alternatives: ['El granjero no elegía la dieta del salmón por los nutrientes, sino por un catálogo de pinturas.'] },
+      { russian: 'Вчера я узнал, что лосось без красителя был бы серым, как крыса из канализации.', correct: 'Ayer me enteré de que el salmón sin colorante sería gris como una rata de alcantarilla.', alternatives: ['Ayer descubrí que el salmón sin colorante sería gris como una rata de alcantarilla.'] },
+      { russian: 'Ужасно, что потребитель думает, что покупает здоровье, а на самом деле покупает краску.', correct: 'Es terrible que el consumidor piense que compra salud cuando en realidad compra tinte.', alternatives: ['Es horrible que el consumidor crea que compra salud cuando en realidad compra colorante.'] },
+      { russian: 'Эти гранулы, которые бросали лососям, содержали синтетические красители.', correct: 'Esos pellets que les lanzaban a los salmones contenían tintes sintéticos.', alternatives: ['Esos pellets que tiraban a los salmones contenían colorantes sintéticos.'] },
+      { russian: 'В прошлом месяце опубликовали исследование о малоподвижном образе жизни фермерских рыб.', correct: 'El mes pasado publicaron un estudio sobre el sedentarismo de los peces de granja.', alternatives: ['El mes pasado se publicó un estudio sobre el sedentarismo de los peces de granja.'] },
+      { russian: 'Необходимо, чтобы люди знали, что цвет лосося — это иллюзия.', correct: 'Es necesario que la gente sepa que el color del salmón es una ilusión.', alternatives: ['Es necesario que las personas sepan que el color del salmón es una ilusión.'] },
+      { russian: 'До сих пор потребители не жаловались на искусственный цвет лосося.', correct: 'Hasta ahora los consumidores no se han quejado del color artificial del salmón.', alternatives: ['Hasta ahora los consumidores no han protestado por el color artificial del salmón.'] },
+      { russian: 'Когда я был маленьким, я верил, что лосось от природы розовый.', correct: 'Cuando era pequeño, creía que el salmón era rosa por naturaleza.', alternatives: ['Cuando yo era niño, creía que el salmón era rosado de forma natural.'] },
+      { russian: 'Не верю, что индустрия перестанет использовать красители для лосося.', correct: 'No creo que la industria deje de usar colorantes para el salmón.', alternatives: ['No creo que la industria vaya a dejar de usar tintes para el salmón.'] },
+      { russian: 'Откровенно говоря, всё это фасад — визуальная эстетическая иллюзия.', correct: 'Francamente, todo es una fachada — una ilusión estética visual.', alternatives: ['Francamente, todo esto es una fachada — una ilusión estética y visual.'] }
     ]
   },
 
