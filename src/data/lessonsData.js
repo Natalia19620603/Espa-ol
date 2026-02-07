@@ -15013,6 +15013,10 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Estafa piramidal',
         videoUrl: '/video/Estafa piramidal.mp4'
+      },
+      {
+        tab: 'Por qué el salmón es gris',
+        videoUrl: '/video/Por que el salmón es gris M17C4.mp4'
       }
     ],
     vocabulary: [
