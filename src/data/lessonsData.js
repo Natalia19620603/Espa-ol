@@ -15017,6 +15017,10 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
       {
         tab: 'Por qué el salmón es gris',
         videoUrl: '/video/Por que el salmón es gris M17C4.mp4'
+      },
+      {
+        tab: 'Qué le han hecho al trigo',
+        videoUrl: '/video/Qué le han hecho al trigo M17C4.mp4'
       }
     ],
     vocabulary: [
@@ -15148,6 +15152,42 @@ Raúl intenta salir sin éxito del agujero. Tiene en las manos una vieja caja me
           { word: 'las estrías', translation: 'растяжки, бороздки' },
           { word: 'el tinte', translation: 'краска' },
           { word: 'francamente', translation: 'откровенно говоря' }
+        ]
+      },
+      {
+        tab: 'Qué le han hecho al trigo',
+        words: [
+          { word: 'el trigo', translation: 'пшеница, зерно' },
+          { word: 'tolerar', translation: 'терпеть, выносить' },
+          { word: 'la harina', translation: 'мука' },
+          { word: 'la espelta', translation: 'спельта' },
+          { word: 'los nutrientes', translation: 'питательные вещества' },
+          { word: 'la fibra', translation: 'волокно, клетчатка' },
+          { word: 'el hierro', translation: 'железо' },
+          { word: 'el magnesio', translation: 'магний' },
+          { word: 'el gluten', translation: 'глютен' },
+          { word: 'digerir', translation: 'переваривать еду' },
+          { word: 'moler', translation: 'молоть, размалывать' },
+          { word: 'fermentar', translation: 'бродить, квасить' },
+          { word: 'las plagas', translation: 'вредители' },
+          { word: 'aguantar', translation: 'терпеть, выдерживать' },
+          { word: 'desequilibrado', translation: 'неуравновешенный, несбалансированный' },
+          { word: 'nutritivo', translation: 'питательный' },
+          { word: 'el grano', translation: 'зерно' },
+          { word: 'el salvado', translation: 'отруби' },
+          { word: 'el almidón', translation: 'крахмал' },
+          { word: 'la proteína', translation: 'белок, протеин' },
+          { word: 'el germen', translation: 'зародыш' },
+          { word: 'la red', translation: 'сеть, интернет' },
+          { word: 'enlazar', translation: 'связывать, соединять' },
+          { word: 'la inflamación', translation: 'воспаление' },
+          { word: 'el celiaco', translation: 'больной целиакией' },
+          { word: 'índice glucémico', translation: 'гликемический индекс' },
+          { word: 'saciar', translation: 'насыщать, утолять' },
+          { word: 'plantar', translation: 'сажать' },
+          { word: 'integral', translation: 'цельнозерновой' },
+          { word: 'la masa madre', translation: 'закваска' },
+          { word: 'a costa de', translation: 'за счёт чего-либо' }
         ]
       }
     ],
@@ -15349,6 +15389,28 @@ Entonces, ¿qué hacen tus estilistas corporativos? Te medican el color, te dan 
 
 Lo más escandaloso es que el consumidor, ese pobre espectador inocente, cree que está comprando salud, cree que está llevando a su mesa un pedazo de naturaleza virgen, cuando en realidad está sirviendo una ilusión óptica. Está masticando una mentira bien diseñada. Eres el equivalente gastronómico del relleno de labios mal puesto. Se ve grande, se ve llamativo, pero en el fondo todos sabemos que algo no encaja, que la textura es sospechosa, que la promesa es falsa. Esa grasa blanca que te cruza no es marmoleado de alta costura, es la evidencia de tu sedentarismo. Son las estrías de alguien que nunca corrió una maratón. Así que no me vengas con esa actitud de soy un superalimento, eres un producto de diseño, eres gris, mi amor. Asúmelo. Sin tu dosis diaria de colorante serías invisible en el mostrador. La próxima vez que alguien te elija pensando que eres la opción fresca, ojalá supieran que no están pagando por pescado, están pagando por el tinte más caro del mundo. Todo es una fachada. Todo es una ilusión estética y francamente el tono se te está corriendo.`,
         translation: ''
+      },
+      {
+        tab: 'Qué le han hecho al trigo',
+        title: 'Qué le han hecho al trigo',
+        content: `Hoy vamos a hablar del trigo, ese alimento básico que lleva miles de años en nuestra dieta, pero que ya no es lo que era. ¿Por qué cada vez más gente no tolera bien el pan? ¿Qué ha pasado con las harinas y por qué el trigo de hoy alimenta menos que el de nuestros abuelos? Vamos a contarlo todo.
+
+Durante siglos, el trigo era un alimento completo. Las variedades tradicionales, como la espelta, el trigo duro o el kamut, eran más difíciles de cultivar, pero mucho más ricas en nutrientes. Contenían más proteína, más fibra, más minerales como el hierro, el zinc o el magnesio. Y lo más importante: su gluten era más sencillo, más fácil de digerir. Era un trigo vivo, que alimentaba. Se molía en piedra, se fermentaba con calma y se convertía en pan. Pan de verdad.
+
+Pero, con el tiempo, algo cambió. A partir del siglo XX, se empezó a seleccionar el trigo para que produjera más por hectárea, resistiera mejor las plagas y, sobre todo, tuviera más gluten. ¿Y todo esto para qué? Para que el pan suba más, tenga más volumen, sea más elástico y aguante más tiempo en los estantes del supermercado. El resultado: un trigo hiperproductivo, pero desequilibrado.
+
+Hoy las harinas son más blancas, más refinadas y mucho menos nutritivas. Y es que, para entenderlo mejor, hay que ver cómo es un grano de trigo. En el centro hay algo llamado endospermo, que es almidón y algo de proteína, y es lo que queda en la harina blanca. Alrededor está el salvado, que lleva fibra, minerales y vitaminas. Y también, en el centro, el germen, que son grasas saludables, vitamina E y enzimas. Y claro, con las harinas modernas se elimina el salvado y el germen, y solo queda el almidón. Por eso, el pan blanco de hoy llena, pero no alimenta.
+
+Algunos os preguntaréis: ¿qué es realmente el gluten? El gluten no es una única cosa; es un conjunto de proteínas, sobre todo gliadina y glutenina, que al mezclarse con agua forman una red elástica. Esa red es lo que da estructura al pan. Pero el problema es que, en el trigo moderno, esa red es cada vez más fuerte y compleja. Las proteínas han cambiado, se enlazan más entre sí y cuesta más digerirlas.
+
+¿El resultado, os preguntaréis? Pues más intolerancias, más inflamación y más problemas digestivos. Y ojo, no hablamos solo de celíacos; cada vez hay más personas sensibles al gluten que simplemente no lo procesan bien.
+
+Y, por si alguna vez has oído hablar de las harinas de tres ceros o de cuatro ceros, que sepas que cuantos más ceros, más refinada es. Y eso significa menos fibra, menos nutrientes y un índice glucémico más alto. Es decir, que sube el azúcar en sangre más rápido, sacia menos y no aporta casi nada más. Es un pan que se come en cinco minutos y enseguida vuelves a tener hambre. Ese es el pan industrial de hoy.
+
+¿Y sabéis cuál es el problema de verdad? Que muchos agricultores ya no pueden plantar el trigo que quieren. Las semillas están registradas, protegidas por derechos, y muchas veces solo se permite usar variedades comerciales modernas. Por ejemplo, en mi zona, de las Cinco Villas, antes se cultivaba el trigo Aragón 03, una variedad adaptada al clima con buena calidad panadera. Hoy cuesta encontrarla, pero hay quienes intentan recuperarla. Y es que el sistema actual está diseñado para producir mucho, rápido y barato, pero no para alimentar bien.
+
+Pero tranquilos, que no todo está perdido. Existen algunas alternativas. Por ejemplo, volver a las variedades antiguas como la espelta, el trigo duro, el kamut o el Aragón 03. También se podrían usar harinas menos refinadas, algunas que sean integrales, molidas a la piedra, con germen y salvado. Otra opción, que sí que se ha vuelto bastante popular, es el pan de masa madre. En definitiva: exigir calidad y no cantidad, porque el pan puede seguir siendo el alimento básico de siempre si se hace bien a costa de la paciencia.`,
+        translation: ''
       }
     ],
     exercises: [
@@ -15386,6 +15448,15 @@ Lo más escandaloso es que el consumidor, ese pobre espectador inocente, cree qu
           { name: 'Понимание текста', exercises: ['ex-17-4-salmon-comprehension'] },
           { name: 'Грамматика', exercises: ['ex-17-4-salmon-grammar'] },
           { name: 'Перевод с русского', exercises: ['ex-17-4-salmon-translation'] }
+        ]
+      },
+      {
+        tab: 'Qué le han hecho al trigo',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-4-trigo-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-4-trigo-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-17-4-trigo-grammar'] },
+          { name: 'Перевод с русского', exercises: ['ex-17-4-trigo-translation'] }
         ]
       }
     ]
@@ -28440,21 +28511,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Gramática: Tiempos verbales — Salmón',
     description: 'Complete las frases con la forma correcta del verbo (Pretérito Perfecto, Indefinido, Imperfecto o Presente de Subjuntivo).',
     questions: [
-      { sentence: 'La industria (decidir - Indefinido) ___ colorear la carne del salmón hace años.', options: ['decidió', 'ha decidido', 'decidía', 'decida'], correct: 0, explanation: 'Pretérito Indefinido: decidió (acción puntual en el pasado).' },
-      { sentence: 'Antes los salmones salvajes (nadar - Imperfecto) ___ libremente en el océano.', options: ['nadaban', 'nadaron', 'han nadado', 'naden'], correct: 0, explanation: 'Imperfecto: nadaban (descripción habitual del pasado).' },
-      { sentence: 'Este año los consumidores (descubrir - Pretérito Perfecto) ___ la verdad sobre el color del salmón.', options: ['han descubierto', 'descubrieron', 'descubrían', 'descubran'], correct: 0, explanation: 'Pretérito Perfecto: han descubierto (conexión con el presente).' },
-      { sentence: 'Es escandaloso que el consumidor (creer - Subjuntivo) ___ que está comprando salud.', options: ['crea', 'cree', 'creía', 'creyó'], correct: 0, explanation: 'Presente de Subjuntivo después de "es escandaloso que".' },
-      { sentence: 'Los granjeros siempre (alimentar - Imperfecto) ___ a los salmones con pellets de colores.', options: ['alimentaban', 'alimentaron', 'han alimentado', 'alimenten'], correct: 0, explanation: 'Imperfecto: alimentaban (hábito repetido en el pasado).' },
-      { sentence: 'La semana pasada (publicarse - Indefinido) ___ un artículo sobre los colorantes del salmón.', options: ['se publicó', 'se ha publicado', 'se publicaba', 'se publique'], correct: 0, explanation: 'Pretérito Indefinido: se publicó (acción puntual, la semana pasada).' },
-      { sentence: 'Últimamente (aumentar - Pretérito Perfecto) ___ las críticas contra la industria del salmón.', options: ['han aumentado', 'aumentaron', 'aumentaban', 'aumenten'], correct: 0, explanation: 'Pretérito Perfecto: han aumentado (últimamente = conexión con el presente).' },
-      { sentence: 'No creo que el salmón de granja (ser - Subjuntivo) ___ tan saludable como dicen.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "no creo que".' },
-      { sentence: 'Cuando era niño, mi madre (comprar - Imperfecto) ___ salmón pensando que era natural.', options: ['compraba', 'compró', 'ha comprado', 'compre'], correct: 0, explanation: 'Imperfecto: compraba (hábito pasado con "cuando era niño").' },
-      { sentence: 'Ayer (enterarse - Indefinido) ___ de que los salmones de granja son grises sin colorantes.', options: ['me enteré', 'me he enterado', 'me enteraba', 'me entere'], correct: 0, explanation: 'Pretérito Indefinido: me enteré (ayer = momento puntual).' },
-      { sentence: 'Es una lástima que la gente no (saber - Subjuntivo) ___ lo que realmente come.', options: ['sepa', 'sabe', 'sabía', 'supo'], correct: 0, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
-      { sentence: 'Hasta ahora nadie (quejarse - Pretérito Perfecto) ___ del color artificial del salmón.', options: ['se ha quejado', 'se quejó', 'se quejaba', 'se queje'], correct: 0, explanation: 'Pretérito Perfecto: se ha quejado (hasta ahora = conexión con el presente).' },
-      { sentence: 'En los años 80, la acuicultura (empezar - Indefinido) ___ a usar colorantes masivamente.', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0, explanation: 'Pretérito Indefinido: empezó (en los años 80 = momento específico).' },
-      { sentence: 'Dudo que los consumidores (dejar - Subjuntivo) ___ de comprar salmón por el colorante.', options: ['dejen', 'dejan', 'dejaban', 'dejaron'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
-      { sentence: 'Antes la gente (confiar - Imperfecto) ___ ciegamente en lo que le vendían.', options: ['confiaba', 'confió', 'ha confiado', 'confíe'], correct: 0, explanation: 'Imperfecto: confiaba (hábito/estado en el pasado).' }
+      { sentence: 'La industria (decidir) ___ colorear la carne del salmón hace años.', options: ['decidió', 'ha decidido', 'decidía', 'decida'], correct: 0, explanation: 'Pretérito Indefinido: decidió (acción puntual en el pasado).' },
+      { sentence: 'Antes los salmones salvajes (nadar) ___ libremente en el océano.', options: ['nadaban', 'nadaron', 'han nadado', 'naden'], correct: 0, explanation: 'Imperfecto: nadaban (descripción habitual del pasado).' },
+      { sentence: 'Este año los consumidores (descubrir) ___ la verdad sobre el color del salmón.', options: ['han descubierto', 'descubrieron', 'descubrían', 'descubran'], correct: 0, explanation: 'Pretérito Perfecto: han descubierto (conexión con el presente).' },
+      { sentence: 'Es escandaloso que el consumidor (creer) ___ que está comprando salud.', options: ['crea', 'cree', 'creía', 'creyó'], correct: 0, explanation: 'Presente de Subjuntivo después de "es escandaloso que".' },
+      { sentence: 'Los granjeros siempre (alimentar) ___ a los salmones con pellets de colores.', options: ['alimentaban', 'alimentaron', 'han alimentado', 'alimenten'], correct: 0, explanation: 'Imperfecto: alimentaban (hábito repetido en el pasado).' },
+      { sentence: 'La semana pasada (publicarse) ___ un artículo sobre los colorantes del salmón.', options: ['se publicó', 'se ha publicado', 'se publicaba', 'se publique'], correct: 0, explanation: 'Pretérito Indefinido: se publicó (acción puntual, la semana pasada).' },
+      { sentence: 'Últimamente (aumentar) ___ las críticas contra la industria del salmón.', options: ['han aumentado', 'aumentaron', 'aumentaban', 'aumenten'], correct: 0, explanation: 'Pretérito Perfecto: han aumentado (últimamente = conexión con el presente).' },
+      { sentence: 'No creo que el salmón de granja (ser) ___ tan saludable como dicen.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "no creo que".' },
+      { sentence: 'Cuando era niño, mi madre (comprar) ___ salmón pensando que era natural.', options: ['compraba', 'compró', 'ha comprado', 'compre'], correct: 0, explanation: 'Imperfecto: compraba (hábito pasado con "cuando era niño").' },
+      { sentence: 'Ayer (enterarse) ___ de que los salmones de granja son grises sin colorantes.', options: ['me enteré', 'me he enterado', 'me enteraba', 'me entere'], correct: 0, explanation: 'Pretérito Indefinido: me enteré (ayer = momento puntual).' },
+      { sentence: 'Es una lástima que la gente no (saber) ___ lo que realmente come.', options: ['sepa', 'sabe', 'sabía', 'supo'], correct: 0, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
+      { sentence: 'Hasta ahora nadie (quejarse) ___ del color artificial del salmón.', options: ['se ha quejado', 'se quejó', 'se quejaba', 'se queje'], correct: 0, explanation: 'Pretérito Perfecto: se ha quejado (hasta ahora = conexión con el presente).' },
+      { sentence: 'En los años 80, la acuicultura (empezar) ___ a usar colorantes masivamente.', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0, explanation: 'Pretérito Indefinido: empezó (en los años 80 = momento específico).' },
+      { sentence: 'Dudo que los consumidores (dejar) ___ de comprar salmón por el colorante.', options: ['dejen', 'dejan', 'dejaban', 'dejaron'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
+      { sentence: 'Antes la gente (confiar) ___ ciegamente en lo que le vendían.', options: ['confiaba', 'confió', 'ha confiado', 'confíe'], correct: 0, explanation: 'Imperfecto: confiaba (hábito/estado en el pasado).' }
     ]
   },
 
@@ -28479,6 +28550,102 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       { russian: 'Когда я был маленьким, я верил, что лосось от природы розовый.', correct: 'Cuando era pequeño, creía que el salmón era rosa por naturaleza.', alternatives: ['Cuando yo era niño, creía que el salmón era rosado de forma natural.'] },
       { russian: 'Не верю, что индустрия перестанет использовать красители для лосося.', correct: 'No creo que la industria deje de usar colorantes para el salmón.', alternatives: ['No creo que la industria vaya a dejar de usar tintes para el salmón.'] },
       { russian: 'Откровенно говоря, всё это фасад — визуальная эстетическая иллюзия.', correct: 'Francamente, todo es una fachada — una ilusión estética visual.', alternatives: ['Francamente, todo esto es una fachada — una ilusión estética y visual.'] }
+    ]
+  },
+
+  'ex-17-4-trigo-vocab': {
+    id: 'ex-17-4-trigo-vocab',
+    type: 'fillblank',
+    title: 'Словарь: Qué le han hecho al trigo',
+    description: 'Вставьте пропущенное слово в предложение.',
+    questions: [
+      { sentence: 'El ___ (пшеница) es un alimento básico que lleva miles de años en nuestra dieta.', correct: 'trigo', alternatives: [] },
+      { sentence: 'Cada vez más personas no pueden ___ (терпеть) bien el pan moderno.', correct: 'tolerar', alternatives: [] },
+      { sentence: 'Las ___ (мука) modernas son más blancas, más refinadas y menos nutritivas.', correct: 'harinas', alternatives: [] },
+      { sentence: 'La ___ (спельта) es una variedad tradicional de trigo, más rica en nutrientes.', correct: 'espelta', alternatives: [] },
+      { sentence: 'Las variedades antiguas contenían más ___ (питательные вещества) que las modernas.', correct: 'nutrientes', alternatives: [] },
+      { sentence: 'El salvado del grano lleva ___ (клетчатка), minerales y vitaminas.', correct: 'fibra', alternatives: [] },
+      { sentence: 'El trigo tradicional contenía más minerales como ___ (железо), zinc y magnesio.', correct: 'hierro', alternatives: [] },
+      { sentence: 'El ___ (магний) es uno de los minerales que se pierden con el refinado.', correct: 'magnesio', alternatives: [] },
+      { sentence: 'El ___ (глютен) del trigo moderno es más difícil de digerir.', correct: 'gluten', alternatives: [] },
+      { sentence: 'El gluten antiguo era más sencillo y más fácil de ___ (переваривать).', correct: 'digerir', alternatives: [] },
+      { sentence: 'Antes se solía ___ (молоть) el trigo en piedra para hacer harina.', correct: 'moler', alternatives: [] },
+      { sentence: 'La masa se dejaba ___ (бродить) con calma para hacer pan de verdad.', correct: 'fermentar', alternatives: [] },
+      { sentence: 'El trigo moderno fue seleccionado para resistir mejor las ___ (вредители).', correct: 'plagas', alternatives: [] },
+      { sentence: 'El pan industrial necesita más gluten para ___ (выдерживать) más tiempo en los estantes.', correct: 'aguantar', alternatives: [] },
+      { sentence: 'El resultado fue un trigo hiperproductivo, pero ___ (несбалансированный).', correct: 'desequilibrado', alternatives: [] }
+    ]
+  },
+
+  'ex-17-4-trigo-comprehension': {
+    id: 'ex-17-4-trigo-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста: Qué le han hecho al trigo',
+    description: 'Ответьте на вопросы по тексту о пшенице.',
+    questions: [
+      { question: '¿Por qué cada vez más gente no tolera bien el pan?', options: ['Porque el pan tiene demasiada sal', 'Porque el gluten del trigo moderno es más complejo y difícil de digerir', 'Porque la gente come demasiado pan', 'Porque el pan se hace con agua contaminada'], correct: 1 },
+      { question: '¿Qué variedades tradicionales de trigo se mencionan en el texto?', options: ['Trigo blanco y trigo negro', 'Espelta, trigo duro y kamut', 'Centeno, avena y cebada', 'Trigo integral y trigo refinado'], correct: 1 },
+      { question: '¿Cómo era el gluten del trigo tradicional?', options: ['Más complejo y difícil de digerir', 'No contenía gluten', 'Más sencillo y más fácil de digerir', 'Igual que el del trigo moderno'], correct: 2 },
+      { question: '¿Para qué se seleccionó el trigo moderno a partir del siglo XX?', options: ['Para que tuviera mejor sabor', 'Para que produjera más, resistiera plagas y tuviera más gluten', 'Para que fuera más nutritivo', 'Para que creciera sin agua'], correct: 1 },
+      { question: '¿Qué partes del grano se eliminan en las harinas modernas?', options: ['El endospermo y el almidón', 'Solo el germen', 'El salvado y el germen', 'Todo el grano se usa entero'], correct: 2 },
+      { question: '¿Qué es el endospermo?', options: ['La capa exterior del grano', 'La parte central con almidón y algo de proteína', 'Las grasas saludables del grano', 'La fibra del trigo'], correct: 1 },
+      { question: '¿Qué proteínas forman el gluten?', options: ['Caseína y albúmina', 'Colágeno y elastina', 'Gliadina y glutenina', 'Queratina y miosina'], correct: 2 },
+      { question: '¿Qué significa que una harina tiene más ceros?', options: ['Que tiene más nutrientes', 'Que es más integral', 'Que es más refinada y tiene menos fibra', 'Que es de mejor calidad'], correct: 2 },
+      { question: '¿Qué efecto tiene un índice glucémico alto?', options: ['Sacia más y da más energía', 'Sube el azúcar en sangre más rápido y sacia menos', 'Mejora la digestión', 'Reduce el colesterol'], correct: 1 },
+      { question: '¿Qué problema tienen los agricultores con las semillas?', options: ['Son demasiado baratas', 'Están registradas y protegidas por derechos', 'No hay suficientes semillas', 'Las semillas no crecen en su zona'], correct: 1 },
+      { question: '¿Qué variedad local se menciona como ejemplo de trigo adaptado al clima?', options: ['Kamut egipcio', 'Espelta alemana', 'Trigo Aragón 03', 'Trigo Castilla 07'], correct: 2 },
+      { question: '¿Qué alternativa se menciona para hacer mejor pan?', options: ['Usar más levadura industrial', 'El pan de masa madre', 'Añadir más gluten', 'Hornear a mayor temperatura'], correct: 1 },
+      { question: '¿Por qué el pan blanco de hoy "llena pero no alimenta"?', options: ['Porque tiene demasiada sal', 'Porque solo queda el almidón, sin salvado ni germen', 'Porque se hornea demasiado rápido', 'Porque la gente come poco pan'], correct: 1 },
+      { question: '¿Qué consecuencias tiene el gluten moderno según el texto?', options: ['Mejor digestión y más energía', 'Más intolerancias, inflamación y problemas digestivos', 'Solo afecta a los celíacos', 'No tiene ninguna consecuencia negativa'], correct: 1 },
+      { question: '¿Cuál es el mensaje principal del texto?', options: ['Hay que dejar de comer pan', 'El trigo moderno es mejor que el antiguo', 'Hay que exigir calidad y volver a variedades tradicionales', 'Los agricultores no saben cultivar trigo'], correct: 2 }
+    ]
+  },
+
+  'ex-17-4-trigo-grammar': {
+    id: 'ex-17-4-trigo-grammar',
+    type: 'grammar',
+    title: 'Грамматика: Qué le han hecho al trigo',
+    description: 'Выберите правильную форму глагола.',
+    questions: [
+      { sentence: 'Durante siglos, el trigo (ser) ___ un alimento completo y nutritivo.', options: ['era', 'fue', 'ha sido', 'sea'], correct: 0, explanation: 'Imperfecto: era (descripción de un estado prolongado en el pasado).' },
+      { sentence: 'A partir del siglo XX, (empezar) ___ a seleccionar el trigo para producir más.', options: ['se empezó', 'se ha empezado', 'se empezaba', 'se empiece'], correct: 0, explanation: 'Pretérito Indefinido: se empezó (inicio de un proceso en un momento histórico).' },
+      { sentence: 'En los últimos años (aumentar) ___ el número de personas con intolerancia al gluten.', options: ['ha aumentado', 'aumentó', 'aumentaba', 'aumente'], correct: 0, explanation: 'Pretérito Perfecto: ha aumentado (en los últimos años = conexión con el presente).' },
+      { sentence: 'No creo que el trigo moderno (ser) ___ tan nutritivo como el tradicional.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "no creo que".' },
+      { sentence: 'Antes los agricultores (cultivar) ___ variedades tradicionales de trigo.', options: ['cultivaban', 'cultivaron', 'han cultivado', 'cultiven'], correct: 0, explanation: 'Imperfecto: cultivaban (hábito repetido en el pasado).' },
+      { sentence: 'Ayer (leer) ___ un artículo sobre los problemas del trigo moderno.', options: ['leí', 'he leído', 'leía', 'lea'], correct: 0, explanation: 'Pretérito Indefinido: leí (ayer = momento puntual en el pasado).' },
+      { sentence: 'Es una lástima que las harinas modernas (eliminar) ___ el salvado y el germen.', options: ['eliminen', 'eliminan', 'eliminaban', 'eliminaron'], correct: 0, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
+      { sentence: 'Hasta ahora nadie (protestar) ___ contra la industria del trigo modificado.', options: ['ha protestado', 'protestó', 'protestaba', 'proteste'], correct: 0, explanation: 'Pretérito Perfecto: ha protestado (hasta ahora = conexión con el presente).' },
+      { sentence: 'Cuando era joven, mi abuela (hacer) ___ pan con harina de espelta.', options: ['hacía', 'hizo', 'ha hecho', 'haga'], correct: 0, explanation: 'Imperfecto: hacía (hábito en el pasado con "cuando era joven").' },
+      { sentence: 'El año pasado un estudio (demostrar) ___ que el gluten moderno causa más inflamación.', options: ['demostró', 'ha demostrado', 'demostraba', 'demuestre'], correct: 0, explanation: 'Pretérito Indefinido: demostró (el año pasado = momento específico).' },
+      { sentence: 'Dudo que los consumidores (saber) ___ la diferencia entre harina integral y refinada.', options: ['sepan', 'saben', 'sabían', 'supieron'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
+      { sentence: 'Antiguamente la masa (fermentar) ___ con calma y se convertía en pan de verdad.', options: ['fermentaba', 'fermentó', 'ha fermentado', 'fermente'], correct: 0, explanation: 'Imperfecto: fermentaba (proceso habitual en el pasado).' },
+      { sentence: 'Esta semana (descubrir) ___ que las semillas de trigo están protegidas por derechos.', options: ['he descubierto', 'descubrí', 'descubría', 'descubra'], correct: 0, explanation: 'Pretérito Perfecto: he descubierto (esta semana = período que incluye el presente).' },
+      { sentence: 'Es necesario que la gente (exigir) ___ calidad en el pan que consume.', options: ['exija', 'exige', 'exigía', 'exigió'], correct: 0, explanation: 'Presente de Subjuntivo después de "es necesario que".' },
+      { sentence: 'Antes el trigo (contener) ___ más proteína, más fibra y más minerales.', options: ['contenía', 'contuvo', 'ha contenido', 'contenga'], correct: 0, explanation: 'Imperfecto: contenía (descripción de una característica permanente en el pasado).' }
+    ]
+  },
+
+  'ex-17-4-trigo-translation': {
+    id: 'ex-17-4-trigo-translation',
+    type: 'translation',
+    title: 'Перевод: Qué le han hecho al trigo',
+    description: 'Переведите предложения с русского на испанский.',
+    questions: [
+      { russian: 'Пшеница — это основной продукт, который тысячелетиями был в нашем рационе.', correct: 'El trigo es un alimento básico que lleva miles de años en nuestra dieta.', alternatives: ['El trigo es un alimento básico que ha estado miles de años en nuestra dieta.'] },
+      { russian: 'Всё больше людей не переносят хлеб хорошо.', correct: 'Cada vez más gente no tolera bien el pan.', alternatives: ['Cada vez más personas no toleran bien el pan.'] },
+      { russian: 'Традиционные сорта были труднее в выращивании, но гораздо богаче питательными веществами.', correct: 'Las variedades tradicionales eran más difíciles de cultivar, pero mucho más ricas en nutrientes.', alternatives: ['Las variedades tradicionales eran más difíciles de cultivar, pero mucho más nutritivas.'] },
+      { russian: 'Его глютен был проще и легче переваривался.', correct: 'Su gluten era más sencillo y más fácil de digerir.', alternatives: ['Su gluten era más simple y más fácil de digerir.'] },
+      { russian: 'Муку мололи на камне и медленно заквашивали.', correct: 'Se molía en piedra y se fermentaba con calma.', alternatives: ['La harina se molía en piedra y se fermentaba lentamente.'] },
+      { russian: 'Пшеницу начали отбирать, чтобы она производила больше с гектара.', correct: 'Se empezó a seleccionar el trigo para que produjera más por hectárea.', alternatives: ['Empezaron a seleccionar el trigo para que produjera más por hectárea.'] },
+      { russian: 'Результат — сверхпродуктивная, но несбалансированная пшеница.', correct: 'El resultado: un trigo hiperproductivo, pero desequilibrado.', alternatives: ['El resultado fue un trigo hiperproductivo, pero desequilibrado.'] },
+      { russian: 'В современной муке убирают отруби и зародыш, и остаётся только крахмал.', correct: 'Con las harinas modernas se elimina el salvado y el germen, y solo queda el almidón.', alternatives: ['En las harinas modernas se elimina el salvado y el germen, y solo queda el almidón.'] },
+      { russian: 'Белки изменились, связываются сильнее и труднее перевариваются.', correct: 'Las proteínas han cambiado, se enlazan más entre sí y cuesta más digerirlas.', alternatives: ['Las proteínas han cambiado, se unen más entre sí y cuesta más digerirlas.'] },
+      { russian: 'Сомневаюсь, что потребители знают разницу между цельнозерновой и рафинированной мукой.', correct: 'Dudo que los consumidores sepan la diferencia entre harina integral y refinada.', alternatives: ['Dudo que los consumidores conozcan la diferencia entre la harina integral y la refinada.'] },
+      { russian: 'Чем больше нулей у муки, тем она более рафинированная.', correct: 'Cuantos más ceros tiene la harina, más refinada es.', alternatives: ['Cuantos más ceros, más refinada es la harina.'] },
+      { russian: 'Многие фермеры уже не могут сажать ту пшеницу, которую хотят.', correct: 'Muchos agricultores ya no pueden plantar el trigo que quieren.', alternatives: ['Muchos agricultores ya no pueden sembrar el trigo que quieren.'] },
+      { russian: 'Семена зарегистрированы и защищены авторскими правами.', correct: 'Las semillas están registradas y protegidas por derechos.', alternatives: ['Las semillas están registradas, protegidas por derechos de autor.'] },
+      { russian: 'Хлеб на закваске — это хорошая альтернатива промышленному хлебу.', correct: 'El pan de masa madre es una buena alternativa al pan industrial.', alternatives: ['El pan de masa madre es una alternativa buena al pan industrial.'] },
+      { russian: 'Нужно требовать качество, а не количество, потому что хлеб можно делать хорошо за счёт терпения.', correct: 'Hay que exigir calidad y no cantidad, porque el pan se puede hacer bien a costa de la paciencia.', alternatives: ['Es necesario exigir calidad y no cantidad, porque el pan puede hacerse bien a costa de la paciencia.'] }
     ]
   },
 
