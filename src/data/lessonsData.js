@@ -12157,6 +12157,32 @@ volante m — зд. направление`
           { word: 'anestesiar', translation: 'обезболить' },
           { word: 'postizo', translation: 'искусственный, вставной' }
         ]
+      },
+      {
+        tab: 'Una intervención peligrosa',
+        words: [
+          { word: 'andar con rodeos', translation: 'ходить вокруг да около' },
+          { word: 'la intervención', translation: 'интервенция, вторжение, вмешательство' },
+          { word: 'peligroso', translation: 'опасный, рискованный' },
+          { word: 'complicado', translation: 'сложный, запутанный' },
+          { word: 'el corazón', translation: 'сердце' },
+          { word: 'el quirófano', translation: 'операционная' },
+          { word: 'de hecho', translation: 'на самом деле, фактически' },
+          { word: 'el margen', translation: 'маржа, допуск' },
+          { word: 'el tratamiento', translation: 'лечение, обращение' },
+          { word: 'la posibilidad', translation: 'возможность, шанс' },
+          { word: 'el cateterismo', translation: 'катетеризация' },
+          { word: 'la opción', translation: 'выбор, вариант' },
+          { word: 'aplicar', translation: 'применять, осуществлять' },
+          { word: 'la aplicación', translation: 'приложение, программа' },
+          { word: 'cutáneo', translation: 'кожный' },
+          { word: 'el muslo', translation: 'бедро, ляжка' },
+          { word: 'me temo que', translation: 'боюсь, что' },
+          { word: 'el jarabe', translation: 'сироп, микстура' },
+          { word: 'optar por', translation: 'выбирать, предпочитать' },
+          { word: 'perder', translation: 'терять, проигрывать' },
+          { word: 'arriesgar', translation: 'рисковать, подвергать опасности' }
+        ]
       }
     ],
     readingText: [
@@ -12230,6 +12256,35 @@ Nieto: Me está ofendiendo, doctor. Yo cuando he entrado aquí he dicho que quer
 Doctor: ¿Y entonces qué le ponemos?
 
 Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que le tengo una comida preparada que se va a chupar los dedos: hervores de hoja de tomillo y bocadillo de humo. De postre, vaho de flan. ¡Yeah!`
+      },
+      {
+        tab: 'Una intervención peligrosa',
+        title: 'Una intervención peligrosa',
+        content: `Médico: Verá, José Luis, no me quiero andar con rodeos. La intervención que se le va a realizar es muy peligrosa, quiero que lo sepa. Es una operación complicada: son 15 horas de intervención a corazón abierto y, bueno, puede que no salga con vida del quirófano. De hecho, el margen de supervivencia que hay en este tipo de intervenciones no supera el 1 %.
+
+José Luis: ¿Y no existe otro tratamiento?
+
+Médico: Bueno, se le podría realizar una operación, en vez de de 15 horas, de una hora; pero el margen de supervivencia no sería del 1 %, sería del 10 %.
+
+José Luis: No sé si... ¿no hay más posibilidades?
+
+Médico: Hemos estudiado también la posibilidad de, bueno, realizarle un cateterismo, que es menos agresivo y no tendríamos que operar. Pero claro, ya no tendríamos ese 10 % de margen de supervivencia, estaríamos ahora moviéndonos en un 30 % de éxito.
+
+José Luis: No sé si usted no ve más opciones, doctor.
+
+Médico: Hemos estudiado incluso el recetarle unas inyecciones de aplicación cutánea en el muslo, pero el margen de supervivencia es del 70 %.
+
+José Luis: ¿Y no hay otra salida?
+
+Médico: Me temo que no, José Luis. A no ser que se tome usted un jarabe de esos abiertos que tenga usted en casa, en cuyo caso el margen de supervivencia no sería del 70, sería del 100 %.
+
+José Luis: ¿100 %? Creo que voy a optar por el jarabe.
+
+Médico: ¡Ha perdido usted la cabeza! ¿Me está usted diciendo que prefiere un jarabe a una intervención a corazón abierto?
+
+José Luis: Me voy a arriesgar.
+
+Médico: Es su vida... ¡Es su vida! Los pacientes ya no saben ni lo que quieren.`
       }
     ],
     exerciseTabs: [
@@ -12240,9 +12295,13 @@ Nieto: De regalo con los dientes... la capa de Drácula. Me voy adelantando, que
       {
         tab: 'Llevo a mi abuela al dentista',
         exercises: ['ex-10-2-6', 'ex-10-2-7', 'ex-10-2-8', 'ex-10-2-9']
+      },
+      {
+        tab: 'Una intervención peligrosa',
+        exercises: ['ex-10-2-10', 'ex-10-2-11', 'ex-10-2-12', 'ex-10-2-13']
       }
     ],
-    exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5', 'ex-10-2-6', 'ex-10-2-7', 'ex-10-2-8', 'ex-10-2-9']
+    exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5', 'ex-10-2-6', 'ex-10-2-7', 'ex-10-2-8', 'ex-10-2-9', 'ex-10-2-10', 'ex-10-2-11', 'ex-10-2-12', 'ex-10-2-13']
   },
 
   'lesson-10-3': {
@@ -40639,6 +40698,106 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Когда стоматолог достал бормашину, у меня задрожали руки.', correct: 'Cuando el dentista sacó el torno, me empezaron a temblar las manos.', alternatives: ['Cuando el dentista sacó el taladro, me temblaron las manos.'] },
       { russian: 'Как мы поставим ей постоянные зубы, если у неё нет коренных зубов?', correct: '¿Cómo le vamos a poner dientes fijos si no tiene molares?', alternatives: ['¿Cómo le pondremos dientes fijos si no tiene molares?'] },
       { russian: 'Пломба, которую мне поставили неделю назад, уже выпала.', correct: 'El empaste que me pusieron hace una semana ya se ha caído.', alternatives: ['El empaste que me pusieron la semana pasada ya se cayó.'] }
+    ]
+  },
+
+  'ex-10-2-10': {
+    id: 'ex-10-2-10',
+    type: 'fillblank',
+    title: 'Vocabulario: Una intervención peligrosa',
+    description: 'Вставьте слово из скобок (на русском) в правильной форме на испанском',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'No me quiero ___ (ходить вокруг да около), la situación es grave.', correct: 'andar con rodeos', alternatives: [] },
+      { sentence: 'La ___ (вмешательство) quirúrgica durará quince horas.', correct: 'intervención', alternatives: [] },
+      { sentence: 'Es una operación muy ___ (опасная), el paciente debe saberlo.', correct: 'peligrosa', alternatives: [] },
+      { sentence: 'El caso es bastante ___ (сложный), no hay soluciones fáciles.', correct: 'complicado', alternatives: [] },
+      { sentence: 'Van a operarle a ___ (сердце) abierto mañana por la mañana.', correct: 'corazón', alternatives: [] },
+      { sentence: 'Puede que no salga con vida del ___ (операционная).', correct: 'quirófano', alternatives: [] },
+      { sentence: '___ (На самом деле), el margen de supervivencia es muy bajo.', correct: 'De hecho', alternatives: [] },
+      { sentence: 'El ___ (допуск) de supervivencia no supera el 1 por ciento.', correct: 'margen', alternatives: [] },
+      { sentence: '¿No existe otro ___ (лечение) menos agresivo?', correct: 'tratamiento', alternatives: [] },
+      { sentence: 'Hemos estudiado la ___ (возможность) de realizarle un cateterismo.', correct: 'posibilidad', alternatives: [] },
+      { sentence: 'El ___ (катетеризация) es menos agresivo que la operación.', correct: 'cateterismo', alternatives: [] },
+      { sentence: 'El paciente quiere conocer todas las ___ (варианты) disponibles.', correct: 'opciones', alternatives: ['opción'] },
+      { sentence: 'Las inyecciones son de ___ (приложение, применение) ___ (кожная) en el muslo.', correct: 'aplicación cutánea', alternatives: [] },
+      { sentence: '___ (Боюсь, что) no hay otra salida, José Luis.', correct: 'Me temo que', alternatives: [] },
+      { sentence: 'Creo que voy a ___ (выбрать, предпочесть) el jarabe.', correct: 'optar por', alternatives: [] }
+    ]
+  },
+
+  'ex-10-2-11': {
+    id: 'ex-10-2-11',
+    type: 'reading-comprehension',
+    title: 'Comprensión: Una intervención peligrosa',
+    description: 'Ответьте на вопросы по тексту диалога «Una intervención peligrosa»',
+    showAnswerOption: true,
+    questions: [
+      { question: '¿Por qué dice el médico que no quiere andar con rodeos?', options: ['Porque tiene prisa', 'Porque la situación es muy grave y peligrosa', 'Porque no le gusta hablar', 'Porque el paciente se lo pidió'], correct: 1 },
+      { question: '¿Cuántas horas dura la operación a corazón abierto?', options: ['5 horas', '10 horas', '15 horas', '1 hora'], correct: 2 },
+      { question: '¿Cuál es el margen de supervivencia de la operación de 15 horas?', options: ['10 %', '30 %', '70 %', '1 %'], correct: 3 },
+      { question: '¿Qué alternativa ofrece el médico con un 10 % de supervivencia?', options: ['Un cateterismo', 'Unas inyecciones', 'Una operación de una hora', 'Un jarabe'], correct: 2 },
+      { question: '¿Qué es un cateterismo según el contexto?', options: ['Una operación a corazón abierto', 'Un procedimiento menos agresivo que no requiere operar', 'Un tipo de jarabe', 'Una inyección cutánea'], correct: 1 },
+      { question: '¿Cuál es el margen de éxito del cateterismo?', options: ['1 %', '10 %', '30 %', '70 %'], correct: 2 },
+      { question: '¿Dónde se aplican las inyecciones cutáneas?', options: ['En el brazo', 'En el corazón', 'En el muslo', 'En la espalda'], correct: 2 },
+      { question: '¿Cuál es el margen de supervivencia de las inyecciones?', options: ['30 %', '50 %', '70 %', '100 %'], correct: 2 },
+      { question: '¿Qué opción tiene el 100 % de margen de supervivencia?', options: ['La operación de una hora', 'El cateterismo', 'Las inyecciones', 'Un jarabe abierto de casa'], correct: 3 },
+      { question: '¿Qué decide José Luis al final?', options: ['La operación a corazón abierto', 'El cateterismo', 'Las inyecciones', 'El jarabe'], correct: 3 },
+      { question: '¿Cómo reacciona el médico cuando José Luis elige el jarabe?', options: ['Lo apoya totalmente', 'Dice que ha perdido la cabeza', 'Le da la receta', 'Se alegra por la decisión'], correct: 1 },
+      { question: '¿Cuál es el tono general de este diálogo?', options: ['Dramático y triste', 'Cómico y absurdo', 'Técnico y médico', 'Romántico'], correct: 1 },
+      { question: '¿Por qué el diálogo es humorístico?', options: ['Porque el médico cuenta chistes', 'Porque la opción más segura es la más simple y casera', 'Porque el paciente se muere', 'Porque el hospital es divertido'], correct: 1 },
+      { question: '¿Qué frase del médico muestra que está indignado?', options: ['Verá, José Luis', 'Me temo que no', '¡Ha perdido usted la cabeza!', 'Es su vida'], correct: 2 },
+      { question: '¿Qué dice José Luis cuando decide tomar el jarabe?', options: ['Tengo miedo', 'Me voy a arriesgar', 'No quiero operarme', 'Prefiero el cateterismo'], correct: 1 }
+    ]
+  },
+
+  'ex-10-2-12': {
+    id: 'ex-10-2-12',
+    type: 'fillblank',
+    title: 'Gramática: Pretérito Perfecto, Indefinido, Imperfecto, Imperativo Afirmativo',
+    description: 'Вставьте глагол в правильном времени: Pretérito Perfecto, Indefinido, Imperfecto или Imperativo Afirmativo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'El médico le ___ (decir, Indef.) la verdad sin rodeos ayer. ', correct: 'dijo', alternatives: [] },
+      { sentence: 'Hasta ahora no ___ (encontrar, Perf.) otro tratamiento para el paciente.', correct: 'hemos encontrado', alternatives: ['han encontrado'] },
+      { sentence: 'Cuando era joven, José Luis ___ (tener, Imperf.) mucho miedo a las operaciones.', correct: 'tenía', alternatives: [] },
+      { sentence: '¡___ (tomar, Imper. tú) el jarabe tres veces al día!', correct: 'Toma', alternatives: [] },
+      { sentence: 'El cirujano ___ (realizar, Indef.) la intervención la semana pasada.', correct: 'realizó', alternatives: [] },
+      { sentence: 'El paciente nunca ___ (estar, Perf.) en un quirófano antes.', correct: 'ha estado', alternatives: [] },
+      { sentence: 'De niño, siempre ___ (ir, Imperf.) al mismo médico de familia.', correct: 'iba', alternatives: [] },
+      { sentence: '¡___ (decir, Imper. tú) la verdad al paciente, no le engañes!', correct: 'Di', alternatives: ['Dile'] },
+      { sentence: 'Ayer el doctor ___ (estudiar, Indef.) todas las posibilidades.', correct: 'estudió', alternatives: [] },
+      { sentence: 'Hasta el momento nadie ___ (superar, Perf.) este tipo de intervención.', correct: 'ha superado', alternatives: [] },
+      { sentence: 'Antes las operaciones a corazón abierto ___ (ser, Imperf.) imposibles.', correct: 'eran', alternatives: [] },
+      { sentence: '¡___ (poner, Imper. tú) la inyección en el muslo, no en el brazo!', correct: 'Pon', alternatives: [] },
+      { sentence: 'José Luis ___ (optar, Indef.) por el jarabe al final del diálogo.', correct: 'optó', alternatives: [] },
+      { sentence: 'El médico siempre ___ (recomendar, Imperf.) las intervenciones más complejas.', correct: 'recomendaba', alternatives: [] },
+      { sentence: '¡___ (hacer, Imper. tú) caso al médico y no ___ (arriesgar, Imper. tú) tu vida!', correct: 'Haz', alternatives: ['Hazle'] }
+    ]
+  },
+
+  'ex-10-2-13': {
+    id: 'ex-10-2-13',
+    type: 'translation',
+    title: 'Traducción: Una intervención peligrosa',
+    description: 'Переведите предложения с русского на испанский, используя Pretérito Perfecto, Indefinido, Imperfecto и Imperativo Afirmativo',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Врач сказал ему правду без обиняков.', correct: 'El médico le dijo la verdad sin rodeos.', alternatives: ['El doctor le dijo la verdad sin andar con rodeos.'] },
+      { russian: 'Операция длилась пятнадцать часов и была очень опасной.', correct: 'La operación duró quince horas y fue muy peligrosa.', alternatives: ['La intervención duró quince horas y fue muy peligrosa.'] },
+      { russian: 'Раньше такие операции на открытом сердце были невозможны.', correct: 'Antes las operaciones a corazón abierto eran imposibles.', alternatives: ['Antes este tipo de operaciones a corazón abierto eran imposibles.'] },
+      { russian: 'Скажи мне правду, доктор, есть ли другое лечение?', correct: 'Dime la verdad, doctor, ¿hay otro tratamiento?', alternatives: ['Dime la verdad, doctor, ¿existe otro tratamiento?'] },
+      { russian: 'Мы изучили все возможности и не нашли лучшего варианта.', correct: 'Hemos estudiado todas las posibilidades y no hemos encontrado una opción mejor.', alternatives: ['Estudiamos todas las posibilidades y no encontramos una opción mejor.'] },
+      { russian: 'Когда он был ребёнком, он всегда боялся операционной.', correct: 'Cuando era niño, siempre tenía miedo al quirófano.', alternatives: ['Cuando era pequeño, siempre le tenía miedo al quirófano.'] },
+      { russian: 'Примени эту мазь на бедро два раза в день!', correct: '¡Aplica esta pomada en el muslo dos veces al día!', alternatives: ['¡Aplícate esta pomada en el muslo dos veces al día!'] },
+      { russian: 'На самом деле, шанс выживания не превышал одного процента.', correct: 'De hecho, el margen de supervivencia no superaba el 1 %.', alternatives: ['De hecho, la posibilidad de supervivencia no superaba el uno por ciento.'] },
+      { russian: 'Вчера пациент предпочёл катетеризацию вместо операции.', correct: 'Ayer el paciente optó por el cateterismo en vez de la operación.', alternatives: ['Ayer el paciente eligió el cateterismo en lugar de la operación.'] },
+      { russian: 'Боюсь, что другого выхода нет.', correct: 'Me temo que no hay otra salida.', alternatives: ['Me temo que no existe otra salida.'] },
+      { russian: 'Выпей этот сироп и отдохни!', correct: '¡Toma este jarabe y descansa!', alternatives: ['¡Bebe este jarabe y descansa!', '¡Tómate este jarabe y descansa!'] },
+      { russian: 'Он потерял голову, когда услышал про операцию.', correct: 'Perdió la cabeza cuando oyó lo de la operación.', alternatives: ['Ha perdido la cabeza cuando ha oído lo de la operación.'] },
+      { russian: 'Раньше врачи не рисковали делать такие сложные операции.', correct: 'Antes los médicos no arriesgaban hacer operaciones tan complicadas.', alternatives: ['Antes los médicos no se arriesgaban a hacer operaciones tan complicadas.'] },
+      { russian: 'Я решил рискнуть и выбрал самый простой вариант.', correct: 'Decidí arriesgarme y opté por la opción más sencilla.', alternatives: ['Me arriesgué y elegí la opción más simple.'] },
+      { russian: 'Сделай анализ крови и приходи с результатами через два дня!', correct: '¡Haz un análisis de sangre y ven con los resultados dentro de dos días!', alternatives: ['¡Hazte un análisis de sangre y vuelve con los resultados en dos días!'] }
     ]
   },
 
