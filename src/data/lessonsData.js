@@ -17021,18 +17021,73 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
       }
     ],
     vocabulary: [
-      { word: 'el chiste', translation: 'шутка, анекдот' },
-      { word: 'el remedio', translation: 'лекарство, средство' },
-      { word: 'el humor', translation: 'юмор' },
-      { word: 'reír', translation: 'смеяться' },
-      { word: 'la risa', translation: 'смех' },
-      { word: 'gracioso', translation: 'смешной, забавный' },
-      { word: 'divertido', translation: 'весёлый, забавный' },
-      { word: 'bromear', translation: 'шутить' },
-      { word: 'la broma', translation: 'шутка, розыгрыш' },
-      { word: 'chistoso', translation: 'смешной, остроумный' }
+      {
+        tab: 'El chiste como remedio',
+        words: [
+          { word: 'el chiste', translation: 'шутка, анекдот' },
+          { word: 'el remedio', translation: 'лекарство, средство' },
+          { word: 'el humor', translation: 'юмор' },
+          { word: 'reír', translation: 'смеяться' },
+          { word: 'la risa', translation: 'смех' },
+          { word: 'gracioso', translation: 'смешной, забавный' },
+          { word: 'divertido', translation: 'весёлый, забавный' },
+          { word: 'bromear', translation: 'шутить' },
+          { word: 'la broma', translation: 'шутка, розыгрыш' },
+          { word: 'chistoso', translation: 'смешной, остроумный' }
+        ]
+      },
+      {
+        tab: 'Colón llegó a colar',
+        words: [
+          { word: 'en nombre de', translation: 'от имени, во имя' },
+          { word: 'tomar posesión', translation: 'вступить во владение' },
+          { word: 'por orden y gracia de', translation: 'по поручению' },
+          { word: 'las aduanas', translation: 'таможня' },
+          { word: 'los papeles', translation: 'бумаги, документы' },
+          { word: 'el permiso de entrada', translation: 'разрешение на въезд' },
+          { word: 'el mandato', translation: 'мандат, полномочие' },
+          { word: 'la patera', translation: 'лодка' },
+          { word: 'la carabela', translation: 'каравелла' },
+          { word: 'a bordo', translation: 'на борту' },
+          { word: 'la barca', translation: 'баркас, большая лодка' },
+          { word: 'la tripulación', translation: 'экипаж, команда' },
+          { word: 'penoso', translation: 'тягостный, мучительный' },
+          { word: 'la travesía', translation: 'морское путешествие' },
+          { word: 'colar', translation: 'процеживать, влезть без очереди, просочиться' },
+          { word: 'pedir el asilo', translation: 'запросить убежище' }
+        ]
+      }
     ],
-    exercises: []
+    readingText: [
+      {
+        tab: 'Colón llegó a colar',
+        title: 'Colón llegó a colar',
+        content: `Ante todos los presentes, en nombre de mis señores, los reyes Isabel de Castilla y Fernando de Aragón, tomo posesión de estas tierras que a partir de ahora serán conocidas como San Salvador. Por orden y gracia de...
+
+Buenos días. Papeles, perdón, los papeles. Permiso de entrada al país, visado, permiso de trabajo, lo que sea.
+
+Pero yo no tengo más papeles que el mandato de mis señores, los Reyes de Castilla.
+
+Ya, ya, ya, ya. En la patera, ¿cuántos vienen?
+
+Patera, carabela. Y a bordo hay más de 120 hombres hambrientos y también enfermos. Bajad de la barca.
+
+Quedaos en la patera. El que no tenga papeles ya se puede ir dando la vuelta.
+
+Perdón, caballero. Mi tripulación y yo llevamos dos meses de penosa travesía en la mar oceana. Yo soy Cristóbal Colón. Bajad la barca.
+
+¡A la patera todo el mundo!
+
+Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles ni han pedido asilo político, son ustedes ilegales y se acabó. Ah.`
+      }
+    ],
+    exerciseTabs: [
+      {
+        tab: 'Colón llegó a colar',
+        exercises: ['ex-17-10-1', 'ex-17-10-2', 'ex-17-10-3', 'ex-17-10-4']
+      }
+    ],
+    exercises: ['ex-17-10-1', 'ex-17-10-2', 'ex-17-10-3', 'ex-17-10-4']
   },
   'lesson-17-11': {
     id: 'lesson-17-11',
@@ -41389,6 +41444,110 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { question: 'Según el video, ¿cuál es la finalidad de nuestra vida?', type: 'open' },
       { question: '¿Qué relación hace el video entre la supraconciencia y la felicidad?', type: 'open' },
       { question: '¿Qué comparación se hace con las experiencias cercanas a la muerte?', type: 'open' }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 17: УРОК 10 - УПРАЖНЕНИЯ (Colón llegó a colar)
+  // =============================================
+
+  'ex-17-10-1': {
+    id: 'ex-17-10-1',
+    type: 'fillblank',
+    title: 'Vocabulario: Colón llegó a colar',
+    description: 'Вставьте слово из скобок (на русском) в правильной форме на испанском',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '___ (От имени) mis señores, los Reyes de Castilla, tomo posesión de estas tierras.', correct: 'En nombre de', alternatives: [] },
+      { sentence: 'Colón quiso ___ (вступить во владение) de las nuevas tierras.', correct: 'tomar posesión', alternatives: [] },
+      { sentence: 'El funcionario de ___ (таможня) le pidió los documentos.', correct: 'aduanas', alternatives: ['las aduanas'] },
+      { sentence: 'No tengo más ___ (документы) que el mandato de mis señores.', correct: 'papeles', alternatives: [] },
+      { sentence: 'Necesitas un ___ (разрешение на въезд) para entrar al país.', correct: 'permiso de entrada', alternatives: [] },
+      { sentence: 'El único documento que tenía era el ___ (мандат) de los Reyes.', correct: 'mandato', alternatives: [] },
+      { sentence: 'Los inmigrantes llegaron en una ___ (лодка) pequeña.', correct: 'patera', alternatives: [] },
+      { sentence: 'Colón no viajó en una patera, sino en una ___ (каравелла).', correct: 'carabela', alternatives: [] },
+      { sentence: '___ (На борту) hay más de 120 hombres hambrientos.', correct: 'A bordo', alternatives: [] },
+      { sentence: 'Los marineros bajaron de la ___ (баркас) al llegar a tierra.', correct: 'barca', alternatives: [] },
+      { sentence: 'La ___ (экипаж) y yo llevamos dos meses navegando.', correct: 'tripulación', alternatives: [] },
+      { sentence: 'Fue una ___ (мучительная) travesía de dos meses.', correct: 'penosa', alternatives: [] },
+      { sentence: 'La ___ (морское путешествие) por el océano fue muy larga.', correct: 'travesía', alternatives: [] },
+      { sentence: 'Se quiere ___ (влезть без очереди), pero no tiene papeles.', correct: 'colar', alternatives: [] },
+      { sentence: 'Si no tienen papeles, deben ___ (запросить убежище) político.', correct: 'pedir asilo', alternatives: ['pedir el asilo'] }
+    ]
+  },
+
+  'ex-17-10-2': {
+    id: 'ex-17-10-2',
+    type: 'reading-comprehension',
+    title: 'Comprensión: Colón llegó a colar',
+    description: 'Ответьте на вопросы по тексту диалога «Colón llegó a colar»',
+    showAnswerOption: true,
+    questions: [
+      { question: '¿En nombre de quién toma posesión Colón de las nuevas tierras?', options: ['En nombre del Papa', 'En nombre de los Reyes Isabel y Fernando', 'En nombre de Portugal', 'En nombre de su tripulación'], correct: 1 },
+      { question: '¿Cómo se llamarán las nuevas tierras según Colón?', options: ['América', 'San Salvador', 'Castilla', 'Nueva España'], correct: 1 },
+      { question: '¿Qué le pide el funcionario a Colón?', options: ['Dinero', 'Los papeles y permisos', 'Su espada', 'Una carta del rey'], correct: 1 },
+      { question: '¿Qué documento tiene Colón?', options: ['Un pasaporte', 'Un visado', 'El mandato de los Reyes de Castilla', 'Un permiso de trabajo'], correct: 2 },
+      { question: '¿Cómo llama el funcionario al barco de Colón?', options: ['Carabela', 'Barca', 'Patera', 'Yate'], correct: 2 },
+      { question: '¿Cuántos hombres hay a bordo de la carabela?', options: ['50', 'Más de 120', '200', '80'], correct: 1 },
+      { question: '¿En qué estado se encuentran los hombres de Colón?', options: ['Sanos y fuertes', 'Hambrientos y enfermos', 'Contentos y descansados', 'Borrachos'], correct: 1 },
+      { question: '¿Cuánto tiempo duró la travesía?', options: ['Una semana', 'Un mes', 'Dos meses', 'Un año'], correct: 2 },
+      { question: '¿Cómo describe Colón la travesía?', options: ['Agradable', 'Rápida', 'Penosa', 'Divertida'], correct: 2 },
+      { question: '¿Qué ordena el funcionario a los que no tienen papeles?', options: ['Que se queden', 'Que se vayan dando la vuelta', 'Que esperen', 'Que paguen una multa'], correct: 1 },
+      { question: '¿Cuál es el juego de palabras con "Colón" y "colar"?', options: ['Que Colón era cocinero', 'Que Colón quiere colarse (entrar sin permiso)', 'Que Colón tenía un colador', 'Que Colón era ilegal'], correct: 1 },
+      { question: '¿Qué acusa el funcionario a Colón y su tripulación?', options: ['De ser piratas', 'De ser ilegales sin papeles ni asilo', 'De ser criminales', 'De robar tierras'], correct: 1 },
+      { question: '¿Cuál es la ironía principal del sketch?', options: ['Que Colón era pobre', 'Que un descubridor histórico es tratado como inmigrante ilegal', 'Que el funcionario no sabe historia', 'Que Colón no sabía navegar'], correct: 1 },
+      { question: '¿Qué tono tiene este diálogo?', options: ['Dramático y serio', 'Romántico', 'Cómico y satírico', 'Técnico'], correct: 2 },
+      { question: '¿Qué tema social trata este sketch de humor?', options: ['La educación', 'La inmigración y la burocracia', 'La historia de España', 'La cocina española'], correct: 1 }
+    ]
+  },
+
+  'ex-17-10-3': {
+    id: 'ex-17-10-3',
+    type: 'fillblank',
+    title: 'Gramática: Pretérito Perfecto, Indefinido e Imperfecto',
+    description: 'Вставьте глагол в правильном времени: Pretérito Perfecto, Indefinido или Imperfecto',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Colón ___ (llegar, Indef.) a América en 1492.', correct: 'llegó', alternatives: [] },
+      { sentence: 'La travesía ___ (durar, Indef.) más de dos meses.', correct: 'duró', alternatives: [] },
+      { sentence: 'Los marineros ___ (estar, Imperf.) hambrientos y enfermos durante el viaje.', correct: 'estaban', alternatives: [] },
+      { sentence: 'Hasta ahora nadie ___ (descubrir, Perf.) estas tierras.', correct: 'ha descubierto', alternatives: [] },
+      { sentence: 'Cuando Colón ___ (llegar, Indef.), el funcionario le ___ (pedir, Indef.) los papeles.', correct: 'llegó', alternatives: [] },
+      { sentence: 'En aquella época no ___ (existir, Imperf.) pasaportes ni visados.', correct: 'existían', alternatives: [] },
+      { sentence: 'Los Reyes de Castilla le ___ (dar, Indef.) un mandato para el viaje.', correct: 'dieron', alternatives: [] },
+      { sentence: 'La tripulación ___ (navegar, Imperf.) día y noche sin descanso.', correct: 'navegaba', alternatives: [] },
+      { sentence: 'Nunca ___ (ver, Perf.) un funcionario de aduanas tan estricto.', correct: 'he visto', alternatives: ['hemos visto'] },
+      { sentence: 'Colón ___ (tomar, Indef.) posesión de las tierras en nombre de los Reyes.', correct: 'tomó', alternatives: [] },
+      { sentence: 'Antes los exploradores ___ (viajar, Imperf.) en carabelas, no en pateras.', correct: 'viajaban', alternatives: [] },
+      { sentence: 'El funcionario ___ (decir, Indef.) que sin papeles no se puede entrar.', correct: 'dijo', alternatives: [] },
+      { sentence: 'Mientras Colón ___ (hablar, Imperf.), el funcionario no le ___ (escuchar, Imperf.).', correct: 'hablaba', alternatives: [] },
+      { sentence: 'Este año muchos inmigrantes ___ (llegar, Perf.) en pateras.', correct: 'han llegado', alternatives: [] },
+      { sentence: 'Colón ___ (querer, Imperf.) entrar, pero no ___ (tener, Imperf.) los documentos.', correct: 'quería', alternatives: [] }
+    ]
+  },
+
+  'ex-17-10-4': {
+    id: 'ex-17-10-4',
+    type: 'translation',
+    title: 'Traducción: Colón llegó a colar',
+    description: 'Переведите предложения с русского на испанский, используя Pretérito Perfecto, Indefinido и Imperfecto',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Колумб прибыл в Америку в 1492 году.', correct: 'Colón llegó a América en 1492.', alternatives: ['Cristóbal Colón llegó a América en 1492.'] },
+      { russian: 'Морское путешествие длилось два месяца и было очень тяжёлым.', correct: 'La travesía duró dos meses y fue muy penosa.', alternatives: ['El viaje por mar duró dos meses y fue muy penoso.'] },
+      { russian: 'На борту было более 120 голодных и больных людей.', correct: 'A bordo había más de 120 hombres hambrientos y enfermos.', alternatives: ['A bordo había más de 120 personas hambrientas y enfermas.'] },
+      { russian: 'Таможенник попросил у него документы и разрешение на въезд.', correct: 'El funcionario de aduanas le pidió los papeles y el permiso de entrada.', alternatives: ['El aduanero le pidió los documentos y el permiso de entrada.'] },
+      { russian: 'У Колумба не было документов, только мандат королей.', correct: 'Colón no tenía papeles, solo el mandato de los Reyes.', alternatives: ['Colón no tenía documentos, solo el mandato de los Reyes.'] },
+      { russian: 'Раньше путешественники плавали на каравеллах, а не на лодках.', correct: 'Antes los viajeros navegaban en carabelas, no en pateras.', alternatives: ['Antes los exploradores viajaban en carabelas, no en barcas.'] },
+      { russian: 'Он вступил во владение землями от имени своих королей.', correct: 'Tomó posesión de las tierras en nombre de sus Reyes.', alternatives: ['Él tomó posesión de las tierras en nombre de sus señores.'] },
+      { russian: 'Экипаж плыл два месяца и был очень уставшим.', correct: 'La tripulación navegó dos meses y estaba muy cansada.', alternatives: ['La tripulación llevaba dos meses navegando y estaba muy cansada.'] },
+      { russian: 'Чиновник сказал, что без документов они нелегалы.', correct: 'El funcionario dijo que sin papeles eran ilegales.', alternatives: ['El funcionario les dijo que sin documentos eran ilegales.'] },
+      { russian: 'Колумб хотел войти, но у него не было визы.', correct: 'Colón quería entrar, pero no tenía visado.', alternatives: ['Colón quería entrar, pero no tenía visa.'] },
+      { russian: 'Они не попросили политического убежища и поэтому их не пустили.', correct: 'No pidieron asilo político y por eso no los dejaron entrar.', alternatives: ['No habían pedido asilo político y por eso no los dejaron pasar.'] },
+      { russian: 'В те времена никто не просил разрешения на въезд.', correct: 'En aquellos tiempos nadie pedía permiso de entrada.', alternatives: ['En aquella época nadie pedía un permiso de entrada.'] },
+      { russian: 'Королева Изабелла дала ему мандат на экспедицию.', correct: 'La reina Isabel le dio el mandato para la expedición.', alternatives: ['La reina Isabel le dio un mandato para la expedición.'] },
+      { russian: 'Матросы были голодные и больные после долгого плавания.', correct: 'Los marineros estaban hambrientos y enfermos después de la larga travesía.', alternatives: ['Los marineros estaban hambrientos y enfermos tras la larga travesía.'] },
+      { russian: 'До сих пор никто не открыл эти земли.', correct: 'Hasta ahora nadie ha descubierto estas tierras.', alternatives: ['Hasta el momento nadie ha descubierto estas tierras.'] }
     ]
   },
 
