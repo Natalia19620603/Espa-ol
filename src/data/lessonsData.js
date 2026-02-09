@@ -7015,6 +7015,10 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'Por Madrid',
         videoUrl: '/video/Por Madrid M4C4.mp4'
+      },
+      {
+        tab: 'Qué te ha dicho',
+        videoUrl: '/video/Que te ha dicho M4C4.mp4'
       }
     ],
     grammar: {
@@ -8069,6 +8073,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Comprando en el mercado fruta',
         videoUrl: '/video/Comprando en el mercado fruta M6C1.mp4'
+      },
+      {
+        tab: 'Madre e hija lista de compra',
+        videoUrl: '/video/Madre e hija lista de compra M6C1.mp4'
       }
     ],
     grammar: {
@@ -11863,6 +11871,10 @@ volante m — зд. направление`
       {
         tab: 'Una intervención peligrosa',
         videoUrl: '/Una intervencion peligrosa M10C2.mp4'
+      },
+      {
+        tab: 'Me encuentro fatal',
+        videoUrl: '/video/Me encuentro fatal M10C2.mp4'
       }
     ],
     grammar: {
