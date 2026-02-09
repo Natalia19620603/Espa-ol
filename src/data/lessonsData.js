@@ -16428,6 +16428,122 @@ Le preguntaban a Giacomo Puccini cómo es que usted es capaz de hacer una ópera
           { word: 'observar', translation: 'наблюдать, рассматривать' },
           { word: 'medir', translation: 'быть ростом' }
         ]
+      },
+      {
+        tab: 'Animales Transparentes: Introducción',
+        words: [
+          { word: 'la transparencia', translation: 'прозрачность' },
+          { word: 'utilizar', translation: 'пользоваться, использовать' },
+          { word: 'camuflarse', translation: 'маскировать(ся), камуфлировать' },
+          { word: 'mostrar', translation: 'показывать' },
+          { word: 'dentro', translation: 'внутри, в' },
+          { word: 'traer', translation: 'приносить, привозить' },
+          { word: 'conocer', translation: 'знать, быть знакомым' }
+        ]
+      },
+      {
+        tab: 'Animales Transparentes: Ranas y pez duende',
+        words: [
+          { word: 'la rana', translation: 'лягушка' },
+          { word: 'de cristal', translation: 'стеклянный' },
+          { word: 'de vidrio', translation: 'стеклянный' },
+          { word: 'provenir', translation: 'происходить, проистекать' },
+          { word: 'el abdomen', translation: 'живот' },
+          { word: 'la piel', translation: 'кожа, кожура' },
+          { word: 'el hígado', translation: 'печень' },
+          { word: 'el tracto digestivo', translation: 'пищеварительный тракт' },
+          { word: 'el vaso', translation: 'чашка, стакан, сосуд' },
+          { word: 'sanguíneo', translation: 'кровеносный, кровяной' },
+          { word: 'el duende', translation: 'эльф, домовой' },
+          { word: 'la criatura', translation: 'создание, существо' },
+          { word: 'raro', translation: 'странный, редкий' },
+          { word: 'esconder', translation: 'прятать, скрывать' },
+          { word: 'el fondo', translation: 'дно, фон' },
+          { word: 'el olfato', translation: 'обоняние, нюх' },
+          { word: 'olfativo', translation: 'обонятельный' },
+          { word: 'la fosa nasal', translation: 'носовая полость' },
+          { word: 'verdadero', translation: 'истинный, настоящий' },
+          { word: 'aparecer', translation: 'появляться, показываться' },
+          { word: 'el interior', translation: 'интерьер, внутренняя часть' },
+          { word: 'la cabeza', translation: 'голова' }
+        ]
+      },
+      {
+        tab: 'Animales Transparentes: Mariposa y pez India',
+        words: [
+          { word: 'la mariposa', translation: 'бабочка' },
+          { word: 'las alas', translation: 'крылья' },
+          { word: 'recibir', translation: 'получать, принимать' },
+          { word: 'deber', translation: 'быть должным, обязанным' },
+          { word: 'el tejido', translation: 'ткань, материя' },
+          { word: 'carecer', translation: 'испытывать недостаток' },
+          { word: 'las escamas', translation: 'чешуя' },
+          { word: 'a lo largo', translation: 'на протяжении' },
+          { word: 'desarrollar', translation: 'развивать, разрабатывать' },
+          { word: 'ocultarse', translation: 'прятаться, скрываться' },
+          { word: 'el depredador', translation: 'хищник' },
+          { word: 'el cuerpo', translation: 'тело, туловище' },
+          { word: 'permitir', translation: 'позволять, разрешать' },
+          { word: 'distinguir', translation: 'отличать, различать' },
+          { word: 'entero', translation: 'полностью' }
+        ]
+      },
+      {
+        tab: 'Animales Transparentes: Pepino y camarón',
+        words: [
+          { word: 'el pepino', translation: 'огурец' },
+          { word: 'extraño', translation: 'удивительный, странный, чужой' },
+          { word: 'medir', translation: 'мерить, измерять' },
+          { word: 'largo', translation: 'длинный, долгий' },
+          { word: 'descubrir', translation: 'открывать, обнаруживать' },
+          { word: 'el científico', translation: 'ученый, научный' },
+          { word: 'increíble', translation: 'невероятный' },
+          { word: 'moverse', translation: 'двигаться, трогаться (с места); уходить (o > ue)' },
+          { word: 'a través', translation: 'через' },
+          { word: 'el camarón', translation: 'мелкая креветка' },
+          { word: 'indicar', translation: 'указывать, показывать' },
+          { word: 'depender', translation: 'зависеть' },
+          { word: 'la alimentación', translation: 'питание, пища' },
+          { word: 'tornarse', translation: 'становиться' },
+          { word: 'la hembra', translation: 'самка' },
+          { word: 'elevado', translation: 'высокий, значительный' }
+        ]
+      },
+      {
+        tab: 'Animales Transparentes: Nueces y phronima',
+        words: [
+          { word: 'la nuez', translation: 'орех; грецкий орех' },
+          { word: 'la especie', translation: 'вид' },
+          { word: 'la vértebra', translation: 'позвонок' },
+          { word: 'los vertebrados', translation: 'позвоночные' },
+          { word: 'los invertebrados', translation: 'беспозвоночные' },
+          { word: 'el mundo', translation: 'мир, земля, вселенная' },
+          { word: 'poseer', translation: 'владеть, обладать' },
+          { word: 'el peine', translation: 'расческа, гребень' },
+          { word: 'el brillo', translation: 'блеск, сверкание' },
+          { word: 'el arcoíris', translation: 'радуга' },
+          { word: 'amenazado', translation: 'под угрозой' },
+          { word: 'diminuto', translation: 'крошечный, очень маленький' },
+          { word: 'exceder', translation: 'выходить за пределы, превышать' },
+          { word: 'la ferocidad', translation: 'свирепость, жестокость' },
+          { word: 'la presa', translation: 'добыча, жертва' },
+          { word: 'lograr', translation: 'достигать, добиваться' },
+          { word: 'percatarse', translation: 'заметить, обратить внимание' },
+          { word: 'las garras', translation: 'когти' },
+          { word: 'la tripulación', translation: 'экипаж, команда' },
+          { word: 'el submarino', translation: 'подводная лодка' }
+        ]
+      },
+      {
+        tab: 'Animales Transparentes: Pez gato y calamares',
+        words: [
+          { word: 'utilizar', translation: 'пользоваться, использовать' },
+          { word: 'sin embargo', translation: 'однако, тем не менее' },
+          { word: 'la plata', translation: 'серебро' },
+          { word: 'plateado', translation: 'серебристый' },
+          { word: 'saltón', translation: 'выпученный' },
+          { word: 'la glándula', translation: 'железа' }
+        ]
       }
     ],
     readingText: [
@@ -16504,6 +16620,62 @@ El cordiceps inunda el cuerpo de la hormiga con compuestos químicos que viajan 
 
 Las esporas flotan buscando a su próxima víctima, asegurando el ciclo de vida de uno de los parásitos más aterradores del planeta. Un recordatorio brutal de que en la naturaleza a veces la supervivencia de uno significa el control total y la destrucción de otro.`,
         translation: ``
+      },
+      {
+        tab: 'Animales Transparentes: Introducción',
+        title: 'Animales transparentes: Introducción',
+        content: `La transparencia es una cualidad que muy pocos animales tienen. Algunos la utilizan para camuflarse y otros muestran todo lo que tienen dentro. Yo soy Luis y aquí les traigo 10 animales transparentes que probablemente no conocías.`,
+        translation: `Прозрачность — это качество, которым обладают очень немногие животные. Некоторые используют её для маскировки, а другие показывают всё, что у них внутри. Я Луис, и здесь я представляю вам 10 прозрачных животных, о которых вы, вероятно, не знали.`
+      },
+      {
+        tab: 'Animales Transparentes: Ranas y pez duende',
+        title: 'Ranas de cristal y pez duende',
+        content: `Las ranas de cristal son también conocidas como ranas de vidrio y provienen de los bosques de América. Aunque su coloración general es el verde lima, la piel del abdomen suele ser transparente, de tal forma que es posible ver el hígado, el tracto digestivo y algunos vasos sanguíneos a través de ella.
+
+El pez duende es una de las criaturas más raras escondidas en el fondo del océano. Los dos puntos que se ven arriba de su boca no son sus ojos; son, en realidad, órganos olfativos muy similares a las fosas nasales humanas. Sus verdaderos ojos son los dos órganos verdes que aparecen en el interior de su cabeza transparente.`,
+        translation: `Стеклянные лягушки также известны как стеклянные лягушки и происходят из лесов Америки. Хотя их общая окраска — зелёный лайм, кожа на животе обычно прозрачная, так что можно увидеть печень, пищеварительный тракт и некоторые кровеносные сосуды сквозь неё.
+
+Рыба-домовой — одно из самых странных созданий, скрывающихся на дне океана. Две точки, которые видны над её ртом, — это не глаза; на самом деле это обонятельные органы, очень похожие на носовые полости человека. Её настоящие глаза — два зелёных органа, которые видны внутри её прозрачной головы.`
+      },
+      {
+        tab: 'Animales Transparentes: Mariposa y pez India',
+        title: 'Mariposa alas de cristal y pez de cristal de la India',
+        content: `Mariposa alas de cristal: La mariposa alas de cristal recibe su nombre debido a que el tejido entre las venas de sus alas parece de vidrio, ya que carece de las escamas de colores que se encuentran en otras mariposas. A lo largo de los milenios han desarrollado estas alas específicamente para ocultarse de los depredadores y camuflarse en cualquier paisaje.
+
+El pez de cristal de la India es uno de los peces más curiosos y raros que podemos encontrar en los acuarios debido a la transparencia de su cuerpo, que permite distinguir su esqueleto y sus órganos internos sin problemas, hasta el punto que parece que el animal entero es de cristal.`,
+        translation: `Стеклокрылая бабочка: Стеклокрылая бабочка получила своё название из-за того, что ткань между жилками её крыльев выглядит как стекло, поскольку у неё нет цветных чешуек, которые есть у других бабочек. На протяжении тысячелетий они развивали эти крылья специально для того, чтобы прятаться от хищников и маскироваться в любом пейзаже.
+
+Стеклянная рыбка из Индии — одна из самых любопытных и редких рыб, которых можно найти в аквариумах, благодаря прозрачности её тела, которая позволяет различить скелет и внутренние органы без проблем, до такой степени, что кажется, будто всё животное целиком сделано из стекла.`
+      },
+      {
+        tab: 'Animales Transparentes: Pepino y camarón',
+        title: 'Pepino de mar transparente y camarón fantasma',
+        content: `Pepino de mar transparente: Esta extraña criatura mide entre 10 y 30 cm de largo. Fue descubierta por científicos en el Golfo de México a casi 3,000 m de profundidad y su mayor particularidad es su increíble transparencia, ya que fácilmente podemos ver su aparato digestivo moviéndose a través de su cuerpo.
+
+El camarón fantasma es también conocido como camarón de vidrio y, como su nombre lo indica, es casi transparente; pero esta característica depende principalmente del tipo de alimentación que tengan, ya que pueden tornarse marrones, verdes y hasta azules. Las hembras ponen una elevada cantidad de pequeños huevos y, gracias a su transparencia, es posible verlos dentro de sus cuerpos.`,
+        translation: `Прозрачный морской огурец: Это удивительное создание имеет длину от 10 до 30 см. Оно было обнаружено учёными в Мексиканском заливе на глубине почти 3000 м, и его главная особенность — невероятная прозрачность, поскольку мы легко можем видеть его пищеварительный аппарат, движущийся сквозь его тело.
+
+Креветка-призрак также известна как стеклянная креветка, и, как следует из названия, она почти прозрачна; но эта характеристика зависит главным образом от типа питания, поскольку они могут становиться коричневыми, зелёными и даже голубыми. Самки откладывают большое количество маленьких яиц, и, благодаря своей прозрачности, их можно видеть внутри их тел.`
+      },
+      {
+        tab: 'Animales Transparentes: Nueces y phronima',
+        title: 'Nueces de mar y phronima',
+        content: `Las nueces de mar son un grupo de unas 100 especies de invertebrados que pueden llegar a medir entre 5 cm y 2 m de longitud. Son criaturas exclusivamente marinas y se encuentran en todos los océanos del mundo. Además, poseen un cuerpo con forma ovalada y transparente con ocho columnas de peines bioluminiscentes, los cuales muestran un brillo de arcoíris cuando el animal se siente amenazado.
+
+La phronima: Esta criatura parecida a un camarón puede tener un tamaño diminuto (casi nunca excede los 3 cm de largo), pero posee una ferocidad extrema. Su cuerpo transparente se hace uno con el agua, por lo que sus presas nunca logran percatarse del ataque de sus garras. Estos animales viven en el mar a grandes profundidades y usualmente solo son vistos por las tripulaciones de submarinos.`,
+        translation: `Морские орехи — это группа из примерно 100 видов беспозвоночных, которые могут достигать длины от 5 см до 2 м. Это исключительно морские создания, и они встречаются во всех океанах мира. Кроме того, они обладают телом овальной и прозрачной формы с восемью колонками биолюминесцентных гребней, которые показывают радужное сверкание, когда животное чувствует угрозу.
+
+Фронима: Это создание, похожее на креветку, может иметь крошечный размер (почти никогда не превышает 3 см в длину), но обладает экстремальной свирепостью. Её прозрачное тело сливается с водой, поэтому её жертвы никогда не успевают заметить атаку её когтей. Эти животные живут в море на больших глубинах и обычно видны только экипажам подводных лодок.`
+      },
+      {
+        tab: 'Animales Transparentes: Pez gato y calamares',
+        title: 'Pez gato de cristal y calamares transparentes',
+        content: `El pez gato de cristal es uno de los vertebrados más transparentes que existen en el planeta. En el medio natural utiliza esta cualidad como protección ante los depredadores, camuflándose entre la vegetación. Su esqueleto puede verse claramente, así como algunos de sus órganos internos; sin embargo, su cabeza es plateada, siendo la única parte de su cuerpo que no es transparente.
+
+Los calamares transparentes: Existen cerca de 60 especies diferentes de calamares transparentes. Estas criaturas pasan mucho tiempo de sus vidas en aguas poco profundas y con poca luz solar, donde su característica transparente se convierte en un excelente camuflaje. Uno de los más extraños es el calamar cristal de ojos saltones, ya que su único órgano interno visible es la glándula digestiva.`,
+        translation: `Стеклянный сом — один из самых прозрачных позвоночных, существующих на планете. В естественной среде он использует это качество как защиту от хищников, маскируясь среди растительности. Его скелет отчётливо виден, как и некоторые его внутренние органы; однако его голова серебристая, являясь единственной частью тела, которая не прозрачна.
+
+Прозрачные кальмары: Существует около 60 различных видов прозрачных кальмаров. Эти создания проводят много времени своей жизни в неглубоких водах с малым количеством солнечного света, где их прозрачная характеристика становится отличной маскировкой. Один из самых странных — стеклянный кальмар с выпученными глазами, поскольку его единственный видимый внутренний орган — это пищеварительная железа.`
       }
     ],
     exercises: [
