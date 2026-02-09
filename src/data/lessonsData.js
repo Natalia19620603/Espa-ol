@@ -5125,6 +5125,10 @@ María: ¡Vamos!`,
       {
         tab: 'Desayuno francés',
         videoUrl: '/video/Desayuno frances M3C4.mp4'
+      },
+      {
+        tab: 'La comida en España tapas churros',
+        videoUrl: '/video/La comida en España tapas churros M3C4.mp4'
       }
     ],
     grammar: {
@@ -8017,6 +8021,14 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Reserva en el Parador 2',
         videoUrl: '/video/RESERVA EN EL PARADOR 2 M5C3.mp4'
+      },
+      {
+        tab: 'Buen viaje',
+        videoUrl: '/Buen viaje  M5C3.mp4'
+      },
+      {
+        tab: 'Qué meto en la maleta',
+        videoUrl: '/video/Qué meto en la maleta M5C3.mp4'
       }
     ],
     exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-18', 'ex-5-3-4', 'ex-5-3-5', 'ex-5-3-6', 'ex-5-3-7', 'ex-5-3-8', 'ex-5-3-9', 'ex-5-3-10', 'ex-5-3-11', 'ex-5-3-12', 'ex-5-3-13', 'ex-5-3-14', 'ex-5-3-15', 'ex-5-3-16', 'ex-5-3-17', 'ex-5-3-3']
@@ -8075,6 +8087,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Madre e hija lista de compra',
         videoUrl: '/video/Madre e hija lista de compra M6C1.mp4'
+      },
+      {
+        tab: 'Compras ropa rebajas',
+        videoUrl: '/video/Compras ropa rebajas M6C1.mp4'
       }
     ],
     grammar: {
