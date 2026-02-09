@@ -8931,6 +8931,12 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
     id: 'lesson-7-2',
     title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
     moduleId: 'module-7',
+    videoTabs: [
+      {
+        tab: 'Grabaciones en el teléfono',
+        videoUrl: '/video/Grabaciones en el teléfono presente quedamos M7C2.mp4'
+      }
+    ],
     vocabulary: [
       { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
       { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
@@ -11875,6 +11881,10 @@ volante m — зд. направление`
       {
         tab: 'Me encuentro fatal',
         videoUrl: '/video/Me encuentro fatal M10C2.mp4'
+      },
+      {
+        tab: 'Estoy nerviosa',
+        videoUrl: '/video/Estoy nerviosa M10C2.mp4'
       }
     ],
     grammar: {
