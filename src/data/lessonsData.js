@@ -5121,6 +5121,10 @@ María: ¡Vamos!`,
       {
         tab: 'Champiñones por inhalación',
         videoUrl: '/video/Champiñones por inhalación M3C4.mp4'
+      },
+      {
+        tab: 'Desayuno francés',
+        videoUrl: '/video/Desayuno frances M3C4.mp4'
       }
     ],
     grammar: {
@@ -7741,6 +7745,12 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
     id: 'lesson-5-2',
     title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
+    videoTabs: [
+      {
+        tab: 'Diálogos - El tiempo',
+        videoUrl: '/video/DIALOGOS -EL TIEMPO M5C2.mp4'
+      }
+    ],
     vocabulary: [
       {
         tab: 'Существительные',
@@ -8055,6 +8065,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'El fin de semana pasado visité Madrid',
         videoUrl: '/video/EL FIN DE SEMANA PASADO VISITÉ MADRID M6C1.mp4'
+      },
+      {
+        tab: 'Comprando en el mercado fruta',
+        videoUrl: '/video/Comprando en el mercado fruta M6C1.mp4'
       }
     ],
     grammar: {
@@ -11515,6 +11529,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-visita-medica',
         tab: 'Visita médica',
         videoUrl: '/video/Visita medica M10 C1.mp4'
+      },
+      {
+        tab: 'Donde el médico',
+        videoUrl: '/video/Donde el médico M10C1.mp4'
       }
     ],
     grammar: {
