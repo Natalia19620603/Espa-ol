@@ -7749,12 +7749,6 @@ Ahora estoy de vuelta en el hotel. Mañana quiero visitar el Parque Güell y la 
     id: 'lesson-5-2',
     title: 'Урок 2: ПОГОДА И ЯВЛЕНИЯ ПРИРОДЫ',
     moduleId: 'module-5',
-    videoTabs: [
-      {
-        tab: 'Diálogos - El tiempo',
-        videoUrl: '/video/DIALOGOS -EL TIEMPO M5C2.mp4'
-      }
-    ],
     vocabulary: [
       {
         tab: 'Существительные',
@@ -7998,6 +7992,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Conversación en el ascensor',
         videoUrl: '/video/Conversación en el ascensor.mp4'
+      },
+      {
+        tab: 'Diálogos - El tiempo',
+        videoUrl: '/video/DIALOGOS -EL TIEMPO M5C2.mp4'
       }
     ],
     exercises: ['ex-5-2-1', 'ex-5-2-2', 'ex-5-2-3', 'ex-5-2-4', 'ex-5-2-5', 'ex-5-2-6', 'ex-5-2-7', 'ex-5-2-8', 'ex-5-2-9', 'ex-5-2-10', 'ex-5-2-11']
@@ -8929,14 +8927,8 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
 
   'lesson-7-2': {
     id: 'lesson-7-2',
-    title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar и quedar(se)',
+    title: 'Урок 2: Конструкция Al + Infinitivo. Глаголы dejar y quedar(se)',
     moduleId: 'module-7',
-    videoTabs: [
-      {
-        tab: 'Grabaciones en el teléfono',
-        videoUrl: '/video/Grabaciones en el teléfono presente quedamos M7C2.mp4'
-      }
-    ],
     vocabulary: [
       { word: 'dejar algo', translation: 'оставлять / покидать что-либо', audioUrl: null },
       { word: 'dejar a alguien', translation: 'оставлять кого-либо', audioUrl: null },
@@ -9079,6 +9071,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'En el restaurante con cocina cerrada',
         videoUrl: '/video/En el restaurante con cocina cerrada.mp4'
+      },
+      {
+        tab: 'Grabaciones en el teléfono',
+        videoUrl: '/video/Grabaciones en el teléfono presente quedamos M7C2.mp4'
       }
     ]
   },
