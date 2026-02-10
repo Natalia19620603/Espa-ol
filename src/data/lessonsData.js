@@ -2702,6 +2702,10 @@ Los fines de semana son buenos. No voy a la oficina. Puedo descansar y hacer cos
       {
         tab: 'Describir caracter',
         videoUrl: '/video/Describir caracter M2C2.mp4'
+      },
+      {
+        tab: 'Posesivos tónicos',
+        videoUrl: '/video/Posesivos tónicos M2C2.mp4'
       }
     ],
     grammar: {
@@ -4245,6 +4249,10 @@ María: ¡Vamos!`,
       {
         tab: 'Casa, chalets entrevista',
         videoUrl: '/video/Casa, chalets entrevista M3C2.mp4'
+      },
+      {
+        tab: 'El presente irregular',
+        videoUrl: '/video/El presente irregular M3C2.mp4'
       }
     ],
     grammar: {
@@ -5715,6 +5723,14 @@ María: ¡Vamos!`,
       {
         tab: 'Estar más gerundio casa',
         videoUrl: '/video/Estar mas gerundio casa M4C1.mp4'
+      },
+      {
+        tab: 'Verbos reflexivos',
+        videoUrl: '/video/Verbos reflexivos M4C1.mp4'
+      },
+      {
+        tab: 'Estar + gerundio (irregulares)',
+        videoUrl: '/video/Estar + gerundio (irregulares) M4C1.mp4'
       }
     ],
     grammar: {
@@ -8095,6 +8111,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Hábitos de consumo ropa Colombia',
         videoUrl: '/video/Hábitos de consumo ropa Colombia M6C1.mp4'
+      },
+      {
+        tab: 'La ropa en Madrid',
+        videoUrl: '/video/La ropa en Madrid M6C1.mp4'
       }
     ],
     grammar: {
