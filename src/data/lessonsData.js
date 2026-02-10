@@ -17402,32 +17402,120 @@ Albert marca el número en su móvil. Después, saca del bolsillo del pantalón 
       },
       {
         tab: 'Capítulo 3',
-        content: ``,
+        content: `Elena Vidal es periodista del diario «La Voz de Barcelona». Lleva diez años trabajando en la sección de investigación y no tiene miedo de nada. Bueno, casi de nada.
+
+Esa mañana llega temprano a la redacción, se sienta delante de su ordenador y empieza a buscar información. El edificio de la calle Muntaner había ardido tres semanas antes. Los bomberos llegaron rápidamente, pero era demasiado tarde: el fuego ya lo había destruido todo. Las cenizas todavía estaban calientes cuando la policía llegó al lugar del incendio.
+
+«Un accidente», dijo el inspector en la rueda de prensa. Pero Elena no lo cree. Hay algo que no encaja.
+
+Va al archivo del periódico y busca artículos sobre el propietario del edificio: Marcos Ruiz. Encuentra varios artículos de los últimos años. En uno de ellos, de hacía tres años, se habla de un negocio fallido. En otro, de una demanda judicial. Alguien ya había destruido parte de los documentos del archivo antes de que ella llegara, pero quedan suficientes para entender la situación.
+
+—Interesante —murmura Elena—. Muy interesante.
+
+Encuentra una noticia pequeña, casi escondida, de hace dos meses: «La empresa Ruiz Construcciones declara quiebra». Y debajo, en letra pequeña: «El propietario, Marcos Ruiz, debe más de dos millones de euros a varios bancos».
+
+Elena saca una foto con el móvil. Acaba de descubrir un secreto importante. El incendio no fue un accidente. Fue un negocio.`,
         translation: ``
       },
       {
         tab: 'Capítulo 4',
-        content: ``,
+        content: `Elena pasa toda la tarde haciendo llamadas. Habla con antiguos empleados de Ruiz Construcciones, con vecinos del edificio, con un abogado que prefiere no dar su nombre. Poco a poco, el cuadro se va completando.
+
+Marcos Ruiz tenía grandes deudas. Sus negocios habían fracasado uno tras otro: primero una empresa de construcción, luego un hotel en la costa, después un restaurante en el centro. El banco ya no le daba crédito. Sus acreedores le amenazaban: si no pagaba antes de fin de año, se quedaría sin nada.
+
+Entonces tuvo la idea. Un mes antes del incendio, Ruiz contrató un seguro nuevo para el edificio: un seguro de mucho dinero, bastante más de lo que valía el inmueble. Si el edificio ardía, el seguro lo cubriría todo. Podría pagar todas las deudas y empezar de nuevo.
+
+—¿Y usted lo sabe con seguridad? —pregunta Elena al antiguo empleado.
+
+—Yo lo vi con mis propios ojos —responde el hombre—. Marcos me dijo que si alguien preguntaba, que dijera que no sabía nada. Pero yo no quiero problemas.
+
+Esa noche, cuando Elena sale de la redacción, un hombre la espera en la calle.
+
+—Señorita Vidal —dice en voz baja—. Marcos Ruiz sabe que está usted haciendo preguntas. Le aconseja que lo deje estar. Por su propio bien.
+
+Elena le mira fijamente.
+
+—Dígale al señor Ruiz que el periodismo libre no se puede comprar —responde, y se aleja sin mirar atrás.
+
+Esa noche no duerme bien. Pero al día siguiente, llega antes que nadie a la redacción.`,
         translation: ``
       },
       {
         tab: 'Capítulo 5',
-        content: ``,
+        content: `La investigación de Elena avanza rápido. Descubre que Marcos Ruiz no actuó solo: tenía un cómplice, un hombre llamado Sergio Palau, que fue quien prendió el fuego aquella noche. Palau tiene antecedentes penales y trabaja de vez en cuando para Ruiz como «manitas». La policía lo llama «trabajo informal». Elena lo llama de otra manera.
+
+Con esta información, Elena decide seguir a Palau. Lo ve salir de un bar del barrio de Gràcia a las diez de la noche. Lo sigue a distancia, procurando que no la vea.
+
+De repente, Palau se gira. La ha visto. Por un momento, los dos se miran. Luego él echa a correr.
+
+Elena corre también. Palau dobla una esquina y desaparece en un callejón oscuro. Elena se para. El corazón le late muy rápido. El callejón parece vacío, pero no puede estar segura. Tiene miedo. Mucho miedo. Pero piensa en las víctimas del incendio: una familia que lo perdió todo, un anciano que tuvo que ir a vivir con su hija, una pequeña empresa que cerró.
+
+Saca el móvil y llama a la policía.
+
+—Necesito que vengan ahora mismo —dice—. Tengo información sobre el incendio de la calle Muntaner y sé dónde está el responsable.
+
+La policía quiere que el sospechoso no escape. Es importante que nadie se vaya antes de que lleguen los agentes. Elena espera en la entrada del callejón, sin moverse. Cinco minutos después, dos coches patrulla llegan con las luces encendidas.`,
         translation: ``
       },
       {
         tab: 'Capítulo 6',
-        content: ``,
+        content: `Al día siguiente, Elena va a la comisaría y entrega todas las pruebas a la inspectora García: los artículos del archivo, las fotos de los documentos, las grabaciones de las conversaciones con los testigos, el contrato del seguro que había conseguido gracias a una fuente interna del banco.
+
+—Es todo lo que tengo —dice Elena—. ¿Es suficiente?
+
+La inspectora García revisa los documentos en silencio. Luego levanta la vista.
+
+—Es más que suficiente.
+
+Esa misma tarde, el sospechoso Sergio Palau fue detenido por la policía mientras intentaba salir de Barcelona en autobús. Las pruebas fueron presentadas ante el juez de guardia. El crimen fue descubierto gracias al trabajo de la periodista.
+
+Marcos Ruiz fue arrestado al día siguiente en su piso del Eixample. Cuando los agentes llamaron a la puerta, tardó varios minutos en abrir. Llevaba una maleta preparada.
+
+En la comisaría, después de varias horas de interrogatorio, Ruiz confesó su crimen. Dijo que lo había hecho por desesperación, que las deudas lo habían llevado al límite. El incendio fue planeado con cuidado, en un momento en que el edificio estaba vacío, para que no hubiera víctimas. Pero una vecina anciana que había olvidado sus medicamentos casi no lo consigue salir.
+
+Esa noche, Elena escribe un artículo. Lo titula: «Cenizas calientes: el incendio que no fue un accidente». Al día siguiente, es la noticia más leída del periódico.`,
         translation: ``
       },
       {
         tab: 'Capítulo 7',
-        content: ``,
+        content: `El juicio comienza tres meses después, un martes de octubre con lluvia y frío en Barcelona. La sala está llena de periodistas, vecinos del edificio y curiosos. Elena se sienta en la primera fila del público, con su libreta y su bolígrafo.
+
+El juez, un hombre mayor con gafas de montura gruesa, pide que todos estuvieran en silencio antes de comenzar.
+
+—Este tribunal —dice con voz grave— va a examinar los hechos con toda la seriedad que merecen.
+
+El fiscal toma la palabra primero. Presenta todas las pruebas: el contrato del seguro, los testimonios de los testigos, la confesión del acusado, los informes técnicos del incendio. Era importante que el juez viera todos los documentos. Pide una condena severa: ocho años de prisión para Marcos Ruiz y seis para Sergio Palau.
+
+—El acusado no es una víctima de las circunstancias —dice el fiscal—. Es un hombre que puso en peligro la vida de sus vecinos por dinero.
+
+Luego habla el abogado defensor. Es joven, elegante, y habla con mucha seguridad.
+
+—Mi cliente es inocente —declara—. Las pruebas que ha presentado la fiscalía son circunstanciales. La confesión fue obtenida bajo presión psicológica. El señor Ruiz cooperó en todo momento con la justicia.
+
+El fiscal quería que todos vieran las fotos del edificio destruido. El abogado quería que el juez escuchara la versión de su cliente. Los testigos declararon uno por uno. El proceso duró todo el día.
+
+Al final de la jornada, el juez anunció que la sentencia se leería al día siguiente.`,
         translation: ``
       },
       {
         tab: 'Capítulo 8',
-        content: ``,
+        content: `El miércoles por la mañana, la sala del tribunal vuelve a llenarse. Elena llega puntual, con el mismo cuaderno de siempre. Cuando el juez leyó la sentencia, todos guardaron silencio.
+
+—Marcos Ruiz, este tribunal le declara culpable del delito de incendio provocado con ánimo de fraude y de amenazas. La sentencia es de siete años de prisión. Sergio Palau, su cómplice, queda condenado a cinco años.
+
+Un murmullo recorre la sala. Ruiz escucha la sentencia con la mirada baja. Su abogado toma nota en silencio.
+
+El misterio ha sido resuelto gracias a la investigación de Elena Vidal. La periodista sale del tribunal a la calle y respira el aire frío de octubre. Siente un gran alivio. El caso está cerrado. La verdad ha salido a la luz.
+
+La inspectora García se acerca a ella.
+
+—Buen trabajo, Vidal.
+
+—Es lo que hacemos —responde Elena con una sonrisa.
+
+Esa tarde, en la redacción, escribe el artículo final sobre el caso. Lo titula: «Justicia: el misterio de las cenizas calientes queda resuelto». La historia terminó de forma justa. El culpable fue condenado a la cárcel. Los vecinos del edificio, que lo habían perdido todo, por fin pueden pasar página.
+
+Elena guarda el cuaderno en el cajón y apaga el ordenador. Mañana habrá otra historia. Siempre hay otra historia. Pero esta noche, por primera vez en semanas, va a dormir tranquila.`,
         translation: ``
       }
     ],
