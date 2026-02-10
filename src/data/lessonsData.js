@@ -118,7 +118,7 @@ export const modules = {
     id: 'module-17',
     title: 'Модуль 17: Литература и культура (1068 слов)',
     level: 'intermediate',
-    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10', 'lesson-17-11'],
+    lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10', 'lesson-17-11', 'lesson-17-12'],
     description: 'Чтение аутентичных текстов, испанская культура'
   }
 }
@@ -17148,6 +17148,284 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
       { word: 'quien sabe', translation: 'кто знает' }
     ],
     exercises: []
+  },
+
+  'lesson-17-12': {
+    id: 'lesson-17-12',
+    title: 'Урок 12: Cenizas calientes',
+    moduleId: 'module-17',
+    vocabulary: [
+      {
+        tab: 'Capítulo 1',
+        words: [
+          { word: 'las cenizas', translation: 'пепел, зола', audioUrl: null },
+          { word: 'caliente', translation: 'горячий, тёплый', audioUrl: null },
+          { word: 'el incendio', translation: 'пожар', audioUrl: null },
+          { word: 'el bombero', translation: 'пожарный', audioUrl: null },
+          { word: 'arder', translation: 'гореть, пылать', audioUrl: null },
+          { word: 'el humo', translation: 'дым', audioUrl: null },
+          { word: 'la llama', translation: 'пламя, огонь', audioUrl: null },
+          { word: 'el edificio', translation: 'здание', audioUrl: null },
+          { word: 'sospechar', translation: 'подозревать', audioUrl: null },
+          { word: 'la periodista', translation: 'журналистка', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 2',
+        words: [
+          { word: 'la investigación', translation: 'расследование, исследование', audioUrl: null },
+          { word: 'investigar', translation: 'расследовать, исследовать', audioUrl: null },
+          { word: 'el detective', translation: 'детектив', audioUrl: null },
+          { word: 'la pista', translation: 'след, подсказка', audioUrl: null },
+          { word: 'el testigo', translation: 'свидетель', audioUrl: null },
+          { word: 'declarar', translation: 'заявлять, показывать', audioUrl: null },
+          { word: 'la policía', translation: 'полиция, полицейский', audioUrl: null },
+          { word: 'el sospechoso', translation: 'подозреваемый', audioUrl: null },
+          { word: 'el crimen', translation: 'преступление', audioUrl: null },
+          { word: 'el barrio', translation: 'район, квартал', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 3',
+        words: [
+          { word: 'el archivo', translation: 'архив, файл', audioUrl: null },
+          { word: 'la noticia', translation: 'новость, известие', audioUrl: null },
+          { word: 'publicar', translation: 'публиковать, издавать', audioUrl: null },
+          { word: 'el periódico', translation: 'газета', audioUrl: null },
+          { word: 'descubrir', translation: 'обнаруживать, открывать', audioUrl: null },
+          { word: 'el secreto', translation: 'секрет, тайна', audioUrl: null },
+          { word: 'esconder', translation: 'прятать, скрывать', audioUrl: null },
+          { word: 'la verdad', translation: 'правда', audioUrl: null },
+          { word: 'mentir', translation: 'лгать, врать', audioUrl: null },
+          { word: 'el peligro', translation: 'опасность', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 4',
+        words: [
+          { word: 'el propietario', translation: 'владелец, собственник', audioUrl: null },
+          { word: 'el seguro', translation: 'страховка; безопасный', audioUrl: null },
+          { word: 'el dinero', translation: 'деньги', audioUrl: null },
+          { word: 'el negocio', translation: 'бизнес, дело', audioUrl: null },
+          { word: 'la deuda', translation: 'долг', audioUrl: null },
+          { word: 'deber', translation: 'быть должным, долженствовать', audioUrl: null },
+          { word: 'el banco', translation: 'банк; скамейка', audioUrl: null },
+          { word: 'la amenaza', translation: 'угроза', audioUrl: null },
+          { word: 'amenazar', translation: 'угрожать', audioUrl: null },
+          { word: 'el chantaje', translation: 'шантаж', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 5',
+        words: [
+          { word: 'el cómplice', translation: 'сообщник', audioUrl: null },
+          { word: 'el plan', translation: 'план', audioUrl: null },
+          { word: 'planear', translation: 'планировать', audioUrl: null },
+          { word: 'escapar', translation: 'убегать, сбегать', audioUrl: null },
+          { word: 'huir', translation: 'бежать, скрываться', audioUrl: null },
+          { word: 'perseguir', translation: 'преследовать', audioUrl: null },
+          { word: 'el callejón', translation: 'переулок, тупик', audioUrl: null },
+          { word: 'oscuro', translation: 'тёмный, мрачный', audioUrl: null },
+          { word: 'el miedo', translation: 'страх', audioUrl: null },
+          { word: 'tener miedo', translation: 'бояться', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 6',
+        words: [
+          { word: 'la prueba', translation: 'доказательство, улика', audioUrl: null },
+          { word: 'demostrar', translation: 'доказывать, показывать', audioUrl: null },
+          { word: 'confesar', translation: 'признаваться, исповедоваться', audioUrl: null },
+          { word: 'la confesión', translation: 'признание, исповедь', audioUrl: null },
+          { word: 'detener', translation: 'задерживать, останавливать', audioUrl: null },
+          { word: 'arrestar', translation: 'арестовывать', audioUrl: null },
+          { word: 'la cárcel', translation: 'тюрьма', audioUrl: null },
+          { word: 'culpable', translation: 'виновный', audioUrl: null },
+          { word: 'inocente', translation: 'невиновный, невинный', audioUrl: null },
+          { word: 'la justicia', translation: 'справедливость, правосудие', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 7',
+        words: [
+          { word: 'el juicio', translation: 'суд, суждение', audioUrl: null },
+          { word: 'el abogado', translation: 'адвокат', audioUrl: null },
+          { word: 'defender', translation: 'защищать', audioUrl: null },
+          { word: 'acusar', translation: 'обвинять', audioUrl: null },
+          { word: 'el fiscal', translation: 'прокурор', audioUrl: null },
+          { word: 'la sentencia', translation: 'приговор, решение', audioUrl: null },
+          { word: 'condenar', translation: 'осуждать, приговаривать', audioUrl: null },
+          { word: 'absolver', translation: 'оправдывать, освобождать', audioUrl: null },
+          { word: 'el testimonio', translation: 'показание, свидетельство', audioUrl: null },
+          { word: 'el juez', translation: 'судья', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 8',
+        words: [
+          { word: 'el final', translation: 'конец, финал', audioUrl: null },
+          { word: 'resolver', translation: 'решать, разрешать', audioUrl: null },
+          { word: 'el misterio', translation: 'тайна, загадка', audioUrl: null },
+          { word: 'aclarar', translation: 'прояснять, объяснять', audioUrl: null },
+          { word: 'la recompensa', translation: 'награда, вознаграждение', audioUrl: null },
+          { word: 'la libertad', translation: 'свобода', audioUrl: null },
+          { word: 'libre', translation: 'свободный', audioUrl: null },
+          { word: 'tranquilo', translation: 'спокойный', audioUrl: null },
+          { word: 'el alivio', translation: 'облегчение', audioUrl: null },
+          { word: 'terminar', translation: 'заканчивать, завершать', audioUrl: null }
+        ]
+      }
+    ],
+    audioTabs: [
+      {
+        tab: 'CAPÍTULO 1',
+        audioUrl: '/audio/17-12-1.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 2',
+        audioUrl: '/audio/17-12-2.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 3',
+        audioUrl: '/audio/17-12-3.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 4',
+        audioUrl: '/audio/17-12-4.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 5',
+        audioUrl: '/audio/17-12-5.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 6',
+        audioUrl: '/audio/17-12-6.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 7',
+        audioUrl: '/audio/17-12-7.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 8',
+        audioUrl: '/audio/17-12-8.mp3'
+      }
+    ],
+    readingText: [
+      {
+        tab: 'Capítulo 1',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 2',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 3',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 4',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 5',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 6',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 7',
+        content: ``,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 8',
+        content: ``,
+        translation: ``
+      }
+    ],
+    exercises: [
+      {
+        tab: 'Capítulo 1',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-1-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-1-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-1-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-1-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 2',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-2-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-2-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-2-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-2-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 3',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-3-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-3-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-3-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-3-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 4',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-4-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-4-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-4-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-4-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 5',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-5-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-5-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-5-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-5-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 6',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-6-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-6-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-6-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-6-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 7',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-7-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-7-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-7-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-7-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 8',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-8-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-8-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-8-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-8-3'] }
+        ]
+      }
+    ]
   },
 
   // =============================================
@@ -44686,6 +44964,668 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Пусть войдут следующие кандидаты.', correct: '¡Que pasen los siguientes candidatos!', alternatives: ['¡Que entren los siguientes candidatos!'] },
       { russian: 'Хоть бы у нас было больше времени!', correct: '¡Ojalá tengamos más tiempo!', alternatives: ['¡Ojalá tuviéramos más tiempo!'] },
       { russian: 'Возможно, они не хотят с нами разговаривать.', correct: 'Posiblemente no quieran hablar con nosotros.', alternatives: ['Quizás no quieran hablar con nosotros.', 'Tal vez no quieran hablar con nosotros.'] }
+    ]
+  },
+
+  // =============================================
+  // УРОК 17-12: CENIZAS CALIENTES
+  // =============================================
+
+  'ex-17-12-1-vocab': {
+    id: 'ex-17-12-1-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 1',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'las cenizas', options: ['снег', 'лёд', 'пепел, зола', 'вода'], correct: 2 },
+      { spanish: 'caliente', options: ['холодный', 'тёплый, горячий', 'мокрый', 'сухой'], correct: 1 },
+      { spanish: 'el incendio', options: ['наводнение', 'землетрясение', 'ураган', 'пожар'], correct: 3 },
+      { spanish: 'el bombero', options: ['врач', 'полицейский', 'пожарный', 'водитель'], correct: 2 },
+      { spanish: 'arder', options: ['таять', 'замерзать', 'гореть, пылать', 'плавать'], correct: 2 },
+      { spanish: 'el humo', options: ['огонь', 'дым', 'пепел', 'искра'], correct: 1 },
+      { spanish: 'la llama', options: ['дым', 'пепел', 'пламя, огонь', 'вода'], correct: 2 },
+      { spanish: 'el edificio', options: ['улица', 'здание', 'парк', 'мост'], correct: 1 },
+      { spanish: 'sospechar', options: ['доверять', 'подозревать', 'знать', 'видеть'], correct: 1 },
+      { spanish: 'la periodista', options: ['учительница', 'врач', 'журналистка', 'певица'], correct: 2 }
+    ]
+  },
+
+  'ex-17-12-1-1': {
+    id: 'ex-17-12-1-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 1',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Quién investiga el incendio?',
+        options: ['Un policía', 'Una periodista', 'Un bombero', 'Un detective'],
+        correct: 1,
+        explanation: 'La protagonista es una periodista que investiga el incendio.'
+      },
+      {
+        text: '¿Qué queda después del incendio?',
+        options: ['Agua', 'Hielo', 'Cenizas', 'Humo solamente'],
+        correct: 2,
+        explanation: 'Después del incendio quedan cenizas calientes.'
+      },
+      {
+        text: '¿Cómo están las cenizas?',
+        options: ['Frías', 'Húmedas', 'Calientes', 'Negras'],
+        correct: 2,
+        explanation: 'Las cenizas todavía están calientes.'
+      }
+    ]
+  },
+
+  'ex-17-12-1-2': {
+    id: 'ex-17-12-1-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 1 - Pretérito Indefinido',
+    description: 'Выберите правильную форму глагола в Pretérito Indefinido',
+    questions: [
+      {
+        text: 'El incendio _____ toda la noche. (arder)',
+        options: ['ardió', 'ardía', 'ha ardido', 'ardería'],
+        correct: 0,
+        explanation: 'Pretérito Indefinido: ardió (3 лицо ед.ч.)'
+      },
+      {
+        text: 'Los bomberos _____ rápidamente. (llegar)',
+        options: ['llegaban', 'llegaron', 'llegan', 'llegarán'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: llegaron (3 лицо мн.ч.)'
+      },
+      {
+        text: 'La periodista _____ al lugar del incendio. (ir)',
+        options: ['fue', 'iba', 'ha ido', 'irá'],
+        correct: 0,
+        explanation: 'Pretérito Indefinido: fue (неправ. глагол ir)'
+      },
+      {
+        text: 'Nadie _____ qué pasó. (saber)',
+        options: ['sabía', 'supo', 'sabe', 'sabrá'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: supo (неправ. глагол saber)'
+      }
+    ]
+  },
+
+  'ex-17-12-1-3': {
+    id: 'ex-17-12-1-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 1',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Пожар начался ночью.', correct: 'El incendio empezó por la noche.', alternatives: ['El incendio comenzó por la noche.'] },
+      { russian: 'Пожарные приехали быстро.', correct: 'Los bomberos llegaron rápidamente.', alternatives: ['Los bomberos vinieron rápido.'] },
+      { russian: 'Пепел ещё был горячим.', correct: 'Las cenizas todavía estaban calientes.', alternatives: ['Las cenizas aún estaban calientes.'] },
+      { russian: 'Журналистка начала расследование.', correct: 'La periodista empezó la investigación.', alternatives: ['La periodista comenzó la investigación.'] }
+    ]
+  },
+
+  'ex-17-12-2-vocab': {
+    id: 'ex-17-12-2-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 2',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la investigación', options: ['прогулка', 'расследование, исследование', 'праздник', 'встреча'], correct: 1 },
+      { spanish: 'el detective', options: ['журналист', 'полицейский', 'детектив', 'судья'], correct: 2 },
+      { spanish: 'la pista', options: ['дорога', 'след, подсказка', 'карта', 'записка'], correct: 1 },
+      { spanish: 'el testigo', options: ['обвиняемый', 'судья', 'адвокат', 'свидетель'], correct: 3 },
+      { spanish: 'declarar', options: ['молчать', 'кричать', 'заявлять, показывать', 'слушать'], correct: 2 },
+      { spanish: 'el sospechoso', options: ['виновный', 'невиновный', 'подозреваемый', 'свидетель'], correct: 2 },
+      { spanish: 'el crimen', options: ['закон', 'порядок', 'преступление', 'наказание'], correct: 2 },
+      { spanish: 'el barrio', options: ['город', 'район, квартал', 'улица', 'дом'], correct: 1 }
+    ]
+  },
+
+  'ex-17-12-2-1': {
+    id: 'ex-17-12-2-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 2',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace la protagonista en el capítulo 2?',
+        options: ['Descansa', 'Investiga el incendio', 'Viaja', 'Trabaja en casa'],
+        correct: 1,
+        explanation: 'La protagonista investiga el incendio buscando pistas.'
+      },
+      {
+        text: '¿Con quién habla la periodista?',
+        options: ['Con el alcalde', 'Con los testigos', 'Con el juez', 'Con el abogado'],
+        correct: 1,
+        explanation: 'La periodista habla con los testigos del incendio.'
+      },
+      {
+        text: '¿Qué encuentra la periodista?',
+        options: ['Dinero', 'Una pista importante', 'Un arma', 'Una carta'],
+        correct: 1,
+        explanation: 'La periodista encuentra una pista importante.'
+      }
+    ]
+  },
+
+  'ex-17-12-2-2': {
+    id: 'ex-17-12-2-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 2 - Pretérito Imperfecto',
+    description: 'Выберите правильную форму глагола в Pretérito Imperfecto',
+    questions: [
+      {
+        text: 'Cuando era pequeña, siempre _____ las noticias. (leer)',
+        options: ['leyó', 'leía', 'ha leído', 'leerá'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: leía - описание привычного действия в прошлом'
+      },
+      {
+        text: 'Los testigos _____ muy nerviosos. (estar)',
+        options: ['estuvieron', 'estaban', 'están', 'estarán'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: estaban - описание состояния в прошлом'
+      },
+      {
+        text: 'Todos _____ qué había pasado. (saber)',
+        options: ['supieron', 'sabían', 'saben', 'sabrán'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: sabían - состояние знания в прошлом'
+      }
+    ]
+  },
+
+  'ex-17-12-2-3': {
+    id: 'ex-17-12-2-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 2',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Свидетели видели подозреваемого.', correct: 'Los testigos vieron al sospechoso.', alternatives: ['Los testigos han visto al sospechoso.'] },
+      { russian: 'Детектив искал улики.', correct: 'El detective buscaba las pistas.', alternatives: ['El detective buscó las pistas.'] },
+      { russian: 'Журналистка задавала вопросы.', correct: 'La periodista hacía preguntas.', alternatives: ['La periodista hizo preguntas.'] }
+    ]
+  },
+
+  'ex-17-12-3-vocab': {
+    id: 'ex-17-12-3-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 3',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el archivo', options: ['библиотека', 'музей', 'архив, файл', 'офис'], correct: 2 },
+      { spanish: 'la noticia', options: ['книга', 'письмо', 'новость, известие', 'журнал'], correct: 2 },
+      { spanish: 'publicar', options: ['читать', 'писать', 'публиковать, издавать', 'покупать'], correct: 2 },
+      { spanish: 'descubrir', options: ['прятать', 'обнаруживать, открывать', 'забывать', 'терять'], correct: 1 },
+      { spanish: 'el secreto', options: ['правда', 'ложь', 'секрет, тайна', 'слух'], correct: 2 },
+      { spanish: 'esconder', options: ['показывать', 'прятать, скрывать', 'находить', 'искать'], correct: 1 },
+      { spanish: 'la verdad', options: ['ложь', 'секрет', 'правда', 'слух'], correct: 2 },
+      { spanish: 'el peligro', options: ['спокойствие', 'безопасность', 'удача', 'опасность'], correct: 3 }
+    ]
+  },
+
+  'ex-17-12-3-1': {
+    id: 'ex-17-12-3-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 3',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué busca la periodista en el archivo?',
+        options: ['Fotos antiguas', 'Información sobre el propietario', 'Una receta', 'Una dirección'],
+        correct: 1,
+        explanation: 'La periodista busca información sobre el propietario del edificio quemado.'
+      },
+      {
+        text: '¿Qué descubre la periodista?',
+        options: ['Que el incendio fue accidental', 'Un secreto importante', 'Que no hay pistas', 'La identidad del bombero'],
+        correct: 1,
+        explanation: 'La periodista descubre un secreto importante relacionado con el incendio.'
+      }
+    ]
+  },
+
+  'ex-17-12-3-2': {
+    id: 'ex-17-12-3-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 3 - Pluscuamperfecto',
+    description: 'Выберите правильную форму Pluscuamperfecto',
+    questions: [
+      {
+        text: 'Cuando llegué, alguien ya _____ los documentos. (destruir)',
+        options: ['destruyó', 'destruía', 'había destruido', 'destruirá'],
+        correct: 2,
+        explanation: 'Pluscuamperfecto: había destruido - действие, завершённое до другого прошлого действия'
+      },
+      {
+        text: 'La periodista _____ algo sospechoso antes. (ver)',
+        options: ['vio', 'veía', 'había visto', 'verá'],
+        correct: 2,
+        explanation: 'Pluscuamperfecto: había visto - предшествующее прошедшее'
+      },
+      {
+        text: 'Nadie _____ la verdad hasta ese momento. (saber)',
+        options: ['supo', 'sabía', 'había sabido', 'sabrá'],
+        correct: 2,
+        explanation: 'Pluscuamperfecto: había sabido - действие до определённого момента в прошлом'
+      }
+    ]
+  },
+
+  'ex-17-12-3-3': {
+    id: 'ex-17-12-3-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 3',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Кто-то уже уничтожил документы.', correct: 'Alguien ya había destruido los documentos.', alternatives: ['Alguien ya destruyó los documentos.'] },
+      { russian: 'Журналистка обнаружила важную тайну.', correct: 'La periodista descubrió un secreto importante.', alternatives: ['La periodista ha descubierto un secreto importante.'] },
+      { russian: 'Правда была скрыта.', correct: 'La verdad estaba escondida.', alternatives: ['La verdad fue escondida.'] }
+    ]
+  },
+
+  'ex-17-12-4-vocab': {
+    id: 'ex-17-12-4-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 4',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el propietario', options: ['арендатор', 'владелец, собственник', 'управляющий', 'сосед'], correct: 1 },
+      { spanish: 'el seguro', options: ['опасный', 'страховка; безопасный', 'долг', 'налог'], correct: 1 },
+      { spanish: 'la deuda', options: ['прибыль', 'налог', 'долг', 'зарплата'], correct: 2 },
+      { spanish: 'deber', options: ['получать', 'зарабатывать', 'тратить', 'быть должным'], correct: 3 },
+      { spanish: 'la amenaza', options: ['обещание', 'угроза', 'просьба', 'вопрос'], correct: 1 },
+      { spanish: 'amenazar', options: ['просить', 'угрожать', 'требовать', 'предлагать'], correct: 1 },
+      { spanish: 'el chantaje', options: ['обман', 'кража', 'шантаж', 'мошенничество'], correct: 2 },
+      { spanish: 'el negocio', options: ['хобби', 'бизнес, дело', 'учёба', 'отдых'], correct: 1 }
+    ]
+  },
+
+  'ex-17-12-4-1': {
+    id: 'ex-17-12-4-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 4',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Por qué el propietario tenía deudas?',
+        options: ['Por el incendio', 'Por sus negocios', 'Por el seguro', 'Por el banco'],
+        correct: 1,
+        explanation: 'El propietario tenía deudas por sus negocios fracasados.'
+      },
+      {
+        text: '¿Quién amenazaba al propietario?',
+        options: ['La periodista', 'Los bomberos', 'Sus acreedores', 'La policía'],
+        correct: 2,
+        explanation: 'Sus acreedores le amenazaban por las deudas.'
+      }
+    ]
+  },
+
+  'ex-17-12-4-2': {
+    id: 'ex-17-12-4-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 4 - Condicional',
+    description: 'Выберите правильную форму Condicional Simple',
+    questions: [
+      {
+        text: 'Con el seguro, _____ pagar todas las deudas. (poder)',
+        options: ['puede', 'podía', 'podría', 'podrá'],
+        correct: 2,
+        explanation: 'Condicional: podría - гипотетическое предположение'
+      },
+      {
+        text: 'Si hubiera incendio, _____ el dinero del seguro. (cobrar)',
+        options: ['cobra', 'cobraba', 'cobraría', 'cobrará'],
+        correct: 2,
+        explanation: 'Condicional: cobraría - следствие условия'
+      },
+      {
+        text: 'El propietario pensaba que nadie lo _____ (descubrir)',
+        options: ['descubre', 'descubría', 'descubriría', 'descubrirá'],
+        correct: 2,
+        explanation: 'Condicional: descubriría - косвенная речь в прошлом'
+      }
+    ]
+  },
+
+  'ex-17-12-4-3': {
+    id: 'ex-17-12-4-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 4',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'У владельца были большие долги.', correct: 'El propietario tenía grandes deudas.', alternatives: ['El dueño tenía muchas deudas.'] },
+      { russian: 'Он угрожал журналистке.', correct: 'Él amenazaba a la periodista.', alternatives: ['Él amenazó a la periodista.'] },
+      { russian: 'Страховка покрыла бы все долги.', correct: 'El seguro cubriría todas las deudas.', alternatives: ['El seguro pagaría todas las deudas.'] }
+    ]
+  },
+
+  'ex-17-12-5-vocab': {
+    id: 'ex-17-12-5-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 5',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el cómplice', options: ['свидетель', 'жертва', 'сообщник', 'судья'], correct: 2 },
+      { spanish: 'planear', options: ['путешествовать', 'планировать', 'мечтать', 'работать'], correct: 1 },
+      { spanish: 'escapar', options: ['возвращаться', 'приходить', 'убегать, сбегать', 'прятаться'], correct: 2 },
+      { spanish: 'perseguir', options: ['помогать', 'преследовать', 'арестовывать', 'искать'], correct: 1 },
+      { spanish: 'el callejón', options: ['проспект', 'площадь', 'переулок, тупик', 'парк'], correct: 2 },
+      { spanish: 'oscuro', options: ['светлый', 'красивый', 'тёмный, мрачный', 'чистый'], correct: 2 },
+      { spanish: 'el miedo', options: ['радость', 'страх', 'удивление', 'гнев'], correct: 1 },
+      { spanish: 'tener miedo', options: ['радоваться', 'удивляться', 'бояться', 'злиться'], correct: 2 }
+    ]
+  },
+
+  'ex-17-12-5-1': {
+    id: 'ex-17-12-5-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 5',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cuántos cómplices tenía el propietario?',
+        options: ['Ninguno', 'Uno', 'Dos', 'Muchos'],
+        correct: 1,
+        explanation: 'El propietario tenía un cómplice.'
+      },
+      {
+        text: '¿Por qué huye el sospechoso?',
+        options: ['Porque tiene miedo a la policía', 'Porque quiere viajar', 'Porque no le gusta la ciudad', 'Porque tiene trabajo'],
+        correct: 0,
+        explanation: 'El sospechoso huye porque tiene miedo a la policía.'
+      }
+    ]
+  },
+
+  'ex-17-12-5-2': {
+    id: 'ex-17-12-5-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 5 - Subjuntivo Presente',
+    description: 'Выберите правильную форму Subjuntivo Presente',
+    questions: [
+      {
+        text: 'La policía quiere que el sospechoso _____ (confesar)',
+        options: ['confiesa', 'confesó', 'confiese', 'confesará'],
+        correct: 2,
+        explanation: 'Subjuntivo: confiese - после querer que'
+      },
+      {
+        text: 'Es importante que nadie _____ (escapar)',
+        options: ['escapa', 'escapó', 'escape', 'escapará'],
+        correct: 2,
+        explanation: 'Subjuntivo: escape - после es importante que'
+      },
+      {
+        text: 'Necesito que tú me _____ la verdad. (decir)',
+        options: ['dices', 'dijiste', 'digas', 'dirás'],
+        correct: 2,
+        explanation: 'Subjuntivo: digas - после necesito que'
+      }
+    ]
+  },
+
+  'ex-17-12-5-3': {
+    id: 'ex-17-12-5-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 5',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Подозреваемый убежал в тёмный переулок.', correct: 'El sospechoso escapó a un callejón oscuro.', alternatives: ['El sospechoso huyó a un callejón oscuro.'] },
+      { russian: 'Журналистка преследовала его.', correct: 'La periodista le perseguía.', alternatives: ['La periodista lo perseguía.'] },
+      { russian: 'Она боялась, но продолжала идти.', correct: 'Tenía miedo pero siguió caminando.', alternatives: ['Tenía miedo pero continuó caminando.'] }
+    ]
+  },
+
+  'ex-17-12-6-vocab': {
+    id: 'ex-17-12-6-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 6',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la prueba', options: ['вопрос', 'доказательство, улика', 'ответ', 'тест'], correct: 1 },
+      { spanish: 'demostrar', options: ['скрывать', 'доказывать, показывать', 'отрицать', 'сомневаться'], correct: 1 },
+      { spanish: 'confesar', options: ['отрицать', 'молчать', 'признаваться, исповедоваться', 'убегать'], correct: 2 },
+      { spanish: 'detener', options: ['отпускать', 'задерживать, останавливать', 'помогать', 'игнорировать'], correct: 1 },
+      { spanish: 'arrestar', options: ['освобождать', 'арестовывать', 'искать', 'судить'], correct: 1 },
+      { spanish: 'la cárcel', options: ['суд', 'полиция', 'тюрьма', 'больница'], correct: 2 },
+      { spanish: 'culpable', options: ['невиновный', 'виновный', 'подозреваемый', 'свидетель'], correct: 1 },
+      { spanish: 'inocente', options: ['виновный', 'опасный', 'невиновный, невинный', 'хитрый'], correct: 2 }
+    ]
+  },
+
+  'ex-17-12-6-1': {
+    id: 'ex-17-12-6-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 6',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace la periodista con las pruebas?',
+        options: ['Las destruye', 'Las vende', 'Las entrega a la policía', 'Las guarda en casa'],
+        correct: 2,
+        explanation: 'La periodista entrega las pruebas a la policía.'
+      },
+      {
+        text: '¿Quién confiesa al final?',
+        options: ['La periodista', 'El propietario', 'El bombero', 'El testigo'],
+        correct: 1,
+        explanation: 'El propietario confiesa su crimen.'
+      }
+    ]
+  },
+
+  'ex-17-12-6-2': {
+    id: 'ex-17-12-6-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 6 - Voz Pasiva',
+    description: 'Выберите правильную форму пассивного залога',
+    questions: [
+      {
+        text: 'El sospechoso _____ por la policía. (detener)',
+        options: ['detuvo', 'fue detenido', 'se detenía', 'ha detenido'],
+        correct: 1,
+        explanation: 'Voz pasiva: fue detenido - пассивный залог в Indefinido'
+      },
+      {
+        text: 'Las pruebas _____ al juez. (presentar)',
+        options: ['presentaron', 'fueron presentadas', 'se presentaban', 'han presentado'],
+        correct: 1,
+        explanation: 'Voz pasiva: fueron presentadas - согласование с pruebas (fem. pl.)'
+      },
+      {
+        text: 'El crimen _____ por la periodista. (descubrir)',
+        options: ['descubrió', 'fue descubierto', 'se descubría', 'ha descubierto'],
+        correct: 1,
+        explanation: 'Voz pasiva: fue descubierto - пассивный залог'
+      }
+    ]
+  },
+
+  'ex-17-12-6-3': {
+    id: 'ex-17-12-6-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 6',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Улики были переданы полиции.', correct: 'Las pruebas fueron entregadas a la policía.', alternatives: ['Las pruebas se entregaron a la policía.'] },
+      { russian: 'Подозреваемый был арестован.', correct: 'El sospechoso fue arrestado.', alternatives: ['El sospechoso fue detenido.'] },
+      { russian: 'Он признался в преступлении.', correct: 'Confesó el crimen.', alternatives: ['Él confesó el crimen.'] }
+    ]
+  },
+
+  'ex-17-12-7-vocab': {
+    id: 'ex-17-12-7-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 7',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el juicio', options: ['тюрьма', 'суд, суждение', 'приговор', 'закон'], correct: 1 },
+      { spanish: 'el abogado', options: ['судья', 'прокурор', 'адвокат', 'присяжный'], correct: 2 },
+      { spanish: 'defender', options: ['обвинять', 'судить', 'защищать', 'арестовывать'], correct: 2 },
+      { spanish: 'acusar', options: ['защищать', 'обвинять', 'оправдывать', 'освобождать'], correct: 1 },
+      { spanish: 'el fiscal', options: ['адвокат', 'судья', 'прокурор', 'присяжный'], correct: 2 },
+      { spanish: 'la sentencia', options: ['вопрос', 'ответ', 'приговор, решение', 'закон'], correct: 2 },
+      { spanish: 'condenar', options: ['оправдывать', 'освобождать', 'осуждать, приговаривать', 'защищать'], correct: 2 },
+      { spanish: 'el juez', options: ['адвокат', 'судья', 'прокурор', 'свидетель'], correct: 1 }
+    ]
+  },
+
+  'ex-17-12-7-1': {
+    id: 'ex-17-12-7-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 7',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué pide el fiscal?',
+        options: ['La absolución del acusado', 'Una condena severa', 'Más investigación', 'La libertad del acusado'],
+        correct: 1,
+        explanation: 'El fiscal pide una condena severa para el acusado.'
+      },
+      {
+        text: '¿Qué dice el abogado defensor?',
+        options: ['Que su cliente es culpable', 'Que su cliente es inocente', 'Que no sabe nada', 'Que necesita más tiempo'],
+        correct: 1,
+        explanation: 'El abogado defensor dice que su cliente es inocente.'
+      }
+    ]
+  },
+
+  'ex-17-12-7-2': {
+    id: 'ex-17-12-7-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 7 - Subjuntivo Imperfecto',
+    description: 'Выберите правильную форму Subjuntivo Imperfecto',
+    questions: [
+      {
+        text: 'El juez pidió que todos _____ en silencio. (estar)',
+        options: ['están', 'estaban', 'estuvieran', 'estarán'],
+        correct: 2,
+        explanation: 'Subjuntivo Imperfecto: estuvieran - согласование времён'
+      },
+      {
+        text: 'Era importante que el acusado _____ la verdad. (decir)',
+        options: ['dice', 'decía', 'dijera', 'dirá'],
+        correct: 2,
+        explanation: 'Subjuntivo Imperfecto: dijera - после era importante que'
+      },
+      {
+        text: 'El fiscal quería que todos _____ las pruebas. (ver)',
+        options: ['ven', 'veían', 'vieran', 'verán'],
+        correct: 2,
+        explanation: 'Subjuntivo Imperfecto: vieran - согласование времён с quería'
+      }
+    ]
+  },
+
+  'ex-17-12-7-3': {
+    id: 'ex-17-12-7-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 7',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Судья попросил тишины.', correct: 'El juez pidió silencio.', alternatives: ['El juez solicitó silencio.'] },
+      { russian: 'Прокурор обвинил его в поджоге.', correct: 'El fiscal le acusó de incendio provocado.', alternatives: ['El fiscal lo acusó del incendio.'] },
+      { russian: 'Адвокат защищал своего клиента.', correct: 'El abogado defendía a su cliente.', alternatives: ['El abogado defendió a su cliente.'] }
+    ]
+  },
+
+  'ex-17-12-8-vocab': {
+    id: 'ex-17-12-8-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 8',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'resolver', options: ['crear', 'решать, разрешать', 'ломать', 'начинать'], correct: 1 },
+      { spanish: 'el misterio', options: ['правда', 'ложь', 'тайна, загадка', 'история'], correct: 2 },
+      { spanish: 'aclarar', options: ['запутывать', 'прояснять, объяснять', 'скрывать', 'изменять'], correct: 1 },
+      { spanish: 'la recompensa', options: ['наказание', 'налог', 'долг', 'награда, вознаграждение'], correct: 3 },
+      { spanish: 'la libertad', options: ['тюрьма', 'свобода', 'закон', 'наказание'], correct: 1 },
+      { spanish: 'libre', options: ['занятый', 'свободный', 'счастливый', 'грустный'], correct: 1 },
+      { spanish: 'tranquilo', options: ['нервный', 'злой', 'спокойный', 'грустный'], correct: 2 },
+      { spanish: 'el alivio', options: ['беспокойство', 'страх', 'облегчение', 'радость'], correct: 2 }
+    ]
+  },
+
+  'ex-17-12-8-1': {
+    id: 'ex-17-12-8-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 8',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cuál es la sentencia del juez?',
+        options: ['Inocente', 'Culpable', 'Necesita más pruebas', 'Libertad condicional'],
+        correct: 1,
+        explanation: 'El juez condena al propietario como culpable del incendio provocado.'
+      },
+      {
+        text: '¿Cómo se siente la periodista al final?',
+        options: ['Triste', 'Nerviosa', 'Con alivio y satisfacción', 'Decepcionada'],
+        correct: 2,
+        explanation: 'La periodista siente alivio y satisfacción por haber resuelto el misterio.'
+      },
+      {
+        text: '¿Qué hace la periodista después del juicio?',
+        options: ['Se va de vacaciones', 'Escribe un artículo sobre el caso', 'Deja el periodismo', 'Se une a la policía'],
+        correct: 1,
+        explanation: 'La periodista escribe un artículo sobre el caso resuelto.'
+      }
+    ]
+  },
+
+  'ex-17-12-8-2': {
+    id: 'ex-17-12-8-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 8 - Repaso general',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        text: 'Cuando el juez _____ la sentencia, todos guardaron silencio. (leer)',
+        options: ['lee', 'leyó', 'leía', 'leerá'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: leyó - конкретное действие в прошлом'
+      },
+      {
+        text: 'La periodista está contenta de que el caso _____ resuelto. (estar)',
+        options: ['está', 'esté', 'estaba', 'estará'],
+        correct: 1,
+        explanation: 'Subjuntivo Presente: esté - после expresión emocional'
+      },
+      {
+        text: 'Si hubiera más periodistas así, el mundo _____ mejor. (ser)',
+        options: ['es', 'era', 'sería', 'será'],
+        correct: 2,
+        explanation: 'Condicional: sería - condicional irreal en presente'
+      },
+      {
+        text: 'El misterio ha sido _____ gracias a ella. (resolver)',
+        options: ['resolvido', 'resuelto', 'resolvado', 'resolvido'],
+        correct: 1,
+        explanation: 'Participio irregular: resuelto (resolver)'
+      }
+    ]
+  },
+
+  'ex-17-12-8-3': {
+    id: 'ex-17-12-8-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 8',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Загадка была решена.', correct: 'El misterio fue resuelto.', alternatives: ['El misterio se resolvió.'] },
+      { russian: 'Журналистка чувствовала облегчение.', correct: 'La periodista sentía alivio.', alternatives: ['La periodista sintió alivio.'] },
+      { russian: 'Виновный был приговорён к тюрьме.', correct: 'El culpable fue condenado a la cárcel.', alternatives: ['El culpable fue enviado a la cárcel.'] },
+      { russian: 'История закончилась справедливо.', correct: 'La historia terminó de forma justa.', alternatives: ['La historia terminó justamente.'] }
     ]
   }
 }
