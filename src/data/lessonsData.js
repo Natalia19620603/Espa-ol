@@ -5730,7 +5730,7 @@ María: ¡Vamos!`,
       },
       {
         tab: 'Estar + gerundio (irregulares)',
-        videoUrl: '/video/Estar + gerundio (irregulares) M4C1.mp4'
+        videoUrl: '/video/Estar gerundio irregulares M4C1.mp4'
       }
     ],
     grammar: {
@@ -17274,6 +17274,81 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'el alivio', translation: 'облегчение', audioUrl: null },
           { word: 'terminar', translation: 'заканчивать, завершать', audioUrl: null }
         ]
+      },
+      {
+        tab: 'Capítulo 9',
+        words: [
+          { word: 'el puerto', translation: 'порт, гавань', audioUrl: null },
+          { word: 'el maletín', translation: 'портфель, чемоданчик', audioUrl: null },
+          { word: 'el muelle', translation: 'набережная, причал', audioUrl: null },
+          { word: 'el contenedor', translation: 'контейнер', audioUrl: null },
+          { word: 'sospechoso', translation: 'подозрительный', audioUrl: null },
+          { word: 'vigilar', translation: 'следить, наблюдать', audioUrl: null },
+          { word: 'el guardia', translation: 'охранник, страж', audioUrl: null },
+          { word: 'la aduana', translation: 'таможня', audioUrl: null },
+          { word: 'pasar', translation: 'проходить, проезжать', audioUrl: null },
+          { word: 'nervioso', translation: 'нервный, взволнованный', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 10',
+        words: [
+          { word: 'el intercambio', translation: 'обмен', audioUrl: null },
+          { word: 'el encuentro', translation: 'встреча, столкновение', audioUrl: null },
+          { word: 'esperar', translation: 'ждать, надеяться', audioUrl: null },
+          { word: 'observar', translation: 'наблюдать, замечать', audioUrl: null },
+          { word: 'discreto', translation: 'незаметный, осторожный', audioUrl: null },
+          { word: 'el extranjero', translation: 'иностранец; иностранный', audioUrl: null },
+          { word: 'desconfiar', translation: 'не доверять, подозревать', audioUrl: null },
+          { word: 'el paquete', translation: 'пакет, посылка', audioUrl: null },
+          { word: 'la entrega', translation: 'доставка, передача', audioUrl: null },
+          { word: 'escuchar', translation: 'слушать, подслушивать', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 11',
+        words: [
+          { word: 'el contrabando', translation: 'контрабанда', audioUrl: null },
+          { word: 'ilegal', translation: 'незаконный', audioUrl: null },
+          { word: 'dudar', translation: 'сомневаться, колебаться', audioUrl: null },
+          { word: 'decidir', translation: 'решать, принимать решение', audioUrl: null },
+          { word: 'la conciencia', translation: 'совесть, сознание', audioUrl: null },
+          { word: 'implicar', translation: 'вовлекать, подразумевать', audioUrl: null },
+          { word: 'el riesgo', translation: 'риск', audioUrl: null },
+          { word: 'arriesgarse', translation: 'рисковать', audioUrl: null },
+          { word: 'denunciar', translation: 'сообщать (в полицию), доносить', audioUrl: null },
+          { word: 'la lealtad', translation: 'верность, лояльность', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 12',
+        words: [
+          { word: 'la persecución', translation: 'преследование, погоня', audioUrl: null },
+          { word: 'huir', translation: 'убегать, скрываться', audioUrl: null },
+          { word: 'rodear', translation: 'окружать', audioUrl: null },
+          { word: 'la trampa', translation: 'ловушка, западня', audioUrl: null },
+          { word: 'caer en la trampa', translation: 'попасться в ловушку', audioUrl: null },
+          { word: 'el agente', translation: 'агент, сотрудник', audioUrl: null },
+          { word: 'detener', translation: 'задерживать, останавливать', audioUrl: null },
+          { word: 'reducir', translation: 'обезвреживать, уменьшать', audioUrl: null },
+          { word: 'el operativo', translation: 'операция (полицейская)', audioUrl: null },
+          { word: 'exitoso', translation: 'успешный', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 13',
+        words: [
+          { word: 'el desenlace', translation: 'развязка, финал', audioUrl: null },
+          { word: 'la recompensa', translation: 'вознаграждение, награда', audioUrl: null },
+          { word: 'el testigo', translation: 'свидетель', audioUrl: null },
+          { word: 'colaborar', translation: 'сотрудничать, помогать', audioUrl: null },
+          { word: 'el reconocimiento', translation: 'признание, благодарность', audioUrl: null },
+          { word: 'volver a empezar', translation: 'начать заново', audioUrl: null },
+          { word: 'el futuro', translation: 'будущее', audioUrl: null },
+          { word: 'el recuerdo', translation: 'воспоминание, память', audioUrl: null },
+          { word: 'seguir adelante', translation: 'идти вперёд, продолжать', audioUrl: null },
+          { word: 'la aventura', translation: 'приключение', audioUrl: null }
+        ]
       }
     ],
     audioTabs: [
@@ -17308,6 +17383,26 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
       {
         tab: 'CAPÍTULO 8',
         audioUrl: '/audio/17-12-8.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 9',
+        audioUrl: '/audio/17-12-9.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 10',
+        audioUrl: '/audio/17-12-10.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 11',
+        audioUrl: '/audio/17-12-11.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 12',
+        audioUrl: '/audio/17-12-12.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 13',
+        audioUrl: '/audio/17-12-13.mp3'
       }
     ],
     readingText: [
@@ -17517,6 +17612,149 @@ Esa tarde, en la redacción, escribe el artículo final sobre el caso. Lo titula
 
 Elena guarda el cuaderno en el cajón y apaga el ordenador. Mañana habrá otra historia. Siempre hay otra historia. Pero esta noche, por primera vez en semanas, va a dormir tranquila.`,
         translation: ``
+      },
+      {
+        tab: 'Capítulo 9',
+        content: `Al día siguiente, a las diez de la mañana, Albert llama a Pepa.
+
+—Buenos días. ¿Puedes venir a recogerme al hotel? Necesito ir al puerto.
+
+Pepa llega en diez minutos. Albert sale del hotel con el mismo maletín negro de siempre. Está bien vestido, como de costumbre, pero hoy parece más serio, más tenso. No habla durante todo el trayecto.
+
+Al llegar al puerto, Albert le pide que espere en el aparcamiento.
+
+—No sé cuánto tiempo voy a tardar. Puede ser una hora, puede ser dos. ¿Te parece bien?
+
+—Como quieras —dice Pepa—. Aquí estaré.
+
+Pepa lo ve alejarse hacia los muelles. Lleva el maletín con fuerza, como si fuera muy importante. Hay guardias de seguridad en la entrada, pero Albert muestra un documento y lo dejan pasar sin problema.
+
+Pepa enciende la radio. Pero no puede dejar de mirar hacia el puerto. Algo no le cuadra. Nadie va al puerto con tanta prisa y tanto nerviosismo para hacer un negocio normal.
+
+Al cabo de una hora, Albert vuelve. Sin el maletín.
+
+—Al aeropuerto, por favor —dice simplemente.
+
+Pepa lo mira por el espejo retrovisor. Albert mira por la ventana. Ninguno de los dos dice nada.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 10',
+        content: `En el aeropuerto, Albert le da otro billete de cien euros.
+
+—Gracias, Pepa. Has sido muy profesional. Puede que te llame mañana.
+
+—¿Solo «puede»? —pregunta Pepa.
+
+—Depende de cómo vayan las cosas —responde Albert con una sonrisa que no llega a sus ojos.
+
+Pepa vuelve al coche y se queda pensando. Ha visto algo en el puerto: un momento en que Albert entregaba el maletín a un hombre bajo con gafas oscuras. Los dos se hablaban en voz muy baja, mirando a su alrededor. El hombre de las gafas oscuras había abierto el maletín un momento, había asentido, y luego había desaparecido entre los contenedores.
+
+No era una reunión de negocios. Era una entrega.
+
+Pepa lleva años conduciendo un taxi por Barcelona. Ha visto muchas cosas. Sabe distinguir entre un turista con mucho dinero y alguien que hace negocios ilegales. Albert, con su elegancia y su maletín, pertenece claramente a la segunda categoría.
+
+«¿Y yo qué hago?», piensa Pepa. «Me han pagado bien. No me han hecho nada malo. Pero si sigo trabajando para él, puedo acabar implicada en algo que no quiero».
+
+Esa noche no duerme bien. Piensa en Carlos. En su trabajo. En lo que diría su madre si supiera en qué situación está.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 11',
+        content: `A la mañana siguiente, Albert la llama temprano.
+
+—Necesito que me lleves a Sitges. ¿Puedes?
+
+Pepa duda. Tiene el teléfono en la mano y no sabe qué decir. Podría negarse. Podría decirle que está ocupada. Pero también podría ir a Sitges, observar más, y luego decidir qué hacer con lo que descubra.
+
+—Sí —dice al final—. En veinte minutos estoy en tu hotel.
+
+Durante el camino a Sitges, Pepa decide hacer preguntas.
+
+—Oye, Albert. ¿A qué te dedicas exactamente?
+
+—Soy consultor. Trabajo con empresas internacionales.
+
+—¿Y eso te lleva mucho al puerto?
+
+Albert la mira por el espejo. Sus ojos son fríos ahora.
+
+—¿Por qué lo preguntas?
+
+—Por curiosidad. Es una pregunta normal.
+
+—El trabajo de consultor tiene muchas facetas —responde Albert, y cambia de tema.
+
+Pepa no insiste. Pero cuando llegan a Sitges y Albert entra en un restaurante de lujo junto al mar, Pepa saca el móvil y llama a un número que tiene guardado: el de un inspector de policía al que conoce de un accidente de tráfico de hace dos años.
+
+—Necesito hablar contigo —dice cuando el inspector descuelga—. Puede que tenga información sobre algo importante.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 12',
+        content: `El inspector Molina queda con Pepa esa misma tarde en una cafetería del Paseo de Gracia. Es un hombre de unos cincuenta años, con bigote y cara de haber dormido poco.
+
+—Cuéntame —dice, sin rodeos.
+
+Pepa le cuenta todo: el accidente con el Ferrari, la oferta de Albert, el viaje al puerto, la entrega del maletín, la reunión en Sitges.
+
+Molina escucha sin interrumpir. Cuando Pepa termina, el inspector asiente lentamente.
+
+—¿Sabes el nombre del hombre del puerto? ¿El de las gafas oscuras?
+
+—No.
+
+—¿Recuerdas algo más del maletín? ¿El color, el tamaño?
+
+—Negro. Pequeño. Del tipo que se usa para documentos o para… no sé. Para cosas de valor.
+
+Molina saca una foto del bolsillo y la pone sobre la mesa.
+
+—¿Es este hombre?
+
+Pepa mira la foto. Es Albert.
+
+—Sí.
+
+—Se llama Albert Van der Berg. Es holandés. Lo llevamos siguiendo tres meses. Forma parte de una red de contrabando de documentos falsos. El maletín del puerto probablemente contenía pasaportes.
+
+Pepa siente un escalofrío.
+
+—¿Y yo? ¿Estoy implicada?
+
+—Por el momento, eres testigo. Si cooperas con nosotros, no tendrás ningún problema. Pero necesitamos tu ayuda para detenerle. ¿Cuándo vuelve a llamarte?`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 13',
+        content: `Esa noche, Albert llama a Pepa.
+
+—Mañana por la mañana. Necesito ir al aeropuerto. Vuelo a las once.
+
+—De acuerdo —dice Pepa con voz tranquila—. A las nueve estoy en el hotel.
+
+Pero a las nueve, cuando Pepa llega al hotel, no está sola. El inspector Molina y tres agentes esperan en coches sin identificación a cincuenta metros. Pepa lleva un micrófono pequeño escondido bajo la chaqueta.
+
+Albert sale del hotel con una maleta grande y el maletín negro de siempre. Sonríe al ver a Pepa.
+
+—Buenos días. ¿Todo bien?
+
+—Todo bien —responde Pepa.
+
+En el camino al aeropuerto, Albert hace una llamada en holandés. Pepa conduce en silencio. Cuando llegan al aeropuerto y Albert se dispone a salir del coche, los agentes rodean el vehículo. En menos de dos minutos, Albert Van der Berg está detenido.
+
+Esa tarde, Pepa da su declaración en comisaría. El inspector Molina le da la mano.
+
+—Buen trabajo. No muchas personas habrían hecho lo mismo.
+
+—Tenía que hacerlo —dice Pepa—. Mi conciencia no me dejaba otra opción.
+
+De vuelta en su taxi, Pepa conduce por las Ramblas. Piensa en Carlos, en Madrid, en todas las decisiones que ha tomado en los últimos días. Saca el móvil y marca su número.
+
+—Carlos. Soy yo. ¿Podemos hablar?
+
+Barcelona brilla bajo el sol de la tarde. Pepa Villa sonríe y acelera hacia el futuro.`,
+        translation: ``
       }
     ],
     exercises: [
@@ -17590,6 +17828,51 @@ Elena guarda el cuaderno en el cajón y apaga el ordenador. Mañana habrá otra 
           { name: 'Понимание текста', exercises: ['ex-17-12-8-1'] },
           { name: 'Грамматика', exercises: ['ex-17-12-8-2'] },
           { name: 'Перевод', exercises: ['ex-17-12-8-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 9',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-9-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-9-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-9-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-9-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 10',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-10-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-10-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-10-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-10-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 11',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-11-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-11-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-11-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-11-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 12',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-12-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-12-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-12-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-12-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 13',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-13-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-13-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-13-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-13-3'] }
         ]
       }
     ]
