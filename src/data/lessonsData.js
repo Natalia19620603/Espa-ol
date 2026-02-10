@@ -17313,12 +17313,91 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
     readingText: [
       {
         tab: 'Capítulo 1',
-        content: ``,
+        content: `Un taxi con la luz verde y el cartel de «libre» baja rápido por la calle Balmes. Su chófer, Pepa Villa, está de muy mal humor porque acaba de pelearse con Carlos, su pareja. Pepa tiene treinta y tres años, es morena, delgada y bastante guapa. Pero ha cambiado de novio cinco veces en los últimos cinco años. Quizás es demasiado exigente. Quizás es demasiado suerte con los hombres. O quizás solo mala suerte.
+
+Carlos y ella llevan casi un año viviendo juntos, y casi siempre discuten, pero a veces se llevan bien. Como todas las parejas. A él no le gusta que Pepa trabaje de taxista. Le parece poco elegante. Carlos es abogado, tiene un máster y un trabajo importante. Pepa también tiene un máster en Económicas; hasta hace poco tenía un empleo estable en una multinacional, con obligaciones, jefes, horarios… Decidió cambiarlo todo.
+
+Sacó el carné de conductor profesional, compró la licencia y se compró un Skoda Octavia: vulgar y bastante feo, pero duro como un tanque. Casi tan duro como su dueña.
+
+Carlos le dice siempre a sus amigos que Pepa es «economista y guapa», a menudo le corrige: «No soy economista. Soy taxista». Luego, cuando están en la cama, empieza la discusión. Él cree que es peligroso conducir un taxi, que es emocionante. «¡Siempre lo mismo!», piensa Pepa. Cada uno tiene su punto de vista sobre el empleo del otro. Pero esta mañana, en que él se ha ido a vivir a Madrid, Carlos le dice que ha dejado Barcelona y se va a Madrid.
+
+—¿Qué vas a hacer en Madrid? —pregunta Pepa muy sorprendida.
+—Un negocio. Un negocio de mucho dinero. Soy taxista.
+—¿Qué clase de negocio?
+—De momento, es un secreto.
+— ¡Vaya! Y… ¿cuándo te vas? —añade Carlos—.
+—Mañana.
+—¿Mañana? ¿Por qué no me lo has dicho antes?
+—Porque no lo sabía.
+—¡Pero…!
+—Nunca quieres hablar de trabajo.
+—Porque cuando hablamos de nuestros trabajos, siempre discutimos.
+—Pues por eso no te he dicho nada. Si quieres —añade Carlos—, tú y tu taxi podéis venir también a Madrid. Siempre dices que eres libre, ¿no?
+
+Pepa y Carlos han discutido durante casi una hora. Al final, Carlos ha mirado el reloj y se ha ido. Como siempre… ¡tenía una cita muy importante!`,
         translation: ``
       },
       {
         tab: 'Capítulo 2',
-        content: ``,
+        content: `«¿Qué coño voy a hacer yo en Madrid?», se pregunta Pepa mientras conduce. Ve que el próximo semáforo está en amarillo y, como de costumbre, acelera para pasar antes de que se ponga rojo. Al mismo tiempo ve delante, cruzando la calle, un coche rojo. ¡Freenaaa! Pero el Octavia choca fuerte contra el Ferrari. Frena. Frena.
+
+«¡Mierda!» —dice Pepa, y se tapa la cara con las manos.
+
+La parte delantera de su coche está hundida en el lateral del otro. Suenan cláxones. Frenazos. A lo lejos se oye una sirena. Pepa sale y mira.
+
+«¡Dios mío! El Ferrari está destrozado. ¿Están heridos los pasajeros?»
+
+Al momento tiene respuesta. Las dos puertas se abren y dos hombres altos, muy bien vestidos, van hacia Pepa. Afortunadamente, no les ha pasado nada.
+
+—Lo siento, lo siento muchísimo —se disculpa Pepa nerviosa—. ¿Están bien? Yo… El seguro… Tenemos que avisar del accidente a la compañía de seguros.
+
+Los dos hombres, que parecen modelos o actores de cine, miran los coches. Uno de ellos, que lleva un maletín, mueve la cabeza y le dice algo al otro en un idioma que a Pepa le parece alemán, pero que, en realidad, es holandés. Luego, en un castellano bastante bueno, le pregunta a Pepa:
+
+—¿Tu coche está bien? ¿Funciona?
+—Creo que sí —contesta Pepa, sorprendida.
+—Vamos a verlo.
+
+Pepa obedece. Pone en marcha el motor, pone marcha atrás y se separa del Ferrari. Apaga el motor, frena y sale. El Octavia tiene la parte delantera abollada y un faro roto. Poca cosa. El Ferrari, en cambio…
+
+—Tenemos que hacer el parte del accidente, para la compañía de seguros, quiero decir… —les dice a los hombres.
+—No. No hace falta. No importa —el del maletín le dirige a su compañero unas palabras—. Mi amigo se ocupará del coche y del papeleo…
+—Sí, pero… —intenta interrumpir Pepa.
+—Yo tengo prisa. ¿Tú puedes llevarme?
+
+—¡Vaya tío! ¡Qué guapo! Se parece a Brad Pitt, pero es aún más elegante… Al fin del mundo te llevaría… —piensa Pepa, olvidándose por completo de que hace un minuto su Skoda estaba empotrado en un Ferrari.
+
+—Me llamo Pepa —cambia el cartel de «libre» por el de «ocupado»—. ¿Adónde vamos?
+
+Por el espejo retrovisor ve al hombre sentado detrás, con el maletín a su lado.
+
+—Vamos a Castelldefels. Y rápido, por favor. Tengo mucha prisa.
+
+Llegan a la Plaza España. Pepa piensa en el accidente.
+
+—Oye, de verdad, no sabes cómo siento lo que ha pasado. Supongo que el coche, el Ferrari, está a todo riesgo… —Albert no la entiende—. Hablo del seguro. Quiero decir, que el seguro debe pagar la reparación, ¿no?
+—Es de alquiler. Y tiene un montón de dinero —piensa.
+—Ah, claro… Tiene seguro…
+—¡Ah, claro! No me he fijado. La matrícula va española. Y tú, ¿de dónde eres?
+—De Nueva Zelanda.
+
+«Ahora yo digo: "¡Qué lejos! Las antípodas…", y todo ese rollo» —piensa Pepa—. El tipo piensa que soy la típica taxista con cerebro de mosquito. —Pepa está impresionada y quiere impresionar—. En estos casos, hagas lo que hagas, siempre pareces imbécil.
+
+Recuerda la opinión que tiene Carlos de los taxistas y acepta que su novio tiene un poquito de razón.
+
+«Este adonis vestido como para un desfile de moda no va a fijarse en mí. Por tanto, lo mejor es no intentarlo».
+
+—¿Dónde te dejo exactamente? —pregunta al ver la señal en la que pone «Castelldefels 2 km».
+—Sigue. Sigue recto —Albert se inclina hacia delante con una encantadora sonrisa. Pepa gira la cabeza y le mira—. Oye, ¿puedes trabajar para mí durante un par de días? Voy a pasar dos o tres días en Barcelona y necesito un coche. Te contrato full time. ¿Qué te parece?
+—Bien —a Pepa las novedades siempre le parecen bien, y más si vienen de parte de un tío como ese—. Full time… ¿quiere decir día y noche?
+—Sí. Te pago el doble. A lo mejor solo necesito un par de veces. Pero puede ser más.
+—A lo mejor solo necesito un par de veces —repite Albert—. Mejor tener euros cerrados.
+—Me das tu teléfono?
+—Seis, seis, cinco, dos, cuatro…
+
+Albert marca el número en su móvil. Después, saca del bolsillo del pantalón un montón de billetes de cien euros, cuenta diez y se los da a Pepa.
+
+—Por el viaje y un anticipo —el taxímetro marca sesenta euros—. ¿Te parece bien?
+—Sí, sí, claro. Bueno, pues… Me llamas, ¿vale?`,
         translation: ``
       },
       {
