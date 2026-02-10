@@ -8091,6 +8091,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Compras ropa rebajas',
         videoUrl: '/video/Compras ropa rebajas M6C1.mp4'
+      },
+      {
+        tab: 'Hábitos de consumo ropa Colombia',
+        videoUrl: '/video/Hábitos de consumo ropa Colombia M6C1.mp4'
       }
     ],
     grammar: {
@@ -11297,6 +11301,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-yoga-m9c1',
         tab: 'Yoga',
         videoUrl: '/video/Yoga M9C1.mp4'
+      },
+      {
+        tab: 'Cómo se hace el café',
+        videoUrl: '/video/Cómo se hace el café M9C1.mp4'
       }
     ]
   },
@@ -11412,6 +11420,14 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Perífrasis verbales',
         videoUrl: '/video/12 PERÍFRASIS VERBALES M9C3.mp4'
+      },
+      {
+        tab: 'Perífrasis verbales. Basquet',
+        videoUrl: '/video/Perífrasis verbales. Basquet M9C3.mp4'
+      },
+      {
+        tab: 'Perífrasis verbales (2)',
+        videoUrl: '/video/Perífrasis verbales. M9C3.mp4'
       }
     ],
     grammar: {
