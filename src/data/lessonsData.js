@@ -8091,6 +8091,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Compras ropa rebajas',
         videoUrl: '/video/Compras ropa rebajas M6C1.mp4'
+      },
+      {
+        tab: 'Hábitos de consumo ropa Colombia',
+        videoUrl: '/video/Hábitos de consumo ropa Colombia M6C1.mp4'
       }
     ],
     grammar: {
@@ -11297,6 +11301,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
         id: 'video-yoga-m9c1',
         tab: 'Yoga',
         videoUrl: '/video/Yoga M9C1.mp4'
+      },
+      {
+        tab: 'Cómo se hace el café',
+        videoUrl: '/video/Cómo se hace el café M9C1.mp4'
       }
     ]
   },
@@ -11412,6 +11420,14 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Perífrasis verbales',
         videoUrl: '/video/12 PERÍFRASIS VERBALES M9C3.mp4'
+      },
+      {
+        tab: 'Perífrasis verbales (Basquet)',
+        videoUrl: '/video/Perífrasis verbales. Basquet M9C3.mp4'
+      },
+      {
+        tab: 'Perífrasis verbales (clásico)',
+        videoUrl: '/video/Perífrasis verbales. M9C3.mp4'
       }
     ],
     grammar: {
@@ -12287,21 +12303,20 @@ José Luis: Me voy a arriesgar.
 Médico: Es su vida... ¡Es su vida! Los pacientes ya no saben ni lo que quieren.`
       }
     ],
-    exerciseTabs: [
+    exercises: [
       {
         tab: 'Грамматика урока',
-        exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
+        exerciseIds: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
       },
       {
         tab: 'Llevo a mi abuela al dentista',
-        exercises: ['ex-10-2-6', 'ex-10-2-7', 'ex-10-2-8', 'ex-10-2-9']
+        exerciseIds: ['ex-10-2-6', 'ex-10-2-7', 'ex-10-2-8', 'ex-10-2-9']
       },
       {
         tab: 'Una intervención peligrosa',
-        exercises: ['ex-10-2-10', 'ex-10-2-11', 'ex-10-2-12', 'ex-10-2-13']
+        exerciseIds: ['ex-10-2-10', 'ex-10-2-11', 'ex-10-2-12', 'ex-10-2-13']
       }
-    ],
-    exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5', 'ex-10-2-6', 'ex-10-2-7', 'ex-10-2-8', 'ex-10-2-9', 'ex-10-2-10', 'ex-10-2-11', 'ex-10-2-12', 'ex-10-2-13']
+    ]
   },
 
   'lesson-10-3': {
