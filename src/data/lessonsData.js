@@ -17188,166 +17188,16 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
       {
         tab: 'Capítulo 3',
         words: [
-          { word: 'el archivo', translation: 'архив, файл', audioUrl: null },
-          { word: 'la noticia', translation: 'новость, известие', audioUrl: null },
-          { word: 'publicar', translation: 'публиковать, издавать', audioUrl: null },
-          { word: 'el periódico', translation: 'газета', audioUrl: null },
-          { word: 'descubrir', translation: 'обнаруживать, открывать', audioUrl: null },
-          { word: 'el secreto', translation: 'секрет, тайна', audioUrl: null },
-          { word: 'esconder', translation: 'прятать, скрывать', audioUrl: null },
-          { word: 'la verdad', translation: 'правда', audioUrl: null },
-          { word: 'mentir', translation: 'лгать, врать', audioUrl: null },
-          { word: 'el peligro', translation: 'опасность', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 4',
-        words: [
-          { word: 'el propietario', translation: 'владелец, собственник', audioUrl: null },
-          { word: 'el seguro', translation: 'страховка; безопасный', audioUrl: null },
-          { word: 'el dinero', translation: 'деньги', audioUrl: null },
-          { word: 'el negocio', translation: 'бизнес, дело', audioUrl: null },
-          { word: 'la deuda', translation: 'долг', audioUrl: null },
-          { word: 'deber', translation: 'быть должным, долженствовать', audioUrl: null },
-          { word: 'el banco', translation: 'банк; скамейка', audioUrl: null },
-          { word: 'la amenaza', translation: 'угроза', audioUrl: null },
-          { word: 'amenazar', translation: 'угрожать', audioUrl: null },
-          { word: 'el chantaje', translation: 'шантаж', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 5',
-        words: [
-          { word: 'el cómplice', translation: 'сообщник', audioUrl: null },
-          { word: 'el plan', translation: 'план', audioUrl: null },
-          { word: 'planear', translation: 'планировать', audioUrl: null },
-          { word: 'escapar', translation: 'убегать, сбегать', audioUrl: null },
-          { word: 'huir', translation: 'бежать, скрываться', audioUrl: null },
-          { word: 'perseguir', translation: 'преследовать', audioUrl: null },
-          { word: 'el callejón', translation: 'переулок, тупик', audioUrl: null },
-          { word: 'oscuro', translation: 'тёмный, мрачный', audioUrl: null },
-          { word: 'el miedo', translation: 'страх', audioUrl: null },
-          { word: 'tener miedo', translation: 'бояться', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 6',
-        words: [
-          { word: 'la prueba', translation: 'доказательство, улика', audioUrl: null },
-          { word: 'demostrar', translation: 'доказывать, показывать', audioUrl: null },
-          { word: 'confesar', translation: 'признаваться, исповедоваться', audioUrl: null },
-          { word: 'la confesión', translation: 'признание, исповедь', audioUrl: null },
-          { word: 'detener', translation: 'задерживать, останавливать', audioUrl: null },
-          { word: 'arrestar', translation: 'арестовывать', audioUrl: null },
-          { word: 'la cárcel', translation: 'тюрьма', audioUrl: null },
-          { word: 'culpable', translation: 'виновный', audioUrl: null },
-          { word: 'inocente', translation: 'невиновный, невинный', audioUrl: null },
-          { word: 'la justicia', translation: 'справедливость, правосудие', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 7',
-        words: [
-          { word: 'el juicio', translation: 'суд, суждение', audioUrl: null },
-          { word: 'el abogado', translation: 'адвокат', audioUrl: null },
-          { word: 'defender', translation: 'защищать', audioUrl: null },
-          { word: 'acusar', translation: 'обвинять', audioUrl: null },
-          { word: 'el fiscal', translation: 'прокурор', audioUrl: null },
-          { word: 'la sentencia', translation: 'приговор, решение', audioUrl: null },
-          { word: 'condenar', translation: 'осуждать, приговаривать', audioUrl: null },
-          { word: 'absolver', translation: 'оправдывать, освобождать', audioUrl: null },
-          { word: 'el testimonio', translation: 'показание, свидетельство', audioUrl: null },
-          { word: 'el juez', translation: 'судья', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 8',
-        words: [
-          { word: 'el final', translation: 'конец, финал', audioUrl: null },
-          { word: 'resolver', translation: 'решать, разрешать', audioUrl: null },
-          { word: 'el misterio', translation: 'тайна, загадка', audioUrl: null },
-          { word: 'aclarar', translation: 'прояснять, объяснять', audioUrl: null },
-          { word: 'la recompensa', translation: 'награда, вознаграждение', audioUrl: null },
-          { word: 'la libertad', translation: 'свобода', audioUrl: null },
-          { word: 'libre', translation: 'свободный', audioUrl: null },
-          { word: 'tranquilo', translation: 'спокойный', audioUrl: null },
-          { word: 'el alivio', translation: 'облегчение', audioUrl: null },
-          { word: 'terminar', translation: 'заканчивать, завершать', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 9',
-        words: [
-          { word: 'el puerto', translation: 'порт, гавань', audioUrl: null },
-          { word: 'el maletín', translation: 'портфель, чемоданчик', audioUrl: null },
-          { word: 'el muelle', translation: 'набережная, причал', audioUrl: null },
-          { word: 'el contenedor', translation: 'контейнер', audioUrl: null },
-          { word: 'sospechoso', translation: 'подозрительный', audioUrl: null },
-          { word: 'vigilar', translation: 'следить, наблюдать', audioUrl: null },
-          { word: 'el guardia', translation: 'охранник, страж', audioUrl: null },
-          { word: 'la aduana', translation: 'таможня', audioUrl: null },
-          { word: 'pasar', translation: 'проходить, проезжать', audioUrl: null },
-          { word: 'nervioso', translation: 'нервный, взволнованный', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 10',
-        words: [
-          { word: 'el intercambio', translation: 'обмен', audioUrl: null },
-          { word: 'el encuentro', translation: 'встреча, столкновение', audioUrl: null },
-          { word: 'esperar', translation: 'ждать, надеяться', audioUrl: null },
-          { word: 'observar', translation: 'наблюдать, замечать', audioUrl: null },
-          { word: 'discreto', translation: 'незаметный, осторожный', audioUrl: null },
-          { word: 'el extranjero', translation: 'иностранец; иностранный', audioUrl: null },
-          { word: 'desconfiar', translation: 'не доверять, подозревать', audioUrl: null },
-          { word: 'el paquete', translation: 'пакет, посылка', audioUrl: null },
-          { word: 'la entrega', translation: 'доставка, передача', audioUrl: null },
-          { word: 'escuchar', translation: 'слушать, подслушивать', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 11',
-        words: [
-          { word: 'el contrabando', translation: 'контрабанда', audioUrl: null },
-          { word: 'ilegal', translation: 'незаконный', audioUrl: null },
-          { word: 'dudar', translation: 'сомневаться, колебаться', audioUrl: null },
-          { word: 'decidir', translation: 'решать, принимать решение', audioUrl: null },
-          { word: 'la conciencia', translation: 'совесть, сознание', audioUrl: null },
-          { word: 'implicar', translation: 'вовлекать, подразумевать', audioUrl: null },
-          { word: 'el riesgo', translation: 'риск', audioUrl: null },
-          { word: 'arriesgarse', translation: 'рисковать', audioUrl: null },
-          { word: 'denunciar', translation: 'сообщать (в полицию), доносить', audioUrl: null },
-          { word: 'la lealtad', translation: 'верность, лояльность', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 12',
-        words: [
-          { word: 'la persecución', translation: 'преследование, погоня', audioUrl: null },
-          { word: 'huir', translation: 'убегать, скрываться', audioUrl: null },
-          { word: 'rodear', translation: 'окружать', audioUrl: null },
-          { word: 'la trampa', translation: 'ловушка, западня', audioUrl: null },
-          { word: 'caer en la trampa', translation: 'попасться в ловушку', audioUrl: null },
-          { word: 'el agente', translation: 'агент, сотрудник', audioUrl: null },
-          { word: 'detener', translation: 'задерживать, останавливать', audioUrl: null },
-          { word: 'reducir', translation: 'обезвреживать, уменьшать', audioUrl: null },
-          { word: 'el operativo', translation: 'операция (полицейская)', audioUrl: null },
-          { word: 'exitoso', translation: 'успешный', audioUrl: null }
-        ]
-      },
-      {
-        tab: 'Capítulo 13',
-        words: [
-          { word: 'el desenlace', translation: 'развязка, финал', audioUrl: null },
-          { word: 'la recompensa', translation: 'вознаграждение, награда', audioUrl: null },
-          { word: 'el testigo', translation: 'свидетель', audioUrl: null },
-          { word: 'colaborar', translation: 'сотрудничать, помогать', audioUrl: null },
-          { word: 'el reconocimiento', translation: 'признание, благодарность', audioUrl: null },
-          { word: 'volver a empezar', translation: 'начать заново', audioUrl: null },
-          { word: 'el futuro', translation: 'будущее', audioUrl: null },
-          { word: 'el recuerdo', translation: 'воспоминание, память', audioUrl: null },
-          { word: 'seguir adelante', translation: 'идти вперёд, продолжать', audioUrl: null },
-          { word: 'la aventura', translation: 'приключение', audioUrl: null }
+          { word: 'el vigilante', translation: 'охранник, сторож', audioUrl: null },
+          { word: 'el tatuaje', translation: 'татуировка', audioUrl: null },
+          { word: 'el taller', translation: 'мастерская, автосервис', audioUrl: null },
+          { word: 'el ático', translation: 'мансарда, пентхаус', audioUrl: null },
+          { word: 'la estantería', translation: 'полка, стеллаж', audioUrl: null },
+          { word: 'el hueco', translation: 'пустое место, пробел', audioUrl: null },
+          { word: 'el cenicero', translation: 'пепельница', audioUrl: null },
+          { word: 'sin rumbo fijo', translation: 'без определённой цели', audioUrl: null },
+          { word: 'atragantarse', translation: 'поперхнуться', audioUrl: null },
+          { word: 'el montadito', translation: 'маленький бутерброд', audioUrl: null }
         ]
       }
     ],
@@ -17364,46 +17214,6 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
         tab: 'CAPÍTULO 3',
         audioUrl: '/audio/17-12-3.mp3'
       },
-      {
-        tab: 'CAPÍTULO 4',
-        audioUrl: '/audio/17-12-4.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 5',
-        audioUrl: '/audio/17-12-5.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 6',
-        audioUrl: '/audio/17-12-6.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 7',
-        audioUrl: '/audio/17-12-7.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 8',
-        audioUrl: '/audio/17-12-8.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 9',
-        audioUrl: '/audio/17-12-9.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 10',
-        audioUrl: '/audio/17-12-10.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 11',
-        audioUrl: '/audio/17-12-11.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 12',
-        audioUrl: '/audio/17-12-12.mp3'
-      },
-      {
-        tab: 'CAPÍTULO 13',
-        audioUrl: '/audio/17-12-13.mp3'
-      }
     ],
     readingText: [
       {
@@ -17497,263 +17307,31 @@ Albert marca el número en su móvil. Después, saca del bolsillo del pantalón 
       },
       {
         tab: 'Capítulo 3',
-        content: `Elena Vidal es periodista del diario «La Voz de Barcelona». Lleva diez años trabajando en la sección de investigación y no tiene miedo de nada. Bueno, casi de nada.
-
-Esa mañana llega temprano a la redacción, se sienta delante de su ordenador y empieza a buscar información. El edificio de la calle Muntaner había ardido tres semanas antes. Los bomberos llegaron rápidamente, pero era demasiado tarde: el fuego ya lo había destruido todo. Las cenizas todavía estaban calientes cuando la policía llegó al lugar del incendio.
-
-«Un accidente», dijo el inspector en la rueda de prensa. Pero Elena no lo cree. Hay algo que no encaja.
-
-Va al archivo del periódico y busca artículos sobre el propietario del edificio: Marcos Ruiz. Encuentra varios artículos de los últimos años. En uno de ellos, de hacía tres años, se habla de un negocio fallido. En otro, de una demanda judicial. Alguien ya había destruido parte de los documentos del archivo antes de que ella llegara, pero quedan suficientes para entender la situación.
-
-—Interesante —murmura Elena—. Muy interesante.
-
-Encuentra una noticia pequeña, casi escondida, de hace dos meses: «La empresa Ruiz Construcciones declara quiebra». Y debajo, en letra pequeña: «El propietario, Marcos Ruiz, debe más de dos millones de euros a varios bancos».
-
-Elena saca una foto con el móvil. Acaba de descubrir un secreto importante. El incendio no fue un accidente. Fue un negocio.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 4',
-        content: `Elena pasa toda la tarde haciendo llamadas. Habla con antiguos empleados de Ruiz Construcciones, con vecinos del edificio, con un abogado que prefiere no dar su nombre. Poco a poco, el cuadro se va completando.
-
-Marcos Ruiz tenía grandes deudas. Sus negocios habían fracasado uno tras otro: primero una empresa de construcción, luego un hotel en la costa, después un restaurante en el centro. El banco ya no le daba crédito. Sus acreedores le amenazaban: si no pagaba antes de fin de año, se quedaría sin nada.
-
-Entonces tuvo la idea. Un mes antes del incendio, Ruiz contrató un seguro nuevo para el edificio: un seguro de mucho dinero, bastante más de lo que valía el inmueble. Si el edificio ardía, el seguro lo cubriría todo. Podría pagar todas las deudas y empezar de nuevo.
-
-—¿Y usted lo sabe con seguridad? —pregunta Elena al antiguo empleado.
-
-—Yo lo vi con mis propios ojos —responde el hombre—. Marcos me dijo que si alguien preguntaba, que dijera que no sabía nada. Pero yo no quiero problemas.
-
-Esa noche, cuando Elena sale de la redacción, un hombre la espera en la calle.
-
-—Señorita Vidal —dice en voz baja—. Marcos Ruiz sabe que está usted haciendo preguntas. Le aconseja que lo deje estar. Por su propio bien.
-
-Elena le mira fijamente.
-
-—Dígale al señor Ruiz que el periodismo libre no se puede comprar —responde, y se aleja sin mirar atrás.
-
-Esa noche no duerme bien. Pero al día siguiente, llega antes que nadie a la redacción.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 5',
-        content: `La investigación de Elena avanza rápido. Descubre que Marcos Ruiz no actuó solo: tenía un cómplice, un hombre llamado Sergio Palau, que fue quien prendió el fuego aquella noche. Palau tiene antecedentes penales y trabaja de vez en cuando para Ruiz como «manitas». La policía lo llama «trabajo informal». Elena lo llama de otra manera.
-
-Con esta información, Elena decide seguir a Palau. Lo ve salir de un bar del barrio de Gràcia a las diez de la noche. Lo sigue a distancia, procurando que no la vea.
-
-De repente, Palau se gira. La ha visto. Por un momento, los dos se miran. Luego él echa a correr.
-
-Elena corre también. Palau dobla una esquina y desaparece en un callejón oscuro. Elena se para. El corazón le late muy rápido. El callejón parece vacío, pero no puede estar segura. Tiene miedo. Mucho miedo. Pero piensa en las víctimas del incendio: una familia que lo perdió todo, un anciano que tuvo que ir a vivir con su hija, una pequeña empresa que cerró.
-
-Saca el móvil y llama a la policía.
-
-—Necesito que vengan ahora mismo —dice—. Tengo información sobre el incendio de la calle Muntaner y sé dónde está el responsable.
-
-La policía quiere que el sospechoso no escape. Es importante que nadie se vaya antes de que lleguen los agentes. Elena espera en la entrada del callejón, sin moverse. Cinco minutos después, dos coches patrulla llegan con las luces encendidas.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 6',
-        content: `Al día siguiente, Elena va a la comisaría y entrega todas las pruebas a la inspectora García: los artículos del archivo, las fotos de los documentos, las grabaciones de las conversaciones con los testigos, el contrato del seguro que había conseguido gracias a una fuente interna del banco.
-
-—Es todo lo que tengo —dice Elena—. ¿Es suficiente?
-
-La inspectora García revisa los documentos en silencio. Luego levanta la vista.
-
-—Es más que suficiente.
-
-Esa misma tarde, el sospechoso Sergio Palau fue detenido por la policía mientras intentaba salir de Barcelona en autobús. Las pruebas fueron presentadas ante el juez de guardia. El crimen fue descubierto gracias al trabajo de la periodista.
-
-Marcos Ruiz fue arrestado al día siguiente en su piso del Eixample. Cuando los agentes llamaron a la puerta, tardó varios minutos en abrir. Llevaba una maleta preparada.
-
-En la comisaría, después de varias horas de interrogatorio, Ruiz confesó su crimen. Dijo que lo había hecho por desesperación, que las deudas lo habían llevado al límite. El incendio fue planeado con cuidado, en un momento en que el edificio estaba vacío, para que no hubiera víctimas. Pero una vecina anciana que había olvidado sus medicamentos casi no lo consigue salir.
-
-Esa noche, Elena escribe un artículo. Lo titula: «Cenizas calientes: el incendio que no fue un accidente». Al día siguiente, es la noticia más leída del periódico.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 7',
-        content: `El juicio comienza tres meses después, un martes de octubre con lluvia y frío en Barcelona. La sala está llena de periodistas, vecinos del edificio y curiosos. Elena se sienta en la primera fila del público, con su libreta y su bolígrafo.
-
-El juez, un hombre mayor con gafas de montura gruesa, pide que todos estuvieran en silencio antes de comenzar.
-
-—Este tribunal —dice con voz grave— va a examinar los hechos con toda la seriedad que merecen.
-
-El fiscal toma la palabra primero. Presenta todas las pruebas: el contrato del seguro, los testimonios de los testigos, la confesión del acusado, los informes técnicos del incendio. Era importante que el juez viera todos los documentos. Pide una condena severa: ocho años de prisión para Marcos Ruiz y seis para Sergio Palau.
-
-—El acusado no es una víctima de las circunstancias —dice el fiscal—. Es un hombre que puso en peligro la vida de sus vecinos por dinero.
-
-Luego habla el abogado defensor. Es joven, elegante, y habla con mucha seguridad.
-
-—Mi cliente es inocente —declara—. Las pruebas que ha presentado la fiscalía son circunstanciales. La confesión fue obtenida bajo presión psicológica. El señor Ruiz cooperó en todo momento con la justicia.
-
-El fiscal quería que todos vieran las fotos del edificio destruido. El abogado quería que el juez escuchara la versión de su cliente. Los testigos declararon uno por uno. El proceso duró todo el día.
-
-Al final de la jornada, el juez anunció que la sentencia se leería al día siguiente.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 8',
-        content: `El miércoles por la mañana, la sala del tribunal vuelve a llenarse. Elena llega puntual, con el mismo cuaderno de siempre. Cuando el juez leyó la sentencia, todos guardaron silencio.
-
-—Marcos Ruiz, este tribunal le declara culpable del delito de incendio provocado con ánimo de fraude y de amenazas. La sentencia es de siete años de prisión. Sergio Palau, su cómplice, queda condenado a cinco años.
-
-Un murmullo recorre la sala. Ruiz escucha la sentencia con la mirada baja. Su abogado toma nota en silencio.
-
-El misterio ha sido resuelto gracias a la investigación de Elena Vidal. La periodista sale del tribunal a la calle y respira el aire frío de octubre. Siente un gran alivio. El caso está cerrado. La verdad ha salido a la luz.
-
-La inspectora García se acerca a ella.
-
-—Buen trabajo, Vidal.
-
-—Es lo que hacemos —responde Elena con una sonrisa.
-
-Esa tarde, en la redacción, escribe el artículo final sobre el caso. Lo titula: «Justicia: el misterio de las cenizas calientes queda resuelto». La historia terminó de forma justa. El culpable fue condenado a la cárcel. Los vecinos del edificio, que lo habían perdido todo, por fin pueden pasar página.
-
-Elena guarda el cuaderno en el cajón y apaga el ordenador. Mañana habrá otra historia. Siempre hay otra historia. Pero esta noche, por primera vez en semanas, va a dormir tranquila.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 9',
-        content: `Al día siguiente, a las diez de la mañana, Albert llama a Pepa.
-
-—Buenos días. ¿Puedes venir a recogerme al hotel? Necesito ir al puerto.
-
-Pepa llega en diez minutos. Albert sale del hotel con el mismo maletín negro de siempre. Está bien vestido, como de costumbre, pero hoy parece más serio, más tenso. No habla durante todo el trayecto.
-
-Al llegar al puerto, Albert le pide que espere en el aparcamiento.
-
-—No sé cuánto tiempo voy a tardar. Puede ser una hora, puede ser dos. ¿Te parece bien?
-
-—Como quieras —dice Pepa—. Aquí estaré.
-
-Pepa lo ve alejarse hacia los muelles. Lleva el maletín con fuerza, como si fuera muy importante. Hay guardias de seguridad en la entrada, pero Albert muestra un documento y lo dejan pasar sin problema.
-
-Pepa enciende la radio. Pero no puede dejar de mirar hacia el puerto. Algo no le cuadra. Nadie va al puerto con tanta prisa y tanto nerviosismo para hacer un negocio normal.
-
-Al cabo de una hora, Albert vuelve. Sin el maletín.
-
-—Al aeropuerto, por favor —dice simplemente.
-
-Pepa lo mira por el espejo retrovisor. Albert mira por la ventana. Ninguno de los dos dice nada.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 10',
-        content: `En el aeropuerto, Albert le da otro billete de cien euros.
-
-—Gracias, Pepa. Has sido muy profesional. Puede que te llame mañana.
-
-—¿Solo «puede»? —pregunta Pepa.
-
-—Depende de cómo vayan las cosas —responde Albert con una sonrisa que no llega a sus ojos.
-
-Pepa vuelve al coche y se queda pensando. Ha visto algo en el puerto: un momento en que Albert entregaba el maletín a un hombre bajo con gafas oscuras. Los dos se hablaban en voz muy baja, mirando a su alrededor. El hombre de las gafas oscuras había abierto el maletín un momento, había asentido, y luego había desaparecido entre los contenedores.
-
-No era una reunión de negocios. Era una entrega.
-
-Pepa lleva años conduciendo un taxi por Barcelona. Ha visto muchas cosas. Sabe distinguir entre un turista con mucho dinero y alguien que hace negocios ilegales. Albert, con su elegancia y su maletín, pertenece claramente a la segunda categoría.
-
-«¿Y yo qué hago?», piensa Pepa. «Me han pagado bien. No me han hecho nada malo. Pero si sigo trabajando para él, puedo acabar implicada en algo que no quiero».
-
-Esa noche no duerme bien. Piensa en Carlos. En su trabajo. En lo que diría su madre si supiera en qué situación está.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 11',
-        content: `A la mañana siguiente, Albert la llama temprano.
-
-—Necesito que me lleves a Sitges. ¿Puedes?
-
-Pepa duda. Tiene el teléfono en la mano y no sabe qué decir. Podría negarse. Podría decirle que está ocupada. Pero también podría ir a Sitges, observar más, y luego decidir qué hacer con lo que descubra.
-
-—Sí —dice al final—. En veinte minutos estoy en tu hotel.
-
-Durante el camino a Sitges, Pepa decide hacer preguntas.
-
-—Oye, Albert. ¿A qué te dedicas exactamente?
-
-—Soy consultor. Trabajo con empresas internacionales.
-
-—¿Y eso te lleva mucho al puerto?
-
-Albert la mira por el espejo. Sus ojos son fríos ahora.
-
-—¿Por qué lo preguntas?
-
-—Por curiosidad. Es una pregunta normal.
-
-—El trabajo de consultor tiene muchas facetas —responde Albert, y cambia de tema.
-
-Pepa no insiste. Pero cuando llegan a Sitges y Albert entra en un restaurante de lujo junto al mar, Pepa saca el móvil y llama a un número que tiene guardado: el de un inspector de policía al que conoce de un accidente de tráfico de hace dos años.
-
-—Necesito hablar contigo —dice cuando el inspector descuelga—. Puede que tenga información sobre algo importante.`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 12',
-        content: `El inspector Molina queda con Pepa esa misma tarde en una cafetería del Paseo de Gracia. Es un hombre de unos cincuenta años, con bigote y cara de haber dormido poco.
-
-—Cuéntame —dice, sin rodeos.
-
-Pepa le cuenta todo: el accidente con el Ferrari, la oferta de Albert, el viaje al puerto, la entrega del maletín, la reunión en Sitges.
-
-Molina escucha sin interrumpir. Cuando Pepa termina, el inspector asiente lentamente.
-
-—¿Sabes el nombre del hombre del puerto? ¿El de las gafas oscuras?
-
-—No.
-
-—¿Recuerdas algo más del maletín? ¿El color, el tamaño?
-
-—Negro. Pequeño. Del tipo que se usa para documentos o para… no sé. Para cosas de valor.
-
-Molina saca una foto del bolsillo y la pone sobre la mesa.
-
-—¿Es este hombre?
-
-Pepa mira la foto. Es Albert.
-
-—Sí.
-
-—Se llama Albert Van der Berg. Es holandés. Lo llevamos siguiendo tres meses. Forma parte de una red de contrabando de documentos falsos. El maletín del puerto probablemente contenía pasaportes.
-
-Pepa siente un escalofrío.
-
-—¿Y yo? ¿Estoy implicada?
-
-—Por el momento, eres testigo. Si cooperas con nosotros, no tendrás ningún problema. Pero necesitamos tu ayuda para detenerle. ¿Cuándo vuelve a llamarte?`,
-        translation: ``
-      },
-      {
-        tab: 'Capítulo 13',
-        content: `Esa noche, Albert llama a Pepa.
-
-—Mañana por la mañana. Necesito ir al aeropuerto. Vuelo a las once.
-
-—De acuerdo —dice Pepa con voz tranquila—. A las nueve estoy en el hotel.
-
-Pero a las nueve, cuando Pepa llega al hotel, no está sola. El inspector Molina y tres agentes esperan en coches sin identificación a cincuenta metros. Pepa lleva un micrófono pequeño escondido bajo la chaqueta.
-
-Albert sale del hotel con una maleta grande y el maletín negro de siempre. Sonríe al ver a Pepa.
-
-—Buenos días. ¿Todo bien?
-
-—Todo bien —responde Pepa.
-
-En el camino al aeropuerto, Albert hace una llamada en holandés. Pepa conduce en silencio. Cuando llegan al aeropuerto y Albert se dispone a salir del coche, los agentes rodean el vehículo. En menos de dos minutos, Albert Van der Berg está detenido.
-
-Esa tarde, Pepa da su declaración en comisaría. El inspector Molina le da la mano.
-
-—Buen trabajo. No muchas personas habrían hecho lo mismo.
-
-—Tenía que hacerlo —dice Pepa—. Mi conciencia no me dejaba otra opción.
-
-De vuelta en su taxi, Pepa conduce por las Ramblas. Piensa en Carlos, en Madrid, en todas las decisiones que ha tomado en los últimos días. Saca el móvil y marca su número.
-
-—Carlos. Soy yo. ¿Podemos hablar?
-
-Barcelona brilla bajo el sol de la tarde. Pepa Villa sonríe y acelera hacia el futuro.`,
+        content: `Antes de girar, Pepa se queda un momento mirando a su nuevo cliente.
+«¡Está buenísimo…!» Ha tenido novios guapos, pero ninguno como Albert.
+Está a punto de poner la luz verde, pero recuerda que no está libre. No está libre, pero de momento puede hacer lo que quiera sin prisa y sin rumbo fijo. Automáticamente va hacia Gràcia, su barrio. Gràcia es como un pueblo en el centro de Barcelona. Llega hasta la plaza del Sol y guarda el coche en un garaje.
+El vigilante la saluda y dice:
+—¡Vaya hostia!
+Raúl es un buen amigo de Pepa. Tiene treinta años. Es alto y muy delgado, con el cuerpo lleno de tatuajes y piercings. Ha estado en la cárcel, ha tenido muchos trabajos y una vida difícil. Bebe cerveza a todas horas y fuma porros. «Nada importante, lo tengo controlado», suele decir, y se siente orgulloso de sí mismo. Le gustaría verlo completamente limpio. Le tiene cariño. A Raúl le apasionan los coches. Antes de pasar al lado de los buenos, tenía unos colegas en un taller clandestino en el que, con piezas de coches robados, montaban otros modelos que luego vendían para carreras ilegales. Es un tipo primitivo, pero simpático. Conoce a mucha gente. Buena gente y mala gente. Un tipo simpático que conoce a mucha gente.
+—¡Hala! ¿Qué te ha pasado? ¿Vas pedo de buena mañana? —dice Raúl al ver las marcas del accidente en el coche de Pepa.
+—Tú estás igual de gilipollas a todas horas.
+—¿Has chocado contra otro coche?
+—Sí. Un Ferrari, nada menos.
+—¡Un Ferrari! ¿Qué modelo?
+—No lo sé.
+—¿Quieres llevar el Octavia al taller del Mojao? —el «Mojao» (de Mohamed) es un colega de Raúl, un mecánico excelente que trabaja de forma totalmente ilegal.
+—No, necesito el coche. ¿Me lo puedes limpiar? Está un poco sucio. Yo voy a comer algo y a dar una vuelta.
+Pepa sube al piso, un ático. Al entrar se da cuenta de que en las estanterías y en los libros hay unos cuantos huecos. Coge una cerveza de la nevera y, con la botella en la mano, abre el armario. En su interior hay una caja de galletas metálica: Galletas Birba, una marca catalana que Carlos les ha traído de un viaje a Camprodon. Pepa guarda donde son típicas, pero ni a ella ni a Carlos les gustan los dulces. Pepa se pregunta qué quiere Carlos con las galletas. Saca la caja de la bolsa y la lleva a la cocina. Depara dónde estaba la caja de galletas que había en el cajón. ¿Hay otra caja de galletas? Pepa comprende que la caja de galletas que está en la mano es la que Carlos ha comprado. Pero ¿por qué ha comprado Carlos una caja de galletas Birba? ¿Para llevársela a algún amigo como recuerdo de Cataluña? ¿Qué raro! A Carlos se le ve la cara de mala leche. Guarda las dos cajas en el cajón.
+De su mesilla de noche saca un paquete de tabaco y enciende un cigarrillo. No hay ceniceros porque, en teoría, Carlos no fuma. Y ella dice: «Sí, lo sé. Ya no fumo». Sin embargo, sigue fumando en secreto. Deja caer la ceniza en la bonita alfombra que compró Carlos.
+Está de otro humor de perros. Tiene ganas de gritar. Grita. Da un portazo y sale a la calle. El bar de su amigo Armando, el argentino, está al lado, pero no quiere hablar con nadie. Anda sin rumbo unos minutos y casi sin darse cuenta cruza la calle Gran de Gràcia. Sigue andando. Tiene hambre. Entra en un bar muy pequeño y la cerveza no le ha sentado bien. Tiene sed. Las dos únicas mesas están ocupadas. Se queda de pie y pide una caña y un montadito de jamón. Come y se siente un poco mejor. Luego entra en el bar de enfrente. Pide unas patatas bravas y otra cerveza. Se mete un trozo enorme de patata en la boca y se mancha la camisa con la salsa.
+«¡Es él! ¡Es Albert!»
+—Mmm, sss? —consigue decir con la boca llena.
+—¿Te pasa algo? —pregunta Albert.
+—Mmm, mmm… no —traga y se atraganta. Tose—. Es que estaba comiendo…
+—Lo siento. ¿Puedes pasar por el hotel a recogerme?
+—Sí, sí, claro. ¿El hotel de Castelldefels?
+—Sí, aquí mismo. Donde me has dejado esta mañana.
+—Ok. Ahora voy. En media hora estoy ahí.`,
         translation: ``
       }
     ],
@@ -17783,96 +17361,6 @@ Barcelona brilla bajo el sol de la tarde. Pepa Villa sonríe y acelera hacia el 
           { name: 'Понимание текста', exercises: ['ex-17-12-3-1'] },
           { name: 'Грамматика', exercises: ['ex-17-12-3-2'] },
           { name: 'Перевод', exercises: ['ex-17-12-3-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 4',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-4-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-4-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-4-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-4-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 5',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-5-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-5-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-5-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-5-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 6',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-6-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-6-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-6-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-6-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 7',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-7-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-7-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-7-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-7-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 8',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-8-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-8-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-8-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-8-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 9',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-9-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-9-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-9-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-9-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 10',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-10-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-10-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-10-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-10-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 11',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-11-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-11-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-11-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-11-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 12',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-12-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-12-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-12-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-12-3'] }
-        ]
-      },
-      {
-        tab: 'Capítulo 13',
-        subtabs: [
-          { name: 'Словарь', exercises: ['ex-17-12-13-vocab'] },
-          { name: 'Понимание текста', exercises: ['ex-17-12-13-1'] },
-          { name: 'Грамматика', exercises: ['ex-17-12-13-2'] },
-          { name: 'Перевод', exercises: ['ex-17-12-13-3'] }
         ]
       }
     ]
