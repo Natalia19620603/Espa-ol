@@ -12289,7 +12289,7 @@ Médico: Es su vida... ¡Es su vida! Los pacientes ya no saben ni lo que quieren
     ],
     exerciseTabs: [
       {
-        tab: 'En el consultorio médico',
+        tab: 'Грамматика урока',
         exercises: ['ex-10-2-1', 'ex-10-2-2', 'ex-10-2-3', 'ex-10-2-4', 'ex-10-2-5']
       },
       {
@@ -40813,21 +40813,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Вставьте глагол в правильном времени: Pretérito Perfecto, Indefinido, Imperfecto или Imperativo Afirmativo',
     showAnswerOption: true,
     questions: [
-      { sentence: 'El médico le ___ (decir, Indef.) la verdad sin rodeos ayer. ', correct: 'dijo', alternatives: [] },
-      { sentence: 'Hasta ahora no ___ (encontrar, Perf.) otro tratamiento para el paciente.', correct: 'hemos encontrado', alternatives: ['han encontrado'] },
-      { sentence: 'Cuando era joven, José Luis ___ (tener, Imperf.) mucho miedo a las operaciones.', correct: 'tenía', alternatives: [] },
-      { sentence: '¡___ (tomar, Imper. tú) el jarabe tres veces al día!', correct: 'Toma', alternatives: [] },
-      { sentence: 'El cirujano ___ (realizar, Indef.) la intervención la semana pasada.', correct: 'realizó', alternatives: [] },
-      { sentence: 'El paciente nunca ___ (estar, Perf.) en un quirófano antes.', correct: 'ha estado', alternatives: [] },
-      { sentence: 'De niño, siempre ___ (ir, Imperf.) al mismo médico de familia.', correct: 'iba', alternatives: [] },
-      { sentence: '¡___ (decir, Imper. tú) la verdad al paciente, no le engañes!', correct: 'Di', alternatives: ['Dile'] },
-      { sentence: 'Ayer el doctor ___ (estudiar, Indef.) todas las posibilidades.', correct: 'estudió', alternatives: [] },
-      { sentence: 'Hasta el momento nadie ___ (superar, Perf.) este tipo de intervención.', correct: 'ha superado', alternatives: [] },
-      { sentence: 'Antes las operaciones a corazón abierto ___ (ser, Imperf.) imposibles.', correct: 'eran', alternatives: [] },
-      { sentence: '¡___ (poner, Imper. tú) la inyección en el muslo, no en el brazo!', correct: 'Pon', alternatives: [] },
-      { sentence: 'José Luis ___ (optar, Indef.) por el jarabe al final del diálogo.', correct: 'optó', alternatives: [] },
-      { sentence: 'El médico siempre ___ (recomendar, Imperf.) las intervenciones más complejas.', correct: 'recomendaba', alternatives: [] },
-      { sentence: '¡___ (hacer, Imper. tú) caso al médico y no ___ (arriesgar, Imper. tú) tu vida!', correct: 'Haz', alternatives: ['Hazle'] }
+      { sentence: 'El médico le ___ (decir) la verdad sin rodeos ayer.', correct: 'dijo', alternatives: [] },
+      { sentence: 'Hasta ahora no ___ (encontrar) otro tratamiento para el paciente.', correct: 'hemos encontrado', alternatives: ['han encontrado'] },
+      { sentence: 'Cuando era joven, José Luis ___ (tener) mucho miedo a las operaciones.', correct: 'tenía', alternatives: [] },
+      { sentence: '¡___ (tomar) el jarabe tres veces al día!', correct: 'Toma', alternatives: [] },
+      { sentence: 'El cirujano ___ (realizar) la intervención la semana pasada.', correct: 'realizó', alternatives: [] },
+      { sentence: 'El paciente nunca ___ (estar) en un quirófano antes.', correct: 'ha estado', alternatives: [] },
+      { sentence: 'De niño, siempre ___ (ir) al mismo médico de familia.', correct: 'iba', alternatives: [] },
+      { sentence: '¡___ (decir) la verdad al paciente, no le engañes!', correct: 'Di', alternatives: ['Dile'] },
+      { sentence: 'Ayer el doctor ___ (estudiar) todas las posibilidades.', correct: 'estudió', alternatives: [] },
+      { sentence: 'Hasta el momento nadie ___ (superar) este tipo de intervención.', correct: 'ha superado', alternatives: [] },
+      { sentence: 'Antes las operaciones a corazón abierto ___ (ser) imposibles.', correct: 'eran', alternatives: [] },
+      { sentence: '¡___ (poner) la inyección en el muslo, no en el brazo!', correct: 'Pon', alternatives: [] },
+      { sentence: 'José Luis ___ (optar) por el jarabe al final del diálogo.', correct: 'optó', alternatives: [] },
+      { sentence: 'El médico siempre ___ (recomendar) las intervenciones más complejas.', correct: 'recomendaba', alternatives: [] },
+      { sentence: '¡___ (hacer) caso al médico y no ___ (arriesgar) tu vida!', correct: 'Haz', alternatives: ['Hazle'] }
     ]
   },
 
@@ -41508,21 +41508,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Вставьте глагол в правильном времени: Pretérito Perfecto, Indefinido или Imperfecto',
     showAnswerOption: true,
     questions: [
-      { sentence: 'Colón ___ (llegar, Indef.) a América en 1492.', correct: 'llegó', alternatives: [] },
-      { sentence: 'La travesía ___ (durar, Indef.) más de dos meses.', correct: 'duró', alternatives: [] },
-      { sentence: 'Los marineros ___ (estar, Imperf.) hambrientos y enfermos durante el viaje.', correct: 'estaban', alternatives: [] },
-      { sentence: 'Hasta ahora nadie ___ (descubrir, Perf.) estas tierras.', correct: 'ha descubierto', alternatives: [] },
-      { sentence: 'Cuando Colón ___ (llegar, Indef.), el funcionario le ___ (pedir, Indef.) los papeles.', correct: 'llegó', alternatives: [] },
-      { sentence: 'En aquella época no ___ (existir, Imperf.) pasaportes ni visados.', correct: 'existían', alternatives: [] },
-      { sentence: 'Los Reyes de Castilla le ___ (dar, Indef.) un mandato para el viaje.', correct: 'dieron', alternatives: [] },
-      { sentence: 'La tripulación ___ (navegar, Imperf.) día y noche sin descanso.', correct: 'navegaba', alternatives: [] },
-      { sentence: 'Nunca ___ (ver, Perf.) un funcionario de aduanas tan estricto.', correct: 'he visto', alternatives: ['hemos visto'] },
-      { sentence: 'Colón ___ (tomar, Indef.) posesión de las tierras en nombre de los Reyes.', correct: 'tomó', alternatives: [] },
-      { sentence: 'Antes los exploradores ___ (viajar, Imperf.) en carabelas, no en pateras.', correct: 'viajaban', alternatives: [] },
-      { sentence: 'El funcionario ___ (decir, Indef.) que sin papeles no se puede entrar.', correct: 'dijo', alternatives: [] },
-      { sentence: 'Mientras Colón ___ (hablar, Imperf.), el funcionario no le ___ (escuchar, Imperf.).', correct: 'hablaba', alternatives: [] },
-      { sentence: 'Este año muchos inmigrantes ___ (llegar, Perf.) en pateras.', correct: 'han llegado', alternatives: [] },
-      { sentence: 'Colón ___ (querer, Imperf.) entrar, pero no ___ (tener, Imperf.) los documentos.', correct: 'quería', alternatives: [] }
+      { sentence: 'Colón ___ (llegar) a América en 1492.', correct: 'llegó', alternatives: [] },
+      { sentence: 'La travesía ___ (durar) más de dos meses.', correct: 'duró', alternatives: [] },
+      { sentence: 'Los marineros ___ (estar) hambrientos y enfermos durante el viaje.', correct: 'estaban', alternatives: [] },
+      { sentence: 'Hasta ahora nadie ___ (descubrir) estas tierras.', correct: 'ha descubierto', alternatives: [] },
+      { sentence: 'Cuando Colón ___ (llegar), el funcionario le ___ (pedir) los papeles.', correct: 'llegó', alternatives: [] },
+      { sentence: 'En aquella época no ___ (existir) pasaportes ni visados.', correct: 'existían', alternatives: [] },
+      { sentence: 'Los Reyes de Castilla le ___ (dar) un mandato para el viaje.', correct: 'dieron', alternatives: [] },
+      { sentence: 'La tripulación ___ (navegar) día y noche sin descanso.', correct: 'navegaba', alternatives: [] },
+      { sentence: 'Nunca ___ (ver) un funcionario de aduanas tan estricto.', correct: 'he visto', alternatives: ['hemos visto'] },
+      { sentence: 'Colón ___ (tomar) posesión de las tierras en nombre de los Reyes.', correct: 'tomó', alternatives: [] },
+      { sentence: 'Antes los exploradores ___ (viajar) en carabelas, no en pateras.', correct: 'viajaban', alternatives: [] },
+      { sentence: 'El funcionario ___ (decir) que sin papeles no se puede entrar.', correct: 'dijo', alternatives: [] },
+      { sentence: 'Mientras Colón ___ (hablar), el funcionario no le ___ (escuchar).', correct: 'hablaba', alternatives: [] },
+      { sentence: 'Este año muchos inmigrantes ___ (llegar) en pateras.', correct: 'han llegado', alternatives: [] },
+      { sentence: 'Colón ___ (querer) entrar, pero no ___ (tener) los documentos.', correct: 'quería', alternatives: [] }
     ]
   },
 
