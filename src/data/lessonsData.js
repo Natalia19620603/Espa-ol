@@ -17276,6 +17276,40 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'el argot', translation: 'сленг, арго, жаргон', audioUrl: null },
           { word: 'investigar', translation: 'исследовать, расследовать', audioUrl: null }
         ]
+      },
+      {
+        tab: 'Capítulo 7',
+        words: [
+          { word: 'aparentar', translation: 'изобразить, прикинуться (кем-либо)', audioUrl: null },
+          { word: 'coquetear', translation: 'кокетничать, флиртовать', audioUrl: null },
+          { word: 'el parapléjico', translation: 'колясочник', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 8',
+        words: [
+          { word: 'el travesti', translation: 'трансвестит', audioUrl: null },
+          { word: 'la navaja', translation: 'нож', audioUrl: null },
+          { word: 'las castañuelas', translation: 'кастаньеты', audioUrl: null },
+          { word: 'macizo', translation: 'тяжелый, массивный', audioUrl: null },
+          { word: 'desplumar', translation: 'обчистить', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 9',
+        words: [
+          { word: 'el colocón', translation: 'обдолбанный', audioUrl: null },
+          { word: 'el estriper', translation: 'стриптизер', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 10',
+        words: [
+          { word: 'la haka maorí', translation: 'маорийская хака — ритуальный танец', audioUrl: null },
+          { word: 'el pijo', translation: 'пижон', audioUrl: null },
+          { word: 'estar confuso', translation: 'быть в замешательстве', audioUrl: null },
+          { word: 'amanecer', translation: 'рассветать', audioUrl: null }
+        ]
       }
     ],
     audioTabs: [
