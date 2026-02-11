@@ -17204,15 +17204,55 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
     audioTabs: [
       {
         tab: 'CAPÍTULO 1',
-        audioUrl: '/audio/17-12-1.mp3'
+        audioUrl: '/audio/T 1.mp3'
       },
       {
         tab: 'CAPÍTULO 2',
-        audioUrl: '/audio/17-12-2.mp3'
+        audioUrl: '/audio/T 2.mp3'
       },
       {
         tab: 'CAPÍTULO 3',
-        audioUrl: '/audio/17-12-3.mp3'
+        audioUrl: '/audio/T 3.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 4',
+        audioUrl: '/audio/T 4.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 5',
+        audioUrl: '/audio/T 5.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 6',
+        audioUrl: '/audio/T 6.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 7',
+        audioUrl: '/audio/T 7.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 8',
+        audioUrl: '/audio/T 8.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 9',
+        audioUrl: '/audio/T 9.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 10',
+        audioUrl: '/audio/T 10.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 11',
+        audioUrl: '/audio/T 11.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 12',
+        audioUrl: '/audio/T 12.mp3'
+      },
+      {
+        tab: 'CAPÍTULO 13',
+        audioUrl: '/audio/T 13.mp3'
       },
     ],
     readingText: [
