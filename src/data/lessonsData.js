@@ -17604,6 +17604,59 @@ Carlos va hacia el armario. Se cambia de ropa. Mete la ropa sucia en una bolsa d
 Pepa va a la cocina, abre el cajón y le da una de las cajas de galletas. Carlos la coge, la mete en su bolsa y sale sin decir ni una palabra.
 —Qué gilipollas… —dice Pepa, encendiendo un cigarrillo.`,
         translation: ``
+      },
+      {
+        tab: 'Capítulo 12',
+        content: `Dos días después, Pepa y Raúl beben cerveza en el garaje. Están hablando de Albert y sus negocios. En estos días Albert y ella se han hecho muy amigos y él le ha contado muchas cosas.
+—Los abuelos y los padres de Albert tienen varias funerarias en Nueva Zelanda. Albert abrió en Holanda una sucursal de las empresas familiares. Un amigo químico holandés le dijo que con las cenizas de los cadáveres incinerados se podían hacer diamantes. El amigo químico conocía a otro químico español que sabía bastante de eso. Se asociaron. Los dos químicos trabajaron juntos. Hicieron una prueba y funcionó: las cenizas se convertían en cristales y luego en piedras preciosas. Lo que Albert llevaba en el maletín eran cenizas. No era coca…
+—¡Coño! ¡Por eso olía a cadáver! —exclama Raúl—. Suerte poco que ya no era Keith Richards… ¡Qué colocón!
+—Tú estás siempre colocado.
+—Bueno, es igual… El caso es que el maletín que le robaron a Albert llevaba harina integral. Los chorizos creían que llevaba dinero o alguna droga, y resulta que era harina. Puedes quedarte con las cenizas del puto maletín.
+—A ver… Después del accidente yo llevé a Albert a un hotel de Castelldefels. Allí se encontró con sus socios y con un abogado español. Firmaron un contrato y bebieron para celebrar el negocio. Total, que todos estaban muy contentos y el abogado se llevó el maletín para convertir las cenizas en diamantes. ¡Qué cabrón!
+—Sí, y además el problema es que la fórmula para hacerlo está en esas cenizas. Los dos químicos, el español y el holandés, hicieron las cenizas y vinieron a convertirse en cristales. Pero fue una casualidad. Para repetir la operación sabían que debían analizar las cenizas y descubrir su composición: qué era lo que habían mezclado y en qué proporción. Por eso el maletín era tan importante. Los dos químicos pueden volver a un laboratorio pero, mientras tanto, el abogado puede llevar las cenizas a un laboratorio y venderla por muchos millones. Puede encontrar la fórmula, patentarla y millones.
+—Los abogados, nenas, no son de fiar. ¿Qué va a hacer Albert ahora?
+—De momento, se queda unos días en Barcelona. En mi casa. Quiere conocer la ciudad. ¡Qué buena eres!
+—En tu casa, ¿eh? ¡Qué buena eres!
+—Sí, soy muy buena.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 13',
+        content: `Anochece. Pepa y Albert están tumbados en el sofá del ático de Pepa.
+—Eres bonita. Y muy buena.
+—Yo no soy buena. Pero tú estás bueno…
+—No entiendo. Da igual. Pero eres muy buena, me invitas a comer, me dejas dormir en tu casa y en tu cama. Raúl también es bueno. También me ha ayudado.
+—No ha servido de nada. El maletín que recuperó Raúl solo tenía harina.
+—Porque el abogado me lo cambió en el hotel de Castelldefels. Ya te conté lo que pasó. Estábamos contentos. Bebimos. Las chicas eran muy simpáticas… El abogado cogió mi maletín y me dejó uno igual lleno de harina. Pero Raúl lo buscó y lo encontró. Es buen tío Raúl.
+—¿Cómo se llamaba el abogado?
+—Roberto Alcázar.
+Suena el teléfono. Pepa piensa que es Carlos. No la ha llamado desde que se fue. Pero es su madre. Su madre quiere saber si por la tarde puede acompañarla al dentista. Tampoco le gusta su trabajo. Su madre se queja. A su hermana, como a Carlos, le parece mal la profesión.
+—Están llamando a la puerta. Tengo que colgar —y cuelga.
+—Albert, ¿a ti te gusta tu trabajo?
+—Sí —Albert sonríe. Es una pregunta que le han hecho muchas veces—. La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan.
+—¿Y mi trabajo? ¿A ti qué te parece mi trabajo, Albert? —pregunta Pepa.
+—¿Tu trabajo? Eres taxista… Conoces gente, lugares… Sí, creo que es un buen trabajo. Debe ser divertido. ¿Ganas mucho dinero?
+—No me importa el dinero.
+—¿Y yo? ¿Te importo yo? —Albert besa el cuello de Pepa, el pecho, el estómago…
+—Vas muy deprisa, amigo —Pepa piensa en Carlos. Carlos le gustaba, pero Albert le gusta más.
+—Lo siento —dice Albert—. ¿Te gusta más despacio?
+—No, no. No me refiero a… ¡Dios, qué complicado! Sigue.
+Una hora más tarde, Pepa y Albert se duchan y se visten.
+Albert está mirando una revista sentado en el sofá. Pepa está en el cuarto de baño secándose el cabello.
+—Tengo hambre —dice Albert.
+—Te invito a cenar.
+—¿Puedo comer algo mientras te espero?
+—Mira en la nevera.
+Albert abre la nevera.
+—Solo hay cerveza. No hay comida.
+—Tengo galletas. ¿Te gustan? Están en el primer cajón, al lado del lavavajillas.
+—La caja está cerrada. ¿La abro?
+—Sí. Ábrela.
+—Pepa, en la caja no hay galletas. Hay un polvo blanco… ¿Qué es? ¿Harina?
+—¡El gilipollas de Carlos!
+—¿Cómo? ¿Qué dices?
+—Sí, esto… Ahora lo explico todo. Creo que tenemos las cenizas.`,
+        translation: ``
       }
     ],
     exercises: [
