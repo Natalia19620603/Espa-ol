@@ -17333,6 +17333,140 @@ Está de otro humor de perros. Tiene ganas de gritar. Grita. Da un portazo y sal
 —Sí, aquí mismo. Donde me has dejado esta mañana.
 —Ok. Ahora voy. En media hora estoy ahí.`,
         translation: ``
+      },
+      {
+        tab: 'Capítulo 4',
+        content: `—¡Raúl! ¿Ya está mi coche?
+Raúl sale de la parte trasera del Octavia.
+—¡Vaya, vaya, vaya! A tu último cliente se le ha caído un montón de material por el asiento.
+—¿De qué hablas?
+—La propina —dice Raúl—. Te ha dejado la propina.
+—¡Venga, va, que no estoy para tonterías! ¿Qué dices?
+—Que tenías el asiento de atrás lleno de polvo blanco.
+—¿Polvo blanco?
+—Farlopa, niña, farlopa.
+—¿Coca? ¿Cocaína?
+—Sí. Bueno, yo no la he probado, ¿eh?
+—No, mejor no. ¡El maletín! —recuerda a Albert y su maletín—. ¡Joder! Así que el supermodelo es un narco. ¿Estás seguro?
+Raúl no le contesta porque no la escucha. Ha ido al cuarto donde guarda sus cosas a buscar una lata de cerveza. No sabe qué hacer.
+Pepa va al lavabo. Se peina un poco y se maquilla. Ve que puede ser peligroso si se maquilla con un narcotraficante, pero Albert le ha pagado por adelantado. La está esperando en Castelldefels. Al fin y al cabo, lo que hacen sus pasajeros no es su problema.
+Al llegar al hotel no ve a nadie.
+«¡Vaya!» Ella le ha dado a él su número de teléfono, pero él no le ha dado el suyo. Mira el móvil, pero el número desde el cual la ha llamado no aparece en la pantalla. «Número oculto». No puede avisarlo de que ya ha llegado.
+Pepa espera. Después de quince minutos, decide ir al hotel: quizás él está en la recepción. Se llama «XXI Century Foxes».
+«¡Vaya nombre le han puesto!», piensa Pepa, que, al entrar, no se sorprende en absoluto de la decoración: espejos, mármol… Ni de las mujeres que hay en el bar: todas son altísimas y guapísimas. Bien peinadas y maquilladas. Altas y con tacones muy altos. Pepa no puede evitar sentirse pequeña e insignificante. Albert no está.
+La chica de la recepción está hablando por teléfono. Pepa la observa y piensa que es muy guapa. Es muy joven, tiene los ojos verdes y una larga melena rubia. La chaqueta le queda ajustada como una segunda piel. El escote deja ver parte de unos pechos perfectos, aunque no lo suficiente como para que Pepa pueda distinguir si son de verdad… o de silicona.
+—Hola. Me han llamado. Estoy esperando a un cliente… —dice Pepa.
+—Hola —la rubia tiene una sonrisa de ángel—. Sí, claro. ¿Sabes en qué habitación está?
+—No.
+—Pues puedes esperar en el bar, si quieres.
+—Gracias.
+Pepa se sienta en un taburete y pide una Coca-Cola. La chica que atiende la barra también es guapa. Lleva unos shorts y un top muy pequeños.
+—¿Se puede fumar? —pregunta Pepa.
+—Claro —contesta la camarera.
+Pepa saca del bolso un paquete de Ducados y se pone un cigarrillo en la boca. Busca el encendedor en el bolso. La chica sentada a su lado le da fuego.
+—Hola. Soy Lucy. ¿Cómo te llamas?
+—Hola. Me llamo Pepa. Estoy esperando a un cliente.
+—Yo también.
+—¡Qué casualidad! Esperaba fuera, pero es mejor hacerlo aquí, en el bar, ¿no?
+—Sí, siempre esperamos aquí. No te conozco. ¿Es la primera vez que vienes?
+—Sí. Es la primera vez. Yo trabajo en Barcelona.
+—Ah, claro. ¿En qué zona?
+—Voy a cualquier lugar. Allí donde me llaman.
+—Por supuesto.
+—Sí —ríe Pepa—. Como una puta: me llaman y yo voy.
+—Ay, chica… Ya se sabe: sin trabajo no hay dinero…
+—Sí. Pero yo no trabajo por dinero.
+—¿De verdad? —pregunta Lucy, sorprendida.
+—Me gusta mi trabajo. Hago lo que quiero cuando quiero. Ahora mismo estoy aquí porque mi cliente me gusta. Es muy guapo.
+—Ya lo conoces, entonces.
+—Sí. Esta mañana he estado con él… dos horas en el coche. Luego ha contratado mis servicios para dos días. Me sorprende, porque estaba bien nerviosa.
+—Yo también estaba nerviosa las primeras veces. Al principio es bien duro, pero luego te acostumbras.
+—Pues yo he disfrutado desde el primer día.
+«Hay gente para todo», piensa Lucy.
+—¿Tú cuánto cobras por servicio? —pregunta.
+—Según el tiempo. Y luego están los extras: si traen maletas, niños o animales más.
+Lucy pone cara de horror. Pepa piensa que a esa chica no le gustan ni los niños ni los animales. Dejan el coche hecho un asco y luego hay que limpiarlo, por eso cobra un poco más.
+—Mi cliente, el que estoy esperando, esta mañana me ha dado mil euros. ¿Qué te parece? ¿Qué has hecho?
+—¡Uf! Mucho. ¿Qué has hecho?
+—Ya te lo he dicho. Primero, esta mañana, un par de horas, más o menos. Y luego, esta tarde… ¡Mira qué mancha! —Pepa le enseña a Lucy la camisa—. Cuando me ha llamado tenía la boca llena… Pepa ve que su cliente entra en el vestíbulo—. ¡Ay, mira! Ya está aquí mi hombre.
+Lucy la observa aún con sorpresa.
+«¡Qué profesional tan extraña!»`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 5',
+        content: `—Hola. Tengo el coche fuera —le dice Pepa a Albert.
+—Hola. Vamos a Barcelona. Quiero ver la ciudad.
+Albert lleva su maletín. Parece contento. Pepa no sabe cómo empezar una conversación, así que pone música.
+—¿Qué quieres ver? —pregunta Pepa al entrar en la ciudad—. La Sagrada Familia, el Paseo de Gràcia, la Pedrera, el parque Güell, la Catedral, la Rambla…
+Un BMW los adelanta. Carlos tiene un coche igual y Pepa se acuerda de él. Marca su número, pero no hay respuesta. Le deja un mensaje en el contestador.
+Después de una visita corta a la Sagrada Familia, la interminable iglesia de Gaudí, Pepa y Albert vuelven al taxi. Anochece.
+—Te invito a cenar donde tú quieras —dice Albert con una sonrisa encantadora.
+—Hombre, gracias. ¿Adónde quieres ir?
+—No sé. Yo no conozco la ciudad.
+Pepa no quiere llevarlo al típico restaurante para guiris. Quiere un lugar moderno, elegante y donde se coma bien.
+—La Barceloneta —dice Pepa—. Es el barrio marítimo de Barcelona, donde antes vivían los pescadores. En lo más alto de una torre, frente al mar, hay un restaurante de cocina marinera. Es un poco caro, pero desde allí se ve toda la ciudad.
+—Interesante. Me gusta el mar.
+—¿No conoces nada de Barcelona?
+—No.
+—¿Y España? Hablas muy bien español.
+—Mi madre es española. Pero es la primera vez que vengo a España. Pasado mañana voy a Madrid.
+Pepa piensa en Carlos. Se para en un semáforo en rojo y marca otra vez el número de su pareja. No hay respuesta. Decide aparcar un poco y andar hasta el restaurante. No hace calor y sopla un poco de viento. Las luces se reflejan en el agua tranquila del puerto. El paseo es agradable. Las terrazas de los bares y restaurantes al aire libre están llenas de gente. Albert mira el mar. Las mujeres y hombres sentados en la calle miran a Albert. Y también a Pepa, con envidia.
+Pepa lamenta no haberse cambiado de ropa. Le gusta ir cómoda: vaqueros, una camiseta de algodón, así que lleva zapatillas de cuero. Pero en su armario hay cosas mejores. Suele ir a tiendas informales, donde siempre compró ropa que le quedaba muy bien. La semana pasada se compró un vestido negro de tacón también negro… Pero, bueno, ¡no importa!
+El portero abre la puerta del ascensor para subir al restaurante. La maître, la chica que toma las notas de lo que van a comer, los acompaña hasta la mesa. Todos, todos están pendientes de ellos. Ella es invisible. «Solo soy su chófer», piensa Pepa, resignada, bebiéndose de un sorbo la copa de cava.
+El lugar, al menos, ha sido una buena elección. Barcelona de noche, desde una altura de 75 metros sobre el mar, es impresionante. La comida es buena. La bebida también. Los dos están relajados. Toman café y fuman mirando el mar.
+—¿Tenemos que volver a Castelldefels? —pregunta Pepa. Ha bebido demasiado. Es muy poco profesional. No tiene ganas de conducir tantos kilómetros.
+—No. Tengo una reserva en un hotel de aquí, de Barcelona. En el Hotel Casa Fuster. ¿Sabes dónde está?
+«¡Buff, qué bien!», piensa Pepa, feliz.
+—Claro. Está cerca de mi casa. ¿Quieres ir ya a dormir o quieres dar una vuelta?
+—¿Una vuelta? —pregunta Albert.
+—Pasear, tomar una copa…
+—Sí. Buena idea. Quiero conocer la ciudad de noche.
+Albert paga la cuenta y recoge el maletín que ha tenido durante toda la cena entre sus piernas. Salen a la calle. Todavía hay mucha gente en el paseo Juan de Borbón. Pepa está pensando adónde llevar a Albert. Es una buena hora para llevarlo a la Buda Bar, un lugar que está muy de moda, pero es muy difícil aparcar.
+—Es muy difícil encontrar aparcamiento en Barcelona… —empieza a explicar Pepa.
+En ese momento una moto con dos ocupantes pasa rozando por su lado. El maletín de Albert cambia de manos.
+—¡Eh, eh! —grita Albert, señalando la motocicleta que se pierde entre los coches.
+—¡Hostia! —dice Pepa—. El clásico tirón. ¡Qué cabrones!
+—¡No es posible! —Albert está muy nervioso—. ¡Tenemos que hacer algo! Es… El maletín es muy, muy importante. Hay que recuperarlo. ¿Qué podemos hacer?
+—Poca cosa. Puedes ir a la policía, pero…
+—No, no. La policía no sirve.
+—Ya…
+Pepa no tiene muy buen concepto de la policía y, además, ¿cómo vas a denunciar el robo de un maletín lleno de droga?
+—Tienes que ayudarme. Por favor… —pide Albert.
+—¿Qué quieres que haga? En Barcelona hay miles de chorizos.
+—¿Qué?
+—Chorizos son ladrones. Roban bolsos, carteras…
+—Los «chorizos» me han robado el maletín. Necesito mi maletín.
+—¿Qué llevabas? ¿Dinero?
+—No. Muestras.
+—¿Muestras? ¿De qué? —Pepa, gracias a la información de su amigo Raúl, tiene una idea muy exacta de lo que contiene el maletín, pero quiere ver qué se inventa Albert.
+—Es difícil explicarlo, pero tienes que ayudarme a recuperarlo. Te pagaré muy bien. Tú debes de conocer a gente… «Chorizos» —dice con un acento muy gracioso.
+—Hombre… —Pepa piensa en Raúl y sus colegas—. Alguien conozco, pero no sé yo…
+—Haz lo que puedas. Por favor. ¡Llama! ¡Vamos!
+Pepa llama. Una. Dos. Tres veces. Raúl está durmiendo o completamente colocado. O quizás ha perdido el móvil. Raúl lo pierde casi todo. Es un gran perdedor.
+—La persona que puede ayudarnos no contesta, pero sé dónde buscarlo. Vamos a la Catedral con el coche.
+—Mira. La Catedral, de noche —suben por Via Laietana—. Está preciosa.
+Pepa señala a su izquierda. Albert mira, pero no dice nada. No está para monumentos…
+Llegan a Gràcia. Entran en el garaje de la Plaza del Sol. Raúl no se ve por ninguna parte, pero ella sabe dónde encontrarlo. Va hacia el cuarto del fondo, donde sabe que vive. Rodeado de latas vacías de cerveza, colillas y revistas de coches. Echado en un viejo sofá que sirve de cama, con los ojos cerrados y la boca abierta. Parece que está muerto. Sin embargo, la camiseta con la inscripción «Solo los peces muertos siguen la corriente del río» sube y baja al ritmo de su respiración.
+—¡Raúl! ¡Raúl! ¡Despierta!
+Pepa se acerca.
+—¡Raúl! ¡Raúl! ¡Despierta!
+Raúl abre un solo ojo y sonríe con cara de bobo. Pepa tira de su camiseta.
+—¡Levántate! ¡Despierta!
+Raúl abre el otro ojo. Se frota la cara. Pepa le tiende un cigarrillo y se lo enciende. Raúl ve a Albert y pone cara de sorpresa.
+—¿Y este quién es?
+—Es un amigo. Se llama Albert. Tiene un problema. En la Barceloneta dos tíos en una moto le han dado un tirón y le han robado el maletín. Tenemos que recuperarlo.
+—Jo, pues lo lleváis claro.
+—Seiscientos euros si nos ayudas —Pepa mira a Albert. Albert con la cabeza dice que sí.
+—En la Barceloneta, ¿no? Llamaré a Doro. ¿Qué hay en el maletín? ¿Pasta?
+Albert pone cara de no entender.
+—Él dice que son muestras… —dice Pepa.
+—¿Muestras? ¿Muestras de qué?
+—¿De qué son las muestras, Albert? —pregunta Pepa.
+—Productos químicos. De laboratorio.
+—Entiendo —dice Raúl y le guiña un ojo a Pepa—. El mismo «producto químico» que había en tu taxi…
+Raúl se levanta perezosamente. Coge el teléfono e intercambia unas cuantas palabras con alguien.`,
+        translation: ``
       }
     ],
     exercises: [
