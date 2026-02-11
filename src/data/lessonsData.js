@@ -17310,6 +17310,25 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'estar confuso', translation: 'быть в замешательстве', audioUrl: null },
           { word: 'amanecer', translation: 'рассветать', audioUrl: null }
         ]
+      },
+      {
+        tab: 'Capítulo 11',
+        words: [
+          { word: 'coger el avión', translation: 'сесть на самолет', audioUrl: null },
+          { word: 'joder', translation: 'черт (очень грубо)', audioUrl: null },
+          { word: 'la puta caja', translation: 'дурацкая коробка (очень грубо)', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 12',
+        words: [
+          { word: 'la funeraria', translation: 'бюро похоронных услуг', audioUrl: null },
+          { word: 'la sucursal', translation: 'филиал, дочернее предприятие', audioUrl: null },
+          { word: 'asociarse', translation: 'объединяться', audioUrl: null },
+          { word: 'las piedras preciosas', translation: 'драгоценные камни', audioUrl: null },
+          { word: 'esnifar', translation: 'нюхать наркотики', audioUrl: null },
+          { word: 'dar el cambiazo', translation: 'сделать подмену', audioUrl: null }
+        ]
       }
     ],
     audioTabs: [
