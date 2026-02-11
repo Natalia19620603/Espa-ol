@@ -17551,6 +17551,59 @@ Pepa saca a Albert a la calle.
 —¿Y tú, qué haces?
 —Mira, el estríper ese del maletín. Sin pasta no se puede hacer nada. Pero yo voy a dar una vuelta y a ver a mis colegas. Si algo, te aviso.`,
         translation: ``
+      },
+      {
+        tab: 'Capítulo 10',
+        content: `«Si Carlos está en casa, ¿qué le digo?», piensa Pepa mientras sube las escaleras.
+Carlos no está en casa.
+—Siéntate, Albert. ¿Quieres agua? Voy a buscar un poco de agua, ¿de acuerdo?
+Pepa va a la cocina. En la nevera no hay agua, solo cervezas. Abre un armario y coge una botella. Luego saca hielo del congelador y pone unos cubitos en dos vasos. Mientras hace todo esto, Albert sale a la terraza y se quita toda la ropa. Con los brazos abiertos, respira el aire húmedo de la ciudad.
+Con los vasos en las manos, Pepa va a la terraza. Albert está interpretando una versión personal de la haka. En las habitaciones del hotel, justo enfrente de donde vive Pepa, se han encendido unas luces y una pareja de turistas mira el espectáculo. Los turistas nórdicos abren las luces para ver mejor el espectáculo, pensando que es la famosa tuna, le pregunta al marido.
+—Por favor, Albert. ¡Para! ¡Vamos dentro! —le pide Pepa.
+Albert no hace caso, sigue cantando y bailando. Pepa ve en la calle a Carlos con su moto. Va al parking donde la guarda por las noches.
+«Seguro que viene a casa», piensa Pepa. «¿Cómo explico que tengo a un hombre guapo bailando desnudo en la terraza?»
+—Por favor, Albert. ¡Vístete! Tienes que irte.
+Carlos sale andando del parking. Pepa coge la mano de Albert, le da un fuerte tirón y lo hace entrar en casa. Ropa en la terraza. Pepa busca ropa. No están. Los ha tirado a la calle. Carlos está buscando las llaves para abrir la puerta.
+Pepa coge una sábana del armario, envuelve con ella a Albert, sale a las escaleras y lo mete en el ascensor. Carlos es muy deportista y siempre sube a pie.
+A continuación Pepa entra en casa, coge un libro y se sienta en un sillón.
+Entra Carlos.
+—Hola, Carlos. Te he llamado al móvil varias veces pero no has contestado.
+—He estado muy ocupado. Oye, cariño, yo… Lo siento. Tenemos que hablar en serio. A las seis sale mi avión —mira el reloj: son las tres—. He venido solo a recoger mis cosas. Pero el próximo fin de semana podemos vernos. He encontrado un apartamento muy bonito… ¿Por qué no vienes a Madrid?
+Suena el timbre.
+—¿Quién llama a estas horas?
+Carlos abre la puerta.
+Raúl está en la puerta.
+—Raúl ha venido solo a recoger el maletín de Albert. Ha sido fácil. Dentro lleva harina. Iba a ver a Pepa y a Albert para darles el dichoso maletín y también quería saber por qué Albert estaba tan preocupado por unos gramos de harina.
+Raúl se ha encontrado a Albert sentado en el ascensor, vestido como un romano. Al ver a Carlos, entiende por qué.
+—¡Hombre, el pijo! —dice Raúl. A Raúl no le gusta Carlos—. ¿Está Pepa?
+—Hola, Raúl —Pepa y Raúl se miran. No pueden hablar con Carlos delante—. Es muy tarde. ¿Qué quieres?
+—Nada —dice Raúl—. Pasaba por aquí… He visto luz… Ya me voy. Ya me voy. No quiero molestar.
+—Sí, mejor otro día… quieres.
+Raúl baja a pie las escaleras. El ascensor está en el primer piso. Albert sigue sentado dentro.
+—Tío, no puedes quedarte aquí —le dice Raúl a Albert.
+A Albert se le están pasando los efectos del éxtasis, pero aún está confuso. Ve el maletín que lleva Raúl y de pronto lo recuerda todo.
+—Mi maletín —dice—. ¿Es mi maletín?
+—Sí, sí. Pero vamos. Vamos a mi casa. Está amaneciendo. Necesitas dormir.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 11',
+        content: `—No me gusta nada tu amigo Raúl —le dice Carlos a Pepa.
+—Ya lo sé. A ti no te gustan mis amigos. A mí no me gustan los tuyos. Por eso te vas a Madrid.
+—Me voy a Madrid por un negocio. Se hace tarde. Lo siento. Tengo que coger el avión…
+—A las seis. Ya me lo has dicho. Vete.
+Carlos va hacia el armario. Se cambia de ropa. Mete la ropa sucia en una bolsa de plástico y abre la bolsa de viaje.
+—¿Eh! —grita Pepa, que se asusta—. ¿Dónde está la caja?
+—¿Qué dices? —Pepa no sabe de qué habla—. ¿Qué caja?
+—¡La caja, joder! —Carlos está muy enfadado—. ¿Qué has hecho con la caja que tenía dentro de la bolsa? —mira otra vez el reloj—. ¡Dame la puta caja! ¡Voy a perder el avión!
+—¿Qué te pasa? ¿Estás loco o qué?
+—¿Qué has hecho con la caja que tenía dentro de la bolsa?
+—¿La caja de galletas Birba? ¿Para qué quieres una caja de galletas?
+—¡Dámela! ¿Dónde está?
+—Tranquilo, chico. Ya te la doy.
+Pepa va a la cocina, abre el cajón y le da una de las cajas de galletas. Carlos la coge, la mete en su bolsa y sale sin decir ni una palabra.
+—Qué gilipollas… —dice Pepa, encendiendo un cigarrillo.`,
+        translation: ``
       }
     ],
     exercises: [
