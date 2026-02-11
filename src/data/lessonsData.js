@@ -17167,7 +17167,12 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'la llama', translation: 'пламя, огонь', audioUrl: null },
           { word: 'el edificio', translation: 'здание', audioUrl: null },
           { word: 'sospechar', translation: 'подозревать', audioUrl: null },
-          { word: 'la periodista', translation: 'журналистка', audioUrl: null }
+          { word: 'la periodista', translation: 'журналистка', audioUrl: null },
+          { word: 'el cartel', translation: 'вывеска', audioUrl: null },
+          { word: 'exigente', translation: 'требовательный, придирчивый', audioUrl: null },
+          { word: 'la multinacional', translation: 'транснациональная компания (корпорация)', audioUrl: null },
+          { word: 'invertir', translation: 'вкладывать, инвестировать', audioUrl: null },
+          { word: 'los ahorros', translation: 'сбережения, накопления', audioUrl: null }
         ]
       },
       {
@@ -17182,7 +17187,27 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'la policía', translation: 'полиция, полицейский', audioUrl: null },
           { word: 'el sospechoso', translation: 'подозреваемый', audioUrl: null },
           { word: 'el crimen', translation: 'преступление', audioUrl: null },
-          { word: 'el barrio', translation: 'район, квартал', audioUrl: null }
+          { word: 'el barrio', translation: 'район, квартал', audioUrl: null },
+          { word: 'que coño', translation: 'какого черта (грубое выражение)', audioUrl: null },
+          { word: 'la mierda', translation: 'дерьмо, гадость, мерзость', audioUrl: null },
+          { word: 'hundir', translation: 'погрузить, утопить', audioUrl: null },
+          { word: 'el lateral', translation: 'боковина', audioUrl: null },
+          { word: 'el freno', translation: 'тормоз', audioUrl: null },
+          { word: 'destrozado', translation: 'разбитый', audioUrl: null },
+          { word: 'herir', translation: 'ранить, оскорблять', audioUrl: null },
+          { word: 'el accidente', translation: 'происшествие, несчастный случай, авария', audioUrl: null },
+          { word: 'sorprendido', translation: 'удивленный, пораженный', audioUrl: null },
+          { word: 'obedecer', translation: 'слушаться, повиноваться', audioUrl: null },
+          { word: 'poner en marcha', translation: 'запустить', audioUrl: null },
+          { word: 'la marcha atrás', translation: 'задний ход', audioUrl: null },
+          { word: 'abollado', translation: 'помятый', audioUrl: null },
+          { word: 'hacer el parte del accidente', translation: 'составить протокол, заполнить протокол', audioUrl: null },
+          { word: 'empotrar', translation: 'встраивать, защемлять', audioUrl: null },
+          { word: 'a todo riesgo', translation: 'страховка от всех рисков', audioUrl: null },
+          { word: 'la reparación', translation: 'ремонт, починка', audioUrl: null },
+          { word: 'el cerebro de mosquito', translation: 'мозг как у комара', audioUrl: null },
+          { word: 'inclinarse', translation: 'наклоняться, склоняться', audioUrl: null },
+          { word: 'el anticipo', translation: 'аванс, задаток', audioUrl: null }
         ]
       },
       {
@@ -17197,7 +17222,19 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'el cenicero', translation: 'пепельница', audioUrl: null },
           { word: 'sin rumbo fijo', translation: 'без определённой цели', audioUrl: null },
           { word: 'atragantarse', translation: 'поперхнуться', audioUrl: null },
-          { word: 'el montadito', translation: 'маленький бутерброд', audioUrl: null }
+          { word: 'el montadito', translation: 'маленький бутерброд', audioUrl: null },
+          { word: 'el rumbo', translation: 'курс, направление', audioUrl: null },
+          { word: 'vaya hostia', translation: 'ничего себе впечаталась, удар (разговорный)', audioUrl: null },
+          { word: 'el porro', translation: 'косяк', audioUrl: null },
+          { word: 'estar limpio', translation: 'быть чистым, на мели, чист перед законом, без наркотиков', audioUrl: null },
+          { word: 'las carreras', translation: 'гонки, бега', audioUrl: null },
+          { word: 'el gilipollas', translation: 'придурок', audioUrl: null },
+          { word: 'yo que sé', translation: 'Откуда мне знать?', audioUrl: null },
+          { word: 'irse la olla (se le va la olla)', translation: 'сойти с ума', audioUrl: null },
+          { word: 'la ceniza', translation: 'пепел, зола', audioUrl: null },
+          { word: 'dar un portazo', translation: 'хлопнуть дверью', audioUrl: null },
+          { word: 'un montadito de', translation: 'мини бутерброд', audioUrl: null },
+          { word: 'las patatas bravas', translation: 'картошка с острым соусом', audioUrl: null }
         ]
       }
     ],
