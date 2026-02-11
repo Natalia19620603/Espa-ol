@@ -17467,6 +17467,90 @@ Albert pone cara de no entender.
 —Entiendo —dice Raúl y le guiña un ojo a Pepa—. El mismo «producto químico» que había en tu taxi…
 Raúl se levanta perezosamente. Coge el teléfono e intercambia unas cuantas palabras con alguien.`,
         translation: ``
+      },
+      {
+        tab: 'Capítulo 6',
+        content: `—Con lo que lleva el maletín… —Raúl se rasca la cabeza y mira a Albert—. Para recuperarlo necesitas pasta gansa.
+Albert no entiende.
+—Pasta… Money, tío.
+—De acuerdo —dice Albert—. Pero, ¿tú sabes quién tiene mi maletín?
+—No. Yo no. Pero tengo amigos. Voy a llamar.
+Raúl habla unos minutos por teléfono. Albert escucha con mucha atención, pero no consigue entender nada.
+—¿En qué idioma hablaba? ¿Catalán? —le pregunta Albert a Pepa.
+—No. Habla en castellano, pero argot, como lo que hablan los médicos, por ejemplo. ¿Me entiendes?
+—Lo único que me importa es mi maletín —Albert dice que sí con la cabeza.
+—Mi amigo Doro está investigando. Conoce a mucha gente. Trabaja en el Tat's de la calle Escudellers.
+—¿Y qué hacemos nosotros mientras Doro investiga? ¿Esperamos aquí?
+—No. Él está ahora haciendo algunas llamadas. Seguro que ya sabe algo. Podéis ir a verle. Os está esperando.
+—Yo no conozco al tal Doro —dice Pepa.
+—Es el encargado del Tat's. Está siempre cerca de la barra, vigilando. Doro lo ve todo, lo sabe todo…`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 7',
+        content: `Doro se da cuenta al momento de que la pareja que entra en el club son amigos de Raúl. Como todos los que no están acostumbrados a estos ambientes, Pepa y Albert tratan de aparentar naturalidad, pero no lo sienten. Al ver a las chicas del local, Pepa se acuerda del hotel de Castelldefels.
+—Oye, Albert, ¿el hotel de Castelldefels…? —empieza a preguntar, pero Doro la interrumpe.
+—Hola. Vosotros dos sois los amigos de Raúl, ¿no?
+Se acercan cuatro chicas. Hablan entre ellas, miran a Albert, le dicen cosas y ríen.
+—Sí —responde Pepa—. ¿Tú eres Doro?
+Albert se apoya en la barra. Está nervioso y tiene la boca seca. Una camarera le pregunta qué quiere.
+—Agua, por favor —pide Albert.
+—Ponle un whisky —dice Doro—. Y otro para la señorita. Con agua.
+Una de las chicas que coquetean con Albert lleva un vaso en la mano y lo deja en la barra. Albert, distraído y sediento, se lo bebe de un trago.
+—¡Hala! ¿Qué has hecho, tío? —pregunta la camarera que les sirve los dos whiskies. Las cuatro chicas ríen.
+—¿Qué? ¿Qué pasa? —pregunta Albert.
+—¿Qué ocurre? —pregunta Pepa.
+—¿De qué coño os reís vosotras? —pregunta Doro a las chicas.
+—Se ha bebido el vaso de Judith —dice la camarera.
+—¿Y qué pasa? —dice Doro.
+—Nada… —dice Judith sonriendo—. Pastis… Y éxtasis líquido.
+—¿Qué tenía el vaso? —pregunta Pepa.
+—Agua… —dice entre risas—. Y éxtasis líquido.
+—¿Éxtasis? ¿Qué pasa con el éxtasis? —pregunta Pepa.
+—Bah… Nada. Pero no es bueno mezclarlo con alcohol.
+Demasiado tarde. Albert se ha bebido su whisky y ahora está bebiendo agua.
+—El maletín —dice—. ¿Dónde está mi maletín?
+—A lo mejor Veloz sabe algo. No es seguro… A lo mejor… —dice Doro.
+—¿Veloz es el que conducía la moto? —pregunta Pepa—. ¿El que le robó el maletín?
+—Veloz es un intermediario. Los que compran y los que venden lo conocen. Todos conocen a Veloz.
+—O sea, que ahora tenemos que ver a Veloz. ¿Dónde está? ¿Cómo es?
+—En la calle Santa Mónica, justo al lado del Pastis, hay un local con un letrero en el que dice «Cerrajero 24 horas. Se abren casas, coches y cajas fuertes». Veloz está siempre allí. Es parapléjico.
+—¿Y cómo lo hace para abrir puertas?
+Doro mira a Pepa con compasión. ¡Qué chica tan inocente!
+—Veloz tiene empleados, gente que trabaja para él. Muy buenos. Lo abren todo. Si pagas, claro. ¿Podéis pagar bien?
+Pepa dice que sí con la cabeza y le da las gracias a Doro. Salen.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 8',
+        content: `Albert anda de forma rara. A veces muy lento, a veces muy rápido. Mira a todos lados con los ojos muy abiertos. Mueve los labios pero no habla. Cruzan la Rambla. Un travesti le hace proposiciones. La calle es estrecha y huele mal.
+—¡Vamos! —Pepa tira de Albert—. ¿Por qué te paras?
+Albert se para porque un tipo pequeño le ha puesto una navaja en el estómago. Otro tipo, un poco más pequeño, pone otra navaja en el cuello de Pepa. Y otro, en la acera de enfrente, les apunta con una pistola automática.
+Dinero, relojes, móviles… Los chorizos cogen todo lo que llevan. Pepa y Albert se van corriendo.
+Pepa había dejado al mediodía en su casa el dinero que Albert le dio y solo llevaba cincuenta euros y un móvil barato. Pero el amigo llevaba «pasta gansa». Mucho dinero para recuperar su maletín. Ahora no tiene nada. Adiós.
+Pepa siente pena por él. No parece un narcotraficante. Los narcos de las películas no son como Albert.
+—¡Hey, guapo! ¡Sí, tú, ven! ¡Acércate, hermoso!
+El travesti de la esquina corre hacia ellos. Los tacones de sus zapatos suenan como castañuelas.
+Albert no se mueve. No habla. El travesti le toca el culo.
+—¡Pero qué macizo, por Dios! He visto lo que os ha pasado. Han sido las tres mellizas. Os han desplumado. —Se dirige a Pepa—. Él es el guiri, ¿no? Pero tú pareces de aquí. ¿Eres tonta, niña? ¡Son las dos de la noche! ¡Pasear a estas horas por esta zona con este tío! ¡Venga! ¡Un taxi!
+—Sí, tienes razón —Pepa se siente responsable de lo que ha pasado. Sabe que esta zona puede ser peligrosa, especialmente si tienes aspecto de turista rico—. Pero no tenemos dinero. Oye, ¿me haces un favor?
+—Vale, pero rápido —saca un móvil del bolso y se lo da a Pepa. Le toca los muslos y la entrepierna a Albert—. Esto por dejarte el móvil —le explica a Pepa.
+—¡Raúl! ¡Raúl! ¡Qué desastre! Nos han robado. ¿Estás en el garaje? ¿Estás ahí?
+—Niña, ¿qué le pasa a tu novio? ¿Es siempre así o ha tomado algo? —le pregunta el travesti a Pepa.
+—Muchas gracias —Pepa le devuelve el teléfono al travesti—. Nos vamos. Adiós.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 9',
+        content: `Pepa se encuentra con Raúl y le explica lo que ha pasado. Albert está ahora muy nervioso. Habla en inglés y mueve continuamente los brazos y las piernas. Deciden llevarlo al hotel.
+Pepa lo acompaña y Raúl espera fuera en la calle. El recepcionista le pide la documentación para registrarlo y Albert empieza a desnudarse.
+—Tú y tu amigo os vais a hacer el idiota a otra parte —dice el recepcionista.
+Pepa saca a Albert a la calle.
+—Sin documentación y con el colocón que lleva, no podemos ir a ningún sitio —le dice Pepa a Raúl.
+—Llévalo a tu casa —dice Raúl.
+—¿Y tú, qué haces?
+—Mira, el estríper ese del maletín. Sin pasta no se puede hacer nada. Pero yo voy a dar una vuelta y a ver a mis colegas. Si algo, te aviso.`,
+        translation: ``
       }
     ],
     exercises: [
