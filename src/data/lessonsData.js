@@ -17467,6 +17467,196 @@ Albert pone cara de no entender.
 —Entiendo —dice Raúl y le guiña un ojo a Pepa—. El mismo «producto químico» que había en tu taxi…
 Raúl se levanta perezosamente. Coge el teléfono e intercambia unas cuantas palabras con alguien.`,
         translation: ``
+      },
+      {
+        tab: 'Capítulo 6',
+        content: `—Con lo que lleva el maletín… —Raúl se rasca la cabeza y mira a Albert—. Para recuperarlo necesitas pasta gansa.
+Albert no entiende.
+—Pasta… Money, tío.
+—De acuerdo —dice Albert—. Pero, ¿tú sabes quién tiene mi maletín?
+—No. Yo no. Pero tengo amigos. Voy a llamar.
+Raúl habla unos minutos por teléfono. Albert escucha con mucha atención, pero no consigue entender nada.
+—¿En qué idioma hablaba? ¿Catalán? —le pregunta Albert a Pepa.
+—No. Habla en castellano, pero argot, como lo que hablan los médicos, por ejemplo. ¿Me entiendes?
+—Lo único que me importa es mi maletín —Albert dice que sí con la cabeza.
+—Mi amigo Doro está investigando. Conoce a mucha gente. Trabaja en el Tat's de la calle Escudellers.
+—¿Y qué hacemos nosotros mientras Doro investiga? ¿Esperamos aquí?
+—No. Él está ahora haciendo algunas llamadas. Seguro que ya sabe algo. Podéis ir a verle. Os está esperando.
+—Yo no conozco al tal Doro —dice Pepa.
+—Es el encargado del Tat's. Está siempre cerca de la barra, vigilando. Doro lo ve todo, lo sabe todo…`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 7',
+        content: `Doro se da cuenta al momento de que la pareja que entra en el club son amigos de Raúl. Como todos los que no están acostumbrados a estos ambientes, Pepa y Albert tratan de aparentar naturalidad, pero no lo sienten. Al ver a las chicas del local, Pepa se acuerda del hotel de Castelldefels.
+—Oye, Albert, ¿el hotel de Castelldefels…? —empieza a preguntar, pero Doro la interrumpe.
+—Hola. Vosotros dos sois los amigos de Raúl, ¿no?
+Se acercan cuatro chicas. Hablan entre ellas, miran a Albert, le dicen cosas y ríen.
+—Sí —responde Pepa—. ¿Tú eres Doro?
+Albert se apoya en la barra. Está nervioso y tiene la boca seca. Una camarera le pregunta qué quiere.
+—Agua, por favor —pide Albert.
+—Ponle un whisky —dice Doro—. Y otro para la señorita. Con agua.
+Una de las chicas que coquetean con Albert lleva un vaso en la mano y lo deja en la barra. Albert, distraído y sediento, se lo bebe de un trago.
+—¡Hala! ¿Qué has hecho, tío? —pregunta la camarera que les sirve los dos whiskies. Las cuatro chicas ríen.
+—¿Qué? ¿Qué pasa? —pregunta Albert.
+—¿Qué ocurre? —pregunta Pepa.
+—¿De qué coño os reís vosotras? —pregunta Doro a las chicas.
+—Se ha bebido el vaso de Judith —dice la camarera.
+—¿Y qué pasa? —dice Doro.
+—Nada… —dice Judith sonriendo—. Pastis… Y éxtasis líquido.
+—¿Qué tenía el vaso? —pregunta Pepa.
+—Agua… —dice entre risas—. Y éxtasis líquido.
+—¿Éxtasis? ¿Qué pasa con el éxtasis? —pregunta Pepa.
+—Bah… Nada. Pero no es bueno mezclarlo con alcohol.
+Demasiado tarde. Albert se ha bebido su whisky y ahora está bebiendo agua.
+—El maletín —dice—. ¿Dónde está mi maletín?
+—A lo mejor Veloz sabe algo. No es seguro… A lo mejor… —dice Doro.
+—¿Veloz es el que conducía la moto? —pregunta Pepa—. ¿El que le robó el maletín?
+—Veloz es un intermediario. Los que compran y los que venden lo conocen. Todos conocen a Veloz.
+—O sea, que ahora tenemos que ver a Veloz. ¿Dónde está? ¿Cómo es?
+—En la calle Santa Mónica, justo al lado del Pastis, hay un local con un letrero en el que dice «Cerrajero 24 horas. Se abren casas, coches y cajas fuertes». Veloz está siempre allí. Es parapléjico.
+—¿Y cómo lo hace para abrir puertas?
+Doro mira a Pepa con compasión. ¡Qué chica tan inocente!
+—Veloz tiene empleados, gente que trabaja para él. Muy buenos. Lo abren todo. Si pagas, claro. ¿Podéis pagar bien?
+Pepa dice que sí con la cabeza y le da las gracias a Doro. Salen.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 8',
+        content: `Albert anda de forma rara. A veces muy lento, a veces muy rápido. Mira a todos lados con los ojos muy abiertos. Mueve los labios pero no habla. Cruzan la Rambla. Un travesti le hace proposiciones. La calle es estrecha y huele mal.
+—¡Vamos! —Pepa tira de Albert—. ¿Por qué te paras?
+Albert se para porque un tipo pequeño le ha puesto una navaja en el estómago. Otro tipo, un poco más pequeño, pone otra navaja en el cuello de Pepa. Y otro, en la acera de enfrente, les apunta con una pistola automática.
+Dinero, relojes, móviles… Los chorizos cogen todo lo que llevan. Pepa y Albert se van corriendo.
+Pepa había dejado al mediodía en su casa el dinero que Albert le dio y solo llevaba cincuenta euros y un móvil barato. Pero el amigo llevaba «pasta gansa». Mucho dinero para recuperar su maletín. Ahora no tiene nada. Adiós.
+Pepa siente pena por él. No parece un narcotraficante. Los narcos de las películas no son como Albert.
+—¡Hey, guapo! ¡Sí, tú, ven! ¡Acércate, hermoso!
+El travesti de la esquina corre hacia ellos. Los tacones de sus zapatos suenan como castañuelas.
+Albert no se mueve. No habla. El travesti le toca el culo.
+—¡Pero qué macizo, por Dios! He visto lo que os ha pasado. Han sido las tres mellizas. Os han desplumado. —Se dirige a Pepa—. Él es el guiri, ¿no? Pero tú pareces de aquí. ¿Eres tonta, niña? ¡Son las dos de la noche! ¡Pasear a estas horas por esta zona con este tío! ¡Venga! ¡Un taxi!
+—Sí, tienes razón —Pepa se siente responsable de lo que ha pasado. Sabe que esta zona puede ser peligrosa, especialmente si tienes aspecto de turista rico—. Pero no tenemos dinero. Oye, ¿me haces un favor?
+—Vale, pero rápido —saca un móvil del bolso y se lo da a Pepa. Le toca los muslos y la entrepierna a Albert—. Esto por dejarte el móvil —le explica a Pepa.
+—¡Raúl! ¡Raúl! ¡Qué desastre! Nos han robado. ¿Estás en el garaje? ¿Estás ahí?
+—Niña, ¿qué le pasa a tu novio? ¿Es siempre así o ha tomado algo? —le pregunta el travesti a Pepa.
+—Muchas gracias —Pepa le devuelve el teléfono al travesti—. Nos vamos. Adiós.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 9',
+        content: `Pepa se encuentra con Raúl y le explica lo que ha pasado. Albert está ahora muy nervioso. Habla en inglés y mueve continuamente los brazos y las piernas. Deciden llevarlo al hotel.
+Pepa lo acompaña y Raúl espera fuera en la calle. El recepcionista le pide la documentación para registrarlo y Albert empieza a desnudarse.
+—Tú y tu amigo os vais a hacer el idiota a otra parte —dice el recepcionista.
+Pepa saca a Albert a la calle.
+—Sin documentación y con el colocón que lleva, no podemos ir a ningún sitio —le dice Pepa a Raúl.
+—Llévalo a tu casa —dice Raúl.
+—¿Y tú, qué haces?
+—Mira, el estríper ese del maletín. Sin pasta no se puede hacer nada. Pero yo voy a dar una vuelta y a ver a mis colegas. Si algo, te aviso.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 10',
+        content: `«Si Carlos está en casa, ¿qué le digo?», piensa Pepa mientras sube las escaleras.
+Carlos no está en casa.
+—Siéntate, Albert. ¿Quieres agua? Voy a buscar un poco de agua, ¿de acuerdo?
+Pepa va a la cocina. En la nevera no hay agua, solo cervezas. Abre un armario y coge una botella. Luego saca hielo del congelador y pone unos cubitos en dos vasos. Mientras hace todo esto, Albert sale a la terraza y se quita toda la ropa. Con los brazos abiertos, respira el aire húmedo de la ciudad.
+Con los vasos en las manos, Pepa va a la terraza. Albert está interpretando una versión personal de la haka. En las habitaciones del hotel, justo enfrente de donde vive Pepa, se han encendido unas luces y una pareja de turistas mira el espectáculo. Los turistas nórdicos abren las luces para ver mejor el espectáculo, pensando que es la famosa tuna, le pregunta al marido.
+—Por favor, Albert. ¡Para! ¡Vamos dentro! —le pide Pepa.
+Albert no hace caso, sigue cantando y bailando. Pepa ve en la calle a Carlos con su moto. Va al parking donde la guarda por las noches.
+«Seguro que viene a casa», piensa Pepa. «¿Cómo explico que tengo a un hombre guapo bailando desnudo en la terraza?»
+—Por favor, Albert. ¡Vístete! Tienes que irte.
+Carlos sale andando del parking. Pepa coge la mano de Albert, le da un fuerte tirón y lo hace entrar en casa. Ropa en la terraza. Pepa busca ropa. No están. Los ha tirado a la calle. Carlos está buscando las llaves para abrir la puerta.
+Pepa coge una sábana del armario, envuelve con ella a Albert, sale a las escaleras y lo mete en el ascensor. Carlos es muy deportista y siempre sube a pie.
+A continuación Pepa entra en casa, coge un libro y se sienta en un sillón.
+Entra Carlos.
+—Hola, Carlos. Te he llamado al móvil varias veces pero no has contestado.
+—He estado muy ocupado. Oye, cariño, yo… Lo siento. Tenemos que hablar en serio. A las seis sale mi avión —mira el reloj: son las tres—. He venido solo a recoger mis cosas. Pero el próximo fin de semana podemos vernos. He encontrado un apartamento muy bonito… ¿Por qué no vienes a Madrid?
+Suena el timbre.
+—¿Quién llama a estas horas?
+Carlos abre la puerta.
+Raúl está en la puerta.
+—Raúl ha venido solo a recoger el maletín de Albert. Ha sido fácil. Dentro lleva harina. Iba a ver a Pepa y a Albert para darles el dichoso maletín y también quería saber por qué Albert estaba tan preocupado por unos gramos de harina.
+Raúl se ha encontrado a Albert sentado en el ascensor, vestido como un romano. Al ver a Carlos, entiende por qué.
+—¡Hombre, el pijo! —dice Raúl. A Raúl no le gusta Carlos—. ¿Está Pepa?
+—Hola, Raúl —Pepa y Raúl se miran. No pueden hablar con Carlos delante—. Es muy tarde. ¿Qué quieres?
+—Nada —dice Raúl—. Pasaba por aquí… He visto luz… Ya me voy. Ya me voy. No quiero molestar.
+—Sí, mejor otro día… quieres.
+Raúl baja a pie las escaleras. El ascensor está en el primer piso. Albert sigue sentado dentro.
+—Tío, no puedes quedarte aquí —le dice Raúl a Albert.
+A Albert se le están pasando los efectos del éxtasis, pero aún está confuso. Ve el maletín que lleva Raúl y de pronto lo recuerda todo.
+—Mi maletín —dice—. ¿Es mi maletín?
+—Sí, sí. Pero vamos. Vamos a mi casa. Está amaneciendo. Necesitas dormir.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 11',
+        content: `—No me gusta nada tu amigo Raúl —le dice Carlos a Pepa.
+—Ya lo sé. A ti no te gustan mis amigos. A mí no me gustan los tuyos. Por eso te vas a Madrid.
+—Me voy a Madrid por un negocio. Se hace tarde. Lo siento. Tengo que coger el avión…
+—A las seis. Ya me lo has dicho. Vete.
+Carlos va hacia el armario. Se cambia de ropa. Mete la ropa sucia en una bolsa de plástico y abre la bolsa de viaje.
+—¿Eh! —grita Pepa, que se asusta—. ¿Dónde está la caja?
+—¿Qué dices? —Pepa no sabe de qué habla—. ¿Qué caja?
+—¡La caja, joder! —Carlos está muy enfadado—. ¿Qué has hecho con la caja que tenía dentro de la bolsa? —mira otra vez el reloj—. ¡Dame la puta caja! ¡Voy a perder el avión!
+—¿Qué te pasa? ¿Estás loco o qué?
+—¿Qué has hecho con la caja que tenía dentro de la bolsa?
+—¿La caja de galletas Birba? ¿Para qué quieres una caja de galletas?
+—¡Dámela! ¿Dónde está?
+—Tranquilo, chico. Ya te la doy.
+Pepa va a la cocina, abre el cajón y le da una de las cajas de galletas. Carlos la coge, la mete en su bolsa y sale sin decir ni una palabra.
+—Qué gilipollas… —dice Pepa, encendiendo un cigarrillo.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 12',
+        content: `Dos días después, Pepa y Raúl beben cerveza en el garaje. Están hablando de Albert y sus negocios. En estos días Albert y ella se han hecho muy amigos y él le ha contado muchas cosas.
+—Los abuelos y los padres de Albert tienen varias funerarias en Nueva Zelanda. Albert abrió en Holanda una sucursal de las empresas familiares. Un amigo químico holandés le dijo que con las cenizas de los cadáveres incinerados se podían hacer diamantes. El amigo químico conocía a otro químico español que sabía bastante de eso. Se asociaron. Los dos químicos trabajaron juntos. Hicieron una prueba y funcionó: las cenizas se convertían en cristales y luego en piedras preciosas. Lo que Albert llevaba en el maletín eran cenizas. No era coca…
+—¡Coño! ¡Por eso olía a cadáver! —exclama Raúl—. Suerte poco que ya no era Keith Richards… ¡Qué colocón!
+—Tú estás siempre colocado.
+—Bueno, es igual… El caso es que el maletín que le robaron a Albert llevaba harina integral. Los chorizos creían que llevaba dinero o alguna droga, y resulta que era harina. Puedes quedarte con las cenizas del puto maletín.
+—A ver… Después del accidente yo llevé a Albert a un hotel de Castelldefels. Allí se encontró con sus socios y con un abogado español. Firmaron un contrato y bebieron para celebrar el negocio. Total, que todos estaban muy contentos y el abogado se llevó el maletín para convertir las cenizas en diamantes. ¡Qué cabrón!
+—Sí, y además el problema es que la fórmula para hacerlo está en esas cenizas. Los dos químicos, el español y el holandés, hicieron las cenizas y vinieron a convertirse en cristales. Pero fue una casualidad. Para repetir la operación sabían que debían analizar las cenizas y descubrir su composición: qué era lo que habían mezclado y en qué proporción. Por eso el maletín era tan importante. Los dos químicos pueden volver a un laboratorio pero, mientras tanto, el abogado puede llevar las cenizas a un laboratorio y venderla por muchos millones. Puede encontrar la fórmula, patentarla y millones.
+—Los abogados, nenas, no son de fiar. ¿Qué va a hacer Albert ahora?
+—De momento, se queda unos días en Barcelona. En mi casa. Quiere conocer la ciudad. ¡Qué buena eres!
+—En tu casa, ¿eh? ¡Qué buena eres!
+—Sí, soy muy buena.`,
+        translation: ``
+      },
+      {
+        tab: 'Capítulo 13',
+        content: `Anochece. Pepa y Albert están tumbados en el sofá del ático de Pepa.
+—Eres bonita. Y muy buena.
+—Yo no soy buena. Pero tú estás bueno…
+—No entiendo. Da igual. Pero eres muy buena, me invitas a comer, me dejas dormir en tu casa y en tu cama. Raúl también es bueno. También me ha ayudado.
+—No ha servido de nada. El maletín que recuperó Raúl solo tenía harina.
+—Porque el abogado me lo cambió en el hotel de Castelldefels. Ya te conté lo que pasó. Estábamos contentos. Bebimos. Las chicas eran muy simpáticas… El abogado cogió mi maletín y me dejó uno igual lleno de harina. Pero Raúl lo buscó y lo encontró. Es buen tío Raúl.
+—¿Cómo se llamaba el abogado?
+—Roberto Alcázar.
+Suena el teléfono. Pepa piensa que es Carlos. No la ha llamado desde que se fue. Pero es su madre. Su madre quiere saber si por la tarde puede acompañarla al dentista. Tampoco le gusta su trabajo. Su madre se queja. A su hermana, como a Carlos, le parece mal la profesión.
+—Están llamando a la puerta. Tengo que colgar —y cuelga.
+—Albert, ¿a ti te gusta tu trabajo?
+—Sí —Albert sonríe. Es una pregunta que le han hecho muchas veces—. La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan.
+—¿Y mi trabajo? ¿A ti qué te parece mi trabajo, Albert? —pregunta Pepa.
+—¿Tu trabajo? Eres taxista… Conoces gente, lugares… Sí, creo que es un buen trabajo. Debe ser divertido. ¿Ganas mucho dinero?
+—No me importa el dinero.
+—¿Y yo? ¿Te importo yo? —Albert besa el cuello de Pepa, el pecho, el estómago…
+—Vas muy deprisa, amigo —Pepa piensa en Carlos. Carlos le gustaba, pero Albert le gusta más.
+—Lo siento —dice Albert—. ¿Te gusta más despacio?
+—No, no. No me refiero a… ¡Dios, qué complicado! Sigue.
+Una hora más tarde, Pepa y Albert se duchan y se visten.
+Albert está mirando una revista sentado en el sofá. Pepa está en el cuarto de baño secándose el cabello.
+—Tengo hambre —dice Albert.
+—Te invito a cenar.
+—¿Puedo comer algo mientras te espero?
+—Mira en la nevera.
+Albert abre la nevera.
+—Solo hay cerveza. No hay comida.
+—Tengo galletas. ¿Te gustan? Están en el primer cajón, al lado del lavavajillas.
+—La caja está cerrada. ¿La abro?
+—Sí. Ábrela.
+—Pepa, en la caja no hay galletas. Hay un polvo blanco… ¿Qué es? ¿Harina?
+—¡El gilipollas de Carlos!
+—¿Cómo? ¿Qué dices?
+—Sí, esto… Ahora lo explico todo. Creo que tenemos las cenizas.`,
+        translation: ``
       }
     ],
     exercises: [
