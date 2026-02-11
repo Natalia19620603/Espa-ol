@@ -17236,6 +17236,46 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
           { word: 'un montadito de', translation: 'мини бутерброд', audioUrl: null },
           { word: 'las patatas bravas', translation: 'картошка с острым соусом', audioUrl: null }
         ]
+      },
+      {
+        tab: 'Capítulo 4',
+        words: [
+          { word: 'el lavabo', translation: 'раковина в ванной, туалет', audioUrl: null },
+          { word: 'el narcotraficante', translation: 'наркоторговец', audioUrl: null },
+          { word: 'la melena', translation: 'грива, шевелюра', audioUrl: null },
+          { word: 'ajustado', translation: 'облегающий', audioUrl: null },
+          { word: 'el escote', translation: 'вырез, декольте', audioUrl: null },
+          { word: 'el encendedor, el mechero', translation: 'зажигалка', audioUrl: null },
+          { word: 'la mancha', translation: 'пятно, след, отпечаток', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 5',
+        words: [
+          { word: 'los guiris', translation: 'иностранцы, забугорники (разговорный)', audioUrl: null },
+          { word: 'lamentar', translation: 'жалеть, сожалеть', audioUrl: null },
+          { word: 'de un sorbo', translation: 'за один глоток, залпом', audioUrl: null },
+          { word: 'la cava', translation: 'испанское игристое вино', audioUrl: null },
+          { word: '¡Hostia!', translation: 'черт побери', audioUrl: null },
+          { word: 'el tirón', translation: 'дерганье (дернули, вырвать из рук, своровать)', audioUrl: null },
+          { word: 'el chorizo', translation: 'копченая колбаса с красным перцем, вор', audioUrl: null },
+          { word: 'colocarse', translation: 'становиться, вставать, занимать (определённое) положение, вштыриться', audioUrl: null },
+          { word: 'la corriente', translation: 'течение, поток', audioUrl: null },
+          { word: 'el bobo', translation: 'дурак', audioUrl: null },
+          { word: 'frotarse', translation: 'тереть', audioUrl: null },
+          { word: 'tender', translation: 'протянуть', audioUrl: null },
+          { word: 'la pasta', translation: 'макароны, бабло', audioUrl: null },
+          { word: 'guiñar un ojo', translation: 'подмигнуть глазом', audioUrl: null },
+          { word: 'intercambiar', translation: 'обмениваться', audioUrl: null }
+        ]
+      },
+      {
+        tab: 'Capítulo 6',
+        words: [
+          { word: 'rascar', translation: 'чесать', audioUrl: null },
+          { word: 'el argot', translation: 'сленг, арго, жаргон', audioUrl: null },
+          { word: 'investigar', translation: 'исследовать, расследовать', audioUrl: null }
+        ]
       }
     ],
     audioTabs: [
