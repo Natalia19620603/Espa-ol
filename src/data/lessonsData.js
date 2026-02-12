@@ -45574,6 +45574,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['Tres', 'Cuatro', 'Cinco', 'Dos'],
         correct: 2,
         explanation: 'Pepa ha cambiado de novio cinco veces en los últimos cinco años.'
+      },
+      {
+        text: '¿Qué coche conduce Pepa para trabajar como taxista?',
+        options: ['Un Ford Focus', 'Un Volkswagen Golf', 'Un Skoda Octavia', 'Un Seat León'],
+        correct: 2,
+        explanation: 'Pepa conduce un Skoda Octavia, que compró hace unos años porque es resistente como un tanque.'
       }
     ]
   },
@@ -45744,6 +45750,36 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['Una mochila', 'Un maletín', 'Una maleta grande', 'Una bolsa de plástico'],
         correct: 1,
         explanation: 'Albert lleva un maletín a su lado.'
+      },
+      {
+        text: '¿Qué piensa Pepa cuando se da cuenta de que Albert es muy guapo?',
+        options: ['Que debe ser muy rico', 'Que "al fin del mundo te llevaría", olvidándose por completo del accidente', 'Que debería no llamar la atención', 'Que es peligroso llevarle'],
+        correct: 1,
+        explanation: 'Pepa piensa: "¡Vaya tío! ¡Qué guapo! Se parece a Brad Pitt, pero es aún más elegante… Al fin del mundo te llevaría…", olvidándose del accidente.'
+      },
+      {
+        text: '¿En qué estado quedó el Octavia de Pepa tras el choque?',
+        options: ['Completamente destruido, no funciona', 'La parte delantera abollada y un faro roto, pero funciona', 'Sin ningún daño visible', 'Con el parabrisas roto y el motor averiado'],
+        correct: 1,
+        explanation: 'El Octavia tiene la parte delantera abollada y un faro roto. Poca cosa. El Ferrari, en cambio, quedó destrozado.'
+      },
+      {
+        text: '¿Qué dijo Albert sobre el parte del accidente?',
+        options: ['"Sí, hay que hacerlo inmediatamente"', '"No. No hace falta. No importa. Mi amigo se ocupará del coche y del papeleo"', '"Llama a la policía tú primero"', '"Espera, llamo a mi seguro"'],
+        correct: 1,
+        explanation: 'Albert dice: "No. No hace falta. No importa." Su amigo se ocupará del coche y del papeleo.'
+      },
+      {
+        text: '¿Por qué Pepa decide no intentar impresionar a Albert?',
+        options: ['Porque Carlos le importa más', 'Porque Albert ya tiene novia', 'Porque piensa que hagas lo que hagas, siempre pareces imbécil', 'Porque Albert no le parece tan guapo'],
+        correct: 2,
+        explanation: 'Pepa piensa: "Este adonis no va a fijarse en mí. Por tanto, lo mejor es no intentarlo." y recuerda que hagas lo que hagas, siempre pareces imbécil.'
+      },
+      {
+        text: '¿Qué matrícula llevaba el Ferrari?',
+        options: ['Matrícula holandesa', 'Matrícula neozelandesa', 'Matrícula española', 'Matrícula alemana'],
+        correct: 2,
+        explanation: 'Pepa dice: "La matrícula va española." El Ferrari era de alquiler con matrícula española aunque los dueños hablan holandés.'
       }
     ]
   },
@@ -45898,6 +45934,48 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['Porque es ilegal', 'Porque Carlos no fuma y dice que ella tampoco', 'Porque no tiene ceniceros', 'Porque tiene vergüenza'],
         correct: 1,
         explanation: 'En teoría Carlos no fuma y Pepa dice que tampoco, pero sigue fumando en secreto.'
+      },
+      {
+        text: '¿Cómo saluda Raúl a Pepa cuando ve el estado del coche?',
+        options: ['"¡Hola! ¿Estás bien?"', '"¡Hala! ¿Qué te ha pasado? ¿Vas pedo de buena mañana?"', '"¡Dios mío! ¿Has llamado al seguro?"', '"¡Llevo esperándote toda la mañana!"'],
+        correct: 1,
+        explanation: 'Raúl dice: "¡Hala! ¿Qué te ha pasado? ¿Vas pedo de buena mañana?"'
+      },
+      {
+        text: '¿Qué aspecto tiene el piso de Pepa cuando llega?',
+        options: ['Todo está perfectamente ordenado', 'En las estanterías y libros hay unos cuantos huecos (falta cosas de Carlos)', 'Está todo desordenado por la pelea', 'Carlos lo ha limpiado todo antes de irse'],
+        correct: 1,
+        explanation: 'Al entrar, Pepa se da cuenta de que en las estanterías y en los libros hay unos cuantos huecos: Carlos ya se ha llevado algunas cosas.'
+      },
+      {
+        text: '¿De dónde son las galletas Birba que están en el cajón?',
+        options: ['De Madrid', 'De Camprodon (Cataluña), y Carlos las trajo de viaje', 'De un supermercado de Barcelona', 'De una tienda online'],
+        correct: 1,
+        explanation: 'Galletas Birba es una marca catalana que Carlos les ha traído de un viaje a Camprodon.'
+      },
+      {
+        text: '¿Qué hace Pepa con la ceniza del cigarrillo ya que no hay cenicero?',
+        options: ['La tira por la ventana', 'La deja caer en la bonita alfombra que compró Carlos', 'La pone en una taza vieja', 'Se aguanta hasta que pueda tirarla'],
+        correct: 1,
+        explanation: 'Deja caer la ceniza en la bonita alfombra que compró Carlos, como acto de pequeña rebeldía.'
+      },
+      {
+        text: '¿Qué trabajo ha tenido Raúl antes del garaje?',
+        options: ['Policía y abogado', 'Mecánico en un taller clandestino de coches robados para carreras ilegales', 'Conductor de camiones', 'Vigilante de seguridad en un banco'],
+        correct: 1,
+        explanation: 'Antes de "pasar al lado de los buenos", Raúl tenía colegas en un taller clandestino donde montaban coches con piezas robadas para carreras ilegales.'
+      },
+      {
+        text: '¿Cuánto tiempo le dice Pepa a Albert que tardará en llegar al hotel?',
+        options: ['Diez minutos', 'Media hora', 'Una hora', 'Veinte minutos'],
+        correct: 1,
+        explanation: 'Pepa le dice a Albert: "Ahora voy. En media hora estoy ahí."'
+      },
+      {
+        text: '¿Qué bar frecuenta Pepa en Gràcia?',
+        options: ['El Tat\'s en la calle Escudellers', 'El bar de su amigo Armando, el argentino, que está al lado', 'Un bar en la calle Gran de Gràcia sin nombre', 'El bar de la plaza de la Virreina'],
+        correct: 1,
+        explanation: 'El bar de su amigo Armando, el argentino, está al lado, pero Pepa no quiere hablar con nadie y pasa de largo.'
       }
     ]
   },
@@ -46002,16 +46080,94 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Por qué el propietario tenía deudas?',
-        options: ['Por el incendio', 'Por sus negocios', 'Por el seguro', 'Por el banco'],
+        text: '¿Dónde encontró Raúl el polvo blanco?',
+        options: ['En el maletín de Albert', 'En el asiento trasero del coche de Pepa', 'En la chaqueta de Albert', 'En el suelo del garaje'],
         correct: 1,
-        explanation: 'El propietario tenía deudas por sus negocios fracasados.'
+        explanation: 'Raúl encontró el polvo blanco en el asiento trasero del coche de Pepa.'
       },
       {
-        text: '¿Quién amenazaba al propietario?',
-        options: ['La periodista', 'Los bomberos', 'Sus acreedores', 'La policía'],
+        text: '¿Qué piensa Pepa cuando se entera del polvo blanco?',
+        options: ['Que es harina del maletín', 'Que es un error de Raúl', 'Que Albert es un narcotraficante', 'Que es polvo de limpieza'],
         correct: 2,
-        explanation: 'Sus acreedores le amenazaban por las deudas.'
+        explanation: 'Al recordar el maletín de Albert, Pepa concluye que el supermodelo es un narco.'
+      },
+      {
+        text: '¿Cómo se llama el hotel al que va Pepa a buscar a Albert?',
+        options: ['Hotel Casa Fuster', 'XXI Century Foxes', 'Hotel Castelldefels', 'Palace Hotel'],
+        correct: 1,
+        explanation: 'El hotel se llama "XXI Century Foxes".'
+      },
+      {
+        text: '¿Cómo describe Pepa la decoración del hotel?',
+        options: ['Sencilla y familiar', 'Espejos y mármol', 'Oscura y misteriosa', 'Moderna y minimalista'],
+        correct: 1,
+        explanation: 'Al entrar, Pepa ve espejos y mármol, sin sorprenderse de la decoración.'
+      },
+      {
+        text: '¿Por qué no puede Pepa avisar a Albert de que ya ha llegado al hotel?',
+        options: ['Porque su móvil se quedó sin batería', 'Porque Albert llamó con número oculto y Pepa no tiene su número', 'Porque no sabe en qué habitación está', 'Porque no hay cobertura en el hotel'],
+        correct: 1,
+        explanation: 'Albert llamó con número oculto y el número no aparece en la pantalla de Pepa.'
+      },
+      {
+        text: '¿Cómo es la recepcionista del hotel?',
+        options: ['Mayor, con gafas y pelo corto', 'Muy joven, con ojos verdes y larga melena rubia', 'Alta, morena y muy seria', 'Pequeña y con pelo rizado'],
+        correct: 1,
+        explanation: 'La recepcionista es muy joven, tiene ojos verdes y una larga melena rubia.'
+      },
+      {
+        text: '¿Por qué Pepa se siente pequeña e insignificante en el hotel?',
+        options: ['Porque lleva ropa sucia', 'Porque todas las mujeres del hotel son altísimas y guapísimas', 'Porque Albert no la mira', 'Porque el hotel es enorme'],
+        correct: 1,
+        explanation: 'Todas las mujeres del bar son altísimas, guapísimas, bien peinadas y con tacones muy altos.'
+      },
+      {
+        text: '¿Quién es Lucy?',
+        options: ['La recepcionista del hotel', 'Una amiga de Albert', 'Una chica que también espera a un cliente en el bar', 'La camarera del bar'],
+        correct: 2,
+        explanation: 'Lucy es una chica sentada en el bar que también está esperando a un cliente.'
+      },
+      {
+        text: '¿Qué malentendido hay entre Pepa y Lucy sobre su trabajo?',
+        options: ['Lucy cree que Pepa es actriz', 'Lucy cree que Pepa es enfermera', 'Lucy cree que Pepa se dedica a la prostitución', 'Lucy cree que Pepa es modelo'],
+        correct: 2,
+        explanation: 'Cuando Pepa dice "como una puta: me llaman y yo voy", Lucy interpreta que Pepa es prostituta.'
+      },
+      {
+        text: '¿Qué dice Pepa sobre sí misma que Lucy malinterpreta?',
+        options: ['"Me gusta ayudar a la gente"', '"Como una puta: me llaman y yo voy"', '"Trabajo de noche siempre"', '"Mi cliente me paga muy bien"'],
+        correct: 1,
+        explanation: 'Pepa dice "como una puta: me llaman y yo voy" refiriéndose a ser taxista, pero Lucy lo interpreta literalmente.'
+      },
+      {
+        text: '¿Cuánto cobra Pepa de extra en su trabajo?',
+        options: ['Por ir de noche', 'Por rutas largas', 'Si los clientes traen maletas, niños o animales', 'Por esperar más de diez minutos'],
+        correct: 2,
+        explanation: 'Pepa cobra un poco más si traen maletas, niños o animales porque dejan el coche hecho un asco.'
+      },
+      {
+        text: '¿Por qué le sorprende a Lucy que el cliente de Pepa le haya dado mil euros?',
+        options: ['Porque es demasiado poco dinero', 'Porque es mucho dinero para solo un par de horas', 'Porque el cliente es extranjero', 'Porque no conoce bien a Albert'],
+        correct: 1,
+        explanation: 'Lucy pregunta "¡Uf! Mucho. ¿Qué has hecho?" al enterarse de los mil euros.'
+      },
+      {
+        text: '¿Qué se manchó Pepa cuando Albert la llamó por teléfono?',
+        options: ['Los pantalones con cerveza', 'La camisa con la salsa de las patatas bravas', 'La chaqueta con el café', 'Los zapatos con el barro'],
+        correct: 1,
+        explanation: 'Cuando sonó el teléfono, Pepa se atragantó con la patata y se manchó la camisa con la salsa.'
+      },
+      {
+        text: '¿Cuánto tiempo esperó Pepa fuera del hotel antes de entrar?',
+        options: ['Cinco minutos', 'Quince minutos', 'Media hora', 'Una hora'],
+        correct: 1,
+        explanation: 'Después de quince minutos esperando, Pepa decidió entrar al hotel.'
+      },
+      {
+        text: '¿Cómo llama Pepa el cartel de su taxi cuando acepta llevar a Albert?',
+        options: ['Lo apaga completamente', 'Lo cambia de "libre" a "ocupado"', 'Lo cambia de "ocupado" a "libre"', 'Lo deja como estaba'],
+        correct: 1,
+        explanation: 'Al aceptar el trabajo de Albert, Pepa cambia el cartel de "libre" por el de "ocupado".'
       }
     ]
   },
@@ -46110,16 +46266,94 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Cuántos cómplices tenía el propietario?',
-        options: ['Ninguno', 'Uno', 'Dos', 'Muchos'],
+        text: '¿Qué quiere ver Albert de Barcelona?',
+        options: ['Solo los bares y restaurantes', 'La ciudad, los monumentos', 'Las playas', 'Las tiendas de moda'],
         correct: 1,
-        explanation: 'El propietario tenía un cómplice.'
+        explanation: 'Albert quiere ver la ciudad. Visitan la Sagrada Familia y pasean por la Barceloneta.'
       },
       {
-        text: '¿Por qué huye el sospechoso?',
-        options: ['Porque tiene miedo a la policía', 'Porque quiere viajar', 'Porque no le gusta la ciudad', 'Porque tiene trabajo'],
-        correct: 0,
-        explanation: 'El sospechoso huye porque tiene miedo a la policía.'
+        text: '¿Qué monumento visitan Pepa y Albert?',
+        options: ['La Pedrera', 'El parque Güell', 'La Sagrada Familia', 'El Camp Nou'],
+        correct: 2,
+        explanation: 'Después de una visita corta a la Sagrada Familia, la interminable iglesia de Gaudí, vuelven al taxi.'
+      },
+      {
+        text: '¿Por qué piensa Pepa en Carlos mientras conduce con Albert?',
+        options: ['Porque Albert se parece a Carlos', 'Porque ve un BMW igual al de Carlos', 'Porque escucha una canción que le recuerda a él', 'Porque pasan por delante de su casa'],
+        correct: 1,
+        explanation: 'Un BMW adelanta al taxi, Carlos tiene un coche igual y Pepa se acuerda de él.'
+      },
+      {
+        text: '¿De dónde es la madre de Albert?',
+        options: ['De Nueva Zelanda', 'De Holanda', 'De España', 'De Australia'],
+        correct: 2,
+        explanation: 'La madre de Albert es española, por eso Albert habla bien el castellano.'
+      },
+      {
+        text: '¿Es la primera vez que Albert viene a España?',
+        options: ['No, ya ha venido varias veces', 'Sí, es la primera vez', 'Ya vivió aquí dos años', 'Viene cada verano'],
+        correct: 1,
+        explanation: 'Albert dice que es la primera vez que viene a España.'
+      },
+      {
+        text: '¿Adónde invita Albert a cenar a Pepa?',
+        options: ['A un restaurante de guiris en las Ramblas', 'A un restaurante marinero en lo alto de una torre en la Barceloneta', 'A una pizzería cerca del hotel', 'A casa de un amigo suyo'],
+        correct: 1,
+        explanation: 'Pepa elige un restaurante de cocina marinera en lo más alto de una torre en la Barceloneta, a 75 metros sobre el mar.'
+      },
+      {
+        text: '¿Adónde va Albert después de Barcelona?',
+        options: ['A Valencia', 'De vuelta a Holanda', 'A Madrid, pasado mañana', 'A Sevilla'],
+        correct: 2,
+        explanation: 'Albert dice que pasado mañana va a Madrid.'
+      },
+      {
+        text: '¿De qué se arrepiente Pepa durante la cena?',
+        options: ['De haber pedido demasiado vino', 'De no haberse cambiado de ropa', 'De haber elegido ese restaurante', 'De no haber llamado a Carlos'],
+        correct: 1,
+        explanation: 'Pepa lamenta no haberse cambiado de ropa; lleva vaqueros y camiseta mientras todos miran a Albert.'
+      },
+      {
+        text: '¿Quién paga la cuenta del restaurante?',
+        options: ['Pepa', 'Albert', 'Cada uno paga lo suyo', 'El jefe de Pepa'],
+        correct: 1,
+        explanation: 'Albert paga la cuenta y recoge el maletín que ha tenido entre sus piernas durante toda la cena.'
+      },
+      {
+        text: '¿Qué le pasó al maletín de Albert al salir del restaurante?',
+        options: ['Lo olvidó en el restaurante', 'Dos personas en una moto se lo robaron', 'Lo perdió en la calle', 'Albert lo dejó en el taxi'],
+        correct: 1,
+        explanation: 'Una moto con dos ocupantes pasa rozando por su lado y el maletín de Albert cambia de manos: se lo roban.'
+      },
+      {
+        text: '¿Qué dice Albert que lleva en el maletín robado?',
+        options: ['Dinero en efectivo', 'Documentos importantes', 'Muestras de productos químicos', 'Joyas de valor'],
+        correct: 2,
+        explanation: 'Albert dice que son "muestras", y al preguntar qué tipo, responde: "productos químicos, de laboratorio".'
+      },
+      {
+        text: '¿Por qué no pueden llamar a la policía?',
+        options: ['Porque no tienen cobertura', 'Porque Albert no quiere involucrar a la policía', 'Porque es muy tarde', 'Porque Pepa tiene miedo'],
+        correct: 1,
+        explanation: 'Albert dice explícitamente: "No, no. La policía no sirve."'
+      },
+      {
+        text: '¿Dónde está Raúl cuando van a buscarlo al garaje?',
+        options: ['Trabajando en un coche', 'Bebiendo con sus amigos en un bar', 'Echado en un viejo sofá en el cuarto del fondo, durmiendo', 'Ha salido y no está'],
+        correct: 2,
+        explanation: 'Raúl está echado en un viejo sofá que sirve de cama, con los ojos cerrados y la boca abierta.'
+      },
+      {
+        text: '¿Cuánto dinero ofrece Pepa (con la aprobación de Albert) a Raúl por su ayuda?',
+        options: ['Cien euros', 'Trescientos euros', 'Seiscientos euros', 'Mil euros'],
+        correct: 2,
+        explanation: 'Pepa ofrece seiscientos euros a Raúl si les ayuda a recuperar el maletín.'
+      },
+      {
+        text: '¿A quién llama Raúl para ayudarles a encontrar el maletín?',
+        options: ['A la policía', 'A un amigo llamado Doro', 'Al propietario del maletín', 'A un detective privado'],
+        correct: 1,
+        explanation: 'Raúl dice que llamará a Doro y le da unas cuantas palabras para intercambiar información.'
       }
     ]
   },
@@ -46218,16 +46452,46 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Qué hace la periodista con las pruebas?',
-        options: ['Las destruye', 'Las vende', 'Las entrega a la policía', 'Las guarda en casa'],
+        text: '¿Qué necesita Raúl para recuperar el maletín?',
+        options: ['Un coche rápido', 'Muchos contactos policiales', 'Pasta gansa (mucho dinero)', 'Una semana de tiempo'],
         correct: 2,
-        explanation: 'La periodista entrega las pruebas a la policía.'
+        explanation: 'Raúl dice: "Con lo que lleva el maletín… Para recuperarlo necesitas pasta gansa."'
       },
       {
-        text: '¿Quién confiesa al final?',
-        options: ['La periodista', 'El propietario', 'El bombero', 'El testigo'],
+        text: '¿Qué hace Raúl mientras Albert y Pepa esperan?',
+        options: ['Sale a buscar el maletín él solo', 'Llama por teléfono a sus contactos', 'Se vuelve a dormir', 'Busca en internet'],
         correct: 1,
-        explanation: 'El propietario confiesa su crimen.'
+        explanation: 'Raúl habla unos minutos por teléfono con sus contactos.'
+      },
+      {
+        text: '¿Por qué Albert no entiende lo que habla Raúl por teléfono?',
+        options: ['Porque habla muy bajito', 'Porque habla catalán puro', 'Porque habla en argot (jerga) que Albert no conoce', 'Porque tiene mala cobertura'],
+        correct: 2,
+        explanation: 'Pepa explica: "Habla en castellano, pero argot, como lo que hablan los médicos, por ejemplo."'
+      },
+      {
+        text: '¿En qué idioma cree Albert que habla Raúl?',
+        options: ['En gallego', 'En catalán', 'En valenciano', 'En inglés'],
+        correct: 1,
+        explanation: 'Albert pregunta: "¿En qué idioma hablaba? ¿Catalán?"'
+      },
+      {
+        text: '¿Quién es Doro y dónde trabaja?',
+        options: ['Un policía en comisaría', 'El encargado del bar Tat\'s en la calle Escudellers', 'Un mecánico en Gràcia', 'El portero del hotel de Castelldefels'],
+        correct: 1,
+        explanation: 'Doro es el encargado del Tat\'s en la calle Escudellers, siempre cerca de la barra vigilando.'
+      },
+      {
+        text: '¿Qué dice Raúl sobre Doro?',
+        options: ['"Es muy discreto y nadie sabe quién es"', '"Doro lo ve todo, lo sabe todo"', '"Doro trabaja solo para la policía"', '"Es muy caro pero eficaz"'],
+        correct: 1,
+        explanation: 'Raúl describe a Doro: "Está siempre cerca de la barra, vigilando. Doro lo ve todo, lo sabe todo."'
+      },
+      {
+        text: '¿Qué debe hacer Pepa con Albert mientras Raúl investiga?',
+        options: ['Quedarse en el garaje a esperar', 'Volver al hotel de Castelldefels', 'Ir al Tat\'s a ver a Doro', 'Llamar a la policía'],
+        correct: 2,
+        explanation: 'Raúl les dice que vayan a ver a Doro al Tat\'s porque Doro ya les está esperando.'
       }
     ]
   },
@@ -46326,16 +46590,94 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Qué pide el fiscal?',
-        options: ['La absolución del acusado', 'Una condena severa', 'Más investigación', 'La libertad del acusado'],
-        correct: 1,
-        explanation: 'El fiscal pide una condena severa para el acusado.'
+        text: '¿Cómo sabe Doro en el momento de entrar que Pepa y Albert son amigos de Raúl?',
+        options: ['Porque Raúl le envió una foto', 'Porque los reconoce de una visita anterior', 'Se da cuenta al momento porque no están acostumbrados a ese ambiente', 'Porque llevan una contraseña'],
+        correct: 2,
+        explanation: 'Doro se da cuenta al momento de que la pareja que entra son amigos de Raúl: tratan de aparentar naturalidad, pero no lo sienten.'
       },
       {
-        text: '¿Qué dice el abogado defensor?',
-        options: ['Que su cliente es culpable', 'Que su cliente es inocente', 'Que no sabe nada', 'Que necesita más tiempo'],
+        text: '¿Qué recuerda Pepa al ver a las chicas del local?',
+        options: ['A sus amigas de la infancia', 'Al hotel de Castelldefels', 'A las chicas del aeropuerto', 'A Lucy, la camarera del hotel'],
         correct: 1,
-        explanation: 'El abogado defensor dice que su cliente es inocente.'
+        explanation: 'Al ver a las chicas del local, Pepa se acuerda del hotel de Castelldefels.'
+      },
+      {
+        text: '¿Qué pide Albert para beber?',
+        options: ['Un whisky', 'Una cerveza', 'Agua', 'Coca-Cola'],
+        correct: 2,
+        explanation: 'Albert, nervioso y con la boca seca, pide: "Agua, por favor".'
+      },
+      {
+        text: '¿Qué les pone Doro para beber?',
+        options: ['Dos cervezas', 'Dos Coca-Colas', 'Un whisky para Albert y uno con agua para Pepa', 'Dos aguas con gas'],
+        correct: 2,
+        explanation: 'Doro dice: "Ponle un whisky. Y otro para la señorita. Con agua."'
+      },
+      {
+        text: '¿Qué bebió Albert sin darse cuenta?',
+        options: ['El vaso de Doro con ron', 'El vaso de Judith que contenía pastis y éxtasis líquido', 'La copa de vino de Pepa', 'Un whisky doble que pidió sin saberlo'],
+        correct: 1,
+        explanation: 'Albert, distraído y sediento, se bebe de un trago el vaso de Judith, que contenía pastis y éxtasis líquido.'
+      },
+      {
+        text: '¿Por qué es peligroso lo que bebió Albert?',
+        options: ['Porque tenía veneno', 'Porque no es bueno mezclar éxtasis con alcohol', 'Porque el pastis es demasiado fuerte', 'Porque tenía alergia al alcohol'],
+        correct: 1,
+        explanation: 'Judith dice entre risas: "Bah… Nada. Pero no es bueno mezclarlo con alcohol." Y ya era tarde porque Albert también bebió el whisky.'
+      },
+      {
+        text: '¿Cómo se llama la chica cuyo vaso bebió Albert por error?',
+        options: ['Lucy', 'Carmen', 'Judith', 'Isabel'],
+        correct: 2,
+        explanation: 'La camarera dice: "Se ha bebido el vaso de Judith."'
+      },
+      {
+        text: '¿Cómo se llama el posible intermediario que menciona Doro?',
+        options: ['Doro', 'Mojao', 'Veloz', 'Carlos'],
+        correct: 2,
+        explanation: 'Doro dice: "A lo mejor Veloz sabe algo."'
+      },
+      {
+        text: '¿Dónde trabaja Veloz?',
+        options: ['En un taller mecánico en Gràcia', 'En un local de cerrajería en la calle Santa Mónica', 'En el puerto de Barcelona', 'En un almacén del Raval'],
+        correct: 1,
+        explanation: 'En la calle Santa Mónica, al lado del Pastis, hay un local con el letrero "Cerrajero 24 horas. Se abren casas, coches y cajas fuertes". Veloz está siempre allí.'
+      },
+      {
+        text: '¿Cuál es la condición física especial de Veloz?',
+        options: ['Es sordo', 'Es ciego', 'Es parapléjico', 'Es muy anciano'],
+        correct: 2,
+        explanation: 'Doro explica que Veloz es parapléjico.'
+      },
+      {
+        text: '¿Cómo puede Veloz "abrir casas y coches" siendo parapléjico?',
+        options: ['Con tecnología especial', 'Con la ayuda de la policía', 'Porque tiene empleados que trabajan para él', 'Porque usa sus manos con gran habilidad'],
+        correct: 2,
+        explanation: 'Doro mira a Pepa con compasión: Veloz tiene empleados, gente que trabaja para él, muy buenos.'
+      },
+      {
+        text: '¿Cómo reacciona Doro cuando Pepa pregunta cómo Veloz abre puertas siendo parapléjico?',
+        options: ['Le explica pacientemente', 'La mira con compasión pensando qué chica tan inocente', 'Se enfada', 'Se ríe a carcajadas'],
+        correct: 1,
+        explanation: 'Doro mira a Pepa con compasión. ¡Qué chica tan inocente!'
+      },
+      {
+        text: '¿Cuántas chicas se acercaron a Albert en el bar?',
+        options: ['Dos', 'Tres', 'Cuatro', 'Cinco'],
+        correct: 2,
+        explanation: 'Se acercan cuatro chicas. Hablan entre ellas, miran a Albert, le dicen cosas y ríen.'
+      },
+      {
+        text: '¿Qué condición pone Doro para ayudarles con Veloz?',
+        options: ['Que le paguen de antemano', 'Que puedan pagar bien', 'Que vuelvan en otro momento', 'Que hablen directamente con Raúl'],
+        correct: 1,
+        explanation: 'Doro pregunta: "¿Podéis pagar bien?" y Pepa asiente con la cabeza.'
+      },
+      {
+        text: '¿Qué tipo de local es el Tat\'s?',
+        options: ['Una cafetería familiar', 'Un club nocturno', 'Una discoteca grande', 'Un restaurante de lujo'],
+        correct: 1,
+        explanation: 'El Tat\'s es un club nocturno donde trabajan chicas y Doro es el encargado.'
       }
     ]
   },
@@ -46434,22 +46776,94 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Cuál es la sentencia del juez?',
-        options: ['Inocente', 'Culpable', 'Necesita más pruebas', 'Libertad condicional'],
+        text: '¿Cómo anda Albert al salir del bar después de tomar el éxtasis?',
+        options: ['Perfectamente bien', 'A veces muy lento, a veces muy rápido, con los ojos muy abiertos', 'Muy despacio sin poder moverse', 'Corriendo sin parar'],
         correct: 1,
-        explanation: 'El juez condena al propietario como culpable del incendio provocado.'
+        explanation: 'Albert anda de forma rara: a veces muy lento, a veces muy rápido; mira a todos lados con los ojos muy abiertos y mueve los labios pero no habla.'
       },
       {
-        text: '¿Cómo se siente la periodista al final?',
-        options: ['Triste', 'Nerviosa', 'Con alivio y satisfacción', 'Decepcionada'],
+        text: '¿Cuántos atracadores les detienen en la calle?',
+        options: ['Uno', 'Dos', 'Tres', 'Cuatro'],
         correct: 2,
-        explanation: 'La periodista siente alivio y satisfacción por haber resuelto el misterio.'
+        explanation: 'Tres: un tipo pequeño pone una navaja en el estómago de Albert, otro en el cuello de Pepa, y un tercero en la acera de enfrente les apunta con una pistola automática.'
       },
       {
-        text: '¿Qué hace la periodista después del juicio?',
-        options: ['Se va de vacaciones', 'Escribe un artículo sobre el caso', 'Deja el periodismo', 'Se une a la policía'],
+        text: '¿Qué llevan los atracadores?',
+        options: ['Solo palos', 'Dos navajas y una pistola automática', 'Pistolas los tres', 'Una navaja y un cuchillo'],
         correct: 1,
-        explanation: 'La periodista escribe un artículo sobre el caso resuelto.'
+        explanation: 'Dos llevan navajas (una en el estómago de Albert, otra en el cuello de Pepa) y el tercero apunta con pistola automática.'
+      },
+      {
+        text: '¿Qué les roban a Pepa y Albert?',
+        options: ['Solo el maletín', 'Solo el dinero', 'Dinero, relojes y móviles', 'Los documentos y el pasaporte'],
+        correct: 2,
+        explanation: 'Los chorizos cogen todo lo que llevan: dinero, relojes y móviles.'
+      },
+      {
+        text: '¿Cuánto dinero llevaba Pepa?',
+        options: ['Nada', 'Cincuenta euros y un móvil barato', 'Los mil euros del anticipo', 'Doscientos euros'],
+        correct: 1,
+        explanation: 'Pepa había dejado el dinero en casa y solo llevaba cincuenta euros y un móvil barato.'
+      },
+      {
+        text: '¿Para qué llevaba Albert mucho dinero consigo?',
+        options: ['Para pagar la cena', 'Para recuperar su maletín', 'Para comprar recuerdos', 'Para pagar a Raúl'],
+        correct: 1,
+        explanation: 'Albert llevaba pasta gansa para recuperar su maletín. Ahora no tiene nada.'
+      },
+      {
+        text: '¿Por qué Pepa siente pena por Albert?',
+        options: ['Porque está muy asustado', 'Porque no parece un narcotraficante de verdad', 'Porque está herido', 'Porque ha perdido su pasaporte'],
+        correct: 1,
+        explanation: 'Pepa siente pena por él: no parece un narcotraficante. Los narcos de las películas no son como Albert.'
+      },
+      {
+        text: '¿Quién les habla después del robo?',
+        options: ['Un policía de patrulla', 'Raúl, que pasaba por allí', 'Un travesti de la esquina', 'El dueño de un bar cercano'],
+        correct: 2,
+        explanation: 'El travesti de la esquina corre hacia ellos y les habla sobre lo que ha pasado.'
+      },
+      {
+        text: '¿Cómo describe el travesti a los atracadores?',
+        options: ['"Los chorizos del barrio"', '"Los tres mellizos"', '"Las tres mellizas"', '"Los ladrones del Raval"'],
+        correct: 2,
+        explanation: 'El travesti dice: "Han sido las tres mellizas. Os han desplumado."'
+      },
+      {
+        text: '¿Qué le pide Pepa al travesti?',
+        options: ['Dinero para el taxi', 'Que llame a la policía', 'Que le deje usar su móvil', 'Que las acompañe'],
+        correct: 2,
+        explanation: 'Pepa le pide un favor al travesti: que le deje el móvil para llamar a Raúl.'
+      },
+      {
+        text: '¿Qué hace el travesti para "cobrar" el préstamo del móvil?',
+        options: ['Pide cinco euros', 'Toca los muslos y entrepierna de Albert', 'Pide que Pepa le llame mañana', 'Pide un cigarrillo'],
+        correct: 1,
+        explanation: 'El travesti le toca los muslos y la entrepierna a Albert y le explica a Pepa: "Esto por dejarte el móvil."'
+      },
+      {
+        text: '¿Qué pregunta el travesti sobre Albert?',
+        options: ['Si es español', 'Si es su novio', 'Si siempre es así o ha tomado algo', 'Si necesita un médico'],
+        correct: 2,
+        explanation: 'El travesti le pregunta a Pepa: "¿Qué le pasa a tu novio? ¿Es siempre así o ha tomado algo?"'
+      },
+      {
+        text: '¿Qué hace Albert cuando el travesti le hace proposiciones?',
+        options: ['Huye corriendo', 'No se mueve y no habla', 'Le contesta amablemente', 'Se enfada mucho'],
+        correct: 1,
+        explanation: 'Albert no se mueve. No habla. El travesti le toca el culo.'
+      },
+      {
+        text: '¿Qué le reprochó el travesti a Pepa sobre la zona donde caminaban?',
+        options: ['Que era demasiado tarde para llevar a un turista por allí', 'Que debían haber ido por la Rambla', 'Que tendría que haber llamado a la policía antes', 'Que Albert no debía beber tanto'],
+        correct: 0,
+        explanation: 'El travesti le dice: "¡Son las dos de la noche! ¡Pasear a estas horas por esta zona con este tío!" Señalando que era irresponsable.'
+      },
+      {
+        text: '¿Cómo se describe físicamente la zona donde ocurre el robo?',
+        options: ['Amplia y bien iluminada junto al mar', 'Una calle estrecha que huele mal', 'Una plaza grande con mucha gente', 'Un callejón completamente a oscuras'],
+        correct: 1,
+        explanation: 'La calle es estrecha y huele mal. Hay un travesti haciendo proposiciones.'
       }
     ]
   },
@@ -46552,6 +46966,30 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['Acompañar a Pepa a casa', 'Dar una vuelta y ver a sus colegas', 'Llamar a la policía', 'Ir a buscar el maletín'],
         correct: 1,
         explanation: 'Raúl dice que va a dar una vuelta y ver a sus colegas.'
+      },
+      {
+        text: '¿Qué hace Albert cuando el recepcionista le pide documentación?',
+        options: ['La busca tranquilamente en su bolsillo', 'Explica en inglés que la perdió', 'Empieza a desnudarse en el vestíbulo', 'Se sienta a esperar sin decir nada'],
+        correct: 2,
+        explanation: 'Albert empieza a desnudarse en el vestíbulo del hotel, lo que escandaliza al recepcionista.'
+      },
+      {
+        text: '¿Qué le dice el recepcionista a Pepa y Albert?',
+        options: ['"Esperad un momento, buscamos solución"', '"Tú y tu amigo os vais a hacer el idiota a otra parte"', '"Llamaré a la policía si no se van"', '"No tenemos habitaciones libres esta noche"'],
+        correct: 1,
+        explanation: 'El recepcionista les dice: "Tú y tu amigo os vais a hacer el idiota a otra parte."'
+      },
+      {
+        text: '¿Cómo está Albert después del éxtasis al llegar al hotel?',
+        options: ['Perfectamente recuperado', 'Habla en inglés y mueve continuamente los brazos y las piernas', 'Dormido y sin reaccionar', 'Muy agresivo y peligroso'],
+        correct: 1,
+        explanation: 'Albert está muy nervioso, habla en inglés y mueve continuamente los brazos y las piernas.'
+      },
+      {
+        text: '¿Qué dice Raúl sobre recuperar el maletín sin dinero?',
+        options: ['"Lo conseguimos de todas formas"', '"Sin pasta no se puede hacer nada"', '"Primero descansamos y luego lo intentamos"', '"Doro puede hacerlo gratis"'],
+        correct: 1,
+        explanation: 'Raúl dice: "Mira, el estríper ese del maletín. Sin pasta no se puede hacer nada."'
       }
     ]
   },
@@ -46660,6 +47098,66 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['Porque llevaba dinero', 'Porque llevaba droga', 'Porque Raúl quería saber qué contenía', 'Porque era un regalo'],
         correct: 2,
         explanation: 'Raúl quería entender por qué Albert estaba tan preocupado por unos gramos de harina.'
+      },
+      {
+        text: '¿Qué hay en la nevera de Pepa cuando llegan a casa?',
+        options: ['Agua, zumos y fruta', 'Solo cervezas, no hay agua', 'Comida preparada de ayer', 'Está completamente vacía'],
+        correct: 1,
+        explanation: 'En la nevera no hay agua, solo cervezas. Pepa coge una botella de un armario.'
+      },
+      {
+        text: '¿Quiénes miran a Albert desde el hotel enfrente mientras baila en la terraza?',
+        options: ['Unos vecinos ancianos', 'Una pareja de turistas nórdicos desde su habitación', 'Los porteros del hotel', 'Unos niños desde la calle'],
+        correct: 1,
+        explanation: 'En las habitaciones del hotel, justo enfrente de donde vive Pepa, se han encendido unas luces y una pareja de turistas nórdicos mira el espectáculo.'
+      },
+      {
+        text: '¿Qué hace Albert con la ropa que se quita en la terraza?',
+        options: ['La dobla cuidadosamente en una silla', 'La tira al suelo de la terraza', 'La tira a la calle desde la terraza', 'Pepa la recoge y la guarda'],
+        correct: 2,
+        explanation: 'Ropa en la terraza. Pepa busca la ropa. No está. Los ha tirado a la calle.'
+      },
+      {
+        text: '¿Por qué Pepa mete a Albert en el ascensor en lugar de las escaleras?',
+        options: ['Porque Albert no puede subir escaleras', 'Porque Carlos siempre sube a pie por las escaleras', 'Porque el ascensor va directo al piso de Pepa', 'Porque es más rápido'],
+        correct: 1,
+        explanation: 'Carlos es muy deportista y siempre sube a pie. Pepa aprovecha esto para esconder a Albert en el ascensor.'
+      },
+      {
+        text: '¿Con qué cubre Pepa a Albert para sacarlo a las escaleras?',
+        options: ['Con una toalla de baño', 'Con una chaqueta vieja de Carlos', 'Con una sábana del armario', 'Con la cortina de la ventana'],
+        correct: 2,
+        explanation: 'Pepa coge una sábana del armario, envuelve con ella a Albert y lo mete en el ascensor.'
+      },
+      {
+        text: '¿Qué hace Pepa para parecer inocente cuando entra Carlos?',
+        options: ['Finge estar dormida en el sofá', 'Coge un libro y se sienta en un sillón', 'Está en la cocina preparando la cena', 'Está hablando por teléfono'],
+        correct: 1,
+        explanation: 'Pepa coge un libro y se sienta en un sillón, intentando parecer tranquila cuando entra Carlos.'
+      },
+      {
+        text: '¿Cuándo sale el avión de Carlos y qué hora era cuando llegó a casa?',
+        options: ['El avión es a las ocho, llegó a las cinco', 'El avión es a las seis, llegó a las tres', 'El avión es a las diez, llegó a las siete', 'El avión es a mediodía, llegó a las nueve'],
+        correct: 1,
+        explanation: 'Carlos dice: "A las seis sale mi avión." Y mira el reloj: son las tres de la madrugada.'
+      },
+      {
+        text: '¿Qué propone Carlos a Pepa antes de irse?',
+        options: ['Que rompan definitivamente', 'Que se mude a Madrid y que se vean el próximo fin de semana', 'Que le espere en Barcelona', 'Que vayan juntos a Madrid en tren'],
+        correct: 1,
+        explanation: 'Carlos dice: "He encontrado un apartamento muy bonito… ¿Por qué no vienes a Madrid?" y añade que el próximo fin de semana pueden verse.'
+      },
+      {
+        text: '¿Dónde está Albert cuando llega Raúl con el maletín?',
+        options: ['En el sofá del salón', 'En la terraza', 'Sentado dentro del ascensor', 'En la cama durmiendo'],
+        correct: 2,
+        explanation: 'Raúl se ha encontrado a Albert sentado en el ascensor, vestido como un romano (envuelto en la sábana).'
+      },
+      {
+        text: '¿Qué contenía el maletín que Raúl recuperó?',
+        options: ['Cenizas de cadáveres', 'Cocaína pura', 'Harina integral', 'Dinero en billetes'],
+        correct: 2,
+        explanation: 'El maletín que Raúl recuperó llevaba harina integral, no la droga que esperaban ni las cenizas originales.'
       }
     ]
   },
@@ -46762,6 +47260,24 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['Con un abrazo y promesas de llamar', 'Sin decir ni una palabra', 'Llorando', 'Dando explicaciones'],
         correct: 1,
         explanation: 'Carlos coge la caja, la mete en su bolsa y sale sin decir ni una palabra.'
+      },
+      {
+        text: '¿Qué dice Carlos sobre Raúl?',
+        options: ['"Raúl es buen chico pero tiene malas costumbres"', '"No me gusta nada tu amigo Raúl"', '"Raúl debería buscar un trabajo estable"', '"¿Por qué siempre llama a estas horas?"'],
+        correct: 1,
+        explanation: 'Carlos le dice a Pepa: "No me gusta nada tu amigo Raúl."'
+      },
+      {
+        text: '¿Qué responde Pepa sobre los amigos de Carlos?',
+        options: ['"Tus amigos me parecen muy bien"', '"A ti no te gustan los míos y a mí no me gustan los tuyos. Por eso te vas a Madrid."', '"Prefiero no hablar de tus amigos"', '"Eso ya lo hemos discutido antes"'],
+        correct: 1,
+        explanation: 'Pepa responde: "Ya lo sé. A ti no te gustan mis amigos. A mí no me gustan los tuyos. Por eso te vas a Madrid."'
+      },
+      {
+        text: '¿Qué dice Pepa después de que Carlos se va?',
+        options: ['"Lo siento, Carlos, te quiero"', '"Qué gilipollas…" y enciende un cigarrillo', '"Espera, tenemos que hablar"', '"Menos mal que se fue"'],
+        correct: 1,
+        explanation: 'Pepa dice: "Qué gilipollas…" y enciende un cigarrillo.'
       }
     ]
   },
@@ -46870,6 +47386,66 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['En un hotel', 'En casa de Raúl', 'En casa de Pepa', 'En un apartamento alquilado'],
         correct: 2,
         explanation: 'Albert se queda unos días en la casa de Pepa para conocer la ciudad.'
+      },
+      {
+        text: '¿Dónde están Pepa y Raúl cuando tienen esta conversación?',
+        options: ['En el bar de Armando', 'En el garaje, bebiendo cerveza', 'En el piso de Pepa', 'En un café del barrio'],
+        correct: 1,
+        explanation: 'Dos días después, Pepa y Raúl beben cerveza en el garaje, hablando de Albert y sus negocios.'
+      },
+      {
+        text: '¿Qué negocio tiene la familia de Albert en Nueva Zelanda?',
+        options: ['Laboratorios químicos', 'Varias funerarias', 'Empresas de joyería', 'Compañías de seguros'],
+        correct: 1,
+        explanation: 'Los abuelos y los padres de Albert tienen varias funerarias en Nueva Zelanda.'
+      },
+      {
+        text: '¿Dónde abrió Albert la sucursal de las empresas familiares?',
+        options: ['En España', 'En Australia', 'En Holanda', 'En Francia'],
+        correct: 2,
+        explanation: 'Albert abrió en Holanda una sucursal de las empresas familiares.'
+      },
+      {
+        text: '¿Qué descubrió el químico holandés amigo de Albert?',
+        options: ['Una nueva vacuna médica', 'Que con las cenizas de los cadáveres incinerados se podían hacer diamantes', 'Una nueva técnica de cremación', 'Un método para conservar cadáveres más tiempo'],
+        correct: 1,
+        explanation: 'Un amigo químico holandés le dijo que con las cenizas de los cadáveres incinerados se podían hacer diamantes.'
+      },
+      {
+        text: '¿Quién se asoció con el químico holandés?',
+        options: ['Un químico alemán', 'Un químico español que también sabía de eso', 'El abogado Roberto Alcázar', 'Albert directamente'],
+        correct: 1,
+        explanation: 'El químico holandés conocía a otro químico español que sabía bastante de eso. Se asociaron.'
+      },
+      {
+        text: '¿Por qué era tan importante el maletín con las cenizas?',
+        options: ['Porque eran cenizas de personas famosas', 'Porque la fórmula para repetir el proceso estaba en analizar esas cenizas', 'Porque tenía un gran valor sentimental', 'Porque sin esas cenizas no había diamantes que vender'],
+        correct: 1,
+        explanation: 'Para repetir la operación había que analizar las cenizas y descubrir su composición. El abogado podía encontrar la fórmula, patentarla y ganar millones.'
+      },
+      {
+        text: '¿Qué exclamó Raúl cuando supo que las cenizas olían a cadáver?',
+        options: ['"¡Qué asco!"', '"¡Coño! ¡Por eso olía a cadáver!"', '"¡Dios mío, qué horror!"', '"¡Menos mal que no lo probé!"'],
+        correct: 1,
+        explanation: 'Raúl exclama: "¡Coño! ¡Por eso olía a cadáver!" recordando que estaba colocado con las cenizas.'
+      },
+      {
+        text: '¿Qué había en el maletín que recuperó Raúl de los chorizos?',
+        options: ['Las cenizas originales del maletín de Albert', 'Cocaína pura', 'Harina integral', 'Documentos del contrato'],
+        correct: 2,
+        explanation: 'El maletín que Raúl recuperó llevaba harina integral. Los chorizos habían cogido el maletín creyendo que llevaba dinero o droga.'
+      },
+      {
+        text: '¿Qué hizo el abogado con el maletín original de Albert en el hotel de Castelldefels?',
+        options: ['Se lo entregó a la policía', 'Lo vendió en el mercado negro', 'Se lo llevó cambiándolo por uno igual lleno de harina', 'Lo escondió en el hotel'],
+        correct: 2,
+        explanation: 'El abogado cogió el maletín de Albert y le dejó uno igual lleno de harina, aprovechando que celebraban el contrato y habían bebido.'
+      },
+      {
+        text: '¿Qué opina Raúl de los abogados?',
+        options: ['"Los abogados son necesarios"', '"Los abogados, nenas, no son de fiar"', '"Los abogados cobran demasiado"', '"Este abogado en concreto es un ladrón"'],
+        correct: 1,
+        explanation: 'Raúl dice con sabiduría: "Los abogados, nenas, no son de fiar."'
       }
     ]
   },
@@ -46933,6 +47509,66 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['No le gusta nada', 'Le gusta menos que Carlos', 'Le gusta más que Carlos', 'Es indiferente'],
         correct: 2,
         explanation: 'Pepa piensa en Carlos pero reconoce que Albert le gusta más.'
+      },
+      {
+        text: '¿Cómo explica Albert el cambio de maletín en el hotel?',
+        options: ['Dice que fue un accidente', 'El abogado cogió su maletín y le dejó uno igual lleno de harina mientras celebraban el contrato bebiendo', 'Dice que fue Raúl quien lo cambió', 'Dice que no sabe cómo pasó'],
+        correct: 1,
+        explanation: 'Albert explica: "El abogado cogió mi maletín y me dejó uno igual lleno de harina. Estábamos contentos, bebimos. Las chicas eran muy simpáticas…"'
+      },
+      {
+        text: '¿Qué dice Albert sobre el trabajo de Raúl en la búsqueda del maletín?',
+        options: ['"Raúl no sirvió de nada"', '"Raúl lo buscó y lo encontró. Es buen tío Raúl."', '"Raúl debería haber buscado el maletín correcto"', '"Raúl cobró demasiado por su ayuda"'],
+        correct: 1,
+        explanation: 'Albert dice: "Pero Raúl lo buscó y lo encontró. Es buen tío Raúl." aunque el maletín resultó tener harina.'
+      },
+      {
+        text: '¿Para qué llama la madre de Pepa?',
+        options: ['Para saber si está bien después de la noche loca', 'Para que la acompañe al dentista por la tarde', 'Para hablar de Carlos y pedirle que se reconcilien', 'Para invitarla a cenar el fin de semana'],
+        correct: 1,
+        explanation: 'La madre de Pepa quiere saber si por la tarde puede acompañarla al dentista.'
+      },
+      {
+        text: '¿Qué opinan la madre y la hermana de Pepa sobre su trabajo?',
+        options: ['Que es un trabajo genial y seguro', 'A ambas tampoco les gusta su trabajo de taxista', 'A la madre le encanta pero la hermana no', 'Son indiferentes a su profesión'],
+        correct: 1,
+        explanation: 'A su madre tampoco le gusta su trabajo. Su hermana, como Carlos, también le parece mal la profesión.'
+      },
+      {
+        text: '¿Con qué excusa cuelga Pepa el teléfono a su madre?',
+        options: ['"Tengo que dormir"', '"Están llamando a la puerta"', '"Me queda poca batería"', '"Albert me necesita"'],
+        correct: 1,
+        explanation: 'Pepa dice: "Están llamando a la puerta. Tengo que colgar." y cuelga.'
+      },
+      {
+        text: '¿Qué dice Albert sobre la gente que trabaja con cadáveres?',
+        options: ['"Es un trabajo muy duro emocionalmente"', '"La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan."', '"Es mejor no hablar del tema"', '"Prefiero no pensar en ello"'],
+        correct: 1,
+        explanation: 'Albert sonríe y explica: "La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan." (porque están muertos).'
+      },
+      {
+        text: '¿Qué hay en la nevera de Pepa cuando Albert tiene hambre?',
+        options: ['Restos de la cena de ayer', 'Solo cerveza, no hay comida', 'Fruta y queso', 'Nada, está completamente vacía'],
+        correct: 1,
+        explanation: 'Albert abre la nevera y dice: "Solo hay cerveza. No hay comida."'
+      },
+      {
+        text: '¿Dónde dice Pepa que están las galletas?',
+        options: ['En el armario del salón', 'En el primer cajón, al lado del lavavajillas', 'En la despensa', 'Encima de la nevera'],
+        correct: 1,
+        explanation: 'Pepa dice: "Tengo galletas. ¿Te gustan? Están en el primer cajón, al lado del lavavajillas."'
+      },
+      {
+        text: '¿Qué encuentra Albert en la caja de galletas?',
+        options: ['Galletas Birba normales', 'Un polvo blanco misterioso', 'Dinero en billetes', 'Un mensaje de Carlos'],
+        correct: 1,
+        explanation: 'Albert dice: "Pepa, en la caja no hay galletas. Hay un polvo blanco… ¿Qué es? ¿Harina?"'
+      },
+      {
+        text: '¿Qué concluye Pepa al ver el polvo blanco en la caja?',
+        options: ['"Carlos guardó harina aquí"', '"Creo que tenemos las cenizas."', '"Tenemos que llamar a Raúl ahora mismo"', '"Carlos era también un narco"'],
+        correct: 1,
+        explanation: 'Pepa exclama "¡El gilipollas de Carlos!" y concluye: "Sí, esto… Ahora lo explico todo. Creo que tenemos las cenizas."'
       }
     ]
   },
