@@ -17860,6 +17860,95 @@ Albert abre la nevera.
           { name: 'Грамматика', exercises: ['ex-17-12-3-2'] },
           { name: 'Перевод', exercises: ['ex-17-12-3-3'] }
         ]
+      },
+      {
+        tab: 'Capítulo 4',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-4-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-4-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-4-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-4-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 5',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-5-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-5-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-5-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-5-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 6',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-6-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-6-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-6-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-6-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 7',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-7-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-7-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-7-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-7-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 8',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-8-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-8-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-8-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-8-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 9',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-9-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-9-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-9-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-9-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 10',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-10-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-10-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-10-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-10-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 11',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-11-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-11-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-11-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-11-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 12',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-12-12-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-12-12-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-12-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-12-3'] }
+        ]
+      },
+      {
+        tab: 'Capítulo 13',
+        subtabs: [
+          { name: 'Понимание текста', exercises: ['ex-17-12-13-1'] },
+          { name: 'Грамматика', exercises: ['ex-17-12-13-2'] },
+          { name: 'Перевод', exercises: ['ex-17-12-13-3'] }
+        ]
       }
     ]
   },
@@ -46254,6 +46343,454 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Журналистка чувствовала облегчение.', correct: 'La periodista sentía alivio.', alternatives: ['La periodista sintió alivio.'] },
       { russian: 'Виновный был приговорён к тюрьме.', correct: 'El culpable fue condenado a la cárcel.', alternatives: ['El culpable fue enviado a la cárcel.'] },
       { russian: 'История закончилась справедливо.', correct: 'La historia terminó de forma justa.', alternatives: ['La historia terminó justamente.'] }
+    ]
+  },
+
+  'ex-17-12-9-vocab': {
+    id: 'ex-17-12-9-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 9',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'el colocón', options: ['похмелье', 'обдолбанный (состояние от наркотиков)', 'усталость', 'головная боль'], correct: 1 },
+      { spanish: 'el estriper', options: ['официант', 'охранник', 'стриптизёр', 'таксист'], correct: 2 },
+      { spanish: 'desnudarse', options: ['одеваться', 'раздеваться', 'мыться', 'причёсываться'], correct: 1 },
+      { spanish: 'la documentación', options: ['ключ', 'сумка', 'документы', 'паспорт'], correct: 2 },
+      { spanish: 'el recepcionista', options: ['горничная', 'охранник', 'консьерж, администратор', 'директор'], correct: 2 },
+      { spanish: 'registrar', options: ['проверять', 'регистрировать', 'искать', 'открывать'], correct: 1 }
+    ]
+  },
+
+  'ex-17-12-9-1': {
+    id: 'ex-17-12-9-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 9',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Por qué no aceptan a Albert en el hotel?',
+        options: ['Porque no tiene dinero', 'Porque no tiene documentación y empieza a desnudarse', 'Porque el hotel está lleno', 'Porque habla en inglés'],
+        correct: 1,
+        explanation: 'El recepcionista les echa porque Albert no tiene documentación y empieza a desnudarse.'
+      },
+      {
+        text: '¿Qué sugiere Raúl cuando no pueden entrar en el hotel?',
+        options: ['Buscar otro hotel', 'Llamar a la policía', 'Llevar a Albert a casa de Pepa', 'Quedarse en la calle'],
+        correct: 2,
+        explanation: 'Raúl sugiere llevar a Albert a casa de Pepa.'
+      },
+      {
+        text: '¿Qué va a hacer Raúl después?',
+        options: ['Acompañar a Pepa a casa', 'Dar una vuelta y ver a sus colegas', 'Llamar a la policía', 'Ir a buscar el maletín'],
+        correct: 1,
+        explanation: 'Raúl dice que va a dar una vuelta y ver a sus colegas.'
+      }
+    ]
+  },
+
+  'ex-17-12-9-2': {
+    id: 'ex-17-12-9-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 9 - Verbos reflexivos',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        text: 'Albert empieza a _____ en el vestíbulo del hotel. (desnudarse)',
+        options: ['desnuda', 'desnudarse', 'se desnuda', 'desnudándose'],
+        correct: 2,
+        explanation: 'Presente de Indicativo, reflexivo: se desnuda - Albert начинает раздеваться'
+      },
+      {
+        text: 'Pepa _____ a Albert de allí rápidamente. (sacar)',
+        options: ['saca', 'sale', 'lleva', 'trae'],
+        correct: 0,
+        explanation: 'Presente: saca - Пепа вытаскивает Альберта оттуда'
+      },
+      {
+        text: 'Sin pasta no _____ hacer nada. (poder)',
+        options: ['puede', 'puede se', 'se puede', 'pueda'],
+        correct: 2,
+        explanation: 'se puede - безличная конструкция: нельзя, невозможно'
+      },
+      {
+        text: 'Albert _____ continuamente los brazos y las piernas. (mover)',
+        options: ['mueve', 'mover', 'moviendo', 'mueva'],
+        correct: 0,
+        explanation: 'Presente: mueve - Albert постоянно двигает руками и ногами'
+      }
+    ]
+  },
+
+  'ex-17-12-9-3': {
+    id: 'ex-17-12-9-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 9',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Администратор просит документы.', correct: 'El recepcionista pide la documentación.', alternatives: ['El recepcionista pide los documentos.'] },
+      { russian: 'Альберт начинает раздеваться.', correct: 'Albert empieza a desnudarse.', alternatives: ['Albert comienza a quitarse la ropa.'] },
+      { russian: 'Без документов мы никуда не можем пойти.', correct: 'Sin documentación no podemos ir a ningún sitio.', alternatives: ['Sin documentos no podemos ir a ningún lado.'] },
+      { russian: 'Пепа выводит Альберта на улицу.', correct: 'Pepa saca a Albert a la calle.', alternatives: ['Pepa lleva a Albert a la calle.'] }
+    ]
+  },
+
+  'ex-17-12-10-vocab': {
+    id: 'ex-17-12-10-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 10',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la haka maorí', options: ['гавайский танец', 'маорийская хака — ритуальный танец', 'фламенко', 'самба'], correct: 1 },
+      { spanish: 'el pijo', options: ['друг', 'пижон, снобистский человек', 'тупица', 'весельчак'], correct: 1 },
+      { spanish: 'estar confuso', options: ['быть злым', 'быть грустным', 'быть в замешательстве', 'быть счастливым'], correct: 2 },
+      { spanish: 'amanecer', options: ['темнеть', 'рассветать', 'ночевать', 'уставать'], correct: 1 },
+      { spanish: 'la terraza', options: ['кухня', 'ванная комната', 'терраса, балкон', 'гостиная'], correct: 2 },
+      { spanish: 'el ascensor', options: ['лестница', 'лифт', 'коридор', 'вход'], correct: 1 }
+    ]
+  },
+
+  'ex-17-12-10-1': {
+    id: 'ex-17-12-10-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 10',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace Albert en la terraza de Pepa?',
+        options: ['Duerme', 'Se quita la ropa y baila la haka', 'Fuma un cigarrillo', 'Habla por teléfono'],
+        correct: 1,
+        explanation: 'Albert sale a la terraza, se quita toda la ropa y baila una versión de la haka.'
+      },
+      {
+        text: '¿Por qué Pepa mete a Albert en el ascensor?',
+        options: ['Porque está cansado', 'Porque ve a Carlos llegando a casa', 'Porque quiere que se duche', 'Porque hace frío'],
+        correct: 1,
+        explanation: 'Pepa ve a Carlos llegando del parking y quiere ocultarle a Albert.'
+      },
+      {
+        text: '¿Qué lleva Raúl cuando llega a casa de Pepa?',
+        options: ['Una botella de vino', 'El maletín de Albert', 'Ropa para Albert', 'Las llaves del coche'],
+        correct: 1,
+        explanation: 'Raúl llega con el maletín de Albert, que contiene harina.'
+      },
+      {
+        text: '¿Por qué Albert estaba tan preocupado por el maletín?',
+        options: ['Porque llevaba dinero', 'Porque llevaba droga', 'Porque Raúl quería saber qué contenía', 'Porque era un regalo'],
+        correct: 2,
+        explanation: 'Raúl quería entender por qué Albert estaba tan preocupado por unos gramos de harina.'
+      }
+    ]
+  },
+
+  'ex-17-12-10-2': {
+    id: 'ex-17-12-10-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 10 - Pretérito Perfecto',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        text: 'Pepa _____ a Carlos en el parking. (ver)',
+        options: ['vio', 'ha visto', 'veía', 'verá'],
+        correct: 0,
+        explanation: 'Pretérito Indefinido: vio - конкретный момент в прошлом'
+      },
+      {
+        text: 'Carlos _____ muy ocupado todo el día. (estar)',
+        options: ['está', 'ha estado', 'estará', 'estuvo'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto: ha estado - связан с настоящим ("hoy")'
+      },
+      {
+        text: 'Albert _____ toda la ropa a la calle. (tirar)',
+        options: ['tira', 'tiró', 'ha tirado', 'tirará'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: tiró - конкретное прошлое действие'
+      },
+      {
+        text: 'Pepa _____ una sábana del armario. (coger)',
+        options: ['cogía', 'coge', 'cogió', 'ha cogido'],
+        correct: 2,
+        explanation: 'Pretérito Indefinido: cogió - последовательность прошлых действий'
+      }
+    ]
+  },
+
+  'ex-17-12-10-3': {
+    id: 'ex-17-12-10-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 10',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Альберт вышел на террасу и снял всю одежду.', correct: 'Albert salió a la terraza y se quitó toda la ropa.', alternatives: ['Albert fue a la terraza y se desnudó.'] },
+      { russian: 'Пепа завернула Альберта в простыню.', correct: 'Pepa envolvió a Albert con una sábana.', alternatives: ['Pepa cubrió a Albert con una sábana.'] },
+      { russian: 'Карлос всегда поднимается пешком.', correct: 'Carlos siempre sube a pie.', alternatives: ['Carlos siempre sube andando.'] },
+      { russian: 'Он был в замешательстве, но уже приходил в себя.', correct: 'Estaba confuso pero ya se le iban pasando los efectos.', alternatives: ['Estaba confuso pero se recuperaba.'] }
+    ]
+  },
+
+  'ex-17-12-11-vocab': {
+    id: 'ex-17-12-11-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 11',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'coger el avión', options: ['пропустить самолёт', 'сесть на самолёт', 'купить билет', 'приземлиться'], correct: 1 },
+      { spanish: 'joder', options: ['привет', 'пожалуйста', 'чёрт (грубое восклицание)', 'спокойно'], correct: 2 },
+      { spanish: 'el cajón', options: ['шкаф', 'ящик (стола)', 'сундук', 'полка'], correct: 1 },
+      { spanish: 'enfadado', options: ['счастливый', 'грустный', 'злой, сердитый', 'удивлённый'], correct: 2 },
+      { spanish: 'gritar', options: ['шептать', 'говорить', 'кричать', 'петь'], correct: 2 },
+      { spanish: 'el cigarrillo', options: ['трубка', 'сигара', 'сигарета', 'зажигалка'], correct: 2 }
+    ]
+  },
+
+  'ex-17-12-11-1': {
+    id: 'ex-17-12-11-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 11',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué busca Carlos en su bolsa de viaje?',
+        options: ['Su pasaporte', 'Una caja de galletas Birba', 'Sus llaves', 'Su teléfono móvil'],
+        correct: 1,
+        explanation: 'Carlos busca desesperadamente una caja (de galletas Birba) que tenía en su bolsa de viaje.'
+      },
+      {
+        text: '¿Dónde estaba la caja?',
+        options: ['En la terraza', 'En el dormitorio', 'En el cajón de la cocina', 'En el coche'],
+        correct: 2,
+        explanation: 'Pepa había guardado la caja en el cajón de la cocina.'
+      },
+      {
+        text: '¿Cómo se va Carlos al final del capítulo?',
+        options: ['Con un abrazo y promesas de llamar', 'Sin decir ni una palabra', 'Llorando', 'Dando explicaciones'],
+        correct: 1,
+        explanation: 'Carlos coge la caja, la mete en su bolsa y sale sin decir ni una palabra.'
+      }
+    ]
+  },
+
+  'ex-17-12-11-2': {
+    id: 'ex-17-12-11-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 11 - Imperativo',
+    description: 'Выберите правильную форму Imperativo (tú)',
+    questions: [
+      {
+        text: '¡_____ la caja ahora mismo! (dar)',
+        options: ['da', 'das', 'des', 'dé'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú: da (dar)'
+      },
+      {
+        text: '¡_____ tranquilo, Carlos! (estar)',
+        options: ['estés', 'está', 'estás', 'estar'],
+        correct: 1,
+        explanation: 'Imperativo afirmativo tú: está (estar)'
+      },
+      {
+        text: '¡No _____ así! (ponerse)',
+        options: ['ponte', 'te pones', 'te pongas', 'pongas'],
+        correct: 2,
+        explanation: 'Imperativo negativo tú: no te pongas (ponerse)'
+      },
+      {
+        text: '¡_____ al avión o lo pierdes! (coger)',
+        options: ['coge', 'coges', 'cojas', 'cogiendo'],
+        correct: 0,
+        explanation: 'Imperativo afirmativo tú: coge (coger)'
+      }
+    ]
+  },
+
+  'ex-17-12-11-3': {
+    id: 'ex-17-12-11-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 11',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Карлос был очень злой.', correct: 'Carlos estaba muy enfadado.', alternatives: ['Carlos estaba furioso.'] },
+      { russian: 'Пепа дала ему коробку из кухонного ящика.', correct: 'Pepa le dio la caja del cajón de la cocina.', alternatives: ['Pepa sacó la caja del cajón y se la dio.'] },
+      { russian: 'Карлос ушёл, не сказав ни слова.', correct: 'Carlos se fue sin decir ni una palabra.', alternatives: ['Carlos salió sin decir nada.'] },
+      { russian: 'Ему нужно успеть на самолёт в шесть.', correct: 'Tiene que coger el avión de las seis.', alternatives: ['Tiene que tomar el avión a las seis.'] }
+    ]
+  },
+
+  'ex-17-12-12-vocab': {
+    id: 'ex-17-12-12-vocab',
+    type: 'vocabulary',
+    title: 'Словарь: Capítulo 12',
+    description: 'Выберите правильный перевод слова',
+    questions: [
+      { spanish: 'la funeraria', options: ['больница', 'ресторан', 'бюро похоронных услуг', 'банк'], correct: 2 },
+      { spanish: 'la sucursal', options: ['склад', 'завод', 'офис', 'филиал, дочернее предприятие'], correct: 3 },
+      { spanish: 'asociarse', options: ['расставаться', 'бороться', 'объединяться, создавать партнёрство', 'конкурировать'], correct: 2 },
+      { spanish: 'las piedras preciosas', options: ['простые камни', 'строительные материалы', 'драгоценные камни', 'минералы'], correct: 2 },
+      { spanish: 'dar el cambiazo', options: ['менять деньги', 'делать подмену', 'менять цену', 'переодеваться'], correct: 1 },
+      { spanish: 'las cenizas', options: ['кости', 'пепел, зола', 'кровь', 'пыль'], correct: 1 }
+    ]
+  },
+
+  'ex-17-12-12-1': {
+    id: 'ex-17-12-12-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 12',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué había realmente en el maletín de Albert?',
+        options: ['Cocaína', 'Dinero', 'Cenizas de cadáveres incinerados', 'Documentos importantes'],
+        correct: 2,
+        explanation: 'El maletín contenía cenizas de cadáveres incinerados, no cocaína ni dinero.'
+      },
+      {
+        text: '¿Para qué servían las cenizas?',
+        options: ['Para hacer abonos', 'Para convertirlas en diamantes', 'Para experimentos médicos', 'Para venderlas como droga'],
+        correct: 1,
+        explanation: 'Un químico holandés descubrió que con las cenizas se podían hacer diamantes.'
+      },
+      {
+        text: '¿Quién cambió el maletín de Albert?',
+        options: ['Raúl', 'Carlos', 'Un abogado español', 'El químico holandés'],
+        correct: 2,
+        explanation: 'El abogado español cambió el maletín de Albert por uno lleno de harina en el hotel de Castelldefels.'
+      },
+      {
+        text: '¿Dónde vive Albert mientras está en Barcelona?',
+        options: ['En un hotel', 'En casa de Raúl', 'En casa de Pepa', 'En un apartamento alquilado'],
+        correct: 2,
+        explanation: 'Albert se queda unos días en la casa de Pepa para conocer la ciudad.'
+      }
+    ]
+  },
+
+  'ex-17-12-12-2': {
+    id: 'ex-17-12-12-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 12 - Pretérito Pluscuamperfecto',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        text: 'El abogado _____ el maletín en el hotel. (cambiar)',
+        options: ['cambió', 'había cambiado', 'ha cambiado', 'cambiaba'],
+        correct: 1,
+        explanation: 'Pretérito Pluscuamperfecto: había cambiado - действие произошло раньше другого прошлого действия'
+      },
+      {
+        text: 'Los dos químicos _____ juntos antes de separarse. (trabajar)',
+        options: ['trabajaron', 'habían trabajado', 'trabajaban', 'han trabajado'],
+        correct: 1,
+        explanation: 'Pluscuamperfecto: habían trabajado - до момента рассказа'
+      },
+      {
+        text: 'Albert _____ una sucursal en Holanda. (abrir)',
+        options: ['abrió', 'había abierto', 'abría', 'ha abierto'],
+        correct: 0,
+        explanation: 'Pretérito Indefinido: abrió - конкретное прошлое действие в рассказе'
+      },
+      {
+        text: 'Pepa y Albert _____ muy amigos en esos días. (hacerse)',
+        options: ['se hacían', 'se hicieron', 'se habían hecho', 'se han hecho'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: se hicieron - завершённое изменение состояния в прошлом'
+      }
+    ]
+  },
+
+  'ex-17-12-12-3': {
+    id: 'ex-17-12-12-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 12',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'В чемодане были пепел, а не кокаин.', correct: 'En el maletín había cenizas, no cocaína.', alternatives: ['El maletín contenía cenizas, no coca.'] },
+      { russian: 'Адвокат подменил чемодан в отеле.', correct: 'El abogado cambió el maletín en el hotel.', alternatives: ['El abogado le dio el cambiazo en el hotel.'] },
+      { russian: 'Из пепла можно делать бриллианты.', correct: 'Con las cenizas se pueden hacer diamantes.', alternatives: ['De las cenizas se podían hacer diamantes.'] },
+      { russian: 'Альберт хочет остаться в Барселоне на несколько дней.', correct: 'Albert quiere quedarse unos días en Barcelona.', alternatives: ['Albert se queda unos días en Barcelona.'] }
+    ]
+  },
+
+  'ex-17-12-13-1': {
+    id: 'ex-17-12-13-1',
+    type: 'reading',
+    title: 'Понимание текста: Capítulo 13',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cómo se llama el abogado que robó el maletín?',
+        options: ['Carlos Martínez', 'Roberto Alcázar', 'Alberto García', 'Juan Pérez'],
+        correct: 1,
+        explanation: 'Albert revela que el abogado se llama Roberto Alcázar.'
+      },
+      {
+        text: '¿Quién llama a Pepa por teléfono?',
+        options: ['Carlos', 'Raúl', 'Su madre', 'El abogado'],
+        correct: 2,
+        explanation: 'Es su madre quien llama, queriendo saber si Pepa puede acompañarla al dentista.'
+      },
+      {
+        text: '¿Qué opina Albert del trabajo de taxista?',
+        options: ['Que es peligroso', 'Que no paga bien', 'Que es un buen trabajo y debe ser divertido', 'Que es aburrido'],
+        correct: 2,
+        explanation: 'Albert dice que conoces gente, lugares... que debe ser divertido.'
+      },
+      {
+        text: '¿Qué siente Pepa por Albert al final?',
+        options: ['No le gusta nada', 'Le gusta menos que Carlos', 'Le gusta más que Carlos', 'Es indiferente'],
+        correct: 2,
+        explanation: 'Pepa piensa en Carlos pero reconoce que Albert le gusta más.'
+      }
+    ]
+  },
+
+  'ex-17-12-13-2': {
+    id: 'ex-17-12-13-2',
+    type: 'grammar',
+    title: 'Грамматика: Capítulo 13 - Condicional e Indicativo',
+    description: 'Выберите правильную форму глагола',
+    questions: [
+      {
+        text: '¿Te _____ más despacio? (gustar)',
+        options: ['gusta', 'gustaría', 'gustaba', 'gustará'],
+        correct: 1,
+        explanation: 'Condicional: gustaría - вежливый вопрос или предположение'
+      },
+      {
+        text: 'Su madre quiere saber si _____ acompañarla al dentista. (poder)',
+        options: ['puede', 'podía', 'pueda', 'podría'],
+        correct: 0,
+        explanation: 'Indicativo Presente: puede - косвенный вопрос в зависимости от "saber si"'
+      },
+      {
+        text: 'Carlos le _____ desde que se fue. (no llamar)',
+        options: ['no llama', 'no ha llamado', 'no llamó', 'no llamaba'],
+        correct: 1,
+        explanation: 'Pretérito Perfecto: no ha llamado - результат ощущается в настоящем'
+      },
+      {
+        text: 'Mis clientes nunca _____ (quejarse)',
+        options: ['se quejan', 'se quejaron', 'se quejarán', 'se han quejado'],
+        correct: 0,
+        explanation: 'Presente de Indicativo: se quejan - habitual truth (клиенты Альберта — покойники)'
+      }
+    ]
+  },
+
+  'ex-17-12-13-3': {
+    id: 'ex-17-12-13-3',
+    type: 'translation',
+    title: 'Перевод: Capítulo 13',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Адвоката зовут Роберто Алькасар.', correct: 'El abogado se llama Roberto Alcázar.', alternatives: ['El abogado se llama Roberto Alcázar.'] },
+      { russian: 'Карлос не звонил ей с тех пор, как уехал.', correct: 'Carlos no la ha llamado desde que se fue.', alternatives: ['Carlos no ha llamado desde que se marchó.'] },
+      { russian: 'Мои клиенты никогда не жалуются.', correct: 'Mis clientes nunca se quejan.', alternatives: ['Mis clientes no se quejan nunca.'] },
+      { russian: 'Альберт ей нравится больше, чем Карлос.', correct: 'Albert le gusta más que Carlos.', alternatives: ['Pepa prefiere a Albert que a Carlos.'] }
     ]
   }
 }
