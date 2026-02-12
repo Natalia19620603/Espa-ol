@@ -45498,16 +45498,46 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-1-vocab': {
     id: 'ex-17-12-1-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 1',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'las cenizas', options: ['снег', 'пыль', 'пепел, зола', 'туман'], correct: 2 },
-      { spanish: 'caliente', options: ['холодный', 'влажный', 'горячий, тёплый', 'мокрый'], correct: 2 },
-      { spanish: 'la periodista', options: ['учительница', 'врач', 'певица', 'журналистка'], correct: 3 },
-      { spanish: 'exigente', options: ['добрый', 'слабый', 'ленивый', 'требовательный, придирчивый'], correct: 3 },
-      { spanish: 'invertir', options: ['тратить', 'вкладывать, инвестировать', 'терять', 'искать'], correct: 1 },
-      { spanish: 'los ahorros', options: ['долги', 'налоги', 'сбережения, накопления', 'штрафы'], correct: 2 }
+      {
+        sentence: 'Después del incendio, solo quedaban _____ grises en la chimenea fría.',
+        options: ['las cenizas (пепел, зола)', 'las nubes', 'los ahorros', 'los frenos'],
+        correct: 0,
+        explanation: 'Las cenizas = пепел, зола — то, что остаётся после сгорания'
+      },
+      {
+        sentence: 'Ten cuidado, el café todavía está muy _____ y te puedes quemar la lengua.',
+        options: ['frío', 'libre', 'oscuro', 'caliente (горячий, тёплый)'],
+        correct: 3,
+        explanation: 'Caliente = горячий, тёплый — о температуре'
+      },
+      {
+        sentence: 'La _____ investigó durante meses el caso de corrupción y publicó un reportaje explosivo.',
+        options: ['abogada', 'periodista (журналистка)', 'taxista', 'recepcionista'],
+        correct: 1,
+        explanation: 'La periodista = журналистка — профессия в СМИ'
+      },
+      {
+        sentence: 'Mi jefe es muy _____ : nunca está satisfecho con el trabajo y siempre pide más.',
+        options: ['tranquilo', 'libre', 'exigente (требовательный, придирчивый)', 'sorprendido'],
+        correct: 2,
+        explanation: 'Exigente = требовательный, придирчивый — о характере человека'
+      },
+      {
+        sentence: 'Es inteligente _____ parte del sueldo en un plan de pensiones para el futuro.',
+        options: ['escapar', 'invertir (вкладывать, инвестировать)', 'deber', 'gritar'],
+        correct: 1,
+        explanation: 'Invertir = вкладывать, инвестировать — вкладывать деньги с целью получить прибыль'
+      },
+      {
+        sentence: 'Gracias a _____ de toda su vida laboral, pudo comprarse un apartamento sin pedir crédito.',
+        options: ['las amenazas', 'las deudas', 'los misterios', 'los ahorros (сбережения, накопления)'],
+        correct: 3,
+        explanation: 'Los ahorros = сбережения, накопления — деньги, отложенные на будущее'
+      }
     ]
   },
 
@@ -45558,46 +45588,17 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-1-2': {
     id: 'ex-17-12-1-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 1 - Pretérito Indefinido',
-    description: 'Выберите правильную форму глагола в Pretérito Indefinido',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 1',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Pepa _____ con Carlos esta mañana. (discutir)',
-        options: ['discutía', 'discutió', 'ha discutido', 'discutirá'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: discutió - конкретное завершённое действие'
-      },
-      {
-        text: 'Carlos _____ que se iba a Madrid. (decir)',
-        options: ['decía', 'dijo', 'ha dicho', 'dirá'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: dijo (неправильный глагол decir)'
-      },
-      {
-        text: 'Pepa _____ el carné de conductor profesional. (sacar)',
-        options: ['sacaba', 'sacó', 'ha sacado', 'sacará'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: sacó - завершённое действие в прошлом'
-      },
-      {
-        text: 'Pepa _____ su Skoda Octavia hace unos años. (comprar)',
-        options: ['compraba', 'compró', 'ha comprado', 'comprará'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: compró - конкретное прошлое действие'
-      },
-      {
-        text: 'Carlos _____ al reloj y se fue. (mirar)',
-        options: ['miraba', 'miró', 'ha mirado', 'mirará'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: miró - конкретный момент'
-      },
-      {
-        text: 'Carlos y Pepa _____ durante casi una hora. (discutir)',
-        options: ['discutían', 'discutieron', 'han discutido', 'discutirán'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: discutieron - завершённое действие'
-      }
+      { sentence: 'Pepa _____ con Carlos esta mañana y él se marchó sin decir nada. (discutir)', correct: 'discutió' },
+      { sentence: 'Carlos _____ que tenía un negocio importante en Madrid y que se iba al día siguiente. (decir)', correct: 'dijo' },
+      { sentence: 'Pepa _____ el carné de conductor profesional después de dejar su trabajo en la empresa. (sacar)', correct: 'sacó' },
+      { sentence: 'Pepa _____ su Skoda Octavia hace unos años porque necesitaba un coche resistente. (comprar)', correct: 'compró' },
+      { sentence: 'Carlos _____ al reloj, cogió su bolsa y salió por la puerta sin mirar atrás. (mirar)', correct: 'miró' },
+      { sentence: 'Carlos y Pepa _____ durante casi una hora sobre su futuro juntos. (discutir)', correct: 'discutieron' }
     ]
   },
 
@@ -45608,31 +45609,81 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Пепа поссорилась с Карлосом этим утром.', correct: 'Pepa discutió con Carlos esta mañana.', alternatives: ['Pepa se peleó con Carlos esta mañana.'] },
-      { russian: 'Карлос объявил, что уезжает в Мадрид.', correct: 'Carlos anunció que se iba a Madrid.', alternatives: ['Carlos dijo que se iba a Madrid.'] },
-      { russian: 'Пепа решила стать таксистом.', correct: 'Pepa decidió hacerse taxista.', alternatives: ['Pepa decidió ser taxista.'] },
-      { russian: 'Они почти год жили вместе.', correct: 'Llevaban casi un año viviendo juntos.', alternatives: ['Vivían juntos casi un año.'] },
-      { russian: 'Карлосу не нравилась её работа.', correct: 'A Carlos no le gustaba su trabajo.', alternatives: ['A Carlos no le gustaba que Pepa fuera taxista.'] },
-      { russian: 'Пепа была в очень плохом настроении.', correct: 'Pepa estaba de muy mal humor.', alternatives: ['Pepa tenía muy mal humor.'] }
+      { russian: 'Этим утром Пепа поссорилась с Карлосом из-за его внезапного отъезда в Мадрид.', correct: 'Esta mañana Pepa discutió con Carlos por su repentina marcha a Madrid.', alternatives: ['Pepa se peleó con Carlos esta mañana por su viaje a Madrid.'] },
+      { russian: 'Карлос объявил, что у него есть важное дело в Мадриде и что он уезжает уже завтра.', correct: 'Carlos anunció que tenía un negocio importante en Madrid y que se iba al día siguiente.', alternatives: ['Carlos dijo que tenía un negocio en Madrid y que se marchaba mañana.'] },
+      { russian: 'После того как потеряла стабильную работу, Пепа решила получить права профессионального водителя.', correct: 'Después de perder su trabajo estable, Pepa decidió sacar el carné de conductor profesional.', alternatives: ['Tras quedarse sin trabajo, Pepa decidió hacerse taxista.'] },
+      { russian: 'Они почти год жили вместе, но никогда не разговаривали о совместном будущем.', correct: 'Llevaban casi un año viviendo juntos pero nunca hablaban sobre su futuro en común.', alternatives: ['Vivían juntos casi un año pero no hablaban de su futuro.'] },
+      { russian: 'Карлосу никогда не нравилась её работа таксистом — он считал её слишком опасной.', correct: 'A Carlos nunca le había gustado su trabajo de taxista porque lo consideraba demasiado peligroso.', alternatives: ['A Carlos no le gustaba que Pepa fuera taxista porque era peligroso.'] },
+      { russian: 'Пепа была в очень плохом настроении весь день после той ужасной ссоры.', correct: 'Pepa estuvo de muy mal humor todo el día después de aquella terrible discusión.', alternatives: ['Pepa tenía muy mal humor todo el día tras la pelea.'] }
     ]
   },
 
   'ex-17-12-2-vocab': {
     id: 'ex-17-12-2-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 2',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'el accidente', options: ['праздник', 'встреча', 'авария, несчастный случай', 'урок'], correct: 2 },
-      { spanish: 'destrozado', options: ['новый', 'чистый', 'целый', 'разбитый, уничтоженный'], correct: 3 },
-      { spanish: 'el freno', options: ['двигатель', 'колесо', 'тормоз', 'руль'], correct: 2 },
-      { spanish: 'herir', options: ['лечить', 'помогать', 'ранить, оскорблять', 'чинить'], correct: 2 },
-      { spanish: 'el anticipo', options: ['скидка', 'долг', 'штраф', 'аванс, задаток'], correct: 3 },
-      { spanish: 'obedecer', options: ['командовать', 'игнорировать', 'слушаться, повиноваться', 'отказывать'], correct: 2 },
-      { spanish: 'sorprendido', options: ['обрадованный', 'грустный', 'злой', 'удивлённый'], correct: 3 },
-      { spanish: 'la marcha atrás', options: ['первая передача', 'задний ход', 'нейтральная', 'вторая передача'], correct: 1 },
-      { spanish: 'a todo riesgo', options: ['без страховки', 'страховка от всех рисков', 'налог', 'гарантия'], correct: 1 },
-      { spanish: 'inclinarse', options: ['падать', 'прыгать', 'вставать', 'наклоняться, склоняться'], correct: 3 }
+      {
+        sentence: 'Hubo un grave _____ en la autopista: dos coches chocaron a gran velocidad.',
+        options: ['el accidente (авария, несчастный случай)', 'el negocio', 'el juicio', 'el alivio'],
+        correct: 0,
+        explanation: 'El accidente = авария, несчастный случай'
+      },
+      {
+        sentence: 'Después del choque, el coche quedó completamente _____ : no valía nada.',
+        options: ['libre', 'tranquilo', 'destrozado (разбитый, уничтоженный)', 'sorprendido'],
+        correct: 2,
+        explanation: 'Destrozado = разбитый, уничтоженный — полностью разрушен'
+      },
+      {
+        sentence: 'El conductor pisó _____ a fondo, pero el coche no pudo detenerse a tiempo.',
+        options: ['el freno (тормоз)', 'el anticipo', 'la marcha atrás', 'el tatuaje'],
+        correct: 0,
+        explanation: 'El freno = тормоз — устройство для остановки машины'
+      },
+      {
+        sentence: 'La explosión _____ a varios trabajadores que estaban cerca del edificio.',
+        options: ['sorprendió', 'hirió (ранила)', 'detuvo', 'acusó'],
+        correct: 1,
+        explanation: 'Hirió (herir) = ранила — причинить физический вред'
+      },
+      {
+        sentence: 'El cliente pagó un _____ del veinte por ciento antes de que empezaran las obras.',
+        options: ['la deuda', 'el anticipo (аванс, задаток)', 'el seguro', 'el chantaje'],
+        correct: 1,
+        explanation: 'El anticipo = аванс, задаток — часть оплаты вперёд'
+      },
+      {
+        sentence: 'Los niños deben _____ las normas de la casa si quieren tener más libertad.',
+        options: ['amenazar', 'escapar', 'obedecer (слушаться, повиноваться)', 'gritar'],
+        correct: 2,
+        explanation: 'Obedecer = слушаться, повиноваться — следовать правилам или приказам'
+      },
+      {
+        sentence: 'Pepa estaba _____ al ver que aquel hombre guapísimo se bajaba de un Ferrari rojo.',
+        options: ['culpable', 'sorprendida (удивлённая)', 'libre', 'tranquila'],
+        correct: 1,
+        explanation: 'Sorprendido/a = удивлённый/ая — состояние удивления'
+      },
+      {
+        sentence: 'El conductor metió _____ para aparcar en ese pequeño espacio entre los coches.',
+        options: ['el freno', 'el accidente', 'la marcha atrás (задний ход)', 'el anticipo'],
+        correct: 2,
+        explanation: 'La marcha atrás = задний ход — движение задним ходом'
+      },
+      {
+        sentence: 'Tiene el coche asegurado _____ así que si hay un accidente, el seguro paga todo.',
+        options: ['a todo riesgo (страховка от всех рисков)', 'sin rumbo fijo', 'con chantaje', 'a plazos'],
+        correct: 0,
+        explanation: 'A todo riesgo = страховка от всех рисков — полное страховое покрытие'
+      },
+      {
+        sentence: 'El mecánico se _____ para ver mejor el motor que estaba debajo del capó.',
+        options: ['escapó', 'inclinó (наклонился)', 'registró', 'confesó'],
+        correct: 1,
+        explanation: 'Inclinarse = наклоняться, склоняться — нагнуться вперёд или вниз'
+      }
     ]
   },
 
@@ -45707,70 +45758,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-2-2': {
     id: 'ex-17-12-2-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 2 - Pretérito Imperfecto',
-    description: 'Выберите правильную форму глагола в Pretérito Imperfecto',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 2',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Pepa _____ de muy mal humor cuando conducía. (estar)',
-        options: ['estuvo', 'estaba', 'ha estado', 'estará'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: estaba - описание состояния во время действия'
-      },
-      {
-        text: 'Los dos hombres _____ muy bien vestidos. (ir)',
-        options: ['fueron', 'iban', 'han ido', 'irán'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: iban - описание внешности'
-      },
-      {
-        text: 'El Ferrari _____ matrícula española. (llevar)',
-        options: ['llevó', 'llevaba', 'ha llevado', 'llevará'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: llevaba - описание характеристики'
-      },
-      {
-        text: 'Pepa _____ que Albert se parecía a Brad Pitt. (pensar)',
-        options: ['pensó', 'pensaba', 'ha pensado', 'pensará'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: pensaba - мысль в процессе'
-      },
-      {
-        text: 'El Octavia _____ duro como un tanque. (ser)',
-        options: ['fue', 'era', 'ha sido', 'será'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: era - характеристика предмета'
-      },
-      {
-        text: 'Carlos siempre le _____ que conducir un taxi era peligroso. (decir)',
-        options: ['dijo', 'decía', 'ha dicho', 'dirá'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: decía - регулярное действие в прошлом'
-      },
-      {
-        text: 'Albert _____ un maletín a su lado. (llevar)',
-        options: ['llevó', 'llevaba', 'ha llevado', 'llevará'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: llevaba - описание ситуации'
-      },
-      {
-        text: 'Los dos hombres _____ muy altos. (parecer)',
-        options: ['parecieron', 'parecían', 'han parecido', 'parecerán'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: parecían - описание внешности'
-      },
-      {
-        text: 'Pepa _____ que Carlos tenía algo de razón. (reconocer)',
-        options: ['reconoció', 'reconocía', 'ha reconocido', 'reconocerá'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: reconocía - внутреннее состояние'
-      },
-      {
-        text: 'El Ferrari _____ de alquiler. (ser)',
-        options: ['fue', 'era', 'ha sido', 'será'],
-        correct: 1,
-        explanation: 'Pretérito Imperfecto: era - характеристика'
-      }
+      { sentence: 'Pepa _____ de muy mal humor cuando conducía por las calles de Barcelona. (estar)', correct: 'estaba' },
+      { sentence: 'Los dos hombres _____ muy bien vestidos y parecían importantes. (ir)', correct: 'iban' },
+      { sentence: 'El Ferrari rojo _____ matrícula española aunque los dueños hablaban holandés. (llevar)', correct: 'llevaba' },
+      { sentence: 'Pepa _____ que aquel hombre se parecía a Brad Pitt, pero más elegante. (pensar)', correct: 'pensaba' },
+      { sentence: 'El Octavia _____ duro como un tanque; por eso Pepa lo eligió para trabajar. (ser)', correct: 'era' },
+      { sentence: 'Carlos siempre le _____ que conducir un taxi era un trabajo demasiado peligroso. (decir)', correct: 'decía' },
+      { sentence: 'Albert _____ un maletín negro a su lado que no soltaba en ningún momento. (llevar)', correct: 'llevaba' },
+      { sentence: 'Los dos hombres _____ muy altos y elegantes, completamente fuera de lugar en la calle. (parecer)', correct: 'parecían' },
+      { sentence: 'Pepa _____ que Carlos tenía algo de razón cuando criticaba su trabajo. (reconocer)', correct: 'reconocía' },
+      { sentence: 'El Ferrari _____ de alquiler, aunque eso no lo hacía menos caro de reparar. (ser)', correct: 'era' }
     ]
   },
 
@@ -45781,33 +45783,73 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Пепа врезалась в красный Феррари.', correct: 'Pepa chocó con un Ferrari rojo.', alternatives: ['Pepa chocó contra un Ferrari rojo.'] },
-      { russian: 'Феррари был полностью разбит.', correct: 'El Ferrari estaba completamente destrozado.', alternatives: ['El Ferrari quedó destrozado.'] },
-      { russian: 'Альберт был из Новой Зеландии.', correct: 'Albert era de Nueva Zelanda.', alternatives: ['Albert venía de Nueva Zelanda.'] },
-      { russian: 'Оба мужчины были очень высокими.', correct: 'Los dos hombres eran muy altos.', alternatives: ['Ambos hombres eran muy altos.'] },
-      { russian: 'Альберт нанял Пепу на два дня.', correct: 'Albert contrató a Pepa por dos días.', alternatives: ['Albert quiso contratar a Pepa por dos días.'] },
-      { russian: 'Альберт заплатил тысячу евро авансом.', correct: 'Albert pagó mil euros como anticipo.', alternatives: ['Albert dio mil euros de anticipo.'] },
-      { russian: 'Пепа думала, что Альберт похож на Брэда Питта.', correct: 'Pepa pensaba que Albert se parecía a Brad Pitt.', alternatives: ['Pepa pensó que Albert era como Brad Pitt.'] },
-      { russian: 'Авария произошла на светофоре.', correct: 'El accidente ocurrió en el semáforo.', alternatives: ['El accidente pasó en el semáforo.'] },
-      { russian: 'К счастью, они не пострадали.', correct: 'Afortunadamente, no les había pasado nada.', alternatives: ['Por suerte, no estaban heridos.'] },
-      { russian: 'Альберт нёс с собой портфель.', correct: 'Albert llevaba un maletín.', alternatives: ['Albert tenía un maletín.'] }
+      { russian: 'Когда Пепа проехала на жёлтый свет, она врезалась в припаркованный красный Феррари.', correct: 'Cuando Pepa pasó el semáforo en amarillo, chocó con un Ferrari rojo que estaba aparcado.', alternatives: ['Pepa chocó contra un Ferrari rojo al pasar el semáforo en amarillo.'] },
+      { russian: 'Передняя часть Феррари была полностью разбита — страховка явно не покроет такой ущерб.', correct: 'La parte delantera del Ferrari estaba completamente destrozada; el seguro no cubría un daño así.', alternatives: ['El Ferrari quedó destrozado y el seguro no iba a pagar tanto.'] },
+      { russian: 'Альберт был из Новой Зеландии, хотя говорил на странном языке, который Пепа приняла за немецкий.', correct: 'Albert era de Nueva Zelanda, aunque hablaba una lengua extraña que Pepa tomó por alemán.', alternatives: ['Albert venía de Nueva Zelanda pero hablaba holandés, no alemán.'] },
+      { russian: 'Оба мужчины были очень высокими и одеты в дорогие костюмы, что выглядело странно после аварии.', correct: 'Los dos hombres eran muy altos y llevaban trajes caros, lo que resultaba extraño tras el accidente.', alternatives: ['Ambos hombres eran muy altos y bien vestidos, lo cual parecía raro tras el choque.'] },
+      { russian: 'Пепа была удивлена, когда Альберт предложил нанять её водителем на пару дней за большие деньги.', correct: 'Pepa estaba sorprendida cuando Albert le propuso contratarla de conductora durante un par de días por mucho dinero.', alternatives: ['Pepa se sorprendió cuando Albert quiso contratarla por dos días.'] },
+      { russian: 'Альберт достал из кармана десять купюр по сто евро и отдал их Пепе в качестве аванса.', correct: 'Albert sacó del bolsillo diez billetes de cien euros y se los dio a Pepa como anticipo.', alternatives: ['Albert le dio mil euros de anticipo sacándolos directamente del bolsillo.'] },
+      { russian: 'Пока Пепа вела машину, она думала, что Альберт похож на Брэда Питта, только ещё элегантнее.', correct: 'Mientras Pepa conducía, pensaba que Albert se parecía a Brad Pitt, pero más elegante todavía.', alternatives: ['Pepa pensaba que Albert era como Brad Pitt pero con más estilo.'] },
+      { russian: 'К счастью, ни один из двух мужчин не пострадал — им просто повезло.', correct: 'Afortunadamente, ninguno de los dos hombres estaba herido; simplemente tuvieron suerte.', alternatives: ['Por suerte, no les había pasado nada a los dos hombres.'] },
+      { russian: 'На протяжении всей поездки Альберт держал рядом с собой чёрный портфель, не выпуская его из рук.', correct: 'Durante todo el trayecto Albert llevaba a su lado un maletín negro que no soltaba en ningún momento.', alternatives: ['Albert tenía un maletín negro a su lado y no lo soltaba.'] },
+      { russian: 'Пепа нажала на тормоз изо всех сил, но было уже слишком поздно, чтобы избежать столкновения.', correct: 'Pepa pisó el freno con todas sus fuerzas, pero ya era demasiado tarde para evitar el choque.', alternatives: ['Pepa frenó con fuerza pero no pudo evitar el accidente.'] }
     ]
   },
 
   'ex-17-12-3-vocab': {
     id: 'ex-17-12-3-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 3',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'el vigilante', options: ['водитель', 'охранник, сторож', 'уборщик', 'продавец'], correct: 1 },
-      { spanish: 'el tatuaje', options: ['серьга', 'браслет', 'татуировка', 'кольцо'], correct: 2 },
-      { spanish: 'el ático', options: ['подвал', 'первый этаж', 'мансарда, пентхаус', 'чердак'], correct: 2 },
-      { spanish: 'sin rumbo fijo', options: ['с определённым планом', 'без определённой цели', 'очень быстро', 'медленно'], correct: 1 },
-      { spanish: 'atragantarse', options: ['кашлять', 'чихать', 'поперхнуться', 'зевать'], correct: 2 },
-      { spanish: 'el porro', options: ['сигара', 'трубка', 'сигарета', 'косяк (разг.)'], correct: 3 },
-      { spanish: 'dar un portazo', options: ['открыть дверь', 'закрыть тихо', 'хлопнуть дверью', 'постучать'], correct: 2 },
-      { spanish: 'las patatas bravas', options: ['картошка с кетчупом', 'картошка с острым соусом', 'варёная картошка', 'жареный картофель'], correct: 1 }
+      {
+        sentence: 'El _____ del museo controla la entrada y pide identificación a todas las personas.',
+        options: ['el tatuaje', 'el vigilante (охранник, сторож)', 'el recepcionista', 'el juez'],
+        correct: 1,
+        explanation: 'El vigilante = охранник, сторож — тот, кто охраняет место'
+      },
+      {
+        sentence: 'Raúl tenía un _____ de un dragón en el brazo que se veía cuando llevaba manga corta.',
+        options: ['el tatuaje (татуировка)', 'el porro', 'el ático', 'el cajón'],
+        correct: 0,
+        explanation: 'El tatuaje = татуировка — рисунок на коже'
+      },
+      {
+        sentence: 'Viven en un _____ con vistas increíbles a toda la ciudad y una terraza enorme.',
+        options: ['el ático (мансарда, пентхаус)', 'el callejón', 'el cajón', 'el sótano'],
+        correct: 0,
+        explanation: 'El ático = мансарда, пентхаус — квартира на верхнем этаже'
+      },
+      {
+        sentence: 'Después de la discusión, Pepa salió a caminar _____ por el barrio de Gràcia.',
+        options: ['a todo riesgo', 'sin rumbo fijo (без определённой цели)', 'a plazos', 'de marcha atrás'],
+        correct: 1,
+        explanation: 'Sin rumbo fijo = без определённой цели — без конкретного направления'
+      },
+      {
+        sentence: 'Pepa se _____ con una patata cuando sonó el teléfono y casi tiró el plato.',
+        options: ['sorprendió', 'escapó', 'atragantó (поперхнулась)', 'inclinó'],
+        correct: 2,
+        explanation: 'Atragantarse = поперхнуться — подавиться едой или питьём'
+      },
+      {
+        sentence: 'El médico le dijo que _____ en el parque era muy malo para sus pulmones.',
+        options: ['el porro (косяк, разг.)', 'el freno', 'la deuda', 'el anticipo'],
+        correct: 0,
+        explanation: 'El porro = косяк (разговорное) — самокрутка с марихуаной'
+      },
+      {
+        sentence: 'Carlos se fue muy enfadado y _____ tan fuerte que los vecinos salieron a ver qué pasaba.',
+        options: ['dio un portazo (хлопнул дверью)', 'dio un tatuaje', 'dio un anticipo', 'dio una vuelta'],
+        correct: 0,
+        explanation: 'Dar un portazo = хлопнуть дверью — закрыть дверь с громким стуком от злости'
+      },
+      {
+        sentence: 'En el bar de la esquina piden _____ como aperitivo antes de la paella, con salsa picante.',
+        options: ['las deudas', 'las patatas bravas (картошка с острым соусом)', 'las cenizas', 'las pruebas'],
+        correct: 1,
+        explanation: 'Las patatas bravas = картошка с острым соусом — типичное испанское тапас'
+      }
     ]
   },
 
@@ -45870,58 +45912,19 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-3-2': {
     id: 'ex-17-12-3-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 3 - Pretérito Perfecto',
-    description: 'Выберите правильную форму Pretérito Perfecto',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 3',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Raúl _____ cocaína en el coche de Pepa. (encontrar)',
-        options: ['encontró', 'encontraba', 'ha encontrado', 'encontrará'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha encontrado - недавнее открытие'
-      },
-      {
-        text: 'Albert _____ a Pepa por teléfono hoy. (llamar)',
-        options: ['llamó', 'llamaba', 'ha llamado', 'llamará'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha llamado - действие сегодня'
-      },
-      {
-        text: 'Raúl _____ muchos trabajos en su vida. (tener)',
-        options: ['tuvo', 'tenía', 'ha tenido', 'tendrá'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha tenido - жизненный опыт'
-      },
-      {
-        text: '¿_____ ya el coche, Raúl? (limpiar)',
-        options: ['Limpiaste', 'Limpiabas', 'Has limpiado', 'Limpiarás'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: Has limpiado - вопрос о текущем результате'
-      },
-      {
-        text: 'Pepa _____ sin rumbo por el barrio de Gràcia hoy. (andar)',
-        options: ['anduvo', 'andaba', 'ha andado', 'andará'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha andado - действие сегодня'
-      },
-      {
-        text: 'Carlos _____ unas galletas Birba de Camprodon. (traer)',
-        options: ['trajo', 'traía', 'ha traído', 'traerá'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha traído - результат актуален сейчас'
-      },
-      {
-        text: 'Raúl _____ en la cárcel. (estar)',
-        options: ['estuvo', 'estaba', 'ha estado', 'estará'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha estado - жизненный опыт'
-      },
-      {
-        text: 'Pepa _____ a Albert su número de teléfono. (dar)',
-        options: ['dio', 'daba', 'ha dado', 'dará'],
-        correct: 2,
-        explanation: 'Pretérito Perfecto: ha dado - связь с настоящим'
-      }
+      { sentence: 'Raúl _____ polvo blanco en el asiento trasero del coche de Pepa. (encontrar)', correct: 'ha encontrado' },
+      { sentence: 'Albert _____ a Pepa por teléfono hoy mientras ella comía patatas bravas. (llamar)', correct: 'ha llamado' },
+      { sentence: 'Raúl _____ muchos trabajos distintos en su vida, aunque ninguno demasiado legal. (tener)', correct: 'ha tenido' },
+      { sentence: '¿Ya _____ el coche, Raúl? Pepa necesita usarlo esta tarde. (limpiar)', correct: 'has limpiado' },
+      { sentence: 'Hoy Pepa _____ sin rumbo fijo por el barrio de Gràcia para aclarar sus ideas. (andar)', correct: 'ha andado' },
+      { sentence: 'Carlos _____ unas galletas Birba de Camprodon que están en el cajón de la cocina. (traer)', correct: 'ha traído' },
+      { sentence: 'Raúl _____ en la cárcel alguna vez, pero prefiere no hablar de eso. (estar)', correct: 'ha estado' },
+      { sentence: 'Pepa _____ a Albert su número de teléfono para que pueda llamarla cuando quiera. (dar)', correct: 'ha dado' }
     ]
   },
 
@@ -45932,31 +45935,71 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Рауль нашёл кокаин на заднем сиденье.', correct: 'Raúl ha encontrado cocaína en el asiento trasero.', alternatives: ['Raúl encontró cocaína en el asiento trasero.'] },
-      { russian: 'Альберт позвонил Пепе сегодня.', correct: 'Albert ha llamado a Pepa hoy.', alternatives: ['Albert llamó a Pepa hoy.'] },
-      { russian: 'Рауль провёл время в тюрьме.', correct: 'Raúl ha estado en la cárcel.', alternatives: ['Raúl estuvo en la cárcel.'] },
-      { russian: 'Пепа поперхнулась едой.', correct: 'Pepa se ha atragantado con la comida.', alternatives: ['Pepa se atragantó con la comida.'] },
-      { russian: 'В ящике лежала коробка с галетами Birba.', correct: 'En el cajón había una caja de galletas Birba.', alternatives: ['Había una caja de galletas Birba en el cajón.'] },
-      { russian: 'Пепа хлопнула дверью и вышла на улицу.', correct: 'Pepa dio un portazo y salió a la calle.', alternatives: ['Pepa salió a la calle dando un portazo.'] },
-      { russian: 'Рауль всегда знал много людей.', correct: 'Raúl siempre ha conocido a mucha gente.', alternatives: ['Raúl siempre conoció a mucha gente.'] },
-      { russian: 'Карлос принёс галеты из путешествия.', correct: 'Carlos ha traído galletas de un viaje.', alternatives: ['Carlos trajo galletas de un viaje.'] }
+      { russian: 'Рауль обнаружил на заднем сиденье машины Пепы подозрительный белый порошок.', correct: 'Raúl ha encontrado en el asiento trasero del coche de Pepa un polvo blanco sospechoso.', alternatives: ['Raúl ha encontrado polvo blanco en el asiento trasero del taxi de Pepa.'] },
+      { russian: 'Сегодня Альберт позвонил Пепе прямо в тот момент, когда она ела острую картошку в баре.', correct: 'Hoy Albert ha llamado a Pepa justo cuando ella estaba comiendo patatas bravas en el bar.', alternatives: ['Albert ha llamado a Pepa hoy mientras comía en el bar.'] },
+      { russian: 'Рауль сидел в тюрьме, но никогда не рассказывает об этом — это закрытая тема для него.', correct: 'Raúl ha estado en la cárcel, pero nunca habla de ello porque es un tema cerrado para él.', alternatives: ['Raúl ha estado en la cárcel pero prefiere no hablar de ese periodo de su vida.'] },
+      { russian: 'Когда зазвонил телефон, Пепа поперхнулась картошкой и испачкала рубашку соусом.', correct: 'Cuando sonó el teléfono, Pepa se ha atragantado con la patata y se ha manchado la camisa con la salsa.', alternatives: ['Pepa se atragantó con la patata cuando le llamó Albert y manchó su camisa.'] },
+      { russian: 'В кухонном ящике лежала коробка с каталонским печеньем Birba, которое привёз Карлос.', correct: 'En el cajón de la cocina había una caja de galletas Birba catalanas que había traído Carlos.', alternatives: ['En el cajón de la cocina estaba la caja de galletas Birba que trajo Carlos.'] },
+      { russian: 'Разозлившись, Пепа хлопнула дверью так сильно, что все соседи её услышали.', correct: 'Enfadada, Pepa ha dado un portazo tan fuerte que todos los vecinos la han oído.', alternatives: ['Pepa dio un portazo tan fuerte que toda la escalera lo oyó.'] },
+      { russian: 'За свою жизнь Рауль познакомился с огромным количеством самых разных людей.', correct: 'A lo largo de su vida, Raúl ha conocido a muchísima gente de todo tipo.', alternatives: ['Raúl ha conocido a mucha gente a lo largo de su vida.'] },
+      { russian: 'Карлос привёз из Кампродона свежее печенье Birba, которое всё ещё лежит в ящике.', correct: 'Carlos ha traído galletas Birba frescas de Camprodon y todavía están en el cajón.', alternatives: ['Carlos ha traído galletas de Camprodon que están en el cajón de la cocina.'] }
     ]
   },
 
   'ex-17-12-4-vocab': {
     id: 'ex-17-12-4-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 4',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'el propietario', options: ['арендатор', 'владелец, собственник', 'управляющий', 'сосед'], correct: 1 },
-      { spanish: 'el seguro', options: ['опасный', 'страховка; безопасный', 'долг', 'налог'], correct: 1 },
-      { spanish: 'la deuda', options: ['прибыль', 'налог', 'долг', 'зарплата'], correct: 2 },
-      { spanish: 'deber', options: ['получать', 'зарабатывать', 'тратить', 'быть должным'], correct: 3 },
-      { spanish: 'la amenaza', options: ['обещание', 'угроза', 'просьба', 'вопрос'], correct: 1 },
-      { spanish: 'amenazar', options: ['просить', 'угрожать', 'требовать', 'предлагать'], correct: 1 },
-      { spanish: 'el chantaje', options: ['обман', 'кража', 'шантаж', 'мошенничество'], correct: 2 },
-      { spanish: 'el negocio', options: ['хобби', 'бизнес, дело', 'учёба', 'отдых'], correct: 1 }
+      {
+        sentence: 'El _____ del edificio se negó a devolver la fianza sin ninguna razón válida.',
+        options: ['el arrendatario', 'el propietario (владелец, собственник)', 'el vigilante', 'el fiscal'],
+        correct: 1,
+        explanation: 'El propietario = владелец, собственник — тот, кому принадлежит имущество'
+      },
+      {
+        sentence: 'Gracias al _____ del coche, no tuvimos que pagar nada después del accidente.',
+        options: ['el seguro (страховка; безопасный)', 'la amenaza', 'el chantaje', 'la deuda'],
+        correct: 0,
+        explanation: 'El seguro = страховка — договор о компенсации ущерба'
+      },
+      {
+        sentence: 'Tiene tantas _____ que no puede pagar el alquiler ni comprar comida.',
+        options: ['las recompensas', 'las libertades', 'las deudas (долги)', 'las pruebas'],
+        correct: 2,
+        explanation: 'La deuda = долг — деньги, которые нужно вернуть'
+      },
+      {
+        sentence: 'El banco le _____ más de cien mil euros que tiene que devolver en diez años.',
+        options: ['debe (должен)', 'escapa', 'amenaza', 'confiesa'],
+        correct: 0,
+        explanation: 'Deber = быть должным — иметь долг перед кем-то'
+      },
+      {
+        sentence: 'El jefe recibió una _____ anónima: si no pagaba, publicarían los documentos secretos.',
+        options: ['la amenaza (угроза)', 'la recompensa', 'la libertad', 'la sentencia'],
+        correct: 0,
+        explanation: 'La amenaza = угроза — предупреждение о возможном вреде'
+      },
+      {
+        sentence: 'El delincuente _____ con revelar los secretos de la empresa si no le pagaban.',
+        options: ['planeó', 'amenazó (угрожал)', 'escapó', 'obedeció'],
+        correct: 1,
+        explanation: 'Amenazar = угрожать — запугивать с целью добиться чего-то'
+      },
+      {
+        sentence: 'Lo detuvieron por _____ : exigía dinero a cambio de no publicar fotos comprometedoras.',
+        options: ['el misterio', 'la libertad', 'el chantaje (шантаж)', 'el alivio'],
+        correct: 2,
+        explanation: 'El chantaje = шантаж — принуждение к выплате под угрозой огласки'
+      },
+      {
+        sentence: 'Montaron un _____ de venta de cenizas convertidas en diamantes que resultó muy rentable.',
+        options: ['el negocio (бизнес, дело)', 'el tatuaje', 'el porro', 'el cajón'],
+        correct: 0,
+        explanation: 'El negocio = бизнес, дело — коммерческое предприятие'
+      }
     ]
   },
 
@@ -45983,28 +46026,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-4-2': {
     id: 'ex-17-12-4-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 4 - Condicional',
-    description: 'Выберите правильную форму Condicional Simple',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 4',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Con el seguro, _____ pagar todas las deudas. (poder)',
-        options: ['puede', 'podía', 'podría', 'podrá'],
-        correct: 2,
-        explanation: 'Condicional: podría - гипотетическое предположение'
-      },
-      {
-        text: 'Si hubiera incendio, _____ el dinero del seguro. (cobrar)',
-        options: ['cobra', 'cobraba', 'cobraría', 'cobrará'],
-        correct: 2,
-        explanation: 'Condicional: cobraría - следствие условия'
-      },
-      {
-        text: 'El propietario pensaba que nadie lo _____ (descubrir)',
-        options: ['descubre', 'descubría', 'descubriría', 'descubrirá'],
-        correct: 2,
-        explanation: 'Condicional: descubriría - косвенная речь в прошлом'
-      }
+      { sentence: 'El propietario _____ muchos negocios en su vida, pero todos fracasaron. (intentar)', correct: 'intentó' },
+      { sentence: 'Sus acreedores le _____ con publicar todo si no pagaba la deuda antes del lunes. (amenazar)', correct: 'amenazaron' },
+      { sentence: 'El propietario _____ que nadie descubriría su plan para cobrar el seguro. (creer)', correct: 'creyó' },
+      { sentence: 'La periodista _____ los documentos que demostraban el fraude del seguro. (encontrar)', correct: 'encontró' },
+      { sentence: 'El negocio _____ en bancarrota después de solo dos años de funcionamiento. (entrar)', correct: 'entró' }
     ]
   },
 
@@ -46015,26 +46046,68 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'У владельца были большие долги.', correct: 'El propietario tenía grandes deudas.', alternatives: ['El dueño tenía muchas deudas.'] },
-      { russian: 'Он угрожал журналистке.', correct: 'Él amenazaba a la periodista.', alternatives: ['Él amenazó a la periodista.'] },
-      { russian: 'Страховка покрыла бы все долги.', correct: 'El seguro cubriría todas las deudas.', alternatives: ['El seguro pagaría todas las deudas.'] }
+      { russian: 'Владелец накопил огромные долги из-за серии неудачных деловых решений.', correct: 'El propietario acumuló enormes deudas por una serie de malas decisiones de negocio.', alternatives: ['El propietario tenía grandes deudas por sus negocios fracasados.'] },
+      { russian: 'Кредиторы угрожали ему: либо ты платишь, либо мы забираем всё имущество.', correct: 'Los acreedores le amenazaban: o pagaba o le quitaban todos los bienes.', alternatives: ['Sus acreedores le amenazaron con quitarle todo si no pagaba.'] },
+      { russian: 'Когда журналистка нашла документы, она сразу поняла, что это доказательства крупного мошенничества.', correct: 'Cuando la periodista encontró los documentos, entendió enseguida que eran pruebas de un gran fraude.', alternatives: ['La periodista entendió que los documentos probaban el fraude cuando los encontró.'] },
+      { russian: 'Владелец долго планировал этот шантаж, думая, что никто никогда его не раскроет.', correct: 'El propietario planeó el chantaje durante mucho tiempo pensando que nadie lo descubriría nunca.', alternatives: ['El propietario pensó que nadie descubriría su chantaje.'] },
+      { russian: 'Его бизнес обанкротился после двух лет работы, и долги продолжали расти.', correct: 'Su negocio quebró después de dos años de funcionamiento y las deudas seguían creciendo.', alternatives: ['El negocio entró en bancarrota y las deudas no paraban de crecer.'] }
     ]
   },
 
   'ex-17-12-5-vocab': {
     id: 'ex-17-12-5-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 5',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'el cómplice', options: ['свидетель', 'жертва', 'сообщник', 'судья'], correct: 2 },
-      { spanish: 'planear', options: ['путешествовать', 'планировать', 'мечтать', 'работать'], correct: 1 },
-      { spanish: 'escapar', options: ['возвращаться', 'приходить', 'убегать, сбегать', 'прятаться'], correct: 2 },
-      { spanish: 'perseguir', options: ['помогать', 'преследовать', 'арестовывать', 'искать'], correct: 1 },
-      { spanish: 'el callejón', options: ['проспект', 'площадь', 'переулок, тупик', 'парк'], correct: 2 },
-      { spanish: 'oscuro', options: ['светлый', 'красивый', 'тёмный, мрачный', 'чистый'], correct: 2 },
-      { spanish: 'el miedo', options: ['радость', 'страх', 'удивление', 'гнев'], correct: 1 },
-      { spanish: 'tener miedo', options: ['радоваться', 'удивляться', 'бояться', 'злиться'], correct: 2 }
+      {
+        sentence: 'La policía detuvo al ladrón y a su _____, que esperaba en el coche con el motor encendido.',
+        options: ['el cómplice (сообщник)', 'el vigilante', 'el juez', 'el propietario'],
+        correct: 0,
+        explanation: 'El cómplice = сообщник — тот, кто помогает в совершении преступления'
+      },
+      {
+        sentence: 'Los dos delincuentes llevaban meses _____ el robo al banco con todo detalle.',
+        options: ['escapando', 'persiguiendo', 'planeando (планируя)', 'temiendo'],
+        correct: 2,
+        explanation: 'Planear = планировать — разрабатывать план действий'
+      },
+      {
+        sentence: 'El sospechoso intentó _____ por la ventana del baño cuando oyó a la policía llamar.',
+        options: ['escapar (убежать, сбежать)', 'confesar', 'defender', 'obedecer'],
+        correct: 0,
+        explanation: 'Escapar = убегать, сбегать — спасаться бегством'
+      },
+      {
+        sentence: 'La periodista _____ al sospechoso por toda la ciudad durante horas sin perderle de vista.',
+        options: ['planeó', 'persiguió (преследовала)', 'aclaró', 'resolvió'],
+        correct: 1,
+        explanation: 'Perseguir = преследовать — следовать за кем-то с целью поймать'
+      },
+      {
+        sentence: 'El sospechoso se metió en un _____ oscuro pensando que nadie le vería allí.',
+        options: ['el callejón (переулок, тупик)', 'el negocio', 'el ático', 'el juicio'],
+        correct: 0,
+        explanation: 'El callejón = переулок, тупик — узкая улочка'
+      },
+      {
+        sentence: 'El callejón estaba muy _____ y no había ni una sola farola que funcionara.',
+        options: ['caliente', 'sorprendido', 'oscuro (тёмный, мрачный)', 'libre'],
+        correct: 2,
+        explanation: 'Oscuro = тёмный, мрачный — без света'
+      },
+      {
+        sentence: 'Pepa sentía _____ mientras caminaba sola por aquellas calles desconocidas de noche.',
+        options: ['el alivio', 'el miedo (страх)', 'la recompensa', 'la libertad'],
+        correct: 1,
+        explanation: 'El miedo = страх — чувство опасности или угрозы'
+      },
+      {
+        sentence: 'Los niños _____ a las arañas porque parecen peligrosas aunque casi nunca lo son.',
+        options: ['tienen miedo (боятся)', 'tienen alivio', 'tienen prisa', 'tienen suerte'],
+        correct: 0,
+        explanation: 'Tener miedo = бояться — испытывать страх'
+      }
     ]
   },
 
@@ -46061,28 +46134,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-5-2': {
     id: 'ex-17-12-5-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 5 - Subjuntivo Presente',
-    description: 'Выберите правильную форму Subjuntivo Presente',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 5',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'La policía quiere que el sospechoso _____ (confesar)',
-        options: ['confiesa', 'confesó', 'confiese', 'confesará'],
-        correct: 2,
-        explanation: 'Subjuntivo: confiese - после querer que'
-      },
-      {
-        text: 'Es importante que nadie _____ (escapar)',
-        options: ['escapa', 'escapó', 'escape', 'escapará'],
-        correct: 2,
-        explanation: 'Subjuntivo: escape - после es importante que'
-      },
-      {
-        text: 'Necesito que tú me _____ la verdad. (decir)',
-        options: ['dices', 'dijiste', 'digas', 'dirás'],
-        correct: 2,
-        explanation: 'Subjuntivo: digas - после necesito que'
-      }
+      { sentence: 'La policía quiere que el sospechoso _____ dónde escondió las pruebas. (confesar)', correct: 'confiese' },
+      { sentence: 'Es importante que nadie _____ del edificio antes de que lleguen los agentes. (escapar)', correct: 'escape' },
+      { sentence: 'Necesito que tú me _____ la verdad ahora mismo, sin mentiras. (decir)', correct: 'digas' },
+      { sentence: 'La periodista pide que el cómplice _____ con ella en privado mañana. (hablar)', correct: 'hable' },
+      { sentence: 'No creo que el sospechoso _____ capaz de cometer un crimen tan grave. (ser)', correct: 'sea' }
     ]
   },
 
@@ -46093,26 +46154,68 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Подозреваемый убежал в тёмный переулок.', correct: 'El sospechoso escapó a un callejón oscuro.', alternatives: ['El sospechoso huyó a un callejón oscuro.'] },
-      { russian: 'Журналистка преследовала его.', correct: 'La periodista le perseguía.', alternatives: ['La periodista lo perseguía.'] },
-      { russian: 'Она боялась, но продолжала идти.', correct: 'Tenía miedo pero siguió caminando.', alternatives: ['Tenía miedo pero continuó caminando.'] }
+      { russian: 'Подозреваемый бросился бежать и скрылся в тёмном узком переулке на краю квартала.', correct: 'El sospechoso echó a correr y se metió en un callejón oscuro y estrecho al final del barrio.', alternatives: ['El sospechoso escapó corriendo hacia un callejón oscuro.'] },
+      { russian: 'Журналистка преследовала его по всему кварталу, несмотря на страх и темноту.', correct: 'La periodista le perseguía por todo el barrio a pesar del miedo y la oscuridad.', alternatives: ['La periodista lo persiguió por el barrio sin importarle el miedo.'] },
+      { russian: 'Она боялась, но продолжала идти вперёд — ей нужны были эти доказательства.', correct: 'Tenía miedo pero siguió caminando hacia delante porque necesitaba esas pruebas.', alternatives: ['Tenía miedo pero no paró de caminar porque necesitaba encontrar las pruebas.'] },
+      { russian: 'Полиция требует, чтобы сообщник признался в своём участии в преступлении.', correct: 'La policía exige que el cómplice confiese su participación en el delito.', alternatives: ['La policía quiere que el cómplice confiese lo que hizo.'] },
+      { russian: 'Важно, чтобы никто не узнал, что они заранее спланировали этот побег.', correct: 'Es importante que nadie sepa que planearon esa fuga con antelación.', alternatives: ['Es importante que nadie descubra que habían planeado la fuga.'] }
     ]
   },
 
   'ex-17-12-6-vocab': {
     id: 'ex-17-12-6-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 6',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'la prueba', options: ['вопрос', 'доказательство, улика', 'ответ', 'тест'], correct: 1 },
-      { spanish: 'demostrar', options: ['скрывать', 'доказывать, показывать', 'отрицать', 'сомневаться'], correct: 1 },
-      { spanish: 'confesar', options: ['отрицать', 'молчать', 'признаваться, исповедоваться', 'убегать'], correct: 2 },
-      { spanish: 'detener', options: ['отпускать', 'задерживать, останавливать', 'помогать', 'игнорировать'], correct: 1 },
-      { spanish: 'arrestar', options: ['освобождать', 'арестовывать', 'искать', 'судить'], correct: 1 },
-      { spanish: 'la cárcel', options: ['суд', 'полиция', 'тюрьма', 'больница'], correct: 2 },
-      { spanish: 'culpable', options: ['невиновный', 'виновный', 'подозреваемый', 'свидетель'], correct: 1 },
-      { spanish: 'inocente', options: ['виновный', 'опасный', 'невиновный, невинный', 'хитрый'], correct: 2 }
+      {
+        sentence: 'La periodista encontró una _____ crucial que demostraba que el incendio fue provocado.',
+        options: ['la prueba (доказательство, улика)', 'la deuda', 'la terraza', 'la marcha atrás'],
+        correct: 0,
+        explanation: 'La prueba = доказательство, улика — факт, подтверждающий или опровергающий что-либо'
+      },
+      {
+        sentence: 'Con esos documentos puede _____ que el acusado estaba en otro lugar durante el crimen.',
+        options: ['escapar', 'demostrar (доказывать, показывать)', 'amenazar', 'planear'],
+        correct: 1,
+        explanation: 'Demostrar = доказывать, показывать — представлять факты в подтверждение'
+      },
+      {
+        sentence: 'Al final, el acusado _____ su crimen ante el juez y pidió perdón a la víctima.',
+        options: ['escapó', 'persiguió', 'confesó (признался)', 'planteó'],
+        correct: 2,
+        explanation: 'Confesar = признаваться — сознаться в совершённом'
+      },
+      {
+        sentence: 'La policía _____ al sospechoso en el aeropuerto cuando intentaba huir al extranjero.',
+        options: ['detuvo (задержала, остановила)', 'aclaró', 'resolvió', 'registró'],
+        correct: 0,
+        explanation: 'Detener = задерживать, останавливать — лишить свободы передвижения'
+      },
+      {
+        sentence: 'Los agentes _____ a dos personas más que ayudaron a planificar el robo.',
+        options: ['arrestaron (арестовали)', 'demostraron', 'confesaron', 'aclararon'],
+        correct: 0,
+        explanation: 'Arrestar = арестовывать — официально задержать под стражу'
+      },
+      {
+        sentence: 'El delincuente pasó tres años en la _____ y salió convertido en otra persona.',
+        options: ['la terraza', 'la cárcel (тюрьма)', 'la funeraria', 'la sucursal'],
+        correct: 1,
+        explanation: 'La cárcel = тюрьма — место лишения свободы'
+      },
+      {
+        sentence: 'El tribunal declaró al acusado _____ del incendio provocado y lo condenó a siete años.',
+        options: ['inocente', 'culpable (виновным)', 'libre', 'tranquilo'],
+        correct: 1,
+        explanation: 'Culpable = виновный — тот, кто совершил преступление'
+      },
+      {
+        sentence: 'Su abogado argumentó que era completamente _____ y que tenía coartada para esa noche.',
+        options: ['culpable', 'sorprendido', 'inocente (невиновный, невинный)', 'enfadado'],
+        correct: 2,
+        explanation: 'Inocente = невиновный, невинный — не совершавший преступления'
+      }
     ]
   },
 
@@ -46139,28 +46242,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-6-2': {
     id: 'ex-17-12-6-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 6 - Voz Pasiva',
-    description: 'Выберите правильную форму пассивного залога',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 6',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'El sospechoso _____ por la policía. (detener)',
-        options: ['detuvo', 'fue detenido', 'se detenía', 'ha detenido'],
-        correct: 1,
-        explanation: 'Voz pasiva: fue detenido - пассивный залог в Indefinido'
-      },
-      {
-        text: 'Las pruebas _____ al juez. (presentar)',
-        options: ['presentaron', 'fueron presentadas', 'se presentaban', 'han presentado'],
-        correct: 1,
-        explanation: 'Voz pasiva: fueron presentadas - согласование с pruebas (fem. pl.)'
-      },
-      {
-        text: 'El crimen _____ por la periodista. (descubrir)',
-        options: ['descubrió', 'fue descubierto', 'se descubría', 'ha descubierto'],
-        correct: 1,
-        explanation: 'Voz pasiva: fue descubierto - пассивный залог'
-      }
+      { sentence: 'La policía _____ al sospechoso en la misma calle donde ocurrió el crimen. (detener)', correct: 'detuvo' },
+      { sentence: 'La periodista _____ las pruebas al comisario de la policía en persona. (entregar)', correct: 'entregó' },
+      { sentence: 'Al final, el acusado _____ su delito ante todo el tribunal sin ninguna presión. (confesar)', correct: 'confesó' },
+      { sentence: 'El juez _____ al culpable a cinco años de prisión sin posibilidad de reducción. (condenar)', correct: 'condenó' },
+      { sentence: 'La periodista _____ el crimen gracias a meses de investigación paciente y discreta. (descubrir)', correct: 'descubrió' }
     ]
   },
 
@@ -46171,26 +46262,68 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Улики были переданы полиции.', correct: 'Las pruebas fueron entregadas a la policía.', alternatives: ['Las pruebas se entregaron a la policía.'] },
-      { russian: 'Подозреваемый был арестован.', correct: 'El sospechoso fue arrestado.', alternatives: ['El sospechoso fue detenido.'] },
-      { russian: 'Он признался в преступлении.', correct: 'Confesó el crimen.', alternatives: ['Él confesó el crimen.'] }
+      { russian: 'Журналистка лично передала все улики комиссару полиции после долгих недель расследования.', correct: 'La periodista entregó todas las pruebas al comisario de policía en persona tras semanas de investigación.', alternatives: ['La periodista entregó las pruebas a la policía después de investigar durante semanas.'] },
+      { russian: 'Подозреваемого задержали прямо в аэропорту, когда он пытался сесть на самолёт.', correct: 'Detuvieron al sospechoso en el propio aeropuerto cuando intentaba subir al avión.', alternatives: ['El sospechoso fue detenido en el aeropuerto cuando quería escapar.'] },
+      { russian: 'В конце концов владелец признался в поджоге — он больше не мог выдержать это давление.', correct: 'Al final el propietario confesó el incendio provocado; ya no podía aguantar más esa presión.', alternatives: ['El propietario confesó el crimen porque no podía más con la presión.'] },
+      { russian: 'Судья приговорил виновного к семи годам лишения свободы за мошенничество со страховкой.', correct: 'El juez condenó al culpable a siete años de prisión por fraude al seguro.', alternatives: ['El juez condenó al propietario a siete años de cárcel por el fraude.'] },
+      { russian: 'Она доказала, что преступник был виновен, и вся страна прочитала её статью в газете.', correct: 'Ella demostró que el criminal era culpable y todo el país leyó su artículo en el periódico.', alternatives: ['Demostró la culpabilidad del acusado y publicó el artículo para que todos lo supieran.'] }
     ]
   },
 
   'ex-17-12-7-vocab': {
     id: 'ex-17-12-7-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 7',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'el juicio', options: ['тюрьма', 'суд, суждение', 'приговор', 'закон'], correct: 1 },
-      { spanish: 'el abogado', options: ['судья', 'прокурор', 'адвокат', 'присяжный'], correct: 2 },
-      { spanish: 'defender', options: ['обвинять', 'судить', 'защищать', 'арестовывать'], correct: 2 },
-      { spanish: 'acusar', options: ['защищать', 'обвинять', 'оправдывать', 'освобождать'], correct: 1 },
-      { spanish: 'el fiscal', options: ['адвокат', 'судья', 'прокурор', 'присяжный'], correct: 2 },
-      { spanish: 'la sentencia', options: ['вопрос', 'ответ', 'приговор, решение', 'закон'], correct: 2 },
-      { spanish: 'condenar', options: ['оправдывать', 'освобождать', 'осуждать, приговаривать', 'защищать'], correct: 2 },
-      { spanish: 'el juez', options: ['адвокат', 'судья', 'прокурор', 'свидетель'], correct: 1 }
+      {
+        sentence: 'El _____ duró tres semanas y los periodistas llenaban la sala cada día para seguirlo.',
+        options: ['el juicio (суд, суждение)', 'el negocio', 'el callejón', 'el ático'],
+        correct: 0,
+        explanation: 'El juicio = суд, суждение — судебный процесс'
+      },
+      {
+        sentence: 'Su _____ es uno de los mejores del país y cobra tarifas muy altas por sus servicios.',
+        options: ['el fiscal', 'el juez', 'el abogado (адвокат)', 'el vigilante'],
+        correct: 2,
+        explanation: 'El abogado = адвокат — юрист, защищающий клиента'
+      },
+      {
+        sentence: 'El abogado usó todos los recursos legales posibles para _____ a su cliente ante el tribunal.',
+        options: ['acusar', 'detener', 'defender (защищать)', 'planear'],
+        correct: 2,
+        explanation: 'Defender = защищать — отстаивать интересы клиента'
+      },
+      {
+        sentence: 'El fiscal _____ al empresario de fraude fiscal y pidió una pena de diez años de cárcel.',
+        options: ['acusó (обвинил)', 'defendió', 'confesó', 'amenazó'],
+        correct: 0,
+        explanation: 'Acusar = обвинять — предъявлять официальное обвинение'
+      },
+      {
+        sentence: 'El _____ solicitó la pena máxima argumentando que el crimen había causado enorme daño.',
+        options: ['el abogado', 'el juez', 'el fiscal (прокурор)', 'el testigo'],
+        correct: 2,
+        explanation: 'El fiscal = прокурор — государственный обвинитель'
+      },
+      {
+        sentence: 'La _____ del tribunal fue muy dura: veinte años de prisión sin posibilidad de indulto.',
+        options: ['la sentencia (приговор, решение)', 'la deuda', 'la prueba', 'la recompensa'],
+        correct: 0,
+        explanation: 'La sentencia = приговор, решение — окончательное решение суда'
+      },
+      {
+        sentence: 'El jurado _____ al acusado a cadena perpetua por el asesinato premeditado.',
+        options: ['defendió', 'condenó (осудил, приговорил)', 'absolvió', 'arrestó'],
+        correct: 1,
+        explanation: 'Condenar = осуждать, приговаривать — вынести обвинительный приговор'
+      },
+      {
+        sentence: 'El _____ pidió silencio en la sala antes de leer el veredicto final en voz alta.',
+        options: ['el fiscal', 'el abogado', 'el juez (судья)', 'el testigo'],
+        correct: 2,
+        explanation: 'El juez = судья — председатель судебного заседания'
+      }
     ]
   },
 
@@ -46217,28 +46350,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-7-2': {
     id: 'ex-17-12-7-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 7 - Subjuntivo Imperfecto',
-    description: 'Выберите правильную форму Subjuntivo Imperfecto',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 7',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'El juez pidió que todos _____ en silencio. (estar)',
-        options: ['están', 'estaban', 'estuvieran', 'estarán'],
-        correct: 2,
-        explanation: 'Subjuntivo Imperfecto: estuvieran - согласование времён'
-      },
-      {
-        text: 'Era importante que el acusado _____ la verdad. (decir)',
-        options: ['dice', 'decía', 'dijera', 'dirá'],
-        correct: 2,
-        explanation: 'Subjuntivo Imperfecto: dijera - после era importante que'
-      },
-      {
-        text: 'El fiscal quería que todos _____ las pruebas. (ver)',
-        options: ['ven', 'veían', 'vieran', 'verán'],
-        correct: 2,
-        explanation: 'Subjuntivo Imperfecto: vieran - согласование времён с quería'
-      }
+      { sentence: 'El juez insiste en que todos _____ en silencio mientras se lee la sentencia. (estar)', correct: 'estén' },
+      { sentence: 'Es fundamental que el acusado _____ la verdad completa ante el tribunal. (decir)', correct: 'diga' },
+      { sentence: 'El fiscal pide que todos _____ atentamente las pruebas que va a presentar. (ver)', correct: 'vean' },
+      { sentence: 'La defensa solicita que el juez _____ un nuevo plazo para presentar más pruebas. (conceder)', correct: 'conceda' },
+      { sentence: 'No es justo que el acusado _____ condenado sin haber tenido la oportunidad de hablar. (ser)', correct: 'sea' }
     ]
   },
 
@@ -46249,26 +46370,68 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Судья попросил тишины.', correct: 'El juez pidió silencio.', alternatives: ['El juez solicitó silencio.'] },
-      { russian: 'Прокурор обвинил его в поджоге.', correct: 'El fiscal le acusó de incendio provocado.', alternatives: ['El fiscal lo acusó del incendio.'] },
-      { russian: 'Адвокат защищал своего клиента.', correct: 'El abogado defendía a su cliente.', alternatives: ['El abogado defendió a su cliente.'] }
+      { russian: 'Судья попросил всех в зале соблюдать тишину, прежде чем огласить приговор.', correct: 'El juez pidió a todos en la sala que guardaran silencio antes de leer la sentencia.', alternatives: ['El juez solicitó silencio en la sala antes de pronunciar el veredicto.'] },
+      { russian: 'Прокурор официально обвинил владельца в умышленном поджоге здания с целью получить страховку.', correct: 'El fiscal acusó formalmente al propietario de incendio provocado con el fin de cobrar el seguro.', alternatives: ['El fiscal acusó al propietario de prender fuego al edificio deliberadamente.'] },
+      { russian: 'Адвокат защиты настаивал на невиновности своего клиента и просил суд его оправдать.', correct: 'El abogado defensor insistía en la inocencia de su cliente y pedía al tribunal que lo absolviera.', alternatives: ['El abogado defendió a su cliente diciendo que era inocente.'] },
+      { russian: 'Важно, чтобы каждый обвиняемый мог воспользоваться правом на справедливый суд.', correct: 'Es importante que cada acusado pueda ejercer su derecho a un juicio justo.', alternatives: ['Es fundamental que todo acusado tenga derecho a un juicio justo.'] },
+      { russian: 'Судья не допустит, чтобы кто-то в зале мешал ходу судебного процесса.', correct: 'El juez no permitirá que nadie en la sala interfiera con el curso del juicio.', alternatives: ['El juez no va a permitir que alguien interrumpa el juicio.'] }
     ]
   },
 
   'ex-17-12-8-vocab': {
     id: 'ex-17-12-8-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 8',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'resolver', options: ['crear', 'решать, разрешать', 'ломать', 'начинать'], correct: 1 },
-      { spanish: 'el misterio', options: ['правда', 'ложь', 'тайна, загадка', 'история'], correct: 2 },
-      { spanish: 'aclarar', options: ['запутывать', 'прояснять, объяснять', 'скрывать', 'изменять'], correct: 1 },
-      { spanish: 'la recompensa', options: ['наказание', 'налог', 'долг', 'награда, вознаграждение'], correct: 3 },
-      { spanish: 'la libertad', options: ['тюрьма', 'свобода', 'закон', 'наказание'], correct: 1 },
-      { spanish: 'libre', options: ['занятый', 'свободный', 'счастливый', 'грустный'], correct: 1 },
-      { spanish: 'tranquilo', options: ['нервный', 'злой', 'спокойный', 'грустный'], correct: 2 },
-      { spanish: 'el alivio', options: ['беспокойство', 'страх', 'облегчение', 'радость'], correct: 2 }
+      {
+        sentence: 'La detective tardó dos años en _____ el caso, pero al final encontró al culpable.',
+        options: ['resolver (решить, разрешить)', 'escapar', 'detener', 'gritar'],
+        correct: 0,
+        explanation: 'Resolver = решать, разрешать — найти ответ или выход из сложной ситуации'
+      },
+      {
+        sentence: 'La desaparición de aquella chica sigue siendo un _____ que nadie ha podido explicar.',
+        options: ['el misterio (тайна, загадка)', 'el juicio', 'el negocio', 'el anticipo'],
+        correct: 0,
+        explanation: 'El misterio = тайна, загадка — нечто непонятное, необъяснённое'
+      },
+      {
+        sentence: 'Necesito que alguien me _____ por qué el testigo cambió su declaración en el último momento.',
+        options: ['detenga', 'condene', 'aclare (прояснит, объяснит)', 'escape'],
+        correct: 2,
+        explanation: 'Aclarar = прояснять, объяснять — сделать что-то понятным'
+      },
+      {
+        sentence: 'El banco ofreció una gran _____ a quien aportara información sobre los ladrones.',
+        options: ['la deuda', 'la amenaza', 'la recompensa (награда, вознаграждение)', 'la sentencia'],
+        correct: 2,
+        explanation: 'La recompensa = награда, вознаграждение — денежное или иное поощрение'
+      },
+      {
+        sentence: 'Después de pasar cinco años en la cárcel, por fin recobró su _____ y pudo volver a casa.',
+        options: ['la cárcel', 'la libertad (свобода)', 'la deuda', 'la prueba'],
+        correct: 1,
+        explanation: 'La libertad = свобода — состояние отсутствия ограничений'
+      },
+      {
+        sentence: 'El preso _____ de toda sospecha pudo regresar a su vida normal después del veredicto.',
+        options: ['culpable', 'libre (свободный)', 'tranquilo', 'enfadado'],
+        correct: 1,
+        explanation: 'Libre = свободный — без ограничений, не под стражей'
+      },
+      {
+        sentence: 'El médico le dijo que _____ : el resultado del análisis no tenía nada grave.',
+        options: ['esté tranquilo (будьте спокойны)', 'esté culpable', 'esté libre', 'esté oscuro'],
+        correct: 0,
+        explanation: 'Tranquilo = спокойный — без тревоги или беспокойства'
+      },
+      {
+        sentence: 'Sintió un gran _____ cuando el jurado leyó el veredicto de inocente en voz alta.',
+        options: ['el miedo', 'el alivio (облегчение)', 'el accidente', 'el misterio'],
+        correct: 1,
+        explanation: 'El alivio = облегчение — ощущение, когда напряжение спадает'
+      }
     ]
   },
 
@@ -46301,34 +46464,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-8-2': {
     id: 'ex-17-12-8-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 8 - Repaso general',
-    description: 'Выберите правильную форму глагола',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 8',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Cuando el juez _____ la sentencia, todos guardaron silencio. (leer)',
-        options: ['lee', 'leyó', 'leía', 'leerá'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: leyó - конкретное действие в прошлом'
-      },
-      {
-        text: 'La periodista está contenta de que el caso _____ resuelto. (estar)',
-        options: ['está', 'esté', 'estaba', 'estará'],
-        correct: 1,
-        explanation: 'Subjuntivo Presente: esté - после expresión emocional'
-      },
-      {
-        text: 'Si hubiera más periodistas así, el mundo _____ mejor. (ser)',
-        options: ['es', 'era', 'sería', 'será'],
-        correct: 2,
-        explanation: 'Condicional: sería - condicional irreal en presente'
-      },
-      {
-        text: 'El misterio ha sido _____ gracias a ella. (resolver)',
-        options: ['resolvido', 'resuelto', 'resolvado', 'resolvido'],
-        correct: 1,
-        explanation: 'Participio irregular: resuelto (resolver)'
-      }
+      { sentence: 'La periodista _____ muy contenta mientras escribía su artículo sobre el caso. (estar)', correct: 'estaba' },
+      { sentence: 'Cuando Raúl _____ joven, soñaba con tener su propio taller mecánico. (ser)', correct: 'era' },
+      { sentence: 'Carlos siempre _____ que Pepa era demasiado independiente para su gusto. (pensar)', correct: 'pensaba' },
+      { sentence: 'El juicio _____ mucho tiempo porque había muchos testigos que declarar. (durar)', correct: 'duró' },
+      { sentence: 'La periodista _____ una gran sensación de alivio cuando oyó el veredicto final. (sentir)', correct: 'sentía' }
     ]
   },
 
@@ -46339,25 +46484,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Загадка была решена.', correct: 'El misterio fue resuelto.', alternatives: ['El misterio se resolvió.'] },
-      { russian: 'Журналистка чувствовала облегчение.', correct: 'La periodista sentía alivio.', alternatives: ['La periodista sintió alivio.'] },
-      { russian: 'Виновный был приговорён к тюрьме.', correct: 'El culpable fue condenado a la cárcel.', alternatives: ['El culpable fue enviado a la cárcel.'] },
-      { russian: 'История закончилась справедливо.', correct: 'La historia terminó de forma justa.', alternatives: ['La historia terminó justamente.'] }
+      { russian: 'Когда журналистка работала над этим делом, она часто чувствовала страх, но не сдавалась.', correct: 'Cuando la periodista trabajaba en este caso, a menudo sentía miedo pero no se rendía.', alternatives: ['Mientras trabajaba en el caso, la periodista tenía miedo pero seguía adelante.'] },
+      { russian: 'В те дни журналистка была так поглощена расследованием, что почти не спала.', correct: 'En aquellos días la periodista estaba tan absorta en la investigación que casi no dormía.', alternatives: ['La periodista estaba tan metida en el caso que dormía muy poco.'] },
+      { russian: 'Пока шёл суд, Пепа думала о том, как странно всё произошло с того утра аварии.', correct: 'Mientras duró el juicio, Pepa pensaba en lo extraño que fue todo desde aquella mañana del accidente.', alternatives: ['Durante el juicio Pepa pensaba en todo lo que había pasado desde el accidente.'] },
+      { russian: 'Эта история была странной с самого начала: тайна в портфеле, деньги, и адвокат-мошенник.', correct: 'Esta historia era extraña desde el principio: un misterio en el maletín, dinero y un abogado estafador.', alternatives: ['Desde el inicio todo era raro: el maletín misterioso, el dinero y el abogado corrupto.'] },
+      { russian: 'Журналистка заслужила эту награду — она работала месяцами, рискуя собственной безопасностью.', correct: 'La periodista merecía esa recompensa; trabajaba desde hacía meses arriesgando su propia seguridad.', alternatives: ['La periodista se merecía la recompensa porque arriesgó mucho durante meses.'] }
     ]
   },
 
   'ex-17-12-9-vocab': {
     id: 'ex-17-12-9-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 9',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'el colocón', options: ['похмелье', 'обдолбанный (состояние от наркотиков)', 'усталость', 'головная боль'], correct: 1 },
-      { spanish: 'el estriper', options: ['официант', 'охранник', 'стриптизёр', 'таксист'], correct: 2 },
-      { spanish: 'desnudarse', options: ['одеваться', 'раздеваться', 'мыться', 'причёсываться'], correct: 1 },
-      { spanish: 'la documentación', options: ['ключ', 'сумка', 'документы', 'паспорт'], correct: 2 },
-      { spanish: 'el recepcionista', options: ['горничная', 'охранник', 'консьерж, администратор', 'директор'], correct: 2 },
-      { spanish: 'registrar', options: ['проверять', 'регистрировать', 'искать', 'открывать'], correct: 1 }
+      {
+        sentence: 'Después de fumar aquel porro, Albert tenía un _____ tremendo y no sabía ni dónde estaba.',
+        options: ['el colocón (состояние от наркотиков)', 'el alivio', 'el misterio', 'el freno'],
+        correct: 0,
+        explanation: 'El colocón = состояние одурманенности (разговорное) — эффект от наркотиков'
+      },
+      {
+        sentence: 'En el espectáculo de varietés del sábado actúa un _____ australiano que es muy famoso.',
+        options: ['el vigilante', 'el recepcionista', 'el estriper (стриптизёр)', 'el propietario'],
+        correct: 2,
+        explanation: 'El estriper = стриптизёр — артист, раздевающийся на сцене'
+      },
+      {
+        sentence: 'Albert empezó a _____ en el vestíbulo del hotel, lo que escandalizó a todos los presentes.',
+        options: ['desnudarse (раздеваться)', 'registrarse', 'defenderse', 'aclararse'],
+        correct: 0,
+        explanation: 'Desnudarse = раздеваться — снимать одежду'
+      },
+      {
+        sentence: 'Para entrar en el hotel necesitas presentar tu _____ : el pasaporte o el DNI.',
+        options: ['la recompensa', 'la documentación (документы)', 'la sentencia', 'la prueba'],
+        correct: 1,
+        explanation: 'La documentación = документы — официальные удостоверяющие документы'
+      },
+      {
+        sentence: 'El _____ del hotel les explicó amablemente que sin reserva no podían darles habitación.',
+        options: ['el juez', 'el cómplice', 'el fiscal', 'el recepcionista (консьерж, администратор)'],
+        correct: 3,
+        explanation: 'El recepcionista = консьерж, администратор — сотрудник, встречающий гостей'
+      },
+      {
+        sentence: 'La policía entró para _____ las habitaciones del hotel en busca del maletín desaparecido.',
+        options: ['escapar', 'registrar (обыскать, осмотреть)', 'confesar', 'defender'],
+        correct: 1,
+        explanation: 'Registrar = регистрировать; обыскивать — осматривать в поисках чего-либо'
+      }
     ]
   },
 
@@ -46390,34 +46566,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-9-2': {
     id: 'ex-17-12-9-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 9 - Verbos reflexivos',
-    description: 'Выберите правильную форму глагола',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 9',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Albert empieza a _____ en el vestíbulo del hotel. (desnudarse)',
-        options: ['desnuda', 'desnudarse', 'se desnuda', 'desnudándose'],
-        correct: 2,
-        explanation: 'Presente de Indicativo, reflexivo: se desnuda - Albert начинает раздеваться'
-      },
-      {
-        text: 'Pepa _____ a Albert de allí rápidamente. (sacar)',
-        options: ['saca', 'sale', 'lleva', 'trae'],
-        correct: 0,
-        explanation: 'Presente: saca - Пепа вытаскивает Альберта оттуда'
-      },
-      {
-        text: 'Sin pasta no _____ hacer nada. (poder)',
-        options: ['puede', 'puede se', 'se puede', 'pueda'],
-        correct: 2,
-        explanation: 'se puede - безличная конструкция: нельзя, невозможно'
-      },
-      {
-        text: 'Albert _____ continuamente los brazos y las piernas. (mover)',
-        options: ['mueve', 'mover', 'moviendo', 'mueva'],
-        correct: 0,
-        explanation: 'Presente: mueve - Albert постоянно двигает руками и ногами'
-      }
+      { sentence: 'Albert _____ su pasaporte en el hotel de Castelldefels y no puede demostrar su identidad. (perder)', correct: 'ha perdido' },
+      { sentence: 'Pepa nunca _____ a nadie tan extraño como Albert en todos sus años de taxista. (conocer)', correct: 'ha conocido' },
+      { sentence: '¿Ya _____ a Raúl que Albert va a dormir en casa esta noche? (llamar, tú)', correct: 'has llamado' },
+      { sentence: 'Albert no _____ por qué el recepcionista no le deja entrar al hotel. (entender)', correct: 'ha entendido' },
+      { sentence: 'Esta noche Pepa _____ muchas cosas: un accidente, mil euros y un neozelandés loco. (vivir)', correct: 'ha vivido' }
     ]
   },
 
@@ -46428,25 +46586,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Администратор просит документы.', correct: 'El recepcionista pide la documentación.', alternatives: ['El recepcionista pide los documentos.'] },
-      { russian: 'Альберт начинает раздеваться.', correct: 'Albert empieza a desnudarse.', alternatives: ['Albert comienza a quitarse la ropa.'] },
-      { russian: 'Без документов мы никуда не можем пойти.', correct: 'Sin documentación no podemos ir a ningún sitio.', alternatives: ['Sin documentos no podemos ir a ningún lado.'] },
-      { russian: 'Пепа выводит Альберта на улицу.', correct: 'Pepa saca a Albert a la calle.', alternatives: ['Pepa lleva a Albert a la calle.'] }
+      { russian: 'Сегодня вечером Пепа пережила самые странные часы в своей жизни с этим безумным новозеландцем.', correct: 'Esta noche Pepa ha vivido las horas más extrañas de su vida con este neozelandés tan loco.', alternatives: ['Pepa ha vivido esta noche las horas más raras de su vida junto a aquel neozelandés.'] },
+      { russian: 'За всё время работы таксистом Пепа никогда не встречала такого необычного клиента, как Альберт.', correct: 'En todo su tiempo de taxista, Pepa nunca ha conocido a un cliente tan inusual como Albert.', alternatives: ['Pepa nunca ha tenido un cliente tan raro como Albert en todos sus años de taxista.'] },
+      { russian: 'Рауль уже позвонил и сказал, что принесёт портфель сегодня ночью.', correct: 'Raúl ya ha llamado y ha dicho que traerá el maletín esta noche.', alternatives: ['Raúl ha llamado y ha avisado de que trae el maletín.'] },
+      { russian: 'Пепа потеряла голову от всего этого: аварии, тысячи евро и человека под кайфом в её квартире.', correct: 'Pepa ha perdido la cabeza con todo esto: el accidente, los mil euros y un hombre colocado en su piso.', alternatives: ['Pepa no sabe qué pensar después del accidente, el dinero y Albert tan colocado.'] },
+      { russian: 'Эта ночь оказалась совершенно не такой, как обычно — ничего похожего раньше с ней не случалось.', correct: 'Esta noche no ha sido como las demás; nunca le había pasado algo así antes.', alternatives: ['Esta noche ha sido completamente diferente a todas las otras noches de su vida.'] }
     ]
   },
 
   'ex-17-12-10-vocab': {
     id: 'ex-17-12-10-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 10',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'la haka maorí', options: ['гавайский танец', 'маорийская хака — ритуальный танец', 'фламенко', 'самба'], correct: 1 },
-      { spanish: 'el pijo', options: ['друг', 'пижон, снобистский человек', 'тупица', 'весельчак'], correct: 1 },
-      { spanish: 'estar confuso', options: ['быть злым', 'быть грустным', 'быть в замешательстве', 'быть счастливым'], correct: 2 },
-      { spanish: 'amanecer', options: ['темнеть', 'рассветать', 'ночевать', 'уставать'], correct: 1 },
-      { spanish: 'la terraza', options: ['кухня', 'ванная комната', 'терраса, балкон', 'гостиная'], correct: 2 },
-      { spanish: 'el ascensor', options: ['лестница', 'лифт', 'коридор', 'вход'], correct: 1 }
+      {
+        sentence: 'El equipo de rugby de Nueva Zelanda realizó una _____ antes del partido para intimidar al rival.',
+        options: ['la haka maorí (маорийская хака — ритуальный танец)', 'la sentencia', 'la recompensa', 'la marcha atrás'],
+        correct: 0,
+        explanation: 'La haka maorí = маорийский ритуальный танец — традиционный танец народа Маори'
+      },
+      {
+        sentence: 'Ese chico tan _____ lleva siempre ropa de marca y solo habla de restaurantes de lujo.',
+        options: ['tranquilo', 'pijo (пижон, снобистский человек)', 'libre', 'culpable'],
+        correct: 1,
+        explanation: 'Pijo = пижон, снобистский человек — человек, который демонстрирует богатство и снобизм'
+      },
+      {
+        sentence: 'Albert _____ después de todo lo que tomó: no sabía dónde estaba ni qué había pasado.',
+        options: ['estaba confuso (был в замешательстве)', 'estaba tranquilo', 'estaba libre', 'estaba culpable'],
+        correct: 0,
+        explanation: 'Estar confuso = быть в замешательстве — не понимать ситуацию'
+      },
+      {
+        sentence: 'Cuando Pepa terminó de escribir el informe, ya empezaba a _____ por el horizonte.',
+        options: ['oscurecer', 'amanecer (рассветать)', 'llover', 'nevar'],
+        correct: 1,
+        explanation: 'Amanecer = рассветать — наступление рассвета, начало нового дня'
+      },
+      {
+        sentence: 'Desde la _____ del ático se veían las luces de toda la ciudad y el mar al fondo.',
+        options: ['la terraza (терраса, балкон)', 'la cárcel', 'la funeraria', 'la sucursal'],
+        correct: 0,
+        explanation: 'La terraza = терраса, балкон — открытая площадка снаружи дома'
+      },
+      {
+        sentence: 'Carlos siempre sube las escaleras a pie porque le da miedo meterse en el _____ solo.',
+        options: ['el cajón', 'el callejón', 'el ascensor (лифт)', 'el ático'],
+        correct: 2,
+        explanation: 'El ascensor = лифт — механическое устройство для подъёма между этажами'
+      }
     ]
   },
 
@@ -46485,34 +46674,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-10-2': {
     id: 'ex-17-12-10-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 10 - Pretérito Perfecto',
-    description: 'Выберите правильную форму глагола',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 10',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'Pepa _____ a Carlos en el parking. (ver)',
-        options: ['vio', 'ha visto', 'veía', 'verá'],
-        correct: 0,
-        explanation: 'Pretérito Indefinido: vio - конкретный момент в прошлом'
-      },
-      {
-        text: 'Carlos _____ muy ocupado todo el día. (estar)',
-        options: ['está', 'ha estado', 'estará', 'estuvo'],
-        correct: 1,
-        explanation: 'Pretérito Perfecto: ha estado - связан с настоящим ("hoy")'
-      },
-      {
-        text: 'Albert _____ toda la ropa a la calle. (tirar)',
-        options: ['tira', 'tiró', 'ha tirado', 'tirará'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: tiró - конкретное прошлое действие'
-      },
-      {
-        text: 'Pepa _____ una sábana del armario. (coger)',
-        options: ['cogía', 'coge', 'cogió', 'ha cogido'],
-        correct: 2,
-        explanation: 'Pretérito Indefinido: cogió - последовательность прошлых действий'
-      }
+      { sentence: 'Desde la terraza, Pepa _____ a Carlos bajando del parking y entró en pánico. (ver)', correct: 'vio' },
+      { sentence: 'Albert _____ toda la ropa al suelo y empezó a bailar en la terraza con total libertad. (tirar)', correct: 'tiró' },
+      { sentence: 'Pepa _____ una sábana del armario y corrió a la terraza para tapar a Albert. (coger)', correct: 'cogió' },
+      { sentence: 'Carlos _____ la puerta y entró al apartamento sin decir una sola palabra. (abrir)', correct: 'abrió' },
+      { sentence: 'Raúl _____ con el maletín y todos se quedaron mirando qué había dentro. (llegar)', correct: 'llegó' }
     ]
   },
 
@@ -46523,25 +46694,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Альберт вышел на террасу и снял всю одежду.', correct: 'Albert salió a la terraza y se quitó toda la ropa.', alternatives: ['Albert fue a la terraza y se desnudó.'] },
-      { russian: 'Пепа завернула Альберта в простыню.', correct: 'Pepa envolvió a Albert con una sábana.', alternatives: ['Pepa cubrió a Albert con una sábana.'] },
-      { russian: 'Карлос всегда поднимается пешком.', correct: 'Carlos siempre sube a pie.', alternatives: ['Carlos siempre sube andando.'] },
-      { russian: 'Он был в замешательстве, но уже приходил в себя.', correct: 'Estaba confuso pero ya se le iban pasando los efectos.', alternatives: ['Estaba confuso pero se recuperaba.'] }
+      { russian: 'Альберт вышел на террасу, снял всю одежду и начал исполнять что-то похожее на маорийский танец.', correct: 'Albert salió a la terraza, se quitó toda la ropa y empezó a bailar algo parecido a una haka maorí.', alternatives: ['Albert fue a la terraza, se desnudó y bailó una especie de haka maorí.'] },
+      { russian: 'Когда Пепа увидела Карлоса в паркинге, она схватила простыню и бросилась на террасу к Альберту.', correct: 'Cuando Pepa vio a Carlos en el parking, cogió una sábana y corrió a la terraza hacia Albert.', alternatives: ['Al ver a Carlos, Pepa cogió una sábana y salió corriendo a tapar a Albert.'] },
+      { russian: 'Карлос вошёл в лифт, но Пепа запихнула Альберта туда же, прежде чем муж успел его увидеть.', correct: 'Carlos entró en el ascensor, pero Pepa metió a Albert dentro antes de que su pareja pudiera verlo.', alternatives: ['Pepa metió a Albert en el ascensor antes de que Carlos lo viera.'] },
+      { russian: 'Альберт был в полном замешательстве, но постепенно приходил в себя после всего пережитого.', correct: 'Albert estaba completamente confuso, pero poco a poco se iba recuperando de todo lo vivido.', alternatives: ['Albert estaba muy confuso pero los efectos se le iban pasando.'] },
+      { russian: 'Рауль приехал с портфелем и они наконец узнали, что же в нём находилось на самом деле.', correct: 'Raúl llegó con el maletín y por fin supieron qué había en su interior en realidad.', alternatives: ['Cuando Raúl llegó con el maletín, todos descubrieron lo que contenía de verdad.'] }
     ]
   },
 
   'ex-17-12-11-vocab': {
     id: 'ex-17-12-11-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 11',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'coger el avión', options: ['пропустить самолёт', 'сесть на самолёт', 'купить билет', 'приземлиться'], correct: 1 },
-      { spanish: 'joder', options: ['привет', 'пожалуйста', 'чёрт (грубое восклицание)', 'спокойно'], correct: 2 },
-      { spanish: 'el cajón', options: ['шкаф', 'ящик (стола)', 'сундук', 'полка'], correct: 1 },
-      { spanish: 'enfadado', options: ['счастливый', 'грустный', 'злой, сердитый', 'удивлённый'], correct: 2 },
-      { spanish: 'gritar', options: ['шептать', 'говорить', 'кричать', 'петь'], correct: 2 },
-      { spanish: 'el cigarrillo', options: ['трубка', 'сигара', 'сигарета', 'зажигалка'], correct: 2 }
+      {
+        sentence: 'Si no salimos ya, no vamos a _____ y el próximo no es hasta mañana por la mañana.',
+        options: ['coger el avión (сесть на самолёт)', 'dar un portazo', 'dar una vuelta', 'coger la marcha atrás'],
+        correct: 0,
+        explanation: 'Coger el avión = сесть на самолёт — успеть на рейс'
+      },
+      {
+        sentence: '¡_____ ! ¡Me han robado la cartera en el metro! ¡No me lo puedo creer!',
+        options: ['Gracias', 'Joder (чёрт, блин — грубое восклицание)', 'Buenos días', 'Por favor'],
+        correct: 1,
+        explanation: 'Joder = чёрт (грубое восклицание) — выражение сильного удивления или злости'
+      },
+      {
+        sentence: 'Busca el cargador en el _____ de la mesita de noche; creo que lo dejé ahí ayer.',
+        options: ['el ático', 'el cajón (ящик, тумбочка)', 'el ascensor', 'el callejón'],
+        correct: 1,
+        explanation: 'El cajón = ящик (стола, комода) — выдвижной отсек мебели'
+      },
+      {
+        sentence: 'Carlos estaba muy _____ porque no encontraba la caja que necesitaba para el avión.',
+        options: ['tranquilo', 'libre', 'enfadado (злой, сердитый)', 'sorprendido'],
+        correct: 2,
+        explanation: 'Enfadado = злой, сердитый — испытывающий злость или раздражение'
+      },
+      {
+        sentence: 'No _____ tanto, que los vecinos van a llamar a la policía si te siguen oyendo así.',
+        options: ['duermas', 'grites (кричи)', 'fumes', 'comas'],
+        correct: 1,
+        explanation: 'Gritar = кричать — говорить очень громко'
+      },
+      {
+        sentence: 'Pepa fumaba un _____ en secreto en la terraza para que Carlos no se diera cuenta.',
+        options: ['el porro', 'el cigarrillo (сигарета)', 'el cajón', 'el tatuaje'],
+        correct: 1,
+        explanation: 'El cigarrillo = сигарета — табачное изделие для курения'
+      }
     ]
   },
 
@@ -46574,34 +46776,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-11-2': {
     id: 'ex-17-12-11-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 11 - Imperativo',
-    description: 'Выберите правильную форму Imperativo (tú)',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 11',
+    description: 'Напишите правильную форму глагола (Imperativo positivo, tú)',
+    showAnswerOption: true,
     questions: [
-      {
-        text: '¡_____ la caja ahora mismo! (dar)',
-        options: ['da', 'das', 'des', 'dé'],
-        correct: 0,
-        explanation: 'Imperativo afirmativo tú: da (dar)'
-      },
-      {
-        text: '¡_____ tranquilo, Carlos! (estar)',
-        options: ['estés', 'está', 'estás', 'estar'],
-        correct: 1,
-        explanation: 'Imperativo afirmativo tú: está (estar)'
-      },
-      {
-        text: '¡No _____ así! (ponerse)',
-        options: ['ponte', 'te pones', 'te pongas', 'pongas'],
-        correct: 2,
-        explanation: 'Imperativo negativo tú: no te pongas (ponerse)'
-      },
-      {
-        text: '¡_____ al avión o lo pierdes! (coger)',
-        options: ['coge', 'coges', 'cojas', 'cogiendo'],
-        correct: 0,
-        explanation: 'Imperativo afirmativo tú: coge (coger)'
-      }
+      { sentence: '¡_____ la caja de galletas ahora mismo, Pepa, que la necesito! (dar)', correct: 'da' },
+      { sentence: '¡_____ tranquilo, Carlos! Está todo bien, no hay ningún problema. (estar)', correct: 'está' },
+      { sentence: '¡_____ al avión o lo perderás y tendrás que esperar hasta mañana! (coger)', correct: 'coge' },
+      { sentence: '¡_____ la maleta rápido y sal de una vez si no quieres llegar tarde! (coger)', correct: 'coge' },
+      { sentence: '¡_____ todo lo que ha pasado esta noche y vuelve a casa, Carlos! (olvidar)', correct: 'olvida' }
     ]
   },
 
@@ -46612,25 +46796,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Карлос был очень злой.', correct: 'Carlos estaba muy enfadado.', alternatives: ['Carlos estaba furioso.'] },
-      { russian: 'Пепа дала ему коробку из кухонного ящика.', correct: 'Pepa le dio la caja del cajón de la cocina.', alternatives: ['Pepa sacó la caja del cajón y se la dio.'] },
-      { russian: 'Карлос ушёл, не сказав ни слова.', correct: 'Carlos se fue sin decir ni una palabra.', alternatives: ['Carlos salió sin decir nada.'] },
-      { russian: 'Ему нужно успеть на самолёт в шесть.', correct: 'Tiene que coger el avión de las seis.', alternatives: ['Tiene que tomar el avión a las seis.'] }
+      { russian: 'Скажи мне прямо, что произошло этой ночью, и я обещаю, что не буду злиться.', correct: 'Dime directamente qué pasó esta noche y te prometo que no me voy a enfadar.', alternatives: ['Cuéntame lo que pasó esta noche y juro que no me enfadaré.'] },
+      { russian: 'Возьми коробку из кухонного ящика — она там с самого начала, я её не трогала.', correct: 'Coge la caja del cajón de la cocina; está ahí desde el principio, yo no la he tocado.', alternatives: ['Toma la caja del cajón de la cocina, yo no la he movido de ahí.'] },
+      { russian: 'Садись на самолёт немедленно — иначе опоздаешь на важную встречу в Мадриде.', correct: 'Coge el avión ahora mismo; si no, llegarás tarde a la reunión importante en Madrid.', alternatives: ['Toma el avión de inmediato o perderás la reunión en Madrid.'] },
+      { russian: 'Карлос взял коробку, молча положил её в сумку и ушёл, хлопнув дверью.', correct: 'Carlos cogió la caja, la metió en la bolsa en silencio y se fue dando un portazo.', alternatives: ['Carlos agarró la caja, la guardó en su bolsa y se marchó sin decir nada.'] },
+      { russian: 'Успокойся и послушай меня — есть объяснение всему, что ты видел сегодня ночью.', correct: 'Cálmate y escúchame; hay una explicación para todo lo que has visto esta noche.', alternatives: ['Tranquilízate y escucha, que todo tiene explicación.'] }
     ]
   },
 
   'ex-17-12-12-vocab': {
     id: 'ex-17-12-12-vocab',
-    type: 'vocabulary',
+    type: 'grammar',
     title: 'Словарь: Capítulo 12',
-    description: 'Выберите правильный перевод слова',
+    description: 'Выберите слово, подходящее по смыслу фразы',
     questions: [
-      { spanish: 'la funeraria', options: ['больница', 'ресторан', 'бюро похоронных услуг', 'банк'], correct: 2 },
-      { spanish: 'la sucursal', options: ['склад', 'завод', 'офис', 'филиал, дочернее предприятие'], correct: 3 },
-      { spanish: 'asociarse', options: ['расставаться', 'бороться', 'объединяться, создавать партнёрство', 'конкурировать'], correct: 2 },
-      { spanish: 'las piedras preciosas', options: ['простые камни', 'строительные материалы', 'драгоценные камни', 'минералы'], correct: 2 },
-      { spanish: 'dar el cambiazo', options: ['менять деньги', 'делать подмену', 'менять цену', 'переодеваться'], correct: 1 },
-      { spanish: 'las cenizas', options: ['кости', 'пепел, зола', 'кровь', 'пыль'], correct: 1 }
+      {
+        sentence: 'La _____ se encargó de todos los trámites del funeral y entregó las cenizas a la familia.',
+        options: ['la funeraria (бюро похоронных услуг)', 'la sucursal', 'la cárcel', 'la terraza'],
+        correct: 0,
+        explanation: 'La funeraria = бюро похоронных услуг — предприятие, организующее похороны'
+      },
+      {
+        sentence: 'La empresa tiene una _____ en Ámsterdam que gestiona todos los contratos europeos.',
+        options: ['la funeraria', 'la sucursal (филиал, дочернее предприятие)', 'la recompensa', 'la libertad'],
+        correct: 1,
+        explanation: 'La sucursal = филиал, дочернее предприятие — отделение компании в другом городе'
+      },
+      {
+        sentence: 'Albert y el químico decidieron _____ para crear juntos el negocio de los diamantes.',
+        options: ['escapar', 'asociarse (объединиться, создать партнёрство)', 'confesar', 'planear'],
+        correct: 1,
+        explanation: 'Asociarse = объединяться, создавать партнёрство — вступить в деловое партнёрство'
+      },
+      {
+        sentence: 'El proceso transforma las cenizas de los fallecidos en _____ que la familia puede guardar.',
+        options: ['las piedras preciosas (драгоценные камни)', 'las amenazas', 'las deudas', 'las pruebas'],
+        correct: 0,
+        explanation: 'Las piedras preciosas = драгоценные камни — ценные минералы, например бриллианты'
+      },
+      {
+        sentence: 'El abogado corrupto _____ al maletín de Albert por uno lleno de harina en el hotel.',
+        options: ['le dio el cambiazo (подменил)', 'le dio la recompensa', 'le dio el anticipo', 'le dio la sentencia'],
+        correct: 0,
+        explanation: 'Dar el cambiazo = сделать подмену — незаметно заменить один предмет другим'
+      },
+      {
+        sentence: 'Cuando la hoguera se apagó, solo quedaron _____ grises que el viento dispersó por el jardín.',
+        options: ['las cenizas (пепел, зола)', 'las pruebas', 'las sucursales', 'las recompensas'],
+        correct: 0,
+        explanation: 'Las cenizas = пепел, зола — то, что остаётся после сгорания органического материала'
+      }
     ]
   },
 
@@ -46669,34 +46884,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-12-2': {
     id: 'ex-17-12-12-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 12 - Pretérito Pluscuamperfecto',
-    description: 'Выберите правильную форму глагола',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 12',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: 'El abogado _____ el maletín en el hotel. (cambiar)',
-        options: ['cambió', 'había cambiado', 'ha cambiado', 'cambiaba'],
-        correct: 1,
-        explanation: 'Pretérito Pluscuamperfecto: había cambiado - действие произошло раньше другого прошлого действия'
-      },
-      {
-        text: 'Los dos químicos _____ juntos antes de separarse. (trabajar)',
-        options: ['trabajaron', 'habían trabajado', 'trabajaban', 'han trabajado'],
-        correct: 1,
-        explanation: 'Pluscuamperfecto: habían trabajado - до момента рассказа'
-      },
-      {
-        text: 'Albert _____ una sucursal en Holanda. (abrir)',
-        options: ['abrió', 'había abierto', 'abría', 'ha abierto'],
-        correct: 0,
-        explanation: 'Pretérito Indefinido: abrió - конкретное прошлое действие в рассказе'
-      },
-      {
-        text: 'Pepa y Albert _____ muy amigos en esos días. (hacerse)',
-        options: ['se hacían', 'se hicieron', 'se habían hecho', 'se han hecho'],
-        correct: 1,
-        explanation: 'Pretérito Indefinido: se hicieron - завершённое изменение состояния в прошлом'
-      }
+      { sentence: 'El abogado corrupto _____ el maletín de Albert por uno lleno de harina. (cambiar)', correct: 'cambió' },
+      { sentence: 'Albert _____ una sucursal de su funeraria en Ámsterdam para gestionar los contratos europeos. (abrir)', correct: 'abrió' },
+      { sentence: 'Pepa y Albert _____ muy buenos amigos durante esos días tan extraños en Barcelona. (hacerse)', correct: 'se hicieron' },
+      { sentence: 'Albert _____ el negocio de los diamantes porque conoció a un químico holandés extraordinario. (crear)', correct: 'creó' },
+      { sentence: 'El químico _____ que podía transformar cenizas humanas en diamantes auténticos. (descubrir)', correct: 'descubrió' }
     ]
   },
 
@@ -46707,10 +46904,11 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'В чемодане были пепел, а не кокаин.', correct: 'En el maletín había cenizas, no cocaína.', alternatives: ['El maletín contenía cenizas, no coca.'] },
-      { russian: 'Адвокат подменил чемодан в отеле.', correct: 'El abogado cambió el maletín en el hotel.', alternatives: ['El abogado le dio el cambiazo en el hotel.'] },
-      { russian: 'Из пепла можно делать бриллианты.', correct: 'Con las cenizas se pueden hacer diamantes.', alternatives: ['De las cenizas se podían hacer diamantes.'] },
-      { russian: 'Альберт хочет остаться в Барселоне на несколько дней.', correct: 'Albert quiere quedarse unos días en Barcelona.', alternatives: ['Albert se queda unos días en Barcelona.'] }
+      { russian: 'Все думали, что в портфеле кокаин, но на самом деле там был пепел кремированных людей.', correct: 'Todos pensaban que en el maletín había cocaína, pero en realidad contenía cenizas de personas cremadas.', alternatives: ['Creyeron que era cocaína pero el maletín contenía cenizas de difuntos.'] },
+      { russian: 'Нечестный адвокат подменил портфель Альберта на один с мукой прямо в отеле в Кастельдефельсе.', correct: 'El abogado corrupto le dio el cambiazo al maletín de Albert por uno lleno de harina en el hotel de Castelldefels.', alternatives: ['El abogado deshonesto cambió el maletín de Albert por otro lleno de harina en el hotel.'] },
+      { russian: 'Голландский химик открыл революционный способ превращать пепел умерших в настоящие бриллианты.', correct: 'El químico holandés descubrió una forma revolucionaria de convertir las cenizas de los fallecidos en diamantes auténticos.', alternatives: ['Un químico holandés encontró la manera de transformar cenizas humanas en diamantes reales.'] },
+      { russian: 'Альберт открыл филиал своего похоронного бюро в Барселоне, потому что рынок здесь очень перспективный.', correct: 'Albert abrió una sucursal de su funeraria en Barcelona porque el mercado aquí es muy prometedor.', alternatives: ['Albert decidió abrir una sucursal de su negocio en Barcelona por el potencial del mercado.'] },
+      { russian: 'Несмотря на весь хаос, Пепа и Альберт стали настоящими друзьями за эти несколько безумных дней.', correct: 'A pesar de todo el caos, Pepa y Albert se hicieron buenos amigos durante esos pocos días tan locos.', alternatives: ['Pese al caos, Pepa y Albert se hicieron amigos durante aquellos días tan extraños.'] }
     ]
   },
 
@@ -46749,34 +46947,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-17-12-13-2': {
     id: 'ex-17-12-13-2',
-    type: 'grammar',
-    title: 'Грамматика: Capítulo 13 - Condicional e Indicativo',
-    description: 'Выберите правильную форму глагола',
+    type: 'fillblank',
+    title: 'Грамматика: Capítulo 13',
+    description: 'Напишите правильную форму глагола',
+    showAnswerOption: true,
     questions: [
-      {
-        text: '¿Te _____ más despacio? (gustar)',
-        options: ['gusta', 'gustaría', 'gustaba', 'gustará'],
-        correct: 1,
-        explanation: 'Condicional: gustaría - вежливый вопрос или предположение'
-      },
-      {
-        text: 'Su madre quiere saber si _____ acompañarla al dentista. (poder)',
-        options: ['puede', 'podía', 'pueda', 'podría'],
-        correct: 0,
-        explanation: 'Indicativo Presente: puede - косвенный вопрос в зависимости от "saber si"'
-      },
-      {
-        text: 'Carlos le _____ desde que se fue. (no llamar)',
-        options: ['no llama', 'no ha llamado', 'no llamó', 'no llamaba'],
-        correct: 1,
-        explanation: 'Pretérito Perfecto: no ha llamado - результат ощущается в настоящем'
-      },
-      {
-        text: 'Mis clientes nunca _____ (quejarse)',
-        options: ['se quejan', 'se quejaron', 'se quejarán', 'se han quejado'],
-        correct: 0,
-        explanation: 'Presente de Indicativo: se quejan - habitual truth (клиенты Альберта — покойники)'
-      }
+      { sentence: 'Carlos no _____ a Pepa desde que se fue a Madrid esa misma mañana. (llamar)', correct: 'ha llamado' },
+      { sentence: 'Albert _____ en Barcelona varios días y ha conocido muchos rincones bonitos de la ciudad. (quedarse)', correct: 'se ha quedado' },
+      { sentence: 'Pepa _____ que Albert le gusta más que Carlos, aunque eso la confunde bastante. (reconocer)', correct: 'ha reconocido' },
+      { sentence: 'La madre de Pepa _____ varias veces hoy para pedirle que la acompañe al dentista. (llamar)', correct: 'ha llamado' },
+      { sentence: 'Albert le _____ a Pepa que ser taxista debe de ser muy divertido porque conoces a mucha gente. (decir)', correct: 'ha dicho' }
     ]
   },
 
@@ -46787,10 +46967,11 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Адвоката зовут Роберто Алькасар.', correct: 'El abogado se llama Roberto Alcázar.', alternatives: ['El abogado se llama Roberto Alcázar.'] },
-      { russian: 'Карлос не звонил ей с тех пор, как уехал.', correct: 'Carlos no la ha llamado desde que se fue.', alternatives: ['Carlos no ha llamado desde que se marchó.'] },
-      { russian: 'Мои клиенты никогда не жалуются.', correct: 'Mis clientes nunca se quejan.', alternatives: ['Mis clientes no se quejan nunca.'] },
-      { russian: 'Альберт ей нравится больше, чем Карлос.', correct: 'Albert le gusta más que Carlos.', alternatives: ['Pepa prefiere a Albert que a Carlos.'] }
+      { russian: 'С тех пор как Карлос уехал в Мадрид, он ни разу не позвонил Пепе — ни сообщения, ни слова.', correct: 'Desde que Carlos se fue a Madrid, no ha llamado a Pepa ni una sola vez; ni mensaje ni nada.', alternatives: ['Carlos no la ha llamado desde que se marchó a Madrid.'] },
+      { russian: 'Альберт остался в Барселоне на несколько дней и успел познакомиться с самыми красивыми уголками города.', correct: 'Albert se ha quedado en Barcelona unos días y ha podido conocer los rincones más bonitos de la ciudad.', alternatives: ['Albert ha pasado varios días en Barcelona y ha conocido muchos lugares bonitos.'] },
+      { russian: 'Пепа наконец признала себе, что Альберт нравится ей гораздо больше, чем когда-либо нравился Карлос.', correct: 'Pepa por fin ha reconocido para sí misma que Albert le gusta mucho más de lo que nunca le gustó Carlos.', alternatives: ['Pepa ha reconocido que Albert le gusta más que Carlos.'] },
+      { russian: 'Важно, чтобы Пепа не принимала поспешных решений — пусть сначала подумает, что действительно хочет.', correct: 'Es importante que Pepa no tome decisiones precipitadas; que primero piense qué es lo que realmente quiere.', alternatives: ['Es importante que Pepa no se apresure a decidir y que piense bien lo que quiere.'] },
+      { russian: 'Скажи мне честно: ты действительно веришь, что у таксистки и похоронщика из Новой Зеландии есть будущее?', correct: 'Dime con sinceridad: ¿de verdad crees que una taxista y un empresario de pompas fúnebres de Nueva Zelanda tienen futuro?', alternatives: ['Cuéntame la verdad: ¿crees que Pepa y Albert, la taxista y el neozelandés, pueden tener futuro juntos?'] }
     ]
   }
 }
