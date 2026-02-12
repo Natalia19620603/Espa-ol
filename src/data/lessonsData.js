@@ -11183,6 +11183,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Un día en el parque',
         videoUrl: '/video/Un día en el parque M8C4.mp4'
+      },
+      {
+        tab: 'Costumbres diferentes comida',
+        videoUrl: '/video/Costumbres diferentes comida M8C4.mp4'
       }
     ],
     grammar: {
@@ -45409,16 +45413,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     title: 'Словарь: Capítulo 1',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'las cenizas', options: ['снег', 'лёд', 'пепел, зола', 'вода'], correct: 2 },
-      { spanish: 'caliente', options: ['холодный', 'тёплый, горячий', 'мокрый', 'сухой'], correct: 1 },
-      { spanish: 'el incendio', options: ['наводнение', 'землетрясение', 'ураган', 'пожар'], correct: 3 },
-      { spanish: 'el bombero', options: ['врач', 'полицейский', 'пожарный', 'водитель'], correct: 2 },
-      { spanish: 'arder', options: ['таять', 'замерзать', 'гореть, пылать', 'плавать'], correct: 2 },
-      { spanish: 'el humo', options: ['огонь', 'дым', 'пепел', 'искра'], correct: 1 },
-      { spanish: 'la llama', options: ['дым', 'пепел', 'пламя, огонь', 'вода'], correct: 2 },
-      { spanish: 'el edificio', options: ['улица', 'здание', 'парк', 'мост'], correct: 1 },
-      { spanish: 'sospechar', options: ['доверять', 'подозревать', 'знать', 'видеть'], correct: 1 },
-      { spanish: 'la periodista', options: ['учительница', 'врач', 'журналистка', 'певица'], correct: 2 }
+      { spanish: 'las cenizas', options: ['снег', 'пыль', 'пепел, зола', 'туман'], correct: 2 },
+      { spanish: 'caliente', options: ['холодный', 'влажный', 'горячий, тёплый', 'мокрый'], correct: 2 },
+      { spanish: 'la periodista', options: ['учительница', 'врач', 'певица', 'журналистка'], correct: 3 },
+      { spanish: 'exigente', options: ['добрый', 'слабый', 'ленивый', 'требовательный, придирчивый'], correct: 3 },
+      { spanish: 'invertir', options: ['тратить', 'вкладывать, инвестировать', 'терять', 'искать'], correct: 1 },
+      { spanish: 'los ahorros', options: ['долги', 'налоги', 'сбережения, накопления', 'штрафы'], correct: 2 }
     ]
   },
 
@@ -45429,22 +45429,40 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Quién investiga el incendio?',
-        options: ['Un policía', 'Una periodista', 'Un bombero', 'Un detective'],
+        text: '¿Cómo se llama la taxista protagonista?',
+        options: ['Clara', 'Pepa', 'María', 'Laura'],
         correct: 1,
-        explanation: 'La protagonista es una periodista que investiga el incendio.'
+        explanation: 'La protagonista se llama Pepa Villa.'
       },
       {
-        text: '¿Qué queda después del incendio?',
-        options: ['Agua', 'Hielo', 'Cenizas', 'Humo solamente'],
-        correct: 2,
-        explanation: 'Después del incendio quedan cenizas calientes.'
+        text: '¿Por qué está de mal humor Pepa?',
+        options: ['Porque está enferma', 'Porque ha discutido con su pareja Carlos', 'Porque llegó tarde al trabajo', 'Porque tiene hambre'],
+        correct: 1,
+        explanation: 'Pepa está de mal humor porque acaba de pelearse con Carlos, su pareja.'
       },
       {
-        text: '¿Cómo están las cenizas?',
-        options: ['Frías', 'Húmedas', 'Calientes', 'Negras'],
+        text: '¿Qué trabajo tenía Pepa antes de ser taxista?',
+        options: ['Profesora', 'Médica', 'Empleada en una multinacional', 'Abogada'],
         correct: 2,
-        explanation: 'Las cenizas todavía están calientes.'
+        explanation: 'Antes tenía un empleo estable en una multinacional.'
+      },
+      {
+        text: '¿Qué anuncia Carlos al principio?',
+        options: ['Que se van de vacaciones', 'Que se va a vivir a Madrid por un negocio', 'Que quiere casarse', 'Que busca trabajo'],
+        correct: 1,
+        explanation: 'Carlos anuncia que tiene un negocio en Madrid y que se va mañana.'
+      },
+      {
+        text: '¿Qué es Carlos de profesión?',
+        options: ['Médico', 'Arquitecto', 'Abogado con máster', 'Taxista'],
+        correct: 2,
+        explanation: 'Carlos es abogado y tiene un máster.'
+      },
+      {
+        text: '¿Cuántos novios ha tenido Pepa en los últimos cinco años?',
+        options: ['Tres', 'Cuatro', 'Cinco', 'Dos'],
+        correct: 2,
+        explanation: 'Pepa ha cambiado de novio cinco veces en los últimos cinco años.'
       }
     ]
   },
@@ -45456,28 +45474,40 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Выберите правильную форму глагола в Pretérito Indefinido',
     questions: [
       {
-        text: 'El incendio _____ toda la noche. (arder)',
-        options: ['ardió', 'ardía', 'ha ardido', 'ardería'],
-        correct: 0,
-        explanation: 'Pretérito Indefinido: ardió (3 лицо ед.ч.)'
-      },
-      {
-        text: 'Los bomberos _____ rápidamente. (llegar)',
-        options: ['llegaban', 'llegaron', 'llegan', 'llegarán'],
+        text: 'Pepa _____ con Carlos esta mañana. (discutir)',
+        options: ['discutía', 'discutió', 'ha discutido', 'discutirá'],
         correct: 1,
-        explanation: 'Pretérito Indefinido: llegaron (3 лицо мн.ч.)'
+        explanation: 'Pretérito Indefinido: discutió - конкретное завершённое действие'
       },
       {
-        text: 'La periodista _____ al lugar del incendio. (ir)',
-        options: ['fue', 'iba', 'ha ido', 'irá'],
-        correct: 0,
-        explanation: 'Pretérito Indefinido: fue (неправ. глагол ir)'
-      },
-      {
-        text: 'Nadie _____ qué pasó. (saber)',
-        options: ['sabía', 'supo', 'sabe', 'sabrá'],
+        text: 'Carlos _____ que se iba a Madrid. (decir)',
+        options: ['decía', 'dijo', 'ha dicho', 'dirá'],
         correct: 1,
-        explanation: 'Pretérito Indefinido: supo (неправ. глагол saber)'
+        explanation: 'Pretérito Indefinido: dijo (неправильный глагол decir)'
+      },
+      {
+        text: 'Pepa _____ el carné de conductor profesional. (sacar)',
+        options: ['sacaba', 'sacó', 'ha sacado', 'sacará'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: sacó - завершённое действие в прошлом'
+      },
+      {
+        text: 'Pepa _____ su Skoda Octavia hace unos años. (comprar)',
+        options: ['compraba', 'compró', 'ha comprado', 'comprará'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: compró - конкретное прошлое действие'
+      },
+      {
+        text: 'Carlos _____ al reloj y se fue. (mirar)',
+        options: ['miraba', 'miró', 'ha mirado', 'mirará'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: miró - конкретный момент'
+      },
+      {
+        text: 'Carlos y Pepa _____ durante casi una hora. (discutir)',
+        options: ['discutían', 'discutieron', 'han discutido', 'discutirán'],
+        correct: 1,
+        explanation: 'Pretérito Indefinido: discutieron - завершённое действие'
       }
     ]
   },
@@ -45489,10 +45519,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Пожар начался ночью.', correct: 'El incendio empezó por la noche.', alternatives: ['El incendio comenzó por la noche.'] },
-      { russian: 'Пожарные приехали быстро.', correct: 'Los bomberos llegaron rápidamente.', alternatives: ['Los bomberos vinieron rápido.'] },
-      { russian: 'Пепел ещё был горячим.', correct: 'Las cenizas todavía estaban calientes.', alternatives: ['Las cenizas aún estaban calientes.'] },
-      { russian: 'Журналистка начала расследование.', correct: 'La periodista empezó la investigación.', alternatives: ['La periodista comenzó la investigación.'] }
+      { russian: 'Пепа поссорилась с Карлосом этим утром.', correct: 'Pepa discutió con Carlos esta mañana.', alternatives: ['Pepa se peleó con Carlos esta mañana.'] },
+      { russian: 'Карлос объявил, что уезжает в Мадрид.', correct: 'Carlos anunció que se iba a Madrid.', alternatives: ['Carlos dijo que se iba a Madrid.'] },
+      { russian: 'Пепа решила стать таксистом.', correct: 'Pepa decidió hacerse taxista.', alternatives: ['Pepa decidió ser taxista.'] },
+      { russian: 'Они почти год жили вместе.', correct: 'Llevaban casi un año viviendo juntos.', alternatives: ['Vivían juntos casi un año.'] },
+      { russian: 'Карлосу не нравилась её работа.', correct: 'A Carlos no le gustaba su trabajo.', alternatives: ['A Carlos no le gustaba que Pepa fuera taxista.'] },
+      { russian: 'Пепа была в очень плохом настроении.', correct: 'Pepa estaba de muy mal humor.', alternatives: ['Pepa tenía muy mal humor.'] }
     ]
   },
 
@@ -45502,14 +45534,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     title: 'Словарь: Capítulo 2',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'la investigación', options: ['прогулка', 'расследование, исследование', 'праздник', 'встреча'], correct: 1 },
-      { spanish: 'el detective', options: ['журналист', 'полицейский', 'детектив', 'судья'], correct: 2 },
-      { spanish: 'la pista', options: ['дорога', 'след, подсказка', 'карта', 'записка'], correct: 1 },
-      { spanish: 'el testigo', options: ['обвиняемый', 'судья', 'адвокат', 'свидетель'], correct: 3 },
-      { spanish: 'declarar', options: ['молчать', 'кричать', 'заявлять, показывать', 'слушать'], correct: 2 },
-      { spanish: 'el sospechoso', options: ['виновный', 'невиновный', 'подозреваемый', 'свидетель'], correct: 2 },
-      { spanish: 'el crimen', options: ['закон', 'порядок', 'преступление', 'наказание'], correct: 2 },
-      { spanish: 'el barrio', options: ['город', 'район, квартал', 'улица', 'дом'], correct: 1 }
+      { spanish: 'el accidente', options: ['праздник', 'встреча', 'авария, несчастный случай', 'урок'], correct: 2 },
+      { spanish: 'destrozado', options: ['новый', 'чистый', 'целый', 'разбитый, уничтоженный'], correct: 3 },
+      { spanish: 'el freno', options: ['двигатель', 'колесо', 'тормоз', 'руль'], correct: 2 },
+      { spanish: 'herir', options: ['лечить', 'помогать', 'ранить, оскорблять', 'чинить'], correct: 2 },
+      { spanish: 'el anticipo', options: ['скидка', 'долг', 'штраф', 'аванс, задаток'], correct: 3 },
+      { spanish: 'obedecer', options: ['командовать', 'игнорировать', 'слушаться, повиноваться', 'отказывать'], correct: 2 },
+      { spanish: 'sorprendido', options: ['обрадованный', 'грустный', 'злой', 'удивлённый'], correct: 3 },
+      { spanish: 'la marcha atrás', options: ['первая передача', 'задний ход', 'нейтральная', 'вторая передача'], correct: 1 },
+      { spanish: 'a todo riesgo', options: ['без страховки', 'страховка от всех рисков', 'налог', 'гарантия'], correct: 1 },
+      { spanish: 'inclinarse', options: ['падать', 'прыгать', 'вставать', 'наклоняться, склоняться'], correct: 3 }
     ]
   },
 
@@ -45520,22 +45554,64 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Qué hace la protagonista en el capítulo 2?',
-        options: ['Descansa', 'Investiga el incendio', 'Viaja', 'Trabaja en casa'],
+        text: '¿Por qué choca Pepa con el Ferrari?',
+        options: ['Porque el freno no funciona', 'Porque acelera para pasar el semáforo en rojo', 'Porque no ve la calle', 'Porque está cansada'],
         correct: 1,
-        explanation: 'La protagonista investiga el incendio buscando pistas.'
+        explanation: 'Pepa ve el semáforo en amarillo y acelera, pero un Ferrari está cruzando.'
       },
       {
-        text: '¿Con quién habla la periodista?',
-        options: ['Con el alcalde', 'Con los testigos', 'Con el juez', 'Con el abogado'],
+        text: '¿Cómo está el Ferrari después del accidente?',
+        options: ['Solo tiene una pequeña marca', 'Está completamente destrozado', 'Está bien', 'Tiene solo el parachoques roto'],
         correct: 1,
-        explanation: 'La periodista habla con los testigos del incendio.'
+        explanation: 'La parte delantera del Octavia está hundida en el lateral del Ferrari, que queda destrozado.'
       },
       {
-        text: '¿Qué encuentra la periodista?',
-        options: ['Dinero', 'Una pista importante', 'Un arma', 'Una carta'],
+        text: '¿Están heridos los dos hombres del Ferrari?',
+        options: ['Sí, gravemente', 'Sí, levemente', 'No, no les ha pasado nada', 'Uno está herido'],
+        correct: 2,
+        explanation: 'Afortunadamente, no les ha pasado nada.'
+      },
+      {
+        text: '¿De qué país es Albert?',
+        options: ['De Australia', 'De Holanda', 'De Nueva Zelanda', 'De Alemania'],
+        correct: 2,
+        explanation: 'Albert es de Nueva Zelanda.'
+      },
+      {
+        text: '¿Adónde quiere ir Albert con el taxi de Pepa?',
+        options: ['Al aeropuerto', 'Al centro de Barcelona', 'A Castelldefels', 'A Madrid'],
+        correct: 2,
+        explanation: 'Albert quiere ir a Castelldefels, y rápido.'
+      },
+      {
+        text: '¿Qué le ofrece Albert a Pepa?',
+        options: ['Un café', 'Contratarla full time por dos días', 'Llevarla al aeropuerto', 'Prestarle dinero'],
         correct: 1,
-        explanation: 'La periodista encuentra una pista importante.'
+        explanation: 'Albert le pide a Pepa que trabaje para él durante un par de días.'
+      },
+      {
+        text: '¿Cuánto dinero le da Albert a Pepa como anticipo?',
+        options: ['Cien euros', 'Quinientos euros', 'Seiscientos euros', 'Mil euros'],
+        correct: 3,
+        explanation: 'Albert saca diez billetes de cien euros y se los da: mil euros.'
+      },
+      {
+        text: '¿Cómo reacciona Pepa al ver a Albert?',
+        options: ['Con indiferencia', 'Piensa que es guapísimo y le llevaría al fin del mundo', 'Con miedo', 'Con sorpresa negativa'],
+        correct: 1,
+        explanation: 'Pepa piensa que Albert se parece a Brad Pitt pero más elegante.'
+      },
+      {
+        text: '¿En qué idioma hablan Albert y su acompañante entre ellos?',
+        options: ['En alemán', 'En inglés', 'En holandés', 'En francés'],
+        correct: 2,
+        explanation: 'Hablan en holandés, aunque Pepa cree que es alemán.'
+      },
+      {
+        text: '¿Qué lleva Albert consigo?',
+        options: ['Una mochila', 'Un maletín', 'Una maleta grande', 'Una bolsa de plástico'],
+        correct: 1,
+        explanation: 'Albert lleva un maletín a su lado.'
       }
     ]
   },
@@ -45547,22 +45623,64 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Выберите правильную форму глагола в Pretérito Imperfecto',
     questions: [
       {
-        text: 'Cuando era pequeña, siempre _____ las noticias. (leer)',
-        options: ['leyó', 'leía', 'ha leído', 'leerá'],
+        text: 'Pepa _____ de muy mal humor cuando conducía. (estar)',
+        options: ['estuvo', 'estaba', 'ha estado', 'estará'],
         correct: 1,
-        explanation: 'Pretérito Imperfecto: leía - описание привычного действия в прошлом'
+        explanation: 'Pretérito Imperfecto: estaba - описание состояния во время действия'
       },
       {
-        text: 'Los testigos _____ muy nerviosos. (estar)',
-        options: ['estuvieron', 'estaban', 'están', 'estarán'],
+        text: 'Los dos hombres _____ muy bien vestidos. (ir)',
+        options: ['fueron', 'iban', 'han ido', 'irán'],
         correct: 1,
-        explanation: 'Pretérito Imperfecto: estaban - описание состояния в прошлом'
+        explanation: 'Pretérito Imperfecto: iban - описание внешности'
       },
       {
-        text: 'Todos _____ qué había pasado. (saber)',
-        options: ['supieron', 'sabían', 'saben', 'sabrán'],
+        text: 'El Ferrari _____ matrícula española. (llevar)',
+        options: ['llevó', 'llevaba', 'ha llevado', 'llevará'],
         correct: 1,
-        explanation: 'Pretérito Imperfecto: sabían - состояние знания в прошлом'
+        explanation: 'Pretérito Imperfecto: llevaba - описание характеристики'
+      },
+      {
+        text: 'Pepa _____ que Albert se parecía a Brad Pitt. (pensar)',
+        options: ['pensó', 'pensaba', 'ha pensado', 'pensará'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: pensaba - мысль в процессе'
+      },
+      {
+        text: 'El Octavia _____ duro como un tanque. (ser)',
+        options: ['fue', 'era', 'ha sido', 'será'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: era - характеристика предмета'
+      },
+      {
+        text: 'Carlos siempre le _____ que conducir un taxi era peligroso. (decir)',
+        options: ['dijo', 'decía', 'ha dicho', 'dirá'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: decía - регулярное действие в прошлом'
+      },
+      {
+        text: 'Albert _____ un maletín a su lado. (llevar)',
+        options: ['llevó', 'llevaba', 'ha llevado', 'llevará'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: llevaba - описание ситуации'
+      },
+      {
+        text: 'Los dos hombres _____ muy altos. (parecer)',
+        options: ['parecieron', 'parecían', 'han parecido', 'parecerán'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: parecían - описание внешности'
+      },
+      {
+        text: 'Pepa _____ que Carlos tenía algo de razón. (reconocer)',
+        options: ['reconoció', 'reconocía', 'ha reconocido', 'reconocerá'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: reconocía - внутреннее состояние'
+      },
+      {
+        text: 'El Ferrari _____ de alquiler. (ser)',
+        options: ['fue', 'era', 'ha sido', 'será'],
+        correct: 1,
+        explanation: 'Pretérito Imperfecto: era - характеристика'
       }
     ]
   },
@@ -45574,9 +45692,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Свидетели видели подозреваемого.', correct: 'Los testigos vieron al sospechoso.', alternatives: ['Los testigos han visto al sospechoso.'] },
-      { russian: 'Детектив искал улики.', correct: 'El detective buscaba las pistas.', alternatives: ['El detective buscó las pistas.'] },
-      { russian: 'Журналистка задавала вопросы.', correct: 'La periodista hacía preguntas.', alternatives: ['La periodista hizo preguntas.'] }
+      { russian: 'Пепа врезалась в красный Феррари.', correct: 'Pepa chocó con un Ferrari rojo.', alternatives: ['Pepa chocó contra un Ferrari rojo.'] },
+      { russian: 'Феррари был полностью разбит.', correct: 'El Ferrari estaba completamente destrozado.', alternatives: ['El Ferrari quedó destrozado.'] },
+      { russian: 'Альберт был из Новой Зеландии.', correct: 'Albert era de Nueva Zelanda.', alternatives: ['Albert venía de Nueva Zelanda.'] },
+      { russian: 'Оба мужчины были очень высокими.', correct: 'Los dos hombres eran muy altos.', alternatives: ['Ambos hombres eran muy altos.'] },
+      { russian: 'Альберт нанял Пепу на два дня.', correct: 'Albert contrató a Pepa por dos días.', alternatives: ['Albert quiso contratar a Pepa por dos días.'] },
+      { russian: 'Альберт заплатил тысячу евро авансом.', correct: 'Albert pagó mil euros como anticipo.', alternatives: ['Albert dio mil euros de anticipo.'] },
+      { russian: 'Пепа думала, что Альберт похож на Брэда Питта.', correct: 'Pepa pensaba que Albert se parecía a Brad Pitt.', alternatives: ['Pepa pensó que Albert era como Brad Pitt.'] },
+      { russian: 'Авария произошла на светофоре.', correct: 'El accidente ocurrió en el semáforo.', alternatives: ['El accidente pasó en el semáforo.'] },
+      { russian: 'К счастью, они не пострадали.', correct: 'Afortunadamente, no les había pasado nada.', alternatives: ['Por suerte, no estaban heridos.'] },
+      { russian: 'Альберт нёс с собой портфель.', correct: 'Albert llevaba un maletín.', alternatives: ['Albert tenía un maletín.'] }
     ]
   },
 
@@ -45586,14 +45711,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     title: 'Словарь: Capítulo 3',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el archivo', options: ['библиотека', 'музей', 'архив, файл', 'офис'], correct: 2 },
-      { spanish: 'la noticia', options: ['книга', 'письмо', 'новость, известие', 'журнал'], correct: 2 },
-      { spanish: 'publicar', options: ['читать', 'писать', 'публиковать, издавать', 'покупать'], correct: 2 },
-      { spanish: 'descubrir', options: ['прятать', 'обнаруживать, открывать', 'забывать', 'терять'], correct: 1 },
-      { spanish: 'el secreto', options: ['правда', 'ложь', 'секрет, тайна', 'слух'], correct: 2 },
-      { spanish: 'esconder', options: ['показывать', 'прятать, скрывать', 'находить', 'искать'], correct: 1 },
-      { spanish: 'la verdad', options: ['ложь', 'секрет', 'правда', 'слух'], correct: 2 },
-      { spanish: 'el peligro', options: ['спокойствие', 'безопасность', 'удача', 'опасность'], correct: 3 }
+      { spanish: 'el vigilante', options: ['водитель', 'охранник, сторож', 'уборщик', 'продавец'], correct: 1 },
+      { spanish: 'el tatuaje', options: ['серьга', 'браслет', 'татуировка', 'кольцо'], correct: 2 },
+      { spanish: 'el ático', options: ['подвал', 'первый этаж', 'мансарда, пентхаус', 'чердак'], correct: 2 },
+      { spanish: 'sin rumbo fijo', options: ['с определённым планом', 'без определённой цели', 'очень быстро', 'медленно'], correct: 1 },
+      { spanish: 'atragantarse', options: ['кашлять', 'чихать', 'поперхнуться', 'зевать'], correct: 2 },
+      { spanish: 'el porro', options: ['сигара', 'трубка', 'сигарета', 'косяк (разг.)'], correct: 3 },
+      { spanish: 'dar un portazo', options: ['открыть дверь', 'закрыть тихо', 'хлопнуть дверью', 'постучать'], correct: 2 },
+      { spanish: 'las patatas bravas', options: ['картошка с кетчупом', 'картошка с острым соусом', 'варёная картошка', 'жареный картофель'], correct: 1 }
     ]
   },
 
@@ -45604,16 +45729,52 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту',
     questions: [
       {
-        text: '¿Qué busca la periodista en el archivo?',
-        options: ['Fotos antiguas', 'Información sobre el propietario', 'Una receta', 'Una dirección'],
-        correct: 1,
-        explanation: 'La periodista busca información sobre el propietario del edificio quemado.'
+        text: '¿Cómo se llama el amigo de Pepa que trabaja en el garaje?',
+        options: ['Carlos', 'Albert', 'Raúl', 'Doro'],
+        correct: 2,
+        explanation: 'Su amigo se llama Raúl.'
       },
       {
-        text: '¿Qué descubre la periodista?',
-        options: ['Que el incendio fue accidental', 'Un secreto importante', 'Que no hay pistas', 'La identidad del bombero'],
+        text: '¿Qué descubre Raúl en el asiento trasero del coche de Pepa?',
+        options: ['Dinero', 'Polvo blanco (cocaína)', 'El maletín de Albert', 'Documentos'],
         correct: 1,
-        explanation: 'La periodista descubre un secreto importante relacionado con el incendio.'
+        explanation: 'Raúl encuentra polvo blanco (farlopa/cocaína) en el asiento trasero.'
+      },
+      {
+        text: '¿Cómo es Raúl físicamente?',
+        options: ['Bajo y gordo', 'Alto y muy delgado con tatuajes y piercings', 'De estatura media sin tatuajes', 'No se describe'],
+        correct: 1,
+        explanation: 'Raúl tiene treinta años, es alto y muy delgado, con tatuajes y piercings.'
+      },
+      {
+        text: '¿Qué decide hacer Pepa después de hablar con Raúl?',
+        options: ['Quedarse en casa', 'Ir a comer algo y dar una vuelta', 'Llamar a la policía', 'Llamar a Carlos'],
+        correct: 1,
+        explanation: 'Pepa decide ir a comer algo y dar una vuelta.'
+      },
+      {
+        text: '¿Qué hay en el cajón de la cocina de Pepa?',
+        options: ['Dinero', 'Una caja de galletas Birba', 'Documentos', 'Una navaja'],
+        correct: 1,
+        explanation: 'Hay una caja de galletas Birba, una marca catalana que Carlos trajo.'
+      },
+      {
+        text: '¿Qué hace Pepa cuando Albert la llama mientras está comiendo patatas bravas?',
+        options: ['Contesta tranquilamente', 'Se atraganta y se mancha la camisa', 'No contesta', 'Se cae al suelo'],
+        correct: 1,
+        explanation: 'Pepa se atraganta con la patata y se mancha la camisa con la salsa.'
+      },
+      {
+        text: '¿Qué quiere Albert cuando llama a Pepa?',
+        options: ['Que ella le lleve al aeropuerto', 'Que pase a recogerle en el hotel de Castelldefels', 'Que le traiga el maletín', 'Que le recomiende un restaurante'],
+        correct: 1,
+        explanation: 'Albert quiere que Pepa pase a recogerle en el hotel.'
+      },
+      {
+        text: '¿Por qué fuma Pepa en secreto en casa?',
+        options: ['Porque es ilegal', 'Porque Carlos no fuma y dice que ella tampoco', 'Porque no tiene ceniceros', 'Porque tiene vergüenza'],
+        correct: 1,
+        explanation: 'En teoría Carlos no fuma y Pepa dice que tampoco, pero sigue fumando en secreto.'
       }
     ]
   },
@@ -45621,26 +45782,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
   'ex-17-12-3-2': {
     id: 'ex-17-12-3-2',
     type: 'grammar',
-    title: 'Грамматика: Capítulo 3 - Pluscuamperfecto',
-    description: 'Выберите правильную форму Pluscuamperfecto',
+    title: 'Грамматика: Capítulo 3 - Pretérito Perfecto',
+    description: 'Выберите правильную форму Pretérito Perfecto',
     questions: [
       {
-        text: 'Cuando llegué, alguien ya _____ los documentos. (destruir)',
-        options: ['destruyó', 'destruía', 'había destruido', 'destruirá'],
+        text: 'Raúl _____ cocaína en el coche de Pepa. (encontrar)',
+        options: ['encontró', 'encontraba', 'ha encontrado', 'encontrará'],
         correct: 2,
-        explanation: 'Pluscuamperfecto: había destruido - действие, завершённое до другого прошлого действия'
+        explanation: 'Pretérito Perfecto: ha encontrado - недавнее открытие'
       },
       {
-        text: 'La periodista _____ algo sospechoso antes. (ver)',
-        options: ['vio', 'veía', 'había visto', 'verá'],
+        text: 'Albert _____ a Pepa por teléfono hoy. (llamar)',
+        options: ['llamó', 'llamaba', 'ha llamado', 'llamará'],
         correct: 2,
-        explanation: 'Pluscuamperfecto: había visto - предшествующее прошедшее'
+        explanation: 'Pretérito Perfecto: ha llamado - действие сегодня'
       },
       {
-        text: 'Nadie _____ la verdad hasta ese momento. (saber)',
-        options: ['supo', 'sabía', 'había sabido', 'sabrá'],
+        text: 'Raúl _____ muchos trabajos en su vida. (tener)',
+        options: ['tuvo', 'tenía', 'ha tenido', 'tendrá'],
         correct: 2,
-        explanation: 'Pluscuamperfecto: había sabido - действие до определённого момента в прошлом'
+        explanation: 'Pretérito Perfecto: ha tenido - жизненный опыт'
+      },
+      {
+        text: '¿_____ ya el coche, Raúl? (limpiar)',
+        options: ['Limpiaste', 'Limpiabas', 'Has limpiado', 'Limpiarás'],
+        correct: 2,
+        explanation: 'Pretérito Perfecto: Has limpiado - вопрос о текущем результате'
+      },
+      {
+        text: 'Pepa _____ sin rumbo por el barrio de Gràcia hoy. (andar)',
+        options: ['anduvo', 'andaba', 'ha andado', 'andará'],
+        correct: 2,
+        explanation: 'Pretérito Perfecto: ha andado - действие сегодня'
+      },
+      {
+        text: 'Carlos _____ unas galletas Birba de Camprodon. (traer)',
+        options: ['trajo', 'traía', 'ha traído', 'traerá'],
+        correct: 2,
+        explanation: 'Pretérito Perfecto: ha traído - результат актуален сейчас'
+      },
+      {
+        text: 'Raúl _____ en la cárcel. (estar)',
+        options: ['estuvo', 'estaba', 'ha estado', 'estará'],
+        correct: 2,
+        explanation: 'Pretérito Perfecto: ha estado - жизненный опыт'
+      },
+      {
+        text: 'Pepa _____ a Albert su número de teléfono. (dar)',
+        options: ['dio', 'daba', 'ha dado', 'dará'],
+        correct: 2,
+        explanation: 'Pretérito Perfecto: ha dado - связь с настоящим'
       }
     ]
   },
@@ -45652,9 +45843,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Переведите предложения с русского на испанский',
     showAnswerOption: true,
     questions: [
-      { russian: 'Кто-то уже уничтожил документы.', correct: 'Alguien ya había destruido los documentos.', alternatives: ['Alguien ya destruyó los documentos.'] },
-      { russian: 'Журналистка обнаружила важную тайну.', correct: 'La periodista descubrió un secreto importante.', alternatives: ['La periodista ha descubierto un secreto importante.'] },
-      { russian: 'Правда была скрыта.', correct: 'La verdad estaba escondida.', alternatives: ['La verdad fue escondida.'] }
+      { russian: 'Рауль нашёл кокаин на заднем сиденье.', correct: 'Raúl ha encontrado cocaína en el asiento trasero.', alternatives: ['Raúl encontró cocaína en el asiento trasero.'] },
+      { russian: 'Альберт позвонил Пепе сегодня.', correct: 'Albert ha llamado a Pepa hoy.', alternatives: ['Albert llamó a Pepa hoy.'] },
+      { russian: 'Рауль провёл время в тюрьме.', correct: 'Raúl ha estado en la cárcel.', alternatives: ['Raúl estuvo en la cárcel.'] },
+      { russian: 'Пепа поперхнулась едой.', correct: 'Pepa se ha atragantado con la comida.', alternatives: ['Pepa se atragantó con la comida.'] },
+      { russian: 'В ящике лежала коробка с галетами Birba.', correct: 'En el cajón había una caja de galletas Birba.', alternatives: ['Había una caja de galletas Birba en el cajón.'] },
+      { russian: 'Пепа хлопнула дверью и вышла на улицу.', correct: 'Pepa dio un portazo y salió a la calle.', alternatives: ['Pepa salió a la calle dando un portazo.'] },
+      { russian: 'Рауль всегда знал много людей.', correct: 'Raúl siempre ha conocido a mucha gente.', alternatives: ['Raúl siempre conoció a mucha gente.'] },
+      { russian: 'Карлос принёс галеты из путешествия.', correct: 'Carlos ha traído galletas de un viaje.', alternatives: ['Carlos trajo galletas de un viaje.'] }
     ]
   },
 
