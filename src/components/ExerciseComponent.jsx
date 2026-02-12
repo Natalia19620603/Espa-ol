@@ -1164,7 +1164,7 @@ function ReadingQuestion({ text, audio, question, onAnswer, showCorrectAnswer, u
           </button>
         </div>
       )}
-      <h3 className={styles.questionText}>{question.question}</h3>
+      <h3 className={styles.questionText}>{question.text || question.question}</h3>
       <div className={styles.options}>
         {question.options.map((option, index) => {
           const isUserAnswer = userAnswer === index
