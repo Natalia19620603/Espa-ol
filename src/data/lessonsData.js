@@ -3453,6 +3453,10 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: 'Poder saber',
         videoUrl: '/video/Poder saber M2C3.mp4'
+      },
+      {
+        tab: '¿Qué, dónde, cómo',
+        videoUrl: '/video/¿Qué, dónde, cómo M2C3.mp4'
       }
     ],
     grammar: {
@@ -3859,6 +3863,16 @@ María: ¡Vamos!`,
     id: 'lesson-3-1',
     title: 'Урок 1: Безличная глагольная форма HAY. Mucho / poco / muy / tanto / tan / tal. Мой дом.',
     moduleId: 'module-3',
+    videoTabs: [
+      {
+        tab: 'Cosas de casa',
+        videoUrl: '/video/Cosas de casa M3C1.mp4'
+      },
+      {
+        tab: 'Cosas de la cocina',
+        videoUrl: '/video/Cosas de la cocina M3C1.mp4'
+      }
+    ],
     grammar: {
       title: 'Безличная глагольная форма HAY',
       intro: `Безличная глагольная форма **hay** (от инфинитива глагола **haber**) соответствует русским глагольным формам **есть, имеется, имеются** (в значении наличия чего-либо в определенном месте).
@@ -9187,6 +9201,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'Grabaciones en el teléfono',
         videoUrl: '/video/Grabaciones en el teléfono presente quedamos M7C2.mp4'
+      },
+      {
+        tab: 'Comer fuera',
+        videoUrl: '/video/Comer fuera M7C2.mp4'
       }
     ]
   },
@@ -11679,6 +11697,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Donde el médico',
         videoUrl: '/video/Donde el médico M10C1.mp4'
+      },
+      {
+        tab: 'Anuncios imperativo',
+        videoUrl: '/video/Anuncios imperativo M10 C1.mp4'
       }
     ],
     grammar: {
