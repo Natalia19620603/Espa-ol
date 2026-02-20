@@ -1811,6 +1811,14 @@ Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. T
       {
         tab: 'Entrevista datos personales',
         videoUrl: '/video/Intrevista datos personales audio M1C5.mp4'
+      },
+      {
+        tab: 'Números de 1 a 20',
+        videoUrl: '/video/Números de 1 a 20 M1C5.mp4'
+      },
+      {
+        tab: 'Números de 20 a 100',
+        videoUrl: '/video/Números de 20 a 100 M1C5.mp4'
       }
     ],
     grammar: {
@@ -3453,6 +3461,10 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: 'Poder saber',
         videoUrl: '/video/Poder saber M2C3.mp4'
+      },
+      {
+        tab: '¿Qué, dónde, cómo',
+        videoUrl: '/video/¿Qué, dónde, cómo M2C3.mp4'
       }
     ],
     grammar: {
@@ -3859,6 +3871,16 @@ María: ¡Vamos!`,
     id: 'lesson-3-1',
     title: 'Урок 1: Безличная глагольная форма HAY. Mucho / poco / muy / tanto / tan / tal. Мой дом.',
     moduleId: 'module-3',
+    videoTabs: [
+      {
+        tab: 'Cosas de casa',
+        videoUrl: '/video/Cosas de casa M3C1.mp4'
+      },
+      {
+        tab: 'Cosas de la cocina',
+        videoUrl: '/video/Cosas de la cocina M3C1.mp4'
+      }
+    ],
     grammar: {
       title: 'Безличная глагольная форма HAY',
       intro: `Безличная глагольная форма **hay** (от инфинитива глагола **haber**) соответствует русским глагольным формам **есть, имеется, имеются** (в значении наличия чего-либо в определенном месте).
@@ -6327,6 +6349,12 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
     id: 'lesson-4-2',
     title: 'Урок 2: ГОРОД. Наречия, Числительные и Глаголы',
     moduleId: 'module-4',
+    videoTabs: [
+      {
+        tab: 'POR y PARA los sanfermines',
+        videoUrl: '/video/POR y PARA los sanfermines M4C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Наречия, Числительные и Глаголы',
       intro: `В этом уроке мы изучим наречия (как они образуются и сравниваются), количественные и порядковые числительные (от 100 до 1 000 000), а также различия между важными глаголами обучения и предложения.`,
@@ -7586,6 +7614,10 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
       {
         tab: '¿Qué pasará saltará',
         videoUrl: '/video/¿Qué pasará saltará M5C1.mp4'
+      },
+      {
+        tab: 'La proxma semana Bilbao',
+        videoUrl: '/video/La proxma semana Bilbao M5C1.mp4'
       }
     ],
     grammar: {
@@ -8105,6 +8137,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'Qué meto en la maleta',
         videoUrl: '/video/Qué meto en la maleta M5C3.mp4'
+      },
+      {
+        tab: 'En la estación avanzado',
+        videoUrl: '/video/En la estación avanzado M5C3.mp4'
       }
     ],
     exercises: ['ex-5-3-1', 'ex-5-3-2', 'ex-5-3-18', 'ex-5-3-4', 'ex-5-3-5', 'ex-5-3-6', 'ex-5-3-7', 'ex-5-3-8', 'ex-5-3-9', 'ex-5-3-10', 'ex-5-3-11', 'ex-5-3-12', 'ex-5-3-13', 'ex-5-3-14', 'ex-5-3-15', 'ex-5-3-16', 'ex-5-3-17', 'ex-5-3-3']
@@ -9187,6 +9223,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'Grabaciones en el teléfono',
         videoUrl: '/video/Grabaciones en el teléfono presente quedamos M7C2.mp4'
+      },
+      {
+        tab: 'Comer fuera',
+        videoUrl: '/video/Comer fuera M7C2.mp4'
       }
     ]
   },
@@ -11679,6 +11719,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Donde el médico',
         videoUrl: '/video/Donde el médico M10C1.mp4'
+      },
+      {
+        tab: 'Anuncios imperativo',
+        videoUrl: '/video/Anuncios imperativo M10 C1.mp4'
       }
     ],
     grammar: {
