@@ -1108,10 +1108,14 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       {
         tab: 'Presentación',
         videoUrl: '/video/Presentación M1C3.mp4'
+      },
+      {
+        tab: 'Ser y estar',
+        videoUrl: '/video/Ser y estar M1C3.mp4'
       }
     ],
     grammar: {
-      title: 'Личные местоимения (Pronombres personales). Глаголы SER и ESTAR',
+      title: 'Личные местоимения (Pronombres personales). Глаголы SER y ESTAR',
       intro: `В испанском языке личные местоимения имеют разные формы по родам во множественном числе. Глаголы **ser** и **estar** оба переводятся как «быть», но используются в разных контекстах.`,
       sections: [
         {
@@ -3441,6 +3445,10 @@ Todos mis amigos y mi familia son muy importantes para mí. Somos todos diferent
       {
         tab: '11',
         videoUrl: '/video/La familia en español M2C3.mp4'
+      },
+      {
+        tab: 'Poder saber',
+        videoUrl: '/video/Poder saber M2C3.mp4'
       }
     ],
     grammar: {
@@ -4662,6 +4670,14 @@ María: ¡Vamos!`,
       {
         tab: 'Cita a ciegas en el restaurante',
         videoUrl: '/video/Cita a ciegas en el restaurante M3C3.mp4'
+      },
+      {
+        tab: 'Pronombres átonos',
+        videoUrl: '/video/Pronombres átonos M3C3.mp4'
+      },
+      {
+        tab: 'Pronombres átonos me te le',
+        videoUrl: '/video/Pronombres átonos me te le M3C3.mp4'
       }
     ],
     grammar: {
@@ -7059,6 +7075,10 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'Medidas y envases distancias PP',
         videoUrl: '/video/Medidas y envases distancias PP M4C4.mp4'
+      },
+      {
+        tab: 'Rutina en casa',
+        videoUrl: '/video/Rutina en casa M4C4.mp4'
       }
     ],
     grammar: {
