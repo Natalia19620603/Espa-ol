@@ -5137,6 +5137,10 @@ María: ¡Vamos!`,
       {
         tab: 'La comida en España tapas churros',
         videoUrl: '/video/La comida en España tapas churros M3C4.mp4'
+      },
+      {
+        tab: 'Me te se nos os les gusta',
+        videoUrl: '/video/Me te se nos os les gusta M3C4.mp4'
       }
     ],
     grammar: {
@@ -6650,6 +6654,10 @@ Ana: No se preocupe. ¡Adiós!`
       {
         tab: 'Paseo por la ciudad mi barrio',
         videoUrl: '/video/Paseo por la ciudad mi barrio M4C2.mp4'
+      },
+      {
+        tab: 'El tiempo libre',
+        videoUrl: '/video/El tiempo libre M4C2.mp4'
       }
     ],
     exercises: ['ex-4-2-1', 'ex-4-2-2', 'ex-4-2-3', 'ex-4-2-4', 'ex-4-2-5', 'ex-4-2-6', 'ex-4-2-7', 'ex-4-2-8']
@@ -6671,6 +6679,10 @@ Ana: No se preocupe. ¡Adiós!`
       {
         tab: 'Transporte Madrid',
         videoUrl: '/video/Transporte Madrid M4C3.mp4'
+      },
+      {
+        tab: 'No está lejos',
+        videoUrl: '/video/No está lejos M4C3.mp4'
       }
     ],
     grammar: {
@@ -7039,6 +7051,14 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'Qué te ha dicho',
         videoUrl: '/video/Que te ha dicho M4C4.mp4'
+      },
+      {
+        tab: 'Salir fuera',
+        videoUrl: '/video/Salir fuera M4C4.mp4'
+      },
+      {
+        tab: 'Medidas y envases distancias PP',
+        videoUrl: '/video/Medidas y envases distancias PP M4C4.mp4'
       }
     ],
     grammar: {
