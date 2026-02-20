@@ -45645,7 +45645,15 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'После того как потеряла стабильную работу, Пепа решила получить права профессионального водителя.', correct: 'Después de perder su trabajo estable, Pepa decidió sacar el carné de conductor profesional.', alternatives: ['Tras quedarse sin trabajo, Pepa decidió hacerse taxista.'] },
       { russian: 'Они почти год жили вместе, но никогда не разговаривали о совместном будущем.', correct: 'Llevaban casi un año viviendo juntos pero nunca hablaban sobre su futuro en común.', alternatives: ['Vivían juntos casi un año pero no hablaban de su futuro.'] },
       { russian: 'Карлосу никогда не нравилась её работа таксистом — он считал её слишком опасной.', correct: 'A Carlos nunca le había gustado su trabajo de taxista porque lo consideraba demasiado peligroso.', alternatives: ['A Carlos no le gustaba que Pepa fuera taxista porque era peligroso.'] },
-      { russian: 'Пепа была в очень плохом настроении весь день после той ужасной ссоры.', correct: 'Pepa estuvo de muy mal humor todo el día después de aquella terrible discusión.', alternatives: ['Pepa tenía muy mal humor todo el día tras la pelea.'] }
+      { russian: 'Пепа была в очень плохом настроении весь день после той ужасной ссоры.', correct: 'Pepa estuvo de muy mal humor todo el día después de aquella terrible discusión.', alternatives: ['Pepa tenía muy mal humor todo el día tras la pelea.'] },
+      { russian: 'Пепа пять раз меняла парня за последние пять лет — она очень требовательная в любви.', correct: 'Pepa ha cambiado de novio cinco veces en los últimos cinco años; es muy exigente en el amor.', alternatives: ['Pepa cambió de novio cinco veces porque es muy exigente.'] },
+      { russian: 'Карлос — адвокат с магистратурой, а Пепа — бывший экономист, который стал таксистом.', correct: 'Carlos es abogado con un máster, y Pepa es una ex economista que se ha hecho taxista.', alternatives: ['Carlos tiene un máster y es abogado, y Pepa dejó la economía para ser taxista.'] },
+      { russian: 'Её Skoda Octavia очень крепкая машина — идеальна для работы таксистом в Барселоне.', correct: 'Su Skoda Octavia es un coche muy resistente, ideal para trabajar de taxista en Barcelona.', alternatives: ['El Skoda Octavia de Pepa es perfecto para trabajar como taxista.'] },
+      { russian: 'Карлос взглянул на часы, схватил свою сумку и вышел за дверь, не оглянувшись назад.', correct: 'Carlos miró el reloj, cogió su bolsa y salió por la puerta sin mirar atrás.', alternatives: ['Carlos miró la hora, agarró la bolsa y se fue sin mirar.'] },
+      { russian: 'Пепа купила свою машину несколько лет назад, потому что ей нужен был надёжный автомобиль для работы.', correct: 'Pepa compró su coche hace unos años porque necesitaba un vehículo fiable para trabajar.', alternatives: ['Pepa se compró el coche hace años porque necesitaba uno resistente.'] },
+      { russian: 'Пепа — красивая худенькая брюнетка, но ей не везёт в любви.', correct: 'Pepa es una chica guapa, delgada y morena, pero no tiene suerte en el amor.', alternatives: ['Pepa es guapa y morena pero siempre le va mal en el amor.'] },
+      { russian: 'Когда ты работаешь таксистом, ты знакомишься со множеством самых разных людей каждый день.', correct: 'Cuando trabajas de taxista, conoces a mucha gente muy diferente cada día.', alternatives: ['Siendo taxista conoces a mucha gente cada día.'] },
+      { russian: 'Карлос считал, что профессия таксиста — это ниже её достоинства, ведь у неё есть диплом экономиста.', correct: 'Carlos pensaba que la profesión de taxista estaba por debajo de su nivel, ya que ella tenía un título de economista.', alternatives: ['Carlos opinaba que ser taxista no estaba a su nivel porque era economista.'] }
     ]
   },
 
@@ -46039,7 +46047,13 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Hoy Pepa _____ sin rumbo fijo por el barrio de Gràcia para aclarar sus ideas. (andar)', correct: 'ha andado' },
       { sentence: 'Carlos _____ unas galletas Birba de Camprodon que están en el cajón de la cocina. (traer)', correct: 'ha traído' },
       { sentence: 'Raúl _____ en la cárcel alguna vez, pero prefiere no hablar de eso. (estar)', correct: 'ha estado' },
-      { sentence: 'Pepa _____ a Albert su número de teléfono para que pueda llamarla cuando quiera. (dar)', correct: 'ha dado' }
+      { sentence: 'Pepa _____ a Albert su número de teléfono para que pueda llamarla cuando quiera. (dar)', correct: 'ha dado' },
+      { sentence: 'Raúl _____ cerveza a todas horas desde que empezó a trabajar en el garaje. (beber)', correct: 'ha bebido' },
+      { sentence: 'Pepa _____ un cigarrillo en secreto porque en teoría ya no fuma. (encender)', correct: 'ha encendido' },
+      { sentence: 'Carlos _____ algunas cosas de las estanterías antes de hablar con Pepa. (llevarse)', correct: 'se ha llevado' },
+      { sentence: 'Raúl _____ el coche de Pepa y lo ha dejado limpio en el garaje. (limpiar)', correct: 'ha limpiado' },
+      { sentence: 'Pepa _____ sin rumbo fijo por las calles de Gràcia para despejarse. (caminar)', correct: 'ha caminado' },
+      { sentence: 'Albert _____ muy educado durante todo el viaje al hotel de Castelldefels. (ser)', correct: 'ha sido' }
     ]
   },
 
@@ -46057,7 +46071,13 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'В кухонном ящике лежала коробка с каталонским печеньем Birba, которое привёз Карлос.', correct: 'En el cajón de la cocina había una caja de galletas Birba catalanas que había traído Carlos.', alternatives: ['En el cajón de la cocina estaba la caja de galletas Birba que trajo Carlos.'] },
       { russian: 'Разозлившись, Пепа хлопнула дверью так сильно, что все соседи её услышали.', correct: 'Enfadada, Pepa ha dado un portazo tan fuerte que todos los vecinos la han oído.', alternatives: ['Pepa dio un portazo tan fuerte que toda la escalera lo oyó.'] },
       { russian: 'За свою жизнь Рауль познакомился с огромным количеством самых разных людей.', correct: 'A lo largo de su vida, Raúl ha conocido a muchísima gente de todo tipo.', alternatives: ['Raúl ha conocido a mucha gente a lo largo de su vida.'] },
-      { russian: 'Карлос привёз из Кампродона свежее печенье Birba, которое всё ещё лежит в ящике.', correct: 'Carlos ha traído galletas Birba frescas de Camprodon y todavía están en el cajón.', alternatives: ['Carlos ha traído galletas de Camprodon que están en el cajón de la cocina.'] }
+      { russian: 'Карлос привёз из Кампродона свежее печенье Birba, которое всё ещё лежит в ящике.', correct: 'Carlos ha traído galletas Birba frescas de Camprodon y todavía están en el cajón.', alternatives: ['Carlos ha traído galletas de Camprodon que están en el cajón de la cocina.'] },
+      { russian: 'Пепа закурила тайком сигарету и стряхнула пепел на красивый ковёр Карлоса.', correct: 'Pepa ha encendido un cigarrillo a escondidas y ha dejado caer la ceniza en la bonita alfombra de Carlos.', alternatives: ['Pepa ha fumado a escondidas y ha tirado la ceniza en la alfombra de Carlos.'] },
+      { russian: 'Рауль почистил машину Пепы и оставил её чистой в гараже, как и обещал.', correct: 'Raúl ha limpiado el coche de Pepa y lo ha dejado limpio en el garaje, como había prometido.', alternatives: ['Raúl le ha limpiado el coche y se lo ha dejado en el garaje.'] },
+      { russian: 'Раньше Рауль работал в нелегальной мастерской, где собирали машины из краденых деталей.', correct: 'Antes Raúl ha trabajado en un taller clandestino donde montaban coches con piezas robadas.', alternatives: ['Raúl ha trabajado antes en un taller ilegal con coches robados.'] },
+      { russian: 'Пепа гуляла без цели по району Грасия, чтобы проветриться после ссоры с Карлосом.', correct: 'Pepa ha caminado sin rumbo fijo por el barrio de Gràcia para despejarse después de la pelea con Carlos.', alternatives: ['Pepa ha paseado sin rumbo por Gràcia para olvidar la discusión.'] },
+      { russian: 'С утра Пепа уже успела повстречаться с аварией, белым порошком и загадочным иностранцем.', correct: 'Desde esta mañana Pepa ya se ha encontrado con un accidente, polvo blanco y un misterioso extranjero.', alternatives: ['Esta mañana Pepa ha vivido un accidente, ha visto polvo blanco y ha conocido a un extranjero.'] },
+      { russian: 'Альберт вёл себя очень вежливо на протяжении всего пути до отеля в Кастельдефельсе.', correct: 'Albert ha sido muy educado durante todo el camino hasta el hotel de Castelldefels.', alternatives: ['Albert se ha portado muy bien durante el viaje al hotel.'] }
     ]
   },
 
@@ -46228,7 +46248,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Sus acreedores le _____ con publicar todo si no pagaba la deuda antes del lunes. (amenazar)', correct: 'amenazaron' },
       { sentence: 'El propietario _____ que nadie descubriría su plan para cobrar el seguro. (creer)', correct: 'creyó' },
       { sentence: 'La periodista _____ los documentos que demostraban el fraude del seguro. (encontrar)', correct: 'encontró' },
-      { sentence: 'El negocio _____ en bancarrota después de solo dos años de funcionamiento. (entrar)', correct: 'entró' }
+      { sentence: 'El negocio _____ en bancarrota después de solo dos años de funcionamiento. (entrar)', correct: 'entró' },
+      { sentence: 'Pepa _____ y se maquilló un poco antes de ir a buscar a Albert al hotel. (peinarse)', correct: 'se peinó' },
+      { sentence: 'Albert _____ a Pepa desde un número oculto y ella no pudo devolverle la llamada. (llamar)', correct: 'llamó' },
+      { sentence: 'La recepcionista del hotel _____ por teléfono cuando Pepa entró a preguntar. (hablar)', correct: 'hablaba' },
+      { sentence: 'Lucy _____ a Pepa en el bar del hotel y le ofreció fuego para el cigarrillo. (conocer)', correct: 'conoció' },
+      { sentence: 'Lucy _____ que Pepa era prostituta porque malinterpretó sus palabras sobre el trabajo. (creer)', correct: 'creyó' },
+      { sentence: 'Pepa _____ en el hotel quince minutos esperando fuera antes de entrar al bar. (esperar)', correct: 'esperó' },
+      { sentence: 'Las chicas del bar _____ altísimas y guapísimas, y Pepa se sintió insignificante. (ser)', correct: 'eran' },
+      { sentence: 'Raúl _____ polvo blanco en el asiento de atrás y pensó que era cocaína. (encontrar)', correct: 'encontró' },
+      { sentence: 'Pepa _____ que Albert era un narcotraficante cuando Raúl le contó lo del polvo. (pensar)', correct: 'pensó' }
     ]
   },
 
@@ -46243,7 +46272,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Кредиторы угрожали ему: либо ты платишь, либо мы забираем всё имущество.', correct: 'Los acreedores le amenazaban: o pagaba o le quitaban todos los bienes.', alternatives: ['Sus acreedores le amenazaron con quitarle todo si no pagaba.'] },
       { russian: 'Когда журналистка нашла документы, она сразу поняла, что это доказательства крупного мошенничества.', correct: 'Cuando la periodista encontró los documentos, entendió enseguida que eran pruebas de un gran fraude.', alternatives: ['La periodista entendió que los documentos probaban el fraude cuando los encontró.'] },
       { russian: 'Владелец долго планировал этот шантаж, думая, что никто никогда его не раскроет.', correct: 'El propietario planeó el chantaje durante mucho tiempo pensando que nadie lo descubriría nunca.', alternatives: ['El propietario pensó que nadie descubriría su chantaje.'] },
-      { russian: 'Его бизнес обанкротился после двух лет работы, и долги продолжали расти.', correct: 'Su negocio quebró después de dos años de funcionamiento y las deudas seguían creciendo.', alternatives: ['El negocio entró en bancarrota y las deudas no paraban de crecer.'] }
+      { russian: 'Его бизнес обанкротился после двух лет работы, и долги продолжали расти.', correct: 'Su negocio quebró después de dos años de funcionamiento y las deudas seguían creciendo.', alternatives: ['El negocio entró en bancarrota y las deudas no paraban de crecer.'] },
+      { russian: 'Альберт позвонил Пепе с анонимного номера, и она не смогла ему перезвонить.', correct: 'Albert llamó a Pepa desde un número oculto y ella no pudo devolverle la llamada.', alternatives: ['Albert la llamó con número oculto y Pepa no podía llamarle de vuelta.'] },
+      { russian: 'Рецепционистка в отеле была очень молодая, с зелёными глазами и длинными светлыми волосами.', correct: 'La recepcionista del hotel era muy joven, tenía ojos verdes y una larga melena rubia.', alternatives: ['La recepcionista era joven, de ojos verdes y pelo largo rubio.'] },
+      { russian: 'Пепа чувствовала себя маленькой и незначительной рядом с этими высоченными красотками в баре.', correct: 'Pepa se sentía pequeña e insignificante al lado de aquellas mujeres altísimas y guapísimas del bar.', alternatives: ['Pepa se sentía insignificante junto a las mujeres tan altas y guapas del bar.'] },
+      { russian: 'Люси подумала, что Пепа — проститутка, потому что неправильно поняла её фразу о работе.', correct: 'Lucy creyó que Pepa era prostituta porque malinterpretó su frase sobre el trabajo.', alternatives: ['Lucy pensó que Pepa se dedicaba a la prostitución por lo que dijo.'] },
+      { russian: 'Рауль нашёл подозрительный белый порошок на заднем сиденье машины, и Пепа подумала, что Альберт — наркоторговец.', correct: 'Raúl encontró polvo blanco sospechoso en el asiento trasero y Pepa pensó que Albert era narcotraficante.', alternatives: ['Raúl descubrió polvo blanco y Pepa creyó que Albert era un narco.'] },
+      { russian: 'Пепа прождала пятнадцать минут перед отелем, прежде чем решилась войти внутрь.', correct: 'Pepa esperó quince minutos delante del hotel antes de decidirse a entrar.', alternatives: ['Pepa estuvo quince minutos esperando fuera del hotel hasta que entró.'] },
+      { russian: 'Пепа берёт доплату, если клиенты везут с собой чемоданы, детей или животных.', correct: 'Pepa cobra un poco más si los clientes traen maletas, niños o animales.', alternatives: ['Pepa pide un extra cuando los clientes llevan equipaje, niños o mascotas.'] },
+      { russian: 'Альберт заплатил ей тысячу евро аванса за работу персональным водителем на несколько дней.', correct: 'Albert le pagó mil euros de anticipo por trabajar como conductora personal durante unos días.', alternatives: ['Albert le dio mil euros como anticipo para que fuera su chófer unos días.'] },
+      { russian: 'Пепа поменяла табличку на такси с «свободно» на «занято» и поехала за Альбертом.', correct: 'Pepa cambió el cartel del taxi de "libre" a "ocupado" y fue a buscar a Albert.', alternatives: ['Pepa puso el cartel de ocupado en el taxi y salió a recoger a Albert.'] }
     ]
   },
 
@@ -46414,7 +46452,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Es importante que nadie _____ del edificio antes de que lleguen los agentes. (escapar)', correct: 'escape' },
       { sentence: 'Necesito que tú me _____ la verdad ahora mismo, sin mentiras. (decir)', correct: 'digas' },
       { sentence: 'La periodista pide que el cómplice _____ con ella en privado mañana. (hablar)', correct: 'hable' },
-      { sentence: 'No creo que el sospechoso _____ capaz de cometer un crimen tan grave. (ser)', correct: 'sea' }
+      { sentence: 'No creo que el sospechoso _____ capaz de cometer un crimen tan grave. (ser)', correct: 'sea' },
+      { sentence: 'Albert quiere que Pepa le _____ a la Sagrada Familia para ver el monumento. (llevar)', correct: 'lleve' },
+      { sentence: 'Pepa duda que Carlos le _____ el teléfono después de la discusión de esta mañana. (coger)', correct: 'coja' },
+      { sentence: 'Es normal que Albert _____ muy nervioso tras el robo del maletín en la Barceloneta. (estar)', correct: 'esté' },
+      { sentence: 'Raúl no cree que los chorizos _____ devolver el maletín sin dinero. (querer)', correct: 'quieran' },
+      { sentence: 'Pepa espera que Raúl _____ a alguien que pueda ayudarles a recuperar el maletín. (conocer)', correct: 'conozca' },
+      { sentence: 'Es posible que la madre de Albert _____ española, porque él habla muy bien castellano. (ser)', correct: 'sea' },
+      { sentence: 'Albert necesita que alguien le _____ a encontrar el maletín lo antes posible. (ayudar)', correct: 'ayude' },
+      { sentence: 'No es probable que la policía _____ hacer algo útil en estos casos de tirón. (poder)', correct: 'pueda' },
+      { sentence: 'Pepa quiere que Raúl _____ el teléfono porque necesitan su ayuda urgente. (contestar)', correct: 'conteste' }
     ]
   },
 
@@ -46429,7 +46476,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Журналистка преследовала его по всему кварталу, несмотря на страх и темноту.', correct: 'La periodista le perseguía por todo el barrio a pesar del miedo y la oscuridad.', alternatives: ['La periodista lo persiguió por el barrio sin importarle el miedo.'] },
       { russian: 'Она боялась, но продолжала идти вперёд — ей нужны были эти доказательства.', correct: 'Tenía miedo pero siguió caminando hacia delante porque necesitaba esas pruebas.', alternatives: ['Tenía miedo pero no paró de caminar porque necesitaba encontrar las pruebas.'] },
       { russian: 'Полиция требует, чтобы сообщник признался в своём участии в преступлении.', correct: 'La policía exige que el cómplice confiese su participación en el delito.', alternatives: ['La policía quiere que el cómplice confiese lo que hizo.'] },
-      { russian: 'Важно, чтобы никто не узнал, что они заранее спланировали этот побег.', correct: 'Es importante que nadie sepa que planearon esa fuga con antelación.', alternatives: ['Es importante que nadie descubra que habían planeado la fuga.'] }
+      { russian: 'Важно, чтобы никто не узнал, что они заранее спланировали этот побег.', correct: 'Es importante que nadie sepa que planearon esa fuga con antelación.', alternatives: ['Es importante que nadie descubra que habían planeado la fuga.'] },
+      { russian: 'Мама Альберта — испанка, поэтому он так хорошо говорит по-испански.', correct: 'La madre de Albert es española, por eso habla tan bien el castellano.', alternatives: ['Albert habla bien español porque su madre es española.'] },
+      { russian: 'Альберт впервые приехал в Испанию и хотел увидеть все достопримечательности Барселоны.', correct: 'Era la primera vez que Albert venía a España y quería ver todos los monumentos de Barcelona.', alternatives: ['Albert visitaba España por primera vez y quería conocer Barcelona.'] },
+      { russian: 'Пепа жалела, что не переоделась — на ней были джинсы и футболка, а все вокруг смотрели на Альберта.', correct: 'Pepa lamentaba no haberse cambiado de ropa; llevaba vaqueros y camiseta mientras todos miraban a Albert.', alternatives: ['Pepa se arrepentía de no haberse cambiado porque iba en vaqueros y todos miraban a Albert.'] },
+      { russian: 'Двое на мотоцикле вырвали портфель Альберта прямо на выходе из ресторана.', correct: 'Dos personas en una moto le arrancaron el maletín a Albert justo al salir del restaurante.', alternatives: ['Una moto con dos personas le robó el maletín a Albert a la salida del restaurante.'] },
+      { russian: 'Альберт сказал, что в портфеле были образцы химических продуктов, но отказался звать полицию.', correct: 'Albert dijo que en el maletín había muestras de productos químicos, pero se negó a llamar a la policía.', alternatives: ['Albert explicó que llevaba muestras químicas pero no quiso llamar a la policía.'] },
+      { russian: 'Рауль лежал на старом диване в глубине гаража, когда они приехали за помощью.', correct: 'Raúl estaba echado en un viejo sofá en el cuarto del fondo del garaje cuando llegaron a pedir ayuda.', alternatives: ['Raúl dormía en un sofá viejo al fondo del garaje cuando vinieron a buscarlo.'] },
+      { russian: 'Пепа предложила Раулю шестьсот евро за помощь в поисках портфеля, и он согласился.', correct: 'Pepa ofreció a Raúl seiscientos euros por ayudarles a encontrar el maletín y él aceptó.', alternatives: ['Pepa le ofreció seiscientos euros a Raúl para recuperar el maletín.'] },
+      { russian: 'После короткого визита в Саграда Фамилия они вернулись в такси и поехали к набережной.', correct: 'Después de una visita corta a la Sagrada Familia, volvieron al taxi y fueron hacia el paseo marítimo.', alternatives: ['Tras visitar la Sagrada Familia volvieron al taxi para ir a la Barceloneta.'] },
+      { russian: 'Когда BMW обогнал такси, Пепа вспомнила Карлоса — у него была точно такая же машина.', correct: 'Cuando un BMW adelantó al taxi, Pepa se acordó de Carlos porque tenía un coche igual.', alternatives: ['Pepa pensó en Carlos al ver un BMW como el suyo adelantar al taxi.'] }
     ]
   },
 
@@ -46552,7 +46608,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'La periodista _____ las pruebas al comisario de la policía en persona. (entregar)', correct: 'entregó' },
       { sentence: 'Al final, el acusado _____ su delito ante todo el tribunal sin ninguna presión. (confesar)', correct: 'confesó' },
       { sentence: 'El juez _____ al culpable a cinco años de prisión sin posibilidad de reducción. (condenar)', correct: 'condenó' },
-      { sentence: 'La periodista _____ el crimen gracias a meses de investigación paciente y discreta. (descubrir)', correct: 'descubrió' }
+      { sentence: 'La periodista _____ el crimen gracias a meses de investigación paciente y discreta. (descubrir)', correct: 'descubrió' },
+      { sentence: 'Raúl _____ por teléfono con Doro durante varios minutos para organizar la búsqueda. (hablar)', correct: 'habló' },
+      { sentence: 'Albert no _____ ni una sola palabra de lo que Raúl decía por teléfono en argot. (entender)', correct: 'entendió' },
+      { sentence: 'Pepa _____ a Albert que Raúl hablaba en jerga, no en catalán. (explicar)', correct: 'explicó' },
+      { sentence: 'Doro les _____ en su club nocturno después de hacer unas cuantas llamadas. (esperar)', correct: 'esperó' },
+      { sentence: 'Albert _____ dinero para recuperar el maletín, pero Pepa sabía que era necesario. (necesitar)', correct: 'necesitaba' },
+      { sentence: 'Raúl _____ a Doro como «el que lo ve todo, lo sabe todo» en el barrio. (describir)', correct: 'describió' },
+      { sentence: 'Pepa y Albert _____ al Tat\'s esa misma noche para hablar con Doro. (ir)', correct: 'fueron' },
+      { sentence: 'Raúl les _____ que sin pasta gansa no se podía hacer nada para recuperar el maletín. (advertir)', correct: 'advirtió' },
+      { sentence: 'Albert _____ completamente perdido con el argot que usaba Raúl al hablar. (estar)', correct: 'estaba' }
     ]
   },
 
@@ -46567,7 +46632,17 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Подозреваемого задержали прямо в аэропорту, когда он пытался сесть на самолёт.', correct: 'Detuvieron al sospechoso en el propio aeropuerto cuando intentaba subir al avión.', alternatives: ['El sospechoso fue detenido en el aeropuerto cuando quería escapar.'] },
       { russian: 'В конце концов владелец признался в поджоге — он больше не мог выдержать это давление.', correct: 'Al final el propietario confesó el incendio provocado; ya no podía aguantar más esa presión.', alternatives: ['El propietario confesó el crimen porque no podía más con la presión.'] },
       { russian: 'Судья приговорил виновного к семи годам лишения свободы за мошенничество со страховкой.', correct: 'El juez condenó al culpable a siete años de prisión por fraude al seguro.', alternatives: ['El juez condenó al propietario a siete años de cárcel por el fraude.'] },
-      { russian: 'Она доказала, что преступник был виновен, и вся страна прочитала её статью в газете.', correct: 'Ella demostró que el criminal era culpable y todo el país leyó su artículo en el periódico.', alternatives: ['Demostró la culpabilidad del acusado y publicó el artículo para que todos lo supieran.'] }
+      { russian: 'Она доказала, что преступник был виновен, и вся страна прочитала её статью в газете.', correct: 'Ella demostró que el criminal era culpable y todo el país leyó su artículo en el periódico.', alternatives: ['Demostró la culpabilidad del acusado y publicó el artículo para que todos lo supieran.'] },
+      { russian: 'Рауль разговаривал по телефону несколько минут на жаргоне, который Альберт не понимал.', correct: 'Raúl habló por teléfono unos minutos en argot que Albert no entendía.', alternatives: ['Raúl llamó a sus contactos usando jerga que Albert no podía entender.'] },
+      { russian: 'Альберт подумал, что Рауль говорит по-каталонски, но Пепа объяснила, что это просто жаргон.', correct: 'Albert creyó que Raúl hablaba en catalán, pero Pepa le explicó que era simplemente argot.', alternatives: ['Albert pensó que era catalán pero Pepa le dijo que era jerga callejera.'] },
+      { russian: 'Доро — управляющий бара Tat\'s на улице Эскудельерс, он всё видит и всё знает.', correct: 'Doro es el encargado del bar Tat\'s en la calle Escudellers; lo ve todo y lo sabe todo.', alternatives: ['Doro controla el Tat\'s en Escudellers y no se le escapa nada.'] },
+      { russian: 'Рауль предупредил, что без больших денег невозможно вернуть портфель.', correct: 'Raúl advirtió que sin pasta gansa era imposible recuperar el maletín.', alternatives: ['Raúl les dijo que sin mucho dinero no se podía recuperar el maletín.'] },
+      { russian: 'Пепа объяснила Альберту, что Рауль говорит на жаргоне — как врачи, у которых свой язык.', correct: 'Pepa le explicó a Albert que Raúl habla en argot, como los médicos, que también tienen su propio idioma.', alternatives: ['Pepa comparó el argot de Raúl con la jerga de los médicos para que Albert lo entendiera.'] },
+      { russian: 'Рауль сказал им поехать в бар Tat\'s и поговорить с Доро, который уже ждал их.', correct: 'Raúl les dijo que fueran al Tat\'s a hablar con Doro, que ya les estaba esperando.', alternatives: ['Raúl les mandó al bar Tat\'s donde Doro ya estaba esperándolos.'] },
+      { russian: 'Альберт был совершенно потерян и не понимал ни одного слова из того, что говорил Рауль.', correct: 'Albert estaba completamente perdido y no entendía ni una palabra de lo que decía Raúl.', alternatives: ['Albert no entendía nada de lo que hablaba Raúl.'] },
+      { russian: 'Рауль описал Доро как человека, у которого есть контакты по всему Готическому кварталу.', correct: 'Raúl describió a Doro como alguien con contactos por todo el Barrio Gótico.', alternatives: ['Según Raúl, Doro tiene contactos en todo el barrio.'] },
+      { russian: 'Пепа и Альберт поехали в клуб той же ночью, не зная, что их ждёт.', correct: 'Pepa y Albert fueron al club esa misma noche sin saber lo que les esperaba.', alternatives: ['Pepa y Albert se dirigieron al Tat\'s esa noche sin saber qué iban a encontrar.'] },
+      { russian: 'Рауль предупредил, что нужно уметь заплатить хорошо, если хочешь получить результат.', correct: 'Raúl advirtió que hay que saber pagar bien si quieres obtener resultados.', alternatives: ['Raúl les avisó de que había que pagar mucho si querían recuperar el maletín.'] }
     ]
   },
 
@@ -46738,7 +46813,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Es fundamental que el acusado _____ la verdad completa ante el tribunal. (decir)', correct: 'diga' },
       { sentence: 'El fiscal pide que todos _____ atentamente las pruebas que va a presentar. (ver)', correct: 'vean' },
       { sentence: 'La defensa solicita que el juez _____ un nuevo plazo para presentar más pruebas. (conceder)', correct: 'conceda' },
-      { sentence: 'No es justo que el acusado _____ condenado sin haber tenido la oportunidad de hablar. (ser)', correct: 'sea' }
+      { sentence: 'No es justo que el acusado _____ condenado sin haber tenido la oportunidad de hablar. (ser)', correct: 'sea' },
+      { sentence: 'Doro no cree que Veloz _____ exactamente quién tiene el maletín. (saber)', correct: 'sepa' },
+      { sentence: 'Es necesario que Pepa y Albert _____ bien a Veloz para recuperar el maletín. (pagar)', correct: 'paguen' },
+      { sentence: 'Albert duda que las chicas del club _____ algo importante sobre el robo. (saber)', correct: 'sepan' },
+      { sentence: 'No es posible que Albert _____ entendido lo que contenía el vaso de Judith. (haber)', correct: 'haya' },
+      { sentence: 'Pepa espera que Doro _____ decirles cómo encontrar a Veloz esta noche. (poder)', correct: 'pueda' },
+      { sentence: 'Es mejor que Albert no _____ más alcohol después de lo que ha tomado sin querer. (beber)', correct: 'beba' },
+      { sentence: 'No es normal que cuatro chicas se _____ a un desconocido en un bar así. (acercar)', correct: 'acerquen' },
+      { sentence: 'Doro insiste en que Pepa y Albert _____ a ver a Veloz en la calle Santa Mónica. (ir)', correct: 'vayan' },
+      { sentence: 'Es improbable que Albert _____ bien después de mezclar éxtasis con whisky. (sentirse)', correct: 'se sienta' }
     ]
   },
 
@@ -46753,7 +46837,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Прокурор официально обвинил владельца в умышленном поджоге здания с целью получить страховку.', correct: 'El fiscal acusó formalmente al propietario de incendio provocado con el fin de cobrar el seguro.', alternatives: ['El fiscal acusó al propietario de prender fuego al edificio deliberadamente.'] },
       { russian: 'Адвокат защиты настаивал на невиновности своего клиента и просил суд его оправдать.', correct: 'El abogado defensor insistía en la inocencia de su cliente y pedía al tribunal que lo absolviera.', alternatives: ['El abogado defendió a su cliente diciendo que era inocente.'] },
       { russian: 'Важно, чтобы каждый обвиняемый мог воспользоваться правом на справедливый суд.', correct: 'Es importante que cada acusado pueda ejercer su derecho a un juicio justo.', alternatives: ['Es fundamental que todo acusado tenga derecho a un juicio justo.'] },
-      { russian: 'Судья не допустит, чтобы кто-то в зале мешал ходу судебного процесса.', correct: 'El juez no permitirá que nadie en la sala interfiera con el curso del juicio.', alternatives: ['El juez no va a permitir que alguien interrumpa el juicio.'] }
+      { russian: 'Судья не допустит, чтобы кто-то в зале мешал ходу судебного процесса.', correct: 'El juez no permitirá que nadie en la sala interfiera con el curso del juicio.', alternatives: ['El juez no va a permitir que alguien interrumpa el juicio.'] },
+      { russian: 'Доро сразу понял, что Пепа и Альберт — друзья Рауля, потому что они вели себя не как местные.', correct: 'Doro se dio cuenta enseguida de que Pepa y Albert eran amigos de Raúl porque no se comportaban como los habituales.', alternatives: ['Doro supo al momento que venían de parte de Raúl porque parecían fuera de lugar.'] },
+      { russian: 'Альберт попросил воды, но Доро налил ему виски — в этом баре воду не подают.', correct: 'Albert pidió agua, pero Doro le puso un whisky; en ese bar no sirven agua.', alternatives: ['Albert quería agua pero Doro le sirvió whisky porque allí no hay agua.'] },
+      { russian: 'Альберт по ошибке выпил стакан Юдит, в котором был пастис с жидким экстази.', correct: 'Albert se bebió por error el vaso de Judith, que contenía pastis con éxtasis líquido.', alternatives: ['Albert bebió sin querer el vaso de Judith con pastis y éxtasis.'] },
+      { russian: 'Доро упомянул некоего Велоса, который мог знать, кто украл портфель.', correct: 'Doro mencionó a un tal Veloz, que podría saber quién robó el maletín.', alternatives: ['Doro les habló de Veloz, que quizás supiera quién tenía el maletín.'] },
+      { russian: 'Велос — парализованный, но у него есть сотрудники, которые работают за него.', correct: 'Veloz es parapléjico, pero tiene empleados que trabajan por él.', alternatives: ['Veloz está en silla de ruedas pero tiene gente que hace el trabajo por él.'] },
+      { russian: 'Четыре девушки из клуба подошли к Альберту, смеялись и что-то ему говорили.', correct: 'Cuatro chicas del club se acercaron a Albert, se reían y le decían cosas.', alternatives: ['Cuatro chicas fueron a hablar con Albert y se reían entre ellas.'] },
+      { russian: 'Доро спросил, могут ли они хорошо заплатить, и Пепа кивнула, соглашаясь.', correct: 'Doro preguntó si podían pagar bien y Pepa asintió con la cabeza.', alternatives: ['Doro les preguntó por el dinero y Pepa dijo que sí con la cabeza.'] },
+      { russian: 'Не стоит смешивать экстази с алкоголем — это может быть очень опасно для здоровья.', correct: 'No es bueno mezclar éxtasis con alcohol; puede ser muy peligroso para la salud.', alternatives: ['Mezclar éxtasis y alcohol es peligroso para la salud.'] },
+      { russian: 'Доро настаивает на том, чтобы они пошли к Велосу на улицу Санта-Моника.', correct: 'Doro insiste en que vayan a ver a Veloz a la calle Santa Mónica.', alternatives: ['Doro quiere que visiten a Veloz en la calle Santa Mónica.'] }
     ]
   },
 
@@ -46924,7 +47017,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Cuando Raúl _____ joven, soñaba con tener su propio taller mecánico. (ser)', correct: 'era' },
       { sentence: 'Carlos siempre _____ que Pepa era demasiado independiente para su gusto. (pensar)', correct: 'pensaba' },
       { sentence: 'El juicio _____ mucho tiempo porque había muchos testigos que declarar. (durar)', correct: 'duró' },
-      { sentence: 'La periodista _____ una gran sensación de alivio cuando oyó el veredicto final. (sentir)', correct: 'sentía' }
+      { sentence: 'La periodista _____ una gran sensación de alivio cuando oyó el veredicto final. (sentir)', correct: 'sentía' },
+      { sentence: 'Albert _____ de forma muy extraña por la calle después de tomar el éxtasis sin querer. (andar)', correct: 'andaba' },
+      { sentence: 'Mientras _____ por la calle estrecha, un tipo pequeño les puso una navaja. (caminar)', correct: 'caminaban' },
+      { sentence: 'Los tres atracadores _____ navajas y una pistola automática entre ellos. (llevar)', correct: 'llevaban' },
+      { sentence: 'Pepa _____ pena por Albert porque no parecía un verdadero narcotraficante. (sentir)', correct: 'sentía' },
+      { sentence: 'El travesti de la esquina _____ hacia ellos corriendo con sus tacones altos. (correr)', correct: 'corrió' },
+      { sentence: 'Albert no _____ ni se movía porque estaba completamente bajo los efectos del éxtasis. (hablar)', correct: 'hablaba' },
+      { sentence: 'Pepa _____ a Raúl desde el teléfono del travesti para pedirle que viniera a ayudarles. (llamar)', correct: 'llamó' },
+      { sentence: 'El travesti les _____ que pasear a las dos de la noche por esa zona era muy peligroso. (decir)', correct: 'dijo' },
+      { sentence: 'Pepa solo _____ cincuenta euros encima porque había dejado el resto en casa. (llevar)', correct: 'llevaba' }
     ]
   },
 
@@ -46939,7 +47041,17 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'В те дни журналистка была так поглощена расследованием, что почти не спала.', correct: 'En aquellos días la periodista estaba tan absorta en la investigación que casi no dormía.', alternatives: ['La periodista estaba tan metida en el caso que dormía muy poco.'] },
       { russian: 'Пока шёл суд, Пепа думала о том, как странно всё произошло с того утра аварии.', correct: 'Mientras duró el juicio, Pepa pensaba en lo extraño que fue todo desde aquella mañana del accidente.', alternatives: ['Durante el juicio Pepa pensaba en todo lo que había pasado desde el accidente.'] },
       { russian: 'Эта история была странной с самого начала: тайна в портфеле, деньги, и адвокат-мошенник.', correct: 'Esta historia era extraña desde el principio: un misterio en el maletín, dinero y un abogado estafador.', alternatives: ['Desde el inicio todo era raro: el maletín misterioso, el dinero y el abogado corrupto.'] },
-      { russian: 'Журналистка заслужила эту награду — она работала месяцами, рискуя собственной безопасностью.', correct: 'La periodista merecía esa recompensa; trabajaba desde hacía meses arriesgando su propia seguridad.', alternatives: ['La periodista se merecía la recompensa porque arriesgó mucho durante meses.'] }
+      { russian: 'Журналистка заслужила эту награду — она работала месяцами, рискуя собственной безопасностью.', correct: 'La periodista merecía esa recompensa; trabajaba desde hacía meses arriesgando su propia seguridad.', alternatives: ['La periodista se merecía la recompensa porque arriesgó mucho durante meses.'] },
+      { russian: 'Альберт шёл по улице очень странно: то медленно, то быстро, с широко открытыми глазами.', correct: 'Albert andaba por la calle de forma muy rara: a veces lento, a veces rápido, con los ojos muy abiertos.', alternatives: ['Albert caminaba de manera extraña, despacio y rápido, mirando a todas partes.'] },
+      { russian: 'Трое грабителей остановили их на узкой улице: двое с ножами и один с пистолетом.', correct: 'Tres atracadores les detuvieron en una calle estrecha: dos con navajas y uno con una pistola.', alternatives: ['Les asaltaron tres tipos en una calle angosta, armados con navajas y una pistola.'] },
+      { russian: 'Грабители забрали у них всё: деньги, часы и мобильные телефоны.', correct: 'Los atracadores les quitaron todo: dinero, relojes y móviles.', alternatives: ['Los ladrones les robaron el dinero, los relojes y los teléfonos.'] },
+      { russian: 'У Пепы было всего пятьдесят евро и дешёвый мобильник, потому что она оставила деньги дома.', correct: 'Pepa solo llevaba cincuenta euros y un móvil barato porque había dejado el dinero en casa.', alternatives: ['Pepa tenía encima solo cincuenta euros y un móvil viejo.'] },
+      { russian: 'Трансвестит с угла подбежал к ним на каблуках и рассказал, что их ограбили «три сестрички».', correct: 'El travesti de la esquina corrió hacia ellos con sus tacones y les contó que les habían robado "las tres mellizas".', alternatives: ['Un travesti se acercó corriendo y les dijo que el robo fue obra de las tres mellizas.'] },
+      { russian: 'Пепа попросила трансвестита одолжить ей телефон, чтобы позвонить Раулю и попросить о помощи.', correct: 'Pepa le pidió al travesti que le prestara el móvil para llamar a Raúl y pedirle ayuda.', alternatives: ['Pepa pidió prestado el teléfono del travesti para llamar a Raúl.'] },
+      { russian: 'Альберт не двигался и не разговаривал — он всё ещё был под действием экстази.', correct: 'Albert no se movía ni hablaba; todavía estaba bajo los efectos del éxtasis.', alternatives: ['Albert seguía sin hablar ni moverse por el éxtasis.'] },
+      { russian: 'Трансвестит упрекнул Пепу: в два часа ночи гулять по этой зоне с туристом — безумие.', correct: 'El travesti le reprochó a Pepa: pasear a las dos de la noche por esa zona con un turista era una locura.', alternatives: ['El travesti le dijo a Pepa que era de locos andar por ahí a las dos de la noche.'] },
+      { russian: 'Пепа чувствовала жалость к Альберту — настоящие наркоторговцы из фильмов совсем не такие.', correct: 'Pepa sentía pena por Albert: los verdaderos narcotraficantes de las películas no eran como él.', alternatives: ['A Pepa le daba lástima Albert porque no se parecía nada a los narcos del cine.'] },
+      { russian: 'Альберт нёс с собой кучу денег, чтобы выкупить портфель, но теперь всё забрали грабители.', correct: 'Albert llevaba mucho dinero encima para recuperar el maletín, pero ahora los atracadores se lo habían quitado todo.', alternatives: ['Albert tenía pasta gansa para el maletín pero los chorizos se lo robaron todo.'] }
     ]
   },
 
@@ -47074,7 +47186,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Pepa nunca _____ a nadie tan extraño como Albert en todos sus años de taxista. (conocer)', correct: 'ha conocido' },
       { sentence: '¿Ya _____ a Raúl que Albert va a dormir en casa esta noche? (llamar, tú)', correct: 'has llamado' },
       { sentence: 'Albert no _____ por qué el recepcionista no le deja entrar al hotel. (entender)', correct: 'ha entendido' },
-      { sentence: 'Esta noche Pepa _____ muchas cosas: un accidente, mil euros y un neozelandés loco. (vivir)', correct: 'ha vivido' }
+      { sentence: 'Esta noche Pepa _____ muchas cosas: un accidente, mil euros y un neozelandés loco. (vivir)', correct: 'ha vivido' },
+      { sentence: 'Raúl le _____ a Pepa que lleve a Albert a su casa porque no pueden ir a ningún hotel. (decir)', correct: 'ha dicho' },
+      { sentence: 'El recepcionista no _____ registrar a Albert porque no tiene documentación. (querer)', correct: 'ha querido' },
+      { sentence: 'Albert _____ en inglés toda la noche porque el éxtasis le ha afectado mucho. (hablar)', correct: 'ha hablado' },
+      { sentence: 'Pepa no _____ dormir nada esta noche con todo lo que ha pasado. (poder)', correct: 'ha podido' },
+      { sentence: 'Los ladrones les _____ todo: el dinero, los relojes y los móviles. (quitar)', correct: 'han quitado' },
+      { sentence: '¿Tú _____ alguna vez una noche tan loca como esta en Barcelona? (pasar)', correct: 'has pasado' },
+      { sentence: 'Albert _____ a desnudarse en el vestíbulo del hotel delante de todos. (empezar)', correct: 'ha empezado' },
+      { sentence: 'Raúl _____ que sin dinero no se puede hacer nada para recuperar el maletín. (explicar)', correct: 'ha explicado' },
+      { sentence: 'Pepa _____ a Albert del hotel antes de que el recepcionista llamara a la policía. (sacar)', correct: 'ha sacado' }
     ]
   },
 
@@ -47089,7 +47210,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'За всё время работы таксистом Пепа никогда не встречала такого необычного клиента, как Альберт.', correct: 'En todo su tiempo de taxista, Pepa nunca ha conocido a un cliente tan inusual como Albert.', alternatives: ['Pepa nunca ha tenido un cliente tan raro como Albert en todos sus años de taxista.'] },
       { russian: 'Рауль уже позвонил и сказал, что принесёт портфель сегодня ночью.', correct: 'Raúl ya ha llamado y ha dicho que traerá el maletín esta noche.', alternatives: ['Raúl ha llamado y ha avisado de que trae el maletín.'] },
       { russian: 'Пепа потеряла голову от всего этого: аварии, тысячи евро и человека под кайфом в её квартире.', correct: 'Pepa ha perdido la cabeza con todo esto: el accidente, los mil euros y un hombre colocado en su piso.', alternatives: ['Pepa no sabe qué pensar después del accidente, el dinero y Albert tan colocado.'] },
-      { russian: 'Эта ночь оказалась совершенно не такой, как обычно — ничего похожего раньше с ней не случалось.', correct: 'Esta noche no ha sido como las demás; nunca le había pasado algo así antes.', alternatives: ['Esta noche ha sido completamente diferente a todas las otras noches de su vida.'] }
+      { russian: 'Эта ночь оказалась совершенно не такой, как обычно — ничего похожего раньше с ней не случалось.', correct: 'Esta noche no ha sido como las demás; nunca le había pasado algo así antes.', alternatives: ['Esta noche ha sido completamente diferente a todas las otras noches de su vida.'] },
+      { russian: 'Рецепционист выгнал их из отеля, потому что Альберт начал раздеваться в вестибюле.', correct: 'El recepcionista les echó del hotel porque Albert empezó a desnudarse en el vestíbulo.', alternatives: ['Les echaron del hotel cuando Albert se desnudó en recepción.'] },
+      { russian: 'Рауль предложил отвезти Альберта к Пепе домой, потому что ни один отель его не примет.', correct: 'Raúl sugirió llevar a Albert a casa de Pepa porque ningún hotel lo aceptaría.', alternatives: ['Raúl dijo que lo mejor era llevar a Albert al piso de Pepa.'] },
+      { russian: 'Альберт потерял паспорт в отеле Кастельдефельса и не мог доказать свою личность.', correct: 'Albert ha perdido el pasaporte en el hotel de Castelldefels y no puede demostrar su identidad.', alternatives: ['Albert perdió su documentación en el hotel y no tiene cómo identificarse.'] },
+      { russian: 'Рецепционист сказал им: «Ты и твой друг идите валять дурака в другое место.»', correct: 'El recepcionista les dijo: "Tú y tu amigo os vais a hacer el idiota a otra parte."', alternatives: ['El recepcionista les echó diciendo que fueran a hacer el tonto a otro sitio.'] },
+      { russian: 'Альберт говорил по-английски и непрерывно двигал руками и ногами из-за экстази.', correct: 'Albert hablaba en inglés y movía continuamente los brazos y las piernas por el éxtasis.', alternatives: ['Albert no paraba de hablar en inglés y mover los brazos y piernas.'] },
+      { russian: 'Рауль объяснил, что без денег невозможно ничего сделать для поиска портфеля.', correct: 'Raúl ha explicado que sin dinero no se puede hacer nada para buscar el maletín.', alternatives: ['Raúl les dijo que sin pasta no podían hacer nada.'] },
+      { russian: 'За все годы работы таксистом Пепа никогда не встречала такого странного клиента.', correct: 'En todos sus años de taxista, Pepa nunca ha conocido a un cliente tan extraño.', alternatives: ['Pepa jamás había tenido un pasajero tan raro en toda su carrera.'] },
+      { russian: 'Ты когда-нибудь переживал такую безумную ночь, как эта, в Барселоне?', correct: '¿Alguna vez has vivido una noche tan loca como esta en Barcelona?', alternatives: ['¿Has pasado alguna vez una noche así de loca en Barcelona?'] },
+      { russian: 'Пепа вытащила Альберта из отеля до того, как рецепционист вызвал полицию.', correct: 'Pepa sacó a Albert del hotel antes de que el recepcionista llamara a la policía.', alternatives: ['Pepa se llevó a Albert del hotel antes de que vinieran los policías.'] }
     ]
   },
 
@@ -47266,7 +47396,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Albert _____ toda la ropa al suelo y empezó a bailar en la terraza con total libertad. (tirar)', correct: 'tiró' },
       { sentence: 'Pepa _____ una sábana del armario y corrió a la terraza para tapar a Albert. (coger)', correct: 'cogió' },
       { sentence: 'Carlos _____ la puerta y entró al apartamento sin decir una sola palabra. (abrir)', correct: 'abrió' },
-      { sentence: 'Raúl _____ con el maletín y todos se quedaron mirando qué había dentro. (llegar)', correct: 'llegó' }
+      { sentence: 'Raúl _____ con el maletín y todos se quedaron mirando qué había dentro. (llegar)', correct: 'llegó' },
+      { sentence: 'Albert _____ completamente desnudo en la terraza bailando la haka maorí. (estar)', correct: 'estaba' },
+      { sentence: 'Una pareja de turistas nórdicos _____ el espectáculo desde la habitación del hotel de enfrente. (mirar)', correct: 'miraba' },
+      { sentence: 'Pepa _____ a Albert en el ascensor y lo bajó antes de que Carlos subiera. (meter)', correct: 'metió' },
+      { sentence: 'Raúl se _____ a Albert sentado en el ascensor envuelto en una sábana como un romano. (encontrar)', correct: 'encontró' },
+      { sentence: 'Carlos _____ muy deportista y siempre subía las escaleras a pie en vez de usar el ascensor. (ser)', correct: 'era' },
+      { sentence: 'El maletín que Raúl _____ solo tenía harina integral, no cenizas ni drogas. (recuperar)', correct: 'recuperó' },
+      { sentence: 'Carlos le _____ a Pepa que había encontrado un bonito apartamento en Madrid. (decir)', correct: 'dijo' },
+      { sentence: 'Albert no _____ caso a Pepa cuando ella le pedía que entrara en casa. (hacer)', correct: 'hacía' },
+      { sentence: 'Pepa se _____ en un sillón con un libro y fingió que estaba leyendo. (sentar)', correct: 'sentó' }
     ]
   },
 
@@ -47281,7 +47420,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Когда Пепа увидела Карлоса в паркинге, она схватила простыню и бросилась на террасу к Альберту.', correct: 'Cuando Pepa vio a Carlos en el parking, cogió una sábana y corrió a la terraza hacia Albert.', alternatives: ['Al ver a Carlos, Pepa cogió una sábana y salió corriendo a tapar a Albert.'] },
       { russian: 'Карлос вошёл в лифт, но Пепа запихнула Альберта туда же, прежде чем муж успел его увидеть.', correct: 'Carlos entró en el ascensor, pero Pepa metió a Albert dentro antes de que su pareja pudiera verlo.', alternatives: ['Pepa metió a Albert en el ascensor antes de que Carlos lo viera.'] },
       { russian: 'Альберт был в полном замешательстве, но постепенно приходил в себя после всего пережитого.', correct: 'Albert estaba completamente confuso, pero poco a poco se iba recuperando de todo lo vivido.', alternatives: ['Albert estaba muy confuso pero los efectos se le iban pasando.'] },
-      { russian: 'Рауль приехал с портфелем и они наконец узнали, что же в нём находилось на самом деле.', correct: 'Raúl llegó con el maletín y por fin supieron qué había en su interior en realidad.', alternatives: ['Cuando Raúl llegó con el maletín, todos descubrieron lo que contenía de verdad.'] }
+      { russian: 'Рауль приехал с портфелем и они наконец узнали, что же в нём находилось на самом деле.', correct: 'Raúl llegó con el maletín y por fin supieron qué había en su interior en realidad.', alternatives: ['Cuando Raúl llegó con el maletín, todos descubrieron lo que contenía de verdad.'] },
+      { russian: 'Пара скандинавских туристов наблюдала шоу Альберта из окна отеля напротив.', correct: 'Una pareja de turistas nórdicos miraba el espectáculo de Albert desde la ventana del hotel de enfrente.', alternatives: ['Unos turistas del hotel de al lado veían a Albert bailando desde su habitación.'] },
+      { russian: 'Альберт выбросил всю одежду с террасы на улицу, и Пепе пришлось завернуть его в простыню.', correct: 'Albert tiró toda la ropa desde la terraza a la calle y Pepa tuvo que envolverlo con una sábana.', alternatives: ['Albert lanzó su ropa a la calle y Pepa lo cubrió con una sábana.'] },
+      { russian: 'Карлос всегда поднимался по лестнице пешком, потому что был очень спортивным.', correct: 'Carlos siempre subía las escaleras a pie porque era muy deportista.', alternatives: ['Carlos subía andando porque le gustaba hacer ejercicio.'] },
+      { russian: 'Рауль нашёл Альберта, сидящего в лифте, завёрнутого в простыню, как римлянин.', correct: 'Raúl encontró a Albert sentado en el ascensor, envuelto en una sábana como un romano.', alternatives: ['Raúl se encontró a Albert en el ascensor vestido con una sábana como una toga romana.'] },
+      { russian: 'Карлос предложил Пепе переехать в Мадрид и увидеться на следующих выходных.', correct: 'Carlos le propuso a Pepa que se mudara a Madrid y que se vieran el próximo fin de semana.', alternatives: ['Carlos quería que Pepa fuera a vivir a Madrid y se vieran los fines de semana.'] },
+      { russian: 'В холодильнике Пепы не было воды — только пиво. Пришлось достать бутылку из шкафа.', correct: 'En la nevera de Pepa no había agua, solo cerveza. Tuvo que coger una botella del armario.', alternatives: ['No había agua en la nevera, solo cervezas, así que cogió agua del armario.'] },
+      { russian: 'В портфеле, который вернул Рауль, оказалась обычная мука, а не ценные образцы.', correct: 'En el maletín que recuperó Raúl había harina normal, no las muestras valiosas.', alternatives: ['El maletín que trajo Raúl contenía harina en vez de las cenizas.'] },
+      { russian: 'Пепа схватила книгу и села в кресло, делая вид, что читает, чтобы Карлос ничего не заподозрил.', correct: 'Pepa cogió un libro y se sentó en el sillón fingiendo leer para que Carlos no sospechara nada.', alternatives: ['Pepa se sentó con un libro y simuló estar leyendo cuando Carlos entró.'] },
+      { russian: 'Были три часа ночи, а самолёт Карлоса вылетал в шесть — у него почти не оставалось времени.', correct: 'Eran las tres de la madrugada y el avión de Carlos salía a las seis; casi no le quedaba tiempo.', alternatives: ['A las tres de la noche Carlos tenía que salir para coger el avión de las seis.'] }
     ]
   },
 
@@ -47410,7 +47558,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: '¡_____ tranquilo, Carlos! Está todo bien, no hay ningún problema. (estar)', correct: 'está' },
       { sentence: '¡_____ al avión o lo perderás y tendrás que esperar hasta mañana! (coger)', correct: 'coge' },
       { sentence: '¡_____ la maleta rápido y sal de una vez si no quieres llegar tarde! (coger)', correct: 'coge' },
-      { sentence: '¡_____ todo lo que ha pasado esta noche y vuelve a casa, Carlos! (olvidar)', correct: 'olvida' }
+      { sentence: '¡_____ todo lo que ha pasado esta noche y vuelve a casa, Carlos! (olvidar)', correct: 'olvida' },
+      { sentence: '¡No _____ tanto, Carlos! Los vecinos se van a quejar otra vez. (gritar)', correct: 'grites' },
+      { sentence: '¡No _____ de este piso sin explicarme qué está pasando! (irse)', correct: 'te vayas' },
+      { sentence: '¡_____ la puerta con cuidado, que los vecinos están durmiendo! (cerrar)', correct: 'cierra' },
+      { sentence: '¡No _____ por la caja, Carlos! Te la doy enseguida. (preocuparse)', correct: 'te preocupes' },
+      { sentence: '¡_____ la verdad, Carlos! ¿Qué llevas en esa caja de galletas? (decir)', correct: 'di' },
+      { sentence: '¡No _____ enfadado y siéntate a hablar conmigo antes de irte! (ponerse)', correct: 'te pongas' },
+      { sentence: '¡_____ tus cosas y vete si eso es lo que quieres! (recoger)', correct: 'recoge' },
+      { sentence: '¡No _____ la puerta de un portazo cada vez que sales, Carlos! (cerrar)', correct: 'cierres' },
+      { sentence: '¡_____ un momento y escúchame, que tengo algo importante que decirte! (esperar)', correct: 'espera' }
     ]
   },
 
@@ -47425,7 +47582,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Возьми коробку из кухонного ящика — она там с самого начала, я её не трогала.', correct: 'Coge la caja del cajón de la cocina; está ahí desde el principio, yo no la he tocado.', alternatives: ['Toma la caja del cajón de la cocina, yo no la he movido de ahí.'] },
       { russian: 'Садись на самолёт немедленно — иначе опоздаешь на важную встречу в Мадриде.', correct: 'Coge el avión ahora mismo; si no, llegarás tarde a la reunión importante en Madrid.', alternatives: ['Toma el avión de inmediato o perderás la reunión en Madrid.'] },
       { russian: 'Карлос взял коробку, молча положил её в сумку и ушёл, хлопнув дверью.', correct: 'Carlos cogió la caja, la metió en la bolsa en silencio y se fue dando un portazo.', alternatives: ['Carlos agarró la caja, la guardó en su bolsa y se marchó sin decir nada.'] },
-      { russian: 'Успокойся и послушай меня — есть объяснение всему, что ты видел сегодня ночью.', correct: 'Cálmate y escúchame; hay una explicación para todo lo que has visto esta noche.', alternatives: ['Tranquilízate y escucha, que todo tiene explicación.'] }
+      { russian: 'Успокойся и послушай меня — есть объяснение всему, что ты видел сегодня ночью.', correct: 'Cálmate y escúchame; hay una explicación para todo lo que has visto esta noche.', alternatives: ['Tranquilízate y escucha, que todo tiene explicación.'] },
+      { russian: 'Не кричи так громко, Карлос! Соседи вызовут полицию, если будешь продолжать.', correct: '¡No grites tan fuerte, Carlos! Los vecinos llamarán a la policía si sigues así.', alternatives: ['¡No grites, Carlos, que los vecinos van a quejarse!'] },
+      { russian: 'Карлос искал коробку с печеньем в своей дорожной сумке, но её там не было.', correct: 'Carlos buscaba la caja de galletas en su bolsa de viaje, pero no estaba allí.', alternatives: ['Carlos no encontraba la caja de galletas Birba en su equipaje.'] },
+      { russian: 'Пепа переложила коробку в кухонный ящик, даже не зная, что она была важна для Карлоса.', correct: 'Pepa había guardado la caja en el cajón de la cocina sin saber que era importante para Carlos.', alternatives: ['Pepa puso la caja en la cocina sin imaginar que Carlos la necesitaba.'] },
+      { russian: 'Карлос схватил коробку, молча положил её в сумку и вышел, хлопнув дверью.', correct: 'Carlos cogió la caja, la metió en la bolsa en silencio y se fue dando un portazo.', alternatives: ['Carlos agarró la caja sin decir nada y se marchó con un portazo.'] },
+      { russian: 'Не уходи из этой квартиры, пока не объяснишь мне, что происходит!', correct: '¡No te vayas de este piso sin explicarme qué está pasando!', alternatives: ['¡No salgas de casa hasta que me cuentes lo que pasa!'] },
+      { russian: 'Подожди минуту и послушай — у меня есть кое-что важное, что я хочу тебе сказать.', correct: '¡Espera un momento y escúchame! Tengo algo importante que decirte.', alternatives: ['¡Espera y escucha, tengo algo importante que contarte!'] },
+      { russian: 'Карлосу не нравился друг Пепы Рауль — он считал его плохим влиянием.', correct: 'A Carlos no le gustaba nada el amigo de Pepa, Raúl; lo consideraba una mala influencia.', alternatives: ['Carlos no soportaba a Raúl porque pensaba que era mala compañía.'] },
+      { russian: 'Пепа ответила: «Тебе не нравятся мои друзья, а мне — твои. Вот почему ты уезжаешь в Мадрид.»', correct: 'Pepa contestó: "A ti no te gustan mis amigos y a mí no me gustan los tuyos. Por eso te vas a Madrid."', alternatives: ['Pepa le dijo que ni a él le gustaban sus amigos ni a ella los de él.'] },
+      { russian: 'После ухода Карлоса Пепа сказала «Какой идиот...» и закурила сигарету.', correct: 'Después de que Carlos se fue, Pepa dijo "Qué gilipollas…" y encendió un cigarrillo.', alternatives: ['Cuando Carlos se marchó, Pepa murmuró "Qué idiota" y se puso a fumar.'] }
     ]
   },
 
@@ -47602,7 +47768,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Albert _____ una sucursal de su funeraria en Ámsterdam para gestionar los contratos europeos. (abrir)', correct: 'abrió' },
       { sentence: 'Pepa y Albert _____ muy buenos amigos durante esos días tan extraños en Barcelona. (hacerse)', correct: 'se hicieron' },
       { sentence: 'Albert _____ el negocio de los diamantes porque conoció a un químico holandés extraordinario. (crear)', correct: 'creó' },
-      { sentence: 'El químico _____ que podía transformar cenizas humanas en diamantes auténticos. (descubrir)', correct: 'descubrió' }
+      { sentence: 'El químico _____ que podía transformar cenizas humanas en diamantes auténticos. (descubrir)', correct: 'descubrió' },
+      { sentence: 'Los dos químicos _____ juntos durante meses para perfeccionar la fórmula. (trabajar)', correct: 'trabajaron' },
+      { sentence: 'El abogado _____ las cenizas mientras todos celebraban y bebían en el hotel. (robar)', correct: 'robó' },
+      { sentence: 'Pepa le _____ todo a Raúl sobre las cenizas y el negocio de los diamantes. (contar)', correct: 'contó' },
+      { sentence: 'Raúl _____ que los abogados no eran de fiar después de oír toda la historia. (opinar)', correct: 'opinó' },
+      { sentence: 'Albert _____ en Barcelona unos días más mientras intentaba resolver el asunto del abogado. (quedarse)', correct: 'se quedó' },
+      { sentence: 'La familia de Albert _____ funerarias en Nueva Zelanda desde hacía varias generaciones. (tener)', correct: 'tenía' },
+      { sentence: 'El químico español y el holandés _____ su primer diamante a partir de cenizas humanas. (producir)', correct: 'produjeron' },
+      { sentence: 'El abogado _____ patentar la fórmula para venderla por millones sin compartir los beneficios. (querer)', correct: 'quería' },
+      { sentence: 'Raúl _____ cerveza mientras Pepa le explicaba toda la historia del maletín. (beber)', correct: 'bebía' }
     ]
   },
 
@@ -47617,7 +47792,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Нечестный адвокат подменил портфель Альберта на один с мукой прямо в отеле в Кастельдефельсе.', correct: 'El abogado corrupto le dio el cambiazo al maletín de Albert por uno lleno de harina en el hotel de Castelldefels.', alternatives: ['El abogado deshonesto cambió el maletín de Albert por otro lleno de harina en el hotel.'] },
       { russian: 'Голландский химик открыл революционный способ превращать пепел умерших в настоящие бриллианты.', correct: 'El químico holandés descubrió una forma revolucionaria de convertir las cenizas de los fallecidos en diamantes auténticos.', alternatives: ['Un químico holandés encontró la manera de transformar cenizas humanas en diamantes reales.'] },
       { russian: 'Альберт открыл филиал своего похоронного бюро в Барселоне, потому что рынок здесь очень перспективный.', correct: 'Albert abrió una sucursal de su funeraria en Barcelona porque el mercado aquí es muy prometedor.', alternatives: ['Albert decidió abrir una sucursal de su negocio en Barcelona por el potencial del mercado.'] },
-      { russian: 'Несмотря на весь хаос, Пепа и Альберт стали настоящими друзьями за эти несколько безумных дней.', correct: 'A pesar de todo el caos, Pepa y Albert se hicieron buenos amigos durante esos pocos días tan locos.', alternatives: ['Pese al caos, Pepa y Albert se hicieron amigos durante aquellos días tan extraños.'] }
+      { russian: 'Несмотря на весь хаос, Пепа и Альберт стали настоящими друзьями за эти несколько безумных дней.', correct: 'A pesar de todo el caos, Pepa y Albert se hicieron buenos amigos durante esos pocos días tan locos.', alternatives: ['Pese al caos, Pepa y Albert se hicieron amigos durante aquellos días tan extraños.'] },
+      { russian: 'Портфель Альберта на самом деле содержал пепел кремированных людей, а не кокаин.', correct: 'El maletín de Albert en realidad contenía cenizas de personas cremadas, no cocaína.', alternatives: ['Lo que llevaba el maletín era ceniza humana, no droga.'] },
+      { russian: 'Нечестный адвокат Роберто Алькасар подменил портфель на один с мукой, пока все праздновали.', correct: 'El abogado corrupto Roberto Alcázar cambió el maletín por uno lleno de harina mientras todos celebraban.', alternatives: ['Roberto Alcázar le dio el cambiazo al maletín por uno con harina durante la fiesta.'] },
+      { russian: 'Голландский химик открыл, что из пепла умерших людей можно делать настоящие бриллианты.', correct: 'El químico holandés descubrió que con las cenizas de personas fallecidas se podían hacer diamantes auténticos.', alternatives: ['Un químico holandés descubrió cómo transformar cenizas humanas en diamantes.'] },
+      { russian: 'Семья Альберта владела несколькими похоронными бюро в Новой Зеландии уже много поколений.', correct: 'La familia de Albert tenía varias funerarias en Nueva Zelanda desde hacía muchas generaciones.', alternatives: ['Los abuelos y padres de Albert eran dueños de funerarias en Nueva Zelanda.'] },
+      { russian: 'Альберт открыл филиал семейного бизнеса в Голландии, чтобы управлять европейскими контрактами.', correct: 'Albert abrió una sucursal del negocio familiar en Holanda para gestionar los contratos europeos.', alternatives: ['Albert llevó la empresa familiar a Holanda para expandir el negocio en Europa.'] },
+      { russian: 'Рауль сказал с мудрым видом: «Адвокатам, девочки, нельзя доверять.»', correct: 'Raúl dijo con aire de sabiduría: "Los abogados, nenas, no son de fiar."', alternatives: ['Raúl les advirtió que los abogados nunca son de fiar.'] },
+      { russian: 'Адвокат хотел запатентовать формулу и заработать миллионы, не поделившись ни с кем.', correct: 'El abogado quería patentar la fórmula y ganar millones sin compartir con nadie.', alternatives: ['El abogado planeaba quedarse con la patente y todo el dinero.'] },
+      { russian: 'Два дня спустя Пепа и Рауль пили пиво в гараже и обсуждали всю эту невероятную историю.', correct: 'Dos días después, Pepa y Raúl bebían cerveza en el garaje hablando de toda esta historia increíble.', alternatives: ['Pepa y Raúl tomaban cerveza en el taller y comentaban lo que había pasado.'] },
+      { russian: 'Два химика — голландский и испанский — объединились и создали первый бриллиант из человеческого пепла.', correct: 'Los dos químicos, el holandés y el español, se asociaron y crearon el primer diamante a partir de cenizas humanas.', alternatives: ['El químico holandés y el español se juntaron y fabricaron un diamante con cenizas de un difunto.'] }
     ]
   },
 
@@ -47725,7 +47909,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Albert _____ en Barcelona varios días y ha conocido muchos rincones bonitos de la ciudad. (quedarse)', correct: 'se ha quedado' },
       { sentence: 'Pepa _____ que Albert le gusta más que Carlos, aunque eso la confunde bastante. (reconocer)', correct: 'ha reconocido' },
       { sentence: 'La madre de Pepa _____ varias veces hoy para pedirle que la acompañe al dentista. (llamar)', correct: 'ha llamado' },
-      { sentence: 'Albert le _____ a Pepa que ser taxista debe de ser muy divertido porque conoces a mucha gente. (decir)', correct: 'ha dicho' }
+      { sentence: 'Albert le _____ a Pepa que ser taxista debe de ser muy divertido porque conoces a mucha gente. (decir)', correct: 'ha dicho' },
+      { sentence: 'Pepa y Albert _____ muy amigos durante estos días tan locos en Barcelona. (hacerse)', correct: 'se han hecho' },
+      { sentence: 'Albert _____ muchas cosas a Pepa sobre su familia y su negocio de funerarias. (contar)', correct: 'ha contado' },
+      { sentence: 'Albert _____ a Pepa el cuello, el pecho y el estómago con mucha ternura. (besar)', correct: 'ha besado' },
+      { sentence: 'Pepa _____ que Carlos le gustaba, pero Albert le gusta más. (comprender)', correct: 'ha comprendido' },
+      { sentence: 'Ni la madre ni la hermana de Pepa _____ de acuerdo con su profesión de taxista. (estar)', correct: 'han estado' },
+      { sentence: 'Albert _____ la nevera y solo ha encontrado cervezas, nada de comida. (abrir)', correct: 'ha abierto' },
+      { sentence: 'Albert _____ la caja de galletas y dentro ha encontrado un polvo blanco sospechoso. (abrir)', correct: 'ha abierto' },
+      { sentence: 'Pepa _____ que el polvo blanco en la caja son las cenizas que buscaba Albert. (descubrir)', correct: 'ha descubierto' },
+      { sentence: 'Carlos _____ la caja equivocada de galletas al irse a Madrid sin darse cuenta. (coger)', correct: 'ha cogido' }
     ]
   },
 
@@ -47740,7 +47933,17 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Альберт остался в Барселоне на несколько дней и успел познакомиться с самыми красивыми уголками города.', correct: 'Albert se ha quedado en Barcelona unos días y ha podido conocer los rincones más bonitos de la ciudad.', alternatives: ['Albert ha pasado varios días en Barcelona y ha conocido muchos lugares bonitos.'] },
       { russian: 'Пепа наконец признала себе, что Альберт нравится ей гораздо больше, чем когда-либо нравился Карлос.', correct: 'Pepa por fin ha reconocido para sí misma que Albert le gusta mucho más de lo que nunca le gustó Carlos.', alternatives: ['Pepa ha reconocido que Albert le gusta más que Carlos.'] },
       { russian: 'Важно, чтобы Пепа не принимала поспешных решений — пусть сначала подумает, что действительно хочет.', correct: 'Es importante que Pepa no tome decisiones precipitadas; que primero piense qué es lo que realmente quiere.', alternatives: ['Es importante que Pepa no se apresure a decidir y que piense bien lo que quiere.'] },
-      { russian: 'Скажи мне честно: ты действительно веришь, что у таксистки и похоронщика из Новой Зеландии есть будущее?', correct: 'Dime con sinceridad: ¿de verdad crees que una taxista y un empresario de pompas fúnebres de Nueva Zelanda tienen futuro?', alternatives: ['Cuéntame la verdad: ¿crees que Pepa y Albert, la taxista y el neozelandés, pueden tener futuro juntos?'] }
+      { russian: 'Скажи мне честно: ты действительно веришь, что у таксистки и похоронщика из Новой Зеландии есть будущее?', correct: 'Dime con sinceridad: ¿de verdad crees que una taxista y un empresario de pompas fúnebres de Nueva Zelanda tienen futuro?', alternatives: ['Cuéntame la verdad: ¿crees que Pepa y Albert, la taxista y el neozelandés, pueden tener futuro juntos?'] },
+      { russian: 'Мама Пепы позвонила, чтобы спросить, может ли дочка сопроводить её к стоматологу после обеда.', correct: 'La madre de Pepa llamó para preguntar si su hija podía acompañarla al dentista por la tarde.', alternatives: ['La madre de Pepa la llamó para pedirle que fuera con ella al dentista.'] },
+      { russian: 'Ни маме, ни сестре Пепы не нравилась её профессия таксиста — они считали это ниже её уровня.', correct: 'Ni a la madre ni a la hermana de Pepa les gustaba su profesión de taxista; pensaban que estaba por debajo de su nivel.', alternatives: ['La familia de Pepa no aprobaba su trabajo de taxista.'] },
+      { russian: 'Альберт открыл холодильник и нашёл только пиво — ни воды, ни еды.', correct: 'Albert abrió la nevera y solo encontró cerveza: ni agua ni comida.', alternatives: ['En la nevera de Pepa Albert solo vio cervezas, nada de comer.'] },
+      { russian: 'Пепа сказала Альберту, что печенье лежит в первом ящике, рядом с посудомоечной машиной.', correct: 'Pepa le dijo a Albert que las galletas estaban en el primer cajón, al lado del lavavajillas.', alternatives: ['Pepa le indicó a Albert dónde estaban las galletas: en el cajón junto al lavavajillas.'] },
+      { russian: 'Альберт открыл коробку и вместо печенья нашёл белый порошок — что это, мука?', correct: 'Albert abrió la caja y en vez de galletas encontró un polvo blanco: ¿qué era, harina?', alternatives: ['Albert abrió la caja de galletas y dentro había polvo blanco en lugar de galletas.'] },
+      { russian: 'Пепа вскрикнула «Этот идиот Карлос!» и поняла, что перед ними — те самые ценные пепелы.', correct: 'Pepa exclamó "¡El gilipollas de Carlos!" y comprendió que tenían delante las valiosas cenizas.', alternatives: ['Pepa gritó al darse cuenta de que la caja contenía las cenizas que buscaba Albert.'] },
+      { russian: 'Альберт улыбнулся и сказал: «Люди, которые работают с покойниками, никогда не жалуются на клиентов.»', correct: 'Albert sonrió y dijo: "La gente que trabaja con cadáveres nunca se queja de sus clientes."', alternatives: ['Albert bromeó diciendo que sus clientes nunca protestan.'] },
+      { russian: 'Пепа и Альберт стали очень близки за эти несколько безумных дней в Барселоне.', correct: 'Pepa y Albert se han hecho muy cercanos durante estos pocos días tan locos en Barcelona.', alternatives: ['En apenas unos días Pepa y Albert se han unido mucho.'] },
+      { russian: 'Карлос случайно забрал не ту коробку — он взял печенье с пеплом вместо обычного.', correct: 'Carlos se llevó la caja equivocada por error: cogió las galletas con las cenizas en vez de las normales.', alternatives: ['Carlos cogió la caja con cenizas pensando que eran sus galletas de siempre.'] },
+      { russian: 'Альберт поцеловал Пепу и она поняла, что он нравится ей гораздо больше, чем Карлос.', correct: 'Albert besó a Pepa y ella comprendió que le gustaba mucho más que Carlos.', alternatives: ['Cuando Albert la besó, Pepa supo que lo prefería a él sobre Carlos.'] }
     ]
   }
 }
