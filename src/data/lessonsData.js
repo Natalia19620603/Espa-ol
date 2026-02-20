@@ -28,14 +28,14 @@ export const modules = {
     title: 'Модуль 1: ЗНАКОМСТВО. ПРОФЕССИИ. СТРАНЫ И НАЦИОНАЛЬНОСТИ (365 слов)',
     level: 'beginner',
     lessons: ['lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4', 'lesson-1-5'],
-    description: 'Алфавит, приветствия, базовая лексика, грамматические основы'
+    description: '1 Алфавит и правила чтения. 2 Имя существительное. Артикль. Прилагательное. 3 Личные местоимения (Pronombres personales). Глаголы SER и ESTAR. 4 Простые предлоги. Числительные. Правильные глаголы'
   },
   'module-2': {
     id: 'module-2',
     title: 'Модуль 2: Черты характера. Описание внешности. Семья и родственники (235 слов)',
     level: 'beginner',
     lessons: ['lesson-2-1', 'lesson-2-2', 'lesson-2-3'],
-    description: 'Настоящее время правильных глаголов'
+    description: '1 Неправильные глаголы IR, TENER, OÍR. 2 Указательные местоимения и наречия. Притяжательные местоимения 3 Вопросительные предложения в испанском языке'
   },
   'module-3': {
     id: 'module-3',
@@ -9441,6 +9441,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'Consejos para ser feliz',
         videoUrl: '/video/Consejos para ser feliz M11C1.mp4'
+      },
+      {
+        tab: 'Espero que',
+        videoUrl: '/video/Espero que M11C1.mp4'
       }
     ],
     grammar: {
@@ -10181,6 +10185,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: '¿Qué le ha pedido',
         videoUrl: '/video/¿Qué le ha pedido M11C2.mp4'
+      },
+      {
+        tab: 'Te aconsejo que',
+        videoUrl: '/video/Te aconsejo que M11C2.mp4'
       }
     ],
     exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5', 'ex-11-2-6', 'ex-11-2-7', 'ex-11-2-8', 'ex-11-2-9']
