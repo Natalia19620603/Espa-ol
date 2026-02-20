@@ -1111,11 +1111,11 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       },
       {
         tab: 'Ser y estar',
-        videoUrl: '/video/Ser y estar M1C3.mp4'
+        videoUrl: '/Ser y estar M1C3.mp4'
       }
     ],
     grammar: {
-      title: 'Личные местоимения (Pronombres personales). Глаголы SER y ESTAR',
+      title: 'Личные местоимения (Pronombres personales). Глаголы SER и ESTAR',
       intro: `В испанском языке личные местоимения имеют разные формы по родам во множественном числе. Глаголы **ser** и **estar** оба переводятся как «быть», но используются в разных контекстах.`,
       sections: [
         {
