@@ -45529,6 +45529,30 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['las amenazas', 'las deudas', 'los misterios', 'los ahorros (сбережения, накопления)'],
         correct: 3,
         explanation: 'Los ahorros = сбережения, накопления — деньги, отложенные на будущее'
+      },
+      {
+        sentence: 'Carlos y Pepa han _____ durante casi una hora sobre su futuro y al final él se fue.',
+        options: ['discutido (спорили, ссорились)', 'invertido', 'escapado', 'obedecido'],
+        correct: 0,
+        explanation: 'Discutir = спорить, ссориться — вести горячий разговор с несогласием'
+      },
+      {
+        sentence: 'Pepa es muy _____ : delgada, morena y bastante atractiva, pero sin suerte en el amor.',
+        options: ['exigente', 'libre', 'guapa (красивая, симпатичная)', 'sorprendida'],
+        correct: 2,
+        explanation: 'Guapa = красивая, симпатичная — привлекательная внешне'
+      },
+      {
+        sentence: 'Después de dejar la multinacional, decidió sacar el _____ de conductor profesional.',
+        options: ['el máster', 'el carné (удостоверение, права)', 'el seguro', 'el anticipo'],
+        correct: 1,
+        explanation: 'El carné = удостоверение, права — документ, дающий право на деятельность'
+      },
+      {
+        sentence: 'Carlos es _____ de profesión, tiene un máster y trabaja en un despacho importante.',
+        options: ['taxista', 'periodista', 'vigilante', 'abogado (адвокат)'],
+        correct: 3,
+        explanation: 'Abogado = адвокат — специалист в области права'
       }
     ]
   },
@@ -45596,7 +45620,16 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Pepa _____ el carné de conductor profesional después de dejar su trabajo en la empresa. (sacar)', correct: 'sacó' },
       { sentence: 'Pepa _____ su Skoda Octavia hace unos años porque necesitaba un coche resistente. (comprar)', correct: 'compró' },
       { sentence: 'Carlos _____ al reloj, cogió su bolsa y salió por la puerta sin mirar atrás. (mirar)', correct: 'miró' },
-      { sentence: 'Carlos y Pepa _____ durante casi una hora sobre su futuro juntos. (discutir)', correct: 'discutieron' }
+      { sentence: 'Carlos y Pepa _____ durante casi una hora sobre su futuro juntos. (discutir)', correct: 'discutieron' },
+      { sentence: 'Pepa _____ de novio cinco veces en los últimos cinco años porque es muy exigente. (cambiar)', correct: 'cambió' },
+      { sentence: 'Después de pensarlo mucho, Pepa _____ cambiar su vida y hacerse taxista. (decidir)', correct: 'decidió' },
+      { sentence: 'Carlos _____ que Pepa era economista y guapa, pero ella siempre le corregía. (decir)', correct: 'decía' },
+      { sentence: 'Pepa _____ la licencia de taxi y se compró un Skoda Octavia para trabajar. (comprar)', correct: 'compró' },
+      { sentence: 'Carlos no le _____ nada sobre su viaje a Madrid hasta esa misma mañana. (decir)', correct: 'dijo' },
+      { sentence: 'Pepa _____ trabajar en una multinacional, pero ahora prefiere ser taxista. (solía)', correct: 'solía' },
+      { sentence: 'A Carlos no le _____ que Pepa trabajase de taxista; lo consideraba peligroso. (gustar)', correct: 'gustaba' },
+      { sentence: 'Pepa siempre le _____ a Carlos que era taxista, no economista. (corregir)', correct: 'corregía' },
+      { sentence: 'Pepa _____ de muy mal humor ese día porque su relación se estaba acabando. (estar)', correct: 'estaba' }
     ]
   },
 
@@ -45877,6 +45910,18 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['las deudas', 'las patatas bravas (картошка с острым соусом)', 'las cenizas', 'las pruebas'],
         correct: 1,
         explanation: 'Las patatas bravas = картошка с острым соусом — типичное испанское тапас'
+      },
+      {
+        sentence: 'En la _____ no hay agua, solo cervezas y algún trozo de queso viejo.',
+        options: ['la nevera (холодильник)', 'la terraza', 'la cárcel', 'la sucursal'],
+        correct: 0,
+        explanation: 'La nevera = холодильник — бытовой прибор для хранения продуктов'
+      },
+      {
+        sentence: 'Pepa le pidió una _____ y un montadito de jamón porque tenía mucha hambre.',
+        options: ['una caña (маленький бокал пива)', 'una sentencia', 'una amenaza', 'una recompensa'],
+        correct: 0,
+        explanation: 'Una caña = маленький бокал пива — типичная порция разливного пива в Испании'
       }
     ]
   },
@@ -46939,6 +46984,30 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['escapar', 'registrar (обыскать, осмотреть)', 'confesar', 'defender'],
         correct: 1,
         explanation: 'Registrar = регистрировать; обыскивать — осматривать в поисках чего-либо'
+      },
+      {
+        sentence: 'El recepcionista les echó porque no querían _____ ahí, en el vestíbulo del hotel.',
+        options: ['hacer el idiota (валять дурака)', 'dar un portazo', 'dar una vuelta', 'coger el avión'],
+        correct: 0,
+        explanation: 'Hacer el idiota = валять дурака — вести себя глупо или неуместно'
+      },
+      {
+        sentence: 'Sin dinero ni documentos es imposible _____ una habitación en cualquier hotel.',
+        options: ['escapar', 'registrar', 'reservar (забронировать)', 'confesar'],
+        correct: 2,
+        explanation: 'Reservar = бронировать, резервировать — заранее заказать место'
+      },
+      {
+        sentence: 'Raúl decidió dar _____ por el barrio para ver a sus colegas y buscar información.',
+        options: ['una vuelta (прогулку, пройтись)', 'un portazo', 'un anticipo', 'una amenaza'],
+        correct: 0,
+        explanation: 'Dar una vuelta = пройтись, прогуляться — пойти куда-то без конкретной цели'
+      },
+      {
+        sentence: 'Pepa no sabía qué hacer con Albert — sin _____ no podían ir a ningún sitio.',
+        options: ['la documentación', 'la harina', 'la pasta (деньги, жарг.)', 'la pasta y documentación (деньги и документы)'],
+        correct: 3,
+        explanation: 'Pasta = деньги (жаргон); documentación = документы — оба были нужны для заселения в отель'
       }
     ]
   },
@@ -47065,6 +47134,30 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['el cajón', 'el callejón', 'el ascensor (лифт)', 'el ático'],
         correct: 2,
         explanation: 'El ascensor = лифт — механическое устройство для подъёма между этажами'
+      },
+      {
+        sentence: 'Pepa cogió una _____ del armario para cubrir a Albert antes de sacarlo a las escaleras.',
+        options: ['una toalla', 'una sábana (простыня)', 'una cortina', 'una manta'],
+        correct: 1,
+        explanation: 'La sábana = простыня — ткань для постели, которой Пепа завернула Альберта'
+      },
+      {
+        sentence: 'Pepa cogió un _____ y se sentó en el sillón fingiendo leer, esperando que Carlos no sospechara.',
+        options: ['un vaso', 'un libro (книга)', 'un cigarrillo', 'un teléfono'],
+        correct: 1,
+        explanation: 'Un libro = книга — Pepa fingía estar leyendo cuando llegó Carlos'
+      },
+      {
+        sentence: 'Raúl bajó al _____ donde guardaba la moto Carlos y allí se encontró a Albert.',
+        options: ['el garaje', 'el parking (паркинг, стоянка)', 'el ático', 'el callejón'],
+        correct: 1,
+        explanation: 'El parking = паркинг, стоянка — место для оставлять автомобиль'
+      },
+      {
+        sentence: 'Pepa sacó unos cubitos de _____ del congelador y los puso en los dos vasos de agua.',
+        options: ['hielo (лёд)', 'azúcar', 'sal', 'limón'],
+        correct: 0,
+        explanation: 'El hielo = лёд — замороженная вода для охлаждения напитков'
       }
     ]
   },
@@ -47233,6 +47326,30 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['el porro', 'el cigarrillo (сигарета)', 'el cajón', 'el tatuaje'],
         correct: 1,
         explanation: 'El cigarrillo = сигарета — табачное изделие для курения'
+      },
+      {
+        sentence: 'Carlos metió la ropa sucia en una _____ de plástico antes de cerrar su bolsa de viaje.',
+        options: ['una caja', 'una bolsa (пакет, сумка)', 'una sábana', 'una maleta'],
+        correct: 1,
+        explanation: 'La bolsa = пакет, сумка — мешок для хранения или переноски вещей'
+      },
+      {
+        sentence: 'Pepa no sabía de qué hablaba Carlos cuando gritó: «¿Dónde está la _____?»',
+        options: ['la caja (коробка)', 'la llave', 'la nevera', 'la bolsa'],
+        correct: 0,
+        explanation: 'La caja = коробка — контейнер, в данном случае коробка с печеньем Birba'
+      },
+      {
+        sentence: 'Carlos estaba furioso: se _____ y salió del piso sin decir ni una palabra más.',
+        options: ['marchó (ушёл, уехал)', 'atragantó', 'desnudó', 'inclinó'],
+        correct: 0,
+        explanation: 'Marcharse = уходить, уезжать — покинуть место'
+      },
+      {
+        sentence: 'Después de la escena con Carlos, Pepa encendió un cigarrillo y se quedó _____ en el sofá.',
+        options: ['confusa', 'libre', 'sola (одна)', 'culpable'],
+        correct: 2,
+        explanation: 'Sola = одна — в одиночестве, без компании'
       }
     ]
   },
@@ -47353,6 +47470,30 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['las cenizas (пепел, зола)', 'las pruebas', 'las sucursales', 'las recompensas'],
         correct: 0,
         explanation: 'Las cenizas = пепел, зола — то, что остаётся после сгорания органического материала'
+      },
+      {
+        sentence: 'El _____ holandés trabajó durante meses en su laboratorio para descifrar la composición de las cenizas.',
+        options: ['el abogado', 'el químico (химик)', 'el vigilante', 'el fiscal'],
+        correct: 1,
+        explanation: 'El químico = химик — специалист в области химии'
+      },
+      {
+        sentence: 'Los dos socios firmaron un _____ en el hotel antes de brindar por el éxito del negocio.',
+        options: ['un contrato (контракт, договор)', 'un juicio', 'un anticipo', 'un cajón'],
+        correct: 0,
+        explanation: 'El contrato = контракт, договор — юридическое соглашение между сторонами'
+      },
+      {
+        sentence: 'Albert quiere _____ la fórmula para convertir cenizas en diamantes antes de que lo haga el abogado.',
+        options: ['patentar (запатентовать)', 'detener', 'confesar', 'registrar'],
+        correct: 0,
+        explanation: 'Patentar = запатентовать — зарегистрировать право на изобретение'
+      },
+      {
+        sentence: 'El abogado planeaba llevar las cenizas al _____ para analizar su composición y descubrir el secreto.',
+        options: ['el laboratorio (лаборатория)', 'el garaje', 'el ático', 'el callejón'],
+        correct: 0,
+        explanation: 'El laboratorio = лаборатория — помещение для научных исследований'
       }
     ]
   },
