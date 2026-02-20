@@ -1112,6 +1112,10 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
       {
         tab: 'Ser y estar',
         videoUrl: '/Ser y estar M1C3.mp4'
+      },
+      {
+        tab: '¿Cómo se llama',
+        videoUrl: '/video/¿Cómo se llama M1 C3.mp4'
       }
     ],
     grammar: {
@@ -7578,6 +7582,10 @@ Juan y Laura: ¡Qué bien! Gracias, mamá.`,
       {
         tab: 'Un viaje en avión',
         videoUrl: '/video/Un viaje en avión M5C1.mp4'
+      },
+      {
+        tab: '¿Qué pasará saltará',
+        videoUrl: '/video/¿Qué pasará saltará M5C1.mp4'
       }
     ],
     grammar: {
@@ -8175,6 +8183,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'El fin de semana pasado fui a Madrid',
         videoUrl: '/video/El fin de semana pasado fui a Madrid M6C1.mp4'
+      },
+      {
+        tab: '¡Vaya memoria!',
+        videoUrl: '/video/¡Vaya memoria! ind M6C1.mp4'
       }
     ],
     grammar: {
@@ -10091,6 +10103,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Venta de acciones',
         videoUrl: '/video/Venta de acciones M11C2.mp4'
+      },
+      {
+        tab: '¿Qué le ha pedido',
+        videoUrl: '/video/¿Qué le ha pedido M11C2.mp4'
       }
     ],
     exercises: ['ex-11-2-1', 'ex-11-2-2', 'ex-11-2-3', 'ex-11-2-4', 'ex-11-2-5', 'ex-11-2-6', 'ex-11-2-7', 'ex-11-2-8', 'ex-11-2-9']
@@ -11247,6 +11263,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Costumbres diferentes comida',
         videoUrl: '/video/Costumbres diferentes comida M8C4.mp4'
+      },
+      {
+        tab: '¿Qué harías en Bilbao',
+        videoUrl: '/video/¿Qué harías en Bilbao M8C1.mp4'
       }
     ],
     grammar: {
