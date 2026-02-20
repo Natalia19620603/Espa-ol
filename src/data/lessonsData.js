@@ -129,6 +129,12 @@ export const lessons = {
     id: 'lesson-1-1',
     title: 'Урок 1: Испанский алфавит и произношение',
     moduleId: 'module-1',
+    videoTabs: [
+      {
+        tab: 'Primeras palabras',
+        videoUrl: '/video/Primeras palabras M1C1.mp4'
+      }
+    ],
     grammar: {
       title: 'Алфавит и правила чтения',
       intro: `# Испанский алфавит (El alfabeto español)
@@ -2381,6 +2387,10 @@ Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. T
       {
         tab: 'A Granada',
         videoUrl: '/video/A Granada M2C1.mp4'
+      },
+      {
+        tab: 'Tener, ir el ordenador',
+        videoUrl: '/video/Tener, ir el ordenador M2C1.mp4'
       }
     ],
     grammar: {
@@ -4704,6 +4714,10 @@ María: ¡Vamos!`,
       {
         tab: 'Pronombres átonos me te le',
         videoUrl: '/video/Pronombres átonos me te le M3C3.mp4'
+      },
+      {
+        tab: 'Pronombres átonos nos las',
+        videoUrl: '/video/Pronombres atonos noslas M3C3.mp4'
       }
     ],
     grammar: {
@@ -6353,6 +6367,10 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
       {
         tab: 'POR y PARA los sanfermines',
         videoUrl: '/video/POR y PARA los sanfermines M4C2.mp4'
+      },
+      {
+        tab: 'Sevilla en dos dias',
+        videoUrl: '/video/Sevilla en dos dias M4C2.mp4'
       }
     ],
     grammar: {
@@ -10822,6 +10840,10 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
       {
         tab: 'Practicamos imperfecto en la playa',
         videoUrl: '/video/Practicamos imperfecto en la playa M8C3.mp4'
+      },
+      {
+        tab: 'Me dijo que no hacía frío',
+        videoUrl: '/video/Me dijo que no hacía frío M8C3.mp4'
       }
     ],
     grammar: {
