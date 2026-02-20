@@ -5751,6 +5751,10 @@ María: ¡Vamos!`,
       {
         tab: 'Estar + gerundio (irregulares)',
         videoUrl: '/video/Estar gerundio irregulares M4C1.mp4'
+      },
+      {
+        tab: 'A comprar',
+        videoUrl: '/video/A comprar M4C1.mp4'
       }
     ],
     grammar: {
@@ -6699,6 +6703,10 @@ Ana: No se preocupe. ¡Adiós!`
       {
         tab: 'No está lejos',
         videoUrl: '/video/No está lejos M4C3.mp4'
+      },
+      {
+        tab: 'Mas menos zoo',
+        videoUrl: '/video/Mas menos zoo M4C3.mp4'
       }
     ],
     grammar: {
@@ -7079,6 +7087,10 @@ En hora punta, hay mucho tráfico en las carreteras y a veces hay atascos. Por e
       {
         tab: 'Rutina en casa',
         videoUrl: '/video/Rutina en casa M4C4.mp4'
+      },
+      {
+        tab: '¿Alguna vez PP',
+        videoUrl: '/video/¿Alguna vez PP M4C4.mp4'
       }
     ],
     grammar: {
@@ -8155,6 +8167,14 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: 'La ropa en Madrid',
         videoUrl: '/video/La ropa en Madrid M6C1.mp4'
+      },
+      {
+        tab: '¿A qué hora fuimos',
+        videoUrl: '/video/¿A qué hora fuimos M6C1.mp4'
+      },
+      {
+        tab: 'El fin de semana pasado fui a Madrid',
+        videoUrl: '/video/El fin de semana pasado fui a Madrid M6C1.mp4'
       }
     ],
     grammar: {
@@ -29582,21 +29602,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Estafa piramidal',
     description: 'Заполните пропуски словами из списка: renovar, convicción, engañar, clave, estafa, generar, reporte, reducir, investigación, lujo, evidencia, agilizar, incontrolable, revertir, consumir',
     questions: [
-      { sentence: 'Necesitamos ___ nuestras ideas sobre la nutrición.', correct: 'renovar', alternatives: [] },
-      { sentence: 'Tengo la ___ de que nos han mentido sobre la alimentación.', correct: 'convicción', alternatives: [] },
-      { sentence: 'Es más fácil ___ a la gente que convencerla de que fue engañada.', correct: 'engañar', alternatives: [] },
-      { sentence: 'Este punto me parece que es la ___ del problema.', correct: 'clave', alternatives: [] },
-      { sentence: 'En 1977 se produjo la gran ___ piramidal de la alimentación.', correct: 'estafa', alternatives: [] },
-      { sentence: 'Esta pirámide logró ___ epidemias de obesidad y diabetes.', correct: 'generar', alternatives: [] },
-      { sentence: 'El médico pidió en su ___ más investigaciones.', correct: 'reporte', alternatives: [] },
-      { sentence: 'Querían ___ la ingesta de colesterol a un huevo al día.', correct: 'reducir', alternatives: [] },
-      { sentence: 'Se necesitaba más ___ antes de hacer recomendaciones.', correct: 'investigación', alternatives: [] },
-      { sentence: 'Los senadores no tienen el ___ de esperar la evidencia científica.', correct: 'lujo', alternatives: [] },
-      { sentence: 'Hay que esperar hasta encontrar toda la ___.', correct: 'evidencia', alternatives: [] },
-      { sentence: 'Necesitaban ___ la venta de carbohidratos.', correct: 'agilizar', alternatives: [] },
-      { sentence: 'La epidemia de diabetes se volvió ___.', correct: 'incontrolable', alternatives: [] },
-      { sentence: 'Tenemos que ___ estos cambios y volver a comer como antes.', correct: 'revertir', alternatives: [] },
-      { sentence: 'Antes del 77 la gente solía ___ más grasa y menos carbohidratos.', correct: 'consumir', alternatives: [] }
+      { sentence: 'Necesitamos ___ (обновлять) nuestras ideas sobre la nutrición.', correct: 'renovar', alternatives: [] },
+      { sentence: 'Tengo la ___ (убеждение) de que nos han mentido sobre la alimentación.', correct: 'convicción', alternatives: [] },
+      { sentence: 'Es más fácil ___ (обманывать) a la gente que convencerla de que fue engañada.', correct: 'engañar', alternatives: [] },
+      { sentence: 'Este punto me parece que es la ___ (ключ) del problema.', correct: 'clave', alternatives: [] },
+      { sentence: 'En 1977 se produjo la gran ___ (мошенничество) piramidal de la alimentación.', correct: 'estafa', alternatives: [] },
+      { sentence: 'Esta pirámide logró ___ (создавать) epidemias de obesidad y diabetes.', correct: 'generar', alternatives: [] },
+      { sentence: 'El médico pidió en su ___ (отчет) más investigaciones.', correct: 'reporte', alternatives: [] },
+      { sentence: 'Querían ___ (уменьшать) la ingesta de colesterol a un huevo al día.', correct: 'reducir', alternatives: [] },
+      { sentence: 'Se necesitaba más ___ (исследование) antes de hacer recomendaciones.', correct: 'investigación', alternatives: [] },
+      { sentence: 'Los senadores no tienen el ___ (роскошь) de esperar la evidencia científica.', correct: 'lujo', alternatives: [] },
+      { sentence: 'Hay que esperar hasta encontrar toda la ___ (доказательство).', correct: 'evidencia', alternatives: [] },
+      { sentence: 'Necesitaban ___ (облегчать) la venta de carbohidratos.', correct: 'agilizar', alternatives: [] },
+      { sentence: 'La epidemia de diabetes se volvió ___ (неконтролируемый).', correct: 'incontrolable', alternatives: [] },
+      { sentence: 'Tenemos que ___ (вернуть к прежнему) estos cambios y volver a comer como antes.', correct: 'revertir', alternatives: [] },
+      { sentence: 'Antes del 77 la gente solía ___ (потреблять) más grasa y menos carbohidratos.', correct: 'consumir', alternatives: [] }
     ]
   },
 
@@ -29606,21 +29626,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Comprensión: Estafa piramidal',
     description: 'Responda las preguntas sobre el texto.',
     questions: [
-      { question: '¿Qué pasó en 1977 según el texto?', options: ['Se inventó una nueva dieta saludable', 'Se creó la pirámide alimentaria con carbohidratos en la base', 'Se prohibieron las grasas', 'Se descubrió la cura para la diabetes'], correct: 1 },
+      { question: '¿Qué pasó en 1977 según el texto?', options: ['Se creó la pirámide alimentaria con carbohidratos en la base', 'Se inventó una nueva dieta saludable', 'Se prohibieron las grasas', 'Se descubrió la cura para la diabetes'], correct: 0 },
       { question: '¿Qué pedía el médico Olsen antes de hacer el anuncio?', options: ['Más dinero para su investigación', 'Más investigaciones sobre el problema', 'Que se prohibieran los huevos', 'Que se aumentara el consumo de carbohidratos'], correct: 1 },
-      { question: '¿Qué respuesta dio el senador político a la petición del médico?', options: ['Que esperarían más tiempo', 'Que los senadores no tienen el lujo de esperar toda la evidencia', 'Que cancelarían el proyecto', 'Que harían más estudios'], correct: 1 },
-      { question: '¿Qué epidemia generó el cambio en la alimentación según el texto?', options: ['Una epidemia de gripe', 'Una epidemia de obesidad y diabetes', 'Una epidemia de alergias', 'Una epidemia de anemia'], correct: 1 },
-      { question: '¿Cómo era la alimentación antes del año 77?', options: ['Se comían más carbohidratos', 'Se consumía más grasa y menos carbohidratos', 'No se comían huevos', 'Solo se bebía leche descremada'], correct: 1 },
-      { question: '¿Qué porcentaje de sobrepeso había antes del año 77?', options: ['70%', '50%', '25-30%', '10%'], correct: 2 },
+      { question: '¿Qué respuesta dio el senador político a la petición del médico?', options: ['Que esperarían más tiempo', 'Que cancelarían el proyecto', 'Que los senadores no tienen el lujo de esperar toda la evidencia', 'Que harían más estudios'], correct: 2 },
+      { question: '¿Qué epidemia generó el cambio en la alimentación según el texto?', options: ['Una epidemia de gripe', 'Una epidemia de alergias', 'Una epidemia de anemia', 'Una epidemia de obesidad y diabetes'], correct: 3 },
+      { question: '¿Cómo era la alimentación antes del año 77?', options: ['Se consumía más grasa y menos carbohidratos', 'Se comían más carbohidratos', 'No se comían huevos', 'Solo se bebía leche descremada'], correct: 0 },
+      { question: '¿Qué porcentaje de sobrepeso había antes del año 77?', options: ['70%', '25-30%', '50%', '10%'], correct: 1 },
       { question: '¿Cuántas veces se multiplicó la diabetes según el gráfico?', options: ['Por dos', 'Por cinco', 'Por siete', 'Por diez'], correct: 2 },
-      { question: '¿Qué propone la nueva pirámide invertida?', options: ['Más carbohidratos en la base', 'Proteínas, lácteos y grasas en la parte superior', 'Eliminar todos los granos', 'Comer solo vegetales'], correct: 1 },
-      { question: '¿Dónde están los granos en la nueva pirámide?', options: ['En la base', 'En el medio', 'En la parte de abajo, pero poquitos', 'No hay granos'], correct: 2 },
+      { question: '¿Qué propone la nueva pirámide invertida?', options: ['Más carbohidratos en la base', 'Eliminar todos los granos', 'Comer solo vegetales', 'Proteínas, lácteos y grasas en la parte superior'], correct: 3 },
+      { question: '¿Dónde están los granos en la nueva pirámide?', options: ['En la parte de abajo, pero poquitos', 'En la base', 'En el medio', 'No hay granos'], correct: 0 },
       { question: '¿Por qué dice el texto que fue una "estafa"?', options: ['Porque los alimentos eran falsos', 'Porque les pagaron para promocionar los carbohidratos', 'Porque la pirámide no existía', 'Porque los médicos no sabían nada'], correct: 1 },
-      { question: '¿Qué tipo de leche conocía la gente antes?', options: ['Leche descremada', 'Leche entera con crema', 'Leche de almendras', 'Leche en polvo'], correct: 1 },
-      { question: '¿Qué frase de Lincoln se menciona al final?', options: ['La libertad es poder', 'Puedes engañar a todo el mundo algún tiempo', 'La democracia es el gobierno del pueblo', 'Unidos permaneceremos'], correct: 1 },
-      { question: '¿Qué significa "dar la vuelta" a la pirámide?', options: ['Destruirla completamente', 'Invertirla, poner arriba lo que estaba abajo', 'Hacerla más grande', 'Cambiar los colores'], correct: 1 },
-      { question: '¿De qué año son las guías que ya decían que no hay que limitar las grasas?', options: ['1977', '2000', '2015-2020', '2025'], correct: 2 },
-      { question: '¿Cuál es la conclusión principal del texto?', options: ['Hay que inventar nuevas dietas', 'Hay que volver a comer como comíamos antes', 'Hay que eliminar toda la grasa', 'Hay que comer solo vegetales'], correct: 1 }
+      { question: '¿Qué tipo de leche conocía la gente antes?', options: ['Leche descremada', 'Leche de almendras', 'Leche entera con crema', 'Leche en polvo'], correct: 2 },
+      { question: '¿Qué frase de Lincoln se menciona al final?', options: ['La libertad es poder', 'La democracia es el gobierno del pueblo', 'Unidos permaneceremos', 'Puedes engañar a todo el mundo algún tiempo'], correct: 3 },
+      { question: '¿Qué significa "dar la vuelta" a la pirámide?', options: ['Invertirla, poner arriba lo que estaba abajo', 'Destruirla completamente', 'Hacerla más grande', 'Cambiar los colores'], correct: 0 },
+      { question: '¿De qué año son las guías que ya decían que no hay que limitar las grasas?', options: ['1977', '2015-2020', '2000', '2025'], correct: 1 },
+      { question: '¿Cuál es la conclusión principal del texto?', options: ['Hay que inventar nuevas dietas', 'Hay que eliminar toda la grasa', 'Hay que volver a comer como comíamos antes', 'Hay que comer solo vegetales'], correct: 2 }
     ]
   },
 
@@ -29630,21 +29650,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Gramática: Tiempos verbales',
     description: 'Complete las frases con la forma correcta del verbo (Pretérito Perfecto, Indefinido, Imperfecto o Presente de Subjuntivo).',
     questions: [
-      { sentence: 'Nosotros (ser/engañar - Indefinido pasivo) ___ engañados por la industria alimentaria.', options: ['fuimos', 'hemos sido', 'éramos', 'seamos'], correct: 0, explanation: 'Pretérito Indefinido pasivo: fuimos engañados (acción completada en el pasado).' },
-      { sentence: 'Antes del 77 la gente (desayunar - Imperfecto) ___ huevo frito.', options: ['desayunaba', 'desayunó', 'ha desayunado', 'desayune'], correct: 0, explanation: 'Imperfecto: desayunaba (hábito en el pasado).' },
-      { sentence: 'Este año (producirse - Pretérito Perfecto) ___ cambios importantes en la nutrición.', options: ['se han producido', 'se produjeron', 'se producían', 'se produzcan'], correct: 0, explanation: 'Pretérito Perfecto: se han producido (conexión con el presente).' },
-      { sentence: 'Es necesario que nosotros (cambiar - Subjuntivo) ___ nuestra dieta.', options: ['cambiemos', 'cambiamos', 'cambiábamos', 'cambiamos'], correct: 0, explanation: 'Presente de Subjuntivo después de "es necesario que".' },
-      { sentence: 'En 1977 (decir - Indefinido) ___ que había que comer menos grasa.', options: ['dijeron', 'decían', 'han dicho', 'digan'], correct: 0, explanation: 'Pretérito Indefinido: dijeron (acción puntual en el pasado).' },
-      { sentence: 'Cuando yo era niño, no (existir - Imperfecto) ___ leche descremada.', options: ['existía', 'existió', 'ha existido', 'exista'], correct: 0, explanation: 'Imperfecto: existía (descripción del pasado).' },
-      { sentence: 'Los científicos ya (demostrar - Pretérito Perfecto) ___ que las grasas no son malas.', options: ['han demostrado', 'demostraron', 'demostraban', 'demuestren'], correct: 0, explanation: 'Pretérito Perfecto: han demostrado (resultado presente).' },
-      { sentence: 'Es importante que la medicina (reivindicar - Subjuntivo) ___ la verdad.', options: ['reivindique', 'reivindica', 'reivindicaba', 'reivindicó'], correct: 0, explanation: 'Presente de Subjuntivo después de "es importante que".' },
-      { sentence: 'Antes la leche (venir - Imperfecto) ___ con crema encima.', options: ['venía', 'vino', 'ha venido', 'venga'], correct: 0, explanation: 'Imperfecto: venía (descripción habitual del pasado).' },
-      { sentence: 'La epidemia de diabetes (multiplicarse - Indefinido) ___ por siete.', options: ['se multiplicó', 'se multiplicaba', 'se ha multiplicado', 'se multiplique'], correct: 0, explanation: 'Pretérito Indefinido: se multiplicó (hecho histórico concreto).' },
-      { sentence: 'Espero que este programa nos (ayudar - Subjuntivo) ___ a entender.', options: ['ayude', 'ayuda', 'ayudaba', 'ayudó'], correct: 0, explanation: 'Presente de Subjuntivo después de "espero que".' },
-      { sentence: 'Esta semana (renovar - Pretérito Perfecto) ___ nuestros conocimientos.', options: ['hemos renovado', 'renovamos', 'renovábamos', 'renovemos'], correct: 0, explanation: 'Pretérito Perfecto: hemos renovado (esta semana = período que incluye el presente).' },
-      { sentence: 'Los senadores no (querer - Imperfecto) ___ esperar más investigaciones.', options: ['querían', 'quisieron', 'han querido', 'quieran'], correct: 0, explanation: 'Imperfecto: querían (actitud en el pasado).' },
-      { sentence: 'Dudo que el experimento (ser - Subjuntivo) ___ un éxito.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
-      { sentence: 'Ayer (leer - Indefinido) ___ un artículo sobre la pirámide alimentaria.', options: ['leí', 'leía', 'he leído', 'lea'], correct: 0, explanation: 'Pretérito Indefinido: leí (acción completada ayer).' }
+      { sentence: 'Nosotros (ser/engañar) ___ engañados por la industria alimentaria.', options: ['fuimos', 'hemos sido', 'éramos', 'seamos'], correct: 0, explanation: 'Pretérito Indefinido pasivo: fuimos engañados (acción completada en el pasado).' },
+      { sentence: 'Antes del 77 la gente (desayunar) ___ huevo frito.', options: ['desayunó', 'desayunaba', 'ha desayunado', 'desayune'], correct: 1, explanation: 'Imperfecto: desayunaba (hábito en el pasado).' },
+      { sentence: 'Este año (producirse) ___ cambios importantes en la nutrición.', options: ['se produjeron', 'se producían', 'se han producido', 'se produzcan'], correct: 2, explanation: 'Pretérito Perfecto: se han producido (conexión con el presente).' },
+      { sentence: 'Es necesario que nosotros (cambiar) ___ nuestra dieta.', options: ['cambiamos', 'cambiábamos', 'cambiamos', 'cambiemos'], correct: 3, explanation: 'Presente de Subjuntivo después de "es necesario que".' },
+      { sentence: 'En 1977 (decir) ___ que había que comer menos grasa.', options: ['dijeron', 'decían', 'han dicho', 'digan'], correct: 0, explanation: 'Pretérito Indefinido: dijeron (acción puntual en el pasado).' },
+      { sentence: 'Cuando yo era niño, no (existir) ___ leche descremada.', options: ['existió', 'existía', 'ha existido', 'exista'], correct: 1, explanation: 'Imperfecto: existía (descripción del pasado).' },
+      { sentence: 'Los científicos ya (demostrar) ___ que las grasas no son malas.', options: ['demostraron', 'demostraban', 'han demostrado', 'demuestren'], correct: 2, explanation: 'Pretérito Perfecto: han demostrado (resultado presente).' },
+      { sentence: 'Es importante que la medicina (reivindicar) ___ la verdad.', options: ['reivindica', 'reivindicaba', 'reivindicó', 'reivindique'], correct: 3, explanation: 'Presente de Subjuntivo después de "es importante que".' },
+      { sentence: 'Antes la leche (venir) ___ con crema encima.', options: ['venía', 'vino', 'ha venido', 'venga'], correct: 0, explanation: 'Imperfecto: venía (descripción habitual del pasado).' },
+      { sentence: 'La epidemia de diabetes (multiplicarse) ___ por siete.', options: ['se multiplicaba', 'se multiplicó', 'se ha multiplicado', 'se multiplique'], correct: 1, explanation: 'Pretérito Indefinido: se multiplicó (hecho histórico concreto).' },
+      { sentence: 'Espero que este programa nos (ayudar) ___ a entender.', options: ['ayuda', 'ayudaba', 'ayude', 'ayudó'], correct: 2, explanation: 'Presente de Subjuntivo después de "espero que".' },
+      { sentence: 'Esta semana (renovar) ___ nuestros conocimientos.', options: ['renovamos', 'renovábamos', 'renovemos', 'hemos renovado'], correct: 3, explanation: 'Pretérito Perfecto: hemos renovado (esta semana = período que incluye el presente).' },
+      { sentence: 'Los senadores no (querer) ___ esperar más investigaciones.', options: ['querían', 'quisieron', 'han querido', 'quieran'], correct: 0, explanation: 'Imperfecto: querían (actitud en el pasado).' },
+      { sentence: 'Dudo que el experimento (ser) ___ un éxito.', options: ['es', 'sea', 'era', 'fue'], correct: 1, explanation: 'Presente de Subjuntivo después de "dudo que".' },
+      { sentence: 'Ayer (leer) ___ un artículo sobre la pirámide alimentaria.', options: ['leía', 'he leído', 'leí', 'lea'], correct: 2, explanation: 'Pretérito Indefinido: leí (acción completada ayer).' }
     ]
   },
 
