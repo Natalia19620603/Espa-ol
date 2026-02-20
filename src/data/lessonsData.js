@@ -3889,6 +3889,10 @@ María: ¡Vamos!`,
       {
         tab: 'Cosas de la cocina',
         videoUrl: '/video/Cosas de la cocina M3C1.mp4'
+      },
+      {
+        tab: 'Una casa rural',
+        videoUrl: '/video/Una casa rural M3C1.mp4'
       }
     ],
     grammar: {
@@ -8241,6 +8245,10 @@ Ana: Yo también. Será un viaje inolvidable.
       {
         tab: '¡Vaya memoria!',
         videoUrl: '/video/¡Vaya memoria! ind M6C1.mp4'
+      },
+      {
+        tab: 'Me trajo este recuerdo',
+        videoUrl: '/video/Me trajo este recuerdo M6C1.mp4'
       }
     ],
     grammar: {
@@ -8967,6 +8975,10 @@ Esos días ya no volverán, pero los recuerdos permanecen. Y cuando cierro los o
       {
         tab: 'Viajando por España',
         videoUrl: '/video/Viajando por España M7C1.mp4'
+      },
+      {
+        tab: 'Un dia en la playa',
+        videoUrl: '/video/Un dia en la playa M7C1.mp4'
       }
     ],
     vocabulary: [
@@ -9425,6 +9437,10 @@ Al + инфинитив + подлежащее инфинитива, [основ
       {
         tab: 'Un hotel que sea céntrico',
         videoUrl: '/video/Un hotel que sea céntrico M11 C1.mp4'
+      },
+      {
+        tab: 'Consejos para ser feliz',
+        videoUrl: '/video/Consejos para ser feliz M11C1.mp4'
       }
     ],
     grammar: {
@@ -18525,6 +18541,12 @@ Pretérito Indefinido: ellos vivie**ron** → основа: **vivie-**
     id: 'lesson-12-2',
     title: 'Урок 2: Употребление сослагательного наклонения в придаточных предложениях времени (de tiempo)',
     moduleId: 'module-12',
+    videoTabs: [
+      {
+        tab: 'Cuando vayas a Madrid',
+        videoUrl: '/video/Cuando vayas a Madrid M12C2.mp4'
+      }
+    ],
     grammar: {
       title: 'Subjuntivo в придаточных предложениях времени',
       intro: `**Subjuntivo в придаточных предложениях времени** — это важная тема, которая позволяет правильно выражать временные отношения между действиями в испанском языке.
