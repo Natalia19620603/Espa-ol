@@ -17171,7 +17171,9 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
       { word: 'escapar', translation: 'сбежать, убежать' },
       { word: 'quien sabe', translation: 'кто знает' }
     ],
-    exercises: []
+    exercises: [
+      { name: 'Словарь', exercises: ['ex-17-11-vocab'] }
+    ]
   },
 
   'lesson-17-12': {
@@ -47972,6 +47974,32 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Пепа наконец признала себе, что Альберт нравится ей гораздо больше, чем когда-либо нравился Карлос.', correct: 'Pepa por fin ha reconocido para sí misma que Albert le gusta mucho más de lo que nunca le gustó Carlos.', alternatives: ['Pepa ha reconocido que Albert le gusta más que Carlos.'] },
       { russian: 'Важно, чтобы Пепа не принимала поспешных решений — пусть сначала подумает, что действительно хочет.', correct: 'Es importante que Pepa no tome decisiones precipitadas; que primero piense qué es lo que realmente quiere.', alternatives: ['Es importante que Pepa no se apresure a decidir y que piense bien lo que quiere.'] },
       { russian: 'Скажи мне честно: ты действительно веришь, что у таксистки и похоронщика из Новой Зеландии есть будущее?', correct: 'Dime con sinceridad: ¿de verdad crees que una taxista y un empresario de pompas fúnebres de Nueva Zelanda tienen futuro?', alternatives: ['Cuéntame la verdad: ¿crees que Pepa y Albert, la taxista y el neozelandés, pueden tener futuro juntos?'] }
+    ]
+  },
+
+  'ex-17-11-vocab': {
+    id: 'ex-17-11-vocab',
+    type: 'fillblank',
+    title: 'Словарь B1: Buena suerte, mala suerte — Банк слов',
+    description: 'Заполните пропуски подходящим словом из банка слов',
+    showAnswerOption: true,
+    wordBank: ['campesino', 'caballo', 'escapar', 'suerte', 'buena suerte', 'mala suerte', 'fábula', 'destino', 'moraleja', 'quien sabe'],
+    questions: [
+      { sentence: 'El _____ (крестьянин) vivía en un pequeño pueblo y tenía un viejo caballo para trabajar sus campos.', correct: 'campesino' },
+      { sentence: 'Un día, el _____ (лошадь) escapó al monte y desapareció.', correct: 'caballo' },
+      { sentence: '«¡Qué _____ (невезение)!» exclamaron los vecinos del campesino.', correct: 'mala suerte' },
+      { sentence: 'El campesino respondió tranquilamente: «¿_____? (кто знает)»', correct: 'quien sabe' },
+      { sentence: 'Al día siguiente, el caballo regresó con otros animales. «¡Qué _____ (везение)!» dijeron todos.', correct: 'buena suerte' },
+      { sentence: 'El hijo del campesino se cayó del caballo y se rompió la pierna. «¡Qué mala _____ (удача)!»', correct: 'suerte' },
+      { sentence: 'Los soldados vinieron al pueblo pero no pudieron llevarse al hijo por su pierna. «¡Qué buena _____!»', correct: 'suerte' },
+      { sentence: 'El campesino siempre pensaba que todo era parte del _____ (судьба).', correct: 'destino' },
+      { sentence: 'Nadie puede controlar su _____ (судьба) completamente, decía el viejo.', correct: 'destino' },
+      { sentence: 'Esta historia es una _____ (басня) muy antigua y sabia.', correct: 'fábula' },
+      { sentence: 'La _____ (мораль басни) nos enseña a no juzgar los eventos de la vida.', correct: 'moraleja' },
+      { sentence: '«¿Buena suerte o mala suerte? ¡_____!» era siempre la respuesta del viejo campesino.', correct: 'quien sabe' },
+      { sentence: 'El caballo logró _____ (сбежать) por la noche sin que nadie lo viera.', correct: 'escapar' },
+      { sentence: 'La _____ de la fábula es que la vida siempre puede cambiar de un momento a otro.', correct: 'moraleja' },
+      { sentence: 'La _____ (удача) puede cambiar en cualquier momento de la vida.', correct: 'suerte' }
     ]
   }
 }

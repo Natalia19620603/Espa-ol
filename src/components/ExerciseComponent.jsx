@@ -288,6 +288,33 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
 
         <p className={styles.description}>{exercise.description}</p>
 
+        {exercise.wordBank && exercise.wordBank.length > 0 && (
+          <div style={{
+            backgroundColor: '#f0f4ff',
+            border: '1px solid #c5cdf0',
+            borderRadius: '10px',
+            padding: '12px 16px',
+            margin: '0 0 16px 0',
+            textAlign: 'center'
+          }}>
+            <p style={{ fontWeight: '600', color: '#4a5568', marginBottom: '8px', fontSize: '0.85rem' }}>
+              Банк слов:
+            </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center' }}>
+              {exercise.wordBank.map((word, i) => (
+                <span key={i} style={{
+                  backgroundColor: '#fff',
+                  border: '1px solid #a0aec0',
+                  borderRadius: '6px',
+                  padding: '3px 10px',
+                  fontSize: '0.9rem',
+                  color: '#2d3748'
+                }}>{word}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
         {exercise.introAudio && (
           <div className={styles.introAudioContainer}>
             <button
