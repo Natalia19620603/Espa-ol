@@ -6367,16 +6367,6 @@ Elena: — Vale, ahora mismo voy a preparártelo.`,
     id: 'lesson-4-2',
     title: 'Урок 2: ГОРОД. Наречия, Числительные и Глаголы',
     moduleId: 'module-4',
-    videoTabs: [
-      {
-        tab: 'POR y PARA los sanfermines',
-        videoUrl: '/video/POR y PARA los sanfermines M4C2.mp4'
-      },
-      {
-        tab: 'Sevilla en dos dias',
-        videoUrl: '/video/Sevilla en dos dias M4C2.mp4'
-      }
-    ],
     grammar: {
       title: 'Наречия, Числительные и Глаголы',
       intro: `В этом уроке мы изучим наречия (как они образуются и сравниваются), количественные и порядковые числительные (от 100 до 1 000 000), а также различия между важными глаголами обучения и предложения.`,
@@ -6709,6 +6699,14 @@ Ana: No se preocupe. ¡Adiós!`
       }
     ],
     videoTabs: [
+      {
+        tab: 'POR y PARA los sanfermines',
+        videoUrl: '/video/POR y PARA los sanfermines M4C2.mp4'
+      },
+      {
+        tab: 'Sevilla en dos dias',
+        videoUrl: '/video/Sevilla en dos dias M4C2.mp4'
+      },
       {
         tab: 'Esta es Barcelona',
         videoUrl: '/video/Esta es Barcelona. M4C2.mp4'
