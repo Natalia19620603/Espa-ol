@@ -17298,7 +17298,7 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
   },
   'lesson-17-11': {
     id: 'lesson-17-11',
-    title: 'Урок 11: Fábulas - Buena suerte, mala suerte',
+    title: 'Урок 11: Fábulas',
     moduleId: 'module-17',
     videoTabs: [
       {
@@ -17308,18 +17308,65 @@ Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles 
       }
     ],
     vocabulary: [
-      { word: 'la fábula', translation: 'басня' },
-      { word: 'la suerte', translation: 'удача, судьба' },
-      { word: 'buena suerte', translation: 'удача, везение' },
-      { word: 'mala suerte', translation: 'неудача, невезение' },
-      { word: 'el destino', translation: 'судьба' },
-      { word: 'la moraleja', translation: 'мораль (басни)' },
-      { word: 'el campesino', translation: 'крестьянин' },
-      { word: 'el caballo', translation: 'лошадь' },
-      { word: 'escapar', translation: 'сбежать, убежать' },
-      { word: 'quien sabe', translation: 'кто знает' }
+      {
+        tab: 'Buena suerte, mala suerte',
+        words: [
+          { word: 'la fábula', translation: 'басня' },
+          { word: 'la suerte', translation: 'удача, судьба' },
+          { word: 'buena suerte', translation: 'удача, везение' },
+          { word: 'mala suerte', translation: 'неудача, невезение' },
+          { word: 'el destino', translation: 'судьба' },
+          { word: 'la moraleja', translation: 'мораль (басни)' },
+          { word: 'el campesino', translation: 'крестьянин' },
+          { word: 'el caballo', translation: 'лошадь' },
+          { word: 'escapar', translation: 'сбежать, убежать' },
+          { word: 'quien sabe', translation: 'кто знает' },
+          { word: 'el anciano', translation: 'старик, старец' },
+          { word: 'cultivar', translation: 'выращивать, культивировать' },
+          { word: 'labrador', translation: 'земледелец' },
+          { word: 'escaparse', translation: 'бежать, убежать' },
+          { word: 'condolerse', translation: 'соболезновать' },
+          { word: 'las condolencias', translation: 'соболезнования' },
+          { word: 'lamentar', translation: 'жалеть, сожалеть' },
+          { word: 'replicar', translation: 'возражать, замечать' },
+          { word: 'la manada', translation: 'стадо, стая' },
+          { word: 'domar', translation: 'приручить, укротить' },
+          { word: 'salvaje', translation: 'дикий, грубый' },
+          { word: 'considerar', translation: 'рассматривать, считать' },
+          { word: 'limitarse a', translation: 'ограничиваться чем-либо' },
+          { word: 'reclutar', translation: '1. набирать, нанимать; 2. вербовать; 3. призывать (в армию)' },
+          { word: 'el contratiempo', translation: 'неприятность, невзгода' },
+          { word: 'el disfraz', translation: 'карнавальный костюм' },
+          { word: 'dañino', translation: 'вредный, опасный' }
+        ]
+      }
     ],
-    exercises: []
+    readingText: [
+      {
+        tab: 'Buena suerte, mala suerte',
+        title: 'Buena suerte, mala suerte',
+        content: `Una historia china habla de un anciano labrador que tenía un viejo caballo para cultivar sus campos. Un día, el caballo escapó a las montañas. Cuando los vecinos del anciano labrador se acercaban para condolerse con él y lamentar su desgracia, el labrador les replicó: "Mala suerte, buena suerte, ¿quién sabe?".
+
+Una semana después, el caballo volvió de las montañas trayendo consigo una manada de caballos. Entonces, los vecinos felicitaron al labrador por su buena suerte. Este les respondió: "Buena suerte, mala suerte, ¿quién sabe?".
+
+Cuando el hijo del labrador intentó domar uno de aquellos caballos salvajes, cayó y se rompió una pierna. Todo el mundo consideró esto como una desgracia; no así el labrador, quien se limitó a decir: "Mala suerte, buena suerte, ¿quién sabe?".
+
+Una semana más tarde, el ejército entró en el poblado y fueron reclutados todos los jóvenes que se encontraban en buenas condiciones. Cuando vieron al hijo del labrador con la pierna rota, le dejaron tranquilo. Había sido buena suerte, mala suerte... ¿Quién sabe?
+
+Todo lo que a primera vista parece un contratiempo puede ser un disfraz del bien, y lo que parece bueno a primera vista puede ser realmente dañino.`
+      }
+    ],
+    exercises: [
+      {
+        tab: 'Buena suerte, mala suerte',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-17-11-buenasuerte-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-17-11-buenasuerte-comprehension'] },
+          { name: 'Грамматика', exercises: ['ex-17-11-buenasuerte-grammar'] },
+          { name: 'Перевод', exercises: ['ex-17-11-buenasuerte-translation'] }
+        ]
+      }
+    ]
   },
 
   'lesson-17-12': {
@@ -48118,6 +48165,107 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Пепа и Альберт стали очень близки за эти несколько безумных дней в Барселоне.', correct: 'Pepa y Albert se han hecho muy cercanos durante estos pocos días tan locos en Barcelona.', alternatives: ['En apenas unos días Pepa y Albert se han unido mucho.'] },
       { russian: 'Карлос случайно забрал не ту коробку — он взял печенье с пеплом вместо обычного.', correct: 'Carlos se llevó la caja equivocada por error: cogió las galletas con las cenizas en vez de las normales.', alternatives: ['Carlos cogió la caja con cenizas pensando que eran sus galletas de siempre.'] },
       { russian: 'Альберт поцеловал Пепу и она поняла, что он нравится ей гораздо больше, чем Карлос.', correct: 'Albert besó a Pepa y ella comprendió que le gustaba mucho más que Carlos.', alternatives: ['Cuando Albert la besó, Pepa supo que lo prefería a él sobre Carlos.'] }
+    ]
+  },
+
+  'ex-17-11-buenasuerte-vocab': {
+    id: 'ex-17-11-buenasuerte-vocab',
+    type: 'fillblank',
+    title: 'Словарь B1: Buena suerte, mala suerte — Банк слов',
+    description: 'Заполните пропуски подходящим словом из банка слов',
+    showAnswerOption: true,
+    wordBank: ['anciano', 'cultivar', 'labrador', 'escaparse', 'condolerse', 'condolencias', 'lamentar', 'replicó', 'manada', 'domar', 'salvajes', 'limitó a', 'reclutar', 'contratiempo', 'dañino'],
+    questions: [
+      { sentence: 'El ______ vivía en un pequeño pueblo y tenía un viejo caballo para trabajar sus campos.', correct: 'anciano', alternatives: [] },
+      { sentence: 'Usaba el caballo para ______ sus campos cada primavera con gran esfuerzo.', correct: 'cultivar', alternatives: [] },
+      { sentence: 'El ______ trabajaba de sol a sol para alimentar a su familia.', correct: 'labrador', alternatives: [] },
+      { sentence: 'Un día el caballo logró ______ hacia las montañas sin que nadie lo viera.', correct: 'escaparse', alternatives: [] },
+      { sentence: 'Los vecinos vinieron a ______ con el anciano y a lamentar su pérdida.', correct: 'condolerse', alternatives: [] },
+      { sentence: 'El labrador recibió con calma las ______ de todos sus vecinos.', correct: 'condolencias', alternatives: [] },
+      { sentence: 'El sabio no quiso ______ su mala suerte porque no sabía si era buena o mala.', correct: 'lamentar', alternatives: [] },
+      { sentence: 'Cuando los vecinos le felicitaron por la manada, el labrador ______: "¿Quién sabe?".', correct: 'replicó', alternatives: [] },
+      { sentence: 'El caballo volvió trayendo consigo toda una ______ de caballos bravos.', correct: 'manada', alternatives: [] },
+      { sentence: 'El hijo del labrador intentó ______ a uno de aquellos caballos bravos y cayó.', correct: 'domar', alternatives: [] },
+      { sentence: 'Los caballos que llegaron eran completamente ______: nadie los había domado nunca.', correct: 'salvajes', alternatives: [] },
+      { sentence: 'El labrador se ______ decir su frase habitual: "Buena suerte, mala suerte, ¿quién sabe?".', correct: 'limitó a', alternatives: [] },
+      { sentence: 'El ejército entró en el poblado para ______ a todos los jóvenes en buenas condiciones.', correct: 'reclutar', alternatives: [] },
+      { sentence: 'Todo ______ puede ser un disfraz del bien si esperamos con paciencia.', correct: 'contratiempo', alternatives: [] },
+      { sentence: 'Lo que parece bueno a primera vista puede resultar realmente ______.', correct: 'dañino', alternatives: [] }
+    ]
+  },
+
+  'ex-17-11-buenasuerte-comprehension': {
+    id: 'ex-17-11-buenasuerte-comprehension',
+    type: 'reading-comprehension',
+    title: 'Понимание текста B1: Buena suerte, mala suerte — Правда или ложь',
+    description: 'Определите, соответствует ли утверждение тексту (Verdadero = Правда, Falso = Ложь)',
+    showAnswerOption: true,
+    questions: [
+      { question: 'El anciano labrador tenía un caballo joven y fuerte para cultivar sus campos.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Un día el caballo del labrador escapó a las montañas.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Los vecinos se acercaron para condolerse con el anciano por la pérdida del caballo.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El labrador lamentó mucho la pérdida de su caballo y expresó su tristeza.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El caballo volvió solo, sin traer ningún otro animal consigo.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Los vecinos felicitaron al labrador por la llegada de la manada de caballos.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El labrador celebró con sus vecinos la buena suerte y organizó una fiesta.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El hijo del labrador logró domar uno de los caballos salvajes con éxito.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'El hijo del labrador se rompió una pierna al caer del caballo salvaje.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El labrador consideró la pierna rota de su hijo como una terrible desgracia.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'Una semana después del accidente, el ejército llegó al poblado.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El ejército reclutó solo a los jóvenes que estaban en buenas condiciones físicas.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'El hijo del labrador fue reclutado por el ejército a pesar de su pierna rota.', options: ['Verdadero', 'Falso'], correct: 1 },
+      { question: 'La pierna rota del hijo resultó ser una ventaja para no ir al ejército.', options: ['Verdadero', 'Falso'], correct: 0 },
+      { question: 'Según la moraleja, un contratiempo puede ser un disfraz del bien.', options: ['Verdadero', 'Falso'], correct: 0 }
+    ]
+  },
+
+  'ex-17-11-buenasuerte-grammar': {
+    id: 'ex-17-11-buenasuerte-grammar',
+    type: 'fillblank',
+    title: 'Грамматика B1: Buena suerte, mala suerte — Pretérito perfecto, indefinido, imperfecto, subjuntivo, OD/OI',
+    description: 'Выберите правильную форму глагола или местоимения. Обратите внимание на маркеры времени',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Un día, el caballo del anciano ______ (escapar) hacia las montañas sin avisar a nadie.', blank: 'escapó', options: ['escapó', 'ha escapado', 'escape', 'escapaba'], correct: 0 },
+      { sentence: 'Ayer, el hijo del labrador ______ (intentar) domar al caballo más bravo de la manada.', blank: 'intentó', options: ['intentó', 'ha intentado', 'intente', 'intentaba'], correct: 0 },
+      { sentence: 'El ejército ______ (entrar) en el poblado hace varios días y reclutó a los jóvenes sanos.', blank: 'entró', options: ['entró', 'ha entrado', 'entre', 'entraba'], correct: 0 },
+      { sentence: 'Hoy ______ (leer, yo) esta fábula china sobre la buena y la mala suerte.', blank: 'he leído', options: ['leí', 'he leído', 'lea', 'leía'], correct: 1 },
+      { sentence: 'Esta semana ______ (aprender, nosotros) muchas palabras nuevas sobre las fábulas españolas.', blank: 'hemos aprendido', options: ['aprendimos', 'hemos aprendido', 'aprendamos', 'aprendíamos'], correct: 1 },
+      { sentence: 'Nunca ______ (ver, yo) una historia tan sabia sobre el destino y la suerte.', blank: 'he visto', options: ['vi', 'he visto', 'vea', 'veía'], correct: 1 },
+      { sentence: 'Cuando el labrador era joven, ______ (cultivar) sus campos con mucho esfuerzo cada día.', blank: 'cultivaba', options: ['cultivó', 'ha cultivado', 'cultive', 'cultivaba'], correct: 3 },
+      { sentence: 'El anciano ______ (tener) siempre la misma respuesta tranquila para todo: "¿Quién sabe?".', blank: 'tenía', options: ['tuvo', 'ha tenido', 'tenga', 'tenía'], correct: 3 },
+      { sentence: 'De niño, el hijo del labrador ______ (soñar) con domar caballos salvajes como los de las montañas.', blank: 'soñaba', options: ['soñó', 'ha soñado', 'sueñe', 'soñaba'], correct: 3 },
+      { sentence: 'Es importante que todos ______ (entender) la moraleja de esta historia china.', blank: 'entiendan', options: ['entienden', 'entendieron', 'entiendan', 'han entendido'], correct: 2 },
+      { sentence: 'No creo que la vida siempre ______ (ser) justa con todas las personas.', blank: 'sea', options: ['es', 'fue', 'sea', 'ha sido'], correct: 2 },
+      { sentence: 'Espero que algún día todos ______ (aprender) a ver el bien dentro del mal.', blank: 'aprendan', options: ['aprenden', 'aprendieron', 'aprendan', 'han aprendido'], correct: 2 },
+      { sentence: 'Los vecinos felicitaron al labrador. Los vecinos ______ felicitaron por su buena suerte.', blank: 'lo', options: ['le', 'lo', 'la', 'les'], correct: 1 },
+      { sentence: 'El ejército reclutó a los jóvenes del pueblo. El ejército ______ reclutó a todos.', blank: 'los', options: ['le', 'lo', 'los', 'las'], correct: 2 },
+      { sentence: 'El labrador respondió a sus vecinos con calma. El labrador ______ respondió con calma.', blank: 'les', options: ['lo', 'la', 'les', 'se'], correct: 2 }
+    ]
+  },
+
+  'ex-17-11-buenasuerte-translation': {
+    id: 'ex-17-11-buenasuerte-translation',
+    type: 'translation',
+    title: 'Перевод B1: Buena suerte, mala suerte — Pretérito perfecto, indefinido, imperfecto, subjuntivo, OD/OI',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Однажды лошадь (escapar) убежала в горы, и земледелец остался без помощника.', correct: 'Un día, el caballo escapó a las montañas y el labrador se quedó sin ayuda.', alternatives: ['Un día el caballo se escapó a las montañas y el anciano labrador se quedó solo.'] },
+      { russian: 'Сегодня я (leer) прочитал эту мудрую историю о старике и его лошади.', correct: 'Hoy he leído esta sabia historia sobre el anciano y su caballo.', alternatives: ['Hoy he leído esta historia sobre un anciano labrador y su caballo.'] },
+      { russian: 'Каждый день старик (cultivar) обрабатывал свои поля со старой лошадью.', correct: 'Cada día el anciano cultivaba sus campos con su viejo caballo.', alternatives: ['El anciano cultivaba sus campos cada día con el caballo.'] },
+      { russian: 'Соседи (acercarse) подошли, чтобы выразить соболезнования (condolerse) и разделить его горе.', correct: 'Los vecinos se acercaron para condolerse con él y lamentar su desgracia.', alternatives: ['Los vecinos se acercaron para darle sus condolencias y lamentar su pérdida.'] },
+      { russian: 'Важно, чтобы мы (entender) понимали, что не всегда знаем, что хорошо, а что плохо.', correct: 'Es importante que entendamos que no siempre sabemos qué es bueno y qué es malo.', alternatives: ['Es importante que comprendamos que no siempre sabemos lo que es bueno o malo.'] },
+      { russian: 'Сын (intentar) попытался укротить (domar) дикую лошадь и упал (caerse).', correct: 'El hijo intentó domar el caballo salvaje y se cayó.', alternatives: ['El hijo del labrador intentó domar uno de los caballos salvajes y cayó al suelo.'] },
+      { russian: 'На этой неделе армия (reclutar) уже набрала много молодых людей из деревни.', correct: 'Esta semana el ejército ya ha reclutado a muchos jóvenes del pueblo.', alternatives: ['El ejército ya ha reclutado esta semana a muchos jóvenes del poblado.'] },
+      { russian: 'Когда старик был молодым, он (saber) умел принимать удары судьбы с мудростью.', correct: 'Cuando el anciano era joven, sabía aceptar los golpes del destino con sabiduría.', alternatives: ['Cuando era joven, el labrador sabía aceptar con sabiduría los golpes del destino.'] },
+      { russian: 'Не думаю, что каждая неприятность (contratiempo / ser) является замаскированным добром.', correct: 'No creo que todo contratiempo sea un bien disfrazado.', alternatives: ['No creo que cada contratiempo sea un disfraz del bien.'] },
+      { russian: 'Старик ответил им (vecinos) спокойно: «Буэна суэрте, мала суэрте, кто знает?»', correct: 'El anciano les respondió con calma: "Buena suerte, mala suerte, ¿quién sabe?".', alternatives: ['El labrador les respondió tranquilamente: "Buena suerte, mala suerte, ¿quién sabe?".'] },
+      { russian: 'Армия (entrar) вошла в деревню и (reclutar) призвала всех здоровых юношей.', correct: 'El ejército entró en el poblado y reclutó a todos los jóvenes sanos.', alternatives: ['El ejército entró al pueblo y reclutó a todos los jóvenes que estaban en buenas condiciones.'] },
+      { russian: 'Этот мудрый старик никогда (quejarse) не жаловался на свою судьбу.', correct: 'Este anciano sabio nunca se ha quejado de su destino.', alternatives: ['Este sabio anciano nunca se ha quejado de su suerte.'] },
+      { russian: 'Хочу, чтобы ты (comprender) понял мораль этой старой китайской басни.', correct: 'Quiero que comprendas la moraleja de esta antigua fábula china.', alternatives: ['Quiero que entiendas la moraleja de esta fábula china.'] },
+      { russian: 'В те времена все в деревне (conocer) знали старого земледельца и его мудрость.', correct: 'En aquellos tiempos, todos en el pueblo conocían al anciano labrador y su sabiduría.', alternatives: ['En esa época todos en el poblado conocían al viejo labrador y su sabiduría.'] },
+      { russian: 'Соседи поздравили земледельца — они его поздравили (OD) с возвращением лошади.', correct: 'Los vecinos felicitaron al labrador: lo felicitaron por el regreso del caballo.', alternatives: ['Los vecinos lo felicitaron al labrador por la vuelta del caballo.'] }
     ]
   }
 }
