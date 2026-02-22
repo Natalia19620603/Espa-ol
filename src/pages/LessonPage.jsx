@@ -163,50 +163,65 @@ function LessonPage() {
   const renderMarkdown = (text) => {
     if (!text) return null
 
-    // Простой парсер markdown
-    return text.split('\n').map((line, index) => {
-      // Заголовки
-      if (line.startsWith('# ')) {
-        return <h2 key={index} className={styles.mdH2}>{line.substring(2)}</h2>
-      }
-      if (line.startsWith('## ')) {
-        return <h3 key={index} className={styles.mdH3}>{line.substring(3)}</h3>
-      }
+    const renderInline = (str) => {
+      if (!str.includes('**')) return str
+      const parts = str.split('**')
+      return parts.map((part, i) =>
+        i % 2 === 0 ? part : <strong key={i}>{part}</strong>
+      )
+    }
 
-      // Жирный текст
-      if (line.includes('**')) {
-        const parts = line.split('**')
-        return (
-          <p key={index} className={styles.mdP}>
-            {parts.map((part, i) =>
-              i % 2 === 0 ? part : <strong key={i}>{part}</strong>
-            )}
-          </p>
-        )
-      }
-
-      // Списки
-      if (line.startsWith('- ')) {
-        return <li key={index} className={styles.mdLi}>{line.substring(2)}</li>
-      }
-
-      // Таблицы (упрощенно)
+    // Группируем строки в блоки (таблицы и одиночные строки)
+    const lines = text.split('\n')
+    const blocks = []
+    let i = 0
+    while (i < lines.length) {
+      const line = lines[i]
       if (line.startsWith('|')) {
-        const cells = line.split('|').filter(cell => cell.trim())
+        const tableLines = []
+        while (i < lines.length && lines[i].startsWith('|')) {
+          // Пропускаем разделители вида |---|---|
+          const isSeparator = lines[i].split('|').filter(c => c.trim()).every(c => /^[\-:\s]+$/.test(c))
+          if (!isSeparator) tableLines.push(lines[i])
+          i++
+        }
+        if (tableLines.length) blocks.push({ type: 'table', lines: tableLines })
+      } else {
+        blocks.push({ type: 'line', content: line })
+        i++
+      }
+    }
+
+    return blocks.map((block, index) => {
+      if (block.type === 'table') {
         return (
-          <tr key={index}>
-            {cells.map((cell, i) => (
-              <td key={i} className={styles.mdTd}>{cell.trim()}</td>
-            ))}
-          </tr>
+          <div key={index} className={styles.tableWrapper}>
+            <table className={styles.mdTable}>
+              <tbody>
+                {block.lines.map((line, rowIndex) => {
+                  const cells = line.split('|').filter(c => c.trim() !== '')
+                  const isHeader = rowIndex === 0
+                  return (
+                    <tr key={rowIndex}>
+                      {cells.map((cell, colIndex) =>
+                        isHeader
+                          ? <th key={colIndex} className={styles.mdTh}>{renderInline(cell.trim())}</th>
+                          : <td key={colIndex} className={styles.mdTd}>{renderInline(cell.trim())}</td>
+                      )}
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
         )
       }
 
-      // Обычный текст
-      if (line.trim()) {
-        return <p key={index} className={styles.mdP}>{line}</p>
-      }
-
+      const line = block.content
+      if (line.startsWith('# ')) return <h2 key={index} className={styles.mdH2}>{line.substring(2)}</h2>
+      if (line.startsWith('## ')) return <h3 key={index} className={styles.mdH3}>{line.substring(3)}</h3>
+      if (line.startsWith('- ')) return <li key={index} className={styles.mdLi}>{renderInline(line.substring(2))}</li>
+      if (line.trim()) return <p key={index} className={styles.mdP}>{renderInline(line)}</p>
       return <br key={index} />
     })
   }
