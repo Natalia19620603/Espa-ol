@@ -102,17 +102,17 @@ export const modules = {
   },
   'module-9': {
     id: 'module-9',
-    title: 'Модуль 9: СПОРТ. Voz pasiva (страдательный залог). Acusativo con infinitivo. Инфинитивные конструкции',
+    title: 'Модуль 9: СПОРТ.',
     level: 'elementary',
     lessons: ['lesson-9-1', 'lesson-9-2', 'lesson-9-3'],
-    description: 'Страдательный залог (Voz Pasiva), конструкции с SE, Acusativo con infinitivo'
+    description: '1 Страдательный залог (Voz Pasiva). 2 Конструкция Acusativo con Infinitivo. 3 Основные инфинитивные конструкции (Перифразы)'
   },
   'module-10': {
     id: 'module-10',
-    title: 'Модуль 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ. Modo imperativo afirmativo, Modo imperativo negativo',
+    title: 'Модуль 10: ЗДОРОВЬЕ. ВИЗИТ К ВРАЧУ.',
     level: 'elementary',
     lessons: ['lesson-10-1', 'lesson-10-2', 'lesson-10-3', 'lesson-10-4'],
-    description: 'Повелительное наклонение (утвердительная и отрицательная форма), лексика здоровья и визита к врачу'
+    description: '1 Imperativo Afirmativo (Утвердительная форма повелительного наклонения). 2 Местоимения в Imperativo Afirmativo. 3 Imperativo Negativo (Отрицательная форма повелительного наклонения). 4 Повторение Модулей 9, 10'
   },
   'module-17': {
     id: 'module-17',
