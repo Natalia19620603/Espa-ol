@@ -220,6 +220,7 @@ function LessonPage() {
       const line = block.content
       if (line.startsWith('# ')) return <h2 key={index} className={styles.mdH2}>{line.substring(2)}</h2>
       if (line.startsWith('## ')) return <h3 key={index} className={styles.mdH3}>{line.substring(3)}</h3>
+      if (line.startsWith('### ')) return <p key={index} className={styles.mdSubhead}><strong>{line.substring(4)}</strong></p>
       if (line.startsWith('- ')) return <li key={index} className={styles.mdLi}>{renderInline(line.substring(2))}</li>
       if (line.trim()) return <p key={index} className={styles.mdP}>{renderInline(line)}</p>
       return <br key={index} />
