@@ -77,14 +77,14 @@ export const modules = {
     title: 'Модуль 11: Досуг и развлечения (95 слов)',
     level: 'intermediate',
     lessons: ['lesson-11-1', 'lesson-11-2'],
-    description: 'Modo subjuntivo: досуг, развлечения, свободное время'
+    description: '1 ДОСУГ. РАЗВЛЕЧЕНИЯ. Modo subjuntivo. 2 Глаголы, требующие Subjuntivo.'
   },
   'module-12': {
     id: 'module-12',
-    title: 'Модуль 12: ОБРАЗОВАНИЕ. Imperfecto de subjuntivo. Придаточные предложения времени и цели',
+    title: 'Модуль 12: ОБРАЗОВАНИЕ',
     level: 'intermediate',
     lessons: ['lesson-12-1', 'lesson-12-2', 'lesson-12-3', 'lesson-12-4'],
-    description: 'Imperfecto de subjuntivo, придаточные предложения времени (de tiempo) и цели (de fin)'
+    description: '1 Imperfecto de Subjuntivo (простое прошедшее время сослагательного наклонения). Правила и употребление. 2 Употребление сослагательного наклонения в придаточных предложениях времени. 3 Употребление сослагательного наклонения в придаточных предложениях цели. 4 Повторение Модуль 11 и 12'
   },
   'module-13': {
     id: 'module-13',
