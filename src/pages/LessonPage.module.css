@@ -196,39 +196,42 @@
 }
 
 .mdTd {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   border: 1px solid #ddd;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
-/* Адаптивные таблицы */
-.sectionContent table,
-.grammarContent table {
+.mdTh {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #c0c8f0;
+  font-size: 0.95rem;
+  background: #667eea;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+.tableWrapper {
   width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
+  border-radius: 8px;
 }
 
-.sectionContent table tr,
-.grammarContent table tr {
-  display: table-row;
+.mdTable {
+  border-collapse: collapse;
+  min-width: 280px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
-  .sectionContent table,
-  .grammarContent table {
-    font-size: 0.9rem;
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-
-  .mdTd {
+  .mdTd,
+  .mdTh {
     padding: 0.4rem 0.6rem;
     font-size: 0.85rem;
+    white-space: normal;
+    word-break: break-word;
   }
 }
 

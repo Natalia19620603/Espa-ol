@@ -60,17 +60,17 @@ export const modules = {
   },
   'module-6': {
     id: 'module-6',
-    title: 'Модуль 6: ПО МАГАЗИНАМ. ПОКУПКИ. Pretérito indefinido (простое прошедшее время). Неопределенное местоимение mismo. Pretérito imperfecto de indicativo (простое прошедшее время несовершенного вида изъявительного наклонения) (169 слов)',
+    title: 'Модуль 6. ПО МАГАЗИНАМ. ПОКУПКИ.',
     level: 'elementary',
     lessons: ['lesson-6-1', 'lesson-6-2', 'lesson-6-3'],
     description: '1 Pretérito indefinido (простое прошедшее время). 2 Неопределенное местоимение mismo. 3 Pretérito imperfecto de indicativo (простое прошедшее время несовершенного вида изъявительного наклонения)'
   },
   'module-7': {
     id: 'module-7',
-    title: 'Модуль 7: ПРИЯТНОГО АППЕТИТА. Календарь. Сравнительная характеристика употребления indefinido / imperfecto. Конструкция al + инфинитив. Pretérito pluscuamperfecto de indicativo (предпрошедшее время изъявительного наклонения)',
+    title: 'Модуль 7: ПРИЯТНОГО АППЕТИТА. КАЛЕНДАРЬ',
     level: 'elementary',
     lessons: ['lesson-7-1', 'lesson-7-2', 'lesson-7-3'],
-    description: 'Календарь, сравнение Indefinido/Imperfecto, конструкция al + инфинитив, Pretérito Pluscuamperfecto'
+    description: '1 Сравнительная характеристика употребления Pretérito Indefinido / Imperfecto. 2 Конструкция Al + Infinitivo. Глаголы dejar y quedar(se). 3 Pretérito Pluscuamperfecto (Предпрошедшее время)'
   },
   'module-11': {
     id: 'module-11',
@@ -95,10 +95,10 @@ export const modules = {
   },
   'module-8': {
     id: 'module-8',
-    title: 'Модуль 8: ОТПУСК. ВИДЫ ТУРИЗМА. Условные предложения I типа. Modo potencial (condicional). Potencial simple (будущее в прошедшем/простое условное время). Concordancia de los tiempos (согласование времен изъявительного наклонения). Перевод прямой речи в косвенную (45 слов)',
+    title: 'Модуль 8: ОТПУСК. ВИДЫ ТУРИЗМА.',
     level: 'elementary',
     lessons: ['lesson-8-1', 'lesson-8-2', 'lesson-8-3', 'lesson-8-4'],
-    description: 'Условные предложения I типа, Potencial simple, согласование времен, косвенная речь'
+    description: '1 Условные предложения I типа (Реальное условие). 2 Condicional Simple (Условное время). 3 Согласование времен (Concordancia de tiempos). 4 Повторение материала модулей 6, 7, 8'
   },
   'module-9': {
     id: 'module-9',
@@ -10870,34 +10870,35 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
     ],
     grammar: {
       title: 'Согласование времен (Concordancia de tiempos)',
-      content: `
-# Согласование времен (Concordancia de tiempos)
-
-## Правило 1: Если "вводное слово" в Настоящем (Dice)
-
-Если человек говорит прямо сейчас (Dice) или только что сказал (Ha dicho), в придаточном предложении время **НЕ меняется**. Все остается как в оригинале.
+      sections: [
+        {
+          id: 'rule1',
+          title: 'Правило 1: Если "вводное слово" в Настоящем (Dice)',
+          content: `Если человек говорит прямо сейчас (Dice) или только что сказал (Ha dicho), в придаточном предложении время **НЕ меняется**. Все остается как в оригинале.
 
 **Примеры:**
 
 - Dice: "Vivo aquí" → Dice que **vive** allí. (Настоящее остается настоящим).
-- Dice: "Iré mañana" → Dice que **irá** mañana. (Будущее остается будущим).
+- Dice: "Iré mañana" → Dice que **irá** mañana. (Будущее остается будущим).`
+        },
+        {
+          id: 'rule2',
+          title: 'Правило 2: Если "вводное слово" в Прошедшем (Dijo / Decía)',
+          content: `Если мы пересказываем слова из прошлого, срабатывает "эффект сдвига". Мы как бы делаем шаг назад во времени.
 
-## Правило 2: Если "вводное слово" в Прошедшем (Dijo / Decía)
+Таблица сдвига времён:
 
-Если мы пересказываем слова из прошлого, срабатывает "эффект сдвига". Мы как бы делаем шаг назад во времени.
-
-### Таблица сдвига времён:
-
-| Время в прямой речи (Что сказали) | Время в косвенной речи (Как пересказываем) |
-|-----------------------------------|-------------------------------------------|
-| Presente (сделаю сейчас) | Imperfecto (делал тогда) |
-| Pretérito Perfecto / Indefinido (сделал) | Pluscuamperfecto (сделал ДО того момента) |
-| Futuro Simple (сделаю потом) | Condicional Simple (сделал БЫ / будущее в прошлом) |
-| Imperfecto / Pluscuamperfecto | НЕ МЕНЯЮТСЯ |
-
-## 3. Изменение слов-указателей
-
-Когда мы переносим действие в прошлое, слова "сегодня" или "здесь" теряют смысл, их нужно заменить:
+| Время в прямой речи | Время в косвенной речи |
+|---------------------|------------------------|
+| Presente | Imperfecto |
+| Pretérito Perfecto / Indefinido | Pluscuamperfecto |
+| Futuro Simple | Condicional Simple |
+| Imperfecto / Pluscuamperfecto | НЕ МЕНЯЮТСЯ |`
+        },
+        {
+          id: 'indicators',
+          title: '3. Изменение слов-указателей',
+          content: `Когда мы переносим действие в прошлое, слова "сегодня" или "здесь" теряют смысл, их нужно заменить:
 
 | Прямая речь | Косвенная речь |
 |-------------|----------------|
@@ -10906,18 +10907,21 @@ Desde que sale el sol hasta que cae la noche, la ciudad transforma sus calles y 
 | Mañana (завтра) | Al día siguiente (на следующий день) |
 | Ahora (сейчас) | Entonces (тогда) |
 | Aquí (здесь) | Allí (там) |
-| Este (этот) | Aquel (тот) |
-
-## Примеры с исправлениями (План прошедшего):
-
-1. Ana dijo: "Ahora vivo aquí" → Ana dijo que **entonces vivía allí**.
+| Este (этот) | Aquel (тот) |`
+        },
+        {
+          id: 'examples',
+          title: 'Примеры с исправлениями (План прошедшего)',
+          content: `1. Ana dijo: "Ahora vivo aquí" → Ana dijo que **entonces vivía allí**.
    (Сдвиг: Настоящее → Прошедшее).
 
 2. Ana dijo: "Hoy he visto a Lola" → Ana dijo que **aquel día había visto** a Lola.
    (Сдвиг: Только что → Давно).
 
 3. Ana dijo: "Mañana volveré" → Ana dijo que **al día siguiente volvería**.
-   (Сдвиг: Будущее → Условное).`,
+   (Сдвиг: Будущее → Условное).`
+        }
+      ],
       examples: [
         { spanish: 'Dice que vive allí', russian: 'Он говорит, что живет там' },
         { spanish: 'Dice que irá mañana', russian: 'Он говорит, что пойдет завтра' },
