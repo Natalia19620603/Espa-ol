@@ -97,7 +97,7 @@ export const modules = {
     id: 'module-14',
     title: 'Модуль 14: ЗАЩИТА ОКРУЖАЮЩЕЙ СРЕДЫ',
     level: 'intermediate',
-    lessons: ['lesson-14-1', 'lesson-14-2'],
+    lessons: ['lesson-14-1', 'lesson-14-2', 'lesson-14-3'],
     description: '1 Pretérito Perfecto de Subjuntivo. Pretérito pluscuamperfecto de subjuntivo. Infinitivo compuesto. 2 Согласование времен сослагательного наклонения. 3 Употребление сослагательного наклонения в придаточных предложениях образа действия (de modo)'
   },
   'module-8': {
@@ -20403,6 +20403,188 @@ Infinitivo Compuesto используется, когда:
 | Presente / Futuro | действие УЖЕ произошло | **Perfecto Subj.** |
 | Pasado / Condicional | действие одновременно или после | **Imperfecto Subj.** |
 | Pasado / Condicional | действие было ЕЩЁ РАНЬШЕ | **Pluscuamperfecto Subj.** |`
+        }
+      ]
+    }
+  },
+
+  'lesson-14-3': {
+    id: 'lesson-14-3',
+    title: 'Урок 3: Употребление сослагательного наклонения в придаточных предложениях образа действия (de modo)',
+    moduleId: 'module-14',
+    grammar: {
+      title: 'Придаточные предложения образа действия (Oraciones de Modo)',
+      intro: `Придаточные предложения **образа действия** отвечают на вопрос «Как? Каким образом?» и вводятся специальными союзами. Выбор **Indicativo** или **Subjuntivo** зависит от союза и степени реальности действия.`,
+      sections: [
+        {
+          id: 'modo-como',
+          title: '1. Союз COMO (Как)',
+          content: `## Союз COMO — «как», «так как», «каким образом»
+
+Выбор наклонения зависит от **реальности** или **определённости** действия:
+
+---
+
+### Indicativo — действие реально или уже произошло
+
+Используется, когда говорящий описывает **факт** или **конкретный способ**, которым что-то было сделано.
+
+| Пример | Перевод |
+|--------|---------|
+| *Lo hice **como me dijiste**.* | Я сделал это так, как ты мне сказал. |
+| *Cocina **como le enseñó su madre**.* | Готовит так, как научила её мать. |
+| *Vino **como pudo**.* | Он пришёл как мог. |
+| *Lo explica **como lo entendió**.* | Объясняет это так, как сам понял. |
+
+---
+
+### Subjuntivo — действие гипотетическое или относится к будущему
+
+Используется, когда говорящий **не знает заранее** или **оставляет на усмотрение** собеседника.
+
+| Пример | Перевод |
+|--------|---------|
+| ***Hazlo como quieras**.* | Сделай это как захочешь (сам решай). |
+| *Puedes pintarlo **como prefieras**.* | Можешь покрасить это как предпочтёшь. |
+| *Ven **como puedas**.* | Приходи как сможешь. |
+| *Díselo **como te parezca mejor**.* | Скажи ему это так, как тебе покажется лучше. |
+
+---
+
+### Запомните правило
+
+\`\`\`
+COMO + Indicativo  →  конкретный, известный способ (факт прошлого/настоящего)
+COMO + Subjuntivo  →  неопределённый, будущий или открытый способ
+\`\`\``
+        },
+        {
+          id: 'modo-como-si',
+          title: '2. Союз COMO SI (Как будто)',
+          content: `## Союз COMO SI — «как будто», «словно», «как если бы»
+
+После **como si** **всегда** используется **Subjuntivo** — только две возможных формы:
+
+---
+
+### Imperfecto de Subjuntivo — одновременность
+
+Действие в придаточном **происходит одновременно** с действием в главном предложении.
+
+| Пример | Перевод |
+|--------|---------|
+| *Me mira **como si no supiera nada**.* | Смотрит на меня, будто ничего не знает. |
+| *Habla **como si fuera el jefe**.* | Говорит, словно он начальник. |
+| *Gasta dinero **como si fuera rico**.* | Тратит деньги, как будто богат. |
+| *Se comporta **como si no me conociera**.* | Ведёт себя так, будто не знает меня. |
+
+---
+
+### Pluscuamperfecto de Subjuntivo — предшествование
+
+Действие в придаточном **произошло раньше**, чем действие в главном предложении.
+
+| Пример | Перевод |
+|--------|---------|
+| *Habla **como si hubiera viajado mucho**.* | Говорит так, будто много путешествовал. |
+| *Describe la ciudad **como si la hubiera visitado**.* | Описывает город, словно побывал там. |
+| *Actúa **como si no hubiera pasado nada**.* | Ведёт себя так, будто ничего не произошло. |
+| *Habla del tema **como si lo hubiera estudiado a fondo**.* | Говорит о теме, словно глубоко её изучил. |
+
+---
+
+### Схема
+
+\`\`\`
+COMO SI + Imperfecto de Subjuntivo     →  одновременность
+COMO SI + Pluscuamperfecto de Subjuntivo  →  предшествование (действие было раньше)
+\`\`\`
+
+> **Важно:** после **como si** никогда не употребляется Indicativo и никогда не используется Presente de Subjuntivo!`
+        },
+        {
+          id: 'modo-sin-que',
+          title: '3. Союз SIN QUE (Так, что не...)',
+          content: `## Союз SIN QUE — «так что не», «не...», «без того чтобы»
+
+После **sin que** **всегда** используется **Subjuntivo**.
+
+> **Обязательное условие:** подлежащие в главной и придаточной частях должны быть **разными**.
+
+---
+
+### Примеры
+
+| Пример | Перевод |
+|--------|---------|
+| *Salió **sin que yo lo notara**.* | Он вышел так, что я этого не заметил. |
+| *No te vayas **sin que te demos el regalo**.* | Не уходи, пока мы не вручим тебе подарок. |
+| *Entró en la reunión **sin que nadie lo viera**.* | Он вошёл на собрание так, что никто его не увидел. |
+| *Se lo dije **sin que él se enfadara**.* | Я сказал ему это, и он не рассердился. |
+| *Lo terminaron **sin que el director se enterara**.* | Они закончили это, не ставя директора в известность. |
+
+---
+
+### Согласование времён с SIN QUE
+
+| Главный глагол | Придаточное с SIN QUE |
+|---------------|----------------------|
+| Presente / Futuro | **Presente de Subjuntivo** |
+| Pasado | **Imperfecto de Subjuntivo** |
+
+*Habla **sin que nadie lo entienda**.* → Говорит так, что никто не понимает.
+*Habló **sin que nadie lo entendiera**.* → Говорил так, что никто не понимал.
+
+---
+
+### SIN QUE vs SIN + Infinitivo
+
+| Конструкция | Условие | Пример |
+|-------------|---------|--------|
+| **SIN QUE** + Subj. | Подлежащие **разные** | *Salió sin que yo lo notara.* |
+| **SIN** + Infinitivo | Подлежащие **одинаковые** | *Salió sin decir nada.* |`
+        },
+        {
+          id: 'modo-sin-infinitivo',
+          title: '4. Конструкция SIN + Infinitivo',
+          content: `## Конструкция SIN + Infinitivo
+
+Используется, когда **подлежащее у обоих действий одно и то же**.
+
+На русский язык переводится **деепричастием с частицей «не»** или оборотом «не + глагол».
+
+---
+
+### Примеры
+
+| Пример | Перевод |
+|--------|---------|
+| *Se fue **sin decir nada**.* | Он ушёл, не сказав ничего. |
+| *Entró **sin saludar**.* | Он вошёл, не поздоровавшись. |
+| *Salió **sin despedirse**.* | Она ушла, не попрощавшись. |
+| *Terminó el trabajo **sin pedir ayuda**.* | Он закончил работу, не попросив помощи. |
+| *Se acostó **sin cenar**.* | Он лёг спать, не поужинав. |
+| *Firmó el contrato **sin leerlo**.* | Он подписал контракт, не прочитав его. |
+
+---
+
+### Сравнение SIN + Inf. и SIN QUE + Subj.
+
+| | Одно подлежащее | Разные подлежащие |
+|--|-----------------|-------------------|
+| **Пример** | *Salió **sin despedirse**.* | *Salió **sin que yo lo notara**.* |
+| **Перевод** | Ушёл, не попрощавшись. | Ушёл так, что я не заметил. |
+| **Конструкция** | SIN + Infinitivo | SIN QUE + Subjuntivo |
+
+---
+
+### Типичные ошибки
+
+| ❌ Неверно | ✅ Верно |
+|------------|---------|
+| *Se fue sin que decir nada.* | *Se fue **sin decir** nada.* |
+| *Salió sin que se despedirse.* | *Salió **sin que** yo lo notara.* |
+| *Lo hizo sin que pedir permiso.* | *Lo hizo **sin pedir** permiso.* |`
         }
       ]
     }
