@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-12', 'module-13', 'module-17']
+    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-17']
   }
 ]
 
@@ -92,6 +92,13 @@ export const modules = {
     level: 'intermediate',
     lessons: ['lesson-13-1', 'lesson-13-2', 'lesson-13-3'],
     description: '1 Употребление сослагательного наклонения в определительных предложениях. 2 Сослагательное наклонение в уступительных предложениях. 3 Сослагательное наклонение в независимых предложениях'
+  },
+  'module-14': {
+    id: 'module-14',
+    title: 'Модуль 14: ЗАЩИТА ОКРУЖАЮЩЕЙ СРЕДЫ',
+    level: 'intermediate',
+    lessons: ['lesson-14-1'],
+    description: '1 Pretérito Perfecto de Subjuntivo. Pretérito pluscuamperfecto de subjuntivo. Infinitivo compuesto. 2 Согласование времен сослагательного наклонения. 3 Употребление сослагательного наклонения в придаточных предложениях образа действия (de modo)'
   },
   'module-8': {
     id: 'module-8',
@@ -20069,6 +20076,124 @@ PSA Internacional
       }
     ],
     exercises: ['ex-13-3-1', 'ex-13-3-2']
+  },
+
+  'lesson-14-1': {
+    id: 'lesson-14-1',
+    title: 'Урок 1: Pretérito Perfecto de Subjuntivo. Pretérito pluscuamperfecto de subjuntivo. Infinitivo compuesto.',
+    moduleId: 'module-14',
+    grammar: {
+      title: 'Pretérito Perfecto de Subjuntivo. Pretérito Pluscuamperfecto de Subjuntivo.',
+      intro: `Эти два сложных времени сослагательного наклонения описывают **завершённые действия в прошлом**. Выбор между ними зависит от того, с каким временем в главном предложении связано придаточное: с настоящим или с другим прошлым.`,
+      sections: [
+        {
+          id: 'perfecto-subj-formacion',
+          title: '1. Pretérito Perfecto de Subjuntivo — Образование',
+          content: `## 1. Pretérito Perfecto de Subjuntivo — Образование (Formación)
+
+Pretérito Perfecto de Subjuntivo — это прошедшее время сослагательного наклонения. Оно используется для выражения субъективного отношения (чувств, сомнений, желаний) к действию, которое уже завершилось к моменту речи.
+
+Это **сложное (составное) время**. Оно образуется с помощью вспомогательного глагола **haber** в форме **Presente de Subjuntivo** и **причастия (Participio)** смыслового глагола.
+
+| Лицо | Haber (Subjuntivo) | Participio |
+|------|--------------------|------------|
+| yo | haya | cantado / bebido / asistido |
+| tú | hayas | cantado / bebido / asistido |
+| él / ella / usted | haya | cantado / bebido / asistido |
+| nosotros/-as | hayamos | cantado / bebido / asistido |
+| vosotros/-as | hayáis | cantado / bebido / asistido |
+| ellos / ellas / ustedes | hayan | cantado / bebido / asistido |
+
+**NB!** Причастие всегда остается **неизменным** и заканчивается на **-o**.`
+        },
+        {
+          id: 'perfecto-subj-uso',
+          title: '2. Pretérito Perfecto de Subjuntivo — Употребление',
+          content: `## 2. Pretérito Perfecto de Subjuntivo — Употребление (Uso)
+
+Мы используем это время, когда в главном предложении стоит глагол, требующий Subjuntivo (выражение эмоции, воли, просьбы или сомнения), а действие в придаточном предложении **предшествует настоящему моменту**.
+
+### Согласование времен
+
+Если в главном предложении стоит одно из этих времён:
+- Presente de Indicativo (*me alegro*)
+- Pretérito Perfecto de Indicativo (*me he alegrado*)
+- Futuro Simple (*me alegraré*)
+- Imperativo (*alégrate*)
+
+…а действие в придаточном **уже произошло**, используйте **Pretérito Perfecto de Subjuntivo**.
+
+### Примеры
+
+| Испанский | Русский |
+|-----------|---------|
+| Todos se alegran de que **hayamos ganado** el partido. | Все рады, что мы (уже) выиграли матч. |
+| Espero que **hayas comido** bien. | Надеюсь, ты хорошо поел. |
+| Dudo que **hayan llegado** todavía. | Сомневаюсь, что они уже приехали. |
+
+### Сравнение времён
+
+| Время | Когда действие происходит? | Пример |
+|-------|---------------------------|--------|
+| Presente de Subjuntivo | Сейчас или в будущем | Me gusta que **vengas**. *(Мне нравится, что ты приходишь/придёшь.)* |
+| Pretérito Perfecto de Subjuntivo | Уже завершилось | Me gusta que **hayas venido**. *(Мне нравится, что ты пришёл.)* |`
+        },
+        {
+          id: 'pluscuamperfecto-subj-formacion',
+          title: '3. Pretérito Pluscuamperfecto de Subjuntivo — Образование',
+          content: `## 3. Pretérito Pluscuamperfecto de Subjuntivo — Образование (Formación)
+
+Pretérito Pluscuamperfecto de Subjuntivo — это предпрошедшее время сослагательного наклонения. Оно используется, когда мы выражаем чувства, сомнения или гипотезы по поводу действия, которое уже завершилось к **определённому моменту в прошлом**.
+
+Время является сложным и состоит из глагола **haber** в форме **Imperfecto de Subjuntivo** и **причастия (Participio)** основного глагола.
+
+| Лицо | Haber (Imperfecto Subj.) | Participio |
+|------|--------------------------|------------|
+| yo | hubiera | cantado / bebido / asistido |
+| tú | hubieras | cantado / bebido / asistido |
+| él / ella / usted | hubiera | cantado / bebido / asistido |
+| nosotros/-as | hubiéramos | cantado / bebido / asistido |
+| vosotros/-as | hubierais | cantado / bebido / asistido |
+| ellos / ellas / ustedes | hubieran | cantado / bebido / asistido |
+
+**Примечание:** У глагола haber есть также вторая форма (*hubiese, hubieses...*), но форма на **-ra** является наиболее употребительной в современном языке.`
+        },
+        {
+          id: 'pluscuamperfecto-subj-uso',
+          title: '4. Pretérito Pluscuamperfecto de Subjuntivo — Употребление и примеры',
+          content: `## 4. Pretérito Pluscuamperfecto de Subjuntivo — Употребление (Uso)
+
+Это время используется в придаточных предложениях, если:
+- Главный глагол требует Subjuntivo и стоит в одном из **прошедших времён** (Indefinido, Imperfecto) или в **сослагательном** (Condicional).
+- Действие в придаточном **произошло раньше** действия в главном.
+
+### Схема согласования
+
+| Главное предложение (Прошлое) | Придаточное предложение (Предпрошлое) |
+|-------------------------------|---------------------------------------|
+| Dudaba... *(Я сомневался)* | ...que tú lo **hubieras hecho**. *(...что ты это сделал [до того, как я засомневался])* |
+| Me alegró... *(Меня обрадовало)* | ...que **hubierais venido**. *(...что вы пришли [до того, как я обрадовался])* |
+
+### Примеры для закрепления
+
+**С эмоциями:**
+- Me extrañó que no me **hubieras llamado**. *(Меня удивило, что ты мне не позвонил.)*
+
+**С сомнениями:**
+- No creía que **hubieran terminado** el trabajo tan pronto. *(Я не верил, что они закончили работу так быстро.)*
+
+**С условием (Гипотеза):**
+- Si **hubiera tenido** dinero, **habría comprado** el coche. *(Если бы у меня [тогда] были деньги, я бы купил машину.)*
+
+### Краткое сравнение прошедших времён Subjuntivo
+
+| Время | Связь с настоящим | Пример |
+|-------|-------------------|--------|
+| Pretérito Perfecto | Прошлое связано с **настоящим** | Espero que **hayas llegado**. *(Надеюсь, ты [уже] приехал.)* |
+| Pluscuamperfecto | Прошлое связано с другим **прошлым** | Esperaba que **hubieras llegado**. *(Я надеялся, что ты [к тому моменту] приехал.)* |`
+        }
+      ]
+    }
   }
 }
 
