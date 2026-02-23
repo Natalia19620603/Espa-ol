@@ -97,7 +97,7 @@ export const modules = {
     id: 'module-14',
     title: 'Модуль 14: ЗАЩИТА ОКРУЖАЮЩЕЙ СРЕДЫ',
     level: 'intermediate',
-    lessons: ['lesson-14-1'],
+    lessons: ['lesson-14-1', 'lesson-14-2'],
     description: '1 Pretérito Perfecto de Subjuntivo. Pretérito pluscuamperfecto de subjuntivo. Infinitivo compuesto. 2 Согласование времен сослагательного наклонения. 3 Употребление сослагательного наклонения в придаточных предложениях образа действия (de modo)'
   },
   'module-8': {
@@ -20242,6 +20242,170 @@ Infinitivo Compuesto используется, когда:
       ]
     },
     exercises: ['ex-14-1-1', 'ex-14-1-2', 'ex-14-1-3', 'ex-14-1-4', 'ex-14-1-5', 'ex-14-1-6', 'ex-14-1-7', 'ex-14-1-8']
+  },
+
+  'lesson-14-2': {
+    id: 'lesson-14-2',
+    title: 'Урок 2: Согласование времён сослагательного наклонения',
+    moduleId: 'module-14',
+    grammar: {
+      title: 'Согласование времён сослагательного наклонения (Concordancia de Tiempos)',
+      intro: `Выбор времени в сослагательном наклонении (**Subjuntivo**) напрямую зависит от того, в каком времени стоит глагол в **главном предложении**. Все случаи делятся на два плана: **Настоящее** и **Прошедшее**.`,
+      sections: [
+        {
+          id: 'concordancia-plan1',
+          title: '1. План I — Настоящее, Прошлое (недавнее) и Будущее',
+          content: `## План I: Настоящее, Прошлое (недавнее) и Будущее
+
+Этот план охватывает случаи, когда главный глагол стоит в одном из «актуальных» для настоящего времён:
+
+| Время главного глагола | Примеры |
+|------------------------|---------|
+| **Presente** | busco, quiero, me alegra |
+| **Pretérito Perfecto** | he buscado, me ha alegrado |
+| **Futuro** | buscaré, me alegrará |
+| **Imperativo** | busca, ¡dile! |
+
+### Какое время ставить в придаточном?
+
+| Действие в придаточном | Используемое время | Пример |
+|------------------------|-------------------|--------|
+| Одновременно или в **будущем** | **Presente de Subjuntivo** | Me alegra que **vengas** hoy/mañana. |
+| Уже **завершилось** (в прошлом) | **Pretérito Perfecto de Subjuntivo** | Me alegra que **hayas venido** ayer. |
+
+### Примеры
+
+- **Presente → Presente Subj.:**
+  *Quiero que **vengas** a la fiesta.* *(Хочу, чтобы ты пришёл на вечеринку.)*
+
+- **Presente → Perfecto Subj.:**
+  *Me sorprende que **hayas olvidado** mi cumpleaños.* *(Меня удивляет, что ты забыл мой день рождения.)*
+
+- **Futuro → Presente Subj.:**
+  *Te llamaré cuando **llegues** al aeropuerto.* *(Я позвоню тебе, когда ты прибудешь в аэропорт.)*
+
+- **Imperativo → Presente Subj.:**
+  *¡Dile que **llame** más tarde!* *(Скажи ему, чтобы он позвонил попозже!)*`
+        },
+        {
+          id: 'concordancia-plan2',
+          title: '2. План II — Прошедшее и Условное',
+          content: `## План II: Прошедшее и Условное
+
+Этот план включает случаи, когда главный глагол выражает действие в прошлом или гипотетическое:
+
+| Время главного глагола | Примеры |
+|------------------------|---------|
+| **Pretérito Indefinido** | quise, busqué, me alegró |
+| **Pretérito Imperfecto** | quería, buscaba, me alegraba |
+| **Pluscuamperfecto** | había querido, había buscado |
+| **Condicional** | querría, buscaría, me alegraría |
+
+### Какое время ставить в придаточном?
+
+| Действие в придаточном | Используемое время | Пример |
+|------------------------|-------------------|--------|
+| Одновременно или в **будущем** (относительно прошлого) | **Imperfecto de Subjuntivo** | Me alegró que **vinieras** entonces. |
+| **Предшествовало** другому прошедшему | **Pluscuamperfecto de Subjuntivo** | Me alegró que **hubieras venido** antes. |
+
+### Примеры
+
+- **Indefinido → Imperfecto Subj.:**
+  *Le pedí que **viniera** a la reunión.* *(Я попросил его прийти на встречу.)*
+
+- **Imperfecto → Imperfecto Subj.:**
+  *Quería que **fueras** con nosotros.* *(Я хотел, чтобы ты поехал с нами.)*
+
+- **Condicional → Imperfecto Subj.:**
+  *Me gustaría que **aprendieras** español.* *(Мне бы хотелось, чтобы ты выучил испанский.)*
+
+- **Indefinido → Pluscuamperfecto Subj.:**
+  *Me sorprendió que **hubieras olvidado** el acuerdo.* *(Меня удивило, что ты забыл о договорённости.)*`
+        },
+        {
+          id: 'concordancia-tabla',
+          title: '3. Сводная таблица — Сдвиг во времени',
+          content: `## Сводная таблица: как меняется Subjuntivo при сдвиге главного глагола в прошлое
+
+В этой таблице показано, как формы Subjuntivo «переключаются», когда главный глагол уходит в прошлое:
+
+| Главное предложение | Одновременность / Будущее | Предшествование (уже было) |
+|---------------------|--------------------------|---------------------------|
+| **Presente / Futuro:** Me molesta... / Me molestará... | ...que ella **viva** aquí. *(что она живёт/будет жить здесь)* | ...que ella **haya vivido** aquí. *(что она [уже] жила здесь)* |
+| **Pasado / Condicional:** Me molestó... / Me molestaría... | ...que ella **viviera** allí. *(что она жила/будет жить там)* | ...que ella **hubiera vivido** allí. *(что она [прежде] жила там)* |
+
+---
+
+### Ещё один наглядный пример
+
+| | Одновременность | Предшествование |
+|--|-----------------|-----------------|
+| **Presente:** Me alegra... | ...que **vengas**. | ...que **hayas venido**. |
+| **Pasado:** Me alegró... | ...que **vinieras**. | ...que **hubieras venido**. |
+
+---
+
+### Схема-подсказка
+
+\`\`\`
+Главный глагол в НАСТОЯЩЕМ/БУДУЩЕМ:
+  → одновременность/будущее:  Presente de Subjuntivo
+  → предшествование:           Pretérito Perfecto de Subjuntivo
+
+Главный глагол в ПРОШЛОМ/УСЛОВНОМ:
+  → одновременность/будущее:  Imperfecto de Subjuntivo (-ra/-se)
+  → предшествование:           Pluscuamperfecto de Subjuntivo
+\`\`\``
+        },
+        {
+          id: 'concordancia-reglas',
+          title: '4. Практические правила-подсказки',
+          content: `## Практические правила-подсказки
+
+### Правило 1 — Смотрите на главный глагол
+
+Если это **«сейчас»** (Presente) или **«только что»** (Pretérito Perfecto), используйте:
+- **Presente de Subjuntivo** — для одновременного/будущего действия
+- **Pretérito Perfecto de Subjuntivo** — для уже завершённого действия
+
+> *Me alegra que **estés** aquí.* → настоящее время
+> *Me alegra que **hayas llegado**.* → уже прибыл
+
+---
+
+### Правило 2 — Сдвиг в прошлое
+
+Как только главный глагол уходит в прошлое (**Dijo, Quería, Fue**), формы Subjuntivo **автоматически меняются** на те, что начинаются на **-ra** или содержат **hubiera**:
+
+| ❌ Неверно (нет согласования) | ✅ Верно |
+|-------------------------------|---------|
+| *Le dijo que **venga** mañana.* | *Le dijo que **viniera** al día siguiente.* |
+| *Quería que lo **hagas**.* | *Quería que lo **hicieras**.* |
+
+---
+
+### Правило 3 — Логика «уже»
+
+Если в придаточном предложении можно вставить слово **«уже»** — нужны **сложные времена**:
+
+| Простое (одновременность) | Сложное («уже») |
+|--------------------------|-----------------|
+| *Me alegra que **vengas**.* | *Me alegra que **hayas venido** (уже).* |
+| *Me alegró que **vinieras**.* | *Me alegró que **hubieras venido** (уже).* |
+
+---
+
+### Правило 4 — Таблица быстрой проверки
+
+| Главный глагол | Что происходит в придаточном? | Используй |
+|---------------|-------------------------------|-----------|
+| Presente / Futuro | действие одновременно или после | **Presente Subj.** |
+| Presente / Futuro | действие УЖЕ произошло | **Perfecto Subj.** |
+| Pasado / Condicional | действие одновременно или после | **Imperfecto Subj.** |
+| Pasado / Condicional | действие было ЕЩЁ РАНЬШЕ | **Pluscuamperfecto Subj.** |`
+        }
+      ]
+    }
   }
 }
 
@@ -48490,7 +48654,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Me he enfadado de que leas mis cartas.', correct: 'Me he enfadado de que hayas leído mis cartas.', alternatives: [] },
       { russian: 'El profesor está contento de que los estudiantes escriban la redacción sin faltas.', correct: 'El profesor está contento de que los estudiantes hayan escrito la redacción sin faltas.', alternatives: [] },
       { russian: 'Doña Marta se indigna de que su nieto rompa sus zapatos jugando al fútbol y vuelva demasiado tarde a casa.', correct: 'Doña Marta se indigna de que su nieto haya roto sus zapatos jugando al fútbol y haya vuelto demasiado tarde a casa.', alternatives: [] },
-      { russian: 'La jefa del departamento financiero ahora lleva ropa discreta, quizás ella siga las recomendaciones del informe Dress for Success.', correct: 'La jefa del departamento financiero ahora lleva ropa discreta, quizás ella haya seguido las recomendaciones del informe Dress for Success.', alternatives: [] }
+      { russian: 'La jefa del departamento financiero ahora lleva ropa discreta, quizás ella siga las recomendaciones del informe Dress for Success.', correct: 'La jefa del departamento financiero ahora lleva ropa discreta, quizás ella haya seguido las recomendaciones del informe Dress for Success.', alternatives: [] },
+      { russian: 'Nos extraña que nadie sepa la respuesta correcta.', correct: 'Nos extraña que nadie haya sabido la respuesta correcta.', alternatives: [] },
+      { russian: 'Me alegro de que vuelvas pronto a casa.', correct: 'Me alegro de que hayas vuelto pronto a casa.', alternatives: [] },
+      { russian: 'Es una lástima que no puedas venir a la fiesta.', correct: 'Es una lástima que no hayas podido venir a la fiesta.', alternatives: [] },
+      { russian: 'El médico duda que el paciente siga las instrucciones al pie de la letra.', correct: 'El médico duda que el paciente haya seguido las instrucciones al pie de la letra.', alternatives: [] },
+      { russian: '¿Te alegras de que tu hermano encuentre trabajo por fin?', correct: '¿Te alegras de que tu hermano haya encontrado trabajo por fin?', alternatives: [] }
     ]
   },
 
@@ -48510,7 +48679,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Странно, что он не надел шарф, ведь на улице так холодно.', correct: 'Es extraño que no se haya puesto la bufanda, con el frío que hace en la calle.', alternatives: ['Es raro que no se haya puesto el pañuelo, con el frío que hace.'] },
       { russian: 'Исабель обрадовалась, что ей предложили принять участие в конкурсе.', correct: 'Isabel se alegró de que le hubieran propuesto participar en el concurso.', alternatives: ['Isabel se alegró de que le hubieran ofrecido participar en el concurso.'] },
       { russian: 'Удивительно, что Хорхе не продвинулся по служебной лестнице и не сделал стремительную карьеру.', correct: 'Es sorprendente que Jorge no haya ascendido en el escalafón y no haya hecho una carrera meteórica.', alternatives: ['Es sorprendente que Jorge no haya progresado profesionalmente y no haya tenido una carrera brillante.'] },
-      { russian: 'Странно, что сотрудникам нашего отдела не выплатили премию за сверхурочную работу.', correct: 'Es extraño que no les hayan pagado la prima a los empleados de nuestro departamento por las horas extraordinarias.', alternatives: ['Es raro que no hayan pagado el plus a los empleados de nuestro departamento por el trabajo extra.'] }
+      { russian: 'Странно, что сотрудникам нашего отдела не выплатили премию за сверхурочную работу.', correct: 'Es extraño que no les hayan pagado la prima a los empleados de nuestro departamento por las horas extraordinarias.', alternatives: ['Es raro que no hayan pagado el plus a los empleados de nuestro departamento por el trabajo extra.'] },
+      { russian: 'Жаль, что ты не пришёл на вечеринку, тебя все ждали.', correct: 'Es una lástima que no hayas venido a la fiesta, todo el mundo te esperaba.', alternatives: ['Es una pena que no hayas podido venir a la fiesta.'] },
+      { russian: 'Нас радует, что студенты хорошо сдали экзамены в этом семестре.', correct: 'Nos alegra que los estudiantes hayan aprobado bien los exámenes este semestre.', alternatives: ['Nos alegra que los alumnos hayan superado bien los exámenes.'] },
+      { russian: 'Странно, что менеджер не подписал важные документы до конца дня.', correct: 'Es extraño que el gerente no haya firmado los documentos importantes antes de que terminara el día.', alternatives: ['Es raro que el manager no haya firmado los documentos importantes a tiempo.'] },
+      { russian: 'Меня возмущает, что они не ответили на моё письмо уже два дня.', correct: 'Me indigna que no hayan contestado a mi carta en dos días.', alternatives: ['Me indigna que no hayan respondido a mi correo en dos días.'] },
+      { russian: 'Рад, что ты наконец нашёл хорошую и интересную работу.', correct: 'Me alegro de que hayas encontrado por fin un buen trabajo interesante.', alternatives: ['Estoy contento de que hayas encontrado por fin un trabajo bueno e interesante.'] }
     ]
   },
 
@@ -48532,7 +48706,10 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Rechacé el puesto porque no me gustó que ___ contrato temporal sin incorporación a la plantilla. (ofrecerme)', correct: 'me hubieran ofrecido', alternatives: ['me hubiesen ofrecido'] },
       { sentence: 'A todo el mundo le preocupaba que la tasa de paro juvenil en España ___ tanto. (subir)', correct: 'hubiera subido', alternatives: ['hubiese subido'] },
       { sentence: 'A todo el mundo le preocupaba que la tasa de paro juvenil ___ un 58,4% según los últimos datos. (alcanzar)', correct: 'hubiera alcanzado', alternatives: ['hubiese alcanzado'] },
-      { sentence: 'Al director de orquesta no le daba igual que a los músicos no ___ los conciertos de gira. (remunerarles)', correct: 'les hubieran remunerado', alternatives: ['les hubiesen remunerado'] }
+      { sentence: 'Al director de orquesta no le daba igual que a los músicos no ___ los conciertos de gira. (remunerarles)', correct: 'les hubieran remunerado', alternatives: ['les hubiesen remunerado'] },
+      { sentence: 'La directora se alegraba de que los socios ___ el acuerdo antes de la reunión. (firmar)', correct: 'hubieran firmado', alternatives: ['hubiesen firmado'] },
+      { sentence: 'Fue increíble que el equipo ___ el campeonato sin haber entrenado mucho. (ganar)', correct: 'hubiera ganado', alternatives: ['hubiese ganado'] },
+      { sentence: 'Me parecía imposible que tú ___ nuestra primera cita. (olvidar)', correct: 'hubieras olvidado', alternatives: ['hubieses olvidado'] }
     ]
   },
 
@@ -48552,7 +48729,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Le indigna que te hayas negado a acompañarla a la estación.', correct: 'Le indignó que te hubieras negado a acompañarla a la estación.', alternatives: [] },
       { russian: 'Lamentan que Juan les haya ocultado la verdad.', correct: 'Lamentaron que Juan les hubiera ocultado la verdad.', alternatives: [] },
       { russian: 'Es posible que te hayas equivocado.', correct: 'Era posible que te hubieras equivocado.', alternatives: [] },
-      { russian: 'Me alegro de que Pablo haya encontrado la información necesaria en Internet.', correct: 'Me alegré de que Pablo hubiera encontrado la información necesaria en Internet.', alternatives: [] }
+      { russian: 'Me alegro de que Pablo haya encontrado la información necesaria en Internet.', correct: 'Me alegré de que Pablo hubiera encontrado la información necesaria en Internet.', alternatives: [] },
+      { russian: 'No creo que María haya dicho la verdad sobre lo que pasó.', correct: 'No creía que María hubiera dicho la verdad sobre lo que había pasado.', alternatives: [] },
+      { russian: 'Temo que hayas perdido el último tren y no puedas volver.', correct: 'Temía que hubieras perdido el último tren y no pudieras volver.', alternatives: [] },
+      { russian: 'Es probable que los alumnos hayan entendido bien la explicación.', correct: 'Era probable que los alumnos hubieran entendido bien la explicación.', alternatives: [] },
+      { russian: 'Me sorprende que no hayas llamado para avisar de tu retraso.', correct: 'Me sorprendió que no hubieras llamado para avisar de tu retraso.', alternatives: [] },
+      { russian: 'Siento que no haya podido ayudarte en ese momento tan difícil.', correct: 'Sentía que no hubiera podido ayudarte en ese momento tan difícil.', alternatives: [] }
     ]
   },
 
@@ -48572,7 +48754,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Болельщики расстроились, что их команда проиграла такой важный матч и покинула чемпионат.', correct: 'Los aficionados se entristecieron de que su equipo hubiera perdido ese partido tan importante y hubiera abandonado el campeonato.', alternatives: ['Los fans se pusieron tristes porque su equipo hubiera perdido ese partido tan importante y hubiera salido del campeonato.'] },
       { russian: 'Друзья не поверили, что Антонио достал билеты в партер на премьеру спектакля.', correct: 'Los amigos no creyeron que Antonio hubiera conseguido entradas en el patio de butacas para el estreno del espectáculo.', alternatives: ['Los amigos no creyeron que Antonio hubiera logrado entradas en la platea para el estreno.'] },
       { russian: 'Было странно, что обезболивающее не подействовало на пациента, и он не спал всю ночь.', correct: 'Fue extraño que el analgésico no le hubiera hecho efecto al paciente y no hubiera dormido en toda la noche.', alternatives: ['Fue raro que el calmante no hubiera surtido efecto en el paciente y no hubiera podido dormir en toda la noche.'] },
-      { russian: 'Я не была уверена, что муж сдал анализы и записался на приём к врачу.', correct: 'No estaba segura de que el marido hubiera hecho los análisis y se hubiera apuntado a la consulta del médico.', alternatives: ['No estaba segura de que el marido hubiera entregado los análisis y hubiera pedido cita con el médico.'] }
+      { russian: 'Я не была уверена, что муж сдал анализы и записался на приём к врачу.', correct: 'No estaba segura de que el marido hubiera hecho los análisis y se hubiera apuntado a la consulta del médico.', alternatives: ['No estaba segura de que el marido hubiera entregado los análisis y hubiera pedido cita con el médico.'] },
+      { russian: 'Меня удивило, что Педро не изучил новый материал перед экзаменом.', correct: 'Me sorprendió que Pedro no hubiera estudiado el nuevo material antes del examen.', alternatives: ['Me extrañó que Pedro no hubiera preparado el nuevo material antes del examen.'] },
+      { russian: 'Нам было жаль, что вы не предупредили нас о своём приезде заранее.', correct: 'Lamentábamos que no nos hubierais avisado de vuestra llegada con antelación.', alternatives: ['Sentíamos que no nos hubierais informado de vuestra llegada con antelación.'] },
+      { russian: 'Было невероятно, что такой опытный специалист допустил подобную ошибку.', correct: 'Fue increíble que un especialista tan experimentado hubiera cometido semejante error.', alternatives: ['Fue increíble que un profesional tan experto hubiera cometido un error así.'] },
+      { russian: 'Было странно, что соседи не пришли на общее собрание жильцов.', correct: 'Fue extraño que los vecinos no hubieran venido a la reunión de la comunidad.', alternatives: ['Fue raro que los vecinos no hubieran asistido a la reunión de vecinos.'] },
+      { russian: 'Директор был разочарован, что менеджеры не выполнили план продаж в этом квартале.', correct: 'El director estaba decepcionado de que los managers no hubieran cumplido el plan de ventas en ese trimestre.', alternatives: ['El director estaba decepcionado de que los gerentes no hubieran alcanzado el plan de ventas.'] }
     ]
   },
 
@@ -48587,7 +48774,17 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Andrés duda (dudaba) haber aprobado bien el examen de ingreso.', correct: 'Andrés duda de que haya aprobado bien el examen de ingreso. / Andrés dudaba de que hubiera aprobado bien el examen de ingreso.', alternatives: [] },
       { russian: '¿Te sorprendes (te sorprendiste) de haber encontrado la información necesaria en Internet?', correct: '¿Te sorprendes de que hayas encontrado la información necesaria en Internet? / ¿Te sorprendiste de que hubieras encontrado la información necesaria en Internet?', alternatives: [] },
       { russian: 'Los padres están enfadados (se enfadaron) de haber visto las fotos de su hija publicadas en la revista.', correct: 'Los padres están enfadados de que hayan visto las fotos de su hija publicadas en la revista. / Los padres se enfadaron de que hubieran visto las fotos de su hija publicadas en la revista.', alternatives: [] },
-      { russian: 'No estamos (estábamos) seguros de haberte convencido de vender tu coche.', correct: 'No estamos seguros de que te hayamos convencido de vender tu coche. / No estábamos seguros de que te hubiéramos convencido de vender tu coche.', alternatives: [] }
+      { russian: 'No estamos (estábamos) seguros de haberte convencido de vender tu coche.', correct: 'No estamos seguros de que te hayamos convencido de vender tu coche. / No estábamos seguros de que te hubiéramos convencido de vender tu coche.', alternatives: [] },
+      { russian: 'Siento (sentía) no haber llegado a tiempo a la reunión.', correct: 'Siento que no hayas llegado a tiempo a la reunión. / Sentía que no hubieras llegado a tiempo a la reunión.', alternatives: [] },
+      { russian: 'Me alegro (me alegré) de haber terminado el proyecto antes del plazo.', correct: 'Me alegro de que hayamos terminado el proyecto antes del plazo. / Me alegré de que hubiéramos terminado el proyecto antes del plazo.', alternatives: [] },
+      { russian: 'Isabel está segura (estaba segura) de haber enviado el correo electrónico.', correct: 'Isabel está segura de que ella haya enviado el correo electrónico. / Isabel estaba segura de que ella hubiera enviado el correo electrónico.', alternatives: [] },
+      { russian: '¿Os sorprendéis (os sorprendisteis) de haber ganado el primer premio del concurso?', correct: '¿Os sorprendéis de que hayáis ganado el primer premio del concurso? / ¿Os sorprendisteis de que hubierais ganado el primer premio del concurso?', alternatives: [] },
+      { russian: 'Carmen duda (dudaba) haber aprendido suficiente vocabulario para el examen.', correct: 'Carmen duda de que haya aprendido suficiente vocabulario para el examen. / Carmen dudaba de que hubiera aprendido suficiente vocabulario para el examen.', alternatives: [] },
+      { russian: 'Me avergüenzo (me avergoncé) de no haber pedido disculpas antes por lo que hice.', correct: 'Me avergüenzo de que no hayas pedido disculpas antes. / Me avergoncé de que no hubieras pedido disculpas antes.', alternatives: [] },
+      { russian: 'El jefe lamenta (lamentaba) no haber tomado esa decisión importante antes.', correct: 'El jefe lamenta que no se haya tomado esa decisión importante antes. / El jefe lamentaba que no se hubiera tomado esa decisión importante antes.', alternatives: [] },
+      { russian: 'Lamentamos (lamentábamos) haber cometido ese grave error en el informe.', correct: 'Lamentamos que se haya cometido ese grave error en el informe. / Lamentábamos que se hubiera cometido ese grave error en el informe.', alternatives: [] },
+      { russian: 'Los estudiantes están contentos (estaban contentos) de haber superado todas las pruebas del semestre.', correct: 'Los estudiantes están contentos de que hayan superado todas las pruebas del semestre. / Los estudiantes estaban contentos de que hubieran superado todas las pruebas del semestre.', alternatives: [] },
+      { russian: 'Nos alegramos (nos alegramos ayer) de haber encontrado un apartamento tan céntrico y cómodo.', correct: 'Nos alegramos de que hayáis encontrado un apartamento tan céntrico y cómodo. / Nos alegramos de que hubierais encontrado un apartamento tan céntrico y cómodo.', alternatives: [] }
     ]
   },
 
@@ -48607,7 +48804,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Боюсь, что я (они) совершил большую ошибку, рассказав всё Марии.', correct: 'Temo haber cometido un grave error al contárselo todo a María. / Temo que hayan cometido un grave error al contárselo todo a María.', alternatives: [] },
       { russian: 'Анна была рада, что встретилась (ты встретилась) и поговорила с Мигелем до его отъезда.', correct: 'Ana estuvo contenta de haber podido encontrarse y hablar con Miguel antes de su partida. / Ana estuvo contenta de que te hubieras encontrado y hubieras hablado con Miguel antes de su partida.', alternatives: [] },
       { russian: 'Я расстроился, что я (Диего) заболел и не смог присутствовать на собрании акционеров.', correct: 'Me entristecí de haber enfermado y no haber podido asistir a la junta de accionistas. / Me entristecí de que Diego hubiera enfermado y no hubiera podido asistir a la junta de accionistas.', alternatives: [] },
-      { russian: 'Начальник отдела кадров сожалел, что он (менеджер) не контролировал своё поведение во время собеседования.', correct: 'El jefe del departamento de personal lamentaba no haber controlado su comportamiento durante la entrevista. / El jefe del departamento de personal lamentaba que el manager no hubiera controlado su comportamiento durante la entrevista.', alternatives: [] }
+      { russian: 'Начальник отдела кадров сожалел, что он (менеджер) не контролировал своё поведение во время собеседования.', correct: 'El jefe del departamento de personal lamentaba no haber controlado su comportamiento durante la entrevista. / El jefe del departamento de personal lamentaba que el manager no hubiera controlado su comportamiento durante la entrevista.', alternatives: [] },
+      { russian: 'Мы сожалеем, что не успели (он не успел) отправить отчёт до дедлайна.', correct: 'Lamentamos no haber podido enviar el informe antes del plazo. / Lamentamos que él no haya podido enviar el informe antes del plazo.', alternatives: [] },
+      { russian: 'Рада, что познакомилась (ты познакомилась) с такими интересными людьми на конференции.', correct: 'Me alegro de haber conocido a personas tan interesantes en la conferencia. / Me alegro de que hayas conocido a personas tan interesantes en la conferencia.', alternatives: [] },
+      { russian: 'Директор сожалел, что уволил (мы уволили) такого хорошего сотрудника.', correct: 'El director lamentaba haber despedido a tan buen empleado. / El director lamentaba que hubiéramos despedido a tan buen empleado.', alternatives: [] },
+      { russian: 'Я не уверен, что правильно понял (они правильно поняли) задание преподавателя.', correct: 'No estoy seguro de haber entendido bien la tarea del profesor. / No estoy seguro de que hayan entendido bien la tarea del profesor.', alternatives: [] },
+      { russian: 'Мы рады, что наконец решили (ты наконец решил) этот давний сложный вопрос.', correct: 'Nos alegramos de haber resuelto por fin este viejo asunto tan complicado. / Nos alegramos de que hayas resuelto por fin este viejo asunto tan complicado.', alternatives: [] }
     ]
   }
 }
