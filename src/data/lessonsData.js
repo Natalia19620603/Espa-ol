@@ -20191,9 +20191,57 @@ Pretérito Pluscuamperfecto de Subjuntivo — это предпрошедшее 
 |-------|-------------------|--------|
 | Pretérito Perfecto | Прошлое связано с **настоящим** | Espero que **hayas llegado**. *(Надеюсь, ты [уже] приехал.)* |
 | Pluscuamperfecto | Прошлое связано с другим **прошлым** | Esperaba que **hubieras llegado**. *(Я надеялся, что ты [к тому моменту] приехал.)* |`
+        },
+        {
+          id: 'infinitivo-compuesto',
+          title: '5. Infinitivo Compuesto',
+          content: `## 5. Infinitivo Compuesto — Завершённое действие одного лица
+
+**Infinitivo Compuesto** — это неличная форма глагола, которая обозначает действие, **завершившееся до** начала основного действия. Она всегда указывает на то, что действие инфинитива **произошло раньше** основного глагола.
+
+Эта форма **заменяет целое придаточное предложение**, если подлежащее в обеих частях **совпадает**.
+
+---
+
+### Образование (Formación)
+
+> **haber** (Infinitivo) + **Participio**
+
+| Тип | Форма |
+|-----|-------|
+| Обычный глагол | haber hablado, haber comido, haber vivido |
+| С местоимениями (пишутся **слитно в конце**) | haber**me** casado, haber**te**lo dicho |
+
+---
+
+### Употребление (Uso)
+
+Infinitivo Compuesto используется, когда:
+- Оба глагола (главный и зависимый) имеют **одно и то же подлежащее**
+- Действие инфинитива **предшествует** основному
+
+Если подлежащие **разные** — нужно использовать Pretérito Perfecto / Pluscuamperfecto de Subjuntivo:
+
+| Одно подлежащее → Infinitivo Compuesto | Разные подлежащие → Subjuntivo |
+|----------------------------------------|-------------------------------|
+| Siento **no haber podido** verte. *(Жаль, что я не смог увидеть тебя.)* | Siento que tú **no hayas podido** verme. *(Жаль, что ты не смог увидеть меня.)* |
+
+---
+
+### Примеры (Ejemplos)
+
+| Испанский | Русский |
+|-----------|---------|
+| Siento **haber perdido** tu número. | Жаль, что я [сам] потерял твой номер. |
+| Gracias por **haber venido**. | Спасибо за то, что [вы] пришли. |
+| Después de **haber desayunado**, fuimos al parque. | После того как [мы] позавтракали, мы пошли в парк. |
+| Él presume de **haber viajado** mucho. | Он хвастается тем, что [он] много путешествовал. |
+| Lamento **no haber llegado** a tiempo. | Сожалею, что [я] не успел вовремя. |
+| Me alegro de **haber tomado** esa decisión. | Рад, что [я] принял это решение. |`
         }
       ]
-    }
+    },
+    exercises: ['ex-14-1-1', 'ex-14-1-2', 'ex-14-1-3', 'ex-14-1-4', 'ex-14-1-5', 'ex-14-1-6', 'ex-14-1-7', 'ex-14-1-8']
   }
 }
 
@@ -48395,6 +48443,171 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Хочу, чтобы ты (comprender) понял мораль этой старой китайской басни.', correct: 'Quiero que comprendas la moraleja de esta antigua fábula china.', alternatives: ['Quiero que entiendas la moraleja de esta fábula china.'] },
       { russian: 'В те времена все в деревне (conocer) знали старого земледельца и его мудрость.', correct: 'En aquellos tiempos, todos en el pueblo conocían al anciano labrador y su sabiduría.', alternatives: ['En esa época todos en el poblado conocían al viejo labrador y su sabiduría.'] },
       { russian: 'Соседи поздравили земледельца — они его поздравили (OD) с возвращением лошади.', correct: 'Los vecinos felicitaron al labrador: lo felicitaron por el regreso del caballo.', alternatives: ['Los vecinos lo felicitaron al labrador por la vuelta del caballo.'] }
+    ]
+  },
+
+  // ===== МОДУЛЬ 14 — УРОК 1 =====
+
+  'ex-14-1-1': {
+    id: 'ex-14-1-1',
+    type: 'fillblank',
+    title: 'Упражнение 1. Pretérito Perfecto de Subjuntivo',
+    description: 'Поставьте глаголы в скобках в Pretérito Perfecto de Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Estamos contentos de que tú ___ . (curarse)', correct: 'te hayas curado', alternatives: [] },
+      { sentence: 'Me he asombrado de que Pablo ___ mi exposición. (ver)', correct: 'haya visto', alternatives: [] },
+      { sentence: 'Me he asombrado de que Pablo no me ___ su opinión. (decir)', correct: 'haya dicho', alternatives: [] },
+      { sentence: '¡Ojalá los niños ya ___ de la excursión! (volver)', correct: 'hayan vuelto', alternatives: [] },
+      { sentence: 'Nunca creeré que Miguel Suárez ___ esta canción. (componer)', correct: 'haya compuesto', alternatives: [] },
+      { sentence: 'Quizás esta semana la familia Muñoz ___ de España. (irse)', correct: 'se haya ido', alternatives: [] },
+      { sentence: 'Dudo que tú ___ esta solicitud. (escribir)', correct: 'hayas escrito', alternatives: [] },
+      { sentence: 'Nos hemos preocupado de que José ___ a la cita. (faltar)', correct: 'haya faltado', alternatives: [] },
+      { sentence: 'Los padres se sorprenderán de que vosotros ___ tan temprano. (volver)', correct: 'hayáis vuelto', alternatives: [] },
+      { sentence: 'Temo que el perro ___. (perderse)', correct: 'se haya perdido', alternatives: [] },
+      { sentence: 'Nunca creeré que Sergio mismo ___ esta tarea. (hacer)', correct: 'haya hecho', alternatives: [] },
+      { sentence: 'Me indigna que ellos me ___. (mentir)', correct: 'hayan mentido', alternatives: [] },
+      { sentence: 'Siento mucho que ___ conmigo. (enfadarse, tú)', correct: 'te hayas enfadado', alternatives: [] },
+      { sentence: 'No me asombro de que Susana y tú no ___ todavía vuestros proyectos. (traer)', correct: 'hayáis traído', alternatives: [] },
+      { sentence: 'No te aflijas tanto de que el niño ___ el florero. (romper)', correct: 'haya roto', alternatives: [] },
+      { sentence: 'Tal vez todo el mundo ya ___ esta noticia desagradable. (oír)', correct: 'haya oído', alternatives: [] }
+    ]
+  },
+
+  'ex-14-1-2': {
+    id: 'ex-14-1-2',
+    type: 'translation',
+    title: 'Упражнение 2. Presente → Pretérito Perfecto de Subjuntivo',
+    description: 'Замените Presente de Subjuntivo на Pretérito Perfecto de Subjuntivo. Запишите изменённое предложение целиком.',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'No estoy seguro de que Juan reciba la invitación a tiempo.', correct: 'No estoy seguro de que Juan haya recibido la invitación a tiempo.', alternatives: [] },
+      { russian: 'Sentimos que ustedes no hagan nada para resolver el problema.', correct: 'Sentimos que ustedes no hayan hecho nada para resolver el problema.', alternatives: [] },
+      { russian: 'Los padres no se extrañan de que su hijo crezca tanto.', correct: 'Los padres no se extrañan de que su hijo haya crecido tanto.', alternatives: [] },
+      { russian: '¿Dudáis que ellos os digan la verdad?', correct: '¿Dudáis que ellos os hayan dicho la verdad?', alternatives: [] },
+      { russian: 'Teresa teme que descubramos su secreto.', correct: 'Teresa teme que hayamos descubierto su secreto.', alternatives: [] },
+      { russian: 'El profesor López está enfermo, tal vez alguien lo sustituya.', correct: 'El profesor López está enfermo, tal vez alguien lo haya sustituido.', alternatives: [] },
+      { russian: 'Me he enfadado de que leas mis cartas.', correct: 'Me he enfadado de que hayas leído mis cartas.', alternatives: [] },
+      { russian: 'El profesor está contento de que los estudiantes escriban la redacción sin faltas.', correct: 'El profesor está contento de que los estudiantes hayan escrito la redacción sin faltas.', alternatives: [] },
+      { russian: 'Doña Marta se indigna de que su nieto rompa sus zapatos jugando al fútbol y vuelva demasiado tarde a casa.', correct: 'Doña Marta se indigna de que su nieto haya roto sus zapatos jugando al fútbol y haya vuelto demasiado tarde a casa.', alternatives: [] },
+      { russian: 'La jefa del departamento financiero ahora lleva ropa discreta, quizás ella siga las recomendaciones del informe Dress for Success.', correct: 'La jefa del departamento financiero ahora lleva ropa discreta, quizás ella haya seguido las recomendaciones del informe Dress for Success.', alternatives: [] }
+    ]
+  },
+
+  'ex-14-1-3': {
+    id: 'ex-14-1-3',
+    type: 'translation',
+    title: 'Упражнение 3. Переведите на испанский язык (Pretérito Perfecto de Subjuntivo)',
+    description: 'Переведите предложения, используя Pretérito Perfecto de Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Мы удивляемся, что Энрике до сих пор не вернулся и даже не позвонил.', correct: 'Nos extrañamos de que Enrique no haya vuelto todavía y ni siquiera haya llamado.', alternatives: ['Nos sorprende que Enrique no haya regresado aún y no haya llamado siquiera.'] },
+      { russian: 'Боюсь, что ты обо всём забыл и ничего им не сказал о нашем решении.', correct: 'Temo que hayas olvidado todo y no les hayas dicho nada sobre nuestra decisión.', alternatives: ['Me temo que hayas olvidado todo y no les hayas contado nada de nuestra decisión.'] },
+      { russian: 'Не сердись на то, что дети разбили китайскую вазу, не стоит.', correct: 'No te enfades de que los niños hayan roto el jarrón chino, no vale la pena.', alternatives: ['No te enfades porque los niños hayan roto el florero chino, no merece la pena.'] },
+      { russian: 'Бабушка будет довольна, что ты написал ей письмо.', correct: 'La abuela estará contenta de que le hayas escrito una carta.', alternatives: ['La abuela estará satisfecha de que le hayas mandado una carta.'] },
+      { russian: 'Анна не верит, что её подруга уехала, не простившись ни с кем.', correct: 'Ana no cree que su amiga se haya ido sin despedirse de nadie.', alternatives: ['Ana no cree que su amiga se haya marchado sin despedirse de nadie.'] },
+      { russian: 'Я возмущаюсь, что они ничего не сделали, чтобы уладить дело.', correct: 'Me indigno de que no hayan hecho nada para resolver el asunto.', alternatives: ['Me indigna que no hayan hecho nada para solucionar el problema.'] },
+      { russian: 'Странно, что он не надел шарф, ведь на улице так холодно.', correct: 'Es extraño que no se haya puesto la bufanda, con el frío que hace en la calle.', alternatives: ['Es raro que no se haya puesto el pañuelo, con el frío que hace.'] },
+      { russian: 'Исабель обрадовалась, что ей предложили принять участие в конкурсе.', correct: 'Isabel se alegró de que le hubieran propuesto participar en el concurso.', alternatives: ['Isabel se alegró de que le hubieran ofrecido participar en el concurso.'] },
+      { russian: 'Удивительно, что Хорхе не продвинулся по служебной лестнице и не сделал стремительную карьеру.', correct: 'Es sorprendente que Jorge no haya ascendido en el escalafón y no haya hecho una carrera meteórica.', alternatives: ['Es sorprendente que Jorge no haya progresado profesionalmente y no haya tenido una carrera brillante.'] },
+      { russian: 'Странно, что сотрудникам нашего отдела не выплатили премию за сверхурочную работу.', correct: 'Es extraño que no les hayan pagado la prima a los empleados de nuestro departamento por las horas extraordinarias.', alternatives: ['Es raro que no hayan pagado el plus a los empleados de nuestro departamento por el trabajo extra.'] }
+    ]
+  },
+
+  'ex-14-1-4': {
+    id: 'ex-14-1-4',
+    type: 'fillblank',
+    title: 'Упражнение 4. Pretérito Pluscuamperfecto de Subjuntivo',
+    description: 'Поставьте глаголы в скобках в Pretérito Pluscuamperfecto de Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Juan temía que la novia ___ la verdadera causa de su despido del trabajo. (descubrir)', correct: 'hubiera descubierto', alternatives: ['hubiese descubierto'] },
+      { sentence: 'Fue lógico que los empleados ___ la reducción de jornada. (demandar)', correct: 'hubieran demandado', alternatives: ['hubiesen demandado'] },
+      { sentence: 'Los padres no creían que su hijo les ___. (mentir)', correct: 'hubiera mentido', alternatives: ['hubiese mentido'] },
+      { sentence: 'Yo sentía que tú ___ conmigo. (enfadarse)', correct: 'te hubieras enfadado', alternatives: ['te hubieses enfadado'] },
+      { sentence: 'Yo sentía que tú ___ de mí. (ofenderse)', correct: 'te hubieras ofendido', alternatives: ['te hubieses ofendido'] },
+      { sentence: 'Ellos se alegraron de que nosotros ___ regalos de Chile. (traerles)', correct: 'les hubiéramos traído', alternatives: ['les hubiésemos traído'] },
+      { sentence: 'Fue probable que la vecina ___ aquella carta a la Oficina de Empleo. (escribir)', correct: 'hubiera escrito', alternatives: ['hubiese escrito'] },
+      { sentence: 'Nos sorprendimos de que Lola ___ un traje sastre discreto de color sobrio para la boda de su hijo. (ponerse)', correct: 'se hubiera puesto', alternatives: ['se hubiese puesto'] },
+      { sentence: 'Rechacé el puesto porque no me gustó que ___ contrato temporal sin incorporación a la plantilla. (ofrecerme)', correct: 'me hubieran ofrecido', alternatives: ['me hubiesen ofrecido'] },
+      { sentence: 'A todo el mundo le preocupaba que la tasa de paro juvenil en España ___ tanto. (subir)', correct: 'hubiera subido', alternatives: ['hubiese subido'] },
+      { sentence: 'A todo el mundo le preocupaba que la tasa de paro juvenil ___ un 58,4% según los últimos datos. (alcanzar)', correct: 'hubiera alcanzado', alternatives: ['hubiese alcanzado'] },
+      { sentence: 'Al director de orquesta no le daba igual que a los músicos no ___ los conciertos de gira. (remunerarles)', correct: 'les hubieran remunerado', alternatives: ['les hubiesen remunerado'] }
+    ]
+  },
+
+  'ex-14-1-5': {
+    id: 'ex-14-1-5',
+    type: 'translation',
+    title: 'Упражнение 5. Perfecto → Pluscuamperfecto de Subjuntivo',
+    description: 'Измените предложения по образцу: No creo que Marta haya suspendido → No creí que Marta hubiera suspendido. Запишите изменённое предложение целиком.',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'No piensan que Luis haya comprado los pasajes.', correct: 'No pensaban que Luis hubiera comprado los pasajes.', alternatives: ['No pensaron que Luis hubiera comprado los pasajes.'] },
+      { russian: 'Yo no estoy seguro de que Andrés haya terminado el trabajo ya.', correct: 'Yo no estaba seguro de que Andrés hubiera terminado el trabajo ya.', alternatives: [] },
+      { russian: 'Sentimos mucho que no hayas podido venir a vernos.', correct: 'Sentíamos mucho que no hubieras podido venir a vernos.', alternatives: [] },
+      { russian: 'Me extraño de que no hayas querido explicarme nada.', correct: 'Me extrañé de que no hubieras querido explicarme nada.', alternatives: [] },
+      { russian: 'Es lógico que haya seguido su consejo en esta situación.', correct: 'Era lógico que hubiera seguido su consejo en esta situación.', alternatives: [] },
+      { russian: 'Dudamos que Pedro ya haya aprendido a manejar su nueva cámara fotográfica bien.', correct: 'Dudábamos que Pedro ya hubiera aprendido a manejar su nueva cámara fotográfica bien.', alternatives: [] },
+      { russian: 'Le indigna que te hayas negado a acompañarla a la estación.', correct: 'Le indignó que te hubieras negado a acompañarla a la estación.', alternatives: [] },
+      { russian: 'Lamentan que Juan les haya ocultado la verdad.', correct: 'Lamentaron que Juan les hubiera ocultado la verdad.', alternatives: [] },
+      { russian: 'Es posible que te hayas equivocado.', correct: 'Era posible que te hubieras equivocado.', alternatives: [] },
+      { russian: 'Me alegro de que Pablo haya encontrado la información necesaria en Internet.', correct: 'Me alegré de que Pablo hubiera encontrado la información necesaria en Internet.', alternatives: [] }
+    ]
+  },
+
+  'ex-14-1-6': {
+    id: 'ex-14-1-6',
+    type: 'translation',
+    title: 'Упражнение 6. Переведите на испанский язык (Pluscuamperfecto de Subjuntivo)',
+    description: 'Переведите предложения, используя Pretérito Pluscuamperfecto de Subjuntivo',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Было удивительно, что ты остался дома и не пошёл с нами на выставку современного искусства.', correct: 'Fue sorprendente que te hubieras quedado en casa y no hubieras ido con nosotros a la exposición de arte moderno.', alternatives: ['Fue extraño que te hubieras quedado en casa y no hubieras venido con nosotros a la exposición.'] },
+      { russian: 'Мы сожалели, что Хосе уже уехал и не сказал нам, когда вернётся.', correct: 'Sentíamos que José ya se hubiera ido y no nos hubiera dicho cuándo volvería.', alternatives: ['Lamentábamos que José ya se hubiera marchado y no nos hubiera dicho cuándo regresaría.'] },
+      { russian: 'Я был рад, что мои друзья сняли квартиру в нашем районе.', correct: 'Me alegré de que mis amigos hubieran alquilado un apartamento en nuestro barrio.', alternatives: ['Estuve contento de que mis amigos hubieran alquilado un piso en nuestro barrio.'] },
+      { russian: 'Родители были довольны, что сын хорошо сдал вступительные экзамены и поступил в институт.', correct: 'Los padres estaban contentos de que su hijo hubiera aprobado bien los exámenes de ingreso y hubiera entrado en la universidad.', alternatives: ['Los padres estaban satisfechos de que su hijo hubiera superado los exámenes de acceso y hubiera ingresado en la universidad.'] },
+      { russian: 'Мне было стыдно, что я не смог проводить бабушку на вокзал и не попрощался с ней.', correct: 'Me daba vergüenza no haber podido acompañar a la abuela a la estación y no haberme despedido de ella.', alternatives: ['Me avergonzaba que no hubiera podido llevar a la abuela a la estación y no me hubiera despedido de ella.'] },
+      { russian: 'Андрея беспокоило, что хотя он послал резюме неделю назад, его всё ещё не пригласили на собеседование.', correct: 'A Andrés le preocupaba que, aunque había enviado su currículum una semana antes, todavía no le hubieran invitado a la entrevista.', alternatives: ['A Andrés le inquietaba que, aunque había mandado su currículum hace una semana, aún no le hubieran llamado para la entrevista.'] },
+      { russian: 'Болельщики расстроились, что их команда проиграла такой важный матч и покинула чемпионат.', correct: 'Los aficionados se entristecieron de que su equipo hubiera perdido ese partido tan importante y hubiera abandonado el campeonato.', alternatives: ['Los fans se pusieron tristes porque su equipo hubiera perdido ese partido tan importante y hubiera salido del campeonato.'] },
+      { russian: 'Друзья не поверили, что Антонио достал билеты в партер на премьеру спектакля.', correct: 'Los amigos no creyeron que Antonio hubiera conseguido entradas en el patio de butacas para el estreno del espectáculo.', alternatives: ['Los amigos no creyeron que Antonio hubiera logrado entradas en la platea para el estreno.'] },
+      { russian: 'Было странно, что обезболивающее не подействовало на пациента, и он не спал всю ночь.', correct: 'Fue extraño que el analgésico no le hubiera hecho efecto al paciente y no hubiera dormido en toda la noche.', alternatives: ['Fue raro que el calmante no hubiera surtido efecto en el paciente y no hubiera podido dormir en toda la noche.'] },
+      { russian: 'Я не была уверена, что муж сдал анализы и записался на приём к врачу.', correct: 'No estaba segura de que el marido hubiera hecho los análisis y se hubiera apuntado a la consulta del médico.', alternatives: ['No estaba segura de que el marido hubiera entregado los análisis y hubiera pedido cita con el médico.'] }
+    ]
+  },
+
+  'ex-14-1-7': {
+    id: 'ex-14-1-7',
+    type: 'translation',
+    title: 'Упражнение 7. Infinitivo Compuesto → Subjuntivo',
+    description: 'Измените предложения по образцу: Siento (sentía) no haber podido verte → Siento (sentía) que tú no hayas podido (no hubieras podido) verme.',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Me alegro (me alegré) de haber alquilado el apartamento cerca de la oficina.', correct: 'Me alegro de que hayamos alquilado el apartamento cerca de la oficina. / Me alegré de que hubiéramos alquilado el apartamento cerca de la oficina.', alternatives: ['Me alegro de que haya alquilado el apartamento cerca de la oficina. / Me alegré de que hubiera alquilado el apartamento cerca de la oficina.'] },
+      { russian: 'Andrés duda (dudaba) haber aprobado bien el examen de ingreso.', correct: 'Andrés duda de que haya aprobado bien el examen de ingreso. / Andrés dudaba de que hubiera aprobado bien el examen de ingreso.', alternatives: [] },
+      { russian: '¿Te sorprendes (te sorprendiste) de haber encontrado la información necesaria en Internet?', correct: '¿Te sorprendes de que hayas encontrado la información necesaria en Internet? / ¿Te sorprendiste de que hubieras encontrado la información necesaria en Internet?', alternatives: [] },
+      { russian: 'Los padres están enfadados (se enfadaron) de haber visto las fotos de su hija publicadas en la revista.', correct: 'Los padres están enfadados de que hayan visto las fotos de su hija publicadas en la revista. / Los padres se enfadaron de que hubieran visto las fotos de su hija publicadas en la revista.', alternatives: [] },
+      { russian: 'No estamos (estábamos) seguros de haberte convencido de vender tu coche.', correct: 'No estamos seguros de que te hayamos convencido de vender tu coche. / No estábamos seguros de que te hubiéramos convencido de vender tu coche.', alternatives: [] }
+    ]
+  },
+
+  'ex-14-1-8': {
+    id: 'ex-14-1-8',
+    type: 'translation',
+    title: 'Упражнение 8. Переведите на испанский язык (Infinitivo Compuesto)',
+    description: 'Переведите предложения, используя Infinitivo Compuesto (одно подлежащее) или Subjuntivo (разные подлежащие)',
+    showAnswerOption: true,
+    questions: [
+      { russian: 'Я сожалею, что не смогла (вы не смогли) помочь ему составить резюме.', correct: 'Siento no haber podido ayudarle a preparar el currículum. / Sienten no haber podido ayudarle a preparar el currículum.', alternatives: ['Lamento no haber podido ayudarle a hacer el currículum.'] },
+      { russian: 'Андрей сомневался, что поступил правильно (мы поступили правильно) и решил позвонить и извиниться перед друзьями.', correct: 'Andrés dudaba de haber actuado correctamente y decidió llamar y disculparse con sus amigos. / Andrés dudaba de que hubiéramos actuado correctamente y decidió llamar y disculparse con sus amigos.', alternatives: [] },
+      { russian: 'Мы рады, что нашли (ты нашёл) всю необходимую информацию в Интернете.', correct: 'Nos alegramos de haber encontrado toda la información necesaria en Internet. / Nos alegramos de que hayas encontrado toda la información necesaria en Internet.', alternatives: [] },
+      { russian: 'Луис разозлился, что не отправил в офис новые данные по электронной почте, а позвонил и стал диктовать их по телефону.', correct: 'Luis se enojó de no haber enviado los nuevos datos a la oficina por correo electrónico y de haber llamado y dictado por teléfono.', alternatives: ['Luis se molestó de no haber mandado los nuevos datos a la oficina por email y de haber llamado y dictado por teléfono.'] },
+      { russian: 'Мы не были уверены, что уладили (он уладил) все свои дела, и нам пришлось отказаться от нового проекта.', correct: 'No estábamos seguros de haber resuelto todos nuestros asuntos y tuvimos que renunciar al nuevo proyecto. / No estábamos seguros de que hubiera resuelto todos sus asuntos y tuvimos que renunciar al nuevo proyecto.', alternatives: [] },
+      { russian: 'Я рад, что устроился (он устроился) на престижную и хорошо оплачиваемую работу.', correct: 'Me alegro de haber encontrado un trabajo prestigioso y bien remunerado. / Me alegro de que él haya encontrado un trabajo prestigioso y bien remunerado.', alternatives: ['Estoy contento de haber conseguido un trabajo de prestigio y bien pagado.'] },
+      { russian: 'Боюсь, что я (они) совершил большую ошибку, рассказав всё Марии.', correct: 'Temo haber cometido un grave error al contárselo todo a María. / Temo que hayan cometido un grave error al contárselo todo a María.', alternatives: [] },
+      { russian: 'Анна была рада, что встретилась (ты встретилась) и поговорила с Мигелем до его отъезда.', correct: 'Ana estuvo contenta de haber podido encontrarse y hablar con Miguel antes de su partida. / Ana estuvo contenta de que te hubieras encontrado y hubieras hablado con Miguel antes de su partida.', alternatives: [] },
+      { russian: 'Я расстроился, что я (Диего) заболел и не смог присутствовать на собрании акционеров.', correct: 'Me entristecí de haber enfermado y no haber podido asistir a la junta de accionistas. / Me entristecí de que Diego hubiera enfermado y no hubiera podido asistir a la junta de accionistas.', alternatives: [] },
+      { russian: 'Начальник отдела кадров сожалел, что он (менеджер) не контролировал своё поведение во время собеседования.', correct: 'El jefe del departamento de personal lamentaba no haber controlado su comportamiento durante la entrevista. / El jefe del departamento de personal lamentaba que el manager no hubiera controlado su comportamiento durante la entrevista.', alternatives: [] }
     ]
   }
 }
