@@ -20241,6 +20241,48 @@ Infinitivo Compuesto используется, когда:
         }
       ]
     },
+    vocabulary: [
+      { word: 'medio ambiente', translation: 'окружающая среда', audioUrl: null },
+      { word: 'ecologista', translation: 'эколог', audioUrl: null },
+      { word: 'contaminación f', translation: 'загрязнение', audioUrl: null },
+      { word: 'proteger', translation: 'охранять', audioUrl: null },
+      { word: 'protección f', translation: 'охрана', audioUrl: null },
+      { word: 'salvar', translation: 'спасать', audioUrl: null },
+      { word: 'naturaleza f', translation: 'природа', audioUrl: null },
+      { word: 'cambio climático', translation: 'изменение климата', audioUrl: null },
+      { word: 'calentamiento global', translation: 'глобальное потепление', audioUrl: null },
+      { word: 'capa de ozono', translation: 'озоновый слой', audioUrl: null },
+      { word: 'efecto invernadero', translation: 'парниковый эффект', audioUrl: null },
+      { word: 'catástrofe ecológica', translation: 'экологическая катастрофа', audioUrl: null },
+      { word: 'desastre m', translation: 'катастрофа', audioUrl: null },
+      { word: 'incendio forestal', translation: 'лесной пожар', audioUrl: null },
+      { word: 'huracán m', translation: 'ураган', audioUrl: null },
+      { word: 'sequía f', translation: 'засуха', audioUrl: null },
+      { word: 'inundación f', translation: 'наводнение', audioUrl: null },
+      { word: 'terremoto m', translation: 'землетрясение', audioUrl: null },
+      { word: 'erupción volcánica', translation: 'извержение вулкана', audioUrl: null },
+      { word: 'deshielo polar', translation: 'таяние ледников', audioUrl: null },
+      { word: 'residuos m pl', translation: 'отходы', audioUrl: null },
+      { word: 'aguas residuales', translation: 'сточные воды', audioUrl: null },
+      { word: 'emisión de gases contaminantes', translation: 'выброс вредных газов (в атмосферу)', audioUrl: null },
+      { word: 'dióxido de carbono', translation: 'CO₂ / углекислый газ', audioUrl: null },
+      { word: 'deforestación f', translation: 'вырубка лесов', audioUrl: null },
+      { word: 'desechos radioactivos', translation: 'радиоактивные отходы', audioUrl: null },
+      { word: 'reciclaje m', translation: 'переработка', audioUrl: null },
+      { word: 'parque natural', translation: 'заповедник', audioUrl: null },
+      { word: 'en peligro de extinción', translation: 'на грани исчезновения', audioUrl: null },
+      { word: 'especie f', translation: 'вид', audioUrl: null },
+      { word: 'animal salvaje', translation: 'дикое животное', audioUrl: null },
+      { word: 'planta silvestre', translation: 'дикорастущее растение', audioUrl: null },
+      { word: 'recursos naturales', translation: 'природные запасы', audioUrl: null },
+      { word: 'agotamiento m', translation: 'истощение (запасов)', audioUrl: null },
+      { word: 'consumir', translation: 'потреблять', audioUrl: null },
+      { word: 'consumo m', translation: 'потребление', audioUrl: null },
+      { word: 'impacto m (ambiental)', translation: 'воздействие (на окружающую среду)', audioUrl: null },
+      { word: 'consecuencia f (negativa)', translation: 'последствие (негативное)', audioUrl: null },
+      { word: 'medida f', translation: 'мера (действие)', audioUrl: null },
+      { word: 'prevenir', translation: 'предотвратить', audioUrl: null }
+    ],
     exercises: ['ex-14-1-1', 'ex-14-1-2', 'ex-14-1-3', 'ex-14-1-4', 'ex-14-1-5', 'ex-14-1-6', 'ex-14-1-7', 'ex-14-1-8']
   },
 
@@ -20496,7 +20538,8 @@ Infinitivo Compuesto используется, когда:
 | **sin** + Infinitivo | Одно подлежащее | *Se fue sin decir nada.* (Он / он) |`
         }
       ]
-    }
+    },
+    exercises: ['ex-14-3-1', 'ex-14-3-2', 'ex-14-3-3']
   }
 }
 
@@ -48901,6 +48944,277 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Директор сожалел, что уволил (мы уволили) такого хорошего сотрудника.', correct: 'El director lamentaba haber despedido a tan buen empleado. / El director lamentaba que hubiéramos despedido a tan buen empleado.', alternatives: [] },
       { russian: 'Я не уверен, что правильно понял (они правильно поняли) задание преподавателя.', correct: 'No estoy seguro de haber entendido bien la tarea del profesor. / No estoy seguro de que hayan entendido bien la tarea del profesor.', alternatives: [] },
       { russian: 'Мы рады, что наконец решили (ты наконец решил) этот давний сложный вопрос.', correct: 'Nos alegramos de haber resuelto por fin este viejo asunto tan complicado. / Nos alegramos de que hayas resuelto por fin este viejo asunto tan complicado.', alternatives: [] }
+    ]
+  },
+
+  // Урок 14.3 — Придаточные образа действия: como, como si, sin que
+
+  'ex-14-3-1': {
+    id: 'ex-14-3-1',
+    type: 'translation',
+    title: 'Упражнение 1. Поставьте глаголы в Subjuntivo или Indicativo',
+    description: 'Раскройте скобки, выбрав правильное наклонение (Subjuntivo или Indicativo). Переведите предложения на русский язык.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Pasaremos las vacaciones como (querer, tú).',
+        correct: 'Pasaremos las vacaciones como quieras. — Мы проведём каникулы так, как ты захочешь. [como + Presente de Subjuntivo — действие в будущем, гипотетическое]',
+        alternatives: []
+      },
+      {
+        russian: '2. Me mira / me miró como si (verme) por primera vez.',
+        correct: 'Me mira como si me viera por primera vez. / Me miró como si me hubiera visto por primera vez. — Смотрит на меня, будто видит впервые. / Посмотрел на меня, будто никогда меня не видел. [como si + Imperfecto / Pluscuamperfecto de Subjuntivo]',
+        alternatives: []
+      },
+      {
+        russian: '3. Se lo dije todo como tú (aconsejarme).',
+        correct: 'Se lo dije todo como tú me aconsejaste. — Я рассказал ему всё так, как ты мне посоветовала. [como + Indicativo — реальное завершённое действие]',
+        alternatives: []
+      },
+      {
+        russian: '4. Pablo se fue a otra ciudad sin que su familia (saberlo).',
+        correct: 'Pablo se fue a otra ciudad sin que su familia lo supiera. — Пабло уехал в другой город, так что его семья об этом не знала. [sin que + Imperfecto de Subjuntivo — разные подлежащие, прошедшее]',
+        alternatives: []
+      },
+      {
+        russian: '5. Vosotros estáis tan nerviosos como si (pasar) algo grave.',
+        correct: 'Vosotros estáis tan nerviosos como si pasara algo grave. — Вы такие нервные, как будто случилось что-то серьёзное. [como si + Imperfecto de Subjuntivo — одновременность с настоящим]',
+        alternatives: []
+      },
+      {
+        russian: '6. Mi hermano sabe tocar la guitarra sin que nadie (enseñárselo).',
+        correct: 'Mi hermano sabe tocar la guitarra sin que nadie se lo haya enseñado. — Мой брат умеет играть на гитаре, причём никто его этому не учил. [sin que + Pretérito Perfecto de Subjuntivo — факт, связанный с настоящим]',
+        alternatives: []
+      },
+      {
+        russian: '7. Comes mal como si no (gustarte) la comida.',
+        correct: 'Comes mal como si no te gustara la comida. — Ты плохо ешь, как будто тебе не нравится еда. [como si + Imperfecto de Subjuntivo — одновременность]',
+        alternatives: []
+      },
+      {
+        russian: '8. Ayer estuve en casa todo el día sin que nadie (llamarme).',
+        correct: 'Ayer estuve en casa todo el día sin que nadie me llamara. — Вчера я весь день был дома, и никто мне не позвонил. [sin que + Imperfecto de Subjuntivo — прошедшее, разные подлежащие]',
+        alternatives: []
+      },
+      {
+        russian: '9. No me contestaron nada como si no (oír, ellos) mi pregunta.',
+        correct: 'No me contestaron nada como si no hubieran oído mi pregunta. — Они не ответили мне ничего, как будто не услышали мой вопрос. [como si + Pluscuamperfecto de Subjuntivo — действие предшествует другому прошедшему]',
+        alternatives: []
+      },
+      {
+        russian: '10. Pasaban meses sin que el jefe (subirme) el salario ni (promoverme).',
+        correct: 'Pasaban meses sin que el jefe me subiera el salario ni me promoviera. — Проходили месяцы, а начальник не повышал мне зарплату и не продвигал меня. [sin que + Imperfecto de Subjuntivo — повторяющееся действие в прошлом]',
+        alternatives: []
+      },
+      {
+        russian: '11. Explícame el problema como (entender, tú) mejor.',
+        correct: 'Explícame el problema como mejor lo entiendas. — Объясни мне проблему так, как сам лучше понимаешь. [como + Presente de Subjuntivo — будущее / гипотетическое]',
+        alternatives: []
+      },
+      {
+        russian: '12. La doctora le recetó medicamentos sin que el paciente (quejarse).',
+        correct: 'La doctora le recetó medicamentos sin que el paciente se quejara. — Врач выписала лекарства пациенту, хотя тот ни на что не жаловался. [sin que + Imperfecto de Subjuntivo — разные подлежащие, прошедшее]',
+        alternatives: []
+      },
+      {
+        russian: '13. Habla de ecología como si (ser) experto en la materia.',
+        correct: 'Habla de ecología como si fuera experto en la materia. — Он говорит об экологии, как будто он специалист в этой области. [como si + Imperfecto de Subjuntivo — нереальное сравнение]',
+        alternatives: []
+      },
+      {
+        russian: '14. Los niños decoraron el árbol de Navidad sin que sus padres (ayudarles).',
+        correct: 'Los niños decoraron el árbol de Navidad sin que sus padres les ayudaran. — Дети украсили ёлку без помощи родителей. [sin que + Imperfecto de Subjuntivo — разные подлежащие, прошедшее]',
+        alternatives: []
+      },
+      {
+        russian: '15. Haz tu trabajo como te (parecer) mejor.',
+        correct: 'Haz tu trabajo como te parezca mejor. — Делай свою работу так, как тебе кажется лучше. [como + Presente de Subjuntivo — гипотетическое / будущее]',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-14-3-2': {
+    id: 'ex-14-3-2',
+    type: 'translation',
+    title: 'Упражнение 2. Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя конструкции como, como si, sin que, sin + Infinitivo.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Завтра воскресенье, поэтому я встану в 10 или в 11, как захочу.',
+        correct: 'Mañana es domingo, así que me levantaré a las 10 o a las 11, como quiera.',
+        alternatives: ['Mañana es domingo, por eso me levantaré a las 10 o a las 11, como quiera.']
+      },
+      {
+        russian: '2. Ты не здороваешься со мной, словно меня не видишь или обиделся на мне.',
+        correct: 'No me saludas como si no me vieras o como si estuvieras enfadado conmigo.',
+        alternatives: ['No me dices hola como si no me vieras o como si estuvieras molesto conmigo.']
+      },
+      {
+        russian: '3. Они уехали так рано, что мы не смогли с ними попрощаться.',
+        correct: 'Se fueron tan pronto que no pudimos despedirnos de ellos. / Se fueron sin que pudiéramos despedirnos de ellos.',
+        alternatives: []
+      },
+      {
+        russian: '4. Пусть он собирает чемодан, как умеет, не мешай ему.',
+        correct: 'Que haga la maleta como pueda/sepa, no le molestes.',
+        alternatives: ['Deja que haga la maleta como pueda, no le estorbes.']
+      },
+      {
+        russian: '5. Они пришли на наш праздник, причём никто их не приглашал.',
+        correct: 'Vinieron a nuestra fiesta sin que nadie los invitara.',
+        alternatives: ['Se presentaron en nuestra fiesta sin que nadie los hubiera invitado.']
+      },
+      {
+        russian: '6. Секретарша хочет поговорить с начальником так, чтобы их никто не слышал, словно хочет о чём-то его попросить.',
+        correct: 'La secretaria quiere hablar con el jefe sin que nadie los oiga, como si quisiera pedirle algo.',
+        alternatives: []
+      },
+      {
+        russian: '7. Нам отказали в визе, причём никто не объяснил нам причины.',
+        correct: 'Nos denegaron el visado sin que nadie nos explicara los motivos.',
+        alternatives: ['Nos rechazaron la visa sin que nadie nos explicara las razones.']
+      },
+      {
+        russian: '8. Он сделал всё так, как посоветовали ему его друзья.',
+        correct: 'Lo hizo todo como le aconsejaron sus amigos.',
+        alternatives: ['Lo hizo todo tal como le aconsejaron sus amigos.']
+      },
+      {
+        russian: '9. Шли дни, недели, месяцы, а в его жизни ничего не менялось.',
+        correct: 'Pasaban días, semanas, meses sin que nada cambiara en su vida.',
+        alternatives: ['Pasaban días, semanas, meses y nada cambiaba en su vida.']
+      },
+      {
+        russian: '10. Она ведёт себя так, словно её повысили и назначили начальником отдела.',
+        correct: 'Se comporta como si la hubieran ascendido y nombrado jefa de departamento.',
+        alternatives: ['Se porta como si le hubieran dado un ascenso y la hubieran hecho jefa de departamento.']
+      },
+      {
+        russian: '11. Дети играли во дворе так, что мама не замечала.',
+        correct: 'Los niños jugaban en el patio sin que la madre se diera cuenta.',
+        alternatives: ['Los niños jugaban en el jardín sin que su mamá se enterara.']
+      },
+      {
+        russian: '12. Сделай домашнее задание как хочешь, но сдай вовремя.',
+        correct: 'Haz los deberes como quieras, pero entrégalos a tiempo.',
+        alternatives: ['Haz la tarea como quieras, pero entrégala a tiempo.']
+      },
+      {
+        russian: '13. Он продолжал работать, как будто ничего не произошло.',
+        correct: 'Siguió trabajando como si nada hubiera pasado.',
+        alternatives: ['Continuó trabajando como si nada hubiera ocurrido.']
+      },
+      {
+        russian: '14. Его уволили без всяких объяснений.',
+        correct: 'Lo despidieron sin que le dieran ninguna explicación. / Lo despidieron sin darle ninguna explicación.',
+        alternatives: []
+      },
+      {
+        russian: '15. Она смотрела на меня так, словно видела меня впервые.',
+        correct: 'Me miraba como si me viera por primera vez.',
+        alternatives: ['Me miraba como si fuera la primera vez que me veía.']
+      }
+    ]
+  },
+
+  'ex-14-3-3': {
+    id: 'ex-14-3-3',
+    type: 'grammar',
+    title: 'Упражнение 3. Выберите правильную конструкцию',
+    description: 'Выберите правильный вариант — como + Indicativo/Subjuntivo, como si, sin que или sin + Infinitivo.',
+    questions: [
+      {
+        text: 'Lo hice ___ me dijiste. (реальное завершённое действие)',
+        options: ['como me dijiste', 'como si me dijeras', 'sin que me dijeras', 'para que me dijeras'],
+        correct: 0,
+        explanation: 'como + Indicativo (Indefinido) — действие реальное, уже произошло. "Я сделал это так, как ты мне сказал."'
+      },
+      {
+        text: 'Hazlo ___ quieras. (гипотетическое, на выбор говорящего)',
+        options: ['para que lo hagas', 'como quieras', 'sin que quieras', 'como si quisieras'],
+        correct: 1,
+        explanation: 'como + Presente de Subjuntivo — действие в будущем / гипотетическое. "Сделай так, как хочешь."'
+      },
+      {
+        text: '¿Qué naclonamiento requiere siempre la construcción "como si"?',
+        options: ['Indicativo en cualquier tiempo', 'Futuro de Indicativo', 'Subjuntivo (Imperfecto o Pluscuamperfecto)', 'Infinitivo compuesto'],
+        correct: 2,
+        explanation: 'Después de como si sólo se usa Imperfecto de Subjuntivo (одновременность) o Pluscuamperfecto de Subjuntivo (предшествование). Никогда — Indicativo.'
+      },
+      {
+        text: 'Salió de casa ___ decir nada a su familia. (одно подлежащее)',
+        options: ['sin que', 'para que', 'como si', 'sin'],
+        correct: 3,
+        explanation: 'Одно подлежащее → sin + Infinitivo. "Он вышел из дома, не сказав ничего своей семье." Если бы подлежащие были разные, нужно было бы sin que + Subjuntivo.'
+      },
+      {
+        text: 'Salió ___ nadie lo viera. (разные подлежащие)',
+        options: ['sin', 'para', 'sin que', 'como si'],
+        correct: 2,
+        explanation: 'Разные подлежащие (он / nadie) → sin que + Subjuntivo. "Он вышел так, что никто его не видел."'
+      },
+      {
+        text: 'Se comporta como si no me ___ nunca. (conocer — одновременность с настоящим)',
+        options: ['conoce', 'conociera', 'conocerá', 'ha conocido'],
+        correct: 1,
+        explanation: 'como si + Imperfecto de Subjuntivo — нереальное сравнение, одновременное с настоящим. "Ведёт себя, будто никогда меня не знал."'
+      },
+      {
+        text: 'Habla del medio ambiente ___ experto. (нереальное сравнение)',
+        options: ['como si fuera', 'como que es', 'como si es', 'como fuera'],
+        correct: 0,
+        explanation: 'como si + Imperfecto de Subjuntivo. "Говорит об окружающей среде, как будто он специалист." После como si всегда Subjuntivo, никогда Indicativo.'
+      },
+      {
+        text: 'Haz el informe ___ mejor. (poder, tú — будущее / гипотетическое)',
+        options: ['como puedas', 'como puedes', 'como podías', 'como podrás'],
+        correct: 0,
+        explanation: 'como + Presente de Subjuntivo — действие гипотетическое, будущее. "Составь отчёт так, как только сможешь."'
+      },
+      {
+        text: 'Pasaban meses ___ el jefe (subirme) el salario.',
+        options: ['sin que me subiera', 'sin subirme', 'como si me subiera', 'para que me subiera'],
+        correct: 0,
+        explanation: 'sin que + Imperfecto de Subjuntivo — разные подлежащие (meses / jefe), прошедшее, повторяющееся действие. "Проходили месяцы, а начальник не повышал мне зарплату."'
+      },
+      {
+        text: 'El turista visitó el parque natural ___ (leer) el mapa. (одно подлежащее)',
+        options: ['sin que leyera', 'sin leer', 'como si leyera', 'para leer'],
+        correct: 1,
+        explanation: 'Одно подлежащее (el turista) → sin + Infinitivo. "Турист посетил заповедник, не читая карту."'
+      },
+      {
+        text: 'La deforestación avanza ___ los gobiernos (actuar) en serio.',
+        options: ['como si actuaran', 'sin que actúen', 'sin actuar', 'para que actúen'],
+        correct: 1,
+        explanation: 'sin que + Presente de Subjuntivo — разные подлежащие (la deforestación / los gobiernos). "Вырубка лесов продолжается, а правительства не принимают реальных мер."'
+      },
+      {
+        text: 'Me miró ___ por primera vez. (verme — нереальное сравнение с прошлым)',
+        options: ['como me vio', 'sin que me viera', 'como si me viera', 'para que me viera'],
+        correct: 2,
+        explanation: 'como si + Imperfecto de Subjuntivo — нереальное сравнение. "Он посмотрел на меня, будто видит впервые."'
+      },
+      {
+        text: 'Puedes decorar tu habitación ___ (querer, tú). (на твой выбор)',
+        options: ['como quieres', 'como querías', 'como quieras', 'como querrás'],
+        correct: 2,
+        explanation: 'como + Presente de Subjuntivo — свободный выбор, гипотетическое. "Можешь украсить свою комнату так, как хочешь."'
+      },
+      {
+        text: 'Habló ___ (estudiar) toda la vida el tema del cambio climático. (предшествование)',
+        options: ['para que hubiera estudiado', 'como si hubiera estudiado', 'sin que hubiera estudiado', 'como hubiera estudiado'],
+        correct: 1,
+        explanation: 'como si + Pluscuamperfecto de Subjuntivo — действие в придаточном предшествует прошлому. "Он говорил, как будто всю жизнь изучал тему изменения климата."'
+      },
+      {
+        text: 'El consumo de recursos naturales aumenta ___ la sociedad (preocuparse).',
+        options: ['sin preocuparse', 'para que se preocupe', 'sin que la sociedad se preocupe', 'como si se preocupara'],
+        correct: 2,
+        explanation: 'sin que + Presente de Subjuntivo — разные подлежащие (el consumo / la sociedad). "Потребление природных ресурсов растёт, а общество не беспокоится."'
+      }
     ]
   }
 }
