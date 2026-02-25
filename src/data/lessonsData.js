@@ -20447,7 +20447,8 @@ Infinitivo Compuesto используется, когда:
 | Pasado / Condicional | действие было ЕЩЁ РАНЬШЕ | **Pluscuamperfecto Subj.** |`
         }
       ]
-    }
+    },
+    exercises: ['ex-14-2-1', 'ex-14-2-2', 'ex-14-2-3', 'ex-14-2-4']
   },
 
   'lesson-14-3': {
@@ -48944,6 +48945,376 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { russian: 'Директор сожалел, что уволил (мы уволили) такого хорошего сотрудника.', correct: 'El director lamentaba haber despedido a tan buen empleado. / El director lamentaba que hubiéramos despedido a tan buen empleado.', alternatives: [] },
       { russian: 'Я не уверен, что правильно понял (они правильно поняли) задание преподавателя.', correct: 'No estoy seguro de haber entendido bien la tarea del profesor. / No estoy seguro de que hayan entendido bien la tarea del profesor.', alternatives: [] },
       { russian: 'Мы рады, что наконец решили (ты наконец решил) этот давний сложный вопрос.', correct: 'Nos alegramos de haber resuelto por fin este viejo asunto tan complicado. / Nos alegramos de que hayas resuelto por fin este viejo asunto tan complicado.', alternatives: [] }
+    ]
+  },
+
+  // Урок 14.2 — Согласование времён сослагательного наклонения
+
+  'ex-14-2-1': {
+    id: 'ex-14-2-1',
+    type: 'translation',
+    title: 'Упражнение 1. Измените фразы по образцу',
+    description: 'Переведите главный глагол в прошедшее время и измените формы сослагательного наклонения в придаточном по образцу: Quiero que vengas → Quería que vinieras.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Me enfada que estén cerradas todas las tiendas los días festivos. → Me enfadaba que …',
+        correct: 'Me enfadaba que estuvieran cerradas todas las tiendas los días festivos. [Presente → Imperfecto de Subjuntivo: estén → estuvieran]',
+        alternatives: []
+      },
+      {
+        russian: '2. No es normal que los sueldos bajen y los precios suban. → No era normal que …',
+        correct: 'No era normal que los sueldos bajaran y los precios subieran. [Presente → Imperfecto de Subjuntivo: bajen → bajaran, suban → subieran]',
+        alternatives: []
+      },
+      {
+        russian: '3. Dudo que Antonio haya oído esta ópera. → Dudaba que …',
+        correct: 'Dudaba que Antonio hubiera oído esta ópera. [Perfecto de Subjuntivo → Pluscuamperfecto de Subjuntivo: haya oído → hubiera oído]',
+        alternatives: []
+      },
+      {
+        russian: '4. La vecina me ha aconsejado que lea anuncios de ofertas de trabajo y envíe mi CV a varias empresas. → La vecina me aconsejó que …',
+        correct: 'La vecina me aconsejó que leyera anuncios de ofertas de trabajo y enviara mi CV a varias empresas. [Presente → Imperfecto de Subjuntivo: lea → leyera, envíe → enviara]',
+        alternatives: []
+      },
+      {
+        russian: '5. Te pido que me traigas el periódico de hoy. → Te pedí que …',
+        correct: 'Te pedí que me trajeras el periódico. [Presente → Imperfecto de Subjuntivo: traigas → trajeras]',
+        alternatives: []
+      },
+      {
+        russian: '6. Sentimos que el abuelo se haya puesto enfermo. → Sentíamos que …',
+        correct: 'Sentíamos que el abuelo se hubiera puesto enfermo. [Perfecto de Subjuntivo → Pluscuamperfecto de Subjuntivo: haya puesto → hubiera puesto]',
+        alternatives: []
+      },
+      {
+        russian: '7. El médico te ha recetado las medicinas para que las tomes y no para que las guardes en el frigorífico. → El médico te recetó las medicinas para que …',
+        correct: 'El médico te recetó las medicinas para que las tomaras y no para que las guardaras en el frigorífico. [Presente → Imperfecto de Subjuntivo: tomes → tomaras, guardes → guardaras]',
+        alternatives: []
+      },
+      {
+        russian: '8. Le pido a Jorge que se vaya y que no nos moleste, pero no estoy segura de que me haga caso. → Le pedí a Jorge que …',
+        correct: 'Le pedí a Jorge que se fuera y que no nos molestara, pero no estaba segura de que me hiciera caso. [Presente → Imperfecto de Subjuntivo: vaya → fuera, moleste → molestara, haga → hiciera]',
+        alternatives: []
+      },
+      {
+        russian: '9. Es una lástima que todavía no hayas hecho la maleta. → Era una lástima que …',
+        correct: 'Era una lástima que todavía no hubieras hecho la maleta. [Perfecto de Subjuntivo → Pluscuamperfecto de Subjuntivo: hayas hecho → hubieras hecho]',
+        alternatives: []
+      },
+      {
+        russian: '10. Nos indigna que el jefe haya dicho tal tontería. → Nos indignó que …',
+        correct: 'Nos indignó que el jefe hubiera dicho tal tontería. [Perfecto de Subjuntivo → Pluscuamperfecto de Subjuntivo: haya dicho → hubiera dicho]',
+        alternatives: []
+      },
+      {
+        russian: '11. Me alegra que hayas aprobado todos los exámenes. → Me alegró que …',
+        correct: 'Me alegró que hubieras aprobado todos los exámenes. [Perfecto de Subjuntivo → Pluscuamperfecto de Subjuntivo: hayas aprobado → hubieras aprobado]',
+        alternatives: []
+      },
+      {
+        russian: '12. El profesor quiere que los alumnos entreguen los trabajos a tiempo. → El profesor quería que …',
+        correct: 'El profesor quería que los alumnos entregaran los trabajos a tiempo. [Presente → Imperfecto de Subjuntivo: entreguen → entregaran]',
+        alternatives: []
+      },
+      {
+        russian: '13. Mis padres esperan que encuentre trabajo pronto. → Mis padres esperaban que …',
+        correct: 'Mis padres esperaban que encontrara trabajo pronto. [Presente → Imperfecto de Subjuntivo: encuentre → encontrara]',
+        alternatives: []
+      },
+      {
+        russian: '14. Me sorprende que Carlos no haya llamado todavía. → Me sorprendió que …',
+        correct: 'Me sorprendió que Carlos no hubiera llamado todavía. [Perfecto de Subjuntivo → Pluscuamperfecto de Subjuntivo: haya llamado → hubiera llamado]',
+        alternatives: []
+      },
+      {
+        russian: '15. El jefe pide que todos vengan a la reunión del lunes. → El jefe pidió que …',
+        correct: 'El jefe pidió que todos vinieran a la reunión del lunes. [Presente → Imperfecto de Subjuntivo: vengan → vinieran]',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-14-2-2': {
+    id: 'ex-14-2-2',
+    type: 'translation',
+    title: 'Упражнение 2. Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, соблюдая правила согласования времён сослагательного наклонения. В скобках даны варианты — выберите нужный контекст или переведите оба.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Возможно, что он тебе лжет (что он тебе солгал).',
+        correct: 'Es posible que te mienta. / Era posible que te hubiera mentido. [Plan I: Presente → Presente Subj. / Plan II: past → Pluscuamperfecto Subj.]',
+        alternatives: ['Es posible que te haya mentido. (если говорит о недавно совершённом действии)']
+      },
+      {
+        russian: '2. Никто не верит (верил), что ты говоришь это серьёзно.',
+        correct: 'Nadie cree que lo digas en serio. / Nadie creía que lo dijeras en serio.',
+        alternatives: []
+      },
+      {
+        russian: '3. Странно (было странно), что здесь никого нет.',
+        correct: 'Es raro que no haya nadie aquí. / Era raro que no hubiera nadie allí.',
+        alternatives: []
+      },
+      {
+        russian: '4. Мы рады, что ты прав (был прав).',
+        correct: 'Nos alegra que tengas razón. / Nos alegró que tuvieras razón (que hubieras tenido razón).',
+        alternatives: []
+      },
+      {
+        russian: '5. Муж сомневается (сомневался), что Мария ещё на работе.',
+        correct: 'Mi marido duda de que María siga en el trabajo. / Mi marido dudaba de que María siguiera en el trabajo.',
+        alternatives: []
+      },
+      {
+        russian: '6. Жаль (было жаль), что никто не умеет кататься на лыжах.',
+        correct: 'Es una pena que nadie sepa esquiar. / Era una pena que nadie supiera esquiar.',
+        alternatives: []
+      },
+      {
+        russian: '7. Я удивился, что ты примешь участие (принял участие) в конкурсе поэтов.',
+        correct: 'Me sorprendió que fueras a participar en el concurso de poesía. / Me sorprendió que hubieras participado en el concurso de poesía.',
+        alternatives: []
+      },
+      {
+        russian: '8. Врач мне советует (посоветовал) бросить курить и больше гулять.',
+        correct: 'El médico me aconseja que deje de fumar y que salga más a pasear. / El médico me aconsejó que dejara de fumar y que saliera más a pasear.',
+        alternatives: []
+      },
+      {
+        russian: '9. Никто не верил, что они поженятся (поженились).',
+        correct: 'Nadie creía que fueran a casarse. / Nadie creía que se hubieran casado.',
+        alternatives: []
+      },
+      {
+        russian: '10. Я тебе сделаю (сделала) бутерброды, чтобы ты их съел, когда проголодаешься.',
+        correct: 'Te haré unos bocadillos para que los comas cuando tengas hambre. / Te hice unos bocadillos para que los comieras cuando tuvieras hambre.',
+        alternatives: []
+      },
+      {
+        russian: '11. Удивительно, что он уже выучил испанский язык.',
+        correct: 'Es sorprendente que ya haya aprendido español.',
+        alternatives: ['Es increíble que ya haya aprendido el español.']
+      },
+      {
+        russian: '12. Я рада, что ты смог прийти на нашу встречу.',
+        correct: 'Me alegra que hayas podido venir a nuestra reunión.',
+        alternatives: ['Me alegra que hayas podido asistir a nuestra reunión.']
+      },
+      {
+        russian: '13. Странно было, что никто не знал правильного ответа.',
+        correct: 'Era raro que nadie supiera la respuesta correcta.',
+        alternatives: ['Era extraño que nadie conociera la respuesta correcta.']
+      },
+      {
+        russian: '14. Жаль, что мы не успели попрощаться.',
+        correct: 'Es una pena que no hayamos podido despedirnos.',
+        alternatives: ['Es una lástima que no nos hayamos podido despedir.']
+      },
+      {
+        russian: '15. Никто не верил, что они смогут выиграть этот турнир.',
+        correct: 'Nadie creía que pudieran ganar ese torneo. / Nadie creía que fueran a ganar ese torneo.',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-14-2-3': {
+    id: 'ex-14-2-3',
+    type: 'grammar',
+    title: 'Упражнение 3. Согласование времён — выберите правильную форму',
+    description: 'Выберите правильную форму глагола в придаточном предложении, соблюдая правила согласования времён (Plan I / Plan II).',
+    questions: [
+      {
+        text: 'Quiero que ___ mañana a la reunión. (venir, tú)',
+        options: ['venías', 'vengas', 'vendrías', 'viniste'],
+        correct: 1,
+        explanation: 'Plan I: главный глагол в Presente → Presente de Subjuntivo в придаточном для одновременного/будущего действия. "Хочу, чтобы ты пришёл завтра на встречу."'
+      },
+      {
+        text: 'Quería que ___ al día siguiente. (venir, tú)',
+        options: ['vinieras', 'vengas', 'venías', 'vendría'],
+        correct: 0,
+        explanation: 'Plan II: главный глагол в Imperfecto → Imperfecto de Subjuntivo. "Я хотел, чтобы ты пришёл на следующий день."'
+      },
+      {
+        text: 'Me alegra que ___ a tiempo. (llegar, tú — действие уже завершилось)',
+        options: ['llegarás', 'llegas', 'hayas llegado', 'habías llegado'],
+        correct: 2,
+        explanation: 'Plan I + предшествование: главный в Presente, действие уже совершилось → Pretérito Perfecto de Subjuntivo. "Рада, что ты уже успел/а."'
+      },
+      {
+        text: 'Me alegró que ___ antes de la cena. (llegar, tú — предшествование прошлому)',
+        options: ['llegaste', 'hubieras llegado', 'llegaras', 'hayas llegado'],
+        correct: 1,
+        explanation: 'Plan II + предшествование: главный в Indefinido, действие предшествовало → Pluscuamperfecto de Subjuntivo. "Меня обрадовало, что ты успел до ужина."'
+      },
+      {
+        text: 'Le pedí que ___ de la oficina de inmediato. (salir)',
+        options: ['salga', 'saliera', 'haya salido', 'sal'],
+        correct: 1,
+        explanation: 'Plan II: главный в Indefinido → Imperfecto de Subjuntivo. "Я попросил/а его выйти из офиса немедленно."'
+      },
+      {
+        text: 'Dudo que Juan ___ con el director todavía. (hablar — сомнение в настоящем)',
+        options: ['hablara', 'habla', 'haya hablado', 'habló'],
+        correct: 2,
+        explanation: 'Plan I + предшествование (действие, которое могло уже произойти): Presente de Subjuntivo для настоящего или Perfecto Subj. для завершённого. Здесь — Perfecto Subj. ("уже"). "Сомневаюсь, что Хуан уже поговорил с директором."'
+      },
+      {
+        text: 'Dudaba que Juan ___ con el director antes de irse. (hablar — предшествование прошлому)',
+        options: ['hubiera hablado', 'haya hablado', 'hablará', 'hable'],
+        correct: 0,
+        explanation: 'Plan II + предшествование: главный в Imperfecto → Pluscuamperfecto de Subjuntivo. "Я сомневался, что Хуан поговорил с директором до отъезда."'
+      },
+      {
+        text: '¿Hay alguien aquí que ___ ruso? (saber)',
+        options: ['sabe', 'sabría', 'supo', 'sepa'],
+        correct: 3,
+        explanation: 'Относительное придаточное с отрицанием/неопределённостью → Presente de Subjuntivo. "Есть ли здесь кто-нибудь, кто знает русский?"'
+      },
+      {
+        text: 'Buscaban a alguien que ___ chino para el proyecto. (hablar)',
+        options: ['hable', 'hablaría', 'hablara', 'ha hablado'],
+        correct: 2,
+        explanation: 'Plan II: относительное придаточное, главный в Imperfecto → Imperfecto de Subjuntivo. "Они искали кого-нибудь, кто говорил бы по-китайски."'
+      },
+      {
+        text: 'Te llamaré cuando ___ al aeropuerto. (llegar)',
+        options: ['llegas', 'llegues', 'llegabas', 'llegarás'],
+        correct: 1,
+        explanation: 'Временное придаточное с cuando + Futuro в главном → Presente de Subjuntivo. "Позвоню тебе, когда прибудешь в аэропорт."'
+      },
+      {
+        text: 'Mi jefe me dijo que ___ más el informe sobre el cambio climático. (revisar)',
+        options: ['revisa', 'hayas revisado', 'revisara', 'revises'],
+        correct: 2,
+        explanation: 'Plan II: главный в Indefinido (dijo) → Imperfecto de Subjuntivo. "Начальник сказал мне, чтобы я пересмотрел/а отчёт об изменении климата."'
+      },
+      {
+        text: 'Es importante que ___ medidas contra la contaminación. (tomar, nosotros)',
+        options: ['tomemos', 'tomamos', 'tomaríamos', 'hemos tomado'],
+        correct: 0,
+        explanation: 'Plan I: главный в Presente (es importante) → Presente de Subjuntivo. "Важно, чтобы мы принимали меры против загрязнения."'
+      },
+      {
+        text: 'Era importante que todos ___ a la conferencia sobre el medio ambiente. (asistir)',
+        options: ['asistieran', 'asistan', 'asisten', 'asistirán'],
+        correct: 0,
+        explanation: 'Plan II: главный в Imperfecto → Imperfecto de Subjuntivo. "Было важно, чтобы все присутствовали на конференции об окружающей среде."'
+      },
+      {
+        text: 'Me sorprende que todavía no ___ el proyecto. (terminar, tú)',
+        options: ['terminaste', 'hayas terminado', 'terminas', 'terminarás'],
+        correct: 1,
+        explanation: 'Plan I + предшествование: главный в Presente, действие должно было уже произойти → Perfecto de Subjuntivo. "Меня удивляет, что ты ещё не закончил/а проект."'
+      },
+      {
+        text: 'Me sorprendió que el jefe ___ sin decir nada. (irse)',
+        options: ['se vaya', 'se haya ido', 'se hubiera ido', 'se fuera'],
+        correct: 2,
+        explanation: 'Plan II + предшествование: главный в Indefinido (sorprendió), действие предшествовало → Pluscuamperfecto de Subjuntivo. "Меня удивило, что начальник ушёл, ничего не сказав."'
+      }
+    ]
+  },
+
+  'ex-14-2-4': {
+    id: 'ex-14-2-4',
+    type: 'grammar',
+    title: 'Упражнение 4. Subjuntivo в придаточных — выберите правильную форму',
+    description: 'Выберите правильную форму глагола в сослагательном наклонении с учётом типа придаточного предложения и согласования времён.',
+    questions: [
+      {
+        text: 'Nadie cree que ella siempre ___ la verdad en el trabajo. (decir)',
+        options: ['dice', 'diga', 'dijo', 'dirá'],
+        correct: 1,
+        explanation: 'Придаточное при глаголе сомнения/отрицания (nadie cree que) → Presente de Subjuntivo (Plan I). "Никто не верит, что она всегда говорит правду на работе."'
+      },
+      {
+        text: 'No es verdad que ___ tantos problemas con el calentamiento global. (haber)',
+        options: ['había', 'hubo', 'habrá', 'haya'],
+        correct: 3,
+        explanation: 'Придаточное при отрицании (no es verdad que) → Presente de Subjuntivo. "Неправда, что с глобальным потеплением столько проблем."'
+      },
+      {
+        text: 'Siento mucho que ___ enfermo esta semana. (estar, tú)',
+        options: ['estés', 'estabas', 'estuviste', 'estarás'],
+        correct: 0,
+        explanation: 'Эмоциональное придаточное (sentir que) → Presente de Subjuntivo (Plan I). "Очень жаль, что ты болен на этой неделе."'
+      },
+      {
+        text: 'El director ordenó que todos ___ puntualmente a la reunión. (llegar)',
+        options: ['lleguen', 'llegaron', 'llegarán', 'llegaran'],
+        correct: 3,
+        explanation: 'Plan II: главный в Indefinido (ordenó) → Imperfecto de Subjuntivo. "Директор приказал, чтобы все пришли на встречу вовремя."'
+      },
+      {
+        text: 'Es necesario que ___ el medio ambiente para las futuras generaciones. (proteger, nosotros)',
+        options: ['protegemos', 'protejamos', 'protegeremos', 'hemos protegido'],
+        correct: 1,
+        explanation: 'Plan I: безличное выражение (es necesario que) → Presente de Subjuntivo. "Необходимо, чтобы мы защищали окружающую среду для будущих поколений."'
+      },
+      {
+        text: 'Era necesario que se ___ medidas urgentes para reducir las emisiones. (tomar)',
+        options: ['toman', 'tomaran', 'tomarán', 'han tomado'],
+        correct: 1,
+        explanation: 'Plan II: главный в Imperfecto → Imperfecto de Subjuntivo. "Было необходимо, чтобы были приняты срочные меры по сокращению выбросов."'
+      },
+      {
+        text: 'Espero que ___ venir a la conferencia sobre la deforestación mañana. (poder, tú)',
+        options: ['podías', 'podrás', 'puedas', 'puedes'],
+        correct: 2,
+        explanation: 'Plan I: главный в Presente (espero) → Presente de Subjuntivo. "Надеюсь, что ты сможешь прийти на конференцию о вырубке лесов завтра."'
+      },
+      {
+        text: 'Esperaba que él ___ el problema de los residuos antes del plazo. (resolver)',
+        options: ['resolviera', 'haya resuelto', 'resolverá', 'resuelva'],
+        correct: 0,
+        explanation: 'Plan II: главный в Imperfecto (esperaba) → Imperfecto de Subjuntivo. "Я надеялся, что он решит проблему отходов до дедлайна."'
+      },
+      {
+        text: 'Me alegra mucho que el abuelo ___. (recuperarse — действие уже произошло)',
+        options: ['se recupera', 'se recuperaría', 'se haya recuperado', 'se recuperara'],
+        correct: 2,
+        explanation: 'Plan I + предшествование: главный в Presente (me alegra), действие уже завершилось → Perfecto de Subjuntivo. "Очень рада, что дедушка уже выздоровел."'
+      },
+      {
+        text: 'No creo que ___ mañana. (llover)',
+        options: ['lloverá', 'ha llovido', 'llovió', 'llueva'],
+        correct: 3,
+        explanation: 'Придаточное при глаголе сомнения (no creo que) → Presente de Subjuntivo. "Не думаю, что завтра будет дождь."'
+      },
+      {
+        text: 'Te pido que ___ con más calma cuando explicas el problema ecológico. (hablar, tú)',
+        options: ['hablaras', 'hablas', 'hables', 'hablarás'],
+        correct: 2,
+        explanation: 'Plan I: главный в Presente (te pido) → Presente de Subjuntivo. "Прошу тебя говорить спокойнее, когда объясняешь экологическую проблему."'
+      },
+      {
+        text: 'Necesitaba a alguien que ___ con la reducción de residuos en la empresa. (ayudarme)',
+        options: ['me ayudara', 'me ayuda', 'me hubiera ayudado', 'me haya ayudado'],
+        correct: 0,
+        explanation: 'Plan II: относительное придаточное, главный в Imperfecto → Imperfecto de Subjuntivo. "Мне нужен был кто-то, кто помог бы мне с сокращением отходов на предприятии."'
+      },
+      {
+        text: 'Es una pena que nadie ___ por la deforestación en la región. (preocuparse)',
+        options: ['se preocupó', 'se preocupe', 'se preocupaba', 'se preocupará'],
+        correct: 1,
+        explanation: 'Plan I: эмоциональное безличное (es una pena que) → Presente de Subjuntivo. "Жаль, что никто не беспокоится о вырубке лесов в регионе."'
+      },
+      {
+        text: 'Me sorprendió que los recursos naturales ___ tan rápido en esa zona. (agotarse)',
+        options: ['se habían agotado', 'se agotaran', 'se hubieran agotado', 'se agoten'],
+        correct: 2,
+        explanation: 'Plan II + предшествование: главный в Indefinido, действие предшествовало → Pluscuamperfecto de Subjuntivo. "Меня удивило, что природные ресурсы в том районе так быстро истощились."'
+      },
+      {
+        text: 'Para que el consumo de energía ___, hay que tomar medidas urgentes. (reducirse)',
+        options: ['se reduce', 'se redujo', 'se haya reducido', 'se reduzca'],
+        correct: 3,
+        explanation: 'Придаточное цели (para que) → всегда Subjuntivo. Plan I: главный в Presente → Presente de Subjuntivo. "Чтобы потребление энергии снизилось, необходимо принять срочные меры."'
+      }
     ]
   },
 
