@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-17']
+    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-17']
   }
 ]
 
@@ -99,6 +99,13 @@ export const modules = {
     level: 'intermediate',
     lessons: ['lesson-14-1', 'lesson-14-2', 'lesson-14-3'],
     description: '1 Pretérito Perfecto de Subjuntivo. Pretérito pluscuamperfecto de subjuntivo. Infinitivo compuesto. 2 Согласование времен сослагательного наклонения. 3 Употребление сослагательного наклонения в придаточных предложениях образа действия (de modo)'
+  },
+  'module-15': {
+    id: 'module-15',
+    title: 'Модуль 15: MUNDO LATINO',
+    level: 'intermediate',
+    lessons: ['lesson-15-1'],
+    description: '1 Futuro compuesto (будущее сложное время): временное и модальное значение'
   },
   'module-8': {
     id: 'module-8',
@@ -20076,6 +20083,136 @@ PSA Internacional
       }
     ],
     exercises: ['ex-13-3-1', 'ex-13-3-2']
+  },
+
+  'lesson-15-1': {
+    id: 'lesson-15-1',
+    title: 'Урок 1: Futuro compuesto (будущее сложное время)',
+    moduleId: 'module-15',
+    grammar: {
+      title: 'Futuro compuesto — будущее сложное время',
+      intro: `**Futuro compuesto** — это сложное время изъявительного наклонения, которое сочетает в себе два значения: **завершённость действия к определённому моменту в будущем** и **вероятность/предположение о том, что уже произошло**.`,
+      sections: [
+        {
+          id: 'futuro-compuesto-formacion',
+          title: '1. Образование (Formación)',
+          content: `## 1. Образование (Formación)
+
+**Futuro compuesto** образуется по формуле:
+
+> **haber** (в Futuro Simple) + **participio** (причастие прошедшего времени)
+
+### Таблица спряжения (пример: *comer*)
+
+| Лицо | Вспомогательный глагол | Причастие |
+|------|------------------------|-----------|
+| **Yo** | habré | comido |
+| **Tú** | habrás | comido |
+| **Él / Ella / Vd.** | habrá | comido |
+| **Nosotros/-as** | habremos | comido |
+| **Vosotros/-as** | habréis | comido |
+| **Ellos / Ellas / Vds.** | habrán | comido |
+
+### Примеры с разными глаголами
+
+| Инфинитив | Futuro compuesto (yo) | Русский |
+|-----------|----------------------|---------|
+| hablar | habré hablado | я поговорю (к тому времени) / наверное, поговорил |
+| comer | habré comido | я поем (к тому времени) / наверное, поел |
+| vivir | habré vivido | я проживу (к тому времени) |
+| hacer | habré **hecho** | я сделаю (к тому времени) |
+| escribir | habré **escrito** | я напишу (к тому времени) |
+| volver | habré **vuelto** | я вернусь (к тому времени) |
+| poner | habré **puesto** | я положу / поставлю (к тому времени) |
+| decir | habré **dicho** | я скажу (к тому времени) |
+
+> **NB!** Причастие всегда **неизменяемо** — оно всегда оканчивается на **-o**, как и в других сложных временах с глаголом haber.`
+        },
+        {
+          id: 'futuro-compuesto-temporal',
+          title: '2. Временное значение — Завершённость в будущем',
+          content: `## 2. Временное значение — Завершённость в будущем
+
+Futuro compuesto используется, когда одно действие **закончится раньше другого** или **к конкретному сроку** в будущем.
+
+Это время часто сопровождается:
+- словом **ya** (уже)
+- предлогом **para** + время (к какому-то времени)
+- союзом **cuando** + Presente de Subjuntivo (когда ты придёшь...)
+
+### Структура и примеры
+
+| Конструкция | Пример | Перевод |
+|-------------|--------|---------|
+| **para** + время + Futuro compuesto | *Para las diez ya **habré terminado** el trabajo.* | К десяти часам я уже закончу работу. |
+| **cuando** + Subj. + Futuro compuesto | *Cuando **llegues** a casa, ya **habremos cenado**.* | Когда ты придёшь домой, мы уже поужинаем. |
+| **para** + día/fecha | *Para el lunes **habrás leído** el libro.* | К понедельнику ты прочитаешь книгу. |
+
+### Дополнительные примеры
+
+- *Para el año 2030 la ciencia **habrá encontrado** muchas soluciones.* — К 2030 году наука найдёт много решений.
+- *Cuando **vuelvas** del trabajo, yo ya **habré preparado** la cena.* — Когда ты вернёшься с работы, я уже приготовлю ужин.
+- *Para finales de mes ya **habremos terminado** el proyecto.* — К концу месяца мы уже закончим проект.
+
+> **Ключевая идея:** действие в Futuro compuesto **предшествует** другому будущему действию или наступает **к определённому сроку**.`
+        },
+        {
+          id: 'futuro-compuesto-modal',
+          title: '3. Модальное значение — Вероятность в прошлом',
+          content: `## 3. Модальное значение — Вероятность в прошлом
+
+Futuro compuesto используется для **предположения о том, что уже произошло** к моменту речи. Это аналог **Pretérito Perfecto**, но выражает догадку, а не факт.
+
+На русский язык переводится словами: **«наверное», «должно быть», «скорее всего», «видимо»**.
+
+### Схема сравнения: факт vs. вероятность
+
+| Факт (Pretérito Perfecto) | Предположение (Futuro compuesto) |
+|---------------------------|----------------------------------|
+| *María **ha salido**.* — Мария вышла. | *María **habrá salido**.* — Мария, наверное, вышла. |
+| *Juan **ha comido** algo.* — Хуан что-то поел. | *Juan **habrá comido** algo.* — Хуан, должно быть, что-то поел. |
+
+### Примеры
+
+- *¿Dónde está María? — No sé, **habrá salido**.* — Где Мария? — Не знаю, наверное, вышла.
+- *Juan no tiene hambre. **Habrá comido** algo en el trabajo.* — Хуан не голоден. Должно быть, он что-то съел на работе.
+- *¿Por qué no me llamas? — ¿**Habrás perdido** mi número?* — Почему ты мне не звонишь? — Неужели ты потерял мой номер?
+- *Nadie contesta. Se **habrán ido** todos.* — Никто не отвечает. Все, наверное, ушли.
+- *Está muy contenta. **Habrá aprobado** el examen.* — Она очень довольна. Скорее всего, сдала экзамен.
+
+> **Ключевая идея:** действие уже **совершилось** (с точки зрения настоящего), но говорящий **не уверен** — он лишь предполагает.`
+        },
+        {
+          id: 'futuro-compuesto-tabla',
+          title: '4. Сводная таблица употребления',
+          content: `## 4. Сводная таблица употребления
+
+| Ситуация | Смысл | Ключевые слова | Пример |
+|----------|-------|----------------|--------|
+| **План на будущее** | «Я сделаю это к...» | *para, cuando, ya* | *Para mañana lo **habré hecho**.* |
+| **Догадка о прошлом** | «Наверное, это случилось» | *наверное, видимо* | *¿No está? Se **habrá ido**.* |
+
+### Как выбрать значение?
+
+Контекст подскажет:
+
+**→ Временное значение** — есть ориентир в будущем (*para las diez, cuando llegues, para el lunes*):
+> *Para las cinco ya **habremos llegado**.*
+
+**→ Модальное значение** — говорящий строит догадку о том, что произошло:
+> *No contesta al teléfono. **Habrá salido**.*
+
+### Сравнение трёх времён вероятности/предположения
+
+| Время | О чём предположение | Пример |
+|-------|---------------------|--------|
+| **Futuro Simple** | О настоящем (сейчас) | *Serán las tres.* — Сейчас, наверное, три часа. |
+| **Futuro Compuesto** | О недавнем прошлом | *Habrá salido.* — Наверное, вышел/а. |
+| **Condicional Compuesto** | О прошлом (с точки зрения прошлого) | *Habrían salido.* — Тогда, наверное, вышли. |`
+        }
+      ]
+    },
+    exercises: ['ex-15-1-1', 'ex-15-1-2', 'ex-15-1-3', 'ex-15-1-4']
   },
 
   'lesson-14-1': {
@@ -49122,7 +49259,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-14-2-3': {
     id: 'ex-14-2-3',
-    type: 'grammar',
+    type: 'subjunctive',
     title: 'Упражнение 3. Согласование времён — выберите правильную форму',
     description: 'Выберите правильную форму глагола в придаточном предложении, соблюдая правила согласования времён (Plan I / Plan II).',
     questions: [
@@ -49221,7 +49358,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-14-2-4': {
     id: 'ex-14-2-4',
-    type: 'grammar',
+    type: 'subjunctive',
     title: 'Упражнение 4. Subjuntivo в придаточных — выберите правильную форму',
     description: 'Выберите правильную форму глагола в сослагательном наклонении с учётом типа придаточного предложения и согласования времён.',
     questions: [
@@ -49492,7 +49629,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-14-3-3': {
     id: 'ex-14-3-3',
-    type: 'grammar',
+    type: 'subjunctive',
     title: 'Упражнение 3. Выберите правильную конструкцию',
     description: 'Выберите правильный вариант — como + Indicativo/Subjuntivo, como si, sin que или sin + Infinitivo.',
     questions: [
@@ -49585,6 +49722,375 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: ['sin preocuparse', 'para que se preocupe', 'sin que la sociedad se preocupe', 'como si se preocupara'],
         correct: 2,
         explanation: 'sin que + Presente de Subjuntivo — разные подлежащие (el consumo / la sociedad). "Потребление природных ресурсов растёт, а общество не беспокоится."'
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 15: УРОК 1 — FUTURO COMPUESTO
+  // =============================================
+
+  'ex-15-1-1': {
+    id: 'ex-15-1-1',
+    type: 'translation',
+    title: 'Упражнение 1. Поставьте глаголы в Futuro compuesto',
+    description: 'Поставьте глаголы в скобках в форму Futuro compuesto и переведите предложения на русский язык.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. No sé lo que ellos (decirte) de mí pero no les hagas caso.',
+        correct: 'No sé lo que ellos te habrán dicho de mí pero no les hagas caso. [Модальное: предположение о прошлом] — Не знаю, что они тебе наговорили обо мне, но не слушай их.',
+        alternatives: []
+      },
+      {
+        russian: '2. En la estación hay tanta gente, el tren ya (llegar).',
+        correct: 'En la estación hay tanta gente, el tren ya habrá llegado. [Модальное: предположение о прошлом] — На станции столько народу, поезд, наверное, уже прибыл.',
+        alternatives: []
+      },
+      {
+        russian: '3. Cuando tú recibas y leas mi carta yo (irse) lejos.',
+        correct: 'Cuando tú recibas y leas mi carta yo ya me habré ido lejos. [Временное: действие завершится раньше другого] — Когда ты получишь и прочитаешь моё письмо, я уже уеду далеко.',
+        alternatives: []
+      },
+      {
+        russian: '4. Cuando el padre vuelva de su viaje de negocios por Centroamérica el hijo ya (concluir) sus estudios en el colegio.',
+        correct: 'Cuando el padre vuelva de su viaje de negocios por Centroamérica el hijo ya habrá concluido sus estudios en el colegio. [Временное] — Когда отец вернётся из деловой поездки по Центральной Америке, сын уже закончит учёбу в школе.',
+        alternatives: []
+      },
+      {
+        russian: '5. Estamos seguros de que para el año 2035 nuestro barrio (convertirse) en un modelo de desarrollo urbano sostenible.',
+        correct: 'Estamos seguros de que para el año 2035 nuestro barrio se habrá convertido en un modelo de desarrollo urbano sostenible. [Временное: к 2035 году] — Мы уверены, что к 2035 году наш район станет моделью устойчивого городского развития.',
+        alternatives: []
+      },
+      {
+        russian: '6. Los estudiantes se divierten tanto, (aprobar, ellos) el último examen.',
+        correct: 'Los estudiantes se divierten tanto, habrán aprobado el último examen. [Модальное: предположение] — Студенты так веселятся, наверное, сдали последний экзамен.',
+        alternatives: []
+      },
+      {
+        russian: '7. ¿Por qué Ramón no atiende a la llamada? — Su móvil (rompérsele), o (perderlo), o (dejarlo) en casa. ¡Es un imbécil!',
+        correct: 'Su móvil se le habrá roto, o lo habrá perdido, o lo habrá dejado en casa. ¡Es un imbécil! [Модальное: три варианта предположения] — Наверное, у него сломался телефон, или он его потерял, или оставил дома. Вот идиот!',
+        alternatives: []
+      },
+      {
+        russian: '8. Para el abril Miguel (escribir) su tesis doctoral y le quedará presentarla al tutor.',
+        correct: 'Para abril Miguel habrá escrito su tesis doctoral y le quedará presentarla al tutor. [Временное: к апрелю] — К апрелю Мигель напишет свою докторскую диссертацию, и ему останется только представить её научному руководителю.',
+        alternatives: []
+      },
+      {
+        russian: '9. ¿Por qué no participa Juan en el mitin de protesta contra la construcción de las centrales nucleares? — No lo sé, (ponerse, él) enfermo.',
+        correct: '— No lo sé, se habrá puesto enfermo. [Модальное: предположение] — Не знаю, наверное, он заболел.',
+        alternatives: []
+      },
+      {
+        russian: '10. Cuando llegue el otoño, nosotros ya (recoger) la cosecha y (volver) a la ciudad.',
+        correct: 'Cuando llegue el otoño, nosotros ya habremos recogido la cosecha y habremos vuelto a la ciudad. [Временное: к осени] — Когда наступит осень, мы уже уберём урожай и вернёмся в город.',
+        alternatives: []
+      },
+      {
+        russian: '11. Para las diez ya (terminar, yo) el informe.',
+        correct: 'Para las diez ya habré terminado el informe. [Временное: к десяти часам] — К десяти я уже закончу отчёт.',
+        alternatives: []
+      },
+      {
+        russian: '12. ¿Por qué no contesta al teléfono? — (salir) a comprar algo.',
+        correct: '— Habrá salido a comprar algo. [Модальное: предположение] — Наверное, вышел что-нибудь купить.',
+        alternatives: []
+      },
+      {
+        russian: '13. Cuando vuelvas del trabajo, yo ya (preparar) la cena.',
+        correct: 'Cuando vuelvas del trabajo, yo ya habré preparado la cena. [Временное] — Когда ты вернёшься с работы, я уже приготовлю ужин.',
+        alternatives: []
+      },
+      {
+        russian: '14. Para el próximo año todos nosotros (olvidar) este malentendido.',
+        correct: 'Para el próximo año todos nosotros habremos olvidado este malentendido. [Временное] — К следующему году мы все забудем это недоразумение.',
+        alternatives: []
+      },
+      {
+        russian: '15. Parece que Juan está muy contento. — (conseguir) el trabajo que quería.',
+        correct: '— Habrá conseguido el trabajo que quería. [Модальное: предположение] — Судя по всему, Хуан очень доволен. — Наверное, получил работу, которую хотел.',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-15-1-2': {
+    id: 'ex-15-1-2',
+    type: 'translation',
+    title: 'Упражнение 2. Измените предложения по образцу',
+    description: 'Замените конструкцию «quizás/tal vez/es posible que + haya...» на Futuro compuesto по образцу: Quizás los chicos se hayan examinado ya → Los chicos se habrán examinado ya.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Es posible que Antonio se haya casado con Lurdes. →',
+        correct: 'Antonio se habrá casado con Lurdes.',
+        alternatives: []
+      },
+      {
+        russian: '2. Francisco llama a Carmen todos los días. Tal vez se haya enamorado de ella. →',
+        correct: 'Francisco llama a Carmen todos los días. Se habrá enamorado de ella.',
+        alternatives: []
+      },
+      {
+        russian: '3. Tenéis mal aspecto, quizás hayáis dormido poco esta noche. →',
+        correct: 'Tenéis mal aspecto, habréis dormido poco esta noche.',
+        alternatives: []
+      },
+      {
+        russian: '4. Estás tan contenta, tal vez hayas conseguido las entradas para el estreno del nuevo musical. →',
+        correct: 'Estás tan contenta, habrás conseguido las entradas para el estreno del nuevo musical.',
+        alternatives: []
+      },
+      {
+        russian: '5. Quizás usted no se haya esforzado suficiente para que el jefe satisfaga su solicitud. →',
+        correct: 'Usted no se habrá esforzado suficiente para que el jefe satisfaga su solicitud.',
+        alternatives: []
+      },
+      {
+        russian: '6. Pablo ha dejado de fumar. Tal vez se lo haya prohibido el médico. →',
+        correct: 'Pablo ha dejado de fumar. Se lo habrá prohibido el médico.',
+        alternatives: []
+      },
+      {
+        russian: '7. Se comporta como un cretino, es probable que no haya recibido buena educación. →',
+        correct: 'Se comporta como un cretino, no habrá recibido buena educación.',
+        alternatives: []
+      },
+      {
+        russian: '8. ¿Por qué me miras como si no me reconocieras? ¿Quizás yo haya cambiado mucho? →',
+        correct: '¿Por qué me miras como si no me reconocieras? ¿Habré cambiado mucho?',
+        alternatives: []
+      },
+      {
+        russian: '9. ¿Cómo lo sabes? ¿Tal vez lo hayas leído en algún periódico o te lo haya dicho alguno de tus amigos? →',
+        correct: '¿Cómo lo sabes? ¿Lo habrás leído en algún periódico o te lo habrá dicho alguno de tus amigos?',
+        alternatives: []
+      },
+      {
+        russian: '10. Huele a gas. Es posible que se haya estropeado la cocina de gas. →',
+        correct: 'Huele a gas. Se habrá estropeado la cocina de gas.',
+        alternatives: []
+      },
+      {
+        russian: '11. Ella no está en casa. Quizás haya ido al mercado. →',
+        correct: 'Ella no está en casa. Habrá ido al mercado.',
+        alternatives: []
+      },
+      {
+        russian: '12. Tu amigo está muy serio. Tal vez haya tenido algún problema en el trabajo. →',
+        correct: 'Tu amigo está muy serio. Habrá tenido algún problema en el trabajo.',
+        alternatives: []
+      },
+      {
+        russian: '13. No encuentro mis llaves. Es posible que las haya dejado en la oficina. →',
+        correct: 'No encuentro mis llaves. Las habré dejado en la oficina.',
+        alternatives: []
+      },
+      {
+        russian: '14. Carlos no responde a mis mensajes. Quizás se haya quedado sin batería. →',
+        correct: 'Carlos no responde a mis mensajes. Se habrá quedado sin batería.',
+        alternatives: []
+      },
+      {
+        russian: '15. La reunión terminó pronto. Es posible que hayan llegado a un acuerdo. →',
+        correct: 'La reunión terminó pronto. Habrán llegado a un acuerdo.',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-15-1-3': {
+    id: 'ex-15-1-3',
+    type: 'translation',
+    title: 'Упражнение 3. Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя Futuro compuesto в его временном или модальном значении.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Ты не знаешь, куда я могла положить свои очки? — Наверное, ты оставила их на работе или потеряла.',
+        correct: '¿No sabes dónde puedo haber dejado mis gafas? — Las habrás dejado en el trabajo o las habrás perdido.',
+        alternatives: ['¿Sabes dónde he podido poner mis gafas? — Te las habrás dejado en el trabajo o las habrás perdido.']
+      },
+      {
+        russian: '2. Почему их сын целыми днями сидит дома? — Возможно, его уволили из банка, и он ещё не устроился на новую работу.',
+        correct: '¿Por qué su hijo se pasa todo el día en casa? — Lo habrán despedido del banco y todavía no habrá encontrado nuevo trabajo.',
+        alternatives: []
+      },
+      {
+        russian: '3. К пяти часам соберутся гости, а у нас ещё ничего не готово, и стол не накрыт.',
+        correct: 'Para las cinco habrán llegado los invitados y nosotros todavía no tenemos nada preparado y la mesa no está puesta.',
+        alternatives: []
+      },
+      {
+        russian: '4. Антонио опаздывает, наверное, с ним что-то случилось. Может быть, у него сломалась машина.',
+        correct: 'Antonio se está retrasando, algo le habrá pasado. A lo mejor se le habrá averiado el coche.',
+        alternatives: ['Antonio llega tarde; algo le habrá ocurrido. Quizás se le habrá estropeado el coche.']
+      },
+      {
+        russian: '5. Ты всё время очень занят, когда ты будешь свободен и пригласишь, наконец, меня в кино, я уже посмотрю этот фильм.',
+        correct: 'Siempre estás muy ocupado. Cuando por fin tengas tiempo y me invites al cine, yo ya habré visto esa película.',
+        alternatives: []
+      },
+      {
+        russian: '6. Когда архитектор предложит свой «необыкновенный» проект, мы уже построим дом.',
+        correct: 'Cuando el arquitecto presente su "extraordinario" proyecto, ya habremos construido la casa.',
+        alternatives: []
+      },
+      {
+        russian: '7. Все дороги занесены снегом, в городе огромные пробки, и, когда мы доберёмся до аэропорта, самолёт уже улетит.',
+        correct: 'Todas las carreteras están cubiertas de nieve, hay un atasco enorme en la ciudad, y cuando lleguemos al aeropuerto, el avión ya habrá despegado / habrá salido.',
+        alternatives: []
+      },
+      {
+        russian: '8. К концу месяца будут приняты меры для социально и экологически целесообразного развития нашего города.',
+        correct: 'Para finales de mes se habrán tomado medidas para el desarrollo social y ecológicamente sostenible de nuestra ciudad.',
+        alternatives: []
+      },
+      {
+        russian: '9. Неужели ты ещё не отправил свои документы в отдел кадров? — Нет, потому что я ещё не подготовил сопроводительное письмо, но постараюсь сделать это сегодня же. — Когда ты его напишешь, на это место уже возьмут другого кандидата.',
+        correct: '¿Todavía no has enviado tus documentos al departamento de recursos humanos? — No, porque todavía no he preparado la carta de presentación, pero haré todo lo posible por hacerlo hoy mismo. — Cuando la escribas, ya habrán contratado a otro candidato para ese puesto.',
+        alternatives: []
+      },
+      {
+        russian: '10. Мария в последнее время просто светится от счастья! — Неужели ей выплатили гонорар? А может быть, её повысили в должности?',
+        correct: '¡Últimamente María está radiante de felicidad! — ¿Le habrán pagado los honorarios? ¿O la habrán ascendido?',
+        alternatives: []
+      },
+      {
+        russian: '11. Когда закончится фильм, все уже разойдутся по домам.',
+        correct: 'Cuando termine la película, todos ya se habrán ido a casa.',
+        alternatives: []
+      },
+      {
+        russian: '12. К следующему году они закончат ремонт в квартире.',
+        correct: 'Para el año que viene habrán terminado las reformas en el apartamento.',
+        alternatives: ['Para el año próximo habrán acabado la reforma del piso.']
+      },
+      {
+        russian: '13. Наверное, он уже уснул — свет в его комнате выключен.',
+        correct: 'Se habrá dormido — la luz de su habitación está apagada.',
+        alternatives: []
+      },
+      {
+        russian: '14. Посмотри, как похудела Ана! Наверное, начала диету.',
+        correct: '¡Mira qué delgada está Ana! Habrá empezado una dieta.',
+        alternatives: []
+      },
+      {
+        russian: '15. К тому времени, как ты доедешь, мы уже всё уберём.',
+        correct: 'Para cuando llegues, ya habremos recogido todo.',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-15-1-4': {
+    id: 'ex-15-1-4',
+    type: 'translation',
+    title: 'Упражнение 4. Traduzca al español',
+    description: 'Переведите предложения на испанский язык, используя Futuro compuesto (модальное значение — вероятность/предположение о прошлом).',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Члены сборной страны, видимо, уже знают об отъезде соперников.',
+        correct: 'Los miembros de la selección nacional ya habrán sabido de la partida de sus rivales.',
+        alternatives: ['Los deportistas de la selección ya se habrán enterado de la salida de sus adversarios.']
+      },
+      {
+        russian: '2. Она сейчас, очевидно, плавает в Карибском море или на каких-нибудь островах.',
+        correct: 'Ahora estará nadando en el mar Caribe o en alguna isla. [Futuro Simple — предположение о настоящем действии]',
+        alternatives: []
+      },
+      {
+        russian: '3. Никто не отвечает на мой звонок, видимо, все ушли.',
+        correct: 'Nadie contesta al teléfono, todos se habrán ido.',
+        alternatives: ['Nadie coge el teléfono, se habrán marchado todos.']
+      },
+      {
+        russian: '4. Где может быть сейчас Моника? — Должно быть, ушла в университет, наверное, сегодня экзамен.',
+        correct: '¿Dónde puede estar ahora Mónica? — Se habrá ido a la universidad, hoy habrá examen.',
+        alternatives: []
+      },
+      {
+        russian: '5. В котором часу он вошёл в спортивный зал? — Когда он вошёл, было часа два.',
+        correct: '¿A qué hora entró en el gimnasio? — Cuando entró, serían las dos. [Condicional Simple — предположение о прошедшем времени]',
+        alternatives: []
+      },
+      {
+        russian: '6. Я не знаю, поехал ли он сразу в аэропорт или заехал к Педро.',
+        correct: 'No sé si habrá ido directamente al aeropuerto o si habrá pasado por casa de Pedro.',
+        alternatives: []
+      },
+      {
+        russian: '7. Решение этой задачи для него, видимо, было вопросом жизни или смерти.',
+        correct: 'La resolución de ese problema habrá sido para él una cuestión de vida o muerte.',
+        alternatives: []
+      },
+      {
+        russian: '8. Он, вероятно, извлёк хорошую выгоду из всего сделанного. — Наверное, так оно и было, он достаточно практичный!',
+        correct: 'Habrá sacado buen partido de todo lo que hizo. — Habrá sido así, ¡es bastante práctico!',
+        alternatives: []
+      },
+      {
+        russian: '9. Вероятно, любые физические упражнения оказались очень полезны для здоровья.',
+        correct: 'Seguramente cualquier ejercicio físico habrá resultado muy beneficioso para la salud.',
+        alternatives: ['Probablemente cualquier actividad física habrá sido muy útil para la salud.']
+      },
+      {
+        russian: '10. Тебе, наверное, больше понравился футбол, а мне гольф.',
+        correct: 'A ti te habrá gustado más el fútbol, y a mí el golf.',
+        alternatives: []
+      },
+      {
+        russian: '11. Он долго тренировался сегодня утром? — Он ушёл, наверное, в полдень.',
+        correct: '¿Entrenó mucho esta mañana? — Se habrá ido al mediodía.',
+        alternatives: []
+      },
+      {
+        russian: '12. Прежде чем заниматься этим вопросом, ей надо всё хорошо обдумать. — Она это обдумала, наверное, сто раз.',
+        correct: 'Antes de ocuparse de este asunto, tendrá que pensarlo bien. — Lo habrá pensado cien veces.',
+        alternatives: []
+      },
+      {
+        russian: '13. Малыш, видимо, упал по твоей вине.',
+        correct: 'El niño se habrá caído por tu culpa.',
+        alternatives: []
+      },
+      {
+        russian: '14. А чья может быть эта книга? — Наверное, моя.',
+        correct: '¿De quién puede ser este libro? — Será mío. [Futuro Simple — предположение о настоящем факте]',
+        alternatives: []
+      },
+      {
+        russian: '15. Они никогда, видимо, не встречались, но, безусловно, слышали друг о друге.',
+        correct: 'Seguramente nunca se habrán conocido en persona, pero sin duda habrán oído hablar el uno del otro.',
+        alternatives: []
+      },
+      {
+        russian: '16. Итак, вероятно, мы проанализировали всё, связанное с этой проблемой.',
+        correct: 'Así pues, probablemente habremos analizado todo lo relacionado con este problema.',
+        alternatives: []
+      },
+      {
+        russian: '17. Они, видимо, действовали, как все.',
+        correct: 'Seguramente habrán actuado como todo el mundo.',
+        alternatives: []
+      },
+      {
+        russian: '18. Эта информация, видимо, была им очень полезна.',
+        correct: 'Esta información les habrá resultado muy útil.',
+        alternatives: []
+      },
+      {
+        russian: '19. Наверное, это именно то, что определило поведение этих юношей.',
+        correct: 'Habrá sido precisamente eso lo que determinó el comportamiento de estos jóvenes.',
+        alternatives: []
+      },
+      {
+        russian: '20. Она, скорее всего, была с детства очень способна к музыке. Ведь она стала победителем международного конкурса в 12 лет.',
+        correct: 'Desde pequeña habrá tenido mucho talento para la música. Es que se convirtió en ganadora de un concurso internacional con solo 12 años.',
+        alternatives: []
       }
     ]
   }
