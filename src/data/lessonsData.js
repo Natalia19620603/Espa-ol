@@ -104,8 +104,8 @@ export const modules = {
     id: 'module-15',
     title: 'Модуль 15: MUNDO LATINO',
     level: 'intermediate',
-    lessons: ['lesson-15-1'],
-    description: '1 Futuro compuesto (будущее сложное время): временное и модальное значение'
+    lessons: ['lesson-15-1', 'lesson-15-2'],
+    description: '1 Futuro compuesto (будущее сложное время): временное и модальное значение. 2 Potencial Compuesto (Condicional Compuesto): сожаление о прошлом, будущее в прошлом, догадка о далёком прошлом'
   },
   'module-8': {
     id: 'module-8',
@@ -20212,7 +20212,156 @@ Futuro compuesto используется для **предположения о
         }
       ]
     },
+    vocabulary: [
+      { word: 'hemisferio m', translation: 'полушарие', audioUrl: null },
+      { word: 'boreal (hemisferio)', translation: 'северное (полушарие)', audioUrl: null },
+      { word: 'austral (hemisferio)', translation: 'южное (полушарие)', audioUrl: null },
+      { word: 'puntos cardinales', translation: 'стороны света', audioUrl: null },
+      { word: 'norte m', translation: 'север', audioUrl: null },
+      { word: 'sur m', translation: 'юг', audioUrl: null },
+      { word: 'este m', translation: 'восток', audioUrl: null },
+      { word: 'oeste m', translation: 'запад', audioUrl: null },
+      { word: 'oriental', translation: 'восточный', audioUrl: null },
+      { word: 'occidental', translation: 'западный', audioUrl: null },
+      { word: 'océano m', translation: 'океан', audioUrl: null },
+      { word: 'mar m', translation: 'море', audioUrl: null },
+      { word: 'golfo m', translation: 'залив', audioUrl: null },
+      { word: 'río m', translation: 'река', audioUrl: null },
+      { word: 'caudaloso', translation: 'полноводный', audioUrl: null },
+      { word: 'lago m', translation: 'озеро', audioUrl: null },
+      { word: 'estrecho m', translation: 'пролив', audioUrl: null },
+      { word: 'pantano m', translation: 'болото', audioUrl: null },
+      { word: 'llanura f / planicie f', translation: 'равнина', audioUrl: null },
+      { word: 'meseta f / altiplanicie f', translation: 'плоскогорье / плато', audioUrl: null },
+      { word: 'desierto m', translation: 'пустыня', audioUrl: null },
+      { word: 'cordillera f', translation: 'горная гряда', audioUrl: null },
+      { word: 'longitud f', translation: 'протяжённость', audioUrl: null },
+      { word: 'área f / superficie f', translation: 'площадь', audioUrl: null }
+    ],
     exercises: ['ex-15-1-1', 'ex-15-1-2', 'ex-15-1-3', 'ex-15-1-4']
+  },
+
+  'lesson-15-2': {
+    id: 'lesson-15-2',
+    title: 'Урок 2: Potencial Compuesto (Condicional Compuesto)',
+    moduleId: 'module-15',
+    grammar: {
+      title: 'Potencial Compuesto (Condicional Compuesto)',
+      intro: `**Potencial Compuesto** (или **Condicional Compuesto**) — это форма, которая переносит условие и его результат в прошлое. Если **Condicional Simple** — это «я бы сделал *(сейчас или в будущем)*», то **Condicional Compuesto** — это «я бы сделал *(тогда, но не сделал — момент упущен)*».`,
+      sections: [
+        {
+          id: 'condicional-compuesto-formacion',
+          title: '1. Как строится',
+          content: `## 1. Как строится (Formación)
+
+**Condicional Compuesto** образуется по формуле:
+
+> **haber** (в Condicional Simple) + **participio** (причастие прошедшего времени)
+
+### Таблица спряжения (пример: *comer*)
+
+| Лицо | Haber (Condicional) | Причастие |
+|------|---------------------|-----------|
+| **Yo** | habría | comido |
+| **Tú** | habrías | comido |
+| **Él / Ella** | habría | comido |
+| **Nosotros/-as** | habríamos | comido |
+| **Vosotros/-as** | habríais | comido |
+| **Ellos / Ellas** | habrían | comido |
+
+### Причастие — нерегулярные формы
+
+| Инфинитив | Причастие | Condicional Compuesto (yo) |
+|-----------|-----------|---------------------------|
+| hacer | **hecho** | habría hecho |
+| decir | **dicho** | habría dicho |
+| escribir | **escrito** | habría escrito |
+| poner | **puesto** | habría puesto |
+| volver | **vuelto** | habría vuelto |
+| ver | **visto** | habría visto |
+| abrir | **abierto** | habría abierto |
+| romper | **roto** | habría roto |
+
+> **NB!** Причастие всегда **неизменяемо** — всегда оканчивается на **-o**.`
+        },
+        {
+          id: 'condicional-compuesto-usos',
+          title: '2. Три основных случая использования',
+          content: `## 2. Три основных случая использования
+
+### А. Сожаление о прошлом (Несбывшееся «бы»)
+
+Действие, которое **могло произойти**, но **момент упущен** — уже невозможно его осуществить. Часто рядом есть союз **pero** (но) или **si** (если бы).
+
+| Испанский | Русский |
+|-----------|---------|
+| *Te **habría llamado**, pero no tenía batería.* | Я бы [тогда] тебе позвонил, но у меня сел телефон. |
+| ***Habríamos ido** a la fiesta, pero estábamos cansados.* | Мы бы пошли на вечеринку, но были уставшими. |
+| *Si **hubiera tenido** dinero, **habría comprado** el coche.* | Если бы у меня были деньги, я бы купил машину. |
+
+---
+
+### Б. Будущее в прошлом (Косвенная речь)
+
+Когда мы передаём в прошедшем времени **чьё-то высказывание о будущем**, которое к ещё более позднему моменту должно было **завершиться**.
+
+| Испанский | Русский |
+|-----------|---------|
+| *Dijo que para las cinco ya **habría terminado**.* | Он сказал, что к пяти часам уже закончит. |
+| *Pensé que ya **habríais comido**.* | Я думал, что вы уже [к тому моменту] поедите. |
+| *Prometió que para el lunes **habrían entregado** el informe.* | Он обещал, что к понедельнику они уже сдадут отчёт. |
+
+---
+
+### В. Догадка о далёком прошлом
+
+Когда мы **предполагаем**, что что-то произошло когда-то **в прошлом** (аналог Condicional Simple, но для завершённого действия). На русский переводится: **«наверное», «должно быть», «видимо»**.
+
+| Испанский | Русский |
+|-----------|---------|
+| *¿Por qué no vino Ana? — **Habría tenido** algún problema.* | Почему Ана не пришла? — Наверное, у неё возникла какая-то проблема. |
+| ***Habrían sido** las tres cuando llegamos.* | Должно быть, было часа три, когда мы приехали. |
+| *No la vi. **Se habría ido** ya a casa.* | Я её не видел. Наверное, она уже ушла домой. |`
+        },
+        {
+          id: 'condicional-compuesto-comparacion',
+          title: '3. Сравнение для закрепления',
+          content: `## 3. Сравнение для закрепления
+
+### Condicional Simple vs. Condicional Compuesto
+
+| Форма | Смысл | Пример |
+|-------|-------|--------|
+| **Condicional Simple** | «Я бы поел» *(сейчас / в будущем)* | *Comería si tuviera hambre.* — Я бы поел, если бы был голоден. |
+| **Condicional Compuesto** | «Я бы [тогда] поел» *(момент упущен)* | *Habría comido si hubiera habido comida.* — Я бы поел, если бы была еда. |
+
+---
+
+### Все три «времени вероятности/предположения»
+
+| Время | О чём предположение | Пример |
+|-------|---------------------|--------|
+| **Futuro Simple** | О настоящем | *Serán las tres.* — Сейчас, наверное, три часа. |
+| **Futuro Compuesto** | О недавнем прошлом | *Habrá salido.* — Наверное, вышла (только что). |
+| **Condicional Simple** | О прошлом (простое) | *Serían las tres cuando llegaron.* — Было, наверное, три часа, когда они приехали. |
+| **Condicional Compuesto** | О прошлом (завершённое) | *Habría salido ya.* — Наверное, уже ушла (к тому моменту). |
+
+---
+
+### Схема: если главный глагол в прошлом
+
+\`\`\`
+Главный глагол в ПРОШЛОМ → Condicional Compuesto в придаточном:
+
+  Prometió que...
+    ...para el viernes → habría terminado (завершённость к сроку)
+
+  Si + Pluscuamperfecto de Subjuntivo:
+    Si hubiera estudiado más → habría aprobado (несбывшееся условие)
+\`\`\``
+        }
+      ]
+    }
   },
 
   'lesson-14-1': {
@@ -49631,97 +49780,97 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-14-3-3',
     type: 'subjunctive',
     title: 'Упражнение 3. Выберите правильную конструкцию',
-    description: 'Выберите правильный вариант — como + Indicativo/Subjuntivo, como si, sin que или sin + Infinitivo.',
+    description: 'Выберите правильный вариант — como + Indicativo/Subjuntivo, como si + Subjuntivo, sin + Infinitivo или sin que + Subjuntivo.',
     questions: [
       {
-        text: 'Lo hice ___ me dijiste. (реальное завершённое действие)',
-        options: ['como me dijiste', 'como si me dijeras', 'sin que me dijeras', 'para que me dijeras'],
-        correct: 0,
-        explanation: 'como + Indicativo (Indefinido) — действие реальное, уже произошло. "Я сделал это так, как ты мне сказал."'
-      },
-      {
-        text: 'Hazlo ___ quieras. (гипотетическое, на выбор говорящего)',
-        options: ['para que lo hagas', 'como quieras', 'sin que quieras', 'como si quisieras'],
+        text: 'Haz el ejercicio ___. No hay una forma correcta o incorrecta de realizarlo, tú decides.',
+        options: ['como quieres', 'como quieras', 'como si quisieras', 'sin querer'],
         correct: 1,
-        explanation: 'como + Presente de Subjuntivo — действие в будущем / гипотетическое. "Сделай так, как хочешь."'
+        explanation: 'como + Presente de Subjuntivo → свободный выбор / гипотетическое. "Делай упражнение так, как хочешь." como quieres — реальный факт; como si quisieras — нереальное сравнение.'
       },
       {
-        text: '¿Qué naclonamiento requiere siempre la construcción "como si"?',
-        options: ['Indicativo en cualquier tiempo', 'Futuro de Indicativo', 'Subjuntivo (Imperfecto o Pluscuamperfecto)', 'Infinitivo compuesto'],
+        text: 'El niño salió al jardín ___ en ningún momento, para no despertar a sus padres, que dormían la siesta.',
+        options: ['sin que hiciera ruido', 'sin hacer ruido', 'como si hiciera ruido', 'como hacía ruido'],
+        correct: 1,
+        explanation: 'Одно подлежащее (el niño) → sin + Infinitivo. "Мальчик вышел в сад, не издав ни звука." Sin que + Subj. нужно только при разных подлежащих.'
+      },
+      {
+        text: 'Los vecinos llegaron a la reunión del barrio ___, aunque en el cartel ponía claramente que era sólo para residentes del edificio.',
+        options: ['sin invitarlos', 'como si los invitaran', 'sin que nadie los invitara', 'como los invitaban'],
         correct: 2,
-        explanation: 'Después de como si sólo se usa Imperfecto de Subjuntivo (одновременность) o Pluscuamperfecto de Subjuntivo (предшествование). Никогда — Indicativo.'
+        explanation: 'Разные подлежащие (los vecinos / nadie) → sin que + Imperfecto de Subjuntivo. "Соседи пришли на встречу, хотя никто их не приглашал."'
       },
       {
-        text: 'Salió de casa ___ decir nada a su familia. (одно подлежащее)',
-        options: ['sin que', 'para que', 'como si', 'sin'],
+        text: 'Pedro habla español con una fluidez y una naturalidad increíbles, ___ hispanohablante nativo, aunque en realidad es ruso.',
+        options: ['como si fuera', 'como que es', 'como es', 'sin ser'],
+        correct: 0,
+        explanation: 'como si + Imperfecto de Subjuntivo → нереальное сравнение. "Педро говорит по-испански с удивительной беглостью, как будто является носителем языка." После como si — всегда Subjuntivo.'
+      },
+      {
+        text: 'Mañana es fiesta. Ven a cenar con nosotros y trae el postre ___, no hace falta que sea nada especial ni caro.',
+        options: ['como quieres', 'como si quisieras', 'sin querer', 'como quieras'],
         correct: 3,
-        explanation: 'Одно подлежащее → sin + Infinitivo. "Он вышел из дома, не сказав ничего своей семье." Если бы подлежащие были разные, нужно было бы sin que + Subjuntivo.'
+        explanation: 'como + Presente de Subjuntivo → свободный выбор / будущее гипотетическое. "Принеси десерт какой захочешь." como quieres — реальный факт в настоящем, здесь же — выбор в будущем.'
       },
       {
-        text: 'Salió ___ nadie lo viera. (разные подлежащие)',
-        options: ['sin', 'para', 'sin que', 'como si'],
-        correct: 2,
-        explanation: 'Разные подлежащие (он / nadie) → sin que + Subjuntivo. "Он вышел так, что никто его не видел."'
-      },
-      {
-        text: 'Se comporta como si no me ___ nunca. (conocer — одновременность с настоящим)',
-        options: ['conoce', 'conociera', 'conocerá', 'ha conocido'],
+        text: 'La presidenta del comité entró en la sala de reuniones ___ a la puerta, lo que causó bastante sorpresa entre todos los asistentes.',
+        options: ['sin que llamara', 'sin llamar', 'como si llamara', 'como llamaba'],
         correct: 1,
-        explanation: 'como si + Imperfecto de Subjuntivo — нереальное сравнение, одновременное с настоящим. "Ведёт себя, будто никогда меня не знал."'
+        explanation: 'Одно подлежащее (la presidenta) → sin + Infinitivo. "Председатель вошла в зал, не постучав." sin que + Subj. нужно только при разных подлежащих.'
       },
       {
-        text: 'Habla del medio ambiente ___ experto. (нереальное сравнение)',
-        options: ['como si fuera', 'como que es', 'como si es', 'como fuera'],
+        text: 'Después de cinco años sin vernos, mi antigua compañera de trabajo me saludó ___ de toda la vida, con una sonrisa enorme y mucho cariño.',
+        options: ['como me conoce', 'sin que me conociera', 'como si me conociera', 'para que me conociera'],
+        correct: 2,
+        explanation: 'como si + Imperfecto de Subjuntivo → нереальное сравнение, одновременность. "Она поздоровалась со мной, как будто знает меня всю жизнь." Реальность такова, что мы давно не виделись.'
+      },
+      {
+        text: 'En aquella empresa pasaban meses y años ___ la dirección (reconocer) el esfuerzo de los empleados ni (mejorar) sus condiciones laborales.',
+        options: ['sin reconocer la dirección el esfuerzo', 'como si la dirección reconociera el esfuerzo', 'sin que la dirección reconociera el esfuerzo', 'como la dirección reconocía el esfuerzo'],
+        correct: 2,
+        explanation: 'Разные подлежащие (meses / la dirección) → sin que + Imperfecto de Subjuntivo. "Шли месяцы и годы, а руководство не признавало усилий сотрудников."'
+      },
+      {
+        text: 'El equipo ejecutó el proyecto ___ previamente el director de operaciones: dentro del plazo establecido y sin sobrepasar el presupuesto.',
+        options: ['como si hubiera indicado', 'sin que hubiera indicado', 'sin haber indicado', 'como había indicado'],
+        correct: 3,
+        explanation: 'como + Indicativo (Pluscuamperfecto) → реальное прошедшее действие. "Команда выполнила проект так, как указал директор." Это реальный факт, а не предположение, поэтому — Indicativo.'
+      },
+      {
+        text: 'El constructor siguió adelante con las obras ___ en absoluto el impacto medioambiental de su proyecto en la zona protegida.',
+        options: ['sin tener en cuenta', 'sin que tuviera en cuenta', 'como si tuviera en cuenta', 'como tenía en cuenta'],
         correct: 0,
-        explanation: 'como si + Imperfecto de Subjuntivo. "Говорит об окружающей среде, как будто он специалист." После como si всегда Subjuntivo, никогда Indicativo.'
+        explanation: 'Одно подлежащее (el constructor) → sin + Infinitivo. "Строитель продолжал работы, совершенно не принимая во внимание воздействие на окружающую среду."'
       },
       {
-        text: 'Haz el informe ___ mejor. (poder, tú — будущее / гипотетическое)',
-        options: ['como puedas', 'como puedes', 'como podías', 'como podrás'],
+        text: 'La empresa reestructuró toda la plantilla ___ antes con los trabajadores afectados, lo que generó un gran malestar y protestas.',
+        options: ['como consultara', 'sin que consultara', 'como si consultara', 'sin consultar'],
+        correct: 3,
+        explanation: 'Одно подлежащее (la empresa) → sin + Infinitivo. "Компания реструктурировала весь штат, не посоветовавшись с сотрудниками." sin que + Subj. нужно при разных подлежащих.'
+      },
+      {
+        text: 'A pesar de haber cocinado toda la semana para la boda de su nieta, la abuela se puso a preparar el desayuno del domingo ___, cantando y tarareando canciones.',
+        options: ['como si no hubiera cocinado en toda su vida', 'sin haber cocinado nunca', 'como no ha cocinado', 'sin que hubiera cocinado'],
         correct: 0,
-        explanation: 'como + Presente de Subjuntivo — действие гипотетическое, будущее. "Составь отчёт так, как только сможешь."'
+        explanation: 'como si + Pluscuamperfecto de Subjuntivo → нереальное сравнение с прошлым. "Бабушка готовила, как будто в жизни своей не готовила." Действие в придаточном предшествует прошлому.'
       },
       {
-        text: 'Pasaban meses ___ el jefe (subirme) el salario.',
-        options: ['sin que me subiera', 'sin subirme', 'como si me subiera', 'para que me subiera'],
-        correct: 0,
-        explanation: 'sin que + Imperfecto de Subjuntivo — разные подлежащие (meses / jefe), прошедшее, повторяющееся действие. "Проходили месяцы, а начальник не повышал мне зарплату."'
-      },
-      {
-        text: 'El turista visitó el parque natural ___ (leer) el mapa. (одно подлежащее)',
-        options: ['sin que leyera', 'sin leer', 'como si leyera', 'para leer'],
-        correct: 1,
-        explanation: 'Одно подлежащее (el turista) → sin + Infinitivo. "Турист посетил заповедник, не читая карту."'
-      },
-      {
-        text: 'La deforestación avanza ___ los gobiernos (actuar) en serio.',
-        options: ['como si actuaran', 'sin que actúen', 'sin actuar', 'para que actúen'],
-        correct: 1,
-        explanation: 'sin que + Presente de Subjuntivo — разные подлежащие (la deforestación / los gobiernos). "Вырубка лесов продолжается, а правительства не принимают реальных мер."'
-      },
-      {
-        text: 'Me miró ___ por primera vez. (verme — нереальное сравнение с прошлым)',
-        options: ['como me vio', 'sin que me viera', 'como si me viera', 'para que me viera'],
+        text: 'Es sorprendente que el candidato haya superado todas las pruebas de selección ___ absolutamente nada para el puesto que solicitaba.',
+        options: ['como si hubiera estudiado', 'sin que hubiera estudiado', 'sin haber estudiado', 'como hubiera estudiado'],
         correct: 2,
-        explanation: 'como si + Imperfecto de Subjuntivo — нереальное сравнение. "Он посмотрел на меня, будто видит впервые."'
+        explanation: 'Одно подлежащее → sin + Infinitivo compuesto (haber + participio). "Удивительно, что кандидат прошёл все испытания, не подготовившись абсолютно ни к чему."'
       },
       {
-        text: 'Puedes decorar tu habitación ___ (querer, tú). (на твой выбор)',
-        options: ['como quieres', 'como querías', 'como quieras', 'como querrás'],
-        correct: 2,
-        explanation: 'como + Presente de Subjuntivo — свободный выбор, гипотетическое. "Можешь украсить свою комнату так, как хочешь."'
+        text: 'En la conferencia, la ministra habló de sostenibilidad y de la importancia de proteger la biodiversidad ___ en la materia, citando datos y proponiendo medidas concretas.',
+        options: ['como que era experta', 'sin que fuera experta', 'sin serlo', 'como si fuera una experta reconocida'],
+        correct: 3,
+        explanation: 'como si + Imperfecto de Subjuntivo → нереальное сравнение. "Министр говорила, как будто была признанным экспертом." После como si — только Subjuntivo.'
       },
       {
-        text: 'Habló ___ (estudiar) toda la vida el tema del cambio climático. (предшествование)',
-        options: ['para que hubiera estudiado', 'como si hubiera estudiado', 'sin que hubiera estudiado', 'como hubiera estudiado'],
+        text: 'Al terminar su largo discurso, el político abandonó el escenario ___ del público que le había aplaudido durante más de diez minutos, lo cual nos pareció una grosería.',
+        options: ['sin que se despidiera', 'sin despedirse', 'como si se despidiera', 'como se despedía'],
         correct: 1,
-        explanation: 'como si + Pluscuamperfecto de Subjuntivo — действие в придаточном предшествует прошлому. "Он говорил, как будто всю жизнь изучал тему изменения климата."'
-      },
-      {
-        text: 'El consumo de recursos naturales aumenta ___ la sociedad (preocuparse).',
-        options: ['sin preocuparse', 'para que se preocupe', 'sin que la sociedad se preocupe', 'como si se preocupara'],
-        correct: 2,
-        explanation: 'sin que + Presente de Subjuntivo — разные подлежащие (el consumo / la sociedad). "Потребление природных ресурсов растёт, а общество не беспокоится."'
+        explanation: 'Одно подлежащее (el político) → sin + Infinitivo. "Политик покинул сцену, не попрощавшись с публикой." sin que + Subj. нужно при разных подлежащих.'
       }
     ]
   },
