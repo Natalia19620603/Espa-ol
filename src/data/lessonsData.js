@@ -20361,7 +20361,8 @@ Futuro compuesto используется для **предположения о
 \`\`\``
         }
       ]
-    }
+    },
+    exercises: ['ex-15-2-1', 'ex-15-2-2', 'ex-15-2-3']
   },
 
   'lesson-14-1': {
@@ -50240,6 +50241,265 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: '20. Она, скорее всего, была с детства очень способна к музыке. Ведь она стала победителем международного конкурса в 12 лет.',
         correct: 'Desde pequeña habrá tenido mucho talento para la música. Es que se convirtió en ganadora de un concurso internacional con solo 12 años.',
         alternatives: []
+      }
+    ]
+  },
+
+  // =============================================
+  // МОДУЛЬ 15: УРОК 2 — CONDICIONAL COMPUESTO
+  // =============================================
+
+  'ex-15-2-1': {
+    id: 'ex-15-2-1',
+    type: 'translation',
+    title: 'Упражнение 1. Трансформируйте прямую речь в косвенную',
+    description: 'Перепишите предложения, переводя прямую речь в косвенную по образцу: "Cuando llegue el jefe nosotros habremos hecho todo el trabajo." → Los amigos me aseguraron que cuando llegara el jefe ellos habrían hecho todo el trabajo.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. "Para el año 2020 habremos instalado paneles solares en los tejados de las casas." Las autoridades confirmaron que… →',
+        correct: 'Las autoridades confirmaron que para el año 2020 habrían instalado paneles solares en los tejados de las casas. [Futuro compuesto → Condicional compuesto; no hay cambio de sujeto]',
+        alternatives: []
+      },
+      {
+        russian: '2. "Estás tan morena, habrás descansado en las islas Canarias." Los amigos me dijeron que… →',
+        correct: 'Los amigos me dijeron que estaba tan morena que habría descansado en las islas Canarias. [Presente Ind. → Imperfecto; Futuro compuesto → Condicional compuesto]',
+        alternatives: []
+      },
+      {
+        russian: '3. "Cuando llegue la ambulancia el paciente habrá muerto." El médico pensó que… →',
+        correct: 'El médico pensó que cuando llegara la ambulancia el paciente habría muerto. [llegue → llegara (Pres. Subj. → Imperf. Subj.); habrá muerto → habría muerto]',
+        alternatives: []
+      },
+      {
+        russian: '4. "El inquilino tiene salario garantizado, lo habrán incorporado a la plantilla de inmediato." La vecina comentó que… →',
+        correct: 'La vecina comentó que el inquilino tenía salario garantizado y que lo habrían incorporado a la plantilla de inmediato. [tiene → tenía; habrán → habrían]',
+        alternatives: []
+      },
+      {
+        russian: '5. "Para las diez de la noche habrá terminado el espectáculo y cenaremos en un restaurante." Pablo me dijo que… →',
+        correct: 'Pablo me dijo que para las diez de la noche habría terminado el espectáculo y que cenarían en un restaurante. [habrá terminado → habría terminado; cenaremos → cenarían]',
+        alternatives: []
+      },
+      {
+        russian: '6. "Nuestro jefe no irá a los EE UU, le habrán denegado el visado." La secretaria comunicó que… →',
+        correct: 'La secretaria comunicó que su jefe no iría a los EE UU, que le habrían denegado el visado. [irá → iría; habrán denegado → habrían denegado]',
+        alternatives: []
+      },
+      {
+        russian: '7. "Cuando tengamos que pagar el alquiler ya habré cobrado la remuneración." El marido aseguró que… →',
+        correct: 'El marido aseguró que cuando tuvieran que pagar el alquiler ya habría cobrado la remuneración. [tengamos → tuvieran (Pres. Subj. → Imperf. Subj.); habré → habría]',
+        alternatives: []
+      },
+      {
+        russian: '8. "Ana está en buena forma, se habrá apuntado a clases de yoga." Las amigas supusieron que… →',
+        correct: 'Las amigas supusieron que Ana estaba en buena forma y que se habría apuntado a clases de yoga. [está → estaba; habrá apuntado → habría apuntado]',
+        alternatives: []
+      },
+      {
+        russian: '9. "Juan tiene dolor abdominal y vomita sin parar, habrá comido pescado echado a perder." Mamá dijo que… →',
+        correct: 'Mamá dijo que Juan tenía dolor abdominal y vomitaba sin parar, y que habría comido pescado echado a perder. [tiene → tenía; vomita → vomitaba; habrá comido → habría comido]',
+        alternatives: []
+      },
+      {
+        russian: '10. "Cuando yo concluya la carrera universitaria, mi padre se habrá jubilado." Pensé que… →',
+        correct: 'Pensé que cuando yo concluyera la carrera universitaria, mi padre se habría jubilado. [concluya → concluyera (Pres. Subj. → Imperf. Subj.); habrá jubilado → habría jubilado]',
+        alternatives: []
+      },
+      {
+        russian: '11. "Para las tres ya habremos llegado al aeropuerto." Carla me prometió que… →',
+        correct: 'Carla me prometió que para las tres ya habrían llegado al aeropuerto. [habremos llegado → habrían llegado]',
+        alternatives: []
+      },
+      {
+        russian: '12. "El cliente no ha venido a la reunión, habrá olvidado la cita." El director supuso que… →',
+        correct: 'El director supuso que el cliente no había venido a la reunión y que habría olvidado la cita. [no ha venido → no había venido; habrá olvidado → habría olvidado]',
+        alternatives: []
+      },
+      {
+        russian: '13. "Cuando empiece el partido ya habrán ocupado todos los asientos del estadio." El locutor advirtió que… →',
+        correct: 'El locutor advirtió que cuando empezara el partido ya habrían ocupado todos los asientos del estadio. [empiece → empezara; habrán ocupado → habrían ocupado]',
+        alternatives: []
+      },
+      {
+        russian: '14. "El candidato está muy nervioso, no habrá preparado bien la entrevista." La directora de RRHH pensó que… →',
+        correct: 'La directora de RRHH pensó que el candidato estaba muy nervioso y que no habría preparado bien la entrevista. [está → estaba; habrá preparado → habría preparado]',
+        alternatives: []
+      },
+      {
+        russian: '15. "Para cuando volvamos de vacaciones ya habrán terminado las obras en nuestra calle." Esperábamos que… →',
+        correct: 'Esperábamos que para cuando volviéramos de vacaciones ya habrían terminado las obras en nuestra calle. [volvamos → volviéramos; habrán terminado → habrían terminado]',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-15-2-2': {
+    id: 'ex-15-2-2',
+    type: 'translation',
+    title: 'Упражнение 2. Поставьте глаголы в Condicional Simple или Compuesto',
+    description: 'Раскройте скобки, поставив глаголы в Condicional Simple или Condicional Compuesto, и переведите предложения на русский язык.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Enrique Ramos empezó a practicar el boxeo cuando (tener, él) doce años.',
+        correct: 'Enrique Ramos empezó a practicar el boxeo cuando tendría doce años. [Condicional Simple — догадка о прошлом, простое действие] — Энрике Рамос начал заниматься боксом, когда ему было, наверное, двенадцать лет.',
+        alternatives: []
+      },
+      {
+        russian: '2. La abuela pensó que vosotros (almorzar) en la universidad porque os habíais negado a comer en casa.',
+        correct: 'La abuela pensó que vosotros almorzaríais en la universidad porque os habíais negado a comer en casa. [Condicional Simple — будущее в прошлом, одновременность] — Бабушка думала, что вы пообедаете в университете, поскольку отказались есть дома.',
+        alternatives: []
+      },
+      {
+        russian: '3. Yo (venir) a verte ayer pero no tenía apuntada tu dirección.',
+        correct: 'Yo habría venido a verte ayer pero no tenía apuntada tu dirección. [Condicional Compuesto — сожаление о прошлом] — Я бы вчера пришёл к тебе, но у меня не был записан твой адрес.',
+        alternatives: []
+      },
+      {
+        russian: '4. Con mucho gusto (tomar, nosotros) café contigo y (charlar) un rato, pero no disponemos de tiempo.',
+        correct: 'Con mucho gusto tomaríamos café contigo y charlaríamos un rato, pero no disponemos de tiempo. [Condicional Simple — сожаление о настоящем] — С большим удовольствием мы бы выпили с тобой кофе и поболтали, но у нас нет времени.',
+        alternatives: []
+      },
+      {
+        russian: '5. Carlos me aseguró que para el viernes (discutir, él) mi solicitud con el jefe de personal.',
+        correct: 'Carlos me aseguró que para el viernes habría discutido mi solicitud con el jefe de personal. [Condicional Compuesto — будущее в прошлом, завершённость к сроку] — Карлос заверил меня, что к пятнице обсудит мою заявку с начальником отдела кадров.',
+        alternatives: []
+      },
+      {
+        russian: '6. No sabíamos a qué hora (salir) el último autobús interurbano.',
+        correct: 'No sabíamos a qué hora saldría el último autobús interurbano. [Condicional Simple — будущее в прошлом] — Мы не знали, в котором часу отправится последний междугородний автобус.',
+        alternatives: []
+      },
+      {
+        russian: '7. ¿(Poder, tú) acompañarme al dentista, es que temo sacar la muela?',
+        correct: '¿Podrías acompañarme al dentista, es que temo sacar la muela? [Condicional Simple — вежливая просьба] — Не мог бы ты проводить меня к зубному? Просто боюсь удалять зуб.',
+        alternatives: []
+      },
+      {
+        russian: '8. (Celebrar, nosotros) la semana pasada el aniversario de la compañía, pero la directiva todavía está de vacaciones.',
+        correct: 'Habríamos celebrado la semana pasada el aniversario de la compañía, pero la directiva todavía está de vacaciones. [Condicional Compuesto — сожаление о прошлом] — Мы бы отметили на прошлой неделе юбилей компании, но руководство всё ещё в отпуске.',
+        alternatives: []
+      },
+      {
+        russian: '9. La acomodadora pensó que cuando terminara la sesión en la sala no (quedarse) ningún espectador porque la película era aburrida.',
+        correct: 'La acomodadora pensó que cuando terminara la sesión en la sala no se quedaría ningún espectador porque la película era aburrida. [Condicional Simple — будущее в прошлом] — Билетёрша подумала, что когда сеанс закончится, в зале не останется ни одного зрителя, потому что фильм скучный.',
+        alternatives: []
+      },
+      {
+        russian: '10. Pablo soñaba con que cuando él se casara, en casa siempre (esperarle) una mujer guapísima, una comida riquísima e hijos preciosísimos.',
+        correct: 'Pablo soñaba con que cuando él se casara, en casa siempre le esperaría una mujer guapísima, una comida riquísima e hijos preciosísimos. [Condicional Simple — будущее в прошлом / мечта] — Пабло мечтал, что когда женится, дома его всегда будет ждать красивейшая жена, вкуснейшая еда и очаровательные дети.',
+        alternatives: []
+      },
+      {
+        russian: '11. La profesora supuso que cuando llegaran los alumnos ella ya (corregir) todos los exámenes.',
+        correct: 'La profesora supuso que cuando llegaran los alumnos ella ya habría corregido todos los exámenes. [Condicional Compuesto — будущее в прошлом, завершённость к моменту] — Учительница предположила, что когда придут ученики, она уже проверит все работы.',
+        alternatives: []
+      },
+      {
+        russian: '12. Nos prometieron que para el verano (terminar, ellos) la construcción del nuevo puente.',
+        correct: 'Nos prometieron que para el verano habrían terminado la construcción del nuevo puente. [Condicional Compuesto — будущее в прошлом, завершённость к сроку] — Нам пообещали, что к лету завершат строительство нового моста.',
+        alternatives: []
+      },
+      {
+        russian: '13. Me (gustar) mucho visitar el Museo del Prado, pero no tuvimos tiempo durante el viaje.',
+        correct: 'Me habría gustado mucho visitar el Museo del Prado, pero no tuvimos tiempo durante el viaje. [Condicional Compuesto — сожаление о прошлом] — Мне бы очень хотелось посетить Музей Прадо, но у нас не было времени во время поездки.',
+        alternatives: []
+      },
+      {
+        russian: '14. La empresa (lanzar) la nueva línea de productos en enero, pero los problemas de producción lo impidieron.',
+        correct: 'La empresa habría lanzado la nueva línea de productos en enero, pero los problemas de producción lo impidieron. [Condicional Compuesto — сожаление о прошлом] — Компания запустила бы новую линейку продуктов в январе, но производственные проблемы помешали.',
+        alternatives: []
+      },
+      {
+        russian: '15. El guía turístico dijo que cuando el autobús llegara a la costa, los viajeros ya (ver) los principales monumentos de la ciudad.',
+        correct: 'El guía turístico dijo que cuando el autobús llegara a la costa, los viajeros ya habrían visto los principales monumentos de la ciudad. [Condicional Compuesto — будущее в прошлом, завершённость к моменту] — Гид сказал, что когда автобус доберётся до побережья, туристы уже осмотрят основные достопримечательности.',
+        alternatives: []
+      }
+    ]
+  },
+
+  'ex-15-2-3': {
+    id: 'ex-15-2-3',
+    type: 'translation',
+    title: 'Упражнение 3. Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя Condicional Simple или Condicional Compuesto.',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Рамон вчера отвёз бы тебя на работу на своей машине, но он почувствовал себя плохо, а, может быть, не захотел.',
+        correct: 'Ramón te habría llevado ayer al trabajo en su coche, pero se encontró mal, o quizás no habría querido.',
+        alternatives: ['Ramón te habría llevado ayer en coche al trabajo, pero se puso malo, o quizás no quiso.']
+      },
+      {
+        russian: '2. На прошлой неделе Николас не посещал занятия в университете. Ребята сказали, что, скорее всего, он уехал к родителям в свой родной город.',
+        correct: 'La semana pasada Nicolás no asistió a las clases en la universidad. Los chicos dijeron que lo más probable es que se habría ido a ver a sus padres a su ciudad natal.',
+        alternatives: ['La semana pasada Nicolás no fue a la universidad. Los compañeros dijeron que probablemente se habría marchado a su ciudad a ver a sus padres.']
+      },
+      {
+        russian: '3. Три дня назад на собрании нам сообщили, что к ноябрю всем повысят зарплату. — Неужели вы поверили?',
+        correct: 'Hace tres días en la reunión nos comunicaron que para noviembre a todos les habrían subido el sueldo. — ¿De verdad os lo creísteis?',
+        alternatives: ['Hace tres días, en la reunión, nos dijeron que para noviembre habrían subido el sueldo a todos. — ¿Y os lo creísteis?']
+      },
+      {
+        russian: '4. Врач пообещал, что, когда наступит лето, ты уже поправишься и сможешь снова заниматься спортом.',
+        correct: 'El médico prometió que cuando llegara el verano, tú ya te habrías recuperado y podrías volver a practicar deporte.',
+        alternatives: []
+      },
+      {
+        russian: '5. Вчера начальник предложил мне поработать сверхурочно, но я отказался. А что бы ты сделал на моём месте?',
+        correct: 'Ayer el jefe me propuso trabajar horas extras, pero yo me negué. ¿Qué habrías hecho tú en mi lugar?',
+        alternatives: ['Ayer el jefe me pidió que trabajara horas extras, pero me negué. ¿Tú qué habrías hecho en mi lugar?']
+      },
+      {
+        russian: '6. Нам сообщили, что, когда мы получим результados исследования, уже пройдёт целая неделя.',
+        correct: 'Nos comunicaron que cuando recibiéramos los resultados de la investigación, ya habría pasado toda una semana.',
+        alternatives: []
+      },
+      {
+        russian: '7. Мама сказала, что, когда она получит водительские права, сын уже вырастет и сам сможет возить её на машине.',
+        correct: 'Mamá dijo que cuando ella sacara el carné de conducir, su hijo ya habría crecido y podría llevarla él mismo en coche.',
+        alternatives: []
+      },
+      {
+        russian: '8. Вчера я бы съездил в аэропорт и встретил тебя, но меня никто не предупредил, что ты приезжаешь. Наверное, все об этом забыли. Мне жаль!',
+        correct: 'Ayer habría ido al aeropuerto a recogerte, pero nadie me avisó de que llegabas. Seguramente todos se habrían olvidado. ¡Lo siento!',
+        alternatives: ['Ayer habría ido a buscarte al aeropuerto, pero nadie me dijo que venías. Todos lo habrán olvidado. ¡Lo lamento!']
+      },
+      {
+        russian: '9. В прошлый понедельник мы пошли бы на собрание, но его отменили.',
+        correct: 'El lunes pasado habríamos ido a la reunión, pero la cancelaron.',
+        alternatives: ['El pasado lunes habríamos asistido a la reunión, pero la anularon.']
+      },
+      {
+        russian: '10. Мы были уверены, что к следующей среде все заинтересованные лица изучат детали этого проекта и выскажут своё мнение.',
+        correct: 'Estábamos seguros de que para el miércoles siguiente todos los interesados habrían estudiado los detalles de este proyecto y habrían expresado su opinión.',
+        alternatives: []
+      },
+      {
+        russian: '11. Я бы с удовольствием приехала на твой день рождения, но у меня были очень важные дела.',
+        correct: 'Habría venido con mucho gusto a tu cumpleaños, pero tenía asuntos muy importantes.',
+        alternatives: ['Me habría encantado ir a tu cumpleaños, pero tenía cosas muy importantes que hacer.']
+      },
+      {
+        russian: '12. Нам пообещали, что когда строительство закончится, мы уже переедем в новые квартиры.',
+        correct: 'Nos prometieron que cuando terminaran las obras, ya nos habríamos mudado a los nuevos apartamentos.',
+        alternatives: []
+      },
+      {
+        russian: '13. Вчера я бы не отказался от кофе, но было уже почти полночь.',
+        correct: 'Ayer no habría rechazado un café, pero era casi medianoche.',
+        alternatives: ['Ayer no me habría negado a tomar un café, pero ya era casi medianoche.']
+      },
+      {
+        russian: '14. Директор заверил нас, что к концу года все сотрудники получат премии.',
+        correct: 'El director nos aseguró que para finales de año todos los empleados habrían recibido una bonificación.',
+        alternatives: ['El director nos garantizó que para finales de año habrían pagado el plus a todos los empleados.']
+      },
+      {
+        russian: '15. Что ты подумал, когда увидел его? — Я подумал, что он, наверное, только что вернулся из долгой командировки.',
+        correct: '¿Qué pensaste cuando lo viste? — Pensé que habría vuelto de un largo viaje de negocios.',
+        alternatives: ['¿Qué pensaste al verlo? — Pensé que habría regresado de un largo viaje de trabajo.']
       }
     ]
   }
