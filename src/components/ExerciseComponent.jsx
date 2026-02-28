@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import styles from './ExerciseComponent.module.css'
 
 // Функция для перемешивания массива
@@ -28,6 +28,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
   const [userAnswer, setUserAnswer] = useState(null)
   const [feedbackTimeoutId, setFeedbackTimeoutId] = useState(null)
+  // Отслеживаем правильность каждого ответа в момент ответа (не пересчитываем в конце)
+  const correctnessTrack = useRef([])
 
   // Возвращаем вопросы без перемешивания — порядок вариантов фиксирован в данных
   // (перемешивание вызывало баг: calculateScore использовал shuffle отличный от того,
@@ -55,6 +57,8 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
       : true // для text input типов проверим позже
 
     setUserAnswer(answer)
+    // Сохраняем правильность ответа прямо сейчас (до любых пересчётов)
+    correctnessTrack.current = [...correctnessTrack.current, isCorrect]
 
     if (!isCorrect && ['vocabulary', 'grammar', 'ser-estar', 'articles', 'pronunciation', 'reading', 'conjugation', 'tense-choice', 'prepositions', 'pronouns', 'agreement', 'subjunctive', 'conditional', 'synonyms', 'antonyms', 'collocations', 'definitions', 'context', 'false-friends', 'idioms', 'word-family', 'matching', 'dialogue-practice', 'reading-comprehension'].includes(exercise.type)) {
       // Показываем правильный ответ
@@ -150,9 +154,9 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
           console.error('Error parsing categorization answer:', e)
         }
       }
-      // Multiple choice types (compare index)
+      // Multiple choice types — используем заранее сохранённый результат
       else {
-        if (userAnswer === question.correct) {
+        if (correctnessTrack.current[index] === true) {
           correct++
         }
       }
@@ -165,6 +169,7 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     setAnswers([])
     setShowResult(false)
     setScore(0)
+    correctnessTrack.current = []
   }
 
   const handleFinish = () => {
@@ -184,8 +189,9 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
         setFeedbackTimeoutId(null)
       }
       setCurrentQuestion(currentQuestion - 1)
-      // Remove the last answer from the answers array
+      // Remove the last answer and its correctness from arrays
       setAnswers(answers.slice(0, -1))
+      correctnessTrack.current = correctnessTrack.current.slice(0, -1)
       // Reset any feedback states
       setShowCorrectAnswer(false)
       setUserAnswer(null)
