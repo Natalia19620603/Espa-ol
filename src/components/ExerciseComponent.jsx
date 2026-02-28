@@ -63,11 +63,16 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
     if (!isCorrect && ['vocabulary', 'grammar', 'ser-estar', 'articles', 'pronunciation', 'reading', 'conjugation', 'tense-choice', 'prepositions', 'pronouns', 'agreement', 'subjunctive', 'conditional', 'synonyms', 'antonyms', 'collocations', 'definitions', 'context', 'false-friends', 'idioms', 'word-family', 'matching', 'dialogue-practice', 'reading-comprehension'].includes(exercise.type)) {
       // Показываем правильный ответ
       setShowCorrectAnswer(true)
+      const totalQuestions = exercise.texts?.length || exercise.questions?.length || exercise.words?.length || 0
+      const isLastQuestion = currentQuestion + 1 >= totalQuestions
+      // На последнем вопросе — короткая пауза (2 сек), потом сразу результаты
+      // На остальных — 15 секунд для изучения правильного ответа
+      const delay = isLastQuestion ? 2000 : 15000
       const id = setTimeout(() => {
         setShowCorrectAnswer(false)
         setUserAnswer(null)
         proceedToNext(answer)
-      }, 15000) // Показываем 15 секунд
+      }, delay)
       setFeedbackTimeoutId(id)
     } else {
       proceedToNext(answer)
