@@ -29,33 +29,13 @@ function ExerciseComponent({ exercise, onComplete, onBack }) {
   const [userAnswer, setUserAnswer] = useState(null)
   const [feedbackTimeoutId, setFeedbackTimeoutId] = useState(null)
 
-  // Перемешиваем опции для каждого вопроса при загрузке и после каждого ответа
+  // Возвращаем вопросы без перемешивания — порядок вариантов фиксирован в данных
+  // (перемешивание вызывало баг: calculateScore использовал shuffle отличный от того,
+  // что видел студент при ответе, что давало случайный % вместо реального)
   const shuffledQuestions = useMemo(() => {
     if (!exercise || !exercise.questions) return []
-
-    return exercise.questions.map((question, qIndex) => {
-      if (!question.options) return question
-
-      // Создаем массив с индексами и опциями
-      const indexedOptions = question.options.map((option, index) => ({
-        option,
-        originalIndex: index
-      }))
-
-      // Перемешиваем - добавляем seed на основе индекса вопроса и количества ответов
-      // чтобы каждый вопрос перемешивался независимо при каждом рендере
-      const shuffled = shuffleArray(indexedOptions)
-
-      // Находим новый индекс правильного ответа
-      const newCorrectIndex = shuffled.findIndex(item => item.originalIndex === question.correct)
-
-      return {
-        ...question,
-        options: shuffled.map(item => item.option),
-        correct: newCorrectIndex
-      }
-    })
-  }, [exercise, answers.length, currentQuestion])
+    return exercise.questions
+  }, [exercise])
 
   if (!exercise) return null
 
