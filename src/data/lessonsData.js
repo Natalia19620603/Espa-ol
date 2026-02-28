@@ -20980,20 +20980,20 @@ export const exercises = {
     description: 'Сопоставьте испанские слова с переводом',
     questions: [
       { spanish: 'hola', options: ['привет', 'пока', 'спасибо', 'да'], correct: 0 },
-      { spanish: 'gracias', options: ['нет', 'спасибо', 'пожалуйста', 'привет'], correct: 1 },
+      { spanish: 'gracias', options: ['нет', 'привет', 'пожалуйста', 'спасибо'], correct: 3 },
       { spanish: 'adiós', options: ['да', 'нет', 'пока', 'привет'], correct: 2 },
       { spanish: 'por favor', options: ['спасибо', 'пожалуйста', 'привет', 'пока'], correct: 1 },
       { spanish: '¿Qué tal?', options: ['как дела?', 'как семья?', 'большое спасибо', 'так себе'], correct: 0 },
-      { spanish: 'Todo va bien.', options: ['так себе', 'все хорошо', 'как жизнь?', 'пожалуйста'], correct: 1 },
+      { spanish: 'Todo va bien.', options: ['так себе', 'пожалуйста', 'как жизнь?', 'все хорошо'], correct: 3 },
       { spanish: 'Muchas gracias.', options: ['пожалуйста', 'так себе', 'большое спасибо', 'как дела?'], correct: 2 },
-      { spanish: 'Regular.', options: ['все хорошо', 'спасибо', 'так себе', 'как дела?'], correct: 2 },
-      { spanish: 'Buenos días', options: ['доброе утро', 'добрый вечер', 'спокойной ночи', 'привет'], correct: 0 },
-      { spanish: 'Buenas tardes', options: ['доброе утро', 'добрый день', 'спокойной ночи', 'пока'], correct: 1 },
-      { spanish: 'Buenas noches', options: ['доброе утро', 'добрый день', 'добрый вечер/спокойной ночи', 'привет'], correct: 2 },
-      { spanish: '¿Cómo estás?', options: ['как дела?', 'что нового?', 'как семья?', 'пока'], correct: 0 },
-      { spanish: 'De nada', options: ['спасибо', 'пожалуйста', 'не за что', 'извините'], correct: 2 },
-      { spanish: 'Perdón', options: ['привет', 'пока', 'извините', 'спасибо'], correct: 2 },
-      { spanish: '¿Qué tal la familia?', options: ['как дела?', 'как семья?', 'что нового?', 'все хорошо'], correct: 1 }
+      { spanish: 'Regular.', options: ['все хорошо', 'так себе', 'спасибо', 'как дела?'], correct: 1 },
+      { spanish: 'Buenos días', options: ['добрый вечер', 'доброе утро', 'спокойной ночи', 'привет'], correct: 1 },
+      { spanish: 'Buenas tardes', options: ['доброе утро', 'спокойной ночи', 'добрый день', 'пока'], correct: 2 },
+      { spanish: 'Buenas noches', options: ['добрый вечер/спокойной ночи', 'добрый день', 'доброе утро', 'привет'], correct: 0 },
+      { spanish: '¿Cómo estás?', options: ['пока', 'что нового?', 'как семья?', 'как дела?'], correct: 3 },
+      { spanish: 'De nada', options: ['спасибо', 'пожалуйста', 'извините', 'не за что'], correct: 3 },
+      { spanish: 'Perdón', options: ['извините', 'пока', 'привет', 'спасибо'], correct: 0 },
+      { spanish: '¿Qué tal la familia?', options: ['как дела?', 'что нового?', 'как семья?', 'все хорошо'], correct: 2 }
     ]
   },
   'ex-1-1-2': {
@@ -21165,81 +21165,81 @@ export const exercises = {
     title: 'Словарь',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'chico', options: ['девочка', 'мальчик', 'друг', 'брат'], correct: 1 },
+      { spanish: 'chico', options: ['мальчик', 'девочка', 'друг', 'брат'], correct: 0 },
       { spanish: 'chica', options: ['мальчик', 'девочка', 'подруга', 'сестра'], correct: 1 },
-      { spanish: 'amigo', options: ['брат', 'отец', 'друг', 'студент'], correct: 2 },
-      { spanish: 'amiga', options: ['сестра', 'подруга', 'мать', 'девочка'], correct: 1 },
-      { spanish: 'hermano', options: ['отец', 'друг', 'брат', 'дядя'], correct: 2 },
-      { spanish: 'hermana', options: ['мать', 'сестра', 'подруга', 'тётя'], correct: 1 },
-      { spanish: 'casa', options: ['улица', 'город', 'дом', 'машина'], correct: 2 },
+      { spanish: 'amigo', options: ['брат', 'отец', 'студент', 'друг'], correct: 3 },
+      { spanish: 'amiga', options: ['сестра', 'мать', 'подруга', 'девочка'], correct: 2 },
+      { spanish: 'hermano', options: ['отец', 'друг', 'дядя', 'брат'], correct: 3 },
+      { spanish: 'hermana', options: ['мать', 'подруга', 'сестра', 'тётя'], correct: 2 },
+      { spanish: 'casa', options: ['дом', 'город', 'улица', 'машина'], correct: 0 },
       { spanish: 'libro', options: ['библиотека', 'книга', 'карандаш', 'бумага'], correct: 1 },
-      { spanish: 'alumna', options: ['учительница', 'студентка', 'ученица', 'девочка'], correct: 2 },
+      { spanish: 'alumna', options: ['ученица', 'студентка', 'учительница', 'девочка'], correct: 0 },
       { spanish: 'museo', options: ['библиотека', 'театр', 'музей', 'кино'], correct: 2 },
-      { spanish: 'playa', options: ['море', 'пляж', 'река', 'озеро'], correct: 1 },
+      { spanish: 'playa', options: ['море', 'озеро', 'река', 'пляж'], correct: 3 },
       { spanish: 'papá', options: ['мама', 'папа', 'дядя', 'дедушка'], correct: 1 },
-      { spanish: 'día', options: ['ночь', 'день', 'вечер', 'утро'], correct: 1 },
-      { spanish: 'policía', options: ['врач', 'полицейский', 'солдат', 'пожарный'], correct: 1 },
+      { spanish: 'día', options: ['день', 'ночь', 'вечер', 'утро'], correct: 0 },
+      { spanish: 'policía', options: ['врач', 'пожарный', 'солдат', 'полицейский'], correct: 3 },
       { spanish: 'mano', options: ['нога', 'рука', 'голова', 'палец'], correct: 1 },
-      { spanish: 'radio', options: ['телевизор', 'радио', 'телефон', 'компьютер'], correct: 1 },
+      { spanish: 'radio', options: ['телевизор', 'телефон', 'радио', 'компьютер'], correct: 2 },
       { spanish: 'problema', options: ['вопрос', 'ответ', 'проблема', 'решение'], correct: 2 },
-      { spanish: 'programa', options: ['план', 'проект', 'программа', 'задание'], correct: 2 },
-      { spanish: 'tema', options: ['урок', 'вопрос', 'тема', 'ответ'], correct: 2 },
-      { spanish: 'planeta', options: ['звезда', 'луна', 'планета', 'солнце'], correct: 2 },
-      { spanish: 'padre', options: ['мать', 'отец', 'брат', 'друг'], correct: 1 },
+      { spanish: 'programa', options: ['план', 'программа', 'проект', 'задание'], correct: 1 },
+      { spanish: 'tema', options: ['тема', 'вопрос', 'урок', 'ответ'], correct: 0 },
+      { spanish: 'planeta', options: ['звезда', 'луна', 'солнце', 'планета'], correct: 3 },
+      { spanish: 'padre', options: ['мать', 'брат', 'отец', 'друг'], correct: 2 },
       { spanish: 'madre', options: ['отец', 'мать', 'сестра', 'бабушка'], correct: 1 },
-      { spanish: 'café', options: ['чай', 'молоко', 'кофе', 'сок'], correct: 2 },
-      { spanish: 'calle', options: ['дом', 'город', 'улица', 'дорога'], correct: 2 },
-      { spanish: 'coche', options: ['автобус', 'поезд', 'автомобиль', 'велосипед'], correct: 2 },
+      { spanish: 'café', options: ['чай', 'молоко', 'сок', 'кофе'], correct: 3 },
+      { spanish: 'calle', options: ['улица', 'город', 'дом', 'дорога'], correct: 0 },
+      { spanish: 'coche', options: ['автомобиль', 'поезд', 'автобус', 'велосипед'], correct: 0 },
       { spanish: 'noche', options: ['день', 'утро', 'вечер', 'ночь'], correct: 3 },
-      { spanish: 'hombre', options: ['женщина', 'мальчик', 'человек / мужчина', 'отец'], correct: 2 },
-      { spanish: 'mujer', options: ['девочка', 'женщина', 'мать', 'сестра'], correct: 1 },
-      { spanish: 'tarde', options: ['утро', 'ночь', 'вечер / день', 'полдень'], correct: 2 },
-      { spanish: 'amor', options: ['дружба', 'любовь', 'счастье', 'радость'], correct: 1 },
+      { spanish: 'hombre', options: ['женщина', 'человек / мужчина', 'мальчик', 'отец'], correct: 1 },
+      { spanish: 'mujer', options: ['девочка', 'мать', 'женщина', 'сестра'], correct: 2 },
+      { spanish: 'tarde', options: ['утро', 'ночь', 'полдень', 'вечер / день'], correct: 3 },
+      { spanish: 'amor', options: ['любовь', 'дружба', 'счастье', 'радость'], correct: 0 },
       { spanish: 'sol', options: ['луна', 'звезда', 'солнце', 'небо'], correct: 2 },
-      { spanish: 'avión', options: ['поезд', 'автобус', 'машина', 'самолет'], correct: 3 },
-      { spanish: 'lápiz', options: ['ручка', 'бумага', 'карандаш', 'книга'], correct: 2 },
-      { spanish: 'país', options: ['город', 'область', 'страна', 'деревня'], correct: 2 },
-      { spanish: 'flor', options: ['дерево', 'трава', 'цветок', 'растение'], correct: 2 },
+      { spanish: 'avión', options: ['поезд', 'самолет', 'машина', 'автобус'], correct: 1 },
+      { spanish: 'lápiz', options: ['ручка', 'бумага', 'книга', 'карандаш'], correct: 3 },
+      { spanish: 'país', options: ['город', 'страна', 'область', 'деревня'], correct: 1 },
+      { spanish: 'flor', options: ['цветок', 'трава', 'дерево', 'растение'], correct: 0 },
       { spanish: 'luz', options: ['тень', 'темнота', 'свет', 'огонь'], correct: 2 },
-      { spanish: 'ciudad', options: ['страна', 'город', 'улица', 'дом'], correct: 1 },
-      { spanish: 'estación', options: ['вокзал', 'станция', 'остановка', 'аэропорт'], correct: 1 },
+      { spanish: 'ciudad', options: ['страна', 'дом', 'улица', 'город'], correct: 3 },
+      { spanish: 'estación', options: ['станция', 'вокзал', 'остановка', 'аэропорт'], correct: 0 },
       { spanish: 'felicidad', options: ['радость', 'грусть', 'счастье', 'удовольствие'], correct: 2 },
       { spanish: 'estudiante', options: ['учитель', 'студент', 'ученик', 'профессор'], correct: 1 },
-      { spanish: 'cliente', options: ['продавец', 'клиент', 'покупатель', 'хозяин'], correct: 1 },
-      { spanish: 'economista', options: ['юрист', 'бухгалтер', 'экономист', 'финансист'], correct: 2 },
-      { spanish: 'lunes', options: ['воскресенье', 'суббота', 'понедельник', 'вторник'], correct: 2 },
-      { spanish: 'dinero', options: ['золото', 'деньги', 'богатство', 'монета'], correct: 1 },
-      { spanish: 'vacaciones', options: ['выходные', 'праздник', 'каникулы', 'отпуск'], correct: 2 },
+      { spanish: 'cliente', options: ['продавец', 'покупатель', 'клиент', 'хозяин'], correct: 2 },
+      { spanish: 'economista', options: ['юрист', 'экономист', 'бухгалтер', 'финансист'], correct: 1 },
+      { spanish: 'lunes', options: ['воскресенье', 'суббота', 'вторник', 'понедельник'], correct: 3 },
+      { spanish: 'dinero', options: ['деньги', 'золото', 'богатство', 'монета'], correct: 0 },
+      { spanish: 'vacaciones', options: ['выходные', 'праздник', 'отпуск', 'каникулы'], correct: 3 },
       { spanish: 'agua', options: ['воздух', 'вода', 'земля', 'огонь'], correct: 1 },
       { spanish: 'aula', options: ['школа', 'класс', 'аудитория', 'кабинет'], correct: 2 },
-      { spanish: 'blanco', options: ['чёрный', 'белый', 'серый', 'красный'], correct: 1 },
+      { spanish: 'blanco', options: ['белый', 'чёрный', 'серый', 'красный'], correct: 0 },
       { spanish: 'negro', options: ['белый', 'чёрный', 'серый', 'синий'], correct: 1 },
-      { spanish: 'bueno', options: ['плохой', 'хороший', 'средний', 'отличный'], correct: 1 },
+      { spanish: 'bueno', options: ['плохой', 'отличный', 'средний', 'хороший'], correct: 3 },
       { spanish: 'malo', options: ['хороший', 'средний', 'плохой', 'ужасный'], correct: 2 },
-      { spanish: 'nuevo', options: ['старый', 'новый', 'древний', 'современный'], correct: 1 },
-      { spanish: 'viejo', options: ['молодой', 'новый', 'старый', 'древний'], correct: 2 },
+      { spanish: 'nuevo', options: ['новый', 'старый', 'древний', 'современный'], correct: 0 },
+      { spanish: 'viejo', options: ['старый', 'новый', 'молодой', 'древний'], correct: 0 },
       { spanish: 'largo', options: ['короткий', 'длинный', 'широкий', 'узкий'], correct: 1 },
-      { spanish: 'corto', options: ['длинный', 'короткий', 'высокий', 'низкий'], correct: 1 },
-      { spanish: 'bonito', options: ['некрасивый', 'красивый', 'обычный', 'странный'], correct: 1 },
-      { spanish: 'guapo', options: ['некрасивый', 'красивый', 'обычный', 'средний'], correct: 1 },
+      { spanish: 'corto', options: ['длинный', 'низкий', 'высокий', 'короткий'], correct: 3 },
+      { spanish: 'bonito', options: ['некрасивый', 'обычный', 'красивый', 'странный'], correct: 2 },
+      { spanish: 'guapo', options: ['некрасивый', 'средний', 'обычный', 'красивый'], correct: 3 },
       { spanish: 'feo', options: ['красивый', 'некрасивый', 'обычный', 'хороший'], correct: 1 },
-      { spanish: 'grande', options: ['маленький', 'средний', 'большой', 'огромный'], correct: 2 },
-      { spanish: 'pequeño', options: ['большой', 'маленький', 'средний', 'крошечный'], correct: 1 },
-      { spanish: 'alto', options: ['низкий', 'высокий', 'средний', 'большой'], correct: 1 },
-      { spanish: 'bajo', options: ['высокий', 'средний', 'низкий', 'маленький'], correct: 2 },
-      { spanish: 'joven', options: ['старый', 'молодой', 'средний', 'зрелый'], correct: 1 },
-      { spanish: 'feliz', options: ['грустный', 'счастливый', 'весёлый', 'радостный'], correct: 1 },
+      { spanish: 'grande', options: ['большой', 'средний', 'маленький', 'огромный'], correct: 0 },
+      { spanish: 'pequeño', options: ['большой', 'средний', 'маленький', 'крошечный'], correct: 2 },
+      { spanish: 'alto', options: ['низкий', 'большой', 'средний', 'высокий'], correct: 3 },
+      { spanish: 'bajo', options: ['высокий', 'низкий', 'средний', 'маленький'], correct: 1 },
+      { spanish: 'joven', options: ['старый', 'средний', 'молодой', 'зрелый'], correct: 2 },
+      { spanish: 'feliz', options: ['счастливый', 'грустный', 'весёлый', 'радостный'], correct: 0 },
       { spanish: 'alegre', options: ['грустный', 'весёлый', 'счастливый', 'радостный'], correct: 1 },
-      { spanish: 'triste', options: ['весёлый', 'счастливый', 'грустный', 'печальный'], correct: 2 },
-      { spanish: 'barato', options: ['дорогой', 'дешёвый', 'средний', 'бесплатный'], correct: 1 },
-      { spanish: 'caro', options: ['дешёвый', 'средний', 'дорогой', 'бесплатный'], correct: 2 },
-      { spanish: 'azul', options: ['красный', 'зелёный', 'синий', 'жёлтый'], correct: 2 },
-      { spanish: 'verde', options: ['синий', 'зелёный', 'жёлтый', 'красный'], correct: 1 },
-      { spanish: 'caliente', options: ['холодный', 'тёплый', 'горячий', 'прохладный'], correct: 2 },
-      { spanish: 'frío', options: ['горячий', 'тёплый', 'холодный', 'прохладный'], correct: 2 },
-      { spanish: 'difícil', options: ['лёгкий', 'простой', 'трудный', 'сложный'], correct: 2 },
-      { spanish: 'fácil', options: ['трудный', 'лёгкий', 'простой', 'сложный'], correct: 1 },
-      { spanish: 'interesante', options: ['скучный', 'интересный', 'занимательный', 'увлекательный'], correct: 1 },
+      { spanish: 'triste', options: ['весёлый', 'счастливый', 'печальный', 'грустный'], correct: 3 },
+      { spanish: 'barato', options: ['дорогой', 'средний', 'дешёвый', 'бесплатный'], correct: 2 },
+      { spanish: 'caro', options: ['дорогой', 'средний', 'дешёвый', 'бесплатный'], correct: 0 },
+      { spanish: 'azul', options: ['синий', 'зелёный', 'красный', 'жёлтый'], correct: 0 },
+      { spanish: 'verde', options: ['синий', 'жёлтый', 'зелёный', 'красный'], correct: 2 },
+      { spanish: 'caliente', options: ['холодный', 'тёплый', 'прохладный', 'горячий'], correct: 3 },
+      { spanish: 'frío', options: ['горячий', 'холодный', 'тёплый', 'прохладный'], correct: 1 },
+      { spanish: 'difícil', options: ['трудный', 'простой', 'лёгкий', 'сложный'], correct: 0 },
+      { spanish: 'fácil', options: ['трудный', 'сложный', 'простой', 'лёгкий'], correct: 3 },
+      { spanish: 'interesante', options: ['скучный', 'занимательный', 'интересный', 'увлекательный'], correct: 2 },
       { spanish: 'rico', options: ['бедный', 'богатый', 'состоятельный', 'нищий'], correct: 1 },
       { spanish: 'pobre', options: ['богатый', 'бедный', 'нищий', 'состоятельный'], correct: 1 }
     ]
@@ -21252,16 +21252,16 @@ export const exercises = {
     title: 'Упражнение на спряжение и согласование',
     description: 'Выбери фразу с глаголом и прилагательным в правильной форме',
     questions: [
-      { sentence: 'Carmen y tú sois economistas.', options: ['Carmen y tú eres economistas.', 'Carmen y tú sois economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 1 },
+      { sentence: 'Carmen y tú sois economistas.', options: ['Carmen y tú sois economistas.', 'Carmen y tú eres economistas.', 'Carmen y tú son economistas.', 'Carmen y tú somos economistas.'], correct: 0 },
       { sentence: 'Luis y Andrés son jóvenes.', options: ['Luis y Andrés es joven.', 'Luis y Andrés son jóvenes.', 'Luis y Andrés sois jóvenes.', 'Luis y Andrés somos jóvenes.'], correct: 1 },
-      { sentence: 'César y Susana son españoles.', options: ['César y Susana somos españolas.', 'César y Susana son españoles.', 'César y Susana sois españoles.', 'César y Susana es español.'], correct: 1 },
-      { sentence: 'Vosotros sois de Madrid.', options: ['Vosotros son de Madrid.', 'Vosotros sois de Madrid.', 'Vosotros somos de Madrid.', 'Vosotros es de Madrid.'], correct: 1 },
-      { sentence: 'Enrique está en la playa.', options: ['Enrique están en la playa.', 'Enrique está en la playa.', 'Enrique estamos en la playa.', 'Enrique estoy en la playa.'], correct: 1 },
-      { sentence: 'Luisa está enferma.', options: ['Luisa estáis enfermos.', 'Luisa está enferma.', 'Luisa estamos enfermas.', 'Luisa están enferma.'], correct: 1 },
+      { sentence: 'César y Susana son españoles.', options: ['César y Susana somos españolas.', 'César y Susana sois españoles.', 'César y Susana son españoles.', 'César y Susana es español.'], correct: 2 },
+      { sentence: 'Vosotros sois de Madrid.', options: ['Vosotros son de Madrid.', 'Vosotros es de Madrid.', 'Vosotros somos de Madrid.', 'Vosotros sois de Madrid.'], correct: 3 },
+      { sentence: 'Enrique está en la playa.', options: ['Enrique está en la playa.', 'Enrique están en la playa.', 'Enrique estamos en la playa.', 'Enrique estoy en la playa.'], correct: 0 },
+      { sentence: 'Luisa está enferma.', options: ['Luisa estáis enfermos.', 'Luisa están enferma.', 'Luisa estamos enfermas.', 'Luisa está enferma.'], correct: 3 },
       { sentence: 'Ustedes son felices.', options: ['Ustedes somos felices.', 'Ustedes son felices.', 'Ustedes sois felices.', 'Ustedes es feliz.'], correct: 1 },
-      { sentence: 'Pedro y María son altos.', options: ['Pedro y María es alto.', 'Pedro y María son altos.', 'Pedro y María sois altos.', 'Pedro y María somos altos.'], correct: 1 },
+      { sentence: 'Pedro y María son altos.', options: ['Pedro y María es alto.', 'Pedro y María sois altos.', 'Pedro y María son altos.', 'Pedro y María somos altos.'], correct: 2 },
       { sentence: 'Tú y ella estáis contentos.', options: ['Tú y ella está contenta.', 'Tú y ella estáis contentos.', 'Tú y ella están contentos.', 'Tú y ella estamos contentos.'], correct: 1 },
-      { sentence: 'Ellas son inteligentes.', options: ['Ellas es inteligente.', 'Ellas son inteligentes.', 'Ellas sois inteligentes.', 'Ellas somos inteligentes.'], correct: 1 }
+      { sentence: 'Ellas son inteligentes.', options: ['Ellas es inteligente.', 'Ellas sois inteligentes.', 'Ellas son inteligentes.', 'Ellas somos inteligentes.'], correct: 2 }
     ]
   },
   'ex-1-3-2': {
@@ -21270,21 +21270,21 @@ export const exercises = {
     title: 'Выбор глагола SER или ESTAR',
     description: 'Выберите по смыслу глагол ser или estar и поставьте его в соответствующую форму',
     questions: [
-      { sentence: 'Yo ___ estudiante.', options: ['soy', 'estoy', 'eres', 'estás'], correct: 0 },
+      { sentence: 'Yo ___ estudiante.', options: ['estás', 'estoy', 'eres', 'soy'], correct: 3 },
       { sentence: 'Tú ___ en casa.', options: ['eres', 'soy', 'estás', 'estoy'], correct: 2 },
-      { sentence: 'Ella ___ joven y guapa.', options: ['está', 'es', 'están', 'son'], correct: 1 },
+      { sentence: 'Ella ___ joven y guapa.', options: ['es', 'está', 'están', 'son'], correct: 0 },
       { sentence: 'Nosotros ___ en el museo.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 1 },
       { sentence: 'Vosotros ___ felices (по характеру).', options: ['estáis', 'sois', 'están', 'son'], correct: 1 },
-      { sentence: 'Ellos ___ enfermos (сейчас).', options: ['son', 'están', 'sois', 'estáis'], correct: 1 },
-      { sentence: 'Usted ___ de la ciudad.', options: ['está', 'es', 'están', 'son'], correct: 1 },
-      { sentence: 'Mi hermano ___ alto.', options: ['está', 'es', 'están', 'son'], correct: 1 },
-      { sentence: 'Mi hermana ___ en la playa.', options: ['es', 'está', 'son', 'están'], correct: 1 },
-      { sentence: 'Los amigos ___ alegres (по характеру).', options: ['están', 'son', 'estáis', 'sois'], correct: 1 },
+      { sentence: 'Ellos ___ enfermos (сейчас).', options: ['están', 'son', 'sois', 'estáis'], correct: 0 },
+      { sentence: 'Usted ___ de la ciudad.', options: ['está', 'son', 'están', 'es'], correct: 3 },
+      { sentence: 'Mi hermano ___ alto.', options: ['está', 'están', 'es', 'son'], correct: 2 },
+      { sentence: 'Mi hermana ___ en la playa.', options: ['está', 'es', 'son', 'están'], correct: 0 },
+      { sentence: 'Los amigos ___ alegres (по характеру).', options: ['están', 'sois', 'estáis', 'son'], correct: 3 },
       { sentence: 'El libro ___ malo.', options: ['está', 'es', 'están', 'son'], correct: 1 },
-      { sentence: 'Las niñas ___ en casa.', options: ['son', 'están', 'sois', 'estáis'], correct: 1 },
-      { sentence: 'Yo ___ contento (сейчас).', options: ['soy', 'estoy', 'eres', 'estás'], correct: 1 },
-      { sentence: 'María ___ buena (по характеру).', options: ['está', 'es', 'están', 'son'], correct: 1 },
-      { sentence: 'Mi padre y mi madre ___ buenos.', options: ['están', 'son', 'estáis', 'sois'], correct: 1 }
+      { sentence: 'Las niñas ___ en casa.', options: ['son', 'sois', 'están', 'estáis'], correct: 2 },
+      { sentence: 'Yo ___ contento (сейчас).', options: ['soy', 'estás', 'eres', 'estoy'], correct: 3 },
+      { sentence: 'María ___ buena (по характеру).', options: ['está', 'están', 'es', 'son'], correct: 2 },
+      { sentence: 'Mi padre y mi madre ___ buenos.', options: ['son', 'están', 'estáis', 'sois'], correct: 0 }
     ]
   },
   'ex-1-3-3': {
@@ -21321,16 +21321,16 @@ export const exercises = {
     title: 'Completa con la forma correcta de SER o ESTAR',
     description: 'Elige la conjugación correcta (soy, eres, es... o estoy, estás, está...) para cada frase, según el significado (característica o ubicación/estado)',
     questions: [
-      { sentence: 'La noche ________ fría.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Nosotros ________ clientes ricos.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 0 },
+      { sentence: 'La noche ________ fría.', options: ['están', 'está', 'son', 'es'], correct: 3 },
+      { sentence: 'Nosotros ________ clientes ricos.', options: ['sois', 'estamos', 'somos', 'estáis'], correct: 2 },
       { sentence: 'Mi hermano ________ soltero.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'El libro ________ en la mesa.', options: ['está', 'es', 'están', 'son'], correct: 0 },
-      { sentence: 'Tú ________ economista.', options: ['eres', 'estás', 'soy', 'estoy'], correct: 0 },
-      { sentence: 'Los aviones ________ grandes.', options: ['son', 'están', 'es', 'está'], correct: 0 },
-      { sentence: 'La flor ________ verde y bonita.', options: ['es', 'está', 'son', 'están'], correct: 0 },
+      { sentence: 'El libro ________ en la mesa.', options: ['es', 'está', 'están', 'son'], correct: 1 },
+      { sentence: 'Tú ________ economista.', options: ['soy', 'estás', 'eres', 'estoy'], correct: 2 },
+      { sentence: 'Los aviones ________ grandes.', options: ['está', 'están', 'es', 'son'], correct: 3 },
+      { sentence: 'La flor ________ verde y bonita.', options: ['está', 'es', 'son', 'están'], correct: 1 },
       { sentence: 'Nosotros ________ enfermos ahora.', options: ['estamos', 'somos', 'estáis', 'sois'], correct: 0 },
       { sentence: 'El día ________ largo.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: '¿Dónde ________ los chicos?', options: ['están', 'son', 'está', 'es'], correct: 0 }
+      { sentence: '¿Dónde ________ los chicos?', options: ['son', 'están', 'está', 'es'], correct: 1 }
     ]
   },
   'ex-1-3-5': {
@@ -21339,16 +21339,16 @@ export const exercises = {
     title: 'Completa con SER o ESTAR - Parte 2',
     description: 'Elige la conjugación correcta para cada frase, según el significado (característica o ubicación/estado)',
     questions: [
-      { sentence: 'Yo ________ Ana y ________ una chica.', options: ['soy... soy', 'estoy... estoy', 'soy... estoy', 'estoy... soy'], correct: 0 },
+      { sentence: 'Yo ________ Ana y ________ una chica.', options: ['estoy... soy', 'estoy... estoy', 'soy... estoy', 'soy... soy'], correct: 3 },
       { sentence: 'El padre ________ un hombre alto y bueno.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Ella ________ mi amiga María.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Tú ________ mi profesor/a.', options: ['eres', 'estás', 'soy', 'estoy'], correct: 0 },
+      { sentence: 'Ella ________ mi amiga María.', options: ['son', 'está', 'es', 'están'], correct: 2 },
+      { sentence: 'Tú ________ mi profesor/a.', options: ['estás', 'eres', 'soy', 'estoy'], correct: 1 },
       { sentence: 'Mi trabajo ________ difícil.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Mi hermana ________ contenta ahora.', options: ['está', 'es', 'están', 'son'], correct: 0 },
-      { sentence: 'Él ________ en casa.', options: ['está', 'es', 'están', 'son'], correct: 0 },
-      { sentence: 'Yo ________ en España.', options: ['estoy', 'soy', 'estás', 'eres'], correct: 0 },
-      { sentence: 'Ustedes ________ casados.', options: ['están', 'son', 'estáis', 'sois'], correct: 0 },
-      { sentence: 'Nosotras ________ en la playa.', options: ['estamos', 'somos', 'estáis', 'sois'], correct: 0 }
+      { sentence: 'Mi hermana ________ contenta ahora.', options: ['están', 'es', 'está', 'son'], correct: 2 },
+      { sentence: 'Él ________ en casa.', options: ['son', 'es', 'están', 'está'], correct: 3 },
+      { sentence: 'Yo ________ en España.', options: ['soy', 'estoy', 'estás', 'eres'], correct: 1 },
+      { sentence: 'Ustedes ________ casados.', options: ['sois', 'son', 'estáis', 'están'], correct: 3 },
+      { sentence: 'Nosotras ________ en la playa.', options: ['somos', 'estamos', 'estáis', 'sois'], correct: 1 }
     ]
   },
   'ex-1-2-7': {
@@ -21357,14 +21357,14 @@ export const exercises = {
     title: 'Согласование существительных с прилагательными',
     description: 'A) Согласование по роду (Единственное число). Образец: un señor gordo → una señora gorda',
     questions: [
-      { pattern: 'un día largo', options: ['una calle larga', 'una calle largo', 'un calle largo', 'un calle larga'], correct: 0 },
-      { pattern: 'un coche caro', options: ['una casa cara', 'una casa caro', 'un casa caro', 'un casa cara'], correct: 0 },
+      { pattern: 'un día largo', options: ['un calle largo', 'una calle largo', 'una calle larga', 'un calle larga'], correct: 2 },
+      { pattern: 'un coche caro', options: ['una casa caro', 'una casa cara', 'un casa caro', 'un casa cara'], correct: 1 },
       { pattern: 'un hombre casado', options: ['una mujer casada', 'una mujer casado', 'un mujer casado', 'un mujer casada'], correct: 0 },
-      { pattern: 'un café caliente', options: ['una mano caliente', 'una mano caliento', 'un mano caliente', 'un mano caliento'], correct: 0 },
-      { pattern: 'un padre feliz', options: ['una madre feliz', 'una madre feliza', 'un madre feliz', 'un madre feliza'], correct: 0 },
-      { pattern: 'un museo grande', options: ['una ciudad grande', 'una ciudad granda', 'un ciudad grande', 'un ciudad granda'], correct: 0 },
+      { pattern: 'un café caliente', options: ['un mano caliento', 'una mano caliento', 'un mano caliente', 'una mano caliente'], correct: 3 },
+      { pattern: 'un padre feliz', options: ['una madre feliza', 'una madre feliz', 'un madre feliz', 'un madre feliza'], correct: 1 },
+      { pattern: 'un museo grande', options: ['un ciudad grande', 'una ciudad granda', 'una ciudad grande', 'un ciudad granda'], correct: 2 },
       { pattern: 'un tema raro', options: ['una operación rara', 'una operación raro', 'un operación raro', 'un operación rara'], correct: 0 },
-      { pattern: 'un policía joven', options: ['una señorita joven', 'una señorita jovina', 'un señorita joven', 'un señorita jovina'], correct: 0 }
+      { pattern: 'un policía joven', options: ['un señorita jovina', 'una señorita jovina', 'un señorita joven', 'una señorita joven'], correct: 3 }
     ]
   },
   'ex-1-2-8': {
@@ -21373,14 +21373,14 @@ export const exercises = {
     title: 'Согласование по числу (Множественное число)',
     description: 'B) Согласование по числу. Образец: una casa nueva → las casas nuevas',
     questions: [
-      { pattern: 'un libro interesante', options: ['los libros interesantes', 'los libros interesante', 'las libros interesantes', 'las libros interesante'], correct: 0 },
-      { pattern: 'una flor blanca', options: ['las flores blancas', 'las flores blanca', 'los flores blancas', 'los flores blanca'], correct: 0 },
+      { pattern: 'un libro interesante', options: ['las libros interesantes', 'los libros interesante', 'los libros interesantes', 'las libros interesante'], correct: 2 },
+      { pattern: 'una flor blanca', options: ['las flores blanca', 'las flores blancas', 'los flores blancas', 'los flores blanca'], correct: 1 },
       { pattern: 'un amigo enfermo', options: ['los amigos enfermos', 'los amigos enfermo', 'las amigos enfermos', 'las amigos enfermo'], correct: 0 },
-      { pattern: 'una mujer fea', options: ['las mujeres feas', 'las mujeres fea', 'los mujeres feas', 'los mujeres fea'], correct: 0 },
-      { pattern: 'un problema grave', options: ['los problemas graves', 'los problemas grave', 'las problemas graves', 'las problemas grave'], correct: 0 },
+      { pattern: 'una mujer fea', options: ['los mujeres fea', 'las mujeres fea', 'los mujeres feas', 'las mujeres feas'], correct: 3 },
+      { pattern: 'un problema grave', options: ['los problemas grave', 'los problemas graves', 'las problemas graves', 'las problemas grave'], correct: 1 },
       { pattern: 'una chica alegre', options: ['las chicas alegres', 'las chicas alegre', 'los chicas alegres', 'los chicas alegre'], correct: 0 },
-      { pattern: 'un avión pequeño', options: ['los aviones pequeños', 'los aviones pequeño', 'las aviones pequeños', 'las aviones pequeño'], correct: 0 },
-      { pattern: 'una cuestión regular', options: ['las cuestiones regulares', 'las cuestiones regular', 'los cuestiones regulares', 'los cuestiones regular'], correct: 0 }
+      { pattern: 'un avión pequeño', options: ['las aviones pequeños', 'los aviones pequeño', 'los aviones pequeños', 'las aviones pequeño'], correct: 2 },
+      { pattern: 'una cuestión regular', options: ['los cuestiones regular', 'las cuestiones regular', 'los cuestiones regulares', 'las cuestiones regulares'], correct: 3 }
     ]
   },
   'ex-1-2-9': {
@@ -21389,21 +21389,21 @@ export const exercises = {
     title: 'Замените прилагательные на антонимы',
     description: 'Замените прилагательные в словосочетаниях на их антонимы',
     questions: [
-      { spanish: 'un libro nuevo', options: ['un libro viejo', 'un libro malo', 'un libro pequeño', 'un libro feo'], correct: 0 },
-      { spanish: 'una casa grande', options: ['una casa pequeña', 'una casa mala', 'una casa fea', 'una casa vieja'], correct: 0 },
-      { spanish: 'un chico alto', options: ['un chico bajo', 'un chico pequeño', 'un chico gordo', 'un chico feo'], correct: 0 },
+      { spanish: 'un libro nuevo', options: ['un libro malo', 'un libro viejo', 'un libro pequeño', 'un libro feo'], correct: 1 },
+      { spanish: 'una casa grande', options: ['una casa fea', 'una casa mala', 'una casa pequeña', 'una casa vieja'], correct: 2 },
+      { spanish: 'un chico alto', options: ['un chico feo', 'un chico pequeño', 'un chico gordo', 'un chico bajo'], correct: 3 },
       { spanish: 'una chica guapa', options: ['una chica fea', 'una chica mala', 'una chica baja', 'una chica vieja'], correct: 0 },
-      { spanish: 'un día bueno', options: ['un día malo', 'un día pequeño', 'un día corto', 'un día feo'], correct: 0 },
+      { spanish: 'un día bueno', options: ['un día feo', 'un día pequeño', 'un día corto', 'un día malo'], correct: 3 },
       { spanish: 'un café caliente', options: ['un café frío', 'un café malo', 'un café barato', 'un café pequeño'], correct: 0 },
-      { spanish: 'un hombre rico', options: ['un hombre pobre', 'un hombre malo', 'un hombre bajo', 'un hombre feo'], correct: 0 },
-      { spanish: 'una calle larga', options: ['una calle corta', 'una calle pequeña', 'una calle mala', 'una calle fea'], correct: 0 },
-      { spanish: 'un coche caro', options: ['un coche barato', 'un coche malo', 'un coche pequeño', 'un coche viejo'], correct: 0 },
-      { spanish: 'un amigo feliz', options: ['un amigo triste', 'un amigo malo', 'un amigo enfermo', 'un amigo bajo'], correct: 0 },
-      { spanish: 'una flor blanca', options: ['una flor negra', 'una flor mala', 'una flor pequeña', 'una flor fea'], correct: 0 },
+      { spanish: 'un hombre rico', options: ['un hombre bajo', 'un hombre malo', 'un hombre pobre', 'un hombre feo'], correct: 2 },
+      { spanish: 'una calle larga', options: ['una calle pequeña', 'una calle corta', 'una calle mala', 'una calle fea'], correct: 1 },
+      { spanish: 'un coche caro', options: ['un coche pequeño', 'un coche malo', 'un coche barato', 'un coche viejo'], correct: 2 },
+      { spanish: 'un amigo feliz', options: ['un amigo malo', 'un amigo triste', 'un amigo enfermo', 'un amigo bajo'], correct: 1 },
+      { spanish: 'una flor blanca', options: ['una flor fea', 'una flor mala', 'una flor pequeña', 'una flor negra'], correct: 3 },
       { spanish: 'un hombre joven', options: ['un hombre viejo', 'un hombre malo', 'un hombre bajo', 'un hombre feo'], correct: 0 },
       { spanish: 'un chico delgado', options: ['un chico gordo', 'un chico malo', 'un chico bajo', 'un chico feo'], correct: 0 },
-      { spanish: 'una casa bonita', options: ['una casa fea', 'una casa mala', 'una casa pequeña', 'una casa vieja'], correct: 0 },
-      { spanish: 'un problema difícil', options: ['un problema fácil', 'un problema malo', 'un problema pequeño', 'un problema viejo'], correct: 0 }
+      { spanish: 'una casa bonita', options: ['una casa vieja', 'una casa mala', 'una casa pequeña', 'una casa fea'], correct: 3 },
+      { spanish: 'un problema difícil', options: ['un problema pequeño', 'un problema malo', 'un problema fácil', 'un problema viejo'], correct: 2 }
     ]
   },
   'ex-1-2-10': {
@@ -21442,25 +21442,25 @@ export const exercises = {
     title: 'Профессии',
     description: 'Выберите правильный перевод профессии',
     questions: [
-      { spanish: 'médico', options: ['учитель', 'врач', 'художник', 'юрист'], correct: 1 },
-      { spanish: 'profesor', options: ['преподаватель', 'писатель', 'музыкант', 'повар'], correct: 0 },
+      { spanish: 'médico', options: ['учитель', 'юрист', 'художник', 'врач'], correct: 3 },
+      { spanish: 'profesor', options: ['музыкант', 'писатель', 'преподаватель', 'повар'], correct: 2 },
       { spanish: 'abogado', options: ['актер', 'адвокат', 'банкир', 'гид'], correct: 1 },
-      { spanish: 'camarero', options: ['строитель', 'продавец', 'официант', 'инженер'], correct: 2 },
-      { spanish: 'ingeniero', options: ['инженер', 'поэт', 'журналист', 'медсестра'], correct: 0 },
-      { spanish: 'periodista', options: ['повар', 'журналист', 'художник', 'актер'], correct: 1 },
+      { spanish: 'camarero', options: ['официант', 'продавец', 'строитель', 'инженер'], correct: 0 },
+      { spanish: 'ingeniero', options: ['поэт', 'инженер', 'журналист', 'медсестра'], correct: 1 },
+      { spanish: 'periodista', options: ['повар', 'художник', 'журналист', 'актер'], correct: 2 },
       { spanish: 'músico', options: ['музыкант', 'писатель', 'экономист', 'поэт'], correct: 0 },
-      { spanish: 'constructor', options: ['продавец', 'врач', 'строитель', 'юрист'], correct: 2 },
-      { spanish: 'escritor', options: ['писатель', 'художник', 'актер', 'гид'], correct: 0 },
+      { spanish: 'constructor', options: ['продавец', 'врач', 'юрист', 'строитель'], correct: 3 },
+      { spanish: 'escritor', options: ['художник', 'писатель', 'актер', 'гид'], correct: 1 },
       { spanish: 'pintor', options: ['поэт', 'музыкант', 'художник', 'банкир'], correct: 2 },
       { spanish: 'actor', options: ['актер', 'журналист', 'повар', 'врач'], correct: 0 },
-      { spanish: 'actriz', options: ['медсестра', 'актриса', 'продавец', 'банкир'], correct: 1 },
+      { spanish: 'actriz', options: ['медсестра', 'банкир', 'продавец', 'актриса'], correct: 3 },
       { spanish: 'banquero', options: ['банкир', 'гид', 'поэт', 'юрист'], correct: 0 },
-      { spanish: 'guía', options: ['повар', 'гид', 'экономист', 'строитель'], correct: 1 },
-      { spanish: 'enfermera', options: ['медсестра', 'актриса', 'продавец', 'художник'], correct: 0 },
-      { spanish: 'cocinero', options: ['музыкант', 'писатель', 'повар', 'адвокат'], correct: 2 },
-      { spanish: 'poeta', options: ['поэт', 'актер', 'гид', 'инженер'], correct: 0 },
-      { spanish: 'dependiente', options: ['строитель', 'продавец', 'журналист', 'врач'], correct: 1 },
-      { spanish: 'economista', options: ['юрист', 'экономист', 'банкир', 'поэт'], correct: 1 },
+      { spanish: 'guía', options: ['повар', 'строитель', 'экономист', 'гид'], correct: 3 },
+      { spanish: 'enfermera', options: ['продавец', 'актриса', 'медсестра', 'художник'], correct: 2 },
+      { spanish: 'cocinero', options: ['музыкант', 'повар', 'писатель', 'адвокат'], correct: 1 },
+      { spanish: 'poeta', options: ['инженер', 'актер', 'гид', 'поэт'], correct: 3 },
+      { spanish: 'dependiente', options: ['продавец', 'строитель', 'журналист', 'врач'], correct: 0 },
+      { spanish: 'economista', options: ['юрист', 'банкир', 'экономист', 'поэт'], correct: 2 },
       { spanish: 'jurista', options: ['адвокат', 'юрист', 'музыкант', 'преподаватель'], correct: 1 }
     ]
   },
@@ -21695,19 +21695,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { sentence: 'Ella es ___ (médico)', options: ['médico', 'médica', 'médicos', 'médicas'], correct: 1 },
       { sentence: 'Él es ___ (español)', options: ['español', 'española', 'españoles', 'españolas'], correct: 0 },
-      { sentence: 'Mi hermana es ___ (profesor)', options: ['profesor', 'profesora', 'profesores', 'profesoras'], correct: 1 },
-      { sentence: 'Carlos es ___ (italiano)', options: ['italiano', 'italiana', 'italianos', 'italianas'], correct: 0 },
-      { sentence: 'María es ___ (periodista)', options: ['periodisto', 'periodista', 'periodistos', 'periodistas'], correct: 1 },
-      { sentence: 'Mi padre es ___ (ingeniero)', options: ['ingeniero', 'ingeniera', 'ingenieros', 'ingenieras'], correct: 0 },
+      { sentence: 'Mi hermana es ___ (profesor)', options: ['profesor', 'profesoras', 'profesores', 'profesora'], correct: 3 },
+      { sentence: 'Carlos es ___ (italiano)', options: ['italianos', 'italiana', 'italiano', 'italianas'], correct: 2 },
+      { sentence: 'María es ___ (periodista)', options: ['periodista', 'periodisto', 'periodistos', 'periodistas'], correct: 0 },
+      { sentence: 'Mi padre es ___ (ingeniero)', options: ['ingenieros', 'ingeniera', 'ingeniero', 'ingenieras'], correct: 2 },
       { sentence: 'Ana es ___ (francés)', options: ['francés', 'francesa', 'franceses', 'francesas'], correct: 1 },
-      { sentence: 'Juan es ___ (actor)', options: ['actor', 'actora', 'actriz', 'actores'], correct: 0 },
-      { sentence: 'Ella es ___ (actor)', options: ['actor', 'actora', 'actriz', 'actores'], correct: 2 },
+      { sentence: 'Juan es ___ (actor)', options: ['actores', 'actora', 'actriz', 'actor'], correct: 3 },
+      { sentence: 'Ella es ___ (actor)', options: ['actor', 'actriz', 'actora', 'actores'], correct: 1 },
       { sentence: 'Mi amigo es ___ (alemán)', options: ['alemán', 'alemana', 'alemanes', 'alemanas'], correct: 0 },
-      { sentence: 'Elena es ___ (ruso)', options: ['ruso', 'rusa', 'rusos', 'rusas'], correct: 1 },
-      { sentence: 'Mi hermano es ___ (cocinero)', options: ['cocinero', 'cocinera', 'cocineros', 'cocineras'], correct: 0 },
+      { sentence: 'Elena es ___ (ruso)', options: ['ruso', 'rusos', 'rusa', 'rusas'], correct: 2 },
+      { sentence: 'Mi hermano es ___ (cocinero)', options: ['cocineras', 'cocinera', 'cocineros', 'cocinero'], correct: 3 },
       { sentence: 'La señora es ___ (portugués)', options: ['portugués', 'portuguesa', 'portugueses', 'portuguesas'], correct: 1 },
-      { sentence: 'Él es ___ (estudiante)', options: ['estudianto', 'estudiante', 'estudiantos', 'estudiantes'], correct: 1 },
-      { sentence: 'Carmen es ___ (pintor)', options: ['pintor', 'pintora', 'pintores', 'pintoras'], correct: 1 }
+      { sentence: 'Él es ___ (estudiante)', options: ['estudiante', 'estudianto', 'estudiantos', 'estudiantes'], correct: 0 },
+      { sentence: 'Carmen es ___ (pintor)', options: ['pintor', 'pintores', 'pintora', 'pintoras'], correct: 2 }
     ]
   },
   'ex-1-4-10': {
@@ -21787,21 +21787,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Gramática - Repaso Módulo 1 (Lecciones 1-4)',
     description: 'Elige la opción correcta (SER/ESTAR, artículos, concordancia, etc.)',
     questions: [
-      { sentence: 'Los inmigrantes que _____ a los ancianos pueden quedarse.', options: ['cuida', 'cuidan', 'cuidas', 'cuidamos'], correct: 1 },
-      { sentence: 'Ella _____ colombiana y trabaja en mi casa.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Mi restaurante _____ sin personal si se van los camareros.', options: ['es', 'está', 'son', 'están'], correct: 1 },
-      { sentence: '_____ trabajadores del campo son muy importantes.', options: ['El', 'La', 'Los', 'Las'], correct: 2 },
-      { sentence: 'Tengo _____ restaurante en la ciudad.', options: ['el', 'la', 'un', 'una'], correct: 2 },
+      { sentence: 'Los inmigrantes que _____ a los ancianos pueden quedarse.', options: ['cuidan', 'cuida', 'cuidas', 'cuidamos'], correct: 0 },
+      { sentence: 'Ella _____ colombiana y trabaja en mi casa.', options: ['son', 'está', 'es', 'están'], correct: 2 },
+      { sentence: 'Mi restaurante _____ sin personal si se van los camareros.', options: ['es', 'están', 'son', 'está'], correct: 3 },
+      { sentence: '_____ trabajadores del campo son muy importantes.', options: ['El', 'Los', 'La', 'Las'], correct: 1 },
+      { sentence: 'Tengo _____ restaurante en la ciudad.', options: ['un', 'la', 'el', 'una'], correct: 0 },
       { sentence: 'Los que _____ de España son españoles.', options: ['es', 'son', 'está', 'están'], correct: 1 },
       { sentence: '¿Quién va a pagar _____ pensiones?', options: ['el', 'la', 'los', 'las'], correct: 3 },
-      { sentence: 'Los abogados, médicos y maestros _____ profesionales importantes.', options: ['es', 'son', 'está', 'están'], correct: 1 },
-      { sentence: 'Los futbolistas _____ muy famosos.', options: ['es', 'son', 'está', 'están'], correct: 1 },
-      { sentence: 'Este plan sobre inmigración _____ muy contradictorio.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Los jeques árabes tienen _____ casas caras.', options: ['el', 'la', 'unos', 'unas'], correct: 3 },
+      { sentence: 'Los abogados, médicos y maestros _____ profesionales importantes.', options: ['es', 'está', 'son', 'están'], correct: 2 },
+      { sentence: 'Los futbolistas _____ muy famosos.', options: ['es', 'están', 'está', 'son'], correct: 3 },
+      { sentence: 'Este plan sobre inmigración _____ muy contradictorio.', options: ['son', 'está', 'es', 'están'], correct: 2 },
+      { sentence: 'Los jeques árabes tienen _____ casas caras.', options: ['el', 'unas', 'unos', 'la'], correct: 1 },
       { sentence: 'La construcción _____ un sector importante.', options: ['es', 'está', 'son', 'están'], correct: 0 },
-      { sentence: 'Nosotros _____ ocupados en la hostelería.', options: ['somos', 'estamos', 'sois', 'estáis'], correct: 1 },
-      { sentence: '_____ comida de los restaurantes baratos es muy rica.', options: ['El', 'La', 'Los', 'Las'], correct: 1 },
-      { sentence: 'Los profesores de bachata _____ latinos.', options: ['es', 'son', 'está', 'están'], correct: 1 }
+      { sentence: 'Nosotros _____ ocupados en la hostelería.', options: ['somos', 'sois', 'estamos', 'estáis'], correct: 2 },
+      { sentence: '_____ comida de los restaurantes baratos es muy rica.', options: ['El', 'Las', 'Los', 'La'], correct: 3 },
+      { sentence: 'Los profesores de bachata _____ latinos.', options: ['son', 'es', 'está', 'están'], correct: 0 }
     ]
   },
   'ex-1-4-inm-4': {
@@ -22149,19 +22149,19 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Словарный запас -ER/-IR',
     description: 'Выберите перевод',
     questions: [
-      { spanish: 'leer', options: ['писать', 'читать', 'жить', 'пить'], correct: 1 },
-      { spanish: 'vivir', options: ['есть', 'пить', 'жить', 'открывать'], correct: 2 },
-      { spanish: 'escribir', options: ['писать', 'читать', 'получать', 'продавать'], correct: 0 },
-      { spanish: 'comer', options: ['пить', 'есть', 'открывать', 'учиться'], correct: 1 },
-      { spanish: 'beber', options: ['есть', 'пить', 'читать', 'жить'], correct: 1 },
-      { spanish: 'aprender', options: ['учиться', 'писать', 'открывать', 'получать'], correct: 0 },
+      { spanish: 'leer', options: ['писать', 'пить', 'жить', 'читать'], correct: 3 },
+      { spanish: 'vivir', options: ['жить', 'пить', 'есть', 'открывать'], correct: 0 },
+      { spanish: 'escribir', options: ['читать', 'писать', 'получать', 'продавать'], correct: 1 },
+      { spanish: 'comer', options: ['пить', 'открывать', 'есть', 'учиться'], correct: 2 },
+      { spanish: 'beber', options: ['пить', 'есть', 'читать', 'жить'], correct: 0 },
+      { spanish: 'aprender', options: ['получать', 'писать', 'открывать', 'учиться'], correct: 3 },
       { spanish: 'abrir', options: ['писать', 'открывать', 'получать', 'есть'], correct: 1 },
       { spanish: 'recibir', options: ['писать', 'открывать', 'получать', 'учиться'], correct: 2 },
-      { spanish: 'comprender', options: ['понимать', 'покупать', 'продавать', 'писать'], correct: 0 },
-      { spanish: 'tomar', options: ['есть', 'брать, пить', 'открывать', 'писать'], correct: 1 },
-      { spanish: 'vender', options: ['покупать', 'продавать', 'понимать', 'брать'], correct: 1 },
+      { spanish: 'comprender', options: ['писать', 'покупать', 'продавать', 'понимать'], correct: 3 },
+      { spanish: 'tomar', options: ['есть', 'открывать', 'брать, пить', 'писать'], correct: 2 },
+      { spanish: 'vender', options: ['продавать', 'покупать', 'понимать', 'брать'], correct: 0 },
       { spanish: 'responder', options: ['спрашивать', 'отвечать', 'говорить', 'слушать'], correct: 1 },
-      { spanish: 'correr', options: ['ходить', 'бегать', 'прыгать', 'летать'], correct: 1 },
+      { spanish: 'correr', options: ['бегать', 'ходить', 'прыгать', 'летать'], correct: 0 },
       { spanish: 'subir', options: ['опускаться', 'подниматься', 'входить', 'выходить'], correct: 1 },
       { spanish: 'partir', options: ['приходить', 'оставаться', 'уезжать', 'входить'], correct: 2 }
     ]
@@ -22782,11 +22782,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Неправильные причастия',
     description: 'Выберите правильную форму неправильного причастия',
     questions: [
-      { sentence: 'He ___ (hacer) la tarea', options: ['hacido', 'hecho', 'haciendo', 'hacer'], correct: 1 },
-      { sentence: 'Has ___ (ver) la película?', options: ['veído', 'vido', 'visto', 'ver'], correct: 2 },
-      { sentence: 'Hemos ___ (decir) la verdad', options: ['decido', 'dicho', 'diciendo', 'decir'], correct: 1 },
+      { sentence: 'He ___ (hacer) la tarea', options: ['hecho', 'hacido', 'haciendo', 'hacer'], correct: 0 },
+      { sentence: 'Has ___ (ver) la película?', options: ['veído', 'vido', 'ver', 'visto'], correct: 3 },
+      { sentence: 'Hemos ___ (decir) la verdad', options: ['decido', 'diciendo', 'dicho', 'decir'], correct: 2 },
       { sentence: 'Han ___ (poner) la mesa', options: ['ponido', 'puesto', 'poniendo', 'poner'], correct: 1 },
-      { sentence: '¿Has ___ (volver) a casa?', options: ['volvido', 'volvido', 'vuelto', 'volver'], correct: 2 }
+      { sentence: '¿Has ___ (volver) a casa?', options: ['volvido', 'volvido', 'volver', 'vuelto'], correct: 3 }
     ]
   },
   'ex-4-1-3': {
@@ -22897,16 +22897,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Степени сравнения прилагательных',
     description: 'Дополните фразу используя превосходную степень',
     questions: [
-      { sentence: 'Este café es dulce. — Tienes razón. Pero aquel es ___ de todos.', options: ['el más dulce', 'más dulce', 'tan dulce', 'muy dulce'], correct: 0 },
-      { sentence: 'Este tren es rápido. — Tienes razón. Pero aquel es ___ de todos.', options: ['el más rápido', 'más rápido', 'tan rápido', 'muy rápido'], correct: 0 },
+      { sentence: 'Este café es dulce. — Tienes razón. Pero aquel es ___ de todos.', options: ['más dulce', 'el más dulce', 'tan dulce', 'muy dulce'], correct: 1 },
+      { sentence: 'Este tren es rápido. — Tienes razón. Pero aquel es ___ de todos.', options: ['muy rápido', 'más rápido', 'tan rápido', 'el más rápido'], correct: 3 },
       { sentence: 'Este autobús es cómodo. — Tienes razón. Pero aquel es ___ de todos.', options: ['el más cómodo', 'más cómodo', 'tan cómodo', 'muy cómodo'], correct: 0 },
-      { sentence: 'Esta estación es grande. — Tienes razón. Pero aquella es ___ de todas.', options: ['la más grande', 'más grande', 'tan grande', 'muy grande'], correct: 0 },
-      { sentence: 'Este taxi es barato. — Tienes razón. Pero aquel es ___ de todos.', options: ['el más barato', 'más barato', 'tan barato', 'muy barato'], correct: 0 },
+      { sentence: 'Esta estación es grande. — Tienes razón. Pero aquella es ___ de todas.', options: ['tan grande', 'más grande', 'la más grande', 'muy grande'], correct: 2 },
+      { sentence: 'Este taxi es barato. — Tienes razón. Pero aquel es ___ de todos.', options: ['más barato', 'el más barato', 'tan barato', 'muy barato'], correct: 1 },
       { sentence: 'Esta ruta es larga. — Tienes razón. Pero aquella es ___ de todas.', options: ['la más larga', 'más larga', 'tan larga', 'muy larga'], correct: 0 },
-      { sentence: 'Este viaje es interesante. — Tienes razón. Pero aquel es ___ de todos.', options: ['el más interesante', 'más interesante', 'tan interesante', 'muy interesante'], correct: 0 },
-      { sentence: 'Esta parada es cercana. — Tienes razón. Pero aquella es ___ de todas.', options: ['la más cercana', 'más cercana', 'tan cercana', 'muy cercana'], correct: 0 },
+      { sentence: 'Este viaje es interesante. — Tienes razón. Pero aquel es ___ de todos.', options: ['muy interesante', 'más interesante', 'tan interesante', 'el más interesante'], correct: 3 },
+      { sentence: 'Esta parada es cercana. — Tienes razón. Pero aquella es ___ de todas.', options: ['tan cercana', 'más cercana', 'la más cercana', 'muy cercana'], correct: 2 },
       { sentence: 'Este metro es moderno. — Tienes razón. Pero aquel es ___ de todos.', options: ['el más moderno', 'más moderno', 'tan moderno', 'muy moderno'], correct: 0 },
-      { sentence: 'Esta carretera es peligrosa. — Tienes razón. Pero aquella es ___ de todas.', options: ['la más peligrosa', 'más peligrosa', 'tan peligrosa', 'muy peligrosa'], correct: 0 }
+      { sentence: 'Esta carretera es peligrosa. — Tienes razón. Pero aquella es ___ de todas.', options: ['tan peligrosa', 'más peligrosa', 'la más peligrosa', 'muy peligrosa'], correct: 2 }
     ]
   },
   'ex-4-3-2': {
@@ -22933,16 +22933,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Предложные формы местоимений',
     description: 'Выберите правильную форму местоимения',
     questions: [
-      { sentence: 'Este regalo es para ___ (я)', options: ['mí', 'mi', 'yo', 'me'], correct: 0 },
-      { sentence: '¿Vienes con ___ (я)?', options: ['mí', 'mi', 'conmigo', 'me'], correct: 2 },
+      { sentence: 'Este regalo es para ___ (я)', options: ['me', 'mi', 'yo', 'mí'], correct: 3 },
+      { sentence: '¿Vienes con ___ (я)?', options: ['mí', 'conmigo', 'mi', 'me'], correct: 1 },
       { sentence: 'Quiero hablar con ___ (ты)', options: ['tú', 'ti', 'contigo', 'te'], correct: 2 },
-      { sentence: 'Esta tarjeta de transporte es para ___ (ты)', options: ['tú', 'ti', 'te', 'tu'], correct: 1 },
-      { sentence: 'El conductor habla de ___ (он)', options: ['él', 'le', 'lo', 'ella'], correct: 0 },
+      { sentence: 'Esta tarjeta de transporte es para ___ (ты)', options: ['ti', 'tú', 'te', 'tu'], correct: 0 },
+      { sentence: 'El conductor habla de ___ (он)', options: ['ella', 'le', 'lo', 'él'], correct: 3 },
       { sentence: 'El taxi viene por ___ (она)', options: ['la', 'ella', 'le', 'ella misma'], correct: 1 },
-      { sentence: 'Sin ___ (ты) no puedo viajar', options: ['tú', 'ti', 'te', 'tu'], correct: 1 },
-      { sentence: 'Según ___ (вы, ustedes), esta ruta es mejor', options: ['ustedes', 'les', 'los', 'vosotros'], correct: 0 },
-      { sentence: 'Entre ___ (ты) y yo, el metro es más rápido', options: ['tú', 'ti', 'te', 'contigo'], correct: 1 },
-      { sentence: 'Para ___ (я), el transporte público es conveniente', options: ['yo', 'mí', 'me', 'mi'], correct: 1 }
+      { sentence: 'Sin ___ (ты) no puedo viajar', options: ['ti', 'tú', 'te', 'tu'], correct: 0 },
+      { sentence: 'Según ___ (вы, ustedes), esta ruta es mejor', options: ['los', 'les', 'ustedes', 'vosotros'], correct: 2 },
+      { sentence: 'Entre ___ (ты) y yo, el metro es más rápido', options: ['tú', 'contigo', 'te', 'ti'], correct: 3 },
+      { sentence: 'Para ___ (я), el transporte público es conveniente', options: ['mí', 'yo', 'me', 'mi'], correct: 0 }
     ]
   },
   'ex-4-3-4': {
@@ -22970,11 +22970,11 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Выберите правильный вариант',
     questions: [
       { sentence: 'Para subir al metro necesito comprar una _____', options: ['parada', 'tarjeta de transporte', 'escalera mecánica', 'correspondencia'], correct: 1 },
-      { sentence: 'El metro de Madrid es _____ extenso que el de Barcelona', options: ['más', 'muy', 'mucho', 'tan'], correct: 0 },
-      { sentence: 'En la _____ puedes comprar billetes', options: ['parada', 'andén', 'taquilla', 'salida'], correct: 2 },
-      { sentence: 'Viajar en avión es _____ rápido que en tren', options: ['más', 'muy', 'mucho', 'tan'], correct: 0 },
+      { sentence: 'El metro de Madrid es _____ extenso que el de Barcelona', options: ['mucho', 'muy', 'más', 'tan'], correct: 2 },
+      { sentence: 'En la _____ puedes comprar billetes', options: ['taquilla', 'andén', 'parada', 'salida'], correct: 0 },
+      { sentence: 'Viajar en avión es _____ rápido que en tren', options: ['tan', 'muy', 'mucho', 'más'], correct: 3 },
       { sentence: 'La _____ indica cuánto cuesta el viaje en taxi', options: ['dirección', 'parada', 'taxímetro', 'tarjeta'], correct: 2 },
-      { sentence: 'Este autobús es _____ lleno _____ aquel', options: ['más...que', 'tan...como', 'muy...de', 'menos...de'], correct: 1 },
+      { sentence: 'Este autobús es _____ lleno _____ aquel', options: ['más...que', 'menos...de', 'muy...de', 'tan...como'], correct: 3 },
       { sentence: 'Si hay mucho tráfico, hay un _____ en la carretera', options: ['viaje', 'atasco', 'pasajero', 'conductor'], correct: 1 },
       { sentence: 'El transporte público es _____ ecológico que el coche privado', options: ['más', 'muy', 'mucho', 'tan'], correct: 0 },
       { sentence: 'Debes _____ en la próxima parada', options: ['subir', 'bajar', 'viajar', 'costar'], correct: 1 },
@@ -23099,21 +23099,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 4: Особые формы причастий',
     description: 'Выберите правильную форму причастия',
     questions: [
-      { sentence: 'La puerta está ___', options: ['abierta', 'abrida', 'abrienda', 'abriendo'], correct: 0 },
-      { sentence: 'El trabajo está ___', options: ['hacido', 'hecho', 'haciendo', 'hacer'], correct: 1 },
+      { sentence: 'La puerta está ___', options: ['abrienda', 'abrida', 'abierta', 'abriendo'], correct: 2 },
+      { sentence: 'El trabajo está ___', options: ['hacido', 'hacer', 'haciendo', 'hecho'], correct: 3 },
       { sentence: 'Los documentos están ___', options: ['escribidos', 'escritos', 'escribiendo', 'escrito'], correct: 1 },
-      { sentence: 'Las cartas han sido ___', options: ['poniéndose', 'pustas', 'ponidas', 'puestas'], correct: 3 },
-      { sentence: 'El jarrón está ___', options: ['rompido', 'roto', 'rompiendo', 'romper'], correct: 1 },
-      { sentence: 'Las ventanas están ___', options: ['cubiertas', 'cubridas', 'cubriendo', 'cubrir'], correct: 0 },
-      { sentence: 'El problema ha sido ___', options: ['resolvido', 'resuelto', 'resolviendo', 'resolver'], correct: 1 },
-      { sentence: 'Ella ha ___ la verdad', options: ['dicido', 'dicho', 'diciendo', 'decir'], correct: 1 },
-      { sentence: 'He ___ a mi familia', options: ['vedo', 'vido', 'visto', 'viendo'], correct: 2 },
-      { sentence: 'Han ___ de vacaciones', options: ['volvido', 'vuelto', 'volviendo', 'volver'], correct: 1 },
-      { sentence: 'América fue ___ por Colón', options: ['descubierta', 'descubrida', 'descubriendo', 'descubrir'], correct: 0 },
-      { sentence: 'El paquete ha sido ___', options: ['devolvido', 'devuelto', 'devolviendo', 'devolver'], correct: 1 },
-      { sentence: 'Han ___ una nueva ley', options: ['proponido', 'propuesto', 'proponiendo', 'proponer'], correct: 1 },
-      { sentence: 'Mozart ha ___ muchas sinfonías', options: ['componido', 'compuesto', 'componiendo', 'componer'], correct: 1 },
-      { sentence: 'El rey ha ___ ayer', options: ['morido', 'muerto', 'moriendo', 'morir'], correct: 1 }
+      { sentence: 'Las cartas han sido ___', options: ['puestas', 'pustas', 'ponidas', 'poniéndose'], correct: 0 },
+      { sentence: 'El jarrón está ___', options: ['rompido', 'romper', 'rompiendo', 'roto'], correct: 3 },
+      { sentence: 'Las ventanas están ___', options: ['cubridas', 'cubiertas', 'cubriendo', 'cubrir'], correct: 1 },
+      { sentence: 'El problema ha sido ___', options: ['resuelto', 'resolvido', 'resolviendo', 'resolver'], correct: 0 },
+      { sentence: 'Ella ha ___ la verdad', options: ['dicido', 'diciendo', 'dicho', 'decir'], correct: 2 },
+      { sentence: 'He ___ a mi familia', options: ['visto', 'vido', 'vedo', 'viendo'], correct: 0 },
+      { sentence: 'Han ___ de vacaciones', options: ['volvido', 'volver', 'volviendo', 'vuelto'], correct: 3 },
+      { sentence: 'América fue ___ por Colón', options: ['descubrida', 'descubierta', 'descubriendo', 'descubrir'], correct: 1 },
+      { sentence: 'El paquete ha sido ___', options: ['devolvido', 'devolviendo', 'devuelto', 'devolver'], correct: 2 },
+      { sentence: 'Han ___ una nueva ley', options: ['proponido', 'proponiendo', 'propuesto', 'proponer'], correct: 2 },
+      { sentence: 'Mozart ha ___ muchas sinfonías', options: ['compuesto', 'componido', 'componiendo', 'componer'], correct: 0 },
+      { sentence: 'El rey ha ___ ayer', options: ['morido', 'morir', 'moriendo', 'muerto'], correct: 3 }
     ]
   },
 
@@ -23243,17 +23243,17 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 11: Repaso completo - Participios y Pretérito Perfecto',
     description: 'Выберите правильную форму',
     questions: [
-      { sentence: 'Las cartas están ___', options: ['escribidas', 'escritas', 'escribiendo', 'escrito'], correct: 1 },
-      { sentence: '¿___ has visto a Juan?', options: ['Nunca', 'Siempre', 'Cada día', 'Ayer'], correct: 0 },
-      { sentence: 'Hoy ___ mucho frío.', options: ['hace', 'ha hecho', 'hacía', 'hizo'], correct: 1 },
-      { sentence: 'La puerta está ___', options: ['abriendo', 'abierta', 'abrida', 'abrir'], correct: 1 },
-      { sentence: '___ he comido paella.', options: ['Ayer', 'Esta mañana', 'El año pasado', 'Hace tres días'], correct: 1 },
-      { sentence: 'Ellos han ___ de vacaciones.', options: ['volvido', 'vuelto', 'volviendo', 'volver'], correct: 1 },
+      { sentence: 'Las cartas están ___', options: ['escribidas', 'escrito', 'escribiendo', 'escritas'], correct: 3 },
+      { sentence: '¿___ has visto a Juan?', options: ['Siempre', 'Nunca', 'Cada día', 'Ayer'], correct: 1 },
+      { sentence: 'Hoy ___ mucho frío.', options: ['ha hecho', 'hace', 'hacía', 'hizo'], correct: 0 },
+      { sentence: 'La puerta está ___', options: ['abriendo', 'abrida', 'abierta', 'abrir'], correct: 2 },
+      { sentence: '___ he comido paella.', options: ['Ayer', 'Hace tres días', 'El año pasado', 'Esta mañana'], correct: 3 },
+      { sentence: 'Ellos han ___ de vacaciones.', options: ['volvido', 'volviendo', 'vuelto', 'volver'], correct: 2 },
       { sentence: 'El trabajo está ___', correct: 'hecho' },
       { sentence: '¿Qué ___ (decir, tú) a tu madre?', correct: 'has dicho' },
       { sentence: 'Este año mi hermano ___ (casarse)', correct: 'se ha casado' },
       { sentence: 'Los libros están ___ (devolver)', correct: 'devueltos' },
-      { sentence: '¿___ habéis estado en París?', options: ['Ayer', 'Alguna vez', 'El mes pasado', 'Hace un año'], correct: 1 },
+      { sentence: '¿___ habéis estado en París?', options: ['Alguna vez', 'Ayer', 'El mes pasado', 'Hace un año'], correct: 0 },
       { sentence: 'Nosotros ___ (hacer) los deberes.', correct: 'hemos hecho' },
       { sentence: 'Las ventanas están ___ (abrir)', correct: 'abiertas' },
       { sentence: '___ no han llamado.', options: ['Ayer', 'Todavía no', 'Hace dos días', 'El lunes'], correct: 1 },
@@ -23268,13 +23268,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Ответьте на вопросы по тексту',
     text: 'Hoy ha sido un día muy ocupado. Esta mañana me he despertado a las siete porque tenía muchas cosas que hacer. He salido de casa a las ocho y media y he tomado el metro para ir al centro. Durante toda la mañana he trabajado en un proyecto importante. A la una he ido a comer con mis compañeros a un restaurante. Hemos comido paella de mariscos. Por la tarde he tenido la reunión con el cliente. Todo ha salido muy bien. He terminado de trabajar a las seis y he vuelto a casa en autobús.',
     questions: [
-      { question: '¿A qué hora se ha despertado?', options: ['A las seis', 'A las siete', 'A las ocho', 'A las nueve'], correct: 1 },
+      { question: '¿A qué hora se ha despertado?', options: ['A las seis', 'A las ocho', 'A las siete', 'A las nueve'], correct: 2 },
       { question: '¿Cómo ha ido al centro?', options: ['En autobús', 'En metro', 'En coche', 'A pie'], correct: 1 },
-      { question: '¿Dónde ha comido?', options: ['En casa', 'En la oficina', 'En un restaurante', 'En un café'], correct: 2 },
-      { question: '¿Qué ha comido?', options: ['Gazpacho', 'Paella de mariscos', 'Flan', 'Pollo asado'], correct: 1 },
-      { question: '¿Cómo ha salido la reunión?', options: ['Mal', 'Regular', 'Muy bien', 'No hubo reunión'], correct: 2 },
-      { question: '¿A qué hora ha terminado de trabajar?', options: ['A las cinco', 'A las seis', 'A las siete', 'A las ocho'], correct: 1 },
-      { question: '¿Cómo ha vuelto a casa?', options: ['En metro', 'En autobús', 'En coche', 'A pie'], correct: 1 }
+      { question: '¿Dónde ha comido?', options: ['En casa', 'En la oficina', 'En un café', 'En un restaurante'], correct: 3 },
+      { question: '¿Qué ha comido?', options: ['Paella de mariscos', 'Gazpacho', 'Flan', 'Pollo asado'], correct: 0 },
+      { question: '¿Cómo ha salido la reunión?', options: ['Mal', 'Muy bien', 'Regular', 'No hubo reunión'], correct: 1 },
+      { question: '¿A qué hora ha terminado de trabajar?', options: ['A las seis', 'A las cinco', 'A las siete', 'A las ocho'], correct: 0 },
+      { question: '¿Cómo ha vuelto a casa?', options: ['En metro', 'En coche', 'En autobús', 'A pie'], correct: 2 }
     ]
   },
 
@@ -23285,12 +23285,12 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Выберите правильный ответ на основе диалогов',
     questions: [
       { sentence: 'En el Diálogo 1: ¿Ana ha terminado el informe?', options: ['No, todavía no', 'Sí, ya lo ha terminado', 'No ha empezado', 'Lo terminará mañana'], correct: 1 },
-      { sentence: 'En el Diálogo 1: ¿Ana ha hablado con el cliente?', options: ['No', 'Sí, hace una hora', 'Sí, esta mañana', 'Sí, ayer'], correct: 1 },
-      { sentence: 'En el Diálogo 2: ¿Pedro ha cambiado de trabajo?', options: ['No', 'Sí, este mes', 'Sí, el año pasado', 'Va a cambiar'], correct: 1 },
+      { sentence: 'En el Diálogo 1: ¿Ana ha hablado con el cliente?', options: ['No', 'Sí, ayer', 'Sí, esta mañana', 'Sí, hace una hora'], correct: 3 },
+      { sentence: 'En el Diálogo 2: ¿Pedro ha cambiado de trabajo?', options: ['Sí, este mes', 'No', 'Sí, el año pasado', 'Va a cambiar'], correct: 0 },
       { sentence: 'En el Diálogo 2: ¿Pedro ha estado en Barcelona?', options: ['No', 'Sí, este año', 'Sí, el mes pasado', 'Sí, la semana pasada'], correct: 2 },
       { sentence: 'En el Diálogo 2: ¿María ha visto la nueva película de Almodóvar?', options: ['Sí, ya la ha visto', 'No, todavía no la ha visto', 'Sí, la semana pasada', 'No le gustan sus películas'], correct: 1 },
-      { sentence: 'En el Diálogo 3: ¿Juan ha terminado los deberes?', options: ['No', 'Sí, ya los ha terminado', 'Está terminando', 'No tiene deberes'], correct: 1 },
-      { sentence: 'En el Diálogo 3: ¿Laura ha recogido su habitación?', options: ['Sí', 'No, ha estado en el jardín', 'Sí, por la mañana', 'No menciona'], correct: 3 }
+      { sentence: 'En el Diálogo 3: ¿Juan ha terminado los deberes?', options: ['Sí, ya los ha terminado', 'No', 'Está terminando', 'No tiene deberes'], correct: 0 },
+      { sentence: 'En el Diálogo 3: ¿Laura ha recogido su habitación?', options: ['Sí', 'No, ha estado en el jardín', 'No menciona', 'Sí, por la mañana'], correct: 2 }
     ]
   },
 
@@ -23338,21 +23338,21 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 16: Соответствие причастий и инфинитивов',
     description: 'Соотнесите неправильные причастия с инфинитивами',
     questions: [
-      { sentence: 'abierto →', options: ['abrir', 'cubrir', 'escribir', 'romper'], correct: 0 },
-      { sentence: 'hecho →', options: ['decir', 'hacer', 'ver', 'poner'], correct: 1 },
+      { sentence: 'abierto →', options: ['romper', 'cubrir', 'escribir', 'abrir'], correct: 3 },
+      { sentence: 'hecho →', options: ['decir', 'ver', 'hacer', 'poner'], correct: 2 },
       { sentence: 'dicho →', options: ['decir', 'hacer', 'ver', 'escribir'], correct: 0 },
       { sentence: 'escrito →', options: ['ver', 'escribir', 'abrir', 'cubrir'], correct: 1 },
-      { sentence: 'visto →', options: ['volver', 'ver', 'vivir', 'venir'], correct: 1 },
+      { sentence: 'visto →', options: ['volver', 'vivir', 'ver', 'venir'], correct: 2 },
       { sentence: 'roto →', options: ['resolver', 'romper', 'volver', 'morir'], correct: 1 },
       { sentence: 'muerto →', options: ['morir', 'mover', 'mostrar', 'meter'], correct: 0 },
-      { sentence: 'puesto →', options: ['poner', 'poder', 'pasar', 'pensar'], correct: 0 },
-      { sentence: 'vuelto →', options: ['ver', 'venir', 'volver', 'vivir'], correct: 2 },
+      { sentence: 'puesto →', options: ['pensar', 'poder', 'pasar', 'poner'], correct: 3 },
+      { sentence: 'vuelto →', options: ['ver', 'venir', 'vivir', 'volver'], correct: 3 },
       { sentence: 'cubierto →', options: ['cubrir', 'cumplir', 'comer', 'correr'], correct: 0 },
       { sentence: 'resuelto →', options: ['resultar', 'resolver', 'responder', 'recibir'], correct: 1 },
-      { sentence: 'descubierto →', options: ['describir', 'descubrir', 'descansar', 'despertar'], correct: 1 },
+      { sentence: 'descubierto →', options: ['describir', 'descansar', 'descubrir', 'despertar'], correct: 2 },
       { sentence: 'devuelto →', options: ['deber', 'devolver', 'decidir', 'decir'], correct: 1 },
       { sentence: 'propuesto →', options: ['proponer', 'probar', 'producir', 'proteger'], correct: 0 },
-      { sentence: 'compuesto →', options: ['comparar', 'completar', 'componer', 'comprar'], correct: 2 }
+      { sentence: 'compuesto →', options: ['comparar', 'completar', 'comprar', 'componer'], correct: 3 }
     ]
   },
 
@@ -23434,20 +23434,20 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 20: Понимание текста',
     description: 'Выберите правильный ответ на основе текста "Así se trata la migraña"',
     questions: [
-      { question: '¿Qué tenía el paciente cuando llegó al hospital?', options: ['Un infarto', 'Una migraña insoportable', 'Una neumonía', 'Convulsiones'], correct: 1, explanation: 'Пациент поступил с невыносимой мигренью' },
-      { question: '¿Qué medicamento le administraron primero?', options: ['Fenotaleidol', 'Citofloratina', 'Metacloradona', 'Oxitronadol'], correct: 2, explanation: 'Первым дали метаклорадону' },
-      { question: '¿Qué efecto secundario causó la metacloradona?', options: ['Neumonía', 'Embolia', 'Convulsiones', 'Fallo hepático'], correct: 2, explanation: 'Метаклорадона вызвала судороги' },
-      { question: '¿Con qué se trata el fallo hepático según el doctor?', options: ['Fenotaleidol', 'Blastometa sana', 'Citofloratina', 'Cicloramo Mox'], correct: 2, explanation: 'Печёночную недостаточность лечат цитофлоратиной' },
-      { question: '¿Qué causó la citofloratina?', options: ['Un infarto', 'Una embolia', 'Una neumonía', 'Convulsiones'], correct: 2, explanation: 'Цитофлоратина вызвала пневмонию' },
+      { question: '¿Qué tenía el paciente cuando llegó al hospital?', options: ['Un infarto', 'Una neumonía', 'Una migraña insoportable', 'Convulsiones'], correct: 2, explanation: 'Пациент поступил с невыносимой мигренью' },
+      { question: '¿Qué medicamento le administraron primero?', options: ['Fenotaleidol', 'Metacloradona', 'Citofloratina', 'Oxitronadol'], correct: 1, explanation: 'Первым дали метаклорадону' },
+      { question: '¿Qué efecto secundario causó la metacloradona?', options: ['Convulsiones', 'Embolia', 'Neumonía', 'Fallo hepático'], correct: 0, explanation: 'Метаклорадона вызвала судороги' },
+      { question: '¿Con qué se trata el fallo hepático según el doctor?', options: ['Fenotaleidol', 'Blastometa sana', 'Cicloramo Mox', 'Citofloratina'], correct: 3, explanation: 'Печёночную недостаточность лечат цитофлоратиной' },
+      { question: '¿Qué causó la citofloratina?', options: ['Un infarto', 'Una embolia', 'Convulsiones', 'Una neumonía'], correct: 3, explanation: 'Цитофлоратина вызвала пневмонию' },
       { question: '¿Con qué medicamento se trata la neumonía?', options: ['Oxitronadol', 'Blastometa sana', 'Cicloramo Mox', 'Fenotaleidol'], correct: 1, explanation: 'Пневмонию лечат бластомета сана' },
-      { question: '¿Qué problema causó la blastometa sana?', options: ['Migraña', 'Neumonía', 'Infarto', 'Embolia'], correct: 2, explanation: 'Бластомета сана вызвала инфаркт' },
+      { question: '¿Qué problema causó la blastometa sana?', options: ['Infarto', 'Neumonía', 'Migraña', 'Embolia'], correct: 0, explanation: 'Бластомета сана вызвала инфаркт' },
       { question: '¿Con qué se trata el infarto?', options: ['Citofloratina', 'Oxitronadol', 'Cicloramo Mox', 'Metacloradona'], correct: 2, explanation: 'Инфаркт лечится Циклорамо Мокс' },
-      { question: '¿Qué causó el Cicloramo Mox?', options: ['Convulsiones', 'Una embolia', 'Fallo hepático', 'Neumonía'], correct: 1, explanation: 'Циклорамо Мокс вызвал эмболию' },
-      { question: '¿Qué efecto tuvo el oxitronadol?', options: ['Curó la embolia pero causó migraña', 'Curó la migraña pero causó embolia', 'Curó el infarto pero causó neumonía', 'Curó la neumonía pero causó convulsiones'], correct: 0, explanation: 'Окситронадол вылечил эмболию, но вызвал мигрень' },
-      { question: '¿Cuántos medicamentos diferentes le administraron al paciente?', options: ['Cuatro', 'Cinco', 'Seis', 'Siete'], correct: 2, explanation: 'Шесть разных лекарств' },
-      { question: '¿Cuál era el estado final del paciente?', options: ['Tenía un infarto', 'Tenía neumonía', 'Tenía una migraña insoportable', 'Estaba curado'], correct: 2, explanation: 'В итоге у пациента снова была невыносимая мигрень' },
+      { question: '¿Qué causó el Cicloramo Mox?', options: ['Convulsiones', 'Neumonía', 'Fallo hepático', 'Una embolia'], correct: 3, explanation: 'Циклорамо Мокс вызвал эмболию' },
+      { question: '¿Qué efecto tuvo el oxitronadol?', options: ['Curó el infarto pero causó neumonía', 'Curó la migraña pero causó embolia', 'Curó la embolia pero causó migraña', 'Curó la neumonía pero causó convulsiones'], correct: 2, explanation: 'Окситронадол вылечил эмболию, но вызвал мигрень' },
+      { question: '¿Cuántos medicamentos diferentes le administraron al paciente?', options: ['Seis', 'Cinco', 'Cuatro', 'Siete'], correct: 0, explanation: 'Шесть разных лекарств' },
+      { question: '¿Cuál era el estado final del paciente?', options: ['Tenía un infarto', 'Tenía una migraña insoportable', 'Tenía neumonía', 'Estaba curado'], correct: 1, explanation: 'В итоге у пациента снова была невыносимая мигрень' },
       { question: '¿Qué traía el paciente cuando entró en el hospital?', options: ['Flores para el médico', 'Una revista para su madre', 'Medicamentos', 'Documentos'], correct: 1, explanation: 'Пациент принёс журнал для своей мамы' },
-      { question: '¿Cuál es la ironía del diálogo?', options: ['El médico no sabe curar', 'El paciente termina con la misma enfermedad inicial', 'Los medicamentos son muy caros', 'El hospital está cerrado'], correct: 1, explanation: 'Ирония в том, что пациент закончил с той же болезнью, с которой начал' },
+      { question: '¿Cuál es la ironía del diálogo?', options: ['El paciente termina con la misma enfermedad inicial', 'El médico no sabe curar', 'Los medicamentos son muy caros', 'El hospital está cerrado'], correct: 0, explanation: 'Ирония в том, что пациент закончил с той же болезнью, с которой начал' },
       { question: '¿Quién habla con el doctor sobre el paciente?', options: ['Otro médico', 'El paciente mismo', 'La enfermera', 'Un familiar'], correct: 2, explanation: 'Медсестра разговаривает с доктором' }
     ]
   },
@@ -23624,16 +23624,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 4: Заполните пропуски',
     description: 'Выберите правильное местоимение',
     questions: [
-      { sentence: 'Quiero comer ___', options: ['algo', 'alguien', 'alguno', 'nada'], correct: 0 },
-      { sentence: 'Por la mañana el padre lee ___ periódico', options: ['algún', 'alguno', 'algunos', 'algo'], correct: 0 },
-      { sentence: 'Juan no hace ___, porque es perezoso', options: ['algo', 'alguien', 'nada', 'nadie'], correct: 2 },
-      { sentence: 'En nuestro grupo ___ estudiantes son de Francia', options: ['algún', 'algunos', 'ningún', 'algo'], correct: 1 },
-      { sentence: 'En mi cuarto no hay ___ espejo', options: ['algún', 'ningún', 'alguno', 'ninguno'], correct: 1 },
-      { sentence: 'Ana no pregunta ___ al profesor', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
-      { sentence: 'Pedro ___ va de compras con sus padres', options: ['nunca', 'jamás', 'siempre', 'algo'], correct: 0 },
-      { sentence: '¿Conoces a ___ de tus vecinos?', options: ['algo', 'alguien', 'alguno', 'algún'], correct: 2 },
-      { sentence: 'No sabe bailar bien ___ de mis amigas', options: ['ninguna', 'ningún', 'nadie', 'nada'], correct: 0 },
-      { sentence: '¿Esperas a alguien? — No espero a ___', options: ['algo', 'alguien', 'nadie', 'nada'], correct: 2 }
+      { sentence: 'Quiero comer ___', options: ['alguno', 'alguien', 'algo', 'nada'], correct: 2 },
+      { sentence: 'Por la mañana el padre lee ___ periódico', options: ['alguno', 'algún', 'algunos', 'algo'], correct: 1 },
+      { sentence: 'Juan no hace ___, porque es perezoso', options: ['algo', 'alguien', 'nadie', 'nada'], correct: 3 },
+      { sentence: 'En nuestro grupo ___ estudiantes son de Francia', options: ['algunos', 'algún', 'ningún', 'algo'], correct: 0 },
+      { sentence: 'En mi cuarto no hay ___ espejo', options: ['algún', 'alguno', 'ningún', 'ninguno'], correct: 2 },
+      { sentence: 'Ana no pregunta ___ al profesor', options: ['nada', 'algo', 'alguien', 'nadie'], correct: 0 },
+      { sentence: 'Pedro ___ va de compras con sus padres', options: ['jamás', 'nunca', 'siempre', 'algo'], correct: 1 },
+      { sentence: '¿Conoces a ___ de tus vecinos?', options: ['algo', 'alguien', 'algún', 'alguno'], correct: 3 },
+      { sentence: 'No sabe bailar bien ___ de mis amigas', options: ['nada', 'ningún', 'nadie', 'ninguna'], correct: 3 },
+      { sentence: '¿Esperas a alguien? — No espero a ___', options: ['nadie', 'alguien', 'algo', 'nada'], correct: 0 }
     ]
   },
 
@@ -23807,14 +23807,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 12: Futuro Simple - Значение (временное или модальное)',
     description: 'Определите значение будущего времени',
     questions: [
-      { sentence: 'Mañana iré al médico.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
-      { sentence: '¿Dónde estará Pedro? — Estará en casa.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 },
+      { sentence: 'Mañana iré al médico.', options: ['Вероятность', 'Будущее действие', 'Приказ', 'Желание'], correct: 1 },
+      { sentence: '¿Dónde estará Pedro? — Estará en casa.', options: ['Будущее действие', 'Приказ', 'Вероятность', 'Желание'], correct: 2 },
       { sentence: 'El próximo año viajaremos a Italia.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
-      { sentence: '¿Qué hora será? — Serán las tres.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 },
+      { sentence: '¿Qué hora será? — Serán las tres.', options: ['Будущее действие', 'Желание', 'Приказ', 'Вероятность'], correct: 3 },
       { sentence: 'Dentro de dos días te llamaré.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
       { sentence: '¿Cuántos años tendrá María? — Tendrá veinte años.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 },
-      { sentence: 'La semana que viene empezaré un nuevo trabajo.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 0 },
-      { sentence: '¿Quién será? — Será tu hermano.', options: ['Будущее действие', 'Вероятность', 'Приказ', 'Желание'], correct: 1 }
+      { sentence: 'La semana que viene empezaré un nuevo trabajo.', options: ['Приказ', 'Вероятность', 'Будущее действие', 'Желание'], correct: 2 },
+      { sentence: '¿Quién será? — Será tu hermano.', options: ['Будущее действие', 'Желание', 'Приказ', 'Вероятность'], correct: 3 }
     ]
   },
 
@@ -23824,16 +23824,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 13: Отрицательные местоимения',
     description: 'Выберите правильное отрицательное местоимение',
     questions: [
-      { sentence: 'No veo a ___ en la calle.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'No veo a ___ en la calle.', options: ['alguien', 'nada', 'algo', 'nadie'], correct: 3 },
       { sentence: 'No quiero ___ para comer.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
       { sentence: '___ ha llamado por teléfono.', options: ['Nadie', 'Nada', 'Ninguno', 'Nunca'], correct: 0 },
-      { sentence: 'No tengo ___ amigo en esta ciudad.', options: ['algún', 'ningún', 'nadie', 'nada'], correct: 1 },
-      { sentence: '___ voy al trabajo en coche.', options: ['Nadie', 'Nada', 'Ninguno', 'Nunca'], correct: 3 },
-      { sentence: 'No hay ___ en la nevera.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
-      { sentence: 'No conozco a ___ de ellos.', options: ['alguno', 'ninguno', 'algo', 'nada'], correct: 1 },
-      { sentence: '¿Conoces a alguien aquí? — No, no conozco a ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
+      { sentence: 'No tengo ___ amigo en esta ciudad.', options: ['algún', 'nadie', 'ningún', 'nada'], correct: 2 },
+      { sentence: '___ voy al trabajo en coche.', options: ['Nadie', 'Nunca', 'Ninguno', 'Nada'], correct: 1 },
+      { sentence: 'No hay ___ en la nevera.', options: ['algo', 'nadie', 'alguien', 'nada'], correct: 3 },
+      { sentence: 'No conozco a ___ de ellos.', options: ['alguno', 'algo', 'ninguno', 'nada'], correct: 2 },
+      { sentence: '¿Conoces a alguien aquí? — No, no conozco a ___.', options: ['nadie', 'alguien', 'algo', 'nada'], correct: 0 },
       { sentence: 'No he estado ___ en Barcelona.', options: ['nadie', 'nada', 'nunca', 'ninguno'], correct: 2 },
-      { sentence: 'No tenemos ___ información sobre el vuelo.', options: ['alguna', 'ninguna', 'nadie', 'nada'], correct: 1 }
+      { sentence: 'No tenemos ___ información sobre el vuelo.', options: ['alguna', 'nada', 'nadie', 'ninguna'], correct: 3 }
     ]
   },
 
@@ -23843,16 +23843,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 14: Неопределенные местоимения - alguno/ninguno',
     description: 'Выберите правильную форму местоимения',
     questions: [
-      { sentence: '¿Tienes ___ pregunta?', options: ['alguna', 'alguno', 'algunos', 'algunas'], correct: 0 },
-      { sentence: 'No tengo ___ libro de español.', options: ['algún', 'ningún', 'ninguno', 'ninguna'], correct: 1 },
+      { sentence: '¿Tienes ___ pregunta?', options: ['algunos', 'alguno', 'alguna', 'algunas'], correct: 2 },
+      { sentence: 'No tengo ___ libro de español.', options: ['ningún', 'algún', 'ninguno', 'ninguna'], correct: 0 },
       { sentence: '___ estudiantes han llegado tarde.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
-      { sentence: 'No hay ___ farmacia abierta.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
-      { sentence: '¿___ de vosotros sabe la respuesta?', options: ['Algún', 'Alguno', 'Algunos', 'Alguna'], correct: 1 },
-      { sentence: 'No conozco a ___ de tus amigos.', options: ['alguno', 'ninguno', 'algunos', 'ningunos'], correct: 1 },
-      { sentence: '¿Hay ___ problema?', options: ['algún', 'alguno', 'algunos', 'alguna'], correct: 0 },
+      { sentence: 'No hay ___ farmacia abierta.', options: ['alguna', 'ningún', 'algunos', 'ninguna'], correct: 3 },
+      { sentence: '¿___ de vosotros sabe la respuesta?', options: ['Algún', 'Alguna', 'Algunos', 'Alguno'], correct: 3 },
+      { sentence: 'No conozco a ___ de tus amigos.', options: ['ninguno', 'alguno', 'algunos', 'ningunos'], correct: 0 },
+      { sentence: '¿Hay ___ problema?', options: ['alguno', 'algún', 'algunos', 'alguna'], correct: 1 },
       { sentence: 'No tenemos ___ duda.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
-      { sentence: '___ días trabajo desde casa.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
-      { sentence: 'No he visto ___ película de Almodóvar.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 }
+      { sentence: '___ días trabajo desde casa.', options: ['Algún', 'Alguno', 'Algunos', 'Alguna'], correct: 2 },
+      { sentence: 'No he visto ___ película de Almodóvar.', options: ['alguna', 'ningún', 'algunos', 'ninguna'], correct: 3 }
     ]
   },
 
@@ -23863,15 +23863,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Выберите правильное местоимение',
     questions: [
       { sentence: '___ el mundo habla español en este país.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 1 },
-      { sentence: '___ día voy al gimnasio.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
+      { sentence: '___ día voy al gimnasio.', options: ['Todo', 'Cualquier', 'Otro', 'Cada'], correct: 3 },
       { sentence: 'Necesito ___ café, este está frío.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 2 },
-      { sentence: '___ persona puede aprender español.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 3 },
-      { sentence: '___ los pasajeros deben tener pasaporte.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
-      { sentence: '___ vez que viajo, compro souvenirs.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 },
-      { sentence: 'Vivo en ___ ciudad, no en Madrid.', options: ['cada', 'todo', 'otra', 'cualquier'], correct: 2 },
-      { sentence: 'Puedes venir ___ día que quieras.', options: ['cada', 'todo', 'otro', 'cualquier'], correct: 3 },
+      { sentence: '___ persona puede aprender español.', options: ['Cualquier', 'Todo', 'Otro', 'Cada'], correct: 0 },
+      { sentence: '___ los pasajeros deben tener pasaporte.', options: ['Todos', 'Cada', 'Otro', 'Cualquier'], correct: 0 },
+      { sentence: '___ vez que viajo, compro souvenirs.', options: ['Todo', 'Otro', 'Cada', 'Cualquier'], correct: 2 },
+      { sentence: 'Vivo en ___ ciudad, no en Madrid.', options: ['cada', 'todo', 'cualquier', 'otra'], correct: 3 },
+      { sentence: 'Puedes venir ___ día que quieras.', options: ['cada', 'cualquier', 'otro', 'todo'], correct: 1 },
       { sentence: '___ el equipaje está en el avión.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 1 },
-      { sentence: '___ estudiante tiene su propio libro.', options: ['Todo', 'Cada', 'Otro', 'Cualquier'], correct: 1 }
+      { sentence: '___ estudiante tiene su propio libro.', options: ['Todo', 'Otro', 'Cada', 'Cualquier'], correct: 2 }
     ]
   },
 
@@ -23881,18 +23881,18 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 16: Грамматика урока - Обобщающее упражнение',
     description: 'Выберите правильный вариант (Futuro Simple + местоимения)',
     questions: [
-      { sentence: 'Mañana ___ (nosotros, ir) al aeropuerto.', options: ['vamos', 'iremos', 'iríamos', 'fuimos'], correct: 1 },
-      { sentence: 'No hay ___ en la sala de espera.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
-      { sentence: 'Yo te ___ (decir) la hora de salida del vuelo.', options: ['diré', 'decía', 'digo', 'diría'], correct: 0 },
+      { sentence: 'Mañana ___ (nosotros, ir) al aeropuerto.', options: ['vamos', 'iríamos', 'iremos', 'fuimos'], correct: 2 },
+      { sentence: 'No hay ___ en la sala de espera.', options: ['nadie', 'alguien', 'algo', 'nada'], correct: 0 },
+      { sentence: 'Yo te ___ (decir) la hora de salida del vuelo.', options: ['diría', 'decía', 'digo', 'diré'], correct: 3 },
       { sentence: '___ los viajeros deben facturar el equipaje.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
-      { sentence: '¿Dónde estará mi maleta? — ___ en el avión.', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
-      { sentence: 'No conozco a ___ de los pasajeros.', options: ['alguno', 'ninguno', 'alguien', 'nadie'], correct: 1 },
-      { sentence: '___ día viajaré a América del Sur.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 2 },
-      { sentence: 'Nosotros ___ (hacer) escala en París.', options: ['hacemos', 'haremos', 'haríamos', 'hicimos'], correct: 1 },
-      { sentence: '___ nunca he viajado en primera clase.', options: ['Yo', 'Tú', 'Él', 'Nosotros'], correct: 0 },
+      { sentence: '¿Dónde estará mi maleta? — ___ en el avión.', options: ['Está', 'Estará', 'Estaba', 'Estuvo'], correct: 1 },
+      { sentence: 'No conozco a ___ de los pasajeros.', options: ['ninguno', 'alguno', 'alguien', 'nadie'], correct: 0 },
+      { sentence: '___ día viajaré a América del Sur.', options: ['Cada', 'Todo', 'Cualquier', 'Otro'], correct: 3 },
+      { sentence: 'Nosotros ___ (hacer) escala en París.', options: ['hacemos', 'haríamos', 'haremos', 'hicimos'], correct: 2 },
+      { sentence: '___ nunca he viajado en primera clase.', options: ['Nosotros', 'Tú', 'Él', 'Yo'], correct: 3 },
       { sentence: '¿Hay ___ asiento libre? — No, no hay ___.', options: ['algún / ninguno', 'ningún / alguno', 'algo / nada', 'alguien / nadie'], correct: 0 },
       { sentence: '___ pasajero puede llevar una maleta de mano.', options: ['Todo', 'Cada', 'Otro', 'Todos'], correct: 1 },
-      { sentence: 'Ellos ___ (poder) embarcar a las 10.', options: ['pueden', 'podrán', 'podrían', 'pudieron'], correct: 1 }
+      { sentence: 'Ellos ___ (poder) embarcar a las 10.', options: ['pueden', 'podrían', 'podrán', 'pudieron'], correct: 2 }
     ]
   },
 
@@ -23921,14 +23921,14 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 2: Futuro Simple - Неправильные глаголы',
     description: 'Выберите правильную форму неправильного глагола',
     questions: [
-      { sentence: 'Yo te ___ (decir) la verdad mañana.', options: ['decirá', 'diré', 'diría', 'digo'], correct: 1 },
-      { sentence: 'Nosotros ___ (hacer) el trabajo esta semana.', options: ['haceremos', 'haremos', 'hacíamos', 'hacemos'], correct: 1 },
+      { sentence: 'Yo te ___ (decir) la verdad mañana.', options: ['decirá', 'digo', 'diría', 'diré'], correct: 3 },
+      { sentence: 'Nosotros ___ (hacer) el trabajo esta semana.', options: ['haceremos', 'hacíamos', 'haremos', 'hacemos'], correct: 2 },
       { sentence: 'Tú ___ (poder) venir a la fiesta.', options: ['poderás', 'podrás', 'puedes', 'podías'], correct: 1 },
-      { sentence: 'Ellos ___ (saber) los resultados pronto.', options: ['saberán', 'sabían', 'sabrán', 'saben'], correct: 2 },
-      { sentence: 'Yo ___ (salir) temprano del trabajo.', options: ['saliré', 'salía', 'saldré', 'salgo'], correct: 2 },
-      { sentence: 'Vosotros ___ (poner) la mesa para la cena.', options: ['poneréis', 'ponéis', 'pondréis', 'ponías'], correct: 2 },
-      { sentence: 'Ella ___ (venir) a visitarnos en julio.', options: ['venirá', 'vendría', 'vendrá', 'viene'], correct: 2 },
-      { sentence: 'Ustedes ___ (tener) que esperar un poco.', options: ['tenerán', 'tendrán', 'tenían', 'tienen'], correct: 1 },
+      { sentence: 'Ellos ___ (saber) los resultados pronto.', options: ['sabrán', 'sabían', 'saberán', 'saben'], correct: 0 },
+      { sentence: 'Yo ___ (salir) temprano del trabajo.', options: ['saliré', 'salía', 'salgo', 'saldré'], correct: 3 },
+      { sentence: 'Vosotros ___ (poner) la mesa para la cena.', options: ['pondréis', 'ponéis', 'poneréis', 'ponías'], correct: 0 },
+      { sentence: 'Ella ___ (venir) a visitarnos en julio.', options: ['venirá', 'vendrá', 'vendría', 'viene'], correct: 1 },
+      { sentence: 'Ustedes ___ (tener) que esperar un poco.', options: ['tenerán', 'tenían', 'tendrán', 'tienen'], correct: 2 },
       { sentence: 'Yo ___ (querer) ir al concierto.', options: ['querrá', 'querré', 'quería', 'quiero'], correct: 1 },
       { sentence: 'Mañana ___ (haber) una reunión importante.', options: ['habrá', 'había', 'hay', 'habría'], correct: 0 }
     ]
@@ -23940,16 +23940,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 3: Погода - Выражения с HACER',
     description: 'Выберите правильное выражение для описания погоды',
     questions: [
-      { sentence: 'Cuando ___, necesito un abrigo.', options: ['hace calor', 'hace frío', 'hace sol', 'hace buen tiempo'], correct: 1 },
-      { sentence: 'En verano en España ___ mucho.', options: ['hace frío', 'hace calor', 'nieva', 'hace mal tiempo'], correct: 1 },
-      { sentence: 'Hoy es un día perfecto para la playa porque ___.', options: ['llueve', 'nieva', 'hace sol', 'hace frío'], correct: 2 },
-      { sentence: 'No puedo abrir el paraguas porque ___ mucho.', options: ['hace sol', 'hace viento', 'hace calor', 'hace buen tiempo'], correct: 1 },
-      { sentence: 'En invierno en Moscú ___.', options: ['hace calor', 'hace mucho frío', 'hace sol siempre', 'llueve mucho'], correct: 1 },
+      { sentence: 'Cuando ___, necesito un abrigo.', options: ['hace calor', 'hace sol', 'hace frío', 'hace buen tiempo'], correct: 2 },
+      { sentence: 'En verano en España ___ mucho.', options: ['hace frío', 'hace mal tiempo', 'nieva', 'hace calor'], correct: 3 },
+      { sentence: 'Hoy es un día perfecto para la playa porque ___.', options: ['llueve', 'hace sol', 'nieva', 'hace frío'], correct: 1 },
+      { sentence: 'No puedo abrir el paraguas porque ___ mucho.', options: ['hace viento', 'hace sol', 'hace calor', 'hace buen tiempo'], correct: 0 },
+      { sentence: 'En invierno en Moscú ___.', options: ['hace calor', 'llueve mucho', 'hace sol siempre', 'hace mucho frío'], correct: 3 },
       { sentence: 'Cuando ___, la gente va al parque.', options: ['hace mal tiempo', 'nieva', 'hace buen tiempo', 'llueve'], correct: 2 },
       { sentence: 'Hoy la temperatura está a 5 grados ___ cero.', options: ['sobre', 'bajo', 'en', 'de'], correct: 1 },
-      { sentence: 'En otoño en Madrid ___ frecuentemente.', options: ['nieva', 'hace mucho calor', 'llueve', 'hace frío'], correct: 2 },
-      { sentence: 'Necesitas gafas de sol cuando ___.', options: ['llueve', 'nieva', 'hace sol', 'hace viento'], correct: 2 },
-      { sentence: 'En las montañas en invierno ___.', options: ['hace calor', 'nieva', 'hace buen tiempo siempre', 'llueve'], correct: 1 }
+      { sentence: 'En otoño en Madrid ___ frecuentemente.', options: ['llueve', 'hace mucho calor', 'nieva', 'hace frío'], correct: 0 },
+      { sentence: 'Necesitas gafas de sol cuando ___.', options: ['llueve', 'nieva', 'hace viento', 'hace sol'], correct: 3 },
+      { sentence: 'En las montañas en invierno ___.', options: ['hace calor', 'hace buen tiempo siempre', 'nieva', 'llueve'], correct: 2 }
     ]
   },
 
@@ -23960,15 +23960,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Выберите правильное отрицательное местоимение',
     questions: [
       { sentence: 'En el aeropuerto no veo a ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
-      { sentence: 'No hay ___ información sobre el vuelo.', options: ['alguna', 'ninguna', 'alguien', 'nadie'], correct: 1 },
+      { sentence: 'No hay ___ información sobre el vuelo.', options: ['alguna', 'alguien', 'ninguna', 'nadie'], correct: 2 },
       { sentence: '___ ha llamado por teléfono.', options: ['Nadie', 'Nada', 'Alguno', 'Alguien'], correct: 0 },
-      { sentence: 'No quiero comer ___.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 1 },
-      { sentence: '___ viajo sin mi maleta.', options: ['Siempre', 'Nunca', 'A veces', 'Mucho'], correct: 1 },
+      { sentence: 'No quiero comer ___.', options: ['algo', 'nadie', 'alguien', 'nada'], correct: 3 },
+      { sentence: '___ viajo sin mi maleta.', options: ['Siempre', 'Mucho', 'A veces', 'Nunca'], correct: 3 },
       { sentence: 'No conozco a ___ de los pasajeros.', options: ['alguno', 'ninguno', 'algo', 'nada'], correct: 1 },
-      { sentence: 'En la sala de espera no hay ___.', options: ['algo', 'nada', 'alguien', 'nadie'], correct: 3 },
-      { sentence: 'No tengo ___ pregunta.', options: ['alguna', 'ninguna', 'alguien', 'nadie'], correct: 1 },
-      { sentence: '___ he estado en primera clase.', options: ['Siempre', 'Nunca', 'Mucho', 'Poco'], correct: 1 },
-      { sentence: '¿Hay alguien aquí? — No, no hay ___.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 }
+      { sentence: 'En la sala de espera no hay ___.', options: ['nadie', 'nada', 'alguien', 'algo'], correct: 0 },
+      { sentence: 'No tengo ___ pregunta.', options: ['alguna', 'alguien', 'ninguna', 'nadie'], correct: 2 },
+      { sentence: '___ he estado en primera clase.', options: ['Siempre', 'Poco', 'Mucho', 'Nunca'], correct: 3 },
+      { sentence: '¿Hay alguien aquí? — No, no hay ___.', options: ['alguien', 'algo', 'nadie', 'nada'], correct: 2 }
     ]
   },
 
@@ -23978,16 +23978,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 5: Неопределенные местоимения - alguno/ninguno',
     description: 'Выберите правильную форму местоимения',
     questions: [
-      { sentence: '¿Tienes ___ maleta?', options: ['alguna', 'alguno', 'algunos', 'algunas'], correct: 0 },
-      { sentence: 'No tengo ___ billete de avión.', options: ['algún', 'ningún', 'ninguno', 'ninguna'], correct: 1 },
-      { sentence: '___ pasajeros ya han embarcado.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
+      { sentence: '¿Tienes ___ maleta?', options: ['algunas', 'alguno', 'algunos', 'alguna'], correct: 3 },
+      { sentence: 'No tengo ___ billete de avión.', options: ['algún', 'ninguno', 'ningún', 'ninguna'], correct: 2 },
+      { sentence: '___ pasajeros ya han embarcado.', options: ['Algunos', 'Algún', 'Alguno', 'Alguna'], correct: 0 },
       { sentence: 'No hay ___ vuelo disponible hoy.', options: ['algún', 'ningún', 'ninguno', 'algunos'], correct: 1 },
-      { sentence: '¿___ de ustedes sabe el número de puerta?', options: ['Algún', 'Alguno', 'Algunos', 'Alguna'], correct: 1 },
+      { sentence: '¿___ de ustedes sabe el número de puerta?', options: ['Algún', 'Alguna', 'Algunos', 'Alguno'], correct: 3 },
       { sentence: 'No conozco a ___ azafata de este vuelo.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
       { sentence: '¿Hay ___ problema con el equipaje?', options: ['algún', 'alguno', 'algunos', 'alguna'], correct: 0 },
-      { sentence: 'No tenemos ___ información sobre el retraso.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 },
-      { sentence: '___ días el vuelo sale con retraso.', options: ['Algún', 'Algunos', 'Alguno', 'Alguna'], correct: 1 },
-      { sentence: 'No he visto ___ película en el avión.', options: ['alguna', 'ningún', 'ninguna', 'algunos'], correct: 2 }
+      { sentence: 'No tenemos ___ información sobre el retraso.', options: ['alguna', 'ninguna', 'ningún', 'algunos'], correct: 1 },
+      { sentence: '___ días el vuelo sale con retraso.', options: ['Algunos', 'Algún', 'Alguno', 'Alguna'], correct: 0 },
+      { sentence: 'No he visto ___ película en el avión.', options: ['alguna', 'ningún', 'algunos', 'ninguna'], correct: 3 }
     ]
   },
 
@@ -24016,15 +24016,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 7: Futuro de Probabilidad',
     description: 'Выберите правильную форму для выражения вероятности',
     questions: [
-      { sentence: '¿Qué hora es? — ___ las tres.', options: ['Es', 'Será', 'Serán', 'Era'], correct: 2 },
+      { sentence: '¿Qué hora es? — ___ las tres.', options: ['Serán', 'Será', 'Es', 'Era'], correct: 0 },
       { sentence: '¿Dónde está María? — ___ en el aeropuerto.', options: ['Está', 'Estará', 'Estaba', 'Estuvo'], correct: 1 },
-      { sentence: '¿Cuántos años tiene tu hermano? — ___ 25 años.', options: ['Tiene', 'Tendrá', 'Tenía', 'Tuvo'], correct: 1 },
-      { sentence: '¿Por qué no ha llegado el vuelo? — ___ mal tiempo.', options: ['Hace', 'Hará', 'Hacía', 'Hizo'], correct: 1 },
-      { sentence: '¿Quién es ese señor? — ___ el piloto.', options: ['Es', 'Será', 'Era', 'Fue'], correct: 1 },
-      { sentence: '¿Cuánto cuesta el billete? — ___ unos 200 euros.', options: ['Cuesta', 'Costará', 'Costaba', 'Costó'], correct: 1 },
+      { sentence: '¿Cuántos años tiene tu hermano? — ___ 25 años.', options: ['Tiene', 'Tenía', 'Tendrá', 'Tuvo'], correct: 2 },
+      { sentence: '¿Por qué no ha llegado el vuelo? — ___ mal tiempo.', options: ['Hace', 'Hizo', 'Hacía', 'Hará'], correct: 3 },
+      { sentence: '¿Quién es ese señor? — ___ el piloto.', options: ['Es', 'Fue', 'Era', 'Será'], correct: 3 },
+      { sentence: '¿Cuánto cuesta el billete? — ___ unos 200 euros.', options: ['Cuesta', 'Costaba', 'Costará', 'Costó'], correct: 2 },
       { sentence: '¿Dónde están mis maletas? — ___ en el avión.', options: ['Están', 'Estarán', 'Estaban', 'Estuvieron'], correct: 1 },
-      { sentence: '¿Qué tiempo hace allí? — ___ sol.', options: ['Hace', 'Hará', 'Hacía', 'Hizo'], correct: 1 },
-      { sentence: '¿A qué hora sale el vuelo? — ___ a las 10.', options: ['Sale', 'Saldrá', 'Salía', 'Salió'], correct: 1 },
+      { sentence: '¿Qué tiempo hace allí? — ___ sol.', options: ['Hará', 'Hace', 'Hacía', 'Hizo'], correct: 0 },
+      { sentence: '¿A qué hora sale el vuelo? — ___ a las 10.', options: ['Sale', 'Salía', 'Saldrá', 'Salió'], correct: 2 },
       { sentence: '¿Por qué llora el niño? — ___ cansado.', options: ['Está', 'Estará', 'Estaba', 'Estuvo'], correct: 1 }
     ]
   },
@@ -24035,15 +24035,15 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 8: Смешанная грамматика - Futuro Simple и местоимения',
     description: 'Выберите правильный вариант',
     questions: [
-      { sentence: 'Mañana ___ (yo, ir) al aeropuerto temprano.', options: ['voy', 'iré', 'iría', 'fui'], correct: 1 },
-      { sentence: 'No hay ___ en la sala de embarque.', options: ['alguien', 'nadie', 'algo', 'nada'], correct: 1 },
-      { sentence: 'El próximo año nosotros ___ (hacer) un viaje largo.', options: ['hacemos', 'haremos', 'haríamos', 'hicimos'], correct: 1 },
+      { sentence: 'Mañana ___ (yo, ir) al aeropuerto temprano.', options: ['voy', 'fui', 'iría', 'iré'], correct: 3 },
+      { sentence: 'No hay ___ en la sala de embarque.', options: ['alguien', 'algo', 'nadie', 'nada'], correct: 2 },
+      { sentence: 'El próximo año nosotros ___ (hacer) un viaje largo.', options: ['haremos', 'hacemos', 'haríamos', 'hicimos'], correct: 0 },
       { sentence: '___ los pasajeros deben facturar el equipaje.', options: ['Cada', 'Todos', 'Otro', 'Cualquier'], correct: 1 },
-      { sentence: '¿Dónde estará mi tarjeta de embarque? — ___ en tu bolso.', options: ['Está', 'Estaba', 'Estará', 'Estuvo'], correct: 2 },
-      { sentence: 'No conozco a ___ de los tripulantes.', options: ['alguno', 'ninguno', 'alguien', 'nadie'], correct: 1 },
-      { sentence: '___ día visitaré México.', options: ['Cada', 'Todo', 'Otro', 'Cualquier'], correct: 2 },
-      { sentence: 'Mañana ___ (llover) mucho.', options: ['llueve', 'lloverá', 'llovía', 'llovió'], correct: 1 },
-      { sentence: '___ nunca he volado en primera clase.', options: ['Yo', 'Tú', 'Él', 'Nosotros'], correct: 0 },
+      { sentence: '¿Dónde estará mi tarjeta de embarque? — ___ en tu bolso.', options: ['Está', 'Estaba', 'Estuvo', 'Estará'], correct: 3 },
+      { sentence: 'No conozco a ___ de los tripulantes.', options: ['alguno', 'alguien', 'ninguno', 'nadie'], correct: 2 },
+      { sentence: '___ día visitaré México.', options: ['Cada', 'Otro', 'Todo', 'Cualquier'], correct: 1 },
+      { sentence: 'Mañana ___ (llover) mucho.', options: ['lloverá', 'llueve', 'llovía', 'llovió'], correct: 0 },
+      { sentence: '___ nunca he volado en primera clase.', options: ['Tú', 'Yo', 'Él', 'Nosotros'], correct: 1 },
       { sentence: '¿Hay ___ vuelo directo? — No, no hay ___.', options: ['algún / ninguno', 'ningún / alguno', 'algo / nada', 'alguien / nadie'], correct: 0 }
     ]
   },
@@ -24054,16 +24054,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Упражнение 9: Погода и путешествия',
     description: 'Выберите правильный вариант',
     questions: [
-      { sentence: 'El vuelo está cancelado debido a ___.', options: ['hace sol', 'hace buen tiempo', 'condiciones meteorológicas desfavorables', 'hace calor'], correct: 2 },
-      { sentence: 'Cuando ___, es difícil conducir.', options: ['hace sol', 'hace buen tiempo', 'nieva', 'hace calor'], correct: 2 },
-      { sentence: 'El avión no puede despegar porque hay ___.', options: ['sol', 'buen tiempo', 'niebla', 'calor'], correct: 2 },
-      { sentence: 'El retraso del vuelo es por ___.', options: ['hace sol', 'desperfectos técnicos', 'hace buen tiempo', 'hace calor'], correct: 1 },
-      { sentence: 'Todos los vuelos están cancelados por ___.', options: ['hace sol', 'huelga del personal', 'hace buen tiempo', 'hace calor'], correct: 1 },
+      { sentence: 'El vuelo está cancelado debido a ___.', options: ['hace sol', 'condiciones meteorológicas desfavorables', 'hace buen tiempo', 'hace calor'], correct: 1 },
+      { sentence: 'Cuando ___, es difícil conducir.', options: ['hace sol', 'hace buen tiempo', 'hace calor', 'nieva'], correct: 3 },
+      { sentence: 'El avión no puede despegar porque hay ___.', options: ['niebla', 'buen tiempo', 'sol', 'calor'], correct: 0 },
+      { sentence: 'El retraso del vuelo es por ___.', options: ['hace sol', 'hace buen tiempo', 'desperfectos técnicos', 'hace calor'], correct: 2 },
+      { sentence: 'Todos los vuelos están cancelados por ___.', options: ['hace sol', 'hace calor', 'hace buen tiempo', 'huelga del personal'], correct: 3 },
       { sentence: 'En invierno las carreteras están cubiertas de ___.', options: ['sol', 'calor', 'nieve', 'viento'], correct: 2 },
-      { sentence: 'Durante la ___ es peligroso volar.', options: ['sol', 'buen tiempo', 'tormenta', 'calor'], correct: 2 },
-      { sentence: 'El aeropuerto está cerrado por ___.', options: ['hace sol', 'hace buen tiempo', 'un huracán', 'hace calor'], correct: 2 },
+      { sentence: 'Durante la ___ es peligroso volar.', options: ['sol', 'tormenta', 'buen tiempo', 'calor'], correct: 1 },
+      { sentence: 'El aeropuerto está cerrado por ___.', options: ['un huracán', 'hace buen tiempo', 'hace sol', 'hace calor'], correct: 0 },
       { sentence: 'Hay ___ en la pista, el avión no puede aterrizar.', options: ['sol', 'escarcha', 'buen tiempo', 'calor'], correct: 1 },
-      { sentence: 'El vuelo se retrasa por ___.', options: ['hace buen tiempo', 'hace sol', 'una nevada fuerte', 'hace calor'], correct: 2 }
+      { sentence: 'El vuelo se retrasa por ___.', options: ['hace buen tiempo', 'hace sol', 'hace calor', 'una nevada fuerte'], correct: 3 }
     ]
   },
 
@@ -24792,16 +24792,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'MISMO - Усиление (ahora mismo, hoy mismo, aquí mismo)',
     description: 'Выберите правильный вариант с наречием + MISMO',
     questions: [
-      { sentence: 'Voy a salir ___', options: ['ahora mismo', 'ahora misma', 'ahora mismos', 'ahora mismas'], correct: 0 },
-      { sentence: 'Lo haré ___', options: ['hoy mismo', 'hoy misma', 'hoy mismos', 'hoy mismas'], correct: 0 },
+      { sentence: 'Voy a salir ___', options: ['ahora mismos', 'ahora misma', 'ahora mismo', 'ahora mismas'], correct: 2 },
+      { sentence: 'Lo haré ___', options: ['hoy misma', 'hoy mismo', 'hoy mismos', 'hoy mismas'], correct: 1 },
       { sentence: 'Ven ___', options: ['aquí mismo', 'aquí misma', 'aquí mismos', 'aquí mismas'], correct: 0 },
-      { sentence: 'Llegó ___', options: ['ayer mismo', 'ayer misma', 'ayer mismos', 'ayer mismas'], correct: 0 },
-      { sentence: 'Voy a llamarlo ___', options: ['mañana mismo', 'mañana misma', 'mañana mismos', 'mañana mismas'], correct: 0 },
-      { sentence: 'Vimos la iglesia ___', options: ['allí mismo', 'allí misma', 'allí mismos', 'allí mismas'], correct: 0 },
+      { sentence: 'Llegó ___', options: ['ayer mismas', 'ayer misma', 'ayer mismos', 'ayer mismo'], correct: 3 },
+      { sentence: 'Voy a llamarlo ___', options: ['mañana misma', 'mañana mismo', 'mañana mismos', 'mañana mismas'], correct: 1 },
+      { sentence: 'Vimos la iglesia ___', options: ['allí mismos', 'allí misma', 'allí mismo', 'allí mismas'], correct: 2 },
       { sentence: 'Empezamos ___', options: ['ahora mismo', 'ahora misma', 'ahora mismos', 'ahora mismas'], correct: 0 },
-      { sentence: 'Lo terminé ___', options: ['ayer mismo', 'ayer misma', 'ayer mismos', 'ayer mismas'], correct: 0 },
+      { sentence: 'Lo terminé ___', options: ['ayer mismas', 'ayer misma', 'ayer mismos', 'ayer mismo'], correct: 3 },
       { sentence: 'Quédate ___', options: ['aquí mismo', 'aquí misma', 'aquí mismos', 'aquí mismas'], correct: 0 },
-      { sentence: 'Vamos a viajar ___', options: ['mañana mismo', 'mañana misma', 'mañana mismos', 'mañana mismas'], correct: 0 }
+      { sentence: 'Vamos a viajar ___', options: ['mañana mismos', 'mañana misma', 'mañana mismo', 'mañana mismas'], correct: 2 }
     ]
   },
   'ex-6-2-4': {
@@ -24852,16 +24852,16 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     title: 'Pretérito Imperfecto - Спряжение глаголов',
     description: 'Выберите правильную форму глагола в Imperfecto',
     questions: [
-      { sentence: 'De niño yo ___ (jugar) al fútbol todos los días', options: ['jugaba', 'jugué', 'juego', 'jugaré'], correct: 0 },
-      { sentence: 'Antes nosotros ___ (vivir) en Madrid', options: ['vivimos', 'vivíamos', 'vivimos', 'viviremos'], correct: 1 },
+      { sentence: 'De niño yo ___ (jugar) al fútbol todos los días', options: ['jugué', 'jugaba', 'juego', 'jugaré'], correct: 1 },
+      { sentence: 'Antes nosotros ___ (vivir) en Madrid', options: ['vivíamos', 'vivimos', 'vivimos', 'viviremos'], correct: 0 },
       { sentence: 'Tú ___ (estudiar) mucho cuando eras joven', options: ['estudias', 'estudiaste', 'estudiabas', 'estudiarás'], correct: 2 },
-      { sentence: 'Ellos ___ (comer) en ese restaurante cada semana', options: ['comen', 'comieron', 'comían', 'comerán'], correct: 2 },
-      { sentence: 'Mi abuela ___ (cocinar) muy bien', options: ['cocinó', 'cocinaba', 'cocina', 'cocinará'], correct: 1 },
+      { sentence: 'Ellos ___ (comer) en ese restaurante cada semana', options: ['comen', 'comieron', 'comerán', 'comían'], correct: 3 },
+      { sentence: 'Mi abuela ___ (cocinar) muy bien', options: ['cocinó', 'cocinará', 'cocina', 'cocinaba'], correct: 3 },
       { sentence: 'Vosotros ___ (trabajar) en esa empresa antes', options: ['trabajáis', 'trabajasteis', 'trabajabais', 'trabajaréis'], correct: 2 },
-      { sentence: 'Yo ___ (leer) muchos libros en mi juventud', options: ['leí', 'leía', 'leo', 'leeré'], correct: 1 },
+      { sentence: 'Yo ___ (leer) muchos libros en mi juventud', options: ['leía', 'leí', 'leo', 'leeré'], correct: 0 },
       { sentence: 'Ella ___ (escribir) cartas a su familia', options: ['escribió', 'escribía', 'escribe', 'escribirá'], correct: 1 },
       { sentence: 'Nosotras ___ (bailar) salsa los fines de semana', options: ['bailamos', 'bailábamos', 'bailamos', 'bailaremos'], correct: 1 },
-      { sentence: 'Ustedes ___ (hablar) español perfectamente', options: ['hablan', 'hablaron', 'hablaban', 'hablarán'], correct: 2 }
+      { sentence: 'Ustedes ___ (hablar) español perfectamente', options: ['hablaban', 'hablaron', 'hablan', 'hablarán'], correct: 0 }
     ]
   },
   'ex-6-3-2': {
@@ -24872,13 +24872,13 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     questions: [
       { sentence: 'Cuando yo ___ (ser) niña, vivía en el pueblo', options: ['fui', 'era', 'soy', 'seré'], correct: 1 },
       { sentence: 'Nosotros ___ (ir) a la playa todos los veranos', options: ['fuimos', 'vamos', 'íbamos', 'iremos'], correct: 2 },
-      { sentence: 'Tú ___ (ver) mucha televisión antes', options: ['viste', 'ves', 'veías', 'verás'], correct: 2 },
-      { sentence: 'La casa ___ (ser) muy grande', options: ['fue', 'es', 'era', 'será'], correct: 2 },
-      { sentence: 'Ellos ___ (ir) al cine cada domingo', options: ['fueron', 'van', 'iban', 'irán'], correct: 2 },
+      { sentence: 'Tú ___ (ver) mucha televisión antes', options: ['veías', 'ves', 'viste', 'verás'], correct: 0 },
+      { sentence: 'La casa ___ (ser) muy grande', options: ['fue', 'es', 'será', 'era'], correct: 3 },
+      { sentence: 'Ellos ___ (ir) al cine cada domingo', options: ['fueron', 'van', 'irán', 'iban'], correct: 3 },
       { sentence: 'Vosotros ___ (ver) a vuestros abuelos a menudo', options: ['visteis', 'veis', 'veíais', 'veréis'], correct: 2 },
-      { sentence: 'Mi profesor ___ (ser) muy estricto', options: ['fue', 'es', 'era', 'será'], correct: 2 },
-      { sentence: 'Yo ___ (ir) a la escuela caminando', options: ['fui', 'voy', 'iba', 'iré'], correct: 2 },
-      { sentence: 'Nosotras ___ (ver) muchas películas en el cine', options: ['vimos', 'vemos', 'veíamos', 'veremos'], correct: 2 },
+      { sentence: 'Mi profesor ___ (ser) muy estricto', options: ['era', 'es', 'fue', 'será'], correct: 0 },
+      { sentence: 'Yo ___ (ir) a la escuela caminando', options: ['fui', 'iba', 'voy', 'iré'], correct: 1 },
+      { sentence: 'Nosotras ___ (ver) muchas películas en el cine', options: ['veíamos', 'vemos', 'vimos', 'veremos'], correct: 0 },
       { sentence: 'Ustedes ___ (ser) muy buenos estudiantes', options: ['fueron', 'son', 'eran', 'serán'], correct: 2 }
     ]
   },
@@ -24907,10 +24907,10 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
     description: 'Ответьте на вопросы о тексте',
     text: 'Cuando yo era niña, vivía en un pequeño pueblo. Nuestra casa tenía un jardín grande donde mi abuela cultivaba tomates. Todos los días iba a la escuela caminando con mis amigos. Mi profesora se llamaba Señora Carmen y era muy amable. Los domingos toda la familia iba a casa de mis abuelos y comíamos juntos.',
     questions: [
-      { question: 'Где жила девочка?', options: ['В городе', 'В деревне', 'У моря', 'В горах'], correct: 1 },
-      { question: 'Что выращивала бабушка?', options: ['Цветы', 'Картофель', 'Помидоры', 'Морковь'], correct: 2 },
-      { question: 'Как девочка ходила в школу?', options: ['На автобусе', 'Пешком', 'На велосипеде', 'На машине'], correct: 1 },
-      { question: 'Как звали учительницу?', options: ['Señora María', 'Señora Carmen', 'Señora Ana', 'Señora Isabel'], correct: 1 },
+      { question: 'Где жила девочка?', options: ['В городе', 'В горах', 'У моря', 'В деревне'], correct: 3 },
+      { question: 'Что выращивала бабушка?', options: ['Цветы', 'Помидоры', 'Картофель', 'Морковь'], correct: 1 },
+      { question: 'Как девочка ходила в школу?', options: ['Пешком', 'На автобусе', 'На велосипеде', 'На машине'], correct: 0 },
+      { question: 'Как звали учительницу?', options: ['Señora María', 'Señora Ana', 'Señora Carmen', 'Señora Isabel'], correct: 2 },
       { question: 'Что семья делала по воскресеньям?', options: ['Ходила в церковь', 'Ходила на пляж', 'Ела вместе у бабушки', 'Ходила в кино'], correct: 2 }
     ]
   },
@@ -26853,20 +26853,20 @@ disfrutar, explorar, escenario, repercusión, cautivador, emblemático, acoger, 
     title: 'Запоминание слов: OCIO en MADRID',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'la opción', options: ['выбор, вариант', 'обязательство', 'операция', 'оппозиция'], correct: 0 },
+      { spanish: 'la opción', options: ['оппозиция', 'обязательство', 'операция', 'выбор, вариант'], correct: 3 },
       { spanish: 'disfrutar', options: ['разочароваться', 'распространять', 'наслаждаться, пользоваться', 'дистанцироваться'], correct: 2 },
-      { spanish: 'explorar', options: ['эксплуатировать', 'исследовать, разведывать', 'экспортировать', 'объяснять'], correct: 1 },
+      { spanish: 'explorar', options: ['исследовать, разведывать', 'эксплуатировать', 'экспортировать', 'объяснять'], correct: 0 },
       { spanish: 'el rincón', options: ['река', 'внутренний угол', 'риск', 'богатство'], correct: 1 },
       { spanish: 'el escenario', options: ['эскалатор', 'сцена, место действия', 'скандал', 'школа'], correct: 1 },
-      { spanish: 'cautivador', options: ['осторожный', 'очаровательный, пленительный, захватывающий', 'каверзный', 'капризный'], correct: 1 },
-      { spanish: 'emblemático', options: ['эмоциональный', 'символический', 'проблематичный', 'систематический'], correct: 1 },
-      { spanish: 'acoger', options: ['соглашаться', 'радушно принимать, встречать', 'накапливать', 'ускорять'], correct: 1 },
-      { spanish: 'la repercusión', options: ['репетиция', 'отклик, резонанс', 'репрессия', 'репутация'], correct: 1 },
+      { spanish: 'cautivador', options: ['осторожный', 'капризный', 'каверзный', 'очаровательный, пленительный, захватывающий'], correct: 3 },
+      { spanish: 'emblemático', options: ['символический', 'эмоциональный', 'проблематичный', 'систематический'], correct: 0 },
+      { spanish: 'acoger', options: ['соглашаться', 'накапливать', 'радушно принимать, встречать', 'ускорять'], correct: 2 },
+      { spanish: 'la repercusión', options: ['отклик, резонанс', 'репетиция', 'репрессия', 'репутация'], correct: 0 },
       { spanish: 'reflejarse', options: ['отдыхать', 'отражаться', 'размышлять', 'отвергать'], correct: 1 },
-      { spanish: 'el pitido', options: ['питание', 'свист', 'пистолет', 'пирог'], correct: 1 },
-      { spanish: 'embrujo', options: ['объятие', 'чары, колдовство', 'смущение', 'эмбарго'], correct: 1 },
-      { spanish: 'el tablado', options: ['таблица', 'доски, подмостки, эшафот, сцена', 'таблетка', 'стол'], correct: 1 },
-      { spanish: 'renovar', options: ['арендовать', 'отказываться', 'обновлять', 'обновить имя'], correct: 2 },
+      { spanish: 'el pitido', options: ['питание', 'пирог', 'пистолет', 'свист'], correct: 3 },
+      { spanish: 'embrujo', options: ['объятие', 'смущение', 'чары, колдовство', 'эмбарго'], correct: 2 },
+      { spanish: 'el tablado', options: ['таблица', 'стол', 'таблетка', 'доски, подмостки, эшафот, сцена'], correct: 3 },
+      { spanish: 'renovar', options: ['арендовать', 'обновлять', 'отказываться', 'обновить имя'], correct: 1 },
       { spanish: 'cautivador', options: ['пленительный', 'осторожный', 'спорный', 'культурный'], correct: 0 }
     ]
   },
@@ -27083,11 +27083,11 @@ disfrutar, explorar, escenario, repercusión, cautivador, emblemático, acoger, 
     title: 'Si + presente, futuro',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { sentence: 'Si mañana ___ (llover), me quedaré en casa', options: ['lloverá', 'llueve', 'lloviera', 'llueva'], correct: 1 },
-      { sentence: 'Si tú ___ (estudiar), aprobarás', options: ['estudias', 'estudiarás', 'estudies', 'estudiaras'], correct: 0 },
-      { sentence: 'Si ellos ___ (venir), les hablaré', options: ['vendrán', 'vienen', 'vengan', 'vinieran'], correct: 1 },
+      { sentence: 'Si mañana ___ (llover), me quedaré en casa', options: ['llueve', 'lloverá', 'lloviera', 'llueva'], correct: 0 },
+      { sentence: 'Si tú ___ (estudiar), aprobarás', options: ['estudies', 'estudiarás', 'estudias', 'estudiaras'], correct: 2 },
+      { sentence: 'Si ellos ___ (venir), les hablaré', options: ['vendrán', 'vinieran', 'vengan', 'vienen'], correct: 3 },
       { sentence: 'Si yo ___ (tener) tiempo, te llamaré', options: ['tendré', 'tengo', 'tenga', 'tuviera'], correct: 1 },
-      { sentence: 'Si nosotros ___ (salir) ahora, llegaremos a tiempo', options: ['saldremos', 'salimos', 'salgamos', 'saliéramos'], correct: 1 }
+      { sentence: 'Si nosotros ___ (salir) ahora, llegaremos a tiempo', options: ['salimos', 'saldremos', 'salgamos', 'saliéramos'], correct: 0 }
     ]
   },
   'ex-8-1-2': {
@@ -27097,10 +27097,10 @@ disfrutar, explorar, escenario, repercusión, cautivador, emblemático, acoger, 
     description: 'Выберите правильную форму',
     questions: [
       { sentence: 'Si ___ (ver-tú) a Juan, dile que lo busco', options: ['verás', 'ves', 'veas', 'vieras'], correct: 1 },
-      { sentence: 'Si ___ (estar-tú) cansado, descansa', options: ['estarás', 'estás', 'estés', 'estuvieras'], correct: 1 },
-      { sentence: 'Si ___ (querer-tú) café, prepáralo', options: ['querrás', 'quieres', 'quieras', 'quisieras'], correct: 1 },
-      { sentence: 'Si ___ (tener-tú) frío, cierra la ventana', options: ['tendrás', 'tienes', 'tengas', 'tuvieras'], correct: 1 },
-      { sentence: 'Si no ___ (entender-tú), pregúntame', options: ['entenderás', 'entiendes', 'entiendas', 'entendieras'], correct: 1 }
+      { sentence: 'Si ___ (estar-tú) cansado, descansa', options: ['estarás', 'estuvieras', 'estés', 'estás'], correct: 3 },
+      { sentence: 'Si ___ (querer-tú) café, prepáralo', options: ['querrás', 'quieras', 'quieres', 'quisieras'], correct: 2 },
+      { sentence: 'Si ___ (tener-tú) frío, cierra la ventana', options: ['tienes', 'tendrás', 'tengas', 'tuvieras'], correct: 0 },
+      { sentence: 'Si no ___ (entender-tú), pregúntame', options: ['entenderás', 'entiendas', 'entiendes', 'entendieras'], correct: 2 }
     ]
   },
   'ex-8-1-3': {
@@ -27123,10 +27123,10 @@ disfrutar, explorar, escenario, repercusión, cautivador, emblemático, acoger, 
     description: 'Ответьте на вопросы о тексте',
     text: 'María busca trabajo en Barcelona. Si consigue el trabajo, se mudará allí. Si no la aceptan, buscará en Madrid. Su madre dice: si necesitas volver, siempre tendrás un lugar aquí. María piensa: si trabajo duro, tendré éxito.',
     questions: [
-      { question: 'Куда переедет Мария, если получит работу?', options: ['В Мадрид', 'В Барселону', 'В Валенсию', 'В Севилью'], correct: 1 },
-      { question: 'Что сделает Мария, если ее не примут?', options: ['Вернется домой', 'Будет искать в Мадриде', 'Уедет за границу', 'Остановится'], correct: 1 },
+      { question: 'Куда переедет Мария, если получит работу?', options: ['В Барселону', 'В Мадрид', 'В Валенсию', 'В Севилью'], correct: 0 },
+      { question: 'Что сделает Мария, если ее не примут?', options: ['Вернется домой', 'Уедет за границу', 'Будет искать в Мадриде', 'Остановится'], correct: 2 },
       { question: 'Что говорит мать?', options: ['Не уезжай', 'Всегда можешь вернуться', 'Это опасно', 'Подумай еще'], correct: 1 },
-      { question: 'Что думает Мария?', options: ['Что все легко', 'Что будет трудно', 'Что работа даст успех', 'Что не хочет ехать'], correct: 2 }
+      { question: 'Что думает Мария?', options: ['Что все легко', 'Что будет трудно', 'Что не хочет ехать', 'Что работа даст успех'], correct: 3 }
     ]
   },
   'ex-8-1-5': {
@@ -27924,19 +27924,19 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную конструкцию пассива (с SER или с SE)',
     questions: [
       { sentence: 'El libro ___ por García Márquez', options: ['se escribió', 'fue escrito', 'es escrito', 'se escribe'], correct: 1 },
-      { sentence: 'En esta calle ___ muchos apartamentos', options: ['son alquilados', 'se alquilan', 'fueron alquilados', 'se alquiló'], correct: 1 },
-      { sentence: 'La carta ___ por mi secretaria ayer', options: ['se envió', 'fue enviada', 'es enviada', 'se envían'], correct: 1 },
-      { sentence: 'Aquí no ___ fumar', options: ['es permitido', 'se permite', 'fue permitido', 'se permitió'], correct: 1 },
-      { sentence: 'El partido ___ por el Real Madrid', options: ['se ganó', 'fue ganado', 'es ganado', 'se ganan'], correct: 1 },
-      { sentence: 'En España ___ muchos idiomas', options: ['son hablados', 'se hablan', 'fueron hablados', 'se habló'], correct: 1 },
+      { sentence: 'En esta calle ___ muchos apartamentos', options: ['son alquilados', 'se alquiló', 'fueron alquilados', 'se alquilan'], correct: 3 },
+      { sentence: 'La carta ___ por mi secretaria ayer', options: ['fue enviada', 'se envió', 'es enviada', 'se envían'], correct: 0 },
+      { sentence: 'Aquí no ___ fumar', options: ['es permitido', 'fue permitido', 'se permite', 'se permitió'], correct: 2 },
+      { sentence: 'El partido ___ por el Real Madrid', options: ['fue ganado', 'se ganó', 'es ganado', 'se ganan'], correct: 0 },
+      { sentence: 'En España ___ muchos idiomas', options: ['son hablados', 'se habló', 'fueron hablados', 'se hablan'], correct: 3 },
       { sentence: 'Este cuadro ___ por Picasso', options: ['se pintó', 'fue pintado', 'es pintado', 'se pintan'], correct: 1 },
-      { sentence: 'En este restaurante ___ platos vegetarianos', options: ['son servidos', 'se sirven', 'fueron servidos', 'se sirvió'], correct: 1 },
-      { sentence: 'La novela ___ en el siglo XIX', options: ['se escribió', 'fue escrita', 'es escrita', 'se escriben'], correct: 1 },
+      { sentence: 'En este restaurante ___ platos vegetarianos', options: ['son servidos', 'fueron servidos', 'se sirven', 'se sirvió'], correct: 2 },
+      { sentence: 'La novela ___ en el siglo XIX', options: ['se escribió', 'se escriben', 'es escrita', 'fue escrita'], correct: 3 },
       { sentence: 'Aquí ___ bicicletas de segunda mano', options: ['son vendidas', 'se venden', 'fueron vendidas', 'se vendió'], correct: 1 },
-      { sentence: 'El récord ___ por el atleta español', options: ['se batió', 'fue batido', 'es batido', 'se baten'], correct: 1 },
-      { sentence: 'En esta tienda ___ ropa de marca', options: ['es vendida', 'se vende', 'fue vendida', 'se vendieron'], correct: 1 },
-      { sentence: 'Los documentos ___ por el director', options: ['se firmaron', 'fueron firmados', 'son firmados', 'se firma'], correct: 1 },
-      { sentence: 'En la biblioteca ___ muchos libros interesantes', options: ['son encontrados', 'se encuentran', 'fueron encontrados', 'se encontró'], correct: 1 },
+      { sentence: 'El récord ___ por el atleta español', options: ['fue batido', 'se batió', 'es batido', 'se baten'], correct: 0 },
+      { sentence: 'En esta tienda ___ ropa de marca', options: ['es vendida', 'fue vendida', 'se vende', 'se vendieron'], correct: 2 },
+      { sentence: 'Los documentos ___ por el director', options: ['se firmaron', 'se firma', 'son firmados', 'fueron firmados'], correct: 3 },
+      { sentence: 'En la biblioteca ___ muchos libros interesantes', options: ['se encuentran', 'son encontrados', 'fueron encontrados', 'se encontró'], correct: 0 },
       { sentence: 'La competencia ___ por la federación', options: ['se organizó', 'fue organizada', 'es organizada', 'se organizan'], correct: 1 }
     ]
   },
@@ -27974,20 +27974,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный вариант с конструкцией Acusativo con Infinitivo',
     questions: [
       { question: 'Vi ___ a mi hermano ___ el parque.', options: ['cruzar', 'que cruza', 'cruzando', 'cruza'], correct: 0 },
-      { question: 'Oí ___ a los niños ___ en el jardín.', options: ['que juegan', 'jugar', 'jugando', 'juega'], correct: 1 },
-      { question: 'Observamos ___ al gato ___ por la ventana.', options: ['saltar', 'que salta', 'saltando', 'salta'], correct: 0 },
-      { question: 'Sentí ___ a alguien ___ la puerta.', options: ['que abre', 'abriendo', 'abrir', 'abre'], correct: 2 },
-      { question: 'Escuché ___ a María ___ una canción.', options: ['cantar', 'que canta', 'cantando', 'canta'], correct: 0 },
+      { question: 'Oí ___ a los niños ___ en el jardín.', options: ['que juegan', 'juega', 'jugando', 'jugar'], correct: 3 },
+      { question: 'Observamos ___ al gato ___ por la ventana.', options: ['saltando', 'que salta', 'saltar', 'salta'], correct: 2 },
+      { question: 'Sentí ___ a alguien ___ la puerta.', options: ['que abre', 'abrir', 'abriendo', 'abre'], correct: 1 },
+      { question: 'Escuché ___ a María ___ una canción.', options: ['canta', 'que canta', 'cantando', 'cantar'], correct: 3 },
       { question: 'Noté ___ al profesor ___ al aula.', options: ['que entra', 'entrando', 'entrar', 'entra'], correct: 2 },
-      { question: 'Vimos ___ a los pájaros ___ en el cielo.', options: ['volar', 'que vuelan', 'volando', 'vuelan'], correct: 0 },
-      { question: 'Oímos ___ al bebé ___ toda la noche.', options: ['que llora', 'llorando', 'llorar', 'llora'], correct: 2 },
-      { question: 'Miraba ___ a los estudiantes ___ el examen.', options: ['hacer', 'que hacen', 'haciendo', 'hacen'], correct: 0 },
+      { question: 'Vimos ___ a los pájaros ___ en el cielo.', options: ['que vuelan', 'volar', 'volando', 'vuelan'], correct: 1 },
+      { question: 'Oímos ___ al bebé ___ toda la noche.', options: ['llorar', 'llorando', 'que llora', 'llora'], correct: 0 },
+      { question: 'Miraba ___ a los estudiantes ___ el examen.', options: ['hacen', 'que hacen', 'haciendo', 'hacer'], correct: 3 },
       { question: 'Sentimos ___ la tierra ___ durante el terremoto.', options: ['temblar', 'que tiembla', 'temblando', 'tiembla'], correct: 0 },
       { question: 'Vi ___ a tu padre ___ el periódico.', options: ['que lee', 'leer', 'leyendo', 'lee'], correct: 1 },
-      { question: 'Oí ___ al perro ___ en la calle.', options: ['ladrar', 'que ladra', 'ladrando', 'ladra'], correct: 0 },
-      { question: 'Observé ___ a las flores ___ en primavera.', options: ['que crecen', 'crecer', 'creciendo', 'crecen'], correct: 1 },
-      { question: 'Escuchamos ___ a la orquesta ___ una sinfonía.', options: ['tocar', 'que toca', 'tocando', 'toca'], correct: 0 },
-      { question: 'Noté ___ a mi hermana ___ rápidamente.', options: ['que corre', 'corriendo', 'correr', 'corre'], correct: 2 }
+      { question: 'Oí ___ al perro ___ en la calle.', options: ['ladrando', 'que ladra', 'ladrar', 'ladra'], correct: 2 },
+      { question: 'Observé ___ a las flores ___ en primavera.', options: ['que crecen', 'creciendo', 'crecer', 'crecen'], correct: 2 },
+      { question: 'Escuchamos ___ a la orquesta ___ una sinfonía.', options: ['toca', 'que toca', 'tocando', 'tocar'], correct: 3 },
+      { question: 'Noté ___ a mi hermana ___ rápidamente.', options: ['que corre', 'correr', 'corriendo', 'corre'], correct: 1 }
     ]
   },
 
@@ -28095,21 +28095,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Упражнение 1: Выбор правильной конструкции',
     description: 'Выберите правильную инфинитивную конструкцию для каждого предложения',
     questions: [
-      { question: 'Mañana ___ a visitar a mis abuelos.', options: ['voy', 'suelo', 'debo', 'tengo'], correct: 0 },
-      { question: 'Ella ___ a llorar cuando vio la película triste.', options: ['se echó', 'empezó', 'se puso', 'dejó'], correct: 0 },
+      { question: 'Mañana ___ a visitar a mis abuelos.', options: ['suelo', 'voy', 'debo', 'tengo'], correct: 1 },
+      { question: 'Ella ___ a llorar cuando vio la película triste.', options: ['se puso', 'empezó', 'se echó', 'dejó'], correct: 2 },
       { question: '___ que respetar las normas de tráfico.', options: ['Hay', 'Tener', 'Deber', 'Necesitar'], correct: 0 },
-      { question: 'Los niños ___ a jugar en el parque todos los días.', options: ['suelen', 'van', 'deben', 'tienen que'], correct: 0 },
-      { question: '___ de fumar hace dos años.', options: ['Dejé', 'Terminé', 'Acabé', 'Volví'], correct: 0 },
-      { question: '___ a estudiar para el examen de mañana.', options: ['Tengo que', 'Hay que', 'Suelo', 'Vuelvo'], correct: 0 },
+      { question: 'Los niños ___ a jugar en el parque todos los días.', options: ['tienen que', 'van', 'deben', 'suelen'], correct: 3 },
+      { question: '___ de fumar hace dos años.', options: ['Volví', 'Terminé', 'Acabé', 'Dejé'], correct: 3 },
+      { question: '___ a estudiar para el examen de mañana.', options: ['Suelo', 'Hay que', 'Tengo que', 'Vuelvo'], correct: 2 },
       { question: 'El bebé ___ a llorar en medio de la noche.', options: ['se echó', 'empezó', 'se puso', 'volvió'], correct: 0 },
       { question: '___ llamarte pero estaba ocupado.', options: ['Volví a', 'Iba a', 'Debía', 'Solía'], correct: 1 },
       { question: 'No me ___ salir hasta que termine mi tarea.', options: ['dejan', 'hacen', 'ponen', 'echan'], correct: 0 },
-      { question: '___ de leer este libro, es muy interesante.', options: ['Acabo', 'Termino', 'Dejo', 'Vuelvo'], correct: 0 },
-      { question: 'Mi hermano ___ levantarse a las 6 de la mañana.', options: ['suele', 'va a', 'tiene que', 'debe'], correct: 0 },
-      { question: 'El profesor nos ___ repetir el ejercicio.', options: ['hizo', 'dejó', 'puso', 'echó'], correct: 0 },
-      { question: '___ descansar más, trabajas demasiado.', options: ['Debes', 'Tienes que', 'Hay que', 'Sueles'], correct: 0 },
+      { question: '___ de leer este libro, es muy interesante.', options: ['Vuelvo', 'Termino', 'Dejo', 'Acabo'], correct: 3 },
+      { question: 'Mi hermano ___ levantarse a las 6 de la mañana.', options: ['va a', 'suele', 'tiene que', 'debe'], correct: 1 },
+      { question: 'El profesor nos ___ repetir el ejercicio.', options: ['puso', 'dejó', 'hizo', 'echó'], correct: 2 },
+      { question: '___ descansar más, trabajas demasiado.', options: ['Hay que', 'Tienes que', 'Debes', 'Sueles'], correct: 2 },
       { question: 'Se ___ a trabajar en cuanto llegó.', options: ['puso', 'echó', 'empezó', 'volvió'], correct: 0 },
-      { question: '¿Cuándo ___ de estudiar? Ya es muy tarde.', options: ['terminas', 'dejas', 'acabas', 'vuelves'], correct: 0 }
+      { question: '¿Cuándo ___ de estudiar? Ya es muy tarde.', options: ['vuelves', 'dejas', 'acabas', 'terminas'], correct: 3 }
     ]
   },
 
@@ -28926,32 +28926,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Cándido ___ los periódicos sobre la cama',
-        options: ['deja', 'dejan', 'dejó', 'dejaba'],
-        correct: 0,
+        options: ['dejaba', 'dejan', 'dejó', 'deja'],
+        correct: 3,
         explanation: 'Используется presente для описания действия'
       },
       {
         sentence: 'No sabe quién le ___ ese paquete',
-        options: ['envía', 'ha enviado', 'envió', 'enviaba'],
-        correct: 1,
+        options: ['ha enviado', 'envía', 'envió', 'enviaba'],
+        correct: 0,
         explanation: 'Pretérito Perfecto - действие в недавнем прошлом с результатом в настоящем'
       },
       {
         sentence: 'Él ___ un arqueólogo muy bueno',
-        options: ['es', 'está', 'ser', 'siendo'],
-        correct: 0,
+        options: ['ser', 'está', 'es', 'siendo'],
+        correct: 2,
         explanation: 'Ser для постоянных характеристик'
       },
       {
         sentence: 'No trabaja en una excavación ___ hace muchos años',
-        options: ['por', 'para', 'desde', 'hace'],
-        correct: 2,
+        options: ['por', 'desde', 'para', 'hace'],
+        correct: 1,
         explanation: 'Desde hace + tiempo para выражения длительности'
       },
       {
         sentence: 'Los obreros ___ una sinagoga en el viejo Palacio',
-        options: ['encuentran', 'han encontrado', 'encontraron', 'encontraban'],
-        correct: 1,
+        options: ['han encontrado', 'encuentran', 'encontraron', 'encontraban'],
+        correct: 0,
         explanation: 'Pretérito Perfecto - недавнее открытие'
       },
       {
@@ -28962,26 +28962,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: '___ arqueólogo no hay nada tan importante',
-        options: ['Por un', 'Para un', 'A un', 'De un'],
-        correct: 1,
+        options: ['Por un', 'A un', 'Para un', 'De un'],
+        correct: 2,
         explanation: 'Para выражает точку зрения, перспективу'
       },
       {
         sentence: 'Está seguro ___ poder hacerlo',
-        options: ['de', 'en', 'a', 'con'],
-        correct: 0,
+        options: ['con', 'en', 'a', 'de'],
+        correct: 3,
         explanation: 'Estar seguro de + infinitivo'
       },
       {
         sentence: 'Alguien le ___ ese paquete',
-        options: ['envía', 'ha enviado', 'envió', 'enviaba'],
-        correct: 1,
+        options: ['envía', 'enviaba', 'envió', 'ha enviado'],
+        correct: 3,
         explanation: 'Pretérito Perfecto - действие с результатом в настоящем'
       },
       {
         sentence: 'Cándido ___ muy nervioso',
-        options: ['es', 'está', 'ser', 'siendo'],
-        correct: 1,
+        options: ['es', 'ser', 'está', 'siendo'],
+        correct: 2,
         explanation: 'Estar для временного состояния'
       },
       {
@@ -28992,14 +28992,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Yo ___ ir a Toledo',
-        options: ['debo', 'tengo', 'necesito', 'puedo'],
-        correct: 0,
+        options: ['tengo', 'debo', 'necesito', 'puedo'],
+        correct: 1,
         explanation: 'Deber выражает обязанность, долг'
       },
       {
         sentence: '___ ser peligroso volver allí',
-        options: ['Puede', 'Podría', 'Puedo', 'Pudiera'],
-        correct: 0,
+        options: ['Puedo', 'Podría', 'Puede', 'Pudiera'],
+        correct: 2,
         explanation: 'Puede ser - может быть'
       },
       {
@@ -29010,8 +29010,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Son las nueve y el sol se pierde ___ los campos',
-        options: ['detrás de', 'detrás', 'tras de', 'atrás'],
-        correct: 0,
+        options: ['atrás', 'detrás', 'tras de', 'detrás de'],
+        correct: 3,
         explanation: 'Detrás de - за (чем-то)'
       }
     ]
@@ -29026,26 +29026,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Don Cosme ___ una pequeña tienda',
-        options: ['tiene', 'hay', 'está', 'es'],
-        correct: 0,
+        options: ['está', 'hay', 'tiene', 'es'],
+        correct: 2,
         explanation: 'Tener для выражения владения'
       },
       {
         sentence: 'A ella le ___ llegar a la tienda temprano',
-        options: ['gusta', 'gustan', 'gustas', 'gusto'],
-        correct: 0,
+        options: ['gustan', 'gusta', 'gustas', 'gusto'],
+        correct: 1,
         explanation: 'Gustar + infinitivo (единственное число)'
       },
       {
         sentence: 'Conoce a ese hombre ___ hace más de cincuenta años',
-        options: ['por', 'para', 'desde', 'hace'],
-        correct: 2,
+        options: ['desde', 'para', 'por', 'hace'],
+        correct: 0,
         explanation: 'Desde hace + tiempo'
       },
       {
         sentence: 'Todos los días ___ allí a comprar pan',
-        options: ['va', 'vaya', 'fue', 'iba'],
-        correct: 0,
+        options: ['iba', 'vaya', 'fue', 'va'],
+        correct: 3,
         explanation: 'Presente для привычных действий'
       },
       {
@@ -29056,20 +29056,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'A él le ___ mucho escribir',
-        options: ['gusta', 'gustan', 'gustas', 'gusto'],
-        correct: 0,
+        options: ['gustas', 'gustan', 'gusta', 'gusto'],
+        correct: 2,
         explanation: 'Gustar + infinitivo'
       },
       {
         sentence: 'El tren de Madrid ___ en Toledo',
-        options: ['entra', 'entre', 'entró', 'entraba'],
-        correct: 0,
+        options: ['entre', 'entra', 'entró', 'entraba'],
+        correct: 1,
         explanation: 'Presente narrativo'
       },
       {
         sentence: 'Se prepara ___ salir',
-        options: ['por', 'para', 'a', 'de'],
-        correct: 1,
+        options: ['por', 'de', 'a', 'para'],
+        correct: 3,
         explanation: 'Prepararse para + infinitivo'
       },
       {
@@ -29080,32 +29080,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Ese niño siempre ___ muy listo',
-        options: ['es', 'ha sido', 'fue', 'era'],
-        correct: 1,
+        options: ['es', 'fue', 'ha sido', 'era'],
+        correct: 2,
         explanation: 'Pretérito Perfecto con "siempre" - experiencia'
       },
       {
         sentence: 'Los obreros la ___ hace poco',
-        options: ['descubren', 'han descubierto', 'descubrieron', 'descubrían'],
-        correct: 1,
+        options: ['descubren', 'descubrían', 'descubrieron', 'han descubierto'],
+        correct: 3,
         explanation: 'Pretérito Perfecto - hace poco (недавнее прошлое)'
       },
       {
         sentence: 'Antonio ___ hoy a casa',
-        options: ['viene', 'venga', 'vino', 'venía'],
-        correct: 0,
+        options: ['venga', 'viene', 'vino', 'venía'],
+        correct: 1,
         explanation: 'Presente para будущих запланированных действий'
       },
       {
         sentence: '¿Qué ___ esta mañana?',
-        options: ['quiere', 'quieres', 'quiera', 'querría'],
-        correct: 0,
+        options: ['querría', 'quieres', 'quiera', 'quiere'],
+        correct: 3,
         explanation: 'Presente - вежливый вопрос в магазине'
       },
       {
         sentence: 'Muchas personas ___ para comprar',
-        options: ['esperan', 'esperen', 'esperaron', 'esperaban'],
-        correct: 0,
+        options: ['esperen', 'esperan', 'esperaron', 'esperaban'],
+        correct: 1,
         explanation: 'Presente - текущее действие'
       },
       {
@@ -29126,8 +29126,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Antonio ___ ver la llave',
-        options: ['quiere', 'quiera', 'quiso', 'quería'],
-        correct: 0,
+        options: ['quiso', 'quiera', 'quiere', 'quería'],
+        correct: 2,
         explanation: 'Presente - текущее желание'
       },
       {
@@ -29138,26 +29138,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Todos ___ a esta hora',
-        options: ['duermen', 'duerman', 'durmieron', 'dormían'],
-        correct: 0,
+        options: ['dormían', 'duerman', 'durmieron', 'duermen'],
+        correct: 3,
         explanation: 'Presente - общее утверждение'
       },
       {
         sentence: 'Antonio ___ en la sinagoga',
-        options: ['entra', 'entre', 'entró', 'entraba'],
-        correct: 0,
+        options: ['entre', 'entra', 'entró', 'entraba'],
+        correct: 1,
         explanation: 'Presente narrativo для живого повествования'
       },
       {
         sentence: '___ la llave con su linterna',
-        options: ['Busca', 'Busque', 'Buscó', 'Buscaba'],
-        correct: 0,
+        options: ['Buscaba', 'Busque', 'Buscó', 'Busca'],
+        correct: 3,
         explanation: 'Presente narrativo'
       },
       {
         sentence: 'La ___ en una pequeña caja',
-        options: ['encuentra', 'encontró', 'ha encontrado', 'encontraba'],
-        correct: 0,
+        options: ['encontró', 'encuentra', 'ha encontrado', 'encontraba'],
+        correct: 1,
         explanation: 'Presente narrativo'
       },
       {
@@ -29168,26 +29168,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Al día siguiente ___ en casa de su abuela',
-        options: ['está', 'estuvo', 'ha estado', 'estaba'],
-        correct: 0,
+        options: ['ha estado', 'estuvo', 'está', 'estaba'],
+        correct: 2,
         explanation: 'Presente narrativo'
       },
       {
         sentence: 'De repente, la puerta ___',
-        options: ['se abre', 'se abrió', 'se ha abierto', 'se abría'],
-        correct: 0,
+        options: ['se abrió', 'se abre', 'se ha abierto', 'se abría'],
+        correct: 1,
         explanation: 'Verbo reflexivo en presente narrativo'
       },
       {
         sentence: '___ un desconocido',
-        options: ['Entra', 'Entre', 'Entró', 'Entraba'],
-        correct: 0,
+        options: ['Entró', 'Entre', 'Entra', 'Entraba'],
+        correct: 2,
         explanation: 'Presente narrativo'
       },
       {
         sentence: 'Tiene una pistola ___ la mano',
-        options: ['en', 'a', 'con', 'por'],
-        correct: 0,
+        options: ['por', 'a', 'con', 'en'],
+        correct: 3,
         explanation: 'En la mano - в руке'
       },
       {
@@ -29204,14 +29204,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Antonio no ___ hablar',
-        options: ['puede', 'pueda', 'pudo', 'podía'],
-        correct: 0,
+        options: ['pueda', 'puede', 'pudo', 'podía'],
+        correct: 1,
         explanation: 'Presente - не может говорить'
       },
       {
         sentence: 'Cándido empieza ___',
-        options: ['a reírse', 'reírse', 'de reírse', 'en reírse'],
-        correct: 0,
+        options: ['en reírse', 'reírse', 'de reírse', 'a reírse'],
+        correct: 3,
         explanation: 'Empezar a + infinitivo reflexivo'
       }
     ]
@@ -29226,20 +29226,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Quiero trabajar con usted ___ la inscripción',
-        options: ['en', 'a', 'con', 'por'],
-        correct: 0,
+        options: ['con', 'a', 'en', 'por'],
+        correct: 2,
         explanation: 'Trabajar en - работать над'
       },
       {
         sentence: 'Los dos ___ en ella',
-        options: ['trabajamos', 'trabajáis', 'trabajan', 'trabajando'],
-        correct: 0,
+        options: ['trabajáis', 'trabajamos', 'trabajan', 'trabajando'],
+        correct: 1,
         explanation: 'Presente - предложение'
       },
       {
         sentence: '___ mejor trabajar solo',
-        options: ['Es', 'Está', 'Ser', 'Siendo'],
-        correct: 0,
+        options: ['Siendo', 'Está', 'Ser', 'Es'],
+        correct: 3,
         explanation: 'Es + adjetivo + infinitivo'
       },
       {
@@ -29256,32 +29256,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Llevan horas ___',
-        options: ['así', 'entonces', 'ahora', 'aquí'],
-        correct: 0,
+        options: ['aquí', 'entonces', 'ahora', 'así'],
+        correct: 3,
         explanation: 'Llevar + tiempo + así'
       },
       {
         sentence: 'Se ___ de comer',
-        options: ['han olvidado', 'han olvido', 'olvidaron', 'olvidaban'],
-        correct: 0,
+        options: ['han olvido', 'han olvidado', 'olvidaron', 'olvidaban'],
+        correct: 1,
         explanation: 'Pretérito Perfecto del verbo reflexivo'
       },
       {
         sentence: 'Cándido está ___ las últimas palabras',
-        options: ['con', 'en', 'a', 'por'],
-        correct: 1,
+        options: ['con', 'a', 'en', 'por'],
+        correct: 2,
         explanation: 'Estar en - находиться на (этапе)'
       },
       {
         sentence: '¡___ tengo!',
-        options: ['Lo', 'La', 'Le', 'Les'],
-        correct: 0,
+        options: ['Le', 'La', 'Lo', 'Les'],
+        correct: 2,
         explanation: 'Pronombre de objeto directo - lo (eso/это)'
       },
       {
         sentence: 'Conozco el misterio ___ la llave',
-        options: ['de', 'a', 'en', 'con'],
-        correct: 0,
+        options: ['a', 'de', 'en', 'con'],
+        correct: 1,
         explanation: 'De для выражения принадлежности'
       },
       {
@@ -29292,26 +29292,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'No ___ fácil encontrar el tesoro',
-        options: ['va a ser', 'es', 'será', 'sería'],
-        correct: 0,
+        options: ['sería', 'es', 'será', 'va a ser'],
+        correct: 3,
         explanation: 'Ir a + infinitivo - ближайшее будущее'
       },
       {
         sentence: 'La casa ___ muchas habitaciones',
-        options: ['tiene', 'hay', 'está', 'es'],
-        correct: 0,
+        options: ['hay', 'tiene', 'está', 'es'],
+        correct: 1,
         explanation: 'Tener для владения/наличия'
       },
       {
         sentence: 'Esta noche ___ mucho trabajo',
-        options: ['tenemos', 'tenéis', 'tienen', 'teniendo'],
-        correct: 0,
+        options: ['tienen', 'tenéis', 'tenemos', 'teniendo'],
+        correct: 2,
         explanation: 'Tener trabajo - иметь работу'
       },
       {
         sentence: 'Debemos ___ allí',
-        options: ['ir', 'yendo', 'vamos', 'vayamos'],
-        correct: 0,
+        options: ['vayamos', 'yendo', 'vamos', 'ir'],
+        correct: 3,
         explanation: 'Deber + infinitivo'
       }
     ]
@@ -29326,8 +29326,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'La casa ___ fuera de la ciudad',
-        options: ['está', 'es', 'hay', 'tiene'],
-        correct: 0,
+        options: ['es', 'está', 'hay', 'tiene'],
+        correct: 1,
         explanation: 'Estar для местоположения'
       },
       {
@@ -29338,20 +29338,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Van ___ una habitación a otra',
-        options: ['de', 'desde', 'por', 'a'],
-        correct: 0,
+        options: ['por', 'desde', 'de', 'a'],
+        correct: 2,
         explanation: 'De... a... - от... к...'
       },
       {
         sentence: 'Después de tres horas, ___ cansados',
-        options: ['están', 'son', 'hay', 'tienen'],
-        correct: 0,
+        options: ['tienen', 'son', 'hay', 'están'],
+        correct: 3,
         explanation: 'Estar + adjetivo для временного состояния'
       },
       {
         sentence: 'Se ___ en el suelo',
-        options: ['sientan', 'sienten', 'sentaron', 'sentaban'],
-        correct: 0,
+        options: ['sienten', 'sientan', 'sentaron', 'sentaban'],
+        correct: 1,
         explanation: 'Sentarse - садиться (presente)'
       },
       {
@@ -29362,14 +29362,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Allí ___ un dibujo muy pequeño',
-        options: ['hay', 'es', 'está', 'tiene'],
-        correct: 0,
+        options: ['está', 'es', 'hay', 'tiene'],
+        correct: 2,
         explanation: 'Hay для существования'
       },
       {
         sentence: '___ un mar',
-        options: ['Parece', 'Parezca', 'Pareció', 'Parecía'],
-        correct: 0,
+        options: ['Parecía', 'Parezca', 'Pareció', 'Parece'],
+        correct: 3,
         explanation: 'Parecer в presente'
       },
       {
@@ -29380,32 +29380,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: '___ de oro',
-        options: ['Es', 'Está', 'Hay', 'Tiene'],
-        correct: 0,
+        options: ['Hay', 'Está', 'Es', 'Tiene'],
+        correct: 2,
         explanation: 'Ser de - быть из (материал)'
       },
       {
         sentence: 'Dentro ___ monedas de oro',
-        options: ['hay', 'es', 'está', 'tiene'],
-        correct: 0,
+        options: ['es', 'hay', 'está', 'tiene'],
+        correct: 1,
         explanation: 'Hay для существования'
       },
       {
         sentence: '¡___ encontramos!',
-        options: ['Lo', 'La', 'Le', 'Les'],
-        correct: 0,
+        options: ['Les', 'La', 'Le', 'Lo'],
+        correct: 3,
         explanation: 'Pronombre de objeto directo - lo (tesoro)'
       },
       {
         sentence: '¿Quién ___ hablado?',
-        options: ['ha', 'has', 'he', 'han'],
-        correct: 0,
+        options: ['han', 'has', 'he', 'ha'],
+        correct: 3,
         explanation: 'Pretérito Perfecto - кто говорил?'
       },
       {
         sentence: '¿Quién ___ allí?',
-        options: ['está', 'es', 'hay', 'tiene'],
-        correct: 0,
+        options: ['hay', 'es', 'está', 'tiene'],
+        correct: 2,
         explanation: 'Estar для местоположения'
       },
       {
@@ -29614,19 +29614,19 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный перевод слова',
     questions: [
       { spanish: 'pararse a pensar', options: ['остановиться', 'задуматься', 'подумать быстро', 'забыть'], correct: 1 },
-      { spanish: 'desentrañar', options: ['запутывать', 'вникать в суть', 'терять', 'находить'], correct: 1 },
-      { spanish: 'fascinante', options: ['скучный', 'простой', 'восхитительный', 'страшный'], correct: 2 },
-      { spanish: 'dar una pista', options: ['спрятать', 'дать подсказку', 'потерять след', 'забыть'], correct: 1 },
-      { spanish: 'sagrado', options: ['светский', 'святой', 'обычный', 'новый'], correct: 1 },
+      { spanish: 'desentrañar', options: ['запутывать', 'находить', 'терять', 'вникать в суть'], correct: 3 },
+      { spanish: 'fascinante', options: ['восхитительный', 'простой', 'скучный', 'страшный'], correct: 0 },
+      { spanish: 'dar una pista', options: ['спрятать', 'потерять след', 'дать подсказку', 'забыть'], correct: 2 },
+      { spanish: 'sagrado', options: ['светский', 'обычный', 'святой', 'новый'], correct: 2 },
       { spanish: 'la deidad', options: ['праздник', 'божество', 'храм', 'священник'], correct: 1 },
-      { spanish: 'arrancar', options: ['останавливаться', 'трогаться с места', 'продолжать', 'ждать'], correct: 1 },
-      { spanish: 'invicto', options: ['побежденный', 'слабый', 'непобедимый', 'старый'], correct: 2 },
-      { spanish: 'la expansión', options: ['сокращение', 'остановка', 'расширение', 'закрытие'], correct: 2 },
+      { spanish: 'arrancar', options: ['трогаться с места', 'останавливаться', 'продолжать', 'ждать'], correct: 0 },
+      { spanish: 'invicto', options: ['побежденный', 'слабый', 'старый', 'непобедимый'], correct: 3 },
+      { spanish: 'la expansión', options: ['расширение', 'остановка', 'сокращение', 'закрытие'], correct: 0 },
       { spanish: 'la locura', options: ['спокойствие', 'радость', 'сумасшествие', 'мудрость'], correct: 2 },
-      { spanish: 'consolidar', options: ['разрушать', 'укреплять', 'ослаблять', 'забывать'], correct: 1 },
-      { spanish: 'dar un giro', options: ['остановиться', 'продолжать прямо', 'повернуть', 'вернуться'], correct: 2 },
-      { spanish: 'absorber', options: ['отталкивать', 'игнорировать', 'поглощать', 'выбрасывать'], correct: 2 },
-      { spanish: 'arraigado', options: ['временный', 'новый', 'укоренившийся', 'слабый'], correct: 2 },
+      { spanish: 'consolidar', options: ['разрушать', 'забывать', 'ослаблять', 'укреплять'], correct: 3 },
+      { spanish: 'dar un giro', options: ['остановиться', 'повернуть', 'продолжать прямо', 'вернуться'], correct: 1 },
+      { spanish: 'absorber', options: ['поглощать', 'игнорировать', 'отталкивать', 'выбрасывать'], correct: 0 },
+      { spanish: 'arraigado', options: ['временный', 'новый', 'слабый', 'укоренившийся'], correct: 3 },
       { spanish: 'el eco', options: ['тишина', 'шум', 'эхо', 'музыка'], correct: 2 }
     ]
   },
@@ -29636,21 +29636,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 2: Понимание текста',
     description: 'Ответьте на вопросы по тексту',
     questions: [
-      { question: '¿Qué fecha es el tema del texto?', options: ['1 de enero', '25 de diciembre', '21 de diciembre', '6 de enero'], correct: 1 },
-      { question: '¿Dónde está la respuesta sobre el origen de esta fecha?', options: ['En los textos sagrados', 'En la Biblia', 'En la historia de Roma', 'En libros modernos'], correct: 2 },
-      { question: '¿Qué representaba el sol en la antigua Roma?', options: ['Una estrella simple', 'La deidad más poderosa', 'Un símbolo sin importancia', 'Una decoración'], correct: 1 },
-      { question: '¿Cuántas deidades del sol había en Roma?', options: ['Una', 'Dos', 'Tres', 'Ninguna'], correct: 1 },
-      { question: '¿Cómo se llamaba el Sol nativo romano?', options: ['Sol Invictus', 'Sol Indiges', 'Sol Romano', 'Sol Sagrado'], correct: 1 },
-      { question: '¿De dónde venía Sol Invictus?', options: ['De Roma', 'De Grecia', 'De Oriente', 'De África'], correct: 2 },
-      { question: '¿Qué emperador estableció el culto oficial en 274?', options: ['Vespasiano', 'Cómodo', 'Heliogábalo', 'Aureliano'], correct: 3 },
-      { question: '¿Qué significa Dies Natalis Solis Invicti?', options: ['La muerte del sol', 'El nacimiento del sol invicto', 'La fiesta del sol', 'El día del emperador'], correct: 1 },
-      { question: '¿Cuándo se celebraba esta fiesta romana?', options: ['En verano', 'Después del solsticio de invierno', 'En primavera', 'En otoño'], correct: 1 },
+      { question: '¿Qué fecha es el tema del texto?', options: ['1 de enero', '21 de diciembre', '25 de diciembre', '6 de enero'], correct: 2 },
+      { question: '¿Dónde está la respuesta sobre el origen de esta fecha?', options: ['En los textos sagrados', 'En la historia de Roma', 'En la Biblia', 'En libros modernos'], correct: 1 },
+      { question: '¿Qué representaba el sol en la antigua Roma?', options: ['La deidad más poderosa', 'Una estrella simple', 'Un símbolo sin importancia', 'Una decoración'], correct: 0 },
+      { question: '¿Cuántas deidades del sol había en Roma?', options: ['Una', 'Ninguna', 'Tres', 'Dos'], correct: 3 },
+      { question: '¿Cómo se llamaba el Sol nativo romano?', options: ['Sol Invictus', 'Sol Romano', 'Sol Indiges', 'Sol Sagrado'], correct: 2 },
+      { question: '¿De dónde venía Sol Invictus?', options: ['De Oriente', 'De Grecia', 'De Roma', 'De África'], correct: 0 },
+      { question: '¿Qué emperador estableció el culto oficial en 274?', options: ['Vespasiano', 'Aureliano', 'Heliogábalo', 'Cómodo'], correct: 1 },
+      { question: '¿Qué significa Dies Natalis Solis Invicti?', options: ['La muerte del sol', 'El día del emperador', 'La fiesta del sol', 'El nacimiento del sol invicto'], correct: 3 },
+      { question: '¿Cuándo se celebraba esta fiesta romana?', options: ['En verano', 'En otoño', 'En primavera', 'Después del solsticio de invierno'], correct: 3 },
       { question: '¿Qué simbolizaba el solsticio de invierno?', options: ['El fin del mundo', 'El renacer de la luz', 'El inicio del frío', 'La cosecha'], correct: 1 },
       { question: '¿Qué decidió hacer la Iglesia primitiva?', options: ['Prohibir la fiesta', 'Ignorar la fiesta', 'Adoptar la fiesta', 'Crear una fecha nueva'], correct: 2 },
-      { question: '¿Qué documento histórico menciona el texto?', options: ['La Biblia', 'La Cronografía del 354', 'Los Evangelios', 'El Código Romano'], correct: 1 },
-      { question: '¿De dónde viene la tradición del intercambio de regalos?', options: ['De la Biblia', 'De las Saturnales romanas', 'De tradiciones modernas', 'De Francia'], correct: 1 },
+      { question: '¿Qué documento histórico menciona el texto?', options: ['La Cronografía del 354', 'La Biblia', 'Los Evangelios', 'El Código Romano'], correct: 0 },
+      { question: '¿De dónde viene la tradición del intercambio de regalos?', options: ['De la Biblia', 'De tradiciones modernas', 'De las Saturnales romanas', 'De Francia'], correct: 2 },
       { question: '¿Qué representa la decoración con luces?', options: ['La oscuridad', 'La victoria de la luz sobre la oscuridad', 'El frío del invierno', 'Las estrellas'], correct: 1 },
-      { question: 'Según el texto, ¿de qué son resultado nuestras celebraciones?', options: ['De invenciones modernas', 'De siglos de fusión y adaptación', 'Solo de tradiciones cristianas', 'Solo de tradiciones paganas'], correct: 1 }
+      { question: 'Según el texto, ¿de qué son resultado nuestras celebraciones?', options: ['De invenciones modernas', 'Solo de tradiciones paganas', 'Solo de tradiciones cristianas', 'De siglos de fusión y adaptación'], correct: 3 }
     ]
   },
   'ex-9-2-a2-3-1': {
@@ -29659,19 +29659,19 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 3: Грамматика',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { sentence: 'El sol no ___ solo una estrella en el cielo', options: ['era', 'fue', 'es', 'será'], correct: 0 },
-      { sentence: 'Los emperadores ___ en Sol Invictus una forma de unificar el imperio', options: ['veían', 'vieron', 'ven', 'verán'], correct: 1 },
+      { sentence: 'El sol no ___ solo una estrella en el cielo', options: ['es', 'fue', 'era', 'será'], correct: 2 },
+      { sentence: 'Los emperadores ___ en Sol Invictus una forma de unificar el imperio', options: ['veían', 'verán', 'ven', 'vieron'], correct: 3 },
       { sentence: 'Aureliano ___ un templo para Sol Invictus', options: ['construyó', 'construía', 'construye', 'construirá'], correct: 0 },
       { sentence: 'La fiesta se ___ después del solsticio de invierno', options: ['celebró', 'celebraba', 'celebra', 'celebrará'], correct: 1 },
       { sentence: 'El cristianismo ___ más y más seguidores', options: ['ganó', 'ganaba', 'gana', 'ganará'], correct: 1 },
-      { sentence: 'La Iglesia ___ una decisión estratégica', options: ['tomaba', 'tomó', 'toma', 'tomará'], correct: 1 },
-      { sentence: 'En lugar de prohibir, ___ adoptarla', options: ['decidían', 'decidieron', 'deciden', 'decidirán'], correct: 1 },
-      { sentence: 'La idea del sol se ___ en el nacimiento de Jesús', options: ['transformaba', 'transformó', 'transforma', 'transformará'], correct: 1 },
-      { sentence: 'Esto ___ una transición cultural masiva', options: ['facilitaba', 'facilitó', 'facilita', 'facilitará'], correct: 1 },
-      { sentence: 'Las costumbres ___ de antiguas celebraciones', options: ['venían', 'vinieron', 'vienen', 'vendrán'], correct: 2 },
-      { sentence: 'Los días ___ a ser más largos', options: ['empezaban', 'empezaron', 'empiezan', 'empezarán'], correct: 2 },
-      { sentence: 'El culto al sol ___ arraigado en la cultura', options: ['seguía', 'siguió', 'sigue', 'seguirá'], correct: 0 },
-      { sentence: 'Las tradiciones se ___ con narrativas cristianas', options: ['entrelazaban', 'entrelazaron', 'entrelazan', 'entrelazarán'], correct: 2 },
+      { sentence: 'La Iglesia ___ una decisión estratégica', options: ['tomaba', 'toma', 'tomó', 'tomará'], correct: 2 },
+      { sentence: 'En lugar de prohibir, ___ adoptarla', options: ['decidieron', 'decidían', 'deciden', 'decidirán'], correct: 0 },
+      { sentence: 'La idea del sol se ___ en el nacimiento de Jesús', options: ['transformaba', 'transformará', 'transforma', 'transformó'], correct: 3 },
+      { sentence: 'Esto ___ una transición cultural masiva', options: ['facilitaba', 'facilitará', 'facilita', 'facilitó'], correct: 3 },
+      { sentence: 'Las costumbres ___ de antiguas celebraciones', options: ['venían', 'vienen', 'vinieron', 'vendrán'], correct: 1 },
+      { sentence: 'Los días ___ a ser más largos', options: ['empiezan', 'empezaron', 'empezaban', 'empezarán'], correct: 0 },
+      { sentence: 'El culto al sol ___ arraigado en la cultura', options: ['sigue', 'siguió', 'seguía', 'seguirá'], correct: 2 },
+      { sentence: 'Las tradiciones se ___ con narrativas cristianas', options: ['entrelazan', 'entrelazaron', 'entrelazaban', 'entrelazarán'], correct: 0 },
       { sentence: 'La historia ___ mucho más viva de lo que pensamos', options: ['estaba', 'estuvo', 'está', 'estará'], correct: 2 },
       { sentence: 'Nuestras celebraciones no ___ inventadas de la nada', options: ['eran', 'fueron', 'son', 'serán'], correct: 1 }
     ]
@@ -29682,21 +29682,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'В1 - Блок 1: Расширенный словарь',
     description: 'Выберите правильный перевод сложных выражений',
     questions: [
-      { spanish: 'revelar', options: ['скрывать', 'раскрывать', 'забывать', 'терять'], correct: 1 },
-      { spanish: 'profundo', options: ['поверхностный', 'легкий', 'глубокий', 'простой'], correct: 2 },
-      { spanish: 'la transición', options: ['постоянство', 'переход', 'начало', 'конец'], correct: 1 },
+      { spanish: 'revelar', options: ['скрывать', 'терять', 'забывать', 'раскрывать'], correct: 3 },
+      { spanish: 'profundo', options: ['поверхностный', 'глубокий', 'легкий', 'простой'], correct: 1 },
+      { spanish: 'la transición', options: ['переход', 'постоянство', 'начало', 'конец'], correct: 0 },
       { spanish: 'perenne', options: ['временный', 'короткий', 'вечный', 'быстрый'], correct: 2 },
-      { spanish: 'la fusión', options: ['разделение', 'слияние', 'борьба', 'конфликт'], correct: 1 },
+      { spanish: 'la fusión', options: ['слияние', 'разделение', 'борьба', 'конфликт'], correct: 0 },
       { spanish: 'la adaptación', options: ['отказ', 'сопротивление', 'адаптация', 'разрушение'], correct: 2 },
       { spanish: 'el tapiz', options: ['ткань', 'настенный ковер', 'картина', 'украшение'], correct: 1 },
-      { spanish: 'los hilos', options: ['веревки', 'нитки', 'цепи', 'ленты'], correct: 1 },
-      { spanish: 'entrelazarse', options: ['разделяться', 'соединяться', 'переплетаться', 'разрываться'], correct: 2 },
-      { spanish: 'el lazo', options: ['узел', 'связь', 'разрыв', 'конец'], correct: 1 },
+      { spanish: 'los hilos', options: ['веревки', 'ленты', 'цепи', 'нитки'], correct: 3 },
+      { spanish: 'entrelazarse', options: ['разделяться', 'переплетаться', 'соединяться', 'разрываться'], correct: 1 },
+      { spanish: 'el lazo', options: ['связь', 'узел', 'разрыв', 'конец'], correct: 0 },
       { spanish: 'duradero', options: ['короткий', 'временный', 'длительный', 'быстрый'], correct: 2 },
-      { spanish: 'pagano', options: ['христианский', 'языческий', 'современный', 'древний'], correct: 1 },
-      { spanish: 'dar por sentado', options: ['сомневаться', 'отвергать', 'воспринимать как должное', 'забывать'], correct: 2 },
+      { spanish: 'pagano', options: ['христианский', 'древний', 'современный', 'языческий'], correct: 3 },
+      { spanish: 'dar por sentado', options: ['сомневаться', 'воспринимать как должное', 'отвергать', 'забывать'], correct: 1 },
       { spanish: 'resonar', options: ['молчать', 'шептать', 'резонировать', 'кричать'], correct: 2 },
-      { spanish: 'interpretar', options: ['игнорировать', 'забывать', 'интерпретировать', 'отвергать'], correct: 2 }
+      { spanish: 'interpretar', options: ['игнорировать', 'забывать', 'отвергать', 'интерпретировать'], correct: 3 }
     ]
   },
   'ex-9-2-b1-2-1': {
@@ -29705,21 +29705,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'В1 - Блок 2: Глубокое понимание текста',
     description: 'Ответьте на аналитические вопросы по тексту',
     questions: [
-      { question: 'Según el texto, ¿dónde NO está la respuesta sobre el origen del 25 de diciembre?', options: ['En la historia romana', 'En los textos sagrados', 'En documentos históricos', 'En la Cronografía del 354'], correct: 1 },
-      { question: '¿Cuál era la diferencia principal entre Sol Indiges y Sol Invictus?', options: ['No había diferencia', 'Sol Indiges era local y agrícola, Sol Invictus era universal y militarizado', 'Sol Invictus era más antiguo', 'Sol Indiges venía de Oriente'], correct: 1 },
-      { question: '¿Por qué Sol Invictus era perfecto para un imperio en expansión?', options: ['Era antiguo', 'Era local', 'Representaba una fuerza universal e invencible', 'Era pacífico'], correct: 2 },
-      { question: '¿Qué estrategia política usaron los emperadores con Sol Invictus?', options: ['Lo prohibieron', 'Lo ignoraron', 'Se posicionaron como la encarnación del sol', 'Lo destruyeron'], correct: 2 },
+      { question: 'Según el texto, ¿dónde NO está la respuesta sobre el origen del 25 de diciembre?', options: ['En la historia romana', 'En documentos históricos', 'En los textos sagrados', 'En la Cronografía del 354'], correct: 2 },
+      { question: '¿Cuál era la diferencia principal entre Sol Indiges y Sol Invictus?', options: ['Sol Indiges era local y agrícola, Sol Invictus era universal y militarizado', 'No había diferencia', 'Sol Invictus era más antiguo', 'Sol Indiges venía de Oriente'], correct: 0 },
+      { question: '¿Por qué Sol Invictus era perfecto para un imperio en expansión?', options: ['Era antiguo', 'Era local', 'Era pacífico', 'Representaba una fuerza universal e invencible'], correct: 3 },
+      { question: '¿Qué estrategia política usaron los emperadores con Sol Invictus?', options: ['Lo prohibieron', 'Se posicionaron como la encarnación del sol', 'Lo ignoraron', 'Lo destruyeron'], correct: 1 },
       { question: '¿Qué emperador llevó la devoción al sol a un punto extremo?', options: ['Vespasiano', 'Cómodo', 'Heliogábalo', 'Aureliano'], correct: 2 },
-      { question: '¿Qué simbolizaba que los días empiecen a ser más largos después del solsticio?', options: ['El fin del año', 'El renacer de la luz', 'El inicio del invierno', 'El final del verano'], correct: 1 },
-      { question: '¿Por qué la Iglesia decidió adoptar la fiesta en lugar de prohibirla?', options: ['No tenían poder', 'La fiesta era muy popular', 'No sabían de la fiesta', 'Querían mantener tradiciones paganas'], correct: 1 },
+      { question: '¿Qué simbolizaba que los días empiecen a ser más largos después del solsticio?', options: ['El fin del año', 'El final del verano', 'El inicio del invierno', 'El renacer de la luz'], correct: 3 },
+      { question: '¿Por qué la Iglesia decidió adoptar la fiesta en lugar de prohibirla?', options: ['La fiesta era muy popular', 'No tenían poder', 'No sabían de la fiesta', 'Querían mantener tradiciones paganas'], correct: 0 },
       { question: '¿Qué es la Cronografía del 354?', options: ['Un libro moderno', 'El primer documento que conecta la fiesta pagana con la cristiana', 'Un texto bíblico', 'Una ley romana'], correct: 1 },
-      { question: '¿Cómo se transformó la idea del renacimiento del sol?', options: ['Desapareció', 'Se transformó en el nacimiento de Jesús', 'Permaneció igual', 'Se prohibió'], correct: 1 },
-      { question: '¿Qué facilitó esta transformación simbólica?', options: ['Una guerra', 'Una transición cultural masiva', 'Un decreto imperial', 'Una coincidencia'], correct: 1 },
-      { question: 'Según el texto, ¿de dónde viene el intercambio de regalos?', options: ['De la Biblia', 'De las Saturnales romanas', 'De tradiciones germánicas', 'De Francia'], correct: 1 },
-      { question: '¿Qué simbolizaban originalmente las luces en las celebraciones?', options: ['La oscuridad', 'Las estrellas', 'La victoria de la luz sobre la oscuridad', 'El fuego'], correct: 2 },
-      { question: '¿De qué tradiciones vienen los árboles de hoja perenne?', options: ['Cristianas', 'Romanas', 'Germánicas y romanas', 'Orientales'], correct: 2 },
-      { question: 'Según el texto, ¿cómo se formaron nuestras celebraciones actuales?', options: ['De la nada', 'De siglos de fusión entre creencias paganas y cristianas', 'Solo de tradiciones cristianas', 'De inventos modernos'], correct: 1 },
-      { question: '¿Qué pregunta final plantea el texto?', options: ['¿Cuándo celebrar?', '¿Qué otros ecos del pasado resuenan en nuestras tradiciones?', '¿Dónde celebrar?', '¿Quién inventó la Navidad?'], correct: 1 }
+      { question: '¿Cómo se transformó la idea del renacimiento del sol?', options: ['Se transformó en el nacimiento de Jesús', 'Desapareció', 'Permaneció igual', 'Se prohibió'], correct: 0 },
+      { question: '¿Qué facilitó esta transformación simbólica?', options: ['Una guerra', 'Un decreto imperial', 'Una transición cultural masiva', 'Una coincidencia'], correct: 2 },
+      { question: 'Según el texto, ¿de dónde viene el intercambio de regalos?', options: ['De la Biblia', 'De Francia', 'De tradiciones germánicas', 'De las Saturnales romanas'], correct: 3 },
+      { question: '¿Qué simbolizaban originalmente las luces en las celebraciones?', options: ['La oscuridad', 'La victoria de la luz sobre la oscuridad', 'Las estrellas', 'El fuego'], correct: 1 },
+      { question: '¿De qué tradiciones vienen los árboles de hoja perenne?', options: ['Cristianas', 'Romanas', 'Orientales', 'Germánicas y romanas'], correct: 3 },
+      { question: 'Según el texto, ¿cómo se formaron nuestras celebraciones actuales?', options: ['De siglos de fusión entre creencias paganas y cristianas', 'De la nada', 'Solo de tradiciones cristianas', 'De inventos modernos'], correct: 0 },
+      { question: '¿Qué pregunta final plantea el texto?', options: ['¿Cuándo celebrar?', '¿Dónde celebrar?', '¿Qué otros ecos del pasado resuenan en nuestras tradiciones?', '¿Quién inventó la Navidad?'], correct: 2 }
     ]
   },
   'ex-9-2-b1-3-1': {
@@ -29753,21 +29753,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 1: Словарь (часть 2)',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el templo', options: ['дом', 'храм', 'дворец', 'площадь'], correct: 1 },
-      { spanish: 'el solsticio', options: ['солнце', 'солнцестояние', 'луна', 'звезда'], correct: 1 },
+      { spanish: 'el templo', options: ['храм', 'дом', 'дворец', 'площадь'], correct: 0 },
+      { spanish: 'el solsticio', options: ['солнце', 'луна', 'солнцестояние', 'звезда'], correct: 2 },
       { spanish: 'la jugada maestra', options: ['ошибка', 'мастерский ход', 'игра', 'начало'], correct: 1 },
-      { spanish: 'interpretar', options: ['игнорировать', 'интерпретировать', 'отменять', 'забывать'], correct: 1 },
-      { spanish: 'reinterpretar', options: ['повторить', 'удалить', 'переосмыслить', 'запретить'], correct: 2 },
-      { spanish: 'el tapiz', options: ['стена', 'настенный ковер', 'картина', 'скульптура'], correct: 1 },
+      { spanish: 'interpretar', options: ['игнорировать', 'забывать', 'отменять', 'интерпретировать'], correct: 3 },
+      { spanish: 'reinterpretar', options: ['повторить', 'удалить', 'запретить', 'переосмыслить'], correct: 3 },
+      { spanish: 'el tapiz', options: ['настенный ковер', 'стена', 'картина', 'скульптура'], correct: 0 },
       { spanish: 'los hilos', options: ['веревки', 'нитки', 'шнуры', 'проволока'], correct: 1 },
       { spanish: 'entrelazarse', options: ['разделяться', 'отдаляться', 'переплетаться', 'терять'], correct: 2 },
-      { spanish: 'el lazo', options: ['разрыв', 'связь', 'конец', 'начало'], correct: 1 },
-      { spanish: 'duradero', options: ['короткий', 'длительный', 'слабый', 'новый'], correct: 1 },
+      { spanish: 'el lazo', options: ['разрыв', 'начало', 'конец', 'связь'], correct: 3 },
+      { spanish: 'duradero', options: ['длительный', 'короткий', 'слабый', 'новый'], correct: 0 },
       { spanish: 'pagano', options: ['христианский', 'языческий', 'современный', 'святой'], correct: 1 },
-      { spanish: 'dar por sentado', options: ['отрицать', 'воспринимать как должное', 'искать', 'терять'], correct: 1 },
-      { spanish: 'resonar', options: ['молчать', 'шептать', 'резонировать', 'говорить'], correct: 2 },
+      { spanish: 'dar por sentado', options: ['отрицать', 'искать', 'воспринимать как должное', 'терять'], correct: 2 },
+      { spanish: 'resonar', options: ['молчать', 'резонировать', 'шептать', 'говорить'], correct: 1 },
       { spanish: 'el eco', options: ['тишина', 'крик', 'эхо', 'голос'], correct: 2 },
-      { spanish: 'revelar', options: ['скрывать', 'раскрывать', 'забывать', 'терять'], correct: 1 }
+      { spanish: 'revelar', options: ['раскрывать', 'скрывать', 'забывать', 'терять'], correct: 0 }
     ]
   },
 
@@ -29777,21 +29777,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 1: Словарь (часть 3)',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'profundo', options: ['мелкий', 'поверхностный', 'глубокий', 'узкий'], correct: 2 },
-      { spanish: 'la transición', options: ['остановка', 'переход', 'начало', 'конец'], correct: 1 },
+      { spanish: 'profundo', options: ['мелкий', 'поверхностный', 'узкий', 'глубокий'], correct: 3 },
+      { spanish: 'la transición', options: ['переход', 'остановка', 'начало', 'конец'], correct: 0 },
       { spanish: 'perenne', options: ['временный', 'короткий', 'вечный', 'быстрый'], correct: 2 },
       { spanish: 'la fusión', options: ['разделение', 'слияние', 'борьба', 'конфликт'], correct: 1 },
-      { spanish: 'la adaptación', options: ['отказ', 'сопротивление', 'адаптация', 'изменение'], correct: 2 },
-      { spanish: 'las entrañas', options: ['поверхность', 'внутренности', 'внешность', 'край'], correct: 1 },
-      { spanish: 'la devoción', options: ['безразличие', 'набожность', 'злость', 'страх'], correct: 1 },
-      { spanish: 'la expansión', options: ['сокращение', 'остановка', 'расширение', 'падение'], correct: 2 },
-      { spanish: 'nacer', options: ['умирать', 'рождаться', 'расти', 'стареть'], correct: 1 },
-      { spanish: 'surgir', options: ['исчезать', 'падать', 'возникать', 'терять'], correct: 2 },
-      { spanish: 'adoptar', options: ['отвергать', 'принимать', 'терять', 'забывать'], correct: 1 },
+      { spanish: 'la adaptación', options: ['отказ', 'адаптация', 'сопротивление', 'изменение'], correct: 1 },
+      { spanish: 'las entrañas', options: ['внутренности', 'поверхность', 'внешность', 'край'], correct: 0 },
+      { spanish: 'la devoción', options: ['безразличие', 'злость', 'набожность', 'страх'], correct: 2 },
+      { spanish: 'la expansión', options: ['сокращение', 'остановка', 'падение', 'расширение'], correct: 3 },
+      { spanish: 'nacer', options: ['умирать', 'расти', 'рождаться', 'стареть'], correct: 2 },
+      { spanish: 'surgir', options: ['возникать', 'падать', 'исчезать', 'терять'], correct: 0 },
+      { spanish: 'adoptar', options: ['отвергать', 'забывать', 'терять', 'принимать'], correct: 3 },
       { spanish: 'prohibir', options: ['разрешать', 'запрещать', 'советовать', 'предлагать'], correct: 1 },
-      { spanish: 'celebrar', options: ['игнорировать', 'забывать', 'праздновать', 'терять'], correct: 2 },
+      { spanish: 'celebrar', options: ['игнорировать', 'забывать', 'терять', 'праздновать'], correct: 3 },
       { spanish: 'simbolizar', options: ['скрывать', 'терять', 'символизировать', 'забывать'], correct: 2 },
-      { spanish: 'transformar', options: ['сохранять', 'оставлять', 'трансформировать', 'терять'], correct: 2 }
+      { spanish: 'transformar', options: ['сохранять', 'трансформировать', 'оставлять', 'терять'], correct: 1 }
     ]
   },
 
@@ -29801,21 +29801,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 2: Понимание текста (часть 2)',
     description: 'Ответьте на вопросы по тексту',
     questions: [
-      { question: '¿Cuál es la pregunta principal del texto?', options: ['¿Cómo celebrar Navidad?', '¿De dónde viene el 25 de diciembre?', '¿Dónde celebrar?', '¿Quién celebra?'], correct: 1 },
-      { question: '¿Qué tipo de texto es?', options: ['Ficción', 'Poesía', 'Texto informativo-histórico', 'Receta'], correct: 2 },
+      { question: '¿Cuál es la pregunta principal del texto?', options: ['¿Cómo celebrar Navidad?', '¿Dónde celebrar?', '¿De dónde viene el 25 de diciembre?', '¿Quién celebra?'], correct: 2 },
+      { question: '¿Qué tipo de texto es?', options: ['Ficción', 'Poesía', 'Receta', 'Texto informativo-histórico'], correct: 3 },
       { question: 'Según el texto, ¿el cristianismo inventó la fecha del 25 de diciembre?', options: ['Sí', 'No', 'No se menciona', 'Parcialmente'], correct: 1 },
-      { question: '¿Qué papel jugaron los emperadores romanos?', options: ['Prohibieron el culto al sol', 'Promovieron el culto al sol', 'Ignoraron el culto al sol', 'Destruyeron templos'], correct: 1 },
-      { question: '¿Qué representa el número 274 en el texto?', options: ['Año de la Navidad', 'Año del culto oficial a Sol Invictus', 'Año del solsticio', 'Año de la Cronografía'], correct: 1 },
-      { question: '¿Qué significa que el sol "renacía"?', options: ['Moría', 'Los días comenzaban a ser más largos', 'Hacía más calor', 'Era verano'], correct: 1 },
-      { question: '¿Qué hizo la Iglesia primitiva con la fiesta pagana?', options: ['La prohibió', 'La ignoró', 'La adoptó y transformó', 'La destruyó'], correct: 2 },
-      { question: '¿Qué documento histórico menciona el texto?', options: ['La Biblia', 'El Corán', 'La Cronografía del 354', 'Los Evangelios'], correct: 2 },
-      { question: '¿Qué simboliza la luz en las celebraciones navideñas?', options: ['La oscuridad', 'La victoria de la luz sobre la oscuridad', 'El fuego', 'Las velas'], correct: 1 },
-      { question: '¿De qué cultura vienen las Saturnales?', options: ['Griega', 'Egipcia', 'Romana', 'Germánica'], correct: 2 },
-      { question: '¿Qué tipo de árboles se mencionan en las tradiciones?', options: ['De hojas caducas', 'De hoja perenne', 'Frutales', 'Palmeras'], correct: 1 },
+      { question: '¿Qué papel jugaron los emperadores romanos?', options: ['Promovieron el culto al sol', 'Prohibieron el culto al sol', 'Ignoraron el culto al sol', 'Destruyeron templos'], correct: 0 },
+      { question: '¿Qué representa el número 274 en el texto?', options: ['Año de la Navidad', 'Año de la Cronografía', 'Año del solsticio', 'Año del culto oficial a Sol Invictus'], correct: 3 },
+      { question: '¿Qué significa que el sol "renacía"?', options: ['Moría', 'Hacía más calor', 'Los días comenzaban a ser más largos', 'Era verano'], correct: 2 },
+      { question: '¿Qué hizo la Iglesia primitiva con la fiesta pagana?', options: ['La prohibió', 'La adoptó y transformó', 'La ignoró', 'La destruyó'], correct: 1 },
+      { question: '¿Qué documento histórico menciona el texto?', options: ['La Cronografía del 354', 'El Corán', 'La Biblia', 'Los Evangelios'], correct: 0 },
+      { question: '¿Qué simboliza la luz en las celebraciones navideñas?', options: ['La oscuridad', 'El fuego', 'La victoria de la luz sobre la oscuridad', 'Las velas'], correct: 2 },
+      { question: '¿De qué cultura vienen las Saturnales?', options: ['Griega', 'Egipcia', 'Germánica', 'Romana'], correct: 3 },
+      { question: '¿Qué tipo de árboles se mencionan en las tradiciones?', options: ['De hoja perenne', 'De hojas caducas', 'Frutales', 'Palmeras'], correct: 0 },
       { question: 'Según el texto, ¿las tradiciones navideñas son puras?', options: ['Sí', 'No, son mezcla de tradiciones', 'Solo cristianas', 'Solo paganas'], correct: 1 },
-      { question: '¿Cuál es el tono del texto?', options: ['Triste', 'Enojado', 'Informativo e interesante', 'Aburrido'], correct: 2 },
-      { question: '¿Qué pregunta hace el texto al final?', options: ['¿Dónde celebrar?', '¿Qué otros ecos del pasado hay?', '¿Cuándo celebrar?', '¿Cómo celebrar?'], correct: 1 },
-      { question: 'El texto sugiere que la historia es:', options: ['Muerta', 'Aburrida', 'Más viva de lo que pensamos', 'Inventada'], correct: 2 }
+      { question: '¿Cuál es el tono del texto?', options: ['Triste', 'Informativo e interesante', 'Enojado', 'Aburrido'], correct: 1 },
+      { question: '¿Qué pregunta hace el texto al final?', options: ['¿Dónde celebrar?', '¿Cuándo celebrar?', '¿Qué otros ecos del pasado hay?', '¿Cómo celebrar?'], correct: 2 },
+      { question: 'El texto sugiere que la historia es:', options: ['Muerta', 'Aburrida', 'Inventada', 'Más viva de lo que pensamos'], correct: 3 }
     ]
   },
 
@@ -29825,19 +29825,19 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 2: Понимание текста (часть 3)',
     description: 'Ответьте на вопросы по тексту',
     questions: [
-      { question: '¿En qué civilización antigua se centra principalmente el texto?', options: ['Grecia', 'Egipto', 'Roma', 'China'], correct: 2 },
-      { question: '¿Qué nombre tenía el sol nativo de Roma?', options: ['Sol Invictus', 'Sol Indiges', 'Sol Romano', 'Apollo'], correct: 1 },
-      { question: '¿Qué emperador se mencionó que llevó la devoción al extremo?', options: ['Julio César', 'Augusto', 'Heliogábalo', 'Nerón'], correct: 2 },
-      { question: '¿Qué construyó Aureliano para Sol Invictus?', options: ['Un palacio', 'Un templo', 'Una estatua', 'Una ciudad'], correct: 1 },
-      { question: '¿Cuándo ocurre el solsticio de invierno?', options: ['En verano', 'En primavera', 'Cerca del 21 de diciembre', 'En otoño'], correct: 2 },
-      { question: '¿Por qué era importante el solsticio?', options: ['Era el día más corto', 'Marcaba el renacimiento de la luz', 'Era fiesta nacional', 'No era importante'], correct: 1 },
-      { question: '¿Qué religión estaba ganando seguidores en el imperio?', options: ['El judaísmo', 'El islamismo', 'El cristianismo', 'El budismo'], correct: 2 },
-      { question: '¿Por qué la Iglesia no prohibió la fiesta del sol?', options: ['No podía', 'Era muy popular', 'No sabía de ella', 'No le importaba'], correct: 1 },
-      { question: '¿Qué transformación simbólica menciona el texto?', options: ['Sol en luna', 'Renacimiento del sol en nacimiento de Jesús', 'Día en noche', 'Verano en invierno'], correct: 1 },
-      { question: '¿Qué tipo de transición facilitó esta transformación?', options: ['Política', 'Cultural', 'Económica', 'Militar'], correct: 1 },
-      { question: '¿Qué tradición romana involucra regalos?', options: ['Las Lupercales', 'Las Saturnales', 'Las Bacanales', 'Las Vestales'], correct: 1 },
-      { question: '¿Qué simbolizan las decoraciones con luces?', options: ['El fuego', 'Las estrellas', 'La victoria de la luz', 'El sol'], correct: 2 },
-      { question: '¿De dónde vienen los árboles de hoja perenne en las tradiciones?', options: ['África', 'Asia', 'Tradiciones germánicas y romanas', 'América'], correct: 2 },
+      { question: '¿En qué civilización antigua se centra principalmente el texto?', options: ['Grecia', 'Egipto', 'China', 'Roma'], correct: 3 },
+      { question: '¿Qué nombre tenía el sol nativo de Roma?', options: ['Sol Invictus', 'Sol Romano', 'Sol Indiges', 'Apollo'], correct: 2 },
+      { question: '¿Qué emperador se mencionó que llevó la devoción al extremo?', options: ['Julio César', 'Heliogábalo', 'Augusto', 'Nerón'], correct: 1 },
+      { question: '¿Qué construyó Aureliano para Sol Invictus?', options: ['Un templo', 'Un palacio', 'Una estatua', 'Una ciudad'], correct: 0 },
+      { question: '¿Cuándo ocurre el solsticio de invierno?', options: ['En verano', 'En primavera', 'En otoño', 'Cerca del 21 de diciembre'], correct: 3 },
+      { question: '¿Por qué era importante el solsticio?', options: ['Marcaba el renacimiento de la luz', 'Era el día más corto', 'Era fiesta nacional', 'No era importante'], correct: 0 },
+      { question: '¿Qué religión estaba ganando seguidores en el imperio?', options: ['El judaísmo', 'El cristianismo', 'El islamismo', 'El budismo'], correct: 1 },
+      { question: '¿Por qué la Iglesia no prohibió la fiesta del sol?', options: ['No podía', 'No sabía de ella', 'Era muy popular', 'No le importaba'], correct: 2 },
+      { question: '¿Qué transformación simbólica menciona el texto?', options: ['Sol en luna', 'Verano en invierno', 'Día en noche', 'Renacimiento del sol en nacimiento de Jesús'], correct: 3 },
+      { question: '¿Qué tipo de transición facilitó esta transformación?', options: ['Cultural', 'Política', 'Económica', 'Militar'], correct: 0 },
+      { question: '¿Qué tradición romana involucra regalos?', options: ['Las Lupercales', 'Las Bacanales', 'Las Saturnales', 'Las Vestales'], correct: 2 },
+      { question: '¿Qué simbolizan las decoraciones con luces?', options: ['El fuego', 'La victoria de la luz', 'Las estrellas', 'El sol'], correct: 1 },
+      { question: '¿De dónde vienen los árboles de hoja perenne en las tradiciones?', options: ['África', 'Asia', 'América', 'Tradiciones germánicas y romanas'], correct: 3 },
       { question: 'El texto sugiere que nuestras tradiciones son:', options: ['Inventadas recientemente', 'Solo cristianas', 'Resultado de fusión de culturas', 'Solo paganas'], correct: 2 },
       { question: '¿Cuál es la idea principal del texto?', options: ['La Navidad es mala', 'Las tradiciones tienen raíces antiguas y complejas', 'Roma es importante', 'El sol es importante'], correct: 1 }
     ]
@@ -29849,21 +29849,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 3: Грамматика (часть 2)',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { sentence: 'Los romanos ___ al sol como una deidad', options: ['adoraban', 'adoraron', 'adoran', 'adorarán'], correct: 0 },
-      { sentence: 'Heliogábalo ___ su devoción al extremo', options: ['llevaba', 'llevó', 'lleva', 'llevará'], correct: 1 },
-      { sentence: 'El culto al sol ___ muy arraigado', options: ['estaba', 'estuvo', 'está', 'estará'], correct: 0 },
-      { sentence: 'La luz ___ a renacer después del solsticio', options: ['empezaba', 'empezó', 'empieza', 'empezará'], correct: 2 },
-      { sentence: 'El cristianismo ___ cada vez más popular', options: ['hacía', 'hizo', 'hace', 'se hacía'], correct: 3 },
-      { sentence: 'La estrategia de la Iglesia ___ muy inteligente', options: ['era', 'fue', 'es', 'será'], correct: 1 },
+      { sentence: 'Los romanos ___ al sol como una deidad', options: ['adorarán', 'adoraron', 'adoran', 'adoraban'], correct: 3 },
+      { sentence: 'Heliogábalo ___ su devoción al extremo', options: ['llevaba', 'lleva', 'llevó', 'llevará'], correct: 2 },
+      { sentence: 'El culto al sol ___ muy arraigado', options: ['estuvo', 'estaba', 'está', 'estará'], correct: 1 },
+      { sentence: 'La luz ___ a renacer después del solsticio', options: ['empieza', 'empezó', 'empezaba', 'empezará'], correct: 0 },
+      { sentence: 'El cristianismo ___ cada vez más popular', options: ['hacía', 'hizo', 'se hacía', 'hace'], correct: 2 },
+      { sentence: 'La estrategia de la Iglesia ___ muy inteligente', options: ['fue', 'era', 'es', 'será'], correct: 0 },
       { sentence: 'Ellos no ___ prohibir la fiesta', options: ['querían', 'quisieron', 'quieren', 'querrán'], correct: 1 },
-      { sentence: 'Las tradiciones se ___ durante siglos', options: ['mezclaban', 'mezclaron', 'mezclan', 'mezclarán'], correct: 1 },
-      { sentence: 'El documento del 354 ___ la conexión', options: ['mostraba', 'mostró', 'muestra', 'mostrará'], correct: 1 },
+      { sentence: 'Las tradiciones se ___ durante siglos', options: ['mezclaban', 'mezclarán', 'mezclan', 'mezclaron'], correct: 3 },
+      { sentence: 'El documento del 354 ___ la conexión', options: ['mostró', 'mostraba', 'muestra', 'mostrará'], correct: 0 },
       { sentence: 'Los símbolos paganos ___ con significados cristianos', options: ['reinterpretaban', 'reinterpretaron', 'reinterpretan', 'reinterpretarán'], correct: 1 },
-      { sentence: 'Las Saturnales ___ regalos y celebraciones', options: ['incluían', 'incluyeron', 'incluyen', 'incluirán'], correct: 0 },
+      { sentence: 'Las Saturnales ___ regalos y celebraciones', options: ['incluirán', 'incluyeron', 'incluyen', 'incluían'], correct: 3 },
       { sentence: 'Los árboles de hoja perenne ___ vida eterna', options: ['simbolizaban', 'simbolizaron', 'simbolizan', 'simbolizarán'], correct: 2 },
       { sentence: 'Esta fusión cultural ___ natural y gradual', options: ['era', 'fue', 'es', 'será'], correct: 1 },
-      { sentence: 'Hoy nosotros ___ tradiciones milenarias sin saberlo', options: ['practicábamos', 'practicamos', 'practicamos', 'practicaremos'], correct: 1 },
-      { sentence: 'El pasado ___ presente en nuestras celebraciones', options: ['seguía', 'siguió', 'sigue', 'seguirá'], correct: 2 }
+      { sentence: 'Hoy nosotros ___ tradiciones milenarias sin saberlo', options: ['practicamos', 'practicábamos', 'practicamos', 'practicaremos'], correct: 0 },
+      { sentence: 'El pasado ___ presente en nuestras celebraciones', options: ['seguía', 'siguió', 'seguirá', 'sigue'], correct: 3 }
     ]
   },
 
@@ -29873,20 +29873,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'A2 - Блок 3: Грамматика (часть 3)',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { sentence: 'En la antigua Roma, el sol ___ poder y vida', options: ['representaba', 'representó', 'representa', 'representará'], correct: 0 },
+      { sentence: 'En la antigua Roma, el sol ___ poder y vida', options: ['representa', 'representó', 'representaba', 'representará'], correct: 2 },
       { sentence: 'Los emperadores ___ templos para el sol', options: ['construían', 'construyeron', 'construyen', 'construirán'], correct: 1 },
-      { sentence: 'La gente ___ fiestas después del solsticio', options: ['celebraba', 'celebró', 'celebra', 'celebrará'], correct: 0 },
+      { sentence: 'La gente ___ fiestas después del solsticio', options: ['celebrará', 'celebró', 'celebra', 'celebraba'], correct: 3 },
       { sentence: 'El 25 de diciembre ___ una fecha pagana', options: ['era', 'fue', 'es', 'será'], correct: 0 },
       { sentence: 'La Iglesia ___ adoptar esta fecha', options: ['decidía', 'decidió', 'decide', 'decidirá'], correct: 1 },
-      { sentence: 'Esta decisión ___ muy estratégica', options: ['era', 'fue', 'es', 'será'], correct: 1 },
-      { sentence: 'Las dos culturas se ___ durante siglos', options: ['entrelazaban', 'entrelazaron', 'entrelazan', 'entrelazarán'], correct: 1 },
-      { sentence: 'Los romanos ___ regalos en las Saturnales', options: ['intercambiaban', 'intercambiaron', 'intercambian', 'intercambiarán'], correct: 0 },
-      { sentence: 'Las luces ___ la victoria sobre la oscuridad', options: ['significaban', 'significaron', 'significan', 'significarán'], correct: 2 },
+      { sentence: 'Esta decisión ___ muy estratégica', options: ['fue', 'era', 'es', 'será'], correct: 0 },
+      { sentence: 'Las dos culturas se ___ durante siglos', options: ['entrelazaban', 'entrelazarán', 'entrelazan', 'entrelazaron'], correct: 3 },
+      { sentence: 'Los romanos ___ regalos en las Saturnales', options: ['intercambian', 'intercambiaron', 'intercambiaban', 'intercambiarán'], correct: 2 },
+      { sentence: 'Las luces ___ la victoria sobre la oscuridad', options: ['significan', 'significaron', 'significaban', 'significarán'], correct: 0 },
       { sentence: 'Nosotros ___ tradiciones sin conocer su origen', options: ['practicábamos', 'practicamos', 'practicamos', 'practicaremos'], correct: 1 },
       { sentence: 'El texto nos ___ sobre la historia oculta', options: ['revelaba', 'reveló', 'revela', 'revelará'], correct: 2 },
-      { sentence: 'Las raíces de la Navidad ___ muy antiguas', options: ['eran', 'fueron', 'son', 'serán'], correct: 2 },
-      { sentence: 'Esta información ___ fascinante', options: ['era', 'fue', 'es', 'será'], correct: 2 },
-      { sentence: 'Ahora nosotros ___ mejor el origen de la fecha', options: ['entendíamos', 'entendimos', 'entendemos', 'entenderemos'], correct: 2 },
+      { sentence: 'Las raíces de la Navidad ___ muy antiguas', options: ['eran', 'fueron', 'serán', 'son'], correct: 3 },
+      { sentence: 'Esta información ___ fascinante', options: ['era', 'es', 'fue', 'será'], correct: 1 },
+      { sentence: 'Ahora nosotros ___ mejor el origen de la fecha', options: ['entendíamos', 'entendimos', 'entenderemos', 'entendemos'], correct: 3 },
       { sentence: 'La historia nos ___ que todo tiene un origen', options: ['enseñaba', 'enseñó', 'enseña', 'enseñará'], correct: 2 }
     ]
   },
@@ -29898,21 +29898,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'В1 - Блок 1: Расширенный словарь (часть 2)',
     description: 'Выберите правильный перевод сложных выражений',
     questions: [
-      { spanish: 'competir por', options: ['избегать', 'соперничать за', 'терять', 'находить'], correct: 1 },
+      { spanish: 'competir por', options: ['избегать', 'находить', 'терять', 'соперничать за'], correct: 3 },
       { spanish: 'posicionarse como', options: ['отказываться', 'позиционировать себя как', 'прятаться', 'терять'], correct: 1 },
       { spanish: 'encarnación', options: ['смерть', 'рождение', 'воплощение', 'конец'], correct: 2 },
-      { spanish: 'renacer', options: ['умирать', 'возрождаться', 'стареть', 'слабеть'], correct: 1 },
-      { spanish: 'sistema de creencias', options: ['закон', 'правило', 'система верований', 'традиция'], correct: 2 },
-      { spanish: 'narrativa', options: ['тишина', 'повествование', 'молчание', 'забвение'], correct: 1 },
-      { spanish: 'sincretismo', options: ['разделение', 'конфликт', 'синкретизм', 'война'], correct: 2 },
-      { spanish: 'universal', options: ['местный', 'временный', 'универсальный', 'слабый'], correct: 2 },
-      { spanish: 'militarizado', options: ['мирный', 'милитаризованный', 'слабый', 'старый'], correct: 1 },
-      { spanish: 'unificar', options: ['разделять', 'объединять', 'терять', 'находить'], correct: 1 },
+      { spanish: 'renacer', options: ['возрождаться', 'умирать', 'стареть', 'слабеть'], correct: 0 },
+      { spanish: 'sistema de creencias', options: ['закон', 'система верований', 'правило', 'традиция'], correct: 1 },
+      { spanish: 'narrativa', options: ['тишина', 'молчание', 'повествование', 'забвение'], correct: 2 },
+      { spanish: 'sincretismo', options: ['синкретизм', 'конфликт', 'разделение', 'война'], correct: 0 },
+      { spanish: 'universal', options: ['местный', 'временный', 'слабый', 'универсальный'], correct: 3 },
+      { spanish: 'militarizado', options: ['милитаризованный', 'мирный', 'слабый', 'старый'], correct: 0 },
+      { spanish: 'unificar', options: ['разделять', 'терять', 'объединять', 'находить'], correct: 2 },
       { spanish: 'estratégico', options: ['случайный', 'стратегический', 'глупый', 'слабый'], correct: 1 },
-      { spanish: 'facilitar', options: ['мешать', 'затруднять', 'облегчать', 'терять'], correct: 2 },
-      { spanish: 'transición cultural', options: ['война', 'конфликт', 'культурный переход', 'революция'], correct: 2 },
-      { spanish: 'dato curioso', options: ['скучный факт', 'любопытный факт', 'ложь', 'тайна'], correct: 1 },
-      { spanish: 'vigente', options: ['устаревший', 'старый', 'действующий', 'мертвый'], correct: 2 }
+      { spanish: 'facilitar', options: ['мешать', 'затруднять', 'терять', 'облегчать'], correct: 3 },
+      { spanish: 'transición cultural', options: ['культурный переход', 'конфликт', 'война', 'революция'], correct: 0 },
+      { spanish: 'dato curioso', options: ['скучный факт', 'тайна', 'ложь', 'любопытный факт'], correct: 3 },
+      { spanish: 'vigente', options: ['устаревший', 'действующий', 'старый', 'мертвый'], correct: 1 }
     ]
   },
 
@@ -29922,21 +29922,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'В1 - Блок 1: Расширенный словарь (часть 3)',
     description: 'Выберите правильный перевод сложных выражений',
     questions: [
-      { spanish: 'raíces ancestrales', options: ['новые корни', 'древние корни', 'слабые корни', 'ложные корни'], correct: 1 },
+      { spanish: 'raíces ancestrales', options: ['древние корни', 'новые корни', 'слабые корни', 'ложные корни'], correct: 0 },
       { spanish: 'identidad cultural', options: ['потеря', 'культурная идентичность', 'конфликт', 'война'], correct: 1 },
-      { spanish: 'herencia cultural', options: ['потеря', 'конфликт', 'культурное наследие', 'разрушение'], correct: 2 },
+      { spanish: 'herencia cultural', options: ['потеря', 'конфликт', 'разрушение', 'культурное наследие'], correct: 3 },
       { spanish: 'transmitir', options: ['терять', 'скрывать', 'передавать', 'забывать'], correct: 2 },
-      { spanish: 'pervivir', options: ['умирать', 'сохраняться', 'исчезать', 'терять'], correct: 1 },
-      { spanish: 'culto religioso', options: ['запрет', 'религиозный культ', 'война', 'мир'], correct: 1 },
-      { spanish: 'festividad', options: ['день обычный', 'праздник', 'будни', 'работа'], correct: 1 },
-      { spanish: 'conmemorar', options: ['забывать', 'игнорировать', 'отмечать', 'терять'], correct: 2 },
-      { spanish: 'rito', options: ['запрет', 'обряд', 'закон', 'правило'], correct: 1 },
-      { spanish: 'vínculo', options: ['разрыв', 'связь', 'конец', 'начало'], correct: 1 },
-      { spanish: 'trascender', options: ['останавливаться', 'падать', 'выходить за пределы', 'терять'], correct: 2 },
-      { spanish: 'contexto histórico', options: ['вымысел', 'легенда', 'исторический контекст', 'миф'], correct: 2 },
+      { spanish: 'pervivir', options: ['сохраняться', 'умирать', 'исчезать', 'терять'], correct: 0 },
+      { spanish: 'culto religioso', options: ['запрет', 'мир', 'война', 'религиозный культ'], correct: 3 },
+      { spanish: 'festividad', options: ['день обычный', 'будни', 'праздник', 'работа'], correct: 2 },
+      { spanish: 'conmemorar', options: ['забывать', 'отмечать', 'игнорировать', 'терять'], correct: 1 },
+      { spanish: 'rito', options: ['запрет', 'закон', 'обряд', 'правило'], correct: 2 },
+      { spanish: 'vínculo', options: ['связь', 'разрыв', 'конец', 'начало'], correct: 0 },
+      { spanish: 'trascender', options: ['останавливаться', 'выходить за пределы', 'падать', 'терять'], correct: 1 },
+      { spanish: 'contexto histórico', options: ['вымысел', 'легенда', 'миф', 'исторический контекст'], correct: 3 },
       { spanish: 'influencia', options: ['безразличие', 'игнорирование', 'влияние', 'отказ'], correct: 2 },
-      { spanish: 'asimilar', options: ['отвергать', 'терять', 'усваивать', 'забывать'], correct: 2 },
-      { spanish: 'coexistir', options: ['бороться', 'воевать', 'сосуществовать', 'разделяться'], correct: 2 }
+      { spanish: 'asimilar', options: ['отвергать', 'терять', 'забывать', 'усваивать'], correct: 3 },
+      { spanish: 'coexistir', options: ['сосуществовать', 'воевать', 'бороться', 'разделяться'], correct: 0 }
     ]
   },
 
@@ -29946,21 +29946,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'В1 - Блок 2: Глубокое понимание (часть 2)',
     description: 'Ответьте на аналитические вопросы по тексту',
     questions: [
-      { question: '¿Cuál es el propósito principal del texto?', options: ['Entretener', 'Revelar orígenes históricos de tradiciones', 'Criticar la Navidad', 'Promover el paganismo'], correct: 1 },
-      { question: '¿Qué técnica narrativa usa el texto al principio?', options: ['Una orden', 'Una afirmación', 'Una pregunta retórica', 'Una exclamación'], correct: 2 },
-      { question: '¿Por qué el texto menciona que la respuesta no está en textos sagrados?', options: ['Para negar la religión', 'Para mostrar orígenes no religiosos', 'Para criticar', 'Sin razón'], correct: 1 },
-      { question: '¿Qué relación existía entre política y religión en Roma?', options: ['Estaban separadas', 'Estaban fusionadas', 'No había relación', 'Se odiaban'], correct: 1 },
-      { question: '¿Por qué Sol Invictus era útil para el imperio en expansión?', options: ['Era antiguo', 'Era débil', 'Simbolizaba poder universal', 'Era pacífico'], correct: 2 },
-      { question: '¿Qué fenómeno astronómico es clave en el texto?', options: ['Eclipse', 'Luna llena', 'Solsticio de invierno', 'Equinoccio'], correct: 2 },
-      { question: '¿Qué significaba para los antiguos que los días se alargaran?', options: ['Nada especial', 'El fin del mundo', 'Triunfo de la luz sobre oscuridad', 'Inicio del verano'], correct: 2 },
+      { question: '¿Cuál es el propósito principal del texto?', options: ['Entretener', 'Criticar la Navidad', 'Revelar orígenes históricos de tradiciones', 'Promover el paganismo'], correct: 2 },
+      { question: '¿Qué técnica narrativa usa el texto al principio?', options: ['Una orden', 'Una pregunta retórica', 'Una afirmación', 'Una exclamación'], correct: 1 },
+      { question: '¿Por qué el texto menciona que la respuesta no está en textos sagrados?', options: ['Para mostrar orígenes no religiosos', 'Para negar la religión', 'Para criticar', 'Sin razón'], correct: 0 },
+      { question: '¿Qué relación existía entre política y religión en Roma?', options: ['Estaban separadas', 'Se odiaban', 'No había relación', 'Estaban fusionadas'], correct: 3 },
+      { question: '¿Por qué Sol Invictus era útil para el imperio en expansión?', options: ['Era antiguo', 'Era débil', 'Era pacífico', 'Simbolizaba poder universal'], correct: 3 },
+      { question: '¿Qué fenómeno astronómico es clave en el texto?', options: ['Eclipse', 'Solsticio de invierno', 'Luna llena', 'Equinoccio'], correct: 1 },
+      { question: '¿Qué significaba para los antiguos que los días se alargaran?', options: ['Triunfo de la luz sobre oscuridad', 'El fin del mundo', 'Nada especial', 'Inicio del verano'], correct: 0 },
       { question: '¿Cuál fue la estrategia de la Iglesia primitiva?', options: ['Destruir tradiciones', 'Ignorar tradiciones', 'Sincretismo: adoptar y transformar', 'Crear todo de nuevo'], correct: 2 },
-      { question: '¿Qué es sincretismo cultural según el contexto?', options: ['Rechazo total', 'Fusión de tradiciones diferentes', 'Invención nueva', 'Destrucción'], correct: 1 },
+      { question: '¿Qué es sincretismo cultural según el contexto?', options: ['Rechazo total', 'Destrucción', 'Invención nueva', 'Fusión de tradiciones diferentes'], correct: 3 },
       { question: '¿Por qué la fecha del 25 de diciembre era conveniente?', options: ['Era verano', 'Coincidía con fiesta popular existente', 'Era arbitraria', 'No era conveniente'], correct: 1 },
-      { question: '¿Qué demuestra el intercambio de regalos según el texto?', options: ['Invención moderna', 'Continuidad de costumbres antiguas', 'Tradición solo cristiana', 'Moda reciente'], correct: 1 },
-      { question: '¿Qué papel juegan las luces en la simbología?', options: ['Decoración simple', 'Símbolo profundo de victoria de luz', 'Sin significado', 'Moda moderna'], correct: 1 },
-      { question: '¿Cómo describe el texto nuestras celebraciones?', options: ['Inventadas', 'Falsas', 'Resultado de siglos de fusión', 'Sin historia'], correct: 2 },
-      { question: '¿Qué tono tiene la conclusión del texto?', options: ['Triste', 'Enojado', 'Reflexivo e invitador', 'Aburrido'], correct: 2 },
-      { question: '¿Qué invita a hacer el texto al final?', options: ['Dejar de celebrar', 'Reflexionar sobre otras tradiciones', 'Olvidar el pasado', 'Inventar nuevas fiestas'], correct: 1 }
+      { question: '¿Qué demuestra el intercambio de regalos según el texto?', options: ['Invención moderna', 'Tradición solo cristiana', 'Continuidad de costumbres antiguas', 'Moda reciente'], correct: 2 },
+      { question: '¿Qué papel juegan las luces en la simbología?', options: ['Símbolo profundo de victoria de luz', 'Decoración simple', 'Sin significado', 'Moda moderna'], correct: 0 },
+      { question: '¿Cómo describe el texto nuestras celebraciones?', options: ['Inventadas', 'Falsas', 'Sin historia', 'Resultado de siglos de fusión'], correct: 3 },
+      { question: '¿Qué tono tiene la conclusión del texto?', options: ['Triste', 'Reflexivo e invitador', 'Enojado', 'Aburrido'], correct: 1 },
+      { question: '¿Qué invita a hacer el texto al final?', options: ['Reflexionar sobre otras tradiciones', 'Dejar de celebrar', 'Olvidar el pasado', 'Inventar nuevas fiestas'], correct: 0 }
     ]
   },
 
@@ -29970,21 +29970,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'В1 - Блок 2: Глубокое понимание (часть 3)',
     description: 'Ответьте на аналитические вопросы по тексту',
     questions: [
-      { question: '¿Qué tipo de fuentes menciona el texto?', options: ['Solo religiosas', 'Solo modernas', 'Históricas como la Cronografía del 354', 'Ninguna'], correct: 2 },
-      { question: '¿Qué importancia tiene el año 274 d.C.?', options: ['Nacimiento de Jesús', 'Establecimiento del culto oficial a Sol Invictus', 'Caída de Roma', 'Invención del calendario'], correct: 1 },
-      { question: '¿Cómo caracteriza el texto a Sol Indiges?', options: ['Universal', 'Local y agrícola', 'Militarizado', 'Moderno'], correct: 1 },
-      { question: '¿Qué diferencia a Sol Invictus de Sol Indiges?', options: ['El nombre', 'Sol Invictus era universal y militarizado', 'La edad', 'El color'], correct: 1 },
-      { question: '¿Qué emperador es descrito como extremo en su devoción?', options: ['Aureliano', 'Vespasiano', 'Heliogábalo', 'Julio César'], correct: 2 },
+      { question: '¿Qué tipo de fuentes menciona el texto?', options: ['Solo religiosas', 'Históricas como la Cronografía del 354', 'Solo modernas', 'Ninguna'], correct: 1 },
+      { question: '¿Qué importancia tiene el año 274 d.C.?', options: ['Nacimiento de Jesús', 'Caída de Roma', 'Establecimiento del culto oficial a Sol Invictus', 'Invención del calendario'], correct: 2 },
+      { question: '¿Cómo caracteriza el texto a Sol Indiges?', options: ['Universal', 'Moderno', 'Militarizado', 'Local y agrícola'], correct: 3 },
+      { question: '¿Qué diferencia a Sol Invictus de Sol Indiges?', options: ['Sol Invictus era universal y militarizado', 'El nombre', 'La edad', 'El color'], correct: 0 },
+      { question: '¿Qué emperador es descrito como extremo en su devoción?', options: ['Heliogábalo', 'Vespasiano', 'Aureliano', 'Julio César'], correct: 0 },
       { question: '¿Qué construyó Aureliano además de establecer el culto?', options: ['Una ciudad', 'Un templo', 'Un palacio', 'Una estatua'], correct: 1 },
-      { question: '¿Qué significa "Dies Natalis Solis Invicti"?', options: ['Muerte del sol', 'Día del nacimiento del sol invicto', 'Fiesta de verano', 'Día del emperador'], correct: 1 },
-      { question: '¿Por qué el solsticio de invierno era simbólicamente importante?', options: ['Era el día más frío', 'Marcaba el momento más oscuro antes del renacimiento de la luz', 'Era vacación', 'No era importante'], correct: 1 },
-      { question: '¿Qué problema enfrentaba la Iglesia primitiva?', options: ['Falta de seguidores', 'Competencia con cultos populares arraigados', 'Falta de dinero', 'Nada'], correct: 1 },
-      { question: '¿Qué hizo la Iglesia en lugar de combatir las tradiciones?', options: ['Rendirse', 'Adoptarlas y darles nuevo significado', 'Ignorarlas', 'Destruirlas'], correct: 1 },
-      { question: '¿Qué transformación simbólica central menciona el texto?', options: ['Luna en sol', 'Sol en luna', 'Renacimiento del sol en nacimiento de Cristo', 'Día en noche'], correct: 2 },
+      { question: '¿Qué significa "Dies Natalis Solis Invicti"?', options: ['Muerte del sol', 'Fiesta de verano', 'Día del nacimiento del sol invicto', 'Día del emperador'], correct: 2 },
+      { question: '¿Por qué el solsticio de invierno era simbólicamente importante?', options: ['Era el día más frío', 'No era importante', 'Era vacación', 'Marcaba el momento más oscuro antes del renacimiento de la luz'], correct: 3 },
+      { question: '¿Qué problema enfrentaba la Iglesia primitiva?', options: ['Falta de seguidores', 'Falta de dinero', 'Competencia con cultos populares arraigados', 'Nada'], correct: 2 },
+      { question: '¿Qué hizo la Iglesia en lugar de combatir las tradiciones?', options: ['Rendirse', 'Destruirlas', 'Ignorarlas', 'Adoptarlas y darles nuevo significado'], correct: 3 },
+      { question: '¿Qué transformación simbólica central menciona el texto?', options: ['Renacimiento del sol en nacimiento de Cristo', 'Sol en luna', 'Luna en sol', 'Día en noche'], correct: 0 },
       { question: '¿Qué festividad romana contribuyó al intercambio de regalos?', options: ['Lupercales', 'Saturnales', 'Bacanales', 'Vestales'], correct: 1 },
-      { question: '¿De qué tradiciones vienen los árboles de hoja perenne?', options: ['Solo cristianas', 'Solo romanas', 'Germánicas y romanas', 'Solo modernas'], correct: 2 },
-      { question: '¿Qué concepto resume mejor el proceso descrito?', options: ['Invención', 'Destrucción', 'Sincretismo cultural', 'Revolución'], correct: 2 },
-      { question: '¿Cuál es el mensaje principal del texto?', options: ['La Navidad es falsa', 'Las tradiciones son puras', 'La historia vive en nuestras tradiciones', 'Debemos olvidar el pasado'], correct: 2 }
+      { question: '¿De qué tradiciones vienen los árboles de hoja perenne?', options: ['Solo cristianas', 'Solo romanas', 'Solo modernas', 'Germánicas y romanas'], correct: 3 },
+      { question: '¿Qué concepto resume mejor el proceso descrito?', options: ['Invención', 'Sincretismo cultural', 'Destrucción', 'Revolución'], correct: 1 },
+      { question: '¿Cuál es el mensaje principal del texto?', options: ['La historia vive en nuestras tradiciones', 'Las tradiciones son puras', 'La Navidad es falsa', 'Debemos olvidar el pasado'], correct: 0 }
     ]
   },
 
@@ -30122,13 +30122,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Cuando los romanos ___ al sol, no sabían que esta tradición cambiaría',
-        options: ['adoraban', 'adoraron', 'adoran', 'han adorado'],
-        correct: 0
+        options: ['adoran', 'adoraron', 'adoraban', 'han adorado'],
+        correct: 2
       },
       {
         sentence: 'En el año 274, el emperador Aureliano ___ el culto oficial',
-        options: ['establecía', 'estableció', 'ha establecido', 'establece'],
-        correct: 1
+        options: ['estableció', 'establecía', 'ha establecido', 'establece'],
+        correct: 0
       },
       {
         sentence: 'La Iglesia primitiva ___ una decisión muy estratégica',
@@ -30137,18 +30137,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Mientras el cristianismo ___, el culto al sol seguía fuerte',
-        options: ['crecía', 'creció', 'ha crecido', 'crece'],
-        correct: 0
+        options: ['crece', 'creció', 'ha crecido', 'crecía'],
+        correct: 3
       },
       {
         sentence: 'Desde entonces, nosotros ___ celebrando esta fecha',
-        options: ['seguíamos', 'seguimos', 'hemos seguido', 'seguiremos'],
-        correct: 2
+        options: ['seguíamos', 'seguimos', 'seguiremos', 'hemos seguido'],
+        correct: 3
       },
       {
         sentence: 'Los emperadores ___ en Sol Invictus un símbolo perfecto',
-        options: ['veían', 'vieron', 'han visto', 'ven'],
-        correct: 1
+        options: ['veían', 'han visto', 'vieron', 'ven'],
+        correct: 2
       },
       {
         sentence: 'Es posible que la tradición ___ de culturas antiguas',
@@ -30157,18 +30157,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Aunque el cristianismo ___ la fiesta, mantuvo muchos elementos',
-        options: ['adoptaba', 'adoptó', 'adopte', 'adopta'],
-        correct: 1
+        options: ['adoptó', 'adoptaba', 'adopte', 'adopta'],
+        correct: 0
       },
       {
         sentence: 'Cuando ___ el solsticio, empezaba la celebración',
-        options: ['llega', 'llegaba', 'llegó', 'llegue'],
-        correct: 1
+        options: ['llegaba', 'llega', 'llegó', 'llegue'],
+        correct: 0
       },
       {
         sentence: 'Si los romanos no ___ este culto, nuestra tradición sería diferente',
-        options: ['tenían', 'tuvieron', 'hubieran tenido', 'tienen'],
-        correct: 2
+        options: ['tenían', 'tuvieron', 'tienen', 'hubieran tenido'],
+        correct: 3
       },
       {
         sentence: 'Es importante que ___ el origen de nuestras tradiciones',
@@ -30177,18 +30177,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Antes de que el cristianismo ___, ya existía esta fiesta',
-        options: ['llegaba', 'llegó', 'llegara', 'llega'],
-        correct: 2
+        options: ['llegaba', 'llegara', 'llegó', 'llega'],
+        correct: 1
       },
       {
         sentence: 'La Cronografía del 354 ___ escrita hace muchos siglos',
-        options: ['era', 'fue', 'ha sido', 'es'],
-        correct: 1
+        options: ['era', 'ha sido', 'fue', 'es'],
+        correct: 2
       },
       {
         sentence: 'Dudo que los romanos ___ que su fiesta duraría tanto',
-        options: ['sabían', 'supieran', 'saben', 'han sabido'],
-        correct: 1
+        options: ['supieran', 'sabían', 'saben', 'han sabido'],
+        correct: 0
       },
       {
         sentence: 'Para cuando llegó el siglo IV, el culto ya se ___ establecido',
@@ -30217,23 +30217,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Si supiéramos más sobre el pasado, ___ mejor el presente',
-        options: ['entendemos', 'entenderíamos', 'entendamos', 'entendiéramos'],
-        correct: 1
+        options: ['entenderíamos', 'entendemos', 'entendamos', 'entendiéramos'],
+        correct: 0
       },
       {
         sentence: 'No creo que los paganos ___ que su fiesta se volvería cristiana',
-        options: ['imaginaban', 'imaginaran', 'imaginen', 'imaginarían'],
-        correct: 1
+        options: ['imaginaban', 'imaginarían', 'imaginen', 'imaginaran'],
+        correct: 3
       },
       {
         sentence: 'Era necesario que la Iglesia ___ una solución',
-        options: ['encontraba', 'encontrara', 'encuentre', 'encontraría'],
-        correct: 1
+        options: ['encontraba', 'encuentre', 'encontrara', 'encontraría'],
+        correct: 2
       },
       {
         sentence: 'Me sorprende que nosotros no ___ antes sobre este origen',
-        options: ['sabíamos', 'supiéramos', 'sepamos', 'sabríamos'],
-        correct: 1
+        options: ['sabíamos', 'sabríamos', 'sepamos', 'supiéramos'],
+        correct: 3
       },
       {
         sentence: 'Ojalá ___ más documentos históricos de aquella época',
@@ -30242,8 +30242,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Si los romanos no hubieran adorado al sol, hoy ___ tradiciones diferentes',
-        options: ['tenemos', 'tengamos', 'tendríamos', 'tuviéramos'],
-        correct: 2
+        options: ['tendríamos', 'tengamos', 'tenemos', 'tuviéramos'],
+        correct: 0
       },
       {
         sentence: 'Es probable que muchas culturas ___ fiestas similares',
@@ -30252,13 +30252,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Dudaba que la fusión cultural ___ tan completa',
-        options: ['era', 'fuera', 'sea', 'sería'],
-        correct: 1
+        options: ['era', 'sería', 'sea', 'fuera'],
+        correct: 3
       },
       {
         sentence: 'Aunque el origen ___ pagano, la celebración es ahora cristiana',
-        options: ['era', 'fuera', 'sea', 'es'],
-        correct: 2
+        options: ['sea', 'fuera', 'era', 'es'],
+        correct: 0
       },
       {
         sentence: 'Me gustaría que todos ___ la verdadera historia',
@@ -30272,13 +30272,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Si la Iglesia no hubiera sido inteligente, ___ muchos conflictos',
-        options: ['había', 'hubiera habido', 'haya', 'habría'],
-        correct: 3
+        options: ['habría', 'hubiera habido', 'haya', 'había'],
+        correct: 0
       },
       {
         sentence: 'Espero que este conocimiento nos ___ a valorar nuestras tradiciones',
-        options: ['ayuda', 'ayude', 'ayudara', 'ayudaría'],
-        correct: 1
+        options: ['ayuda', 'ayudaría', 'ayudara', 'ayude'],
+        correct: 3
       }
     ]
   },
@@ -30292,13 +30292,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: '___ de prohibir la fiesta, la Iglesia la adoptó',
-        options: ['A pesar', 'En lugar', 'Antes', 'Después'],
-        correct: 1
+        options: ['A pesar', 'Después', 'Antes', 'En lugar'],
+        correct: 3
       },
       {
         sentence: 'El culto al sol era popular ___ de la llegada del cristianismo',
-        options: ['antes', 'después', 'durante', 'mientras'],
-        correct: 0
+        options: ['durante', 'después', 'antes', 'mientras'],
+        correct: 2
       },
       {
         sentence: '___ que el solsticio ocurría, empezaban las celebraciones',
@@ -30307,18 +30307,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'La tradición perduró ___ los cambios religiosos',
-        options: ['a pesar de', 'porque', 'si', 'cuando'],
-        correct: 0
+        options: ['porque', 'a pesar de', 'si', 'cuando'],
+        correct: 1
       },
       {
         sentence: '___ sabemos hoy, muchas tradiciones tienen orígenes paganos',
-        options: ['Como', 'Cuándo', 'Aunque', 'Si'],
-        correct: 0
+        options: ['Si', 'Cuándo', 'Aunque', 'Como'],
+        correct: 3
       },
       {
         sentence: 'Los romanos celebraban el solsticio ___ marcaba el renacimiento del sol',
-        options: ['porque', 'aunque', 'si', 'cuando'],
-        correct: 0
+        options: ['si', 'aunque', 'porque', 'cuando'],
+        correct: 2
       },
       {
         sentence: '___ más investigamos, más conexiones encontramos',
@@ -30327,18 +30327,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'La fecha se eligió ___ ya era importante para los romanos',
-        options: ['porque', 'aunque', 'si', 'cuando'],
-        correct: 0
+        options: ['aunque', 'porque', 'si', 'cuando'],
+        correct: 1
       },
       {
         sentence: '___ el origen sea pagano, la celebración actual es cristiana',
-        options: ['Cuando', 'Si', 'Aunque', 'Porque'],
-        correct: 2
+        options: ['Cuando', 'Si', 'Porque', 'Aunque'],
+        correct: 3
       },
       {
         sentence: 'Las tradiciones evolucionan ___ el tiempo',
-        options: ['con', 'en', 'de', 'por'],
-        correct: 0
+        options: ['de', 'en', 'con', 'por'],
+        correct: 2
       },
       {
         sentence: '___ la fusión cultural, surgió una nueva tradición',
@@ -30347,8 +30347,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'El documento fue escrito ___ siglo IV',
-        options: ['en el', 'al', 'del', 'por el'],
-        correct: 0
+        options: ['al', 'en el', 'del', 'por el'],
+        correct: 1
       },
       {
         sentence: '___ podemos ver, el pasado influye en el presente',
@@ -30357,13 +30357,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'La Iglesia actuó ___ sabiduría',
-        options: ['con', 'en', 'de', 'por'],
-        correct: 0
+        options: ['de', 'en', 'con', 'por'],
+        correct: 2
       },
       {
         sentence: '___ esta historia, entendemos mejor nuestras tradiciones',
-        options: ['Conociendo', 'Conocer', 'Conozco', 'Conocía'],
-        correct: 0
+        options: ['Conocía', 'Conocer', 'Conozco', 'Conociendo'],
+        correct: 3
       }
     ]
   },
@@ -30463,26 +30463,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Понимание текста: Alimentos con carbohidratos malos',
     description: 'Ответьте на вопросы по тексту. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { question: '¿Existen realmente los carbohidratos buenos y malos según el experto?', options: ['Sí, existen científicamente', 'No existen en la práctica', 'Solo los malos existen', 'Solo los buenos existen'], correct: 1 },
-      { question: '¿Cuántos macronutrientes esenciales hay?', options: ['Dos', 'Tres', 'Cuatro', 'Cinco'], correct: 1 },
-      { question: '¿Cuáles son los tres macronutrientes?', options: ['Vitaminas, minerales y proteínas', 'Grasas, proteínas y carbohidratos', 'Agua, sal y azúcar', 'Fibra, grasa y proteína'], correct: 1 },
+      { question: '¿Existen realmente los carbohidratos buenos y malos según el experto?', options: ['Sí, existen científicamente', 'Solo los malos existen', 'No existen en la práctica', 'Solo los buenos existen'], correct: 2 },
+      { question: '¿Cuántos macronutrientes esenciales hay?', options: ['Dos', 'Cinco', 'Cuatro', 'Tres'], correct: 3 },
+      { question: '¿Cuáles son los tres macronutrientes?', options: ['Grasas, proteínas y carbohidratos', 'Vitaminas, minerales y proteínas', 'Agua, sal y azúcar', 'Fibra, grasa y proteína'], correct: 0 },
       { question: '¿Por qué llamamos "malos" a algunos carbohidratos?', options: ['Porque son tóxicos', 'Porque se absorben muy rápido', 'Porque no tienen valor nutritivo', 'Porque son artificiales'], correct: 1 },
       { question: '¿Por qué llamamos "buenos" a algunos carbohidratos?', options: ['Porque son naturales', 'Porque se absorben muy lentamente', 'Porque tienen más vitaminas', 'Porque son más baratos'], correct: 1 },
-      { question: '¿Qué ocurre cuando un carbohidrato se absorbe muy rápido?', options: ['El cuerpo produce poca insulina', 'El cuerpo no reacciona', 'El cuerpo produce mucha insulina', 'El cuerpo elimina el alimento'], correct: 2 },
-      { question: '¿Qué término más moderno se usa para carbohidratos que se absorben rápido?', options: ['Alimentos con alto índice glucémico', 'Alimentos procesados', 'Alimentos artificiales', 'Alimentos tóxicos'], correct: 0 },
-      { question: '¿Los cereales integrales son carbohidratos buenos o malos?', options: ['Malos', 'Buenos', 'Neutros', 'Depende de la persona'], correct: 1 },
-      { question: '¿Qué son el amaranto y la quinoa?', options: ['Cereales', 'Pseudo cereales', 'Legumbres', 'Frutos secos'], correct: 1 },
-      { question: '¿Los lácteos tienen azúcares buenos o malos?', options: ['Malos', 'Buenos', 'No tienen azúcares', 'Depende del tipo'], correct: 1 },
-      { question: '¿Qué tipo de queso es mejor?', options: ['Fresco', 'Más curado, más viejo', 'No importa', 'Sin curar'], correct: 1 },
+      { question: '¿Qué ocurre cuando un carbohidrato se absorbe muy rápido?', options: ['El cuerpo produce mucha insulina', 'El cuerpo no reacciona', 'El cuerpo produce poca insulina', 'El cuerpo elimina el alimento'], correct: 0 },
+      { question: '¿Qué término más moderno se usa para carbohidratos que se absorben rápido?', options: ['Alimentos tóxicos', 'Alimentos procesados', 'Alimentos artificiales', 'Alimentos con alto índice glucémico'], correct: 3 },
+      { question: '¿Los cereales integrales son carbohidratos buenos o malos?', options: ['Malos', 'Neutros', 'Buenos', 'Depende de la persona'], correct: 2 },
+      { question: '¿Qué son el amaranto y la quinoa?', options: ['Cereales', 'Legumbres', 'Pseudo cereales', 'Frutos secos'], correct: 2 },
+      { question: '¿Los lácteos tienen azúcares buenos o malos?', options: ['Buenos', 'Malos', 'No tienen azúcares', 'Depende del tipo'], correct: 0 },
+      { question: '¿Qué tipo de queso es mejor?', options: ['Fresco', 'Sin curar', 'No importa', 'Más curado, más viejo'], correct: 3 },
       { question: '¿Qué frutas menciona como buenas para personas con diabetes?', options: ['Plátano y uvas', 'Arándanos, kiwis, manzanas y fresas', 'Todas las frutas', 'Ninguna fruta'], correct: 1 },
-      { question: '¿Qué debemos evitar en los alimentos?', options: ['Grasas naturales', 'Proteínas', 'Azúcares añadidos', 'Agua'], correct: 2 },
-      { question: '¿Dónde podemos ver los azúcares añadidos?', options: ['En el color del envase', 'En un cuadrito blanco en el envase', 'En el precio', 'No se puede ver'], correct: 1 },
+      { question: '¿Qué debemos evitar en los alimentos?', options: ['Grasas naturales', 'Proteínas', 'Agua', 'Azúcares añadidos'], correct: 3 },
+      { question: '¿Dónde podemos ver los azúcares añadidos?', options: ['En un cuadrito blanco en el envase', 'En el color del envase', 'En el precio', 'No se puede ver'], correct: 0 },
       { question: '¿Los zumos de frutas son carbohidratos buenos o malos?', options: ['Buenos', 'Malos', 'Neutros', 'No tienen carbohidratos'], correct: 1 },
-      { question: '¿Por qué los zumos son diferentes de comer la fruta entera?', options: ['Tienen menos vitaminas', 'Rompen la fibra vegetal', 'Están fríos', 'Tienen más calorías'], correct: 1 },
-      { question: '¿Comer una naranja a bocado es mejor que en zumo?', options: ['No, es igual', 'Sí, es mejor', 'Peor', 'Depende del día'], correct: 1 },
-      { question: '¿El alcohol entra en la categoría de carbohidratos malos?', options: ['No', 'Sí', 'Solo vino', 'Solo cerveza'], correct: 1 },
-      { question: '¿Los refrescos azucarados son buenos o malos?', options: ['Buenos', 'Malos', 'Neutros', 'Depende de la marca'], correct: 1 },
-      { question: '¿Cuánto porcentaje de la nutrición entendemos según el experto?', options: ['50%', '75%', '99%', '100%'], correct: 2 }
+      { question: '¿Por qué los zumos son diferentes de comer la fruta entera?', options: ['Tienen menos vitaminas', 'Están fríos', 'Rompen la fibra vegetal', 'Tienen más calorías'], correct: 2 },
+      { question: '¿Comer una naranja a bocado es mejor que en zumo?', options: ['No, es igual', 'Depende del día', 'Peor', 'Sí, es mejor'], correct: 3 },
+      { question: '¿El alcohol entra en la categoría de carbohidratos malos?', options: ['Sí', 'No', 'Solo vino', 'Solo cerveza'], correct: 0 },
+      { question: '¿Los refrescos azucarados son buenos o malos?', options: ['Buenos', 'Neutros', 'Malos', 'Depende de la marca'], correct: 2 },
+      { question: '¿Cuánto porcentaje de la nutrición entendemos según el experto?', options: ['50%', '99%', '75%', '100%'], correct: 1 }
     ]
   },
   'ex-9-4-carbohidratos-grammar': {
@@ -30491,26 +30491,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Грамматика: Alimentos con carbohidratos malos',
     description: 'Выберите правильную форму глагола. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { question: 'En este video vamos a ___ (hablar) de los carbohidratos.', options: ['hablar', 'hablamos', 'hablando', 'hable'], correct: 0 },
-      { question: 'Todos los alimentos ___ (poder) ser grasas, proteínas o carbohidratos.', options: ['pueden', 'podían', 'pudieron', 'puedan'], correct: 0 },
-      { question: 'Es importante que nosotros ___ (entender) qué son los carbohidratos.', options: ['entendemos', 'entendíamos', 'entendamos', 'entendiéramos'], correct: 2 },
+      { question: 'En este video vamos a ___ (hablar) de los carbohidratos.', options: ['hablamos', 'hablar', 'hablando', 'hable'], correct: 1 },
+      { question: 'Todos los alimentos ___ (poder) ser grasas, proteínas o carbohidratos.', options: ['pudieron', 'podían', 'pueden', 'puedan'], correct: 2 },
+      { question: 'Es importante que nosotros ___ (entender) qué son los carbohidratos.', options: ['entendemos', 'entendíamos', 'entendiéramos', 'entendamos'], correct: 3 },
       { question: 'Los carbohidratos ___ (ser) uno de los tres macronutrientes esenciales.', options: ['son', 'están', 'sean', 'estén'], correct: 0 },
-      { question: 'Cuando un carbohidrato se ___ (absorber) muy rápido, es malo.', options: ['absorbe', 'absorba', 'absorbía', 'absorbió'], correct: 0 },
+      { question: 'Cuando un carbohidrato se ___ (absorber) muy rápido, es malo.', options: ['absorbía', 'absorba', 'absorbe', 'absorbió'], correct: 2 },
       { question: 'El cuerpo ___ (tener) que producir mucha insulina.', options: ['tiene', 'tenga', 'tenía', 'tuvo'], correct: 0 },
-      { question: 'Es necesario que los niveles de azúcar ___ (subir) paulatinamente.', options: ['suben', 'subían', 'suban', 'subieron'], correct: 2 },
-      { question: 'Los cereales integrales se ___ (absorber) muy poco a poco.', options: ['absorben', 'absorbían', 'absorbieron', 'absorban'], correct: 0 },
+      { question: 'Es necesario que los niveles de azúcar ___ (subir) paulatinamente.', options: ['suben', 'subían', 'subieron', 'suban'], correct: 3 },
+      { question: 'Los cereales integrales se ___ (absorber) muy poco a poco.', options: ['absorbían', 'absorben', 'absorbieron', 'absorban'], correct: 1 },
       { question: 'Recomiendo que ustedes ___ (evitar) los azúcares añadidos.', options: ['evitan', 'evitaban', 'eviten', 'evitaron'], correct: 2 },
-      { question: 'Los expertos ___ (haber) adoptado esta definición.', options: ['han', 'habían', 'hayan', 'hubieran'], correct: 0 },
-      { question: 'No ___ (comer, tú) alimentos con alto índice glucémico.', options: ['comes', 'comas', 'comías', 'comiste'], correct: 1 },
-      { question: 'Es mejor que tú ___ (consumir) frutas enteras.', options: ['consumes', 'consumías', 'consumas', 'consumiste'], correct: 2 },
+      { question: 'Los expertos ___ (haber) adoptado esta definición.', options: ['habían', 'han', 'hayan', 'hubieran'], correct: 1 },
+      { question: 'No ___ (comer, tú) alimentos con alto índice glucémico.', options: ['comes', 'comiste', 'comías', 'comas'], correct: 3 },
+      { question: 'Es mejor que tú ___ (consumir) frutas enteras.', options: ['consumas', 'consumías', 'consumes', 'consumiste'], correct: 0 },
       { question: 'Los zumos ___ (romper) la fibra vegetal.', options: ['rompen', 'rompían', 'rompan', 'rompieron'], correct: 0 },
-      { question: '___ (Leer, ustedes) las etiquetas de los alimentos.', options: ['Leen', 'Lean', 'Leían', 'Leyeron'], correct: 1 },
-      { question: 'Dudo que los refrescos ___ (ser) saludables.', options: ['son', 'eran', 'sean', 'fueran'], correct: 2 },
-      { question: 'El organismo ___ (producir) insulina para retirar el azúcar.', options: ['produce', 'producía', 'produzca', 'produjo'], correct: 0 },
+      { question: '___ (Leer, ustedes) las etiquetas de los alimentos.', options: ['Leen', 'Leían', 'Lean', 'Leyeron'], correct: 2 },
+      { question: 'Dudo que los refrescos ___ (ser) saludables.', options: ['son', 'sean', 'eran', 'fueran'], correct: 1 },
+      { question: 'El organismo ___ (producir) insulina para retirar el azúcar.', options: ['produjo', 'producía', 'produzca', 'produce'], correct: 3 },
       { question: 'Es posible que algunos alimentos ___ (tener) azúcares ocultos.', options: ['tienen', 'tenían', 'tengan', 'tuvieran'], correct: 2 },
-      { question: 'Los quesos más curados ___ (ser) mejores opciones.', options: ['son', 'están', 'sean', 'estén'], correct: 0 },
-      { question: 'No ___ (beber, vosotros) zumos procesados.', options: ['bebéis', 'bebáis', 'bebíais', 'bebisteis'], correct: 1 },
-      { question: 'Espero que este video les ___ (ayudar) a entender mejor.', options: ['ayuda', 'ayudaba', 'ayude', 'ayudara'], correct: 2 }
+      { question: 'Los quesos más curados ___ (ser) mejores opciones.', options: ['están', 'son', 'sean', 'estén'], correct: 1 },
+      { question: 'No ___ (beber, vosotros) zumos procesados.', options: ['bebáis', 'bebéis', 'bebíais', 'bebisteis'], correct: 0 },
+      { question: 'Espero que este video les ___ (ayudar) a entender mejor.', options: ['ayuda', 'ayudaba', 'ayudara', 'ayude'], correct: 3 }
     ]
   },
   'ex-9-4-carbohidratos-translation': {
@@ -30578,25 +30578,25 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Понимание текста: Gusanos de harina',
     description: 'Ответьте на вопросы по тексту. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { question: '¿Dónde se cultiva la proteína del futuro según el texto?', options: ['En dos plantas en el sur de Alemania', 'En el norte de España', 'En Francia', 'En Italia'], correct: 0 },
+      { question: '¿Dónde se cultiva la proteína del futuro según el texto?', options: ['En Italia', 'En el norte de España', 'En Francia', 'En dos plantas en el sur de Alemania'], correct: 3 },
       { question: '¿Cómo se llama la granja mencionada?', options: ['Protein Future', 'Sixfeet Suite', 'German Insects', 'Mealworm Farm'], correct: 1 },
       { question: '¿Cuánto mide aproximadamente el gusano de la harina?', options: ['Más de cinco centímetros', 'Menos de un centímetro', 'Poco más de dos centímetros', 'Diez centímetros'], correct: 2 },
-      { question: '¿Qué porcentaje de la masa del insecto es proteína?', options: ['Hasta el 30%', 'Hasta el 50%', 'Hasta el 70%', 'Hasta el 90%'], correct: 2 },
-      { question: '¿Qué porcentaje de omega 3 tienen los peces?', options: ['2%', '7%', '14%', '20%'], correct: 0 },
-      { question: '¿Qué porcentaje de omega 3 tiene el gusano de la harina?', options: ['2%', '7%', 'Más del 14%', '10%'], correct: 2 },
-      { question: '¿Qué tipos de insectos se crían en la granja?', options: ['Solo gusanos de la harina', 'Gusanos de la harina, grillos y saltamontes', 'Abejas y hormigas', 'Mariposas'], correct: 1 },
-      { question: '¿Qué temperatura constante necesitan los insectos?', options: ['Hasta 20 grados', 'Hasta 30 grados', 'Hasta 40 grados', 'Hasta 50 grados'], correct: 2 },
-      { question: '¿Cuánto tiempo viven los insectos?', options: ['Entre 2 y 3 semanas', 'Entre 4 y 5 semanas', 'Entre 6 y 7 semanas', 'Entre 8 y 10 semanas'], correct: 1 },
-      { question: '¿Qué hacen con los insectos después de que entran en el refrigerador?', options: ['Los venden vivos', 'Los meten en un horno', 'Los liberan', 'Los congelan'], correct: 1 },
-      { question: '¿A quiénes venden los productos?', options: ['Solo a restaurantes', 'A tiendas, restaurantes y consumidores directos', 'Solo a consumidores', 'Solo a tiendas'], correct: 1 },
+      { question: '¿Qué porcentaje de la masa del insecto es proteína?', options: ['Hasta el 70%', 'Hasta el 50%', 'Hasta el 30%', 'Hasta el 90%'], correct: 0 },
+      { question: '¿Qué porcentaje de omega 3 tienen los peces?', options: ['7%', '2%', '14%', '20%'], correct: 1 },
+      { question: '¿Qué porcentaje de omega 3 tiene el gusano de la harina?', options: ['2%', '7%', '10%', 'Más del 14%'], correct: 3 },
+      { question: '¿Qué tipos de insectos se crían en la granja?', options: ['Solo gusanos de la harina', 'Abejas y hormigas', 'Gusanos de la harina, grillos y saltamontes', 'Mariposas'], correct: 2 },
+      { question: '¿Qué temperatura constante necesitan los insectos?', options: ['Hasta 40 grados', 'Hasta 30 grados', 'Hasta 20 grados', 'Hasta 50 grados'], correct: 0 },
+      { question: '¿Cuánto tiempo viven los insectos?', options: ['Entre 4 y 5 semanas', 'Entre 2 y 3 semanas', 'Entre 6 y 7 semanas', 'Entre 8 y 10 semanas'], correct: 0 },
+      { question: '¿Qué hacen con los insectos después de que entran en el refrigerador?', options: ['Los venden vivos', 'Los liberan', 'Los meten en un horno', 'Los congelan'], correct: 2 },
+      { question: '¿A quiénes venden los productos?', options: ['Solo a restaurantes', 'Solo a tiendas', 'Solo a consumidores', 'A tiendas, restaurantes y consumidores directos'], correct: 3 },
       { question: '¿Qué hace la Unión Europea para estas empresas?', options: ['Las prohíbe', 'Allana el camino para que tengan menos gastos', 'Las ignora', 'Las critica'], correct: 1 },
-      { question: '¿Qué están haciendo para reducir costos?', options: ['Contratar más trabajadores', 'Automatizar los procesos', 'Cerrar la granja', 'Subir los precios'], correct: 1 },
-      { question: '¿Quién es Nono Peka Work Airlines?', options: ['Un granjero', 'Un panadero en Núremberg', 'Un vendedor', 'Un chef'], correct: 1 },
-      { question: '¿Qué porcentaje de harina de gusano contiene el pan de insectos?', options: ['10%', '15%', '20%', '25%'], correct: 2 },
+      { question: '¿Qué están haciendo para reducir costos?', options: ['Automatizar los procesos', 'Contratar más trabajadores', 'Cerrar la granja', 'Subir los precios'], correct: 0 },
+      { question: '¿Quién es Nono Peka Work Airlines?', options: ['Un granjero', 'Un vendedor', 'Un panadero en Núremberg', 'Un chef'], correct: 2 },
+      { question: '¿Qué porcentaje de harina de gusano contiene el pan de insectos?', options: ['10%', '15%', '25%', '20%'], correct: 3 },
       { question: '¿Cuánto cuesta el pan de insectos?', options: ['Cinco euros', 'Más de ocho euros', 'Tres euros', 'Diez euros'], correct: 1 },
-      { question: '¿Qué grupo de edad mostró más interés en los productos?', options: ['Jóvenes menores de 25 años', 'Entre 30 y 40 años', 'Mayores de 50 años', 'Adolescentes'], correct: 2 },
-      { question: '¿Qué pensaban sobre la generación joven?', options: ['Que no les gustaría', 'Que serían más propensos a probar', 'Que tendrían miedo', 'Que rechazarían el producto'], correct: 1 },
-      { question: '¿Qué probaron muchos clientes mayores?', options: ['Solo el pan', 'Los gusanos de la harina enteros', 'Nada', 'Solo harina'], correct: 1 },
+      { question: '¿Qué grupo de edad mostró más interés en los productos?', options: ['Jóvenes menores de 25 años', 'Mayores de 50 años', 'Entre 30 y 40 años', 'Adolescentes'], correct: 1 },
+      { question: '¿Qué pensaban sobre la generación joven?', options: ['Que serían más propensos a probar', 'Que no les gustaría', 'Que tendrían miedo', 'Que rechazarían el producto'], correct: 0 },
+      { question: '¿Qué probaron muchos clientes mayores?', options: ['Solo el pan', 'Solo harina', 'Nada', 'Los gusanos de la harina enteros'], correct: 3 },
       { question: '¿Cómo describe el texto a los clientes del panadero?', options: ['Tímidos', 'Conservadores', 'Atrevidos y audaces', 'Desinteresados'], correct: 2 }
     ]
   },
@@ -30606,26 +30606,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Грамматика: Gusanos de harina',
     description: 'Выберите правильную форму глагола. Подсветка: зеленый = правильно, красный = неправильно. После ответа на вопрос у вас есть 15 секунд для проверки, прежде чем появится следующий вопрос.',
     questions: [
-      { question: 'La empresa ya ___ (cultivar) millones de insectos este año.', options: ['ha cultivado', 'cultivó', 'cultivaba', 'cultive'], correct: 0 },
-      { question: 'Ayer nosotros ___ (probar) el pan con harina de insectos.', options: ['hemos probado', 'probábamos', 'probamos', 'probemos'], correct: 2 },
-      { question: 'Cuando era joven, mi abuelo nunca ___ (comer) insectos.', options: ['comió', 'ha comido', 'comía', 'coma'], correct: 2 },
+      { question: 'La empresa ya ___ (cultivar) millones de insectos este año.', options: ['cultivaba', 'cultivó', 'ha cultivado', 'cultive'], correct: 2 },
+      { question: 'Ayer nosotros ___ (probar) el pan con harina de insectos.', options: ['hemos probado', 'probábamos', 'probemos', 'probamos'], correct: 3 },
+      { question: 'Cuando era joven, mi abuelo nunca ___ (comer) insectos.', options: ['comió', 'comía', 'ha comido', 'coma'], correct: 1 },
       { question: '___ (Probar, tú) este producto nuevo, es muy nutritivo.', options: ['Prueba', 'Pruebes', 'Probas', 'Probarás'], correct: 0 },
-      { question: 'No ___ (tener, tú) miedo de probar algo diferente.', options: ['tienes', 'tengas', 'ten', 'tener'], correct: 1 },
-      { question: 'Es importante que nosotros ___ (reducir) el consumo de carne.', options: ['reducimos', 'reducíamos', 'reduzcamos', 'redujéramos'], correct: 2 },
+      { question: 'No ___ (tener, tú) miedo de probar algo diferente.', options: ['tengas', 'tienes', 'ten', 'tener'], correct: 0 },
+      { question: 'Es importante que nosotros ___ (reducir) el consumo de carne.', options: ['reducimos', 'reducíamos', 'redujéramos', 'reduzcamos'], correct: 3 },
       { question: 'Los científicos ___ (descubrir) que los insectos son ricos en omega-3.', options: ['descubrieron', 'han descubierto', 'descubrían', 'descubran'], correct: 1 },
-      { question: 'La semana pasada ellos ___ (automatizar) todo el proceso.', options: ['automatizaron', 'han automatizado', 'automatizaban', 'automaticen'], correct: 0 },
+      { question: 'La semana pasada ellos ___ (automatizar) todo el proceso.', options: ['automatizaban', 'han automatizado', 'automatizaron', 'automaticen'], correct: 2 },
       { question: 'Antes la gente ___ (ser) más conservadora con la comida.', options: ['fue', 'ha sido', 'era', 'sea'], correct: 2 },
       { question: '___ (Consumir, vosotros) más proteínas naturales.', options: ['Consumid', 'Consumís', 'Consumáis', 'Consumiréis'], correct: 0 },
       { question: 'No ___ (desperdiciar, vosotros) esta oportunidad de probar.', options: ['desperdiciáis', 'desperdiciéis', 'desperdiciéis', 'desperdiciárais'], correct: 1 },
-      { question: 'Dudo que los insectos ___ (ser) la única solución.', options: ['son', 'eran', 'sean', 'fueran'], correct: 2 },
-      { question: 'Este mes la producción ___ (aumentar) significativamente.', options: ['aumentó', 'ha aumentado', 'aumentaba', 'aumente'], correct: 1 },
-      { question: 'En 2020 la empresa ___ (empezar) a vender sus productos.', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0 },
-      { question: 'Mientras los insectos ___ (vivir), necesitan temperaturas constantes.', options: ['vivieron', 'han vivido', 'vivían', 'vivan'], correct: 2 },
-      { question: '___ (Ser, usted) audaz y pruebe algo nuevo.', options: ['Es', 'Sea', 'Eres', 'Seas'], correct: 1 },
+      { question: 'Dudo que los insectos ___ (ser) la única solución.', options: ['son', 'eran', 'fueran', 'sean'], correct: 3 },
+      { question: 'Este mes la producción ___ (aumentar) significativamente.', options: ['aumentó', 'aumentaba', 'ha aumentado', 'aumente'], correct: 2 },
+      { question: 'En 2020 la empresa ___ (empezar) a vender sus productos.', options: ['ha empezado', 'empezó', 'empezaba', 'empiece'], correct: 1 },
+      { question: 'Mientras los insectos ___ (vivir), necesitan temperaturas constantes.', options: ['vivieron', 'han vivido', 'vivan', 'vivían'], correct: 3 },
+      { question: '___ (Ser, usted) audaz y pruebe algo nuevo.', options: ['Sea', 'Es', 'Eres', 'Seas'], correct: 0 },
       { question: 'No ___ (creer, ustedes) todo lo que dicen los críticos.', options: ['creen', 'crean', 'creían', 'creyeran'], correct: 1 },
-      { question: 'Es posible que la UE ___ (aprobar) nuevas regulaciones.', options: ['aprueba', 'aprobaba', 'apruebe', 'aprobara'], correct: 2 },
-      { question: 'Los consumidores mayores ___ (mostrar) gran interés recientemente.', options: ['mostraron', 'han mostrado', 'mostraban', 'muestren'], correct: 1 },
-      { question: 'Me alegro de que tú ___ (estar) dispuesto a probar.', options: ['estás', 'estabas', 'estés', 'estuvieras'], correct: 2 }
+      { question: 'Es posible que la UE ___ (aprobar) nuevas regulaciones.', options: ['apruebe', 'aprobaba', 'aprueba', 'aprobara'], correct: 0 },
+      { question: 'Los consumidores mayores ___ (mostrar) gran interés recientemente.', options: ['mostraron', 'mostraban', 'han mostrado', 'muestren'], correct: 2 },
+      { question: 'Me alegro de que tú ___ (estar) dispuesto a probar.', options: ['estás', 'estabas', 'estuvieras', 'estés'], correct: 3 }
     ]
   },
   'ex-9-4-gusanos-translation': {
@@ -30785,20 +30785,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Comprensión: Por qué el salmón es gris',
     description: 'Responda las preguntas sobre el texto.',
     questions: [
-      { question: '¿De qué color es realmente el salmón de granja según el texto?', options: ['Rosa intenso', 'Naranja brillante', 'Gris', 'Plateado elegante'], correct: 2 },
-      { question: '¿Por qué el texto compara el color del salmón con un "filtro de Instagram"?', options: ['Porque es natural', 'Porque es un color artificial aplicado a nivel celular', 'Porque es muy bonito', 'Porque cambia cada día'], correct: 1 },
+      { question: '¿De qué color es realmente el salmón de granja según el texto?', options: ['Gris', 'Naranja brillante', 'Rosa intenso', 'Plateado elegante'], correct: 0 },
+      { question: '¿Por qué el texto compara el color del salmón con un "filtro de Instagram"?', options: ['Porque es natural', 'Porque cambia cada día', 'Porque es muy bonito', 'Porque es un color artificial aplicado a nivel celular'], correct: 3 },
       { question: '¿Cómo obtienen su color los salmones salvajes?', options: ['Con colorantes artificiales', 'Cazando krill y camarones bajo la luz del sol', 'Con pastillas de color', 'Con una dieta especial de granja'], correct: 1 },
-      { question: '¿Qué significa "tu belleza es de farmacia" en el contexto del texto?', options: ['Que el salmón es medicinal', 'Que el color es artificial, no natural', 'Que se vende en farmacias', 'Que es saludable'], correct: 1 },
+      { question: '¿Qué significa "tu belleza es de farmacia" en el contexto del texto?', options: ['Que el salmón es medicinal', 'Que se vende en farmacias', 'Que el color es artificial, no natural', 'Que es saludable'], correct: 2 },
       { question: '¿Cómo vive el salmón de granja según el texto?', options: ['Libre en el océano', 'En una piscina sin espacio, sin ver camarones', 'En un acuario elegante', 'En un río natural'], correct: 1 },
-      { question: '¿Con qué compara el texto la carne del salmón sin colorante?', options: ['Con un cuadro de arte', 'Con un lienzo en blanco y masilla para ventanas', 'Con un filete premium', 'Con una obra maestra'], correct: 1 },
-      { question: '¿Qué usa el granjero para elegir la dieta del salmón?', options: ['Un manual de nutrición', 'Un catálogo de pinturas con tonos de color', 'Consejos de veterinarios', 'Ingredientes naturales'], correct: 1 },
-      { question: '¿Qué son los "pellets" según el texto?', options: ['Vitaminas naturales', 'Comida con tintes sintéticos para colorear la carne', 'Medicamentos', 'Alimento orgánico'], correct: 1 },
+      { question: '¿Con qué compara el texto la carne del salmón sin colorante?', options: ['Con un cuadro de arte', 'Con una obra maestra', 'Con un filete premium', 'Con un lienzo en blanco y masilla para ventanas'], correct: 3 },
+      { question: '¿Qué usa el granjero para elegir la dieta del salmón?', options: ['Un catálogo de pinturas con tonos de color', 'Un manual de nutrición', 'Consejos de veterinarios', 'Ingredientes naturales'], correct: 0 },
+      { question: '¿Qué son los "pellets" según el texto?', options: ['Vitaminas naturales', 'Medicamentos', 'Comida con tintes sintéticos para colorear la carne', 'Alimento orgánico'], correct: 2 },
       { question: '¿Con qué compara el texto al salmón como producto gastronómico?', options: ['Con un plato gourmet', 'Con el relleno de labios mal puesto', 'Con una obra de arte', 'Con un postre premium'], correct: 1 },
-      { question: '¿Qué cree el consumidor inocente que está comprando?', options: ['Un producto artificial', 'Un pedazo de naturaleza virgen y salud', 'Pescado barato', 'Comida procesada'], correct: 1 },
+      { question: '¿Qué cree el consumidor inocente que está comprando?', options: ['Un producto artificial', 'Comida procesada', 'Pescado barato', 'Un pedazo de naturaleza virgen y salud'], correct: 3 },
       { question: '¿Qué representa la grasa blanca del salmón según el texto?', options: ['Alta calidad', 'Marmoleado de alta costura', 'Evidencia de sedentarismo', 'Nutrientes esenciales'], correct: 2 },
-      { question: '¿Qué pasaría si al salmón le quitaran el colorante?', options: ['Seguiría siendo rosa', 'Sería invisible en el mostrador', 'Se volvería más saludable', 'Tendría mejor sabor'], correct: 1 },
-      { question: '¿Qué tono usa el texto para hablar del salmón?', options: ['Científico y neutral', 'Irónico y sarcástico', 'Triste y melancólico', 'Alegre y optimista'], correct: 1 },
-      { question: '¿Qué significa "la vanidad forzada" en el contexto?', options: ['El orgullo natural del salmón', 'La apariencia artificial impuesta por la industria', 'La belleza del océano', 'El precio alto del pescado'], correct: 1 },
+      { question: '¿Qué pasaría si al salmón le quitaran el colorante?', options: ['Sería invisible en el mostrador', 'Seguiría siendo rosa', 'Se volvería más saludable', 'Tendría mejor sabor'], correct: 0 },
+      { question: '¿Qué tono usa el texto para hablar del salmón?', options: ['Científico y neutral', 'Triste y melancólico', 'Irónico y sarcástico', 'Alegre y optimista'], correct: 2 },
+      { question: '¿Qué significa "la vanidad forzada" en el contexto?', options: ['El orgullo natural del salmón', 'El precio alto del pescado', 'La belleza del océano', 'La apariencia artificial impuesta por la industria'], correct: 3 },
       { question: '¿Cuál es el mensaje principal del texto?', options: ['El salmón de granja es mejor que el salvaje', 'El color del salmón de granja es una ilusión artificial por la que pagamos un precio premium', 'Hay que comer más salmón', 'Los colorantes son saludables'], correct: 1 }
     ]
   },
@@ -30810,20 +30810,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Complete las frases con la forma correcta del verbo (Pretérito Perfecto, Indefinido, Imperfecto o Presente de Subjuntivo).',
     questions: [
       { sentence: 'La industria (decidir) ___ colorear la carne del salmón hace años.', options: ['decidió', 'ha decidido', 'decidía', 'decida'], correct: 0, explanation: 'Pretérito Indefinido: decidió (acción puntual en el pasado).' },
-      { sentence: 'Antes los salmones salvajes (nadar) ___ libremente en el océano.', options: ['nadaban', 'nadaron', 'han nadado', 'naden'], correct: 0, explanation: 'Imperfecto: nadaban (descripción habitual del pasado).' },
-      { sentence: 'Este año los consumidores (descubrir) ___ la verdad sobre el color del salmón.', options: ['han descubierto', 'descubrieron', 'descubrían', 'descubran'], correct: 0, explanation: 'Pretérito Perfecto: han descubierto (conexión con el presente).' },
-      { sentence: 'Es escandaloso que el consumidor (creer) ___ que está comprando salud.', options: ['crea', 'cree', 'creía', 'creyó'], correct: 0, explanation: 'Presente de Subjuntivo después de "es escandaloso que".' },
-      { sentence: 'Los granjeros siempre (alimentar) ___ a los salmones con pellets de colores.', options: ['alimentaban', 'alimentaron', 'han alimentado', 'alimenten'], correct: 0, explanation: 'Imperfecto: alimentaban (hábito repetido en el pasado).' },
-      { sentence: 'La semana pasada (publicarse) ___ un artículo sobre los colorantes del salmón.', options: ['se publicó', 'se ha publicado', 'se publicaba', 'se publique'], correct: 0, explanation: 'Pretérito Indefinido: se publicó (acción puntual, la semana pasada).' },
+      { sentence: 'Antes los salmones salvajes (nadar) ___ libremente en el océano.', options: ['han nadado', 'nadaron', 'nadaban', 'naden'], correct: 2, explanation: 'Imperfecto: nadaban (descripción habitual del pasado).' },
+      { sentence: 'Este año los consumidores (descubrir) ___ la verdad sobre el color del salmón.', options: ['descubran', 'descubrieron', 'descubrían', 'han descubierto'], correct: 3, explanation: 'Pretérito Perfecto: han descubierto (conexión con el presente).' },
+      { sentence: 'Es escandaloso que el consumidor (creer) ___ que está comprando salud.', options: ['cree', 'crea', 'creía', 'creyó'], correct: 1, explanation: 'Presente de Subjuntivo después de "es escandaloso que".' },
+      { sentence: 'Los granjeros siempre (alimentar) ___ a los salmones con pellets de colores.', options: ['alimenten', 'alimentaron', 'han alimentado', 'alimentaban'], correct: 3, explanation: 'Imperfecto: alimentaban (hábito repetido en el pasado).' },
+      { sentence: 'La semana pasada (publicarse) ___ un artículo sobre los colorantes del salmón.', options: ['se publicaba', 'se ha publicado', 'se publicó', 'se publique'], correct: 2, explanation: 'Pretérito Indefinido: se publicó (acción puntual, la semana pasada).' },
       { sentence: 'Últimamente (aumentar) ___ las críticas contra la industria del salmón.', options: ['han aumentado', 'aumentaron', 'aumentaban', 'aumenten'], correct: 0, explanation: 'Pretérito Perfecto: han aumentado (últimamente = conexión con el presente).' },
-      { sentence: 'No creo que el salmón de granja (ser) ___ tan saludable como dicen.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "no creo que".' },
+      { sentence: 'No creo que el salmón de granja (ser) ___ tan saludable como dicen.', options: ['es', 'sea', 'era', 'fue'], correct: 1, explanation: 'Presente de Subjuntivo después de "no creo que".' },
       { sentence: 'Cuando era niño, mi madre (comprar) ___ salmón pensando que era natural.', options: ['compraba', 'compró', 'ha comprado', 'compre'], correct: 0, explanation: 'Imperfecto: compraba (hábito pasado con "cuando era niño").' },
-      { sentence: 'Ayer (enterarse) ___ de que los salmones de granja son grises sin colorantes.', options: ['me enteré', 'me he enterado', 'me enteraba', 'me entere'], correct: 0, explanation: 'Pretérito Indefinido: me enteré (ayer = momento puntual).' },
-      { sentence: 'Es una lástima que la gente no (saber) ___ lo que realmente come.', options: ['sepa', 'sabe', 'sabía', 'supo'], correct: 0, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
-      { sentence: 'Hasta ahora nadie (quejarse) ___ del color artificial del salmón.', options: ['se ha quejado', 'se quejó', 'se quejaba', 'se queje'], correct: 0, explanation: 'Pretérito Perfecto: se ha quejado (hasta ahora = conexión con el presente).' },
-      { sentence: 'En los años 80, la acuicultura (empezar) ___ a usar colorantes masivamente.', options: ['empezó', 'ha empezado', 'empezaba', 'empiece'], correct: 0, explanation: 'Pretérito Indefinido: empezó (en los años 80 = momento específico).' },
+      { sentence: 'Ayer (enterarse) ___ de que los salmones de granja son grises sin colorantes.', options: ['me he enterado', 'me enteré', 'me enteraba', 'me entere'], correct: 1, explanation: 'Pretérito Indefinido: me enteré (ayer = momento puntual).' },
+      { sentence: 'Es una lástima que la gente no (saber) ___ lo que realmente come.', options: ['sabía', 'sabe', 'sepa', 'supo'], correct: 2, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
+      { sentence: 'Hasta ahora nadie (quejarse) ___ del color artificial del salmón.', options: ['se queje', 'se quejó', 'se quejaba', 'se ha quejado'], correct: 3, explanation: 'Pretérito Perfecto: se ha quejado (hasta ahora = conexión con el presente).' },
+      { sentence: 'En los años 80, la acuicultura (empezar) ___ a usar colorantes masivamente.', options: ['empezaba', 'ha empezado', 'empezó', 'empiece'], correct: 2, explanation: 'Pretérito Indefinido: empezó (en los años 80 = momento específico).' },
       { sentence: 'Dudo que los consumidores (dejar) ___ de comprar salmón por el colorante.', options: ['dejen', 'dejan', 'dejaban', 'dejaron'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
-      { sentence: 'Antes la gente (confiar) ___ ciegamente en lo que le vendían.', options: ['confiaba', 'confió', 'ha confiado', 'confíe'], correct: 0, explanation: 'Imperfecto: confiaba (hábito/estado en el pasado).' }
+      { sentence: 'Antes la gente (confiar) ___ ciegamente en lo que le vendían.', options: ['confió', 'confiaba', 'ha confiado', 'confíe'], correct: 1, explanation: 'Imperfecto: confiaba (hábito/estado en el pasado).' }
     ]
   },
 
@@ -30881,21 +30881,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Понимание текста: Qué le han hecho al trigo',
     description: 'Ответьте на вопросы по тексту о пшенице.',
     questions: [
-      { question: '¿Por qué cada vez más gente no tolera bien el pan?', options: ['Porque el pan tiene demasiada sal', 'Porque el gluten del trigo moderno es más complejo y difícil de digerir', 'Porque la gente come demasiado pan', 'Porque el pan se hace con agua contaminada'], correct: 1 },
+      { question: '¿Por qué cada vez más gente no tolera bien el pan?', options: ['Porque el pan tiene demasiada sal', 'Porque el pan se hace con agua contaminada', 'Porque la gente come demasiado pan', 'Porque el gluten del trigo moderno es más complejo y difícil de digerir'], correct: 3 },
       { question: '¿Qué variedades tradicionales de trigo se mencionan en el texto?', options: ['Trigo blanco y trigo negro', 'Espelta, trigo duro y kamut', 'Centeno, avena y cebada', 'Trigo integral y trigo refinado'], correct: 1 },
-      { question: '¿Cómo era el gluten del trigo tradicional?', options: ['Más complejo y difícil de digerir', 'No contenía gluten', 'Más sencillo y más fácil de digerir', 'Igual que el del trigo moderno'], correct: 2 },
-      { question: '¿Para qué se seleccionó el trigo moderno a partir del siglo XX?', options: ['Para que tuviera mejor sabor', 'Para que produjera más, resistiera plagas y tuviera más gluten', 'Para que fuera más nutritivo', 'Para que creciera sin agua'], correct: 1 },
-      { question: '¿Qué partes del grano se eliminan en las harinas modernas?', options: ['El endospermo y el almidón', 'Solo el germen', 'El salvado y el germen', 'Todo el grano se usa entero'], correct: 2 },
-      { question: '¿Qué es el endospermo?', options: ['La capa exterior del grano', 'La parte central con almidón y algo de proteína', 'Las grasas saludables del grano', 'La fibra del trigo'], correct: 1 },
+      { question: '¿Cómo era el gluten del trigo tradicional?', options: ['Más sencillo y más fácil de digerir', 'No contenía gluten', 'Más complejo y difícil de digerir', 'Igual que el del trigo moderno'], correct: 0 },
+      { question: '¿Para qué se seleccionó el trigo moderno a partir del siglo XX?', options: ['Para que tuviera mejor sabor', 'Para que fuera más nutritivo', 'Para que produjera más, resistiera plagas y tuviera más gluten', 'Para que creciera sin agua'], correct: 2 },
+      { question: '¿Qué partes del grano se eliminan en las harinas modernas?', options: ['El endospermo y el almidón', 'El salvado y el germen', 'Solo el germen', 'Todo el grano se usa entero'], correct: 1 },
+      { question: '¿Qué es el endospermo?', options: ['La parte central con almidón y algo de proteína', 'La capa exterior del grano', 'Las grasas saludables del grano', 'La fibra del trigo'], correct: 0 },
       { question: '¿Qué proteínas forman el gluten?', options: ['Caseína y albúmina', 'Colágeno y elastina', 'Gliadina y glutenina', 'Queratina y miosina'], correct: 2 },
-      { question: '¿Qué significa que una harina tiene más ceros?', options: ['Que tiene más nutrientes', 'Que es más integral', 'Que es más refinada y tiene menos fibra', 'Que es de mejor calidad'], correct: 2 },
+      { question: '¿Qué significa que una harina tiene más ceros?', options: ['Que tiene más nutrientes', 'Que es más integral', 'Que es de mejor calidad', 'Que es más refinada y tiene menos fibra'], correct: 3 },
       { question: '¿Qué efecto tiene un índice glucémico alto?', options: ['Sacia más y da más energía', 'Sube el azúcar en sangre más rápido y sacia menos', 'Mejora la digestión', 'Reduce el colesterol'], correct: 1 },
-      { question: '¿Qué problema tienen los agricultores con las semillas?', options: ['Son demasiado baratas', 'Están registradas y protegidas por derechos', 'No hay suficientes semillas', 'Las semillas no crecen en su zona'], correct: 1 },
-      { question: '¿Qué variedad local se menciona como ejemplo de trigo adaptado al clima?', options: ['Kamut egipcio', 'Espelta alemana', 'Trigo Aragón 03', 'Trigo Castilla 07'], correct: 2 },
-      { question: '¿Qué alternativa se menciona para hacer mejor pan?', options: ['Usar más levadura industrial', 'El pan de masa madre', 'Añadir más gluten', 'Hornear a mayor temperatura'], correct: 1 },
-      { question: '¿Por qué el pan blanco de hoy "llena pero no alimenta"?', options: ['Porque tiene demasiada sal', 'Porque solo queda el almidón, sin salvado ni germen', 'Porque se hornea demasiado rápido', 'Porque la gente come poco pan'], correct: 1 },
-      { question: '¿Qué consecuencias tiene el gluten moderno según el texto?', options: ['Mejor digestión y más energía', 'Más intolerancias, inflamación y problemas digestivos', 'Solo afecta a los celíacos', 'No tiene ninguna consecuencia negativa'], correct: 1 },
-      { question: '¿Cuál es el mensaje principal del texto?', options: ['Hay que dejar de comer pan', 'El trigo moderno es mejor que el antiguo', 'Hay que exigir calidad y volver a variedades tradicionales', 'Los agricultores no saben cultivar trigo'], correct: 2 }
+      { question: '¿Qué problema tienen los agricultores con las semillas?', options: ['Son demasiado baratas', 'Las semillas no crecen en su zona', 'No hay suficientes semillas', 'Están registradas y protegidas por derechos'], correct: 3 },
+      { question: '¿Qué variedad local se menciona como ejemplo de trigo adaptado al clima?', options: ['Trigo Aragón 03', 'Espelta alemana', 'Kamut egipcio', 'Trigo Castilla 07'], correct: 0 },
+      { question: '¿Qué alternativa se menciona para hacer mejor pan?', options: ['Usar más levadura industrial', 'Añadir más gluten', 'El pan de masa madre', 'Hornear a mayor temperatura'], correct: 2 },
+      { question: '¿Por qué el pan blanco de hoy "llena pero no alimenta"?', options: ['Porque solo queda el almidón, sin salvado ni germen', 'Porque tiene demasiada sal', 'Porque se hornea demasiado rápido', 'Porque la gente come poco pan'], correct: 0 },
+      { question: '¿Qué consecuencias tiene el gluten moderno según el texto?', options: ['Mejor digestión y más energía', 'Solo afecta a los celíacos', 'Más intolerancias, inflamación y problemas digestivos', 'No tiene ninguna consecuencia negativa'], correct: 2 },
+      { question: '¿Cuál es el mensaje principal del texto?', options: ['Hay que dejar de comer pan', 'Hay que exigir calidad y volver a variedades tradicionales', 'El trigo moderno es mejor que el antiguo', 'Los agricultores no saben cultivar trigo'], correct: 1 }
     ]
   },
 
@@ -30906,20 +30906,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную форму глагола.',
     questions: [
       { sentence: 'Durante siglos, el trigo (ser) ___ un alimento completo y nutritivo.', options: ['era', 'fue', 'ha sido', 'sea'], correct: 0, explanation: 'Imperfecto: era (descripción de un estado prolongado en el pasado).' },
-      { sentence: 'A partir del siglo XX, (empezar) ___ a seleccionar el trigo para producir más.', options: ['se empezó', 'se ha empezado', 'se empezaba', 'se empiece'], correct: 0, explanation: 'Pretérito Indefinido: se empezó (inicio de un proceso en un momento histórico).' },
-      { sentence: 'En los últimos años (aumentar) ___ el número de personas con intolerancia al gluten.', options: ['ha aumentado', 'aumentó', 'aumentaba', 'aumente'], correct: 0, explanation: 'Pretérito Perfecto: ha aumentado (en los últimos años = conexión con el presente).' },
-      { sentence: 'No creo que el trigo moderno (ser) ___ tan nutritivo como el tradicional.', options: ['sea', 'es', 'era', 'fue'], correct: 0, explanation: 'Presente de Subjuntivo después de "no creo que".' },
-      { sentence: 'Antes los agricultores (cultivar) ___ variedades tradicionales de trigo.', options: ['cultivaban', 'cultivaron', 'han cultivado', 'cultiven'], correct: 0, explanation: 'Imperfecto: cultivaban (hábito repetido en el pasado).' },
+      { sentence: 'A partir del siglo XX, (empezar) ___ a seleccionar el trigo para producir más.', options: ['se empiece', 'se ha empezado', 'se empezaba', 'se empezó'], correct: 3, explanation: 'Pretérito Indefinido: se empezó (inicio de un proceso en un momento histórico).' },
+      { sentence: 'En los últimos años (aumentar) ___ el número de personas con intolerancia al gluten.', options: ['aumentó', 'ha aumentado', 'aumentaba', 'aumente'], correct: 1, explanation: 'Pretérito Perfecto: ha aumentado (en los últimos años = conexión con el presente).' },
+      { sentence: 'No creo que el trigo moderno (ser) ___ tan nutritivo como el tradicional.', options: ['era', 'es', 'sea', 'fue'], correct: 2, explanation: 'Presente de Subjuntivo después de "no creo que".' },
+      { sentence: 'Antes los agricultores (cultivar) ___ variedades tradicionales de trigo.', options: ['cultivaron', 'cultivaban', 'han cultivado', 'cultiven'], correct: 1, explanation: 'Imperfecto: cultivaban (hábito repetido en el pasado).' },
       { sentence: 'Ayer (leer) ___ un artículo sobre los problemas del trigo moderno.', options: ['leí', 'he leído', 'leía', 'lea'], correct: 0, explanation: 'Pretérito Indefinido: leí (ayer = momento puntual en el pasado).' },
-      { sentence: 'Es una lástima que las harinas modernas (eliminar) ___ el salvado y el germen.', options: ['eliminen', 'eliminan', 'eliminaban', 'eliminaron'], correct: 0, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
-      { sentence: 'Hasta ahora nadie (protestar) ___ contra la industria del trigo modificado.', options: ['ha protestado', 'protestó', 'protestaba', 'proteste'], correct: 0, explanation: 'Pretérito Perfecto: ha protestado (hasta ahora = conexión con el presente).' },
+      { sentence: 'Es una lástima que las harinas modernas (eliminar) ___ el salvado y el germen.', options: ['eliminaban', 'eliminan', 'eliminen', 'eliminaron'], correct: 2, explanation: 'Presente de Subjuntivo después de "es una lástima que".' },
+      { sentence: 'Hasta ahora nadie (protestar) ___ contra la industria del trigo modificado.', options: ['proteste', 'protestó', 'protestaba', 'ha protestado'], correct: 3, explanation: 'Pretérito Perfecto: ha protestado (hasta ahora = conexión con el presente).' },
       { sentence: 'Cuando era joven, mi abuela (hacer) ___ pan con harina de espelta.', options: ['hacía', 'hizo', 'ha hecho', 'haga'], correct: 0, explanation: 'Imperfecto: hacía (hábito en el pasado con "cuando era joven").' },
-      { sentence: 'El año pasado un estudio (demostrar) ___ que el gluten moderno causa más inflamación.', options: ['demostró', 'ha demostrado', 'demostraba', 'demuestre'], correct: 0, explanation: 'Pretérito Indefinido: demostró (el año pasado = momento específico).' },
-      { sentence: 'Dudo que los consumidores (saber) ___ la diferencia entre harina integral y refinada.', options: ['sepan', 'saben', 'sabían', 'supieron'], correct: 0, explanation: 'Presente de Subjuntivo después de "dudo que".' },
-      { sentence: 'Antiguamente la masa (fermentar) ___ con calma y se convertía en pan de verdad.', options: ['fermentaba', 'fermentó', 'ha fermentado', 'fermente'], correct: 0, explanation: 'Imperfecto: fermentaba (proceso habitual en el pasado).' },
+      { sentence: 'El año pasado un estudio (demostrar) ___ que el gluten moderno causa más inflamación.', options: ['demuestre', 'ha demostrado', 'demostraba', 'demostró'], correct: 3, explanation: 'Pretérito Indefinido: demostró (el año pasado = momento específico).' },
+      { sentence: 'Dudo que los consumidores (saber) ___ la diferencia entre harina integral y refinada.', options: ['sabían', 'saben', 'sepan', 'supieron'], correct: 2, explanation: 'Presente de Subjuntivo después de "dudo que".' },
+      { sentence: 'Antiguamente la masa (fermentar) ___ con calma y se convertía en pan de verdad.', options: ['fermentó', 'fermentaba', 'ha fermentado', 'fermente'], correct: 1, explanation: 'Imperfecto: fermentaba (proceso habitual en el pasado).' },
       { sentence: 'Esta semana (descubrir) ___ que las semillas de trigo están protegidas por derechos.', options: ['he descubierto', 'descubrí', 'descubría', 'descubra'], correct: 0, explanation: 'Pretérito Perfecto: he descubierto (esta semana = período que incluye el presente).' },
-      { sentence: 'Es necesario que la gente (exigir) ___ calidad en el pan que consume.', options: ['exija', 'exige', 'exigía', 'exigió'], correct: 0, explanation: 'Presente de Subjuntivo después de "es necesario que".' },
-      { sentence: 'Antes el trigo (contener) ___ más proteína, más fibra y más minerales.', options: ['contenía', 'contuvo', 'ha contenido', 'contenga'], correct: 0, explanation: 'Imperfecto: contenía (descripción de una característica permanente en el pasado).' }
+      { sentence: 'Es necesario que la gente (exigir) ___ calidad en el pan que consume.', options: ['exigía', 'exige', 'exija', 'exigió'], correct: 2, explanation: 'Presente de Subjuntivo después de "es necesario que".' },
+      { sentence: 'Antes el trigo (contener) ___ más proteína, más fibra y más minerales.', options: ['contenga', 'contuvo', 'ha contenido', 'contenía'], correct: 3, explanation: 'Imperfecto: contenía (descripción de una característica permanente en el pasado).' }
     ]
   },
 
@@ -30955,21 +30955,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Синонимы приветствий',
     description: 'Выберите правильный ответ',
     questions: [
-      { word: 'hola', options: ['adiós', 'buenos días', 'no', 'nada'], correct: 1 },
-      { word: 'gracias', options: ['por favor', 'de nada', 'muchas gracias', 'perdón'], correct: 2 },
-      { word: '¿Cómo estás?', options: ['¿Qué tal?', 'Regular', 'Bien', 'Adiós'], correct: 0 },
+      { word: 'hola', options: ['adiós', 'no', 'buenos días', 'nada'], correct: 2 },
+      { word: 'gracias', options: ['muchas gracias', 'de nada', 'por favor', 'perdón'], correct: 0 },
+      { word: '¿Cómo estás?', options: ['Adiós', 'Regular', 'Bien', '¿Qué tal?'], correct: 3 },
       { word: 'Así así', options: ['Todo va bien', 'Regular', 'Muchas gracias', 'Hola'], correct: 1 },
       { word: 'De nada', options: ['No hay de qué', 'Por favor', 'Hola', 'Adiós'], correct: 0 },
       { word: 'Buenos días', options: ['Buenas tardes', 'Hola', 'Adiós', 'Gracias'], correct: 1 },
-      { word: 'Adiós', options: ['Hola', 'Hasta luego', 'Buenos días', 'Gracias'], correct: 1 },
-      { word: '¿Qué tal?', options: ['¿Cómo estás?', 'Bien', 'Gracias', 'Adiós'], correct: 0 },
+      { word: 'Adiós', options: ['Hola', 'Buenos días', 'Hasta luego', 'Gracias'], correct: 2 },
+      { word: '¿Qué tal?', options: ['Adiós', 'Bien', 'Gracias', '¿Cómo estás?'], correct: 3 },
       { word: 'Todo va bien', options: ['Regular', 'Bien', 'Mal', 'Hola'], correct: 1 },
-      { word: 'Por favor', options: ['Gracias', 'De nada', 'Por favor de verdad', 'Hola'], correct: 2 },
-      { word: 'Hasta luego', options: ['Hola', 'Hasta pronto', 'Buenos días', 'Gracias'], correct: 1 },
+      { word: 'Por favor', options: ['Por favor de verdad', 'De nada', 'Gracias', 'Hola'], correct: 0 },
+      { word: 'Hasta luego', options: ['Hola', 'Gracias', 'Buenos días', 'Hasta pronto'], correct: 3 },
       { word: 'Buenas noches', options: ['Buenos días', 'Buenas tardes', 'Hola de noche', 'Por favor'], correct: 2 },
-      { word: 'Perdón', options: ['Gracias', 'Disculpa', 'Hola', 'Adiós'], correct: 1 },
-      { word: 'Muchas gracias', options: ['Por favor', 'Muchísimas gracias', 'Hola', 'Adiós'], correct: 1 },
-      { word: 'Bien', options: ['Mal', 'Regular', 'Todo va bien', 'Adiós'], correct: 2 }
+      { word: 'Perdón', options: ['Gracias', 'Hola', 'Disculpa', 'Adiós'], correct: 2 },
+      { word: 'Muchas gracias', options: ['Por favor', 'Adiós', 'Hola', 'Muchísimas gracias'], correct: 3 },
+      { word: 'Bien', options: ['Todo va bien', 'Regular', 'Mal', 'Adiós'], correct: 0 }
     ]
   },
 
@@ -30980,20 +30980,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите подходящее приветствие или фразу для каждой ситуации. Обратите внимание на время суток и контекст общения.',
     questions: [
       { context: '🌅 Утро', sentence: 'Son las 10 de la mañana. Digo: ___', options: ['buenas noches', 'buenos días', 'buenas tardes', 'adiós'], correct: 1 },
-      { context: '🤝 Помощь', sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'gracias', 'hola', 'no'], correct: 1 },
-      { context: '😐 Так себе', sentence: 'Mi amigo pregunta "¿Cómo estás?". No estoy muy bien. Digo: ___', options: ['Todo va bien', 'Regular', 'Bien, gracias', 'Buenos días'], correct: 1 },
+      { context: '🤝 Помощь', sentence: 'Alguien me ayuda. Digo: ___', options: ['adiós', 'hola', 'gracias', 'no'], correct: 2 },
+      { context: '😐 Так себе', sentence: 'Mi amigo pregunta "¿Cómo estás?". No estoy muy bien. Digo: ___', options: ['Todo va bien', 'Buenos días', 'Bien, gracias', 'Regular'], correct: 3 },
       { context: '👨‍👩‍👧‍👦 Семья', sentence: 'Pregunto por la familia de mi amigo: ___', options: ['¿Qué tal la familia?', '¿Qué tal?', 'Muchas gracias', 'De nada'], correct: 0 },
       { context: '🙏 Большая благодарность', sentence: 'Alguien me ayuda mucho. Digo: ___', options: ['Gracias', 'Muchas gracias', 'Por favor', 'Adiós'], correct: 1 },
-      { context: '🌤️ День', sentence: 'Son las 3 de la tarde. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hasta luego'], correct: 1 },
-      { context: '🌙 Вечер', sentence: 'Son las 10 de la noche. Digo: ___', options: ['buenos días', 'buenas tardes', 'buenas noches', 'hola'], correct: 2 },
-      { context: '👋 Встреча на улице', sentence: 'Veo a mi amigo en la calle. Digo: ___', options: ['adiós', 'hola', 'gracias', 'perdón'], correct: 1 },
+      { context: '🌤️ День', sentence: 'Son las 3 de la tarde. Digo: ___', options: ['buenas tardes', 'buenos días', 'buenas noches', 'hasta luego'], correct: 0 },
+      { context: '🌙 Вечер', sentence: 'Son las 10 de la noche. Digo: ___', options: ['buenos días', 'buenas tardes', 'hola', 'buenas noches'], correct: 3 },
+      { context: '👋 Встреча на улице', sentence: 'Veo a mi amigo en la calle. Digo: ___', options: ['adiós', 'gracias', 'hola', 'perdón'], correct: 2 },
       { context: '🏢 Офис - уход', sentence: 'Me voy de la oficina. Digo a mis compañeros: ___', options: ['hola', 'buenos días', 'hasta luego', 'por favor'], correct: 2 },
-      { context: '😊 Ответ на благодарность', sentence: 'Alguien me dice "Gracias". Yo respondo: ___', options: ['gracias', 'de nada', 'hola', 'adiós'], correct: 1 },
-      { context: '🆘 Просьба о помощи', sentence: 'Necesito ayuda. Digo: ___', options: ['gracias', 'adiós', 'por favor', 'buenos días'], correct: 2 },
+      { context: '😊 Ответ на благодарность', sentence: 'Alguien me dice "Gracias". Yo respondo: ___', options: ['gracias', 'adiós', 'hola', 'de nada'], correct: 3 },
+      { context: '🆘 Просьба о помощи', sentence: 'Necesito ayuda. Digo: ___', options: ['por favor', 'adiós', 'gracias', 'buenos días'], correct: 0 },
       { context: '😬 Извинение', sentence: 'Piso el pie de alguien sin querer. Digo: ___', options: ['hola', 'perdón', 'gracias', 'adiós'], correct: 1 },
-      { context: '😄 Отличное настроение', sentence: 'Mi amigo pregunta "¿Qué tal?". Estoy muy bien. Digo: ___', options: ['regular', 'mal', 'todo va bien', 'adiós'], correct: 2 },
-      { context: '📅 Увидимся завтра', sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hasta mañana', 'buenos días', 'hola'], correct: 1 },
-      { context: '🙂 Нормально', sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'así así', 'mal', 'adiós'], correct: 1 }
+      { context: '😄 Отличное настроение', sentence: 'Mi amigo pregunta "¿Qué tal?". Estoy muy bien. Digo: ___', options: ['todo va bien', 'mal', 'regular', 'adiós'], correct: 0 },
+      { context: '📅 Увидимся завтра', sentence: 'Veo a alguien mañana. Al despedirme digo: ___', options: ['adiós para siempre', 'hola', 'buenos días', 'hasta mañana'], correct: 3 },
+      { context: '🙂 Нормально', sentence: 'Alguien me pregunta "¿Cómo estás?". Estoy normal. Digo: ___', options: ['excelente', 'mal', 'así así', 'adiós'], correct: 2 }
     ]
   },
 
@@ -31587,23 +31587,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     showCorrectAnswer: true,
     highlightErrors: true,
     questions: [
-      { verb: 'estudiar', tense: 'Presente', pronoun: 'yo', options: ['estudias', 'estudio', 'estudia', 'estudiamos'], correct: 1 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'yo', options: ['estudias', 'estudiamos', 'estudia', 'estudio'], correct: 3 },
       { verb: 'estudiar', tense: 'Presente', pronoun: 'tú', options: ['estudio', 'estudia', 'estudias', 'estudian'], correct: 2 },
-      { verb: 'estudiar', tense: 'Presente', pronoun: 'él', options: ['estudia', 'estudio', 'estudian', 'estudiáis'], correct: 0 },
-      { verb: 'estudiar', tense: 'Presente', pronoun: 'nosotros', options: ['estudian', 'estudiáis', 'estudiamos', 'estudia'], correct: 2 },
-      { verb: 'estudiar', tense: 'Presente', pronoun: 'ellos', options: ['estudian', 'estudia', 'estudiamos', 'estudiáis'], correct: 0 },
-      { verb: 'trabajar', tense: 'Presente', pronoun: 'yo', options: ['trabaja', 'trabajo', 'trabajas', 'trabajamos'], correct: 1 },
-      { verb: 'trabajar', tense: 'Presente', pronoun: 'ella', options: ['trabajan', 'trabajo', 'trabaja', 'trabajas'], correct: 2 },
-      { verb: 'trabajar', tense: 'Presente', pronoun: 'vosotros', options: ['trabajáis', 'trabajan', 'trabajamos', 'trabaja'], correct: 0 },
-      { verb: 'bailar', tense: 'Presente', pronoun: 'tú', options: ['bailo', 'baila', 'bailas', 'bailan'], correct: 2 },
-      { verb: 'bailar', tense: 'Presente', pronoun: 'nosotros', options: ['bailamos', 'bailan', 'baila', 'bailáis'], correct: 0 },
-      { verb: 'bailar', tense: 'Presente', pronoun: 'ellas', options: ['baila', 'bailamos', 'bailan', 'bailo'], correct: 2 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'él', options: ['estudio', 'estudia', 'estudian', 'estudiáis'], correct: 1 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'nosotros', options: ['estudiamos', 'estudiáis', 'estudian', 'estudia'], correct: 0 },
+      { verb: 'estudiar', tense: 'Presente', pronoun: 'ellos', options: ['estudia', 'estudian', 'estudiamos', 'estudiáis'], correct: 1 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'yo', options: ['trabaja', 'trabajamos', 'trabajas', 'trabajo'], correct: 3 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'ella', options: ['trabaja', 'trabajo', 'trabajan', 'trabajas'], correct: 0 },
+      { verb: 'trabajar', tense: 'Presente', pronoun: 'vosotros', options: ['trabajamos', 'trabajan', 'trabajáis', 'trabaja'], correct: 2 },
+      { verb: 'bailar', tense: 'Presente', pronoun: 'tú', options: ['bailas', 'baila', 'bailo', 'bailan'], correct: 0 },
+      { verb: 'bailar', tense: 'Presente', pronoun: 'nosotros', options: ['bailáis', 'bailan', 'baila', 'bailamos'], correct: 3 },
+      { verb: 'bailar', tense: 'Presente', pronoun: 'ellas', options: ['baila', 'bailan', 'bailamos', 'bailo'], correct: 1 },
       { verb: 'viajar', tense: 'Presente', pronoun: 'yo', options: ['viajas', 'viaja', 'viajo', 'viajan'], correct: 2 },
       { verb: 'viajar', tense: 'Presente', pronoun: 'usted', options: ['viaja', 'viajo', 'viajas', 'viajan'], correct: 0 },
-      { verb: 'viajar', tense: 'Presente', pronoun: 'nosotras', options: ['viajamos', 'viajan', 'viaja', 'viajo'], correct: 0 },
-      { verb: 'cocinar', tense: 'Presente', pronoun: 'yo', options: ['cocinas', 'cocina', 'cocino', 'cocinan'], correct: 2 },
+      { verb: 'viajar', tense: 'Presente', pronoun: 'nosotras', options: ['viaja', 'viajan', 'viajamos', 'viajo'], correct: 2 },
+      { verb: 'cocinar', tense: 'Presente', pronoun: 'yo', options: ['cocinas', 'cocina', 'cocinan', 'cocino'], correct: 3 },
       { verb: 'cocinar', tense: 'Presente', pronoun: 'tú', options: ['cocino', 'cocinas', 'cocina', 'cocinamos'], correct: 1 },
-      { verb: 'cocinar', tense: 'Presente', pronoun: 'él', options: ['cocino', 'cocinas', 'cocina', 'cocinamos'], correct: 2 },
+      { verb: 'cocinar', tense: 'Presente', pronoun: 'él', options: ['cocino', 'cocina', 'cocinas', 'cocinamos'], correct: 1 },
       { verb: 'cocinar', tense: 'Presente', pronoun: 'ellos', options: ['cocinan', 'cocina', 'cocinamos', 'cocino'], correct: 0 }
     ]
   },
@@ -31729,16 +31729,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильное указательное местоимение',
     showCorrectAnswer: true,
     questions: [
-      { sentence: '___ libro (aquí) es interesante', options: ['Este', 'Ese', 'Aquel', 'Estos'], correct: 0 },
-      { sentence: '___ casa (ahí) es grande', options: ['Este', 'Ese', 'Aquel', 'Esta'], correct: 1 },
-      { sentence: '___ montañas (allí) son altas', options: ['Estas', 'Esas', 'Aquellas', 'Aquella'], correct: 2 },
-      { sentence: '___ hermanos (aquí) son mis primos', options: ['Este', 'Estos', 'Esos', 'Aquellos'], correct: 1 },
-      { sentence: '___ abuelos (ahí) viven en Madrid', options: ['Este', 'Ese', 'Esos', 'Aquellos'], correct: 2 },
+      { sentence: '___ libro (aquí) es interesante', options: ['Ese', 'Este', 'Aquel', 'Estos'], correct: 1 },
+      { sentence: '___ casa (ahí) es grande', options: ['Este', 'Esta', 'Aquel', 'Ese'], correct: 3 },
+      { sentence: '___ montañas (allí) son altas', options: ['Aquellas', 'Esas', 'Estas', 'Aquella'], correct: 0 },
+      { sentence: '___ hermanos (aquí) son mis primos', options: ['Este', 'Esos', 'Estos', 'Aquellos'], correct: 2 },
+      { sentence: '___ abuelos (ahí) viven en Madrid', options: ['Este', 'Esos', 'Ese', 'Aquellos'], correct: 1 },
       { sentence: '___ familia (allí) es muy grande', options: ['Este', 'Esa', 'Aquella', 'Estas'], correct: 2 },
-      { sentence: '___ padres (aquí) trabajan en el hospital', options: ['Este', 'Estos', 'Esos', 'Aquel'], correct: 1 },
-      { sentence: '___ mujer (ahí) es mi tía', options: ['Este', 'Esta', 'Esa', 'Aquella'], correct: 2 },
+      { sentence: '___ padres (aquí) trabajan en el hospital', options: ['Estos', 'Este', 'Esos', 'Aquel'], correct: 0 },
+      { sentence: '___ mujer (ahí) es mi tía', options: ['Este', 'Esta', 'Aquella', 'Esa'], correct: 3 },
       { sentence: '___ niños (aquí) son mis sobrinos', options: ['Este', 'Ese', 'Estos', 'Esos'], correct: 2 },
-      { sentence: '___ hombre (allí) es mi suegro', options: ['Este', 'Ese', 'Aquel', 'Estos'], correct: 2 }
+      { sentence: '___ hombre (allí) es mi suegro', options: ['Este', 'Ese', 'Estos', 'Aquel'], correct: 3 }
     ]
   },
 
@@ -31809,16 +31809,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную форму',
     showCorrectAnswer: true,
     questions: [
-      { sentence: 'Mi familia es grande. ¿Y ___?', options: ['la tuya', 'el tuyo', 'los tuyos', 'las tuyas'], correct: 0 },
-      { sentence: 'Este libro es ___', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 },
-      { sentence: 'Nuestros hijos son pequeños, pero ___ son mayores', options: ['el suyo', 'la suya', 'los suyos', 'las suyas'], correct: 2 },
-      { sentence: '¿Esta casa es ___?', options: ['vuestro', 'vuestra', 'vuestros', 'vuestras'], correct: 1 },
-      { sentence: 'Mi padre trabaja aquí. ¿Y ___?', options: ['la tuya', 'el tuyo', 'los tuyos', 'las tuyas'], correct: 1 },
-      { sentence: 'Estos niños son ___', options: ['mío', 'mía', 'míos', 'mías'], correct: 2 },
-      { sentence: 'Tu abuela vive en Madrid, pero ___ vive en Barcelona', options: ['el mío', 'la mía', 'los míos', 'las mías'], correct: 1 },
-      { sentence: 'Vuestros padres están aquí, ___ llegan mañana', options: ['el nuestro', 'la nuestra', 'los nuestros', 'las nuestras'], correct: 2 },
-      { sentence: '¿Estos hermanos son ___?', options: ['tuyo', 'tuya', 'tuyos', 'tuyas'], correct: 2 },
-      { sentence: 'Un primo ___ vive en México', options: ['mío', 'mía', 'míos', 'mías'], correct: 0 }
+      { sentence: 'Mi familia es grande. ¿Y ___?', options: ['el tuyo', 'la tuya', 'los tuyos', 'las tuyas'], correct: 1 },
+      { sentence: 'Este libro es ___', options: ['míos', 'mía', 'mío', 'mías'], correct: 2 },
+      { sentence: 'Nuestros hijos son pequeños, pero ___ son mayores', options: ['el suyo', 'la suya', 'las suyas', 'los suyos'], correct: 3 },
+      { sentence: '¿Esta casa es ___?', options: ['vuestra', 'vuestro', 'vuestros', 'vuestras'], correct: 0 },
+      { sentence: 'Mi padre trabaja aquí. ¿Y ___?', options: ['la tuya', 'las tuyas', 'los tuyos', 'el tuyo'], correct: 3 },
+      { sentence: 'Estos niños son ___', options: ['mío', 'míos', 'mía', 'mías'], correct: 1 },
+      { sentence: 'Tu abuela vive en Madrid, pero ___ vive en Barcelona', options: ['el mío', 'los míos', 'la mía', 'las mías'], correct: 2 },
+      { sentence: 'Vuestros padres están aquí, ___ llegan mañana', options: ['los nuestros', 'la nuestra', 'el nuestro', 'las nuestras'], correct: 0 },
+      { sentence: '¿Estos hermanos son ___?', options: ['tuyos', 'tuya', 'tuyo', 'tuyas'], correct: 0 },
+      { sentence: 'Un primo ___ vive en México', options: ['mías', 'mía', 'míos', 'mío'], correct: 3 }
     ]
   },
 
@@ -31830,15 +31830,15 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     showCorrectAnswer: true,
     questions: [
       { sentence: '¿Qué es ___? (что это здесь)', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 },
-      { sentence: '___ es interesante (то там)', options: ['esto', 'eso', 'aquello', 'ese'], correct: 1 },
-      { sentence: 'No entiendo ___ (то вон там)', options: ['esto', 'eso', 'aquello', 'aquel'], correct: 2 },
-      { sentence: '___ es un problema', options: ['Esto', 'Eso', 'Aquello', 'Este'], correct: 0 },
-      { sentence: '___ no me gusta', options: ['Esto', 'Eso', 'Aquello', 'Ese'], correct: 1 },
-      { sentence: '¿Qué es ___ que veo?', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 },
-      { sentence: '¿Para qué sirve ___?', options: ['esto', 'eso', 'aquello', 'ese'], correct: 1 },
-      { sentence: '___ fue terrible', options: ['Esto', 'Eso', 'Aquello', 'Aquel'], correct: 2 },
+      { sentence: '___ es interesante (то там)', options: ['esto', 'ese', 'aquello', 'eso'], correct: 3 },
+      { sentence: 'No entiendo ___ (то вон там)', options: ['esto', 'aquello', 'eso', 'aquel'], correct: 1 },
+      { sentence: '___ es un problema', options: ['Aquello', 'Eso', 'Esto', 'Este'], correct: 2 },
+      { sentence: '___ no me gusta', options: ['Esto', 'Aquello', 'Eso', 'Ese'], correct: 2 },
+      { sentence: '¿Qué es ___ que veo?', options: ['eso', 'esto', 'aquello', 'este'], correct: 1 },
+      { sentence: '¿Para qué sirve ___?', options: ['eso', 'esto', 'aquello', 'ese'], correct: 0 },
+      { sentence: '___ fue terrible', options: ['Esto', 'Eso', 'Aquel', 'Aquello'], correct: 3 },
       { sentence: '___ es muy bonito', options: ['Esto', 'Eso', 'Aquello', 'Este'], correct: 0 },
-      { sentence: 'No comprendo ___', options: ['esto', 'eso', 'aquello', 'este'], correct: 0 }
+      { sentence: 'No comprendo ___', options: ['aquello', 'eso', 'esto', 'este'], correct: 2 }
     ]
   },
 
@@ -31889,16 +31889,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Переведите предложения с русского на испанский, используя указательные и притяжательные местоимения',
     showCorrectAnswer: true,
     questions: [
-      { sentence: 'Это моя мама', options: ['Esta es mi madre', 'Este es mi madre', 'Esa es mi madre', 'Esto es mi madre'], correct: 0 },
-      { sentence: 'Тот дом очень большой', options: ['Este casa es muy grande', 'Esa casa es muy grande', 'Aquella casa es muy grande', 'Ese casa es muy grande'], correct: 1 },
-      { sentence: 'Вон те книги на столе', options: ['Aquellos libros están en la mesa', 'Esos libros están en la mesa', 'Estos libros están en la mesa', 'Aquel libros están en la mesa'], correct: 0 },
+      { sentence: 'Это моя мама', options: ['Este es mi madre', 'Esta es mi madre', 'Esa es mi madre', 'Esto es mi madre'], correct: 1 },
+      { sentence: 'Тот дом очень большой', options: ['Este casa es muy grande', 'Ese casa es muy grande', 'Aquella casa es muy grande', 'Esa casa es muy grande'], correct: 3 },
+      { sentence: 'Вон те книги на столе', options: ['Estos libros están en la mesa', 'Esos libros están en la mesa', 'Aquellos libros están en la mesa', 'Aquel libros están en la mesa'], correct: 2 },
       { sentence: 'Мой брат живет здесь', options: ['Mi hermano vive aquí', 'Mi hermano vive ahí', 'Mi hermano vive allí', 'Mis hermanos vive aquí'], correct: 0 },
-      { sentence: 'Это твоя сестра?', options: ['¿Esta es tu hermana?', '¿Este es tu hermana?', '¿Esa es tu hermana?', '¿Esto es tu hermana?'], correct: 0 },
-      { sentence: 'Наша семья большая', options: ['Nuestro familia es grande', 'Nuestra familia es grande', 'Nuestros familia es grande', 'Nuestras familia es grande'], correct: 1 },
-      { sentence: 'Те люди — мои друзья', options: ['Esos son mis amigos', 'Estos son mis amigos', 'Aquellos son mis amigos', 'Esas son mis amigos'], correct: 0 },
-      { sentence: 'Что это?', options: ['¿Qué es esto?', '¿Qué es eso?', '¿Qué es este?', '¿Qué es ese?'], correct: 0 },
-      { sentence: 'Твой отец работает там?', options: ['¿Tu padre trabaja ahí?', '¿Tu padre trabaja aquí?', '¿Su padre trabaja ahí?', '¿Tus padres trabaja ahí?'], correct: 0 },
-      { sentence: 'Вон та машина красивая', options: ['Aquel coche es bonito', 'Aquella coche es bonito', 'Ese coche es bonito', 'Este coche es bonito'], correct: 0 }
+      { sentence: 'Это твоя сестра?', options: ['¿Esto es tu hermana?', '¿Este es tu hermana?', '¿Esa es tu hermana?', '¿Esta es tu hermana?'], correct: 3 },
+      { sentence: 'Наша семья большая', options: ['Nuestra familia es grande', 'Nuestro familia es grande', 'Nuestros familia es grande', 'Nuestras familia es grande'], correct: 0 },
+      { sentence: 'Те люди — мои друзья', options: ['Aquellos son mis amigos', 'Estos son mis amigos', 'Esos son mis amigos', 'Esas son mis amigos'], correct: 2 },
+      { sentence: 'Что это?', options: ['¿Qué es eso?', '¿Qué es esto?', '¿Qué es este?', '¿Qué es ese?'], correct: 1 },
+      { sentence: 'Твой отец работает там?', options: ['¿Tus padres trabaja ahí?', '¿Tu padre trabaja aquí?', '¿Su padre trabaja ahí?', '¿Tu padre trabaja ahí?'], correct: 3 },
+      { sentence: 'Вон та машина красивая', options: ['Ese coche es bonito', 'Aquella coche es bonito', 'Aquel coche es bonito', 'Este coche es bonito'], correct: 2 }
     ]
   },
 
@@ -31910,16 +31910,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     showCorrectAnswer: true,
     text: 'Esta es mi familia. Estos son mis padres: mi padre Roberto y mi madre Isabel. Ellos trabajan en Madrid. Nuestros abuelos viven con nosotros. Ese hombre es mi abuelo Pablo y esa mujer es mi abuela Carmen. Mi tío Pedro vive allí, en Barcelona. Su esposa es mi tía Laura. Ellos tienen dos hijos: mis primos Jorge y Marta. La mía es una familia grande y alegre.',
     questions: [
-      { question: '¿Cómo se llama el padre?', options: ['Pablo', 'Pedro', 'Roberto', 'Jorge'], correct: 2 },
-      { question: '¿Dónde trabajan los padres?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Sevilla'], correct: 1 },
+      { question: '¿Cómo se llama el padre?', options: ['Pablo', 'Pedro', 'Jorge', 'Roberto'], correct: 3 },
+      { question: '¿Dónde trabajan los padres?', options: ['En Madrid', 'En Barcelona', 'En Valencia', 'En Sevilla'], correct: 0 },
       { question: '¿Quién vive con la familia?', options: ['Los tíos', 'Los primos', 'Los abuelos', 'El padrino'], correct: 2 },
-      { question: '¿Cómo se llama el abuelo?', options: ['Roberto', 'Pedro', 'Pablo', 'Jorge'], correct: 2 },
-      { question: '¿Dónde vive el tío Pedro?', options: ['En Madrid', 'En Barcelona', 'En Valencia', 'En Sevilla'], correct: 1 },
-      { question: '¿Cómo se llama la esposa del tío Pedro?', options: ['Isabel', 'Carmen', 'Laura', 'Marta'], correct: 2 },
-      { question: '¿Cuántos hijos tienen los tíos?', options: ['Uno', 'Dos', 'Tres', 'Cuatro'], correct: 1 },
-      { question: '¿Cómo se llaman los primos?', options: ['Roberto y Pablo', 'Pedro y Laura', 'Jorge y Marta', 'Pablo y Carmen'], correct: 2 },
-      { question: '¿Quién es Carmen?', options: ['La madre', 'La tía', 'La abuela', 'La prima'], correct: 2 },
-      { question: '¿Cómo es la familia?', options: ['Pequeña', 'Grande y alegre', 'Triste', 'Pequeña y alegre'], correct: 1 }
+      { question: '¿Cómo se llama el abuelo?', options: ['Roberto', 'Pablo', 'Pedro', 'Jorge'], correct: 1 },
+      { question: '¿Dónde vive el tío Pedro?', options: ['En Barcelona', 'En Madrid', 'En Valencia', 'En Sevilla'], correct: 0 },
+      { question: '¿Cómo se llama la esposa del tío Pedro?', options: ['Isabel', 'Laura', 'Carmen', 'Marta'], correct: 1 },
+      { question: '¿Cuántos hijos tienen los tíos?', options: ['Uno', 'Tres', 'Dos', 'Cuatro'], correct: 2 },
+      { question: '¿Cómo se llaman los primos?', options: ['Roberto y Pablo', 'Pedro y Laura', 'Pablo y Carmen', 'Jorge y Marta'], correct: 3 },
+      { question: '¿Quién es Carmen?', options: ['La madre', 'La abuela', 'La tía', 'La prima'], correct: 1 },
+      { question: '¿Cómo es la familia?', options: ['Grande y alegre', 'Pequeña', 'Triste', 'Pequeña y alegre'], correct: 0 }
     ]
   },
 
@@ -32213,21 +32213,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Спряжение глагола IR',
     description: 'Выберите правильную форму глагола IR',
     questions: [
-      { sentence: 'Yo ___ al teatro', options: ['voy', 'vas', 'va', 'van'], correct: 0 },
+      { sentence: 'Yo ___ al teatro', options: ['van', 'vas', 'va', 'voy'], correct: 3 },
       { sentence: 'Tú ___ a casa', options: ['voy', 'vas', 'va', 'vamos'], correct: 1 },
       { sentence: 'Él ___ al café', options: ['voy', 'vas', 'va', 'vais'], correct: 2 },
-      { sentence: 'Ella ___ a la oficina', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
+      { sentence: 'Ella ___ a la oficina', options: ['va', 'vas', 'voy', 'van'], correct: 0 },
       { sentence: 'Nosotros ___ al bar', options: ['voy', 'vas', 'vamos', 'vais'], correct: 2 },
-      { sentence: 'Vosotros ___ a Rusia', options: ['vas', 'va', 'vamos', 'vais'], correct: 3 },
+      { sentence: 'Vosotros ___ a Rusia', options: ['vas', 'vais', 'vamos', 'va'], correct: 1 },
       { sentence: 'Ellos ___ de compras', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
-      { sentence: 'Usted ___ al restaurante', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
+      { sentence: 'Usted ___ al restaurante', options: ['va', 'vas', 'voy', 'van'], correct: 0 },
       { sentence: 'Ustedes ___ de vacaciones', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
-      { sentence: 'María ___ a la playa', options: ['voy', 'vas', 'va', 'van'], correct: 2 },
-      { sentence: 'Mis amigos ___ al cine', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
-      { sentence: 'Mi hermana ___ al centro', options: ['voy', 'vas', 'va', 'vamos'], correct: 2 },
+      { sentence: 'María ___ a la playa', options: ['voy', 'va', 'vas', 'van'], correct: 1 },
+      { sentence: 'Mis amigos ___ al cine', options: ['va', 'vamos', 'van', 'vais'], correct: 2 },
+      { sentence: 'Mi hermana ___ al centro', options: ['va', 'vas', 'voy', 'vamos'], correct: 0 },
       { sentence: 'Tú y yo ___ al parque', options: ['vas', 'va', 'vamos', 'van'], correct: 2 },
       { sentence: 'Pedro y Ana ___ al museo', options: ['va', 'vamos', 'vais', 'van'], correct: 3 },
-      { sentence: 'Juan ___ a España', options: ['voy', 'vas', 'va', 'van'], correct: 2 }
+      { sentence: 'Juan ___ a España', options: ['va', 'vas', 'voy', 'van'], correct: 0 }
     ]
   },
 
@@ -32237,19 +32237,19 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Спряжение глагола TENER',
     description: 'Выберите правильную форму глагола TENER',
     questions: [
-      { sentence: 'Yo ___ un libro', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 0 },
-      { sentence: 'Tú ___ hambre', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 1 },
-      { sentence: 'Él ___ sed', options: ['tengo', 'tienes', 'tiene', 'tenéis'], correct: 2 },
-      { sentence: 'Ella ___ veinte años', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Nosotros ___ tiempo', options: ['tengo', 'tienes', 'tenemos', 'tenéis'], correct: 2 },
-      { sentence: 'Vosotros ___ prisa', options: ['tienes', 'tiene', 'tenemos', 'tenéis'], correct: 3 },
-      { sentence: 'Ellos ___ miedo', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
+      { sentence: 'Yo ___ un libro', options: ['tienes', 'tengo', 'tiene', 'tienen'], correct: 1 },
+      { sentence: 'Tú ___ hambre', options: ['tengo', 'tiene', 'tienes', 'tenemos'], correct: 2 },
+      { sentence: 'Él ___ sed', options: ['tengo', 'tienes', 'tenéis', 'tiene'], correct: 3 },
+      { sentence: 'Ella ___ veinte años', options: ['tiene', 'tienes', 'tengo', 'tienen'], correct: 0 },
+      { sentence: 'Nosotros ___ tiempo', options: ['tengo', 'tienes', 'tenéis', 'tenemos'], correct: 3 },
+      { sentence: 'Vosotros ___ prisa', options: ['tienes', 'tenéis', 'tenemos', 'tiene'], correct: 1 },
+      { sentence: 'Ellos ___ miedo', options: ['tienen', 'tenemos', 'tenéis', 'tiene'], correct: 0 },
       { sentence: 'Usted ___ razón', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Ustedes ___ suerte', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
-      { sentence: 'Mi padre ___ dinero', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 },
-      { sentence: 'Mis hermanos ___ familia', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
-      { sentence: 'María ___ sueño', options: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 2 },
-      { sentence: 'Tú y yo ___ calor', options: ['tienes', 'tiene', 'tenemos', 'tienen'], correct: 2 },
+      { sentence: 'Ustedes ___ suerte', options: ['tiene', 'tienen', 'tenéis', 'tenemos'], correct: 1 },
+      { sentence: 'Mi padre ___ dinero', options: ['tengo', 'tienes', 'tienen', 'tiene'], correct: 3 },
+      { sentence: 'Mis hermanos ___ familia', options: ['tiene', 'tenemos', 'tienen', 'tenéis'], correct: 2 },
+      { sentence: 'María ___ sueño', options: ['tiene', 'tienes', 'tengo', 'tenemos'], correct: 0 },
+      { sentence: 'Tú y yo ___ calor', options: ['tienes', 'tenemos', 'tiene', 'tienen'], correct: 1 },
       { sentence: 'Ana y Pedro ___ frío', options: ['tiene', 'tenemos', 'tenéis', 'tienen'], correct: 3 },
       { sentence: 'Mi madre ___ un coche', options: ['tengo', 'tienes', 'tiene', 'tienen'], correct: 2 }
     ]
@@ -32261,20 +32261,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Спряжение глагола OÍR',
     description: 'Выберите правильную форму глагола OÍR',
     questions: [
-      { sentence: 'Yo ___ música', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 0 },
-      { sentence: 'Tú ___ la radio', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 1 },
-      { sentence: 'Él ___ las noticias', options: ['oigo', 'oyes', 'oye', 'oís'], correct: 2 },
-      { sentence: 'Ella ___ bien', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Yo ___ música', options: ['oyes', 'oigo', 'oye', 'oyen'], correct: 1 },
+      { sentence: 'Tú ___ la radio', options: ['oigo', 'oye', 'oyes', 'oímos'], correct: 2 },
+      { sentence: 'Él ___ las noticias', options: ['oye', 'oyes', 'oigo', 'oís'], correct: 0 },
+      { sentence: 'Ella ___ bien', options: ['oigo', 'oyes', 'oyen', 'oye'], correct: 3 },
       { sentence: 'Nosotros ___ el teléfono', options: ['oigo', 'oyes', 'oímos', 'oís'], correct: 2 },
       { sentence: 'Vosotros ___ música clásica', options: ['oyes', 'oye', 'oímos', 'oís'], correct: 3 },
-      { sentence: 'Ellos ___ voces', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
-      { sentence: 'Usted ___ mal', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
+      { sentence: 'Ellos ___ voces', options: ['oye', 'oyen', 'oís', 'oímos'], correct: 1 },
+      { sentence: 'Usted ___ mal', options: ['oye', 'oyes', 'oigo', 'oyen'], correct: 0 },
       { sentence: 'Ustedes ___ el ruido', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
-      { sentence: 'Mi hermana ___ la televisión', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 },
-      { sentence: 'Mis amigos ___ canciones', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
-      { sentence: 'Juan ___ un sonido', options: ['oigo', 'oyes', 'oye', 'oímos'], correct: 2 },
-      { sentence: 'Tú y yo ___ la música', options: ['oyes', 'oye', 'oímos', 'oyen'], correct: 2 },
-      { sentence: 'Pedro y Ana ___ el concierto', options: ['oye', 'oímos', 'oís', 'oyen'], correct: 3 },
+      { sentence: 'Mi hermana ___ la televisión', options: ['oigo', 'oye', 'oyes', 'oyen'], correct: 1 },
+      { sentence: 'Mis amigos ___ canciones', options: ['oye', 'oímos', 'oyen', 'oís'], correct: 2 },
+      { sentence: 'Juan ___ un sonido', options: ['oye', 'oyes', 'oigo', 'oímos'], correct: 0 },
+      { sentence: 'Tú y yo ___ la música', options: ['oyes', 'oye', 'oyen', 'oímos'], correct: 3 },
+      { sentence: 'Pedro y Ana ___ el concierto', options: ['oyen', 'oímos', 'oís', 'oye'], correct: 0 },
       { sentence: 'Carlos ___ la conversación', options: ['oigo', 'oyes', 'oye', 'oyen'], correct: 2 }
     ]
   },
@@ -32309,21 +32309,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Конструкция IR + A + инфинитив',
     description: 'Выберите правильный вариант',
     questions: [
-      { sentence: 'Yo voy ___ descansar', options: ['a', 'de', 'en', 'por'], correct: 0 },
-      { sentence: 'Tú vas ___ comer', options: ['a', 'de', 'en', 'por'], correct: 0 },
-      { sentence: 'Él va ___ beber té', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Yo voy ___ descansar', options: ['de', 'a', 'en', 'por'], correct: 1 },
+      { sentence: 'Tú vas ___ comer', options: ['en', 'de', 'a', 'por'], correct: 2 },
+      { sentence: 'Él va ___ beber té', options: ['por', 'de', 'en', 'a'], correct: 3 },
       { sentence: 'Nosotros vamos ___ leer', options: ['a', 'de', 'en', 'por'], correct: 0 },
-      { sentence: 'Vosotros vais ___ escribir', options: ['a', 'de', 'en', 'por'], correct: 0 },
-      { sentence: 'Ellos van ___ trabajar', options: ['a', 'de', 'en', 'por'], correct: 0 },
+      { sentence: 'Vosotros vais ___ escribir', options: ['de', 'a', 'en', 'por'], correct: 1 },
+      { sentence: 'Ellos van ___ trabajar', options: ['en', 'de', 'a', 'por'], correct: 2 },
       { sentence: 'Yo voy a ___ un libro', options: ['leer', 'leo', 'lee', 'leen'], correct: 0 },
-      { sentence: 'Tú vas a ___ al teatro', options: ['ir', 'voy', 'vas', 'van'], correct: 0 },
-      { sentence: 'Ella va a ___ la radio', options: ['escuchar', 'escucho', 'escucha', 'escuchan'], correct: 0 },
+      { sentence: 'Tú vas a ___ al teatro', options: ['van', 'voy', 'vas', 'ir'], correct: 3 },
+      { sentence: 'Ella va a ___ la radio', options: ['escucho', 'escuchar', 'escucha', 'escuchan'], correct: 1 },
       { sentence: 'Nosotros vamos a ___ español', options: ['hablar', 'hablo', 'hablas', 'hablan'], correct: 0 },
-      { sentence: 'Vosotros vais a ___ en casa', options: ['estar', 'estoy', 'estás', 'están'], correct: 0 },
-      { sentence: 'Ellos van a ___ medicina', options: ['tomar', 'tomo', 'tomas', 'toman'], correct: 0 },
-      { sentence: '¿Vas a ___ café?', options: ['tomar', 'tomo', 'tomas', 'toman'], correct: 0 },
-      { sentence: 'Voy a ___ a mi madre', options: ['llamar', 'llamo', 'llamas', 'llaman'], correct: 0 },
-      { sentence: 'Van a ___ de vacaciones', options: ['ir', 'voy', 'vas', 'van'], correct: 0 }
+      { sentence: 'Vosotros vais a ___ en casa', options: ['estás', 'estoy', 'estar', 'están'], correct: 2 },
+      { sentence: 'Ellos van a ___ medicina', options: ['toman', 'tomo', 'tomas', 'tomar'], correct: 3 },
+      { sentence: '¿Vas a ___ café?', options: ['tomas', 'tomo', 'tomar', 'toman'], correct: 2 },
+      { sentence: 'Voy a ___ a mi madre', options: ['llamo', 'llamar', 'llamas', 'llaman'], correct: 1 },
+      { sentence: 'Van a ___ de vacaciones', options: ['van', 'voy', 'vas', 'ir'], correct: 3 }
     ]
   },
 
@@ -32357,21 +32357,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Конструкция TENER QUE + инфинитив',
     description: 'Выберите правильный вариант',
     questions: [
-      { sentence: 'Yo tengo ___ estudiar', options: ['que', 'de', 'a', 'en'], correct: 0 },
-      { sentence: 'Tú tienes ___ trabajar', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Yo tengo ___ estudiar', options: ['en', 'de', 'a', 'que'], correct: 3 },
+      { sentence: 'Tú tienes ___ trabajar', options: ['a', 'de', 'que', 'en'], correct: 2 },
       { sentence: 'Él tiene ___ comer', options: ['que', 'de', 'a', 'en'], correct: 0 },
-      { sentence: 'Nosotros tenemos ___ ir', options: ['que', 'de', 'a', 'en'], correct: 0 },
+      { sentence: 'Nosotros tenemos ___ ir', options: ['de', 'que', 'a', 'en'], correct: 1 },
       { sentence: 'Vosotros tenéis ___ leer', options: ['que', 'de', 'a', 'en'], correct: 0 },
-      { sentence: 'Ellos tienen ___ escribir', options: ['que', 'de', 'a', 'en'], correct: 0 },
-      { sentence: 'Tengo que ___ medicina', options: ['tomar', 'tomo', 'tomas', 'toman'], correct: 0 },
-      { sentence: 'Tienes que ___ a casa', options: ['ir', 'voy', 'vas', 'van'], correct: 0 },
+      { sentence: 'Ellos tienen ___ escribir', options: ['en', 'de', 'a', 'que'], correct: 3 },
+      { sentence: 'Tengo que ___ medicina', options: ['tomo', 'tomar', 'tomas', 'toman'], correct: 1 },
+      { sentence: 'Tienes que ___ a casa', options: ['vas', 'voy', 'ir', 'van'], correct: 2 },
       { sentence: 'Tiene que ___ español', options: ['hablar', 'hablo', 'hablas', 'hablan'], correct: 0 },
-      { sentence: 'Tenemos que ___ el libro', options: ['leer', 'leo', 'lee', 'leen'], correct: 0 },
-      { sentence: 'Tenéis que ___ temprano', options: ['llegar', 'llego', 'llegas', 'llegan'], correct: 0 },
-      { sentence: 'Tienen que ___ la verdad', options: ['decir', 'digo', 'dices', 'dicen'], correct: 0 },
-      { sentence: '¿Tengo que ___ ahora?', options: ['salir', 'salgo', 'sales', 'salen'], correct: 0 },
-      { sentence: 'Tenemos que ___ en casa', options: ['estar', 'estoy', 'estás', 'están'], correct: 0 },
-      { sentence: 'Tienen que ___ la puerta', options: ['abrir', 'abro', 'abres', 'abren'], correct: 0 }
+      { sentence: 'Tenemos que ___ el libro', options: ['leo', 'leer', 'lee', 'leen'], correct: 1 },
+      { sentence: 'Tenéis que ___ temprano', options: ['llegas', 'llego', 'llegar', 'llegan'], correct: 2 },
+      { sentence: 'Tienen que ___ la verdad', options: ['dicen', 'digo', 'dices', 'decir'], correct: 3 },
+      { sentence: '¿Tengo que ___ ahora?', options: ['salgo', 'salir', 'sales', 'salen'], correct: 1 },
+      { sentence: 'Tenemos que ___ en casa', options: ['están', 'estoy', 'estás', 'estar'], correct: 3 },
+      { sentence: 'Tienen que ___ la puerta', options: ['abres', 'abro', 'abrir', 'abren'], correct: 2 }
     ]
   },
 
@@ -32381,21 +32381,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Смешанное упражнение: IR, TENER, OÍR',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { sentence: 'Yo (ir) ___ al cine', options: ['voy', 'tengo', 'oigo', 'va'], correct: 0 },
+      { sentence: 'Yo (ir) ___ al cine', options: ['va', 'tengo', 'oigo', 'voy'], correct: 3 },
       { sentence: 'Tú (tener) ___ hambre', options: ['vas', 'tienes', 'oyes', 'tiene'], correct: 1 },
       { sentence: 'Él (oír) ___ música', options: ['va', 'tiene', 'oye', 'van'], correct: 2 },
       { sentence: 'Nosotros (ir) ___ a España', options: ['vamos', 'tenemos', 'oímos', 'van'], correct: 0 },
-      { sentence: 'Vosotros (tener) ___ tiempo', options: ['vais', 'tenéis', 'oís', 'tienen'], correct: 1 },
+      { sentence: 'Vosotros (tener) ___ tiempo', options: ['vais', 'tienen', 'oís', 'tenéis'], correct: 3 },
       { sentence: 'Ellos (oír) ___ la radio', options: ['van', 'tienen', 'oyen', 'vas'], correct: 2 },
       { sentence: 'Yo (tener) ___ veinte años', options: ['voy', 'tengo', 'oigo', 'va'], correct: 1 },
       { sentence: 'Tú (ir) ___ al bar', options: ['vas', 'tienes', 'oyes', 'tiene'], correct: 0 },
-      { sentence: 'Ella (oír) ___ bien', options: ['va', 'tiene', 'oye', 'van'], correct: 2 },
-      { sentence: 'Nosotros (tener) ___ prisa', options: ['vamos', 'tenemos', 'oímos', 'van'], correct: 1 },
-      { sentence: 'Vosotros (ir) ___ de compras', options: ['vais', 'tenéis', 'oís', 'tienen'], correct: 0 },
-      { sentence: 'Ellos (tener) ___ sed', options: ['van', 'tienen', 'oyen', 'vas'], correct: 1 },
-      { sentence: 'Usted (ir) ___ a casa', options: ['va', 'tiene', 'oye', 'van'], correct: 0 },
-      { sentence: 'Ustedes (oír) ___ las noticias', options: ['van', 'tienen', 'oyen', 'vas'], correct: 2 },
-      { sentence: 'María (tener) ___ frío', options: ['va', 'tiene', 'oye', 'van'], correct: 1 }
+      { sentence: 'Ella (oír) ___ bien', options: ['oye', 'tiene', 'va', 'van'], correct: 0 },
+      { sentence: 'Nosotros (tener) ___ prisa', options: ['vamos', 'oímos', 'tenemos', 'van'], correct: 2 },
+      { sentence: 'Vosotros (ir) ___ de compras', options: ['tenéis', 'vais', 'oís', 'tienen'], correct: 1 },
+      { sentence: 'Ellos (tener) ___ sed', options: ['van', 'vas', 'oyen', 'tienen'], correct: 3 },
+      { sentence: 'Usted (ir) ___ a casa', options: ['oye', 'tiene', 'va', 'van'], correct: 2 },
+      { sentence: 'Ustedes (oír) ___ las noticias', options: ['oyen', 'tienen', 'van', 'vas'], correct: 0 },
+      { sentence: 'María (tener) ___ frío', options: ['va', 'van', 'oye', 'tiene'], correct: 3 }
     ]
   },
 
@@ -32429,21 +32429,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Выражения с TENER',
     description: 'Сопоставьте выражение с переводом',
     questions: [
-      { spanish: 'tener hambre', options: ['быть правым', 'быть голодным', 'иметь время', 'бояться'], correct: 1 },
+      { spanish: 'tener hambre', options: ['быть голодным', 'быть правым', 'иметь время', 'бояться'], correct: 0 },
       { spanish: 'tener sed', options: ['хотеть спать', 'хотеть пить', 'торопиться', 'мерзнуть'], correct: 1 },
-      { spanish: 'tener sueño', options: ['хотеть спать', 'хотеть есть', 'быть удачливым', 'иметь семью'], correct: 0 },
-      { spanish: 'tener miedo', options: ['иметь деньги', 'бояться', 'быть правым', 'торопиться'], correct: 1 },
+      { spanish: 'tener sueño', options: ['быть удачливым', 'хотеть есть', 'хотеть спать', 'иметь семью'], correct: 2 },
+      { spanish: 'tener miedo', options: ['иметь деньги', 'торопиться', 'быть правым', 'бояться'], correct: 3 },
       { spanish: 'tener razón', options: ['быть голодным', 'быть удачливым', 'быть правым', 'иметь время'], correct: 2 },
-      { spanish: 'tener suerte', options: ['быть удачливым', 'бояться', 'торопиться', 'мерзнуть'], correct: 0 },
-      { spanish: 'tener prisa', options: ['иметь время', 'торопиться', 'быть правым', 'хотеть пить'], correct: 1 },
-      { spanish: 'tener calor', options: ['мерзнуть', 'страдать от жары', 'хотеть спать', 'бояться'], correct: 1 },
-      { spanish: 'tener frío', options: ['страдать от жары', 'мерзнуть', 'хотеть есть', 'быть правым'], correct: 1 },
-      { spanish: 'tener tiempo', options: ['торопиться', 'бояться', 'иметь время', 'быть удачливым'], correct: 2 },
-      { spanish: 'tener dinero', options: ['иметь деньги', 'иметь семью', 'быть голодным', 'хотеть пить'], correct: 0 },
+      { spanish: 'tener suerte', options: ['бояться', 'быть удачливым', 'торопиться', 'мерзнуть'], correct: 1 },
+      { spanish: 'tener prisa', options: ['иметь время', 'хотеть пить', 'быть правым', 'торопиться'], correct: 3 },
+      { spanish: 'tener calor', options: ['страдать от жары', 'мерзнуть', 'хотеть спать', 'бояться'], correct: 0 },
+      { spanish: 'tener frío', options: ['страдать от жары', 'быть правым', 'хотеть есть', 'мерзнуть'], correct: 3 },
+      { spanish: 'tener tiempo', options: ['иметь время', 'бояться', 'торопиться', 'быть удачливым'], correct: 0 },
+      { spanish: 'tener dinero', options: ['быть голодным', 'иметь семью', 'иметь деньги', 'хотеть пить'], correct: 2 },
       { spanish: 'tener familia', options: ['иметь время', 'иметь семью', 'иметь деньги', 'быть правым'], correct: 1 },
-      { spanish: 'tener que', options: ['быть должным', 'иметь что-то', 'хотеть что-то', 'идти куда-то'], correct: 0 },
-      { spanish: 'tener ... años', options: ['быть старым', 'иметь ... лет', 'быть молодым', 'иметь время'], correct: 1 },
-      { spanish: 'ir de compras', options: ['идти домой', 'идти в магазин', 'идти за покупками', 'идти на работу'], correct: 2 }
+      { spanish: 'tener que', options: ['идти куда-то', 'иметь что-то', 'хотеть что-то', 'быть должным'], correct: 3 },
+      { spanish: 'tener ... años', options: ['быть старым', 'быть молодым', 'иметь ... лет', 'иметь время'], correct: 2 },
+      { spanish: 'ir de compras', options: ['идти за покупками', 'идти в магазин', 'идти домой', 'идти на работу'], correct: 0 }
     ]
   },
 
@@ -32955,16 +32955,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный вопрос к выделенной части',
     reviewTime: 10,
     questions: [
-      { sentence: 'María estudia en la universidad. (María)', options: ['¿Quién estudia en la universidad?', '¿Qué estudia en la universidad?', '¿Dónde estudia María?', '¿Cómo estudia María?'], correct: 0 },
-      { sentence: 'Carlos vive en Madrid. (en Madrid)', options: ['¿Dónde vive Carlos?', '¿Quién vive en Madrid?', '¿Cómo vive Carlos?', '¿Cuándo vive Carlos?'], correct: 0 },
-      { sentence: 'Ella trabaja en un hospital. (en un hospital)', options: ['¿Dónde trabaja ella?', '¿Quién trabaja?', '¿Qué trabaja ella?', '¿Cómo trabaja ella?'], correct: 0 },
+      { sentence: 'María estudia en la universidad. (María)', options: ['¿Dónde estudia María?', '¿Qué estudia en la universidad?', '¿Quién estudia en la universidad?', '¿Cómo estudia María?'], correct: 2 },
+      { sentence: 'Carlos vive en Madrid. (en Madrid)', options: ['¿Cuándo vive Carlos?', '¿Quién vive en Madrid?', '¿Cómo vive Carlos?', '¿Dónde vive Carlos?'], correct: 3 },
+      { sentence: 'Ella trabaja en un hospital. (en un hospital)', options: ['¿Quién trabaja?', '¿Dónde trabaja ella?', '¿Qué trabaja ella?', '¿Cómo trabaja ella?'], correct: 1 },
       { sentence: 'Mi padre es médico. (médico)', options: ['¿Qué es tu padre?', '¿Quién es médico?', '¿Dónde es tu padre?', '¿Cómo es tu padre?'], correct: 0 },
-      { sentence: 'Nosotros estudiamos español. (español)', options: ['¿Qué estudiáis?', '¿Quién estudia español?', '¿Dónde estudiáis?', '¿Cuándo estudiáis?'], correct: 0 },
-      { sentence: 'Las clases empiezan a las nueve. (a las nueve)', options: ['¿Cuándo empiezan las clases?', '¿Dónde empiezan las clases?', '¿Qué empiezan las clases?', '¿Cómo empiezan las clases?'], correct: 0 },
+      { sentence: 'Nosotros estudiamos español. (español)', options: ['¿Quién estudia español?', '¿Qué estudiáis?', '¿Dónde estudiáis?', '¿Cuándo estudiáis?'], correct: 1 },
+      { sentence: 'Las clases empiezan a las nueve. (a las nueve)', options: ['¿Cómo empiezan las clases?', '¿Dónde empiezan las clases?', '¿Qué empiezan las clases?', '¿Cuándo empiezan las clases?'], correct: 3 },
       { sentence: 'Tengo tres hermanos. (tres)', options: ['¿Cuántos hermanos tienes?', '¿Quién tiene hermanos?', '¿Qué tienes?', '¿Dónde tienes hermanos?'], correct: 0 },
-      { sentence: 'Voy al cine. (al cine)', options: ['¿Adónde vas?', '¿Quién va al cine?', '¿Cuándo vas?', '¿Cómo vas?'], correct: 0 },
-      { sentence: 'Ella es de Valencia. (de Valencia)', options: ['¿De dónde es ella?', '¿Quién es de Valencia?', '¿Qué es ella?', '¿Cómo es ella?'], correct: 0 },
-      { sentence: 'Estudio porque me gusta. (porque me gusta)', options: ['¿Por qué estudias?', '¿Quién estudia?', '¿Qué estudias?', '¿Dónde estudias?'], correct: 0 }
+      { sentence: 'Voy al cine. (al cine)', options: ['¿Cuándo vas?', '¿Quién va al cine?', '¿Adónde vas?', '¿Cómo vas?'], correct: 2 },
+      { sentence: 'Ella es de Valencia. (de Valencia)', options: ['¿Qué es ella?', '¿Quién es de Valencia?', '¿De dónde es ella?', '¿Cómo es ella?'], correct: 2 },
+      { sentence: 'Estudio porque me gusta. (porque me gusta)', options: ['¿Quién estudia?', '¿Por qué estudias?', '¿Qué estudias?', '¿Dónde estudias?'], correct: 1 }
     ]
   },
 
@@ -33036,16 +33036,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную форму глагола QUERER',
     reviewTime: 10,
     questions: [
-      { sentence: 'Yo ___ estudiar español.', options: ['quiero', 'quieres', 'quiere', 'quieren'], correct: 0 },
+      { sentence: 'Yo ___ estudiar español.', options: ['quiere', 'quieres', 'quiero', 'quieren'], correct: 2 },
       { sentence: '¿Tú ___ venir conmigo?', options: ['quieres', 'quiero', 'quiere', 'queremos'], correct: 0 },
-      { sentence: 'Mi hermano ___ ser médico.', options: ['quiere', 'quiero', 'quieres', 'quieren'], correct: 0 },
-      { sentence: 'Nosotros ___ una casa grande.', options: ['queremos', 'quiero', 'quieres', 'quieren'], correct: 0 },
-      { sentence: '¿Vosotros ___ café o té?', options: ['queréis', 'queremos', 'quieren', 'quiero'], correct: 0 },
-      { sentence: 'Ellos ___ viajar a España.', options: ['quieren', 'queremos', 'quiero', 'quiere'], correct: 0 },
+      { sentence: 'Mi hermano ___ ser médico.', options: ['quieren', 'quiero', 'quieres', 'quiere'], correct: 3 },
+      { sentence: 'Nosotros ___ una casa grande.', options: ['quiero', 'queremos', 'quieres', 'quieren'], correct: 1 },
+      { sentence: '¿Vosotros ___ café o té?', options: ['quieren', 'queremos', 'queréis', 'quiero'], correct: 2 },
+      { sentence: 'Ellos ___ viajar a España.', options: ['quiere', 'queremos', 'quiero', 'quieren'], correct: 3 },
       { sentence: 'Yo ___ mucho a mi familia.', options: ['quiero', 'quieres', 'quiere', 'queremos'], correct: 0 },
-      { sentence: '¿Qué ___ tú de regalo?', options: ['quieres', 'quiero', 'quiere', 'queremos'], correct: 0 },
-      { sentence: 'Mi madre ___ un coche nuevo.', options: ['quiere', 'quiero', 'quieres', 'quieren'], correct: 0 },
-      { sentence: 'Nosotros ___ ser profesores.', options: ['queremos', 'quiero', 'quieren', 'quiere'], correct: 0 }
+      { sentence: '¿Qué ___ tú de regalo?', options: ['quiero', 'quieres', 'quiere', 'queremos'], correct: 1 },
+      { sentence: 'Mi madre ___ un coche nuevo.', options: ['quieres', 'quiero', 'quiere', 'quieren'], correct: 2 },
+      { sentence: 'Nosotros ___ ser profesores.', options: ['quiero', 'queremos', 'quieren', 'quiere'], correct: 1 }
     ]
   },
 
@@ -33056,16 +33056,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную форму глагола PODER',
     reviewTime: 10,
     questions: [
-      { sentence: 'Yo ___ hablar español.', options: ['puedo', 'puedes', 'puede', 'pueden'], correct: 0 },
+      { sentence: 'Yo ___ hablar español.', options: ['puedes', 'puedo', 'puede', 'pueden'], correct: 1 },
       { sentence: '¿Tú ___ venir mañana?', options: ['puedes', 'puedo', 'puede', 'podemos'], correct: 0 },
-      { sentence: 'Mi padre no ___ trabajar hoy.', options: ['puede', 'puedo', 'puedes', 'pueden'], correct: 0 },
-      { sentence: 'Nosotros ___ estudiar en la biblioteca.', options: ['podemos', 'puedo', 'puedes', 'pueden'], correct: 0 },
-      { sentence: '¿Vosotros ___ ayudarme?', options: ['podéis', 'podemos', 'pueden', 'puedo'], correct: 0 },
-      { sentence: 'Ellos ___ venir a la universidad.', options: ['pueden', 'podemos', 'puedo', 'puede'], correct: 0 },
+      { sentence: 'Mi padre no ___ trabajar hoy.', options: ['pueden', 'puedo', 'puedes', 'puede'], correct: 3 },
+      { sentence: 'Nosotros ___ estudiar en la biblioteca.', options: ['puedes', 'puedo', 'podemos', 'pueden'], correct: 2 },
+      { sentence: '¿Vosotros ___ ayudarme?', options: ['pueden', 'podemos', 'podéis', 'puedo'], correct: 2 },
+      { sentence: 'Ellos ___ venir a la universidad.', options: ['podemos', 'pueden', 'puedo', 'puede'], correct: 1 },
       { sentence: 'Yo no ___ ir a la fiesta.', options: ['puedo', 'puedes', 'puede', 'podemos'], correct: 0 },
-      { sentence: '¿Tú ___ leer este libro?', options: ['puedes', 'puedo', 'puede', 'podemos'], correct: 0 },
-      { sentence: 'Ella ___ cocinar muy bien.', options: ['puede', 'puedo', 'puedes', 'pueden'], correct: 0 },
-      { sentence: 'Nosotros ___ hablar tres idiomas.', options: ['podemos', 'puedo', 'pueden', 'puede'], correct: 0 }
+      { sentence: '¿Tú ___ leer este libro?', options: ['podemos', 'puedo', 'puede', 'puedes'], correct: 3 },
+      { sentence: 'Ella ___ cocinar muy bien.', options: ['puedo', 'puede', 'puedes', 'pueden'], correct: 1 },
+      { sentence: 'Nosotros ___ hablar tres idiomas.', options: ['pueden', 'puedo', 'podemos', 'puede'], correct: 2 }
     ]
   },
 
@@ -33076,16 +33076,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную форму глагола VENIR',
     reviewTime: 10,
     questions: [
-      { sentence: 'Yo ___ a la universidad en autobús.', options: ['vengo', 'vienes', 'viene', 'vienen'], correct: 0 },
-      { sentence: '¿Tú ___ de Madrid?', options: ['vienes', 'vengo', 'viene', 'venimos'], correct: 0 },
-      { sentence: 'Mi amigo ___ a mi casa esta tarde.', options: ['viene', 'vengo', 'vienes', 'vienen'], correct: 0 },
+      { sentence: 'Yo ___ a la universidad en autobús.', options: ['vienes', 'vengo', 'viene', 'vienen'], correct: 1 },
+      { sentence: '¿Tú ___ de Madrid?', options: ['venimos', 'vengo', 'viene', 'vienes'], correct: 3 },
+      { sentence: 'Mi amigo ___ a mi casa esta tarde.', options: ['vienes', 'vengo', 'viene', 'vienen'], correct: 2 },
       { sentence: 'Nosotros ___ de la biblioteca.', options: ['venimos', 'vengo', 'vienes', 'vienen'], correct: 0 },
       { sentence: '¿De dónde ___ vosotros?', options: ['venís', 'venimos', 'vienen', 'vengo'], correct: 0 },
-      { sentence: 'Mis padres ___ mañana.', options: ['vienen', 'venimos', 'vengo', 'viene'], correct: 0 },
-      { sentence: 'Yo ___ de España.', options: ['vengo', 'vienes', 'viene', 'venimos'], correct: 0 },
-      { sentence: '¿Tú ___ a la clase hoy?', options: ['vienes', 'vengo', 'viene', 'venimos'], correct: 0 },
-      { sentence: 'Ella ___ de la escuela.', options: ['viene', 'vengo', 'vienes', 'vienen'], correct: 0 },
-      { sentence: 'Nosotros ___ aquí todos los días.', options: ['venimos', 'vengo', 'vienen', 'viene'], correct: 0 }
+      { sentence: 'Mis padres ___ mañana.', options: ['vengo', 'venimos', 'vienen', 'viene'], correct: 2 },
+      { sentence: 'Yo ___ de España.', options: ['venimos', 'vienes', 'viene', 'vengo'], correct: 3 },
+      { sentence: '¿Tú ___ a la clase hoy?', options: ['vengo', 'vienes', 'viene', 'venimos'], correct: 1 },
+      { sentence: 'Ella ___ de la escuela.', options: ['vienen', 'vengo', 'vienes', 'viene'], correct: 3 },
+      { sentence: 'Nosotros ___ aquí todos los días.', options: ['vengo', 'venimos', 'vienen', 'viene'], correct: 1 }
     ]
   },
 
@@ -33096,16 +33096,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильную форму глагола DECIR',
     reviewTime: 10,
     questions: [
-      { sentence: 'Yo siempre ___ la verdad.', options: ['digo', 'dices', 'dice', 'dicen'], correct: 0 },
-      { sentence: '¿Qué ___ tú?', options: ['dices', 'digo', 'dice', 'decimos'], correct: 0 },
+      { sentence: 'Yo siempre ___ la verdad.', options: ['dicen', 'dices', 'dice', 'digo'], correct: 3 },
+      { sentence: '¿Qué ___ tú?', options: ['dice', 'digo', 'dices', 'decimos'], correct: 2 },
       { sentence: 'Mi madre ___ que tengo que estudiar.', options: ['dice', 'digo', 'dices', 'dicen'], correct: 0 },
-      { sentence: 'Nosotros ___ "buenos días" por la mañana.', options: ['decimos', 'digo', 'dices', 'dicen'], correct: 0 },
-      { sentence: '¿Qué ___ vosotros?', options: ['decís', 'decimos', 'dicen', 'digo'], correct: 0 },
-      { sentence: 'Ellos ___ que vienen mañana.', options: ['dicen', 'decimos', 'digo', 'dice'], correct: 0 },
+      { sentence: 'Nosotros ___ "buenos días" por la mañana.', options: ['digo', 'decimos', 'dices', 'dicen'], correct: 1 },
+      { sentence: '¿Qué ___ vosotros?', options: ['digo', 'decimos', 'dicen', 'decís'], correct: 3 },
+      { sentence: 'Ellos ___ que vienen mañana.', options: ['digo', 'decimos', 'dicen', 'dice'], correct: 2 },
       { sentence: 'Yo no ___ mentiras.', options: ['digo', 'dices', 'dice', 'decimos'], correct: 0 },
-      { sentence: '¿Qué ___ tu padre?', options: ['dice', 'digo', 'dices', 'dicen'], correct: 0 },
-      { sentence: 'Tú ___ que estudias español.', options: ['dices', 'digo', 'dice', 'decimos'], correct: 0 },
-      { sentence: 'Nosotros ___ "adiós" cuando salimos.', options: ['decimos', 'digo', 'dicen', 'dice'], correct: 0 }
+      { sentence: '¿Qué ___ tu padre?', options: ['digo', 'dice', 'dices', 'dicen'], correct: 1 },
+      { sentence: 'Tú ___ que estudias español.', options: ['dice', 'digo', 'dices', 'decimos'], correct: 2 },
+      { sentence: 'Nosotros ___ "adiós" cuando salimos.', options: ['digo', 'decimos', 'dicen', 'dice'], correct: 1 }
     ]
   },
 
@@ -35638,15 +35638,15 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Предлоги места - del/de la',
     description: 'Выберите правильную форму предлога (del или de la)',
     questions: [
-      { sentence: 'El libro está encima ________ mesa.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'El libro está encima ________ mesa.', options: ['de las', 'del', 'de', 'de la'], correct: 3 },
       { sentence: 'El gato está debajo ________ cuadro.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
-      { sentence: 'La casa está al lado ________ escuela.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
-      { sentence: 'El niño está delante ________ museo.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
-      { sentence: 'La silla está a la derecha ________ puerta.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'La casa está al lado ________ escuela.', options: ['de', 'del', 'de la', 'de las'], correct: 2 },
+      { sentence: 'El niño está delante ________ museo.', options: ['de la', 'del', 'de', 'de los'], correct: 1 },
+      { sentence: 'La silla está a la derecha ________ puerta.', options: ['de', 'del', 'de la', 'de las'], correct: 2 },
       { sentence: 'El perro está detrás ________ árbol.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
-      { sentence: 'La lámpara está a la izquierda ________ ventana.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
-      { sentence: 'El cuadro está encima ________ sofá.', options: ['del', 'de la', 'de', 'de los'], correct: 0 },
-      { sentence: 'El jardín está entre ________ casa y la escuela.', options: ['de la', 'del', 'de', 'de las'], correct: 0 },
+      { sentence: 'La lámpara está a la izquierda ________ ventana.', options: ['de las', 'del', 'de', 'de la'], correct: 3 },
+      { sentence: 'El cuadro está encima ________ sofá.', options: ['de la', 'del', 'de', 'de los'], correct: 1 },
+      { sentence: 'El jardín está entre ________ casa y la escuela.', options: ['de', 'del', 'de la', 'de las'], correct: 2 },
       { sentence: 'La mesita está al lado ________ libro.', options: ['del', 'de la', 'de', 'de los'], correct: 0 }
     ]
   },
@@ -36304,13 +36304,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué despierta a Pepa por la mañana?',
-        options: ['El ruido de la televisión', 'El olor de la cafetera', 'El timbre de la puerta', 'La música de Ramón'],
-        correct: 1
+        options: ['El ruido de la televisión', 'La música de Ramón', 'El timbre de la puerta', 'El olor de la cafetera'],
+        correct: 3
       },
       {
         question: '¿Qué ha preparado la señora Montserrat para el desayuno?',
-        options: ['Café y tostadas', 'Cruasanes, pan y La Vanguardia', 'Panellets y castañas', 'Huevos y bacon'],
-        correct: 1
+        options: ['Cruasanes, pan y La Vanguardia', 'Café y tostadas', 'Panellets y castañas', 'Huevos y bacon'],
+        correct: 0
       },
       {
         question: '¿Qué le muestra Pepa a la señora Montserrat?',
@@ -36319,8 +36319,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué le explica Pepa a la señora sobre el aparato?',
-        options: ['Que es de Ramón', 'Que es un montaje para asustarla', 'Que es un regalo', 'Que no funciona'],
-        correct: 1
+        options: ['Que es de Ramón', 'Que es un regalo', 'Que es un montaje para asustarla', 'Que no funciona'],
+        correct: 2
       },
       {
         question: '¿Cuánto tiempo necesita Pepa para resolver el misterio?',
@@ -36329,18 +36329,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Quién llega a mitad del desayuno?',
-        options: ['Armando', 'Raúl', 'Ariel, el sobrino', 'Federico'],
-        correct: 2
+        options: ['Armando', 'Ariel, el sobrino', 'Raúl', 'Federico'],
+        correct: 1
       },
       {
         question: '¿Cómo es Ariel según la señora Montserrat?',
-        options: ['Muy simpático', 'Muy guapo', 'Muy inteligente', 'Muy trabajador'],
-        correct: 1
+        options: ['Muy guapo', 'Muy simpático', 'Muy inteligente', 'Muy trabajador'],
+        correct: 0
       },
       {
         question: '¿Cómo está Pepa cuando ve a Ariel?',
-        options: ['Perfectamente arreglada', 'Con ropa arrugada y pelo de punta', 'Con maquillaje', 'Recién duchada'],
-        correct: 1
+        options: ['Perfectamente arreglada', 'Recién duchada', 'Con maquillaje', 'Con ropa arrugada y pelo de punta'],
+        correct: 3
       },
       {
         question: '¿Con quién compara Pepa a Ariel?',
@@ -36354,23 +36354,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué quieren los hombres peligrosos?',
-        options: ['El coche de la señora', 'El piso de la tía', 'El dinero de Ramón', 'El perro Aristóteles'],
-        correct: 1
+        options: ['El coche de la señora', 'El perro Aristóteles', 'El dinero de Ramón', 'El piso de la tía'],
+        correct: 3
       },
       {
         question: '¿Cuántas veces ha hablado Ariel con esos hombres?',
-        options: ['Una vez', 'Dos veces', 'Tres veces', 'Nunca'],
-        correct: 1
+        options: ['Dos veces', 'Una vez', 'Tres veces', 'Nunca'],
+        correct: 0
       },
       {
         question: '¿Por qué no quiere irse la señora Montserrat?',
-        options: ['No tiene dinero', 'Ha nacido en esta casa', 'Le gusta el barrio', 'Tiene miedo'],
-        correct: 1
+        options: ['No tiene dinero', 'Le gusta el barrio', 'Ha nacido en esta casa', 'Tiene miedo'],
+        correct: 2
       },
       {
         question: '¿Qué van a hacer Ariel y Pepa?',
-        options: ['Llamar a la policía', 'Esperar y vigilar', 'Mudarse', 'Vender el piso'],
-        correct: 1
+        options: ['Llamar a la policía', 'Vender el piso', 'Mudarse', 'Esperar y vigilar'],
+        correct: 3
       },
       {
         question: '¿Qué le propone Ariel a Pepa?',
@@ -36387,8 +36387,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'El olor de la cafetera _____ a Pepa por la mañana.',
-        options: ['despertó', 'despertaba', 'ha despertado', 'despierta'],
-        correct: 0
+        options: ['despierta', 'despertaba', 'ha despertado', 'despertó'],
+        correct: 3
       },
       {
         sentence: 'La señora Montserrat _____ el desayuno antes de que Pepa se levantara.',
@@ -36407,28 +36407,28 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'La señora Montserrat _____ el aparato sin entender qué era.',
-        options: ['miraba', 'miró', 'ha mirado', 'mira'],
-        correct: 1
+        options: ['miró', 'miraba', 'ha mirado', 'mira'],
+        correct: 0
       },
       {
         sentence: 'Pepa explicó que alguien _____ asustar a la señora con ese aparato.',
-        options: ['quería', 'quiso', 'ha querido', 'quiere'],
-        correct: 0
+        options: ['quiso', 'quería', 'ha querido', 'quiere'],
+        correct: 1
       },
       {
         sentence: 'A mitad del desayuno, _____ el timbre de la puerta.',
-        options: ['sonaba', 'sonó', 'ha sonado', 'suena'],
-        correct: 1
+        options: ['sonaba', 'ha sonado', 'sonó', 'suena'],
+        correct: 2
       },
       {
         sentence: 'La señora dijo: −Es mi sobrino que _____ a verme.',
-        options: ['vino', 'viene', 'venía', 'ha venido'],
-        correct: 1
+        options: ['vino', 'ha venido', 'venía', 'viene'],
+        correct: 3
       },
       {
         sentence: 'La señora _____ razón: Ariel era muy guapo.',
-        options: ['tenía', 'tuvo', 'ha tenido', 'tiene'],
-        correct: 0
+        options: ['ha tenido', 'tuvo', 'tenía', 'tiene'],
+        correct: 2
       },
       {
         sentence: 'Pepa _____ ropa arrugada cuando apareció Ariel.',
@@ -36437,28 +36437,28 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Ariel le _____ la mano a Pepa cuando se conocieron.',
-        options: ['tendió', 'tendía', 'ha tendido', 'tiende'],
-        correct: 0
-      },
-      {
-        sentence: 'Los tres _____ los misterios de la casa mientras tomaban café.',
-        options: ['comentaban', 'comentaron', 'han comentado', 'comentan'],
+        options: ['tendía', 'tendió', 'ha tendido', 'tiende'],
         correct: 1
       },
       {
+        sentence: 'Los tres _____ los misterios de la casa mientras tomaban café.',
+        options: ['comentaban', 'comentan', 'han comentado', 'comentaron'],
+        correct: 3
+      },
+      {
         sentence: 'Ariel _____ dos veces con esos hombres peligrosos antes de ese día.',
-        options: ['habló', 'hablaba', 'ha hablado', 'habla'],
-        correct: 2
+        options: ['habló', 'ha hablado', 'hablaba', 'habla'],
+        correct: 1
       },
       {
         sentence: 'La señora Montserrat _____ en esta casa hace muchos años.',
-        options: ['nació', 'nacía', 'ha nacido', 'nace'],
-        correct: 0
+        options: ['ha nacido', 'nacía', 'nació', 'nace'],
+        correct: 2
       },
       {
         sentence: '−¿_____ una noche de estas? −preguntó Ariel.',
         options: ['Cenábamos', 'Cenamos', 'Hemos cenado', 'Cenamos'],
-        correct: 1
+        correct: 3
       }
     ]
   },
@@ -36494,13 +36494,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Quién coge el taxi en la Diagonal?',
-        options: ['Un estudiante', 'Un ejecutivo estresado', 'Un turista', 'Un médico'],
-        correct: 1
+        options: ['Un estudiante', 'Un turista', 'Un ejecutivo estresado', 'Un médico'],
+        correct: 2
       },
       {
         question: '¿Qué hace el ejecutivo mientras va en el taxi?',
-        options: ['Lee el periódico', 'Duerme', 'Habla constantemente por el móvil', 'Mira por la ventana'],
-        correct: 2
+        options: ['Habla constantemente por el móvil', 'Duerme', 'Lee el periódico', 'Mira por la ventana'],
+        correct: 0
       },
       {
         question: '¿Qué música escucha Pepa mientras conduce?',
@@ -36509,23 +36509,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Adónde va el segundo pasajero?',
-        options: ['A la Diagonal', 'A Muntaner', 'A la calle Bonavista en Gracia', 'A la Boquería'],
-        correct: 2
+        options: ['A la Diagonal', 'A Muntaner', 'A la Boquería', 'A la calle Bonavista en Gracia'],
+        correct: 3
       },
       {
         question: '¿Por qué le suena la cara del segundo pasajero a Pepa?',
-        options: ['Es su vecino', 'Es uno de los hombres que quieren comprar el piso', 'Es su ex novio', 'Lo vio en la televisión'],
-        correct: 1
+        options: ['Es uno de los hombres que quieren comprar el piso', 'Es su vecino', 'Es su ex novio', 'Lo vio en la televisión'],
+        correct: 0
       },
       {
         question: '¿Qué dice el hombre por teléfono sobre la señora Montserrat?',
-        options: ['Que es muy simpática', 'Que va a preparar el siguiente numerito para la vieja', 'Que quiere invitarla a cenar', 'Que va a ayudarla'],
-        correct: 1
+        options: ['Que es muy simpática', 'Que quiere invitarla a cenar', 'Que va a preparar el siguiente numerito para la vieja', 'Que va a ayudarla'],
+        correct: 2
       },
       {
         question: '¿Qué saca el hombre de la maleta negra?',
-        options: ['Dinero y documentos', 'Un bigote, unas gafas y una pipa', 'Un arma', 'Ropa'],
-        correct: 1
+        options: ['Dinero y documentos', 'Ropa', 'Un arma', 'Un bigote, unas gafas y una pipa'],
+        correct: 3
       },
       {
         question: '¿Dónde se disfraza el hombre?',
@@ -36534,43 +36534,43 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿De quién se disfraza el hombre?',
-        options: ['De Armando', 'De Ariel', 'Del señor Ramón', 'De Raúl'],
-        correct: 2
+        options: ['De Armando', 'Del señor Ramón', 'De Ariel', 'De Raúl'],
+        correct: 1
       },
       {
         question: '¿A quién llama Pepa primero cuando descubre todo?',
-        options: ['A la policía', 'A Armando', 'A Raúl', 'A Ariel'],
-        correct: 2
+        options: ['A Raúl', 'A Armando', 'A la policía', 'A Ariel'],
+        correct: 0
       },
       {
         question: '¿Qué está haciendo Raúl cuando Pepa lo llama?',
-        options: ['Durmiendo', 'Trabajando', 'Tomando el aperitivo en el bar', 'Paseando a Aristóteles'],
-        correct: 2
+        options: ['Durmiendo', 'Trabajando', 'Paseando a Aristóteles', 'Tomando el aperitivo en el bar'],
+        correct: 3
       },
       {
         question: '¿Qué se pone Pepa en la cabeza para asustar al falso fantasma?',
-        options: ['Una peluca', 'La masa de los panellets', 'Un sombrero', 'Pintura'],
-        correct: 1
-      },
-      {
-        question: '¿Qué encuentra Pepa en el salón de la señora Montserrat?',
-        options: ['La señora llorando', 'El falso señor Ramón hablando tranquilamente con la señora', 'La casa vacía', 'Un robo'],
-        correct: 1
-      },
-      {
-        question: '¿Qué le ofrece la señora Montserrat al falso señor Ramón?',
-        options: ['Panellets', 'Café o té', 'Vino', 'Cerveza'],
-        correct: 1
-      },
-      {
-        question: '¿Qué hace el falso señor Ramón cuando Pepa grita?',
-        options: ['Se ríe', 'Huye', 'Cae al suelo', 'Llama a la policía'],
+        options: ['Una peluca', 'Un sombrero', 'La masa de los panellets', 'Pintura'],
         correct: 2
       },
       {
-        question: '¿Qué le tira la señora Montserrat a Pepa-Chucky?',
-        options: ['Almohadas', 'Platos', 'Libros', 'Zapatos'],
+        question: '¿Qué encuentra Pepa en el salón de la señora Montserrat?',
+        options: ['El falso señor Ramón hablando tranquilamente con la señora', 'La señora llorando', 'La casa vacía', 'Un robo'],
+        correct: 0
+      },
+      {
+        question: '¿Qué le ofrece la señora Montserrat al falso señor Ramón?',
+        options: ['Panellets', 'Cerveza', 'Vino', 'Café o té'],
+        correct: 3
+      },
+      {
+        question: '¿Qué hace el falso señor Ramón cuando Pepa grita?',
+        options: ['Se ríe', 'Cae al suelo', 'Huye', 'Llama a la policía'],
         correct: 1
+      },
+      {
+        question: '¿Qué le tira la señora Montserrat a Pepa-Chucky?',
+        options: ['Almohadas', 'Libros', 'Platos', 'Zapatos'],
+        correct: 2
       },
       {
         question: '¿Qué hace Aristóteles durante el caos?',
@@ -36579,13 +36579,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Quiénes más llegan a ver el espectáculo?',
-        options: ['Los vecinos del segundo', 'Los gemelos del tercero', 'La policía primero', 'Nadie más'],
-        correct: 1
+        options: ['Los gemelos del tercero', 'Los vecinos del segundo', 'La policía primero', 'Nadie más'],
+        correct: 0
       },
       {
         question: '¿Quién llama a la ambulancia y a la policía?',
-        options: ['Pepa', 'Armando', 'Alguien de la calle', 'La señora Montserrat'],
-        correct: 2
+        options: ['Pepa', 'Armando', 'La señora Montserrat', 'Alguien de la calle'],
+        correct: 3
       },
       {
         question: '¿Qué le pregunta Loli a Pepa cuando llega?',
@@ -36599,23 +36599,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué profesión piensa Raúl que es mejor que paseador de perros?',
-        options: ['Taxista', 'Cazafantasmas', 'Médico', 'Policía'],
-        correct: 1
+        options: ['Cazafantasmas', 'Taxista', 'Médico', 'Policía'],
+        correct: 0
       },
       {
         question: '¿Quién aparece en medio del lío?',
-        options: ['Federico', 'Ariel', 'El verdadero señor Ramón', 'Otro policía'],
-        correct: 1
+        options: ['Federico', 'El verdadero señor Ramón', 'Ariel', 'Otro policía'],
+        correct: 2
       },
       {
         question: '¿Qué piensa Pepa cuando ve a Ariel?',
-        options: ['Qué alegría', 'Y yo con estos pelos, no me invitará a cenar', 'Que la va a ayudar', 'Que es muy tarde'],
-        correct: 1
+        options: ['Qué alegría', 'Que es muy tarde', 'Que la va a ayudar', 'Y yo con estos pelos, no me invitará a cenar'],
+        correct: 3
       },
       {
         question: '¿Qué les propone Armando al final?',
-        options: ['Ir al cine', 'Ir a su bar a comer asado argentino', 'Ir a la playa', 'Ir a casa de la señora'],
-        correct: 1
+        options: ['Ir a su bar a comer asado argentino', 'Ir al cine', 'Ir a la playa', 'Ir a casa de la señora'],
+        correct: 0
       }
     ]
   },
@@ -36627,18 +36627,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Un ejecutivo estresado _____ el taxi en la Diagonal.',
-        options: ['cogió', 'cogía', 'ha cogido', 'coge'],
-        correct: 0
+        options: ['ha cogido', 'cogía', 'cogió', 'coge'],
+        correct: 2
       },
       {
         sentence: 'El cliente no _____ ni "hola" ni "buenos días".',
-        options: ['decía', 'dijo', 'ha dicho', 'dice'],
-        correct: 1
+        options: ['dijo', 'decía', 'ha dicho', 'dice'],
+        correct: 0
       },
       {
         sentence: 'Pepa _____ lentamente mientras escuchaba música.',
-        options: ['condujo', 'conducía', 'ha conducido', 'conduce'],
-        correct: 1
+        options: ['condujo', 'conduce', 'ha conducido', 'conducía'],
+        correct: 3
       },
       {
         sentence: 'El cliente _____ sin decir nada cuando llegaron.',
@@ -36647,38 +36647,38 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'A pocos metros, un hombre _____ el taxi.',
-        options: ['paraba', 'paró', 'ha parado', 'para'],
-        correct: 1
+        options: ['paraba', 'para', 'ha parado', 'paró'],
+        correct: 3
       },
       {
         sentence: 'La cara del pasajero le _____ a Pepa.',
-        options: ['sonaba', 'sonó', 'ha sonado', 'suena'],
-        correct: 0
+        options: ['sonó', 'sonaba', 'ha sonado', 'suena'],
+        correct: 1
       },
       {
         sentence: 'El hombre _____ una llamada y Pepa escuchaba con atención.',
-        options: ['hacía', 'hizo', 'ha hecho', 'hace'],
-        correct: 1
+        options: ['hacía', 'ha hecho', 'hizo', 'hace'],
+        correct: 2
       },
       {
         sentence: 'Pepa _____ al pasajero y aparcó en un lugar prohibido.',
-        options: ['dejaba', 'dejó', 'ha dejado', 'deja'],
-        correct: 1
-      },
-      {
-        sentence: 'Pepa _____ ruidos en el cuarto de los contadores.',
-        options: ['oía', 'oyó', 'ha oído', 'oye'],
+        options: ['dejó', 'dejaba', 'ha dejado', 'deja'],
         correct: 0
       },
       {
+        sentence: 'Pepa _____ ruidos en el cuarto de los contadores.',
+        options: ['ha oído', 'oyó', 'oía', 'oye'],
+        correct: 2
+      },
+      {
         sentence: 'Pepa _____ detrás de los cubos de basura.',
-        options: ['se escondía', 'se escondió', 'se ha escondido', 'se esconde'],
-        correct: 1
+        options: ['se escondió', 'se escondía', 'se ha escondido', 'se esconde'],
+        correct: 0
       },
       {
         sentence: 'De la puerta _____ el doble del señor Ramón.',
-        options: ['salía', 'salió', 'ha salido', 'sale'],
-        correct: 1
+        options: ['salía', 'sale', 'ha salido', 'salió'],
+        correct: 3
       },
       {
         sentence: 'Pepa _____ su móvil y llamó a sus amigos.',
@@ -36687,8 +36687,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Raúl _____ en el bar con unos colegas cuando Pepa lo llamó.',
-        options: ['estuvo', 'estaba', 'ha estado', 'está'],
-        correct: 1
+        options: ['estaba', 'estuvo', 'ha estado', 'está'],
+        correct: 0
       },
       {
         sentence: 'A Pepa se le _____ un plan para asustar al falso fantasma.',
@@ -36697,18 +36697,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa _____ masa de panellets por la cabeza.',
-        options: ['se ponía', 'se puso', 'se ha puesto', 'se pone'],
-        correct: 1
+        options: ['se ponía', 'se ha puesto', 'se puso', 'se pone'],
+        correct: 2
       },
       {
         sentence: 'Lo que le _____ en el salón la dejó helada.',
-        options: ['esperaba', 'esperó', 'ha esperado', 'espera'],
-        correct: 0
+        options: ['espera', 'esperó', 'ha esperado', 'esperaba'],
+        correct: 3
       },
       {
         sentence: 'El falso señor Ramón y la señora _____ tranquilamente.',
-        options: ['hablaban', 'hablaron', 'han hablado', 'hablan'],
-        correct: 0
+        options: ['hablan', 'hablaron', 'han hablado', 'hablaban'],
+        correct: 3
       },
       {
         sentence: 'Pepa _____ en el salón y pegó un grito aterrador.',
@@ -36717,38 +36717,38 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'El falso señor Ramón _____ al suelo cuando oyó el grito.',
-        options: ['caía', 'cayó', 'ha caído', 'cae'],
-        correct: 1
+        options: ['caía', 'ha caído', 'cayó', 'cae'],
+        correct: 2
       },
       {
         sentence: 'Aristóteles _____ ferozmente la pierna de Raúl.',
-        options: ['mordía', 'mordió', 'ha mordido', 'muerde'],
-        correct: 1
+        options: ['mordió', 'mordía', 'ha mordido', 'muerde'],
+        correct: 0
       },
       {
         sentence: 'Los gemelos _____ al ver el espectáculo.',
-        options: ['bajaron', 'bajaban', 'han bajado', 'bajan'],
-        correct: 0
+        options: ['bajaban', 'bajaron', 'han bajado', 'bajan'],
+        correct: 1
       },
       {
         sentence: 'Ya se _____ cerca la sirena de la ambulancia.',
-        options: ['oía', 'oyó', 'ha oído', 'oye'],
-        correct: 0
+        options: ['oye', 'oyó', 'ha oído', 'oía'],
+        correct: 3
       },
       {
         sentence: 'El médico le _____ a la señora que su "marido" se había desmayado.',
-        options: ['decía', 'dijo', 'ha dicho', 'dice'],
-        correct: 1
+        options: ['decía', 'ha dicho', 'dijo', 'dice'],
+        correct: 2
       },
       {
         sentence: 'Ariel _____ en medio del lío y Pepa se tocó la cabeza.',
-        options: ['aparecía', 'apareció', 'ha aparecido', 'aparece'],
-        correct: 1
+        options: ['apareció', 'aparecía', 'ha aparecido', 'aparece'],
+        correct: 0
       },
       {
         sentence: 'Armando les _____ que fueran a su bar a comer asado.',
-        options: ['proponía', 'propuso', 'ha propuesto', 'propone'],
-        correct: 1
+        options: ['proponía', 'ha propuesto', 'propuso', 'propone'],
+        correct: 2
       }
     ]
   },
@@ -36795,8 +36795,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿A qué hora sale Pepa de casa?',
-        options: ['A las diez', 'A las once', 'A las doce', 'A las nueve'],
-        correct: 1
+        options: ['A las once', 'A las diez', 'A las doce', 'A las nueve'],
+        correct: 0
       },
       {
         question: '¿Cómo se siente Pepa por la mañana?',
@@ -36810,33 +36810,33 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿De dónde llega la señora Montserrat?',
-        options: ['Del trabajo', 'Del médico', 'Del mercado', 'De casa de su familia'],
-        correct: 2
+        options: ['Del trabajo', 'Del médico', 'De casa de su familia', 'Del mercado'],
+        correct: 3
       },
       {
         question: '¿Qué le da la señora Montserrat a Pepa?',
-        options: ['Una carta', 'Un CD', 'Una llave', 'Un mapa'],
-        correct: 1
+        options: ['Una carta', 'Un mapa', 'Una llave', 'Un CD'],
+        correct: 3
       },
       {
         question: '¿Qué dice en la caja del CD?',
-        options: ['Calle Bonavista, 5', 'Señora Montserrat', 'Planos secretos', 'Ascensor'],
-        correct: 0
+        options: ['Planos secretos', 'Señora Montserrat', 'Calle Bonavista, 5', 'Ascensor'],
+        correct: 2
       },
       {
         question: '¿Qué hay en el CD?',
-        options: ['Fotos antiguas', 'Música', 'Unos planos de arquitecto', 'Documentos de familia'],
-        correct: 2
+        options: ['Fotos antiguas', 'Unos planos de arquitecto', 'Música', 'Documentos de familia'],
+        correct: 1
       },
       {
         question: '¿De qué color está señalada una zona en el plano?',
-        options: ['Azul', 'Verde', 'Rojo', 'Amarillo'],
-        correct: 2
+        options: ['Rojo', 'Verde', 'Azul', 'Amarillo'],
+        correct: 0
       },
       {
         question: '¿Qué zona está marcada en rojo en el plano?',
-        options: ['La cocina', 'El portal', 'El hueco del ascensor', 'El cuarto de baño'],
-        correct: 2
+        options: ['El hueco del ascensor', 'El portal', 'La cocina', 'El cuarto de baño'],
+        correct: 0
       },
       {
         question: '¿A quién piensa llamar Pepa después de ver el CD?',
@@ -36845,23 +36845,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Por qué decide Pepa ir a trabajar?',
-        options: ['Porque está aburrida', 'Porque un taxista que se queda en casa no gana un duro', 'Porque tiene una cita', 'Porque se lo pidió Raúl'],
-        correct: 1
+        options: ['Porque está aburrida', 'Porque se lo pidió Raúl', 'Porque tiene una cita', 'Porque un taxista que se queda en casa no gana un duro'],
+        correct: 3
       },
       {
         question: '¿Qué está haciendo Raúl cuando Pepa pasa?',
-        options: ['Trabajando', 'Comiendo', 'Durmiendo la siesta', 'Hablando por teléfono'],
-        correct: 2
+        options: ['Trabajando', 'Durmiendo la siesta', 'Comiendo', 'Hablando por teléfono'],
+        correct: 1
       },
       {
         question: '¿Quién es su primer cliente del día?',
-        options: ['Un ejecutivo', 'Un estudiante', 'Un norteamericano', 'Un turista francés'],
-        correct: 2
+        options: ['Un ejecutivo', 'Un estudiante', 'Un turista francés', 'Un norteamericano'],
+        correct: 3
       },
       {
         question: '¿A qué restaurante lleva Pepa al norteamericano?',
-        options: ['El suquet de l\'Almirall', 'Casa Montserrat', 'Bar de Armando', 'Restaurante Picornell'],
-        correct: 0
+        options: ['Casa Montserrat', 'El suquet de l\'Almirall', 'Bar de Armando', 'Restaurante Picornell'],
+        correct: 1
       },
       {
         question: '¿Cuántas horas trabaja Pepa ese día?',
@@ -36879,28 +36879,28 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Pepa _____ de casa a las once.',
-        options: ['salió', 'salía', 'ha salido', 'sale'],
-        correct: 0
+        options: ['ha salido', 'salía', 'salió', 'sale'],
+        correct: 2
       },
       {
         sentence: 'Ella _____ mucho pero todavía estaba cansada.',
-        options: ['durmió', 'había dormido', 'duerme', 'dormía'],
-        correct: 1
+        options: ['durmió', 'dormía', 'duerme', 'había dormido'],
+        correct: 3
       },
       {
         sentence: 'En la entrada _____ a la señora Montserrat.',
-        options: ['encontró', 'encontraba', 'ha encontrado', 'encuentra'],
-        correct: 0
-      },
-      {
-        sentence: 'La señora _____ del mercado con su carrito.',
-        options: ['llegó', 'llegaba', 'ha llegado', 'llega'],
+        options: ['encontraba', 'encontró', 'ha encontrado', 'encuentra'],
         correct: 1
       },
       {
-        sentence: 'Montserrat le _____ a Pepa un CD.',
-        options: ['dio', 'daba', 'ha dado', 'da'],
+        sentence: 'La señora _____ del mercado con su carrito.',
+        options: ['llegaba', 'llegó', 'ha llegado', 'llega'],
         correct: 0
+      },
+      {
+        sentence: 'Montserrat le _____ a Pepa un CD.',
+        options: ['da', 'daba', 'ha dado', 'dio'],
+        correct: 3
       },
       {
         sentence: 'Pepa _____ muchas ganas de ver qué había en el CD.',
@@ -36909,8 +36909,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Ella _____ las escaleras de dos en dos.',
-        options: ['subió', 'subía', 'ha subido', 'sube'],
-        correct: 0
+        options: ['ha subido', 'subía', 'subió', 'sube'],
+        correct: 2
       },
       {
         sentence: 'Pepa _____ el contenido del disco con atención.',
@@ -36919,18 +36919,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Al principio no _____ nada.',
-        options: ['entendió', 'entendía', 'ha entendido', 'entiende'],
-        correct: 0
+        options: ['entiende', 'entendía', 'ha entendido', 'entendió'],
+        correct: 3
       },
       {
         sentence: 'Pepa _____ en voz alta mientras miraba el plano.',
-        options: ['pensó', 'pensaba', 'ha pensado', 'piensa'],
-        correct: 1
+        options: ['pensaba', 'pensó', 'ha pensado', 'piensa'],
+        correct: 0
       },
       {
         sentence: 'Finalmente _____ ir a trabajar un rato.',
-        options: ['decidió', 'decidía', 'ha decidido', 'decide'],
-        correct: 0
+        options: ['ha decidido', 'decidía', 'decidió', 'decide'],
+        correct: 2
       },
       {
         sentence: 'Raúl _____ la siesta en su caseta.',
@@ -36939,8 +36939,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa _____ al norteamericano al puerto.',
-        options: ['llevó', 'llevaba', 'ha llevado', 'lleva'],
-        correct: 0
+        options: ['llevaba', 'llevó', 'ha llevado', 'lleva'],
+        correct: 1
       },
       {
         sentence: 'El americano le _____ una propina fantástica.',
@@ -36949,8 +36949,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa _____ seis horas y volvió a casa.',
-        options: ['trabajó', 'trabajaba', 'ha trabajado', 'trabaja'],
-        correct: 0
+        options: ['trabaja', 'trabajaba', 'ha trabajado', 'trabajó'],
+        correct: 3
       }
     ]
   },
@@ -36988,43 +36988,43 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué oye Pepa al entrar en el portal?',
-        options: ['Música alta', 'Un ruido muy fuerte', 'Voces de niños', 'El ascensor'],
-        correct: 1
+        options: ['Un ruido muy fuerte', 'Música alta', 'Voces de niños', 'El ascensor'],
+        correct: 0
       },
       {
         question: '¿A quién encuentra Pepa que sale en ese momento?',
-        options: ['A la señora Montserrat', 'A Laura, la madre de los gemelos', 'A Raúl', 'A Ariel'],
-        correct: 1
+        options: ['A la señora Montserrat', 'A Raúl', 'A Laura, la madre de los gemelos', 'A Ariel'],
+        correct: 2
       },
       {
         question: '¿Qué cree Laura que están haciendo?',
-        options: ['Limpiando la escalera', 'Pintando', 'Arreglando el ascensor', 'Reparando el portal'],
-        correct: 2
+        options: ['Limpiando la escalera', 'Arreglando el ascensor', 'Pintando', 'Reparando el portal'],
+        correct: 1
       },
       {
         question: '¿Qué decide hacer Pepa?',
-        options: ['Llamar a la policía', 'Irse a dormir', 'Esperar y observar', 'Hablar con los trabajadores'],
-        correct: 2
+        options: ['Llamar a la policía', 'Irse a dormir', 'Hablar con los trabajadores', 'Esperar y observar'],
+        correct: 3
       },
       {
         question: '¿Dónde se sienta Pepa para observar?',
-        options: ['En su casa', 'En la escalera, en una parte con poca luz', 'En el bar de Armando', 'En el taxi'],
-        correct: 1
+        options: ['En la escalera, en una parte con poca luz', 'En su casa', 'En el bar de Armando', 'En el taxi'],
+        correct: 0
       },
       {
         question: '¿A quién reconoce Pepa después de cinco minutos?',
-        options: ['A Ariel', 'A uno de los mafiosos de la calle Muntaner', 'A Raúl', 'A la señora Montserrat'],
-        correct: 1
-      },
-      {
-        question: '¿Qué ropa lleva el hombre que sube?',
-        options: ['Un mono de trabajo', 'Ropa de deporte', 'Un traje gris', 'Un uniforme de policía'],
+        options: ['A Ariel', 'A Raúl', 'A uno de los mafiosos de la calle Muntaner', 'A la señora Montserrat'],
         correct: 2
       },
       {
-        question: '¿Cómo se llama el hombre del traje gris?',
-        options: ['Manolo', 'Martínez', 'Ariel', 'Armando'],
+        question: '¿Qué ropa lleva el hombre que sube?',
+        options: ['Un mono de trabajo', 'Un traje gris', 'Ropa de deporte', 'Un uniforme de policía'],
         correct: 1
+      },
+      {
+        question: '¿Cómo se llama el hombre del traje gris?',
+        options: ['Manolo', 'Armando', 'Ariel', 'Martínez'],
+        correct: 3
       },
       {
         question: '¿Qué buscan los hombres debajo del ascensor?',
@@ -37033,8 +37033,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué dice la carta sobre la caja?',
-        options: ['Que está en el sótano', 'Que está debajo del ascensor', 'Que está en casa de Montserrat', 'Que está en el banco'],
-        correct: 1
+        options: ['Que está debajo del ascensor', 'Que está en el sótano', 'Que está en casa de Montserrat', 'Que está en el banco'],
+        correct: 0
       },
       {
         question: '¿Adónde sale corriendo Pepa?',
@@ -37043,23 +37043,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Por qué necesita Pepa su coche rápido?',
-        options: ['Tiene una cita', 'Los hombres viajan en taxi y puede encontrarlos', 'Quiere ir de compras', 'Tiene que trabajar'],
-        correct: 1
+        options: ['Tiene una cita', 'Tiene que trabajar', 'Quiere ir de compras', 'Los hombres viajan en taxi y puede encontrarlos'],
+        correct: 3
       },
       {
         question: '¿Quién coge el taxi de Pepa?',
-        options: ['Manolo', 'Laura', 'El hombre del traje gris (Martínez)', 'Ariel'],
-        correct: 2
+        options: ['Manolo', 'Laura', 'Ariel', 'El hombre del traje gris (Martínez)'],
+        correct: 3
       },
       {
         question: '¿A quién llama Martínez por teléfono en el taxi?',
-        options: ['A Manolo', 'A Ariel', 'A la policía', 'A su jefe'],
-        correct: 1
+        options: ['A Ariel', 'A Manolo', 'A la policía', 'A su jefe'],
+        correct: 0
       },
       {
         question: '¿De quién es la carta que menciona Martínez?',
-        options: ['De la señora Montserrat', 'De la bisabuela republicana de Ariel', 'De un arquitecto', 'De un abogado'],
-        correct: 1
+        options: ['De la señora Montserrat', 'De un arquitecto', 'De la bisabuela republicana de Ariel', 'De un abogado'],
+        correct: 2
       }
     ]
   },
@@ -37082,23 +37082,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa _____ que algo le olía mal.',
-        options: ['pensó', 'pensaba', 'ha pensado', 'piensa'],
-        correct: 0
+        options: ['piensa', 'pensaba', 'ha pensado', 'pensó'],
+        correct: 3
       },
       {
         sentence: 'Ella _____ esperar un poco y observar.',
-        options: ['decidió', 'decidía', 'ha decidido', 'decide'],
-        correct: 0
+        options: ['ha decidido', 'decidía', 'decidió', 'decide'],
+        correct: 2
       },
       {
         sentence: 'Pepa se _____ en la escalera, en una parte con poca luz.',
-        options: ['sentó', 'sentaba', 'ha sentado', 'sienta'],
-        correct: 0
+        options: ['sentaba', 'sentó', 'ha sentado', 'sienta'],
+        correct: 1
       },
       {
         sentence: 'A los cinco minutos, _____ un hombre con un traje gris.',
-        options: ['llegó', 'llegaba', 'ha llegado', 'llega'],
-        correct: 0
+        options: ['llega', 'llegaba', 'ha llegado', 'llegó'],
+        correct: 3
       },
       {
         sentence: 'Pepa lo _____ enseguida.',
@@ -37107,8 +37107,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'El hombre _____ la puerta del ascensor.',
-        options: ['abrió', 'abría', 'ha abierto', 'abre'],
-        correct: 0
+        options: ['ha abierto', 'abría', 'abrió', 'abre'],
+        correct: 2
       },
       {
         sentence: 'Otro hombre _____ vestido de obrero de la construcción.',
@@ -37117,8 +37117,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa _____ entender lo que decían.',
-        options: ['intentó', 'intentaba', 'ha intentado', 'intenta'],
-        correct: 1
+        options: ['intentó', 'ha intentado', 'intentaba', 'intenta'],
+        correct: 2
       },
       {
         sentence: 'Ella _____ de su rincón en la escalera.',
@@ -37127,23 +37127,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa _____ corriendo hacia el párking.',
-        options: ['salió', 'salía', 'ha salido', 'sale'],
-        correct: 0
+        options: ['sale', 'salía', 'ha salido', 'salió'],
+        correct: 3
       },
       {
         sentence: 'El hombre _____ el móvil inmediatamente.',
-        options: ['sacó', 'sacaba', 'ha sacado', 'saca'],
-        correct: 0
+        options: ['sacaba', 'sacó', 'ha sacado', 'saca'],
+        correct: 1
       },
       {
         sentence: 'Pepa _____ atenta el resto de la conversación.',
-        options: ['escuchó', 'escuchaba', 'ha escuchado', 'escucha'],
-        correct: 0
+        options: ['ha escuchado', 'escuchaba', 'escuchó', 'escucha'],
+        correct: 2
       },
       {
         sentence: 'Martínez _____ que las joyas tenían que estar debajo del ascensor.',
-        options: ['dijo', 'decía', 'ha dicho', 'dice'],
-        correct: 0
+        options: ['dice', 'decía', 'ha dicho', 'dijo'],
+        correct: 3
       }
     ]
   },
@@ -37181,13 +37181,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Adónde va Pepa para pedir ayuda?',
-        options: ['A casa de Raúl', 'Al bar de Armando', 'A casa de la señora Montserrat', 'A la policía'],
-        correct: 1
+        options: ['Al bar de Armando', 'A casa de Raúl', 'A casa de la señora Montserrat', 'A la policía'],
+        correct: 0
       },
       {
         question: '¿Qué le pide Pepa a Armando primero?',
-        options: ['Un café', 'Una caña', 'Agua', 'Un vino'],
-        correct: 1
+        options: ['Un café', 'Un vino', 'Agua', 'Una caña'],
+        correct: 3
       },
       {
         question: '¿A quién imita Armando cuando dice "Elemental, mi querida Pepa"?',
@@ -37196,8 +37196,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Cómo se llama la familia de la señora Montserrat?',
-        options: ['Los Martínez', 'Los Picornell', 'Los Ariel', 'Los Barcelona'],
-        correct: 1
+        options: ['Los Martínez', 'Los Ariel', 'Los Picornell', 'Los Barcelona'],
+        correct: 2
       },
       {
         question: '¿Qué eran los Picornell?',
@@ -37206,13 +37206,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué ideología política tenían los Picornell?',
-        options: ['Eran monárquicos', 'Eran franquistas', 'Eran republicanos', 'Eran anarquistas'],
-        correct: 2
+        options: ['Eran republicanos', 'Eran franquistas', 'Eran monárquicos', 'Eran anarquistas'],
+        correct: 0
       },
       {
         question: '¿Adónde huyeron los Picornell?',
-        options: ['A Inglaterra', 'A Italia', 'A Francia', 'A Portugal'],
-        correct: 2
+        options: ['A Inglaterra', 'A Italia', 'A Portugal', 'A Francia'],
+        correct: 3
       },
       {
         question: '¿Dónde están las joyas de la familia?',
@@ -37221,13 +37221,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿A qué hora le pide Pepa a Armando que vaya a su casa?',
-        options: ['A las nueve', 'A las diez', 'A las once', 'A las doce'],
-        correct: 2
+        options: ['A las nueve', 'A las diez', 'A las doce', 'A las once'],
+        correct: 3
       },
       {
         question: '¿A quién más va a llamar Pepa?',
-        options: ['A Ariel', 'A la policía', 'A Raúl', 'A la señora Montserrat'],
-        correct: 2
+        options: ['A Ariel', 'A Raúl', 'A la policía', 'A la señora Montserrat'],
+        correct: 1
       }
     ]
   },
@@ -37240,18 +37240,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Pepa le _____ todo a Armando.',
-        options: ['contó', 'contaba', 'ha contado', 'cuenta'],
-        correct: 0
+        options: ['cuenta', 'contaba', 'ha contado', 'contó'],
+        correct: 3
       },
       {
         sentence: 'La señora Montserrat _____ el CD con los planos.',
-        options: ['encontró', 'encontraba', 'ha encontrado', 'encuentra'],
-        correct: 0
+        options: ['ha encontrado', 'encontraba', 'encontró', 'encuentra'],
+        correct: 2
       },
       {
         sentence: 'Pepa _____ la conversación en el taxi.',
-        options: ['oyó', 'oía', 'ha oído', 'oye'],
-        correct: 0
+        options: ['oía', 'oyó', 'ha oído', 'oye'],
+        correct: 1
       },
       {
         sentence: 'Armando _____ a Sherlock Holmes.',
@@ -37260,23 +37260,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'La señora Montserrat le _____ muchas veces la historia de su familia a Armando.',
-        options: ['contó', 'contaba', 'había contado', 'cuenta'],
-        correct: 2
-      },
-      {
-        sentence: 'Los Picornell _____ una familia de industriales de Barcelona.',
-        options: ['fueron', 'eran', 'han sido', 'son'],
+        options: ['contó', 'había contado', 'contaba', 'cuenta'],
         correct: 1
       },
       {
-        sentence: 'Ellos _____ antes de terminar la Guerra Civil.',
-        options: ['huyeron', 'huían', 'han huido', 'huyen'],
+        sentence: 'Los Picornell _____ una familia de industriales de Barcelona.',
+        options: ['eran', 'fueron', 'han sido', 'son'],
         correct: 0
       },
       {
+        sentence: 'Ellos _____ antes de terminar la Guerra Civil.',
+        options: ['huyen', 'huían', 'han huido', 'huyeron'],
+        correct: 3
+      },
+      {
         sentence: 'Los Picornell _____ la frontera.',
-        options: ['pasaron', 'pasaban', 'han pasado', 'pasan'],
-        correct: 0
+        options: ['han pasado', 'pasaban', 'pasaron', 'pasan'],
+        correct: 2
       },
       {
         sentence: 'Ellos se _____ en Francia.',
@@ -37285,8 +37285,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa le _____ a Armando si podía venir a su casa esa noche.',
-        options: ['preguntó', 'preguntaba', 'ha preguntado', 'pregunta'],
-        correct: 0
+        options: ['ha preguntado', 'preguntaba', 'preguntó', 'pregunta'],
+        correct: 2
       }
     ]
   },
@@ -37319,18 +37319,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué piensan los amigos cuando Pepa los invita?',
-        options: ['Que van a trabajar', 'Que es su cumpleaños', 'Que van a estudiar', 'Que van a ver una película'],
-        correct: 1
-      },
-      {
-        question: '¿Qué ha comido Raúl desde la mañana?',
-        options: ['Nada', 'Un bocadillo de jamón', 'Un bocadillo de atún', 'Una paella'],
+        options: ['Que van a trabajar', 'Que van a estudiar', 'Que es su cumpleaños', 'Que van a ver una película'],
         correct: 2
       },
       {
+        question: '¿Qué ha comido Raúl desde la mañana?',
+        options: ['Nada', 'Un bocadillo de jamón', 'Una paella', 'Un bocadillo de atún'],
+        correct: 3
+      },
+      {
         question: '¿Qué saca Pepa del cuartito de los contadores?',
-        options: ['Una caja', 'Un casco, un mono de trabajo azul y un pico', 'Herramientas eléctricas', 'Una linterna'],
-        correct: 1
+        options: ['Un casco, un mono de trabajo azul y un pico', 'Una caja', 'Herramientas eléctricas', 'Una linterna'],
+        correct: 0
       },
       {
         question: '¿Cómo reacciona Raúl?',
@@ -37339,23 +37339,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué dice Raúl que no es lo suyo?',
-        options: ['La cocina', 'El trabajo manual', 'Los deportes', 'Los idiomas'],
-        correct: 1
+        options: ['La cocina', 'Los idiomas', 'Los deportes', 'El trabajo manual'],
+        correct: 3
       },
       {
         question: '¿Qué estudia Raúl?',
-        options: ['Ingeniería', 'Medicina', 'Filosofía', 'Arquitectura'],
-        correct: 2
+        options: ['Filosofía', 'Medicina', 'Ingeniería', 'Arquitectura'],
+        correct: 0
       },
       {
         question: '¿Por qué acepta Raúl finalmente ponerse debajo del ascensor?',
-        options: ['Le pagan', 'Es el más fuerte de los tres', 'Tiene curiosidad', 'Le gusta la aventura'],
-        correct: 1
+        options: ['Le pagan', 'Tiene curiosidad', 'Es el más fuerte de los tres', 'Le gusta la aventura'],
+        correct: 2
       },
       {
         question: '¿De qué tiene miedo Raúl?',
-        options: ['De la policía', 'De Ariel', 'De que el ascensor se caiga y de las ratas', 'De la oscuridad'],
-        correct: 2
+        options: ['De la policía', 'De que el ascensor se caiga y de las ratas', 'De Ariel', 'De la oscuridad'],
+        correct: 1
       },
       {
         question: '¿Qué encuentran debajo del ascensor?',
@@ -37364,28 +37364,28 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Quién entra mientras están trabajando?',
-        options: ['La señora Montserrat', 'La policía', 'Ariel', 'Martínez'],
-        correct: 2
+        options: ['Ariel', 'La policía', 'La señora Montserrat', 'Martínez'],
+        correct: 0
       },
       {
         question: '¿A quién llama Armando?',
-        options: ['A un abogado', 'A la señora Montserrat', 'A los Mossos (la policía)', 'A un periodista'],
-        correct: 2
+        options: ['A un abogado', 'A la señora Montserrat', 'A un periodista', 'A los Mossos (la policía)'],
+        correct: 3
       },
       {
         question: '¿Qué tipo de caja tiene Raúl en las manos?',
-        options: ['Una caja de madera', 'Una vieja caja metálica, como las de los bancos', 'Una caja de plástico', 'Una caja de cartón'],
-        correct: 1
-      },
-      {
-        question: '¿Adónde invita Pepa a sus amigos a cenar?',
-        options: ['Al bar de Armando', 'A su casa', 'A El suquet del Almirall en la Barceloneta', 'A un restaurante chino'],
+        options: ['Una caja de madera', 'Una caja de plástico', 'Una vieja caja metálica, como las de los bancos', 'Una caja de cartón'],
         correct: 2
       },
       {
+        question: '¿Adónde invita Pepa a sus amigos a cenar?',
+        options: ['A El suquet del Almirall en la Barceloneta', 'A su casa', 'Al bar de Armando', 'A un restaurante chino'],
+        correct: 0
+      },
+      {
         question: '¿Qué van a comer?',
-        options: ['Paella', 'Un arroz', 'Tapas', 'Pescado frito'],
-        correct: 1
+        options: ['Paella', 'Pescado frito', 'Tapas', 'Un arroz'],
+        correct: 3
       },
       {
         question: '¿Qué piensa Pepa mirando a Ariel por última vez?',
@@ -37403,13 +37403,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Raúl _____ con un bocadillo de atún desde la mañana.',
-        options: ['estuvo', 'estaba', 'ha estado', 'está'],
-        correct: 1
+        options: ['estuvo', 'está', 'ha estado', 'estaba'],
+        correct: 3
       },
       {
         sentence: 'Pepa _____ del cuartito un casco, un mono y un pico.',
-        options: ['sacó', 'sacaba', 'ha sacado', 'saca'],
-        correct: 0
+        options: ['ha sacado', 'sacaba', 'sacó', 'saca'],
+        correct: 2
       },
       {
         sentence: 'Raúl la _____ horrorizado.',
@@ -37418,8 +37418,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa le _____ irónicamente.',
-        options: ['dijo', 'decía', 'ha dicho', 'dice'],
-        correct: 0
+        options: ['decía', 'dijo', 'ha dicho', 'dice'],
+        correct: 1
       },
       {
         sentence: 'Raúl finalmente _____ ponerse debajo del ascensor.',
@@ -37428,53 +37428,53 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Pepa y Armando _____ con linternas.',
-        options: ['iluminaron', 'iluminaban', 'han iluminado', 'iluminan'],
-        correct: 1
+        options: ['iluminaron', 'iluminan', 'han iluminado', 'iluminaban'],
+        correct: 3
       },
       {
         sentence: 'Al cabo de unos minutos, Raúl _____ que había una caja.',
-        options: ['dijo', 'decía', 'ha dicho', 'dice'],
-        correct: 0
-      },
-      {
-        sentence: 'Armando _____ que alguien había entrado.',
-        options: ['dijo', 'decía', 'ha dicho', 'dice'],
-        correct: 0
-      },
-      {
-        sentence: 'Pepa lo _____ enseguida — era Ariel.',
-        options: ['reconoció', 'reconocía', 'ha reconocido', 'reconoce'],
-        correct: 0
-      },
-      {
-        sentence: 'Ariel _____ la luz de la escalera.',
-        options: ['encendió', 'encendía', 'ha encendido', 'enciende'],
-        correct: 0
-      },
-      {
-        sentence: 'Ariel _____ con preocupación a los tres amigos.',
-        options: ['miró', 'miraba', 'ha mirado', 'mira'],
-        correct: 0
-      },
-      {
-        sentence: 'Armando _____ el móvil y estaba llamando a los Mossos.',
-        options: ['sacó', 'sacaba', 'había sacado', 'saca'],
+        options: ['ha dicho', 'decía', 'dijo', 'dice'],
         correct: 2
       },
       {
-        sentence: 'Raúl _____ salir sin éxito del agujero.',
-        options: ['intentó', 'intentaba', 'ha intentado', 'intenta'],
+        sentence: 'Armando _____ que alguien había entrado.',
+        options: ['decía', 'dijo', 'ha dicho', 'dice'],
         correct: 1
+      },
+      {
+        sentence: 'Pepa lo _____ enseguida — era Ariel.',
+        options: ['ha reconocido', 'reconocía', 'reconoció', 'reconoce'],
+        correct: 2
+      },
+      {
+        sentence: 'Ariel _____ la luz de la escalera.',
+        options: ['enciende', 'encendía', 'ha encendido', 'encendió'],
+        correct: 3
+      },
+      {
+        sentence: 'Ariel _____ con preocupación a los tres amigos.',
+        options: ['miraba', 'miró', 'ha mirado', 'mira'],
+        correct: 1
+      },
+      {
+        sentence: 'Armando _____ el móvil y estaba llamando a los Mossos.',
+        options: ['había sacado', 'sacaba', 'sacó', 'saca'],
+        correct: 0
+      },
+      {
+        sentence: 'Raúl _____ salir sin éxito del agujero.',
+        options: ['intentaba', 'intentó', 'ha intentado', 'intenta'],
+        correct: 0
       },
       {
         sentence: 'Raúl _____ en las manos una vieja caja metálica.',
-        options: ['tuvo', 'tenía', 'ha tenido', 'tiene'],
-        correct: 1
+        options: ['tuvo', 'tiene', 'ha tenido', 'tenía'],
+        correct: 3
       },
       {
         sentence: 'Pepa _____ mirando por última vez a Ariel.',
-        options: ['pensó', 'pensaba', 'ha pensado', 'piensa'],
-        correct: 0
+        options: ['ha pensado', 'pensaba', 'pensó', 'piensa'],
+        correct: 2
       }
     ]
   },
@@ -37821,13 +37821,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Cambia el pensamiento',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el pensamiento', options: ['мысль', 'чувство', 'эмоция', 'разум'], correct: 0 },
-      { spanish: 'anclar', options: ['плыть', 'бросать якорь', 'тонуть', 'плавать'], correct: 1 },
+      { spanish: 'el pensamiento', options: ['эмоция', 'чувство', 'мысль', 'разум'], correct: 2 },
+      { spanish: 'anclar', options: ['плыть', 'плавать', 'тонуть', 'бросать якорь'], correct: 3 },
       { spanish: 'la culpa', options: ['вина', 'стыд', 'гордость', 'радость'], correct: 0 },
       { spanish: 'la vergüenza', options: ['вина', 'стыд', 'гордость', 'страх'], correct: 1 },
-      { spanish: 'luchar', options: ['любить', 'бороться', 'помогать', 'думать'], correct: 1 },
+      { spanish: 'luchar', options: ['любить', 'помогать', 'бороться', 'думать'], correct: 2 },
       { spanish: 'resistir', options: ['сопротивляться', 'помогать', 'любить', 'думать'], correct: 0 },
-      { spanish: 'gestionar', options: ['терять', 'управлять', 'искать', 'видеть'], correct: 1 }
+      { spanish: 'gestionar', options: ['терять', 'видеть', 'искать', 'управлять'], correct: 3 }
     ]
   },
 
@@ -37839,13 +37839,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué es la culpa según el texto?',
-        options: ['Una forma de autoagresión', 'Una forma de amor', 'Una forma de pensar', 'Una forma de vivir'],
-        correct: 0
+        options: ['Una forma de pensar', 'Una forma de amor', 'Una forma de autoagresión', 'Una forma de vivir'],
+        correct: 2
       },
       {
         question: '¿Qué es la vergüenza?',
-        options: ['Una forma de autoagresión', 'Una forma de auto anulación', 'Una forma de pensar', 'Una forma de sentir'],
-        correct: 1
+        options: ['Una forma de auto anulación', 'Una forma de autoagresión', 'Una forma de pensar', 'Una forma de sentir'],
+        correct: 0
       },
       {
         question: '¿Qué debes hacer cuando ves un pensamiento negativo?',
@@ -37854,13 +37854,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué dice el texto sobre lo que se resiste?',
-        options: ['Se olvida', 'Persiste', 'Desaparece', 'Se transforma'],
-        correct: 1
+        options: ['Se olvida', 'Se transforma', 'Desaparece', 'Persiste'],
+        correct: 3
       },
       {
         question: '¿De qué no somos conscientes?',
-        options: ['Del poder del cuerpo', 'Del poder del pensamiento', 'Del poder del amor', 'Del poder de la música'],
-        correct: 1
+        options: ['Del poder del cuerpo', 'Del poder del amor', 'Del poder del pensamiento', 'Del poder de la música'],
+        correct: 2
       },
       {
         question: '¿Cómo puedes sentirte mejor?',
@@ -37869,8 +37869,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué es difícil gestionar directamente?',
-        options: ['El pensamiento', 'El sentimiento', 'El cuerpo', 'La mente'],
-        correct: 1
+        options: ['El sentimiento', 'El pensamiento', 'El cuerpo', 'La mente'],
+        correct: 0
       }
     ]
   },
@@ -37883,13 +37883,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: 'La culpa ___ (ser) una forma de autoagresión.',
-        options: ['es', 'son', 'está', 'están'],
-        correct: 0
+        options: ['están', 'son', 'está', 'es'],
+        correct: 3
       },
       {
         question: 'Cuando tú ___ (ver) un pensamiento negativo, cambia tu actitud.',
-        options: ['ves', 'has visto', 'viste', 'verás'],
-        correct: 0
+        options: ['has visto', 'ves', 'viste', 'verás'],
+        correct: 1
       },
       {
         question: 'Yo no ___ (luchar) contra los pensamientos negativos.',
@@ -37898,13 +37898,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'Nosotros no ___ (ser) conscientes del poder del pensamiento.',
-        options: ['somos', 'estamos', 'hemos sido', 'fuimos'],
-        correct: 0
+        options: ['hemos sido', 'estamos', 'somos', 'fuimos'],
+        correct: 2
       },
       {
         question: 'Yo ___ (querer) sentirme mejor.',
-        options: ['quiero', 'he querido', 'quise', 'querré'],
-        correct: 0
+        options: ['quise', 'he querido', 'quiero', 'querré'],
+        correct: 2
       },
       {
         question: 'Tú te ___ (sentir) de forma diferente si piensas de otra manera.',
@@ -37960,8 +37960,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué pasaría si todas las notas estuvieran pegadas?',
-        options: ['Tendríamos música', 'Tendríamos ruido', 'Tendríamos silencio', 'No tendríamos nada'],
-        correct: 1
+        options: ['Tendríamos música', 'No tendríamos nada', 'Tendríamos silencio', 'Tendríamos ruido'],
+        correct: 3
       },
       {
         question: '¿Qué hace que tengamos música?',
@@ -37970,13 +37970,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Cómo debemos vivir la vida según el texto?',
-        options: ['Con calma', 'Con intensidad', 'Con miedo', 'Con tristeza'],
-        correct: 1
+        options: ['Con calma', 'Con miedo', 'Con intensidad', 'Con tristeza'],
+        correct: 2
       },
       {
         question: '¿En qué debemos enfocarnos?',
-        options: ['En todo', 'En nada', 'En lo relevante', 'En los problemas'],
-        correct: 2
+        options: ['En lo relevante', 'En nada', 'En todo', 'En los problemas'],
+        correct: 0
       },
       {
         question: '¿Quién escribió "Confieso que he vivido"?',
@@ -37985,13 +37985,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué podemos decir al final de nuestra vida?',
-        options: ['Que la hemos visto pasar', 'Que hemos vivido', 'Que hemos trabajado', 'Que hemos sufrido'],
-        correct: 1
+        options: ['Que la hemos visto pasar', 'Que hemos trabajado', 'Que hemos vivido', 'Que hemos sufrido'],
+        correct: 2
       },
       {
         question: '¿Con qué debemos vivir la vida?',
-        options: ['Con dificultades y desafíos', 'Sin problemas', 'Con miedo', 'Con tristeza'],
-        correct: 0
+        options: ['Con tristeza', 'Sin problemas', 'Con miedo', 'Con dificultades y desafíos'],
+        correct: 3
       }
     ]
   },
@@ -38004,8 +38004,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: 'Si todas las notas ___ (estar) pegadas, tendríamos ruido.',
-        options: ['están', 'estuvieran', 'han estado', 'estuvieron'],
-        correct: 1
+        options: ['están', 'estuvieron', 'han estado', 'estuvieran'],
+        correct: 3
       },
       {
         question: 'Los espacios ___ (permitir) que haya música.',
@@ -38014,18 +38014,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'Esta vida ___ (ser) una vida para vivirla con intensidad.',
-        options: ['es', 'sea', 'ha sido', 'fue'],
-        correct: 0
+        options: ['ha sido', 'sea', 'es', 'fue'],
+        correct: 2
       },
       {
         question: 'Nosotros ___ (enfocarse) en lo relevante.',
-        options: ['nos enfocamos', 'nos enfoquemos', 'nos hemos enfocado', 'nos enfocábamos'],
-        correct: 0
+        options: ['nos enfoquemos', 'nos enfocamos', 'nos hemos enfocado', 'nos enfocábamos'],
+        correct: 1
       },
       {
         question: 'Neruda ___ (decir): "Confieso que he vivido".',
-        options: ['dice', 'diga', 'ha dicho', 'dijo'],
-        correct: 3
+        options: ['dice', 'dijo', 'ha dicho', 'diga'],
+        correct: 1
       },
       {
         question: 'Nosotros ___ (poder) decir que hemos vivido.',
@@ -38034,8 +38034,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'Yo ___ (vivir) la vida con intensidad.',
-        options: ['vivo', 'viva', 'he vivido', 'viví'],
-        correct: 0
+        options: ['he vivido', 'viva', 'vivo', 'viví'],
+        correct: 2
       }
     ]
   },
@@ -38063,13 +38063,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: El amor cura',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el regalo', options: ['подарок', 'проблема', 'решение', 'вопрос'], correct: 0 },
-      { spanish: 'de forma gratuita', options: ['платно', 'бесплатно', 'дорого', 'дёшево'], correct: 1 },
-      { spanish: 'sanar', options: ['болеть', 'исцелять', 'страдать', 'плакать'], correct: 1 },
+      { spanish: 'el regalo', options: ['проблема', 'подарок', 'решение', 'вопрос'], correct: 1 },
+      { spanish: 'de forma gratuita', options: ['платно', 'дорого', 'бесплатно', 'дёшево'], correct: 2 },
+      { spanish: 'sanar', options: ['болеть', 'плакать', 'страдать', 'исцелять'], correct: 3 },
       { spanish: 'la herida', options: ['рана', 'боль', 'страх', 'радость'], correct: 0 },
-      { spanish: 'la empatía', options: ['симпатия', 'эмпатия', 'любовь', 'дружба'], correct: 1 },
-      { spanish: 'cruel', options: ['добрый', 'жестокий', 'милый', 'смелый'], correct: 1 },
-      { spanish: 'transformarse', options: ['оставаться', 'преображаться', 'исчезать', 'появляться'], correct: 1 }
+      { spanish: 'la empatía', options: ['симпатия', 'дружба', 'любовь', 'эмпатия'], correct: 3 },
+      { spanish: 'cruel', options: ['добрый', 'милый', 'жестокий', 'смелый'], correct: 2 },
+      { spanish: 'transformarse', options: ['преображаться', 'оставаться', 'исчезать', 'появляться'], correct: 0 }
     ]
   },
 
@@ -38081,38 +38081,38 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Cuál es el mayor regalo para un ser humano?',
-        options: ['Dinero', 'Encontrar amor incondicional', 'Éxito', 'Salud'],
-        correct: 1
+        options: ['Dinero', 'Salud', 'Éxito', 'Encontrar amor incondicional'],
+        correct: 3
       },
       {
         question: '¿Cómo te quiere ese ser humano especial?',
-        options: ['Por lo que haces', 'Por cómo piensas', 'Sin condiciones', 'Por cómo eres'],
-        correct: 2
+        options: ['Por lo que haces', 'Sin condiciones', 'Por cómo piensas', 'Por cómo eres'],
+        correct: 1
       },
       {
         question: '¿Cómo llamaban los griegos a este amor?',
-        options: ['Eros', 'Agape', 'Philia', 'Storge'],
-        correct: 1
+        options: ['Eros', 'Philia', 'Agape', 'Storge'],
+        correct: 2
       },
       {
         question: '¿Qué puede hacer este amor?',
-        options: ['Destruir', 'Sanar heridas', 'Causar dolor', 'Crear problemas'],
-        correct: 1
+        options: ['Sanar heridas', 'Destruir', 'Causar dolor', 'Crear problemas'],
+        correct: 0
       },
       {
         question: '¿Qué puede desarrollar la persona sanada?',
-        options: ['Miedo', 'Empatía', 'Odio', 'Tristeza'],
-        correct: 1
+        options: ['Miedo', 'Tristeza', 'Odio', 'Empatía'],
+        correct: 3
       },
       {
         question: '¿Quién es Ashoka?',
-        options: ['Un poeta', 'Un emperador que se transformó', 'Un músico', 'Un filósofo'],
-        correct: 1
+        options: ['Un poeta', 'Un músico', 'Un emperador que se transformó', 'Un filósofo'],
+        correct: 2
       },
       {
         question: '¿Cómo era Ashoka al principio?',
-        options: ['Amable', 'Cruel', 'Tímido', 'Alegre'],
-        correct: 1
+        options: ['Cruel', 'Amable', 'Tímido', 'Alegre'],
+        correct: 0
       }
     ]
   },
@@ -38130,33 +38130,33 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'Ese ser humano te ___ (querer) sin condiciones.',
-        options: ['quiere', 'quiera', 'ha querido', 'quiso'],
-        correct: 0
+        options: ['quiera', 'quiere', 'ha querido', 'quiso'],
+        correct: 1
       },
       {
         question: 'Los griegos le ___ (llamar) agape.',
-        options: ['llaman', 'llamaban', 'han llamado', 'llamaron'],
-        correct: 1
+        options: ['llaman', 'llamaron', 'han llamado', 'llamaban'],
+        correct: 3
       },
       {
         question: 'Este amor ___ (poder) sanar la herida.',
-        options: ['puede', 'pueda', 'ha podido', 'pudo'],
-        correct: 0
-      },
-      {
-        question: 'La persona ___ (desarrollar) empatía.',
-        options: ['desarrolla', 'desarrolle', 'ha desarrollado', 'desarrolló'],
-        correct: 0
-      },
-      {
-        question: 'Ashoka ___ (ser) una persona cruel.',
-        options: ['es', 'era', 'fue', 'ha sido'],
+        options: ['ha podido', 'pueda', 'puede', 'pudo'],
         correct: 2
       },
       {
-        question: 'Él se ___ (transformar) por completo.',
-        options: ['transforma', 'transformó', 'ha transformado', 'transformaba'],
+        question: 'La persona ___ (desarrollar) empatía.',
+        options: ['desarrolle', 'desarrolla', 'ha desarrollado', 'desarrolló'],
         correct: 1
+      },
+      {
+        question: 'Ashoka ___ (ser) una persona cruel.',
+        options: ['es', 'era', 'ha sido', 'fue'],
+        correct: 3
+      },
+      {
+        question: 'Él se ___ (transformar) por completo.',
+        options: ['transforma', 'ha transformado', 'transformó', 'transformaba'],
+        correct: 2
       }
     ]
   },
@@ -38184,13 +38184,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Nerviosismo y timidez',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'el nerviosismo', options: ['спокойствие', 'нервозность', 'радость', 'грусть'], correct: 1 },
+      { spanish: 'el nerviosismo', options: ['нервозность', 'спокойствие', 'радость', 'грусть'], correct: 0 },
       { spanish: 'la timidez', options: ['смелость', 'застенчивость', 'уверенность', 'гордость'], correct: 1 },
       { spanish: 'el ruido mental', options: ['тишина', 'мысль', 'ментальный шум', 'идея'], correct: 2 },
-      { spanish: 'el ejercicio físico', options: ['отдых', 'физическое упражнение', 'работа', 'учёба'], correct: 1 },
-      { spanish: 'moverse', options: ['стоять', 'двигаться', 'сидеть', 'спать'], correct: 1 },
+      { spanish: 'el ejercicio físico', options: ['отдых', 'учёба', 'работа', 'физическое упражнение'], correct: 3 },
+      { spanish: 'moverse', options: ['стоять', 'спать', 'сидеть', 'двигаться'], correct: 3 },
       { spanish: 'la confianza', options: ['недоверие', 'доверие', 'страх', 'сомнение'], correct: 1 },
-      { spanish: 'entrenar', options: ['отдыхать', 'тренировать', 'спать', 'есть'], correct: 1 }
+      { spanish: 'entrenar', options: ['тренировать', 'отдыхать', 'спать', 'есть'], correct: 0 }
     ]
   },
 
@@ -38207,33 +38207,33 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué es el nerviosismo según el texto?',
-        options: ['Alegría', 'Ruido mental', 'Tranquilidad', 'Silencio'],
-        correct: 1
+        options: ['Alegría', 'Tranquilidad', 'Ruido mental', 'Silencio'],
+        correct: 2
       },
       {
         question: '¿Qué ayuda a reducir el ruido mental?',
-        options: ['Dormir', 'El ejercicio físico', 'Comer', 'Ver televisión'],
-        correct: 1
+        options: ['Dormir', 'Ver televisión', 'Comer', 'El ejercicio físico'],
+        correct: 3
       },
       {
         question: '¿Qué implica hacer ejercicio físico?',
-        options: ['Ir al gimnasio', 'Moverse más', 'Descansar', 'Dormir'],
-        correct: 1
+        options: ['Moverse más', 'Ir al gimnasio', 'Descansar', 'Dormir'],
+        correct: 0
       },
       {
         question: '¿Con quién puedes hablar de tus sentimientos?',
-        options: ['Con cualquiera', 'Con alguien de confianza', 'Con nadie', 'Con extraños'],
-        correct: 1
+        options: ['Con cualquiera', 'Con extraños', 'Con nadie', 'Con alguien de confianza'],
+        correct: 3
       },
       {
         question: '¿En qué puedes escribir si no tienes a nadie?',
-        options: ['En un libro grande', 'En un papel pequeño', 'En la computadora', 'En la pared'],
-        correct: 1
+        options: ['En un papel pequeño', 'En un libro grande', 'En la computadora', 'En la pared'],
+        correct: 0
       },
       {
         question: '¿Qué son los estados contemplativos?',
-        options: ['Ejercicio', 'Comida', 'Mindfulness', 'Trabajo'],
-        correct: 2
+        options: ['Ejercicio', 'Mindfulness', 'Comida', 'Trabajo'],
+        correct: 1
       }
     ]
   },
@@ -38246,18 +38246,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: 'La persona se ___ (poner) nerviosa.',
-        options: ['pone', 'ponga', 'ha puesto', 'puso'],
-        correct: 0
+        options: ['ha puesto', 'ponga', 'pone', 'puso'],
+        correct: 2
       },
       {
         question: 'El ejercicio físico ___ (ayudar) a reducir el nerviosismo.',
-        options: ['ayuda', 'ayude', 'ha ayudado', 'ayudó'],
-        correct: 0
+        options: ['ayudó', 'ayude', 'ha ayudado', 'ayuda'],
+        correct: 3
       },
       {
         question: 'Tú ___ (poder) hablar con alguien de confianza.',
-        options: ['puedes', 'puedas', 'has podido', 'pudiste'],
-        correct: 0
+        options: ['puedas', 'puedes', 'has podido', 'pudiste'],
+        correct: 1
       },
       {
         question: 'Nosotros ___ (escribir) lo que nos preocupa.',
@@ -38266,18 +38266,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'El cerebro ___ (interpretar) que el problema no es grande.',
-        options: ['interpreta', 'interprete', 'ha interpretado', 'interpretó'],
-        correct: 0
+        options: ['ha interpretado', 'interprete', 'interpreta', 'interpretó'],
+        correct: 2
       },
       {
         question: 'Vosotros ___ (entrenar) en estados contemplativos.',
-        options: ['entrenáis', 'entrenéis', 'habéis entrenado', 'entrenasteis'],
-        correct: 0
+        options: ['entrenasteis', 'entrenéis', 'habéis entrenado', 'entrenáis'],
+        correct: 3
       },
       {
         question: 'Yo te ___ (decir) que hagas ejercicio.',
-        options: ['digo', 'diga', 'he dicho', 'dije'],
-        correct: 0
+        options: ['diga', 'digo', 'he dicho', 'dije'],
+        correct: 1
       }
     ]
   },
@@ -38305,21 +38305,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Vocabulario 1: ¿Qué es la microbiota?',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'recibir', options: ['получать, принимать', 'отдавать', 'терять', 'искать'], correct: 0 },
-      { spanish: 'enviar', options: ['послать, отправить', 'получать', 'оставлять', 'терять'], correct: 0 },
-      { spanish: 'determinado', options: ['определенный', 'неопределенный', 'случайный', 'забытый'], correct: 0 },
+      { spanish: 'recibir', options: ['искать', 'отдавать', 'терять', 'получать, принимать'], correct: 3 },
+      { spanish: 'enviar', options: ['получать', 'послать, отправить', 'оставлять', 'терять'], correct: 1 },
+      { spanish: 'determinado', options: ['случайный', 'неопределенный', 'определенный', 'забытый'], correct: 2 },
       { spanish: 'percibir', options: ['воспринимать, ощущать', 'забывать', 'отдавать', 'искать'], correct: 0 },
-      { spanish: 'la célula', options: ['клетка', 'молекула', 'атом', 'орган'], correct: 0 },
-      { spanish: 'comunicarse', options: ['сообщаться', 'молчать', 'скрывать', 'забывать'], correct: 0 },
-      { spanish: 'el intestino', options: ['кишечник', 'желудок', 'печень', 'сердце'], correct: 0 },
+      { spanish: 'la célula', options: ['молекула', 'клетка', 'атом', 'орган'], correct: 1 },
+      { spanish: 'comunicarse', options: ['скрывать', 'молчать', 'сообщаться', 'забывать'], correct: 2 },
+      { spanish: 'el intestino', options: ['сердце', 'желудок', 'печень', 'кишечник'], correct: 3 },
       { spanish: 'el descubrimiento', options: ['открытие, находка', 'потеря', 'забвение', 'закрытие'], correct: 0 },
-      { spanish: 'estar en conexión', options: ['быть связанным', 'быть отдельным', 'быть потерянным', 'быть забытым'], correct: 0 },
-      { spanish: 'el tubo', options: ['труба, трубка', 'шар', 'куб', 'конус'], correct: 0 },
-      { spanish: 'el sistema inmune', options: ['иммунная система', 'нервная система', 'кровеносная система', 'дыхательная система'], correct: 0 },
+      { spanish: 'estar en conexión', options: ['быть потерянным', 'быть отдельным', 'быть связанным', 'быть забытым'], correct: 2 },
+      { spanish: 'el tubo', options: ['шар', 'труба, трубка', 'куб', 'конус'], correct: 1 },
+      { spanish: 'el sistema inmune', options: ['дыхательная система', 'нервная система', 'кровеносная система', 'иммунная система'], correct: 3 },
       { spanish: 'la superficie', options: ['поверхность, площадь', 'глубина', 'высота', 'ширина'], correct: 0 },
       { spanish: 'expuesto', options: ['выставленный', 'скрытый', 'закрытый', 'защищенный'], correct: 0 },
-      { spanish: 'medir', options: ['мерить, измерять', 'строить', 'разрушать', 'красить'], correct: 0 },
-      { spanish: 'intestino delgado', options: ['тонкий кишечник', 'толстый кишечник', 'желудок', 'пищевод'], correct: 0 }
+      { spanish: 'medir', options: ['строить', 'мерить, измерять', 'разрушать', 'красить'], correct: 1 },
+      { spanish: 'intestino delgado', options: ['желудок', 'толстый кишечник', 'тонкий кишечник', 'пищевод'], correct: 2 }
     ]
   },
 
@@ -38329,21 +38329,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Vocabulario 2: ¿Qué es la microbiota?',
     description: 'Выберите правильный перевод слова',
     questions: [
-      { spanish: 'intestino grueso', options: ['толстый кишечник', 'тонкий кишечник', 'желудок', 'печень'], correct: 0 },
+      { spanish: 'intestino grueso', options: ['тонкий кишечник', 'толстый кишечник', 'желудок', 'печень'], correct: 1 },
       { spanish: 'afectar', options: ['отрицательно воздействовать', 'помогать', 'улучшать', 'украшать'], correct: 0 },
-      { spanish: 'el lupus', options: ['волчанка', 'грипп', 'простуда', 'аллергия'], correct: 0 },
-      { spanish: 'por consiguiente', options: ['следовательно, таким образом', 'несмотря на', 'возможно', 'никогда'], correct: 0 },
+      { spanish: 'el lupus', options: ['простуда', 'грипп', 'волчанка', 'аллергия'], correct: 2 },
+      { spanish: 'por consiguiente', options: ['никогда', 'несмотря на', 'возможно', 'следовательно, таким образом'], correct: 3 },
       { spanish: 'la ansiedad', options: ['тревога, беспокойство', 'радость', 'спокойствие', 'удовольствие'], correct: 0 },
-      { spanish: 'disminuir', options: ['уменьшаться, уменьшать', 'увеличиваться', 'оставаться', 'появляться'], correct: 0 },
-      { spanish: 'la inflamación', options: ['воспаление', 'заживление', 'лечение', 'профилактика'], correct: 0 },
-      { spanish: 'de bajo grado', options: ['низкого уровня', 'высокого уровня', 'среднего уровня', 'без уровня'], correct: 0 },
-      { spanish: 'la fibra', options: ['клетчатка', 'белок', 'жир', 'углевод'], correct: 0 },
+      { spanish: 'disminuir', options: ['появляться', 'увеличиваться', 'оставаться', 'уменьшаться, уменьшать'], correct: 3 },
+      { spanish: 'la inflamación', options: ['заживление', 'воспаление', 'лечение', 'профилактика'], correct: 1 },
+      { spanish: 'de bajo grado', options: ['среднего уровня', 'высокого уровня', 'низкого уровня', 'без уровня'], correct: 2 },
+      { spanish: 'la fibra', options: ['белок', 'клетчатка', 'жир', 'углевод'], correct: 1 },
       { spanish: 'las fuerzas del bien', options: ['силы добра', 'силы зла', 'нейтральные силы', 'слабые силы'], correct: 0 },
-      { spanish: 'intracraneal', options: ['внутричерепной', 'внешний', 'поверхностный', 'периферический'], correct: 0 },
-      { spanish: 'el nodo', options: ['узел', 'точка', 'линия', 'круг'], correct: 0 },
+      { spanish: 'intracraneal', options: ['поверхностный', 'внешний', 'внутричерепной', 'периферический'], correct: 2 },
+      { spanish: 'el nodo', options: ['круг', 'точка', 'линия', 'узел'], correct: 3 },
       { spanish: 'absorber', options: ['поглощать, впитывать', 'выделять', 'отталкивать', 'производить'], correct: 0 },
-      { spanish: 'los ritmos circadianos', options: ['циркадные ритмы', 'музыкальные ритмы', 'танцевальные ритмы', 'сердечные ритмы'], correct: 0 },
-      { spanish: 'la difusión', options: ['распространение', 'сокращение', 'уменьшение', 'исчезновение'], correct: 0 }
+      { spanish: 'los ritmos circadianos', options: ['сердечные ритмы', 'музыкальные ритмы', 'танцевальные ритмы', 'циркадные ритмы'], correct: 3 },
+      { spanish: 'la difusión', options: ['сокращение', 'распространение', 'уменьшение', 'исчезновение'], correct: 1 }
     ]
   },
 
@@ -38366,32 +38366,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Cuántas células tenemos aproximadamente?',
         options: [
-          '60 trillones',
+          '60 billones',
           '60 millones',
           '60 mil',
-          '60 billones'
+          '60 trillones'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué es el segundo cerebro?',
         options: [
-          'El tubo digestivo',
-          'El corazón',
           'Los pulmones',
+          'El corazón',
+          'El tubo digestivo',
           'El hígado'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Cuánto mide aproximadamente la piel?',
         options: [
-          '2 metros cuadrados',
           '5 metros cuadrados',
+          '2 metros cuadrados',
           '10 metros cuadrados',
           '1 metro cuadrado'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Qué porcentaje del sistema de defensa está en el tubo digestivo?',
@@ -38406,42 +38406,42 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué enfermedades menciona el texto que pueden tener origen en el tubo digestivo?',
         options: [
-          'Artritis reumatoide, lupus, Alzheimer',
+          'Solo enfermedades respiratorias',
           'Solo gripe y resfriados',
           'Solo problemas de piel',
-          'Solo enfermedades respiratorias'
+          'Artritis reumatoide, lupus, Alzheimer'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué cuadros pueden tener su origen en una pobre nutrición?',
         options: [
-          'La ansiedad y la depresión',
-          'Solo problemas físicos',
           'Solo alergias',
+          'Solo problemas físicos',
+          'La ansiedad y la depresión',
           'Solo problemas de sueño'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Cómo se llaman las fuerzas del bien en la microbiota?',
         options: [
-          'Bacteroides',
           'Firmicutes',
+          'Bacteroides',
           'Patógenos',
           'Virus'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Cómo se llaman las fuerzas del mal en la microbiota?',
         options: [
-          'Firmicutes',
           'Bacteroides',
+          'Firmicutes',
           'Proteínas',
           'Vitaminas'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Qué produce el desequilibrio de la microbiota?',
@@ -38456,42 +38456,42 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué tipo de dieta ayuda a las fuerzas del bien?',
         options: [
-          'Rica en fibra y pobre en azúcar',
-          'Rica en azúcar y pobre en fibra',
           'Solo proteínas',
+          'Rica en azúcar y pobre en fibra',
+          'Rica en fibra y pobre en azúcar',
           'Solo grasas'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: 'Según el texto, ¿qué conecta la mente?',
         options: [
-          'El cerebro, el corazón y el tubo digestivo',
+          'Solo los músculos',
           'Solo el cerebro',
           'Solo el corazón',
-          'Solo los músculos'
+          'El cerebro, el corazón y el tubo digestivo'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué impacto tienen los cambios en la nutrición?',
         options: [
-          'Impacto positivo en el autismo y otros procesos',
+          'Solo afectan a la piel',
           'Solo afectan al peso',
           'No tienen ningún impacto',
-          'Solo afectan a la piel'
+          'Impacto positivo en el autismo y otros procesos'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿De qué habló Steve Jobs en su discurso?',
         options: [
-          'De conectar los puntos',
-          'De la tecnología',
           'De los negocios',
+          'De la tecnología',
+          'De conectar los puntos',
           'De la medicina'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Qué depende de la luz solar según el texto?',
@@ -38515,32 +38515,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué porcentaje de nuestro sistema de defensa está en el tubo digestivo?',
         options: [
-          'El 80 por ciento',
+          'El 90 por ciento',
           'El 50 por ciento',
           'El 30 por ciento',
-          'El 90 por ciento'
+          'El 80 por ciento'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué superficie tiene el intestino delgado?',
         options: [
-          '400 metros cuadrados',
-          '200 metros cuadrados',
           '100 metros cuadrados',
+          '200 metros cuadrados',
+          '400 metros cuadrados',
           '50 metros cuadrados'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Qué cantidad de superficie tiene el intestino grueso?',
         options: [
-          '800 metros cuadrados',
           '400 metros cuadrados',
+          '800 metros cuadrados',
           '200 metros cuadrados',
           '100 metros cuadrados'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Cómo se consideraba antes el tubo digestivo?',
@@ -38555,12 +38555,12 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué papel juega el tubo digestivo en enfermedades como la artritis reumatoide?',
         options: [
-          'Puede tener su origen en él',
+          'Solo afecta al cerebro',
           'No tiene ninguna relación',
           'Solo afecta a la digestión',
-          'Solo afecta al cerebro'
+          'Puede tener su origen en él'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué relación hay entre el tubo digestivo y el cerebro?',
@@ -38575,32 +38575,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué pueden tener su origen en una pobre nutrición según el texto?',
         options: [
-          'Cuadros de ansiedad y depresión',
           'Solo problemas digestivos',
+          'Cuadros de ansiedad y depresión',
           'Solo alergias',
           'Solo problemas de memoria'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Qué hacen las bacterias en el tubo digestivo?',
         options: [
-          'Se comunican con las células',
-          'Solo digieren alimentos',
           'Solo causan enfermedades',
+          'Solo digieren alimentos',
+          'Se comunican con las células',
           'No hacen nada importante'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Qué es la inflamación crónica de bajo grado?',
         options: [
-          'Está detrás de la mayor parte de las enfermedades',
           'Es una condición beneficiosa',
+          'Está detrás de la mayor parte de las enfermedades',
           'Solo afecta al estómago',
           'Es temporal y sin importancia'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Qué pasa cuando hay desequilibrio entre bacteroides y firmicutes?',
@@ -38615,32 +38615,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué tipo de bacterias son los bacteroides?',
         options: [
-          'Las fuerzas del bien',
+          'Bacterias dañinas',
           'Las fuerzas del mal',
           'Bacterias neutrales',
-          'Bacterias dañinas'
+          'Las fuerzas del bien'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué tipo de bacterias son los firmicutes?',
         options: [
-          'Las fuerzas del mal',
-          'Las fuerzas del bien',
           'Bacterias beneficiosas',
+          'Las fuerzas del bien',
+          'Las fuerzas del mal',
           'Bacterias neutrales'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Qué favorece el aumento de bacteroides?',
         options: [
-          'Dieta rica en fibra y pobre en azúcar',
+          'Solo ejercicio físico',
           'Dieta rica en azúcar',
           'Dieta sin fibra',
-          'Solo ejercicio físico'
+          'Dieta rica en fibra y pobre en azúcar'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué pasa con los firmicutes cuando tomamos dieta pobre en azúcar?',
@@ -38655,12 +38655,12 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué menciona el texto sobre el Alzheimer?',
         options: [
-          'Puede tener su origen en el tubo digestivo',
-          'No tiene relación con la digestión',
           'Solo se debe a la genética',
+          'No tiene relación con la digestión',
+          'Puede tener su origen en el tubo digestivo',
           'Solo afecta a personas mayores'
         ],
-        correct: 0
+        correct: 2
       }
     ]
   },
@@ -38674,12 +38674,12 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué conecta según el texto la mente?',
         options: [
-          'El cerebro, el corazón y el tubo digestivo',
           'Solo el cerebro',
+          'El cerebro, el corazón y el tubo digestivo',
           'Solo el corazón',
           'Solo los músculos'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Qué impacto tienen los cambios en la nutrición en el autismo?',
@@ -38694,52 +38694,52 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿De quién habla el texto que dio un discurso?',
         options: [
-          'Steve Jobs',
+          'Un doctor',
           'Mario Alonso Puig',
           'Un científico',
-          'Un doctor'
+          'Steve Jobs'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Dónde dio Steve Jobs su discurso?',
         options: [
-          'En Stanford',
-          'En Harvard',
           'En MIT',
+          'En Harvard',
+          'En Stanford',
           'En Oxford'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿De qué hablaba Steve Jobs en su discurso?',
         options: [
-          'De conectar los puntos',
-          'De la tecnología',
           'De los negocios',
+          'De la tecnología',
+          'De conectar los puntos',
           'De la salud'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Qué dice el texto sobre el ser humano?',
         options: [
-          'Es un ser en relación con todo',
+          'Es un ser aislado',
           'Es un ser individual',
           'Es un ser independiente',
-          'Es un ser aislado'
+          'Es un ser en relación con todo'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Con qué está en relación el ser humano según el texto?',
         options: [
-          'Con las personas, la energía y la luz',
           'Solo con las personas',
+          'Con las personas, la energía y la luz',
           'Solo con los alimentos',
           'Solo con el ambiente'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿De qué dependen los ritmos circadianos?',
@@ -38754,22 +38754,22 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué nos influye naturalmente según el texto?',
         options: [
-          'Las mareas',
-          'Solo el clima',
           'Solo la temperatura',
+          'Solo el clima',
+          'Las mareas',
           'Solo la presión atmosférica'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Qué pasa cuando uno se da un paseo por el campo?',
         options: [
-          'Están sucediendo cosas por dentro',
+          'Solo mejora el ánimo',
           'Solo es agradable',
           'No pasa nada especial',
-          'Solo mejora el ánimo'
+          'Están sucediendo cosas por dentro'
         ],
-        correct: 0
+        correct: 3
       },
       {
         question: '¿Qué están haciendo las células según el texto?',
@@ -38784,22 +38784,22 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué dice el texto sobre la investigación de este campo?',
         options: [
-          'Uno nunca se puede aburrir',
           'Es aburrido',
+          'Uno nunca se puede aburrir',
           'Es muy complicado',
           'No vale la pena'
         ],
-        correct: 0
+        correct: 1
       },
       {
         question: '¿Cuál es la profesión del doctor Mario Alonso Puig?',
         options: [
-          'Especialista en cirugía general y del aparato digestivo',
-          'Cardiólogo',
           'Neurólogo',
+          'Cardiólogo',
+          'Especialista en cirugía general y del aparato digestivo',
           'Psicólogo'
         ],
-        correct: 0
+        correct: 2
       },
       {
         question: '¿Cuántos años ejerció el doctor la actividad quirúrgica?',
@@ -38814,12 +38814,12 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         question: '¿Qué le apasiona al doctor Mario Alonso Puig?',
         options: [
-          'Investigar y seguir formándose',
           'Solo operar',
+          'Investigar y seguir formándose',
           'Solo dar conferencias',
           'Solo escribir libros'
         ],
-        correct: 0
+        correct: 1
       }
     ]
   },
@@ -38830,20 +38830,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Грамматика 1: ¿Qué es la microbiota?',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { question: 'La microbiota ___ (recibir) información del exterior constantemente.', options: ['recibe', 'recibió', 'ha recibido', 'reciba'], correct: 0 },
-      { question: 'El doctor Mario Alonso Puig ___ (hablar) de este tema durante muchos años.', options: ['ha hablado', 'habla', 'hablaba', 'hable'], correct: 0 },
-      { question: 'La microbiota es uno de los grandes descubrimientos que se ___ (hacer).', options: ['ha hecho', 'hace', 'hizo', 'haga'], correct: 0 },
+      { question: 'La microbiota ___ (recibir) información del exterior constantemente.', options: ['recibió', 'recibe', 'ha recibido', 'reciba'], correct: 1 },
+      { question: 'El doctor Mario Alonso Puig ___ (hablar) de este tema durante muchos años.', options: ['hablaba', 'habla', 'ha hablado', 'hable'], correct: 2 },
+      { question: 'La microbiota es uno de los grandes descubrimientos que se ___ (hacer).', options: ['haga', 'hace', 'hizo', 'ha hecho'], correct: 3 },
       { question: 'Cuando yo ___ (ser) niño, nadie hablaba de la microbiota.', options: ['era', 'fui', 'he sido', 'sea'], correct: 0 },
-      { question: 'Es importante que nosotros ___ (cuidar) nuestra alimentación.', options: ['cuidemos', 'cuidamos', 'cuidábamos', 'hemos cuidado'], correct: 0 },
+      { question: 'Es importante que nosotros ___ (cuidar) nuestra alimentación.', options: ['cuidábamos', 'cuidamos', 'cuidemos', 'hemos cuidado'], correct: 2 },
       { question: 'Los obreros ___ (descubrir) una sinagoga hace poco.', options: ['han descubierto', 'descubrieron', 'descubren', 'descubrían'], correct: 0 },
-      { question: 'Antes se ___ (considerar) que el tubo digestivo solo servía para absorber alimentos.', options: ['consideraba', 'consideró', 'ha considerado', 'considere'], correct: 0 },
-      { question: 'Es bonito que todo ___ (estar) conectado en el organismo.', options: ['esté', 'está', 'estaba', 'ha estado'], correct: 0 },
-      { question: 'Steve Jobs ___ (dar) su discurso en 2005 en Stanford.', options: ['dio', 'daba', 'ha dado', 'dé'], correct: 0 },
-      { question: 'Los bacteroides ___ (aumentar) cuando tomamos una dieta rica en fibra.', options: ['aumentan', 'aumentaron', 'han aumentado', 'aumenten'], correct: 0 },
+      { question: 'Antes se ___ (considerar) que el tubo digestivo solo servía para absorber alimentos.', options: ['considere', 'consideró', 'ha considerado', 'consideraba'], correct: 3 },
+      { question: 'Es bonito que todo ___ (estar) conectado en el organismo.', options: ['está', 'esté', 'estaba', 'ha estado'], correct: 1 },
+      { question: 'Steve Jobs ___ (dar) su discurso en 2005 en Stanford.', options: ['dé', 'daba', 'ha dado', 'dio'], correct: 3 },
+      { question: 'Los bacteroides ___ (aumentar) cuando tomamos una dieta rica en fibra.', options: ['han aumentado', 'aumentaron', 'aumentan', 'aumenten'], correct: 2 },
       { question: 'Es necesario que las madres ___ (saber) lo que es la microbiota.', options: ['sepan', 'saben', 'sabían', 'han sabido'], correct: 0 },
-      { question: 'La inflamación crónica ___ (estar) detrás de la mayor parte de las enfermedades.', options: ['está', 'estuvo', 'ha estado', 'estaba'], correct: 0 },
-      { question: 'Cuando una persona ___ (tomar) una dieta pobre en azúcar, los firmicutes bajan.', options: ['toma', 'tomó', 'ha tomado', 'tome'], correct: 0 },
-      { question: 'Se ___ (ver) que cambios en la nutrición tienen impacto positivo en el autismo.', options: ['ha visto', 've', 'vio', 'vea'], correct: 0 },
+      { question: 'La inflamación crónica ___ (estar) detrás de la mayor parte de las enfermedades.', options: ['estuvo', 'está', 'ha estado', 'estaba'], correct: 1 },
+      { question: 'Cuando una persona ___ (tomar) una dieta pobre en azúcar, los firmicutes bajan.', options: ['ha tomado', 'tomó', 'toma', 'tome'], correct: 2 },
+      { question: 'Se ___ (ver) que cambios en la nutrición tienen impacto positivo en el autismo.', options: ['vea', 've', 'vio', 'ha visto'], correct: 3 },
       { question: 'Es importante que uno ___ (darse) paseos por el campo.', options: ['se dé', 'se da', 'se daba', 'se ha dado'], correct: 0 }
     ]
   },
@@ -38854,21 +38854,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Грамматика 2: ¿Qué es la microbiota?',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { question: 'El tubo digestivo ___ (enviar) señales al cerebro todo el tiempo.', options: ['envía', 'envió', 'ha enviado', 'envíe'], correct: 0 },
-      { question: 'Es fundamental que ___ (percibir) la importancia de la microbiota.', options: ['percibamos', 'percibimos', 'percibíamos', 'hemos percibido'], correct: 0 },
-      { question: 'Las células ___ (comunicarse) entre ellas constantemente.', options: ['se comunican', 'se comunicaron', 'se han comunicado', 'se comuniquen'], correct: 0 },
+      { question: 'El tubo digestivo ___ (enviar) señales al cerebro todo el tiempo.', options: ['ha enviado', 'envió', 'envía', 'envíe'], correct: 2 },
+      { question: 'Es fundamental que ___ (percibir) la importancia de la microbiota.', options: ['percibimos', 'percibamos', 'percibíamos', 'hemos percibido'], correct: 1 },
+      { question: 'Las células ___ (comunicarse) entre ellas constantemente.', options: ['se comuniquen', 'se comunicaron', 'se han comunicado', 'se comunican'], correct: 3 },
       { question: 'Hace unos años se ___ (hacer) este gran descubrimiento.', options: ['hizo', 'hacía', 'ha hecho', 'haga'], correct: 0 },
-      { question: 'Antes los científicos no ___ (saber) la importancia del intestino.', options: ['sabían', 'supieron', 'han sabido', 'sepan'], correct: 0 },
-      { question: 'Es necesario que el sistema inmune ___ (estar) en conexión con el intestino.', options: ['esté', 'está', 'estaba', 'ha estado'], correct: 0 },
+      { question: 'Antes los científicos no ___ (saber) la importancia del intestino.', options: ['han sabido', 'supieron', 'sabían', 'sepan'], correct: 2 },
+      { question: 'Es necesario que el sistema inmune ___ (estar) en conexión con el intestino.', options: ['está', 'esté', 'estaba', 'ha estado'], correct: 1 },
       { question: 'La piel ___ (medir) aproximadamente 2 metros cuadrados.', options: ['mide', 'midió', 'ha medido', 'mida'], correct: 0 },
-      { question: 'El intestino delgado ___ (estar) expuesto a muchos factores.', options: ['está', 'estuvo', 'ha estado', 'esté'], correct: 0 },
-      { question: 'Muchas enfermedades ___ (afectar) al organismo por la inflamación.', options: ['afectan', 'afectaron', 'han afectado', 'afecten'], correct: 0 },
-      { question: 'Es importante que ___ (disminuir) la inflamación crónica.', options: ['disminuya', 'disminuye', 'disminuía', 'ha disminuido'], correct: 0 },
-      { question: 'El lupus ___ (poder) tener su origen en el tubo digestivo.', options: ['puede', 'pudo', 'ha podido', 'pueda'], correct: 0 },
+      { question: 'El intestino delgado ___ (estar) expuesto a muchos factores.', options: ['esté', 'estuvo', 'ha estado', 'está'], correct: 3 },
+      { question: 'Muchas enfermedades ___ (afectar) al organismo por la inflamación.', options: ['afectaron', 'afectan', 'han afectado', 'afecten'], correct: 1 },
+      { question: 'Es importante que ___ (disminuir) la inflamación crónica.', options: ['disminuía', 'disminuye', 'disminuya', 'ha disminuido'], correct: 2 },
+      { question: 'El lupus ___ (poder) tener su origen en el tubo digestivo.', options: ['pueda', 'pudo', 'ha podido', 'puede'], correct: 3 },
       { question: 'Por consiguiente, nosotros ___ (deber) cuidar nuestra alimentación.', options: ['debemos', 'debimos', 'hemos debido', 'debamos'], correct: 0 },
       { question: 'La ansiedad ___ (tener) relación con la nutrición.', options: ['tiene', 'tuvo', 'ha tenido', 'tenga'], correct: 0 },
-      { question: 'Es bueno que ___ (absorber) todos los nutrientes necesarios.', options: ['absorbamos', 'absorbemos', 'absorbíamos', 'hemos absorbido'], correct: 0 },
-      { question: 'Los investigadores ___ (descubrir) recientemente la conexión cerebro-intestino.', options: ['han descubierto', 'descubrieron', 'descubren', 'descubran'], correct: 0 }
+      { question: 'Es bueno que ___ (absorber) todos los nutrientes necesarios.', options: ['absorbemos', 'absorbamos', 'absorbíamos', 'hemos absorbido'], correct: 1 },
+      { question: 'Los investigadores ___ (descubrir) recientemente la conexión cerebro-intestino.', options: ['descubran', 'descubrieron', 'descubren', 'han descubierto'], correct: 3 }
     ]
   },
 
@@ -38878,21 +38878,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Грамматика 3: ¿Qué es la microbiota?',
     description: 'Выберите правильную форму глагола',
     questions: [
-      { question: 'La fibra ___ (ayudar) a las fuerzas del bien.', options: ['ayuda', 'ayudó', 'ha ayudado', 'ayude'], correct: 0 },
+      { question: 'La fibra ___ (ayudar) a las fuerzas del bien.', options: ['ha ayudado', 'ayudó', 'ayuda', 'ayude'], correct: 2 },
       { question: 'Es esencial que ___ (conectar) todos los puntos.', options: ['conectemos', 'conectamos', 'conectábamos', 'hemos conectado'], correct: 0 },
-      { question: 'Cuando yo ___ (ir) al campo, me siento mejor.', options: ['voy', 'fui', 'he ido', 'vaya'], correct: 0 },
-      { question: 'Los ritmos circadianos ___ (depender) de la luz solar.', options: ['dependen', 'dependieron', 'han dependido', 'dependan'], correct: 0 },
-      { question: 'La difusión de esta información ___ (ser) muy importante.', options: ['es', 'fue', 'ha sido', 'sea'], correct: 0 },
+      { question: 'Cuando yo ___ (ir) al campo, me siento mejor.', options: ['fui', 'voy', 'he ido', 'vaya'], correct: 1 },
+      { question: 'Los ritmos circadianos ___ (depender) de la luz solar.', options: ['dependan', 'dependieron', 'han dependido', 'dependen'], correct: 3 },
+      { question: 'La difusión de esta información ___ (ser) muy importante.', options: ['ha sido', 'fue', 'es', 'sea'], correct: 2 },
       { question: 'Es bueno que el doctor ___ (compartir) su sabiduría.', options: ['comparta', 'comparte', 'compartía', 'ha compartido'], correct: 0 },
-      { question: 'Las mareas nos ___ (influir) naturalmente.', options: ['influyen', 'influyeron', 'han influido', 'influyan'], correct: 0 },
-      { question: 'Antes no se ___ (conocer) la importancia de la microbiota.', options: ['conocía', 'conoció', 'ha conocido', 'conozca'], correct: 0 },
-      { question: 'El doctor ___ (ejercer) la cirugía durante 26 años.', options: ['ejerció', 'ejercía', 'ha ejercido', 'ejerza'], correct: 0 },
-      { question: 'Es importante que ___ (investigar) este campo.', options: ['investiguemos', 'investigamos', 'investigábamos', 'hemos investigado'], correct: 0 },
-      { question: 'El ser humano ___ (estar) en relación con todo.', options: ['está', 'estuvo', 'ha estado', 'esté'], correct: 0 },
+      { question: 'Las mareas nos ___ (influir) naturalmente.', options: ['influyan', 'influyeron', 'han influido', 'influyen'], correct: 3 },
+      { question: 'Antes no se ___ (conocer) la importancia de la microbiota.', options: ['conoció', 'conocía', 'ha conocido', 'conozca'], correct: 1 },
+      { question: 'El doctor ___ (ejercer) la cirugía durante 26 años.', options: ['ejerza', 'ejercía', 'ha ejercido', 'ejerció'], correct: 3 },
+      { question: 'Es importante que ___ (investigar) este campo.', options: ['investigamos', 'investiguemos', 'investigábamos', 'hemos investigado'], correct: 1 },
+      { question: 'El ser humano ___ (estar) en relación con todo.', options: ['ha estado', 'estuvo', 'está', 'esté'], correct: 2 },
       { question: 'Es necesario que las personas ___ (formarse) sobre este tema.', options: ['se formen', 'se forman', 'se formaban', 'se han formado'], correct: 0 },
-      { question: 'La energía ___ (existir) en nuestro entorno.', options: ['existe', 'existió', 'ha existido', 'exista'], correct: 0 },
-      { question: 'El nodo intracraneal ___ (ser) parte del sistema nervioso.', options: ['es', 'fue', 'ha sido', 'sea'], correct: 0 },
-      { question: 'Es bonito que uno nunca ___ (poder) aburrirse investigando.', options: ['pueda', 'puede', 'podía', 'ha podido'], correct: 0 }
+      { question: 'La energía ___ (existir) en nuestro entorno.', options: ['existió', 'existe', 'ha existido', 'exista'], correct: 1 },
+      { question: 'El nodo intracraneal ___ (ser) parte del sistema nervioso.', options: ['ha sido', 'fue', 'es', 'sea'], correct: 2 },
+      { question: 'Es bonito que uno nunca ___ (poder) aburrirse investigando.', options: ['ha podido', 'puede', 'podía', 'pueda'], correct: 3 }
     ]
   },
 
@@ -38952,16 +38952,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Potencial y tigre de Bengala',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'fabuloso', options: ['обычный', 'сказочный', 'грустный', 'слабый'], correct: 1 },
+      { spanish: 'fabuloso', options: ['обычный', 'слабый', 'грустный', 'сказочный'], correct: 3 },
       { spanish: 'la potencia', options: ['слабость', 'мощность', 'скорость', 'высота'], correct: 1 },
-      { spanish: 'cazar', options: ['бежать', 'спать', 'охотиться', 'плавать'], correct: 2 },
+      { spanish: 'cazar', options: ['охотиться', 'спать', 'бежать', 'плавать'], correct: 0 },
       { spanish: 'el ciervo', options: ['тигр', 'кошка', 'олень', 'собака'], correct: 2 },
-      { spanish: 'fallar', options: ['удаваться', 'провалиться', 'побеждать', 'учиться'], correct: 1 },
-      { spanish: 'el error', options: ['успех', 'победа', 'ошибка', 'правда'], correct: 2 },
-      { spanish: 'la mentalidad', options: ['тело', 'душа', 'менталитет', 'болезнь'], correct: 2 },
+      { spanish: 'fallar', options: ['удаваться', 'побеждать', 'провалиться', 'учиться'], correct: 2 },
+      { spanish: 'el error', options: ['ошибка', 'победа', 'успех', 'правда'], correct: 0 },
+      { spanish: 'la mentalidad', options: ['тело', 'душа', 'болезнь', 'менталитет'], correct: 3 },
       { spanish: 'desaparecer', options: ['появляться', 'исчезать', 'расти', 'падать'], correct: 1 },
-      { spanish: 'la excusa', options: ['правда', 'факт', 'оправдание', 'победа'], correct: 2 },
-      { spanish: 'el título académico', options: ['книга', 'урок', 'диплом', 'экзамен'], correct: 2 }
+      { spanish: 'la excusa', options: ['правда', 'оправдание', 'факт', 'победа'], correct: 1 },
+      { spanish: 'el título académico', options: ['диплом', 'урок', 'книга', 'экзамен'], correct: 0 }
     ]
   },
 
@@ -38973,23 +38973,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Cuánto pesa un tigre de Bengala?',
-        options: ['100 kg', 'Más de 200 kg', '50 kg', '300 kg'],
-        correct: 1
+        options: ['100 kg', '50 kg', 'Más de 200 kg', '300 kg'],
+        correct: 2
       },
       {
         question: '¿Cuántos metros puede saltar el tigre?',
-        options: ['5 metros', '7 metros', '9 metros', '12 metros'],
-        correct: 2
+        options: ['9 metros', '7 metros', '5 metros', '12 metros'],
+        correct: 0
       },
       {
         question: '¿Cuántos intentos necesita el tigre para cazar un ciervo?',
-        options: ['Cinco', 'Siete', 'Diez', 'Quince'],
-        correct: 2
+        options: ['Cinco', 'Siete', 'Quince', 'Diez'],
+        correct: 3
       },
       {
         question: '¿Cuántas veces falla el tigre?',
-        options: ['Cinco', 'Siete', 'Nueve', 'Tres'],
-        correct: 2
+        options: ['Cinco', 'Nueve', 'Siete', 'Tres'],
+        correct: 1
       },
       {
         question: 'Según el texto, ¿qué pasaría si los tigres actuaran como los humanos?',
@@ -38998,28 +38998,28 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué hacen los humanos cuando fallan?',
-        options: ['Continúan sin problema', 'Encuentran excusas', 'Se alegran', 'No hacen nada'],
-        correct: 1
+        options: ['Encuentran excusas', 'Continúan sin problema', 'Se alegran', 'No hacen nada'],
+        correct: 0
       },
       {
         question: '¿Cuál es una excusa mencionada en el texto?',
-        options: ['"Soy muy joven"', '"Soy demasiado mayor"', '"Soy muy fuerte"', '"Soy perfecto"'],
-        correct: 1
-      },
-      {
-        question: 'Según el texto, ¿de qué es un tema el éxito?',
-        options: ['De suerte', 'De dinero', 'De mentalidad', 'De edad'],
+        options: ['"Soy muy joven"', '"Soy muy fuerte"', '"Soy demasiado mayor"', '"Soy perfecto"'],
         correct: 2
       },
       {
+        question: 'Según el texto, ¿de qué es un tema el éxito?',
+        options: ['De suerte', 'De dinero', 'De edad', 'De mentalidad'],
+        correct: 3
+      },
+      {
         question: '¿Quién inspiró este ejemplo del tigre?',
-        options: ['Mario Alonso Puig', 'Victor Küppers', 'Pablo Neruda', 'Ashoka'],
-        correct: 1
+        options: ['Victor Küppers', 'Mario Alonso Puig', 'Pablo Neruda', 'Ashoka'],
+        correct: 0
       },
       {
         question: '¿Qué significa "cuando tienes la mentalidad bien amueblada"?',
-        options: ['Cuando tienes muebles', 'Cuando tu mente está organizada', 'Cuando eres rico', 'Cuando vives bien'],
-        correct: 1
+        options: ['Cuando tienes muebles', 'Cuando vives bien', 'Cuando eres rico', 'Cuando tu mente está organizada'],
+        correct: 3
       }
     ]
   },
@@ -39038,26 +39038,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Si los tigres ___ como los humanos, desaparecerían.',
-        options: ['actúan', 'actuaran', 'han actuado', 'actuarán'],
-        correct: 1,
+        options: ['actúan', 'actuarán', 'han actuado', 'actuaran'],
+        correct: 3,
         explanation: 'Imperfecto de subjuntivo в условных предложениях типа II'
       },
       {
         sentence: 'Nosotros siempre ___ excusas cuando fallamos.',
-        options: ['encontramos', 'encontrábamos', 'hemos encontrado', 'encontraremos'],
-        correct: 0,
+        options: ['encontrábamos', 'encontramos', 'hemos encontrado', 'encontraremos'],
+        correct: 1,
         explanation: 'Presente для повторяющихся действий'
       },
       {
         sentence: 'El tigre ___ saltar hasta 9 metros.',
-        options: ['puede', 'podía', 'ha podido', 'podrá'],
-        correct: 0,
+        options: ['ha podido', 'podía', 'puede', 'podrá'],
+        correct: 2,
         explanation: 'Presente для постоянной способности'
       },
       {
         sentence: 'Cuando ___ la mentalidad bien amueblada, todo es más fácil.',
-        options: ['tienes', 'tenías', 'has tenido', 'tuviste'],
-        correct: 0,
+        options: ['tenías', 'tienes', 'has tenido', 'tuviste'],
+        correct: 1,
         explanation: 'Presente в придаточных времени с cuando'
       },
       {
@@ -39068,26 +39068,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Si yo ___ un tigre, no me rendiría.',
-        options: ['soy', 'fuera', 'he sido', 'seré'],
-        correct: 1,
+        options: ['soy', 'he sido', 'fuera', 'seré'],
+        correct: 2,
         explanation: 'Imperfecto de subjuntivo в условных предложениях'
       },
       {
         sentence: 'El tigre no ___ cuando falla.',
-        options: ['se rinde', 'se rendía', 'se ha rendido', 'se rindió'],
-        correct: 0,
+        options: ['se rindió', 'se rendía', 'se ha rendido', 'se rinde'],
+        correct: 3,
         explanation: 'Presente для постоянной характеристики'
       },
       {
         sentence: 'Nosotros ___ más excusas que soluciones.',
-        options: ['buscamos', 'buscábamos', 'hemos buscado', 'buscaremos'],
-        correct: 0,
+        options: ['buscábamos', 'buscamos', 'hemos buscado', 'buscaremos'],
+        correct: 1,
         explanation: 'Presente для обычного поведения'
       },
       {
         sentence: 'Victor Küppers ___ este ejemplo del tigre.',
-        options: ['usa', 'usaba', 'ha usado', 'usará'],
-        correct: 2,
+        options: ['ha usado', 'usaba', 'usa', 'usará'],
+        correct: 0,
         explanation: 'Pretérito perfecto для действия, связанного с настоящим'
       }
     ]
@@ -39119,16 +39119,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Dejar de dudar',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'la capacidad', options: ['неспособность', 'способность', 'скорость', 'высота'], correct: 1 },
-      { spanish: 'comprobar', options: ['проверять', 'ломать', 'строить', 'думать'], correct: 0 },
-      { spanish: 'la evidencia', options: ['сомнение', 'вопрос', 'доказательство', 'отказ'], correct: 2 },
-      { spanish: 'obtener', options: ['терять', 'получить', 'дарить', 'брать'], correct: 1 },
-      { spanish: 'el paso', options: ['остановка', 'шаг', 'бег', 'полет'], correct: 1 },
-      { spanish: 'benévolo', options: ['злой', 'грустный', 'доброжелательный', 'строгий'], correct: 2 },
-      { spanish: 'demostrar', options: ['скрывать', 'забывать', 'доказывать', 'отрицать'], correct: 2 },
+      { spanish: 'la capacidad', options: ['неспособность', 'скорость', 'способность', 'высота'], correct: 2 },
+      { spanish: 'comprobar', options: ['ломать', 'проверять', 'строить', 'думать'], correct: 1 },
+      { spanish: 'la evidencia', options: ['сомнение', 'вопрос', 'отказ', 'доказательство'], correct: 3 },
+      { spanish: 'obtener', options: ['получить', 'терять', 'дарить', 'брать'], correct: 0 },
+      { spanish: 'el paso', options: ['остановка', 'бег', 'шаг', 'полет'], correct: 2 },
+      { spanish: 'benévolo', options: ['злой', 'грустный', 'строгий', 'доброжелательный'], correct: 3 },
+      { spanish: 'demostrar', options: ['доказывать', 'забывать', 'скрывать', 'отрицать'], correct: 0 },
       { spanish: 'atrapar', options: ['отпускать', 'поймать', 'бежать', 'падать'], correct: 1 },
-      { spanish: 'atreverse', options: ['бояться', 'осмеливаться', 'отказываться', 'сомневаться'], correct: 1 },
-      { spanish: 'en marcha', options: ['остановившись', 'в движении', 'сидя', 'лежа'], correct: 1 }
+      { spanish: 'atreverse', options: ['бояться', 'сомневаться', 'отказываться', 'осмеливаться'], correct: 3 },
+      { spanish: 'en marcha', options: ['в движении', 'остановившись', 'сидя', 'лежа'], correct: 0 }
     ]
   },
 
@@ -39145,43 +39145,43 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Cómo puedes comprobar tu capacidad?',
-        options: ['Pensando mucho', 'Teniendo evidencias', 'Preguntando a otros', 'Esperando'],
-        correct: 1
+        options: ['Pensando mucho', 'Esperando', 'Preguntando a otros', 'Teniendo evidencias'],
+        correct: 3
       },
       {
         question: '¿Cuándo obtendrás evidencias?',
-        options: ['Cuando pienses', 'Si te pones en marcha', 'Cuando duermas', 'Si esperas'],
-        correct: 1
+        options: ['Si te pones en marcha', 'Cuando pienses', 'Cuando duermas', 'Si esperas'],
+        correct: 0
       },
       {
         question: '¿Qué debes preguntarte?',
-        options: ['¿Cuál es el paso más grande?', '¿Cuál es el paso más pequeñito?', '¿Cuándo empiezo?', '¿Por qué no puedo?'],
-        correct: 1
-      },
-      {
-        question: 'Según el texto, ¿cómo es el mundo real?',
-        options: ['Más cruel que el mental', 'Más benévolo que el mental', 'Igual que el mental', 'Peor que el mental'],
-        correct: 1
-      },
-      {
-        question: '¿Qué te demostrará el mundo real?',
-        options: ['Tus errores', 'Tus miedos', 'Quién eres de verdad', 'Tus dudas'],
+        options: ['¿Cuál es el paso más grande?', '¿Cuándo empiezo?', '¿Cuál es el paso más pequeñito?', '¿Por qué no puedo?'],
         correct: 2
       },
       {
-        question: '¿Dónde te mantendrá atrapado el mundo mental?',
-        options: ['En quien eres', 'En quien te crees que eres', 'En tus éxitos', 'En tus amigos'],
+        question: 'Según el texto, ¿cómo es el mundo real?',
+        options: ['Más benévolo que el mental', 'Más cruel que el mental', 'Igual que el mental', 'Peor que el mental'],
+        correct: 0
+      },
+      {
+        question: '¿Qué te demostrará el mundo real?',
+        options: ['Tus errores', 'Quién eres de verdad', 'Tus miedos', 'Tus dudas'],
         correct: 1
+      },
+      {
+        question: '¿Dónde te mantendrá atrapado el mundo mental?',
+        options: ['En quien eres', 'En tus amigos', 'En tus éxitos', 'En quien te crees que eres'],
+        correct: 3
       },
       {
         question: '¿Qué es lo más pequeñito que debes hacer?',
-        options: ['Pensar', 'Dar un paso', 'Esperar', 'Dudar'],
-        correct: 1
+        options: ['Pensar', 'Esperar', 'Dar un paso', 'Dudar'],
+        correct: 2
       },
       {
         question: '¿Qué actitud propone el texto?',
-        options: ['Tener miedo', 'Atreverse a dar pasos', 'Quedarse quieto', 'Pensar mucho'],
-        correct: 1
+        options: ['Tener miedo', 'Pensar mucho', 'Quedarse quieto', 'Atreverse a dar pasos'],
+        correct: 3
       },
       {
         question: 'La diferencia entre el mundo real y mental es que el real:',
@@ -39287,15 +39287,15 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     description: 'Выберите правильный перевод',
     questions: [
       { spanish: 'impacto', options: ['движение', 'влияние', 'чувство', 'память'], correct: 1 },
-      { spanish: 'el torrente sanguíneo', options: ['кровоток', 'слеза', 'дыхание', 'пульс'], correct: 0 },
-      { spanish: 'el miedo', options: ['радость', 'страх', 'гнев', 'любовь'], correct: 1 },
+      { spanish: 'el torrente sanguíneo', options: ['пульс', 'слеза', 'дыхание', 'кровоток'], correct: 3 },
+      { spanish: 'el miedo', options: ['страх', 'радость', 'гнев', 'любовь'], correct: 0 },
       { spanish: 'el daño', options: ['польза', 'помощь', 'вред', 'забота'], correct: 2 },
-      { spanish: 'la implicación', options: ['отрицание', 'вовлечение', 'отказ', 'изоляция'], correct: 1 },
-      { spanish: 'la salud', options: ['болезнь', 'здоровье', 'усталость', 'слабость'], correct: 1 },
+      { spanish: 'la implicación', options: ['вовлечение', 'отрицание', 'отказ', 'изоляция'], correct: 0 },
+      { spanish: 'la salud', options: ['болезнь', 'слабость', 'усталость', 'здоровье'], correct: 3 },
       { spanish: 'la enfermedad', options: ['здоровье', 'лечение', 'болезнь', 'врач'], correct: 2 },
-      { spanish: 'el sentimiento', options: ['чувство', 'мысль', 'действие', 'слово'], correct: 0 },
-      { spanish: 'proteger', options: ['атаковать', 'защищать', 'бояться', 'избегать'], correct: 1 },
-      { spanish: 'potenciar', options: ['ослаблять', 'усиливать', 'терять', 'забывать'], correct: 1 }
+      { spanish: 'el sentimiento', options: ['мысль', 'чувство', 'действие', 'слово'], correct: 1 },
+      { spanish: 'proteger', options: ['атаковать', 'бояться', 'защищать', 'избегать'], correct: 2 },
+      { spanish: 'potenciar', options: ['усиливать', 'ослаблять', 'терять', 'забывать'], correct: 0 }
     ]
   },
 
@@ -39307,48 +39307,48 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué impacto tienen las emociones según el texto?',
-        options: ['Solo mental', 'Directo en la salud y enfermedad', 'Ninguno', 'Solo en el cerebro'],
-        correct: 1
+        options: ['Solo mental', 'Solo en el cerebro', 'Ninguno', 'Directo en la salud y enfermedad'],
+        correct: 3
       },
       {
         question: '¿Cuál es la diferencia entre emoción y sentimiento?',
-        options: ['No hay diferencia', 'Las emociones son procesos corporales', 'Los sentimientos son físicos', 'Las emociones son mentales'],
-        correct: 1
+        options: ['Las emociones son procesos corporales', 'No hay diferencia', 'Los sentimientos son físicos', 'Las emociones son mentales'],
+        correct: 0
       },
       {
         question: '¿Qué hormona se libera cuando estamos con alguien que queremos?',
-        options: ['Cortisol', 'Adrenalina', 'Oxitocina', 'Insulina'],
-        correct: 2
+        options: ['Cortisol', 'Oxitocina', 'Adrenalina', 'Insulina'],
+        correct: 1
       },
       {
         question: '¿Qué efectos tiene la oxitocina?',
-        options: ['Aumenta el estrés', 'Protege la salud y el corazón', 'Debilita el sistema inmune', 'Causa infecciones'],
-        correct: 1
-      },
-      {
-        question: '¿Qué hace la oxitocina con el eje del estrés?',
-        options: ['Lo activa', 'Lo corta radicalmente', 'Lo aumenta', 'No lo afecta'],
-        correct: 1
-      },
-      {
-        question: '¿Qué hormona se libera cuando experimentamos miedo?',
-        options: ['Oxitocina', 'Cortisol', 'Serotonina', 'Dopamina'],
-        correct: 1
-      },
-      {
-        question: '¿Qué pasa cuando el cortisol se mantiene en cifras altas?',
-        options: ['Mejora la salud', 'Hace muchísimo daño en la salud', 'No afecta nada', 'Protege el corazón'],
-        correct: 1
-      },
-      {
-        question: '¿Cómo se siente una persona que libera mucho cortisol?',
-        options: ['Tranquila', 'Feliz', 'Asustada', 'Relajada'],
+        options: ['Aumenta el estrés', 'Debilita el sistema inmune', 'Protege la salud y el corazón', 'Causa infecciones'],
         correct: 2
       },
       {
-        question: '¿Qué potencia la oxitocina?',
-        options: ['El miedo', 'El sistema inmune', 'El estrés', 'Las infecciones'],
+        question: '¿Qué hace la oxitocina con el eje del estrés?',
+        options: ['Lo activa', 'No lo afecta', 'Lo aumenta', 'Lo corta radicalmente'],
+        correct: 3
+      },
+      {
+        question: '¿Qué hormona se libera cuando experimentamos miedo?',
+        options: ['Cortisol', 'Oxitocina', 'Serotonina', 'Dopamina'],
+        correct: 0
+      },
+      {
+        question: '¿Qué pasa cuando el cortisol se mantiene en cifras altas?',
+        options: ['Mejora la salud', 'No afecta nada', 'Hace muchísimo daño en la salud', 'Protege el corazón'],
+        correct: 2
+      },
+      {
+        question: '¿Cómo se siente una persona que libera mucho cortisol?',
+        options: ['Tranquila', 'Asustada', 'Feliz', 'Relajada'],
         correct: 1
+      },
+      {
+        question: '¿Qué potencia la oxitocina?',
+        options: ['El sistema inmune', 'El miedo', 'El estrés', 'Las infecciones'],
+        correct: 0
       },
       {
         question: 'Según el texto, ¿las emociones tienen implicación en la salud?',
@@ -39366,20 +39366,20 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Las emociones ___ un impacto directo en la salud.',
-        options: ['tienen', 'han tenido', 'tuvieron', 'tendrán'],
-        correct: 0,
+        options: ['tuvieron', 'han tenido', 'tienen', 'tendrán'],
+        correct: 2,
         explanation: 'Presente для постоянного факта'
       },
       {
         sentence: 'Yo ___ con mi familia ayer. (estar)',
-        options: ['estoy', 'he estado', 'estuve', 'estaré'],
-        correct: 2,
+        options: ['estoy', 'estuve', 'he estado', 'estaré'],
+        correct: 1,
         explanation: 'Pretérito indefinido с "ayer"'
       },
       {
         sentence: '¡___ tu salud! (proteger)',
-        options: ['Protege', 'Proteges', 'Protegiendo', 'Proteger'],
-        correct: 0,
+        options: ['Proteger', 'Proteges', 'Protegiendo', 'Protege'],
+        correct: 3,
         explanation: 'Imperativo afirmativo tú'
       },
       {
@@ -39390,14 +39390,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'No ___ miedo constantemente. (tener)',
-        options: ['tiene', 'tengas', 'tienes', 'tener'],
-        correct: 1,
+        options: ['tiene', 'tener', 'tienes', 'tengas'],
+        correct: 3,
         explanation: 'Imperativo negativo требует subjuntivo'
       },
       {
         sentence: 'Nosotros ___ mucho cortisol esta semana.',
-        options: ['liberamos', 'hemos liberado', 'liberamos', 'liberaremos'],
-        correct: 1,
+        options: ['liberamos', 'liberamos', 'hemos liberado', 'liberaremos'],
+        correct: 2,
         explanation: 'Pretérito perfecto с "esta semana"'
       },
       {
@@ -39408,8 +39408,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: '¡___ esas emociones positivas! (experimentar)',
-        options: ['Experimenta', 'Experimentas', 'Experimentando', 'Experimentar'],
-        correct: 0,
+        options: ['Experimentas', 'Experimenta', 'Experimentando', 'Experimentar'],
+        correct: 1,
         explanation: 'Imperativo afirmativo tú'
       },
       {
@@ -39453,16 +39453,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Creamos nuestras emociones',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'caer en cuenta', options: ['забыть', 'понять', 'бояться', 'искать'], correct: 1 },
-      { spanish: 'quedarse impactado', options: ['остаться равнодушным', 'остаться очень удивленным', 'уйти', 'спать'], correct: 1 },
-      { spanish: 'operar', options: ['спать', 'действовать', 'бояться', 'забыть'], correct: 1 },
+      { spanish: 'caer en cuenta', options: ['забыть', 'бояться', 'понять', 'искать'], correct: 2 },
+      { spanish: 'quedarse impactado', options: ['остаться равнодушным', 'спать', 'уйти', 'остаться очень удивленным'], correct: 3 },
+      { spanish: 'operar', options: ['действовать', 'спать', 'бояться', 'забыть'], correct: 0 },
       { spanish: 'inconsciente', options: ['сознательный', 'бессознательный', 'важный', 'новый'], correct: 1 },
       { spanish: 'la desesperanza', options: ['надежда', 'радость', 'отчаяние', 'любовь'], correct: 2 },
-      { spanish: 'la pasión', options: ['скука', 'равнодушие', 'страсть', 'грусть'], correct: 2 },
-      { spanish: 'atribuir', options: ['забирать', 'терять', 'приписывать', 'находить'], correct: 2 },
-      { spanish: 'ocurrir', options: ['происходить', 'заканчиваться', 'начинаться', 'исчезать'], correct: 0 },
+      { spanish: 'la pasión', options: ['страсть', 'равнодушие', 'скука', 'грусть'], correct: 0 },
+      { spanish: 'atribuir', options: ['забирать', 'терять', 'находить', 'приписывать'], correct: 3 },
+      { spanish: 'ocurrir', options: ['заканчиваться', 'происходить', 'начинаться', 'исчезать'], correct: 1 },
       { spanish: 'las circunstancias', options: ['люди', 'обстоятельства', 'дома', 'дороги'], correct: 1 },
-      { spanish: 'sin embargo', options: ['поэтому', 'однако', 'потому что', 'также'], correct: 1 }
+      { spanish: 'sin embargo', options: ['однако', 'поэтому', 'потому что', 'также'], correct: 0 }
     ]
   },
 
@@ -39474,8 +39474,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Cómo se sintió el autor cuando se dio cuenta de que creamos nuestras emociones?',
-        options: ['Triste', 'Absolutamente impactado', 'Aburrido', 'Asustado'],
-        correct: 1
+        options: ['Absolutamente impactado', 'Triste', 'Aburrido', 'Asustado'],
+        correct: 0
       },
       {
         question: '¿A qué nivel opera la creación de emociones?',
@@ -39489,8 +39489,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿A qué atribuimos nuestras emociones?',
-        options: ['A nosotros mismos', 'A lo que ocurre fuera', 'A nuestros pensamientos', 'A la suerte'],
-        correct: 1
+        options: ['A nosotros mismos', 'A la suerte', 'A nuestros pensamientos', 'A lo que ocurre fuera'],
+        correct: 3
       },
       {
         question: '¿Qué pasa cuando vemos a alguien con circunstancias desfavorables pero entusiasmado?',
@@ -39499,23 +39499,23 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'Según el texto, ¿qué hacemos cuando algo nos desconcierta?',
-        options: ['Indagamos mucho', 'No indagamos', 'Preguntamos', 'Investigamos'],
-        correct: 1
+        options: ['Indagamos mucho', 'Investigamos', 'Preguntamos', 'No indagamos'],
+        correct: 3
       },
       {
         question: '¿Qué pasa cuando tú cambias?',
-        options: ['Nada', 'El mundo cambia', 'Todo empeora', 'Todo sigue igual'],
-        correct: 1
+        options: ['Nada', 'Todo empeora', 'El mundo cambia', 'Todo sigue igual'],
+        correct: 2
       },
       {
         question: '¿Qué es más importante según el texto?',
-        options: ['Lo que sucede fuera', 'Lo que está sucediendo dentro', 'La suerte', 'El dinero'],
-        correct: 1
+        options: ['Lo que está sucediendo dentro', 'Lo que sucede fuera', 'La suerte', 'El dinero'],
+        correct: 0
       },
       {
         question: '¿Qué encuentra su expresión fuera de ti?',
-        options: ['Lo que pasa fuera', 'Lo que pasa dentro de ti', 'Tus circunstancias', 'Tu trabajo'],
-        correct: 1
+        options: ['Lo que pasa dentro de ti', 'Lo que pasa fuera', 'Tus circunstancias', 'Tu trabajo'],
+        correct: 0
       },
       {
         question: '¿Cómo es el proceso de creación de emociones?',
@@ -39534,19 +39534,19 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       {
         sentence: 'Nosotros ___ nuestras emociones.',
         options: ['creamos', 'hemos creado', 'creamos', 'crearemos'],
-        correct: 0,
+        correct: 2,
         explanation: 'Presente для постоянного факта'
       },
       {
         sentence: 'Yo ___ en la cuenta ayer. (caer)',
-        options: ['caigo', 'he caído', 'caí', 'caeré'],
-        correct: 2,
+        options: ['caigo', 'caí', 'he caído', 'caeré'],
+        correct: 1,
         explanation: 'Pretérito indefinido с "ayer"'
       },
       {
         sentence: '¡___ a tu interior! (mirar)',
-        options: ['Mira', 'Miras', 'Mirando', 'Mirar'],
-        correct: 0,
+        options: ['Mirar', 'Miras', 'Mirando', 'Mira'],
+        correct: 3,
         explanation: 'Imperativo afirmativo tú'
       },
       {
@@ -39557,38 +39557,38 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'No ___ tus emociones a otros. (atribuir)',
-        options: ['atribuye', 'atribuyas', 'atribuyes', 'atribuir'],
-        correct: 1,
+        options: ['atribuye', 'atribuir', 'atribuyes', 'atribuyas'],
+        correct: 3,
         explanation: 'Imperativo negativo требует subjuntivo'
       },
       {
         sentence: 'Yo ___ absolutamente impactado esta mañana.',
-        options: ['me quedo', 'me he quedado', 'me quedé', 'me quedaré'],
-        correct: 1,
+        options: ['me he quedado', 'me quedo', 'me quedé', 'me quedaré'],
+        correct: 0,
         explanation: 'Pretérito perfecto с "esta mañana"'
       },
       {
         sentence: 'Cuando tú ___, el mundo cambia.',
-        options: ['cambias', 'cambiabas', 'has cambiado', 'cambiarás'],
-        correct: 0,
+        options: ['has cambiado', 'cambiabas', 'cambias', 'cambiarás'],
+        correct: 2,
         explanation: 'Presente в главном предложении después de "cuando"'
       },
       {
         sentence: '¡___ por qué te sientes así! (indagar)',
-        options: ['Indaga', 'Indagas', 'Indagando', 'Indagar'],
-        correct: 0,
+        options: ['Indagas', 'Indaga', 'Indagando', 'Indagar'],
+        correct: 1,
         explanation: 'Imperativo afirmativo tú'
       },
       {
         sentence: 'Las cosas ___ a cambiar cuando cambias tú.',
-        options: ['empiezan', 'empezaban', 'han empezado', 'empezarán'],
-        correct: 0,
+        options: ['empezarán', 'empezaban', 'han empezado', 'empiezan'],
+        correct: 3,
         explanation: 'Presente para hechos generales'
       },
       {
         sentence: 'No ___ tus emociones a las circunstancias. (atribuir)',
-        options: ['atribuye', 'atribuyas', 'atribuyes', 'atribuir'],
-        correct: 1,
+        options: ['atribuye', 'atribuyes', 'atribuyas', 'atribuir'],
+        correct: 2,
         explanation: 'Imperativo negativo (subjuntivo)'
       }
     ]
@@ -39620,16 +39620,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Por que te pones malo con el estrés',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'que ocurre', options: ['как дела?', 'что происходит?', 'куда идешь?', 'кто там?'], correct: 1 },
+      { spanish: 'que ocurre', options: ['как дела?', 'кто там?', 'куда идешь?', 'что происходит?'], correct: 3 },
       { spanish: 'relajarse', options: ['напрягаться', 'расслабляться', 'бежать', 'кричать'], correct: 1 },
-      { spanish: 'el nervio vago', options: ['нервный человек', 'блуждающий нерв', 'страх', 'боль'], correct: 1 },
-      { spanish: 'la recuperación', options: ['потеря', 'восстановление', 'болезнь', 'усталость'], correct: 1 },
-      { spanish: 'estar en alerta', options: ['спать', 'быть начеку', 'отдыхать', 'работать'], correct: 1 },
+      { spanish: 'el nervio vago', options: ['нервный человек', 'страх', 'блуждающий нерв', 'боль'], correct: 2 },
+      { spanish: 'la recuperación', options: ['восстановление', 'потеря', 'болезнь', 'усталость'], correct: 0 },
+      { spanish: 'estar en alerta', options: ['быть начеку', 'спать', 'отдыхать', 'работать'], correct: 0 },
       { spanish: 'constantemente', options: ['иногда', 'редко', 'постоянно', 'никогда'], correct: 2 },
-      { spanish: 'percibir', options: ['игнорировать', 'забывать', 'воспринимать', 'отрицать'], correct: 2 },
-      { spanish: 'el peligro', options: ['безопасность', 'помощь', 'опасность', 'радость'], correct: 2 },
-      { spanish: 'amenazar', options: ['помогать', 'защищать', 'угрожать', 'любить'], correct: 2 },
-      { spanish: 'estar acatarrado', options: ['быть здоровым', 'быть простуженным', 'быть счастливым', 'быть уставшим'], correct: 1 }
+      { spanish: 'percibir', options: ['игнорировать', 'забывать', 'отрицать', 'воспринимать'], correct: 3 },
+      { spanish: 'el peligro', options: ['безопасность', 'опасность', 'помощь', 'радость'], correct: 1 },
+      { spanish: 'amenazar', options: ['помогать', 'угрожать', 'защищать', 'любить'], correct: 1 },
+      { spanish: 'estar acatarrado', options: ['быть простуженным', 'быть здоровым', 'быть счастливым', 'быть уставшим'], correct: 0 }
     ]
   },
 
@@ -39641,18 +39641,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué activa el nervio vago cuando nos relajamos?',
-        options: ['El estrés', 'Los sistemas de recuperación', 'El miedo', 'La enfermedad'],
-        correct: 1
+        options: ['El estrés', 'El miedo', 'Los sistemas de recuperación', 'La enfermedad'],
+        correct: 2
       },
       {
         question: '¿Qué pasa si estamos constantemente en alerta?',
-        options: ['El nervio vago funciona mejor', 'El nervio vago no puede funcionar bien', 'Nos relajamos', 'Dormimos mejor'],
-        correct: 1
+        options: ['El nervio vago funciona mejor', 'Dormimos mejor', 'Nos relajamos', 'El nervio vago no puede funcionar bien'],
+        correct: 3
       },
       {
         question: '¿Cuándo se siente amenazada una persona en una reunión?',
-        options: ['Cuando la van a pegar', 'Cuando la pueden ridiculizar', 'Cuando tiene hambre', 'Cuando está feliz'],
-        correct: 1
+        options: ['Cuando la pueden ridiculizar', 'Cuando la van a pegar', 'Cuando tiene hambre', 'Cuando está feliz'],
+        correct: 0
       },
       {
         question: '¿Qué sistema debe protegernos y recuperarnos?',
@@ -39666,18 +39666,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué sistema se activa cuando el parasimpático se apaga?',
-        options: ['El digestivo', 'El nervioso simpático', 'El inmune', 'El respiratorio'],
-        correct: 1
+        options: ['El digestivo', 'El inmune', 'El nervioso simpático', 'El respiratorio'],
+        correct: 2
       },
       {
         question: '¿Qué es más fácil cuando el sistema simpático está activo?',
-        options: ['Relajarse', 'Acatarrarse', 'Dormir', 'Comer'],
-        correct: 1
+        options: ['Acatarrarse', 'Relajarse', 'Dormir', 'Comer'],
+        correct: 0
       },
       {
         question: '¿Qué le importa al sistema nervioso simpático?',
-        options: ['Que no te acatarres', 'Que no te coma un depredador', 'Que duermas bien', 'Que estés feliz'],
-        correct: 1
+        options: ['Que no te acatarres', 'Que estés feliz', 'Que duermas bien', 'Que no te coma un depredador'],
+        correct: 3
       },
       {
         question: '¿Qué tipo de amenaza menciona el texto en las reuniones?',
@@ -39686,8 +39686,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Cuándo podemos activar los sistemas de recuperación?',
-        options: ['Cuando estamos estresados', 'Cuando nos podemos relajar', 'Cuando tenemos miedo', 'Cuando estamos en alerta'],
-        correct: 1
+        options: ['Cuando estamos estresados', 'Cuando estamos en alerta', 'Cuando tenemos miedo', 'Cuando nos podemos relajar'],
+        correct: 3
       }
     ]
   },
@@ -39706,32 +39706,32 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Ayer yo ___ muy estresado. (estar)',
-        options: ['estoy', 'he estado', 'estuve', 'estaré'],
-        correct: 2,
+        options: ['estoy', 'he estado', 'estaré', 'estuve'],
+        correct: 3,
         explanation: 'Pretérito indefinido с "ayer"'
       },
       {
         sentence: '¡___ tu cuerpo! (relajar)',
-        options: ['Relaja', 'Relajas', 'Relajando', 'Relajar'],
-        correct: 0,
+        options: ['Relajando', 'Relajas', 'Relaja', 'Relajar'],
+        correct: 2,
         explanation: 'Imperativo afirmativo tú'
       },
       {
         sentence: 'El nervio vago ___ los sistemas de recuperación.',
-        options: ['activa', 'activaba', 'ha activado', 'activará'],
-        correct: 0,
+        options: ['activaba', 'activa', 'ha activado', 'activará'],
+        correct: 1,
         explanation: 'Presente для постоянного действия'
       },
       {
         sentence: 'No ___ constantemente en alerta. (estar)',
-        options: ['está', 'estés', 'estás', 'estar'],
-        correct: 1,
+        options: ['está', 'estás', 'estés', 'estar'],
+        correct: 2,
         explanation: 'Imperativo negativo требует subjuntivo'
       },
       {
         sentence: 'Yo ___ amenazado muchas veces esta semana.',
-        options: ['me siento', 'me he sentido', 'me sentí', 'me sentiré'],
-        correct: 1,
+        options: ['me siento', 'me sentiré', 'me sentí', 'me he sentido'],
+        correct: 3,
         explanation: 'Pretérito perfecto с "esta semana"'
       },
       {
@@ -39742,14 +39742,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: '¡___ el peligro! (percibir)',
-        options: ['Percibe', 'Percibes', 'Percibiendo', 'Percibir'],
-        correct: 0,
+        options: ['Percibes', 'Percibe', 'Percibiendo', 'Percibir'],
+        correct: 1,
         explanation: 'Imperativo afirmativo tú'
       },
       {
         sentence: 'Nosotros ___ acatarrados la semana pasada.',
-        options: ['estamos', 'hemos estado', 'estuvimos', 'estaremos'],
-        correct: 2,
+        options: ['estamos', 'hemos estado', 'estaremos', 'estuvimos'],
+        correct: 3,
         explanation: 'Pretérito indefinido с "la semana pasada"'
       },
       {
@@ -39787,16 +39787,16 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: Abrazos y Oxitocina',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'los abrazos', options: ['поцелуи', 'объятия', 'слова', 'взгляды'], correct: 1 },
+      { spanish: 'los abrazos', options: ['поцелуи', 'взгляды', 'слова', 'объятия'], correct: 3 },
       { spanish: 'la liberación', options: ['тюрьма', 'освобождение', 'заключение', 'наказание'], correct: 1 },
-      { spanish: 'los vínculos', options: ['разрывы', 'связи', 'потери', 'находки'], correct: 1 },
-      { spanish: 'la generación', options: ['разрушение', 'поколение', 'смерть', 'конец'], correct: 1 },
-      { spanish: 'ser capaz de', options: ['не мочь', 'быть способным на', 'отказываться', 'бояться'], correct: 1 },
-      { spanish: 'cortar', options: ['строить', 'создавать', 'резать', 'рисовать'], correct: 2 },
-      { spanish: 'incuestionable', options: ['сомнительный', 'неважный', 'неоспоримый', 'странный'], correct: 2 },
-      { spanish: 'desvanecer', options: ['появляться', 'создавать', 'рассеивать', 'строить'], correct: 2 },
+      { spanish: 'los vínculos', options: ['связи', 'разрывы', 'потери', 'находки'], correct: 0 },
+      { spanish: 'la generación', options: ['разрушение', 'смерть', 'поколение', 'конец'], correct: 2 },
+      { spanish: 'ser capaz de', options: ['не мочь', 'отказываться', 'быть способным на', 'бояться'], correct: 2 },
+      { spanish: 'cortar', options: ['строить', 'создавать', 'рисовать', 'резать'], correct: 3 },
+      { spanish: 'incuestionable', options: ['сомнительный', 'неоспоримый', 'неважный', 'странный'], correct: 1 },
+      { spanish: 'desvanecer', options: ['рассеивать', 'создавать', 'появляться', 'строить'], correct: 0 },
       { spanish: 'herido', options: ['здоровый', 'счастливый', 'раненый', 'сильный'], correct: 2 },
-      { spanish: 'sanar', options: ['ранить', 'болеть', 'исцелять', 'страдать'], correct: 2 }
+      { spanish: 'sanar', options: ['исцелять', 'болеть', 'ранить', 'страдать'], correct: 0 }
     ]
   },
 
@@ -39808,13 +39808,13 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Qué producen los abrazos?',
-        options: ['Cortisol', 'La liberación de oxitocina', 'Miedo', 'Estrés'],
-        correct: 1
+        options: ['La liberación de oxitocina', 'Cortisol', 'Miedo', 'Estrés'],
+        correct: 0
       },
       {
         question: '¿Qué impacto tiene la oxitocina?',
-        options: ['Solo emocional', 'Enorme en vínculos emocionales y protección del corazón', 'Solo físico', 'Ninguno'],
-        correct: 1
+        options: ['Solo emocional', 'Solo físico', 'Enorme en vínculos emocionales y protección del corazón', 'Ninguno'],
+        correct: 2
       },
       {
         question: '¿Qué eje puede cortar la oxitocina?',
@@ -39823,18 +39823,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué hormona se libera con el estrés crónico?',
-        options: ['Oxitocina', 'Cortisol', 'Adrenalina', 'Insulina'],
-        correct: 1
+        options: ['Oxitocina', 'Insulina', 'Adrenalina', 'Cortisol'],
+        correct: 3
       },
       {
         question: '¿Cómo es esto a nivel científico?',
-        options: ['Dudoso', 'Incuestionable', 'Imposible', 'Raro'],
-        correct: 1
+        options: ['Incuestionable', 'Dudoso', 'Imposible', 'Raro'],
+        correct: 0
       },
       {
         question: '¿Quién fue Jung?',
-        options: ['Un médico', 'Un adelantado en su época', 'Un político', 'Un artista'],
-        correct: 1
+        options: ['Un médico', 'Un político', 'Un adelantado en su época', 'Un artista'],
+        correct: 2
       },
       {
         question: 'Según Jung, ¿qué pasa con lo que se resiste?',
@@ -39843,18 +39843,18 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: 'Según Jung, ¿qué pasa con lo que se abraza?',
-        options: ['Persiste', 'Se resiste', 'Se transforma', 'Empeora'],
-        correct: 2
+        options: ['Persiste', 'Se resiste', 'Empeora', 'Se transforma'],
+        correct: 3
       },
       {
         question: '¿Qué representan las heridas en el fondo?',
-        options: ['Fuerza', 'Una carencia de amor', 'Valentía', 'Sabiduría'],
-        correct: 1
+        options: ['Fuerza', 'Sabiduría', 'Valentía', 'Una carencia de amor'],
+        correct: 3
       },
       {
         question: '¿Qué pasa cuando das amor a las heridas?',
-        options: ['Empeoran', 'La herida por sí sola sana', 'Nada', 'Duelen más'],
-        correct: 1
+        options: ['Empeoran', 'Nada', 'La herida por sí sola sana', 'Duelen más'],
+        correct: 2
       }
     ]
   },
@@ -39867,14 +39867,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         sentence: 'Los abrazos ___ la liberación de oxitocina.',
-        options: ['producen', 'han producido', 'produjeron', 'producirán'],
-        correct: 0,
+        options: ['produjeron', 'han producido', 'producen', 'producirán'],
+        correct: 2,
         explanation: 'Presente для постоянного факта'
       },
       {
         sentence: 'Yo ___ a mi hijo ayer. (abrazar)',
-        options: ['abrazo', 'he abrazado', 'abracé', 'abrazaré'],
-        correct: 2,
+        options: ['abrazo', 'he abrazado', 'abrazaré', 'abracé'],
+        correct: 3,
         explanation: 'Pretérito indefinido с "ayer"'
       },
       {
@@ -39885,14 +39885,14 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'La oxitocina ___ el corazón.',
-        options: ['protege', 'protegía', 'ha protegido', 'protegerá'],
-        correct: 0,
+        options: ['protegía', 'protege', 'ha protegido', 'protegerá'],
+        correct: 1,
         explanation: 'Presente для постоянного действия'
       },
       {
         sentence: 'No ___ el estrés crónico. (tener)',
-        options: ['tiene', 'tengas', 'tienes', 'tener'],
-        correct: 1,
+        options: ['tengas', 'tiene', 'tienes', 'tener'],
+        correct: 0,
         explanation: 'Imperativo negativo требует subjuntivo'
       },
       {
@@ -39903,26 +39903,26 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         sentence: 'Lo que se abraza ___ .',
-        options: ['se transforma', 'se transformaba', 'se ha transformado', 'se transformará'],
-        correct: 0,
+        options: ['se ha transformado', 'se transformaba', 'se transforma', 'se transformará'],
+        correct: 2,
         explanation: 'Presente для общих истин'
       },
       {
         sentence: '¡___ el eje del estrés! (cortar)',
-        options: ['Corta', 'Cortas', 'Cortando', 'Cortar'],
-        correct: 0,
+        options: ['Cortar', 'Cortas', 'Cortando', 'Corta'],
+        correct: 3,
         explanation: 'Imperativo afirmativo tú'
       },
       {
         sentence: 'La herida ___ cuando recibió amor.',
-        options: ['sana', 'ha sanado', 'sanó', 'sanará'],
-        correct: 2,
+        options: ['sana', 'sanó', 'ha sanado', 'sanará'],
+        correct: 1,
         explanation: 'Pretérito indefinido для завершенного действия'
       },
       {
         sentence: 'No ___ a lo que te duele. (resistirse)',
-        options: ['se resiste', 'te resistas', 'te resistes', 'resistirse'],
-        correct: 1,
+        options: ['se resiste', 'resistirse', 'te resistes', 'te resistas'],
+        correct: 3,
         explanation: 'Imperativo negativo (subjuntivo)'
       }
     ]
@@ -39949,21 +39949,21 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     title: 'Словарь: La causa principal de las enfermedades',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'grave, serio', options: ['легкий', 'тяжелый, серьезный', 'простой', 'веселый'], correct: 1 },
-      { spanish: 'el cirujano', options: ['терапевт', 'хирург', 'медсестра', 'пациент'], correct: 1 },
-      { spanish: 'convencional', options: ['необычный', 'странный', 'обычный, традиционный', 'современный'], correct: 2 },
-      { spanish: 'persistente', options: ['слабый', 'временный', 'упорный, настойчивый', 'случайный'], correct: 2 },
-      { spanish: 'los suprarrenales', options: ['почки', 'легкие', 'надпочечники', 'печень'], correct: 2 },
-      { spanish: 'el trastorno', options: ['здоровье', 'сила', 'расстройство, нарушение', 'энергия'], correct: 2 },
+      { spanish: 'grave, serio', options: ['легкий', 'простой', 'тяжелый, серьезный', 'веселый'], correct: 2 },
+      { spanish: 'el cirujano', options: ['хирург', 'терапевт', 'медсестра', 'пациент'], correct: 0 },
+      { spanish: 'convencional', options: ['необычный', 'странный', 'современный', 'обычный, традиционный'], correct: 3 },
+      { spanish: 'persistente', options: ['слабый', 'упорный, настойчивый', 'временный', 'случайный'], correct: 1 },
+      { spanish: 'los suprarrenales', options: ['почки', 'надпочечники', 'легкие', 'печень'], correct: 1 },
+      { spanish: 'el trastorno', options: ['здоровье', 'сила', 'энергия', 'расстройство, нарушение'], correct: 3 },
       { spanish: 'la angustia', options: ['радость', 'спокойствие', 'тоска, беспокойство', 'счастье'], correct: 2 },
-      { spanish: 'padecer', options: ['радоваться', 'веселиться', 'страдать от болезни', 'выздоравливать'], correct: 2 },
-      { spanish: 'desencadenante', options: ['успокаивающий', 'лечащий', 'вызывающий, провоцирующий', 'предотвращающий'], correct: 2 },
-      { spanish: 'predispuesto', options: ['защищенный', 'здоровый', 'предрасположенный', 'излеченный'], correct: 2 },
+      { spanish: 'padecer', options: ['страдать от болезни', 'веселиться', 'радоваться', 'выздоравливать'], correct: 0 },
+      { spanish: 'desencadenante', options: ['успокаивающий', 'лечащий', 'предотвращающий', 'вызывающий, провоцирующий'], correct: 3 },
+      { spanish: 'predispuesto', options: ['предрасположенный', 'здоровый', 'защищенный', 'излеченный'], correct: 0 },
       { spanish: 'la mente', options: ['тело', 'душа', 'ум, разум', 'сердце'], correct: 2 },
-      { spanish: 'el ego', options: ['альтруизм', 'скромность', 'эго', 'доброта'], correct: 2 },
-      { spanish: 'el hipotálamo', options: ['желудок', 'кишечник', 'гипоталамус', 'сердце'], correct: 2 },
-      { spanish: 'la hipófisis', options: ['щитовидная железа', 'поджелудочная', 'гипофиз', 'селезенка'], correct: 2 },
-      { spanish: 'el cortisol', options: ['инсулин', 'адреналин', 'кортизол', 'окситоцин'], correct: 2 }
+      { spanish: 'el ego', options: ['альтруизм', 'эго', 'скромность', 'доброта'], correct: 1 },
+      { spanish: 'el hipotálamo', options: ['желудок', 'гипоталамус', 'кишечник', 'сердце'], correct: 1 },
+      { spanish: 'la hipófisis', options: ['щитовидная железа', 'поджелудочная', 'селезенка', 'гипофиз'], correct: 3 },
+      { spanish: 'el cortisol', options: ['кортизол', 'адреналин', 'инсулин', 'окситоцин'], correct: 0 }
     ]
   },
 
@@ -39975,28 +39975,28 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
     questions: [
       {
         question: '¿Cuál es la causa fundamental de las enfermedades según el texto?',
-        options: ['Los virus', 'La mente y el ego', 'La genética', 'La alimentación'],
-        correct: 1
+        options: ['Los virus', 'La alimentación', 'La genética', 'La mente y el ego'],
+        correct: 3
       },
       {
         question: '¿Qué libera el hipotálamo bajo estrés?',
-        options: ['Oxitocina', 'Cortisol y catecolaminas', 'Insulina', 'Melatonina'],
-        correct: 1
+        options: ['Oxitocina', 'Insulina', 'Cortisol y catecolaminas', 'Melatonina'],
+        correct: 2
       },
       {
         question: '¿Qué trastornos provoca la persistencia del cortisol?',
-        options: ['Solo digestivos', 'Solo cardíacos', 'Cardíacos, digestivos, cerebrales e inmunitarios', 'Solo cerebrales'],
-        correct: 2
+        options: ['Solo digestivos', 'Cardíacos, digestivos, cerebrales e inmunitarios', 'Solo cardíacos', 'Solo cerebrales'],
+        correct: 1
       },
       {
         question: '¿Cuánto dura la caída del sistema inmunitario después de un minuto de estrés intenso?',
-        options: ['1 hora', '3 horas', '6 horas', '12 horas'],
-        correct: 2
+        options: ['6 horas', '3 horas', '1 hora', '12 horas'],
+        correct: 0
       },
       {
         question: '¿A qué nos predispone el estrés?',
-        options: ['A la felicidad', 'A infecciones, enfermedades autoinmunes y cáncer', 'A la longevidad', 'A la fuerza física'],
-        correct: 1
+        options: ['A la felicidad', 'A la fuerza física', 'A la longevidad', 'A infecciones, enfermedades autoinmunes y cáncer'],
+        correct: 3
       },
       {
         question: '¿Qué porcentaje de enfermedades están relacionadas con el ego y el estrés?',
@@ -40005,8 +40005,8 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué es el ACTH?',
-        options: ['Una vitamina', 'Una hormona adrenocorticotropa', 'Un tipo de estrés', 'Un medicamento'],
-        correct: 1
+        options: ['Una hormona adrenocorticotropa', 'Una vitamina', 'Un tipo de estrés', 'Un medicamento'],
+        correct: 0
       },
       {
         question: '¿Qué actúa sobre las suprarrenales?',
@@ -40020,33 +40020,33 @@ Juan trabaja como agente de seguros en Bilbao y es un comprador de comportamient
       },
       {
         question: '¿Qué tipo de medicina menciona el cirujano?',
-        options: ['Alternativa', 'Convencional y método científico', 'Tradicional china', 'Homeopática'],
-        correct: 1
+        options: ['Alternativa', 'Homeopática', 'Tradicional china', 'Convencional y método científico'],
+        correct: 3
       },
       {
         question: '¿Qué libera las suprarrenales?',
-        options: ['Insulina', 'Cortisol y catecolaminas', 'Melatonina', 'Dopamina'],
-        correct: 1
+        options: ['Insulina', 'Melatonina', 'Cortisol y catecolaminas', 'Dopamina'],
+        correct: 2
       },
       {
         question: '¿Qué son la adrenalina y noradrenalina?',
-        options: ['Vitaminas', 'Catecolaminas', 'Antibióticos', 'Proteínas'],
-        correct: 1
+        options: ['Catecolaminas', 'Vitaminas', 'Antibióticos', 'Proteínas'],
+        correct: 0
       },
       {
         question: '¿Para qué son necesarias las catecolaminas?',
-        options: ['Para dormir', 'Para la respuesta neuroendocrina a la agresión', 'Para la digestión', 'Para crecer'],
-        correct: 1
+        options: ['Para dormir', 'Para la digestión', 'Para la respuesta neuroendocrina a la agresión', 'Para crecer'],
+        correct: 2
       },
       {
         question: '¿Qué determina el ego en nuestra sociedad?',
-        options: ['La felicidad', 'El amor', 'El estrés y la dinámica vital', 'La salud'],
-        correct: 2
+        options: ['La felicidad', 'El estrés y la dinámica vital', 'El amor', 'La salud'],
+        correct: 1
       },
       {
         question: '¿Cuántos años forman los residentes en cirugía con el cirujano?',
-        options: ['3 años', '4 años', '5 años', '6 años'],
-        correct: 2
+        options: ['3 años', '4 años', '6 años', '5 años'],
+        correct: 3
       }
     ]
   },
@@ -40447,21 +40447,21 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     description: 'Заполните пропуски подходящим словом',
     showAnswerOption: true,
     questions: [
-      { sentence: 'El Dr. Sourakov utiliza microscopios ______ para observar el interior del capullo.', blank: 'de vanguardia', options: ['antiguos', 'de vanguardia', 'simples', 'rotos'], correct: 1 },
-      { sentence: 'Gracias a una ______, podemos ver los órganos internos sin dañar al insecto.', blank: 'radiografía', options: ['fotografía', 'radiografía', 'linterna', 'cámara'], correct: 1 },
+      { sentence: 'El Dr. Sourakov utiliza microscopios ______ para observar el interior del capullo.', blank: 'de vanguardia', options: ['antiguos', 'rotos', 'simples', 'de vanguardia'], correct: 3 },
+      { sentence: 'Gracias a una ______, podemos ver los órganos internos sin dañar al insecto.', blank: 'radiografía', options: ['fotografía', 'linterna', 'radiografía', 'cámara'], correct: 2 },
       { sentence: 'El objetivo de la oruga es ______ suficiente energía para su transformación.', blank: 'conseguir', options: ['perder', 'conseguir', 'gastar', 'evitar'], correct: 1 },
-      { sentence: 'Si la oruga sigue comiendo así, parece que va a ______ en cualquier momento.', blank: 'estallar', options: ['dormir', 'volar', 'estallar', 'morir'], correct: 2 },
-      { sentence: 'Para evitar ser comida por un ______, la oruga utiliza veneno y colores brillantes.', blank: 'depredador', options: ['amigo', 'depredador', 'insecto', 'pájaro'], correct: 1 },
+      { sentence: 'Si la oruga sigue comiendo así, parece que va a ______ en cualquier momento.', blank: 'estallar', options: ['estallar', 'volar', 'dormir', 'morir'], correct: 0 },
+      { sentence: 'Para evitar ser comida por un ______, la oruga utiliza veneno y colores brillantes.', blank: 'depredador', options: ['amigo', 'insecto', 'depredador', 'pájaro'], correct: 2 },
       { sentence: 'Muchas especies de insectos suelen ______ entre las hojas secas para no ser vistos.', blank: 'camuflarse', options: ['saltar', 'camuflarse', 'gritar', 'correr'], correct: 1 },
-      { sentence: 'Dentro de la pupa, se vuelve a ______ un proceso genético muy complejo.', blank: 'llevar a cabo', options: ['detener', 'llevar a cabo', 'olvidar', 'perder'], correct: 1 },
-      { sentence: 'La oruga tiene ______ afiladas que usa para masticar las hojas de forma agresiva.', blank: 'mandíbulas', options: ['alas', 'mandíbulas', 'patas', 'antenas'], correct: 1 },
-      { sentence: 'El líquido que resulta de la autodigestión es muy ______, casi como una crema.', blank: 'espeso', options: ['líquido', 'espeso', 'transparente', 'duro'], correct: 1 },
+      { sentence: 'Dentro de la pupa, se vuelve a ______ un proceso genético muy complejo.', blank: 'llevar a cabo', options: ['llevar a cabo', 'detener', 'olvidar', 'perder'], correct: 0 },
+      { sentence: 'La oruga tiene ______ afiladas que usa para masticar las hojas de forma agresiva.', blank: 'mandíbulas', options: ['alas', 'antenas', 'patas', 'mandíbulas'], correct: 3 },
+      { sentence: 'El líquido que resulta de la autodigestión es muy ______, casi como una crema.', blank: 'espeso', options: ['líquido', 'transparente', 'espeso', 'duro'], correct: 2 },
       { sentence: 'Al final del proceso, una nueva ______ con alas está lista para volar.', blank: 'criatura', options: ['planta', 'criatura', 'roca', 'máquina'], correct: 1 },
-      { sentence: 'Las imágenes del escaneo logran ______ el tamaño real del estómago del insecto.', blank: 'revelar', options: ['ocultar', 'revelar', 'destruir', 'perder'], correct: 1 },
-      { sentence: 'Es un proceso ______, casi como magia, que convierte un gusano en mariposa.', blank: 'milagroso', options: ['terrible', 'milagroso', 'aburrido', 'peligroso'], correct: 1 },
-      { sentence: 'A diferencia de la mariposa diurna, ______ suele salir durante la noche.', blank: 'la polilla', options: ['el pájaro', 'la polilla', 'la abeja', 'la mosca'], correct: 1 },
+      { sentence: 'Las imágenes del escaneo logran ______ el tamaño real del estómago del insecto.', blank: 'revelar', options: ['revelar', 'ocultar', 'destruir', 'perder'], correct: 0 },
+      { sentence: 'Es un proceso ______, casi como magia, que convierte un gusano en mariposa.', blank: 'milagroso', options: ['terrible', 'peligroso', 'aburrido', 'milagroso'], correct: 3 },
+      { sentence: 'A diferencia de la mariposa diurna, ______ suele salir durante la noche.', blank: 'la polilla', options: ['el pájaro', 'la mosca', 'la abeja', 'la polilla'], correct: 3 },
       { sentence: 'Cuando la temperatura es ideal, el mecanismo de muda suele ______.', blank: 'desencadenarse', options: ['detenerse', 'desencadenarse', 'romperse', 'congelarse'], correct: 1 },
-      { sentence: 'Tras semanas de espera, la mariposa empieza a ______ de su estuche endurecido.', blank: 'emerger', options: ['desaparecer', 'emerger', 'morir', 'dormir'], correct: 1 }
+      { sentence: 'Tras semanas de espera, la mariposa empieza a ______ de su estuche endurecido.', blank: 'emerger', options: ['emerger', 'desaparecer', 'morir', 'dormir'], correct: 0 }
     ]
   },
 
@@ -40472,21 +40472,21 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     description: 'Ответьте на вопросы по тексту',
     showAnswerOption: true,
     questions: [
-      { question: '¿Qué revela el escaneo sobre el tamaño del estómago de la oruga?', options: ['Es muy pequeño', 'Ocupa casi todo su cuerpo', 'Es del tamaño normal', 'No tiene estómago'], correct: 1 },
-      { question: '¿Por qué el único objetivo de la oruga es comer sin parar?', options: ['Porque tiene hambre', 'Para acumular energía para la transformación', 'Porque es un insecto glotón', 'Para crecer más rápido'], correct: 1 },
-      { question: '¿Cuál es el riesgo de que la oruga aumente tanto su masa corporal?', options: ['Se vuelve lenta', 'Puede estallar', 'Pierde el apetito', 'Se enferma'], correct: 1 },
+      { question: '¿Qué revela el escaneo sobre el tamaño del estómago de la oruga?', options: ['Es muy pequeño', 'No tiene estómago', 'Es del tamaño normal', 'Ocupa casi todo su cuerpo'], correct: 3 },
+      { question: '¿Por qué el único objetivo de la oruga es comer sin parar?', options: ['Porque tiene hambre', 'Porque es un insecto glotón', 'Para acumular energía para la transformación', 'Para crecer más rápido'], correct: 2 },
+      { question: '¿Cuál es el riesgo de que la oruga aumente tanto su masa corporal?', options: ['Puede estallar', 'Se vuelve lenta', 'Pierde el apetito', 'Se enferma'], correct: 0 },
       { question: '¿Qué defensas físicas menciona el texto además del camuflaje?', options: ['Velocidad', 'Veneno y pinchos', 'Fuerza', 'Inteligencia'], correct: 1 },
-      { question: '¿Cómo se vuelve venenoso el cuerpo de algunas orugas?', options: ['Producen veneno propio', 'Comen plantas tóxicas', 'Lo heredan de sus padres', 'Se inyectan veneno'], correct: 1 },
-      { question: '¿Qué sucede con la piel de la oruga cuando tiene suficiente grasa?', options: ['Se rompe', 'Se cae formando la pupa', 'Cambia de color', 'Se endurece'], correct: 1 },
+      { question: '¿Cómo se vuelve venenoso el cuerpo de algunas orugas?', options: ['Producen veneno propio', 'Se inyectan veneno', 'Lo heredan de sus padres', 'Comen plantas tóxicas'], correct: 3 },
+      { question: '¿Qué sucede con la piel de la oruga cuando tiene suficiente grasa?', options: ['Se rompe', 'Cambia de color', 'Se cae formando la pupa', 'Se endurece'], correct: 2 },
       { question: '¿En cuánto tiempo se endurece la pupa una vez que aparece?', options: ['En una hora', 'En 24 horas', 'En una semana', 'En un mes'], correct: 1 },
-      { question: '¿Por qué se dice que el cuento de hadas toma un giro \'desagradable\'?', options: ['Porque la oruga muere', 'Porque se autodigiere en líquido', 'Porque no hay final feliz', 'Porque aparece un villano'], correct: 1 },
+      { question: '¿Por qué se dice que el cuento de hadas toma un giro \'desagradable\'?', options: ['Porque se autodigiere en líquido', 'Porque la oruga muere', 'Porque no hay final feliz', 'Porque aparece un villano'], correct: 0 },
       { question: '¿Qué función tienen las enzimas únicas dentro de la pupa?', options: ['Crear alimento', 'Disolver los tejidos de la oruga', 'Endurecer el capullo', 'Producir oxígeno'], correct: 1 },
-      { question: '¿Qué es el \'disco imaginal\' mencionado en el texto?', options: ['Un CD de música', 'Células que sobreviven y forman las nuevas partes', 'Un órgano digestivo', 'Una parte del ala'], correct: 1 },
-      { question: '¿De dónde obtiene la mariposa los materiales para construir sus nuevas células?', options: ['Del aire', 'De la sopa proteica de la oruga disuelta', 'De plantas externas', 'De otros insectos'], correct: 1 },
+      { question: '¿Qué es el \'disco imaginal\' mencionado en el texto?', options: ['Células que sobreviven y forman las nuevas partes', 'Un CD de música', 'Un órgano digestivo', 'Una parte del ala'], correct: 0 },
+      { question: '¿De dónde obtiene la mariposa los materiales para construir sus nuevas células?', options: ['Del aire', 'De otros insectos', 'De plantas externas', 'De la sopa proteica de la oruga disuelta'], correct: 3 },
       { question: '¿Qué partes del cuerpo se forman a partir de los discos imaginales?', options: ['Solo las alas', 'Solo las patas', 'Alas, patas, antenas y ojos', 'Solo los ojos'], correct: 2 },
-      { question: '¿Cuánto tiempo suele durar el proceso completo de transformación?', options: ['Una semana', 'Entre 2 y 4 semanas', 'Dos meses', 'Un año'], correct: 1 },
-      { question: '¿Cómo cambian las herramientas de alimentación del insecto?', options: ['No cambian', 'Las mandíbulas se vuelven un tubo para chupar', 'Desaparecen completamente', 'Se hacen más grandes'], correct: 1 },
-      { question: '¿Qué cambio físico permite al insecto adulto desplazarse rápidamente?', options: ['Patas más largas', 'El vientre graso se convierte en torso delgado con músculos para volar', 'Alas más grandes', 'Antenas más fuertes'], correct: 1 }
+      { question: '¿Cuánto tiempo suele durar el proceso completo de transformación?', options: ['Entre 2 y 4 semanas', 'Una semana', 'Dos meses', 'Un año'], correct: 0 },
+      { question: '¿Cómo cambian las herramientas de alimentación del insecto?', options: ['No cambian', 'Desaparecen completamente', 'Las mandíbulas se vuelven un tubo para chupar', 'Se hacen más grandes'], correct: 2 },
+      { question: '¿Qué cambio físico permite al insecto adulto desplazarse rápidamente?', options: ['Patas más largas', 'Antenas más fuertes', 'Alas más grandes', 'El vientre graso se convierte en torso delgado con músculos para volar'], correct: 3 }
     ]
   },
 
@@ -40497,21 +40497,21 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     description: 'Выберите правильную форму глагола',
     showAnswerOption: true,
     questions: [
-      { sentence: 'El Dr. Sourakov (investigar) ______ este proceso durante muchos años antes de publicar sus fotos.', options: ['investiga', 'investigó', 'investigaba', 'investigará'], correct: 2, explanation: 'Investigaba (Imperfecto - acción repetida en el pasado) o investigó (Indefinido - acción completa), según énfasis' },
-      { sentence: 'Mientras la oruga (estar) ______ dentro de la pupa, sus tejidos se disolvieron.', options: ['está', 'estuvo', 'estaba', 'ha estado'], correct: 2, explanation: 'Estaba (Imperfecto - acción en curso mientras otra ocurría)' },
+      { sentence: 'El Dr. Sourakov (investigar) ______ este proceso durante muchos años antes de publicar sus fotos.', options: ['investiga', 'investigó', 'investigará', 'investigaba'], correct: 3, explanation: 'Investigaba (Imperfecto - acción repetida en el pasado) o investigó (Indefinido - acción completa), según énfasis' },
+      { sentence: 'Mientras la oruga (estar) ______ dentro de la pupa, sus tejidos se disolvieron.', options: ['está', 'estaba', 'estuvo', 'ha estado'], correct: 1, explanation: 'Estaba (Imperfecto - acción en curso mientras otra ocurría)' },
       { sentence: 'Esta mañana el equipo (descubrir) ______ una nueva especie de polilla.', options: ['descubrió', 'descubría', 'ha descubierto', 'descubre'], correct: 2, explanation: 'Ha descubierto (Pretérito perfecto - acción hoy con conexión al presente)' },
-      { sentence: 'Es posible que la metamorfosis no (ocurrir) ______ si la temperatura es muy baja.', options: ['ocurre', 'ocurra', 'ocurrió', 'ocurría'], correct: 1, explanation: 'Ocurra (Presente de subjuntivo - expresión de posibilidad)' },
-      { sentence: '¡No (destruir, tú) ______ el capullo si lo encuentras en el bosque!', options: ['destruyes', 'destruyas', 'destruye', 'destruirás'], correct: 1, explanation: 'Destruyas (Presente de subjuntivo - imperativo negativo)' },
-      { sentence: 'Cuando la mariposa salió, (tener) ______ las alas húmedas.', options: ['tiene', 'tuvo', 'tenía', 'ha tenido'], correct: 2, explanation: 'Tenía (Pretérito imperfecto - descripción de estado en el pasado)' },
-      { sentence: 'El año pasado (nosotros, llevar a cabo) ______ un escaneo 3D muy preciso.', options: ['llevamos a cabo', 'llevábamos a cabo', 'hemos llevado a cabo', 'llevaremos a cabo'], correct: 0, explanation: 'Llevamos a cabo (Pretérito indefinido - acción completa en tiempo específico del pasado)' },
+      { sentence: 'Es posible que la metamorfosis no (ocurrir) ______ si la temperatura es muy baja.', options: ['ocurra', 'ocurre', 'ocurrió', 'ocurría'], correct: 0, explanation: 'Ocurra (Presente de subjuntivo - expresión de posibilidad)' },
+      { sentence: '¡No (destruir, tú) ______ el capullo si lo encuentras en el bosque!', options: ['destruyes', 'destruye', 'destruyas', 'destruirás'], correct: 2, explanation: 'Destruyas (Presente de subjuntivo - imperativo negativo)' },
+      { sentence: 'Cuando la mariposa salió, (tener) ______ las alas húmedas.', options: ['tenía', 'tuvo', 'tiene', 'ha tenido'], correct: 0, explanation: 'Tenía (Pretérito imperfecto - descripción de estado en el pasado)' },
+      { sentence: 'El año pasado (nosotros, llevar a cabo) ______ un escaneo 3D muy preciso.', options: ['llevaremos a cabo', 'llevábamos a cabo', 'hemos llevado a cabo', 'llevamos a cabo'], correct: 3, explanation: 'Llevamos a cabo (Pretérito indefinido - acción completa en tiempo específico del pasado)' },
       { sentence: 'Te pido que (revelar, tú) ______ el secreto de tu investigación ahora mismo.', options: ['revelas', 'reveles', 'revelarás', 'revelabas'], correct: 1, explanation: 'Reveles (Presente de subjuntivo - después de verbo de petición "te pido que")' },
-      { sentence: '(Esperar, vosotros) ______ hasta que la pupa esté completamente dura.', options: ['esperáis', 'esperad', 'esperéis', 'esperasteis'], correct: 1, explanation: 'Esperad (Imperativo afirmativo segunda persona plural)' },
-      { sentence: 'Nunca (yo, ver) ______ una criatura tan extraña como esta oruga azul.', options: ['veo', 'vi', 'he visto', 'veía'], correct: 2, explanation: 'He visto (Pretérito perfecto - experiencia de vida sin tiempo específico)' },
+      { sentence: '(Esperar, vosotros) ______ hasta que la pupa esté completamente dura.', options: ['esperáis', 'esperasteis', 'esperéis', 'esperad'], correct: 3, explanation: 'Esperad (Imperativo afirmativo segunda persona plural)' },
+      { sentence: 'Nunca (yo, ver) ______ una criatura tan extraña como esta oruga azul.', options: ['he visto', 'vi', 'veo', 'veía'], correct: 0, explanation: 'He visto (Pretérito perfecto - experiencia de vida sin tiempo específico)' },
       { sentence: 'Antes, la gente (creer) ______ que la transformación era pura magia.', options: ['cree', 'creyó', 'creía', 'ha creído'], correct: 2, explanation: 'Creía (Pretérito imperfecto - creencia habitual en el pasado)' },
       { sentence: 'Dudo que esta oruga (conseguir) ______ sobrevivir al invierno.', options: ['consigue', 'consiga', 'conseguía', 'consiguió'], correct: 1, explanation: 'Consiga (Presente de subjuntivo - después de expresión de duda)' },
-      { sentence: '¡(Emerger, tú) ______ de tu zona de confort como una mariposa!', options: ['emerges', 'emerge', 'emerjas', 'emergiste'], correct: 1, explanation: 'Emerge (Imperativo afirmativo segunda persona singular)' },
+      { sentence: '¡(Emerger, tú) ______ de tu zona de confort como una mariposa!', options: ['emerges', 'emergiste', 'emerjas', 'emerge'], correct: 3, explanation: 'Emerge (Imperativo afirmativo segunda persona singular)' },
       { sentence: 'La semana pasada el depredador (intentar) ______ atacar, pero la oruga se camufló.', options: ['intenta', 'intentó', 'intentaba', 'ha intentado'], correct: 1, explanation: 'Intentó (Pretérito indefinido - acción completa en tiempo específico)' },
-      { sentence: 'Para que la mariposa (volar) ______, necesita secar sus alas primero.', options: ['vuela', 'vuele', 'volaba', 'voló'], correct: 1, explanation: 'Vuele (Presente de subjuntivo - expresión de finalidad con "para que")' }
+      { sentence: 'Para que la mariposa (volar) ______, necesita secar sus alas primero.', options: ['vuela', 'volaba', 'vuele', 'voló'], correct: 2, explanation: 'Vuele (Presente de subjuntivo - expresión de finalidad con "para que")' }
     ]
   },
 
@@ -40547,21 +40547,21 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     title: 'Словарь: Pez RAPE',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'el rape', options: ['акула', 'дельфин', 'морской черт', 'кит'], correct: 2 },
+      { spanish: 'el rape', options: ['акула', 'дельфин', 'кит', 'морской черт'], correct: 3 },
       { spanish: 'la profundidad', options: ['поверхность', 'берег', 'глубина', 'волна'], correct: 2 },
-      { spanish: 'marino', options: ['горный', 'лесной', 'морской', 'пустынный'], correct: 2 },
-      { spanish: 'la linterna', options: ['темнота', 'тень', 'фонарь', 'луна'], correct: 2 },
-      { spanish: 'biológico', options: ['химический', 'физический', 'биологический', 'математический'], correct: 2 },
+      { spanish: 'marino', options: ['горный', 'морской', 'лесной', 'пустынный'], correct: 1 },
+      { spanish: 'la linterna', options: ['фонарь', 'тень', 'темнота', 'луна'], correct: 0 },
+      { spanish: 'biológico', options: ['химический', 'физический', 'математический', 'биологический'], correct: 3 },
       { spanish: 'atraer', options: ['отталкивать', 'привлекать', 'убегать', 'прятаться'], correct: 1 },
-      { spanish: 'la presa', options: ['хищник', 'друг', 'добыча', 'враг'], correct: 2 },
+      { spanish: 'la presa', options: ['добыча', 'друг', 'хищник', 'враг'], correct: 0 },
       { spanish: 'paciente', options: ['нервный', 'быстрый', 'терпеливый', 'агрессивный'], correct: 2 },
-      { spanish: 'inmóvil', options: ['подвижный', 'быстрый', 'неподвижный', 'активный'], correct: 2 },
+      { spanish: 'inmóvil', options: ['подвижный', 'быстрый', 'активный', 'неподвижный'], correct: 3 },
       { spanish: 'sobresalir', options: ['прятаться', 'выступать', 'падать', 'летать'], correct: 1 },
-      { spanish: 'la extensión', options: ['сокращение', 'продолжение', 'конец', 'начало'], correct: 1 },
-      { spanish: 'único', options: ['обычный', 'нормальный', 'уникальный', 'простой'], correct: 2 },
-      { spanish: 'desarrollar', options: ['разрушать', 'развивать', 'терять', 'забывать'], correct: 1 },
-      { spanish: 'la característica', options: ['недостаток', 'характеристика', 'ошибка', 'проблема'], correct: 1 },
-      { spanish: 'acercarse', options: ['удаляться', 'приближаться', 'останавливаться', 'убегать'], correct: 1 }
+      { spanish: 'la extensión', options: ['сокращение', 'конец', 'продолжение', 'начало'], correct: 2 },
+      { spanish: 'único', options: ['уникальный', 'нормальный', 'обычный', 'простой'], correct: 0 },
+      { spanish: 'desarrollar', options: ['разрушать', 'терять', 'развивать', 'забывать'], correct: 2 },
+      { spanish: 'la característica', options: ['недостаток', 'проблема', 'ошибка', 'характеристика'], correct: 3 },
+      { spanish: 'acercarse', options: ['приближаться', 'удаляться', 'останавливаться', 'убегать'], correct: 0 }
     ]
   },
 
@@ -40578,13 +40578,13 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       },
       {
         question: '¿Llega la luz del sol donde vive el pez rape?',
-        options: ['Sí, siempre', 'A veces', 'Nunca', 'Solo en verano'],
-        correct: 2
+        options: ['Sí, siempre', 'A veces', 'Solo en verano', 'Nunca'],
+        correct: 3
       },
       {
         question: '¿Qué ha desarrollado el pez rape para sobrevivir?',
-        options: ['Características normales', 'Características únicas', 'Nada especial', 'Patas'],
-        correct: 1
+        options: ['Características únicas', 'Características normales', 'Nada especial', 'Patas'],
+        correct: 0
       },
       {
         question: '¿Qué es lo más notable del pez rape hembra?',
@@ -40593,13 +40593,13 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       },
       {
         question: '¿De dónde sale la luz del pez rape?',
-        options: ['De su cola', 'De una extensión en su cabeza', 'De sus ojos', 'De sus aletas'],
-        correct: 1
+        options: ['De su cola', 'De sus ojos', 'De una extensión en su cabeza', 'De sus aletas'],
+        correct: 2
       },
       {
         question: '¿Para qué usa el pez rape su luz?',
-        options: ['Para ver', 'Para atraer presas', 'Para jugar', 'Para nadar'],
-        correct: 1
+        options: ['Para ver', 'Para nadar', 'Para jugar', 'Para atraer presas'],
+        correct: 3
       },
       {
         question: '¿Qué piensan los peces pequeños cuando ven la luz?',
@@ -40608,18 +40608,18 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       },
       {
         question: '¿Cómo es el pez rape como cazador?',
-        options: ['Rápido', 'Impaciente', 'Paciente', 'Nervioso'],
-        correct: 2
+        options: ['Paciente', 'Impaciente', 'Rápido', 'Nervioso'],
+        correct: 0
       },
       {
         question: '¿Dónde espera el pez rape a sus presas?',
-        options: ['Nadando activamente', 'En la superficie', 'Inmóvil en el fondo', 'Flotando'],
-        correct: 2
+        options: ['Inmóvil en el fondo', 'En la superficie', 'Nadando activamente', 'Flotando'],
+        correct: 0
       },
       {
         question: '¿Qué pasa cuando una presa se acerca demasiado?',
-        options: ['El rape huye', 'El rape la atrapa rápidamente', 'No pasa nada', 'El rape se esconde'],
-        correct: 1
+        options: ['El rape huye', 'El rape se esconde', 'No pasa nada', 'El rape la atrapa rápidamente'],
+        correct: 3
       },
       {
         question: '¿Cómo es el macho del pez rape comparado con la hembra?',
@@ -40633,8 +40633,8 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       },
       {
         question: '¿Cómo se describe la relación del pez rape?',
-        options: ['Romántica', 'Parasitismo y devoción aterradora', 'Normal', 'Temporal'],
-        correct: 1
+        options: ['Parasitismo y devoción aterradora', 'Romántica', 'Normal', 'Temporal'],
+        correct: 0
       },
       {
         question: '¿Hasta cuándo dura la unión entre macho y hembra?',
@@ -40657,20 +40657,20 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
     questions: [
       {
         sentence: 'Es increíble que esta especie ___ (sobrevivir) en condiciones tan extremas durante millones de años.',
-        options: ['sobrevivió', 'sobrevivía', 'haya sobrevivido', 'sobrevive'],
-        correct: 2,
+        options: ['haya sobrevivido', 'sobrevivía', 'sobrevivió', 'sobrevive'],
+        correct: 0,
         explanation: 'Presente de subjuntivo después de "es increíble que" (valoración) - usa pretérito perfecto de subjuntivo'
       },
       {
         sentence: 'Cuando los científicos ___ (descubrir) al pez rape por primera vez, no podían creer lo que veían.',
-        options: ['descubrieron', 'descubrían', 'han descubierto', 'descubren'],
-        correct: 0,
+        options: ['descubren', 'descubrían', 'han descubierto', 'descubrieron'],
+        correct: 3,
         explanation: 'Pretérito indefinido con "cuando" en narración pasada completa'
       },
       {
         sentence: 'El macho ___ (buscar) a la hembra durante días mientras vagaba en la oscuridad absoluta.',
-        options: ['buscó', 'buscaba', 'ha buscado', 'busca'],
-        correct: 1,
+        options: ['buscó', 'ha buscado', 'buscaba', 'busca'],
+        correct: 2,
         explanation: 'Imperfecto para acción en progreso en el pasado (acción de fondo)'
       },
       {
@@ -40681,50 +40681,50 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       },
       {
         sentence: 'Es necesario que los investigadores ___ (continuar) estudiando estas criaturas misteriosas.',
-        options: ['continuaron', 'continuaban', 'continúen', 'continúan'],
-        correct: 2,
+        options: ['continuaron', 'continúen', 'continuaban', 'continúan'],
+        correct: 1,
         explanation: 'Presente de subjuntivo después de "es necesario que" (necesidad)'
       },
       {
         sentence: 'Después de que el macho ___ (morder) a la hembra, comenzó la fusión biológica.',
-        options: ['mordió', 'mordía', 'ha mordido', 'muerde'],
-        correct: 0,
+        options: ['ha mordido', 'mordía', 'mordió', 'muerde'],
+        correct: 2,
         explanation: 'Pretérito indefinido después de "después de que" en narración pasada'
       },
       {
         sentence: 'Aunque nos ___ (parecer) cruel, esta estrategia ha permitido la supervivencia de la especie.',
-        options: ['pareció', 'parecía', 'parezca', 'parece'],
-        correct: 2,
+        options: ['pareció', 'parecía', 'parece', 'parezca'],
+        correct: 3,
         explanation: 'Presente de subjuntivo con "aunque" para expresar concesión (valoración subjetiva)'
       },
       {
         sentence: 'Los órganos del macho se ___ (atrofiar) gradualmente hasta que desaparecieron por completo.',
-        options: ['atrofiaron', 'atrofiaban', 'han atrofiado', 'atrofian'],
-        correct: 1,
+        options: ['atrofiaban', 'atrofiaron', 'han atrofiado', 'atrofian'],
+        correct: 0,
         explanation: 'Imperfecto para proceso gradual en el pasado'
       },
       {
         sentence: '¡___ (imaginar, vosotros) la vida en las profundidades del océano!',
-        options: ['Imagináis', 'Imaginad', 'Imaginabais', 'Imaginasteis'],
-        correct: 1,
+        options: ['Imagináis', 'Imaginasteis', 'Imaginabais', 'Imaginad'],
+        correct: 3,
         explanation: 'Imperativo afirmativo segunda persona plural'
       },
       {
         sentence: 'Dudo que alguna otra especie ___ (desarrollar) una adaptación tan extrema como esta.',
-        options: ['desarrolló', 'desarrollaba', 'haya desarrollado', 'desarrolla'],
-        correct: 2,
+        options: ['desarrolló', 'haya desarrollado', 'desarrollaba', 'desarrolla'],
+        correct: 1,
         explanation: 'Presente de subjuntivo (pretérito perfecto) después de "dudo que" (duda)'
       },
       {
         sentence: 'Antes de que los científicos ___ (investigar) las profundidades, nadie imaginaba tal forma de vida.',
-        options: ['investigaron', 'investigaban', 'investigaran', 'investigan'],
-        correct: 2,
+        options: ['investigaran', 'investigaban', 'investigaron', 'investigan'],
+        correct: 0,
         explanation: 'Imperfecto de subjuntivo después de "antes de que" en contexto pasado'
       },
       {
         sentence: 'La hembra siempre ___ (permanecer) inmóvil en el mismo lugar durante horas, esperando a su presa.',
-        options: ['permaneció', 'permanecía', 'ha permanecido', 'permanece'],
-        correct: 1,
+        options: ['permaneció', 'ha permanecido', 'permanecía', 'permanece'],
+        correct: 2,
         explanation: 'Imperfecto para acción habitual y repetida en el pasado'
       },
       {
@@ -40735,14 +40735,14 @@ fracción, todopoderoso, holograma, persistir, conciencia, plasmar, holístico, 
       },
       {
         sentence: 'Es imposible que este proceso de fusión ___ (ocurrir) por casualidad.',
-        options: ['ocurrió', 'ocurría', 'ocurra', 'ocurre'],
-        correct: 2,
+        options: ['ocurra', 'ocurría', 'ocurrió', 'ocurre'],
+        correct: 0,
         explanation: 'Presente de subjuntivo después de "es imposible que" (imposibilidad)'
       },
       {
         sentence: 'Cuando la expedición ___ (fotografiar) al pez rape en su hábitat, todo el mundo científico quedó impactado.',
-        options: ['fotografió', 'fotografiaba', 'ha fotografiado', 'fotografía'],
-        correct: 0,
+        options: ['ha fotografiado', 'fotografiaba', 'fotografió', 'fotografía'],
+        correct: 2,
         explanation: 'Pretérito indefinido con "cuando" para acción completa en el pasado'
       }
     ]
@@ -41212,71 +41212,71 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     title: 'Словарь: El pez mas feo del mundo',
     description: 'Выберите правильный перевод',
     questions: [
-      { spanish: 'estar equivocado', options: ['быть правым', 'заблуждаться', 'быть счастливым', 'быть грустным'], correct: 1 },
+      { spanish: 'estar equivocado', options: ['быть правым', 'быть счастливым', 'заблуждаться', 'быть грустным'], correct: 2 },
       { spanish: 'la criatura', options: ['создание', 'растение', 'камень', 'вода'], correct: 0 },
       { spanish: 'viralizarse', options: ['болеть', 'завируситься', 'плавать', 'летать'], correct: 1 },
-      { spanish: 'sacar', options: ['класть', 'извлекать', 'покупать', 'продавать'], correct: 1 },
+      { spanish: 'sacar', options: ['класть', 'продавать', 'покупать', 'извлекать'], correct: 3 },
       { spanish: 'gelatinoso', options: ['твердый', 'жидкий', 'желеобразный', 'газообразный'], correct: 2 },
-      { spanish: 'la profundidad', options: ['высота', 'ширина', 'длина', 'глубина'], correct: 3 },
-      { spanish: 'la presión', options: ['скорость', 'давление', 'температура', 'влажность'], correct: 1 },
-      { spanish: 'la superficie', options: ['глубина', 'дно', 'поверхность', 'вершина'], correct: 2 },
-      { spanish: 'estar adaptado', options: ['быть приспособленным', 'быть больным', 'быть голодным', 'быть уставшим'], correct: 0 },
-      { spanish: 'sólido', options: ['жидкий', 'газообразный', 'твердый', 'мягкий'], correct: 2 },
-      { spanish: 'la textura', options: ['цвет', 'запах', 'вкус', 'текстура'], correct: 3 },
-      { spanish: 'flotar', options: ['тонуть', 'плавать', 'бежать', 'ползти'], correct: 1 },
-      { spanish: 'extraer', options: ['добывать', 'терять', 'находить', 'скрывать'], correct: 0 },
-      { spanish: 'literalmente', options: ['образно', 'буквально', 'редко', 'часто'], correct: 1 },
-      { spanish: 'colapsarse', options: ['расти', 'схлопываться', 'увеличиваться', 'расширяться'], correct: 1 },
-      { spanish: 'derritir', options: ['замораживать', 'таять', 'нагревать', 'охлаждать'], correct: 1 },
-      { spanish: 'el entorno', options: ['время', 'место', 'окружение', 'погода'], correct: 2 },
-      { spanish: 'habitar', options: ['посещать', 'покидать', 'обитать', 'строить'], correct: 2 },
-      { spanish: 'la luz solar', options: ['лунный свет', 'солнечный свет', 'звездный свет', 'искусственный свет'], correct: 1 },
+      { spanish: 'la profundidad', options: ['глубина', 'ширина', 'длина', 'высота'], correct: 0 },
+      { spanish: 'la presión', options: ['скорость', 'влажность', 'температура', 'давление'], correct: 3 },
+      { spanish: 'la superficie', options: ['глубина', 'поверхность', 'дно', 'вершина'], correct: 1 },
+      { spanish: 'estar adaptado', options: ['быть больным', 'быть приспособленным', 'быть голодным', 'быть уставшим'], correct: 1 },
+      { spanish: 'sólido', options: ['жидкий', 'газообразный', 'мягкий', 'твердый'], correct: 3 },
+      { spanish: 'la textura', options: ['цвет', 'запах', 'текстура', 'вкус'], correct: 2 },
+      { spanish: 'flotar', options: ['плавать', 'тонуть', 'бежать', 'ползти'], correct: 0 },
+      { spanish: 'extraer', options: ['терять', 'добывать', 'находить', 'скрывать'], correct: 1 },
+      { spanish: 'literalmente', options: ['образно', 'редко', 'буквально', 'часто'], correct: 2 },
+      { spanish: 'colapsarse', options: ['схлопываться', 'расти', 'увеличиваться', 'расширяться'], correct: 0 },
+      { spanish: 'derritir', options: ['замораживать', 'охлаждать', 'нагревать', 'таять'], correct: 3 },
+      { spanish: 'el entorno', options: ['время', 'окружение', 'место', 'погода'], correct: 1 },
+      { spanish: 'habitar', options: ['посещать', 'покидать', 'строить', 'обитать'], correct: 3 },
+      { spanish: 'la luz solar', options: ['солнечный свет', 'лунный свет', 'звездный свет', 'искусственный свет'], correct: 0 },
       { spanish: 'blando', options: ['твердый', 'острый', 'мягкий', 'гладкий'], correct: 2 },
-      { spanish: 'agresivo', options: ['спокойный', 'добрый', 'агрессивный', 'нежный'], correct: 2 },
-      { spanish: 'dañar', options: ['помогать', 'повреждать', 'лечить', 'защищать'], correct: 1 },
-      { spanish: 'el hogar', options: ['работа', 'школа', 'дом', 'улица'], correct: 2 },
+      { spanish: 'agresivo', options: ['спокойный', 'добрый', 'нежный', 'агрессивный'], correct: 3 },
+      { spanish: 'dañar', options: ['повреждать', 'помогать', 'лечить', 'защищать'], correct: 0 },
+      { spanish: 'el hogar', options: ['работа', 'дом', 'школа', 'улица'], correct: 1 },
       { spanish: 'la estructura', options: ['хаос', 'беспорядок', 'структура', 'случайность'], correct: 2 },
-      { spanish: 'sentir', options: ['думать', 'видеть', 'чувствовать', 'слышать'], correct: 2 },
-      { spanish: 'el soporte', options: ['препятствие', 'помеха', 'поддержка', 'барьер'], correct: 2 },
-      { spanish: 'convertirse en', options: ['оставаться', 'превращаться в', 'избегать', 'отрицать'], correct: 1 },
-      { spanish: 'la masa', options: ['пустота', 'легкость', 'масса', 'воздух'], correct: 2 },
-      { spanish: 'informe', options: ['определенный', 'четкий', 'бесформенный', 'ровный'], correct: 2 },
+      { spanish: 'sentir', options: ['думать', 'чувствовать', 'видеть', 'слышать'], correct: 1 },
+      { spanish: 'el soporte', options: ['препятствие', 'помеха', 'барьер', 'поддержка'], correct: 3 },
+      { spanish: 'convertirse en', options: ['оставаться', 'избегать', 'превращаться в', 'отрицать'], correct: 2 },
+      { spanish: 'la masa', options: ['масса', 'легкость', 'пустота', 'воздух'], correct: 0 },
+      { spanish: 'informe', options: ['определенный', 'четкий', 'ровный', 'бесформенный'], correct: 3 },
       { spanish: 'el esqueleto', options: ['мышца', 'кожа', 'скелет', 'орган'], correct: 2 },
-      { spanish: 'permitir', options: ['запрещать', 'позволять', 'отказывать', 'отрицать'], correct: 1 },
-      { spanish: 'sobrevivir', options: ['умирать', 'погибать', 'выживать', 'болеть'], correct: 2 },
-      { spanish: 'gracioso', options: ['грустный', 'серьезный', 'забавный', 'скучный'], correct: 2 },
-      { spanish: 'triste', options: ['веселый', 'радостный', 'грустный', 'счастливый'], correct: 2 },
-      { spanish: 'instantáneamente', options: ['медленно', 'постепенно', 'мгновенно', 'никогда'], correct: 2 },
+      { spanish: 'permitir', options: ['позволять', 'запрещать', 'отказывать', 'отрицать'], correct: 0 },
+      { spanish: 'sobrevivir', options: ['умирать', 'выживать', 'погибать', 'болеть'], correct: 1 },
+      { spanish: 'gracioso', options: ['грустный', 'серьезный', 'скучный', 'забавный'], correct: 3 },
+      { spanish: 'triste', options: ['грустный', 'радостный', 'веселый', 'счастливый'], correct: 0 },
+      { spanish: 'instantáneamente', options: ['медленно', 'мгновенно', 'постепенно', 'никогда'], correct: 1 },
       { spanish: 'la red', options: ['линия', 'точка', 'сеть', 'круг'], correct: 2 },
-      { spanish: 'mundial', options: ['местный', 'региональный', 'мировой', 'городской'], correct: 2 },
-      { spanish: 'tranquilamente', options: ['нервно', 'быстро', 'спокойно', 'громко'], correct: 2 },
-      { spanish: 'ahorrar', options: ['тратить', 'терять', 'экономить', 'покупать'], correct: 2 },
+      { spanish: 'mundial', options: ['местный', 'мировой', 'региональный', 'городской'], correct: 1 },
+      { spanish: 'tranquilamente', options: ['нервно', 'быстро', 'громко', 'спокойно'], correct: 3 },
+      { spanish: 'ahorrar', options: ['экономить', 'терять', 'тратить', 'покупать'], correct: 0 },
       { spanish: 'la energía', options: ['слабость', 'усталость', 'энергия', 'сонливость'], correct: 2 },
-      { spanish: 'interno', options: ['внешний', 'наружный', 'внутренний', 'поверхностный'], correct: 2 },
-      { spanish: 'brusco', options: ['плавный', 'мягкий', 'резкий', 'медленный'], correct: 2 },
+      { spanish: 'interno', options: ['внутренний', 'наружный', 'внешний', 'поверхностный'], correct: 0 },
+      { spanish: 'brusco', options: ['плавный', 'резкий', 'мягкий', 'медленный'], correct: 1 },
       { spanish: 'el cambio', options: ['постоянство', 'стабильность', 'изменение', 'неподвижность'], correct: 2 },
-      { spanish: 'las condiciones', options: ['результаты', 'последствия', 'условия', 'причины'], correct: 2 },
+      { spanish: 'las condiciones', options: ['результаты', 'последствия', 'причины', 'условия'], correct: 3 },
       { spanish: 'el tejido', options: ['кость', 'жидкость', 'ткань', 'газ'], correct: 2 },
-      { spanish: 'la carne', options: ['кость', 'кровь', 'плоть', 'кожа'], correct: 2 },
-      { spanish: 'la manera', options: ['проблема', 'вопрос', 'способ', 'загадка'], correct: 2 },
-      { spanish: 'el peso', options: ['длина', 'высота', 'вес', 'ширина'], correct: 2 },
-      { spanish: 'el océano', options: ['река', 'озеро', 'океан', 'море'], correct: 2 },
+      { spanish: 'la carne', options: ['плоть', 'кровь', 'кость', 'кожа'], correct: 0 },
+      { spanish: 'la manera', options: ['проблема', 'вопрос', 'загадка', 'способ'], correct: 3 },
+      { spanish: 'el peso', options: ['длина', 'вес', 'высота', 'ширина'], correct: 1 },
+      { spanish: 'el océano', options: ['река', 'озеро', 'море', 'океан'], correct: 3 },
       { spanish: 'mortal', options: ['безопасный', 'полезный', 'смертельный', 'приятный'], correct: 2 },
-      { spanish: 'la trampa', options: ['помощь', 'спасение', 'ловушка', 'защита'], correct: 2 },
-      { spanish: 'único', options: ['обычный', 'частый', 'уникальный', 'типичный'], correct: 2 },
-      { spanish: 'el representante', options: ['враг', 'противник', 'представитель', 'чужой'], correct: 2 },
+      { spanish: 'la trampa', options: ['ловушка', 'спасение', 'помощь', 'защита'], correct: 0 },
+      { spanish: 'único', options: ['обычный', 'уникальный', 'частый', 'типичный'], correct: 1 },
+      { spanish: 'el representante', options: ['враг', 'противник', 'чужой', 'представитель'], correct: 3 },
       { spanish: 'la fauna', options: ['флора', 'погода', 'фауна', 'климат'], correct: 2 },
-      { spanish: 'cuidadosamente', options: ['небрежно', 'грубо', 'внимательно', 'быстро'], correct: 2 },
-      { spanish: 'la muestra', options: ['целое', 'всё', 'образец', 'общее'], correct: 2 },
-      { spanish: 'necesario', options: ['лишний', 'ненужный', 'необходимый', 'случайный'], correct: 2 },
-      { spanish: 'el aparato', options: ['природа', 'растение', 'аппарат', 'животное'], correct: 2 },
+      { spanish: 'cuidadosamente', options: ['внимательно', 'грубо', 'небрежно', 'быстро'], correct: 0 },
+      { spanish: 'la muestra', options: ['целое', 'образец', 'всё', 'общее'], correct: 1 },
+      { spanish: 'necesario', options: ['лишний', 'необходимый', 'ненужный', 'случайный'], correct: 1 },
+      { spanish: 'el aparato', options: ['природа', 'растение', 'животное', 'аппарат'], correct: 3 },
       { spanish: 'rápido', options: ['медленный', 'ленивый', 'быстрый', 'неторопливый'], correct: 2 },
-      { spanish: 'inmediatamente', options: ['позже', 'потом', 'немедленно', 'когда-нибудь'], correct: 2 },
-      { spanish: 'debido a', options: ['несмотря на', 'вопреки', 'из-за', 'независимо от'], correct: 2 },
+      { spanish: 'inmediatamente', options: ['немедленно', 'потом', 'позже', 'когда-нибудь'], correct: 0 },
+      { spanish: 'debido a', options: ['из-за', 'вопреки', 'несмотря на', 'независимо от'], correct: 0 },
       { spanish: 'la piel', options: ['волосы', 'ногти', 'кожа', 'зубы'], correct: 2 },
-      { spanish: 'adaptarse', options: ['сопротивляться', 'отвергать', 'адаптироваться', 'бороться'], correct: 2 },
-      { spanish: 'encontrar', options: ['терять', 'прятать', 'находить', 'избегать'], correct: 2 },
-      { spanish: 'el fondo', options: ['вершина', 'поверхность', 'дно', 'край'], correct: 2 }
+      { spanish: 'adaptarse', options: ['сопротивляться', 'отвергать', 'бороться', 'адаптироваться'], correct: 3 },
+      { spanish: 'encontrar', options: ['терять', 'находить', 'прятать', 'избегать'], correct: 1 },
+      { spanish: 'el fondo', options: ['дно', 'поверхность', 'вершина', 'край'], correct: 0 }
     ]
   },
 
@@ -41657,20 +41657,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     showAnswerOption: true,
     questions: [
       { sentence: 'El ______ zombie puede controlar el cerebro de las hormigas.', blank: 'hongo', options: ['árbol', 'hongo', 'pez', 'pájaro'], correct: 1 },
-      { sentence: 'La historia parece sacada de una película de ______.', blank: 'ciencia ficción', options: ['amor', 'ciencia ficción', 'comedia', 'acción'], correct: 1 },
-      { sentence: 'El parásito logra ______ la mente de su víctima.', blank: 'apoderarse de', options: ['olvidarse de', 'apoderarse de', 'alejarse de', 'reírse de'], correct: 1 },
-      { sentence: 'La ______ carpintera es el huésped favorito del cordyceps.', blank: 'hormiga', options: ['abeja', 'araña', 'hormiga', 'mosca'], correct: 2 },
-      { sentence: 'El insecto infectado se convierte en ______ del hongo.', blank: 'huésped', options: ['enemigo', 'amigo', 'huésped', 'competidor'], correct: 2 },
+      { sentence: 'La historia parece sacada de una película de ______.', blank: 'ciencia ficción', options: ['amor', 'comedia', 'ciencia ficción', 'acción'], correct: 2 },
+      { sentence: 'El parásito logra ______ la mente de su víctima.', blank: 'apoderarse de', options: ['apoderarse de', 'olvidarse de', 'alejarse de', 'reírse de'], correct: 0 },
+      { sentence: 'La ______ carpintera es el huésped favorito del cordyceps.', blank: 'hormiga', options: ['abeja', 'araña', 'mosca', 'hormiga'], correct: 3 },
+      { sentence: 'El insecto infectado se convierte en ______ del hongo.', blank: 'huésped', options: ['huésped', 'amigo', 'enemigo', 'competidor'], correct: 0 },
       { sentence: 'La manera en que el hongo controla a la hormiga es ______.', blank: 'espeluznante', options: ['divertida', 'espeluznante', 'aburrida', 'simple'], correct: 1 },
-      { sentence: 'El hongo libera miles de ______ infecciosas desde la cabeza del insecto.', blank: 'esporas', options: ['flores', 'esporas', 'semillas', 'hojas'], correct: 1 },
-      { sentence: 'El parásito logra ______ los movimientos de la hormiga.', blank: 'controlar', options: ['ignorar', 'controlar', 'perder', 'olvidar'], correct: 1 },
-      { sentence: 'El hongo puede ______ a su huésped a abandonar su hogar.', blank: 'obligar', options: ['invitar', 'pedir', 'obligar', 'sugerir'], correct: 2 },
-      { sentence: 'La hormiga zombie debe ______ por un tallo hasta cierta altura.', blank: 'trepar', options: ['nadar', 'volar', 'trepar', 'correr'], correct: 2 },
-      { sentence: 'De la cabeza de la hormiga muerta ______ un tallo fúngico.', blank: 'brota', options: ['desaparece', 'brota', 'cae', 'huye'], correct: 1 },
-      { sentence: 'Existe una gran ______ de hongos parásitos en las selvas tropicales.', blank: 'variedad', options: ['escasez', 'variedad', 'falta', 'ausencia'], correct: 1 },
-      { sentence: 'Los parásitos mantienen el ______ del ecosistema controlando poblaciones.', blank: 'equilibrio', options: ['caos', 'desorden', 'equilibrio', 'problema'], correct: 2 },
+      { sentence: 'El hongo libera miles de ______ infecciosas desde la cabeza del insecto.', blank: 'esporas', options: ['flores', 'hojas', 'semillas', 'esporas'], correct: 3 },
+      { sentence: 'El parásito logra ______ los movimientos de la hormiga.', blank: 'controlar', options: ['ignorar', 'perder', 'controlar', 'olvidar'], correct: 2 },
+      { sentence: 'El hongo puede ______ a su huésped a abandonar su hogar.', blank: 'obligar', options: ['invitar', 'obligar', 'pedir', 'sugerir'], correct: 1 },
+      { sentence: 'La hormiga zombie debe ______ por un tallo hasta cierta altura.', blank: 'trepar', options: ['trepar', 'volar', 'nadar', 'correr'], correct: 0 },
+      { sentence: 'De la cabeza de la hormiga muerta ______ un tallo fúngico.', blank: 'brota', options: ['desaparece', 'huye', 'cae', 'brota'], correct: 3 },
+      { sentence: 'Existe una gran ______ de hongos parásitos en las selvas tropicales.', blank: 'variedad', options: ['escasez', 'falta', 'variedad', 'ausencia'], correct: 2 },
+      { sentence: 'Los parásitos mantienen el ______ del ecosistema controlando poblaciones.', blank: 'equilibrio', options: ['caos', 'equilibrio', 'desorden', 'problema'], correct: 1 },
       { sentence: 'Esta ______ de hongo solo infecta a ciertos tipos de hormigas.', blank: 'especie', options: ['especie', 'persona', 'cosa', 'idea'], correct: 0 },
-      { sentence: 'El hongo ______ sus esporas para infectar a nuevas víctimas.', blank: 'libera', options: ['esconde', 'libera', 'guarda', 'destruye'], correct: 1 }
+      { sentence: 'El hongo ______ sus esporas para infectar a nuevas víctimas.', blank: 'libera', options: ['esconde', 'destruye', 'guarda', 'libera'], correct: 3 }
     ]
   },
 
@@ -41707,20 +41707,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     showAnswerOption: true,
     questions: [
       { sentence: 'Los científicos ______ (descubrir) este hongo hace muchos años.', blank: 'descubrieron', options: ['han descubierto', 'descubrieron', 'descubran', 'descubrían'], correct: 1 },
-      { sentence: 'Hoy ______ (publicar, ellos) un nuevo estudio sobre el cordyceps.', blank: 'han publicado', options: ['publicaron', 'han publicado', 'publiquen', 'publicaban'], correct: 1 },
+      { sentence: 'Hoy ______ (publicar, ellos) un nuevo estudio sobre el cordyceps.', blank: 'han publicado', options: ['publicaron', 'publicaban', 'publiquen', 'han publicado'], correct: 3 },
       { sentence: 'Es importante que los investigadores ______ (observar) el comportamiento del hongo.', blank: 'observen', options: ['observan', 'observaron', 'observen', 'han observado'], correct: 2 },
-      { sentence: 'La hormiga ______ (trepar) hasta la altura perfecta antes de morir.', blank: 'trepó', options: ['ha trepado', 'trepó', 'trepe', 'trepaba'], correct: 1 },
-      { sentence: 'Nunca ______ (ver, yo) un documental tan impresionante sobre parásitos.', blank: 'he visto', options: ['vi', 'he visto', 'vea', 'veía'], correct: 1 },
-      { sentence: 'Es posible que el hongo ______ (liberar) sus esporas esta noche.', blank: 'libere', options: ['libera', 'liberó', 'libere', 'ha liberado'], correct: 2 },
-      { sentence: 'El año pasado los biólogos ______ (encontrar) nuevas especies de cordyceps.', blank: 'encontraron', options: ['han encontrado', 'encontraron', 'encuentren', 'encontraban'], correct: 1 },
-      { sentence: 'Es necesario que el público ______ (conocer) estos fenómenos naturales.', blank: 'conozca', options: ['conoce', 'conoció', 'conozca', 'ha conocido'], correct: 2 },
-      { sentence: 'Esta semana ______ (morir) varias hormigas en el experimento.', blank: 'han muerto', options: ['murieron', 'han muerto', 'mueran', 'morían'], correct: 1 },
-      { sentence: 'No creo que este hongo ______ (ser) peligroso para los humanos.', blank: 'sea', options: ['es', 'fue', 'sea', 'ha sido'], correct: 2 },
-      { sentence: 'Los investigadores ______ (analizar) el genoma del cordyceps en 2015.', blank: 'analizaron', options: ['han analizado', 'analizaron', 'analicen', 'analizaban'], correct: 1 },
-      { sentence: 'Dudo que la hormiga ______ (poder) escapar una vez infectada.', blank: 'pueda', options: ['puede', 'pudo', 'pueda', 'ha podido'], correct: 2 },
-      { sentence: 'Últimamente ______ (aumentar) el interés por los hongos parásitos.', blank: 'ha aumentado', options: ['aumentó', 'ha aumentado', 'aumente', 'aumentaba'], correct: 1 },
-      { sentence: 'El hongo ______ (controlar) a la hormiga durante varios días antes de matarla.', blank: 'controló', options: ['ha controlado', 'controló', 'controle', 'controlaba'], correct: 1 },
-      { sentence: 'Espero que los científicos ______ (descubrir) pronto una cura.', blank: 'descubran', options: ['descubren', 'descubrieron', 'descubran', 'han descubierto'], correct: 2 }
+      { sentence: 'La hormiga ______ (trepar) hasta la altura perfecta antes de morir.', blank: 'trepó', options: ['trepó', 'ha trepado', 'trepe', 'trepaba'], correct: 0 },
+      { sentence: 'Nunca ______ (ver, yo) un documental tan impresionante sobre parásitos.', blank: 'he visto', options: ['he visto', 'vi', 'vea', 'veía'], correct: 0 },
+      { sentence: 'Es posible que el hongo ______ (liberar) sus esporas esta noche.', blank: 'libere', options: ['libera', 'liberó', 'ha liberado', 'libere'], correct: 3 },
+      { sentence: 'El año pasado los biólogos ______ (encontrar) nuevas especies de cordyceps.', blank: 'encontraron', options: ['han encontrado', 'encuentren', 'encontraron', 'encontraban'], correct: 2 },
+      { sentence: 'Es necesario que el público ______ (conocer) estos fenómenos naturales.', blank: 'conozca', options: ['conoce', 'conozca', 'conoció', 'ha conocido'], correct: 1 },
+      { sentence: 'Esta semana ______ (morir) varias hormigas en el experimento.', blank: 'han muerto', options: ['murieron', 'mueran', 'han muerto', 'morían'], correct: 2 },
+      { sentence: 'No creo que este hongo ______ (ser) peligroso para los humanos.', blank: 'sea', options: ['sea', 'fue', 'es', 'ha sido'], correct: 0 },
+      { sentence: 'Los investigadores ______ (analizar) el genoma del cordyceps en 2015.', blank: 'analizaron', options: ['han analizado', 'analizaban', 'analicen', 'analizaron'], correct: 3 },
+      { sentence: 'Dudo que la hormiga ______ (poder) escapar una vez infectada.', blank: 'pueda', options: ['puede', 'pueda', 'pudo', 'ha podido'], correct: 1 },
+      { sentence: 'Últimamente ______ (aumentar) el interés por los hongos parásitos.', blank: 'ha aumentado', options: ['ha aumentado', 'aumentó', 'aumente', 'aumentaba'], correct: 0 },
+      { sentence: 'El hongo ______ (controlar) a la hormiga durante varios días antes de matarla.', blank: 'controló', options: ['ha controlado', 'controle', 'controló', 'controlaba'], correct: 2 },
+      { sentence: 'Espero que los científicos ______ (descubrir) pronto una cura.', blank: 'descubran', options: ['descubren', 'descubrieron', 'han descubierto', 'descubran'], correct: 3 }
     ]
   },
 
@@ -41801,21 +41801,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Заполните пропуски подходящим словом',
     showAnswerOption: true,
     questions: [
-      { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'oscuro', 'brillante', 'luminoso'], correct: 1 },
+      { sentence: 'No veo nada porque aquí está muy ______.', blank: 'oscuro', options: ['claro', 'brillante', 'oscuro', 'luminoso'], correct: 2 },
       { sentence: 'Por favor, niños, ______ para escuchar mejor esta explicación.', blank: 'acérquense', options: ['aléjense', 'acérquense', 'siéntense', 'levántense'], correct: 1 },
-      { sentence: 'La luz es una forma de energía ______ de pequeñas partículas llamadas fotones.', blank: 'compuesta', options: ['separada', 'compuesta', 'dividida', 'rota'], correct: 1 },
-      { sentence: 'Los fotones son las ______ más pequeñas de luz que existen.', blank: 'unidades', options: ['partes', 'unidades', 'piezas', 'fragmentos'], correct: 1 },
-      { sentence: 'La luz es ______ porque actúa tanto como partícula como onda.', blank: 'peculiar', options: ['normal', 'peculiar', 'simple', 'común'], correct: 1 },
+      { sentence: 'La luz es una forma de energía ______ de pequeñas partículas llamadas fotones.', blank: 'compuesta', options: ['separada', 'rota', 'dividida', 'compuesta'], correct: 3 },
+      { sentence: 'Los fotones son las ______ más pequeñas de luz que existen.', blank: 'unidades', options: ['unidades', 'partes', 'piezas', 'fragmentos'], correct: 0 },
+      { sentence: 'La luz es ______ porque actúa tanto como partícula como onda.', blank: 'peculiar', options: ['peculiar', 'normal', 'simple', 'común'], correct: 0 },
       { sentence: 'La luz se comporta como una ______ diminuta cuando viaja.', blank: 'partícula', options: ['onda', 'partícula', 'energía', 'fuerza'], correct: 1 },
-      { sentence: 'Al mismo tiempo, la luz también se comporta como una ______.', blank: 'onda', options: ['partícula', 'onda', 'corriente', 'bola'], correct: 1 },
-      { sentence: 'La luz interactúa de manera diferente con distintos tipos de ______.', blank: 'materia', options: ['luz', 'materia', 'energía', 'aire'], correct: 1 },
-      { sentence: 'Si la luz ______ un objeto completamente, ese objeto es transparente.', blank: 'atraviesa', options: ['bloquea', 'atraviesa', 'refleja', 'absorbe'], correct: 1 },
+      { sentence: 'Al mismo tiempo, la luz también se comporta como una ______.', blank: 'onda', options: ['partícula', 'corriente', 'onda', 'bola'], correct: 2 },
+      { sentence: 'La luz interactúa de manera diferente con distintos tipos de ______.', blank: 'materia', options: ['luz', 'aire', 'energía', 'materia'], correct: 3 },
+      { sentence: 'Si la luz ______ un objeto completamente, ese objeto es transparente.', blank: 'atraviesa', options: ['bloquea', 'refleja', 'atraviesa', 'absorbe'], correct: 2 },
       { sentence: 'El agua y el vidrio son ejemplos de materiales ______.', blank: 'transparentes', options: ['opacos', 'transparentes', 'sólidos', 'duros'], correct: 1 },
-      { sentence: 'Por favor, ______ la habitación con esa lámpara para ver mejor.', blank: 'iluminen', options: ['oscurezcan', 'iluminen', 'cierren', 'abran'], correct: 1 },
-      { sentence: 'Si el objeto es opaco, la luz cambia su ______ después de tocarlo.', blank: 'rumbo', options: ['color', 'rumbo', 'forma', 'tamaño'], correct: 1 },
+      { sentence: 'Por favor, ______ la habitación con esa lámpara para ver mejor.', blank: 'iluminen', options: ['iluminen', 'oscurezcan', 'cierren', 'abran'], correct: 0 },
+      { sentence: 'Si el objeto es opaco, la luz cambia su ______ después de tocarlo.', blank: 'rumbo', options: ['color', 'tamaño', 'forma', 'rumbo'], correct: 3 },
       { sentence: 'Los humanos y la madera son materiales ______.', blank: 'opacos', options: ['transparentes', 'opacos', 'claros', 'brillantes'], correct: 1 },
-      { sentence: 'Los objetos translúcidos dejan pasar la luz ______.', blank: 'parcialmente', options: ['completamente', 'parcialmente', 'nunca', 'siempre'], correct: 1 },
-      { sentence: 'En el vacío no hay ______ que reduzcan la velocidad de la luz.', blank: 'obstáculos', options: ['ayudas', 'obstáculos', 'luces', 'colores'], correct: 1 }
+      { sentence: 'Los objetos translúcidos dejan pasar la luz ______.', blank: 'parcialmente', options: ['completamente', 'nunca', 'parcialmente', 'siempre'], correct: 2 },
+      { sentence: 'En el vacío no hay ______ que reduzcan la velocidad de la luz.', blank: 'obstáculos', options: ['ayudas', 'colores', 'luces', 'obstáculos'], correct: 3 }
     ]
   },
 
@@ -41851,21 +41851,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Выберите правильную форму глагола',
     showAnswerOption: true,
     questions: [
-      { sentence: 'Hoy nosotros (aprender) ______ sobre las propiedades de la luz.', options: ['aprendemos', 'aprendimos', 'hemos aprendido', 'aprendíamos'], correct: 2, explanation: 'Hemos aprendido (Pretérito perfecto - acción hoy con resultado en el presente)' },
-      { sentence: 'Ayer el profesor (explicar) ______ la teoría de la refracción durante toda la clase.', options: ['explica', 'explicó', 'explicaba', 'ha explicado'], correct: 1, explanation: 'Explicó (Pretérito indefinido - acción completa en tiempo específico del pasado)' },
-      { sentence: 'Cuando yo era pequeño, (pensar) ______ que la luz viajaba instantáneamente.', options: ['pienso', 'pensé', 'pensaba', 'he pensado'], correct: 2, explanation: 'Pensaba (Pretérito imperfecto - estado mental habitual en el pasado)' },
-      { sentence: '(Mirar, tú) ______ esta demostración del prisma, es fascinante.', options: ['miras', 'mira', 'mires', 'miraste'], correct: 1, explanation: 'Mira (Imperativo afirmativo segunda persona singular)' },
-      { sentence: 'No (tocar, tú) ______ el láser directamente con los ojos.', options: ['tocas', 'toques', 'toca', 'tocarás'], correct: 1, explanation: 'Toques (Presente de subjuntivo - imperativo negativo)' },
-      { sentence: 'Es importante que la luz (atravesar) ______ el material para que podamos verlo.', options: ['atraviesa', 'atraviese', 'atravesó', 'atravesaba'], correct: 1, explanation: 'Atraviese (Presente de subjuntivo - expresión de importancia con "es importante que")' },
-      { sentence: 'En el laboratorio de física (nosotros, realizar) ______ muchos experimentos el año pasado.', options: ['realizamos', 'realizábamos', 'hemos realizado', 'realizaremos'], correct: 0, explanation: 'Realizamos (Pretérito indefinido - acción completa en tiempo específico)' },
+      { sentence: 'Hoy nosotros (aprender) ______ sobre las propiedades de la luz.', options: ['aprendemos', 'aprendimos', 'aprendíamos', 'hemos aprendido'], correct: 3, explanation: 'Hemos aprendido (Pretérito perfecto - acción hoy con resultado en el presente)' },
+      { sentence: 'Ayer el profesor (explicar) ______ la teoría de la refracción durante toda la clase.', options: ['explica', 'explicaba', 'explicó', 'ha explicado'], correct: 2, explanation: 'Explicó (Pretérito indefinido - acción completa en tiempo específico del pasado)' },
+      { sentence: 'Cuando yo era pequeño, (pensar) ______ que la luz viajaba instantáneamente.', options: ['pienso', 'pensaba', 'pensé', 'he pensado'], correct: 1, explanation: 'Pensaba (Pretérito imperfecto - estado mental habitual en el pasado)' },
+      { sentence: '(Mirar, tú) ______ esta demostración del prisma, es fascinante.', options: ['mira', 'miras', 'mires', 'miraste'], correct: 0, explanation: 'Mira (Imperativo afirmativo segunda persona singular)' },
+      { sentence: 'No (tocar, tú) ______ el láser directamente con los ojos.', options: ['tocas', 'tocarás', 'toca', 'toques'], correct: 3, explanation: 'Toques (Presente de subjuntivo - imperativo negativo)' },
+      { sentence: 'Es importante que la luz (atravesar) ______ el material para que podamos verlo.', options: ['atraviese', 'atraviesa', 'atravesó', 'atravesaba'], correct: 0, explanation: 'Atraviese (Presente de subjuntivo - expresión de importancia con "es importante que")' },
+      { sentence: 'En el laboratorio de física (nosotros, realizar) ______ muchos experimentos el año pasado.', options: ['hemos realizado', 'realizábamos', 'realizamos', 'realizaremos'], correct: 2, explanation: 'Realizamos (Pretérito indefinido - acción completa en tiempo específico)' },
       { sentence: 'Los estudiantes (preparar) ______ todos los materiales antes de empezar el experimento ayer.', options: ['preparan', 'prepararon', 'preparaban', 'han preparado'], correct: 1, explanation: 'Prepararon (Pretérito indefinido - acción completa en el pasado)' },
-      { sentence: '(Esperar, vosotros) ______ a que se oscurezca la habitación para ver mejor el efecto.', options: ['esperáis', 'esperad', 'esperéis', 'esperasteis'], correct: 1, explanation: 'Esperad (Imperativo afirmativo segunda persona plural)' },
-      { sentence: 'Dudo que la luz (poder) ______ atravesar este material tan denso.', options: ['puede', 'pueda', 'pudo', 'podía'], correct: 1, explanation: 'Pueda (Presente de subjuntivo - expresión de duda con "dudo que")' },
-      { sentence: 'Mientras el profesor (hablar) ______, los estudiantes tomaban notas sobre la reflexión.', options: ['habla', 'habló', 'hablaba', 'ha hablado'], correct: 2, explanation: 'Hablaba (Pretérito imperfecto - acción en curso mientras otra ocurría)' },
-      { sentence: 'Esta mañana (yo, descubrir) ______ que los humanos son bioluminiscentes.', options: ['descubrí', 'descubría', 'he descubierto', 'descubro'], correct: 2, explanation: 'He descubierto (Pretérito perfecto - acción hoy con conexión al presente)' },
+      { sentence: '(Esperar, vosotros) ______ a que se oscurezca la habitación para ver mejor el efecto.', options: ['esperad', 'esperáis', 'esperéis', 'esperasteis'], correct: 0, explanation: 'Esperad (Imperativo afirmativo segunda persona plural)' },
+      { sentence: 'Dudo que la luz (poder) ______ atravesar este material tan denso.', options: ['puede', 'pudo', 'pueda', 'podía'], correct: 2, explanation: 'Pueda (Presente de subjuntivo - expresión de duda con "dudo que")' },
+      { sentence: 'Mientras el profesor (hablar) ______, los estudiantes tomaban notas sobre la reflexión.', options: ['habla', 'hablaba', 'habló', 'ha hablado'], correct: 1, explanation: 'Hablaba (Pretérito imperfecto - acción en curso mientras otra ocurría)' },
+      { sentence: 'Esta mañana (yo, descubrir) ______ que los humanos son bioluminiscentes.', options: ['descubrí', 'descubría', 'descubro', 'he descubierto'], correct: 3, explanation: 'He descubierto (Pretérito perfecto - acción hoy con conexión al presente)' },
       { sentence: 'No (creer, vosotros) ______ que todo esto es magia, es pura física.', options: ['creéis', 'creáis', 'creed', 'creyerais'], correct: 1, explanation: 'Creáis (Presente de subjuntivo - imperativo negativo segunda persona plural)' },
-      { sentence: 'Te recomiendo que (iluminar, tú) ______ bien el experimento para observar los detalles.', options: ['iluminas', 'ilumines', 'iluminarás', 'iluminabas'], correct: 1, explanation: 'Ilumines (Presente de subjuntivo - después de verbo de recomendación)' },
-      { sentence: 'El científico (demostrar) ______ la refracción usando un vaso de agua y un lápiz.', options: ['demuestra', 'demostró', 'demostraba', 'ha demostrado'], correct: 1, explanation: 'Demostró (Pretérito indefinido - acción completa en el pasado)' }
+      { sentence: 'Te recomiendo que (iluminar, tú) ______ bien el experimento para observar los detalles.', options: ['iluminas', 'iluminarás', 'ilumines', 'iluminabas'], correct: 2, explanation: 'Ilumines (Presente de subjuntivo - después de verbo de recomendación)' },
+      { sentence: 'El científico (demostrar) ______ la refracción usando un vaso de agua y un lápiz.', options: ['demostró', 'demuestra', 'demostraba', 'ha demostrado'], correct: 0, explanation: 'Demostró (Pretérito indefinido - acción completa en el pasado)' }
     ]
   },
 
@@ -41877,20 +41877,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     showAnswerOption: true,
     questions: [
       { sentence: 'Es necesario que nosotros (comprender) ______ la naturaleza dual de la luz.', options: ['comprendemos', 'comprendamos', 'comprendimos', 'comprendíamos'], correct: 1, explanation: 'Comprendamos (Presente de subjuntivo - después de "es necesario que")' },
-      { sentence: 'Espero que la luz (reflejar) ______ correctamente en esta superficie.', options: ['refleja', 'refleje', 'reflejó', 'reflejaba'], correct: 1, explanation: 'Refleje (Presente de subjuntivo - después de verbo de esperanza "espero que")' },
-      { sentence: 'No creo que los fotones (ser) ______ visibles a simple vista.', options: ['son', 'sean', 'fueron', 'eran'], correct: 1, explanation: 'Sean (Presente de subjuntivo - después de negación de creencia "no creo que")' },
-      { sentence: 'Quiero que tú (observar) ______ cómo la luz atraviesa el agua.', options: ['observas', 'observes', 'observaste', 'observabas'], correct: 1, explanation: 'Observes (Presente de subjuntivo - después de verbo de voluntad "quiero que")' },
-      { sentence: 'Es probable que la velocidad de la luz (disminuir) ______ en materiales densos.', options: ['disminuye', 'disminuya', 'disminuyó', 'disminuía'], correct: 1, explanation: 'Disminuya (Presente de subjuntivo - expresión de probabilidad)' },
-      { sentence: 'Me sorprende que los humanos (emitir) ______ luz, aunque sea muy débil.', options: ['emiten', 'emitan', 'emitieron', 'emitían'], correct: 1, explanation: 'Emitan (Presente de subjuntivo - después de expresión de emoción)' },
-      { sentence: 'Para que el experimento (funcionar) ______, necesitamos oscurecer la habitación.', options: ['funciona', 'funcione', 'funcionó', 'funcionaba'], correct: 1, explanation: 'Funcione (Presente de subjuntivo - expresión de finalidad con "para que")' },
+      { sentence: 'Espero que la luz (reflejar) ______ correctamente en esta superficie.', options: ['refleje', 'refleja', 'reflejó', 'reflejaba'], correct: 0, explanation: 'Refleje (Presente de subjuntivo - después de verbo de esperanza "espero que")' },
+      { sentence: 'No creo que los fotones (ser) ______ visibles a simple vista.', options: ['son', 'fueron', 'sean', 'eran'], correct: 2, explanation: 'Sean (Presente de subjuntivo - después de negación de creencia "no creo que")' },
+      { sentence: 'Quiero que tú (observar) ______ cómo la luz atraviesa el agua.', options: ['observas', 'observabas', 'observaste', 'observes'], correct: 3, explanation: 'Observes (Presente de subjuntivo - después de verbo de voluntad "quiero que")' },
+      { sentence: 'Es probable que la velocidad de la luz (disminuir) ______ en materiales densos.', options: ['disminuye', 'disminuía', 'disminuyó', 'disminuya'], correct: 3, explanation: 'Disminuya (Presente de subjuntivo - expresión de probabilidad)' },
+      { sentence: 'Me sorprende que los humanos (emitir) ______ luz, aunque sea muy débil.', options: ['emiten', 'emitieron', 'emitan', 'emitían'], correct: 2, explanation: 'Emitan (Presente de subjuntivo - después de expresión de emoción)' },
+      { sentence: 'Para que el experimento (funcionar) ______, necesitamos oscurecer la habitación.', options: ['funcione', 'funciona', 'funcionó', 'funcionaba'], correct: 0, explanation: 'Funcione (Presente de subjuntivo - expresión de finalidad con "para que")' },
       { sentence: 'Dudo que este material (permitir) ______ el paso de la luz completamente.', options: ['permite', 'permita', 'permitió', 'permitía'], correct: 1, explanation: 'Permita (Presente de subjuntivo - expresión de duda)' },
-      { sentence: 'Es importante que los estudiantes (entender) ______ la diferencia entre reflexión y refracción.', options: ['entienden', 'entiendan', 'entendieron', 'entendían'], correct: 1, explanation: 'Entiendan (Presente de subjuntivo - después de "es importante que")' },
+      { sentence: 'Es importante que los estudiantes (entender) ______ la diferencia entre reflexión y refracción.', options: ['entienden', 'entendieron', 'entiendan', 'entendían'], correct: 2, explanation: 'Entiendan (Presente de subjuntivo - después de "es importante que")' },
       { sentence: 'No pienso que la luz (tardar) ______ tanto en llegar desde el Sol.', options: ['tarda', 'tarde', 'tardó', 'tardaba'], correct: 1, explanation: 'Tarde (Presente de subjuntivo - después de negación "no pienso que")' },
-      { sentence: 'Ojalá que nosotros (poder) ______ ver los fotones directamente algún día.', options: ['podemos', 'podamos', 'pudimos', 'podíamos'], correct: 1, explanation: 'Podamos (Presente de subjuntivo - después de "ojalá que" expresando deseo)' },
-      { sentence: 'Es una pena que no (haber) ______ suficiente luz para realizar el experimento ahora.', options: ['hay', 'haya', 'hubo', 'había'], correct: 1, explanation: 'Haya (Presente de subjuntivo - expresión de sentimiento)' },
+      { sentence: 'Ojalá que nosotros (poder) ______ ver los fotones directamente algún día.', options: ['podamos', 'podemos', 'pudimos', 'podíamos'], correct: 0, explanation: 'Podamos (Presente de subjuntivo - después de "ojalá que" expresando deseo)' },
+      { sentence: 'Es una pena que no (haber) ______ suficiente luz para realizar el experimento ahora.', options: ['hay', 'había', 'hubo', 'haya'], correct: 3, explanation: 'Haya (Presente de subjuntivo - expresión de sentimiento)' },
       { sentence: 'Aunque la luz (viajar) ______ muy rápido, todavía tarda tiempo en llegar de las estrellas.', options: ['viaja', 'viaje', 'viajó', 'viajaba'], correct: 1, explanation: 'Viaje (Presente de subjuntivo - después de "aunque" con concesión)' },
-      { sentence: 'Te pido que (iluminar, tú) ______ este objeto desde diferentes ángulos.', options: ['iluminas', 'ilumines', 'iluminaste', 'iluminabas'], correct: 1, explanation: 'Ilumines (Presente de subjuntivo - después de verbo de petición)' },
-      { sentence: 'No es cierto que todos los objetos (refractar) ______ la luz de la misma manera.', options: ['refractan', 'refracten', 'refractaron', 'refractaban'], correct: 1, explanation: 'Refracten (Presente de subjuntivo - después de negación "no es cierto que")' }
+      { sentence: 'Te pido que (iluminar, tú) ______ este objeto desde diferentes ángulos.', options: ['iluminas', 'iluminabas', 'iluminaste', 'ilumines'], correct: 3, explanation: 'Ilumines (Presente de subjuntivo - después de verbo de petición)' },
+      { sentence: 'No es cierto que todos los objetos (refractar) ______ la luz de la misma manera.', options: ['refracten', 'refractan', 'refractaron', 'refractaban'], correct: 0, explanation: 'Refracten (Presente de subjuntivo - después de negación "no es cierto que")' }
     ]
   },
 
@@ -42336,41 +42336,41 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         question: '¿A qué servicio llama la mujer?',
         options: [
           'A la policía',
-          'A urgencias médicas',
+          'Al hospital general',
           'A los bomberos',
-          'Al hospital general'
+          'A urgencias médicas'
         ],
-        correct: 1
+        correct: 3
       },
       {
         question: '¿Qué le ha pasado al marido de la mujer?',
         options: [
-          'Ha tenido un accidente de tráfico',
-          'Se ha caído en el baño',
           'Ha tenido un accidente doméstico',
+          'Se ha caído en el baño',
+          'Ha tenido un accidente de tráfico',
           'Se ha quemado en la cocina'
         ],
-        correct: 2
+        correct: 0
       },
       {
         question: '¿Cuál es el número de tarjeta sanitaria de la mujer?',
         options: [
           '4483100-A',
-          '4483100-B',
           '4483100-C',
+          '4483100-B',
           '4483100-D'
         ],
-        correct: 1
+        correct: 2
       },
       {
         question: '¿Dónde se ha caído el paciente?',
         options: [
           'En el baño',
-          'En el salón',
           'En la cocina',
+          'En el salón',
           'En el dormitorio'
         ],
-        correct: 2
+        correct: 1
       },
       {
         question: '¿Qué síntoma presenta el paciente además de la herida?',
@@ -42395,42 +42395,42 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         question: '¿Cómo se llama el paciente?',
         options: [
-          'Ricardo Galdón',
           'Ricardo Galdós',
+          'Ricardo Galdón',
           'Ricardo Galdés',
           'Ricardo Galdáns'
         ],
-        correct: 1
+        correct: 0
       },
       {
         question: '¿En qué calle vive la familia?',
         options: [
           'Calle de América',
           'Plaza de América',
-          'Avenida de América',
-          'Paseo de América'
+          'Paseo de América',
+          'Avenida de América'
         ],
-        correct: 2
+        correct: 3
       },
       {
         question: '¿Cuánto tiempo tardará en llegar la ambulancia?',
         options: [
-          'Cinco minutos',
           'Diez minutos',
+          'Cinco minutos',
           'Quince minutos',
           'Veinte minutos'
         ],
-        correct: 1
+        correct: 0
       },
       {
         question: '¿Qué debe hacer la mujer mientras llega la ambulancia?',
         options: [
           'Darle agua al paciente',
-          'Presionar la herida con un paño limpio',
+          'Llamar a otro médico',
           'Llevar al paciente al hospital',
-          'Llamar a otro médico'
+          'Presionar la herida con un paño limpio'
         ],
-        correct: 1
+        correct: 3
       }
     ]
   },
@@ -42642,20 +42642,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     wordBank: ['escatimar', 'tratamiento', 'prótesis', 'maxilar', 'masticar', 'bocadillo', 'cuchara', 'merme', 'implantes', 'adorno', 'drácula', 'pajita', 'capa', 'hervores', 'tomillo', 'humo', 'vaho', 'flan'],
     questions: [
       { question: '¿Qué dice el nieto al principio sobre el tratamiento?', options: ['Que quiere el más barato', 'Que quiere lo mejor, sin escatimar', 'Que no quiere ningún tratamiento', 'Que prefiere esperar'], correct: 1 },
-      { question: '¿Cuánto cuesta la opción más cara de dientes fijos?', options: ['1.000 €', '3.000 €', '25.000 €', '1 €'], correct: 2 },
-      { question: '¿Qué puede hacer una persona con dientes fijos según el doctor?', options: ['Solo comer sopas', 'Masticar, comer bocadillos y chuletón', 'Solo beber líquidos', 'Nada especial'], correct: 1 },
-      { question: '¿Por qué el nieto dice que su abuela no es de bocadillos?', options: ['Porque es alérgica al pan', 'Porque prefiere comida de cuchara como garbanzos', 'Porque no le gustan', 'Porque son muy caros'], correct: 1 },
+      { question: '¿Cuánto cuesta la opción más cara de dientes fijos?', options: ['1.000 €', '3.000 €', '1 €', '25.000 €'], correct: 3 },
+      { question: '¿Qué puede hacer una persona con dientes fijos según el doctor?', options: ['Solo comer sopas', 'Solo beber líquidos', 'Masticar, comer bocadillos y chuletón', 'Nada especial'], correct: 2 },
+      { question: '¿Por qué el nieto dice que su abuela no es de bocadillos?', options: ['Porque prefiere comida de cuchara como garbanzos', 'Porque es alérgica al pan', 'Porque no le gustan', 'Porque son muy caros'], correct: 0 },
       { question: '¿Qué significa la expresión "matar moscas a cañonazos"?', options: ['Cazar insectos', 'Usar medios excesivos para algo simple', 'Una técnica dental', 'Un tipo de comida'], correct: 1 },
-      { question: '¿Cuánto cuesta la prótesis de quitar y poner con dos implantes?', options: ['25.000 €', '3.000 €', '1.000 €', '1 €'], correct: 1 },
-      { question: '¿Qué significa "vamos al merme"?', options: ['Vamos al hospital', 'Vamos a reducir, a lo mínimo', 'Vamos a comer', 'Vamos al dentista'], correct: 1 },
-      { question: '¿Qué le gusta más a la abuela según el nieto?', options: ['Comer bocadillos', 'Beber más que comer', 'Masticar carne', 'Comer dulces'], correct: 1 },
-      { question: '¿Qué opción de 1 euro ofrece el doctor?', options: ['Una pajita', 'Dientes de drácula', 'Nada', 'Una prótesis completa'], correct: 1 },
+      { question: '¿Cuánto cuesta la prótesis de quitar y poner con dos implantes?', options: ['25.000 €', '1 €', '1.000 €', '3.000 €'], correct: 3 },
+      { question: '¿Qué significa "vamos al merme"?', options: ['Vamos a reducir, a lo mínimo', 'Vamos al hospital', 'Vamos a comer', 'Vamos al dentista'], correct: 0 },
+      { question: '¿Qué le gusta más a la abuela según el nieto?', options: ['Comer bocadillos', 'Masticar carne', 'Beber más que comer', 'Comer dulces'], correct: 2 },
+      { question: '¿Qué opción de 1 euro ofrece el doctor?', options: ['Una pajita', 'Una prótesis completa', 'Nada', 'Dientes de drácula'], correct: 3 },
       { question: '¿Cuál es la última opción que menciona el doctor?', options: ['Dientes de drácula', 'Una prótesis', 'Una pajita', 'Implantes'], correct: 2 },
-      { question: '¿Cómo reacciona el nieto cuando el doctor menciona la pajita?', options: ['Acepta la opción', 'Se siente ofendido', 'Se ríe', 'Se va del consultorio'], correct: 1 },
+      { question: '¿Cómo reacciona el nieto cuando el doctor menciona la pajita?', options: ['Se siente ofendido', 'Acepta la opción', 'Se ríe', 'Se va del consultorio'], correct: 0 },
       { question: '¿Qué decide pedir el nieto al final?', options: ['La pajita', 'Los dientes de drácula con la capa', 'Los dientes fijos de 25.000 €', 'La prótesis de 3.000 €'], correct: 1 },
-      { question: '¿Qué comida absurda le tiene preparada el nieto a su abuela?', options: ['Un chuletón', 'Bocadillos', 'Hervores de tomillo y bocadillo de humo', 'Sopa de verduras'], correct: 2 },
-      { question: '¿Qué es el postre que menciona el nieto?', options: ['Flan normal', 'Vaho de flan', 'Helado', 'Tarta'], correct: 1 },
-      { question: '¿Qué tono tiene este diálogo?', options: ['Serio y dramático', 'Cómico y absurdo', 'Triste', 'Técnico'], correct: 1 }
+      { question: '¿Qué comida absurda le tiene preparada el nieto a su abuela?', options: ['Un chuletón', 'Hervores de tomillo y bocadillo de humo', 'Bocadillos', 'Sopa de verduras'], correct: 1 },
+      { question: '¿Qué es el postre que menciona el nieto?', options: ['Flan normal', 'Tarta', 'Helado', 'Vaho de flan'], correct: 3 },
+      { question: '¿Qué tono tiene este diálogo?', options: ['Cómico y absurdo', 'Serio y dramático', 'Triste', 'Técnico'], correct: 0 }
     ]
   },
 
@@ -43436,20 +43436,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Ответьте на вопросы по тексту диалога «Colón llegó a colar»',
     showAnswerOption: true,
     questions: [
-      { question: '¿En nombre de quién toma posesión Colón de las nuevas tierras?', options: ['En nombre del Papa', 'En nombre de los Reyes Isabel y Fernando', 'En nombre de Portugal', 'En nombre de su tripulación'], correct: 1 },
-      { question: '¿Cómo se llamarán las nuevas tierras según Colón?', options: ['América', 'San Salvador', 'Castilla', 'Nueva España'], correct: 1 },
-      { question: '¿Qué le pide el funcionario a Colón?', options: ['Dinero', 'Los papeles y permisos', 'Su espada', 'Una carta del rey'], correct: 1 },
-      { question: '¿Qué documento tiene Colón?', options: ['Un pasaporte', 'Un visado', 'El mandato de los Reyes de Castilla', 'Un permiso de trabajo'], correct: 2 },
-      { question: '¿Cómo llama el funcionario al barco de Colón?', options: ['Carabela', 'Barca', 'Patera', 'Yate'], correct: 2 },
-      { question: '¿Cuántos hombres hay a bordo de la carabela?', options: ['50', 'Más de 120', '200', '80'], correct: 1 },
-      { question: '¿En qué estado se encuentran los hombres de Colón?', options: ['Sanos y fuertes', 'Hambrientos y enfermos', 'Contentos y descansados', 'Borrachos'], correct: 1 },
-      { question: '¿Cuánto tiempo duró la travesía?', options: ['Una semana', 'Un mes', 'Dos meses', 'Un año'], correct: 2 },
+      { question: '¿En nombre de quién toma posesión Colón de las nuevas tierras?', options: ['En nombre del Papa', 'En nombre de Portugal', 'En nombre de los Reyes Isabel y Fernando', 'En nombre de su tripulación'], correct: 2 },
+      { question: '¿Cómo se llamarán las nuevas tierras según Colón?', options: ['América', 'Nueva España', 'Castilla', 'San Salvador'], correct: 3 },
+      { question: '¿Qué le pide el funcionario a Colón?', options: ['Los papeles y permisos', 'Dinero', 'Su espada', 'Una carta del rey'], correct: 0 },
+      { question: '¿Qué documento tiene Colón?', options: ['Un pasaporte', 'El mandato de los Reyes de Castilla', 'Un visado', 'Un permiso de trabajo'], correct: 1 },
+      { question: '¿Cómo llama el funcionario al barco de Colón?', options: ['Carabela', 'Patera', 'Barca', 'Yate'], correct: 1 },
+      { question: '¿Cuántos hombres hay a bordo de la carabela?', options: ['Más de 120', '50', '200', '80'], correct: 0 },
+      { question: '¿En qué estado se encuentran los hombres de Colón?', options: ['Sanos y fuertes', 'Contentos y descansados', 'Hambrientos y enfermos', 'Borrachos'], correct: 2 },
+      { question: '¿Cuánto tiempo duró la travesía?', options: ['Una semana', 'Un mes', 'Un año', 'Dos meses'], correct: 3 },
       { question: '¿Cómo describe Colón la travesía?', options: ['Agradable', 'Rápida', 'Penosa', 'Divertida'], correct: 2 },
       { question: '¿Qué ordena el funcionario a los que no tienen papeles?', options: ['Que se queden', 'Que se vayan dando la vuelta', 'Que esperen', 'Que paguen una multa'], correct: 1 },
-      { question: '¿Cuál es el juego de palabras con "Colón" y "colar"?', options: ['Que Colón era cocinero', 'Que Colón quiere colarse (entrar sin permiso)', 'Que Colón tenía un colador', 'Que Colón era ilegal'], correct: 1 },
-      { question: '¿Qué acusa el funcionario a Colón y su tripulación?', options: ['De ser piratas', 'De ser ilegales sin papeles ni asilo', 'De ser criminales', 'De robar tierras'], correct: 1 },
-      { question: '¿Cuál es la ironía principal del sketch?', options: ['Que Colón era pobre', 'Que un descubridor histórico es tratado como inmigrante ilegal', 'Que el funcionario no sabe historia', 'Que Colón no sabía navegar'], correct: 1 },
-      { question: '¿Qué tono tiene este diálogo?', options: ['Dramático y serio', 'Romántico', 'Cómico y satírico', 'Técnico'], correct: 2 },
+      { question: '¿Cuál es el juego de palabras con "Colón" y "colar"?', options: ['Que Colón era cocinero', 'Que Colón era ilegal', 'Que Colón tenía un colador', 'Que Colón quiere colarse (entrar sin permiso)'], correct: 3 },
+      { question: '¿Qué acusa el funcionario a Colón y su tripulación?', options: ['De ser ilegales sin papeles ni asilo', 'De ser piratas', 'De ser criminales', 'De robar tierras'], correct: 0 },
+      { question: '¿Cuál es la ironía principal del sketch?', options: ['Que Colón era pobre', 'Que Colón no sabía navegar', 'Que el funcionario no sabe historia', 'Que un descubridor histórico es tratado como inmigrante ilegal'], correct: 3 },
+      { question: '¿Qué tono tiene este diálogo?', options: ['Cómico y satírico', 'Romántico', 'Dramático y serio', 'Técnico'], correct: 0 },
       { question: '¿Qué tema social trata este sketch de humor?', options: ['La educación', 'La inmigración y la burocracia', 'La historia de España', 'La cocina española'], correct: 1 }
     ]
   },
@@ -43516,50 +43516,50 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: 'Elena quiso que yo (esperarla).',
-        options: ['la esperara', 'la esperaba', 'la esperé', 'la espero'],
-        correct: 0,
+        options: ['la esperé', 'la esperaba', 'la esperara', 'la espero'],
+        correct: 2,
         explanation: 'После глагола quiso (прошедшее время) в придаточном используется Imperfecto de Subjuntivo: la esperara.'
       },
       {
         text: 'Era necesario que (leer, tú) esta novela.',
-        options: ['leías', 'leas', 'leyeras', 'leíste'],
-        correct: 2,
+        options: ['leías', 'leas', 'leíste', 'leyeras'],
+        correct: 3,
         explanation: 'После безличного выражения "era necesario que" требуется Imperfecto de Subjuntivo: leyeras.'
       },
       {
         text: 'Nos asustamos de que ellos (llegar) tarde y no (traer) la medicina a tiempo.',
-        options: ['llegaron / trajeron', 'llegaran / trajeran', 'llegan / traen', 'lleguen / traigan'],
-        correct: 1,
+        options: ['llegaran / trajeran', 'llegaron / trajeron', 'llegan / traen', 'lleguen / traigan'],
+        correct: 0,
         explanation: 'После глагола эмоции в прошедшем времени используется Imperfecto de Subjuntivo: llegaran, trajeran.'
       },
       {
         text: 'Le pediste a Gabriel que no (mentirnos) sino (decirnos) la verdad.',
-        options: ['nos mintiera / nos dijera', 'nos mentía / nos decía', 'nos mienta / nos diga', 'nos mintió / nos dijo'],
-        correct: 0,
+        options: ['nos mentía / nos decía', 'nos mintiera / nos dijera', 'nos mienta / nos diga', 'nos mintió / nos dijo'],
+        correct: 1,
         explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: nos mintiera, nos dijera.'
       },
       {
         text: 'Era deseable que alguien (quedarse) en casa y (poner) orden.',
-        options: ['se quedaba / ponía', 'se quede / ponga', 'se quedara / pusiera', 'se quedó / puso'],
-        correct: 2,
+        options: ['se quedara / pusiera', 'se quede / ponga', 'se quedaba / ponía', 'se quedó / puso'],
+        correct: 0,
         explanation: 'После безличного выражения "era deseable que" требуется Imperfecto de Subjuntivo: se quedara, pusiera.'
       },
       {
         text: 'Mis amigos dudaban que yo (conducir) bien el coche e insistieron en que (ir, nosotros) en autobús.',
-        options: ['conducía / íbamos', 'conduzca / vayamos', 'condujera / fuéramos', 'conduje / fuimos'],
-        correct: 2,
+        options: ['conducía / íbamos', 'conduzca / vayamos', 'conduje / fuimos', 'condujera / fuéramos'],
+        correct: 3,
         explanation: 'После глаголов сомнения и настояния в прошедшем времени используется Imperfecto de Subjuntivo: condujera, fuéramos.'
       },
       {
         text: 'La camarera nos propuso que (elegir, nosotros) platos combinados.',
-        options: ['elegimos', 'elijamos', 'eligiéramos', 'elegíamos'],
-        correct: 2,
+        options: ['elegimos', 'eligiéramos', 'elijamos', 'elegíamos'],
+        correct: 1,
         explanation: 'После глагола предложения в прошедшем времени используется Imperfecto de Subjuntivo: eligiéramos.'
       },
       {
         text: 'Nos indignaba que el jefe (rechazar) todos nuestros proyectos.',
-        options: ['rechaza', 'rechazara', 'rechazó', 'rechace'],
-        correct: 1,
+        options: ['rechaza', 'rechazó', 'rechazara', 'rechace'],
+        correct: 2,
         explanation: 'После глагола эмоции в Imperfecto требуется Imperfecto de Subjuntivo: rechazara.'
       },
       {
@@ -43570,38 +43570,38 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: 'Los amigos os desearon que (divertirse) bien en la fiesta.',
-        options: ['os divertíais', 'os divirtierais', 'os divertís', 'os divirtáis'],
-        correct: 1,
+        options: ['os divirtierais', 'os divertíais', 'os divertís', 'os divirtáis'],
+        correct: 0,
         explanation: 'После глагола пожелания в прошедшем времени используется Imperfecto de Subjuntivo: os divirtierais.'
       },
       {
         text: 'No me imaginaba que tú (ponerse) zapatos de tacón para ir de excursión a las montañas.',
-        options: ['te ponías', 'te pusieras', 'te pones', 'te pongas'],
-        correct: 1,
+        options: ['te ponías', 'te pongas', 'te pones', 'te pusieras'],
+        correct: 3,
         explanation: 'После "no me imaginaba que" требуется Imperfecto de Subjuntivo: te pusieras.'
       },
       {
         text: 'No era cierto que ellos (venir) a tiempo.',
-        options: ['venían', 'vienen', 'vinieran', 'vinieron'],
-        correct: 2,
+        options: ['venían', 'vinieran', 'vienen', 'vinieron'],
+        correct: 1,
         explanation: 'После отрицательного безличного выражения "no era cierto que" требуется Imperfecto de Subjuntivo: vinieran.'
       },
       {
         text: 'La madre me rogó que yo (pedir) hora para el viernes.',
-        options: ['pedía', 'pida', 'pidiera', 'pedí'],
-        correct: 2,
+        options: ['pidiera', 'pida', 'pedía', 'pedí'],
+        correct: 0,
         explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: pidiera.'
       },
       {
         text: 'Nos preocupábamos de que nuestro hijo no (querer) estudiar y tampoco (tener) ganas de practicar algún deporte.',
-        options: ['quería / tenía', 'quiera / tenga', 'quisiera / tuviera', 'quiso / tuvo'],
-        correct: 2,
+        options: ['quería / tenía', 'quisiera / tuviera', 'quiera / tenga', 'quiso / tuvo'],
+        correct: 1,
         explanation: 'После глагола эмоции в Imperfecto требуется Imperfecto de Subjuntivo: quisiera, tuviera.'
       },
       {
         text: 'Fue una lástima que vosotros no (poder) asistir al estreno.',
-        options: ['podíais', 'podéis', 'pudierais', 'pudisteis'],
-        correct: 2,
+        options: ['podíais', 'podéis', 'pudisteis', 'pudierais'],
+        correct: 3,
         explanation: 'После "fue una lástima que" требуется Imperfecto de Subjuntivo: pudierais.'
       }
     ]
@@ -43616,34 +43616,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'La madre me rogó: "Conduce con mucho cuidado porque hay mucha niebla."',
         options: [
-          'La madre me rogó que condujera con mucho cuidado porque había mucha niebla.',
           'La madre me rogó que conduzca con mucho cuidado porque hay mucha niebla.',
+          'La madre me rogó que condujera con mucho cuidado porque había mucha niebla.',
           'La madre me rogó que conducía con mucho cuidado porque había mucha niebla.',
           'La madre me rogó que conduciría con mucho cuidado porque habría mucha niebla.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'При переводе в косвенную речь после глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo.'
       },
       {
         text: 'La dependienta aconsejó: "Señora, pruébese esta chaqueta de lino, está de moda."',
         options: [
           'La dependienta aconsejó que la señora se pruebe esta chaqueta de lino.',
-          'La dependienta aconsejó a la señora que se probara aquella chaqueta de lino porque estaba de moda.',
+          'La dependienta aconsejó que la señora se probaría aquella chaqueta de lino.',
           'La dependienta aconsejó que la señora se probaba aquella chaqueta de lino.',
-          'La dependienta aconsejó que la señora se probaría aquella chaqueta de lino.'
+          'La dependienta aconsejó a la señora que se probara aquella chaqueta de lino porque estaba de moda.'
         ],
-        correct: 1,
+        correct: 3,
         explanation: 'Глагол совета в прошедшем времени требует Imperfecto de Subjuntivo в косвенной речи.'
       },
       {
         text: 'Los padres ordenaron: "¡Hijos, almorzad hoy en casa porque la abuela ha preparado fabada para todos!"',
         options: [
-          'Los padres ordenaron que los hijos almorzaran en casa porque la abuela había preparado fabada para todos.',
-          'Los padres ordenaron que los hijos almuercen en casa.',
           'Los padres ordenaron que los hijos almorzaban en casa.',
+          'Los padres ordenaron que los hijos almuercen en casa.',
+          'Los padres ordenaron que los hijos almorzaran en casa porque la abuela había preparado fabada para todos.',
           'Los padres ordenaron que los hijos almorzarían en casa.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: almorzaran.'
       },
       {
@@ -43671,67 +43671,67 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Los amigos me escribieron: "Ten paciencia, no te enfades con tu tía."',
         options: [
-          'Los amigos me escribieron que tenga paciencia y no me enfade con mi tía.',
           'Los amigos me escribieron que tuviera paciencia y no me enfadara con mi tía.',
+          'Los amigos me escribieron que tenga paciencia y no me enfade con mi tía.',
           'Los amigos me escribieron que tenía paciencia y no me enfadaba con mi tía.',
           'Los amigos me escribieron que tendría paciencia y no me enfadaría con mi tía.'
         ],
-        correct: 1,
+        correct: 0,
         explanation: 'При переводе императива в косвенную речь требуется Imperfecto de Subjuntivo: tuviera, enfadara.'
       },
       {
         text: 'El director nos advirtió: "Vengan media hora antes de la reunión."',
         options: [
           'El director nos advirtió que vengamos media hora antes de la reunión.',
-          'El director nos advirtió que viniéramos media hora antes de la reunión.',
+          'El director nos advirtió que vendríamos media hora antes de la reunión.',
           'El director nos advirtió que veníamos media hora antes de la reunión.',
-          'El director nos advirtió que vendríamos media hora antes de la reunión.'
+          'El director nos advirtió que viniéramos media hora antes de la reunión.'
         ],
-        correct: 1,
+        correct: 3,
         explanation: 'После глагола предупреждения в прошедшем времени используется Imperfecto de Subjuntivo: viniéramos.'
       },
       {
         text: 'Ana le propuso a su hijo: "Ve alguna película de dibujos animados mientras yo preparo la cena."',
         options: [
           'Ana le propuso a su hijo que vea alguna película de dibujos animados.',
-          'Ana le propuso a su hijo que fuera a ver alguna película de dibujos animados mientras ella preparaba la cena.',
           'Ana le propuso a su hijo que iba a ver alguna película de dibujos animados.',
+          'Ana le propuso a su hijo que fuera a ver alguna película de dibujos animados mientras ella preparaba la cena.',
           'Ana le propuso a su hijo que iría a ver alguna película de dibujos animados.'
         ],
-        correct: 1,
+        correct: 2,
         explanation: 'Глагол предложения в прошедшем времени требует Imperfecto de Subjuntivo в придаточном.'
       },
       {
         text: 'El policía nos gritó: "¡Deténganse y presenten sus pasaportes!"',
         options: [
           'El policía nos gritó que nos detengamos y presentemos nuestros pasaportes.',
-          'El policía nos gritó que nos detuviéramos y presentáramos nuestros pasaportes.',
+          'El policía nos gritó que nos detendríamos y presentaríamos nuestros pasaportes.',
           'El policía nos gritó que nos deteníamos y presentábamos nuestros pasaportes.',
-          'El policía nos gritó que nos detendríamos y presentaríamos nuestros pasaportes.'
+          'El policía nos gritó que nos detuviéramos y presentáramos nuestros pasaportes.'
         ],
-        correct: 1,
+        correct: 3,
         explanation: 'При переводе императива в косвенную речь после глагола в прошедшем времени используется Imperfecto de Subjuntivo.'
       },
       {
         text: 'El profesor insistía: "Apagad los móviles, traducid el texto sin consultar el diccionario."',
         options: [
           'El profesor insistía en que apaguemos los móviles y traduzcamos el texto.',
-          'El profesor insistía en que apagáramos los móviles y tradujéramos el texto sin consultar el diccionario.',
           'El profesor insistía en que apagábamos los móviles y traducíamos el texto.',
+          'El profesor insistía en que apagáramos los móviles y tradujéramos el texto sin consultar el diccionario.',
           'El profesor insistía en que apagaríamos los móviles y traduciríamos el texto.'
         ],
-        correct: 1,
+        correct: 2,
         explanation: 'После глагола настояния в Imperfecto требуется Imperfecto de Subjuntivo: apagáramos, tradujéramos.'
       },
       {
         text: 'Mi jefe me dijo: "Termina el informe antes de las cinco."',
         options: [
-          'Mi jefe me dijo que termine el informe antes de las cinco.',
           'Mi jefe me dijo que terminara el informe antes de las cinco.',
+          'Mi jefe me dijo que termine el informe antes de las cinco.',
           'Mi jefe me dijo que terminaba el informe antes de las cinco.',
           'Mi jefe me dijo que terminaría el informe antes de las cinco.'
         ],
-        correct: 1,
+        correct: 0,
         explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: terminara.'
       },
       {
@@ -43748,23 +43748,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'La profesora nos pidió: "Escribid vuestros nombres en la hoja."',
         options: [
-          'La profesora nos pidió que escribamos nuestros nombres en la hoja.',
           'La profesora nos pidió que escribiéramos nuestros nombres en la hoja.',
+          'La profesora nos pidió que escribamos nuestros nombres en la hoja.',
           'La profesora nos pidió que escribíamos nuestros nombres en la hoja.',
           'La profesora nos pidió que escribiríamos nuestros nombres en la hoja.'
         ],
-        correct: 1,
+        correct: 0,
         explanation: 'После глагола просьбы в прошедшем времени используется Imperfecto de Subjuntivo: escribiéramos.'
       },
       {
         text: 'El entrenador ordenó: "Corred cinco vueltas al campo."',
         options: [
           'El entrenador ordenó que corramos cinco vueltas al campo.',
-          'El entrenador ordenó que corriéramos cinco vueltas al campo.',
           'El entrenador ordenó que corríamos cinco vueltas al campo.',
+          'El entrenador ordenó que corriéramos cinco vueltas al campo.',
           'El entrenador ordenó que correríamos cinco vueltas al campo.'
         ],
-        correct: 1,
+        correct: 2,
         explanation: 'После глагола приказа в прошедшем времени используется Imperfecto de Subjuntivo: corriéramos.'
       },
       {
@@ -43792,10 +43792,10 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'practico la natación.',
           'practicaba la natación.',
-          'practicara la natación.',
-          'practique la natación.'
+          'practique la natación.',
+          'practicara la natación.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "no creyó que" требуется Imperfecto de Subjuntivo: practicara.'
       },
       {
@@ -43813,33 +43813,33 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         text: 'Petra y tú sabéis bailar flamenco. → Me alegré de que Petra y tú...',
         options: [
           'sabéis bailar flamenco.',
-          'sabíais bailar flamenco.',
           'supierais bailar flamenco.',
+          'sabíais bailar flamenco.',
           'sepáis bailar flamenco.'
         ],
-        correct: 2,
+        correct: 1,
         explanation: 'После "me alegré de que" требуется Imperfecto de Subjuntivo: supierais.'
       },
       {
         text: 'Me duele la cabeza y no tengo apetito. → A mi madre le preocupaba que a mí...',
         options: [
-          'me duele la cabeza y no tengo apetito.',
-          'me dolía la cabeza y no tenía apetito.',
           'me doliera la cabeza y no tuviera apetito.',
+          'me dolía la cabeza y no tenía apetito.',
+          'me duele la cabeza y no tengo apetito.',
           'me duela la cabeza y no tenga apetito.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "le preocupaba que" требуется Imperfecto de Subjuntivo: doliera, tuviera.'
       },
       {
         text: 'En la playa no hay gente. → Nos extrañó que en la playa no...',
         options: [
           'hay gente.',
-          'había gente.',
           'hubiera gente.',
+          'había gente.',
           'haya gente.'
         ],
-        correct: 2,
+        correct: 1,
         explanation: 'После "nos extrañó que" требуется Imperfecto de Subjuntivo: hubiera.'
       },
       {
@@ -43858,32 +43858,32 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'se niegan a continuar el trabajo.',
           'se negaban a continuar el trabajo.',
-          'se negaran a continuar el trabajo.',
-          'se nieguen a continuar el trabajo.'
+          'se nieguen a continuar el trabajo.',
+          'se negaran a continuar el trabajo.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "no comprendía que" требуется Imperfecto de Subjuntivo: se negaran.'
       },
       {
         text: 'Elena hace ejercicios de español todos los días. → A su profesora le encantaba que Elena...',
         options: [
-          'hace ejercicios de español todos los días.',
-          'hacía ejercicios de español todos los días.',
           'hiciera ejercicios de español todos los días.',
+          'hacía ejercicios de español todos los días.',
+          'hace ejercicios de español todos los días.',
           'haga ejercicios de español todos los días.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "le encantaba que" требуется Imperfecto de Subjuntivo: hiciera.'
       },
       {
         text: 'Ellos están aquí muy a gusto. → Dudábamos que ellos...',
         options: [
-          'están aquí muy a gusto.',
-          'estaban aquí muy a gusto.',
           'estuvieran aquí muy a gusto.',
+          'estaban aquí muy a gusto.',
+          'están aquí muy a gusto.',
           'estén aquí muy a gusto.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "dudábamos que" требуется Imperfecto de Subjuntivo: estuvieran.'
       },
       {
@@ -43902,32 +43902,32 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'conduce el coche.',
           'conducía el coche.',
-          'condujera el coche.',
-          'conduzca el coche.'
+          'conduzca el coche.',
+          'condujera el coche.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "nos sorprendió que" требуется Imperfecto de Subjuntivo: condujera.'
       },
       {
         text: 'Viven en el extranjero. → A sus padres les entristecía que ellos...',
         options: [
           'viven en el extranjero.',
-          'vivían en el extranjero.',
           'vivieran en el extranjero.',
+          'vivían en el extranjero.',
           'vivan en el extranjero.'
         ],
-        correct: 2,
+        correct: 1,
         explanation: 'После "les entristecía que" требуется Imperfecto de Subjuntivo: vivieran.'
       },
       {
         text: 'No tenemos tiempo libre. → El profesor lamentaba que nosotros no...',
         options: [
-          'tenemos tiempo libre.',
-          'teníamos tiempo libre.',
           'tuviéramos tiempo libre.',
+          'teníamos tiempo libre.',
+          'tenemos tiempo libre.',
           'tengamos tiempo libre.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "lamentaba que" требуется Imperfecto de Subjuntivo: tuviéramos.'
       },
       {
@@ -43935,10 +43935,10 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'llego tarde.',
           'llegaba tarde.',
-          'llegara tarde.',
-          'llegue tarde.'
+          'llegue tarde.',
+          'llegara tarde.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "se quejaba de que" требуется Imperfecto de Subjuntivo: llegara.'
       },
       {
@@ -43975,12 +43975,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Ahora me da igual que la gente hable mal de mí. Antes no podía aguantar que la gente...',
         options: [
-          'hable mal de mí.',
-          'habla mal de mí.',
           'hablara mal de mí.',
+          'habla mal de mí.',
+          'hable mal de mí.',
           'hablaba mal de mí.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "no podía aguantar que" требуется Imperfecto de Subjuntivo: hablara.'
       },
       {
@@ -43988,43 +43988,43 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'vista con elegancia.',
           'viste con elegancia.',
-          'vistiera con elegancia.',
-          'vestía con elegancia.'
+          'vestía con elegancia.',
+          'vistiera con elegancia.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "me parecía intolerable que" требуется Imperfecto de Subjuntivo: vistiera.'
       },
       {
         text: 'Ahora me deja indiferente que mis amigos no sean puntuales. Antes me indignaba que mis amigos no...',
         options: [
           'sean puntuales.',
-          'son puntuales.',
           'fueran puntuales.',
+          'son puntuales.',
           'eran puntuales.'
         ],
-        correct: 2,
+        correct: 1,
         explanation: 'После "me indignaba que" требуется Imperfecto de Subjuntivo: fueran.'
       },
       {
         text: 'Ahora no me importa que me hagan cantar al público. Antes me daba vergüenza que...',
         options: [
           'me hagan cantar al público.',
-          'me hacen cantar al público.',
           'me hicieran cantar al público.',
+          'me hacen cantar al público.',
           'me hacían cantar al público.'
         ],
-        correct: 2,
+        correct: 1,
         explanation: 'После "me daba vergüenza que" требуется Imperfecto de Subjuntivo: hicieran.'
       },
       {
         text: 'Ahora me da risa que mi marido me dedique poesías. Antes me encantaba que mi marido me...',
         options: [
-          'dedique poesías.',
-          'dedica poesías.',
           'dedicara poesías.',
+          'dedica poesías.',
+          'dedique poesías.',
           'dedicaba poesías.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "me encantaba que" требуется Imperfecto de Subjuntivo: dedicara.'
       },
       {
@@ -44043,32 +44043,32 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'pidas consejos.',
           'pides consejos.',
-          'pidieras consejos.',
-          'pedías consejos.'
+          'pedías consejos.',
+          'pidieras consejos.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "no aguantaba que" требуется Imperfecto de Subjuntivo: pidieras.'
       },
       {
         text: 'Ahora me alegra que mi hermana tenga una familia numerosa. Antes me molestaba que mi hermana...',
         options: [
           'tenga una familia numerosa.',
-          'tiene una familia numerosa.',
           'tuviera una familia numerosa.',
+          'tiene una familia numerosa.',
           'tenía una familia numerosa.'
         ],
-        correct: 2,
+        correct: 1,
         explanation: 'После "me molestaba que" требуется Imperfecto de Subjuntivo: tuviera.'
       },
       {
         text: 'Ahora no me preocupa que nuestro vecino me mienta. Antes me enfadaba que nuestro vecino me...',
         options: [
-          'mienta.',
-          'miente.',
           'mintiera.',
+          'miente.',
+          'mienta.',
           'mentía.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "me enfadaba que" требуется Imperfecto de Subjuntivo: mintiera.'
       },
       {
@@ -44076,10 +44076,10 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'sea diferente.',
           'es diferente.',
-          'fuera diferente.',
-          'era diferente.'
+          'era diferente.',
+          'fuera diferente.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "me costaba aceptar que" требуется Imperfecto de Subjuntivo: fuera.'
       },
       {
@@ -44109,21 +44109,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         options: [
           'inviten.',
           'invitan.',
-          'invitaran.',
-          'invitaban.'
+          'invitaban.',
+          'invitaran.'
         ],
-        correct: 2,
+        correct: 3,
         explanation: 'После "me ofendía que" требуется Imperfecto de Subjuntivo: invitaran.'
       },
       {
         text: 'Ahora entiendo que necesites tiempo. Antes no comprendía que...',
         options: [
-          'necesites tiempo.',
-          'necesitas tiempo.',
           'necesitaras tiempo.',
+          'necesitas tiempo.',
+          'necesites tiempo.',
           'necesitabas tiempo.'
         ],
-        correct: 2,
+        correct: 0,
         explanation: 'После "no comprendía que" требуется Imperfecto de Subjuntivo: necesitaras.'
       }
     ]
@@ -44425,23 +44425,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Todos vendrán y discutiremos el programa. (Antes de que…) → Трансформируйте в будущее и прошедшее:',
         options: [
-          'Antes de que todos vengan, discutiremos el programa. → Pensé que antes de que todos vinieran, discutiríamos el programa.',
+          'Antes de que todos vengan, discutimos el programa. → Pensé que antes de que todos vengan, discutiríamos el programa.',
           'Antes de que todos vienen, discutimos el programa. → Pensé que antes de que todos venían, discutíamos el programa.',
           'Antes que todos vendrán, discutiremos el programa. → Pensé que antes todos vendrían, discutiríamos el programa.',
-          'Antes de que todos vengan, discutimos el programa. → Pensé que antes de que todos vengan, discutiríamos el programa.'
+          'Antes de que todos vengan, discutiremos el programa. → Pensé que antes de que todos vinieran, discutiríamos el programa.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'После "antes de que" всегда используется Subjuntivo: vengan (Presente), vinieran (Imperfecto).'
       },
       {
         text: 'Traduciréis el artículo y nos lo leeréis. (Después de que…) → Трансформируйте:',
         options: [
-          'Después de que traduzcáis el artículo, nos lo leeréis. → Esperaba que después de que tradujerais el artículo, nos lo leyerais.',
-          'Después de que traducís el artículo, nos lo leéis. → Esperaba que después de que traducíais el artículo, nos lo leíais.',
           'Después de que traduciréis el artículo, nos lo leeréis. → Esperaba que después de que traduciríais el artículo, nos lo leeríais.',
+          'Después de que traducís el artículo, nos lo leéis. → Esperaba que después de que traducíais el artículo, nos lo leíais.',
+          'Después de que traduzcáis el artículo, nos lo leeréis. → Esperaba que después de que tradujerais el artículo, nos lo leyerais.',
           'Después que traducís el artículo, nos lo leéis. → Esperaba que después traducíais el artículo, nos lo leíais.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'После "después de que" в будущем используется Subjuntivo: traduzcáis, tradujerais.'
       },
       {
@@ -44458,34 +44458,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Nuestros amigos tendrán tiempo y nos veremos. (Cuando…) → Трансформируйте:',
         options: [
-          'Cuando nuestros amigos tengan tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tuvieran tiempo, nos veríamos.',
           'Cuando nuestros amigos tienen tiempo, nos vemos. → Estaba seguro de que cuando nuestros amigos tenían tiempo, nos veíamos.',
+          'Cuando nuestros amigos tengan tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tuvieran tiempo, nos veríamos.',
           'Cuando nuestros amigos tendrán tiempo, nos veremos. → Estaba seguro de que cuando nuestros amigos tendrían tiempo, nos veríamos.',
           'Cuando nuestros amigos tienen tiempo, nos veremos. → Estaba seguro de que cuando tengan tiempo, nos veríamos.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'После "cuando" для будущего используется Subjuntivo: tengan, tuvieran.'
       },
       {
         text: 'Te concederán las vacaciones e iremos a descansar. (En cuanto…) → Трансформируйте:',
         options: [
-          'En cuanto te concedan las vacaciones, iremos a descansar. → Esperaba que en cuanto te concedieran las vacaciones, iríamos a descansar.',
+          'En cuanto te dan las vacaciones, vamos. → Esperaba que en cuanto te daban las vacaciones, íbamos.',
           'En cuanto te conceden las vacaciones, vamos a descansar. → Esperaba que en cuanto te concedían las vacaciones, íbamos a descansar.',
           'En cuanto te concederán las vacaciones, iremos a descansar. → Esperaba que en cuanto te concederían las vacaciones, iríamos a descansar.',
-          'En cuanto te dan las vacaciones, vamos. → Esperaba que en cuanto te daban las vacaciones, íbamos.'
+          'En cuanto te concedan las vacaciones, iremos a descansar. → Esperaba que en cuanto te concedieran las vacaciones, iríamos a descansar.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"En cuanto" + Subjuntivo для будущего: concedan, concedieran.'
       },
       {
         text: 'Nos pondremos a comer palomitas durante la ópera y el acomodador nos echará de la sala. (Apenas…) → Трансформируйте:',
         options: [
-          'Apenas nos pongamos a comer palomitas, el acomodador nos echará de la sala. → Sabía que apenas nos pusiéramos a comer palomitas, el acomodador nos echaría de la sala.',
-          'Apenas nos ponemos a comer palomitas, el acomodador nos echa de la sala. → Sabía que apenas nos poníamos a comer palomitas, el acomodador nos echaba de la sala.',
           'Apenas nos pondremos a comer palomitas, el acomodador nos echará. → Sabía que apenas nos pondríamos a comer palomitas, el acomodador nos echaría.',
+          'Apenas nos ponemos a comer palomitas, el acomodador nos echa de la sala. → Sabía que apenas nos poníamos a comer palomitas, el acomodador nos echaba de la sala.',
+          'Apenas nos pongamos a comer palomitas, el acomodador nos echará de la sala. → Sabía que apenas nos pusiéramos a comer palomitas, el acomodador nos echaría de la sala.',
           'Apenas comemos palomitas, nos echan. → Sabía que apenas comíamos, nos echaban.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Apenas" + Subjuntivo для будущего: pongamos, pusiéramos.'
       },
       {
@@ -44502,45 +44502,45 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Terminaremos de ensayar y vendrá el público. (Antes de que…) → Трансформируйте:',
         options: [
-          'Terminaremos de ensayar antes de que venga el público. → Esperaba que termináramos de ensayar antes de que viniera el público.',
           'Terminamos de ensayar antes de que viene el público. → Esperaba que terminábamos de ensayar antes de que venía el público.',
+          'Terminaremos de ensayar antes de que venga el público. → Esperaba que termináramos de ensayar antes de que viniera el público.',
           'Terminaremos de ensayar antes que vendrá el público. → Esperaba que terminaríamos antes que vendría el público.',
           'Terminamos antes de que viene. → Esperaba que terminábamos antes de que venía.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Antes de que" siempre con Subjuntivo: venga, viniera.'
       },
       {
         text: 'Darán ustedes un paseo y disfrutarán de las cosas hermosas de su ciudad. (Cuando…) → Трансформируйте:',
         options: [
-          'Cuando den ustedes un paseo, disfrutarán de las cosas hermosas. → Pensaba que cuando dieran ustedes un paseo, disfrutarían de las cosas hermosas.',
+          'Cuando dan un paseo, disfrutan. → Pensaba que cuando daban, disfrutaban.',
           'Cuando dan ustedes un paseo, disfrutan de las cosas hermosas. → Pensaba que cuando daban ustedes un paseo, disfrutaban de las cosas hermosas.',
           'Cuando darán ustedes un paseo, disfrutarán. → Pensaba que cuando darían un paseo, disfrutarían.',
-          'Cuando dan un paseo, disfrutan. → Pensaba que cuando daban, disfrutaban.'
+          'Cuando den ustedes un paseo, disfrutarán de las cosas hermosas. → Pensaba que cuando dieran ustedes un paseo, disfrutarían de las cosas hermosas.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"Cuando" + Subjuntivo para el futuro: den, dieran.'
       },
       {
         text: 'La orquesta tocará el vals y yo bailaré contigo. (Mientras…) → Трансформируйте:',
         options: [
-          'Mientras la orquesta toque el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocara el vals, yo bailaría contigo.',
           'Mientras la orquesta toca el vals, yo bailo contigo. → Soñaba con que mientras la orquesta tocaba el vals, yo bailaba contigo.',
+          'Mientras la orquesta toque el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocara el vals, yo bailaría contigo.',
           'Mientras la orquesta tocará el vals, yo bailaré contigo. → Soñaba con que mientras la orquesta tocaría el vals, yo bailaría contigo.',
           'Mientras toca, bailo. → Soñaba con que mientras tocaba, bailaba.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Mientras" + Subjuntivo para el futuro: toque, tocara.'
       },
       {
         text: 'Llegaremos al aeropuerto y facturaremos el equipaje. (En cuanto…) → Трансформируйте:',
         options: [
-          'En cuanto lleguemos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegáramos al aeropuerto, facturaríamos el equipaje.',
-          'En cuanto llegamos al aeropuerto, facturamos el equipaje. → Pensé que en cuanto llegábamos al aeropuerto, facturábamos el equipaje.',
           'En cuanto llegaremos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegaríamos, facturaríamos.',
+          'En cuanto llegamos al aeropuerto, facturamos el equipaje. → Pensé que en cuanto llegábamos al aeropuerto, facturábamos el equipaje.',
+          'En cuanto lleguemos al aeropuerto, facturaremos el equipaje. → Pensé que en cuanto llegáramos al aeropuerto, facturaríamos el equipaje.',
           'En cuanto llegamos, facturamos. → Pensé que en cuanto llegábamos, facturábamos.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"En cuanto" + Subjuntivo para el futuro: lleguemos, llegáramos.'
       },
       {
@@ -44557,12 +44557,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Terminaré el trabajo y te llamaré. (Después de que…) → Трансформируйте:',
         options: [
-          'Después de que termine el trabajo, te llamaré. → Prometí que después de que terminara el trabajo, te llamaría.',
-          'Después de que termino el trabajo, te llamo. → Prometí que después de que terminaba el trabajo, te llamaba.',
           'Después de que terminaré el trabajo, te llamaré. → Prometí que después de que terminaría el trabajo, te llamaría.',
+          'Después de que termino el trabajo, te llamo. → Prometí que después de que terminaba el trabajo, te llamaba.',
+          'Después de que termine el trabajo, te llamaré. → Prometí que después de que terminara el trabajo, te llamaría.',
           'Después termino, te llamo. → Prometí que después terminaba, te llamaba.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Después de que" + Subjuntivo para el futuro: termine, terminara.'
       },
       {
@@ -44579,12 +44579,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Recibirás la carta y me contestarás. (Hasta que…) → Трансформируйте:',
         options: [
-          'Esperaré hasta que recibas la carta y me contestes. → Decidí esperar hasta que recibieras la carta y me contestaras.',
           'Espero hasta que recibes la carta y me contestas. → Decidí esperar hasta que recibías la carta y me contestabas.',
+          'Esperaré hasta que recibas la carta y me contestes. → Decidí esperar hasta que recibieras la carta y me contestaras.',
           'Esperaré hasta que recibirás la carta y me contestarás. → Decidí esperar hasta que recibirías la carta y me contestarías.',
           'Espero hasta que recibes y contestas. → Decidí esperar hasta que recibías y contestabas.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Hasta que" + Subjuntivo para el futuro: recibas/contestes, recibieras/contestaras.'
       }
     ]
@@ -44610,67 +44610,67 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Mientras Jorge veía el fútbol, yo hacía la cena. → Поставьте в будущее:',
         options: [
-          'Mientras Jorge vea el fútbol, yo haré la cena.',
-          'Mientras Jorge ve el fútbol, yo hago la cena.',
           'Mientras Jorge verá el fútbol, yo haré la cena.',
+          'Mientras Jorge ve el fútbol, yo hago la cena.',
+          'Mientras Jorge vea el fútbol, yo haré la cena.',
           'Mientras Jorge ha visto el fútbol, yo he hecho la cena.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Mientras" + Presente de Subjuntivo para el futuro: vea.'
       },
       {
         text: 'Estuve trabajando en la biblioteca hasta que la cerraron. → Поставьте в будущее:',
         options: [
-          'Estaré trabajando en la biblioteca hasta que la cierren.',
+          'He estado trabajando en la biblioteca hasta que la han cerrado.',
           'Estoy trabajando en la biblioteca hasta que la cierran.',
           'Estaré trabajando en la biblioteca hasta que la cerrarán.',
-          'He estado trabajando en la biblioteca hasta que la han cerrado.'
+          'Estaré trabajando en la biblioteca hasta que la cierren.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: cierren.'
       },
       {
         text: 'En cuanto tradujimos el artículo, se lo trajimos al redactor. → Поставьте в будущее:',
         options: [
-          'En cuanto traduzcamos el artículo, se lo traeremos al redactor.',
           'En cuanto traducimos el artículo, se lo traemos al redactor.',
+          'En cuanto traduzcamos el artículo, se lo traeremos al redactor.',
           'En cuanto traduciremos el artículo, se lo traeremos al redactor.',
           'En cuanto hemos traducido el artículo, se lo hemos traído al redactor.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: traduzcamos.'
       },
       {
         text: 'Cuando Raúl lo supo, se enfadó contigo. → Поставьте в будущее:',
         options: [
-          'Cuando Raúl lo sepa, se enfadará contigo.',
-          'Cuando Raúl lo sabe, se enfada contigo.',
           'Cuando Raúl lo sabrá, se enfadará contigo.',
+          'Cuando Raúl lo sabe, se enfada contigo.',
+          'Cuando Raúl lo sepa, se enfadará contigo.',
           'Cuando Raúl lo ha sabido, se ha enfadado contigo.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Cuando" + Presente de Subjuntivo para el futuro: sepa.'
       },
       {
         text: 'Después de que te hospitalizaron e hicieron la operación, te sentiste mejor. → Поставьте в будущее:',
         options: [
-          'Después de que te hospitalicen y te hagan la operación, te sentirás mejor.',
+          'Después de que te han hospitalizado y te han hecho la operación, te has sentido mejor.',
           'Después de que te hospitalizan y te hacen la operación, te sientes mejor.',
           'Después de que te hospitalizarán y te harán la operación, te sentirás mejor.',
-          'Después de que te han hospitalizado y te han hecho la operación, te has sentido mejor.'
+          'Después de que te hospitalicen y te hagan la operación, te sentirás mejor.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"Después de que" + Presente de Subjuntivo: hospitalicen, hagan.'
       },
       {
         text: 'Los niños se negaron a acostarse hasta que se fueron todos los invitados. → Поставьте в будущее:',
         options: [
-          'Los niños se negarán a acostarse hasta que se vayan todos los invitados.',
           'Los niños se niegan a acostarse hasta que se van todos los invitados.',
+          'Los niños se negarán a acostarse hasta que se vayan todos los invitados.',
           'Los niños se negarán a acostarse hasta que se irán todos los invitados.',
           'Los niños se han negado a acostarse hasta que se han ido todos los invitados.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: se vayan.'
       },
       {
@@ -44698,45 +44698,45 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Me entrené hasta que logré buenos resultados. → Поставьте в будущее:',
         options: [
-          'Me entrenaré hasta que logre buenos resultados.',
-          'Me entreno hasta que logro buenos resultados.',
           'Me entrenaré hasta que lograré buenos resultados.',
+          'Me entreno hasta que logro buenos resultados.',
+          'Me entrenaré hasta que logre buenos resultados.',
           'Me he entrenado hasta que he logrado buenos resultados.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Hasta que" + Presente de Subjuntivo para el futuro: logre.'
       },
       {
         text: 'Cuando terminé el libro, lo devolví a la biblioteca. → Поставьте в будущее:',
         options: [
-          'Cuando termine el libro, lo devolveré a la biblioteca.',
           'Cuando termino el libro, lo devuelvo a la biblioteca.',
+          'Cuando termine el libro, lo devolveré a la biblioteca.',
           'Cuando terminaré el libro, lo devolveré a la biblioteca.',
           'Cuando he terminado el libro, lo he devuelto a la biblioteca.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Cuando" + Presente de Subjuntivo para el futuro: termine.'
       },
       {
         text: 'Apenas llegaron los músicos, empezó el concierto. → Поставьте в будущее:',
         options: [
-          'Apenas lleguen los músicos, empezará el concierto.',
+          'Apenas han llegado los músicos, ha empezado el concierto.',
           'Apenas llegan los músicos, empieza el concierto.',
           'Apenas llegarán los músicos, empezará el concierto.',
-          'Apenas han llegado los músicos, ha empezado el concierto.'
+          'Apenas lleguen los músicos, empezará el concierto.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"Apenas" + Presente de Subjuntivo para el futuro: lleguen.'
       },
       {
         text: 'Mientras los padres trabajaban, los abuelos cuidaban a los niños. → Поставьте в будущее:',
         options: [
-          'Mientras los padres trabajen, los abuelos cuidarán a los niños.',
           'Mientras los padres trabajan, los abuelos cuidan a los niños.',
+          'Mientras los padres trabajen, los abuelos cuidarán a los niños.',
           'Mientras los padres trabajarán, los abuelos cuidarán a los niños.',
           'Mientras los padres han trabajado, los abuelos han cuidado a los niños.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Mientras" + Presente de Subjuntivo para el futuro: trabajen.'
       },
       {
@@ -44753,12 +44753,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Salió de casa en cuanto dejó de llover. → Поставьте в будущее:',
         options: [
-          'Saldrá de casa en cuanto deje de llover.',
+          'Ha salido de casa en cuanto ha dejado de llover.',
           'Sale de casa en cuanto deja de llover.',
           'Saldrá de casa en cuanto dejará de llover.',
-          'Ha salido de casa en cuanto ha dejado de llover.'
+          'Saldrá de casa en cuanto deje de llover.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"En cuanto" + Presente de Subjuntivo para el futuro: deje.'
       }
     ]
@@ -44773,34 +44773,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Nos iremos a España en cuanto (recibir, nosotros) el visado.',
         options: [
-          'recibamos',
+          'recibíamos',
           'recibimos',
           'recibiremos',
-          'recibíamos'
+          'recibamos'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"En cuanto" + futuro requiere Presente de Subjuntivo: recibamos.'
       },
       {
         text: 'Se lo diré todo a María después de que (volver, ella) a casa.',
         options: [
-          'vuelva',
-          'vuelve',
           'volverá',
+          'vuelve',
+          'vuelva',
           'volvía'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Después de que" + futuro requiere Presente de Subjuntivo: vuelva.'
       },
       {
         text: 'No podemos enviarles el documento hasta que el jefe (firmarlo).',
         options: [
-          'lo firme',
           'lo firma',
+          'lo firme',
           'lo firmará',
           'lo firmaba'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: lo firme.'
       },
       {
@@ -44817,12 +44817,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'No puedo trabajar cuando (molestarme).',
         options: [
-          'me molestan',
-          'me molesten',
           'me molestarán',
+          'me molesten',
+          'me molestan',
           'me molestaban'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Cuando" con acción habitual usa Indicativo: me molestan.'
       },
       {
@@ -44839,45 +44839,45 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Al público le interesa cuándo el teatro (estrenar) el nuevo musical.',
         options: [
-          'estrenará',
+          'estrenaba',
           'estrene',
           'estrena',
-          'estrenaba'
+          'estrenará'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"Cuándo" en pregunta indirecta usa Indicativo: estrenará.'
       },
       {
         text: 'La asistenta limpiará la casa y preparará la comida hasta que Margarita (salir) del hospital.',
         options: [
-          'salga',
           'sale',
+          'salga',
           'saldrá',
           'salía'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: salga.'
       },
       {
         text: 'En cuanto (saber, ellos) la fecha de su llegada, te la comunicarán.',
         options: [
-          'sepan',
+          'sabían',
           'saben',
           'sabrán',
-          'sabían'
+          'sepan'
         ],
-        correct: 0,
+        correct: 3,
         explanation: '"En cuanto" + futuro requiere Presente de Subjuntivo: sepan.'
       },
       {
         text: 'Debemos llamarlo antes de que él (irse) de viaje de negocios.',
         options: [
-          'se vaya',
-          'se va',
           'se irá',
+          'se va',
+          'se vaya',
           'se iba'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Antes de que" siempre requiere Subjuntivo: se vaya.'
       },
       {
@@ -44894,23 +44894,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Les has preguntado cuándo los actores (ensayar) el espectáculo.',
         options: [
-          'ensayarán',
           'ensayen',
+          'ensayarán',
           'ensayan',
           'ensayaban'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Cuándo" en pregunta indirecta usa Indicativo: ensayarán.'
       },
       {
         text: 'Te esperaré aquí hasta que (terminar, tú) de trabajar.',
         options: [
-          'termines',
           'terminas',
+          'termines',
           'terminarás',
           'terminabas'
         ],
-        correct: 0,
+        correct: 1,
         explanation: '"Hasta que" + futuro requiere Presente de Subjuntivo: termines.'
       },
       {
@@ -44927,12 +44927,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Apenas (llegar, nosotros) a la estación, saldrá el tren.',
         options: [
-          'lleguemos',
-          'llegamos',
           'llegaremos',
+          'llegamos',
+          'lleguemos',
           'llegábamos'
         ],
-        correct: 0,
+        correct: 2,
         explanation: '"Apenas" + futuro requiere Presente de Subjuntivo: lleguemos.'
       }
     ]
@@ -44947,12 +44947,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Nos iremos a España en cuanto recibamos el visado. → Pablo pensó que...',
         options: [
-          'Pablo pensó que nos iríamos a España en cuanto recibiéramos el visado.',
-          'Pablo pensó que nos vamos a España en cuanto recibamos el visado.',
           'Pablo pensó que nos iremos a España en cuanto recibamos el visado.',
+          'Pablo pensó que nos vamos a España en cuanto recibamos el visado.',
+          'Pablo pensó que nos iríamos a España en cuanto recibiéramos el visado.',
           'Pablo pensó que nos fuimos a España en cuanto recibimos el visado.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Согласование времён: iremos → iríamos, recibamos → recibiéramos.'
       },
       {
@@ -44969,23 +44969,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'No podemos enviarles el documento hasta que el jefe lo firme. → Pablo pensó que...',
         options: [
-          'Pablo pensó que no podían enviarles el documento hasta que el jefe lo firmara.',
           'Pablo pensó que no pueden enviarles el documento hasta que el jefe lo firme.',
+          'Pablo pensó que no podían enviarles el documento hasta que el jefe lo firmara.',
           'Pablo pensó que no podremos enviarles el documento hasta que el jefe lo firme.',
           'Pablo pensó que no pudieron enviarles el documento hasta que el jefe lo firmó.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Согласование времён: podemos → podían, firme → firmara.'
       },
       {
         text: 'No saldremos a la calle mientras llueva. → Pablo pensó que...',
         options: [
-          'Pablo pensó que no saldríamos a la calle mientras lloviera.',
+          'Pablo pensó que no salimos a la calle mientras llovía.',
           'Pablo pensó que no salimos a la calle mientras llueve.',
           'Pablo pensó que no saldremos a la calle mientras llueva.',
-          'Pablo pensó que no salimos a la calle mientras llovía.'
+          'Pablo pensó que no saldríamos a la calle mientras lloviera.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Согласование времён: saldremos → saldríamos, llueva → lloviera.'
       },
       {
@@ -45002,45 +45002,45 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'La asistenta limpiará la casa hasta que Margarita salga del hospital. → Pablo pensó que...',
         options: [
-          'Pablo pensó que la asistenta limpiaría la casa hasta que Margarita saliera del hospital.',
           'Pablo pensó que la asistenta limpia la casa hasta que Margarita sale del hospital.',
+          'Pablo pensó que la asistenta limpiaría la casa hasta que Margarita saliera del hospital.',
           'Pablo pensó que la asistenta limpiará la casa hasta que Margarita salga del hospital.',
           'Pablo pensó que la asistenta limpió la casa hasta que Margarita salió del hospital.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Согласование времён: limpiará → limpiaría, salga → saliera.'
       },
       {
         text: 'En cuanto sepan la fecha, te la comunicarán. → Pablo pensó que...',
         options: [
-          'Pablo pensó que en cuanto supieran la fecha, te la comunicarían.',
+          'Pablo pensó que en cuanto supieron la fecha, te la comunicaron.',
           'Pablo pensó que en cuanto saben la fecha, te la comunican.',
           'Pablo pensó que en cuanto sepan la fecha, te la comunicarán.',
-          'Pablo pensó que en cuanto supieron la fecha, te la comunicaron.'
+          'Pablo pensó que en cuanto supieran la fecha, te la comunicarían.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Согласование времён: sepan → supieran, comunicarán → comunicarían.'
       },
       {
         text: 'Debemos llamarlo antes de que se vaya de viaje. → Pablo pensó que...',
         options: [
-          'Pablo pensó que debían llamarlo antes de que se fuera de viaje.',
-          'Pablo pensó que deben llamarlo antes de que se vaya de viaje.',
           'Pablo pensó que debemos llamarlo antes de que se vaya de viaje.',
+          'Pablo pensó que deben llamarlo antes de que se vaya de viaje.',
+          'Pablo pensó que debían llamarlo antes de que se fuera de viaje.',
           'Pablo pensó que debieron llamarlo antes de que se fue de viaje.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Согласование времён: debemos → debían, vaya → fuera.'
       },
       {
         text: 'Te esperaré aquí hasta que termines de trabajar. → Pablo pensó que...',
         options: [
-          'Pablo pensó que te esperaría aquí hasta que terminaras de trabajar.',
-          'Pablo pensó que te espera aquí hasta que terminas de trabajar.',
           'Pablo pensó que te esperaré aquí hasta que termines de trabajar.',
+          'Pablo pensó que te espera aquí hasta que terminas de trabajar.',
+          'Pablo pensó que te esperaría aquí hasta que terminaras de trabajar.',
           'Pablo pensó que te esperó aquí hasta que terminaste de trabajar.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Согласование времён: esperaré → esperaría, termines → terminaras.'
       },
       {
@@ -45057,23 +45057,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Cuando los niños se duerman, podremos hablar tranquilamente. → Pablo pensó que...',
         options: [
-          'Pablo pensó que cuando los niños se durmieran, podrían hablar tranquilamente.',
           'Pablo pensó que cuando los niños se duermen, pueden hablar tranquilamente.',
+          'Pablo pensó que cuando los niños se durmieran, podrían hablar tranquilamente.',
           'Pablo pensó que cuando los niños se duerman, podremos hablar tranquilamente.',
           'Pablo pensó que cuando los niños se durmieron, pudieron hablar tranquilamente.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Согласование времён: se duerman → se durmieran, podremos → podrían.'
       },
       {
         text: 'Mientras estemos en el teatro, los hijos cenarán en casa. → Pablo pensó que...',
         options: [
-          'Pablo pensó que mientras estuvieran en el teatro, los hijos cenarían en casa.',
+          'Pablo pensó que mientras estuvieron en el teatro, los hijos cenaron en casa.',
           'Pablo pensó que mientras están en el teatro, los hijos cenan en casa.',
           'Pablo pensó que mientras estemos en el teatro, los hijos cenarán en casa.',
-          'Pablo pensó que mientras estuvieron en el teatro, los hijos cenaron en casa.'
+          'Pablo pensó que mientras estuvieran en el teatro, los hijos cenarían en casa.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Согласование времён: estemos → estuvieran, cenarán → cenarían.'
       },
       {
@@ -45090,23 +45090,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         text: 'Cuando Raúl lo sepa, se enfadará contigo. → Pablo pensó que...',
         options: [
-          'Pablo pensó que cuando Raúl lo supiera, se enfadaría contigo.',
-          'Pablo pensó que cuando Raúl lo sabe, se enfada contigo.',
           'Pablo pensó que cuando Raúl lo sepa, se enfadará contigo.',
+          'Pablo pensó que cuando Raúl lo sabe, se enfada contigo.',
+          'Pablo pensó que cuando Raúl lo supiera, se enfadaría contigo.',
           'Pablo pensó que cuando Raúl lo supo, se enfadó contigo.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Согласование времён: sepa → supiera, enfadará → enfadaría.'
       },
       {
         text: 'Terminaremos de ensayar antes de que venga el público. → Pablo pensó que...',
         options: [
-          'Pablo pensó que terminarían de ensayar antes de que viniera el público.',
           'Pablo pensó que terminan de ensayar antes de que viene el público.',
+          'Pablo pensó que terminarían de ensayar antes de que viniera el público.',
           'Pablo pensó que terminaremos de ensayar antes de que venga el público.',
           'Pablo pensó que terminaron de ensayar antes de que vino el público.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Согласование времён: terminaremos → terminarían, venga → viniera.'
       }
     ]
@@ -45208,20 +45208,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: 'Dilo en voz alta para que todos ___ (oír, a ti).',
-        options: ['te oigan', 'te oyen', 'te oirán', 'te oyeron'],
-        correct: 0,
+        options: ['te oyeron', 'te oyen', 'te oirán', 'te oigan'],
+        correct: 3,
         explanation: 'После "para que" используется Subjuntivo. "Oír" в Presente de Subjuntivo: oigan. Местоимение "te" ставится перед глаголом.'
       },
       {
         text: '¿Qué tengo que hacer para que tú ___ (creerme)?',
-        options: ['me creas', 'me crees', 'me creerás', 'me creías'],
-        correct: 0,
+        options: ['me crees', 'me creas', 'me creerás', 'me creías'],
+        correct: 1,
         explanation: 'После "para que" используется Presente de Subjuntivo: creas. Местоимение "me" ставится перед глаголом.'
       },
       {
         text: 'Hay que llamar al médico urgentemente a fin de que ___ (examinar, él) al paciente.',
-        options: ['examine', 'examina', 'examinará', 'examinó'],
-        correct: 0,
+        options: ['examinará', 'examina', 'examine', 'examinó'],
+        correct: 2,
         explanation: 'После "a fin de que" всегда Subjuntivo. Presente de Subjuntivo от "examinar": examine.'
       },
       {
@@ -45238,26 +45238,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: 'Llámala a fin de que ella no ___ (preocuparse).',
-        options: ['se preocupe', 'se preocupa', 'se preocupará', 'se preocupó'],
-        correct: 0,
+        options: ['se preocupó', 'se preocupa', 'se preocupará', 'se preocupe'],
+        correct: 3,
         explanation: 'После "a fin de que" используется Subjuntivo. Imperativo "llámala" указывает на настоящее/будущее, поэтому Presente de Subjuntivo.'
       },
       {
         text: 'Te compré este traje para que ___ (ponérselo, tú) el día de la fiesta.',
-        options: ['te lo pusieras', 'te lo pones', 'te lo pondrás', 'te lo ponías'],
-        correct: 0,
+        options: ['te lo pondrás', 'te lo pones', 'te lo pusieras', 'te lo ponías'],
+        correct: 2,
         explanation: 'Главный глагол "compré" в прошедшем времени, поэтому Imperfecto de Subjuntivo: pusieras.'
       },
       {
         text: 'Le he ofrecido a la vecina una pastilla contra insomnio para que ella ___ (tranquilizarse y dormir) bien.',
-        options: ['se tranquilice y duerma', 'se tranquiliza y duerme', 'se tranquilizará y dormirá', 'se tranquilizó y durmió'],
-        correct: 0,
+        options: ['se tranquiliza y duerme', 'se tranquilice y duerma', 'se tranquilizará y dormirá', 'se tranquilizó y durmió'],
+        correct: 1,
         explanation: 'Главный глагол "he ofrecido" в Pretérito Perfecto, поэтому используется Presente de Subjuntivo.'
       },
       {
         text: 'Se lo dije a usted para que ___ (saber) de qué se trataba.',
-        options: ['supiera', 'sabe', 'sabrá', 'sabía'],
-        correct: 0,
+        options: ['sabe', 'supiera', 'sabrá', 'sabía'],
+        correct: 1,
         explanation: 'Главный глагол "dije" в прошедшем времени, поэтому Imperfecto de Subjuntivo: supiera.'
       },
       {
@@ -45268,20 +45268,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: 'Te doy este dinero para que ___ (comprarse, tú) algo bonito.',
-        options: ['te compres', 'te compras', 'te comprarás', 'te comprabas'],
-        correct: 0,
+        options: ['te comprarás', 'te compras', 'te compres', 'te comprabas'],
+        correct: 2,
         explanation: 'Главный глагол "doy" в настоящем времени, поэтому Presente de Subjuntivo: compres.'
       },
       {
         text: 'Abrí las ventanas para que ___ (entrar) aire fresco.',
-        options: ['entrara', 'entra', 'entrará', 'entraba'],
-        correct: 0,
+        options: ['entraba', 'entra', 'entrará', 'entrara'],
+        correct: 3,
         explanation: 'Главный глагол "abrí" в прошедшем времени, поэтому Imperfecto de Subjuntivo: entrara.'
       },
       {
         text: 'El profesor explica la lección despacio para que los alumnos ___ (entender) todo.',
-        options: ['entiendan', 'entienden', 'entenderán', 'entendían'],
-        correct: 0,
+        options: ['entendían', 'entienden', 'entenderán', 'entiendan'],
+        correct: 3,
         explanation: 'Главный глагол "explica" в настоящем времени, поэтому Presente de Subjuntivo: entiendan.'
       },
       {
@@ -45292,8 +45292,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: 'Hablo más alto para que todos ___ (poder) oírme.',
-        options: ['puedan', 'pueden', 'podrán', 'podían'],
-        correct: 0,
+        options: ['pueden', 'puedan', 'podrán', 'podían'],
+        correct: 1,
         explanation: 'Главный глагол "hablo" в настоящем времени, поэтому Presente de Subjuntivo: puedan.'
       }
     ]
@@ -45392,12 +45392,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Hace poco nuestro equipo ganó el título de campeón.',
         options: [
-          'Недавно наша команда завоевала звание чемпиона.',
-          'Недавно наша команда выиграла книгу чемпиона.',
           'Недавно наша команда получила документ чемпиона.',
+          'Недавно наша команда выиграла книгу чемпиона.',
+          'Недавно наша команда завоевала звание чемпиона.',
           'Недавно наша команда нашла имя чемпиона.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Título в значении "звание, титул" — título de campeón = звание чемпиона.'
       },
       {
@@ -45414,23 +45414,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'En nuestro país los títulos de nobleza no se reconocen.',
         options: [
-          'В нашей стране дворянские титулы не признаются.',
+          'В нашей стране дворянские документы не признаются.',
           'В нашей стране названия дворянства не признаются.',
           'В нашей стране дворянские книги не признаются.',
-          'В нашей стране дворянские документы не признаются.'
+          'В нашей стране дворянские титулы не признаются.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Título в значении "титул" — títulos de nobleza = дворянские титулы.'
       },
       {
         sentence: 'En la Constitución Española de 1978 el título primero está dedicado a los derechos y deberes fundamentales.',
         options: [
-          'В Конституции Испании 1978 года раздел первый посвящён основным правам и обязанностям.',
           'В Конституции Испании 1978 года название первое посвящено основным правам и обязанностям.',
+          'В Конституции Испании 1978 года раздел первый посвящён основным правам и обязанностям.',
           'В Конституции Испании 1978 года титул первый посвящён основным правам и обязанностям.',
           'В Конституции Испании 1978 года звание первое посвящено основным правам и обязанностям.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Título в значении "раздел, глава" (в документах) — título primero = первый раздел.'
       },
       {
@@ -45447,34 +45447,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Ha obtenido el título de doctor en medicina.',
         options: [
-          'Он получил звание доктора медицины.',
           'Он получил название доктора медицины.',
+          'Он получил звание доктора медицины.',
           'Он получил книгу доктора медицины.',
           'Он получил ценные бумаги доктора медицины.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Título в значении "учёная степень, звание" — título de doctor = звание доктора.'
       },
       {
         sentence: 'El título del artículo no refleja su contenido.',
         options: [
-          'Заголовок статьи не отражает её содержание.',
-          'Звание статьи не отражает её содержание.',
           'Титул статьи не отражает её содержание.',
+          'Звание статьи не отражает её содержание.',
+          'Заголовок статьи не отражает её содержание.',
           'Документ статьи не отражает её содержание.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Título в значении "заголовок" — título del artículo = заголовок статьи.'
       },
       {
         sentence: 'La empresa emitió nuevos títulos en la bolsa.',
         options: [
-          'Компания выпустила новые ценные бумаги на бирже.',
+          'Компания выпустила новые заголовки на бирже.',
           'Компания выпустила новые названия на бирже.',
           'Компания выпустила новые звания на бирже.',
-          'Компания выпустила новые заголовки на бирже.'
+          'Компания выпустила новые ценные бумаги на бирже.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Títulos (в финансовом контексте) = ценные бумаги, акции.'
       },
       {
@@ -45491,67 +45491,67 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: '¿Cuál es el título de la película que viste ayer?',
         options: [
-          'Какое название фильма, который ты вчера смотрел?',
-          'Какое звание фильма, который ты вчера смотрел?',
           'Какой титул фильма, который ты вчера смотрел?',
+          'Какое звание фильма, который ты вчера смотрел?',
+          'Какое название фильма, который ты вчера смотрел?',
           'Какой документ фильма, который ты вчера смотрел?'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Título в значении "название" — título de la película = название фильма.'
       },
       {
         sentence: 'El rey concedió el título de conde a su consejero.',
         options: [
-          'Король пожаловал титул графа своему советнику.',
+          'Король пожаловал документ графа своему советнику.',
           'Король пожаловал название графа своему советнику.',
           'Король пожаловал звание графа своему советнику.',
-          'Король пожаловал документ графа своему советнику.'
+          'Король пожаловал титул графа своему советнику.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Título в значении "титул" — título de conde = титул графа.'
       },
       {
         sentence: 'Necesito tu título universitario para completar el expediente.',
         options: [
-          'Мне нужен твой университетский диплом, чтобы завершить дело.',
           'Мне нужно твоё университетское название, чтобы завершить дело.',
+          'Мне нужен твой университетский диплом, чтобы завершить дело.',
           'Мне нужен твой университетский титул, чтобы завершить дело.',
           'Мне нужны твои университетские ценные бумаги, чтобы завершить дело.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Título universitario = университетский диплом.'
       },
       {
         sentence: 'El libro tiene un título muy largo y difícil de recordar.',
         options: [
-          'У книги очень длинное и трудное для запоминания название.',
+          'У книги очень длинный и трудный для запоминания документ.',
           'У книги очень длинное и трудное для запоминания звание.',
           'У книги очень длинный и трудный для запоминания титул.',
-          'У книги очень длинный и трудный для запоминания документ.'
+          'У книги очень длинное и трудное для запоминания название.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Título в значении "название" книги.'
       },
       {
         sentence: 'A título personal, creo que es una mala decisión.',
         options: [
-          'Лично я считаю, что это плохое решение.',
           'По названию я считаю, что это плохое решение.',
+          'Лично я считаю, что это плохое решение.',
           'По званию я считаю, что это плохое решение.',
           'По документу я считаю, что это плохое решение.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'A título personal — устойчивое выражение, означающее "лично, от себя лично".'
       },
       {
         sentence: 'Los inversores prefieren títulos de renta fija.',
         options: [
-          'Инвесторы предпочитают облигации с фиксированным доходом.',
-          'Инвесторы предпочитают названия с фиксированным доходом.',
           'Инвесторы предпочитают звания с фиксированным доходом.',
+          'Инвесторы предпочитают названия с фиксированным доходом.',
+          'Инвесторы предпочитают облигации с фиксированным доходом.',
           'Инвесторы предпочитают титулы с фиксированным доходом.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Títulos de renta fija = облигации, ценные бумаги с фиксированным доходом.'
       }
     ]
@@ -45566,12 +45566,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Los padres se alegran de que su hijo (hablar) bien el español, pero no estoy segura de que él (saber) hacer el test de control.',
         options: [
-          'hable, sepa',
           'habla, sabe',
+          'hable, sepa',
           'hablara, supiera',
           'hablaba, sabía'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Se alegran (presente) + Presente de Subjuntivo. No estoy segura (presente) + Presente de Subjuntivo.'
       },
       {
@@ -45588,56 +45588,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Te aconsejé que (ver) primero la cartelera antes de que (invitar) a Sofía a salir contigo.',
         options: [
-          'vieras, invitaras',
+          'veías, invitabas',
           'veas, invites',
           'ves, invitas',
-          'veías, invitabas'
+          'vieras, invitaras'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Aconsejé (pretérito) + Imperfecto de Subjuntivo. Antes de que siempre requiere Subjuntivo.'
       },
       {
         sentence: '¿Por qué siempre insistes en que (seguir) la carrera? — No me imagino que (encontrar) un empleo bien pagado sin diploma.',
         options: [
-          'siga, encuentres',
-          'sigo, encuentras',
           'siguiera, encontraras',
+          'sigo, encuentras',
+          'siga, encuentres',
           'seguía, encontrabas'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Insistes (presente) + Presente de Subjuntivo. No me imagino (presente) + Presente de Subjuntivo.'
       },
       {
         sentence: 'No es cierto que la ópera y el ballet (atraer) menos audiencia y es poco probable que (sacar) entradas para el estreno.',
         options: [
-          'atraigan, saquemos',
+          'atraían, sacábamos',
           'atraen, sacamos',
           'atrajeran, sacáramos',
-          'atraían, sacábamos'
+          'atraigan, saquemos'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'No es cierto que + Presente de Subjuntivo. Es poco probable que + Presente de Subjuntivo.'
       },
       {
         sentence: 'Cuando (graduarse) de la universidad me iré a trabajar al extranjero para que nadie (decir) que vivo a cuenta de mi padre.',
         options: [
-          'me gradúe, diga',
-          'me gradúo, dice',
           'me graduara, dijera',
+          'me gradúo, dice',
+          'me gradúe, diga',
           'me graduaba, decía'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Cuando + acción futura requiere Presente de Subjuntivo. Para que + Subjuntivo (diferentes sujetos).'
       },
       {
         sentence: 'Durante la conferencia el profesor dijo que (ser) un tema difícil y que (escuchar, nosotros) con atención porque después de que (terminar) el curso todos (tener) que examinarnos.',
         options: [
-          'era, escucháramos, terminara, tendríamos',
           'es, escuchemos, termine, tendremos',
+          'era, escucháramos, terminara, tendríamos',
           'fue, escuchamos, terminó, tuvimos',
           'sea, escuchemos, termine, tengamos'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Dijo (pretérito) + Imperfecto (era) para estilo indirecto. Escucháramos (Imperfecto de Subjuntivo después de dijo que). Después de que + Subjuntivo para acción futura.'
       },
       {
@@ -45654,23 +45654,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'No nos gustó que en el club (haber) mucha gente y mucho jaleo por eso nos fuimos antes que (terminar) el concierto.',
         options: [
-          'hubiera, terminara',
-          'hay, termina',
           'haya, termine',
+          'hay, termina',
+          'hubiera, terminara',
           'había, terminaba'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'No nos gustó (pretérito) + Imperfecto de Subjuntivo. Antes (de) que siempre + Subjuntivo.'
       },
       {
         sentence: 'No creo que (valer) la pena visitar esta exposición, es mejor que (hacer, nosotros) una escapada a algún lugar romántico.',
         options: [
-          'valga, hagamos',
           'vale, hacemos',
+          'valga, hagamos',
           'valiera, hiciéramos',
           'valía, hacíamos'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'No creo que + Presente de Subjuntivo. Es mejor que + Presente de Subjuntivo.'
       },
       {
@@ -45687,12 +45687,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Esperaba que tú (poder) ayudarme con el proyecto aunque (estar) muy ocupado.',
         options: [
-          'pudieras, estuvieras',
+          'podías, estabas',
           'puedas, estés',
           'puedes, estás',
-          'podías, estabas'
+          'pudieras, estuvieras'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Esperaba (pretérito imperfecto) + Imperfecto de Subjuntivo. Aunque + Subjuntivo (concesión hipotética).'
       },
       {
@@ -45709,23 +45709,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Queríamos que el profesor nos (explicar) la lección otra vez hasta que todos (entender).',
         options: [
-          'explicara, entendieran',
+          'explicaba, entendían',
           'explique, entiendan',
           'explica, entienden',
-          'explicaba, entendían'
+          'explicara, entendieran'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Queríamos (pretérito imperfecto) + Imperfecto de Subjuntivo. Hasta que + Subjuntivo para acción futura.'
       },
       {
         sentence: 'Dudo que María (venir) a la fiesta aunque la (invitar, nosotros) personalmente.',
         options: [
-          'venga, invitemos',
-          'viene, invitamos',
           'viniera, invitáramos',
+          'viene, invitamos',
+          'venga, invitemos',
           'venía, invitábamos'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Dudo (presente) + Presente de Subjuntivo. Aunque + Subjuntivo (concesión hipotética).'
       }
     ]
@@ -45739,34 +45739,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Tengo tantas ganas ___ ir ___ el concierto ___ el grupo alemán que está ___ gira ___ nuestra ciudad.',
         options: [
-          'de, a, de, de, por',
           'a, al, del, en, en',
+          'de, a, de, de, por',
           'para, en, de, a, a',
           'de, al, del, de, en'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Tener ganas DE + infinitivo. Ir A (destino). Concierto DE (pertenencia). Estar DE gira. Gira POR (lugar).'
       },
       {
         sentence: 'Tendrás que renunciar ___ tu idea, debes prepararte ___ la Prueba ___ Acceso ___ la Universidad.',
         options: [
-          'a, para, de, a',
-          'de, a, de, en',
           'a, por, a, de',
+          'de, a, de, en',
+          'a, para, de, a',
           'de, para, del, a'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Renunciar A algo. Prepararse PARA algo. Prueba DE Acceso A la Universidad.'
       },
       {
         sentence: 'Te propongo ___ alquilar un barquito ___ dar una vuelta ___ el lago y disfrutar ___ la naturaleza.',
         options: [
-          '(sin preposición), para, por, de',
+          'que, para, al, la',
           'de, por, en, con',
           'a, a, en, de',
-          'que, para, al, la'
+          '(sin preposición), para, por, de'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Proponer + infinitivo (sin preposición). PARA + infinitivo (finalidad). Vuelta POR (lugar). Disfrutar DE algo.'
       },
       {
@@ -45783,34 +45783,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Es importante convencer ___ vuestro hijo ___ que tiene que estudiar ___ buscarse un lugar ___ la vida.',
         options: [
-          'a, de, para, en',
           'de, a, por, de',
+          'a, de, para, en',
           'a, en, a, a',
           '(sin prep.), que, para, de'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Convencer A alguien DE algo. Estudiar PARA + infinitivo. Lugar EN la vida.'
       },
       {
         sentence: 'Si él no hace ningún esfuerzo y se niega ___ estudiar, el sistema ___ enseñanza no va ___ poder hacer nada ___ él.',
         options: [
-          'a, de, a, por',
+          'en, de, por, a',
           'de, a, a, para',
           'a, de, de, con',
-          'en, de, por, a'
+          'a, de, a, por'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Negarse A + infinitivo. Sistema DE enseñanza. Ir A + infinitivo. Hacer algo POR alguien.'
       },
       {
         sentence: 'Bolonia da mucha importancia ___ las prácticas profesionales ___ el plan ___ estudios.',
         options: [
-          'a, en, de',
-          'de, del, de',
           'a, al, del',
+          'de, del, de',
+          'a, en, de',
           'para, en, a'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Dar importancia A algo. EN el plan. Plan DE estudios.'
       },
       {
@@ -45827,23 +45827,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: '___ hecho los españoles dedican su tiempo libre ___ el hogar ___ ver la televisión, navegar ___ Internet.',
         options: [
-          'De, en, a, por',
+          'Por, en, a, de',
           'En, a, de, en',
           'De, al, para, a',
-          'Por, en, a, de'
+          'De, en, a, por'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'DE hecho (expresión). Dedicar tiempo EN el hogar. Dedicar tiempo A + infinitivo. Navegar POR Internet.'
       },
       {
         sentence: 'Decidí ___ el fin y ___ el cabo comprar una entrada ___ platea, y me presenté ___ el teatro.',
         options: [
-          'al, al, de, en',
-          'a, a, para, a',
           'en, en, de, al',
+          'a, a, para, a',
+          'al, al, de, en',
           'por, por, a, en'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'AL fin y AL cabo (expresión). Entrada DE platea. Presentarse EN el teatro.'
       },
       {
@@ -45860,12 +45860,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: '___ los diez minutos ya estaba tan aburrida que se fue ___ mitad ___ el primer período.',
         options: [
-          'A, a, de',
           'En, en, del',
+          'A, a, de',
           'De, a, de',
           'Por, en, del'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'A los diez minutos (expresión temporal). A mitad DE algo.'
       },
       {
@@ -45882,23 +45882,23 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Insistió ___ que fuéramos ___ él ___ la conferencia ___ literatura española.',
         options: [
-          'en, con, a, de',
           'a, a, para, sobre',
+          'en, con, a, de',
           'en, por, en, de',
           'de, con, a, sobre'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Insistir EN que. Ir CON alguien. Ir A un lugar. Conferencia DE (tema).'
       },
       {
         sentence: 'Sueño ___ viajar ___ Sudamérica ___ conocer las culturas indígenas ___ primera mano.',
         options: [
-          'con, a, para, de',
-          'de, por, a, en',
           'con, por, para, a',
+          'de, por, a, en',
+          'con, a, para, de',
           'en, a, por, de'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Soñar CON + infinitivo. Viajar A (destino). PARA + infinitivo (finalidad). DE primera mano (expresión).'
       }
     ]
@@ -45912,34 +45912,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Нас удивляет, что он все выходные скучает и не знает, чем заняться. Мы советовали ему сходить на выставку или на экскурсию.',
         options: [
-          'Nos sorprende que él se aburra todos los fines de semana y no sepa qué hacer. Le aconsejamos que fuera a una exposición o a una excursión.',
+          'Estamos sorprendidos que él aburre todos los fines de semana. Le aconsejábamos que fue a la exposición.',
           'Nos sorprendemos que él se aburre todos los fines de semana y no sabe qué hacer. Le aconsejábamos ir a una exposición.',
           'Nos sorprende que él se aburría todo el fin de semana y no sabía qué hacer. Le aconsejamos que va a la exposición.',
-          'Estamos sorprendidos que él aburre todos los fines de semana. Le aconsejábamos que fue a la exposición.'
+          'Nos sorprende que él se aburra todos los fines de semana y no sepa qué hacer. Le aconsejamos que fuera a una exposición o a una excursión.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Nos sorprende que + Subjuntivo. Le aconsejamos (pretérito) que + Imperfecto de Subjuntivo.'
       },
       {
         sentence: 'Две недели назад Марисоль принесла тебе две статьи об образовании в Боливии, чтобы ты их перевёл с испанского языка на английский.',
         options: [
-          'Hace dos semanas Marisol te trajo dos artículos sobre la educación en Bolivia para que los tradujeras del español al inglés.',
-          'Dos semanas antes Marisol te ha traído dos artículos de la educación en Bolivia para que los traduces del español al inglés.',
           'Hace dos semanas Marisol te traía dos artículos sobre la educación en Bolivia para traducirlos del español al inglés.',
+          'Dos semanas antes Marisol te ha traído dos artículos de la educación en Bolivia para que los traduces del español al inglés.',
+          'Hace dos semanas Marisol te trajo dos artículos sobre la educación en Bolivia para que los tradujeras del español al inglés.',
           'Antes de dos semanas Marisol te trajo dos artículos de educación en Bolivia para que los traducías del español a inglés.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Hace dos semanas + Pretérito indefinido. Para que + Imperfecto de Subjuntivo (diferentes sujetos, pasado).'
       },
       {
         sentence: 'Она просила тебя, чтобы ты написал ей, когда их опубликуют.',
         options: [
-          'Te pidió que le escribieras cuando los publicaran.',
           'Ella te pedía que le escribas cuando los publiquen.',
+          'Te pidió que le escribieras cuando los publicaran.',
           'Te ha pedido que le escribes cuando los publican.',
           'Ella pidió que le escribe cuando los publicarán.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Pidió (pretérito) + Imperfecto de Subjuntivo. Cuando + acción futura en pasado = Imperfecto de Subjuntivo.'
       },
       {
@@ -45967,34 +45967,34 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Никто не сомневался, что Луис успешно сдаст экзамены и поступит в университет.',
         options: [
-          'Nadie dudaba que Luis aprobaría los exámenes con éxito e ingresaría en la universidad.',
           'Nadie dudó que Luis apruebe los exámenes con éxito e ingrese en la universidad.',
+          'Nadie dudaba que Luis aprobaría los exámenes con éxito e ingresaría en la universidad.',
           'Ninguno dudaba que Luis aprobara los exámenes con éxito e ingresara en la universidad.',
           'Nadie no dudaba que Luis aprobó los exámenes e ingresó en la universidad.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'No dudar que + Indicativo (certeza). Después de pasado = Condicional para expresar futuro en el pasado.'
       },
       {
         sentence: 'Родители не были уверены, что биология — это его призвание.',
         options: [
-          'Los padres no estaban seguros de que la biología fuera su vocación.',
+          'Los padres no eran seguros que la biología fue su vocación.',
           'Los padres no fueron seguros que la biología es su vocación.',
           'Los padres no estaban seguros de que la biología era su vocación.',
-          'Los padres no eran seguros que la biología fue su vocación.'
+          'Los padres no estaban seguros de que la biología fuera su vocación.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'No estar seguro de que + Subjuntivo. Imperfecto en principal + Imperfecto de Subjuntivo.'
       },
       {
         sentence: 'Боюсь, что мне придётся брать такси, потому что, когда закончится концерт, будет слишком поздно.',
         options: [
-          'Me temo que tendré que coger un taxi, porque cuando termine el concierto, será demasiado tarde.',
-          'Tengo miedo que tomo un taxi, porque cuando termina el concierto, es demasiado tarde.',
           'Temo que tengo que coger taxi, porque cuando el concierto termina, será muy tarde.',
+          'Tengo miedo que tomo un taxi, porque cuando termina el concierto, es demasiado tarde.',
+          'Me temo que tendré que coger un taxi, porque cuando termine el concierto, será demasiado tarde.',
           'Me temo que tengo que tomar el taxi, porque cuando terminará el concierto, es demasiado tarde.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Me temo que + Indicativo (futuro). Cuando + acción futura = Presente de Subjuntivo.'
       },
       {
@@ -46011,56 +46011,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         sentence: 'Вчера во время прогулки мне было стыдно, что вы так мало знаете об истории родного города.',
         options: [
-          'Ayer durante el paseo me daba vergüenza que supierais tan poco sobre la historia de vuestra ciudad natal.',
-          'Ayer durante el paseo tenía vergüenza que sabéis tan poco de la historia de su ciudad natal.',
           'Ayer durante paseo me dio vergüenza que sabíais tan poco sobre la historia de ciudad natal.',
+          'Ayer durante el paseo tenía vergüenza que sabéis tan poco de la historia de su ciudad natal.',
+          'Ayer durante el paseo me daba vergüenza que supierais tan poco sobre la historia de vuestra ciudad natal.',
           'Ayer en el paseo era vergonzoso que ustedes saben poco de la historia de la ciudad natal.'
         ],
-        correct: 0,
+        correct: 2,
         explanation: 'Me daba vergüenza que + Imperfecto de Subjuntivo (pasado). Ciudad natal = родной город.'
       },
       {
         sentence: 'Вы не можете ответить на вопросы своего чилийского друга.',
         options: [
-          'No podéis contestar a las preguntas de vuestro amigo chileno.',
           'No pueden responder las preguntas de su amigo de Chile.',
+          'No podéis contestar a las preguntas de vuestro amigo chileno.',
           'No podían contestar a las preguntas del amigo chileno.',
           'No pudisteis responder a preguntas de vuestro amigo chileno.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Contestar A las preguntas. Vuestro amigo = ваш друг (vosotros).'
       },
       {
         sentence: 'Система обучения в этом университете разработана так, чтобы студенты имели возможность получать и выполнять задания по интернету.',
         options: [
-          'El sistema de enseñanza en esta universidad está diseñado de tal manera que los estudiantes tengan la posibilidad de recibir y hacer los deberes por Internet.',
+          'El sistema de la educación está diseñada de tal manera para estudiantes tienen la posibilidad de recibir tareas por el Internet.',
           'El sistema de la enseñanza de esta universidad está diseñada así que los estudiantes tienen posibilidad de recibir y hacer deberes en Internet.',
           'El sistema de enseñanza en este universidad se diseñó para que los estudiantes tuvieran posibilidad recibir y cumplir tareas por Internet.',
-          'El sistema de la educación está diseñada de tal manera para estudiantes tienen la posibilidad de recibir tareas por el Internet.'
+          'El sistema de enseñanza en esta universidad está diseñado de tal manera que los estudiantes tengan la posibilidad de recibir y hacer los deberes por Internet.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'De tal manera que + Subjuntivo (finalidad). Tener la posibilidad DE + infinitivo. Por Internet.'
       },
       {
         sentence: 'Недавно мы прочитали, что в Испании большинство молодых людей живёт с родителями до тех пор, пока не женятся.',
         options: [
-          'Hace poco leímos que en España la mayoría de los jóvenes vive con los padres hasta que se casen.',
           'Recientemente leemos que en España la mayoría de jóvenes viven con sus padres hasta que se casan.',
+          'Hace poco leímos que en España la mayoría de los jóvenes vive con los padres hasta que se casen.',
           'Hace poco hemos leído que en España mayoría de los jóvenes vivía con padres hasta casarse.',
           'Recientemente leíamos que en España la mayoría de los jóvenes vivían con los padres hasta que se casaban.'
         ],
-        correct: 0,
+        correct: 1,
         explanation: 'Hace poco + Pretérito indefinido. Hasta que + Subjuntivo (acción futura/hipotética).'
       },
       {
         sentence: 'Преподаватель не настаивал на том, чтобы студенты прослушали этот диалог, потому что сомневался, что они его поймут.',
         options: [
-          'El profesor no insistía en que los estudiantes escucharan este diálogo porque dudaba que lo entendieran.',
+          'El profesor no insistía que los estudiantes escucharon este diálogo porque dudaba que lo entenderán.',
           'El profesor no insistió que los estudiantes escuchen este diálogo porque dudó que lo entienden.',
           'El profesor no ha insistido en que los estudiantes escuchen el diálogo porque ha dudado que lo entiendan.',
-          'El profesor no insistía que los estudiantes escucharon este diálogo porque dudaba que lo entenderán.'
+          'El profesor no insistía en que los estudiantes escucharan este diálogo porque dudaba que lo entendieran.'
         ],
-        correct: 0,
+        correct: 3,
         explanation: 'Insistir EN que + Subjuntivo. Imperfecto + Imperfecto de Subjuntivo. Dudar que + Subjuntivo.'
       },
       {
@@ -46085,21 +46085,21 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     description: 'Выберите правильную форму глагола: Indicativo или Subjuntivo',
     showAnswerOption: true,
     questions: [
-      { sentence: 'Busco un trabajo que me ___ viajar. (permitir)', options: ['permite', 'permita', 'permitía', 'permitirá'], correct: 1, explanation: 'Subjuntivo porque se busca algo hipotético, no concreto.' },
-      { sentence: 'Tengo un amigo que ___ español perfectamente. (hablar)', options: ['hable', 'habla', 'hablara', 'hablará'], correct: 1, explanation: 'Indicativo porque es un amigo concreto y real.' },
-      { sentence: 'No hay nadie que ___ resolver este problema. (poder)', options: ['puede', 'pueda', 'podía', 'podrá'], correct: 1, explanation: 'Subjuntivo después de "no hay nadie que".' },
+      { sentence: 'Busco un trabajo que me ___ viajar. (permitir)', options: ['permite', 'permitirá', 'permitía', 'permita'], correct: 3, explanation: 'Subjuntivo porque se busca algo hipotético, no concreto.' },
+      { sentence: 'Tengo un amigo que ___ español perfectamente. (hablar)', options: ['habla', 'hable', 'hablara', 'hablará'], correct: 0, explanation: 'Indicativo porque es un amigo concreto y real.' },
+      { sentence: 'No hay nadie que ___ resolver este problema. (poder)', options: ['puede', 'podía', 'pueda', 'podrá'], correct: 2, explanation: 'Subjuntivo después de "no hay nadie que".' },
       { sentence: '¿Conoces a alguien que ___ francés? (saber)', options: ['sabe', 'sepa', 'sabía', 'sabrá'], correct: 1, explanation: 'Subjuntivo en preguntas sobre existencia dudosa.' },
       { sentence: 'Necesito una secretaria que ___ inglés y alemán. (dominar)', options: ['domina', 'domine', 'dominaba', 'dominará'], correct: 1, explanation: 'Subjuntivo porque se busca a alguien no específico.' },
-      { sentence: 'Conozco a una empresa que ___ buenos salarios. (ofrecer)', options: ['ofrezca', 'ofrece', 'ofreciera', 'ofrecerá'], correct: 1, explanation: 'Indicativo porque es una empresa conocida y real.' },
-      { sentence: 'No existe ningún país que ___ perfecto. (ser)', options: ['es', 'sea', 'era', 'será'], correct: 1, explanation: 'Subjuntivo después de "no existe ningún... que".' },
-      { sentence: 'Quiero un jefe que ___ comprensivo. (ser)', options: ['es', 'sea', 'era', 'será'], correct: 1, explanation: 'Subjuntivo porque expresa un deseo de algo no real todavía.' },
+      { sentence: 'Conozco a una empresa que ___ buenos salarios. (ofrecer)', options: ['ofrezca', 'ofreciera', 'ofrece', 'ofrecerá'], correct: 2, explanation: 'Indicativo porque es una empresa conocida y real.' },
+      { sentence: 'No existe ningún país que ___ perfecto. (ser)', options: ['es', 'será', 'era', 'sea'], correct: 3, explanation: 'Subjuntivo después de "no existe ningún... que".' },
+      { sentence: 'Quiero un jefe que ___ comprensivo. (ser)', options: ['sea', 'es', 'era', 'será'], correct: 0, explanation: 'Subjuntivo porque expresa un deseo de algo no real todavía.' },
       { sentence: 'He encontrado el libro que ___ para mi investigación. (necesitar)', options: ['necesite', 'necesito', 'necesitaba', 'necesitaré'], correct: 1, explanation: 'Indicativo porque el libro ya está encontrado, es real.' },
-      { sentence: 'Buscamos empleados que ___ experiencia en ventas. (tener)', options: ['tienen', 'tengan', 'tenían', 'tendrán'], correct: 1, explanation: 'Subjuntivo porque se buscan candidatos no específicos.' },
-      { sentence: 'No hay nada que me ___ en esta tienda. (gustar)', options: ['gusta', 'guste', 'gustaba', 'gustará'], correct: 1, explanation: 'Subjuntivo después de "no hay nada que".' },
-      { sentence: 'Tenemos una oficina que ___ muy céntrica. (estar)', options: ['esté', 'está', 'estuviera', 'estará'], correct: 1, explanation: 'Indicativo porque la oficina existe y es conocida.' },
+      { sentence: 'Buscamos empleados que ___ experiencia en ventas. (tener)', options: ['tienen', 'tendrán', 'tenían', 'tengan'], correct: 3, explanation: 'Subjuntivo porque se buscan candidatos no específicos.' },
+      { sentence: 'No hay nada que me ___ en esta tienda. (gustar)', options: ['guste', 'gusta', 'gustaba', 'gustará'], correct: 0, explanation: 'Subjuntivo después de "no hay nada que".' },
+      { sentence: 'Tenemos una oficina que ___ muy céntrica. (estar)', options: ['esté', 'estuviera', 'está', 'estará'], correct: 2, explanation: 'Indicativo porque la oficina existe y es conocida.' },
       { sentence: '¿Hay algún restaurante que ___ comida mexicana por aquí? (servir)', options: ['sirve', 'sirva', 'servía', 'servirá'], correct: 1, explanation: 'Subjuntivo porque se pregunta si existe tal restaurante.' },
-      { sentence: 'Ella tiene un novio que la ___ mucho. (querer)', options: ['quiera', 'quiere', 'quisiera', 'querrá'], correct: 1, explanation: 'Indicativo porque el novio es real y concreto.' },
-      { sentence: 'Buscan a alguien que ___ dispuesto a trabajar los fines de semana. (estar)', options: ['está', 'esté', 'estaba', 'estará'], correct: 1, explanation: 'Subjuntivo porque se busca a alguien no específico.' }
+      { sentence: 'Ella tiene un novio que la ___ mucho. (querer)', options: ['quiera', 'querrá', 'quisiera', 'quiere'], correct: 3, explanation: 'Indicativo porque el novio es real y concreto.' },
+      { sentence: 'Buscan a alguien que ___ dispuesto a trabajar los fines de semana. (estar)', options: ['está', 'estaba', 'esté', 'estará'], correct: 2, explanation: 'Subjuntivo porque se busca a alguien no específico.' }
     ]
   },
 
@@ -46158,8 +46158,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Busco la bufanda que me ha regalado Juan.',
         translation: 'Ищу шарф, который мне подарил Хуан.',
-        options: ['Indicativo — конкретный шарф, который существует', 'Subjuntivo — любой подходящий шарф', 'Indicativo — будущее действие', 'Subjuntivo — отрицание'],
-        correct: 0
+        options: ['Indicativo — будущее действие', 'Subjuntivo — любой подходящий шарф', 'Indicativo — конкретный шарф, который существует', 'Subjuntivo — отрицание'],
+        correct: 2
       },
       {
         spanish: 'Busco una bufanda que vaya bien con el abrigo amarillo.',
@@ -46170,26 +46170,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Sofía es la estudiante del quinto que os traducirá la carta.',
         translation: 'София — студентка пятого курса, которая переведёт вам письмо.',
-        options: ['Subjuntivo — неизвестный человек', 'Indicativo — конкретный известный человек', 'Subjuntivo — желание', 'Indicativo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — неизвестный человек', 'Indicativo — отрицание', 'Subjuntivo — желание', 'Indicativo — конкретный известный человек'],
+        correct: 3
       },
       {
         spanish: 'Necesitamos a alguien que nos traduzca la carta.',
         translation: 'Нам нужен кто-то, кто перевёл бы нам письмо.',
-        options: ['Indicativo — известный человек', 'Subjuntivo — ищем неизвестного человека', 'Indicativo — факт', 'Subjuntivo — прошлое'],
-        correct: 1
+        options: ['Subjuntivo — ищем неизвестного человека', 'Indicativo — известный человек', 'Indicativo — факт', 'Subjuntivo — прошлое'],
+        correct: 0
       },
       {
         spanish: 'Aquel puente hicimos una escapada con los muchachos a quienes habíamos conocido en el concierto.',
         translation: 'В тот выходной мы совершили вылазку с ребятами, с которыми познакомились на концерте.',
-        options: ['Subjuntivo — гипотетические люди', 'Indicativo — конкретные люди, которых уже знаем', 'Subjuntivo — желание', 'Indicativo — будущее'],
-        correct: 1
+        options: ['Subjuntivo — гипотетические люди', 'Indicativo — будущее', 'Subjuntivo — желание', 'Indicativo — конкретные люди, которых уже знаем'],
+        correct: 3
       },
       {
         spanish: 'Entre nuestros amigos no había a quienes les gustara aquella idea absurda.',
         translation: 'Среди наших друзей не было тех, кому понравилась бы та абсурдная идея.',
-        options: ['Indicativo — конкретные люди', 'Subjuntivo — отрицание существования (no había)', 'Indicativo — прошлое', 'Subjuntivo — будущее'],
-        correct: 1
+        options: ['Indicativo — конкретные люди', 'Indicativo — прошлое', 'Subjuntivo — отрицание существования (no había)', 'Subjuntivo — будущее'],
+        correct: 2
       },
       {
         spanish: 'Me pondré la blusa que compré ayer.',
@@ -46200,8 +46200,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Me pondré la blusa que me aconsejes.',
         translation: 'Я надену блузку, которую ты мне посоветуешь.',
-        options: ['Indicativo — известный совет', 'Subjuntivo — ещё неизвестно, какую посоветуют', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — ещё неизвестно, какую посоветуют', 'Indicativo — известный совет', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 0
       },
       {
         spanish: 'Ellos vivían en un apartamento cuyas ventanas daban al patio.',
@@ -46212,32 +46212,32 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Querían vivir en un apartamento cuyas ventanas dieran al parque.',
         translation: 'Они хотели жить в квартире, окна которой выходили бы в парк.',
-        options: ['Indicativo — реальная квартира', 'Subjuntivo — желаемая, гипотетическая квартира', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — реальная квартира', 'Subjuntivo — отрицание', 'Indicativo — прошлое', 'Subjuntivo — желаемая, гипотетическая квартира'],
+        correct: 3
       },
       {
         spanish: 'El aula donde se celebra la reunión está en el tercer piso.',
         translation: 'Аудитория, где проходит собрание, находится на третьем этаже.',
-        options: ['Subjuntivo — неизвестное место', 'Indicativo — конкретная известная аудитория', 'Subjuntivo — желание', 'Indicativo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — неизвестное место', 'Subjuntivo — желание', 'Indicativo — конкретная известная аудитория', 'Indicativo — отрицание'],
+        correct: 2
       },
       {
         spanish: 'Buscamos un aula donde podamos celebrar la reunión.',
         translation: 'Мы ищем аудиторию, где могли бы провести собрание.',
-        options: ['Indicativo — известная аудитория', 'Subjuntivo — ищем подходящее место', 'Indicativo — факт', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — ищем подходящее место', 'Indicativo — известная аудитория', 'Indicativo — факт', 'Subjuntivo — отрицание'],
+        correct: 0
       },
       {
         spanish: 'En mi mesa encontrarás un libro dentro del cual están dos billetes de 100 euros.',
         translation: 'На моём столе найдёшь книгу, внутри которой лежат две купюры по 100 евро.',
-        options: ['Subjuntivo — гипотетическая книга', 'Indicativo — конкретная книга, которая существует', 'Subjuntivo — поиск', 'Indicativo — желание'],
-        correct: 1
+        options: ['Subjuntivo — гипотетическая книга', 'Subjuntivo — поиск', 'Indicativo — конкретная книга, которая существует', 'Indicativo — желание'],
+        correct: 2
       },
       {
         spanish: 'No voy a alquilar una casa enfrente de la cual haya una fábrica.',
         translation: 'Я не собираюсь снимать дом, напротив которого была бы фабрика.',
-        options: ['Indicativo — конкретный дом', 'Subjuntivo — гипотетический дом (отрицание намерения)', 'Indicativo — прошлое', 'Subjuntivo — факт'],
-        correct: 1
+        options: ['Subjuntivo — гипотетический дом (отрицание намерения)', 'Indicativo — конкретный дом', 'Indicativo — прошлое', 'Subjuntivo — факт'],
+        correct: 0
       },
       {
         spanish: 'Los que no aprueben el examen en junio podrán examinarse en septiembre.',
@@ -46248,14 +46248,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Los que han asistido a todas mis conferencias no deben presentarse al examen.',
         translation: 'Те, кто посетил все мои лекции, не должны являться на экзамен.',
-        options: ['Subjuntivo — неизвестные люди', 'Indicativo — конкретные люди, о которых известно', 'Subjuntivo — желание', 'Indicativo — поиск'],
-        correct: 1
+        options: ['Subjuntivo — неизвестные люди', 'Indicativo — поиск', 'Subjuntivo — желание', 'Indicativo — конкретные люди, о которых известно'],
+        correct: 3
       },
       {
         spanish: 'Quien llegue primero, recibirá el premio.',
         translation: 'Кто придёт первым, получит приз.',
-        options: ['Indicativo — известный человек', 'Subjuntivo — неизвестно, кто придёт первым', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — известный человек', 'Subjuntivo — отрицание', 'Indicativo — прошлое', 'Subjuntivo — неизвестно, кто придёт первым'],
+        correct: 3
       },
       {
         spanish: 'El profesor que me enseñó español era muy exigente.',
@@ -46266,14 +46266,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Necesito un profesor que me enseñe español.',
         translation: 'Мне нужен преподаватель, который учил бы меня испанскому.',
-        options: ['Indicativo — известный преподаватель', 'Subjuntivo — ищу подходящего преподавателя', 'Indicativo — факт', 'Subjuntivo — прошлое'],
-        correct: 1
+        options: ['Subjuntivo — ищу подходящего преподавателя', 'Indicativo — известный преподаватель', 'Indicativo — факт', 'Subjuntivo — прошлое'],
+        correct: 0
       },
       {
         spanish: 'No hay nadie que pueda resolver este problema.',
         translation: 'Нет никого, кто мог бы решить эту проблему.',
-        options: ['Indicativo — конкретный человек', 'Subjuntivo — отрицание существования', 'Indicativo — прошлое', 'Subjuntivo — будущее'],
-        correct: 1
+        options: ['Indicativo — конкретный человек', 'Indicativo — прошлое', 'Subjuntivo — отрицание существования', 'Subjuntivo — будущее'],
+        correct: 2
       }
     ]
   },
@@ -46355,14 +46355,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Me matricularé en la facultad de Ciencias Naturales aunque mis padres estén en contra.',
         translation: 'Я поступлю на факультет естественных наук, даже если мои родители будут против.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважно', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — гипотеза/неважно', 'Subjuntivo — отрицание'],
+        correct: 2
       },
       {
         spanish: 'María no quiso ayudarme aunque se lo pedía.',
         translation: 'Мария не захотела мне помочь, хотя я её просил.',
-        options: ['Indicativo — реальный факт (я действительно просил)', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — неважность', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Indicativo — реальный факт (я действительно просил)'],
+        correct: 3
       },
       {
         spanish: 'María no querrá ayudarme aunque se lo pida.',
@@ -46373,20 +46373,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'A pesar de que ayer discutimos dos horas este problema en la reunión, no encontramos la solución.',
         translation: 'Несмотря на то, что вчера мы два часа обсуждали эту проблему на собрании, мы не нашли решения.',
-        options: ['Indicativo — реальный факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Indicativo — будущее', 'Subjuntivo — гипотеза', 'Indicativo — реальный факт в прошлом', 'Subjuntivo — неважность'],
+        correct: 2
       },
       {
         spanish: 'A pesar de que discutamos este problema dos horas, no encontraremos la solución.',
         translation: 'Даже если мы будем обсуждать эту проблему два часа, мы не найдём решения.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — гипотеза в будущем', 'Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 0
       },
       {
         spanish: 'Por mucho que memorizo las palabras, no tengo éxitos en el aprendizaje del chino.',
         translation: 'Сколько бы я ни заучивал слова, у меня нет успехов в изучении китайского.',
-        options: ['Indicativo — констатирую реальный факт', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — неважность', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Indicativo — констатирую реальный факт'],
+        correct: 3
       },
       {
         spanish: 'Por mucho que memorice las palabras, no tendré éxitos en el aprendizaje del chino.',
@@ -46397,74 +46397,74 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       {
         spanish: 'Por muy nerviosa que estaba, Lola se concentró y logró aprobar el examen.',
         translation: 'Как бы она ни нервничала (и она нервничала), Лола сосредоточилась и смогла сдать экзамен.',
-        options: ['Indicativo — свершившийся факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — неважность', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Indicativo — свершившийся факт в прошлом'],
+        correct: 3
       },
       {
         spanish: 'Por muy nerviosa que esté, Lola se concentrará y aprobará el examen.',
         translation: 'Как бы она ни нервничала, Лола сосредоточится и сдаст экзамен.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважность', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — гипотеза/неважность', 'Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 0
       },
       {
         spanish: 'Aunque hace frío, los niños quieren ir al parque.',
         translation: 'Хотя холодно, дети хотят пойти в парк.',
-        options: ['Indicativo — констатирую факт (сейчас холодно)', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — гипотеза', 'Indicativo — констатирую факт (сейчас холодно)', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 1
       },
       {
         spanish: 'Aunque haga frío, iremos al parque.',
         translation: 'Даже если будет холодно, мы пойдём в парк.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважность', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — гипотеза/неважность', 'Subjuntivo — отрицание'],
+        correct: 2
       },
       {
         spanish: 'Cualquiera que sea tu decisión, te apoyaré.',
         translation: 'Каким бы ни было твоё решение, я тебя поддержу.',
-        options: ['Indicativo — факт', 'Subjuntivo — неопределённость (cualquiera que)', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — неопределённость (cualquiera que)', 'Subjuntivo — отрицание'],
+        correct: 2
       },
       {
         spanish: 'Por más que intenté convencerla, no lo conseguí.',
         translation: 'Сколько бы я ни пытался её убедить, у меня не получилось.',
-        options: ['Indicativo — свершившийся факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — неважность', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Indicativo — свершившийся факт в прошлом'],
+        correct: 3
       },
       {
         spanish: 'Por más que lo intentes, no lo conseguirás.',
         translation: 'Сколько бы ты ни пытался, у тебя не получится.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — гипотеза в будущем', 'Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 0
       },
       {
         spanish: 'Aunque estoy cansado, terminaré el trabajo hoy.',
         translation: 'Хотя я устал, я закончу работу сегодня.',
-        options: ['Indicativo — констатирую факт (я устал)', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — гипотеза', 'Indicativo — констатирую факт (я устал)', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 1
       },
       {
         spanish: 'Aunque esté cansado, terminaré el trabajo hoy.',
         translation: 'Даже если я устану / Пусть даже устану, я закончу работу сегодня.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза/неважность', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — гипотеза/неважность', 'Subjuntivo — отрицание'],
+        correct: 2
       },
       {
         spanish: 'A pesar de que trabajaba mucho, no ganaba suficiente dinero.',
         translation: 'Несмотря на то, что он много работал, он не зарабатывал достаточно денег.',
-        options: ['Indicativo — факт в прошлом', 'Subjuntivo — гипотеза', 'Indicativo — будущее', 'Subjuntivo — неважность'],
-        correct: 0
+        options: ['Subjuntivo — гипотеза', 'Indicativo — факт в прошлом', 'Indicativo — будущее', 'Subjuntivo — неважность'],
+        correct: 1
       },
       {
         spanish: 'A pesar de que trabaje mucho, no ganará suficiente dinero.',
         translation: 'Даже если он будет много работать, он не заработает достаточно денег.',
-        options: ['Indicativo — факт', 'Subjuntivo — гипотеза в будущем', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Subjuntivo — гипотеза в будущем', 'Indicativo — факт', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
+        correct: 0
       },
       {
         spanish: 'Quienquiera que seas, no puedes entrar sin permiso.',
         translation: 'Кем бы ты ни был, ты не можешь войти без разрешения.',
-        options: ['Indicativo — факт', 'Subjuntivo — неопределённость (quienquiera que)', 'Indicativo — прошлое', 'Subjuntivo — отрицание'],
-        correct: 1
+        options: ['Indicativo — факт', 'Subjuntivo — отрицание', 'Indicativo — прошлое', 'Subjuntivo — неопределённость (quienquiera que)'],
+        correct: 3
       }
     ]
   },
@@ -46688,8 +46688,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Cómo se llama la taxista protagonista?',
-        options: ['Clara', 'Pepa', 'María', 'Laura'],
-        correct: 1,
+        options: ['Clara', 'Laura', 'María', 'Pepa'],
+        correct: 3,
         explanation: 'La protagonista se llama Pepa Villa.'
       },
       {
@@ -46706,14 +46706,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué anuncia Carlos al principio?',
-        options: ['Que se van de vacaciones', 'Que se va a vivir a Madrid por un negocio', 'Que quiere casarse', 'Que busca trabajo'],
-        correct: 1,
+        options: ['Que se va a vivir a Madrid por un negocio', 'Que se van de vacaciones', 'Que quiere casarse', 'Que busca trabajo'],
+        correct: 0,
         explanation: 'Carlos anuncia que tiene un negocio en Madrid y que se va mañana.'
       },
       {
         text: '¿Qué es Carlos de profesión?',
-        options: ['Médico', 'Arquitecto', 'Abogado con máster', 'Taxista'],
-        correct: 2,
+        options: ['Abogado con máster', 'Arquitecto', 'Médico', 'Taxista'],
+        correct: 0,
         explanation: 'Carlos es abogado y tiene un máster.'
       },
       {
@@ -46724,8 +46724,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué coche conduce Pepa para trabajar como taxista?',
-        options: ['Un Ford Focus', 'Un Volkswagen Golf', 'Un Skoda Octavia', 'Un Seat León'],
-        correct: 2,
+        options: ['Un Ford Focus', 'Un Volkswagen Golf', 'Un Seat León', 'Un Skoda Octavia'],
+        correct: 3,
         explanation: 'Pepa conduce un Skoda Octavia, que compró hace unos años porque es resistente como un tanque.'
       }
     ]
@@ -46794,14 +46794,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Después del choque, el coche quedó completamente _____ : no valía nada.',
-        options: ['libre', 'tranquilo', 'destrozado (разбитый, уничтоженный)', 'sorprendido'],
-        correct: 2,
+        options: ['libre', 'tranquilo', 'sorprendido', 'destrozado (разбитый, уничтоженный)'],
+        correct: 3,
         explanation: 'Destrozado = разбитый, уничтоженный — полностью разрушен'
       },
       {
         sentence: 'El conductor pisó _____ a fondo, pero el coche no pudo detenerse a tiempo.',
-        options: ['el freno (тормоз)', 'el anticipo', 'la marcha atrás', 'el tatuaje'],
-        correct: 0,
+        options: ['la marcha atrás', 'el anticipo', 'el freno (тормоз)', 'el tatuaje'],
+        correct: 2,
         explanation: 'El freno = тормоз — устройство для остановки машины'
       },
       {
@@ -46812,14 +46812,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'El cliente pagó un _____ del veinte por ciento antes de que empezaran las obras.',
-        options: ['la deuda', 'el anticipo (аванс, задаток)', 'el seguro', 'el chantaje'],
-        correct: 1,
+        options: ['la deuda', 'el chantaje', 'el seguro', 'el anticipo (аванс, задаток)'],
+        correct: 3,
         explanation: 'El anticipo = аванс, задаток — часть оплаты вперёд'
       },
       {
         sentence: 'Los niños deben _____ las normas de la casa si quieren tener más libertad.',
-        options: ['amenazar', 'escapar', 'obedecer (слушаться, повиноваться)', 'gritar'],
-        correct: 2,
+        options: ['obedecer (слушаться, повиноваться)', 'escapar', 'amenazar', 'gritar'],
+        correct: 0,
         explanation: 'Obedecer = слушаться, повиноваться — следовать правилам или приказам'
       },
       {
@@ -46836,8 +46836,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Tiene el coche asegurado _____ así que si hay un accidente, el seguro paga todo.',
-        options: ['a todo riesgo (страховка от всех рисков)', 'sin rumbo fijo', 'con chantaje', 'a plazos'],
-        correct: 0,
+        options: ['a plazos', 'sin rumbo fijo', 'con chantaje', 'a todo riesgo (страховка от всех рисков)'],
+        correct: 3,
         explanation: 'A todo riesgo = страховка от всех рисков — полное страховое покрытие'
       },
       {
@@ -46857,44 +46857,44 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Por qué choca Pepa con el Ferrari?',
-        options: ['Porque el freno no funciona', 'Porque acelera para pasar el semáforo en rojo', 'Porque no ve la calle', 'Porque está cansada'],
-        correct: 1,
+        options: ['Porque el freno no funciona', 'Porque está cansada', 'Porque no ve la calle', 'Porque acelera para pasar el semáforo en rojo'],
+        correct: 3,
         explanation: 'Pepa ve el semáforo en amarillo y acelera, pero un Ferrari está cruzando.'
       },
       {
         text: '¿Cómo está el Ferrari después del accidente?',
-        options: ['Solo tiene una pequeña marca', 'Está completamente destrozado', 'Está bien', 'Tiene solo el parachoques roto'],
-        correct: 1,
+        options: ['Solo tiene una pequeña marca', 'Está bien', 'Está completamente destrozado', 'Tiene solo el parachoques roto'],
+        correct: 2,
         explanation: 'La parte delantera del Octavia está hundida en el lateral del Ferrari, que queda destrozado.'
       },
       {
         text: '¿Están heridos los dos hombres del Ferrari?',
-        options: ['Sí, gravemente', 'Sí, levemente', 'No, no les ha pasado nada', 'Uno está herido'],
-        correct: 2,
+        options: ['No, no les ha pasado nada', 'Sí, levemente', 'Sí, gravemente', 'Uno está herido'],
+        correct: 0,
         explanation: 'Afortunadamente, no les ha pasado nada.'
       },
       {
         text: '¿De qué país es Albert?',
-        options: ['De Australia', 'De Holanda', 'De Nueva Zelanda', 'De Alemania'],
-        correct: 2,
+        options: ['De Australia', 'De Nueva Zelanda', 'De Holanda', 'De Alemania'],
+        correct: 1,
         explanation: 'Albert es de Nueva Zelanda.'
       },
       {
         text: '¿Adónde quiere ir Albert con el taxi de Pepa?',
-        options: ['Al aeropuerto', 'Al centro de Barcelona', 'A Castelldefels', 'A Madrid'],
-        correct: 2,
+        options: ['Al aeropuerto', 'Al centro de Barcelona', 'A Madrid', 'A Castelldefels'],
+        correct: 3,
         explanation: 'Albert quiere ir a Castelldefels, y rápido.'
       },
       {
         text: '¿Qué le ofrece Albert a Pepa?',
-        options: ['Un café', 'Contratarla full time por dos días', 'Llevarla al aeropuerto', 'Prestarle dinero'],
-        correct: 1,
+        options: ['Contratarla full time por dos días', 'Un café', 'Llevarla al aeropuerto', 'Prestarle dinero'],
+        correct: 0,
         explanation: 'Albert le pide a Pepa que trabaje para él durante un par de días.'
       },
       {
         text: '¿Cuánto dinero le da Albert a Pepa como anticipo?',
-        options: ['Cien euros', 'Quinientos euros', 'Seiscientos euros', 'Mil euros'],
-        correct: 3,
+        options: ['Cien euros', 'Quinientos euros', 'Mil euros', 'Seiscientos euros'],
+        correct: 2,
         explanation: 'Albert saca diez billetes de cien euros y se los da: mil euros.'
       },
       {
@@ -46905,20 +46905,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿En qué idioma hablan Albert y su acompañante entre ellos?',
-        options: ['En alemán', 'En inglés', 'En holandés', 'En francés'],
-        correct: 2,
+        options: ['En holandés', 'En inglés', 'En alemán', 'En francés'],
+        correct: 0,
         explanation: 'Hablan en holandés, aunque Pepa cree que es alemán.'
       },
       {
         text: '¿Qué lleva Albert consigo?',
-        options: ['Una mochila', 'Un maletín', 'Una maleta grande', 'Una bolsa de plástico'],
-        correct: 1,
+        options: ['Una mochila', 'Una bolsa de plástico', 'Una maleta grande', 'Un maletín'],
+        correct: 3,
         explanation: 'Albert lleva un maletín a su lado.'
       },
       {
         text: '¿Qué piensa Pepa cuando se da cuenta de que Albert es muy guapo?',
-        options: ['Que debe ser muy rico', 'Que "al fin del mundo te llevaría", olvidándose por completo del accidente', 'Que debería no llamar la atención', 'Que es peligroso llevarle'],
-        correct: 1,
+        options: ['Que debe ser muy rico', 'Que debería no llamar la atención', 'Que "al fin del mundo te llevaría", olvidándose por completo del accidente', 'Que es peligroso llevarle'],
+        correct: 2,
         explanation: 'Pepa piensa: "¡Vaya tío! ¡Qué guapo! Se parece a Brad Pitt, pero es aún más elegante… Al fin del mundo te llevaría…", olvidándose del accidente.'
       },
       {
@@ -46929,14 +46929,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué dijo Albert sobre el parte del accidente?',
-        options: ['"Sí, hay que hacerlo inmediatamente"', '"No. No hace falta. No importa. Mi amigo se ocupará del coche y del papeleo"', '"Llama a la policía tú primero"', '"Espera, llamo a mi seguro"'],
-        correct: 1,
+        options: ['"Sí, hay que hacerlo inmediatamente"', '"Espera, llamo a mi seguro"', '"Llama a la policía tú primero"', '"No. No hace falta. No importa. Mi amigo se ocupará del coche y del papeleo"'],
+        correct: 3,
         explanation: 'Albert dice: "No. No hace falta. No importa." Su amigo se ocupará del coche y del papeleo.'
       },
       {
         text: '¿Por qué Pepa decide no intentar impresionar a Albert?',
-        options: ['Porque Carlos le importa más', 'Porque Albert ya tiene novia', 'Porque piensa que hagas lo que hagas, siempre pareces imbécil', 'Porque Albert no le parece tan guapo'],
-        correct: 2,
+        options: ['Porque Carlos le importa más', 'Porque piensa que hagas lo que hagas, siempre pareces imbécil', 'Porque Albert ya tiene novia', 'Porque Albert no le parece tan guapo'],
+        correct: 1,
         explanation: 'Pepa piensa: "Este adonis no va a fijarse en mí. Por tanto, lo mejor es no intentarlo." y recuerda que hagas lo que hagas, siempre pareces imbécil.'
       },
       {
@@ -47002,8 +47002,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Raúl tenía un _____ de un dragón en el brazo que se veía cuando llevaba manga corta.',
-        options: ['el tatuaje (татуировка)', 'el porro', 'el ático', 'el cajón'],
-        correct: 0,
+        options: ['el ático', 'el porro', 'el tatuaje (татуировка)', 'el cajón'],
+        correct: 2,
         explanation: 'El tatuaje = татуировка — рисунок на коже'
       },
       {
@@ -47014,14 +47014,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Después de la discusión, Pepa salió a caminar _____ por el barrio de Gràcia.',
-        options: ['a todo riesgo', 'sin rumbo fijo (без определённой цели)', 'a plazos', 'de marcha atrás'],
-        correct: 1,
+        options: ['a todo riesgo', 'de marcha atrás', 'a plazos', 'sin rumbo fijo (без определённой цели)'],
+        correct: 3,
         explanation: 'Sin rumbo fijo = без определённой цели — без конкретного направления'
       },
       {
         sentence: 'Pepa se _____ con una patata cuando sonó el teléfono y casi tiró el plato.',
-        options: ['sorprendió', 'escapó', 'atragantó (поперхнулась)', 'inclinó'],
-        correct: 2,
+        options: ['sorprendió', 'escapó', 'inclinó', 'atragantó (поперхнулась)'],
+        correct: 3,
         explanation: 'Atragantarse = поперхнуться — подавиться едой или питьём'
       },
       {
@@ -47032,26 +47032,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Carlos se fue muy enfadado y _____ tan fuerte que los vecinos salieron a ver qué pasaba.',
-        options: ['dio un portazo (хлопнул дверью)', 'dio un tatuaje', 'dio un anticipo', 'dio una vuelta'],
-        correct: 0,
+        options: ['dio un tatuaje', 'dio un portazo (хлопнул дверью)', 'dio un anticipo', 'dio una vuelta'],
+        correct: 1,
         explanation: 'Dar un portazo = хлопнуть дверью — закрыть дверь с громким стуком от злости'
       },
       {
         sentence: 'En el bar de la esquina piden _____ como aperitivo antes de la paella, con salsa picante.',
-        options: ['las deudas', 'las patatas bravas (картошка с острым соусом)', 'las cenizas', 'las pruebas'],
-        correct: 1,
+        options: ['las deudas', 'las cenizas', 'las patatas bravas (картошка с острым соусом)', 'las pruebas'],
+        correct: 2,
         explanation: 'Las patatas bravas = картошка с острым соусом — типичное испанское тапас'
       },
       {
         sentence: 'En la _____ no hay agua, solo cervezas y algún trozo de queso viejo.',
-        options: ['la nevera (холодильник)', 'la terraza', 'la cárcel', 'la sucursal'],
-        correct: 0,
+        options: ['la cárcel', 'la terraza', 'la nevera (холодильник)', 'la sucursal'],
+        correct: 2,
         explanation: 'La nevera = холодильник — бытовой прибор для хранения продуктов'
       },
       {
         sentence: 'Pepa le pidió una _____ y un montadito de jamón porque tenía mucha hambre.',
-        options: ['una caña (маленький бокал пива)', 'una sentencia', 'una amenaza', 'una recompensa'],
-        correct: 0,
+        options: ['una sentencia', 'una caña (маленький бокал пива)', 'una amenaza', 'una recompensa'],
+        correct: 1,
         explanation: 'Una caña = маленький бокал пива — типичная порция разливного пива в Испании'
       }
     ]
@@ -47065,20 +47065,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Cómo se llama el amigo de Pepa que trabaja en el garaje?',
-        options: ['Carlos', 'Albert', 'Raúl', 'Doro'],
-        correct: 2,
+        options: ['Raúl', 'Albert', 'Carlos', 'Doro'],
+        correct: 0,
         explanation: 'Su amigo se llama Raúl.'
       },
       {
         text: '¿Qué descubre Raúl en el asiento trasero del coche de Pepa?',
-        options: ['Dinero', 'Polvo blanco (cocaína)', 'El maletín de Albert', 'Documentos'],
-        correct: 1,
+        options: ['Dinero', 'Documentos', 'El maletín de Albert', 'Polvo blanco (cocaína)'],
+        correct: 3,
         explanation: 'Raúl encuentra polvo blanco (farlopa/cocaína) en el asiento trasero.'
       },
       {
         text: '¿Cómo es Raúl físicamente?',
-        options: ['Bajo y gordo', 'Alto y muy delgado con tatuajes y piercings', 'De estatura media sin tatuajes', 'No se describe'],
-        correct: 1,
+        options: ['Bajo y gordo', 'De estatura media sin tatuajes', 'Alto y muy delgado con tatuajes y piercings', 'No se describe'],
+        correct: 2,
         explanation: 'Raúl tiene treinta años, es alto y muy delgado, con tatuajes y piercings.'
       },
       {
@@ -47089,14 +47089,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué hay en el cajón de la cocina de Pepa?',
-        options: ['Dinero', 'Una caja de galletas Birba', 'Documentos', 'Una navaja'],
-        correct: 1,
+        options: ['Una caja de galletas Birba', 'Dinero', 'Documentos', 'Una navaja'],
+        correct: 0,
         explanation: 'Hay una caja de galletas Birba, una marca catalana que Carlos trajo.'
       },
       {
         text: '¿Qué hace Pepa cuando Albert la llama mientras está comiendo patatas bravas?',
-        options: ['Contesta tranquilamente', 'Se atraganta y se mancha la camisa', 'No contesta', 'Se cae al suelo'],
-        correct: 1,
+        options: ['Contesta tranquilamente', 'Se cae al suelo', 'No contesta', 'Se atraganta y se mancha la camisa'],
+        correct: 3,
         explanation: 'Pepa se atraganta con la patata y se mancha la camisa con la salsa.'
       },
       {
@@ -47107,14 +47107,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Por qué fuma Pepa en secreto en casa?',
-        options: ['Porque es ilegal', 'Porque Carlos no fuma y dice que ella tampoco', 'Porque no tiene ceniceros', 'Porque tiene vergüenza'],
-        correct: 1,
+        options: ['Porque es ilegal', 'Porque no tiene ceniceros', 'Porque Carlos no fuma y dice que ella tampoco', 'Porque tiene vergüenza'],
+        correct: 2,
         explanation: 'En teoría Carlos no fuma y Pepa dice que tampoco, pero sigue fumando en secreto.'
       },
       {
         text: '¿Cómo saluda Raúl a Pepa cuando ve el estado del coche?',
-        options: ['"¡Hola! ¿Estás bien?"', '"¡Hala! ¿Qué te ha pasado? ¿Vas pedo de buena mañana?"', '"¡Dios mío! ¿Has llamado al seguro?"', '"¡Llevo esperándote toda la mañana!"'],
-        correct: 1,
+        options: ['"¡Hola! ¿Estás bien?"', '"¡Dios mío! ¿Has llamado al seguro?"', '"¡Hala! ¿Qué te ha pasado? ¿Vas pedo de buena mañana?"', '"¡Llevo esperándote toda la mañana!"'],
+        correct: 2,
         explanation: 'Raúl dice: "¡Hala! ¿Qué te ha pasado? ¿Vas pedo de buena mañana?"'
       },
       {
@@ -47125,14 +47125,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿De dónde son las galletas Birba que están en el cajón?',
-        options: ['De Madrid', 'De Camprodon (Cataluña), y Carlos las trajo de viaje', 'De un supermercado de Barcelona', 'De una tienda online'],
-        correct: 1,
+        options: ['De Camprodon (Cataluña), y Carlos las trajo de viaje', 'De Madrid', 'De un supermercado de Barcelona', 'De una tienda online'],
+        correct: 0,
         explanation: 'Galletas Birba es una marca catalana que Carlos les ha traído de un viaje a Camprodon.'
       },
       {
         text: '¿Qué hace Pepa con la ceniza del cigarrillo ya que no hay cenicero?',
-        options: ['La tira por la ventana', 'La deja caer en la bonita alfombra que compró Carlos', 'La pone en una taza vieja', 'Se aguanta hasta que pueda tirarla'],
-        correct: 1,
+        options: ['La tira por la ventana', 'Se aguanta hasta que pueda tirarla', 'La pone en una taza vieja', 'La deja caer en la bonita alfombra que compró Carlos'],
+        correct: 3,
         explanation: 'Deja caer la ceniza en la bonita alfombra que compró Carlos, como acto de pequeña rebeldía.'
       },
       {
@@ -47143,14 +47143,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Cuánto tiempo le dice Pepa a Albert que tardará en llegar al hotel?',
-        options: ['Diez minutos', 'Media hora', 'Una hora', 'Veinte minutos'],
-        correct: 1,
+        options: ['Media hora', 'Diez minutos', 'Una hora', 'Veinte minutos'],
+        correct: 0,
         explanation: 'Pepa le dice a Albert: "Ahora voy. En media hora estoy ahí."'
       },
       {
         text: '¿Qué bar frecuenta Pepa en Gràcia?',
-        options: ['El Tat\'s en la calle Escudellers', 'El bar de su amigo Armando, el argentino, que está al lado', 'Un bar en la calle Gran de Gràcia sin nombre', 'El bar de la plaza de la Virreina'],
-        correct: 1,
+        options: ['El Tat\'s en la calle Escudellers', 'El bar de la plaza de la Virreina', 'Un bar en la calle Gran de Gràcia sin nombre', 'El bar de su amigo Armando, el argentino, que está al lado'],
+        correct: 3,
         explanation: 'El bar de su amigo Armando, el argentino, está al lado, pero Pepa no quiere hablar con nadie y pasa de largo.'
       }
     ]
@@ -47212,8 +47212,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'El _____ del edificio se negó a devolver la fianza sin ninguna razón válida.',
-        options: ['el arrendatario', 'el propietario (владелец, собственник)', 'el vigilante', 'el fiscal'],
-        correct: 1,
+        options: ['el arrendatario', 'el vigilante', 'el propietario (владелец, собственник)', 'el fiscal'],
+        correct: 2,
         explanation: 'El propietario = владелец, собственник — тот, кому принадлежит имущество'
       },
       {
@@ -47224,26 +47224,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Tiene tantas _____ que no puede pagar el alquiler ni comprar comida.',
-        options: ['las recompensas', 'las libertades', 'las deudas (долги)', 'las pruebas'],
-        correct: 2,
+        options: ['las recompensas', 'las libertades', 'las pruebas', 'las deudas (долги)'],
+        correct: 3,
         explanation: 'La deuda = долг — деньги, которые нужно вернуть'
       },
       {
         sentence: 'El banco le _____ más de cien mil euros que tiene que devolver en diez años.',
-        options: ['debe (должен)', 'escapa', 'amenaza', 'confiesa'],
-        correct: 0,
+        options: ['escapa', 'debe (должен)', 'amenaza', 'confiesa'],
+        correct: 1,
         explanation: 'Deber = быть должным — иметь долг перед кем-то'
       },
       {
         sentence: 'El jefe recibió una _____ anónima: si no pagaba, publicarían los documentos secretos.',
-        options: ['la amenaza (угроза)', 'la recompensa', 'la libertad', 'la sentencia'],
-        correct: 0,
+        options: ['la sentencia', 'la recompensa', 'la libertad', 'la amenaza (угроза)'],
+        correct: 3,
         explanation: 'La amenaza = угроза — предупреждение о возможном вреде'
       },
       {
         sentence: 'El delincuente _____ con revelar los secretos de la empresa si no le pagaban.',
-        options: ['planeó', 'amenazó (угрожал)', 'escapó', 'obedeció'],
-        correct: 1,
+        options: ['amenazó (угрожал)', 'planeó', 'escapó', 'obedeció'],
+        correct: 0,
         explanation: 'Amenazar = угрожать — запугивать с целью добиться чего-то'
       },
       {
@@ -47254,8 +47254,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Montaron un _____ de venta de cenizas convertidas en diamantes que resultó muy rentable.',
-        options: ['el negocio (бизнес, дело)', 'el tatuaje', 'el porro', 'el cajón'],
-        correct: 0,
+        options: ['el tatuaje', 'el negocio (бизнес, дело)', 'el porro', 'el cajón'],
+        correct: 1,
         explanation: 'El negocio = бизнес, дело — коммерческое предприятие'
       }
     ]
@@ -47269,26 +47269,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Dónde encontró Raúl el polvo blanco?',
-        options: ['En el maletín de Albert', 'En el asiento trasero del coche de Pepa', 'En la chaqueta de Albert', 'En el suelo del garaje'],
-        correct: 1,
+        options: ['En el asiento trasero del coche de Pepa', 'En el maletín de Albert', 'En la chaqueta de Albert', 'En el suelo del garaje'],
+        correct: 0,
         explanation: 'Raúl encontró el polvo blanco en el asiento trasero del coche de Pepa.'
       },
       {
         text: '¿Qué piensa Pepa cuando se entera del polvo blanco?',
-        options: ['Que es harina del maletín', 'Que es un error de Raúl', 'Que Albert es un narcotraficante', 'Que es polvo de limpieza'],
-        correct: 2,
+        options: ['Que es harina del maletín', 'Que Albert es un narcotraficante', 'Que es un error de Raúl', 'Que es polvo de limpieza'],
+        correct: 1,
         explanation: 'Al recordar el maletín de Albert, Pepa concluye que el supermodelo es un narco.'
       },
       {
         text: '¿Cómo se llama el hotel al que va Pepa a buscar a Albert?',
-        options: ['Hotel Casa Fuster', 'XXI Century Foxes', 'Hotel Castelldefels', 'Palace Hotel'],
-        correct: 1,
+        options: ['Hotel Casa Fuster', 'Hotel Castelldefels', 'XXI Century Foxes', 'Palace Hotel'],
+        correct: 2,
         explanation: 'El hotel se llama "XXI Century Foxes".'
       },
       {
         text: '¿Cómo describe Pepa la decoración del hotel?',
-        options: ['Sencilla y familiar', 'Espejos y mármol', 'Oscura y misteriosa', 'Moderna y minimalista'],
-        correct: 1,
+        options: ['Sencilla y familiar', 'Moderna y minimalista', 'Oscura y misteriosa', 'Espejos y mármol'],
+        correct: 3,
         explanation: 'Al entrar, Pepa ve espejos y mármol, sin sorprenderse de la decoración.'
       },
       {
@@ -47299,20 +47299,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Cómo es la recepcionista del hotel?',
-        options: ['Mayor, con gafas y pelo corto', 'Muy joven, con ojos verdes y larga melena rubia', 'Alta, morena y muy seria', 'Pequeña y con pelo rizado'],
-        correct: 1,
+        options: ['Mayor, con gafas y pelo corto', 'Alta, morena y muy seria', 'Muy joven, con ojos verdes y larga melena rubia', 'Pequeña y con pelo rizado'],
+        correct: 2,
         explanation: 'La recepcionista es muy joven, tiene ojos verdes y una larga melena rubia.'
       },
       {
         text: '¿Por qué Pepa se siente pequeña e insignificante en el hotel?',
-        options: ['Porque lleva ropa sucia', 'Porque todas las mujeres del hotel son altísimas y guapísimas', 'Porque Albert no la mira', 'Porque el hotel es enorme'],
-        correct: 1,
+        options: ['Porque todas las mujeres del hotel son altísimas y guapísimas', 'Porque lleva ropa sucia', 'Porque Albert no la mira', 'Porque el hotel es enorme'],
+        correct: 0,
         explanation: 'Todas las mujeres del bar son altísimas, guapísimas, bien peinadas y con tacones muy altos.'
       },
       {
         text: '¿Quién es Lucy?',
-        options: ['La recepcionista del hotel', 'Una amiga de Albert', 'Una chica que también espera a un cliente en el bar', 'La camarera del bar'],
-        correct: 2,
+        options: ['La recepcionista del hotel', 'Una amiga de Albert', 'La camarera del bar', 'Una chica que también espera a un cliente en el bar'],
+        correct: 3,
         explanation: 'Lucy es una chica sentada en el bar que también está esperando a un cliente.'
       },
       {
@@ -47323,14 +47323,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué dice Pepa sobre sí misma que Lucy malinterpreta?',
-        options: ['"Me gusta ayudar a la gente"', '"Como una puta: me llaman y yo voy"', '"Trabajo de noche siempre"', '"Mi cliente me paga muy bien"'],
-        correct: 1,
+        options: ['"Me gusta ayudar a la gente"', '"Mi cliente me paga muy bien"', '"Trabajo de noche siempre"', '"Como una puta: me llaman y yo voy"'],
+        correct: 3,
         explanation: 'Pepa dice "como una puta: me llaman y yo voy" refiriéndose a ser taxista, pero Lucy lo interpreta literalmente.'
       },
       {
         text: '¿Cuánto cobra Pepa de extra en su trabajo?',
-        options: ['Por ir de noche', 'Por rutas largas', 'Si los clientes traen maletas, niños o animales', 'Por esperar más de diez minutos'],
-        correct: 2,
+        options: ['Si los clientes traen maletas, niños o animales', 'Por rutas largas', 'Por ir de noche', 'Por esperar más de diez minutos'],
+        correct: 0,
         explanation: 'Pepa cobra un poco más si traen maletas, niños o animales porque dejan el coche hecho un asco.'
       },
       {
@@ -47341,8 +47341,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué se manchó Pepa cuando Albert la llamó por teléfono?',
-        options: ['Los pantalones con cerveza', 'La camisa con la salsa de las patatas bravas', 'La chaqueta con el café', 'Los zapatos con el barro'],
-        correct: 1,
+        options: ['La camisa con la salsa de las patatas bravas', 'Los pantalones con cerveza', 'La chaqueta con el café', 'Los zapatos con el barro'],
+        correct: 0,
         explanation: 'Cuando sonó el teléfono, Pepa se atragantó con la patata y se manchó la camisa con la salsa.'
       },
       {
@@ -47353,8 +47353,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Cómo llama Pepa el cartel de su taxi cuando acepta llevar a Albert?',
-        options: ['Lo apaga completamente', 'Lo cambia de "libre" a "ocupado"', 'Lo cambia de "ocupado" a "libre"', 'Lo deja como estaba'],
-        correct: 1,
+        options: ['Lo apaga completamente', 'Lo deja como estaba', 'Lo cambia de "ocupado" a "libre"', 'Lo cambia de "libre" a "ocupado"'],
+        correct: 3,
         explanation: 'Al aceptar el trabajo de Albert, Pepa cambia el cartel de "libre" por el de "ocupado".'
       }
     ]
@@ -47416,8 +47416,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'La policía detuvo al ladrón y a su _____, que esperaba en el coche con el motor encendido.',
-        options: ['el cómplice (сообщник)', 'el vigilante', 'el juez', 'el propietario'],
-        correct: 0,
+        options: ['el vigilante', 'el cómplice (сообщник)', 'el juez', 'el propietario'],
+        correct: 1,
         explanation: 'El cómplice = сообщник — тот, кто помогает в совершении преступления'
       },
       {
@@ -47428,14 +47428,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'El sospechoso intentó _____ por la ventana del baño cuando oyó a la policía llamar.',
-        options: ['escapar (убежать, сбежать)', 'confesar', 'defender', 'obedecer'],
-        correct: 0,
+        options: ['obedecer', 'confesar', 'defender', 'escapar (убежать, сбежать)'],
+        correct: 3,
         explanation: 'Escapar = убегать, сбегать — спасаться бегством'
       },
       {
         sentence: 'La periodista _____ al sospechoso por toda la ciudad durante horas sin perderle de vista.',
-        options: ['planeó', 'persiguió (преследовала)', 'aclaró', 'resolvió'],
-        correct: 1,
+        options: ['persiguió (преследовала)', 'planeó', 'aclaró', 'resolvió'],
+        correct: 0,
         explanation: 'Perseguir = преследовать — следовать за кем-то с целью поймать'
       },
       {
@@ -47446,8 +47446,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'El callejón estaba muy _____ y no había ni una sola farola que funcionara.',
-        options: ['caliente', 'sorprendido', 'oscuro (тёмный, мрачный)', 'libre'],
-        correct: 2,
+        options: ['caliente', 'sorprendido', 'libre', 'oscuro (тёмный, мрачный)'],
+        correct: 3,
         explanation: 'Oscuro = тёмный, мрачный — без света'
       },
       {
@@ -47458,8 +47458,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Los niños _____ a las arañas porque parecen peligrosas aunque casi nunca lo son.',
-        options: ['tienen miedo (боятся)', 'tienen alivio', 'tienen prisa', 'tienen suerte'],
-        correct: 0,
+        options: ['tienen prisa', 'tienen alivio', 'tienen miedo (боятся)', 'tienen suerte'],
+        correct: 2,
         explanation: 'Tener miedo = бояться — испытывать страх'
       }
     ]
@@ -47473,14 +47473,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Qué quiere ver Albert de Barcelona?',
-        options: ['Solo los bares y restaurantes', 'La ciudad, los monumentos', 'Las playas', 'Las tiendas de moda'],
-        correct: 1,
+        options: ['Solo los bares y restaurantes', 'Las playas', 'La ciudad, los monumentos', 'Las tiendas de moda'],
+        correct: 2,
         explanation: 'Albert quiere ver la ciudad. Visitan la Sagrada Familia y pasean por la Barceloneta.'
       },
       {
         text: '¿Qué monumento visitan Pepa y Albert?',
-        options: ['La Pedrera', 'El parque Güell', 'La Sagrada Familia', 'El Camp Nou'],
-        correct: 2,
+        options: ['La Pedrera', 'El parque Güell', 'El Camp Nou', 'La Sagrada Familia'],
+        correct: 3,
         explanation: 'Después de una visita corta a la Sagrada Familia, la interminable iglesia de Gaudí, vuelven al taxi.'
       },
       {
@@ -47491,14 +47491,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿De dónde es la madre de Albert?',
-        options: ['De Nueva Zelanda', 'De Holanda', 'De España', 'De Australia'],
-        correct: 2,
+        options: ['De España', 'De Holanda', 'De Nueva Zelanda', 'De Australia'],
+        correct: 0,
         explanation: 'La madre de Albert es española, por eso Albert habla bien el castellano.'
       },
       {
         text: '¿Es la primera vez que Albert viene a España?',
-        options: ['No, ya ha venido varias veces', 'Sí, es la primera vez', 'Ya vivió aquí dos años', 'Viene cada verano'],
-        correct: 1,
+        options: ['No, ya ha venido varias veces', 'Ya vivió aquí dos años', 'Sí, es la primera vez', 'Viene cada verano'],
+        correct: 2,
         explanation: 'Albert dice que es la primera vez que viene a España.'
       },
       {
@@ -47509,20 +47509,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Adónde va Albert después de Barcelona?',
-        options: ['A Valencia', 'De vuelta a Holanda', 'A Madrid, pasado mañana', 'A Sevilla'],
-        correct: 2,
+        options: ['A Madrid, pasado mañana', 'De vuelta a Holanda', 'A Valencia', 'A Sevilla'],
+        correct: 0,
         explanation: 'Albert dice que pasado mañana va a Madrid.'
       },
       {
         text: '¿De qué se arrepiente Pepa durante la cena?',
-        options: ['De haber pedido demasiado vino', 'De no haberse cambiado de ropa', 'De haber elegido ese restaurante', 'De no haber llamado a Carlos'],
-        correct: 1,
+        options: ['De haber pedido demasiado vino', 'De no haber llamado a Carlos', 'De haber elegido ese restaurante', 'De no haberse cambiado de ropa'],
+        correct: 3,
         explanation: 'Pepa lamenta no haberse cambiado de ropa; lleva vaqueros y camiseta mientras todos miran a Albert.'
       },
       {
         text: '¿Quién paga la cuenta del restaurante?',
-        options: ['Pepa', 'Albert', 'Cada uno paga lo suyo', 'El jefe de Pepa'],
-        correct: 1,
+        options: ['Albert', 'Pepa', 'Cada uno paga lo suyo', 'El jefe de Pepa'],
+        correct: 0,
         explanation: 'Albert paga la cuenta y recoge el maletín que ha tenido entre sus piernas durante toda la cena.'
       },
       {
@@ -47539,26 +47539,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Por qué no pueden llamar a la policía?',
-        options: ['Porque no tienen cobertura', 'Porque Albert no quiere involucrar a la policía', 'Porque es muy tarde', 'Porque Pepa tiene miedo'],
-        correct: 1,
+        options: ['Porque no tienen cobertura', 'Porque Pepa tiene miedo', 'Porque es muy tarde', 'Porque Albert no quiere involucrar a la policía'],
+        correct: 3,
         explanation: 'Albert dice explícitamente: "No, no. La policía no sirve."'
       },
       {
         text: '¿Dónde está Raúl cuando van a buscarlo al garaje?',
-        options: ['Trabajando en un coche', 'Bebiendo con sus amigos en un bar', 'Echado en un viejo sofá en el cuarto del fondo, durmiendo', 'Ha salido y no está'],
-        correct: 2,
+        options: ['Echado en un viejo sofá en el cuarto del fondo, durmiendo', 'Bebiendo con sus amigos en un bar', 'Trabajando en un coche', 'Ha salido y no está'],
+        correct: 0,
         explanation: 'Raúl está echado en un viejo sofá que sirve de cama, con los ojos cerrados y la boca abierta.'
       },
       {
         text: '¿Cuánto dinero ofrece Pepa (con la aprobación de Albert) a Raúl por su ayuda?',
-        options: ['Cien euros', 'Trescientos euros', 'Seiscientos euros', 'Mil euros'],
-        correct: 2,
+        options: ['Cien euros', 'Trescientos euros', 'Mil euros', 'Seiscientos euros'],
+        correct: 3,
         explanation: 'Pepa ofrece seiscientos euros a Raúl si les ayuda a recuperar el maletín.'
       },
       {
         text: '¿A quién llama Raúl para ayudarles a encontrar el maletín?',
-        options: ['A la policía', 'A un amigo llamado Doro', 'Al propietario del maletín', 'A un detective privado'],
-        correct: 1,
+        options: ['A la policía', 'Al propietario del maletín', 'A un amigo llamado Doro', 'A un detective privado'],
+        correct: 2,
         explanation: 'Raúl dice que llamará a Doro y le da unas cuantas palabras para intercambiar información.'
       }
     ]
@@ -47620,50 +47620,50 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'La periodista encontró una _____ crucial que demostraba que el incendio fue provocado.',
-        options: ['la prueba (доказательство, улика)', 'la deuda', 'la terraza', 'la marcha atrás'],
-        correct: 0,
+        options: ['la terraza', 'la deuda', 'la prueba (доказательство, улика)', 'la marcha atrás'],
+        correct: 2,
         explanation: 'La prueba = доказательство, улика — факт, подтверждающий или опровергающий что-либо'
       },
       {
         sentence: 'Con esos documentos puede _____ que el acusado estaba en otro lugar durante el crimen.',
-        options: ['escapar', 'demostrar (доказывать, показывать)', 'amenazar', 'planear'],
-        correct: 1,
+        options: ['escapar', 'planear', 'amenazar', 'demostrar (доказывать, показывать)'],
+        correct: 3,
         explanation: 'Demostrar = доказывать, показывать — представлять факты в подтверждение'
       },
       {
         sentence: 'Al final, el acusado _____ su crimen ante el juez y pidió perdón a la víctima.',
-        options: ['escapó', 'persiguió', 'confesó (признался)', 'planteó'],
-        correct: 2,
+        options: ['confesó (признался)', 'persiguió', 'escapó', 'planteó'],
+        correct: 0,
         explanation: 'Confesar = признаваться — сознаться в совершённом'
       },
       {
         sentence: 'La policía _____ al sospechoso en el aeropuerto cuando intentaba huir al extranjero.',
-        options: ['detuvo (задержала, остановила)', 'aclaró', 'resolvió', 'registró'],
-        correct: 0,
+        options: ['aclaró', 'detuvo (задержала, остановила)', 'resolvió', 'registró'],
+        correct: 1,
         explanation: 'Detener = задерживать, останавливать — лишить свободы передвижения'
       },
       {
         sentence: 'Los agentes _____ a dos personas más que ayudaron a planificar el robo.',
-        options: ['arrestaron (арестовали)', 'demostraron', 'confesaron', 'aclararon'],
-        correct: 0,
+        options: ['demostraron', 'arrestaron (арестовали)', 'confesaron', 'aclararon'],
+        correct: 1,
         explanation: 'Arrestar = арестовывать — официально задержать под стражу'
       },
       {
         sentence: 'El delincuente pasó tres años en la _____ y salió convertido en otra persona.',
-        options: ['la terraza', 'la cárcel (тюрьма)', 'la funeraria', 'la sucursal'],
-        correct: 1,
+        options: ['la terraza', 'la funeraria', 'la cárcel (тюрьма)', 'la sucursal'],
+        correct: 2,
         explanation: 'La cárcel = тюрьма — место лишения свободы'
       },
       {
         sentence: 'El tribunal declaró al acusado _____ del incendio provocado y lo condenó a siete años.',
-        options: ['inocente', 'culpable (виновным)', 'libre', 'tranquilo'],
-        correct: 1,
+        options: ['culpable (виновным)', 'inocente', 'libre', 'tranquilo'],
+        correct: 0,
         explanation: 'Culpable = виновный — тот, кто совершил преступление'
       },
       {
         sentence: 'Su abogado argumentó que era completamente _____ y que tenía coartada para esa noche.',
-        options: ['culpable', 'sorprendido', 'inocente (невиновный, невинный)', 'enfadado'],
-        correct: 2,
+        options: ['culpable', 'sorprendido', 'enfadado', 'inocente (невиновный, невинный)'],
+        correct: 3,
         explanation: 'Inocente = невиновный, невинный — не совершавший преступления'
       }
     ]
@@ -47677,14 +47677,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Qué necesita Raúl para recuperar el maletín?',
-        options: ['Un coche rápido', 'Muchos contactos policiales', 'Pasta gansa (mucho dinero)', 'Una semana de tiempo'],
-        correct: 2,
+        options: ['Un coche rápido', 'Pasta gansa (mucho dinero)', 'Muchos contactos policiales', 'Una semana de tiempo'],
+        correct: 1,
         explanation: 'Raúl dice: "Con lo que lleva el maletín… Para recuperarlo necesitas pasta gansa."'
       },
       {
         text: '¿Qué hace Raúl mientras Albert y Pepa esperan?',
-        options: ['Sale a buscar el maletín él solo', 'Llama por teléfono a sus contactos', 'Se vuelve a dormir', 'Busca en internet'],
-        correct: 1,
+        options: ['Sale a buscar el maletín él solo', 'Busca en internet', 'Se vuelve a dormir', 'Llama por teléfono a sus contactos'],
+        correct: 3,
         explanation: 'Raúl habla unos minutos por teléfono con sus contactos.'
       },
       {
@@ -47695,14 +47695,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿En qué idioma cree Albert que habla Raúl?',
-        options: ['En gallego', 'En catalán', 'En valenciano', 'En inglés'],
-        correct: 1,
+        options: ['En catalán', 'En gallego', 'En valenciano', 'En inglés'],
+        correct: 0,
         explanation: 'Albert pregunta: "¿En qué idioma hablaba? ¿Catalán?"'
       },
       {
         text: '¿Quién es Doro y dónde trabaja?',
-        options: ['Un policía en comisaría', 'El encargado del bar Tat\'s en la calle Escudellers', 'Un mecánico en Gràcia', 'El portero del hotel de Castelldefels'],
-        correct: 1,
+        options: ['Un policía en comisaría', 'Un mecánico en Gràcia', 'El encargado del bar Tat\'s en la calle Escudellers', 'El portero del hotel de Castelldefels'],
+        correct: 2,
         explanation: 'Doro es el encargado del Tat\'s en la calle Escudellers, siempre cerca de la barra vigilando.'
       },
       {
@@ -47713,8 +47713,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué debe hacer Pepa con Albert mientras Raúl investiga?',
-        options: ['Quedarse en el garaje a esperar', 'Volver al hotel de Castelldefels', 'Ir al Tat\'s a ver a Doro', 'Llamar a la policía'],
-        correct: 2,
+        options: ['Ir al Tat\'s a ver a Doro', 'Volver al hotel de Castelldefels', 'Quedarse en el garaje a esperar', 'Llamar a la policía'],
+        correct: 0,
         explanation: 'Raúl les dice que vayan a ver a Doro al Tat\'s porque Doro ya les está esperando.'
       }
     ]
@@ -47777,8 +47777,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'El _____ duró tres semanas y los periodistas llenaban la sala cada día para seguirlo.',
-        options: ['el juicio (суд, суждение)', 'el negocio', 'el callejón', 'el ático'],
-        correct: 0,
+        options: ['el negocio', 'el juicio (суд, суждение)', 'el callejón', 'el ático'],
+        correct: 1,
         explanation: 'El juicio = суд, суждение — судебный процесс'
       },
       {
@@ -47789,38 +47789,38 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'El abogado usó todos los recursos legales posibles para _____ a su cliente ante el tribunal.',
-        options: ['acusar', 'detener', 'defender (защищать)', 'planear'],
-        correct: 2,
+        options: ['defender (защищать)', 'detener', 'acusar', 'planear'],
+        correct: 0,
         explanation: 'Defender = защищать — отстаивать интересы клиента'
       },
       {
         sentence: 'El fiscal _____ al empresario de fraude fiscal y pidió una pena de diez años de cárcel.',
-        options: ['acusó (обвинил)', 'defendió', 'confesó', 'amenazó'],
-        correct: 0,
+        options: ['amenazó', 'defendió', 'confesó', 'acusó (обвинил)'],
+        correct: 3,
         explanation: 'Acusar = обвинять — предъявлять официальное обвинение'
       },
       {
         sentence: 'El _____ solicitó la pena máxima argumentando que el crimen había causado enorme daño.',
-        options: ['el abogado', 'el juez', 'el fiscal (прокурор)', 'el testigo'],
-        correct: 2,
+        options: ['el abogado', 'el fiscal (прокурор)', 'el juez', 'el testigo'],
+        correct: 1,
         explanation: 'El fiscal = прокурор — государственный обвинитель'
       },
       {
         sentence: 'La _____ del tribunal fue muy dura: veinte años de prisión sin posibilidad de indulto.',
-        options: ['la sentencia (приговор, решение)', 'la deuda', 'la prueba', 'la recompensa'],
-        correct: 0,
+        options: ['la prueba', 'la deuda', 'la sentencia (приговор, решение)', 'la recompensa'],
+        correct: 2,
         explanation: 'La sentencia = приговор, решение — окончательное решение суда'
       },
       {
         sentence: 'El jurado _____ al acusado a cadena perpetua por el asesinato premeditado.',
-        options: ['defendió', 'condenó (осудил, приговорил)', 'absolvió', 'arrestó'],
-        correct: 1,
+        options: ['condenó (осудил, приговорил)', 'defendió', 'absolvió', 'arrestó'],
+        correct: 0,
         explanation: 'Condenar = осуждать, приговаривать — вынести обвинительный приговор'
       },
       {
         sentence: 'El _____ pidió silencio en la sala antes de leer el veredicto final en voz alta.',
-        options: ['el fiscal', 'el abogado', 'el juez (судья)', 'el testigo'],
-        correct: 2,
+        options: ['el fiscal', 'el abogado', 'el testigo', 'el juez (судья)'],
+        correct: 3,
         explanation: 'El juez = судья — председатель судебного заседания'
       }
     ]
@@ -47834,20 +47834,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Cómo sabe Doro en el momento de entrar que Pepa y Albert son amigos de Raúl?',
-        options: ['Porque Raúl le envió una foto', 'Porque los reconoce de una visita anterior', 'Se da cuenta al momento porque no están acostumbrados a ese ambiente', 'Porque llevan una contraseña'],
-        correct: 2,
+        options: ['Porque Raúl le envió una foto', 'Porque los reconoce de una visita anterior', 'Porque llevan una contraseña', 'Se da cuenta al momento porque no están acostumbrados a ese ambiente'],
+        correct: 3,
         explanation: 'Doro se da cuenta al momento de que la pareja que entra son amigos de Raúl: tratan de aparentar naturalidad, pero no lo sienten.'
       },
       {
         text: '¿Qué recuerda Pepa al ver a las chicas del local?',
-        options: ['A sus amigas de la infancia', 'Al hotel de Castelldefels', 'A las chicas del aeropuerto', 'A Lucy, la camarera del hotel'],
-        correct: 1,
+        options: ['Al hotel de Castelldefels', 'A sus amigas de la infancia', 'A las chicas del aeropuerto', 'A Lucy, la camarera del hotel'],
+        correct: 0,
         explanation: 'Al ver a las chicas del local, Pepa se acuerda del hotel de Castelldefels.'
       },
       {
         text: '¿Qué pide Albert para beber?',
-        options: ['Un whisky', 'Una cerveza', 'Agua', 'Coca-Cola'],
-        correct: 2,
+        options: ['Un whisky', 'Agua', 'Una cerveza', 'Coca-Cola'],
+        correct: 1,
         explanation: 'Albert, nervioso y con la boca seca, pide: "Agua, por favor".'
       },
       {
@@ -47858,26 +47858,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué bebió Albert sin darse cuenta?',
-        options: ['El vaso de Doro con ron', 'El vaso de Judith que contenía pastis y éxtasis líquido', 'La copa de vino de Pepa', 'Un whisky doble que pidió sin saberlo'],
-        correct: 1,
+        options: ['El vaso de Judith que contenía pastis y éxtasis líquido', 'El vaso de Doro con ron', 'La copa de vino de Pepa', 'Un whisky doble que pidió sin saberlo'],
+        correct: 0,
         explanation: 'Albert, distraído y sediento, se bebe de un trago el vaso de Judith, que contenía pastis y éxtasis líquido.'
       },
       {
         text: '¿Por qué es peligroso lo que bebió Albert?',
-        options: ['Porque tenía veneno', 'Porque no es bueno mezclar éxtasis con alcohol', 'Porque el pastis es demasiado fuerte', 'Porque tenía alergia al alcohol'],
-        correct: 1,
+        options: ['Porque tenía veneno', 'Porque el pastis es demasiado fuerte', 'Porque no es bueno mezclar éxtasis con alcohol', 'Porque tenía alergia al alcohol'],
+        correct: 2,
         explanation: 'Judith dice entre risas: "Bah… Nada. Pero no es bueno mezclarlo con alcohol." Y ya era tarde porque Albert también bebió el whisky.'
       },
       {
         text: '¿Cómo se llama la chica cuyo vaso bebió Albert por error?',
-        options: ['Lucy', 'Carmen', 'Judith', 'Isabel'],
-        correct: 2,
+        options: ['Lucy', 'Carmen', 'Isabel', 'Judith'],
+        correct: 3,
         explanation: 'La camarera dice: "Se ha bebido el vaso de Judith."'
       },
       {
         text: '¿Cómo se llama el posible intermediario que menciona Doro?',
-        options: ['Doro', 'Mojao', 'Veloz', 'Carlos'],
-        correct: 2,
+        options: ['Doro', 'Veloz', 'Mojao', 'Carlos'],
+        correct: 1,
         explanation: 'Doro dice: "A lo mejor Veloz sabe algo."'
       },
       {
@@ -47888,38 +47888,38 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Cuál es la condición física especial de Veloz?',
-        options: ['Es sordo', 'Es ciego', 'Es parapléjico', 'Es muy anciano'],
-        correct: 2,
+        options: ['Es sordo', 'Es ciego', 'Es muy anciano', 'Es parapléjico'],
+        correct: 3,
         explanation: 'Doro explica que Veloz es parapléjico.'
       },
       {
         text: '¿Cómo puede Veloz "abrir casas y coches" siendo parapléjico?',
-        options: ['Con tecnología especial', 'Con la ayuda de la policía', 'Porque tiene empleados que trabajan para él', 'Porque usa sus manos con gran habilidad'],
-        correct: 2,
+        options: ['Porque tiene empleados que trabajan para él', 'Con la ayuda de la policía', 'Con tecnología especial', 'Porque usa sus manos con gran habilidad'],
+        correct: 0,
         explanation: 'Doro mira a Pepa con compasión: Veloz tiene empleados, gente que trabaja para él, muy buenos.'
       },
       {
         text: '¿Cómo reacciona Doro cuando Pepa pregunta cómo Veloz abre puertas siendo parapléjico?',
-        options: ['Le explica pacientemente', 'La mira con compasión pensando qué chica tan inocente', 'Se enfada', 'Se ríe a carcajadas'],
-        correct: 1,
+        options: ['Le explica pacientemente', 'Se enfada', 'La mira con compasión pensando qué chica tan inocente', 'Se ríe a carcajadas'],
+        correct: 2,
         explanation: 'Doro mira a Pepa con compasión. ¡Qué chica tan inocente!'
       },
       {
         text: '¿Cuántas chicas se acercaron a Albert en el bar?',
-        options: ['Dos', 'Tres', 'Cuatro', 'Cinco'],
-        correct: 2,
+        options: ['Dos', 'Cuatro', 'Tres', 'Cinco'],
+        correct: 1,
         explanation: 'Se acercan cuatro chicas. Hablan entre ellas, miran a Albert, le dicen cosas y ríen.'
       },
       {
         text: '¿Qué condición pone Doro para ayudarles con Veloz?',
-        options: ['Que le paguen de antemano', 'Que puedan pagar bien', 'Que vuelvan en otro momento', 'Que hablen directamente con Raúl'],
-        correct: 1,
+        options: ['Que le paguen de antemano', 'Que vuelvan en otro momento', 'Que puedan pagar bien', 'Que hablen directamente con Raúl'],
+        correct: 2,
         explanation: 'Doro pregunta: "¿Podéis pagar bien?" y Pepa asiente con la cabeza.'
       },
       {
         text: '¿Qué tipo de local es el Tat\'s?',
-        options: ['Una cafetería familiar', 'Un club nocturno', 'Una discoteca grande', 'Un restaurante de lujo'],
-        correct: 1,
+        options: ['Un club nocturno', 'Una cafetería familiar', 'Una discoteca grande', 'Un restaurante de lujo'],
+        correct: 0,
         explanation: 'El Tat\'s es un club nocturno donde trabajan chicas y Doro es el encargado.'
       }
     ]
@@ -47981,26 +47981,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'La detective tardó dos años en _____ el caso, pero al final encontró al culpable.',
-        options: ['resolver (решить, разрешить)', 'escapar', 'detener', 'gritar'],
-        correct: 0,
+        options: ['detener', 'escapar', 'resolver (решить, разрешить)', 'gritar'],
+        correct: 2,
         explanation: 'Resolver = решать, разрешать — найти ответ или выход из сложной ситуации'
       },
       {
         sentence: 'La desaparición de aquella chica sigue siendo un _____ que nadie ha podido explicar.',
-        options: ['el misterio (тайна, загадка)', 'el juicio', 'el negocio', 'el anticipo'],
-        correct: 0,
+        options: ['el anticipo', 'el juicio', 'el negocio', 'el misterio (тайна, загадка)'],
+        correct: 3,
         explanation: 'El misterio = тайна, загадка — нечто непонятное, необъяснённое'
       },
       {
         sentence: 'Necesito que alguien me _____ por qué el testigo cambió su declaración en el último momento.',
-        options: ['detenga', 'condene', 'aclare (прояснит, объяснит)', 'escape'],
-        correct: 2,
+        options: ['detenga', 'aclare (прояснит, объяснит)', 'condene', 'escape'],
+        correct: 1,
         explanation: 'Aclarar = прояснять, объяснять — сделать что-то понятным'
       },
       {
         sentence: 'El banco ofreció una gran _____ a quien aportara información sobre los ladrones.',
-        options: ['la deuda', 'la amenaza', 'la recompensa (награда, вознаграждение)', 'la sentencia'],
-        correct: 2,
+        options: ['la recompensa (награда, вознаграждение)', 'la amenaza', 'la deuda', 'la sentencia'],
+        correct: 0,
         explanation: 'La recompensa = награда, вознаграждение — денежное или иное поощрение'
       },
       {
@@ -48011,20 +48011,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'El preso _____ de toda sospecha pudo regresar a su vida normal después del veredicto.',
-        options: ['culpable', 'libre (свободный)', 'tranquilo', 'enfadado'],
-        correct: 1,
+        options: ['culpable', 'tranquilo', 'libre (свободный)', 'enfadado'],
+        correct: 2,
         explanation: 'Libre = свободный — без ограничений, не под стражей'
       },
       {
         sentence: 'El médico le dijo que _____ : el resultado del análisis no tenía nada grave.',
-        options: ['esté tranquilo (будьте спокойны)', 'esté culpable', 'esté libre', 'esté oscuro'],
-        correct: 0,
+        options: ['esté oscuro', 'esté culpable', 'esté libre', 'esté tranquilo (будьте спокойны)'],
+        correct: 3,
         explanation: 'Tranquilo = спокойный — без тревоги или беспокойства'
       },
       {
         sentence: 'Sintió un gran _____ cuando el jurado leyó el veredicto de inocente en voz alta.',
-        options: ['el miedo', 'el alivio (облегчение)', 'el accidente', 'el misterio'],
-        correct: 1,
+        options: ['el alivio (облегчение)', 'el miedo', 'el accidente', 'el misterio'],
+        correct: 0,
         explanation: 'El alivio = облегчение — ощущение, когда напряжение спадает'
       }
     ]
@@ -48050,56 +48050,56 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué llevan los atracadores?',
-        options: ['Solo palos', 'Dos navajas y una pistola automática', 'Pistolas los tres', 'Una navaja y un cuchillo'],
-        correct: 1,
+        options: ['Dos navajas y una pistola automática', 'Solo palos', 'Pistolas los tres', 'Una navaja y un cuchillo'],
+        correct: 0,
         explanation: 'Dos llevan navajas (una en el estómago de Albert, otra en el cuello de Pepa) y el tercero apunta con pistola automática.'
       },
       {
         text: '¿Qué les roban a Pepa y Albert?',
-        options: ['Solo el maletín', 'Solo el dinero', 'Dinero, relojes y móviles', 'Los documentos y el pasaporte'],
-        correct: 2,
+        options: ['Solo el maletín', 'Solo el dinero', 'Los documentos y el pasaporte', 'Dinero, relojes y móviles'],
+        correct: 3,
         explanation: 'Los chorizos cogen todo lo que llevan: dinero, relojes y móviles.'
       },
       {
         text: '¿Cuánto dinero llevaba Pepa?',
-        options: ['Nada', 'Cincuenta euros y un móvil barato', 'Los mil euros del anticipo', 'Doscientos euros'],
-        correct: 1,
+        options: ['Nada', 'Los mil euros del anticipo', 'Cincuenta euros y un móvil barato', 'Doscientos euros'],
+        correct: 2,
         explanation: 'Pepa había dejado el dinero en casa y solo llevaba cincuenta euros y un móvil barato.'
       },
       {
         text: '¿Para qué llevaba Albert mucho dinero consigo?',
-        options: ['Para pagar la cena', 'Para recuperar su maletín', 'Para comprar recuerdos', 'Para pagar a Raúl'],
-        correct: 1,
+        options: ['Para pagar la cena', 'Para pagar a Raúl', 'Para comprar recuerdos', 'Para recuperar su maletín'],
+        correct: 3,
         explanation: 'Albert llevaba pasta gansa para recuperar su maletín. Ahora no tiene nada.'
       },
       {
         text: '¿Por qué Pepa siente pena por Albert?',
-        options: ['Porque está muy asustado', 'Porque no parece un narcotraficante de verdad', 'Porque está herido', 'Porque ha perdido su pasaporte'],
-        correct: 1,
+        options: ['Porque no parece un narcotraficante de verdad', 'Porque está muy asustado', 'Porque está herido', 'Porque ha perdido su pasaporte'],
+        correct: 0,
         explanation: 'Pepa siente pena por él: no parece un narcotraficante. Los narcos de las películas no son como Albert.'
       },
       {
         text: '¿Quién les habla después del robo?',
-        options: ['Un policía de patrulla', 'Raúl, que pasaba por allí', 'Un travesti de la esquina', 'El dueño de un bar cercano'],
-        correct: 2,
+        options: ['Un policía de patrulla', 'Un travesti de la esquina', 'Raúl, que pasaba por allí', 'El dueño de un bar cercano'],
+        correct: 1,
         explanation: 'El travesti de la esquina corre hacia ellos y les habla sobre lo que ha pasado.'
       },
       {
         text: '¿Cómo describe el travesti a los atracadores?',
-        options: ['"Los chorizos del barrio"', '"Los tres mellizos"', '"Las tres mellizas"', '"Los ladrones del Raval"'],
-        correct: 2,
+        options: ['"Los chorizos del barrio"', '"Las tres mellizas"', '"Los tres mellizos"', '"Los ladrones del Raval"'],
+        correct: 1,
         explanation: 'El travesti dice: "Han sido las tres mellizas. Os han desplumado."'
       },
       {
         text: '¿Qué le pide Pepa al travesti?',
-        options: ['Dinero para el taxi', 'Que llame a la policía', 'Que le deje usar su móvil', 'Que las acompañe'],
-        correct: 2,
+        options: ['Dinero para el taxi', 'Que llame a la policía', 'Que las acompañe', 'Que le deje usar su móvil'],
+        correct: 3,
         explanation: 'Pepa le pide un favor al travesti: que le deje el móvil para llamar a Raúl.'
       },
       {
         text: '¿Qué hace el travesti para "cobrar" el préstamo del móvil?',
-        options: ['Pide cinco euros', 'Toca los muslos y entrepierna de Albert', 'Pide que Pepa le llame mañana', 'Pide un cigarrillo'],
-        correct: 1,
+        options: ['Toca los muslos y entrepierna de Albert', 'Pide cinco euros', 'Pide que Pepa le llame mañana', 'Pide un cigarrillo'],
+        correct: 0,
         explanation: 'El travesti le toca los muslos y la entrepierna a Albert y le explica a Pepa: "Esto por dejarte el móvil."'
       },
       {
@@ -48110,20 +48110,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué hace Albert cuando el travesti le hace proposiciones?',
-        options: ['Huye corriendo', 'No se mueve y no habla', 'Le contesta amablemente', 'Se enfada mucho'],
-        correct: 1,
+        options: ['Huye corriendo', 'Le contesta amablemente', 'No se mueve y no habla', 'Se enfada mucho'],
+        correct: 2,
         explanation: 'Albert no se mueve. No habla. El travesti le toca el culo.'
       },
       {
         text: '¿Qué le reprochó el travesti a Pepa sobre la zona donde caminaban?',
-        options: ['Que era demasiado tarde para llevar a un turista por allí', 'Que debían haber ido por la Rambla', 'Que tendría que haber llamado a la policía antes', 'Que Albert no debía beber tanto'],
-        correct: 0,
+        options: ['Que debían haber ido por la Rambla', 'Que era demasiado tarde para llevar a un turista por allí', 'Que tendría que haber llamado a la policía antes', 'Que Albert no debía beber tanto'],
+        correct: 1,
         explanation: 'El travesti le dice: "¡Son las dos de la noche! ¡Pasear a estas horas por esta zona con este tío!" Señalando que era irresponsable.'
       },
       {
         text: '¿Cómo se describe físicamente la zona donde ocurre el robo?',
-        options: ['Amplia y bien iluminada junto al mar', 'Una calle estrecha que huele mal', 'Una plaza grande con mucha gente', 'Un callejón completamente a oscuras'],
-        correct: 1,
+        options: ['Amplia y bien iluminada junto al mar', 'Un callejón completamente a oscuras', 'Una plaza grande con mucha gente', 'Una calle estrecha que huele mal'],
+        correct: 3,
         explanation: 'La calle es estrecha y huele mal. Hay un travesti haciendo proposiciones.'
       }
     ]
@@ -48255,14 +48255,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Por qué no aceptan a Albert en el hotel?',
-        options: ['Porque no tiene dinero', 'Porque no tiene documentación y empieza a desnudarse', 'Porque el hotel está lleno', 'Porque habla en inglés'],
-        correct: 1,
+        options: ['Porque no tiene dinero', 'Porque el hotel está lleno', 'Porque no tiene documentación y empieza a desnudarse', 'Porque habla en inglés'],
+        correct: 2,
         explanation: 'El recepcionista les echa porque Albert no tiene documentación y empieza a desnudarse.'
       },
       {
         text: '¿Qué sugiere Raúl cuando no pueden entrar en el hotel?',
-        options: ['Buscar otro hotel', 'Llamar a la policía', 'Llevar a Albert a casa de Pepa', 'Quedarse en la calle'],
-        correct: 2,
+        options: ['Llevar a Albert a casa de Pepa', 'Llamar a la policía', 'Buscar otro hotel', 'Quedarse en la calle'],
+        correct: 0,
         explanation: 'Raúl sugiere llevar a Albert a casa de Pepa.'
       },
       {
@@ -48273,14 +48273,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué hace Albert cuando el recepcionista le pide documentación?',
-        options: ['La busca tranquilamente en su bolsillo', 'Explica en inglés que la perdió', 'Empieza a desnudarse en el vestíbulo', 'Se sienta a esperar sin decir nada'],
-        correct: 2,
+        options: ['La busca tranquilamente en su bolsillo', 'Explica en inglés que la perdió', 'Se sienta a esperar sin decir nada', 'Empieza a desnudarse en el vestíbulo'],
+        correct: 3,
         explanation: 'Albert empieza a desnudarse en el vestíbulo del hotel, lo que escandaliza al recepcionista.'
       },
       {
         text: '¿Qué le dice el recepcionista a Pepa y Albert?',
-        options: ['"Esperad un momento, buscamos solución"', '"Tú y tu amigo os vais a hacer el idiota a otra parte"', '"Llamaré a la policía si no se van"', '"No tenemos habitaciones libres esta noche"'],
-        correct: 1,
+        options: ['"Esperad un momento, buscamos solución"', '"No tenemos habitaciones libres esta noche"', '"Llamaré a la policía si no se van"', '"Tú y tu amigo os vais a hacer el idiota a otra parte"'],
+        correct: 3,
         explanation: 'El recepcionista les dice: "Tú y tu amigo os vais a hacer el idiota a otra parte."'
       },
       {
@@ -48291,8 +48291,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué dice Raúl sobre recuperar el maletín sin dinero?',
-        options: ['"Lo conseguimos de todas formas"', '"Sin pasta no se puede hacer nada"', '"Primero descansamos y luego lo intentamos"', '"Doro puede hacerlo gratis"'],
-        correct: 1,
+        options: ['"Lo conseguimos de todas formas"', '"Primero descansamos y luego lo intentamos"', '"Sin pasta no se puede hacer nada"', '"Doro puede hacerlo gratis"'],
+        correct: 2,
         explanation: 'Raúl dice: "Mira, el estríper ese del maletín. Sin pasta no se puede hacer nada."'
       }
     ]
@@ -48354,14 +48354,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'El equipo de rugby de Nueva Zelanda realizó una _____ antes del partido para intimidar al rival.',
-        options: ['la haka maorí (маорийская хака — ритуальный танец)', 'la sentencia', 'la recompensa', 'la marcha atrás'],
-        correct: 0,
+        options: ['la marcha atrás', 'la sentencia', 'la recompensa', 'la haka maorí (маорийская хака — ритуальный танец)'],
+        correct: 3,
         explanation: 'La haka maorí = маорийский ритуальный танец — традиционный танец народа Маори'
       },
       {
         sentence: 'Ese chico tan _____ lleva siempre ropa de marca y solo habla de restaurantes de lujo.',
-        options: ['tranquilo', 'pijo (пижон, снобистский человек)', 'libre', 'culpable'],
-        correct: 1,
+        options: ['tranquilo', 'libre', 'pijo (пижон, снобистский человек)', 'culpable'],
+        correct: 2,
         explanation: 'Pijo = пижон, снобистский человек — человек, который демонстрирует богатство и снобизм'
       },
       {
@@ -48378,8 +48378,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Desde la _____ del ático se veían las luces de toda la ciudad y el mar al fondo.',
-        options: ['la terraza (терраса, балкон)', 'la cárcel', 'la funeraria', 'la sucursal'],
-        correct: 0,
+        options: ['la cárcel', 'la terraza (терраса, балкон)', 'la funeraria', 'la sucursal'],
+        correct: 1,
         explanation: 'La terraza = терраса, балкон — открытая площадка снаружи дома'
       },
       {
@@ -48390,14 +48390,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Pepa cogió una _____ del armario para cubrir a Albert antes de sacarlo a las escaleras.',
-        options: ['una toalla', 'una sábana (простыня)', 'una cortina', 'una manta'],
-        correct: 1,
+        options: ['una toalla', 'una manta', 'una cortina', 'una sábana (простыня)'],
+        correct: 3,
         explanation: 'La sábana = простыня — ткань для постели, которой Пепа завернула Альберта'
       },
       {
         sentence: 'Pepa cogió un _____ y se sentó en el sillón fingiendo leer, esperando que Carlos no sospechara.',
-        options: ['un vaso', 'un libro (книга)', 'un cigarrillo', 'un teléfono'],
-        correct: 1,
+        options: ['un libro (книга)', 'un vaso', 'un cigarrillo', 'un teléfono'],
+        correct: 0,
         explanation: 'Un libro = книга — Pepa fingía estar leyendo cuando llegó Carlos'
       },
       {
@@ -48408,8 +48408,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Pepa sacó unos cubitos de _____ del congelador y los puso en los dos vasos de agua.',
-        options: ['hielo (лёд)', 'azúcar', 'sal', 'limón'],
-        correct: 0,
+        options: ['limón', 'azúcar', 'sal', 'hielo (лёд)'],
+        correct: 3,
         explanation: 'El hielo = лёд — замороженная вода для охлаждения напитков'
       }
     ]
@@ -48423,44 +48423,44 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Qué hace Albert en la terraza de Pepa?',
-        options: ['Duerme', 'Se quita la ropa y baila la haka', 'Fuma un cigarrillo', 'Habla por teléfono'],
-        correct: 1,
+        options: ['Se quita la ropa y baila la haka', 'Duerme', 'Fuma un cigarrillo', 'Habla por teléfono'],
+        correct: 0,
         explanation: 'Albert sale a la terraza, se quita toda la ropa y baila una versión de la haka.'
       },
       {
         text: '¿Por qué Pepa mete a Albert en el ascensor?',
-        options: ['Porque está cansado', 'Porque ve a Carlos llegando a casa', 'Porque quiere que se duche', 'Porque hace frío'],
-        correct: 1,
+        options: ['Porque está cansado', 'Porque hace frío', 'Porque quiere que se duche', 'Porque ve a Carlos llegando a casa'],
+        correct: 3,
         explanation: 'Pepa ve a Carlos llegando del parking y quiere ocultarle a Albert.'
       },
       {
         text: '¿Qué lleva Raúl cuando llega a casa de Pepa?',
-        options: ['Una botella de vino', 'El maletín de Albert', 'Ropa para Albert', 'Las llaves del coche'],
-        correct: 1,
+        options: ['Una botella de vino', 'Ropa para Albert', 'El maletín de Albert', 'Las llaves del coche'],
+        correct: 2,
         explanation: 'Raúl llega con el maletín de Albert, que contiene harina.'
       },
       {
         text: '¿Por qué Albert estaba tan preocupado por el maletín?',
-        options: ['Porque llevaba dinero', 'Porque llevaba droga', 'Porque Raúl quería saber qué contenía', 'Porque era un regalo'],
-        correct: 2,
+        options: ['Porque llevaba dinero', 'Porque Raúl quería saber qué contenía', 'Porque llevaba droga', 'Porque era un regalo'],
+        correct: 1,
         explanation: 'Raúl quería entender por qué Albert estaba tan preocupado por unos gramos de harina.'
       },
       {
         text: '¿Qué hay en la nevera de Pepa cuando llegan a casa?',
-        options: ['Agua, zumos y fruta', 'Solo cervezas, no hay agua', 'Comida preparada de ayer', 'Está completamente vacía'],
-        correct: 1,
+        options: ['Agua, zumos y fruta', 'Está completamente vacía', 'Comida preparada de ayer', 'Solo cervezas, no hay agua'],
+        correct: 3,
         explanation: 'En la nevera no hay agua, solo cervezas. Pepa coge una botella de un armario.'
       },
       {
         text: '¿Quiénes miran a Albert desde el hotel enfrente mientras baila en la terraza?',
-        options: ['Unos vecinos ancianos', 'Una pareja de turistas nórdicos desde su habitación', 'Los porteros del hotel', 'Unos niños desde la calle'],
-        correct: 1,
+        options: ['Unos vecinos ancianos', 'Los porteros del hotel', 'Una pareja de turistas nórdicos desde su habitación', 'Unos niños desde la calle'],
+        correct: 2,
         explanation: 'En las habitaciones del hotel, justo enfrente de donde vive Pepa, se han encendido unas luces y una pareja de turistas nórdicos mira el espectáculo.'
       },
       {
         text: '¿Qué hace Albert con la ropa que se quita en la terraza?',
-        options: ['La dobla cuidadosamente en una silla', 'La tira al suelo de la terraza', 'La tira a la calle desde la terraza', 'Pepa la recoge y la guarda'],
-        correct: 2,
+        options: ['La tira a la calle desde la terraza', 'La tira al suelo de la terraza', 'La dobla cuidadosamente en una silla', 'Pepa la recoge y la guarda'],
+        correct: 0,
         explanation: 'Ropa en la terraza. Pepa busca la ropa. No está. Los ha tirado a la calle.'
       },
       {
@@ -48471,20 +48471,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Con qué cubre Pepa a Albert para sacarlo a las escaleras?',
-        options: ['Con una toalla de baño', 'Con una chaqueta vieja de Carlos', 'Con una sábana del armario', 'Con la cortina de la ventana'],
-        correct: 2,
+        options: ['Con una sábana del armario', 'Con una chaqueta vieja de Carlos', 'Con una toalla de baño', 'Con la cortina de la ventana'],
+        correct: 0,
         explanation: 'Pepa coge una sábana del armario, envuelve con ella a Albert y lo mete en el ascensor.'
       },
       {
         text: '¿Qué hace Pepa para parecer inocente cuando entra Carlos?',
-        options: ['Finge estar dormida en el sofá', 'Coge un libro y se sienta en un sillón', 'Está en la cocina preparando la cena', 'Está hablando por teléfono'],
-        correct: 1,
+        options: ['Finge estar dormida en el sofá', 'Está en la cocina preparando la cena', 'Coge un libro y se sienta en un sillón', 'Está hablando por teléfono'],
+        correct: 2,
         explanation: 'Pepa coge un libro y se sienta en un sillón, intentando parecer tranquila cuando entra Carlos.'
       },
       {
         text: '¿Cuándo sale el avión de Carlos y qué hora era cuando llegó a casa?',
-        options: ['El avión es a las ocho, llegó a las cinco', 'El avión es a las seis, llegó a las tres', 'El avión es a las diez, llegó a las siete', 'El avión es a mediodía, llegó a las nueve'],
-        correct: 1,
+        options: ['El avión es a las ocho, llegó a las cinco', 'El avión es a mediodía, llegó a las nueve', 'El avión es a las diez, llegó a las siete', 'El avión es a las seis, llegó a las tres'],
+        correct: 3,
         explanation: 'Carlos dice: "A las seis sale mi avión." Y mira el reloj: son las tres de la madrugada.'
       },
       {
@@ -48495,14 +48495,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Dónde está Albert cuando llega Raúl con el maletín?',
-        options: ['En el sofá del salón', 'En la terraza', 'Sentado dentro del ascensor', 'En la cama durmiendo'],
-        correct: 2,
+        options: ['En el sofá del salón', 'En la terraza', 'En la cama durmiendo', 'Sentado dentro del ascensor'],
+        correct: 3,
         explanation: 'Raúl se ha encontrado a Albert sentado en el ascensor, vestido como un romano (envuelto en la sábana).'
       },
       {
         text: '¿Qué contenía el maletín que Raúl recuperó?',
-        options: ['Cenizas de cadáveres', 'Cocaína pura', 'Harina integral', 'Dinero en billetes'],
-        correct: 2,
+        options: ['Harina integral', 'Cocaína pura', 'Cenizas de cadáveres', 'Dinero en billetes'],
+        correct: 0,
         explanation: 'El maletín que Raúl recuperó llevaba harina integral, no la droga que esperaban ni las cenizas originales.'
       }
     ]
@@ -48564,8 +48564,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'Si no salimos ya, no vamos a _____ y el próximo no es hasta mañana por la mañana.',
-        options: ['coger el avión (сесть на самолёт)', 'dar un portazo', 'dar una vuelta', 'coger la marcha atrás'],
-        correct: 0,
+        options: ['coger la marcha atrás', 'dar un portazo', 'dar una vuelta', 'coger el avión (сесть на самолёт)'],
+        correct: 3,
         explanation: 'Coger el avión = сесть на самолёт — успеть на рейс'
       },
       {
@@ -48576,20 +48576,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Busca el cargador en el _____ de la mesita de noche; creo que lo dejé ahí ayer.',
-        options: ['el ático', 'el cajón (ящик, тумбочка)', 'el ascensor', 'el callejón'],
-        correct: 1,
+        options: ['el ático', 'el ascensor', 'el cajón (ящик, тумбочка)', 'el callejón'],
+        correct: 2,
         explanation: 'El cajón = ящик (стола, комода) — выдвижной отсек мебели'
       },
       {
         sentence: 'Carlos estaba muy _____ porque no encontraba la caja que necesitaba para el avión.',
-        options: ['tranquilo', 'libre', 'enfadado (злой, сердитый)', 'sorprendido'],
-        correct: 2,
+        options: ['enfadado (злой, сердитый)', 'libre', 'tranquilo', 'sorprendido'],
+        correct: 0,
         explanation: 'Enfadado = злой, сердитый — испытывающий злость или раздражение'
       },
       {
         sentence: 'No _____ tanto, que los vecinos van a llamar a la policía si te siguen oyendo así.',
-        options: ['duermas', 'grites (кричи)', 'fumes', 'comas'],
-        correct: 1,
+        options: ['grites (кричи)', 'duermas', 'fumes', 'comas'],
+        correct: 0,
         explanation: 'Gritar = кричать — говорить очень громко'
       },
       {
@@ -48600,14 +48600,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Carlos metió la ropa sucia en una _____ de plástico antes de cerrar su bolsa de viaje.',
-        options: ['una caja', 'una bolsa (пакет, сумка)', 'una sábana', 'una maleta'],
-        correct: 1,
+        options: ['una caja', 'una sábana', 'una bolsa (пакет, сумка)', 'una maleta'],
+        correct: 2,
         explanation: 'La bolsa = пакет, сумка — мешок для хранения или переноски вещей'
       },
       {
         sentence: 'Pepa no sabía de qué hablaba Carlos cuando gritó: «¿Dónde está la _____?»',
-        options: ['la caja (коробка)', 'la llave', 'la nevera', 'la bolsa'],
-        correct: 0,
+        options: ['la bolsa', 'la llave', 'la nevera', 'la caja (коробка)'],
+        correct: 3,
         explanation: 'La caja = коробка — контейнер, в данном случае коробка с печеньем Birba'
       },
       {
@@ -48618,8 +48618,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'Después de la escena con Carlos, Pepa encendió un cigarrillo y se quedó _____ en el sofá.',
-        options: ['confusa', 'libre', 'sola (одна)', 'culpable'],
-        correct: 2,
+        options: ['confusa', 'libre', 'culpable', 'sola (одна)'],
+        correct: 3,
         explanation: 'Sola = одна — в одиночестве, без компании'
       }
     ]
@@ -48633,26 +48633,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Qué busca Carlos en su bolsa de viaje?',
-        options: ['Su pasaporte', 'Una caja de galletas Birba', 'Sus llaves', 'Su teléfono móvil'],
-        correct: 1,
+        options: ['Una caja de galletas Birba', 'Su pasaporte', 'Sus llaves', 'Su teléfono móvil'],
+        correct: 0,
         explanation: 'Carlos busca desesperadamente una caja (de galletas Birba) que tenía en su bolsa de viaje.'
       },
       {
         text: '¿Dónde estaba la caja?',
-        options: ['En la terraza', 'En el dormitorio', 'En el cajón de la cocina', 'En el coche'],
-        correct: 2,
+        options: ['En la terraza', 'En el cajón de la cocina', 'En el dormitorio', 'En el coche'],
+        correct: 1,
         explanation: 'Pepa había guardado la caja en el cajón de la cocina.'
       },
       {
         text: '¿Cómo se va Carlos al final del capítulo?',
-        options: ['Con un abrazo y promesas de llamar', 'Sin decir ni una palabra', 'Llorando', 'Dando explicaciones'],
-        correct: 1,
+        options: ['Con un abrazo y promesas de llamar', 'Llorando', 'Sin decir ni una palabra', 'Dando explicaciones'],
+        correct: 2,
         explanation: 'Carlos coge la caja, la mete en su bolsa y sale sin decir ni una palabra.'
       },
       {
         text: '¿Qué dice Carlos sobre Raúl?',
-        options: ['"Raúl es buen chico pero tiene malas costumbres"', '"No me gusta nada tu amigo Raúl"', '"Raúl debería buscar un trabajo estable"', '"¿Por qué siempre llama a estas horas?"'],
-        correct: 1,
+        options: ['"Raúl es buen chico pero tiene malas costumbres"', '"¿Por qué siempre llama a estas horas?"', '"Raúl debería buscar un trabajo estable"', '"No me gusta nada tu amigo Raúl"'],
+        correct: 3,
         explanation: 'Carlos le dice a Pepa: "No me gusta nada tu amigo Raúl."'
       },
       {
@@ -48663,8 +48663,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué dice Pepa después de que Carlos se va?',
-        options: ['"Lo siento, Carlos, te quiero"', '"Qué gilipollas…" y enciende un cigarrillo', '"Espera, tenemos que hablar"', '"Menos mal que se fue"'],
-        correct: 1,
+        options: ['"Qué gilipollas…" y enciende un cigarrillo', '"Lo siento, Carlos, te quiero"', '"Espera, tenemos que hablar"', '"Menos mal que se fue"'],
+        correct: 0,
         explanation: 'Pepa dice: "Qué gilipollas…" y enciende un cigarrillo.'
       }
     ]
@@ -48726,44 +48726,44 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         sentence: 'La _____ se encargó de todos los trámites del funeral y entregó las cenizas a la familia.',
-        options: ['la funeraria (бюро похоронных услуг)', 'la sucursal', 'la cárcel', 'la terraza'],
-        correct: 0,
+        options: ['la cárcel', 'la sucursal', 'la funeraria (бюро похоронных услуг)', 'la terraza'],
+        correct: 2,
         explanation: 'La funeraria = бюро похоронных услуг — предприятие, организующее похороны'
       },
       {
         sentence: 'La empresa tiene una _____ en Ámsterdam que gestiona todos los contratos europeos.',
-        options: ['la funeraria', 'la sucursal (филиал, дочернее предприятие)', 'la recompensa', 'la libertad'],
-        correct: 1,
+        options: ['la funeraria', 'la libertad', 'la recompensa', 'la sucursal (филиал, дочернее предприятие)'],
+        correct: 3,
         explanation: 'La sucursal = филиал, дочернее предприятие — отделение компании в другом городе'
       },
       {
         sentence: 'Albert y el químico decidieron _____ para crear juntos el negocio de los diamantes.',
-        options: ['escapar', 'asociarse (объединиться, создать партнёрство)', 'confesar', 'planear'],
-        correct: 1,
+        options: ['asociarse (объединиться, создать партнёрство)', 'escapar', 'confesar', 'planear'],
+        correct: 0,
         explanation: 'Asociarse = объединяться, создавать партнёрство — вступить в деловое партнёрство'
       },
       {
         sentence: 'El proceso transforma las cenizas de los fallecidos en _____ que la familia puede guardar.',
-        options: ['las piedras preciosas (драгоценные камни)', 'las amenazas', 'las deudas', 'las pruebas'],
-        correct: 0,
+        options: ['las amenazas', 'las piedras preciosas (драгоценные камни)', 'las deudas', 'las pruebas'],
+        correct: 1,
         explanation: 'Las piedras preciosas = драгоценные камни — ценные минералы, например бриллианты'
       },
       {
         sentence: 'El abogado corrupto _____ al maletín de Albert por uno lleno de harina en el hotel.',
-        options: ['le dio el cambiazo (подменил)', 'le dio la recompensa', 'le dio el anticipo', 'le dio la sentencia'],
-        correct: 0,
+        options: ['le dio la recompensa', 'le dio el cambiazo (подменил)', 'le dio el anticipo', 'le dio la sentencia'],
+        correct: 1,
         explanation: 'Dar el cambiazo = сделать подмену — незаметно заменить один предмет другим'
       },
       {
         sentence: 'Cuando la hoguera se apagó, solo quedaron _____ grises que el viento dispersó por el jardín.',
-        options: ['las cenizas (пепел, зола)', 'las pruebas', 'las sucursales', 'las recompensas'],
-        correct: 0,
+        options: ['las sucursales', 'las pruebas', 'las cenizas (пепел, зола)', 'las recompensas'],
+        correct: 2,
         explanation: 'Las cenizas = пепел, зола — то, что остаётся после сгорания органического материала'
       },
       {
         sentence: 'El _____ holandés trabajó durante meses en su laboratorio para descifrar la composición de las cenizas.',
-        options: ['el abogado', 'el químico (химик)', 'el vigilante', 'el fiscal'],
-        correct: 1,
+        options: ['el abogado', 'el fiscal', 'el vigilante', 'el químico (химик)'],
+        correct: 3,
         explanation: 'El químico = химик — специалист в области химии'
       },
       {
@@ -48780,8 +48780,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         sentence: 'El abogado planeaba llevar las cenizas al _____ para analizar su composición y descubrir el secreto.',
-        options: ['el laboratorio (лаборатория)', 'el garaje', 'el ático', 'el callejón'],
-        correct: 0,
+        options: ['el ático', 'el garaje', 'el laboratorio (лаборатория)', 'el callejón'],
+        correct: 2,
         explanation: 'El laboratorio = лаборатория — помещение для научных исследований'
       }
     ]
@@ -48807,20 +48807,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Quién cambió el maletín de Albert?',
-        options: ['Raúl', 'Carlos', 'Un abogado español', 'El químico holandés'],
-        correct: 2,
+        options: ['Raúl', 'Carlos', 'El químico holandés', 'Un abogado español'],
+        correct: 3,
         explanation: 'El abogado español cambió el maletín de Albert por uno lleno de harina en el hotel de Castelldefels.'
       },
       {
         text: '¿Dónde vive Albert mientras está en Barcelona?',
-        options: ['En un hotel', 'En casa de Raúl', 'En casa de Pepa', 'En un apartamento alquilado'],
-        correct: 2,
+        options: ['En casa de Pepa', 'En casa de Raúl', 'En un hotel', 'En un apartamento alquilado'],
+        correct: 0,
         explanation: 'Albert se queda unos días en la casa de Pepa para conocer la ciudad.'
       },
       {
         text: '¿Dónde están Pepa y Raúl cuando tienen esta conversación?',
-        options: ['En el bar de Armando', 'En el garaje, bebiendo cerveza', 'En el piso de Pepa', 'En un café del barrio'],
-        correct: 1,
+        options: ['En el bar de Armando', 'En un café del barrio', 'En el piso de Pepa', 'En el garaje, bebiendo cerveza'],
+        correct: 3,
         explanation: 'Dos días después, Pepa y Raúl beben cerveza en el garaje, hablando de Albert y sus negocios.'
       },
       {
@@ -48837,14 +48837,14 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué descubrió el químico holandés amigo de Albert?',
-        options: ['Una nueva vacuna médica', 'Que con las cenizas de los cadáveres incinerados se podían hacer diamantes', 'Una nueva técnica de cremación', 'Un método para conservar cadáveres más tiempo'],
-        correct: 1,
+        options: ['Que con las cenizas de los cadáveres incinerados se podían hacer diamantes', 'Una nueva vacuna médica', 'Una nueva técnica de cremación', 'Un método para conservar cadáveres más tiempo'],
+        correct: 0,
         explanation: 'Un amigo químico holandés le dijo que con las cenizas de los cadáveres incinerados se podían hacer diamantes.'
       },
       {
         text: '¿Quién se asoció con el químico holandés?',
-        options: ['Un químico alemán', 'Un químico español que también sabía de eso', 'El abogado Roberto Alcázar', 'Albert directamente'],
-        correct: 1,
+        options: ['Un químico alemán', 'El abogado Roberto Alcázar', 'Un químico español que también sabía de eso', 'Albert directamente'],
+        correct: 2,
         explanation: 'El químico holandés conocía a otro químico español que sabía bastante de eso. Se asociaron.'
       },
       {
@@ -48855,26 +48855,26 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué exclamó Raúl cuando supo que las cenizas olían a cadáver?',
-        options: ['"¡Qué asco!"', '"¡Coño! ¡Por eso olía a cadáver!"', '"¡Dios mío, qué horror!"', '"¡Menos mal que no lo probé!"'],
-        correct: 1,
+        options: ['"¡Qué asco!"', '"¡Menos mal que no lo probé!"', '"¡Dios mío, qué horror!"', '"¡Coño! ¡Por eso olía a cadáver!"'],
+        correct: 3,
         explanation: 'Raúl exclama: "¡Coño! ¡Por eso olía a cadáver!" recordando que estaba colocado con las cenizas.'
       },
       {
         text: '¿Qué había en el maletín que recuperó Raúl de los chorizos?',
-        options: ['Las cenizas originales del maletín de Albert', 'Cocaína pura', 'Harina integral', 'Documentos del contrato'],
-        correct: 2,
+        options: ['Harina integral', 'Cocaína pura', 'Las cenizas originales del maletín de Albert', 'Documentos del contrato'],
+        correct: 0,
         explanation: 'El maletín que Raúl recuperó llevaba harina integral. Los chorizos habían cogido el maletín creyendo que llevaba dinero o droga.'
       },
       {
         text: '¿Qué hizo el abogado con el maletín original de Albert en el hotel de Castelldefels?',
-        options: ['Se lo entregó a la policía', 'Lo vendió en el mercado negro', 'Se lo llevó cambiándolo por uno igual lleno de harina', 'Lo escondió en el hotel'],
-        correct: 2,
+        options: ['Se lo entregó a la policía', 'Se lo llevó cambiándolo por uno igual lleno de harina', 'Lo vendió en el mercado negro', 'Lo escondió en el hotel'],
+        correct: 1,
         explanation: 'El abogado cogió el maletín de Albert y le dejó uno igual lleno de harina, aprovechando que celebraban el contrato y habían bebido.'
       },
       {
         text: '¿Qué opina Raúl de los abogados?',
-        options: ['"Los abogados son necesarios"', '"Los abogados, nenas, no son de fiar"', '"Los abogados cobran demasiado"', '"Este abogado en concreto es un ladrón"'],
-        correct: 1,
+        options: ['"Los abogados son necesarios"', '"Los abogados cobran demasiado"', '"Los abogados, nenas, no son de fiar"', '"Este abogado en concreto es un ladrón"'],
+        correct: 2,
         explanation: 'Raúl dice con sabiduría: "Los abogados, nenas, no son de fiar."'
       }
     ]
@@ -48936,38 +48936,38 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     questions: [
       {
         text: '¿Cómo se llama el abogado que robó el maletín?',
-        options: ['Carlos Martínez', 'Roberto Alcázar', 'Alberto García', 'Juan Pérez'],
-        correct: 1,
+        options: ['Carlos Martínez', 'Alberto García', 'Roberto Alcázar', 'Juan Pérez'],
+        correct: 2,
         explanation: 'Albert revela que el abogado se llama Roberto Alcázar.'
       },
       {
         text: '¿Quién llama a Pepa por teléfono?',
-        options: ['Carlos', 'Raúl', 'Su madre', 'El abogado'],
-        correct: 2,
+        options: ['Carlos', 'Su madre', 'Raúl', 'El abogado'],
+        correct: 1,
         explanation: 'Es su madre quien llama, queriendo saber si Pepa puede acompañarla al dentista.'
       },
       {
         text: '¿Qué opina Albert del trabajo de taxista?',
-        options: ['Que es peligroso', 'Que no paga bien', 'Que es un buen trabajo y debe ser divertido', 'Que es aburrido'],
-        correct: 2,
+        options: ['Que es un buen trabajo y debe ser divertido', 'Que no paga bien', 'Que es peligroso', 'Que es aburrido'],
+        correct: 0,
         explanation: 'Albert dice que conoces gente, lugares... que debe ser divertido.'
       },
       {
         text: '¿Qué siente Pepa por Albert al final?',
-        options: ['No le gusta nada', 'Le gusta menos que Carlos', 'Le gusta más que Carlos', 'Es indiferente'],
-        correct: 2,
+        options: ['No le gusta nada', 'Le gusta menos que Carlos', 'Es indiferente', 'Le gusta más que Carlos'],
+        correct: 3,
         explanation: 'Pepa piensa en Carlos pero reconoce que Albert le gusta más.'
       },
       {
         text: '¿Cómo explica Albert el cambio de maletín en el hotel?',
-        options: ['Dice que fue un accidente', 'El abogado cogió su maletín y le dejó uno igual lleno de harina mientras celebraban el contrato bebiendo', 'Dice que fue Raúl quien lo cambió', 'Dice que no sabe cómo pasó'],
-        correct: 1,
+        options: ['Dice que fue un accidente', 'Dice que fue Raúl quien lo cambió', 'El abogado cogió su maletín y le dejó uno igual lleno de harina mientras celebraban el contrato bebiendo', 'Dice que no sabe cómo pasó'],
+        correct: 2,
         explanation: 'Albert explica: "El abogado cogió mi maletín y me dejó uno igual lleno de harina. Estábamos contentos, bebimos. Las chicas eran muy simpáticas…"'
       },
       {
         text: '¿Qué dice Albert sobre el trabajo de Raúl en la búsqueda del maletín?',
-        options: ['"Raúl no sirvió de nada"', '"Raúl lo buscó y lo encontró. Es buen tío Raúl."', '"Raúl debería haber buscado el maletín correcto"', '"Raúl cobró demasiado por su ayuda"'],
-        correct: 1,
+        options: ['"Raúl lo buscó y lo encontró. Es buen tío Raúl."', '"Raúl no sirvió de nada"', '"Raúl debería haber buscado el maletín correcto"', '"Raúl cobró demasiado por su ayuda"'],
+        correct: 0,
         explanation: 'Albert dice: "Pero Raúl lo buscó y lo encontró. Es buen tío Raúl." aunque el maletín resultó tener harina.'
       },
       {
@@ -48978,20 +48978,20 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué opinan la madre y la hermana de Pepa sobre su trabajo?',
-        options: ['Que es un trabajo genial y seguro', 'A ambas tampoco les gusta su trabajo de taxista', 'A la madre le encanta pero la hermana no', 'Son indiferentes a su profesión'],
-        correct: 1,
+        options: ['Que es un trabajo genial y seguro', 'Son indiferentes a su profesión', 'A la madre le encanta pero la hermana no', 'A ambas tampoco les gusta su trabajo de taxista'],
+        correct: 3,
         explanation: 'A su madre tampoco le gusta su trabajo. Su hermana, como Carlos, también le parece mal la profesión.'
       },
       {
         text: '¿Con qué excusa cuelga Pepa el teléfono a su madre?',
-        options: ['"Tengo que dormir"', '"Están llamando a la puerta"', '"Me queda poca batería"', '"Albert me necesita"'],
-        correct: 1,
+        options: ['"Tengo que dormir"', '"Albert me necesita"', '"Me queda poca batería"', '"Están llamando a la puerta"'],
+        correct: 3,
         explanation: 'Pepa dice: "Están llamando a la puerta. Tengo que colgar." y cuelga.'
       },
       {
         text: '¿Qué dice Albert sobre la gente que trabaja con cadáveres?',
-        options: ['"Es un trabajo muy duro emocionalmente"', '"La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan."', '"Es mejor no hablar del tema"', '"Prefiero no pensar en ello"'],
-        correct: 1,
+        options: ['"La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan."', '"Es un trabajo muy duro emocionalmente"', '"Es mejor no hablar del tema"', '"Prefiero no pensar en ello"'],
+        correct: 0,
         explanation: 'Albert sonríe y explica: "La gente tiene ideas extrañas sobre los que trabajan con cadáveres. Mis clientes nunca se quejan." (porque están muertos).'
       },
       {
@@ -49002,8 +49002,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Dónde dice Pepa que están las galletas?',
-        options: ['En el armario del salón', 'En el primer cajón, al lado del lavavajillas', 'En la despensa', 'Encima de la nevera'],
-        correct: 1,
+        options: ['En el armario del salón', 'En la despensa', 'En el primer cajón, al lado del lavavajillas', 'Encima de la nevera'],
+        correct: 2,
         explanation: 'Pepa dice: "Tengo galletas. ¿Te gustan? Están en el primer cajón, al lado del lavavajillas."'
       },
       {
@@ -49014,8 +49014,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       },
       {
         text: '¿Qué concluye Pepa al ver el polvo blanco en la caja?',
-        options: ['"Carlos guardó harina aquí"', '"Creo que tenemos las cenizas."', '"Tenemos que llamar a Raúl ahora mismo"', '"Carlos era también un narco"'],
-        correct: 1,
+        options: ['"Carlos guardó harina aquí"', '"Carlos era también un narco"', '"Tenemos que llamar a Raúl ahora mismo"', '"Creo que tenemos las cenizas."'],
+        correct: 3,
         explanation: 'Pepa exclama "¡El gilipollas de Carlos!" y concluye: "Sí, esto… Ahora lo explico todo. Creo que tenemos las cenizas."'
       }
     ]
