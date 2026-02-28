@@ -104,8 +104,8 @@ export const modules = {
     id: 'module-15',
     title: 'Модуль 15: MUNDO LATINO',
     level: 'intermediate',
-    lessons: ['lesson-15-1', 'lesson-15-2'],
-    description: '1 Futuro compuesto (будущее сложное время): временное и модальное значение. 2 Potencial Compuesto (Condicional Compuesto): сожаление о прошлом, будущее в прошлом, догадка о далёком прошлом'
+    lessons: ['lesson-15-1', 'lesson-15-2', 'lesson-15-3'],
+    description: '1 Futuro compuesto (будущее сложное время): временное и модальное значение. 2 Potencial Compuesto (Condicional Compuesto): сожаление о прошлом, будущее в прошлом, догадка о далёком прошлом. 3 Futuro hipotético. Употребление будущих времён в модальном значении. Сравнительная характеристика'
   },
   'module-8': {
     id: 'module-8',
@@ -20363,6 +20363,145 @@ Futuro compuesto используется для **предположения о
       ]
     },
     exercises: ['ex-15-2-1', 'ex-15-2-2', 'ex-15-2-3']
+  },
+
+  'lesson-15-3': {
+    id: 'lesson-15-3',
+    title: 'Урок 3: Futuro hipotético. Употребление будущих времён в модальном значении. Сравнительная характеристика',
+    moduleId: 'module-15',
+    grammar: {
+      title: 'Futuro hipotético — будущие времена в значении предположения',
+      intro: `Эта тема о том, как испанские времена будущего и потенциального наклонения позволяют строить **предположения о настоящем и прошлом**.\n\nЧем дальше «в прошлое» мы задвигаем предполагаемое событие, тем «дальше в будущее» заходит сам глагол — это зеркальная шкала времён.`,
+      sections: [
+        {
+          id: 'futuro-hipotetico-tabla',
+          title: '1. Упрощённая таблица вероятности',
+          content: `## 1. Упрощённая таблица вероятности
+
+| Реальное время (Факт) | Время догадки (Гипотеза) | Смысл догадки |
+|-----------------------|--------------------------|---------------|
+| **Presente** (сейчас) | **Futuro Simple** | «Наверное, сейчас...» |
+| **Pretérito Perfecto** (недавно) | **Futuro Compuesto** | «Должно быть, (недавно) случилось...» |
+| **Imperfecto / Indefinido** (тогда) | **Potencial Simple** | «Наверное, тогда было...» |
+| **Pluscuamperfecto** (давно) | **Potencial Compuesto** | «Скорее всего, к тому моменту уже...» |
+
+### Принцип «зеркала»
+
+Представьте временну́ю шкалу: реальные времена «смотрят» в прошлое, а времена догадок — в будущее. Каждая пара — это зеркальное отражение:
+
+\`\`\`
+Факт (прошлое ←)          Гипотеза (→ будущее)
+─────────────────────────────────────────────
+Presente          ↔   Futuro Simple
+Pret. Perfecto    ↔   Futuro Compuesto
+Imperfecto        ↔   Potencial Simple
+Pluscuamperfecto  ↔   Potencial Compuesto
+\`\`\`
+
+> **Ключевое правило:** чем более «давним» было бы реальное событие, тем более «сложным» будет время гипотезы.`
+        },
+        {
+          id: 'futuro-hipotetico-ejemplos',
+          title: '2. Примеры для каждой ситуации',
+          content: `## 2. Примеры для каждой ситуации
+
+### 1. Догадка о настоящем — Futuro Simple
+
+Вместо «Он дома» (*Está*) говорим «Он, должно быть, дома».
+
+| Испанский | Русский |
+|-----------|---------|
+| *¿Dónde está Pedro? — **Estará** en su casa.* | Где Педро? — Наверное, он дома. |
+| *¿Qué hora es? — **Serán** las tres.* | Который час? — Часа три, наверное. |
+| *No contesta. **Estará** ocupado.* | Не отвечает. Наверное, занят. |
+
+---
+
+### 2. Догадка о недавнем прошлом — Futuro Compuesto
+
+Когда думаем о том, что **скорее всего произошло** только что или сегодня.
+
+| Испанский | Русский |
+|-----------|---------|
+| *No veo mis llaves. Las **habré dejado** en el coche.* | Не вижу ключей. Должно быть, оставил их в машине. |
+| *¿Por qué no vino? — Se **habrá dormido**.* | Почему не пришёл? — Наверное, проспал. |
+| *Está muy contenta. **Habrá aprobado** el examen.* | Она очень довольна. Скорее всего, сдала экзамен. |
+
+---
+
+### 3. Догадка о прошлом — Potencial Simple
+
+Когда вспоминаем события прошлого и **не уверены в деталях** (сколько было лет, который был час).
+
+| Испанский | Русский |
+|-----------|---------|
+| *Cuando lo conocí, él **tendría** 20 años.* | Когда я его встретил, ему было, наверное, лет 20. |
+| *¿Quién llamó anoche? — **Sería** tu madre.* | Кто звонил вчера вечером? — Должно быть, твоя мама. |
+| ***Estaría** cansado, por eso no salió.* | Наверное, он был уставшим, поэтому не вышел. |
+
+---
+
+### 4. Догадка о «прошлом в прошлом» — Potencial Compuesto
+
+Самая высокая степень сомнения — о том, что случилось **до какого-то момента в прошлом**.
+
+| Испанский | Русский |
+|-----------|---------|
+| *Juan no estaba en la fiesta. **Habría salido** antes de que yo llegara.* | Хуана не было на вечеринке. Скорее всего, он ушёл до того, как я пришёл. |
+| *Me pregunté si **habrías olvidado** nuestra cita.* | Я задался вопросом, не забыл ли ты, часом, о нашей встрече. |
+| *La reunión ya **habría empezado** cuando llegamos.* | Собрание, наверное, уже началось, когда мы пришли. |`
+        },
+        {
+          id: 'futuro-hipotetico-resumen',
+          title: '3. Как это запомнить и практические советы',
+          content: `## 3. Как это запомнить и практические советы
+
+### Шкала «реальность ↔ гипотеза»
+
+\`\`\`
+РЕАЛЬНОСТЬ (факты)        ГИПОТЕЗА (предположения)
+──────────────────────────────────────────────────────
+Está cansado.      →   Estará cansado.
+  (Он устал.)           (Наверное, устал.)
+
+Ha llegado.        →   Habrá llegado.
+  (Он приехал.)         (Должно быть, приехал.)
+
+Estaba cansado.    →   Estaría cansado.
+  (Он был устал.)       (Наверное, был устал.)
+
+Había llegado.     →   Habría llegado.
+  (Он приехал.)         (Скорее всего, к тому моменту приехал.)
+\`\`\`
+
+---
+
+### Практические советы
+
+**Маркеры предположения** (часто сопровождают эти формы):
+
+| Испанский | Русский |
+|-----------|---------|
+| *seguramente, probablemente* | наверное, вероятно |
+| *quizás, tal vez* | может быть |
+| *a lo mejor* | может быть (+ Indicativo!) |
+| *lo más probable es que* | скорее всего |
+
+> **NB!** После *a lo mejor* — всегда **Indicativo**, не Subjuntivo и не форма гипотезы:
+> *A lo mejor **está** en casa.* ✓ (не estará, не esté)
+
+---
+
+### Быстрая проверка: какую форму выбрать?
+
+1. О **чём сейчас** происходит? → **Futuro Simple** (*estará*)
+2. Что, скорее всего, **только что случилось**? → **Futuro Compuesto** (*habrá salido*)
+3. Что, наверное, **тогда было** (в прошлом)? → **Potencial Simple** (*sería, estaría*)
+4. Что, должно быть, **уже произошло к прошлому моменту**? → **Potencial Compuesto** (*habría llegado*)`
+        }
+      ]
+    },
+    exercises: ['ex-15-3-1', 'ex-15-3-2']
   },
 
   'lesson-14-1': {
@@ -50500,6 +50639,190 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: '15. Что ты подумал, когда увидел его? — Я подумал, что он, наверное, только что вернулся из долгой командировки.',
         correct: '¿Qué pensaste cuando lo viste? — Pensé que habría vuelto de un largo viaje de negocios.',
         alternatives: ['¿Qué pensaste al verlo? — Pensé que habría regresado de un largo viaje de trabajo.']
+      }
+    ]
+  },
+
+  'ex-15-3-1': {
+    id: 'ex-15-3-1',
+    type: 'subjunctive',
+    title: 'Упражнение 1. Поставьте глаголы в нужную форму futuro hipotético',
+    description: 'Выберите правильную форму глагола (Futuro Simple, Futuro Compuesto, Condicional Simple или Condicional Compuesto) в зависимости от типа условия.',
+    questions: [
+      {
+        text: '1. Si estudias más, ___ (aprender) nuevas palabras muy rápido.',
+        options: ['aprenderás', 'aprenderías', 'habrías aprendido', 'habrás aprendido'],
+        correct: 0,
+        explanation: 'Si + presente de indicativo → Futuro Simple. Условие реально выполнимо в настоящем/будущем → aprenderás.'
+      },
+      {
+        text: '2. Cuando llegues a Madrid, ___ (ver) la Plaza Mayor.',
+        options: ['verías', 'verás', 'habrías visto', 'habrás visto'],
+        correct: 1,
+        explanation: 'Cuando + subjuntivo presente → Futuro Simple. Действие произойдёт в будущем после условия → verás.'
+      },
+      {
+        text: '3. Si hubieras llegado antes, ___ (conocer) a mis padres.',
+        options: ['conocerías', 'conocerás', 'habrías conocido', 'habrás conocido'],
+        correct: 2,
+        explanation: 'Si + pluscuamperfecto de subjuntivo → Condicional Compuesto. Нереальное условие в прошлом → habrías conocido.'
+      },
+      {
+        text: '4. Cuando hayas terminado los deberes, ___ (poder) salir a jugar.',
+        options: ['habrías podido', 'habrás podido', 'podrías', 'podrás'],
+        correct: 3,
+        explanation: 'Cuando + perfecto de subjuntivo → Futuro Simple. Действие в будущем после завершения другого → podrás.'
+      },
+      {
+        text: '5. Si tuvieras más tiempo libre, ___ (viajar) por toda América Latina.',
+        options: ['viajarías', 'viajarás', 'habrías viajado', 'habrás viajado'],
+        correct: 0,
+        explanation: 'Si + imperfecto de subjuntivo → Condicional Simple. Маловероятное/гипотетическое условие в настоящем → viajarías.'
+      },
+      {
+        text: '6. Cuando hayamos terminado el vocabulario nuevo, ___ (hacer) el ejercicio juntos.',
+        options: ['habríamos hecho', 'haremos', 'habremos hecho', 'haríamos'],
+        correct: 1,
+        explanation: 'Cuando + perfecto de subjuntivo → Futuro Simple. Действие в будущем после завершения другого → haremos.'
+      },
+      {
+        text: '7. Si hubieran pedido ayuda a tiempo, ___ (resolver) el problema mucho antes.',
+        options: ['resolverán', 'resolverían', 'habrían resuelto', 'habrán resuelto'],
+        correct: 2,
+        explanation: 'Si + pluscuamperfecto de subjuntivo → Condicional Compuesto. Нереальное условие в прошлом → habrían resuelto.'
+      },
+      {
+        text: '8. Cuando llegues al aeropuerto, no olvides: ___ (llamar) a tu familia para avisar.',
+        options: ['habrías llamado', 'habrás llamado', 'llamarías', 'llamarás'],
+        correct: 3,
+        explanation: 'Cuando + subjuntivo presente → Futuro Simple. Конкретное действие в будущем → llamarás.'
+      },
+      {
+        text: '9. Si tuviéramos más dinero ahorrado, ___ (comprar) una casa en la playa sin dudarlo.',
+        options: ['compraríamos', 'compraremos', 'habríamos comprado', 'habremos comprado'],
+        correct: 0,
+        explanation: 'Si + imperfecto de subjuntivo → Condicional Simple. Гипотетическое условие в настоящем → compraríamos.'
+      },
+      {
+        text: '10. Cuando hayas terminado el curso completo, ___ (hablar) español con total fluidez.',
+        options: ['hablarías', 'hablarás', 'habrás hablado', 'habrías hablado'],
+        correct: 1,
+        explanation: 'Cuando + perfecto de subjuntivo → Futuro Simple. Результат в будущем после завершения учёбы → hablarás.'
+      },
+      {
+        text: '11. Si no hubiera llovido tanto este verano, nosotros ___ (salir) a dar un paseo por el parque todos los días.',
+        options: ['saldríamos', 'saldremos', 'habríamos salido', 'habremos salido'],
+        correct: 2,
+        explanation: 'Si + pluscuamperfecto de subjuntivo → Condicional Compuesto. Нереальное условие в прошлом → habríamos salido.'
+      },
+      {
+        text: '12. Cuando llegues a casa por la noche, ___ (preparar) la cena para toda la familia.',
+        options: ['habrías preparado', 'habrás preparado', 'prepararías', 'prepararás'],
+        correct: 3,
+        explanation: 'Cuando + subjuntivo presente → Futuro Simple. Действие в будущем, которое произойдёт обязательно → prepararás.'
+      },
+      {
+        text: '13. Si tuviera más experiencia laboral, ___ (conseguir) ese puesto de trabajo fácilmente.',
+        options: ['conseguiría', 'conseguirá', 'habría conseguido', 'habrá conseguido'],
+        correct: 0,
+        explanation: 'Si + imperfecto de subjuntivo → Condicional Simple. Гипотетическое условие о настоящем → conseguiría.'
+      },
+      {
+        text: '14. Cuando hayan terminado la construcción del puente, ___ (abrir) el paso al tráfico.',
+        options: ['habrían abierto', 'abrirán', 'abrirían', 'habrán abierto'],
+        correct: 1,
+        explanation: 'Cuando + perfecto de subjuntivo → Futuro Simple. Запланированное действие в будущем → abrirán.'
+      },
+      {
+        text: '15. Si hubiéramos salido de casa media hora antes, ___ (llegar) a tiempo a la reunión.',
+        options: ['llegaríamos', 'llegaremos', 'habremos llegado', 'habríamos llegado'],
+        correct: 3,
+        explanation: 'Si + pluscuamperfecto de subjuntivo → Condicional Compuesto. Нереальное условие в прошлом → habríamos llegado.'
+      }
+    ]
+  },
+
+  'ex-15-3-2': {
+    id: 'ex-15-3-2',
+    type: 'translation',
+    title: 'Упражнение 2. Переведите на испанский язык',
+    description: 'Переведите предложения на испанский язык, используя соответствующую форму futuro hipotético (Futuro Simple, Futuro Compuesto, Condicional Simple или Condicional Compuesto).',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '1. Когда ты выучишь новые слова, сможешь написать упражнение без ошибок.',
+        correct: 'Cuando hayas aprendido las palabras nuevas, podrás hacer el ejercicio sin errores.',
+        alternatives: ['Cuando aprendas las palabras nuevas, podrás escribir el ejercicio sin errores.']
+      },
+      {
+        russian: '2. Если бы ты занимался испанским больше, ты бы уже сдал экзамен.',
+        correct: 'Si hubieras estudiado español más, ya habrías aprobado el examen.',
+        alternatives: ['Si hubieses estudiado más, habrías aprobado ya el examen.']
+      },
+      {
+        russian: '3. Когда мы доберёмся до Буэнос-Айреса, увидим знаменитый театр Колон.',
+        correct: 'Cuando lleguemos a Buenos Aires, veremos el famoso Teatro Colón.',
+        alternatives: ['Cuando hayamos llegado a Buenos Aires, veremos el Teatro Colón.']
+      },
+      {
+        russian: '4. Если бы они попросили нас о помощи, мы бы обязательно им помогли.',
+        correct: 'Si nos hubieran pedido ayuda, les habríamos ayudado con mucho gusto.',
+        alternatives: ['Si hubiesen pedido nuestra ayuda, los habríamos ayudado.']
+      },
+      {
+        russian: '5. Когда она закончит читать эту книгу, расскажет нам о ней.',
+        correct: 'Cuando haya terminado de leer este libro, nos lo contará.',
+        alternatives: ['Cuando termine de leer el libro, nos contará algo sobre él.']
+      },
+      {
+        russian: '6. Если бы у меня было больше свободного времени, я бы посетил все музеи города.',
+        correct: 'Si tuviera más tiempo libre, visitaría todos los museos de la ciudad.',
+        alternatives: ['Si tuviese más tiempo, visitaría todos los museos.']
+      },
+      {
+        russian: '7. Когда ты сдашь вступительные экзамены, мы отпразднуем это событие всей семьёй.',
+        correct: 'Cuando apruebes los exámenes de ingreso, celebraremos este acontecimiento con toda la familia.',
+        alternatives: ['Cuando hayas aprobado los exámenes, celebraremos juntos este evento.']
+      },
+      {
+        russian: '8. Если бы вы приехали на час раньше, вы бы познакомились с моими друзьями.',
+        correct: 'Si hubierais llegado una hora antes, habríais conocido a mis amigos.',
+        alternatives: ['Si hubiesen llegado antes, habrían podido conocer a mis amigos.']
+      },
+      {
+        russian: '9. Если бы погода была лучше, мы бы пошли на пляж и провели день у моря.',
+        correct: 'Si hiciera mejor tiempo, iríamos a la playa y pasaríamos el día junto al mar.',
+        alternatives: ['Si el tiempo fuera mejor, iríamos a la playa.']
+      },
+      {
+        russian: '10. Когда ты закончишь работу над проектом, сможешь наконец отдохнуть.',
+        correct: 'Cuando hayas terminado el trabajo en el proyecto, podrás descansar por fin.',
+        alternatives: ['Cuando termines el proyecto, podrás descansar al fin.']
+      },
+      {
+        russian: '11. Если бы у неё было больше денег, она бы путешествовала по всему миру без остановки.',
+        correct: 'Si tuviera más dinero, viajaría por todo el mundo sin parar.',
+        alternatives: ['Si tuviese dinero suficiente, recorrería el mundo entero.']
+      },
+      {
+        russian: '12. Когда мы вернёмся из отпуска, обязательно навестим бабушку.',
+        correct: 'Cuando volvamos de vacaciones, visitaremos a la abuela sin falta.',
+        alternatives: ['Cuando hayamos vuelto de las vacaciones, iremos a ver a la abuela.']
+      },
+      {
+        russian: '13. Если бы ты предупредил меня заранее, я бы смог помочь тебе с переездом.',
+        correct: 'Si me hubieras avisado con antelación, habría podido ayudarte con la mudanza.',
+        alternatives: ['Si me hubieses avisado antes, te habría ayudado a mudarte.']
+      },
+      {
+        russian: '14. Когда студенты сдадут все экзамены, наконец начнутся летние каникулы.',
+        correct: 'Cuando los estudiantes hayan aprobado todos los exámenes, por fin empezarán las vacaciones de verano.',
+        alternatives: ['Cuando los alumnos aprueben todos los exámenes, comenzarán las vacaciones de verano.']
+      },
+      {
+        russian: '15. Если бы они не опоздали на поезд, уже были бы дома и отдыхали.',
+        correct: 'Si no hubieran perdido el tren, ya estarían en casa descansando.',
+        alternatives: ['Si no hubiesen perdido el tren, habrían llegado a casa y estarían descansando.']
       }
     ]
   }
