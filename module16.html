@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Модуль 16 — Условные предложения</title>
+  <style>
+    /* ── Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fb;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    /* ── Module header ── */
+    .module-header {
+      background: linear-gradient(135deg, #1a3c6e 0%, #2563b0 100%);
+      color: #fff;
+      padding: 48px 32px 36px;
+      text-align: center;
+    }
+    .module-header .label {
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      opacity: 0.75;
+      margin-bottom: 10px;
+    }
+    .module-header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    .subtitle-list {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 8px;
+      text-align: left;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 18px 28px;
+    }
+    .subtitle-list li {
+      list-style: none;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .subtitle-list li::before {
+      content: attr(data-num);
+      background: rgba(255,255,255,0.25);
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* ── Lesson block ── */
+    .lesson {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      margin-bottom: 40px;
+      overflow: hidden;
+    }
+    .lesson-header {
+      background: linear-gradient(90deg, #1a3c6e, #2563b0);
+      color: #fff;
+      padding: 22px 28px;
+    }
+    .lesson-header .lesson-num {
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      opacity: 0.7;
+      margin-bottom: 4px;
+    }
+    .lesson-header h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+    .lesson-header h2 span {
+      font-size: 1rem;
+      font-weight: 400;
+      opacity: 0.85;
+      display: block;
+      margin-top: 2px;
+    }
+    .lesson-body {
+      padding: 28px;
+    }
+
+    /* ── Blue collapsible tabs ── */
+    .accordion {
+      margin-bottom: 14px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1.5px solid #2563b0;
+    }
+    .accordion-toggle {
+      display: none;
+    }
+    .accordion-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #2563b0;
+      color: #fff;
+      padding: 14px 20px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.2s;
+    }
+    .accordion-label:hover {
+      background: #1a4d9a;
+    }
+    .accordion-label::after {
+      content: '▼';
+      font-size: 0.75rem;
+      transition: transform 0.3s;
+      flex-shrink: 0;
+      margin-left: 12px;
+    }
+    .accordion-toggle:checked + .accordion-label {
+      background: #14336a;
+    }
+    .accordion-toggle:checked + .accordion-label::after {
+      transform: rotate(180deg);
+    }
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s;
+      background: #f0f5ff;
+      padding: 0 20px;
+    }
+    .accordion-toggle:checked ~ .accordion-content {
+      max-height: 2000px;
+      padding: 20px;
+    }
+
+    /* ── Content inside accordion ── */
+    .acc-text p {
+      margin-bottom: 14px;
+    }
+    .acc-text strong {
+      color: #1a3c6e;
+    }
+
+    /* Formula table */
+    .formula-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    .formula-table th {
+      background: #2563b0;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .formula-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #c7d8f5;
+      vertical-align: top;
+    }
+    .formula-table tr:nth-child(even) td {
+      background: #e8effc;
+    }
+    .formula-table code {
+      background: #dceaff;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 0.92rem;
+      color: #14336a;
+    }
+
+    /* Example cards */
+    .example-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 8px;
+    }
+    .example-card {
+      background: #fff;
+      border-left: 4px solid #2563b0;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .example-card .es {
+      font-style: italic;
+      font-size: 1.05rem;
+      color: #14336a;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .example-card .ru {
+      color: #444;
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+    .example-card .fact {
+      font-size: 0.85rem;
+      color: #2563b0;
+      background: #e8effc;
+      display: inline-block;
+      border-radius: 4px;
+      padding: 2px 8px;
+    }
+
+    /* Rules list */
+    .rules-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .rules-list li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .rules-list .rule-icon {
+      background: #2563b0;
+      color: #fff;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* Lifehack box */
+    .lifehack {
+      background: #fffbe6;
+      border: 1.5px solid #f5c800;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 6px;
+    }
+    .lifehack-title {
+      font-weight: 700;
+      color: #a07800;
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+
+    /* Cheatsheet mini-table */
+    .cheat-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin-top: 10px;
+    }
+    .cheat-table th {
+      background: #1a3c6e;
+      color: #fff;
+      padding: 8px 12px;
+    }
+    .cheat-table td {
+      border: 1px solid #c7d8f5;
+      padding: 8px 12px;
+      vertical-align: top;
+    }
+    .cheat-table tr:nth-child(even) td { background: #f0f5ff; }
+    .cheat-table code {
+      background: #dceaff;
+      border-radius: 3px;
+      padding: 1px 5px;
+      color: #14336a;
+    }
+
+    /* Indirect speech box */
+    .speech-box {
+      background: #f0f5ff;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+    .speech-box .speech-label {
+      font-weight: 700;
+      color: #2563b0;
+      margin-bottom: 4px;
+    }
+    .speech-box p { margin-bottom: 6px; }
+
+    /* Section titles inside accordion */
+    .section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a3c6e;
+      margin: 18px 0 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: #2563b0;
+      border-radius: 2px;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 1.5px solid #c7d8f5;
+      margin: 18px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════ MODULE HEADER ══════════════════ -->
+<div class="module-header">
+  <div class="label">Модуль 16</div>
+  <h1>Условные предложения</h1>
+  <ul class="subtitle-list">
+    <li data-num="1">Условные предложения II типа</li>
+    <li data-num="2">Условные предложения III типа</li>
+    <li data-num="3">Условные предложения смешанного типа</li>
+  </ul>
+</div>
+
+<div class="container">
+
+  <!-- ══════════════════ УРОК 1 ══════════════════ -->
+  <div class="lesson">
+    <div class="lesson-header">
+      <div class="lesson-num">Урок 1</div>
+      <h2>
+        Условные предложения II типа
+        <span>Condicionales de II tipo</span>
+      </h2>
+    </div>
+    <div class="lesson-body">
+
+      <!-- Accordion 1: Определение -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc1-1" />
+        <label class="accordion-label" for="acc1-1">Что такое условные предложения II типа?</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              <strong>Условные предложения II типа</strong> (<em>Condicionales de II tipo</em>)
+              используются для описания <strong>маловероятных или невозможных ситуаций</strong>
+              в настоящем или будущем. Это уровень «если бы да кабы».
+            </p>
+            <p>
+              Говоря такое предложение, вы <strong>подразумеваете</strong>, что условие
+              противоречит реальности: вы знаете, что ситуация не такова — и именно об этом
+              и говорите.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 2: Формула -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc1-2" />
+        <label class="accordion-label" for="acc1-2">Основная формула</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>В этих предложениях <strong>жёсткая структура времён</strong>. Запоминать лучше схемой:</p>
+            <table class="formula-table">
+              <thead>
+                <tr>
+                  <th>Часть предложения</th>
+                  <th>Союз</th>
+                  <th>Время глагола</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Придаточная (условие)</td>
+                  <td><code>si</code></td>
+                  <td><code>Pretérito Imperfecto de Subjuntivo</code></td>
+                </tr>
+                <tr>
+                  <td>Главная (результат)</td>
+                  <td>—</td>
+                  <td><code>Potencial Simple (Condicional)</code></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 3: Главные правила -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc1-3" />
+        <label class="accordion-label" for="acc1-3">Главные правила кратко</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <ul class="rules-list">
+              <li>
+                <span class="rule-icon">1</span>
+                <div>
+                  <strong>Нереальность:</strong> Условие противоречит фактам. Например, вы говорите
+                  «Если бы я был богат…», подразумевая, что сейчас вы не богаты.
+                </div>
+              </li>
+              <li>
+                <span class="rule-icon">2</span>
+                <div>
+                  <strong>Subjuntivo после SI:</strong> Запомните как аксиому — после союза
+                  <em>si</em> в испанском <strong>никогда</strong> не ставится Condicional или
+                  Будущее время. Только Subjuntivo (в данном типе — Imperfecto).
+                </div>
+              </li>
+              <li>
+                <span class="rule-icon">3</span>
+                <div>
+                  <strong>Косвенная речь:</strong> Если вы переносите такое предложение в
+                  прошедшее время («Он сказал, что…»), времена <strong>не меняются</strong>.
+                  Структура остаётся прежней.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 4: Примеры -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc1-4" />
+        <label class="accordion-label" for="acc1-4">Примеры для практики</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>Вот несколько жизненных примеров с разбором:</p>
+            <div class="example-list">
+              <div class="example-card">
+                <div class="es">Si tuviera más tiempo, aprendería chino.</div>
+                <div class="ru">Если бы у меня было (сейчас / вообще) больше времени, я бы учил китайский.</div>
+                <div class="fact">Факт: времени нет</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si viviéramos en Madrid, iríamos al Museo del Prado cada domingo.</div>
+                <div class="ru">Если бы мы жили в Мадриде, мы бы ходили в Прадо каждое воскресенье.</div>
+                <div class="fact">Факт: мы живём в другом месте</div>
+              </div>
+              <div class="example-card">
+                <div class="es">¿Qué harías si te tocara la lotería?</div>
+                <div class="ru">Что бы ты сделал, если бы выиграл в лотерею?</div>
+                <div class="fact">Факт: вероятность этого крайне мала</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 5: Лайфхак -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc1-5" />
+        <label class="accordion-label" for="acc1-5">Лайфхак для запоминания</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <div class="lifehack">
+              <div class="lifehack-title">💡 Быстрый способ образовать Imperfecto de Subjuntivo</div>
+              <p>
+                Если вам сложно сразу ставить нужную форму Subjuntivo, вспомните, что
+                <strong>Imperfecto de Subjuntivo</strong> образуется от основы
+                <strong>3-го лица мн. числа Pretérito Indefinido</strong> (они сделали):
+              </p>
+              <p>
+                <code style="background:#fff3b0;border-radius:4px;padding:2px 6px;color:#7a5c00;">
+                  Ellos tuvieron → Si yo tuviera…
+                </code>
+              </p>
+              <p style="margin-top:8px;">Берёте форму «они», убираете окончание <em>-ron</em>, добавляете личные окончания Subjuntivo — и готово!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /lesson-body -->
+  </div><!-- /lesson -->
+
+
+  <!-- ══════════════════ УРОК 2 ══════════════════ -->
+  <div class="lesson">
+    <div class="lesson-header">
+      <div class="lesson-num">Урок 2</div>
+      <h2>
+        Условные предложения III типа
+        <span>Condicionales de III tipo</span>
+      </h2>
+    </div>
+    <div class="lesson-body">
+
+      <!-- Accordion 1: Определение -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc2-1" />
+        <label class="accordion-label" for="acc2-1">Что такое условные предложения III типа?</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              <strong>Условные предложения III типа</strong> (<em>Condicionales de III tipo</em>)
+              — это <strong>«сожаления о прошлом»</strong>. Если II тип говорил о маловероятном
+              настоящем, то III тип говорит о том, что уже произошло и чего <strong>нельзя
+              изменить</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 2: Формула -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc2-2" />
+        <label class="accordion-label" for="acc2-2">Основная формула</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              Здесь используются <strong>«сложные» (составные) времена</strong>, так как речь идёт
+              о завершённом действии в прошлом.
+            </p>
+            <table class="formula-table">
+              <thead>
+                <tr>
+                  <th>Часть предложения</th>
+                  <th>Союз</th>
+                  <th>Время глагола (Сложное)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Придаточная (условие в прошлом)</td>
+                  <td><code>si</code></td>
+                  <td><code>Pluscuamperfecto de Subjuntivo</code></td>
+                </tr>
+                <tr>
+                  <td>Главная (результат в прошлом)</td>
+                  <td>—</td>
+                  <td><code>Potencial Compuesto (Condicional Perfecto)</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="margin-top:10px;">
+              Формула кратко:
+              <code style="background:#dceaff;border-radius:4px;padding:2px 8px;color:#14336a;font-size:0.97rem;">
+                Si + hubiera (сделал) + habría (было бы сделано)
+              </code>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 3: Суть в трёх пунктах -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc2-3" />
+        <label class="accordion-label" for="acc2-3">Суть в трёх пунктах</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <ul class="rules-list">
+              <li>
+                <span class="rule-icon">1</span>
+                <div>
+                  <strong>Поезд ушёл:</strong> Действие относится к прошлому. Вы не можете
+                  вернуться назад и всё исправить.
+                </div>
+              </li>
+              <li>
+                <span class="rule-icon">2</span>
+                <div>
+                  <strong>Маркеры:</strong> В русском переводе мы часто добавляем слова
+                  «тогда», «уже», «в тот раз».
+                </div>
+              </li>
+              <li>
+                <span class="rule-icon">3</span>
+                <div>
+                  <strong>Стабильность:</strong> В косвенной речи времена не меняются,
+                  как и во II типе.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 4: Примеры -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc2-4" />
+        <label class="accordion-label" for="acc2-4">Примеры для понимания</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>Сравним реальность и «сослагательное» прошлое:</p>
+            <div class="example-list">
+              <div class="example-card">
+                <div class="es">Si hubieras estudiado más, habrías aprobado el examen.</div>
+                <div class="ru">Если бы ты (тогда) учился больше, ты бы сдал экзамен.</div>
+                <div class="fact">Факт: экзамен завален, время вышло</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si ayer no hubiera llovido, habríamos ido a la playa.</div>
+                <div class="ru">Если бы вчера не шёл дождь, мы бы пошли на пляж.</div>
+                <div class="fact">Факт: дождь шёл, мы остались дома</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si me lo hubieras dicho antes, te habría ayudado.</div>
+                <div class="ru">Если бы ты мне сказал об этом раньше, я бы тебе помог.</div>
+                <div class="fact">Факт: ты не сказал, помощь не была оказана</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 5: Шпаргалка -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc2-5" />
+        <label class="accordion-label" for="acc2-5">Шпаргалка по структуре</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>Чтобы не запутаться в причастиях, используйте эту таблицу-конструктор:</p>
+            <table class="cheat-table">
+              <thead>
+                <tr>
+                  <th>Придаточная часть (Si…)</th>
+                  <th>Главная часть (…habría)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>Si hubiera / hubieras… + Participio (-ado / -ido)</code></td>
+                  <td><code>habría / habrías… + Participio (-ado / -ido)</code></td>
+                </tr>
+                <tr>
+                  <td>Если бы я / ты (был/сделал) (купил, сказал)</td>
+                  <td>я / ты бы (был/сделал) (пришёл, купил)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 6: Косвенная речь -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc2-6" />
+        <label class="accordion-label" for="acc2-6">Косвенная речь (Simplificado)</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              При переносе в косвенную речь меняются только <strong>местоимения и лица
+              глаголов</strong>, если это необходимо по смыслу. Времена остаются теми же
+              «сложными» формами.
+            </p>
+            <div class="speech-box">
+              <div class="speech-label">Прямая речь:</div>
+              <p><em>«Si hubieras venido, habrías visto a Juan.»</em></p>
+              <hr class="divider" />
+              <div class="speech-label">Косвенная речь:</div>
+              <p><em>Él dijo que si yo hubiera venido, habría visto a Juan.</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /lesson-body -->
+  </div><!-- /lesson -->
+
+
+  <!-- ══════════════════ УРОК 3 ══════════════════ -->
+  <div class="lesson">
+    <div class="lesson-header">
+      <div class="lesson-num">Урок 3</div>
+      <h2>
+        Условные предложения смешанного типа
+        <span>Condicionales de tipo mixto</span>
+      </h2>
+    </div>
+    <div class="lesson-body">
+
+      <!-- Accordion 1: Что это такое -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc3-1" />
+        <label class="accordion-label" for="acc3-1">Что такое смешанный тип?</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              <strong>Смешанные условные предложения</strong> (<em>Condicionales de tipo mixto</em>)
+              — это конструкции, в которых <strong>части предложения относятся к разному времени</strong>:
+              одна часть говорит о прошлом, другая — о настоящем или будущем.
+            </p>
+            <p>
+              В реальной речи прошлое и настоящее неразрывно связаны: прошлое решение влияет
+              на сегодняшний день, а нынешнее состояние объясняет, почему что-то пошло не так
+              в прошлом. Смешанный тип позволяет выразить именно это.
+            </p>
+            <p>
+              Существуют <strong>два основных варианта</strong> смешения, и у каждого
+              своя формула.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 2: Вариант A — прошлое условие → настоящий результат -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc3-2" />
+        <label class="accordion-label" for="acc3-2">Вариант A — условие в прошлом, результат в настоящем</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              Используется, когда <strong>нереальное событие в прошлом</strong> повлекло бы
+              иной результат <strong>сейчас</strong>. Грубо говоря: «Если бы я тогда сделал X,
+              я бы сейчас был Y».
+            </p>
+            <table class="formula-table">
+              <thead>
+                <tr>
+                  <th>Часть предложения</th>
+                  <th>Союз</th>
+                  <th>Время глагола</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Придаточная (условие — прошлое)</td>
+                  <td><code>si</code></td>
+                  <td><code>Pluscuamperfecto de Subjuntivo</code></td>
+                </tr>
+                <tr>
+                  <td>Главная (результат — настоящее)</td>
+                  <td>—</td>
+                  <td><code>Potencial Simple (Condicional)</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="example-list" style="margin-top:14px;">
+              <div class="example-card">
+                <div class="es">Si hubiera estudiado medicina, ahora sería médico.</div>
+                <div class="ru">Если бы я (тогда) учился на врача, сейчас я был бы врачом.</div>
+                <div class="fact">Прошлое: не учился → Настоящее: не врач</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si no hubieras perdido el trabajo, no estarías tan estresado ahora.</div>
+                <div class="ru">Если бы ты тогда не потерял работу, ты бы сейчас не был таким напряжённым.</div>
+                <div class="fact">Прошлое: потерял работу → Настоящее: испытываешь стресс</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si hubiera invertido ese dinero, ahora tendría una casa propia.</div>
+                <div class="ru">Если бы я вложил те деньги, сейчас у меня был бы свой дом.</div>
+                <div class="fact">Прошлое: не вложил → Настоящее: нет дома</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 3: Вариант B — настоящее условие → прошлый результат -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc3-3" />
+        <label class="accordion-label" for="acc3-3">Вариант B — условие в настоящем, результат в прошлом</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>
+              Используется, когда <strong>нынешнее качество или состояние</strong> объясняет,
+              почему что-то произошло (или не произошло) <strong>в прошлом</strong>.
+              Грубо говоря: «Если бы я сейчас был X, я бы тогда сделал Y».
+            </p>
+            <table class="formula-table">
+              <thead>
+                <tr>
+                  <th>Часть предложения</th>
+                  <th>Союз</th>
+                  <th>Время глагола</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Придаточная (условие — настоящее)</td>
+                  <td><code>si</code></td>
+                  <td><code>Pretérito Imperfecto de Subjuntivo</code></td>
+                </tr>
+                <tr>
+                  <td>Главная (результат — прошлое)</td>
+                  <td>—</td>
+                  <td><code>Potencial Compuesto (Condicional Perfecto)</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="example-list" style="margin-top:14px;">
+              <div class="example-card">
+                <div class="es">Si fuera más valiente, habría dicho la verdad ayer.</div>
+                <div class="ru">Если бы я был (по природе) смелее, я бы вчера сказал правду.</div>
+                <div class="fact">Настоящее: я трусоват → Прошлое: не сказал вчера</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si supiera inglés, habría conseguido ese trabajo.</div>
+                <div class="ru">Если бы я знал английский, я бы получил ту работу.</div>
+                <div class="fact">Настоящее: не знаю → Прошлое: не получил работу</div>
+              </div>
+              <div class="example-card">
+                <div class="es">Si tuvieras más paciencia, no te habrías enfadado tanto con ella.</div>
+                <div class="ru">Если бы у тебя было больше терпения, ты бы так сильно не злился на неё.</div>
+                <div class="fact">Настоящее: нет терпения → Прошлое: разозлился</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 4: Сравнение двух вариантов -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc3-4" />
+        <label class="accordion-label" for="acc3-4">Сравнение вариантов A и B</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <p>Чтобы легче выбрать нужный вариант, ответьте на один вопрос:</p>
+            <table class="cheat-table">
+              <thead>
+                <tr>
+                  <th>Вопрос</th>
+                  <th>Вариант A</th>
+                  <th>Вариант B</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Где нереальное условие?</td>
+                  <td>В <strong>прошлом</strong></td>
+                  <td>В <strong>настоящем</strong></td>
+                </tr>
+                <tr>
+                  <td>Где воображаемый результат?</td>
+                  <td>В <strong>настоящем</strong></td>
+                  <td>В <strong>прошлом</strong></td>
+                </tr>
+                <tr>
+                  <td>Придаточная часть (si)</td>
+                  <td><code>Pluscuamperfecto Subj.</code></td>
+                  <td><code>Imperfecto Subj.</code></td>
+                </tr>
+                <tr>
+                  <td>Главная часть</td>
+                  <td><code>Condicional Simple</code></td>
+                  <td><code>Condicional Perfecto</code></td>
+                </tr>
+                <tr>
+                  <td>Ключевая подсказка в русском</td>
+                  <td>«…я бы <strong>сейчас</strong>…»</td>
+                  <td>«…я бы <strong>тогда</strong>…»</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 5: Главные правила -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc3-5" />
+        <label class="accordion-label" for="acc3-5">Главные правила кратко</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <ul class="rules-list">
+              <li>
+                <span class="rule-icon">1</span>
+                <div>
+                  <strong>Разные времена — не ошибка:</strong> Именно смешение времён отличает
+                  этот тип от «чистых» II и III. Это норма языка, а не исключение.
+                </div>
+              </li>
+              <li>
+                <span class="rule-icon">2</span>
+                <div>
+                  <strong>Si — без Condicional:</strong> Правило неизменно для всех типов.
+                  После <em>si</em> всегда стоит Subjuntivo, никогда Condicional или Futuro.
+                </div>
+              </li>
+              <li>
+                <span class="rule-icon">3</span>
+                <div>
+                  <strong>Подсказка ahora / entonces:</strong> Если в главной части есть
+                  слово <em>ahora</em> (сейчас) — скорее всего вариант A.
+                  Если <em>entonces / ayer / en aquel momento</em> — вариант B.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 6: Общая шпаргалка по всем трём типам -->
+      <div class="accordion">
+        <input type="checkbox" class="accordion-toggle" id="acc3-6" />
+        <label class="accordion-label" for="acc3-6">Итоговая шпаргалка: все три типа</label>
+        <div class="accordion-content">
+          <div class="acc-text">
+            <table class="cheat-table">
+              <thead>
+                <tr>
+                  <th>Тип</th>
+                  <th>Когда</th>
+                  <th>Si + …</th>
+                  <th>Главная часть</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>II</strong></td>
+                  <td>Маловероятное настоящее/будущее</td>
+                  <td><code>Imperfecto Subj.</code></td>
+                  <td><code>Condicional Simple</code></td>
+                </tr>
+                <tr>
+                  <td><strong>III</strong></td>
+                  <td>Нереальное прошлое → прошлый результат</td>
+                  <td><code>Pluscuamp. Subj.</code></td>
+                  <td><code>Condicional Perfecto</code></td>
+                </tr>
+                <tr>
+                  <td><strong>Mixto A</strong></td>
+                  <td>Прошлое условие → настоящий результат</td>
+                  <td><code>Pluscuamp. Subj.</code></td>
+                  <td><code>Condicional Simple</code></td>
+                </tr>
+                <tr>
+                  <td><strong>Mixto B</strong></td>
+                  <td>Настоящее условие → прошлый результат</td>
+                  <td><code>Imperfecto Subj.</code></td>
+                  <td><code>Condicional Perfecto</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="lifehack" style="margin-top:16px;">
+              <div class="lifehack-title">💡 Быстрая формула</div>
+              <p>
+                Смотрите на <strong>главную часть</strong>: если результат относится
+                к <em>настоящему</em> — ставьте <strong>Condicional Simple</strong>
+                (hablaría, tendría…). Если к <em>прошлому</em> — ставьте
+                <strong>Condicional Perfecto</strong> (habría hablado, habría tenido…).
+                Придаточная часть согласуется с ним автоматически.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /lesson-body -->
+  </div><!-- /lesson -->
+
+</div><!-- /container -->
+</body>
+</html>
