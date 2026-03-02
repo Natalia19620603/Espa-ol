@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-17']
+    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-16', 'module-17']
   }
 ]
 
@@ -106,6 +106,13 @@ export const modules = {
     level: 'intermediate',
     lessons: ['lesson-15-1', 'lesson-15-2', 'lesson-15-3'],
     description: '1 Futuro compuesto (будущее сложное время): временное и модальное значение. 2 Potencial Compuesto (Condicional Compuesto): сожаление о прошлом, будущее в прошлом, догадка о далёком прошлом. 3 Futuro hipotético. Употребление будущих времён в модальном значении. Сравнительная характеристика'
+  },
+  'module-16': {
+    id: 'module-16',
+    title: 'Модуль 16: Условные предложения (II, III и смешанный тип)',
+    level: 'intermediate',
+    lessons: ['lesson-16-1', 'lesson-16-2', 'lesson-16-3'],
+    description: '1 Условные предложения II типа (нереальное условие в настоящем/будущем). 2 Условные предложения III типа (нереальное условие в прошлом). 3 Условные предложения смешанного типа (Condicionales de tipo mixto)'
   },
   'module-8': {
     id: 'module-8',
@@ -20502,6 +20509,266 @@ Había llegado.     →   Habría llegado.
       ]
     },
     exercises: ['ex-15-3-1', 'ex-15-3-2']
+  },
+
+  'lesson-16-1': {
+    id: 'lesson-16-1',
+    title: 'Урок 1: Условные предложения II типа',
+    moduleId: 'module-16',
+    grammar: {
+      title: 'Condicionales de II tipo — нереальное условие в настоящем/будущем',
+      intro: `**Условные предложения II типа** (*Condicionales de II tipo*) используются для описания **маловероятных или невозможных ситуаций** в настоящем или будущем. Говоря такое предложение, вы подразумеваете, что условие противоречит реальности.`,
+      sections: [
+        {
+          id: 'cond2-formula',
+          title: '1. Основная формула',
+          content: `## 1. Основная формула
+
+В этих предложениях **жёсткая структура времён**:
+
+| Часть предложения | Союз | Время глагола |
+|-------------------|------|---------------|
+| Придаточная (условие) | **si** | **Pretérito Imperfecto de Subjuntivo** |
+| Главная (результат) | — | **Potencial Simple (Condicional)** |
+
+> *Si tuviera más tiempo, aprendería chino.*
+> — Если бы у меня было больше времени, я бы учил китайский. *(Факт: времени нет)*`
+        },
+        {
+          id: 'cond2-rules',
+          title: '2. Главные правила',
+          content: `## 2. Главные правила
+
+**1. Нереальность.** Условие противоречит фактам. «Если бы я был богат…» — подразумевается, что сейчас вы не богаты.
+
+**2. Subjuntivo после SI.** После союза *si* в испанском **никогда** не ставится Condicional или Будущее время. Только Subjuntivo (в данном типе — Imperfecto).
+
+**3. Косвенная речь.** При переносе в прошедшее время структура **не меняется**.`
+        },
+        {
+          id: 'cond2-examples',
+          title: '3. Примеры',
+          content: `## 3. Примеры для практики
+
+| Испанский | Русский | Факт |
+|-----------|---------|------|
+| *Si **tuviera** más tiempo, **aprendería** chino.* | Если бы у меня было больше времени, я бы учил китайский. | Времени нет |
+| *Si **viviéramos** en Madrid, **iríamos** al Museo del Prado cada domingo.* | Если бы мы жили в Мадриде, мы бы ходили в Прадо каждое воскресенье. | Живём в другом месте |
+| *¿Qué **harías** si te **tocara** la lotería?* | Что бы ты сделал, если бы выиграл в лотерею? | Вероятность крайне мала |`
+        },
+        {
+          id: 'cond2-lifehack',
+          title: '4. Лайфхак: как образовать Imperfecto de Subjuntivo',
+          content: `## 4. Лайфхак для запоминания
+
+**Imperfecto de Subjuntivo** образуется от основы **3-го лица мн. числа Pretérito Indefinido** (они сделали):
+
+\`\`\`
+Ellos tuvieron  →  Si yo tuviera…
+Ellos hablaron  →  Si yo hablara…
+Ellos comieron  →  Si yo comiera…
+\`\`\`
+
+Берёте форму «они», убираете окончание **-ron**, добавляете личные окончания Subjuntivo — готово!
+
+| Лицо | -AR (hablar) | -ER/-IR (comer) |
+|------|--------------|-----------------|
+| yo | hablara | comiera |
+| tú | hablaras | comieras |
+| él/ella | hablara | comiera |
+| nosotros | habláramos | comiéramos |
+| vosotros | hablarais | comierais |
+| ellos | hablaran | comieran |`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'condición f', translation: 'условие', audioUrl: null },
+      { word: 'resultado m', translation: 'результат', audioUrl: null },
+      { word: 'improbable', translation: 'маловероятный', audioUrl: null },
+      { word: 'imposible', translation: 'невозможный', audioUrl: null },
+      { word: 'imaginario', translation: 'воображаемый', audioUrl: null },
+      { word: 'subjuntivo m', translation: 'сослагательное наклонение', audioUrl: null },
+      { word: 'condicional m', translation: 'условное наклонение', audioUrl: null },
+      { word: 'negar', translation: 'отрицать, отрицать реальность', audioUrl: null },
+      { word: 'suponer', translation: 'предполагать', audioUrl: null },
+      { word: 'aunque', translation: 'хотя', audioUrl: null }
+    ],
+    exercises: []
+  },
+
+  'lesson-16-2': {
+    id: 'lesson-16-2',
+    title: 'Урок 2: Условные предложения III типа',
+    moduleId: 'module-16',
+    grammar: {
+      title: 'Condicionales de III tipo — нереальное условие в прошлом',
+      intro: `**Условные предложения III типа** (*Condicionales de III tipo*) — это **«сожаления о прошлом»**. Если II тип говорит о маловероятном настоящем, то III тип говорит о том, что уже произошло и чего **нельзя изменить**.`,
+      sections: [
+        {
+          id: 'cond3-formula',
+          title: '1. Основная формула',
+          content: `## 1. Основная формула
+
+Здесь используются **«сложные» (составные) времена**, так как речь идёт о завершённом действии в прошлом:
+
+| Часть предложения | Союз | Время глагола (Сложное) |
+|-------------------|------|-------------------------|
+| Придаточная (условие в прошлом) | **si** | **Pluscuamperfecto de Subjuntivo** |
+| Главная (результат в прошлом) | — | **Potencial Compuesto (Condicional Perfecto)** |
+
+> *Si **hubiera** estudiado más, **habría** aprobado el examen.*
+
+Кратко: **Si + hubiera (сделал) + habría (было бы сделано)**`
+        },
+        {
+          id: 'cond3-rules',
+          title: '2. Суть в трёх пунктах',
+          content: `## 2. Суть в трёх пунктах
+
+**1. Поезд ушёл.** Действие относится к прошлому. Вернуться назад и исправить невозможно.
+
+**2. Маркеры.** В русском переводе часто добавляются слова «тогда», «уже», «в тот раз».
+
+**3. Стабильность.** В косвенной речи времена не меняются — как и во II типе.`
+        },
+        {
+          id: 'cond3-examples',
+          title: '3. Примеры',
+          content: `## 3. Примеры для понимания
+
+| Испанский | Русский | Факт |
+|-----------|---------|------|
+| *Si **hubieras** estudiado más, **habrías** aprobado el examen.* | Если бы ты (тогда) учился больше, ты бы сдал экзамен. | Экзамен завален |
+| *Si ayer no **hubiera** llovido, **habríamos** ido a la playa.* | Если бы вчера не шёл дождь, мы бы пошли на пляж. | Дождь шёл |
+| *Si me lo **hubieras** dicho antes, te **habría** ayudado.* | Если бы ты мне сказал раньше, я бы помог. | Не сказал |`
+        },
+        {
+          id: 'cond3-cheatsheet',
+          title: '4. Шпаргалка по структуре',
+          content: `## 4. Шпаргалка: таблица-конструктор
+
+| Придаточная часть (Si…) | Главная часть |
+|-------------------------|---------------|
+| *Si **hubiera / hubieras**… + Participio (-ado / -ido)* | *habría / habrías… + Participio (-ado / -ido)* |
+| Если бы я / ты (тогда сделал) | я / ты бы (тогда сделал) |
+
+### Косвенная речь
+
+При переносе в косвенную речь меняются только **местоимения и лица глаголов**, если необходимо по смыслу. Времена остаются теми же «сложными» формами:
+
+- Прямая речь: *«Si **hubieras** venido, **habrías** visto a Juan.»*
+- Косвенная речь: *Él dijo que si yo **hubiera** venido, **habría** visto a Juan.*`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'arrepentirse', translation: 'сожалеть, раскаиваться', audioUrl: null },
+      { word: 'lamentar', translation: 'сожалеть', audioUrl: null },
+      { word: 'oportunidad f', translation: 'возможность, шанс', audioUrl: null },
+      { word: 'fracasar', translation: 'потерпеть неудачу', audioUrl: null },
+      { word: 'aprovechar', translation: 'воспользоваться', audioUrl: null },
+      { word: 'perderse', translation: 'упустить, пропустить', audioUrl: null },
+      { word: 'hubiera / hubiese', translation: 'если бы (было)', audioUrl: null },
+      { word: 'habría', translation: 'было бы / я бы сделал', audioUrl: null },
+      { word: 'pluscuamperfecto m', translation: 'предпрошедшее время', audioUrl: null },
+      { word: 'participio m', translation: 'причастие (прошедшего времени)', audioUrl: null }
+    ],
+    exercises: []
+  },
+
+  'lesson-16-3': {
+    id: 'lesson-16-3',
+    title: 'Урок 3: Условные предложения смешанного типа',
+    moduleId: 'module-16',
+    grammar: {
+      title: 'Condicionales de tipo mixto — смешение времён',
+      intro: `**Смешанные условные предложения** (*Condicionales de tipo mixto*) — конструкции, в которых **части предложения относятся к разному времени**: одна говорит о прошлом, другая — о настоящем или будущем. Существуют **два основных варианта**.`,
+      sections: [
+        {
+          id: 'mixto-varA',
+          title: '1. Вариант A — условие в прошлом, результат в настоящем',
+          content: `## 1. Вариант A — прошлое условие → настоящий результат
+
+Используется, когда **нереальное событие в прошлом** повлекло бы иной результат **сейчас**. Грубо говоря: «Если бы я тогда сделал X, я бы сейчас был Y».
+
+| Часть предложения | Союз | Время глагола |
+|-------------------|------|---------------|
+| Придаточная (условие — **прошлое**) | **si** | **Pluscuamperfecto de Subjuntivo** |
+| Главная (результат — **настоящее**) | — | **Potencial Simple (Condicional)** |
+
+### Примеры
+
+| Испанский | Русский | Факт |
+|-----------|---------|------|
+| *Si **hubiera** estudiado medicina, ahora **sería** médico.* | Если бы я учился на врача, сейчас я был бы врачом. | Прошлое: не учился → Настоящее: не врач |
+| *Si no **hubieras** perdido el trabajo, no **estarías** tan estresado ahora.* | Если бы ты не потерял работу, ты бы сейчас не был таким напряжённым. | Прошлое: потерял → Настоящее: стресс |
+| *Si **hubiera** invertido ese dinero, ahora **tendría** una casa propia.* | Если бы я вложил те деньги, сейчас у меня был бы свой дом. | Прошлое: не вложил → Настоящее: нет дома |`
+        },
+        {
+          id: 'mixto-varB',
+          title: '2. Вариант B — условие в настоящем, результат в прошлом',
+          content: `## 2. Вариант B — настоящее условие → прошлый результат
+
+Используется, когда **нынешнее качество или состояние** объясняет, почему что-то произошло (или не произошло) **в прошлом**. Грубо говоря: «Если бы я сейчас был X, я бы тогда сделал Y».
+
+| Часть предложения | Союз | Время глагола |
+|-------------------|------|---------------|
+| Придаточная (условие — **настоящее**) | **si** | **Pretérito Imperfecto de Subjuntivo** |
+| Главная (результат — **прошлое**) | — | **Potencial Compuesto (Condicional Perfecto)** |
+
+### Примеры
+
+| Испанский | Русский | Факт |
+|-----------|---------|------|
+| *Si **fuera** más valiente, **habría** dicho la verdad ayer.* | Если бы я был (по природе) смелее, я бы вчера сказал правду. | Настоящее: трусоват → Прошлое: не сказал |
+| *Si **supiera** inglés, **habría** conseguido ese trabajo.* | Если бы я знал английский, я бы получил ту работу. | Настоящее: не знаю → Прошлое: не получил |
+| *Si **tuvieras** más paciencia, no te **habrías** enfadado tanto con ella.* | Если бы у тебя было больше терпения, ты бы так не злился на неё. | Настоящее: нет терпения → Прошлое: разозлился |`
+        },
+        {
+          id: 'mixto-comparison',
+          title: '3. Сравнение вариантов A и B',
+          content: `## 3. Как выбрать вариант A или B
+
+Ответьте на один вопрос:
+
+| Вопрос | Вариант A | Вариант B |
+|--------|-----------|-----------|
+| Где нереальное условие? | В **прошлом** | В **настоящем** |
+| Где воображаемый результат? | В **настоящем** | В **прошлом** |
+| Придаточная часть (si) | **Pluscuamperfecto Subj.** | **Imperfecto Subj.** |
+| Главная часть | **Condicional Simple** | **Condicional Perfecto** |
+| Ключевая подсказка в русском | «…я бы **сейчас**…» | «…я бы **тогда**…» |`
+        },
+        {
+          id: 'mixto-summary',
+          title: '4. Итоговая шпаргалка: все три типа',
+          content: `## 4. Итоговая шпаргалка: все три типа
+
+| Тип | Когда | Si + … | Главная часть |
+|-----|-------|--------|---------------|
+| **II** | Маловероятное настоящее/будущее | Imperfecto Subj. | Condicional Simple |
+| **III** | Нереальное прошлое → прошлый результат | Pluscuamp. Subj. | Condicional Perfecto |
+| **Mixto A** | Прошлое условие → настоящий результат | Pluscuamp. Subj. | Condicional Simple |
+| **Mixto B** | Настоящее условие → прошлый результат | Imperfecto Subj. | Condicional Perfecto |
+
+> **Быстрая формула:** смотрите на **главную часть**. Результат в настоящем → **Condicional Simple** (hablaría, tendría…). Результат в прошлом → **Condicional Perfecto** (habría hablado, habría tenido…).`
+        }
+      ]
+    },
+    vocabulary: [
+      { word: 'mixto', translation: 'смешанный', audioUrl: null },
+      { word: 'combinar', translation: 'сочетать, комбинировать', audioUrl: null },
+      { word: 'valiente', translation: 'смелый', audioUrl: null },
+      { word: 'paciencia f', translation: 'терпение', audioUrl: null },
+      { word: 'enfadarse', translation: 'злиться, обижаться', audioUrl: null },
+      { word: 'invertir', translation: 'вкладывать, инвестировать', audioUrl: null },
+      { word: 'conseguir', translation: 'добиться, получить', audioUrl: null },
+      { word: 'estrés m', translation: 'стресс', audioUrl: null },
+      { word: 'ahora', translation: 'сейчас (ключевое слово варианта A)', audioUrl: null },
+      { word: 'entonces / ayer', translation: 'тогда / вчера (ключевое слово варианта B)', audioUrl: null }
+    ],
+    exercises: []
   },
 
   'lesson-14-1': {
