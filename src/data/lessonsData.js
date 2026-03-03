@@ -51092,6 +51092,3332 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Si no hubiesen perdido el tren, habrían llegado a casa y estarían descansando.']
       }
     ]
+  },
+
+  // ============ МОДУЛЬ 16: УСЛОВНЫЕ ПРЕДЛОЖЕНИЯ II, III ТИПА И СМЕШАННОГО ТИПА (B1) ============
+
+  // УРОК 16-1: Условные предложения II типа
+
+  'ex-16-1-1': {
+    id: 'ex-16-1-1',
+    type: 'transformation',
+    title: 'Упражнение 1: Измените предложения по образцу и переведите на русский язык',
+    description: 'Преобразуйте условные предложения I типа в предложения II типа. Образец: Si sigues mis consejos, resolverás el problema. → Si siguieras mis consejos, resolverías el problema.',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si yo puedo, vendré a verte sin falta.',
+        correct: 'Si yo pudiera, vendría a verte sin falta.',
+        translation: 'Если бы я мог, я бы обязательно пришел к тебе.'
+      },
+      {
+        sentence: 'Si me ayudas, te lo agradeceré.',
+        correct: 'Si me ayudaras, te lo agradecería.',
+        translation: 'Если бы ты мне помог, я бы тебе был благодарен.'
+      },
+      {
+        sentence: 'Si tienen dinero, alquilarán una casa en Costa Brava.',
+        correct: 'Si tuvieran dinero, alquilarían una casa en Costa Brava.',
+        translation: 'Если бы у них были деньги, они бы сняли дом на Коста Брава.'
+      },
+      {
+        sentence: 'Si me toca la lotería, dejaré de trabajar.',
+        correct: 'Si me tocara la lotería, dejaría de trabajar.',
+        translation: 'Если бы мне выпал лотерейный билет, я бы перестал работать.'
+      },
+      {
+        sentence: 'Si ganáis más dinero, podréis reparar el piso.',
+        correct: 'Si ganarais más dinero, podríais reparar el piso.',
+        translation: 'Если бы вы зарабатывали больше денег, вы бы могли отремонтировать квартиру.'
+      },
+      {
+        sentence: 'Si no hace tanto frío, saldremos a dar un paseo.',
+        correct: 'Si no hiciera tanto frío, saldríamos a dar un paseo.',
+        translation: 'Если бы не было так холодно, мы бы вышли на прогулку.'
+      },
+      {
+        sentence: 'Si ellos saben informática, encontrarán un trabajo.',
+        correct: 'Si ellos supieran informática, encontrarían un trabajo.',
+        translation: 'Если бы они знали информатику, они бы нашли работу.'
+      },
+      {
+        sentence: 'Si él me pide la mano, me casaré con él.',
+        correct: 'Si él me pidiera la mano, me casaría con él.',
+        translation: 'Если бы он попросил моей руки, я бы вышла за него замуж.'
+      },
+      {
+        sentence: 'Si soy millonario, te regalaré una isla.',
+        correct: 'Si fuera millonario, te regalaría una isla.',
+        translation: 'Если бы я был миллионером, я бы подарил тебе остров.'
+      },
+      {
+        sentence: 'Si lees este libro, sabrás mucho de las costumbres españolas.',
+        correct: 'Si leyeras este libro, sabrías mucho de las costumbres españolas.',
+        translation: 'Если бы ты прочитал эту книгу, ты бы много узнал об испанских обычаях.'
+      },
+      {
+        sentence: 'Si viene María, será una fiesta maravillosa.',
+        correct: 'Si viniera María, sería una fiesta maravillosa.',
+        translation: 'Если бы пришла Мария, это была бы чудесная вечеринка.'
+      },
+      {
+        sentence: 'Si estudiamos más, aprobaremos todos los exámenes.',
+        correct: 'Si estudiáramos más, aprobaríamos todos los exámenes.',
+        translation: 'Если бы мы больше учились, мы бы сдали все экзамены.'
+      },
+      {
+        sentence: 'Si llueve mañana, nos quedaremos en casa.',
+        correct: 'Si lloviera mañana, nos quedaríamos en casa.',
+        translation: 'Если бы завтра был дождь, мы бы остались дома.'
+      },
+      {
+        sentence: 'Si compras ese coche, gastarás todo tu dinero.',
+        correct: 'Si compraras ese coche, gastarías todo tu dinero.',
+        translation: 'Если бы ты купил ту машину, ты бы потратил все свои деньги.'
+      },
+      {
+        sentence: 'Si hablas con el jefe, resolverás el problema.',
+        correct: 'Si hablaras con el jefe, resolverías el problema.',
+        translation: 'Если бы ты поговорил с начальником, ты бы решил проблему.'
+      },
+      {
+        sentence: 'Si vamos al cine, veremos la nueva película.',
+        correct: 'Si fuéramos al cine, veríamos la nueva película.',
+        translation: 'Если бы мы пошли в кино, мы бы посмотрели новый фильм.'
+      },
+      {
+        sentence: 'Si comes menos dulces, adelgazarás.',
+        correct: 'Si comieras menos dulces, adelgazarías.',
+        translation: 'Если бы ты ел меньше сладкого, ты бы похудел.'
+      },
+      {
+        sentence: 'Si practico más, mejoraré mi español.',
+        correct: 'Si practicara más, mejoraría mi español.',
+        translation: 'Если бы я больше практиковался, я бы улучшил свой испанский.'
+      },
+      {
+        sentence: 'Si hace sol, iremos a la playa.',
+        correct: 'Si hiciera sol, iríamos a la playa.',
+        translation: 'Если бы было солнечно, мы бы пошли на пляж.'
+      },
+      {
+        sentence: 'Si te levantas temprano, tendrás tiempo para desayunar.',
+        correct: 'Si te levantaras temprano, tendrías tiempo para desayunar.',
+        translation: 'Если бы ты вставал рано, у тебя было бы время позавтракать.'
+      }
+    ]
+  },
+
+  'ex-16-1-2': {
+    id: 'ex-16-1-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Поставьте глаголы в соответствующую форму для образования II типа условных предложений',
+    description: 'Поставьте глаголы в Imperfecto de Subjuntivo и Condicional Simple',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si nosotros _____ (poder) practicar deporte, _____ (escoger) el tenis.',
+        correct: 'pudiéramos, escogeríamos',
+        translation: 'Если бы мы могли заниматься спортом, мы бы выбрали теннис.'
+      },
+      {
+        sentence: 'Si _____ (saber, yo) toda la verdad, _____ (perdonarle).',
+        correct: 'supiera, le perdonaría',
+        translation: 'Если бы я знал всю правду, я бы его простил.'
+      },
+      {
+        sentence: '¿A qué _____ (dedicarse, vosotros), si no _____ (tener) que estudiar?',
+        correct: 'os dedicaríais, tuvierais',
+        translation: 'Чем бы вы занимались, если бы вам не нужно было учиться?'
+      },
+      {
+        sentence: 'Si ahora no _____ (ser) tan tarde, _____ (dar, nosotros) una vuelta a lo largo de la playa.',
+        correct: 'fuera, daríamos',
+        translation: 'Если бы сейчас не было так поздно, мы бы прогулялись вдоль пляжа.'
+      },
+      {
+        sentence: '¿Cómo _____ (vivir) ustedes, si el hijo no _____ (ayudarlos)?',
+        correct: 'vivirían, los ayudara',
+        translation: 'Как бы вы жили, если бы сын вам не помогал?'
+      },
+      {
+        sentence: 'Si Juan _____ (invitarte) a su concierto, ¿qué _____ (decirle, tú)? — Yo _____ (rehusar) la invitación.',
+        correct: 'te invitara, le dirías, rehusaría',
+        translation: 'Если бы Хуан пригласил тебя на свой концерт, что бы ты ему сказал? — Я бы отказался от приглашения.'
+      },
+      {
+        sentence: 'Alberto y yo _____ (aprender) a bailar salsa, si _____ (ir) al Caribe.',
+        correct: 'aprenderíamos, fuéramos',
+        translation: 'Мы с Альберто научились бы танцевать сальсу, если бы поехали на Карибы.'
+      },
+      {
+        sentence: '_____ (Hacer, yo) un plato típico mexicano, si _____ (tener, yo) un libro de recetas.',
+        correct: 'Haría, tuviera',
+        translation: 'Я бы приготовил типичное мексиканское блюдо, если бы у меня была книга рецептов.'
+      },
+      {
+        sentence: '¿_____ (Leer, tú) "Don Quijote de La Mancha" de Cervantes en original, si _____ (saber, tú) el castellano?',
+        correct: 'Leerías, supieras',
+        translation: 'Ты бы прочитал "Дон Кихота" Сервантеса в оригинале, если бы знал испанский?'
+      },
+      {
+        sentence: '¿Qué país sudamericano _____ (querer) usted visitar en primer lugar, si _____ (presentársele) la ocasión?',
+        correct: 'querría, se le presentara',
+        translation: 'Какую южноамериканскую страну вы бы хотели посетить в первую очередь, если бы представилась возможность?'
+      },
+      {
+        sentence: 'Si _____ (llover) ahora, nosotros no _____ (salir) de casa.',
+        correct: 'lloviera, saldríamos',
+        translation: 'Если бы сейчас шел дождь, мы бы не вышли из дома.'
+      },
+      {
+        sentence: 'Ellos _____ (comprar) una casa más grande, si _____ (tener) más dinero.',
+        correct: 'comprarían, tuvieran',
+        translation: 'Они бы купили дом побольше, если бы у них было больше денег.'
+      },
+      {
+        sentence: 'Si tú _____ (venir) a la fiesta, todos _____ (alegrarse).',
+        correct: 'vinieras, se alegrarían',
+        translation: 'Если бы ты пришел на вечеринку, все бы обрадовались.'
+      },
+      {
+        sentence: '¿Qué _____ (hacer, vosotros) si _____ (ganar) la lotería?',
+        correct: 'haríais, ganarais',
+        translation: 'Что бы вы сделали, если бы выиграли в лотерею?'
+      },
+      {
+        sentence: 'Si yo _____ (estar) en tu lugar, _____ (aceptar) esa oferta de trabajo.',
+        correct: 'estuviera, aceptaría',
+        translation: 'Если бы я был на твоем месте, я бы принял то предложение о работе.'
+      },
+      {
+        sentence: 'Nosotros _____ (viajar) más, si _____ (tener) más tiempo libre.',
+        correct: 'viajaríamos, tuviéramos',
+        translation: 'Мы бы больше путешествовали, если бы у нас было больше свободного времени.'
+      },
+      {
+        sentence: 'Si ella _____ (estudiar) medicina, _____ (ser) una buena doctora.',
+        correct: 'estudiara, sería',
+        translation: 'Если бы она изучала медицину, она была бы хорошим врачом.'
+      },
+      {
+        sentence: '¿_____ (Mudarse, tú) a otra ciudad si te _____ (ofrecer) un mejor trabajo?',
+        correct: 'Te mudarías, ofrecieran',
+        translation: 'Ты бы переехал в другой город, если бы тебе предложили лучшую работу?'
+      },
+      {
+        sentence: 'Si nosotros _____ (hablar) mejor inglés, _____ (poder) trabajar en una empresa internacional.',
+        correct: 'habláramos, podríamos',
+        translation: 'Если бы мы лучше говорили по-английски, мы бы могли работать в международной компании.'
+      },
+      {
+        sentence: 'Ellos _____ (ser) más felices si no _____ (trabajar) tanto.',
+        correct: 'serían, trabajaran',
+        translation: 'Они были бы счастливее, если бы не работали так много.'
+      }
+    ]
+  },
+
+  'ex-16-1-3': {
+    id: 'ex-16-1-3',
+    type: 'translation',
+    title: 'Упражнение 3: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский, используя условные предложения II типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если бы дети были старше, мы могли бы их оставить одних дома и пойти вечером в кино.',
+        correct: 'Si los niños fueran mayores, podríamos dejarlos solos en casa e ir al cine por la noche.',
+        alternatives: ['Si los hijos fueran más grandes, los podríamos dejar solos en casa y podríamos ir al cine por la tarde.']
+      },
+      {
+        russian: 'Если бы у нас не было мобильных телефонов, мы не могли бы 24 часа в сутки быть на связи с нашими друзьями и родными.',
+        correct: 'Si no tuviéramos teléfonos móviles, no podríamos estar en contacto con nuestros amigos y familiares 24 horas al día.',
+        alternatives: ['Si no tuviéramos móviles, no podríamos estar conectados con nuestros amigos y parientes todo el día.']
+      },
+      {
+        russian: 'Если бы ты не сидел целый день за компьютером, ты бы мог заниматься спортом, встречаться с друзьями и читать больше книг.',
+        correct: 'Si no estuvieras todo el día delante del ordenador, podrías hacer deporte, quedar con amigos y leer más libros.',
+        alternatives: ['Si no pasaras todo el día sentado en el ordenador, podrías practicar deporte, ver a tus amigos y leer más.']
+      },
+      {
+        russian: 'Если бы Андрей не был таким некрасивым и зарабатывал больше, то я бы вышла за него замуж.',
+        correct: 'Si Andrés no fuera tan feo y ganara más, me casaría con él.',
+        alternatives: ['Si Andrei no fuera tan poco atractivo y ganara más dinero, yo me casaría con él.']
+      },
+      {
+        russian: 'Если бы бабушка себя лучше чувствовала, она бы помогала мне заботиться о детях.',
+        correct: 'Si la abuela se sintiera mejor, me ayudaría a cuidar de los niños.',
+        alternatives: ['Si mi abuela se encontrara mejor, ella me ayudaría a cuidar a los niños.']
+      },
+      {
+        russian: 'Я бы не изучала испанский язык на курсах в институте Сервантеса, если бы мне не требовалось знание испанского для работы.',
+        correct: 'No estudiaría español en los cursos del Instituto Cervantes si no necesitara el español para trabajar.',
+        alternatives: ['Yo no estudiaría español en el Instituto Cervantes si no requiriera conocimientos de español para mi trabajo.']
+      },
+      {
+        russian: 'Если бы нам представилась возможность поехать в Латинскую Америку, я бы выбрала Перу и посетила пустыню Наска.',
+        correct: 'Si se nos presentara la oportunidad de viajar a América Latina, elegiría Perú y visitaría el desierto de Nazca.',
+        alternatives: ['Si tuviéramos la posibilidad de ir a Latinoamérica, yo escogería Perú y visitaría el desierto de Nasca.']
+      },
+      {
+        russian: 'Если бы ты занимался спортом, то был бы сильным и здоровым.',
+        correct: 'Si hicieras deporte, serías fuerte y sano.',
+        alternatives: ['Si practicaras deporte, estarías fuerte y saludable.']
+      },
+      {
+        russian: 'Если бы я разбирался в технике, я бы сам мог чинить свой автомобиль, и мне не приходилось бы отвозить его в мастерскую каждый раз.',
+        correct: 'Si entendiera de técnica, podría reparar mi coche yo mismo y no tendría que llevarlo al taller cada vez.',
+        alternatives: ['Si supiera de mecánica, yo mismo podría arreglar mi automóvil y no necesitaría llevarlo al taller siempre.']
+      },
+      {
+        russian: 'Перед человечеством не стояла бы сейчас угроза экологической катастрофы, если бы промышленно развитые страны не злоупотребляли природными ресурсами ради сиюминутной выгоды.',
+        correct: 'La humanidad no enfrentaría ahora la amenaza de una catástrofe ecológica si los países industrializados no abusaran de los recursos naturales por beneficios inmediatos.',
+        alternatives: ['No habría amenaza de catástrofe ecológica para la humanidad si los países desarrollados no abusaran de los recursos naturales para obtener ganancias a corto plazo.']
+      },
+      {
+        russian: 'Если бы я знал твой адрес, я бы тебя навестил.',
+        correct: 'Si supiera tu dirección, te visitaría.',
+        alternatives: ['Si conociera tu dirección, iría a verte.']
+      },
+      {
+        russian: 'Если бы у меня было больше времени, я бы выучил еще один иностранный язык.',
+        correct: 'Si tuviera más tiempo, aprendería otro idioma extranjero.',
+        alternatives: ['Si dispusiera de más tiempo, estudiaría otra lengua extranjera.']
+      },
+      {
+        russian: 'Мы бы купили новую квартиру, если бы банк нам дал кредит.',
+        correct: 'Compraríamos un piso nuevo si el banco nos diera un crédito.',
+        alternatives: ['Nos compraríamos un apartamento nuevo si el banco nos concediera un préstamo.']
+      },
+      {
+        russian: 'Если бы погода была лучше, мы бы пошли на пикник.',
+        correct: 'Si el tiempo fuera mejor, iríamos de picnic.',
+        alternatives: ['Si hiciera mejor tiempo, haríamos un picnic.']
+      },
+      {
+        russian: 'Я бы тебе помог, если бы знал, как решить эту проблему.',
+        correct: 'Te ayudaría si supiera cómo resolver este problema.',
+        alternatives: ['Yo te ayudaría si conociera la solución a este problema.']
+      },
+      {
+        russian: 'Если бы они жили ближе, мы бы видались чаще.',
+        correct: 'Si vivieran más cerca, nos veríamos más a menudo.',
+        alternatives: ['Si ellos vivieran más cerca de nosotros, nos encontraríamos con más frecuencia.']
+      },
+      {
+        russian: 'Она бы была счастливее, если бы нашла работу по душе.',
+        correct: 'Sería más feliz si encontrara un trabajo que le gustara.',
+        alternatives: ['Ella estaría más contenta si consiguiera un empleo de su agrado.']
+      },
+      {
+        russian: 'Если бы у нас была машина, мы бы могли путешествовать больше.',
+        correct: 'Si tuviéramos coche, podríamos viajar más.',
+        alternatives: ['Si tuviéramos un automóvil, viajaríamos más.']
+      },
+      {
+        russian: 'Я бы не опоздал, если бы знал, что встреча в 9 утра.',
+        correct: 'No llegaría tarde si supiera que la reunión es a las 9 de la mañana.',
+        alternatives: ['No me retrasaría si hubiera sabido que la cita era a las nueve de la mañana.']
+      },
+      {
+        russian: 'Если бы ты слушал учителя, ты бы все понимал.',
+        correct: 'Si escucharas al profesor, lo entenderías todo.',
+        alternatives: ['Si prestaras atención al maestro, comprenderías todo.']
+      }
+    ]
+  },
+
+  'ex-16-1-4': {
+    id: 'ex-16-1-4',
+    type: 'multiplechoice',
+    title: 'Упражнение 4: Выберите правильную форму глагола (II тип условных)',
+    description: 'Выберите правильную форму Imperfecto de Subjuntivo или Condicional Simple',
+    questions: [
+      {
+        sentence: 'Si María _____ más tiempo, vendría a visitarnos.',
+        options: ['tiene', 'tuviera', 'tendrá', 'ha tenido'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (tuviera)'
+      },
+      {
+        sentence: 'Yo _____ contigo si me lo pidieras.',
+        options: ['iré', 'iría', 'vaya', 'fui'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (iría)'
+      },
+      {
+        sentence: 'Si ellos _____ la verdad, no nos creerían.',
+        options: ['saben', 'supieran', 'sabrán', 'han sabido'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (supieran)'
+      },
+      {
+        sentence: 'Nosotros _____ más felices si viviéramos cerca del mar.',
+        options: ['somos', 'seríamos', 'seremos', 'fuéramos'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (seríamos)'
+      },
+      {
+        sentence: 'Si tú _____ ejercicio regularmente, te sentirías mejor.',
+        options: ['haces', 'hicieras', 'harás', 'has hecho'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (hicieras)'
+      },
+      {
+        sentence: '¿Qué _____ ustedes si ganaran un millón de euros?',
+        options: ['hacen', 'harían', 'harán', 'hicieran'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (harían)'
+      },
+      {
+        sentence: 'Si no _____ tanto tráfico, llegaríamos a tiempo.',
+        options: ['hay', 'hubiera', 'habrá', 'ha habido'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (hubiera)'
+      },
+      {
+        sentence: 'Ella _____ médico si estudiara medicina.',
+        options: ['es', 'sería', 'será', 'fuera'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (sería)'
+      },
+      {
+        sentence: 'Si vosotros _____ más temprano, podríais desayunar con nosotros.',
+        options: ['os levantáis', 'os levantarais', 'os levantaréis', 'os habéis levantado'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (levantarais)'
+      },
+      {
+        sentence: 'Yo _____ ese trabajo si me lo ofrecieran.',
+        options: ['acepto', 'aceptaría', 'aceptaré', 'aceptara'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (aceptaría)'
+      },
+      {
+        sentence: 'Si _____ mejor tiempo, iríamos a la playa.',
+        options: ['hace', 'hiciera', 'hará', 'ha hecho'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (hiciera)'
+      },
+      {
+        sentence: 'Nosotros _____ la casa si tuviéramos suficiente dinero.',
+        options: ['compramos', 'compraríamos', 'compraremos', 'compráramos'],
+        correct: 1,
+        explanation: 'Resultado en Condicional Simple (compraríamos)'
+      },
+      {
+        sentence: 'Si tú _____ la receta, podría preparar la paella.',
+        options: ['me das', 'me dieras', 'me darás', 'me has dado'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (dieras)'
+      },
+      {
+        sentence: 'Ellos _____ más si les pagaran mejor.',
+        options: ['trabajan', 'trabajarían', 'trabajarán', 'trabajaran'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (trabajarían)'
+      },
+      {
+        sentence: 'Si yo _____ rico, viajaría por todo el mundo.',
+        options: ['soy', 'fuera', 'seré', 'he sido'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (fuera)'
+      },
+      {
+        sentence: '¿_____ conmigo si te lo pidiera?',
+        options: ['Vienes', 'Vendrías', 'Vendrás', 'Vinieras'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (vendrías)'
+      },
+      {
+        sentence: 'Si nosotros _____ en España, hablaríamos español perfectamente.',
+        options: ['vivimos', 'viviéramos', 'viviremos', 'hemos vivido'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (viviéramos)'
+      },
+      {
+        sentence: 'Tú _____ más sano si comieras más frutas y verduras.',
+        options: ['estás', 'estarías', 'estarás', 'estuvieras'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (estarías)'
+      },
+      {
+        sentence: 'Si ella _____ los idiomas, conseguiría un mejor trabajo.',
+        options: ['domina', 'dominara', 'dominará', 'ha dominado'],
+        correct: 1,
+        explanation: 'Условие в Imperfecto de Subjuntivo (dominara)'
+      },
+      {
+        sentence: 'Vosotros _____ más contentos si encontrarais un piso más grande.',
+        options: ['estáis', 'estaríais', 'estaréis', 'estuvierais'],
+        correct: 1,
+        explanation: 'Результат в Condicional Simple (estaríais)'
+      }
+    ]
+  },
+
+  'ex-16-1-5': {
+    id: 'ex-16-1-5',
+    type: 'matching',
+    title: 'Упражнение 5: Сопоставьте части условных предложений II типа',
+    description: 'Соедините начало и конец предложений, чтобы получились логичные условные предложения',
+    questions: [
+      {
+        left: 'Si tuviera un millón de euros,',
+        right: 'viajaría por todo el mundo',
+        distractor1: 'estudiaría medicina',
+        distractor2: 'hablaría cinco idiomas'
+      },
+      {
+        left: 'Si fuera más joven,',
+        right: 'volvería a la universidad',
+        distractor1: 'compraría una casa',
+        distractor2: 'iría al cine'
+      },
+      {
+        left: 'Si hablara chino perfectamente,',
+        right: 'trabajaría en una empresa internacional',
+        distractor1: 'cocinaría paella',
+        distractor2: 'jugaría al fútbol'
+      },
+      {
+        left: 'Si no tuviera que trabajar,',
+        right: 'pasaría más tiempo con mi familia',
+        distractor1: 'aprendería a conducir',
+        distractor2: 'llamaría al médico'
+      },
+      {
+        left: 'Si viviera en el campo,',
+        right: 'tendría un huerto y animales',
+        distractor1: 'iría al teatro',
+        distractor2: 'tomaría el metro'
+      },
+      {
+        left: 'Si supiera tocar la guitarra,',
+        right: 'formaría un grupo musical',
+        distractor1: 'compraría un ordenador',
+        distractor2: 'llamaría a un taxi'
+      },
+      {
+        left: 'Si no lloviera tanto,',
+        right: 'saldríamos a pasear',
+        distractor1: 'estudiaríamos más',
+        distractor2: 'veríamos la televisión'
+      },
+      {
+        left: 'Si tuviera más tiempo libre,',
+        right: 'aprendería a pintar',
+        distractor1: 'trabajaría menos',
+        distractor2: 'dormiría más'
+      },
+      {
+        left: 'Si pudiera elegir,',
+        right: 'viviría en una isla tropical',
+        distractor1: 'estudiaría historia',
+        distractor2: 'cocinaría todos los días'
+      },
+      {
+        left: 'Si no me doliera la cabeza,',
+        right: 'iría a la fiesta',
+        distractor1: 'compraría pan',
+        distractor2: 'hablaría por teléfono'
+      },
+      {
+        left: 'Si conociera a una persona famosa,',
+        right: 'le pediría un autógrafo',
+        distractor1: 'lavaría el coche',
+        distractor2: 'prepararía café'
+      },
+      {
+        left: 'Si hiciera mejor tiempo,',
+        right: 'iríamos a la montaña',
+        distractor1: 'estudiaríamos gramática',
+        distractor2: 'leeríamos un libro'
+      },
+      {
+        left: 'Si ganara la lotería,',
+        right: 'dejaría de trabajar',
+        distractor1: 'aprendería a nadar',
+        distractor2: 'vería una película'
+      },
+      {
+        left: 'Si fuera rico,',
+        right: 'ayudaría a los pobres',
+        distractor1: 'estudiaría inglés',
+        distractor2: 'cocinaría mejor'
+      },
+      {
+        left: 'Si pudiera volar,',
+        right: 'visitaría todos los continentes',
+        distractor1: 'compraría un coche',
+        distractor2: 'llamaría a mis amigos'
+      },
+      {
+        left: 'Si no estuviera tan cansado,',
+        right: 'saldría a correr',
+        distractor1: 'estudiaría más',
+        distractor2: 'cocinaría la cena'
+      },
+      {
+        left: 'Si tuviera un jardín,',
+        right: 'plantaría flores y árboles',
+        distractor1: 'iría al supermercado',
+        distractor2: 'llamaría al fontanero'
+      },
+      {
+        left: 'Si supiera conducir,',
+        right: 'me compraría un coche',
+        distractor1: 'estudiaría medicina',
+        distractor2: 'tocaría el piano'
+      },
+      {
+        left: 'Si no tuviera miedo a las alturas,',
+        right: 'subiría a la montaña más alta',
+        distractor1: 'estudiaría matemáticas',
+        distractor2: 'cocinaría paella'
+      },
+      {
+        left: 'Si me tocara la lotería,',
+        right: 'compartiría el premio con mi familia',
+        distractor1: 'estudiaría francés',
+        distractor2: 'vería la televisión'
+      }
+    ]
+  },
+
+  'ex-16-1-6': {
+    id: 'ex-16-1-6',
+    type: 'conversation',
+    title: 'Упражнение 6: Завершите диалоги, используя II тип условных предложений',
+    description: 'Дополните диалоги подходящими ответами с условными предложениями II типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        question: '— ¿Por qué no estudias medicina?\n— Si _____ medicina, tendría que estudiar muchos años más.',
+        correct: 'estudiara',
+        alternatives: ['estudiase']
+      },
+      {
+        question: '— ¿Te gustaría vivir en otro país?\n— Sí, si _____ la oportunidad, viviría en España.',
+        correct: 'tuviera',
+        alternatives: ['tuviese']
+      },
+      {
+        question: '— ¿Irías a esa fiesta?\n— Iría si me _____ .',
+        correct: 'invitaran',
+        alternatives: ['invitasen']
+      },
+      {
+        question: '— ¿Comprarías ese coche?\n— Lo _____ si tuviera suficiente dinero.',
+        correct: 'compraría',
+        alternatives: ['compraría']
+      },
+      {
+        question: '— ¿Por qué no aprendes japonés?\n— Lo _____ si tuviera más tiempo.',
+        correct: 'aprendería',
+        alternatives: ['estudiaría']
+      },
+      {
+        question: '— ¿Vivirías en el campo?\n— Sí, si _____ un trabajo allí, viviría en el campo.',
+        correct: 'encontrara',
+        alternatives: ['encontrase', 'tuviera', 'tuviese']
+      },
+      {
+        question: '— ¿Qué harías si fueras presidente?\n— Si _____ presidente, mejoraría la educación.',
+        correct: 'fuera',
+        alternatives: ['fuese']
+      },
+      {
+        question: '— ¿Te mudarías a Madrid?\n— Me _____ si me ofrecieran un buen trabajo.',
+        correct: 'mudaría',
+        alternatives: ['iría', 'trasladaría']
+      },
+      {
+        question: '— ¿Hablarías con él?\n— Hablaría con él si _____ qué decirle.',
+        correct: 'supiera',
+        alternatives: ['supiese']
+      },
+      {
+        question: '— ¿Saldrías esta noche?\n— _____ si no estuviera tan cansado.',
+        correct: 'Saldría',
+        alternatives: ['Iría']
+      },
+      {
+        question: '— ¿Te casarías con ella?\n— Me casaría con ella si me _____ la mano.',
+        correct: 'pidiera',
+        alternatives: ['pidiese']
+      },
+      {
+        question: '— ¿Venderías tu casa?\n— La _____ si me ofrecieran un buen precio.',
+        correct: 'vendería',
+        alternatives: ['vendería']
+      },
+      {
+        question: '— ¿Estudiarías en el extranjero?\n— Sí, _____ en el extranjero si tuviera dinero.',
+        correct: 'estudiaría',
+        alternatives: ['iría a estudiar']
+      },
+      {
+        question: '— ¿Trabajarías los fines de semana?\n— Solo _____ los fines de semana si me pagaran el doble.',
+        correct: 'trabajaría',
+        alternatives: ['trabajaría']
+      },
+      {
+        question: '— ¿Volverías a tu país?\n— _____ si mi familia me necesitara.',
+        correct: 'Volvería',
+        alternatives: ['Regresaría']
+      },
+      {
+        question: '— ¿Ayudarías a los necesitados?\n— Los _____ si tuviera más recursos.',
+        correct: 'ayudaría',
+        alternatives: ['ayudaría']
+      },
+      {
+        question: '— ¿Aprenderías a tocar el piano?\n— Lo _____ si tuviera un piano en casa.',
+        correct: 'aprendería',
+        alternatives: ['estudiaría']
+      },
+      {
+        question: '— ¿Viajarías solo?\n— _____ solo si no tuviera miedo.',
+        correct: 'Viajaría',
+        alternatives: ['Iría de viaje']
+      },
+      {
+        question: '— ¿Comerías insectos?\n— Los _____ si no tuviera otra opción.',
+        correct: 'comería',
+        alternatives: ['comería']
+      },
+      {
+        question: '— ¿Adoptarías un perro?\n— Lo _____ si viviera en una casa con jardín.',
+        correct: 'adoptaría',
+        alternatives: ['adoptaría', 'tendría']
+      }
+    ]
+  },
+
+  'ex-16-1-7': {
+    id: 'ex-16-1-7',
+    type: 'multiplechoice',
+    title: 'Упражнение 7: Выберите правильную форму глагола для условных предложений II типа',
+    description: 'Выберите правильную форму Imperfecto de Subjuntivo или Condicional Simple',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si yo _____ más valiente, viajaría solo por el mundo.',
+        options: ['soy', 'sea', 'fuera', 'he sido'],
+        correct: 2,
+        translation: 'Если бы я был смелее, я бы путешествовал по миру один.'
+      },
+      {
+        sentence: 'Compraríamos una casa en la playa si _____ suficiente dinero.',
+        options: ['tenemos', 'tengamos', 'tuviéramos', 'hemos tenido'],
+        correct: 2,
+        translation: 'Мы бы купили дом на пляже, если бы у нас было достаточно денег.'
+      },
+      {
+        sentence: 'Si ella _____ más tiempo libre, aprendería a tocar el piano.',
+        options: ['tiene', 'tenga', 'tuviera', 'ha tenido'],
+        correct: 2,
+        translation: 'Если бы у нее было больше свободного времени, она бы научилась играть на пианино.'
+      },
+      {
+        sentence: 'Mis padres _____ orgullosos si yo terminara la universidad.',
+        options: ['están', 'estén', 'estarían', 'han estado'],
+        correct: 2,
+        translation: 'Мои родители были бы горды, если бы я закончил университет.'
+      },
+      {
+        sentence: 'Si nosotros _____ en un país tropical, iríamos a la playa cada día.',
+        options: ['vivimos', 'vivamos', 'viviéramos', 'hemos vivido'],
+        correct: 2,
+        translation: 'Если бы мы жили в тропической стране, мы бы ходили на пляж каждый день.'
+      },
+      {
+        sentence: '¿Qué harías si te _____ la lotería?',
+        options: ['toca', 'toque', 'tocara', 'ha tocado'],
+        correct: 2,
+        translation: 'Что бы ты сделал, если бы тебе выпал лотерейный билет?'
+      },
+      {
+        sentence: 'Si tú _____ mi consejo, no tendrías este problema.',
+        options: ['sigues', 'sigas', 'siguieras', 'has seguido'],
+        correct: 2,
+        translation: 'Если бы ты следовал моему совету, у тебя не было бы этой проблемы.'
+      },
+      {
+        sentence: 'Ellos _____ más felices si trabajaran menos horas.',
+        options: ['son', 'sean', 'serían', 'han sido'],
+        correct: 2,
+        translation: 'Они были бы счастливее, если бы работали меньше часов.'
+      },
+      {
+        sentence: 'Si yo _____ cocinar bien, abriría mi propio restaurante.',
+        options: ['sé', 'sepa', 'supiera', 'he sabido'],
+        correct: 2,
+        translation: 'Если бы я умел хорошо готовить, я бы открыл свой собственный ресторан.'
+      },
+      {
+        sentence: '¿Adónde _____ si pudieras viajar a cualquier lugar?',
+        options: ['vas', 'vayas', 'irías', 'has ido'],
+        correct: 2,
+        translation: 'Куда бы ты поехал, если бы мог путешествовать в любое место?'
+      },
+      {
+        sentence: 'Si María _____ más educada, tendría más amigos.',
+        options: ['es', 'sea', 'fuera', 'ha sido'],
+        correct: 2,
+        translation: 'Если бы Мария была более воспитанной, у нее было бы больше друзей.'
+      },
+      {
+        sentence: 'Nosotros _____ a visitarte si no vivieras tan lejos.',
+        options: ['venimos', 'vengamos', 'vendríamos', 'hemos venido'],
+        correct: 2,
+        translation: 'Мы бы приехали тебя навестить, если бы ты не жил так далеко.'
+      },
+      {
+        sentence: 'Si _____ buen tiempo, daríamos un paseo por el parque.',
+        options: ['hace', 'haga', 'hiciera', 'ha hecho'],
+        correct: 2,
+        translation: 'Если бы была хорошая погода, мы бы прогулялись по парку.'
+      },
+      {
+        sentence: 'Tú _____ mejor español si practicaras más.',
+        options: ['hablas', 'hables', 'hablarías', 'has hablado'],
+        correct: 2,
+        translation: 'Ты бы лучше говорил по-испански, если бы больше практиковался.'
+      },
+      {
+        sentence: 'Si yo _____ presidente, cambiaría muchas cosas.',
+        options: ['soy', 'sea', 'fuera', 'he sido'],
+        correct: 2,
+        translation: 'Если бы я был президентом, я бы изменил многое.'
+      },
+      {
+        sentence: 'Ellos no _____ tantos problemas si fueran más organizados.',
+        options: ['tienen', 'tengan', 'tendrían', 'han tenido'],
+        correct: 2,
+        translation: 'У них не было бы столько проблем, если бы они были более организованными.'
+      },
+      {
+        sentence: 'Si nosotros _____ un coche, podríamos ir de excursión este fin de semana.',
+        options: ['tenemos', 'tengamos', 'tuviéramos', 'hemos tenido'],
+        correct: 2,
+        translation: 'Если бы у нас была машина, мы могли бы поехать на экскурсию в эти выходные.'
+      },
+      {
+        sentence: '¿Qué estudiarías si _____ empezar de nuevo?',
+        options: ['puedes', 'puedas', 'pudieras', 'has podido'],
+        correct: 2,
+        translation: 'Что бы ты изучал, если бы мог начать заново?'
+      },
+      {
+        sentence: 'Si mi jefe me _____ un aumento, compraría un coche nuevo.',
+        options: ['da', 'dé', 'diera', 'ha dado'],
+        correct: 2,
+        translation: 'Если бы мой начальник дал мне прибавку, я бы купил новую машину.'
+      },
+      {
+        sentence: 'Las personas _____ más sanas si comieran menos comida rápida.',
+        options: ['están', 'estén', 'estarían', 'han estado'],
+        correct: 2,
+        translation: 'Люди были бы здоровее, если бы ели меньше фастфуда.'
+      }
+    ]
+  },
+
+  'ex-16-1-8': {
+    id: 'ex-16-1-8',
+    type: 'situational',
+    title: 'Упражнение 8: Ситуативные условные предложения',
+    description: 'Завершите предложения, используя условные предложения II типа по заданной ситуации',
+    showAnswerOption: true,
+    questions: [
+      {
+        situation: 'Не говоришь по-английски',
+        prompt: 'Si hablara inglés...',
+        correct: 'podría trabajar en una empresa internacional / viajaría a Estados Unidos / tendría más oportunidades laborales',
+        translation: 'Если бы я говорил по-английски, я бы мог работать в международной компании / поехал бы в США / у меня было бы больше возможностей для работы.'
+      },
+      {
+        situation: 'Живешь далеко от работы',
+        prompt: 'Si viviera más cerca del trabajo...',
+        correct: 'ahorraría tiempo / dormiría más / llegaría siempre puntual',
+        translation: 'Если бы я жил ближе к работе, я бы экономил время / спал бы больше / всегда приходил вовремя.'
+      },
+      {
+        situation: 'Нет свободного времени',
+        prompt: 'Si tuviera más tiempo libre...',
+        correct: 'leería más libros / aprendería un idioma nuevo / haría más deporte',
+        translation: 'Если бы у меня было больше свободного времени, я бы читал больше книг / изучал новый язык / занимался спортом.'
+      },
+      {
+        situation: 'Боишься высоты',
+        prompt: 'Si no tuviera miedo a las alturas...',
+        correct: 'subiría a la montaña / haría paracaidismo / viajaría en globo',
+        translation: 'Если бы я не боялся высоты, я бы поднялся на гору / прыгнул с парашютом / полетал на воздушном шаре.'
+      },
+      {
+        situation: 'Не умеешь водить',
+        prompt: 'Si supiera conducir...',
+        correct: 'compraría un coche / iría de viaje por carretera / sería más independiente',
+        translation: 'Если бы я умел водить, я бы купил машину / поехал в путешествие на машине / был бы более независимым.'
+      },
+      {
+        situation: 'Плохая погода сегодня',
+        prompt: 'Si hiciera buen tiempo hoy...',
+        correct: 'iríamos a la playa / comeríamos fuera / daríamos un paseo',
+        translation: 'Если бы сегодня была хорошая погода, мы бы пошли на пляж / поели снаружи / прогулялись.'
+      },
+      {
+        situation: 'Нет денег на отпуск',
+        prompt: 'Si tuviera dinero para las vacaciones...',
+        correct: 'viajaría a Japón / me quedaría en un hotel de lujo / haría un crucero',
+        translation: 'Если бы у меня были деньги на отпуск, я бы поехал в Японию / остановился в роскошном отеле / отправился в круиз.'
+      },
+      {
+        situation: 'Работаешь по выходным',
+        prompt: 'Si no trabajara los fines de semana...',
+        correct: 'pasaría más tiempo con mi familia / descansaría más / haría excursiones',
+        translation: 'Если бы я не работал по выходным, я бы проводил больше времени с семьей / больше отдыхал / ездил на экскурсии.'
+      },
+      {
+        situation: 'Не любишь готовить',
+        prompt: 'Si me gustara cocinar...',
+        correct: 'prepararía platos exóticos / invitaría amigos a cenar / comería más sano',
+        translation: 'Если бы мне нравилось готовить, я бы готовил экзотические блюда / приглашал друзей на ужин / питался здоровее.'
+      },
+      {
+        situation: 'Маленькая квартира',
+        prompt: 'Si tuviera una casa más grande...',
+        correct: 'tendría una mascota / invitaría más gente / tendría un despacho',
+        translation: 'Если бы у меня был дом побольше, у меня был бы питомец / я бы приглашал больше людей / у меня был бы кабинет.'
+      },
+      {
+        situation: 'Не занимаешься спортом',
+        prompt: 'Si hiciera deporte regularmente...',
+        correct: 'estaría más en forma / tendría más energía / me sentiría mejor',
+        translation: 'Если бы я регулярно занимался спортом, я был бы в лучшей форме / у меня было бы больше энергии / я бы чувствовал себя лучше.'
+      },
+      {
+        situation: 'Мало друзей',
+        prompt: 'Si fuera más sociable...',
+        correct: 'tendría más amigos / saldría más a menudo / conocería más gente',
+        translation: 'Если бы я был более общительным, у меня было бы больше друзей / я бы чаще выходил / знакомился с большим количеством людей.'
+      },
+      {
+        situation: 'Нет таланта к музыке',
+        prompt: 'Si tuviera talento musical...',
+        correct: 'tocaría en una banda / daría conciertos / compondría canciones',
+        translation: 'Если бы у меня был музыкальный талант, я бы играл в группе / давал концерты / сочинял песни.'
+      },
+      {
+        situation: 'Живешь в городе',
+        prompt: 'Si viviera en el campo...',
+        correct: 'tendría un huerto / respiraría aire puro / estaría más tranquilo',
+        translation: 'Если бы я жил в деревне, у меня был бы огород / я бы дышал чистым воздухом / был бы спокойнее.'
+      },
+      {
+        situation: 'Застенчивый характер',
+        prompt: 'Si no fuera tan tímido...',
+        correct: 'hablaría en público / conocería más gente / pediría un aumento',
+        translation: 'Если бы я не был таким застенчивым, я бы выступал публично / знакомился с большим количеством людей / попросил прибавку.'
+      },
+      {
+        situation: 'Плохая память',
+        prompt: 'Si tuviera mejor memoria...',
+        correct: 'aprendería idiomas más rápido / no olvidaría los cumpleaños / recordaría todos los nombres',
+        translation: 'Если бы у меня была лучше память, я бы быстрее учил языки / не забывал дни рождения / помнил все имена.'
+      },
+      {
+        situation: 'Нет домашних животных',
+        prompt: 'Si tuviera una mascota...',
+        correct: 'pasearía más / tendría más compañía / sería más responsable',
+        translation: 'Если бы у меня был питомец, я бы больше гулял / у меня было бы больше компании / я был бы более ответственным.'
+      },
+      {
+        situation: 'Не владеешь компьютером хорошо',
+        prompt: 'Si supiera más de informática...',
+        correct: 'trabajaría como programador / repararía mi ordenador / crearía mi propia web',
+        translation: 'Если бы я больше знал об информатике, я бы работал программистом / починил свой компьютер / создал свой сайт.'
+      },
+      {
+        situation: 'Слишком занят',
+        prompt: 'Si no estuviera tan ocupado...',
+        correct: 'viajaría más / pasaría más tiempo con amigos / aprendería algo nuevo',
+        translation: 'Если бы я не был так занят, я бы больше путешествовал / проводил больше времени с друзьями / изучал что-то новое.'
+      },
+      {
+        situation: 'Живешь один',
+        prompt: 'Si viviera con alguien...',
+        correct: 'dividiría los gastos / tendría compañía / cocinaría más',
+        translation: 'Если бы я жил с кем-то, я бы делил расходы / у меня была бы компания / я бы больше готовил.'
+      }
+    ]
+  },
+
+  'ex-16-1-9': {
+    id: 'ex-16-1-9',
+    type: 'translation',
+    title: 'Упражнение 9: Перевод на испанский язык (расширенный)',
+    description: 'Переведите предложения с русского на испанский, используя условные предложения II типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если бы у меня был миллион евро, я бы купил яхту и путешествовал по всему миру.',
+        correct: 'Si tuviera un millón de euros, compraría un yate y viajaría por todo el mundo.',
+        alternatives: ['Si yo tuviera un millón de euros, me compraría un yate y viajaría por el mundo entero.']
+      },
+      {
+        russian: 'Если бы мой брат жил в Мадриде, я бы навещал его каждое лето.',
+        correct: 'Si mi hermano viviera en Madrid, lo visitaría cada verano.',
+        alternatives: ['Si mi hermano viviera en Madrid, le visitaría todos los veranos.']
+      },
+      {
+        russian: 'Мы бы переехали в Испанию, если бы там было легче найти работу.',
+        correct: 'Nos mudaríamos a España si fuera más fácil encontrar trabajo allí.',
+        alternatives: ['Nos trasladaríamos a España si allí fuera más fácil encontrar empleo.']
+      },
+      {
+        russian: 'Если бы ты знал правду, ты бы понял мою ситуацию.',
+        correct: 'Si supieras la verdad, comprenderías mi situación.',
+        alternatives: ['Si tú conocieras la verdad, entenderías mi situación.']
+      },
+      {
+        russian: 'Если бы погода была лучше, мы бы устроили барбекю в саду.',
+        correct: 'Si hiciera mejor tiempo, haríamos una barbacoa en el jardín.',
+        alternatives: ['Si el tiempo fuera mejor, haríamos un asado en el jardín.']
+      },
+      {
+        russian: 'Она училась бы в университете, если бы получила стипендию.',
+        correct: 'Estudiaría en la universidad si consiguiera una beca.',
+        alternatives: ['Ella estudiaría en la universidad si obtuviera una beca.']
+      },
+      {
+        russian: 'Если бы я мог выбирать, я бы работал из дома три дня в неделю.',
+        correct: 'Si pudiera elegir, trabajaría desde casa tres días a la semana.',
+        alternatives: ['Si yo pudiera escoger, trabajaría desde mi casa tres días por semana.']
+      },
+      {
+        russian: 'Если бы они пригласили нас на свадьбу, мы бы обязательно пришли.',
+        correct: 'Si nos invitaran a su boda, vendríamos sin falta.',
+        alternatives: ['Si ellos nos invitaran a la boda, asistiríamos seguro.']
+      },
+      {
+        russian: 'Мой отец был бы счастлив, если бы я стал врачом.',
+        correct: 'Mi padre sería feliz si yo me hiciera médico.',
+        alternatives: ['Mi padre estaría feliz si me convirtiera en doctor.']
+      },
+      {
+        russian: 'Если бы у вас было больше терпения, вы бы достигли своих целей.',
+        correct: 'Si tuvierais más paciencia, alcanzaríais vuestros objetivos.',
+        alternatives: ['Si ustedes tuvieran más paciencia, lograrían sus metas.']
+      },
+      {
+        russian: 'Если бы было возможно, я бы изменил прошлое.',
+        correct: 'Si fuera posible, cambiaría el pasado.',
+        alternatives: ['Si fuera posible, yo modificaría el pasado.']
+      },
+      {
+        russian: 'Мы бы чаще ходили в ресторан, если бы это не было так дорого.',
+        correct: 'Iríamos al restaurante más a menudo si no fuera tan caro.',
+        alternatives: ['Comeríamos en restaurantes más frecuentemente si no costara tanto.']
+      },
+      {
+        russian: 'Если бы ты слушал учителя, ты бы знал ответ на этот вопрос.',
+        correct: 'Si escucharas al profesor, sabrías la respuesta a esta pregunta.',
+        alternatives: ['Si prestaras atención al maestro, conocerías la respuesta a esta pregunta.']
+      },
+      {
+        russian: 'Если бы в мире не было войн, люди жили бы намного лучше.',
+        correct: 'Si no hubiera guerras en el mundo, la gente viviría mucho mejor.',
+        alternatives: ['Si en el mundo no existieran guerras, las personas vivirían mucho mejor.']
+      },
+      {
+        russian: 'Я бы играл в футбольной команде, если бы не сломал ногу в детстве.',
+        correct: 'Jugaría en un equipo de fútbol si no me hubiera roto la pierna de niño.',
+        alternatives: ['Estaría en un equipo de fútbol si no me hubiera fracturado la pierna cuando era niño.']
+      },
+      {
+        russian: 'Если бы здесь был бассейн, я бы плавал каждый день.',
+        correct: 'Si hubiera una piscina aquí, nadaría todos los días.',
+        alternatives: ['Si aquí existiera una alberca, yo nadaría cada día.']
+      },
+      {
+        russian: 'Ты бы чувствовал себя лучше, если бы высыпался.',
+        correct: 'Te sentirías mejor si durmieras suficiente.',
+        alternatives: ['Te sentirías mejor si descansaras bien.']
+      },
+      {
+        russian: 'Если бы мне предложили работу за границей, я бы принял ее без колебаний.',
+        correct: 'Si me ofrecieran un trabajo en el extranjero, lo aceptaría sin dudarlo.',
+        alternatives: ['Si me propusieran trabajar en el exterior, lo aceptaría sin vacilar.']
+      },
+      {
+        russian: 'Мы бы купили эту квартиру, если бы банк одобрил нашу ипотеку.',
+        correct: 'Compraríamos este piso si el banco aprobara nuestra hipoteca.',
+        alternatives: ['Compraríamos este apartamento si el banco nos aprobara la hipoteca.']
+      },
+      {
+        russian: 'Если бы все были честными, мир был бы лучше.',
+        correct: 'Si todos fueran honestos, el mundo sería mejor.',
+        alternatives: ['Si todo el mundo fuera honrado, el mundo sería mejor.']
+      }
+    ]
+  },
+
+  // УРОК 16-2: Условные предложения III типа
+
+  'ex-16-2-1': {
+    id: 'ex-16-2-1',
+    type: 'transformation',
+    title: 'Упражнение 1: Измените предложения по образцу',
+    description: 'Преобразуйте два предложения в одно условное предложение III типа. Образец: No he tenido dinero. No he hecho el viaje. → Si hubiera tenido dinero, habría hecho el viaje.',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'No he visto a Carmen. No he podido decirle nada.',
+        correct: 'Si hubiera visto a Carmen, habría podido decirle algo.',
+        translation: 'Если бы я видел Кармен, я бы мог ей что-то сказать.'
+      },
+      {
+        sentence: 'No teníamos tiempo. No pudimos visitaros.',
+        correct: 'Si hubiéramos tenido tiempo, habríamos podido visitaros.',
+        translation: 'Если бы у нас было время, мы бы смогли вас навестить.'
+      },
+      {
+        sentence: 'Llovía mucho. No fui a pasear.',
+        correct: 'Si no hubiera llovido tanto, habría ido a pasear.',
+        translation: 'Если бы не было столько дождя, я бы пошел гулять.'
+      },
+      {
+        sentence: 'No me han reparado el coche. He tenido que coger el autobús.',
+        correct: 'Si me hubieran reparado el coche, no habría tenido que coger el autobús.',
+        translation: 'Если бы мне починили машину, мне не пришлось бы садиться на автобус.'
+      },
+      {
+        sentence: 'Han llegado tarde. Han perdido el avión.',
+        correct: 'Si no hubieran llegado tarde, no habrían perdido el avión.',
+        translation: 'Если бы они не опоздали, они не пропустили бы самолет.'
+      },
+      {
+        sentence: 'Fui a Madrid. Conocí a Consuelo.',
+        correct: 'Si no hubiera ido a Madrid, no habría conocido a Consuelo.',
+        translation: 'Если бы я не поехал в Мадрид, я бы не познакомился с Консуэло.'
+      },
+      {
+        sentence: 'Perdí su número de teléfono. No la llamé.',
+        correct: 'Si no hubiera perdido su número de teléfono, la habría llamado.',
+        translation: 'Если бы я не потерял ее номер телефона, я бы ей позвонил.'
+      },
+      {
+        sentence: 'No has comprado arroz y mariscos. No has hecho la paella.',
+        correct: 'Si hubieras comprado arroz y mariscos, habrías hecho la paella.',
+        translation: 'Если бы ты купил рис и морепродукты, ты бы приготовил паэлью.'
+      },
+      {
+        sentence: 'Antonio no ha estudiado. No ha aprobado el examen.',
+        correct: 'Si Antonio hubiera estudiado, habría aprobado el examen.',
+        translation: 'Если бы Антонио учился, он бы сдал экзамен.'
+      },
+      {
+        sentence: 'Conducía muy rápido. Tuvo un accidente.',
+        correct: 'Si no hubiera conducido tan rápido, no habría tenido un accidente.',
+        translation: 'Если бы он не ехал так быстро, у него не было бы аварии.'
+      },
+      {
+        sentence: 'No desayuné. Tengo hambre ahora.',
+        correct: 'Si hubiera desayunado, no tendría hambre ahora.',
+        translation: 'Если бы я позавтракал, я бы не был голоден сейчас.'
+      },
+      {
+        sentence: 'Salí sin paraguas. Me mojé.',
+        correct: 'Si hubiera salido con paraguas, no me habría mojado.',
+        translation: 'Если бы я вышел с зонтом, я бы не промок.'
+      },
+      {
+        sentence: 'No reserve mesa. No pude cenar en el restaurante.',
+        correct: 'Si hubiera reservado mesa, habría podido cenar en el restaurante.',
+        translation: 'Если бы я забронировал столик, я бы смог поужинать в ресторане.'
+      },
+      {
+        sentence: 'Me levanté tarde. Perdí el tren.',
+        correct: 'Si no me hubiera levantado tarde, no habría perdido el tren.',
+        translation: 'Если бы я не проснулся поздно, я бы не опоздал на поезд.'
+      },
+      {
+        sentence: 'No escuché sus consejos. Cometí un error.',
+        correct: 'Si hubiera escuchado sus consejos, no habría cometido ese error.',
+        translation: 'Если бы я послушал его советы, я бы не совершил эту ошибку.'
+      },
+      {
+        sentence: 'Estudié mucho. Aprobé el examen.',
+        correct: 'Si no hubiera estudiado mucho, no habría aprobado el examen.',
+        translation: 'Если бы я не учился много, я бы не сдал экзамен.'
+      },
+      {
+        sentence: 'No llevé dinero. No pude comprar el libro.',
+        correct: 'Si hubiera llevado dinero, habría podido comprar el libro.',
+        translation: 'Если бы я взял деньги, я бы смог купить книгу.'
+      },
+      {
+        sentence: 'Hizo mal tiempo. Cancelamos el viaje.',
+        correct: 'Si no hubiera hecho mal tiempo, no habríamos cancelado el viaje.',
+        translation: 'Если бы не была плохая погода, мы бы не отменили поездку.'
+      },
+      {
+        sentence: 'Me quedé dormido. No fui a trabajar.',
+        correct: 'Si no me hubiera quedado dormido, habría ido a trabajar.',
+        translation: 'Если бы я не проспал, я бы пошел на работу.'
+      },
+      {
+        sentence: 'No estudié idiomas. No conseguí ese trabajo.',
+        correct: 'Si hubiera estudiado idiomas, habría conseguido ese trabajo.',
+        translation: 'Если бы я изучал языки, я бы получил ту работу.'
+      }
+    ]
+  },
+
+  'ex-16-2-2': {
+    id: 'ex-16-2-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Поставьте глаголы в соответствующую форму и переведите предложения на русский язык',
+    description: 'Поставьте глаголы в Pluscuamperfecto de Subjuntivo и Condicional Perfecto',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si _____ (estar, yo) en tu situación, habría aceptado la ayuda.',
+        correct: 'hubiera estado',
+        translation: 'Если бы я был в твоей ситуации, я бы принял помощь.'
+      },
+      {
+        sentence: 'Si _____ (saberlo, yo), me habría callado.',
+        correct: 'lo hubiera sabido',
+        translation: 'Если бы я это знал, я бы промолчал.'
+      },
+      {
+        sentence: 'Si _____ (ir, tú) al espectáculo, te habría gustado.',
+        correct: 'hubieras ido',
+        translation: 'Если бы ты пошел на представление, тебе бы понравилось.'
+      },
+      {
+        sentence: 'Si no hubiera mejorado el tiempo, _____ (cancelar, ellos) el viaje.',
+        correct: 'habrían cancelado',
+        translation: 'Если бы погода не улучшилась, они бы отменили поездку.'
+      },
+      {
+        sentence: 'Si hubieras tenido suficiente dinero, _____ (comprarlo, tú).',
+        correct: 'lo habrías comprado',
+        translation: 'Если бы у тебя было достаточно денег, ты бы это купил.'
+      },
+      {
+        sentence: 'Si yo hubiera estado mejor informado, no _____ (engañarme, ellos).',
+        correct: 'me habrían engañado',
+        translation: 'Если бы я был лучше информирован, они бы меня не обманули.'
+      },
+      {
+        sentence: 'Si _____ (perder, tú) el autobús, no habrías llegado a tiempo.',
+        correct: 'hubieras perdido',
+        translation: 'Если бы ты пропустил автобус, ты бы не пришел вовремя.'
+      },
+      {
+        sentence: 'Si _____ (buscar, ella) mejor, lo habría encontrado.',
+        correct: 'hubiera buscado',
+        translation: 'Если бы она искала лучше, она бы нашла это.'
+      },
+      {
+        sentence: 'Si hubiéramos viajado a México, _____ (asistir, nosotros) a la fiesta del culto de los muertos.',
+        correct: 'habríamos asistido',
+        translation: 'Если бы мы поехали в Мексику, мы бы присутствовали на празднике культа мертвых.'
+      },
+      {
+        sentence: 'Si no _____ (encontrarse, ellos) durante el crucero, no se habrían casado.',
+        correct: 'se hubieran encontrado',
+        translation: 'Если бы они не встретились во время круиза, они бы не поженились.'
+      },
+      {
+        sentence: 'Si _____ (llamarme, tú) ayer, te habría ayudado.',
+        correct: 'me hubieras llamado',
+        translation: 'Если бы ты позвонил мне вчера, я бы тебе помог.'
+      },
+      {
+        sentence: 'Si ellos _____ (salir) más temprano, no habrían perdido el tren.',
+        correct: 'hubieran salido',
+        translation: 'Если бы они вышли раньше, они бы не опоздали на поезд.'
+      },
+      {
+        sentence: 'Si nosotros _____ (saber) la verdad, _____ (actuar) diferente.',
+        correct: 'hubiéramos sabido, habríamos actuado',
+        translation: 'Если бы мы знали правду, мы бы действовали иначе.'
+      },
+      {
+        sentence: 'Si tú _____ (estudiar) más, _____ (aprobar) el examen.',
+        correct: 'hubieras estudiado, habrías aprobado',
+        translation: 'Если бы ты больше учился, ты бы сдал экзамен.'
+      },
+      {
+        sentence: 'Si ella _____ (escuchar) mis consejos, no _____ (cometer) ese error.',
+        correct: 'hubiera escuchado, habría cometido',
+        translation: 'Если бы она послушала мои советы, она бы не совершила эту ошибку.'
+      },
+      {
+        sentence: 'Si vosotros _____ (venir) a la fiesta, os _____ (divertir) mucho.',
+        correct: 'hubierais venido, habríais divertido',
+        translation: 'Если бы вы пришли на вечеринку, вы бы хорошо повеселились.'
+      },
+      {
+        sentence: 'Si yo _____ (reservar) mesa, _____ (poder) cenar en ese restaurante.',
+        correct: 'hubiera reservado, habría podido',
+        translation: 'Если бы я забронировал столик, я бы смог поужинать в том ресторане.'
+      },
+      {
+        sentence: 'Si ellos _____ (comprar) las entradas antes, no _____ (quedarse) sin asientos.',
+        correct: 'hubieran comprado, se habrían quedado',
+        translation: 'Если бы они купили билеты раньше, у них были бы места.'
+      },
+      {
+        sentence: 'Si tú no _____ (llegar) tarde, te _____ (ver) María.',
+        correct: 'hubieras llegado, habría visto',
+        translation: 'Если бы ты не опоздал, Мария тебя увидела бы.'
+      },
+      {
+        sentence: 'Si nosotros _____ (tener) más tiempo, _____ (visitar) todos los museos.',
+        correct: 'hubiéramos tenido, habríamos visitado',
+        translation: 'Если бы у нас было больше времени, мы бы посетили все музеи.'
+      }
+    ]
+  },
+
+  'ex-16-2-3': {
+    id: 'ex-16-2-3',
+    type: 'translation',
+    title: 'Упражнение 3: Переведите на испанский язык',
+    description: 'Переведите предложения с русского на испанский, используя условные предложения III типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если бы ты вчера прочитала газеты, ты бы узнала все новости.',
+        correct: 'Si hubieras leído los periódicos ayer, habrías sabido todas las noticias.',
+        alternatives: ['Si ayer hubieras leído el periódico, te habrías enterado de todas las noticias.']
+      },
+      {
+        russian: 'Мама подумала, что если бы Мигель надел шарф, то не заболел бы.',
+        correct: 'Mamá pensó que si Miguel se hubiera puesto la bufanda, no se habría puesto enfermo.',
+        alternatives: ['La madre pensó que si Miguel hubiera llevado bufanda, no habría enfermado.']
+      },
+      {
+        russian: 'Хуан сказал, что если бы он знал заранее, что мы придем, он бы подготовил все необходимые документы.',
+        correct: 'Juan dijo que si hubiera sabido de antemano que vendríamos, habría preparado todos los documentos necesarios.',
+        alternatives: ['Juan dijo que si hubiera sabido con anticipación que íbamos a venir, habría preparado toda la documentación necesaria.']
+      },
+      {
+        russian: 'Если бы ты меня послушался и вышел из дома раньше, то не опоздал бы на поезд.',
+        correct: 'Si me hubieras escuchado y hubieras salido de casa antes, no habrías perdido el tren.',
+        alternatives: ['Si me hubieras hecho caso y hubieras salido más temprano, no te habrías retrasado para el tren.']
+      },
+      {
+        russian: 'Если бы погода не испортилась, мы бы пошли на пляж, а так нам пришлось целый день вчера просидеть дома.',
+        correct: 'Si el tiempo no se hubiera estropeado, habríamos ido a la playa, pero tuvimos que quedarnos en casa todo el día ayer.',
+        alternatives: ['Si no hubiera empeorado el tiempo, habríamos ido a la playa, así que ayer tuvimos que estar en casa todo el día.']
+      },
+      {
+        russian: 'Если бы мы им позвонили два дня назад, они бы нам помогли решить эту проблему.',
+        correct: 'Si les hubiéramos llamado hace dos días, nos habrían ayudado a resolver este problema.',
+        alternatives: ['Si los hubiéramos llamado hace dos días, ellos nos habrían ayudado a solucionar el problema.']
+      },
+      {
+        russian: 'Он бы уже окончил университет, если бы не женился.',
+        correct: 'Ya habría terminado la universidad si no se hubiera casado.',
+        alternatives: ['Habría acabado ya la universidad si no se hubiera casado.']
+      },
+      {
+        russian: 'Если бы ты следовал рекомендациям врача, ты бы уже поправился.',
+        correct: 'Si hubieras seguido las recomendaciones del médico, ya te habrías recuperado.',
+        alternatives: ['Si hubieras seguido los consejos del doctor, ya estarías curado.']
+      },
+      {
+        russian: 'Они приняли бы наш проект, если бы Вы постарались убедить их в его экологической безопасности.',
+        correct: 'Habrían aceptado nuestro proyecto si usted hubiera intentado convencerlos de su seguridad ecológica.',
+        alternatives: ['Ellos habrían aprobado nuestro proyecto si Ud. se hubiera esforzado en convencerles de su seguridad medioambiental.']
+      },
+      {
+        russian: 'Если бы неделю назад мне сказали, что я выиграю этот конкурс, я бы не поверила.',
+        correct: 'Si hace una semana me hubieran dicho que ganaría este concurso, no lo habría creído.',
+        alternatives: ['Si la semana pasada me hubieran dicho que iba a ganar este concurso, no me lo habría creído.']
+      },
+      {
+        russian: 'Если бы я встретил ее на вокзале, я бы отвез ее домой.',
+        correct: 'Si la hubiera encontrado en la estación, la habría llevado a casa.',
+        alternatives: ['Si me hubiera encontrado con ella en la estación, la habría acompañado a su casa.']
+      },
+      {
+        russian: 'Если бы они пригласили нас, мы бы обязательно пришли.',
+        correct: 'Si nos hubieran invitado, habríamos venido sin falta.',
+        alternatives: ['Si ellos nos hubieran invitado, habríamos ido seguro.']
+      },
+      {
+        russian: 'Мы бы купили ту квартиру, если бы банк нам дал кредит.',
+        correct: 'Habríamos comprado aquel piso si el banco nos hubiera dado un crédito.',
+        alternatives: ['Habríamos comprado ese apartamento si el banco nos hubiera concedido el préstamo.']
+      },
+      {
+        russian: 'Если бы ты позвонил мне вчера, я бы тебе все рассказал.',
+        correct: 'Si me hubieras llamado ayer, te lo habría contado todo.',
+        alternatives: ['Si hubieras llamado ayer, yo te habría explicado todo.']
+      },
+      {
+        russian: 'Она не забыла бы о встрече, если бы ты ей напомнил.',
+        correct: 'No se habría olvidado de la cita si tú se lo hubieras recordado.',
+        alternatives: ['Ella no habría olvidado la reunión si le hubieras recordado.']
+      },
+      {
+        russian: 'Если бы я знал, что ты придешь, я бы приготовил ужин.',
+        correct: 'Si hubiera sabido que vendrías, habría preparado la cena.',
+        alternatives: ['Si hubiera sabido que ibas a venir, habría hecho la cena.']
+      },
+      {
+        russian: 'Мы бы не заблудились, если бы взяли карту.',
+        correct: 'No nos habríamos perdido si hubiéramos llevado un mapa.',
+        alternatives: ['No nos habríamos extraviado si hubiéramos cogido el plano.']
+      },
+      {
+        russian: 'Если бы он был более осторожным, он бы не попал в аварию.',
+        correct: 'Si hubiera sido más prudente, no habría tenido un accidente.',
+        alternatives: ['Si hubiera sido más cuidadoso, no habría sufrido el accidente.']
+      },
+      {
+        russian: 'Я бы пошел на концерт, если бы достал билеты.',
+        correct: 'Habría ido al concierto si hubiera conseguido entradas.',
+        alternatives: ['Habría asistido al concierto si hubiera comprado boletos.']
+      },
+      {
+        russian: 'Если бы вы пришли раньше, вы бы увидели начало фильма.',
+        correct: 'Si hubierais venido antes, habríais visto el principio de la película.',
+        alternatives: ['Si hubieran llegado más temprano, habrían visto el comienzo del filme.']
+      }
+    ]
+  },
+
+  'ex-16-2-4': {
+    id: 'ex-16-2-4',
+    type: 'multiplechoice',
+    title: 'Упражнение 4: Выберите правильную форму глагола (III тип условных)',
+    description: 'Выберите правильную форму Pluscuamperfecto de Subjuntivo или Condicional Perfecto',
+    questions: [
+      {
+        sentence: 'Si _____ estudiado más, habría aprobado el examen.',
+        options: ['he', 'había', 'hubiera', 'haya'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera estudiado)'
+      },
+      {
+        sentence: 'Habríamos ido al cine si _____ tenido tiempo.',
+        options: ['hemos', 'habíamos', 'hubiéramos', 'hayamos'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiéramos tenido)'
+      },
+      {
+        sentence: 'Si me hubieras llamado, te _____ ayudado.',
+        options: ['he', 'había', 'habría', 'haya'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habría ayudado)'
+      },
+      {
+        sentence: 'Ellos _____ llegado a tiempo si hubieran salido antes.',
+        options: ['han', 'habían', 'habrían', 'hayan'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habrían llegado)'
+      },
+      {
+        sentence: 'Si tú _____ visto esa película, te habría gustado.',
+        options: ['has', 'habías', 'hubieras', 'hayas'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubieras visto)'
+      },
+      {
+        sentence: '¿Qué habrías hecho si te _____ tocado la lotería?',
+        options: ['ha', 'había', 'hubiera', 'haya'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera tocado)'
+      },
+      {
+        sentence: 'Si no _____ llovido, habríamos ido al parque.',
+        options: ['ha', 'había', 'hubiera', 'haya'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera llovido)'
+      },
+      {
+        sentence: 'Ella _____ sido feliz si hubiera encontrado el amor.',
+        options: ['ha', 'había', 'habría', 'haya'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habría sido)'
+      },
+      {
+        sentence: 'Si vosotros _____ venido, os habríais divertido.',
+        options: ['habéis', 'habíais', 'hubierais', 'hayáis'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubierais venido)'
+      },
+      {
+        sentence: 'Yo habría aceptado si me lo _____ pedido.',
+        options: ['has', 'habías', 'hubieras', 'hayas'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubieras pedido)'
+      },
+      {
+        sentence: 'Si _____ sabido la verdad, te la habría dicho.',
+        options: ['he', 'había', 'hubiera', 'haya'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera sabido)'
+      },
+      {
+        sentence: 'Nosotros _____ comprado la casa si hubiéramos tenido dinero.',
+        options: ['hemos', 'habíamos', 'habríamos', 'hayamos'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habríamos comprado)'
+      },
+      {
+        sentence: 'Si tú _____ escuchado mis consejos, no habrías cometido ese error.',
+        options: ['has', 'habías', 'hubieras', 'hayas'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubieras escuchado)'
+      },
+      {
+        sentence: 'Ellos _____ ganado el partido si hubieran entrenado más.',
+        options: ['han', 'habían', 'habrían', 'hayan'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habrían ganado)'
+      },
+      {
+        sentence: 'Si ella _____ estudiado medicina, ahora sería doctora.',
+        options: ['ha', 'había', 'hubiera', 'haya'],
+        correct: 2,
+        explanation: 'Условие en Pluscuamperfecto de Subjuntivo (hubiera estudiado)'
+      },
+      {
+        sentence: '¿Habrías viajado a Japón si te _____ dado la oportunidad?',
+        options: ['han', 'habían', 'hubieran', 'hayan'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubieran dado)'
+      },
+      {
+        sentence: 'Si no _____ perdido el tren, habríamos llegado a tiempo.',
+        options: ['hemos', 'habíamos', 'hubiéramos', 'hayamos'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiéramos perdido)'
+      },
+      {
+        sentence: 'Tú _____ entendido mejor si hubieras prestado atención.',
+        options: ['has', 'habías', 'habrías', 'hayas'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habrías entendido)'
+      },
+      {
+        sentence: 'Si vosotros _____ reservado mesa, habríais podido cenar allí.',
+        options: ['habéis', 'habíais', 'hubierais', 'hayáis'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubierais reservado)'
+      },
+      {
+        sentence: 'Yo _____ comprado ese libro si hubiera tenido dinero.',
+        options: ['he', 'había', 'habría', 'haya'],
+        correct: 2,
+        explanation: 'Результат в Condicional Perfecto (habría comprado)'
+      }
+    ]
+  },
+
+  'ex-16-2-5': {
+    id: 'ex-16-2-5',
+    type: 'correct-error',
+    title: 'Упражнение 5: Исправьте ошибки в условных предложениях III типа',
+    description: 'Найдите и исправьте ошибки в условных предложениях',
+    showAnswerOption: true,
+    questions: [
+      {
+        incorrect: 'Si hubiera tenía tiempo, habría ido contigo.',
+        correct: 'Si hubiera tenido tiempo, habría ido contigo.',
+        explanation: 'После "hubiera" нужен Participio Pasado (tenido), а не Imperfecto (tenía)'
+      },
+      {
+        incorrect: 'Si habrías estudiado, habrías aprobado.',
+        correct: 'Si hubieras estudiado, habrías aprobado.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubieras), no Condicional (habrías)'
+      },
+      {
+        incorrect: 'Si hubiera sabido, te había llamado.',
+        correct: 'Si hubiera sabido, te habría llamado.',
+        explanation: 'En el resultado usamos Condicional Perfecto (habría llamado), no Pluscuamperfecto de Indicativo (había llamado)'
+      },
+      {
+        incorrect: 'Si tuviera dinero, habría comprado la casa.',
+        correct: 'Si hubiera tenido dinero, habría comprado la casa.',
+        explanation: 'Para el tipo III usamos Pluscuamperfecto de Subjuntivo (hubiera tenido), no Imperfecto (tuviera)'
+      },
+      {
+        incorrect: 'Si hubieras viene, te habrías divertido.',
+        correct: 'Si hubieras venido, te habrías divertido.',
+        explanation: 'El Participio Pasado de "venir" es "venido", no "viene"'
+      },
+      {
+        incorrect: 'Habríamos ido si hubiéramos tiene tiempo.',
+        correct: 'Habríamos ido si hubiéramos tenido tiempo.',
+        explanation: 'El Participio Pasado de "tener" es "tenido", no "tiene"'
+      },
+      {
+        incorrect: 'Si me llamabas, te habría ayudado.',
+        correct: 'Si me hubieras llamado, te habría ayudado.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubieras llamado), no Imperfecto (llamabas)'
+      },
+      {
+        incorrect: 'Si hubiera llovido, no iríamos a la playa.',
+        correct: 'Si hubiera llovido, no habríamos ido a la playa.',
+        explanation: 'En el resultado usamos Condicional Perfecto (habríamos ido), no Condicional Simple (iríamos)'
+      },
+      {
+        incorrect: 'Habrían ganado si entrenaban más.',
+        correct: 'Habrían ganado si hubieran entrenado más.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubieran entrenado), no Imperfecto (entrenaban)'
+      },
+      {
+        incorrect: 'Si yo sería rico, habría viajado por el mundo.',
+        correct: 'Si yo hubiera sido rico, habría viajado por el mundo.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubiera sido), no Condicional (sería)'
+      },
+      {
+        incorrect: 'Si hubieras leído el libro, te gustaba.',
+        correct: 'Si hubieras leído el libro, te habría gustado.',
+        explanation: 'En el resultado usamos Condicional Perfecto (habría gustado), no Imperfecto (gustaba)'
+      },
+      {
+        incorrect: 'Habría aprobado si estudié más.',
+        correct: 'Habría aprobado si hubiera estudiado más.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubiera estudiado), no Pretérito Indefinido (estudié)'
+      },
+      {
+        incorrect: 'Si no hubiera llover, habríamos salido.',
+        correct: 'Si no hubiera llovido, habríamos salido.',
+        explanation: 'Después de "hubiera" va el Participio Pasado (llovido), no el infinitivo (llover)'
+      },
+      {
+        incorrect: 'Te habría visto si venías a la fiesta.',
+        correct: 'Te habría visto si hubieras venido a la fiesta.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubieras venido), no Imperfecto (venías)'
+      },
+      {
+        incorrect: 'Si hubieran saber la verdad, habrían actuado diferente.',
+        correct: 'Si hubieran sabido la verdad, habrían actuado diferente.',
+        explanation: 'Después de "hubieran" va el Participio Pasado (sabido), no el infinitivo (saber)'
+      },
+      {
+        incorrect: 'No habrías perdido el tren si saliste antes.',
+        correct: 'No habrías perdido el tren si hubieras salido antes.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubieras salido), no Indefinido (saliste)'
+      },
+      {
+        incorrect: 'Si hubieras hecho deporte, estarías más sano.',
+        correct: 'Si hubieras hecho deporte, habrías estado más sano.',
+        explanation: 'Para el tipo III puro, en el resultado usamos Condicional Perfecto (habrías estado), aunque esta frase puede ser mixta'
+      },
+      {
+        incorrect: 'Habríamos comprado el piso si el banco nos da un crédito.',
+        correct: 'Habríamos comprado el piso si el banco nos hubiera dado un crédito.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo (hubiera dado), no Presente (da)'
+      },
+      {
+        incorrect: 'Si lo supieras, me lo habrías dicho.',
+        correct: 'Si lo hubieras sabido, me lo habrías dicho.',
+        explanation: 'Para el tipo III usamos Pluscuamperfecto de Subjuntivo (hubieras sabido), no Imperfecto (supieras)'
+      },
+      {
+        incorrect: 'Habría sido diferente si tú estar allí.',
+        correct: 'Habría sido diferente si tú hubieras estado allí.',
+        explanation: 'En la condición usamos Pluscuamperfecto de Subjuntivo completo (hubieras estado), no solo el infinitivo'
+      }
+    ]
+  },
+
+  'ex-16-2-6': {
+    id: 'ex-16-2-6',
+    type: 'regrets',
+    title: 'Упражнение 6: Выразите сожаление о прошлом',
+    description: 'Напишите, о чем сожалеют эти люди, используя условные предложения III типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        situation: 'Pedro no estudió para el examen. Ahora está triste porque suspendió.',
+        regret: 'Si hubiera estudiado para el examen, habría aprobado.',
+        translation: 'Если бы он учился к экзамену, он бы сдал.'
+      },
+      {
+        situation: 'María no fue al médico cuando estaba enferma. Ahora está peor.',
+        regret: 'Si hubiera ido al médico, ahora estaría mejor.',
+        translation: 'Если бы она пошла к врачу, сейчас ей было бы лучше.'
+      },
+      {
+        situation: 'Juan no ahorró dinero. Ahora no puede comprarse un coche.',
+        regret: 'Si hubiera ahorrado dinero, ahora podría comprarse un coche.',
+        translation: 'Если бы он копил деньги, сейчас он мог бы купить машину.'
+      },
+      {
+        situation: 'Ana no aceptó ese trabajo en Barcelona. Ahora se arrepiente.',
+        regret: 'Si hubiera aceptado ese trabajo, ahora viviría en Barcelona.',
+        translation: 'Если бы она приняла ту работу, сейчас она жила бы в Барселоне.'
+      },
+      {
+        situation: 'Carlos no aprendió idiomas cuando era joven. Ahora no encuentra trabajo.',
+        regret: 'Si hubiera aprendido idiomas, ahora tendría más oportunidades.',
+        translation: 'Если бы он выучил языки, сейчас у него было бы больше возможностей.'
+      },
+      {
+        situation: 'Laura no salió temprano. Perdió el tren.',
+        regret: 'Si hubiera salido temprano, no habría perdido el tren.',
+        translation: 'Если бы она вышла рано, она не опоздала бы на поезд.'
+      },
+      {
+        situation: 'Miguel no hizo ejercicio. Ahora tiene problemas de salud.',
+        regret: 'Si hubiera hecho ejercicio, ahora estaría más sano.',
+        translation: 'Если бы он занимался спортом, сейчас он был бы здоровее.'
+      },
+      {
+        situation: 'Elena no reservó mesa. No pudo cenar en ese restaurante.',
+        regret: 'Si hubiera reservado mesa, habría podido cenar allí.',
+        translation: 'Если бы она забронировала столик, она могла бы там поужинать.'
+      },
+      {
+        situation: 'Roberto no escuchó los consejos de sus padres. Cometió un error grave.',
+        regret: 'Si hubiera escuchado los consejos, no habría cometido ese error.',
+        translation: 'Если бы он послушал советы, он не совершил бы эту ошибку.'
+      },
+      {
+        situation: 'Carmen no compró las entradas a tiempo. Se quedó sin asientos.',
+        regret: 'Si hubiera comprado las entradas antes, habría conseguido asientos.',
+        translation: 'Если бы она купила билеты вовремя, у нее были бы места.'
+      },
+      {
+        situation: 'David no estudió medicina. Ahora no es médico.',
+        regret: 'Si hubiera estudiado medicina, ahora sería médico.',
+        translation: 'Если бы он изучал медицину, сейчас он был бы врачом.'
+      },
+      {
+        situation: 'Lucía no llevó paraguas. Se mojó con la lluvia.',
+        regret: 'Si hubiera llevado paraguas, no se habría mojado.',
+        translation: 'Если бы она взяла зонт, она бы не промокла.'
+      },
+      {
+        situation: 'Antonio no invirtió en esa empresa. Ahora la empresa vale millones.',
+        regret: 'Si hubiera invertido, ahora sería rico.',
+        translation: 'Если бы он инвестировал, сейчас он был бы богатым.'
+      },
+      {
+        situation: 'Isabel no fue a la fiesta. No conoció a su futuro marido.',
+        regret: 'Si hubiera ido a la fiesta, habría conocido a su futuro marido.',
+        translation: 'Если бы она пошла на вечеринку, она бы встретила своего будущего мужа.'
+      },
+      {
+        situation: 'Francisco no terminó la universidad. Ahora trabaja en un trabajo que no le gusta.',
+        regret: 'Si hubiera terminado la universidad, tendría un mejor trabajo.',
+        translation: 'Если бы он закончил университет, у него была бы лучше работа.'
+      },
+      {
+        situation: 'Marta no viajó cuando era joven. Ahora lamenta no haber visto el mundo.',
+        regret: 'Si hubiera viajado cuando era joven, habría visto el mundo.',
+        translation: 'Если бы она путешествовала в молодости, она бы увидела мир.'
+      },
+      {
+        situation: 'Alberto no le dijo la verdad a su novia. Ella terminó la relación.',
+        regret: 'Si le hubiera dicho la verdad, ella no habría terminado la relación.',
+        translation: 'Если бы он сказал ей правду, она не закончила бы отношения.'
+      },
+      {
+        situation: 'Patricia no practicó el piano. Ahora no sabe tocarlo bien.',
+        regret: 'Si hubiera practicado más, ahora tocaría mejor.',
+        translation: 'Если бы она больше практиковалась, сейчас она играла бы лучше.'
+      },
+      {
+        situation: 'Ricardo no llevó el mapa. Se perdió en la ciudad.',
+        regret: 'Si hubiera llevado el mapa, no se habría perdido.',
+        translation: 'Если бы он взял карту, он бы не заблудился.'
+      },
+      {
+        situation: 'Cristina no fue prudente con el dinero. Ahora tiene deudas.',
+        regret: 'Si hubiera sido más prudente, no tendría deudas ahora.',
+        translation: 'Если бы она была осторожнее, сейчас у нее не было бы долгов.'
+      }
+    ]
+  },
+
+  'ex-16-2-7': {
+    id: 'ex-16-2-7',
+    type: 'multiplechoice',
+    title: 'Упражнение 7: Выберите правильную форму глагола для условных предложений III типа',
+    description: 'Выберите правильную форму Pluscuamperfecto de Subjuntivo или Condicional Perfecto',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si _____ salido antes, no habrías perdido el tren.',
+        options: ['has', 'habías', 'hubieras', 'habrías'],
+        correct: 2,
+        translation: 'Если бы ты вышел раньше, ты бы не опоздал на поезд.'
+      },
+      {
+        sentence: 'Habríamos ganado el partido si _____ entrenado más.',
+        options: ['hemos', 'habíamos', 'hubiéramos', 'habríamos'],
+        correct: 2,
+        translation: 'Мы бы выиграли матч, если бы больше тренировались.'
+      },
+      {
+        sentence: 'Si ella _____ estudiado medicina, ahora sería doctora.',
+        options: ['ha', 'había', 'hubiera', 'habría'],
+        correct: 2,
+        translation: 'Если бы она изучала медицину, сейчас она была бы врачом.'
+      },
+      {
+        sentence: 'No _____ cometido ese error si me hubieras escuchado.',
+        options: ['has', 'habías', 'hubieras', 'habrías'],
+        correct: 3,
+        translation: 'Ты не совершил бы эту ошибку, если бы меня послушал.'
+      },
+      {
+        sentence: 'Si _____ llevado el paraguas, no te habrías mojado.',
+        options: ['has', 'habías', 'hubieras', 'habrías'],
+        correct: 2,
+        translation: 'Если бы ты взял зонт, ты бы не промок.'
+      },
+      {
+        sentence: '¿Qué _____ hecho tú en mi lugar?',
+        options: ['has', 'habías', 'hubieras', 'habrías'],
+        correct: 3,
+        translation: 'Что бы ты сделал на моем месте?'
+      },
+      {
+        sentence: 'Si yo _____ sabido la verdad, te la habría contado.',
+        options: ['he', 'había', 'hubiera', 'habría'],
+        correct: 2,
+        translation: 'Если бы я знал правду, я бы тебе ее рассказал.'
+      },
+      {
+        sentence: 'Ellos _____ comprado la casa si el precio hubiera sido más bajo.',
+        options: ['han', 'habían', 'hubieran', 'habrían'],
+        correct: 3,
+        translation: 'Они бы купили дом, если бы цена была ниже.'
+      },
+      {
+        sentence: 'Si nosotros _____ llegado a tiempo, habríamos visto el principio.',
+        options: ['hemos', 'habíamos', 'hubiéramos', 'habríamos'],
+        correct: 2,
+        translation: 'Если бы мы пришли вовремя, мы бы увидели начало.'
+      },
+      {
+        sentence: '¿Te _____ gustado vivir en otra época?',
+        options: ['ha', 'había', 'hubiera', 'habría'],
+        correct: 3,
+        translation: 'Тебе бы понравилось жить в другую эпоху?'
+      },
+      {
+        sentence: 'Si él _____ sido más cuidadoso, no habría tenido el accidente.',
+        options: ['ha', 'había', 'hubiera', 'habría'],
+        correct: 2,
+        translation: 'Если бы он был осторожнее, у него не было бы аварии.'
+      },
+      {
+        sentence: 'Te _____ llamado si hubiera tenido tu número.',
+        options: ['he', 'había', 'hubiera', 'habría'],
+        correct: 3,
+        translation: 'Я бы тебе позвонил, если бы у меня был твой номер.'
+      },
+      {
+        sentence: 'Si vosotros _____ venido a la fiesta, os habríais divertido mucho.',
+        options: ['habéis', 'habíais', 'hubierais', 'habríais'],
+        correct: 2,
+        translation: 'Если бы вы пришли на вечеринку, вы бы хорошо повеселились.'
+      },
+      {
+        sentence: 'Ella no _____ perdido el trabajo si no hubiera llegado tarde tantas veces.',
+        options: ['ha', 'había', 'hubiera', 'habría'],
+        correct: 3,
+        translation: 'Она не потеряла бы работу, если бы не опаздывала так часто.'
+      },
+      {
+        sentence: 'Si _____ llovido, el concierto habría sido cancelado.',
+        options: ['ha', 'había', 'hubiera', 'habría'],
+        correct: 2,
+        translation: 'Если бы пошел дождь, концерт был бы отменен.'
+      },
+      {
+        sentence: '¿Qué carrera _____ estudiado si hubieras tenido otra oportunidad?',
+        options: ['has', 'habías', 'hubieras', 'habrías'],
+        correct: 3,
+        translation: 'Какую карьеру ты бы выбрал, если бы у тебя была другая возможность?'
+      },
+      {
+        sentence: 'Si mis padres _____ vivido en España, yo hablaría español perfectamente.',
+        options: ['han', 'habían', 'hubieran', 'habrían'],
+        correct: 2,
+        translation: 'Если бы мои родители жили в Испании, я бы говорил по-испански идеально.'
+      },
+      {
+        sentence: 'No nos _____ perdido si hubiéramos usado el GPS.',
+        options: ['hemos', 'habíamos', 'hubiéramos', 'habríamos'],
+        correct: 3,
+        translation: 'Мы бы не заблудились, если бы использовали GPS.'
+      },
+      {
+        sentence: 'Si tú me _____ avisado, habría preparado algo de comer.',
+        options: ['has', 'habías', 'hubieras', 'habrías'],
+        correct: 2,
+        translation: 'Если бы ты меня предупредил, я бы приготовил что-нибудь поесть.'
+      },
+      {
+        sentence: 'El proyecto _____ sido un éxito si hubiéramos trabajado en equipo.',
+        options: ['ha', 'había', 'hubiera', 'habría'],
+        correct: 3,
+        translation: 'Проект был бы успешным, если бы мы работали в команде.'
+      }
+    ]
+  },
+
+  'ex-16-2-8': {
+    id: 'ex-16-2-8',
+    type: 'chain-reaction',
+    title: 'Упражнение 8: Цепочка последствий в прошлом',
+    description: 'Объясните, что произошло бы, если бы событие в прошлом было другим',
+    showAnswerOption: true,
+    questions: [
+      {
+        event: 'Overslept → Perdí el tren',
+        prompt: 'Si no hubiera dormido de más...',
+        correct: 'no habría perdido el tren / habría llegado a tiempo al trabajo / no me habrían despedido',
+        translation: 'Если бы я не проспал, я бы не опоздал на поезд / пришел бы вовремя на работу / меня бы не уволили.'
+      },
+      {
+        event: 'Forgot umbrella → Me mojé',
+        prompt: 'Si hubiera llevado el paraguas...',
+        correct: 'no me habría mojado / no habría enfermado / habría ido a la reunión',
+        translation: 'Если бы я взял зонт, я бы не промок / не заболел / пошел бы на встречу.'
+      },
+      {
+        event: 'Didn\'t study → Suspendí el examen',
+        prompt: 'Si hubiera estudiado para el examen...',
+        correct: 'habría aprobado / mis padres habrían estado orgullosos / habría conseguido la beca',
+        translation: 'Если бы я готовился к экзамену, я бы сдал / мои родители гордились бы / я бы получил стипендию.'
+      },
+      {
+        event: 'No money saved → No pude comprar el piso',
+        prompt: 'Si hubiera ahorrado dinero...',
+        correct: 'habría comprado el piso / ahora tendría mi propia casa / no pagaría alquiler',
+        translation: 'Если бы я накопил деньги, я бы купил квартиру / сейчас у меня был бы свой дом / я бы не платил аренду.'
+      },
+      {
+        event: 'Car broke down → Llegué tarde',
+        prompt: 'Si el coche no se hubiera estropeado...',
+        correct: 'habría llegado a tiempo / no habría perdido la reunión / habría conseguido el contrato',
+        translation: 'Если бы машина не сломалась, я бы пришел вовремя / не пропустил встречу / получил бы контракт.'
+      },
+      {
+        event: 'Didn\'t listen to advice → Cometí un error',
+        prompt: 'Si hubiera escuchado el consejo...',
+        correct: 'no habría cometido ese error / habría tomado la decisión correcta / todo habría salido bien',
+        translation: 'Если бы я послушал совет, я бы не совершил ту ошибку / принял бы правильное решение / все прошло бы хорошо.'
+      },
+      {
+        event: 'Ate too much → Me sentí mal',
+        prompt: 'Si no hubiera comido tanto...',
+        correct: 'no me habría sentido mal / habría podido salir / me habría divertido en la fiesta',
+        translation: 'Если бы я не переел, мне бы не стало плохо / я бы смог выйти / повеселился бы на вечеринке.'
+      },
+      {
+        event: 'No reservation → No conseguimos mesa',
+        prompt: 'Si hubiéramos hecho una reserva...',
+        correct: 'habríamos conseguido mesa / habríamos cenado allí / no habríamos tenido que buscar otro sitio',
+        translation: 'Если бы мы забронировали, мы бы получили столик / поужинали там / не пришлось бы искать другое место.'
+      },
+      {
+        event: 'Left phone at home → No pude llamarte',
+        prompt: 'Si no hubiera olvidado el móvil...',
+        correct: 'te habría llamado / te habría avisado / no te habrías preocupado',
+        translation: 'Если бы я не забыл телефон, я бы тебе позвонил / предупредил бы / ты бы не волновался.'
+      },
+      {
+        event: 'Didn\'t check weather → Salí sin abrigo',
+        prompt: 'Si hubiera mirado el pronóstico del tiempo...',
+        correct: 'habría llevado abrigo / no habría pasado frío / no me habría resfriado',
+        translation: 'Если бы я посмотрел прогноз погоды, я бы взял пальто / не замерз бы / не простудился бы.'
+      },
+      {
+        event: 'Rejected job offer → Me quedé sin trabajo',
+        prompt: 'Si hubiera aceptado la oferta de trabajo...',
+        correct: 'ahora tendría empleo / estaría ganando dinero / habría progresado en mi carrera',
+        translation: 'Если бы я принял предложение о работе, сейчас у меня была бы работа / я бы зарабатывал / продвинулся в карьере.'
+      },
+      {
+        event: 'Didn\'t backup files → Perdí todo',
+        prompt: 'Si hubiera hecho una copia de seguridad...',
+        correct: 'no habría perdido los archivos / habría recuperado todo / no tendría este problema',
+        translation: 'Если бы я сделал резервную копию, я бы не потерял файлы / восстановил бы все / у меня не было бы этой проблемы.'
+      },
+      {
+        event: 'Argued with boss → Me despidieron',
+        prompt: 'Si no hubiera discutido con el jefe...',
+        correct: 'no me habrían despedido / seguiría trabajando allí / tendría ingresos',
+        translation: 'Если бы я не поспорил с начальником, меня бы не уволили / я бы все еще там работал / у меня был бы доход.'
+      },
+      {
+        event: 'Missed flight → No llegué a la boda',
+        prompt: 'Si no hubiera perdido el vuelo...',
+        correct: 'habría llegado a la boda / habría visto a mis amigos / no me habría perdido la celebración',
+        translation: 'Если бы я не опоздал на рейс, я бы попал на свадьбу / увидел друзей / не пропустил празднование.'
+      },
+      {
+        event: 'Didn\'t learn English → No conseguí el puesto',
+        prompt: 'Si hubiera aprendido inglés...',
+        correct: 'habría conseguido el puesto / estaría trabajando en el extranjero / ganaría más',
+        translation: 'Если бы я выучил английский, я бы получил должность / работал за границей / зарабатывал больше.'
+      },
+      {
+        event: 'Told a lie → Perdí su confianza',
+        prompt: 'Si no hubiera mentido...',
+        correct: 'no habría perdido su confianza / seguiríamos siendo amigos / me habría perdonado',
+        translation: 'Если бы я не солгал, я бы не потерял его доверие / мы все еще были бы друзьями / он бы меня простил.'
+      },
+      {
+        event: 'Didn\'t invest → Perdí la oportunidad',
+        prompt: 'Si hubiera invertido en esa empresa...',
+        correct: 'habría ganado dinero / ahora sería rico / habría tenido éxito',
+        translation: 'Если бы я инвестировал в ту компанию, я бы заработал / сейчас был бы богат / добился успеха.'
+      },
+      {
+        event: 'Broke promise → Ella se enfadó',
+        prompt: 'Si hubiera cumplido mi promesa...',
+        correct: 'ella no se habría enfadado / no habríamos peleado / seguiríamos juntos',
+        translation: 'Если бы я выполнил обещание, она бы не разозлилась / мы бы не поссорились / были бы вместе.'
+      },
+      {
+        event: 'Didn\'t go to doctor → Empeoré',
+        prompt: 'Si hubiera ido al médico antes...',
+        correct: 'no habría empeorado / me habría curado antes / no habría sufrido tanto',
+        translation: 'Если бы я раньше пошел к врачу, мне бы не стало хуже / я бы вылечился раньше / не страдал бы так.'
+      },
+      {
+        event: 'Chose wrong career → No soy feliz',
+        prompt: 'Si hubiera elegido otra carrera...',
+        correct: 'sería más feliz / estaría haciendo lo que me gusta / no me arrepentiría',
+        translation: 'Если бы я выбрал другую карьеру, я был бы счастливее / делал бы то, что люблю / не жалел бы.'
+      }
+    ]
+  },
+
+  'ex-16-2-9': {
+    id: 'ex-16-2-9',
+    type: 'translation',
+    title: 'Упражнение 9: Перевод на испанский язык (расширенный)',
+    description: 'Переведите предложения с русского на испанский, используя условные предложения III типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если бы я знал, что ты придешь, я бы приготовил ужин и убрал квартиру.',
+        correct: 'Si hubiera sabido que vendrías, habría preparado la cena y habría limpiado el piso.',
+        alternatives: ['Si yo hubiera sabido que ibas a venir, habría hecho la cena y ordenado el apartamento.']
+      },
+      {
+        russian: 'Мы бы не опоздали на самолет, если бы выехали из дома на час раньше.',
+        correct: 'No habríamos perdido el avión si hubiéramos salido de casa una hora antes.',
+        alternatives: ['No habríamos llegado tarde al vuelo si nos hubiéramos ido de casa una hora más temprano.']
+      },
+      {
+        russian: 'Если бы она училась усерднее, она бы сдала экзамен и поступила в университет.',
+        correct: 'Si ella hubiera estudiado más, habría aprobado el examen y habría entrado en la universidad.',
+        alternatives: ['Si hubiera estudiado con más empeño, habría pasado el examen e ingresado a la universidad.']
+      },
+      {
+        russian: 'Если бы ты послушал мой совет, ты бы не совершил эту огромную ошибку.',
+        correct: 'Si hubieras escuchado mi consejo, no habrías cometido este error enorme.',
+        alternatives: ['Si me hubieras hecho caso, no habrías cometido ese gran error.']
+      },
+      {
+        russian: 'Они бы купили тот дом у моря, если бы банк одобрил им ипотеку.',
+        correct: 'Habrían comprado aquella casa junto al mar si el banco les hubiera aprobado la hipoteca.',
+        alternatives: ['Ellos habrían comprado esa casa en la playa si el banco les hubiera concedido el préstamo hipotecario.']
+      },
+      {
+        russian: 'Если бы не было дождя вчера, мы бы пошли на пляж и позагорали.',
+        correct: 'Si no hubiera llovido ayer, habríamos ido a la playa y habríamos tomado el sol.',
+        alternatives: ['Si ayer no hubiera llovido, habríamos ido a la playa a tomar el sol.']
+      },
+      {
+        russian: 'Я бы помог тебе с переездом, если бы ты мне позвонил на прошлой неделе.',
+        correct: 'Te habría ayudado con la mudanza si me hubieras llamado la semana pasada.',
+        alternatives: ['Yo te habría ayudado a mudarte si me hubieras llamado la semana anterior.']
+      },
+      {
+        russian: 'Если бы он не потерял работу в прошлом году, сейчас у него не было бы финансовых проблем.',
+        correct: 'Si no hubiera perdido el trabajo el año pasado, ahora no tendría problemas financieros.',
+        alternatives: ['Si él no hubiera perdido su empleo el año anterior, ahora no tendría problemas de dinero.']
+      },
+      {
+        russian: 'Если бы мы забронировали столик заранее, нам не пришлось бы ждать час в очереди.',
+        correct: 'Si hubiéramos reservado mesa con antelación, no habríamos tenido que esperar una hora en la cola.',
+        alternatives: ['Si hubiésemos reservado una mesa con anticipación, no habríamos tenido que hacer cola una hora.']
+      },
+      {
+        russian: 'Она не сломала бы ногу, если бы не каталась на лыжах в тот день.',
+        correct: 'No se habría roto la pierna si no hubiera esquiado aquel día.',
+        alternatives: ['Ella no se habría fracturado la pierna si no hubiera ido a esquiar ese día.']
+      },
+      {
+        russian: 'Если бы ты сказал мне правду с самого начала, я бы не разозлился.',
+        correct: 'Si me hubieras dicho la verdad desde el principio, no me habría enfadado.',
+        alternatives: ['Si me hubieras contado la verdad desde el comienzo, no me habría enojado.']
+      },
+      {
+        russian: 'Мы бы выиграли соревнование, если бы больше тренировались перед ним.',
+        correct: 'Habríamos ganado la competición si hubiéramos entrenado más antes.',
+        alternatives: ['Habríamos ganado el concurso si nos hubiéramos preparado más antes de él.']
+      },
+      {
+        russian: 'Если бы врач осмотрел его раньше, он бы обнаружил болезнь на ранней стадии.',
+        correct: 'Si el médico lo hubiera examinado antes, habría descubierto la enfermedad en una etapa temprana.',
+        alternatives: ['Si el doctor le hubiera revisado más temprano, habría detectado la enfermedad en fase inicial.']
+      },
+      {
+        russian: 'Они не заблудились бы в городе, если бы взяли с собой карту.',
+        correct: 'No se habrían perdido en la ciudad si hubieran llevado un mapa.',
+        alternatives: ['No se habrían extraviado en la ciudad si hubieran traído el plano.']
+      },
+      {
+        russian: 'Если бы я встретил ее раньше, моя жизнь была бы совершенно другой.',
+        correct: 'Si la hubiera conocido antes, mi vida habría sido completamente diferente.',
+        alternatives: ['Si yo la hubiera encontrado antes, mi vida habría sido totalmente distinta.']
+      },
+      {
+        russian: 'Проект был бы успешным, если бы все члены команды работали вместе.',
+        correct: 'El proyecto habría sido exitoso si todos los miembros del equipo hubieran trabajado juntos.',
+        alternatives: ['El proyecto habría tenido éxito si todos los integrantes del equipo hubieran colaborado.']
+      },
+      {
+        russian: 'Если бы ты не забыл мой день рождения, я бы не обиделась на тебя.',
+        correct: 'Si no hubieras olvidado mi cumpleaños, no me habría ofendido contigo.',
+        alternatives: ['Si no te hubieras olvidado de mi cumpleaños, no me habría molestado.']
+      },
+      {
+        russian: 'Мы бы не попали в пробку, если бы выбрали другой маршрут.',
+        correct: 'No habríamos quedado atrapados en el atasco si hubiéramos elegido otra ruta.',
+        alternatives: ['No nos habríamos quedado en el tráfico si hubiéramos escogido otro camino.']
+      },
+      {
+        russian: 'Если бы компания инвестировала в новые технологии, она бы не обанкротилась.',
+        correct: 'Si la empresa hubiera invertido en nuevas tecnologías, no habría quebrado.',
+        alternatives: ['Si la compañía hubiera invertido en tecnología nueva, no se habría arruinado.']
+      },
+      {
+        russian: 'Ты бы получил повышение, если бы показал лучшие результаты в работе.',
+        correct: 'Habrías conseguido un ascenso si hubieras mostrado mejores resultados en el trabajo.',
+        alternatives: ['Habrías obtenido una promoción si hubieras demostrado mejor rendimiento laboral.']
+      }
+    ]
+  },
+
+  // УРОК 16-3: Условные предложения смешанного типа
+
+  'ex-16-3-1': {
+    id: 'ex-16-3-1',
+    type: 'translation-explanation',
+    title: 'Упражнение 1: Переведите на русский язык и объясните употребление времен',
+    description: 'Переведите предложения и объясните, почему использованы эти времена (смешанный тип условных предложений)',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si hubieras estudiado más, te irían mejor las cosas.',
+        translation: 'Если бы ты больше учился (в прошлом), дела бы шли лучше (сейчас).',
+        explanation: 'Прошлое условие (Pluscuamperfecto Subj.) → настоящий результат (Condicional Simple)'
+      },
+      {
+        sentence: 'No te sentirías tan mal, si hubieras ido al médico.',
+        translation: 'Ты бы не чувствовал себя так плохо (сейчас), если бы сходил к врачу (раньше).',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si no hubieras suspendido dos asignaturas, podrías veranear a tu gusto.',
+        translation: 'Если бы ты не завалил два предмета (в прошлом), ты мог бы проводить лето как хочешь (сейчас).',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si yo hubiera nacido en América, ahora no tendría problemas con obtener el visado norteamericano.',
+        translation: 'Если бы я родился в Америке, сейчас у меня не было бы проблем с получением американской визы.',
+        explanation: 'Прошлое условие (рождение) → настоящий результат (проблемы)'
+      },
+      {
+        sentence: 'No habrían cancelado el vuelo, si no fuera por la nevada.',
+        translation: 'Они бы не отменили рейс (в прошлом), если бы не снегопад (который есть сейчас).',
+        explanation: 'Настоящее условие → прошлый результат'
+      },
+      {
+        sentence: 'Si te gustara ver a tus abuelos, los habríamos visitado el fin de semana.',
+        translation: 'Если бы тебе нравилось видеть дедушку и бабушку (по характеру), мы бы навестили их в выходные (но не навестили).',
+        explanation: 'Настоящее состояние → прошлый результат'
+      },
+      {
+        sentence: 'Si tuviéramos dinero, habríamos comprado una casa nueva y no alquilaríamos este piso tan pequeño.',
+        translation: 'Если бы у нас были деньги (сейчас), мы бы купили новый дом (в прошлом) и не снимали бы эту маленькую квартиру (сейчас).',
+        explanation: 'Настоящее условие → прошлый и настоящий результаты'
+      },
+      {
+        sentence: 'Si no hubiera aquí problemas de aparcamiento, habríamos llegado en coche.',
+        translation: 'Если бы здесь не было проблем с парковкой (сейчас), мы бы приехали на машине (в прошлом).',
+        explanation: 'Настоящее условие → прошлый результат'
+      },
+      {
+        sentence: 'Si no hubieras conocido a tu pareja, ahora te morirías de aburrimiento.',
+        translation: 'Если бы ты не познакомился со своей парой (в прошлом), сейчас ты бы умирал от скуки.',
+        explanation: 'Прошлое условие (знакомство) → настоящий результат'
+      },
+      {
+        sentence: 'Si no fuera por ti, no habríamos terminado el trabajo a tiempo.',
+        translation: 'Если бы не ты (твоя помощь вообще), мы бы не закончили работу вовремя (в прошлом).',
+        explanation: 'Настоящее состояние/качество → прошлый результат'
+      },
+      {
+        sentence: 'Si hubiera hecho ejercicio de joven, ahora estaría en mejor forma.',
+        translation: 'Если бы я занимался спортом в молодости, сейчас я был бы в лучшей форме.',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si fueras más responsable, habrías terminado el proyecto ayer.',
+        translation: 'Если бы ты был более ответственным (по характеру), ты бы закончил проект вчера.',
+        explanation: 'Настоящее качество → прошлый результат'
+      },
+      {
+        sentence: 'Si no hubiera perdido el tren, ahora estaría en Madrid.',
+        translation: 'Если бы я не опоздал на поезд (в прошлом), сейчас я был бы в Мадриде.',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si tuviera más paciencia, habría solucionado el problema sin enfadarme.',
+        translation: 'Если бы у меня было больше терпения (по характеру), я бы решил проблему, не разозлившись.',
+        explanation: 'Настоящее качество → прошлый результат'
+      },
+      {
+        sentence: 'Si hubiera aceptado ese empleo, ahora viviría en Barcelona.',
+        translation: 'Если бы я принял ту работу (в прошлом), сейчас я бы жил в Барселоне.',
+        explanation: 'Прошлое решение → настоящая ситуация'
+      },
+      {
+        sentence: 'Si no fuera tan orgulloso, habría pedido ayuda cuando la necesitaba.',
+        translation: 'Если бы я не был таким гордым (по характеру), я бы попросил помощи, когда нуждался в ней.',
+        explanation: 'Настоящее качество → прошлый результат'
+      },
+      {
+        sentence: 'Si hubiéramos comprado Bitcoin en 2010, ahora seríamos millonarios.',
+        translation: 'Если бы мы купили биткоин в 2010 году, сейчас мы были бы миллионерами.',
+        explanation: 'Прошлое действие → настоящий результат'
+      },
+      {
+        sentence: 'Si supieras conducir, habrías podido ir en coche ayer.',
+        translation: 'Если бы ты умел водить (навык, который есть или нет сейчас), ты мог бы поехать на машине вчера.',
+        explanation: 'Настоящий навык → прошлый результат'
+      },
+      {
+        sentence: 'Si no me hubiera mudado a esta ciudad, ahora no te conocería.',
+        translation: 'Если бы я не переехал в этот город (в прошлом), сейчас я бы тебя не знал.',
+        explanation: 'Прошлое решение → настоящая ситуация'
+      },
+      {
+        sentence: 'Si fuera más valiente, habría viajado a África el año pasado.',
+        translation: 'Если бы я был смелее (по характеру), я бы поехал в Африку в прошлом году.',
+        explanation: 'Настоящее качество → прошлый результат'
+      }
+    ]
+  },
+
+  'ex-16-3-2': {
+    id: 'ex-16-3-2',
+    type: 'fillblank',
+    title: 'Упражнение 2: Поставьте глаголы в соответствующую форму для образования условных предложений смешанного типа',
+    description: 'Определите, к какому времени относится условие и результат, и поставьте глаголы в правильную форму',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si yo no hubiera empezado a estudiar la lengua española, no _____ (saber, yo) que es la segunda, después del inglés como idioma de comunicación internacional.',
+        correct: 'sabría',
+        explanation: 'Прошлое условие → настоящий результат (Condicional Simple)'
+      },
+      {
+        sentence: 'Si Mercedes no tardara tanto en arreglarse, _____ (llegar, ella) a tiempo.',
+        correct: 'habría llegado',
+        explanation: 'Настоящая привычка → прошлый результат (Condicional Perfecto)'
+      },
+      {
+        sentence: 'Si _____ (tener, nosotros) el plano de la ciudad, no nos habríamos perdido.',
+        correct: 'tuviéramos',
+        explanation: 'Настоящее условие → прошлый результат (Imperfecto de Subjuntivo)'
+      },
+      {
+        sentence: 'Si Ud. hubiera nacido en el siglo XIX, no _____ (saber) navegar por Internet y usar el teléfono móvil.',
+        correct: 'sabría',
+        explanation: 'Прошлое условие → настоящий результат (Condicional Simple)'
+      },
+      {
+        sentence: 'No estarías ahora de mal humor, si _____ (dormir, tú) bien la noche pasada.',
+        correct: 'hubieras dormido',
+        explanation: 'Прошлое условие → настоящий результат (Pluscuamperfecto de Subjuntivo)'
+      },
+      {
+        sentence: 'Si _____ (prepararse, él) más para el examen, ahora no estaría tan nervioso.',
+        correct: 'se hubiera preparado',
+        explanation: 'Прошлое условие → настоящий результат (Pluscuamperfecto de Subjuntivo)'
+      },
+      {
+        sentence: 'Ellos no te lo habrían contado, si no _____ (confiar, ellos) en ti.',
+        correct: 'confiaran',
+        explanation: 'Настоящее состояние → прошлый результат (Imperfecto de Subjuntivo)'
+      },
+      {
+        sentence: 'Si fueras más prudente, no _____ (infringir, tú) las reglas de circulación.',
+        correct: 'habrías infringido',
+        explanation: 'Настоящее качество → прошлый результат (Condicional Perfecto)'
+      },
+      {
+        sentence: 'No _____ (tardar, vosotros) ahora tanto tiempo en la traducción, si hubierais aprendido las palabras.',
+        correct: 'tardaríais',
+        explanation: 'Прошлое условие → настоящий результат (Condicional Simple)'
+      },
+      {
+        sentence: 'Si nuestro equipo _____ (ganar) aquel partido importante, celebraríamos el triunfo.',
+        correct: 'hubiera ganado',
+        explanation: 'Прошлое условие → настоящий результат (Pluscuamperfecto de Subjuntivo)'
+      },
+      {
+        sentence: 'Si _____ (estudiar, tú) más el año pasado, ahora no tendrías que repetir el curso.',
+        correct: 'hubieras estudiado',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si _____ (ser, yo) más organizado, habría terminado todo a tiempo.',
+        correct: 'fuera',
+        explanation: 'Настоящее качество → прошлый результат'
+      },
+      {
+        sentence: 'Si no hubiera conocido a mi esposa, ahora _____ (estar, yo) solo.',
+        correct: 'estaría',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si tú _____ (tener) más confianza en ti mismo, habrías aceptado ese reto.',
+        correct: 'tuvieras',
+        explanation: 'Настоящее качество → прошлый результат'
+      },
+      {
+        sentence: 'Si hubiera ahorrado más dinero, ahora _____ (poder, yo) comprarme un piso.',
+        correct: 'podría',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si _____ (ser, vosotros) más puntuales, no habríais perdido el avión.',
+        correct: 'fuerais',
+        explanation: 'Настоящее качество → прошлый результат'
+      },
+      {
+        sentence: 'Si no me hubieran despedido, ahora _____ (trabajar, yo) en esa empresa.',
+        correct: 'trabajaría',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si ella _____ (hablar) mejor inglés, habría conseguido ese puesto.',
+        correct: 'hablara',
+        explanation: 'Настоящий навык → прошлый результат'
+      },
+      {
+        sentence: 'Si hubiera hecho más ejercicio, ahora _____ (estar, yo) en mejor forma.',
+        correct: 'estaría',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si nosotros _____ (vivir) más cerca, os habríamos visitado más a menudo.',
+        correct: 'viviéramos',
+        explanation: 'Настоящая ситуация → прошлый результат'
+      }
+    ]
+  },
+
+  'ex-16-3-3': {
+    id: 'ex-16-3-3',
+    type: 'translation',
+    title: 'Упражнение 3: Переведите на испанский язык (смешанный тип)',
+    description: 'Переведите предложения, используя условные предложения смешанного типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если бы его не ждала дома жена, он бы не ушел так рано.',
+        correct: 'Si su mujer no lo esperara en casa, no se habría ido tan temprano.',
+        alternatives: ['Si no le esperara su esposa en casa, no habría salido tan pronto.']
+      },
+      {
+        russian: 'Если бы ты встал на полчаса раньше, у тебя сейчас было бы время позавтракать.',
+        correct: 'Si te hubieras levantado media hora antes, ahora tendrías tiempo para desayunar.',
+        alternatives: ['Si hubieras despertado treinta minutos más temprano, tendrías tiempo de desayunar ahora.']
+      },
+      {
+        russian: 'Если бы Луис знал наш адрес, он давно навестил бы нас.',
+        correct: 'Si Luis supiera nuestra dirección, nos habría visitado hace tiempo.',
+        alternatives: ['Si Luis conociera nuestro domicilio, ya nos habría visitado.']
+      },
+      {
+        russian: 'Мой друг не говорил бы сейчас так хорошо по-испански, если бы не проучился все лето на курсах в Испании.',
+        correct: 'Mi amigo no hablaría español tan bien ahora si no hubiera estudiado todo el verano en cursos en España.',
+        alternatives: ['Mi amigo ahora no hablaría tan bien español si no hubiera estado todo el verano estudiando en España.']
+      },
+      {
+        russian: 'Если бы Лола хотела выйти замуж, она давно бы это сделала.',
+        correct: 'Si Lola quisiera casarse, ya lo habría hecho hace tiempo.',
+        alternatives: ['Si Lola deseara casarse, lo habría hecho ya.']
+      },
+      {
+        russian: 'Если бы ты забронировал билеты по Интернету, мы бы сейчас не стояли в очереди.',
+        correct: 'Si hubieras reservado los billetes por Internet, ahora no estaríamos haciendo cola.',
+        alternatives: ['Si hubieras comprado las entradas online, no estaríamos en la fila ahora.']
+      },
+      {
+        russian: 'Мы бы сейчас катались на лыжах в Швейцарии, если бы ты не сломал ногу.',
+        correct: 'Ahora estaríamos esquiando en Suiza si no te hubieras roto la pierna.',
+        alternatives: ['Estaríamos esquiando en Suiza ahora si no te hubieras fracturado la pierna.']
+      },
+      {
+        russian: 'Если бы моего мужа не уволили с работы по сокращению, мы бы жили в престижном районе, и я бы не работала.',
+        correct: 'Si no hubieran despedido a mi marido por recortes, viviríamos en un barrio prestigioso y yo no trabajaría.',
+        alternatives: ['Si a mi esposo no le hubieran despedido del trabajo, viviríamos en una zona elegante y yo no estaría trabajando.']
+      },
+      {
+        russian: 'Если бы я была голодна, я бы уже что-нибудь приготовила и поела.',
+        correct: 'Si tuviera hambre, ya habría preparado algo y habría comido.',
+        alternatives: ['Si estuviera hambrienta, ya habría cocinado algo y comido.']
+      },
+      {
+        russian: 'Если бы светило солнце, снег бы уже растаял.',
+        correct: 'Si brillara el sol, la nieve ya se habría derretido.',
+        alternatives: ['Si hiciera sol, ya se habría fundido la nieve.']
+      },
+      {
+        russian: 'Если бы я родился в Испании, сейчас я бы свободно говорил по-испански.',
+        correct: 'Si hubiera nacido en España, ahora hablaría español con fluidez.',
+        alternatives: ['Si yo hubiera nacido en España, hablaría español fluentemente ahora.']
+      },
+      {
+        russian: 'Если бы ты был более терпеливым, ты бы не накричал на него вчера.',
+        correct: 'Si fueras más paciente, no le habrías gritado ayer.',
+        alternatives: ['Si tuvieras más paciencia, no le habrías chillado ayer.']
+      },
+      {
+        russian: 'Если бы мы купили тот дом, сейчас у нас было бы больше места.',
+        correct: 'Si hubiéramos comprado aquella casa, ahora tendríamos más espacio.',
+        alternatives: ['Si hubiésemos comprado esa casa, tendríamos más sitio ahora.']
+      },
+      {
+        russian: 'Если бы он знал английский, он бы получил ту работу в прошлом году.',
+        correct: 'Si supiera inglés, habría conseguido ese trabajo el año pasado.',
+        alternatives: ['Si hablara inglés, habría obtenido aquel empleo el año pasado.']
+      },
+      {
+        russian: 'Если бы я не встретил тебя тогда, сейчас моя жизнь была бы совсем другой.',
+        correct: 'Si no te hubiera conocido entonces, ahora mi vida sería completamente diferente.',
+        alternatives: ['Si no te hubiera encontrado en aquel momento, mi vida ahora sería totalmente distinta.']
+      },
+      {
+        russian: 'Если бы у нее был талант к музыке, она бы стала пианисткой.',
+        correct: 'Si tuviera talento para la música, habría llegado a ser pianista.',
+        alternatives: ['Si ella tuviera don musical, habría sido pianista.']
+      },
+      {
+        russian: 'Если бы ты принял то предложение, сейчас ты бы работал в Мадриде.',
+        correct: 'Si hubieras aceptado aquella oferta, ahora estarías trabajando en Madrid.',
+        alternatives: ['Si hubieras aceptado esa propuesta, ahora trabajarías en Madrid.']
+      },
+      {
+        russian: 'Если бы мы были богаче, мы бы помогли им тогда.',
+        correct: 'Si fuéramos más ricos, les habríamos ayudado entonces.',
+        alternatives: ['Si tuviéramos más dinero, les habríamos ayudado en aquel momento.']
+      },
+      {
+        russian: 'Если бы она училась усерднее в школе, сейчас у нее была бы лучше работа.',
+        correct: 'Si hubiera estudiado más en el colegio, ahora tendría un trabajo mejor.',
+        alternatives: ['Si ella hubiera estudiado con más empeño en la escuela, ahora tendría mejor empleo.']
+      },
+      {
+        russian: 'Если бы ты умел готовить, ты бы приготовил ужин вчера.',
+        correct: 'Si supieras cocinar, habrías preparado la cena ayer.',
+        alternatives: ['Si tú supieras cocinar, habrías hecho la cena ayer.']
+      }
+    ]
+  },
+
+  'ex-16-3-4': {
+    id: 'ex-16-3-4',
+    type: 'fillblank-mixed',
+    title: 'Упражнение 4: Поставьте глаголы в соответствующую форму в зависимости от типа условного предложения',
+    description: 'Определите тип условного предложения и поставьте глаголы в правильную форму',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si me hubieran dicho que aquí llueve tanto, _____ (llevarme, yo) el paraguas.',
+        correct: 'me habría llevado',
+        type: 'III тип',
+        explanation: 'Прошлое условие → прошлый результат'
+      },
+      {
+        sentence: 'Si _____ (aparcar, tú) el coche aquí, te pondrán multa.',
+        correct: 'aparcas',
+        type: 'I тип',
+        explanation: 'Настоящее условие → будущий результат'
+      },
+      {
+        sentence: 'Si _____ (encontrar, yo) una cartera con mucho dinero en la calle, la devolvería a su titular.',
+        correct: 'encontrara',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si _____ (ir, tú) a ver la corrida de toros, te habría gustado.',
+        correct: 'hubieras ido',
+        type: 'III тип',
+        explanation: 'Прошлое условие → прошлый результат'
+      },
+      {
+        sentence: 'Si mi hermano mayor estuviera a mi lado, _____ (sentirse, yo) más segura.',
+        correct: 'me sentiría',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si Alejandro _____ (hacer) caso de tus consejos, no se habría metido en un lío.',
+        correct: 'hubiera hecho',
+        type: 'III тип',
+        explanation: 'Прошлое условие → прошлый результат'
+      },
+      {
+        sentence: 'La policía _____ (detener) a los delincuentes, si denuncias el robo lo más pronto posible.',
+        correct: 'detendrá',
+        type: 'I тип',
+        explanation: 'Настоящее условие → будущий результат'
+      },
+      {
+        sentence: 'Si nosotros no hubiéramos hecho prácticas un año en aquella empresa internacional, no _____ (tener, nosotros) tantos amigos de todo el mundo.',
+        correct: 'tendríamos',
+        type: 'Смешанный',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Cristina estaba segura de que si ella _____ (renunciar) al pan y cereales, adelgazaría pronto.',
+        correct: 'renunciara',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем (в косвенной речи)'
+      },
+      {
+        sentence: 'Si _____ (ser, yo) hincha de este equipo, ayer _____ (ir, yo) contigo al estadio a ver el partido.',
+        correct: 'fuera, habría ido',
+        type: 'Смешанный',
+        explanation: 'Настоящее состояние → прошлый результат'
+      },
+      {
+        sentence: 'Si _____ (estudiar, tú) ahora, aprobarás el examen mañana.',
+        correct: 'estudias',
+        type: 'I тип',
+        explanation: 'Настоящее условие → будущий результат'
+      },
+      {
+        sentence: 'Si _____ (tener, yo) dinero, viajaría por el mundo.',
+        correct: 'tuviera',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si me hubieras llamado, te _____ (ayudar, yo).',
+        correct: 'habría ayudado',
+        type: 'III тип',
+        explanation: 'Прошлое условие → прошлый результат'
+      },
+      {
+        sentence: 'Si no hubiera llovido ayer, hoy el suelo _____ (estar) seco.',
+        correct: 'estaría',
+        type: 'Смешанный',
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si _____ (hablar, tú) con el jefe, resolverás el problema.',
+        correct: 'hablas',
+        type: 'I тип',
+        explanation: 'Настоящее условие → будущий результат'
+      },
+      {
+        sentence: 'Si _____ (ser, yo) más joven, volvería a la universidad.',
+        correct: 'fuera',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si hubiéramos salido antes, no _____ (perder, nosotros) el avión.',
+        correct: 'habríamos perdido',
+        type: 'III тип',
+        explanation: 'Прошлое условие → прошлый результат'
+      },
+      {
+        sentence: 'Si _____ (saber, vosotros) la verdad ahora, ¿qué haríais?',
+        correct: 'supierais',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si hubiera estudiado medicina, ahora _____ (ser, yo) médico.',
+        correct: 'sería',
+        type: 'Смешанный',
+        explanation: 'Прошлое решение → настоящий результат'
+      },
+      {
+        sentence: 'Si _____ (llover) mañana, nos quedaremos en casa.',
+        correct: 'llueve',
+        type: 'I тип',
+        explanation: 'Будущее условие (выражено Presente) → будущий результат'
+      }
+    ]
+  },
+
+  'ex-16-3-5': {
+    id: 'ex-16-3-5',
+    type: 'translation-complex',
+    title: 'Упражнение 5: Переведите на испанский язык (комплексные предложения)',
+    description: 'Переведите сложные предложения на испанский, используя разные типы условных предложений',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если ты сегодня не уберешься в своей комнате, не пойдешь гулять с друзьями. Если бы ты убралась в своей комнате, ты бы пошла гулять.',
+        correct: 'Si no ordenas tu habitación hoy, no saldrás con tus amigos. Si hubieras ordenado tu habitación, habrías salido a pasear.',
+        alternatives: ['Si hoy no limpias tu cuarto, no irás a pasear con amigos. Si hubieras limpiado tu habitación, habrías ido de paseo.']
+      },
+      {
+        russian: 'Если бы мой муж не работал, нам бы не дали кредит. Я подумала, что если бы мой муж не работал, нам бы не дали кредит.',
+        correct: 'Si mi marido no trabajara, no nos darían un crédito. Pensé que si mi marido no trabajara, no nos darían un crédito.',
+        alternatives: ['Si mi esposo no tuviera trabajo, no nos concederían un préstamo. Yo pensé que si mi marido no trabajara, no nos habrían dado crédito.']
+      },
+      {
+        russian: 'Я бы вчера обязательно пришла к вам в гости, если бы знала, что будет так интересно.',
+        correct: 'Habría venido a visitaros ayer sin falta si hubiera sabido que sería tan interesante.',
+        alternatives: ['Ayer habría ido a vuestra casa seguro si hubiera sabido que iba a ser tan interesante.']
+      },
+      {
+        russian: 'Если бы ты учился в течение семестра и не пропускал занятия, ты был бы сейчас спокоен и не нервничал.',
+        correct: 'Si hubieras estudiado durante el semestre y no hubieras faltado a clase, ahora estarías tranquilo y no estarías nervioso.',
+        alternatives: ['Si hubieras estudiado durante el curso y no hubieras perdido clases, estarías tranquilo ahora y no te pondrías nervioso.']
+      },
+      {
+        russian: 'Дедушка был уверен, что если Амалия купит детям компьютер, они перестанут учиться и будут часами играть в компьютерные игры. А бабушка считала, что если бы Амалия купила детям компьютер, они бы учились лучше.',
+        correct: 'El abuelo estaba seguro de que si Amalia comprara un ordenador a los niños, dejarían de estudiar y jugarían videojuegos durante horas. Y la abuela pensaba que si Amalia les comprara un ordenador, estudiarían mejor.',
+        alternatives: ['El abuelo estaba convencido de que si Amalia compra a los niños un computador, dejarán de estudiar y pasarán horas jugando. La abuela pensaba que si Amalia hubiera comprado un ordenador, habrían estudiado mejor.']
+      },
+      {
+        russian: 'Если бы у меня была бы возможность много путешествовать, я бы (уже) посетила старинные города ацтеков и инков.',
+        correct: 'Si tuviera la oportunidad de viajar mucho, (ya) habría visitado las antiguas ciudades de los aztecas y los incas.',
+        alternatives: ['Si yo tuviera la posibilidad de viajar bastante, habría visitado las viejas ciudades aztecas e incas.']
+      },
+      {
+        russian: 'Если бы у нас не было завтра экзамена, мы бы пошли с тобой в кино.',
+        correct: 'Si no tuviéramos examen mañana, iríamos contigo al cine.',
+        alternatives: ['Si mañana no tuviéramos examen, iríamos al cine contigo.']
+      },
+      {
+        russian: 'Антонио сказал, что если бы знал мой номер телефона, то обязательно позвонил бы мне.',
+        correct: 'Antonio dijo que si hubiera sabido mi número de teléfono, me habría llamado sin falta.',
+        alternatives: ['Antonio dijo que si supiera mi número, me llamaría seguro.']
+      },
+      {
+        russian: 'Мама сказала, что если дети будут хорошо себя вести, то они поедут на зимние каникулы в Андорру.',
+        correct: 'Mamá dijo que si los niños se portaran bien, irían a Andorra en las vacaciones de invierno.',
+        alternatives: ['La madre dijo que si los hijos se comportaran bien, viajarían a Andorra en vacaciones de invierno.']
+      },
+      {
+        russian: 'Если бы он не был таким эгоистом, у него было бы больше друзей.',
+        correct: 'Si no fuera tan egoísta, tendría más amigos.',
+        alternatives: ['Si él no fuera tan egocéntrico, tendría más amistades.']
+      },
+      {
+        russian: 'Если Вам что-то будет непонятно, когда вы будете заполнять этот бланк, спросите меня, я вам все объясню. Секретарь сказала, что если мне что-то будет непонятно, я могу ее спросить.',
+        correct: 'Si algo no le queda claro cuando rellene este formulario, pregúnteme y se lo explicaré todo. La secretaria dijo que si algo no me quedaba claro, podía preguntarle.',
+        alternatives: ['Si no entiende algo al rellenar el impreso, pregúnteme y le explicaré. La secretaria me dijo que si no entendía algo, podía preguntarla.']
+      },
+      {
+        russian: 'Мы подумали, что если откажемся от этого предложения, нам больше не представится возможность побывать в Гранаде и Севилье.',
+        correct: 'Pensamos que si rechazáramos esta oferta, no se nos presentaría otra oportunidad de visitar Granada y Sevilla.',
+        alternatives: ['Pensamos que si rechazamos esta propuesta, no tendríamos otra ocasión para ir a Granada y Sevilla.']
+      },
+      {
+        russian: 'Начальник заявил, что если бы я заранее подготовил необходимые документы, он бы их уже подписал, и я сегодня же мог бы идти в отпуск.',
+        correct: 'El jefe declaró que si yo hubiera preparado los documentos necesarios con antelación, ya los habría firmado y hoy mismo podría irme de vacaciones.',
+        alternatives: ['El director afirmó que si hubiera preparado de antemano los documentos, los habría firmado ya y hoy podría irme de vacaciones.']
+      },
+      {
+        russian: 'Если бы у нас были деньги, мы бы купили дом в Испании. Там такая чудесная природа!',
+        correct: 'Si tuviéramos dinero, compraríamos una casa en España. ¡Allí hay una naturaleza tan maravillosa!',
+        alternatives: ['Si tuviésemos dinero, nos compraríamos una vivienda en España. ¡Qué naturaleza más hermosa hay allí!']
+      },
+      {
+        russian: 'Если Вам удалось перевести это упражнение, значит Вы усвоили грамматику последнего урока.',
+        correct: 'Si ha logrado traducir este ejercicio, significa que ha asimilado la gramática de la última lección.',
+        alternatives: ['Si usted consiguió traducir este ejercicio, quiere decir que aprendió la gramática de la lección final.']
+      },
+      {
+        russian: 'Если бы ты послушал моего совета год назад, сейчас у тебя не было бы этих проблем.',
+        correct: 'Si hubieras escuchado mi consejo hace un año, ahora no tendrías estos problemas.',
+        alternatives: ['Si hubieras seguido mi consejo el año pasado, no tendrías ahora estos problemas.']
+      },
+      {
+        russian: 'Мы бы не опоздали на поезд, если бы ты не забыл паспорт дома.',
+        correct: 'No habríamos perdido el tren si no hubieras olvidado el pasaporte en casa.',
+        alternatives: ['No nos habríamos retrasado para el tren si no te hubieras dejado el pasaporte en casa.']
+      },
+      {
+        russian: 'Если бы мой сын больше практиковался, он бы сыграл на концерте лучше.',
+        correct: 'Si mi hijo hubiera practicado más, habría tocado mejor en el concierto.',
+        alternatives: ['Si mi hijo practicara más, habría interpretado mejor en el concierto.']
+      },
+      {
+        russian: 'Директор сказал, что если мы закончим проект вовремя, получим премию.',
+        correct: 'El director dijo que si termináramos el proyecto a tiempo, recibiríamos una prima.',
+        alternatives: ['El jefe dijo que si acabásemos el proyecto puntualmente, obtendríamos un bonus.']
+      },
+      {
+        russian: 'Если бы вы знали правду с самого начала, вы бы поступили по-другому.',
+        correct: 'Si hubierais sabido la verdad desde el principio, habríais actuado de otra manera.',
+        alternatives: ['Si ustedes hubieran conocido la verdad desde el comienzo, habrían obrado de forma distinta.']
+      }
+    ]
+  },
+
+  'ex-16-3-6': {
+    id: 'ex-16-3-6',
+    type: 'identify-type',
+    title: 'Упражнение 6: Определите тип условного предложения',
+    description: 'Прочитайте предложения и определите, к какому типу они относятся',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si llueve mañana, me quedaré en casa.',
+        type: 'I тип',
+        explanation: 'Реальное условие в будущем: Presente + Futuro'
+      },
+      {
+        sentence: 'Si tuviera dinero, viajaría por el mundo.',
+        type: 'II тип',
+        explanation: 'Нереальное условие в настоящем: Imperfecto Subj. + Condicional Simple'
+      },
+      {
+        sentence: 'Si hubiera estudiado, habría aprobado.',
+        type: 'III тип',
+        explanation: 'Нереальное условие в прошлом: Pluscuamperfecto Subj. + Condicional Perfecto'
+      },
+      {
+        sentence: 'Si hubiera nacido rico, ahora no tendría que trabajar.',
+        type: 'Смешанный (прошлое → настоящее)',
+        explanation: 'Прошлое условие влияет на настоящее: Pluscuamp. Subj. + Condicional Simple'
+      },
+      {
+        sentence: 'Si fuera más valiente, habría aceptado el reto.',
+        type: 'Смешанный (настоящее → прошлое)',
+        explanation: 'Настоящее качество влияет на прошлое: Imperfecto Subj. + Condicional Perfecto'
+      },
+      {
+        sentence: 'Si estudias ahora, aprobarás el examen.',
+        type: 'I тип',
+        explanation: 'Реальное условие в будущем: Presente + Futuro'
+      },
+      {
+        sentence: 'Si no lloviera tanto, saldríamos a pasear.',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si me hubieras llamado, te habría ayudado.',
+        type: 'III тип',
+        explanation: 'Нереальное условие в прошлом'
+      },
+      {
+        sentence: 'Si hubiera ahorrado más dinero, ahora podría comprarme un coche.',
+        type: 'Смешанный (прошлое → настоящее)',
+        explanation: 'Прошлое действие влияет на настоящее'
+      },
+      {
+        sentence: 'Si tuviera más tiempo, habría terminado el proyecto ayer.',
+        type: 'Смешанный (настоящее → прошлое)',
+        explanation: 'Настоящее состояние влияет на прошлое'
+      },
+      {
+        sentence: 'Si vienes a la fiesta, te divertirás.',
+        type: 'I тип',
+        explanation: 'Реальное условие в будущем'
+      },
+      {
+        sentence: 'Si viviera en España, hablaría español perfectamente.',
+        type: 'II тип',
+        explanation: 'Гипотетическое условие в настоящем'
+      },
+      {
+        sentence: 'Si hubiéramos salido antes, no habríamos perdido el tren.',
+        type: 'III тип',
+        explanation: 'Нереальное условие в прошлом'
+      },
+      {
+        sentence: 'Si no me hubiera mudado aquí, ahora viviría en otra ciudad.',
+        type: 'Смешанный (прошлое → настоящее)',
+        explanation: 'Прошлое решение влияет на настоящее'
+      },
+      {
+        sentence: 'Si supiera cocinar, habría preparado la cena anoche.',
+        type: 'Смешанный (настоящее → прошлое)',
+        explanation: 'Настоящий навык влияет на прошлое'
+      },
+      {
+        sentence: 'Si hace buen tiempo, iremos a la playa.',
+        type: 'I тип',
+        explanation: 'Реальное условие в будущем'
+      },
+      {
+        sentence: 'Si pudiera volar, visitaría todos los países.',
+        type: 'II тип',
+        explanation: 'Нереальное/невозможное условие в настоящем'
+      },
+      {
+        sentence: 'Si hubiera sabido la verdad, te la habría dicho.',
+        type: 'III тип',
+        explanation: 'Нереальное условие в прошлом'
+      },
+      {
+        sentence: 'Si hubiera estudiado medicina, ahora sería médico.',
+        type: 'Смешанный (прошлое → настоящее)',
+        explanation: 'Прошлое образование влияет на настоящую профессию'
+      },
+      {
+        sentence: 'Si no tuviera tanto miedo, habría viajado solo el año pasado.',
+        type: 'Смешанный (настоящее → прошлое)',
+        explanation: 'Настоящее качество (страх) влияет на прошлое действие'
+      }
+    ]
+  },
+
+  'ex-16-3-7': {
+    id: 'ex-16-3-7',
+    type: 'creative-conditionals',
+    title: 'Упражнение 7: Креативные условные предложения',
+    description: 'Завершите предложения креативно, используя смешанный тип условных предложений',
+    showAnswerOption: true,
+    questions: [
+      {
+        beginning: 'Si hubiera inventado Internet, ahora...',
+        example: 'sería multimillonario y viviría en Silicon Valley',
+        alternatives: ['tendría más dinero que Bill Gates', 'sería famoso en todo el mundo', 'no necesitaría trabajar nunca más']
+      },
+      {
+        beginning: 'Si supiera volar, ayer...',
+        example: 'habría volado hasta la cima de la montaña',
+        alternatives: ['habría llegado a tiempo sin coger el metro', 'no habría necesitado comprar billetes de avión', 'habría visitado cinco países en un día']
+      },
+      {
+        beginning: 'Si no hubiera conocido a mi mejor amigo, ahora...',
+        example: 'mi vida sería muy aburrida y solitaria',
+        alternatives: ['estaría solo y triste', 'no tendría a nadie con quien hablar', 'viviría de otra manera']
+      },
+      {
+        beginning: 'Si fuera invisible, anoche...',
+        example: 'habría entrado al cine sin pagar',
+        alternatives: ['habría espiado a mis vecinos', 'habría robado comida del supermercado', 'me habría colado en el concierto gratis']
+      },
+      {
+        beginning: 'Si hubiera nacido hace 500 años, ahora...',
+        example: 'estaría muerto porque no existían los antibióticos',
+        alternatives: ['no existiría porque habría muerto ya', 'sería polvo', 'estaría en el cielo']
+      },
+      {
+        beginning: 'Si tuviera una máquina del tiempo, el año pasado...',
+        example: 'habría visitado el antiguo Egipto',
+        alternatives: ['habría conocido a Leonardo da Vinci', 'habría impedido un desastre', 'habría comprado acciones de Apple']
+      },
+      {
+        beginning: 'Si no hubiera aprendido español, hoy...',
+        example: 'no podría hacer este ejercicio',
+        alternatives: ['no entendería esta frase', 'estaría haciendo otra cosa', 'no sabría hablar este idioma']
+      },
+      {
+        beginning: 'Si pudiera leer la mente, ayer...',
+        example: 'habría sabido lo que pensaba mi jefe',
+        alternatives: ['habría descubierto quién me mintió', 'habría evitado esa conversación incómoda', 'habría ganado en el póker']
+      },
+      {
+        beginning: 'Si hubiera estudiado en Harvard, ahora...',
+        example: 'trabajaría en una gran empresa internacional',
+        alternatives: ['tendría un trabajo mejor', 'ganaría más dinero', 'sería más prestigioso']
+      },
+      {
+        beginning: 'Si no existiera el dinero, la semana pasada...',
+        example: 'no habría trabajado ni un solo día',
+        alternatives: ['habría sido más feliz', 'no me habría preocupado por nada', 'habría ayudado a más gente']
+      },
+      {
+        beginning: 'Si hubiera ganado la lotería hace un año, ahora...',
+        example: 'estaría viajando por las Maldivas',
+        alternatives: ['viviría en una mansión', 'no trabajaría', 'sería completamente feliz']
+      },
+      {
+        beginning: 'Si tuviera superpoderes, anoche...',
+        example: 'habría salvado a alguien en peligro',
+        alternatives: ['habría volado sobre la ciudad', 'habría detenido un crimen', 'habría hecho algo heroico']
+      },
+      {
+        beginning: 'Si no hubiera inventado la rueda, la humanidad ahora...',
+        example: 'seguiría viviendo en la edad de piedra',
+        alternatives: ['no tendría coches', 'estaría menos desarrollada', 'sería más primitiva']
+      },
+      {
+        beginning: 'Si fuera presidente, el mes pasado...',
+        example: 'habría cambiado muchas leyes injustas',
+        alternatives: ['habría mejorado la educación', 'habría ayudado a los pobres', 'habría hecho reformas importantes']
+      },
+      {
+        beginning: 'Si hubiera vivido en la época de los dinosaurios, ahora...',
+        example: 'estaría fosilizado en algún museo',
+        alternatives: ['no existiría', 'sería un fósil', 'estaría muerto hace millones de años']
+      },
+      {
+        beginning: 'Si no tuviera que dormir, anoche...',
+        example: 'habría terminado todos mis proyectos',
+        alternatives: ['habría estudiado toda la noche', 'habría visto diez películas', 'habría hecho muchas cosas']
+      },
+      {
+        beginning: 'Si hubiera sido famoso desde niño, ahora...',
+        example: 'tendría millones de seguidores en redes sociales',
+        alternatives: ['sería una estrella', 'todo el mundo me conocería', 'viviría en Hollywood']
+      },
+      {
+        beginning: 'Si pudiera hablar con los animales, ayer...',
+        example: 'habría preguntado a mi perro qué piensa de mí',
+        alternatives: ['habría hablado con los pájaros', 'habría entendido a mi gato', 'habría tenido una conversación interesante']
+      },
+      {
+        beginning: 'Si no existieran los teléfonos móviles, la semana pasada...',
+        example: 'habría hablado más con la gente en persona',
+        alternatives: ['no habría podido llamar a nadie', 'habría escrito cartas', 'habría usado un teléfono fijo']
+      },
+      {
+        beginning: 'Si hubiera nacido en el futuro, ahora...',
+        example: 'tendría acceso a tecnología que aún no existe',
+        alternatives: ['viviría en una ciudad futurista', 'usaría inventos increíbles', 'el mundo sería diferente']
+      }
+    ]
+  },
+
+  'ex-16-3-8': {
+    id: 'ex-16-3-8',
+    type: 'multiplechoice-mixed',
+    title: 'Упражнение 8: Выберите правильную форму глагола для смешанных условных предложений',
+    description: 'Выберите правильную форму глагола, учитывая, что условие и результат могут относиться к разному времени',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si hubiera dormido bien anoche, ahora no _____ tan cansado.',
+        options: ['esté', 'estaría', 'estuviera', 'habría estado'],
+        correct: 1,
+        explanation: 'Прошлое условие → настоящий результат (Condicional Simple)'
+      },
+      {
+        sentence: 'Si _____ más responsable, no habrías perdido el trabajo.',
+        options: ['eres', 'seas', 'fueras', 'hayas sido'],
+        correct: 2,
+        explanation: 'Настоящее качество → прошлый результат (Imperfecto Subjuntivo)'
+      },
+      {
+        sentence: 'Si no hubiera conocido a mi esposa, ahora _____ solo.',
+        options: ['estoy', 'esté', 'estaría', 'habría estado'],
+        correct: 2,
+        explanation: 'Прошлое событие → настоящий результат'
+      },
+      {
+        sentence: 'No te _____ sentido mal ahora si no hubieras comido tanto ayer.',
+        options: ['sientes', 'sientas', 'sentirías', 'habrías sentido'],
+        correct: 2,
+        explanation: 'Прошлое условие → настоящий результат'
+      },
+      {
+        sentence: 'Si _____ más dinero, habría comprado aquel coche el mes pasado.',
+        options: ['tengo', 'tenga', 'tuviera', 'hubiera tenido'],
+        correct: 2,
+        explanation: 'Настоящее состояние → прошлый результат'
+      },
+      {
+        sentence: 'Si hubieras estudiado medicina, ahora _____ médico.',
+        options: ['eres', 'seas', 'serías', 'habrías sido'],
+        correct: 2,
+        explanation: 'Прошлое решение → настоящая профессия'
+      },
+      {
+        sentence: 'Él _____ más sano ahora si hubiera hecho deporte de joven.',
+        options: ['está', 'esté', 'estaría', 'habría estado'],
+        correct: 2,
+        explanation: 'Прошлое действие → настоящее состояние'
+      },
+      {
+        sentence: 'Si yo _____ conducir, habría ido en coche ayer.',
+        options: ['sé', 'sepa', 'supiera', 'hubiera sabido'],
+        correct: 2,
+        explanation: 'Настоящий навык → прошлый результат'
+      },
+      {
+        sentence: 'No _____ en esta situación si no hubieras tomado esa decisión.',
+        options: ['estás', 'estés', 'estarías', 'habrías estado'],
+        correct: 2,
+        explanation: 'Прошлое решение → настоящая ситуация'
+      },
+      {
+        sentence: 'Si _____ más valiente, habría aceptado el reto.',
+        options: ['soy', 'sea', 'fuera', 'hubiera sido'],
+        correct: 2,
+        explanation: 'Настоящее качество → прошлое действие'
+      },
+      {
+        sentence: 'Si hubieras ahorrado dinero, ahora _____ comprar lo que quieras.',
+        options: ['puedes', 'puedas', 'podrías', 'habrías podido'],
+        correct: 2,
+        explanation: 'Прошлое действие → настоящая возможность'
+      },
+      {
+        sentence: 'Nosotros _____ viviendo en Madrid si no hubiéramos rechazado aquella oferta.',
+        options: ['estamos', 'estemos', 'estaríamos', 'habríamos estado'],
+        correct: 2,
+        explanation: 'Прошлое решение → настоящее место жительства'
+      },
+      {
+        sentence: 'Si no _____ por el tráfico, habríamos llegado a tiempo.',
+        options: ['es', 'sea', 'fuera', 'hubiera sido'],
+        correct: 2,
+        explanation: 'Настоящая ситуация → прошлый результат'
+      },
+      {
+        sentence: 'Si hubiera invertido en Bitcoin en 2010, ahora _____ millonario.',
+        options: ['soy', 'sea', 'sería', 'habría sido'],
+        correct: 2,
+        explanation: 'Прошлая инвестиция → настоящее богатство'
+      },
+      {
+        sentence: 'Tú _____ hablando español perfectamente si hubieras vivido en España.',
+        options: ['estás', 'estés', 'estarías', 'habrías estado'],
+        correct: 2,
+        explanation: 'Прошлый опыт → настоящий навык'
+      },
+      {
+        sentence: 'Si _____ menos egoísta, habrías mantenido esa amistad.',
+        options: ['eres', 'seas', 'fueras', 'hubieras sido'],
+        correct: 2,
+        explanation: 'Настоящий характер → прошлый результат'
+      },
+      {
+        sentence: 'Si no me hubiera mudado a esta ciudad, ahora no _____ este trabajo.',
+        options: ['tengo', 'tenga', 'tendría', 'habría tenido'],
+        correct: 2,
+        explanation: 'Прошлый переезд → настоящая работа'
+      },
+      {
+        sentence: 'Ellos _____ comprando un piso si les hubieran aprobado el préstamo.',
+        options: ['están', 'estén', 'estarían', 'habrían estado'],
+        correct: 2,
+        explanation: 'Прошлое решение банка → настоящее действие'
+      },
+      {
+        sentence: 'Si _____ más paciencia, no habrías renunciado tan rápido.',
+        options: ['tienes', 'tengas', 'tuvieras', 'hubieras tenido'],
+        correct: 2,
+        explanation: 'Настоящее качество → прошлое действие'
+      },
+      {
+        sentence: 'Si no hubieras roto con ella, ahora _____ casados.',
+        options: ['estáis', 'estéis', 'estaríais', 'habríais estado'],
+        correct: 2,
+        explanation: 'Прошлое решение → настоящее состояние'
+      }
+    ]
+  },
+
+  'ex-16-3-9': {
+    id: 'ex-16-3-9',
+    type: 'timeline-analysis',
+    title: 'Упражнение 9: Анализ временной линии условных предложений',
+    description: 'Определите, к какому времени относится условие и результат в смешанных условных предложениях',
+    showAnswerOption: true,
+    questions: [
+      {
+        sentence: 'Si hubiera nacido rico, ahora no tendría que trabajar.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы я родился богатым (в прошлом), сейчас мне не пришлось бы работать.'
+      },
+      {
+        sentence: 'Si fuera más alto, habría jugado en el equipo de baloncesto.',
+        condition_time: 'настоящее (постоянное качество)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я был выше (по природе), я бы играл в баскетбольной команде.'
+      },
+      {
+        sentence: 'Si no hubieras gastado todo el dinero, ahora podrías comprarte un coche.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты не потратил все деньги (раньше), сейчас ты мог бы купить машину.'
+      },
+      {
+        sentence: 'Si supiera italiano, habría trabajado en Roma el año pasado.',
+        condition_time: 'настоящее (навык)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я знал итальянский (сейчас), я бы работал в Риме в прошлом году.'
+      },
+      {
+        sentence: 'Si hubieras ido a la universidad, ahora tendrías mejor trabajo.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты учился в университете (раньше), сейчас у тебя была бы лучше работа.'
+      },
+      {
+        sentence: 'Si no tuviera miedo a volar, habría viajado a Australia.',
+        condition_time: 'настоящее (страх)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я не боялся летать (сейчас), я бы поехал в Австралию (раньше).'
+      },
+      {
+        sentence: 'Si hubieras aprendido a tocar la guitarra de niño, ahora serías músico.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты научился играть на гитаре в детстве, сейчас ты был бы музыкантом.'
+      },
+      {
+        sentence: 'Si fuera menos tímido, habría hablado con ella en la fiesta.',
+        condition_time: 'настоящее (характер)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я был менее застенчивым (по характеру), я бы поговорил с ней на вечеринке.'
+      },
+      {
+        sentence: 'Si no hubieras dejado tu trabajo, ahora estarías ganando bien.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты не бросил работу (раньше), сейчас ты бы хорошо зарабатывал.'
+      },
+      {
+        sentence: 'Si tuviera más experiencia, me habrían contratado para ese puesto.',
+        condition_time: 'настоящее (опыт)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы у меня был больше опыт (сейчас), меня бы наняли на ту должность (раньше).'
+      },
+      {
+        sentence: 'Si hubieras comprado esa casa, ahora vivirías cerca del mar.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты купил тот дом (раньше), сейчас ты бы жил у моря.'
+      },
+      {
+        sentence: 'Si no fuera tan perezoso, habría terminado el proyecto a tiempo.',
+        condition_time: 'настоящее (характер)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я не был таким ленивым (по характеру), я бы закончил проект вовремя.'
+      },
+      {
+        sentence: 'Si hubieras estudiado chino, ahora podrías trabajar en Beijing.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты изучал китайский (раньше), сейчас ты мог бы работать в Пекине.'
+      },
+      {
+        sentence: 'Si hablara mejor inglés, habría conseguido ese empleo internacional.',
+        condition_time: 'настоящее (навык)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я лучше говорил по-английски (сейчас), я бы получил ту международную работу (раньше).'
+      },
+      {
+        sentence: 'Si no hubiera fumado durante años, ahora estaría más sano.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы я не курил годами (раньше), сейчас я был бы здоровее.'
+      },
+      {
+        sentence: 'Si fuera más organizado, no habría olvidado la reunión.',
+        condition_time: 'настоящее (качество)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я был более организованным (по характеру), я бы не забыл о встрече.'
+      },
+      {
+        sentence: 'Si hubieras aceptado aquella oferta, ahora vivirías en Nueva York.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты принял то предложение (раньше), сейчас ты бы жил в Нью-Йорке.'
+      },
+      {
+        sentence: 'Si no tuviera alergia, habría adoptado un gato.',
+        condition_time: 'настоящее (состояние здоровья)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы у меня не было аллергии (сейчас), я бы завел кота (раньше).'
+      },
+      {
+        sentence: 'Si hubieras ido al gimnasio regularmente, ahora estarías en forma.',
+        condition_time: 'прошлое',
+        result_time: 'настоящее',
+        condition_form: 'Pluscuamperfecto de Subjuntivo',
+        result_form: 'Condicional Simple',
+        translation: 'Если бы ты регулярно ходил в спортзал (раньше), сейчас ты был бы в форме.'
+      },
+      {
+        sentence: 'Si conociera mejor la ciudad, te habría recomendado un buen restaurante.',
+        condition_time: 'настоящее (знание)',
+        result_time: 'прошлое',
+        condition_form: 'Imperfecto de Subjuntivo',
+        result_form: 'Condicional Perfecto',
+        translation: 'Если бы я лучше знал город (сейчас), я бы порекомендовал тебе хороший ресторан (раньше).'
+      }
+    ]
+  },
+
+  'ex-16-3-10': {
+    id: 'ex-16-3-10',
+    type: 'translation',
+    title: 'Упражнение 10: Перевод на испанский язык (смешанный тип)',
+    description: 'Переведите предложения с русского на испанский, используя условные предложения смешанного типа',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Если бы я родился в Испании, сейчас я бы свободно говорил по-испански.',
+        correct: 'Si hubiera nacido en España, ahora hablaría español con fluidez.',
+        alternatives: ['Si yo hubiera nacido en España, hablaría español fluentemente ahora.']
+      },
+      {
+        russian: 'Если бы ты был более терпеливым, ты бы не накричал на него вчера.',
+        correct: 'Si fueras más paciente, no le habrías gritado ayer.',
+        alternatives: ['Si tuvieras más paciencia, no le habrías chillado ayer.']
+      },
+      {
+        russian: 'Если бы мы купили тот дом пять лет назад, сейчас у нас было бы больше места.',
+        correct: 'Si hubiéramos comprado aquella casa hace cinco años, ahora tendríamos más espacio.',
+        alternatives: ['Si hubiésemos comprado esa casa hace cinco años, tendríamos más sitio ahora.']
+      },
+      {
+        russian: 'Если бы он знал английский язык, он бы получил ту работу в прошлом году.',
+        correct: 'Si supiera inglés, habría conseguido ese trabajo el año pasado.',
+        alternatives: ['Si hablara inglés, habría obtenido aquel empleo el año anterior.']
+      },
+      {
+        russian: 'Если бы я не встретил тебя тогда, сейчас моя жизнь была бы совсем другой.',
+        correct: 'Si no te hubiera conocido entonces, ahora mi vida sería completamente diferente.',
+        alternatives: ['Si no te hubiera encontrado en aquel momento, mi vida ahora sería totalmente distinta.']
+      },
+      {
+        russian: 'Если бы у нее был талант к музыке, она бы стала профессиональной пианисткой.',
+        correct: 'Si tuviera talento para la música, habría llegado a ser pianista profesional.',
+        alternatives: ['Si ella tuviera don musical, habría sido pianista profesional.']
+      },
+      {
+        russian: 'Если бы ты принял то предложение о работе, сейчас ты бы работал в Мадриде.',
+        correct: 'Si hubieras aceptado aquella oferta de trabajo, ahora estarías trabajando en Madrid.',
+        alternatives: ['Si hubieras aceptado esa propuesta laboral, ahora trabajarías en Madrid.']
+      },
+      {
+        russian: 'Если бы мы были богаче, мы бы помогли им решить их финансовые проблемы тогда.',
+        correct: 'Si fuéramos más ricos, les habríamos ayudado a resolver sus problemas financieros entonces.',
+        alternatives: ['Si tuviéramos más dinero, les habríamos ayudado con sus problemas económicos en aquel momento.']
+      },
+      {
+        russian: 'Если бы она училась усерднее в университете, сейчас у нее была бы лучше карьера.',
+        correct: 'Si hubiera estudiado más en la universidad, ahora tendría una carrera mejor.',
+        alternatives: ['Si ella hubiera estudiado con más empeño en la universidad, ahora tendría mejor carrera.']
+      },
+      {
+        russian: 'Если бы ты умел готовить, ты бы приготовил нам ужин вчера вечером.',
+        correct: 'Si supieras cocinar, nos habrías preparado la cena anoche.',
+        alternatives: ['Si tú supieras cocinar, habrías hecho la cena para nosotros ayer por la noche.']
+      },
+      {
+        russian: 'Если бы мой брат не уехал в другую страну, я бы навещал его каждую неделю.',
+        correct: 'Si mi hermano no se hubiera ido a otro país, lo visitaría cada semana.',
+        alternatives: ['Si mi hermano no se hubiera marchado al extranjero, le visitaría todas las semanas.']
+      },
+      {
+        russian: 'Если бы я не боялся высоты, я бы поднялся на ту башню в прошлом месяце.',
+        correct: 'Si no tuviera miedo a las alturas, habría subido a aquella torre el mes pasado.',
+        alternatives: ['Si no tuviera miedo de las alturas, habría subido a esa torre el mes anterior.']
+      },
+      {
+        russian: 'Если бы ты забронировал билеты заранее, мы бы сейчас не стояли в очереди.',
+        correct: 'Si hubieras reservado los billetes con anticipación, ahora no estaríamos haciendo cola.',
+        alternatives: ['Si hubieras comprado las entradas con antelación, no estaríamos en la fila ahora.']
+      },
+      {
+        russian: 'Если бы у меня была лучшая память, я бы не забыл твой день рождения на прошлой неделе.',
+        correct: 'Si tuviera mejor memoria, no habría olvidado tu cumpleaños la semana pasada.',
+        alternatives: ['Si yo tuviera mejor memoria, no me habría olvidado de tu cumpleaños la semana anterior.']
+      },
+      {
+        russian: 'Если бы она не сломала ногу в прошлом году, сейчас мы бы катались на лыжах в Альпах.',
+        correct: 'Si no se hubiera roto la pierna el año pasado, ahora estaríamos esquiando en los Alpes.',
+        alternatives: ['Si ella no se hubiera fracturado la pierna el año anterior, ahora estaríamos esquiando en los Alpes.']
+      },
+      {
+        russian: 'Если бы я был более амбициозным, я бы основал свою собственную компанию много лет назад.',
+        correct: 'Si fuera más ambicioso, habría fundado mi propia empresa hace muchos años.',
+        alternatives: ['Si yo fuera más ambicioso, habría creado mi propia compañía hace años.']
+      },
+      {
+        russian: 'Если бы мы не переехали в этот город, мы бы никогда не познакомились.',
+        correct: 'Si no nos hubiéramos mudado a esta ciudad, nunca nos habríamos conocido.',
+        alternatives: ['Si no nos hubiésemos trasladado a esta ciudad, jamás nos habríamos encontrado.']
+      },
+      {
+        russian: 'Если бы он умел водить машину, он бы отвез нас в аэропорт вчера.',
+        correct: 'Si supiera conducir, nos habría llevado al aeropuerto ayer.',
+        alternatives: ['Si él supiera manejar, nos habría llevado al aeropuerto ayer.']
+      },
+      {
+        russian: 'Если бы ты сэкономил больше денег в молодости, сейчас ты бы мог путешествовать по миру.',
+        correct: 'Si hubieras ahorrado más dinero en tu juventud, ahora podrías viajar por el mundo.',
+        alternatives: ['Si hubieras guardado más dinero cuando eras joven, ahora podrías viajar por todo el mundo.']
+      },
+      {
+        russian: 'Если бы я не был таким застенчивым, я бы выступил с речью на той конференции.',
+        correct: 'Si no fuera tan tímido, habría dado un discurso en aquella conferencia.',
+        alternatives: ['Si yo no fuera tan vergonzoso, habría hablado en esa conferencia.']
+      }
+    ]
   }
+
 }
 // Force rebuild for Module 11 Lesson 1 videos - 20260119_142949
