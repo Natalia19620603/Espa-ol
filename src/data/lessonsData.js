@@ -20594,7 +20594,7 @@ Ellos comieron  →  Si yo comiera…
       { word: 'suponer', translation: 'предполагать', audioUrl: null },
       { word: 'aunque', translation: 'хотя', audioUrl: null }
     ],
-    exercises: []
+    exercises: ['ex-16-1-1', 'ex-16-1-2', 'ex-16-1-3', 'ex-16-1-4', 'ex-16-1-5', 'ex-16-1-6', 'ex-16-1-7', 'ex-16-1-8', 'ex-16-1-9']
   },
 
   'lesson-16-2': {
@@ -20674,7 +20674,7 @@ Ellos comieron  →  Si yo comiera…
       { word: 'pluscuamperfecto m', translation: 'предпрошедшее время', audioUrl: null },
       { word: 'participio m', translation: 'причастие (прошедшего времени)', audioUrl: null }
     ],
-    exercises: []
+    exercises: ['ex-16-2-1', 'ex-16-2-2', 'ex-16-2-3', 'ex-16-2-4', 'ex-16-2-5', 'ex-16-2-6', 'ex-16-2-7', 'ex-16-2-8', 'ex-16-2-9']
   },
 
   'lesson-16-3': {
@@ -20768,7 +20768,7 @@ Ellos comieron  →  Si yo comiera…
       { word: 'ahora', translation: 'сейчас (ключевое слово варианта A)', audioUrl: null },
       { word: 'entonces / ayer', translation: 'тогда / вчера (ключевое слово варианта B)', audioUrl: null }
     ],
-    exercises: []
+    exercises: ['ex-16-3-1', 'ex-16-3-2', 'ex-16-3-3', 'ex-16-3-4', 'ex-16-3-5', 'ex-16-3-6', 'ex-16-3-7', 'ex-16-3-8', 'ex-16-3-9', 'ex-16-3-10']
   },
 
   'lesson-14-1': {
