@@ -51928,130 +51928,129 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-16-1-8': {
     id: 'ex-16-1-8',
-    type: 'writing',
-    title: 'Упражнение 8: Ситуативные условные предложения',
-    description: 'Завершите предложения, используя условные предложения II типа по заданной ситуации',
-    showAnswerOption: true,
+    type: 'grammar',
+    title: 'Упражнение 8: Выберите правильную форму глагола (II тип условных)',
+    description: 'Выберите правильную форму Imperfecto de Subjuntivo или Condicional Simple',
     questions: [
       {
-        question: 'Не говоришь по-английски',
-        prompt: 'Si hablara inglés...',
-        correct: 'podría trabajar en una empresa internacional / viajaría a Estados Unidos / tendría más oportunidades laborales',
-        translation: 'Если бы я говорил по-английски, я бы мог работать в международной компании / поехал бы в США / у меня было бы больше возможностей для работы.'
+        sentence: 'Si hablara inglés perfectamente, _____ en una empresa internacional.',
+        options: ['trabaje', 'trabajaría', 'trabajaré', 'trabajo'],
+        correct: 1,
+        explanation: 'Resultado en Condicional Simple (trabajaría)'
       },
       {
-        question: 'Живешь далеко от работы',
-        prompt: 'Si viviera más cerca del trabajo...',
-        correct: 'ahorraría tiempo / dormiría más / llegaría siempre puntual',
-        translation: 'Если бы я жил ближе к работе, я бы экономил время / спал бы больше / всегда приходил вовремя.'
+        sentence: 'Si _____ más cerca del trabajo, ahorraría tiempo todos los días.',
+        options: ['vivo', 'viviré', 'viviera', 'viva'],
+        correct: 2,
+        explanation: 'Условие в Imperfecto de Subjuntivo (viviera)'
       },
       {
-        question: 'Нет свободного времени',
-        prompt: 'Si tuviera más tiempo libre...',
-        correct: 'leería más libros / aprendería un idioma nuevo / haría más deporte',
-        translation: 'Если бы у меня было больше свободного времени, я бы читал больше книг / изучал новый язык / занимался спортом.'
+        sentence: 'Si no _____ tan tímido, hablaría en público sin ningún problema.',
+        options: ['soy', 'seré', 'fuera', 'sea'],
+        correct: 2,
+        explanation: 'Условие в Imperfecto de Subjuntivo (fuera)'
       },
       {
-        question: 'Боишься высоты',
-        prompt: 'Si no tuviera miedo a las alturas...',
-        correct: 'subiría a la montaña / haría paracaidismo / viajaría en globo',
-        translation: 'Если бы я не боялся высоты, я бы поднялся на гору / прыгнул с парашютом / полетал на воздушном шаре.'
+        sentence: 'Si tuviera más tiempo libre, _____ más libros cada semana.',
+        options: ['leo', 'leería', 'leeré', 'lea'],
+        correct: 1,
+        explanation: 'Resultado en Condicional Simple (leería)'
       },
       {
-        question: 'Не умеешь водить',
-        prompt: 'Si supiera conducir...',
-        correct: 'compraría un coche / iría de viaje por carretera / sería más independiente',
-        translation: 'Если бы я умел водить, я бы купил машину / поехал в путешествие на машине / был бы более независимым.'
+        sentence: 'Si _____ conducir, compraría un coche inmediatamente.',
+        options: ['sé', 'sepa', 'supiera', 'sabré'],
+        correct: 2,
+        explanation: 'Условие в Imperfecto de Subjuntivo (supiera)'
       },
       {
-        question: 'Плохая погода сегодня',
-        prompt: 'Si hiciera buen tiempo hoy...',
-        correct: 'iríamos a la playa / comeríamos fuera / daríamos un paseo',
-        translation: 'Если бы сегодня была хорошая погода, мы бы пошли на пляж / поели снаружи / прогулялись.'
+        sentence: 'Si hiciera buen tiempo hoy, nosotros _____ a la playa.',
+        options: ['vamos', 'fuéramos', 'iríamos', 'iremos'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Simple (iríamos)'
       },
       {
-        question: 'Нет денег на отпуск',
-        prompt: 'Si tuviera dinero para las vacaciones...',
-        correct: 'viajaría a Japón / me quedaría en un hotel de lujo / haría un crucero',
-        translation: 'Если бы у меня были деньги на отпуск, я бы поехал в Японию / остановился в роскошном отеле / отправился в круиз.'
+        sentence: 'Si _____ más sociable, tendría más amigos y saldría más.',
+        options: ['soy', 'seré', 'sea', 'fuera'],
+        correct: 3,
+        explanation: 'Условие в Imperfecto de Subjuntivo (fuera)'
       },
       {
-        question: 'Работаешь по выходным',
-        prompt: 'Si no trabajara los fines de semana...',
-        correct: 'pasaría más tiempo con mi familia / descansaría más / haría excursiones',
-        translation: 'Если бы я не работал по выходным, я бы проводил больше времени с семьей / больше отдыхал / ездил на экскурсии.'
+        sentence: 'Si me gustara cocinar, _____ platos exóticos para mis amigos.',
+        options: ['prepare', 'preparo', 'prepararía', 'prepararé'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Simple (prepararía)'
       },
       {
-        question: 'Не любишь готовить',
-        prompt: 'Si me gustara cocinar...',
-        correct: 'prepararía platos exóticos / invitaría amigos a cenar / comería más sano',
-        translation: 'Если бы мне нравилось готовить, я бы готовил экзотические блюда / приглашал друзей на ужин / питался здоровее.'
+        sentence: 'Si _____ más dinero, viajaría por todo el mundo sin parar.',
+        options: ['tengo', 'tendré', 'tenga', 'tuviera'],
+        correct: 3,
+        explanation: 'Условие в Imperfecto de Subjuntivo (tuviera)'
       },
       {
-        question: 'Маленькая квартира',
-        prompt: 'Si tuviera una casa más grande...',
-        correct: 'tendría una mascota / invitaría más gente / tendría un despacho',
-        translation: 'Если бы у меня был дом побольше, у меня был бы питомец / я бы приглашал больше людей / у меня был бы кабинет.'
+        sentence: 'Si hiciera deporte regularmente, _____ más energía durante el día.',
+        options: ['tendría', 'tengo', 'tendré', 'tenga'],
+        correct: 0,
+        explanation: 'Resultado en Condicional Simple (tendría)'
       },
       {
-        question: 'Не занимаешься спортом',
-        prompt: 'Si hiciera deporte regularmente...',
-        correct: 'estaría más en forma / tendría más energía / me sentiría mejor',
-        translation: 'Если бы я регулярно занимался спортом, я был бы в лучшей форме / у меня было бы больше энергии / я бы чувствовал себя лучше.'
+        sentence: 'Si no _____ que trabajar los fines de semana, descansaría más.',
+        options: ['tengo', 'tendré', 'tuviera', 'tenga'],
+        correct: 2,
+        explanation: 'Условие в Imperfecto de Subjuntivo (tuviera)'
       },
       {
-        question: 'Мало друзей',
-        prompt: 'Si fuera más sociable...',
-        correct: 'tendría más amigos / saldría más a menudo / conocería más gente',
-        translation: 'Если бы я был более общительным, у меня было бы больше друзей / я бы чаще выходил / знакомился с большим количеством людей.'
+        sentence: 'Si pudiera elegir dónde vivir, _____ en una isla tropical.',
+        options: ['vivo', 'viviré', 'viviría', 'viva'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Simple (viviría)'
       },
       {
-        question: 'Нет таланта к музыке',
-        prompt: 'Si tuviera talento musical...',
-        correct: 'tocaría en una banda / daría conciertos / compondría canciones',
-        translation: 'Если бы у меня был музыкальный талант, я бы играл в группе / давал концерты / сочинял песни.'
+        sentence: 'Si _____ un jardín en casa, plantaría flores y árboles frutales.',
+        options: ['tengo', 'tendré', 'tenga', 'tuviera'],
+        correct: 3,
+        explanation: 'Условие в Imperfecto de Subjuntivo (tuviera)'
       },
       {
-        question: 'Живешь в городе',
-        prompt: 'Si viviera en el campo...',
-        correct: 'tendría un huerto / respiraría aire puro / estaría más tranquilo',
-        translation: 'Если бы я жил в деревне, у меня был бы огород / я бы дышал чистым воздухом / был бы спокойнее.'
+        sentence: 'Si no tuviera miedo a las alturas, _____ paracaidismo al menos una vez.',
+        options: ['hago', 'haré', 'haría', 'haga'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Simple (haría)'
       },
       {
-        question: 'Застенчивый характер',
-        prompt: 'Si no fuera tan tímido...',
-        correct: 'hablaría en público / conocería más gente / pediría un aumento',
-        translation: 'Если бы я не был таким застенчивым, я бы выступал публично / знакомился с большим количеством людей / попросил прибавку.'
+        sentence: 'Si _____ mejor memoria, aprendería idiomas mucho más rápido.',
+        options: ['tengo', 'tendré', 'tuviera', 'tenga'],
+        correct: 2,
+        explanation: 'Условие в Imperfecto de Subjuntivo (tuviera)'
       },
       {
-        question: 'Плохая память',
-        prompt: 'Si tuviera mejor memoria...',
-        correct: 'aprendería idiomas más rápido / no olvidaría los cumpleaños / recordaría todos los nombres',
-        translation: 'Если бы у меня была лучше память, я бы быстрее учил языки / не забывал дни рождения / помнил все имена.'
+        sentence: 'Si tuviera talento musical, _____ en una banda de rock.',
+        options: ['toco', 'tocaré', 'tocaría', 'toque'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Simple (tocaría)'
       },
       {
-        question: 'Нет домашних животных',
-        prompt: 'Si tuviera una mascota...',
-        correct: 'pasearía más / tendría más compañía / sería más responsable',
-        translation: 'Если бы у меня был питомец, я бы больше гулял / у меня было бы больше компании / я был бы более ответственным.'
+        sentence: 'Si _____ en el campo, respiraría aire puro cada día.',
+        options: ['vivo', 'viviré', 'viva', 'viviera'],
+        correct: 3,
+        explanation: 'Условие в Imperfecto de Subjuntivo (viviera)'
       },
       {
-        question: 'Не владеешь компьютером хорошо',
-        prompt: 'Si supiera más de informática...',
-        correct: 'trabajaría como programador / repararía mi ordenador / crearía mi propia web',
-        translation: 'Если бы я больше знал об информатике, я бы работал программистом / починил свой компьютер / создал свой сайт.'
+        sentence: 'Si no trabajara los fines de semana, _____ más tiempo con mi familia.',
+        options: ['paso', 'pase', 'pasaré', 'pasaría'],
+        correct: 3,
+        explanation: 'Resultado en Condicional Simple (pasaría)'
       },
       {
-        question: 'Слишком занят',
-        prompt: 'Si no estuviera tan ocupado...',
-        correct: 'viajaría más / pasaría más tiempo con amigos / aprendería algo nuevo',
-        translation: 'Если бы я не был так занят, я бы больше путешествовал / проводил больше времени с друзьями / изучал что-то новое.'
+        sentence: 'Si _____ más valiente, pediría un aumento de sueldo hoy mismo.',
+        options: ['soy', 'seré', 'sea', 'fuera'],
+        correct: 3,
+        explanation: 'Условие в Imperfecto de Subjuntivo (fuera)'
       },
       {
-        question: 'Живешь один',
-        prompt: 'Si viviera con alguien...',
-        correct: 'dividiría los gastos / tendría compañía / cocinaría más',
-        translation: 'Если бы я жил с кем-то, я бы делил расходы / у меня была бы компания / я бы больше готовил.'
+        sentence: 'Si tuviera una casa más grande, _____ una mascota sin dudarlo.',
+        options: ['tengo', 'tendré', 'tendría', 'tenga'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Simple (tendría)'
       }
     ]
   },
@@ -52979,130 +52978,129 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
 
   'ex-16-2-8': {
     id: 'ex-16-2-8',
-    type: 'writing',
-    title: 'Упражнение 8: Цепочка последствий в прошлом',
-    description: 'Объясните, что произошло бы, если бы событие в прошлом было другим',
-    showAnswerOption: true,
+    type: 'grammar',
+    title: 'Упражнение 8: Выберите правильную форму глагола (III тип условных)',
+    description: 'Выберите правильную форму Pluscuamperfecto de Subjuntivo или Condicional Perfecto',
     questions: [
       {
-        question: 'Overslept → Perdí el tren',
-        prompt: 'Si no hubiera dormido de más...',
-        correct: 'no habría perdido el tren / habría llegado a tiempo al trabajo / no me habrían despedido',
-        translation: 'Если бы я не проспал, я бы не опоздал на поезд / пришел бы вовремя на работу / меня бы не уволили.'
+        sentence: 'Si _____ más, habría aprobado el examen con buena nota.',
+        options: ['estudio', 'estudié', 'hubiera estudiado', 'estudiaría'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera estudiado)'
       },
       {
-        question: 'Forgot umbrella → Me mojé',
-        prompt: 'Si hubiera llevado el paraguas...',
-        correct: 'no me habría mojado / no habría enfermado / habría ido a la reunión',
-        translation: 'Если бы я взял зонт, я бы не промок / не заболел / пошел бы на встречу.'
+        sentence: 'Si me lo hubieras dicho antes, te _____ ayudado con gusto.',
+        options: ['habría', 'he', 'hubiera', 'habré'],
+        correct: 0,
+        explanation: 'Resultado en Condicional Perfecto (habría ayudado)'
       },
       {
-        question: 'Didn\'t study → Suspendí el examen',
-        prompt: 'Si hubiera estudiado para el examen...',
-        correct: 'habría aprobado / mis padres habrían estado orgullosos / habría conseguido la beca',
-        translation: 'Если бы я готовился к экзамену, я бы сдал / мои родители гордились бы / я бы получил стипендию.'
+        sentence: 'No _____ el trabajo si no hubieran llegado tarde todos los días.',
+        options: ['pierden', 'perdían', 'perderían', 'habrían perdido'],
+        correct: 3,
+        explanation: 'Resultado en Condicional Perfecto (habrían perdido)'
       },
       {
-        question: 'No money saved → No pude comprar el piso',
-        prompt: 'Si hubiera ahorrado dinero...',
-        correct: 'habría comprado el piso / ahora tendría mi propia casa / no pagaría alquiler',
-        translation: 'Если бы я накопил деньги, я бы купил квартиру / сейчас у меня был бы свой дом / я бы не платил аренду.'
+        sentence: 'Si hubiera llevado el paraguas, no me _____ mojado.',
+        options: ['había', 'habría', 'hubiera', 'haya'],
+        correct: 1,
+        explanation: 'Resultado en Condicional Perfecto (habría mojado)'
       },
       {
-        question: 'Car broke down → Llegué tarde',
-        prompt: 'Si el coche no se hubiera estropeado...',
-        correct: 'habría llegado a tiempo / no habría perdido la reunión / habría conseguido el contrato',
-        translation: 'Если бы машина не сломалась, я бы пришел вовремя / не пропустил встречу / получил бы контракт.'
+        sentence: 'Ella _____ más contenta si hubiera aprobado todos los exámenes.',
+        options: ['está', 'estaría', 'habría estado', 'estuviera'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Perfecto (habría estado)'
       },
       {
-        question: 'Didn\'t listen to advice → Cometí un error',
-        prompt: 'Si hubiera escuchado el consejo...',
-        correct: 'no habría cometido ese error / habría tomado la decisión correcta / todo habría salido bien',
-        translation: 'Если бы я послушал совет, я бы не совершил ту ошибку / принял бы правильное решение / все прошло бы хорошо.'
+        sentence: 'Si _____ la reserva con antelación, habríamos conseguido mesa.',
+        options: ['hacemos', 'hiciéramos', 'hubiéramos hecho', 'haríamos'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiéramos hecho)'
       },
       {
-        question: 'Ate too much → Me sentí mal',
-        prompt: 'Si no hubiera comido tanto...',
-        correct: 'no me habría sentido mal / habría podido salir / me habría divertido en la fiesta',
-        translation: 'Если бы я не переел, мне бы не стало плохо / я бы смог выйти / повеселился бы на вечеринке.'
+        sentence: 'Si hubieras llegado antes, _____ verte antes del concierto.',
+        options: ['habría podido', 'puedo', 'podría', 'pude'],
+        correct: 0,
+        explanation: 'Resultado en Condicional Perfecto (habría podido)'
       },
       {
-        question: 'No reservation → No conseguimos mesa',
-        prompt: 'Si hubiéramos hecho una reserva...',
-        correct: 'habríamos conseguido mesa / habríamos cenado allí / no habríamos tenido que buscar otro sitio',
-        translation: 'Если бы мы забронировали, мы бы получили столик / поужинали там / не пришлось бы искать другое место.'
+        sentence: 'No _____ ese error tan grave si hubieras leído las instrucciones.',
+        options: ['cometes', 'cometías', 'cometerías', 'habrías cometido'],
+        correct: 3,
+        explanation: 'Resultado en Condicional Perfecto (habrías cometido)'
       },
       {
-        question: 'Left phone at home → No pude llamarte',
-        prompt: 'Si no hubiera olvidado el móvil...',
-        correct: 'te habría llamado / te habría avisado / no te habrías preocupado',
-        translation: 'Если бы я не забыл телефон, я бы тебе позвонил / предупредил бы / ты бы не волновался.'
+        sentence: 'Si no _____ el teléfono en casa, te habría llamado enseguida.',
+        options: ['he olvidado', 'hubiera olvidado', 'había olvidado', 'olvidaría'],
+        correct: 1,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera olvidado)'
       },
       {
-        question: 'Didn\'t check weather → Salí sin abrigo',
-        prompt: 'Si hubiera mirado el pronóstico del tiempo...',
-        correct: 'habría llevado abrigo / no habría pasado frío / no me habría resfriado',
-        translation: 'Если бы я посмотрел прогноз погоды, я бы взял пальто / не замерз бы / не простудился бы.'
+        sentence: '¿Qué _____ si te hubiera tocado la lotería el año pasado?',
+        options: ['haces', 'habías hecho', 'habrías hecho', 'hicieras'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Perfecto (habrías hecho)'
       },
       {
-        question: 'Rejected job offer → Me quedé sin trabajo',
-        prompt: 'Si hubiera aceptado la oferta de trabajo...',
-        correct: 'ahora tendría empleo / estaría ganando dinero / habría progresado en mi carrera',
-        translation: 'Если бы я принял предложение о работе, сейчас у меня была бы работа / я бы зарабатывал / продвинулся в карьере.'
+        sentence: 'Si _____ mi consejo, no habrías cometido ese error tan costoso.',
+        options: ['sigues', 'seguiste', 'hubieras seguido', 'seguirías'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubieras seguido)'
       },
       {
-        question: 'Didn\'t backup files → Perdí todo',
-        prompt: 'Si hubiera hecho una copia de seguridad...',
-        correct: 'no habría perdido los archivos / habría recuperado todo / no tendría este problema',
-        translation: 'Если бы я сделал резервную копию, я бы не потерял файлы / восстановил бы все / у меня не было бы этой проблемы.'
+        sentence: 'Si hubiera aceptado ese trabajo en Madrid, _____ allí durante años.',
+        options: ['vivo', 'vivía', 'viviría', 'habría vivido'],
+        correct: 3,
+        explanation: 'Resultado en Condicional Perfecto (habría vivido)'
       },
       {
-        question: 'Argued with boss → Me despidieron',
-        prompt: 'Si no hubiera discutido con el jefe...',
-        correct: 'no me habrían despedido / seguiría trabajando allí / tendría ingresos',
-        translation: 'Если бы я не поспорил с начальником, меня бы не уволили / я бы все еще там работал / у меня был бы доход.'
+        sentence: 'Si _____ con más cuidado, no habrías tenido el accidente.',
+        options: ['conduces', 'conducías', 'hubieras conducido', 'conducirías'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubieras conducido)'
       },
       {
-        question: 'Missed flight → No llegué a la boda',
-        prompt: 'Si no hubiera perdido el vuelo...',
-        correct: 'habría llegado a la boda / habría visto a mis amigos / no me habría perdido la celebración',
-        translation: 'Если бы я не опоздал на рейс, я бы попал на свадьбу / увидел друзей / не пропустил празднование.'
+        sentence: 'Nosotros _____ el partido si hubieran entrenado más toda la temporada.',
+        options: ['ganamos', 'ganábamos', 'habríamos ganado', 'ganaríamos'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Perfecto (habríamos ganado)'
       },
       {
-        question: 'Didn\'t learn English → No conseguí el puesto',
-        prompt: 'Si hubiera aprendido inglés...',
-        correct: 'habría conseguido el puesto / estaría trabajando en el extranjero / ganaría más',
-        translation: 'Если бы я выучил английский, я бы получил должность / работал за границей / зарабатывал больше.'
+        sentence: 'Si él _____ a tiempo, habría evitado todos los malentendidos.',
+        options: ['llega', 'llegó', 'hubiera llegado', 'llegaría'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (hubiera llegado)'
       },
       {
-        question: 'Told a lie → Perdí su confianza',
-        prompt: 'Si no hubiera mentido...',
-        correct: 'no habría perdido su confianza / seguiríamos siendo amigos / me habría perdonado',
-        translation: 'Если бы я не солгал, я бы не потерял его доверие / мы все еще были бы друзьями / он бы меня простил.'
+        sentence: 'Si hubieras hecho una copia de seguridad, no _____ los archivos.',
+        options: ['pierdes', 'perdías', 'habrías perdido', 'perderías'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Perfecto (habrías perdido)'
       },
       {
-        question: 'Didn\'t invest → Perdí la oportunidad',
-        prompt: 'Si hubiera invertido en esa empresa...',
-        correct: 'habría ganado dinero / ahora sería rico / habría tenido éxito',
-        translation: 'Если бы я инвестировал в ту компанию, я бы заработал / сейчас был бы богат / добился успеха.'
+        sentence: 'Si _____ la verdad desde el principio, no me habría enfadado tanto.',
+        options: ['dices', 'dijiste', 'hubieras dicho', 'dirías'],
+        correct: 2,
+        explanation: 'Условие en Pluscuamperfecto de Subjuntivo (hubieras dicho)'
       },
       {
-        question: 'Broke promise → Ella se enfadó',
-        prompt: 'Si hubiera cumplido mi promesa...',
-        correct: 'ella no se habría enfadado / no habríamos peleado / seguiríamos juntos',
-        translation: 'Если бы я выполнил обещание, она бы не разозлилась / мы бы не поссорились / были бы вместе.'
+        sentence: 'Ellos _____ al aeropuerto a tiempo si no hubiera tanto tráfico.',
+        options: ['llegan', 'llegaban', 'habrían llegado', 'llegarían'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Perfecto (habrían llegado)'
       },
       {
-        question: 'Didn\'t go to doctor → Empeoré',
-        prompt: 'Si hubiera ido al médico antes...',
-        correct: 'no habría empeorado / me habría curado antes / no habría sufrido tanto',
-        translation: 'Если бы я раньше пошел к врачу, мне бы не стало хуже / я бы вылечился раньше / не страдал бы так.'
+        sentence: 'Si _____ más temprano, habría tenido tiempo para prepararme bien.',
+        options: ['me levanto', 'me levanté', 'me hubiera levantado', 'me levantaría'],
+        correct: 2,
+        explanation: 'Условие в Pluscuamperfecto de Subjuntivo (me hubiera levantado)'
       },
       {
-        question: 'Chose wrong career → No soy feliz',
-        prompt: 'Si hubiera elegido otra carrera...',
-        correct: 'sería más feliz / estaría haciendo lo que me gusta / no me arrepentiría',
-        translation: 'Если бы я выбрал другую карьеру, я был бы счастливее / делал бы то, что люблю / не жалел бы.'
+        sentence: 'Si hubieran invertido a tiempo, _____ mucho dinero con ese proyecto.',
+        options: ['ganan', 'ganaban', 'habrían ganado', 'ganarían'],
+        correct: 2,
+        explanation: 'Resultado en Condicional Perfecto (habrían ganado)'
       }
     ]
   },
