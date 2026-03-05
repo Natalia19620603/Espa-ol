@@ -21490,32 +21490,124 @@ Pepa mira y ve al final de la calle un edificio estrecho y alto.
       {
         tab: '8. Empuriabrava. Viernes, 18.30 h',
         title: 'Empuriabrava. Viernes, 18.30 h',
-        content: ``
+        content: `Pepa se encuentra con sus amigos. Les presenta a Álvaro y le explica a Raúl lo que ha pasado con las bolsas. Álvaro le da la bolsa a Raúl.
+−¡Hombre, qué bien! Mi bolsa −Raúl coge la bolsa sin mirar lo que hay dentro.
+−¿Y la mía? −pregunta Álvaro.
+−Ni puta idea, tío −dice Raúl−. Lo siento. Ayer estuve por ahí de marcha y… No sé. No recuerdo qué pasó… Siempre pierdo las cosas. Quizás está en casa de algún colega o en algún bar. ¡Toma! −Raúl le devuelve a Álvaro la bolsa que este le había dado−. Te doy la mía.
+−¿Para qué quiero yo tu bolsa? −pregunta Álvaro.
+−No sé. Yo he perdido la tuya, tú te quedas con la mía. −Es la lógica de Raúl.
+−La bolsa no importa −explica Pepa−. Lo que importa es lo que hay dentro.
+−¡Ah, coño! ¡Claro! −Raúl abre y mira dentro de su bolsa−. ¡Mira, mi bañador! −Saca un bañador−. ¿Os gusta? ¿Y qué tienes tú dentro de tu bolsa? ¿Llevabas pasta?
+−No. No llevaba dinero. Solo papeles, documentos…
+−¡Bah! Nada importante, ¿no?
+−Pues antes estabas muy preocupado por tu bolsa… −dice Pepa.
+−Sí, pero… ¡Qué le vamos a hacer!
+−¿No quieres mi bolsa? −Raúl insiste en darle su bolsa a Álvaro.
+Álvaro le dice que no.`
       },
       {
         tab: '9. Empuriabrava. Restaurante El calamar. 18.30 h',
         title: 'Empuriabrava. Restaurante El calamar. 18.30 h',
-        content: ``
+        content: `Mercè y Pepe están en la terraza del restaurante. Pepe está terminando una gran copa de helado cubierto de chocolate. Mercè tiene delante un plato con un bogavante entero.
+−¿Por qué no comes? −pregunta Pepe a su mujer−. ¿Te encuentras bien? Tienes muy mala cara.
+−Tengo mala cara porque tengo hambre y no puedo comer esto que tengo en el plato. Está duro −Mercè quiere pinchar el bogavante con el tenedor y cortarlo con el cuchillo, pero no puede−. ¿Qué clase de comida es esta?
+−Mercè, es un bogavante. Me has dicho que querías comer bogavante.
+−Yo no te he dicho eso. ¡Camarero!
+−¿Mero? ¿Ahora quieres mero?
+−¡Camarero! −Mercè levanta el brazo y llama a un chico que pasa por la calle−. ¡Chist! ¡Por favor! ¡Por favor! −El chico se acerca y Mercè le da el plato con el bogavante−. ¿Puede llevarse esto y traerme una ensalada?
+−Señora, yo no… −dice el chico con el plato en la mano. En ese momento Mercè, sin mirar y sin ver, se levanta para ir al baño, le da un golpe al chico y el bogavante cae en la cabeza de Pepe. El chico sale corriendo. Pepe coge el bogavante y lo tira hacia atrás sin mirar. El bogavante cae a los pies de un mendigo que está sentado en el suelo, con un letrero en el que pone: «Dame algo para comer».
+−¡Hostia! −dice el mendigo muy sorprendido.
+−En la tele están diciendo que han robado un cuadro de Dalí del museo de Figueras. Un cuadro pequeño, muy bonito. Ese cuadro con un pan que parece de verdad −dice Mercè cuando vuelve del baño.
+−¿Qué? −pregunta Pepe.
+−Que han robado el cuadro del pan −dice Mercè más alto.
+−Toma −Pepe le da el plato con el pan−. No quieres el bogavante y pides pan. Estás muy rara Mercè.
+Mercè coge el plato con el pan y lo mira muy de cerca.
+−¡No quiero pan! −dice de mal humor−. ¿Dónde está mi ensalada? −Mercè toca la mesa para estar segura de que su ensalada no está−. ¡Mi ensalada! −grita.
+−Síiiiiii, estás delgada.
+−¿Delgada? ¡Claro que estoy delgada! En casa no hay comida, en el restaurante no puedo comer. No me traen la comida. He pedido una ensalada. Yo quiero comer. ¿Entiendes? ¡Comer! −Mercè mueve su mano derecha hacia la boca, haciendo el típico gesto que indica «comer».
+−¿Comer? ¿Y por qué no comes?
+−¡Porque odio el bogavante, porque los camareros no me traen mi ensalada y porque en casa no hay comida! −dice Mercè a gritos.
+−¿Qué dices de la bebida?
+−¡Aayyyy! ¡TENGO HAMBREEE! ¡Y ESTOY HARTA DE HABLAR CON UN SORDO!
+−¿Gordo? Yo no estoy gordo.`
       },
       {
         tab: '10. Empuriabrava. Terraza de un bar. 19.00 h',
         title: 'Empuriabrava. Terraza de un bar. 19.00 h',
-        content: ``
+        content: `Loli y Raúl le han dicho a Pepa que no pueden encontrar el apartamento.
+−A ver a quién coño preguntamos −dice Raúl.
+−Pues al camarero, por ejemplo −dice Pepa.
+−Pero es que… Pregunto y la gente me mira con una cara…
+−Dame las llaves −dice Pepa. Raúl le da las llaves. Pepa mira la dirección que hay en el papel del llavero: «Edificio The sun of the beach». Pepa se levanta, se acerca al camarero y le enseña el papel−. Por favor, ¿sabes dónde está este edificio?
+−Sí −dice el camarero−. Todo recto. Al final de la calle. Es un edificio muy grande. De color azul y blanco. Frente al mar.
+−¡Coño! −dice Raúl.
+−No sabes hablar inglés −le dice Loli a Raúl.
+−¿Qué le has preguntado al camarero, Pepa? −pregunta Raúl.
+−Le he preguntado donde está el edificio The sun of the beach.
+−«Sanofabich». Lo mismo que yo decía.
+−Bueno, ¿vamos? −dice Loli−. Quiero cambiarme de ropa.
+−Pepa, tú te quedas, ¿no? −pregunta Raúl−. Tú también puedes quedarte, Álvaro.
+−Sí, Pepa. Por favor −pide Loli.
+−Yo… Bueno… Estoy un poco cansada −Pepa mira a Álvaro y le pregunta−: ¿tú quieres volver hoy a Barcelona?
+−No. Yo quiero quedarme y conocer Empuriabrava. −Álvaro mira a Raúl−. ¿De verdad puedo quedarme en tu apartamento? Gracias, Raúl. Eres muy amable. Os invito a todos a cenar.
+−Gracias, tío −dicen Loli y Raúl−. Vamos a ver el apartamento y a dejar las cosas. Luego, podemos bañarnos.`
       },
       {
         tab: '11. Edificio The sun of the beach. 19.30 h',
         title: 'Edificio The sun of the beach. 19.30 h',
-        content: ``
+        content: `Loli, Pepa, Raúl y Álvaro suben al apartamento 112 del edificio The sun of the beach.
+−¡Qué vistas! −dice Loli, mirando el mar desde la terraza.
+El apartamento tiene un dormitorio, un baño y el salón-comedor en el que están ahora, donde también hay una pequeña cocina.
+−Solo hay un dormitorio, pero podemos usar el sofá para dormir −dice Raúl señalando un sofá rojo.
+−Voy a dejar mis cosas en la habitación. −Loli deja su maleta en el dormitorio.
+Raúl deja su maleta, una maleta grande y vieja, encima del sofá. Pepa abre la nevera y ve que hay agua y comida.
+−La nevera está llena −dice abriendo una botella de agua mineral.
+−¡Qué detalle! Nacho es un tío muy guay −dice Raúl−. ¿Vamos a darnos un baño?
+−Yo no traigo bañador −dice Pepa.
+−Yo te dejo uno de mis bikinis −dice Loli.
+−Yo tampoco tengo bañador −dice Álvaro.
+−Yo te dejo uno −Raúl saca de la maleta dos bañadores y le da uno a Álvaro.
+Los cuatro bajan a la playa. Mientras Álvaro está nadando, Pepa se acerca a Raúl.
+−¿Por qué le has dicho a Álvaro que podía quedarse a dormir con nosotros?
+−¿No te gusta Álvaro? −pregunta Raúl−. Pensaba que te gustaba.
+−Está bueno −dice Loli.
+−Sí, pero… Es raro −Pepa piensa en los cambios de humor de Álvaro.
+−Tú también eres rara −dice Loli riendo.
+−¿Te gusta o no te gusta? −pregunta Raúl.
+−No lo sé.
+Álvaro sale del agua y se acerca.
+−¿Puedo subir un momento al apartamento? −pregunta con la intención de mirar lo que hay en la maleta de Raúl−. Tengo que ir al baño.
+Raúl le da las llaves.`
       },
       {
         tab: '12. Apartamento 112. 20.00 h',
         title: 'Apartamento 112. 20.00 h',
-        content: ``
+        content: `Pepe pone unas gotas de laxante en un vaso con agua.
+−Mercè, te dejo el vaso en la cocina −le dice Pepe a su mujer que está en el baño−. Me voy a dormir.
+−Hoy no lo necesito −dice Mercè−. No he comido nada.
+−¿Qué dices de la almohada? −pregunta Pepe desde la cama.
+−¡Nada! ¿Dónde están mis pastillas para dormir? −Mercè busca entre los medicamentos, se toma una pastilla y se va a la cama.
+Subiendo en el ascensor, Álvaro recibe una llamada. ¿Por qué no ha entregado lo que tenía que entregar? No se atreve a decir que no lo tiene. Dice que ha tenido problemas, que necesita un poco más de tiempo. No hay tiempo. La persona que le llama piensa que Álvaro le engaña. Álvaro sabe que no es bueno que piense eso. ¡Tiene que encontrar la bolsa! Entra en el apartamento, abre la maleta de Raúl y empieza a buscar. Hay un montón de cosas: ropa, revistas, una navaja… ¡Una navaja! «¿Raúl es un tipo peligroso?», se pregunta Álvaro. Se oye la puerta del ascensor y unos pasos que se acercan. Álvaro cierra la maleta. Pepa llama a la puerta.
+−Álvaro, soy yo.
+Álvaro coge el vaso de agua con el laxante y abre.
+−Estaba bebiendo agua −dice Álvaro. Y se bebe todo el vaso.
+−Vengo a decirte que nos vamos a dar una vuelta. ¿Vienes?
+−Sí, sí. Vamos.`
       },
       {
         tab: '13. Empuriabrava. 22.30 h',
         title: 'Empuriabrava. 22.30 h',
-        content: ``
+        content: `Cenan en un restaurante al aire libre. Álvaro quiere emborrachar a Raúl para averiguar qué ha hecho con su bolsa. Le llena el vaso una y otra vez y Raúl bebe, bebe y bebe. Al terminar la cena está medio borracho.
+Salen a la calle y Raúl enciende un cigarrillo. La bolsa verde de tela se queda en el restaurante.
+−Ha olvidado la bolsa en el restaurante −dice Pepa−. Siempre igual. −Pepa entra en el restaurante y sale con la bolsa de Raúl colgada al hombro.
+Van todos al apartamento y Raúl se duerme en el sofá. Álvaro dice que quiere quedarse con él.
+−Está muy borracho −dice−. Vosotras podéis ir a dar una vuelta. Yo me quedo para hacerle compañía.
+−No, tú te vienes con nosotras. Raúl sabe cuidarse solo −dice Loli.
+−Sí, déjalo. Está bien. Solo necesita dormir −dice Pepa.
+−¿Y si se encuentra mal…?
+−¡Que no hombre! Si tú te quedas, nosotras nos quedamos también.
+«Bueno, unas cuantas copas y luego van a dormir como Raúl», piensa Álvaro y sale con Loli y Pepa, que lleva la bolsa de Raúl con los bañadores, por si les apetece bañarse.
+A las tres de la mañana Pepa y Loli se han tomado cuatro gin tonics. Álvaro también ha pedido lo mismo, pero no los ha probado. Necesita tener la cabeza clara.`
       },
       {
         tab: '14. Apartamento 112. 03.00 h',
