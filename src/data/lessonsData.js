@@ -17,7 +17,7 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-16', 'module-17']
+    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-16', 'module-17', 'module-18']
   }
 ]
 
@@ -141,6 +141,13 @@ export const modules = {
     level: 'intermediate',
     lessons: ['lesson-17-1', 'lesson-17-2', 'lesson-17-3', 'lesson-17-4', 'lesson-17-5', 'lesson-17-6', 'lesson-17-7', 'lesson-17-8', 'lesson-17-9', 'lesson-17-10', 'lesson-17-11', 'lesson-17-12'],
     description: 'Чтение аутентичных текстов, испанская культура'
+  },
+  'module-18': {
+    id: 'module-18',
+    title: 'Модуль 18: Дополнительные материалы',
+    level: 'intermediate',
+    lessons: ['lesson-18-1'],
+    description: 'Дополнительные тексты для чтения и аудирования'
   }
 }
 
@@ -575,7 +582,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - libro (книга) — alumna (ученица)
 - museo (музей) — playa (пляж)
 
-#### Исключения:
+### Исключения:
 
 **masculino:**
 - papá (папа)
@@ -592,7 +599,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - tema (тема)
 - planeta (планета)
 
-#### Существительные на -е
+### Существительные на -е
 
 Существительные, оканчивающиеся на гласную **-е**, могут быть как мужского, так и женского рода:
 
@@ -608,7 +615,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - noche (ночь)
 - tarde (вечер / день)
 
-#### Существительные на согласную
+### Существительные на согласную
 
 Существительные, оканчивающиеся на согласную, могут быть как мужского, так и женского рода:
 
@@ -668,7 +675,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - la crisis (кризис) → las crisis (кризисы)
 - el cumpleaños (день рождения) → los cumpleaños (дни рождения)
 
-#### Существительные, употребляемые только в единственном или множественном числе
+### Существительные, употребляемые только в единственном или множественном числе
 
 В испанском языке есть ряд существительных, которые употребляются только в единственном числе или только во множественном числе:
 - salud f (здоровье)
@@ -711,14 +718,12 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 Неопределенный артикль указывает на то, что существительное упоминается впервые, не знакомо говорящему, или употребляется, когда говорится об одном предмете, относящемся к целому классу аналогичных предметов. Неопределенный артикль единственного и множественного числа употребляется также для обозначения количества предметов (несколько), или если за существительным следует определение.
 
-<div style="overflow-x: auto;">
 
 | Число | Мужской род | Женский род |
 |-------|-------------|-------------|
 | Единственное | un | una |
 | Множественное | unos | unas |
 
-</div>
 
 **Примеры:**
 - un libro (какой-то один) — unos libros (несколько)
@@ -752,33 +757,28 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 Испанские прилагательные делятся на две основные группы:
 
-#### 1. Прилагательные двух окончаний
+### 1. Прилагательные двух окончаний
 
 Эти прилагательные имеют окончание **-о** в форме мужского рода единственного числа и окончание **-а** в форме женского рода единственного числа.
 
-<div style="overflow-x: auto;">
 
 | Мужской род | Женский род | Перевод |
 |-------------|-------------|---------|
 | blanco | blanca | белый / белая |
 | negro | negra | черный / черная |
 
-</div>
 
 **Исключение:** Прилагательные, обозначающие национальность/происхождение, также имеют две формы, даже если оканчиваются на согласную:
 
-<div style="overflow-x: auto;">
 
 | Мужской род | Женский род | Пример |
 |-------------|-------------|--------|
 | un amigo español | una amiga española | испанский друг / испанская подруга |
 | un estudiante alemán | una estudiante alemana | немецкий студент / немецкая студентка |
 
-</div>
 
 **Примеры прилагательных двух окончаний:**
 
-<div style="overflow-x: auto;">
 
 | Испанский | Русский |
 |-----------|---------|
@@ -791,7 +791,6 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | barato | дешевый |
 | soltero | холостой |
 
-</div>
 
 ### Позиция прилагательного
 
@@ -800,7 +799,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - un libro interesante (интересная книга)
 - una casa blanca (белый дом)
 
-#### Прилагательные, меняющие позицию
+### Прилагательные, меняющие позицию
 
 Качественные прилагательные **bueno** (хороший), **malo** (плохой), **grande** (большой, в значении «великий») иногда могут стоять перед определяемым словом.`
         },
@@ -811,7 +810,6 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 Прилагательные, оканчивающиеся в единственном числе на другую гласную (кроме **-о**) или на согласную, имеют одинаковую форму как в женском, так и в мужском роде.
 
-<div style="overflow-x: auto;">
 
 | Прилагательное | Мужской род (Пример) | Женский род (Пример) |
 |----------------|---------------------|---------------------|
@@ -819,11 +817,9 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | verde | un coche verde | una casa verde |
 | feliz | un hombre feliz | una mujer feliz |
 
-</div>
 
 **Примеры прилагательных одного окончания:**
 
-<div style="overflow-x: auto;">
 
 | Испанский | Русский |
 |-----------|---------|
@@ -835,33 +831,30 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | interesante | интересный |
 | feliz | счастливый |
 | alegre | веселый |
-
-</div>`
+`
         },
         {
           id: 'adjective-bueno-malo',
           title: 'BUENO MALO BUEN MAL',
           content: `### УСЕЧЕННЫЕ ФОРМЫ: BUENO, MALO, GRANDE
 
-#### Grande → Gran
+### Grande → Gran
 
 Прилагательное **grande** имеет усеченную форму **gran** перед существительными как мужского, так и женского рода:
 
 - una gran idea (великая идея)
 - un gran desafío (великий вызов)
 
-#### Bueno/Malo → Buen/Mal
+### Bueno/Malo → Buen/Mal
 
 Прилагательные **bueno** и **malo** имеют усеченные формы **buen** и **mal** только перед существительными мужского рода единственного числа:
 
-<div style="overflow-x: auto;">
 
 | Полная форма | Усеченная форма | Сравнение |
 |--------------|-----------------|-----------|
 | un hombre bueno | un buen hombre | хороший человек / добрый человек |
 | un hombre malo | un mal hombre | плохой человек / злой человек |
-
-</div>`
+`
         },
         {
           id: 'adjective-plural',
@@ -882,7 +875,6 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 ### Прилагательные-антонимы
 
-<div style="overflow-x: auto;">
 
 | Испанский | Русский |
 |-----------|---------|
@@ -901,8 +893,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | alto / bajo | высокий / невысокий |
 | difícil / fácil | трудный / легкий |
 | rico / pobre | богатый / бедный |
-
-</div>`
+`
         }
       ]
     },
