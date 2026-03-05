@@ -21795,97 +21795,97 @@ Las dos chicas salen. Armando trae la cerveza de Raúl y una bolsa verde.
     ],
     audioTabs: [
       {
-        tab: 'Costa 1 - T 1',
+        tab: '1. Barcelona. Lunes, 28 de julio',
         audioUrl: '/audio/T 1.mp3',
         backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'Costa 1 - T 2',
+        tab: '2. Barcelona. Jueves, 31 de julio',
         audioUrl: '/audio/T 2.mp3',
         backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'Costa 1 - T 3',
+        tab: '3. Barcelona. Jueves, 31 de julio. 14.15 h',
         audioUrl: '/audio/T 3.mp3',
         backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'Costa 1 - T 4',
+        tab: '4. Barcelona. Viernes, 1 de agosto. 12.00 h',
         audioUrl: '/audio/T 4.mp3',
         backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'Costa 1 - T 5',
+        tab: '5. Empuriabrava. Viernes, 1 de agosto. 12.00 h',
         audioUrl: '/audio/T 5.mp3',
         backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'Costa 2 - T 6',
+        tab: '6. Empuriabrava. Viernes, 1 de agosto. 17.00 h',
         audioUrl: '/audio/T 6.mp3',
         backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'Costa 2 - T 7',
+        tab: '7. Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
         audioUrl: '/audio/T 7.mp3',
         backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'Costa 2 - T 8',
+        tab: '8. Empuriabrava. Viernes, 18.30 h',
         audioUrl: '/audio/T 8.mp3',
         backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'Costa 2 - T 9',
+        tab: '9. Empuriabrava. Restaurante El calamar. 18.30 h',
         audioUrl: '/audio/T 9.mp3',
         backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'Costa 2 - T 10',
+        tab: '10. Empuriabrava. Terraza de un bar. 19.00 h',
         audioUrl: '/audio/T 10.mp3',
         backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'Costa 3 - T 11',
+        tab: '11. Edificio The sun of the beach. 19.30 h',
         audioUrl: '/audio/T 11.mp3',
         backgroundColor: '#FFF3E0'
       },
       {
-        tab: 'Costa 3 - T 12',
+        tab: '12. Apartamento 112. 20.00 h',
         audioUrl: '/audio/T 12.mp3',
         backgroundColor: '#FFF3E0'
       },
       {
-        tab: 'Costa 3 - T 13',
+        tab: '13. Empuriabrava. 22.30 h',
         audioUrl: '/audio/T 13.mp3',
         backgroundColor: '#FFF3E0'
       },
       {
-        tab: 'Costa 3 - T 14',
+        tab: '14. Apartamento 112. 03.00 h',
         audioUrl: '/audio/T 14.mp3',
         backgroundColor: '#FFF3E0'
       },
       {
-        tab: 'Costa 3 - T 15',
+        tab: '15. Empuriabrava. 05.30 h',
         audioUrl: '/audio/T 15.mp3',
         backgroundColor: '#FFF3E0'
       },
       {
-        tab: 'Costa 4 - T 16',
+        tab: '16. Apartamento 112. 06.00 h',
         audioUrl: '/audio/T 16.mp3',
         backgroundColor: '#FCE4EC'
       },
       {
-        tab: 'Costa 4 - T 17',
+        tab: '17. Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
         audioUrl: '/audio/T 17.mp3',
         backgroundColor: '#FCE4EC'
       },
       {
-        tab: 'Costa 4 - T 18',
+        tab: '18. Barcelona. Lunes, 4 de agosto. 12.00 h',
         audioUrl: '/audio/T 18.mp3',
         backgroundColor: '#FCE4EC'
       },
       {
-        tab: 'Costa 4 - T 19',
+        tab: '19. Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
         audioUrl: '/audio/T 19.mp3',
         backgroundColor: '#FCE4EC'
       }
