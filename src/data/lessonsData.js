@@ -17,7 +17,13 @@ export const courseLevels = [
     id: 'intermediate',
     name: 'Средний уровень (B1)',
     description: 'Углубленное изучение',
-    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-16', 'module-17', 'module-18']
+    modules: ['module-11', 'module-12', 'module-13', 'module-14', 'module-15', 'module-16', 'module-17']
+  },
+  {
+    id: 'supplementary',
+    name: 'Дополнительные материалы',
+    description: 'Аутентичные тексты для чтения и слушания',
+    modules: ['module-18']
   }
 ]
 
@@ -145,9 +151,9 @@ export const modules = {
   'module-18': {
     id: 'module-18',
     title: 'Модуль 18: Дополнительные материалы',
-    level: 'intermediate',
+    level: 'supplementary',
     lessons: ['lesson-18-1'],
-    description: 'Дополнительные тексты для чтения и аудирования'
+    description: 'Аутентичные тексты для чтения и слушания'
   }
 }
 
@@ -582,7 +588,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - libro (книга) — alumna (ученица)
 - museo (музей) — playa (пляж)
 
-### Исключения:
+**Исключения:**
 
 **masculino:**
 - papá (папа)
@@ -599,7 +605,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - tema (тема)
 - planeta (планета)
 
-### Существительные на -е
+**Существительные на -е**
 
 Существительные, оканчивающиеся на гласную **-е**, могут быть как мужского, так и женского рода:
 
@@ -615,7 +621,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - noche (ночь)
 - tarde (вечер / день)
 
-### Существительные на согласную
+**Существительные на согласную**
 
 Существительные, оканчивающиеся на согласную, могут быть как мужского, так и женского рода:
 
@@ -675,7 +681,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - la crisis (кризис) → las crisis (кризисы)
 - el cumpleaños (день рождения) → los cumpleaños (дни рождения)
 
-### Существительные, употребляемые только в единственном или множественном числе
+**Существительные, употребляемые только в единственном или множественном числе**
 
 В испанском языке есть ряд существительных, которые употребляются только в единственном числе или только во множественном числе:
 - salud f (здоровье)
@@ -718,12 +724,10 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 Неопределенный артикль указывает на то, что существительное упоминается впервые, не знакомо говорящему, или употребляется, когда говорится об одном предмете, относящемся к целому классу аналогичных предметов. Неопределенный артикль единственного и множественного числа употребляется также для обозначения количества предметов (несколько), или если за существительным следует определение.
 
-
 | Число | Мужской род | Женский род |
 |-------|-------------|-------------|
 | Единственное | un | una |
 | Множественное | unos | unas |
-
 
 **Примеры:**
 - un libro (какой-то один) — unos libros (несколько)
@@ -757,28 +761,23 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 Испанские прилагательные делятся на две основные группы:
 
-### 1. Прилагательные двух окончаний
+**1. Прилагательные двух окончаний**
 
 Эти прилагательные имеют окончание **-о** в форме мужского рода единственного числа и окончание **-а** в форме женского рода единственного числа.
-
 
 | Мужской род | Женский род | Перевод |
 |-------------|-------------|---------|
 | blanco | blanca | белый / белая |
 | negro | negra | черный / черная |
 
-
 **Исключение:** Прилагательные, обозначающие национальность/происхождение, также имеют две формы, даже если оканчиваются на согласную:
-
 
 | Мужской род | Женский род | Пример |
 |-------------|-------------|--------|
 | un amigo español | una amiga española | испанский друг / испанская подруга |
 | un estudiante alemán | una estudiante alemana | немецкий студент / немецкая студентка |
 
-
 **Примеры прилагательных двух окончаний:**
-
 
 | Испанский | Русский |
 |-----------|---------|
@@ -791,7 +790,6 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | barato | дешевый |
 | soltero | холостой |
 
-
 ### Позиция прилагательного
 
 В отличие от русского языка, испанские прилагательные, как правило, ставятся **после** определяемого существительного:
@@ -799,7 +797,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 - un libro interesante (интересная книга)
 - una casa blanca (белый дом)
 
-### Прилагательные, меняющие позицию
+**Прилагательные, меняющие позицию**
 
 Качественные прилагательные **bueno** (хороший), **malo** (плохой), **grande** (большой, в значении «великий») иногда могут стоять перед определяемым словом.`
         },
@@ -810,16 +808,13 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 Прилагательные, оканчивающиеся в единственном числе на другую гласную (кроме **-о**) или на согласную, имеют одинаковую форму как в женском, так и в мужском роде.
 
-
 | Прилагательное | Мужской род (Пример) | Женский род (Пример) |
 |----------------|---------------------|---------------------|
 | azul | un lápiz azul | una flor azul |
 | verde | un coche verde | una casa verde |
 | feliz | un hombre feliz | una mujer feliz |
 
-
 **Примеры прилагательных одного окончания:**
-
 
 | Испанский | Русский |
 |-----------|---------|
@@ -830,31 +825,28 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | difícil | трудный |
 | interesante | интересный |
 | feliz | счастливый |
-| alegre | веселый |
-`
+| alegre | веселый |`
         },
         {
           id: 'adjective-bueno-malo',
           title: 'BUENO MALO BUEN MAL',
           content: `### УСЕЧЕННЫЕ ФОРМЫ: BUENO, MALO, GRANDE
 
-### Grande → Gran
+**Grande → Gran**
 
 Прилагательное **grande** имеет усеченную форму **gran** перед существительными как мужского, так и женского рода:
 
 - una gran idea (великая идея)
 - un gran desafío (великий вызов)
 
-### Bueno/Malo → Buen/Mal
+**Bueno/Malo → Buen/Mal**
 
 Прилагательные **bueno** и **malo** имеют усеченные формы **buen** и **mal** только перед существительными мужского рода единственного числа:
-
 
 | Полная форма | Усеченная форма | Сравнение |
 |--------------|-----------------|-----------|
 | un hombre bueno | un buen hombre | хороший человек / добрый человек |
-| un hombre malo | un mal hombre | плохой человек / злой человек |
-`
+| un hombre malo | un mal hombre | плохой человек / злой человек |`
         },
         {
           id: 'adjective-plural',
@@ -875,7 +867,6 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 
 ### Прилагательные-антонимы
 
-
 | Испанский | Русский |
 |-----------|---------|
 | bueno / malo | хороший / плохой |
@@ -892,8 +883,7 @@ aire, aula, siete, radio, bueno, pueblo, Daniel, cuento, veinte, flauta, criado,
 | alegre / triste | веселый / грустный |
 | alto / bajo | высокий / невысокий |
 | difícil / fácil | трудный / легкий |
-| rico / pobre | богатый / бедный |
-`
+| rico / pobre | богатый / бедный |`
         }
       ]
     },
@@ -21225,6 +21215,242 @@ Infinitivo Compuesto используется, когда:
       ]
     },
     exercises: ['ex-14-3-1', 'ex-14-3-2', 'ex-14-3-3']
+  },
+
+  'lesson-18-1': {
+    id: 'lesson-18-1',
+    title: 'Урок 1: Apartamento en la Costa Brava',
+    moduleId: 'module-18',
+    vocabulary: [
+      {
+        tab: 'Словарь',
+        words: [
+          { word: 'el apartamento', translation: 'квартира, апартаменты', audioUrl: null },
+          { word: 'la playa', translation: 'пляж', audioUrl: null },
+          { word: 'el barrio', translation: 'квартал, район', audioUrl: null },
+          { word: 'el párking', translation: 'парковка', audioUrl: null },
+          { word: 'la peluquera', translation: 'парикмахер (ж.р.)', audioUrl: null },
+          { word: 'el taxista', translation: 'таксист', audioUrl: null },
+          { word: 'las vacaciones', translation: 'каникулы, отпуск', audioUrl: null },
+          { word: 'el tatuaje', translation: 'татуировка', audioUrl: null },
+          { word: 'el piercing', translation: 'пирсинг', audioUrl: null },
+          { word: 'la urbanización', translation: 'жилой комплекс', audioUrl: null },
+          { word: 'las llaves', translation: 'ключи', audioUrl: null },
+          { word: 'el guiri', translation: 'иностранный турист (разг.)', audioUrl: null },
+          { word: 'la hipoteca', translation: 'ипотека', audioUrl: null },
+          { word: 'el crédito', translation: 'кредит', audioUrl: null },
+          { word: 'la bolsa', translation: 'сумка', audioUrl: null },
+          { word: 'la coleta', translation: 'хвост (прическа)', audioUrl: null },
+          { word: 'el peaje', translation: 'платный пункт, шлагбаум', audioUrl: null },
+          { word: 'el retrovisor', translation: 'зеркало заднего вида', audioUrl: null },
+          { word: 'el taxímetro', translation: 'таксометр', audioUrl: null },
+          { word: 'la autopista', translation: 'автострада', audioUrl: null },
+          { word: 'moreno/a', translation: 'темноволосый/ая, смуглый/ая', audioUrl: null },
+          { word: 'delgado/a', translation: 'стройный/ая, худой/ая', audioUrl: null },
+          { word: 'bajito/a', translation: 'невысокий/ая (разг.)', audioUrl: null },
+          { word: 'gordito/a', translation: 'полноватый/ая (разг.)', audioUrl: null },
+          { word: 'teñido/a', translation: 'крашеный/ая', audioUrl: null },
+          { word: 'despistado/a', translation: 'рассеянный/ая', audioUrl: null },
+          { word: 'soltero/a', translation: 'холостой/незамужняя', audioUrl: null },
+          { word: 'encantado/a', translation: 'очень рад/а', audioUrl: null },
+          { word: 'enfadado/a', translation: 'сердитый/ая', audioUrl: null },
+          { word: 'enrollarse', translation: 'говорить долго, лезть не в своё дело (разг.)', audioUrl: null },
+          { word: 'rascare la cabeza', translation: 'почёсывать голову', audioUrl: null },
+          { word: 'meterse en', translation: 'вмешиваться в', audioUrl: null },
+          { word: 'hacer señas', translation: 'делать знаки, махать рукой', audioUrl: null },
+          { word: 'ponerse en marcha', translation: 'тронуться с места', audioUrl: null },
+          { word: '¿qué más da?', translation: 'какая разница?', audioUrl: null },
+          { word: 'da igual', translation: 'всё равно', audioUrl: null },
+          { word: 'no te enrolles', translation: 'не тяни резину (разг.)', audioUrl: null }
+        ]
+      }
+    ],
+    readingText: [
+      {
+        tab: '1. Barcelona. Lunes, 28 de julio',
+        title: 'Barcelona. Lunes, 28 de julio. 16.00 h',
+        content: `—¡A la playa! —dice Raúl.
+Raúl tiene treinta años, es moreno, alto y muy delgado. Tiene los ojos pequeños y negros y el cuerpo lleno de tatuajes y piercings. Es vigilante de un párking del barrio de Gracia.
+—¡A la playa! —Repite Loli—. ¡Vacaciones!
+Loli tiene veintiocho años, es bajita y un poco gordita. Tiene unos ojos bonitos, grandes y negros, y lleva el pelo teñido de rojo. Es peluquera. Trabaja y vive en el barrio de Gracia.
+—Vacaciones... —dice Pepa.
+Pepa tiene treinta y tres años, no es ni alta ni baja y es bastante delgada. Tiene el pelo castaño y los ojos verdes. Es taxista. También vive en Gracia.
+Los tres amigos, Pepa, Loli y Raúl, están tomando café en el bar de Armando, un argentino que lleva muchos años en Barcelona. A Raúl le gusta mucho Loli, pero ella no lo sabe. Loli piensa que a Raúl solo le gustan los coches, las motos, los porros y las cervezas.
+—Sí, Pepa. Vacaciones —dice Loli—. Ven con nosotros. Vamos a pasarlo muy bien. La Costa Brava: mar, sol, playa, barcos, discotecas... ¡Mucha marcha! Y apartamento gratis.
+—¿Gratis? —pregunta Pepa.
+—El hermano de mi ex... —dice Raúl.
+—¿Tu ex? ¿Cuál de ellas? —pregunta Pepa. Raúl está soltero, pero ha tenido muchas, muchas novias.
+—La... —Raúl duda— Mari. ¿O la Silvi? Bueno, ¿qué más da? Las ex son eso: ex. Pero Nacho, el hermano de... —se rasca la cabeza—. ¡Ah, sí! Ya me acuerdo: Nacho, el hermano de la Yoli.
+—¿La Mari, la Silvi o la Yoli? —preguntan Loli y Pepa.
+—Da igual... Nacho es un buen tío, tiene una moto, una Harley que... —Raúl no recuerda los nombres de sus ex novias, pero nunca olvida una buena moto.
+—Raúl... —dice Pepa—. No te enrolles.
+—¡Vale, vale! Pues, eso. Que Nacho tiene un apartamento en Empuriabrava, en una urbanización junto al mar, cerca de Figueras. Me ha dado las llaves y me ha dicho que puedo ir allí cuando quiera, porque él ahora vive en Londres.
+—Yo cierro la peluquería los primeros quince días de agosto —dice Loli.
+—Yo tengo vacaciones todo el mes —dice Raúl—. En la costa hay mucha marcha. Venga, tía. Ven con nosotros.
+—Pero es que no tengo un puto euro —dice Pepa—. Quiero terminar de pagar el coche y en agosto hay mucho trabajo. Barcelona está llena de guiris.
+—Che, ¿se van a la playa? —pregunta Armando, que tiene la costumbre de meterse en las conversaciones de sus clientes—. ¡Qué suerte! Yo no puedo cerrar el bar. La hipoteca, ya saben. Y, además, ustedes, los de acá, se van, pero llegan los de fuera. Los guiris, como ustedes les llaman.
+—Yo no me voy —contesta Pepa—. Yo también tengo que trabajar para pagar el crédito del taxi. ¡La crisis, amigo! ¡La puta crisis!
+—Pero, mujer, unos días... El fin de semana —insiste Loli.
+Loli quiere ir a la playa y no puede pagar un hotel ni un apartamento, pero no quiere estar a solas con Raúl. Raúl es un buen tipo, pero no es su tipo. Prefiere ir con los dos, con Raúl y con Pepa.
+—Bueno, no sé, no sé... —dice Pepa.`
+      },
+      {
+        tab: '2. Barcelona. Jueves, 31 de julio',
+        title: 'Barcelona. Jueves, 31 de julio. 12.00 h',
+        content: `El termómetro de la Puerta del Ángel, en el centro de Barcelona, marca 37ºC. Pepa conduce su taxi con la luz verde y escucha música. Cuatro hombres orientales le hacen señas. Pepa se acerca a la acera y para. Los hombres entran (tres se sientan atrás y uno a su lado). Cambia el cartel de «libre» por el de «ocupado» y baja el volumen de la radio.
+—Hola. Buenos días —saluda Pepa.
+—Buenos días —contestan los cuatro hombres a coro—. ¿Puede llevarnos a Figueras? —pregunta el que está a su lado.
+—¿Figueras? ¿En Girona? —pregunta Pepa.
+—Sí. Al Museo Dalí —dice uno de los hombres.
+—Sí, sí. Ningún problema —dice Pepa contenta. El viaje es de unas cuatro horas, dos de ida y otras dos de vuelta, y puede cobrar doscientos o doscientos cincuenta euros. ¡Es más o menos lo que gana trabajando dos días en Barcelona!
+—Aquí hay una bolsa —dice uno de los hombres y le enseña a Pepa una bolsa de tela verde que estaba en el asiento de atrás. Pepa la reconoce. Es de Raúl. Raúl es muy despistado y siempre olvida sus cosas.
+—¡Ah, sí! ¡Lo siento! ¿Puede dejarla en el suelo, por favor?
+Pepa sabe que sus clientes son japoneses, pero por educación les pregunta de dónde son. «De Osaka», le responden. Mientras salen de la ciudad, turistas y taxista mantienen la típica conversación sobre los temas típicos: la ciudad, el clima, la comida, el idioma (el catalán y el castellano), los monumentos y el arte. Dalí y Gaudí. Gaudí y Dalí. Cultura de bolsillo para bolsillos llenos.
+Al llegar al peaje de Granollers, en la AP-714, dirección norte, ya está todo dicho. Pepa pone un CD de Chambao y sube el volumen. Los japoneses, en silencio, miran el paisaje y descubren el flamenco-chillout.`
+      },
+      {
+        tab: '3. Barcelona. Jueves, 31 de julio. 14.15 h',
+        title: 'Barcelona. Jueves, 31 de julio. 14.15 h',
+        content: `A las dos y cuarto de la tarde Pepa deja a los japoneses en la puerta del Museo Dalí, en Figueras. Está cansada y tiene hambre. Aparca, entra en un bar y se toma un bocadillo de jamón, una cerveza y dos cafés con hielo. Cuando vuelve al taxi, ve a un hombre alto, con una bolsa en la espalda, que va hacia ella corriendo.
+—¡Espera! ¡Espera, por favor! —dice el hombre levantando una mano.
+Lleva el pelo rubio recogido en una coleta. Es alto, guapo y tiene ojos de serpiente.
+—¿Sí? —dice Pepa.
+—¿Estás libre? —pregunta el hombre.
+—Bueno… Voy a Barcelona.
+—Ya, ya sé que eres de Barcelona. Por el taxi… —dice el tipo sonriendo—. ¿Puedes llevarme?
+—Sí, sí. Claro —Pepa piensa que va a cobrar dos veces por el mismo viaje. Está encantada—. Sube.
+El hombre tira la bolsa en el asiento de atrás y luego se sienta. El taxi se pone en marcha.
+—¿A qué lugar de Barcelona vamos? —pregunta Pepa.
+—Al Hotel Arts.
+—¿De vacaciones? —pregunta Pepa. El Hotel Arts es un hotel de superlujo.
+—Ajá —dice el hombre, y se pone a mirar el paisaje.
+No quiere conversación. Pepa sabe cuando la gente tiene ganas de hablar y cuando no. «¡Lástima!», piensa, mirando por el espejo retrovisor, «porque parece un tío interesante». Pone la radio y conduce en silencio.
+A las seis de la tarde Pepa deja al pasajero en el Hotel Arts. Está cansada y conduce el taxi hacia Gracia. Entra en el garaje donde trabaja su amigo Raúl, pero no lo ve. Raúl no está. En su lugar hay un chico joven, con gafas, que ella no conoce.
+—¡Hola! ¿Y Raúl? —le pregunta Pepa—. ¿Dónde está?
+Raúl sale del baño con una revista de motos en las manos.
+—¡Hola, Pepa! Estaba… Bueno, ya sabes… Ese —señala al chico de las gafas— es mi sustituto. ¿Qué tal el día?
+—Bien. He ido a Figueras a llevar a unos japoneses al Museo Dalí…
+—He oído en la radio que han robado un cuadro del Museo Dalí —dice el chico con gafas, pero ni Pepa ni Raúl le escuchan.
+—…y a la vuelta he recogido a un tipo que venía a Barcelona —continúa Pepa—. ¿Has terminado ya de trabajar? ¿Nos vamos a tomar unas cañas?
+—Sí. Un momento, que recojo unas cosas. Mañana nos vamos a la playa Loli y yo. No encuentro por ningún lado mi bolsa verde…
+—¡Tu bolsa verde! Está en el taxi —dice Pepa. Pepa abre el coche y le da la bolsa a Raúl—. ¡Toma! Eres un desastre.
+—Soy un hombre muy ocupado.
+Raúl mete en la bolsa la revista y unas llaves. Se despide del chico: «¡Nos vemos, pringao!»
+—¡Empiezan las vacaciones! ¡Vamos a celebrarlo! —Raúl le pasa el brazo por encima del hombro a Pepa y los dos salen a la calle.`
+      },
+      {
+        tab: '4. Barcelona. Viernes, 1 de agosto. 12.00 h',
+        title: 'Barcelona. Viernes, 1 de agosto. 12.00 h',
+        content: `Pepa sube en el taxi por el Paseo de Gracia. Está cansada y le duele la cabeza. Cuando sale con su amigo Raúl siempre pasa lo mismo: bares y más bares; copas y más copas. Solo ha dormido cuatro horas: se fue a dormir a las seis de la mañana y se ha levantado a las diez. Hace mucho calor. Pero tiene que trabajar.
+Primero recoge a una pareja de turistas franceses a los que lleva hasta el Camp Nou, el campo del Fútbol Club Barcelona. Para un momento en un bar a comprar una Coca-Cola. Después sube al taxi una señora elegante que va a la zona alta de la ciudad. A continuación lleva a tres chicas americanas a la playa de la Barceloneta. Bajando por Vía Layetana, la voz de la operadora suena a través de la emisora.
+—Un cliente pide el taxi con el número de licencia 2325 para el Hotel Arts.
+«Soy yo, es mi número de licencia», piensa Pepa. «¡Qué raro! La gente, cuando necesita un taxi, pide eso: un taxi. Pero cualquier taxi, no uno en concreto. ¡En fin!». Deja a las tres chicas en la playa y se dirige al hotel.
+El hombre alto, rubio, con coleta y una bolsa verde, el que recogió en Figueras, está esperando en la puerta del hotel. Se acerca a la ventanilla y le enseña la bolsa a Pepa.
+—Esta no es mi bolsa —dice directamente.
+—¿Cómo? —dice Pepa sin comprender.
+—¡Mi bolsa también es verde, pero no es esta!!! —El tipo está enfadado—. ¿Dónde está mi bolsa?
+—Tu bolsa es igual que esta, pero no es esta… ¿Es eso? —dice Pepa pensando en la bolsa de Raúl.
+—Eso es.
+—¿Qué hay en esta bolsa?
+—¡Porquerías! —El hombre está de mal humor y vacía el contenido de la bolsa en el asiento de atrás del coche. Revistas, tabaco, un bañador, una camiseta, llaves, papeles, etc. Cosas de Raúl.
+—Oye, guapo: tranquilo. Yo no tengo la culpa.
+—Necesito mi bolsa y quiero saber dónde está.
+—En la Costa Brava, supongo.
+—¿Qué?
+Pepa le explica que su bolsa la tiene Raúl, un buen amigo que en estos momentos va en su coche tuneado por la AP-7 hacia Empuriabrava.
+—Llama a tu amigo. Necesito mi bolsa.
+Pepa marca el número del móvil de Raúl. Una vez. Dos. Tres veces. No lo coge.
+—¿No contesta? ¿Dónde está tu amigo?
+—No lo sé. Hoy se iba de vacaciones a la Costa Brava.
+—¿A la Costa Brava? La Costa Brava es muy grande. ¿A qué lugar de la Costa Brava?
+—A Empuriabrava, creo.
+—No sé dónde está Empuriabrava. ¿Tú sabes ir?
+—Sí, claro…
+—Pues vamos.
+—¡Eh, eh! Calma… Yo tengo trabajo aquí en Barcelona y no puedo.
+—¿Eres taxista, no? Yo te pago y tú me llevas.
+—Bueno… —a Pepa no le gusta el tono del hombre de la coleta, pero reconoce que tiene razón. Si quiere ir a Empuriabrava, ella lo lleva a Empuriabrava.
+—¡Vamos! Tengo prisa.
+Pepa mira el taxímetro, mueve la cabeza y se dirige hacia la autopista.`
+      },
+      {
+        tab: '5. Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+        title: 'Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+        content: ``
+      },
+      {
+        tab: '6. Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+        title: 'Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+        content: ``
+      },
+      {
+        tab: '7. Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+        title: 'Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+        content: ``
+      },
+      {
+        tab: '8. Empuriabrava. Viernes, 18.30 h',
+        title: 'Empuriabrava. Viernes, 18.30 h',
+        content: ``
+      },
+      {
+        tab: '9. Empuriabrava. Restaurante El calamar. 18.30 h',
+        title: 'Empuriabrava. Restaurante El calamar. 18.30 h',
+        content: ``
+      },
+      {
+        tab: '10. Empuriabrava. Terraza de un bar. 19.00 h',
+        title: 'Empuriabrava. Terraza de un bar. 19.00 h',
+        content: ``
+      },
+      {
+        tab: '11. Edificio The sun of the beach. 19.30 h',
+        title: 'Edificio The sun of the beach. 19.30 h',
+        content: ``
+      },
+      {
+        tab: '12. Apartamento 112. 20.00 h',
+        title: 'Apartamento 112. 20.00 h',
+        content: ``
+      },
+      {
+        tab: '13. Empuriabrava. 22.30 h',
+        title: 'Empuriabrava. 22.30 h',
+        content: ``
+      },
+      {
+        tab: '14. Apartamento 112. 03.00 h',
+        title: 'Apartamento 112. 03.00 h',
+        content: ``
+      },
+      {
+        tab: '15. Empuriabrava. 05.30 h',
+        title: 'Empuriabrava. 05.30 h',
+        content: ``
+      },
+      {
+        tab: '16. Apartamento 112. 06.00 h',
+        title: 'Apartamento 112. 06.00 h',
+        content: ``
+      },
+      {
+        tab: '17. Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
+        title: 'Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
+        content: ``
+      },
+      {
+        tab: '18. Barcelona. Lunes, 4 de agosto. 12.00 h',
+        title: 'Barcelona. Lunes, 4 de agosto. 12.00 h',
+        content: ``
+      },
+      {
+        tab: '19. Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
+        title: 'Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
+        content: ``
+      }
+    ],
+    audioTabs: [],
+    exercises: []
   }
 }
 
