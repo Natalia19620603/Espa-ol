@@ -21376,17 +21376,116 @@ Pepa mira el taxímetro, mueve la cabeza y se dirige hacia la autopista.`
       {
         tab: '5. Empuriabrava. Viernes, 1 de agosto. 12.00 h',
         title: 'Empuriabrava. Viernes, 1 de agosto. 12.00 h',
-        content: ``
+        content: `Los abuelos de Nacho, el amigo de Raúl que tiene una Harley, entran en el apartamento 112 del edificio The sun of the beach, frente al mar de Empuriabrava. Su nieto les ha dado unas llaves junto con la dirección del apartamento escrita en un papelito y les ha dicho que pueden pasar el verano en la playa, mientras él está en Londres trabajando y aprendiendo inglés. Nacho tiene mala memoria y no recuerda que su amigo Raúl tiene también unas llaves del mismo apartamento. «Puedes ir cuando quieras», le ha dicho también a Raúl.
+Los abuelos de Nacho viven en una comarca del interior de Girona. Mercè, la abuela, es diabética y tiene muy mal la vista. Necesita inyectarse insulina dos veces al día y habla a gritos porque, Pepe, su marido, está sordo como una tapia. Como mucha gente de su edad, viajan con una gran cantidad de medicamentos.
+−Nacho es muy buen chico −dice Mercè desde la cocina−. Se acuerda de sus abuelos. Este apartamento está muy bien. No tiene vistas al mar, pero…
+−No, ahora no me voy a bañar −dice Pepe, mirando el mar desde la puerta de la terraza del comedor.
+−Voy a guardar la insulina en la nevera −dice Mercè abriendo la puerta del horno.
+−No, no quiero comer ahora −dice Pepe al ver a su mujer en la cocina.
+−¿Comer? No tenemos comida −dice Mercè mirando el interior del horno−. Tenemos que ir a un restaurante.
+−¿Has comprado un bogavante? −Pepe abre la nevera−. ¿Dónde está el bogavante?
+−¿Qué bogavante? −Mercè tropieza con su marido−. ¿Qué haces aquí delante?
+−¡En la nevera no hay ningún bogavante! ¡Ni detrás ni delante!− dice Pepe.
+−¡Pues claro! Ya te he dicho que no hay comida. ¿Quieres comer bogavante?
+−¡No! −grita Pepe−. ¡No me gusta el bogavante!
+−No grites. A mí tampoco me gusta el bogavante.
+Pepe saca la insulina del horno y la guarda en la nevera, que está llena de comida.
+−Bueno, vamos −dice Pepe, cogiendo a su mujer del brazo−. Si quieres comer bogavante, vamos al restaurante.
+−¡Comer, comer! Solo piensas en comer, Pepe −dice Mercè−. Comes demasiado. Ayer compramos mucha comida y hoy no hay nada en la nevera. Comes cuando yo no te veo…
+Cogen el ascensor.
+−¡Coño, Mercè! Tú no me ves nunca. −De vez en cuando Pepe entiende algo de lo que dice su mujer.
+−Yo no veo bien, ya lo sé, pero tú estás cada día más gordo.
+−Yo solo estoy un poco sordo.
+−¡Y gordo!
+−Sí, sordo.
+−¡Gordo! ¡Gordo! ¡Gordo! −grita Mercè saliendo del ascensor. El vecino del apartamento 320, que pesa ciento veinte kilos y está esperando para subir a su piso, la mira sorprendido.`
       },
       {
         tab: '6. Empuriabrava. Viernes, 1 de agosto. 17.00 h',
         title: 'Empuriabrava. Viernes, 1 de agosto. 17.00 h',
-        content: ``
+        content: `Loli y Raúl llevan más de una hora perdidos por Empuriabrava. ¿Dónde está el apartamento?
+−Perdón− dice Raúl sacando la cabeza por la ventanilla del coche. El hombre al que se dirige es extranjero, como el noventa por ciento de la población de Empuriabrava− ¡Vaya, otro guiri! −le dice Raúl a Loli−. Excuse me. I'm looking for… −lee el nombre del edificio en el papel que le dio Nacho: «The sun of the beach»−. «¡Sanofabich!» −dice con una sonrisa, orgulloso de su inglés.
+El hombre mira a Raúl, con sus piercings y sus tatuajes, y se va sin decir nada, moviendo la cabeza.
+−Vamos a preguntar a otro −dice Loli.
+Se acercan a un hombre alto y rubio.
+−¡Please, mister! −dice Raúl−. I'm looking for… −se le olvida el nombre raro del edificio−. I…, you… «Sanofabich». −El hombre pone cara de sorpresa−. Do you understand me? −dice levantando la voz. Raúl, como mucha gente, piensa que a los extranjeros hay que hablarles alto−. «¡Sanofabich!».
+El hombre dice algo que Raúl no entiende y se va.
+Esta escena se repite cinco veces con el mismo resultado.
+−¡No te entienden! ¿No lo ves? No sabes inglés −dice Loli.
+−¡Claro que sé inglés! Lo que pasa es que estos guiris seguro que son franceses o italianos o… ¡Qué sé yo! Y este pueblo es todo igual: canales y más canales…
+−Tengo mucha sed y estoy cansada.
+−Vamos a parar y a tomar algo en ese bar.
+Se sientan en la terraza de un bar. Piden dos cervezas y dos sándwiches de jamón y queso. Suena el móvil de Loli.
+−¡Pepa! ¿Qué tal? ¡Estamos en Empuriabrava! Pero estamos perdidos. Raúl no encuentra el apartamento de su amigo y…
+−Loli, por favor. Para. Quiero hablar con Raúl.
+Loli le da el móvil a su amigo.
+−Raúl −dice Pepa−, te he llamado un montón de veces. ¿Por qué no contestas?
+−¿Me has llamado a mí? −Raúl saca el móvil del bolsillo de su pantalón−. ¡Anda! Si está apagado…! ¿Qué quieres? ¿Dónde estás?
+−Estoy en la autopista. Voy hacia Empuriabrava…
+−¡Hostias, qué bien! ¿Vienes con nosotros de vacaciones? −Mira a Loli−. Pepa viene hacia aquí.
+−Sí, pero no. Voy con un cliente. ¿Llevas la bolsa verde de tela?
+−¿Qué?
+−Tu bolsa verde de tela, la que olvidaste en mi taxi. Anoche te la di, ¿recuerdas?
+−Sí…
+−¿La tienes ahí?
+−No.
+−¡No! ¿Y dónde está?
+−No lo sé. Ni idea… ¿Cuándo llegas? Te esperamos tomando una cerveza y…
+−¿De verdad que no sabes dónde está tu bolsa?
+−No… ¿Por qué?
+−Porque… No importa. Luego te llamo. Nos vemos en Empuriabrava.`
       },
       {
         tab: '7. Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
         title: 'Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
-        content: ``
+        content: `−Mi amigo no tiene tu bolsa −le dice Pepa al hombre de la coleta− y no sabe dónde la ha dejado. Mi amigo es muy despistado…
+−¡Tú amigo es un imbécil, joder! ¡Mierda! ¿Dónde está ahora tu amigo? −dice el de la coleta−.
+−En Empuriabrava. Pero no tiene tu bolsa. ¿Qué hago? ¿Sigo o volvemos a Barcelona?
+El hombre de la coleta piensa: «el amigo de la taxista miente. Tiene mi bolsa y no quiere dármela, pero necesito recuperarla…». Decide que tiene que ser simpático con la taxista y así esta lo llevará hasta su amigo.
+−Bueno… −dice el de la coleta y sonríe por primera vez−. Estamos cerca de Empuriabrava, ¿verdad?
+−Sí− dice Pepa−. La próxima salida de la autopista es la de Figueras y después hay unos treinta kilómetros hasta Empuriabrava.
+−Pues como estamos cerca, podemos ir hasta Empuriabrava. Yo no conozco el lugar. ¿Es bonito?
+−Yo no he estado nunca −dice Pepa−, pero dicen que es un lugar muy especial. Es una urbanización muy grande, con canales navegables. La gente que tiene barco, puede dejarlo en la puerta de su casa. Es algo así como Venecia… Bueno, yo tampoco he estado en Venecia.
+−Yo sí. Un lugar precioso. Ah, me llamo Álvaro. ¿Y tú?
+−Pepa.
+−¿Nunca coges vacaciones, Pepa? −El tono de Álvaro ha cambiado. Ahora parece relajado y sonríe.
+−Este año no. Quiero terminar de pagar el taxi.
+−Hoy es viernes. ¿También trabajas el fin de semana?
+−Claro.
+−Pero, tu amigo… ¿Cómo se llama tu amigo?
+−Raúl.
+−Tu amigo Raúl está en Empuriabrava y nosotros estamos cerca. Yo estoy de vacaciones. ¿Por qué no damos una vuelta y vemos el lugar? −A Pepa el cambio de humor de Álvaro le sorprende−. Te pido perdón. No he sido nada amable. Es que estoy nervioso. Cosas del trabajo. Tú no tienes la culpa de nada…
+−¿Llevabas algo de valor en la bolsa? Porque Raúl es un desastre. Lo pierde todo.
+−¡Bah! No importa… Lo que llevaba en la bolsa solo tiene valor sentimental, solo es importante para mí…
+−¿Valor sentimental…? Mira, estamos llegando.
+Pepa gira a la derecha y se dirige hacia el mar. A derecha e izquierda de la calle por la que pasan se ven canales de agua con yates y lanchas amarrados.
+−¡Qué bonito y qué curioso! −dice Pepa.
+−Sí. Impresionante −dice Álvaro.
+−¡Y qué grande! ¿Dónde pueden estar Loli y Raúl? ¿Los llamo?
+−¿Loli? −pregunta Álvaro−. ¿Quién es Loli?
+−Loli es una amiga. Está con Raúl.
+−¡Ah, bien! −Álvaro piensa que Loli también sabe lo que hay en la bolsa. ¡Otro problema…!
+Llegan a una playa muy, muy grande. De arena fina y agua clara y azul. Pepa para el coche y marca el número de Raúl. No contesta. ¡Como siempre! Llama a Loli.
+−¡Pepa! ¡Hola, guapa! ¿Dónde estás? ¿Qué haces? −Loli habla mucho y rápido. En la peluquería la conversación forma parte de su trabajo.
+−Estoy aquí, en Empuriabrava…
+−¡Aquí! −grita Loli muy contenta−. ¡Qué bien, qué bien! Has cambiado de idea. ¿Te quedas con nosotros el fin de semana, verdad? ¡Qué alegría…!
+−Loli… −Pepa sabe que si no la para, Loli puede pasar casi una hora hablando sin decir nada.
+−Sí, Pepa. ¿Qué?
+−¿Dónde estáis?
+−¡En Empuriabrava! Llegamos hace una hora. Nos hemos tomado unos sándwiches y unas cervezas. Esto es muy bonito. ¿Has visto cuánta agua por todas partes? Parece Venecia. Aunque yo no he estado en Venecia, claro…
+−¡Loli!
+−¿Qué pasa? ¿Por qué gritas?
+−¿En qué lugar de Empuriabrava estáis? ¿Dónde, concretamente? Esto es muy grande.
+−Sí que es grande, sí. Raúl no encuentra el apartamento de su amigo. Hemos preguntado a varias personas, pero todos son extranjeros. Raúl dice que él habla inglés, pero a mí me parece que no…
+−¡Loli, coño! ¡Que se ponga Raúl!
+−¡Hola, tía! ¿Dónde estás? −pregunta Raúl.
+Pepa repite a Raúl lo que ya le ha dicho a Loli.
+−¡Qué conversación tan estúpida!− piensa Álvaro. −Se hacen los estúpidos para despistarme, seguro…
+Raúl se levanta de la silla, mira hacia el mar, mira el nombre del bar, mira a derecha e izquierda. Ve a su lado una torre desde la cual puede verse la bahía de Rosas y la urbanización.
+−¿Ves una especie de torre? ¿Una torre muy alta?
+Pepa mira y ve al final de la calle un edificio estrecho y alto.
+−Sí, una especie de torre. La veo.
+−Pues ve hacia ella. Nosotros estamos en un bar, justo al lado`
       },
       {
         tab: '8. Empuriabrava. Viernes, 18.30 h',
