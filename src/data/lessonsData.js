@@ -17550,56 +17550,69 @@ Todo lo que a primera vista parece un contratiempo puede ser un disfraz del bien
     ],
     audioTabs: [
       {
-        tab: 'CAPÍTULO 1',
-        audioUrl: '/audio/T 1.mp3'
+        tab: 'Cenizas calientes 1 - T 1',
+        audioUrl: '/audio/T 1.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'CAPÍTULO 2',
-        audioUrl: '/audio/T 2.mp3'
+        tab: 'Cenizas calientes 1 - T 2',
+        audioUrl: '/audio/T 2.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'CAPÍTULO 3',
-        audioUrl: '/audio/T 3.mp3'
+        tab: 'Cenizas calientes 1 - T 3',
+        audioUrl: '/audio/T 3.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'CAPÍTULO 4',
-        audioUrl: '/audio/T 4.mp3'
+        tab: 'Cenizas calientes 1 - T 4',
+        audioUrl: '/audio/T 4.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'CAPÍTULO 5',
-        audioUrl: '/audio/T 5.mp3'
+        tab: 'Cenizas calientes 1 - T 5',
+        audioUrl: '/audio/T 5.mp3',
+        backgroundColor: '#E3F2FD'
       },
       {
-        tab: 'CAPÍTULO 6',
-        audioUrl: '/audio/T 6.mp3'
+        tab: 'Cenizas calientes 2 - T 6',
+        audioUrl: '/audio/T 6.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 7',
-        audioUrl: '/audio/T 7.mp3'
+        tab: 'Cenizas calientes 2 - T 7',
+        audioUrl: '/audio/T 7.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 8',
-        audioUrl: '/audio/T 8.mp3'
+        tab: 'Cenizas calientes 2 - T 8',
+        audioUrl: '/audio/T 8.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 9',
-        audioUrl: '/audio/T 9.mp3'
+        tab: 'Cenizas calientes 2 - T 9',
+        audioUrl: '/audio/T 9.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 10',
-        audioUrl: '/audio/T 10.mp3'
+        tab: 'Cenizas calientes 2 - T 10',
+        audioUrl: '/audio/T 10.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 11',
-        audioUrl: '/audio/T 11.mp3'
+        tab: 'Cenizas calientes 2 - T 11',
+        audioUrl: '/audio/T 11.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 12',
-        audioUrl: '/audio/T 12.mp3'
+        tab: 'Cenizas calientes 2 - T 12',
+        audioUrl: '/audio/T 12.mp3',
+        backgroundColor: '#E8F5E9'
       },
       {
-        tab: 'CAPÍTULO 13',
-        audioUrl: '/audio/T 13.mp3'
+        tab: 'Cenizas calientes 2 - T 13',
+        audioUrl: '/audio/T 13.mp3',
+        backgroundColor: '#E8F5E9'
       },
     ],
     readingText: [
