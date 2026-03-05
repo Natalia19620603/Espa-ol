@@ -21612,32 +21612,172 @@ A las tres de la mañana Pepa y Loli se han tomado cuatro gin tonics. Álvaro ta
       {
         tab: '14. Apartamento 112. 03.00 h',
         title: 'Apartamento 112. 03.00 h',
-        content: ``
+        content: `Mercè se despierta. Ha olvidado pincharse su dosis de insulina. Se levanta y va a la cocina. Lleva un camisón blanco. Abre el horno, la puerta de un armario y la nevera.
+−¡Pepe! ¿Dónde está la insulina? −pregunta Mercè.
+Raúl abre un ojo. «¿Dónde estoy?», se pregunta.
+Mercè encuentra su insulina.
+Raúl abre el otro ojo. «¿Qué demonios he tomado yo hoy? Estoy viendo un fantasma yonqui», piensa.
+Mercè se pincha su dosis de insulina y vuelve al dormitorio.`
       },
       {
         tab: '15. Empuriabrava. 05.30 h',
         title: 'Empuriabrava. 05.30 h',
-        content: ``
+        content: `Pepa, Loli y Álvaro salen de la discoteca Pasarela. Las dos mujeres van cogidas por la cintura y ríen. Han bebido mucho.
+−¡Qué pedo llevo! −dice Pepa. La bolsa de Raúl, que ha llevado encima toda la noche, se le cae del hombro−. ¡La puta bolsa de Raúl!
+−¿Por qué llevas la bolsa de Raúl? −pregunta Loli−. No te queda nada bien −y se ríe, borracha.
+−La he cogido por si nos apetecía bañarnos −Pepa saca los bañadores de la bolsa−. ¿Qué, un bañito?
+−¡Ni loca! ¿A estas horas? −dice Loli.
+Loli tropieza. Lleva unos tacones demasiado altos para su estado actual.
+−¡Qué mal vamos, tía! −dice Pepa.
+−Son los tacones −dice Loli. Se quita los zapatos y los tira−. ¡A la mierda los zapatos!
+−¡A la mierda la puta bolsa de Raúl! −Pepa tira la bolsa.
+Álvaro recoge los zapatos de Loli y la bolsa de Raúl.
+−¿Nos vamos a dormir? −pregunta Álvaro.
+−Yo no −dice Pepa.
+−Yo tampoco −dice Loli−. ¡Marcha, marcha! ¿Dónde hay marcha?
+−¡El chino! −dice Pepa.
+−¿Qué dices? −pregunta Loli.
+−Dos chinos −Pepa señala unos contenedores de basura.
+−¿Chinos? ¿Dónde? −pregunta Álvaro.
+−¿Chinos? −pregunta Loli.
+−Sí, chinos. Cuando he ido al baño he visto un chino. Luego, al salir, otro. En la entrada de la discoteca también he visto a un chino. Y ahora he visto dos detrás de los contenedores de basura. −Ella, Loli y Álvaro miran hacia los contenedores, pero no ven a nadie.
+−¿Chinos? −Loli se ríe−. Yo no veo ningún chino.
+−Toda la noche veo chinos. O japoneses. No sé. Quizás… solo hay un chino y se mueve mucho, y yo lo veo por todas partes. O quizás, con tantos gin-tonics veo doble, o triple.
+En ese momento una pareja entra en un coche aparcado cerca de donde están Loli, Pepa y Álvaro. Uno de los chinos, que estaba escondido detrás del coche, sale corriendo.
+−¡Mira, mira! −dice Loli, señalando−. ¡Un chino! ¡Yo también he visto un chino!
+−Vamos a casa −dice Álvaro.
+−¿Por qué? Mira qué bonito está el mar. Y los canales. Está amaneciendo. Pronto va a salir el sol. Yo voy a dar una vuelta −dice Pepa.
+−Te acompaño.
+Pepa y Loli empiezan a andar y Álvaro las sigue. Los barcos se mueven en las aguas del canal.
+−Me gustaría dar un paseo en barca −dice Loli.
+−A mí también −dice Pepa−. Durante el día puedes alquilar una de estas barquitas. −Están al lado del canal principal, junto a unas barcas de alquiler−. Pero a estas horas no creo yo que…
+Se oye el ruido de un motor y ven llegar por el canal una lancha de la que salen seis brazos que cogen a Álvaro y se lo llevan.
+−¿Qué coño…? −dice Pepa, sin entender nada.
+−¡Eran chinos! −dice Loli.
+La lancha gira y desaparece de la vista de Pepa y Loli, pero vuelve a aparecer pasado un minuto.
+−¡Vuelven! −dice Pepa.
+Los hombres de la barca gritan y parecen enfadados. Uno de ellos conduce y los otros tres sujetan a Álvaro y mantienen su cabeza bajo el agua. Le dejan respirar un momento. Álvaro tose y dice algo, pero vuelven a meter su cabeza bajo el agua. Cuando le sacan la cabeza de nuevo, Álvaro, tosiendo sin parar, mueve los brazos y señala hacia las dos chicas.
+−¡La bolsa, Pepa! ¡Dales la bolsa! −consigue gritar Álvaro. Los chinos vuelven a meterlo bajo el agua. Miran a Pepa y le dicen algo. Está claro lo que le dicen: o les da la bolsa o ahogan a Álvaro. Pepa les tira la bolsa y los de la barca la cogen, tiran a Álvaro al canal y desaparecen.
+−¿Qué ha pasado? −pregunta Loli.
+−¿La bolsa de Raúl? −dice Pepa. Álvaro sale del agua. Está tosiendo y temblando−. ¿Puedes explicarme qué pasa?
+−No. No puedo. No sé qué pasa. No conozco a los japoneses.
+−¿Japoneses? −pregunta Loli−. ¿No eran chinos?
+−¡Qué más da! −dice Pepa−. Ahora entiendo tu interés por encontrar tu bolsa. ¿Qué llevabas: joyas, dinero, droga…?
+−No es asunto tuyo. −La simpatía de Álvaro ha desaparecido.
+−¡Qué borde eres…! −dice Pepa−. Pues ahí te quedas. Busca otro taxi para volver a Barcelona. ¡Vamos, Loli! −Pepa y Loli empiezan a andar. Álvaro las sigue.
+−¡Espera! −grita Álvaro−. Perdona, Pepa. No me dejes así −Álvaro siente un fuerte dolor de estómago−. ¿Puedo ir con vosotras al apartamento y cambiarme de ropa? ¡Por favor!
+−Bueno. Venga.`
       },
       {
         tab: '16. Apartamento 112. 06.00 h',
         title: 'Apartamento 112. 06.00 h',
-        content: ``
+        content: `Pepa y Loli están muy, muy cansadas. Demasiados combinados, demasiado baile y demasiados orientales. El laxante que tomó Álvaro está haciendo efecto y el pobre hombre en estos momentos prefiere encontrar un váter antes que su querida bolsa. Al llegar al apartamento, Pepa y Loli se echan en el sofá-cama donde duerme Raúl. Álvaro entra en el baño. Mercè está dentro, lavándose las manos. Álvaro, sin tiempo para preguntarse quién es esa señora, la echa fuera de un empujón y cierra la puerta.
+−¡Pepe! −grita Mercè−. ¡No me empujes! ¡Hay que ver qué prisas! Te pasas la vida en el baño. Claro, comes tanto… Yo, en cambio, pobre de mí… −Mercè vuelve a su cama, donde Pepe sigue durmiendo.
+Todos duermen menos Álvaro, que se ha pasado más de media hora en el váter. Cuando sale, en el salón-comedor las dos chicas y Raúl duermen en el sofá. Álvaro abre otra vez la maleta de Raúl y saca todo lo que hay dentro. Lo que él busca no está allí. Luego va al dormitorio. La anciana, que estaba antes en el baño, ahora está durmiendo junto a otro anciano. ¿Quiénes son? ¿Qué hacen en el apartamento? ¿De dónde han salido? No lo sabe, pero tampoco le importa. Abre la maleta de Loli y saca toda la ropa. Después abre el armario y hace lo mismo.
+Pepe se despierta porque tiene pis. Ve a Álvaro de pie junto a su cama, sacando su ropa del armario y tirándola al suelo. «¡Un ladrón!», piensa. Se levanta despacio, sin hacer ruido, coge el bastón y le da a Álvaro un bastonazo con todas sus fuerzas en mitad de la espalda. Álvaro grita y cae de rodillas al suelo. Pepe le da otro golpe en la cabeza. Álvaro cae al suelo.
+−¡Hijo de puta! −grita Pepe−. ¡A mí no me roba nadie! −Pepe tiene el bastón en alto y la intención de darle otro garrotazo a Álvaro−. ¡Mercè, llama a la policía!
+Mercè se despierta.
+−¡Pepe! ¿Qué pasa?
+−¡Un ladrón! ¡Un ladrón! ¡Llama a la policía!
+−¿Pepe? ¿Qué pasa, Pepe? −Mercè se levanta de la cama, muy asustada. Sin gafas no ve nada y no entiende qué está pasando−. ¿Dónde estás Pepe?
+Loli, Pepa y Raúl se despiertan al oír los gritos y van hacia el dormitorio.
+−¡Hostia! ¿Quiénes son estos? ¿De dónde han salido estos yayos? −pregunta Pepa.
+−¡Mi ropa! −dice Loli al ver su maleta abierta y la ropa por el suelo.
+−¡Coño, la fantasma yonqui! −dice Raúl.
+Pepe piensa que los jóvenes son también ladrones y empieza a dar bastonazos.
+−¡Fuera! ¡Fuera de aquí, sinvergüenzas! −Pepa, Loli y Raúl salen del dormitorio−. ¡Mercè, llama a la policía!
+Mercè coge el teléfono, pero se le cae al suelo.
+−¡Ay, Dios mío! ¡Pepe! ¿Dónde estás?
+Mercè sale del dormitorio, detrás de su marido, que sigue dando bastonazos al aire.
+−Abuelo, deje el bastón −dice Raúl.
+−¿Cabrón? ¡Cabrón lo será tu padre! −contesta Pepe.
+−¡Ay, que me voy a desmayar! −dice Mercè.
+−¡No estoy ahora para desayunar! ¡Llama a la policía! −dice Pepe.
+Loli, Pepa y Raúl están en un rincón del salón-comedor, frente a Pepe y su bastón. Mientras tanto, Álvaro se levanta y sale corriendo del apartamento. Al llegar a la calle, sigue corriendo. Le duele la espalda, pero tiene que correr. El viejo del apartamento va a llamar a la policía y él no quiere encontrarse con la policía. Tampoco quiere encontrarse con los orientales. Ni ellos ni él mismo tienen lo que quieren: ¿quién tiene su bolsa verde? No puede saberlo. El negocio parecía fácil y ha salido mal. Muy mal. Él tiene que irse lejos, muy lejos. De la policía y de los japoneses. Corre. Álvaro corre.`
       },
       {
         tab: '17. Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
         title: 'Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
-        content: ``
+        content: `Sentados a la mesa de la sala de reuniones se encuentran los directivos del museo, de la compañía de seguros, el jefe superior de policía y otros cargos relacionados con la seguridad. Han robado un cuadro famoso y en su lugar han dejado una copia. Nadie sabe cómo lo han hecho. Sacaron el cuadro del museo con toda tranquilidad y no saltaron las alarmas. El pasado jueves, el día del robo, la gente entró y salió del museo como de costumbre. El viernes por la mañana, uno de los vigilantes vio que el cuadro de la cesta de pan estaba un poco torcido. Se acercó para ponerlo derecho y notó algo raro. Avisó al conservador del museo y este se dio cuenta al momento: el cuadro original había sido cambiado por una copia. Ahora están revisando los vídeos de las cámaras de seguridad. A primera vista, todo parece normal.
+−Hay muchos orientales −dice un directivo de la compañía de seguros.
+−Siempre hay muchos. Sobre todo, japoneses −contesta uno de los vigilantes del museo−. Y siempre van en grupo.
+Siguen mirando la cinta. Gente de todo tipo pasa por la sala donde está el cuadro de la cesta de pan. Cuatro hombres orientales, con mochilas en la espalda, se acercan mucho al cuadro y por un momento las cámaras graban sus espaldas y el cuadro no se ve. Salen y el cuadro sigue en su sitio.
+−Un momento. Un momento −dice el jefe de policía−. ¡El cuadro!
+−El cuadro está en su sitio −responde otro.
+−¡Pero no es el original! Es la copia. Está un poco torcido.
+Paran la cinta y ven que, efectivamente, el cuadro está un poco torcido. Los cuatro hombres orientales han cambiado el cuadro original por una copia. Luego se separan y se mezclan con los visitantes del museo. Uno de ellos va al baño y tira la mochila con el cuadro dentro de un cubo de basura, pero las cámaras de seguridad no lo graban: en ese momento un empleado está arreglando la luz y los baños quedan a oscuras durante unos segundos. Es el mismo empleado, alto y guapo, con el pelo recogido en una coleta, que saca la basura al exterior. El mismo empleado, experto en sistemas de seguridad, que antes se ha encargado de las alarmas. El mismo hombre que Pepa, Loli y Raúl conocen como Álvaro.`
       },
       {
         tab: '18. Barcelona. Lunes, 4 de agosto. 12.00 h',
         title: 'Barcelona. Lunes, 4 de agosto. 12.00 h',
-        content: ``
+        content: `Álvaro, el famoso ladrón de joyas y obras de arte, se esconde en una pensión de mala muerte cerca de Las Ramblas. Está en la cama porque se encuentra mal. Le duele la espalda por los bastonazos del viejo y está muy débil. Lleva dos días sin comer. En el apartamento de la costa tomó una dosis excesiva de laxante y desde entonces tiene que ir al baño continuamente.
+La puerta de la habitación se abre de repente y un oriental le pone una pistola en la frente.
+−¡Chist! −dice el japonés−. Silencio. No te muevas.
+Álvaro obedece.
+−El jefe quiere el cuadro −dice el japonés.
+El jefe es un yakuza coleccionista de obras de arte, en especial de Dalí, y está obsesionado con el cuadro de la cesta de pan.
+−El jefe te contrató −dice el japonés−. Tenéis un trato. Los tratos con el jefe se cumplen o… −El japonés aprieta la pistola contra la frente de Álvaro. Álvaro está muerto de miedo y tiene unas terribles ganas de ir al váter.
+−Sí, sí. Voy a cumplir el trato. El jefe va a tener el cuadro. Por favor, tengo que ir al baño.
+−¿Cuándo? −pregunta el japonés sin apartar la pistola. Quiere saber cuándo Álvaro va a darle el cuadro.
+−Ahora −Álvaro piensa en el váter.
+−¿Dónde está? ¡Dámelo!
+−¿El qué? El baño está fuera de la habitación, en el pasillo… Tengo que ir al baño ahora, por favor −Álvaro trata de levantarse, pero el japonés no le deja.
+−¡Quieto! Tú dices: «El jefe va a tener el cuadro». Yo pregunto: «¿Cuándo?». Y tú dices: «Ahora». Quiero el cuadro.
+−¡Por favor! Ahora tengo que ir a…
+−¡El cuadro!
+−¡El baño!
+−Baño, no. Cuadro. Tú no me engañas.
+−¡Dios! −Álvaro está desesperado. El japonés le da miedo, pero sobre todo, necesita un váter−. No tengo el cuadro aquí. Pero puedo tenerlo.
+−¿Cuándo?
+−Mañana.
+−¿Mañana?
+−Sí. Mañana. Y ahora…
+−¿Ahora o mañana?
+−¡Mañana, el cuadro! ¡Ahora, el baño! ¡Por favor, tengo que ir al baño! Es muy urgente.
+El japonés sigue con la pistola en la cabeza de Álvaro.
+−Tú no puedes engañar al jefe. Nadie engaña al jefe. El jefe quiere el cuadro. El jefe…
+−¡Sí, joder, sí! ¡Me cago en el jefe de los cojones!
+−¿Me cago en el jefe de los cojones? −repite el japonés, que no entiende la expresión.
+Se oye un ruidito y un olor repugnante llena la habitación. El japonés se tapa la nariz con la mano que no sostiene la pistola.
+−¡Te cagas! ¡Tú te cagas! ¡Eres un cerdo! −El japonés aparta la pistola de la cabeza de Álvaro−. ¡Mañana! ¡No lo olvides! ¡Mañana quiero el cuadro! −Cierra la puerta y se va.`
       },
       {
         tab: '19. Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
         title: 'Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
-        content: ``
+        content: `Pepa, Loli y Raúl le están explicando a Armando lo ocurrido en el apartamento de Empuriabrava.
+−¡Qué despiste el de tu amigo Nacho! Te da unas llaves a vosotros y otras a los abuelos y no lo recuerda −dice Armando.
+−¡Con la mala leche que tiene el abuelo de Nacho! Casi nos mata con el bastón −dice Raúl.
+−¡Pobres! ¡Vaya susto! −dice Pepa.
+−Yo también me asusté −dice Loli−. Me despierto, oigo gritos y me encuentro a Álvaro en el suelo y al abuelo dándole con el bastón…
+−Y ese tipo, el tal Álvaro, ¿quién es? −pregunta Armando.
+−Un cliente que llevé el jueves pasado desde Figueras a Barcelona.
+−¿Y qué hacía con ustedes en Empuriabrava?
+−Álvaro tenía una bolsa de tela verde, igual que la de Raúl.
+−¿La bolsa que Raúl olvida en todas partes? −dice Armando.
+−Sí. Raúl olvidó su bolsa en mi taxi y Álvaro cogió la bolsa de Raúl. Se equivocó. Las bolsas eran iguales. Álvaro descubre que la bolsa verde no es su bolsa. Yo le explico que seguramente la otra bolsa, la de Álvaro, la tiene Raúl y que Raúl está en Empuriabrava. Vamos a Empuriabrava a buscar a Raúl. ¿Entiendes?
+−Sí. Ustedes llegan a Empuriabrava. Raúl y Álvaro cambian sus bolsas…
+−No. No cambian las bolsas porque Raúl no tiene la suya. Bueno, no tiene la bolsa de Álvaro, que él pensaba que era suya. No sabe donde está la bolsa. La ha perdido.
+−Pero… ¿Por qué se queda Álvaro con ustedes?
+−Porque Raúl le dijo que podía pasar la noche con nosotros en el apartamento.
+−¿Por qué? −pregunta Armando a Raúl.
+−Hombre… Yo pensé: «Mira, ya está Pepa con un nuevo ligue…» −dice Raúl.
+−Muy gracioso −responde Pepa.
+−Es que Álvaro está muy bueno −dice Loli.
+−¿A vos, Pepa, te gusta Álvaro?
+−No… No sé. Es raro.
+−Bueno. Álvaro se queda con ustedes, van al apartamento, ¿y…?
+−Estamos durmiendo, oímos voces y nos encontramos con los abuelos de Nacho. El abuelo y su bastón… La abuela llama a la policía…. Y Álvaro se va corriendo.
+−Total, que nos hemos quedado sin playa y sin apartamento −dice Loli.
+−Y sin Álvaro… −comenta Pepa−. Parece que no quiere tener mucho contacto con la policía…
+−Podemos ir de cámping −dice Raúl−. Tengo un amigo que puede dejarnos una tienda y…
+−¡Calla! No quiero saber nada de tus amigos −dice Loli.
+−Yo voy a ir a la playa de la Barceloneta. Me baño, tomo el sol y luego, de subida, recojo a algún cliente −dice Pepa.
+−Yo voy contigo −dice Loli.
+−Yo… A mí la playa, ¡uff!… La arena… ¡Uff! Hace mucho calor… −dice Raúl estirándose en la silla−. Yo me quedo aquí, a la sombra. ¡Anda, ponme una cervecita, Armando! Hasta luego, chicas.
+Las dos chicas salen. Armando trae la cerveza de Raúl y una bolsa verde.
+−La otra noche te dejaste tu bolsa aquí en el bar.
+−¡Coño, la bolsa! −Raúl bebe un poco de cerveza−. ¿Es la bolsa de Álvaro o la mía? −Se rasca la cabeza−. ¡Qué lío! −Deja la bolsa en una silla. Se termina la cerveza y pide otra−. ¡Bah, qué más da! ¡Total, no llevo nada importante!
+−A ver, déjame ver… ¿Qué hay dentro? −pregunta curioso Armando−. Si es la bolsa de Álvaro puede haber alguna sorpresa…`
       }
     ],
     audioTabs: [
