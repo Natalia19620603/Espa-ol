@@ -21276,6 +21276,139 @@ Infinitivo Compuesto используется, когда:
           { word: 'da igual', translation: 'всё равно', audioUrl: null },
           { word: 'no te enrolles', translation: 'не тяни резину (разг.)', audioUrl: null }
         ]
+      },
+      {
+        tab: '1 Barcelona. Lunes, 28 de julio. 16.00 h',
+        words: [
+          { word: 'teñido', translation: 'крашеный (о волосах)', audioUrl: null },
+          { word: 'teñir', translation: 'красить волосы', audioUrl: null },
+          { word: 'rascar', translation: 'чесать, царапать', audioUrl: null },
+          { word: 'enrollar', translation: 'завернуть, намотать, запутать', audioUrl: null },
+          { word: 'el guiri', translation: 'иностранец, американец', audioUrl: null },
+          { word: 'insistir', translation: 'настаивать, упорствовать', audioUrl: null }
+        ]
+      },
+      {
+        tab: '2 Jueves, 31 de julio. 12.00 h',
+        words: [
+          { word: 'la acera', translation: 'тротуар; сторона улицы', audioUrl: null },
+          { word: 'el cartel', translation: 'вывеска', audioUrl: null },
+          { word: 'cobrar', translation: 'получать деньги', audioUrl: null },
+          { word: 'despistado', translation: 'рассеянный, задумчивый', audioUrl: null },
+          { word: 'la pista', translation: 'беговая дорожка/трек/площадка', audioUrl: null },
+          { word: 'cultura de bolsillo', translation: 'карманная культура', audioUrl: null }
+        ]
+      },
+      {
+        tab: '3 Barcelona. Jueves, 31 de julio. 14.15 h',
+        words: [
+          { word: 'la coleta', translation: 'хвостик', audioUrl: null },
+          { word: 'la serpiente', translation: 'змея', audioUrl: null },
+          { word: 'el paisaje', translation: 'пейзаж, вид', audioUrl: null },
+          { word: 'la caña', translation: 'тростник, стакан пива, удочка', audioUrl: null },
+          { word: 'pringado', translation: 'неудачник, лузер', audioUrl: null }
+        ]
+      },
+      {
+        tab: '4 Barcelona. Viernes, 1 de agosto. 12.00 h',
+        words: [
+          { word: 'enfadado', translation: 'рассерженный', audioUrl: null },
+          { word: 'vaciar', translation: 'опустошать, выливать, высыпать', audioUrl: null },
+          { word: 'tuneado', translation: 'тюнингованный', audioUrl: null }
+        ]
+      },
+      {
+        tab: '5 Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+        words: [
+          { word: 'la comarca', translation: 'комарка, район (в Испании)', audioUrl: null },
+          { word: 'estar sordo', translation: 'быть глухим', audioUrl: null },
+          { word: 'estar sordo como una tapia', translation: 'быть глухим как пень', audioUrl: null },
+          { word: 'el bogavante', translation: 'лобстер', audioUrl: null },
+          { word: 'tropezar', translation: 'спотыкаться', audioUrl: null },
+          { word: 'coño', translation: 'Чёрт! Бл@ть! (грубо)', audioUrl: null }
+        ]
+      },
+      {
+        tab: '6 Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+        words: [
+          { word: 'raro', translation: 'странный, редкий', audioUrl: null },
+          { word: 'la hostia', translation: 'облатка, (аналог христ. просвиры), ругательство "черт"', audioUrl: null }
+        ]
+      },
+      {
+        tab: '7 Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+        words: [
+          { word: 'el imbécil', translation: 'придурок', audioUrl: null },
+          { word: 'navegable', translation: 'судоходный', audioUrl: null },
+          { word: 'relajado', translation: 'расслабленный, спокойный', audioUrl: null },
+          { word: 'es un desastre', translation: 'Это катастрофа', audioUrl: null },
+          { word: 'amarrar', translation: 'привязывать, прикреплять', audioUrl: null }
+        ]
+      },
+      {
+        tab: '8 Empuriabrava. Viernes, 18.30 h',
+        words: [
+          { word: 'la pasta', translation: 'макароны, бабло', audioUrl: null },
+          { word: 'ni puta idea', translation: 'без понятия (грубо)', audioUrl: null },
+          { word: 'el colega', translation: 'коллега, друган', audioUrl: null },
+          { word: 'el bañador', translation: 'купальник, плавки', audioUrl: null }
+        ]
+      },
+      {
+        tab: '14 Apartamento 112. 03.00 h',
+        words: [
+          { word: 'el mero', translation: 'окунь, палтус', audioUrl: null },
+          { word: 'engañar', translation: 'обманывать', audioUrl: null },
+          { word: 'yonqui', translation: 'наркоман, торчок', audioUrl: null }
+        ]
+      },
+      {
+        tab: '16 Apartamento 112. 06.00 h',
+        words: [
+          { word: 'borde', translation: 'грубый', audioUrl: null },
+          { word: 'el laxante', translation: 'слабительное', audioUrl: null },
+          { word: 'tener pis', translation: 'хотеть писать', audioUrl: null },
+          { word: 'el bastón', translation: 'трость, палка', audioUrl: null },
+          { word: 'el bastonazo', translation: 'удар тростью', audioUrl: null },
+          { word: 'en alto', translation: 'на высоте', audioUrl: null },
+          { word: 'el garrotazo', translation: 'удар', audioUrl: null },
+          { word: 'el yayo', translation: 'дедуля', audioUrl: null },
+          { word: 'cabrón', translation: 'Козёл! (только как ругательство)', audioUrl: null },
+          { word: 'desmayarse', translation: 'падать в обморок', audioUrl: null }
+        ]
+      },
+      {
+        tab: '17 Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
+        words: [
+          { word: 'el cargo', translation: 'должность, пост', audioUrl: null },
+          { word: 'la cesta', translation: 'корзина', audioUrl: null },
+          { word: 'torcido', translation: 'кривой', audioUrl: null },
+          { word: 'el oriente', translation: 'восток', audioUrl: null },
+          { word: 'el empleado', translation: 'сотрудник', audioUrl: null }
+        ]
+      },
+      {
+        tab: '18 Barcelona. Lunes, 4 de agosto. 12.00 h',
+        words: [
+          { word: 'la pensión', translation: 'пенсия, пансион', audioUrl: null },
+          { word: 'de mala muerte', translation: 'убогий', audioUrl: null },
+          { word: 'excesivo', translation: 'чрезмерный, излишний', audioUrl: null },
+          { word: 'de repente', translation: 'внезапно, вдруг', audioUrl: null },
+          { word: 'obedecer', translation: 'слушаться, повиноваться', audioUrl: null },
+          { word: 'estar obsesionado', translation: 'быть одержимым', audioUrl: null },
+          { word: 'el trato', translation: 'сделка, отношение', audioUrl: null },
+          { word: 'el váter', translation: 'туалет', audioUrl: null },
+          { word: 'urgente', translation: 'срочный, неотложный', audioUrl: null },
+          { word: 'Me cago en el jefe de los cojones', translation: 'очень грубое выражение с использованием генитально-фекальной лексики', audioUrl: null },
+          { word: 'repugnante', translation: 'отвратительный, противный', audioUrl: null }
+        ]
+      },
+      {
+        tab: '19 Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
+        words: [
+          { word: 'tener la mala leche', translation: 'иметь отвратительный характер', audioUrl: null },
+          { word: 'el ligue', translation: 'флирт, роман', audioUrl: null }
+        ]
       }
     ],
     readingText: [
