@@ -21449,7 +21449,103 @@ Pepa mira el taxímetro, mueve la cabeza y se dirige hacia la autopista.`
         content: ``
       }
     ],
-    audioTabs: [],
+    audioTabs: [
+      {
+        tab: 'Costa 1 - T 1',
+        audioUrl: '/audio/T 1.mp3',
+        backgroundColor: '#E3F2FD'
+      },
+      {
+        tab: 'Costa 1 - T 2',
+        audioUrl: '/audio/T 2.mp3',
+        backgroundColor: '#E3F2FD'
+      },
+      {
+        tab: 'Costa 1 - T 3',
+        audioUrl: '/audio/T 3.mp3',
+        backgroundColor: '#E3F2FD'
+      },
+      {
+        tab: 'Costa 1 - T 4',
+        audioUrl: '/audio/T 4.mp3',
+        backgroundColor: '#E3F2FD'
+      },
+      {
+        tab: 'Costa 1 - T 5',
+        audioUrl: '/audio/T 5.mp3',
+        backgroundColor: '#E3F2FD'
+      },
+      {
+        tab: 'Costa 2 - T 6',
+        audioUrl: '/audio/T 6.mp3',
+        backgroundColor: '#E8F5E9'
+      },
+      {
+        tab: 'Costa 2 - T 7',
+        audioUrl: '/audio/T 7.mp3',
+        backgroundColor: '#E8F5E9'
+      },
+      {
+        tab: 'Costa 2 - T 8',
+        audioUrl: '/audio/T 8.mp3',
+        backgroundColor: '#E8F5E9'
+      },
+      {
+        tab: 'Costa 2 - T 9',
+        audioUrl: '/audio/T 9.mp3',
+        backgroundColor: '#E8F5E9'
+      },
+      {
+        tab: 'Costa 2 - T 10',
+        audioUrl: '/audio/T 10.mp3',
+        backgroundColor: '#E8F5E9'
+      },
+      {
+        tab: 'Costa 3 - T 11',
+        audioUrl: '/audio/T 11.mp3',
+        backgroundColor: '#FFF3E0'
+      },
+      {
+        tab: 'Costa 3 - T 12',
+        audioUrl: '/audio/T 12.mp3',
+        backgroundColor: '#FFF3E0'
+      },
+      {
+        tab: 'Costa 3 - T 13',
+        audioUrl: '/audio/T 13.mp3',
+        backgroundColor: '#FFF3E0'
+      },
+      {
+        tab: 'Costa 3 - T 14',
+        audioUrl: '/audio/T 14.mp3',
+        backgroundColor: '#FFF3E0'
+      },
+      {
+        tab: 'Costa 3 - T 15',
+        audioUrl: '/audio/T 15.mp3',
+        backgroundColor: '#FFF3E0'
+      },
+      {
+        tab: 'Costa 4 - T 16',
+        audioUrl: '/audio/T 16.mp3',
+        backgroundColor: '#FCE4EC'
+      },
+      {
+        tab: 'Costa 4 - T 17',
+        audioUrl: '/audio/T 17.mp3',
+        backgroundColor: '#FCE4EC'
+      },
+      {
+        tab: 'Costa 4 - T 18',
+        audioUrl: '/audio/T 18.mp3',
+        backgroundColor: '#FCE4EC'
+      },
+      {
+        tab: 'Costa 4 - T 19',
+        audioUrl: '/audio/T 19.mp3',
+        backgroundColor: '#FCE4EC'
+      }
+    ],
     exercises: []
   }
 }
