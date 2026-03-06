@@ -954,7 +954,7 @@ function LessonPage() {
                                 className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
                                 onClick={() => handleExerciseClick(exerciseId)}
                               >
-                                <div className={styles.exerciseNumber}>{index + 1}</div>
+                                <div className={styles.exerciseNumber}>{exercise.displayNumber !== undefined ? exercise.displayNumber : index + 1}</div>
                                 <div className={styles.exerciseInfo}>
                                   <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
                                   <p className={styles.exerciseDescription}>{exercise.description}</p>
@@ -1002,7 +1002,7 @@ function LessonPage() {
                               className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
                               onClick={() => handleExerciseClick(exerciseId)}
                             >
-                              <div className={styles.exerciseNumber}>{index + 1}</div>
+                              <div className={styles.exerciseNumber}>{exercise.displayNumber !== undefined ? exercise.displayNumber : index + 1}</div>
                               <div className={styles.exerciseInfo}>
                                 <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
                                 <p className={styles.exerciseDescription}>{exercise.description}</p>
@@ -1038,7 +1038,7 @@ function LessonPage() {
                           className={`${styles.exerciseCard} ${isCompleted ? styles.completed : ''}`}
                           onClick={() => handleExerciseClick(exerciseId)}
                         >
-                          <div className={styles.exerciseNumber}>{index + 1}</div>
+                          <div className={styles.exerciseNumber}>{exercise.displayNumber !== undefined ? exercise.displayNumber : index + 1}</div>
                           <div className={styles.exerciseInfo}>
                             <h3 className={styles.exerciseTitle}>{exercise.title}</h3>
                             <p className={styles.exerciseDescription}>{exercise.description}</p>
