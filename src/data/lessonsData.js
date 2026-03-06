@@ -1468,10 +1468,6 @@ Objeto + está + preposición + del/de la + lugar.
       {
         tab: 'Видео 2',
         videoUrl: '/video/Profesiones. Nivel A1 M1 4.mp4'
-      },
-      {
-        tab: 'Plan de expulsión de inmigrantes',
-        videoUrl: '/video/plan de expulsion de inmigrantes M1C4.mp4'
       }
     ],
     grammar: {
@@ -1630,22 +1626,7 @@ Objeto + está + preposición + del/de la + lugar.
           { word: 'soltera, -o', translation: 'холостой, незамужняя', audioUrl: null },
           { word: 'ocupado, -a', translation: 'занятый, занятая', audioUrl: null },
         ]
-      },
-      {
-        tab: 'Plan de expulsión de inmigrantes',
-        words: [
-          { word: 'aportar', translation: 'вносить вклад', audioUrl: null },
-          { word: 'cuidar', translation: 'заботиться, ухаживать', audioUrl: null },
-          { word: 'el anciano', translation: 'старик, старец', audioUrl: null },
-          { word: 'fuera', translation: 'вон, снаружи', audioUrl: null },
-          { word: 'la hostelería', translation: 'гостиничное дело', audioUrl: null },
-          { word: 'mencionar', translation: 'упоминать, отмечать', audioUrl: null },
-          { word: 'cotizar', translation: 'платить налоги', audioUrl: null },
-          { word: 'el jeque', translation: 'шейх', audioUrl: null },
-          { word: 'trabajar en B', translation: 'работающие в "черную" "серую"', audioUrl: null },
-          { word: 'la bachata', translation: 'бачата', audioUrl: null },
-        ]
-      },
+      }
     ],
     readingText: [
       {
@@ -1761,39 +1742,12 @@ Objeto + está + preposición + del/de la + lugar.
 **Papá:** Ah, mira tus gafas están debajo del sillón.
 **Mamá:** Oh, gracias. Y el ordenador está al lado de la librería.`,
         audioUrl: null
-      },
-      {
-        tab: 'Plan de expulsión de inmigrantes',
-        title: 'Plan de expulsión de inmigrantes',
-        content: `...concretar cuanto antes el plan de expulsión de los inmigrantes. Eso que hay demasiados extranjeros, hombre, y que no aportan nada. Sí, sí. Que se vayan, que se vayan a su país. De acuerdo. Entonces, el plan es echarlos a todos. A todos, a todos. A todos. Bueno, espérate. A la chica que cuida a mis padres, la colombiana, ¿no? Que a ver qué hago.
-
-Ahí va Osar. Es verdad, me pasa lo mismo con los míos. Es decir, los inmigrantes que cuidan de los ancianos que se queden. Esos que se queden, pero todos los demás fuera. Y los camareros es que tengo un restaurante y claro, si se van me quedo sin personal. Y los que trabajan en la hostelería que se queden, que se queden también, pero todos los demás fuera, fuera, fuera, fuera. Yo dejaría también a los que trabajan en el campo, ¿eh?
-
-Es que eso ni se menciona, trabajan en el campo que se queden y se queden. Eso que se queden. Trabajan en el campo y que se queden además la mano la que te lo va pidiendo. Que se queden. Eso que se queden. Perfecto. Di que sí. Di que sí. Pero yo dejaría los que cotizan, ¿no? Sí. Si no, ¿quién va a pagar las pensiones? Los que cotizan que se queden. Se queden. Pero todos los demás, todos los demás fuera fuera. Fuera.
-
-Y abogados médicos y maestros. Que se queden. Eso es que se queden los otros, los que no tienen para comprarse una casa. Fuera. Y los futbolistas esos que se queden, que se queden, pero todos los demás fuera. ¿Los jeques árabes? No, hombre, no. Eso no. Está feo. ¿Y lo de la construcción?
-
-Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. Todos fuera, todos, todos, todos, menos los que cuidan a los mayores, los que cotizan, los que trabajan en hostelería, los que están en la construcción, los futbolistas, los que trabajan en B y así les pagamos menos, los que trabajan en el campo, los que montan restaurantes baratos con comida que está muy rica, los profesores de bachata. Perdone. Esto significa que no va a echar a nadie, ¿no? ¿Te has dado cuenta tú también?`,
-        translation: `...конкретизировать как можно скорее план депортации иммигрантов. Говорят, что слишком много иностранцев, и они ничего не вносят. Да, да. Пусть уезжают, пусть едут в свою страну. Договорились. Итак, план - выгнать их всех. Всех, всех. Всех. Ну подожди. А как быть с девушкой, которая ухаживает за моими родителями, колумбийкой, да? Что мне с ней делать.
-
-Вот это да. Это правда, у меня та же проблема с моими. То есть, иммигранты, которые ухаживают за стариками, пусть остаются. Эти пусть остаются, но все остальные - вон. А официанты - у меня есть ресторан, и если они уедут, я останусь без персонала. И те, кто работают в гостиничном бизнесе, пусть остаются, пусть остаются тоже, но все остальные - вон, вон, вон, вон. Я бы ещё оставил тех, кто работает в поле, да?
-
-Это само собой разумеется, работающие в поле пусть остаются и остаются. Да, пусть остаются. Работающие в поле, и пусть остаются, тем более рабочая сила такая нужная. Пусть остаются. Да, пусть остаются. Отлично. Согласен. Согласен. Но я бы ещё оставил тех, кто платит налоги, да? Да. А иначе, кто будет платить пенсии? Те, кто платят налоги, пусть остаются. Остаются. Но все остальные, все остальные - вон, вон. Вон.
-
-А адвокаты, врачи и учителя. Пусть остаются. Да, пусть остаются. Другие, те, у кого нет денег на покупку дома. Вон. А футболисты, эти пусть остаются, пусть остаются, но все остальные - вон. А арабские шейхи? Нет, нет. Это нехорошо. А что со строительством?
-
-И как я говорил, у нас уже готов наш план по иммиграции. Все вон, все, все, все, кроме тех, кто ухаживает за пожилыми, тех, кто платит налоги, тех, кто работает в гостиничном бизнесе, тех, кто в строительстве, футболистов, тех, кто работает в "чёрную", чтобы мы им платили меньше, тех, кто работает в поле, тех, кто открывает недорогие рестораны с очень вкусной едой, учителей бачаты. Простите. Это означает, что вы никого не выгоните, не так ли? Ты тоже это заметил?`,
-        audioUrl: null
       }
     ],
     exercises: [
       {
         tab: 'Profesiones y Nacionalidades',
         exerciseIds: ['ex-1-4-1', 'ex-1-4-2', 'ex-1-4-3', 'ex-1-4-5', 'ex-1-4-6', 'ex-1-4-7', 'ex-1-4-8', 'ex-1-4-9', 'ex-1-4-10', 'ex-1-4-test']
-      },
-      {
-        tab: 'Plan de expulsión de inmigrantes',
-        exerciseIds: ['ex-1-4-inm-1', 'ex-1-4-inm-2', 'ex-1-4-inm-3', 'ex-1-4-inm-4']
       }
     ]
   },
@@ -17231,6 +17185,10 @@ Vivir, contactar con la supraconciencia proporciona una felicidad, como les he d
         id: 'video-migrana',
         tab: 'Asi se trata la migrana',
         videoUrl: '/video/Asi se trata la migrana M17C10.mp4'
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        videoUrl: '/video/plan de expulsion de inmigrantes M1C4.mp4'
       }
     ],
     vocabulary: [
@@ -17292,15 +17250,41 @@ Perdón, caballero. Mi tripulación y yo llevamos dos meses de penosa travesía 
 ¡A la patera todo el mundo!
 
 Ya se le ve que es usted Colón, que se quiere colar, pero si no tienen papeles ni han pedido asilo político, son ustedes ilegales y se acabó. Ah.`
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        title: 'Plan de expulsión de inmigrantes',
+        content: `...concretar cuanto antes el plan de expulsión de los inmigrantes. Eso que hay demasiados extranjeros, hombre, y que no aportan nada. Sí, sí. Que se vayan, que se vayan a su país. De acuerdo. Entonces, el plan es echarlos a todos. A todos, a todos. A todos. Bueno, espérate. A la chica que cuida a mis padres, la colombiana, ¿no? Que a ver qué hago.
+
+Ahí va Osar. Es verdad, me pasa lo mismo con los míos. Es decir, los inmigrantes que cuidan de los ancianos que se queden. Esos que se queden, pero todos los demás fuera. Y los camareros es que tengo un restaurante y claro, si se van me quedo sin personal. Y los que trabajan en la hostelería que se queden, que se queden también, pero todos los demás fuera, fuera, fuera, fuera. Yo dejaría también a los que trabajan en el campo, ¿eh?
+
+Es que eso ni se menciona, trabajan en el campo que se queden y se queden. Eso que se queden. Trabajan en el campo y que se queden además la mano la que te lo va pidiendo. Que se queden. Eso que se queden. Perfecto. Di que sí. Di que sí. Pero yo dejaría los que cotizan, ¿no? Sí. Si no, ¿quién va a pagar las pensiones? Los que cotizan que se queden. Se queden. Pero todos los demás, todos los demás fuera fuera. Fuera.
+
+Y abogados médicos y maestros. Que se queden. Eso es que se queden los otros, los que no tienen para comprarse una casa. Fuera. Y los futbolistas esos que se queden, que se queden, pero todos los demás fuera. ¿Los jeques árabes? No, hombre, no. Eso no. Está feo. ¿Y lo de la construcción?
+
+Y tal y como les decía, tenemos preparado ya nuestro plan sobre inmigración. Todos fuera, todos, todos, todos, menos los que cuidan a los mayores, los que cotizan, los que trabajan en hostelería, los que están en la construcción, los futbolistas, los que trabajan en B y así les pagamos menos, los que trabajan en el campo, los que montan restaurantes baratos con comida que está muy rica, los profesores de bachata. Perdone. Esto significa que no va a echar a nadie, ¿no? ¿Te has dado cuenta tú también?`,
+        translation: `...конкретизировать как можно скорее план депортации иммигрантов. Говорят, что слишком много иностранцев, и они ничего не вносят. Да, да. Пусть уезжают, пусть едут в свою страну. Договорились. Итак, план - выгнать их всех. Всех, всех. Всех. Ну подожди. А как быть с девушкой, которая ухаживает за моими родителями, колумбийкой, да? Что мне с ней делать.
+
+Вот это да. Это правда, у меня та же проблема с моими. То есть, иммигранты, которые ухаживают за стариками, пусть остаются. Эти пусть остаются, но все остальные - вон. А официанты - у меня есть ресторан, и если они уедут, я останусь без персонала. И те, кто работают в гостиничном бизнесе, пусть остаются, пусть остаются тоже, но все остальные - вон, вон, вон, вон. Я бы ещё оставил тех, кто работает в поле, да?
+
+Это само собой разумеется, работающие в поле пусть остаются и остаются. Да, пусть остаются. Работающие в поле, и пусть остаются, тем более рабочая сила такая нужная. Пусть остаются. Да, пусть остаются. Отлично. Согласен. Согласен. Но я бы ещё оставил тех, кто платит налоги, да? Да. А иначе, кто будет платить пенсии? Те, кто платят налоги, пусть остаются. Остаются. Но все остальные, все остальные - вон, вон. Вон.
+
+А адвокаты, врачи и учителя. Пусть остаются. Да, пусть остаются. Другие, те, у кого нет денег на покупку дома. Вон. А футболисты, эти пусть остаются, пусть остаются, но все остальные - вон. А арабские шейхи? Нет, нет. Это нехорошо. А что со строительством?
+
+И как я говорил, у нас уже готов наш план по иммиграции. Все вон, все, все, все, кроме тех, кто ухаживает за пожилыми, тех, кто платит налоги, тех, кто работает в гостиничном бизнесе, тех, кто в строительстве, футболистов, тех, кто работает в "чёрную", чтобы мы им платили меньше, тех, кто работает в поле, тех, кто открывает недорогие рестораны с очень вкусной едой, учителей бачаты. Простите. Это означает, что вы никого не выгоните, не так ли? Ты тоже это заметил?`,
+        audioUrl: null
       }
     ],
-    exerciseTabs: [
+    exercises: [
       {
         tab: 'Colón llegó a colar',
-        exercises: ['ex-17-10-1', 'ex-17-10-2', 'ex-17-10-3', 'ex-17-10-4']
+        exerciseIds: ['ex-17-10-1', 'ex-17-10-2', 'ex-17-10-3', 'ex-17-10-4']
+      },
+      {
+        tab: 'Plan de expulsión de inmigrantes',
+        exerciseIds: ['ex-1-4-inm-1', 'ex-1-4-inm-2', 'ex-1-4-inm-3', 'ex-1-4-inm-4']
       }
-    ],
-    exercises: ['ex-17-10-1', 'ex-17-10-2', 'ex-17-10-3', 'ex-17-10-4']
+    ]
   },
   'lesson-17-11': {
     id: 'lesson-17-11',
@@ -24229,6 +24213,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
   // Упражнения для Урока 4-4: Причастие и Pretérito Perfecto Compuesto
   'ex-4-4-1': {
     id: 'ex-4-4-1',
+    displayNumber: '1а',
     type: 'writing',
     title: 'Упражнение 1a: Состояние (estar + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Puedes abrir la ventana? — Ya está abierta.',
@@ -24248,6 +24233,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-2': {
     id: 'ex-4-4-2',
+    displayNumber: '1б',
     type: 'writing',
     title: 'Упражнение 1b: Результат (tener + participio)',
     description: 'Ответьте на вопросы по образцу: ¿Vas a hacer los ejercicios? — Ya tengo hechos los ejercicios.',
@@ -24267,6 +24253,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-3': {
     id: 'ex-4-4-3',
+    displayNumber: '2',
     type: 'writing',
     title: 'Упражнение 2: Pretérito Perfecto Compuesto',
     description: 'Поставьте глаголы в Pretérito Perfecto Compuesto',
@@ -24286,6 +24273,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-4': {
     id: 'ex-4-4-4',
+    displayNumber: '3',
     type: 'writing',
     title: 'Упражнение 3: Перевод на испанский',
     description: 'Переведите предложения на испанский язык',
@@ -24305,6 +24293,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-5': {
     id: 'ex-4-4-5',
+    displayNumber: '4',
     type: 'grammar',
     title: 'Упражнение 4: Особые формы причастий',
     description: 'Выберите правильную форму причастия',
@@ -24329,6 +24318,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-6': {
     id: 'ex-4-4-6',
+    displayNumber: '5',
     type: 'writing',
     title: 'Упражнение 5: Pretérito Perfecto - Verbo estar',
     description: 'Поставьте глагол в Pretérito Perfecto Compuesto',
@@ -24353,6 +24343,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-7': {
     id: 'ex-4-4-7',
+    displayNumber: '6',
     type: 'writing',
     title: 'Упражнение 6: Pretérito Perfecto - Verbos reflexivos',
     description: 'Поставьте возвратный глагол в Pretérito Perfecto Compuesto',
@@ -24377,6 +24368,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-8': {
     id: 'ex-4-4-8',
+    displayNumber: '7',
     type: 'writing',
     title: 'Упражнение 7: Указатели времени',
     description: 'Дополните предложения подходящим указателем времени',
@@ -24401,6 +24393,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-9': {
     id: 'ex-4-4-9',
+    displayNumber: '8',
     type: 'grammar',
     title: 'Упражнение 8: Verbo tratar',
     description: 'Выберите правильное значение глагола tratar',
@@ -24425,6 +24418,7 @@ Carlos tiene un coche. El coche es verde y pequeño. También tiene una flor azu
 
   'ex-4-4-10': {
     id: 'ex-4-4-10',
+    displayNumber: '9',
     type: 'writing',
     title: 'Упражнение 9: Participios irregulares en contexto',
     description: 'Используйте правильную форму неправильного причастия',
