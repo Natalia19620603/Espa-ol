@@ -22023,7 +22023,179 @@ Las dos chicas salen. Armando trae la cerveza de Raúl y una bolsa verde.
         backgroundColor: '#FCE4EC'
       }
     ],
-    exercises: []
+    exercises: [
+      {
+        tab: '1. Barcelona. Lunes, 28 de julio',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-1-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-1-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-1-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-1-3'] }
+        ]
+      },
+      {
+        tab: '2. Barcelona. Jueves, 31 de julio',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-2-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-2-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-2-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-2-3'] }
+        ]
+      },
+      {
+        tab: '3. Barcelona. Jueves, 31 de julio. 14.15 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-3-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-3-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-3-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-3-3'] }
+        ]
+      },
+      {
+        tab: '4. Barcelona. Viernes, 1 de agosto. 12.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-4-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-4-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-4-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-4-3'] }
+        ]
+      },
+      {
+        tab: '5. Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-5-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-5-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-5-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-5-3'] }
+        ]
+      },
+      {
+        tab: '6. Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-6-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-6-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-6-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-6-3'] }
+        ]
+      },
+      {
+        tab: '7. Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-7-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-7-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-7-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-7-3'] }
+        ]
+      },
+      {
+        tab: '8. Empuriabrava. Viernes, 18.30 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-8-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-8-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-8-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-8-3'] }
+        ]
+      },
+      {
+        tab: '9. Empuriabrava. Restaurante El calamar. 18.30 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-9-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-9-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-9-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-9-3'] }
+        ]
+      },
+      {
+        tab: '10. Empuriabrava. Terraza de un bar. 19.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-10-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-10-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-10-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-10-3'] }
+        ]
+      },
+      {
+        tab: '11. Edificio The sun of the beach. 19.30 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-11-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-11-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-11-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-11-3'] }
+        ]
+      },
+      {
+        tab: '12. Apartamento 112. 20.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-12-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-12-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-12-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-12-3'] }
+        ]
+      },
+      {
+        tab: '13. Empuriabrava. 22.30 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-13-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-13-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-13-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-13-3'] }
+        ]
+      },
+      {
+        tab: '14. Apartamento 112. 03.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-14-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-14-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-14-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-14-3'] }
+        ]
+      },
+      {
+        tab: '15. Empuriabrava. 05.30 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-15-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-15-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-15-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-15-3'] }
+        ]
+      },
+      {
+        tab: '16. Apartamento 112. 06.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-16-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-16-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-16-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-16-3'] }
+        ]
+      },
+      {
+        tab: '17. Figueras, Museo Dalí. Lunes, 4 de agosto. 09.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-17-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-17-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-17-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-17-3'] }
+        ]
+      },
+      {
+        tab: '18. Barcelona. Lunes, 4 de agosto. 12.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-18-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-18-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-18-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-18-3'] }
+        ]
+      },
+      {
+        tab: '19. Barcelona, bar de Armando. Lunes, 4 de agosto. 16.00 h',
+        subtabs: [
+          { name: 'Словарь', exercises: ['ex-18-1-19-vocab'] },
+          { name: 'Понимание текста', exercises: ['ex-18-1-19-1'] },
+          { name: 'Грамматика', exercises: ['ex-18-1-19-2'] },
+          { name: 'Перевод', exercises: ['ex-18-1-19-3'] }
+        ]
+      }
+    ]
   }
 }
 
