@@ -55372,6 +55372,192 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Si yo no fuera tan vergonzoso, habría hablado en esa conferencia.']
       }
     ]
+  },
+
+  // ============================================================
+  // MÓDULO 18 — УРОК 1: Apartamento en la Costa Brava
+  // Глава 1: Barcelona. Lunes, 28 de julio. 16.00 h
+  // ============================================================
+
+  'ex-18-1-1-1': {
+    id: 'ex-18-1-1-1',
+    type: 'reading',
+    title: 'Понимание текста: Barcelona. Lunes, 28 de julio',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cuántos años tiene Raúl?',
+        options: ['Veintiocho', 'Treinta', 'Treinta y tres', 'Treinta y cinco'],
+        correct: 1,
+        explanation: 'Raúl tiene treinta años y trabaja de vigilante en un párking del barrio de Gracia.'
+      },
+      {
+        text: '¿En qué trabaja Loli?',
+        options: ['Es taxista', 'Es camarera en el bar de Armando', 'Es peluquera', 'Es vigilante de párking'],
+        correct: 2,
+        explanation: 'Loli tiene veintiocho años y trabaja como peluquera en el barrio de Gracia.'
+      },
+      {
+        text: '¿Por qué Pepa no quiere irse de vacaciones?',
+        options: [
+          'Porque no le gustan las playas',
+          'Porque tiene que cuidar a su familia',
+          'Porque no tiene dinero y debe pagar el crédito del taxi',
+          'Porque Loli no le cae bien'
+        ],
+        correct: 2,
+        explanation: 'Pepa dice que no tiene dinero y tiene que terminar de pagar el crédito del taxi. Además, en agosto hay mucho trabajo en Barcelona.'
+      },
+      {
+        text: '¿A quién pertenece el apartamento de Empuriabrava?',
+        options: [
+          'Al hermano de Raúl',
+          'A Armando, el dueño del bar',
+          'A Nacho, el hermano de una ex novia de Raúl',
+          'A Loli'
+        ],
+        correct: 2,
+        explanation: 'El apartamento es de Nacho, el hermano de la Yoli (una ex de Raúl). Nacho ahora vive en Londres y le ha dado las llaves a Raúl.'
+      },
+      {
+        text: '¿Dónde vive Nacho actualmente?',
+        options: ['En Madrid', 'En Figueras', 'En Empuriabrava', 'En Londres'],
+        correct: 3,
+        explanation: 'Nacho vive en Londres, y por eso le ha dicho a Raúl que puede usar el apartamento cuando quiera.'
+      },
+      {
+        text: '¿Por qué Loli quiere que Pepa vaya con ellos a la Costa Brava?',
+        options: [
+          'Para que le ayude a pagar el viaje',
+          'Porque no quiere estar a solas con Raúl',
+          'Porque Pepa tiene el coche más grande',
+          'Porque Raúl le ha pedido que la invite'
+        ],
+        correct: 1,
+        explanation: 'Loli quería ir a la playa pero no quería estar a solas con Raúl. Raúl es un buen tipo, pero no es su tipo.'
+      },
+      {
+        text: '¿Qué piensa Loli que le interesan a Raúl?',
+        options: [
+          'Las chicas y las fiestas',
+          'Los coches, las motos, los porros y las cervezas',
+          'El fútbol y los videojuegos',
+          'Viajar y conocer gente nueva'
+        ],
+        correct: 1,
+        explanation: 'Loli piensa que a Raúl solo le gustan los coches, las motos, los porros y las cervezas, y no sabe que a Raúl le gusta ella.'
+      }
+    ]
+  },
+
+  'ex-18-1-1-2': {
+    id: 'ex-18-1-1-2',
+    type: 'fillblank',
+    title: 'Грамматика: Barcelona. Lunes, 28 de julio',
+    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro)',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Nacho le _____ (dar) las llaves del apartamento a Raúl antes de irse a vivir a Londres.', correct: 'ha dado' },
+      { sentence: 'Raúl _____ (tener) muchas novias en su vida, aunque nunca recuerda sus nombres exactos.', correct: 'ha tenido' },
+      { sentence: 'Loli _____ (teñir) el pelo de rojo y trabaja como peluquera en el barrio de Gracia.', correct: 'ha teñido' },
+      { sentence: '«¡A la playa!» _____ (repetir) Loli con gran alegría cuando Raúl propuso el plan de vacaciones.', correct: 'repitió' },
+      { sentence: 'Armando _____ (meterse) en la conversación de sus clientes, como tenía costumbre de hacer.', correct: 'se metió' },
+      { sentence: 'Pepa _____ (contestar) que no tenía dinero y que debía trabajar en agosto para pagar el crédito del taxi.', correct: 'contestó' },
+      { sentence: 'Cuando los tres amigos estaban en el bar de Armando, _____ (hablar) sobre sus planes de verano.', correct: 'hablaban' },
+      { sentence: 'A Raúl le _____ (gustar) mucho Loli, pero ella pensaba que solo le gustaban las motos y las cervezas.', correct: 'gustaba' },
+      { sentence: 'Loli _____ (querer) ir a la playa, pero no se veía capaz de pagar un hotel sin ayuda.', correct: 'quería' },
+      { sentence: 'Loli le insiste a Pepa en que _____ (venir) con ellos a la Costa Brava este verano.', correct: 'venga' },
+      { sentence: 'Es una lástima que Pepa no _____ (poder) tomarse unos días de descanso con sus amigos.', correct: 'pueda' },
+      { sentence: 'Nacho le dice a Raúl que _____ (poder) usar el apartamento cuando quiera, porque él vive en Londres.', correct: 'pueda' },
+      { sentence: 'El próximo agosto, Raúl _____ (estar) de vacaciones todo el mes en la Costa Brava.', correct: 'estará' },
+      { sentence: 'Si Pepa termina de pagar el crédito del taxi, _____ (poder) permitirse unas vacaciones con sus amigos.', correct: 'podrá' },
+      { sentence: 'Raúl le _____ (pasar) el brazo por el hombro a Pepa al salir del bar de Armando para celebrar el plan.', correct: 'pasó' }
+    ]
+  },
+
+  'ex-18-1-1-3': {
+    id: 'ex-18-1-1-3',
+    type: 'translation',
+    title: 'Перевод: Barcelona. Lunes, 28 de julio',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Начо дал Раулю ключи от квартиры, потому что сам сейчас живёт в Лондоне.',
+        correct: 'Nacho le ha dado las llaves del apartamento a Raúl porque ahora vive en Londres.',
+        alternatives: ['Nacho le dio las llaves del piso a Raúl porque él vive en Londres.']
+      },
+      {
+        russian: 'Лоли с радостью повторила: «На пляж! Каникулы!»',
+        correct: 'Loli repitió con alegría: «¡A la playa! ¡Vacaciones!»',
+        alternatives: ['Loli dijo feliz: «¡A la playa! ¡Vacaciones!»']
+      },
+      {
+        russian: 'Раулю очень нравилась Лоли, но она этого не знала.',
+        correct: 'A Raúl le gustaba mucho Loli, pero ella no lo sabía.',
+        alternatives: ['A Raúl le gustaba Loli, pero ella no era consciente de ello.']
+      },
+      {
+        russian: 'Лоли настаивает на том, чтобы Пепа поехала с ними на Коста Браву.',
+        correct: 'Loli insiste en que Pepa venga con ellos a la Costa Brava.',
+        alternatives: ['Loli quiere que Pepa los acompañe a la Costa Brava.']
+      },
+      {
+        russian: 'Если Пепа заработает достаточно денег, она сможет поехать в отпуск.',
+        correct: 'Si Pepa gana suficiente dinero, podrá irse de vacaciones.',
+        alternatives: ['Si Pepa tiene suficiente dinero, podrá tomarse unas vacaciones.']
+      },
+      {
+        russian: 'Лоли покрасила волосы в красный цвет и работает парикмахером в квартале Грасия.',
+        correct: 'Loli ha teñido el pelo de rojo y trabaja de peluquera en el barrio de Gracia.',
+        alternatives: ['Loli tiene el pelo teñido de rojo y es peluquera en Gracia.']
+      },
+      {
+        russian: 'Армандо вмешался в разговор своих клиентов, как он всегда делает.',
+        correct: 'Armando se metió en la conversación de sus clientes, como siempre hace.',
+        alternatives: ['Armando interrumpió la conversación de sus clientes, como de costumbre.']
+      },
+      {
+        russian: 'Трое друзей пили кофе в баре Армандо и говорили об отпуске.',
+        correct: 'Los tres amigos tomaban café en el bar de Armando y hablaban de las vacaciones.',
+        alternatives: ['Los tres amigos estaban tomando café en el bar de Armando y charlaban sobre las vacaciones.']
+      },
+      {
+        russian: 'Армандо всегда вмешивается в разговоры своих клиентов.',
+        correct: 'Armando siempre se mete en las conversaciones de sus clientes.',
+        alternatives: ['Armando tiene la costumbre de meterse en las conversaciones de sus clientes.']
+      },
+      {
+        russian: 'Важно, чтобы Пепа закончила выплачивать кредит до того, как уйдёт в отпуск.',
+        correct: 'Es importante que Pepa termine de pagar el crédito antes de irse de vacaciones.',
+        alternatives: ['Es necesario que Pepa acabe de pagar el crédito del taxi antes de tomarse un descanso.']
+      },
+      {
+        russian: 'Пепа ответила, что в августе очень много работы и у неё нет денег на отдых.',
+        correct: 'Pepa contestó que en agosto había mucho trabajo y que no tenía dinero para las vacaciones.',
+        alternatives: ['Pepa respondió que en agosto hay mucho trabajo y que no puede permitirse unas vacaciones.']
+      },
+      {
+        russian: 'Следующим летом все трое поедут отдыхать на Коста Браву.',
+        correct: 'El próximo verano, los tres irán de vacaciones a la Costa Brava.',
+        alternatives: ['El verano que viene los tres amigos se irán juntos a la Costa Brava.']
+      },
+      {
+        russian: 'Начо сказал Раулю, что тот может приезжать в квартиру когда захочет.',
+        correct: 'Nacho le ha dicho a Raúl que puede ir al apartamento cuando quiera.',
+        alternatives: ['Nacho le dijo a Raúl que podía usar el piso cuando quisiera.']
+      },
+      {
+        russian: 'Лоли хочет поехать на пляж, но не хочет быть наедине с Раулем, поэтому просит Пепу присоединиться.',
+        correct: 'Loli quiere ir a la playa pero no quiere estar a solas con Raúl, así que le pide a Pepa que venga con ellos.',
+        alternatives: ['Loli quiere ir a la playa, pero como no quiere estar sola con Raúl, insiste en que Pepa los acompañe.']
+      },
+      {
+        russian: 'Рауль обнял Пепу за плечи и они вместе вышли на улицу отмечать начало каникул.',
+        correct: 'Raúl le pasó el brazo por el hombro a Pepa y los dos salieron a la calle a celebrarlo.',
+        alternatives: ['Raúl rodeó a Pepa con el brazo y salieron juntos a la calle para celebrar el plan.']
+      }
+    ]
   }
 
 }
