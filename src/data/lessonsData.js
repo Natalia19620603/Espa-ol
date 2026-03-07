@@ -57187,6 +57187,290 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['«¿Puedes ver una torre alta? Dirígete hacia ella. Estamos en el bar que hay al lado».']
       }
     ]
+  },
+
+  'ex-18-1-8-1': {
+    id: 'ex-18-1-8-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Viernes, 18.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace Pepa en cuanto se reúne con sus amigos?',
+        options: [
+          'Les presenta a Álvaro y explica a Raúl lo que ha pasado con las bolsas',
+          'Les dice que tiene que volver a Barcelona inmediatamente',
+          'Presenta a Álvaro y le pide a Raúl que le devuelva la bolsa a Álvaro',
+          'Les explica dónde está el apartamento de Nacho'
+        ],
+        correct: 0,
+        explanation: 'Pepa se encuentra con sus amigos, les presenta a Álvaro y le explica a Raúl lo que ha pasado con las bolsas.'
+      },
+      {
+        text: '¿Qué hace Álvaro al reunirse con Raúl?',
+        options: [
+          'Le pide a Raúl que le devuelva sus documentos inmediatamente',
+          'Le da a Raúl su bolsa (la de Raúl)',
+          'Le pregunta a Raúl si sabe dónde está la bolsa',
+          'Se niega a hablar con Raúl porque está muy enfadado'
+        ],
+        correct: 1,
+        explanation: 'Álvaro le da la bolsa a Raúl — la bolsa verde de tela que era de Raúl.'
+      },
+      {
+        text: '¿Cómo reacciona Raúl al recibir la bolsa de Álvaro?',
+        options: [
+          'La mira con desconfianza porque no es la suya',
+          'La coge sin mirar qué hay dentro y dice «¡Hombre, qué bien! Mi bolsa»',
+          'La rechaza porque quiere primero saber qué pasó',
+          'La abre inmediatamente para buscar sus documentos'
+        ],
+        correct: 1,
+        explanation: 'Raúl coge la bolsa sin mirar lo que hay dentro y exclama: «¡Hombre, qué bien! Mi bolsa».'
+      },
+      {
+        text: '¿Por qué no sabe Raúl dónde está la bolsa de Álvaro?',
+        options: [
+          'Porque la dejó en el apartamento de Nacho al llegar',
+          'Porque ayer estuvo de marcha y no recuerda qué pasó',
+          'Porque Loli la perdió cuando buscaban el apartamento',
+          'Porque la dejó en el coche tuneado durante el viaje'
+        ],
+        correct: 1,
+        explanation: 'Raúl explica: «Ayer estuve por ahí de marcha y… No sé. No recuerdo qué pasó».'
+      },
+      {
+        text: '¿Dónde cree Raúl que puede estar la bolsa de Álvaro?',
+        options: [
+          'En el maletero de su coche tuneado',
+          'En el taxi de Pepa, donde la dejó antes',
+          'En casa de algún amigo o en algún bar',
+          'En el apartamento 112 del edificio The sun of the beach'
+        ],
+        correct: 2,
+        explanation: 'Raúl dice: «Quizás está en casa de algún colega o en algún bar».'
+      },
+      {
+        text: '¿Qué ofrece Raúl a Álvaro como compensación por haber perdido su bolsa?',
+        options: [
+          'Pagarle el valor de los documentos perdidos',
+          'Buscar personalmente la bolsa por todos los bares',
+          'Darle dinero en efectivo del bolsillo',
+          'Darle su propia bolsa verde'
+        ],
+        correct: 3,
+        explanation: 'Raúl le dice a Álvaro: «¡Toma! Te doy la mía», devolviéndole la bolsa que Álvaro le había dado.'
+      },
+      {
+        text: '¿Acepta Álvaro la oferta de Raúl?',
+        options: [
+          'Sí, la acepta porque necesita una bolsa',
+          'Sí, pero solo como compensación temporal',
+          'No, no quiere la bolsa de Raúl',
+          'No lo decide en este capítulo'
+        ],
+        correct: 2,
+        explanation: 'Álvaro le dice que no cuando Raúl insiste en darle su bolsa: «¿Para qué quiero yo tu bolsa?»'
+      },
+      {
+        text: '¿Cuál es la «lógica» de Raúl sobre el intercambio de bolsas?',
+        options: [
+          'Si te roban algo, tienes derecho a robar algo equivalente',
+          'Si yo pierdo la tuya, tú te quedas con la mía',
+          'Si perdiste algo mío, tienes que comprármelo nuevo',
+          'Las bolsas no tienen valor, lo importante es el contenido'
+        ],
+        correct: 1,
+        explanation: 'El narrador lo resume: «Yo he perdido la tuya, tú te quedas con la mía. Es la lógica de Raúl».'
+      },
+      {
+        text: '¿Qué saca Raúl de su bolsa al abrirla?',
+        options: [
+          'Un monedero y las llaves del coche',
+          'Una revista de motos y unas llaves',
+          'Su bañador',
+          'El papel con la dirección del apartamento de Nacho'
+        ],
+        correct: 2,
+        explanation: 'Raúl abre su bolsa y saca un bañador: «¡Mira, mi bañador! ¿Os gusta?»'
+      },
+      {
+        text: '¿Qué dice Álvaro que había en su bolsa?',
+        options: [
+          'Mucho dinero en efectivo y tarjetas de crédito',
+          'Solo papeles y documentos, no dinero',
+          'Objetos de gran valor económico',
+          'Fotos y recuerdos personales'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dice: «No. No llevaba dinero. Solo papeles, documentos…»'
+      },
+      {
+        text: '¿Qué señala Pepa que es lo verdaderamente importante?',
+        options: [
+          'Que Raúl encuentre la bolsa antes de que Álvaro llame a la policía',
+          'Que Álvaro se quede con la bolsa de Raúl como compensación',
+          'No la bolsa en sí, sino lo que hay dentro de ella',
+          'Que Raúl le pida disculpas formalmente a Álvaro'
+        ],
+        correct: 2,
+        explanation: 'Pepa explica: «La bolsa no importa. Lo que importa es lo que hay dentro».'
+      },
+      {
+        text: '¿Cómo describe Raúl su relación habitual con sus pertenencias?',
+        options: [
+          'Dice que siempre guarda sus cosas con mucho cuidado',
+          'Dice que siempre pierde las cosas',
+          'Dice que nunca ha perdido nada importante antes',
+          'Dice que fue un accidente único que no volverá a pasar'
+        ],
+        correct: 1,
+        explanation: 'Raúl reconoce su tendencia: «Siempre pierdo las cosas».'
+      },
+      {
+        text: '¿Qué contraste señala Pepa sobre la actitud de Álvaro?',
+        options: [
+          'Que antes quería ir a la policía y ahora no quiere',
+          'Que antes estaba muy preocupado por la bolsa y ahora dice que no importa',
+          'Que antes era muy amable y ahora está de mal humor',
+          'Que antes sabía exactamente qué había en la bolsa y ahora no recuerda'
+        ],
+        correct: 1,
+        explanation: 'Pepa le señala a Álvaro: «Pues antes estabas muy preocupado por tu bolsa…», y Álvaro responde: «Sí, pero… ¡Qué le vamos a hacer!»'
+      },
+      {
+        text: '¿Qué contraste hay entre lo que Álvaro dijo antes sobre el contenido de la bolsa y lo que dice ahora?',
+        options: [
+          'Antes dijo que era dinero; ahora dice que son papeles',
+          'Antes dijo que tenía «valor sentimental» y era «muy importante»; ahora dice «no importa»',
+          'Antes dijo que eran documentos; ahora no recuerda qué había',
+          'No hay contraste: siempre dijo que no era importante'
+        ],
+        correct: 1,
+        explanation: 'En el capítulo anterior Álvaro dijo que solo tenía «valor sentimental» y era importante solo para él; ahora ante Raúl dice «¡Bah! Nada importante» — una contradicción que aumenta la sospecha.'
+      },
+      {
+        text: '¿Qué rasgo de carácter de Raúl queda demostrado en este capítulo?',
+        options: [
+          'Que es una persona muy responsable y organizada',
+          'Que es tacaño y no quiere ayudar a Álvaro',
+          'Que es despistado, irresponsable con sus cosas pero de buen corazón',
+          'Que miente para no devolver la bolsa de Álvaro'
+        ],
+        correct: 2,
+        explanation: 'Raúl pierde la bolsa de Álvaro «de marcha», no recuerda nada, pero intenta compensar ofreciendo la suya. Es despistado e irresponsable pero no malintencionado.'
+      }
+    ]
+  },
+
+  'ex-18-1-8-2': {
+    id: 'ex-18-1-8-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Viernes, 18.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → ya/todavía/nunca — результат важен сейчас. INDEFINIDO (hizo) → ayer/anoche/entonces/cuando + событие — конкретный завершённый момент. КЛЮЧЕВОЕ: «ayer» и «anoche» → ВСЕГДА INDEFINIDO! PLUSCUAMPERFECTO (había hecho) → действие произошло ДО другого прошлого момента. IMPERFECTO → фон/состояние/описание. SUBJUNTIVO → es una lástima que/es importante que. FUTURO → cuando + subjuntivo...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Pepa ya les _____ (presentar) a Álvaro a sus amigos Raúl y Loli en cuanto llegó al lugar de encuentro.', correct: 'ha presentado' },
+      { sentence: 'Raúl reconoce abiertamente que _____ (perder, él) la bolsa de Álvaro: el resultado es que ahora no sabe dónde está.', correct: 'ha perdido' },
+      { sentence: 'Álvaro todavía no _____ (recuperar) su bolsa con los documentos importantes que llevaba dentro.', correct: 'ha recuperado' },
+      { sentence: 'Raúl nunca _____ (ser) una persona ordenada con sus cosas: siempre las pierde.', correct: 'ha sido' },
+      { sentence: 'Ayer por la noche, Raúl _____ (estar) de marcha con sus amigos y perdió la bolsa de Álvaro.', correct: 'estuvo' },
+      { sentence: 'Raúl no recuerda qué _____ (pasar) exactamente ayer por la noche con la bolsa de Álvaro.', correct: 'pasó' },
+      { sentence: 'Raúl _____ (abrir) su bolsa delante de todos y sacó el bañador con una gran sonrisa.', correct: 'abrió' },
+      { sentence: 'Raúl le _____ (devolver) a Álvaro la bolsa que este le había dado, pero Álvaro no quiso aceptarla.', correct: 'devolvió' },
+      { sentence: 'Álvaro _____ (decir) que no cuando Raúl le insistió por segunda vez en darle su propia bolsa.', correct: 'dijo' },
+      { sentence: 'Raúl le devolvió a Álvaro la bolsa que este le _____ (dar) momentos antes al reunirse todos.', correct: 'había dado' },
+      { sentence: 'Antes de reunirse con Raúl, Álvaro _____ (estar) muy preocupado por su bolsa durante todo el trayecto.', correct: 'estaba' },
+      { sentence: 'Raúl no _____ (querer) ser maleducado con Álvaro, por eso insistió en darle su propia bolsa como compensación.', correct: 'quería' },
+      { sentence: 'Es una lástima que Raúl no _____ (recordar) dónde dejó la bolsa de Álvaro después de salir de marcha.', correct: 'recuerde' },
+      { sentence: 'Es importante que alguien _____ (encontrar) la bolsa de Álvaro porque los documentos son imprescindibles.', correct: 'encuentre' },
+      { sentence: 'Cuando aparezca la bolsa de Álvaro, todo el mundo _____ (saber) por fin qué había realmente dentro.', correct: 'sabrá' }
+    ]
+  },
+
+  'ex-18-1-8-3': {
+    id: 'ex-18-1-8-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Viernes, 18.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Пепа встречается со своими друзьями, представляет им Альваро и объясняет Раулю, что случилось с сумками.',
+        correct: 'Pepa se encuentra con sus amigos, les presenta a Álvaro y le explica a Raúl lo que ha pasado con las bolsas.',
+        alternatives: ['Pepa llega donde están sus amigos, les presenta a Álvaro y cuenta lo de las bolsas.']
+      },
+      {
+        russian: 'Альваро отдаёт Раулю его сумку. «Отлично! Это моя сумка!»',
+        correct: 'Álvaro le da la bolsa a Raúl. «¡Hombre, qué bien! ¡Mi bolsa!»',
+        alternatives: ['Álvaro entrega la bolsa a Raúl. «¡Qué bien! ¡Es mi bolsa!»']
+      },
+      {
+        russian: '«А моя?» — спрашивает Альваро. «Без понятия, приятель. Вчера я гулял по барам и... не знаю».',
+        correct: '«¿Y la mía?» —pregunta Álvaro. «Ni puta idea, tío. Ayer estuve por ahí de marcha y... No sé».',
+        alternatives: ['«¿Y la mía?» —dice Álvaro. «No tengo ni idea, colega. Ayer salí de marcha y no recuerdo nada».']
+      },
+      {
+        russian: '«Я всегда теряю вещи. Может, сумка у кого-то из друзей или в каком-то баре».',
+        correct: '«Siempre pierdo las cosas. Quizás está en casa de algún colega o en algún bar».',
+        alternatives: ['«Es que siempre pierdo todo. Puede que esté en casa de algún amigo o en algún bar».']
+      },
+      {
+        russian: 'Рауль возвращает Альваро сумку, которую тот ему дал, и говорит: «На, возьми мою».',
+        correct: 'Raúl le devuelve a Álvaro la bolsa que este le había dado y dice: «¡Toma! Te doy la mía».',
+        alternatives: ['Raúl le da de vuelta la bolsa que Álvaro le había entregado y le ofrece la suya propia.']
+      },
+      {
+        russian: '«Зачем мне твоя сумка?» — спрашивает Альваро.',
+        correct: '«¿Para qué quiero yo tu bolsa?» —pregunta Álvaro.',
+        alternatives: ['«¿Y qué hago yo con tu bolsa?» —dice Álvaro sin entender la lógica de Raúl.']
+      },
+      {
+        russian: '«Я потерял твою — ты забираешь мою». Это логика Рауля.',
+        correct: '«Yo he perdido la tuya, tú te quedas con la mía». Es la lógica de Raúl.',
+        alternatives: ['«He perdido la tuya, así que te quedas con la mía». Esa es la lógica de Raúl.']
+      },
+      {
+        russian: 'Рауль открывает свою сумку и достаёт купальник: «Смотри, мой купальник! Нравится?»',
+        correct: 'Raúl abre su bolsa y saca un bañador: «¡Mira, mi bañador! ¿Os gusta?»',
+        alternatives: ['Raúl abre la bolsa, saca el bañador y pregunta: «¿Veis? ¡Mi bañador! ¿Qué os parece?»']
+      },
+      {
+        russian: '«В сумке не было денег. Только бумаги, документы...» — говорит Альваро.',
+        correct: '«No. No llevaba dinero. Solo papeles, documentos...» —dice Álvaro.',
+        alternatives: ['«No llevaba dinero —explica Álvaro—. Solo documentos y papeles importantes».']
+      },
+      {
+        russian: '«Не важна сумка, — объясняет Пепа, — важно то, что внутри».',
+        correct: '«La bolsa no importa —explica Pepa—. Lo que importa es lo que hay dentro».',
+        alternatives: ['Pepa aclara: «Lo importante no es la bolsa sino su contenido».']
+      },
+      {
+        russian: '«Ничего важного, правда?» — «Ну, раньше ты очень переживал из-за своей сумки...»',
+        correct: '«¡Bah! Nada importante, ¿no?» —«Pues antes estabas muy preocupado por tu bolsa…»',
+        alternatives: ['«Nada importante, ¿verdad?» —«Sin embargo, antes te preocupabas mucho por esa bolsa…»']
+      },
+      {
+        russian: 'Альваро отказывается когда Рауль снова предлагает ему взять свою сумку.',
+        correct: 'Álvaro le dice que no cuando Raúl insiste en darle su bolsa.',
+        alternatives: ['Álvaro vuelve a rechazar la bolsa de Raúl cuando este insiste por segunda vez.']
+      },
+      {
+        russian: 'Жаль, что Рауль не помнит, где оставил сумку Альваро после ночных гуляний.',
+        correct: 'Es una lástima que Raúl no recuerde dónde dejó la bolsa de Álvaro después de salir de marcha.',
+        alternatives: ['Es una pena que Raúl no pueda recordar qué pasó con la bolsa de Álvaro aquella noche.']
+      },
+      {
+        russian: 'Важно, чтобы кто-нибудь нашёл сумку Альваро, потому что документы очень нужны.',
+        correct: 'Es importante que alguien encuentre la bolsa de Álvaro porque los documentos son imprescindibles.',
+        alternatives: ['Es necesario que aparezca la bolsa de Álvaro, ya que los documentos son fundamentales.']
+      },
+      {
+        russian: 'Когда найдётся сумка Альваро, все наконец узнают, что на самом деле было внутри.',
+        correct: 'Cuando aparezca la bolsa de Álvaro, todos sabrán por fin qué había realmente dentro.',
+        alternatives: ['Cuando la bolsa aparezca, se descubrirá qué contenía exactamente.']
+      }
+    ]
   }
 
 }
