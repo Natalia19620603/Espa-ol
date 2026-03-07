@@ -56355,6 +56355,280 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Si Pepa no localiza la bolsa del hombre, se va a meter en un buen lío.']
       }
     ]
+  },
+
+  'ex-18-1-5-1': {
+    id: 'ex-18-1-5-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿En qué edificio y en qué apartamento se instalan los abuelos de Nacho?',
+        options: [
+          'En el apartamento 211 del edificio "Beach and sun"',
+          'En el apartamento 112 del edificio "The sun of the beach"',
+          'En el apartamento 320 del edificio "Sol y Mar"',
+          'En el apartamento 112 del edificio "Sea and sun"'
+        ],
+        correct: 1,
+        explanation: 'Los abuelos entran en el apartamento 112 del edificio The sun of the beach, frente al mar de Empuriabrava.'
+      },
+      {
+        text: '¿Qué le dio Nacho a sus abuelos?',
+        options: [
+          'Dinero en efectivo y el número de teléfono del vecino',
+          'Unas llaves junto con la dirección del apartamento escrita en un papelito',
+          'Las llaves y un mapa detallado de Empuriabrava',
+          'Solo la dirección, sin llaves'
+        ],
+        correct: 1,
+        explanation: 'Su nieto les ha dado unas llaves junto con la dirección del apartamento escrita en un papelito.'
+      },
+      {
+        text: '¿Dónde está Nacho y qué está haciendo?',
+        options: [
+          'En Madrid, buscando trabajo',
+          'En Barcelona, trabajando en una empresa',
+          'En Londres, trabajando y aprendiendo inglés',
+          'En Figueras, visitando el Museo Dalí'
+        ],
+        correct: 2,
+        explanation: 'Nacho está en Londres trabajando y aprendiendo inglés.'
+      },
+      {
+        text: '¿Qué problema de memoria tiene Nacho?',
+        options: [
+          'No recuerda el número del apartamento',
+          'Ha olvidado que también le dio las llaves del mismo apartamento a Raúl',
+          'Ha olvidado la dirección del edificio y no se la dio a nadie',
+          'No recuerda que sus abuelos querían ir al apartamento'
+        ],
+        correct: 1,
+        explanation: 'Nacho tiene mala memoria y no recuerda que su amigo Raúl tiene también unas llaves del mismo apartamento.'
+      },
+      {
+        text: '¿De dónde son los abuelos de Nacho?',
+        options: [
+          'De Barcelona ciudad',
+          'De Figueras',
+          'De una comarca del interior de Girona',
+          'De Empuriabrava'
+        ],
+        correct: 2,
+        explanation: 'Los abuelos de Nacho viven en una comarca del interior de Girona.'
+      },
+      {
+        text: '¿Qué enfermedad tiene Mercè, la abuela?',
+        options: [
+          'Es sorda como una tapia',
+          'Tiene problemas de corazón',
+          'Es diabética y tiene muy mal la vista',
+          'Tiene artritis y camina con bastón'
+        ],
+        correct: 2,
+        explanation: 'Mercè es diabética y tiene muy mal la vista. Necesita inyectarse insulina dos veces al día.'
+      },
+      {
+        text: '¿Con qué frecuencia necesita Mercè inyectarse insulina?',
+        options: ['Una vez al día', 'Dos veces al día', 'Tres veces al día', 'Solo cuando le duele algo'],
+        correct: 1,
+        explanation: 'Mercè necesita inyectarse insulina dos veces al día.'
+      },
+      {
+        text: '¿Por qué Mercè habla a gritos?',
+        options: [
+          'Porque está muy contenta de estar de vacaciones',
+          'Porque tiene muy mal carácter y es así siempre',
+          'Porque Pepe, su marido, está sordo como una tapia',
+          'Porque el apartamento tiene el techo muy alto'
+        ],
+        correct: 2,
+        explanation: 'Mercè habla a gritos porque Pepe, su marido, está sordo como una tapia.'
+      },
+      {
+        text: '¿Dónde mete Mercè la insulina por equivocación?',
+        options: ['En el armario del dormitorio', 'En el bolso de Pepe', 'En el horno de la cocina', 'Debajo del lavabo'],
+        correct: 2,
+        explanation: 'Mercè abre la puerta del horno creyendo que es la nevera y mete la insulina allí por equivocación.'
+      },
+      {
+        text: '¿Qué pregunta Pepe cuando abre la nevera?',
+        options: [
+          '¿Dónde está la insulina de Mercè?',
+          '¿Dónde está el bogavante?',
+          '¿Por qué no hay leche en la nevera?',
+          '¿Quién ha comido toda la comida?'
+        ],
+        correct: 1,
+        explanation: 'Pepe abre la nevera y pregunta: «¿Dónde está el bogavante?»'
+      },
+      {
+        text: '¿Qué encuentra realmente Pepe en la nevera?',
+        options: [
+          'La nevera está completamente vacía',
+          'Solo agua y medicamentos',
+          'La nevera está llena de comida',
+          'Un bogavante y varias latas de cerveza'
+        ],
+        correct: 2,
+        explanation: 'Pepe saca la insulina del horno y la guarda en la nevera, que está llena de comida.'
+      },
+      {
+        text: '¿Qué le reprocha Mercè a Pepe?',
+        options: [
+          'Que siempre se pierde y no sabe orientarse',
+          'Que come demasiado y que está cada día más gordo',
+          'Que no quiere ir nunca al médico',
+          'Que gasta demasiado dinero en el restaurante'
+        ],
+        correct: 1,
+        explanation: 'Mercè le dice a Pepe: «Comes demasiado. Ayer compramos mucha comida y hoy no hay nada en la nevera. Estás cada día más gordo».'
+      },
+      {
+        text: '¿Cómo describe Pepe su propio estado físico?',
+        options: [
+          'Dice que está perfectamente bien de salud',
+          'Admite que está gordo pero que no está sordo',
+          'Dice que solo está un poco sordo',
+          'Admite que está gordo y sordo al mismo tiempo'
+        ],
+        correct: 2,
+        explanation: 'Pepe dice: «Yo solo estoy un poco sordo».'
+      },
+      {
+        text: '¿Quién ve a Mercè gritando «¡Gordo!» al salir del ascensor?',
+        options: [
+          'El portero del edificio',
+          'Un turista extranjero que pasaba por allí',
+          'El vecino del apartamento 320, que pesa ciento veinte kilos',
+          'Una pareja de jóvenes que esperaba el ascensor'
+        ],
+        correct: 2,
+        explanation: 'El vecino del apartamento 320, que pesa ciento veinte kilos y está esperando para subir a su piso, la mira sorprendido.'
+      },
+      {
+        text: '¿Por qué la situación de Nacho va a crear un problema?',
+        options: [
+          'Porque olvidó pagar el alquiler del apartamento este mes',
+          'Porque el apartamento no tiene vistas al mar y sus abuelos se enfadarán',
+          'Porque le ha dado las llaves del mismo apartamento tanto a sus abuelos como a Raúl',
+          'Porque el edificio está muy lejos de la playa y sus abuelos no pueden caminar mucho'
+        ],
+        correct: 2,
+        explanation: 'Nacho tiene mala memoria: le ha dicho a sus abuelos que pueden ir al apartamento y también le ha dicho a Raúl «Puedes ir cuando quieras». Ambos tienen llaves del mismo apartamento.'
+      }
+    ]
+  },
+
+  'ex-18-1-5-2': {
+    id: 'ex-18-1-5-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Nacho les _____ (dar) a sus abuelos unas llaves junto con la dirección escrita en un papelito.', correct: 'ha dado' },
+      { sentence: 'Nacho les _____ (decir) a sus abuelos que pueden pasar el verano en la playa de Empuriabrava.', correct: 'ha dicho' },
+      { sentence: 'Nacho _____ (olvidar) que también le dio las llaves del mismo apartamento a su amigo Raúl.', correct: 'ha olvidado' },
+      { sentence: 'Mercè _____ (ser) diabética y necesita inyectarse insulina dos veces al día sin excepción.', correct: 'es' },
+      { sentence: 'Mercè _____ (hablar) a gritos porque su marido Pepe está sordo como una tapia.', correct: 'habla' },
+      { sentence: 'Mercè _____ (abrir) la puerta del horno creyendo que era la nevera y metió la insulina dentro.', correct: 'abrió' },
+      { sentence: 'Pepe _____ (abrir) la nevera y preguntó dónde estaba el bogavante.', correct: 'abrió' },
+      { sentence: 'La nevera _____ (estar) llena de comida cuando Pepe la abrió para buscar el bogavante.', correct: 'estaba' },
+      { sentence: 'Pepe _____ (sacar) la insulina del horno y la guardó en la nevera donde debía estar.', correct: 'sacó' },
+      { sentence: 'Pepe _____ (coger) a su mujer del brazo para salir a comer al restaurante.', correct: 'cogió' },
+      { sentence: 'Mercè le _____ (decir) a Pepe que come demasiado y que está cada día más gordo.', correct: 'dijo' },
+      { sentence: '«¡Coño, Mercè! Tú no me _____ (ver) nunca» —dice Pepe de vez en cuando.', correct: 'ves' },
+      { sentence: 'Es importante que Mercè _____ (guardar) la insulina en la nevera y no en el horno.', correct: 'guarde' },
+      { sentence: 'Espero que los abuelos _____ (disfrutar) de sus vacaciones en Empuriabrava sin problemas.', correct: 'disfruten' },
+      { sentence: 'Cuando Raúl llegue al apartamento, _____ (haber) una gran sorpresa esperándole.', correct: 'habrá' }
+    ]
+  },
+
+  'ex-18-1-5-3': {
+    id: 'ex-18-1-5-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Viernes, 1 de agosto. 12.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Дедушка и бабушка Начо входят в квартиру 112 здания «The sun of the beach» напротив моря.',
+        correct: 'Los abuelos de Nacho entran en el apartamento 112 del edificio The sun of the beach, frente al mar.',
+        alternatives: ['Los abuelos de Nacho llegan al apartamento 112 del edificio The sun of the beach en Empuriabrava.']
+      },
+      {
+        russian: 'Начо дал им ключи и адрес квартиры, написанный на бумажке.',
+        correct: 'Nacho les ha dado unas llaves junto con la dirección del apartamento escrita en un papelito.',
+        alternatives: ['Su nieto les ha dado las llaves y la dirección escrita en un papel.']
+      },
+      {
+        russian: 'Начо — в Лондоне, работает и учит английский.',
+        correct: 'Nacho está en Londres, trabajando y aprendiendo inglés.',
+        alternatives: ['Nacho está en Londres: trabaja y aprende inglés.']
+      },
+      {
+        russian: 'У Начо плохая память: он не помнит, что тоже дал ключи от той же квартиры Раулю.',
+        correct: 'Nacho tiene mala memoria y no recuerda que su amigo Raúl tiene también unas llaves del mismo apartamento.',
+        alternatives: ['Nacho tiene mala memoria y ha olvidado que Raúl también tiene las llaves del mismo piso.']
+      },
+      {
+        russian: 'Мерсе — диабетик и должна колоть инсулин дважды в день.',
+        correct: 'Mercè es diabética y necesita inyectarse insulina dos veces al día.',
+        alternatives: ['Mercè tiene diabetes y se inyecta insulina dos veces al día.']
+      },
+      {
+        russian: 'Мерсе говорит громко, потому что Пепе глухой как пробка.',
+        correct: 'Mercè habla a gritos porque Pepe está sordo como una tapia.',
+        alternatives: ['Mercè tiene que gritar porque su marido Pepe está completamente sordo.']
+      },
+      {
+        russian: 'Мерсе открывает дверь духовки вместо холодильника и кладёт туда инсулин.',
+        correct: 'Mercè abre la puerta del horno creyendo que es la nevera y mete la insulina dentro.',
+        alternatives: ['Mercè confunde el horno con la nevera y guarda la insulina en el horno.']
+      },
+      {
+        russian: 'Пепе открывает холодильник и спрашивает, где омар.',
+        correct: 'Pepe abre la nevera y pregunta dónde está el bogavante.',
+        alternatives: ['Pepe abre la nevera y dice: «¿Dónde está el bogavante?»']
+      },
+      {
+        russian: 'Мерсе говорит, что еды нет и им нужно идти в ресторан.',
+        correct: 'Mercè dice que no hay comida y que tienen que ir a un restaurante.',
+        alternatives: ['Mercè le dice que no hay nada de comer y propone ir a un restaurante.']
+      },
+      {
+        russian: 'Пепе достаёт инсулин из духовки и кладёт его в холодильник, который полон еды.',
+        correct: 'Pepe saca la insulina del horno y la guarda en la nevera, que está llena de comida.',
+        alternatives: ['Pepe coge la insulina del horno y la mete en la nevera, que está llena.']
+      },
+      {
+        russian: 'Пепе берёт жену за руку: «Если хочешь поесть омара, идём в ресторан».',
+        correct: 'Pepe coge a su mujer del brazo: «Si quieres comer bogavante, vamos al restaurante».',
+        alternatives: ['Pepe la coge del brazo y dice: «Vamos al restaurante si quieres comer bogavante».']
+      },
+      {
+        russian: 'Мерсе говорит Пепе, что он думает только о еде и ест слишком много.',
+        correct: 'Mercè le dice a Pepe que solo piensa en comer y que come demasiado.',
+        alternatives: ['Mercè le reprocha a Pepe que solo piensa en la comida y que come en exceso.']
+      },
+      {
+        russian: 'Они садятся в лифт, и Мерсе выходит из него с криком «¡Gordo! ¡Gordo! ¡Gordo!»',
+        correct: 'Cogen el ascensor y Mercè sale gritando: «¡Gordo! ¡Gordo! ¡Gordo!»',
+        alternatives: ['Suben al ascensor y Mercè sale de él gritando «¡Gordo!» una y otra vez.']
+      },
+      {
+        russian: 'Важно, чтобы Начо помнил, что дал ключи двум разным людям.',
+        correct: 'Es importante que Nacho recuerde que ha dado las llaves a dos personas diferentes.',
+        alternatives: ['Es necesario que Nacho se acuerde de que le dio las llaves a Raúl y también a sus abuelos.']
+      },
+      {
+        russian: 'Когда Рауль приедет в квартиру, его будет ждать большой сюрприз.',
+        correct: 'Cuando Raúl llegue al apartamento, habrá una gran sorpresa esperándole.',
+        alternatives: ['Al llegar al apartamento, Raúl se va a llevar una gran sorpresa.']
+      }
+    ]
   }
 
 }
