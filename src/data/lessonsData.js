@@ -55558,6 +55558,270 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Raúl rodeó a Pepa con el brazo y salieron juntos a la calle para celebrar el plan.']
       }
     ]
+  },
+
+  'ex-18-1-2-1': {
+    id: 'ex-18-1-2-1',
+    type: 'reading',
+    title: 'Понимание текста: Barcelona. Jueves, 31 de julio',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué temperatura marca el termómetro de la Puerta del Ángel?',
+        options: ['32ºC', '35ºC', '37ºC', '40ºC'],
+        correct: 2,
+        explanation: 'El termómetro de la Puerta del Ángel, en el centro de Barcelona, marca 37ºC.'
+      },
+      {
+        text: '¿Cuántos hombres orientales suben al taxi de Pepa?',
+        options: ['Dos', 'Tres', 'Cuatro', 'Cinco'],
+        correct: 2,
+        explanation: 'Cuatro hombres orientales le hacen señas a Pepa y suben al taxi.'
+      },
+      {
+        text: '¿Cómo están distribuidos los pasajeros dentro del taxi?',
+        options: [
+          'Los cuatro se sientan en el asiento trasero',
+          'Tres se sientan atrás y uno al lado de Pepa',
+          'Dos se sientan atrás y dos al lado de Pepa',
+          'Uno se sienta atrás y tres al lado de Pepa'
+        ],
+        correct: 1,
+        explanation: 'Los hombres entran: tres se sientan atrás y uno a su lado (al lado de Pepa).'
+      },
+      {
+        text: '¿Adónde quieren ir los cuatro clientes?',
+        options: [
+          'Al Parque Güell, en Barcelona',
+          'A la Sagrada Familia, en Barcelona',
+          'Al Museo Picasso, en Barcelona',
+          'Al Museo Dalí, en Figueras'
+        ],
+        correct: 3,
+        explanation: 'Los clientes le piden a Pepa que los lleve al Museo Dalí, en Figueras (Girona).'
+      },
+      {
+        text: '¿Cuánto puede cobrar Pepa por el viaje a Figueras?',
+        options: [
+          'Entre cien y ciento cincuenta euros',
+          'Entre doscientos y doscientos cincuenta euros',
+          'Entre trescientos y trescientos cincuenta euros',
+          'Exactamente doscientos euros, ni más ni menos'
+        ],
+        correct: 1,
+        explanation: 'Pepa calcula que puede cobrar doscientos o doscientos cincuenta euros por el trayecto.'
+      },
+      {
+        text: '¿Qué equivale este viaje en términos de trabajo habitual para Pepa?',
+        options: [
+          'Lo que gana en medio día en Barcelona',
+          'Lo que gana en un día en Barcelona',
+          'Lo que gana trabajando dos días en Barcelona',
+          'Lo que gana en una semana en Barcelona'
+        ],
+        correct: 2,
+        explanation: 'El viaje a Figueras es más o menos lo que Pepa gana trabajando dos días en Barcelona.'
+      },
+      {
+        text: '¿De quién es la bolsa de tela verde que encuentran en el taxi?',
+        options: ['De Loli', 'De Armando', 'De Pepa', 'De Raúl'],
+        correct: 3,
+        explanation: 'Pepa reconoce la bolsa: es de Raúl, que es muy despistado y siempre olvida sus cosas.'
+      },
+      {
+        text: '¿Por qué Raúl dejó la bolsa en el taxi?',
+        options: [
+          'Porque se la dejó aposta para que Pepa la guardara',
+          'Porque es muy despistado y siempre olvida sus cosas',
+          'Porque la bolsa no era suya y no la quería',
+          'Porque Pepa le pidió que la dejara allí'
+        ],
+        correct: 1,
+        explanation: 'El texto dice que Raúl es muy despistado y siempre olvida sus cosas.'
+      },
+      {
+        text: '¿De dónde son los clientes japoneses?',
+        options: ['De Tokio', 'De Kioto', 'De Osaka', 'De Hiroshima'],
+        correct: 2,
+        explanation: '«De Osaka», le responden los japoneses cuando Pepa les pregunta de dónde son.'
+      },
+      {
+        text: '¿Por qué Pepa les pregunta de dónde son si ya sabe que son japoneses?',
+        options: [
+          'Porque quiere practicar su japonés',
+          'Porque necesita saber la ciudad exacta para el recibo',
+          'Por educación, como gesto de cortesía hacia los clientes',
+          'Porque tiene dudas sobre su nacionalidad'
+        ],
+        correct: 2,
+        explanation: 'Pepa sabe que sus clientes son japoneses, pero por educación les pregunta de dónde son.'
+      },
+      {
+        text: '¿Sobre qué temas conversan Pepa y los japoneses durante el trayecto?',
+        options: [
+          'Solo sobre el precio del viaje y la ruta',
+          'La ciudad, el clima, la comida, el idioma, los monumentos y el arte',
+          'Únicamente sobre Dalí y Gaudí',
+          'Sobre política española y economía'
+        ],
+        correct: 1,
+        explanation: 'Mantienen la típica conversación sobre: la ciudad, el clima, la comida, el idioma (catalán y castellano), los monumentos y el arte.'
+      },
+      {
+        text: '¿Qué artistas mencionan durante la conversación?',
+        options: [
+          'Picasso y Miró',
+          'Velázquez y El Greco',
+          'Dalí y Gaudí',
+          'Sorolla y Zurbarán'
+        ],
+        correct: 2,
+        explanation: 'Durante la conversación hablan de Dalí y Gaudí, los dos grandes artistas catalanes.'
+      },
+      {
+        text: '¿Qué hace Pepa al llegar al peaje de Granollers?',
+        options: [
+          'Para el taxi y descansa un momento',
+          'Llama a sus amigos para contarles el viaje',
+          'Pone un CD de Chambao y sube el volumen',
+          'Baja el volumen de la radio para no molestar'
+        ],
+        correct: 2,
+        explanation: 'Al llegar al peaje de Granollers, ya está todo dicho. Pepa pone un CD de Chambao y sube el volumen.'
+      },
+      {
+        text: '¿Cómo reaccionan los japoneses al escuchar la música de Chambao?',
+        options: [
+          'Piden a Pepa que baje el volumen porque no les gusta',
+          'Se quedan dormidos con la música de fondo',
+          'En silencio, miran el paisaje y descubren el flamenco-chillout',
+          'Empiezan a bailar entusiasmados en el asiento trasero'
+        ],
+        correct: 2,
+        explanation: 'Los japoneses, en silencio, miran el paisaje y descubren el flamenco-chillout de Chambao.'
+      },
+      {
+        text: '¿Qué cambia Pepa nada más subir los clientes al taxi?',
+        options: [
+          'La ruta en el navegador GPS',
+          'El cartel de «libre» por el de «ocupado» y baja el volumen',
+          'La emisora de radio a una de música clásica',
+          'La velocidad del taxi para ir más rápido'
+        ],
+        correct: 1,
+        explanation: 'Pepa cambia el cartel de «libre» por el de «ocupado» y baja el volumen de la radio.'
+      }
+    ]
+  },
+
+  'ex-18-1-2-2': {
+    id: 'ex-18-1-2-2',
+    type: 'fillblank',
+    title: 'Грамматика: Barcelona. Jueves, 31 de julio',
+    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Hoy Pepa _____ (recoger) a cuatro turistas japoneses en el centro de Barcelona.', correct: 'ha recogido' },
+      { sentence: 'Los japoneses _____ (descubrir) el flamenco-chillout gracias a Pepa y su CD de Chambao.', correct: 'han descubierto' },
+      { sentence: 'Pepa _____ (conducir) su taxi con la luz verde cuando cuatro hombres orientales le hicieron señas.', correct: 'conducía' },
+      { sentence: 'Los cuatro hombres _____ (entrar) en el taxi: tres se sentaron atrás y uno al lado de la conductora.', correct: 'entraron' },
+      { sentence: 'Al subir los clientes, Pepa _____ (cambiar) el cartel de «libre» por el de «ocupado».', correct: 'cambió' },
+      { sentence: 'Uno de los hombres le _____ (enseñar) a Pepa una bolsa de tela verde que había en el asiento de atrás.', correct: 'enseñó' },
+      { sentence: 'Pepa la _____ (reconocer) de inmediato: era la bolsa de su amigo Raúl, que es muy despistado.', correct: 'reconoció' },
+      { sentence: 'Pepa _____ (saber) perfectamente que eran japoneses, pero les preguntó de dónde eran por educación.', correct: 'sabía' },
+      { sentence: 'Mientras _____ (salir, ellos) de la ciudad, Pepa y sus clientes hablaban sobre la cultura española.', correct: 'salían' },
+      { sentence: 'Los japoneses le _____ (responder) «De Osaka» cuando Pepa les preguntó su ciudad de origen.', correct: 'respondieron' },
+      { sentence: 'Al llegar al peaje de Granollers, Pepa _____ (poner) un CD de Chambao y subió el volumen.', correct: 'puso' },
+      { sentence: 'Es una pena que Pepa no _____ (poder) hacer este tipo de viajes largos todos los días.', correct: 'pueda' },
+      { sentence: 'Espero que los clientes _____ (quedarse) satisfechos con el viaje al Museo Dalí de Figueras.', correct: 'se queden' },
+      { sentence: 'Si Pepa hace este viaje, _____ (ganar) lo mismo que en dos días de trabajo normal en Barcelona.', correct: 'ganará' },
+      { sentence: 'Los japoneses _____ (mirar) el paisaje en silencio mientras escuchaban el flamenco-chillout de Chambao.', correct: 'miraban' }
+    ]
+  },
+
+  'ex-18-1-2-3': {
+    id: 'ex-18-1-2-3',
+    type: 'translation',
+    title: 'Перевод: Barcelona. Jueves, 31 de julio',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Термометр в центре Барселоны показывает 37 градусов.',
+        correct: 'El termómetro en el centro de Barcelona marca 37 grados.',
+        alternatives: ['El termómetro de la Puerta del Ángel marca 37ºC.']
+      },
+      {
+        russian: 'Пепа ведёт своё такси и слушает музыку, когда четыре японца машут ей рукой.',
+        correct: 'Pepa conduce su taxi y escucha música cuando cuatro japoneses le hacen señas.',
+        alternatives: ['Pepa está conduciendo su taxi y escuchando música cuando cuatro hombres le hacen señas.']
+      },
+      {
+        russian: 'Она подъезжает к тротуару и останавливается.',
+        correct: 'Pepa se acerca a la acera y para.',
+        alternatives: ['Ella se acerca a la acera y detiene el taxi.']
+      },
+      {
+        russian: 'Пепа меняет табличку «свободно» на «занято» и убавляет громкость радио.',
+        correct: 'Pepa cambia el cartel de «libre» por el de «ocupado» y baja el volumen de la radio.',
+        alternatives: ['Pepa pone el cartel de «ocupado» y baja el volumen de la radio.']
+      },
+      {
+        russian: 'Один из мужчин показывает ей зелёную тканевую сумку, которая лежала на заднем сиденье.',
+        correct: 'Uno de los hombres le enseña una bolsa de tela verde que estaba en el asiento de atrás.',
+        alternatives: ['Uno de los hombres le muestra a Pepa una bolsa de tela verde que había en el asiento trasero.']
+      },
+      {
+        russian: 'Пепа сразу же её узнаёт: это сумка Рауля, который очень рассеянный.',
+        correct: 'Pepa la reconoce enseguida: es la bolsa de Raúl, que es muy despistado.',
+        alternatives: ['Pepa la reconoce inmediatamente: es de Raúl, que siempre olvida sus cosas.']
+      },
+      {
+        russian: 'Рауль очень рассеянный и всегда забывает свои вещи.',
+        correct: 'Raúl es muy despistado y siempre olvida sus cosas.',
+        alternatives: ['Raúl es un despistado y nunca recuerda dónde deja sus cosas.']
+      },
+      {
+        russian: 'Пепа знает, что её клиенты — японцы, но из вежливости спрашивает, откуда они.',
+        correct: 'Pepa sabe que sus clientes son japoneses, pero por educación les pregunta de dónde son.',
+        alternatives: ['Pepa sabe que son japoneses, pero les pregunta de dónde vienen como gesto de cortesía.']
+      },
+      {
+        russian: 'Пока они выезжают из города, таксистка и туристы ведут типичный разговор о городе, климате и еде.',
+        correct: 'Mientras salen de la ciudad, taxista y turistas mantienen la conversación típica sobre la ciudad, el clima y la comida.',
+        alternatives: ['Mientras salen de Barcelona, Pepa y los japoneses hablan de temas típicos: la ciudad, el tiempo y la gastronomía.']
+      },
+      {
+        russian: 'Когда они доезжают до пункта оплаты в Гранольерс, говорить уже не о чем.',
+        correct: 'Al llegar al peaje de Granollers, ya está todo dicho.',
+        alternatives: ['Cuando llegan al peaje de Granollers, la conversación ya se ha agotado.']
+      },
+      {
+        russian: 'Пепа ставит диск Chambao и прибавляет громкость.',
+        correct: 'Pepa pone un CD de Chambao y sube el volumen.',
+        alternatives: ['Pepa pone un disco de Chambao y aumenta el volumen de la música.']
+      },
+      {
+        russian: 'Японцы в тишине смотрят на пейзаж и открывают для себя фламенко-чиллаут.',
+        correct: 'Los japoneses, en silencio, miran el paisaje y descubren el flamenco-chillout.',
+        alternatives: ['Los japoneses miran el paisaje en silencio mientras descubren el flamenco-chillout.']
+      },
+      {
+        russian: 'Путешествие займёт около четырёх часов — два туда и два обратно.',
+        correct: 'El viaje será de unas cuatro horas, dos de ida y otras dos de vuelta.',
+        alternatives: ['El trayecto durará unas cuatro horas en total: dos de ida y dos de vuelta.']
+      },
+      {
+        russian: 'Важно, чтобы клиент оставил сумку на полу во время поездки.',
+        correct: 'Es importante que el cliente deje la bolsa en el suelo durante el viaje.',
+        alternatives: ['Es necesario que el pasajero deje la bolsa en el suelo del taxi.']
+      },
+      {
+        russian: 'Если Пепа будет делать такие поездки, она заработает намного больше, чем за обычные два дня работы.',
+        correct: 'Si Pepa hace este tipo de viajes, ganará mucho más que en dos días de trabajo normal.',
+        alternatives: ['Si Pepa realiza viajes como este, podrá ganar lo mismo que trabajando dos días normales en Barcelona.']
+      }
+    ]
   }
 
 }
