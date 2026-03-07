@@ -55454,10 +55454,10 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-1-2',
     type: 'fillblank',
     title: 'Грамматика: Barcelona. Lunes, 28 de julio',
-    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro)',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → маркеры hoy, ya, todavía no, nunca, en su vida — действие связано с настоящим. INDEFINIDO (hizo) → маркеры anoche, ayer, entonces, cuando + событие — конкретный завершённый момент. IMPERFECTO → фон/описание/состояние (mientras, cuando + фон). SUBJUNTIVO → после es importante que / espero que / insiste en que. FUTURO → mañana, el próximo...',
     showAnswerOption: true,
     questions: [
-      { sentence: 'Nacho le _____ (dar) las llaves del apartamento a Raúl antes de irse a vivir a Londres.', correct: 'ha dado' },
+      { sentence: 'Nacho ya le _____ (dar) las llaves del apartamento a Raúl porque ahora vive en Londres.', correct: 'ha dado' },
       { sentence: 'Raúl _____ (tener) muchas novias en su vida, aunque nunca recuerda sus nombres exactos.', correct: 'ha tenido' },
       { sentence: 'Loli _____ (teñir) el pelo de rojo y trabaja como peluquera en el barrio de Gracia.', correct: 'ha teñido' },
       { sentence: '«¡A la playa!» _____ (repetir) Loli con gran alegría cuando Raúl propuso el plan de vacaciones.', correct: 'repitió' },
@@ -55718,11 +55718,11 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-2-2',
     type: 'fillblank',
     title: 'Грамматика: Barcelona. Jueves, 31 de julio',
-    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → маркеры hoy, ya, todavía no, nunca, en su vida — действие связано с настоящим. INDEFINIDO (hizo) → маркеры anoche, ayer, entonces, cuando + событие — конкретный завершённый момент. IMPERFECTO → фон/описание/состояние (mientras, cuando + фон). SUBJUNTIVO → после es importante que / espero que. FUTURO → mañana, si + presente...',
     showAnswerOption: true,
     questions: [
       { sentence: 'Hoy Pepa _____ (recoger) a cuatro turistas japoneses en el centro de Barcelona.', correct: 'ha recogido' },
-      { sentence: 'Los japoneses _____ (descubrir) el flamenco-chillout gracias a Pepa y su CD de Chambao.', correct: 'han descubierto' },
+      { sentence: 'Hoy los japoneses _____ (descubrir) el flamenco-chillout gracias a Pepa y su CD de Chambao.', correct: 'han descubierto' },
       { sentence: 'Pepa _____ (conducir) su taxi con la luz verde cuando cuatro hombres orientales le hicieron señas.', correct: 'conducía' },
       { sentence: 'Los cuatro hombres _____ (entrar) en el taxi: tres se sentaron atrás y uno al lado de la conductora.', correct: 'entraron' },
       { sentence: 'Al subir los clientes, Pepa _____ (cambiar) el cartel de «libre» por el de «ocupado».', correct: 'cambió' },
@@ -55982,7 +55982,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-3-2',
     type: 'fillblank',
     title: 'Грамматика: Barcelona. Jueves, 31 de julio. 14.15 h',
-    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → маркеры hoy, ya, nunca, en su vida — связь с настоящим; в прямой речи «le dice que ha ido» (сегодня). INDEFINIDO (hizo) → маркеры a las dos, entonces, cuando + событие — конкретный момент. PLUSCUAMPERFECTO (había hecho) → действие произошло ДО другого прошлого момента. IMPERFECTO → фон/состояние. SUBJUNTIVO → es una pena que / ojalá. FUTURO → mañana...',
     showAnswerOption: true,
     questions: [
       { sentence: 'A las dos y cuarto Pepa _____ (dejar) a los japoneses en la puerta del Museo Dalí y aparcó el taxi.', correct: 'dejó' },
@@ -56525,12 +56525,12 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-5-2',
     type: 'fillblank',
     title: 'Грамматика: Empuriabrava. Viernes, 1 de agosto. 12.00 h',
-    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → маркеры ya, todavía, nunca, en su vida — результат важен сейчас. INDEFINIDO (hizo) → маркеры entonces, cuando + событие, ayer — конкретный завершённый момент. IMPERFECTO → фон/описание/состояние. SUBJUNTIVO → после es importante que / espero que. FUTURO → cuando llegue...',
     showAnswerOption: true,
     questions: [
-      { sentence: 'Nacho les _____ (dar) a sus abuelos unas llaves junto con la dirección escrita en un papelito.', correct: 'ha dado' },
-      { sentence: 'Nacho les _____ (decir) a sus abuelos que pueden pasar el verano en la playa de Empuriabrava.', correct: 'ha dicho' },
-      { sentence: 'Nacho _____ (olvidar) que también le dio las llaves del mismo apartamento a su amigo Raúl.', correct: 'ha olvidado' },
+      { sentence: 'Nacho ya les _____ (dar) a sus abuelos las llaves del apartamento: por eso están ahora en Empuriabrava.', correct: 'ha dado' },
+      { sentence: 'Nacho ya les _____ (decir) a sus abuelos que pueden pasar el verano en la playa de Empuriabrava.', correct: 'ha dicho' },
+      { sentence: 'Nacho ya _____ (olvidar) que también le dio las llaves del mismo apartamento a su amigo Raúl.', correct: 'ha olvidado' },
       { sentence: 'Mercè _____ (ser) diabética y necesita inyectarse insulina dos veces al día sin excepción.', correct: 'es' },
       { sentence: 'Mercè _____ (hablar) a gritos porque su marido Pepe está sordo como una tapia.', correct: 'habla' },
       { sentence: 'Mercè _____ (abrir) la puerta del horno creyendo que era la nevera y metió la insulina dentro.', correct: 'abrió' },
@@ -56627,6 +56627,285 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         russian: 'Когда Рауль приедет в квартиру, его будет ждать большой сюрприз.',
         correct: 'Cuando Raúl llegue al apartamento, habrá una gran sorpresa esperándole.',
         alternatives: ['Al llegar al apartamento, Raúl se va a llevar una gran sorpresa.']
+      }
+    ]
+  },
+
+  'ex-18-1-6-1': {
+    id: 'ex-18-1-6-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cuánto tiempo llevan perdidos Raúl y Loli por Empuriabrava?',
+        options: [
+          'Unos diez minutos',
+          'Media hora',
+          'Más de una hora',
+          'Toda la tarde, desde las doce'
+        ],
+        correct: 2,
+        explanation: 'Loli y Raúl llevan más de una hora perdidos por Empuriabrava sin encontrar el apartamento.'
+      },
+      {
+        text: '¿Cómo pronuncia Raúl el nombre del edificio «The sun of the beach»?',
+        options: [
+          'Lo pronuncia perfectamente en inglés',
+          'Lo pronuncia como «Sanofabich»',
+          'No recuerda el nombre y no puede decirlo',
+          'Lo pronuncia como «Ze san ov ze bich»'
+        ],
+        correct: 1,
+        explanation: 'Raúl lee el nombre del edificio y lo pronuncia como «¡Sanofabich!», orgulloso de su inglés.'
+      },
+      {
+        text: '¿Por qué levanta la voz Raúl cuando habla con los extranjeros?',
+        options: [
+          'Porque es muy impaciente y está nervioso',
+          'Porque hay mucho ruido en la calle y no se oye bien',
+          'Porque piensa que a los extranjeros hay que hablarles alto',
+          'Porque Loli le dice que hable más alto'
+        ],
+        correct: 2,
+        explanation: 'Raúl, como mucha gente, piensa que a los extranjeros hay que hablarles alto para que entiendan.'
+      },
+      {
+        text: '¿Cuántas veces se repite la escena de preguntar a un extranjero sin éxito?',
+        options: ['Dos veces', 'Tres veces', 'Cuatro veces', 'Cinco veces'],
+        correct: 3,
+        explanation: 'Esta escena se repite cinco veces con el mismo resultado: el extranjero no entiende y se va.'
+      },
+      {
+        text: '¿Qué dice Loli sobre el inglés de Raúl?',
+        options: [
+          'Que su inglés es muy bueno pero los extranjeros son antipáticos',
+          'Que no sabe inglés y por eso nadie le entiende',
+          'Que debería hablar más despacio para que le entiendan',
+          'Que el problema es la pronunciación, no el vocabulario'
+        ],
+        correct: 1,
+        explanation: 'Loli le dice claramente: «¡No te entienden! ¿No lo ves? No sabes inglés».'
+      },
+      {
+        text: '¿Cuál es la excusa de Raúl cuando nadie le entiende?',
+        options: [
+          'Dice que él habla muy rápido y tiene que hablar más despacio',
+          'Dice que todos estos extranjeros son franceses, italianos o de otro país',
+          'Dice que el problema es que el nombre del edificio es muy difícil',
+          'Admite que no sabe inglés y pide disculpas a Loli'
+        ],
+        correct: 1,
+        explanation: 'Raúl se justifica diciendo: «Lo que pasa es que estos guiris seguro que son franceses o italianos o… ¡Qué sé yo!»'
+      },
+      {
+        text: '¿Qué piden Raúl y Loli en la terraza del bar?',
+        options: [
+          'Dos cafés con leche y dos bocadillos de jamón',
+          'Dos cervezas y dos sándwiches de jamón y queso',
+          'Dos zumos de naranja y una ración de patatas',
+          'Una cerveza y un refresco, sin comer'
+        ],
+        correct: 1,
+        explanation: 'Se sientan en la terraza de un bar y piden dos cervezas y dos sándwiches de jamón y queso.'
+      },
+      {
+        text: '¿Por qué Raúl no ha contestado las llamadas de Pepa?',
+        options: [
+          'Porque está enfadado con Pepa y no quiere hablar con ella',
+          'Porque estaba conduciendo y no podía coger el teléfono',
+          'Porque tenía el móvil apagado sin darse cuenta',
+          'Porque no tenía cobertura en Empuriabrava'
+        ],
+        correct: 2,
+        explanation: 'Raúl saca el móvil del bolsillo y ve que está apagado: «¡Anda! Si está apagado…»'
+      },
+      {
+        text: '¿Cuántas veces ha llamado Pepa a Raúl?',
+        options: [
+          'Una o dos veces',
+          'Tres veces exactamente',
+          'Un montón de veces',
+          'Solo una vez, por WhatsApp'
+        ],
+        correct: 2,
+        explanation: 'Pepa le dice a Raúl: «Te he llamado un montón de veces. ¿Por qué no contestas?»'
+      },
+      {
+        text: '¿Dónde está Pepa cuando llama a Raúl?',
+        options: [
+          'En Barcelona, en su casa',
+          'En Figueras, en el Museo Dalí',
+          'En la autopista, yendo hacia Empuriabrava',
+          'Ya ha llegado a Empuriabrava y les espera'
+        ],
+        correct: 2,
+        explanation: 'Pepa dice: «Estoy en la autopista. Voy hacia Empuriabrava».'
+      },
+      {
+        text: '¿Va Pepa de vacaciones con Raúl y Loli?',
+        options: [
+          'Sí, ha decidido tomarse unos días y viene de vacaciones',
+          'No, va con un cliente y no viene de vacaciones',
+          'No, va solo a llevar la bolsa de Raúl y luego vuelve',
+          'Sí, pero solo el fin de semana'
+        ],
+        correct: 1,
+        explanation: 'Pepa le aclara a Raúl: «Sí, pero no. Voy con un cliente», es decir, lleva a un pasajero.'
+      },
+      {
+        text: '¿Cuándo le dio Pepa la bolsa verde a Raúl?',
+        options: [
+          'Esta mañana, antes de salir de Barcelona',
+          'El jueves por la mañana en el bar de Armando',
+          'Anoche, al salir del bar',
+          'Hace un momento, en la autopista'
+        ],
+        correct: 2,
+        explanation: 'Pepa le recuerda a Raúl: «Tu bolsa verde de tela, la que olvidaste en mi taxi. Anoche te la di, ¿recuerdas?»'
+      },
+      {
+        text: '¿Tiene Raúl la bolsa verde consigo en Empuriabrava?',
+        options: [
+          'Sí, la tiene pero no recuerda dónde la puso',
+          'No, no la tiene y no sabe dónde está',
+          'Sí, la tiene en el maletero del coche tuneado',
+          'No la tiene porque se la dio a Loli para que la guardara'
+        ],
+        correct: 1,
+        explanation: 'Raúl responde claramente: «No», no tiene la bolsa, y «No lo sé. Ni idea» cuando Pepa pregunta dónde está.'
+      },
+      {
+        text: '¿Qué decide Pepa al final de la conversación con Raúl?',
+        options: [
+          'Volver a Barcelona porque la bolsa no aparece',
+          'Decirle al pasajero que no puede llevarle a Empuriabrava',
+          'No importa el problema por ahora: luego llama y se ven en Empuriabrava',
+          'Pedirle a Raúl que busque la bolsa urgentemente en todo el apartamento'
+        ],
+        correct: 2,
+        explanation: 'Pepa cierra la conversación diciendo: «No importa. Luego te llamo. Nos vemos en Empuriabrava».'
+      },
+      {
+        text: '¿Qué describe mejor la característica de Raúl que aparece en este capítulo?',
+        options: [
+          'Es muy organizado pero tiene mala suerte',
+          'Es simpático pero muy torpe con los idiomas y muy despistado',
+          'Es inteligente pero muy tímido con los extranjeros',
+          'Es agresivo e impaciente con los turistas'
+        ],
+        correct: 1,
+        explanation: 'Raúl no sabe inglés pero cree que sabe, pierde su bolsa, tiene el móvil apagado — es simpático pero despistado y sin conciencia de sus limitaciones con los idiomas.'
+      }
+    ]
+  },
+
+  'ex-18-1-6-2': {
+    id: 'ex-18-1-6-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → маркеры hoy, ya, esta tarde, todavía no, nunca, te he llamado — действие связано с настоящим. INDEFINIDO (hizo) → маркеры anoche, entonces, cuando + событие, cinco veces — конкретный завершённый момент. IMPERFECTO → фон/состояние (mientras, estaban cuando...). SUBJUNTIVO → espero que / es importante que. FUTURO → cuando llegue / el fin de semana...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Raúl ya _____ (preguntar) a cinco extranjeros diferentes esta tarde, pero nadie le ha entendido.', correct: 'ha preguntado' },
+      { sentence: 'Pepa _____ (llamar) a Raúl un montón de veces esta tarde, pero él no ha podido contestar.', correct: 'ha llamado' },
+      { sentence: 'Raúl todavía no _____ (encontrar) el apartamento de su amigo Nacho después de más de una hora buscando.', correct: 'ha encontrado' },
+      { sentence: 'Pepa nunca _____ (estar) en Empuriabrava, pero dicen que es un lugar muy especial con canales.', correct: 'ha estado' },
+      { sentence: 'Esta escena _____ (repetirse) exactamente cinco veces antes de que Raúl y Loli se sentaran en el bar.', correct: 'se repitió' },
+      { sentence: 'El primer extranjero _____ (mirar) a Raúl con sus piercings y tatuajes y entonces se fue sin decir nada.', correct: 'miró' },
+      { sentence: 'Anoche Pepa le _____ (dar) la bolsa verde a Raúl al salir del bar, pero él ya no sabe dónde la ha dejado.', correct: 'dio' },
+      { sentence: 'Cuando _____ (sonar) el móvil de Loli, los dos amigos estaban sentados en la terraza de un bar.', correct: 'sonó' },
+      { sentence: 'Raúl _____ (sacar) el móvil del bolsillo de su pantalón y vio con sorpresa que estaba completamente apagado.', correct: 'sacó' },
+      { sentence: 'Loli le _____ (dar) el móvil a Raúl en cuanto Pepa le pidió hablar directamente con él.', correct: 'dio' },
+      { sentence: 'Mientras Raúl _____ (buscar) el apartamento, Loli estaba cada vez más cansada y con más sed.', correct: 'buscaba' },
+      { sentence: 'Raúl _____ (pensar) que levantando la voz, los extranjeros iban a entenderle mucho mejor.', correct: 'pensaba' },
+      { sentence: 'Loli espera que Raúl _____ (encontrar) pronto el apartamento porque está muy cansada.', correct: 'encuentre' },
+      { sentence: 'Es una pena que Raúl no _____ (saber) inglés de verdad, porque les haría falta ahora mismo.', correct: 'sepa' },
+      { sentence: 'Cuando Pepa llegue a Empuriabrava, los tres amigos _____ (poder) buscar el apartamento juntos.', correct: 'podrán' }
+    ]
+  },
+
+  'ex-18-1-6-3': {
+    id: 'ex-18-1-6-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Viernes, 1 de agosto. 17.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Рауль и Лоли уже больше часа блуждают по Эмпуриабраве, потерявшись.',
+        correct: 'Loli y Raúl llevan más de una hora perdidos por Empuriabrava.',
+        alternatives: ['Raúl y Loli llevan más de una hora buscando el apartamento sin encontrarlo.']
+      },
+      {
+        russian: 'Рауль высовывает голову из окна машины и обращается к иностранцу.',
+        correct: 'Raúl saca la cabeza por la ventanilla del coche y se dirige a un extranjero.',
+        alternatives: ['Raúl asoma la cabeza por la ventanilla del coche y habla con un extranjero.']
+      },
+      {
+        russian: 'Рауль читает название здания на бумажке, которую дал ему Начо: «The sun of the beach».',
+        correct: 'Raúl lee el nombre del edificio en el papel que le dio Nacho: «The sun of the beach».',
+        alternatives: ['Raúl mira el papel de Nacho y lee el nombre del edificio: «The sun of the beach».']
+      },
+      {
+        russian: 'Рауль произносит его как «Санофабич» с улыбкой, гордясь своим английским.',
+        correct: 'Raúl dice «¡Sanofabich!» con una sonrisa, orgulloso de su inglés.',
+        alternatives: ['Raúl pronuncia el nombre como «Sanofabich» y sonríe, muy orgulloso de su inglés.']
+      },
+      {
+        russian: 'Рауль думает, что с иностранцами нужно говорить громче, чтобы они понимали.',
+        correct: 'Raúl piensa que a los extranjeros hay que hablarles más alto para que entiendan.',
+        alternatives: ['Raúl cree que si hablas más alto, los extranjeros te entienden mejor.']
+      },
+      {
+        russian: 'Эта сцена повторяется пять раз с одним и тем же результатом.',
+        correct: 'Esta escena se repite cinco veces con el mismo resultado.',
+        alternatives: ['La misma escena se repite exactamente cinco veces con idéntico resultado.']
+      },
+      {
+        russian: '«Тебя не понимают! Разве ты не видишь? Ты не знаешь английского».',
+        correct: '«¡No te entienden! ¿No lo ves? No sabes inglés».',
+        alternatives: ['«¡Nadie te entiende! ¿No te das cuenta? Es que no sabes inglés».']
+      },
+      {
+        russian: 'Они садятся на террасе бара и заказывают два пива и два сэндвича с ветчиной и сыром.',
+        correct: 'Se sientan en la terraza de un bar y piden dos cervezas y dos sándwiches de jamón y queso.',
+        alternatives: ['Se sientan en la terraza y piden dos cervezas y dos sándwiches de jamón con queso.']
+      },
+      {
+        russian: '«Пепа, мы в Эмпуриабраве, но заблудились. Рауль не может найти квартиру своего друга».',
+        correct: '«Pepa, estamos en Empuriabrava, pero estamos perdidos. Raúl no encuentra el apartamento de su amigo».',
+        alternatives: ['«Pepa, estamos aquí, en Empuriabrava, pero nos hemos perdido. Raúl no localiza el apartamento de Nacho».']
+      },
+      {
+        russian: 'Пепа говорит Раулю, что звонила ему много раз сегодня.',
+        correct: 'Pepa le dice a Raúl que le ha llamado un montón de veces esta tarde.',
+        alternatives: ['Pepa le pregunta a Raúl por qué no ha contestado: lo ha llamado muchísimas veces hoy.']
+      },
+      {
+        russian: 'Рауль достаёт телефон из кармана брюк и видит, что он выключен.',
+        correct: 'Raúl saca el móvil del bolsillo de su pantalón y ve que está apagado.',
+        alternatives: ['Raúl mira el móvil que saca del bolsillo y comprueba que está apagado.']
+      },
+      {
+        russian: '«Вчера вечером я отдала тебе сумку. Ты помнишь?»',
+        correct: '«Anoche te la di. ¿Recuerdas?»',
+        alternatives: ['«Te di la bolsa anoche, ¿no te acuerdas?»']
+      },
+      {
+        russian: '«Нет, её у меня нет. Я не знаю, где она».',
+        correct: '«No. No la tengo. No sé dónde está».',
+        alternatives: ['«No, no tengo la bolsa. Ni idea de dónde puede estar».']
+      },
+      {
+        russian: '«Не важно. Потом позвоню. Увидимся в Эмпуриабраве».',
+        correct: '«No importa. Luego te llamo. Nos vemos en Empuriabrava».',
+        alternatives: ['«Da igual. Te llamo después. Quedamos en Empuriabrava».']
+      },
+      {
+        russian: 'Важно, чтобы Рауль нашёл квартиру Начо до того, как приедет Пепа.',
+        correct: 'Es importante que Raúl encuentre el apartamento de Nacho antes de que llegue Pepa.',
+        alternatives: ['Es necesario que Raúl localice el piso antes de la llegada de Pepa.']
       }
     ]
   }
