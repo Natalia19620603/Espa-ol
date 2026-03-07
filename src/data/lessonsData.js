@@ -57935,7 +57935,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-10-2',
     type: 'fillblank',
     title: 'Грамматика: Empuriabrava. Terraza de un bar. 19.00 h',
-    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → ya / resultado en presente / «только что» в этом же разговоре (¿qué le has preguntado? → le he preguntado = только что, в этом разговоре). INDEFINIDO (hizo) → нарративные моменты (dio, se levantó, enseñó, dijo). IMPERFECTO → habitual/повторяемое (decía = всё время говорил; miraba = каждый раз смотрели). PLUSCUAMPERFECTO → ДО другого прошлого. SUBJUNTIVO → es increíble que / propone que. FUTURO → esta noche / cuando lleguen...',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → ya / resultado en presente / «только что» в этом же разговоре (¿qué le has preguntado? → le he preguntado = только что, в этом разговоре). INDEFINIDO (hizo) → нарративные моменты (dio, se levantó, enseñó, dijo). IMPERFECTO → habitual/повторяемое (decía = всё время говорил; miraba = каждый раз смотрели). OD/ID → pronombres de objeto (se las dio = se [a Pepa] + las [las llaves]). SUBJUNTIVO → es increíble que / propone que. FUTURO → esta noche / cuando lleguen...',
     showAnswerOption: true,
     questions: [
       { sentence: 'Loli y Raúl ya le _____ (decir) a Pepa que llevan más de una hora sin poder encontrar el apartamento.', correct: 'han dicho' },
@@ -57948,7 +57948,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: 'Pepa le _____ (enseñar) al camarero el papel del llavero y él supo inmediatamente de qué edificio se trataba.', correct: 'enseñó' },
       { sentence: '—Lo mismo que yo _____ (decir) —afirma Raúl, convencido de que «Sanofabich» era inglés perfectamente válido.', correct: 'decía' },
       { sentence: 'La gente _____ (mirar) a Raúl con una cara rara cada vez que él intentaba preguntar la dirección del edificio.', correct: 'miraba' },
-      { sentence: 'Raúl no _____ (poder) encontrar el apartamento en más de una hora antes de que Pepa llegara y preguntara al camarero.', correct: 'había podido' },
+      { sentence: 'Raúl tenía las llaves del apartamento y _____ (dárselas) a Pepa nada más pedírselas, sin preguntar para qué las necesitaba. [pronombres OD+ID]', correct: 'se las dio' },
       { sentence: 'Es increíble que Raúl no _____ (entender) que el problema era su pronunciación del inglés, no los extranjeros.', correct: 'entienda' },
       { sentence: 'Álvaro propone que todos _____ (cenar) juntos esta noche para celebrar el inicio de las vacaciones en Empuriabrava.', correct: 'cenen' },
       { sentence: 'Esta noche Álvaro _____ (invitar) a todos a cenar en un restaurante de Empuriabrava como gesto de agradecimiento.', correct: 'invitará' },
@@ -58219,7 +58219,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-11-2',
     type: 'fillblank',
     title: 'Грамматика: Edificio The sun of the beach. 19.30 h',
-    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/todavía no — действие дня связано с настоящим. INDEFINIDO (hizo) → нарративная цепочка (sacó y dio, abrió y vio, bajaron, salió) — конкретные последовательные действия. IMPERFECTO → mientras + фон (mientras nadaba); мысль/намерение/состояние (pensaba, quería). PLUSCUAMPERFECTO → ДО другого прошлого момента. SUBJUNTIVO → es raro que / sin que. FUTURO → cuando suba...',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/todavía no — действие дня связано с настоящим. INDEFINIDO (hizo) → нарративная цепочка (sacó y dio, abrió y vio, bajaron, salió) — конкретные последовательные действия. IMPERFECTO → mientras + фон (mientras nadaba); мысль/намерение/состояние (pensaba, quería). SUBJUNTIVO → es raro que / sin que. FUTURO → cuando suba...',
     showAnswerOption: true,
     questions: [
       { sentence: '—¿Por qué le _____ (decir, tú) a Álvaro que podía quedarse a dormir con nosotros? —pregunta Pepa a Raúl esta tarde en la playa.', correct: 'has dicho' },
@@ -58503,7 +58503,7 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
     id: 'ex-18-1-12-2',
     type: 'fillblank',
     title: 'Грамматика: Apartamento 112. 20.00 h',
-    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO → hoy / ya / todavía no (результат ощущается в настоящем). INDEFINIDO → цепочка нарративных действий (entró, abrió, empezó / cogió, se bebió). IMPERFECTO → «Estaba bebiendo agua» = прерванное фоновое действие (estaba + gerundio); mientras + фон; мысль/состояние в прошлом. PLUSCUAMPERFECTO (había hecho) → действие ДО другого прошедшего момента.',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO → hoy / ya / todavía no (результат ощущается в настоящем). INDEFINIDO → цепочка нарративных действий (entró, abrió, empezó / cogió, se bebió). IMPERFECTO → «Estaba bebiendo agua» = прерванное фоновое действие (estaba + gerundio); mientras + фон; мысль/состояние в прошлом. OD/ID → pronombres de objeto (se lo dejó = se [a Mercè] + lo [el vaso]; se la olvidó = la bolsa).',
     showAnswerOption: true,
     questions: [
       { sentence: '«Hoy no lo necesito. No _____ (comer, yo) nada en todo el día», dice Mercè cuando su marido le ofrece el vaso de agua.', correct: 'he comido' },
@@ -58519,8 +58519,8 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
       { sentence: '«_____ (estar) bebiendo agua», dijo Álvaro cuando Pepa llamó a la puerta y le interrumpió.', correct: 'Estaba' },
       { sentence: 'Mientras _____ (subir) en el ascensor, Álvaro recibió una llamada que le puso nervioso.', correct: 'subía' },
       { sentence: 'Álvaro _____ (saber) que no era bueno que la persona que le llamaba pensara que le engañaba.', correct: 'sabía' },
-      { sentence: 'Álvaro cogió sin saberlo el vaso que Pepe _____ (preparar) con laxante para su mujer Mercè.', correct: 'había preparado' },
-      { sentence: 'El vaso ya _____ (estar) en la cocina desde antes de que Álvaro llegara al apartamento: Pepe lo _____ (dejar) allí para Mercè.', correct: 'había estado / había dejado' }
+      { sentence: 'Pepe preparó el vaso de agua con laxante para Mercè y _____ (dejárselo) en la cocina antes de irse a dormir. [pronombres OD+ID]', correct: 'se lo dejó' },
+      { sentence: 'Raúl olvidó la bolsa verde en el restaurante: _____ (olvidársela) al salir a la calle a encender el cigarrillo. [pronombre OD]', correct: 'se la olvidó' }
     ]
   },
 
@@ -58602,9 +58602,293 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['«Hemos venido a buscarte para salir a dar una vuelta. ¿Te apuntas?»']
       },
       {
-        russian: 'Жаль, что Альваро не знает, что стакан, который он выпил, содержал слабительное, которое Пепе приготовил для Мерсе.',
-        correct: 'Es una lástima que Álvaro no sepa que el vaso que se ha bebido contenía el laxante que Pepe había preparado para Mercè.',
-        alternatives: ['Álvaro no sabe que el vaso que se ha tomado tenía el laxante que Pepe había puesto para su mujer.']
+        russian: 'Пепе приготовил стакан со слабительным для Мерсе и поставил его на кухне, но Альваро взял и выпил его, не зная, что в нём было.',
+        correct: 'Pepe preparó el vaso con laxante para Mercè y se lo dejó en la cocina, pero Álvaro lo cogió y se lo bebió sin saber lo que contenía.',
+        alternatives: ['Pepe puso el vaso de laxante en la cocina para Mercè, pero Álvaro se lo bebió todo sin saber qué había dentro.']
+      }
+    ]
+  },
+
+  'ex-18-1-13-1': {
+    id: 'ex-18-1-13-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. 22.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Con qué objetivo invita Álvaro a cenar al grupo y llena el vaso de Raúl una y otra vez?',
+        options: [
+          'Para celebrar que han encontrado el apartamento y agradecer la hospitalidad de Nacho',
+          'Para emborrachar a Raúl y averiguar qué ha hecho con su bolsa',
+          'Para distraer a Pepa y Loli mientras registra la habitación del apartamento',
+          'Para crear un ambiente relajado y confesarles que ha perdido algo importante'
+        ],
+        correct: 1,
+        explanation: 'Álvaro quiere emborrachar a Raúl para averiguar qué ha hecho con su bolsa.'
+      },
+      {
+        text: '¿Cómo describe el narrador el comportamiento de Álvaro durante la cena con la bebida de Raúl?',
+        options: [
+          'Álvaro pide una botella de vino y la comparte con todos por igual',
+          'Álvaro le llena el vaso una y otra vez mientras Raúl bebe sin parar',
+          'Álvaro propone brindar varias veces para que Raúl beba más deprisa',
+          'Álvaro pide rondas de chupitos sin que nadie se dé cuenta'
+        ],
+        correct: 1,
+        explanation: 'Le llena el vaso una y otra vez y Raúl bebe, bebe y bebe.'
+      },
+      {
+        text: '¿En qué estado se encuentra Raúl al terminar la cena?',
+        options: [
+          'Completamente sobrio: tiene mucha resistencia al alcohol',
+          'Muy contento pero sin estar borracho: sabe cuándo parar',
+          'Medio borracho',
+          'Inconsciente y sin poder levantarse de la silla del restaurante'
+        ],
+        correct: 2,
+        explanation: 'Al terminar la cena, Raúl está medio borracho.'
+      },
+      {
+        text: '¿Qué hace Raúl cuando salen del restaurante a la calle?',
+        options: [
+          'Se sienta en un banco porque las piernas no le responden bien',
+          'Enciende un cigarrillo',
+          'Llama por teléfono a un amigo para que venga a buscarle',
+          'Propone ir a seguir bebiendo a algún bar de la urbanización'
+        ],
+        correct: 1,
+        explanation: 'Salen a la calle y Raúl enciende un cigarrillo.'
+      },
+      {
+        text: '¿Qué le pasa a la bolsa verde de tela al salir del restaurante?',
+        options: [
+          'Raúl la lleva colgada al hombro todo el tiempo',
+          'Álvaro la coge discretamente sin que nadie lo vea',
+          'Se queda olvidada dentro del restaurante',
+          'Loli la recoge del suelo porque Raúl la ha tirado sin darse cuenta'
+        ],
+        correct: 2,
+        explanation: 'La bolsa verde de tela se queda en el restaurante cuando todos salen.'
+      },
+      {
+        text: '¿Quién se da cuenta de que Raúl ha olvidado la bolsa y cómo reacciona?',
+        options: [
+          'Loli lo nota y le dice a Raúl que vuelva él a buscarla',
+          'Álvaro lo ve y entra corriendo al restaurante a por ella',
+          'El camarero sale corriendo detrás del grupo para devolvérsela',
+          'Pepa lo dice («siempre igual») y entra a buscarla ella misma'
+        ],
+        correct: 3,
+        explanation: 'Pepa dice «Ha olvidado la bolsa en el restaurante. Siempre igual» y entra a buscarla, saliendo con la bolsa de Raúl colgada al hombro.'
+      },
+      {
+        text: '¿Qué pasa cuando llegan todos al apartamento?',
+        options: [
+          'Álvaro registra la maleta de Raúl mientras los demás están en el baño',
+          'Raúl se duerme en el sofá',
+          'Loli prepara algo de beber mientras Raúl busca la bolsa que ha perdido',
+          'Pepa y Loli se van a dormir sin esperar a que los chicos lleguen'
+        ],
+        correct: 1,
+        explanation: 'Van todos al apartamento y Raúl se duerme en el sofá.'
+      },
+      {
+        text: '¿Qué propone Álvaro cuando Raúl se queda dormido en el sofá?',
+        options: [
+          'Que todos se vayan a dormir también porque mañana hay mucho que hacer',
+          'Que despierten a Raúl porque no puede dormir en el sofá',
+          'Quedarse con Raúl mientras Pepa y Loli salen a dar una vuelta',
+          'Registrar la maleta de Raúl mientras él duerme y las chicas esperan fuera'
+        ],
+        correct: 2,
+        explanation: 'Álvaro dice: «Está muy borracho. Vosotras podéis ir a dar una vuelta. Yo me quedo para hacerle compañía».'
+      },
+      {
+        text: '¿Cuál es la verdadera razón por la que Álvaro quiere quedarse con Raúl?',
+        options: [
+          'Le preocupa la salud de Raúl porque está muy borracho y podría encontrarse mal',
+          'Quiere aprovechar que Raúl está dormido para buscar en sus cosas',
+          'Prefiere quedarse en el apartamento que salir de noche con las chicas',
+          'Quiere tener una conversación privada con Raúl cuando las chicas salgan'
+        ],
+        correct: 1,
+        explanation: 'Álvaro quiere quedarse para registrar las cosas de Raúl mientras este duerme borracho.'
+      },
+      {
+        text: '¿Cómo reaccionan Loli y Pepa ante la propuesta de Álvaro de quedarse con Raúl?',
+        options: [
+          'Aceptan encantadas: les apetece salir solas sin los chicos',
+          'Se quedan también porque Raúl puede necesitar ayuda si se pone mal',
+          'Se niegan: dicen que si él se queda, ellas también se quedan',
+          'Le dan las gracias a Álvaro por su gesto y se van tranquilas'
+        ],
+        correct: 2,
+        explanation: 'Loli dice: «No, tú te vienes con nosotras» y añade: «Si tú te quedas, nosotras nos quedamos también».'
+      },
+      {
+        text: '¿Qué decide Álvaro al final, después de que las chicas insisten en que vaya con ellas?',
+        options: [
+          'Se queda en el apartamento con el pretexto de que no se siente bien',
+          'Se queda con Raúl y pide a las chicas que vuelvan pronto',
+          'Sale con ellas pensando en hacerlas beber para que se duerman rápido',
+          'Llama a otro amigo suyo para que venga a vigilar a Raúl mientras salen'
+        ],
+        correct: 2,
+        explanation: 'Álvaro piensa: «Bueno, unas cuantas copas y luego van a dormir como Raúl» y sale con Loli y Pepa.'
+      },
+      {
+        text: '¿Por qué lleva Pepa la bolsa de Raúl cuando salen de noche?',
+        options: [
+          'Porque Raúl se la pide expresamente antes de quedarse dormido',
+          'Porque Álvaro le dice que es mejor que ella la guarde para no perderla',
+          'Porque la lleva con los bañadores por si les apetece bañarse de noche',
+          'Porque tiene documentos importantes de Raúl que no quiere dejar en el apartamento'
+        ],
+        correct: 2,
+        explanation: 'Pepa lleva la bolsa de Raúl con los bañadores, por si les apetece bañarse.'
+      },
+      {
+        text: '¿Cuántos gin tonics se han tomado Pepa y Loli a las tres de la mañana?',
+        options: [
+          'Dos cada una: no quieren beber demasiado',
+          'Tres cada una: se han tomado uno por hora',
+          'Cuatro cada una',
+          'Cinco entre las dos: se han turnado los vasos'
+        ],
+        correct: 2,
+        explanation: 'A las tres de la mañana Pepa y Loli se han tomado cuatro gin tonics.'
+      },
+      {
+        text: '¿Qué ha hecho Álvaro con los gin tonics que ha pedido?',
+        options: [
+          'Se los ha bebido todos: necesitaba aparentar que bebía como los demás',
+          'Ha pedido lo mismo que ellas pero no los ha probado',
+          'Ha pedido agua mineral toda la noche fingiendo que era vodka',
+          'Ha bebido solo el primero y luego ha ido pidiendo sin beber'
+        ],
+        correct: 1,
+        explanation: 'Álvaro también ha pedido lo mismo, pero no los ha probado. Necesita tener la cabeza clara.'
+      },
+      {
+        text: '¿Por qué Álvaro no bebe nada durante la noche de copas?',
+        options: [
+          'Porque es abstemio y nunca bebe alcohol en ninguna circunstancia',
+          'Porque le sienta mal el alcohol después de la cena que han tomado',
+          'Porque necesita tener la cabeza clara para buscar su bolsa',
+          'Porque Pepa le ha advertido que no beba si conduce de vuelta'
+        ],
+        correct: 2,
+        explanation: 'Álvaro no prueba el alcohol porque necesita tener la cabeza clara para poder buscar la bolsa.'
+      }
+    ]
+  },
+
+  'ex-18-1-13-2': {
+    id: 'ex-18-1-13-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. 22.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO → hoy/esta noche/ya/todavía (связь с настоящим: «ha hecho», «se han tomado», «no los ha probado»). INDEFINIDO → нарративные действия (encendió, entró y salió, se durmió, salió). IMPERFECTO → повторяемое/привычное (llenaba una y otra vez, bebía y bebía) или фоновое состояние/намерение (quería, llevaba). OD/ID → pronombres de objeto (se la olvidó, se lo bebió, se los pidió). SUBJUNTIVO → propone que / es natural que. FUTURO → al final / esta noche.',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Álvaro quiere averiguar qué _____ (hacer, Raúl) con su bolsa durante el trayecto en taxi desde Barcelona.', correct: 'ha hecho' },
+      { sentence: '«¡Siempre igual! _____ (olvidar, él) la bolsa en el restaurante», dice Pepa nada más llegar a la calle.', correct: 'Ha olvidado' },
+      { sentence: 'A las tres de la mañana, Pepa y Loli ya _____ (tomarse) cuatro gin tonics cada una.', correct: 'se han tomado' },
+      { sentence: 'Álvaro _____ (pedir) lo mismo que ellas, pero no _____ (probarlos): necesitaba tener la cabeza clara. [pronombre OD]', correct: 'ha pedido / los ha probado' },
+      { sentence: 'Raúl _____ (encender) un cigarrillo en cuanto salieron del restaurante a la calle.', correct: 'encendió' },
+      { sentence: 'Pepa _____ (entrar) en el restaurante y _____ (salir) con la bolsa verde de Raúl colgada al hombro.', correct: 'entró / salió' },
+      { sentence: 'Raúl _____ (dormirse) en el sofá nada más llegar al apartamento, después de la cena.', correct: 'se durmió' },
+      { sentence: 'Álvaro _____ (salir) a tomar copas con Loli y Pepa pensando en hacerlas beber para que se durmieran pronto.', correct: 'salió' },
+      { sentence: 'Durante toda la cena, Álvaro le _____ (llenar) el vaso a Raúl una y otra vez sin que él se diera cuenta. [imperfecto habitual]', correct: 'llenaba' },
+      { sentence: 'Raúl _____ (beber) y beber durante toda la cena sin sospechar que Álvaro lo hacía aposta para emborracharle. [imperfecto habitual]', correct: 'bebía' },
+      { sentence: 'Álvaro _____ (querer) emborrachar a Raúl para poder preguntarle qué había en la bolsa que le había dado en el taxi. [fondo/intención]', correct: 'quería' },
+      { sentence: 'Pepa _____ (llevar) la bolsa de Raúl con los bañadores toda la noche, por si les apetecía bañarse en el mar. [estado de fondo]', correct: 'llevaba' },
+      { sentence: 'Álvaro propone que Loli y Pepa _____ (salir) a dar una vuelta mientras él se queda a cuidar a Raúl.', correct: 'salgan' },
+      { sentence: 'Es natural que Raúl _____ (estar) tan borracho después de que Álvaro le haya llenado el vaso una y otra vez.', correct: 'esté' },
+      { sentence: 'Raúl olvidó la bolsa verde en el restaurante: _____ (olvidársela) al salir a la calle con el cigarrillo en la mano. [pronombres OD+ID]', correct: 'se la olvidó' }
+    ]
+  },
+
+  'ex-18-1-13-3': {
+    id: 'ex-18-1-13-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. 22.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Все четверо ужинают в ресторане под открытым небом.',
+        correct: 'Los cuatro cenan en un restaurante al aire libre.',
+        alternatives: ['Cenan los cuatro en una terraza de restaurante al aire libre.']
+      },
+      {
+        russian: 'Альваро хочет напоить Рауля допьяна, чтобы выяснить, что тот сделал с его сумкой.',
+        correct: 'Álvaro quiere emborrachar a Raúl para averiguar qué ha hecho con su bolsa.',
+        alternatives: ['Álvaro tiene intención de emborrachar a Raúl y así descubrir qué hizo con la bolsa.']
+      },
+      {
+        russian: 'Альваро снова и снова наполняет ему бокал, а Рауль пьёт и пьёт.',
+        correct: 'Álvaro le llena el vaso una y otra vez y Raúl bebe, bebe y bebe.',
+        alternatives: ['Álvaro no para de llenarle el vaso a Raúl, y Raúl no para de beber.']
+      },
+      {
+        russian: 'К концу ужина Рауль наполовину пьян.',
+        correct: 'Al terminar la cena, Raúl está medio borracho.',
+        alternatives: ['Raúl ya está medio borracho cuando acaban de cenar.']
+      },
+      {
+        russian: 'Они выходят на улицу и Рауль закуривает.',
+        correct: 'Salen a la calle y Raúl enciende un cigarrillo.',
+        alternatives: ['Al salir del restaurante, Raúl se enciende un cigarrillo.']
+      },
+      {
+        russian: 'Зелёная тканевая сумка остаётся в ресторане.',
+        correct: 'La bolsa verde de tela se queda en el restaurante.',
+        alternatives: ['La bolsa verde de tela se olvida dentro del restaurante cuando todos salen.']
+      },
+      {
+        russian: '«Он забыл сумку в ресторане. Как всегда», — говорит Пепа.',
+        correct: '«Ha olvidado la bolsa en el restaurante. Siempre igual» —dice Pepa.',
+        alternatives: ['Pepa lo dice con resignación: «Se ha dejado la bolsa en el restaurante. Como siempre».']
+      },
+      {
+        russian: 'Пепа входит в ресторан и выходит с сумкой Рауля, перекинутой через плечо.',
+        correct: 'Pepa entra en el restaurante y sale con la bolsa de Raúl colgada al hombro.',
+        alternatives: ['Pepa va a buscarla y vuelve con la bolsa de Raúl al hombro.']
+      },
+      {
+        russian: 'Все идут в квартиру, и Рауль засыпает на диване.',
+        correct: 'Van todos al apartamento y Raúl se duerme en el sofá.',
+        alternatives: ['Cuando llegan al apartamento, Raúl se queda dormido en el sofá.']
+      },
+      {
+        russian: '«Он очень пьян. Вы можете пойти прогуляться. Я останусь с ним за компанию».',
+        correct: '«Está muy borracho. Vosotras podéis ir a dar una vuelta. Yo me quedo para hacerle compañía».',
+        alternatives: ['«Raúl está muy borracho —dice Álvaro—. Id a dar una vuelta, que yo me quedo con él».']
+      },
+      {
+        russian: '«Нет, ты пойдёшь с нами. Рауль умеет сам о себе позаботиться».',
+        correct: '«No, tú te vienes con nosotras. Raúl sabe cuidarse solo» —dice Loli.',
+        alternatives: ['«Tú te vienes con nosotras —insiste Loli—. Raúl no necesita que nadie se quede con él».']
+      },
+      {
+        russian: 'Альваро думает: «Ладно, несколько бокалов — и они уснут, как Рауль».',
+        correct: '«Bueno, unas cuantas copas y luego van a dormir como Raúl» —piensa Álvaro.',
+        alternatives: ['Álvaro calcula: «Con unas copas se dormirán como Raúl y podré actuar».']
+      },
+      {
+        russian: 'Пепа берёт сумку Рауля с купальниками — на случай, если им захочется искупаться.',
+        correct: 'Pepa lleva la bolsa de Raúl con los bañadores, por si les apetece bañarse.',
+        alternatives: ['Pepa se lleva la bolsa de Raúl, que tiene los bañadores dentro, por si quieren darse un baño.']
+      },
+      {
+        russian: 'В три часа ночи Пепа и Лоли уже выпили по четыре джин-тоника.',
+        correct: 'A las tres de la mañana Pepa y Loli se han tomado cuatro gin tonics.',
+        alternatives: ['Pepa y Loli llevan cuatro gin tonics cada una cuando son las tres de la mañana.']
+      },
+      {
+        russian: 'Альваро тоже заказал то же самое, но не пробовал — ему нужна ясная голова.',
+        correct: 'Álvaro también ha pedido lo mismo, pero no los ha probado. Necesita tener la cabeza clara.',
+        alternatives: ['Álvaro pidió gin tonics como ellas, pero no los ha tocado: necesita estar despejado.']
       }
     ]
   }
