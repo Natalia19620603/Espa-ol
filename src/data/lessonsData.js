@@ -56908,6 +56908,285 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Es necesario que Raúl localice el piso antes de la llegada de Pepa.']
       }
     ]
+  },
+
+  'ex-18-1-7-1': {
+    id: 'ex-18-1-7-1',
+    type: 'reading',
+    title: 'Понимание текста: Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué piensa Álvaro cuando Pepa le dice que Raúl no tiene la bolsa?',
+        options: [
+          'Que Raúl ha perdido la bolsa en la carretera por descuido',
+          'Que el amigo de Pepa miente y tiene la bolsa pero no quiere dársela',
+          'Que Pepa es la que miente y tiene la bolsa ella misma',
+          'Que la bolsa la robaron en algún momento antes de llegar a Figueras'
+        ],
+        correct: 1,
+        explanation: 'Álvaro piensa: «El amigo de la taxista miente. Tiene mi bolsa y no quiere dármela, pero necesito recuperarla».'
+      },
+      {
+        text: '¿Qué estrategia decide seguir Álvaro para recuperar la bolsa?',
+        options: [
+          'Llamar a la policía para denunciar la situación formalmente',
+          'Amenazar a Pepa para que pare el taxi y le devuelva la bolsa',
+          'Ser simpático con Pepa para que lo lleve hasta su amigo Raúl',
+          'Bajarse del taxi en la próxima salida y buscar otro transporte'
+        ],
+        correct: 2,
+        explanation: 'Álvaro decide que tiene que ser simpático con la taxista y así esta lo llevará hasta su amigo.'
+      },
+      {
+        text: '¿Cuántos kilómetros hay desde la salida de Figueras hasta Empuriabrava?',
+        options: ['Unos diez kilómetros', 'Unos veinte kilómetros', 'Unos treinta kilómetros', 'Unos cincuenta kilómetros'],
+        correct: 2,
+        explanation: 'Pepa le explica: «La próxima salida de la autopista es la de Figueras y después hay unos treinta kilómetros hasta Empuriabrava».'
+      },
+      {
+        text: '¿Ha estado Pepa antes en Empuriabrava?',
+        options: [
+          'Sí, fue el año pasado con unos amigos',
+          'Sí, pero solo de paso, de camino a Francia',
+          'No, nunca ha estado en Empuriabrava',
+          'No recuerda si ha estado o no'
+        ],
+        correct: 2,
+        explanation: 'Pepa le dice a Álvaro: «Yo no he estado nunca», refiriéndose a Empuriabrava.'
+      },
+      {
+        text: '¿Con qué ciudad compara Pepa Empuriabrava? ¿Ha estado Pepa en esa ciudad?',
+        options: [
+          'Con Ámsterdam; sí, ha estado allí de vacaciones',
+          'Con Venecia; no, tampoco ha estado en Venecia',
+          'Con Venecia; sí, fue hace dos años',
+          'Con Mónaco; no lo sabe porque no ha estado'
+        ],
+        correct: 1,
+        explanation: 'Pepa dice: «Es algo así como Venecia… Bueno, yo tampoco he estado en Venecia».'
+      },
+      {
+        text: '¿Ha estado Álvaro en Venecia?',
+        options: [
+          'No, nunca ha viajado a Italia',
+          'Sí, ha estado y dice que es un lugar precioso',
+          'No lo menciona, cambia de tema rápidamente',
+          'Sí, pero prefiere Empuriabrava'
+        ],
+        correct: 1,
+        explanation: 'Álvaro confirma: «Yo sí. Un lugar precioso», hablando de Venecia.'
+      },
+      {
+        text: '¿Cómo se llama el pasajero de Pepa y cuándo lo dice?',
+        options: [
+          'Se llama Roberto y lo dice al subir al taxi',
+          'Se llama Marcos y Pepa lo había sabido antes',
+          'Se llama Álvaro y se lo dice cuando ya van camino de Empuriabrava',
+          'No dice su nombre en todo el capítulo'
+        ],
+        correct: 2,
+        explanation: 'Álvaro se presenta durante el viaje: «Ah, me llamo Álvaro. ¿Y tú?»'
+      },
+      {
+        text: '¿Por qué se disculpa Álvaro con Pepa?',
+        options: [
+          'Porque no lleva suficiente dinero para pagar el viaje',
+          'Porque ha llamado imbécil al amigo de Pepa',
+          'Porque no ha sido nada amable y reconoce que está nervioso por el trabajo',
+          'Porque ha mentido sobre el contenido de la bolsa'
+        ],
+        correct: 2,
+        explanation: 'Álvaro dice: «Te pido perdón. No he sido nada amable. Es que estoy nervioso. Cosas del trabajo. Tú no tienes la culpa de nada».'
+      },
+      {
+        text: '¿Qué dice Álvaro sobre el contenido de su bolsa?',
+        options: [
+          'Que llevaba documentos de trabajo muy importantes',
+          'Que llevaba dinero en efectivo y tarjetas bancarias',
+          'Que solo tiene valor sentimental, solo es importante para él',
+          'Que llevaba una obra de arte de gran valor económico'
+        ],
+        correct: 2,
+        explanation: 'Álvaro responde: «¡Bah! No importa… Lo que llevaba en la bolsa solo tiene valor sentimental, solo es importante para mí».'
+      },
+      {
+        text: '¿Qué ve Pepa al entrar en Empuriabrava?',
+        options: [
+          'Muchas tiendas de lujo y restaurantes en el paseo marítimo',
+          'Canales de agua con yates y lanchas amarrados a derecha e izquierda',
+          'Una playa enorme con miles de turistas tomando el sol',
+          'Edificios muy altos y modernos junto al mar'
+        ],
+        correct: 1,
+        explanation: 'Al entrar: «A derecha e izquierda de la calle por la que pasan se ven canales de agua con yates y lanchas amarrados».'
+      },
+      {
+        text: '¿Por qué Pepa llama a Loli en vez de a Raúl?',
+        options: [
+          'Porque prefiere hablar con Loli que con Raúl',
+          'Porque Raúl no contesta el teléfono, como siempre',
+          'Porque Raúl no tiene móvil con él en ese momento',
+          'Porque Loli conoce mejor Empuriabrava'
+        ],
+        correct: 1,
+        explanation: 'El texto dice: «Pepa para el coche y marca el número de Raúl. No contesta. ¡Como siempre! Llama a Loli».'
+      },
+      {
+        text: '¿Cuánto tiempo llevan Loli y Raúl en Empuriabrava cuando Pepa llama?',
+        options: [
+          'Media hora aproximadamente',
+          'Llegaron hace una hora',
+          'Llevan más de dos horas esperando',
+          'Acaban de llegar hace unos minutos'
+        ],
+        correct: 1,
+        explanation: 'Loli le dice a Pepa: «¡En Empuriabrava! Llegamos hace una hora» — hace + tiempo → pretérito indefinido.'
+      },
+      {
+        text: '¿Qué cree Álvaro que está pasando cuando escucha la conversación entre Pepa, Loli y Raúl?',
+        options: [
+          'Que Pepa y sus amigos son personas muy simpáticas y naturales',
+          'Que Pepa y sus amigos se hacen los tontos para despistarlo',
+          'Que Pepa está explicando la situación de la bolsa a sus amigos',
+          'Que la conversación es normal y sus amigos simplemente no saben dónde está la bolsa'
+        ],
+        correct: 1,
+        explanation: 'Álvaro piensa: «¡Qué conversación tan estúpida! Se hacen los estúpidos para despistarme, seguro».'
+      },
+      {
+        text: '¿Qué hace Raúl para orientar a Pepa y que puedan encontrarse?',
+        options: [
+          'Le envía la dirección exacta del bar por mensaje de texto',
+          'Sale a buscarla por las calles de Empuriabrava',
+          'Usa una torre alta visible como punto de referencia',
+          'Le pide a Loli que vaya a buscarla en coche'
+        ],
+        correct: 2,
+        explanation: 'Raúl le dice a Pepa: «¿Ves una especie de torre? ¿Una torre muy alta? Pues ve hacia ella. Nosotros estamos en un bar, justo al lado».'
+      },
+      {
+        text: '¿Por qué habla tanto y tan rápido Loli?',
+        options: [
+          'Porque está muy nerviosa por no haber encontrado el apartamento',
+          'Porque en la peluquería la conversación forma parte de su trabajo',
+          'Porque está muy contenta de ver a Pepa después de mucho tiempo',
+          'Porque Raúl le ha pedido que explique toda la situación con detalle'
+        ],
+        correct: 1,
+        explanation: 'El narrador explica: «Loli habla mucho y rápido. En la peluquería la conversación forma parte de su trabajo».'
+      }
+    ]
+  },
+
+  'ex-18-1-7-2': {
+    id: 'ex-18-1-7-2',
+    type: 'fillblank',
+    title: 'Грамматика: Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/nunca/ahora — связь с настоящим. INDEFINIDO (hizo) → hace + tiempo (llegamos hace una hora), anoche/ayer/entonces/cuando + событие. ВАЖНО: «hace una hora» → INDEFINIDO (llegamos hace una hora = конкретный момент); «llevar + gerundio» → настоящее длительное. IMPERFECTO → фон/мысли/привычки. SUBJUNTIVO → para que/espero que. FUTURO → cuando llegue...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'El tono de Álvaro _____ (cambiar) por completo: ahora parece relajado y sonríe por primera vez.', correct: 'ha cambiado' },
+      { sentence: '—Yo no _____ (estar) nunca en Empuriabrava —dice Pepa—, pero dicen que es un lugar muy especial.', correct: 'he estado' },
+      { sentence: 'Álvaro le _____ (pedir) perdón a Pepa porque reconoce que no ha sido nada amable con ella durante el viaje.', correct: 'ha pedido' },
+      { sentence: '—No _____ (ser, yo) nada amable. Es que estoy nervioso. Cosas del trabajo —dice Álvaro con tono más tranquilo.', correct: 'he sido' },
+      { sentence: '—¡_____ (cambiar, tú) de idea! ¿Te quedas con nosotros el fin de semana? —grita Loli muy contenta.', correct: 'Has cambiado' },
+      { sentence: 'Loli le dice a Pepa que _____ (llegar, ellos) a Empuriabrava hace una hora y que han pedido sándwiches.', correct: 'llegaron' },
+      { sentence: 'Álvaro _____ (sonreír) por primera vez cuando decidió ser simpático con Pepa para que lo llevara hasta Raúl.', correct: 'sonrió' },
+      { sentence: 'El hombre de la coleta _____ (decidir) ser simpático con Pepa para que lo llevara hasta su amigo.', correct: 'decidió' },
+      { sentence: 'Cuando _____ (llegar) a Empuriabrava, Pepa y Álvaro vieron los canales con yates y lanchas amarrados.', correct: 'llegaron' },
+      { sentence: 'Pepa _____ (girar) a la derecha y se dirigió hacia el mar siguiendo los canales.', correct: 'giró' },
+      { sentence: 'Álvaro _____ (pensar): «El amigo de la taxista miente. Tiene mi bolsa pero no quiere dármela».', correct: 'pensaba' },
+      { sentence: 'Loli _____ (hablar) mucho y muy rápido porque en la peluquería la conversación es parte de su trabajo.', correct: 'hablaba' },
+      { sentence: 'Álvaro decide ser simpático para que Pepa lo _____ (llevar) hasta su amigo Raúl en Empuriabrava.', correct: 'lleve' },
+      { sentence: 'Es importante que Pepa _____ (encontrar) a Raúl junto a la torre para reunirse todos.', correct: 'encuentre' },
+      { sentence: 'Cuando Pepa llegue al bar donde están Raúl y Loli, la situación _____ (ponerse) muy interesante.', correct: 'se pondrá' }
+    ]
+  },
+
+  'ex-18-1-7-3': {
+    id: 'ex-18-1-7-3',
+    type: 'translation',
+    title: 'Перевод: Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '«Мой друг не имеет твоей сумки и не знает, где её оставил. Мой друг очень рассеянный».',
+        correct: '«Mi amigo no tiene tu bolsa y no sabe dónde la ha dejado. Mi amigo es muy despistado».',
+        alternatives: ['«Mi amigo no tiene la bolsa y no recuerda dónde la ha dejado. Es muy despistado».']
+      },
+      {
+        russian: 'Мужчина с хвостом думает: «Друг таксистки лжёт. У него есть моя сумка, но он не хочет её возвращать».',
+        correct: 'El hombre de la coleta piensa: «El amigo de la taxista miente. Tiene mi bolsa y no quiere dármela».',
+        alternatives: ['El de la coleta piensa: «El amigo de Pepa miente: tiene mi bolsa pero no quiere devolvérmela».']
+      },
+      {
+        russian: 'Альваро решает быть приятным с Пепой, чтобы она отвезла его к своему другу.',
+        correct: 'Álvaro decide ser simpático con Pepa para que lo lleve hasta su amigo.',
+        alternatives: ['Álvaro decide cambiar de actitud y ser amable con Pepa para que lo lleve hasta Raúl.']
+      },
+      {
+        russian: '«Следующий съезд — Фигерас, а потом около тридцати километров до Эмпуриабравы».',
+        correct: '«La próxima salida de la autopista es la de Figueras y después hay unos treinta kilómetros hasta Empuriabrava».',
+        alternatives: ['«La salida de Figueras es la próxima y luego quedan unos treinta kilómetros hasta Empuriabrava».']
+      },
+      {
+        russian: '«Я никогда не была в Эмпуриабраве, но говорят, что это очень особенное место — что-то вроде Венеции».',
+        correct: '«Yo no he estado nunca en Empuriabrava, pero dicen que es un lugar muy especial. Es algo así como Venecia».',
+        alternatives: ['«Nunca he estado en Empuriabrava, pero cuentan que es muy especial, algo parecido a Venecia».']
+      },
+      {
+        russian: 'Тон Альваро изменился: теперь он кажется расслабленным и улыбается.',
+        correct: 'El tono de Álvaro ha cambiado: ahora parece relajado y sonríe.',
+        alternatives: ['El tono de Álvaro ha cambiado completamente: ahora está más tranquilo y sonríe.']
+      },
+      {
+        russian: '«Прости меня. Я был совсем невежлив. Просто я нервничаю. Рабочие дела».',
+        correct: '«Te pido perdón. No he sido nada amable. Es que estoy nervioso. Cosas del trabajo».',
+        alternatives: ['«Perdona. No he sido amable contigo. Es que estoy nervioso por cosas del trabajo».']
+      },
+      {
+        russian: '«В сумке было что-то ценное?» — «Бah! Не важно. Это имеет лишь сентиментальную ценность, важно только для меня».',
+        correct: '«¿Llevabas algo de valor en la bolsa?» — «¡Bah! No importa. Solo tiene valor sentimental, solo es importante para mí».',
+        alternatives: ['«¿Había algo valioso en la bolsa?» — «¡Bah! No importa. Lo que llevaba solo tiene valor sentimental».']
+      },
+      {
+        russian: 'По обеим сторонам улицы видны водные каналы с причаленными яхтами и катерами.',
+        correct: 'A derecha e izquierda de la calle se ven canales de agua con yates y lanchas amarrados.',
+        alternatives: ['A ambos lados de la calle hay canales con yates y lanchas amarrados.']
+      },
+      {
+        russian: 'Пепа звонит Раулю — он не берёт трубку, как всегда. Тогда звонит Лоли.',
+        correct: 'Pepa llama a Raúl: no contesta, ¡como siempre! Entonces llama a Loli.',
+        alternatives: ['Pepa marca el número de Raúl, pero no contesta. ¡Como siempre! Así que llama a Loli.']
+      },
+      {
+        russian: '«Ты изменила решение! Ты ведь останешься с нами на выходные, правда?»',
+        correct: '«¡Has cambiado de idea! ¿Te quedas con nosotros el fin de semana, verdad?»',
+        alternatives: ['«¡Has cambiado de idea! ¿No te vas a quedar con nosotros este fin de semana?»']
+      },
+      {
+        russian: '«Мы приехали час назад. Мы выпили пива и съели сэндвичи. Здесь очень красиво!»',
+        correct: '«Llegamos hace una hora. Nos hemos tomado unas cervezas y unos sándwiches. ¡Esto es muy bonito!»',
+        alternatives: ['«Llegamos hace una hora. Hemos tomado algo en un bar. ¡Es muy bonito esto!»']
+      },
+      {
+        russian: '«Рауль не находит квартиру своего друга. Мы спросили у нескольких людей, но все иностранцы».',
+        correct: '«Raúl no encuentra el apartamento de su amigo. Hemos preguntado a varias personas, pero todos son extranjeros».',
+        alternatives: ['«Raúl no encuentra el piso. Hemos preguntado a mucha gente, pero todos son guiris».']
+      },
+      {
+        russian: 'Альваро думает: «Какой глупый разговор! Они притворяются дураками, чтобы сбить меня с толку».',
+        correct: 'Álvaro piensa: «¡Qué conversación tan estúpida! Se hacen los estúpidos para despistarme, seguro».',
+        alternatives: ['Álvaro piensa: «¡Vaya conversación más tonta! Seguro que se hacen los tontos para confundirme».']
+      },
+      {
+        russian: '«Видишь что-то вроде башни? Иди к ней. Мы в баре, прямо рядом с ней».',
+        correct: '«¿Ves una especie de torre? Ve hacia ella. Nosotros estamos en un bar, justo al lado».',
+        alternatives: ['«¿Puedes ver una torre alta? Dirígete hacia ella. Estamos en el bar que hay al lado».']
+      }
+    ]
   }
 
 }
