@@ -56908,6 +56908,1989 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Es necesario que Raúl localice el piso antes de la llegada de Pepa.']
       }
     ]
+  },
+
+  'ex-18-1-7-1': {
+    id: 'ex-18-1-7-1',
+    type: 'reading',
+    title: 'Понимание текста: Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué piensa Álvaro cuando Pepa le dice que Raúl no tiene la bolsa?',
+        options: [
+          'Que Raúl ha perdido la bolsa en la carretera por descuido',
+          'Que el amigo de Pepa miente y tiene la bolsa pero no quiere dársela',
+          'Que Pepa es la que miente y tiene la bolsa ella misma',
+          'Que la bolsa la robaron en algún momento antes de llegar a Figueras'
+        ],
+        correct: 1,
+        explanation: 'Álvaro piensa: «El amigo de la taxista miente. Tiene mi bolsa y no quiere dármela, pero necesito recuperarla».'
+      },
+      {
+        text: '¿Qué estrategia decide seguir Álvaro para recuperar la bolsa?',
+        options: [
+          'Llamar a la policía para denunciar la situación formalmente',
+          'Amenazar a Pepa para que pare el taxi y le devuelva la bolsa',
+          'Ser simpático con Pepa para que lo lleve hasta su amigo Raúl',
+          'Bajarse del taxi en la próxima salida y buscar otro transporte'
+        ],
+        correct: 2,
+        explanation: 'Álvaro decide que tiene que ser simpático con la taxista y así esta lo llevará hasta su amigo.'
+      },
+      {
+        text: '¿Cuántos kilómetros hay desde la salida de Figueras hasta Empuriabrava?',
+        options: ['Unos diez kilómetros', 'Unos veinte kilómetros', 'Unos treinta kilómetros', 'Unos cincuenta kilómetros'],
+        correct: 2,
+        explanation: 'Pepa le explica: «La próxima salida de la autopista es la de Figueras y después hay unos treinta kilómetros hasta Empuriabrava».'
+      },
+      {
+        text: '¿Ha estado Pepa antes en Empuriabrava?',
+        options: [
+          'Sí, fue el año pasado con unos amigos',
+          'Sí, pero solo de paso, de camino a Francia',
+          'No, nunca ha estado en Empuriabrava',
+          'No recuerda si ha estado o no'
+        ],
+        correct: 2,
+        explanation: 'Pepa le dice a Álvaro: «Yo no he estado nunca», refiriéndose a Empuriabrava.'
+      },
+      {
+        text: '¿Con qué ciudad compara Pepa Empuriabrava? ¿Ha estado Pepa en esa ciudad?',
+        options: [
+          'Con Ámsterdam; sí, ha estado allí de vacaciones',
+          'Con Venecia; no, tampoco ha estado en Venecia',
+          'Con Venecia; sí, fue hace dos años',
+          'Con Mónaco; no lo sabe porque no ha estado'
+        ],
+        correct: 1,
+        explanation: 'Pepa dice: «Es algo así como Venecia… Bueno, yo tampoco he estado en Venecia».'
+      },
+      {
+        text: '¿Ha estado Álvaro en Venecia?',
+        options: [
+          'No, nunca ha viajado a Italia',
+          'Sí, ha estado y dice que es un lugar precioso',
+          'No lo menciona, cambia de tema rápidamente',
+          'Sí, pero prefiere Empuriabrava'
+        ],
+        correct: 1,
+        explanation: 'Álvaro confirma: «Yo sí. Un lugar precioso», hablando de Venecia.'
+      },
+      {
+        text: '¿Cómo se llama el pasajero de Pepa y cuándo lo dice?',
+        options: [
+          'Se llama Roberto y lo dice al subir al taxi',
+          'Se llama Marcos y Pepa lo había sabido antes',
+          'Se llama Álvaro y se lo dice cuando ya van camino de Empuriabrava',
+          'No dice su nombre en todo el capítulo'
+        ],
+        correct: 2,
+        explanation: 'Álvaro se presenta durante el viaje: «Ah, me llamo Álvaro. ¿Y tú?»'
+      },
+      {
+        text: '¿Por qué se disculpa Álvaro con Pepa?',
+        options: [
+          'Porque no lleva suficiente dinero para pagar el viaje',
+          'Porque ha llamado imbécil al amigo de Pepa',
+          'Porque no ha sido nada amable y reconoce que está nervioso por el trabajo',
+          'Porque ha mentido sobre el contenido de la bolsa'
+        ],
+        correct: 2,
+        explanation: 'Álvaro dice: «Te pido perdón. No he sido nada amable. Es que estoy nervioso. Cosas del trabajo. Tú no tienes la culpa de nada».'
+      },
+      {
+        text: '¿Qué dice Álvaro sobre el contenido de su bolsa?',
+        options: [
+          'Que llevaba documentos de trabajo muy importantes',
+          'Que llevaba dinero en efectivo y tarjetas bancarias',
+          'Que solo tiene valor sentimental, solo es importante para él',
+          'Que llevaba una obra de arte de gran valor económico'
+        ],
+        correct: 2,
+        explanation: 'Álvaro responde: «¡Bah! No importa… Lo que llevaba en la bolsa solo tiene valor sentimental, solo es importante para mí».'
+      },
+      {
+        text: '¿Qué ve Pepa al entrar en Empuriabrava?',
+        options: [
+          'Muchas tiendas de lujo y restaurantes en el paseo marítimo',
+          'Canales de agua con yates y lanchas amarrados a derecha e izquierda',
+          'Una playa enorme con miles de turistas tomando el sol',
+          'Edificios muy altos y modernos junto al mar'
+        ],
+        correct: 1,
+        explanation: 'Al entrar: «A derecha e izquierda de la calle por la que pasan se ven canales de agua con yates y lanchas amarrados».'
+      },
+      {
+        text: '¿Por qué Pepa llama a Loli en vez de a Raúl?',
+        options: [
+          'Porque prefiere hablar con Loli que con Raúl',
+          'Porque Raúl no contesta el teléfono, como siempre',
+          'Porque Raúl no tiene móvil con él en ese momento',
+          'Porque Loli conoce mejor Empuriabrava'
+        ],
+        correct: 1,
+        explanation: 'El texto dice: «Pepa para el coche y marca el número de Raúl. No contesta. ¡Como siempre! Llama a Loli».'
+      },
+      {
+        text: '¿Cuánto tiempo llevan Loli y Raúl en Empuriabrava cuando Pepa llama?',
+        options: [
+          'Media hora aproximadamente',
+          'Llegaron hace una hora',
+          'Llevan más de dos horas esperando',
+          'Acaban de llegar hace unos minutos'
+        ],
+        correct: 1,
+        explanation: 'Loli le dice a Pepa: «¡En Empuriabrava! Llegamos hace una hora» — hace + tiempo → pretérito indefinido.'
+      },
+      {
+        text: '¿Qué cree Álvaro que está pasando cuando escucha la conversación entre Pepa, Loli y Raúl?',
+        options: [
+          'Que Pepa y sus amigos son personas muy simpáticas y naturales',
+          'Que Pepa y sus amigos se hacen los tontos para despistarlo',
+          'Que Pepa está explicando la situación de la bolsa a sus amigos',
+          'Que la conversación es normal y sus amigos simplemente no saben dónde está la bolsa'
+        ],
+        correct: 1,
+        explanation: 'Álvaro piensa: «¡Qué conversación tan estúpida! Se hacen los estúpidos para despistarme, seguro».'
+      },
+      {
+        text: '¿Qué hace Raúl para orientar a Pepa y que puedan encontrarse?',
+        options: [
+          'Le envía la dirección exacta del bar por mensaje de texto',
+          'Sale a buscarla por las calles de Empuriabrava',
+          'Usa una torre alta visible como punto de referencia',
+          'Le pide a Loli que vaya a buscarla en coche'
+        ],
+        correct: 2,
+        explanation: 'Raúl le dice a Pepa: «¿Ves una especie de torre? ¿Una torre muy alta? Pues ve hacia ella. Nosotros estamos en un bar, justo al lado».'
+      },
+      {
+        text: '¿Por qué habla tanto y tan rápido Loli?',
+        options: [
+          'Porque está muy nerviosa por no haber encontrado el apartamento',
+          'Porque en la peluquería la conversación forma parte de su trabajo',
+          'Porque está muy contenta de ver a Pepa después de mucho tiempo',
+          'Porque Raúl le ha pedido que explique toda la situación con detalle'
+        ],
+        correct: 1,
+        explanation: 'El narrador explica: «Loli habla mucho y rápido. En la peluquería la conversación forma parte de su trabajo».'
+      }
+    ]
+  },
+
+  'ex-18-1-7-2': {
+    id: 'ex-18-1-7-2',
+    type: 'fillblank',
+    title: 'Грамматика: Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/nunca/ahora — связь с настоящим. INDEFINIDO (hizo) → hace + tiempo (llegamos hace una hora), anoche/ayer/entonces/cuando + событие. ВАЖНО: «hace una hora» → INDEFINIDO (llegamos hace una hora = конкретный момент); «llevar + gerundio» → настоящее длительное. IMPERFECTO → фон/мысли/привычки. SUBJUNTIVO → para que/espero que. FUTURO → cuando llegue...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'El tono de Álvaro _____ (cambiar) por completo: ahora parece relajado y sonríe por primera vez.', correct: 'ha cambiado' },
+      { sentence: '—Yo no _____ (estar) nunca en Empuriabrava —dice Pepa—, pero dicen que es un lugar muy especial.', correct: 'he estado' },
+      { sentence: 'Álvaro le _____ (pedir) perdón a Pepa porque reconoce que no ha sido nada amable con ella durante el viaje.', correct: 'ha pedido' },
+      { sentence: '—No _____ (ser, yo) nada amable. Es que estoy nervioso. Cosas del trabajo —dice Álvaro con tono más tranquilo.', correct: 'he sido' },
+      { sentence: '—¡_____ (cambiar, tú) de idea! ¿Te quedas con nosotros el fin de semana? —grita Loli muy contenta.', correct: 'Has cambiado' },
+      { sentence: 'Loli le dice a Pepa que _____ (llegar, ellos) a Empuriabrava hace una hora y que han pedido sándwiches.', correct: 'llegaron' },
+      { sentence: 'Álvaro _____ (sonreír) por primera vez cuando decidió ser simpático con Pepa para que lo llevara hasta Raúl.', correct: 'sonrió' },
+      { sentence: 'El hombre de la coleta _____ (decidir) ser simpático con Pepa para que lo llevara hasta su amigo.', correct: 'decidió' },
+      { sentence: 'Cuando _____ (llegar) a Empuriabrava, Pepa y Álvaro vieron los canales con yates y lanchas amarrados.', correct: 'llegaron' },
+      { sentence: 'Pepa _____ (girar) a la derecha y se dirigió hacia el mar siguiendo los canales.', correct: 'giró' },
+      { sentence: 'Álvaro _____ (pensar): «El amigo de la taxista miente. Tiene mi bolsa pero no quiere dármela».', correct: 'pensaba' },
+      { sentence: 'Loli _____ (hablar) mucho y muy rápido porque en la peluquería la conversación es parte de su trabajo.', correct: 'hablaba' },
+      { sentence: 'Álvaro decide ser simpático para que Pepa lo _____ (llevar) hasta su amigo Raúl en Empuriabrava.', correct: 'lleve' },
+      { sentence: 'Es importante que Pepa _____ (encontrar) a Raúl junto a la torre para reunirse todos.', correct: 'encuentre' },
+      { sentence: 'Cuando Pepa llegue al bar donde están Raúl y Loli, la situación _____ (ponerse) muy interesante.', correct: 'se pondrá' }
+    ]
+  },
+
+  'ex-18-1-7-3': {
+    id: 'ex-18-1-7-3',
+    type: 'translation',
+    title: 'Перевод: Autopista AP-7. Viernes, 1 de agosto. 17.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: '«Мой друг не имеет твоей сумки и не знает, где её оставил. Мой друг очень рассеянный».',
+        correct: '«Mi amigo no tiene tu bolsa y no sabe dónde la ha dejado. Mi amigo es muy despistado».',
+        alternatives: ['«Mi amigo no tiene la bolsa y no recuerda dónde la ha dejado. Es muy despistado».']
+      },
+      {
+        russian: 'Мужчина с хвостом думает: «Друг таксистки лжёт. У него есть моя сумка, но он не хочет её возвращать».',
+        correct: 'El hombre de la coleta piensa: «El amigo de la taxista miente. Tiene mi bolsa y no quiere dármela».',
+        alternatives: ['El de la coleta piensa: «El amigo de Pepa miente: tiene mi bolsa pero no quiere devolvérmela».']
+      },
+      {
+        russian: 'Альваро решает быть приятным с Пепой, чтобы она отвезла его к своему другу.',
+        correct: 'Álvaro decide ser simpático con Pepa para que lo lleve hasta su amigo.',
+        alternatives: ['Álvaro decide cambiar de actitud y ser amable con Pepa para que lo lleve hasta Raúl.']
+      },
+      {
+        russian: '«Следующий съезд — Фигерас, а потом около тридцати километров до Эмпуриабравы».',
+        correct: '«La próxima salida de la autopista es la de Figueras y después hay unos treinta kilómetros hasta Empuriabrava».',
+        alternatives: ['«La salida de Figueras es la próxima y luego quedan unos treinta kilómetros hasta Empuriabrava».']
+      },
+      {
+        russian: '«Я никогда не была в Эмпуриабраве, но говорят, что это очень особенное место — что-то вроде Венеции».',
+        correct: '«Yo no he estado nunca en Empuriabrava, pero dicen que es un lugar muy especial. Es algo así como Venecia».',
+        alternatives: ['«Nunca he estado en Empuriabrava, pero cuentan que es muy especial, algo parecido a Venecia».']
+      },
+      {
+        russian: 'Тон Альваро изменился: теперь он кажется расслабленным и улыбается.',
+        correct: 'El tono de Álvaro ha cambiado: ahora parece relajado y sonríe.',
+        alternatives: ['El tono de Álvaro ha cambiado completamente: ahora está más tranquilo y sonríe.']
+      },
+      {
+        russian: '«Прости меня. Я был совсем невежлив. Просто я нервничаю. Рабочие дела».',
+        correct: '«Te pido perdón. No he sido nada amable. Es que estoy nervioso. Cosas del trabajo».',
+        alternatives: ['«Perdona. No he sido amable contigo. Es que estoy nervioso por cosas del trabajo».']
+      },
+      {
+        russian: '«В сумке было что-то ценное?» — «Бah! Не важно. Это имеет лишь сентиментальную ценность, важно только для меня».',
+        correct: '«¿Llevabas algo de valor en la bolsa?» — «¡Bah! No importa. Solo tiene valor sentimental, solo es importante para mí».',
+        alternatives: ['«¿Había algo valioso en la bolsa?» — «¡Bah! No importa. Lo que llevaba solo tiene valor sentimental».']
+      },
+      {
+        russian: 'По обеим сторонам улицы видны водные каналы с причаленными яхтами и катерами.',
+        correct: 'A derecha e izquierda de la calle se ven canales de agua con yates y lanchas amarrados.',
+        alternatives: ['A ambos lados de la calle hay canales con yates y lanchas amarrados.']
+      },
+      {
+        russian: 'Пепа звонит Раулю — он не берёт трубку, как всегда. Тогда звонит Лоли.',
+        correct: 'Pepa llama a Raúl: no contesta, ¡como siempre! Entonces llama a Loli.',
+        alternatives: ['Pepa marca el número de Raúl, pero no contesta. ¡Como siempre! Así que llama a Loli.']
+      },
+      {
+        russian: '«Ты изменила решение! Ты ведь останешься с нами на выходные, правда?»',
+        correct: '«¡Has cambiado de idea! ¿Te quedas con nosotros el fin de semana, verdad?»',
+        alternatives: ['«¡Has cambiado de idea! ¿No te vas a quedar con nosotros este fin de semana?»']
+      },
+      {
+        russian: '«Мы приехали час назад. Мы выпили пива и съели сэндвичи. Здесь очень красиво!»',
+        correct: '«Llegamos hace una hora. Nos hemos tomado unas cervezas y unos sándwiches. ¡Esto es muy bonito!»',
+        alternatives: ['«Llegamos hace una hora. Hemos tomado algo en un bar. ¡Es muy bonito esto!»']
+      },
+      {
+        russian: '«Рауль не находит квартиру своего друга. Мы спросили у нескольких людей, но все иностранцы».',
+        correct: '«Raúl no encuentra el apartamento de su amigo. Hemos preguntado a varias personas, pero todos son extranjeros».',
+        alternatives: ['«Raúl no encuentra el piso. Hemos preguntado a mucha gente, pero todos son guiris».']
+      },
+      {
+        russian: 'Альваро думает: «Какой глупый разговор! Они притворяются дураками, чтобы сбить меня с толку».',
+        correct: 'Álvaro piensa: «¡Qué conversación tan estúpida! Se hacen los estúpidos para despistarme, seguro».',
+        alternatives: ['Álvaro piensa: «¡Vaya conversación más tonta! Seguro que se hacen los tontos para confundirme».']
+      },
+      {
+        russian: '«Видишь что-то вроде башни? Иди к ней. Мы в баре, прямо рядом с ней».',
+        correct: '«¿Ves una especie de torre? Ve hacia ella. Nosotros estamos en un bar, justo al lado».',
+        alternatives: ['«¿Puedes ver una torre alta? Dirígete hacia ella. Estamos en el bar que hay al lado».']
+      }
+    ]
+  },
+
+  'ex-18-1-8-1': {
+    id: 'ex-18-1-8-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Viernes, 18.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace Pepa en cuanto se reúne con sus amigos?',
+        options: [
+          'Les presenta a Álvaro y explica a Raúl lo que ha pasado con las bolsas',
+          'Les dice que tiene que volver a Barcelona inmediatamente',
+          'Presenta a Álvaro y le pide a Raúl que le devuelva la bolsa a Álvaro',
+          'Les explica dónde está el apartamento de Nacho'
+        ],
+        correct: 0,
+        explanation: 'Pepa se encuentra con sus amigos, les presenta a Álvaro y le explica a Raúl lo que ha pasado con las bolsas.'
+      },
+      {
+        text: '¿Qué hace Álvaro al reunirse con Raúl?',
+        options: [
+          'Le pide a Raúl que le devuelva sus documentos inmediatamente',
+          'Le da a Raúl su bolsa (la de Raúl)',
+          'Le pregunta a Raúl si sabe dónde está la bolsa',
+          'Se niega a hablar con Raúl porque está muy enfadado'
+        ],
+        correct: 1,
+        explanation: 'Álvaro le da la bolsa a Raúl — la bolsa verde de tela que era de Raúl.'
+      },
+      {
+        text: '¿Cómo reacciona Raúl al recibir la bolsa de Álvaro?',
+        options: [
+          'La mira con desconfianza porque no es la suya',
+          'La coge sin mirar qué hay dentro y dice «¡Hombre, qué bien! Mi bolsa»',
+          'La rechaza porque quiere primero saber qué pasó',
+          'La abre inmediatamente para buscar sus documentos'
+        ],
+        correct: 1,
+        explanation: 'Raúl coge la bolsa sin mirar lo que hay dentro y exclama: «¡Hombre, qué bien! Mi bolsa».'
+      },
+      {
+        text: '¿Por qué no sabe Raúl dónde está la bolsa de Álvaro?',
+        options: [
+          'Porque la dejó en el apartamento de Nacho al llegar',
+          'Porque ayer estuvo de marcha y no recuerda qué pasó',
+          'Porque Loli la perdió cuando buscaban el apartamento',
+          'Porque la dejó en el coche tuneado durante el viaje'
+        ],
+        correct: 1,
+        explanation: 'Raúl explica: «Ayer estuve por ahí de marcha y… No sé. No recuerdo qué pasó».'
+      },
+      {
+        text: '¿Dónde cree Raúl que puede estar la bolsa de Álvaro?',
+        options: [
+          'En el maletero de su coche tuneado',
+          'En el taxi de Pepa, donde la dejó antes',
+          'En casa de algún amigo o en algún bar',
+          'En el apartamento 112 del edificio The sun of the beach'
+        ],
+        correct: 2,
+        explanation: 'Raúl dice: «Quizás está en casa de algún colega o en algún bar».'
+      },
+      {
+        text: '¿Qué ofrece Raúl a Álvaro como compensación por haber perdido su bolsa?',
+        options: [
+          'Pagarle el valor de los documentos perdidos',
+          'Buscar personalmente la bolsa por todos los bares',
+          'Darle dinero en efectivo del bolsillo',
+          'Darle su propia bolsa verde'
+        ],
+        correct: 3,
+        explanation: 'Raúl le dice a Álvaro: «¡Toma! Te doy la mía», devolviéndole la bolsa que Álvaro le había dado.'
+      },
+      {
+        text: '¿Acepta Álvaro la oferta de Raúl?',
+        options: [
+          'Sí, la acepta porque necesita una bolsa',
+          'Sí, pero solo como compensación temporal',
+          'No, no quiere la bolsa de Raúl',
+          'No lo decide en este capítulo'
+        ],
+        correct: 2,
+        explanation: 'Álvaro le dice que no cuando Raúl insiste en darle su bolsa: «¿Para qué quiero yo tu bolsa?»'
+      },
+      {
+        text: '¿Cuál es la «lógica» de Raúl sobre el intercambio de bolsas?',
+        options: [
+          'Si te roban algo, tienes derecho a robar algo equivalente',
+          'Si yo pierdo la tuya, tú te quedas con la mía',
+          'Si perdiste algo mío, tienes que comprármelo nuevo',
+          'Las bolsas no tienen valor, lo importante es el contenido'
+        ],
+        correct: 1,
+        explanation: 'El narrador lo resume: «Yo he perdido la tuya, tú te quedas con la mía. Es la lógica de Raúl».'
+      },
+      {
+        text: '¿Qué saca Raúl de su bolsa al abrirla?',
+        options: [
+          'Un monedero y las llaves del coche',
+          'Una revista de motos y unas llaves',
+          'Su bañador',
+          'El papel con la dirección del apartamento de Nacho'
+        ],
+        correct: 2,
+        explanation: 'Raúl abre su bolsa y saca un bañador: «¡Mira, mi bañador! ¿Os gusta?»'
+      },
+      {
+        text: '¿Qué dice Álvaro que había en su bolsa?',
+        options: [
+          'Mucho dinero en efectivo y tarjetas de crédito',
+          'Solo papeles y documentos, no dinero',
+          'Objetos de gran valor económico',
+          'Fotos y recuerdos personales'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dice: «No. No llevaba dinero. Solo papeles, documentos…»'
+      },
+      {
+        text: '¿Qué señala Pepa que es lo verdaderamente importante?',
+        options: [
+          'Que Raúl encuentre la bolsa antes de que Álvaro llame a la policía',
+          'Que Álvaro se quede con la bolsa de Raúl como compensación',
+          'No la bolsa en sí, sino lo que hay dentro de ella',
+          'Que Raúl le pida disculpas formalmente a Álvaro'
+        ],
+        correct: 2,
+        explanation: 'Pepa explica: «La bolsa no importa. Lo que importa es lo que hay dentro».'
+      },
+      {
+        text: '¿Cómo describe Raúl su relación habitual con sus pertenencias?',
+        options: [
+          'Dice que siempre guarda sus cosas con mucho cuidado',
+          'Dice que siempre pierde las cosas',
+          'Dice que nunca ha perdido nada importante antes',
+          'Dice que fue un accidente único que no volverá a pasar'
+        ],
+        correct: 1,
+        explanation: 'Raúl reconoce su tendencia: «Siempre pierdo las cosas».'
+      },
+      {
+        text: '¿Qué contraste señala Pepa sobre la actitud de Álvaro?',
+        options: [
+          'Que antes quería ir a la policía y ahora no quiere',
+          'Que antes estaba muy preocupado por la bolsa y ahora dice que no importa',
+          'Que antes era muy amable y ahora está de mal humor',
+          'Que antes sabía exactamente qué había en la bolsa y ahora no recuerda'
+        ],
+        correct: 1,
+        explanation: 'Pepa le señala a Álvaro: «Pues antes estabas muy preocupado por tu bolsa…», y Álvaro responde: «Sí, pero… ¡Qué le vamos a hacer!»'
+      },
+      {
+        text: '¿Qué contraste hay entre lo que Álvaro dijo antes sobre el contenido de la bolsa y lo que dice ahora?',
+        options: [
+          'Antes dijo que era dinero; ahora dice que son papeles',
+          'Antes dijo que tenía «valor sentimental» y era «muy importante»; ahora dice «no importa»',
+          'Antes dijo que eran documentos; ahora no recuerda qué había',
+          'No hay contraste: siempre dijo que no era importante'
+        ],
+        correct: 1,
+        explanation: 'En el capítulo anterior Álvaro dijo que solo tenía «valor sentimental» y era importante solo para él; ahora ante Raúl dice «¡Bah! Nada importante» — una contradicción que aumenta la sospecha.'
+      },
+      {
+        text: '¿Qué rasgo de carácter de Raúl queda demostrado en este capítulo?',
+        options: [
+          'Que es una persona muy responsable y organizada',
+          'Que es tacaño y no quiere ayudar a Álvaro',
+          'Que es despistado, irresponsable con sus cosas pero de buen corazón',
+          'Que miente para no devolver la bolsa de Álvaro'
+        ],
+        correct: 2,
+        explanation: 'Raúl pierde la bolsa de Álvaro «de marcha», no recuerda nada, pero intenta compensar ofreciendo la suya. Es despistado e irresponsable pero no malintencionado.'
+      }
+    ]
+  },
+
+  'ex-18-1-8-2': {
+    id: 'ex-18-1-8-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Viernes, 18.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → ya/todavía/nunca — результат важен сейчас. INDEFINIDO (hizo) → ayer/anoche/entonces/cuando + событие — конкретный завершённый момент. КЛЮЧЕВОЕ: «ayer» и «anoche» → ВСЕГДА INDEFINIDO! PLUSCUAMPERFECTO (había hecho) → действие произошло ДО другого прошлого момента. IMPERFECTO → фон/состояние/описание. SUBJUNTIVO → es una lástima que/es importante que. FUTURO → cuando + subjuntivo...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Pepa ya les _____ (presentar) a Álvaro a sus amigos Raúl y Loli en cuanto llegó al lugar de encuentro.', correct: 'ha presentado' },
+      { sentence: 'Raúl reconoce abiertamente que _____ (perder, él) la bolsa de Álvaro: el resultado es que ahora no sabe dónde está.', correct: 'ha perdido' },
+      { sentence: 'Álvaro todavía no _____ (recuperar) su bolsa con los documentos importantes que llevaba dentro.', correct: 'ha recuperado' },
+      { sentence: 'Raúl nunca _____ (ser) una persona ordenada con sus cosas: siempre las pierde.', correct: 'ha sido' },
+      { sentence: 'Ayer por la noche, Raúl _____ (estar) de marcha con sus amigos y perdió la bolsa de Álvaro.', correct: 'estuvo' },
+      { sentence: 'Raúl no recuerda qué _____ (pasar) exactamente ayer por la noche con la bolsa de Álvaro.', correct: 'pasó' },
+      { sentence: 'Raúl _____ (abrir) su bolsa delante de todos y sacó el bañador con una gran sonrisa.', correct: 'abrió' },
+      { sentence: 'Raúl le _____ (devolver) a Álvaro la bolsa que este le había dado, pero Álvaro no quiso aceptarla.', correct: 'devolvió' },
+      { sentence: 'Álvaro _____ (decir) que no cuando Raúl le insistió por segunda vez en darle su propia bolsa.', correct: 'dijo' },
+      { sentence: 'Raúl le devolvió a Álvaro la bolsa que este le _____ (dar) momentos antes al reunirse todos.', correct: 'había dado' },
+      { sentence: 'Antes de reunirse con Raúl, Álvaro _____ (estar) muy preocupado por su bolsa durante todo el trayecto.', correct: 'estaba' },
+      { sentence: 'Raúl no _____ (querer) ser maleducado con Álvaro, por eso insistió en darle su propia bolsa como compensación.', correct: 'quería' },
+      { sentence: 'Es una lástima que Raúl no _____ (recordar) dónde dejó la bolsa de Álvaro después de salir de marcha.', correct: 'recuerde' },
+      { sentence: 'Es importante que alguien _____ (encontrar) la bolsa de Álvaro porque los documentos son imprescindibles.', correct: 'encuentre' },
+      { sentence: 'Cuando aparezca la bolsa de Álvaro, todo el mundo _____ (saber) por fin qué había realmente dentro.', correct: 'sabrá' }
+    ]
+  },
+
+  'ex-18-1-8-3': {
+    id: 'ex-18-1-8-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Viernes, 18.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Пепа встречается со своими друзьями, представляет им Альваро и объясняет Раулю, что случилось с сумками.',
+        correct: 'Pepa se encuentra con sus amigos, les presenta a Álvaro y le explica a Raúl lo que ha pasado con las bolsas.',
+        alternatives: ['Pepa llega donde están sus amigos, les presenta a Álvaro y cuenta lo de las bolsas.']
+      },
+      {
+        russian: 'Альваро отдаёт Раулю его сумку. «Отлично! Это моя сумка!»',
+        correct: 'Álvaro le da la bolsa a Raúl. «¡Hombre, qué bien! ¡Mi bolsa!»',
+        alternatives: ['Álvaro entrega la bolsa a Raúl. «¡Qué bien! ¡Es mi bolsa!»']
+      },
+      {
+        russian: '«А моя?» — спрашивает Альваро. «Без понятия, приятель. Вчера я гулял по барам и... не знаю».',
+        correct: '«¿Y la mía?» —pregunta Álvaro. «Ni puta idea, tío. Ayer estuve por ahí de marcha y... No sé».',
+        alternatives: ['«¿Y la mía?» —dice Álvaro. «No tengo ni idea, colega. Ayer salí de marcha y no recuerdo nada».']
+      },
+      {
+        russian: '«Я всегда теряю вещи. Может, сумка у кого-то из друзей или в каком-то баре».',
+        correct: '«Siempre pierdo las cosas. Quizás está en casa de algún colega o en algún bar».',
+        alternatives: ['«Es que siempre pierdo todo. Puede que esté en casa de algún amigo o en algún bar».']
+      },
+      {
+        russian: 'Рауль возвращает Альваро сумку, которую тот ему дал, и говорит: «На, возьми мою».',
+        correct: 'Raúl le devuelve a Álvaro la bolsa que este le había dado y dice: «¡Toma! Te doy la mía».',
+        alternatives: ['Raúl le da de vuelta la bolsa que Álvaro le había entregado y le ofrece la suya propia.']
+      },
+      {
+        russian: '«Зачем мне твоя сумка?» — спрашивает Альваро.',
+        correct: '«¿Para qué quiero yo tu bolsa?» —pregunta Álvaro.',
+        alternatives: ['«¿Y qué hago yo con tu bolsa?» —dice Álvaro sin entender la lógica de Raúl.']
+      },
+      {
+        russian: '«Я потерял твою — ты забираешь мою». Это логика Рауля.',
+        correct: '«Yo he perdido la tuya, tú te quedas con la mía». Es la lógica de Raúl.',
+        alternatives: ['«He perdido la tuya, así que te quedas con la mía». Esa es la lógica de Raúl.']
+      },
+      {
+        russian: 'Рауль открывает свою сумку и достаёт купальник: «Смотри, мой купальник! Нравится?»',
+        correct: 'Raúl abre su bolsa y saca un bañador: «¡Mira, mi bañador! ¿Os gusta?»',
+        alternatives: ['Raúl abre la bolsa, saca el bañador y pregunta: «¿Veis? ¡Mi bañador! ¿Qué os parece?»']
+      },
+      {
+        russian: '«В сумке не было денег. Только бумаги, документы...» — говорит Альваро.',
+        correct: '«No. No llevaba dinero. Solo papeles, documentos...» —dice Álvaro.',
+        alternatives: ['«No llevaba dinero —explica Álvaro—. Solo documentos y papeles importantes».']
+      },
+      {
+        russian: '«Не важна сумка, — объясняет Пепа, — важно то, что внутри».',
+        correct: '«La bolsa no importa —explica Pepa—. Lo que importa es lo que hay dentro».',
+        alternatives: ['Pepa aclara: «Lo importante no es la bolsa sino su contenido».']
+      },
+      {
+        russian: '«Ничего важного, правда?» — «Ну, раньше ты очень переживал из-за своей сумки...»',
+        correct: '«¡Bah! Nada importante, ¿no?» —«Pues antes estabas muy preocupado por tu bolsa…»',
+        alternatives: ['«Nada importante, ¿verdad?» —«Sin embargo, antes te preocupabas mucho por esa bolsa…»']
+      },
+      {
+        russian: 'Альваро отказывается когда Рауль снова предлагает ему взять свою сумку.',
+        correct: 'Álvaro le dice que no cuando Raúl insiste en darle su bolsa.',
+        alternatives: ['Álvaro vuelve a rechazar la bolsa de Raúl cuando este insiste por segunda vez.']
+      },
+      {
+        russian: 'Жаль, что Рауль не помнит, где оставил сумку Альваро после ночных гуляний.',
+        correct: 'Es una lástima que Raúl no recuerde dónde dejó la bolsa de Álvaro después de salir de marcha.',
+        alternatives: ['Es una pena que Raúl no pueda recordar qué pasó con la bolsa de Álvaro aquella noche.']
+      },
+      {
+        russian: 'Важно, чтобы кто-нибудь нашёл сумку Альваро, потому что документы очень нужны.',
+        correct: 'Es importante que alguien encuentre la bolsa de Álvaro porque los documentos son imprescindibles.',
+        alternatives: ['Es necesario que aparezca la bolsa de Álvaro, ya que los documentos son fundamentales.']
+      },
+      {
+        russian: 'Когда найдётся сумка Альваро, все наконец узнают, что на самом деле было внутри.',
+        correct: 'Cuando aparezca la bolsa de Álvaro, todos sabrán por fin qué había realmente dentro.',
+        alternatives: ['Cuando la bolsa aparezca, se descubrirá qué contenía exactamente.']
+      }
+    ]
+  },
+
+  'ex-18-1-9-1': {
+    id: 'ex-18-1-9-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Restaurante El calamar. 18.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué está comiendo Pepe cuando empieza el capítulo?',
+        options: [
+          'Un bogavante entero a la plancha',
+          'Un bocadillo de jamón y queso',
+          'Una gran copa de helado cubierto de chocolate',
+          'Una ración de patatas fritas con alioli'
+        ],
+        correct: 2,
+        explanation: 'Pepe está terminando una gran copa de helado cubierto de chocolate mientras Mercè tiene delante un bogavante que no puede comer.'
+      },
+      {
+        text: '¿Por qué no puede comer Mercè el bogavante?',
+        options: [
+          'Porque es alérgica al marisco y no lo sabe',
+          'Porque el bogavante está duro y no puede pincharlo ni cortarlo',
+          'Porque el médico le ha prohibido comer marisco',
+          'Porque lo ha pedido por equivocación y no le gusta'
+        ],
+        correct: 1,
+        explanation: 'Mercè quiere pinchar el bogavante con el tenedor y cortarlo con el cuchillo, pero no puede porque está duro.'
+      },
+      {
+        text: '¿Qué le recuerda Pepe a Mercè sobre el bogavante?',
+        options: [
+          'Que lo ha pedido él porque es el plato del día',
+          'Que le ha dicho que quería comer bogavante',
+          'Que es el marisco más fresco que hay en la Costa Brava',
+          'Que el camarero les recomendó personalmente ese plato'
+        ],
+        correct: 1,
+        explanation: 'Pepe le dice: «Mercè, es un bogavante. Me has dicho que querías comer bogavante».'
+      },
+      {
+        text: '¿A quién le da Mercè el plato con el bogavante?',
+        options: [
+          'Al camarero del restaurante, que se lo lleva a la cocina',
+          'A Pepe, para que lo coma él porque le gusta el marisco',
+          'A un chico que pasa por la calle, creyendo que es el camarero',
+          'Al mendigo que está sentado en el suelo'
+        ],
+        correct: 2,
+        explanation: 'Mercè llama a un chico que pasa por la calle y le da el plato, creyendo que es el camarero. El chico responde: «Señora, yo no…»'
+      },
+      {
+        text: '¿Qué ocurre cuando Mercè se levanta para ir al baño?',
+        options: [
+          'Tropieza con la silla y se cae al suelo',
+          'Le da un golpe al chico sin mirar y el bogavante cae en la cabeza de Pepe',
+          'El camarero de verdad le trae la ensalada que había pedido',
+          'Se le cae el bolso y todos los medicamentos se esparcen por el suelo'
+        ],
+        correct: 1,
+        explanation: 'Mercè, sin mirar y sin ver, se levanta para ir al baño, le da un golpe al chico y el bogavante cae en la cabeza de Pepe.'
+      },
+      {
+        text: '¿Qué hace Pepe con el bogavante después de que cae en su cabeza?',
+        options: [
+          'Lo devuelve al plato y lo intenta comer',
+          'Lo pone en la mesa con cuidado y llama al camarero',
+          'Lo coge y lo tira hacia atrás sin mirar lo que hay detrás',
+          'Lo tira al suelo delante del restaurante'
+        ],
+        correct: 2,
+        explanation: 'Pepe coge el bogavante y lo tira hacia atrás sin mirar, sin saber quién está detrás de él.'
+      },
+      {
+        text: '¿Dónde cae el bogavante cuando Pepe lo tira?',
+        options: [
+          'Encima de la mesa de los clientes de al lado',
+          'En el medio de la calle, delante del restaurante',
+          'A los pies de un mendigo que está sentado en el suelo',
+          'Dentro de la fuente decorativa del restaurante'
+        ],
+        correct: 2,
+        explanation: 'El bogavante cae a los pies de un mendigo que está sentado en el suelo, con un letrero en el que pone: «Dame algo para comer».'
+      },
+      {
+        text: '¿Qué noticia trae Mercè al volver del baño?',
+        options: [
+          'Que van a cerrar el restaurante porque hay una inspección de sanidad',
+          'Que han encontrado la bolsa de Álvaro en Figueras',
+          'Que han robado un cuadro de Dalí del museo de Figueras',
+          'Que hay un accidente grave en la autopista AP-7'
+        ],
+        correct: 2,
+        explanation: 'Mercè dice: «En la tele están diciendo que han robado un cuadro de Dalí del museo de Figueras».'
+      },
+      {
+        text: '¿Cómo describe Mercè el cuadro robado?',
+        options: [
+          'Un cuadro enorme con relojes derritiéndose',
+          'Un cuadro pequeño, muy bonito, con un pan que parece de verdad',
+          'Un autorretrato famoso del pintor Salvador Dalí',
+          'Un cuadro grande con una mujer al lado del mar'
+        ],
+        correct: 1,
+        explanation: 'Mercè describe el cuadro robado como «un cuadro pequeño, muy bonito. Ese cuadro con un pan que parece de verdad».'
+      },
+      {
+        text: '¿Qué malentendido provoca que Pepe le dé un plato de pan a Mercè?',
+        options: [
+          'Pepe cree que Mercè quiere pan de acompañamiento con la ensalada',
+          'Pepe confunde el nombre del cuadro («el cuadro del pan») con la petición de comer pan',
+          'El camarero les trae pan porque es lo que hay en el menú del día',
+          'Pepe quiere que Mercè coma algo aunque sea pan, porque no ha probado bocado'
+        ],
+        correct: 1,
+        explanation: 'Mercè dice «Que han robado el cuadro del pan» y Pepe entiende que quiere pan: «¡Toma! No quieres el bogavante y pides pan».'
+      },
+      {
+        text: '¿Qué entiende Pepe cuando Mercè grita «¡ENSALADA!»?',
+        options: [
+          'Entiende perfectamente que quiere una ensalada y llama al camarero',
+          'No entiende nada y guarda silencio',
+          'Entiende «delgada» y le dice «Síiiiiii, estás delgada»',
+          'Entiende «nada» y le dice que no hay nada en el restaurante'
+        ],
+        correct: 2,
+        explanation: 'Pepe oye «ensalada» como «delgada» y responde: «Síiiiiii, estás delgada», lo que enfurece aún más a Mercè.'
+      },
+      {
+        text: '¿Por qué dice Mercè que está tan delgada?',
+        options: [
+          'Porque sigue una dieta estricta por su diabetes',
+          'Porque en casa no hay comida, en el restaurante no puede comer y no le traen la ensalada',
+          'Porque Pepe se come toda la comida que hay en casa',
+          'Porque el calor del verano le quita el apetito'
+        ],
+        correct: 1,
+        explanation: 'Mercè enumera sus razones: «¡En casa no hay comida, en el restaurante no puedo comer. No me traen la comida. He pedido una ensalada!»'
+      },
+      {
+        text: '¿Qué entiende Pepe cuando Mercè dice «estoy harta de hablar con un sordo»?',
+        options: [
+          'Lo entiende perfectamente y se disculpa',
+          'Entiende «gordo» y dice: «¿Gordo? Yo no estoy gordo»',
+          'Entiende «moro» y se queda confundido',
+          'No entiende nada y sigue comiendo tranquilamente'
+        ],
+        correct: 1,
+        explanation: 'Pepe oye «sordo» como «gordo» y responde indignado: «¿Gordo? Yo no estoy gordo», sin entender lo que Mercè realmente dice.'
+      },
+      {
+        text: '¿Qué relación tiene la noticia del robo del cuadro con el resto de la historia?',
+        options: [
+          'Ninguna, es solo un detalle del ambiente de la historia',
+          'El cuadro robado podría ser lo que había en la bolsa de Álvaro',
+          'El mendigo que recibe el bogavante es el ladrón del cuadro',
+          'Mercè y Pepe son los únicos que saben quién robó el cuadro'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dijo que su bolsa contenía «papeles, documentos» con «valor sentimental». La noticia del robo del cuadro de Dalí conecta la historia: el cuadro podría ser lo que Álvaro transportaba en su bolsa.'
+      },
+      {
+        text: '¿Qué elemento cómico recorre todo el capítulo?',
+        options: [
+          'Raúl no sabe hablar inglés y nadie le entiende en el restaurante',
+          'Los malentendidos entre Mercè, que tiene mala vista, y Pepe, que está sordo',
+          'El mendigo que recibe el bogavante no entiende qué está pasando',
+          'El camarero se niega a traer la ensalada porque no está en el menú'
+        ],
+        correct: 1,
+        explanation: 'Todo el capítulo gira en torno a los malentendidos cómicos: Mercè no ve bien (confunde al chico con el camarero) y Pepe no oye bien («ensalada» → «delgada», «sordo» → «gordo»).'
+      }
+    ]
+  },
+
+  'ex-18-1-9-2': {
+    id: 'ex-18-1-9-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Restaurante El calamar. 18.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/todavía/nunca + НОВОСТЬ с актуальностью сейчас («han robado» = только что украли, картина ещё не найдена). INDEFINIDO (hizo) → нарративные моменты в рассказе (cogió, cayó, salió), ayer/entonces/cuando. PLUSCUAMPERFECTO → действие ДО другого прошлого. IMPERFECTO → фон/описание. SUBJUNTIVO → es una lástima que / ojalá. FUTURO → cuando + subjuntivo...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '—¡Me _____ (decir, tú) que querías comer bogavante! —le recuerda Pepe a Mercè en plena cena de hoy.', correct: 'has dicho' },
+      { sentence: '—Yo no te _____ (decir) eso —responde Mercè tajante, negando lo que supuestamente dijo hoy en el restaurante.', correct: 'he dicho' },
+      { sentence: 'Mercè _____ (pedir) una ensalada, pero los camareros todavía no se la han traído.', correct: 'ha pedido' },
+      { sentence: 'En la televisión acaban de anunciar que alguien _____ (robar) un cuadro pequeño del museo Dalí de Figueras.', correct: 'ha robado' },
+      { sentence: 'Mercè _____ (intentar) pinchar el bogavante con el tenedor, pero estaba tan duro que no pudo.', correct: 'intentó' },
+      { sentence: 'Mercè le _____ (dar) el plato con el bogavante al primer chico que pasó por la calle, creyendo que era el camarero.', correct: 'dio' },
+      { sentence: 'Al levantarse para ir al baño, Mercè le _____ (dar) un golpe al chico sin querer y el bogavante salió volando.', correct: 'dio' },
+      { sentence: 'El chico _____ (salir) corriendo en cuanto el bogavante cayó sobre la cabeza de Pepe.', correct: 'salió' },
+      { sentence: 'Pepe _____ (coger) el bogavante que le cayó encima y lo tiró hacia atrás sin mirar qué había detrás.', correct: 'cogió' },
+      { sentence: 'El bogavante _____ (caer) exactamente a los pies de un mendigo que estaba sentado en el suelo con un letrero.', correct: 'cayó' },
+      { sentence: 'El mendigo _____ (estar) sentado en el suelo con un letrero que pedía algo de comer cuando el bogavante aterrizó a sus pies.', correct: 'estaba' },
+      { sentence: 'Mercè _____ (querer) simplemente cenar algo ligero, pero el restaurante le trajo un bogavante enorme que no podía comer.', correct: 'quería' },
+      { sentence: 'Es una lástima que los camareros no le _____ (traer) la ensalada a Mercè después de tanto tiempo esperando.', correct: 'traigan' },
+      { sentence: 'Ojalá que Pepe _____ (entender) algún día lo que le dice su mujer sin que ella tenga que gritar.', correct: 'entienda' },
+      { sentence: 'Cuando la policía _____ (investigar) el robo del cuadro, descubrirá conexiones inesperadas con nuestra historia.', correct: 'investigue' }
+    ]
+  },
+
+  'ex-18-1-9-3': {
+    id: 'ex-18-1-9-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Restaurante El calamar. 18.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Мерсе и Пепе сидят на террасе ресторана. Пепе заканчивает большую вазочку мороженого с шоколадом.',
+        correct: 'Mercè y Pepe están en la terraza del restaurante. Pepe está terminando una gran copa de helado cubierto de chocolate.',
+        alternatives: ['Mercè y Pepe están sentados en la terraza del restaurante. Pepe termina una copa enorme de helado con chocolate.']
+      },
+      {
+        russian: 'Перед Мерсе стоит тарелка с целым омаром, но она не может его ни наколоть, ни разрезать — он слишком жёсткий.',
+        correct: 'Mercè tiene delante un plato con un bogavante entero, pero no puede pincharlo ni cortarlo: está muy duro.',
+        alternatives: ['Mercè tiene un bogavante entero delante, pero está tan duro que no puede ni pincharlo ni cortarlo con los cubiertos.']
+      },
+      {
+        russian: '«Ты же сказала мне, что хотела поесть омара!» — «Я тебе такого не говорила!»',
+        correct: '«¡Me has dicho que querías comer bogavante!» — «¡Yo no te he dicho eso!»',
+        alternatives: ['«Me dijiste que querías bogavante» — «No te he dicho tal cosa».']
+      },
+      {
+        russian: 'Мерсе поднимает руку и подзывает парня, который идёт по улице, думая, что это официант.',
+        correct: 'Mercè levanta el brazo y llama a un chico que pasa por la calle, creyendo que es el camarero.',
+        alternatives: ['Mercè hace señas a un chico que pasa por la calle porque cree que es el camarero del restaurante.']
+      },
+      {
+        russian: 'Вставая, чтобы пойти в туалет, Мерсе нечаянно задевает парня, и омар падает на голову Пепе.',
+        correct: 'Al levantarse para ir al baño, Mercè le da un golpe al chico sin querer y el bogavante cae en la cabeza de Pepe.',
+        alternatives: ['Cuando Mercè se levanta para ir al baño, golpea al chico sin querer y el bogavante acaba en la cabeza de Pepe.']
+      },
+      {
+        russian: 'Парень убегает. Пепе берёт омара и бросает его назад, не глядя, что там сзади.',
+        correct: 'El chico sale corriendo. Pepe coge el bogavante y lo tira hacia atrás sin mirar lo que hay detrás.',
+        alternatives: ['El chico echa a correr. Pepe agarra el bogavante y lo lanza hacia atrás sin fijarse en lo que hay detrás de él.']
+      },
+      {
+        russian: 'Омар падает к ногам нищего, который сидит на земле с табличкой «Дай мне что-нибудь поесть».',
+        correct: 'El bogavante cae a los pies de un mendigo que está sentado en el suelo, con un letrero en el que pone: «Dame algo para comer».',
+        alternatives: ['El bogavante aterriza justo a los pies de un mendigo sentado en el suelo con un cartel que dice «Dame algo para comer».']
+      },
+      {
+        russian: '«По телевизору говорят, что украли картину Дали из музея в Фигерасе».',
+        correct: '«En la tele están diciendo que han robado un cuadro de Dalí del museo de Figueras».',
+        alternatives: ['«La televisión dice que han robado un cuadro de Dalí en el museo de Figueras».']
+      },
+      {
+        russian: 'Пепе даёт ей хлеб: «Ты не хочешь омара и просишь хлеб. Ты очень странная, Мерсе».',
+        correct: 'Pepe le da el plato con el pan: «No quieres el bogavante y pides pan. Estás muy rara, Mercè».',
+        alternatives: ['Pepe le pone delante el pan: «No quieres el bogavante y ahora pides pan. Estás rara, Mercè».']
+      },
+      {
+        russian: '«Я заказала салат! Я хочу есть!» — кричит Мерсе, показывая жест «есть».',
+        correct: '«¡He pedido una ensalada! ¡Yo quiero comer!» —grita Mercè haciendo el gesto de llevarse la mano a la boca.',
+        alternatives: ['«¡He pedido una ensalada y quiero comer!» —grita Mercè mientras hace el gesto de comer con la mano.']
+      },
+      {
+        russian: '«Потому что я ненавижу омара, потому что официанты не несут мой салат и потому что дома нет еды!»',
+        correct: '«¡Porque odio el bogavante, porque los camareros no me traen mi ensalada y porque en casa no hay comida!»',
+        alternatives: ['«¡Es que odio el bogavante, los camareros no me traen la ensalada y en casa tampoco hay nada que comer!»']
+      },
+      {
+        russian: '«Что ты говоришь о напитках?» — спрашивает Пепе, перепутав «comida» с «bebida».',
+        correct: '«¿Qué dices de la bebida?» —pregunta Pepe, confundiendo «comida» con «bebida».',
+        alternatives: ['Pepe confunde «comida» con «bebida» y pregunta: «¿Qué dices de la bebida?»']
+      },
+      {
+        russian: '«У МЕНЯ ЖУТКИЙ ГОЛОД! И МНЕ НАДОЕЛО РАЗГОВАРИВАТЬ С ГЛУХИМ!»',
+        correct: '«¡TENGO HAMBREEE! ¡Y ESTOY HARTA DE HABLAR CON UN SORDO!»',
+        alternatives: ['«¡ME MUERO DE HAMBRE! ¡Y ESTOY HARTA DE HABLAR CON UN SORDO!»']
+      },
+      {
+        russian: '«Толстый? Я не толстый» — отвечает Пепе, перепутав «sordo» с «gordo».',
+        correct: '«¿Gordo? Yo no estoy gordo» —responde Pepe, confundiendo «sordo» con «gordo».',
+        alternatives: ['Pepe oye «gordo» en vez de «sordo» y responde indignado: «¿Gordo? ¡Yo no estoy gordo!»']
+      },
+      {
+        russian: 'Жаль, что ни Мерсе, ни Пепе не понимают, что новость о краже картины связана с их историей.',
+        correct: 'Es una lástima que ni Mercè ni Pepe entiendan que la noticia del robo del cuadro está relacionada con su historia.',
+        alternatives: ['Es una pena que ninguno de los dos se dé cuenta de que la noticia del robo tiene que ver con lo que les pasa.']
+      }
+    ]
+  },
+
+  'ex-18-1-10-1': {
+    id: 'ex-18-1-10-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Terraza de un bar. 19.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué problema tienen Loli y Raúl cuando Pepa llega a la terraza del bar?',
+        options: [
+          'Han perdido las llaves del apartamento de Nacho',
+          'No pueden encontrar el apartamento después de más de una hora buscando',
+          'Raúl no tiene dinero para pagar las cervezas y los sándwiches',
+          'Loli no se encuentra bien y quiere volver a Barcelona'
+        ],
+        correct: 1,
+        explanation: 'El capítulo empieza así: «Loli y Raúl le han dicho a Pepa que no pueden encontrar el apartamento».'
+      },
+      {
+        text: '¿Qué solución propone Pepa para encontrar el apartamento?',
+        options: [
+          'Que llamen a Nacho a Londres para que les dé la dirección exacta',
+          'Que busquen el edificio en Google Maps con el móvil',
+          'Que pregunten al camarero del bar',
+          'Que vuelvan a la entrada de Empuriabrava y busquen desde allí'
+        ],
+        correct: 2,
+        explanation: 'Ante la duda de Raúl, Pepa responde directamente: «Pues al camarero, por ejemplo».'
+      },
+      {
+        text: '¿Por qué dice Raúl que no ha querido preguntar a nadie la dirección?',
+        options: [
+          'Porque creía que podía encontrar el apartamento solo siguiendo los canales',
+          'Porque la gente le mira con una cara (rara) cuando les pregunta',
+          'Porque no habla español con los extranjeros de Empuriabrava',
+          'Porque tiene vergüenza de admitir que no sabe inglés'
+        ],
+        correct: 1,
+        explanation: 'Raúl explica: «Pero es que… Pregunto y la gente me mira con una cara…», insinuando que le miran raro (probablemente por sus piercings y tatuajes).'
+      },
+      {
+        text: '¿Qué le pide Pepa a Raúl para resolver el problema?',
+        options: [
+          'El número de teléfono de Nacho para llamarle directamente',
+          'El móvil para buscar la dirección en internet',
+          'Las llaves, porque en el llavero hay un papel con la dirección',
+          'El nombre exacto del bar donde están para orientarse'
+        ],
+        correct: 2,
+        explanation: 'Pepa le dice: «Dame las llaves». Raúl le da las llaves y Pepa mira la dirección que hay en el papel del llavero.'
+      },
+      {
+        text: '¿Qué información hay en el papel del llavero?',
+        options: [
+          'La dirección completa: calle, número y piso del apartamento',
+          'Un mapa dibujado de la urbanización de Empuriabrava',
+          'El nombre del edificio: «The sun of the beach»',
+          'El número de teléfono de Nacho y el nombre del edificio'
+        ],
+        correct: 2,
+        explanation: 'Pepa mira la dirección que hay en el papel del llavero: «Edificio The sun of the beach».'
+      },
+      {
+        text: '¿Cómo describe el camarero la ubicación del edificio?',
+        options: [
+          'Dibuja un mapa en una servilleta con giros a la derecha y a la izquierda',
+          'Todo recto, al final de la calle, un edificio grande de color azul y blanco, frente al mar',
+          'Dice que está muy lejos y que es mejor ir en coche o en bici',
+          'Les da el nombre de la calle exacta y el número del edificio'
+        ],
+        correct: 1,
+        explanation: 'El camarero explica: «Todo recto. Al final de la calle. Es un edificio muy grande. De color azul y blanco. Frente al mar».'
+      },
+      {
+        text: '¿En qué idioma le pregunta Pepa al camarero?',
+        options: [
+          'En inglés, igual que intentaba Raúl',
+          'En catalán, porque están en Cataluña',
+          'En francés, porque el camarero parece francés',
+          'En español, y el camarero responde sin ningún problema'
+        ],
+        correct: 3,
+        explanation: 'Pepa simplemente le enseña el papel y pregunta en español. El camarero responde perfectamente en español: la solución era no usar el inglés inventado de Raúl.'
+      },
+      {
+        text: '¿Cuál es la reacción de Raúl al ver que Pepa consigue la dirección fácilmente?',
+        options: [
+          'Se alegra mucho y le da las gracias a Pepa por su ayuda',
+          'Se enfada porque él podría haberlo hecho exactamente igual',
+          'No dice nada y se queda avergonzado',
+          'Dice «¡Coño!» y afirma que es «lo mismo que yo decía», sin reconocer su error'
+        ],
+        correct: 3,
+        explanation: 'Raúl exclama «¡Coño!» y luego dice: «"Sanofabich". Lo mismo que yo decía», convencido de que su pronunciación era correcta.'
+      },
+      {
+        text: '¿Qué dice Loli sobre el inglés de Raúl en este capítulo?',
+        options: [
+          'Que habla inglés correctamente pero con mucho acento español',
+          'Que no sabe hablar inglés',
+          'Que debería practicar más antes del próximo viaje al extranjero',
+          'Que el problema no es el inglés sino que los extranjeros son antipáticos'
+        ],
+        correct: 1,
+        explanation: 'Loli le dice a Raúl sin rodeos: «No sabes hablar inglés».'
+      },
+      {
+        text: '¿Por qué quiere Loli llegar cuanto antes al apartamento?',
+        options: [
+          'Porque está muy cansada y quiere dormir una siesta',
+          'Porque quiere llamar a sus padres para decir que ha llegado bien',
+          'Porque quiere cambiarse de ropa',
+          'Porque quiere ver las vistas al mar desde la terraza del apartamento'
+        ],
+        correct: 2,
+        explanation: 'Loli dice: «Bueno, ¿vamos? Quiero cambiarme de ropa».'
+      },
+      {
+        text: '¿Qué responde Pepa cuando sus amigos le piden que se quede?',
+        options: [
+          'Que no puede porque tiene que trabajar el fin de semana con el taxi',
+          'Que sí, que le encanta Empuriabrava y se queda todo el fin de semana',
+          'Que está un poco cansada, y pregunta a Álvaro si quiere volver a Barcelona',
+          'Que primero tiene que hablar con su jefa y confirmar mañana'
+        ],
+        correct: 2,
+        explanation: 'Pepa dice: «Yo… Bueno… Estoy un poco cansada» y luego mira a Álvaro y le pregunta si él quiere volver a Barcelona.'
+      },
+      {
+        text: '¿Quiere Álvaro volver a Barcelona ese mismo día?',
+        options: [
+          'Sí, tiene asuntos pendientes y debe volver urgentemente',
+          'No ha decidido todavía y prefiere esperar a ver el apartamento',
+          'No, quiere quedarse y conocer Empuriabrava',
+          'Sí, pero solo si Pepa también vuelve con él'
+        ],
+        correct: 2,
+        explanation: 'Álvaro responde claramente: «No. Yo quiero quedarme y conocer Empuriabrava».'
+      },
+      {
+        text: '¿Cómo agradece Álvaro a Raúl que le deje quedarse en el apartamento?',
+        options: [
+          'Le promete buscar su bolsa perdida al día siguiente',
+          'Le invita a todos a cenar',
+          'Le ofrece pagar el alquiler del apartamento del fin de semana',
+          'Le regala su propia bolsa como gesto de amistad'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dice: «¿De verdad puedo quedarme en tu apartamento? Gracias, Raúl. Eres muy amable. Os invito a todos a cenar».'
+      },
+      {
+        text: '¿Qué plan proponen Raúl y Loli para el resto de la tarde-noche?',
+        options: [
+          'Ir primero a cenar y después ver el apartamento',
+          'Ver el apartamento, dejar las cosas y luego bañarse',
+          'Ir directamente a la playa antes de que se haga de noche',
+          'Descansar en el bar hasta que anochezca y luego ir al apartamento'
+        ],
+        correct: 1,
+        explanation: 'Raúl y Loli dicen: «Vamos a ver el apartamento y a dejar las cosas. Luego, podemos bañarnos».'
+      },
+      {
+        text: '¿Qué error de lógica comete Raúl al final del capítulo?',
+        options: [
+          'Cree que Pepa ha usado un mapa para encontrar el edificio',
+          'Cree que el camarero habla inglés y por eso le entendió',
+          'Cree que «Sanofabich» es inglés correcto y que él decía lo mismo que Pepa',
+          'Cree que el edificio estaba en la dirección opuesta a la que indicó el camarero'
+        ],
+        correct: 2,
+        explanation: 'Raúl dice: «"Sanofabich". Lo mismo que yo decía», sin entender que el problema era que preguntaba en un inglés inventado a personas que simplemente necesitaban oír el nombre en español.'
+      }
+    ]
+  },
+
+  'ex-18-1-10-2': {
+    id: 'ex-18-1-10-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Terraza de un bar. 19.00 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → ya / resultado en presente / «только что» в этом же разговоре (¿qué le has preguntado? → le he preguntado = только что, в этом разговоре). INDEFINIDO (hizo) → нарративные моменты (dio, se levantó, enseñó, dijo). IMPERFECTO → habitual/повторяемое (decía = всё время говорил; miraba = каждый раз смотрели). OD/ID → pronombres de objeto (se las dio = se [a Pepa] + las [las llaves]). SUBJUNTIVO → es increíble que / propone que. FUTURO → esta noche / cuando lleguen...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Loli y Raúl ya le _____ (decir) a Pepa que llevan más de una hora sin poder encontrar el apartamento.', correct: 'han dicho' },
+      { sentence: '—¿Qué le _____ (preguntar, tú) al camarero, Pepa? —pregunta Raúl nada más ver que ella obtiene la dirección.', correct: 'has preguntado' },
+      { sentence: '—Le _____ (preguntar, yo) dónde está el edificio The sun of the beach —responde Pepa con calma.', correct: 'he preguntado' },
+      { sentence: 'Pepa ya _____ (conseguir) la dirección del edificio en menos de un minuto hablando en español.', correct: 'ha conseguido' },
+      { sentence: 'Raúl le _____ (dar) las llaves a Pepa en cuanto ella se las pidió, sin preguntar para qué las quería.', correct: 'dio' },
+      { sentence: 'Pepa _____ (levantarse), se acercó al camarero y le enseñó el papel del llavero con el nombre del edificio.', correct: 'se levantó' },
+      { sentence: 'El camarero les _____ (decir) que el edificio estaba todo recto, al final de la calle, azul y blanco.', correct: 'dijo' },
+      { sentence: 'Pepa le _____ (enseñar) al camarero el papel del llavero y él supo inmediatamente de qué edificio se trataba.', correct: 'enseñó' },
+      { sentence: '—Lo mismo que yo _____ (decir) —afirma Raúl, convencido de que «Sanofabich» era inglés perfectamente válido.', correct: 'decía' },
+      { sentence: 'La gente _____ (mirar) a Raúl con una cara rara cada vez que él intentaba preguntar la dirección del edificio.', correct: 'miraba' },
+      { sentence: 'Raúl tenía las llaves del apartamento y _____ (dárselas) a Pepa nada más pedírselas, sin preguntar para qué las necesitaba. [pronombres OD+ID]', correct: 'se las dio' },
+      { sentence: 'Es increíble que Raúl no _____ (entender) que el problema era su pronunciación del inglés, no los extranjeros.', correct: 'entienda' },
+      { sentence: 'Álvaro propone que todos _____ (cenar) juntos esta noche para celebrar el inicio de las vacaciones en Empuriabrava.', correct: 'cenen' },
+      { sentence: 'Esta noche Álvaro _____ (invitar) a todos a cenar en un restaurante de Empuriabrava como gesto de agradecimiento.', correct: 'invitará' },
+      { sentence: 'Cuando lleguen al apartamento, Loli _____ (cambiarse) de ropa y luego todos podrán bajar a la playa.', correct: 'se cambiará' }
+    ]
+  },
+
+  'ex-18-1-10-3': {
+    id: 'ex-18-1-10-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Terraza de un bar. 19.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Лоли и Рауль уже сказали Пепе, что не могут найти квартиру.',
+        correct: 'Loli y Raúl ya le han dicho a Pepa que no pueden encontrar el apartamento.',
+        alternatives: ['Loli y Raúl le han dicho a Pepa que llevan más de una hora sin encontrar el apartamento.']
+      },
+      {
+        russian: '«Ну, и у кого же спрашивать?» — «Например, у официанта».',
+        correct: '«A ver a quién preguntamos» — «Pues al camarero, por ejemplo».',
+        alternatives: ['«¿Y a quién le preguntamos la dirección?» — «Al camarero, por ejemplo».']
+      },
+      {
+        russian: '«Я спрашиваю, а люди смотрят на меня с таким лицом...»',
+        correct: '«Pero es que… Pregunto y la gente me mira con una cara…»',
+        alternatives: ['«Es que cuando pregunto, la gente me mira de una manera muy rara…»']
+      },
+      {
+        russian: '«Дай мне ключи» — говорит Пепа. Рауль даёт ей ключи.',
+        correct: '«Dame las llaves» —dice Pepa. Raúl le da las llaves.',
+        alternatives: ['Pepa le pide las llaves a Raúl y él se las da sin preguntar nada.']
+      },
+      {
+        russian: 'Пепа смотрит на адрес, написанный на бумажке на брелоке: «Edificio The sun of the beach».',
+        correct: 'Pepa mira la dirección que hay en el papel del llavero: «Edificio The sun of the beach».',
+        alternatives: ['Pepa lee el papel que hay en el llavero: pone «Edificio The sun of the beach».']
+      },
+      {
+        russian: 'Пепа встаёт, подходит к официанту и показывает ему бумажку.',
+        correct: 'Pepa se levanta, se acerca al camarero y le enseña el papel.',
+        alternatives: ['Pepa se levanta de la silla, va hacia el camarero y le muestra el papel del llavero.']
+      },
+      {
+        russian: '«Прямо. В конце улицы. Большое здание. Синего и белого цвета. Напротив моря».',
+        correct: '«Todo recto. Al final de la calle. Es un edificio muy grande. De color azul y blanco. Frente al mar».',
+        alternatives: ['«Siga todo recto hasta el final de la calle. Es un edificio grande, azul y blanco, frente al mar».']
+      },
+      {
+        russian: '«Ну и дела!» — говорит Рауль. — «То же самое, что я и говорил. 'Санофабич'».',
+        correct: '«¡Coño!» —dice Raúl—. «Lo mismo que yo decía. 'Sanofabich'».',
+        alternatives: ['Raúl exclama «¡Coño!» y dice que es exactamente lo mismo que él decía: «Sanofabich».']
+      },
+      {
+        russian: '«Ты не умеешь говорить по-английски» — говорит Лоли Раулю без обиняков.',
+        correct: '«No sabes hablar inglés» —le dice Loli a Raúl sin rodeos.',
+        alternatives: ['Loli le dice a Raúl directamente: «Es que no sabes inglés, Raúl».']
+      },
+      {
+        russian: '«Что ты спросила у официанта, Пепа?» — «Я спросила, где находится здание The sun of the beach».',
+        correct: '«¿Qué le has preguntado al camarero, Pepa?» —«Le he preguntado dónde está el edificio The sun of the beach».',
+        alternatives: ['«¿Qué le dijiste al camarero?» —«Le pregunté dónde está el edificio The sun of the beach».']
+      },
+      {
+        russian: '«Пепа, ты же остаёшься, правда?» — «Я немного устала» — говорит Пепа, глядя на Альваро.',
+        correct: '«Pepa, tú te quedas, ¿no?» —«Estoy un poco cansada» —dice Pepa mirando a Álvaro.',
+        alternatives: ['«¿Te quedas con nosotros, Pepa?» —«Bueno… Estoy un poco cansada» —responde Pepa sin dejar de mirar a Álvaro.']
+      },
+      {
+        russian: '«Нет. Я хочу остаться и познакомиться с Эмпуриабравой» — говорит Альваро.',
+        correct: '«No. Yo quiero quedarme y conocer Empuriabrava» —dice Álvaro.',
+        alternatives: ['Álvaro dice que no quiere volver a Barcelona: quiere quedarse y ver Empuriabrava.']
+      },
+      {
+        russian: '«Спасибо, Рауль. Ты очень любезен. Я приглашаю всех на ужин».',
+        correct: '«Gracias, Raúl. Eres muy amable. Os invito a todos a cenar».',
+        alternatives: ['«Muchas gracias, Raúl. Eres muy majo. Esta noche os invito a cenar a todos».']
+      },
+      {
+        russian: '«Пойдём посмотрим квартиру и оставим вещи. Потом можно будет искупаться».',
+        correct: '«Vamos a ver el apartamento y a dejar las cosas. Luego, podemos bañarnos».',
+        alternatives: ['«Vamos al apartamento, dejamos las cosas y luego nos damos un baño».']
+      },
+      {
+        russian: 'Жаль, что Рауль не понимает: проблема была не в иностранцах, а в его произношении.',
+        correct: 'Es una lástima que Raúl no entienda que el problema no era de los extranjeros, sino de su pronunciación.',
+        alternatives: ['Es una pena que Raúl no se dé cuenta de que los extranjeros no le entendían por su mala pronunciación, no por su culpa.']
+      }
+    ]
+  },
+
+  'ex-18-1-11-1': {
+    id: 'ex-18-1-11-1',
+    type: 'reading',
+    title: 'Понимание текста: Edificio The sun of the beach. 19.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cuántas habitaciones tiene el apartamento 112?',
+        options: [
+          'Dos dormitorios, dos baños y una terraza',
+          'Un dormitorio, un baño y el salón-comedor con pequeña cocina',
+          'Tres dormitorios y un baño compartido',
+          'Un dormitorio grande con cocina americana integrada'
+        ],
+        correct: 1,
+        explanation: 'El apartamento tiene un dormitorio, un baño y el salón-comedor en el que están ahora, donde también hay una pequeña cocina.'
+      },
+      {
+        text: '¿Cómo soluciona Raúl el problema de que solo hay un dormitorio para cuatro personas?',
+        options: [
+          'Propone que las chicas duerman en el dormitorio y los chicos en la terraza',
+          'Sugiere que alguien vaya a dormir a un hotel de la urbanización',
+          'Propone usar el sofá rojo del salón para dormir',
+          'Pide al vecino de al lado que les preste una cama extra'
+        ],
+        correct: 2,
+        explanation: 'Raúl señala el sofá rojo y dice: «Solo hay un dormitorio, pero podemos usar el sofá para dormir».'
+      },
+      {
+        text: '¿Quién deja la maleta en el dormitorio?',
+        options: [
+          'Pepa, porque es la mayor y le corresponde el dormitorio',
+          'Álvaro, porque es el invitado y hay que tratarle bien',
+          'Raúl, que tiene la maleta más grande y necesita más espacio',
+          'Loli, que la deja allí nada más entrar en el apartamento'
+        ],
+        correct: 3,
+        explanation: 'Loli dice «Voy a dejar mis cosas en la habitación» y deja su maleta en el dormitorio.'
+      },
+      {
+        text: '¿Cómo es la maleta de Raúl y dónde la pone?',
+        options: [
+          'Es pequeña y moderna; la pone en el armario del dormitorio',
+          'Es grande y vieja; la pone encima del sofá rojo del salón',
+          'Es una mochila grande; la cuelga en el perchero de la entrada',
+          'Es mediana y azul; la pone debajo de la cama del dormitorio'
+        ],
+        correct: 1,
+        explanation: 'Raúl deja su maleta, una maleta grande y vieja, encima del sofá.'
+      },
+      {
+        text: '¿Qué encuentra Pepa cuando abre la nevera?',
+        options: [
+          'La nevera está completamente vacía: nadie ha comprado nada',
+          'Solo hay insulina y medicamentos de alguien',
+          'Solo hay agua mineral, sin comida',
+          'Hay agua y comida: la nevera está llena'
+        ],
+        correct: 3,
+        explanation: 'Pepa abre la nevera y dice: «La nevera está llena». Raúl reacciona: «¡Qué detalle! Nacho es un tío muy guay».'
+      },
+      {
+        text: '¿Qué problema tiene Pepa para ir a bañarse a la playa?',
+        options: [
+          'Está demasiado cansada del viaje y prefiere quedarse en la terraza',
+          'No tiene bañador, no lo ha traído con ella',
+          'Tiene miedo al agua y no sabe nadar muy bien',
+          'No quiere bañarse porque el agua del Mediterráneo está muy fría en agosto'
+        ],
+        correct: 1,
+        explanation: 'Pepa dice: «Yo no traigo bañador».'
+      },
+      {
+        text: '¿Cómo resuelve Loli el problema del bañador de Pepa?',
+        options: [
+          'Le dice que vaya a comprar uno en la tienda de la playa',
+          'Le presta su propio bañador y se queda ella en la terraza',
+          'Le ofrece uno de sus bikinis',
+          'Le dice que puede bañarse con ropa interior, que nadie la conoce allí'
+        ],
+        correct: 2,
+        explanation: 'Loli ofrece: «Yo te dejo uno de mis bikinis».'
+      },
+      {
+        text: '¿Cómo consigue Álvaro un bañador para bañarse?',
+        options: [
+          'Sale a comprar uno en una tienda de la urbanización antes de ir a la playa',
+          'Lo encuentra en el armario del apartamento entre las cosas de Nacho',
+          'Raúl saca dos bañadores de su maleta y le da uno',
+          'Loli le presta uno que tenía de repuesto en la maleta'
+        ],
+        correct: 2,
+        explanation: 'Raúl saca de la maleta dos bañadores y le da uno a Álvaro.'
+      },
+      {
+        text: '¿Qué hace Pepa mientras Álvaro está nadando en el mar?',
+        options: [
+          'Se queda leyendo tumbada en la toalla sin hablar con nadie',
+          'Se acerca a Raúl para hablar con él sobre Álvaro',
+          'Habla por teléfono con su jefa sobre el trabajo del fin de semana',
+          'Se mete al agua a nadar junto a Loli'
+        ],
+        correct: 1,
+        explanation: 'El texto dice: «Mientras Álvaro está nadando, Pepa se acerca a Raúl» para hablar sobre él.'
+      },
+      {
+        text: '¿Qué le pregunta Pepa a Raúl en la playa?',
+        options: [
+          'Si cree que Álvaro encontrará su bolsa con los documentos perdidos',
+          'Si piensa que es seguro que Álvaro conozca el apartamento de Nacho',
+          'Por qué le ha dicho a Álvaro que podía quedarse a dormir con ellos',
+          'Si Álvaro le ha dicho algo más sobre lo que había en la bolsa'
+        ],
+        correct: 2,
+        explanation: 'Pepa pregunta: «¿Por qué le has dicho a Álvaro que podía quedarse a dormir con nosotros?»'
+      },
+      {
+        text: '¿Qué responde Raúl cuando Pepa le pregunta por Álvaro?',
+        options: [
+          'Dice que Álvaro le parece muy simpático y de fiar',
+          'Pregunta si no le gusta Álvaro y dice que pensaba que le gustaba',
+          'Admite que no conoce bien a Álvaro y que quizás se equivocó',
+          'Dice que Álvaro le invita a cenar y por eso le ha dicho que se quede'
+        ],
+        correct: 1,
+        explanation: 'Raúl responde: «¿No te gusta Álvaro? Pensaba que te gustaba».'
+      },
+      {
+        text: '¿Cuál es la opinión de Loli sobre Álvaro?',
+        options: [
+          'Que es muy raro y no le da buena espina para nada',
+          'Que es demasiado misterioso y que no hay que fiarse de él',
+          'Que es muy pesado y habla demasiado de su bolsa perdida',
+          'Que «está bueno» — le parece atractivo'
+        ],
+        correct: 3,
+        explanation: 'La opinión de Loli sobre Álvaro es muy directa: «Está bueno».'
+      },
+      {
+        text: '¿Por qué le parece raro Álvaro a Pepa?',
+        options: [
+          'Porque no sabe a qué se dedica ni de dónde viene',
+          'Porque piensa en sus cambios de humor durante el viaje en taxi',
+          'Porque ha mentido claramente sobre el contenido de la bolsa',
+          'Porque ha sido muy grosero con Raúl al principio'
+        ],
+        correct: 1,
+        explanation: 'Pepa piensa en los cambios de humor de Álvaro durante el trayecto en taxi: de agresivo a encantador.'
+      },
+      {
+        text: '¿Cuál es la verdadera razón por la que Álvaro pide subir al apartamento?',
+        options: [
+          'Porque necesita ir urgentemente al baño, tal como dice',
+          'Para hacer una llamada privada sin que los demás le escuchen',
+          'Para registrar la maleta de Raúl buscando lo que contiene',
+          'Para cambiarse la ropa mojada y ponerse algo seco'
+        ],
+        correct: 2,
+        explanation: 'El narrador revela la intención real de Álvaro: pregunta al baño «con la intención de mirar lo que hay en la maleta de Raúl».'
+      },
+      {
+        text: '¿Qué le da Raúl a Álvaro para que pueda subir al apartamento?',
+        options: [
+          'Su teléfono móvil para que pueda llamar mientras está arriba',
+          'Dinero para que compre algo en el bar de la playa de camino',
+          'La dirección exacta del apartamento por si se pierde en el edificio',
+          'Las llaves del apartamento'
+        ],
+        correct: 3,
+        explanation: 'Raúl le da las llaves a Álvaro sin sospechar sus verdaderas intenciones.'
+      }
+    ]
+  },
+
+  'ex-18-1-11-2': {
+    id: 'ex-18-1-11-2',
+    type: 'fillblank',
+    title: 'Грамматика: Edificio The sun of the beach. 19.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/todavía no — действие дня связано с настоящим. INDEFINIDO (hizo) → нарративная цепочка (sacó y dio, abrió y vio, bajaron, salió) — конкретные последовательные действия. IMPERFECTO → mientras + фон (mientras nadaba); мысль/намерение/состояние (pensaba, quería). SUBJUNTIVO → es raro que / sin que. FUTURO → cuando suba...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '—¿Por qué le _____ (decir, tú) a Álvaro que podía quedarse a dormir con nosotros? —pregunta Pepa a Raúl esta tarde en la playa.', correct: 'has dicho' },
+      { sentence: 'Pepa todavía no _____ (decidir) si Álvaro le gusta o no: «No lo sé», le confiesa a Raúl.', correct: 'ha decidido' },
+      { sentence: 'Raúl ya le _____ (dar) un bañador a Álvaro para que pudiera bañarse con ellos en la playa.', correct: 'ha dado' },
+      { sentence: 'Raúl _____ (sacar) dos bañadores de su maleta y le dio uno a Álvaro sin pensárselo.', correct: 'sacó' },
+      { sentence: 'Loli _____ (dejar) su maleta en el dormitorio nada más entrar en el apartamento.', correct: 'dejó' },
+      { sentence: 'Raúl _____ (dejar) su maleta grande y vieja encima del sofá rojo del salón-comedor.', correct: 'dejó' },
+      { sentence: 'Pepa _____ (abrir) la nevera y vio que había agua y mucha comida dentro.', correct: 'abrió' },
+      { sentence: 'Los cuatro _____ (bajar) juntos a la playa después de dejar las maletas en el apartamento.', correct: 'bajaron' },
+      { sentence: 'Álvaro _____ (salir) del agua y preguntó si podía subir un momento al apartamento.', correct: 'salió' },
+      { sentence: 'Raúl le _____ (entregar) las llaves a Álvaro cuando este dijo que necesitaba urgentemente ir al baño.', correct: 'entregó' },
+      { sentence: 'Raúl _____ (pensar) que a Pepa le gustaba Álvaro, pero ella dice que le parece raro y cambiante.', correct: 'pensaba' },
+      { sentence: 'Mientras Álvaro _____ (nadar) en el mar, Pepa aprovechó para hablar con Raúl sobre él.', correct: 'nadaba' },
+      { sentence: 'Álvaro _____ (querer) registrar la maleta de Raúl, por eso pidió subir al apartamento con el pretexto del baño.', correct: 'quería' },
+      { sentence: 'Es raro que Álvaro _____ (pedir) ir al baño justo en el momento en que las maletas están solas en el apartamento.', correct: 'pida' },
+      { sentence: 'Cuando Álvaro suba al apartamento, _____ (abrir) la maleta de Raúl y buscará lo que necesita encontrar.', correct: 'abrirá' }
+    ]
+  },
+
+  'ex-18-1-11-3': {
+    id: 'ex-18-1-11-3',
+    type: 'translation',
+    title: 'Перевод: Edificio The sun of the beach. 19.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Лоли, Пепа, Рауль и Альваро поднимаются в квартиру 112 здания «The sun of the beach».',
+        correct: 'Loli, Pepa, Raúl y Álvaro suben al apartamento 112 del edificio The sun of the beach.',
+        alternatives: ['Los cuatro suben al apartamento 112 del edificio The sun of the beach.']
+      },
+      {
+        russian: '«Какие виды!» — говорит Лоли, глядя на море с террасы.',
+        correct: '«¡Qué vistas!» —dice Loli, mirando el mar desde la terraza.',
+        alternatives: ['Loli mira el mar desde la terraza y exclama: «¡Qué vistas tan bonitas!»']
+      },
+      {
+        russian: 'В квартире одна спальня, ванная и гостиная с маленькой кухней.',
+        correct: 'El apartamento tiene un dormitorio, un baño y el salón-comedor con una pequeña cocina.',
+        alternatives: ['La vivienda cuenta con un dormitorio, un baño y un salón-comedor que incluye una pequeña cocina.']
+      },
+      {
+        russian: '«Здесь только одна спальня, но можно спать на диване» — говорит Рауль, указывая на красный диван.',
+        correct: '«Solo hay un dormitorio, pero podemos usar el sofá para dormir» —dice Raúl señalando un sofá rojo.',
+        alternatives: ['«Solo hay un dormitorio —dice Raúl señalando el sofá rojo—, pero el sofá también sirve para dormir».']
+      },
+      {
+        russian: 'Лоли оставляет свой чемодан в спальне. Рауль ставит свой большой старый чемодан на диван.',
+        correct: 'Loli deja su maleta en el dormitorio. Raúl deja su maleta, una maleta grande y vieja, encima del sofá.',
+        alternatives: ['Loli lleva su maleta al dormitorio. Raúl coloca la suya, grande y vieja, encima del sofá rojo.']
+      },
+      {
+        russian: 'Пепа открывает холодильник и видит, что он полон еды и воды.',
+        correct: 'Pepa abre la nevera y ve que hay agua y comida: la nevera está llena.',
+        alternatives: ['Pepa abre la nevera y comprueba que está llena de agua y comida.']
+      },
+      {
+        russian: '«Как мило! Начо — классный парень» — говорит Рауль.',
+        correct: '«¡Qué detalle! Nacho es un tío muy guay» —dice Raúl.',
+        alternatives: ['Raúl exclama: «¡Qué buena persona es Nacho! ¡Qué detalle ha tenido!»']
+      },
+      {
+        russian: 'Рауль достаёт из чемодана два купальника и даёт один Альваро.',
+        correct: 'Raúl saca de la maleta dos bañadores y le da uno a Álvaro.',
+        alternatives: ['Raúl abre la maleta, coge dos bañadores y le entrega uno a Álvaro.']
+      },
+      {
+        russian: 'Все четверо идут на пляж. Пока Альваро плавает, Пепа подходит к Раулю.',
+        correct: 'Los cuatro bajan a la playa. Mientras Álvaro está nadando, Pepa se acerca a Raúl.',
+        alternatives: ['Los cuatro van a la playa. Mientras Álvaro nada en el mar, Pepa aprovecha para hablar con Raúl.']
+      },
+      {
+        russian: '«Почему ты сегодня сказал Альваро, что он может остаться ночевать с нами?»',
+        correct: '«¿Por qué le has dicho a Álvaro que podía quedarse a dormir con nosotros?»',
+        alternatives: ['«¿Por qué le dijiste a Álvaro que se podía quedar a dormir en el apartamento?»']
+      },
+      {
+        russian: '«Разве тебе не нравится Альваро? Я думал, что нравится» — говорит Рауль.',
+        correct: '«¿No te gusta Álvaro? Pensaba que te gustaba» —dice Raúl.',
+        alternatives: ['«¿No te cae bien Álvaro? —pregunta Raúl—. Yo creía que te gustaba».']
+      },
+      {
+        russian: '«Да, но он странный» — думает Пепа о переменах настроения Альваро.',
+        correct: '«Sí, pero… Es raro» —piensa Pepa en los cambios de humor de Álvaro.',
+        alternatives: ['Pepa piensa en lo raro que es Álvaro con sus continuos cambios de humor y dice: «Sí, pero es muy raro».']
+      },
+      {
+        russian: '«Нравится он тебе или нет?» — «Не знаю».',
+        correct: '«¿Te gusta o no te gusta?» —«No lo sé».',
+        alternatives: ['«Dime: ¿te gusta o no?» —«La verdad es que no lo sé».']
+      },
+      {
+        russian: 'Альваро выходит из воды и просит подняться в квартиру — якобы в туалет, а на самом деле чтобы осмотреть чемодан Рауля.',
+        correct: 'Álvaro sale del agua y pide subir al apartamento —supuestamente para ir al baño, pero en realidad para registrar la maleta de Raúl.',
+        alternatives: ['Álvaro sale del mar y dice que necesita subir al baño, aunque su verdadera intención es mirar lo que hay en la maleta de Raúl.']
+      },
+      {
+        russian: 'Жаль, что Рауль доверяет Альваро и даёт ему ключи, не подозревая о его настоящих намерениях.',
+        correct: 'Es una lástima que Raúl confíe en Álvaro y le dé las llaves sin saber cuáles son sus verdaderas intenciones.',
+        alternatives: ['Es una pena que Raúl le dé las llaves a Álvaro sin sospechar que quiere registrar su maleta.']
+      }
+    ]
+  },
+
+  'ex-18-1-12-1': {
+    id: 'ex-18-1-12-1',
+    type: 'reading',
+    title: 'Понимание текста: Apartamento 112. 20.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace Pepe con el vaso de agua antes de irse a dormir?',
+        options: [
+          'Le pone azúcar y vitaminas a un vaso de agua para Mercè',
+          'Le pone unas gotas de laxante y lo deja en la cocina para Mercè',
+          'Lo deja vacío en la mesita de noche por si Mercè tiene sed',
+          'Le añade las pastillas para dormir de Mercè al agua'
+        ],
+        correct: 1,
+        explanation: 'Pepe pone unas gotas de laxante en un vaso con agua y le dice a Mercè que lo deja en la cocina antes de irse a dormir.'
+      },
+      {
+        text: '¿Por qué Mercè rechaza el vaso que Pepe ha preparado?',
+        options: [
+          'Porque no le gustan las gotas de laxante que le ha puesto Pepe',
+          'Porque ya ha tomado el laxante antes de ducharse',
+          'Porque hoy no lo necesita: no ha comido nada en todo el día',
+          'Porque prefiere tomar sus pastillas para dormir con leche'
+        ],
+        correct: 2,
+        explanation: 'Mercè dice: «Hoy no lo necesito. No he comido nada» — el laxante es innecesario si no ha ingerido alimentos.'
+      },
+      {
+        text: '¿Qué hace Mercè antes de ir a la cama?',
+        options: [
+          'Se toma el vaso de agua con laxante que le ha preparado Pepe',
+          'Llama a su médico para preguntarle si puede tomar la pastilla',
+          'Busca entre los medicamentos, se toma una pastilla para dormir y se va a la cama',
+          'Lee un rato en el sillón del salón hasta que le da sueño'
+        ],
+        correct: 2,
+        explanation: 'Mercè busca entre los medicamentos, se toma una pastilla para dormir y se va a la cama.'
+      },
+      {
+        text: '¿Cuándo recibe Álvaro la llamada de teléfono?',
+        options: [
+          'Cuando está registrando la maleta de Raúl en el apartamento',
+          'Mientras sube en el ascensor para ir al apartamento',
+          'En la playa, antes de pedir permiso para subir al apartamento',
+          'Cuando Pepa llama a la puerta del apartamento'
+        ],
+        correct: 1,
+        explanation: 'El texto dice: «Subiendo en el ascensor, Álvaro recibe una llamada».'
+      },
+      {
+        text: '¿Qué le pregunta la persona que llama a Álvaro?',
+        options: [
+          'Dónde está y cuándo piensa volver a Barcelona',
+          'Por qué no ha entregado lo que tenía que entregar',
+          'Si ya ha encontrado la bolsa verde en la maleta de Raúl',
+          'Cuánto dinero le debe todavía por el trabajo realizado'
+        ],
+        correct: 1,
+        explanation: 'La persona pregunta a Álvaro por qué no ha entregado lo que tenía que entregar.'
+      },
+      {
+        text: '¿Qué excusa le da Álvaro a la persona que le llama?',
+        options: [
+          'Que Raúl le ha robado la bolsa durante el viaje en taxi',
+          'Que ha perdido la bolsa en la estación de autobuses de Barcelona',
+          'Que ha tenido problemas y necesita un poco más de tiempo',
+          'Que la bolsa ha caído al mar durante el trayecto en barco'
+        ],
+        correct: 2,
+        explanation: 'Álvaro dice que ha tenido problemas y que necesita un poco más de tiempo.'
+      },
+      {
+        text: '¿Qué piensa la persona que llama sobre Álvaro?',
+        options: [
+          'Que Álvaro es un profesional muy serio y de total confianza',
+          'Que Álvaro ha tenido un accidente y por eso no ha podido entregar nada',
+          'Que Álvaro le está engañando y no dice la verdad',
+          'Que Álvaro es un novato y necesita más formación'
+        ],
+        correct: 2,
+        explanation: 'La persona que le llama piensa que Álvaro le engaña. Álvaro sabe que no es bueno que piense eso.'
+      },
+      {
+        text: '¿Qué hace Álvaro en cuanto entra en el apartamento?',
+        options: [
+          'Va al baño, tal como había dicho que haría',
+          'Llama por teléfono para dar explicaciones desde el apartamento',
+          'Abre la maleta de Raúl y empieza a buscar en ella',
+          'Mira por la terraza para ver si los demás siguen en la playa'
+        ],
+        correct: 2,
+        explanation: 'Álvaro entra en el apartamento, abre la maleta de Raúl y empieza a buscar.'
+      },
+      {
+        text: '¿Qué objeto inesperado encuentra Álvaro en la maleta de Raúl?',
+        options: [
+          'La bolsa verde de tela que lleva buscando todo el día',
+          'Un sobre con mucho dinero en efectivo',
+          'Una navaja, lo que le hace preguntarse si Raúl es un tipo peligroso',
+          'Una pistola pequeña envuelta en ropa'
+        ],
+        correct: 2,
+        explanation: 'En la maleta Álvaro encuentra ropa, revistas y una navaja. «¿Raúl es un tipo peligroso?», se pregunta.'
+      },
+      {
+        text: '¿Por qué Álvaro cierra la maleta de repente?',
+        options: [
+          'Porque ha encontrado lo que buscaba y ya no necesita seguir',
+          'Porque oye la puerta del ascensor y unos pasos que se acercan',
+          'Porque escucha que Mercè está llamando a su puerta desde el pasillo',
+          'Porque recibe otra llamada de teléfono que le interrumpe la búsqueda'
+        ],
+        correct: 1,
+        explanation: 'Se oye la puerta del ascensor y unos pasos que se acercan. Álvaro cierra la maleta rápidamente.'
+      },
+      {
+        text: '¿Qué hace Álvaro cuando Pepa llama a la puerta?',
+        options: [
+          'Finge que está dormido en el sofá y no responde',
+          'Coge el vaso de agua con el laxante y abre la puerta',
+          'Grita desde dentro que un momento, que está en el baño',
+          'Sale corriendo a esconderse en el dormitorio antes de abrir'
+        ],
+        correct: 1,
+        explanation: 'Álvaro coge el vaso de agua con el laxante y abre la puerta para parecer inocente.'
+      },
+      {
+        text: '¿Qué excusa da Álvaro para explicar qué estaba haciendo?',
+        options: [
+          '«Estaba leyendo las revistas que hay en el salón»',
+          '«Estaba mirando las vistas desde la terraza»',
+          '«Estaba buscando el mando de la televisión»',
+          '«Estaba bebiendo agua»'
+        ],
+        correct: 3,
+        explanation: 'Álvaro dice «Estaba bebiendo agua» y se bebe todo el vaso de un trago para hacer creíble la excusa.'
+      },
+      {
+        text: '¿Qué consecuencia inesperada tiene la excusa de Álvaro?',
+        options: [
+          'Pepa le cree y no sospecha nada del registro de la maleta',
+          'Álvaro se bebe el vaso entero, que contiene el laxante que Pepe preparó para Mercè',
+          'Álvaro tira el vaso al suelo y Pepa se da cuenta de que algo raro pasa',
+          'La excusa del agua convence a Raúl, que lo llama desde la playa'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dice «Estaba bebiendo agua» y se bebe todo el vaso — pero ese vaso contiene las gotas de laxante que Pepe preparó para Mercè.'
+      },
+      {
+        text: '¿Para qué viene Pepa al apartamento a buscar a Álvaro?',
+        options: [
+          'Para decirle que Raúl quiere hablar con él urgentemente sobre la bolsa',
+          'Para preguntarle si ha encontrado algo en la maleta de Raúl',
+          'Para decirle que se van a dar una vuelta e invitarle a venir',
+          'Para pedirle las llaves porque Loli las ha perdido en la playa'
+        ],
+        correct: 2,
+        explanation: 'Pepa dice: «Vengo a decirte que nos vamos a dar una vuelta. ¿Vienes?»'
+      },
+      {
+        text: '¿Qué decide Álvaro al final del capítulo?',
+        options: [
+          'Quedarse en el apartamento con el pretexto de que se encuentra mal del estómago',
+          'Decirle a Pepa que debe esperar a que Raúl vuelva de la playa',
+          'Pedir a Pepa que le dé más tiempo para buscar dentro de la maleta',
+          'Acompañar a los demás a dar una vuelta: «Sí, sí. Vamos»'
+        ],
+        correct: 3,
+        explanation: 'Álvaro decide acompañarles: «Sí, sí. Vamos» — no puede seguir registrando la maleta sin levantar sospechas.'
+      }
+    ]
+  },
+
+  'ex-18-1-12-2': {
+    id: 'ex-18-1-12-2',
+    type: 'fillblank',
+    title: 'Грамматика: Apartamento 112. 20.00 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO → hoy / ya / todavía no (результат ощущается в настоящем). INDEFINIDO → цепочка нарративных действий (entró, abrió, empezó / cogió, se bebió). IMPERFECTO → «Estaba bebiendo agua» = прерванное фоновое действие (estaba + gerundio); mientras + фон; мысль/состояние в прошлом. OD/ID → pronombres de objeto (se lo dejó = se [a Mercè] + lo [el vaso]; se la olvidó = la bolsa).',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '«Hoy no lo necesito. No _____ (comer, yo) nada en todo el día», dice Mercè cuando su marido le ofrece el vaso de agua.', correct: 'he comido' },
+      { sentence: 'La persona que llama a Álvaro le pregunta por qué no _____ (entregar, él) lo que tenía que entregar.', correct: 'ha entregado' },
+      { sentence: 'Álvaro dice que _____ (tener) problemas y que necesita un poco más de tiempo para encontrar la bolsa.', correct: 'ha tenido' },
+      { sentence: 'Pepe _____ (poner) unas gotas de laxante en un vaso con agua antes de decirle buenas noches a Mercè.', correct: 'puso' },
+      { sentence: 'Mercè _____ (buscar) entre los medicamentos, _____ (tomarse) una pastilla para dormir y _____ (irse) a la cama.', correct: 'buscó, se tomó, se fue' },
+      { sentence: 'En cuanto tuvo las llaves, Álvaro _____ (entrar) en el apartamento y _____ (abrir) la maleta de Raúl.', correct: 'entró, abrió' },
+      { sentence: 'Álvaro _____ (empezar) a buscar dentro de la maleta y _____ (encontrar) ropa, revistas y una navaja.', correct: 'empezó, encontró' },
+      { sentence: 'Al oír los pasos que se acercaban, Álvaro _____ (cerrar) la maleta de golpe y se apartó del sofá.', correct: 'cerró' },
+      { sentence: 'Álvaro _____ (coger) el vaso de agua con el laxante y _____ (abrir) la puerta cuando Pepa llamó.', correct: 'cogió, abrió' },
+      { sentence: 'Álvaro se _____ (beber) todo el vaso de un trago delante de Pepa para parecer inocente.', correct: 'bebió' },
+      { sentence: '«_____ (estar) bebiendo agua», dijo Álvaro cuando Pepa llamó a la puerta y le interrumpió.', correct: 'Estaba' },
+      { sentence: 'Mientras _____ (subir) en el ascensor, Álvaro recibió una llamada que le puso nervioso.', correct: 'subía' },
+      { sentence: 'Álvaro _____ (saber) que no era bueno que la persona que le llamaba pensara que le engañaba.', correct: 'sabía' },
+      { sentence: 'Pepe preparó el vaso de agua con laxante para Mercè y _____ (dejárselo) en la cocina antes de irse a dormir. [pronombres OD+ID]', correct: 'se lo dejó' },
+      { sentence: 'Raúl olvidó la bolsa verde en el restaurante: _____ (olvidársela) al salir a la calle a encender el cigarrillo. [pronombre OD]', correct: 'se la olvidó' }
+    ]
+  },
+
+  'ex-18-1-12-3': {
+    id: 'ex-18-1-12-3',
+    type: 'translation',
+    title: 'Перевод: Apartamento 112. 20.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Пепе кладёт несколько капель слабительного в стакан с водой.',
+        correct: 'Pepe pone unas gotas de laxante en un vaso con agua.',
+        alternatives: ['Pepe echa unas gotas de laxante en un vaso con agua y lo deja en la cocina.']
+      },
+      {
+        russian: '«Сегодня мне это не нужно. Я сегодня ничего не ела», — говорит Мерсе.',
+        correct: '«Hoy no lo necesito. No he comido nada», —dice Mercè.',
+        alternatives: ['Mercè le dice a su marido: «Hoy no lo necesito, porque no he comido nada en todo el día».']
+      },
+      {
+        russian: 'Мерсе ищет таблетки для сна среди лекарств, принимает одну и идёт спать.',
+        correct: 'Mercè busca entre los medicamentos, se toma una pastilla para dormir y se va a la cama.',
+        alternatives: ['Mercè encuentra sus pastillas, se toma una y se acuesta.']
+      },
+      {
+        russian: 'Пока Альваро едет в лифте вверх, он получает звонок.',
+        correct: 'Mientras Álvaro sube en el ascensor, recibe una llamada.',
+        alternatives: ['Subiendo en el ascensor, Álvaro recibe una llamada telefónica inesperada.']
+      },
+      {
+        russian: 'Звонящий спрашивает его, почему он не передал то, что должен был.',
+        correct: 'La persona que le llama le pregunta por qué no ha entregado lo que tenía que entregar.',
+        alternatives: ['Quien llama quiere saber por qué Álvaro todavía no ha entregado lo que debía.']
+      },
+      {
+        russian: 'Альваро говорит, что у него возникли проблемы и ему нужно ещё немного времени.',
+        correct: 'Álvaro dice que ha tenido problemas y que necesita un poco más de tiempo.',
+        alternatives: ['Álvaro explica que ha tenido dificultades y pide algo más de tiempo para cumplir con su parte.']
+      },
+      {
+        russian: 'Альваро входит в квартиру, открывает чемодан Рауля и начинает рыться в нём.',
+        correct: 'Álvaro entra en el apartamento, abre la maleta de Raúl y empieza a buscar.',
+        alternatives: ['En cuanto entra en el apartamento, Álvaro abre la maleta de Raúl y comienza a registrarla.']
+      },
+      {
+        russian: 'В чемодане Альваро находит одежду, журналы и нож.',
+        correct: 'En la maleta Álvaro encuentra ropa, revistas y una navaja.',
+        alternatives: ['Dentro de la maleta hay ropa, revistas y, sorprendentemente, una navaja.']
+      },
+      {
+        russian: '«Рауль — опасный тип?» — спрашивает себя Альваро.',
+        correct: '«¿Raúl es un tipo peligroso?» —se pregunta Álvaro.',
+        alternatives: ['Álvaro se queda pensativo: «¿Será Raúl una persona peligrosa?»']
+      },
+      {
+        russian: 'Слышится дверь лифта и приближающиеся шаги. Альваро закрывает чемодан.',
+        correct: 'Se oye la puerta del ascensor y unos pasos que se acercan. Álvaro cierra la maleta.',
+        alternatives: ['Álvaro oye abrirse el ascensor y pasos que se acercan; de inmediato cierra la maleta.']
+      },
+      {
+        russian: 'Альваро берёт стакан с водой (со слабительным) и открывает дверь.',
+        correct: 'Álvaro coge el vaso de agua con el laxante y abre la puerta.',
+        alternatives: ['Álvaro toma el vaso que había en la cocina y abre cuando Pepa llama.']
+      },
+      {
+        russian: '«Я пил воду», — говорит Альваро, когда Пепа перебивает его.',
+        correct: '«Estaba bebiendo agua» —dice Álvaro cuando Pepa le interrumpe.',
+        alternatives: ['Álvaro explica: «Es que estaba tomando un vaso de agua».']
+      },
+      {
+        russian: 'И он выпивает весь стакан до дна прямо при Пепе.',
+        correct: 'Y se bebe todo el vaso delante de Pepa.',
+        alternatives: ['Álvaro se termina el vaso entero de un solo trago ante los ojos de Pepa.']
+      },
+      {
+        russian: '«Я пришла сказать тебе, что мы идём прогуляться. Ты идёшь?»',
+        correct: '«Vengo a decirte que nos vamos a dar una vuelta. ¿Vienes?» —dice Pepa.',
+        alternatives: ['«Hemos venido a buscarte para salir a dar una vuelta. ¿Te apuntas?»']
+      },
+      {
+        russian: 'Пепе приготовил стакан со слабительным для Мерсе и поставил его на кухне, но Альваро взял и выпил его, не зная, что в нём было.',
+        correct: 'Pepe preparó el vaso con laxante para Mercè y se lo dejó en la cocina, pero Álvaro lo cogió y se lo bebió sin saber lo que contenía.',
+        alternatives: ['Pepe puso el vaso de laxante en la cocina para Mercè, pero Álvaro se lo bebió todo sin saber qué había dentro.']
+      }
+    ]
+  },
+
+  'ex-18-1-13-1': {
+    id: 'ex-18-1-13-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. 22.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Con qué objetivo invita Álvaro a cenar al grupo y llena el vaso de Raúl una y otra vez?',
+        options: [
+          'Para celebrar que han encontrado el apartamento y agradecer la hospitalidad de Nacho',
+          'Para emborrachar a Raúl y averiguar qué ha hecho con su bolsa',
+          'Para distraer a Pepa y Loli mientras registra la habitación del apartamento',
+          'Para crear un ambiente relajado y confesarles que ha perdido algo importante'
+        ],
+        correct: 1,
+        explanation: 'Álvaro quiere emborrachar a Raúl para averiguar qué ha hecho con su bolsa.'
+      },
+      {
+        text: '¿Cómo describe el narrador el comportamiento de Álvaro durante la cena con la bebida de Raúl?',
+        options: [
+          'Álvaro pide una botella de vino y la comparte con todos por igual',
+          'Álvaro le llena el vaso una y otra vez mientras Raúl bebe sin parar',
+          'Álvaro propone brindar varias veces para que Raúl beba más deprisa',
+          'Álvaro pide rondas de chupitos sin que nadie se dé cuenta'
+        ],
+        correct: 1,
+        explanation: 'Le llena el vaso una y otra vez y Raúl bebe, bebe y bebe.'
+      },
+      {
+        text: '¿En qué estado se encuentra Raúl al terminar la cena?',
+        options: [
+          'Completamente sobrio: tiene mucha resistencia al alcohol',
+          'Muy contento pero sin estar borracho: sabe cuándo parar',
+          'Medio borracho',
+          'Inconsciente y sin poder levantarse de la silla del restaurante'
+        ],
+        correct: 2,
+        explanation: 'Al terminar la cena, Raúl está medio borracho.'
+      },
+      {
+        text: '¿Qué hace Raúl cuando salen del restaurante a la calle?',
+        options: [
+          'Se sienta en un banco porque las piernas no le responden bien',
+          'Enciende un cigarrillo',
+          'Llama por teléfono a un amigo para que venga a buscarle',
+          'Propone ir a seguir bebiendo a algún bar de la urbanización'
+        ],
+        correct: 1,
+        explanation: 'Salen a la calle y Raúl enciende un cigarrillo.'
+      },
+      {
+        text: '¿Qué le pasa a la bolsa verde de tela al salir del restaurante?',
+        options: [
+          'Raúl la lleva colgada al hombro todo el tiempo',
+          'Álvaro la coge discretamente sin que nadie lo vea',
+          'Se queda olvidada dentro del restaurante',
+          'Loli la recoge del suelo porque Raúl la ha tirado sin darse cuenta'
+        ],
+        correct: 2,
+        explanation: 'La bolsa verde de tela se queda en el restaurante cuando todos salen.'
+      },
+      {
+        text: '¿Quién se da cuenta de que Raúl ha olvidado la bolsa y cómo reacciona?',
+        options: [
+          'Loli lo nota y le dice a Raúl que vuelva él a buscarla',
+          'Álvaro lo ve y entra corriendo al restaurante a por ella',
+          'El camarero sale corriendo detrás del grupo para devolvérsela',
+          'Pepa lo dice («siempre igual») y entra a buscarla ella misma'
+        ],
+        correct: 3,
+        explanation: 'Pepa dice «Ha olvidado la bolsa en el restaurante. Siempre igual» y entra a buscarla, saliendo con la bolsa de Raúl colgada al hombro.'
+      },
+      {
+        text: '¿Qué pasa cuando llegan todos al apartamento?',
+        options: [
+          'Álvaro registra la maleta de Raúl mientras los demás están en el baño',
+          'Raúl se duerme en el sofá',
+          'Loli prepara algo de beber mientras Raúl busca la bolsa que ha perdido',
+          'Pepa y Loli se van a dormir sin esperar a que los chicos lleguen'
+        ],
+        correct: 1,
+        explanation: 'Van todos al apartamento y Raúl se duerme en el sofá.'
+      },
+      {
+        text: '¿Qué propone Álvaro cuando Raúl se queda dormido en el sofá?',
+        options: [
+          'Que todos se vayan a dormir también porque mañana hay mucho que hacer',
+          'Que despierten a Raúl porque no puede dormir en el sofá',
+          'Quedarse con Raúl mientras Pepa y Loli salen a dar una vuelta',
+          'Registrar la maleta de Raúl mientras él duerme y las chicas esperan fuera'
+        ],
+        correct: 2,
+        explanation: 'Álvaro dice: «Está muy borracho. Vosotras podéis ir a dar una vuelta. Yo me quedo para hacerle compañía».'
+      },
+      {
+        text: '¿Cuál es la verdadera razón por la que Álvaro quiere quedarse con Raúl?',
+        options: [
+          'Le preocupa la salud de Raúl porque está muy borracho y podría encontrarse mal',
+          'Quiere aprovechar que Raúl está dormido para buscar en sus cosas',
+          'Prefiere quedarse en el apartamento que salir de noche con las chicas',
+          'Quiere tener una conversación privada con Raúl cuando las chicas salgan'
+        ],
+        correct: 1,
+        explanation: 'Álvaro quiere quedarse para registrar las cosas de Raúl mientras este duerme borracho.'
+      },
+      {
+        text: '¿Cómo reaccionan Loli y Pepa ante la propuesta de Álvaro de quedarse con Raúl?',
+        options: [
+          'Aceptan encantadas: les apetece salir solas sin los chicos',
+          'Se quedan también porque Raúl puede necesitar ayuda si se pone mal',
+          'Se niegan: dicen que si él se queda, ellas también se quedan',
+          'Le dan las gracias a Álvaro por su gesto y se van tranquilas'
+        ],
+        correct: 2,
+        explanation: 'Loli dice: «No, tú te vienes con nosotras» y añade: «Si tú te quedas, nosotras nos quedamos también».'
+      },
+      {
+        text: '¿Qué decide Álvaro al final, después de que las chicas insisten en que vaya con ellas?',
+        options: [
+          'Se queda en el apartamento con el pretexto de que no se siente bien',
+          'Se queda con Raúl y pide a las chicas que vuelvan pronto',
+          'Sale con ellas pensando en hacerlas beber para que se duerman rápido',
+          'Llama a otro amigo suyo para que venga a vigilar a Raúl mientras salen'
+        ],
+        correct: 2,
+        explanation: 'Álvaro piensa: «Bueno, unas cuantas copas y luego van a dormir como Raúl» y sale con Loli y Pepa.'
+      },
+      {
+        text: '¿Por qué lleva Pepa la bolsa de Raúl cuando salen de noche?',
+        options: [
+          'Porque Raúl se la pide expresamente antes de quedarse dormido',
+          'Porque Álvaro le dice que es mejor que ella la guarde para no perderla',
+          'Porque la lleva con los bañadores por si les apetece bañarse de noche',
+          'Porque tiene documentos importantes de Raúl que no quiere dejar en el apartamento'
+        ],
+        correct: 2,
+        explanation: 'Pepa lleva la bolsa de Raúl con los bañadores, por si les apetece bañarse.'
+      },
+      {
+        text: '¿Cuántos gin tonics se han tomado Pepa y Loli a las tres de la mañana?',
+        options: [
+          'Dos cada una: no quieren beber demasiado',
+          'Tres cada una: se han tomado uno por hora',
+          'Cuatro cada una',
+          'Cinco entre las dos: se han turnado los vasos'
+        ],
+        correct: 2,
+        explanation: 'A las tres de la mañana Pepa y Loli se han tomado cuatro gin tonics.'
+      },
+      {
+        text: '¿Qué ha hecho Álvaro con los gin tonics que ha pedido?',
+        options: [
+          'Se los ha bebido todos: necesitaba aparentar que bebía como los demás',
+          'Ha pedido lo mismo que ellas pero no los ha probado',
+          'Ha pedido agua mineral toda la noche fingiendo que era vodka',
+          'Ha bebido solo el primero y luego ha ido pidiendo sin beber'
+        ],
+        correct: 1,
+        explanation: 'Álvaro también ha pedido lo mismo, pero no los ha probado. Necesita tener la cabeza clara.'
+      },
+      {
+        text: '¿Por qué Álvaro no bebe nada durante la noche de copas?',
+        options: [
+          'Porque es abstemio y nunca bebe alcohol en ninguna circunstancia',
+          'Porque le sienta mal el alcohol después de la cena que han tomado',
+          'Porque necesita tener la cabeza clara para buscar su bolsa',
+          'Porque Pepa le ha advertido que no beba si conduce de vuelta'
+        ],
+        correct: 2,
+        explanation: 'Álvaro no prueba el alcohol porque necesita tener la cabeza clara para poder buscar la bolsa.'
+      }
+    ]
+  },
+
+  'ex-18-1-13-2': {
+    id: 'ex-18-1-13-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. 22.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO → hoy/esta noche/ya/todavía (связь с настоящим: «ha hecho», «se han tomado», «no los ha probado»). INDEFINIDO → нарративные действия (encendió, entró y salió, se durmió, salió). IMPERFECTO → повторяемое/привычное (llenaba una y otra vez, bebía y bebía) или фоновое состояние/намерение (quería, llevaba). OD/ID → pronombres de objeto (se la olvidó, se lo bebió, se los pidió). SUBJUNTIVO → propone que / es natural que. FUTURO → al final / esta noche.',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Álvaro quiere averiguar qué _____ (hacer, Raúl) con su bolsa durante el trayecto en taxi desde Barcelona.', correct: 'ha hecho' },
+      { sentence: '«¡Siempre igual! _____ (olvidar, él) la bolsa en el restaurante», dice Pepa nada más llegar a la calle.', correct: 'Ha olvidado' },
+      { sentence: 'A las tres de la mañana, Pepa y Loli ya _____ (tomarse) cuatro gin tonics cada una.', correct: 'se han tomado' },
+      { sentence: 'Álvaro _____ (pedir) lo mismo que ellas, pero no _____ (probarlos): necesitaba tener la cabeza clara. [pronombre OD]', correct: 'ha pedido / los ha probado' },
+      { sentence: 'Raúl _____ (encender) un cigarrillo en cuanto salieron del restaurante a la calle.', correct: 'encendió' },
+      { sentence: 'Pepa _____ (entrar) en el restaurante y _____ (salir) con la bolsa verde de Raúl colgada al hombro.', correct: 'entró / salió' },
+      { sentence: 'Raúl _____ (dormirse) en el sofá nada más llegar al apartamento, después de la cena.', correct: 'se durmió' },
+      { sentence: 'Álvaro _____ (salir) a tomar copas con Loli y Pepa pensando en hacerlas beber para que se durmieran pronto.', correct: 'salió' },
+      { sentence: 'Durante toda la cena, Álvaro le _____ (llenar) el vaso a Raúl una y otra vez sin que él se diera cuenta. [imperfecto habitual]', correct: 'llenaba' },
+      { sentence: 'Raúl _____ (beber) y beber durante toda la cena sin sospechar que Álvaro lo hacía aposta para emborracharle. [imperfecto habitual]', correct: 'bebía' },
+      { sentence: 'Álvaro _____ (querer) emborrachar a Raúl para poder preguntarle qué había en la bolsa que le había dado en el taxi. [fondo/intención]', correct: 'quería' },
+      { sentence: 'Pepa _____ (llevar) la bolsa de Raúl con los bañadores toda la noche, por si les apetecía bañarse en el mar. [estado de fondo]', correct: 'llevaba' },
+      { sentence: 'Álvaro propone que Loli y Pepa _____ (salir) a dar una vuelta mientras él se queda a cuidar a Raúl.', correct: 'salgan' },
+      { sentence: 'Es natural que Raúl _____ (estar) tan borracho después de que Álvaro le haya llenado el vaso una y otra vez.', correct: 'esté' },
+      { sentence: 'Raúl olvidó la bolsa verde en el restaurante: _____ (olvidársela) al salir a la calle con el cigarrillo en la mano. [pronombres OD+ID]', correct: 'se la olvidó' }
+    ]
+  },
+
+  'ex-18-1-13-3': {
+    id: 'ex-18-1-13-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. 22.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Все четверо ужинают в ресторане под открытым небом.',
+        correct: 'Los cuatro cenan en un restaurante al aire libre.',
+        alternatives: ['Cenan los cuatro en una terraza de restaurante al aire libre.']
+      },
+      {
+        russian: 'Альваро хочет напоить Рауля допьяна, чтобы выяснить, что тот сделал с его сумкой.',
+        correct: 'Álvaro quiere emborrachar a Raúl para averiguar qué ha hecho con su bolsa.',
+        alternatives: ['Álvaro tiene intención de emborrachar a Raúl y así descubrir qué hizo con la bolsa.']
+      },
+      {
+        russian: 'Альваро снова и снова наполняет ему бокал, а Рауль пьёт и пьёт.',
+        correct: 'Álvaro le llena el vaso una y otra vez y Raúl bebe, bebe y bebe.',
+        alternatives: ['Álvaro no para de llenarle el vaso a Raúl, y Raúl no para de beber.']
+      },
+      {
+        russian: 'К концу ужина Рауль наполовину пьян.',
+        correct: 'Al terminar la cena, Raúl está medio borracho.',
+        alternatives: ['Raúl ya está medio borracho cuando acaban de cenar.']
+      },
+      {
+        russian: 'Они выходят на улицу и Рауль закуривает.',
+        correct: 'Salen a la calle y Raúl enciende un cigarrillo.',
+        alternatives: ['Al salir del restaurante, Raúl se enciende un cigarrillo.']
+      },
+      {
+        russian: 'Зелёная тканевая сумка остаётся в ресторане.',
+        correct: 'La bolsa verde de tela se queda en el restaurante.',
+        alternatives: ['La bolsa verde de tela se olvida dentro del restaurante cuando todos salen.']
+      },
+      {
+        russian: '«Он забыл сумку в ресторане. Как всегда», — говорит Пепа.',
+        correct: '«Ha olvidado la bolsa en el restaurante. Siempre igual» —dice Pepa.',
+        alternatives: ['Pepa lo dice con resignación: «Se ha dejado la bolsa en el restaurante. Como siempre».']
+      },
+      {
+        russian: 'Пепа входит в ресторан и выходит с сумкой Рауля, перекинутой через плечо.',
+        correct: 'Pepa entra en el restaurante y sale con la bolsa de Raúl colgada al hombro.',
+        alternatives: ['Pepa va a buscarla y vuelve con la bolsa de Raúl al hombro.']
+      },
+      {
+        russian: 'Все идут в квартиру, и Рауль засыпает на диване.',
+        correct: 'Van todos al apartamento y Raúl se duerme en el sofá.',
+        alternatives: ['Cuando llegan al apartamento, Raúl se queda dormido en el sofá.']
+      },
+      {
+        russian: '«Он очень пьян. Вы можете пойти прогуляться. Я останусь с ним за компанию».',
+        correct: '«Está muy borracho. Vosotras podéis ir a dar una vuelta. Yo me quedo para hacerle compañía».',
+        alternatives: ['«Raúl está muy borracho —dice Álvaro—. Id a dar una vuelta, que yo me quedo con él».']
+      },
+      {
+        russian: '«Нет, ты пойдёшь с нами. Рауль умеет сам о себе позаботиться».',
+        correct: '«No, tú te vienes con nosotras. Raúl sabe cuidarse solo» —dice Loli.',
+        alternatives: ['«Tú te vienes con nosotras —insiste Loli—. Raúl no necesita que nadie se quede con él».']
+      },
+      {
+        russian: 'Альваро думает: «Ладно, несколько бокалов — и они уснут, как Рауль».',
+        correct: '«Bueno, unas cuantas copas y luego van a dormir como Raúl» —piensa Álvaro.',
+        alternatives: ['Álvaro calcula: «Con unas copas se dormirán como Raúl y podré actuar».']
+      },
+      {
+        russian: 'Пепа берёт сумку Рауля с купальниками — на случай, если им захочется искупаться.',
+        correct: 'Pepa lleva la bolsa de Raúl con los bañadores, por si les apetece bañarse.',
+        alternatives: ['Pepa se lleva la bolsa de Raúl, que tiene los bañadores dentro, por si quieren darse un baño.']
+      },
+      {
+        russian: 'В три часа ночи Пепа и Лоли уже выпили по четыре джин-тоника.',
+        correct: 'A las tres de la mañana Pepa y Loli se han tomado cuatro gin tonics.',
+        alternatives: ['Pepa y Loli llevan cuatro gin tonics cada una cuando son las tres de la mañana.']
+      },
+      {
+        russian: 'Альваро тоже заказал то же самое, но не пробовал — ему нужна ясная голова.',
+        correct: 'Álvaro también ha pedido lo mismo, pero no los ha probado. Necesita tener la cabeza clara.',
+        alternatives: ['Álvaro pidió gin tonics como ellas, pero no los ha tocado: necesita estar despejado.']
+      }
+    ]
   }
 
 }
