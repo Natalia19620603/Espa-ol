@@ -58323,6 +58323,290 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Es una pena que Raúl le dé las llaves a Álvaro sin sospechar que quiere registrar su maleta.']
       }
     ]
+  },
+
+  'ex-18-1-12-1': {
+    id: 'ex-18-1-12-1',
+    type: 'reading',
+    title: 'Понимание текста: Apartamento 112. 20.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué hace Pepe con el vaso de agua antes de irse a dormir?',
+        options: [
+          'Le pone azúcar y vitaminas a un vaso de agua para Mercè',
+          'Le pone unas gotas de laxante y lo deja en la cocina para Mercè',
+          'Lo deja vacío en la mesita de noche por si Mercè tiene sed',
+          'Le añade las pastillas para dormir de Mercè al agua'
+        ],
+        correct: 1,
+        explanation: 'Pepe pone unas gotas de laxante en un vaso con agua y le dice a Mercè que lo deja en la cocina antes de irse a dormir.'
+      },
+      {
+        text: '¿Por qué Mercè rechaza el vaso que Pepe ha preparado?',
+        options: [
+          'Porque no le gustan las gotas de laxante que le ha puesto Pepe',
+          'Porque ya ha tomado el laxante antes de ducharse',
+          'Porque hoy no lo necesita: no ha comido nada en todo el día',
+          'Porque prefiere tomar sus pastillas para dormir con leche'
+        ],
+        correct: 2,
+        explanation: 'Mercè dice: «Hoy no lo necesito. No he comido nada» — el laxante es innecesario si no ha ingerido alimentos.'
+      },
+      {
+        text: '¿Qué hace Mercè antes de ir a la cama?',
+        options: [
+          'Se toma el vaso de agua con laxante que le ha preparado Pepe',
+          'Llama a su médico para preguntarle si puede tomar la pastilla',
+          'Busca entre los medicamentos, se toma una pastilla para dormir y se va a la cama',
+          'Lee un rato en el sillón del salón hasta que le da sueño'
+        ],
+        correct: 2,
+        explanation: 'Mercè busca entre los medicamentos, se toma una pastilla para dormir y se va a la cama.'
+      },
+      {
+        text: '¿Cuándo recibe Álvaro la llamada de teléfono?',
+        options: [
+          'Cuando está registrando la maleta de Raúl en el apartamento',
+          'Mientras sube en el ascensor para ir al apartamento',
+          'En la playa, antes de pedir permiso para subir al apartamento',
+          'Cuando Pepa llama a la puerta del apartamento'
+        ],
+        correct: 1,
+        explanation: 'El texto dice: «Subiendo en el ascensor, Álvaro recibe una llamada».'
+      },
+      {
+        text: '¿Qué le pregunta la persona que llama a Álvaro?',
+        options: [
+          'Dónde está y cuándo piensa volver a Barcelona',
+          'Por qué no ha entregado lo que tenía que entregar',
+          'Si ya ha encontrado la bolsa verde en la maleta de Raúl',
+          'Cuánto dinero le debe todavía por el trabajo realizado'
+        ],
+        correct: 1,
+        explanation: 'La persona pregunta a Álvaro por qué no ha entregado lo que tenía que entregar.'
+      },
+      {
+        text: '¿Qué excusa le da Álvaro a la persona que le llama?',
+        options: [
+          'Que Raúl le ha robado la bolsa durante el viaje en taxi',
+          'Que ha perdido la bolsa en la estación de autobuses de Barcelona',
+          'Que ha tenido problemas y necesita un poco más de tiempo',
+          'Que la bolsa ha caído al mar durante el trayecto en barco'
+        ],
+        correct: 2,
+        explanation: 'Álvaro dice que ha tenido problemas y que necesita un poco más de tiempo.'
+      },
+      {
+        text: '¿Qué piensa la persona que llama sobre Álvaro?',
+        options: [
+          'Que Álvaro es un profesional muy serio y de total confianza',
+          'Que Álvaro ha tenido un accidente y por eso no ha podido entregar nada',
+          'Que Álvaro le está engañando y no dice la verdad',
+          'Que Álvaro es un novato y necesita más formación'
+        ],
+        correct: 2,
+        explanation: 'La persona que le llama piensa que Álvaro le engaña. Álvaro sabe que no es bueno que piense eso.'
+      },
+      {
+        text: '¿Qué hace Álvaro en cuanto entra en el apartamento?',
+        options: [
+          'Va al baño, tal como había dicho que haría',
+          'Llama por teléfono para dar explicaciones desde el apartamento',
+          'Abre la maleta de Raúl y empieza a buscar en ella',
+          'Mira por la terraza para ver si los demás siguen en la playa'
+        ],
+        correct: 2,
+        explanation: 'Álvaro entra en el apartamento, abre la maleta de Raúl y empieza a buscar.'
+      },
+      {
+        text: '¿Qué objeto inesperado encuentra Álvaro en la maleta de Raúl?',
+        options: [
+          'La bolsa verde de tela que lleva buscando todo el día',
+          'Un sobre con mucho dinero en efectivo',
+          'Una navaja, lo que le hace preguntarse si Raúl es un tipo peligroso',
+          'Una pistola pequeña envuelta en ropa'
+        ],
+        correct: 2,
+        explanation: 'En la maleta Álvaro encuentra ropa, revistas y una navaja. «¿Raúl es un tipo peligroso?», se pregunta.'
+      },
+      {
+        text: '¿Por qué Álvaro cierra la maleta de repente?',
+        options: [
+          'Porque ha encontrado lo que buscaba y ya no necesita seguir',
+          'Porque oye la puerta del ascensor y unos pasos que se acercan',
+          'Porque escucha que Mercè está llamando a su puerta desde el pasillo',
+          'Porque recibe otra llamada de teléfono que le interrumpe la búsqueda'
+        ],
+        correct: 1,
+        explanation: 'Se oye la puerta del ascensor y unos pasos que se acercan. Álvaro cierra la maleta rápidamente.'
+      },
+      {
+        text: '¿Qué hace Álvaro cuando Pepa llama a la puerta?',
+        options: [
+          'Finge que está dormido en el sofá y no responde',
+          'Coge el vaso de agua con el laxante y abre la puerta',
+          'Grita desde dentro que un momento, que está en el baño',
+          'Sale corriendo a esconderse en el dormitorio antes de abrir'
+        ],
+        correct: 1,
+        explanation: 'Álvaro coge el vaso de agua con el laxante y abre la puerta para parecer inocente.'
+      },
+      {
+        text: '¿Qué excusa da Álvaro para explicar qué estaba haciendo?',
+        options: [
+          '«Estaba leyendo las revistas que hay en el salón»',
+          '«Estaba mirando las vistas desde la terraza»',
+          '«Estaba buscando el mando de la televisión»',
+          '«Estaba bebiendo agua»'
+        ],
+        correct: 3,
+        explanation: 'Álvaro dice «Estaba bebiendo agua» y se bebe todo el vaso de un trago para hacer creíble la excusa.'
+      },
+      {
+        text: '¿Qué consecuencia inesperada tiene la excusa de Álvaro?',
+        options: [
+          'Pepa le cree y no sospecha nada del registro de la maleta',
+          'Álvaro se bebe el vaso entero, que contiene el laxante que Pepe preparó para Mercè',
+          'Álvaro tira el vaso al suelo y Pepa se da cuenta de que algo raro pasa',
+          'La excusa del agua convence a Raúl, que lo llama desde la playa'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dice «Estaba bebiendo agua» y se bebe todo el vaso — pero ese vaso contiene las gotas de laxante que Pepe preparó para Mercè.'
+      },
+      {
+        text: '¿Para qué viene Pepa al apartamento a buscar a Álvaro?',
+        options: [
+          'Para decirle que Raúl quiere hablar con él urgentemente sobre la bolsa',
+          'Para preguntarle si ha encontrado algo en la maleta de Raúl',
+          'Para decirle que se van a dar una vuelta e invitarle a venir',
+          'Para pedirle las llaves porque Loli las ha perdido en la playa'
+        ],
+        correct: 2,
+        explanation: 'Pepa dice: «Vengo a decirte que nos vamos a dar una vuelta. ¿Vienes?»'
+      },
+      {
+        text: '¿Qué decide Álvaro al final del capítulo?',
+        options: [
+          'Quedarse en el apartamento con el pretexto de que se encuentra mal del estómago',
+          'Decirle a Pepa que debe esperar a que Raúl vuelva de la playa',
+          'Pedir a Pepa que le dé más tiempo para buscar dentro de la maleta',
+          'Acompañar a los demás a dar una vuelta: «Sí, sí. Vamos»'
+        ],
+        correct: 3,
+        explanation: 'Álvaro decide acompañarles: «Sí, sí. Vamos» — no puede seguir registrando la maleta sin levantar sospechas.'
+      }
+    ]
+  },
+
+  'ex-18-1-12-2': {
+    id: 'ex-18-1-12-2',
+    type: 'fillblank',
+    title: 'Грамматика: Apartamento 112. 20.00 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO → hoy / ya / todavía no (результат ощущается в настоящем). INDEFINIDO → цепочка нарративных действий (entró, abrió, empezó / cogió, se bebió). IMPERFECTO → «Estaba bebiendo agua» = прерванное фоновое действие (estaba + gerundio); mientras + фон; мысль/состояние в прошлом. PLUSCUAMPERFECTO (había hecho) → действие ДО другого прошедшего момента.',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '«Hoy no lo necesito. No _____ (comer, yo) nada en todo el día», dice Mercè cuando su marido le ofrece el vaso de agua.', correct: 'he comido' },
+      { sentence: 'La persona que llama a Álvaro le pregunta por qué no _____ (entregar, él) lo que tenía que entregar.', correct: 'ha entregado' },
+      { sentence: 'Álvaro dice que _____ (tener) problemas y que necesita un poco más de tiempo para encontrar la bolsa.', correct: 'ha tenido' },
+      { sentence: 'Pepe _____ (poner) unas gotas de laxante en un vaso con agua antes de decirle buenas noches a Mercè.', correct: 'puso' },
+      { sentence: 'Mercè _____ (buscar) entre los medicamentos, _____ (tomarse) una pastilla para dormir y _____ (irse) a la cama.', correct: 'buscó, se tomó, se fue' },
+      { sentence: 'En cuanto tuvo las llaves, Álvaro _____ (entrar) en el apartamento y _____ (abrir) la maleta de Raúl.', correct: 'entró, abrió' },
+      { sentence: 'Álvaro _____ (empezar) a buscar dentro de la maleta y _____ (encontrar) ropa, revistas y una navaja.', correct: 'empezó, encontró' },
+      { sentence: 'Al oír los pasos que se acercaban, Álvaro _____ (cerrar) la maleta de golpe y se apartó del sofá.', correct: 'cerró' },
+      { sentence: 'Álvaro _____ (coger) el vaso de agua con el laxante y _____ (abrir) la puerta cuando Pepa llamó.', correct: 'cogió, abrió' },
+      { sentence: 'Álvaro se _____ (beber) todo el vaso de un trago delante de Pepa para parecer inocente.', correct: 'bebió' },
+      { sentence: '«_____ (estar) bebiendo agua», dijo Álvaro cuando Pepa llamó a la puerta y le interrumpió.', correct: 'Estaba' },
+      { sentence: 'Mientras _____ (subir) en el ascensor, Álvaro recibió una llamada que le puso nervioso.', correct: 'subía' },
+      { sentence: 'Álvaro _____ (saber) que no era bueno que la persona que le llamaba pensara que le engañaba.', correct: 'sabía' },
+      { sentence: 'Álvaro cogió sin saberlo el vaso que Pepe _____ (preparar) con laxante para su mujer Mercè.', correct: 'había preparado' },
+      { sentence: 'El vaso ya _____ (estar) en la cocina desde antes de que Álvaro llegara al apartamento: Pepe lo _____ (dejar) allí para Mercè.', correct: 'había estado / había dejado' }
+    ]
+  },
+
+  'ex-18-1-12-3': {
+    id: 'ex-18-1-12-3',
+    type: 'translation',
+    title: 'Перевод: Apartamento 112. 20.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Пепе кладёт несколько капель слабительного в стакан с водой.',
+        correct: 'Pepe pone unas gotas de laxante en un vaso con agua.',
+        alternatives: ['Pepe echa unas gotas de laxante en un vaso con agua y lo deja en la cocina.']
+      },
+      {
+        russian: '«Сегодня мне это не нужно. Я сегодня ничего не ела», — говорит Мерсе.',
+        correct: '«Hoy no lo necesito. No he comido nada», —dice Mercè.',
+        alternatives: ['Mercè le dice a su marido: «Hoy no lo necesito, porque no he comido nada en todo el día».']
+      },
+      {
+        russian: 'Мерсе ищет таблетки для сна среди лекарств, принимает одну и идёт спать.',
+        correct: 'Mercè busca entre los medicamentos, se toma una pastilla para dormir y se va a la cama.',
+        alternatives: ['Mercè encuentra sus pastillas, se toma una y se acuesta.']
+      },
+      {
+        russian: 'Пока Альваро едет в лифте вверх, он получает звонок.',
+        correct: 'Mientras Álvaro sube en el ascensor, recibe una llamada.',
+        alternatives: ['Subiendo en el ascensor, Álvaro recibe una llamada telefónica inesperada.']
+      },
+      {
+        russian: 'Звонящий спрашивает его, почему он не передал то, что должен был.',
+        correct: 'La persona que le llama le pregunta por qué no ha entregado lo que tenía que entregar.',
+        alternatives: ['Quien llama quiere saber por qué Álvaro todavía no ha entregado lo que debía.']
+      },
+      {
+        russian: 'Альваро говорит, что у него возникли проблемы и ему нужно ещё немного времени.',
+        correct: 'Álvaro dice que ha tenido problemas y que necesita un poco más de tiempo.',
+        alternatives: ['Álvaro explica que ha tenido dificultades y pide algo más de tiempo para cumplir con su parte.']
+      },
+      {
+        russian: 'Альваро входит в квартиру, открывает чемодан Рауля и начинает рыться в нём.',
+        correct: 'Álvaro entra en el apartamento, abre la maleta de Raúl y empieza a buscar.',
+        alternatives: ['En cuanto entra en el apartamento, Álvaro abre la maleta de Raúl y comienza a registrarla.']
+      },
+      {
+        russian: 'В чемодане Альваро находит одежду, журналы и нож.',
+        correct: 'En la maleta Álvaro encuentra ropa, revistas y una navaja.',
+        alternatives: ['Dentro de la maleta hay ropa, revistas y, sorprendentemente, una navaja.']
+      },
+      {
+        russian: '«Рауль — опасный тип?» — спрашивает себя Альваро.',
+        correct: '«¿Raúl es un tipo peligroso?» —se pregunta Álvaro.',
+        alternatives: ['Álvaro se queda pensativo: «¿Será Raúl una persona peligrosa?»']
+      },
+      {
+        russian: 'Слышится дверь лифта и приближающиеся шаги. Альваро закрывает чемодан.',
+        correct: 'Se oye la puerta del ascensor y unos pasos que se acercan. Álvaro cierra la maleta.',
+        alternatives: ['Álvaro oye abrirse el ascensor y pasos que se acercan; de inmediato cierra la maleta.']
+      },
+      {
+        russian: 'Альваро берёт стакан с водой (со слабительным) и открывает дверь.',
+        correct: 'Álvaro coge el vaso de agua con el laxante y abre la puerta.',
+        alternatives: ['Álvaro toma el vaso que había en la cocina y abre cuando Pepa llama.']
+      },
+      {
+        russian: '«Я пил воду», — говорит Альваро, когда Пепа перебивает его.',
+        correct: '«Estaba bebiendo agua» —dice Álvaro cuando Pepa le interrumpe.',
+        alternatives: ['Álvaro explica: «Es que estaba tomando un vaso de agua».']
+      },
+      {
+        russian: 'И он выпивает весь стакан до дна прямо при Пепе.',
+        correct: 'Y se bebe todo el vaso delante de Pepa.',
+        alternatives: ['Álvaro se termina el vaso entero de un solo trago ante los ojos de Pepa.']
+      },
+      {
+        russian: '«Я пришла сказать тебе, что мы идём прогуляться. Ты идёшь?»',
+        correct: '«Vengo a decirte que nos vamos a dar una vuelta. ¿Vienes?» —dice Pepa.',
+        alternatives: ['«Hemos venido a buscarte para salir a dar una vuelta. ¿Te apuntas?»']
+      },
+      {
+        russian: 'Жаль, что Альваро не знает, что стакан, который он выпил, содержал слабительное, которое Пепе приготовил для Мерсе.',
+        correct: 'Es una lástima que Álvaro no sepa que el vaso que se ha bebido contenía el laxante que Pepe había preparado para Mercè.',
+        alternatives: ['Álvaro no sabe que el vaso que se ha tomado tenía el laxante que Pepe había puesto para su mujer.']
+      }
+    ]
   }
 
 }
