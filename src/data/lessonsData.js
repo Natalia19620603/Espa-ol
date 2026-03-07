@@ -57471,6 +57471,290 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Cuando la bolsa aparezca, se descubrirá qué contenía exactamente.']
       }
     ]
+  },
+
+  'ex-18-1-9-1': {
+    id: 'ex-18-1-9-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Restaurante El calamar. 18.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué está comiendo Pepe cuando empieza el capítulo?',
+        options: [
+          'Un bogavante entero a la plancha',
+          'Un bocadillo de jamón y queso',
+          'Una gran copa de helado cubierto de chocolate',
+          'Una ración de patatas fritas con alioli'
+        ],
+        correct: 2,
+        explanation: 'Pepe está terminando una gran copa de helado cubierto de chocolate mientras Mercè tiene delante un bogavante que no puede comer.'
+      },
+      {
+        text: '¿Por qué no puede comer Mercè el bogavante?',
+        options: [
+          'Porque es alérgica al marisco y no lo sabe',
+          'Porque el bogavante está duro y no puede pincharlo ni cortarlo',
+          'Porque el médico le ha prohibido comer marisco',
+          'Porque lo ha pedido por equivocación y no le gusta'
+        ],
+        correct: 1,
+        explanation: 'Mercè quiere pinchar el bogavante con el tenedor y cortarlo con el cuchillo, pero no puede porque está duro.'
+      },
+      {
+        text: '¿Qué le recuerda Pepe a Mercè sobre el bogavante?',
+        options: [
+          'Que lo ha pedido él porque es el plato del día',
+          'Que le ha dicho que quería comer bogavante',
+          'Que es el marisco más fresco que hay en la Costa Brava',
+          'Que el camarero les recomendó personalmente ese plato'
+        ],
+        correct: 1,
+        explanation: 'Pepe le dice: «Mercè, es un bogavante. Me has dicho que querías comer bogavante».'
+      },
+      {
+        text: '¿A quién le da Mercè el plato con el bogavante?',
+        options: [
+          'Al camarero del restaurante, que se lo lleva a la cocina',
+          'A Pepe, para que lo coma él porque le gusta el marisco',
+          'A un chico que pasa por la calle, creyendo que es el camarero',
+          'Al mendigo que está sentado en el suelo'
+        ],
+        correct: 2,
+        explanation: 'Mercè llama a un chico que pasa por la calle y le da el plato, creyendo que es el camarero. El chico responde: «Señora, yo no…»'
+      },
+      {
+        text: '¿Qué ocurre cuando Mercè se levanta para ir al baño?',
+        options: [
+          'Tropieza con la silla y se cae al suelo',
+          'Le da un golpe al chico sin mirar y el bogavante cae en la cabeza de Pepe',
+          'El camarero de verdad le trae la ensalada que había pedido',
+          'Se le cae el bolso y todos los medicamentos se esparcen por el suelo'
+        ],
+        correct: 1,
+        explanation: 'Mercè, sin mirar y sin ver, se levanta para ir al baño, le da un golpe al chico y el bogavante cae en la cabeza de Pepe.'
+      },
+      {
+        text: '¿Qué hace Pepe con el bogavante después de que cae en su cabeza?',
+        options: [
+          'Lo devuelve al plato y lo intenta comer',
+          'Lo pone en la mesa con cuidado y llama al camarero',
+          'Lo coge y lo tira hacia atrás sin mirar lo que hay detrás',
+          'Lo tira al suelo delante del restaurante'
+        ],
+        correct: 2,
+        explanation: 'Pepe coge el bogavante y lo tira hacia atrás sin mirar, sin saber quién está detrás de él.'
+      },
+      {
+        text: '¿Dónde cae el bogavante cuando Pepe lo tira?',
+        options: [
+          'Encima de la mesa de los clientes de al lado',
+          'En el medio de la calle, delante del restaurante',
+          'A los pies de un mendigo que está sentado en el suelo',
+          'Dentro de la fuente decorativa del restaurante'
+        ],
+        correct: 2,
+        explanation: 'El bogavante cae a los pies de un mendigo que está sentado en el suelo, con un letrero en el que pone: «Dame algo para comer».'
+      },
+      {
+        text: '¿Qué noticia trae Mercè al volver del baño?',
+        options: [
+          'Que van a cerrar el restaurante porque hay una inspección de sanidad',
+          'Que han encontrado la bolsa de Álvaro en Figueras',
+          'Que han robado un cuadro de Dalí del museo de Figueras',
+          'Que hay un accidente grave en la autopista AP-7'
+        ],
+        correct: 2,
+        explanation: 'Mercè dice: «En la tele están diciendo que han robado un cuadro de Dalí del museo de Figueras».'
+      },
+      {
+        text: '¿Cómo describe Mercè el cuadro robado?',
+        options: [
+          'Un cuadro enorme con relojes derritiéndose',
+          'Un cuadro pequeño, muy bonito, con un pan que parece de verdad',
+          'Un autorretrato famoso del pintor Salvador Dalí',
+          'Un cuadro grande con una mujer al lado del mar'
+        ],
+        correct: 1,
+        explanation: 'Mercè describe el cuadro robado como «un cuadro pequeño, muy bonito. Ese cuadro con un pan que parece de verdad».'
+      },
+      {
+        text: '¿Qué malentendido provoca que Pepe le dé un plato de pan a Mercè?',
+        options: [
+          'Pepe cree que Mercè quiere pan de acompañamiento con la ensalada',
+          'Pepe confunde el nombre del cuadro («el cuadro del pan») con la petición de comer pan',
+          'El camarero les trae pan porque es lo que hay en el menú del día',
+          'Pepe quiere que Mercè coma algo aunque sea pan, porque no ha probado bocado'
+        ],
+        correct: 1,
+        explanation: 'Mercè dice «Que han robado el cuadro del pan» y Pepe entiende que quiere pan: «¡Toma! No quieres el bogavante y pides pan».'
+      },
+      {
+        text: '¿Qué entiende Pepe cuando Mercè grita «¡ENSALADA!»?',
+        options: [
+          'Entiende perfectamente que quiere una ensalada y llama al camarero',
+          'No entiende nada y guarda silencio',
+          'Entiende «delgada» y le dice «Síiiiiii, estás delgada»',
+          'Entiende «nada» y le dice que no hay nada en el restaurante'
+        ],
+        correct: 2,
+        explanation: 'Pepe oye «ensalada» como «delgada» y responde: «Síiiiiii, estás delgada», lo que enfurece aún más a Mercè.'
+      },
+      {
+        text: '¿Por qué dice Mercè que está tan delgada?',
+        options: [
+          'Porque sigue una dieta estricta por su diabetes',
+          'Porque en casa no hay comida, en el restaurante no puede comer y no le traen la ensalada',
+          'Porque Pepe se come toda la comida que hay en casa',
+          'Porque el calor del verano le quita el apetito'
+        ],
+        correct: 1,
+        explanation: 'Mercè enumera sus razones: «¡En casa no hay comida, en el restaurante no puedo comer. No me traen la comida. He pedido una ensalada!»'
+      },
+      {
+        text: '¿Qué entiende Pepe cuando Mercè dice «estoy harta de hablar con un sordo»?',
+        options: [
+          'Lo entiende perfectamente y se disculpa',
+          'Entiende «gordo» y dice: «¿Gordo? Yo no estoy gordo»',
+          'Entiende «moro» y se queda confundido',
+          'No entiende nada y sigue comiendo tranquilamente'
+        ],
+        correct: 1,
+        explanation: 'Pepe oye «sordo» como «gordo» y responde indignado: «¿Gordo? Yo no estoy gordo», sin entender lo que Mercè realmente dice.'
+      },
+      {
+        text: '¿Qué relación tiene la noticia del robo del cuadro con el resto de la historia?',
+        options: [
+          'Ninguna, es solo un detalle del ambiente de la historia',
+          'El cuadro robado podría ser lo que había en la bolsa de Álvaro',
+          'El mendigo que recibe el bogavante es el ladrón del cuadro',
+          'Mercè y Pepe son los únicos que saben quién robó el cuadro'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dijo que su bolsa contenía «papeles, documentos» con «valor sentimental». La noticia del robo del cuadro de Dalí conecta la historia: el cuadro podría ser lo que Álvaro transportaba en su bolsa.'
+      },
+      {
+        text: '¿Qué elemento cómico recorre todo el capítulo?',
+        options: [
+          'Raúl no sabe hablar inglés y nadie le entiende en el restaurante',
+          'Los malentendidos entre Mercè, que tiene mala vista, y Pepe, que está sordo',
+          'El mendigo que recibe el bogavante no entiende qué está pasando',
+          'El camarero se niega a traer la ensalada porque no está en el menú'
+        ],
+        correct: 1,
+        explanation: 'Todo el capítulo gira en torno a los malentendidos cómicos: Mercè no ve bien (confunde al chico con el camarero) y Pepe no oye bien («ensalada» → «delgada», «sordo» → «gordo»).'
+      }
+    ]
+  },
+
+  'ex-18-1-9-2': {
+    id: 'ex-18-1-9-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Restaurante El calamar. 18.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/todavía/nunca + НОВОСТЬ с актуальностью сейчас («han robado» = только что украли, картина ещё не найдена). INDEFINIDO (hizo) → нарративные моменты в рассказе (cogió, cayó, salió), ayer/entonces/cuando. PLUSCUAMPERFECTO → действие ДО другого прошлого. IMPERFECTO → фон/описание. SUBJUNTIVO → es una lástima que / ojalá. FUTURO → cuando + subjuntivo...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '—¡Me _____ (decir, tú) que querías comer bogavante! —le recuerda Pepe a Mercè en plena cena de hoy.', correct: 'has dicho' },
+      { sentence: '—Yo no te _____ (decir) eso —responde Mercè tajante, negando lo que supuestamente dijo hoy en el restaurante.', correct: 'he dicho' },
+      { sentence: 'Mercè _____ (pedir) una ensalada, pero los camareros todavía no se la han traído.', correct: 'ha pedido' },
+      { sentence: 'En la televisión acaban de anunciar que alguien _____ (robar) un cuadro pequeño del museo Dalí de Figueras.', correct: 'ha robado' },
+      { sentence: 'Mercè _____ (intentar) pinchar el bogavante con el tenedor, pero estaba tan duro que no pudo.', correct: 'intentó' },
+      { sentence: 'Mercè le _____ (dar) el plato con el bogavante al primer chico que pasó por la calle, creyendo que era el camarero.', correct: 'dio' },
+      { sentence: 'Al levantarse para ir al baño, Mercè le _____ (dar) un golpe al chico sin querer y el bogavante salió volando.', correct: 'dio' },
+      { sentence: 'El chico _____ (salir) corriendo en cuanto el bogavante cayó sobre la cabeza de Pepe.', correct: 'salió' },
+      { sentence: 'Pepe _____ (coger) el bogavante que le cayó encima y lo tiró hacia atrás sin mirar qué había detrás.', correct: 'cogió' },
+      { sentence: 'El bogavante _____ (caer) exactamente a los pies de un mendigo que estaba sentado en el suelo con un letrero.', correct: 'cayó' },
+      { sentence: 'El mendigo _____ (estar) sentado en el suelo con un letrero que pedía algo de comer cuando el bogavante aterrizó a sus pies.', correct: 'estaba' },
+      { sentence: 'Mercè _____ (querer) simplemente cenar algo ligero, pero el restaurante le trajo un bogavante enorme que no podía comer.', correct: 'quería' },
+      { sentence: 'Es una lástima que los camareros no le _____ (traer) la ensalada a Mercè después de tanto tiempo esperando.', correct: 'traigan' },
+      { sentence: 'Ojalá que Pepe _____ (entender) algún día lo que le dice su mujer sin que ella tenga que gritar.', correct: 'entienda' },
+      { sentence: 'Cuando la policía _____ (investigar) el robo del cuadro, descubrirá conexiones inesperadas con nuestra historia.', correct: 'investigue' }
+    ]
+  },
+
+  'ex-18-1-9-3': {
+    id: 'ex-18-1-9-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Restaurante El calamar. 18.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Мерсе и Пепе сидят на террасе ресторана. Пепе заканчивает большую вазочку мороженого с шоколадом.',
+        correct: 'Mercè y Pepe están en la terraza del restaurante. Pepe está terminando una gran copa de helado cubierto de chocolate.',
+        alternatives: ['Mercè y Pepe están sentados en la terraza del restaurante. Pepe termina una copa enorme de helado con chocolate.']
+      },
+      {
+        russian: 'Перед Мерсе стоит тарелка с целым омаром, но она не может его ни наколоть, ни разрезать — он слишком жёсткий.',
+        correct: 'Mercè tiene delante un plato con un bogavante entero, pero no puede pincharlo ni cortarlo: está muy duro.',
+        alternatives: ['Mercè tiene un bogavante entero delante, pero está tan duro que no puede ni pincharlo ni cortarlo con los cubiertos.']
+      },
+      {
+        russian: '«Ты же сказала мне, что хотела поесть омара!» — «Я тебе такого не говорила!»',
+        correct: '«¡Me has dicho que querías comer bogavante!» — «¡Yo no te he dicho eso!»',
+        alternatives: ['«Me dijiste que querías bogavante» — «No te he dicho tal cosa».']
+      },
+      {
+        russian: 'Мерсе поднимает руку и подзывает парня, который идёт по улице, думая, что это официант.',
+        correct: 'Mercè levanta el brazo y llama a un chico que pasa por la calle, creyendo que es el camarero.',
+        alternatives: ['Mercè hace señas a un chico que pasa por la calle porque cree que es el camarero del restaurante.']
+      },
+      {
+        russian: 'Вставая, чтобы пойти в туалет, Мерсе нечаянно задевает парня, и омар падает на голову Пепе.',
+        correct: 'Al levantarse para ir al baño, Mercè le da un golpe al chico sin querer y el bogavante cae en la cabeza de Pepe.',
+        alternatives: ['Cuando Mercè se levanta para ir al baño, golpea al chico sin querer y el bogavante acaba en la cabeza de Pepe.']
+      },
+      {
+        russian: 'Парень убегает. Пепе берёт омара и бросает его назад, не глядя, что там сзади.',
+        correct: 'El chico sale corriendo. Pepe coge el bogavante y lo tira hacia atrás sin mirar lo que hay detrás.',
+        alternatives: ['El chico echa a correr. Pepe agarra el bogavante y lo lanza hacia atrás sin fijarse en lo que hay detrás de él.']
+      },
+      {
+        russian: 'Омар падает к ногам нищего, который сидит на земле с табличкой «Дай мне что-нибудь поесть».',
+        correct: 'El bogavante cae a los pies de un mendigo que está sentado en el suelo, con un letrero en el que pone: «Dame algo para comer».',
+        alternatives: ['El bogavante aterriza justo a los pies de un mendigo sentado en el suelo con un cartel que dice «Dame algo para comer».']
+      },
+      {
+        russian: '«По телевизору говорят, что украли картину Дали из музея в Фигерасе».',
+        correct: '«En la tele están diciendo que han robado un cuadro de Dalí del museo de Figueras».',
+        alternatives: ['«La televisión dice que han robado un cuadro de Dalí en el museo de Figueras».']
+      },
+      {
+        russian: 'Пепе даёт ей хлеб: «Ты не хочешь омара и просишь хлеб. Ты очень странная, Мерсе».',
+        correct: 'Pepe le da el plato con el pan: «No quieres el bogavante y pides pan. Estás muy rara, Mercè».',
+        alternatives: ['Pepe le pone delante el pan: «No quieres el bogavante y ahora pides pan. Estás rara, Mercè».']
+      },
+      {
+        russian: '«Я заказала салат! Я хочу есть!» — кричит Мерсе, показывая жест «есть».',
+        correct: '«¡He pedido una ensalada! ¡Yo quiero comer!» —grita Mercè haciendo el gesto de llevarse la mano a la boca.',
+        alternatives: ['«¡He pedido una ensalada y quiero comer!» —grita Mercè mientras hace el gesto de comer con la mano.']
+      },
+      {
+        russian: '«Потому что я ненавижу омара, потому что официанты не несут мой салат и потому что дома нет еды!»',
+        correct: '«¡Porque odio el bogavante, porque los camareros no me traen mi ensalada y porque en casa no hay comida!»',
+        alternatives: ['«¡Es que odio el bogavante, los camareros no me traen la ensalada y en casa tampoco hay nada que comer!»']
+      },
+      {
+        russian: '«Что ты говоришь о напитках?» — спрашивает Пепе, перепутав «comida» с «bebida».',
+        correct: '«¿Qué dices de la bebida?» —pregunta Pepe, confundiendo «comida» con «bebida».',
+        alternatives: ['Pepe confunde «comida» con «bebida» y pregunta: «¿Qué dices de la bebida?»']
+      },
+      {
+        russian: '«У МЕНЯ ЖУТКИЙ ГОЛОД! И МНЕ НАДОЕЛО РАЗГОВАРИВАТЬ С ГЛУХИМ!»',
+        correct: '«¡TENGO HAMBREEE! ¡Y ESTOY HARTA DE HABLAR CON UN SORDO!»',
+        alternatives: ['«¡ME MUERO DE HAMBRE! ¡Y ESTOY HARTA DE HABLAR CON UN SORDO!»']
+      },
+      {
+        russian: '«Толстый? Я не толстый» — отвечает Пепе, перепутав «sordo» с «gordo».',
+        correct: '«¿Gordo? Yo no estoy gordo» —responde Pepe, confundiendo «sordo» con «gordo».',
+        alternatives: ['Pepe oye «gordo» en vez de «sordo» y responde indignado: «¿Gordo? ¡Yo no estoy gordo!»']
+      },
+      {
+        russian: 'Жаль, что ни Мерсе, ни Пепе не понимают, что новость о краже картины связана с их историей.',
+        correct: 'Es una lástima que ni Mercè ni Pepe entiendan que la noticia del robo del cuadro está relacionada con su historia.',
+        alternatives: ['Es una pena que ninguno de los dos se dé cuenta de que la noticia del robo tiene que ver con lo que les pasa.']
+      }
+    ]
   }
 
 }
