@@ -55822,6 +55822,270 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Si Pepa realiza viajes como este, podrá ganar lo mismo que trabajando dos días normales en Barcelona.']
       }
     ]
+  },
+
+  'ex-18-1-3-1': {
+    id: 'ex-18-1-3-1',
+    type: 'reading',
+    title: 'Понимание текста: Barcelona. Jueves, 31 de julio. 14.15 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿A qué hora deja Pepa a los japoneses en el Museo Dalí?',
+        options: ['A las doce del mediodía', 'A la una y media de la tarde', 'A las dos y cuarto de la tarde', 'A las tres de la tarde'],
+        correct: 2,
+        explanation: 'A las dos y cuarto de la tarde Pepa deja a los japoneses en la puerta del Museo Dalí, en Figueras.'
+      },
+      {
+        text: '¿Qué pide Pepa en el bar de Figueras?',
+        options: [
+          'Una tortilla española, agua y un café solo',
+          'Un bocadillo de jamón, una cerveza y dos cafés con hielo',
+          'Un sándwich, un zumo y un cortado',
+          'Una ensalada, una cerveza y un café con leche'
+        ],
+        correct: 1,
+        explanation: 'Pepa aparca, entra en un bar y se toma un bocadillo de jamón, una cerveza y dos cafés con hielo.'
+      },
+      {
+        text: '¿Cómo es físicamente el hombre que corre hacia el taxi de Pepa?',
+        options: [
+          'Bajo, moreno, con barba y gafas',
+          'Alto, rubio, con coleta y ojos de serpiente',
+          'De mediana estatura, pelirrojo, con bigote',
+          'Alto, con el pelo negro y muy corto'
+        ],
+        correct: 1,
+        explanation: 'El hombre lleva el pelo rubio recogido en una coleta. Es alto, guapo y tiene ojos de serpiente.'
+      },
+      {
+        text: '¿Adónde quiere ir el nuevo pasajero?',
+        options: ['Al aeropuerto de El Prat', 'A la estación de Sants', 'Al Hotel Arts', 'Al barrio de Gracia'],
+        correct: 2,
+        explanation: 'El hombre le dice a Pepa que quiere ir al Hotel Arts, un hotel de superlujo en Barcelona.'
+      },
+      {
+        text: '¿Por qué Pepa está encantada de llevar al nuevo pasajero?',
+        options: [
+          'Porque el hombre le parece muy atractivo',
+          'Porque el Hotel Arts está cerca de su casa',
+          'Porque va a cobrar dos veces por el mismo viaje Barcelona-Figueras',
+          'Porque el hombre le ha dado una propina enorme'
+        ],
+        correct: 2,
+        explanation: 'Pepa piensa que va a cobrar dos veces por el mismo viaje. Está encantada.'
+      },
+      {
+        text: '¿Qué tipo de hotel es el Hotel Arts?',
+        options: ['Un hostal económico', 'Un hotel de tres estrellas', 'Un hotel de superlujo', 'Una pensión familiar'],
+        correct: 2,
+        explanation: 'El Hotel Arts es descrito como un hotel de superlujo.'
+      },
+      {
+        text: '¿Quiere hablar el nuevo pasajero durante el viaje?',
+        options: [
+          'Sí, habla sin parar de sus viajes por el mundo',
+          'Sí, pregunta a Pepa muchas cosas sobre Barcelona',
+          'No, solo mira el paisaje y no quiere conversación',
+          'Sí, pero solo habla por teléfono con alguien'
+        ],
+        correct: 2,
+        explanation: 'No quiere conversación. Pepa sabe cuando la gente tiene ganas de hablar y cuando no. Pone la radio y conduce en silencio.'
+      },
+      {
+        text: '¿A qué hora llega Pepa al Hotel Arts con el pasajero?',
+        options: ['A las cuatro de la tarde', 'A las cinco de la tarde', 'A las seis de la tarde', 'A las siete de la tarde'],
+        correct: 2,
+        explanation: 'A las seis de la tarde Pepa deja al pasajero en el Hotel Arts.'
+      },
+      {
+        text: '¿Dónde trabaja Raúl y qué hace cuando llega Pepa?',
+        options: [
+          'En el bar de Armando; está sirviendo copas',
+          'En un garaje en Gracia; sale del baño con una revista de motos',
+          'En una peluquería; está cortando el pelo a un cliente',
+          'En un párking; está en la caja cobrando a un cliente'
+        ],
+        correct: 1,
+        explanation: 'Raúl trabaja en un garaje del barrio de Gracia. Sale del baño con una revista de motos en las manos.'
+      },
+      {
+        text: '¿Qué noticia da el chico con gafas?',
+        options: [
+          'Que han encontrado una bolsa verde en la calle',
+          'Que Loli ha llamado para decir que no puede ir de vacaciones',
+          'Que han robado un cuadro del Museo Dalí',
+          'Que hay un accidente en la carretera de Figueras'
+        ],
+        correct: 2,
+        explanation: 'El chico con gafas dice: «He oído en la radio que han robado un cuadro del Museo Dalí».'
+      },
+      {
+        text: '¿Escuchan Pepa y Raúl la noticia del robo?',
+        options: [
+          'Sí, se quedan muy sorprendidos y llaman a la policía',
+          'Sí, pero no le dan importancia y siguen hablando',
+          'No, ninguno de los dos le escucha',
+          'Solo Raúl la escucha y se pone nervioso'
+        ],
+        correct: 2,
+        explanation: 'El chico con gafas da la noticia, pero ni Pepa ni Raúl le escuchan; siguen con su propia conversación.'
+      },
+      {
+        text: '¿Por qué Raúl necesita encontrar su bolsa verde?',
+        options: [
+          'Porque dentro tiene documentos importantes de trabajo',
+          'Porque mañana se va de vacaciones a la playa con Loli',
+          'Porque dentro tiene el dinero del alquiler del piso',
+          'Porque la bolsa le costó mucho dinero'
+        ],
+        correct: 1,
+        explanation: 'Raúl dice: «Mañana nos vamos a la playa Loli y yo. No encuentro por ningún lado mi bolsa verde».'
+      },
+      {
+        text: '¿Dónde estaba la bolsa verde de Raúl?',
+        options: [
+          'En el bar de Armando',
+          'En el baño del garaje',
+          'En el taxi de Pepa',
+          'En el apartamento de Nacho en Empuriabrava'
+        ],
+        correct: 2,
+        explanation: 'Pepa le dice a Raúl: «¡Tu bolsa verde! Está en el taxi». Pepa abre el coche y le da la bolsa a Raúl.'
+      },
+      {
+        text: '¿Qué mete Raúl en la bolsa antes de salir?',
+        options: [
+          'La cartera y las llaves del garaje',
+          'La revista de motos y unas llaves',
+          'Ropa y el cargador del móvil',
+          'La revista de motos y su almuerzo'
+        ],
+        correct: 1,
+        explanation: 'Raúl mete en la bolsa la revista (de motos) y unas llaves.'
+      },
+      {
+        text: '¿Cómo termina el capítulo?',
+        options: [
+          'Pepa y Raúl discuten y se separan enfadados',
+          'Raúl se despide de Pepa y se va a casa a hacer la maleta',
+          'Raúl le pasa el brazo por el hombro a Pepa y los dos salen a celebrarlo',
+          'Pepa vuelve al taxi para seguir trabajando toda la noche'
+        ],
+        correct: 2,
+        explanation: '«¡Empiezan las vacaciones! ¡Vamos a celebrarlo!» Raúl le pasa el brazo por encima del hombro a Pepa y los dos salen a la calle.'
+      }
+    ]
+  },
+
+  'ex-18-1-3-2': {
+    id: 'ex-18-1-3-2',
+    type: 'fillblank',
+    title: 'Грамматика: Barcelona. Jueves, 31 de julio. 14.15 h',
+    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'A las dos y cuarto Pepa _____ (dejar) a los japoneses en la puerta del Museo Dalí y aparcó el taxi.', correct: 'dejó' },
+      { sentence: 'Pepa _____ (tomar) un bocadillo de jamón, una cerveza y dos cafés con hielo en el bar de Figueras.', correct: 'tomó' },
+      { sentence: 'El hombre _____ (llevar) el pelo rubio recogido en una coleta y tenía ojos de serpiente.', correct: 'llevaba' },
+      { sentence: 'Cuando Pepa volvió al taxi, _____ (ver) a un hombre alto que corría hacia ella.', correct: 'vio' },
+      { sentence: 'El hombre le _____ (preguntar) a Pepa si estaba libre y si podía llevarlo a Barcelona.', correct: 'preguntó' },
+      { sentence: 'Pepa _____ (estar) encantada porque iba a cobrar dos veces por el mismo viaje.', correct: 'estaba' },
+      { sentence: 'El pasajero no _____ (querer) hablar, así que Pepa puso la radio y condujo en silencio.', correct: 'quería' },
+      { sentence: 'Pepa le _____ (dar) la bolsa verde a Raúl y le dijo que era un desastre.', correct: 'dio' },
+      { sentence: 'Raúl _____ (salir) del baño con una revista de motos en las manos cuando llegó Pepa.', correct: 'salió' },
+      { sentence: 'Pepa le _____ (contar) a Raúl que había ido a Figueras con unos japoneses y había recogido a un tipo de vuelta.', correct: 'contó' },
+      { sentence: 'El chico con gafas _____ (oír) en la radio que habían robado un cuadro del Museo Dalí.', correct: 'había oído' },
+      { sentence: 'Pepa le dice a Raúl que _____ (ir) a Figueras y que _____ (recoger) a un pasajero de vuelta.', correct: 'ha ido / ha recogido' },
+      { sentence: 'Es una pena que ni Pepa ni Raúl _____ (escuchar) la noticia del robo en el Museo Dalí.', correct: 'escuchen' },
+      { sentence: 'Ojalá que Raúl _____ (encontrar) todas sus cosas antes de salir de vacaciones mañana.', correct: 'encuentre' },
+      { sentence: 'Mañana Raúl _____ (irse) de vacaciones a la playa con Loli para celebrar el inicio del verano.', correct: 'se irá' }
+    ]
+  },
+
+  'ex-18-1-3-3': {
+    id: 'ex-18-1-3-3',
+    type: 'translation',
+    title: 'Перевод: Barcelona. Jueves, 31 de julio. 14.15 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'В четверть третьего дня Пепа оставляет японцев у входа в музей Далí в Фигерасе.',
+        correct: 'A las dos y cuarto de la tarde Pepa deja a los japoneses en la puerta del Museo Dalí, en Figueras.',
+        alternatives: ['A las dos y cuarto Pepa deja a los turistas japoneses delante del Museo Dalí de Figueras.']
+      },
+      {
+        russian: 'Она паркуется, заходит в бар и заказывает бутерброд с ветчиной, пиво и два кофе со льдом.',
+        correct: 'Aparca, entra en un bar y se toma un bocadillo de jamón, una cerveza y dos cafés con hielo.',
+        alternatives: ['Pepa aparca el taxi, entra en un bar y pide un bocadillo de jamón, una cerveza y dos cafés con hielo.']
+      },
+      {
+        russian: 'Когда она возвращается к такси, она видит высокого мужчину, который бежит к ней.',
+        correct: 'Cuando vuelve al taxi, ve a un hombre alto que va hacia ella corriendo.',
+        alternatives: ['Al volver al taxi, Pepa ve a un hombre alto corriendo hacia ella.']
+      },
+      {
+        russian: 'У него светлые волосы, собранные в хвост, он высокий, красивый и со змеиными глазами.',
+        correct: 'Lleva el pelo rubio recogido en una coleta. Es alto, guapo y tiene ojos de serpiente.',
+        alternatives: ['Tiene el pelo rubio en una coleta, es alto y guapo, con ojos de serpiente.']
+      },
+      {
+        russian: 'Пепа рада: она заработает дважды за одну и ту же дорогу.',
+        correct: 'Pepa está encantada: va a cobrar dos veces por el mismo viaje.',
+        alternatives: ['Pepa está contenta porque cobrará dos veces por el mismo trayecto.']
+      },
+      {
+        russian: 'Пассажир не хочет разговаривать, поэтому Пепа включает радио и едет молча.',
+        correct: 'El pasajero no quiere conversación, así que Pepa pone la radio y conduce en silencio.',
+        alternatives: ['Como el hombre no tiene ganas de hablar, Pepa pone la radio y conduce en silencio.']
+      },
+      {
+        russian: 'В шесть вечера Пепа высаживает пассажира у отеля Arts.',
+        correct: 'A las seis de la tarde Pepa deja al pasajero en el Hotel Arts.',
+        alternatives: ['A las seis de la tarde Pepa lleva al hombre al Hotel Arts y lo deja allí.']
+      },
+      {
+        russian: 'Она едет в гараж в квартале Грасия, где работает её друг Рауль, но не видит его.',
+        correct: 'Se dirige al garaje del barrio de Gracia donde trabaja su amigo Raúl, pero no lo ve.',
+        alternatives: ['Conduce hasta el garaje de Gracia donde trabaja Raúl, pero él no está en su sitio.']
+      },
+      {
+        russian: 'Рауль выходит из туалета с журналом о мотоциклах в руках.',
+        correct: 'Raúl sale del baño con una revista de motos en las manos.',
+        alternatives: ['Raúl aparece saliendo del baño con una revista de motos.']
+      },
+      {
+        russian: 'Парень в очках говорит, что из музея Далí украли картину, но ни Пепа, ни Рауль его не слушают.',
+        correct: 'El chico con gafas dice que han robado un cuadro del Museo Dalí, pero ni Pepa ni Raúl le escuchan.',
+        alternatives: ['El chico de las gafas anuncia que han robado un cuadro del Museo Dalí, aunque nadie le hace caso.']
+      },
+      {
+        russian: 'Пепа открывает машину и отдаёт зелёную сумку Раулю.',
+        correct: 'Pepa abre el coche y le da la bolsa verde a Raúl.',
+        alternatives: ['Pepa abre el taxi y le entrega la bolsa verde a Raúl.']
+      },
+      {
+        russian: 'Рауль кладёт в сумку журнал о мотоциклах и ключи.',
+        correct: 'Raúl mete en la bolsa la revista de motos y unas llaves.',
+        alternatives: ['Raúl guarda en la bolsa la revista y las llaves.']
+      },
+      {
+        russian: 'Важно, чтобы Рауль нашёл все свои вещи до отъезда на каникулы.',
+        correct: 'Es importante que Raúl encuentre todas sus cosas antes de irse de vacaciones.',
+        alternatives: ['Es necesario que Raúl tenga todo listo antes de salir de vacaciones mañana.']
+      },
+      {
+        russian: 'Завтра Рауль поедет на пляж с Лоли отмечать начало каникул.',
+        correct: 'Mañana Raúl se irá a la playa con Loli a celebrar el inicio de las vacaciones.',
+        alternatives: ['Mañana Raúl y Loli se irán juntos a la playa para empezar sus vacaciones.']
+      },
+      {
+        russian: 'Рауль обнимает Пепу за плечи и они вместе выходят на улицу праздновать.',
+        correct: 'Raúl le pasa el brazo por encima del hombro a Pepa y los dos salen a la calle a celebrarlo.',
+        alternatives: ['Raúl rodea a Pepa con el brazo y salen juntos a la calle a celebrar el inicio de las vacaciones.']
+      }
+    ]
   }
 
 }
