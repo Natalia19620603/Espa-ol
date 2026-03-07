@@ -56086,6 +56086,275 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Raúl rodea a Pepa con el brazo y salen juntos a la calle a celebrar el inicio de las vacaciones.']
       }
     ]
+  },
+
+  'ex-18-1-4-1': {
+    id: 'ex-18-1-4-1',
+    type: 'reading',
+    title: 'Понимание текста: Barcelona. Viernes, 1 de agosto. 12.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Por qué le duele la cabeza a Pepa al comenzar el día?',
+        options: [
+          'Porque hace mucho calor y lleva horas al sol',
+          'Porque salió de fiesta con Raúl: bares, copas y más copas',
+          'Porque tuvo un accidente con el taxi por la noche',
+          'Porque lleva varios días sin dormir bien por el trabajo'
+        ],
+        correct: 1,
+        explanation: 'Cuando sale con su amigo Raúl siempre pasa lo mismo: bares y más bares; copas y más copas.'
+      },
+      {
+        text: '¿Cuántas horas ha dormido Pepa?',
+        options: ['Dos horas', 'Tres horas', 'Cuatro horas', 'Cinco horas'],
+        correct: 2,
+        explanation: 'Solo ha dormido cuatro horas: se fue a dormir a las seis de la mañana y se ha levantado a las diez.'
+      },
+      {
+        text: '¿A qué hora se fue a dormir Pepa y a qué hora se levantó?',
+        options: [
+          'Se fue a las cuatro y se levantó a las ocho',
+          'Se fue a las cinco y se levantó a las nueve',
+          'Se fue a las seis de la mañana y se levantó a las diez',
+          'Se fue a las dos de la madrugada y se levantó a las seis'
+        ],
+        correct: 2,
+        explanation: 'Se fue a dormir a las seis de la mañana y se ha levantado a las diez.'
+      },
+      {
+        text: '¿Quiénes son los primeros clientes de Pepa ese viernes?',
+        options: [
+          'Tres chicas americanas',
+          'Una pareja de turistas franceses',
+          'Una señora elegante de la zona alta',
+          'El hombre rubio con coleta del Hotel Arts'
+        ],
+        correct: 1,
+        explanation: 'Primero recoge a una pareja de turistas franceses a los que lleva hasta el Camp Nou.'
+      },
+      {
+        text: '¿Adónde lleva Pepa a los turistas franceses?',
+        options: ['Al Museo Picasso', 'A la Sagrada Familia', 'Al Camp Nou', 'Al Parque Güell'],
+        correct: 2,
+        explanation: 'Pepa lleva a la pareja de turistas franceses hasta el Camp Nou, el campo del Fútbol Club Barcelona.'
+      },
+      {
+        text: '¿Qué hace Pepa antes de continuar trabajando tras dejar a los franceses?',
+        options: [
+          'Come un bocadillo y descansa media hora',
+          'Para en un bar a comprar una Coca-Cola',
+          'Llama a Raúl para saber cómo está',
+          'Va a su casa a buscar más café'
+        ],
+        correct: 1,
+        explanation: 'Para un momento en un bar a comprar una Coca-Cola.'
+      },
+      {
+        text: '¿Cuál es la segunda clienta de Pepa?',
+        options: [
+          'Una turista japonesa que va al aeropuerto',
+          'Una chica americana que va a la playa',
+          'Una señora elegante que va a la zona alta de la ciudad',
+          'Una estudiante que va a la universidad'
+        ],
+        correct: 2,
+        explanation: 'Después sube al taxi una señora elegante que va a la zona alta de la ciudad.'
+      },
+      {
+        text: '¿Adónde lleva Pepa a las tres chicas americanas?',
+        options: [
+          'Al aeropuerto de El Prat',
+          'A la playa de la Barceloneta',
+          'Al Paseo de Gracia',
+          'Al barrio Gótico'
+        ],
+        correct: 1,
+        explanation: 'A continuación lleva a tres chicas americanas a la playa de la Barceloneta.'
+      },
+      {
+        text: '¿Qué escucha Pepa mientras baja por Vía Layetana?',
+        options: [
+          'Una canción de Chambao en la radio',
+          'La voz de la operadora pidiendo su número de licencia para el Hotel Arts',
+          'Una llamada de Loli para quedar a comer',
+          'Un aviso de tráfico sobre un accidente'
+        ],
+        correct: 1,
+        explanation: 'La voz de la operadora suena a través de la emisora: un cliente pide el taxi con el número de licencia 2325 para el Hotel Arts.'
+      },
+      {
+        text: '¿Cuál es el número de licencia del taxi de Pepa?',
+        options: ['2235', '2352', '2325', '3225'],
+        correct: 2,
+        explanation: '«Soy yo, es mi número de licencia», piensa Pepa. El número es el 2325.'
+      },
+      {
+        text: '¿Por qué le parece raro a Pepa que el cliente pida un taxi con número de licencia concreto?',
+        options: [
+          'Porque ella nunca trabaja los viernes por la mañana',
+          'Porque normalmente la gente pide cualquier taxi, no uno en concreto',
+          'Porque su número de licencia no es público y nadie lo conoce',
+          'Porque el Hotel Arts siempre llama a la misma compañía'
+        ],
+        correct: 1,
+        explanation: '«La gente, cuando necesita un taxi, pide eso: un taxi. Pero cualquier taxi, no uno en concreto. ¡En fin!»'
+      },
+      {
+        text: '¿Quién está esperando a Pepa en la puerta del Hotel Arts?',
+        options: [
+          'Una clienta japonesa que quiere volver al aeropuerto',
+          'El hombre alto y rubio con coleta que recogió en Figueras',
+          'Un mensajero con un paquete para el taxi',
+          'El director del hotel para hablar de un contrato'
+        ],
+        correct: 1,
+        explanation: 'El hombre alto, rubio, con coleta y una bolsa verde, el que recogió en Figueras, está esperando en la puerta del hotel.'
+      },
+      {
+        text: '¿Qué le enseña el hombre a Pepa al acercarse a la ventanilla?',
+        options: [
+          'Su pasaporte y billete de avión',
+          'La bolsa verde',
+          'Una foto de su bolsa original',
+          'El recibo de la carrera del día anterior'
+        ],
+        correct: 1,
+        explanation: 'El hombre se acerca a la ventanilla y le enseña la bolsa a Pepa.'
+      },
+      {
+        text: '¿Cuál es el problema que plantea el hombre con la bolsa?',
+        options: [
+          'Que la bolsa está rota y quiere que Pepa la pague',
+          'Que la bolsa no es la suya: su bolsa también es verde pero no es esa',
+          'Que dentro de la bolsa falta dinero que había dejado',
+          'Que la bolsa huele mal y alguien la ha usado'
+        ],
+        correct: 1,
+        explanation: 'El tipo dice: «Esta no es mi bolsa. Mi bolsa también es verde, pero no es esta. ¿Dónde está mi bolsa?»'
+      },
+      {
+        text: '¿Cómo reacciona Pepa cuando el hombre le habla de la bolsa?',
+        options: [
+          'Se enfada y le dice que él mismo la dejó olvidada',
+          'Le dice sin comprender: «¿Cómo?»',
+          'Le devuelve la bolsa y le pide disculpas',
+          'Llama a la policía inmediatamente'
+        ],
+        correct: 1,
+        explanation: '—¿Cómo? —dice Pepa sin comprender.'
+      }
+    ]
+  },
+
+  'ex-18-1-4-2': {
+    id: 'ex-18-1-4-2',
+    type: 'fillblank',
+    title: 'Грамматика: Barcelona. Viernes, 1 de agosto. 12.00 h',
+    description: 'Напишите правильную форму глагола (pretérito perfecto, indefinido, imperfecto, presente de subjuntivo, futuro) или местоимения OD/OI',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Pepa solo _____ (dormir) cuatro horas: se fue a dormir a las seis y se levantó a las diez.', correct: 'ha dormido' },
+      { sentence: 'Pepa _____ (levantarse) a las diez de la mañana después de salir de fiesta con Raúl.', correct: 'se ha levantado' },
+      { sentence: 'Cuando Pepa _____ (salir) con Raúl, siempre pasa lo mismo: bares y más bares.', correct: 'sale' },
+      { sentence: 'Pepa _____ (recoger) primero a una pareja de turistas franceses y los llevó al Camp Nou.', correct: 'recogió' },
+      { sentence: 'Después de los franceses, _____ (subir) al taxi una señora elegante que iba a la zona alta.', correct: 'subió' },
+      { sentence: 'La señora elegante _____ (ir) a la zona alta de la ciudad cuando Pepa la recogió en el taxi.', correct: 'iba' },
+      { sentence: 'A continuación Pepa _____ (llevar) a tres chicas americanas a la playa de la Barceloneta.', correct: 'llevó' },
+      { sentence: 'La operadora _____ (pedir) el taxi con el número de licencia 2325 para el Hotel Arts.', correct: 'pidió' },
+      { sentence: '«¡Qué raro!» _____ (pensar) Pepa mientras bajaba por Vía Layetana hacia la playa.', correct: 'pensó' },
+      { sentence: 'Pepa _____ (dejar) a las chicas en la playa y se dirigió al Hotel Arts para atender el nuevo aviso.', correct: 'dejó' },
+      { sentence: 'El hombre alto le _____ (enseñar) la bolsa verde a Pepa al acercarse a la ventanilla del taxi.', correct: 'enseñó' },
+      { sentence: 'Pepa no _____ (comprender) lo que le decía el hombre: «¿Cómo?» fue lo único que dijo.', correct: 'comprendía' },
+      { sentence: 'Es muy extraño que el cliente _____ (pedir) un taxi con un número de licencia concreto.', correct: 'pida' },
+      { sentence: 'Espero que el hombre _____ (explicar) bien el problema de la bolsa para que Pepa pueda ayudarle.', correct: 'explique' },
+      { sentence: 'Si Pepa no encuentra la bolsa original del hombre, _____ (tener) un problema muy serio.', correct: 'tendrá' }
+    ]
+  },
+
+  'ex-18-1-4-3': {
+    id: 'ex-18-1-4-3',
+    type: 'translation',
+    title: 'Перевод: Barcelona. Viernes, 1 de agosto. 12.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Пепа едет в такси по Пасео де Грасия. Она устала, и у неё болит голова.',
+        correct: 'Pepa sube en el taxi por el Paseo de Gracia. Está cansada y le duele la cabeza.',
+        alternatives: ['Pepa conduce su taxi por el Paseo de Gracia; está cansada y tiene dolor de cabeza.']
+      },
+      {
+        russian: 'Когда она выходит с Раулем, всегда одно и то же: бар за баром, рюмка за рюмкой.',
+        correct: 'Cuando sale con su amigo Raúl siempre pasa lo mismo: bares y más bares; copas y más copas.',
+        alternatives: ['Cada vez que sale con Raúl es siempre lo mismo: bares y más bares, copas y más copas.']
+      },
+      {
+        russian: 'Она поспала всего четыре часа: легла в шесть утра и встала в десять.',
+        correct: 'Solo ha dormido cuatro horas: se fue a dormir a las seis de la mañana y se ha levantado a las diez.',
+        alternatives: ['Ha dormido solo cuatro horas: se acostó a las seis de la mañana y se despertó a las diez.']
+      },
+      {
+        russian: 'Сначала она забирает пару французских туристов и везёт их на Камп Ноу.',
+        correct: 'Primero recoge a una pareja de turistas franceses a los que lleva hasta el Camp Nou.',
+        alternatives: ['Primero recoge a dos turistas franceses y los lleva al Camp Nou, el estadio del Barça.']
+      },
+      {
+        russian: 'Она на минуту останавливается у бара, чтобы купить кока-колу.',
+        correct: 'Para un momento en un bar a comprar una Coca-Cola.',
+        alternatives: ['Se detiene un momento en un bar para comprarse una Coca-Cola.']
+      },
+      {
+        russian: 'Потом в такси садится элегантная дама, которая едет в богатый район города.',
+        correct: 'Después sube al taxi una señora elegante que va a la zona alta de la ciudad.',
+        alternatives: ['A continuación sube una señora elegante con destino a la zona alta de Barcelona.']
+      },
+      {
+        russian: 'Затем Пепа везёт трёх американских девушек на пляж Барселонета.',
+        correct: 'A continuación lleva a tres chicas americanas a la playa de la Barceloneta.',
+        alternatives: ['Después lleva a tres americanas a la Barceloneta.']
+      },
+      {
+        russian: 'По рации звучит голос диспетчера: клиент просит такси с номером лицензии 2325 для отеля Arts.',
+        correct: 'La voz de la operadora suena a través de la emisora: un cliente pide el taxi con el número de licencia 2325 para el Hotel Arts.',
+        alternatives: ['Por la emisora, la operadora anuncia que un cliente ha pedido el taxi 2325 para el Hotel Arts.']
+      },
+      {
+        russian: '«Странно! Люди обычно просят такси как таковое, но не конкретное».',
+        correct: '«¡Qué raro! La gente, cuando necesita un taxi, pide un taxi, pero no uno en concreto».',
+        alternatives: ['«Qué extraño: la gente pide un taxi cualquiera, no uno en concreto», piensa Pepa.']
+      },
+      {
+        russian: 'Пепа оставляет девушек на пляже и направляется к отелю Arts.',
+        correct: 'Pepa deja a las chicas en la playa y se dirige al Hotel Arts.',
+        alternatives: ['Pepa deja a las americanas en la Barceloneta y va hacia el Hotel Arts.']
+      },
+      {
+        russian: 'У входа в отель ждёт высокий светловолосый мужчина с хвостом и зелёной сумкой.',
+        correct: 'El hombre alto, rubio, con coleta y una bolsa verde está esperando en la puerta del hotel.',
+        alternatives: ['En la entrada del hotel espera el hombre alto y rubio con coleta y la bolsa verde.']
+      },
+      {
+        russian: 'Мужчина подходит к окошку и показывает Пепе зелёную сумку.',
+        correct: 'El hombre se acerca a la ventanilla y le enseña la bolsa verde a Pepa.',
+        alternatives: ['El tipo se acerca a la ventanilla del taxi y le muestra la bolsa verde a Pepa.']
+      },
+      {
+        russian: '«Это не моя сумка», — говорит он прямо. Пепа не понимает.',
+        correct: '«Esta no es mi bolsa», dice directamente. Pepa no comprende.',
+        alternatives: ['El hombre le dice directamente: «Esta bolsa no es mía». Pepa no entiende nada.']
+      },
+      {
+        russian: 'Важно, чтобы Пепа как можно скорее поняла проблему с сумкой.',
+        correct: 'Es importante que Pepa entienda el problema con la bolsa lo antes posible.',
+        alternatives: ['Es necesario que Pepa comprenda cuanto antes lo que ha pasado con la bolsa.']
+      },
+      {
+        russian: 'Если Пепа не найдёт его сумку, у неё будут очень серьёзные проблемы.',
+        correct: 'Si Pepa no encuentra su bolsa, tendrá un problema muy serio.',
+        alternatives: ['Si Pepa no localiza la bolsa del hombre, se va a meter en un buen lío.']
+      }
+    ]
   }
 
 }
