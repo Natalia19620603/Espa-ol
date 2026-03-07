@@ -58039,6 +58039,290 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Es una pena que Raúl no se dé cuenta de que los extranjeros no le entendían por su mala pronunciación, no por su culpa.']
       }
     ]
+  },
+
+  'ex-18-1-11-1': {
+    id: 'ex-18-1-11-1',
+    type: 'reading',
+    title: 'Понимание текста: Edificio The sun of the beach. 19.30 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Cuántas habitaciones tiene el apartamento 112?',
+        options: [
+          'Dos dormitorios, dos baños y una terraza',
+          'Un dormitorio, un baño y el salón-comedor con pequeña cocina',
+          'Tres dormitorios y un baño compartido',
+          'Un dormitorio grande con cocina americana integrada'
+        ],
+        correct: 1,
+        explanation: 'El apartamento tiene un dormitorio, un baño y el salón-comedor en el que están ahora, donde también hay una pequeña cocina.'
+      },
+      {
+        text: '¿Cómo soluciona Raúl el problema de que solo hay un dormitorio para cuatro personas?',
+        options: [
+          'Propone que las chicas duerman en el dormitorio y los chicos en la terraza',
+          'Sugiere que alguien vaya a dormir a un hotel de la urbanización',
+          'Propone usar el sofá rojo del salón para dormir',
+          'Pide al vecino de al lado que les preste una cama extra'
+        ],
+        correct: 2,
+        explanation: 'Raúl señala el sofá rojo y dice: «Solo hay un dormitorio, pero podemos usar el sofá para dormir».'
+      },
+      {
+        text: '¿Quién deja la maleta en el dormitorio?',
+        options: [
+          'Pepa, porque es la mayor y le corresponde el dormitorio',
+          'Álvaro, porque es el invitado y hay que tratarle bien',
+          'Raúl, que tiene la maleta más grande y necesita más espacio',
+          'Loli, que la deja allí nada más entrar en el apartamento'
+        ],
+        correct: 3,
+        explanation: 'Loli dice «Voy a dejar mis cosas en la habitación» y deja su maleta en el dormitorio.'
+      },
+      {
+        text: '¿Cómo es la maleta de Raúl y dónde la pone?',
+        options: [
+          'Es pequeña y moderna; la pone en el armario del dormitorio',
+          'Es grande y vieja; la pone encima del sofá rojo del salón',
+          'Es una mochila grande; la cuelga en el perchero de la entrada',
+          'Es mediana y azul; la pone debajo de la cama del dormitorio'
+        ],
+        correct: 1,
+        explanation: 'Raúl deja su maleta, una maleta grande y vieja, encima del sofá.'
+      },
+      {
+        text: '¿Qué encuentra Pepa cuando abre la nevera?',
+        options: [
+          'La nevera está completamente vacía: nadie ha comprado nada',
+          'Solo hay insulina y medicamentos de alguien',
+          'Solo hay agua mineral, sin comida',
+          'Hay agua y comida: la nevera está llena'
+        ],
+        correct: 3,
+        explanation: 'Pepa abre la nevera y dice: «La nevera está llena». Raúl reacciona: «¡Qué detalle! Nacho es un tío muy guay».'
+      },
+      {
+        text: '¿Qué problema tiene Pepa para ir a bañarse a la playa?',
+        options: [
+          'Está demasiado cansada del viaje y prefiere quedarse en la terraza',
+          'No tiene bañador, no lo ha traído con ella',
+          'Tiene miedo al agua y no sabe nadar muy bien',
+          'No quiere bañarse porque el agua del Mediterráneo está muy fría en agosto'
+        ],
+        correct: 1,
+        explanation: 'Pepa dice: «Yo no traigo bañador».'
+      },
+      {
+        text: '¿Cómo resuelve Loli el problema del bañador de Pepa?',
+        options: [
+          'Le dice que vaya a comprar uno en la tienda de la playa',
+          'Le presta su propio bañador y se queda ella en la terraza',
+          'Le ofrece uno de sus bikinis',
+          'Le dice que puede bañarse con ropa interior, que nadie la conoce allí'
+        ],
+        correct: 2,
+        explanation: 'Loli ofrece: «Yo te dejo uno de mis bikinis».'
+      },
+      {
+        text: '¿Cómo consigue Álvaro un bañador para bañarse?',
+        options: [
+          'Sale a comprar uno en una tienda de la urbanización antes de ir a la playa',
+          'Lo encuentra en el armario del apartamento entre las cosas de Nacho',
+          'Raúl saca dos bañadores de su maleta y le da uno',
+          'Loli le presta uno que tenía de repuesto en la maleta'
+        ],
+        correct: 2,
+        explanation: 'Raúl saca de la maleta dos bañadores y le da uno a Álvaro.'
+      },
+      {
+        text: '¿Qué hace Pepa mientras Álvaro está nadando en el mar?',
+        options: [
+          'Se queda leyendo tumbada en la toalla sin hablar con nadie',
+          'Se acerca a Raúl para hablar con él sobre Álvaro',
+          'Habla por teléfono con su jefa sobre el trabajo del fin de semana',
+          'Se mete al agua a nadar junto a Loli'
+        ],
+        correct: 1,
+        explanation: 'El texto dice: «Mientras Álvaro está nadando, Pepa se acerca a Raúl» para hablar sobre él.'
+      },
+      {
+        text: '¿Qué le pregunta Pepa a Raúl en la playa?',
+        options: [
+          'Si cree que Álvaro encontrará su bolsa con los documentos perdidos',
+          'Si piensa que es seguro que Álvaro conozca el apartamento de Nacho',
+          'Por qué le ha dicho a Álvaro que podía quedarse a dormir con ellos',
+          'Si Álvaro le ha dicho algo más sobre lo que había en la bolsa'
+        ],
+        correct: 2,
+        explanation: 'Pepa pregunta: «¿Por qué le has dicho a Álvaro que podía quedarse a dormir con nosotros?»'
+      },
+      {
+        text: '¿Qué responde Raúl cuando Pepa le pregunta por Álvaro?',
+        options: [
+          'Dice que Álvaro le parece muy simpático y de fiar',
+          'Pregunta si no le gusta Álvaro y dice que pensaba que le gustaba',
+          'Admite que no conoce bien a Álvaro y que quizás se equivocó',
+          'Dice que Álvaro le invita a cenar y por eso le ha dicho que se quede'
+        ],
+        correct: 1,
+        explanation: 'Raúl responde: «¿No te gusta Álvaro? Pensaba que te gustaba».'
+      },
+      {
+        text: '¿Cuál es la opinión de Loli sobre Álvaro?',
+        options: [
+          'Que es muy raro y no le da buena espina para nada',
+          'Que es demasiado misterioso y que no hay que fiarse de él',
+          'Que es muy pesado y habla demasiado de su bolsa perdida',
+          'Que «está bueno» — le parece atractivo'
+        ],
+        correct: 3,
+        explanation: 'La opinión de Loli sobre Álvaro es muy directa: «Está bueno».'
+      },
+      {
+        text: '¿Por qué le parece raro Álvaro a Pepa?',
+        options: [
+          'Porque no sabe a qué se dedica ni de dónde viene',
+          'Porque piensa en sus cambios de humor durante el viaje en taxi',
+          'Porque ha mentido claramente sobre el contenido de la bolsa',
+          'Porque ha sido muy grosero con Raúl al principio'
+        ],
+        correct: 1,
+        explanation: 'Pepa piensa en los cambios de humor de Álvaro durante el trayecto en taxi: de agresivo a encantador.'
+      },
+      {
+        text: '¿Cuál es la verdadera razón por la que Álvaro pide subir al apartamento?',
+        options: [
+          'Porque necesita ir urgentemente al baño, tal como dice',
+          'Para hacer una llamada privada sin que los demás le escuchen',
+          'Para registrar la maleta de Raúl buscando lo que contiene',
+          'Para cambiarse la ropa mojada y ponerse algo seco'
+        ],
+        correct: 2,
+        explanation: 'El narrador revela la intención real de Álvaro: pregunta al baño «con la intención de mirar lo que hay en la maleta de Raúl».'
+      },
+      {
+        text: '¿Qué le da Raúl a Álvaro para que pueda subir al apartamento?',
+        options: [
+          'Su teléfono móvil para que pueda llamar mientras está arriba',
+          'Dinero para que compre algo en el bar de la playa de camino',
+          'La dirección exacta del apartamento por si se pierde en el edificio',
+          'Las llaves del apartamento'
+        ],
+        correct: 3,
+        explanation: 'Raúl le da las llaves a Álvaro sin sospechar sus verdaderas intenciones.'
+      }
+    ]
+  },
+
+  'ex-18-1-11-2': {
+    id: 'ex-18-1-11-2',
+    type: 'fillblank',
+    title: 'Грамматика: Edificio The sun of the beach. 19.30 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → hoy/ya/todavía no — действие дня связано с настоящим. INDEFINIDO (hizo) → нарративная цепочка (sacó y dio, abrió y vio, bajaron, salió) — конкретные последовательные действия. IMPERFECTO → mientras + фон (mientras nadaba); мысль/намерение/состояние (pensaba, quería). PLUSCUAMPERFECTO → ДО другого прошлого момента. SUBJUNTIVO → es raro que / sin que. FUTURO → cuando suba...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: '—¿Por qué le _____ (decir, tú) a Álvaro que podía quedarse a dormir con nosotros? —pregunta Pepa a Raúl esta tarde en la playa.', correct: 'has dicho' },
+      { sentence: 'Pepa todavía no _____ (decidir) si Álvaro le gusta o no: «No lo sé», le confiesa a Raúl.', correct: 'ha decidido' },
+      { sentence: 'Raúl ya le _____ (dar) un bañador a Álvaro para que pudiera bañarse con ellos en la playa.', correct: 'ha dado' },
+      { sentence: 'Raúl _____ (sacar) dos bañadores de su maleta y le dio uno a Álvaro sin pensárselo.', correct: 'sacó' },
+      { sentence: 'Loli _____ (dejar) su maleta en el dormitorio nada más entrar en el apartamento.', correct: 'dejó' },
+      { sentence: 'Raúl _____ (dejar) su maleta grande y vieja encima del sofá rojo del salón-comedor.', correct: 'dejó' },
+      { sentence: 'Pepa _____ (abrir) la nevera y vio que había agua y mucha comida dentro.', correct: 'abrió' },
+      { sentence: 'Los cuatro _____ (bajar) juntos a la playa después de dejar las maletas en el apartamento.', correct: 'bajaron' },
+      { sentence: 'Álvaro _____ (salir) del agua y preguntó si podía subir un momento al apartamento.', correct: 'salió' },
+      { sentence: 'Raúl le _____ (entregar) las llaves a Álvaro cuando este dijo que necesitaba urgentemente ir al baño.', correct: 'entregó' },
+      { sentence: 'Raúl _____ (pensar) que a Pepa le gustaba Álvaro, pero ella dice que le parece raro y cambiante.', correct: 'pensaba' },
+      { sentence: 'Mientras Álvaro _____ (nadar) en el mar, Pepa aprovechó para hablar con Raúl sobre él.', correct: 'nadaba' },
+      { sentence: 'Álvaro _____ (querer) registrar la maleta de Raúl, por eso pidió subir al apartamento con el pretexto del baño.', correct: 'quería' },
+      { sentence: 'Es raro que Álvaro _____ (pedir) ir al baño justo en el momento en que las maletas están solas en el apartamento.', correct: 'pida' },
+      { sentence: 'Cuando Álvaro suba al apartamento, _____ (abrir) la maleta de Raúl y buscará lo que necesita encontrar.', correct: 'abrirá' }
+    ]
+  },
+
+  'ex-18-1-11-3': {
+    id: 'ex-18-1-11-3',
+    type: 'translation',
+    title: 'Перевод: Edificio The sun of the beach. 19.30 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Лоли, Пепа, Рауль и Альваро поднимаются в квартиру 112 здания «The sun of the beach».',
+        correct: 'Loli, Pepa, Raúl y Álvaro suben al apartamento 112 del edificio The sun of the beach.',
+        alternatives: ['Los cuatro suben al apartamento 112 del edificio The sun of the beach.']
+      },
+      {
+        russian: '«Какие виды!» — говорит Лоли, глядя на море с террасы.',
+        correct: '«¡Qué vistas!» —dice Loli, mirando el mar desde la terraza.',
+        alternatives: ['Loli mira el mar desde la terraza y exclama: «¡Qué vistas tan bonitas!»']
+      },
+      {
+        russian: 'В квартире одна спальня, ванная и гостиная с маленькой кухней.',
+        correct: 'El apartamento tiene un dormitorio, un baño y el salón-comedor con una pequeña cocina.',
+        alternatives: ['La vivienda cuenta con un dormitorio, un baño y un salón-comedor que incluye una pequeña cocina.']
+      },
+      {
+        russian: '«Здесь только одна спальня, но можно спать на диване» — говорит Рауль, указывая на красный диван.',
+        correct: '«Solo hay un dormitorio, pero podemos usar el sofá para dormir» —dice Raúl señalando un sofá rojo.',
+        alternatives: ['«Solo hay un dormitorio —dice Raúl señalando el sofá rojo—, pero el sofá también sirve para dormir».']
+      },
+      {
+        russian: 'Лоли оставляет свой чемодан в спальне. Рауль ставит свой большой старый чемодан на диван.',
+        correct: 'Loli deja su maleta en el dormitorio. Raúl deja su maleta, una maleta grande y vieja, encima del sofá.',
+        alternatives: ['Loli lleva su maleta al dormitorio. Raúl coloca la suya, grande y vieja, encima del sofá rojo.']
+      },
+      {
+        russian: 'Пепа открывает холодильник и видит, что он полон еды и воды.',
+        correct: 'Pepa abre la nevera y ve que hay agua y comida: la nevera está llena.',
+        alternatives: ['Pepa abre la nevera y comprueba que está llena de agua y comida.']
+      },
+      {
+        russian: '«Как мило! Начо — классный парень» — говорит Рауль.',
+        correct: '«¡Qué detalle! Nacho es un tío muy guay» —dice Raúl.',
+        alternatives: ['Raúl exclama: «¡Qué buena persona es Nacho! ¡Qué detalle ha tenido!»']
+      },
+      {
+        russian: 'Рауль достаёт из чемодана два купальника и даёт один Альваро.',
+        correct: 'Raúl saca de la maleta dos bañadores y le da uno a Álvaro.',
+        alternatives: ['Raúl abre la maleta, coge dos bañadores y le entrega uno a Álvaro.']
+      },
+      {
+        russian: 'Все четверо идут на пляж. Пока Альваро плавает, Пепа подходит к Раулю.',
+        correct: 'Los cuatro bajan a la playa. Mientras Álvaro está nadando, Pepa se acerca a Raúl.',
+        alternatives: ['Los cuatro van a la playa. Mientras Álvaro nada en el mar, Pepa aprovecha para hablar con Raúl.']
+      },
+      {
+        russian: '«Почему ты сегодня сказал Альваро, что он может остаться ночевать с нами?»',
+        correct: '«¿Por qué le has dicho a Álvaro que podía quedarse a dormir con nosotros?»',
+        alternatives: ['«¿Por qué le dijiste a Álvaro que se podía quedar a dormir en el apartamento?»']
+      },
+      {
+        russian: '«Разве тебе не нравится Альваро? Я думал, что нравится» — говорит Рауль.',
+        correct: '«¿No te gusta Álvaro? Pensaba que te gustaba» —dice Raúl.',
+        alternatives: ['«¿No te cae bien Álvaro? —pregunta Raúl—. Yo creía que te gustaba».']
+      },
+      {
+        russian: '«Да, но он странный» — думает Пепа о переменах настроения Альваро.',
+        correct: '«Sí, pero… Es raro» —piensa Pepa en los cambios de humor de Álvaro.',
+        alternatives: ['Pepa piensa en lo raro que es Álvaro con sus continuos cambios de humor y dice: «Sí, pero es muy raro».']
+      },
+      {
+        russian: '«Нравится он тебе или нет?» — «Не знаю».',
+        correct: '«¿Te gusta o no te gusta?» —«No lo sé».',
+        alternatives: ['«Dime: ¿te gusta o no?» —«La verdad es que no lo sé».']
+      },
+      {
+        russian: 'Альваро выходит из воды и просит подняться в квартиру — якобы в туалет, а на самом деле чтобы осмотреть чемодан Рауля.',
+        correct: 'Álvaro sale del agua y pide subir al apartamento —supuestamente para ir al baño, pero en realidad para registrar la maleta de Raúl.',
+        alternatives: ['Álvaro sale del mar y dice que necesita subir al baño, aunque su verdadera intención es mirar lo que hay en la maleta de Raúl.']
+      },
+      {
+        russian: 'Жаль, что Рауль доверяет Альваро и даёт ему ключи, не подозревая о его настоящих намерениях.',
+        correct: 'Es una lástima que Raúl confíe en Álvaro y le dé las llaves sin saber cuáles son sus verdaderas intenciones.',
+        alternatives: ['Es una pena que Raúl le dé las llaves a Álvaro sin sospechar que quiere registrar su maleta.']
+      }
+    ]
   }
 
 }
