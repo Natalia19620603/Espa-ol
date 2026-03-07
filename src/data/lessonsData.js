@@ -57755,6 +57755,290 @@ médium, capacidad, evolución, estímulo, autoridad, resto, nivel, grado, decis
         alternatives: ['Es una pena que ninguno de los dos se dé cuenta de que la noticia del robo tiene que ver con lo que les pasa.']
       }
     ]
+  },
+
+  'ex-18-1-10-1': {
+    id: 'ex-18-1-10-1',
+    type: 'reading',
+    title: 'Понимание текста: Empuriabrava. Terraza de un bar. 19.00 h',
+    description: 'Ответьте на вопросы по тексту',
+    questions: [
+      {
+        text: '¿Qué problema tienen Loli y Raúl cuando Pepa llega a la terraza del bar?',
+        options: [
+          'Han perdido las llaves del apartamento de Nacho',
+          'No pueden encontrar el apartamento después de más de una hora buscando',
+          'Raúl no tiene dinero para pagar las cervezas y los sándwiches',
+          'Loli no se encuentra bien y quiere volver a Barcelona'
+        ],
+        correct: 1,
+        explanation: 'El capítulo empieza así: «Loli y Raúl le han dicho a Pepa que no pueden encontrar el apartamento».'
+      },
+      {
+        text: '¿Qué solución propone Pepa para encontrar el apartamento?',
+        options: [
+          'Que llamen a Nacho a Londres para que les dé la dirección exacta',
+          'Que busquen el edificio en Google Maps con el móvil',
+          'Que pregunten al camarero del bar',
+          'Que vuelvan a la entrada de Empuriabrava y busquen desde allí'
+        ],
+        correct: 2,
+        explanation: 'Ante la duda de Raúl, Pepa responde directamente: «Pues al camarero, por ejemplo».'
+      },
+      {
+        text: '¿Por qué dice Raúl que no ha querido preguntar a nadie la dirección?',
+        options: [
+          'Porque creía que podía encontrar el apartamento solo siguiendo los canales',
+          'Porque la gente le mira con una cara (rara) cuando les pregunta',
+          'Porque no habla español con los extranjeros de Empuriabrava',
+          'Porque tiene vergüenza de admitir que no sabe inglés'
+        ],
+        correct: 1,
+        explanation: 'Raúl explica: «Pero es que… Pregunto y la gente me mira con una cara…», insinuando que le miran raro (probablemente por sus piercings y tatuajes).'
+      },
+      {
+        text: '¿Qué le pide Pepa a Raúl para resolver el problema?',
+        options: [
+          'El número de teléfono de Nacho para llamarle directamente',
+          'El móvil para buscar la dirección en internet',
+          'Las llaves, porque en el llavero hay un papel con la dirección',
+          'El nombre exacto del bar donde están para orientarse'
+        ],
+        correct: 2,
+        explanation: 'Pepa le dice: «Dame las llaves». Raúl le da las llaves y Pepa mira la dirección que hay en el papel del llavero.'
+      },
+      {
+        text: '¿Qué información hay en el papel del llavero?',
+        options: [
+          'La dirección completa: calle, número y piso del apartamento',
+          'Un mapa dibujado de la urbanización de Empuriabrava',
+          'El nombre del edificio: «The sun of the beach»',
+          'El número de teléfono de Nacho y el nombre del edificio'
+        ],
+        correct: 2,
+        explanation: 'Pepa mira la dirección que hay en el papel del llavero: «Edificio The sun of the beach».'
+      },
+      {
+        text: '¿Cómo describe el camarero la ubicación del edificio?',
+        options: [
+          'Dibuja un mapa en una servilleta con giros a la derecha y a la izquierda',
+          'Todo recto, al final de la calle, un edificio grande de color azul y blanco, frente al mar',
+          'Dice que está muy lejos y que es mejor ir en coche o en bici',
+          'Les da el nombre de la calle exacta y el número del edificio'
+        ],
+        correct: 1,
+        explanation: 'El camarero explica: «Todo recto. Al final de la calle. Es un edificio muy grande. De color azul y blanco. Frente al mar».'
+      },
+      {
+        text: '¿En qué idioma le pregunta Pepa al camarero?',
+        options: [
+          'En inglés, igual que intentaba Raúl',
+          'En catalán, porque están en Cataluña',
+          'En francés, porque el camarero parece francés',
+          'En español, y el camarero responde sin ningún problema'
+        ],
+        correct: 3,
+        explanation: 'Pepa simplemente le enseña el papel y pregunta en español. El camarero responde perfectamente en español: la solución era no usar el inglés inventado de Raúl.'
+      },
+      {
+        text: '¿Cuál es la reacción de Raúl al ver que Pepa consigue la dirección fácilmente?',
+        options: [
+          'Se alegra mucho y le da las gracias a Pepa por su ayuda',
+          'Se enfada porque él podría haberlo hecho exactamente igual',
+          'No dice nada y se queda avergonzado',
+          'Dice «¡Coño!» y afirma que es «lo mismo que yo decía», sin reconocer su error'
+        ],
+        correct: 3,
+        explanation: 'Raúl exclama «¡Coño!» y luego dice: «"Sanofabich". Lo mismo que yo decía», convencido de que su pronunciación era correcta.'
+      },
+      {
+        text: '¿Qué dice Loli sobre el inglés de Raúl en este capítulo?',
+        options: [
+          'Que habla inglés correctamente pero con mucho acento español',
+          'Que no sabe hablar inglés',
+          'Que debería practicar más antes del próximo viaje al extranjero',
+          'Que el problema no es el inglés sino que los extranjeros son antipáticos'
+        ],
+        correct: 1,
+        explanation: 'Loli le dice a Raúl sin rodeos: «No sabes hablar inglés».'
+      },
+      {
+        text: '¿Por qué quiere Loli llegar cuanto antes al apartamento?',
+        options: [
+          'Porque está muy cansada y quiere dormir una siesta',
+          'Porque quiere llamar a sus padres para decir que ha llegado bien',
+          'Porque quiere cambiarse de ropa',
+          'Porque quiere ver las vistas al mar desde la terraza del apartamento'
+        ],
+        correct: 2,
+        explanation: 'Loli dice: «Bueno, ¿vamos? Quiero cambiarme de ropa».'
+      },
+      {
+        text: '¿Qué responde Pepa cuando sus amigos le piden que se quede?',
+        options: [
+          'Que no puede porque tiene que trabajar el fin de semana con el taxi',
+          'Que sí, que le encanta Empuriabrava y se queda todo el fin de semana',
+          'Que está un poco cansada, y pregunta a Álvaro si quiere volver a Barcelona',
+          'Que primero tiene que hablar con su jefa y confirmar mañana'
+        ],
+        correct: 2,
+        explanation: 'Pepa dice: «Yo… Bueno… Estoy un poco cansada» y luego mira a Álvaro y le pregunta si él quiere volver a Barcelona.'
+      },
+      {
+        text: '¿Quiere Álvaro volver a Barcelona ese mismo día?',
+        options: [
+          'Sí, tiene asuntos pendientes y debe volver urgentemente',
+          'No ha decidido todavía y prefiere esperar a ver el apartamento',
+          'No, quiere quedarse y conocer Empuriabrava',
+          'Sí, pero solo si Pepa también vuelve con él'
+        ],
+        correct: 2,
+        explanation: 'Álvaro responde claramente: «No. Yo quiero quedarme y conocer Empuriabrava».'
+      },
+      {
+        text: '¿Cómo agradece Álvaro a Raúl que le deje quedarse en el apartamento?',
+        options: [
+          'Le promete buscar su bolsa perdida al día siguiente',
+          'Le invita a todos a cenar',
+          'Le ofrece pagar el alquiler del apartamento del fin de semana',
+          'Le regala su propia bolsa como gesto de amistad'
+        ],
+        correct: 1,
+        explanation: 'Álvaro dice: «¿De verdad puedo quedarme en tu apartamento? Gracias, Raúl. Eres muy amable. Os invito a todos a cenar».'
+      },
+      {
+        text: '¿Qué plan proponen Raúl y Loli para el resto de la tarde-noche?',
+        options: [
+          'Ir primero a cenar y después ver el apartamento',
+          'Ver el apartamento, dejar las cosas y luego bañarse',
+          'Ir directamente a la playa antes de que se haga de noche',
+          'Descansar en el bar hasta que anochezca y luego ir al apartamento'
+        ],
+        correct: 1,
+        explanation: 'Raúl y Loli dicen: «Vamos a ver el apartamento y a dejar las cosas. Luego, podemos bañarnos».'
+      },
+      {
+        text: '¿Qué error de lógica comete Raúl al final del capítulo?',
+        options: [
+          'Cree que Pepa ha usado un mapa para encontrar el edificio',
+          'Cree que el camarero habla inglés y por eso le entendió',
+          'Cree que «Sanofabich» es inglés correcto y que él decía lo mismo que Pepa',
+          'Cree que el edificio estaba en la dirección opuesta a la que indicó el camarero'
+        ],
+        correct: 2,
+        explanation: 'Raúl dice: «"Sanofabich". Lo mismo que yo decía», sin entender que el problema era que preguntaba en un inglés inventado a personas que simplemente necesitaban oír el nombre en español.'
+      }
+    ]
+  },
+
+  'ex-18-1-10-2': {
+    id: 'ex-18-1-10-2',
+    type: 'fillblank',
+    title: 'Грамматика: Empuriabrava. Terraza de un bar. 19.00 h',
+    description: 'Напишите правильную форму глагола. ПРАВИЛО: PERFECTO (ha hecho) → ya / resultado en presente / «только что» в этом же разговоре (¿qué le has preguntado? → le he preguntado = только что, в этом разговоре). INDEFINIDO (hizo) → нарративные моменты (dio, se levantó, enseñó, dijo). IMPERFECTO → habitual/повторяемое (decía = всё время говорил; miraba = каждый раз смотрели). PLUSCUAMPERFECTO → ДО другого прошлого. SUBJUNTIVO → es increíble que / propone que. FUTURO → esta noche / cuando lleguen...',
+    showAnswerOption: true,
+    questions: [
+      { sentence: 'Loli y Raúl ya le _____ (decir) a Pepa que llevan más de una hora sin poder encontrar el apartamento.', correct: 'han dicho' },
+      { sentence: '—¿Qué le _____ (preguntar, tú) al camarero, Pepa? —pregunta Raúl nada más ver que ella obtiene la dirección.', correct: 'has preguntado' },
+      { sentence: '—Le _____ (preguntar, yo) dónde está el edificio The sun of the beach —responde Pepa con calma.', correct: 'he preguntado' },
+      { sentence: 'Pepa ya _____ (conseguir) la dirección del edificio en menos de un minuto hablando en español.', correct: 'ha conseguido' },
+      { sentence: 'Raúl le _____ (dar) las llaves a Pepa en cuanto ella se las pidió, sin preguntar para qué las quería.', correct: 'dio' },
+      { sentence: 'Pepa _____ (levantarse), se acercó al camarero y le enseñó el papel del llavero con el nombre del edificio.', correct: 'se levantó' },
+      { sentence: 'El camarero les _____ (decir) que el edificio estaba todo recto, al final de la calle, azul y blanco.', correct: 'dijo' },
+      { sentence: 'Pepa le _____ (enseñar) al camarero el papel del llavero y él supo inmediatamente de qué edificio se trataba.', correct: 'enseñó' },
+      { sentence: '—Lo mismo que yo _____ (decir) —afirma Raúl, convencido de que «Sanofabich» era inglés perfectamente válido.', correct: 'decía' },
+      { sentence: 'La gente _____ (mirar) a Raúl con una cara rara cada vez que él intentaba preguntar la dirección del edificio.', correct: 'miraba' },
+      { sentence: 'Raúl no _____ (poder) encontrar el apartamento en más de una hora antes de que Pepa llegara y preguntara al camarero.', correct: 'había podido' },
+      { sentence: 'Es increíble que Raúl no _____ (entender) que el problema era su pronunciación del inglés, no los extranjeros.', correct: 'entienda' },
+      { sentence: 'Álvaro propone que todos _____ (cenar) juntos esta noche para celebrar el inicio de las vacaciones en Empuriabrava.', correct: 'cenen' },
+      { sentence: 'Esta noche Álvaro _____ (invitar) a todos a cenar en un restaurante de Empuriabrava como gesto de agradecimiento.', correct: 'invitará' },
+      { sentence: 'Cuando lleguen al apartamento, Loli _____ (cambiarse) de ropa y luego todos podrán bajar a la playa.', correct: 'se cambiará' }
+    ]
+  },
+
+  'ex-18-1-10-3': {
+    id: 'ex-18-1-10-3',
+    type: 'translation',
+    title: 'Перевод: Empuriabrava. Terraza de un bar. 19.00 h',
+    description: 'Переведите предложения с русского на испанский',
+    showAnswerOption: true,
+    questions: [
+      {
+        russian: 'Лоли и Рауль уже сказали Пепе, что не могут найти квартиру.',
+        correct: 'Loli y Raúl ya le han dicho a Pepa que no pueden encontrar el apartamento.',
+        alternatives: ['Loli y Raúl le han dicho a Pepa que llevan más de una hora sin encontrar el apartamento.']
+      },
+      {
+        russian: '«Ну, и у кого же спрашивать?» — «Например, у официанта».',
+        correct: '«A ver a quién preguntamos» — «Pues al camarero, por ejemplo».',
+        alternatives: ['«¿Y a quién le preguntamos la dirección?» — «Al camarero, por ejemplo».']
+      },
+      {
+        russian: '«Я спрашиваю, а люди смотрят на меня с таким лицом...»',
+        correct: '«Pero es que… Pregunto y la gente me mira con una cara…»',
+        alternatives: ['«Es que cuando pregunto, la gente me mira de una manera muy rara…»']
+      },
+      {
+        russian: '«Дай мне ключи» — говорит Пепа. Рауль даёт ей ключи.',
+        correct: '«Dame las llaves» —dice Pepa. Raúl le da las llaves.',
+        alternatives: ['Pepa le pide las llaves a Raúl y él se las da sin preguntar nada.']
+      },
+      {
+        russian: 'Пепа смотрит на адрес, написанный на бумажке на брелоке: «Edificio The sun of the beach».',
+        correct: 'Pepa mira la dirección que hay en el papel del llavero: «Edificio The sun of the beach».',
+        alternatives: ['Pepa lee el papel que hay en el llavero: pone «Edificio The sun of the beach».']
+      },
+      {
+        russian: 'Пепа встаёт, подходит к официанту и показывает ему бумажку.',
+        correct: 'Pepa se levanta, se acerca al camarero y le enseña el papel.',
+        alternatives: ['Pepa se levanta de la silla, va hacia el camarero y le muestra el papel del llavero.']
+      },
+      {
+        russian: '«Прямо. В конце улицы. Большое здание. Синего и белого цвета. Напротив моря».',
+        correct: '«Todo recto. Al final de la calle. Es un edificio muy grande. De color azul y blanco. Frente al mar».',
+        alternatives: ['«Siga todo recto hasta el final de la calle. Es un edificio grande, azul y blanco, frente al mar».']
+      },
+      {
+        russian: '«Ну и дела!» — говорит Рауль. — «То же самое, что я и говорил. 'Санофабич'».',
+        correct: '«¡Coño!» —dice Raúl—. «Lo mismo que yo decía. 'Sanofabich'».',
+        alternatives: ['Raúl exclama «¡Coño!» y dice que es exactamente lo mismo que él decía: «Sanofabich».']
+      },
+      {
+        russian: '«Ты не умеешь говорить по-английски» — говорит Лоли Раулю без обиняков.',
+        correct: '«No sabes hablar inglés» —le dice Loli a Raúl sin rodeos.',
+        alternatives: ['Loli le dice a Raúl directamente: «Es que no sabes inglés, Raúl».']
+      },
+      {
+        russian: '«Что ты спросила у официанта, Пепа?» — «Я спросила, где находится здание The sun of the beach».',
+        correct: '«¿Qué le has preguntado al camarero, Pepa?» —«Le he preguntado dónde está el edificio The sun of the beach».',
+        alternatives: ['«¿Qué le dijiste al camarero?» —«Le pregunté dónde está el edificio The sun of the beach».']
+      },
+      {
+        russian: '«Пепа, ты же остаёшься, правда?» — «Я немного устала» — говорит Пепа, глядя на Альваро.',
+        correct: '«Pepa, tú te quedas, ¿no?» —«Estoy un poco cansada» —dice Pepa mirando a Álvaro.',
+        alternatives: ['«¿Te quedas con nosotros, Pepa?» —«Bueno… Estoy un poco cansada» —responde Pepa sin dejar de mirar a Álvaro.']
+      },
+      {
+        russian: '«Нет. Я хочу остаться и познакомиться с Эмпуриабравой» — говорит Альваро.',
+        correct: '«No. Yo quiero quedarme y conocer Empuriabrava» —dice Álvaro.',
+        alternatives: ['Álvaro dice que no quiere volver a Barcelona: quiere quedarse y ver Empuriabrava.']
+      },
+      {
+        russian: '«Спасибо, Рауль. Ты очень любезен. Я приглашаю всех на ужин».',
+        correct: '«Gracias, Raúl. Eres muy amable. Os invito a todos a cenar».',
+        alternatives: ['«Muchas gracias, Raúl. Eres muy majo. Esta noche os invito a cenar a todos».']
+      },
+      {
+        russian: '«Пойдём посмотрим квартиру и оставим вещи. Потом можно будет искупаться».',
+        correct: '«Vamos a ver el apartamento y a dejar las cosas. Luego, podemos bañarnos».',
+        alternatives: ['«Vamos al apartamento, dejamos las cosas y luego nos damos un baño».']
+      },
+      {
+        russian: 'Жаль, что Рауль не понимает: проблема была не в иностранцах, а в его произношении.',
+        correct: 'Es una lástima que Raúl no entienda que el problema no era de los extranjeros, sino de su pronunciación.',
+        alternatives: ['Es una pena que Raúl no se dé cuenta de que los extranjeros no le entendían por su mala pronunciación, no por su culpa.']
+      }
+    ]
   }
 
 }
